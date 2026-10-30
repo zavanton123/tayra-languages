@@ -1,0 +1,100 @@
+1	9601	sõjakas	sõjakas sõjakad sõjaka sõjakalt sõjakaks
+2	9602	leppimine	leppimine leppimise leppimiseks
+3	9603	verekaotus	verekaotus verekaotuse verekaotust verekaotusest verekaotusesse verekaotusse
+4	9604	suurtükivägi	suurtükivägi suurtükiväe suurtükiväge suurtükiväega
+5	9605	munapuder	munapuder munaputru munapudru munapudruga
+6	9606	koondis	koondise koondis koondises koondisest koondist koondisele
+7	9607	meeleavaldus	meeleavaldus meeleavaldused meeleavaldusel meeleavalduse meeleavaldusi meeleavalduste
+8	9608	kirjamees	kirjamehed kirjamees kirjameeste kirjamehi kirjameestel
+9	9609	tähtedevaheline	tähtedevahelise tähtedevaheline tähtedevahelist tähtedevahelises tähtedevaheliste tähtedevaheliseks tähtedevahelisse tähtedevahelised
+10	9610	torkehaav	torkehaav torkehaavad torkehaava torkehaavu torkehaavast torkehaavadega
+11	9611	postitus	postitust postitus postituse postitused postitusi
+12	9612	sinnamaani	sinnamaani
+13	9613	selgemalt	selgemalt
+14	9614	lihtsaim	lihtsaim
+15	9615	tuksis	tuksis
+16	9616	ilmaaegu	ilmaaegu
+17	9617	ühtmoodi	ühtmoodi
+18	9618	meeltmööda	meeltmööda
+19	9619	maag	maag maagide
+20	9620	kaskadöör	kaskadöör kaskadööri kaskadöörid
+21	9621	leevendus	leevendust leevendus leevenduseks
+22	9622	aktivist	aktivist aktivistid aktivisti aktivistide
+23	9623	sissetungimine	sissetungimise sissetungimine sissetungimisest
+24	9624	uputus	uputus uputuse uputust uputusega
+25	9625	mineraalvesi	mineraalvett mineraalvesi mineraalvee mineraalveega
+26	9626	asteek	asteekide asteegid asteegi
+27	9627	kõrvaliste	kõrvalistmel kõrvaliste kõrvalistmele kõrvalistme
+28	9628	väljaandmine	väljaandmise väljaandmist väljaandmine
+29	9629	tuumasõda	tuumasõja tuumasõda tuumasõjas
+30	9630	päevaplaan	päevaplaani päevaplaan päevaplaanis
+31	9631	mehisus	mehisust mehisuse mehisus mehisusest mehisusega
+32	9632	väitlus	väitlus väitluse väitlust väitlusele väitluses väitlusest
+33	9633	peeker	peeker peekri peekrit peekrist peekrid
+34	9634	primaat	primaadid primaatide primaat primaate primaatidest
+35	9635	jahuma	jahub jahuma jahuda jahute jahuvad jahunud jahun
+36	9636	omistama	omistada omistatud omistatakse omistati omistab omistan omistanud omistas omistad
+37	9637	pädevus	pädevuses pädevusse pädevust pädevuse pädevus pädevusest
+38	9638	nördima	nördinud nördima
+39	9639	kivistuma	kivistunud kivistus kivistusid
+40	9640	ärtu	ärtu ärtud ärtut
+41	9641	hoolas	hoolas hoolsad
+42	9642	saladuskate	saladuskatte saladuskate saladuskatet
+43	9643	saaja	saaja saajate saajaks
+44	9644	rant	randi randid randiga randile
+45	9645	hilp	hilbud hilpe hilpude
+46	9646	lõppemine	lõppemist lõppemise lõppemine
+47	9647	teipima	teibitud teipisin teipida teipis teipima teibin
+48	9648	reeturlik	reeturlik reeturliku reeturlikud reeturlike reeturlikku
+49	9649	varbaküüs	varbaküüned varbaküüsi varbaküüs varbaküünte varbaküüne
+50	9650	sorts	sortsid sortsi sortsu sortside sortsiga
+51	9651	vigur	vigur vigureid vigurid vigurit viguriga
+52	9652	tuluõhtu	tuluõhtu tuluõhtul tuluõhtule tuluõhtut tuluõhtust
+53	9653	roostetama	roostetanud roostetab roostetama roostetavad roosteta roostetada roostetamas
+54	9654	videomakk	videomakki videomakk videomaki videomakid
+55	9655	purema	pureda puretud pureb pure pures purevad
+56	9656	sõjategevus	sõjategevuse sõjategevus sõjategevust sõjategevuseks sõjategevuses sõjategevusega sõjategevusse
+57	9657	teostamine	teostamiseks teostamine teostamist teostamisel teostamise
+58	9658	sealtpoolt	sealtpoolt
+59	9659	nohu	nohu
+60	9660	kahekorra	kahekorra
+61	9661	vana-aasta	vana-aasta
+62	9662	häbilugu	häbilugu
+63	9663	priima	priima priimad
+64	9664	kükk	kükita kükke kükki
+65	9665	kandidatuur	kandidatuuri kandidatuur kandidatuurist
+66	9666	penitsilliin	penitsilliini penitsilliin
+67	9667	minia	minia miniat minial miniaga miniale
+68	9668	koolipoiss	koolipoiss koolipoisi koolipoisid koolipoissi koolipoiste
+69	9669	agar	agar agaralt agarad
+70	9670	valguskiir	valguskiir valguskiire valguskiired valguskiirt valguskiiri
+71	9671	põrn	põrn põrna põrnast
+72	9672	külluslik	külluslik külluslikult küllusliku külluslikku
+73	9673	varumees	varumees varumeeste varumehed varumehi varumeheks varumehe varumeest
+74	9674	hipodroom	hipodroomil hipodroomile hipodroom hipodroomi hipodroomilt
+75	9675	taimestik	taimestik taimestiku taimestikku taimestikuga
+76	9676	lesima	lesida lesib lesin lesid lesides lesime lesima lesi
+77	9677	hingus	hingus hingusele hingust hinguse hingusega
+78	9678	tutvustus	tutvustus tutvustuse tutvustust tutvustuseks tutvustused
+79	9679	korsett	korsetti korsett korseti korsette korsetis
+80	9680	rahvuspark	rahvuspark rahvuspargis rahvuspargi rahvusparki rahvuspargist
+81	9681	ülekaalukas	ülekaalukalt ülekaalukas ülekaaluka ülekaalukate ülekaalukad ülekaalukat
+82	9682	toksiline	toksiline toksilisi toksilised toksiliste toksilise toksilist
+83	9683	sõeluma	sõeluda sõeluvad sõeluma sõelub sõelusin sõelunud sõeludes sõelutud sõelun
+84	9684	karupoeg	karupoeg karupojad karupoegi karupoegade
+85	9685	pusa	pusa pusaga pusad pusasid
+86	9686	arutu	arutu arutud arutut arutuid
+87	9687	väiklane	väiklane väiklased väiklase väiklaselt väiklast
+88	9688	raudmees	raudmees raudmehe raudmeest
+89	9689	jõustuma	jõustub jõustunud jõustus jõustuks
+90	9690	riiv	riivi riiv
+91	9691	lähenev	lähenev läheneva
+92	9692	all-linn	all-linnas all-linna all-linnast
+93	9693	detektor	detektor detektori detektorid detektorit detektoriga
+94	9694	töökohustus	töökohustuste töökohustusi töökohustused töökohustustest
+95	9695	rulett	ruletti rulett ruleti ruletis ruletiga
+96	9696	ego	egoga egole egod egost egosid
+97	9697	kaevandama	kaevandada kaevandama kaevandatud kaevandame kaevandati kaevandavad kaevandanud kaevandatakse
+98	9698	pühapäevane	pühapäevane pühapäevase pühapäevasel pühapäevased pühapäevasele pühapäevaseks
+99	9699	nõelama	nõelab nõelavad nõelanud nõelan nõelatud nõelati nõela nõelad nõelata nõelas nõelasid nõelaks
+100	9700	apostel	apostel apostlite apostlid apostli apostlit

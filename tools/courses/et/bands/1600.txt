@@ -1,0 +1,100 @@
+1	1501	kelder	keldris keldrisse kelder keldrist keldri keldrit keldrites keldrid keldreid keldritesse keldrini keldritest keldriga
+2	1502	üllatunud	üllatunud üllatunult üllatunut
+3	1503	valama	vala valada valan valatud valas valanud valab valama valage valasin valasid valad valame valatakse valavad valati valades valaks valasime valate valaksid valamas valasite valamata valaksin valataks valata
+4	1504	väärima	väärib väärin väärivad väärinud väärime väärite vääriti väärisin vääriksid väärida väärivat väärinuks vääriksin väärisime
+5	1505	pahane	pahane pahaseks pahased pahasena
+6	1506	varustus	varustus varustust varustuse varustusega varustusest varustuses varustuseta varustusele varustusse varustused
+7	1507	haud	hauda haua haud hauas hauast haual hauale haudu hauad haudade hauani haudadest haudadel hauaks haudasid haudades haudadesse haualt haudadele
+8	1508	lint	lint linti lindi lindid lindile lindil linte lindilt lindiga lindist lindis lintidel lintidega lintide lintidest lintidelt
+9	1509	rohi	rohtu rohi rohud rohu rohtusid rohtude rohte rohus rohust rohtudest rohuga rohtudega rohul rohule rohtudes rohuta rohtudele rohtudeta rohuks
+10	1510	kamp	kamp kampa kamba kambaga kambale kambad kambal kampade kambaks kampasid kambalt kampades
+11	1511	tuletama	tuletada tuletan tuletab tuletama tuletas tuletage tuletasid tuletad tuletame tuletaks tuletavad tuletatud tuletasin tuletanud tuletatakse tuletaksin tuletades tuletate tuletamast tuletaksid tuletati tuletasite tuletamaks tuleta tuletamas
+12	1512	liikumine	liikumist liikumine liikumise liikumises liikumiseks liikumisest liikumisega liikumisi liikumised liikumisele liikumisel liikumiste liikumisse liikumistest
+13	1513	karu	karu karud karusid karude karuga karule karust karul karudega karudele karuks karudest karudel karus
+14	1514	märg	märg märjaks märgi märjad märja märga märgade märjas märjana märjem märjalt märjal märgadest märjale märjast märgasid märjaga
+15	1515	võitja	võitja võitjad võitjaks võitjat võitjate võitjale võitjaid võitjana võitjatele võitjaga võitjatega võitjatena võitjateks võitjast võitjal võitjatest
+16	1516	karp	karp karbi karpi karbis karbid karbist karpe karpide karbil karbiga karpides karbile karpidest karpidega karpidesse karbilt
+17	1517	särama	sära särav särab särama säravad särada särava säravat säras särad säramas säravaid särasid särage säraks säravas säran säravate säravaks säravalt särast särame säraga säravatest säravast säravale särades särate säravasse säravates säraksid säravana
+18	1518	terekest	terekest
+19	1519	nõukogu	nõukogu nõukogude nõukogus nõukogule nõukoguga nõukogust nõukogul nõukogusse nõukogult nõukokku
+20	1520	ülikond	ülikond ülikonda ülikonna ülikonnas ülikonnad ülikonnaga ülikondi ülikondades ülikonnast ülikondade ülikonnata ülikondadega ülikonnale ülikondasid ülikondadest ülikonnal ülikondadesse
+21	1521	preester	preester preestri preestrid preestrit preestriks preestriga preestrile preestreid preestrite preestrist preestrilt preestril preestritel preestritele preestrina preestritega preestritest preestriteks
+22	1522	esinema	esineb esineda esinema esinenud esines esinevad esine esinen esined esinesid esineme esinesin esinete esinemas esinedes esineks esinesime esinesite esisel esineksid esineksin esineksite
+23	1523	sõbrake	sõbrake sõbrakese
+24	1524	müts	müts mütsi mütsid mütsiga mütse mütsist mütsita mütsis mütsidega mütsile mütside mütsina mütsil mütsidest mütsiks
+25	1525	järjekordne	järjekordne järjekordse järjekordset järjekordselt järjekordseks järjekordsest järjekordsele järjekordsed järjekordsel järjekordsesse järjekordses järjekordsetest järjekordseid järjekordsete
+26	1526	odav	odav odavam odavalt odava odavad odavat odavamalt odavaid odavas odavate odavama odavast odavaks odavates odavasse odavatest odavana odavamaks odavatel odaval odavatele
+27	1527	vihm	vihma vihm vihmas vihmaga vihmast vihmale vihmad vihmade vihmana vihmal vihmata vihmaks
+28	1528	laupäev	laupäeval laupäeva laupäev laupäevaks laupäevani laupäevast laupäevad laupäevaga laupäevi
+29	1529	maks	makse maks maksud maksa maksude maksu maksad maksudest maksed makseid maksaks maksudega makset maksas maksete maksast maksaga maksale maksetega maksudeks maksusid maksata maksust maksudeta maksega maksetest maksudele maksal
+30	1530	samamoodi	samamoodi
+31	1531	tiib	tiivad tiibu tiiva tiib tiiba tiibadega tiibade tiival tiibadel tiivale tiivalt tiivaga tiibadeta tiibadesse tiibadest tiibadelt tiibadele tiivul tiibades
+32	1532	kumbki	kumbki kumbagi kummalgi kummalegi kummagi kummaski kummastki kummagagi kummaltki kummassegi
+33	1533	linnapea	linnapea linnapeaks linnapeale linnapead linnapeaga linnapeana linnapeal linnapealt linnapeast
+34	1534	noormees	noormees noormeest noormehe noormehed noormehega noormehele noormehel noormehi noormehest noormeeste noormehelt noormeheks noormeestest noormeestele noormeestega noormehes
+35	1535	suurus	suurus suurust suuruse suurusega suuruses suurusest suurused suuruselt suurusele suuruseks suurusel suuruseid suuruste suurusesse suurusi suurustes suurustega suuruseni suurusena
+36	1536	rott	rott rotid roti rotte rotti rottide rottidega rottidest rottidele rotiga rotist rotile rottidel rotiks rotil rotilt
+37	1537	saadik	saadik saadikud saadiku saadikut saadikuna saadikuga saadikule saadikuid saadikute saadikuks saadikutega saadikutele saadikust saadikul
+38	1538	järgima	järgida järgima järgin järgime järgib järgige järgivad järginud järgisin järgid järgis järgite järgisime järgiks järgiksid järgisite järgitakse järgitud järgiksin järgiv järgiksite järgimast järgitaks järgiksime järgiti järgivat
+39	1539	lukustama	lukustatud lukusta lukustada lukustas lukustage lukustasid lukustasin lukustanud lukustama lukustamata lukustan lukustab lukustame lukustavad lukustad lukustati lukustasime lukustatakse lukustaks lukustaksid lukustades lukustate lukustasite lukustaksin
+40	1540	hiilima	hiilida hiilis hiilib hiilima hiilisin hiilid hiilime hiili hiilisid hiilin hiilinud hiilivad hiiliv hiilisime hiilimas hiiliks hiilides hiilite hiilige hiilisite
+41	1541	maitsma	maitseb maitsta maitsnud maitsma maitske maitsema maitstes maitsmas
+42	1542	plahvatama	plahvatab plahvatas plahvatama plahvatada plahvatavad plahvatanud plahvata plahvataks plahvatasid plahvatan plahvatav plahvatamas plahvatad plahvatavat plahvatamata plahvataksid plahvatame plahvatamast plahvatasin
+43	1543	lagi	lagedale lae laena lakke laes lagi lage laest laed lagedaks lagedal lageda laeni laeks lagedad laeta lagesid laega lagedat lagede
+44	1544	absoluutne	absoluutselt absoluutne absoluutse absoluutset absoluutsed absoluutsele
+45	1545	udu	uttu udu udus udust uduga udusse udul udule uduks uduta uduna
+46	1546	toitma	toita toidab toitma toida toidan toidavad toidad toidetud toitis toidame toitnud toitsin toitsid toitev toidaks toidetakse toites toideti toidate toitke toitvat toitvad toitsime toitmas toidaksid toitva toitsite toitvaid toitku
+47	1547	nael	naela nael naelad naelu naelaga naelast naelale naelte naeltega naeltest naeltes
+48	1548	mõttetu	mõttetu mõttetus mõttetud mõttetut mõttetult mõttetuid mõttetuks mõttetust mõttetusi mõttetute mõttetuse mõttetule mõttetusse mõttetusest mõttetuna mõttetum mõttetutest mõttetuste mõttetul mõttetutele mõttetused mõttetusega mõttetusteks
+49	1549	arenema	arenenud areneb areneda arenevad arenesid arenes arenema arene arenedes arenev areneme arenemas arenen areneks arened areneva arenesin areneksid arenesime arenemata
+50	1550	liik	liiki liik liigi liigid liikide liike liigist liikidest liigile liigil liigiga liigiks liikidele liikidega liikidel liigina liiges liigilt liikideks
+51	1551	kook	kooki kook koogi koogid kooke koogist koogiga kookide koogile koogis kookidest kookidega koogil kookides kookidele koogiks
+52	1552	passima	passi passid passida passima passin passib passite passime passivad passinud passis passisin passige passiks passisid passides passisime passimas passiksin
+53	1553	pahandus	pahandusi pahandust pahandustesse pahandustest pahandused pahandus pahandustes pahanduste pahandusse pahanduse pahanduses pahandusega pahandusest pahandustega pahanduseks
+54	1554	eelnevalt	eelnevalt
+55	1555	ori	ori orjad orja orjade orje orjaks orjadeks orjana orjadena orjadega orjadele orjadest orjasid orjast orjadel orjaga orjale orjal orjata
+56	1556	saba	saba sabas sappa sabast sabaga sabad sabasid sabal sabale sabani sabu sabasse sabata sabade sabadega
+57	1557	tänapäev	tänapäeval tänapäeva tänapäev tänapäevani tänapäevalgi tänapäevast
+58	1558	võrdlema	võrreldes võrrelda võrreldav võrdle võrdlesin võrdleme võrdlema võrdled võrreldagi võrdlen võrdleb võrdlesime võrreldavad võrdlesid võrrelge võrdles võrrelnud võrreldakse võrdlevad võrreldavat võrdleks võrreldi võrdleva võrdlesite võrdleksid võrreldud võrdleksite võrdlete
+59	1559	lava	lavale lava laval lavalt lavadel lavast lavaks lavaga
+60	1560	loodus	looduse loodus looduses loodust loodusest loodusesse loodusega loodusele loodusel looduselt
+61	1561	pealik	pealik pealiku pealikuks pealikule pealikku pealikuga pealikud pealikul pealikult pealikut pealikuna pealike pealikust
+62	1562	aina	aina
+63	1563	kole	kole koledad koleda koledat koledaks koledaid koledam koledate koledal koledalt koledas koledast koledasse koledale koledatest koledaga koledatele koledana
+64	1564	mõningas	mõningaid mõningad mõningate mõningast mõningat mõningatel mõningatele mõningatest mõningates mõningal mõninga mõningatesse
+65	1565	läbima	läbinud läbida läbima läbib läbis läbisid läbivad läbisin läbitud läbime läbisime läbid läbimas läbin läbides läbisite läbiks läbitav läbite läbiksid läbitakse läbivat läbimata läbige
+66	1566	magamistuba	magamistoas magamistuba magamistuppa magamistoa magamistoast magamistoaga magamistoad magamistubades magamistube magamistubade magamistoaks magamistoal
+67	1567	seejärel	seejärel
+68	1568	pantvang	pantvangi pantvangid pantvang pantvange pantvangis pantvangide pantvangiks pantvangidest pantvangidega pantvangina pantvangiga pantvangidel pantvangideks pantvangidele pantvangile pantvangist
+69	1569	justkui	justkui
+70	1570	kaklema	kakelda kaklema kakle kaklevad kaklesid kakleme kakelnud kaklesime kakled kakelge kakles kaklete kaklesin kaklesite kaklemas kakleb kaklen kakleks kakeldes kakeldakse kakleksid kakleksin
+71	1571	piinlik	piinlik piinlikust piinlikku piinlikult piinlikuks piinliku piinlikum piinlikke piinlikud piinlikusse piinlikus piinlike
+72	1572	julgus	julgust julgus julguse julgusest julgusega julgusele julguses julguseks
+73	1573	viibima	viibida viibib viibinud viibis viibid viibin viibivad viibite viibima viibisid viibides viibisin viibi viibime viibisite viibiks viibisime viibivat viibiva viibiksid viibiv viibitud viibiksite
+74	1574	kirjeldama	kirjeldada kirjelda kirjeldas kirjeldab kirjeldasid kirjeldatud kirjeldamatu kirjeldage kirjeldavad kirjeldaksite kirjeldasin kirjeldan kirjeldad kirjeldatakse kirjeldaksid kirjeldaks kirjeldanud kirjeldate kirjeldasite kirjeldama kirjeldati kirjeldamaks kirjeldamatult kirjeldaksin kirjeldades kirjeldamatut kirjeldamatuid kirjeldamatud kirjeldav kirjeldame
+75	1575	tipp	tippu tipus tipp tipuks tipust tipu tipul tipud tipuni tippude tipuga tippe tipule tippudes tippudest
+76	1576	õiglane	õiglane õiglaselt õiglase õiglast õiglased õiglaseks õiglasena õiglaste õiglasele õiglasest õiglasel
+77	1577	sara	sara saraga sarale saras sarast saral saraks
+78	1578	pöörane	pöörane pööraselt pööraseks pöörased pöörase pööraseid pöörasena pööraste pöörasest pöörases pöörasel pöörasele pöörasteks
+79	1579	ida	ida itta idas idast idasse idal idale idaga
+80	1580	koorem	koorem koormat koorma koormaks koormaga koormaid koormad koormata koormast koormate koormas koormatega koormale
+81	1581	kilomeeter	kilomeetrit kilomeetri kilomeetrite kilomeetreid kilomeeter kilomeetrid kilomeetril
+82	1582	tagajärg	tagajärjed tagajärjel tagajärgi tagajärg tagajärgedega tagajärgede tagajärgedest tagajärgedele tagajärjeks tagajärgedeta tagajärge tagajärgedeks tagajärje tagajärjena tagajärgedeni tagajärjega
+83	1583	põnev	põnev põnevat põnevaks põnevad põnevaid põneva põnevalt põnevast põneval põnevate põnevasse põnevana põnevas põnevaga
+84	1584	paljas	paljaks paljas paljalt paljaste palja paljad paljast paljaid paljana paljale paljastest paljal paljastele
+85	1585	lõbu	lõbu lõppu lõbust lõbuks lõbuga lõbud lõbude lõbule lõbuta lõbudest lõbusid lõbudeks
+86	1586	käivitama	käivitada käivita käivitan käivitage käivitas käivitatud käivitab käivitame käivitama käivitasid käivitanud käivitasin käivitavad käivitad käivitasime käivitaks käivitati käivitatakse käivitades käivitamata käivitasite käivitaksid käivitate käivitamas
+87	1587	leidmine	leidmiseks leidmine leidmisel leidmise leidmist leidmisele leidmisest leidmises leidmiseni
+88	1588	tehnoloogia	tehnoloogia tehnoloogiat tehnoloogiaga tehnoloogiast tehnoloogiale tehnoloogiaid tehnoloogiad tehnoloogias tehnoloogial tehnoloogiate tehnoloogiasse tehnoloogiatega tehnoloogiatest tehnoloogiata tehnoloogiaks tehnoloogiatele
+89	1589	lahutama	lahutada lahutab lahutama lahuta lahutasid lahutas lahutavad lahutame lahutan lahutanud lahutasin lahutad lahutasime lahutate lahutage lahutati lahutatakse lahutaks lahutamas lahutasite lahutagu lahutades lahutaksid lahutaksin lahutata lahutataks lahutatu
+90	1590	tualett	tualetti tualetis tualett tualeti tualetist tualetid tualette tualettide tualettides tualetiga tualetiks
+91	1591	gaas	gaasi gaas gaasid gaasiga gaase gaaside gaasist gaasidest gaasiks gaasidega gaasil gaasilt gaasile gaasita gaasina
+92	1592	järv	järve järv järves järvest järvel järvele järved järvede järveni järvi järvedest järvega järvedes järveks järvelt
+93	1593	venelane	venelased venelane venelaste venelasi venelastega venelastele venelastel venelase venelast venelasest venelastest venelastelt venelasega venelasele venelasel
+94	1594	tohutu	tohutu tohutut tohutud tohutus tohutul tohutuid tohutute tohutust tohutule tohututes tohutuks tohutusse tohututest
+95	1595	fantastiline	fantastiline fantastilised fantastiliselt fantastilise fantastilist fantastilisi fantastilisest fantastiliseks fantastilisse fantastilisel fantastilisem
+96	1596	kiitma	kiida kiidetud kiita kiitnud kiidan kiitis kiidaks kiidab kiitma kiitsid kiitke kiidad kiidavad kiideti kiitsin kiidetakse kiidate kiitkem kiidame kiidaksin kiidaksid kiites kiitsite kiitsime kiitmast
+97	1597	kaal	kaalul kaalu kaal kaalus kaalule kaalust kaalud kaaluga kaaluta kaaluks kaalusid kaaludes kaale kaalult
+98	1598	argpüks	argpüks argpüksid argpüksi argpüksiks argpüksist argpükse argpükside argpüksina argpüksidele argpüksiga argpüksidest argpükstele argpüksideks argpüksidega argpükste argpüksidel argpüksile
+99	1599	tonn	tonni tonnide tonn tonne tonniga tonnist tonnid tonnides tonnile
+100	1600	puhuma	puhub puhu puhuks puhuda puhus puhuma puhun puhuvad puhutud puhud puhuge puhume puhunud puhusin puhumas puhusid puhudes puhuti puhutakse puhusime puhute puhuksid puhuv

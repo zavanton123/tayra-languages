@@ -1,0 +1,100 @@
+1	801	süütu	süütu süütuid süütud süütuse süütute süütust süütut süütus süütuks süütult süütuna süütutele süütule süütutest süütul süütutel süütum süütutega süütuteks süütutena
+2	802	lahke	lahke lahked lahkelt lahkem lahket lahkel lahkete lahkeks lahkeim lahkest lahkeid lahkemad lahkes lahkele lahkesse lahkemat
+3	803	õlu	õlut õlu õlle õlled õllega õllest õllele õllede õllesid õlles õlleta õlleks õlledega õllesse õllel
+4	804	kaheksa	kaheksa kaheksat kaheksas kaheksaks kaheksast kaheksani kaheksal kaheksad kaheksale kaheksaga kaheksate kaheksaid
+5	805	ime	ime imesid imet imed imes imeks imede imedesse imedes imest imega imedest imele imedele imedega imeta imel imedeks imesse
+6	806	kaugel	kaugel kaugemal
+7	807	seekord	seekord seekordki
+8	808	kaugus	kaugusel kaugusele kauguselt kaugus kauguses kaugust kaugusest kaugusesse kauguse kaugusse kaugustes kaugusega kaugustesse kauguste
+9	809	süsteem	süsteemi süsteem süsteemid süsteemis süsteemist süsteemide süsteeme süsteemile süsteemiga süsteemidest süsteemil süsteemidega süsteemidesse süsteemides süsteemidele süsteemiks süsteemini
+10	810	tuli	tuld tulega tulle tules tulesid tulest tulede tulele tuledega tulel tuledest tuledeta tuledes tulelt tuleni tuledele tuledel
+11	811	armuma	armunud armusin armuda armuma armub armu armun armuvad armusime armumas armunute armus armusid armutud armume armunut armunu armud armusite armuksid armununa armunutele armuksin armute armunuid armuks armuge armudes
+12	812	lõks	lõksu lõksus lõks lõksud lõkse lõksust lõksudest lõksuga lõksude lõksuks lõksudega lõksuna lõksuta
+13	813	teene	teene teenet teeneid teenete teened teenena teenetest teenega teeneks teenetega teenest teenele teenetele
+14	814	pomm	pomm pommi pommid pomme pommiga pommide pommist pommidega pommidest pommil pommile pommita pommiks pommidele pommides pommina pommini pommis pommilt
+15	815	lükkama	lükata lükka lükkas lükatud lükkan lükkama lükake lükkame lükkab lükati lükkasid lükkasin lükanud lükkad lükatakse lükkaks lükkavad lükates lükkasime lükkate lükkasite lükkaksid lükkamas lükkaksin lükkaksite lükkaksime lükataks
+16	816	arvestama	arvestades arvestada arvesta arvestama arvestanud arvestan arvestage arvestatud arvestasin arvestab arvestame arvestatav arvestamata arvestatakse arvestasid arvestas arvestav arvestad arvestavad arvestasime arvestata arvestatava arvestaks arvestate arvestatavat arvestaksid arvestatavad arvestati arvestaksin
+17	817	ava	ava avas avad avasid avaks avades avata avast avaga aval avasse avade avale
+18	818	segadus	segaduses segadus segadusse segadust segaduse segadusest segadusega segadusi segaduste segadused segaduseks segadusele segadustest
+19	819	sein	seina seinad seinale seinal sein seinte seinu seinast seintel seinas seintele seinaga seinalt seintes seintest seintega seintelt seintesse seinani seinade seinaks seinadel
+20	820	kael	kaela kaelas kael kaelast kaelal kaelani kaelaga kaelale kaelad kaelalt kaelus kaelu kaelust
+21	821	ohutu	ohutu ohutum ohutult ohutus ohutusse ohutut ohutud ohutuks ohutust ohutuim ohutuna ohutumaks ohutumasse ohutule ohutute ohutul ohutuid
+22	822	masin	masin masina masinad masinat masinaid masinaga masinate masinasse masinast masinas masinatega masinal masinale masinatest masinatele masinatel masinatesse masinalt masinaks masinates masinani
+23	823	kangelane	kangelane kangelased kangelast kangelase kangelaseks kangelasi kangelasena kangelaste kangelasest kangelasele kangelasteks kangelasega kangelastele kangelastest kangelastena kangelasel kangelastega kangelastes kangelastesse kangelastel kangelaselt
+24	824	kuluma	kulub kuluks kulus kulunud kulud kuluta kulusid kuluda kulude kulu kuluvad kuluksid kulutaks kuluma kulugu kuluv kuludes kulunuks
+25	825	täht	täht tähed tähti tähtede tähe tähte tähega tähtedega tähtedest tähest tähis tähtedeni tähtedele täheks tähtedelt tähtedes tähtedel tähelt tähel täheni tähtedesse tähtedeks tähena tähes tähist tähtedena täheta
+26	826	kaunis	kaunis kaunid kauni kaunist kaunim kauneid kauneim kaunilt kaunile kaunite kauniks kaunil kaunisse kaunimat kaunimaid kaunina kauneimaid kaunitest kaunitele
+27	827	hirmutama	hirmutada hirmutab hirmutav hirmutad hirmutas hirmutasid hirmutavad hirmutama hirmutanud hirmutasin hirmutan hirmutate hirmutatud hirmutaks hirmutame hirmuta hirmutasime hirmutasite hirmutavat hirmutage hirmutatakse hirmutades hirmutati hirmutaksid hirmutamata
+28	828	peksma	peksa peksis peksta peksid peksan peksab peksma peksti pekstud peksavad peksnud peksad peksin peksame pekstakse pekske peksaks peksite pekstes peksmas peksime peksate peksaksin peksaksid pekstaks peksev peksmast
+29	829	koletis	koletis koletised koletise koletist koletisi koletiseks koletiste koletisega koletistest koletisest koletistega koletisele koletisel koletisteks koletisena koletistel koletistele koletisse koletistesse koletistena koletiselt
+30	830	kuskil	kuskil
+31	831	auk	auk auku augu august augud auke augus auguga aukude aukudesse aukudest augule aukudega auguks aukudes auguni augul aukudeta
+32	832	eesmärk	eesmärk eesmärgi eesmärgil eesmärgiks eesmärki eesmärgiga eesmärgid eesmärke eesmärgile eesmärkidel eesmärkide eesmärgist eesmärgini eesmärkidega eesmärkidest eesmärgita eesmärkidele eesmärkideks eesmärkides eesmärgis eesmärgina
+33	833	võimas	võimas võimsam võimsad võimsa võimsaim võimast võimsat võimsaks võimsamaks võimsama võimsaid võimsalt võimsate võimsamaid võimsale võimsast võimsana võimsas võimsatest võimsal võimsatele võimsateks võimsamaga
+34	834	ronima	roni ronida ronige ronima ronis ronib ronin ronisid ronid ronisin ronivad ronime roninud roniks ronides ronisime ronimas ronite roniksid ronisite roniksin roniv ronigu
+35	835	suund	suunas suunda suund suunata suunast suunaga suunal suunad suundades suuna suunaks suundadesse suundadest suunalt suuniseid suundi suunale
+36	836	vaev	vaeva vaevu vaev vaevaga vaevadest vaeval vaevade
+37	837	juus	juuksed juukseid juustega juukse juus juuste juusteta juustes juustest juustesse juustele juustel
+38	838	sada	sada sadu saja sajad sadade sajast sajani sadat sajaga sadadest saju sajaks sajas sadasid sajale sadadele sajal sadades sadadesse sadadel sajust sajuga sajule
+39	839	teineteise	teineteist teineteise teineteisele teineteisega teineteisest teineteisel teineteisesse teineteiselt teineteiseta teineteises
+40	840	kingitus	kingitus kingituse kingitusi kingitust kingitused kingituseks kingituste kingitustega kingitusega kingitusena kingitusest kingitustest kingitusteks kingituseta kingitusele kingitustele
+41	841	praegune	praeguseks praegusel praegune praeguse praegusest praeguseni praegust praeguses praegused praeguste praegusele praegusega praegusesse praegustel praeguseid praegustest praegustes praegusi praeguselt praegustele
+42	842	segane	segane segased segaseks segast segase segaselt segaseid segasem segaste segasemaks segasena segases segasele segasest segastest segasel segastel segastele segasega segasteks segastega
+43	843	tagumik	tagumik tagumikku tagumiku tagumikus tagumikust tagumikud tagumikuga tagumikule tagumikke tagumikul tagumike tagumikest tagumikult tagumikega tagumikuks tagumikele tagumikkude tagumikuni tagumikkudest
+44	844	kontor	kontoris kontorisse kontor kontorist kontori kontorit kontorid kontoriga kontorile kontoreid kontorites kontoril kontorite kontoriks kontoritest kontoritesse kontorina kontorini
+45	845	soovitama	soovitan soovitas soovitad soovitada soovitasin soovitab soovitaksin soovitasid soovitate soovitame soovitanud soovitavad soovitati soovitaksid soovitatakse soovitatud soovitatav soovitama soovitaks soovitasite soovitaksite soovitatavalt soovitata soovitades soovitage soovitav soovita soovitavalt soovitamast soovitaksime soovitasime
+46	846	väitma	väidab väidad väitis väidavad väita väidate väitsid väida väidan väitnud väites väidetakse väidetav väitsite väidame väitsin väideti väitma väidaks väidetavat väidetud väidaksin väidaksid väitsime
+47	847	hoiatama	hoiatan hoiatama hoiatada hoiatasin hoiatas hoiatanud hoiata hoiatatud hoiatasid hoiatati hoiatab hoiatamata hoiatavad hoiatage hoiatame hoiatamast hoiatad hoiatav hoiatasime hoiatava hoiataks hoiatatakse hoiatasite hoiatades hoiatavat hoiatamaks hoiatamas hoiatavaid hoiataksid hoiatavaks
+48	848	häda	häda hädas hätta hädast hädad hädade hädasid hädadest hädale hädasse hädades hädal hädadega hädaga hädadesse hädaks
+49	849	meenutama	meenutab meenutada meenuta meenutad meenutas meenutama meenutan meenutavad meenutaks meenutame meenutasid meenutate meenutage meenutasin meenutades meenutamaks meenutaksid meenutanud meenutasime meenutamast meenutatakse meenutagem meenutav meenutasite meenutamata meenutataks meenutati meenutaksite meenutaksin meenutamas meenutava meenutavat
+50	850	nahk	nahka nahk naha nahaga nahast nahas nahal nahale nahad nahku nahata nahalt nahkade nahani
+51	851	üllatus	üllatus üllatusi üllatuse üllatust üllatuseks üllatusena üllatused üllatustest üllatusega üllatusest üllatuste üllatustega üllatusteta üllatusele
+52	852	klass	klassi klassis klass klassist klassile klassiga klassid klassides klasside klassini klassidesse klasse klassiks klassil klassidest klassidele
+53	853	lootus	lootust lootus lootuse lootuses lootused lootusi lootustki lootusega lootuste lootuseta lootusest lootuseks lootusele lootustest lootustele lootusel lootuseid lootustega lootusesse lootustes
+54	854	päike	päike päikese päikest päikesest päikse päikesele päikesega päikesesse päikeselt päikene päikesel päikesed päikeses päikeseta päikeseks päiksega päiksest päikeste päikeseid päiksele päiksesse päikeseni
+55	855	täiuslik	täiuslik täiuslikult täiuslikud täiusliku täiuslikku täiuslikuks täiuslikus täiuslikust täiuslikum täiuslikke täiuslikule täiuslike täiuslikuna täiuslikeks täiuslikul täiuslikuma
+56	856	king	kingad king kingi kinga kingade kingadega kinki kingades kingiks kingadest kingadele kingaga kingadesse kingadeta kingadel kingile kingist kingis kingas kingast kingasid kingadelt kingal kingil kingale
+57	857	mägi	mäe mägedes mägi mägede mägedesse mäed mäest mäel mägesid mäele mäge mägedest mäkke mäelt mägedel mägedele mäeni mäes mägedeni mäega mägedega mäeks mägedelt
+58	858	pikali	pikali
+59	859	nõustuma	nõustun nõustu nõustus nõustuma nõustuda nõustunud nõustusid nõustusin nõustud nõustub nõustute nõustuks nõustume nõustuvad nõustusime nõustusite nõustuksid nõustuksin nõustuksite nõustuge nõustudes nõustuta
+60	860	avaldama	avaldada avaldab avaldas avaldama avalda avaldanud avaldan avaldav avaldasid avaldatud avaldad avaldatakse avaldavad avaldame avaldaks avaldasin avaldati avaldage avaldasite avaldamata avaldades avaldata avaldate avaldaksid avaldasime avaldamast avaldamas avaldaksin avaldataks avaldavat avaldaksite avaldaksime
+61	861	laul	laulu laul laule laulud lauluga laulust laulude laulus lauludest laulule lauluks lauludega lauludes laulul lauludesse lauluna lauludele
+62	862	ilmuma	ilmub ilmunud ilmusid ilmuda ilmuvad ilmud ilmus ilmuma ilmun ilmusin ilmuta ilmusite ilmute ilmume ilmuge ilmudes ilmuksid ilmusime ilmumas ilmuks ilmutis ilmuvat ilmuski ilmuksite ilmubki ilmumata ilmutaks ilmu
+63	863	hindama	hindan hindab hindame hindama hinnatud hindad hinda hindavad hinnatakse hinnanud hindaks hinnata hindasin hindate hindas hindaksin hindaksid hinnates hinnake hinnati hindasime hinnataks hindaksime hindasid hindaksite hindamaks hindamas hinnatav
+64	864	arvuti	arvuti arvutit arvutis arvutisse arvutid arvutist arvutiga arvuteid arvutite arvutitega arvutile arvutitest arvutil arvutitesse arvutites arvutitele arvutita arvutilt arvutini arvutitel
+65	865	võlg	võlgu võlad võla võlg võlga võlgades võlgade võlus võlast võlgadest võlgasid võlgadesse võlust võlas võlaga võlgadega võlale
+66	866	politseinik	politseinik politseinikud politseiniku politseinikku politseinikke politseinike politseinikuks politseinikule politseinikuga politseinikest politseinikuna politseinikele politseinikega politseinikust politseinikul politseinikel politseinikult politseinikut politseinikeks
+67	867	katma	kaetud kata katab katta katan katame katma katavad kattis katke katad katsid katku katnud katsin kataks katmata kattes katate kataksid katmas katsime katmaks kataksin kattev katvad
+68	868	õpetaja	õpetaja õpetajad õpetajat õpetajate õpetajaks õpetajaga õpetajaid õpetajale õpetajana õpetajatele õpetajal õpetajast õpetajatega õpetajatest õpetajalt õpetajatel õpetajatelt õpetajasse
+69	869	langema	langeb langenud langevad langeda langes langesid langema langesin langev langemas langen langeme langedes langed langenu langevat langeks langenute langenuid langegu langeva langeksid langesime langevate langege langenut langete langemast langetaks langeksin langenuna langesite langevatest langenutele
+70	870	muutus	muutus muutusi muutused muutust muutuste muutuse muutusteks muutustest muutustega muutusest muutustele muutuseid muutuseks muutusteta muutusega muutusele muutustesse muutustel muutustes
+71	871	vaim	vaim vaimu vaimud vaimus vaime vaimude vaimust vaimuga vaimule vaimudega vaimudest vaimudesse vaimudele vaimuks vaimult vaimul vaimudel vaimuna vaimusid vaimudeks
+72	872	tõend	tõendeid tõendid tõend tõendit tõendite tõendi tõenditeta tõendiks tõenditest tõenditega tõenditele tõendina tõendita tõenditeks tõenditel tõendiga tõendites tõendeist tõendist tõenditena
+73	873	ajalugu	ajalugu ajaloo ajaloos ajaloost ajalukku ajalooga ajaloole ajalool ajalooks ajalood
+74	874	püks	püksid püksi pükse püksis pükstes pükste pükstega pükstest pükstesse püksist pükstel pükstele püksteta püks püksteks
+75	875	närv	närvis närvi närvidele närvid närve närvide närv närvidest närvidega närviga närvidel närvides närvile
+76	876	kurb	kurb kurvaks kurvad kurva kurba kurvem kurvis kurvalt kurvana kurbi kurvist kurbade kurvast kurval kurvale kurvas kurbadest kurbadele kurvile
+77	877	pulm	pulma pulmad pulmas pulmi pulm pulmade pulmadeks pulmast pulmadest pulmades pulmadega pulmadeni pulmaks pulmadele pulmaga pulmadel pulmadesse pulmasid pulmani pulmale
+78	878	petma	petta pettis peta petnud petsid petab petad petsin petma petetud petan petavad petaks peteti petame petsite petate petetakse pettev petke petsime pettes petaksin petaksid petmas peteta petmast petvat
+79	879	karm	karm karmi karmid karmilt karmiks karmim karme karmis karmide karmimat karmist karmimaid karmil karmides karmus karmile karmidest karmidel karmina karmust karmidele
+80	880	kuninganna	kuninganna kuningannat kuningannale kuningannaks kuningannaga kuningannad kuningannana kuningannal kuningannast kuningannalt kuningannasid kuningannade kuningannata kuningannani kuningannadest kuningannasse
+81	881	lähedale	lähemale lähedale
+82	882	pakk	paki pakk paku pakud pakki pakkusid pakid pakuks pakis pakke pakku pakkisid pakist pakkudes pakule pakuta pakiga pakiks pakul pakkides pakkide pakil pakkidega pakile pakkidest pakkidesse
+83	883	vanaisa	vanaisa vanaisaga vanaisale vanaisal vanaisaks vanaisast vanaisalt vanaisad vanaisade vanaisasid
+84	884	pesema	pesta pesema pese pesen peseb pesin pesed pesnud pestud pesid peske peseme pesemas pesi pesemata peseks pesevad pestes pestakse pesime pesete peseksid peseksin pesite pesti
+85	885	koristama	korista koristada koristama koristan koristage koristab koristame koristasin koristad koristanud koristas koristasid koristatud koristavad koristaks koristades koristaksid koristate koristamas koristasime koristatakse koristasite koristamata koristaksin koristati koristaksite koristagu koristataks
+86	886	kirik	kirikus kiriku kirik kirikusse kirikut kirikust kirikule kirikuga kirikuid kirikud kirikul kirikute kirikult kirikutes kirikuni kirikuks kirikutest kirikutesse kirikutega
+87	887	piisama	piisab piisa piisama piisanud piisaks piisas piisata piisavat piisake piisavad piisanuks piisad
+88	888	kusagil	kusagil
+89	889	edu	edu edust eduga eduks edule edus eduta edul edusse eduni
+90	890	turvaline	turvaline turvaliselt turvalisem turvalises turvalist turvalisse turvalise turvaliseks turvalised turvalisena turvalisel turvalisest turvalisele turvaliste turvalisi turvalistes turvalistesse
+91	891	sinine	sinine sinise sinised sinist sinises siniseks siniste siniseid sinisesse sinisest sinisele sinisel sinisega sinistes sinistest sinisem sinistele sinisena siniselt
+92	892	paks	paks paksu paksuks paksud paksem paksude paksult pakse paksemaks paksust paksule paksus paksuna paksul paksudele paksema paksuga paksudest paksusid paksudel paksudeks
+93	893	heitma	heida heita heitke heitma heidan heitis heidab heidame heideti heidad heitnud heidetud heitsid heitsin heidavad heidetakse heidaks heites heidate heidaksid heidaksin heitsite heitsime heitmas heidaksime heitkem heidetaks heidaksite
+94	894	tasa	tasa
+95	895	tapmine	tapmine tapmise tapmist tapmiseks tapmisest tapmises tapmisega tapmised tapmisi tapmisele tapmiste tapmisel tapmistest tapmistega tapmiseni tapmiseta tapmistele tapmistes
+96	896	keskenduma	keskendu keskenduda keskenduma keskendunud keskendume keskenduge keskendun keskendub keskendud keskenduks keskenduksid keskendusin keskenduvad keskendus keskendudes keskendusid keskendusime keskendutakse keskendunult keskenduksime keskendute keskenduksite keskenduksin keskendunuks keskendugem keskendumast
+97	897	seks	seksi seks seksist seksis seksisid seksiga seksiks seksid seksile seksita seksides seksil seksini
+98	898	jook	joogi joogid jook jooki jooke jookide joogiga joogile joogist joogiks jookidega joogis jookidest joogita jookidele jookidesse jookides joogil
+99	899	rikas	rikas rikkaks rikkad rikka rikaste rikkaid rikkam rikkaim rikast rikkamaks rikastele rikkana rikkast rikastel rikastelt rikastest rikkale rikkas rikkal rikkalt rikkaga rikkasse rikastes rikastega rikastena
+100	900	toimima	toimib toimis toimima toiminud toimida toimivad toimisid toimivat toimime toimisin toimid toimin toimiksid toimimas toimides toimisite toimimast toimisime toimite toimigu

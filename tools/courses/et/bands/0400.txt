@@ -1,0 +1,100 @@
+1	301	tõsine	tõsiselt tõsine tõsised tõsise tõsiseid tõsiseks tõsises tõsisem tõsist tõsisemalt tõsiste tõsisest tõsisemat tõsisemaks tõsistest tõsisema tõsisemad tõsisesse tõsisele tõsistes tõsisemate tõsistele tõsiseim tõsisteks tõsisel tõsisena tõsistesse
+2	302	plaan	plaan plaani plaanid plaanis plaane plaanist plaaniga plaanisid plaanidest plaanide plaanides plaanile plaanidega plaaniks plaanidesse plaanita plaanina plaanidele plaanil plaanidel plaanideks
+3	303	võimalik	võimalik võimalikult võimaliku võimalikuks võimalikku võimalikud võimalikke võimalikul võimalike võimalikust võimalikest võimalikule võimalikele võimalikus võimalikel võimalikes võimalikuna
+4	304	rahu	rahu rahule rahul rahus rahust rahuga rahuks rahusse rahuni rahud rahuna
+5	305	muu	muud muu muust muid muul muuga muule muude muus muuks muudest muidki muudele muudel muudes muusse muudeks muist muudeta muile muustki muuna muuni
+6	306	ostma	osta ostsin ostis ostan ostma ostsid ostab ostnud ostame ostad ostke ostetud ostsime ostavad ostaks ostmas ostate ostsite ostaksin ostaksid osteti ostes ostetakse osteta ostaksite ostetav ostmata ostmast ostaksime ostku ostetavad ostmaks ostetaks
+7	307	kontrollima	kontrolli kontrollida kontrollima kontrollin kontrollisin kontrollige kontrollib kontrollime kontrollitud kontrollivad kontrollisid kontrollinud kontrollid kontrollisime kontrollis kontrolliks kontrollimatu kontrollitakse kontrolliksid kontrollisite kontrollimas kontrollides kontrolliti kontrolliv kontrollite kontrollitav kontrollimatult kontrollimata kontrollita kontrollimaks kontrolliksin kontrolliksite kontrollimatud kontrollimatut kontrolliksime kontrollitaks kontrollimatuks kontrollivat kontrollimast kontrollitavad
+8	308	kuna	kuna
+9	309	jooma	juua joo jooma joonud joon joome jood joob jõin jõi jooksin jõid jooksid jooge joovad jõime joote jooks joomas juues jooksime joodavat jõite joodud joogem joodi juuakse jooksite joomata joodav joomast joonudki joov joodaks
+10	310	okei	okei
+11	311	alustama	alustame alustada alusta alustan alustama alustas alustasin alustasid alustasime alustage alustab alustanud alustad alustades alustavad alustaks alustatu alustate alustasite alustagem alustaksin alustatud alustamas alustaksime alustaksid alustatakse alustati alustadagi alustatut alustamegi alustaksite alustata alustamaks alustagu alustataks
+12	312	kandma	kanda kannab kandis kandma kannan kannad kanna kannavad kandnud kandsid kandsin kanti kanname kannaks kandes kandke kannate kantud kantakse kannaksid kandmas kannaksin kandsime kandev kandsite kanta kandva kannaksite kandvad kantaks kandku kandvat kandmast kandmata kantav kannaksime kandmaks kandvate kandvaid kantavat
+13	313	juures	juures
+14	314	lugema	lugeda lugesin lugenud loeb loen lugema loed lugesid luges lugege loeme loetud loevad lugedes loeksid loetakse lugesite lugesime loeks loeksin lugemas lugematu lugematuid loete lugematul loeksite lugemata loeti lugematute lugematud loetav lugenudki lugematutest lugemast lugev loetaks loeksime lugematutele lugegu lugevat
+15	315	kuu	kuud kuu kuul kuis kuuks kuuga kuude kuudel kuust kuuni kuudeks kuult kuudest kuudega kuusse kuusid kuuta kuudes kuist
+16	316	vesi	vett vesi vee veeta vette vees veest veega veed veena vetes veeni veele vetesse vete vetest veeks vetel veelt vesist vetele vetega
+17	317	ainus	ainus ainsad ainsa ainsaks ainsana ainsatki ainsat ainul ainsale ainsast ainsal ainust ainustki ainsagi ainsasse ainsateks ainsas ainu ainsamat ainud ainuski ainule ainsatena ainsaid ainsate ainsalt ainsatest
+18	318	paistma	paistab paista paistis paistad paistavad paistan paistaks paistma paistnud paistate paistsid paistes paistame paistmas paistaksid paistetab paistsin paistetanud paistsite paistaksin paistku paistabki paistetama paistva paistev paistsime paistvat
+19	319	mõlema	mõlemad mõlemaid mõlema mõlemat mõlemal mõlemale mõlemast mõlemaga mõlemas mõlemalt mõlemasse mõlemate mõlemaile mõlemail mõlemaks mõlematel mõlemaist mõlematest
+20	320	kullake	kullake kullakesed kullakese kullakeseks kullakest kullakesele kullakesel kullakesi kullakesega kullakeste kullakesest kullakestest kullakestele
+21	321	tõeline	tõeline tõeliselt tõelist tõelise tõelised tõeliseks tõelisi tõelisest tõeliste tõelises tõelisele tõelisel tõelisena tõelisesse tõelisse tõelistest tõelisem tõelistele tõeliseid tõelisteks tõelistel tõelistes tõelisega tõelistelt
+22	322	haige	haiget haige haigeks haiged haigeid haigena haigete haigetele haigem haigelt haigele haigel haigetel haigest haigetest haiges haigetega haigega haigetena
+23	323	nägu	nägu näkku näo näoga nägudeni näost näol nägusid näod näole näos näolt nägude nägudega nägudest nägugi nägudel näota nägudele nägudelt näoks nägudes nägudeta nägudesse
+24	324	lõpp	lõpp lõpuni lõpus lõpu lõppu lõpule lõppude lõppe lõpust lõpeks lõpul lõpuga lõpud lõputa lõpuste lõpustega lõppudega lõpuna lõpuseid
+25	325	nali	nalja nali naljata naljad nalju naljaks naljast naljade naljadest naljaga naljana naljadega naljalt naljadeks naljale naljas naljal naljadeta naljades naljadele
+26	326	no	no
+27	327	ilmselt	ilmselt
+28	328	võime	võime võimed võimeid võimet võimete võimetega võimetest võimega võimetele võimetes võimeteta võimetesse võimegi võimeta võimetel
+29	329	õde	õde õe õel õed õega õele õest õdede õdesid õelad õela õdedega õdedest õdedele õelt õeks õelat õelaid õelaks õdedel õelalt õena õelate ões õesse õelal õelast õelas õdedeks õelale õelateks õelana õelatest õdedelt õelatele
+30	330	võitma	võita võidab võitis võitnud võitsin võitsid võidan võida võidame võidad võitsime võitma võidavad võitmatu võidaks võidetud võitsite võidate võitmas võitmatud võidaksid võites võidetakse võitke võidaksin võitmatuks võitku võideti võidaksime võitmatuna võidaksite võitmatut võidetav võitmaks võitmatule võitvat võitev võitmata võitmast võitmatust
+31	331	varem	varem varemgi
+32	332	tähtis	tähtis tähtsam tähtsat tähtsad tähtsa tähtsamad tähtsaid tähtsamat tähtsamaid tähtsaks tähtsama tähtsate tähtsamaks tähtsale tähtsal tähtsast tähtsamate tähtsas tähtsatest tähtsalt tähtsatele tähtsana tähtsatel tähtsamal tähtsaga tähtsateks tähtsates tähtsamana tähtsasse tähtsatena tähtsamgi
+33	333	homme	homme
+34	334	sellepärast	sellepärast
+35	335	hiljem	hiljem hiljemgi
+36	336	sobima	sobib sobi sobiks sobiv sobivad sobivat sobinud sobiva sobis sobima sobimatu sobid sobida sobiksid sobin sobime sobite sobivalt sobival sobivaid sobivaks sobisid sobivas sobimatud sobimatut sobivate sobiksin sobisime sobigi sobimatult sobivasse sobimatuks sobiksite sobitud sobimatust sobimatute sobimatuid sobisin sobivale sobiksime
+37	337	alles	alles
+38	338	vastama	vasta vastata vastas vastab vastanud vastama vastake vastan vastad vastasin vastavad vastasid vastaks vastate vastamata vastav vastava vastame vastaksid vastavat vastatud vastates vastaksin vastaksite vastatakse vastamast vastasite vastati vastavaid vastagi vastasime vastavas vastavate vastamas vastavasse vastavaks vastavatele vastavatesse vastaksime
+39	339	seisma	seisma seisa seisab seista seisan seisis seisad seiske seisavad seisame seisin seisnud seisid seistes seismas seisate seisaks seisime seisaksid seisev seisite seisva seisaksin seisvat seisku seisvad seisabki seisaksime seisvaid seisaksite seisvate seisvast seisval seisvas
+40	340	viskama	viska visata viskas viskan visake viskasid viskasin viskab visati viskad viskama viskame visatakse visanud visatud viskavad viskaks viskasime viskate viskasite viskaksid visates viskaksin viskamas visataks viskaksite viskaksime visaku visatagu viskamast
+41	341	mäng	mängu mäng mängus mängust mänge mängud mängule mängude mänguks mängudest mängul mänguga mängudel mängudeks mängudele mängult mängudes mängudega mänguni mänguna mängudelt mängudesse
+42	342	vale	vale valeta valed vales valesid valet valel valele valede valesse valest valedest valem valedesse valemi valedel valedega valeks valedele valega valemit valedes valelt valemid valena valemist valemiga valedeks valemeid valle valedeta valedelt valemis valemitega
+43	343	jooksma	jookse joosta jookseb jooksis jooksma jookske jooksed jooksevad jooksen jookseme jooksnud jooksmas jooksin jooksid joostes jookseks jooksete jooksime jooksev jookseksid jooksvat jookseksin jooksva jooksite jooksvalt jooksvad jooksmast jooksvate joostakse jooksku jooksvaid joostud jookseksime joosti jookseksite jooksvatest
+44	344	tegelema	tegelen tegeleb tegelema tegeleda tegele tegeled tegeleme tegelenud tegelevad tegeles tegelete tegelesin tegelesid tegelda tegeleks tegelege tegeletakse tegeleksid tegelesime tegelesite tegelemas tegeledes tegelnud tegeleksin tegeldakse tegeletud tegeleksite tegelge tegelemaks tegeleksime tegelegu tegelemast tegeleti tegelevadki tegeleta tegelevat tegeleski
+45	345	uuesti	uuesti
+46	346	valima	valida vali valis valisid valima valitud valinud valisin valin valib valid valiti valige valime valivad valitakse valisite valisime valiks valju valiv valite valiksin valides valiksid valitu valita valjud valimatult valimas valimata valjuks valitaks valimatu valitus valiksite valitule valimast valiksime valitav
+47	347	tütar	tütar tütre tütart tütrega tütrele tütrest tütred tütrel tütreid tütarde tütrelt tütardega tütresse tütardele tütardest tütreks tütres tütrena tütreta tütardel tütregi
+48	348	eriti	eriti
+49	349	millal	millal
+50	350	järgi	järgi
+51	351	ees	ees
+52	352	õppima	õppida õppima õppinud õppisin õpi õpid õppisid õpin õpib õppis õpime õpivad õppisime õpite õppige õpiks õppisite õppides õpiksid õpitud õppimas õpitakse õpiksin õpiksime õpitut õppimata õpiksite õppiv õppimast õpita õpitav õpiti õppimaks
+53	353	õnnelik	õnnelik õnnelikuks õnnelikud õnnelikult õnnelikum õnneliku õnnelikku õnnelikuna õnnelikke õnnelikumad õnnelikus õnnelikem õnnelike õnnelikule õnnelikena õnnelikust õnnelikeks õnnelikest õnnelikul õnnelikele õnnelikumalt õnnelikel õnnelikesse
+54	354	põhjus	põhjus põhjust põhjusel põhjusega põhjuseks põhjuseta põhjustel põhjuse põhjused põhjuseid põhjusi põhjustest põhjusest põhjuste põhjusele põhjustega põhjusena põhjustele põhjusteks põhjuses põhjustes põhjustesse põhjusteta
+55	355	taga	taga
+56	356	politsei	politsei politseisse politseile politseid politseist politseiga politseis politseil politseilt politseide politseiks politseita
+57	357	täis	täis täiega täide täie täies täit täiel täites täiest täiteks täiele
+58	358	peal	peal
+59	359	seega	seega
+60	360	vahel	vahel
+61	361	tõmbama	tõmba tõmmata tõmmake tõmbab tõmbas tõmban tõmbame tõmbama tõmbad tõmbasin tõmbasid tõmmanud tõmmatakse tõmbavad tõmmatud tõmmati tõmbaks tõmbasime tõmbate tõmmates tõmbaksid tõmbasite tõmbaksin tõmbamas tõmmaku tõmbaksite tõmmataks tõmbamata tõmbaksime tõmbav
+62	362	süda	süda südame südant südames südamest südamesse südamega südamed südamele südameid südamel südamelt südamete südametes südameis südameni südametesse südametega südameta südameks südameisse südametest südametele südameist
+63	363	kaitsma	kaitsta kaitstud kaitsma kaitseb kaitsen kaitsevad kaitseme kaitseks kaitsesin kaitsnud kaitsesid kaitske kaitsed kaitstes kaitses kaitsku kaitsev kaitsmas kaitseksid kaitsva kaitsmaks kaitsete kaitstakse kaitsesime kaitseksin kaitsesite kaitsema kaitsenud kaitsmata kaitsvat kaitstaks kaitstav kaitsvate kaitseksime kaitsmast kaitstuks kaitsti kaitseksite
+64	364	pääsema	pääseda pääse pääses pääseb pääsenud pääsema pääseme pääsesid pääsed pääsen pääsevad pääsesin pääseks pääsesime pääsete pääseksid pääsesite pääseksime pääseksin pääsedes pääsmed pääsme pääset pääsemaks pääsenu pääsenute pääseksite pääsemas pääsmeid pääsenuid pääsemast pääsesidki pääsenust
+65	365	vahe	vahele vahet vahe vahelt vaheta vahega vahedega vahed vahes vahesid vahesse vaheda vaheks
+66	366	õnn	õnne õnn õnneks õnnega õnnest õnnele õnnis õnnes õnnel õndsad õndsaks õndsas õndsa õnneni õndsalt õndsate õndsat õnnist
+67	367	vaba	vaba vabaks vabalt vabad vabal vabana vabu vabast vabas vabade vabasse vabale vabam vabasid vabadena vabadel vabadele vabadest vabamad vabadeks vabadesse
+68	368	otsustama	otsustada otsustasin otsustas otsustanud otsustasid otsustab otsustasime otsustama otsustad otsusta otsustan otsustatud otsustavad otsustades otsustame otsustav otsustasite otsustate otsustage otsustati otsustatakse otsustaks otsustavalt otsustava otsustavaks otsustavat otsustamaks otsustaksid otsustaval otsustaksin otsustagu otsustasidki otsustamata otsustamas otsustavaid otsustaksite otsustavas otsustaski otsustata
+69	369	kavatsema	kavatsed kavatse kavatsen kavatseb kavatsete kavatsesin kavatseme kavatsevad kavatsenud kavatsesid kavatses kavatsegi kavatsesime kavatsesite kavatsetud kavatsetakse kavatseks kavatseksid kavatseti kavatseda kavatsedes
+70	370	usaldama	usalda usaldada usaldama usaldan usaldad usaldasin usaldab usaldanud usaldas usaldage usaldaks usaldavad usaldame usaldasid usaldaksid usaldate usaldatud usaldasime usaldav usaldaksin usaldatav usaldades usaldati usaldasite usaldatakse usaldaksite usaldata usaldamatu usaldatavad usaldaksime usaldavat usaldamast usaldatavat usaldava
+71	371	süü	süü süüdi süüd süüta süüst süüks süül süüde süüs süüdet süüga süüte süüle süütes
+72	372	tuba	tuba toas tuppa toa toast toad tube tubadesse tubades toaga tubade tubasid tubadest toale toaks toal tubadega toani
+73	373	poolt	poolt
+74	374	kool	kooli koolis kool koolist koolid koolile koolides koole kooliga koolide koolil kooliks koolidesse koolidele koolidest koolini koolidega kooliski koolita koolilt
+75	375	tulistama	tulista tulistada tulistas tulistage tulistati tulistasid tulistama tulistan tulistanud tulistab tulistasin tulistavad tulistatud tulistad tulistatakse tulistame tulistaks tulistate tulistades tulistasite tulistasime tulistamas tulistaksid tulistaksin tulistata tulistamast tulistataks tulistav tulistamata
+76	376	pikk	pikk pikka pika pikalt pikad pikem pikaks pikki pikemaks pikkade pikemat pikale pikim pikema pikast pikemad pikas pikal pikemas pikemaid pikkadel pikkadeks pikkadest pikkadena pikana pikkadele pikkades pikemate pikemata pikemal pikaga
+77	377	väljas	väljas
+78	378	vähemalt	vähemalt
+79	379	neli	neli nelja neljas neljast neljaks neljale neljal neljaga neljani neljad neljalt neljasid
+80	380	tänu	tänu tänud tänuks tänuga tänust tänus
+81	381	soov	soovid soovi sooviks soov soovis soovisid soove soovita soovide soovil soovidega soovist soovides sooviga soovidele soovile soovidest soovidel
+82	382	samuti	samuti
+83	383	astuma	astu astuda astuge astuma astus astub astun astud astusin astusid astunud astume astuvad astuks astute astusite astusime astuksid astudes astumas astuksite astuksin astumast astugu astuksime astutakse astutud astuti astuv astumaks
+84	384	eemale	eemale
+85	385	uurima	uurida uurima uurin uurime uuri uurisin uurinud uurib uuris uurige uurivad uurid uurisid uurisime uurides uuritakse uurite uuriks uuritud uuriksid uurimas uurisite uuriti uuriksin uuriv uurimata uuriksite uurimaks uuriksime uuritav uuritava uurimast uuritaks
+86	386	täiesti	täiesti
+87	387	andeks	andeks
+88	388	ah	ah
+89	389	ümber	ümber
+90	390	lihtne	lihtne lihtsam lihtsamaks lihtsad lihtsat lihtsa lihtsaks lihtsal lihtsamat lihtsaid lihtsate lihtsast lihtsana lihtsamad lihtsale lihtsamaid lihtsama lihtsas lihtsatest lihtsamate lihtsaga lihtsatele lihtsates lihtsasse lihtsamal lihtsamasse lihtsamalt
+91	391	jama	jama jamast jamad jamaga jamasse jamal jamadesse jamadest jamade jamale jamadega jamana jamadeta
+92	392	issand	issand issanda issandat issandale issandaga issandal issandalt issandad issandast issandas issandasse
+93	393	laev	laeva laev laeval laevale laevad laevaga laevalt laevu laevas laevast laevade laevadele laevadel laevadest laevadega laevadelt laevani laevadesse laevaks laevades laevasid laevata laevadeta
+94	394	vanem	vanemad vanemate vanem vanemaid vanematele vanematega vanemaks vanema vanematel vanematest vanemat vanematelt vanemana vanemale vanemateta vanemaga vanemateks vanemal vanemast vanemates vanemas vanematena vanemalt vanemadki vanemasse vanematesse vanemata
+95	395	too	too tol tolle toda tollel nood tollest tollele tolles tollega tosse noid tollelt tollesse noil nonde noist tolleks
+96	396	piisavalt	piisavalt
+97	397	kiri	kirja kirjas kiri kirjad kirju kirjuta kirjaga kirjade kirjast kirjale kirjades kirjadega kirjadest kirjadele kirjuks kirjal kirjasid kirjadeta kirjata kirjadesse
+98	398	peaaegu	peaaegu
+99	399	pakkuma	pakkuda pakun pakub pakkus pakkusin pakume pakkuma pakuvad pakutakse pakkunud pakuti paku pakute pakutud pakud pakkusid pakkumast pakuksin pakuks pakkuge pakkusime pakkuv pakkusite pakkudes pakuksid pakkumas pakkuvat pakutav pakuksite pakutaks pakutava pakuksime pakutu pakutavat pakutavaid pakkumaks pakutavad pakkumata pakkugu
+100	400	noor	noor noored noorem noore noorte noort noori noorena noorelt noorim noortele noorele noorema nooremaks noorel nooremad noorest nooreks noortel noortest nooremat nooremana nooremaid nooremale noortega nooremate noores noortena noorematel noortelt nooremast nooremas noorde noorega nooremalt noortesse noortes nooremal

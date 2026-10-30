@@ -1,0 +1,100 @@
+1	2001	supp	suppi supp supi supis supist supiga supiks supid supile supil
+2	2002	mõtlemine	mõtlemine mõtlemist mõtlemise mõtlemiseks mõtlemisega mõtlemisest mõtlemisele mõtlemises mõtlemisel mõtleminegi
+3	2003	homo	homo homod homode homosid homost homoks homoga homodest homodele homodega homona homot homodel homodeks homole
+4	2004	nool	nool nooled noole nooli noolt noolega nooltega noolte noolest noolele nooltest nooleks noolel
+5	2005	allkiri	allkirja allkiri allkirjaga allkirjad allkirju allkirjata allkirjade allkirjadega allkirjaks
+6	2006	tüdruksõber	tüdruksõber tüdruksõbra tüdruksõpra tüdruksõbraga tüdruksõbrale tüdruksõbrad tüdruksõbrast tüdruksõpru tüdruksõbral tüdruksõbraks tüdruksõpradest tüdruksõprade tüdruksõbralt tüdruksõpradega
+7	2007	poliitiline	poliitiline poliitilise poliitilist poliitilised poliitilisi poliitiliselt poliitiliste poliitilisest poliitiliseks poliitilistel poliitilises poliitilisele poliitilistele poliitilistest poliitilisel poliitilistes poliitilisse
+8	2008	esi	esile eel esi ete ett esist
+9	2009	vaevama	vaevab vaevatud vaevata vaevanud vaevaks vaevas vaevama vaevavad vaevake vaevan vaevatuks vaevasid vaevatu
+10	2010	ekspert	ekspert eksperdid eksperdi ekspertide eksperte eksperti eksperdiks eksperdiga ekspertidega ekspertidele eksperdina ekspertidel eksperdile eksperdil eksperdist ekspertidest
+11	2011	võlts	võlts võltsid võltsi võltsis võltsisid võltsilt võltse võltsiks võltsist võltsina võltside võltsim võltsidest
+12	2012	mõrtsukas	mõrtsukas mõrtsukad mõrtsuka mõrtsukat mõrtsukaks mõrtsukate mõrtsukaid mõrtsukaga mõrtsukast mõrtsukateks mõrtsukal mõrtsukale mõrtsukatega mõrtsukatest mõrtsukatele mõrtsukana
+13	2013	detektiiv	detektiiv detektiivi detektiivid detektiiviks detektiiviga detektiivide detektiivile detektiive detektiivil detektiivist detektiivina detektiividel
+14	2014	kaebama	kaeban kaeba kaevata kaebas kaebab kaebama kaebavad kaebame kaebasid kaebad kaevanud kaebate kaebaks kaevake kaevatud kaevati kaebasin kaevatakse kaebasite kaebamas kaevates kaebaksin kaebaksid kaevataks kaevaku
+15	2015	kostma	kostad kosta kostab kostate kostis kostan kostma kostsid kostaks kostaksid kostnud kostsin kostavad kostvat kostame kostmas kostke
+16	2016	olenema	oleneb olenemata olene olenes oleneda oleneks olenenud
+17	2017	kunstnik	kunstnik kunstnikud kunstniku kunstnikuks kunstnikku kunstnikke kunstnike kunstnikuna kunstnikule kunstnikuga kunstnikust kunstnikest kunstnikega kunstnikel kunstnikele kunstnikul kunstnikult
+18	2018	koguaeg	koguaeg
+19	2019	munn	munn munni munnid munne munniga munnile munnist munnidest munnidega munnide munnil munnita munnilt
+20	2020	lavastama	lavastada lavastas lavastati lavastatud lavastasid lavastatakse lavastasin lavastab lavastanud lavastama lavastasime lavastame lavastan lavastad lavastavad lavastades lavastasite lavasta lavastaks lavastaksime lavastaksid
+21	2021	sent	senti sendi sent sente sendid sentide sendini sendiga sendist sentidega sendita sentidest
+22	2022	piisav	piisav piisava piisavat piisavad piisaval piisavaks piisavas piisavate
+23	2023	rikkus	rikkus rikkust rikkuse rikkusi rikkused rikkuses rikkusest rikkuste rikkusega rikkuselt rikkustega rikkusele rikkustest
+24	2024	teavitama	teavitada teavitan teavitama teavita teavitatud teavitage teavitas teavitanud teavitati teavitame teavitasin teavitab teavitatakse teavitasid teavitavad teavitamata teavitad teavitasite teavitamast teavitasime teavitaks teavitaksid teavitaksite teavitaksin teavitata
+25	2025	voolama	voolab voolas voolama voolata voolavad voolav voolanud voolamas voola voolasid voolaks voolates voolaku voolavat voolan voolad
+26	2026	väär	vääri väär vääris vääriks vääralt väära väärad väärata vääraks väärana
+27	2027	tiiger	tiiger tiigrid tiigri tiigrit tiigreid tiigrite tiigriga tiigrist tiigrile tiigril tiigriks tiigritega tiigritest tiigritele tiigritel tiigrina
+28	2028	vähendama	vähendada vähendab vähendama vähenda vähendanud vähendame vähendatud vähendan vähendavad vähendaks vähendas vähendatakse vähendati vähendasid vähendasin vähendades vähendad vähendage vähendasime vähendate vähendaksime vähendamata vähendaksid
+29	2029	suurendama	suurendada suurenda suurendab suurendama suurendan suurendame suurendas suurendatud suurendage suurendanud suurendavad suurendaks suurendasin suurendades suurendasid suurendasime suurendad suurendati suurendatakse suurendaksid
+30	2030	sõlmima	sõlmida sõlmima sõlmitud sõlmisin sõlmime sõlmisid sõlminud sõlmisime sõlmib sõlmin sõlmiti sõlmitakse sõlmisite sõlmid sõlmimas sõlmivad sõlmige sõlmite sõlmides sõlmiksin sõlmiksime sõlmita
+31	2031	pooleli	pooleli
+32	2032	langetama	langetage langetada langetama langetanud langetatud langetab langetan langetas langetasin langetame langetasid langetad langetavad langetate langetatakse langetasime langetati langetaksid langetades langetaksin langetata langetasite langetagem
+33	2033	korraldus	korraldusi korraldused korraldus korralduse korraldust korraldusel korraldustele korralduste korraldusteni korraldusele korralduseta korraldusega korraldustega korraldusest korraldustest korralduseni korraldustes
+34	2034	salvestama	salvestada salvestatud salvestab salvestas salvesta salvestan salvestame salvestasin salvestama salvestasid salvestanud salvestatakse salvestati salvestad salvestavad salvestage salvestasime salvestades salvestaks salvestate salvestata
+35	2035	haruldane	haruldane haruldased haruldase haruldast haruldasi haruldaste haruldaselt haruldasem haruldasemad haruldaseks haruldasest haruldastest haruldasele haruldasel haruldases haruldastel
+36	2036	aeglane	aeglane aeglased aeglasem aeglase aeglast aeglasemaks aeglaseks aeglasel aeglasele aeglaseim aeglasi aeglaste aeglasesse aeglasena aeglasema aeglases aeglasest aeglaseid
+37	2037	ajakirjanik	ajakirjanik ajakirjanikud ajakirjaniku ajakirjanikke ajakirjanike ajakirjanikele ajakirjanikku ajakirjanikega ajakirjanikuna ajakirjanikuks ajakirjanikuga ajakirjanikule ajakirjanikel ajakirjanikust ajakirjanikest ajakirjanikul
+38	2038	põhimõtteliselt	põhimõtteliselt pm
+39	2039	lahutus	lahutust lahutus lahutuse lahutusest lahutusega lahutusele lahutuseks lahutused lahutuste lahutusi lahutusel lahutuses lahutustega lahutusse lahutuseni lahutustest
+40	2040	donna	donna donnat donnaga donnale donnal
+41	2041	algul	algul
+42	2042	verine	verine verise verised veriseks verist veriseid veriste verisena veriselt verises verisem verisest verisel verisesse verisemaks veristest verisele
+43	2043	mõrd	mõrd mõrrad mõrra mõrda mõrraks mõrrast mõrraga mõrrale mõrral mõrdasid mõrrana mõrdu mõrdade mõrralt
+44	2044	närviline	närviline närviliseks närvilised närviliselt närvilisena närvilisi närvilise närvilist närvilisteks
+45	2045	küljes	küljes
+46	2046	seltskond	seltskonda seltskond seltskonnas seltskonna seltskonnast seltskonnaga seltskonnale seltskonnad seltskonnaks seltskondades
+47	2047	lehekülg	lehekülg lehekülge lehekülje leheküljel leheküljed lehekülgi leheküljelt leheküljele lehekülgedel lehekülgede leheküljest leheküljega lehekülgedelt lehekülgedele
+48	2048	pettumus	pettumust pettumus pettumuse pettumusi pettumuseks pettumusest pettumusega pettumused pettumustest pettumustega
+49	2049	rüütel	rüütel rüütlid rüütli rüütliks rüütlit rüütlite rüütleid rüütlile rüütliga rüütlitest rüütlitega rüütlist rüütlitele rüütlina rüütlitel
+50	2050	pluss	pluss plussid plusse plussi plussiks plussis plussidest plusside
+51	2051	rool	rooli roolis rool roolist roolile roolil roolid rooliga roolilt
+52	2052	tehniline	tehniliselt tehniline tehnilise tehnilised tehnilisi tehnilist tehniliste tehnilises tehnilisest tehnilistel tehniliseks tehnilistele tehnilisele
+53	2053	teemant	teemandid teemant teemante teemanti teemantid teemandi teemantide teemantidega teemantidest teemantitest teemantitega teemandist teemandiga teemanteid teemantit teemantite teemantides teemantiga teemantites teemandil
+54	2054	keema	keelt keema kee keen keeb keeta keele keeda keeks keeva keed kees keenud keeni keevat keev keevad keesid keeksid keega
+55	2055	teal	teal
+56	2056	naps	napsu napsi naps napsud napsid napsule napsile napsiga napsuga napse napsiks napsist napsuks
+57	2057	võitleja	võitleja võitlejad võitlejat võitlejaid võitlejate võitlejaks võitlejatele võitlejatest võitlejaga võitlejana võitlejal võitlejale võitlejast võitlejatega võitlejateks võitlejatel
+58	2058	köis	köis köie köit köied köiest köiega köisi köide köiel köite köitest köidet köitega köiele köites köitesse köieta köitele köiteta
+59	2059	plaat	plaat plaadi plaadid plaate plaati plaadil plaadile plaatide plaadiga plaadilt plaatidega plaatidest plaatidele plaadist plaatidel
+60	2060	jumaldama	jumaldan jumaldab jumaldavad jumaldas jumaldasin jumaldama jumaldasid jumaldad jumaldame jumalda jumaldada jumaldatav jumaldav jumaldaks jumaldanud jumaldate jumaldatakse jumaldades
+61	2061	päevik	päevik päevikut päeviku päevikud päevikus päevikusse päevikust päevikutes päevikuid päevikutest päevikute päevikuga
+62	2062	valimine	valimised valimisi valimiste valimistel valimine valimise valimist valimiseks valimistest valimisteni valimistele valimisega valimistega valimisel valimisest valimises valimisteks valimisele valimistelt valimistes
+63	2063	helikopter	helikopter helikopteri helikopterit helikopteriga helikopterid helikoptereid helikopterist helikopterisse helikopteris helikopterile helikopterite helikopteril helikopteritest helikopteritega helikopterilt
+64	2064	seif	seifi seif seifis seifist seifiga seifile seife seifid seifil seifide
+65	2065	terav	terav teravad terava teravat teravate teravaid teravam teravaks teravalt teravamaks teravamalt teravana teravas teravatest teravast
+66	2066	jänes	jänes jänese jänest jänesed jäneseid jänesega jänesest jäneste jänesele jänesel jänestega jänestest jäneseks jänesena jänestel
+67	2067	aine	aine ainet aineid ained ainete ainest aines ainega ainetel ainetega ainetest ainetes aineks ainel ainele
+68	2068	sihtima	sihtida sihtis sihib sihtige sihiks sihtima sihtisid sihtisin sihivad sihite sihtinud sihime sihitakse sihiti sihtimas sihtisime sihiksid sihtisite
+69	2069	armuke	armuke armukese armukesed armukest armukesega armukesi armukeseks armukesele armukestest armukesest armukeste armukesel armukesena armukestega armukesteks armukeselt
+70	2070	pisar	pisarad pisaraid pisarate pisar pisara pisaratega pisarat pisarais pisaratest pisarates pisarateni pisarateta pisaratel pisaratesse pisarateks pisaraist
+71	2071	detail	detaile detailid detaili detailidest detailidesse detailidega detailide detailidele detailides detailini detailideni detailile detailist detailiga
+72	2072	rippuma	ripub rippus ripuvad rippuma rippumas rippuda rippusid ripud ripun ripu rippunud rippuv ripuks rippuva rippudes rippusin ripume riputaks rippuvat ripuksid rippuvaid ripute
+73	2073	kutsikas	kutsikas kutsikad kutsika kutsikat kutsikaid kutsikate kutsikast kutsikaga kutsikatega kutsikatele kutsikatel kutsikale kutsikana kutsikatest kutsikal
+74	2074	galaktika	galaktika galaktikas galaktikat galaktikate galaktikast galaktikasse galaktikad galaktikaid galaktikale galaktikates galaktikal galaktikatesse galaktikatest galaktikaga
+75	2075	vägistama	vägistas vägistada vägistati vägistasid vägistatud vägistanud vägistatakse vägistab vägistavad vägista vägistama vägistan vägistasin vägistaks vägistad vägistage vägistame vägistataks vägistata vägistasite vägistaksin
+76	2076	tara	tara taraga tarast taral tarale taras tarad tarasse tarasid tarade
+77	2077	ratsutama	ratsutada ratsutama ratsutab ratsutas ratsutame ratsutan ratsutad ratsutasid ratsutasin ratsutanud ratsutamas ratsutavad ratsutades ratsutage ratsutate ratsutaks ratsutasime ratsutaksid
+78	2078	suhtumine	suhtumine suhtumist suhtumisega suhtumise suhtumisest suhtumises
+79	2079	juhus	juhus juhust juhuse juhuseid juhuseks juhused juhustesse juhuste juhuseksi juhusele juhustest juhusega juhusest juhusesse
+80	2080	lollus	lollus lollusi lollust lolluse lollused lolluste lollusega lollusest lollustega lollustest lolluseks lolluses lollusteks lollusele lollusteta lollustele lolluseid
+81	2081	soeng	soeng soengut soengu soenguga soengud soenguid soengust soengus soengutega soengule soengute soengul
+82	2082	seksuaalne	seksuaalne seksuaalselt seksuaalse seksuaalset seksuaalsed seksuaalses seksuaalsest seksuaalseid seksuaalsete seksuaalseks seksuaalsetest seksuaalsele seksuaalsel seksuaalsetele
+83	2083	maakond	maakonna maakonnas maakond maakonda maakonnast maakonnale maakondades maakonnaga maakondi maakonnad maakonnal maakondade
+84	2084	plika	plika plikad plikat plikaga plikade plikal plikale plikasid plikast plikadele plikadega plikadest plikadel plikana plikalt plikaks
+85	2085	tulistamine	tulistamine tulistamist tulistamise tulistamisel
+86	2086	luud	luua luud luuaga luuda luuad luual luudasid
+87	2087	katastroof	katastroof katastroofi katastroofiga katastroofist katastroofe katastroofid katastroofiks katastroofide katastroofini katastroofis katastroofile katastroofidest
+88	2088	vilets	vilets viletsad viletsa viletsat viletsas viletsalt viletsaks viletsaid viletsate viletsal viletsale viletsast viletsasse
+89	2089	vastavalt	vastavalt
+90	2090	tagama	tagada tagab tagatud tagama tagan tagas tagavad tagame tagamaks tagaks tagad taganud tagades tagasid tagatakse tagate tagasin tagaksid tagaksin tagage
+91	2091	kodune	kodune koduselt kodused koduseid koduse kodust koduste koduseks kodusest kodustele koduses kodustest kodusele kodusel kodusem kodustega kodusena kodustes kodustel
+92	2092	vahend	vahendeid vahendid vahend vahenditega vahendite vahendit vahendi vahendiks vahenditest vahendiga vahenditeta vahenditele vahendina
+93	2093	omaette	omaette
+94	2094	draakon	draakon draakoni draakonid draakonit draakonite draakoneid draakonist draakoniga draakonile draakonitega draakonitest draakoniks draakonil draakonitele draakonilt
+95	2095	trenn	trenni trenn trennis trennist trenniks trennid trenniga
+96	2096	tootma	toodab toota toodavad toodetud tootma tooda toodame tootis toodetakse tootsid tootnud toodeti toodan toodad toodeta tootev tootvad tootsime toodate tootes toodaks
+97	2097	kokkusattumus	kokkusattumus kokkusattumusi kokkusattumused kokkusattumust kokkusattumustesse kokkusattumuseks kokkusattumusega kokkusattumustest kokkusattumusena kokkusattumuse kokkusattumuste kokkusattumusest
+98	2098	tegelik	tegelik tegelikku tegeliku tegelikud tegelikke tegelikus tegelikul tegelikust tegelike tegelikuks tegelikest tegelikule tegelikel
+99	2099	päästmine	päästmiseks päästmine päästmisest päästmisele päästmisel päästmises
+100	2100	seltsimees	seltsimees seltsimehed seltsimeeste seltsimehe seltsimehi seltsimeest seltsimeestega seltsimehele seltsimeestele

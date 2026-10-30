@@ -1,0 +1,100 @@
+1	1401	osalema	osaleda osalema osalenud osales osaleb osalen osalesin osalesid osaled osalevad osaleme osalete osaleks osalesite osalesime osaleksid osalemast osaleksin osaledes osalege osalenu osale osaleksite osalemas
+2	1402	liit	liidu liit liitu liitusid liidus liidust liidule liiduga liitudes liidud liidese liite liides liidul liiduks liitude liidest liidult
+3	1403	omavahel	omavahel
+4	1404	osariik	osariigi osariigis osariik osariiki osariigist osariikide osariikides osariigid osariigile osariigil osariike osariikidest osariigiks osariikidesse osariigilt osariigiga
+5	1405	harjutama	harjutama harjutada harjutanud harjutame harjuta harjutan harjutasin harjutasime harjutab harjutad harjutasid harjutavad harjutas harjutage harjutate harjutades harjutamas harjutatud harjutaks harjutasite harjutaksid harjutaksin
+6	1406	lennujaam	lennujaama lennujaamas lennujaamast lennujaam lennujaamad lennujaamades lennujaamani lennujaamu lennujaamale lennujaamaga lennujaamade lennujaamadesse lennujaamadest lennujaamasid
+7	1407	äge	äge ägedad ägedalt ägedat ägeda ägedam ägedaks ägedaid ägedate ägedaim ägedasse ägedast ägedamalt
+8	1408	arv	arv arvu arvesse arvele arvud arvel arvelt arvuta arvude arvul arvuga arvust arvus arvudega arvudest arvuks arvule arvest arvudes arvult arves
+9	1409	veenduma	veendunud veenduda veendu veenduge veenduma veendumaks veendun veendusin veendume veendute veendus veendusid veendub veendusite veenduksid veenduvad veendusime veenduksin
+10	1410	seos	seoses seos seost seose seoseid seosed seosest seostest seoste seoseta seosele
+11	1411	pruukima	pruugi pruukinud pruugigi pruugib pruukis pruukida pruugid pruukima pruugiks pruugivad
+12	1412	väljuma	väljub väljuda väljunud väljuvad väljume väljuge väljumas väljuma väljus väljudes väljusid väljud välju väljun väljusin väljusime väljuv väljute väljuva väljuvat väljusite väljumast väljuks väljutada väljumata väljuvale väljuksid väljuksin
+13	1413	ring	ring ringiga ringis ringe ringist ringid ringile ringil ringiks ringide ringides ringilt ringini ringidega ringina ringidesse ringidest
+14	1414	jutustama	jutustas jutustada jutusta jutustab jutustasid jutustan jutustama jutustanud jutustad jutustavad jutustasin jutustage jutustame jutustatud jutustate jutustaks jutustaksid jutustades jutustasime jutustaksin
+15	1415	liituma	liituda liituma liitub liitus liitunud liitud liitusin liitun liituvad liituge liitute liitume liituksid liituks liitusite liituksite liituksin liitusime liitumast liituksime
+16	1416	paremale	paremale
+17	1417	ettepanek	ettepaneku ettepanek ettepanekut ettepanekuid ettepanekud ettepanekuga ettepanekust ettepanekule ettepanekutele ettepanekute ettepanekutega ettepanekul ettepanekutest ettepanekus
+18	1418	osav	osav osavad osavaks osava osavat osavate
+19	1419	torm	torm tormi tormid tormiga tormis tormist torme tormide tormiks tormile tormidest tormides tormidega tormil
+20	1420	nõme	nõme nõmedad nõmeda nõmedat nõmedaid nõmedalt nõmedam nõmedast nõmedas nõmedale nõmedaks nõmedasse nõmedate nõmedatest nõmedal
+21	1421	hommikusöök	hommikusöök hommikusööki hommikusöögi hommikusöögiks hommikusöögile hommikusöögiga hommikusöögil hommikusöögist hommikusöögita hommikusöögini hommikusöögilt hommikusöögid hommikusööke
+22	1422	katkestama	katkestada katkesta katkestama katkestas katkestame katkestan katkestatud katkestage katkestab katkestasin katkestati katkestasid katkestanud katkestad katkestavad katkestaks katkestasite katkestatakse katkestasime katkestades katkestate katkestaksime katkestaksid katkestamata
+23	1423	mõistlik	mõistlik mõistlikult mõistlikku mõistlikud mõistliku mõistlikum mõistlikuks mõistlikke mõistlikul mõistlikuna mõistlikus mõistlike mõistlikule mõistlikust
+24	1424	mälu	mälu mälust mällu mälus mäluga mälud mälule mälusse mäluta mälul mälusid mäluks
+25	1425	meister	meister meistrid meistri meistriks meistrit meistrite meistrile meistriga meistrilt meistreid meistrina meistril meistriteks meistritele meistrist meistritega
+26	1426	treenima	treenitud treenida treenima treeninud treenin treenib treenis treenisin treeni treenime treenid treeniti treenisid treenivad treenisime treenitakse treenides treenimata treenite treenimas treeniks treeniksid treenisite treenige treenita treeniksin
+27	1427	piirama	piiratud piirata piirake piiramatu piiranud piiravad piirab piirama piirame piira piirasid piiras piiramatult piiramatud piiratakse piirasime piirati piiramatut piiraks piirates piirasin piiran piiramatus piiramatuid piiramas piirav piirad piirate piiramatul piiramatute piiramatule piiraksid
+28	1428	baas	baasi baas baasis baasist baasile baasil baasiga baaside baase baasid baasina baasini baasides baasiks baasidesse baasidele baasidest
+29	1429	tsau	tsau tšau
+30	1430	kohver	kohver kohvri kohvris kohvrit kohvrid kohvriga kohvrisse kohvrist kohvreid kohvritega kohvrite kohvril kohvritesse kohvrile kohvritest kohvrites
+31	1431	paljastama	paljastada paljastatud paljastab paljastas paljasta paljastanud paljastan paljastasid paljastama paljastavad paljastatakse paljastad paljastati paljastame paljastades paljastaks paljastasin paljastav paljastage paljastamata paljastasime paljastasite paljastaksid paljastamas paljastavat paljastataks paljastate paljastaksin paljastaksite paljastamast
+32	1432	lääs	lääne läände läänes lääs läänest läänt läänega läänele
+33	1433	kontakt	kontakti kontakt kontakte kontaktid kontaktis kontaktide kontaktiga kontaktist kontaktidega kontaktidest kontaktidele kontaktile kontaktiks kontaktini kontaktita kontaktilt kontaktina
+34	1434	vestlema	vestelda vestleme vestlema vestlesime vestlesin vestelnud vestlen vestle vestlesid vestles vestleks vestlevad vestlesite vestleb vesteldes vestled vestlemas vestlete vestelge vestleksin vestleksime vestleksid
+35	1435	kumb	kumb kumba kumma kummist kummal kummale kummast kummaga kummas kummad kummalt kumbi kummis
+36	1436	kah	kah
+37	1437	reede	reede reedel reedeks reedeni reedet reedest reeded reedega reedeta
+38	1438	nagunii	nagunii
+39	1439	paras	paras paraja parajalt parajad parajaks parajas parast parajat parajal parajaid
+40	1440	saade	saade saadet saate saatel saatesse saates saatest saateid saated saatega saatele saadete saateks saadetes saadetest saateni saateta
+41	1441	karistus	karistus karistuse karistust karistuseks karistusest karistuseta karistusi karistused karistusega karistusele karistusena karistuste karistustest karistustega
+42	1442	riist	riista riist riistaga riistad riistast riistu riistasid riistale riistal riistadega riistade riistata riistas riistadest riistani
+43	1443	lubadus	lubaduse lubadust lubadus lubadusi lubadused lubadusest lubaduste lubadustest lubadusega lubadustega lubadusele lubadusena lubaduseks lubadusel lubadustes lubaduses lubadustele
+44	1444	allikas	allikas allikad allika allikat allikast allikaid allikate allikatest allikaks allikalt allikale allikaga allikani allikal allikatele allikatega allikana allikates allikasse allikatelt
+45	1445	piloot	piloot piloodid piloodi pilooti piloodiga pilootide piloote piloodile piloodiks piloodil piloodist pilootidest pilootidel pilootidele piloodilt piloodina pilootidega
+46	1446	ratas	ratas rattad rattaga ratast ratta ratastel rattaid rataste ratastega rattal rattale rattalt rattas rattast ratastele rattaks ratastest ratasteta
+47	1447	edukas	edukas edukalt edukad edukaks eduka edukat edukam edukaid edukamad edukaim edukast edukate edukale edukana edukatest edukal
+48	1448	söök	söök söögi sööki söögiks söögiga söögist söögid sööke söögita söögile söögis söökide
+49	1449	küllap	küllap
+50	1450	liin	liinil liin liini liinile liinid liinilt liine liinist liiniga liinis liinide liinidel liinidele
+51	1451	valitsema	valitseb valitseda valitsema valitses valitsevad valitse valitsesid valitsev valitsen valitseks valitsenud valitsed valitseme valitseva valitsevat valitsete valitseksid valitsemas valitsegu valitsesin valitsege valitseksime valitsesime valitseksin valitsevaid valitsetakse valitsevate valitsedes
+52	1452	kõikjal	kõikjal
+53	1453	ülesse	ülesse
+54	1454	loogiline	loogiline loogiliselt loogilisem loogilist loogilise loogilised loogilisena loogiliseks loogilisi loogilisest
+55	1455	kuulutama	kuulutan kuulutada kuulutas kuulutatud kuulutab kuulutati kuulutanud kuulutama kuuluta kuulutame kuulutasid kuulutatakse kuulutavad kuulutage kuulutasin kuulutad kuulutasime kuulutate kuulutades kuulutasite kuulutaksin kuulutaks kuulutamas kuulutata kuulutataks kuulutaksid kuulutamaks
+56	1456	õnnetu	õnnetu õnnetud õnnetuks õnnetust õnnetut õnnetult õnnetuna õnnetute õnnetuid õnnetusse õnnetul õnnetum õnnetule õnnetutest õnnetutele
+57	1457	vabanema	vabaneda vabane vabanema vabaneb vabanes vabanen vabaneme vabaned vabanege vabanesin vabanesid vabanevad vabaneks vabanedes vabanesime vabanete vabaneksid vabanesite vabaneksin vabanemas vabanemaks vabanetakse vabaneksime
+58	1458	üllatama	üllatada üllata üllatab üllatas üllataks üllatasid üllatan üllatad üllatama üllatanud üllatame üllatasin üllatate üllatamast üllatasime üllatage üllatati üllatades üllatasite üllatatud üllatavad üllatavat
+59	1459	teooria	teooria teooriat teoorias teooriaid teooriad teooriast teooriaga teooriale teooriate teooriatest teooriatega teoorial teooriaks teooriates teooriasse
+60	1460	õlg	õla õlg õlad õlale õlga õlgadel õlal õlgadele õlul õlule õlgu õlgade õlast õlgadelt õlaga õlas õlalt õlult õlgi õlgadest õled õlgadega õlgadeni õlis õlust õle õlgedest õlist õlus õlgadesse õlisse
+61	1461	tiim	tiim tiimi tiimis tiimist tiimiga tiimid tiimile tiimil tiimina tiimidele tiimidega tiimiks tiimide tiime tiimilt
+62	1462	suhtlema	suhelda suhtle suhelnud suhtlema suhtleb suhtlevad suhtleme suhtled suhtlen suhtles suhtlete suhtlesin suhtlesid suheldes suhelge suhtlesime suhtleks suhtlemas suhtlesite suhtleksid suhtlemast suheldud suhtleksin suhtlev
+63	1463	maagia	maagia maagiat maagiaga maagiast maagiasse maagiale maagiaks maagial maagiata maagias
+64	1464	eales	eales
+65	1465	seetõttu	seetõttu
+66	1466	ahv	ahv ahvi ahvid ahvide ahve ahviga ahvile ahvist ahvidest ahvidega ahvil ahvidele ahviks ahvidel ahvideks ahvis ahvilt
+67	1467	vitt	vittu vitt vitud vitu vitust vitte vituga vitus vitule vituks vittudega vittudele vittude
+68	1468	matus	matused matustel matustele matuseid matus matusel matuste matusele matuse matust matusteks matustest matustelt matustega matusest matuselt matuseni matuseks matusteni
+69	1469	oot	oot
+70	1470	kohustus	kohustus kohustused kohustusi kohustust kohustustest kohustuste kohustuse kohustuseks kohustustega kohustusest kohustustele kohustusega kohustusteta kohustustes kohustusele kohustusena
+71	1471	vaidlema	vaielda vaidle vaidlema vaidleme vaidlevad vaidled vaieldav vaidlen vaidlesid vaidlesime vaielnud vaielge vaidleks vaidlete vaidles vaidlemas vaidleb vaidlesite vaidlesin vaieldes vaidlemata vaidleksin vaieldavad vaieldakse vaidleksid vaidlemast
+72	1472	kahtlus	kahtlust kahtluse kahtlusi kahtlused kahtlus kahtluseta kahtlustest kahtlusteta kahtluste kahtlusega kahtluseid kahtlusest kahtlustega kahtlustele kahtlusteks kahtlusele kahtlustel kahtluseks kahtlustes
+73	1473	ravima	ravida ravib ravima ravin ravime ravinud ravitud ravisin ravivad ravitav ravitakse raviti ravite ravisime ravisite ravimata ravige ravimas ravitaks raviksid ravivat raviksin
+74	1474	vihje	vihje vihjeid vihjet vihjed vihjest vihjeks vihjete vihjetest vihjega vihjele vihjena vihjetega vihjetele
+75	1475	direktor	direktor direktori direktoriga direktorile direktoriks direktorit direktorite direktorina direktorilt direktorid direktoril direktorist
+76	1476	persevest	persevest persevestid persevesti perseveste persevestist persevestiks persevestiga persevestide persevestile persevestidest persevestidele persevestil persevestina persevestidega persevestidel
+77	1477	imema	imeb imeda imevad imema imen imenud imetud imetakse imege imesin imev imeti imete imeme imesid imemas imed imeksid imes imeksin imeks imegu imevat imedes
+78	1478	toimik	toimik toimikut toimiku toimikud toimikuid toimikus toimikust toimikusse toimikute toimikutes toimikutest toimikuga toimikutega toimikule toimikutele toimikutesse
+79	1479	joon	joonde joone joonised joont joonele joonel joon jooned jooni joonis joonte joonelt joones joonest joonega jooneni joonist joontega joontest
+80	1480	siiapoole	siiapoole
+81	1481	lähedus	läheduses lähedusse lähedust lähedus lähedusest läheduse lähedusega
+82	1482	mingisugune	mingisugune mingisugust mingisuguse mingisuguseid mingisugused mingisuguses mingisuguseks mingisugusest mingisugusele mingisugusesse mingisuguste mingisugusel mingisuguseidki
+83	1483	jooks	jookse jooksu jooksus jooksuga jooks jookseks jooksule jooksud jooksuks jooksust jooksuta
+84	1484	kahtlustama	kahtlustan kahtlustama kahtlustab kahtlusta kahtlustatakse kahtlustanud kahtlustada kahtlustasin kahtlustad kahtlustavad kahtlustame kahtlustaks kahtlustas kahtlustasid kahtlustate kahtlustati kahtlustasime kahtlustatud kahtlustataks kahtlustasite kahtlustata kahtlustades kahtlustaksid kahtlustaksin kahtlustavat
+85	1485	amet	amet ametis ameti ametisse ametist ametit ametiga ametile ametid ametiks ameteid ametilt ametil ametitest ametite
+86	1486	täpne	täpne täpset täpsed täpse täpsem täpseid täpsemad täpsema täpsel täpsete täpseks täpsele täpses täpsemaks täpseim
+87	1487	trepp	trepist trepi trepp trepil trepid treppi treppe treppidest trepile treppide treppidel trepilt treppidele trepini treppideni treppidega trepiga treppidelt
+88	1488	tungima	tungida tungis tungisid tungib tunginud tungivad tungima tungiti tungime tungid tungisin tungitud tungisite tungin tungisime tungite tungiks tungimas tungitakse tungides tungivat tungige tungimast tungiksid
+89	1489	enesetapp	enesetapp enesetapu enesetappu enesetapule enesetapust enesetapuga enesetapuks enesetapud enesetappe enesetappude enesetapuni enesetapuna enesetappudest enesetappudega
+90	1490	oskus	oskusi oskused oskus oskuste oskustega oskust oskustest oskuse oskuseid oskustele oskusega oskustes oskusest oskusteta oskuseks oskusele oskustesse oskuses
+91	1491	toimetama	toimetada toimetama toimetan toimetab toimetame toimetatud toimetage toimetas toimetad toimetatakse toimetati toimetavad toimetanud toimetasin toimetasid toimetate toimetaks toimeta toimetaksid toimetasime toimetades toimetasite toimetamas toimetaksin toimetaksime toimetataks
+92	1492	informatsioon	informatsiooni informatsioon informatsiooniga informatsioonile informatsioonist informatsiooniks informatsioonil informatsioonis
+93	1493	hooaeg	hooaeg hooaja hooajal hooaega hooajaks hooajaga hooajast hooajale hooajas hooajani hooajad hooaegade
+94	1494	kepp	keppi kepi kepp kepid keppisid kepiga kepiks kepist keppides keppe keppidega kepita keppide kepile kepis
+95	1495	teadlane	teadlane teadlased teadlaste teadlasi teadlase teadlast teadlastest teadlasena teadlastele teadlastel teadlastega teadlaseks teadlasele teadlasega teadlasest teadlasel teadlaseid teadlastelt teadlastena teadlaselt teadlasteks
+96	1496	rakett	rakett raketid raketi raketti rakette rakettide raketiga rakettidega rakettidest rakettidele raketil raketile rakettidel rakettides rakettidesse
+97	1497	maal	maali maale maalid maalis maal maalide maalist maaliga maalil maalisid maalidest maalidega maalides maalile maalidel maaliks maalilt maalidele
+98	1498	näitleja	näitleja näitlejad näitlejaks näitlejaid näitlejat näitlejate näitlejana näitlejatega näitlejaga näitlejatele näitlejast näitlejale näitlejatel näitlejatest näitlejateks näitlejal näitlejaist
+99	1499	tulek	tulekul tulekut tulekust tuleku tulek tulekuks tulekuni tulekuga tulekus
+100	1500	eilne	eilse eilne eilsest eilset eilsed eilseni eilses eilsel eilseid eilsesse eilseks eilsete eilsele eilsega eilsetest eilselt

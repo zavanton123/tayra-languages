@@ -1,0 +1,100 @@
+1	101	kunagi	kunagi
+2	102	jumal	jumal jumala jumalat jumalale jumalad jumalate jumalaga jumalast jumalal jumalasse jumalaid jumalalt jumalatele jumalaks jumalatega jumalatest jumalatelt jumalatel jumalateks jumalas jumalata jumalana jumalatesse jumalaile jumalani jumalgi jumalatena jumalates jumalailt jumalaist
+3	103	juhtuma	juhtus juhtub juhtunud juhtuda juhtuma juhtuks juhtu juhtunu juhtunut juhtuvad juhtunust juhtuski juhtumas juhtusin juhtugu juhtunus juhtunuga juhtud juhtusid juhtuvat juhtun juhtugi juhtute juhtunule juhtusime juhtusite juhtunuks juhtume juhtunul juhtuv juhtumast juhtumata juhtunusse
+4	104	just	just
+5	105	nimi	nimi nime nimel nimega nimelt nimed nimeks nimesid nimeta nimele nimedega nimegi nimede nimest nimes nimedest nimedele nimedeta nimme nimesidki nimedel nimedeks nimena nimesse nimedes
+6	106	käima	käia käib käinud käi käima käis käisin käisid käin käivad käid käisime käime käigu käimas käige käisite käite käiks käies käiksid käidud käinudki käiksin käiakse käised käidi käiv käiksime käivat käimata käida käiva käiksite käimast käivate käistega käiseid käinu käivast
+7	107	selline	selline sellist sellise selliseid sellised sellisel sellises selliste sellisena selliseks sellisest sellistest sellisesse sellistes sellisele sellistel sellisega selliselt sellisteks sellistele sellistesse sellistena sellistega sellistelt
+8	108	uskuma	usu usun uskuda uskuma usud uskunud usub uskuge usuvad usume usute uskusin usuks uskus uskusid usutav usuksid usuksin usutakse uskumast uskusime uskudes usutavalt uskuvat uskusite usuti usuksime usuta usutavat usutava usutavaks usuksite usutavust usutavad usutud uskumata usutaks uskunuks uskugu uskumaks
+9	109	naine	naine naise naist naised naisega naisi naiste naisele naiseks naisel naisest naistega naistele naistest naistel naiselt naisena naises naisesse naistes naistelt naiseta naistesse naisteta nainegi naisteks naiseni
+10	110	meeldima	meeldib meeldi meeldis meeldiks meeldid meeldinud meeldima meeldin meeldivad meeldisid meeldida meeldite meeldisin meeldiksid meeldime meeldivat meeldigu meeldiksin meeldisite meeldisime meeldinuks meeldiksime
+11	111	mingi	mingi mingit mingeid mingil mingid mingis mingist mingile mingite mingisse mingiks mingitki mingigi mingilt mingitest mingitel mingitele mingitesse mingites mingiteks mingitelt mingiga
+12	112	hoidma	hoia hoida hoidke hoiab hoian hoidma hoiame hoiad hoidis hoiavad hoidku hoidnud hoidsin hoitakse hoidsid hoiaks hoiaksid hoiate hoides hoiti hoitud hoiaksin hoidsime hoidmas hoidsite hoiaksite hoidmaks hoiaksime hoiabki hoita hoitaks hoidvat hoidev hoidkem hoidmast hoitama hoidagi hoidvad hoidmata
+13	113	laps	lapsed laps lapse lapsi last laste lastele lastega lapsele lapsega lapsena lasti lapsest lastest lastel lapsel lastes lastena lastelt lapseks lasteta lapselt lasteks lapses lastesse lapseta lapsedki lasteni lapsesse lapski lapseni
+14	114	suutma	suuda suudad suutnud suudan suudab suudaks suudame suudavad suudate suutsin suutis suutsid suudaksid suudaksin suutma suutsime suudaksime suudagi suutsite suudaksite suudetud suutmata suutnudki suudetakse suutvat suutnuks suudeti suutes suuta
+15	115	enam	enam enamat enamgi enamaks enamas enama enamalt enamast enamaga enamate enamale enamad enamatele
+16	116	üle	üle ülegi yle
+17	117	maha	maha
+18	118	aru	aru arust arugi arus aruta aruga aruna
+19	119	läbi	läbi
+20	120	sõber	sõber sõbrad sõbra sõpru sõpra sõpradega sõprade sõbraga sõbrale sõpradele sõbraks sõpradeks sõpradest sõbral sõbrast sõbralt sõbrana sõpradel sõpradena sõpradelt sõpradeta sõbras sõprades sõbrata sõpradesse
+21	121	vaja	vaja
+22	122	oh	oh
+23	123	koht	koht kohal kohale koha kohas kohast kohad kohti kohtadele kohata kohtades kohaga kohtasid kohalt kohtadesse kohtadest kohtadel kohaks kohtade kohani kohana kohtadega kohtadelt kohtadeks
+24	124	tõesti	tõesti
+25	125	vaid	vaid
+26	126	kohe	kohe
+27	127	koos	koos
+28	128	mõni	mõned mõni mõne mõnda mõneks mõnel mõnes mõndagi mõnele mõnede mõnd mõnest mõnedel mõnedele mõnigi mõnelt mõnegi mõnedest mõnedki mõnega mõnedes mõnesid mõnesse mõneski mõnelgi mõnedega mõnedesse
+29	129	iga	iga igal igas igale igat igaks igast igalt east eal eas igasse ea eale eaga ead eani
+30	130	enne	enne endeid ended endeks endel ende ennet
+31	131	lõpetama	lõpeta lõpetada lõpetanud lõpetage lõpetama lõpetan lõpetame lõpetasin lõpetad lõpetas lõpetab lõpetasid lõpetatud lõpetaks lõpetaksid lõpetasime lõpetavad lõpetamata lõpetate lõpetasite lõpetati lõpetamas lõpetaksin lõpetaksite lõpetades lõpetatakse lõpetaksime lõpetatuks lõpetanu lõpetagu lõpetata lõpetamaks lõpetagem lõpetamast lõpetataks lõpetanutest lõpetanute
+32	132	vastu	vastu
+33	133	kodu	koju kodus kodu kodust koduks kodunt kodudesse kodud kodule kodudes kodudest kodusid koduni kodusse kodude koduga koduta koduski koduna kodul
+34	134	hei	hei
+35	135	elama	elada elab elama elanud elad elan elavad elas ela elame elagu elasid elasin elate elav elaks elasime elavate elades elavana elava elaksid elavat elaksin elasite elage elatud elaksime elavalt elavaid elamas elavaks elavale elavatele elatakse elamast elavatest elavadki elavast elaksite
+36	136	täna	täna
+37	137	poiss	poiss poisid poisi poissi poisiga poiste poisse poisile poistega poisil poistele poisist poistest poistel poisina poisiks poisilt poisis poistelt poisteks poistes poisita poisini poistena poistesse poisisse
+38	138	üles	üles
+39	139	tooma	toon tuua tõin toob tõi tooge tõid tooma toome toonud tood toodi toovad tooks tõime tuuakse tooksid tõite toodud toote tooni tuues tooksin toomas toonil tooksite tooniga toodaks toogu tooksime toobki toomast toone toov toomaks toodigi toonist toomata toonide toodama
+40	140	armastama	armastan armastab armastad armasta armastasin armastavad armastas armastada armastame armastama armastanud armastatud armastasid armastate armastav armastaks armastatu armastasime armastaksid armastatakse armastamast armastavat armastava armastasite armastage armastades armastaksin armastatuid armastatut armastati armastata armastataks armastatute armastatuga armastatuna armastatule armastavate armastatutega armastaksime armastavas
+41	141	väike	väike väikese väikest väikse väikesed väiksed väikeste väiksem väikseid väikeses väikesest väikesele väiksele väikene väiksest väiksena väikeseid väikses väiksemad väikesel väikeseks väiksemaks väikestest väiksel väiksema väikseks väiksemat väikesi väiksesse väikesesse väikestele väikestes väiksemaid väikesteks väiksemgi väikestel väikselt väiksemate väikeselt väikestesse
+42	142	sisse	sisse
+43	143	tüdruk	tüdruk tüdrukud tüdruku tüdrukut tüdrukuga tüdrukuid tüdrukute tüdrukule tüdrukust tüdrukutega tüdrukutele tüdrukul tüdrukutest tüdrukutel tüdrukuks tüdrukult tüdrukuna tüdrukus tüdrukusse tüdrukutelt tüdrukuta tüdrukuni tüdrukutes tüdrukuteks tüdrukuteta tüdrukuist tüdrukutesse tüdrukutena
+44	144	kogu	kogu kogus koguni kogust kogud kogusid kogudes koguks kogusse kogule koguga
+45	145	isegi	isegi
+46	146	uus	uus uue uut uued uusi uute uuele uuest uude uues uueks uuel uutele uutest uuega uuem uuelt uutel uutes uuteks uutesse uuena uuemat uuemad uuema uutega uuemaid uutelt uuemate uuemas
+47	147	vabandus	vabandust vabandus vabanduse vabandused vabandusi vabanduseks vabandusena vabandustest vabanduste vabandusest vabandusega vabandustega vabandusteks vabandusteta
+48	148	kindel	kindel kindlalt kindlaks kindlad kindla kindlat kindlas kindlam kindlaid kindlal kindlasse kindlast kindlamalt kindlate kindlale kindlates kindlamat kindlana kindlatele kindlatel kindlatest kindlama kindlamaks kindlatesse
+49	149	ikka	ikka
+50	150	vajama	vajan vajab vajame vajad vajavad vajate vajasin vajas vajasid vajagi vajaks vajatakse vajanud vajada vajasime vajama vajaksin vajaksid vajata vajaksime vajasite vajavat vajav vajati vajaksite vajatud vajades vajatav
+51	151	viima	viia vii viib viima viige viime viimaks viid viivad viidi viiakse viinud viisin viies viiks viimast viidud viiksid viisid viiksin viisime viite viisite viimas viidaks viida viiksite viiv viiksime viivuks viivat viimata viivu viival viigu viinudki viidama viidigi
+52	152	raha	raha rahaga rahast rahas rahaks rahad rahata rahale rahadega rahal rahasid rahade rahadest rahasse rahani rahana rahadele
+53	153	kinni	kinni
+54	154	otsima	otsin otsima otsime otsi otsida otsib otsid otsivad otsinud otsisin otsige otsite otsisid otsis otsides otsisime otsimas otsitakse otsiks otsisite otsiksid otsiksin otsitud otsiti otsitav otsigu otsiksime otsimast otsiksite otsitava otsimaks otsiv otsita otsitavat otsitu otsivat otsitaks otsitavad otsitavate
+55	155	helistama	helistan helista helistada helistas helistab helistasin helistama helistanud helistasid helistage helistad helistame helistati helistasite helistaks helistate helistavad helistatakse helistaksid helistaksin helistasime helistamast helistatud helistades helistamas helistagu helistaksite helistamata helistata helistaksime
+56	156	muidugi	muidugi
+57	157	jaoks	jaoks
+58	158	valmis	valmis valmi valmiks valmiski valmist valmid
+59	159	eks	eks
+60	160	alati	alati
+61	161	sama	sama samal samas samad samast samu samasse samaga samaks samade samale samades samadel samadest samalt samadele samasid samadesse samma
+62	162	surema	suri surra sureb surema sure suren suremas sured surevad surid sureme sureks surete surematu surin sureksid surnuks sureksin surres surematud surematuse surematuks surematus surev surge surevat surematust surime sureksime surematute suremast surematut surrakse sureksite surite surematuid surinat surgu surematule surematuna
+63	163	kutsuma	kutsu kutsuda kutsun kutsutakse kutsus kutsub kutsusid kutsuge kutsuma kutsuvad kutsume kutsusin kutsud kutsuti kutsunud kutsutud kutsusite kutsuks kutsute kutsusime kutsuksin kutsumata kutsuksid kutsumast kutsudes kutsutaks kutsumas kutsuksite kutsuvadki kutsuksime kutsuv kutsugu kutsusimegi kutsutute kutsuvat kutsutavat kutsugem kutsutama
+64	164	auto	auto autosse autot autos autost autoga autod autosid autode autole autol autodega autodest autoni autolt autodesse autodele autodes autodel autota autoks autodelt autodeni autona autodeta
+65	165	pool	poole pool poolel poolest pooleks pooled poolele pooli poolega poolelt poolte pooles pooltel pooltest poolde pooltele pooltes pooleni pooleta pooltega poolita
+66	166	ning	ning
+67	167	esimene	esimene esimest esimese esimesena esimesel esimesed esimesest esimeses esimeseks esimesele esimesi esimesse esimeste esimestena esimestest esimestel esimeselt esimesega esimesteks esimestele esimestes esimestesse
+68	168	praegu	praegu praegugi
+69	169	siit	siit
+70	170	liiga	liiga liigagi liigas liigast liigasse liigat liigaga liigale liigal
+71	171	kohta	kohta
+72	172	kuulama	kuula kuulake kuulata kuulama kuulan kuulanud kuulad kuulab kuulame kuulasin kuulavad kuulasid kuulate kuulaks kuulas kuulaksid kuulates kuulatakse kuulasime kuulaksin kuulamas kuulasite kuulaksite kuulati kuulamast kuulatud kuulataks kuulamata kuulaksime kuulanudki kuulakem kuulaku kuulatab kuulavat kuulav
+73	173	jõudma	jõudnud jõuab jõua jõuda jõuame jõudis jõudma jõuan jõudsin jõuad jõudsid jõudsime jõuavad jõudes jõuaks jõuate jõudsite jõudnudki jõudmas jõuaksid jõuaksime jõuaksin jõudsimegi jõuti jõutud jõutakse jõudke jõuaksite jõuamegi jõudmaks jõudmast jõudmata jõudvat jõudnuna jõudnuks
+74	174	tore	tore toredad toredat toreda toredaid toredam toredalt toredaks toredate toredale toredast toredas toredatele toredasse toredal toredatest toredates toredana
+75	175	lahkuma	lahku lahkuda lahkuma lahkus lahkun lahkume lahkub lahkunud lahkud lahkusid lahkusin lahkuge lahkuvad lahkumas lahkute lahkuks lahkudes lahkuksid lahkusime lahkusite lahkuksin lahkuksite lahkuksime lahkumast lahkunu lahkumata lahkunute lahkuv lahkuta lahkugu lahkuva lahkunut lahkunuga lahkuvat lahkuti
+76	176	küsima	küsida küsi küsin küsisin küsima küsid küsis küsinud küsib küsisid küsige küsite küsivad küsimast küsime küsiks küsitakse küsiksin küsimata küsisite küsitud küsiti küsisime küsides küsiksid küsimas küsinudki küsingi küsitav küsita küsiksite küsitava küsitavaks küsitavad küsiksime küsitaks küsitavate küsiv küsigu küsimaks
+77	177	alla	alla allagi
+78	178	õigus	õigus õigust õiguse õigused õigusi õigusega õiguste õigustest õigusest õiguseid õigustega õiguseta õigusele õiguses õigustele õigusteta õigustesse õigusel õiguseks õigustes
+79	179	võib-olla	võib-olla võibolla
+80	180	juurde	juurde juurdegi
+81	181	surnud	surnud surnuks surnuna surnute surnult surnut surnuid surnu surnust surnuist surnutega surnutena surnutele surnutest surnudki surnutel surnutelt surnuga surnule surnul surnuteks surnum surnuiks
+82	182	kahju	kahju kahjuks kahjud kahjusid kahjude kahjust kahjudest kahjuga kahjus kahjudega kahjule
+83	183	mõistma	mõista mõistan mõistad mõistate mõistma mõistsin mõistab mõistnud mõistame mõistaks mõistetud mõistis mõistavad mõisteti mõistaksid mõistetav mõistetakse mõistsid mõistes mõistsime mõistev mõistke mõistmaks mõistaksite mõistaksin mõistetaks mõistmatu mõistvat mõistvad mõistsite mõistetavalt mõistmata mõistetavad mõistvalt mõistaksime mõistva mõistetavaks mõistmatud mõistmas mõistetavana
+84	184	sinna	sinna
+85	185	lahti	lahti
+86	186	kasutama	kasutada kasutab kasutama kasutas kasutan kasutavad kasutasid kasutame kasutanud kasuta kasutad kasutades kasutasin kasutatakse kasutatud kasutage kasutati kasutamine kasutasime kasutate kasutaks kasutamise kasutamist kasutamiseks kasutasite kasutamata kasutaksin kasutaksid kasutata kasutamisest kasutatav kasutamas kasutaksime kasutamisega kasutatavad kasutamises kasutamast kasutamisele kasutataks kasutamisel
+87	187	saatma	saatis saata saadan saadab saatsid saatsin saadeti saatke saatma saadame saatnud saadetud saadavad saadetakse saadad saatsime saates saatsite saadate saadaksid saadaksin saadetaks saadaksite saatku saadeta saadaks saadanas saatmas saadaksime saatmata saatmast saadana saadetama saatvad saatmaks saadetav
+88	188	silm	silmad silmas silma silmi silm silmist silme silmis silmadega silmade silmaga silmades silmadesse silmadest silmast silmadele silmale silmus silmadeks silmuse silmini silmadel silmuses silmusesse silmusest silmal silmust silmadeta silmadelt silmata silmisse silmil silmaks silmuseid silmigi silmile silmused silmasid silmilt silmusega
+89	189	töötama	töötab töötan töötas töötada töötad töötanud töötama töötavad töötasin töötame töötasid töötate töötaks töötasime töötades tööta töötamas töötav töötasite töötaksid töötavat töötamast töötava töötatud töötaksin töötage töötaksime töötatakse töötati töötavaid töötavate töötaksite töötata töötagu töötavale töötavast töötamaks töötavatest töötaval töötavasse
+90	190	kuhu	kuhu
+91	191	kaduma	kadunud kao kadus kaduge kaduma kaob kaome kadusid kaduda kaon kaovad kaoks kadunuks kaod kaotaks kaoksid kadumas kadusin kaote kadusite kadugu kaoksin kaduv kadunute kaoksite kaduski kaduvat kadunu kadudes kadunut kadunuid kadusime kaoksime kaduvad kaduva kadununa kadunutest kaotavat kaotagu
+92	192	tähendama	tähendab tähenda tähendama tähendas tähendaks tähendavad tähendada tähendanud tähendabki tähendad tähendasid tähendan tähendavat tähendame tähendasin tähendades tähendanuks tähendate tähendatud tähendasime tähendagu
+93	193	aitäh	aitäh
+94	194	kolm	kolm kolme kolmest kolmeni kolmeks kolmel kolmele kolmes kolmega kolmelt kolmed kolmede kolmesid
+95	195	toimuma	toimub toimus toimunud toimu toimumas toimuma toimuvad toimuks toimusid toimuvat toimuda toimuvast toimunu toimuv toimubki toimunut toimunust toimuski toimunudki toimuksid toimunuga toimunule toimud toimunus
+96	196	härra	härra härrased härrad härrale härrat härraga härral härraks härradele härrastele härraste härrasid härralt härradega härrade härraseid härradel härrast härrata härras
+97	197	viga	viga vea vigu vead vigade veaks vigadest vigagi veast vigadega veaga vigadele vigasid vigadeta veale vigadeks vigades vigadel veana
+98	198	sööma	süüa sööma söö söönud sööme sööb söön sööd söövad sõi sõin sõid sööge sõime sööks söömas sööte süües söödud söödaks süüakse sõite söömata sööksid söödavat sööksin söödav sööksime söödu söögu söödi söönuks söömast söödavad sööv söödava süüagi sööksite söödavaid söövat
+99	199	näitama	näita näidata näitan näitab näitama näitas näidake näitavad näidanud näitame näitad näitasid näitasin näitaks näidatakse näitaksid näidati näitate näidates näidatud näitamaks näitaksin näitasime näitasite näitaksite näitamas näidaku näitaksime näitamata näidataks näitamast näitavat näidakem
+100	200	viimane	viimane viimase viimasel viimased viimast viimaseks viimastel viimasest viimasena viimaste viimaseid viimases viimasele viimasesse viimastest viimasegi viimaselt viimasteks viimastele viimastena viimaseni viimastes viimasega viimasedki viimasem viimastega

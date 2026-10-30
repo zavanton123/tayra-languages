@@ -1,0 +1,100 @@
+1	6201	kuusteist	kuusteist kuueteist kuueteistkümnes kuueteistkümne
+2	6202	sorima	sorida sorisid sorid soris sorinud sori sorib sorima sorisin sorimas sorivad sorides soritud
+3	6203	harilikult	harilikult
+4	6204	vä	vä
+5	6205	suundus	suundus
+6	6206	teistpidi	teistpidi
+7	6207	kiiluma	kiilunud kiilub kiilutud kiilun kiiluda
+8	6208	tang	tang tange tangu
+9	6209	konfidentsiaalne	konfidentsiaalne konfidentsiaalsed konfidentsiaalselt konfidentsiaalset konfidentsiaalse konfidentsiaalseks konfidentsiaalseid
+10	6210	unerohi	unerohtu unerohi unerohu unerohuga unerohud unerohtusid unerohust
+11	6211	paiknema	paikneb paiknevad paiknes paikneme paiknema paiknesid paiknevat paikneda
+12	6212	vabakutseline	vabakutseline vabakutselised vabakutselisena vabakutselise vabakutseliseks vabakutselist vabakutselisi vabakutselisteks
+13	6213	emakas	emakas emaka emakat emakast emakasse emakale emakani
+14	6214	keskelt	keskelt
+15	6215	märksa	märksa
+16	6216	ükspuha	ükspuha
+17	6217	morse	morse morset morsega
+18	6218	rahulolu	rahulolu rahuloluga rahulolust rahuloluks
+19	6219	harilik	harilik hariliku harilikud harilikku harilike harilikul harilikke harilikust
+20	6220	nimetus	nimetus nimetust nimetusega nimetuse nimetusi nimetused nimetusse
+21	6221	maamuna	maamunal maamunalt maamuna
+22	6222	kangas	kangast kangas kanga kangad kangaid kangasse kangaga
+23	6223	skafander	skafander skafandri skafandris skafandrid skafandrit skafandrist skafandrita skafandrites skafandreid skafandrite skafandrisse
+24	6224	oliiv	oliivi oliive oliivid oliiviga oliiv oliividega oliivide oliivideta
+25	6225	orhidee	orhidee orhideed orhideesid orhideede orhideedest orhideid
+26	6226	põhjapoolne	põhjapoolse põhjapoolne põhjapoolses põhjapoolsed põhjapoolsel põhjapoolsest põhjapoolset põhjapoolsele põhjapoolsesse põhjapoolsete põhjapoolselt põhjapoolsetes
+27	6227	koomik	koomik koomikud koomikut koomiku koomikuna koomikuks koomikuid koomikute
+28	6228	tohter	tohter tohtri tohtrid tohtrit tohtriga tohtrile
+29	6229	ebaselge	ebaselge ebaselgelt ebaselged ebaselgeks ebaselget
+30	6230	läbistama	läbistas läbistab läbistada läbistanud läbistavad läbistav läbistamatu läbistasid läbista läbistatud läbistaks läbistama
+31	6231	rügama	rüganud rügama rügada rügab rügan rügasin rügad rügame rügavad rügasime rüga rügas
+32	6232	kisama	kisama kisavad kisab kisada kisan kisage kisasin kisamas kisame kisanud kisate kisades kisad kisas kisasid kisaks
+33	6233	eemalt	eemalt
+34	6234	igapäev	igapäev igapäeva igapäevaga
+35	6235	kitkuma	kitkuda kitkutud kitkun kitkuma kitku kitkub
+36	6236	giid	giid giidi giidiks giidiga giidile giidina
+37	6237	mehelik	mehelik mehelikku meheliku mehelikud mehelikke mehelikult mehelikum mehelikuks mehelikust
+38	6238	kõrvaldamine	kõrvaldamine kõrvaldamiseks kõrvaldamise kõrvaldamist kõrvaldamisele
+39	6239	kunagine	kunagine kunagise kunagist kunagisest kunagised kunagisi kunagiste kunagises
+40	6240	hääbuma	hääbub hääbumas hääbuvad hääbunud hääbuma hääbus hääbuda hääbuv hääbu hääbun hääbud hääbuks
+41	6241	papagoi	papagoi papagoid papagoiga papagoist papagoisid
+42	6242	kaevik	kaevikutes kaevikusse kaeviku kaevikus kaevik kaevikuid kaevikut kaevikud kaevikutesse kaevikutest kaevikust
+43	6243	ekstsellents	ekstsellents ekstsellentsi
+44	6244	maruvihane	maruvihane maruvihaseks maruvihased
+45	6245	ujuja	ujuja ujujad ujujat ujujaid ujujate
+46	6246	eeskujulik	eeskujulik eeskujuliku eeskujulikult eeskujulikud eeskujulikku
+47	6247	isuäratav	isuäratav isuäratavalt isuäratavad isuäratava isuäratavat
+48	6248	aaker	aakrit aakri aaker aakreid aakril aakrid
+49	6249	viisa	viisa viisat viisad viisaga viisasid viisata viisade viisadega
+50	6250	tarretis	tarretist tarretis tarretise tarretisega tarretiseks tarretisse tarretises
+51	6251	prokuratuur	prokuratuur prokuratuuri prokuratuurist prokuratuuris prokuratuuril prokuratuuriga prokuratuurile
+52	6252	laatsaret	laatsaretti laatsaretis laatsaret laatsareti laatsaretist
+53	6253	võõrutusravi	võõrutusravile võõrutusravi võõrutusravil võõrutusravilt võõrutusravist
+54	6254	mutant	mutandid mutantide mutante mutandi mutanti mutantidest mutantidega mutantidele mutandiga mutantideks
+55	6255	rikkur	rikkur rikkurid rikkurite rikkuri rikkureid rikkuritele rikkurit rikkurist
+56	6256	laenutama	laenutada laenutasin laenutas laenutame laenutatud laenutad laenutan laenutanud laenutasime laenutasid laenutama laenutab
+57	6257	kooruma	kooruvad koorub kooruma koorus kooruda koorusid kooru koorumas
+58	6258	pimesi	pimesi
+59	6259	pasakott	pasakott pasakotid pasakotti pasakoti pasakotist
+60	6260	kriips	kriips kriipsu kriipsud
+61	6261	kulukas	kulukas kulukaks kulukad kulukaid kulukalt kuluka
+62	6262	käsitöö	käsitöö käsitööd käsitööna käsitööga käsitööst käsitöös
+63	6263	kolakas	kolakat kolakas kolaka
+64	6264	sammuma	sammugi sammub sammuti sammume sammun sammuvad sammuda sammusin
+65	6265	varjunimi	varjunimi varjunime varjunimed varjunimesid varjunimega varjunimedest
+66	6266	õigusemõistmine	õigusemõistmise õigusemõistmine õigusemõistmist õigusemõistmisest õigusemõistmisele õigusemõistmiseks
+67	6267	pagema	pageda pagema pagesid pagenud pagevad pageb pagesin pagesime pagemas pageme
+68	6268	erutus	erutus erutust erutusest erutuse erutuses
+69	6269	vidin	vidin vidinaid vidinad vidina vidinat vidinaga vidinatega vidinate
+70	6270	kruus	kruusi kruus kruusa kruusid kruusis kruusist kruusal
+71	6271	peidukoht	peidukohta peidukoht peidukoha peidukohast peidukohti peidukohad peidukohas
+72	6272	tätoveerima	tätoveeritud tätoveerida tätoveerima tätoveerisid tätoveeri tätoveerin tätoveerinud
+73	6273	terminal	terminali terminalis terminalist terminaliga terminalid
+74	6274	instrument	instrumendid instrumente instrumenti instrumendi instrumentide instrumentidega instrumendiga instrumendiks instrumendil
+75	6275	varustaja	varustaja varustajad varustajaga varustajaid varustajat varustajale varustajate
+76	6276	inimrass	inimrassi inimrass inimrassile inimrassist inimrassiga
+77	6277	õhkkond	õhkkond õhkkonda õhkkonnas õhkkonna
+78	6278	pesumaja	pesumaja pesumajas pesumajja pesumajast pesumajad
+79	6279	annus	annus annuse annust annuseid annused
+80	6280	õhurünnak	õhurünnak õhurünnaku õhurünnakut õhurünnakus õhurünnakute õhurünnakuid õhurünnakud õhurünnakuga õhurünnakuks
+81	6281	õping	õpinguid õpingud õpingute õpingutest õpinguteks
+82	6282	traktor	traktor traktori traktorit traktoriga traktorid traktoreid traktorite
+83	6283	tussu	tussu tussut tussud tussust tussule tussusid tussuga tussuks
+84	6284	põletus	põletus põletused põletuse põletusi põletust põletuste põletustega
+85	6285	kontrollpunkt	kontrollpunkti kontrollpunkt kontrollpunktid kontrollpunktis kontrollpunktist kontrollpunktides kontrollpunkte kontrollpunktini
+86	6286	ergutama	ergutada ergutab ergutama ergutan ergutavad ergutas ergutame ergutanud ergutage ergutamas ergutades ergutaks ergutad ergutavat ergutasid ergutasin
+87	6287	sellal	sellal
+88	6288	siivutu	siivutu siivutud siivutuid siivutut siivutult
+89	6289	hägune	hägune hägused häguseks häguselt häguse häguses
+90	6290	läikima	läikima läigib läikivat läigivad läikis
+91	6291	kriitika	kriitika kriitikat kriitikast kriitikaga kriitikale kriitikana
+92	6292	vaatus	vaatus vaatuse vaatuses vaatust vaatuseks
+93	6293	maa-ala	maa-ala maa-alla maa-alal maa-alust maaala maa-alasid maa-alale maaalal maa-alalt maa-alast
+94	6294	haigestuma	haigestus haigestub haigestuvad haigestusid haigestuda haigestuma haigestu haigestunuid haigestun haigestusin
+95	6295	kajakas	kajakas kajakad kajakaid kajaka kajakate kajakasse kajakat kajakatele kajakast kajakatega
+96	6296	pada	pada patta pajas paja pajata pattu
+97	6297	põikpäine	põikpäine põikpäised põikpäise
+98	6298	grant	granti grandi grandis grandid grandiga
+99	6299	ekslik	ekslikult ekslik ekslikud eksliku ekslikku
+100	6300	parameedik	parameedikud parameedik parameedikut parameedikuid parameedikute parameediku

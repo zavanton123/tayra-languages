@@ -1,0 +1,100 @@
+1	3301	vedelema	vedelema vedeleb vedeles vedelemas vedeleda vedelevad vedelesid vedele vedelenud vedelen vedeled vedelesin vedeleks vedeleme vedeleksin vedeledes
+2	3302	tähtaeg	tähtaeg tähtaja tähtaega tähtajaks tähtajad tähtajani tähtajast tähtajaga tähtaegu tähtaegadest tähtaegadega
+3	3303	kippuma	kipub kipuvad kipun kipud kipu kippus kipume kippusid kiputakse kippuda kipute kippunud kippusin kipuks
+4	3304	kirves	kirves kirvega kirve kirvest kirved kirveid kirvestega kirveste
+5	3305	tühjus	tühjus tühjust tühjusesse tühjuses tühjuse tühjusest tühjusse tühjusega tühjuseks
+6	3306	jälgimine	jälgimise jälgimine jälgimist jälgimiseks jälgimisega jälgimisel jälgimisest
+7	3307	raudne	raudselt raudne raudse raudsed raudset raudsete raudsest raudses raudseid
+8	3308	tuur	tuuri tuur tuurile tuuril tuure tuuriga tuurilt tuurist tuuridel
+9	3309	teiesugune	teiesugused teiesuguseid teiesugune teiesuguste teiesuguse teiesugust teiesugustele teiesugustega teiesugustel teiesugustest teiesugusele teiesugusel
+10	3310	rajama	rajada rajatud rajama rajanud rajame rajasin rajati rajan rajasime rajab rajavad rajatakse rajage rajasid rajaksid rajas rajad rajades rajaks
+11	3311	hertsog	hertsog hertsogi hertsogile hertsogit hertsogiga hertsogilt hertsogil hertsogiks
+12	3312	kristlane	kristlane kristlased kristlaste kristlasi kristlase kristlasest kristlaseks kristlastest kristlasena kristlastele kristlast kristlastega kristlastel kristlasteks kristlastena kristlasele kristlasega
+13	3313	jällegi	jällegi
+14	3314	heaolu	heaolu heaolule heaoluks heaolust heaoluga heaolus
+15	3315	ehkki	ehkki
+16	3316	päritolu	päritolu päritoluga päritolust päritolule päritolult päritolus
+17	3317	ummik	ummikus ummik ummikusse ummikust ummikud ummikuid ummikut ummiku ummikutes ummikute
+18	3318	trellid	trellide trellid
+19	3319	korduvalt	korduvalt
+20	3320	reetmine	reetmine reetmise reetmist reetmised
+21	3321	tilluke	tilluke tillukesed tillukese tillukest tillukesi tillukeses tillukeste tillukesest tillukeseks tillukesel tillukesse tillukesele tillukestest tillukestele
+22	3322	verejooks	verejooks verejooksu verejooksud verejooksuga verejookse
+23	3323	konflikt	konflikti konflikt konflikte konfliktis konfliktid konfliktist konfliktide konfliktiga konfliktiks konfliktini konfliktidest konfliktides konfliktile
+24	3324	trükkima	trükkida trüki trükitud trükkima trükin trükid trükkis trükib trükivad trükkinud trükkisin trükitakse trükiti trükime trükkisid trükkige trükiks trükkisime trükkisite trükite
+25	3325	geen	geenid geen geeni geene geenides geenide geenidest geenidega geeniga geenidesse
+26	3326	noorus	nooruse noorus nooruses noorust noorusest noorusele noorusega
+27	3327	lämbuma	lämbub lämbun lämbus lämbu lämbumas lämbud lämbuda lämbuma lämbunud lämbuks lämbume lämbuvad lämbusin lämbusid lämbute lämbuksin lämbudes lämbuksid
+28	3328	tahtsink	tahtsingi
+29	3329	uudishimu	uudishimu uudishimust uudishimuga uudishimuks
+30	3330	tajuma	tajun tajuda tajub tajusin tajuvad tajunud tajuma tajume tajudes tajute tajumata tajuksid tajusite
+31	3331	rahusti	rahustit rahusteid rahusti rahustite rahustid rahustitega rahustiga rahustitest
+32	3332	salapärane	salapärane salapärase salapärast salapärased salapäraselt salapärasest salapäraseks salapärasel salapäraseid salapäraste salapärasesse salapärastel salapärases
+33	3333	salvestus	salvestus salvestust salvestuse salvestused salvestusi salvestusel salvestusest salvestuste salvestusega salvestusele salvestustele salvestuses salvestustes
+34	3334	süstima	süstida süstima süstin süstiti süstinud süstisin süstitud süstib süstitakse süstime süstivad süstige süstisite süstisime süstite
+35	3335	tibu	tibu tibud tibusid tibude tibul tibudele tibuga tibuks
+36	3336	pealinn	pealinna pealinn pealinnas pealinnast pealinnaks pealinnad pealinnades pealinnale pealinnu
+37	3337	kassett	kassett kasseti kassetti kassetid kassette kassetil kassetile kassetist kassetiga kassettide kassetilt kassettidel
+38	3338	nunnu	nunnu nunnud nunnut nunnusid nunnuks nunnult
+39	3339	järsk	järsk järsult järsu järsud järske järsust järsem järskude järsule järsul
+40	3340	liialdama	liialda liialdad liialdatud liialdasin liialdab liialdan liialdada liialdavad liialdanud liialdama liialdate liialdas liialdage liialdamata liialdasid liialdame
+41	3341	juur	juured juur juurte juure juuri juurtega juurt juurtest juurteni juurega juurteta juureni juureks juurel
+42	3342	varisema	variseb varises varisenud varisemas variseda varisema variseks varisesid varisevad varisesin varisemast
+43	3343	kaotaja	kaotaja kaotajad kaotajaks kaotajaid kaotajate kaotajale kaotajat kaotajana kaotajatele kaotajal
+44	3344	seep	seep seepi seebi seebiga seebid seepe seebist seebiks seebil
+45	3345	kohtamine	kohtamine kohtamisel kohtamisele
+46	3346	kiinduma	kiindunud kiinduda kiindu kiinduma kiindusin kiinduvad kiindub kiindud kiindus kiinduks kiindusid
+47	3347	haistma	haistan haista haistab haistad haistavad haistis haistsin haistma haistsid haistnud haistate haistame haistaks haistes haistaksid
+48	3348	edusamm	edusamme edusammud edusamm edusammude edusammudest edusammudega edusammu
+49	3349	hirmuäratav	hirmuäratav hirmuäratavad hirmuäratavalt hirmuäratava hirmuäratavat hirmuäratavaks hirmuäratavate hirmuäratavaid hirmuäratavast hirmuäratavas
+50	3350	faas	faas faasi faasis faasist faasiga faase
+51	3351	kahetsus	kahetsust kahetsus kahetsusega kahetsuse kahetsuseta kahetsusest kahetsusi kahetsused kahetsuses kahetsuseks kahetsuste kahetsusteta
+52	3352	käsutama	käsutada käsutab käsutad käsutan käsutama käsutas käsutavad käsutatakse käsutasin käsutage käsutate käsutaks käsutanud käsutame käsutasid käsutav käsutati
+53	3353	koristaja	koristaja koristajad koristajat koristajana koristajaks koristajate koristajaid koristajale koristajaga koristajal koristajalt koristajatest koristajast koristajatele koristajatel
+54	3354	põõsas	põõsas põõsastes põõsa põõsast põõsad põõsaste põõsasse põõsastesse põõsastest põõsaid põõsaga
+55	3355	keetma	keedetud keedan keetsin keedab keetnud keetma keetis keedad keetsid keedame keeta keedavad keetke keeda keedetakse keedate keetsime keedeti
+56	3356	sotsiaalne	sotsiaalne sotsiaalse sotsiaalselt sotsiaalset sotsiaalsed sotsiaalsete sotsiaalseid sotsiaalsest sotsiaalses sotsiaalseks sotsiaalsel sotsiaalsele sotsiaalsetest sotsiaalsesse
+57	3357	privaatne	privaatne privaatselt privaatset privaatsed privaatse privaatseid privaatses privaatsesse privaatseks privaatsele privaatsena privaatsel
+58	3358	aktiivne	aktiivne aktiivsed aktiivset aktiivse aktiivseks aktiivsest aktiivseid aktiivsete aktiivses aktiivsena aktiivsesse aktiivsele
+59	3359	neer	neeru neerud neer neerude neeruga neerudega neere neerust neerudesse neerudest neerusid neerudes neerudel neerudele
+60	3360	tervislik	tervislik tervislikku tervisliku tervislikult tervislikum tervislikud tervislikel tervislikke tervislikus tervislikust tervislikuks tervislike tervislikul
+61	3361	lindistama	lindistada lindistas lindistatud lindistasin lindistama lindistan lindistad lindista lindistab lindistasid lindistame lindistanud lindistatakse lindistavad lindistati lindistasime lindistate lindistasite
+62	3362	ihu	ihu ihule ihust ihul ihusse ihus ihuga ihud ihhu ihudele ihuks
+63	3363	akadeemia	akadeemia akadeemias akadeemiasse akadeemiast akadeemiat akadeemiale
+64	3364	lõikus	lõikus lõikust lõikuse lõikusele lõikusel lõikuseks lõikusest lõikusega lõikuselt lõikused lõikusi lõikuseta
+65	3365	tähtsusetu	tähtsusetu tähtsusetud tähtsusetuks tähtsusetuid tähtsusetuna tähtsusetut tähtsusetute tähtsusetus tähtsusetust tähtsusetul
+66	3366	patarei	patareid patarei patareisid patareide patareidega patareidel patareiga patareidest patareis patareides
+67	3367	pärdik	pärdik pärdikud pärdiku pärdikut pärdikuga pärdikus pärdikuid pärdikule pärdikute pärdikust pärdikutega pärdikul
+68	3368	finn	finn finni finniga finnil finnile finnist
+69	3369	kaasosaline	kaasosaline kaasosalised kaasosalise kaasosaliseks kaasosalist kaasosalisi kaasosaliste kaasosalisena kaasosalisega kaasosalistest kaasosalisteks kaasosalistega kaasosalisele
+70	3370	kaas	kaas kaane kaanel kaanele kaant kaan kaaned kaaneni kaanest kaante kaantega kaasi kaanega kaaneta kaanelt
+71	3371	kurnama	kurnatud kurnab kurnanud kurnas kurnavad kurnavat kurnan kurnake
+72	3372	lilla	lilla lillad lillat lillaks lillasid lillade lillas lillaga lillal lilladele
+73	3373	üheskoos	üheskoos
+74	3374	keerlema	keerleb keerlevad keerlema keerle keerles keerlev keerelnud keerlemas keerleks keereldes keerlen keerlesid keerled keerelda keerleme keerlevat keerlesin
+75	3375	moraalne	moraalne moraalselt moraalse moraalset moraalseks moraalsed moraalsete moraalseid moraalsest moraalses moraalsetel moraalsel moraalsele
+76	3376	aastapäev	aastapäeva aastapäev aastapäevaks aastapäeval aastapäevale aastapäevadel aastapäevaga
+77	3377	anomaalia	anomaalia anomaaliaid anomaaliad anomaaliat anomaaliate anomaaliatest anomaaliast anomaaliaga anomaaliale anomaaliasse anomaaliatega
+78	3378	hõljuma	hõljub hõljuvad hõljus hõljumas hõljuda hõljun hõljuma hõljud hõljudes hõlju hõljuv hõljusin hõljume hõljusid hõljuks hõljuksin hõljuvat hõljunud
+79	3379	iha	iha ihad ihast ihasid ihade ihadest ihata ihadele ihaga ihale ihadega ihas ihal ihaks
+80	3380	meelelahutus	meelelahutus meelelahutust meelelahutuse meelelahutuseks meelelahutusest meelelahutusega meelelahutuses meelelahutusi meelelahutused meelelahutusele
+81	3381	kiisu	kiisu kiisud kiisut kiisuga kiisudest kiisusid kiisude
+82	3382	põrkama	põrkas põrkasin põrkab põrkasime põrkavad põrkame põrkasid põrkama põrkan põrkad põrkaks põrgates põrkav põrkamas
+83	3383	viivitamatu	viivitamatult viivitamatut viivitamatu viivitamatuks
+84	3384	iva	iva ivani ivana ivale
+85	3385	täituma	täitub täituvad täitunud täitus täitu täituda täitusid täituks täituma täituksid täitumas täitugu täitumatu täitumata
+86	3386	kuuletuma	kuuletu kuuletuma kuuletuda kuuletun kuuletunud kuuletud kuuletub kuuletuvad kuuletuge kuuletute kuuletume kuuletus kuuletusid kuuletuks kuuletumast kuuletusin
+87	3387	peatne	peatselt peatse peatset peatne
+88	3388	eelarve	eelarve eelarvet eelarvega eelarvest eelarves eelarvesse eelarvele eelarveid eelarved
+89	3389	karikas	karika karikas karikat karikast karikasse karikad karikal karikaid karikale karikaga karikata
+90	3390	seelik	seelik seeliku seelikut seelikus seelikud seelikuid seelikuga seelikute seelikutega seelikust seelikutes
+91	3391	abistama	abistama abistada abistab abistan abistas abistavat abistavad abista abistame abistatud abistasid abistamas abistaks abistad abistasin abistanud abistamast abistate abistaksid abistamaks abistades abistasite abistati
+92	3392	igapäevane	igapäevane igapäevast igapäevaselt igapäevased igapäevase igapäevaseid igapäevaste igapäevasest igapäevaseks igapäevases igapäevastest igapäevastes igapäevasesse
+93	3393	kõhklema	kõhkle kõhklemata kõhelnud kõhklema kõhkled kõhelge kõhkleks kõhklesid kõhklesin kõhkleb kõhklev kõhklen kõhelda kõhklete kõhkles kõhklevad kõhklematu
+94	3394	säärane	säärast säärane säärase sääraseid säärased sääraste säärases säärasest säärasel säärastest säärasele säärasega säärastel säärastes säärasesse
+95	3395	parv	parve parv parvele parved parvega parvel parves parvest parvelt parvi parvena parvedena
+96	3396	startima	stardiks startida stardime startis startima stardib stardivad startinud startige stardin stardid startisime startimas
+97	3397	mässima	mässitud mässinud mässida mässi mässis mässisid mässid mässisin mässib mässin mässima mässime mässige mässisime mässivad mässiti mässitakse mässides mässiks
+98	3398	esialgu	esialgu
+99	3399	pärand	pärand pärandi pärandit pärandist pärandiks pärandile pärandiga pärandisse pärandid pärandis
+100	3400	külmutama	külmutatud külmutada külmutas külmutab külmutan külmutati külmutatakse külmutame külmutasin külmutanud külmutasid külmutama külmutavad külmutad külmutage külmutasime

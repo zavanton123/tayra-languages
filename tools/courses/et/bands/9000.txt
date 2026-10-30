@@ -1,0 +1,100 @@
+1	8901	amnestia	amnestia amnestiat amnestiad
+2	8902	tipptund	tipptund tipptunnil tipptunni tipptundi
+3	8903	tundlikkus	tundlikkus tundlikkuse tundlikkust tundlikkusega
+4	8904	sulamine	sulamist sulamine sulamise sulamisest
+5	8905	teadlikkus	teadlikkust teadlikkus teadlikkuse
+6	8906	miiniväli	miiniväli miinivälja miiniväljal miiniväljale miiniväljad
+7	8907	eriarvamus	eriarvamusel eriarvamused eriarvamusi eriarvamusele eriarvamus
+8	8908	tulekustuti	tulekustuti tulekustutid tulekustutit tulekustutiga
+9	8909	ale	aleks ale alet alle alena
+10	8910	sädelev	sädelev sädeleva sädelevas sädelevaid sädelevate
+11	8911	evangeelium	evangeelium evangeeliumi evangeeliumist evangeeliumit evangeeliumis
+12	8912	vormistama	vormistada vormistan vormistama vormistatud vormistame vormista vormistage vormistas
+13	8913	suvatsema	suvatsenud suvatseb suvatsege suvatse suvatsed suvatseks suvatsete suvatseksid suvatsesid suvatseksite
+14	8914	liir	liiri
+15	8915	põgusalt	põgusalt
+16	8916	pogri	pokri pogris
+17	8917	sihikindel	sihikindel sihikindlalt sihikindlat sihikindlad
+18	8918	himu	himu himud himust himuga himude himusid
+19	8919	supernoova	supernoova supernoovaks supernoovade supernoovat supernoovana
+20	8920	ekspress	ekspress ekspressi ekspressiga ekspressile ekspressil
+21	8921	lojus	lojus lojused lojuse lojuseid
+22	8922	peategelane	peategelane peategelase peategelast peategelased peategelasele peategelaseks
+23	8923	bürokraatia	bürokraatia bürokraatiat bürokraatiast bürokraatias bürokraatiaga
+24	8924	tuhvel	tuhvlid tuhvleid tuhvli tuhvlitega tuhvel
+25	8925	stsenarist	stsenarist stsenaristid stsenaristi stsenariste stsenaristiks
+26	8926	konservatiivne	konservatiivne konservatiivsed konservatiivse konservatiivsete konservatiivselt konservatiivseid konservatiivset
+27	8927	koge	koge koges
+28	8928	korrapärane	korrapäraselt korrapärane korrapärase korrapärasel korrapärased korrapärast
+29	8929	esietendus	esietendus esietendust esietendusel esietenduse esietendusele
+30	8930	põrandaalune	põrandaalune põrandaaluse põrandaalused põrandaalust põrandaaluste
+31	8931	vereülekanne	vereülekannet vereülekanne vereülekande vereülekandeks vereülekandega vereülekandeid
+32	8932	taustauuring	taustauuringu taustauuring taustauuringut taustauuringuid taustauuringud
+33	8933	lõuend	lõuend lõuendit lõuendile lõuendi lõuendil lõuendid
+34	8934	muteeruma	muteerunud muteerub muteeruda muteerus muteeruvad
+35	8935	kunn	kunn kunni kunnid kunnile
+36	8936	prognoos	prognoos prognoosi prognoose prognooside
+37	8937	linnarahvas	linnarahvas linnarahva linnarahvale linnarahvast linnarahvaga
+38	8938	apellatsioon	apellatsiooni apellatsioon apellatsiooniga apellatsioonid apellatsioonist apellatsiooniks
+39	8939	jumalateenistus	jumalateenistus jumalateenistust jumalateenistuse jumalateenistusel jumalateenistusele jumalateenistused
+40	8940	ahhaa	ahhaa
+41	8941	musa	musa
+42	8942	läbimõeldud	läbimõeldud läbimõeldult
+43	8943	laama	laama laamad laamat
+44	8944	kriminalistika	kriminalistika kriminalistikast kriminalistikat kriminalistikas
+45	8945	juhitavus	juhitavuse juhitavus juhitavust
+46	8946	naerunägu	naerunägu naerunäo naerunäod naerunäoga
+47	8947	jälkus	jälkus jälkust jälkuse jälkusi
+48	8948	ahm	ahmad ahm ahmid ahmis ahmi ahmides
+49	8949	kaltsakas	kaltsakas kaltsakad kaltsakaid kaltsaka kaltsakate
+50	8950	geograafia	geograafia geograafiat geograafias geograafiast
+51	8951	hümn	hümni hümn hümniks hümniga
+52	8952	härjapõlvlane	härjapõlvlane härjapõlvlased härjapõlvlase härjapõlvlast härjapõlvlaste härjapõlvlasi
+53	8953	täitumine	täitumine täitumist täitumise täitumisest
+54	8954	klaviatuur	klaviatuuri klaviatuur klaviatuuril klaviatuurile
+55	8955	kuulsusrikas	kuulsusrikas kuulsusrikka kuulsusrikast kuulsusrikkas kuulsusrikkasse kuulsusrikkad kuulsusrikaste
+56	8956	toimetamine	toimetamine toimetamist toimetamisega toimetamisel
+57	8957	üksildus	üksildus üksildust üksildusest üksilduse
+58	8958	ökosüsteem	ökosüsteemi ökosüsteem ökosüsteeme ökosüsteemide ökosüsteemid ökosüsteemis ökosüsteemist
+59	8959	maak	maagi maagid maaki maak maagist
+60	8960	kaisutama	kaisutada kaisutame kaisuta kaisutan kaisutama kaisutasime kaisutas kaisutab kaisutavad kaisutav
+61	8961	töötlemine	töötlemine töötlemist töötlemiseks töötlemise töötlemisega töötlemisel
+62	8962	kaevuma	kaevuda kaevunud kaevume kaevuma kaevub kaevuvad kaevuge
+63	8963	tuhastama	tuhastatud tuhastada tuhastatakse tuhastati tuhastab tuhastataks tuhastage tuhasta
+64	8964	fantaseerima	fantaseerinud fantaseerida fantaseerid fantaseerin fantaseerisin fantaseeri fantaseerib fantaseerivad
+65	8965	mänguaeg	mänguaeg mänguaega mänguaja
+66	8966	muundama	muundatud muundada muundab muundas muundasid
+67	8967	tõlgendus	tõlgendus tõlgenduse tõlgendust tõlgendusega tõlgendused tõlgendusi
+68	8968	laskeulatus	laskeulatuses laskeulatusest laskeulatusse laskeulatus laskeulatust laskeulatusega
+69	8969	maakoht	maakohas maakoht maakohta maakoha maakohad maakohtades
+70	8970	puiklema	puiklev puikle puikleb puikles puigelda puiklema puikled puiklevad puigelge
+71	8971	tõmmu	tõmmu tõmmud tõmmude
+72	8972	klõps	klõps klõpse klõpsuga
+73	8973	avar	avar avarad avara avarat
+74	8974	pakane	pakane pakase pakasega pakast
+75	8975	kõlvatu	kõlvatu kõlvatuse kõlvatus kõlvatust kõlvatusi
+76	8976	mölisema	mölise mölised möliseb möliseda mölisema
+77	8977	tantsuõhtu	tantsuõhtu tantsuõhtule tantsuõhtul tantsuõhtut tantsuõhtutel
+78	8978	patrullauto	patrullauto patrullautos patrullautoga patrullautot patrullautod patrullautosse patrullautole
+79	8979	talumees	talumees talumehe talumehed talumeest talumehi
+80	8980	hamster	hamstri hamstrid hamstrit hamstrist hamstreid hamstriga
+81	8981	purjekas	purjekas purjeka purjekaga purjekat purjekal purjekale
+82	8982	pimekohting	pimekohting pimekohtingul pimekohtingu pimekohtingule pimekohtingutel pimekohtingut pimekohtinguid
+83	8983	sihtasutus	sihtasutuse sihtasutus sihtasutusest sihtasutuses sihtasutust
+84	8984	pronks	pronksist pronks pronksi
+85	8985	inhalaator	inhalaator inhalaatorit inhalaatori inhalaatorid inhalaatoreid
+86	8986	pööritama	pööritama pööritab pöörita pööritas pööritad pööritasid pööritada
+87	8987	magamiskott	magamiskott magamiskotid magamiskotti magamiskoti magamiskotis
+88	8988	pterosaurus	pterosaurus pterosauruse pterosaurused pterosauruste pterosaurustel pterosaurusega pterosaurusel
+89	8989	tampima	tambin tampima tampida tambib tambivad tampisid tambime tambitakse tampisin tampis
+90	8990	eemaletõukav	eemaletõukav eemaletõukava eemaletõukavad
+91	8991	ühepoolne	ühepoolne ühepoolselt ühepoolse ühepoolset ühepoolseid ühepoolsed
+92	8992	vapustus	vapustus vapustuse vapustust vapustuseks vapustusest
+93	8993	vibreerima	vibreerib vibreerivad vibreerima vibreeris vibreerin
+94	8994	kahekümnes	kahekümnendates kahekümnes kahekümnendad kahekümnendate kahekümnendatel kahekümnenda
+95	8995	roie	roided roiet roiete roide roie roideid roietesse
+96	8996	evakueeritud	evakueeritud
+97	8997	udukogu	udukogu udukogusse udukogust udukogus
+98	8998	onupoeg	onupoeg onupoja onupojad onupoega onupojaga
+99	8999	hügieen	hügieeni hügieen hügieenist hügieeniga
+100	9000	riivatu	riivatu riivatud riivatut riivatult riivatuid

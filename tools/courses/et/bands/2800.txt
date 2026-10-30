@@ -1,0 +1,100 @@
+1	2701	siinkandis	siinkandis
+2	2702	atmosfäär	atmosfääri atmosfäär atmosfääris atmosfäärist atmosfääriga atmosfäärile
+3	2703	klassikaline	klassikaline klassikalist klassikalise klassikalised klassikalises klassikaliselt klassikaliste klassikalisi klassikalisest klassikaliseks
+4	2704	niiet	niiet
+5	2705	kannatlik	kannatlik kannatlikud kannatlikult kannatlikust kannatlikus kannatliku kannatlikku
+6	2706	nohik	nohik nohikud nohikute nohiku nohikut nohikuid nohikust nohikuks nohikutele nohikuga nohikutega nohikutest nohikuteks nohikule
+7	2707	esinemine	esinemine esinemist esinemise esinemiseks esinemisi esinemisele esinemised esinemisest esinemisel esinemisega esinemiste esinemistel esinemises esinemistele
+8	2708	tuhk	tuhk tuhaks tuhka tuha tuhast tuhaga tuhas tuhad
+9	2709	mässaja	mässajad mässaja mässajate mässajaid mässajatega mässajatele mässajat mässajast mässajaks mässajatest mässajaga mässajatel
+10	2710	valgustama	valgusta valgustatud valgustada valgustab valgustav valgustan valgustage valgustas valgustasid valgustad valgustavad valgustama valgustaks valgustaksid valgustanud valgustame valgustate valgustades valgustasin valgustamata valgustagu valgustaksite
+11	2711	planeerima	planeerida planeerinud planeerisin planeerima planeeris planeerib planeerisime planeerisid planeeri planeerin planeerivad planeerimata planeerid planeerime planeerides planeeriti planeerite planeeritakse planeerisite
+12	2712	serv	serva serval servas serv servale servi servast servad servani servalt servaga servadega servadest servades serviga servadel
+13	2713	jaksama	jaksa jaksad jaksan jaksab jaksanud jaksate jaksame jaksavad jaksaks jaksasin jaksas jaksasid jaksasime jaksaksin
+14	2714	mesilane	mesilased mesilane mesilaste mesilasi mesilase mesilast mesilastest mesilastega mesilasega mesilastele mesilastel mesilasel
+15	2715	konn	konn konna konnad konni konnade konnast konnaks konnaga konnale konnasid konnadest konnal konnadega konnas konnadel konnadele konnadeks
+16	2716	toode	toode tooteid toodet tooted toodete toote tootega toodetest tootele tootest toodetele tootes toodetega tootesse
+17	2717	prostituut	prostituut prostituudid prostituudi prostituute prostituuti prostituudiga prostituutide prostituudiks prostituutidega prostituudist prostituutidest prostituudile prostituutidele prostituudina prostituutideks
+18	2718	saal	saali saalis saal saalist saalid saalides saalidesse
+19	2719	kodutöö	kodutööd kodutöö kodutöid kodutööga kodutöödega kodutööde kodutöödes kodutööst kodutööks kodutöödel kodutöödeks
+20	2720	kiskja	kiskja kiskjad kiskjate kiskjaid kiskjat kiskjatele kiskjale kiskjatest kiskjaks kiskjaga kiskjast kiskjatega kiskjateks kiskjatel kiskjal
+21	2721	geneetiline	geneetiline geneetiliselt geneetilise geneetilist geneetilised geneetilisi geneetilisest geneetiliste geneetilises geneetilisele geneetilistele geneetilisse geneetilistest
+22	2722	paigutama	paigutatud paigutada paigutas paigutati paigutama paigutame paigutatakse paigutab paigutan paiguta paigutasid paigutasin paigutanud paigutage paigutavad paigutasime paigutad paigutasite paigutaks paigutades paigutate
+23	2723	silmitsi	silmitsi
+24	2724	tige	tige tigedaks tigedad tigeda tigedat tigedam tigedate tigedaid tigedana tigedast tigedalt
+25	2725	karv	karvad karvu karva karv karvade karvadega karvadest karvaga karvast karvadeta karvadesse karvale karvades
+26	2726	braavo	braavo
+27	2727	südametunnistus	südametunnistus südametunnistuse südametunnistust südametunnistusele südametunnistusega südametunnistusel südametunnistuseta südametunnistusest südametunnistuseks südametunnistuses
+28	2728	september	september septembril septembris septembri septembrit septembrist septembriks sept septembrini
+29	2729	haridus	haridus hariduse haridust haridusega haridusest haridusele hariduseta hariduses haridusse
+30	2730	ülekuulamine	ülekuulamine ülekuulamisele ülekuulamise ülekuulamist ülekuulamisel ülekuulamiseks ülekuulamised ülekuulamisega ülekuulamiste ülekuulamisest ülekuulamistel ülekuulamisi ülekuulamiselt
+31	2731	tagurpidi	tagurpidi
+32	2732	eeskuju	eeskuju eeskujuks eeskujud eeskujul eeskujusid eeskujuna eeskujuga eeskujule
+33	2733	magustoit	magustoitu magustoit magustoiduks magustoidu magustoiduga magustoidud magustoidule magustoidust magustoite magustoiduni magustoitude
+34	2734	lurjus	lurjus lurjused lurjuse lurjust lurjuste lurjuseid lurjusest lurjustest lurjuseks lurjusega lurjustega lurjusele lurjustele lurjusel
+35	2735	munk	munk mungad munga munka munkade mungaks munki munkadele mungale munkadest munkadel munkadega munkasid mungaga mungast mungal mungalt mungana
+36	2736	kinnisidee	kinnisidee kinnisideeks kinnisideed kinnisideega kinnisideest kinnisideedega kinnisideid kinnisideedest kinnisideede kinnisideel
+37	2737	motiiv	motiiv motiivi motiivid motiiviks motiive motiivide motiivides motiiviga motiivita motiivist motiividel motiividest motiivina
+38	2738	metall	metalli metallist metall metalliga metallid metalle metallide metallis metallidest metalliks
+39	2739	õli	õli õliga õlis õlist õlita õlid õlisid õlidega õlisse
+40	2740	julgeolek	julgeoleku julgeolek julgeolekut julgeolekule julgeolekust julgeolekuga julgeolekus julgeolekusse
+41	2741	pauk	pauk paugu pauku pauguga pauguta paugust pauke pauguks paugud paukudes
+42	2742	vald	valla vallas valda vald valles vallast valdasid vallata
+43	2743	avamine	avamine avamiseks avamist avamise avamisele avamisel avamisest avamisega avamiseni avamises
+44	2744	ebaseaduslik	ebaseaduslik ebaseaduslikku ebaseadusliku ebaseaduslikud ebaseaduslikke ebaseaduslike ebaseaduslikuks ebaseaduslikust ebaseaduslikus ebaseaduslikuga ebaseaduslikul ebaseaduslikule
+45	2745	ärrituma	ärritunud ärritu ärrituda ärrituv ärritub ärritud ärrituge ärritusin ärritun ärrituvad ärrituma ärritusid ärritunult ärrituks
+46	2746	kompliment	kompliment komplimente komplimenti komplimendid komplimendi komplimendina komplimentidega komplimentide komplimendiga komplimendiks komplimentidest
+47	2747	nauding	nauding naudingut naudingu naudinguid naudingud naudinguga naudinguks naudingute naudingust naudingutest naudingutele naudingule naudingutega
+48	2748	kava	kavas kava kavaski kavast kavad kavaga kavasid
+49	2749	luure	luure luurele luuret luures luurest luurel luurega luuresse luureks luurelt
+50	2750	parkla	parklas parkla parklasse parklast parklat parklad
+51	2751	lõhkeaine	lõhkeaine lõhkeainet lõhkeained lõhkeaineid lõhkeainete lõhkeainega lõhkeainetega lõhkeainetest lõhkeainest lõhkeainesse
+52	2752	kera	kera kerad kerasid kerra kerasse keradesse kerade keradega keraga kerast keras keradest keradeni keradele keradelt kerale
+53	2753	selgitus	selgitus selgitust selgitusi selgituse selgituseks selgituseta selgitused selgitusteks selgitusega selgitusteta selgituste selgitustega selgitustest selgitusele
+54	2754	kanep	kanepit kanep kanepi kanepist kanepiga
+55	2755	hani	haneks hani hane haned hanesid hanne hanede hanes hanega hanedega hanedele
+56	2756	alfa	alfa alfad alfade alfat alfaga alfaks alfadest alfale alfasid alfades alfast alfadeks alfadega
+57	2757	saadetis	saadetis saadetise saadetist saadetisi saadetised saadetisega saadetisest saadetiste saadetisele saadetistest saadetistega
+58	2758	põhimõte	põhimõte põhimõtted põhimõtteid põhimõtete põhimõtte põhimõttes põhimõtetega põhimõtet põhimõttel põhimõtetest põhimõtetele põhimõttest põhimõttele põhimõttega põhimõtetesse põhimõteteta põhimõtteks põhimõtetel
+59	2759	osaline	osaline osaliseks osalise osalised osalist osalisi osaliste osalisteks osalistest
+60	2760	esivanem	esivanemad esivanemate esivanem esivanemaid esivanematele esivanematega esivanema esivanematest esivanematelt esivanematel esivanemat esivanemale esivanemast
+61	2761	kiiver	kiiver kiivri kiivrit kiivrid kiivriga kiivreid kiivrita kiivris kiivrile kiivrisse kiivrite kiivrist kiivril
+62	2762	andmine	andmine andmist andmise andmiseks andmisega andmisele andmisel
+63	2763	pussitama	pussitas pussitati pussitada pussitatud pussitasid pussitasin pussitan pussitama pussitab pussitanud pussitad pussitatakse pussitaks pussitades pussitaksin pussitaksid pussitav pussitavad
+64	2764	mõõtma	mõõta mõõda mõõdab mõõdan mõõtma mõõdame mõõtmatu mõõtsin mõõdetud mõõdetakse mõõtnud mõõtis mõõdavad mõõtsid mõõdeti mõõdad mõõtmatult mõõdetav mõõtsime mõõtke mõõtes mõõtmatut mõõtmatud mõõtmas mõõdeta mõõdetavad mõõdate mõõtmatus
+65	2765	sõdima	sõdida sõdima sõdivad sõdinud sõdime sõdi sõdis sõdib sõdisid sõdid sõdisin sõdisime sõdides sõdite sõdin sõdige sõdisite sõdiks sõditakse sõdimast sõdimas sõditud
+66	2766	lõtv	lõdvaks lõdvalt lõdvemaks lõdva lõtv lõdvad lõtva lõtvade lõdvem
+67	2767	riputama	riputada riputan riputatud riputas riputama riputame riputasid riputasin riputad riputab riputage riputanud riputatakse riputati riputavad riputasime riputaksin riputate riputamas riputasite riputades
+68	2768	alumine	alumine alumisel alumise alumisele alumist alumises alumised alumisse alumisest alumiselt alumistele alumistel alumisi alumiste alumistesse alumistest
+69	2769	populaarne	populaarne populaarsed populaarseks populaarse populaarset populaarsete populaarseid populaarsele populaarses
+70	2770	aktsia	aktsiad aktsiaid aktsia aktsiate aktsiat aktsiatest aktsiatega aktsiates aktsiatesse aktsialt aktsiatele aktsiaga
+71	2771	põld	põllul põllu põllule põldu põllud põld põllult põldudel põldude põlde põldudele põldudelt põldusid põldudest
+72	2772	sisestama	sisestage sisesta sisestada sisestatud sisestan sisestama sisestasin sisestas sisestad sisestasid sisestame sisestanud sisestati sisestatakse sisestab sisestades sisestate sisestasime sisestasite
+73	2773	tasand	tasandil tasandile tasand tasandi tasandit tasanditel tasandilt tasandid tasanditele tasandite tasandiga tasandisse tasandist tasandini
+74	2774	haihtuma	haihtus haihtunud haihtub haihtuda haihtusid haihtuvad haihtuma haihtu haihtud haihtun haihtuks haihtumas haihtume haihtuksin haihtuksid haihtusin
+75	2775	kursus	kursuse kursusel kursus kursustel kursust kursusele kursused kursustele kursuselt kursusest kursusi kursuseid kursusega kursuste
+76	2776	aeglustama	aeglustada aeglustab aeglusta aeglustama aeglustavad aeglustaks aeglustan aeglustame aeglustas aeglustanud aeglustad aeglustage aeglustades aeglustasid aeglustatud aeglustasin aeglustaksid
+77	2777	häkkima	häkkida häkkis häkkisin häkkisid häkkinud häkiti häkkima häkitud häkib häkin häki häkid häkime häkivad häkkisime häkiksid häkkisite häkitakse häkkides
+78	2778	paavst	paavst paavsti paavstile paavstiks paavstiga paavstil paavstid paavstilt paavstide paavstist
+79	2779	võluma	võlu võlutud võluda võluvad võlub võluvat võlunud võluma võlun võludest võludele võlude võlusin
+80	2780	uputama	uputada uputab uputas uputama uputasid uputan uputa uputame uputatud uputanud uputati uputad uputavad uputasin uputage uputaks uputatakse uputasime uputasite uputate uputades
+81	2781	kuues	kuuenda kuuendal kuuendas kuues kuuendat kuuendast kuuendale kuuendaks kuuendad kuuendasse kuuendate kuuendalt kuuendatega kuuendatele kuuendatest
+82	2782	ilmselge	ilmselge ilmselget ilmselged ilmselgetel ilmselgeid ilmselgest ilmselgele ilmselges ilmselgeks
+83	2783	oode	ootel ootele oote
+84	2784	elutuba	elutoas elutuppa elutuba elutoa elutoast elutubades
+85	2785	kett	kett keti ketti ketid ketis kette ketiga ketist kettidega kettide ketil
+86	2786	helisema	heliseb helises helisema helisevad helisenud helise helisev helisemas heliseks heliseda helisesid helisevat
+87	2787	arendama	arendada arendanud arendama arendas arendab arendan arendatud arendasid arendavad arendame arendasin arendades arenda arendati arendasime arendad arendatakse arendaks
+88	2788	tüüpiline	tüüpiline tüüpilised tüüpilise tüüpilist tüüpiliselt tüüpilises tüüpiliseks tüüpilisi tüüpilisest tüüpilisel
+89	2789	helde	helde heldelt helded heldet heldest heldele heldeks heldes heldete
+90	2790	tsivilisatsioon	tsivilisatsiooni tsivilisatsioon tsivilisatsioonist tsivilisatsioone tsivilisatsioonid tsivilisatsioonide tsivilisatsioonile tsivilisatsiooniga tsivilisatsioonis tsivilisatsioonidest tsivilisatsioonidele tsivilisatsioonilt
+91	2791	isiksus	isiksus isiksuse isiksust isiksused isiksusi isiksusega isiksusest isiksuste isiksusena isiksuses isiksuseks isiksustest isiksusel isiksusele isiksusse
+92	2792	vastupidine	vastupidist vastupidine vastupidises vastupidiseks vastupidise vastupidised vastupidisel vastupidisele vastupidisest vastupidiseid
+93	2793	ustav	ustav ustavad ustavalt ustava ustavaks ustavat ustavaid ustavate ustavale ustavatele ustavast
+94	2794	lebama	lebab lebas lebama lebasin lebavad lebamas leban lebada lebad lebades leba lebasid lebanud lebame lebaksid lebaks lebasime lebaksin lebavat lebav
+95	2795	meeletu	meeletult meeletu meeletus meeletuks meeletut meeletud meeletuid meeletusi meeletust meeletutes meeletul
+96	2796	varuma	varuks varusid varuma varutud varuda varuge varunud varub varume varusin varuvad
+97	2797	sümptom	sümptomid sümptomeid sümptom sümptomite sümptomitega sümptomit sümptomitest sümptomiks sümptomi sümptomiteks
+98	2798	kurtma	kurta kurda kurtis kurtnud kurdad kurtma kurdavad kurdab kurdan kurtsid kurtmas kurdaks kurtsin kurdeti kurdate kurdaksin kurtke kurtsite
+99	2799	iludus	iludus iluduse iludust iludused iludusi iludusega iludusele iludusest iluduseks iluduste iludusel
+100	2800	lärm	lärmi lärm lärmist lärmiga lärmita lärmiks lärmis

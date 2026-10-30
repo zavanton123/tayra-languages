@@ -1,0 +1,100 @@
+1	7501	luureandmed	luureandmed luureandmeid
+2	7502	lennuvägi	lennuväe lennuvägi lennuväes lennuväge lennuväega
+3	7503	agoonia	agoonias agoonia agooniat agooniast
+4	7504	vesinik	vesiniku vesinik vesinikku vesinikust vesinikuga
+5	7505	fookus	fookuses fookus fookusest fookust fookuse fookusesse
+6	7506	kõhuvalu	kõhuvalu kõhuvalud kõhuvaluga
+7	7507	vasakukäeline	vasakukäeline vasakukäelised vasakukäelist vasakukäeliste vasakukäelise
+8	7508	mõistatuslik	mõistatuslik mõistatusliku mõistatuslikud mõistatuslikku mõistatuslikult mõistatuslikke
+9	7509	jooksik	jooksik jooksikud jooksikust jooksikuid jooksikut jooksiku jooksikute
+10	7510	väävel	väävel väävlit väävli väävlist
+11	7511	mõõdukas	mõõdukalt mõõdukas mõõduka mõõdukad mõõdukat
+12	7512	ühtima	ühti ühtivad ühtib ühtida ühtiks
+13	7513	kanuu	kanuu kanuud kanuuga kanuus kanuusid kanuusse kanuudega
+14	7514	sepistama	sepistatud sepistas sepistati sepistada sepistasid sepistanud sepistama sepistame sepistavad sepistatakse
+15	7515	teisalt	teisalt
+16	7516	tänavu	tänavu
+17	7517	joove	joobes joove joovet
+18	7518	seesugune	seesugust seesugune seesuguse
+19	7519	miinimum	miinimum miinimumi miinimumini miinimumis miinimumiga
+20	7520	üldsus	üldsuse üldsus üldsusele üldsust üldsusel
+21	7521	kolgas	kolkas kolkasse kolgas kolkast kolka
+22	7522	türannia	türannia türanniast türanniale türanniat türanniaga
+23	7523	nimetu	nimetu nimetud nimetuks nimetute nimetule nimetut nimetuid
+24	7524	põrutus	põrutus põrutuse põrutust põrutused põrutusest põrutusi
+25	7525	koostis	koostis koostist koostise koostisega koostises
+26	7526	siluma	siluda siluma silun silu silume silub silutud silus silusin
+27	7527	tutvumine	tutvumist tutvumiseks tutvumine tutvumise
+28	7528	eelistus	eelistusi eelistused eelistus eelistuste eelistustest eelistust eelistustega
+29	7529	pügama	pügada pügatud pügama püga pügan pügad pügas pügasid pügab pügavad püganud pügati
+30	7530	nuss	nussi nuss nussid nussis nussisid nussiks nussita
+31	7531	tossike	tossike tossikesed tossikese tossikest
+32	7532	ehitusplats	ehitusplatsil ehitusplatsile ehitusplats ehitusplatsilt ehitusplatsi ehitusplatsist
+33	7533	uskmatu	uskmatu uskmatud uskmatute uskmatuid uskmatut uskmatutele
+34	7534	kipper	kipper
+35	7535	nutmine	nutmine
+36	7536	troonipärija	troonipärija troonipärijat troonipärijaks
+37	7537	kaitseriiv	kaitseriiv kaitseriivi kaitseriivid
+38	7538	lennufirma	lennufirma lennufirmad lennufirmas lennufirmasse lennufirmat lennufirmalt lennufirmade lennufirmast
+39	7539	ülekohus	ülekohut ülekohus ülekohtu
+40	7540	silinder	silinder silindrid silindrit silindri silindriga silindris silindrisse silindreid
+41	7541	käeulatus	käeulatuses käeulatusse
+42	7542	lisaaeg	lisaaega lisaaeg lisaajale lisaajal lisaaja
+43	7543	valmima	valmib valminud valmivad valmimas valmima
+44	7544	õelus	õelus õelust õeluse õelusest õelusega
+45	7545	tühermaa	tühermaa tühermaal tühermaad tühermaale tühermaaks tühermaalt
+46	7546	mõtteviis	mõtteviis mõtteviisi mõtteviisiga
+47	7547	kaaren	kaaren kaarna kaarnad kaarnat kaarnast
+48	7548	avameri	avamerel avamerele avamere avameres avameri avamerelt avamerd avamereni
+49	7549	kisendama	kisendab kisendas kisenda kisendades kisendama kisendav kisendad kisendada kisendan kisendasid kisendanud
+50	7550	hajevil	hajevil
+51	7551	kulg	kulgu kulg
+52	7552	vangivalvur	vangivalvur vangivalvurid vangivalvuri vangivalvurit vangivalvuriks
+53	7553	hetkeline	hetkeline hetkeliselt hetkelist hetkelise hetkelised
+54	7554	ratsutamine	ratsutamine ratsutamise ratsutamist ratsutamisest ratsutamisega ratsutamiseks
+55	7555	teivas	teibasse teiba teivas teivast teibas teibaga
+56	7556	vibratsioon	vibratsioon vibratsiooni vibratsioonid vibratsioone
+57	7557	logima	logida logitud loginud logisin logima logib logige logivad
+58	7558	sitikas	sitikas sitikad sitika sitikaid sitikate sitikatega
+59	7559	peakontor	peakontorisse peakontor peakontoris peakontorist peakontori
+60	7560	redutama	redutab redutada redutama redutavad redutad redutanud redutame redutasid redutas
+61	7561	siirduma	siirdume siirdub siirduda siirdun siirdus siirduma siirduge siirdunud siirduvad siirdusid siirdu
+62	7562	enesekeskne	enesekeskne enesekesksed
+63	7563	ründamine	ründamine ründamisest
+64	7564	mõrsja	mõrsja mõrsjat mõrsjale mõrsjaga mõrsjaks mõrsjad
+65	7565	valulik	valulik valulikku valulikud valulikult valuliku valulikuks
+66	7566	rebend	rebend rebendid rebendi rebendit rebendeid
+67	7567	kobras	kobras kopra koprad kobrast kopraid kobraste
+68	7568	liimima	liimitud liimida liimin liimisin liiminud liimima liimime liimib
+69	7569	klassikaaslane	klassikaaslased klassikaaslane klassikaaslaste klassikaaslast klassikaaslasi klassikaaslase klassikaaslastest klassikaaslastega
+70	7570	rajatis	rajatis rajatise rajatist rajatisse rajatised rajatises rajatisi rajatisest
+71	7571	nimesilt	nimesilti nimesilt nimesildi nimesildid nimesilte nimesildil nimesildiga
+72	7572	jõuallikas	jõuallikas jõuallika jõuallikat jõuallikaks jõuallikana jõuallikast jõuallikad jõuallikaga
+73	7573	universaalne	universaalne universaalset universaalse universaalselt universaalsed
+74	7574	põud	põud põua põuda põuaga põuad
+75	7575	kube	kube kubemesse kubeme kubemes kubet kubemest
+76	7576	sepitsema	sepitseb sepitsevad sepitses sepitsed sepitsenud sepitsesid sepitsete sepitseda sepitsetud sepitsetakse sepitsema
+77	7577	paan	paan
+78	7578	liigselt	liigselt
+79	7579	kohalolu	kohalolu kohalolust kohaloluga
+80	7580	nähtu	nähtu nähtut
+81	7581	piiritu	piiritu piiritult piiritud piiritut
+82	7582	meelehea	meeleheaks meelehead meelehea
+83	7583	tunnetus	tunnetus tunnetust tunnetuse tunnetusega
+84	7584	väljumine	väljumist väljumine väljumisel
+85	7585	lõhkumine	lõhkumine lõhkumise lõhkumist lõhkumisega
+86	7586	klassiruum	klassiruumis klassiruumi klassiruum klassiruumist klassiruume
+87	7587	melon	melonid melonit meloni meloneid meloniga melonite melonist
+88	7588	peidik	peidik peidiku peidikusse peidikus peidikut peidikud peidikuid peidikust
+89	7589	asiaat	asiaat asiaadid asiaadist asiaate asiaati asiaadi asiaatidest asiaatide asiaadiga
+90	7590	tõekspidamine	tõekspidamisi tõekspidamised tõekspidamiste tõekspidamistele tõekspidamistega tõekspidamistest tõekspidamine tõekspidamistes
+91	7591	kõrvaltuba	kõrvaltoas kõrvaltuppa
+92	7592	hüpoteetiline	hüpoteetiliselt hüpoteetiline hüpoteetilise
+93	7593	tülikas	tülikas tülikad tülikaks tülikat tülikast
+94	7594	lumepall	lumepall lumepalli lumepalle lumepallid lumepalliga lumepallil
+95	7595	sattumine	sattumist sattumine sattumise
+96	7596	mahlakas	mahlakas mahlakat mahlaka mahlakad mahlakaid mahlakalt
+97	7597	erakool	erakooli erakoolis erakool erakoolist erakoolides erakoolid erakoolide erakoolidest
+98	7598	unejutt	unejuttu unejutt unejutu unejutte unejutud unejutuks unejutust
+99	7599	pollar	pollarid pollar pollareid pollarit pollari pollaritele pollaritega pollarite
+100	7600	tasakaalustama	tasakaalustada tasakaalustatud tasakaalustab tasakaalustama tasakaalusta tasakaalustan tasakaalustamata tasakaalustaks

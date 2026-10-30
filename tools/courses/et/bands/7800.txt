@@ -1,0 +1,100 @@
+1	7701	merevesi	merevett merevee merevesi merevees mereveest mereveega
+2	7702	masenduma	masendunud
+3	7703	lähestikku	lähestikku
+4	7704	standardima	standardid standardite
+5	7705	jäätmed	jäätmed jäätmeid jäätmetest
+6	7706	summuti	summuti summutiga summutit summutid summutist summuteid
+7	7707	arvukas	arvukalt arvukad arvukaid arvukate arvukatest
+8	7708	ülikoolilinnak	ülikoolilinnakus ülikoolilinnaku ülikoolilinnakust ülikoolilinnak ülikoolilinnakusse ülikoolilinnakut
+9	7709	kroonima	kroonitud kroonitakse kroonida kroonin kroonib krooniti kroonime
+10	7710	abivahend	abivahend abivahendeid abivahendid abivahendite abivahendit abivahendiks abivahenditeta abivahendi
+11	7711	ilustama	ilustada ilustatud ilustamata ilusta ilustama ilustasin ilustab
+12	7712	röökima	röökis röökima röökida röökisin röögib röökige röökisid röökides röögivad röögin röögitakse röökinud
+13	7713	dialoog	dialoogi dialoog dialoogid dialooge
+14	7714	aroom	aroom aroomi aroomid aroome aroomiga
+15	7715	mahuti	mahuti mahutisse mahutid mahutis mahuteid mahutit mahutites mahutist mahutite mahutitest
+16	7716	jeen	jeeni jeen jeenides jeene
+17	7717	sutenöör	sutenöör sutenööri sutenöörid sutenööriks sutenööride
+18	7718	otsustamine	otsustamiseks otsustamine otsustamise otsustamisel
+19	7719	kuulivest	kuulivesti kuulivest kuulivestid kuuliveste kuulivestiga
+20	7720	tugitool	tugitooli tugitoolis tugitool tugitooliga tugitoolist tugitoolid
+21	7721	eriväed	eriväed erivägede erivägedes erivägedest erivägedega erivägedesse
+22	7722	spetsiifiline	spetsiifiline spetsiifilist spetsiifiliselt spetsiifilise spetsiifilised spetsiifilisi spetsiifiliste spetsiifilisel
+23	7723	häälestama	häälestatud häälestada häälestama häälesta häälestan häälestage häälestasin häälestanud häälestamata häälestas häälestab
+24	7724	muljuma	muljuda muljutud mulju muljus muljub muljunud muljuvad muljud muljusid
+25	7725	kokutama	kokutad kokutasin kokuta kokutan kokutama kokutas kokutab kokutanud kokutav
+26	7726	sitahunnik	sitahunnik sitahunniku sitahunnikuga
+27	7727	pargivaht	pargivaht pargivahi pargivahti pargivahid
+28	7728	kiiks	kiiksuga kiiks kiikse
+29	7729	kõrgkool	kõrgkooli kõrgkoolis kõrgkool kõrgkoolist
+30	7730	pöördumatu	pöördumatu pöördumatult pöördumatud pöördumatuid pöördumatut pöördumatuks
+31	7731	küündima	küündi küündinud küündib küündida küünib küündivad küündis küündiks
+32	7732	suvine	suvine suvise suvist suvised suvisel suvisest suvises suviste
+33	7733	halvustama	halvustada halvusta halvustab halvustavad halvustas halvustasid halvustad halvustama
+34	7734	kuub	kuub kuube kuubesid
+35	7735	teguviis	teguviis teguviisi teguviisid
+36	7736	süsinik	süsiniku süsinik süsinikust süsinikku süsinikul
+37	7737	nihu	nihu
+38	7738	põlastusväärne	põlastusväärne põlastusväärsed põlastusväärse põlastusväärseks
+39	7739	noku	noku nokut nokud nokuga nokusid
+40	7740	vasakpoolne	vasakpoolne vasakpoolsed vasakpoolse vasakpoolset vasakpoolsete
+41	7741	vöör	vööri vöör vööris vöörist
+42	7742	genotsiid	genotsiidi genotsiid genotsiidist genotsiidis
+43	7743	haakima	haakida haakima haagib haagin haakis haakinud haagitud haagime haakisin haakige haagivad
+44	7744	upsakas	upsakas upsakaks upsakad upsakalt upsaka
+45	7745	telejaam	telejaama telejaam telejaamas telejaamast telejaamad telejaamale
+46	7746	praktiseerima	praktiseerida praktiseerivad praktiseerinud praktiseeris praktiseeri praktiseeriv praktiseerima praktiseerin praktiseerides praktiseerib praktiseerid praktiseerisid praktiseerisin
+47	7747	kurg	kurg kured kurge kurgede kure kurgi
+48	7748	üles-alla	üles-alla
+49	7749	ohtralt	ohtralt
+50	7750	petja	petja
+51	7751	hiljemalt	hiljemalt
+52	7752	paljajalu	paljajalu
+53	7753	siidine	siidist siidine siidised siidise
+54	7754	ilmateade	ilmateade ilmateadet ilmateate ilmateatega
+55	7755	mõrvarlik	mõrvarlik mõrvarliku mõrvarlikud mõrvarlike mõrvarlikuks mõrvarlikust mõrvarlikku
+56	7756	sõõm	sõõmu sõõm sõõmuga
+57	7757	seadusesilm	seadusesilm seadusesilma seadusesilmad seadusesilmaga seadusesilmade seadusesilmana seadusesilmi
+58	7758	pakkuja	pakkujale pakkuja pakkujad pakkujaid pakkujate pakkujat
+59	7759	kaater	kaater kaatri kaatriga kaatril kaatrit kaatrile kaatrilt
+60	7760	kaelkirjak	kaelkirjak kaelkirjaku kaelkirjakud kaelkirjakut kaelkirjakuid kaelkirjakuga
+61	7761	kojutulek	kojutuleku kojutulek kojutulekut kojutulekust kojutulekuga kojutulekuks
+62	7762	armastuskiri	armastuskiri armastuskirja armastuskirjad armastuskirju
+63	7763	kalastama	kalastama kalastamas kalastada kalastanud kalastame kalastab kalastades kalastavad kalastan kalasta
+64	7764	prügikott	prügikott prügikotti prügikotid prügikotte prügikoti prügikotis prügikottidesse
+65	7765	volikogu	volikogu volikokku volikogus volikogule
+66	7766	isehakanud	isehakanud isehakanu
+67	7767	nõdrameelne	nõdrameelne nõdrameelsed nõdrameelse nõdrameelseks nõdrameelset
+68	7768	raas	raasugi raas raasu
+69	7769	kiirenema	kiirenenud kiireneb kiirenes kiirenevad kiirenev
+70	7770	trompet	trompetit trompet trompetid trompeti trompeteid
+71	7771	litter	litri litrit litrid litreid litriga litritega litrite
+72	7772	eksperimenteerima	eksperimenteerida eksperimenteerisid eksperimenteeris eksperimenteerima eksperimenteerib eksperimenteerin eksperimenteerisin eksperimenteeri eksperimenteerivad eksperimenteerinud eksperimenteerime eksperimenteerisime eksperimenteerides
+73	7773	põnnama	põnnama
+74	7774	mullu	mullu
+75	7775	vaga	vaga vagad vagaks vagade
+76	7776	ninakas	ninakas ninakaks ninakad ninakalt
+77	7777	luuletaja	luuletaja luuletajad luuletajat luuletajate
+78	7778	mage	mage magedad magedat mageda magedalt
+79	7779	eraviisiline	eraviisiliselt eraviisiline eraviisilise eraviisilist
+80	7780	kombekas	kombekas kombekalt kombekad kombeka kombekat
+81	7781	kaneel	kaneeli kaneel kaneeliga
+82	7782	oranž	oranž oranži oranžid oranžiks
+83	7783	leegitsema	leegitsev leegitsevad leegitseb leegitsema leegitsevat leegitsemas
+84	7784	massiline	massiline massilise massilist massilisi massilised massiliste
+85	7785	süütõend	süütõendeid süütõendid süütõend süütõendite süütõendit süütõendiks süütõenditega
+86	7786	puudujääk	puudujääk puudujääke puudujäägid puudujäägi puudujääki puudujäägiga puudujääkidest puudujäägist
+87	7787	mälupilt	mälupildi mälupilt mälupildid mälupilte mälupilti mälupiltide mälupildiga
+88	7788	meelerahu	meelerahu meelerahuks
+89	7789	regulaarne	regulaarne regulaarsed regulaarse regulaarset regulaarseid regulaarsete
+90	7790	avalduma	avaldub avalduvad avalduma avaldunud avaldu avalduda avaldusid
+91	7791	lämmastik	lämmastik lämmastikku lämmastiku lämmastikuga lämmastikust
+92	7792	pintsel	pintsel pintslisse pintslit pintslid pintsli pintsliga pintsleid
+93	7793	tuhmuma	tuhmunud tuhmub tuhmuvad tuhmuma tuhmus tuhmu tuhmuda
+94	7794	kolkima	kolkida kolkima kolkis kolgib kolgin kolgivad kolkisin kolgid kolgi kolkinud kolkisid
+95	7795	ehtima	ehitud ehib ehtida ehid ehtima ehime ehtinud ehivad ehi ehtisid ehtis ehitaks
+96	7796	hüplema	hüplev hüplevad hüpleb hüplema hüpelda hüple hüplesid hüplemas hüpleme hüplen hüpleks hüpeldes
+97	7797	kõhuli	kõhuli
+98	7798	koerapoeg	koerapoeg koerapojad koerapoja
+99	7799	tipptase	tipptasemel tipptase tipptaseme
+100	7800	mi	milt mita mide

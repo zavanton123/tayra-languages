@@ -1,0 +1,100 @@
+1	7601	arendamine	arendamiseks arendamise arendamine arendamist arendamisel arendamisele arendamisest arendamisega
+2	7602	mälestama	mälestada mälestame mälestades mälestamaks mälestama mälestatakse mälestab
+3	7603	kaheksateist	kaheksateist kaheksateistkümnes
+4	7604	kaheksane	kaheksane kaheksaseks kaheksaselt kaheksase
+5	7605	lobamokk	lobamokk lobamokad lobamokast lobamokki lobamokkadest
+6	7606	salarelv	salarelv salarelva
+7	7607	süüdistatav	süüdistatav süüdistatava süüdistataval süüdistatavad süüdistatavaga
+8	7608	vikatimees	vikatimees vikatimehe vikatimeest vikatimehed vikatimehi
+9	7609	varganägu	varganägu varganäod varganäost varganäo
+10	7610	sidur	sidur sidurit siduri siduriga sidurilt
+11	7611	õlitama	õlitatud õlitada õlitama õlitab õlitame õlitad õlitan
+12	7612	peitmine	peitmiseks peitmine
+13	7613	põll	põlle põll põllega
+14	7614	sala	sala salata
+15	7615	rindkere	rindkere rindkeresse rindkerre rindkeres rindkerest rindkeret rindkerel
+16	7616	turnee	turnee turneel turneele turneed turneedel turneest
+17	7617	hüvitis	hüvitist hüvitise hüvitis hüvitised hüvitisi hüvitiste hüvitiseks
+18	7618	sobituma	sobituda sobitub sobitu sobituma sobituvad sobitun
+19	7619	uhkeldama	uhkeldada uhkeldav uhkeldab uhkeldama uhkelda uhkeldavad uhkeldas uhkeldad
+20	7620	mineraal	mineraalid mineraale mineraalide mineraal mineraali mineraalidest
+21	7621	muukima	muukida muukima muukisin muukis muugin muukinud muugitud muugib
+22	7622	noogutama	noogutab noogutas noogutad noogutada noogutasid noogutan noogutage noogutasin noogutavad noogutama noogutades noogutame
+23	7623	lott	lotte loti
+24	7624	kaktus	kaktus kaktuse kaktused kaktust kaktusega kaktusele kaktusest
+25	7625	tagakülg	tagaküljel tagaküljele tagakülg tagakülge tagakülje tagaküljest tagaküljelt
+26	7626	uppumine	uppumine uppumist uppumise uppumisest uppumisega
+27	7627	muunduma	muunduda muundunud muundub muundu muunduma muunduvad muundumas muundud muundusin muundusid
+28	7628	altpoolt	altpoolt
+29	7629	värd	värd värdi
+30	7630	esmatähtis	esmatähtis esmatähtsad esmatähtsaks
+31	7631	hoolitsemine	hoolitsemine hoolitsemise
+32	7632	volt	volti voldi voltide voldiga
+33	7633	räige	räige räigelt räiget räiged
+34	7634	lühiajaline	lühiajaline lühiajaliselt lühiajalise lühiajalist lühiajalised lühiajalisi
+35	7635	puiestee	puiestee puiesteel pst puiesteed puiesteele puiesteelt
+36	7636	vastamine	vastamiseks vastamist vastamine vastamise vastamisel
+37	7637	vundament	vundament vundamendi vundamenti vundamendiks vundamendile vundamendis
+38	7638	domineerima	domineerivad domineerida domineerib domineerima domineerivat domineerisid domineeris domineerinud
+39	7639	mõlkuma	mõlgub mõlkus mõlguvad mõlkunud
+40	7640	muserdama	muserdatud muserdab muserdada muserdanud muserdavad muserdas muserda
+41	7641	eetiline	eetiline eetiliselt eetilised eetilise eetilisi eetilist eetiliste
+42	7642	kiik	kiik kiige kiigel kiike kiiged kiigele
+43	7643	semmima	semmi semmida semmib semmima semmid semmis semmisid semminud semmisime
+44	7644	tribunal	tribunali tribunalis tribunalid
+45	7645	sarkastiline	sarkastiline sarkastiliselt sarkastilist sarkastiliseks
+46	7646	neljane	neljane neljaseks neljased neljaselt neljase
+47	7647	laadimine	laadimine laadimiseks
+48	7648	kõditama	kõditab kõditas kõditada kõditama kõditad kõditavad kõditan kõditage
+49	7649	maatükk	maatükk maatüki maatükki maatükil maatükile maatükid
+50	7650	kavalus	kavalus kavalust kavalusega kavaluse kavalused kavalusele kavalusi
+51	7651	kokpit	kokpitti kokpiti kokpitis kokpit kokpitist
+52	7652	naba	naba nabani nabast nabad
+53	7653	keskklass	keskklassi keskklass keskklassist
+54	7654	lõpmatu	lõpmatu lõpmatut lõpmatute lõpmatud lõpmatul
+55	7655	ananass	ananassi ananass ananassiga ananassid
+56	7656	elevus	elevust elevus elevusest elevusega elevuse elevusse
+57	7657	imedemaa	imedemaal imedemaa imedemaale imedemaaks imedemaalt
+58	7658	piipar	piipar piipari piiparile piiparit piiparid piiparil
+59	7659	eelnema	eelnevat eelnenud eelneb eelnes eelnesid eelnenu
+60	7660	palgamõrtsukas	palgamõrtsukas palgamõrtsuka palgamõrtsukad palgamõrtsukat palgamõrtsukate palgamõrtsukaid palgamõrtsukaks
+61	7661	paindlik	paindlik paindlikud paindlikku
+62	7662	erak	erak erakuks eraku erakud erakust
+63	7663	sookoll	sookoll sookollid sookolli sookolle sookollide
+64	7664	viil	viilu viil viilud viiludeks viiluga
+65	7665	termiit	termiidid termiite termiitide termiit termiidi termiitidest termiiti termiitidele
+66	7666	kohev	kohev kohevad kohevaks koheva kohevat kohevaid kohevate
+67	7667	sisustama	sisustada sisustatud sisustan sisustama sisustab sisustanud sisustas sisustasin sisustad sisustame
+68	7668	elund	elundid elundeid elundite elund elundi elundit elunditega
+69	7669	lühendama	lühendada lühendatud lühendab lühendama lühendatakse lühendas lühendan lühendasin lühendavad lühendaks
+70	7670	saagima	saagida saetud saen saagima saagisin saeb saaginud saeti saeme saetakse
+71	7671	puuvill	puuvilla puuvill puuvillast puuvillaga
+72	7672	limiit	limiit limiiti limiidi limiidid limiidini limiite limiidiga
+73	7673	saavutatud	saavutatud saavutatu saavutatut
+74	7674	korraldaja	korraldaja korraldajad korraldajat korraldajale korraldajatest
+75	7675	kärnkonn	kärnkonn kärnkonnad kärnkonna kärnkonnaks kärnkonnana kärnkonnaga
+76	7676	intuitsioon	intuitsioon intuitsiooni intuitsiooniks intuitsioonil intuitsiooniga intuitsioonist
+77	7677	ristleja	ristleja ristlejad ristlejat ristlejale ristlejaga
+78	7678	magnetväli	magnetvälja magnetväli magnetvälju magnetväljad magnetväljas
+79	7679	ennatlik	ennatlik ennatlikke ennatlikult ennatlikud ennatliku
+80	7680	hollandlane	hollandlane hollandlased hollandlase hollandlast hollandlastega hollandlaste
+81	7681	sissekäik	sissekäigu sissekäik sissekäiku sissekäigust sissekäigud
+82	7682	vastupidavus	vastupidavus vastupidavust vastupidavuse vastupidavusest vastupidavusega
+83	7683	väljenduma	väljendub väljendusin väljenduda väljendudes väljendunud väljenduma väljendun väljendusid väljendu väljenduvad
+84	7684	kolk	kolki
+85	7685	suisa	suisa
+86	7686	vananenud	vananenud
+87	7687	briljantne	briljantne briljantse briljantsed briljantset
+88	7688	kaasavara	kaasavara kaasavaraks kaasavarata kaasavarast kaasavaraga
+89	7689	karamell	karamelli karamell karamelle karamelliga karamellid karamellist
+90	7690	väljapaistev	väljapaistev väljapaistva väljapaistvat väljapaistvate väljapaistvad väljapaistvalt väljapaistvale
+91	7691	taassünd	taassünd taassünni taassündi taassünnist taassünniks
+92	7692	põikama	põigata põikama põika põikab põikasin põikas põikan põikame
+93	7693	imelaps	imelaps imelapse imelapsed imelast
+94	7694	passiivne	passiivne passiivsed passiivse passiivselt passiivset passiivseks
+95	7695	lehkama	lehkab lehkav lehkad lehkavad lehkama lehkas lehka
+96	7696	bankett	bankett banketil banketile banketi banketti banketiks banketiga
+97	7697	kübe	kübetki kübe kübet kübemed kübeme
+98	7698	pühamu	pühamu pühamusse pühamus pühamut
+99	7699	nirk	nirk nirgi nirgid nirki nirkide
+100	7700	rohutirts	rohutirts rohutirtsud rohutirtse rohutirtsu rohutirtsudest rohutirtsude

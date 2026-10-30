@@ -1,0 +1,100 @@
+1	4901	vaimulik	vaimulik vaimuliku vaimulikud vaimulikku vaimulike vaimulikuks vaimulikke vaimulikele vaimulikuga vaimulikust
+2	4902	vanamoodne	vanamoodne vanamoodsalt vanamoodsad vanamoodsal vanamoodsat vanamoodsa vanamoodsaks vanamoodsate vanamoodsaid vanamoodsatest
+3	4903	rõhuma	rõhub rõhutud rõhuda rõhuv rõhuma rõhunud rõhume rõhusid rõhuva rõhudes rõhun rõhutute rõhutuid rõhute rõhuvast rõhutakse
+4	4904	paljunema	paljunevad paljuneda paljunema paljuneb paljune paljunenud paljunesid paljunes paljunete paljuneme paljunedes
+5	4905	improviseerima	improviseerima improviseerida improviseeri improviseerin improviseeritud improviseerime improviseerisin improviseeris improviseerib improviseerid improviseerisid improviseerige
+6	4906	tunnustus	tunnustust tunnustus tunnustuse tunnustuseks tunnustusega
+7	4907	puhastamine	puhastamiseks puhastamine puhastamist puhastamise puhastamisel
+8	4908	kompromiss	kompromissi kompromisse kompromiss kompromissile kompromissiks kompromissid kompromissiga kompromisside kompromissidega kompromissidest
+9	4909	vähemasti	vähemasti
+10	4910	peenraha	peenraha peenrahaga
+11	4911	väärikas	väärikas väärikat väärika väärikad väärikaks väärikast väärikate väärikale väärikaid
+12	4912	konts	kontsad kontsadega konts kontsi kontsadel kontsa kontsaga kontsade kontsasid kontsades kontsadest
+13	4913	pidamine	pidamine pidamiseks pidamist pidamise pidamisega pidamises pidamisest pidamisel
+14	4914	lülituma	lülitub lülitu lülituvad lülitun lülituda lülituma lülitunud lülitusid lülitume lülituge lülitusin
+15	4915	põder	põder põdra põdrad põtra põtru põdraga põdral põdrale põtrade
+16	4916	garaaž	garaaži garaažis garaaž garaažist
+17	4917	lahenema	laheneb lahenes lahenevad lahenenud lahene laheneks laheneda lahenesid lahenema
+18	4918	üllatuma	üllatuksid üllatud üllatuda üllatu üllatusin üllatuks üllatub üllatusid üllatuma üllatuvad üllatute üllatuksite üllatuge üllatuksin üllatun
+19	4919	mistahes	mistahes
+20	4920	purustatud	purustatud
+21	4921	lunastama	lunastada lunastama lunastatud lunastab lunastanud lunastas lunasta lunastan lunastatakse lunastasin lunastad lunastav
+22	4922	ekskursioon	ekskursiooni ekskursioon ekskursioonile ekskursioonil ekskursioone ekskursioonid ekskursioonist ekskursiooniga ekskursioonide ekskursioonilt
+23	4923	teadvusetu	teadvusetu teadvusetult teadvusetuks teadvusetuna teadvusetud teadvusetus
+24	4924	meteoriit	meteoriit meteoriidi meteoriidid meteoriiti meteoriitide meteoriite meteoriidiga meteoriidist meteoriitidest meteoriidis
+25	4925	lõbustuspark	lõbustuspark lõbustusparki lõbustuspargis lõbustuspargi lõbustuspargist lõbustuspargid lõbustusparkides lõbustuspargiga lõbustusparkide lõbustuspargiks lõbustusparke
+26	4926	kookon	kookon kookonis kookoni kookonid kookonist kookonisse kookoneid kookonit kookonites kookonitesse kookonite kookoniga kookonitest kookoneisse
+27	4927	kiitus	kiitus kiitust kiitusega kiituse kiitused kiituseks kiitusi
+28	4928	rumm	rummi rumm rummist rummiga
+29	4929	drink	drinki dringile dringiga drinke dringist dringil
+30	4930	lugeja	lugeja lugejad lugejat lugejaid lugejate lugejatele lugejale lugejaga
+31	4931	põrm	põrmuks põrmu põrm põrmust põrmule põrmuga
+32	4932	toibuma	toibub toibunud toibuda toibu toibuma toibus toibusin toibud toibuvad toibun toibumas toibusid toibuks
+33	4933	tänaseni	tänaseni
+34	4934	tegelt	tegelt
+35	4935	imekena	imekena imekenad
+36	4936	eemalduma	eemalduda eemaldunud eemaldus eemalduma eemalduge eemaldub eemaldu eemalduvad eemaldume eemaldun eemaldusin eemaldusid eemaldud eemaldumas eemalduks
+37	4937	bensiinijaam	bensiinijaama bensiinijaamas bensiinijaam bensiinijaamast bensiinijaamad bensiinijaamu bensiinijaamades
+38	4938	mamps	mamps mampsi mampsile mampsiga
+39	4939	teller	teller telleri tellerit telleriga tellerid tellerile tellerite
+40	4940	ebamugavus	ebamugavust ebamugavuste ebamugavusi ebamugavus ebamugavuse ebamugavused ebamugavusest
+41	4941	pulmapäev	pulmapäeval pulmapäev pulmapäeva pulmapäevast pulmapäevaks
+42	4942	ajamasin	ajamasin ajamasina ajamasinat ajamasinast ajamasinas ajamasinasse ajamasinaga ajamasinale
+43	4943	koolitama	koolitatud koolitada koolitati koolitab koolitanud koolitama koolitas koolitan koolitasin koolitasid koolitatakse koolitad koolitame koolitamata
+44	4944	süstal	süstal süstalt süstla süstlaid süstlad süstlas süstlaga süstaldest süstlast süstalde
+45	4945	pump	pumpa pumba pumbad pumbaga pumpade pumbast pumpadest pumpi
+46	4946	psühholoogia	psühholoogia psühholoogiat psühholoogias psühholoogiast psühholoogiaga psühholoogiale psühholoogiasse
+47	4947	seiskuma	seiskus seiskub seiskunud seiskuvad seiskuma seiskusid seiskuda seiskumas
+48	4948	amelema	ameleda amelema amelesid amelesime amelemas ameles amelenud amelevad amelesin amelen amele ameled ameleb ameleme amelesite ameleks
+49	4949	puurima	puurida puurides puurima puuritud puurime puurivad puurin puurinud puurib puurisid puurisin puurige puuriti puuritakse
+50	4950	oja	oja ojast ojadena ojas ojja ojad ojade ojana ojasid
+51	4951	praktiline	praktiline praktilised praktilisi praktilist praktilise praktiliste praktilistel praktilisest praktilisel praktiliseks
+52	4952	vihmavari	vihmavarju vihmavari vihmavarjuga vihmavarjud vihmavarje vihmavarjuta vihmavarjude
+53	4953	eradetektiiv	eradetektiiv eradetektiivi eradetektiivid eradetektiiviks eradetektiive eradetektiiviga eradetektiivina eradetektiivil eradetektiivilt
+54	4954	sirguma	sirgu sirgunud sirgub sirgumas sirguvad sirgusid sirgusin sirguda sirgudes
+55	4955	maskeering	maskeering maskeeringut maskeeringu maskeeringuga maskeeringus maskeeringud maskeeringust maskeeringuks maskeeringuid
+56	4956	plastik	plastikust plastik plastiku plastikut plastikud plastikuga plastikusse plastikute
+57	4957	kviitung	kviitung kviitungi kviitungit kviitungid kviitungeid kviitungil kviitungile kviitungite
+58	4958	maadlema	maadelda maadelnud maadlema maadlesin maadleb maadlen maadlesid maadles maadle maadleme maadlevad maadled maadlemas maadlesime maadeldes maadleks
+59	4959	ninapidi	ninapidi
+60	4960	sund	sunni sundisid sunnil sunnid sund sundi sunnita sundides sunniks
+61	4961	inimlikkus	inimlikkuse inimlikkus inimlikkust inimlikkusest inimlikkuseta inimlikkusele inimlikkusega inimlikkusel
+62	4962	kiil	kiilus kiilu kiil kiili kiilid kiilide kiilusid kiilud
+63	4963	boonus	boonus boonust boonuse boonuseks boonusena boonused boonuseid boonusega boonuste
+64	4964	töökaaslane	töökaaslased töökaaslane töökaaslastega töökaaslase töökaaslasi töökaaslastele töökaaslasega töökaaslasele töökaaslaste töökaaslast töökaaslastest
+65	4965	vilistama	vilista vilistab vilistada vilistama vilistan vilistas vilistavad vilistad vilistage vilistasid vilistades vilistati vilistasin vilistav vilistame
+66	4966	imbuma	imbunud imbuda imbub imbuma imbus imbuvad imbusid imbu imbuks imbume imbusin imbuge
+67	4967	hädasti	hädasti
+68	4968	tõhus	tõhus tõhusad tõhusat tõhusaks tõhusa tõhusate
+69	4969	äraolek	äraolekul äraoleku äraolekut äraolek äraolekust
+70	4970	sõltlane	sõltlane sõltlased sõltlaste sõltlasest sõltlase sõltlaseks sõltlasteks sõltlast sõltlastele sõltlasi sõltlastel sõltlasele
+71	4971	laadung	laadung laadungi laadungit laadungiga laadungist laadungeid laadungid
+72	4972	pidustus	pidustused pidustuste pidustusi pidustustel pidustustele pidustus pidustustega pidustusteks pidustustest pidustust pidustuse
+73	4973	kaunistama	kaunistatud kaunistada kaunistab kaunistama kaunistasid kaunistas kaunistavad kaunistan kaunistame kaunista kaunistanud kaunistasin kaunistaks kaunistad
+74	4974	kohustuslik	kohustuslik kohustuslikud kohustuslikku kohustusliku kohustuslikuks kohustuslikus kohustuslikust
+75	4975	tont	tont tonti tonte tondid
+76	4976	rõhutama	rõhutada rõhutan rõhutab rõhutas rõhutama rõhutasin rõhutame rõhutanud rõhutavad rõhutades rõhutatud rõhutad rõhutasid
+77	4977	tuksi	tuksi
+78	4978	vähemus	vähemuses vähemus vähemuse vähemuste vähemusse vähemusi vähemused
+79	4979	sõbratar	sõbratar sõbratari sõbratariga sõbratarile sõbratarid sõbratarist
+80	4980	poni	poni poniga ponid ponisid ponide ponist
+81	4981	mais	maisi maisist maise maisiga mais maises maisest
+82	4982	kuulipilduja	kuulipilduja kuulipildujad kuulipildujat kuulipildujate kuulipildujaga kuulipildujaid kuulipildujast kuulipildujatega
+83	4983	elulugu	elulugu eluloo eluloost eluloos elulood elulugusid elulooga
+84	4984	sireen	sireen sireeni sireenid sireene sireenide sireeniga sireenidega sireenita
+85	4985	kujul	kujul
+86	4986	poksija	poksija poksijad poksijat poksijaid poksijaks poksijale poksijate poksijast poksijaga
+87	4987	kolmekordne	kolmekordne kolmekordse kolmekordset kolmekordseks kolmekordsed
+88	4988	südameatakk	südameatakk südameataki südameatakki südameatakid südameatakke
+89	4989	ballett	balletti ballett balleti balletis balletist balletiga balletile balletil
+90	4990	jäse	jäsemed jäsemeid jäseme jäsemete jäse jäsemetest jäset jäsemetega jäsemetes jäsemeteta jäsemega jäsemetel jäsemest jäsemetesse
+91	4991	puupea	puupea puupead puupeadest puupäid puupeast puupeadele puupeaga puupeadega
+92	4992	juhend	juhend juhendid juhendit juhendeid juhendi juhendite juhendis juhendist juhenditega juhendile
+93	4993	sitasti	sitasti
+94	4994	pruutneitsi	pruutneitsi pruutneitsid pruutneitsiks pruutneitsite pruutneitsit pruutneitsiga pruutneitseid pruutneitsitest pruutneitside
+95	4995	veidikene	veidikeseks veidikene
+96	4996	piiksuma	piiksu piiksub piiksuv piiksuma piiksud piiksuvad piiksus piiksuvat
+97	4997	võitluskunst	võitluskunstide võitluskunste võitluskunsti võitluskunstid võitluskunst võitluskunstidega võitluskunstides võitluskunstidest võitluskunstis võitluskunstiga
+98	4998	õilis	õilis õilsa õilsad õilsat õilsal õilsate õilsalt õilsatel õilsaks õilsast õilist õilsaid
+99	4999	tsiviliseerima	tsiviliseeritud tsiviliseerituks tsiviliseerimata tsiviliseerimatu tsiviliseerida
+100	5000	lest	lesta lestad lestadega

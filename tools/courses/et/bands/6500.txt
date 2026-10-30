@@ -1,0 +1,100 @@
+1	6401	brigaad	brigaad brigaadi brigaadid brigaadis brigaadiga brigaadist brigaadil brigaadide
+2	6402	asukas	asukad asukaid asukas asukate asukatele asukatest asuka asukat asukatega
+3	6403	suhtlus	suhtlus suhtlust suhtluse suhtlusest suhtluseks suhtlusele suhtlusega suhtlusi suhtluses
+4	6404	mutatsioon	mutatsioon mutatsiooni mutatsioonid mutatsioone mutatsiooniga mutatsioonist mutatsioonide
+5	6405	verevalamine	verevalamist verevalamine verevalamise verevalamiseta verevalamisest verevalamiseks verevalamisega
+6	6406	põhjapõder	põhjapõder põhjapõdrad põhjapõdra põhjapõtra põhjapõtru põhjapõtrade põhjapõdraga põhjapõtradega
+7	6407	inspireeriv	inspireeriv inspireerivad inspireerivat inspireeriva inspireerivalt
+8	6408	elujõud	elujõudu elujõud elujõu elujõus elujõust
+9	6409	sündimine	sündimist sündimise sündimisest sündimine sündimisel
+10	6410	norskama	norskab norska norskad norskasid norskan norskas norskasin norskama norsanud norskavad
+11	6411	suuresti	suuresti
+12	6412	ajapikku	ajapikku
+13	6413	viibimine	viibimine viibimise viibimisest viibimisega
+14	6414	panter	panter pantri pantrid pantrit pantrite pantriks pantreid
+15	6415	asenduma	asendus asendust asenduse asendub asendunud asendusid asenduseks asenduvad
+16	6416	kirjutaja	kirjutaja kirjutajad kirjutajana kirjutajat kirjutajal kirjutajaid
+17	6417	kelk	kelk kelgu kelku kelguga kelgule kelgul kelgust
+18	6418	seespool	seespool
+19	6419	paksmagu	paksmagu paksmao paksmaost paksmaod
+20	6420	ninatark	ninatark ninatarka ninatargad ninatargaks ninatarga
+21	6421	allmaailm	allmaailma allmaailmas allmaailm allmaailmast
+22	6422	närvivapustus	närvivapustus närvivapustuse närvivapustust närvivapustusest
+23	6423	mehike	mehike mehikesed mehikesi mehikest mehikese mehikeste mehikesele mehikestest
+24	6424	siirup	siirupit siirup siirupi siirupiga siirupist siirupis
+25	6425	huligaan	huligaan huligaanid huligaanide huligaane huligaani huligaanist huligaanidest
+26	6426	inimolend	inimolend inimolendid inimolendi inimolendite inimolendeid inimolendit inimolendile inimolendist
+27	6427	taastusravi	taastusravi taastusravil taastusravis taastusravisse taastusravile taastusravist
+28	6428	väärikalt	väärikalt
+29	6429	omamine	omamine omamisel
+30	6430	taat	taat taadi taadil taadiga taati taadid
+31	6431	armulugu	armulugu armuloo armuloost armulood armulooga
+32	6432	elektroonika	elektroonika elektroonikat elektroonikaga elektroonikas elektroonikast elektroonikata
+33	6433	anum	anum anumat anumasse anumad anumaid
+34	6434	vaibuma	vaibub vaibunud vaibuvad vaibuma vaibu vaibuda
+35	6435	tagaosa	tagaosas tagaosa tagaossa tagaosast tagaosaga
+36	6436	üleliigne	üleliigne üleliigset üleliigse üleliigsed üleliigseid üleliigsest
+37	6437	vrakk	vrakk vraki vrakki vrakist vrakkide vrakile vrakis vrakid vrakiga
+38	6438	maismaa	maismaal maismaale maismaa maismaast maismaad maismaalt maismaaga
+39	6439	nihutama	nihutada nihuta nihutama nihutan nihutas nihutame nihutab nihutatud nihutasid nihutasin nihutaks nihutanud
+40	6440	öömaja	öömaja öömajale
+41	6441	hüljes	hüljes hülge hülged hülgeid hüljeste hüljest hülgega hülgele
+42	6442	see-eest	see-eest
+43	6443	tobias	tobias
+44	6444	astma	astma astmat astmaga astmale
+45	6445	kuuene	kuuene kuueseks kuueselt kuuese kuuesed kuuestes
+46	6446	sissekanne	sissekanne sissekannet sissekande sissekanded sissekandeid sissekandes
+47	6447	rootslane	rootslane rootslased rootslase rootslasest rootslast rootslasi rootslastega rootslaste rootslasega rootslastele
+48	6448	poomine	poomise poomine poomist poomisest poomiseks poomisele poomisega
+49	6449	printima	printida prinditud printisin prindin prindib printima prindime printige printis printinud
+50	6450	pang	pange pang panges pangi pangelt
+51	6451	vürtsikas	vürtsikas vürtsikat vürtsikad vürtsika vürtsikaid vürtsikalt
+52	6452	valutu	valutu valutult valutuks valutut
+53	6453	hauakivi	hauakivi hauakivile hauakivid hauakive hauakivil hauakivide
+54	6454	mätsima	mätsida mätsisid mätsis mätsinud mätsima mätsitud mätsiti mätsib mätsi mätsivad mätsitakse mätsisite
+55	6455	laup	laubale laubal laup laupa lauba laubalt laupadele
+56	6456	kõlar	kõlarid kõlari kõlar kõlarisse kõlareid kõlaritest kõlaritesse kõlarite kõlaritega kõlarit kõlariga kõlarist
+57	6457	prototüüp	prototüüp
+58	6458	kaotsi	kaotsi
+59	6459	madrus	madrus madrused madruse madruste madrust madruseid madruseks
+60	6460	trolli	trollid trolli trolliga
+61	6461	kapsas	kapsas kapsad kapsast kapsa kapsaga kapsaid
+62	6462	uisutama	uisutada uisutama uisutad uisutab uisutamas uisutanud uisutan uisutavad uisutame uisutasin
+63	6463	süvenema	süvenenud süveneb süveneda süvenes süvenema süvene süvenesin süvenevad süveneme süvened
+64	6464	tiirutama	tiirutab tiirutavad tiirutada tiirutame tiirutama tiirutas tiirutan tiirutasid tiirutamas tiirutanud tiirutad tiirutasin
+65	6465	väärtustama	väärtustan väärtusta väärtustab väärtustada väärtustame väärtustama väärtustavad väärtustanud väärtustad väärtustaks väärtustatud väärtustage
+66	6466	köha	köha köhata köhaga
+67	6467	käskija	käskija käskijale käskijat
+68	6468	sõge	sõge sõgedad sõgedalt sõgedaks sõgedat sõgeda
+69	6469	valvsus	valvsuse valvsust valvsus valvsusele
+70	6470	komponent	komponendid komponent komponente komponenti komponendi komponentidest komponendiga komponentidega komponentide
+71	6471	silmapilkne	silmapilkselt silmapilkne
+72	6472	näitlejanna	näitlejanna näitlejannad näitlejannaga näitlejannat näitlejannaks näitlejannasid näitlejannal
+73	6473	ellujäänu	ellujäänu ellujäänute
+74	6474	häärber	häärberis häärber häärberi häärberisse häärberist häärberit
+75	6475	raekoda	raekojas raekoja raekoda raekotta raekojast
+76	6476	jada	jada jadas jadale jadaga jadast jadad
+77	6477	põnn	põnn põnnid põnni põnnile põnniga
+78	6478	hingetu	hingetuks hingetu hingetud hingetut hingetult hingetuna
+79	6479	reserv	reservi reservis reservid reserv reservidest reserviga
+80	6480	kleepuma	kleepuvad kleepub kleepuvat kleepunud kleepus kleepuma kleepuda kleepu kleepusid
+81	6481	kaaperdama	kaaperdatud kaaperdada kaaperdas kaaperdati kaaperdasid kaaperdame kaaperdanud kaaperdasin kaaperdab kaaperdama
+82	6482	tuhkama	tuhkagi
+83	6483	ahoi	ahoi
+84	6484	tublisti	tublisti
+85	6485	pommitamine	pommitamine pommitamise pommitamisest
+86	6486	tasane	tasane tasasel tasase tasased tasast tasaseks tasaselt
+87	6487	helin	helin helinat helinaks helinad helinaga helinaid
+88	6488	kõrs	kõrre kõrs kõrt kõrred kõrrega kõrte kõrsi kõrtega
+89	6489	raskeim	raskeim raskeima
+90	6490	elektrilöök	elektrilöögi elektrilöök elektrilööki elektrilöögist elektrilööke elektrilöögiga
+91	6491	äparduma	äpardus äpardunud äpardusi äparduse äpardused äparduste äpardust äpardustest äparduda
+92	6492	saatanlik	saatanlik saatanlikud saatanliku saatanlikku saatanlike saatanlikke saatanlikult saatanlikus
+93	6493	konsul	konsul konsuli konsuliks konsuliga konsulit konsulile
+94	6494	katsetus	katsetus katsetusi katsetused katsetuse katsetuste katsetust katsetustest katsetuseks katsetusteks katsetustel
+95	6495	õiendama	õiendada õienda õiendama õiendad õiendan õiendab õiendame õiendas õiendanud õiendasid
+96	6496	väljaheide	väljaheiteid väljaheide väljaheited väljaheite väljaheidete väljaheidet väljaheidetega väljaheidetes väljaheites väljaheitest
+97	6497	pärastpoole	pärastpoole
+98	6498	ringiratas	ringiratast
+99	6499	lasuma	lasub lasuvad
+100	6500	möku	möku mökud mökudele

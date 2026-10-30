@@ -1,0 +1,100 @@
+1	6101	võlglane	võlglane võlglastele võlglaseks võlglased võlglasena võlglasteks
+2	6102	evakueeruma	evakueeruda evakueeruma evakueeruge evakueerume evakueeruvad
+3	6103	naa	naa
+4	6104	piljard	piljardit piljardi piljard piljardis
+5	6105	immuunsus	immuunsus immuunsuse immuunsust
+6	6106	soon	soontes soon soone sooned soont soonte soontega sooni
+7	6107	jäine	jäine jäise jäised jäisesse jäisel jäises jäiselt jäisest jäiseks jäiste jäisele
+8	6108	ellujääja	ellujääja
+9	6109	moira	moira moirat moiraga
+10	6110	peakokk	peakokk peakoka peakokaks peakokka peakokad peakokaga
+11	6111	peegeldama	peegeldab peegeldavad peegelda peegeldama peegeldada peegeldas peegeldaks peegeldades
+12	6112	värvitu	värvitud värvitu
+13	6113	vanamutt	vanamutt vanamuti vanamutti vanamutid vanamutile vanamutte vanamutiga
+14	6114	distants	distantsi distantsilt distants distantsil
+15	6115	helistamine	helistamine helistamise
+16	6116	sõjalaev	sõjalaev sõjalaeva sõjalaevad sõjalaevaga sõjalaevu sõjalaeval sõjalaevade sõjalaevalt
+17	6117	vahtkond	vahtkonna vahtkond vahtkonda vahtkonnast vahtkonnaga vahtkonnale vahtkonnas
+18	6118	pliit	pliidi pliit pliidil pliiti pliidile pliidiga pliidist
+19	6119	õõnestama	õõnestada õõnestab õõnestavad õõnestama õõnesta õõnestad õõnestanud õõnestatud õõnestaks õõnestas õõnestasid õõnestav
+20	6120	horisont	horisondi horisondil horisont horisonti horisondile horisondini horisondist horisonte
+21	6121	hoiak	hoiak hoiakut hoiaku hoiakuga hoiakust hoiakud hoiakuid hoiakus
+22	6122	senini	senini
+23	6123	esmaklassiline	esmaklassiline esmaklassilist esmaklassilised esmaklassilise esmaklassilisi
+24	6124	totter	totter totra totrad totraid totrat totralt totrate
+25	6125	proteiin	proteiini proteiin proteiine proteiinid proteiinide proteiinidest proteiiniga
+26	6126	akadeemiline	akadeemiline akadeemilise akadeemilist akadeemiliselt akadeemilised akadeemilisel akadeemilises akadeemiliste akadeemilisele akadeemilisi akadeemilistele akadeemilisest
+27	6127	pung	pungil pungad pung punga pungi pungis
+28	6128	valgusaasta	valgusaasta valgusaastate valgusaastat valgusaastaid
+29	6129	kõhe	kõhe kõhedaks kõheda kõhedalt kõhedat kõhedad
+30	6130	demokraat	demokraatide demokraat demokraadid demokraate demokraati demokraatidele demokraadi demokraadiks
+31	6131	polkovnik	polkovnik polkovniku polkovnikule
+32	6132	kraana	kraana kraanat kraanaga kraanad kraanasse kraanas kraanal kraanast
+33	6133	sünnimärk	sünnimärk sünnimärki sünnimärgi sünnimärgid sünnimärke sünnimärgist
+34	6134	jääkaru	jääkaru jääkarud jääkarude jääkarusid
+35	6135	sitaauk	sitaauk sitaauku sitaaugus sitaaugust sitaaugu sitaaugud sitaauke sitaauguni
+36	6136	elumärk	elumärke elumärgid elumärki elumärkide elumärk elumärgi
+37	6137	likvideerima	likvideerida likvideeritud likvideerima likvideeri likvideerime likvideeritakse likvideeris likvideeriti likvideerinud likvideerin likvideerib likvideerisime likvideerisid
+38	6138	ettemaks	ettemaksu ettemaks ettemaksuna ettemaksuks ettemaksuga ettemaksuta
+39	6139	üksikasjalik	üksikasjalikult üksikasjalik üksikasjaliku üksikasjalikku üksikasjalikud üksikasjalikke
+40	6140	imepärane	imepärane imepärast imepärased imepärase imepäraselt imepäraseid imepärasest
+41	6141	planeerimine	planeerimine planeerimist planeerimise planeerimisega planeerimisel planeerimisest
+42	6142	kalts	kalts kaltsud kaltsu kaltse kaltsudes kaltsudega kaltsuga kaltsude
+43	6143	üheaegselt	üheaegselt
+44	6144	lõpetus	lõpetuseks lõpetus lõpetust lõpetuse
+45	6145	ettur	ettur etturid etturi etturiks etturit etturina ettureid
+46	6146	vabanemine	vabanemist vabanemine vabanemise
+47	6147	mähkima	mähitud mähi mähkis mähkida mähib mähkinud mähkisin mähin mähkisid mähime mähkige mähkima mähivad
+48	6148	ööpäevaringne	ööpäevaringselt ööpäevaringse ööpäevaringset ööpäevaringne
+49	6149	sisuliselt	sisuliselt
+50	6150	sihuke	sihuke sihukeses sihukesena sihukeste
+51	6151	tulv	tulvil tulv tulva tulvas tulvad
+52	6152	kõnepost	kõneposti kõnepost kõnepostis kõnepostiga
+53	6153	vahtimine	vahtimist vahtimine vahtimisest
+54	6154	kruvi	kruvi kruvid kruvide kruve
+55	6155	tundmatus	tundmatusse tundmatuseni tundmatust tundmatus tundmatuse
+56	6156	vastne	vastsed vastne vastseid vastse vastset vastsete vastsetest vastsena vastsest
+57	6157	mõõde	mõõtmed mõõtmetega mõõde mõõtmeid mõõtmes mõõdet mõõtme mõõtmetes mõõtmete mõõtmetest mõõtmest mõõtmesse mõõtmetelt
+58	6158	külmetus	külmetus külmetuse külmetust külmetusega külmetusest külmetusse
+59	6159	soojendus	soojendus soojendust soojenduseks soojenduse soojendusega
+60	6160	pläma	pläma plätud plätusid plätudega plätudes plämast
+61	6161	viik	viik viiki
+62	6162	kaitseminister	kaitseminister kaitseministri kaitseministriga kaitseministrile kaitseministrit kaitseministrilt
+63	6163	esitus	esitus esitust esituses esituse esitusega esitused
+64	6164	suutäis	suutäis suutäie suutäit suutäisi suutäied suutäiega
+65	6165	uskumine	uskumine uskumise uskumist uskumisega uskumises uskumiseks uskumiste uskumisi uskumisest
+66	6166	näpistama	näpistab näpista näpistas näpistada näpistama näpistan näpistasid näpistage näpistad näpistaks näpistavad
+67	6167	majonees	majoneesi majonees majoneesiga majoneesita
+68	6168	käepide	käepide käepidet käepideme käepidemed käepidemega käepidemest käepidemel käepidemeid käepidemetega käepidemetest
+69	6169	ärandama	ärandatud ärandada ärandas ärandati ärandasid ärandasin ärandanud äranda ärandame ärandama ärandasime ärandan
+70	6170	sedavõrd	sedavõrd
+71	6171	kibestuma	kibestunud kibestunuks
+72	6172	kaitsetu	kaitsetu kaitsetut kaitsetuid kaitsetuna kaitsetult kaitsetute kaitsetule
+73	6173	pohmakas	pohmakas pohmakat pohmaka pohmakaga pohmakast
+74	6174	kuhi	kuhjaga kuhi kuhjade kuhjast kuhjades
+75	6175	stjuardess	stjuardess stjuardessi stjuardessid stjuardessiga stjuardesside stjuardessile stjuardessiks stjuardesse
+76	6176	sarkasm	sarkasm sarkasmi sarkasmiga sarkasmist sarkasmita sarkasmiks
+77	6177	paharet	paharet paharetid paharettide pahareti paharetti paharetiks paharette
+78	6178	näoilme	näoilme näoilmet näoilmest näoilmeid näoilmed näoilmete
+79	6179	kuubik	kuubik kuubikut kuubiku kuubikud kuubikus kuubikuteks kuubikuid kuubikust
+80	6180	virtuaalne	virtuaalne virtuaalse virtuaalselt virtuaalset virtuaalses virtuaalsed virtuaalseid virtuaalsesse virtuaalseks
+81	6181	kraater	kraatri kraater kraatris kraatrit kraatrisse kraatrist kraatreid kraatrid kraatrite
+82	6182	kergitama	kergita kergitab kergitada kergitan kergitas kergitama kergitame kergitatud kergitasid kergitad kergitavad kergitage kergitanud
+83	6183	päikeseprillid	päikeseprillid päikeseprille päikeseprillidega päikeseprillide
+84	6184	muul	muula muulad muule muuli muulil muulaga muuladega muulasid muul muulaks muulade muulal
+85	6185	andur	andurid andur andureid anduri andurite andurit anduriga anduritega
+86	6186	peopesa	peopesa peopesad peopesal peopessa peopesas peopesalt peopesale peopesaga peopesasid peopesast
+87	6187	sestap	sestap
+88	6188	viiene	viiene viiesed viiese viieseks viieselt viiestes
+89	6189	leidlik	leidlik leidlikud leidliku leidlikult leidlikuks
+90	6190	hädavares	hädavares hädavaresed hädavareseks hädavarese hädavaresest hädavareste
+91	6191	tõrge	tõrge tõrkeid tõrked tõrgeteta tõrget tõrgete tõrke tõrkega
+92	6192	õepoeg	õepoeg õepoja õepoega õepojale õepojaga õepojad õepojast
+93	6193	apelsinimahl	apelsinimahla apelsinimahl apelsinimahlaga apelsinimahlast
+94	6194	vennatütar	vennatütar vennatütre vennatütart vennatütrega vennatütrele vennatütrel
+95	6195	kalamees	kalamees kalamehed kalamehe kalameest kalameeste kalamehi kalamehele kalameestele
+96	6196	jalka	jalkat jalka jalkast jalkas
+97	6197	atakk	atakk ataki atakki atakid atakke
+98	6198	polt	polt poldid poldi polti poltidega polte poltide poldiga
+99	6199	troopiline	troopiline troopilised troopilise troopilist troopiliste troopilises troopilisel troopilistes troopilisele troopilisi troopilisse troopilisest troopiliseks
+100	6200	vihmamets	vihmametsa vihmametsade vihmamets vihmametsad vihmametsas vihmametsades vihmametsadest vihmametsast vihmametsi

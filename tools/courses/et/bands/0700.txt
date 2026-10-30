@@ -1,0 +1,100 @@
+1	601	tark	tark targem targad targemad tarka targalt targa targaks tarkade tarku targana targale targast targal tarkadele tarkadeks tarkadest targas
+2	602	värk	värk värki värgi värgiga värgist värgid värke värgile värgis värkidest värgil värkidega värkide
+3	603	ometi	ometi
+4	604	käsk	käsk käsu käsku käske käsud käsul käsuta käskudele käskude käsule käsust käsuga käskudest käsuks käskudega käskusid käskudes käsus käseks käsuna käskudeta
+5	605	kõndima	kõndida kõnni kõnnib kõnnin kõndis kõnnid kõndima kõndisin kõnnime kõndisid kõnnivad kõndinud kõndides kõndimas kõndiv kõndisime kõndige kõnniks kõnnite kõnniksin kõnniksid kõndisite kõndivat kõnniksite kõndimast kõndivate kõnniksime kõnnitakse
+6	606	kott	kott kotti koti kotis kotid kotist kotte kotiga kottidega kottide kotta kottides kottidesse kotiks kottidest kotil kotile kotita kota kotad
+7	607	peitma	peita peidetud peida peidab peitis peidad peitma peitsin peitsid peitnud peidavad peidan peidame peitke peitsime peidate peidaks peites peideti peitsite peidaksin peidaksid peidetakse peitmas peidetuks
+8	608	kerge	kerge kergelt kergem kergemaks kerget kergemalt kerged kergeks kergemat kergema kergeid kergete kergemad kergel kergest kerges kergena kergele
+9	609	tuhat	tuhat tuhandeid tuhanded tuhande tuhandete tuhandet tuhandetest tuhandeks tuhandega tuhandele tuhandetele tuhandetes tuhandel tuhandetel tuhandeni tuhandeteks tuhandetesse tuhandetega tuhandetelt tuhandeteni
+10	610	kuidagi	kuidagi
+11	611	sekund	sekundit sekundi sekund sekundiga sekundiks sekundis sekundid sekunditki sekundil sekunditega sekundeid sekundite sekundini sekunditel sekundile
+12	612	issi	issi issile issit issiga issil issiks issist issid issilt issita issisid isside issidele
+13	613	kõrge	kõrge kõrgemale kõrgel kõrgele kõrgelt kõrgem kõrged kõrgeim kõrgeima kõrget kõrgete kõrgeid kõrgetel kõrgest kõrgeks kõrges kõrgeimat kõrgeimal kõrgeimale kõrgeimad kõrgetele kõrgetes kõrgetest kõrgesse kõrgetelt
+14	614	punane	punane punase punast punased punaseks punases punaste punaseid punasele punasest punasel punasesse punasega punaselt punastes punastest punastele punastel punasem punasena punasemad
+15	615	loom	loomad loom loomade loomi looma loomadega loomadest loomadele loome loomis loomult loomadel loomist loomuga loomaga loomale loomal loomisest loomisel loomaks loomu loomadeks loomast loomises loomana loomalt loomadena loomadelt loomas loomadesse loomades loomule loomadeta
+16	616	sattuma	sattus sattusin sattuda sattusid satub satud satu sattusime satun satuvad satuks satume sattusite satute sattuma sattuge sattudes satuksid sattuvad sattud sattumast sattub satuksin sattume sattuks sattute sattumata satuksime sattun sattumas satutakse satuksite
+17	617	mõrv	mõrva mõrv mõrvas mõrvad mõrvaga mõrvast mõrvata mõrvade mõrvasid mõrvu mõrvaks mõrvadega mõrvale mõrvadest mõrvades mõrvani mõrvadele mõrval mõrvana
+18	618	kohus	kohus kohtusse kohut kohtu kohtus kohust kohtud kohtule kohtute kohtuks kohuseks kohuseid kohtust kohuse kohtuga kohtul kohtuni kohtuta kohtult kohused kohtuid kohusest kohuste kohtutes kohustest
+19	619	reegel	reeglid reegleid reegel reeglite reeglit reeglitest reegli reeglitega reeglitele reeglina reeglites reeglist reegliteta reegliks reegliga reeglile reeglil reeglitesse reeglis reeglitel
+20	620	külm	külm külma külmaks külmad külmas külmem külmast külmalt külmemaks külmal külmaga külmana külmade külmi külmale külmadel külmades külmemas külmadest külmadesse
+21	621	lõuna	lõuna lõunat lõunasse lõunale lõunaks lõunas lõunal lõunast lõunani lõunaga lõunaid lõunad lõunalt lõunata lõunate
+22	622	jaa	jaa jaana jaani jaad
+23	623	märk	märk märki märke märku märgi märgid märgiks märgiga märkide märgist märgina märkisid märkidega märgile märkidest märgini märgita märgis märkidele märgil märkides märgised märkidesse märgise märkidel
+24	624	onu	onu onule onuga onud onul onult onust onuks onusid onudele onus
+25	625	äri	äri äris ärist äriga ärile ärisse ärid äril ärisid äriks äride äridest äridega ärides äridesse
+26	626	hävitama	hävitab hävitatud hävitas hävitama hävitasid hävitanud hävitan hävitame hävitavad hävitati hävitad hävitatakse hävitage hävitasin hävitades hävitasime hävitate hävitasite hävitaksid hävitaksin hävitamas hävitamast hävitataks hävitamata hävitaksite hävitaksime hävitamaks hävitata
+27	627	imeline	imeline imelised imelist imelise imeliselt imelisi imeliseks imelisest imeliste imelisele imelisel imelises imelisse imelistest imelisena imelistes imelistele imelisega imelisteni imelisteks
+28	628	kohtama	kohanud kohtasin kohtamas kohtama kohtas kohtad kohtan kohtab kohake kohtasime kohati kohtame kohates kohatud kohtate kohtasite kohtaks kohtavad kohata kohtaksid kohtasid kohakest kohtaksin kohtamata kohtav kohtaksime kohatakse
+29	629	pask	pask paska pasa pasas pasast pasaga pasaks pasale pasad pasal pasata
+30	630	saabuma	saabub saabus saabunud saabusid saabuvad saabusin saabudes saabumas saabuma saabusime saabusite saabume saabuda saabun saabuv saabu saabud saabuks saabute saabuva saabuvat saabuvate saabuvast saabuksid saabuvaid
+31	631	vangla	vanglas vangla vanglasse vanglast vanglat vanglad vanglates vanglaga vanglaid vanglaks vanglatest vanglate vanglani vanglatesse vanglale vanglal vanglana
+32	632	vaenlane	vaenlane vaenlase vaenlased vaenlasi vaenlast vaenlaste vaenlasega vaenlasele vaenlastele vaenlaseks vaenlastega vaenlastest vaenlasest vaenlasteks vaenlasel vaenlaseid vaenlastel vaenlasena vaenlaselt vaenlastena vaenlastelt
+33	633	kuum	kuum kuuma kuumaks kuumad kuumem kuumi kuumas kuumalt kuumade kuumast kuumal kuumale kuumana kuumaga kuumadest kuumadel kuumasid kuumades kuumadele
+34	634	hoopis	hoopis
+35	635	kohutav	kohutav kohutava kohutavaid kohutavas kohutavast kohutavate kohutavasse kohutavaks kohutaval kohutavatest kohutavale kohutavates kohutavateks kohutavatele kohutavana kohutavaga kohutavatel
+36	636	korraldama	korraldada korraldas korraldan korraldab korraldatud korraldame korraldasid korraldama korraldasin korralda korraldanud korraldad korraldavad korraldasime korraldatakse korraldaks korraldasite korraldate korraldati korraldage korraldaksid korraldaksin korraldades korraldaksime korraldamas korraldaksite korraldata
+37	637	vihane	vihane vihaseks vihased vihast vihasena vihase vihaselt vihaseid vihaste vihasem vihasest vihasele vihastena vihasel
+38	638	tähelepanu	tähelepanu tähelepanuta tähelepanust tähelepanuga tähelepanule
+39	639	tavaline	tavaline tavalised tavalise tavalist tavalisest tavalisi tavaliste tavalisel tavalises tavaliseks tavalisele tavalisem tavalistest tavalisse tavalistes tavalistele tavalistel tavalisena tavalisteks tavalisega tavalisemaid tavalistega tavalistesse
+40	640	kinnitama	kinnitan kinnitada kinnitatud kinnitab kinnitas kinnita kinnitage kinnitavad kinnitasid kinnitama kinnitanud kinnitame kinnitad kinnitate kinnitamata kinnitasin kinnitati kinnitaks kinnitatakse kinnitades kinnitasite kinnitaksid kinnitamaks kinnitasime kinnitavat kinnitav kinnitamas kinnitaksite kinnitaksin
+41	641	tükk	tükk tükki tükkideks tüki tükid tükis tükke tükiks tükist tükkidena tükkidest tükiga tükil tükkidega tükkide tükile tükina
+42	642	isand	isand isanda isandad isandat isandale isandate isandaks isandaga isandaid isandatele isandal isandast isandalt isandatega isandata isandatest isandateks isandatel
+43	643	siga	seas siga seast sea sead sigu seani seaks sigade seale sigadega seaga sigadele sigadest sigadel sigadeks seata sigasid
+44	644	vahetama	vahetada vahetama vahetan vahetame vahetas vahetasin vahetasid vaheta vahetanud vahetab vahetad vahetage vahetavad vahetaks vahetasime vahetatud vahetatakse vahetati vahetate vahetaksin vahetades vahetasite vahetaksid vahetaksime vahetamas vahetaksite vahetataks vahetamata vahetatav vahetata vahetamast
+45	645	ehitama	ehitada ehitatud ehitas ehitasid ehitame ehitama ehitati ehitasin ehitanud ehitan ehitab ehitavad ehitasime ehita ehitad ehitatakse ehitades ehitaks ehitasite ehitate ehitage ehitaksid ehitata ehitaksin ehitamas ehitaksime ehitamaks ehitatu ehitataks ehitamata
+46	646	vanduma	vannun vanduda vannu vannud vandus vandusin vandusid vandunud vannub vanduma vannute vannume vandusime vanduge vannuvad vannutatud vandusite vandudes vannuks vandumas vannuksid vannuksin
+47	647	tantsima	tantsida tantsima tantsi tantsime tantsib tantsin tantsid tantsivad tantsimas tantsinud tantsisin tantsisime tantsis tantsisid tantsige tantsides tantsite tantsiks tantsiksid tantsiv tantsitakse tantsiksin tantsisite tantsivat tantsiksite tantsiksime tantsimast tantsiti tantsitud tantsigem tantsimata
+48	648	rutt	ruttu rutt rutuga
+49	649	hirm	hirmu hirm hirmul hirmust hirmuta hirmud hirmuga hirme hirmule hirmudest hirmude hirmudele hirmudega hirmuks hirmudel hirmusid
+50	650	selgitama	selgitada selgitan selgitama selgita selgitab selgitame selgitas selgitage selgitanud selgitaks selgitasin selgitad selgitaksid selgitasid selgitavad selgitate selgitatud selgitaksite selgitaksin selgitatakse selgitades selgitati selgitamaks selgitasime selgitamata selgitamast selgitamas selgitasite selgitav
+51	651	puu	puu puud puid puude puust puudega puudel puusse puuga puudest puus puul puule puult puudele puudli puuks puudelt puudes puudlid puudeni puudesse puudlit puuni puudleid puudeks puudliga puudet puudeta puutega puute puuksu puuda
+52	652	korralik	korralikult korralik korraliku korralikku korralikud korralikke korralikuks korralike korralikust korralikus korralikule korralikum korralikul korralikeks korralikele korralikest
+53	653	juhtum	juhtum juhtumi juhtumit juhtumiga juhtumeid juhtumid juhtumis juhtumite juhtumitega juhtumile juhtumitest juhtumil juhtumiks juhtumilt juhtumitel juhtumitele juhtumites juhtumiteks juhtumina juhtumini
+54	654	kaugele	kaugele kaugemale
+55	655	sõnum	sõnumi sõnum sõnumit sõnumeid sõnumid sõnumiga sõnumite sõnumist sõnumis sõnumitele sõnumile sõnumitest sõnumiks sõnumitega sõnumisse sõnumites sõnumitesse
+56	656	igatsema	igatsen igatsesin igatsema igatsed igatseb igatsesid igatsenud igatse igatseme igatses igatsevad igatsesime igatseda igatsesite igatsete igatseks igatseksin igatsedes igatsetud igatsetakse igatseksid igatseta igatsemas
+57	657	au	au auks auga aust aud auta aule aul ausse
+58	658	boss	boss bossi bossile bossiga bossid bossiks bosse bossil bossilt bossist bossidele bosside bossidega bossina bossidest
+59	659	rumal	rumal rumalad rumalat rumala rumalalt rumalaid rumalaks rumalam rumalana rumalate rumalaim rumalast rumalal rumalatele rumalale rumalamaks rumalatest rumalamat rumalas rumalasse rumalateks rumalatena rumalatel rumalaga
+60	660	nautima	naudi nautida nautige naudin naudid nautisin naudib nautima naudime nautisid nautinud naudite naudivad nautis nauditav naudiks nautisite nautisime nautimas naudiksid nautides naudiksin nautivat nautigem naudiksime naudiksite nauditavaks nauditavat nauditava nautimast
+61	661	seadma	sean seada seatud seab seadnud seadis seadke seadsid seadma seame seadsin sea seavad sead seati seate seadsime seatakse seades seadsite seaksid seaksin seaks seadmas seataks seadmata seadku seaksime
+62	662	veetma	veetsin veetnud veetma veetis veedame veedan veedad veedab veetsime veeta veetsid veeda veedetud veedavad veedate veedaks veetsite veedaksid veetke veetes veedaksin veetmas veedaksime veedaksite veedetakse veetmaks veetmast veetvat
+63	663	hilja	hilja
+64	664	kohv	kohvi kohv kohvile kohviga kohvist kohvisse kohvis kohvid kohvil kohviks kohvita
+65	665	planeet	planeedi planeedil planeet planeedile planeedilt planeeti planeetide planeedid planeete planeedist planeetidel planeetidele planeediga planeetidest planeetidelt planeediks planeetidega planeedini
+66	666	kolonel	kolonel koloneli kolonelile koloneliga kolonelil koloneliks kolonelid kolonelist kolonelilt
+67	667	sündima	sündinud sündis sünnib sündisin sündisid sündida sünnivad sündimata sündigu sündima sünni sündides sündisite sündisime sündimas sünnime sünniks sündinu sünnid sünnin sünnitakse sünnitaks sündiv sünnite sündinuna sündiva
+68	668	idioot	idioot idioodid idiooti idioodiks idioodi idioodist idioote idioodina idiootide idioodiga idiootidest idiootidega idiootidele idioodil idiootideks idioodile idiootidena idiootidel
+69	669	vasak	vasakule vasak vasakul vasaku vasakult vasakut vasakus vasakuga vasemale vasakusse vasakust vasemal vasem vasema vasemat vasemalt vasakud
+70	670	tõde	tõde tõele tõe tõeks tõega tõest tõdesid tõeni tõdede tões tõed tõel tõena tõeta tõesse
+71	671	püsti	püsti
+72	672	jälitama	jälitada jälitab jälitas jälitama jälitanud jälitavad jälitasid jälita jälitad jälitasin jälitame jälitan jälitatakse jälitasime jälitage jälitati jälitate jälitatud jälitaks jälitasite jälitatav jälitamas jälitades jälitamatu jälitata jälitaksid jälitataks jälitav jälitaksin jälitavat jälitatavat jälitaksite
+73	673	näiteks	näiteks
+74	674	üleval	üleval
+75	675	kuhugi	kuhugi
+76	676	uhke	uhke uhked uhkelt uhkeks uhket uhkem uhkeid uhkes uhkete uhkesse uhketes uhkest uhkel uhketest uhkena uhkele
+77	677	nõudma	nõuab nõuan nõudis nõuavad nõuda nõudma nõua nõuad nõuame nõudsid nõutud nõudnud nõuate nõudsin nõutakse nõuaks nõutav nõuti nõudsite nõudev nõudsime nõudmas nõudke nõutavad nõuaksid nõutuks nõuaksin nõudvat nõudmata nõudes
+78	678	kiirustama	kiirusta kiirustage kiirustama kiirustada kiirustame kiirustad kiirustades kiirustasin kiirustan kiirustab kiirustaks kiirustas kiirustasid kiirustavad kiirustate kiirustanud kiirustasime kiirustaksid kiirustav kiirustagem kiirustamata kiirustamas kiirustavat kiirustagu kiirustaksin kiirustaksite kiirustasite kiirustatud
+79	679	sõdur	sõdur sõdurid sõdureid sõdurite sõdurit sõduri sõduritele sõduritega sõduritest sõduriks sõduritel sõdurile sõdurina sõduriga sõdurist sõduril sõduriteks sõduritena sõdurilt sõduritelt sõdureist sõdureil
+80	680	tõestama	tõestada tõestab tõesta tõestama tõestan tõestanud tõestatud tõestas tõestamaks tõestasid tõestavad tõestame tõestaks tõestad tõestage tõestasin tõestasime tõestades tõestate tõestasite tõestaksid tõestamata tõestamas tõestatakse tõestaksin tõestatult tõestati tõestagu tõestata
+81	681	leppima	leppida leppisime leppinud leppima lepi lepitud lepime lepin lepid leppisin leppis lepib leppisid leppige lepivad lepiks leppisite lepite lepitada lepiksin lepiti lepiksid lepiksime leppimast leppides lepitakse leppimas lepiksite
+82	682	kohtumine	kohtumine kohtumist kohtumise kohtumiseni kohtumisele kohtumisest kohtumisel kohtumised kohtumiseks kohtumisi kohtumistel kohtumiste kohtumisega kohtumiselt kohtumistest kohtumistele kohtumises kohtumisteks kohtumistega
+83	683	nägemist	nägemist
+84	684	laulma	laulda laula laulab laulma laulan laulad laulame laulis laulavad laulge laulsid laulmas laulsin lauldes laulnud laulaks laulate laulaksid laulsime lauldud laulaksin laulev lauldakse laulsite laulvad laulva laulaksime lauldi laulvat laulmast laulvaid laulgem laulaksite laulmata
+85	685	õhtusöök	õhtusöök õhtusöögile õhtusöögi õhtusööki õhtusöögiks õhtusöögil õhtusöögiga õhtusöögist õhtusöögid õhtusöögini õhtusööke õhtusöögita õhtusöögilt õhtusöökide õhtusöökidel õhtusöökidele õhtusöögis õhtusöökidest
+86	686	hingama	hinga hingata hingab hingama hingake hingan hingad hingame hingavad hinganud hingas hingaks hingasin hingamas hingates hingav hingate hingasid hingatav hingaksid hingasime hingamast hingatavat hingavat hingamata hingatakse hingava
+87	687	kolmas	kolmas kolmanda kolmandat kolmandal kolmandaks kolmandas kolmandast kolmandale kolmandasse kolmandalt kolmandana kolmandad kolmandaga kolmandate kolmaski kolmandani kolmandatele
+88	688	kindral	kindral kindrali kindralile kindralid kindraliga kindralit kindraliks kindralite kindralil kindraleid kindralilt kindralist kindralitele kindralitega kindralitel kindralina kindralitest
+89	689	emme	emme emmet emmele emmega emmel emmed emmest emmeks emmelt emmede emmesid emmedele emmedega
+90	690	ülejäänud	ülejäänud ülejäänuid ülejäänutega ülejäänutest
+91	691	sitt	sitt sitta sita sitaks sitast sitale sitas sitaga sital sitad sitalt sittade
+92	692	tekkima	tekib tekkis teki tekkinud tekivad tekkisid tekkida tekkima tekiks tekki tekid tekitav tekitaks tekkib tekkimas tekkivad tekkiski tekitavat tekkiv tekibki tekiksid tekkiks tekkivat tekkivaid tekkinudki tekkivate tekkides tekitavate
+93	693	raisk	raisk raisku raisa raisad raisale raisal raisus raisaga raiskadele raiskade raiskadest raisast
+94	694	esitama	esitada esitan esitama esita esitab esitas esitatud esitanud esitasin esitame esitad esitasid esitage esitavad esitatakse esitati esitaks esitamata esitate esitata esitasite esitades esitasime esitaksin esitaksid esitamas esitamast esitaksite esitataks esitaksime esitagu
+95	695	võim	võimu võim võimuses võimust võimud võimule võimude võimudele võimul võimuga võimudega võimest võimus võimult võimes võimudel võimele võimuta võimuks võimudelt võimel võimesse võimeks võimudest võimusse võimusid
+96	696	kolima	kolida kolis kolima kolisin kolin kolime kolisid koli kolisime kolib kolid kolinud kolivad koliks kolite kolisite koliksid kolides koliksin kolinal kolige kolinat kolimas koliksime kolitakse koliti kolitud kolile koliksite koliga kolimast
+97	697	põlema	põlema põleb põlenud põles põlevad põle põled põlen põleda põlesid põlev põlemas põleks põleva põleme põlevast põletaks põlevat põletav põlevasse põlete põlegu põleti põlevate põledes põleksid põlesin põletava põlevas põlevaid põlevana põlege põletavalt põletid põlenuna põlevatest põletavat põletit põleval põlematu
+98	698	süüdistama	süüdistada süüdista süüdistatakse süüdistad süüdistab süüdistan süüdistama süüdistas süüdistati süüdistatud süüdistate süüdistasid süüdistanud süüdistage süüdistaks süüdistasin süüdistame süüdistades süüdistata süüdistaksid süüdistataks süüdistasite süüdistaksin süüdistatu süüdistasime süüdistamata
+99	699	teatama	teatada teatas teatama teatan teata teatab teatage teatati teatanud teatasid teatame teatatud teatasin teatavad teatamata teatatakse teatad teatasite teatate teatavaks teatasime teatades teatamast teatamaks teataksid teataksin teatamas teataksite teatata teataks teatav teatavat
+100	700	laip	laip laiba laipa laibad laipu laipade laibast laibaga laipadega laipadest laipasid laibalt laibal laibale laipadel laipadele laibaks laibana laipadelt laibas laibata laipades laibani

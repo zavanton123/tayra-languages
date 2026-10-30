@@ -1,0 +1,100 @@
+1	7001	vanake	vanake vanakesed vanakeste vanakese vanakest vanakesi vanakesel vanakesele
+2	7002	eelroog	eelroog eelroa eelroaks eelrooga eelroad eelroaga
+3	7003	tramm	trammi tramm trammis trammiga trammel trammid trammist trammile
+4	7004	väärastuma	väärastunud
+5	7005	ülekoormus	ülekoormus ülekoormuse ülekoormust ülekoormusele
+6	7006	tõdema	tõdema tõdeda tõden tõdes
+7	7007	sihitu	sihitud sihitult sihitu
+8	7008	abielumees	abielumees abielumehega abielumehed abielumehe abielumehi abielumeest abielumehena abielumeheks
+9	7009	panek	panek panekuks panekut panekuga paneku panekust panekule
+10	7010	siinviibimine	siinviibimist siinviibimine siinviibimise siinviibimisest
+11	7011	vajaminev	vajaminev vajamineva vajaminevat vajaminevad vajaminevaid vajaminevast
+12	7012	täiendav	täiendavaid täiendav täiendavat täiendava täiendavaks täiendavate
+13	7013	kretiin	kretiin kretiinid kretiini kretiine kretiinist
+14	7014	koodnimi	koodnimi koodnimega koodnime koodnimed koodnimesid
+15	7015	jõuväli	jõuvälja jõuväli jõuväljad jõuväljas jõuväljaga jõuväljast
+16	7016	matemaatiline	matemaatiline matemaatiliselt matemaatilise matemaatilised matemaatilisi matemaatiliste matemaatilist
+17	7017	miki	miki mikile mikita
+18	7018	kiirendi	kiirendi kiirendit kiirendid kiirendiga
+19	7019	messias	messias messia messiast messiat
+20	7020	hambapasta	hambapasta hambapastat hambapastaga
+21	7021	patuoinas	patuoinas patuoinast patuoinaks patuoina patuoinad patuoinana
+22	7022	vereanalüüs	vereanalüüsi vereanalüüs vereanalüüsid vereanalüüse
+23	7023	kark	kargud kark karkudega karkudel karke karguga karkude karkudeta karku
+24	7024	pilkama	pilgata pilkad pilka pilkab pilkavad pilkasid pilkas pilkama pilkate pilganud pilkan
+25	7025	nüri	nüri nüriks nürid nürilt
+26	7026	tervishoid	tervishoiu tervishoid tervishoidu tervishoiule tervishoius tervishoiust
+27	7027	trump	trumpi trumbid trumbi trumpe trumbiks
+28	7028	hakkamine	hakkamist hakkamine hakkamise hakkamisest hakkamiseks
+29	7029	sihukene	sihukest sihukesed sihukese sihukesi
+30	7030	kommuun	kommuuni kommuun kommuunis kommuunist kommuuniga kommuunid
+31	7031	veristama	veristada veristas veristan veristasid veristatud veristama veristati veristavad veristatakse verista veristab veristanud veristad
+32	7032	pärisnimi	pärisnimi pärisnime pärisnimesid
+33	7033	kittel	kitli kittel kitlit kitlis kitlid kitliga kitlites
+34	7034	piht	pihil pihile pihtide piht pihist
+35	7035	poetama	poetada poetanud poetab poetas poetad poetan poetama poetasin poetasid poetavad poetame
+36	7036	luule	luulet luule luulega luules
+37	7037	spordiala	spordiala spordialal spordialaga spordialas spordialade spordialad spordialaks spordialasid spordialale spordialast
+38	7038	kobra	kobra kobrad kobrasid kobraga
+39	7039	suuseks	suuseksi suuseks suuseksiga
+40	7040	sportlik	sportlik sportlikud sportliku sportlikku sportlikum sportlike sportlikke
+41	7041	meeldejääv	meeldejääv meeldejäävaks meeldejäävat meeldejäävad meeldejääva meeldejäävalt
+42	7042	närvisüsteem	närvisüsteemi närvisüsteem närvisüsteemiga närvisüsteemist närvisüsteemis närvisüsteemile
+43	7043	timukas	timukas timuka timukat timukad timukale
+44	7044	kutsumus	kutsumus kutsumuse kutsumust kutsumusest kutsumusega kutsumusele
+45	7045	väljama	väljagi
+46	7046	reid	reidi reidil reidiga reidist reidile reidide
+47	7047	pedofiil	pedofiil pedofiilid pedofiili pedofiile pedofiilide pedofiilist pedofiilidest
+48	7048	eelmäng	eelmäng eelmängu eelmängust eelmänguks eelmänguga
+49	7049	instruktsioon	instruktsioone instruktsioonid instruktsioon instruktsiooni instruktsioonide
+50	7050	telefoniliin	telefoniliinid telefoniliini telefoniliin telefoniliine telefoniliinil telefoniliinide telefoniliinile
+51	7051	osaleja	osalejad osaleja osalejate osalejaid osalejatele
+52	7052	vask	vask vaske vasest vase
+53	7053	barakk	barakki barakist barakk barakis baraki barakkide barakkidesse barakid barakkides
+54	7054	pagar	pagar pagari pagarid pagariks pagarit pagarisse pagariga
+55	7055	käekell	käekell käekella käekellaga käekelli
+56	7056	soomus	soomus soomused soomust soomuse soomustega soomuseid soomusest soomusega
+57	7057	kompromiteerima	kompromiteeritud kompromiteerida kompromiteerivat kompromiteerib kompromiteeriti kompromiteeris kompromiteerisid kompromiteeri kompromiteeriv kompromiteeriks kompromiteerid
+58	7058	immigrant	immigrandid immigrantide immigrante immigrandi immigrandist immigrantidest immigranti immigrantidele
+59	7059	aktsionär	aktsionäride aktsionärid aktsionär aktsionäridele aktsionäre aktsionäridega aktsionäri aktsionäridest
+60	7060	võiduajamine	võiduajamine võiduajamistel võiduajamise võiduajamisel võiduajamist võiduajamisele võiduajamiste võiduajamised võiduajamisi
+61	7061	teadvusekaotus	teadvusekaotus teadvusekaotuse teadvusekaotuste teadvusekaotust teadvusekaotused teadvusekaotuseid teadvusekaotusi teadvusekaotustega teadvusekaotusega
+62	7062	seeläbi	seeläbi
+63	7063	eesistuja	eesistuja eesistujaks eesistujana eesistujaga
+64	7064	elutöö	elutöö elutööd elutööks
+65	7065	tunnistajakaitse	tunnistajakaitse tunnistajakaitsesse tunnistajakaitses tunnistajakaitset
+66	7066	kemps	kempsu kempsus kemps kempsust
+67	7067	haletsus	haletsust haletsusest haletsus haletsusega haletsuse
+68	7068	atentaat	atentaat atentaadi atentaati atentaadist atentaadiga atentaadis atentaate
+69	7069	koonduma	koondunud koonduvad koondub koonduge koonduma koonduda koondusid koondume
+70	7070	erk	ergas erk erksana erksad erguta erksaks erksa erksalt
+71	7071	valjem	valjemaks valjem valjemat
+72	7072	armuelu	armuelu armuelust armuellu armuelus armueluga
+73	7073	lehvima	lehvib lehvimas lehvivad lehvi lehvima lehvis lehvida lehvides lehviks lehvid lehvisid lehvitaks lehvitav
+74	7074	lehk	lehk lehka leha
+75	7075	lekk	lekke leki lekiks lekita lekid lekkisid
+76	7076	stabiilsus	stabiilsust stabiilsus stabiilsuse stabiilsusele stabiilsusest
+77	7077	homaar	homaar homaari homaarid homaare
+78	7078	stabiliseerima	stabiliseerida stabiliseerima stabiliseeritud stabiliseeri stabiliseerime stabiliseerinud stabiliseerin stabiliseerisin stabiliseerib stabiliseerige stabiliseerivad
+79	7079	kuda	kuda
+80	7080	pistrik	pistrik pistriku pistrikud pistrikku pistrike pistrikuga
+81	7081	soosima	soosib soosivad soositud soosinud soosis soosida soosiv
+82	7082	elutähtis	elutähtis elutähtsad elutähtsat elutähtsaid elutähtsa elutähtsate
+83	7083	pesumasin	pesumasin pesumasina pesumasinat pesumasinasse pesumasinas pesumasinast pesumasinad
+84	7084	vedru	vedru vedrud vedruga vedrusid vedrude
+85	7085	kontekst	kontekstis konteksti kontekstist kontekst
+86	7086	sinuvanune	sinuvanune sinuvanused
+87	7087	sümpaatne	sümpaatne sümpaatsed sümpaatse sümpaatset
+88	7088	mürsk	mürsud mürsk mürske mürsu mürskude mürsku mürsuga
+89	7089	tervenisti	tervenisti
+90	7090	ilmtingimata	ilmtingimata
+91	7091	voli	voli
+92	7092	eeldatavasti	eeldatavasti
+93	7093	ärritav	ärritav
+94	7094	suss	sussid sussi sussides sussidesse
+95	7095	tagaaed	tagaaias tagaaeda tagaaed tagaaiast tagaaia
+96	7096	kujuteldav	kujuteldav kujuteldava kujuteldavad kujuteldavast
+97	7097	sardiin	sardiinid sardiine sardiin sardiinidega sardiinide sardiini
+98	7098	veli	velled veljed veli velje
+99	7099	kiirabiauto	kiirabiauto kiirabiautos kiirabiautot kiirabiautosse kiirabiautoga kiirabiautost
+100	7100	kliiniline	kliiniline kliiniliselt kliinilise kliiniliste kliinilisi kliinilises kliinilised kliinilist kliinilisest

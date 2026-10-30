@@ -1,0 +1,100 @@
+1	9801	pallimäng	pallimängu pallimäng pallimängule pallimängud pallimängust
+2	9802	kõnealune	kõnealune kõnealuse kõnealusel kõnealust kõnealusest kõnealuste
+3	9803	kivim	kivimid kivim kivimitest kivimeid kivimi kivimite kivimites kivimist
+4	9804	vahetu	vahetu vahetust vahetut vahetusse
+5	9805	keeks	keeksi keekse keeks keeksid
+6	9806	unetus	unetus unetuse
+7	9807	entusiastlik	entusiastlik entusiastlikult entusiastlikud
+8	9808	residents	residentsi residentsis residentsist
+9	9809	gasell	gasell gaselli gasellid gaselle
+10	9810	asetus	asetus asetuse asetust asetusega asetused
+11	9811	mõjutus	mõjutused mõjutus mõjutusi mõjutuste mõjutustele mõjutustega mõjutuse mõjutusel
+12	9812	riisuma	riisuda riisutud riisunud riisusid riisub riisu riisuma riisud
+13	9813	jessake	jessake
+14	9814	toppama	toppama
+15	9815	jamajutt	jamajutt jamajuttu
+16	9816	peatamine	peatamine peatamisele
+17	9817	kohutavam	kohutavam kohutavamaid
+18	9818	viieaastane	viieaastane viieaastase viieaastasena
+19	9819	küürakas	küürakas küüraka küürakat
+20	9820	valvekord	valvekorra valvekord
+21	9821	must-valge	must-valge must-valgel must-valged
+22	9822	võrkpall	võrkpalli võrkpall võrkpallis
+23	9823	mõnisada	mõnisada mõnesaja
+24	9824	hobujõud	hobujõudu hobujõude hobujõud
+25	9825	eraasi	eraasi eraasjad eraasju eraasjus
+26	9826	hambaniit	hambaniiti hambaniit hambaniidi hambaniidiga
+27	9827	paljastamine	paljastamine paljastamist paljastamisele paljastamisel
+28	9828	tihedus	tihedus tihedust tihedusega tihedusest
+29	9829	kets	ketsid ketse ketsi ketside kets
+30	9830	moskiito	moskiitod moskiito moskiitode moskiitosid
+31	9831	kümnend	kümnendi kümnendil kümnendit kümnendeid kümnend kümnendite
+32	9832	isikukood	isikukood isikukoodi isikukoodid
+33	9833	resolutsioon	resolutsioon resolutsiooni resolutsiooniga
+34	9834	poolfinaal	poolfinaali poolfinaal poolfinaalis poolfinaalid
+35	9835	kollektiiv	kollektiivi kollektiiv kollektiiviga kollektiivis kollektiivist
+36	9836	paljunemine	paljunemise paljunemine paljunemiseks
+37	9837	liikluskaamera	liikluskaamera liikluskaameraid liikluskaamerad liikluskaamerast liikluskaamerate
+38	9838	pärg	pärja pärg pärjad pärga pärgi pärgade
+39	9839	briljant	briljandid briljant briljante briljandi briljantidega briljantide briljanti briljantides
+40	9840	pikutama	pikutada pikutan pikuta pikutama pikutab pikutad pikutavad pikutasin
+41	9841	tribüün	tribüünil tribüünid tribüüni tribüünide tribüünile tribüünidel tribüünilt tribüün
+42	9842	ärasaatmine	ärasaatmine ärasaatmisel ärasaatmise ärasaatmist ärasaatmiseks ärasaatmisele
+43	9843	täisväärtuslik	täisväärtuslikku täisväärtuslik täisväärtusliku täisväärtuslikult täisväärtuslikuks
+44	9844	asjaosaline	asjaosaline asjaosalised asjaosalistele asjaosaliste asjaosalisi asjaosaliseks
+45	9845	simuleerima	simuleeritud simuleerida simuleerib simuleerime simuleerige simuleerides
+46	9846	trühvel	trühvleid trühvlid trühvlitega trühvli trühvel
+47	9847	kõnelus	kõnelused kõnelusi kõnelus kõnelust kõneluse kõnelustest kõnelustega kõneluste
+48	9848	spiraal	spiraali spiraal spiraalis spiraalid
+49	9849	aktiivselt	aktiivselt
+50	9850	hämmastuma	hämmastunud
+51	9851	kümmekond	kümmekond
+52	9852	vahetusraha	vahetusraha
+53	9853	steriilne	steriilne steriilsed steriilseks steriilseid
+54	9854	kitsik	kitsikuses kitsikusest kitsikuse kitsikus
+55	9855	signatuur	signatuur signatuuri signatuurid signatuure
+56	9856	kojamees	kojamehed kojamees kojamehe kojameeste kojamehena
+57	9857	sammal	sammal sammalt sambla samblad samblaga
+58	9858	tuumarünnak	tuumarünnaku tuumarünnak tuumarünnakut tuumarünnakuks tuumarünnakuga tuumarünnakule
+59	9859	molekulaarne	molekulaarne molekulaarse molekulaarset molekulaarsed molekulaarsel
+60	9860	lõunastama	lõunastada lõunastama lõunastab lõunastame lõunastasime lõunastasin
+61	9861	maitseaine	maitseaineid maitseained maitseaine maitseainete maitseainetega
+62	9862	imama	imab imada imavad imav imama imas imanud
+63	9863	poolsaar	poolsaarel poolsaare poolsaar poolsaarele poolsaarelt
+64	9864	tõlkimine	tõlkimine tõlkimist tõlkimiseks tõlkimise tõlkimisel tõlkimisega
+65	9865	mošee	mošee mošees mošeest mošeesse mošeed
+66	9866	üleolek	üleolekut üleolek üleoleku üleolekuga üleolekus üleolekust
+67	9867	päring	päring päringu päringud päringuid päringut päringule
+68	9868	raevuma	raevunud raevuks
+69	9869	kaevamine	kaevamine kaevamisel
+70	9870	saaste	saaste saastet saastest saastega
+71	9871	külmetuma	külmetunud külmetuda külmetud külmetu
+72	9872	antidepressant	antidepressante antidepressandid antidepressantide antidepressantidega antidepressanti
+73	9873	kristlus	kristluse kristlus kristlust kristlusest
+74	9874	peamaja	peamaja peamajas peamajja peamajast
+75	9875	laagriplats	laagriplatsi laagriplats laagriplatsil laagriplatsile laagriplatsilt
+76	9876	kapriis	kapriis kapriiside kapriisi kapriisid kapriise kapriisidele
+77	9877	lahas	lahase lahas lahases lahasesse lahast lahasega
+78	9878	kappama	kappab kappas kappad kappavad kappame kappan kappaks
+79	9879	tikk-takk	tikk-takk
+80	9880	kummalisem	kummalisem
+81	9881	avasüli	avasüli
+82	9882	üheksateist	üheksateist üheksateistkümnes
+83	9883	tulekera	tulekera tulekerad tulekeraks
+84	9884	taskunuga	taskunuga taskunoaga taskunoa
+85	9885	ninamees	ninamees ninamehe ninamehed ninameest
+86	9886	külalislahke	külalislahke külalislahked
+87	9887	vapsik	vapsik vapsiku vapsikut vapsikud
+88	9888	mobiilne	mobiilne mobiilse mobiilsed mobiilset
+89	9889	perekonnaliige	perekonnaliige perekonnaliikmed perekonnaliiget perekonnaliikme perekonnaliikmeks perekonnaliikmeid
+90	9890	eelajalooline	eelajalooline eelajaloolised eelajaloolise eelajaloolist eelajaloolises eelajaloolisest
+91	9891	arendus	arendus arenduse arendust arendusega arendusele
+92	9892	marutaud	marutaud marutaudi marutaudis
+93	9893	kaalumine	kaalumist kaalumisele kaalumiseks kaalumine kaalumise
+94	9894	kaugjuhtimine	kaugjuhtimisega kaugjuhtimise kaugjuhtimine kaugjuhtimisel
+95	9895	autoriseerima	autoriseeritud autoriseerimata autoriseerida autoriseerinud autoriseeriks
+96	9896	kellatorn	kellatorni kellatornis kellatorn kellatornist
+97	9897	negatiiv	negatiivid negatiivi negatiiv negatiive negatiivide
+98	9898	erasektor	erasektoris erasektori erasektorisse erasektor erasektorist
+99	9899	auditoorium	auditooriumis auditooriumi auditoorium auditooriumile auditooriumist
+100	9900	tattnina	tattnina tattninad tattninasid tattninast

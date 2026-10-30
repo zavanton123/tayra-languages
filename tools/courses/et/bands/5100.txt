@@ -1,0 +1,100 @@
+1	5001	mehaanik	mehaanik mehaanikud mehaaniku mehaanikut mehaanikute mehaanikuid mehaanikuks mehaanikule mehaanikuga mehaanikul mehaanikuna
+2	5002	kontaktisik	kontaktisik kontaktisiku kontaktisikuga kontaktisikut kontaktisikud kontaktisikuks kontaktisikule kontaktisikult kontaktisikute
+3	5003	kõrvits	kõrvits kõrvitsa kõrvitsaid kõrvitsad kõrvitsat kõrvitsaks kõrvitsast kõrvitsaga kõrvitsate kõrvitsatest kõrvitsasse
+4	5004	küünarnukk	küünarnukid küünarnukk küünarnuki küünarnukki küünarnukiga küünarnukist küünarnukke küünarnukkidega küünarnukkideni küünarnukil küünarnukile küünarnukini küünarnukkide
+5	5005	tähelepanek	tähelepanek tähelepanekuid tähelepaneku tähelepanekud tähelepanekute tähelepanekut tähelepanekutest
+6	5006	jooga	jooga joogat joogas joogaga joogasse joogast
+7	5007	kategooria	kategooria kategooriasse kategoorias kategooriat kategooriast kategooriad kategooriatesse kategooriates
+8	5008	viinamari	viinamarja viinamarjad viinamarju viinamari viinamarjade viinamarjadest viinamarjadega
+9	5009	elektriline	elektriline elektrilised elektrilise elektrilist elektrilisi elektriliselt elektriliste elektrilisest elektrilises elektriliseks
+10	5010	kärvama	kärva kärvanud kärvad kärvab kärvata kärvake kärvas kärvaks kärvame kärvan kärvaksid kärvama kärvasid kärvavad kärvaku
+11	5011	saladuslik	saladuslik saladusliku saladuslikku saladuslikult saladuslikud saladuslikke saladuslikul saladuslikust saladuslikuks saladuslike
+12	5012	pael	pael paela paelad paelu paelaga paelus paeltega paelte paelteta paeltest
+13	5013	sentimentaalne	sentimentaalne sentimentaalseks sentimentaalse sentimentaalsed sentimentaalset sentimentaalseid sentimentaalselt
+14	5014	kalmistu	kalmistul kalmistu kalmistule kalmistult kalmistud kalmistut kalmistust kalmistuid
+15	5015	vaste	vaste vastet vasteid vasted
+16	5016	süüdistaja	süüdistaja süüdistajad süüdistajaga süüdistajal süüdistajat süüdistajale süüdistajaks süüdistajate
+17	5017	veen	veenid veenides veene veenide veen veenidesse veenist veenidest veenidega
+18	5018	ekstra	ekstra
+19	5019	moto	moto motot motoks
+20	5020	naabrus	naabruses naabrusest naabrus naabrusesse naabruse naabrust naabrusse
+21	5021	ettevaatusabinõu	ettevaatusabinõu ettevaatusabinõud ettevaatusabinõusid ettevaatusabinõuna ettevaatusabinõude ettevaatusabinõudest ettevaatusabinõuks
+22	5022	laboratoorium	laboratoorium laboratooriumi laboratooriumis laboratooriumisse laboratooriumist laboratooriumid laboratooriumit
+23	5023	haavatav	haavatav
+24	5024	gestaapo	gestaapo gestaapost gestaapole gestaapos gestaaposse gestaapol gestaapoga
+25	5025	kihlus	kihlus kihluse kihlusest kihlust
+26	5026	kogumine	kogumine kogumiseks kogumise kogumist kogumisel kogumisest
+27	5027	kabel	kabelis kabel kabeli kabelisse kabelit kabelist
+28	5028	pard	parda
+29	5029	spetsiaalselt	spetsiaalselt
+30	5030	talumatu	talumatu talumatuks talumatult talumatud talumatus talumatut talumatust
+31	5031	kantsler	kantsler kantsleri kantslerile kantslerit kantsleriks kantslerina kantslerid kantsleriga
+32	5032	kapott	kapoti kapott kapotile kapotil kapotti kapotilt
+33	5033	litsuma	litsuda litsun litsu litsutakse litsub litsutud litsud litsus litsunud litsume litsuma litsuvad litsuti litsusin litsuks litsusid litsute
+34	5034	komöödia	komöödia komöödiat komöödiad komöödias komöödiaid komöödiast komöödiaga komöödiaks komöödiale
+35	5035	medõde	medõde medõe medõeks medõed medõega medõdesid medõena medõdede medõest
+36	5036	loominguline	loominguline loomingulist loomingulised loominguliselt loomingulise loominguliseks loomingulisi loomingulises
+37	5037	suremine	suremist suremine
+38	5038	orkester	orkester orkestri orkestris orkestrit orkestrist orkestriga orkestrisse orkestrile
+39	5039	marsruut	marsruuti marsruut marsruudi marsruudil marsruudid marsruudist marsruute marsruudile marsruudilt
+40	5040	temake	temake temakese temakesele temakest temakesega temakesel
+41	5041	hävinema	hävinenud hävines hävineb hävinesid hävinevad hävine hävineda hävineks hävinemas
+42	5042	kanister	kanistrid kanister kanistrit kanistri kanistreid kanistrite kanistritega kanistriga kanistritest kanistris kanistriteni kanistrist
+43	5043	vastuvõetamatu	vastuvõetamatu vastuvõetamatud vastuvõetamatuks
+44	5044	maskeerima	maskeeritud maskeerida maskeerib maskeeris maskeerinud maskeerima maskeerisin maskeerin maskeerisid maskeerivad maskeerime maskeerid
+45	5045	jõuline	jõuline jõuliselt jõulised jõulise jõulist jõulisi
+46	5046	kraanikauss	kraanikausi kraanikaussi kraanikauss kraanikausis kraanikausist kraanikausiga kraanikausid kraanikausil
+47	5047	vemp	vemp vembu vempu vembud vempe vempude
+48	5048	raamatupidamine	raamatupidamist raamatupidamise raamatupidamine raamatupidamises raamatupidamisest raamatupidamisse raamatupidamisega
+49	5049	kuulihaav	kuulihaav kuulihaava kuulihaavaga kuulihaavad kuulihaavu kuulihaavast kuulihaavadega kuulihaavade kuulihaavadest
+50	5050	pikendama	pikendada pikendatud pikendab pikendama pikenda pikendan pikendame pikendades pikendavad pikendad pikendasid pikendati pikendanud pikendaks pikendas pikendatakse
+51	5051	möla	möla mölast mölaga
+52	5052	mõjuvõim	mõjuvõimu mõjuvõim mõjuvõimuga mõjuvõimust
+53	5053	silmapiir	silmapiiril silmapiirilt silmapiiri silmapiir silmapiirile silmapiirini
+54	5054	tripp	tripp trippi tripi tripiga tripile tripil trippe
+55	5055	ununema	ununeb ununenud unune ununes ununema ununevad ununeks ununeda unus ununesid
+56	5056	majahoidja	majahoidja majahoidjat majahoidjale majahoidjaga majahoidjal majahoidjad
+57	5057	iroonia	iroonia irooniat irooniast irooniaga irooniaks
+58	5058	närakas	närakas närakad näraka närakat närakaid närakaga närakast
+59	5059	poos	poos poosi poosis poosiga
+60	5060	sissetungija	sissetungija sissetungijale
+61	5061	aeguma	aegunud aegub aegunuks aeguvad aeguma aegusid
+62	5062	vest	vesti vestid vestiga veste vestist vestil
+63	5063	lohakas	lohakas lohakaks lohakad lohakalt lohakat lohaka
+64	5064	ilge	ilge ilgelt ilged ilget ilgeid ilgem ilges
+65	5065	hormoon	hormoonid hormoone hormoonide hormoonidest hormooni hormoonidega hormoon hormoonides
+66	5066	ametiühing	ametiühingu ametiühing ametiühingud ametiühingute ametiühinguga ametiühingust ametiühingusse ametiühingut ametiühingus ametiühingule aü ametiühinguid ametiühingutega
+67	5067	bioloogia	bioloogia bioloogiat bioloogias bioloogiast bioloogiaga
+68	5068	onn	onni onn onnis onnist onnid onne
+69	5069	tigu	tigu tikku tigusid tigude teoks teod teo tigudega tigudest teolt teos teost teoga teole teol teona teota
+70	5070	sõjaväeline	sõjaväeline sõjaväelise sõjaväelist sõjaväelisi sõjaväelisest sõjaväelised sõjaväeliste sõjaväeliselt sõjaväelises sõjaväelisele
+71	5071	digitaalne	digitaalne digitaalse digitaalselt digitaalset digitaalsed digitaalseid digitaalsele digitaalsesse digitaalses digitaalsest
+72	5072	ujutama	ujutatud ujutada ujutab ujutas ujutavad ujutasid ujutanud ujutatakse ujutame ujutama ujutasin ujutan ujutad ujutati ujutades
+73	5073	lame	lame lameda lamedad lamedaks lamedalt lamedat lamedate lamedaid lamedast
+74	5074	ülehomme	ülehomme
+75	5075	mustkunstnik	mustkunstnik mustkunstniku mustkunstnikud mustkunstnikku mustkunstnikuks mustkunstnike mustkunstnikke mustkunstnikule
+76	5076	hambahari	hambaharja hambahari hambaharjaga hambaharjad hambaharju
+77	5077	ost	ostu ost ostud oste ostuks ostude ostuga ostust ostudega
+78	5078	asjatundja	asjatundja asjatundjad asjatundjate asjatundjat asjatundjatele asjatundjaga asjatundjana asjatundjaid asjatundjaks
+79	5079	häbematu	häbematu häbematult häbematuks häbematut häbematud
+80	5080	hipi	hipi hipid hipide hipisid hipist hipit hipidele hipiks hipidega
+81	5081	naiselik	naiselik naiselikku naiselikud naiseliku naiselikke naiselikult naiselikum naiselike naiselikuks naiselikust naiselikus
+82	5082	unine	unine uniseks unised uniselt unise unisena unist
+83	5083	skoor	skoori skoor skooriga skooris skoorid skoorisid
+84	5084	piki	piki
+85	5085	tundeline	tundeline tundeliseks tundelised tundelist tundelisi tundelise
+86	5086	taju	taju tajud tajus tajust
+87	5087	väärtuslikum	väärtuslikum väärtuslikumad väärtuslikumat väärtuslikuma
+88	5088	protest	protesti protest protestid proteste protestiks protestis protestisid protestist protestidele protestide protestiga protestides protestidest
+89	5089	vanur	vanurid vanurite vanureid vanuritele vanur vanurit vanuritega vanuri vanuritel vanuritest vanurist vanuriga vanuritelt
+90	5090	pooldama	poolda pooldan pooldab pooldavad pooldad pooldas pooldate pooldanud pooldaks pooldame pooldama pooldav pooldasid pooldada
+91	5091	tulirelv	tulirelva tulirelvi tulirelvade tulirelvad tulirelv tulirelvadega tulirelvast tulirelvaga tulirelvadest
+92	5092	igakord	igakord
+93	5093	tugevasti	tugevasti
+94	5094	relvitu	relvitu relvituks relvitud relvitut relvitult relvituid relvituna
+95	5095	kuristik	kuristikku kuristiku kuristik kuristikust kuristikus kuristike kuristikud
+96	5096	kasvatamine	kasvatamine kasvatamiseks kasvatamise kasvatamisega kasvatamist kasvatamisel kasvatamisele kasvatamises
+97	5097	asustama	asustatud asustamata asustada asustama asustavad asustasid asustanud asustati asustame asustab
+98	5098	sviiter	sviiter sviitri sviitrit sviitrid sviitreid sviitriga sviitris sviitrist sviitrite
+99	5099	vanune	vanune
+100	5100	edasi-tagasi	edasi-tagasi

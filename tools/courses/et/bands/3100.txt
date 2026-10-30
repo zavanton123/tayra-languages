@@ -1,0 +1,100 @@
+1	3001	prügikast	prügikasti prügikastist prügikastis prügikast prügikastid prügikaste prügikastide prügikastides prügikastidesse prügikastidest prügikastiga
+2	3002	kuritegevus	kuritegevuse kuritegevus kuritegevusega kuritegevust kuritegevusest kuritegevusele kuritegevuses
+3	3003	pidur	pidurid pidur pidurit pidureid piduri pidurile pidurite piduritele piduritega pidurilt piduritest piduriteta piduriks piduril piduriga
+4	3004	kihv	kihva kihvad kihv kihvadega kihvu kihvade kihvadest kihvasid kihvaga
+5	3005	modell	modell modelli modellid modelliks modelle modelliga modellidega modellide modellina modellidest modellile modellidele modellidel modellideks
+6	3006	keemiline	keemiline keemilise keemilist keemilised keemilisest keemiliselt keemilises keemilisi keemilisse keemiliste keemilistest keemilisel keemiliseks
+7	3007	lohutama	lohutab lohutav lohutada lohutama lohutan lohutas lohutaks lohutavat lohutavad lohutasin lohutad lohutanud lohutamas lohutasid lohutage
+8	3008	ühesugune	ühesugused ühesugune ühesugust ühesuguse ühesuguseid ühesuguseks ühesuguste ühesugusteks
+9	3009	salastama	salastatud salastada salastatuks
+10	3010	poolteist	poolteist pooleteise poolteise pooltteist pooleteiseks poolteiseks
+11	3011	arukas	arukas arukalt arukad arukam arukat aruka arukaks arukaid
+12	3012	pannkook	pannkooke pannkoogid pannkook pannkoogi pannkooki pannkookide pannkookidest pannkookidega pannkoogiks
+13	3013	hinnang	hinnang hinnangu hinnangut hinnangul hinnanguid hinnangud hinnangute hinnanguga hinnangust hinnangus hinnangule hinnanguks hinnangutega hinnangutest hinnangutel
+14	3014	insener	insener insenerid inseneri inseneride insenere inseneriks inseneriga insenerina insenerile inseneridest insenerist inseneril inseneridel inseneridele inseneridega
+15	3015	libahunt	libahunt libahundid libahundi libahuntide libahunte libahunti libahundiks libahuntidest libahundiga libahundist libahuntidega libahundil libahuntidele libahuntideks
+16	3016	igasugu	igasugu
+17	3017	kaksteist	kaksteist kaheteistkümne kaheteist kaheteistkümnes kaheteistkümnest kahteteist kahtteist kaheteistkümneks kaheteistkümneni kaheteistkümnele kaheteistkümnel
+18	3018	levitama	levitada levitab levitama levitavad levitame levitas levitad levitage levitan levitasid levitanud levitatakse levitades levitasin levitaksid levitasime levitatud levitati levitamas
+19	3019	turvavöö	turvavöö turvavööd turvavööga turvavööde turvavöösid turvavöid turvavööta
+20	3020	reamees	reamees reamehed reameeste
+21	3021	lahus	lahus lahust lahusega lahuse lahusesse lahuses
+22	3022	tuum	tuuma tuum tuumani tuumas tuumast tuumaks tuumale tuumaga tuumad
+23	3023	psühhopaat	psühhopaat psühhopaadist psühhopaadi psühhopaadid psühhopaadiga psühhopaati psühhopaadiks psühhopaate psühhopaatide psühhopaatidest psühhopaadile psühhopaadil psühhopaadina psühhopaatidega
+24	3024	veoauto	veoauto veoautot veoautod veoautoga veoautos veoautosid veoautost veoautode veoautosse veoautodega veoautolt veoautole veoautol
+25	3025	inimlik	inimlik inimlikku inimlikult inimlikud inimliku inimlikum inimlikust inimlikke inimlikuks inimlike inimlikus inimlikul inimlikuna inimlikest inimlikule
+26	3026	ihkama	ihkab ihkad ihkavad ihkan ihkas ihka ihkasin ihkate ihkasid ihkama ihkame ihkaks ihatud ihkaksid
+27	3027	pereliige	pereliige pereliikmed pereliikmeid pereliikme pereliikmete pereliiget pereliikmetele pereliikmetega pereliikmena pereliikmeks pereliikmetest pereliikmega pereliikmele
+28	3028	klappima	klapib klapivad klappinud klappis klappima klapime klappisime klappivat klappida klapite klapiksid
+29	3029	kenake	kenake kenakese kenakene kenakesed kenakest kenakeseks
+30	3030	limonaad	limonaadi limonaad limonaadiga limonaadid limonaadist limonaade limonaadis limonaadiks
+31	3031	teave	teavet teave teabe teabele teabega teabest
+32	3032	tiitel	tiitli tiitlit tiitel tiitliga tiitlid tiitlile tiitleid tiitlist tiitlite tiitlitest
+33	3033	sünge	sünge sünged sünget sünges süngeid süngeks süngelt süngel süngele süngest süngete süngesse
+34	3034	kristall	kristall kristalli kristallid kristallist kristalle kristallide kristalliga kristallidest kristallidega kristallides kristallile kristallis
+35	3035	stabiilne	stabiilne stabiilsed stabiilsena stabiilse stabiilses stabiilseks stabiilset stabiilseid stabiilsesse
+36	3036	peaasi	peaasi
+37	3037	joodik	joodik joodikud joodikust joodiku joodikuid joodikut joodikute joodikuga joodikutele joodikuks joodikutest joodikule joodikult joodikuna
+38	3038	ärimees	ärimees ärimehed ärimehe ärimehi ärimeest ärimeeste ärimeheks ärimehena ärimehega ärimehele ärimeestele ärimehest ärimeestega ärimeestest
+39	3039	ülbe	ülbe ülbed ülbeks ülbelt ülbet ülbeid ülbete ülbem ülbena ülbest
+40	3040	kokkusaamine	kokkusaamine kokkusaamise kokkusaamist kokkusaamisele kokkusaamised kokkusaamisel kokkusaamisest kokkusaamisi kokkusaamiseks kokkusaamistel kokkusaamiste kokkusaamisega
+41	3041	orb	orb orvud orvuks orbude orvu orvust orbudele orbe orbu orbusid orvuna orvule orbudeks orbudel orbudega orbudest orbudelt
+42	3042	vabatahtlikult	vabatahtlikult
+43	3043	roog	road roog roo rooga roa roogi roaks roogasid roani roogadega roaga roogadest roast roogade roale
+44	3044	tuline	tuline tuliseks tulist tulise tuliselt tulised tuliste tulistel tulisem tulises
+45	3045	kurbus	kurbust kurbus kurbuse kurbusega kurbusest kurbuses kurbusesse kurbusele
+46	3046	mürgine	mürgine mürgised mürgise mürgiseid mürgiste mürgist mürgisest mürgiseks mürgisem mürgistest mürgisele
+47	3047	kuumus	kuumus kuumust kuumuse kuumuses kuumusest kuumusega kuumusele kuumusel
+48	3048	ööbima	ööbida ööbima ööbin ööbid ööbib ööbime ööbinud ööbis ööbite ööbisin ööbivad ööbi ööbisime ööbisid
+49	3049	lihas	lihased lihaseid lihaste lihas lihase lihastes lihastega lihast lihastesse lihastele lihasele lihasesse lihastest lihasest
+50	3050	värvima	värvida värvima värvin värvime värvisin värvib värvinud värvisime värvivad värviti värvitakse värvige värvite värvimata värvisite värviksin värviksid
+51	3051	põrutama	põrutada põrutame põrutab põrutas põrutan põrutad põrutasin põrutasid põrutanud põrutama põrutage põrutatud põrutasime põrutate põrutaksin
+52	3052	peldik	peldikus peldik peldikusse peldiku peldikust peldikut peldikuid peldikud peldikute peldikuks peldikutes
+53	3053	medal	medali medal medalit medaleid medalid medaliga medalite medalitega medalitest medalile
+54	3054	rokkima	rokime roki rokib rokkima rokkida rokid rokin rokivad rokkis rokkiv rokite rokkisid rokkisime rokkige rokkides rokkinud
+55	3055	muster	muster mustrit mustreid mustri mustrid mustriga mustrist mustrite mustris mustrisse mustriks mustrites mustrile mustritega
+56	3056	hingamine	hingamist hingamine hingamise hingamiseks hingamisel
+57	3057	raporteerima	raporteeri raporteerige raporteerib raporteerida raporteerin raporteerima raporteeris raporteerinud raporteerivad raporteerid raporteerisid raporteerimas raporteeriti raporteeritud raporteerite raporteerime raporteeriks raporteeritakse
+58	3058	luurama	luurad luurab luurata luurama luuras luuranud luurasid luuramas luuran luuravad luura luurame luurasin luuraks luurate luurasite luurates luuraksid luurasime
+59	3059	ahel	ahelad ahelates ahel ahelaid ahelais ahelatesse ahela ahelatest ahelas ahelate ahelaisse ahelaist ahelat ahelatega ahelast ahelasse
+60	3060	narkar	narkar narkarid narkarist narkarit narkari narkareid narkarite narkaritest narkariks narkaritele narkarile narkariga narkarilt narkaritega narkaril
+61	3061	näidis	näidis näidised näidise näidiseid näidist näidiste näidiseks näidistega näidistest näidisega näidisena
+62	3062	kägistama	kägistada kägistas kägistan kägistati kägistatud kägistama kägista kägistab kägistasin kägistanud kägistad kägistasid kägistatakse kägistaks kägistavad kägistades kägistaksin kägistame kägistaksid kägistage
+63	3063	häving	häving hävingut hävingu hävingust hävinguni hävinguga hävingule hävinguks hävingusse hävingus
+64	3064	hoiduma	hoiduda hoidu hoiduge hoiduma hoidub hoidun hoidud hoidusin hoidusid hoidume hoiduvad hoidus hoidunud hoiduks hoiduksid hoidudes hoiduksin
+65	3065	tola	tola tolad tolaks tolaga tolade tolana tolale tolasid toladest toladele tolast
+66	3066	keiser	keiser keisri keisrit keisrile keisriga keisril keisrite keisrid keisriks keisrist
+67	3067	kummitama	kummitab kummitama kummitavad kummitav kummitas kummitanud kummitad kummitada kummitaks kummitan kummitamas kummitavat kummitatakse kummitasid kummitatud
+68	3068	ehe	ehted ehteid ehe ehete ehedat ehet ehetega ehedad ehte ehedam ehetest ehteks eheda ehedalt
+69	3069	vääriline	vääriline väärilised vääriliseks vääriliselt väärilist väärilise väärilisi väärilisena
+70	3070	ränk	rängalt ränk ränka ränga rängad rängem ränkade ränki rängast rängim rängaks
+71	3071	varu	varud varu varude varudest varus varudega varuga varust varudele
+72	3072	pagas	pagas pagasi pagasit pagasiga pagasist pagasis pagasita pagasisse pagasile pagasid
+73	3073	tüdinema	tüdinenud tüdine tüdined tüdinesin tüdineb tüdines tüdinema tüdinesid tüdinen tüdinevad tüdineks tüdineda tüdinesime
+74	3074	arg	ara araks arg arad arust arga argade arus
+75	3075	kogus	koguse koguses kogustes kogusest kogused koguseid kogusega kogus kogustega kogusele kogustest kogusel koguste kogust
+76	3076	tellis	tellis tellise telliseid tellised tellistest tellisega tellist telliste tellistega tellisel
+77	3077	kohtuasi	kohtuasja kohtuasi kohtuasjas kohtuasjaga kohtuasjast kohtuasju kohtuasjad kohtuasjale kohtuasjaks kohtuasjade kohtuasjadega kohtuasjadest
+78	3078	hullumaja	hullumaja hullumajja hullumajas hullumajast hullumajaks
+79	3079	norima	nori norid norida norima norib norisid noris norite norin norisin norinud norige noritakse norime noriks
+80	3080	seniks	seniks
+81	3081	hüüdnimi	hüüdnimi hüüdnime hüüdnimega hüüdnimed hüüdnimesid hüüdnimeks hüüdnimedega hüüdnimede
+82	3082	rekord	rekord rekordi rekordit rekordeid rekordid rekordite rekordist rekordile rekordiga
+83	3083	dinosaurus	dinosaurused dinosaurus dinosauruste dinosauruse dinosauruseid dinosaurust dinosaurustega dinosaurusega dinosaurustest dinosaurustel dinosaurusi dinosauruseks dinosaurustele dinosaurusest dinosaurusele
+84	3084	konkreetne	konkreetset konkreetne konkreetselt konkreetse konkreetsed konkreetseid konkreetsel konkreetsem konkreetses konkreetsele konkreetsest konkreetsesse konkreetsete konkreetsetest konkreetsetele konkreetsega konkreetseks
+85	3085	saast	saast saasta saastaga saastal
+86	3086	pliiats	pliiats pliiatsit pliiatsid pliiatsi pliiatsiga pliiatseid pliiatsitega pliiatsist
+87	3087	armatsema	armatseda armatseme armatsesime armatse armatsema armatsenud armatsen armatsed armatseb armatsesid armatsesin armatsevad armatses armatseks armatsedes armatsemas armatseksid armatsesite armatsete
+88	3088	peni	penni peni penid peniga penil penile penide
+89	3089	delfiin	delfiinid delfiin delfiini delfiinide delfiine delfiinidega delfiinidele delfiinidel delfiiniga delfiinidest delfiinile delfiinil delfiinist delfiiniks
+90	3090	lõhe	lõhe lõhet lõhed lõhesse lõhesid lõhest lõhede lõhes lõhega
+91	3091	raibe	raibe raiped raipe raipeid raibet raipega raibetest raibete
+92	3092	rootsi	rootsi rootsis rootsist rootsisse rootsiga rootsit
+93	3093	pühak	pühak pühakud pühakute pühaku pühakuks pühakut pühakuid pühakust pühakutele pühakutega pühakutest pühakuna pühakule
+94	3094	vaprus	vaprust vaprus vapruse vaprusest vaprusega vaprusele vapruses
+95	3095	volitus	volitusi volitused volitus volitust volituse volitustega volitusel volituste volituseta volitusega volitusteta volitustest
+96	3096	naabruskond	naabruskonnas naabruskond naabruskonna naabruskonda naabruskonnast naabruskonnale naabruskonnaga naabruskonnad
+97	3097	edasine	edasise edasisi edasine edasised edasist edasiste edasiseks edasisest edasisele edasisteks edasises edasistest edasisel edasistele
+98	3098	kirjeldus	kirjeldus kirjelduse kirjeldusele kirjeldust kirjeldusega kirjeldused kirjeldusi kirjeldustele kirjelduste kirjelduses kirjeldustega kirjeldusest
+99	3099	palgamõrvar	palgamõrvar palgamõrvarid palgamõrvari palgamõrvarit palgamõrvarite palgamõrvariks palgamõrvareid palgamõrvariga palgamõrvarile palgamõrvarist palgamõrvarina palgamõrvaritest palgamõrvaritele palgamõrvaril
+100	3100	test	teste testide testist testiga testile testidega testidest testil testidele testidel testideks testina

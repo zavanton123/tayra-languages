@@ -1,0 +1,100 @@
+1	6301	süüalune	süüalune süüaluse süüaluste süüalust süüalused süüalusel süüalusele süüaluseid
+2	6302	autasustama	autasustatud autasustada autasustatakse autasustati autasustab autasustan autasustas autasustavad autasustame
+3	6303	kangesti	kangesti
+4	6304	erutav	erutav erutavalt erutavaid
+5	6305	hilinemine	hilinemise hilinemine hilinemisega
+6	6306	rassistlik	rassistlik rassistliku rassistlikud rassistlikku rassistlikke rassistlikult rassistlike rassistlikuks rassistlikust
+7	6307	kõikuma	kõigub kõikuma kõiguvad kõigu kõikus kõikuda kõikumas kõigud kõikunud
+8	6308	pirn	pirn pirni pirnid pirne pirniga pirnidega
+9	6309	häll	häll hälli hällis hällist hälliks
+10	6310	missa	missa missal missat missale missalt
+11	6311	punastama	punastama punastad punastab punastan punasta punastas punastav punastasin punastasid punastada punastate
+12	6312	käsivars	käsivars käsivarre käsivarred käsivarrel käsivart käsivarde käsivarsi käsivarrest käsivarres käsivarrele käsivartel käsivartele
+13	6313	mehine	mehine mehiselt mehised mehise mehisem mehiseid mehiseks mehist
+14	6314	rebenema	rebenenud rebeneb rebenes rebenevad rebeneda rebenesid rebeneks rebenema
+15	6315	ennustaja	ennustaja ennustajad ennustajat ennustajaid ennustajate ennustajaga ennustajaks
+16	6316	kolmene	kolmene kolmese kolmesed kolmeselt kolmeseid kolmeseks kolmeste
+17	6317	oraakel	oraakel oraakli oraaklit oraakliga oraaklid oraaklil
+18	6318	juhm	juhm juhmid juhmi juhmiks juhmilt
+19	6319	reisimine	reisimine reisimise reisimisega
+20	6320	napp	napp napi napid nappi nappe napasse napas napis nappide napist
+21	6321	röster	röster röstri röstrid röstrit röstreid röstrite röstrisse röstrist
+22	6322	ülemkohus	ülemkohtu ülemkohus ülemkohtus ülemkohtusse ülemkohtule
+23	6323	algoritm	algoritmi algoritm algoritmid algoritme algoritmiga algoritmidest algoritmide algoritmidega
+24	6324	sait	saidi sait saidil saiti saidile saidiga saidilt
+25	6325	põhiseadus	põhiseaduse põhiseadus põhiseadust põhiseadusega põhiseaduses põhiseadusele põhiseadusest
+26	6326	vibukütt	vibukütt vibukütid vibuküti vibukütti vibukütina vibukütiga vibukütte vibukütiks
+27	6327	telefoniraamat	telefoniraamatust telefoniraamat telefoniraamatus telefoniraamatu telefoniraamatut telefoniraamatud telefoniraamatuid
+28	6328	kaigas	kaigas kaikaga kaikaid kaigast kaika kaikad kaigastega
+29	6329	alternatiivne	alternatiivne alternatiivse alternatiivset alternatiivseid alternatiivsed alternatiivses alternatiivsest alternatiivsesse alternatiivsete alternatiivsele
+30	6330	masseerima	masseerida masseerin masseerima masseeri masseerid masseerib masseeriks masseeris masseerige masseerisin masseerime
+31	6331	neliteist	neliteist neljateistkümnes neljateist neljateistkümne
+32	6332	luukere	luukere luukered luukeresid luukeret luukeredest luukerega
+33	6333	rabav	rabav rabava rabavalt rabavaid
+34	6334	paarsada	paarsada paarisaja paarisajast
+35	6335	epideemia	epideemia epideemiat epideemiad epideemiast epideemiaks epideemiaga
+36	6336	kaunistus	kaunistused kaunistus kaunistusi kaunistuseks kaunistustega kaunistuse kaunistuste kaunistust
+37	6337	vahukomm	vahukomme vahukommid vahukommi vahukomm vahukommide vahukommidega vahukommidest
+38	6338	administraator	administraator administraatori administraatorile administraatorit administraatoriga administraatorina administraatorid
+39	6339	auster	austrid austreid auster austrite austri austrit austritega
+40	6340	ohhoo	ohhoo
+41	6341	kõtt	kõtt
+42	6342	külmavereline	külmavereline külmaverelise
+43	6343	üdi	üdini üdi
+44	6344	jultunud	jultunud jultunult
+45	6345	toss	tossud tossu tossude tossusid tossudes tossudega
+46	6346	otsustusvõime	otsustusvõimet otsustusvõime otsustusvõimes otsustusvõimega otsustusvõimele
+47	6347	ravimine	ravimiseks ravimine ravimise ravimisel
+48	6348	tootja	tootja tootjad tootjate tootjat tootjaid tootjalt tootjaga tootjale tootjatelt
+49	6349	hommikumantel	hommikumantel hommikumantli hommikumantlis hommikumantlit hommikumantlid hommikumantleid
+50	6350	kannikas	kannikad kannikaid kannikate kannikas kannika kannikat kannikale kannikasse kannikal kannikatega kannikatele kannikatel
+51	6351	sisene	sisene siseselt sisese sisest
+52	6352	kaastundlik	kaastundlik kaastundliku kaastundlikud kaastundlikku kaastundlikuks kaastundlikult
+53	6353	medaljon	medaljon medaljoni medaljonist medaljonis medaljoniga medaljonid
+54	6354	pangaarve	pangaarve pangaarvele pangaarvet pangaarved pangaarveid pangaarvel pangaarvelt pangaarvete pangaarvetele
+55	6355	kunde	kunde kunded kundesid kundedele kundet kundede kundedega kundedest
+56	6356	tõttama	tõttab tõttad tõttama tõtta tõttan tõtata tõttavad tõttame tõttas tõttasid tõtake tõttamas
+57	6357	lappima	lappida lapime lappima lapin lappis lapivad lapib lappinud lappisin lappisime lappige
+58	6358	neutraalne	neutraalne neutraalseks neutraalse neutraalsesse neutraalses neutraalsel neutraalsed neutraalset neutraalsete neutraalsest neutraalsem neutraalsele
+59	6359	piitsutama	piitsutada piitsutama piitsuta piitsutab piitsutatud piitsutas piitsutad piitsutan piitsutavad piitsutame piitsutatakse piitsutanud piitsutati piitsutasid piitsutades
+60	6360	pearaha	pearaha pearahast
+61	6361	suudlemine	suudlemine suudlemise
+62	6362	pesitsema	pesitseb pesitsevad pesitseda pesitsema pesitsenud pesitsed pesitses pesitsen pesitsesid
+63	6363	känd	kännust känd kännu kändu kändude kännud kände kännule
+64	6364	tagala	tagalas tagalasse tagalat tagala tagalast
+65	6365	noppima	noppida noppis nopi nopib nopitud nopivad noppima noppisin nopitakse nopin nopid nopime noppisid noppinud
+66	6366	viletsus	viletsust viletsus viletsuses viletsuse viletsusest viletsusse
+67	6367	vastutustundlik	vastutustundlik vastutustundlikud vastutustundlikult vastutustundlikku vastutustundliku
+68	6368	litsakas	litsakas litsaka litsakat litsakad litsakaks litsakalt litsakaid
+69	6369	spontaanne	spontaanne spontaanselt spontaansed spontaanse spontaanset spontaanseid
+70	6370	võimukas	võimukas võimukad võimukate võimuka võimukaid võimukana võimukat võimukalt võimukaks
+71	6371	kukkel	kuklid kukkel kukleid kuklit kukli kukliga kuklite
+72	6372	taibukas	taibukas taibukad
+73	6373	ulakas	ulakas ulakad ulakat ulaka ulakaid
+74	6374	petlik	petlik petlikud petlikult petlikku petliku petlike
+75	6375	tots	tots totsi totsid totse totsiga
+76	6376	iiveldus	iiveldus iiveldust iivelduse
+77	6377	akt	akt akti aktiga aktile aktid akte
+78	6378	pesemine	pesemine pesemist pesemise pesemiseks
+79	6379	püüdlema	püüelda püüdlema püüdlen püüdleb püüdlevad püüdle püüdleme püüdled püüdlesid püüdlesin
+80	6380	riidekapp	riidekapp riidekappi riidekapis riidekapi riidekapist
+81	6381	kujund	kujund kujundid kujundeid kujundit kujundi kujundite kujunditeks
+82	6382	kihluma	kihlusid kihlusime kihlusin kihluda kihlunud kihlub kihluma kihlusite kihlume kihluvad kihlud kihlun kihlu
+83	6383	kaardistama	kaardistamata kaardistada kaardistanud kaardistatud kaardistab kaardistas kaardistama kaardistame kaardistasime
+84	6384	poju	poju
+85	6385	irin	irina irinat irinaga irinale
+86	6386	majaomanik	majaomanik majaomaniku majaomanike majaomanikule majaomanikud majaomanikku majaomanikuga
+87	6387	tantsupõrand	tantsupõrandal tantsupõrandale tantsupõrand tantsupõranda tantsupõrandalt tantsupõrandat
+88	6388	silmamuna	silmamunad silmamuna silmamune silmamunade silmamunasse
+89	6389	tähtkuju	tähtkuju tähtkujust tähtkujud tähtkujus tähtkujusid tähtkujude tähtkujudele
+90	6390	kassipoeg	kassipoeg kassipojad kassipoja kassipoega kassipoegi kassipoegade
+91	6391	nurjuma	nurjunud nurjus nurjub nurjusid nurju nurjuda nurjusin nurjuvad nurjuma
+92	6392	tarduma	tardunud tardusin tardus tardusid tardu tarduma tardub tarduvad tarduge tardud
+93	6393	poolaeg	poolaeg poolajal poolaja poolaega poolajaks poolajast
+94	6394	skulptuur	skulptuur skulptuuri skulptuurid skulptuure skulptuuride
+95	6395	entusiasm	entusiasmi entusiasm entusiasmiga entusiasmist
+96	6396	eesuks	eesuksest eesukse eesuks eesust eesuksel eesukseni
+97	6397	vormima	vormida vormitud vorminud vormitu vormivad vormib vormima vormitav vormitakse vormime vormin vormiti
+98	6398	kõiksugu	kõiksugu
+99	6399	sitaratas	sitaratas sitarattad sitaratast
+100	6400	pesukaru	pesukaru pesukarud pesukarusid pesukarude pesukaruga

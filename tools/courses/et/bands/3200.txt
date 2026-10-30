@@ -1,0 +1,100 @@
+1	3101	truu	truu truuks truud truult truum
+2	3102	vets	vetsu vetsus vets vetsust vetsud
+3	3103	kaste	kastet kaste kastmega kastme kastmes kastmesse kastmed kastmeta kastmeid kastega kastmeks kastmete kastmest kastmele kastes
+4	3104	kliinik	kliinikus kliinikusse kliinik kliiniku kliinikust kliinikut kliinikule kliinikuid kliinikuga kliinikud kliinikul kliinikutest
+5	3105	lühida	lühidalt lühem lühemaks lühim lühema lühemad lühemat lühemalt lühima lühemaid lühemate
+6	3106	käimine	käimine käimist käimise käimisest käimiseks käimisega käimised käimisel käimisi käimises käimisele
+7	3107	märgistama	märgistatud märgistamata märgistada märgistab märgista märgistas märgistan märgistanud märgistasid märgistage märgistati märgistasin märgistama märgistame märgistavad märgistad märgistatakse märgistasime märgistasite
+8	3108	norm	normis norm normi normid norme normiks normide normist normidele normile normilt normidega normiga
+9	3109	käekott	käekott käekoti käekotti käekotis käekotist käekotid käekotte käekotiga käekottide
+10	3110	sõltuvus	sõltuvuses sõltuvus sõltuvust sõltuvusse sõltuvuse sõltuvusest sõltuvusega sõltuvusi sõltuvusele sõltuvused sõltuvustest sõltuvuseks
+11	3111	generaator	generaator generaatori generaatorid generaatorit generaatoreid generaatoriga generaatorist generaatorite generaatoril generaatoris generaatoritele generaatorini generaatorile
+12	3112	oks	oksa oksad oks oksi okste okstel oksal oksana oksale okstest oksast oksaga okstega okstele okstes oksalt okstesse
+13	3113	haisev	haisev haisevad haisvad haisva haisvat haisvaid haisvas haisvast haisvasse haisvate haisvaks haisval haisvatest
+14	3114	heroiin	heroiini heroiin heroiiniga heroiinist heroiinile heroiinis heroiiniks
+15	3115	ühing	ühingu ühing ühingust ühingule ühingus ühinguga ühingut ühingusse ühingul ühingud ühingult
+16	3116	vangistama	vangistatud vangistada vangistati vangistas vangistasid vangistanud vangistatakse vangistasin vangistama vangistab vangistasime vangistavad vangistame vangistan vangistasite vangistage vangista vangistades vangistad
+17	3117	kahjustus	kahjustusi kahjustused kahjustuste kahjustus kahjustuse kahjustustest kahjustust kahjustustega kahjustusest kahjustustele
+18	3118	erand	erandi erand erandeid erandit eranditeta erandid erandiks erandiga erandina erandita eranditega
+19	3119	pull	pulli pull pullid pulliga pullile pullil pullide pulle pullist pullidega
+20	3120	vaheaeg	vaheaeg vaheaja vaheaega vaheajal vaheajaks vaheajale vaheajad vaheaegadel vaheaegu vaheajani
+21	3121	rass	rassi rass rasside rasse rassile rassiga rassidest rassil rassidega
+22	3122	seitsmes	seitsmenda seitsmendas seitsmes seitsmendal seitsmendat seitsmendast seitsmendale seitsmendasse seitsmendaks seitsmendalt seitsmendaga seitsmendana
+23	3123	üllas	üllas ülla üllast üllad üllalt üllaid üllal üllaste üllale üllaks
+24	3124	allveelaev	allveelaeva allveelaev allveelaevad allveelaevaga allveelaevale allveelaeval allveelaevade allveelaevu allveelaevalt allveelaevas allveelaevast allveelaevadele allveelaevadest allveelaevadel
+25	3125	sasi	sassi sasi
+26	3126	lugupidamine	lugupidamine lugupidamise lugupidamist lugupidamisega lugupidamisest lugupidamises
+27	3127	vabastamine	vabastamise vabastamist vabastamine vabastamiseks vabastamisest vabastamisele vabastamisel
+28	3128	keskele	keskele
+29	3129	taastuma	taastub taastunud taastuda taastuma taastuvad taastumas taastu taastud taastun taastuks taastuv taastusin taastuvat taastusid
+30	3130	surnuaed	surnuaed surnuaeda surnuaias surnuaial surnuaia surnuaiale surnuaiast surnuaialt surnuaiad surnuaiaks surnuaedades surnuaedade
+31	3131	napilt	napilt
+32	3132	menüü	menüü menüüd menüüs menüüst menüüsse menüüsid menüüga menüüle menüüde
+33	3133	libe	libe libedalt libedad libedaks libeda libedale libedal libedat libedam libedaid
+34	3134	teraapia	teraapia teraapiat teraapias teraapiasse teraapiast teraapiaga teraapiaks teraapiale teraapiaid teraapiana
+35	3135	kinnisvara	kinnisvara kinnisvaraga kinnisvarast kinnisvarale kinnisvaras kinnisvarasse kinnisvaral
+36	3136	käru	käru käruga kärus kärusse kärust kärud kärule kärusid kärul
+37	3137	manipuleerima	manipuleerida manipuleerib manipuleeriv manipuleeris manipuleerid manipuleerisid manipuleeritud manipuleerinud manipuleerivad manipuleerima manipuleeri manipuleeritakse manipuleerisin manipuleerides manipuleeriti manipuleeritav manipuleerivat
+38	3138	kumm	kummi kumm kummid kumme kummita kummiga kummide kummel kummist kummeli kummidesse kummidega kummis
+39	3139	oktoober	oktoober oktoobril oktoobris oktoobri oktoobrist oktoobrit oktoobrini okt oktoobrile oktoobriks
+40	3140	autogramm	autogrammi autogramme autogrammiga autogramm autogrammid autogrammide
+41	3141	kriitiline	kriitiline kriitilises kriitilise kriitiliseks kriitilised kriitilisel kriitilist kriitiliselt kriitilisse kriitiliste kriitilisele kriitilisi kriitilisest
+42	3142	päästja	päästja päästjad päästjat päästjaks päästjaid päästjate päästjana päästjatele päästjatel päästjast päästjale päästjatega päästjateks päästjatest
+43	3143	higistama	higistad higistan higistama higista higistab higistavad higistada higistasin higistas higistanud higistate higistasid higistades higistame higistav higistamas higistaks
+44	3144	sirutama	siruta sirutada sirutage sirutas sirutama sirutan sirutab sirutasin sirutad sirutame sirutavad sirutatud sirutanud sirutades sirutaks sirutamas
+45	3145	vedelik	vedelikku vedelik vedeliku vedelikke vedelikud vedelike vedelikuga vedelikust vedelikus vedelikuks vedelikega vedelikest
+46	3146	kõnelema	kõneleb kõnelda kõneleda kõneles kõnelema kõneled kõnelevad kõnelen kõnelenud kõnelete kõnelesin kõnelemas kõnelesid kõnelge kõnelev kõneleks kõnelnud kõnelesite kõneleva kõneleme kõnelege kõneldes kõnelesime kõnelevat kõneldakse kõnele
+47	3147	sigaret	sigaretti sigaretid sigareti sigaret sigaretiga sigarettidega
+48	3148	pankrot	pankrotti pankrotis pankroti pankrot pankrotist pankrotini
+49	3149	ressurss	ressursse ressursid ressursside ressurss ressurssidega ressurssidest ressurssi ressursi ressurssidele ressursil
+50	3150	sell	selli sellid selliga sellile sellil sellidele sellis selliks sellidest sellina sellidel sellide sellidega
+51	3151	turvakaamera	turvakaamera turvakaamerad turvakaamerate turvakaameraid turvakaamerast turvakaameratest turvakaameratele turvakaamerat turvakaameratega turvakaameratesse turvakaameraga turvakaameras turvakaamerale
+52	3152	anonüümne	anonüümne anonüümse anonüümselt anonüümseks anonüümsed anonüümsete anonüümset anonüümsele anonüümseid anonüümsest anonüümsena anonüümsetes anonüümsel anonüümseteks
+53	3153	õppimine	õppimine õppimist õppimiseks õppimise õppimisega õppimisest õppimisele õppimises õppimisel
+54	3154	rõhk	rõhk rõhu rõhku rõhus rõhuga rõhuta rõhud rõhuks rõhust
+55	3155	nõiduma	nõidus nõiduse nõidust nõidusega nõiduda nõidusest nõidunud nõidused nõiu nõiduses nõiub nõidusid nõiun nõiuti nõidusin nõiduma nõidusele nõiduseks
+56	3156	kiusama	kiusata kiusa kiusab kiusas kiusavad kiusad kiusama kiusasid kiusanud kiusatakse kiusati kiusatud kiusan kiusasin kiusate kiusake kiusaks kiusasite kiusame
+57	3157	lõhkema	lõhkeb lõhkes lõhkevad lõhkenud lõhkema lõhkeda lõhkemas lõhke lõhkesid lõhkeks lõhkemata lõhken lõhkev lõhked
+58	3158	ümbruskond	ümbruskonnas ümbruskonna ümbruskond ümbruskonda ümbruskonnast ümbruskonnaga ümbruskonnale
+59	3159	raiskamine	raiskamine raiskamise raiskamist
+60	3160	politseijaoskond	politseijaoskond politseijaoskonnas politseijaoskonda politseijaoskonnast politseijaoskonna politseijaoskonnaga politseijaoskonnad
+61	3161	televiisor	televiisorit televiisor televiisoris televiisorist televiisori televiisoriga televiisorisse televiisorid televiisorite televiisoreid
+62	3162	nakkus	nakkus nakkuse nakkust nakkuste nakkusest nakkusega nakkusele nakkusi nakkused nakkustega nakkuseid nakkustest
+63	3163	turv	turva turvad turvis turvata turvist turvise turvat turvale turvises turvadele turvaga turvasid turvadest turvised turvana turvade turviseid turviseta turvadega turval turvisega turvadel turvast
+64	3164	rentima	rentida renditud rentis rentisin rendib rendin rentima rendime rentinud rentisime renditi rendite rentige rentisite rendivad renditakse
+65	3165	kirjutamine	kirjutamine kirjutamise kirjutamist kirjutamiseks kirjutamisest kirjutamises kirjutamisel
+66	3166	soojendama	soojendada soojendab soojenda soojendan soojendama soojendame soojendasin soojendas soojendage soojendad soojendavad soojendatud soojendanud soojendav soojendasid soojendaks soojendamas soojendate soojendavat
+67	3167	orbiit	orbiidil orbiidile orbiidilt orbiidi orbiit orbiiti orbiidist orbiidid orbiitidel orbiidiga orbiitide
+68	3168	patrull	patrull patrulli patrulle patrullidele patrullist patrullile patrullil patrullide patrulliga patrullidega patrullidest patrullidel
+69	3169	purk	purki purk purgi purke purgist purkidega purkidest purkides purkide purkidesse purgiga
+70	3170	muuseas	muuseas
+71	3171	mai	mai maini maina mail maid maist maiks mais maile
+72	3172	süli	sülle süles süle sülest süli
+73	3173	bingo	bingo bingot bingos
+74	3174	porter	porter porteri porterit porteriga porterile porterist porteril
+75	3175	varjuma	varjuge varjuda varjuma varjume varjunud varjugi varjuvad varjub varjusin varjun varjute varjusime
+76	3176	metslane	metslased metslane metslaste metslase metslasi metslastega metslast metslasest metslastele metslaseks metslastest metslasteks metslasega metslastel metslasel
+77	3177	telefoninumber	telefoninumber telefoninumbri telefoninumbrit telefoninumbrid telefoninumbreid telefoninumbriga telefoninumbrite telefoninumbrist
+78	3178	mööbel	mööblit mööbel mööbli mööbliga mööblist mööblile mööblil mööblis
+79	3179	nõusolek	nõusolekut nõusoleku nõusolekuta nõusolek nõusolekul nõusolekuna nõusolekuga nõusolekust nõusolekuks
+80	3180	luuk	luuk luugi luugid luuki luugist luuke luugini luugiga luukide
+81	3181	jalutuskäik	jalutuskäik jalutuskäigu jalutuskäigule jalutuskäiku jalutuskäigud jalutuskäike jalutuskäigul jalutuskäiguks jalutuskäigust jalutuskäikudel jalutuskäiguga jalutuskäikudest
+82	3182	seen	seened seeni seen seene seente seenele seentega seentest seent seenel seenega seenest
+83	3183	sahtel	sahtlis sahtel sahtlisse sahtlist sahtli sahtlid sahtlites sahtlit sahtleid sahtlitesse sahtlitest sahtliga
+84	3184	põdema	põe põeb põed põdema põdes põdenud põdeda põen põdege põdesin põdesid põevad põeks
+85	3185	autor	autor autori autoriks autorid autorit autoriga autorile autorite autoreid autorilt autoril autoreis autoritest autorist autorina autoritega
+86	3186	tekst	teksti tekst tekste tekstid tekstiga tekstist tekstis tekstide tekstides tekstidest
+87	3187	hoorapoeg	hoorapoeg hoorapojad hoorapoja hoorapoega hoorapojast hoorapojale hoorapojal
+88	3188	ettevalmistus	ettevalmistusi ettevalmistused ettevalmistus ettevalmistust ettevalmistuse ettevalmistustega ettevalmistuseks ettevalmistusega ettevalmistuseta ettevalmistuste ettevalmistusteks ettevalmistustest ettevalmistusele ettevalmistuses
+89	3189	eine	eine einet eineks eineid eined einele einega einest einete
+90	3190	kalduma	kaldun kaldub kaldunud kaldus kalduvad kalduda kaldume kaldud kaldusin kalduge kalduma kaldusid kaldute kaldusime kalduks
+91	3191	granaat	granaat granaadid granaadi granaate granaati granaadiga granaatidega granaatide granaadist granaadile
+92	3192	lojaalne	lojaalne lojaalsed lojaalseks lojaalseid lojaalse lojaalsete lojaalset lojaalsetele lojaalselt
+93	3193	perekonnanimi	perekonnanimi perekonnanime perekonnanimed perekonnanimega perekonnanimesid perekonnanimeta
+94	3194	tilk	tilk tilka tilkagi tilga tilgad tilku tilgani tilgast tilkasid tilguks tilgaga
+95	3195	süstik	süstik süstiku süstikut süstikuga süstikusse süstikus süstikud süstikust süstikule süstikul süstikute süstikutesse süstikuid
+96	3196	tahvel	tahvel tahvli tahvlit tahvlile tahvlil tahvlid tahvlilt tahvliga tahvleid tahvlist tahvlite
+97	3197	lehvitama	lehvita lehvitab lehvitada lehvitas lehvitan lehvitama lehvitavad lehvitasin lehvitage lehvitad lehvitame lehvitasid lehvitamas lehvitanud lehvitades lehvitaks lehvitate lehvitav
+98	3198	halastus	halastust halastus halastuse halastuseta halastusest halastuses halastuseks halastusele halastusse halastusega
+99	3199	tõrjuma	tõrjuda tõrjub tõrjutud tõrjuma tõrjusid tõrjunud tõrjus tõrju tõrjud tõrjun tõrjuvad tõrjusin tõrjuti tõrjutakse tõrjume tõrjudes tõrjuks tõrjusime tõrjute
+100	3200	kokteil	kokteili kokteil kokteile kokteilid kokteilide kokteiliga kokteilidega kokteilile kokteilis kokteilidest

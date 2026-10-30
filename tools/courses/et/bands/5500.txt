@@ -1,0 +1,100 @@
+1	5401	korsten	korsten korstnasse korstna korstnast korstnas korstnat korstnad korstent korstnaid korstnaga
+2	5402	kuulikindel	kuulikindel kuulikindlad kuulikindla kuulikindlat kuulikindlaks kuulikindlaid kuulikindlate
+3	5403	piinarikas	piinarikas piinarikkalt piinarikast piinarikkad piinarikka piinarikkast piinarikkasse piinarikkaks
+4	5404	spagett	spagette spagetid spagettide spageti spagetti spagettidega
+5	5405	salv	salv salve salves salved salviga salvega salvesid
+6	5406	tõendusmaterjal	tõendusmaterjali tõendusmaterjal tõendusmaterjalid tõendusmaterjale tõendusmaterjalide tõendusmaterjalina tõendusmaterjaliks tõendusmaterjaliga
+7	5407	kohtumispaik	kohtumispaika kohtumispaik kohtumispaigas kohtumispaiga kohtumispaigale kohtumispaigaks
+8	5408	postkaart	postkaardi postkaart postkaarte postkaardid postkaarti postkaardil postkaartide
+9	5409	halvatud	halvatud halvatuna
+10	5410	kopp	kopp kopa
+11	5411	suvila	suvila suvilas suvilasse suvilat suvilast suvilad
+12	5412	mätas	mättasse mätta mätas mätast mättal mättaid
+13	5413	elukutse	elukutse elukutset elukutseks elukutsega elukutselt elukutsele elukutsest elukutsena elukutsed
+14	5414	oie	oigeid oie oiete oige oiged
+15	5415	kramp	kramp krampi krampe krambi krampides krambis krampide
+16	5416	huvituma	huvitub huvituma huvitun huvitunud huvituvad huvituda huvitusid huvituksid huvitusin huvituvat
+17	5417	paarituma	paarituda paaritu paarituvad paarituma paaritub paaritunud paaritud paaritus paaritusid paaritume paaritumas
+18	5418	ilusasti	ilusasti
+19	5419	kandmine	kandmine kandmiseks kandmise kandmisel kandmisest
+20	5420	panemine	panemine panemist panemises panemisel
+21	5421	hüvang	hüvanguks hüvangu hüvang
+22	5422	ootamine	ootamine ootamise ootamisega
+23	5423	eksitama	eksitada eksitas eksitatud eksitanud eksitab eksitasin eksitasid eksitavad eksitan eksitad eksitati eksitama
+24	5424	kahanema	kahaneb kahanenud kahanevad kahanes kahaned kahanema kahane kahanevat kahanedes kahanemas
+25	5425	mõrvarühm	mõrvarühm mõrvarühma mõrvarühmast mõrvarühmas mõrvarühmale mõrvarühmaga
+26	5426	avastamine	avastamist avastamise avastamine avastamiseks avastamisele avastamisel avastamisest
+27	5427	salajas	salajas
+28	5428	hoki	hoki hokit hokist hokis hokiga
+29	5429	identne	identsed identne identset identse identsete identseks identseid
+30	5430	kobe	kobe kobedad kobedat kobeda
+31	5431	õigustatud	õigustatud õigustatult
+32	5432	korravalvur	korravalvur korravalvurid korravalvuri korravalvurit korravalvurite korravalvureid korravalvurile korravalvurist
+33	5433	tervik	tervik tervikuna tervikuks terviku tervikust tervikut
+34	5434	tõendama	tõendab tõendada tõendavat tõendatud tõendavad tõendav tõenda tõendama tõendan tõendamaks tõendamata tõendati
+35	5435	katoliiklane	katoliiklane katoliiklased
+36	5436	kokkupuude	kokkupuude kokkupuudet kokkupuuteid kokkupuutel kokkupuute kokkupuutest kokkupuutes kokkupuuted
+37	5437	ülemjuhataja	ülemjuhataja ülemjuhatajana ülemjuhatajat ülemjuhatajaks ülemjuhatajale ülemjuhatajalt ülemjuhatajaga
+38	5438	omane	omane omased omastele omase omaseid omaselt omaste omasel omaseks
+39	5439	praad	praad praadi praega praest
+40	5440	veebileht	veebilehel veebileht veebilehe veebilehte veebilehele veebilehelt veebilehed veebilehti veebilehest
+41	5441	naissoost	naissoost
+42	5442	kandik	kandikul kandik kandiku kandikut kandikule kandikuga kandikud kandikult kandikuid kandikutel
+43	5443	psüühiline	psüühiline psüühiliselt psüühilise psüühilist psüühilised psüühilisi psüühiliste psüühilises
+44	5444	piinlikkus	piinlikkust piinlikkus piinlikkusest piinlikkuse piinlikkusse piinlikkusega
+45	5445	rõõmsam	rõõmsam rõõmsamaks rõõmsama
+46	5446	udune	udune uduseks udused uduselt uduse udusel
+47	5447	kuuldus	kuuldused kuuldus kuulduste kuuldusi kuuldustest kuuldustel kuulduse
+48	5448	idarannik	idarannikul idaranniku idarannik idarannikule idarannikut idarannikult idarannikust
+49	5449	nuudel	nuudleid nuudlid nuudel nuudli nuudlitega nuudlite nuudlitest
+50	5450	munema	muneb munema munevad muneda munenud munesid munetud munedes munev muned munen
+51	5451	kleepima	kleebitud kleepida kleebi kleebib kleepis kleebin kleepisin kleepima kleebivad kleepisid kleebime kleebid kleepinud kleepige kleepisime kleebitakse
+52	5452	hullusti	hullusti
+53	5453	näitemäng	näitemäng näitemängu näitemängust näitemänguga näitemängus näitemängud
+54	5454	maakler	maakler maakleri maakleriga maaklerid maaklerit maaklerile maaklerina maaklerite maakleriks maaklereid maaklerilt maakleritega
+55	5455	röntgen	röntgen röntgeni röntgenit röntgenisse röntgeniga röntgenis röntgenil
+56	5456	tubakas	tubakat tubakas tubaka tubakast tubakaga
+57	5457	varjend	varjendisse varjend varjendis varjendi varjendit varjenditesse varjendist varjendid varjendeid
+58	5458	rahuvalvaja	rahuvalvajad rahuvalvajate rahuvalvaja rahuvalvajaid rahuvalvajatega rahuvalvajat rahuvalvajatele rahuvalvajatest
+59	5459	rahvahulk	rahvahulk rahvahulga rahvahulka rahvahulgas rahvahulgast rahvahulgad rahvahulgaga rahvahulgale rahvahulki
+60	5460	tuhnima	tuhnida tuhnima tuhninud tuhnisin tuhnis tuhnib tuhni tuhnid tuhnivad tuhnisid tuhnime tuhnige tuhnimas tuhnin tuhnides
+61	5461	koristamine	koristamine koristamise koristamisega koristamisest koristamiseks koristamisel
+62	5462	südamelöök	südamelööke südamelöögid südamelöök südamelöögi südamelööki südamelöökide südamelöögiga
+63	5463	kiirgus	kiirgus kiirguse kiirgust kiirgusele kiirgusest kiirgusega
+64	5464	jagunema	jaguneme jaguneb jagunenud jagunevad jagunege jagunema jagunes jagunesid jaguneda jagunesime
+65	5465	kihvt	kihvt kihvtid kihvti kihvtim
+66	5466	tujukas	tujukas tujukaks tujukad tujuka
+67	5467	harjutamine	harjutamist harjutamine harjutamise
+68	5468	kehaline	kehalise kehaline kehalist kehalises kehalised kehaliselt kehaliste kehalisi kehalisest kehalisse
+69	5469	märter	märter märtri märtriks märtrid märtrit märtrite märtrina märtreid
+70	5470	süsi	sütt süsi söed sütel söe söega süte söeks
+71	5471	eeldus	eeldusel eeldus eeldusi eeldused eelduste eelduseks eeldusega eelduse eeldust eeldusest
+72	5472	nokkima	nokib noki nokkida nokivad nokkima nokid nokkisid nokkis nokin nokkinud nokime nokkimas nokitud
+73	5473	raadiosaatja	raadiosaatja raadiosaatjad
+74	5474	diskreetne	diskreetne diskreetselt diskreetsed diskreetseks diskreetset diskreetse
+75	5475	luuraja	luuraja luurajad luurajate luurajat luurajaid luurajatele luurajaga
+76	5476	koolitus	koolitus koolitust koolituse koolitusel koolitusele koolituseks koolitusega koolitusest
+77	5477	täiustama	täiustada täiustanud täiustasin täiustab täiustama täiustame täiustas täiustan täiustad täiustasime täiustavad täiusta täiustasid täiustades täiustati
+78	5478	tšempion	tšempion tšempioni tšempionid tšempionit tšempioniks tšempioniga tšempionite tšempioniteks tšempionide tšempioneid
+79	5479	hajutama	hajutada hajutatud hajutab hajutas hajutama hajutan hajutavad hajutame hajutad hajutanud hajutasid hajutage hajutades
+80	5480	titaan	titaan titaanist titaani titaanid titaanide titaanil titaane titaanidele
+81	5481	dee	dee
+82	5482	mälupulk	mälupulk mälupulga mälupulgal mälupulka mälupulgale mälupulgad mälupulgast
+83	5483	koorima	koorida kooritud koorin koorima koorib koorivad koorime koorinud koorisin kooritakse koorige kooriv
+84	5484	ohjama	ohjad ohjata ohjama ohjasid ohjas ohjanud ohja
+85	5485	riskeerima	riskeerida riskeerima riskeeri riskeerin riskeerime riskeerib riskeerid riskeerisid riskeerides riskeeris riskeerisin riskeerimata riskeerite riskeerivad
+86	5486	latt	latte lati latti latt latid
+87	5487	alatasa	alatasa
+88	5488	liikvele	liikvele
+89	5489	pääsetee	pääsetee pääseteed pääseteeks
+90	5490	talitsema	talitse talitseda talitsema talitsege talitseb
+91	5491	päikesevalgus	päikesevalgus päikesevalgust päikesevalguse päikesevalguses päikesevalgusest päikesevalgusega
+92	5492	arutlema	arutleda arutleme arutlema arutle arutles arutledes arutlenud arutlesin arutlesime arutled arutlen arutleb arutlevad arutlesid arutletud arutlete
+93	5493	ehitaja	ehitaja ehitajad ehitajate ehitajaid ehitajat ehitajaks ehitajaga
+94	5494	maksmine	maksmist maksmise maksmine maksmisest maksmisel
+95	5495	paranoia	paranoia paranoiat paranoiast paranoiaga paranoiaks paranoiad
+96	5496	sai	saia saiad saiu saiaga saiale saiade saiata
+97	5497	automaatvastaja	automaatvastaja automaatvastajasse automaatvastajale automaatvastajat automaatvastajas automaatvastajal automaatvastajaga automaatvastajast
+98	5498	taguots	taguotsa taguots taguotsaga taguotsad taguotsast taguotsale taguotsi taguotsas
+99	5499	maastur	maastur maasturi maasturit maasturiga maasturis maasturisse maasturist maasturid maastureid
+100	5500	hingeline	hingeline hingelist hingelise hingelistki hingeliselt hingelised hingelisest hingelisele hingelisi hingelisel

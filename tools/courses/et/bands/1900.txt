@@ -1,0 +1,100 @@
+1	1801	ai	ai
+2	1802	juhtimine	juhtimise juhtimine juhtimisel juhtimist juhtimiseks juhtimisest juhtimisega juhtimisele juhtimises juhtimiseta juhtimisse
+3	1803	risk	riski riske riskiga riskist riskidest riskide riskile riskidega riskil riskidele
+4	1804	bassein	basseini bassein basseinis basseinist basseinid basseiniga basseine basseinides basseinide basseinidest
+5	1805	sõrmejälg	sõrmejäljed sõrmejälgi sõrmejälg sõrmejälgede sõrmejälje sõrmejälge sõrmejälgedega sõrmejälgedele sõrmejälgedest sõrmejäljele sõrmejäljega sõrmejäljest
+6	1806	peegel	peeglisse peegel peegli peeglist peeglid peeglit peeglis peegleid peeglite peegliga peeglile peeglitega peeglitest peeglil peegliks peeglites peeglilt
+7	1807	vahepeal	vahepeal
+8	1808	aamen	aamen
+9	1809	julm	julm julmalt julmad julma julmem julmaks julmi julmas julmade julmast julmal
+10	1810	sünd	sündi sündisid sünnist sünd sünni sünnis sündides sünniks sünnid sündsalt sünnini sünnita sünnilt sünniga sünnil sünnile sündsa sündide sündsad sünde
+11	1811	imeilus	imeilus imeilusad imeilusa imeilusat imeilusaid imeilusas imeilusate imeilusaks imeilusast imeilusale imeilusasse imeilusalt imeilusal
+12	1812	spioon	spioon spioonid spiooni spiooniks spioone spioonide spioonina spiooniga spioonidest spioonile spioonist spioonideks spioonidega spioonidele spioonidena spioonil
+13	1813	uuring	uuringud uuring uuringu uuringuid uuringute uuringut uuringutele uuringutega uuringus uuringutest uuringuteks uuringutes uuringule uuringust uuringuga uuringutel uuringul uuringuks uuringutesse
+14	1814	väljakutse	väljakutse väljakutset väljakutseid väljakutsed väljakutseks väljakutsele väljakutsega väljakutsest väljakutsetega väljakutsetele väljakutsete väljakutsel väljakutsena väljakutseteks väljakutsetest väljakutses
+15	1815	putukas	putukad putukas putukaid putuka putukate putukat putukatest putukatega putukatel putukatele putukale putukaga putukaks putukal putukast
+16	1816	mängija	mängija mängijad mängijat mängijaid mängijate mängijale mängijatele mängijaga mängijatega mängijal mängijatest mängijaks mängijast mängijatel mängijana mängijalt mängijas
+17	1817	hüüdma	hüüdis hüüab hüütakse hüüa hüüda hüüavad hüüdsin hüüan hüüdsid hüüdma hüüti hüüdke hüüad hüüame hüüdmas hüüdes hüüdnud hüüaks hüüdsime hüüta hüüate hüütud hüütaks hüüdku hüüdsite hüüdvat
+18	1818	kuningriik	kuningriigi kuningriik kuningriiki kuningriigis kuningriigist kuningriigile kuningriigid kuningriigiga kuningriikide kuningriike kuningriigiks
+19	1819	siinne	siinne siinsed siinse siinset siinseid siinsete siinses siinsest siinsetest siinsetel siinsetele siinsel siinsele siinsetes siinsesse siinsega siinseks siinsetesse siinsetega
+20	1820	kurt	kurt kurdiks kurdid kurti kurdi kurtide kurtidele kurdina kurdist kurte
+21	1821	kindlustama	kindlustada kindlustage kindlustama kindlustab kindlustan kindlusta kindlustamaks kindlustame kindlustas kindlustavad kindlustanud kindlustasin kindlustasid kindlustaks kindlustades kindlustad kindlustamata kindlustate kindlustaksid kindlustaksin kindlustasime kindlustatakse
+22	1822	kasutu	kasutu kasutud kasutuks kasutut kasutuna kasutult kasutuid kasutute kasututeks kasutule
+23	1823	vaikima	vaikida vaikima vaiki vaikib vaikid vaikides vaikiv vaikin vaikivad vaikige vaikigu vaikis vaikinud vaikisid vaikime vaikite vaikisin vaikiva vaikiksid vaikiks vaikiksin vaikiti vaikitud vaikivat vaikisite
+24	1824	nägemus	nägemus nägemused nägemusi nägemust nägemuse nägemuses nägemuste nägemusest nägemustest nägemustes nägemustega nägemusega nägemustel nägemusele nägemuseks
+25	1825	luuser	luuser luuserid luuseriks luuseri luuserite luusereid luuseriga luuserist luuserit luuseritega luuseritele luuseritest luuserina luuseriteks luuserile
+26	1826	proov	proovile proov proove proovide proovist prooviga proovidega proovidest proovil proovidele proovidel proovidesse
+27	1827	võrk	võrku võrk võrgu võrgus võrgust võrgud võrguga võrguta võrke võrgule võrkudesse võrkudega võrkudest võrkude võrgul võrkudes
+28	1828	vähk	vähk vähki vähi vähiga vähist vähid väheks vähile vähke vähkide vähest vähil vähiks
+29	1829	reklaam	reklaami reklaam reklaame reklaamid reklaamis reklaamist reklaamides reklaamide reklaamiga reklaamiks reklaamile reklaamidest reklaamidega reklaamil reklaamidele reklaamideta reklaamisid
+30	1830	niikuinii	niikuinii
+31	1831	vägivald	vägivald vägivalda vägivalla vägivallaga vägivallast vägivallale vägivallata vägivallaks vägivallas vägivallani vägivallal
+32	1832	ebatavaline	ebatavaline ebatavalist ebatavaliselt ebatavalised ebatavalise ebatavalisi ebatavalisest ebatavaliste ebatavalisel ebatavaliseks ebatavalises ebatavalistest ebatavalisele
+33	1833	kehv	kehv kehva kehvad kehvas kehvalt kehvaks kehvast kehvade kehvi kehval kehvale kehvades kehvadest
+34	1834	tahtmine	tahtmist tahtmine tahtmise tahtmised tahtmisest tahtmisi tahtmisega tahtmises tahtmiste tahtmisele tahtmistest tahtmisel tahtmiseks tahtmistes
+35	1835	paanika	paanikasse paanika paanikas paanikat paanikata paanikaks paanikast paanikaga paanikale
+36	1836	peatus	peatus peatuse peatust peatuses peatusi peatused peatusest peatusesse peatusteta peatuseks peatuseid peatuseta peatuseni peatustest peatustega peatusse peatusega
+37	1837	suudlus	suudlus suudluse suudlust suudlusega suudlusest suudlused suudlusi suudluseks suudluses suudlustega suudlusele suudluseta suudluste suudluseid suudlustest suudluseni suudlusel
+38	1838	loits	loitsu loits loitsud loitse loitsuga loitsude loitsust loitsudega loitsudest loitsule loitsul loitsusid loitsus loitsuks
+39	1839	stiil	stiil stiilis stiili stiiliga stiilist stiile stiilid stiilile stiilil
+40	1840	artikkel	artikkel artiklit artikli artikleid artiklis artiklid artiklist artiklite artiklile artiklitest artikliga artiklisse artiklites artiklitele artiklitega
+41	1841	võrratu	võrratu võrratud võrratult võrratut võrratuid võrratuks võrratule võrratul
+42	1842	loomulik	loomulik loomulikku loomuliku loomulikud loomulikul loomulikke loomulikus loomulikust loomulikum loomulikuna loomulikuks loomulike loomulikel loomulikule loomulikest
+43	1843	pahandama	pahanda pahandada pahandaks pahandad pahandab pahandage pahandas pahandanud pahandama pahandasin pahandan pahandasid pahandavad pahandate pahandaksid
+44	1844	võlur	võlur võluri võlurid võlurite võlurit võluriks võluriga võlureid võlurile võlurist võluritest võluril võluritele võluritega võlurilt võlurina
+45	1845	lai	lai laiaks laia laialt laiad laias laiem laius laiemat laiade laiemaks laiema laiemad laiemas laiust laiemale laial laiale laiata laiu laiast laiasid
+46	1846	vallutama	vallutada vallutanud vallutas vallutasid vallutama vallutame vallutatud vallutab vallutavad valluta vallutan vallutati vallutamatu vallutasime vallutasin vallutatakse vallutage vallutad vallutaks vallutades vallutamas vallutamast vallutamata vallutate vallutasite
+47	1847	lõplik	lõplikult lõplik lõpliku lõplikku lõplikud lõplikuks lõplikust lõplikke lõplikule lõplikus
+48	1848	õppetund	õppetunni õppetund õppetundi õppetunnid õppetunniks õppetunde õppetunnist õppetundidest õppetundide õppetunniga õppetundidega
+49	1849	lamama	lamab lama lamas lamada lamasin lamades laman lamama lamad lamamas lamavad lamasid lamanud lamage lamame lamaks lamav lamasime lamaksid lamate lamaksin
+50	1850	nälg	nälga nälg näljas nälja nälgi näljast näljaga näljale
+51	1851	möödunud	möödunud möödunu möödunut möödunust
+52	1852	lollakas	lollakas lollakad lollaka lollakat lollakaid lollakate lollakalt lollakale lollakaks lollakal lollakast lollakasse lollakatest
+53	1853	avaldus	avalduse avaldus avaldust avaldusega avaldused avaldusi avalduses avaldusele avalduste avaldusest avaldustega avaldusel avaldusena avalduseks
+54	1854	järjekord	järjekorras järjekorda järjekord järjekorra järjekorrad järjekorrast järjekordi järjekordades järjekorraga
+55	1855	intervjuu	intervjuu intervjuud intervjuusid intervjuule intervjuus intervjuuga intervjuuks intervjuul intervjuust intervjuude intervjuudega intervjuudes intervjuudest
+56	1856	raputama	raputada raputa raputas raputab raputama raputame raputan raputasime raputasid raputasin raputage raputad raputatud raputanud raputavad raputaks raputav raputades raputatakse raputamas raputate raputati
+57	1857	testima	testid testida testin testima testime testitud testinud testisin testib testisime testivad testitakse testiti testimata testige testite testimaks testimas testisite
+58	1858	meenuma	meenub meenus meenu meenuma meenuvad meenuks meenusid meenutaks meenunud meenuda meenud meenutav meenutava meenutavat
+59	1859	taim	taimed taim taimi taime taimede taimedest taimedega taimedel taimedele taimest taimele taimega taimelt taimel taimeks taimedes
+60	1860	protsent	protsenti protsendi protsent protsendiga protsendist protsendid protsendil protsendile protsente protsendini protsentidega protsendilt
+61	1861	müük	müügiks müük müüki müügi müügis müügil müügist müügiga müügile müügid müügilt
+62	1862	saati	saati
+63	1863	alkohol	alkoholi alkohol alkoholiga alkoholist alkoholita alkoholile alkoholis
+64	1864	taoline	taolist taoline taolise taolisi taolised taoliste taolisest taolises taolisega taoliseks taolistest taolisel taolistes taolisele taolistel taolisesse taolistele
+65	1865	fail	failid faili faile failide failidele failides failidest failis failidesse failist failidega failiga failile
+66	1866	ärkvel	ärkvel
+67	1867	kino	kinno kinos kino kinost kinodes kinod kinoga kinodesse kinosid kinoks
+68	1868	haavatud	haavatud haavatuid haavatute haavatu haavatuna haavatutena
+69	1869	seisund	seisund seisundis seisundit seisundi seisundist seisundisse seisundile seisundiga seisundid seisundeid seisundiks
+70	1870	sõprus	sõprus sõpruse sõprust sõprusest sõpruses sõprusega sõprusele sõprusel sõpruseks sõprusesse sõprused
+71	1871	elanik	elanikud elanike elanikke elanik elanikele elanikest elanikku elanikega elanikel elaniku elanikuga elanikule elanikuks elanikelt elanikust elanikul elanikult elanikuna
+72	1872	prillid	prillid prille prillidega prillide prillideta prillidest prillides prillidel prillidele
+73	1873	kuulsus	kuulsus kuulsust kuulsuse kuulsuste kuulsused kuulsusega kuulsusest kuulsusi kuulsustega kuulsustest kuulsuseks kuulsusele kuulsustele kuulsuseid kuulsuses kuulsusesse
+74	1874	saabas	saapad saapaid saabas saapa saabastega saabaste saabastes saabast saapaga saapas saabastesse saapast saabastest saabasteta saapasse saabastele saabastel saabastelt saapal
+75	1875	raamatukogu	raamatukogu raamatukogus raamatukokku raamatukogust raamatukogule raamatukogusse raamatukogud raamatukogusid raamatukoguga raamatukogudes raamatukogude raamatukoguni
+76	1876	võte	võte võtted võtteid võtet võtte võttes võtetel võtete võttega võtetele võtetega võtteks võteteks võtetest võttele võtetelt võttelt võttest
+77	1877	püstol	püstol püstoli püstolit püstoliga püstolid püstolist püstoleid püstolitega püstolite püstolis püstolitest püstolisse püstolil püstolile
+78	1878	neljas	neljanda neljas neljandal neljandat neljandas neljandaks neljandale neljandast neljandasse neljandalt neljandana neljandad
+79	1879	üha	üha
+80	1880	elekter	elektrit elekter elektri elektriga elektrita elektrist
+81	1881	kolleeg	kolleeg kolleegid kolleegi kolleegidega kolleegide kolleegiga kolleege kolleegidele kolleegile kolleegidest kolleegil kolleegidel kolleegilt kolleegidelt kolleegist kolleegina
+82	1882	musi	musi musita musid musisid mussi musiga musiks
+83	1883	sooritama	sooritas sooritanud sooritada sooritatud sooritama sooritab sooritasid sooritasin sooritavad sooritati sooritan sooritad sooritame sooritamas sooritasite sooritatakse sooritage sooritaks sooritate sooritasime sooritades sooritaksid
+84	1884	ülem	ülem ülema ülemale ülemaks ülemat ülemaga ülemad ülemana ülemalt ülemal ülematele ülemaid ülemate ülemast
+85	1885	rahvusvaheline	rahvusvaheline rahvusvahelise rahvusvahelist rahvusvahelised rahvusvaheliste rahvusvahelises rahvusvaheliselt rahvusvahelisest rahvusvahelisse rahvusvahelisele rahvusvahelisi rahvusvahelisel rahvusvahelistes rahvusvahelistele rahvusvaheliseks rahvusvahelistel rahvusvahelistesse rahvusvahelistest rahvusvahelisteks
+86	1886	rahakott	rahakott rahakoti rahakotti rahakotis rahakotid rahakotist rahakotiga rahakotte rahakotile rahakotil rahakotita
+87	1887	kuramus	kuramuse kuramus kuramust
+88	1888	hävima	hävita hävinud hävitaks hävis hävib hävitav hävimatu hävisid hävivad hävitava hävida hävimas hävitavalt hävitavat hävitavaks hävi hävitavate häviks hävima hävitavaid hävime hävin hävitavast
+89	1889	varandus	varanduse varandus varandust varandusest varandusega varandusi varandused varandusele varanduste varanduseks
+90	1890	tugi	toeks toeta tuge tugi toel toe toed toega tugesid toest toes toele
+91	1891	elamine	elamine elamist elamiseks elamise elamisest elamisse elamises elamisega elamisel elamisele
+92	1892	küpsetama	küpsetada küpsetatud küpsetan küpsetab küpsetama küpsetasin küpsetas küpsetame küpsetad küpsetasid küpsetanud küpsetavad küpsetasime küpsetatakse küpsetamas küpsetate küpsetaksid küpsetage küpsetaksin küpsetati küpsetasite küpsetades
+93	1893	andestus	andestust andestus andestuse andestusest andestusega andestusele
+94	1894	kõla	kõla kõlad kõlaks kõlasid kõlaga
+95	1895	toetus	toetust toetuse toetus toetuseks toetuseta toetusega toetusest toetused toetusele toetusel toetusi toetuste
+96	1896	vigastama	vigastada vigastas vigastamata vigastanud vigastasin vigastasid vigasta vigastatuid vigastab vigastad vigastaks vigastatut vigastatute vigastage vigastama vigastan vigastades vigastatuna vigastavad vigastasite vigastati vigastate vigastaksid vigastasime vigastatakse
+97	1897	niikaua	niikaua
+98	1898	viitama	viitab viitavad viita viitad viitas viidata viitaks viitasid viidates viitate viitan viitasin viidanud viidatakse viitama viidati viitavat viitame viitav viitaksid viidatud
+99	1899	kiskuma	kisub kiskuda kiskus kisun kiskuma kisuvad kistud kiskusid kiskunud kisti kistakse kisume kiskusin kiskuge kisute kista kisuksid kisutud kiskumas kisutakse kisuksin kiskusite kiskusime
+100	1900	moodus	moodus mooduse moodust mooduseid moodused moodusel mooduseks moodustel moodusi

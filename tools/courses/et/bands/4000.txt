@@ -1,0 +1,100 @@
+1	3901	hübriid	hübriid hübriidid hübriidi hübriide hübriidide hübriididega hübriidiks hübriididest hübriidiga hübriidist
+2	3902	riba	ribadeks riba ribad ribasid
+3	3903	afäär	afäär afääri afäärist afäärid afääre afääridesse afääride afääridest afääris afääriga
+4	3904	rahvus	rahvus rahvuse rahvusest rahvust rahvuste rahvused rahvusele rahvuselt rahvusi rahvustest rahvusena rahvuses rahvuseid rahvusel
+5	3905	kaubamaja	kaubamaja kaubamajas kaubamajja kaubamajast kaubamajades kaubamajad kaubamajade kaubamaju
+6	3906	mobiiltelefon	mobiiltelefon mobiiltelefoni mobiiltelefonid mobiiltelefone mobiiltelefoniga mobiiltelefonile mobiiltelefonide mobiiltelefonist mobiiltelefonilt mobiiltelefonidele
+7	3907	väljanägemine	väljanägemisega väljanägemine väljanägemise väljanägemist väljanägemisest väljanägemises väljanägemiselt väljanägemisel
+8	3908	kõvaketas	kõvaketas kõvaketta kõvakettal kõvakettalt kõvakettad kõvaketast kõvakettale kõvakettaid kõvakettaga kõvakettast kõvaketaste kõvaketastelt kõvakettas
+9	3909	dramaatiline	dramaatiline dramaatiliselt dramaatilist dramaatilise dramaatilised dramaatiliseks dramaatilisi dramaatilisel dramaatiliste
+10	3910	preemia	preemia preemiat preemiaks preemiad preemiaid preemiast preemiaga preemiale preemiate
+11	3911	usklik	usklik usklikud usklikuks usklike usklikke uskliku usklikele usklikku usklikuna usklikeks
+12	3912	efektiivne	efektiivne efektiivsem efektiivselt efektiivsed efektiivsemalt efektiivseks efektiivse efektiivsemad efektiivsemaks efektiivseid efektiivset
+13	3913	oksjon	oksjonil oksjon oksjonile oksjoni oksjonilt oksjonit oksjonid oksjonitel oksjonist oksjoniga oksjoniks
+14	3914	väljamõeldis	väljamõeldis väljamõeldised väljamõeldisi väljamõeldisest väljamõeldistest väljamõeldiseks väljamõeldise väljamõeldiste väljamõeldist väljamõeldisena
+15	3915	solvang	solvang solvanguid solvangut solvangud solvanguna solvangu solvangute solvanguks solvangutest solvangutega solvangule solvanguta solvanguga
+16	3916	magamine	magamise magamine magamiseks magamisest
+17	3917	üksindus	üksindust üksindus üksinduses üksinduse üksindusest üksindusse üksindusega üksindusele
+18	3918	valetamine	valetamine valetamist valetamises
+19	3919	mahajäetud	mahajäetud mahajäetuna mahajäetult
+20	3920	pingeline	pingeline pingelised pingeliseks pingelises pingelist pingelise pingeliselt pingelisi pingelistes pingelisel
+21	3921	murelik	murelik murelikuks murelikud mureliku murelikult murelikuna murelike murelikke murelikku
+22	3922	pabistama	pabista pabistad pabistan pabistada pabistama pabistage pabistab pabistasin pabistate pabistavad pabistasid
+23	3923	sellegipoolest	sellegipoolest
+24	3924	lunaraha	lunaraha lunarahast lunarahaks lunarahaga
+25	3925	eriala	eriala erialaks erialal erialast erialale erialad erialalt
+26	3926	ebakindel	ebakindel ebakindlad ebakindlalt ebakindlaks ebakindla ebakindlana ebakindlam ebakindlat ebakindlas ebakindlal ebakindlast ebakindlaid
+27	3927	punker	punkris punker punkrisse punkri punkrist punkrit punkrid punkreid punkritesse punkrites punkrite
+28	3928	õng	õnge õng õnged õngega
+29	3929	leiutis	leiutis leiutise leiutist leiutised leiutiste leiutisi leiutisega leiutisest leiutistest leiutisele
+30	3930	muutmine	muutmine muutmiseks muutmise muutmist muutmisega muutmisel muutmises muutmisele
+31	3931	ment	ment mendi menti
+32	3932	põrgulik	põrgulik põrgulikku põrguliku põrgulikul põrgulikud põrgulikus põrgulikke põrgulikes põrgulikuks
+33	3933	teler	telerit teler teleri telerist teleris telereid telerite telerisse telerid teleriga teleril
+34	3934	kreeklane	kreeklased kreeklane kreeklaste kreeklasi kreeklase kreeklast kreeklasest kreeklastele kreeklastel kreeklastest kreeklastega kreeklasega kreeklasele kreeklasel
+35	3935	amatöör	amatöör amatöörid amatööride amatööri amatööre amatööridega amatööridele amatööriks amatöörist amatööridest amatöörina amatööriga
+36	3936	kääbus	kääbus kääbused kääbuse kääbust kääbuste kääbuseid kääbusega kääbusest kääbusele kääbuseks kääbustele kääbustest kääbustel
+37	3937	puhkema	puhkes puhkeb puhkenud puhkevad puhkeda puhke puhkemas puhkesid puhkeks puhked puhkema puhkedes puhkesin puhken
+38	3938	fuajee	fuajees fuajee fuajeesse fuajeest fuajeed
+39	3939	põhjalik	põhjalik põhjalikku põhjaliku põhjalikud põhjalikke põhjalikule põhjalikuks põhjalike
+40	3940	kuller	kuller kulleri kullerit kullerid kulleriga kullerina kulleriks kullerile kullereid kullerite
+41	3941	festival	festival festivali festivalile festivalil festivaliks festivaliga festivalist festivalilt festivalidel festivalid
+42	3942	sitane	sitane sitase sitases sitased sitasest sitasesse sitast sitaseid sitaste sitasel sitasele sitaseks sitasena
+43	3943	ettekujutus	ettekujutus ettekujutuse ettekujutust ettekujutused ettekujutusele ettekujutuses ettekujutusega ettekujutusi ettekujutuseta
+44	3944	pisiasi	pisiasi pisiasjad pisiasja pisiasju pisiasjade pisiasjadega pisiasjadest pisiasjades pisiasjadele pisiasjast pisiasjadeni pisiasjaga pisiasjas
+45	3945	memmekas	memmekas memmekad memmekaks memmekate memmekast memmekatele memmekaid memmekat memmeka memmekaga
+46	3946	torkima	torgib torgi torkida torkima torgivad torkis torkisid torgin torgid torgiks torkinud torgitakse torgime torkisin torkige
+47	3947	õnneseen	õnneseen õnneseened õnneseent õnneseeneks õnneseenest õnneseene
+48	3948	kiim	kiimas kiima kiim kiimast
+49	3949	krabi	krabi krabid krabisid krabide krabidega krabidel krabidele
+50	3950	vürst	vürst vürsti vürstile vürstiga vürstid vürstil vürstiks
+51	3951	ere	ere eredalt eredad eredat eredam ereda eredamalt eredamad eredaid eredate eredas eredaks
+52	3952	vägistamine	vägistamine vägistamise vägistamises vägistamist vägistamisest vägistamisega vägistamiseks vägistamised vägistamisi vägistamiste
+53	3953	hiljutine	hiljutine hiljutise hiljutised hiljutiste hiljutist hiljutisi hiljutisest hiljutistest hiljutistele hiljutises hiljutisele hiljutisem hiljutisel hiljutistes
+54	3954	aktsepteerima	aktsepteerida aktsepteerima aktsepteeri aktsepteerin aktsepteerime aktsepteerib aktsepteeritud aktsepteerivad aktsepteerinud aktsepteerid aktsepteeriks aktsepteerita aktsepteeris aktsepteerite aktsepteeritakse
+55	3955	pühitsema	pühitsetud pühitseda pühitseb pühitseme pühitsema pühitsen pühitsetakse pühitseti pühitse pühitsemata pühitsevad
+56	3956	ebaõnn	ebaõnn ebaõnne ebaõnnest ebaõnneks ebaõnnele ebaõnnega
+57	3957	professor	professori professoriga professorit professorid professorile professoril professoriks professorist professoreid professorilt professorina professorite professoritega professoritest
+58	3958	halastamatu	halastamatu halastamatult halastamatud halastamatut halastamatuks halastamatus halastamatute halastamatuid halastamatust
+59	3959	seljataga	seljataga
+60	3960	alandlik	alandlik alandlikult alandlikud alandliku alandlikku alandlikuks alandlikule alandlikke alandlikuna
+61	3961	leid	leid leidu leiud leide leiu leiust leiuta leidude leidudest leisid leidusid leides
+62	3962	kelner	kelner kelnerid kelneri kelnerit kelneriks kelneriga kelnerile kelnerina kelneril
+63	3963	tropp	tropp tropiga tropist tropile troppe troppide troppidega
+64	3964	öökull	öökull öökulli öökullid öökullide öökulle öökulliga öökullist öökullis öökulliks öökullile
+65	3965	gorilla	gorilla gorillad gorillade gorillasid gorillat gorilladega gorillaga gorillale gorilladel gorillal
+66	3966	lastekodu	lastekodu lastekodus lastekodusse lastekodust lastekodule lastekodudes lastekodusid lastekoduga lastekodud
+67	3967	käsutus	käsutuses käsutusse
+68	3968	mustanahaline	mustanahaline mustanahalised mustanahaliste mustanahalist mustanahalise mustanahalisi mustanahalistele mustanahalisega mustanahalisena mustanahalisest
+69	3969	tagasilöök	tagasilöök tagasilöögi tagasilööke tagasilöögid tagasilööki tagasilöökidest tagasilöögiga tagasilöögist tagasilöökidega
+70	3970	toimetaja	toimetaja toimetajale toimetajaks toimetajaga toimetajad toimetajat toimetajalt toimetajana toimetajal toimetajate toimetajatele toimetajatega toimetajaid
+71	3971	ümberringi	ümberringi
+72	3972	sealpool	sealpool
+73	3973	tagaiste	tagaistmel tagaistmele tagaistmelt tagaiste tagaistme tagaistet
+74	3974	tennis	tennist tennise tennis tennised tennises tennisest tenniseid tennisega
+75	3975	pressikonverents	pressikonverentsi pressikonverents pressikonverentsil pressikonverentsile pressikonverentsiks pressikonverentsist pressikonverentse
+76	3976	numbrimärk	numbrimärk numbrimärki numbrimärgi numbrimärgid numbrimärke numbrimärgiga numbrimärgist numbrimärgil numbrimärkide numbrimärkidega numbrimärkideta
+77	3977	urgas	urkas urgas urkasse urkast urka urgast urkaid urkad
+78	3978	rahastama	rahastada rahastab rahastas rahastatud rahastavad rahastama rahastan rahastanud rahastatakse rahastasid rahastati rahasta rahastasin rahastame rahastate rahastasime rahastades rahastad
+79	3979	külastus	külastus külastuse külastust külastused külastusi külastusest külastuseks külastusel külastuste külastusega külastusele külastustele
+80	3980	kant	kant kandi kandist kandiga kandile
+81	3981	konkurent	konkurendid konkurent konkurente konkurentide konkurendi konkurenti konkurentidele konkurentidest konkurentidega konkurendile konkurendiks konkurendist konkurendiga konkurentidel
+82	3982	periood	periood perioodi perioodil perioodist perioode perioodis perioodiks perioodid perioodiga
+83	3983	oih	oih
+84	3984	omakorda	omakorda
+85	3985	tšekk	tšeki tšekk tšekki tšekke tšekid tšekiga tšekile tšekkide
+86	3986	doos	doosi doos doose doosid doosides doosiga dooside doosiks doosist
+87	3987	armastaja	armastaja armastajad armastajate armastajat armastajaid armastajatele armastajaks
+88	3988	kampsun	kampsun kampsuni kampsunit kampsunid kampsuneid kampsunis kampsuniga kampsunite
+89	3989	taktika	taktika taktikat taktikaga taktikaid taktikast taktikas taktikaks taktikad
+90	3990	pankur	pankur pankurid pankuri pankurite pankurit pankuriga pankureid pankuritega pankurile pankuritele pankurist pankuritel pankuriks pankuril pankuritest
+91	3991	allergiline	allergiline allergilised allergilise
+92	3992	piiluma	piiluda piilusin piiluma piilub piilun piilunud piilume piilumas piiluge piiluvad piiludes piiluv piilute piilusime
+93	3993	ladin	ladina
+94	3994	lahinguväli	lahinguväljal lahinguväli lahinguvälja lahinguväljale lahinguväljalt lahinguväljadel lahinguväljaks lahinguvälju
+95	3995	haare	haare haaret haardes haardest haardesse haarde haardega
+96	3996	orgasm	orgasmi orgasm orgasme orgasmini orgasmid orgasmile orgasmist orgasmide
+97	3997	tomat	tomatid tomateid tomat tomati tomatit tomatite tomatitega tomatitest tomatiga
+98	3998	lohistama	lohistada lohista lohistas lohistama lohistan lohistati lohistame lohistasid lohistad lohistades lohistasin lohistab lohistage lohistavad lohistanud lohistatakse lohistatud lohistamas lohistaks lohistate
+99	3999	episood	episood episoodi episoodis episoodid episoode episoodist episoodides
+100	4000	pokker	pokkerit pokkeri pokker pokkeris pokkerist pokkeriga

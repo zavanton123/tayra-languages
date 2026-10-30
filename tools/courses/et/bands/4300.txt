@@ -1,0 +1,100 @@
+1	4201	tita	tita titad titat titani titaks titasid titadele titale tital titade
+2	4202	meil	meili meiliga meilid meilis meilile meilidele meilide meilidest meilidesse meilist
+3	4203	videomäng	videomänge videomäng videomängu videomängud videomängude videomängudest videomängus videomängudes
+4	4204	suhtlemine	suhtlemine suhtlemise suhtlemiseks suhtlemist suhtlemisel suhtlemisest suhtlemises suhtlemisega
+5	4205	sulatama	sulatada sulatab sulatatud sulatas sulatama sulatan sulatasid sulatatakse sulatavad sulatanud sulatati sulatame sulatasin sulatad sulatasime sulatage sulatades
+6	4206	aastaaeg	aastaajal aastaaeg aastaaegade aastaajad aastaaega aastaaja aastaaegu aastaajast aastaajale aastaaegadest aastaaegadel
+7	4207	õigemini	õigemini
+8	4208	ratsanik	ratsanik ratsanikud ratsanikku ratsaniku ratsanike ratsanikke ratsanikust ratsanikele ratsanikest ratsanikul ratsanikule ratsanikuga
+9	4209	absurdne	absurdne absurdsed absurdselt absurdse absurdseid absurdsete absurdseks absurdsele absurdsena
+10	4210	nuhtlus	nuhtlus nuhtluseks nuhtlused nuhtlust nuhtluse nuhtlusest nuhtlusele
+11	4211	lindistus	lindistus lindistuse lindistust lindistused lindistusi lindistusest lindistusega lindistuste lindistusele
+12	4212	inimrööv	inimrööv inimröövi inimröövis inimröövid inimrööviga inimröövist inimröövel inimröövide inimrööve inimrööviks inimröövile inimröövidega inimröövidest
+13	4213	veerema	veereb veerema veereda veerevad veereme veeren veeremas veerenud veeresid veerege veeresin veeresime
+14	4214	untsu	untsu
+15	4215	gramm	grammi gramm grammigi
+16	4216	ettekuulutus	ettekuulutus ettekuulutuse ettekuulutust ettekuulutused ettekuulutusest ettekuulutuses ettekuulutusi ettekuulutusega ettekuulutuseks ettekuulutuste ettekuulutusele ettekuulutusse
+17	4217	vehkima	vehi vehkis vehid vehib vehkima vehkida vehkides vehkisid vehivad vehkinud vehkisin vehin vehiks vehime vehkimas vehkige vehite
+18	4218	truudus	truudust truuduse truudus truudusest truuduses truudusega
+19	4219	vulkaan	vulkaan vulkaani vulkaanid vulkaanist vulkaane vulkaanide vulkaanidest vulkaanil vulkaanile vulkaaniga vulkaanis
+20	4220	lohutus	lohutust lohutus lohutuseks lohutuse
+21	4221	majakas	majakas majaka majakat majakast majakad majakasse majakani majakaks majakale majakaid majakaga
+22	4222	salong	salongi salongis salong salongist salongid salongiga
+23	4223	merejalaväelane	merejalaväelane merejalaväelased merejalaväelast merejalaväelaste merejalaväelasi merejalaväelase merejalaväelaseks merejalaväelastele merejalaväelasest merejalaväelastega merejalaväelastest merejalaväelasena merejalaväelasega
+24	4224	valelik	valelik valelikud valelikku valeliku valelike valelikuks valelikke valelikust
+25	4225	käärid	käärid kääre kääridega kääride
+26	4226	retk	retk retke retkel retkele retkeks retki retkest retkelt retkega retked retkes
+27	4227	jupp	jupp jupid juppe jupi juppideks juppi juppidest juppide juppidena jupiks
+28	4228	tingimisi	tingimisi
+29	4229	kaugeltki	kaugeltki
+30	4230	lobama	loba lobast lobaga
+31	4231	soome	soome soomes soomest soomele soomega soomet
+32	4232	mitteametlik	mitteametlikult mitteametlik mitteametliku mitteametlikku mitteametlikud mitteametlikke mitteametlike mitteametlikuks mitteametlikus
+33	4233	galerii	galerii galeriis galeriisse galeriist galeriid galeriides galeriile galeriide galeriisid
+34	4234	krõps	krõpse krõpsud krõpsu krõps krõpsude krõpsudega
+35	4235	peeretama	peeretas peeretada peeretab peeretasid peeretama peeretasin peereta peeretad peeretavad peeretanud peeretan peeretame peeretav peeretaks peeretamas
+36	4236	hullemini	hullemini hulleminigi
+37	4237	sünnitus	sünnitus sünnitusel sünnituse sünnitust sünnitusele sünnituseks sünnitusega sünnitusest sünnituseni
+38	4238	mäda	mäda mädad mädas
+39	4239	piiskop	piiskop piiskopi piiskopile piiskopiga piiskopid piiskoppi piiskopiks piiskoppe piiskoppide
+40	4240	valuvaigisti	valuvaigisteid valuvaigistit valuvaigistid valuvaigisti valuvaigistite valuvaigistitest valuvaigistitega
+41	4241	puistama	puistata puistama puistan puista puistatud puistab puistas puistasin puistasid puistanud puistame puistavad puistad puistatakse puistasime puistataks puistati puistake puistaks puistates puistamas
+42	4242	tõlge	tõlge tõlkes tõlget tõlke tõlked tõlkega tõlkeid
+43	4243	garantii	garantiid garantii garantiisid garantiini garantiiks garantiiga garantiita
+44	4244	seerum	seerum seerumit seerumi seerumiga seerumist seerumis seerumile
+45	4245	purju	purju
+46	4246	teisik	teisik teisiku teisikud teisikut teisikute teisikuid teisikust teisikuga
+47	4247	asendaja	asendaja asendajat asendajaks asendajad asendajaga asendajaid asendajana
+48	4248	adopteerima	adopteeritud adopteerida adopteeris adopteeriti adopteerinud adopteerisid adopteerisime adopteerima adopteerisin adopteeriks adopteerime adopteerisite adopteerib adopteeri adopteerid adopteerin adopteerite adopteerivad
+49	4249	sedamoodi	sedamoodi
+50	4250	täkk	täkk täkku täku täkud täkuga täkuks täkule täkkude
+51	4251	sõitmine	sõitmine sõitmist sõitmise
+52	4252	krokodill	krokodill krokodilli krokodillid krokodille krokodillide krokodillidele krokodillist krokodillile krokodillidest krokodillidega krokodilliga
+53	4253	vaktsiin	vaktsiini vaktsiin vaktsiinid vaktsiiniga vaktsiinist vaktsiine
+54	4254	apteek	apteeki apteek apteegis apteegist apteegi apteeke apteekides apteegid
+55	4255	töökord	töökorras
+56	4256	enesekindlus	enesekindlus enesekindlust enesekindluse enesekindlusega enesekindlusest enesekindluses enesekindlusele enesekindluseks
+57	4257	asutama	asutas asutati asutada asutasid asutatud asutasin asutame asutasime asutavad asutanud asutan asuta asutab asutad asutama
+58	4258	struktuur	struktuuri struktuur struktuure struktuuris struktuurid struktuuriga struktuurist struktuurile struktuuride
+59	4259	mujalt	mujalt mujaltki
+60	4260	võidusõit	võidusõit võidusõidu võidusõitu võidusõidul võidusõidule võidusõidust võidusõidus võidusõiduks võidusõite võidusõidud võidusõiduga võidusõitude võidusõitudel
+61	4261	krabama	kraba krabada krabas krabage kraban krabama krabasin krabasid krabab krabad krabanud krabame krabavad krabati
+62	4262	orkaan	orkaan orkaani orkaane orkaanid orkaanide orkaaniga orkaanist orkaanis orkaaniks
+63	4263	sisenemine	sisenemine sisenemist sisenemise sisenemisel
+64	4264	laohoone	laohoone laohoones laohoonesse laohoonest laohoonet laohoonete laohooned
+65	4265	ketas	ketas ketta ketast kettad kettal kettale kettaid kettalt ketaste kettaga ketastel
+66	4266	radiatsioon	radiatsiooni radiatsioon radiatsioonist radiatsiooniga radiatsioonile
+67	4267	hotellituba	hotellitoas hotellituppa hotellitoa hotellituba hotellitoast hotellitubades hotellitoad
+68	4268	lirva	lirva lirvad lirvaks lirvat lirval lirvale lirvaga
+69	4269	ringkäik	ringkäigu ringkäik ringkäiku ringkäigul ringkäigule ringkäike ringkäiguga ringkäigust ringkäigud ringkäiguks
+70	4270	maht	mahu mahti mahuks mahus maht mahtu mahuta mahud mahuga mahust mahtusid
+71	4271	karje	karjeid karjed karje karjet karjete karjetest karjetega
+72	4272	leegion	leegioni leegion leegionid leegioniga leegionis leegionist leegione leegionile leegionide leegionidega leegionit leegionitega leegionite leegionil
+73	4273	päikesetõus	päikesetõusu päikesetõus päikesetõusuni päikesetõusul päikesetõusuks päikesetõusust päikesetõusuga päikesetõusule
+74	4274	gangster	gangster gangsterid gangsteri gangsterite gangstereid gangsterit gangsteritega gangsteriks gangsterist gangsteritele gangsteritest
+75	4275	ilmnema	ilmneb ilmnes ilmnevad ilmnenud ilmnesid ilmnema ilmneda ilmneks ilmnedes
+76	4276	mustang	mustang mustangi mustangiga mustangid mustangite mustangit mustangil mustangide mustangist mustangis
+77	4277	käkitegu	käkitegu
+78	4278	sensor	sensorid sensoreid sensorite sensori sensoritega sensorit sensoritest sensoritel sensoritele
+79	4279	võistleja	võistleja võistlejad võistlejat võistlejaid võistlejate võistlejatele võistlejatega võistlejatest võistlejale võistlejaga võistlejal
+80	4280	kodutee	koduteel kodutee koduteed koduteele
+81	4281	pühendumus	pühendumus pühendumust pühendumuse pühendumusega pühendumuses pühendumusest
+82	4282	sadul	sadulasse sadulas sadul sadulast sadula sadulat sadulad sadulaga sadulaid
+83	4283	läbikukkumine	läbikukkumine läbikukkumist läbikukkumise läbikukkumisest läbikukkumisi läbikukkumisega läbikukkumisele läbikukkumiseks läbikukkumised läbikukkumises läbikukkumiste
+84	4284	remont	remonti remont remondi remondis remondiga remondist
+85	4285	perimeeter	perimeeter perimeetri perimeetrit perimeetrist perimeetrile perimeetril perimeetris perimeetrisse perimeetrid
+86	4286	alam	alamad alam alamate alamaid alamast alama alamatele alamat alamatest alamaks alamatega alamal alamana
+87	4287	pale	palge palet pale palle palgeid palged palest palgel palgelt palgele
+88	4288	viivitus	viivitus viivituse viivitust viivitusega viivitusi viivitused viivituseta viivitusest viivitusteta viivitustega
+89	4289	staadion	staadionil staadionile staadioni staadion staadionilt staadionit staadionist
+90	4290	transportima	transportida transporditakse transpordib transporditi transportima transpordime transportis transpordivad transporditud transpordin transportisin transpordite transportige transporditaks transportinud transporditav
+91	4291	evolutsioon	evolutsiooni evolutsioon evolutsioonis evolutsioonist evolutsioonile evolutsiooniga evolutsiooniks
+92	4292	reputatsioon	reputatsioon reputatsiooni reputatsiooniga reputatsioonile reputatsioonist
+93	4293	uinuma	uinuda uinunud uinus uinun uinub uinu uinud uinusin uinuvad uinuma uinudes uinuvat uinusid uinusime uinumas uinuge uinunu
+94	4294	omavahele	omavahele
+95	4295	ettearvamatu	ettearvamatu ettearvamatud ettearvamatuks ettearvamatult ettearvamatut ettearvamatuid ettearvamatute ettearvamatus ettearvamatust
+96	4296	inspiratsioon	inspiratsiooni inspiratsioon inspiratsiooniks inspiratsioonist inspiratsiooniga
+97	4297	vabrik	vabrikus vabrik vabriku vabrikusse vabrikut vabrikud vabrikust vabrikutes vabrikuid vabrikute
+98	4298	eesnimi	eesnimi eesnime eesnimesid eesnimede eesnimega eesnimed
+99	4299	muideks	muideks
+100	4300	raam	raami raam raames raamid raamiga raamidest raamis raamidesse raamides raamile raamist raame raamide raamidega

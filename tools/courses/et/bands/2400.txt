@@ -1,0 +1,100 @@
+1	2301	sulg	sulge sule sulg sulgi sulu sulgedega suled sulgede sulgesid sulgu sulest sulgedest sulgusid sulgudes sulega sulgedeta sulel sulist sulgedes suleta sulile suleks
+2	2302	agentuur	agentuuri agentuur agentuurist agentuuris agentuuriga agentuurile agentuurid agentuuride agentuuril agentuure agentuuridele agentuuridega agentuuridest agentuuridesse agentuurilt agentuurides
+3	2303	tehnika	tehnika tehnikat tehnikaga tehnikast tehnikaid tehnikas tehnikad tehnikale tehnikal tehnikate
+4	2304	farm	farmi farmis farmist farmid farme farmiga farmides farmide farmile farmil farmidesse farmidest
+5	2305	uss	uss ussid ussi usse usside ussidega ussidest ussiga ussiks ussist ussil ussidele ussile
+6	2306	kaitsmine	kaitsmiseks kaitsmine kaitsmise kaitsmist kaitsmisest kaitsmisega kaitsmisel kaitsmises
+7	2307	järelikult	järelikult
+8	2308	robot	robotid roboti robotite roboteid robotit robotiga robotist robotitega robotitele robotile robotitest robotiks robotil robotitel robotina robotisse
+9	2309	abiline	abiline abilist abilisi abilise abilised abiliseks abilisega abilisele abilistega abilistest abilisena abilisel abiliste abilisest abilistele
+10	2310	andekas	andekas andekad andekam andeka andekaid andekat andekate andekaks andekamad andekatele andekale
+11	2311	sünnitama	sünnitas sünnitama sünnitab sünnitada sünnitanud sünnitan sünnitasid sünnitasin sünnitades sünnitad sünnitamas sünnitavad sünnita sünnitaks sünnitatud sünnitaksid sünnitame
+12	2312	pugema	pugeda pugema pugenud puges poeb poen pugesid poeme poevad pugesin pugege pugesime poeksin poete poeksid pugedes pugemas
+13	2313	versioon	versioon versiooni versioonis versioonid versioone versiooniga versioonist versioonile versioonil versiooniks versioonina
+14	2314	lapselaps	lapselaps lapselapsed lapselapse lapselast lapselapsi lapselapsega lapselapsele lapselapsest lapselaste lapselastele lapselapsel lapselastega
+15	2315	rutem	rutem
+16	2316	misasi	misasja misasi
+17	2317	isekas	isekas isekad isekalt iseka isekaks isekat isekate isekaid isekatel isekal
+18	2318	viimne	viimse viimne viimseni viimset viimsegi viimsel viimsele viimsed viimseks viimseid viimsest viimsesse viimses viimsete
+19	2319	pesu	pesu pesus pessu pesuga pesust pesusse pesuks pesud pesule
+20	2320	keskkond	keskkonnas keskkonna keskkonda keskkond keskkonnast keskkonnale keskkonnaga keskkondades keskkonnad keskkondi keskkonnal
+21	2321	küüs	küüned küüsi küünte küüsis küüsist küüs küüntega küüne küünt küünega küüntest küüntele küünest
+22	2322	närima	närida närib näri näris närima närin näritud närinud närivad närid närisid närisin näriv närides närige näriks närimas närite närime närigu näriksid näritakse
+23	2323	kahjustama	kahjustatud kahjustada kahjustab kahjustamata kahjustas kahjustanud kahjusta kahjustaks kahjustasid kahjustavad kahjustama kahjustad kahjustades kahjustate kahjustavat kahjustame kahjustasin
+24	2324	oksendama	oksendas oksendasin oksendama oksendada oksendab oksendanud oksendasid oksendan oksenda oksendad oksendavad oksendamas oksendaks oksendame oksendades oksendaksid oksendamata oksendatud oksendaksin
+25	2325	eraldi	eraldi
+26	2326	hiir	hiir hiired hiire hiirt hiiri hiirega hiirte hiirele hiirest hiirtest hiirtega hiirtele hiireks hiirel hiirtel
+27	2327	lagunema	laguneb lagunes lagunenud lagunevad lagunema lagunemas lagune laguneda lagunesid laguneks lagunen laguned lagunev laguneme lagunevat lagunedes
+28	2328	süüdlane	süüdlane süüdlaseks süüdlase süüdlasena süüdlased süüdlast süüdlasi süüdlaste süüdlasteks süüdlasest süüdlaseni
+29	2329	palav	palav palavaks palavalt palava palaval palavaga palavasse palavas
+30	2330	sisemine	sisemine sisemise sisemist sisemiselt sisemised sisemisi sisemiste sisemisest sisemisele sisemisse sisemises sisemistest sisemisel sisemiseks
+31	2331	pähkel	pähkleid pähkel pähklid pähkli pähklite pähklitega pähklit pähklitele pähklitest pähkliks pähkliteks pähkliga
+32	2332	lugemine	lugemine lugemist lugemise lugemiseks lugemisega lugemisest lugemises lugemisel lugemisele lugemiseni
+33	2333	piibel	piibel piibli piiblit piiblis piiblist piiblile piiblil piibliga piiblid piibleid piiblisse piiblite
+34	2334	konks	konks konksu konksuga konksud konksudega konkse konksust konksul konksus konksule konksude
+35	2335	territoorium	territooriumi territooriumil territoorium territooriumile territooriumilt territooriumit territooriumist territooriumid territooriumiga territooriume territooriumide territooriumiks territooriumitel
+36	2336	märge	märkmeid märkmed märge märget märkmete märkmetes märkme märkmetest märkmetega märkega märkeid märked märkmetele märkmetesse
+37	2337	kujutlema	kujutle kujutleda kujutlege kujutlen kujutlesin kujutleme kujutlenud kujutled kujutlesid kujutledagi kujutlegem kujutleb kujutlema kujutles kujutletavat kujutletud kujutlete kujutlesime kujutledes
+38	2338	kobima	kobi kobige kobida kobima kobime kobid kobiks
+39	2339	laen	laenu laen laenud laene laenude laenust laenuga laenudega laenule laenudest laenusid laenul
+40	2340	vaip	vaiba vaip vaipa vaibale vaibal vaibad vaibaga vaipu vaibus vaibast vaibalt vaipade vaipadega vaibuks vaibas vaibana vaipadel
+41	2341	kitsas	kitsas kitsad kitsaks kitsa kitsast kitsaid kitsamaks kitsastes kitsaste kitsasse kitsalt kitsam kitsal kitsastesse kitsale kitsastest
+42	2342	mõistatus	mõistatus mõistatuse mõistatusi mõistatused mõistatust mõistatuseks mõistatusest mõistatuste mõistatustest mõistatusele mõistatustega mõistatusega mõistatuses mõistatusse
+43	2343	toim	toimi
+44	2344	liiv	liiva liiv liivast liival liivale liivaga liivas liivaks liivad liivalt
+45	2345	indiaanlane	indiaanlased indiaanlane indiaanlaste indiaanlasi indiaanlast indiaanlase indiaanlastega indiaanlastele indiaanlastest indiaanlasest indiaanlastel indiaanlastelt indiaanlaseks indiaanlasele indiaanlasega indiaanlasel indiaanlaselt indiaanlaseid
+46	2346	määrima	määrida määri määritud määrima määrin määrib määrid määrisid määrisin määrinud määris määrime määrivad määrige määritakse määrite määriks määrides määriti määriksid määrisite määrimata määriksin määrisime
+47	2347	kaastunne	kaastunne kaastunnet kaastundest kaastundega kaastundele kaastundeta kaastunded kaastundeks
+48	2348	noo	noo
+49	2349	haldjas	haldjas haldjad haldjate haldja haldjast haldjaid haldjat haldjaisse haldjatega haldjaga haldjatest haldjatele haldjatel haldjatesse haldjale haldjal haldjatelt haldjaks
+50	2350	kuupäev	kuupäev kuupäeva kuupäevad kuupäeval kuupäevi kuupäevaga kuupäevaks kuupäevast kuupäevadega kuupäevade kuupäevale kuupäevadest kuupäevani kuupäevadel
+51	2351	hiilgus	hiilgus hiilguse hiilgust hiilguses hiilgusest hiilgusele hiilgusega hiilgusesse hiilgused hiilgusel
+52	2352	lips	lips lipsu lipsuga lipse lipsud lipsuta lipsul lipsust lipsus lipsudega
+53	2353	jurist	jurist juristi juristid juristiga juristiks juriste juristide juristile juristidega juristina juristidele juristist juristil juristilt juristidel juristidest
+54	2354	märkima	märgitud märkida märgib märkis märkisin märkinud märkima märkige märgin märkimata märgime märgivad märgi märgitakse märgid märgiti märgite märkisite märkimaks märgiks märkisime märkimas märkisid märkides
+55	2355	saatja	saatja saatjat saatjad saatjaks saatjaga saatjaid saatjata saatjale saatjate saatjast saatjateta saatjatega saatjana saatjateks saatjatest saatjalt saatjasse
+56	2356	pühenduma	pühendunud pühenduda pühenduma pühendu pühendun pühendub pühendud pühendume pühendusid pühendusin pühendute pühenduks pühenduge pühenduksin pühendudes
+57	2357	mari	marina mari marjaks marja marju marjad marit marjadest marjadega marini marjade maris marjast marjaga marri marjale
+58	2358	lohe	lohe lohed lohet lohede lohesid lohedega lohega lohedest lohedele lohele lohedel lohel lohest loheks
+59	2359	ekraan	ekraanile ekraanil ekraani ekraan ekraanilt ekraaniga ekraanid ekraanidel ekraane ekraanidele ekraanidelt
+60	2360	nõel	nõela nõel nõelad nõelu nõelata nõelaga nõelas nõeltega nõelte nõelasid nõeltel nõelaks nõelast nõelus nõeltest
+61	2361	ulatuma	ulatub ulatu ulatuvad ulatuda ulatud ulatuks ulatunud ulatusid ulatudes ulatun ulatuma ulatuv ulatuksid ulatuksin ulatuva ulatumas ulatume ulatuvat
+62	2362	impeerium	impeeriumi impeerium impeeriumis impeeriumit impeeriumile impeeriumist impeeriumisse impeeriumiga impeeriumil impeeriumid impeeriume impeeriumite impeeriumiks impeeriumide
+63	2363	kops	kopsud kopsu kopsudes kops kopse kopsus kopsudesse kopsude kopsudest kopsudele kopsust kopsudega
+64	2364	kusagile	kusagile
+65	2365	kargama	kargas karata kargab karga kargasid kargama kargad kargavad kargan kargasin karanud karates kargaks kargamas kargame karake kargate kargasime kargav kargasite
+66	2366	teener	teener teenrid teenri teenrit teenreid teenrite teenriks teenrile teenriga teenrina teenritele teenritest teenritel teenrist teenril teenritega teenrilt
+67	2367	lollpea	lollpea lollpead lollpäid lollpeaks lollpeast lollpeadest lollpeaga lollpeale
+68	2368	tagastama	tagastada tagastama tagastan tagasta tagastame tagastatud tagastatakse tagastage tagastab tagastas tagastanud tagastad tagastasin tagastasid tagastata tagastate tagastati tagastamatu tagastaks tagastaksid tagastamata tagastaksite tagastasite tagastamast tagastatav tagastavad tagastataks tagastamas
+69	2369	kehtima	kehtib kehti kehtivad kehtima kehtiks kehtis kehtivat kehtida kehtinud kehtisid
+70	2370	kasum	kasumit kasumi kasum kasumist kasumiga kasumid kasumis kasumile kasumisse kasumeid kasumiks kasumite kasumitega
+71	2371	sissepääs	sissepääsu sissepääs sissepääsud sissepääsust sissepääse sissepääsude sissepääsuni sissepääsuks sissepääsuga sissepääsul
+72	2372	sall	salli sall salliga sallita salle sallis sallid salliks
+73	2373	põhinema	põhineb põhinedes põhinevad põhines põhinevat põhinesid põhinema põhineks põhinenud põhineda
+74	2374	kesklinn	kesklinna kesklinnas kesklinnast kesklinn
+75	2375	autojuht	autojuht autojuhi autojuhti autojuhid autojuhiga autojuhiks autojuhil autojuhile autojuhtide autojuhte autojuhist autojuhina autojuhtidele autojuhtidega autojuhilt autojuhtidest
+76	2376	taust	tausta taust taustal taustaga taustaks taustast taustu taustale taustad
+77	2377	narr	narr narri narrid narriks narrisid narris narrina narre narride narrist narrita narrile narridele
+78	2378	tõug	tõus tõusu tõusud tõug tõuge tõugu tõuget tõusust tõusul tõusuga tõusuni tõusule tõust tõusude tõu tõuked tõusuks tõukeid tõusus tõusudel tõusudest tõukeks tõuga tõukega
+79	2379	mõrvama	mõrvati mõrvanud mõrvatakse mõrvab mõrvama mõrvasin mõrvatuna mõrvasite mõrvavad mõrvatu mõrvan mõrvame mõrvataks mõrvatute mõrvates mõrvate mõrvatut mõrvamast
+80	2380	isane	isane isased isase isaste isaseid isasel isasele isasega isastel isasest isastele isaseks isastest isaselt
+81	2381	aare	aare aarde aaret aarded aarete aardeid aardest aardega aaretest aardeks aardeni aaretega aardele
+82	2382	siitkaudu	siitkaudu
+83	2383	kadumine	kadumist kadumise kadumine kadumisest kadumisega
+84	2384	org	orus oru orgu org orust orud orge orel orgude orule oruks orgudest orgudes oreks
+85	2385	kont	kondid kont konte kondi konti kontide kondiga kontides kontidest kondist kontidega kontideni kontidele kondile kondini kontidelt kondita kontidel kontidesse
+86	2386	sinnapoole	sinnapoole
+87	2387	leek	leek leekides leegid leegi leekidesse leeke leeki leegiga leekide leekidest leekidega leegiks leegis leegile leegist leekidele leegil
+88	2388	tüütama	tüüdanud tüütab tüütama tüüdata tüütan tüütad tüütas tüütav tüütavad tüütaks tüütasid tüüdake tüütasin tüütame tüütamas tüütate tüüdatud tüütaksid
+89	2389	kalju	kalju kaljult kaljud kaljude kaljut kaljul kaljudel kaljule kaljusid kaljudele kaljust kaljudelt kaljudest kaljudeni kaljuni kaljusse kaljus kaljudes
+90	2390	hüpe	hüpe hüppe hüpet hüppeks hüppeid hüpped hüppega hüppesse hüppeni hüppes hüppest hüppel hüpetega hüpete hüppelt hüppele
+91	2391	röövimine	röövimine röövimise röövimist röövimisest röövimisega röövimises röövimiseks röövimised röövimisi röövimiste röövimisele röövimisel röövimistega röövimistest röövimisena
+92	2392	erakordne	erakordne erakordset erakordse erakordsed erakordseid erakordsete erakordsele erakordses erakordseks erakordsest erakordsel erakordsetest
+93	2393	tirima	tirida tirisid tirisin tirib tirige tirima tiriti tirime tirinud tirivad tiritakse tiritud tirisite tirisime tirite tirides tirimas tiriksid
+94	2394	tätoveering	tätoveering tätoveeringud tätoveeringut tätoveeringu tätoveeringuid tätoveeringuga tätoveeringust tätoveeringute tätoveeringutega tätoveeringutest tätoveeringul
+95	2395	roos	roosid roos roosi roose rooside roosidega roosiga roosidest roosiks roosideks roosil roosidele roosist
+96	2396	oivaline	oivaline oivaliselt oivalised oivalist oivalise oivalisi oivalisem oivaliste oivaliseks
+97	2397	õu	õues õue õu õuest õuele õuel
+98	2398	tina	tina tinaga tinast tinale tinal
+99	2399	pirukas	pirukas pirukat piruka pirukad pirukaid pirukast pirukaga pirukate pirukasse pirukaks pirukatega pirukale pirukatest pirukatesse
+100	2400	konto	konto kontole kontot kontod kontol kontolt kontosid kontodele kontode kontoga kontosse kontodelt kontodega kontodest kontodel

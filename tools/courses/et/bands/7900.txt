@@ -1,0 +1,100 @@
+1	7801	mateeria	mateeria mateeriat mateeriast
+2	7802	eetika	eetika eetikat eetikast eetikas
+3	7803	koola	koola koolat
+4	7804	pikkpoiss	pikkpoiss pikkpoissi pikkpoisi pikkpoisiga
+5	7805	kalapüük	kalapüük kalapüüki kalapüügiks kalapüügiga kalapüügist kalapüügile kalapüügil
+6	7806	filmistaar	filmistaar filmistaari filmistaarid filmistaariks filmistaare filmistaaridega
+7	7807	sünnipäevakink	sünnipäevakink sünnipäevakingi sünnipäevakinki sünnipäevakingiks sünnipäevakinkide
+8	7808	piparmünt	piparmündi piparmünt piparmünti piparmündiga
+9	7809	pulma-aastapäev	pulma-aastapäeva pulma-aastapäev pulma-aastapäeval pulma-aastapäevaks
+10	7810	vints	vintsi vints vintsiga vintsist vintsid
+11	7811	seerianumber	seerianumber seerianumbrid seerianumbrit seerianumbri seerianumbreid seerianumbritega seerianumbriga
+12	7812	sisselõige	sisselõige sisselõike sisselõiked sisselõiget sisselõikeid
+13	7813	monument	monument monumendi monumente monumenti monumendid monumentide
+14	7814	elupaik	elupaik elupaika elupaigas elupaigaks elupaiku elupaikade elupaigast elupaigad
+15	7815	pöördumine	pöördumine pöördumist pöördumise pöördumiseks pöördumisest pöördumises pöördumisega
+16	7816	paaritumine	paaritumine paaritumist paaritumiseks paaritumise paaritumisele paaritumisel
+17	7817	summutama	summutada summutatud summutab summutavad summutasid summutama summutanud summutan summutage summutame
+18	7818	napsama	napsata napsas napsab napsame napsavad napsa napsan napsasid napsates napsama napsanud napsasin
+19	7819	peletis	peletis peletised peletist peletise
+20	7820	eesriie	eesriie eesriided eesriiet
+21	7821	isetu	isetu isetud isetute isetut isetult
+22	7822	maitsekas	maitsekas maitsekalt maitsekad maitseka maitsekat maitsekaid
+23	7823	antiikne	antiikne antiikse antiiksed antiikset antiiksete antiikseid
+24	7824	kirjutusmasin	kirjutusmasin kirjutusmasina kirjutusmasinat kirjutusmasinal kirjutusmasinaga kirjutusmasinad kirjutusmasinate
+25	7825	vars	varsi vars varre varred vart varrega varrel varte vardis
+26	7826	uhkustama	uhkustada uhkusta uhkustab uhkustas uhkustad uhkustama uhkustan uhkustavad
+27	7827	süüdimõistetud	süüdimõistetud
+28	7828	nodi	nodi nodist
+29	7829	rai	raina raidel
+30	7830	maitsetu	maitsetu maitsetult maitsetut
+31	7831	liialdus	liialdus liialdusena liialduste liialdusi liialdused
+32	7832	kehvem	kehvem kehvemaks kehvemad
+33	7833	truudusetu	truudusetu truudusetus truudusetust truudusetud truudusetut
+34	7834	haigushoog	haigushoog haigushood haigushoo haigushoogu haigushooge
+35	7835	tormakas	tormakas tormakalt tormakad tormakat
+36	7836	sinilind	sinilind sinilindu sinilinnu sinilinnud
+37	7837	tehisintellekt	tehisintellekt tehisintellekti tehisintellektiga tehisintellektile
+38	7838	tala	tala talad talasid talani talade talaga
+39	7839	kehaehitus	kehaehitusega kehaehitus kehaehituse kehaehitust
+40	7840	radiaator	radiaator radiaatori radiaatorit radiaatoriga
+41	7841	sõjaväebaas	sõjaväebaasi sõjaväebaas sõjaväebaasis sõjaväebaasist sõjaväebaasid
+42	7842	lühis	lühisesse lühis lühise lühises
+43	7843	kaardimäng	kaardimängus kaardimäng kaardimängu kaardimängud kaardimänge
+44	7844	rakendus	rakendus rakendust rakenduse rakendused rakendusi rakenduste
+45	7845	ilastama	ilastab ilastad ilasta ilastama ilastasid ilastas ilastada ilastavad ilastav
+46	7846	terrorirünnak	terrorirünnak terrorirünnaku terrorirünnakut terrorirünnakute terrorirünnakust terrorirünnakuid terrorirünnakud terrorirünnakus terrorirünnakuga
+47	7847	koduloom	koduloomad koduloom koduloomi kodulooma koduloomade koduloomaks koduloomadest koduloomadega koduloomaga
+48	7848	keskaegne	keskaegne keskaegse keskaegsed keskaegset keskaegses keskaegsete keskaegsest
+49	7849	demokraatlik	demokraatlik demokraatliku demokraatlikult demokraatlikud demokraatlikust demokraatlike demokraatlikku demokraatlikus
+50	7850	uim	uimed uimas uime uim uimede uimi uimedega
+51	7851	kõrgendik	kõrgendikul kõrgendik kõrgendikule kõrgendiku kõrgendikku kõrgendikult
+52	7852	smugeldama	smugeldada smugeldas smugeldab smugeldavad smugeldasid smugeldati smugeldan smugeldanud smugeldatud smugeldasin smugeldame
+53	7853	kuningalinn	kuningalinna kuningalinnas kuningalinnast kuningalinn
+54	7854	poliis	poliis poliisi poliise poliisiga poliisid
+55	7855	otsejoon	otsejoones
+56	7856	sorr	sorri
+57	7857	läbinisti	läbinisti
+58	7858	unimüts	unimüts unimütsid unimütsi
+59	7859	ila	ila ilana
+60	7860	auahne	auahne auahned auahnete auahnet auahneks
+61	7861	vader	vader vaderi vaderiga vaderit
+62	7862	faks	faks faksiga fakse faksist
+63	7863	pildistamine	pildistamine pildistamiseks pildistamist
+64	7864	väljendus	väljendus väljenduse väljendust väljenduseks väljendused
+65	7865	välgatus	välgatus välgatust välgatused välgatusi välgatusest
+66	7866	skandaalne	skandaalsetesse skandaalne skandaalset skandaalsesse
+67	7867	fotokas	fotokas fotoka fotokat fotokaga fotokad
+68	7868	nektar	nektarit nektar nektari nektarist nektariga
+69	7869	käskjalg	käskjalg käskjala käskjalad käskjalga käskjalaga käskjalast
+70	7870	koosviibimine	koosviibimine koosviibimise koosviibimisel koosviibimist koosviibimisele koosviibimisi koosviibimised
+71	7871	salakaup	salakaupa salakauba salakaup salakaubana salakaubaga salakaubast
+72	7872	klikk	kliki klikki klikk klikke klikid klikkide
+73	7873	eitamine	eitamine eitamise eitamisest
+74	7874	rahvastik	rahvastiku rahvastikust rahvastik rahvastikku
+75	7875	maalane	maalane maalased maalaste maalase maalastele maalastel
+76	7876	poodium	poodiumile poodiumil poodiumi poodium poodiumilt
+77	7877	lisand	lisand lisanditega lisandid lisandit lisandiga lisandiks lisandi lisandeid lisandite lisanditeta
+78	7878	ristsõna	ristsõna ristsõnu ristsõnad ristsõnade ristsõnades
+79	7879	kohemai	kohemaid
+80	7880	bee	bee
+81	7881	laava	laava laavat laavast laavasse laavaga
+82	7882	rästik	rästik rästiku rästikute rästikud rästikut
+83	7883	pinnapealne	pinnapealne pinnapealsed pinnapealselt pinnapealse pinnapealseks pinnapealset
+84	7884	õpetlane	õpetlane õpetlased õpetlaste õpetlase õpetlast
+85	7885	rändaja	rändaja rändajad rändajate rändajaid rändajale
+86	7886	forell	forell forelli forelle forellid
+87	7887	küsimine	küsimine küsimise küsimisega
+88	7888	tuksuma	tuksub tuksumas tuksuv tuksuvat tuksu tuksuma tuksuvad tuksus
+89	7889	poeem	poeemi poeem poeeme poeemid poeemist
+90	7890	kõrvalekalle	kõrvalekalle kõrvalekaldeid kõrvalekalded kõrvalekallet kõrvalekaldest kõrvalekalde
+91	7891	täheldama	täheldanud täheldatud täheldasin täheldada täheldame täheldati täheldan täheldama täheldas tähelda
+92	7892	kehastama	kehastab kehastada kehastan kehastas kehastama kehastad kehastades kehastate kehastavad
+93	7893	lünk	lüngad lünk lünki lünka lünga lünkasid
+94	7894	seedimine	seedimine seedimist seedimiseks seedimisele seedimisega seedimise
+95	7895	tehnoloogiline	tehnoloogiline tehnoloogiliselt tehnoloogilise tehnoloogilist tehnoloogilisi tehnoloogilised tehnoloogiliste
+96	7896	nõrguke	nõrguke nõrgukesed nõrgukese nõrgukeste nõrgukesi
+97	7897	soldat	soldat soldati soldatid soldatile soldatit soldatite soldateid
+98	7898	mikroskoop	mikroskoobi mikroskoobiga mikroskoop mikroskoopi mikroskoobis mikroskoobid
+99	7899	räppima	räpi räppida räpib räpin räppima räpid räppimas
+100	7900	üksmeel	üksmeel üksmeelt üksmeelel üksmeele üksmeelele üksmeeles

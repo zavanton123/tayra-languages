@@ -1,0 +1,100 @@
+1	2101	imetlema	imetlen imetleda imetlesin imetlenud imetlema imetleb imetled imetlevad imetle imetles imetleme imetlesid imetlege imetletud imetlesime imetlete imetletakse imetledes imetleksid imetleks imetlev imetlemas
+2	2102	nähtamatu	nähtamatu nähtamatuks nähtamatud nähtamatut nähtamatus nähtamatult nähtamatuna nähtamatute nähtamatust nähtamatuid nähtamatusse nähtamatutest nähtamatul
+3	2103	kallas	kaldale kaldal kallas kalda kaldast kallast kallastel kaldalt kallastele kallaste kallastelt kaldad kaldasse kaldaid kaldani kallasteni kallastest
+4	2104	seiklus	seiklus seiklusi seiklused seiklust seikluse seiklustest seikluste seiklusest seiklusele seikluseks seiklusega seikluses seiklustesse seiklustes seiklusel seiklustele seikluseid seiklusena seiklusteks seiklustega
+5	2105	peen	peen peened peenist peene peenelt peent peenem peeneks peenes peente peenemat peeneid peenest peenesse peenemad peenemaid peenele peeni peenema peenel peentes peentest peenete
+6	2106	väljapääs	väljapääs väljapääsud väljapääse väljapääsude väljapääsust väljapääsuni väljapääsuks väljapääsuta väljapääsusid väljapääsuga
+7	2107	tehas	tehases tehase tehas tehasesse tehasest tehast tehased tehaseid tehastes tehaste tehasele tehasega tehastest tehastesse tehaseni tehasel
+8	2108	liigutus	liigutus liigutusi liigutust liigutused liigutuse liigutusega liigutustega liigutuste liigutusest liigutustes liigutusteta liigutusele liigutustele
+9	2109	vägivaldne	vägivaldne vägivaldsed vägivaldseks vägivaldse vägivaldseid vägivaldset vägivaldselt vägivaldsete vägivaldsem vägivaldsest vägivaldses vägivaldsetest vägivaldsele vägivaldsel vägivaldsesse vägivaldsetele
+10	2110	tempel	tempel templi templisse templis templist templit templid templeid templites templile templiga templitest templite templini templiks templitesse
+11	2111	kogemata	kogemata
+12	2112	meeleheide	meeleheitel meeleheide meeleheite meeleheidet meeleheites meeleheitest meeleheitesse meeleheitele meeleheitega meeleheiteks
+13	2113	turvamees	turvamehed turvamees turvamehe turvameest turvamehi turvameeste turvameestest turvameestega turvamehena turvameestele turvameheks turvamehele turvameestel turvamehega turvamehest turvameestelt turvamehel turvamehelt turvameesteta
+14	2114	papa	papa papale papat papaks papaga
+15	2115	satelliit	satelliit satelliidi satelliidid satelliiti satelliidiga satelliite satelliitide satelliidilt satelliidile satelliitidest satelliidil satelliitidele satelliitidega satelliidist
+16	2116	surmama	surmav surmava surmavalt surmavat surmavad surmavaks surmavaid surmavate surmavast surmavas surmab surmanud surmavale surmavatest surmavasse surmatud surmati surmatakse surma surmas surmad surmaks surmasid surmata
+17	2117	missugune	missugune missugust missugused missuguse missuguseid missuguses missugusest missugusel missuguste missugusele missugusesse missugustest missuguseks
+18	2118	press	pressi press pressile pressis pressiga pressid pressisid pressist pressil presse pressiks
+19	2119	kasvõi	kasvõi
+20	2120	soo	soo soost sool soos sohu sood soodes soole soode sooni sooga soodest soid soosid soosse
+21	2121	vahtima	vahib vahite vahivad vahtida vahtima vahtis vahin vahtinud vahtisin vahtige vahime vahtimas vahtisime vahiksid vahitakse vahtisite vahiksin
+22	2122	parkima	parkida pargitud parkis parkisin pargin parkima pargib parkinud pargime parkige parkisime pargi parkisite pargivad parkimas pargite pargid parkisid parkides pargiks
+23	2123	jakk	jakk jaki jakki jakiga jakele jakid jakis jakist jakel jakke jakil jakest jakkide jakile jakilt jakita
+24	2124	välk	välk välku välgu välguga välgust välgud välguna välguta välguks välgule välkudega välgul välgult välgus välkudes välke
+25	2125	tosin	tosin tosinat tosina tosinaid tosinate tosinast tosinad tosinale tosinal tosinaga tosinas tosinates
+26	2126	madam	madam madami madamile
+27	2127	seaduslik	seaduslik seaduslikult seaduslikuks seaduslikku seadusliku seaduslikud seaduslikke seaduslike seaduslikul seaduslikus seaduslikule seaduslikust seaduslikest seaduslikeks
+28	2128	murduma	murdunud murdub murdus murduvad murdumas murduda murduma murduks murdun murdud murdusin murduksid murdume murduksin murduvat
+29	2129	teisipäev	teisipäeval teisipäev teisipäeva teisipäevaks teisipäevani teisipäevast teisipäevad teisipäevale teisipäevadel
+30	2130	tulevane	tulevane tulevase tulevast tulevaste tulevased tulevasi tulevasele tulevastele tulevasest tulevasel tulevaseks tulevastel tulevastest tulevasteks tulevastes tulevases tulevasse
+31	2131	juhuslikult	juhuslikult
+32	2132	uimasti	uimasteid uimastid uimastite uimasti uimastitega uimastit uimastitest uimastitele uimastiga uimastites
+33	2133	vabatahtlik	vabatahtlik vabatahtlikud vabatahtlikke vabatahtlikuna vabatahtlikku vabatahtlikuks vabatahtlike vabatahtliku vabatahtlikeks vabatahtlikena vabatahtlikega vabatahtlikest vabatahtlikele vabatahtlikel vabatahtlikuga
+34	2134	eraldama	eraldatud eraldada eraldab eraldama eraldavad eralda eraldas eraldanud eraldati eraldame eraldan eraldasid eraldage eraldasin eraldatakse eraldad eraldasime eraldades eraldaks eraldate eraldatuks eraldata eraldaksite
+35	2135	kirjanik	kirjanik kirjanikuks kirjaniku kirjanikud kirjanike kirjanikku kirjanikke kirjanikuga kirjanikuna kirjanikule kirjanikust kirjanikest kirjanikele kirjanikul kirjanikega kirjanikult
+36	2136	pärima	päri pärinud pärib pärida pärisin pärima pärid pärisid päritud pärivad pärin pärite päritav pärisite päriks päritakse pärige pärisime pärides pärime päriksid pärimas
+37	2137	parata	parata
+38	2138	rämps	rämps rämpsu rämpsust rämpsuga rämpsuks rämpsuna rämpsus rämpsul
+39	2139	stseen	stseeni stseen stseenis stseene stseenid stseenist stseeniga stseenide stseeniks stseenides stseenidest stseenidega
+40	2140	vaimne	vaimselt vaimne vaimse vaimset vaimsed vaimseid vaimsete vaimses vaimsele vaimsest vaimseks vaimsetest vaimsel vaimsesse vaimsetele
+41	2141	poiss-sõber	poiss-sõber poiss-sõbra poiss-sõpra poiss-sõbraga poiss-sõbrast poiss-sõbrale poiss-sõbrad poiss-sõpru poiss-sõbral poiss-sõbraks poiss-sõbralt poiss-sõpradest poiss-sõpradega poiss-sõbrana poiss-sõbrata poiss-sõprade
+42	2142	ebaõnnestuma	ebaõnnestunud ebaõnnestus ebaõnnestub ebaõnnestusid ebaõnnestusin ebaõnnestuda ebaõnnestud ebaõnnestu ebaõnnestuma ebaõnnestuvad ebaõnnestun ebaõnnestume ebaõnnestusime ebaõnnestuks ebaõnnestusite ebaõnnestute ebaõnnestumas
+43	2143	maantee	maantee maanteel maanteed maanteele maanteelt maanteid maanteest maanteedel maanteeni maanteede maanteega
+44	2144	kõlbama	kõlba kõlbab kõlbavad kõlbaks kõlvanud kõlban kõlbad kõlbas kõlbama kõlvatud kõlbasid kõlvata kõlbate
+45	2145	kits	kitse kits kitsi kitsed kitsede kitsega kitseks kitsele kitsid kitsesid kitsest kitsedega kitsel kitsedele kitsedest kitsedel kitsena
+46	2146	tunnetama	tunnetan tunneta tunnetab tunnetad tunnetada tunnetama tunnetavad tunnetasin tunnetage tunnetanud tunnetasid tunnetas tunnetame tunnetate tunnetades tunnetaksid
+47	2147	kohutama	kohutavat kohutavad kohutab kohutas kohutatud kohutada kohutasid
+48	2148	kallistama	kallista kallistada kallistan kallistame kallistama kallistas kallistab kallistad kallistage kallistasin kallistavad kallistanud kallistasid kallistaks kallistaksid kallistamas kallistasite kallistasime kallistaksin kallistate kallistades kallistatakse
+49	2149	lita	lita litad litat litaks litale litaga litast litasid
+50	2150	kasima	kasi kasige kasida kasimata kasitud kasima kasime kasid
+51	2151	emotsionaalne	emotsionaalne emotsionaalselt emotsionaalset emotsionaalse emotsionaalseks emotsionaalsed emotsionaalseid emotsionaalsete emotsionaalsest emotsionaalses emotsionaalsele emotsionaalsel emotsionaalsetest
+52	2152	leiutama	leiutas leiutasin leiutasid leiutanud leiutatud leiutada leiutati leiutama leiutasime leiutab leiutan leiutavad leiutad leiutasite leiutame leiutatakse leiutaks leiutage leiutades
+53	2153	pede	pede peded pedeks pedesid pedede pedest pedet pededest pededeks pededega pedel pededele pedega pededel pedele
+54	2154	härrasmees	härrasmees härrasmehed härrasmehe härrasmeest härrasmeeste härrasmehele härrasmehega härrasmehi härrasmehest härrasmeheks härrasmehena härrasmeestele härrasmehel härrasmehelt härrasmeestega härrasmeestel
+55	2155	kopter	kopter kopteri kopterit kopteriga kopterid kopterisse kopterist kopteris kopterile koptereid kopteritega kopteril kopterite kopteritel kopterilt
+56	2156	piraat	piraadid piraat piraatide piraadi piraate piraatidega piraatidest piraati piraadiks piraatidele piraadist piraadiga piraatidel piraatideks piraatidelt piraadina piraadile
+57	2157	väheke	väheke vähekeseks vähekese
+58	2158	vastupidi	vastupidi
+59	2159	vajuma	vajub vajus vajunud vajuda vajuvad vajuma vajusid vajud vaju vajun vajusin vajume vajuks vajumas vajutaks vajusime vajudes vajuksid vajuv
+60	2160	päästik	päästikule päästikut päästik päästiku päästikul päästikuga päästikuks päästikult päästikud päästikust päästikuni päästikuid
+61	2161	krahv	krahv krahvi krahviks krahvile krahviga krahvid krahvil krahvilt
+62	2162	pension	pensionile pensionil pensioni pension pensionist pensionit pensionini pensionid pensioniga pensionilt pensioniks pensione
+63	2163	vastuvõtt	vastuvõtt vastuvõtu vastuvõttu vastuvõtule vastuvõtul vastuvõtus vastuvõtuks vastuvõtust vastuvõtud vastuvõtuga vastuvõtte vastuvõtult vastuvõttudel
+64	2164	inetu	inetu inetuks inetud inetut inetult inetuid inetute inetuna
+65	2165	lammas	lammas lambad lamba lambaid lammast lammaste lammastega lammastest lambaga lambale lambast lambaks lambana lambal lammastel lambalt lammastele
+66	2166	mantel	mantel mantli mantlit mantlid mantliga mantlis mantleid mantlist mantlil mantlisse mantlita mantlite
+67	2167	kuniks	kuniks
+68	2168	saabumine	saabumist saabumisest saabumise saabumine saabumiseni saabumiseks saabumisel
+69	2169	küsitlema	küsitleda küsitlema küsitleme küsitles küsitlenud küsitlesin küsitleb küsitlesid küsitle küsitleti küsitlen küsitlesime küsitletakse küsitlevad küsitletud küsitlege küsitled küsitlete küsitlesite küsitlemas küsitledes küsitleks küsitleksid küsitletaks
+70	2170	teistmoodi	teistmoodi
+71	2171	rivi	rivist rivvi rivi rivis rivisse
+72	2172	mürgitama	mürgitatud mürgitada mürgitas mürgitati mürgitasid mürgitanud mürgitab mürgitavad mürgitama mürgitasin mürgitad mürgitan mürgitatakse mürgitame mürgitaks mürgitasite mürgitate mürgitades
+73	2173	laevastik	laevastiku laevastik laevastikku laevastikus laevastikuga laevastikule laevastikust laevastikul laevastikud laevastikult
+74	2174	habe	habe habet habeme habemega habemest habemes habemetega habemeta habemed habemesse habemele habemel
+75	2175	füüsiline	füüsiline füüsilist füüsilise füüsilisi füüsilised füüsilises füüsilisest füüsiliseks füüsiliste füüsilistest füüsilisele füüsilisel füüsilisse füüsilistele
+76	2176	risti	risti ristil ristis ristid ristile ristiga ristist ristilt ristisid ristide ristiks ristidega
+77	2177	eirama	eirata eira eirab eiras eirasid eirad eirama eiranud eirates eiran eirasin eiravad eirame eirake eirasite eirate eiraks eiratakse eirasime eiraksin eiratud
+78	2178	peituma	peitub peituda peituvad peitubki peituma peitunud peituvat peitume peituge peitusid peitudes peituks peitud peitun peitusin
+79	2179	eksperiment	eksperiment eksperimendi eksperimenti eksperimente eksperimendid eksperimendist eksperimendis eksperimentide eksperimentidest eksperimendiga eksperimendiks eksperimentideks eksperimentides eksperimentidega eksperimentidele eksperimendile eksperimendil
+80	2180	järjest	järjest
+81	2181	lõvi	lõvi lõvid lõvide lõvisid lõvidele lõviga lõvist lõvidega lõvile lõvidest lõvil lõviks lõvis lõvidel
+82	2182	nõrkus	nõrkus nõrkust nõrkuse nõrkusi nõrkused nõrkuseks nõrkusest nõrkuste nõrkustest nõrkusele nõrkusega nõrkusena nõrkustele nõrkuses nõrkuseid
+83	2183	sageli	sageli sagedamini
+84	2184	meetod	meetod meetodid meetodeid meetodit meetodi meetoditega meetodite meetodil meetodiga meetoditest meetodites meetodist meetodiks meetoditele
+85	2185	kooma	koomas koomale koomasse kooma koomast kootud koomat
+86	2186	eitama	eitada eita eitab eitad eitan eitas eitanud eitama eitate eitame eitasid eitasin eitades eitavad eitaks eitasite eitavat
+87	2187	positiivne	positiivne positiivselt positiivset positiivse positiivsed positiivseks positiivseid positiivsest positiivsele positiivsete positiivses positiivsena positiivsel positiivsetest positiivsemalt
+88	2188	admiral	admiral admirali admiralile admiraliga admiraliks admiralid admiralil
+89	2189	lapsepõlv	lapsepõlve lapsepõlves lapsepõlvest lapsepõlv lapsepõlvele lapsepõlvega lapsepõlveks
+90	2190	sõiduk	sõiduk sõiduki sõidukit sõidukist sõidukid sõidukeid sõidukis sõidukite sõidukiga sõidukisse sõidukile sõidukitest sõidukil sõidukitega sõidukitesse sõidukitele
+91	2191	aktiveerima	aktiveeritud aktiveerida aktiveeri aktiveerin aktiveeris aktiveerib aktiveerige aktiveerima aktiveeriti aktiveerinud aktiveerisid aktiveerisin aktiveeritakse aktiveerime aktiveerivad aktiveeriks aktiveerid aktiveerisime aktiveeriksid aktiveerides aktiveerite
+92	2192	topelt	topelt
+93	2193	suhkur	suhkrut suhkur suhkruga suhkru suhkruta suhkrust suhkruks suhkrus suhkruid suhkrule
+94	2194	neljapäev	neljapäeval neljapäev neljapäeva neljapäevaks neljapäevani neljapäevast neljapäevaga neljapäevad neljapäevadel
+95	2195	vigastatud	vigastatud vigastatu vigastatutest
+96	2196	maagiline	maagiline maagilist maagilised maagilise maagilisi maagiliselt maagiliste maagilisel maagilises maagilisest maagiliseks maagilisse maagilistest maagilisele
+97	2197	osutuma	osutus osutuda osutub osutunud osutusid osutuvad osutuks osutu osutuma osutusin
+98	2198	peenis	peenis peenise peenist peenisega peenisest peenisele peenised peeniseid peenisel peenisesse peenistega peenises peeniste peenistest peeniseta peeniselt
+99	2199	pihk	pihku pihus pihuks pihud pihu pihkudega pihust piha pihk
+100	2200	üllatav	üllatav üllatavalt üllataval üllatavad üllatavat üllatava üllatavaid üllatavam

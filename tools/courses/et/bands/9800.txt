@@ -1,0 +1,100 @@
+1	9701	märul	märul märulit märuli märuliks märulist
+2	9702	kõrvaltee	kõrvalteid kõrvalteed kõrvaltee kõrvalteele kõrvalteel
+3	9703	bai	bai
+4	9704	muuhulgas	muuhulgas
+5	9705	sõnapidaja	sõnapidaja
+6	9706	tihtipeale	tihtipeale
+7	9707	jokker	jokker
+8	9708	konditsioneerima	konditsioneeri konditsioneerid
+9	9709	naabrivalve	naabrivalve naabrivalvest naabrivalvet
+10	9710	nipsakas	nipsakas nipsakat nipsaka nipsakad
+11	9711	emb-kumb	emb-kumb emba-kumba
+12	9712	ruutmeeter	ruutmeetrit ruutmeetri ruutmeeter
+13	9713	keeristorm	keeristorm keeristormi keeristormid keeristorme
+14	9714	immigratsioon	immigratsiooni immigratsioon immigratsioonist
+15	9715	lugupidamatus	lugupidamatust lugupidamatus lugupidamatusest
+16	9716	kräkk	kräkki kräkk kräki
+17	9717	psühhoos	psühhoos psühhoosi psühhoosist
+18	9718	templirüütel	templirüütlid templirüütlite templirüütel templirüütlitest
+19	9719	rebimine	rebimine rebimiseks rebimist rebimisega rebimisest
+20	9720	ultimaatum	ultimaatumi ultimaatum ultimaatumit ultimaatumeid
+21	9721	geel	geeli geel geeliga
+22	9722	õline	õline õlised õlise õliseks õliste
+23	9723	arvutisüsteem	arvutisüsteemi arvutisüsteem arvutisüsteemis arvutisüsteemide arvutisüsteemiga arvutisüsteemid
+24	9724	paavian	paavian paavianid paaviani
+25	9725	tundemärk	tundemärgid tundemärke tundemärk tundemärkidega
+26	9726	toonima	toonid toonitud toonis toonides
+27	9727	maailmakord	maailmakorra maailmakord maailmakorda maailmakorrale
+28	9728	lagrits	lagrits lagritsat lagritsa lagritsast
+29	9729	spinat	spinat spinatit spinati spinatiga
+30	9730	omastama	omastada omastasin omastab omastas omastanud
+31	9731	plaanitsema	plaanitsed plaanitseb plaanitsevad plaanitsete plaanitses
+32	9732	tüürima	tüürib tüürida tüürin tüüris tüürite
+33	9733	loodusseadus	loodusseadus loodusseadused loodusseadusi loodusseaduste loodusseadustega loodusseadustele
+34	9734	väljakaevamised	väljakaevamised väljakaevamisi väljakaevamistel väljakaevamiste väljakaevamistelt väljakaevamistega väljakaevamistele
+35	9735	pinnima	pinnida pinnima pinnis pinnisin pinnin pinnime
+36	9736	premeerima	premeerida premeerima premeeritakse premeerib premeeriti premeeritud premeeri premeerime premeerin
+37	9737	radikaal	radikaal radikaalid radikaale radikaali radikaalide radikaalidega radikaalideks
+38	9738	soolestik	soolestik soolestiku soolestikku soolestikus soolestikust
+39	9739	lennukipilet	lennukipiletid lennukipileti lennukipilet lennukipiletit lennukipileteid
+40	9740	filtreerima	filtreerida filtreerib filtreeritud filtreerivad filtreerimata filtreerima filtreerisin filtreeri filtreeritakse
+41	9741	sõrmeots	sõrmeotsad sõrmeotstega sõrmeotsi sõrmeotsa sõrmeotsaga sõrmeotste sõrmeotstel sõrmeotstes sõrmeotstest
+42	9742	sünnipäevalaps	sünnipäevalaps sünnipäevalapsele sünnipäevalapse
+43	9743	armusuhe	armusuhe armusuhted armusuhet armusuhtest
+44	9744	kinnismõte	kinnismõte kinnismõtte kinnismõtteks kinnismõtete
+45	9745	halvatus	halvatus halvatuse
+46	9746	lõgismadu	lõgismadu lõgismao lõgismaod lõgismadusid
+47	9747	laviin	laviin laviini
+48	9748	hieroglüüf	hieroglüüfid hieroglüüfe hieroglüüfide hieroglüüf
+49	9749	pärslane	pärslased pärslane pärslaste pärslasi pärslastele
+50	9750	suusk	suusad suuski suusa suuskadel suuskade
+51	9751	külastamine	külastamine külastamiseks külastamisest
+52	9752	klots	klotsi klots klotsid klotse
+53	9753	valvepost	valveposti valvepostil valvepost valvepostid valvepostile
+54	9754	romula	romula romulani romulas romulast romulasse
+55	9755	kult	kult kuldid kulti kulte kultide kuldi
+56	9756	kajama	kajab kajavad kajamas kajama kajas kajad kajasid
+57	9757	ahelreaktsioon	ahelreaktsiooni ahelreaktsioon
+58	9758	teokarp	teokarbi teokarbid teokarp teokarpe teokarpi
+59	9759	kura	kura kuram kurad
+60	9760	vastumeelsus	vastumeelsus vastumeelsust vastumeelsuse vastumeelsusest
+61	9761	merepind	merepinnast merepinna merepinda merepind merepinnal
+62	9762	gaasimask	gaasimaskid gaasimask gaasimaski gaasimaske
+63	9763	imestuma	imestunud
+64	9764	siitpoolt	siitpoolt
+65	9765	sealjuures	sealjuures
+66	9766	misjaoks	misjaoks
+67	9767	häh	häh
+68	9768	sedaviisi	sedaviisi
+69	9769	biopsia	biopsia biopsiat
+70	9770	hädajuht	hädajuhus hädajuhtudeks
+71	9771	hävitustöö	hävitustöö hävitustööd
+72	9772	meisterlik	meisterlik meisterlikult meisterlikku meisterliku meisterlikud
+73	9773	bluus	bluusi bluus bluusist
+74	9774	geoloog	geoloog geoloogid geoloogi
+75	9775	graatsia	graatsia graatsiat graatsiaga
+76	9776	tütretütar	tütretütar tütretütrele tütretütre tütretütrega tütretütart
+77	9777	helesinine	helesinine helesinist helesinise helesinises helesinised
+78	9778	obelisk	obelisk obeliski obeliskid
+79	9779	supermodell	supermodell supermodelli supermodellid supermodelliga supermodellist
+80	9780	hapukurk	hapukurk hapukurgid hapukurki hapukurke hapukurgi
+81	9781	jututeema	jututeema jututeemat jututeemasid jututeemaks jututeemad
+82	9782	sisustus	sisustus sisustuse sisustust sisustusega
+83	9783	kõrgliiga	kõrgliiga kõrgliigas kõrgliigasse
+84	9784	revolutsionäär	revolutsionäär revolutsionäärid revolutsionääri revolutsionääre revolutsionäärideks
+85	9785	vagel	vaglad vaklu vagla vakladele vaklade vagel vaklasid
+86	9786	suhkruvatt	suhkruvatti suhkruvatt suhkruvati
+87	9787	kupee	kupee kupeesse kupees kupeed kupeest
+88	9788	kaalukas	kaalukas kaalukad kaaluka kaalukaid kaalukat
+89	9789	turvakood	turvakood turvakoodi turvakoodid turvakoode
+90	9790	ametiaeg	ametiaja ametiaeg ametiaega ametiajal ametiajaks
+91	9791	slaid	slaid slaidid slaide slaidi slaidide
+92	9792	printsiip	printsiip printsiibid printsiipi printsiibi printsiipide printsiipe printsiibist
+93	9793	etniline	etniline etnilise etnilist etnilised etniliselt etnilisi etniliste
+94	9794	elektron	elektronid elektronide elektron elektrone elektroni elektronidest
+95	9795	massihävitusrelv	massihävitusrelvi massihävitusrelvad massihävitusrelvade massihävitusrelva massihävitusrelv
+96	9796	vatrama	vatrab vatras vatran vatrad vatra vatrasin vatravad
+97	9797	patroon	patroon patrooni patroonid patrooniks
+98	9798	väle	väle väledad väledalt
+99	9799	sõjaaeg	sõjaajal sõjaaeg sõjaaja
+100	9800	puhkeruum	puhkeruumi puhkeruumis puhkeruum

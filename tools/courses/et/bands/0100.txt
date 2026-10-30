@@ -1,0 +1,100 @@
+1	1	olema	on pole olen oli oled ole oleks olla oleme olgu olnud olete olema olid olin polnud poleks ongi oleksin olemas oleksid olevat olime olge polegi oligi olite oledki oleksime olles olengi olegi oleksite olemegi polnudki olev olnudki oleva olgem olevad
+2	2	mina	ma mu mind mul mulle minu mina minuga minust minul minult minule minus minagi meiegi mullegi minugi minulgi meilgi minustki meilegi minulegi minutagi meistki
+3	3	see	see seda selle need sellest sest sellega selles sellele selleks sel sellel sellesse sellelt selleni selleta sedagi ses sellegi sellena sellestki selletagi needki selt neilgi sellegagi neilegi selleski nendegi sellelgi sesse
+4	4	sina	sa su sind sinu sulle sul sina sinuga sinust sinult sinul sinus sinule sinagi teiegi sullegi sinulgi sinulegi sinas
+5	5	ei	ei ära ärge ärme ärgu ärgem äragi
+6	6	tema	ta tema teda talle tal temaga temast temalt temale temal temagi nemadki temalgi tedagi temalegi
+7	7	et	et
+8	8	ja	ja
+9	9	mis	mis mida mille millest millega milles milleks mil millele millel millesse milleni millelt milleta millena millede milledest milledel milledega milledele milledes
+10	10	meie	me meie meil meid meile meiega meist meilt
+11	11	kui	kui
+12	12	saama	saa saab saan saad saada sain saanud saame said sai saaks saama saavad saate saaksin saime saaksid saaksime saite saaksite saadud saage saadaval saanudki saamas saades saadaks saadakse saadi saagu saidki saakski saigi saabki saingi saamaks saanuks saamata saamatu saimegi
+13	13	teie	te teie teid teile teil teist teiega teilt teistki
+14	14	kas	kas
+15	15	nemad	nad neid nende neile neil neist nendega nemad nendest neilt neidude neidki neide neidudele neidudega neidudel neidusid neidudest
+16	16	minema	minema läheb mine minna lähme lähen läks läinud lähed lähe minge läheme läksid lähevad läksin läksime läheks lähete läheksid minemas läheksin minnes läksite mingu läheksime lähegi lähebki läheksite läkski minemast läinudki minevat minnakse minemata lähedki läksidki minda mindi mingem minev
+17	17	teadma	tea tead tean teada teate teab teadnud teame teadsin teadma teadsid teavad teadis teatud teaks teaksid teagi teadnudki teadmata teades teadsite teaksin teadsime teaksite teatavaks teadvat teadke teatakse teaksime teadmaks teadnuks teataks teatav teati teadku teatavat teadmatu teadmatult teadmatuks teadnuksin
+18	18	tegema	teha tegema teen teeb teinud teeme tegid tegi teed tegin tehtud teete teevad tehke tegemist tegime teeks teeksid tegite teeksin tehakse tehti tehes tegemas teengi tegemine tegemiseks teeksite teeksime tehta teebki tegemise tegemata tegidki tegigi tehtu teevadki teinudki tegemast tegemisi
+19	19	kõik	kõik kõige kõike kõiki kõigest kõigile kõigi kõigil kõigist kõikide kõigega kõigele kõigiga kõiges kõikidele kõigis kõikidest kõigeks kõigel kõikidel kõigilt kõikides kõikidesse kõigisse kõigesse kõikidega kõikidelt kõigiks kõigini kõikideks kõigelt kõigeta
+20	20	tahtma	tahad tahan taha tahab tahtsin tahtnud tahaks tahate tahavad tahtis tahaksin tahtsid tahame tahaksid tahtsime tahtma tahagi tahtsite tahta tahaksime tahaksite tahetakse tahtnudki taheti tahtmatult tahtiski taheta tahakski tahtnuks tahetud tahtvat tahtmatu tahtes tahtnuksin tahtsitegi tahtmata tahtagi tahetaks tahtmas tahetaksegi
+21	21	pidama	pean peame peaks peab pidanud peaksid peaksin peaksime pidi peate pidin peavad pidid pidage pidada peaksite pidime pead pidama pidasin pidas pidasid peabki peetakse pidite peakski pidanuks peeti pidavat pidasime peamegi peetud pidades pidanudki pidigi pidasite pidanuksin peavadki pidanuksid peetaks
+22	22	tulema	tule tuleb tuli tulla tulen tulge tulid tulin tuled tulevad tulnud tulemast tulema tuleks tuleme tulime tulite tulemas tulete tuleksid tulles tulegi tuleta tuleksin tulebki tulgu tuleksite tulidki tulnudki tullakse tulemata tuligi tulevat tuldi tuleval tulevadki tulev tuldud tulnuks tuleksime
+23	23	jah	jah
+24	24	oma	oma omad omale omadega omal omaks omast omi omas omaga omadest omade omasid omadele omasse omalt omades omadel omadeks omana omadelt omadesse omil omani omadeni
+25	25	aga	aga agasid
+26	26	ütlema	öelda ütles ütle ütlesin ütlesid ütlen öelnud ütleb ütlema ütled öelge ütleks ütlevad ütleme öeldes öeldi ütlesite öeldakse öeldud ütleksin ütlete ütleksid ütelda ütlesime ütlemata ütlemas ütelnud ütleksite ütleski ütelge öeldut öelgu ütlemaks ütlemast ütlevat ütlematagi ütleksime öeldaks öelnuks öeldust
+27	27	siis	siis
+28	28	nii	nii
+29	29	hea	hea parem head parim heaks häid parima paremat paremaks parimad parema parimat paremad heas paremal parimaid paremaid heade heast heal paremas parimal parimate parimaks paremalt parimatest heades headest parimas heaga parimale paremasse heale headel parimast heasse paremaga paremast headele parematki
+30	30	kes	kes keda kelle kellega kellel kellele kellest kel kelleks kellelt kellesse kellena kelles kelleta kelledel kellede kelleni kelledest kelledele kelledega
+31	31	miski	midagi miski millegi millestki millegagi miskit milleski millelegi millekski millessegi millelgi milletagi milleltki millenigi miskil miskist
+32	32	siin	siin siingi siine siini
+33	33	nägema	näha näinud näed nägin näen näe näeme näeb nägid nägi näete nägema nägemiseni näevad nägite näeks nägime nähes nähtud näeksid nägemine nähti näeksin nähtaval nähakse nägemise nägemata nähtav näeksite nägemiseks nägemisest näeksime nähke nähtaks nägevat nähagi nägemas nägemisega nägemaks nähta
+34	34	rääkima	rääkida räägi räägid räägin rääkima rääkinud räägib rääkis räägime rääkisin rääkisid räägivad räägite rääkisime räägitakse rääkige rääkides räägiks rääkimata rääkisite rääkimas räägiksid räägiti räägitud räägiksin räägita räägigi rääkisingi räägiksime räägiksite rääkiv rääkimast rääkidagi rääkigu rääkivat rääkiva räägitaks rääkigem rääkimaks räägitavat
+35	35	üks	üks ühe ühel ühte ühtegi üht ühes ükski ühele ühest ühtki üheks ühegi ühed ühelt ühega ühelgi ühelegi üheski ühestki üheni ühena ühegagi ühtesid ühtede üheltki yks ühtedele ühekski ühteist ühessegi ühesse ühtedel ühtedest ühtedes
+36	36	ise	ise end enda ennast endale endast endaga endal endalt endas enese endi endasse endid endist enesele endile endalgi enesega endalegi enesest endaks endis eneses endil ennastki endilt eneste eneselt endana enesesse enestele endiga endani enestelt enesel endagagi enestes enestega enestest
+37	37	võima	võib võin võid võiks võivad võiksid võinud võis võiksin võiksime võisid võiksite võisin võidakse võinuks võisime võigu võidi võisite võibki võite võinuksid võinuksin võiski võida võikski võigi võima võinuksime võinuksite võidaks võiv võivat võidud võimast
+38	38	arvama	arvan arvad arvasin arva arvab arvate arvata arvavad arvasid arvanud arvatud arvas arvasime arvame arvama arvaks arvake arvatakse arvanudki arvasite arvaksid arvatagi arvati arvaksin arvavat arvatav arvaksite arvamaks arvanuks arvaku arvatava arvataks arvaksime arvaski arvatavast arvatavat arvatavad arvatu arvatavaid
+39	39	võtma	võta võtta võtan võtke võtab võttis võtma võtame võtaks võtsid võtnud võtad võtsin võetud võtavad võeti võtate võetakse võtsime võttes võtaksid võtaksin võtku võtsite võtaksite võetaks võeta võtmas võtaksime võtmast võtmata võtagi võttiski võtkem võtvat võtmaks võetigi võtnuks võetav võttev
+40	40	nüüd	nüüd nüüdki nyyd
+41	41	kuidas	kuidas
+42	42	asi	asi asja asju asjad asjade asjaga asjast asjadest asjadega asjas asjus asjasse asjale asjata asjana asjades asjadele asjadesse asjal asjadel asjaks asjust asjadeks asjani asjadeta asjadeni asjalt asjadelt asjadena asjusse
+43	43	ka	ka
+44	44	palju	palju rohkem paljud paljude paljusid rohkemat paljudest paljudel paljudele paljudes rohkemgi paljugi paljutki paljut paljuski paljuga paljudega rohkema paljudesse rohkemaks rohkemate paljudeks paljuks paljudelt rohkemaga rohkemas rohkemast paljudki rohkemal rohkematele rohkematel paljule rohkemad rohkemale rohkemaid rohkematest
+45	45	mitte	mitte
+46	46	aeg	aega aeg ajal aja ajast ajaks ajad ajas aegade ajaga aegu aegadel ajus ajani aegadest ajust ajale ajule ajalt ajusse ajul aegadele aegadesse aegades aegadeks aegadega ajana ajuks ajata aegasid
+47	47	välja	välja
+48	48	nagu	nagu
+49	49	andma	anna anda annan andis andke annab andma andsin andnud andsid annad anname antud annavad annaks anti antakse annate annaksid andsime annaksin andsite andes annaksite anta andku andmas andmast annaksime antaks andmata andiski andmaks andkem andev annabki andnuks andvat antigi antama
+50	50	vaatama	vaata vaadake vaadata vaatame vaatan vaatama vaatasin vaatad vaatab vaadanud vaadates vaatas vaatamata vaatasid vaatavad vaatamas vaataks vaatate vaatasime vaataksid vaataksin vaatasite vaadatakse vaataksite vaadatud vaatamast vaataksime vaadaku vaadakem vaadati vaadanudki vaadatagi vaatamaks vaadataks vaatav vaatavat vaadatav
+51	51	miks	miks miksi mikse miksid
+52	52	veel	veel
+53	53	kord	korras korda kord korra korraks korral korraga kordi kordki korrata korrast korrad korrani korrale kordadel korrakski kordadest kordasid kordade kordades kordadele
+54	54	või	või võiga võist võideta võide
+55	55	laskma	lase las lasta laske lasen laskma laseme lasi lasid lased lasin laseb lasknud lasevad laseks lastakse lastud lasku lasete lasti laskis lasime laseksid lasite laseksin lasksid lasksin lastaks laseksite laseksime laskem laskmas lasksime lastes lasksite laskmast laskmata lasknuks laskmaks
+56	56	keegi	keegi kedagi kellegi kellelegi kellegagi kellelgi kellestki kelleltki kellekski kellessegi kelleski kellenagi kelletagi
+57	57	tagasi	tagasi
+58	58	tee	tee teed teel teeks teele teelt teeni teedki teedel teest teede teega teidki teedest teedele tees teeta teedelt teedega teena teesid teesse teedeta
+59	59	mees	mees mehed meest mehe mehi mehega meeste mehele mehel meestega mehest meestest meestele meheks meestel mehelt mehena mehes mehesse meestelt meheni meestes meesteks meheta meestesse meestena meesteta mehist meesteni
+60	60	küll	küll küllaga
+61	61	väga	väga vägagi
+62	62	pea	pead pea pealt peas peast peata peaga päid peade peades peadega peadest peadesse päist peadele peadeta peani peasse
+63	63	seal	seal sealgi
+64	64	kuulma	kuule kuulnud kuulsin kuulda kuuled kuulsid kuulge kuulen kuuleb kuulete kuulsite kuulis kuulsime kuuldel kuulma kuuleme kuulevad kuuldes kuulnudki kuuleksid kuuldud kuuleks kuuldavale kuuldagi kuuldi kuuldakse kuuleksin kuuldu kuuleksite kuulmata kuuldaks kuulmast kuuldut kuulmas kuulvat kuuldav kuuleksime kuulmagi kuulmaks kuulgu
+65	65	paluma	palun palus palusin paluda palu paluma palusid palunud palub palume palud paluks paluti palutud palusite paluksin paluvad palutakse paluge palute palusime paludes paluksid palumas palungi paluksite paluksime palumata palugem palugu palutaks
+66	66	lihtsalt	lihtsalt lihtsamalt
+67	67	jääma	jää jääb jääda jäi jäänud jään jääd jäid jääma jääme jäin jäävad jääge jääks jäime jääte jääksid jäite jääksin jääbki jäägu jäädavalt jäädes jäämas jäingi jääksime jääksite jäädagi jäigi jääta jääv jäävadki jäädakse jäänudki jäidki jäämata jäägem jäävat jääva jäänuks
+68	68	panema	pane panna panen pani pange paneb panid panin paneme panema paned pannud pandud panevad pandi paneks pannakse panime panete paneksid panite pannes paneksin paneksite pandaks pandav pangu paneksime panemas panemata panebki panemast panev pandama pangem panevat pannuks pandavaid panemaks
+69	69	kus	kus
+70	70	hästi	hästi paremini
+71	71	mõtlema	mõtlesin mõtlen mõtled mõtle mõelnud mõelda mõtlema mõtlesid mõeldud mõtleb mõtles mõtleme mõtlete mõelge mõtlevad mõtlesime mõtlegi mõeldes mõtleks mõtleksid mõtlesite mõelnudki mõtlemata mõeldagi mõtelnud mõtelda mõtlemast mõtlematu mõtleksin mõtlematult mõtlemas mõeldakse mõeldav mõtleksite mõtelge mõtlev mõeldi mõtlematut mõtleksime mõelgem
+72	72	ootama	oota oodake oodata ootab ootan ootama ootame oodanud ootavad ootad ootasin ootasid ootas ootamatu ootamas ootate oodates ootasime oodatakse ootaks oodatud ootasite ootaksid ootamatut ootasingi ootaksin ootaksite ootamast oodatagi oodaku ootamatuid ootamatud oodati ootaksime ootav ootamatusi ootamatus oodatav ootavat ootava
+73	73	leidma	leida leidsin leidsid leia leidma leidnud leiame leian leidis leidsime leiad leiab leiti leitud leidsite leiavad leiate leidke leiaks leitakse leiaksin leiaksid leiaksime leita leitaks leides leidmaks leiaksite leidmata leidiski leidmas leitudki leitu leidvat leidku leitav leidmast leituga leitavad leitust
+74	74	inimene	inimesed inimesi inimene inimeste inimest inimese inimestele inimestega inimestest inimestel inimesele inimesega inimeseks inimesest inimesel inimesena inimestelt inimestes inimeselt inimesteks inimestesse inimestena inimeses inimesteni inimesse inimesteta inimeseni inimesedki inimesesse inimeseta
+75	75	hakkama	hakkama hakkab hakka hakkame hakkan hakkas hakkad hakata hakkavad hakkasin hakkasid hakanud hakkate hakake hakkaks hakkasime hakatakse hakkaksid hakati hakkaksin hakkasite hakkagi hakkabki hakkaksime hakkaksite hakaku hakates hakkamas hakatud hakanudki hakataks hakatagi hakakem hakkavat hakkav hakkamata
+76	76	elu	elu elus ellu eluga elust elusalt elud elusid eluks elusana elule elude eludega elul elult eludest elusa eludesse elusat elusast eluski eludes elusad elusaid elusatena eludele elusse elusate eluta elugi elusaks eluni eluna eludel
+77	77	siia	siia siiagi
+78	78	kuid	kuid
+79	79	isa	isa isaga isale isal isast isalt isaks isad isagi isana isata isas isade issa isasse isasid isadest isadele isadel isani isadega isadelt isadeks isadeta
+80	80	pärast	pärast
+81	81	eest	eest
+82	82	tere	tere
+83	83	aitama	aidata aitab aita aidake aitan aitama aitad aitas aitaks aidanud aitasid aitame aitavad aitasin aitaksid aitate aidaku aitaksin aitasite aitaksite aidates aitasime aitamas aitamaks aidati aitaksime aitamast aidatakse aitavat aidatud aidanuks aitav aidataks
+84	84	juba	juba
+85	85	teine	teine teise teised teiste teisi teisel teisele teist teistele teises teiseks teisest teistest teistega teisega teistel teiselt teisedki teisigi teistes teinegi teistelt teistesse teisena teiseni teistelgi teistelegi teisteks teisesse teisegi teiseta teisteta teistegi teisteni teiseski teistestki teistki
+86	86	suur	suur suure suurt suured suurem suurim suureks suures suuri suurte suurema suuremat suurima suuremad suurest suuremaks suurel suurele suurde suuremaid suurimad suurimat suurelt suurtes suurimaid suurtest suuremas suurimaks suuremate suuremast suuremalt suurtele suurena suurteks suurimast suurimas suuremale suurtel suurega suuremal
+87	87	käsi	kätte käes käed käest käsi kätt käe käega kätega kätes käte kätel kätesse käsil käel käsile kätest käele kätele käteta käeks kätelt käsiks käelt käeta käena käteks käsist
+88	88	ema	ema emale emaga emal emma emast emalt emad emaks emade emagi emata emana emas emasid emasse emadele emadega emadest emadel emani emalgi emadelt
+89	89	tapma	tappa tappis tapsid tapa tapan tapnud tapab tapma tapeti tapsin tapavad tapad tapetud tapke tapame tapaks tapetakse tapsite tapsime tappes tapate tapaksid tapaksin tappev tapmas tapmast tapetaks tapvalt tapeta tapmata tapaksime tapva tapvad tapaksite tapvat tapetute tapku tapetut tapvaid tapnuks
+90	90	tänama	tänan tänatud tänada täname tänama tänavat tänamatu tänavad tänab tänad tänage tänanud tänagi tänas tänasin tänasid tänamatud tänate tänaksin tänaks tänades tänatakse tänanudki tänaksid tänagem tänamatult tänamatuna tänamatuks tänamas tänasite tänamata tänamaks tänamatut
+91	91	ainult	ainult
+92	92	peale	peale
+93	93	aasta	aastat aasta aastal aastaid a aastad aastate aastas aastast aastaks aastaga aastatel aastasse aastatega aastani aastateks aastates aastatest aastale aastatki aastail aastais aastateni aastatesse aastatele aastalt aastana
+94	94	jätma	jäta jätta jätke jättis jätan jätsin jätsid jätma jätnud jätame jätab jätad jätaks jäetud jättes jätavad jäeti jätku jätsime jätaksid jätate jäetakse jätsite jätmata jätaksin jäeta jäetaks jätaksite jätaksime jätmas jätkem jätmast jätnuks jätmaks jätked
+95	95	kurat	kurat kuradi kuradit kuradile kuradist kuradid kuradiga kuradil kuradis kuradiks kuradeid kuradite kuraditele kuradisse kuraditega kuraditest kuradina
+96	96	tundma	tunnen tunned tundma tundsin tunda tundnud tunneb tundsid tuntud tundis tunnevad tunneme tundmatu tunneks tunnete tunneksid tundsite tundke tuntakse tunneksin tundsime tundmatut tundnudki tundmatud tunti tundvat tundmata tunneksite tuntuks tundes tunta tundmatute tundmatuid tunneksime tundmatule tundmatuks tundmast tuntaks tundmatult tuntav
+97	97	ju	ju
+98	98	päev	päeva päev päeval päevast päevad päevas päevaks päevaga päevi päevadel päevade päevagi päevil päevani päevadest päevale päevadeks päevilt päevadega päevades päevalt päevist päevadele päevana päevasid
+99	99	töö	töö tööd tööle tööta tööl töölt tööst tööga töös tööks töid töösse tööde töödest töödega tööna töödes töödele töödel töödeks
+100	100	kaks	kaks kahe kahte kahel kahest kahele kaheks kaht kahes kahega kahed kahelt kaheni kahtesid kahtede

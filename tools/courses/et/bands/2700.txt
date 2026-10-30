@@ -1,0 +1,100 @@
+1	2601	sitakott	sitakott sitakotid sitakoti sitakotist sitakotti sitakotte sitakotiga sitakotil sitakottide sitakotile sitakottidest sitakotiks
+2	2602	kodutu	kodutu kodutud kodutute kodutuid kodutut kodututele kodutuks kodutule kodututega kodutuna kodututest kodututel kodutul kodututelt kodutuga kodututena kodutust
+3	2603	häbistama	häbistada häbistatud häbistad häbistanud häbistasid häbista häbistas häbistab häbistasin häbistan häbistama häbistaks häbistate häbistati häbistame häbistage häbistasite häbistamata häbistatakse häbistaksid
+4	2604	vaal	vaal vaalad vaala vaalade vaalu vaalasid vaaladest vaalaga vaalast vaalal vaaladele vaaladega vaaladel vaalale vaalaks
+5	2605	tühiasi	tühiasi tühiasjad tühiasjade
+6	2606	ettevõte	ettevõtte ettevõte ettevõtet ettevõtted ettevõtete ettevõttes ettevõtteid ettevõttest ettevõttele ettevõttega ettevõttesse ettevõtetele ettevõttel ettevõtetes ettevõtetest ettevõtetega
+7	2607	hapnik	hapnikku hapniku hapnik hapnikuga hapnikuta hapnikust hapnikuks
+8	2608	veidike	veidike veidikese
+9	2609	pidutsema	pidutseda pidutsema pidutseme pidutse pidutsevad pidutsege pidutseb pidutsesime pidutsen pidutses pidutsesin pidutsed pidutsesid pidutsenud pidutsemas pidutsete pidutsedes pidutsegem pidutseks
+10	2610	hinne	hinded hindeid hinne hinde hinnet hinnete hindeks hinnetega hinnetest hindest hindega hinnetele hinnetes
+11	2611	suvaline	suvaline suvalise suvalist suvaliselt suvalisi suvalisel suvalised suvalises suvalisse suvaliste suvalisele suvalisest suvalistele suvalisega suvaliseks suvalistega suvalistest
+12	2612	andmebaas	andmebaasi andmebaasis andmebaasist andmebaas andmebaasidest andmebaasiga andmebaasid andmebaase andmebaasile andmebaasidesse andmebaasides andmebaasidele andmebaaside
+13	2613	olemus	olemus olemust olemuse olemuselt olemusest olemusega olemusele olemuses olemuseks olemusel olemuseni olemusse olemused
+14	2614	kauge	kauge kauges kauged kaugest kaugemasse kaugesse kaugete kaugem kauget kaugeid kaugeks kaugetest kaugetes kaugetele kaugetel kaugetesse kaugena kaugetelt
+15	2615	fantaasia	fantaasia fantaasiad fantaasiat fantaasiaid fantaasiast fantaasiatest fantaasiates fantaasias fantaasiaga fantaasiate fantaasiatega fantaasial fantaasiaks fantaasiasse fantaasiatele fantaasiatesse
+16	2616	varustama	varustatud varustada varustab varustas varustavad varustanud varustame varusta varustan varustasid varustama varustasin varustatakse varustad varustasime varustades varustatult varustaks varustage varustamas varustate
+17	2617	hukkama	hukata hukatakse hukati hukatud hukkama hukkas hukake hukkame hukkasid hukkavad hukanud hukkab hukkan hukataks hukkasin hukkad hukkate hukates
+18	2618	soovitus	soovitus soovitusi soovituse soovitused soovitust soovitusel soovituste soovitusega soovitustega soovitusest soovitusele soovituseks soovitustele soovitustest
+19	2619	väikemesi	väikemees väikemehe väikemeest väikemehel väikemehele väikemehed väikemehest väikemehega
+20	2620	üpris	üpris
+21	2621	juurdepääs	juurdepääs juurdepääsu juurdepääsuga juurdepääsuks juurdepääsud juurdepääsuta
+22	2622	vöö	vöö vööd vööl vööst vöid vööga vööle vöiks vööni vöölt vöös vöösse vööde
+23	2623	pesapall	pesapalli pesapall pesapallist pesapallis pesapalliga pesapallile pesapallil pesapalliks
+24	2624	tõestus	tõestus tõestust tõestuseks tõestuse tõestuseta tõestusi tõestused tõestusena
+25	2625	laks	laksu laks lakse laksuga laksust
+26	2626	aluspesu	aluspesu aluspesus aluspesust aluspesuga aluspesuta aluspesusse aluspesule aluspesuni
+27	2627	burger	burger burgeri burgerit burgereid burgerid burgerite burgerisse burgeris burgerist burgerile burgeriga burgeritest burgeritega
+28	2628	mismoodi	mismoodi
+29	2629	jää	jääga jääl jääs jääle jääst jäässe jäält jäist jääde jääni
+30	2630	kokaiin	kokaiini kokaiin kokaiiniga kokaiinist kokaiinile
+31	2631	range	range rangelt ranged ranget rangem rangel rangemad rangema ranges rangemalt rangest rangete rangemaks rangeid
+32	2632	pott	poti potti pott potist potil potis potid potte potile potiga potilt pottide
+33	2633	üldiselt	üldiselt üldisemalt
+34	2634	harva	harva harvemini
+35	2635	troon	trooni troonile troonil troon troonilt troonide troonist troonid troonis
+36	2636	küüt	küüti küüt küüdist
+37	2637	hukka	hukka
+38	2638	nakatuma	nakatunud nakatus nakatuda nakatub nakatusid nakatusin nakatuvad nakatu nakatunu nakatumata nakatume nakatusite nakatuma
+39	2639	eksam	eksam eksami eksamid eksamil eksamit eksameid eksamiteks eksamiks eksamite eksamitel eksamist eksamile eksamiga eksamitest eksamilt eksamis eksamitele eksamitega
+40	2640	toost	toosti toost tooste toostiga toostiks toostile
+41	2641	käsikiri	käsikirja käsikiri käsikirjad käsikirjas käsikirjast käsikirju käsikirjade käsikirjaga käsikirjale käsikirjades
+42	2642	teaduslik	teaduslik teadusliku teaduslikult teaduslikku teaduslikud teaduslikke teaduslike teaduslikust teaduslikus teaduslikule teaduslikele teaduslikul teaduslikuks teaduslikest teaduslikel
+43	2643	profiil	profiili profiil profiiliga profiile profiilile profiilist profiilil profiilide
+44	2644	ebameeldiv	ebameeldiv ebameeldivat ebameeldivaks ebameeldiva ebameeldivad ebameeldivaid ebameeldivalt ebameeldivate ebameeldivast ebameeldivasse ebameeldivatest ebameeldival ebameeldivale
+45	2645	pühendama	pühendanud pühendada pühendan pühendas pühendasin pühendab pühendama pühenda pühendad pühendame pühendasid pühendage pühendavad pühendaks pühendasime pühendades pühendate pühendaksin pühendaksid pühendatakse
+46	2646	kaugelt	kaugelt kaugemalt
+47	2647	vastutasu	vastutasuks vastutasu
+48	2648	tõmbuma	tõmbub tõmbuda tõmbuvad tõmbunud tõmbuma tõmbus tõmbuge tõmbume tõmbusid tõmbun tõmbusin tõmbud tõmbuksid tõmbuks tõmbumas tõmbusime tõmbuksite
+49	2649	professionaalne	professionaalne professionaalse professionaalset professionaalselt professionaalsed professionaalseks professionaalsete professionaalsel professionaalseid professionaalsest professionaalses professionaalsem professionaalsele
+50	2650	kamber	kambrisse kambris kamber kambri kambrist kambrit kambrid kambritesse kambreid kambrite kambrites kambritest kambriga kambrile kambriks
+51	2651	tagaotsitav	tagaotsitav tagaotsitavaks tagaotsitavad tagaotsitava tagaotsitavate tagaotsitavat tagaotsitavateks tagaotsitavaid tagaotsitavatest tagaotsitavana
+52	2652	seisnema	seisneb seisnebki seisnes seisne seisnevad seisnenud
+53	2653	seisus	seisus seisust seisusest seisuse seisuses seisusesse seisusele seisused
+54	2654	tagasihoidlik	tagasihoidlik tagasihoidlikku tagasihoidlikult tagasihoidliku tagasihoidlikud tagasihoidlikus tagasihoidlikust tagasihoidlikuks tagasihoidlikul tagasihoidlike tagasihoidlikke tagasihoidlikusse tagasihoidlikest
+55	2655	raev	raevu raev raevuga raevule raevul
+56	2656	üksikasi	üksikasju üksikasjad üksikasjadest üksikasjadega üksikasjade üksikasja üksikasjadesse üksikasjades üksikasi üksikasjadele üksikasjadeni üksikasjadeta
+57	2657	kukal	kuklasse kuklale kukla kuklas kukalt kuklal kukal kuklast
+58	2658	üür	üüri üür üüris üürile üürisid üürid üüriks üüriga üürist
+59	2659	võluv	võluv võluva võluvaks võluvalt võluval võluvale võluvasse võluvate
+60	2660	minister	minister ministri ministrid ministrile ministriga ministrite ministrit ministriks ministritega ministrina ministritele ministril ministreid
+61	2661	uba	oad ube uba oa ubade oaks ubadega ubadest ubasid oas oaga oale
+62	2662	ämblik	ämblik ämblikud ämbliku ämblikke ämblike ämblikku ämblikest ämblikega ämblikuga ämblikule ämblikel ämblikuks ämblikust ämblikul
+63	2663	veidrik	veidrik veidrikud veidrikust veidrike veidrikke veidrikuks veidriku veidrikku veidrikuga veidrikest veidrikega veidrikuna veidrikele veidrikule
+64	2664	istung	istung istungi istungil istungit istungile istungid istungitel istungist istungiga istungeid istungiks istungite istungini istungilt
+65	2665	loopima	loopida loopima loobib loopisid loobi loobivad loopis loobid loobime loobitakse loobin loobite loopinud loobiks loopige loopisime loopides loopisin loobiti loobitud loopimas
+66	2666	tsirkus	tsirkus tsirkuse tsirkuses tsirkust tsirkusesse tsirkusega tsirkusest tsirkusele tsirkuseks tsirkused tsirkusel
+67	2667	elevil	elevil
+68	2668	küün	küüni küünis küünised küün küünist küüne küünistega küüniste küüniseid küünita küünise küünisega küünistest küüniga küünest
+69	2669	televisioon	televisiooni televisioonis televisioon televisioonist televisioonile televisiooniga televisioonil televisioonita
+70	2670	vaheline	vaheline vahelist vahelise vahelised vahelisest vahelises vahelisi vahelisel vaheliste vaheliseks vahelisse vahelisele vahelistest vaheliselt
+71	2671	meditsiiniline	meditsiiniline meditsiinilist meditsiinilise meditsiinilised meditsiiniliselt meditsiinilisi meditsiiniliste meditsiinilisest meditsiinilistel meditsiinilises meditsiiniliseks meditsiinilisel meditsiinilisele meditsiinilistes meditsiinilistele meditsiinilistest meditsiinilisse meditsiinilisteks
+72	2672	tänupüha	tänupüha tänupühad tänupühade tänupühi tänupühal tänupühadel tänupühadeks tänupühasid tänupühaks tänupühadest tänupühale tänupühast tänupühadele
+73	2673	transport	transpordi transport transporti transpordiks transpordiga transpordist transpordile transportisid transpordis transpordil transportides
+74	2674	mahl	mahla mahl mahlad mahlaga mahlast mahlas mahlu mahlaks mahlale mahlade
+75	2675	pillama	pillasin pillasid pillas pilla pillasite pillad pillab pillanud pillata pillan pillake pillatud pillama pillati pillate pillame
+76	2676	koor	koor koori koort kooris koore koorega koorist koorest kooriga koored koorile kooreta koorid kooresse koorisid koores kooriks
+77	2677	juhuslik	juhuslik juhuslikud juhusliku juhuslikke juhuslikku juhuslike juhuslikust juhuslikus juhuslikuks juhuslikule juhuslikele juhuslikul juhuslikes juhuslikuna
+78	2678	näidend	näidend näidendi näidendit näidendis näidendist näidendeid näidendid näidendiga näidendisse näidendile näidendites näidendite näidendil näidendiks
+79	2679	raiuma	raiuda raiutud raiun raiu raius raiuma raiuti raiub raiume raiutakse raiunud raiuge raiusid raiusin raiud raiuvad raiudes raiuks raiusime raiute
+80	2680	okse	oksele okse okset oksega oksesse okses oksest
+81	2681	protseduur	protseduur protseduuri protseduurid protseduure protseduurile protseduuride protseduuriga protseduurist protseduuriks protseduuril protseduuridega protseduuris protseduuridest
+82	2682	avarii	avarii avariid avariis avariisse avariist avariisid avariiga avariiks avariide
+83	2683	heastama	heastada heastan heastama heastab heasta heastanud heastame heastad heastaks heastasin
+84	2684	peatükk	peatükk peatüki peatükki peatükis peatükid peatükist peatükke peatükini peatükkide peatükiks peatükiga
+85	2685	tolm	tolmu tolm tolmuks tolmust tolmus tolmuga
+86	2686	ohustama	ohustatud ohustab ohustada ohusta ohustavad ohustaks ohustas ohustanud ohustad ohustasid ohustama ohustan ohustades ohustamata ohustate ohustatakse ohustame
+87	2687	liig	liig liiale
+88	2688	kogenud	kogenud kogenum kogenumad
+89	2689	kaunitar	kaunitar kaunitari kaunitarid kaunitariga kaunitare kaunitarile kaunitaril kaunitarist kaunitaride
+90	2690	aku	aku akud akut akusid akude akuga akus akudega akudest akudes
+91	2691	sadam	sadamasse sadam sadamas sadamat sadamast sadamad sadamaid sadamates sadamate sadamatest sadamale sadamatesse sadamani
+92	2692	rihm	rihma rihm rihmad rihmaga rihmadega rihmata rihmast rihmu rihmasid rihmade rihmaks rihmadest rihmal
+93	2693	seisukoht	seisukoht seisukohta seisukohast seisukoha seisukohalt seisukohti seisukohal seisukohad seisukohale seisukohtadest seisukohas seisukohtade seisukohaga seisukohtadega
+94	2694	kuskilt	kuskilt
+95	2695	kasiino	kasiino kasiinos kasiinosse kasiinot kasiinost kasiinod kasiinodes kasiinosid kasiinoga kasiinode kasiinodest kasiinole kasiinodesse
+96	2696	padi	padja padi patja padjad patju padjale padjaga padjal patjade patjadega patjadel padjalt padjast
+97	2697	tingima	tingimata tingitud tingida tingis tingi tingituna tingib tingima tinginud
+98	2698	laskemoon	laskemoona laskemoon laskemoonaga laskemoonast laskemoonata
+99	2699	tragöödia	tragöödia tragöödiat tragöödiast tragöödias tragöödiaga tragöödiaid tragöödiad tragöödiaks tragöödiate tragöödiale tragöödiatest tragöödial
+100	2700	lõdvestuma	lõdvestu lõdvestuda lõdvestuge lõdvestunud lõdvestuma lõdvestun lõdvestus lõdvestud lõdvestuksid lõdvestume lõdvestuks lõdvestub

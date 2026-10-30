@@ -1,0 +1,100 @@
+1	5701	kavaldama	kavaldada kavaldas kavaldasid kavalda kavaldama kavaldasin kavaldad kavaldanud kavaldab kavaldati kavaldan kavaldatud kavaldasime kavaldame
+2	5702	lüli	lüli lülid lülisid lülide lülis
+3	5703	tüürpoord	tüürpoordi tüürpoordis tüürpoord tüürpoordist
+4	5704	vaimuhaige	vaimuhaige vaimuhaiged vaimuhaigete vaimuhaigetele vaimuhaigeks vaimuhaigeid vaimuhaiget
+5	5705	angaar	angaari angaaris angaar angaarist angaarid
+6	5706	kaevur	kaevur kaevurid kaevurite kaevureid kaevurit kaevuritele kaevuri kaevuritest kaevuritega
+7	5707	ristmik	ristmikul ristmik ristmiku ristmikule ristmikult ristmikku ristmikust ristmikel
+8	5708	omapärane	omapärane omapärast omapärase omapärased omapäraselt omapärases
+9	5709	ämm	ämm ämma ämmaga ämmale ämmal
+10	5710	generatsioon	generatsiooni generatsioon generatsioone generatsioonist generatsioonide generatsioonile generatsioonid generatsioonis
+11	5711	postkontor	postkontoris postkontorisse postkontor postkontori postkontorist postkontorit
+12	5712	kaarik	kaarik kaariku kaarikus kaarikuga kaarikut kaarikust kaarikusse kaarikute kaarikud kaarikutega
+13	5713	korvama	korvata korvab korva korvan korvama korvame korvaks korvavad korvas korvad
+14	5714	lepe	lepe lepet leppest leppele leppega leppeid lepped leppes
+15	5715	paremus	paremuse paremuselt paremus
+16	5716	tõsijutt	tõsijutt
+17	5717	arstiabi	arstiabi
+18	5718	koitma	koidab koitis koitma koida koitnud koitmas koites
+19	5719	mehhanism	mehhanism mehhanismi mehhanismid mehhanismiga mehhanisme mehhanismist mehhanismide mehhanismis
+20	5720	painutama	painutada painuta painutatud painutab painutama painutage painutas painutan painutad painutame painutavad
+21	5721	korrastama	korrastada korrastan korrastab korrastama korrasta korrastatud korrastame korrastasin korrastad korrastanud korrastage korrastavad korrastasid korrastas
+22	5722	rassist	rassist rassistid
+23	5723	invasioon	invasiooni invasioon invasioonist invasiooniga invasiooniks invasioonile
+24	5724	laat	laadal laat laadale laada laadalt laata laatadel
+25	5725	missis	missis
+26	5726	kakao	kakaod kakao kakaoga
+27	5727	garderoob	garderoobi garderoob garderoobis garderoobist
+28	5728	ületamine	ületamine ületamiseks ületamise ületamist ületamisest
+29	5729	e-kiri	e-kirja e-kirju e-kirjad e-kiri e-kirjadele e-kirjas e-kirjaga e-kirjade e-kirjades
+30	5730	korpus	korpuse korpus korpuses korpusega korpusest korpusesse korpusele korpust
+31	5731	tsikkel	tsikkel tsikli tsikliga tsiklit tsiklid tsiklil tsiklile tsikleid tsiklitega
+32	5732	läbiotsimine	läbiotsimine läbiotsimise läbiotsimiseks läbiotsimist läbiotsimisel läbiotsimisi läbiotsimisega läbiotsimised
+33	5733	hiigelsuur	hiigelsuur hiigelsuure hiigelsuured hiigelsuurt hiigelsuurte hiigelsuureks hiigelsuures
+34	5734	õpik	õpikud õpiku õpik õpikuid õpikust õpikut õpikus õpikute õpikutes õpikuga
+35	5735	terrorism	terrorismi terrorismiga terrorismis terrorismist
+36	5736	kasvatus	kasvatus kasvatuse kasvatust kasvatusega kasvatusest kasvatuses kasvatuseks kasvatusse
+37	5737	gladiaator	gladiaator gladiaatorid gladiaatorite gladiaatoreid gladiaatori gladiaatorit gladiaatoriks gladiaatorina gladiaatoriteks gladiaatoriga
+38	5738	eksistents	eksistentsi eksistents eksistentsist eksistentsile eksistentsis
+39	5739	steroid	steroide steroidid steroidide steroididega steroididel steroididest steroidi
+40	5740	läbivaatus	läbivaatuse läbivaatus läbivaatust läbivaatusele läbivaatusel läbivaatuseks läbivaatusega läbivaatused
+41	5741	proosit	proosit
+42	5742	siinkohal	siinkohal
+43	5743	kokkulepitud	kokkulepitud
+44	5744	lelu	lelu lelud lelusid leludega lelude leluga leludest
+45	5745	talitama	talitada talitad talitasin talitasid talitan talitama talita talitame talitanud talitab talitas talitavad talitasite talitage
+46	5746	kuritarvitama	kuritarvitanud kuritarvitada kuritarvitas kuritarvitatud kuritarvitasid kuritarvita kuritarvitati kuritarvitab kuritarvitavad kuritarvitasin kuritarvitad kuritarvitate kuritarvitan kuritarvitaks kuritarvitama
+47	5747	amulett	amulett amuleti amuletti amuletid amuletist amuletiga amulette
+48	5748	raevukas	raevukas raevukalt raevukad raevuka raevukat raevukate raevukaks raevukaid
+49	5749	elamu	elamus elamu elamuse elamust elamusi elamud elamuid elamused elamut
+50	5750	ümbritsev	ümbritseva ümbritsev ümbritsevast ümbritsevale ümbritsevas ümbritsevasse ümbritsevatele ümbritsevaga
+51	5751	regulaarselt	regulaarselt
+52	5752	petmine	petmine petmise
+53	5753	rohke	rohkelt rohke rohkete rohket rohked rohkeid
+54	5754	isikutunnistus	isikutunnistust isikutunnistus isikutunnistused isikutunnistuse isikutunnistusi
+55	5755	portfell	portfelli portfell portfellis portfelliga portfellist portfellid
+56	5756	plaaster	plaaster plaastri plaastrit plaastrid plaastreid plaastriga
+57	5757	moonutama	moonutatud moonutada moonutab moonutas moonutanud moonutavad moonutad moonutasid moonutama moonuta
+58	5758	soodne	soodne soodsa soodsad soodsalt soodsat soodsaid soodsate
+59	5759	kõrvalmõju	kõrvalmõju kõrvalmõjud kõrvalmõjusid kõrvalmõjudest kõrvalmõjude kõrvalmõjudeta kõrvalmõjudega kõrvalmõjudele
+60	5760	sponsor	sponsorid sponsori sponsoreid sponsoriks sponsorit sponsorite sponsorile sponsoriga sponsoritega sponsoritele sponsorilt sponsoritest
+61	5761	ammune	ammune ammusest ammust ammustest ammusel ammused ammustel ammuse ammuste
+62	5762	väsitama	väsitab väsitada väsitas väsitanud väsitavad väsitama väsitad väsitavat väsitasid väsitan väsitage väsitasin
+63	5763	tasapisi	tasapisi
+64	5764	aktiivsus	aktiivsus aktiivsust aktiivsuse aktiivsusest
+65	5765	arreteerimine	arreteerimist arreteerimise arreteerimine arreteerimisest arreteerimisi arreteerimised
+66	5766	reiting	reiting reitingud reitingut reitingu reitinguid reitinguga reitingute reitingutest
+67	5767	ruttama	rutta ruttama ruttan rutata ruttad rutake ruttab ruttasin ruttame ruttavad rutates ruttas ruttamas
+68	5768	põhjendama	põhjendatud põhjendada põhjendas põhjendama põhjenda põhjendamata põhjendad põhjendaks põhjendab põhjendatav põhjendanud
+69	5769	kostuma	kostub kostus kostunud kostusid kostud kostuv kostuda kostuvad kostu
+70	5770	manööver	manööver manöövrit manöövrid manöövreid manöövri manöövrite manöövriks manöövritel manöövriga manöövritest manöövrist
+71	5771	omasugune	omasuguste omasuguseid omasugune omasugustega omasugust omasuguse omasugustest omasugusega omasugustele omasuguseks
+72	5772	hakkima	hakitud hakib hakkida haki hakin hakkima hakid hakkisid hakitakse hakkisin hakkinud hakkis hakivad
+73	5773	piirduma	piirdub piirduda piirdunud piirduvad piirduma piirdus piirdun piirduks piirdume piirduge piirdusid piirduski
+74	5774	rikkis	rikkis
+75	5775	kisakoor	kisakoori kisakoor kisakooris kisakoorist kisakooriga
+76	5776	omlett	omletti omlett omleti omletid omletist
+77	5777	teejuht	teejuht teejuhiks teejuhti teejuhi teejuhid teejuhina teejuhiga
+78	5778	täring	täringuid täringud täringut täring täringu täringute täringutega täringul täringutest
+79	5779	hindamine	hindamine hindamise hindamiseks hindamist hindamisel hindamisele hindamisega
+80	5780	radikaalne	radikaalne radikaalselt radikaalse radikaalsed radikaalseid radikaalset radikaalsete
+81	5781	valmisolek	valmisolek valmisolekus valmisolekut valmisoleku valmisolekust valmisolekusse
+82	5782	neutraliseerima	neutraliseerida neutraliseeritud neutraliseerib neutraliseerima neutraliseerime neutraliseerivad neutraliseerige neutraliseerisid neutraliseeris neutraliseerinud neutraliseeri neutraliseerisime
+83	5783	karakter	karakter karakteri karakterit karakterid karaktereid karakteris karakterisse karakteriga karakterile karakterite karakterist
+84	5784	jäljendama	jäljendada jäljendab jäljendavad jäljenda jäljendas jäljendama jäljendan jäljendasin jäljendades jäljendasid jäljendad jäljendatud
+85	5785	katsealune	katsealune katsealused katsealuse katsealust katsealuseid katsealuste katsealustest katsealusega katsealuseks katsealusele katsealustega
+86	5786	koba	koba kobades
+87	5787	uneaeg	uneaeg uneaega uneajal uneaja
+88	5788	vaas	vaasi vaas vaasis vaasid vaase
+89	5789	heller	heller helleri hellerit hellerile helleriga
+90	5790	linnak	linnaku linnakus linnakusse linnakust linnakut linnak
+91	5791	lõust	lõusta lõust lõustu lõustaga lõustad lõustast
+92	5792	maailmameister	maailmameister maailmameistri maailmameistriks maailmameistrit maailmameistrid maailmameistrile maailmameistriga
+93	5793	tualettruum	tualettruumi tualettruumis tualettruum tualettruumist tualettruumid tualettruumide
+94	5794	enneaegne	enneaegselt enneaegne enneaegse enneaegset enneaegsed enneaegsest enneaegsena enneaegseid
+95	5795	kükitama	kükitab kükitama kükitada kükitad kükitan kükitas kükitanud kükitame kükitades kükitage kükitavad kükitasin kükitasid kükitate
+96	5796	lähistel	lähistel
+97	5797	ellujäänud	ellujäänud
+98	5798	luik	luik luige luiged luikede luike luigeks
+99	5799	brünett	brünett brünetti brünetid brüneti brünette brünetiga
+100	5800	siiatulek	siiatulekut siiatulek siiatulekust siiatuleku siiatulekuks siiatulekuga

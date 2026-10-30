@@ -1,0 +1,100 @@
+1	1601	kuju	kuju kujuga kujud kujusid kujust kujude kujus kujule kujult kujudega kujudest kujuks kujudel kujuna
+2	1602	geenius	geenius geeniuse geeniused geeniust geeniuseks geeniusest geeniusega geeniuste geeniusel geeniusele geeniusi geeniustest geeniuselt geeniustega geeniusena
+3	1603	iialgi	iialgi
+4	1604	haisema	haiseb haised haisen haisema haisevad haisete haisesid haiseda haise haises haisenud haisedes haiseme haiseks
+5	1605	kahekesi	kahekesi
+6	1606	vastutus	vastutus vastutust vastutuse vastutusel vastutusele vastutusest vastutusega vastutuseks vastutused vastutuseta vastutusi vastutuses
+7	1607	tablett	tablette tabletid tabletti tablett tableti tablettide tablettidest tablettidega tabletist tabletiga tablettidele tabletis tablettideta tablettidena tablettidel
+8	1608	tants	tantsu tants tantsule tantsud tantsuga tantsuks tantse tantsust tantsus tantsul tantsude
+9	1609	mobiil	mobiili mobiil mobiilile mobiilid mobiiliga mobiililt mobiile mobiilist mobiilil mobiilis mobiilide mobiilidega mobiilidest
+10	1610	nojah	nojah
+11	1611	määr	määrata määral määras määra määrasid määri määr määrad määris määraks määriks määraga määrani
+12	1612	keskus	keskus keskuses keskuse keskusesse keskusest keskusele keskust keskusega keskusse keskuseks keskuselt keskused keskustes keskustesse keskusel keskuste
+13	1613	niigi	niigi
+14	1614	kannatus	kannatust kannatusi kannatused kannatus kannatuste kannatuse kannatustest kannatustele kannatustega kannatusest kannatustes kannatusega kannatusteta kannatustel kannatusel kannatusteks kannatusteni
+15	1615	küps	küpsiseid küps küpsist küpsis küpse küpsed küpseta küpseks küpses küpset küpsem küpseid küpsete küpsel küpsena
+16	1616	ving	vinge vinged vinget vingeid vingete
+17	1617	teadlik	teadlik teadlikud teadlikult teadlikuks teadliku teadlikus teadlikku teadlikke teadlikust
+18	1618	koopia	koopia koopiad koopiat koopiaid koopiaga koopiate koopiast koopiaks koopiatega koopiale koopiatest koopias
+19	1619	koridor	koridori koridoris koridor koridorist koridorides koridorid koridore koridoride koridoridesse koridoridest koridoriga
+20	1620	vann	vanni vannis vann vanne vannist vannid vanniga vannita vanniks vannile
+21	1621	vannituba	vannituba vannitoas vannituppa vannitoa vannitoast vannitoaga vannitoad vannitubades vannitube
+22	1622	tuvastama	tuvastada tuvastatud tuvastama tuvastas tuvastasime tuvastanud tuvastamata tuvasta tuvastasid tuvastasin tuvastab tuvastati tuvastage tuvastame tuvastan tuvastavad tuvastatakse tuvastamatu tuvastasite tuvastaks tuvastate tuvastad tuvastaksite tuvastamas tuvastaksid tuvastatav tuvastamaks
+23	1623	tiss	tissid tisse tissidega tissi tiss tisside tissidest tissidele tissist tissidel tissiga tissides tissidelt tissidesse tissideks tissideta
+24	1624	tunnel	tunnel tunneli tunnelis tunnelisse tunnelid tunnelit tunnelist tunneleid tunnelite tunnelites tunnelitesse tunnelitest tunneliga tunnelitega tunnelile tunnelil
+25	1625	iidne	iidsete iidne iidsed iidse iidset iidseid iidses iidsetest iidsest iidsetel iidsele iidsetes iidsetele iidsel iidsesse iidsetega iidseteks iidsetelt iidsetesse iidseks iidselt iidsem
+26	1626	jaam	jaama jaam jaamas jaamast jaamad jaamale jaamaga jaamade jaamani jaamades jaamu jaamadesse jaamadest jaamadele jaamal
+27	1627	kõrvaldama	kõrvaldada kõrvaldatud kõrvaldama kõrvaldati kõrvalda kõrvaldame kõrvaldas kõrvaldan kõrvaldab kõrvaldatakse kõrvaldanud kõrvaldage kõrvaldasid kõrvaldasin kõrvaldavad kõrvaldaks kõrvaldad kõrvaldasime kõrvaldades kõrvaldate kõrvaldataks kõrvaldaksid kõrvaldasite kõrvaldaksin
+28	1628	piim	piima piim piimaga piimast piimas piimata piimal
+29	1629	kokk	kokk koka kokat kokka kokad kokaga kokale kokaks kokata kokast kokal kokkade kokana kokalt kokkadele kokki kokkasid
+30	1630	kuskile	kuskile
+31	1631	välimus	välimus välimusega välimuse välimust välimusest välimuselt välimusele välimuses välimusel välimusi
+32	1632	ehmatama	ehmatasid ehmatada ehmatasin ehmatas ehmata ehmatasite ehmatanud ehmatab ehmatad ehmatasime ehmataks ehmatage ehmatame ehmatan ehmatama ehmatavad ehmatatud ehmatati ehmatate ehmatatakse
+33	1633	sammu	sammu
+34	1634	sakslane	sakslased sakslaste sakslane sakslasi sakslastele sakslastega sakslastel sakslase sakslast sakslastest sakslasest sakslasega sakslastelt sakslasele sakslaseid sakslasteks sakslasena
+35	1635	küljest	küljest
+36	1636	hall	hall halli hallis hallid halliks hallist hallata halle hallide hallil hallile halliga hallides hallidele hallidest
+37	1637	teadvus	teadvuse teadvuseta teadvusele teadvusel teadvus teadvust teadvuses teadvusesse teadvusega teadvusest teadvusse teadvused teadvuseks
+38	1638	hispaania	hispaania hispaanias hispaaniasse hispaaniast hispaaniat hispaaniaga hispaaniale hispaanial
+39	1639	raskus	raskusi raskused raskus raskust raskustes raskuse raskuste raskustest raskustega raskusega raskuseid raskustesse
+40	1640	saatan	saatan saatana
+41	1641	reisima	reisida reisib reisinud reisi reisima reisin reisime reisivad reisisin reisite reisisime reisimas reisid reisisite reisiks reisis reisiv reisiksid reisides reisige reisiksin reisiksime reisisid
+42	1642	hale	hale haledad haleda haledalt haledat halle haledaid haledam haledaks haledate haledast haledas haledal haledale haledaim haledatele haleni haledatest
+43	1643	ehtne	ehtne ehtsad ehtsat ehtsa ehtsaid ehtsast ehtsaks ehtsate ehtsam ehtsana ehtsalt ehtsas ehtsal ehtsale ehtsatest ehtsasse
+44	1644	taluma	taluda taluma talunud talub talun taluvad talute talusin talume taluksin taluksid talusime
+45	1645	tahk	tahes tahke tahket tahked tahku tahu tahkeks tahkete tahkest tahud tahk
+46	1646	pehme	pehme pehmeks pehmed pehmelt pehmet pehmem pehmete pehmemaks pehmeid pehmes pehmest pehmemalt pehmemad pehmesse pehmema pehmel pehmele pehmemat pehmetest pehmetes pehmena
+47	1647	hukkuma	hukkus hukkunud hukkub hukkunute hukkuvad hukkusid hukkunuid hukkuda hukkunut hukutada hukkunu hukkuma hukkume hukku hukkuks hukkun huku hukkud hukutav hukkute hukkuksid hukkumas hukutaks hukub hukuvad hukkunutest hukkunuga hukkunutele
+48	1648	vene	vene
+49	1649	muudkui	muudkui
+50	1650	kerima	keri kerige kerida kerin kerib kerime kerigu kerima kerid kerisid kerisin kerinud kerivad keritud keriks keriksid kerisime kerides
+51	1651	tahe	tahe tahte tahet tahtel tahtest tahtele tahtega tahtes tahteks tahtesse tahete tahteta
+52	1652	miljard	miljardit miljardi miljardeid miljard miljardite miljardid miljardist miljarditest miljardile miljardini miljardil miljarditesse miljarditele miljardiks miljardiga
+53	1653	neiu	neiu neiud neiut neiule neidu neiuga neiul neiust neiult neiude neiuks neiusid neiudele neius neiudest
+54	1654	kong	kongi kongis kongist kongidesse kongid kongides kongide konge kongidest kongile kongil kongiks
+55	1655	solvama	solvata solva solvas solvab solvanud solvasin solvad solvasid solvama solvatud solvate solvavad solvaks solvasite solvavat solvati solvake solvan solvatakse solvates solvasime solvamata solvaksid solvame
+56	1656	kohutavalt	kohutavalt
+57	1657	mõjuma	mõjub mõjunud mõjuma mõjuvad mõjuda mõjun mõjute mõjuksid
+58	1658	valetaja	valetaja valetajaks valetajad valetajaid valetajat valetajate valetajana valetajale valetajateks valetajast valetajatele valetajaga valetajatega
+59	1659	sõbranna	sõbranna sõbrannad sõbrannaga sõbrannat sõbrannadega sõbrannale sõbrannasid sõbrannast sõbrannadele sõbrannal sõbrannade sõbrannadest sõbrannalt sõbrannaks sõbrannadel
+60	1660	mürk	mürk mürki mürgi mürgiga mürgel mürgist mürglit mürgid mürke mürkide mürgita mürgli mürkidest mürgiks mürgile mürgil mürgliks mürkidega mürgis mürgina
+61	1661	kogunema	kogunenud kogunevad kogunege koguneb koguneme koguneda kogunesid kogunes kogunema kogunesime kogunemas kogunete koguneks kogune kogunedes kogunetakse
+62	1662	saks	saksa saks
+63	1663	bänd	bänd bändi bändis bändiga bändist bändile bändid bändide bände bändil bändidest bändiks bändidega bändides
+64	1664	terrorist	terroristid terroristide terroristi terroristidega terroriste terroristidele terroristidest terroristiks terroristidel terroristiga terroristideks terroristist terroristina terroristile terroristil terroristidelt
+65	1665	paranema	paraneb paranenud parane paraneda paranevad paranema paraned paranen paranes paranemas paranesid paraneks paranesin paraneksid paranev paranete paranevat paranedes paraneme paranege
+66	1666	kenasti	kenasti
+67	1667	mask	maski mask maskid maskiga maskis maske maskides maskita maskide maskidega maskist maskidest maskil maskina maskideta
+68	1668	relvastama	relvastatud relvastamata relvastada relvastama relvastanud relvastatuks relvastage relvasta relvastab relvastame
+69	1669	gei	gei geid geide geiks geist geisid geidele geiga geidel geidest geini geina
+70	1670	jalgpall	jalgpalli jalgpall jalgpallist jalgpallis jalgpalliga jalgpallile jalgpalliks jalgpallid jalgpalle
+71	1671	rõõmus	rõõmus rõõmsad rõõmsalt rõõmsaks rõõmsaid rõõmsat rõõmust rõõmsa rõõmsana rõõmsate rõõmsal rõõmsas rõõmsast rõõmsatest rõõmsale
+72	1672	raport	raport raporti raportit raportis raportid raporteid raportist raportisse raportite raportiga raportile raportites raportitega raportitest raportitele raportil
+73	1673	sort	sorti sort sordi sorte sordist sortide sordid
+74	1674	mõnu	mõnus mõnu mõnusat mõnusa mõnusad mõnuga mõnusaks mõnusid mõnust mõnusaid mõnusas mõnud mõnusast mõnule mõnudest
+75	1675	kraad	kraadi kraad kraadini kraadiga kraadid kraadist kraade kraadile kraadil
+76	1676	alasti	alasti
+77	1677	tühistama	tühistada tühistatud tühista tühistan tühistama tühistas tühistati tühistab tühistasin tühistasid tühistage tühistatakse tühistanud tühistame tühistad tühistaks tühistavad tühistasime tühistataks tühistasite tühistate tühistaksid tühistata tühistades tühistaksin
+78	1678	taganema	tagane taganege taganeda taganeme taganema taganevad taganeb taganenud taganes taganed taganesid taganen taganeks taganeksid taganesin taganesime taganete taganemas taganedes taganeksin taganesite taganeksite
+79	1679	kohane	kohaselt kohane kohast kohased kohase kohasem kohaseks
+80	1680	ee	ee
+81	1681	kunst	kunsti kunst kunstist kunstis kunstide kunstiga kunstile kunstiks kunste kunstid kunstil
+82	1682	maitsev	maitsev maitsvad maitsvat maitsva maitsvam maitsvaid maitsvalt maitsvaks maitsvate maitsvast
+83	1683	lumi	lund lumi lume lumes lumest lumega lumme lumele lumel lumeni lumeks lumed lumeta
+84	1684	neeger	neeger neegrid neegri neegrit neegreid neegrite neegrist neegriga neegrile neegritele neegriks neegritega neegritest neegril neegritel neegrilt neegriteks
+85	1685	niipea	niipea
+86	1686	anuma	anun anuma anus anusin anub anusid anud anuvad anudes anuda anume anumas anunud anuksin anuks anuksid anute
+87	1687	loss	lossi loss lossis lossist lossid losse lossiga lossides lossini lossile lossiks lossidest losside
+88	1688	asitõend	asitõendeid asitõendid asitõend asitõendite asitõendi asitõendit asitõendiks asitõenditega asitõendina asitõenditest asitõenditeta asitõendiga asitõenditele asitõendist asitõendites asitõenditena asitõenditeks asitõenditel asitõendil asitõendita
+89	1689	asendama	asendada asendama asendab asendan asendamatu asenda asendas asendatakse asendad asendatud asendame asendasid asendanud asendaks asendati asendasin asendatav asendavad asendasime asendades asendaksid asendamatud asendage asendamatuks asendate asendasite asendamas asendaksin asendamatuid asendamatut asendamaks
+90	1690	nupp	nuppu nupp nuppe nupule nupud nupu nupust nuputa nupuga nuppude nuppudele nuppudega nupul nuppudest
+91	1691	narkootikum	narkootikume narkootikumid narkootikumide narkootikum narkootikumidega narkootikumidest narkootikumi narkootikumidele narkootikumides narkootikumist narkootikumideta
+92	1692	veelgi	veelgi
+93	1693	pärastlõuna	pärastlõunal pärastlõuna pärastlõunat pärastlõunaks pärastlõunast pärastlõunad pärastlõunaga pärastlõunani pärastlõunaid pärastlõunale pärastlõunatel
+94	1694	püss	püss püssi püssiga püssid püsse püssist püssidega püsside püssidest püssita püssile püssil
+95	1695	kiirabi	kiirabi kiirabisse kiirabis kiirabiga kiirabist kiirabile kiirabid
+96	1696	mujale	mujale
+97	1697	piinama	piinab piinatud piinati piinama piinata piina piinad piinanud piinavad piinatakse piinas piinasid piinav piinan piinasin piinates piinate piiname piinake piinavalt piinavat piinasite piinava piinamas piinaks piinasime piinataks piinaksid piinaksin
+98	1698	jaoskond	jaoskonda jaoskonnas jaoskond jaoskonna jaoskonnast jaoskonnale jaoskonnaga jaoskonnal jaoskonnad jaoskondade jaoskondadesse
+99	1699	kosmos	kosmoses kosmose kosmosesse kosmosest kosmos kosmost kosmosega kosmosele
+100	1700	nõnda	nõnda

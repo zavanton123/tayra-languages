@@ -1,0 +1,100 @@
+1	3601	ehitis	ehitis ehitise ehitised ehitist ehitisi ehitises ehitiste ehitisest ehitisse ehitistes ehitisel ehitistest ehitisele
+2	3602	sealsamas	sealsamas
+3	3603	kukk	kukk kukil kuke kuked kukele kukile kukke kukega kukilt kukeks kukkede kukel
+4	3604	kirurg	kirurg kirurgi kirurgid kirurgiga kirurge kirurgiks kirurgide kirurgile kirurgina kirurgil kirurgist
+5	3605	illusioon	illusioon illusiooni illusioone illusioonid illusioonide illusioonist illusioonidest illusioonidega illusiooniks
+6	3606	kõrts	kõrtsi kõrtsis kõrts kõrtsist kõrtsid kõrtse kõrtsides kõrtside
+7	3607	millalgi	millalgi
+8	3608	informaator	informaator informaatori informaatorit informaatorite informaatorid informaatoriga informaatoreid informaatorilt informaatoriks informaatoritest informaatorile informaatorina informaatorist informaatoritega
+9	3609	lojaalsus	lojaalsus lojaalsust lojaalsuse
+10	3610	sündmuskoht	sündmuskohal sündmuskohalt sündmuskohale sündmuskoha sündmuskoht sündmuskohta sündmuskohast
+11	3611	punt	punt pundis punti pundiga pundist pundile
+12	3612	šerif	šerif šerifi šerifile šerifiga šerifil šerifiks
+13	3613	riis	riisi riis riisiga riisist riisil riise riisile
+14	3614	otsekohene	otsekohene otsekoheselt otsekohesed otsekohest otsekohese
+15	3615	sujuma	sujub sujus sujuvad suju sujunud sujuma sujuks sujusid sujuksid
+16	3616	religioon	religioon religiooni religioonist religioonid religioonis religiooniga religioonide religioone religioonil religiooniks religioonidest religioonile religioonides
+17	3617	tuvi	tuvi tuvid tuvisid tuvide tuviga tuvidega tuvina tuvidele tuvidest tuvile tuvidel
+18	3618	munder	munder mundris mundrit mundrid mundri mundreid mundrites mundriga mundrisse mundrite mundrita mundritesse
+19	3619	julgustama	julgustada julgusta julgustas julgustab julgustama julgustan julgustasin julgustasid julgustad julgustanud julgustame julgustaks julgustavat julgustage julgustatud julgustate julgustatakse julgustati julgustades julgustasite
+20	3620	sügis	sügisel sügis sügise sügist sügiseks sügisest sügiseni
+21	3621	ainulaadne	ainulaadne ainulaadse ainulaadset ainulaadsed ainulaadseks ainulaadseid ainulaadses ainulaadselt
+22	3622	vigane	vigane vigased vigaseks vigase vigast vigaseid vigaste vigasena vigaselt vigasele vigastest
+23	3623	meremees	meremees meremehed meremehe meremeeste meremehi meremeest meremehega meremeestele meremehele meremeheks meremehest meremeestega
+24	3624	parasiit	parasiit parasiidid parasiitide parasiidi parasiite parasiitidest parasiiti parasiidiga parasiitidega parasiidist parasiidiks parasiitidele
+25	3625	rasv	rasva rasv rasvaga rasvast rasvata rasvas rasvad rasvu rasvade
+26	3626	moraal	moraali moraal moraaliga moraalist moraalile moraalid moraalis moraalide
+27	3627	pubi	pubis pubi pubisse pubist pubides pubid pubiga pubisid pubile
+28	3628	personal	personali personalile personaliga personalil personalist personalis
+29	3629	puus	puusad puusa puusi puusadest puusade puusal puusaga puusadega puusadele puusasid puusas puusades puusast puusale puus puusalt puusadel puusadesse
+30	3630	teenindama	teenindada teeninda teenindan teenindama teenindab teenindame teenindavad teenindas teenindanud teenindatakse teenindad teenindasin teenindatud teenindaks teenindamast teenindage teenindata teenindasid teenindate teenindaksid teenindamas
+31	3631	sviit	sviit sviiti sviidi sviidis sviidist sviite sviidid sviidiga
+32	3632	osaliselt	osaliselt
+33	3633	headus	headust headus headuse headusest headusega headuses headusele headusesse
+34	3634	informeerima	informeeritud informeerida informeeris informeerima informeerin informeeriti informeeri informeerisin informeerinud informeerige informeerime informeerib informeeritakse informeerimata informeerid informeerisime informeerisid
+35	3635	golf	golfi golfis golfist golfiga golfile
+36	3636	õhujõud	õhujõudude õhujõud õhujõududes õhujõududest õhujõude õhujõududele õhujõududega õhujõududesse õhujõududel
+37	3637	näitus	näitus näituse näitusele näitusel näitust näitusest näituseks näituselt näituste näitused näitusega näitustel
+38	3638	tohutult	tohutult
+39	3639	tähelepanelikult	tähelepanelikult tähelepanelikumalt
+40	3640	loovutama	loovutada loovutama loovuta loovutan loovutage loovutas loovutad loovutab loovutanud loovutasid loovutaks loovutame loovutasin loovutavad loovutate loovutaksid loovutaksin loovutatud loovutati
+41	3641	pärija	pärija pärijat pärijaks pärijad pärijaid pärijana pärijale pärijate pärijaga pärijatele pärijast
+42	3642	sekka	sekka
+43	3643	kastma	kasta kastma kastetud kastan kastis kastad kastsin kastab kastke kastame kastsid kastetakse kastavad kastnud kastate kasteti kastmas kastaks kastes
+44	3644	kaabu	kaabu kaabut kaabuga kaabust kaabusid kaabud kaabus kaabudega
+45	3645	varitsus	varitsus varitsuse varitsust varitsusse varitsuses varitsusele varitsusest varitsuseks varitsusega varitsusel varitsused varitsusi
+46	3646	allkorrus	allkorrusel allkorrusele allkorruse allkorruselt
+47	3647	gravitatsioon	gravitatsioon gravitatsiooni gravitatsioonist gravitatsiooniga gravitatsioonis gravitatsioonile gravitatsioonil
+48	3648	armetu	armetu armetud armetus armetuks armetut armetult armetute armetust armetusse armetule armetul armetuid armetutest armetuna
+49	3649	surelik	surelik surelikud sureliku surelike surelikku surelikuks surelikke surelikele surelikuna surelikust surelikest surelikuga surelikega surelikeks surelikel surelikule
+50	3650	spetsialist	spetsialist spetsialisti spetsialistid spetsialistide spetsialiste spetsialistile spetsialistiga spetsialistidest spetsialistiks spetsialistina spetsialistidele spetsialistidel
+51	3651	laulja	laulja lauljaks lauljad lauljat lauljaid lauljana lauljaga lauljast lauljate lauljatega
+52	3652	aluspüksid	aluspüksid aluspükse aluspükste aluspükstes aluspükstega aluspükstesse aluspükstel
+53	3653	kohalolek	kohalolek kohalolekut kohalolekuga kohalolekust kohaloleku kohalolekul kohalolekuta kohalolekule
+54	3654	märkmik	märkmik märkmiku märkmikku märkmikus märkmikust märkmikud märkmikusse märkmikuga märkmikke märkmike märkmikesse
+55	3655	euro	eurot euro eurod eurodes euroga eurosid eurost
+56	3656	sisemus	sisemuses sisemus sisemust sisemusse sisemuse sisemusest sisemuselt sisemusega
+57	3657	rakendama	rakendada rakendama rakendatud rakendame rakenda rakendan rakendanud rakendatakse rakendas rakendades rakendage rakendab rakendasid rakendad rakendasin rakendavad rakendati rakendasime rakendaksid rakendate rakendata
+58	3658	oletus	oletus oletusi oletused oletuse oletuste oletust oletusega oletustest oletustele oletustega oletustel oletusel oletusele oletustes
+59	3659	arhiiv	arhiivi arhiivist arhiivis arhiiv arhiivid arhiivides arhiividest arhiive arhiivile arhiivide arhiividele arhiividesse arhiiviga
+60	3660	sissemurdmine	sissemurdmine sissemurdmise sissemurdmisest sissemurdmist sissemurdmisega sissemurdmised sissemurdmisi sissemurdmises sissemurdmiste sissemurdmiseks sissemurdmisele sissemurdmisel
+61	3661	vastuväide	vastuväide vastuväiteid vastuväited vastuväidet vastuväite vastuväidetest vastuväideteta
+62	3662	paraad	paraadi paraad paraadil paraadile paraadid paraadiks paraade paraadiga paraadist paraadidel
+63	3663	päkapikk	päkapikud päkapikk päkapikkude päkapikke päkapiku päkapikku päkapikkudest päkapikuga päkapikkudele päkapikkudega päkapikkudel päkapikust päkapikuks
+64	3664	tõenäoline	tõenäoline tõenäolisem tõenäoliseks tõenäolist tõenäolise tõenäolised
+65	3665	maniakk	maniakk maniakid maniaki maniakki maniakiga maniakke maniakiks maniakist maniakil maniakkidega
+66	3666	ussiauk	ussiaugu ussiauk ussiauku ussiaugud ussiauke ussiaukudest ussiaukude ussiaugus ussiaugust ussiauguga
+67	3667	ihaldama	ihaldab ihaldad ihaldatud ihaldan ihaldanud ihaldavad ihaldas ihalda ihaldada ihaldate ihaldama ihaldatav ihaldasin ihaldame ihaldasid ihaldaks ihaldatu ihaldav
+68	3668	toetuma	toetuda toetudes toetu toetub toetuvad toetuma toetun toetud toetuge toetume toetute toetusin toetunud toetusid toetusime
+69	3669	stiilne	stiilne stiilselt stiilsed stiilset stiilse stiilseks stiilseid stiilsete
+70	3670	plekk	plekk plekid pleki plekke plekki plekist plekkide plekkidega plekita plekkideta plekkidest plekiks plekiga
+71	3671	iks	iks
+72	3672	heldus	heldus heldust helduse heldusele heldusest helduses heldusega
+73	3673	tuletõrjuja	tuletõrjuja tuletõrjujad tuletõrjujat tuletõrjujaid tuletõrjujate tuletõrjujaks tuletõrjujatele tuletõrjujale tuletõrjujatega tuletõrjujatel
+74	3674	sõjaväelane	sõjaväelane sõjaväelased sõjaväelaste sõjaväelase sõjaväelasi sõjaväelast sõjaväelastele sõjaväelastega sõjaväelasega sõjaväelastest sõjaväelastel sõjaväelasest sõjaväelasena sõjaväelasele sõjaväelaseks
+75	3675	meedik	meedik meedikud meedikut meedikuid meedikute meediku meedikutel meedikuna meedikuks meedikutele meedikul
+76	3676	karma	karma karmat karmasse karmast karmaks karmal karmaga karmale
+77	3677	vaenulik	vaenulik vaenulikud vaenuliku vaenulikku vaenulikuks vaenulikke vaenulike vaenulikult vaenulikus vaenulikule vaenulikust vaenulikul vaenulikeks
+78	3678	ii	ii
+79	3679	komistama	komistasin komistas komistada komistasid komistab komista komistanud komistad komistasime komistame komistama komistan komistavad komistaks komistage komistamas komistasite
+80	3680	teostama	teostada teostatav teostab teostatud teostama teostan teostame teostas teostanud teostavad teosta teostatakse teostad teostasid teostasin teostati teostate teostades teostamas teostaksid
+81	3681	lõbustama	lõbustada lõbustab lõbusta lõbustama lõbustan lõbustav lõbustas lõbustad lõbustame lõbustage lõbustanud lõbustavad lõbustasid lõbustasin lõbustate lõbustatud lõbustaks lõbustamas
+82	3682	fotograaf	fotograaf fotograafi fotograafid fotograafiga fotograafe fotograafide fotograafina fotograafiks fotograafist fotograafil fotograafidest fotograafile
+83	3683	lendur	lendurid lendur lendureid lendurite lendurit lenduritele lenduriks lenduritest lenduri lenduritel lenduritega lendurile lenduriteks lenduriga lendurina
+84	3684	õigustama	õigustada õigusta õigustab õigustama õigustad õigustaks õigustanud õigustas õigustan õigustavad õigustate õigustav
+85	3685	alibi	alibi alibit alibid alibiga alibiks alibeid alibist
+86	3686	sarnanema	sarnaneb sarnanevad sarnanes sarnaned sarnanen sarnanema sarnaneda sarnaneks sarnanete sarnanev sarnanesid sarnanevat sarnanenud sarnaneme
+87	3687	tüdinud	tüdinud
+88	3688	seeria	seeria seeriat seerias seeriast seeriad seeriaga seeriale seeriates seeriaid seerial seeriaks
+89	3689	liguma	leon leod leoks
+90	3690	miinus	miinus miinused miinuseid miinuses miinuse miinuseks miinusega miinustest miinust miinusesse miinustes
+91	3691	parandamine	parandamiseks parandamist parandamine parandamise parandamisest parandamisega parandamisele parandamisel parandamises
+92	3692	füüsiliselt	füüsiliselt
+93	3693	nakatama	nakatada nakatas nakatanud nakatab nakatasid nakatavad nakatati nakatad nakatasin nakatades nakatama nakatate nakatan
+94	3694	konteiner	konteiner konteineri konteineris konteinerit konteinerid konteinerisse konteinerist konteinereid konteinerite konteinerites konteineriga konteineritesse konteineritest
+95	3695	vaimustus	vaimustuses vaimustust vaimustus vaimustusse vaimustusest vaimustuse vaimustusega
+96	3696	piinamine	piinamine piinamist piinamise piinamisest piinamisega piinamised piinamisel
+97	3697	isoleerima	isoleeritud isoleerida isoleerima isoleerige isoleeri isoleerinud isoleerime isoleeriti isoleerisin isoleerituna isoleerivad isoleeris isoleerisime isoleerib isoleerin isoleerituks isoleerides isoleerid
+98	3698	vaimukas	vaimukas vaimukad vaimukat vaimukaks vaimukalt vaimuka vaimukam
+99	3699	raamatupidaja	raamatupidaja raamatupidajad raamatupidajat raamatupidajaga raamatupidajana raamatupidajaks raamatupidajale raamatupidajate raamatupidajaid raamatupidajatele raamatupidajast raamatupidajal raamatupidajalt
+100	3700	ründaja	ründaja ründajad ründajat ründajaid ründajate ründajal ründajast ründajaga ründajale ründajaks ründajatest ründajana ründajatele

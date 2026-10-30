@@ -1,0 +1,100 @@
+1	8601	vankumatu	vankumatu vankumatult vankumatut vankumatud vankumatuks
+2	8602	pikendus	pikendust pikendus pikenduse pikendused
+3	8603	fööniks	fööniks fööniksi fööniksid
+4	8604	korterikaaslane	korterikaaslane korterikaaslast korterikaaslased korterikaaslase korterikaaslasega
+5	8605	siseinfo	siseinfot siseinfo siseinfoga
+6	8606	kirjutuslaud	kirjutuslaua kirjutuslaud kirjutuslaual kirjutuslauale kirjutuslauda
+7	8607	lõunapaus	lõunapausi lõunapaus lõunapausil lõunapausiks
+8	8608	mikroob	mikroobid mikroobe mikroobide mikroob mikroobidest mikroobi
+9	8609	allaandmine	allaandmist allaandmise allaandmine allaandmisest allaandmiseks
+10	8610	taskurätik	taskurätik taskurätikut taskurätiku taskurätikud taskurätikuid taskurätikuga
+11	8611	vahendama	vahendada vahendab vahendan vahendas vahendanud vahendasid vahendasin vahendama vahendavad vahenda vahendades
+12	8612	põssa	põssa põssad
+13	8613	esmamulje	esmamulje esmamuljet esmamuljed esmamuljest
+14	8614	prefekt	prefekt prefekti prefektile
+15	8615	meteoriidisadu	meteoriidisadu meteoriidisaju meteoriidisajus meteoriidisajust
+16	8616	väravavaht	väravavaht väravavahi väravavahti väravavahiks
+17	8617	kelt	keldi keldid kelt keltide kelti
+18	8618	ekstaas	ekstaasis ekstaasi ekstaas ekstaasist
+19	8619	vahatama	vahatada vahatasin vahatatud vahatab vahatama vahatan vahatas
+20	8620	armulaud	armulaud armulaua armulaual armulauda armulauale
+21	8621	šokeerima	šokeeritud šokeeris šokeerida šokeerivat šokeeriks šokeerib
+22	8622	vurr	vurrud vurr vurri vurre vurrid vurrudega
+23	8623	ühekaupa	ühekaupa
+24	8624	rahaliselt	rahaliselt
+25	8625	tarvitus	tarvitusele
+26	8626	lühend	lühend
+27	8627	häbiasi	häbiasi
+28	8628	kolmveerand	kolmveerand
+29	8629	luht	luhta luhal luht luhale
+30	8630	eravaldus	eravaldus eravalduses
+31	8631	järeleandmatu	järeleandmatu järeleandmatult järeleandmatud
+32	8632	veresuhkur	veresuhkur veresuhkru veresuhkrut veresuhkruga
+33	8633	turvafirma	turvafirma turvafirmas turvafirmat turvafirmale turvafirmast turvafirmaga
+34	8634	päikeseline	päikeseline päikeselisel päikeselises päikeselisse päikeselist päikeselisest päikeselise
+35	8635	salm	salm salmi
+36	8636	sümpaatia	sümpaatia sümpaatiat sümpaatiaga
+37	8637	tegutseja	tegutseja tegutsejad tegutsejate tegutsejat tegutsejaid tegutsejale
+38	8638	aegne	aegne aegsed aegselt aegset aegse aegsete aegseid aegsest
+39	8639	rõuged	rõuged rõugete rõugetesse rõugeid rõugetest rõugetega
+40	8640	sõnamäng	sõnamäng sõnamängu sõnamänge sõnamängud
+41	8641	vits	vitsa vits vitsad vitsaga vitstest
+42	8642	spekulatsioon	spekulatsioon spekulatsioonid spekulatsioone spekulatsioonide spekulatsiooni
+43	8643	üleüldine	üleüldine üleüldiselt üleüldise üleüldist
+44	8644	tõestusmaterjal	tõestusmaterjal tõestusmaterjali tõestusmaterjaliks tõestusmaterjalide tõestusmaterjalid tõestusmaterjale
+45	8645	söögisaal	söögisaali söögisaalis söögisaal söögisaalist
+46	8646	masinaruum	masinaruumi masinaruum masinaruumis masinaruumist
+47	8647	otsaesine	otsaesine otsaesisel otsaesist otsaesisele otsaesise otsaesiselt otsaesisega
+48	8648	kooskõlastama	kooskõlastama kooskõlastatud kooskõlastada kooskõlasta kooskõlastamata kooskõlastan kooskõlastage kooskõlastame kooskõlastasin
+49	8649	koperdama	koperdas koperdasin koperdab koperda koperdavad koperdasid koperdad koperdasime koperdan koperdanud
+50	8650	kogenematu	kogenematu kogenematud kogenematus
+51	8651	telliskivi	telliskivi telliskive telliskiviga telliskivid
+52	8652	sissemakse	sissemakse sissemakset sissemakseks sissemakseid sissemaksed
+53	8653	asetsema	asetseb asetsevad asetseva asetsev asetses
+54	8654	valvelaud	valvelauda valvelaud valvelauast valvelauas valvelaua
+55	8655	värss	värss värsse värsi värsid värssi
+56	8656	piparkook	piparkooke piparkoogid piparkooki piparkook piparkoogi piparkoogist
+57	8657	serblane	serblased serblane serblaste serblasi serblastele serblasest
+58	8658	äritsema	äritseb äritsema äritsed äritse äritsevad äritses äritsen äritseda äritseme äritsesid äritsenud äritsesin
+59	8659	tirin	tirin
+60	8660	sestsaadik	sestsaadik
+61	8661	näoli	näoli
+62	8662	haisukott	haisukott haisukoti haisukotid
+63	8663	liköör	likööri liköör liköörist
+64	8664	kondor	kondor kondori kondorid kondorit
+65	8665	sületants	sületantsu sületants sületantsuga sületantsuks
+66	8666	tänavanurk	tänavanurgal tänavanurgale tänavanurkadel tänavanurgalt tänavanurk tänavanurga
+67	8667	pint	pinti pindi pinta
+68	8668	oskuslik	oskuslik oskuslikult oskuslikud oskusliku oskuslikke
+69	8669	virn	virna virn virnas virnade virnad
+70	8670	lugupidav	lugupidav lugupidavalt lugupidava lugupidavad
+71	8671	surmahirm	surmahirm surmahirmu surmahirmus surmahirmul surmahirmust
+72	8672	pettemanööver	pettemanööver pettemanöövri pettemanöövrit pettemanöövriks pettemanöövreid pettemanöövriga
+73	8673	ajaviide	ajaviide ajaviiteks ajaviidet ajaviite
+74	8674	taaskäivitama	taaskäivitada taaskäivitama taaskäivita taaskäivitame taaskäivitan taaskäivitatud taaskäivitab taaskäivitas
+75	8675	tööpakkumine	tööpakkumise tööpakkumine tööpakkumisi tööpakkumist tööpakkumisest tööpakkumistest
+76	8676	mannekeen	mannekeen mannekeeni mannekeenid mannekeenide mannekeeniga mannekeene
+77	8677	suvelaager	suvelaagris suvelaager suvelaagrisse suvelaagri suvelaagrist suvelaagrid
+78	8678	misjonär	misjonär misjonäri misjonärid misjonäride misjonäre misjonäriks
+79	8679	angerjas	angerjas angerjad angerjat angerjaid angerja angerjaga
+80	8680	mürakas	mürakas müraka
+81	8681	senjoriita	senjoriita senjoriitad
+82	8682	iganema	iganenud igane iganenuks
+83	8683	jalam	jalamil jalamile jalamilt jalami
+84	8684	toidumürgitus	toidumürgitus toidumürgituse toidumürgitust
+85	8685	prink	prink pringid pringi prinki
+86	8686	afgaan	afgaani afgaanid afgaane afgaan afgaanide
+87	8687	pipragaas	pipragaasi pipragaas pipragaasiga
+88	8688	tuumajaam	tuumajaama tuumajaam tuumajaamas tuumajaamad tuumajaamast tuumajaamade
+89	8689	heidik	heidik heidikud heidikuid heidikute
+90	8690	konventsioon	konventsiooni konventsioon konventsioonile konventsioonil konventsiooniga
+91	8691	pädev	pädev pädevad pädevam pädevat
+92	8692	piire	piirde piirded piire piiret piirete piirdeid piirdest piirdesse
+93	8693	infrastruktuur	infrastruktuuri infrastruktuur infrastruktuure infrastruktuurist
+94	8694	monopol	monopoli monopol monopolid monopolis
+95	8695	patsutama	patsutada patsutas patsutama patsutab patsutad patsutan patsutanud patsutasid patsutavad
+96	8696	velmama	velma
+97	8697	hingamisruum	hingamisruumi
+98	8698	klaasike	klaasike
+99	8699	kõrgendama	kõrgendatud
+100	8700	uje	uje ujedad ujedaks

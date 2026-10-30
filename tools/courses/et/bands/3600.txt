@@ -1,0 +1,100 @@
+1	3501	evakueerima	evakueerida evakueerima evakueerige evakueeritakse evakueerime evakueeriti evakueerivad evakueerisid evakueeri evakueerinud evakueerisime evakueeris evakueerib evakueerin
+2	3502	tall	talli tall tallis tallid tallele tallide tallist tallides tallel talled tallidesse talleta tallidest tallesid
+3	3503	kommunist	kommunistid kommunist kommunistide kommuniste kommunistidega kommunisti kommunistist kommunistidest kommunistidele kommunistiks kommunistidel
+4	3504	õpetus	õpetust õpetus õpetusi õpetuse õpetused õpetuseks õpetuste õpetustest õpetusest õpetuses õpetusega õpetustele õpetustega õpetustes õpetusele
+5	3505	ajalooline	ajalooline ajaloolise ajaloolist ajalooliselt ajaloolisi ajaloolised ajaloolisel ajaloolisest ajaloolisele ajaloolises ajalooliste ajaloolistel ajaloolistest ajalooliseks
+6	3506	kukutama	kukutada kukutas kukutab kukutama kukutasid kukutame kukutan kukutanud kukutatud kukutasin kukutades kukutati kukutad kukutavad kukutage kukutatakse
+7	3507	järeltulija	järeltulija järeltulijad järeltulijaid järeltulijat järeltulijate järeltulijatele järeltulijaks järeltulijale järeltulijaga järeltulijast järeltulijatel järeltulijatest järeltulijana
+8	3508	sula	sulas sula sulla sulata sulam sulaks sulasid sulad sulades sulami sulamit sulast sulaga
+9	3509	lammutama	lammutada lammutama lammutab lammutan lammutavad lammutatakse lammutame lammuta lammutati lammutatud lammutage lammutasid lammutad lammutas lammutanud lammutasin lammutate lammutasime lammutata lammutaks lammutades
+10	3510	kokkutulek	kokkutulek kokkutulekule kokkutulekul kokkutuleku kokkutulekut kokkutulekutel kokkutulekud kokkutulekuks kokkutulekust kokkutulekuid kokkutulekute kokkutulekult kokkutulekutele
+11	3511	märts	märts märtsil märtsis märtsi märtsini märtsist märtsiks
+12	3512	jälil	jälil
+13	3513	pööning	pööningul pööningule pööning pööningult pööningu pööningut pööningust pööningud
+14	3514	erinema	erineb erine erineda erined erines erineme erinema erinevad erinesid erineks erinen erinenud erinevat erinete
+15	3515	kurvastama	kurvasta kurvastab kurvastada kurvastama kurvastad kurvastas kurvastage kurvastaks kurvastan kurvastanud kurvastavad kurvastasin kurvastasid kurvastavat kurvastate kurvastame
+16	3516	komissar	komissar komissari komissarile komissarid
+17	3517	karjumine	karjumine karjumist karjumise
+18	3518	hallutsinatsioon	hallutsinatsioone hallutsinatsioonid hallutsinatsioon hallutsinatsiooni hallutsinatsioonide hallutsinatsioonidega hallutsinatsiooniks hallutsinatsioonidest hallutsinatsioonideks
+19	3519	naisterahvas	naisterahvas naisterahva naisterahvast naisterahvaga naisterahvale naisterahvad naisterahval naisterahvaid naisterahvalt naisterahvaste
+20	3520	banaan	banaani banaan banaanid banaane banaaniga banaanide banaanidega banaanidest banaanile
+21	3521	aasia	aasia aasias aasiast aasiasse aasiani aasiat
+22	3522	bioloogiline	bioloogiline bioloogilise bioloogiliste bioloogilist bioloogilised bioloogilisi bioloogilisest bioloogilisel bioloogiliseks bioloogilistest
+23	3523	nett	netis netist netti neti
+24	3524	kõikjalt	kõikjalt
+25	3525	jootraha	jootraha jootrahaks jootrahaga jootrahast jootrahad
+26	3526	riietama	riietatud riietada riietas riietab riietama riietan riieta riietanud riietasid riietad riietasin riietame riietavad riietage riietasime riietaks
+27	3527	teadaanne	teadaanne teadaande teadaannet teadaandeid teadaanded teadaandeks teadaandeni teadaandega teadaandest teadaandes teadaannete teadaanneteni
+28	3528	lõik	lõik lõigu lõiku lõigud lõigus lõigul lõiguga lõikude lõigule
+29	3529	mõis	mõisa mõisas mõis mõisast mõisasse mõisad mõisat mõisaga mõisaid
+30	3530	põsk	põske põsed põse põsk põsel põsele põski põskedele põskedel põskede põsest põskedega põskedest
+31	3531	ellujäämine	ellujäämise ellujäämine ellujäämisest ellujäämisele
+32	3532	parool	parool parooli paroolid parooliga paroole parooliks paroolist
+33	3533	rasedus	raseduse rasedus rasedust rasedusest rasedustest rasedusega rasedusi rasedusele rasedused
+34	3534	ajutiselt	ajutiselt
+35	3535	pissima	pissida pissima pissib pissisin pissin pissinud pissivad pissimas pissime pissiv pissitud
+36	3536	ranne	randme ranne randmed rannet randmel randmest randmeid randmele randmega randmetel randmes randmete randmetele randmelt randmetes
+37	3537	tähelepanelik	tähelepanelik tähelepanelikud tähelepanelikum tähelepanelikuks
+38	3538	abitu	abitu abitud abituna abitult abituid abitut abituks abitute abitutele abitule
+39	3539	ootus	ootused ootusi ootustele ootuste ootus ootuses ootust ootuseid ootuse ootusest ootustega ootustest
+40	3540	tähtsaim	tähtsaim tähtsaima tähtsaimat tähtsaimaks
+41	3541	kaader	kaadrid kaader kaadreid kaadrit kaadrisse kaadri kaadris kaadrist kaadrite kaadritest
+42	3542	investeering	investeering investeeringuid investeeringut investeeringud investeeringu investeeringute investeeringust investeeringuks investeeringutega investeeringuna investeeringutest investeeringule investeeringuga investeeringuteks investeeringutes
+43	3543	uurimus	uurimus uurimust uurimuse uurimused uurimusi uurimusest uurimuses uurimuste uurimusega uurimusele uurimustest uurimustes uurimusel uurimustele
+44	3544	bill	billi billiga billile billil billist billilt billiks billis
+45	3545	muusik	muusik muusikud muusikuid muusikuks muusiku muusikut muusikute muusikuna muusikutega muusikuga muusikutele muusikule muusikutest muusikutel muusikust
+46	3546	konverents	konverentsil konverents konverentsi konverentsile konverentsilt konverentsidel konverentsid konverentse konverentsist konverentsiks
+47	3547	täitmine	täitmiseks täitmist täitmisel täitmise täitmine täitmisega täitmisest täitmisele täitmises
+48	3548	kaev	kaevu kaev kaevust kaevus kaevud kaevusid kaeve kaevule kaevude kaevuga kaevul
+49	3549	tava	tava tavaks tavad tavasid tavade tavadest tavadele tavadega
+50	3550	kokkuvõte	kokkuvõttes kokkuvõte kokkuvõtteks kokkuvõtte kokkuvõtet kokkuvõtted kokkuvõtteid kokkuvõttega kokkuvõttest
+51	3551	kammima	kammida kammima kammime kamminud kammivad kammib kammi kammin kammitud kammige kammisin kammisime kammid kammis kammimas kammisid kammiks
+52	3552	arvutama	arvutada arvutasin arvutan arvutama arvutanud arvutame arvutatud arvutas arvutab arvutage arvutasid arvutasime arvutad arvutades arvutavad arvutate arvutatakse arvuta
+53	3553	õhtustama	õhtustama õhtustada õhtustame õhtustan õhtustab õhtustamas õhtustad õhtusta õhtustasin õhtustasime õhtustavad õhtustanud õhtustaksid õhtustaks õhtustate õhtustas õhtustasid õhtustage
+54	3554	bell	belle belli belliga bellile bellist
+55	3555	niivõrd	niivõrd
+56	3556	eriagent	eriagent eriagendid eriagendi
+57	3557	riiul	riiulil riiul riiuli riiulile riiulid riiulilt riiulis riiulit riiulisse riiulite riiulitel riiulitele riiuleid riiulitelt riiulist
+58	3558	rahutu	rahutu rahutuks rahutud rahutult rahutuna rahutut rahutuid rahutute
+59	3559	omand	omand omandi omandit omandiks omandist omandis omandid omandisse omandile omandiga omandina
+60	3560	kasvaja	kasvaja kasvajat kasvajaid kasvajad kasvajast kasvajaga kasvajale kasvajate
+61	3561	ämber	ämber ämbrisse ämbri ämbrit ämbris ämbrid ämbriga ämbreid ämbrist ämbrite
+62	3562	hell	hell hellalt hella hellad hellaks helli
+63	3563	reporter	reporterid reporteri reportereid reporterit reporteriga reporterile reporterina reporteritest reporteritega reporteriks reporteritele reporterite reporterist reporteril reporterilt reporteritel
+64	3564	luupainaja	luupainaja luupainajaid luupainajad luupainajat luupainajast luupainajatest luupainajate luupainajaks luupainajas luupainajasse luupainajatega
+65	3565	värskendama	värskendav värskendada värskendan värskenda värskendab värskendama värskendavat värskendavalt värskendavad värskendava värskendage värskendaks värskendame värskendasid värskendanud
+66	3566	aplaus	aplaus aplausi aplausiga
+67	3567	välismaa	välismaal välismaale välismaa välismaalt välismaist
+68	3568	armuline	armuline armulised armulise armulisem armuliselt armulist armulisele
+69	3569	draama	draama draamat draamast draamas draamaga draamad draamasid draamata draamaks draamale draamasse
+70	3570	jahe	jahe jahedaks jahedam jahedas jahedat jahedad jaheda jahedana jahedal jahedalt jahedasse
+71	3571	maailmasõda	maailmasõda maailmasõja maailmasõjas maailmasõjast maailmasõjaks maailmasõtta
+72	3572	märkimisväärne	märkimisväärne märkimisväärset märkimisväärse märkimisväärsed märkimisväärseid märkimisväärsete märkimisväärsele märkimisväärsel märkimisväärsest
+73	3573	lõke	lõkke lõke lõket lõkkele lõkked lõkkesse lõkkeid lõkkel lõkkes lõkkest lõkkega
+74	3574	abivägi	abiväge abivägi
+75	3575	lemmikloom	lemmikloom lemmiklooma lemmikloomad lemmikloomi lemmikloomade lemmikloomaks lemmikloomast lemmikloomaga lemmikloomana lemmikloomadeks lemmikloomadega lemmikloomadele lemmikloomadena lemmikloomadest
+76	3576	patune	patune patused patuste patuse patuseid patust patusele patustele patusest patuselt patusena patuseks
+77	3577	kohanema	kohaneda kohanenud kohanema kohaneb kohanevad kohanen kohaned kohaneme kohanes kohanesin kohanesid kohanete kohaneks
+78	3578	ennist	ennist
+79	3579	abiellumine	abiellumist abiellumine abiellumise abiellumisest
+80	3580	järelvalve	järelvalve järelvalveta järelvalvet järelvalvega järelvalvest järelvalvesse järelvalves
+81	3581	professionaal	professionaal professionaalid professionaali professionaalide professionaalidele professionaale professionaaliks professionaaliga professionaalina professionaalidega
+82	3582	lennuväli	lennuväljale lennuväljal lennuvälja lennuväli lennuväljalt lennuväljad lennuväljast lennuvälju lennuväljaga lennuväljani
+83	3583	klapp	klapi klapp klappi klappe klapiga
+84	3584	kõhn	kõhn kõhna kõhnad kõhnaks kõhnana kõhnu kõhnalt
+85	3585	kombinatsioon	kombinatsioon kombinatsiooni kombinatsioone kombinatsiooniga kombinatsioonid kombinatsioonis kombinatsioonist
+86	3586	annetama	annetada annetas annetage annetab annetatud annetasin annetan annetama annetanud annetavad anneta annetasid annetad annetame annetasime annetati annetatakse annetaksin annetades
+87	3587	soojus	soojust soojus soojuse soojusest soojusele soojusega soojuses
+88	3588	areen	areenil areeni areenile areen areenilt areenist areenid
+89	3589	maatasa	maatasa
+90	3590	lõõgastuma	lõõgastuda lõõgastu lõõgastuma lõõgastuge lõõgastunud lõõgastume lõõgastun lõõgastud lõõgastus lõõgastuks lõõgastub lõõgastuksid lõõgastumas lõõgastusin lõõgastusime lõõgastute lõõgastuvad
+91	3591	elukoht	elukoha elukohta elukoht elukohas elukohast elukohad elukohti elukohaks elukohata elukohaga
+92	3592	depressioon	depressiooni depressioon depressioonis depressioonist depressiooniga depressiooniks depressioonile
+93	3593	kauplus	kauplus kaupluses kaupluse kauplust kauplusest kauplusesse kauplustes kauplused kauplusse kaupluste kauplusi kauplustest
+94	3594	jahtuma	jahtub jahtu jahtunud jahtuda jahtuma jahtuvad jahtus jahtuge jahtuks jahtume jahtudes jahtud jahtusid
+95	3595	temasugune	temasugune temasuguseid temasugused temasugust temasuguse temasuguste temasugusega temasuguseks temasugusele temasugustega temasugustel temasugustele temasugustest temasugusest
+96	3596	jalgratas	jalgrattaga jalgratta jalgratas jalgratast jalgrattal jalgrattad jalgratastega jalgrattaid jalgrataste jalgrattale jalgrattast jalgrattas
+97	3597	kolmkümmend	kolmkümmend kolmekümne kolmekümnest kolmekümneni kolmekümmend kolmekümmet kolmekümnega
+98	3598	detsember	detsember detsembril detsembris detsembri detsembrist dets detsembrini detsembrit detsembriks
+99	3599	sisim	sisimas
+100	3600	juveel	juveelid juveele juveel juveeli juveelide juveelidega juveelidest juveelidele juveeliga juveelides

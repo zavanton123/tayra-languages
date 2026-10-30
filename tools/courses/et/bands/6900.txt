@@ -1,0 +1,100 @@
+1	6801	kümnene	kümnene kümnesed kümneseks kümnese kümnestes
+2	6802	tegelaskuju	tegelaskuju tegelaskujud tegelaskujust tegelaskujusid tegelaskujule
+3	6803	inimkeha	inimkeha inimkehas inimkehast inimkehasse
+4	6804	äi	äi äia äiaga äiale äiata äiu
+5	6805	hädine	hädine hädised hädise hädist hädiselt hädiseid hädisest
+6	6806	jäik	jäik jäigad jäigalt jäika jäiga jäigem jäigaks
+7	6807	hein	heina hein heinaga heinu heinast heintes heintest
+8	6808	evakueerimine	evakueerimist evakueerimine evakueerimiseks
+9	6809	invaliid	invaliid invaliidide invaliidi invaliidist invaliidid invaliidiks invaliidina invaliidiga
+10	6810	hoidla	hoidla hoidlas hoidlasse hoidlat hoidlast
+11	6811	klammerduma	klammerduda klammerdub klammerdunud klammerduvad klammerduv klammerdud klammerdus klammerdu klammerduma klammerdusin klammerdume klammerdudes klammerdun
+12	6812	okas	okas okkad okkaid okastega okaste okka
+13	6813	kamm	kamm kammi kammid kammiga kammis kammisid kammiks
+14	6814	konsulteerima	konsulteerima konsulteerida konsulteerimata konsulteerin konsulteerisin konsulteerinud konsulteerib konsulteerid konsulteerime konsulteerisime konsulteerige konsulteeritud konsulteeris
+15	6815	kärama	kärab käratult
+16	6816	ports	portsu portsud portsuga
+17	6817	murdvaras	murdvaras murdvargad murdvarga murdvarast murdvargale murdvargaga murdvargaks
+18	6818	rula	rula rulaga ruladega rulal rulad rulata rulasid
+19	6819	nõudlus	nõudlus nõudlust nõudluse nõudlusest nõudlusega nõudlusi
+20	6820	kaudne	kaudselt kaudne kaudsed kaudses kaudsete kaudseid kaudse kaudset
+21	6821	iseseisvus	iseseisvuse iseseisvus iseseisvust iseseisvusest
+22	6822	rahatäht	rahatähed rahatähti rahatäht rahatähte rahatähe rahatähtedes rahatähtedega rahatähel rahatähtede
+23	6823	rikki	rikki
+24	6824	lakkamatu	lakkamatult lakkamatu lakkamatut lakkamatus
+25	6825	lasanje	lasanjet lasanje
+26	6826	tähestik	tähestiku tähestik tähestikku tähestikus tähestikust
+27	6827	võimekus	võimekust võimekuse võimekus võimekusest võimekuses võimekusele võimekusega
+28	6828	personaalne	personaalselt personaalne personaalse personaalset personaalsed personaalsete personaalseid personaalseks
+29	6829	tõkestama	tõkestada tõkestatud tõkestab tõkesta tõkestama tõkestage tõkestas tõkestavad tõkestame tõkestasid tõkestan tõkestanud
+30	6830	möönma	möönma möönan mööna möönda möönab möönad möönis
+31	6831	hüpoteek	hüpoteegi hüpoteek hüpoteeki hüpoteegid hüpoteekide hüpoteegist
+32	6832	sosin	sosin sosinaid sosinal sosinad sosinat sosina sosinate
+33	6833	vanadus	vanadusse vanadus vanaduses vanaduse vanadusest vanadust vanaduseni
+34	6834	imehea	imehea imehead imehäid
+35	6835	parkimiskoht	parkimiskoht parkimiskoha parkimiskohta parkimiskohti parkimiskohad parkimiskohale parkimiskohal
+36	6836	diplom	diplom diplomi diplomit diplomid diplomeid diplomiga diplomite
+37	6837	otsakorral	otsakorral
+38	6838	kurnav	kurnav kurnava kurnavalt kurnavaks
+39	6839	hambahaldjas	hambahaldjas hambahaldja hambahaldjat hambahaldjast hambahaldjasse
+40	6840	käepigistus	käepigistus käepigistust käepigistuse käepigistusega käepigistusest käepigistusi
+41	6841	põngerjas	põngerjas põngerjad põngerja põngerjat põngerjale põngerjaid
+42	6842	link	lingi linki lingid lingile linke lingist lingil
+43	6843	pelgupaik	pelgupaik pelgupaika pelgupaiga pelgupaigaks pelgupaigas
+44	6844	poolehoid	poolehoidu poolehoiu poolehoid poolehoiuga
+45	6845	vetikas	vetikad vetikaid vetikate vetikatest vetikatega vetikas vetika
+46	6846	energiaallikas	energiaallikas energiaallikat energiaallika energiaallikaid energiaallikana energiaallikad energiaallikaga energiaallikast energiaallikaks energiaallikatest
+47	6847	valguma	valgub valgud valgu valgunud valguvad valgusid valguda valgumas valguma
+48	6848	peksmine	peksmine peksmist peksmised
+49	6849	tald	talla talda tallata taldu tallad tald tallaga tallas tallaks
+50	6850	joom	joomist joomas joomata joomast
+51	6851	kordus	kordus kordust kordusi korduse korduses kordused korduseid kordusena korduseks
+52	6852	kusjuures	kusjuures
+53	6853	taba	taba
+54	6854	auhindama	auhinda
+55	6855	ebaoluline	ebaoluline ebaolulised ebaoluliseks ebaolulise ebaolulisest
+56	6856	targutama	targuta targutama targutada targutad targutage targutab
+57	6857	äärmuslane	äärmuslaste äärmuslased äärmuslastega äärmuslane äärmuslasi äärmuslastele äärmuslastest
+58	6858	olija	olijad olija olijate olijaid olijatele olijatest olijatega olijat
+59	6859	toitumine	toitumine toitumist toitumise toitumiseks toitumisega toitumisest
+60	6860	tõke	tõkked tõke tõkke tõkkeid tõkete tõket tõketest tõkkest
+61	6861	näiline	näiliselt näiline näilise näilist
+62	6862	kofeiin	kofeiini kofeiin kofeiinita kofeiiniga kofeiinist
+63	6863	helves	helbeid helbed helveste helvestega
+64	6864	diviis	diviisi diviis diviisist diviisis diviisiga diviisile
+65	6865	kratsima	kratsida kratsi kratsin kratsid kratsib kratsima kratsivad kratsis kratsisid kratsite kratsiks
+66	6866	diagnostika	diagnostika diagnostikat diagnostikaga
+67	6867	segaja	segaja segajad segajaid segajat segajateta segajaks
+68	6868	jõulupidu	jõulupidu jõulupeol jõulupeole jõulupeo jõulupeolt
+69	6869	kirurgiline	kirurgiliselt kirurgilise kirurgiline kirurgilist kirurgilised kirurgilisel kirurgilisi kirurgiliste
+70	6870	paranormaalne	paranormaalne paranormaalsete paranormaalseid paranormaalsed paranormaalset paranormaalse paranormaalsetest
+71	6871	tukastama	tukastada tukastasin tukastan tukastama tukasta tukastab tukastad tukastasid tukastavad tukastas
+72	6872	trükk	trükki trükk
+73	6873	topeltagent	topeltagent topeltagendid topeltagendi topeltagendiks topeltagenti topeltagendina
+74	6874	sõnavara	sõnavara sõnavaras sõnavaraga sõnavarast sõnavarasse
+75	6875	parempoolne	parempoolne parempoolse parempoolset parempoolses parempoolsed parempoolsete parempoolsel parempoolsesse parempoolsest parempoolsele
+76	6876	levik	levikut leviku levik levikuga levikule
+77	6877	institutsioon	institutsiooni institutsioon institutsioonid institutsioone institutsioonis institutsioonist institutsioonide institutsioonidele
+78	6878	häbitu	häbitu häbitult häbitud häbitus häbitut
+79	6879	nõlv	nõlva nõlval nõlvadel nõlvast nõlvad nõlv nõlvalt nõlvu nõlvadele nõlvale
+80	6880	asedirektor	asedirektor asedirektori asedirektoriks asedirektorile asedirektoriga
+81	6881	mahlane	mahlane mahlased mahlase mahlaseid mahlaste
+82	6882	auväärt	auväärt
+83	6883	vintske	vintske vintsked vintskeks vintsket
+84	6884	vastasseis	vastasseis vastasseisu vastasseisus vastasseisust vastasseisuks
+85	6885	esirida	esireas esirea esiritta esireast esirida
+86	6886	pulgakomm	pulgakommi pulgakomm pulgakommid pulgakomme
+87	6887	furgoon	furgooni furgoon furgoonis furgooniga furgoonist
+88	6888	trauma	traumat traumast traumasid traumad traumaga traumasse traumade traumadega traumale
+89	6889	levitamine	levitamise levitamine levitamiseks levitamist levitamisega levitamises levitamisest
+90	6890	kütkestav	kütkestav kütkestavaks kütkestava
+91	6891	keegel	keeglit keegli keegel keeglis
+92	6892	kongo	kongo kongos kongosse kongost kongot
+93	6893	vastuhakk	vastuhakk vastuhaku vastuhakku vastuhakuks vastuhakust vastuhakus
+94	6894	kriim	kriimu kriim kriimud kriimuta kriime kriimude
+95	6895	aer	aerud aeruta aer aeru aere aeruga aerudega aerudele aerude
+96	6896	hütt	hütt hütis hüti hütti hütid hütte hütist hüttides
+97	6897	enesehinnang	enesehinnang enesehinnangut enesehinnangu enesehinnanguga enesehinnangust enesehinnangule
+98	6898	asjakohane	asjakohane asjakohased asjakohast asjakohase asjakohaseid asjakohasem asjakohaselt
+99	6899	kaliiber	kaliibriga kaliiber kaliibrit
+100	6900	toonik	toonikuga toonik toonikut tooniku

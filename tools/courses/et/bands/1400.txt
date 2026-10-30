@@ -1,0 +1,100 @@
+1	1301	peamine	peamine peamiselt peamise peamised peamist peamiseks peamisi peamiste peamises peamisest peamisele peamistest peamisse peamisel peamisesse peamiseid
+2	1302	parras	pardal pardale pardalt pardas
+3	1303	unistama	unistanud unista unistada unistasin unistan unistad unistab unistas unistavad unistama unistasid unistadagi unistame unistasime unistades unistate unistage unistaks unistav unistamas unistamast unistagu
+4	1304	takso	takso taksot taksoga taksos taksosse taksost taksod taksosid taksode taksole taksol taksodega taksolt
+5	1305	paps	paps papsi papsile papsiga papsil papsiks papsid papsist
+6	1306	pruut	pruut pruudi pruuti pruudiga pruudile pruudiks pruudid pruudist pruudil pruute pruutide pruudilt pruudina pruutidega pruutidele pruutidest pruudita
+7	1307	töökoht	töökoht töökoha töökohta töökohti töökohad töökohast töökohal töökohas töökohale töökohtade töökohaga töökohtadele töökohtadest töökohalt töökohtadel töökohaks töökohtades
+8	1308	vahistama	vahistada vahistatud vahistati vahistama vahistage vahistatakse vahistan vahista vahistas vahistanud vahistasid vahistame vahistasime vahistasin vahistad vahistasite vahistate vahistavad vahistataks vahistab vahistaks vahistata vahistades vahistaksid vahistatu vahistaksin vahistamas
+9	1309	laager	laagrisse laagris laagri laager laagrist laagrit laagrid laagrites laagreid laagrile laagritesse laagriga laagritest laagrini laagrite laagril laagriks
+10	1310	keskkool	keskkooli keskkoolis keskkool keskkoolist keskkoolide keskkooliga keskkoolini
+11	1311	mootor	mootor mootori mootorid mootorit mootoriga mootoreid mootorite mootoris mootorist mootoritega mootorisse mootorile mootoril mootoritest mootoriks mootoritele mootoritesse mootorita
+12	1312	kauaks	kauaks
+13	1313	lähedane	lähedased lähedane lähedaseks lähedasi lähedaste lähedase lähedasteks lähedastele lähedastest lähedastega lähedasena lähedaselt lähedasele lähedastes lähedasel lähedasest lähedastel lähedases
+14	1314	palve	palve palveta palvet palved palveid palvetele palvel palvega palvele palvete palvetes palveks palvest palvetega palvetest palves palveis palvesse
+15	1315	viirus	viirus viiruse viirust viirusega viirusest viirused viirusele viirusesse viiruseid viiruste viirusel viirustega viirustest viirusi viirusena viirustele viiruseks
+16	1316	keset	keset
+17	1317	suunama	suunas suunatud suunan suunab suunama suunati suunata suunake suunatakse suuname suunasin suunavad suunasid suunanud suunates suunaksid suunasime suunate suunad suuna suunav suunataks suunamas suunaksite suunaks
+18	1318	arusaadav	arusaadav arusaadavalt arusaadavaks arusaadavad arusaadavam arusaadavas arusaadavatel arusaadavat
+19	1319	positsioon	positsiooni positsioonil positsioon positsioonidele positsioonile positsioonidel positsioone positsioonid positsioonis positsiooniga positsioonilt positsioonist positsioonide positsioonidelt positsioonini
+20	1320	esmalt	esmalt
+21	1321	võlgnema	võlgnen võlgned võlgne võlgneme võlgneb võlgnete võlgnevad võlgnes võlgnesin võlgnetakse võlgneda võlgnesid võlgnenud võlgneks
+22	1322	mugav	mugav mugavalt mugavam mugavaks mugavad mugavamalt mugavamaks mugava mugavat mugavas mugavamat mugavast mugavasse mugavaid mugavama mugavana
+23	1323	etendus	etendus etendust etenduse etendusele etendusel etendusest etenduses etendusi etendusega etenduseks etendused etendusse etendustel etenduste etendustest etenduselt
+24	1324	mööduma	möödus möödub möödudes möödusid mööduvad mööduda möödu mööduv möödusime möödume mööduma möödumas möödusin möödun mööduks mööduva möödud mööduvat mööduvaid mööduksid möödusite mööduvast möödute möödugu mööduvate
+25	1325	kallike	kallike kallikesed kallikese kallikest kallikesega kallikesele kallikeseks kallikesel
+26	1326	komandör	komandör komandöri komandörile komandöriga komandöriks komandörid komandöril komandörina komandöridele komandörilt komandöride komandöridega komandöre komandöridel
+27	1327	vaikus	vaikust vaikus vaikuses vaikuse vaikusest vaikusega vaikusesse vaikuseks
+28	1328	sündmus	sündmus sündmused sündmuste sündmusi sündmuse sündmust sündmustest sündmustega sündmustel sündmusest sündmusele sündmuseks sündmustele sündmuseid sündmusel sündmusega sündmustes sündmusteks sündmustesse sündmuses
+29	1329	vajadus	vajadust vajadus vajadusel vajadused vajadusi vajaduse vajaduste vajadusest vajadustele vajadustega vajadustest vajaduseta vajadusele vajadusteks vajadusega vajaduseks vajaduses vajadustel vajadustes
+30	1330	õnnistama	õnnistatud õnnistagu õnnista õnnistada õnnistanud õnnistab õnnistas õnnistage õnnistan õnnistama õnnistavad õnnistaks õnnistati õnnistasid õnnistatakse õnnistame õnnistaksid õnnistad õnnistasin
+31	1331	puhastama	puhastada puhastama puhasta puhastan puhastab puhastatud puhastame puhastasin puhastage puhastas puhastasid puhastad puhastavad puhastanud puhastades puhastatakse puhastasime puhastaks puhastate puhastav puhastati puhastamata puhastamas puhastaksid puhastaksin puhastata puhastagu
+32	1332	jagu	jagu jaole jaolt jao jaos jaota jaoga jaol jaod jaost
+33	1333	treener	treener treeneri treenerit treenerid treeneriga treenerile treeneriks treenerite treeneril treenerina treenereid treenerist treenerilt treeneritega treenerita treeneritest
+34	1334	kahtlusalune	kahtlusalune kahtlusalust kahtlusaluse kahtlusalused kahtlusaluseid kahtlusaluste kahtlusaluseks kahtlusalusega kahtlusalusest kahtlusalusel kahtlusalusele kahtlusalustest kahtlusalusena kahtlusalustega kahtlusalusteks kahtlusalustel kahtlusaluseni kahtlusaluselt
+35	1335	sajand	sajandi sajandeid sajandil sajand sajandit sajandite sajandist sajandisse sajandis sajandid sajanditeks sajandiga sajandini sajandiks sajanditel sajandile sajanditega
+36	1336	tasku	taskus taskusse taskust taskud tasku taskuid taskutes taskutesse taskutest taskut taskutega taskute taskuga
+37	1337	pakkima	pakkima pakkida pakitud pakin pakkige pakime pakkisin pakkis pakkinud pakib pakivad pakkisime pakite pakitakse pakiksid pakkimas pakkimata pakiti pakiksin pakiksite pakkisite
+38	1338	suits	suitsu suits suitsud suitse suitsuga suitsust suitsude suitsule suitsus suitsuta suitsuna suitsudest suitses suitsul suitsudega suitsult suitsuks
+39	1339	metsik	metsik metsikud metsiku metsikut metsikult metsikuks metsikus metsikuid metsikute metsikust metsikusse metsikul metsikum metsikule metsikuse metsikutes metsikutest metsikutele metsikusi metsikuses metsikutel metsikuteks metsikutesse metsikuna metsikustest metsikuste metsikused
+40	1340	siinsamas	siinsamas
+41	1341	mõjutama	mõjutab mõjutada mõjutas mõjutanud mõjutavad mõjutatud mõjutama mõjutaks mõjutasid mõjutatav mõjutad mõjutan mõjutame mõjutades mõjutasin mõjutatakse mõjutatavad mõjutati mõjutamata mõjuta mõjutav mõjutaksid
+42	1342	seksima	seksida seksinud seksima seksisime seksisin seksime seksivad seksib seksin seksisite seksimas seksite seksiksin seksiksid seksiksime seksimast seksige seksitakse
+43	1343	jaht	jahti jaht jahil jahile jahi jahid jahiga jahist jahtisid jahiks jahilt jahtides jahel jahte jahis jahtide
+44	1344	patt	patt pattu patud pattude patte patu pattudest patust patel patti patus pati patuks patuta pattudele patuga pattudega pattudes pattusid patule patile patiga patil
+45	1345	tähtsus	tähtsust tähtsusega tähtsus tähtsuse tähtsusest
+46	1346	koosolek	koosolek koosolekul koosolekule koosoleku koosolekut koosolekutel koosolekud koosolekult koosolekuid koosolekust koosolekuks koosolekuga koosolekute koosolekutele koosolekutest koosolekuteks koosolekuni
+47	1347	vastutama	vastutab vastutan vastutama vastutavad vastutad vastuta vastutada vastutate vastutas vastutame vastutasin vastutanud vastutasid vastutaks vastutaksid vastutasite vastutamast vastutatav
+48	1348	ajaleht	ajalehe ajalehes ajalehte ajaleht ajalehed ajalehti ajalehest ajalehtedes ajalehtede ajalehtedest ajalehele ajalehtedesse ajalehtedele ajalehega ajalehtedega ajalehel
+49	1349	tüli	tüli tülli tülis tüliks tülisid tülid tülist tüliga tülide tülideta tülidest tülile tülidesse
+50	1350	avatud	avatud avatum
+51	1351	igasugune	igasuguseid igasuguse igasugune igasugust igasugused igasuguste igasugustest igasugusest igasugusele igasugustele igasugustel igasugustesse igasugusteks igasugustes igasuguseks igasugusel igasugustega igasuguses
+52	1352	piirkond	piirkonnas piirkond piirkonna piirkonda piirkonnast piirkondades piirkonnad piirkondi piirkonnale piirkondadesse piirkondade piirkondadest piirkonnaga piirkonnaks piirkondadele piirkonnal
+53	1353	seksikas	seksikas seksikad seksikat seksika seksikalt seksikaks seksikaid seksikate seksikana seksikast seksikal seksikale seksikates
+54	1354	ent	ent
+55	1355	hoor	hoor hoora hoorad hooraks hooraga hoorasid hoorade hoorast hooradega hoorale hooradest hooradele hoori hoorata hooral hooras hoorana hooradel hooralt hooradeks
+56	1356	kõrgus	kõrgus kõrgusel kõrgust kõrgusele kõrguse kõrguselt kõrgustesse kõrgused kõrgusi kõrgustes kõrguste kõrgusega kõrgusest kõrguses kõrgustel kõrguseks kõrguseid kõrguseni kõrgustest kõrgusse kõrgustega kõrgusesse
+57	1357	säästma	säästa säästan säästke säästnud säästab säästma säästame säästsin säästad säästsid säästis säästaks säästetakse säästaksid säästate säästavad säästeti säästsite säästsime säästaksin säästaksime säästaksite säästmaks säästetaks
+58	1358	kurjategija	kurjategija kurjategijad kurjategijate kurjategijaid kurjategijat kurjategijatega kurjategijaks kurjategijatele kurjategijaga kurjategijatest kurjategijast kurjategijal kurjategijale kurjategijana kurjategijateks kurjategijatel kurjategijatena kurjategijatelt
+59	1359	peit	peidus peitu
+60	1360	kapp	kapis kappi kapist kapp kapi kapid kappe kapile kappide kappides kapiga kappidesse kappidest kapil kapa kappidele kappidega
+61	1361	partner	partnerid partneri partnerit partneriga partneriks partnerile partnereid partnerite partneritega partneril partneritele partneritest partneriteks partnerina partnerist partnerilt partneritel partneritena partnerita partneritelt
+62	1362	pära	päralt pärale pärani päral päras pära
+63	1363	palvetama	palvetan palvetame palvetada palvetama palvetasin palvetad palvetab palvetagem palvetanud palvetage palvetavad palvetasid palvetas palvetamas palvetades palvetasime palvetate palvetaks palvetaksin palvetaksid palvetasite palvetamast palvetav
+64	1364	hülgama	hüljatud hülgas hüljata hüljanud hülgasid hülga hülgama hülgad hülgab hülgasin hüljati hülgan hülgaks hülgavad hülgame hüljake hülgasite hüljatakse hülgasime hüljates hülgate hülgaksin hüljatuid hülgaksid
+65	1365	prantsuse	prantsuse
+66	1366	vahetus	vahetus vahetuse vahetust vahetuses vahetuseks vahetusse vahetused vahetustega vahetusest vahetusega vahetusi vahetusel vahetusele vahetuste vahetustes vahetuseni vahetusena vahetustest vahetustel
+67	1367	karistama	karistada karistatakse karistatud karistab karistama karista karistad karistan karistas karistatav karistamata karistati karistamatult karistavad karistanud karistaks karistame karistage karistasid karistata karistate karistasin karistataks karistatagu karistades karistagu karistaksin karistatama
+68	1368	suitsetama	suitseta suitsetada suitsetad suitsetama suitsetan suitsetanud suitsetab suitsetas suitsetata suitsetasin suitsetate suitsetame suitsetavad suitsetasid suitsetage suitsetamas suitsetaks suitsetasime suitsetades suitsetatud suitsetasite suitsetatakse suitsetamast suitsetaksin suitsetaksid suitsetav
+69	1369	kasulik	kasulik kasulikku kasulikuks kasulikud kasulikum kasuliku kasulikke kasulikult kasulikuna kasulike kasulikumad kasulikeks kasulikuga
+70	1370	valve	valve valvel valves valvet valvesse valveta valvega valvest valvele
+71	1371	universum	universumi universum universumis universumist universumit universumisse universumite universumiga universumile universumid universumil universumeid universumites universumiks
+72	1372	lahkumine	lahkumist lahkumine lahkumise lahkumiseks lahkumisest lahkumisega lahkumisel
+73	1373	juust	juustu juust juuste juustuga juustes juustest juustesse juustele juustust juustel juustud juustuta juustuks juustus
+74	1374	tobe	tobe tobeda tobedat tobedalt tobedad tobedaid tobedate tobedas tobedast tobedam tobedaks tobedal tobedale tobedana tobedatest tobedasse tobedatele tobedaim tobedates
+75	1375	töötaja	töötaja töötajad töötajate töötajaid töötajat töötajatele töötajatest töötajatega töötajaga töötajatel töötajale töötajal töötajaks töötajana töötajatelt töötajast töötajatena töötajalt töötajaist
+76	1376	tingimus	tingimused tingimusel tingimusi tingimustes tingimustel tingimustega tingimus tingimusteta tingimuste tingimustest tingimust tingimuseks tingimustele tingimusega tingimuse tingimusteks tingimustesse
+77	1377	senaator	senaator senaatori senaatorit senaatorid senaatoriga senaatorile senaatoriks senaatoril senaatoreid senaatorite senaatorist senaatoritele senaatoritest senaatorilt senaatoritega
+78	1378	sugulane	sugulane sugulased sugulasi sugulaste sugulase sugulast sugulastega sugulastele sugulastest sugulasega sugulasele sugulastel sugulasel sugulasest sugulastelt sugulasena sugulaseks sugulasteks sugulasteta sugulaselt
+79	1379	võistlus	võistlus võistluse võistlust võistlusel võistlustel võistlusele võistlused võistlusest võistlustele võistluseks võistlusi võistluses võistluste võistlusega võistluselt võistlusteks võistlustest võistlustelt võistlusteni võistluseid võistlustes võistlusesse võistluseni võistlusse
+80	1380	kulutama	kulutada kulutanud kulutasin kulutama kulutab kulutasid kulutas kulutad kulutatud kulutan kulutavad kulutame kulutasime kulutate kulutage kulutaksid kulutatakse kulutasite kulutades kulutati kulutaksin kulutamata
+81	1381	juut	juut juudid juudi juutide juute juuti juudist juutidele juutidest juutidel juudiks juutidega juudiga juudile juutidelt juudil juudina
+82	1382	kättemaks	kättemaksu kättemaks kättemaksuks kättemaksust kättemaksus kättemaksuga kättemaksule kättemaksuna kättemaksul kättemaksuta
+83	1383	üksik	üksik üksikuna üksikud üksiku üksikut üksikuks üksikuid üksikul üksikute üksikule üksikult üksikust üksikutele üksikutest üksikus üksikutel üksikutena
+84	1384	kaotus	kaotus kaotuse kaotust kaotusi kaotused kaotusega kaotusest kaotuste kaotustest kaotusele kaotustega kaotuses kaotuseks kaotusteta kaotusel kaotuseta kaotustele kaotusesse kaotuseni kaotuseid
+85	1385	beebi	beebi beebit beebid beebiga beebile beebisid beebil beebide beebist beebidega beebina beebidele beebidest beebiks beebis beebidel
+86	1386	hool	hoolega hooleks hoolde hooli hoolt hoole hooliks hoolis hool hooleta
+87	1387	pilv	pilves pilve pilved pilv pilvi pilvede pilvedes pilvedesse pilvedest pilvedel pilvest pilvel pilvedega pilvega pilvedelt pilvele pilveks pilvesse pilvedeni
+88	1388	külg	külg külje küljele küljel külgi küljelt küljed külgedel külgedelt küljega külgedele külgedest küljeks külgede külgedega külgedesse
+89	1389	suletud	suletud
+90	1390	laadima	laetud laadida laadige laadima laadisin laaditud laadime laadin laadinud laadib laaditakse laadimata laadisime laadivad laadimas laaditi laadite laadiksid
+91	1391	omama	omada omab oman omavad omama omanud omame omate omamata omavat omasin omaksid omav omatud omaksin omasime omati omamast omage omavate omad omaks omas omasid omades
+92	1392	rida	rida reas ritta rea read real ridade ridu ridades ridadesse reast reale ridadest ridasid reaga realt ridadega ridadele
+93	1393	karjäär	karjääri karjäär karjäärile karjäärist karjääriga karjääris karjäärid karjääril karjääriks karjääre
+94	1394	hiljuti	hiljuti
+95	1395	plahvatus	plahvatus plahvatuse plahvatust plahvatuses plahvatused plahvatusest plahvatusi plahvatusega plahvatuseni plahvatuste plahvatusele plahvatuseks plahvatustest plahvatusel plahvatustega plahvatusse
+96	1396	enamik	enamik enamiku enamikel enamikul enamikku enamike enamikule enamikele enamikke enamikus enamikes enamikust enamikest enamikud
+97	1397	seade	seade seadme seadmed seadet seadmeid seadmega seadmete seadmest seadmetega seaded seadmesse seadmes seadmel seadmele seadmetest seadmetele seadmetes seadmelt seadmetel seadmeta seadmeni
+98	1398	maanduma	maanduda maandus maandub maandume maandunud maanduma maandu maandusid maandusin maandusime maandun maandud maanduvad maandudes maanduge maandumas maanduks maandute maandusite maanduksid maanduksime
+99	1399	tasuma	tasub tasuda tasutud tasuma tasun tasunud tasumata tasuvad tasutakse tasuv tasume tasusin tasuva tasute tasuge tasuvat tasuti tasubki tasugi tasuksid tasutuks tasuksin tasugu
+100	1400	sinusugune	sinusugune sinusugused sinusuguseid sinusuguse sinusugust sinusuguste sinusugusele sinusugusel sinusugustele sinusugusega sinusuguseks sinusugustest sinusugustega sinusugustel sinusugusest sinusuguselt sinusugusesse sinusugustelt sinusugustes

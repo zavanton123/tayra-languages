@@ -1,0 +1,100 @@
+1	4601	ülespoole	ülespoole
+2	4602	väljastpoolt	väljastpoolt
+3	4603	nelikümmend	nelikümmend neljakümne neljakümmet
+4	4604	liiter	liitrit liitri liiter liitreid liitriga
+5	4605	korts	kortsus kortsud kortsu kortse korts kortsude
+6	4606	kodusõda	kodusõda kodusõja kodusõjas kodusõjast kodusõjaga kodusõtta kodusõjani
+7	4607	istumine	istumine istumise istumist istumisest istumiseks istumisega istumises istumisel
+8	4608	labidas	labidas labidad labidaga labida labidat labidaid labidatega
+9	4609	riivama	riivas riivata riivasin riivanud riivab riivasid riivad riiva riivavad riivaks riivates riivasite
+10	4610	noot	nooti noodid noote noot noodi noodil noodiga nootide nootidel noodist nootidega noodile
+11	4611	paiskama	paiskas paisata paiskab paisatakse paiskavad paisati paisanud paiska paiskame paisates paiskasid paiskan paiskad paiskama paiskasin
+12	4612	tiksuma	tiksub tiksuma tiksuv tiksumas tiksuvad tiksunud tiksuda tiksuvat
+13	4613	jõusaal	jõusaalis jõusaali jõusaal jõusaalist
+14	4614	kulm	kulmud kulmu kulme kulm kulmudega kulmude kulmuga kulmudest
+15	4615	seilama	seilata seilab seilame seilama seilanud seilas seilavad seilan seila seilasid seilasin seilad seilasime seilates seilamas seilate seilaks
+16	4616	keeld	keeldu keeld keelu keelust keelud keelule keeldudest
+17	4617	pahur	pahur pahuraks pahurad pahura pahurat pahuralt pahuras
+18	4618	parfüüm	parfüümi parfüüm parfüüme parfüümiga parfüümist parfüümide
+19	4619	libistama	libista libistada libistan libistas libistad libistasin libistage libistame libistab libistama libistasid libistades libistaks libistavad libistanud
+20	4620	vagu	vaos vao vaod vagu
+21	4621	jalajälg	jalajäljed jalajälgi jalajälg jalajälge jalajälje jalajälgedes jalajälgede jalajälgedest jalajäljega
+22	4622	salk	salk salga salgad salka salgas salgast salgaga salku salgud salgaks
+23	4623	madrats	madratsi madrats madratsid madratsit madratsil madratsite madratseid madratsisse madratsile madratsist
+24	4624	keerukas	keerukas keerukad keeruka keerukat keerukaid keerukaks keerukate keerukalt keerukale keerukast
+25	4625	seljataha	seljataha
+26	4626	ealeski	ealeski
+27	4627	panda	panda pandat pandad pandaga pandast pandale
+28	4628	innukas	innukas innukalt innukad innuka innukaks innukat innukaid innukate
+29	4629	minimaalne	minimaalne minimaalselt minimaalsed minimaalse minimaalsete minimaalset minimaalsena minimaalsel minimaalseid
+30	4630	prussakas	prussakas prussakad prussakaid prussaka prussakat prussakate prussakatega prussakatest prussakatele
+31	4631	distsipliin	distsipliini distsipliin distsipliiniga distsipliinist distsipliinile
+32	4632	hommikuti	hommikuti
+33	4633	ebaaus	ebaaus ebaausad ebaausalt ebaausat ebaausaid ebaausa
+34	4634	laienema	laieneb laienenud laieneda laienes laienevad laiene laieneme laienema laienemas laieneks laienedes
+35	4635	fantoom	fantoom fantoomi fantoomid fantoomide fantoomiga fantoome fantoomist fantoomile fantoomidega
+36	4636	miljonär	miljonär miljonärid miljonäri miljonäriks miljonärist miljonärideks miljonäriga miljonäride miljonärile miljonäre miljonäridele miljonäridest
+37	4637	esmane	esmane esmase esmased esmaseks esmast esmaseid esmaste esmasest
+38	4638	liim	liimi liimist liim liimile liimiga liimis liimiks liimid liimisid
+39	4639	uitama	uitama uidata uitab uitamas uitas uitavad uidanud uitasin uidates uitan uitad uitasid uitame uitav uitasime
+40	4640	vibu	vibu vibud vibuga vibude vibuta vibusid vibust vibudega vibule
+41	4641	higine	higine higised higiseks higise higist higisena higiste higiseid higiselt
+42	4642	aheldama	aheldatud aheldada aheldatuna ahelda aheldas aheldasid aheldad aheldan aheldanud aheldama aheldasin aheldab aheldage aheldati aheldame aheldavad aheldatakse
+43	4643	kaupmees	kaupmees kaupmehed kaupmehe kaupmeeste kaupmehi kaupmeest kaupmehele kaupmeestega kaupmeestelt kaupmehelt kaupmehega kaupmeestele kaupmeestel
+44	4644	päevane	päevane päevasel päevase päevased päevasele päevasest päevaseks päevases päevasesse päevaseid päevaste päevastest
+45	4645	pulber	pulber pulbrit pulbriks pulbri pulbriga pulbrist pulbreid
+46	4646	eespool	eespool
+47	4647	lummama	lummatud lummas lummanud lummasin lummab lummama lumman lummaksid
+48	4648	viitsima	viitsi viitsinud viitsid viitsisid viitsin viitsiks viitsib viitsivad viitsiksid viitsite
+49	4649	roostes	roostes
+50	4650	jabur	jabur jaburalt jaburat jabura jaburad jaburaks jaburaid
+51	4651	puts	putsi puts putsis
+52	4652	veranda	verandal veranda verandale verandalt verandat verandaga verandast
+53	4653	pann	pann panni pannile pannil panniga pannid panne pannilt pannes
+54	4654	paanitsema	paanitse paanitsege paanitseda paanitsema paanitsed paanitsen paanitsevad paanitsesin paanitsesid paanitseme paanitses paanitseb paanitseks
+55	4655	hämmastama	hämmastab hämmastavat hämmastas hämmastad hämmastama hämmasta hämmastada hämmastate hämmastaks hämmastan hämmastasid hämmastanud
+56	4656	portree	portree portreed portreesid portreedega portreest portreega portreele
+57	4657	sentimeeter	sentimeetrit sentimeetri sentimeeter sentimeetrid sentimeetrite
+58	4658	rahutus	rahutused rahutus rahutust rahutusi rahutuste rahutuse rahutustest rahutustega rahutusega rahutusest
+59	4659	jänku	jänku jänkud jänkut jänkude jänkule jänkusid jänkul jänkust
+60	4660	üliõpilane	üliõpilane üliõpilased üliõpilaste üliõpilase üliõpilasi üliõpilast üliõpilastega üliõpilastest üliõpilasena üliõpilastele üliõpilasest
+61	4661	vapustama	vapustatud vapustavad vapustas vapustanud vapustab vapustada vapusta vapustasid vapustaks
+62	4662	kartell	kartelli kartell kartelliga kartellid kartellile kartellist kartellide kartelle kartellis kartellidega
+63	4663	ametimärk	ametimärk ametimärki ametimärgi ametimärgid ametimärgiga ametimärke ametimärgist ametimärgil
+64	4664	pilgutama	pilgutada pilgutas pilgutanud pilgutamata pilgutab pilgutad pilgutasid pilgutasin pilgutage pilgutan pilgutama pilgutamas pilgutades
+65	4665	hõlmama	hõlmab hõlma hõlmavad hõlmas hõlmad hõlmates hõlmama hõlmata hõlmaks hõlmav hõlmasid
+66	4666	ebatõenäoline	ebatõenäoline ebatõenäoliselt ebatõenäolise ebatõenäolised ebatõenäoliseks ebatõenäolisena ebatõenäolisi
+67	4667	haru	haru harud harust harusid harus haruta harude haruna harusse harudega
+68	4668	tõmme	tõmme tõmmet tõmbe tõmbed tõmbega tõmbest tõmbele tõmbeid
+69	4669	arvutus	arvutused arvutuste arvutusi arvutus arvutustega arvutust arvutustes arvutustele arvutuse
+70	4670	välde	vältel
+71	4671	kanalisatsioon	kanalisatsiooni kanalisatsioonis kanalisatsioon kanalisatsioonist kanalisatsiooniga
+72	4672	katsumus	katsumus katsumused katsumusi katsumuse katsumust katsumuste katsumuseks katsumustest katsumusest katsumustele katsumustega katsumusele katsumustes
+73	4673	diplomaatiline	diplomaatiline diplomaatilise diplomaatilised diplomaatilist diplomaatilisi diplomaatiliste diplomaatiliselt diplomaatilisel diplomaatilisest diplomaatilisele diplomaatilistel diplomaatilises
+74	4674	identifitseerima	identifitseerida identifitseerige identifitseeritud identifitseeri identifitseerimata identifitseeris identifitseerima identifitseerinud identifitseeriti identifitseerisime identifitseerib identifitseerisid identifitseerisin identifitseerin identifitseerime
+75	4675	asetäitja	asetäitja asetäitjaks asetäitjad asetäitjat asetäitjale asetäitjana asetäitjaga
+76	4676	õmblus	õmblused õmblust õmblusi õmblus õmblustest õmbluse õmbluseid õmbluste õmblustega
+77	4677	sire	sire
+78	4678	senjoor	senjoor senjoorid
+79	4679	tütarlaps	tütarlaps tütarlast tütarlapse tütarlapsega tütarlapsed tütarlaste tütarlapsele tütarlapsi tütarlastele
+80	4680	kolama	kola kolab kolada kolama kolast kolasin kolavad kolan kolanud kolame kolamas kolaga kolasime
+81	4681	irvitama	irvitad irvitab irvitavad irvitas irvitada irvitate irvitasid irvitama irvitades irvitanud irvitan irvitage irvitav irvitatakse irvitavat
+82	4682	nähtus	nähtus nähtust nähtusi nähtuste nähtused nähtuse nähtusega nähtusest nähtustega nähtustest nähtuseks
+83	4683	viiking	viikingid viiking viikingite viikingi viikingitega viikingitest viikingeid viikingist viikingitele
+84	4684	portaal	portaali portaal portaalid portaalini portaalist portaale
+85	4685	vares	vares varesed varese vareseid varest vareste varestele varestega
+86	4686	tehnik	tehnikud tehnik tehnikut tehniku tehnikuid tehnikutel tehnikute tehnikule tehnikutest tehnikutele tehnikul tehnikuks tehnikutega
+87	4687	salvestis	salvestis salvestised salvestisi salvestise salvestisel salvestiste salvestistega salvestiselt salvestistel salvestistest
+88	4688	dekaan	dekaan dekaani dekaaniga dekaanile
+89	4689	seisukord	seisukorras seisukord seisukorda seisukorra seisukorrast seisukorrale
+90	4690	tõrvik	tõrvik tõrvikud tõrviku tõrvikut tõrvikuid tõrvikuga tõrvikutega tõrvikus tõrvikute tõrvikusse tõrvikust
+91	4691	suveniir	suveniir suveniiri suveniiriks suveniire suveniirid suveniiride suveniirina suveniiriga
+92	4692	surfama	surfata surfama surfa surfamas surfad surfasin surfame surfanud surfan surfab surfavad surfates surfasime surfas
+93	4693	üheksas	üheksanda üheksas üheksandas üheksandal üheksandat üheksandast üheksandasse üheksandale üheksandaks
+94	4694	auaste	auaste auastme auastet auastmega auastmelt auastmeid auastmed auastmes auastmest auastmel auastmele
+95	4695	blondiin	blondiin blondiini blondiiniga blondiinid blondiinist blondiine blondiinile blondiinil blondiinide
+96	4696	nuhkima	nuhkida nuhkima nuhkinud nuhib nuhin nuhkis nuhkisin nuhivad nuhite nuhime nuhkimas nuhiksin
+97	4697	tüng	tünga tüng tüngad
+98	4698	nikkuma	nikkuda niku nikun nikkus nikkusid nikub nikud nikkuma nikuvad nikutud nikkunud nikuks nikume nikkusin nikkumas
+99	4699	turvama	turvatud turvake turvama turvamata turvab turvame turvan turvavad turvanud turvasime turvatakse
+100	4700	probleemne	probleemne probleemsed probleemseid probleemse probleemsete probleemset probleemseks probleemsetele probleemsetest probleemseteks

@@ -1,0 +1,100 @@
+1	7201	gini	gini giniga
+2	7202	korralagedus	korralagedus korralageduse korralagedust
+3	7203	täisvõimsus	täisvõimsusel täisvõimsus täisvõimsusele täisvõimsusega täisvõimsust täisvõimsuse
+4	7204	vereringe	vereringesse vereringe vereringet vereringele vereringega
+5	7205	äärmine	äärmisel äärmise äärmine äärmist äärmises äärmised
+6	7206	hõikama	hõika hõikas hõikasin hõigake hõikab hõigatakse hõikan hõikasid hõikama hõikad hõikame hõigati
+7	7207	jooksutama	jooksutada jooksutab jooksutan jooksutas jooksutanud jooksutame jooksutama jooksutavad jooksutad jooksutasin jooksutasid
+8	7208	suitsema	suitseb suitsev suitsevad suitsema suitsevat suitsesid suitsed suitsetaks suitse suitsetav suitses
+9	7209	sallima	sallinud salliv sallida sallimatust sallivad sallib sallimatu sallitud sallin salli sallis sallid salliks
+10	7210	revolutsiooniline	revolutsiooniline revolutsioonilise revolutsioonilist revolutsioonilised revolutsioonilisest revolutsioonilisi revolutsiooniliselt revolutsiooniliseks
+11	7211	radioaktiivne	radioaktiivne radioaktiivseid
+12	7212	sond	sond sonde sondiga sondist sondide
+13	7213	vallatu	vallatu vallatut vallatus vallatult vallatusi vallatuid
+14	7214	lahkumisavaldus	lahkumisavalduse lahkumisavaldus lahkumisavaldust lahkumisavaldused
+15	7215	purse	purse purset purske pursked purskeid pursete
+16	7216	pitser	pitser pitseri pitserit pitseriga pitserid pitseriks
+17	7217	mustikas	mustika mustikad mustikaid mustikas mustikatega mustikaga
+18	7218	veregrupp	veregrupp veregruppi veregrupiga veregrupi veregrupid
+19	7219	seapekk	seapekk seapeki seapekki seapekil seapekiga
+20	7220	järk	järgu järk järgus järku järgult
+21	7221	infektsioon	infektsioon infektsiooni infektsioone infektsiooniga
+22	7222	pärismaalane	pärismaalased pärismaalaste pärismaalane pärismaalastega pärismaalasest pärismaalasi pärismaalastest pärismaalasteks
+23	7223	ultraheli	ultraheli ultraheliga ultrahelisse ultrahelis ultrahelist
+24	7224	rubiin	rubiin rubiinid rubiini rubiine rubiinidega rubiinist rubiiniga rubiinide
+25	7225	pealiskaudne	pealiskaudne pealiskaudsed pealiskaudselt pealiskaudseid pealiskaudset pealiskaudse pealiskaudseks
+26	7226	mikrolaineahi	mikrolaineahju mikrolaineahi mikrolaineahjus mikrolaineahjud mikrolaineahjust
+27	7227	pilduma	pilduma pilduda pillub pilluvad pillud pildus pillun pildusid pillume pillutud pillutakse
+28	7228	pühapäeviti	pühapäeviti
+29	7229	eskort	eskort eskorti eskordiga eskordis
+30	7230	süüfilis	süüfilis süüfilise süüfilist süüfilisse süüfilisest süüfilisega
+31	7231	silmside	silmside silmsidet
+32	7232	kiud	kiud kiude kiudude kiu kiudu kiududest
+33	7233	kehtetu	kehtetu kehtetuks kehtetud
+34	7234	hooldekodu	hooldekodu hooldekodusse hooldekodus hooldekodust
+35	7235	dokk	dokki dokis dokkide dokk dokist dokil dokile dokkidesse dokke
+36	7236	röstima	röstitud röstida röstin röstib röstitakse
+37	7237	lumetorm	lumetormi lumetorm lumetormis lumetormid lumetormiga lumetorme
+38	7238	muistne	muistne muistsed muistse muistsete muistsest muistseid muistset muistses muistsetel
+39	7239	heiskama	heisake heisata heiskame heiskama heisatud heiska heiskab heiskas heiskad heiskasime heisanud
+40	7240	aretama	aretatud aretada aretas aretama aretati aretab aretanud aretasid aretan areta aretatakse
+41	7241	faktor	faktor faktoriks faktorid faktoreid faktorit faktoriga faktori faktoritest faktorist faktorite
+42	7242	tegus	tegus tegusad tegusana
+43	7243	sügavik	sügavikku sügaviku sügavik sügavikust sügavikus sügavikes sügavikest
+44	7244	huupi	huupi
+45	7245	eelaimdus	eelaimdus
+46	7246	kuuskümmend	kuuskümmend kuuekümne
+47	7247	kalk	kalk kalgid kalgiks kalgi kalki
+48	7248	uraan	uraani uraan uraanist uraaniga
+49	7249	valedetektor	valedetektori valedetektor valedetektorit valedetektoriga
+50	7250	rokk	rokk rokki rokis rokil roka rokist rokka
+51	7251	tuhatoos	tuhatoosi tuhatoos tuhatoose tuhatoosis tuhatoosid tuhatoosina tuhatoosist
+52	7252	põhjendus	põhjendus põhjendust põhjendusi põhjenduse põhjendused põhjenduseks põhjendusega
+53	7253	silitama	silitada silitab silitas silitan silitama silitasid silitasin silitad silitamas
+54	7254	sütik	sütik sütikud sütiku sütikut sütikuga sütikuid
+55	7255	tukkuma	tukkuma tukkuda tukub tukuvad tukun tukkusin tukkus tuku tukkusid tukud
+56	7256	ülbitsema	elada ülbitse ülbitsema ülbitsed ülbitseda ülbitseb
+57	7257	osavam	osavam osavamaks osavamad osavamalt
+58	7258	eesliin	eesliinil eesliinile eesliini eesliin eesliinilt
+59	7259	kutsu	kutsuta kutsut kutsule kutsuga
+60	7260	jõehobu	jõehobu jõehobud jõehobusid jõehobude jõehobust jõehobul
+61	7261	kork	kork korki korke korgiga korgist
+62	7262	pulmakink	pulmakink pulmakingi pulmakinki pulmakingiks pulmakingid pulmakinke
+63	7263	hulkuv	hulkuv hulkuvad hulkuvaid hulkuva hulkuvate
+64	7264	elektrijaam	elektrijaama elektrijaam elektrijaamas elektrijaamast elektrijaamu elektrijaamad
+65	7265	lord	lordid lordi lordide lordile lordiks lordiga lordilt
+66	7266	vahetuskaup	vahetuskaupa vahetuskaup vahetuskaubana vahetuskaubaks vahetuskauba vahetuskaubaga
+67	7267	söögilaud	söögilauas söögilaua söögilauda söögilaud söögilauale söögilaual
+68	7268	võlakiri	võlakirjad võlakirja võlakirju võlakirjade võlakiri võlakirjadega
+69	7269	lõpptulemus	lõpptulemus lõpptulemusena lõpptulemust lõpptulemuseks lõpptulemuse lõpptulemused lõpptulemusest lõpptulemusi
+70	7270	hüään	hüäänid hüään hüääni hüäänide hüääne hüäänidest
+71	7271	hüpnotiseerima	hüpnotiseeritud hüpnotiseerida hüpnotiseeris hüpnotiseeriti hüpnotiseerivad hüpnotiseerinud hüpnotiseerisid hüpnotiseerib hüpnotiseerima hüpnotiseerin hüpnotiseeriv hüpnotiseerisin hüpnotiseeri
+72	7272	kiikuma	kiigu kiikuda kiigub kiikus kiikuma kiikudes kiigud kiigun kiiguvad kiikusin kiigume kiikuv kiikumas
+73	7273	välimine	välimine välimise välimised välimiste välimisel välimiselt välimisest välimises välimisi välimist
+74	7274	teisejärguline	teisejärguline teisejärgulised teisejärgulise teisejärguliseks teisejärgulisi teisejärguliste teisejärgulist
+75	7275	viide	viiteid viited viidet viidetega viidete viite viide viitega viitele viitest
+76	7276	dokumenteerima	dokumenteeritud dokumenteerida dokumenteerima dokumenteerin dokumenteerimata dokumenteerinud dokumenteerisin dokumenteerivad dokumenteeris dokumenteerib dokumenteerisid
+77	7277	tobuke	tobuke tobukest tobukeste tobukese
+78	7278	skalpell	skalpell skalpelli skalpelliga skalpellid
+79	7279	kätekõverdus	kätekõverdust kätekõverdusi kätekõverdused
+80	7280	tänutäht	tänutäheks
+81	7281	maestro	maestro maestroks
+82	7282	dokumentaalfilm	dokumentaalfilmi dokumentaalfilm dokumentaalfilme dokumentaalfilmide dokumentaalfilmis dokumentaalfilmile dokumentaalfilmid
+83	7283	intensiivne	intensiivne intensiivse intensiivset intensiivsed intensiivseks intensiivses intensiivseid
+84	7284	manama	mana manada manas manama manab maname manan manad manatud
+85	7285	eskadrill	eskadrill eskadrilli eskadrillid eskadrillist eskadrillile
+86	7286	sekt	sekti sekt sektist sektiga sektile sektid sektis
+87	7287	liustik	liustik liustikud liustiku liustike liustikke liustikule liustikku liustikust liustikul liustikuga
+88	7288	varjutama	varjutab varjutada varjutas varjutanud varjutatud varjutavad varjutama varjutasid
+89	7289	taanlane	taanlane taanlased taanlaste taanlasi taanlast taanlastele taanlase
+90	7290	kuduma	koob kududa kuduma kudusin koovad kudunud koome kududes kudus kudusid
+91	7291	point	pointi pointis pointist
+92	7292	meeskonnatöö	meeskonnatöö meeskonnatööd meeskonnatööst meeskonnatööks
+93	7293	tulejõud	tulejõudu tulejõud tulejõuga tulejõu tulejõule
+94	7294	migreen	migreen migreeni migreenid migreeniga migreene
+95	7295	veerg	veergu veeru veerg veerus veerge veergudel
+96	7296	pai	pai
+97	7297	eksitee	eksiteele eksiteel
+98	7298	sohilaps	sohilaps sohilast sohilapsed sohilapsest sohilapse sohilapsi sohilapsele
+99	7299	närvigaas	närvigaasi närvigaas närvigaasiga
+100	7300	meteoor	meteoor meteoori meteoorist meteoorid meteooride

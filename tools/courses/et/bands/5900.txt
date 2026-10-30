@@ -1,0 +1,100 @@
+1	5801	soolane	soolane soolase soolased soolast soolaseid soolasest soolases soolasesse
+2	5802	laht	lahte laht lahed lahes lahest lahel lahele laheni lahelt
+3	5803	patrioot	patrioot patrioodid patrioodi patrioodiks patriootide patrioote patriooti patriootidele
+4	5804	elanikkond	elanikkond elanikkonna elanikkonnast elanikkonda elanikkonnaga elanikkonnale
+5	5805	võõrustaja	võõrustaja võõrustajaid võõrustajate võõrustajatele
+6	5806	postiljon	postiljon postiljoni postiljoniga postiljoniks postiljonid postiljonil postiljonile
+7	5807	ülbus	ülbus ülbust ülbuse ülbusest ülbusega ülbuses
+8	5808	refleks	refleksid refleks reflekse reflekside refleksi refleksidega
+9	5809	teke	tekke teket teke tekkeni tekkeks tekkega tekkele
+10	5810	tohman	tohman tohmanid tohmani tohmanist tohmanit tohmaneid
+11	5811	diplomaat	diplomaat diplomaadid diplomaadi diplomaatide diplomaate diplomaati diplomaatidele diplomaadiks diplomaadiga
+12	5812	värin	värinad värin värinaid värinat värina värinate värinaga
+13	5813	hoolitsev	hoolitsev hoolitseva hoolitsevaks
+14	5814	praht	praht prahti prahiga
+15	5815	tööasi	tööasjus tööasjad tööasju tööasi tööasjade
+16	5816	kanderaam	kanderaam kanderaami kanderaamil kanderaamile kanderaamid kanderaamiga kanderaame
+17	5817	sukk	sukad sukk sukki suka sukkasid sukkade sukkadega sukka
+18	5818	langemine	langemist langemine langemise langemisest
+19	5819	abinõu	abinõud abinõu abinõusid abinõuna
+20	5820	juustuburger	juustuburger juustuburgerit juustuburgeri juustuburgereid juustuburgerid
+21	5821	soolo	soolo soolot soolod soolole soologa soolosid
+22	5822	täiuslikkus	täiuslikkus täiuslikkuse täiuslikkust täiuslikkusest täiuslikkusele
+23	5823	lihvima	lihvitud lihvida lihvimata lihvima lihvin lihvinud lihvib lihvime lihvisin lihvivad
+24	5824	lara	lara larale laraga
+25	5825	ajamine	ajamine ajamiseks ajamist
+26	5826	automaatne	automaatne automaatse automaatsed automaatset automaatseks automaatsele automaatsete
+27	5827	kohtumaja	kohtumaja kohtumajas kohtumajja kohtumajast
+28	5828	vaateväli	vaateväljast vaateväljas vaatevälja vaateväli
+29	5829	raamatupood	raamatupoes raamatupood raamatupoodi raamatupoe raamatupoest raamatupoodides raamatupoed
+30	5830	pasun	pasunat pasun pasunasse pasuna pasunad pasunaid pasunaga
+31	5831	türann	türann türanni türannid türannide türannist türanniks türannile türannidele türanne
+32	5832	rabandus	rabanduse rabandus rabandust rabandused rabandusi rabandusse rabandusega
+33	5833	druiid	druiid druiidi druiidid druiidide druiididele druiididega druiide
+34	5834	algupärane	algupärane algupärased algupärase algupäraselt algupärastest algupäraste algupärasele algupärasel algupärases
+35	5835	naelutama	naelutatud naelutada naelutan naelutasid naelutas naeluta naelutab naelutame naelutama naelutanud naelutasin naelutavad naelutati
+36	5836	vahekäik	vahekäiku vahekäik vahekäigus vahekäigu vahekäigust vahekäikudes vahekäigud
+37	5837	poksima	poksida poksima poksis poksin poksib poksinud poksige poksimas poksime poksisin poksivad
+38	5838	triivima	triivib triivime triivivad triivinud triivimas triivima triivin triivida triivisid triivides triivisime triiviv
+39	5839	uustulnuk	uustulnuk
+40	5840	autoavarii	autoavarii autoavariis autoavariisse autoavariid autoavariist autoavariisid
+41	5841	maaväline	maaväline maavälise maaväliste maavälised maavälist maaväliseid maavälisest maavälisele maavälistele
+42	5842	džungel	džunglis džunglisse džungel džungli džunglit džunglist džunglites džunglid
+43	5843	purskama	purskab purskas purskama purskavad purska pursanud purskan purskad purskav purskamas purskasid purskaks purskasin pursates
+44	5844	eminents	eminents eminentsi eminentsile eminentsid
+45	5845	toiduaine	toiduaineid toiduained toiduainete toiduainetega toiduaine
+46	5846	samapalju	samapalju
+47	5847	ralli	ralli rallit rallil rallile rallist ralliga
+48	5848	juga	juga joani joa joad joaks joal jugasid joaga joale
+49	5849	ujumine	ujumine ujumise ujumiseks ujumisega ujumisest ujumises
+50	5850	ahvatlema	ahvatle ahvatleda ahvatleb ahvatles ahvatletud ahvatlevat ahvatled ahvatlenud ahvatlema ahvatleks ahvatlesid ahvatlesin ahvatlen
+51	5851	majapidamine	majapidamises majapidamise majapidamine majapidamist majapidamisse majapidamisega majapidamisest
+52	5852	enesetund	enesetunde
+53	5853	naljanumber	naljanumber naljanumbriks naljanumbri naljanumbrid
+54	5854	kodulinn	kodulinna kodulinn kodulinnas kodulinnast
+55	5855	metsloom	metsloom metsloomad metsloomi metslooma metsloomade metsloomadega metsloomadel
+56	5856	disainima	disainitud disainisin disainida disaininud disainiti disainib disainin disainima disainisime
+57	5857	jalats	jalatsid jalatseid jalatsite jalats jalatsi jalatsitega jalatsites
+58	5858	intiimne	intiimne intiimselt intiimsed intiimseid intiimset intiimse intiimseks intiimses intiimsesse intiimsetest
+59	5859	kirjutis	kirjutis kirjutised kirjutisi kirjutist kirjutise kirjutistes kirjutiste kirjutistest kirjutistega
+60	5860	seminar	seminari seminar seminaril seminarile seminarist seminare seminaris seminaridel seminarid seminarilt
+61	5861	pälvima	pälvida pälvis pälvinud pälvib pälvisid pälvisin pälvivad pälvi pälviks pälvid pälvin pälvisite
+62	5862	nappima	napib napiks nappis nappima
+63	5863	maa-alune	maa-alune maa-aluse maa-aluses maa-alusesse maa-alusest maa-aluste maa-aluseks
+64	5864	kraan	kraani kraan kraanid kraanist kraane kraanis
+65	5865	rahvamass	rahvamass rahvamassi rahvamassid rahvamassis rahvamassist rahvamasse rahvamasside rahvamassile
+66	5866	sõjamees	sõjamees sõjamehed sõjameest sõjamehi sõjameeste sõjamehe sõjameestega sõjamehele
+67	5867	kutsa	kutsa kutsad kutsale kutsat
+68	5868	statistika	statistika statistikat statistikast statistikaga statistikas statistikad statistikale
+69	5869	analüütik	analüütik analüütikud analüütiku analüütikut analüütikuna analüütikute analüütikuks analüütikuid analüütikutele
+70	5870	koostisosa	koostisosa koostisosad koostisosi koostisosade koostisosaks koostisosadest
+71	5871	jalgpallur	jalgpallur jalgpallurid jalgpallurite jalgpalluri jalgpalluriga jalgpallurit jalgpallureid jalgpalluriks
+72	5872	läikiv	läikiv läikivad läikiva läikivaid läikivate läikivas läikivaks läikivast
+73	5873	lähtuma	lähtudes lähtub lähtuda lähtume lähtun lähtuvad lähtus lähtu lähtuma lähtuvat
+74	5874	bluffima	blufib bluffida bluffisin blufin bluffis bluffima blufime blufite bluffinud blufivad
+75	5875	küürima	küürima küürida küüri küürin küürib küürides küüritud küürisin küürige küürinud küürime küürid küüris küürite
+76	5876	ennekõike	ennekõike
+77	5877	vagane	vagaseks vagane
+78	5878	kakssada	kakssada kahesaja kahesajast
+79	5879	jääkülm	jääkülm jääkülma jääkülmad jääkülmas
+80	5880	kolimine	kolimine kolimist
+81	5881	orjus	orjuse orjus orjusest orjust orjusesse orjuses orjusse orjusele
+82	5882	kondine	kondine kondise kondised kondiste kondiseks kondiseid
+83	5883	üleminek	üleminek ülemineku üleminekut üleminekuks üleminekuga üleminekust üleminekule üleminekul üleminekud
+84	5884	säilitamine	säilitamiseks säilitamine säilitamise säilitamist säilitamisega säilitamisel säilitamisele
+85	5885	demonstreerima	demonstreerida demonstreerin demonstreerib demonstreeris demonstreerima demonstreeri demonstreerinud demonstreerivad demonstreerisid demonstreerime demonstreerisin demonstreerid
+86	5886	miskipärast	miskipärast
+87	5887	samaaegselt	samaaegselt
+88	5888	eelkõige	eelkõige
+89	5889	täiskäik	täiskäik täiskäigul täiskäigule
+90	5890	vältimine	vältimiseks vältimine vältimise
+91	5891	jooksja	jooksja jooksjad jooksjat jooksjaid jooksjate jooksjale
+92	5892	veski	veski veskis veskisse veskist veskit veskile veskid veskini
+93	5893	dimensioon	dimensiooni dimensioonis dimensioonist dimensioon dimensioonide dimensioonid dimensioone dimensioonides dimensiooniga
+94	5894	murdmine	murdmine murdmiseks murdmise murdmist
+95	5895	tööaeg	tööaeg tööajal tööajaga tööaega tööaja tööajast tööajad
+96	5896	krunt	krunt krundi krundil krunti krundile krundilt krundist krunte
+97	5897	lääts	läätsed läätse lääts läätsede läätsedega läätsi läätsesid läätsega läätsel
+98	5898	küttima	küttida küttima kütime kütib küttinud kütivad küttimas küttisime kütin kütitakse küttisin kütiti kütitud kütite
+99	5899	komandant	komandant komandandi komandanti komandandile komandandiks komandandina
+100	5900	kahtlustatav	kahtlustatav kahtlustatava kahtlustatavad kahtlustatavat kahtlustatavana kahtlustatavaid kahtlustatavate kahtlustatavast

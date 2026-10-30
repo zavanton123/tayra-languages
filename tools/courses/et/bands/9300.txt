@@ -1,0 +1,100 @@
+1	9201	väsimatu	väsimatu väsimatult väsimatud väsimatut
+2	9202	põllumajandus	põllumajandus põllumajanduse põllumajandusega põllumajanduses põllumajandust
+3	9203	jalakäija	jalakäijate jalakäija jalakäijad jalakäijaid jalakäijat
+4	9204	advokaadibüroo	advokaadibüroo advokaadibüroos advokaadibüroost advokaadibüroosse advokaadibürood
+5	9205	ametialane	ametialane ametialaselt ametialaseks ametialase ametialasest ametialased ametialaseid
+6	9206	nihkuma	nihkunud nihkub nihkus nihku nihkuda nihkuvad nihkuma
+7	9207	luiskama	luiskad luiska luiskab luisata luiskasid luiskasin luiskama luisanud
+8	9208	kõmu	kõmu
+9	9209	isake	isake isakese
+10	9210	direktriss	direktriss direktrissi
+11	9211	lühinägelik	lühinägelik lühinägelikud
+12	9212	põrgatama	põrgata põrgatama põrgatada põrgatades põrgatas
+13	9213	amfetamiin	amfetamiini amfetamiin amfetamiinid amfetamiine
+14	9214	tarbimine	tarbimine tarbimise tarbimisel
+15	9215	puberteet	puberteet puberteedi puberteeti puberteedist
+16	9216	pühendus	pühendus pühenduse pühendusega pühendust
+17	9217	vilistlane	vilistlaste vilistlane vilistlased vilistlase
+18	9218	gepard	gepard gepardi gepardid gepardit gepardiga
+19	9219	vaevaline	vaevaliselt vaevaline vaevalised vaevalist
+20	9220	veetmine	veetmiseks veetmine veetmise veetmisest
+21	9221	eellane	eellased eellane eellaste eellastest eellastel eellasest
+22	9222	eurooplane	eurooplased eurooplane eurooplasi eurooplaste eurooplast eurooplase
+23	9223	salakaubavedaja	salakaubavedaja salakaubavedajad salakaubavedajate salakaubavedajaid
+24	9224	magnetiline	magnetiline magnetilise magnetilised magnetilist magnetiliste magnetilisele magnetiliselt
+25	9225	rivistus	rivistus rivistuse rivistuses rivistust rivistusel rivistusest rivistusele rivistusse
+26	9226	õiguslik	õiguslik õiguslikult õigusliku õiguslikke õiguslikku õiguslikuks õiguslikud
+27	9227	tääk	täägid tääk täägi tääkidega täägiga tääki tääkide
+28	9228	karjamaa	karjamaad karjamaal karjamaa karjamaadele karjamaadel karjamaade
+29	9229	kõikumine	kõikumine kõikumisi kõikumist kõikumise kõikumised
+30	9230	oigama	oigab oigas oigama oigavad oigasid oiga oigad
+31	9231	terroristlik	terroristliku terroristlik terroristlikku terroristlike terroristlikust terroristlikud
+32	9232	koolitöö	koolitööd koolitöö koolitöid koolitööst koolitööga koolitöödega
+33	9233	mahalaskmine	mahalaskmisele mahalaskmine mahalaskmist mahalaskmise
+34	9234	jahipidamine	jahipidamise jahipidamine jahipidamist jahipidamiseks jahipidamisest jahipidamisel
+35	9235	padre	padre
+36	9236	isikupära	isikupära isikupäraga
+37	9237	kuukivi	kuukivi kuukiviga
+38	9238	stressirohke	stressirohke stressirohked
+39	9239	harukordne	harukordne harukordse harukordset harukordselt
+40	9240	särtsakas	särtsakas särtsakat särtsaka särtsakad särtsakalt
+41	9241	räpp	räpp räppi
+42	9242	tuhkur	tuhkur tuhkrut tuhkrud tuhkru tuhkrule
+43	9243	muutlik	muutlik muutliku muutlikud
+44	9244	kaasaskantav	kaasaskantav kaasaskantava kaasaskantavad kaasaskantavat
+45	9245	metaan	metaani metaan metaanist metaaniga
+46	9246	smaragd	smaragd smaragdi smaragdid smaragde
+47	9247	töötund	töötunnid töötunde töötundi töötundide töötundidest
+48	9248	bürokraat	bürokraat bürokraadid bürokraatide bürokraatidele bürokraate
+49	9249	sandarm	sandarmid sandarm sandarmi sandarmeid
+50	9250	nihe	nihe nihkes nihke nihet nihkega nihked
+51	9251	aids	aidsi aidsist
+52	9252	eestkoste	eestkoste eestkostet eestkostel
+53	9253	sümfoonia	sümfoonia sümfooniat
+54	9254	karvapall	karvapall karvapalli karvapallid karvapalle
+55	9255	lootusrikas	lootusrikas lootusrikkalt lootusrikkad lootusrikka
+56	9256	seostuma	seostub seostuvad seostu seostus
+57	9257	koalitsioon	koalitsiooni koalitsioon koalitsiooniga koalitsioonis koalitsioonist
+58	9258	kihama	kihab kihama kihavad kihas
+59	9259	rinnavähk	rinnavähk rinnavähi rinnavähki rinnavähist
+60	9260	esmasündinud	esmasündinud esmasündinu esmasündinuid
+61	9261	konsool	konsooli konsool konsoolid konsooliga
+62	9262	eriolukord	eriolukord eriolukorra eriolukordade eriolukorraga
+63	9263	õlekõrs	õlekõrs õlekõrrest õlekõrtest õlekõrre õlekõrt
+64	9264	täidis	täidisega täidis täidist täidise
+65	9265	kvalifikatsioon	kvalifikatsioon kvalifikatsiooni kvalifikatsiooniga kvalifikatsioonis kvalifikatsioonid kvalifikatsioonidel
+66	9266	blokaad	blokaad blokaadi blokaadist
+67	9267	kiiritus	kiiritust kiirituse kiiritus kiiritusega
+68	9268	ringreis	ringreisi ringreis ringreisile ringreisil ringreise
+69	9269	lõng	lõnga lõng lõngus lõngused lõngad lõngaga
+70	9270	vihmamantel	vihmamantel vihmamantlit vihmamantli vihmamantlis vihmamantliga vihmamantlid
+71	9271	pistik	pistik pistiku pistikud pistikusse pistikut pistikuid
+72	9272	aastavahetus	aastavahetusel aastavahetus aastavahetuse aastavahetuseks aastavahetust
+73	9273	tööpost	tööpostil tööpostile tööpostilt tööpost tööposti
+74	9274	hääletu	hääletu hääletult hääletud hääletut
+75	9275	teerada	teerada teeraja teerajal teeradade teerajale teerajalt
+76	9276	sabat	sabati sabatit sabat sabatil
+77	9277	kaasasündinud	kaasasündinud
+78	9278	kaksikõde	kaksikõde kaksikõe kaksikõega kaksikõed
+79	9279	punnima	punnis punnib punnida
+80	9280	vooruslik	vooruslik vooruslikud vooruslikku voorusliku vooruslikult
+81	9281	löögirühm	löögirühm löögirühma löögirühmaga löögirühmast
+82	9282	gild	gildi gild gildile gildis
+83	9283	sünnikoht	sünnikoht sünnikohast sünnikohta sünnikoha
+84	9284	kuivik	kuivik kuivikud kuivikuid kuivikut kuivikuks
+85	9285	inkvisitsioon	inkvisitsiooni inkvisitsioon
+86	9286	koolimaja	koolimaja koolimajas koolimajja koolimajast
+87	9287	lõunaosa	lõunaosas lõunaosa lõunaossa lõunaosast
+88	9288	paanikahoog	paanikahoog paanikahood paanikahoogu paanikahoo
+89	9289	eskadron	eskadron eskadroni eskadronid eskadroniga
+90	9290	visa	visalt visad
+91	9291	psüühika	psüühika psüühikat psüühikas psüühikaga psüühikale psüühikasse
+92	9292	kuldmedal	kuldmedali kuldmedal kuldmedalit kuldmedaliga kuldmedalid
+93	9293	äriline	äriline ärilisi ärilistel ärilise ärilist ärilised äriliselt ärilisel
+94	9294	aarialane	aarialaste aarialased aarialane aarialase aarialasi aarialastega
+95	9295	näägutama	nääguta näägutab näägutama näägutada näägutavad näägutav näägutas näägutad
+96	9296	säga	säga sägad sägasid
+97	9297	äbarik	äbarik äbarikud äbariku äbarikku
+98	9298	halvama	halvab halvavad halvanud halvan
+99	9299	tulikuum	tulikuum tulikuuma tulikuumad tulikuumaks
+100	9300	lombakas	lombakas lombakaks lombakat lombaka lombakad

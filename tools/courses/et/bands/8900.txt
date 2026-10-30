@@ -1,0 +1,100 @@
+1	8801	logiraamat	logiraamat logiraamatusse logiraamatu logiraamatust logiraamatut logiraamatus logiraamatud
+2	8802	kirjastus	kirjastus kirjastuse kirjastuses kirjastusest kirjastust kirjastusse
+3	8803	kuhjuma	kuhjuvad kuhjub kuhjunud kuhjuma kuhjusid kuhjus
+4	8804	kuuliauk	kuuliaugud kuuliauk kuuliauku kuuliauke kuuliaugu
+5	8805	saakloom	saaklooma saakloomad saakloom saakloomi saakloomade saakloomaga
+6	8806	pürgima	pürgida pürgib pürgid pürgin pürgivad pürgima pürgi pürginud pürgiv
+7	8807	paugutama	paugutama paugutab paugutada paugutas paugutasid paugutad paugutades paugutavad paugutasin
+8	8808	tembeldama	tembeldada tembeldatud tembeldatakse tembelda tembeldati tembeldasid tembeldanud tembeldama tembeldab tembeldad
+9	8809	okupatsioon	okupatsiooni okupatsioon okupatsioonist
+10	8810	taksofon	taksofoni taksofon taksofonist taksofone taksofonid
+11	8811	laulatama	laulatatud laulatada laulatas laulatatakse laulatab laulatati
+12	8812	maaomanik	maaomanik maaomanikud maaomanike maaomanikele maaomaniku maaomanikke maaomanikuga
+13	8813	portselan	portselani portselanist portselan portselaniga
+14	8814	jälgija	jälgija
+15	8815	lepp	leppe lepp
+16	8816	seitsekümmend	seitsekümmend seitsmekümne
+17	8817	mula	mula mulast mulani
+18	8818	sotsiopaat	sotsiopaat sotsiopaadi sotsiopaadiks
+19	8819	surivoodi	surivoodil surivoodi
+20	8820	optimist	optimist optimistid optimisti
+21	8821	öökima	öökima öökis öögi öökida
+22	8822	lähedasem	lähedasem lähedasemaid lähedasemat
+23	8823	suhteline	suhteline suhtelise suhtelised suhtelises
+24	8824	narkopolitsei	narkopolitsei narkopolitseist narkopolitseis
+25	8825	laiskvorst	laiskvorst laiskvorstid laiskvorsti
+26	8826	tulemasin	tulemasin tulemasinat tulemasina
+27	8827	pahameel	pahameelt pahameele pahameel pahameelest
+28	8828	lihasööja	lihasööja lihasööjad lihasööjast lihasööjate
+29	8829	edendama	edendada edendab edendama edendan edendame edendad
+30	8830	loksuma	loksub loksunud loksuma loksuvad loksuda
+31	8831	vahitorn	vahitorni vahitorn vahitornis
+32	8832	plahvatuslik	plahvatuslik plahvatuslikult plahvatusliku plahvatuslikud plahvatuslikku plahvatuslikule
+33	8833	kunstikool	kunstikooli kunstikoolis kunstikool kunstikoolist
+34	8834	optiline	optiline optilise optilist optilisi optilised optiliste
+35	8835	iseseisvuspäev	iseseisvuspäeva iseseisvuspäev iseseisvuspäeval
+36	8836	takt	takti taktis takt taktist
+37	8837	piison	piison piisoni piisonid piisoneid piisonit
+38	8838	dekoratsioon	dekoratsioonid dekoratsioon dekoratsioonide dekoratsioone dekoratsioonidega
+39	8839	sidevahend	sidevahendid sidevahend sidevahendeid sidevahendi sidevahendit sidevahendite
+40	8840	pehmendama	pehmendada pehmendab pehmendavad pehmenda pehmendama pehmendav pehmendanud pehmendas
+41	8841	kilekott	kilekotti kilekott kilekotis kilekoti kilekotte kilekotiga kilekottidesse
+42	8842	pensionär	pensionär pensionäride pensionärid pensionäri pensionäridele pensionäre pensionärist
+43	8843	ajukasvaja	ajukasvaja ajukasvajat ajukasvajad
+44	8844	võrkkest	võrkkesta võrkkest võrkkestale
+45	8845	liginema	ligineb ligineme liginevad ligines liginen liginedes liginege
+46	8846	hullama	hullata hulla hullama hullanud hullamas hullab hullavad hullame hullas hullasime
+47	8847	kilogramm	kilogrammi kilogramm
+48	8848	sõjakangelane	sõjakangelane sõjakangelase sõjakangelasest
+49	8849	suitsukate	suitsukate suitsukatet suitsukatteks
+50	8850	hädajuhtum	hädajuhtum hädajuhtumiteks hädajuhtumi hädajuhtumiga hädajuhtumiks
+51	8851	liist	liistule liistude liistu
+52	8852	grisli	grisli grislid grislide grislit
+53	8853	eliksiir	eliksiiri eliksiir
+54	8854	unustus	unustusse unustuse unustus unustuste
+55	8855	traumeerima	traumeeritud traumeeriv traumeerida traumeeris
+56	8856	notar	notar notari notarit notarid
+57	8857	signalisatsioon	signalisatsioon signalisatsiooni
+58	8858	kimbatus	kimbatuses kimbatusse kimbatusest kimbatust kimbatus
+59	8859	tapeet	tapeet tapeedi tapeeti
+60	8860	ansambel	ansambel ansamblit ansambli ansamblid ansambliga ansamblis
+61	8861	kümnekas	kümneka kümnekas kümnekat
+62	8862	testimine	testimine testimist testimisel testimisega
+63	8863	esik	esikus esikusse esiku esik esikust esikut
+64	8864	elavhõbe	elavhõbe elavhõbeda elavhõbedat elavhõbedaga
+65	8865	aerutama	aerutage aerutame aerutama aerutada aerutan
+66	8866	ventiil	ventiili ventiil ventiilid
+67	8867	limpsima	limpsida limpsib limpsima limpsin limpsimas limpsisin limpsisid limpsiks
+68	8868	vaimuhaigus	vaimuhaigus vaimuhaiguse vaimuhaigust vaimuhaiguste vaimuhaigusest vaimuhaigused
+69	8869	ristama	ristata ristatud ristame rista ristanud ristad ristasime ristama
+70	8870	väärkohtlemine	väärkohtlemise väärkohtlemine väärkohtlemist väärkohtlemisest väärkohtlemises
+71	8871	iludusvõistlus	iludusvõistlus iludusvõistluse iludusvõistlusel iludusvõistlustel iludusvõistlused iludusvõistlusele iludusvõistlust
+72	8872	vannitama	vannitada vannitama vannitab vannitan vannitasin vannitad vannitas
+73	8873	põrmustama	põrmustada põrmustab põrmustatud põrmustan põrmustas põrmustasid põrmustavad põrmusta põrmustaks
+74	8874	loosung	loosung loosungit loosungeid loosungi loosungid loosungiga loosungiks
+75	8875	koonduslaager	koonduslaagrisse koonduslaagris koonduslaager koonduslaagrites koonduslaagri koonduslaagrid koonduslaagritesse koonduslaagreid koonduslaagrite
+76	8876	string	stringid stringe stringides stringi stringide
+77	8877	palavus	palavus palavust palavuse palavusega palavuses palavusest
+78	8878	kahene	kahene kahese kahesed kaheseks
+79	8879	käsitsema	käsitseda käsitsema käsitsed käsitse käsitseb
+80	8880	paheline	paheline pahelised pahelise pahelist pahelisi paheliseks paheliste
+81	8881	paitama	paitab paitada paitas paitad paitavad paitan paitama
+82	8882	maamiin	maamiinid maamiin maamiini maamiine maamiinide maamiinile maamiinidega
+83	8883	sünkroniseerima	sünkroniseeritud sünkroniseerida sünkroniseerime sünkroniseeris sünkroniseeri sünkroniseerima sünkroniseerin sünkroniseerige sünkroniseerib
+84	8884	golfikepp	golfikepid golfikepp golfikeppe golfikepiga golfikepi golfikeppi golfikeppide
+85	8885	säru	säru
+86	8886	auh	auh
+87	8887	varemalt	varemalt
+88	8888	laiemalt	laiemalt
+89	8889	edev	edev edevad edevaks edevalt
+90	8890	kõrgklass	kõrgklassi kõrgklassist kõrgklass
+91	8891	komando	komando komandod komandos komandost
+92	8892	patustama	patustanud patustada patustama patustasid
+93	8893	tapamasin	tapamasin tapamasina tapamasinad tapamasinaks
+94	8894	ämmaemand	ämmaemand ämmaemanda ämmaemandad ämmaemandat
+95	8895	tõhusam	tõhusam tõhusamalt tõhusamaks
+96	8896	huvitu	huvitu huvitus
+97	8897	priske	priske prisked prisket priskeid priskeks
+98	8898	saastama	saastatud saastanud saastavad saastab saastame saastada
+99	8899	austusavaldus	austusavaldus austusavaldust austusavalduse austusavalduseks austusavaldusi austusavaldused
+100	8900	mõrvamine	mõrvamine mõrvamise

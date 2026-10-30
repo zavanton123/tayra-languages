@@ -1,0 +1,100 @@
+1	6601	teos	teoseid teosed teose teoste teostest teoses teosest teos teostes teoseks teost
+2	6602	terane	terane
+3	6603	taru	taru tarus tarusse tarust tarud tarusid taruks tarude
+4	6604	ennetama	ennetada ennetama ennetab ennetas enneta ennetanud ennetame ennetad
+5	6605	mõrvakatse	mõrvakatse mõrvakatses mõrvakatset mõrvakatsega mõrvakatsest
+6	6606	tankla	tankla tanklas tanklasse tanklast tanklat tanklates
+7	6607	einestama	einestada einestama einestame einestab einestanud einestasime einestas einestamas einestad einestan einestate einesta einestaks einestasin
+8	6608	katastroofiline	katastroofiline katastroofilised katastroofilise katastroofilist katastroofiliselt katastroofilisi katastroofiliste
+9	6609	eksklusiivne	eksklusiivne eksklusiivse eksklusiivset eksklusiivsed eksklusiivselt eksklusiivses
+10	6610	oeh	oeh
+11	6611	optimistlik	optimistlik optimistlikud optimistlikult optimistlikuks
+12	6612	kohtlemine	kohtlemist kohtlemine
+13	6613	kamraad	kamraad kamraadid kamraadi kamraade kamraadide kamraadidega kamraadidele
+14	6614	eesots	eesotsas eesotsa
+15	6615	naljamees	naljamees naljamehed
+16	6616	logi	logi logisse logist logide
+17	6617	eemaldamine	eemaldamine eemaldamise
+18	6618	niidiots	niidiotsa niidiots niidiotsi niidiotsad
+19	6619	tantsutüdruk	tantsutüdruk tantsutüdrukud tantsutüdrukute tantsutüdruku tantsutüdrukuks tantsutüdrukuid tantsutüdrukuga tantsutüdrukut tantsutüdrukutega
+20	6620	riigireetmine	riigireetmises riigireetmine riigireetmise riigireetmist riigireetmiseks
+21	6621	lõunapoolne	lõunapoolne lõunapoolse lõunapoolses lõunapoolsest lõunapoolsed lõunapoolsesse lõunapoolsete lõunapoolset lõunapoolsele lõunapoolsel lõunapoolsetes
+22	6622	pöör	pöörast pöörise pööris pöörist pööra pöörata pööras pöörad pöörasid pööraks
+23	6623	meetrine	meetrine meetrise meetrist meetrised meetriste meetrisena meetrisest meetrisel
+24	6624	selgrood	selgroo selgroost selgrood
+25	6625	vastuoluline	vastuoluline vastuolulised vastuolulisi vastuolulise vastuolulist vastuoluliseks vastuoluliselt vastuoluliste vastuolulisest
+26	6626	figuur	figuuri figuur figuuriga figuurile figuurist figuurid
+27	6627	läänerannik	lääneranniku läänerannikul läänerannik läänerannikule läänerannikult läänerannikut
+28	6628	söötja	söötja söötjat söötjad söötjale
+29	6629	türm	türmi türmis türmist türm
+30	6630	sõbrunema	sõbruneda sõbrune sõbrunenud sõbrunema sõbrunes sõbrunesin sõbruneme sõbrunesid sõbruned sõbruneb sõbrunevad sõbrunesime sõbruneks sõbrunen
+31	6631	segunema	seguneb segunenud segunevad seguneda segunes segunesid segunema seguneme segunen
+32	6632	määramine	määramise määramiseks määramine määramist määramisel määramisega määramisest
+33	6633	pärandama	pärandas pärandan pärandada pärandatud pärandasid pärandatakse pärandati pärandab pärandama pärandanud
+34	6634	jätis	jätis jätised jätiseid jätiste jätistega jätist jätistest jätise jätisest
+35	6635	ihuüksi	ihuüksi
+36	6636	jarl	jarl jarli jarliks
+37	6637	sisseost	sisseoste sisseostude sisseostud sisseost
+38	6638	merineitsi	merineitsi merineitsid merineitsit merineitsiks merineitsite
+39	6639	jõhkard	jõhkard jõhkardid jõhkardite jõhkardiga jõhkarditest jõhkardi
+40	6640	vastulöök	vastulöögi vastulöök vastulööki vastulöögiks vastulööke
+41	6641	aastaraamat	aastaraamatu aastaraamatusse aastaraamat aastaraamatus aastaraamatud aastaraamatut aastaraamatust aastaraamatuid
+42	6642	nukker	nukker nukralt nukraks nukrad nukra nukras nukrat
+43	6643	hommikueine	hommikueine hommikueinet hommikueineks hommikueinele
+44	6644	suurejooneline	suurejooneline suurejooneliselt suurejoonelise suurejoonelist suurejoonelised suurejoonelisi
+45	6645	kupong	kupong kupongid kupongi kuponge kupongidega kupongiga kupongidest kupongide
+46	6646	talisman	talisman talismani talismanid talismaniks talismane talismaniga talismanile
+47	6647	sissejuhatus	sissejuhatus sissejuhatuse sissejuhatust sissejuhatuseks sissejuhatuseta
+48	6648	senine	senine senise senised senisest senist senistest seniste seniseid senisel
+49	6649	oletatavasti	oletatavasti
+50	6650	ühtemoodi	ühtemoodi
+51	6651	silmakirjalik	silmakirjalik silmakirjalikud silmakirjalikuks silmakirjalikku silmakirjaliku
+52	6652	ambitsioonikas	ambitsioonikas ambitsioonikad ambitsioonikat ambitsioonika ambitsioonikaid ambitsioonikate
+53	6653	lõpma	lõpevad lõpmata lõpnud
+54	6654	sotsiaaltöötaja	sotsiaaltöötaja sotsiaaltöötajad sotsiaaltöötajaga sotsiaaltöötajale sotsiaaltöötajat
+55	6655	näitamine	näitamiseks näitamine
+56	6656	õudukas	õudukas õudukaid õudukat õuduka õudukad
+57	6657	sõjavang	sõjavang sõjavangid sõjavange sõjavangi sõjavangide sõjavangidest sõjavangidele sõjavangina sõjavangis sõjavangiks
+58	6658	viskuma	viskus visku viskuda viskusid viskuma viskub viskusin viskuvad viskun viskuge viskud viskumas viskuksin
+59	6659	tarkune	tarkuse tarkusest tarkusele
+60	6660	laik	laik laigud laike laiku laigu laikudega laigust laiguga
+61	6661	koordineerima	koordineeritud koordineerib koordineerida koordineerima koordineerin koordineerime koordineeri koordineeris koordineerivad koordineerige koordineeriks
+62	6662	käija	käija
+63	6663	teadagi	teadagi
+64	6664	kesk	kesk
+65	6665	iiveldama	iiveldama iiveldab
+66	6666	hämming	hämmingus hämmingut hämmingusse
+67	6667	kostja	kostja kostjale kostjat kostjal kostjast
+68	6668	diagnoos	diagnoos diagnoosiga diagnoose diagnoosist
+69	6669	allilm	allilma allilmas allilmast allilm allilmaga
+70	6670	hoob	hoobi hoob hooba hoova
+71	6671	praktikant	praktikant praktikandid praktikandi praktikante praktikandiga praktikanti praktikandiks
+72	6672	raudteejaam	raudteejaama raudteejaamas raudteejaam raudteejaamast
+73	6673	binokkel	binokkel binokli binoklit binokliga binoklid binoklist binokleid
+74	6674	kanadalane	kanadalased kanadalane kanadalaste kanadalasi kanadalast kanadalastega kanadalastele
+75	6675	esiisa	esiisad esiisade esiisa esiisasid esiisadele
+76	6676	hüvitama	hüvitada hüvitama hüvitan hüvitab hüvita hüvitatakse hüvitatud hüvitame hüvitanud hüvitad hüvitavad
+77	6677	fenomen	fenomen fenomeni fenomenist fenomene fenomeniks fenomeniga
+78	6678	ajukahjustus	ajukahjustus ajukahjustuse ajukahjustusega ajukahjustust ajukahjustused ajukahjustusi
+79	6679	jutustus	jutustus jutustuse jutustust jutustused jutustusi jutustuses jutustusest jutustusega
+80	6680	määratlema	määratleda määratletud määratleb määratlevad määratle määratlema määratlemata määratlenud määratleme määratletakse määratlesid määratlege
+81	6681	kõrvaklapid	kõrvaklapid kõrvaklappe kõrvaklappide kõrvaklappidega kõrvaklappidest kõrvaklappides
+82	6682	algeline	algeline algelised algelist algelise algelisi algelisest algelisel algelises algeliste
+83	6683	merepõhi	merepõhja merepõhjas merepõhi
+84	6684	kohapealt	kohapealt
+85	6685	valehäire	valehäire valehäiret valehäired valehäireid valehäirega
+86	6686	paragrahv	paragrahv paragrahvi paragrahvile paragrahvid
+87	6687	tops	topsi topsid topse topsis topsiga topsist
+88	6688	hautis	hautis hautist hautise hautises
+89	6689	autopiloot	autopiloot autopiloodi autopiloodil autopiloodile autopilooti autopiloodiga
+90	6690	võllas	võllas võlla võllast võllasse
+91	6691	jalavägi	jalavägi jalaväe jalaväes jalaväge jalaväkke jalaväest jalaväega
+92	6692	kõikvõimalik	kõikvõimalikke kõikvõimalikud kõikvõimaliku kõikvõimalike kõikvõimalikku kõikvõimalikest kõikvõimalikes kõikvõimalik kõikvõimalikel kõikvõimalikul
+93	6693	aas	aasal aasa aasale aas aasad aasadel aasade aasast
+94	6694	kullakallis	kullakallis kullakalli kullakallid
+95	6695	ülekaal	ülekaalus ülekaal ülekaalu ülekaaluga
+96	6696	õhuruum	õhuruumi õhuruum õhuruumis õhuruumist
+97	6697	ülene	ülese
+98	6698	takka	takka
+99	6699	rubla	rubla rublad rublades rublasid
+100	6700	häbiplekk	häbiplekk häbiplekiks häbiplekid häbipleki

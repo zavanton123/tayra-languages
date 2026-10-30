@@ -1,0 +1,100 @@
+1	1101	värske	värske värsket värsked värskelt värskeid värskena värskete värskes värskem värskest värskemat värskele värskeks värsketest värsketena värskel
+2	1102	kabinet	kabinetis kabinetti kabinet kabineti kabinetist kabinetiga kabinetid kabinette kabinetile kabinettides kabinetiks
+3	1103	litapoeg	litapoeg litapojad litapoja litapoega litapojale litapojast litapojal litapojaga litapoegadele litapoegi litapojaks litapoegade litapoegadest
+4	1104	haav	haav haava haavata haavad haaval haavu haavas haavale haavade haavasid haavast haavaga haavadest haavadesse haavadega haavadele haavades haavaks
+5	1105	kast	kasti kast kastis kaste kastid kastist kastides kastiga kastidesse kastide kastidest kastidega kastile kastil kastiks kastes
+6	1106	lill	lilled lilli lill lille lillede lilledega lilledest lillest lilledele lillele lillega lilledel lilledes lilleks lillel lilledelt lillelt lilles
+7	1107	fakt	fakt fakti fakte faktid faktiga faktide faktist faktidest faktidega faktile faktidele faktidel faktiks faktil faktis faktides faktideks
+8	1108	pilet	piletid pilet pileti piletit pileteid piletite piletitega piletiga piletita piletiks piletitest piletile piletist piletil piletitele
+9	1109	hankima	hankida hangi hangin hankima hangime hankisin hankis hangid hankige hangib hankisid hankinud hangitud hangiks hankisime hangite hangiksin hangivad hangiksid hankides hankimas hankisite hangiti
+10	1110	löök	löök löögi lööki lööke löögid löögiga löögist löögile löögiks löökide löökidega löökidele löögil löögis löögini
+11	1111	sõjavägi	sõjaväe sõjavägi sõjaväes sõjaväkke sõjaväge sõjaväest sõjaväega sõjaväele sõjaväel sõjaväed sõjaväelt sõjaväeks sõjaväeta sõjavägede
+12	1112	arvamus	arvamus arvamust arvamuse arvamusel arvamusi arvamusest arvamusele arvamused arvamusega arvamuste arvamustest arvamustega arvamuses arvamuseks arvamustele arvamustes
+13	1113	kohting	kohting kohtingule kohtingul kohtingu kohtingut kohtingutel kohtinguks kohtingud kohtingust kohtinguid kohtingute kohtinguga kohtingutele kohtingutest kohtingult kohtinguteks kohtingutega kohtinguni kohtingus kohtinguil
+14	1114	ametlik	ametlikult ametlik ametliku ametlikku ametlikuks ametlikud ametlike ametlikke ametlikus ametlikul ametlikule ametlikust ametlikel ametlikest ametlikes ametlikele ametlikum
+15	1115	ühinema	ühineda ühineb ühinema ühinenud ühined ühinen ühinege ühinevad ühinesid ühines ühineme ühinete ühineksid ühinesin ühineks ühinesite ühineksite ühinedes ühinesime ühineksin ühineksime ühinemast ühinemas ühinegem
+16	1116	maitse	maitse maitset maitsega maitses maitsed maitsele maitseks maitsest maitseid maitsete maitsel maitsetest maitselt maitsetega
+17	1117	sild	silla sild sillal silda sillale sillalt sillad sillas sildu sillast sillani sildade sillaga sillaks sildadest sildadel sildadelt sillana sildasid
+18	1118	leht	lehed lehte leht lehti lehe lehes lehel lehest lehelt lehtede lehtedes lehele lehtedest lehtedel lehega lehtedega lehtedele lehtedesse lehena lehtedelt leheks
+19	1119	õpilane	õpilane õpilased õpilasi õpilaste õpilase õpilast õpilastele õpilastest õpilasega õpilastega õpilaseks õpilasele õpilastel õpilasest õpilasena õpilasel õpilastelt õpilasse õpilaselt õpilasteks
+20	1120	hirmus	hirmus hirmsat hirmsad hirmsa hirmsam hirmsaid hirmsalt hirmsaks hirmsaim hirmsas hirmsast hirmsal hirmsate hirmsamat hirmsasse hirmsates hirmsatest hirmsale hirmsana
+21	1121	lits	lits litsi litsid litsiks litse litsiga litsist litsile litside litsidega litsidele litsina litsideks litsidest litsil litsides litsidesse
+22	1122	tänulik	tänulik tänulikud tänulikum tänulikult tänuliku tänulikuks tänulikust tänulikuna
+23	1123	eelistama	eelistan eelistaksin eelistad eelistab eelistaks eelistavad eelistate eelistaksid eelistanud eelistas eelistame eelistasid eelista eelistatud eelistada eelistaksite eelistasin eelistama eelistaksime eelistades eelistatakse eelistavat eelistati eelistanuks eelistasime
+24	1124	mõrvar	mõrvar mõrvari mõrvarid mõrvarit mõrvariks mõrvarite mõrvareid mõrvarist mõrvariga mõrvarile mõrvaril mõrvaritest mõrvaritega mõrvaritele mõrvarina mõrvariteks mõrvarilt mõrvaritel mõrvarini
+25	1125	ameeriklane	ameeriklased ameeriklane ameeriklaste ameeriklasi ameeriklast ameeriklastele ameeriklase ameeriklastel ameeriklastega ameeriklastest ameeriklasest ameeriklasega ameeriklasele ameeriklasena ameeriklastelt ameeriklasel ameeriklaseks ameeriklastena ameeriklaselt ameeriklasteks
+26	1126	eeldama	eeldan eeldasin eeldada eeldades eeldab eeldame eeldad eeldama eelda eeldavad eeldasid eeldasime eeldanud eeldas eeldate eeldaks eeldatakse eeldatud eeldati eeldasite eeldage eeldaksin eeldatavat
+27	1127	tase	tasemel tase tasemele taseme taset tasemega tasemed tasemeni tasemest tasemelt tasemeid tasemetel tasemes tasemetest tasemete tasemesse tasemetele tasemeks
+28	1128	pöörduma	pöörduda pöördus pöördub pöörduma pöördunud pöördu pöördun pöörduvad pöörduge pöördusid pöördume pöördusin pöördud pöördute pöördusime pöördutakse pöördudes pöördumas pöörduksid pöördusite pöörduksin pöörduksime pöördugem pöördugu
+29	1129	suunduma	suundub suundume suunduvad suundun suundud suundumas suundusid suundute suunduge suunduda suundu suunduma suundusime suundusin suundudes suundunud suunduks suundusite suunduksid suunduvat
+30	1130	hiina	hiina hiinas hiinasse hiinast hiinat hiinaga hiinale hiinal hiinani
+31	1131	võimeline	võimeline võimelised võimeliseks
+32	1132	ujuma	ujuda ujuma uju ujub ujuvad ujumas ujus ujume ujun ujud ujudes ujunud ujusid ujusin ujuv ujusime ujuge ujuks ujute ujuksid ujuksin ujuva ujuvat
+33	1133	energia	energia energiat energiast energiaga energiaks energiale energial energiata energiaid energiad energiasse energias
+34	1134	rada	rada rajal rajalt raja ratta rajale rajas radu rajad radadel rajasid radadele rajast radade rajaks rajaga radasid rajades radadest
+35	1135	köök	köögis kööki köök köögi köögist köögiga köökides kööke köögid köögil köögile
+36	1136	rase	rase rasedaks raseda rasedad rasedana rasedat rasedate rasedatele rasedale rasedaid rasedatel rasedatest rasedal
+37	1137	vajutama	vajuta vajutada vajutan vajutage vajutad vajutama vajutas vajutasin vajutanud vajutasid vajutab vajutades vajutate vajutame vajutavad vajutaks vajutamas vajutaksid vajutatud vajutaksin vajutasime vajutamast vajutasite vajutatakse
+38	1138	homne	homseks homseni homset homse homne homsest homsele homsed homsel homses homsega homsete homsesse homseid homsetest homsetes homsetele homseteks
+39	1139	tervitama	tervita tervitada tervitage tervitab tervitan tervitame tervitama tervitatud tervitavad tervitagem tervitas tervitad tervitasid tervitanud tervitatakse tervitasin tervitades tervitaks tervitamas tervitasime tervitaksid tervitati tervitata tervitaksin tervitatav tervitate tervitav tervitaksite
+40	1140	ühine	ühine ühist ühise ühised ühiseid ühiselt ühisest ühisele ühiste ühises ühisel ühiseks ühistest ühisesse ühistele ühistes ühistel
+41	1141	äratama	äratada ärata äratas äratab äratasin äratama äratanud äratasid äratad äratan ärataks äratage äratame äratasime äratavad äratamata äratav äratatud äratasite äratati äratatakse äratate ärataksid ärataksime äratades ärataksin
+42	1142	aeglaselt	aeglaselt aeglasemalt
+43	1143	kurss	kursis kurssi kurss kursil kursi kursilt kursile kursist kursiga kursid
+44	1144	major	major majori majorit majorile majoriga majoriks majoril majorist majorilt
+45	1145	pidevalt	pidevalt
+46	1146	lask	laske lask laseks lasu lasud lasku lasuga laskusid lasust laskudest laskude lasuks laskudes lasuta lasus laskudega lasule
+47	1147	õrn	õrna õrn õrnalt õrnad õrnem õrnu õrnust õrnade õrnas õrnus õrnast õrnemad õrnaks õrnale õrnal õrnadest õrnades
+48	1148	hilinema	hilinesin hiline hilinenud hilineda hilineb hilinen hilinesid hilined hilineme hilise hilisel hilinesime hilines hilinemas hilinevad hilinesite hiliseks hilises hilist hilinete hilistes hilistel hilinege hilised hilinema hilineks hilisele hilinemast hiliseid hiliste hilisest
+49	1149	signaal	signaali signaal signaale signaalid signaaliga signaalile signaalide signaalist signaaliks signaalita signaalis signaalidest
+50	1150	kogemus	kogemusi kogemus kogemused kogemust kogemuste kogemuse kogemustest kogemusest kogemustega kogemusega kogemustele kogemusteta kogemusele kogemuseks kogemustes kogemustel kogemusel kogemuses kogemuseta kogemusse
+51	1151	unenägu	unenägu unenägusid unenäod unenäos unenägudes unenäo unenäost unenägude unenägudest unenägudesse unenäona unenäkku unenäoks unenägudeta unenäoga unenägudega unenäole unenägudeks unenägudel unenäol unenäosse
+52	1152	viha	viha vihale vihata vihaga vihast vihas vihal vihaks vihasse
+53	1153	kaudu	kaudu
+54	1154	tagant	tagant
+55	1155	tapja	tapja tapjad tapjat tapjaks tapjaid tapjaga tapjate tapjale tapjal tapjast tapjana tapjateks tapjatest tapjatega tapjatele tapjalt tapjatel tapjani
+56	1156	printsess	printsess printsessi printsessiga printsessid printsessile printsessist printsessiks printsessil printsessina printsessilt printsesside printsessidega printsessita
+57	1157	reetma	reetis reetsid reetnud reeta reeda reedab reedeti reetsin reedaks reedad reedetud reetma reedavad reedan reetsite reedaksin reedaksid reedate reedame reedetakse reetes reetsime reetke reetmast reetmas reetmata reedaksite
+58	1158	ähvardama	ähvardas ähvardab ähvardad ähvarda ähvardasid ähvardada ähvardanud ähvardavad ähvardama ähvardati ähvardatakse ähvardades ähvardasin ähvardav ähvardate ähvardatud ähvardan ähvardasite ähvardava ähvardaks ähvardavalt ähvardavat ähvardame ähvardavaid ähvardamas ähvardata ähvardavast ähvardage
+59	1159	kustutama	kustutada kustuta kustutatud kustutage kustutas kustutan kustutama kustutab kustutasin kustutasid kustutanud kustutame kustutatakse kustutati kustutad kustutaks kustutavad kustutades kustutaksid kustutasime kustutate kustutasite kustutamas kustutamatu kustutaksin kustutamata
+60	1160	lõbutsema	lõbutse lõbutseda lõbutsege lõbutseme lõbutsema lõbutsen lõbutsevad lõbutseb lõbutsesime lõbutsed lõbutsesid lõbutsenud lõbutsemas lõbutsete lõbutsesin lõbutses lõbutsesite lõbutsegem lõbutseks lõbutsetud lõbutseksime lõbutsedes lõbutseksid
+61	1161	tuul	tuul tuule tuult tuuled tuulde tuules tuulega tuulest tuulte tuuli tuulele tuulel tuultega tuultest tuuleks tuultes
+62	1162	plaanima	plaanib plaaninud plaanitud plaanivad plaanite plaanin plaanisin plaanisime plaanime plaanida plaanisite plaanitakse plaanigi plaanitult plaanima plaanitust plaaniti plaanimas plaanimata plaanitu plaaniksid
+63	1163	keelduma	keeldus keeldub keelduda keeldun keeldusid keeldusin keelduvad keeldunud keelduma keeldute keeldume keeldusite keelduti keelduge keeldusime keelduksin keelduksid keeldutud keeldutakse
+64	1164	kohtlema	kohelda koheldakse kohtleb kohtle kohtled kohtlevad kohtles kohtlema kohelnud kohtlesid kohtlen kohtlesin kohtlete kohtleme koheldi koheldaks kohelge kohtleks kohtlesime kohtleksid kohtlesite kohtleksin kohtleksime koheldes
+65	1165	lõhkuma	lõhkuda lõhkus lõhkusid lõhkusin lõhub lõhu lõhud lõhkunud lõhutud lõhkuma lõhun lõhuvad lõhume lõhkuge lõhute lõhkusite lõhuti lõhkusime lõhuks lõhutakse lõhkudes lõhkumata lõhkumas lõhuksid
+66	1166	telekas	telekas telekat telekast teleka telekasse telekaga telekad telekaid telekale telekal telekate telekata
+67	1167	lemmik	lemmik lemmikud lemmikuid lemmikut lemmikutest lemmiku lemmikuks lemmikute lemmikust lemmikule lemmikuist lemmikul lemmikutele lemmikuga lemmikuteks lemmikus
+68	1168	saak	saagi saak saaki saagiks saagist saagiga saagile saagis saagita saagil saagina saagid saake
+69	1169	teistsugune	teistsugune teistsugused teistsugust teistsuguse teistsuguseid teistsuguseks teistsugusena teistsuguste teistsugusest teistsugusel teistsuguses teistsugusele teistsugusem teistsugusesse teistsugustel teistsugusteks teistsugustes
+70	1170	suvi	suvel suve suvi suveks suvest suved suveni suvega suvele suvesid suves
+71	1171	koguma	koguda kogub koguma kogunud kogun kogume kogutud koguvad kogusin koguge kogusime kogumas kogutakse kogute koguti kogusite koguksid kogumaks koguksin koguksime kogud kogusid kogudes koguks
+72	1172	tarvis	tarvis tarviski
+73	1173	laenama	laenata laenasin laenan laenama laenas laenatud laenasid laenad laenab laenanud laename laenaks laenaksid laenasime laenake laenavad laenaksite laenaksin laenasite laenati laenate laenates laenamas
+74	1174	restoran	restorani restoranis restoran restoranist restoranid restoranides restorane restoranide restoranil restoraniga restoranile restoranidest restoranidesse restoranidele restoranidega
+75	1175	lähenema	läheneb lähenevad läheneme läheneda lähenemas lähenen lähenes lähenema lähenege lähened lähenedes lähene lähenete lähenesid lähenesin lähenenud lähenevat lähenesime läheneks lähenetakse
+76	1176	häbi	häbi häbist häbisse häbiks häbis häbiga häbile häbita
+77	1177	särk	särk särgi särki särgid särke särgiga särgil särgis särgita särgile särgist särkide särkidest särgilt särkides särkidega särkidel
+78	1178	saamine	saamiseks saamine saamist saamise saamisest saamisega saamisele saamiseni
+79	1179	täiskasvanu	täiskasvanud täiskasvanu täiskasvanute täiskasvanuks täiskasvanuna täiskasvanut täiskasvanutele täiskasvanuid täiskasvanutel täiskasvanutega täiskasvanuga täiskasvanule täiskasvanutena täiskasvanutest täiskasvanul täiskasvanult täiskasvanuteks täiskasvanust täiskasvanuta täiskasvanuile
+80	1180	jahtima	jahib jahivad jahtima jahtida jahi jahtinud jahime jahtis jahin jahid jahite jahtimas jahitakse jahtisin jahtisid jahiks jahtides jahtisime jahitud jahitav jahiti jahtiv jahtisite jahtimast jahiksid jahiksin jahtige jahitaks
+81	1181	kuritegu	kuritegu kuriteo kuritegude kuritegusid kuriteod kuriteos kuriteost kuritegudes kuriteoga kuritegudest kuriteole kuriteoks kuritegudega kuritegudele kuritegudeks kuriteol
+82	1182	olemine	olemine olemise olemisest olemiseks olemisega olemises olemisel olemisele
+83	1183	kaup	kaupa kaup kauba kaupu kaubale kaubad kaupade kaubaga kaubaks kaubast kaupadega kaubana kaupadest kaubata kaupadele kaupadel kaubal
+84	1184	põrand	põrandale põrandal põranda põrandat põrand põrandalt põrandad põrandaid põrandast põrandasse põrandas põrandate põrandaga põrandani
+85	1185	koostöö	koostööd koostöö koostööst koostöös koostööle koostööks koostööga koostööl koostööna koostööta
+86	1186	tuju	tuju tujus tujust tujud tujusid tujude tujuga tujul tujudest tujudega tujule tujudele tujju
+87	1187	jõulud	jõulud jõule jõulude jõuludeks jõuludel jõuludest jõuludeni jõulusid jõuludega jõuludele jõuludesse
+88	1188	rand	rannas randa rannal rand rannale ranna rannast rannalt rannad randu randadel rannani randades randade randadele rannaga randadega
+89	1189	pettuma	pettunud pettus pettuse pettust pettuma pettusega pettuses pettusest pettu pettuda pettuste pettub pettused pettusi pettuseks pettuvad pettusin pettuks pettud pettustest pettusele pettuksid pettununa pettusid pettustega pettunult pettun pettusel pettute pettuseid pettuseta pettusena pettustes
+90	1190	isiklikult	isiklikult
+91	1191	tasuta	tasuta
+92	1192	tehing	tehing tehingu tehingut tehinguid tehingust tehingud tehinguga tehingute tehinguks tehingutest tehingule tehingus tehingutega tehinguni tehingul tehingutes tehingusse tehinguna tehingutele tehingult
+93	1193	külastama	külastada külastama külastas külastanud külastan külastab külastasin külastame külasta külastasid külastavad külastage külastad külastamas külastasite külastate külastasime külastaks külastaksid külastades külastamast külastaksin külastatud külastaksime külastaksite külastamata
+94	1194	esiteks	esiteks
+95	1195	kahetsema	kahetsed kahetsen kahetse kahetsema kahetseda kahetseb kahetsete kahetsenud kahetseme kahetsevad kahetseks kahetses kahetsev kahetsesin kahetseksin kahetsege kahetseksid kahetsedes kahetsesid kahetsemata
+96	1196	arreteerima	arreteeritud arreteeriti arreteerida arreteerige arreteeritakse arreteerima arreteerin arreteeri arreteerisid arreteeris arreteerivad arreteerime arreteerinud arreteerid arreteeritaks arreteerisime arreteerib arreteerite arreteerisite arreteerisin arreteeriks arreteerita arreteeriksid arreteeriksin arreteeritute
+97	1197	saavutama	saavutada saavutanud saavuta saavutab saavutame saavutas saavutasid saavutama saavutasime saavutad saavutasin saavutavad saavutan saavutaks saavutate saavutatakse saavutati saavutasite saavutades saavutaksid saavutamas saavutamaks saavutamata saavutaksin saavutaksime saavutamast
+98	1198	vältima	vältida väldi väldid vältinud vältima väldib väldin väldime vältige vältimaks väldivad vältides vältis vältisin vältisid väldite väldiks väldiksin välditakse vältisime väldiksid vältisite vältiv
+99	1199	vestlus	vestlus vestlust vestluse vestlusest vestlused vestlusi vestlusele vestluses vestluseks vestlusega vestlustest vestlusesse vestlusel vestluste vestlusse vestluseid vestlustes vestlustele vestlustega vestlustel vestlusteks
+100	1200	harjuma	harjunud harjuda harjuma harjud harjub harjun harjusin harjuge harjuvad harjute harjume harjusid harjusime harjuksin harjugu harjuksid harjutakse

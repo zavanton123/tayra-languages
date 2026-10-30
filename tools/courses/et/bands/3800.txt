@@ -1,0 +1,100 @@
+1	3701	treiler	treileri treiler treileris treilerit treilerisse treileriga treilerist treilerile treilerid treileril treilereid treilerite
+2	3702	isver	isver
+3	3703	õhtune	õhtune õhtuse õhtused õhtusele õhtuseks õhtuses õhtusel õhtusest õhtustes õhtuseid õhtuste õhtustest õhtusteks õhtustesse õhtusesse
+4	3704	intsident	intsident intsidenti intsidendi intsidendist intsidente intsidendis intsidendid intsidendiga intsidendile intsidentide intsidentidest
+5	3705	lunastus	lunastus lunastust lunastuse lunastuseks lunastusele lunastusest lunastuseni lunastusega lunastusse
+6	3706	limusiin	limusiini limusiin limusiinis limusiiniga limusiinist limusiinid limusiine limusiinil limusiinidega limusiinile
+7	3707	puit	puitu puit puidust puidu puiduga
+8	3708	nälgima	nälgivad nälgin nälgima nälgib nälgida nälgimas nälginud nälgime nälgisid nälgid nälgis nälgiks nälgivat nälgiksid nälgite nälgides nälgisin
+9	3709	üht-teine	üht-teist
+10	3710	liikvel	liikvel
+11	3711	kadestama	kadestan kadesta kadestavad kadestab kadestasin kadestad kadestanud kadestama kadestada kadestas kadestasid kadestaks kadestame kadestaksid kadestage kadestate
+12	3712	salateenistus	salateenistus salateenistuse salateenistusest salateenistuses salateenistusega salateenistust salateenistusele salateenistusse salateenistusel salateenistused
+13	3713	unelm	unelmate unelm unelmad unelma unelmaid unelmat unelmas unelmast unelmais unelmates unelmaks
+14	3714	tassima	tassida tassima tassib tassin tassisin tassime tassinud tassige tassivad tassite tassisime tassiti tassitakse tassimas tassisite tassiksin
+15	3715	etteaste	etteaste etteastet etteasteks etteasted etteastega etteastest etteasteid etteastes etteastele
+16	3716	äss	äss ässa ässad ässade ässaks ässaga ässale ässast ässadega
+17	3717	autasu	autasu autasuks autasud autasusid autasust autasudega autasuga autasude autasuna autasule
+18	3718	alaealine	alaealine alaealiste alaealise alaealised alaealisega alaealistele alaealisi alaealist alaealisena alaealistega alaealisele alaealistest
+19	3719	esmakordselt	esmakordselt
+20	3720	uurimistöö	uurimistööd uurimistöö uurimistööga uurimistööst uurimistöös uurimistöid uurimistööl uurimistööde uurimistööks uurimistööle
+21	3721	märkus	märkus märkuse märkused märkusi märkust märkuste märkuseid märkusega märkustest
+22	3722	ütlemine	ütlemine ütlemist ütlemise ütlemiseks ütlemisega ütlemisest ütlemises ütlemised ütlemisi ütlemisele ütlemistest
+23	3723	kang	kangi kang kangiga kangid kangeks kangist kangide kangil kangelt kangel kangest
+24	3724	lett	leti letti letile lett letis letil letist letilt lettidele letid
+25	3725	nässu	nässu
+26	3726	härg	härg härja härjad härjal härga härjaga härjale härgi härgadega härgade härgadele
+27	3727	ebaõiglane	ebaõiglane ebaõiglaselt ebaõiglased ebaõiglase ebaõiglast ebaõiglasena ebaõiglaseks
+28	3728	kapral	kapral kaprali kapraliks
+29	3729	külmkapp	külmkapis külmkapi külmkappi külmkapp külmkapist külmkapiga külmkappe külmkapil külmkapile
+30	3730	pärl	pärl pärlid pärli pärleid pärlitega pärlite pärlitest pärlist pärlit pärle pärliks pärliga
+31	3731	algatama	algatas algatada algatatud algatasid algatanud algatan algatab algata algatasin algatama algatavad algatasime algatatakse algatati algatame algataks algatasite algatage
+32	3732	vagun	vagun vagunis vaguni vagunisse vagunit vagunid vagunist vagunitesse vaguneid vagunites vagunite vagunile vaguniga vagunitest
+33	3733	esitlus	esitlus esitluse esitlust esitlusele esitlusel esitlusega esitluseks esitlusest esitluses esitlusi esitlused
+34	3734	jaanuar	jaanuar jaanuaris jaanuaril jaanuari jaan jaanuarist jaanuarini jaanuariks jaani
+35	3735	loogika	loogika loogikat loogikaga loogikast loogikale loogikas loogikasse loogikal
+36	3736	ratastool	ratastoolis ratastooli ratastool ratastooliga ratastoolist ratastoole ratastoolid
+37	3737	sõõrik	sõõrikuid sõõrikud sõõrikut sõõrik sõõriku sõõrikute sõõrikutest sõõrikutega sõõrikust
+38	3738	unikaalne	unikaalne unikaalse unikaalsed unikaalset unikaalseid unikaalseks unikaalsete unikaalsel unikaalselt unikaalsest unikaalses
+39	3739	tudeng	tudeng tudengid tudengite tudengit tudengeid tudengi tudengitele tudengina tudengitest tudengitega tudengiga tudengile tudengiks tudengist
+40	3740	külmuma	külmub külmus külmuda külmud külmume külmun külmuvad külmu külmusid külmuma külmuks külmumas külmununa külmute külmuksid külmusin külmudes külmumast
+41	3741	iirlane	iirlane iirlased iirlaste iirlastega iirlase iirlasi iirlast iirlastele iirlasest iirlastel iirlasega iirlasele
+42	3742	tsiviilisik	tsiviilisikud tsiviilisik tsiviilisikuid tsiviilisikute tsiviilisikut tsiviilisiku tsiviilisikutele tsiviilisikust tsiviilisikuga tsiviilisikule tsiviilisikutest tsiviilisikutega tsiviilisikutel
+43	3743	uimastama	uimastatud uimastasid uimastas uimastati uimastada uimastav uimastasin uimastab uimastanud uimastama uimasta uimastavad uimastad uimastan uimastasite uimastame uimastate uimastage uimastatakse
+44	3744	hüvastijätt	hüvastijätt hüvastijätuks hüvastijätu hüvastijättu hüvastijätud hüvastijätte hüvastijätuta hüvastijätuga hüvastijätust
+45	3745	imetore	imetore imetoredad imetoreda imetoredat
+46	3746	maakera	maakera maakeral maakerale maakeralt maakerast
+47	3747	rist	rist riste ristil ristis ristid ristile ristiga ristist ristilt ristisid ristide ristiks ristidega
+48	3748	seestpoolt	seestpoolt
+49	3749	enesetunne	enesetunne enesetunnet enesetundega enesetundest
+50	3750	tulu	tulu tulud tulust tuludest tulusid tulude tuludega tuluga
+51	3751	globaalne	globaalne globaalse globaalset globaalsest globaalselt globaalses globaalsed globaalsele globaalsesse globaalsete globaalsel globaalseid globaalseks
+52	3752	hädaoht	hädaohus hädaoht hädaohtu hädaohu hädaohust hädaohuga hädaohuks hädaohtude hädaohte
+53	3753	tükike	tükike tükikest
+54	3754	masendus	masenduses masendusse masendus masendust masendusest masenduse masendusega
+55	3755	parandus	parandus paranduse parandust parandusi parandused parandusse paranduses parandusest parandusele parandusega paranduseks parandustega paranduste parandustest
+56	3756	koll	koll kolli kollid kolle kollide kolde koldes kollidest koldesse kolliga kolded kollidega kollist kollile kolliks
+57	3757	august	augustil augustis august augusti augustina augustist augustiks augustiga augustit augustini augustile aug
+58	3758	varitsema	varitseb varitseti varitsesid varitseda varitses varitsevad varitsema varitseme varitsenud varitsesin varitsed varitsemas varitsen varitsedes varitse varitsetud varitsetakse varitsesime varitsete
+59	3759	vaatepilt	vaatepilt vaatepilti vaatepildi vaatepilte vaatepildist vaatepildiks vaatepildiga
+60	3760	eriüksus	eriüksus eriüksuse eriüksuses eriüksusest eriüksust eriüksused eriüksusega eriüksusesse eriüksuste eriüksusele eriüksusi
+61	3761	parun	parun paruni parunid paruniga parunit parunite parunile parunist
+62	3762	suurenema	suureneb suurenenud suurenes suurenevad suurenedes suurenevat suureneda suurenev suurenesid suurenema suurene suurenemas suureneks
+63	3763	enesekaitse	enesekaitse enesekaitseks enesekaitset enesekaitsest enesekaitsele enesekaitsega
+64	3764	kirglik	kirglik kirglikult kirglikud kirgliku kirglikku kirglikke kirglikuks kirglike kirglikust
+65	3765	sportlane	sportlane sportlased sportlase sportlaste sportlasi sportlast sportlastele sportlaseks sportlastest sportlasele sportlasest sportlastel sportlasena sportlastega
+66	3766	vaidlus	vaidlus vaidlust vaidluse vaidlusi vaidlused vaidluses vaidlusse vaidlusest vaidlusesse vaidluste vaidluseks vaidlustest vaidlustele vaidluseta
+67	3767	poola	poola poolas poolast poolat poolasse poolale poolaga
+68	3768	algaja	algaja algajad algajate algajatele algajat algajale algajaid algajast algajatega algajana algajal algajaga
+69	3769	hooletu	hooletu hooletusse hooletuks hooletult hooletus hooletud hooletust hooletut
+70	3770	kuulmine	kuulmine kuulmise kuulmist kuulmisega kuulmiseni kuulmisest kuulmiseks kuulmis
+71	3771	laiendama	laiendada laiendama laiendame laiendatud laienda laiendab laiendanud laiendan laiendavad laiendasid laiendas laiendage laiendasin laiendades laiendaks laiendasime laiendati
+72	3772	uuendama	uuendada uuendatud uuendama uuenda uuendame uuendasin uuendan uuendanud uuendab uuendatakse uuendas uuendavad uuendati uuendasid uuendaks uuendasime uuendage uuendad uuendamata uuendades uuendate
+73	3773	külvama	külvata külvab külvad külvavad külvas külva külvanud külvatud külvame külvama külvasid külvates külvan külvasin külvatakse külvaks külvati
+74	3774	käsitsi	käsitsi
+75	3775	nahkhiir	nahkhiir nahkhiired nahkhiire nahkhiiri nahkhiirt nahkhiirte nahkhiireks nahkhiirtest nahkhiirel nahkhiirtele nahkhiirele nahkhiirteks nahkhiirtel
+76	3776	originaal	originaal originaali originaalid originaalis originaalist originaale originaaliga originaalide
+77	3777	korrutama	korrutad korruta korrutas korrutada korrutab korrutan korrutasid korrutanud korrutavad korrutama korrutame korrutasin korrutage korrutate korrutatud korrutades korrutatakse
+78	3778	tulnukas	tulnukas tulnukale tulnukaks
+79	3779	rööbas	rööbastelt rööpast rööbastel rööbastele rööpasse rööpaid rööpad rööbaste rööbastesse rööpas rööpailt rööbastest
+80	3780	skandaal	skandaal skandaali skandaale skandaalist skandaalid skandaaliga skandaalis skandaalide skandaaliks skandaalidega skandaalidest
+81	3781	pult	pult puldi pulti puldiga puldile puldil puldis puldid puldist
+82	3782	vangistus	vangistuses vangistust vangistus vangistuse vangistusest vangistusega vangistusse
+83	3783	kolmekesi	kolmekesi
+84	3784	enesekindel	enesekindel enesekindlalt enesekindlad enesekindlaks enesekindlat enesekindlana enesekindla
+85	3785	kuppel	kuppel kuplit kupliga kuplisse kuplist kuplile kuplis kuplil kuplini
+86	3786	suguvõsa	suguvõsa suguvõsast suguvõsas suguvõsad suguvõsale suguvõsaga suguvõsade suguvõssa
+87	3787	kraapima	kraapida kraabi kraapis kraabitud kraabib kraapima kraabin kraapisin kraapisid kraapinud kraabid kraabivad kraapides kraabime kraapisime kraapimas kraabiks kraapige kraabitakse kraabiti kraapiv
+88	3788	moor	moore moor moori
+89	3789	asend	asend asendis asendisse asendit asendi asendid asendist asendeid
+90	3790	töötu	töötu töötuks töötud töötute töötuid töötut töötuna töötutele töötule
+91	3791	joonistus	joonistused joonistus joonistusi joonistuse joonistust joonistuste joonistusel joonistustega joonistustest joonistustel joonistusega joonistusest
+92	3792	radar	radari radaril radarilt radarile radarit radarid radarite radariga radarist radaritele radareid radarita radarisse radaritega radaritel
+93	3793	jumalanna	jumalanna jumalannat jumalannad jumalannale jumalannast jumalannade jumalannaga jumalannaks jumalannal
+94	3794	eru	erru erus
+95	3795	liigne	liigne liigse liigset liigseid liigsest liigsed liigsete liigses
+96	3796	füürer	füürer füüreri füürerile füürerit füüreriga füüreril füürerilt
+97	3797	ahne	ahne ahneks ahned ahnelt ahnete ahneid ahnet
+98	3798	tunnustama	tunnustatud tunnustada tunnusta tunnustama tunnustab tunnustan tunnustatakse tunnustavad tunnustame tunnustas tunnustanud tunnustati tunnustad tunnustaks tunnustataks tunnustamata tunnustage tunnustasid tunnustata tunnustades
+99	3799	vastumürk	vastumürk vastumürki vastumürgi vastumürgiga vastumürgita vastumürgist vastumürgiks vastumürgid
+100	3800	rügement	rügement rügemendi rügementi rügemendis rügemendist rügemendiga rügemendile rügemendil rügemendid

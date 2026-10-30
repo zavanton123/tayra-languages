@@ -1,0 +1,100 @@
+1	7901	telefonitsi	telefonitsi
+2	7902	kariib	kariibi
+3	7903	vingumine	vingumine vingumise
+4	7904	sol	solis soli
+5	7905	skisofreenia	skisofreenia skisofreeniat skisofreeniaga skisofreeniale
+6	7906	vanamoor	vanamoor vanamoori
+7	7907	kellavärk	kellavärk kellavärgi kellavärki kellavärgiga
+8	7908	eesõigus	eesõigus eesõiguse eesõigustega eesõigust eesõigused
+9	7909	sobivam	sobivam sobivamat
+10	7910	argpükslik	argpükslik argpükslikult argpüksliku argpükslikku
+11	7911	sebra	sebra sebrad sebrat sebrade sebral
+12	7912	välisministeerium	välisministeerium välisministeeriumi
+13	7913	rusu	rusude rusudest rusu rusudega rusudesse rusudeks
+14	7914	jume	jume jumet jumega jumele
+15	7915	peatänav	peatänaval peatänava peatänavat peatänav peatänavale
+16	7916	tagamõte	tagamõte tagamõtet tagamõtteta tagamõttega tagamõtteid tagamõtted
+17	7917	anekdoot	anekdoot anekdooti anekdoote anekdoodi anekdoodid anekdootide
+18	7918	teritama	teritada terita teritatud teritan teritab teritama teritasin teritanud teritage teritas teritame teritavad teritad
+19	7919	kõrvakiil	kõrvakiilu kõrvakiil kõrvakiile
+20	7920	kiirendus	kiirendus kiirenduse kiirendust kiirendusega kiirenduseks
+21	7921	mõjukas	mõjukas mõjukad mõjukaid mõjukate mõjuka mõjukat
+22	7922	olümpiamäng	olümpiamängudel olümpiamängud olümpiamängude olümpiamänge olümpiamängudele
+23	7923	kelluke	kelluke kellukest kellukesed kellukese kellukesi kellukesega
+24	7924	suplema	suplema supelda supleb supleme suplen suplevad suplemas supled suples
+25	7925	koguja	koguja kogujad kogujate kogujat kogujatest
+26	7926	niikauaks	niikauaks
+27	7927	nii-öelda	nii-öelda
+28	7928	männik	männik männikus
+29	7929	lõpparv	lõpparve lõpparvet
+30	7930	sõnatu	sõnatu sõnatult
+31	7931	lõõg	lõa lõõg lõõga
+32	7932	piiga	piiga piigad piigat
+33	7933	suumulk	suumulk suumulgu suumulku suumulgud
+34	7934	tele	teles telesse telest
+35	7935	kahvanägu	kahvanägu kahvanäod kahvanäo kahvanäost
+36	7936	vastikus	vastikust vastikus vastikusega
+37	7937	mehhaanik	mehhaanik mehhaanikut mehhaaniku mehhaanikud mehhaanikust mehhaanikute
+38	7938	pats	patsi patsidega patsiga patse
+39	7939	ripats	ripats ripatsi ripatsit ripatsid ripatsitest ripatsiga ripatseid
+40	7940	internaatkool	internaatkooli internaatkoolis internaatkool internaatkoolist
+41	7941	allianss	allianss alliansi allianssi
+42	7942	telkima	telkima telkimas telkida telkisime telgime telgivad
+43	7943	kõigutama	kõigutada kõigutab kõigutama kõigutanud kõigutas kõigutage kõigutan kõigutasid
+44	7944	liivakast	liivakasti liivakastis liivakast liivakastist
+45	7945	haavlipüss	haavlipüss haavlipüssi haavlipüssiga haavlipüssist haavlipüssid
+46	7946	vasar	vasar vasaraga vasara vasarat
+47	7947	puhketuba	puhketoas puhketuba puhketuppa puhketoa puhketoast
+48	7948	esileht	esilehel esilehele esilehe esileht esilehtedel esilehte esilehelt
+49	7949	telefoniputka	telefoniputka telefoniputkas telefoniputkast telefoniputkasse telefoniputkat telefoniputkad
+50	7950	dikteerima	dikteerida dikteeri dikteerib dikteerin dikteeris dikteerivad dikteerima dikteeriks dikteeritud dikteerisid
+51	7951	kaema	kaema kaetakse kaeti kaeda kaeme kaege kaed kaen
+52	7952	palgapäev	palgapäev palgapäeva palgapäeval palgapäevani palgapäevast
+53	7953	toitaine	toitaineid toitained toitainete toitainetega toitainetest
+54	7954	kunstiline	kunstiline kunstilise kunstilist kunstiliselt kunstilisi kunstilised kunstilisest
+55	7955	sonima	sonib sonis soni sonin sonima sonite sonisin
+56	7956	kasarm	kasarmusse kasarmus kasarmu kasarmud kasarmust kasarmutes kasarmutesse kasarmuid
+57	7957	õhkama	õhata õhkab õhka õhkama õhkas õhkame õhanud õhati õhkavad õhkasid õhatakse
+58	7958	tapetu	tapetu tapetuna tapetuid tapetutest tapetult
+59	7959	määrduma	määrdunud
+60	7960	endamisi	endamisi
+61	7961	tuhandene	tuhandest tuhandene
+62	7962	sammuke	sammukese sammuke
+63	7963	ebainimlik	ebainimlik ebainimlikku ebainimlikke ebainimlikult ebainimlikud ebainimliku ebainimlikus
+64	7964	pakpoord	pakpoordi pakpoordis pakpoord pakpoordist
+65	7965	tööintervjuu	tööintervjuu tööintervjuule tööintervjuul tööintervjuud
+66	7966	käigukast	käigukast käigukasti käigukastiga käigukastist
+67	7967	ümar	ümar ümarad ümara ümarat ümaram ümaraks ümaramaks ümarate
+68	7968	pahe	pahe pahed pahesid pahede pahedest pahest pahet
+69	7969	ühend	ühend ühendid ühendeid ühendit ühendi ühendite ühenditega
+70	7970	tõstuk	tõstuki tõstukit tõstuk tõstukiga
+71	7971	lennupilet	lennupileti lennupiletid lennupilet lennupileteid lennupiletit lennupiletite
+72	7972	vaik	vaiku vaigu vaik vaigus vaigust vaike vaiguga
+73	7973	anduma	andunud andud anduda anduma andun andu andus andub
+74	7974	tööstuslik	tööstuslik tööstusliku tööstuslikku tööstuslike tööstuslikus tööstuslikud tööstuslikuks tööstuslikke
+75	7975	masinavärk	masinavärk masinavärki masinavärgis masinavärgi masinavärgist masinavärgid
+76	7976	rivistuma	rivistuda rivistuge rivistuvad rivistu rivistuma rivistume
+77	7977	pealelõuna	pealelõunal pealelõunat pealelõuna pealelõunaks pealelõunast
+78	7978	kuidagimoodi	kuidagimoodi
+79	7979	tiba	tiba
+80	7980	kaa	kaa
+81	7981	täpipea	täpipealt
+82	7982	unts	untsi unts
+83	7983	pikne	pikne pikse pikset pikslid piksega
+84	7984	mahe	mahe mahedat mahedalt maheda
+85	7985	kontrolltöö	kontrolltöö kontrolltööd kontrolltöös kontrolltöid kontrolltööde kontrolltööks
+86	7986	nelson	nelsoni nelsonile nelsonit nelsoniga nelsonil nelsonist
+87	7987	majutus	majutus majutuse majutust majutusega majutusest
+88	7988	heinakuhi	heinakuhjast heinakuhjas heinakuhi heinakuhja
+89	7989	videvik	videviku videvik videvikus videvikku videvikuks videvikuni
+90	7990	ekslema	eksleb ekslema eksles ekslemas ekslev ekselnud ekselda ekslesin ekseldes ekslevad ekslen eksleme
+91	7991	arsenal	arsenali arsenalis arsenaliga arsenalist arsenalile
+92	7992	sugulus	suguluses sugulus sugulust suguluse
+93	7993	tarbetu	tarbetu tarbetult tarbetut tarbetuid tarbetud tarbetuks
+94	7994	protokollima	protokollid protokollides protokollitud protokollida
+95	7995	kõhutunne	kõhutunne kõhutunde kõhutunnet kõhutundest
+96	7996	definitsioon	definitsioon definitsiooni definitsioone definitsioonist
+97	7997	flaier	flaierid flaiereid flaier flaierit flaieri flaieril flaierite
+98	7998	ennäe	ennäe
+99	7999	ohoh	ohoh
+100	8000	järjekindel	järjekindel järjekindlad

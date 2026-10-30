@@ -1,0 +1,100 @@
+1	5101	kambas	kambas kambast
+2	5102	saavutamine	saavutamiseks saavutamine saavutamise saavutamist saavutamisel saavutamisele saavutamiseni
+3	5103	pidulik	pidulik piduliku pidulikult pidulikul pidulikku pidulikud pidulikule pidulike pidulikuks pidulikust pidulikus pidulikke
+4	5104	jõlkuma	jõlkuda jõlgub jõlgud jõlkuma jõlguvad jõlkunud jõlgun jõlkus jõlgu jõlkusin jõlkumas jõlkusid jõlgume jõlgute jõlguks jõlkusime
+5	5105	täiendama	täiendada täiendama täiendavad täiendab täiendame täiendatud täiendan täiendanud täiendasin täiendas täiendati täiendaks täiendamas täienda täiendasime täiendades täiendatakse
+6	5106	tagapool	tagapool tagapoolt
+7	5107	saun	sauna saunas saun saunad saunast
+8	5108	saatuslik	saatuslik saatuslikuks saatusliku saatuslikul saatuslikku saatuslikud saatuslike saatuslikust saatuslikult
+9	5109	tuumarelv	tuumarelva tuumarelvade tuumarelvad tuumarelvi tuumarelv tuumarelvadega tuumarelvaga tuumarelvadest tuumarelvadele
+10	5110	tüütus	tüütus tüütuseks tüütused tüütuse tüütusest
+11	5111	oimetu	oimetuks oimetu oimetuna
+12	5112	funktsioon	funktsioon funktsioonid funktsiooni funktsioone funktsioonide funktsioonidega funktsiooniga
+13	5113	tundetu	tundetu tundetuks tundetud tundetuna tundetult tundetust tundetut tundetus
+14	5114	magnet	magnet magnetid magneti magnetiga magnetit magneteid magnetite magnetiks magnetitest magnetina
+15	5115	kavaler	kavaler kavaleri kavaleriga kavalerid kavalere kavalerile kavalerist kavaleride
+16	5116	pommitaja	pommitajad pommitaja pommitajaid pommitajate pommitajat pommitajatest pommitajatel pommitajaga pommitajatega pommitajatele
+17	5117	duell	duelli duell duellile duellil duellis duelle duellist duellid
+18	5118	tasakesi	tasakesi
+19	5119	moon	moon moona mooni moone moonile moonid
+20	5120	jalanõu	jalanõud jalanõusid jalanõude jalanõu jalanõudega jalanõudele
+21	5121	juurvili	juurvilju juurviljad juurvili juurvilja juurviljade juurviljadega juurviljaks juurviljadest juurviljaga
+22	5122	raamatukoguhoidja	raamatukoguhoidja raamatukoguhoidjad raamatukoguhoidjat raamatukoguhoidjaga raamatukoguhoidjaid raamatukoguhoidjaks raamatukoguhoidjate raamatukoguhoidjast
+23	5123	tiir	tiiru tiir tiirud tiire tiiruga tiirule tiirus tiirul tiiruks
+24	5124	prooviesinemine	prooviesinemine prooviesinemisele prooviesinemise prooviesinemisel prooviesinemist prooviesinemised prooviesinemistel prooviesinemisi prooviesinemiseks prooviesinemisega prooviesinemiste
+25	5125	tuunikala	tuunikala tuunikalaga tuunikalad tuunikalast
+26	5126	aednik	aednik aedniku aednikku aednikud aednike aednikuga aednikule aednikuna aednikest
+27	5127	õpetamine	õpetamine õpetamise õpetamist õpetamiseks õpetamisest õpetamisega õpetamisele õpetamisel õpetamises
+28	5128	tõmblema	tõmble tõmbleb tõmblema tõmbled tõmbles tõmblevad tõmmelda tõmblemas tõmblev tõmmelge tõmblesid tõmblete tõmblen
+29	5129	jultumus	jultumust jultumus jultumuse
+30	5130	teksad	teksad teksasid teksade teksades teksadega teksadest teksadesse
+31	5131	olu	oludes olud olude olu olusid oludega oludest oludel
+32	5132	ministeerium	ministeerium ministeeriumi ministeeriumis ministeeriumist ministeeriumisse ministeeriumile ministeeriumiga ministeeriumilt
+33	5133	sünnipäevapidu	sünnipäevapidu sünnipäevapeole sünnipäevapeo sünnipäevapeol sünnipäevapeod sünnipäevapeost sünnipäevapeoks sünnipäevapidusid
+34	5134	talupoeg	talupojad talupoeg talupoegade talupoegi talupoja talupoega talupoegadele talupoegadega talupojaga talupoegadel
+35	5135	innustama	innustav innustab innustada innustas innusta innustatud innustasid innustavad innustama innustad innustanud innustaks innustan innustasin innustades
+36	5136	isend	isend isendid isendi isendit isendeid isendite isendiga isendist isendile isenditest
+37	5137	algselt	algselt
+38	5138	käsilane	käsilane käsilased käsilasi käsilase käsilast käsilaste käsilastega käsilastest käsilasele
+39	5139	väljavaade	väljavaated väljavaade väljavaateid väljavaate väljavaadet väljavaadete väljavaadeteta väljavaadetega
+40	5140	kolmnurk	kolmnurk kolmnurga kolmnurka kolmnurgad kolmnurgast kolmnurgas kolmnurki kolmnurgaga kolmnurgaks
+41	5141	eeskiri	eeskirjad eeskirju eeskirjade eeskiri eeskirja eeskirjadest eeskirjadele eeskirjas eeskirjadega eeskirjades
+42	5142	nuuskima	nuuskida nuuskima nuusib nuusi nuuskimas nuuskis nuusivad nuuskinud nuusid nuuskisid nuusin nuusiks nuusime nuusite nuuskisin
+43	5143	lõunatama	lõunatama lõunatada lõunatame lõunatamas lõunatasin lõunatan lõunatab lõunatasime lõunatad lõunatanud lõunatate lõunatas lõunatasid lõunatavad
+44	5144	rüüstama	rüüstatud rüüstasid rüüstama rüüstata rüüstas rüüstavad rüüstanud rüüstab rüüstame rüüstati rüüstamas rüüstatakse rüüstad rüüsta rüüstasime rüüstates
+45	5145	hitt	hitt hitid hitti hitte hiti hitiks hittide hitiga
+46	5146	solvav	solvav solvavalt
+47	5147	trofee	trofee trofeed trofeesid trofeede trofeeks trofeedeks trofeena
+48	5148	tuim	tuim tuimaks tuimad tuimalt tuima tuimana
+49	5149	kallutama	kalluta kallutada kallutatud kallutab kallutage kallutad kallutan kallutas kallutama kallutame kallutades kallutasin
+50	5150	partii	partii partiid partiiga partiist partiis
+51	5151	kurikuulus	kurikuulus kurikuulsa kurikuulsad kurikuulsat kurikuulsaks kurikuulsalt kurikuulsast kurikuulsale kurikuulsas
+52	5152	inimelu	inimelu inimelusid inimelud inimelude inimelust inimeludest inimeludega inimelul inimeluga
+53	5153	tss	tss
+54	5154	immuunne	immuunne immuunsed immuunseks
+55	5155	pettur	pettur petturid petturitest petturi pettureid petturite petturist petturiks petturitele petturit petturitega petturina petturiga
+56	5156	müümine	müümine müümise müümist müümiseks
+57	5157	staap	staap staapi staabis staabi staabist staabiga staabile
+58	5158	tõene	tõene tõesed tõeseks tõeselt tõese tõest
+59	5159	haletsema	haletseda haletse haletsema haletsed haletsen haletsesin haletseb haletsege haletseks haletses haletsedes haletsenud haletsesid
+60	5160	tavatsema	tavatses tavatsesin tavatsesid tavatsesime tavatseb tavatsevad tavatsen
+61	5161	ööklubi	ööklubi ööklubis ööklubisse ööklubid ööklubides ööklubist ööklubisid ööklubide ööklubidest
+62	5162	valdkond	valdkonnas valdkond valdkonda valdkonna valdkondades valdkonnast valdkonnad valdkondi valdkonnaga
+63	5163	selgroog	selgroog selgroogu selgrooga selgroos selgrooks selgroole selgrool
+64	5164	paranemine	paranemist paranemise paranemine paranemisele paranemiseni paranemisega
+65	5165	eliit	eliit eliitide eliidi eliidist eliiti eliidile eliidiga
+66	5166	hirmsasti	hirmsasti
+67	5167	olgugi	olgugi
+68	5168	ühesõnaga	ühesõnaga
+69	5169	parajasti	parajasti
+70	5170	kaitseministeerium	kaitseministeeriumi kaitseministeerium
+71	5171	traditsiooniline	traditsiooniline traditsioonilist traditsioonilise traditsioonilisi traditsioonilised traditsioonilisel traditsiooniliste traditsioonilisest traditsioonilises traditsioonilisele
+72	5172	plaksutama	plaksutage plaksutame plaksutavad plaksutada plaksutama plaksutan plaksutasid plaksutate plaksutab plaksutas plaksutad plaksutamas plaksutati
+73	5173	ühtäkki	ühtäkki
+74	5174	enamjaolt	enamjaolt
+75	5175	loojuma	loojub loojunud loojus loojumas loojuma looju loojuvad loojudes
+76	5176	motiveerima	motiveeritud motiveerib motiveerida motiveeris motiveerima motiveeriv motiveeri motiveeriks motiveerimata
+77	5177	visuaalne	visuaalne visuaalse visuaalselt visuaalset visuaalseid visuaalsed visuaalsete visuaalses
+78	5178	hämar	hämar hämaras hämarad hämara hämarat hämaraks hämaraid hämaram hämarate hämaratel hämaral hämarates hämaralt hämarale
+79	5179	koksama	koksata koksas koksa koksan koksame koksati koksab koksama koksasid koksanud koksatakse koksasin koksavad koksad koksaks koksatud koksasime koksake
+80	5180	ennekuulmatu	ennekuulmatu ennekuulmatud ennekuulmatuid ennekuulmatult ennekuulmatut
+81	5181	närukael	närukael närukaelad närukaela närukaeltega närukaelast närukaelale
+82	5182	teenindus	teenindus teenindust teeninduse teenindusse teenindusest teenindusega teeninduses
+83	5183	krediit	krediiti krediit krediidi krediidiga krediite
+84	5184	virsik	virsik virsiku virsikud virsikuid virsikut virsikute virsikuga
+85	5185	ülevaatus	ülevaatus ülevaatuse ülevaatust ülevaatuseks ülevaatusele ülevaatusel ülevaatused ülevaatusega
+86	5186	meelsasti	meelsasti
+87	5187	meeleheitlik	meeleheitlik meeleheitlikud meeleheitlikke meeleheitlikuks meeleheitliku meeleheitlikku meeleheitlikus meeleheitlikuna meeleheitlike
+88	5188	merejalavägi	merejalaväe merejalavägi merejalaväes merejalaväest merejalaväkke merejalaväge merejalaväega merejalaväele
+89	5189	viimine	viimiseks viimine viimist viimise viimisega
+90	5190	tuginema	tuginedes tugineb tugineda tuginen tuginevad tuginema tugined tugines tugineme
+91	5191	hernes	herne herned herneid hernes hernest hernestega herneste herneks
+92	5192	ropp	ropp roppu ropu roppe ropud roppude ropuks
+93	5193	seotus	seotust seotus seotuse seotusest seotuses seotusega seotusele
+94	5194	parasjagu	parasjagu
+95	5195	föderaalne	föderaalne föderaalse föderaalset föderaalsed föderaalses föderaalsesse föderaalsest föderaalseid föderaalsete föderaalseks
+96	5196	vai	vai vaia vaiad vaiaga vaiu vaiade vaiast
+97	5197	vintpüss	vintpüss vintpüssi vintpüssiga vintpüssist vintpüsse vintpüssid vintpüsside vintpüssidega
+98	5198	lapsendama	lapsendatud lapsendada lapsendati lapsendas lapsendasid lapsendanud lapsendasin lapsendasite lapsendab lapsendama lapsendame lapsendan lapsendatakse lapsendaks
+99	5199	pahupidi	pahupidi
+100	5200	sujuv	sujuvalt sujuv sujuva

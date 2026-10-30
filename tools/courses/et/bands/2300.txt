@@ -1,0 +1,100 @@
+1	2201	neitsi	neitsi neitsid neitsit neitsist neitsiks neitsina neitsisid neitsite neitsiga neitseid neitsile neitsil neitside neitsitest
+2	2202	sümbol	sümbol sümbolid sümbolit sümboleid sümboli sümboliks sümbolite sümbolitega sümbolitest sümbolina sümboliga sümbolist sümbolile
+3	2203	kann	kannul kanni kann kannu kannule kannud kannid kannus kannult kanne kannused kannuseid kannust kannis kannel kannude
+4	2204	torkama	torkas torka torkan torkab torkasid torkad torkasin torkama torgati torkavad torkame torkaks torgatakse torgake torgates torkaksin torkate torkasite torkaksid
+5	2205	väljendama	väljendada väljendab väljendasin väljendanud väljendas väljendan väljendama väljenda väljendavad väljendasid väljendad väljendaks väljendades väljendatud väljendame väljendamaks väljendate väljendatakse väljendamatu väljendage väljendaksid väljendamas
+6	2206	kindlustus	kindlustus kindlustuse kindlustust kindlustusega kindlustusest kindlustuseks kindlustuses kindlustusse kindlustuseta kindlustusi kindlustused kindlustusele kindlustuselt kindlustuste
+7	2207	pigistama	pigista pigistada pigistan pigistab pigistama pigistad pigistas pigistavad pigistasin pigistame pigistatud pigistasid pigistanud pigistage pigistaks pigistades pigistati pigistatakse pigistate pigistaksid pigistaksin pigistasime
+8	2208	rõve	rõve rõvedad rõvedalt rõvedat rõveda rõvedaid rõvedaks rõvedate
+9	2209	tera	tera teri terra teras terast terad teraga teral terasid teradega terade teraks terile teradest
+10	2210	assistent	assistent assistendi assistenti assistendiga assistendiks assistendile assistendina assistendid assistendil assistendist assistentidest assistente assistentide assistendilt
+11	2211	treening	treening treeningu treeningut treeningul treeningud treeninguid treeninguga treeningust treeningule treeninguks treeningutel treeningute treeningutega treeningus treeninguta treeningutest treeningult treeninguteks treeningutele treeningutelt
+12	2212	publik	publik publiku publikut publikule publikuga publikust publikus publikul publikuks publikusse publikult publikuni
+13	2213	häbenema	häbene häbeneda häbenema häbened häbenege häbenen häbeneb häbenes häbenenud häbenesin häbenevad häbenemata häbenesid häbeneks häbenete häbeneme
+14	2214	merevägi	mereväe merevägi mereväes mereväest mereväega mereväge mereväkke mereväele mereväel mereväelt
+15	2215	kurk	kurku kurk kurgus kurgu kurgust kurgid kurke kurguni kurki kurgi kurguga kurkide kurkidest kurgiga kurkidega kurgule kurkideta
+16	2216	hiiglaslik	hiiglaslik hiiglasliku hiiglaslikud hiiglaslikku hiiglaslikke hiiglaslike hiiglaslikust hiiglaslikuks hiiglaslikus hiiglaslikule hiiglaslikul hiiglaslikest
+17	2217	vihastama	vihastab vihasta vihastas vihastada vihastasid vihastad vihastanud vihastasin vihastama vihastan vihastaks vihastavad vihastage vihastasime vihastate vihastaksid vihastades vihastasite vihastame
+18	2218	elajas	elajas elajad elaja elajat elajast elajate elajaga elajaks elajaid elajatega elajale elajateks elajatele elajatest
+19	2219	varjupaik	varjupaika varjupaik varjupaiga varjupaigas varjupaigast varjupaigaks varjupaigad varjupaikadest varjupaigale varjupaikades varjupaikade varjupaigana varjupaiku varjupaikadesse varjupaigaga varjupaikadega
+20	2220	tööline	töölised tööline tööliste töölisi töölist töölistele töölise töölistest töölistega töölistel töölisele tööliseks töölisega töölisest töölisel
+21	2221	läbirääkimine	läbirääkimisi läbirääkimised läbirääkimiste läbirääkimine läbirääkimisteks läbirääkimistel läbirääkimistele läbirääkimistega läbirääkimistest läbirääkimise läbirääkimiseks läbirääkimisele läbirääkimist läbirääkimistes läbirääkimisel läbirääkimistesse
+22	2222	objekt	objekt objekti objektid objekte objektide objektile objektist objektiks objektil objektiga objektidest objektidega objektini objektilt objektidele objektina objektideks
+23	2223	põgenemine	põgenemine põgenemise põgenemist põgenemisest põgenemisega
+24	2224	kontsert	kontsert kontserdile kontserdi kontserdil kontserti kontserdid kontserte kontserdist kontsertidel kontserdilt kontserdiks kontserdiga kontsertide kontsertidele
+25	2225	väli	väljast väli väljus väljal välju väljad väljale väljade väljadel väljalt väljadele väljuks väljaga väljaks väljasse väljadelt
+26	2226	peremees	peremees peremehe peremeest peremehed peremehele peremeheks peremehega peremehi peremehel peremeeste peremehelt peremeheta peremehena peremehest peremeestele peremehesse
+27	2227	juhatus	juhatuse juhatus juhatuses juhatusele juhatust juhatusega juhatusel juhatusse juhatusest juhatuselt
+28	2228	raud	raudu raud rauda rauast rauaga rauad raua rauas raudadest raudadesse raudades
+29	2229	teater	teater teatris teatri teatrisse teatrit teatrist teatriga teatrid teatrile teatrites teatrite teatriks teatreid
+30	2230	rahuldama	rahuldada rahuldatud rahuldab rahulda rahuldama rahuldamata rahuldaks rahuldanud rahuldavad rahuldan rahuldas rahuldad rahuldavat rahuldatakse rahuldasid rahuldasin rahuldame rahuldati rahuldata rahuldage rahuldamas rahuldades rahuldate
+31	2231	kavatsus	kavatsused kavatsusi kavatsus kavatsust kavatsustega kavatsustest kavatsuste kavatsusega kavatsusest kavatsustes kavatsuse kavatsustele kavatsusele kavatsustesse kavatsuseks
+32	2232	solvuma	solvu solvunud solvuge solvuda solvus solvusid solvub solvuvad solvuks solvunudki solvusin solvun solvuksid solvuv solvud solvusite solvuma
+33	2233	juhe	juhtmed juhe juhtme juhet juhtmeid juhtmeta juhtmetest juhtmetega juhtmete juhtmega juhtmest juhtmetes juhtmeteta
+34	2234	lõputu	lõputu lõputult lõputud lõputut lõputus lõputute lõputuid lõputust lõputuna lõputusse lõputul lõputule lõputuks lõpututest lõpututele
+35	2235	lange	langes lange langeta langed langeks langete
+36	2236	puruks	puruks
+37	2237	prantslane	prantslased prantslane prantslaste prantslasi prantslase prantslastele prantslastega prantslastel prantslast prantslasest prantslasega prantslastest prantslasele prantslastelt prantslaseks
+38	2238	motell	motelli motellis motell motellist motellides motellid motelle motellini motellide motelliga motellidest
+39	2239	riietuma	riietuda riietuma riietu riietub riietunud riietun riietud riietuvad riietuge riietusin riietusid riietute riietume riietuks riietumas riietuksid riietudes riietuv riietusime riietusite
+40	2240	pruun	pruun pruunid pruuni pruunide pruuniks pruune pruunis pruunist pruunile pruunidele
+41	2241	põlvili	põlvili
+42	2242	eelis	eelis eelise eelised eeliseid eelist eeliseks eelistest eelisena eelistega eeliste eelisest eelisega
+43	2243	moment	moment momendil momenti momendi momendist momente momendiks momendid momendini momentidest momendile momendis
+44	2244	rändama	rännata rännanud rändab rändavad rändama rändas rändasid rändasin rännaku rändame rändan rännates rändad rändav rända rändasime rändamas rändate rändasite rännake rännatud rändaks
+45	2245	värisema	väriseb värisema värisevad värised värisen värises värise värisesid värisedes värisemas värisesin väriseks värisete värisege värisenud väriseda värisevat
+46	2246	kakskümmend	kakskümmend kahekümne kahekümnest kahtkümmet kahekümnega kahekümneni kahekümneks kahtekümmet kahekümnele kahtekümmend
+47	2247	blond	blond blondi blondid blondide blondiks blondist blondiga blondile blondina blondil blondidest blondis blondel
+48	2248	osutama	osutada osutab osuta osutas osutavad osutan osutad osutanud osutama osutatud osutasid osutate osutage osutasin osutades osutaks osutaksite osutame osutaksid osutasite osutatakse osutamas osutati
+49	2249	kesköö	keskööl kesköö keskööks keskööd keskööni keskööst kesköist
+50	2250	roomama	roomas roomab roomata roomama roomasid roomad rooman roomamas roomake roomanud roomasin roomame roomaks roomasime roomaksin roomaksid roomav roomavaid
+51	2251	ilusti	ilusti
+52	2252	väljapääsu	väljapääsu
+53	2253	sularaha	sularaha sularahas sularahaga sularahaks sularahast sularahale
+54	2254	varvas	varvast varbad varbaid varvas varba varvaste varvastel varvastele varvastega varbaga varvasteni varbale varvastest varbast varvastes varbal
+55	2255	vapustav	vapustav vapustavalt vapustava vapustavaid vapustavate vapustavaks
+56	2256	suhtuma	suhtub suhtud suhtuda suhtu suhtun suhtuvad suhtus suhtuma suhtute suhtunud suhtume suhtusid suhtutakse suhtusin suhtuks suhtuge suhtuti suhtuksid suhtuksite suhtuksin suhtusite
+57	2257	hirmuma	hirmunud hirmunuks hirmutav hirmu hirmutaks hirmutavat hirmud hirmuks hirmusid
+58	2258	rahustama	rahustab rahustada rahusta rahustama rahustan rahustas rahustavat rahustaks rahustage rahustavad rahustasin rahustasid rahustanud rahustad rahustame rahustatud rahustaksid rahustamas rahustatakse
+59	2259	komm	kommi kommid komm kommide kommidest kommidega kommist kommiga kommidele
+60	2260	eeter	eetris eetrisse eeter eetri eetrit eetrist eetrini eetriga eetriks
+61	2261	õnnitlus	õnnitlused õnnitlusi õnnitlustega
+62	2262	tähendus	tähendust tähendus tähenduse tähenduses tähendusest tähendusega tähenduseta tähendusi tähendused tähenduseks
+63	2263	armukade	armukade armukadedaks armukadedad armukadedat armukadeda armukadedalt
+64	2264	lõpetamine	lõpetamist lõpetamiseks lõpetamine lõpetamise lõpetamisel lõpetamisest lõpetamisele lõpetamiseni lõpetamisega lõpetamises
+65	2265	sekkuma	sekkuda sekkuma sekkunud sekkus sekkub sekkusid sekkuks sekkud sekkuge sekkume sekkun sekkuvad sekkusin sekkute sekkumast sekkumata sekkusite sekkusime
+66	2266	lobisema	lobiseda lobisema lobise lobiseb lobised lobisen lobiseme lobises lobisenud lobisesin lobisesid lobisesime lobisevad lobiseks lobisete lobisege lobisemas lobiseksin lobisedes lobisetakse
+67	2267	sekretär	sekretär sekretäri sekretäriga sekretärile sekretärina sekretäriks sekretärid sekretäril sekretäride sekretärilt sekretäre sekretärist sekretäridest sekretäridele
+68	2268	sõnama	sõnagi sõnab
+69	2269	kaklus	kaklus kaklust kakluse kaklusest kaklusesse kakluses kaklused kaklusi kaklusse kaklustesse kakluseks kaklustest kaklusega kaklusele kakluste kakluseta
+70	2270	kinnitus	kinnitust kinnitus kinnituse kinnituseks kinnitused kinnitusel kinnitusi kinnitusega kinnituseta kinnitusest
+71	2271	meeleldi	meeleldi
+72	2272	palavik	palavik palavikku palaviku palavikus palavikuga palavikust palavikule
+73	2273	jajah	jajah
+74	2274	mahtuma	mahub mahu mahuks mahtunud mahtuda mahuvad mahume mahtus mahtuma mahun mahud mahuksid mahutaks mahute mahtusid mahuksin
+75	2275	pildistama	pildistada pildista pildistas pildistama pildistan pildistab pildistatud pildistanud pildistasin pildistad pildistasid pildistage pildistatakse pildistame pildistati pildistavad pildistate pildistamas pildistaks pildistaksid pildistasite pildistasime pildistades pildistataks
+76	2276	kaitsja	kaitsja kaitsjad kaitsjat kaitsjaks kaitsjale kaitsjaid kaitsjana kaitsjate kaitsjaga kaitsjast kaitsjal kaitsjatest kaitsjateks kaitsjatega kaitsjatele
+77	2277	hiilgav	hiilgav hiilgava hiilgavalt hiilgavaid hiilgavaks hiilgavale hiilgavatest hiilgavast hiilgavate hiilgavas
+78	2278	muuseum	muuseumi muuseumis muuseum muuseumisse muuseumist muuseumile muuseumid muuseumides muuseumit muuseume muuseumites muuseumidesse muuseumeid muuseumiga
+79	2279	kaos	kaos kaose kaost kaoses kaosesse kaosest kaosega kaoseks kaosele kaosel kaoseni
+80	2280	rumalus	rumalus rumalusi rumaluse rumalust rumalused rumalusest rumalusega rumaluste rumalusteta rumaluses rumalustest rumalustega rumalusele
+81	2281	emane	emane emased emase emaste emasele emaseid emasega emasel emastele emasest emastega emastest emastel emaseks
+82	2282	silt	silt silti sildi sildid silte sildil sildiga sildile siltide sildist siltidega sildilt siltidest
+83	2283	liitlane	liitlased liitlane liitlaste liitlasi liitlase liitlast liitlastega liitlaseks liitlastele liitlasteks liitlastest liitlastena liitlastel liitlasena liitlastelt liitlaseid liitlasega liitlasteta
+84	2284	papp	pappi papi papp papist papiga papile papil
+85	2285	pööre	pööre pöörde pöördesse pööret pöördeid pöördes pöörded pöördega pöördel pöördeks pöördest pöörete pöördelt pöördeni pööretel
+86	2286	sektor	sektor sektoris sektori sektorisse sektorist sektorit sektorid sektoreid sektorile sektorites sektoriteks sektorite sektoriga sektoriks sektoril sektoritesse
+87	2287	moodustama	moodustavad moodustab moodustada moodustame moodustage moodustasid moodustades moodustas moodusta moodustanud moodustama moodustatud moodustati moodustate moodustasime moodustan moodustaks moodustatakse moodustasin moodustad moodustamaks moodustaksid
+88	2288	kirg	kirg kirge kire kirest kirega kired kirgi kirele kireks kirgede kires kirgedest
+89	2289	arusaamatu	arusaamatus arusaamatu arusaamatuks arusaamatusi arusaamatuse arusaamatusega arusaamatut arusaamatust arusaamatused arusaamatud arusaamatul arusaamatuid arusaamatusest arusaamatuste arusaamatuseks arusaamatuses arusaamatult
+90	2290	tõukama	tõugata tõukas tõuka tõukab tõukasin tõukasid tõukama tõukad tõugatud tõukan tõugati tõugake tõukavad tõugatakse tõukaks tõugates tõukame tõukasite
+91	2291	kloun	kloun klouni klounid kloune klounide klounidega klouniga klouniks klounile klounil klounidest klounist klounidele
+92	2292	veritsema	veritseb veritsed veritsema veritsen veritses veritsevad veritse veritseda veritsenud veritsesid veritseks veritsemas veritsesin veritsete veritsedes veritseme veritsevat
+93	2293	kirst	kirstu kirst kirstus kirstud kirstust kirste kirstuga kirstule kirstudes kirstude kirstudest kirstul kirstudesse kirstuks
+94	2294	lollitama	lollitada lollitad lollitan lollitab lollitas lollitasid lollitasin lollitanud lollitame lollitavad lollitasime lollitama lollitate lollitage lollitatakse lollitatud lollitaks lollitasite lollitati
+95	2295	kaksik	kaksikud kaksik kaksikute kaksikuid kaksikutega kaksikutest kaksikutel kaksikut kaksiku kaksikutele kaksikuteks kaksikuga
+96	2296	vigastus	vigastusi vigastused vigastus vigastuste vigastuse vigastust vigastustest vigastusteta vigastustega vigastusest vigastusega vigastustesse vigastustele
+97	2297	vanasti	vanasti
+98	2298	ese	ese esemed esemeid eseme eset esemega esemete esemetest esemele esemest esemetega esemetele esemeks esemetel esemetes
+99	2299	organisatsioon	organisatsiooni organisatsioon organisatsioonis organisatsiooniga organisatsioonist organisatsioonile organisatsioonid organisatsioonide organisatsioonil organisatsioonidega organisatsioone organisatsioonidesse organisatsioonidest organisatsioonidele organisatsiooniks organisatsioonilt
+100	2300	lakkuma	laku lakkuda lakub lakkuma lakun lakkus lakud lakkunud lakkusin lakuks lakkusid lakuvad lakkuge lakutud lakkudes lakkugu lakume lakuksin lakkuv lakkumas lakutakse

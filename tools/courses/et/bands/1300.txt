@@ -1,0 +1,100 @@
+1	1201	kaevama	kaevata kaevama kaeva kaevame kaevas kaevanud kaevab kaevasid kaevavad kaevan kaevasin kaevad kaevake kaevatud kaevati kaevasime kaevatakse kaevates kaevate kaevaks kaevasite kaevamas kaevaksid kaevataks kaevaku kaevaksin kaevaksime
+2	1202	üksus	üksus üksused üksuse üksust üksuses üksustele üksusest üksusega üksusesse üksuste üksusi üksusele üksustel üksusel üksuseid üksustega üksustest üksusena üksustesse
+3	1203	korjama	korja korjata korjan korjasin korjama korjab korjas korjame korjake korjasid korjavad korjad korjanud korjasime korjatakse korjatud korjates korjamas korjaks korjati korjate korjasite korjaksid korjaksin korjaksime
+4	1204	juhatama	juhatab juhatada juhatan juhatas juhatama juhatasid juhatage juhatavad juhatad juhataks juhatanud juhatasin juhatame juhataksid juhatate juhatati juhataksite juhatatakse juhatades juhataksin juhatagu juhatatud juhatasime juhatasite juhatamas
+5	1205	madal	madal madalal madalat madala madalale madalamale madalam madalalt madalad madalas madalaks madalaid madalast madalate madalasse madalatest madalatel madalatele
+6	1206	deemon	deemon deemonid deemoni deemonite deemoneid deemonit deemonitega deemoniga deemonitest deemoniks deemonist deemonile deemonitele deemonil deemonitel deemonitesse deemoniteks deemoneist deemonina
+7	1207	matt	matt matti mati matile matte matil matisse mates matid matilt
+8	1208	vahest	vahest
+9	1209	naaber	naaber naabrid naabri naabrite naabreid naabritega naabritele naabrit naabritest naabriga naabrile naabritelt naabritel naabril naabriks naabrilt naabrist naabriteks
+10	1210	sisenema	siseneda siseneb sisenes siseneme sisenemas sisenevad sisenesid sisenen sisenenud sisened sisenema sisenedes sisenete sisenege sisenesime sisenesin sisenesite siseneks sisenemast siseneksid sisenetakse siseneksin siseneti
+11	1211	vastane	vastasel vastane vastast vastase vastased vastaste vastaseid vastaseks vastasega vastaselt vastasele vastasest vastases vastastest vastastega vastastele vastasteks vastasesse vastastel vastasena vastastes
+12	1212	kestma	kestab kestnud kesta kestis kestma kestavad kestaks kestev kestsid kestvat kestad kestva kestku kestvast kestvad kestvaid kestaksid kestes kestvale
+13	1213	avalik	avalikult avalik avaliku avalikuks avalikus avalikku avalike avalikud avalikes avalikke avalikust avalikul avalikule avalikest avalikel avalikesse avalikele avalikum
+14	1214	klaas	klaasi klaas klaasid klaasist klaase klaasis klaasiga klaasile klaasidega klaasil klaaside klaasilt klaasiks klaasidest klaasidesse
+15	1215	haigus	haigus haiguse haigust haiguste haigused haigusi haigusest haigusega haigustest haigusesse haiguses haigusele haiguseid haigustega haigustele haigustesse haigusel haiguseks haigusse haigusena
+16	1216	äsja	äsja
+17	1217	kähku	kähku
+18	1218	katse	katse katseid katsed katset katsete katsetele katsel katsetest katses katsetel katsega katseta katseks katsest katsele katsetega katsetes katseteks katseni katsena katsesse
+19	1219	aed	aia aias aeda aed aiast aiad aiaga aedades aedade aedu aiale aiani aiaks aedadest aedadesse aedadega aiata aial aedasid
+20	1220	toru	toru torud torusid torude torust torusse toruga torus torudest torudega torudes torru torudesse torul torudele
+21	1221	pistma	pista pistis pistan pistab pistma pistsid pistavad pistad pistke pistnud pistsin pistame pistaks pistetakse pistetud pisteti pistise pistaksin pistsime pistaksid pistate pistku pistsite pistes pistised pistiseks pistetaks pistmas pististest pististe
+22	1222	ingel	ingel inglid inglite ingli inglit ingleid inglitega inglitest inglitele inglist inglile ingliga inglis inglil ingliks inglitel inglitesse ingliteks inglites inglina inglitelt
+23	1223	salajane	salajane salajase salajast salajased salajasi salajasest salajases salajasse salajaste salajasele salajasel salajaselt salajaseks salajastest salajastes salajastesse salajastele salajastel salajasena
+24	1224	kari	kari karja karju karjus karjast karjas karjaga karri karile karjale karina karjad karjuks karrit karidele karjade karjana karini karjal karjades karjadena karidel karid karil karjata karjust karis karisid
+25	1225	ületama	ületada ületab ületanud ületas ületasid ületama ületa ületame ületavad ületad ületasin ületatud ületades ületasime ületate ületan ületamas ületasite ületaks ületage ületatakse ületamata ületati ületamast ületaksid ületaksime
+26	1226	ükskord	ükskord
+27	1227	vägi	väed vägi väge vägesid vägede väe väest väega väel vägedega vägedele väes vägedest väele vägedel väkke vägedes väeta
+28	1228	grupp	grupp grupi gruppi grupis grupiga grupist grupid grupile gruppide gruppidesse gruppe gruppides grupina gruppideks grupil gruppidega gruppidest gruppidena gruppidele grupiks grupilt
+29	1229	rebima	rebin rebida rebis rebib rebitud rebi rebisid rebivad rebisin rebima rebitakse rebinud rebiti rebime rebid rebiks rebige rebiksin rebides rebimas rebiksid rebitaks rebite rebisime rebisite
+30	1230	trikk	trikk trikke trikki trikid triki trikiga trikkidest trikkide trikkidega trikist trikiks trikkideta trikkidele trikkideks trikile
+31	1231	hunt	hunt hundid hundi hunti huntide hundist hunte huntidega hundiks huntidele huntidest hundiga hundile hundil huntidel hundina huntideks
+32	1232	tõenäoliselt	tõenäoliselt tõenäolisemalt
+33	1233	dokument	dokumendid dokumente dokumenti dokument dokumendi dokumentide dokumentidega dokumentidest dokumentidele dokumentides dokumendile dokumentideta dokumendis dokumentidel dokumendist dokumendiga dokumendil dokumendita dokumentidesse
+34	1234	olend	olend olendid olendeid olendi olendit olendite olenditest olenditega olendiga olendist olendile olenditele olenditel olendil olendiks olenditeks olendilt olendina olenditelt olenditena olenditesse olendeist olendisse
+35	1235	pistmine	pistmist pistmine
+36	1236	aastane	aastane aastaselt aastase aastaseks aastased aastasena aastasest aastasele aastasel aastaseid aastastele aastaste aastaseni aastasega aastases aastastel aastastega
+37	1237	purjus	purjus
+38	1238	pudel	pudel pudeli pudelit pudelid pudeliga pudelis pudelist pudelisse pudeleid pudelil pudelile pudelites pudelite pudelitega pudelitesse pudelitest
+39	1239	vastik	vastik vastikud vastikut vastiku vastikult vastikuid vastikuks vastikute vastikutest vastikule vastikul vastikuna vastikutes
+40	1240	leedi	leedi leedid leedit leedile leediga leedil leedist leediks leedidest leedide leedina leedisid leedis leedilt leedidele
+41	1241	sõrmus	sõrmus sõrmuse sõrmust sõrmused sõrmusega sõrmuste sõrmuseid sõrmusest sõrmusel sõrmuseta sõrmuses sõrmustega sõrmustest sõrmusesse sõrmusele
+42	1242	vaat	vaat vaati vaadi vaadid vaadis vaatide vaadist vaatides vaadiga vaatidesse
+43	1243	tasu	tasu tasuks tasus tasud tasust tasusid tasuga tasuna tasule tasude
+44	1244	hammustama	hammustas hammusta hammustada hammustab hammustavad hammustanud hammustasid hammustati hammustan hammustatud hammustama hammustasin hammustad hammustaks hammustatakse hammustage hammustades hammustaksid hammustame hammustamas hammustata
+45	1245	riskima	riskida riskima riskin riskime riskib riskisin riskivad riskinud riskite riskiksin riskiksid riskisime riskimata riskige riskita riskisite riskiksime riskiksite riskimas
+46	1246	hõivama	hõivatud hõivata hõivanud hõivas hõivasid hõivab hõivame hõivavad hõivama hõiva hõivati hõivasin hõivake hõivasime hõivatakse hõivan
+47	1247	prints	prints printsi printsiga printsid printsile printsiks printsist printsil printsesse printse printside printsina printsilt
+48	1248	tähele	tähele tähelegi
+49	1249	kaaluma	kaalub kaalu kaaluda kaalun kaaluma kaalunud kaalus kaalusin kaalud kaalume kaaluvad kaaluksid kaaluge kaalute kaaluks kaaluksin kaalusime kaalusid kaalutud kaaluv kaalutakse kaaludes kaaluksite kaalutu kaalusite kaalumata kaaluksime kaaluti kaaluvat
+50	1250	kiirus	kiirus kiirust kiirusega kiiruse kiirusel kiirusele kiirusest kiiruseks kiiruses kiirused kiirustel kiiruseni kiiruselt
+51	1251	tõepoolest	tõepoolest
+52	1252	meelitama	meelitada meelitatud meelitab meelita meelitas meelitama meelitan meelitame meelitav meelitad meelitavad meelitanud meelitasid meelitasin meelitate meelitaks meelitage meelitati meelitasite meelitades meelitatakse meelitasime meelitaksid meelitaksin
+53	1253	katsuma	katsu katsuda katsun katsuge katsume katsus katsuma katsusin katsud katsunud katsub katsusid katsudes katsuks katsuvad katsute katsugu katsutud katsutakse katsuksid katsumas katsutav katsusite katsusime katsuksin katsumata
+54	1254	naeruväärne	naeruväärne naeruväärselt naeruväärsed naeruväärseks naeruväärset naeruväärse naeruväärsena naeruväärseid naeruväärsete naeruväärsest naeruväärsele naeruväärsetest naeruväärsetes naeruväärses
+55	1255	vanamees	vanamees vanamehe vanameest vanamehega vanamehele vanamehel vanamehest vanamehed vanamehelt vanamehi vanameeste vanameheks vanameestest vanamehena vanamehes vanameestele vanameheta
+56	1256	nõbu	nõbu nõo nõod nõoga nõole nõbusid nõol nõbude nõost nõbudega nõolt nõbudest nõbudele
+57	1257	tähistama	tähistada tähistame tähistama tähistab tähistavad tähista tähistan tähistamaks tähistasime tähistatakse tähistad tähistanud tähistas tähistatud tähistasid tähistate tähistamas tähistaks tähistasin tähistamata tähistagem tähistage tähistades tähistaksime tähistati tähistasite tähistav
+58	1258	toime	toime toimeta toimega toimel toimet toimest
+59	1259	vapper	vapper vaprad vapralt vaprat vapram vapra vapraim vaprate vapraid vapratele vapraks vaprale vapramaid vaprast vapratest vaprana vapratel
+60	1260	naeratama	naerata naeratab naeratage naeratas naeratad naeratada naeratama naeratan naeratavad naeratades naeratasid naeratamas naeratanud naeratasin naeratav naerataks naeratame naeratate naerataksid naeratavat naeratavaid naeratava naerataksin naeratasite
+61	1261	väljaspool	väljaspool
+62	1262	samasugune	samasugune samasugused samasugust samasuguse samasuguseks samasuguseid samasuguses samasuguste samasugusena samasugusest samasugusel samasugusega samasugusteks samasugusesse
+63	1263	vorm	vormis vormi vorm vormid vorme vormist vormel vormides vormiga vormita vormidest vormide vormile vormilt vormil vormisid vormiks vormideks vormidega vormidesse vormidele
+64	1264	labor	laboris laborisse labor labori laborist laborit laborid laboreid laborites laboriga laborile laboril laborite laboritest laboritesse laboritega laborini
+65	1265	sõit	sõit sõidu sõitu sõiduks sõidule sõidus sõiduta sõidust sõidul sõiduga sõidud sõite sõitude sõiduni sõitudest sõitudel
+66	1266	iste	istet istme iste istmed istmele istmel istmete istmeid istmelt istmetega istmega istmetel istmest istmetele istmetest
+67	1267	teisiti	teisiti
+68	1268	pimedus	pimeduse pimedus pimeduses pimedust pimedusse pimedusest pimedusega pimedusele pimedusel pimeduseks pimeduseni
+69	1269	ravi	ravi ravile ravis raviks raviga ravil ravist ravisid ravid ravita ravides ravilt ravini ravisse
+70	1270	samm	samm samme sammud sammul sammuks sammuga sammust sammude sammudega sammult sammus sammudes sammuna sammule sammudest sammusid
+71	1271	eemaldama	eemaldada eemaldatud eemaldama eemalda eemaldati eemaldan eemaldage eemaldas eemaldab eemaldatakse eemaldame eemaldasin eemaldasid eemaldanud eemaldad eemaldasime eemaldavad eemaldades eemaldaks eemaldataks eemaldaksid eemaldate eemaldasite eemaldatav eemaldaksite eemaldata eemaldamaks eemaldaksime eemaldamas eemaldaksin
+72	1272	programm	programmi programm programmist programmiga programmid programmile programmide programmil programmiks programmidele programmidest programmidega programmidesse
+73	1273	lausa	lausa
+74	1274	projekt	projekti projekt projektiga projektist projektis projektid projektile projekte projektide projektidega projektiks projektidest projektil projektidele projektides
+75	1275	süüdistus	süüdistuse süüdistus süüdistused süüdistust süüdistusi süüdistustest süüdistuste süüdistusest süüdistusega süüdistustega süüdistustele süüdistusele süüdistuses süüdistustes süüdistuseks süüdistusel süüdistuseta süüdistustel süüdistusteks
+76	1276	vaevalt	vaevalt
+77	1277	lahendus	lahendus lahenduse lahendust lahendusi lahenduseks lahendused lahendusele lahenduseni lahendusest lahendusega lahenduseta lahendusena lahenduste lahenduses lahendustest
+78	1278	nädalavahetus	nädalavahetusel nädalavahetus nädalavahetuse nädalavahetuseks nädalavahetust nädalavahetustel nädalavahetused nädalavahetusest nädalavahetusega nädalavahetusi nädalavahetuseni nädalavahetusele nädalavahetusteks
+79	1279	tool	tooli tool toolile toolil toolid toolis toole toolilt tooliga toolist toolide toolidega toolidel toolidele toolidest toolidelt toolides toolita
+80	1280	ookean	ookeani ookean ookeanis ookeanil ookeanist ookeanid ookeanide ookeanile ookeane ookeanisse ookeanini ookeanides ookeaniga ookeanidest ookeanilt ookeanidel ookeanidesse ookeaniks ookeanidega
+81	1281	video	video videot videod videos videoid videol videost videole videoga videosse videolt videote videotes videotega videotest
+82	1282	pind	pinnale pinnal pinda pind pinna pinnas pinnast pinnase pinnuks pinnalt pinnasest pinnases pinnasel pinnaga pinnasele pinnasesse pinnu pinnad pinnasega pinnud pindu pinnani pinde pindade pinnaselt
+83	1283	sadama	sajab sadama sadamas sadas saja sadanud sadamast sajad sadada sadasin sajavad sajan sajaks sadagu sadasid sadades sajame
+84	1284	austus	austust austuse austusega austus austusest austuseks austuses austuseta austusel austusele
+85	1285	nüüdne	nüüdsest nüüdseks nüüdsel nüüdne nüüdse nüüdset
+86	1286	omanik	omanik omaniku omanikud omanikku omanikule omanikuga omanikuks omanike omanikke omanikele omanikul omanikuta omanikult omanikuna omanikest omanikega omanikust omanikel omanikeks omanikelt
+87	1287	minek	minek minekut minekuks mineku minekust minekuga minekul minekule minekuni minekuid minekus
+88	1288	hüva	hüva hüvast
+89	1289	kaaslane	kaaslane kaaslased kaaslast kaaslase kaaslasi kaaslasega kaaslaseks kaaslaste kaaslastega kaaslasele kaaslastele kaaslasest kaaslasena kaaslaseta kaaslastest kaaslasteks kaaslasel kaaslastel kaaslaseid kaaslasteta kaaslaselt kaaslastelt
+90	1290	vägev	vägev vägeva vägevad vägevat vägevalt vägevam vägevaim vägevaid vägevale vägevate vägevaks vägevamad vägeval vägevas
+91	1291	ligi	ligi
+92	1292	hullumeelne	hullumeelne hullumeelselt hullumeelse hullumeelset hullumeelsed hullumeelsena hullumeelseid hullumeelseks hullumeelsete hullumeelsel hullumeelses hullumeelsele hullumeelsega hullumeelsest hullumeelsetel hullumeelsetest hullumeelseteks
+93	1293	raadio	raadio raadiot raadiost raadios raadioga raadiod raadiosse raadiole raadioid raadiol raadiote raadiota
+94	1294	lisama	lisada lisan lisasin lisame lisab lisama lisatud lisage lisanud lisavad lisasime lisatakse lisati lisaksin lisate lisaksid lisaksime lisamata lisasite lisas lisad lisamaks lisasid lisades
+95	1295	sõltuma	sõltub sõltu sõltumata sõltuks sõltuda sõltuvad sõltume sõltus sõltun sõltuma sõltud sõltunud sõltusid sõltudes sõltusime sõltusin
+96	1296	uurimine	uurimise uurimine uurimist uurimiseks uurimisega uurimisest uurimisel uurimisele uurimises uurimis uurimisse uurimised uurimisi uurimiselt uurimiste uurimistes uurimistega uurimiseta uurimiseni
+97	1297	jätkuma	jätkub jätkuda jätkuks jätkus jätkuvad jätkuma jätkunud jätkuv jätku jätkuva jätkuvat jätkudes jätkusid
+98	1298	palkama	palkas palkasin palgatud palkama palganud palgati palkan palkab palkame palkasime palkaks palkasite palkavad palkad palkate palgates palgatakse palkaksin palgake palkaksid
+99	1299	laiali	laiali
+100	1300	käitumine	käitumine käitumist käitumise käitumisest käitumisega käitumises käitumisele käitumiseks käitumisel käitumiste käitumisi käitumised käitumisse

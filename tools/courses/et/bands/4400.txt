@@ -1,0 +1,100 @@
+1	4301	šokolaad	šokolaadi šokolaad šokolaadiga šokolaadist šokolaadis
+2	4302	siiras	siiras siirad siirast siira siiraste siiraid
+3	4303	vinguma	vingu vingud vinguma vinguv vinguda vingub vinguvad vingus vingun vingunud vingute vingusid vingudes vinguvat vinguks
+4	4304	õis	õide õied õie õis õisi õite õit õites õitest õiele õies õielt
+5	4305	huumorimeel	huumorimeel huumorimeelt huumorimeele huumorimeelega huumorimeelest
+6	4306	kollanokk	kollanokk kollanokad kollanoka kollanokka kollanokast kollanokale kollanokkade kollanokkadest kollanokki kollanokaga kollanokkadele
+7	4307	kreem	kreemi kreem kreemiga kreemid kreeme kreemist kreemita
+8	4308	vereproov	vereproovi vereproov vereproovid vereproove vereproovide vereprooviga vereproovidega vereproovis vereproovist
+9	4309	ennustus	ennustus ennustused ennustuse ennustust ennustusi ennustuste ennustusest ennustuses ennustusega
+10	4310	moslem	moslem moslemid moslemi moslemite moslemeid moslemitele moslemit moslemitega moslemist moslemitest moslemiks moslemitel
+11	4311	tulistaja	tulistaja tulistajale tulistajaks
+12	4312	kraav	kraavi kraavis kraavist kraav kraavid kraave kraavide kraavides
+13	4313	ankur	ankur ankru ankrusse ankrus ankrut ankrud ankruks ankruna ankruga
+14	4314	rõngas	rõngad rõngas rõnga rõngast rõngaid rõngaste rõngastega rõngasse rõngaga rõngastest
+15	4315	hõbedane	hõbedane hõbedase hõbedast hõbedased hõbedaste hõbedases hõbedasi hõbedasel hõbedaselt hõbedasest hõbedasse
+16	4316	tarkvara	tarkvara tarkvaraga tarkvaras tarkvarast tarkvarale tarkvarasse
+17	4317	prohvet	prohvet prohvetid prohveti prohvetite prohvetit prohvetiks prohveteid prohvetist prohvetitele prohvetil prohvetiga
+18	4318	tootmine	tootmise tootmine tootmist tootmiseks tootmises tootmisest tootmisel tootmisega tootmisse tootmisele
+19	4319	salaagent	salaagent salaagendina salaagendid salaagendi salaagenti salaagendiks salaagentide salaagente salaagentidest salaagendist
+20	4320	viisakus	viisakusest viisakust viisakus viisakuse viisakusega viisakused viisakusi viisakustest viisakuseks
+21	4321	jaguma	jagub jagus jaguma jaguks jagunud
+22	4322	pääs	pääsu pääs
+23	4323	tiri	tiri tiris
+24	4324	leevendama	leevendada leevendab leevendama leevendaks leevenda leevendavad leevendas leevendan leevendame leevendamaks leevendavat
+25	4325	orgaaniline	orgaaniline orgaanilist orgaanilise orgaanilised orgaaniliste orgaanilisi orgaaniliselt orgaanilisest orgaanilisel orgaanilistest
+26	4326	võitlemine	võitlemine võitlemiseks võitlemise võitlemisel
+27	4327	süttima	süttib süttis sütti süttinud süttivad süttida süttisid süttin süti süttiks süttima süttisin
+28	4328	läbimurre	läbimurre läbimurret läbimurdele läbimurdest läbimurdeid läbimurdeks läbimurdeni läbimurded läbimurdega
+29	4329	mõõt	mõõtu mõõt mõõdud mõõdus mõõdu mõõtudega mõõduga mõõtude mõõte mõõtusid mõõtudes
+30	4330	teek	teegi
+31	4331	õhtuti	õhtuti
+32	4332	hädavajalik	hädavajalik hädavajalikud hädavajalikku hädavajaliku hädavajalikuks hädavajalikke
+33	4333	jäme	jäme jämedalt jämedad jämedat jämeda jämedam jämedaks jämedamad jämedaid
+34	4334	kohene	kohest kohene kohese koheseks kohesele koheseid kohesest
+35	4335	totakas	totakas totaka totakad totakat totakate totakalt totakaid totakal totakatele
+36	4336	raba	raba rabas rappa rabad rabasid rabaks rabast rabale rabasse
+37	4337	kottima	kotib kottis kottinud kotivad kottima koti kotid kottides kotiks
+38	4338	vagiina	vagiina vagiinat vagiinast vagiinasse vagiinas vagiinad vagiinaga vagiinasid vagiinade vagiinadest vagiinale
+39	4339	skeem	skeem skeemi skeemid skeeme skeemide skeemiga skeemil skeemist skeemis skeemidest
+40	4340	porgand	porgandid porgand porgandeid porgandi porgandit porgandite porgandiga porganditega porganditest
+41	4341	seek	seegi
+42	4342	titt	titt tite tited titte tittede tittedele titest tittesid titega titena titel titele
+43	4343	emalaev	emalaeva emalaev emalaevale emalaevad emalaevaga emalaeval emalaevade emalaevalt emalaevast emalaevu emalaevas
+44	4344	jänki	jänki jänkid jänkide jänkisid jänkidele jänkist jänkidega jänkidest jänkit jänkidel jänkiga
+45	4345	teadmatus	teadmatuses teadmatus teadmatuse teadmatusest teadmatusega teadmatusesse teadmatusele
+46	4346	tegelikkus	tegelikkuses tegelikkus tegelikkust tegelikkusest tegelikkuse tegelikkusega tegelikkuseks tegelikkusele
+47	4347	ehmuma	ehmunud ehmusin ehmusid ehmu ehmus ehmub ehmuge ehmuvad ehmuda ehmuks ehmuma ehmun ehmusime ehmud
+48	4348	armsake	armsake armsakesed armsakest armsakese
+49	4349	intelligentne	intelligentne intelligentsed intelligentset intelligentsete intelligentseid
+50	4350	mutt	mutt muti mutid mutiga mutti mutile mutina mutil
+51	4351	pee	peeta pee pees peesse
+52	4352	voolik	voolik vooliku voolikud voolikut voolikuga voolikust voolikuid voolikute voolikusse
+53	4353	nigel	nigel nigelad nigela nigelalt nigelas
+54	4354	kompass	kompass kompassi kompassiga kompassid kompassita kompassil kompassist
+55	4355	paariline	paariline paarilise paarilist paarilised paarilisega paariliseks paarilisele paarilisena paarilisi
+56	4356	triip	triibud triip triipu triipudega triipe triibu triibuga triipude
+57	4357	eitav	eitav eitavalt eitava eitavad eitavat
+58	4358	elegantne	elegantne elegantselt elegantset elegantsed elegantse elegantseid elegantsete elegantses
+59	4359	pakiruum	pakiruumi pakiruumis pakiruum pakiruumist pakiruumiga
+60	4360	valikuvõimalus	valikuvõimalus valikuvõimalust valikuvõimalusi valikuvõimaluse valikuvõimalused valikuvõimalustest
+61	4361	seostama	seostada seostatakse seostavad seostatud seostab seosta seostanud seostad seostama seostas seostaks seostan seostasin seostati seostata seostame seostataks seostasime seostasid
+62	4362	füüsika	füüsika füüsikat füüsikas füüsikast füüsikaga füüsikale
+63	4363	legendaarne	legendaarne legendaarse legendaarsed legendaarset legendaarsest legendaarsele legendaarseks legendaarsete legendaarselt legendaarseid
+64	4364	küsitlus	küsitluse küsitlus küsitlused küsitlust küsitlusele küsitluste küsitlustes küsitlusi küsitlusel küsitluseks küsitlusest küsitlustel küsitluses küsitlusega küsitlustest
+65	4365	väljavalitu	väljavalitu väljavalitute väljavalituks väljavalitut väljavalituid väljavalitule väljavalitutele väljavalitutest
+66	4366	ping	pingul pingule
+67	4367	tõotus	tõotuse tõotus tõotust tõotused tõotusi tõotusest tõotuste tõotustest tõotustega
+68	4368	lahkuminek	lahkuminek lahkuminekut lahkumineku lahkuminekust lahkuminekud lahkuminekus lahkuminekuga lahkuminekuks
+69	4369	üürima	üürida üüritud üürisin üürin üürima üürib üürime üürinud üürisime üürite üürivad üüriti üürisite
+70	4370	valdama	valdab valdas valdavad vallatud valda valdav vallanud valdad valdan valdama valta valdate valdame valdasid vallata valdaks
+71	4371	tarve	tarbeks tarbeid tarvete
+72	4372	salasõna	salasõna salasõnad salasõnaga salasõnu salasõnaks salasõnata
+73	4373	maasikas	maasika maasikad maasikaid maasikas maasikat maasikatega maasikate maasikaga maasikatest maasikatele
+74	4374	rännak	rännak rännakule rännakut rännakul rännakust rännakuks rännakutel rännakud rännakuga rännakult rännakuid rännakutest rännakute
+75	4375	peletama	peletada peletab peleta peletas peletanud peletama peletasin peletavad peletasid peletad peletan peletame peletaks peletasime peletatud
+76	4376	vananema	vanane vananeda vananedes vananeb vananen vananevad vananema vananed vananeme vananes vananeks vananemas vananesid vananete
+77	4377	alkohoolik	alkohoolik alkohoolikust alkohoolikud alkohooliku alkohoolikute alkohoolikuks alkohoolikutest alkohoolikuid
+78	4378	rahaline	rahaline rahalist rahalise rahalisi rahalised rahalistes rahaliste rahalises rahalisest rahalistest rahalisele
+79	4379	sohk	sohki sohk sohi
+80	4380	komeet	komeet komeedi komeeti komeedid komeedist komeete komeetide komeediga komeedil komeedile komeetidest komeedilt
+81	4381	kohtuprotsess	kohtuprotsessi kohtuprotsess kohtuprotsessil kohtuprotsessist kohtuprotsessis kohtuprotsessiks kohtuprotsessid kohtuprotsessiga kohtuprotsessile kohtuprotsessini kohtuprotsesse kohtuprotsesside
+82	4382	viiul	viiulit viiul viiuli viiulid viiuliga viiulil viiulist viiulile
+83	4383	platvorm	platvormi platvorm platvormil platvormile platvormilt platvormidele platvormide platvormid platvormiga
+84	4384	kohmakas	kohmakas kohmakad kohmakalt kohmaka kohmakat kohmakaks kohmakaid kohmakana
+85	4385	romantika	romantika romantikat romantikast romantikaga romantikaks romantikale romantikas
+86	4386	ahistama	ahistas ahistab ahistatud ahistada ahistanud ahistavad ahista ahistasid ahistati ahistad ahistama ahistatakse ahistate ahistan ahistasin ahistaks
+87	4387	kellaaeg	kellaajal kellaaeg kellaaega kellaaja kellaajad kellaajast kellaaegadel
+88	4388	male	malet male males malena malest
+89	4389	pärandus	päranduse pärandus pärandusest päranduseks pärandust pärandusega pärandusele päranduseta
+90	4390	ametikoht	ametikoha ametikoht ametikohale ametikohta ametikohal ametikohalt ametikohast ametikohad ametikohti ametikohtadel ametikohaga ametikohtadele ametikohtade
+91	4391	tookord	tookord
+92	4392	meeleheitlikult	meeleheitlikult
+93	4393	maruma	maru marus marul marule maruga
+94	4394	tuumapomm	tuumapommi tuumapomm tuumapommid tuumapommiga tuumapomme tuumapommide tuumapommidega tuumapommidest tuumapommist tuumapommiks
+95	4395	album	albumi albumit albumeid albumid albumilt albumiga albumisse albumile albumist albumil albumite albumis
+96	4396	samurai	samurai samuraid samuraide samuraisid samuraiks samuraile samuraidest samuraiga samuraist samuraidega
+97	4397	säde	säde sädet sädemeid sädemed sädeme sädemest
+98	4398	hüdra	hüdra hüdrasse hüdrale hüdraga hüdral hüdras hüdrat hüdrast
+99	4399	postkast	postkasti postkast postkastis postkastist postkastil postkaste postkastiga postkastid postkastile
+100	4400	instituut	instituut instituudis instituudi instituuti instituudist instituudile

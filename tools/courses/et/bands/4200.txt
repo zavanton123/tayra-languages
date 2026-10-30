@@ -1,0 +1,100 @@
+1	4101	märklaud	märklaud märklaua märklauaks märklauad märklauda märklauana märklaudu märklauale märklauast
+2	4102	vare	varemed varemetes varemeid varemete varemeis varemetest vare varemetesse varemeteks varemetele varemetel
+3	4103	samahästi	samahästi
+4	4104	pimestama	pimestatud pimestab pimestada pimestas pimestavad pimesta pimestanud pimestavat pimestasid pimestad pimestan pimestaks pimestasin
+5	4105	fond	fondi fondist fondiga fonde fondid fondide fondidega fondidest fondides
+6	4106	lusikas	lusikas lusikat lusika lusikaga lusikad lusikaid lusikatega lusikate
+7	4107	põnevus	põnevust põnevusega põnevus põnevuse põnevusest põnevuses
+8	4108	tõeotsija	tõeotsija tõeotsijat tõeotsijast tõeotsijale tõeotsijal tõeotsijaga tõeotsijaks
+9	4109	organism	organismi organismis organismid organismist organisme organismile organismide organismidest organismiga organismil organismina organismides organismidega organismideks organismidele
+10	4110	teinekord	teinekord
+11	4111	lapsevanem	lapsevanem lapsevanemad lapsevanemate lapsevanema lapsevanemaks lapsevanemat lapsevanemaid lapsevanemana lapsevanematele lapsevanemale lapsevanematega
+12	4112	mässama	mässama mässata mässa mässavad mässad mässab mässasid mässas mässame mässav mässanud mässate mässasin mässamas mässan mässaks mässasime
+13	4113	tarkpea	tarkpea tarkpead tarkpeast tarkpeadest
+14	4114	nõustaja	nõustaja nõustajad nõustajaga nõustajaks nõustajat nõustajana nõustajale nõustajatest nõustajatega nõustajaid nõustajate
+15	4115	kassa	kassa kassas kassast kassasse kassat kassad kassasid kassade kassaga
+16	4116	kõrvarõngas	kõrvarõngad kõrvarõngas kõrvarõngaid kõrvarõnga kõrvarõngast kõrvarõngaste kõrvarõngastega kõrvarõngastest kõrvarõngastena
+17	4117	kusema	kusema kusen kuseb kusevad kusnud kusin kusemas kuseme kusid kusete kustakse kuseksin kusti kusev
+18	4118	laduma	ladusalt laduda laon ladus laduge lao laduma laome laotud laotan laotatud laob ladusin laotanud ladunud laote laotama laovad laoti laod ladusid ladudes laoks
+19	4119	lapsik	lapsik lapsikult lapsikud lapsikuks lapsiku lapsikuid lapsikut lapsikust lapsikused lapsikus
+20	4120	kohapeal	kohapeal
+21	4121	kindlustatud	kindlustatud
+22	4122	niisugune	niisugune niisugust niisuguse niisugused niisuguseid niisugusena niisuguses niisugusel niisuguseks niisuguste niisugusest
+23	4123	imekaunis	imekaunis imekauni imekaunist imekaunid imekauniks imekaunil imekaunilt imekauneid
+24	4124	kuulutus	kuulutuse kuulutus kuulutust kuulutusele kuulutused kuulutusi kuulutuses kuulutuste kuulutustest kuulutustele
+25	4125	punapea	punapea punapead punapeaga punapäid punapeast punapeade punapeal punapeale punapeaks
+26	4126	demokraatia	demokraatia demokraatiat demokraatiast demokraatiale demokraatias demokraatiaga demokraatiaks demokraatiasse
+27	4127	haukuma	haugub haugu haugud haukuma hauguvad haukuda haukus haukusid haugun haukunud haugute haukumas haukuv haukusin hauguks haukudes
+28	4128	hooldaja	hooldaja hooldajaks hooldajad hooldajat hooldajale hooldajate hooldajana hooldajaga hooldajalt hooldajatega hooldajaid
+29	4129	sperma	sperma spermat spermaga spermast spermal spermas
+30	4130	võrgutama	võrgutada võrgutas võrgutab võrgutama võrgutad võrgutav võrgutasid võrgutanud võrgutasin võrgutan võrgutatud võrgutaks võrgutavad võrgutage
+31	4131	tekiila	tequila tequilat tekiilat tekiila tequilaga tequilast
+32	4132	üleloomulik	üleloomulik üleloomuliku üleloomulikud üleloomulikku üleloomulike üleloomulikke üleloomulikult üleloomulikust üleloomulikest üleloomulikule üleloomulikus üleloomulikul
+33	4133	langevari	langevari langevarju langevarjuga langevarjud langevarje langevarjuta langevarjudega langevarjude
+34	4134	hingetõmme	hingetõmme hingetõmbe hingetõmbeni hingetõmmet hingetõmbega hingetõmbed hingetõmbeid hingetõmbel hingetõmbeks
+35	4135	lennutama	lennutada lennutas lennutab lennutan lennutame lennutasid lennutama lennutad lennutatakse lennutasin lennutati lennutavad lennutanud lennutaks lennutatud lennutades lennutasime
+36	4136	vaatamine	vaatamine vaatamiseks vaatamisega
+37	4137	säilima	säilinud säilib säiliks säilivad säilima säilis säilida säili säilisid
+38	4138	element	elemendid elemente elementi elemendi elemendis elemendist elementide elementidest elemendiga elemendiks elementidega elemendile elementideks
+39	4139	kiilakas	kiilakas kiilaka kiilakad kiilakat kiilakaks kiilakaid kiilakate kiilakast kiilakana kiilakaga
+40	4140	püramiid	püramiidi püramiid püramiidid püramiidide püramiide püramiidis püramiidist püramiididest püramiidil püramiidile püramiididega
+41	4141	kongresmen	kongresmen kongresmeni kongresmenile kongresmenid kongresmene kongresmeniks kongresmeniga kongresmenide kongresmenidele
+42	4142	muretsemine	muretsemiseks muretsemine
+43	4143	planeeritud	planeeritud
+44	4144	tahapoole	tahapoole
+45	4145	põhjalikult	põhjalikult
+46	4146	mässuline	mässuliste mässulised mässulisi mässuline mässulistega mässulist mässulise mässulistele mässulistest mässulistel
+47	4147	operaator	operaator operaatorid operaatorile operaatori operaatoriga operaatorit operaatorite operaatoreid
+48	4148	visiit	visiit visiidi visiiti visiidil visiidid visiidist visiidile visiidiga visiite visiidiks
+49	4149	külastaja	külastajad külastaja külastajaid külastajate külastajatele külastajat külastajatest külastajatel külastajaga
+50	4150	altar	altari altar altarile altaril altarit altarini altarilt altarist altareid
+51	4151	taskulamp	taskulamp taskulambi taskulampi taskulambid taskulambiga taskulampe taskulampidega
+52	4152	pluus	pluus pluusi pluuse pluusiga pluusid pluusil pluusis pluuside
+53	4153	vennaskond	vennaskond vennaskonna vennaskonda vennaskonnaga vennaskonnast vennaskonnas vennaskonnale vennaskonnaks
+54	4154	order	orderit orderi orderita orderiga orderid ordereid orderile orderist orderil
+55	4155	moodne	moodne moodsa moodsad moodsat moodsaid moodsalt moodsast moodsate moodsam moodsas moodsamat moodsama moodsal moodsale moodsasse moodsaks
+56	4156	töökoda	töökojas töökoda töökotta töökoja töökojast töökojad
+57	4157	kisa	kisa kisades kisad kisas kisasid kisaga kissa kisata kisast kisaks
+58	4158	automaat	automaat automaadi automaadist automaadid automaati automaatidega automaadiga automaate automaatide automaadis automaatidest
+59	4159	väidetavalt	väidetavalt
+60	4160	jard	jardi jard
+61	4161	õukond	õukonnas õukonda õukonna õukond õukonnast õukonnale õukondades
+62	4162	tugevdama	tugevdatud tugevdada tugevdab tugevdama tugevdanud tugevdame tugevdage tugevda tugevdavad tugevdas tugevdaks tugevdati tugevdasime tugevdasin tugevdasid
+63	4163	pistoda	pistoda pistodaga pistodad pistodade pistodasid pistodast pistodal pistodadega
+64	4164	ebastabiilne	ebastabiilne ebastabiilseks ebastabiilsed ebastabiilse ebastabiilset ebastabiilseid ebastabiilses ebastabiilsete
+65	4165	väärtusetu	väärtusetu väärtusetud väärtusetut väärtusetuks väärtusetuna väärtusetuid väärtusetute
+66	4166	juhendama	juhendada juhendan juhendab juhendama juhenda juhendas juhendanud juhendasin juhendatud juhendad juhendaks juhendasid juhendati juhendavad juhendasite juhendame juhendaksin juhendate
+67	4167	ike	ike ikke ikkest iket ikkes
+68	4168	austaja	austaja austajad austajaid austajalt austajate austajatest austajat austajaga austajatega
+69	4169	puudutus	puudutus puudutust puudutuse puudutusest puudutusega puudutused puudutuste puudutusi puudutusele puudutustest
+70	4170	tünn	tünni tünn tünnid tünnis tünnist tünnide tünne tünnides tünnidesse tünniga tünnidest tünnidega tünnil tünnile
+71	4171	rõdu	rõdul rõdu rõdult rõdule rõduga
+72	4172	lakkama	lakkas lakanud lakkab lakkavad lakkasid lakkad lakkamata lakkasin lakkan lakkaks lakkame lakkasime lakkaksid
+73	4173	istutama	istutada istutas istutatud istutame istutama istutan istutasin istutanud istutasime istutasid istutab istutad istutatakse istutati istutage istutasite istutavad
+74	4174	löömine	löömine löömist löömise löömiseks löömisest löömisega löömises löömisele
+75	4175	paraku	paraku
+76	4176	masendav	masendav masendavalt masendavaks masendava masendavast
+77	4177	kättesaadav	kättesaadav kättesaadavat kättesaadavad kättesaadavaks kättesaadaval kättesaadava
+78	4178	pealtnägija	pealtnägija pealtnägijaid pealtnägijad pealtnägijate pealtnägijat pealtnägijast pealtnägijas pealtnägijale pealtnägijatega pealtnägijana
+79	4179	autoõnnetus	autoõnnetuses autoõnnetus autoõnnetuse autoõnnetusse autoõnnetust autoõnnetusest autoõnnetustes autoõnnetusega
+80	4180	kalender	kalender kalendri kalendrit kalendris kalendrisse kalendrist kalendreid kalendrid kalendriga
+81	4181	sealhulgas	sealhulgas
+82	4182	russ	russ russel russi russiga russile
+83	4183	hääletus	hääletus hääletuse hääletusele hääletust hääletusel hääletusega hääletusest
+84	4184	äkiline	äkiline äkilisi äkilise äkilist äkiliselt äkilised äkilisest äkiliste
+85	4185	suhteliselt	suhteliselt
+86	4186	käevõru	käevõru käevõrud käevõrusid käevõruga käevõrul käevõrude käevõrust
+87	4187	sisikond	sisikond sisikonna sisikonda sisikonnad sisikonnas sisikonnaga sisikonnast sisikondi
+88	4188	rehv	rehv rehvi rehve rehvide rehvidega rehvidesse rehviga rehvidest rehvidele
+89	4189	jaah	jaah
+90	4190	vähegi	vähegi
+91	4191	agressiivne	agressiivne agressiivsed agressiivseks agressiivse agressiivset agressiivsest agressiivseid agressiivsete
+92	4192	palgasõdur	palgasõdur palgasõdurid palgasõdurite palgasõdureid palgasõduri palgasõduritena palgasõdurit palgasõduritega palgasõdurina palgasõduritele palgasõduriks palgasõduriteks
+93	4193	meik	meiki meik meigi meigiga meigita meigist meigid meigis
+94	4194	leke	leke leket lekkeid lekked lekkest lekkega lekkele lekete
+95	4195	telegramm	telegrammi telegramm telegrammid telegramme telegrammis telegrammiga
+96	4196	tsiteerima	tsiteerin tsiteerida tsiteerid tsiteerides tsiteeri tsiteeris tsiteerima tsiteerib tsiteerisin tsiteerisid tsiteerinud tsiteerivad
+97	4197	aur	auru aur auruga aurude aurud auruks aure aurudega aurudest
+98	4198	reaktor	reaktori reaktor reaktorit reaktorid reaktorist reaktorisse reaktoris reaktoreid reaktoriga reaktorite
+99	4199	komplekt	komplekt komplekti komplektis komplektist komplektiga komplekte komplektid
+100	4200	selgeltnägija	selgeltnägija selgeltnägijad selgeltnägijat selgeltnägijaga selgeltnägijast selgeltnägijale selgeltnägijana selgeltnägijal selgeltnägijaks

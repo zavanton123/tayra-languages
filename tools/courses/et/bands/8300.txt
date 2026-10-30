@@ -1,0 +1,100 @@
+1	8201	teenindaja	teenindaja teenindajad teenindajat teenindajaks teenindajate teenindajaid
+2	8202	rantšo	rantšo rantšos rantšosse rantšost rantšot
+3	8203	kehatemperatuur	kehatemperatuur kehatemperatuuri
+4	8204	toatüdruk	toatüdruk toatüdruku toatüdrukut toatüdrukuga toatüdrukud toatüdrukuid
+5	8205	mudane	mudane mudased mudaseks mudase mudases
+6	8206	kile	kile kilesse kilet kiledam kilest kilega kiled
+7	8207	uinuti	uinuti uinutit uinutiga uinuteid uinutid
+8	8208	võrdsus	võrdsus võrdsuse võrdsust
+9	8209	õhkutõus	õhkutõusu õhkutõus õhkutõusuks õhkutõusul
+10	8210	parkimistrahv	parkimistrahvi parkimistrahvid parkimistrahve parkimistrahv parkimistrahvide parkimistrahvidega
+11	8211	barrikaad	barrikaadi barrikaadid barrikaad barrikaade barrikaadide barrikaadidele barrikaadidel barrikaadidest
+12	8212	sõlmimine	sõlmimiseks sõlmimist sõlmimise sõlmimine sõlmimisel sõlmimisest sõlmimisele
+13	8213	üheksane	üheksane üheksased üheksasel üheksaselt üheksase
+14	8214	mulk	mulk mulgi mulgu mulgud mulku
+15	8215	deaktiveerima	deaktiveeritud deaktiveerida deaktiveeri deaktiveerin deaktiveerige deaktiveerima deaktiveerime deaktiveeris deaktiveeriti
+16	8216	arutlus	arutluse arutlus arutlusele arutlust arutlusel arutlusi arutlused
+17	8217	ilmsiks	ilmsiks
+18	8218	iseäranis	iseäranis
+19	8219	milligramm	milligrammi milligramm
+20	8220	lobi	lobi lobist lobiga
+21	8221	silmatorkav	silmatorkav silmatorkavalt silmatorkavat silmatorkavad silmatorkava silmatorkavaks
+22	8222	süütenöör	süütenöör süütenööri süütenöörid süütenööriga
+23	8223	veeb	veebis veebi veeb veebist
+24	8224	vahetuma	vahetuvad vahetub vahetunud vahetusid vahetuma vahetuda
+25	8225	marssal	marssal marssali
+26	8226	filmimine	filmimine filmimisel
+27	8227	käeluu	käeluu käeluud
+28	8228	riimuma	riimub riimu riimuma riimuvad riimuks
+29	8229	kiireloomuline	kiireloomuline kiireloomulise kiireloomulist kiireloomulised
+30	8230	nilbe	nilbe nilbet nilbed nilbeid nilbeks nilbelt
+31	8231	plii	plii pliid pliist pliiga
+32	8232	reetlik	reetlik reetliku reetlikud reetlikke reetlikku reetlikult reetlikus
+33	8233	põgus	põgus põgusa põgusat põgusad põgusaks põgusast
+34	8234	vahepealne	vahepealset vahepealne vahepealsed vahepealse
+35	8235	vallanduma	vallandub vallandus vallanduvad vallandunud vallanduda vallanduma
+36	8236	pikap	pikap pikapi pikapiga pikapit pikapist
+37	8237	aastatuhat	aastatuhande aastatuhandeid aastatuhandel aastatuhat aastatuhandete aastatuhandet
+38	8238	tsement	tsement tsementi tsemendi tsemendist
+39	8239	kirjavahetus	kirjavahetus kirjavahetust kirjavahetuses kirjavahetuse kirjavahetusest
+40	8240	lagendik	lagendikule lagendikul lagendik lagendiku lagendikku lagendikel
+41	8241	õnnemäng	õnnemäng õnnemänge õnnemängud õnnemängu õnnemängudest õnnemängus
+42	8242	meistritiitel	meistritiitli meistritiitlit meistritiitel meistritiitlist meistritiitlile
+43	8243	kombineerima	kombineeritud kombineerida kombineerides kombineerime kombineeri kombineerisin kombineerin
+44	8244	spaa	spaas spaa spaasse spaast
+45	8245	pealtkuulamine	pealtkuulamine pealtkuulamise pealtkuulamist pealtkuulamiseks pealtkuulamisest pealtkuulamisega pealtkuulamised pealtkuulamisi
+46	8246	initsiatiiv	initsiatiivi initsiatiiv initsiatiivil
+47	8247	siiber	siiber siibrit siibreid siibri siibrid
+48	8248	õietolm	õietolmu õietolm õietolmuga
+49	8249	poi	poi pois poid poide
+50	8250	ork	orki ork orkide orgi orke orgiga
+51	8251	kroonika	kroonikad kroonika kroonikat kroonikates kroonikale kroonikast
+52	8252	jõukus	jõukust jõukuse jõukus jõukusest jõukuses jõukusele jõukusega
+53	8253	kirgas	kirgas kirka kirkaga kirkad kirkat kirkaid kirgast
+54	8254	sõnastik	sõnastik sõnastiku sõnastikus sõnastikku sõnastikust sõnastike
+55	8255	põhk	põhku põhk põhu põhus
+56	8256	ind	indu innuga
+57	8257	rünnakrühm	rünnakrühm rünnakrühma rünnakrühmad rünnakrühmale
+58	8258	kabriolett	kabriolett kabrioleti kabrioletti kabrioletiga kabrioletis
+59	8259	sopp	soppa sopa sopp soppidesse sopaga sopas soppides
+60	8260	hüsteeria	hüsteeria hüsteerias hüsteeriasse hüsteeriat hüsteeriast
+61	8261	kloonima	kloonitud kloonida klooninud kloonin kloonima kloonisime kloonivad kloonime klooniti kloonisin
+62	8262	eelaim	eelaimus eelaimused eelaimust
+63	8263	mannetu	mannetu mannetud mannetut mannetult mannetuks
+64	8264	rahulolematu	rahulolematu rahulolematud rahulolematut rahulolematuid rahulolematult
+65	8265	ürgne	ürgne ürgse ürgset ürgsed ürgsel ürgsest ürgseid
+66	8266	ümisema	ümiseb ümise ümised ümisema ümiseda ümisesid ümises ümisen ümiseks ümisenud ümisesin
+67	8267	ligikaudu	ligikaudu
+68	8268	sootuks	sootuks
+69	8269	vanaviisi	vanaviisi
+70	8270	molu	molu
+71	8271	piripill	piripill piripilli piripillid
+72	8272	albaania	albaania albaanias albaaniast albaaniasse
+73	8273	gallon	gallonit galloni galloniga
+74	8274	enesetapja	enesetapja enesetapjate enesetapjad enesetapjast enesetapjatest
+75	8275	õndsus	õndsus õndsust õndsuse õndsuses õndsusest
+76	8276	allumatu	allumatu allumatus allumatust allumatud
+77	8277	tualettpaber	tualettpaberit tualettpaber tualettpaberi
+78	8278	keskne	keskne keskset keskse kesksed keskseks keskses kesksel kesksesse
+79	8279	puue	puuetega puue puuet puuded
+80	8280	revolver	revolvri revolvrit revolvriga revolvrid revolvrist revolvris
+81	8281	kingapael	kingapaelu kingapaelad kingapael kingapaela
+82	8282	klipp	klippi klipp klippe klipi klipid
+83	8283	kangelastegu	kangelastegu kangelastegudest kangelastegusid kangelasteod kangelasteo kangelastegudeks kangelastegude kangelastegudele
+84	8284	vanasõna	vanasõna vanasõnu
+85	8285	kelvin	kelvin kelvini kelvinit
+86	8286	ajaloolane	ajaloolane ajaloolased ajaloolaste ajaloolase ajaloolastele ajaloolasi
+87	8287	argus	argus arguse argust argusest arguses
+88	8288	deemonlik	deemonlik deemonliku deemonlikud deemonlikku deemonlikust deemonlike deemonlikke
+89	8289	autopesula	autopesulas autopesula autopesulasse autopesulat autopesulast
+90	8290	tihedalt	tihedamalt tihedalt
+91	8291	vanadaam	vanadaam vanadaami vanadaamile vanadaame vanadaamide vanadaamiga
+92	8292	pealagi	pealaest pealagi pealael pealage pealaele pealaeni pealae
+93	8293	läbimõõt	läbimõõduga läbimõõt läbimõõdus läbimõõdu
+94	8294	karistamine	karistamine karistamiseks karistamist karistamise karistamisest
+95	8295	menetlus	menetluse menetlus menetlust menetlusse menetlusega menetluses menetlusest
+96	8296	voltima	voltida voldid voltis voltima voltige voltinud voldin voldime voltisin voldib
+97	8297	ebaseaduslikult	ebaseaduslikult
+98	8298	vabanenud	vabanenud
+99	8299	mõnevõrra	mõnevõrra
+100	8300	lõhnaõli	lõhnaõli lõhnaõlist

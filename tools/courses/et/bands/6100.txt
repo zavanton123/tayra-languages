@@ -1,0 +1,100 @@
+1	6001	tänaõhtune	tänaõhtune tänaõhtuse tänaõhtust tänaõhtusel tänaõhtusele tänaõhtusest tänaõhtuseks tänaõhtused tänaõhtuses tänaõhtuste
+2	6002	õrritama	õrrita õrritada õrritad õrritan õrritas õrritab õrritama õrritasin õrritavad õrritasid õrritame
+3	6003	plinder	plindris plindrisse plindrist
+4	6004	uriin	uriini uriin uriinis uriinist uriiniga
+5	6005	regioon	regioonis regiooni regioon regioonist regioonides regioonid
+6	6006	kuulaja	kuulaja kuulajad kuulajaid kuulajatele kuulajate kuulajat kuulajatega
+7	6007	kare	kareni karel karge kare karedad karget karedat kareda
+8	6008	sohva	sohva sohval sohvale sohvalt sohvat sohvast
+9	6009	sülg	sülg sülge sülje süljega süljest
+10	6010	ületund	ületunde ületundide ületunnid ületundidest
+11	6011	põletik	põletik põletiku põletikku põletikus põletikust põletikke põletikud
+12	6012	parlament	parlamendi parlament parlamenti parlamendis parlamendile
+13	6013	laim	laim laimi laimu laimiga laimid laime laimus
+14	6014	jahutama	jahutada jahutab jahutama jahutatud jahutan jahutame jahutavad jahutas jahutasin jahutage
+15	6015	keeris	keeris keerise keerises keerisesse keerist keerised keeriseid keerisest keerisega
+16	6016	seadistama	seadistatud seadistada seadista seadistama seadistasin seadistan seadistas seadistame seadistage seadistavad seadistanud seadistasid
+17	6017	veendumus	veendumus veendumused veendumust veendumuste veendumusega veendumusi veendumuse veendumustega veendumustes veendumustele veendumusest veendumusele veendumusel veendumustest
+18	6018	suht	suht
+19	6019	sisetunne	sisetunne sisetunnet sisetunde sisetundest
+20	6020	siid	siid siidi siidiga
+21	6021	jäätuma	jäätunud jäätub jäätud jäätus jäätuma jäätuvad jäätu jäätun
+22	6022	lõpmatus	lõpmatuseni lõpmatus lõpmatuse lõpmatusse lõpmatuses lõpmatusest
+23	6023	jäätee	jäätee jääteed jääteedel jääteede jääteega jääteel jääteid
+24	6024	frits	fritsud fritsude frits fritsu fritse fritsudel fritsudele fritsudelt fritsudega
+25	6025	arvestus	arvestust arvestuse arvestuste arvestus arvestused arvestuses arvestusega arvestusi arvestusest
+26	6026	selili	selili
+27	6027	pikkune	pikkune
+28	6028	jobukakk	jobukakk jobukakud jobukakust
+29	6029	hingesugulane	hingesugulane hingesugulased hingesugulast hingesugulase hingesugulasega
+30	6030	kartus	kartus kartuses kartust kartusest kartuse kartused kartuseta kartusi kartuste kartusega
+31	6031	juhendaja	juhendaja juhendajaks juhendajat juhendajaga juhendajad juhendajale
+32	6032	salakaval	salakaval salakavalad salakavala salakavalalt salakavalat salakavalaid
+33	6033	tabamine	tabamiseks tabamine tabamist
+34	6034	loobumine	loobumine loobumist loobumise loobumisest loobumisega
+35	6035	temp	temp tempe tembu tembud tembuta tempu tempudest tempude tembuga
+36	6036	valija	valijad valijate valijaid valijatele valija valijatega valijatest valijat valijatel
+37	6037	sinep	sinepit sinep sinepi sinepiga
+38	6038	pangakonto	pangakonto pangakontod pangakontole pangakontot pangakontol pangakontode pangakontosid pangakontolt pangakontodele
+39	6039	põis	põis põie põit põiele põiega põiel põies põied põide
+40	6040	kõrvaline	kõrvaline kõrvalise kõrvalised kõrvalisi kõrvalist kõrvalises kõrvalisse kõrvalistele kõrvalistel
+41	6041	matk	matka matk matkale matkal matkast
+42	6042	nottima	nottida nottima nottis notime notin notitakse notivad notib notiti nottinud nottisime
+43	6043	varakamber	varakamber varakambrisse varakambris varakambri varakambrist varakambrit varakambrid
+44	6044	krampima	krambid krampis
+45	6045	möll	möll möllu mölluks möllus
+46	6046	vanadekodu	vanadekodusse vanadekodus vanadekodu vanadekodust
+47	6047	edel	edela edelas edelasse edel edelast
+48	6048	ajastama	ajastas ajastatud ajastada ajastama ajastanud ajastame ajastab ajastad ajastasin
+49	6049	kärpima	kärpida kärpima kärpisin kärpis kärbiti kärbib kärbime kärbitakse kärbin kärpinud kärbivad
+50	6050	püüdlus	püüdlusi püüdlused püüdlus püüdlustele püüdlustest püüdluste püüdlust püüdlustes püüdluses püüdluse püüdlusest
+51	6051	pealetükkiv	pealetükkiv pealetükkivad pealetükkivaks pealetükkivat pealetükkivalt
+52	6052	kaheksajalg	kaheksajalg kaheksajala kaheksajalga kaheksajalad kaheksajalast kaheksajalal kaheksajalaga
+53	6053	kerjus	kerjus kerjused kerjuse kerjuseid kerjuste kerjust kerjustele kerjusena kerjuseks
+54	6054	maapealne	maapealne maapealse maapealsed maapealset maapealsete maapealsest maapealseid maapealsetest maapealseks maapealses maapealsele maapealsesse
+55	6055	eralduma	eraldunud eraldub eraldus eralduda eralduma eralduvad eraldume eraldu eraldusid eraldusime eralduge
+56	6056	armukadedus	armukadedus armukadedusest armukadedust armukadeduse armukadeduseks
+57	6057	tõstmine	tõstmiseks tõstmine tõstmist tõstmise tõstmisest tõstmisega tõstmisel
+58	6058	kasvamine	kasvamist kasvamine kasvamise kasvamiseks
+59	6059	musitama	musitada musitama musitas musitab musitad musitavad musitasid musitame musitan musitage musitades musitasin musitamas musitanud musitate musitasime musita
+60	6060	nurjatu	nurjatu nurjatut nurjatute nurjatult nurjatuid
+61	6061	veatu	veatu veatult veatud veatut
+62	6062	pojapoeg	pojapoeg pojapoja pojapoega pojapojaga pojapojale pojapojad pojapojast pojapojal
+63	6063	kirjastaja	kirjastaja kirjastajale kirjastajad kirjastajaga kirjastajat kirjastajatega kirjastajalt kirjastajate
+64	6064	maraton	maratoni maraton maratonil maratoniks maratone maratonile maratonis
+65	6065	rentsel	rentslis rentslisse rentslist rentsel rentsli rentslites
+66	6066	bordell	bordelli bordell bordellis bordellist bordelle bordellides bordellid bordelliks
+67	6067	detailne	detailselt detailne detailse detailsed detailset detailseid detailseks
+68	6068	üleujutus	üleujutus üleujutuse üleujutused üleujutusi üleujutust üleujutuste üleujutuses üleujutusest üleujutustest
+69	6069	salvrätik	salvrätik salvrätiku salvrätikud salvrätikut salvrätikuid salvrätikule salvrätikute salvrätikuga
+70	6070	mõnusalt	mõnusalt
+71	6071	põhikool	põhikoolis põhikooli põhikool põhikoolist
+72	6072	eelnõu	eelnõu eelnõust eelnõuga eelnõule eelnõud eelnõus
+73	6073	mälukaotus	mälukaotus mälukaotust mälukaotuse mälukaotusega mälukaotusest mälukaotusi mälukaotused
+74	6074	ebanormaalne	ebanormaalne ebanormaalselt ebanormaalset ebanormaalsed ebanormaalse ebanormaalseid ebanormaalseks ebanormaalsete
+75	6075	hambutu	hambutu hambutut hambutuga hambutuna
+76	6076	jutukas	jutukas jutukad jutukaks jutuka
+77	6077	käkk	käkki käkk käkiga käkke
+78	6078	formaalsus	formaalsus formaalsused formaalsuste formaalsustest formaalsuse formaalsustega formaalsust formaalsusi formaalsusest
+79	6079	kants	kantsi kants kantsis kantsist kantsid kantsile
+80	6080	olümpia	olümpia olümpial olümpiale olümpiaks olümpiat olümpiast
+81	6081	hooldus	hooldus hooldust hoolduse hoolduses hooldusest hooldusesse hoolduseks hooldusega
+82	6082	jutlus	jutlust jutlus jutluse jutlusi jutlused jutlusest jutluste jutluseks jutlustest
+83	6083	argument	argumendid argumente argumenti argumendi argumentide argumendiga argumentidega argumendist argumentidest
+84	6084	leidja	leidja leidjale leidjat leidjal
+85	6085	ebameeldivus	ebameeldivusi ebameeldivuste ebameeldivused ebameeldivus ebameeldivustest ebameeldivust ebameeldivuse ebameeldivusteks ebameeldivustesse
+86	6086	rüvetama	rüvetada rüvetatud rüvetasid rüvetanud rüveta rüvetab rüvetas rüvetavad rüvetama rüvetad rüvetaks rüvetamata rüvetades
+87	6087	lollike	lollike lollikest lollikesed lollikeste lollikeseks lollikesi
+88	6088	baarmen	baarmen baarmeni baarmenile baarmeniga baarmenid
+89	6089	eluiga	eluiga eluea elueaga
+90	6090	teip	teipi teip teibiga teibist
+91	6091	kanduma	kandub kandus kanduvad kandunud kanduda kandusid kanduks kandud
+92	6092	kaan	kaanid kaane kaan kaanel kaani kaanele kaanide kaanis kaanest kaanisid kaanidega kaanelt
+93	6093	ninasarvik	ninasarvik ninasarviku ninasarvikud ninasarvikuid ninasarvikut ninasarvikute ninasarvikutega ninasarvikust ninasarvikul
+94	6094	postitama	postitas postitada postitatud postitasin postitan postitanud postitasid postitati postitad postitama postitab postitame
+95	6095	ajupesu	ajupesu ajupesuga ajupesust
+96	6096	ääretu	ääretult ääretu ääretut
+97	6097	kättesaamatu	kättesaamatu kättesaamatuks kättesaamatud kättesaamatut kättesaamatuna
+98	6098	kuulamine	kuulamine kuulamise kuulamiseks kuulamisega kuulamisel
+99	6099	peaosa	peaosas peaosa peaosades peaossa
+100	6100	koiott	koiott koiotid koiotti koioti koiotte koiottide koiottidest koiottidele

@@ -1,0 +1,100 @@
+1	901	rong	rong rongi rongiga rongis rongile rongist rongid rongilt rongil ronge rongide rongidega rongidest rongini rongides
+2	902	karjuma	karjuma karjuda karjub karjus karjud karju karjuvad karjusid karjusin karjudes karjun karjumas karjunud karjuge karjute karjume karjuv karjutakse karjuks karjuva karjusite karjuti karjuksid karjuksin karjusime karjuvat karjutud karjuvate karjumata karjuvaid karjuta
+3	903	alates	alates
+4	904	leitnant	leitnant leitnandi leitnanti leitnandile leitnandiks leitnandid leitnandiga leitnandil ltn leitnandina leitnandist leitnante
+5	905	keeruline	keeruline keeruliseks keerulised keerulist keerulise keerulisi keerulises keeruliselt keeruliste keerulisse keerulisel keerulisele keerulisest keerulistes keerulistest keerulisteks keerulistel keerulisena
+6	906	raiskama	raisata raiska raiskad raiskame raisanud raiskasin raiskate raisatud raiskama raiskan raiskab raiskasid raisake raiskas raiskaks raiskavad raiskasime raiskasite raisates raisatakse raiskaksin raiskaksid raisakem raiskav raiskamas raiskamata raisati raiskaksite
+7	907	isik	isik isiku isikut isikud isikute isikuid isikuga isikule isikus isikust isikutele isikuks isikutega isikutest isikul isikuna isikult isikutel isikutena isikusse
+8	908	puhul	puhul
+9	909	kordama	kordan kordagi korda kordama korrake kordame kordab kordad kordas kordasin kordaks korrates kordaksid kordavad korranud kordamast kordaksite kordate korratakse kordasime kordaksin korrata korratud kordamas kordasid
+10	910	ühendama	ühendatud ühenda ühendada ühendage ühendab ühendan ühendame ühendama ühendas ühendavad ühendanud ühendasin ühendasid ühendad ühendaks ühendatakse ühendasime ühendades ühendati ühendav ühendaksid ühendate ühendaksime ühendaksite ühendava ühendamata ühendaksin ühendamaks ühendasite ühendagem ühendavat
+11	911	minevik	minevik minevikku minevikus mineviku minevikust minevikuga minevikule minevikul minevikuks minevikuta
+12	912	mõistus	mõistuse mõistus mõistust mõistusega mõistusele mõistuses mõistusest mõistused mõistusesse mõistusel mõistuseta mõistusi mõistuseks mõistuselt mõistuste mõistustega
+13	913	kihlama	kihla kihlatu kihlatuga kihlatut kihlatule kihlatust kihlatult kihlatuna kihlatul
+14	914	unistus	unistus unistused unistuste unistusi unistuse unistust unistustes unistustest unistusest unistuseks unistuses unistustega unistustele unistusega unistusele unistustesse unistusse unistustel unistusel unistusena unistusteks
+15	915	paat	paat paadi paati paadis paadiga paadist paadid paate paadil paadile paatide paatidega paadilt paatidest paatidesse paadini paatidel paadiks paatides
+16	916	tõttu	tõttu
+17	917	küllalt	küllalt
+18	918	pank	panka pank panga pangas pangast pangad panku pankade pangale pangaga pankasid pangal pankades pankadele pankadesse pangalt pankadest pankadega pangani pankadel pangaks pankadelt
+19	919	operatsioon	operatsiooni operatsioon operatsioonide operatsioonist operatsioonile operatsioonil operatsioone operatsiooniga operatsiooniks operatsioonid operatsioonis operatsioonidel operatsioonilt operatsioonidest operatsioonidele operatsioonidega operatsioonides operatsioonita operatsioonideks operatsioonidesse
+20	920	vajalik	vajalik vajalikud vajaliku vajalikku vajalikuks vajalikke vajalike vajalikul vajalikuga vajalikust vajalikum vajalikest vajalikule vajalikus vajalikele vajalikuna
+21	921	arutama	arutada arutame arutama arutasime arutanud arutavad arutan arutaks arutage arutab arutasid arutasin arutatud arutatakse arutate arutati arutasite arutaksime arutades arutad arutamata arutamaks arutamas arutas arutaksin arutata arutagem arutamast arutaksid aruta
+22	922	jobu	jobu jobud jobusid jobuks jobule jobude jobuga jobust jobudele jobudega jobuna jobudest jobul jobudel jobuta jobudeks
+23	923	tutvuma	tutvuda tutvusin tutvunud tutvu tutvusime tutvuma tutvus tutvusid tutvuge tutvusite tutvume tutvuksid tutvun tutvud tutvuks tutvub tutvuksite tutvuvad tutvuksin tutvumas tutvudes tutvute
+24	924	soe	soe sooja soojas soojad soojem soojaks soojalt soojemaks sooje soojana soojast soojade soojal soojale soojemat soojades soojemalt soojadest soojemaid
+25	925	kõht	kõht kõhtu kõhu kõhus kõhuga kõhud kõhust kõhule kõhul kõhult kõhtudega
+26	926	kuul	kuuli kuulid kuul kuuleks kuuliga kuulide kuulist kuulidega kuulidest kuulil kuulidele kuulile kuulideta kuulidel kuuliks kuulides
+27	927	jalutama	jalutama jalutada jalutame jalutan jalutab jalutas jalutasin jalutamas jalutad jalutavad jalutasid jalutasime jalutades jalutaks jalutanud jalutate jalutage jalutaksin jalutaksid jalutaksime jalutasite jalutatakse
+28	928	tulemus	tulemused tulemus tulemusi tulemusena tulemust tulemuseks tulemuse tulemusel tulemuste tulemustest tulemustega tulemusteta tulemusega tulemusest tulemuseni tulemusteni tulemusele tulemustele tulemuseta tulemustes tulemuses
+29	929	palk	palka palk palgata palga palkasid palgal palgast palke palgid palgi palgaga palki palgale palgad palkide palgaks palgiga palgas palku palgist palkade palgil palgile palkidest palgel palkidega palkadest palgelt palgele palkadega
+30	930	võitlus	võitlus võitlust võitluse võitluses võitluseks võitlusest võitluseta võitlusse võitlused võitlusesse võitlusi võitlusega võitlusele võitlusel võitluste võitlustes võitlustest võitlusteks
+31	931	mälestus	mälestused mälestusi mälestus mälestuseks mälestust mälestuse mälestuste mälestustest mälestustes mälestustega mälestustele mälestusele mälestustesse mälestusest mälestuses mälestusega mälestusteks mälestusteta mälestustel mälestuseta mälestusse
+32	932	side	side sidet sidemeid sidemed sideme sidemete sidemetega sidemetest sidemega sidemest sidemetes sidega sides sidemeteta sidemes sidele sidemesse sidemetele sideta sidemeks sidemetesse sidest
+33	933	äär	ääres äärde äärel äärest ääre äärele ääreni äärt äär ääred äärelt ääri äärega äärte äärtes äärtel äärtest äärisega äärtesse äärtega
+34	934	lisa	lisa lisas lisad lisaga lisasid lissa lisades lisal lisale lisast lisadega lisasse lisalt lisata
+35	935	kõva	kõva kõvaks kõvad kõvem kõvast kõvade kõvasid kõvale kõval kõvema kõvemaid kõvas kõvadeks kõvadele kõvana
+36	936	kass	kass kassi kassid kasse kasside kassiga kassile kassist kassil kassidele kassidega kassidest kassidel kassiks kassilt
+37	937	klubi	klubi klubis klubisse klubist klubiga klubides klubile klubid klubil klubisid klubidesse klubidest klubide kluppi klubiks klubidega
+38	938	uurija	uurija uurijad uurijat uurijaid uurijate uurijaks uurijaga uurijale uurijatele uurijatel uurijana uurijatest uurijatega uurijal uurijast uurijalt
+39	939	lukk	luku lukus lukk lukud lukust lukke lukuga lukku lukkude lukkudega lukul lukule lukis lukkudest lukuta
+40	940	tõlkima	tõlkis tõlkinud tõlkida tõlgin tõlgitud tõlkima tõlgi tõlgib tõlkisid tõlkisin tõlkige tõlgiksid tõlkisime tõlkimatu tõlgiks tõlgiksin tõlgitakse tõlgivad tõlgiksite tõlgime tõlgid tõlkides
+41	941	pigem	pigem
+42	942	arve	arve arvesse arved arveid arvet arvele arvel arvelt arvete arvetega arvetele arvetest arvega arvest arvetel arvetelt arvena arves
+43	943	missioon	missioon missiooni missioonil missioonile missioonist missiooniks missiooniga missioone missioonid missioonidel missioonide missioonilt missioonis missioonidele missioonidest missioonideks missioonidega
+44	944	veenma	veenda veenev veenma veenis veensin veensid veenab veennud veenvalt veenan veenad veename veenvad veenaks veenmaks veensite veensime veenva veendud veena veenvat veenavad veenvaid veenge veendes veendi veenaksin veenate veenaksid veenvaks veenaksite
+45	945	põhjustama	põhjustas põhjustab põhjustada põhjustanud põhjustatud põhjustavad põhjustasid põhjusta põhjustasin põhjustaks põhjustades põhjustad põhjustama põhjustan põhjustame põhjustasime põhjustate põhjustasite põhjustamata põhjustaksid põhjustavat põhjustav põhjustamas
+46	946	iseenese	iseenda iseennast iseenesest iseendale iseendaga iseendast iseendaks iseend iseendana iseendasse iseenese iseendalt iseendas iseendile iseendi iseenesestki iseenesele iseeneses iseenesesse iseendiga iseenesega
+47	947	asukoht	asukoha asukoht asukohta asukohast asukohad asukohas asukohti asukohale asukohaga asukohtade asukohaks asukohani asukohal asukohtadest asukohtades asukohtadega asukohtadele
+48	948	sügav	sügaval sügav sügavale sügavamale sügavad sügava sügavat sügavas sügavam sügavasse sügavaim sügavaid sügavast sügavate sügavaks sügavaima sügavates sügavatest sügavatesse
+49	949	teesklema	teeselda teeskle teesklema teeskleb teeskled teesklen teeskleme teesklesin teeskles teesklesid teeseldes teeselnud teesklevad teeselge teesklete teeskleks teesklesime teeskleksin teeskleksid teesklesite teesklemast teeskleksime teesklev teesklemas teesklevat
+50	950	austama	austan austatud austa austada austama austab austavad austame austad austanud austatakse austage austasin austasid austate austaks austas austav austades austati austata austaksid austasime austataks austamaks austavalt austaksin austagem austasite austaksite austava austamas
+51	951	paber	paberid paber paberit pabereid paberi paberile paberil paberitele paberite paberitega paberist paberiga paberites paberitest paberitel paberilt paberisse paberiteta paberis paberitesse paberita paberitelt
+52	952	põletama	põletada põletab põleta põletas põletasid põletage põletame põletama põletan põletatud põletasin põletati põletavad põletanud põletad põletatakse põletasime põletades põletasite põletate põletaksid põletataks põletamas põletaksin põletata põletatav põletamatu põletaks põletamata põletav põletava põletavalt põletavat
+53	953	nurk	nurga nurka nurgas nurgal nurk nurgast nurgale nurgad nurki nurkades nurkadesse nurgalt nurkade nurgani nurkadest nurgaga
+54	954	nuga	nuga noa noaga noad nuge nugadega nugade noast nugasid noal noale nugadest noata noas noalt
+55	955	matma	maetud matta mata matsid mattis maeti matma matsin matame maetakse matan matnud matsime matab matke matavad matad maetaks matsite mataks matate mattes maeta maetuks matmata matmas mataksime mataksid mataksin
+56	956	armee	armee armeed armees armeega armeest armeesse armeele armeel armeeks armeede armeesid armeeta armeelt armeena armeedega
+57	957	kokkulepe	kokkulepe kokkuleppe kokkuleppele kokkulepet kokkuleppest kokkuleppeid kokkuleppega kokkulepped kokkuleppes kokkuleppel kokkuleppeni kokkulepetest kokkuleppeks kokkuleppesse kokkulepetega kokkulepetele kokkulepete kokkuleppeta
+58	958	külge	külge
+59	959	natukene	natukene natukeseks natukenegi natukese
+60	960	siig	siiani
+61	961	kohalik	kohalik kohalikud kohaliku kohalikku kohalike kohalikke kohalikus kohalikele kohalikust kohalikule kohalikest kohalikega kohalikel kohalikul kohalikult kohalikes kohalikelt kohalikuks kohalikesse kohalikuga
+62	962	hoone	hoone hoones hoonest hoonesse hoonet hooned hooneid hoonete hoonele hoonetes hoonetest hoonetesse hoonel hoonega hooneni hoonetele hoonelt hoonetel
+63	963	igavesti	igavesti
+64	964	uh	uh
+65	965	kood	kood koodi koodid koode koodeks koodeksi koodiga koodis koodeksit koodist koodide koodiks koodeksist koodile koodita koodidega koodeksile koodidest koodeksis koodidele koodeksid koodeksiga
+66	966	meri	mere meri merel merre merele merd meres merest mered merede mereni merelt merega meredes meresid meredel meredest mereks
+67	967	värdjas	värdjas värdjad värdja värdjaid värdjat värdjate värdjale värdjaga värdjast värdjatele värdjal värdjatest värdjaks värdjatel värdjatega värdjana
+68	968	teema	teema teemat teemal teemaks teemast teemadel teemaga teemad teemasid teemale teemas teemasse teemade teemadest teemadega teemani teemadele teemana teemaksu teemadesse
+69	969	ilm	ilmus ilm ilmas ilmaga ilmast ilmale ilmuks ilmad ilmu ilmal ilmade
+70	970	sihtmärk	sihtmärk sihtmärgi sihtmärki sihtmärgiks sihtmärgid sihtmärke sihtmärgile sihtmärgini sihtmärkide sihtmärgist sihtmärgil sihtmärgiga sihtmärkideks sihtmärkidest sihtmärkidele sihtmärkidega sihtmärgina sihtmärgis sihtmärgilt sihtmärkideni
+71	971	pall	palli pall pallid palliga palle pallile pallil pallist pallidega palliks pallide pallina pallidest pallini pallita pallis pallidel
+72	972	jube	jube jubedalt jubedad jubedat jubeda jubedaid jubedam jubedas jubedast jubedaks jubedate jubedasse jubedal jubedale jubedatest jubedana jubedates
+73	973	vabadus	vabaduse vabadus vabadust vabaduses vabadusse vabadusest vabadusele vabadusega vabadusi vabadused vabaduseks vabaduste vabadusel vabaduseni vabaduseta
+74	974	keppima	keppida kepi kepib keppinud keppima keppis keppisin kepin kepid keppisid kepivad kepime kepiks keppisime keppimas kepiksin kepitud kepiksid keppisite kepite keppige kepitakse keppides kepiti keppiv kepitav kepiksime keppigu
+75	975	eemal	eemal
+76	976	seis	seis seisu seisuga seisuks seisud seise seisul
+77	977	buss	bussi buss bussiga bussis bussist bussile bussid busside bussilt bussil busse bussidega bussidesse bussidest bussidele bussides bussidel bussini
+78	978	üksteist	üksteist ühtteist üheteistkümne üheteistkümnes üheteistkümneks üheteist üheteistkümneni ühteteist üheteistkümnest
+79	979	hammas	hambad hambaid hammaste hamba hammas hammastega hammast hammastest hammastele hammasteta hambaga hambast hammastes hammastel hambasse hammastelt hammastesse hambas hambal hambale
+80	980	seersant	seersant seersandi seersanti seersandile seersandiks seersandid seersandiga seersandil seersandist seersandilt
+81	981	täitsa	täitsa
+82	982	oletama	oletan oletame oletada oletasin oletades oletama oleta oletad oletatav oletatavalt oletasime oletas oletab oletavad oletagem oletatava oletate oletasid oletanud oletatavat oletage oletatakse oletatavad oletati oletatavast oletasite oletaks oletatavate
+83	983	andmed	andmed andmeid andmete andmetel andmetele andmetega andmetest andmeil
+84	984	halvasti	halvasti halvemini
+85	985	kana	kana kanna kanad kanal kanu kanade kanaga kanast kanadega kanale kanadest kanadele kanaks kanadel kanani kanadelt
+86	986	võmm	võmm võmme võmmidele võmmide võmmidega võmmiga võmmidel võmmidest võmmile võmmist võmmina võmmil võmmidelt võmmilt võmmideks
+87	987	kraam	kraami kraam kraamiga kraamist kraamile kraamis kraamil kraamita
+88	988	korrus	korrusel korrus korrusele korruse korrust korruselt korrused korrustel korruste korruseid korrusest korruseni korrusega korrustele korrustelt
+89	989	värv	värvi värv värvid värve värviga värvis värvide värvisid värvides värvidega värvist värviks värvidest värvile värvil värvidena värvidele
+90	990	vau	vau
+91	991	baar	baaris baari baar baarist baarides baarid baare baaridest baariga baarile baaride baaridesse baaril baarini
+92	992	leping	lepingu leping lepingut lepingule lepingud lepingust lepingus lepinguid lepinguga lepingute lepingusse lepingutele lepingul lepingutest lepinguta lepingutega lepinguks
+93	993	kummaline	kummaline kummalist kummaliselt kummalised kummalisi kummalise kummalisel kummaliseks kummaliste kummalisena kummalises kummalisest kummalistest kummalisse kummalistes kummalisele kummalistel
+94	994	peagi	peagi
+95	995	hallo	hallo
+96	996	ettevaatus	ettevaatust ettevaatus ettevaatuse ettevaatusega ettevaatuseks ettevaatusele ettevaatusest
+97	997	seni	seni
+98	998	üksinda	üksinda
+99	999	nõid	nõid nõiad nõia nõidade nõida nõidu nõiaga nõiale nõiast nõiaks nõidadest nõidadega nõial nõidadele nõidadel nõidasid nõiana nõialt nõidadeks nõidadesse nõidadena
+100	1000	haarama	haara haarata haaras haarab haarake haarasin haarama haaran haaratud haarad haaranud haarasid haarame haaravad haaraks haarav haaramas haarates haarate haaraksin haarasime haaraksid haaratakse haarasite haarati haaraku haaravat

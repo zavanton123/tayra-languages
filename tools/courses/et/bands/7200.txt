@@ -1,0 +1,100 @@
+1	7101	enneolematu	enneolematu enneolematut enneolematult enneolematud enneolematul
+2	7102	vaidlustama	vaidlustada vaidlusta vaidlustab vaidlustad vaidlustatud vaidlustas vaidlustama vaidlustan vaidlustanud vaidlustavad vaidlustasid
+3	7103	piiramine	piiramine piiramise piiramist piiramiseks piiramisest piiramisele piiramisel
+4	7104	skelett	skelett skeleti skeletti skeletid skelette skeletiks skelettide skeletist
+5	7105	notsu	notsu notsud
+6	7106	hubane	hubane hubast hubases hubaselt hubased
+7	7107	tuleriit	tuleriidal tuleriidale tuleriit tuleriida tuleriidad
+8	7108	haiguslugu	haiguslugu haigusloo haiguslood haiguslugusid haigusloost haigusloos haiguslugude
+9	7109	metssiga	metssiga metssea metssead metssigu metssigade metsseaga
+10	7110	allutama	allutada allutatud allutab allutama allutas allutanud allutavad allutati allutame
+11	7111	näriline	näriline närilised näriliste närilise närilisi närilist närilistega
+12	7112	tegur	tegur tegurid tegureid tegurit teguritest teguriks tegurite teguri
+13	7113	suurtükk	suurtükid suurtüki suurtükk suurtükki suurtükke suurtükkide suurtükist suurtükkidega
+14	7114	masturbeerima	masturbeerida masturbeerin masturbeerima masturbeerid masturbeerisin masturbeeris masturbeerib masturbeerinud masturbeerisid masturbeerides masturbeeri masturbeerivad masturbeeriv
+15	7115	trummar	trummar trummarit trummarid trummari trummariga trummariks
+16	7116	sugupuu	sugupuu sugupuud sugupuust sugupuus
+17	7117	kuulekas	kuulekas kuulekad kuulekaks kuulekalt kuuleka kuulekana
+18	7118	painaja	painaja painajad painajaid painajat painajast painajas painajatest
+19	7119	puutumatus	puutumatus puutumatuse puutumatust
+20	7120	ventilaator	ventilaator ventilaatori ventilaatorid ventilaatorit ventilaatorisse ventilaatoriga
+21	7121	eraisik	eraisik eraisikud eraisikuid eraisiku eraisikuna eraisikute eraisikut eraisikust eraisikutelt eraisikutele
+22	7122	sikutama	sikutab sikutada sikutan sikutama sikutage sikutas sikutad sikutasid sikutasin sikutame sikutanud
+23	7123	leiutaja	leiutaja leiutajat leiutajad leiutajaks leiutajaid
+24	7124	vedu	vedu veoks veo veoga vedude veod
+25	7125	initsiaal	initsiaalid initsiaalidega initsiaale initsiaal initsiaalide initsiaali
+26	7126	jutlustaja	jutlustaja jutlustajat jutlustajad jutlustajaga jutlustajaks
+27	7127	põnevam	põnevam põnevamaks
+28	7128	egiptlane	egiptlased egiptlane egiptlaste egiptlastele egiptlasi egiptlast
+29	7129	latiino	latiino latiinod latiinosid latiinode latiinot latiinost
+30	7130	tõelisus	tõelisus tõelisuseks tõelisuse tõelisust tõelisuses tõelisusega
+31	7131	keeldumine	keeldumine keeldumist keeldumise keeldumisega
+32	7132	suusatama	suusatama suusatada suusatamas suusatad suusatavad suusatan suusatasin suusatate suusatades
+33	7133	amneesia	amneesia amneesiat amneesiaga
+34	7134	võidujooks	võidujooks võidujooksu võidujooksus võidujooksul võidujooksust võidujooksuga võidujooksule
+35	7135	nokaut	nokauti nokaut nokaudiga nokaudis
+36	7136	sisejulgeolek	sisejulgeoleku sisejulgeolek sisejulgeolekuga sisejulgeolekust sisejulgeolekule sisejulgeolekus
+37	7137	usutavasti	usutavasti
+38	7138	tulem	tulemist tulem tulemi
+39	7139	kohtukuts	kohtukutse kohtukutset kohtukutseid kohtukutsed kohtukutsega
+40	7140	töökas	töökas töökad töökaid töökat tööka töökate
+41	7141	kohtupäev	kohtupäev kohtupäeva kohtupäeval kohtupäevaks kohtupäevani kohtupäevast
+42	7142	rahulolev	rahulolev rahulolevalt rahulolevad rahuloleva rahulolevana rahulolevaid rahulolevaks rahulolevat
+43	7143	mutrivõti	mutrivõti mutrivõtme mutrivõtit mutrivõtmega mutrivõtmed
+44	7144	prostitutsioon	prostitutsioon prostitutsiooni prostitutsiooniga prostitutsioonist prostitutsioonis
+45	7145	novell	novelli novell novelle novellis novellist novellid novelliga novellide novellides
+46	7146	kuumenema	kuumeneb kuumenes kuumenenud kuumenevad kuumenema kuumeneda kuumeneks kuumenesid kuumened
+47	7147	ebaõiglus	ebaõiglust ebaõigluse ebaõiglus ebaõiglusest ebaõiglusele ebaõiglusega
+48	7148	kahjur	kahjurid kahjur kahjureid kahjurite kahjuritest kahjuri kahjurit
+49	7149	kullatükk	kullatükk kullatükki kullatüki kullatükid
+50	7150	videokaamera	videokaamera videokaameraga videokaamerad videokaamerat videokaameraid
+51	7151	diktaator	diktaator diktaatori diktaatorid diktaatoriks diktaatoreid diktaatorit diktaatorite diktaatorile diktaatoriga
+52	7152	kopsupõletik	kopsupõletik kopsupõletikku kopsupõletiku kopsupõletikuga
+53	7153	alaline	alaline alalise alalist alaliseks alalised
+54	7154	riitus	riitus riituse riitust riitused riitusi riitusest
+55	7155	jaotama	jaotatud jaotatakse jaotame jaotada jaotab jaotati jaotas jaotama jaotavad jaotan jaotasin
+56	7156	terroriseerima	terroriseeris terroriseerib terroriseerida terroriseerinud terroriseerivad terroriseerisid terroriseerima terroriseeri terroriseeritakse terroriseeritud
+57	7157	majake	majake majakest
+58	7158	pagariäri	pagariäri pagariäris pagariärist pagariärisse
+59	7159	paarike	paarike paarikest paarikese paarikesed paarikesi
+60	7160	toanaaber	toanaaber toanaabri toanaabrid toanaabrit toanaabrite toanaabriga
+61	7161	liikumiskeeld	liikumiskeeld liikumiskeelu liikumiskeeldu liikumiskeeluni
+62	7162	vaatemäng	vaatemängu vaatemäng vaatemängule vaatemänge vaatemänguks
+63	7163	kalmaar	kalmaar kalmaari kalmaarid kalmaare kalmaaride
+64	7164	emakeel	emakeele emakeeles emakeel emakeelt
+65	7165	muusikaline	muusikaline muusikalise muusikalisi muusikalised muusikaliselt muusikaliste muusikalises muusikalisele
+66	7166	komplikatsioon	komplikatsioone komplikatsioonid komplikatsioon komplikatsioonide komplikatsioonidest komplikatsioonideta
+67	7167	jõulukink	jõulukink jõulukingi jõulukinke jõulukinki jõulukingid jõulukinkide jõulukingiks
+68	7168	esikülg	esiküljel esikülg esiküljele esikülje esikülge esikülgedel esikülgedele esiküljed
+69	7169	sisendama	sisendada sisendab sisendasin sisenda sisendas sisendama sisendasid sisendad sisendatakse sisendanud sisendan sisendati sisendavad
+70	7170	vaevatasu	vaevatasu vaevatasuks
+71	7171	suga	suga soa
+72	7172	gringo	gringo gringod gringosid gringot
+73	7173	antiik	antiik antiigi antiiki antiigiga antiigist
+74	7174	hooplema	hoobelda hoople hooples hooplema hoopled hooplesid hooplevad hoopleb hooplev hoopleks hooplen
+75	7175	mehaaniline	mehaaniline mehaanilise mehaanilised mehaanilist mehaanilisi mehaaniliste mehaaniliselt
+76	7176	tüvi	tüvi tüve tüved tüvesid tüvega tüvest tüvede
+77	7177	reklaamima	reklaamida reklaamib reklaamima reklaamivad reklaamime reklaamin reklaaminud reklaamiti reklaamitud reklaamitakse
+78	7178	tampoon	tampoon tampoone tampooni tampoonidega tampoonide
+79	7179	jupats	jupats jupatsid jupatsi
+80	7180	võõrastemaja	võõrastemaja võõrastemajas võõrastemajja
+81	7181	jõululaupäev	jõululaupäev jõululaupäeval jõululaupäeva
+82	7182	tekitamine	tekitamiseks tekitamise tekitamine tekitamist tekitamises
+83	7183	õnnestumine	õnnestumine õnnestumise õnnestumiseks õnnestumist õnnestumisi õnnestumised
+84	7184	sõnaõigus	sõnaõigust sõnaõigus
+85	7185	reliikvia	reliikvia reliikviaid reliikviad reliikviat reliikviate
+86	7186	toodang	toodang toodangut toodangu toodangust
+87	7187	tundmine	tundmine tundmist tundmise tundmisest tundmises
+88	7188	kimp	kimp kimbu kimpu kimbud kimbus kimbuta kimpe
+89	7189	kombits	kombitsad kombitsatega kombitsaid kombits kombitsat kombitsa kombitsate
+90	7190	kriitik	kriitik kriitikud kriitikute kriitiku kriitikuid kriitikutele
+91	7191	sark	sark
+92	7192	nõõ	nõõ
+93	7193	pupill	pupillid pupille pupillide pupill pupilli
+94	7194	viljatu	viljatu viljatuks viljatud viljatus viljatul viljatust viljatut
+95	7195	kalur	kalur kalurid kalurite kaluri kalureid kalurit kaluritele
+96	7196	ratsionaalne	ratsionaalne ratsionaalselt ratsionaalsed ratsionaalset ratsionaalse ratsionaalsete ratsionaalseid
+97	7197	aktiveeruma	aktiveerub aktiveerus aktiveeruvad aktiveerunud aktiveeru aktiveerusid aktiveeruda aktiveeruma
+98	7198	lihavõtted	lihavõtted lihavõtteid lihavõtete lihavõteteks lihavõteteni
+99	7199	aspekt	aspekt aspekte aspekti aspektid aspektist aspektis aspektides
+100	7200	käperdama	käperda käperdada käperdama käperdas käperdab käperdasid käperdage käperdatakse käperdad

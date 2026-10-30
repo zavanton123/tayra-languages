@@ -1,0 +1,100 @@
+1	701	alt	alt aldid
+2	702	korter	korter korteris korteri korterisse korterit korterist korterid kortereid korteriga korterite korterile korteril korteritest korteritesse korterites korterini korteriks korteriteks
+3	703	arvates	arvates
+4	704	vaikne	vaikselt vaikne vaiksemalt vaikse vaiksed vaikset vaikseks vaikses vaiksem vaiksel vaiksesse vaiksena vaiksest vaiksele vaikseid vaiksete vaiksetel
+5	705	ainuke	ainuke ainukesed ainukesena ainukene ainukese ainukest ainukeseks ainukesest ainukesele ainukeses ainukesi ainukestena ainukesel
+6	706	oi	oi
+7	707	info	infot info infoga infole infost infoks infota infol infosse
+8	708	tavaliselt	tavaliselt
+9	709	ohver	ohver ohvri ohvrid ohvreid ohvrit ohvrite ohvriks ohvritest ohvriga ohvril ohvrile ohvritele ohvritel ohvritega ohvrist ohvrilt ohvriteta ohvrina ohvriteks ohvritelt ohvrisse ohvritena ohvreiks ohvrites
+10	710	hind	hind hinna hinnaga hinda hinnata hinnad hindu hinnaks hinnast hinnas hindasid hindadega hindud hindade hinnale hindude hindadest
+11	711	nutma	nutma nuta nutad nutab nutta nuttis nutan nutsin nutnud nutsid nutmas nutavad nuttes nutke nutaks nutate nuttev nutame nutsime nutaksid nutva nutaksin nutvat nutsite nutmata nutetakse nutetud
+12	712	nina	nina ninna ninaga ninast ninad ninas ninale ninal ninasid ninade ninadega ninaks ninasse ninata ninadele ninalt ninani ninadest
+13	713	seitse	seitse seitsme seitsmes seitset seitsmest seitsmeks seitsmeni seitsmele seitsmel seitsmega seitsmesse seitsmed seitsmeid seitsmelt
+14	714	pealegi	pealegi
+15	715	tänane	tänaseks tänane tänase tänast tänasest tänasel tänased tänases tänasele tänaste tänaseid tänasega tänasesse tänastest tänastes tänastele tänastel
+16	716	pähe	pähe pähegi
+17	717	parandama	parandada parandama paranda parandab parandan parandatud parandas parandame parandanud parandasin parandad parandasid parandamatu parandaks parandage parandavad parandatakse parandasime parandamas parandaksid parandatav parandamatult parandati parandades parandate parandamatud parandaksin parandasite parandata parandamata parandamatut parandav parandaksime
+18	718	naerma	naerma naera naerab naerad naerda naeravad naersid naeris naeran naerate naerame naerge naernud naersime naersin naermas naeraks naerdes naerdakse naeraksid naersite naerdi naeraksin naerev naerdud naeraksime naerdaks naermata naermast
+19	719	seepärast	seepärast
+20	720	klient	klient kliendid kliente kliendi klienti klientide klientidele kliendiga kliendile klientidega klientidest kliendil kliendiks klientidel kliendist kliendilt klientidelt kliendina klientideks kliendis
+21	721	igatahes	igatahes
+22	722	normaalne	normaalne normaalselt normaalsed normaalset normaalseks normaalse normaalsena normaalseid normaalsest normaalsete normaalses normaalsel normaalsem normaalsesse normaalsele normaalsetel normaalsetest normaalsega normaalsetena normaalsetele normaalseteks normaalsetes
+23	723	küla	külla küla külas külast külasse külasid külad külale külades külade küladest küladesse külani külaga külalt küladele külal
+24	724	seletama	seletada seletan seletab seleta seletama seletad seletaks seletasin seletas seletamatu seletate seletage seletaksid seletanud seletame seletasid seletamatut seletaksite seletavad seletamatuid seletamatult seletamatud seletaksin seletamatul seletatav seletabki seletatud seletamatute seletamaks seletades seletamas seletasite seletasime seletamatuks seletatakse seletamatutel seletagu
+25	725	viin	viin viina viinaga viinast
+26	726	kaitse	kaitse kaitset kaitseks kaitsed kaitses kaitseta kaitsest kaitsete kaitsesse kaitsele kaitsega kaitsmed kaitsel kaitsmeid kaitsme kaitsena kaitseid kaitsetest kaitsmetega
+27	727	ala	ala alal alata alust alus alale alani alas alad alalt aladel alast alana alasid aladele alasse alul alade alaga aladelt alaks alades aladest aladega
+28	728	valmistama	valmistada valmistatud valmistab valmista valmistan valmistas valmistama valmistanud valmistasin valmistage valmistasid valmistad valmistame valmistavad valmistati valmistaks valmistatakse valmistasime valmistav valmistate valmistasite valmistades valmistamas valmistaksin valmistaksid valmistamata valmistata valmistaksite valmistamaks
+29	729	muusika	muusika muusikat muusikaga muusikast muusikali muusikal muusikas muusikale muusikata muusikasse muusikaks
+30	730	vaene	vaene vaesed vaese vaest vaeste vaeseid vaestele vaesele vaesest vaesel vaeseks vaeselt vaesem vaesena vaestest vaestel vaeses vaestelt vaesemad vaestega vaesesse vaesemate vaestes vaestena
+31	731	tekitama	tekitab tekitada tekitas tekitavad tekitanud tekita tekitatud tekitad tekitasid tekitama tekitasin tekitan tekitades tekitav tekitame tekitaks tekitate tekitage tekitasime tekitasite tekitati tekitamata tekitatakse tekitavat tekitaksid tekitaksime tekitamaks tekitavate
+32	732	andestama	andesta andestage andestada andestan andestama andestab andestad andestanud andestaks andestas andestate andestatud andestasin andestavad andestagu andestame andestaksid andestasid andestatakse andestata andestaksin andestaksite andestataks andestades
+33	733	suudlema	suudelda suudle suudles suudlesid suudlen suudlesin suudelnud suudlema suudled suudlesime suudleb suudlemas suudleme suudelge suudleks suudlevad suudlesite suudleksid suudleksin suudeldes suudeldud suudlete suudleksite suudeldakse suudlev suudeldav suudlemata
+34	734	pood	poodi poes poe poest pood poed poodides poega poodidesse poode poel poeta poodide poeks poodidest poele poeni
+35	735	kannatama	kannata kannatada kannatama kannatanud kannatab kannatavad kannatan kannatad kannatas kannatamatult kannataks kannatamatu kannatasid kannatamas kannatasin kannatame kannatate kannatanu kannatage kannataksid kannatamatuks kannatanuid kannatasime kannatades kannatanut kannataksin kannatav kannatavat kannatasite kannatanute kannatamatud kannatava kannatamatus kannatavaid kannatanutele kannatavate kannatavatele
+36	736	hobune	hobune hobuse hobused hobust hobuseid hobuste hobusel hobusega hobustega hobusele hobustele hobustest hobuselt hobustel hobusest hobuseta hobustelt hobuseks hobuses hobusena hobusteta
+37	737	järgnema	järgne järgnege järgneb järgnevad järgnes järgneda järgnesin järgnen järgneme järgneva järgnev järgnema järgnesid järgnenud järgned järgneks järgnevat järgnete järgnesime järgneksid järgneksite järgnedes järgneksime järgneksin järgselt järgnesite järgnemas järgse järgnegu järgnemast järgset järgsest
+38	738	loobuma	loobuda loobuma loobu loobun loobusin loobunud loobus loobusid loobud loobub loobume loobuks loobuksin loobuvad loobuksid loobute loobuge loobusime loobuti loobusite loobudes loobutakse loobutud loobuksime loobumas loobuksite loobumast
+39	739	puudutama	puudutab puuduta puudutada puudutas puudutanud puudutavad puudutad puudutage puudutasid puudutasin puudutan puudutama puudutatud puudutaks puudutades puudutav puudutamata puudutatakse puudutate puudutavaid puudutame puudutava puudutaksid puudutasime puudutavat puudutasite puudutatuna puudutata puudutamas puudutaksin puudutavatele puudutati puudutataks
+40	740	aken	akna aknast aken aknad akent aknaid akende aknal akendest aknale aknasse akendega aknaga aknas akendel akendeta akendele akendesse aknalt aknani akendes
+41	741	päriselt	päriselt
+42	742	sulgema	sulgeda sulge sulgege sule sulgema sulgeme suletakse sulges sulgen suleti suled sulgeb sulgenud sulgesin sulgesid sulgevad sulen sulged suletuks sulgesime suleb sulgete sulgeksid sulgemas sulgesite sulgedes sulgeks suletaks suleme sulgeksite sulgeksin sulevad suleksid sulgetakse sulgeksime suleks sulete sulgemata
+43	743	valgus	valgus valgust valguse valguses valgusesse valgusega valgusest valgusele valgusel valguseks valgusse valguseta valguseni valgused
+44	744	õnnestuma	õnnestus õnnestub õnnestunud õnnestu õnnestuks õnnestuda õnnestuma õnnestuvad õnnestunult õnnestusid õnnestunudki õnnestud õnnestume õnnestunuks õnnestuvat õnnestute
+45	745	pime	pime pimedas pimedaks pimedat pimedad pimeda pimedasse pimedate pimedal pimedast pimedaid pimedale pimedani pimedalt pimedana pimedam pimedates pimedatele pimedamaks pimedatel pimedatest pimedatesse pimedatena pimedaga pimedateks pimedamasse
+46	746	mõnikord	mõnikord
+47	747	öösel	öösel
+48	748	nimekiri	nimekirja nimekiri nimekirjas nimekirjast nimekirjaga nimekirjad nimekirju nimekirjale nimekirjades nimekirjadest nimekirjade nimekirjadega nimekirjaks
+49	749	arvatavasti	arvatavasti
+50	750	valitsus	valitsuse valitsus valitsust valitsusele valitsuses valitsusega valitsusest valitsusel valitsused valitsuselt valitsusse valitsuste valitsusi valitsustega valitsustele
+51	751	vanaema	vanaema vanaemale vanaemaga vanaemal vanaemalt vanaemast vanaemaks vanaemad vanaemade vanaemasid vanaemana
+52	752	puhkama	puhata puhkama puhka puhkab puhake puhkame puhkan puhaku puhanud puhkad puhkavad puhkamas puhkas puhkaks puhkasin puhkate puhkasid puhkaksid puhates puhkasime puhkamata puhkasite puhkaksite puhkamast puhkaksime puhkaksin
+53	753	muna	munad muna mune munade munadesse munadega munadest munaga munast munadele munadel munes munadeta munasid munas munades munale munal munadeni munele munaks munadelt munata muneks
+54	754	veider	veider veidralt veidrat veidrad veidraid veidra veidraks veidram veidral veidrate veidras veidraim veidrast veidrana veidratest veidrale veidrasse veidrates
+55	755	piir	piiri piir piire piirid piiril piirini piires piirile piiride piirist piiridest piirides piirideta piiridesse piiriks piirilt piiridel piirideni piiresse piiridega piiridele piiris piirest
+56	756	hüvasti	hüvasti
+57	757	hotell	hotelli hotellis hotell hotellist hotellid hotelle hotellides hotellide hotellile hotellidest hotelliga hotellil hotellidesse hotellini hotelliks hotellidele hotellidega
+58	758	ammu	ammu
+59	759	seadus	seadus seaduse seadust seadused seadusi seaduste seadusega seadusest seadustest seadusele seaduseks seadustele seaduseid seadustega seaduses seadusel seadusesse seadusteta seadustes seadustesse
+60	760	ülesanne	ülesanne ülesande ülesandeks ülesannet ülesandeid ülesanded ülesandega ülesandele ülesannete ülesandest ülesandel ülesannetega ülesannetest ülesandes ülesandelt ülesandesse ülesannetele ülesandena ülesannetes ülesanneteks ülesandeni ülesannetel
+61	761	rahulikult	rahulikult rahulikumalt
+62	762	taas	taas
+63	763	oo	oo
+64	764	igavene	igaveseks igavene igavese igavest igavesed igavesest igavesse igaveses igavesele igavesi igaveste igavesel
+65	765	saar	saarel saar saarele saare saarelt saart saarte saartel saared saarest saartele saari saartelt saartest saarega saareks saareni saarteni saares
+66	766	firma	firma firmas firmat firmast firmale firmasse firmad firmaga firmal firmade firmasid firmalt firmadele firmadest firmadega firmadel firmadesse firmades firmadelt firmaks
+67	767	mets	metsa metsas mets metsast metsad metsades metsi metsade metsadest metsaga metsadesse metsani metsale metsal metsis
+68	768	mainima	maininud mainis mainisin mainida mainisid mainima mainimata mainitud maini mainin mainisite mainid mainiti mainitakse mainib mainita mainiks mainige maininudki mainides mainiksin mainite mainimas mainimast mainivad mainisime mainime mainitavat mainitaks mainiksid
+69	769	isiklik	isiklik isiklikku isikliku isiklikud isiklikke isiklikuks isiklike isiklikust isiklikest isiklikel isiklikus isiklikul isiklikule isiklikes isiklikum isiklikesse isiklikele isiklikeks isiklikuna
+70	770	kala	kala kalad kalu kalale kalal kalla kalade kalaga kaladega kaladele kalast kaladest kaladel kalaks kallad kalasid kalas kalana kalades kalalt
+71	771	hoog	hoogu hoolt hood hoo hoog hoole hoos hooga hooks hool hoogusid hooge hoogude hoost
+72	772	vara	vara varas varast varad varade varasid varaga varadest varale varal varadega varadele
+73	773	kaamera	kaamera kaamerad kaamerat kaameraid kaameraga kaamerasse kaamerate kaamerast kaameratega kaameras kaamerale kaameratest kaameratele kaameral kaameratesse kaamerata kaamerateta kaameratel kaameralt
+74	774	lülitama	lülita lülitada lülitatud lülitage lülitan lülitama lülitas lülitasin lülitame lülitasid lülitab lülitanud lülitad lülitati lülitatakse lülitavad lülitaks lülitaksid lülitasime lülitate lülitasite lülitades lülitaksite lülitataks lülitaksin
+75	775	kõrval	kõrval
+76	776	kivi	kivi kivid kive kivide kivist kividega kiviga kividest kiviks kivisse kivile kividel kivil kividele kivis kivilt kivides kivisid kividesse kivini kivina kivideni kividelt kivita
+77	777	kõvasti	kõvasti
+78	778	külaline	külaline külalised külalisi külaliste külalist külalistele külalise külalistega külalistest külalisena külalisele külaliseks külalisega külalistel külalisel külalisteks külalisest külalistes külalistena
+79	779	hulk	hulgas hulka hulk hulgast hulga hulgal hulki hulgale hulgaga hulkades hulkadena hulgad hulgaks
+80	780	lahendama	lahendada lahendatud lahendame lahendama lahenda lahendab lahendamata lahendan lahendanud lahendasid lahendasin lahendas lahendad lahendaks lahendasime lahendavad lahendate lahendatakse lahendage lahendasite lahendata lahendatav lahendamatu lahendaksin lahendamas lahendati lahendaksid lahendaksite lahendaksime lahendades lahendamaks
+81	781	tuttav	tuttav tuttavaks tuttavad tuttavat tuttavalt tuttavaid tuttava tuttavana tuttavatest tuttavate tuttavatele tuttavale tuttavaga tuttavatega tuttavast tuttaval tuttavatel tuttavasse tuttavas tuttavateks tuttavatelt tuttavates tuttavam
+82	782	avastama	avastasin avastas avastada avastanud avastasid avastasime avastatud avastab avastati avastavad avastad avastama avastatakse avastamata avastan avastame avastasite avastaks avasta avastate avastamas avastades avastataks avastamaks avastaksid avastamatu avastata avastaksin avastage avastaksime avastatav
+83	783	reis	reisi reis reisile reisil reisist reisid reisiks reisis reise reied reisilt reisides reisiga reisidel reie reisisid reite reide reiside reisidest reit reisidelt reiel reisideks reisidele reies reitele reitel reiest reitega reielt reitest
+84	784	tegutsema	tegutsema tegutseda tegutseb tegutse tegutseme tegutsevad tegutsen tegutsenud tegutses tegutsege tegutsed tegutsesid tegutsemas tegutsesin tegutsete tegutsedes tegutseks tegutsesime tegutsesite tegutseksid tegutsemast tegutsetakse tegutseksin tegutsegem tegutseksime
+85	785	saatus	saatus saatuse saatust saatusega saatusest saatusele saatuseks saatusesse saatusel saatused saatuses saatuselt saatuseid saatuste saatusi saatuseni saatustega
+86	786	tabama	tabas tabada tabab tabanud tabasin tabasid tabasime tabama tabati tabatakse tabame taban tabavad tabaks tabasite tabate tabataks tabagu tabage tabamata tabaksid tabamas tabatav tabatuna tabaksin tabanuks tabamaks
+87	787	vabastama	vabastada vabasta vabastage vabastatud vabastama vabastan vabastab vabastati vabastas vabastatakse vabastasid vabastame vabastad vabastanud vabastavad vabastaks vabastasin vabastav vabastate vabastasime vabastades vabastaksid vabastataks vabastaksite vabastata vabastasite vabastaksin vabastamast vabastaksime vabastamaks vabastagu vabastavat
+88	788	õnnetus	õnnetus õnnetuse õnnetust õnnetusest õnnetuses õnnetuseks õnnetusi õnnetused õnnetusse õnnetusega õnnetuste õnnetusena õnnetustest õnnetusele õnnetustes õnnetusteta õnnetuseni õnnetusteks õnnetusel õnnetustesse
+89	789	uni	und unes uni une unne unest unega unele uneski unedes uned unesid undki unede uneks uneta unedesse unedest unel
+90	790	aju	aju ajud ajusid ajju ajuga ajudeta ajude ajudega ajudesse ajudes ajus ajudele ajudest ajust ajuni ajule ajusse ajuta ajul ajuks
+91	791	värav	värava värav väravad väravat väravast väravate väravas väravasse väravaid väravani väravatest väravaga väravale väravates väravateni väraval väravatesse väravaks väravatega väravatele väravata väravatel
+92	792	võimatu	võimatu võimatuks võimatut võimatud võimatuna võimatult võimatus võimatust võimatuid võimatute võimatusse võimatuga võimatule võimatum võimatusest võimatutes võimatuse
+93	793	sünnipäev	sünnipäev sünnipäevaks sünnipäeva sünnipäeval sünnipäevale sünnipäevad sünnipäevi sünnipäevast sünnipäevani sünnipäevade sünnipäevaga sünnipäevadel sünnipäevadest sünnipäevalt sünnipäevasid
+94	794	rünnak	rünnak rünnaku rünnakut rünnakule rünnakud rünnakuks rünnakust rünnakuid rünnakute rünnakuga rünnakus rünnakul rünnakutega rünnakutest rünnakutes rünnakutele rünnakuni rünnakusse rünnakuna rünnakutel
+95	795	varjama	varjata varjatud varjab varjama varjanud varjas varjavad varjasid varjate varjan varjasin varjame varjaks varjates varjasite varjatakse varjamaks varjatuna varjake varjatuks varjasime varjati varjamata varjaksin varjamas varjaksid varjavat varjatu varjatut
+96	796	väsinud	väsinud väsinuna väsinult väsinum väsinuks
+97	797	advokaat	advokaat advokaadi advokaati advokaadile advokaadid advokaadiga advokaate advokaatide advokaadina advokaadiks advokaatidega advokaatidele advokaadist advokaadita advokaadilt advokaadil advokaatidel advokaatidest advokaatidelt
+98	798	peatuma	peatu peatuda peatub peatuge peatume peatuma peatunud peatusid peatusime peatun peatud peatusin peatuvad peatute peatuks peatusite peatuksid peatumata peatudes peatuksime peatumatu peatumas peatuksin peatumatult
+99	799	kahtlema	kahtlen kahtlemata kahtle kahtlema kahelda kahtled kahelnud kahtlesin kahtleb kahtlete kahtlesid kaheldav kahtlevad kahtleks kahtles kahelge kahtleme kahtlev kaheldava kahtlesite kahtlesime kaheldes kahtlemas kahtleksid kaheldakse kahtleksin
+100	800	igaüks	igaüks igaühe igaühel igaühele igaühega igaüht igaühte igaühest igaühelt igatühte igatüht

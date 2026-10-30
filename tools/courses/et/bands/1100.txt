@@ -1,0 +1,100 @@
+1	1001	rahulik	rahulik rahulikuks rahulikud rahulikku rahulikum rahuliku rahulikuna rahulikus rahulikul rahulikke rahulikust rahulike rahulikena rahulikumad rahulikule
+2	1002	ülemus	ülemus ülemuse ülemused ülemusega ülemusele ülemust ülemustele ülemuste ülemuseks ülemusi ülemustega ülemuselt ülemusel ülemusena ülemusest ülemustest ülemustelt ülemustel ülemusteks
+3	1003	arm	arm armu armus armi armid armusid arme armust armud armuks armiga armule armide armidega armuga armidest armuta armul armudes armis
+4	1004	õigesti	õigesti
+5	1005	valvur	valvurid valvur valvurit valvurite valvuri valvureid valvuritest valvuritele valvuritega valvurile valvuritel valvuriga valvurist valvuriks valvuril valvurina valvurilt valvuriteks valvuritelt valvuriteta
+6	1006	määrama	määratud määrati määrab määran määratakse määranud määravad määrama määramata määrame määrasin määrasime määrake määrasite määrates määrataks määrate määratu määraksid määramaks määraksite määravat
+7	1007	ideaalne	ideaalne ideaalselt ideaalse ideaalsed ideaalset ideaalses ideaalseks ideaalsest ideaalseid ideaalsele ideaalsem ideaalsel ideaalsete ideaalsesse ideaalseteks
+8	1008	loe	loe loete loodes loode loodesse loodest looded loodeid
+9	1009	liige	liige liikmed liiget liikmeid liikmeks liikme liikmete liikmetele liikmetega liikmena liikmetest liikmega liikmele liikmetel liikmest liikmeteks liikmel liikmetena liikmelt liikmetelt
+10	1010	aadress	aadress aadressi aadressil aadressile aadressid aadresse aadressiga aadressiks aadressilt aadresside aadressini aadressist aadressita aadressis aadressidele aadressidel
+11	1011	valvama	valva valvama valvab valvata valvan valvavad valvas valvake valvad valvsad valvame valvatakse valvanud valvatud valvaks valvasid valvate valvaksid valvamas valvasin valvsa valvaku valvates valvati valvsaks valvaksin valvasime valvasite valvsana valvataks valvsalt valvatav valvaksite valvav
+12	1012	julge	julge julged julgete julgelt julgeks julges julgem julgemalt julget julgeid julgetele julgemat julgele julgest julgel
+13	1013	möödas	möödas
+14	1014	vein	veini vein veiniga veinist veine veinis veinid veiniks veinidest veinile veinide veinil veinidega veinita
+15	1015	osakond	osakond osakonna osakonnas osakonda osakonnast osakonnale osakonnaga osakonnal osakonnad osakondade osakondi osakondades osakondadest osakonnaks osakonnalt
+16	1016	kuulus	kuulus kuulsaks kuulsad kuulsa kuulsat kuulsam kuulsaid kuulsate kuulsast kuulsale kuulsas kuulsal kuulsama kuulsatest kuulsasse kuulsalt kuulsatele kuulsana kuulsatel
+17	1017	näljane	näljane näljased näljast näljaseks näljasena näljase näljaseid näljaste näljasem näljastele näljaselt näljasele näljastena näljasest näljastest
+18	1018	lahing	lahingus lahing lahingu lahingut lahingusse lahinguks lahinguid lahingud lahingust lahingutes lahingutest lahingute lahinguga lahinguta lahingule lahinguis lahinguni lahinguteks lahingul
+19	1019	jõgi	jõe jõgi jõge jõkke jõest jõel jõed jões jõele jõgede jõeni jõgesid jõgedest jõgedes jõelt jõega jõgedel jõena jõgedesse jõeks jõgedeks
+20	1020	keelama	keelatud keelas keelata keelasin keelab keelan keela keelanud keelati keelasid keelavad keelad keelama keelaks keelatakse keelatut keelate keelame keelasite keelasime keelake keelates keelatu
+21	1021	sõrm	sõrme sõrmed sõrm sõrmi sõrmega sõrmede sõrmedega sõrmes sõrmest sõrmedel sõrmedes sõrmedele sõrmedest sõrmele sõrmel sõrmedeta sõrmedesse sõrmedelt
+22	1022	mõõk	mõõk mõõga mõõka mõõgaga mõõgad mõõgast mõõku mõõkadega mõõgale mõõkade mõõgal mõõgata mõõgaks mõõgas mõõkasid mõõkadest
+23	1023	kuri	kuri kurja kurjad kurjast kurjaks kurjade kurje kurjem kurjale kurjalt kurjadest kurjaga kurjal kurjas kurjana kurjasid kurjadele kurjadesse
+24	1024	takistama	takistada takistab takista takistama takistanud takistas takistaks takistavad takistad takistan takistasid takistame takistasin takistamaks takistage takistate takistatud takistades takistamas takistaksid takistasime takistati takistasite takistavat takistatakse takistata takistamast takistaksin
+25	1025	usk	usku usk usud usuks usus usust uskusid usuga usule uskudes usul uskude usuta uske
+26	1026	viimati	viimati
+27	1027	rind	rinnad rindu rinda rind rinna rinnal rinnale rinnus rindade rinnas rinnaga rinnust rindadega rinnast rinde rindadest rinnalt rindadele rindasid rindades rindadel rindadesse rinnuni rindadeks rindadelt
+28	1028	punkt	punkti punkt punkte punktid punktis punktiga punktist punktini punktide punktidega punktides punktile punktidest punktiks punktidesse punktidele
+29	1029	pärit	pärit
+30	1030	vari	varju varjus vari varja varjude varjud varjul varjust varjudes varje varjule varjudest varjusid varjuna varjudesse varjuks varjuga varjuta varjudega varjudel
+31	1031	tunnistaja	tunnistaja tunnistajaks tunnistajad tunnistajaid tunnistajat tunnistajate tunnistajateks tunnistajaga tunnistajatega tunnistajale tunnistajana tunnistajatest tunnistajast tunnistajal tunnistajateta tunnistajatelt tunnistajaiks tunnistajatele tunnistajatena tunnistajatel tunnistajalt tunnistajata
+32	1032	teadmine	teadmiseks teadmised teadmine teadmisi teadmisega teadmiste teadmistega teadmist teadmise teadmisest teadmises teadmistest teadmistele teadmistes teadmisel teadmiseid teadmiseta teadmisteta teadmisele teadmistesse
+33	1033	pilk	pilk pilgu pilku pilguga pilgud pilgust pilkude pilgul pilgus pilgule pilkudega pilkugi pilkudest
+34	1034	kuld	kulla kuld kulda kullast kullaga kullas kullaks kullale kuldi kullata kullana kulliks kullil
+35	1035	häirima	häirib häiri häirida häiritud häiriv häiris häirinud häiriks häirivad häirivat häirima häirivaid häirid häirin häirisin häirivalt häirisid häiriva häirite häirige häirivaks häirisime häiritaks häirime häirimatult häirimata häirimatu häirita häirivate häiriksid häiriti häiritakse
+36	1036	võõras	võõras võõrad võõra võõraid võõraste võõrast võõrastega võõraga võõrastele võõrale võõral võõraks võõralt võõrasse võõrastesse võõrana võõrastel võõrastest võõrastelt võõrastes võõram võõrasteks
+37	1037	puhkus	puhkust puhkus puhkusel puhkuse puhkusele puhkuseks puhkusest puhkuselt puhkused puhkusega puhkuseta puhkuseid puhkuste puhkustel puhkusi
+38	1038	lend	lend lendu lennu lennule lennuga lennul lennud lennust lennult lennuks lennus lennuta lende lendude lendudest lendudele lendudel lendudega lennuni
+39	1039	meeter	meetrit meetri meeter meetrini meetreid meetrile meetrid meetrite meetriga meetrilt meetril
+40	1040	mark	mark marki marka marke margi margid markide marga margad marku margile margiga markidega margaga margele
+41	1041	ohvitser	ohvitser ohvitserid ohvitseri ohvitseride ohvitsere ohvitseriga ohvitserile ohvitseridele ohvitseriks ohvitseril ohvitserina ohvitseridest ohvitseridega ohvitseridel ohvitserist ohvitserilt
+42	1042	lõhn	lõhna lõhn lõhnad lõhnas lõhnast lõhnaga lõhnu lõhnasid lõhnale lõhnaks lõhnata lõhnade lõhnadest
+43	1043	park	parki park pargis pargi parkide pargist pargid parkisid parkides pargiks pargile parke pargiga pargini parkidest parkidesse
+44	1044	teade	teade teateid teadet teated teadete teatega teatel teates teatest teatele teadetele teadeteni teadetega teateni teadetest teadetel teateks
+45	1045	tegevus	tegevus tegevust tegevuse tegevuses tegevusest tegevused tegevusega tegevusi tegevusele tegevusse tegevuste tegevuseks tegevusel tegevustest tegevustega tegevuseta tegevustes tegevustele tegevusena tegevustel tegevusteks
+46	1046	inglise	inglise
+47	1047	käik	käigus käik käiku käigu käike käigud käiguga käigust käikude käikudest käigule käiguks käigult käigul käikudesse käikudega käikudes käiguna
+48	1048	ravim	ravimeid ravim ravimit ravimid ravimi ravimite ravimist ravimitega ravimitest ravimiga ravimitele ravimiks ravimile ravimiteta ravimil ravimitel ravimites ravimitesse ravimis ravimisse ravimiteks
+49	1049	mõju	mõju mõjus mõjuta mõjuks mõjul mõjud mõjusid mõjust mõjuga mõjule mõjude mõjudest mõjudega
+50	1050	lind	lind linnud linde lindu lindude linnu lindudega lindudest linnuga lindudele lindudel linnuna lindudeks linnul linnust linnule lindusid linnuks linnus lindudelt
+51	1051	roheline	roheline rohelised rohelise rohelist roheliseks rohelises roheliste rohelisi rohelisse rohelisest rohelisele rohelisel rohelisem rohelisega roheliselt rohelistele rohelistes rohelistest rohelisena rohelistel rohelisteks
+52	1052	suruma	suru suruda surub surutud suruma surus suruge surun surud surume surunud surusid suruvad surusin surutakse suruti surudes suruks surusime surute suruksin suruksid surumas surusite suruga
+53	1053	pisike	pisike pisikese pisikesed pisikest pisikesi pisikeste pisikesel pisikeses pisikesest pisikesele pisikesse pisikeseks pisikesteks pisikestest pisikesega pisikestele pisikestes pisikesena pisikestesse
+54	1054	president	presidendi presidendiks presidenti presidendile presidendiga presidendil presidendina presidendilt presidendid presidente presidendist presidentide presidendini presidentidest presidentidele
+55	1055	naasma	naasta naaseb naasma naasen naase naasnud naaseme naasis naasevad naased naastes naasin naasid naaske naasete naaseks naaseksid naasime naasmas naasesid naasite naaseksin naaseksite naastud naaseksime naasmast
+56	1056	miil	miili miilide miile miil miilid miilil miilist miilides miiliga miiliks miilini miilile
+57	1057	patsient	patsient patsiendi patsiendid patsiente patsienti patsientide patsiendiga patsiendil patsientidele patsiendile patsientidega patsientidest patsientidel patsiendist patsiendiks patsiendilt patsiendina patsientidelt patsiendis
+58	1058	jälg	jäljed jälgi jälje jälgegi jälg jälge jälgedes jälgede jälgedele jälgedel jälgedega jälgedest jälgedesse jälgedelt jäljega jälgedeta jäljele jäljest jäljes
+59	1059	pakkumine	pakkumine pakkumise pakkumist pakkumisi pakkumisest pakkumisega pakkumised pakkumisele pakkumistele pakkumistega pakkumiste pakkumiseks pakkumisel pakkumises pakkumistest
+60	1060	vaht	vahi vahid vahele vahti vahtu vaht vahtisid vahtides vahelt vahis vahiks vahuta vahuga vahule vahu vahtide vahus vahist vahul vahte vahust vahes vahesse vaheks
+61	1061	kleit	kleit kleidi kleiti kleidis kleidid kleidiga kleite kleidist kleitide kleidile kleitides kleidil kleitidest kleitidega kleitidele
+62	1062	rühm	rühm rühma rühmas rühmaga rühmast rühmad rühmale rühmal rühmades rühmi rühmade rühmadesse rühmadena rühmana rühmaks rühmadeks rühmadele rühmalt rühmadest rühmadega rühmadel
+63	1063	lisaks	lisaks
+64	1064	tihti	tihti
+65	1065	kõri	kõrini kõri kõrist kõrri kõrid kõril kõris kõrisse kõrile kõrisid kõriga kõride
+66	1066	vallandama	vallandatud vallandada vallandati vallandas vallandatakse vallandama vallandasid vallanda vallandab vallandan vallandasin vallandad vallandanud vallandavad vallandata vallandataks vallandaks vallandage vallandate vallandasite vallandame vallandasime vallandades vallandaksid vallandaksin
+67	1067	kallal	kallal
+68	1068	kohtunik	kohtunik kohtuniku kohtunikud kohtunikule kohtunikku kohtunike kohtunikuga kohtunikuks kohtunikke kohtunikele kohtunikul kohtunikust kohtunikult kohtunikega kohtunikuna kohtunikel kohtunikest kohtunikelt kohtunikeks
+69	1069	tutvustama	tutvustada tutvustan tutvusta tutvustas tutvustama tutvustab tutvustasin tutvustatud tutvustanud tutvustame tutvustad tutvustasid tutvustaks tutvustage tutvustaksin tutvustati tutvustaksid tutvustatakse tutvustades tutvustate tutvustavad tutvustaksite tutvustamas tutvustasite tutvustasime tutvustav
+70	1070	libu	libu libud libuga libuks libule libusid libul libust libude libudest libudega libult libudele libuna libudel
+71	1071	tõbras	tõbras tõprad tõpra tõbrast tõpraid tõprale tõbraste tõpral tõbrastele tõpraga tõprast tõpraks tõbrastest tõbrastel tõprana tõbrastega
+72	1072	räpane	räpane räpased räpast räpase räpaseid räpaseks räpaste räpaselt räpases räpasest räpasena räpastest räpasem räpasesse räpasel räpastes räpasele räpastesse räpastele räpaseim räpasteks
+73	1073	üksteise	üksteise üksteisele üksteisega üksteisest üksteisel üksteiselt üksteisesse üksteises üksteiseta üksteiste
+74	1074	nõrk	nõrk nõrgad nõrgaks nõrga nõrgemaks nõrgem nõrku nõrka nõrgana nõrkade nõrgim nõrkadele nõrgalt nõrkadest nõrgale nõrgast nõrgas nõrkasid nõrkadena nõrkadeks nõrgal nõrgus nõrkadel
+75	1075	vampiir	vampiir vampiirid vampiiri vampiiride vampiire vampiiriks vampiiridest vampiiridega vampiiridele vampiiriga vampiirist vampiirile vampiiridel vampiirina vampiirideks vampiiril vampiiridesse
+76	1076	niisama	niisama
+77	1077	mulje	muljet mulje muljeid muljed
+78	1078	liha	liha lihast lihaga lihaks lihas lihata lihal lihale lihasse
+79	1079	enamus	enamus enamuse enamusel enamuses enamust enamusele enamustel enamusest enamuselt enamusega enamused enamusi enamuste enamustele enamustes
+80	1080	toetama	toetada toetan toetab toetama toetavad toetanud toetame toetad toetav toetas toetasid toetaks toetate toetage toetasin toetaksid toetamas toetades toetava toetasime toetasite toetatud toetatakse toetamaks toetavat toetaksin toetamast toetavate toetaksite toetavaid toetaksime toetavas toetati
+81	1081	üheksa	üheksa üheksat üheksas üheksast üheksaks üheksad üheksal üheksani üheksate üheksale üheksaga üheksaid üheksasse üheksatega
+82	1082	hämmastav	hämmastav hämmastavalt hämmastava hämmastavaid hämmastaval hämmastavate hämmastavast hämmastavaks hämmastavas
+83	1083	sarnane	sarnane sarnased sarnast sarnaseid sarnaseks sarnase sarnaste sarnases sarnasest sarnasel sarnasega sarnastest sarnasteks sarnastele sarnastes sarnasesse sarnastena sarnastel sarnasele
+84	1084	ülikool	ülikooli ülikoolis ülikool ülikoolist ülikoolile ülikoolide ülikoolid ülikoolides ülikooliga ülikoole ülikooliks ülikoolil ülikoolidesse ülikoolidest ülikoolini ülikoolilt ülikoolidele
+85	1085	loodetavasti	loodetavasti
+86	1086	muide	muide
+87	1087	majesteet	majesteet majesteedi majesteedile majesteeti majesteedil majesteediga majesteedilt majesteedid majesteetide majesteetidele
+88	1088	kasvatama	kasvatada kasvatas kasvatanud kasvatasin kasvatama kasvatatud kasvatasid kasvatab kasvatati kasvatan kasvata kasvatad kasvatame kasvatavad kasvatasime kasvatatakse kasvatades kasvatate kasvatamatu kasvatasite kasvatamas kasvataksin kasvatage kasvataksid kasvataks kasvatamatud kasvataksite kasvatata kasvataksime
+89	1089	sedasi	sedasi
+90	1090	lühike	lühike lühikese lühikesed lühikest lühem lühikeseks lühemaks lühikeste lühikesi lühim lühema lühemad lühemat lühikestes lühemalt lühikesel lühikeses lühikesele lühikestel lühikesest lühikeselt lühikesena lühima lühikestest lühemaid lühemate
+91	1091	tädi	tädi tädile tädiga tädid tädil tädilt tädisid tädist tädide tädidele tädiks
+92	1092	taipama	taipasin taipa taipad taibanud taipan taipas taipama taipab taipasid taipate taipavad taibata taipasime taipaks taipamaks taipaksid taipame taipasite taipamata taibates taipaksin
+93	1093	igav	igav igavad igavaks igavat igava igavalt igavaid igavam igavast igavate igavas igaval igavale igavatest igavana igavasse igavateks igavates igavatele
+94	1094	tellima	tellida tellisin tellinud telli tellin tellisid tellima tellime tellitud tellid tellisime tellisite tellib tellige telliks tellite telliti tellivad telliksin tellitakse telliksid telliksime tellitu tellides tellita tellimas
+95	1095	katki	katki
+96	1096	foto	foto fotod fotosid fotot fotol fotode fotodel fotoga fotodega fotolt fotole fotodelt fotost fotodest fotodele fotota
+97	1097	katus	katusel katusele katuse katus katuselt katust katusega katuseid katustel katused katusest katustele katustelt katuses katuste katuseni katusesse katuseta
+98	1098	juurest	juurest
+99	1099	valmistuma	valmistuge valmistuda valmistu valmistunud valmistuma valmistub valmistuvad valmistume valmistun valmistusin valmistus valmistud valmistusid valmistudes valmistusime valmistute valmistumas valmistuks valmistuksid valmistusite valmistutakse valmistuti
+100	1100	kõigepealt	kõigepealt

@@ -1,0 +1,100 @@
+1	1901	kahtlane	kahtlane kahtlast kahtlaselt kahtlase kahtlased kahtlaseks kahtlaste kahtlasi kahtlaseid kahtlasena kahtlasest kahtlastel kahtlastest kahtlases kahtlasel kahtlasele kahtlasesse
+2	1902	taal	taala taalaga taalast taal taalad taalale
+3	1903	marss	marss marsi marsil marsile marsilt marsid marssi marssisid marsist marssides marsiga marsiks
+4	1904	fänn	fänn fänne fännide fännidele fännidega fännile fännidest fänniga fännidelt fännidel fännina
+5	1905	vastutav	vastutav vastutavaks vastutavana vastutava vastutavate vastutavale vastutavalt
+6	1906	magus	magus magusat magusa magusad magusalt magusaid magusam magusaks magusast magusale magusasse magusas magusate magusaga
+7	1907	luu	luu luis luid luule luude luust luulud luudest luudes luudelt luudega luuni luus luusid luudel luudele luudeta luul luuks luudeni luudesse luusse
+8	1908	toppima	toppida topin toppis topitud toppisid topib toppima toppinud topivad toppige topime topiti toppisin topitakse topite toppisime topiksin toppisite topiksid
+9	1909	kvartal	kvartali kvartalit kvartalis kvartal kvartalisse kvartalist kvartalid kvartalil kvartalile kvartaliga kvartalite
+10	1910	naeratus	naeratus naeratust naeratuse naeratusega naeratused naeratusi naeratusest naeratuste naeratuses naeratusele naeratustega naeratustest naeratuseta
+11	1911	uppuma	uppus upub uppuda uppumas upun upume uppusid upu upud uppuma upuvad uppusin upuks uppudes upuksid upute uppumast upuksin uppununa uppuvat
+12	1912	pitsa	pitsa pitsat pitsad pitsasid pitsati pitsatit pitsast pitsaga pitsade pitsatiga pitsale pitsadega pitsatid pitsal pitsas
+13	1913	teoksil	teoksil
+14	1914	ladu	lao ladu laos lattu laost laod laota ladusid laoses ladude laole laose ladudes laoks laona laoga laoni
+15	1915	edenema	edeneb edenevad edene edenenud edenema edenes edenedes edeneda edeneme edeneks edened edenesid edenen
+16	1916	väärtuslik	väärtuslik väärtuslikku väärtuslikud väärtusliku väärtuslikke väärtuslikuks väärtuslike väärtuslikust väärtuslikuna
+17	1917	materjal	materjali materjal materjalid materjale materjalist materjalide materjaliga materjalidest materjalidega materjalidele materjalis materjaliks materjalides materjalile
+18	1918	diivan	diivanil diivan diivani diivanile diivanit diivanilt diivaniga diivanist diivanid diivaneid diivanisse
+19	1919	paus	pausi paus pausile pause pausil pausid pausiks pausideta pausilt pauside pausist pausita
+20	1920	auhind	auhinna auhind auhindu auhinnaks auhinnad auhindade auhinnale auhinnaga auhinnal auhinnast auhindadest auhindadel auhindadega auhindadele auhinnana
+21	1921	koputama	koputa koputab koputada koputama koputasin koputas koputan koputanud koputad koputasid koputage koputame koputavad koputatakse koputades koputati koputamas koputamata koputate koputasime koputaksid
+22	1922	puur	puuri puuris puur puurist puure puuriga puuride puuridesse puuridest puurile
+23	1923	võileib	võileib võileiva võileiba võileibu võileivad võileibade võileivaga võileivale võileivast võileibadega võileival võileivas võileibadest
+24	1924	internet	internetis interneti internetist internetti internetiga internetile
+25	1925	maine	maine mainet mainele mainega maise maised mainest maiste maines maiseid maistest maises maisest mainel maist
+26	1926	alus	alusel aluse aluseks alus alused alust aluseid alustel alusele alusega aluselt alusest aluseta aluste aluses alustest alusena alusesse alustele alustega
+27	1927	elukas	elukas elukad eluka elukat elukaid elukate elukaga elukatest elukast elukale elukatega elukal elukatele elukaks elukalt elukateks elukatel
+28	1928	veelkord	veelkord
+29	1929	torn	torni torn tornis tornist tornid tornide torne tornile torniga torniks tornidest tornini tornidega tornidesse tornides
+30	1930	kohvik	kohvikus kohvikusse kohvik kohviku kohvikust kohvikut kohvikutes kohvikud kohvikuid kohvikuga kohvikule kohvikutest
+31	1931	hullumeelsus	hullumeelsus hullumeelsuse hullumeelsust hullumeelsusena hullumeelsusest hullumeelsusega hullumeelsusele hullumeelsuses hullumeelsuseks hullumeelsusesse hullumeelsuseni
+32	1932	kuberner	kuberner kuberneri kuberneriks kubernerile kuberneriga kuberneril kubernerilt kubernerina kubernerist kubernerid kuberneride kubernere
+33	1933	vahva	vahva vahvad vahvalt vahvat vahvaid vahvam vahvasse vahvate
+34	1934	esindama	esindab esindan esindavad esindada esindama esindad esindate esindatud esindame esinda esindas esindaks esindanud esindades esindasin esindasid esindamas esindasime esindaksid esindav esindavat
+35	1935	veok	veok veoki veokit veokiga veokid veokisse veokis veokist veokeid veokite veokil veokitega veokile veokitest veokitele veokilt
+36	1936	niipalju	niipalju
+37	1937	kilp	kilp kilbid kilbi kilpi kilpe kilpide kilbist kilbiga kilbina kilbil kilpidesse kilbiks kilbile kilpidest kilbis kilpidega kilpidele kilpidelt
+38	1938	häire	häire häiret häireid häired häirete häirega häiretega häirest häireks häireteta häirele häiretest
+39	1939	poliitika	poliitika poliitikat poliitikast poliitikas poliitikaga poliitikasse poliitikale poliitikaks poliitikal
+40	1940	kuninglik	kuninglik kuningliku kuninglikku kuninglikust kuninglikud kuninglikus kuninglikult kuninglike kuninglikule kuninglikke kuninglikul kuninglikuks kuninglikest kuninglikele kuninglikes kuninglikum
+41	1941	talv	talv talvel talve talveks talved talvest talvist talves talveni talvele talvega
+42	1942	õudne	õudne õudselt õudset õudsed õudse õudseid õudsem õudsat õudsalt õudsad õudsaks õudsaid õudsa õudsete õudses õudsetest õudsesse õudseim õudsaim õudseks õudsest õudsas
+43	1943	reaalne	reaalne reaalselt reaalses reaalsed reaalset reaalse reaalseks reaalseid reaalsem reaalsena reaalsesse reaalsest reaalsete reaalsemad reaalsele reaalsega
+44	1944	kütus	kütust kütus kütuse kütusega kütusest kütuseks kütuseta kütuseid kütusena kütuste kütused kütusele kütuses
+45	1945	kaval	kaval kavalad kavalalt kavalam kavala kavalat kavalaks kavalaid kavalate
+46	1946	selgus	selgus selgusele selgust selguse selguseni selgusega
+47	1947	varas	vargad vargas varga varaste varas vargaid vargaks varast vargast varastele varastega vargale varastel varastest vargaga varastes vargal vargana vargalt varastelt varasteks
+48	1948	lapsehoidja	lapsehoidja lapsehoidjat lapsehoidjaks lapsehoidjaga lapsehoidjad lapsehoidjaid lapsehoidjale lapsehoidjast lapsehoidjana lapsehoidjate lapsehoidjal lapsehoidjateks
+49	1949	reaalsus	reaalsus reaalsuse reaalsust reaalsuses reaalsusest reaalsuseks reaalsusega reaalsusesse reaalsusele reaalsusel reaalsusse reaalsused reaalsuste reaalsusi reaalsustest
+50	1950	võrdne	võrdsed võrdne võrdselt võrdset võrdseks võrdse võrdsete võrdseid võrdseteks võrdsetena võrdsena võrdses võrdsel võrdsega võrdsetel võrdsetes
+51	1951	otsing	otsinguid otsingud otsing otsingu otsingut otsingul otsinguil otsingutega otsingute otsingutele otsingule otsingutel otsingutes otsingutest otsingust otsinguga otsingusse otsingus otsinguile otsinguks otsinguteks
+52	1952	leiduma	leidub leidus leiduma leidu leiduda leiduks leidunud leiduvad leiduv leiduvaid leiduvat leiduva leiduvast leidud leidusid
+53	1953	üritus	üritus ürituse üritusele üritust üritusel üritused üritustel üritusi üritusest ürituste üritusega ürituseks üritustele ürituses üritustest üritusse ürituselt üritustega
+54	1954	tervitus	tervitus tervitused tervitusi tervitust tervituse tervituseks tervitustega tervitusega
+55	1955	roosa	roosa roosat roosad roosas roosaks roosasid roosade roosalt roosast roosasse roosadest roosal roosana roosale roosades
+56	1956	sugugi	sugugi
+57	1957	nr	nr
+58	1958	teekond	teekond teekonda teekonna teekonnal teekonnale teekonnast teekonnaks teekonnad teekonnas teekonnaga teekonnalt
+59	1959	vanus	vanuses vanuse vanusest vanused vanuselt vanus vanusega vanusena vanuseks vanusele vanuseni vanuseid vanusesse vanusel vanuste vanustele vanustest vanustega vanust
+60	1960	nutikas	nutikas nutikad nutikam nutika nutikalt nutikaks nutikat nutikaid
+61	1961	esitlema	esitleda esitlen esitleb esitleme esitlema esitles esitlevad esitle esitletakse esitled esitletud esitlesin esitlenud esitlete esitleti esitlege esitledes esitleks esitlesid esitlesime esitleksin esitlesite esitleksid
+62	1962	jäätis	jäätist jäätis jäätise jäätisega jäätisest jäätised jäätisele
+63	1963	ilu	ilu ilust iluga ilule ilul iluks ilusse
+64	1964	kõrgeausus	kõrgeausus kõrgeaususe kõrgeaususele kõrgeausust kõrgeausused kõrgeaususel kõrgeaususega kõrgeaususeks kõrgeaususelt
+65	1965	vähene	vähesed vähese vähestest väheseid väheste vähene vähestel vähestele vähesest vähesel väheseks vähesega vähestes väheses vähest
+66	1966	türa	türa türad türaga türast türale türade türasid türadest türadele türal türaks
+67	1967	rõõmustama	rõõmustab rõõmusta rõõmustada rõõmustaks rõõmustad rõõmustama rõõmustan rõõmustavad rõõmustas rõõmustage rõõmustanud rõõmustavat rõõmustame rõõmustasid rõõmustaksid rõõmustate rõõmustasin rõõmustagem rõõmustaksin rõõmustasime
+68	1968	kompanii	kompanii kompaniid kompaniis kompaniist kompaniile kompaniiga kompaniil kompaniisse kompaniide kompaniilt kompaniisid
+69	1969	otsene	otseses otsene otsese otseseid otsesed otsesest otsesele otsesel otseseks otseste otsest otsestele otsesesse
+70	1970	kontroll	kontroll kontrollile kontrollist kontrolliga kontrolle kontrollil
+71	1971	väljak	väljakul väljakule väljaku väljak väljakult väljakut väljakust väljakud väljakuid
+72	1972	reisija	reisijad reisija reisijate reisijaid reisijat reisijatel reisijatest reisijatega reisijatele reisijaga reisijast reisijal reisijale reisijana reisijaks reisijateks
+73	1973	null	null nulli nullist nullis nullini nulle nullid nulliga nulliks nullisid nullile nullidega nullide
+74	1974	aa	aa
+75	1975	pesa	pesa pessa pesas pesast pesi pesad pesasse pesasid pesadest pesal pesale pesadesse pesades pesade pesaga pesani pesaks
+76	1976	surve	survet surve survele survega survest survel surveta
+77	1977	äärmiselt	äärmiselt
+78	1978	mänguasi	mänguasi mänguasjad mänguasju mänguasja mänguasjade mänguasjadega mänguasjaga mänguasjadest mänguasjaks mänguasjadele mänguasjast mänguasjale mänguasjadeks
+79	1979	kuldne	kuldne kuldse kuldset kuldsed kuldsete kuldseid kuldsest kuldses kuldseks kuldsesse kuldsele kuldsel kuldsetest kuldsetel kuldselt kuldsetes
+80	1980	ülejäänu	ülejäänu ülejäänut ülejäänuga ülejäänute ülejäänutele ülejäänust ülejäänutel ülejäänus ülejäänul ülejäänule ülejäänusse
+81	1981	lipp	lipp lipu lippu lipud lippe lipuga lipule lippudega lippude lipul liputa lipuks lippudest lipust lipuni
+82	1982	vool	voolu vool vooluga vooluta voolus voolust voolule voolis voolul voolud
+83	1983	eksisteerima	eksisteerib eksisteeri eksisteerida eksisteerivad eksisteerinud eksisteeris eksisteeriks eksisteerima eksisteerin eksisteerid eksisteerisid eksisteerime eksisteerimast eksisteerivat eksisteerite
+84	1984	selts	seltsi seltsis seltsiks selts seltsist seltsile seltsiga seltsil
+85	1985	jälk	jälgi jälk jälki jälgim jälke jälgilt jälkide
+86	1986	protsess	protsessi protsess protsessist protsessiga protsessile protsessid protsesse protsessil protsesside protsessidele protsessidest
+87	1987	levima	levib levinud levivad levima levida levimas levivat
+88	1988	piin	piin piinata piina piinad piinas piinasid piinu piinadest piinades piinade piinast piinaks piinadele piinadeta piinadega piinaga piinale
+89	1989	asjaolu	asjaolud asjaolusid asjaolu asjaoludel asjaolude asjaoludest asjaoludega asjaolust asjaolule asjaoludele asjaoluga asjaoludes asjaolul
+90	1990	kuulujutt	kuulujutud kuulujutte kuulujutt kuulujuttu kuulujuttude kuulujutu kuulujuttudest kuulujuttudele kuulujuttudega kuulujutust kuulujuttudel kuulujutul kuulujutuga kuulujuttudeks kuulujutus
+91	1991	sisaldama	sisaldab sisaldavad sisaldas sisalda sisaldada sisaldasid sisaldama sisaldanud sisaldaks sisaldades sisaldavat
+92	1992	tass	tassi tass tassid tassis tassisid tassist tassiga tassiks tassides tassile tasside tassel
+93	1993	roll	rolli rollis rolle rollid rollist rolliga rollile rolliks rollide rollidest rollides
+94	1994	teismeline	teismeline teismelised teismelise teismeliste teismelist teismelisi teismelisena teismelistele teismelisele teismelistest teismelisest teismeliseks teismelisega teismelistega teismelisel teismelistel teismelistena
+95	1995	edastama	edastada edastab edastan edastama edasta edastas edastame edastatud edastage edastanud edastatakse edastavad edastati edastasin edastaks edastad edastasid edastaksid edastaksin edastades edastate edastasime edastasite edastata edastaksite
+96	1996	nõuanne	nõuanne nõuannet nõuandeid nõuande nõuanded nõuannete nõuannetest nõuannetega nõuandega nõuandest nõuandel nõuannetele nõuandele
+97	1997	leib	leiba leib leiva leivaga leivad leivast leivale leival leivaks leivata leibu
+98	1998	kilo	kilo kilod kiloga kilosid kilole kilode
+99	1999	läheda	lähim lähima lähimasse lähem lähedast lähema lähimast lähimad lähimat lähimate lähimas lähimale lähemat lähimal lähemate lähemad lähemas lähimaid lähedasse lähematel läheda lähimaks lähemaks lähimalt lähemaid lähimatel lähimatest
+100	2000	hädaolukord	hädaolukord hädaolukorra hädaolukorras hädaolukorraga hädaolukordadeks hädaolukorraks hädaolukordade hädaolukorda hädaolukorrast hädaolukordades hädaolukordi

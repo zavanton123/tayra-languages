@@ -1,0 +1,100 @@
+1	5901	riid	riidu riid riius riia riiast riiu riias riiud
+2	5902	ulatuslik	ulatuslik ulatuslikud ulatusliku ulatuslikku ulatuslikult ulatuslikke ulatuslikust ulatuslike
+3	5903	relvastus	relvastus relvastuse relvastust relvastusega relvastuses relvastusest relvastusele
+4	5904	vilkuma	vilgub vilkuma vilkuv vilguvad vilkuvat vilkumas vilkus vilkunud
+5	5905	otsekui	otsekui
+6	5906	korrumpeeruma	korrumpeerunud korrumpeerunuks korrumpeerub
+7	5907	lugupidamatu	lugupidamatu lugupidamatult lugupidamatud
+8	5908	sitke	sitke sitked sitkeks
+9	5909	hõõr	hõõru hõõrus
+10	5910	ühik	ühikut ühik ühiku ühikud ühikuid
+11	5911	ventilatsioon	ventilatsiooni ventilatsioon ventilatsioonis ventilatsioonist
+12	5912	söögituba	söögituba söögitoas söögituppa söögitoa söögitoast
+13	5913	kolmteist	kolmteist kolmeteistkümnes kolmeteist kolmeteistkümnest kolmeteistkümne
+14	5914	kataloog	kataloogi kataloog kataloogist kataloogis kataloogid katalooge kataloogiga kataloogides kataloogile
+15	5915	pits	pitsi pits pitsid pitse pitsist pitsita pitsidega
+16	5916	strateegiline	strateegiline strateegiliselt strateegilise strateegilist strateegiliste strateegilised strateegilisi strateegilistesse strateegiliseks strateegilistele
+17	5917	majanduslik	majanduslik majandusliku majanduslikku majanduslikud majanduslikke majanduslikust majanduslikus majanduslike majanduslikes majanduslikule majanduslikel majanduslikul
+18	5918	krõbe	krõbe krõbedaks krõbeda krõbedad krõbedat krõbedalt krõbedana krõbedaid
+19	5919	sõnnik	sõnnik sõnnikut sõnniku sõnnikust sõnnikuga sõnnikus sõnnikusse
+20	5920	kümnes	kümnenda kümnendal kümnendat kümnendas kümnendast kümnendale kümnendaks kümnes
+21	5921	lavastaja	lavastaja lavastajaga lavastajat lavastajad lavastajaks lavastajana
+22	5922	ülehindama	ülehinnatud ülehindad ülehindasin ülehinda ülehinnata ülehindate ülehinnanud
+23	5923	kandja	kandja kandjad kandjat kandjale kandjaks kandjaid kandjal kandjate
+24	5924	loomaarst	loomaarst loomaarsti loomaarstiks loomaarstile loomaarstid loomaarstiga
+25	5925	tatt	tatti tatt tati tatiga tatid
+26	5926	kohendama	kohendada kohendama kohendan kohenda kohendas kohendasin kohendanud kohendage kohendatud kohendab kohendame
+27	5927	programmima	programmis programmides
+28	5928	tabel	tabelis tabel tabeli tabelid tabelit tabeleid tabelisse tabelist tabelites
+29	5929	eksemplar	eksemplari eksemplar eksemplarid eksemplare eksemplaris
+30	5930	läbipääs	läbipääsu läbipääs läbipääsuks läbipääsud
+31	5931	meelsamini	meelsamini
+32	5932	maksimaalselt	maksimaalselt
+33	5933	meessugu	meessoost meessoo meessugu
+34	5934	vaikimine	vaikimine vaikimise vaikimisega
+35	5935	evakuatsioon	evakuatsiooni evakuatsioon evakuatsiooniks evakuatsiooniga evakuatsioonini
+36	5936	jõupingutus	jõupingutusi jõupingutused jõupingutus jõupingutustest jõupingutuste jõupingutust jõupingutustele jõupingutuse
+37	5937	vastuvõtja	vastuvõtja vastuvõtjad vastuvõtjat vastuvõtjaga vastuvõtjana vastuvõtjale vastuvõtjasse vastuvõtjaks vastuvõtjaid
+38	5938	käputäis	käputäis käputäie käputäit käputäiest käputäiel käputäiele
+39	5939	võigas	võigas võika võikad võikaid võikalt võigast võikal võikas
+40	5940	hapu	hapu hapuks hapud haput hapusid
+41	5941	mossitama	mossita mossitad mossitab mossitama mossitada mossitan mossitanud mossitasid mossitav mossitas
+42	5942	tagune	tagune tagust taguse tagusest taguses tagused taguseid tagusesse taguste
+43	5943	ideaal	ideaalid ideaale ideaal ideaalide ideaali ideaalis ideaalidest ideaalidele ideaalist ideaalidega ideaalile
+44	5944	kõdi	kõdi
+45	5945	filosoof	filosoof filosoofid filosoofi filosoofide filosoofiks filosoofe
+46	5946	staadium	staadiumis staadium staadiumi staadiumisse staadiumit
+47	5947	talunik	talunik talunikud taluniku talunike talunikele talunikke
+48	5948	mikker	mikker mikrit mikri mikrid mikriga mikreid mikrisse
+49	5949	register	registris registrisse registrit registrist registri registreid registriga
+50	5950	latern	latern laterna laternad laternate laternat laternaid laternatega
+51	5951	südametu	südametu südametud südametuks
+52	5952	maandumine	maandumine maandumisel
+53	5953	käsiraamat	käsiraamat käsiraamatut käsiraamatust käsiraamatu käsiraamatus käsiraamatud
+54	5954	karneval	karneval karnevali karnevalil karnevalile karnevalilt karnevalid karnevaliks
+55	5955	kaubandus	kaubandus kaubanduse kaubandust kaubanduses kaubandusest kaubandusega kaubandusele
+56	5956	haarang	haarang haarangu haarangut haaranguid haarangud haarangul haarangust haarangus haaranguga
+57	5957	kõrvaltänav	kõrvaltänaval kõrvaltänavale kõrvaltänavas kõrvaltänavasse kõrvaltänav kõrvaltänavalt kõrvaltänavat kõrvaltänavaid kõrvaltänava kõrvaltänavast kõrvaltänavatel
+58	5958	torgatama	torgata
+59	5959	ühtsus	ühtsus ühtsuse ühtsust ühtsuses ühtsusest
+60	5960	taimer	taimer taimeri taimerit taimeriga taimerid
+61	5961	hooldusõigus	hooldusõiguse hooldusõigust hooldusõigus hooldusõigusest hooldusõigusega hooldusõigused
+62	5962	betoon	betooni betoon betoonist betooniga betoonile betoonil
+63	5963	loojang	loojangut loojangu loojanguks loojang loojangul loojanguni loojanguid loojangud
+64	5964	ristuma	ristuvad ristusid ristunud ristub ristuda ristuma ristu ristuks ristus
+65	5965	varuosa	varuosad varuosi varuosade varuosasid varuosadest varuosa varuosadeks varuosadega
+66	5966	võrrand	võrrand võrrandist võrrandi võrrandid võrrandit võrrandeid võrrandis võrrandisse võrranditest võrrandiga võrranditega
+67	5967	superstaar	superstaar superstaari superstaarid superstaariks superstaarist
+68	5968	konjak	konjakit konjak konjaki konjakiga
+69	5969	vaevuma	vaevunud vaevuda vaevun vaevud vaevuge vaevusid vaevusin vaevuma vaevuksid vaevub vaevuvad
+70	5970	üleolev	üleolev üleolevalt üleolevad üleolevat üleolevana üleoleva üleolevaks
+71	5971	jõukas	jõukas jõukad jõuka jõukaks jõukat jõukast jõukate jõukaid jõukatele
+72	5972	miilits	miilits miilitsasse miilitsa miilitsat miilitsas miilitsast miilitsaga miilitsad
+73	5973	kõrilõikaja	kõrilõikaja kõrilõikajad kõrilõikajate kõrilõikajaid kõrilõikajat kõrilõikajatest kõrilõikajatega
+74	5974	maksuamet	maksuamet maksuameti maksuametist maksuametile maksuametis maksuametiga maksuametit maksuametisse
+75	5975	konsulaat	konsulaati konsulaadis konsulaadi konsulaat konsulaadist konsulaadiga konsulaadile
+76	5976	närveerima	närveeri närveerin närveerid närveerima närveerib närveerida närveerige närveerisin närveerite närveerisid
+77	5977	paisuma	paisub paisunud paisuma paisuvad paisuda
+78	5978	jaatav	jaatavalt jaatav jaatava jaatavat
+79	5979	tavatu	tavatu tavatult tavatut tavatuid tavatute tavatud
+80	5980	katedraal	katedraali katedraal katedraalis katedraalist katedraaliga katedraale katedraalide katedraalid
+81	5981	plaanipärane	plaanipäraselt plaanipärane
+82	5982	põetaja	põetaja põetajat põetajad põetajaks põetajale põetajaga põetajaid
+83	5983	põrguline	põrguline põrgulised põrgulise põrgulist põrgulisest
+84	5984	muumia	muumia muumiat muumiad muumiaid muumiaks muumiaga muumiate muumial
+85	5985	harmoonia	harmoonia harmoonias harmooniat harmooniaga
+86	5986	intelligents	intelligentsi intelligents intelligentse intelligentsiga intelligentsist intelligentselt intelligentseks intelligentsile
+87	5987	sõnastama	sõnastan sõnastada sõnastatud sõnastama sõnasta sõnastad sõnastaks sõnastame sõnastasin sõnastasid sõnastas sõnastanud
+88	5988	osapool	osapool osapooled osapoole osapoolt osapoolele osapooli osapooltele osapoolte osapoolega osapooltest
+89	5989	kooskõla	kooskõlas kooskõla kooskõlla
+90	5990	uhiuus	uhiuus uhiuue uhiuued uhiuut
+91	5991	hilisem	hilisemaks hilisem hilisema hilisemad hilisemat hilisemas hilisemal hilisemate hilisemates
+92	5992	otstarve	otstarve otstarbeks otstarvet otstarbel otstarbe otstarbega
+93	5993	korraldamine	korraldamise korraldamine korraldamiseks korraldamisega korraldamist korraldamisel korraldamisest
+94	5994	maandama	maandada maanda maandab maandatud maandama maandasid maandas maandan maandage maandavad maandasin maandad
+95	5995	ajaraiskamine	ajaraiskamine ajaraiskamise ajaraiskamisena
+96	5996	hertsoginna	hertsoginna hertsoginnat hertsoginnaga hertsoginnale
+97	5997	otseülekanne	otseülekanne otseülekandes otseülekande otseülekannet otseülekandena otseülekandega otseülekandele
+98	5998	partnerlus	partnerlus partnerluse partnerlust partnerlusest partnerlusega partnerluses
+99	5999	hoolitsus	hoolitsust hoolitsus hoolitsuse hoolitsusega hoolitsuseta hoolitsusest
+100	6000	veealune	veealune veealuse veealust veealused veealuste veealuses veealuseid veealusesse veealusest

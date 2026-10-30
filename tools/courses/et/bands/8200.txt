@@ -1,0 +1,100 @@
+1	8101	keisrinna	keisrinna keisrinnat keisrinnaga
+2	8102	šampus	šampust šampus šampuse šampusega
+3	8103	sõjapealik	sõjapealik sõjapealiku sõjapealikud sõjapealikega sõjapealikuga sõjapealikule sõjapealike
+4	8104	anatoomia	anatoomia anatoomiat anatoomiast anatoomias
+5	8105	gümnaasium	gümnaasiumis gümnaasiumi gümnaasium gümnaasiumist gümnaasiumisse
+6	8106	neuroloogiline	neuroloogiline neuroloogilisi neuroloogilised neuroloogilise neuroloogilist neuroloogiliste neuroloogiliselt
+7	8107	triljon	triljonit triljon triljoni triljoneid triljonite triljonid triljonitest
+8	8108	sissepoole	sissepoole
+9	8109	haa	haa
+10	8110	nn	nn
+11	8111	teispool	teispool
+12	8112	sushi	sushit sushiga
+13	8113	mära	mära märad märaga
+14	8114	naisuke	naisuke naisukese
+15	8115	kusik	kusik kusikud kusikuks
+16	8116	pühakiri	pühakirja pühakiri pühakirjas pühakirjad pühakirjast pühakirjaga
+17	8117	küllus	külluses külluse küllus küllust
+18	8118	kujundus	kujundus kujunduse kujundust kujundusega kujundused kujunduses
+19	8119	öösärk	öösärk öösärgi öösärgis öösärki öösärgid
+20	8120	järjestus	järjestus järjestuses järjestust järjestuse järjestused
+21	8121	sündikaat	sündikaadi sündikaat sündikaati sündikaadiga sündikaadist sündikaadis
+22	8122	individuaalne	individuaalne individuaalselt individuaalse individuaalset individuaalseid individuaalsed individuaalsete
+23	8123	sündmuspaik	sündmuspaigalt sündmuspaigal sündmuspaigale sündmuspaika sündmuspaik sündmuspaiga
+24	8124	käbi	käbi käbisid käbidest käppi
+25	8125	naistemees	naistemees naistemehe naistemehed naistemeheks
+26	8126	teoreetiline	teoreetiline teoreetilise teoreetilised teoreetilises teoreetilist teoreetilisi teoreetilisest
+27	8127	elupäästja	elupäästja elupäästjat elupäästjad
+28	8128	jonnakas	jonnakas jonnakad jonnakalt jonnaka
+29	8129	enesekontroll	enesekontrolli enesekontroll enesekontrolliga
+30	8130	saatejuht	saatejuht saatejuhiks saatejuhi saatejuhti saatejuhiga
+31	8131	umbrohi	umbrohi umbrohtu umbrohu
+32	8132	maniküür	maniküüri maniküür maniküüris
+33	8133	narkoärikas	narkoärikas narkoärikad narkoärika narkoärikate narkoärikast narkoärikat narkoärikaid
+34	8134	baaslaev	baaslaev baaslaeva baaslaevale baaslaeval baaslaevad baaslaevalt
+35	8135	musirull	musirull
+36	8136	hullupöör	hullupööra
+37	8137	kleepuv	kleepuv kleepuvate
+38	8138	ebausklik	ebausklik ebausklikud
+39	8139	keemik	keemik keemiku keemikud keemikut
+40	8140	puuma	puuma puumad puumat puumasid puumaga
+41	8141	kirurgia	kirurgia kirurgias kirurgiasse kirurgiat kirurgiaga kirurgiast
+42	8142	sangar	sangar sangarid sangarite sangarit sangari sangarina sangareid
+43	8143	asjatoimetus	asjatoimetusi asjatoimetused asjatoimetus
+44	8144	immuunsüsteem	immuunsüsteemi immuunsüsteem immuunsüsteemile
+45	8145	valvekaamera	valvekaamera valvekaamerad valvekaamerate valvekaameraid valvekaamerast
+46	8146	takerduma	takerdunud takerdus takerdub takerdusin takerduda takerduvad takerdusid takerdu
+47	8147	ploom	ploomid ploome ploomi ploom
+48	8148	nõustama	nõustada nõustan nõustab nõustama nõustanud nõustas nõustavad nõusta nõustasin nõustaks nõustamas
+49	8149	õppemaks	õppemaksu õppemaks õppemaksuks
+50	8150	homoseksuaal	homoseksuaal homoseksuaalid homoseksuaale homoseksuaali homoseksuaalide
+51	8151	pilu	pilu pilud pilusse pillu pilust pilus pilusid
+52	8152	janunema	januneb janunevad janunen janunesid janunes januned januneme janunedes janunesin janunev janunete
+53	8153	disko	disko diskot diskole diskol
+54	8154	sooda	sooda soodat soodaga soodad
+55	8155	kõnnak	kõnnak kõnnakut kõnnaku kõnnakuga kõnnakust
+56	8156	tüma	tümaks tüma
+57	8157	morn	morn morni mornid morniks
+58	8158	statistiline	statistiliselt statistiline statistilise statistilised
+59	8159	snoob	snoob snoobid snoobide snoobi snoobe snoobiks
+60	8160	keskealine	keskealine keskealise keskealised keskealist keskealiste
+61	8161	noorpaar	noorpaar noorpaari noorpaarile noorpaaride
+62	8162	näpujälg	näpujäljed näpujälgi näpujälg näpujälgedega näpujälje
+63	8163	kasvuhoone	kasvuhoone kasvuhoones kasvuhoonesse kasvuhoonest kasvuhoonet
+64	8164	kohkuma	kohkunud kohku kohkusid kohkusin kohkus kohkub
+65	8165	hõljuk	hõljuk hõljuki hõljukid hõljukiga hõljukeid hõljukit hõljukis
+66	8166	triikima	triikida triikima triigin triigib triigi triikisin triikis triigid triikisid
+67	8167	koormama	koormav koormab koormama koormavad koorman koormanud koormasin koormavaks koormame
+68	8168	tolknema	tolkneb tolkned tolknes tolkne tolknen tolknema tolkneda tolkneme tolkneks tolknevad tolknenud tolknesid
+69	8169	juurima	juurida juurima juurinud juuri juurime juuritud juurib juurin
+70	8170	sukkpüksid	sukkpüksid sukkpükse sukkpükstes sukkpükste sukkpükstega
+71	8171	idapoolne	idapoolse idapoolne idapoolses idapoolsel idapoolsesse idapoolsest idapoolsed idapoolsete idapoolset
+72	8172	toi	toi
+73	8173	mäletamine	mäletamist mäletamine
+74	8174	edutu	edutult edutu edutud edutust edutut
+75	8175	arvukus	arvukus arvukust arvukuse arvukuses arvukusele
+76	8176	jälitus	jälitus jälituse jälitust jälituseks jälituses
+77	8177	lõbumaja	lõbumaja lõbumajas lõbumajja lõbumajaga lõbumaju lõbumajast
+78	8178	mootorsaag	mootorsaag mootorsaega mootorsae mootorsaagi mootorsaage
+79	8179	esilinastus	esilinastus esilinastusele esilinastuse esilinastust esilinastusel
+80	8180	reservaat	reservaadis reservaati reservaadist reservaat reservaadi
+81	8181	nõrgestama	nõrgestab nõrgestada nõrgestanud nõrgestatud nõrgestas nõrgestavad nõrgestades nõrgestama nõrgestaks
+82	8182	läbinähtav	läbinähtav läbinähtavad
+83	8183	marineerima	marineeritud marineerida marineerin
+84	8184	võidusõitja	võidusõitja võidusõitjad võidusõitjate võidusõitjat võidusõitjaid võidusõitjaks
+85	8185	eluohtlik	eluohtlik eluohtlikud eluohtlikku eluohtliku eluohtlikus
+86	8186	kõhulahtisus	kõhulahtisus kõhulahtisuse kõhulahtisust kõhulahtisusega
+87	8187	peaprokurör	peaprokurör peaprokuröri peaprokuröriga peaprokurörile
+88	8188	võõramaalane	võõramaalane võõramaalased võõramaalasest võõramaalase võõramaalastest võõramaalasi võõramaalaste võõramaalast
+89	8189	samaväärne	samaväärne samaväärselt samaväärset samaväärse samaväärsed
+90	8190	pesakond	pesakond pesakonna pesakonda pesakonnas pesakonnast
+91	8191	küür	küüru küür küürus küüruga
+92	8192	laialdane	laialdaselt laialdane laialdast laialdased laialdase
+93	8193	suguhaigus	suguhaigus suguhaiguse suguhaiguste suguhaigusi suguhaigused suguhaigust suguhaigustest suguhaigustega
+94	8194	poleerima	poleerida poleeritud poleerima poleerin poleerisin poleerib poleerinud
+95	8195	ebasobiv	ebasobiv ebasobival ebasobivad ebasobivat ebasobivalt ebasobiva
+96	8196	loode	loode loodete loodet loote lootele lootel lootega
+97	8197	juhmard	juhmard juhmardid juhmardit juhmardite juhmardist
+98	8198	täiusta=tud	täiustatud
+99	8199	purjuspäi	purjuspäi
+100	8200	lohk	lohku lohk lohud lohke

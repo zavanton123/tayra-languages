@@ -1,0 +1,100 @@
+1	9401	hulljulge	hulljulge hulljulget hulljulged
+2	9402	eiramine	eiramine eiramist
+3	9403	kasvataja	kasvataja kasvatajad kasvatajat
+4	9404	ööbik	ööbik ööbiku ööbikuid ööbikud ööbikuks
+5	9405	plasku	plasku plaskut plaskust plaskus
+6	9406	ülekaaluline	ülekaaluline ülekaalulised ülekaalulise ülekaaluliste ülekaalulisi
+7	9407	puksiir	puksiir puksiiriga puksiirile puksiirid puksiiris puksiiril
+8	9408	salto	salto saltot saltosid saltoga
+9	9409	süstemaatiline	süstemaatiliselt süstemaatiline süstemaatilist süstemaatilised
+10	9410	listima	listi listis
+11	9411	plokk	plokk plokki plokis plokkide
+12	9412	mittevajalik	mittevajalik mittevajalikud mittevajalikku mittevajaliku mittevajalikke
+13	9413	marmelaad	marmelaadi marmelaad marmelaadiga
+14	9414	alandamine	alandamine alandamise alandamiseks alandamisest
+15	9415	kosilane	kosilane kosilasi kosilase kosilased kosilast
+16	9416	marutõbi	marutõbi marutõve marutõbe marutõves marutõppe
+17	9417	ainevahetus	ainevahetus ainevahetuse ainevahetust ainevahetuses ainevahetusega
+18	9418	tõendus	tõendus tõenduseks tõendust tõenduse
+19	9419	joonistamine	joonistamine joonistamise joonistamist joonistamiseks joonistamisega joonistamises
+20	9420	kodakondsus	kodakondsuse kodakondsus kodakondsust kodakondsuseta
+21	9421	ükskõiksus	ükskõiksus ükskõiksust ükskõiksuse ükskõiksusest ükskõiksusega
+22	9422	psühhiaatriahaigla	psühhiaatriahaigla psühhiaatriahaiglas psühhiaatriahaiglasse psühhiaatriahaiglast
+23	9423	rituaalne	rituaalne rituaalse rituaalset rituaalsed rituaalselt rituaalseid
+24	9424	mälestusteenistus	mälestusteenistus mälestusteenistusel mälestusteenistuse mälestusteenistusele mälestusteenistust
+25	9425	pornofilm	pornofilmi pornofilme pornofilm pornofilmide pornofilmis pornofilmides pornofilmid
+26	9426	ullike	ullike ullikesed ullikest ullikeste ullikese ullikesi ullikeseks
+27	9427	valvekoer	valvekoer valvekoera valvekoerad valvekoeraga valvekoeri
+28	9428	ropendama	ropenda ropendada ropendad ropendama ropendasid ropendanud
+29	9429	kuurort	kuurort kuurorti kuurordis kuurordi kuurortides
+30	9430	spordisaal	spordisaali spordisaalis spordisaal spordisaalist
+31	9431	puhvet	puhvet puhvetis puhveti puhvetisse puhvetist
+32	9432	ruun	ruunid ruun ruuni ruunide ruune
+33	9433	jääaeg	jääaeg jääaja jääajal jääaega jääajast jääaegade
+34	9434	heeringas	heeringas heeringat heeringaid heeringa heeringad heeringate
+35	9435	registreeruma	registreeruda registreerunud registreerusin registreeru registreeruma registreerus
+36	9436	põiktänav	põiktänavas põiktänaval põiktänavale põiktänav põiktänava põiktänavalt põiktänavasse põiktänavat
+37	9437	telg	telje telg telgi teljel telge teljed teljelt
+38	9438	niru	niru nirult nirud
+39	9439	lisatasu	lisatasu lisatasud lisatasuta
+40	9440	rusuma	rusutud rusub rusudes
+41	9441	rahasumma	rahasumma rahasummat rahasummaga rahasummasid rahasummad
+42	9442	hüve	hüvesid hüve hüvede
+43	9443	keelekas	keelekat keelekas keeleka
+44	9444	granaadiheitja	granaadiheitja granaadiheitjad granaadiheitjaid granaadiheitjaga granaadiheitjat
+45	9445	pass	passiga passide passidest passidega passil passist
+46	9446	telesari	telesarja telesarjast telesari telesarjas telesarjade telesarju telesarjades
+47	9447	reket	reket reketit reketiga reketi reketid reketeid
+48	9448	senimaani	senimaani
+49	9449	siitsamast	siitsamast
+50	9450	justnagu	justnagu
+51	9451	külastusaeg	külastusaeg külastusajad
+52	9452	lora	lora lorast
+53	9453	markii	markii markiile markiid
+54	9454	ebaloogiline	ebaloogiline ebaloogiliselt ebaloogilised
+55	9455	hajameelne	hajameelne hajameelselt hajameelsed hajameelseks
+56	9456	elementaarne	elementaarne elementaarsed elementaarset elementaarseid
+57	9457	nõrkema	nõrkemas nõrkenud nõrken nõrkeb
+58	9458	vääritu	vääritu vääritut vääritule vääritult
+59	9459	vulgaarne	vulgaarne vulgaarsed vulgaarse vulgaarseid
+60	9460	võik	võik võike võiku
+61	9461	kuma	kuma kumas
+62	9462	väitekiri	väitekirja väitekiri
+63	9463	eskimo	eskimo eskimod eskimotele eskimote
+64	9464	karburaator	karburaator karburaatori karburaatorit
+65	9465	tööalane	tööalane tööalaselt tööalase tööalased
+66	9466	haripunkt	haripunkti haripunktis haripunkt
+67	9467	vestibüül	vestibüülis vestibüüli vestibüül vestibüülist
+68	9468	transs	transis transsi transs transi
+69	9469	mitmekesisus	mitmekesisus mitmekesisuse mitmekesisuses mitmekesisusest
+70	9470	talvine	talvine talvised talvise talvisel
+71	9471	kannibal	kannibal kannibalid kannibali kannibalidest
+72	9472	sidumine	sidumine sidumise sidumiseks sidumisega
+73	9473	tänapäevane	tänapäevane tänapäevased tänapäevase tänapäevaste tänapäevaseid tänapäevasele
+74	9474	muutuja	muutujaid muutuja muutujad muutujat
+75	9475	portsjon	portsjonit portsjon portsjoni portsjonid
+76	9476	lauamäng	lauamängu lauamänge lauamäng lauamängud
+77	9477	ringlus	ringluses ringlusse ringlus ringlusesse ringlust ringlusest ringluse
+78	9478	spekter	spektri spekter spektrit spektris spektriga spektrist
+79	9479	hord	hordid hordi hord hordide hordidena hordidest
+80	9480	kiviaeg	kiviaega kiviajast kiviaja kiviaeg kiviajas kiviajal
+81	9481	riknema	riknenud rikneb rikne riknema rikneda riknevad
+82	9482	järjestikune	järjestikust järjestikuse järjestikune järjestikused järjestikuste järjestikusel
+83	9483	madalik	madalikule madalikel madalikul madalikud madalike madalik madalikele madalikke
+84	9484	vaevlema	vaevleb vaevles vaevelnud vaevlema vaevlev vaeveldes vaevelda vaevled vaevlen
+85	9485	leotama	leotada leotatud leotama leotan leotab leotad leotasid leotas
+86	9486	sulane	sulane sulased sulase sulasest sulaste sulast
+87	9487	abt	abt abti
+88	9488	hakk	hakuna haku hakk
+89	9489	säng	sängi sängis säng
+90	9490	viljastama	viljastatud viljastab viljastada viljastati viljastamata
+91	9491	nomaad	nomaadid nomaadide nomaadi nomaad nomaade
+92	9492	hospidal	hospidali hospidalis hospidal hospidalist
+93	9493	vingerpuss	vingerpussi vingerpuss vingerpusse
+94	9494	kahekordistuma	kahekordistunud kahekordistub kahekordistus
+95	9495	tagatuli	tagatuli tagatule tagatuled tagatulesid tagatulede
+96	9496	asfalt	asfalt asfalti asfaldil asfaldile asfaldi
+97	9497	sigitama	sigitas sigitatud sigitada sigitab sigita sigitanud sigitasid
+98	9498	kündma	künda kündma künnavad künnab künna küntud kündis kündnud kündsid
+99	9499	käärima	kääri kääritatud käärima käärib käärida käärinud käärige käärimas
+100	9500	tjah	tjah

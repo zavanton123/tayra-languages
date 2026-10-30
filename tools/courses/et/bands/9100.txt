@@ -1,0 +1,100 @@
+1	9001	kõlbmatu	kõlbmatu kõlbmatuks kõlbmatud kõlbmatut
+2	9002	kaastööline	kaastööline kaastöölised kaastöölise kaastööliste
+3	9003	lennumasin	lennumasin lennumasina lennumasinat lennumasinad lennumasinaga lennumasinast lennumasinatega
+4	9004	arvepidamine	arvepidamine arvepidamist arvepidamise arvepidamises arvepidamisega
+5	9005	kaalutlema	kaalutletud kaalutlev kaalutlema kaalutleda kaalutlen kaalutlenud kaalutle kaalutleb kaalutledes kaalutleksid
+6	9006	väärtpaber	väärtpabereid väärtpaberid väärtpaberite väärtpaberi väärtpaberites väärtpaberitega
+7	9007	lõdvestama	lõdvesta lõdvestab lõdvestada lõdvestage lõdvestav
+8	9008	väeti	väeti väetist väetid väetis väetit
+9	9009	arulage	arulage arulagedad arulagedat
+10	9010	plaadifirma	plaadifirma plaadifirmat plaadifirmaga plaadifirmast plaadifirmad
+11	9011	sensatsioon	sensatsioon sensatsiooni sensatsiooniks sensatsioone
+12	9012	vaesekene	vaesekene vaesekesel vaesekese
+13	9013	konkureerima	konkureerida konkureerivad konkureerima konkureerivat konkureeri
+14	9014	ristiretk	ristiretk ristiretke ristiretkel ristiretkele ristiretkega ristiretkeks
+15	9015	langevarjur	langevarjurid langevarjur langevarjurite langevarjureid langevarjuri langevarjuritest
+16	9016	müksama	müksas müksata müksasin müksab müksa müksasid müksan müksanud müksama
+17	9017	kaastund	kaastunde
+18	9018	armumine	armumine
+19	9019	seevastu	seevastu
+20	9020	lapsemäng	lapsemäng
+21	9021	märgatavalt	märgatavalt
+22	9022	piird	piirdu
+23	9023	kiuste	kiuste
+24	9024	beeta	beeta beetad
+25	9025	kahepalgeline	kahepalgeline kahepalgelised kahepalgelise
+26	9026	graveerima	graveeritud graveerida
+27	9027	uinuv	uinuv uinuva
+28	9028	pabin	pabinas pabinasse
+29	9029	ennenägematu	ennenägematu ennenägematud ennenägematut ennenägematult ennenägematuid
+30	9030	ülekohtune	ülekohtune ülekohtuselt ülekohtused ülekohtuse
+31	9031	liitumine	liitumine liitumise
+32	9032	sumin	sumin suminat suminaga sumina
+33	9033	kolesterool	kolesterooli kolesterool
+34	9034	takk	takus taku takk takes
+35	9035	vaatepunkt	vaatepunktist vaatepunkt vaatepunkti
+36	9036	kontseptsioon	kontseptsioon kontseptsiooni
+37	9037	huumorisoon	huumorisoon huumorisoont
+38	9038	paabulind	paabulind paabulinnud paabulinnu paabulindu paabulinde
+39	9039	koss	kossu koss kossil kossid kossus
+40	9040	tuulelohe	tuulelohe tuulelohet tuulelohed tuulelohesid tuulelohega
+41	9041	tähendusrikas	tähendusrikas tähendusrikast tähendusrikka tähendusrikkalt tähendusrikkad
+42	9042	pööripäev	pööripäeva pööripäev pööripäeval
+43	9043	turvakontroll	turvakontrolli turvakontroll turvakontrollist turvakontrolliks
+44	9044	tutvustamine	tutvustamist tutvustamine tutvustamiseks tutvustamise tutvustamisel
+45	9045	veos	veos veose veosed veoseid veosega veoste
+46	9046	pulmapidu	pulmapidu pulmapeo pulmapeol pulmapeole pulmapeoks
+47	9047	videolint	videolint videolindi videolindil videolinti videolindile videolindilt
+48	9048	loto	loto lotoga lotot lotos
+49	9049	vektor	vektor vektorid vektoreid vektorite vektori vektorit vektoril
+50	9050	amputeerima	amputeerima amputeeritud amputeerida amputeeriti amputeeritakse amputeeritu
+51	9051	jutusaade	jutusaade jutusaates jutusaate jutusaadet jutusaadetes jutusaatesse jutusaateid
+52	9052	maadleja	maadleja maadlejad maadlejat
+53	9053	konarlik	konarlik konarlikud konarlikku konarlikuks konarlikult
+54	9054	monarh	monarh monarhi monarhid monarhide monarhist
+55	9055	jõnglane	jõnglane jõnglased jõnglast jõnglasi
+56	9056	šanss	šansid šanss šansse šanssi
+57	9057	laekuma	laekunud laekus laekub laekuvad laekusid laekuma
+58	9058	ergutustüdruk	ergutustüdruk ergutustüdrukute ergutustüdrukud ergutustüdruku ergutustüdrukuid ergutustüdrukut ergutustüdrukuks
+59	9059	näljutama	näljutada näljutas näljutame näljutavad näljutab näljutama näljutanud näljutasid näljuta näljutad
+60	9060	aegluup	aegluubis
+61	9061	pikisilmi	pikisilmi
+62	9062	naljaasi	naljaasi
+63	9063	tulutu	tulutult tulutu
+64	9064	tühipaljas	tühipaljas tühipalja tühipaljad tühipaljast
+65	9065	homoseksuaalne	homoseksuaalne homoseksuaalset homoseksuaalsed homoseksuaalse homoseksuaalseid
+66	9066	fiasko	fiasko fiaskot fiaskoga fiaskost
+67	9067	valgenahaline	valgenahaline valgenahalist valgenahalised valgenahalise valgenahaliste valgenahalisi
+68	9068	kollektsionäär	kollektsionäär kollektsionääride kollektsionäärid kollektsionääri kollektsionääridele
+69	9069	baleriin	baleriin baleriini baleriiniks baleriinid baleriiniga
+70	9070	peavärav	peavärava peavärav peaväravast peaväravas peaväravat
+71	9071	õitseng	õitsengu õitseng õitsengut õitsengule õitsenguks
+72	9072	koolibuss	koolibuss koolibussi koolibussis koolibussiga koolibussist
+73	9073	ennistama	ennistada ennistatud ennistatakse ennistati ennistama ennista ennistan
+74	9074	ukselävi	ukselävel ukselävele ukseläve
+75	9075	psühhiaatriline	psühhiaatriline psühhiaatrilise psühhiaatrilist psühhiaatrilisele psühhiaatriliste
+76	9076	ringlema	ringleb ringle ringlevad ringlema ringlemas ringles
+77	9077	nurisema	nuriseda nurise nurisevad nurised nurisenud nurisema nuriseb
+78	9078	liiklusummik	liiklusummikus liiklusummik liiklusummikusse liiklusummikud liiklusummikuid liiklusummiku
+79	9079	mandel	mandlid mandleid mandli mandel mandlitega mandlite
+80	9080	käterätt	käteräti käterätt käterätid käterätti käterätte
+81	9081	kukkur	kukru kukkur kukrus kukrut kukrusse kukrust kukrud
+82	9082	kihk	kihuta kihk kihku kihud kihu
+83	9083	suunamine	suunamist suunamine suunamiseks suunamise suunamisest
+84	9084	pääste	pääste päästet
+85	9085	prii	prii priid priiks
+86	9086	tulejoon	tulejoonele tulejoonel tulejoon tulejoonelt
+87	9087	meisterdama	meisterdas meisterdada meisterdasin meisterdasid meisterdad meisterdab meisterdan meisterda meisterdanud meisterdama
+88	9088	laupäeviti	laupäeviti
+89	9089	naljatilk	naljatilk naljatilgad
+90	9090	üheksakümmend	üheksakümmend üheksakümne
+91	9091	jaburus	jaburus jaburusi jaburust jaburuse
+92	9092	tõrges	tõrges tõrksad tõrksa tõrksat
+93	9093	programmeerija	programmeerija programmeerijad programmeerijat programmeerijaid
+94	9094	sobivus	sobivus sobivuse sobivusest
+95	9095	paigutus	paigutus paigutust paigutuse paigutusega
+96	9096	elutee	elutee eluteel eluteed
+97	9097	tuuleveski	tuuleveski tuuleveskit tuuleveskid tuuleveskis tuuleveskeid tuuleveskitega
+98	9098	kujuteldamatu	kujuteldamatu kujuteldamatult kujuteldamatud kujuteldamatut kujuteldamatuid
+99	9099	äratuskell	äratuskell äratuskella
+100	9100	desertöör	desertöör desertöörid desertööri desertööre desertööriks

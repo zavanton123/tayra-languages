@@ -1,0 +1,100 @@
+1	9901	paksune	paksune paksuse paksused paksusest
+2	9902	ürt	ürte ürt ürdid ürtidega ürtide ürdi ürti
+3	9903	silmarõõm	silmarõõm silmarõõmu silmarõõmuks
+4	9904	kauplemine	kauplemine kauplemisega kauplemisel
+5	9905	otsustaja	otsustaja otsustajate otsustajad otsustajaks
+6	9906	kili	kili kilid kilide
+7	9907	sensatsiooniline	sensatsiooniline sensatsioonilise sensatsioonilist sensatsioonilised
+8	9908	õhurõhk	õhurõhk õhurõhu
+9	9909	hoolealune	hoolealune hoolealust hoolealuse hoolealused
+10	9910	tagaplaan	tagaplaanil tagaplaanile
+11	9911	tähesüsteem	tähesüsteemi tähesüsteem tähesüsteemis tähesüsteemist tähesüsteeme
+12	9912	metroojaam	metroojaama metroojaamas metroojaam
+13	9913	internaat	internaati internaadis internaat internaadist internaadi
+14	9914	efektiivsus	efektiivsust efektiivsuse efektiivsus efektiivsusega
+15	9915	emadepäev	emadepäeva emadepäev emadepäeval emadepäevaks
+16	9916	proovisõit	proovisõitu proovisõit proovisõidule proovisõidu
+17	9917	ilusalong	ilusalongi ilusalong ilusalongis
+18	9918	sündsus	sündsuse sündsust sündsus sündsusest
+19	9919	üleastumine	üleastumine üleastumise üleastumiste üleastumised üleastumist üleastumisi
+20	9920	elevile	elevile
+21	9921	retooriline	retooriline
+22	9922	hopp	hopp
+23	9923	lise	lise
+24	9924	päevituma	päevitunud
+25	9925	ettevalmistatud	ettevalmistatud
+26	9926	vanatädi	vanatädi vanatädiga
+27	9927	molkus	molkus molkused molkuse
+28	9928	tiaara	tiaara tiaarat tiaaraga tiaarad
+29	9929	hektar	hektarit hektari hektareid
+30	9930	kahepoolne	kahepoolne kahepoolse kahepoolset kahepoolsed
+31	9931	aastakäik	aastakäik aastakäigu aastakäiku aastakäigust aastakäike
+32	9932	metsaline	metsaline metsalise metsalist metsalised
+33	9933	tihke	tihke tihkelt tihket tihked tihkem
+34	9934	närtsima	närtsinud närtsib närtsivad närtsima närtsisid närtsin
+35	9935	lauatennis	lauatennise lauatennist lauatennis lauatennises
+36	9936	eritellimus	eritellimusel eritellimus eritellimuse eritellimusega
+37	9937	vaagen	vaagen vaagna vaagnat vaagnal vaagnale
+38	9938	sertifikaat	sertifikaat sertifikaadi sertifikaati sertifikaadid sertifikaadiga
+39	9939	eemalolek	eemalolek eemalolekut eemaloleku eemalolekul
+40	9940	põllumees	põllumees põllumehed põllumeestele põllumehe põllumehi
+41	9941	igakuine	igakuine igakuise igakuiselt igakuist igakuised
+42	9942	ige	igemed ige igemeid igemete igemetele igemetega
+43	9943	lüüasaamine	lüüasaamine lüüasaamist lüüasaamisega lüüasaamise lüüasaamisest
+44	9944	rutakas	rutakas rutakalt rutakaid rutakad rutakat
+45	9945	eelseisev	eelseisva eelseisvast eelseisev eelseisvaks eelseisvat
+46	9946	korrigeerima	korrigeerida korrigeerima korrigeerin korrigeeritud korrigeeri korrigeerib korrigeeris
+47	9947	autosõit	autosõit autosõidu autosõitu autosõidust
+48	9948	nõrgendama	nõrgendab nõrgendada nõrgendas nõrgendanud nõrgendavad nõrgendaks nõrgendatud nõrgendad
+49	9949	teadvustama	teadvustada teadvustad teadvustanud teadvustama teadvusta teadvustan teadvustab teadvustatud
+50	9950	väljaminek	väljaminek väljaminekuid väljaminekud väljaminekut väljaminekuks väljaminekute väljamineku
+51	9951	poolus	pooluste pooluse poolused poolus poolusele poolusel pooluseni
+52	9952	kõdunema	kõdunenud kõdunema kõduneb kõduneda kõdunev kõdunevad
+53	9953	mõtlemisaeg	mõtlemisaega
+54	9954	luuüdi	luuüdi
+55	9955	umbkaudu	umbkaudu
+56	9956	jälestusväärne	jälestusväärne jälestusväärsed
+57	9957	solvamine	solvamine solvamiseks
+58	9958	aegruum	aegruumi aegruumis aegruum
+59	9959	punapäine	punapäine punapäise punapäised punapäiseid
+60	9960	hõng	hõngu hõng
+61	9961	mustvalge	mustvalge mustvalgelt mustvalgel mustvalged mustvalgena mustvalget
+62	9962	staatiline	staatiline staatilist staatilise staatiliseks
+63	9963	transportimine	transportimiseks transportimine transportimise transportimisel
+64	9964	varjutus	varjutus varjutuse varjutust
+65	9965	maalimine	maalimine maalimise maalimisest maalimiseks
+66	9966	jahipüss	jahipüss jahipüssi jahipüssiga jahipüssist
+67	9967	aurustuma	aurustub aurustunud aurustus aurustusid aurustuma aurustuvad aurustuda
+68	9968	faasan	faasan faasanit faasanid faasaneid faasanite faasani
+69	9969	kloppima	klopitud klopib kloppida kloppima kloppis klopin
+70	9970	nähvama	nähva nähvasin nähvas nähvama nähvata nähvad nähvasid nähvanud
+71	9971	kohanduma	kohandunud kohanduma kohanduda kohandub kohanduvad kohandume kohandu kohanduv
+72	9972	magamaminek	magamaminekut magamaminek
+73	9973	õppija	õppija õppijad
+74	9974	neiuke	neiuke neiukesed
+75	9975	vanaproua	vanaproua vanaprouat vanaprouaga
+76	9976	ruupia	ruupiat ruupia
+77	9977	paarkümmend	paarkümmend paarikümne
+78	9978	kaunike	kaunike kaunikene kaunikesed
+79	9979	habemenuga	habemenuga habemenoa habemenoaga habemenoad
+80	9980	võre	võre võred võret võrest
+81	9981	kroonprints	kroonprints kroonprintsi kroonprintsiga
+82	9982	jaanalind	jaanalind jaanalinnu jaanalinnud jaanalindu
+83	9983	mopp	mopp mopi mopiga moppi mopes
+84	9984	kõrgetasemeline	kõrgetasemeline kõrgetasemelist kõrgetasemelise kõrgetasemelised kõrgetasemeliste kõrgetasemelisest
+85	9985	vahesein	vaheseina vahesein vaheseinad vaheseinaga vaheseinu
+86	9986	telekanal	telekanal telekanali telekanalid telekanalit telekanalis telekanaleid telekanalil
+87	9987	programmeerimine	programmeerimine programmeerimise programmeerimist programmeerimiseks programmeerimisega programmeerimisest
+88	9988	mäestik	mäestiku mäestik mäestikus mäestikku mäestikust mäestikes
+89	9989	reostuma	reostus reostuse reostust reostunud reostusest reostusega
+90	9990	kurvastus	kurvastuseks kurvastusest kurvastusega kurvastust kurvastus kurvastuse
+91	9991	maalapp	maalapp maalapi maalapil maalappi maalapile maalapid maalapilt
+92	9992	kupatama	kupatada kupatas kupatan kupata kupatatakse kupatab kupatage kupatasime kupatame kupatanud
+93	9993	võidutsema	võidutseb võidutseda võidutsevad võidutses võidutse võidutseks
+94	9994	osak	osakud osakuid osak osakut osakute
+95	9995	etteotsa	etteotsa
+96	9996	nässus	nässus
+97	9997	hukas	hukas
+98	9998	kutsar	kutsar kutsarit kutsari
+99	9999	maskeraad	maskeraad maskeraadi maskeraadile
+100	10000	logard	logard logardid logardeid

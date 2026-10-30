@@ -1,0 +1,100 @@
+1	3201	kahur	kahurid kahur kahuri kahurit kahureid kahurite kahuriga kahurist kahuritest kahuritega kahurisse kahuritele
+2	3202	orav	orav oravad orava oravat oravaid oravate oravaga oravatega oraval oravaks oravale oravast oravatest
+3	3203	proff	proff profid profiks proffide profi proffi proffidega proffidele profina proffe profiga proffidel profilt
+4	3204	hõõruma	hõõruda hõõrud hõõruma hõõrub hõõrun hõõruge hõõruvad hõõrusin hõõrudes hõõrusid hõõrume hõõrutud hõõruks hõõrunud hõõrute hõõruksid hõõrumas hõõrutakse hõõrusite
+5	3205	väljend	väljend väljendit väljendeid väljendi väljendid väljendiga väljendist väljenditest väljendite väljenditega väljendile
+6	3206	juhtkond	juhtkond juhtkonna juhtkonnale juhtkonda juhtkonnaga juhtkonnas juhtkonnast juhtkonnalt juhtkonnal
+7	3207	müüt	müüt müüdi müütide müüti müüdid müüdist müüdiks müüdile müütides müüdis müütidest müüdiga müütidesse
+8	3208	harima	haritud harida hariv harimatu harimatud harima harin harimata harivad harinud harib harides haris
+9	3209	hambaarst	hambaarst hambaarsti hambaarstile hambaarstid hambaarstiks hambaarste hambaarstiga hambaarstil hambaarstide
+10	3210	liblikas	liblikas liblikad liblika liblikaid liblikate liblikat liblikaks liblikaga liblikatega liblikatest liblikale liblikatel liblikal
+11	3211	riskantne	riskantne riskantseks riskantse riskantset riskantsem riskantsed riskantselt riskantseid
+12	3212	rituaal	rituaal rituaali rituaalid rituaale rituaalide rituaalist rituaaliga rituaalidest rituaaliks rituaalis rituaalidega rituaalides rituaalil rituaalile rituaalidel
+13	3213	stsenaarium	stsenaarium stsenaariumi stsenaariumit stsenaariumis stsenaariume stsenaariumid stsenaariumist stsenaariumiga stsenaariumile stsenaariumeid stsenaariumiks stsenaariumisse stsenaariumite
+14	3214	heategevus	heategevus heategevuseks heategevust heategevuse heategevusele heategevusega heategevusse heategevusest heategevuses
+15	3215	hurraa	hurraa hurraad
+16	3216	kaotamine	kaotamine kaotamist kaotamise kaotamisest
+17	3217	tagauks	tagauksest tagaukse tagauks tagaust tagauksele tagauksed tagauksi
+18	3218	pingviin	pingviin pingviinid pingviini pingviinide pingviine pingviinile pingviinidele pingviiniga pingviinidega pingviinist pingviinidel pingviinidest pingviinil
+19	3219	enam-vähem	enam-vähem
+20	3220	kondoom	kondoomi kondoome kondoomid kondoom kondoomita kondoomide kondoomiga kondoomidest kondoomidega kondoomina
+21	3221	koda	koda koja kojas kojast kojale kojad kodade kojaga kodasid kodades kojal kotta kodadesse
+22	3222	lausuma	lausu lausunud lausus lausuda lausumata lausub lausun laususin lausuma laususid lausud lausume lausutud lausumas lausuks lausuge lausudes laususime lausuvad
+23	3223	paarimees	paarimees paarimehe paarimeest paarimehega paarimehed paarimehest paarimeheks paarimehel paarimehele paarimeeste
+24	3224	vaeseke	vaeseke vaesekesed vaesekest vaesekesi vaesekesele vaesekeste vaesekesega vaesekestel vaesekestega vaesekesest
+25	3225	muinasjutt	muinasjutt muinasjutte muinasjutud muinasjuttu muinasjutu muinasjutus muinasjuttudes muinasjutust muinasjuttudest muinasjuttude muinasjutuks muinasjuttudesse muinasjuttudega muinasjutuga
+26	3226	maffia	maffia maffiaga maffiast maffiat maffiale maffias maffiasse maffialt maffial
+27	3227	teenus	teenuseid teenust teenus teenuste teenuse teenused teenustest teenusega teenustega teenusest
+28	3228	töötlema	töödeldud töödelda töötleb töötlen töötlema töötle töötleme töötlemata töötlesid töötles töötlevad töödelnud töötlesin töötled töödeldakse töödeldi töödeldes töötlesime töödelge
+29	3229	illegaalne	illegaalne illegaalselt illegaalse illegaalset illegaalsed illegaalseid illegaalsete illegaalses illegaalsest illegaalsele illegaalsetest illegaalsel illegaalseks
+30	3230	turist	turistid turist turiste turistide turisti turistidele turistidega turistidest turistina turistidel
+31	3231	kuriteopaik	kuriteopaik kuriteopaigal kuriteopaiga kuriteopaigalt kuriteopaika kuriteopaigale kuriteopaigas kuriteopaigast kuriteopaigaga kuriteopaigad kuriteopaiku kuriteopaigaks kuriteopaikades kuriteopaikadel
+32	3232	ehitus	ehitus ehituse ehitusel ehitust ehitusega ehitusele ehituseks ehitusest ehituses ehituselt ehitusse ehitused ehituste
+33	3233	padrun	padrunid padruneid padrunit padrun padruni padruniga padrunitega padrunite padruniteta
+34	3234	pastakas	pastakas pastakat pastaka pastakaga pastakad pastakaid pastakate
+35	3235	analüüsima	analüüsida analüüsi analüüsima analüüsime analüüsin analüüsib analüüsisin analüüsinud analüüsid analüüsisime analüüsitakse analüüsivad analüüsitud analüüsiks analüüsis analüüsige analüüsiti analüüsides analüüsisid
+36	3236	hukk	hukule hukkusid hukk hukku huku hukust hukuga hukuni hukuta
+37	3237	veerand	veerand veerandi veerandil veerandit veerandiks veerandile
+38	3238	jõhker	jõhker jõhkralt jõhkrad jõhkra jõhkrat jõhkraid jõhkraks jõhkral jõhkrate jõhkrast jõhkrale
+39	3239	allapoole	allapoole
+40	3240	imperaator	imperaator imperaatori imperaatorile imperaatorit imperaatoriga imperaatoriks imperaatorilt imperaatorid imperaatoril imperaatorite
+41	3241	puuvili	puuvilju puuvilja puuviljad puuvili puuviljade puuviljadega puuviljadest puuviljaga
+42	3242	võltsima	võltsitud võltsida võltsisin võltsinud võltsima võltsib võltsime võltsisime võltsisite võltsin
+43	3243	sari	sarja sari sarjast sarjaga sarju sarjal sarjale sarjades sarjad sarjade
+44	3244	praadima	praetud praadida praen praadima praeb praeme praevad praadige praadisin praetakse praadis praadinud praadimas praadisime
+45	3245	jahimees	jahimees jahimehed jahimehe jahimeeste jahimehi jahimeest jahimehele jahimehest jahimeheks jahimeestele jahimeestest jahimeesteks
+46	3246	keerutama	keerutada keerutab keerutama keerutad keerutan keerutas keerutavad keerutage keerutamata keerutame keerutasin keerutades keerutasid keerutanud keerutamas keerutaks keerutate
+47	3247	bandiit	bandiit bandiidid bandiitide bandiite bandiidi bandiiti bandiitidega bandiitidest bandiidiks bandiitidele bandiidist bandiidile bandiidiga
+48	3248	sodima	sodiks sodi soditud sodisin sodida sodiga
+49	3249	tank	tanki tankid tanke tankide tankiga tankidega tankidest tankidele tankile tankidesse tankilt tankiks
+50	3250	zombi	zombi zombid zombide zombisid zombit zombiks zombideks zombidest zombidega zombist zombiga zombile
+51	3251	programmeerima	programmeeritud programmeerida programmeerisin programmeeris programmeeriti programmeerinud programmeerima programmeerisid programmeerin programmeerib programmeeri programmeerime programmeerisite programmeeritakse programmeerisime programmeerige programmeeritav
+52	3252	kalkun	kalkun kalkuni kalkunit kalkunid kalkuniga kalkuneid kalkunite kalkunist kalkunile
+53	3253	prioriteet	prioriteet prioriteedid prioriteediks prioriteete prioriteedi prioriteediga prioriteetide prioriteetidest prioriteetides prioriteetidega
+54	3254	mölakas	mölakas mölakad mölaka mölakaks mölakaid mölakat mölakana mölakast mölakaga mölakale
+55	3255	tort	torti tort tordi tordid tordist tordil tordiga torte tordile tordiks tortide
+56	3256	pooleldi	pooleldi
+57	3257	vererõhk	vererõhk vererõhku vererõhu vererõhule vererõhuga
+58	3258	kujutlusvõime	kujutlusvõime kujutlusvõimet kujutlusvõimega kujutlusvõimest kujutlusvõimel kujutlusvõimele kujutlusvõimes kujutlusvõimeta
+59	3259	elatis	elatist elatise elatis elatiseks
+60	3260	pervert	pervert perverdid perverdi perverti perverte perverdist perverdiks pervertide pervertidele perverdina perverdiga perverdile
+61	3261	moos	mooses moosi moos moose moosiga moosid moosisid mooside moosest moosis
+62	3262	suuteline	suuteline suutelised
+63	3263	haamer	haamer haamriga haamri haamrit haamrid haamreid haamriks haamril
+64	3264	väljaarvatud	väljaarvatud
+65	3265	kiirendama	kiirendada kiirendab kiirendatud kiirendama kiirenda kiirendas kiirendame kiirendaks kiirendan kiirendavad kiirendanud kiirendage kiirendades kiirendad kiirendasin kiirendasid kiirendasime
+66	3266	ettekanne	ettekande ettekanne ettekannet ettekandes ettekanded ettekandeid ettekandest ettekandega ettekandele ettekandesse ettekannete ettekannetes
+67	3267	aprill	aprill aprillil aprillis aprilli aprillist aprillini aprilliks
+68	3268	sarv	sarved sarve sarv sarvi sarvist sarvedega sarvede sarvega sarvest sarvedest
+69	3269	jaapanlane	jaapanlased jaapanlane jaapanlaste jaapanlasi jaapanlastele jaapanlastega jaapanlastel jaapanlase jaapanlasest jaapanlast jaapanlastest
+70	3270	ulatama	ulatada ulatage ulataksid ulatan ulatab ulatas ulatad ulatasid ulataksite ulatanud ulatasin ulatame ulatavad ulatama ulatate ulatati
+71	3271	siht	sihid siht sihile sihti sihte sihist sihiga sihtide sihil sihini
+72	3272	kübar	kübar kübara kübarat kübaraga kübarad kübaraid kübarast kübaras kübaratega kübarate kübarata kübarale kübarasse
+73	3273	varasem	varasema varasemast varasem varasemad varasemaid varasemates varasemat varasemate varasematest varasematel varasemale varasemas varasemal
+74	3274	kuivama	kuivanud kuivab kuivama kuivavad kuivada kuivamas kuivan
+75	3275	korduma	kordub kordu korduda korduks korduvad korduma korduvat kordunud kordusid
+76	3276	keskpäev	keskpäeval keskpäevaks keskpäev keskpäeva keskpäevani keskpäevast
+77	3277	juuni	juuni juunis juunil juunist juunini juuniks juunit
+78	3278	romaan	romaani romaan romaane romaanis romaanid romaanist romaanil romaanide romaanides romaaniga romaanidest romaanile
+79	3279	rütm	rütmi rütm rütmis rütmist rütmid rütme rütmiga rütmile
+80	3280	nunn	nunn nunnad nunna nunnaks nunnade nunnaga nunnasid nunnadega nunnadele nunni nunnadest nunnale nunnana
+81	3281	mispärast	mispärast
+82	3282	alatine	alatiseks alatine
+83	3283	metroo	metroo metroos metrooga metroosse metrood metroost metrooni
+84	3284	laskmine	laskmine laskmist laskmise laskmiseks laskmisest laskmisega laskmises laskmisele laskmisel
+85	3285	väänama	väänata väänasin vääna väänatud väänab väänas väänama väänad väänan väänasid väänanud vääname väänati väänavad väänate väänaks väänatakse väänake väänates väänasite
+86	3286	sassis	sassis
+87	3287	kiip	kiip kiipi kiipe kiibiga kiibil kiibist kiibile kiibilt kiipidest kiipide kiipidega kiibis
+88	3288	senat	senati senat senatis senatisse senatile senatit senatist senatil senatiga
+89	3289	kõrvetama	kõrvetab kõrvetada kõrvetas kõrvetasid kõrvetatud kõrvetasin kõrvetama kõrvetanud kõrvetad kõrvetan kõrvetame kõrvetaks kõrvetasime kõrvetage kõrvetate
+90	3290	pulk	pulk pulga pulka pulgad pulki pulgal pulgaga pulkadega pulgale pulkade pulgast
+91	3291	sattunud	sattunud
+92	3292	raund	raundi raund raundis raundiks raundiga raundist raundid
+93	3293	mootorratas	mootorratta mootorratas mootorrattaga mootorratast mootorrattal mootorrattad mootorrattaid mootorratastega mootorrataste mootorrattale mootorrattalt mootorrattast mootorratastel mootorratastest
+94	3294	iseseisev	iseseisvalt iseseisev iseseisvaks iseseisva iseseisvad iseseisvat iseseisvaid iseseisvate
+95	3295	allkirjastama	allkirjastatud allkirjastada allkirjastas allkirjastama allkirjastanud allkirjastasid allkirjastasin allkirjasta allkirjastan allkirjastad allkirjastab allkirjastame allkirjastaks allkirjastage allkirjastasite allkirjastasime allkirjastaksid allkirjastati allkirjastatakse allkirjastavad allkirjastamata allkirjastades
+96	3296	ajakirjandus	ajakirjandus ajakirjanduse ajakirjandust ajakirjanduses ajakirjandusele ajakirjandusega ajakirjandusse ajakirjandusest ajakirjandusel
+97	3297	hargnema	hargneme hargnege hargnema hargneda hargnevad hargneb hargnenud hargnesid hargne hargnesime hargnedes hargneks
+98	3298	partei	partei parteid parteisse parteis parteile parteist parteiga parteil parteide
+99	3299	tagasitulek	tagasitulekut tagasitulek tagasituleku tagasitulekust tagasitulekuks tagasitulekuni tagasitulekuga tagasitulekus tagasitulekule
+100	3300	juunior	juunior juuniori juuniorite juunioriga juuniorile juunioride juunioriks juunioril juuniorit juuniorist

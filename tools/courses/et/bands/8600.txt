@@ -1,0 +1,100 @@
+1	8501	kaasnev	kaasnev kaasnevaid kaasneva kaasnevate
+2	8502	seismine	seismine seismisest seismist seismisega
+3	8503	tunnistamine	tunnistamine tunnistamist tunnistamise tunnistamiseks
+4	8504	kongikaaslane	kongikaaslane kongikaaslase kongikaaslased kongikaaslasega kongikaaslast kongikaaslasele
+5	8505	mütoloogia	mütoloogia mütoloogias mütoloogiast mütoloogiat mütoloogiates
+6	8506	purustus	purustused purustusi purustuste purustustest
+7	8507	paganlik	paganlik paganlikud paganliku paganlikku paganlike paganlikke paganlikust paganlikest
+8	8508	illegaal	illegaal illegaalid illegaalide illegaale illegaali
+9	8509	edukus	edukuse edukus edukust edukusest edukuses
+10	8510	vabastus	vabastuse vabastus vabastust vabastuseks
+11	8511	lööklaine	lööklaine lööklained lööklainet
+12	8512	kohtualune	kohtualune kohtualuse kohtualused kohtualusel
+13	8513	katkestus	katkestus katkestuse katkestusi katkestust katkestused katkestuste
+14	8514	karussell	karussell karusselli karussellil karusselliga karussellile karussellid karussellilt
+15	8515	klahv	klahvi klahve klahvid klahv klahvile klahvidele
+16	8516	lajatama	lajatas lajata lajatab lajatan lajatada lajatama lajatasin lajatad lajatasid
+17	8517	hakkliha	hakkliha hakklihaks hakklihaga
+18	8518	roomaja	roomaja roomajaid roomajatega
+19	8519	insuliin	insuliini insuliin
+20	8520	kompensatsioon	kompensatsiooni kompensatsioon kompensatsiooniks kompensatsioonist
+21	8521	gilbert	gilberti gilbertit gilbertite gilbertil gilbertiga gilbertile gilbertid
+22	8522	seltskondlik	seltskondlik seltskondlikult seltskondlikud seltskondlikku seltskondliku seltskondlikke seltskondlikuks
+23	8523	lonkima	longi lonkis longib lonkima longime lonkimas lonkisin longin lonkida lonkinud
+24	8524	teesulg	teesulud teesulg teesulu teesulust teesulge teesulgudest teesulgu
+25	8525	lugem	lugemid lugem lugemit lugemeid lugemi lugemis
+26	8526	kõmmuma	kõmmutada kõmmutama kõmmutan kõmmutas kõmmutad kõmmutasid kõmmutab kõmmutati kõmmutavad
+27	8527	püünis	püüniseid püünis püünise püünised püünisesse püünist püüniste püünistest
+28	8528	tagantpoolt	tagantpoolt
+29	8529	vanemleitnant	vanemleitnant
+30	8530	seitsmene	seitsmene seitsmeseks seitsmeselt
+31	8531	maandumisrada	maandumisrada maandumisrajal maandumisraja maandumisrajale
+32	8532	kaebealune	kaebealune kaebealuse kaebealust kaebealused kaebealusega
+33	8533	luhtuma	luhtunud luhtus luhtub luhtusid luhtuvad
+34	8534	broneering	broneering broneeringut broneeringu broneeringud broneeringuid
+35	8535	põleng	põleng põlengu põlengut põlengus põlengust põlengud põlenguid
+36	8536	mõrvasüüdistus	mõrvasüüdistusest mõrvasüüdistuse mõrvasüüdistus mõrvasüüdistust mõrvasüüdistusega mõrvasüüdistusele
+37	8537	kilt	kilti kildi kildid
+38	8538	surmaaeg	surmaaeg surmaaja surmaaega surmaajaks
+39	8539	massaaž	massaaži massaaž massaažiga massaažis
+40	8540	peegelduma	peegeldub peegelduvad peegeldumas peegelduv peegeldunud peegeldu
+41	8541	külalistemaja	külalistemaja külalistemajas külalistemajja külalistemajast
+42	8542	kopsakas	kopsaka kopsakas kopsakat
+43	8543	täisealine	täisealine täisealiseks täisealised täisealiste
+44	8544	tunnine	tunnine tunnise tunnisel tunniste tunnised
+45	8545	maius	maiust maius maiused maiuse maiuseid maiuste
+46	8546	luumurd	luumurd luumurde luumurrud luumurdu luumurruga luumurru
+47	8547	avaus	avause avaus avaust avaused avausse avausest avausi
+48	8548	jutlustama	jutlustab jutlustama jutlustas jutlustada jutlustan jutlustad jutlusta jutlustanud jutlustavad
+49	8549	niisutama	niisutada niisutama niisuta niisutab niisutavad niisutav niisutatud niisutan niisutage niisutad niisutavat
+50	8550	kordamööda	kordamööda
+51	8551	nakatatud	nakatatud
+52	8552	kahjutasu	kahjutasu
+53	8553	aster	aster
+54	8554	täistabamus	täistabamus täistabamuse
+55	8555	võrukael	võrukael võrukaelad võrukaela
+56	8556	vatt	vatti vati vatt
+57	8557	kinnitamine	kinnitamiseks kinnitamine kinnitamise
+58	8558	mandariin	mandariini mandariin mandariine mandariinid
+59	8559	võrdväärne	võrdväärne võrdväärset võrdväärsed võrdväärse võrdväärselt
+60	8560	brutaalne	brutaalne brutaalselt brutaalse brutaalset brutaalsed
+61	8561	piimakokteil	piimakokteili piimakokteil piimakokteile piimakokteilid piimakokteiliga
+62	8562	astronoom	astronoom astronoomid astronoomi astronoomide
+63	8563	kriket	kriket kriketit kriketi kriketist kriketis
+64	8564	röövik	röövik röövikud rööviku röövikut röövikuid
+65	8565	kuivati	kuivati kuivatis kuivatisse kuivatit kuivatist
+66	8566	eelpost	eelpost eelposti eelpostile eelpostil
+67	8567	koiku	koiku koikut koikud koikusse koikul koikudesse koikus koikust
+68	8568	kolonelleitnant	kolonelleitnant kolonelleitnandi
+69	8569	raadioside	raadioside raadiosidet
+70	8570	maskeeruma	maskeerunud maskeeruda maskeeruma maskeerume maskeerub maskeerus
+71	8571	populaarsus	populaarsus populaarsuse
+72	8572	vedur	vedur veduri vedurit veduris
+73	8573	flööt	flööti flööt flöödi flööte flöödid
+74	8574	paiskuma	paiskus paiskub paiskunud paiskuda paiskuvad paiskusid
+75	8575	tervisekindlustus	tervisekindlustus tervisekindlustust tervisekindlustuse
+76	8576	kiitlema	kiidelda kiitles kiitleb kiitle kiitlesid kiitlema kiitled
+77	8577	töövestlus	töövestlus töövestlusele töövestlusel töövestlust töövestluse töövestluseks
+78	8578	lasketiir	lasketiirus lasketiiru lasketiir lasketiirust
+79	8579	diskreetsus	diskreetsust diskreetsus diskreetsuse
+80	8580	intern	interni internid internina interne internide interniks internil interniga
+81	8581	nikerdama	nikerdatud nikerdama nikerdasin nikerdas nikerdada nikerdanud nikerdad nikerdame nikerdan
+82	8582	pagendus	pagendusse pagenduses pagendus pagenduse pagendusest pagendust
+83	8583	himustama	himustama himustab himustavad himustada himusta himustas himustad himustanud himustan
+84	8584	olem	olem
+85	8585	ettenähtud	ettenähtud
+86	8586	väljavalitud	väljavalitud
+87	8587	murettekitav	murettekitav murettekitavalt
+88	8588	ülemvõim	ülemvõimu ülemvõim
+89	8589	kogum	kogum kogumid kogumit kogumi kogumis
+90	8590	pilvelõhkuja	pilvelõhkuja pilvelõhkujad pilvelõhkujaid pilvelõhkujate pilvelõhkujas pilvelõhkujat
+91	8591	kultuuriline	kultuuriline kultuurilise kultuuriliselt kultuurilised kultuurilist kultuurilisi kultuurilises
+92	8592	aplodeerima	aplodeerin aplodeerige aplodeerime aplodeerida aplodeerisid aplodeerivad aplodeerima aplodeerigem aplodeerib
+93	8593	standard	standarditele standardeid standardi standardit standarditega standarditest
+94	8594	niisamuti	niisamuti
+95	8595	kuivõrd	kuivõrd
+96	8596	suguharu	suguharu suguharust suguharud suguharule suguharude
+97	8597	leukeemia	leukeemia leukeemiasse leukeemiat leukeemiaga
+98	8598	pundar	puntras pundar puntrasse puntra
+99	8599	magistraat	magistraat magistraadi magistraadile magistraati magistraadiga
+100	8600	tursk	tursk turska tursa turski turskade

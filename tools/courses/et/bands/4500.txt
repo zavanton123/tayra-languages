@@ -1,0 +1,100 @@
+1	4401	liiane	liiast
+2	4402	keep	keep keepi keebi keebiga keebid keebist keepe keebis
+3	4403	järeldama	järeldada järeldan järeldad järeldasin järeldama järeldades järeldame järeldas järeldasid järeldanud järeldate järeldasite järelda järeldasime järeldab järeldaks
+4	4404	nuhk	nuhk nuhid nuhki nuhke nuhkidest nuhkide nuhist
+5	4405	kurikas	kurikas kurikaga kurikat kurika kurikad kurikate kurikaid kurikal kurikale kurikast kurikatega
+6	4406	kaheksas	kaheksanda kaheksas kaheksandas kaheksandal kaheksandat kaheksandast kaheksandaks kaheksandale kaheksandasse kaheksandalt
+7	4407	ahvatlev	ahvatlev ahvatlevalt ahvatlevaks ahvatleva ahvatlevana
+8	4408	maakas	maakas maakad maakate maakast maakaid maaka maakat maakatest maakatega maakatele maakale
+9	4409	näitlemine	näitlemine näitlemise näitlemist näitlemisest näitlemisega näitlemiseks näitlemises näitlemisele
+10	4410	suupiste	suupisteid suupisted suupiste suupistet suupistete suupisteks suupistetega suupistetest suupisteteks
+11	4411	külaskäik	külaskäik külaskäigu külaskäiku külaskäigud külaskäigust külaskäigul külaskäiguga külaskäike külaskäiguks külaskäigule külaskäikude
+12	4412	kurv	kurvi kurv kurve kurvides kurvid kurviga kurvide kurvis kurvist kurvile
+13	4413	sisalik	sisalik sisaliku sisalikud sisalikke sisalikku sisalike sisalikest sisalikust sisalikuks sisalikul sisalikel sisalikuga
+14	4414	kiindumus	kiindumust kiindumus kiindumuse kiindumusega kiindumusest kiindumused kiindumuses kiindumusel
+15	4415	tanner	tanner
+16	4416	pahasti	pahasti
+17	4417	tõlk	tõlk tõlgi tõlkisid tõlki tõlgiks tõlgid tõlke tõlkides
+18	4418	rahuldus	rahuldust rahulduse rahuldus rahuldusega
+19	4419	nööp	nööbid nööp nööbi nööpe nööpi nööpidega nööbiga nööpide nööpidest nööbiks
+20	4420	lämmatama	lämmatada lämmatab lämmatad lämmatas lämmatav lämmata lämmatasid lämmatatud lämmatama lämmatavad lämmatati lämmataks lämmatan lämmatame lämmatades lämmatasin lämmatanud lämmataksin
+21	4421	ülal	ülal
+22	4422	müsteerium	müsteerium müsteeriumi müsteeriume müsteeriumit müsteeriumid müsteeriumiks müsteeriumist müsteeriumisse müsteeriumite müsteeriumis
+23	4423	pataljon	pataljon pataljoni pataljonist pataljonis pataljoniga pataljonid pataljonile
+24	4424	maiustus	maiustusi maiustused maiustus maiustuste maiustust maiustuse maiustustest maiustustega maiustusega
+25	4425	tegutsemine	tegutsemist tegutsemine tegutsemiseks tegutsemise tegutsemises tegutsemisel
+26	4426	konvoi	konvoi konvoid konvois konvoiga konvoist konvoisid konvoile konvoisse konvoil
+27	4427	käsitlema	käsitleda käsitleb käsitleme käsitlema käsitletakse käsitle käsitled käsitlenud käsitlen käsitles käsitlevad käsitlesid käsitletud käsitlesin käsitlete käsitleks
+28	4428	riietusruum	riietusruumis riietusruumi riietusruum riietusruumist riietusruumid riietusruumidesse
+29	4429	põruma	põrusin põrusid põrus põrud põrub põruda põrun põrume põru põruvad põrusime põrute põrusite põrunuks põruma põruksid
+30	4430	kaka	kaka kakat kakas kakale kakaga kakasid kakal kakast kakad kakaks
+31	4431	vastuolu	vastuolus vastuollu vastuolu vastuolud vastuolusid vastuoludest
+32	4432	kõrbema	kõrbenud kõrbeb kõrbema kõrbevad kõrbeda kõrben kõrbeme kõrbemas kõrbesin
+33	4433	dünamiit	dünamiit dünamiiti dünamiidi dünamiidiga dünamiidist
+34	4434	napakas	napakas napakad napaka napakaks napakat napakate napakalt napakaid napakale
+35	4435	müügimees	müügimees müügimehe müügimehed müügimeheks müügimehega müügimeest müügimehena müügimehi müügimehele müügimeeste
+36	4436	ahnus	ahnus ahnuse ahnusest ahnust ahnusega ahnusele ahnusel ahnuses
+37	4437	sihtkoht	sihtkohta sihtkoht sihtkoha sihtkohas sihtkohani sihtkohast sihtkohaks sihtkohad sihtkohale sihtkohti
+38	4438	sebima	sebida sebima sebi sebin sebib sebisin sebid sebis sebivad sebisid sebinud sebime sebiks sebige sebisime sebimas sebite
+39	4439	ilmutama	ilmutas ilmutanud ilmutab ilmutada ilmutama ilmutasid ilmutavad ilmutatud ilmutan ilmutasin ilmutad ilmutasime ilmutage ilmutame ilmutate
+40	4440	tagavara	tagavara tagavaraks tagavarad tagavarasid tagavarade
+41	4441	rike	rike rikke rikked rikkeid riket rikete rikkega rikkest riketega
+42	4442	tilkuma	tilgub tilguti tilkus tilkuma tilgutit tilkumas tilgutad tilgu tilgutite tilgutiga tilgud tilkuda tilgutid tilkuv tilgutisse tilkuvat tilguvad tilkudes tilguks
+43	4443	rull	rulli rull rullid rullis rullides rulliga rulle rullisid rullide
+44	4444	tõbi	tõbi tõve tõbe tõvega tõvest tõbesid tõvele tõved tõppe
+45	4445	kompleks	kompleks kompleksi kompleksis kompleksist kompleksid kompleksiga komplekse kompleksidega komplekside
+46	4446	ühiskondlik	ühiskondlik ühiskondlikku ühiskondliku ühiskondlikult ühiskondlikud ühiskondlikust ühiskondlike ühiskondlikul ühiskondlikke ühiskondlikuks ühiskondlikus ühiskondlikest ühiskondlikule
+47	4447	kolju	kolju koljus koljut koljusse koljust koljud koljusid koljul
+48	4448	kahekordne	kahekordne kahekordselt kahekordse kahekordset kahekordsed kahekordseks kahekordsele
+49	4449	vedel	vedel vedelaks vedelat vedela vedelal vedelas vedelad vedelast vedelasse
+50	4450	eluaasta	eluaastast eluaastat eluaastani eluaastates eluaasta eluaastad eluaastaks eluaastate eluaastal eluaastaid
+51	4451	krahvinna	krahvinna krahvinnat krahvinnaga krahvinnal krahvinnale
+52	4452	ell	ella ell elli
+53	4453	hagi	hagi hagist hagiga hagis hagid hagisid hagile hagil
+54	4454	legaalne	legaalne legaalselt legaalset legaalsed legaalse legaalseks legaalseid legaalsest
+55	4455	jope	jope jopet joped jopega jopes jopesid jopele jopest
+56	4456	võltsing	võltsing võltsingud võltsingu võltsingut võltsinguga võltsinguid võltsingute võltsinguks võltsingutega
+57	4457	kallaletung	kallaletungi kallaletung kallaletungis kallaletungiga kallaletungid kallaletungist kallaletungide kallaletunge
+58	4458	sissetulek	sissetulek sissetulekut sissetuleku sissetulekuga sissetulekust sissetulekud sissetulekuid sissetulekute sissetulekutest sissetulekuta sissetulekuks
+59	4459	kaubanduskeskus	kaubanduskeskuses kaubanduskeskuse kaubanduskeskusesse kaubanduskeskus kaubanduskeskust kaubanduskeskusest kaubanduskeskusse kaubanduskeskused kaubanduskeskustes
+60	4460	sündroom	sündroom sündroomi sündroomiga sündroomiks sündroomist sündroomile
+61	4461	alarm	alarmi alarmid alarme alarmiga alarmile
+62	4462	võitmine	võitmiseks võitmine
+63	4463	rajoon	rajoonis rajooni rajoon rajoonist rajoonides rajoonile rajoonid rajoone
+64	4464	vähenema	väheneb vähenenud vähenevad vähenes vähenema vähenemas vähenedes väheneks väheneda
+65	4465	teadaolev	teadaolev teadaolevalt teadaolevad teadaoleva teadaolevaid teadaolevat teadaolevate teadaolevale teadaolevast teadaolevas teadaolevatest teadaolevasse teadaoleval
+66	4466	niit	niite niit niiti niidid niidi niidiga niidul niidist niidud niidita niidule
+67	4467	sõimama	sõimata sõimab sõimas sõimama sõima sõimad sõimasid sõimasin sõimatakse sõiman sõimanud sõimavad sõimati sõimate sõimaks
+68	4468	rutiin	rutiin rutiini rutiinist rutiinis rutiiniga rutiine rutiiniks rutiinid
+69	4469	satikas	satikad satikaid satikate satikas satikat satika satikatega satikateks satikatest satikatel satikatele satikaga
+70	4470	krevett	krevette krevetid krevett kreveti krevettide krevetti krevettidega krevettidest
+71	4471	labane	labane labase labased labaselt labaseid labaseks labaste labases
+72	4472	maailmalõpp	maailmalõpp maailmalõpu maailmalõppu maailmalõpust maailmalõpuga maailmalõpuks maailmalõpuni
+73	4473	tabamus	tabamuse tabamus tabamust tabamusi tabamuseni tabamusest tabamused tabamuste
+74	4474	välismaalane	välismaalane välismaalased välismaalasi välismaalase välismaalaste välismaalastele välismaalast välismaalasest välismaalastega välismaalastest välismaalasega välismaalastel
+75	4475	vahetult	vahetult
+76	4476	sigarett	sigarette sigarettide sigarett sigarettidest sigaretist
+77	4477	taimetoitlane	taimetoitlane taimetoitlased taimetoitlaste taimetoitlase taimetoitlaseks taimetoitlastele taimetoitlastest taimetoitlasest taimetoitlasi taimetoitlasteks
+78	4478	potentsiaalne	potentsiaalne potentsiaalselt potentsiaalse potentsiaalset potentsiaalsed potentsiaalsete potentsiaalseid potentsiaalsest potentsiaalsetele potentsiaalseks potentsiaalsele
+79	4479	kurikael	kurikael kurikaelad kurikaela kurikaelu kurikaelte kurikaelast kurikaelaga kurikaeltega
+80	4480	hamburger	hamburger hamburgeri hamburgerit hamburgerid hamburgereid hamburgeritest hamburgeriga hamburgerite
+81	4481	kutu	kutu kutud kutuks
+82	4482	liitma	liita liidab liida liidetud liidame liitis liitma liitsin liidetakse liidan liidad liites liidaks liideti liidavad liitnud liitsid
+83	4483	erutuma	erutunud erutu erutuda erutuge erutud erutun erutub erutusin erutusid erutuma erutuks erutuvad erutuv
+84	4484	mulder	mulder
+85	4485	piirang	piirangud piiranguid piirang piiranguteta piirangutega piirangut piirangutest piirangute piirangu piiranguta
+86	4486	külmetama	külmetanud külmetad külmetavad külmetab külmetada külmetan külmeta külmetama külmetasin külmetas külmetame külmetaks külmetate külmetav külmetasid
+87	4487	narkodiiler	narkodiiler narkodiilerid narkodiileri narkodiilerit narkodiilereid narkodiilerite narkodiileriga narkodiilerile narkodiileritega narkodiilerist narkodiilerina narkodiileriks
+88	4488	pahkluu	pahkluu pahkluud pahkluid pahkluust pahkluude pahkluul pahkluuga pahkluule pahkluudest pahkluudel pahkluudeni pahkluudele
+89	4489	rändur	rändur rändurid rändurite ränduri rändureid rändurit ränduritele ränduritel ränduriks rändurile rändurist ränduril
+90	4490	üleüldse	üleüldse
+91	4491	häbiväärne	häbiväärne häbiväärset häbiväärselt häbiväärsed häbiväärse häbiväärseks häbiväärseid
+92	4492	talent	talenti talendi talente talendiga talendid talentide talendist talendile talentidega talentidest
+93	4493	hindamatu	hindamatu hindamatud hindamatut hindamatuid hindamatuks hindamatute
+94	4494	tiik	tiigis tiigi tiiki tiik tiigist tiigli tiigid tiigel tiikides tiikide tiiglit tiigil
+95	4495	kohatu	kohatu kohatut kohatult kohatuid
+96	4496	krants	krants krantsi krantsid krantse krantside krantsile krantsiga krantsidega
+97	4497	psühholoog	psühholoog psühholoogi psühholoogid psühholoogiga psühholoogide psühholoogile psühholoogina psühholoogiks
+98	4498	kabiin	kabiini kabiinis kabiin kabiinist kabiinid kabiine
+99	4499	sau	sau saua sauaga
+100	4500	tumm	tumm tummaks tummad tumma tummana

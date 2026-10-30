@@ -1,0 +1,100 @@
+1	5601	vastuvõetav	vastuvõetav vastuvõetavad vastuvõetavaks vastuvõetava vastuvõetavate vastuvõetavat
+2	5602	ühekordne	ühekordne ühekordse ühekordselt ühekordseks ühekordsed ühekordset ühekordseid ühekordsete
+3	5603	suurune	suurune
+4	5604	siva	siva
+5	5605	nakkama	nakkav nakkavad nakka nakkab
+6	5606	südaöö	südaööd südaööl südaöö südaööni südaööks
+7	5607	ohi	ohjes ohjad ohje ohjata ohjadest ohi ohjest ohjasid ohjas ohja
+8	5608	tagatis	tagatiseks tagatis tagatist tagatise tagatisi tagatisega tagatisena tagatiseta tagatised tagatisel
+9	5609	atlant	atlandi atlandil atlandile
+10	5610	dogi	dogi dogid dogide dogiga
+11	5611	halvenema	halveneb halvenenud halvenes halvenevad halvenema halvenesid halveneda halvene
+12	5612	iga-aastane	iga-aastane iga-aastasele iga-aastase iga-aastast iga-aastasel iga-aastaseks iga-aastased iga-aastaselt iga-aastasest
+13	5613	alandus	alandust alandus alanduse alandusest alandusi alanduses alandusega alanduste alandused alandustest
+14	5614	sarnaselt	sarnaselt
+15	5615	kahlama	kahlan kahlata kahlanud
+16	5616	mesinädal	mesinädalad mesinädal
+17	5617	päikesepaiste	päikesepaiste päikesepaistet päikesepaistes päikesepaistel päikesepaistega päikesepaistest
+18	5618	esitamine	esitamise esitamine esitamist esitamiseks esitamisega esitamisel
+19	5619	õhutama	õhutada õhutab õhutavad õhutas õhutad õhutanud õhutasid õhutama õhutasin õhutan õhutame õhutades õhutatud õhutaks
+20	5620	vastupandamatu	vastupandamatu vastupandamatut vastupandamatuks vastupandamatud vastupandamatult
+21	5621	säär	sääred sääri sääre säär säärt säärised säärde säärega säärte
+22	5622	hark	hargile hargilt hargi hargiga
+23	5623	hukatus	hukatuse hukatus hukatusele hukatuseks hukatusest hukatuses
+24	5624	kõlakas	kõlakaid kõlakad kõlakas kõlakat kõlakate kõlaka
+25	5625	praam	praam praami praamiga praamile praamil praamilt praamid praamist
+26	5626	volinik	volinik voliniku volinikud volinikule volinikku
+27	5627	uusim	uusim uusima uusimate
+28	5628	üleandmine	üleandmine üleandmise üleandmist üleandmisel üleandmiseks üleandmisele üleandmisega üleandmiseni
+29	5629	köögivili	köögivilju köögiviljad köögivilja köögiviljade köögivili köögiviljadega köögiviljadest
+30	5630	õhkima	õhkida õhkima õhime õhkis õhib õhi õhivad õhkisid õhitakse õhkinud õhitud õhiti
+31	5631	tolgus	tolgus tolgused tolgust tolguse tolguseid tolgusele tolgusest tolgusega tolguseks
+32	5632	söögikoht	söögikohas söögikoht söögikohta söögikoha söögikohast söögikohad
+33	5633	vangikong	vangikongis vangikongi vangikong vangikongist vangikongid vangikongide
+34	5634	algkool	algkooli algkoolis algkool algkoolist
+35	5635	defineerima	defineeri defineerida defineerib defineerid defineerime defineeris defineeritud defineerige defineerima defineerivad defineerin defineeriksid
+36	5636	skaala	skaalal skaala skaalast skaalas skaalalt skaalat skaalaga
+37	5637	mõrvarelv	mõrvarelva mõrvarelv mõrvarelval mõrvarelvaks mõrvarelvaga mõrvarelvad mõrvarelvalt
+38	5638	farmer	farmerid farmeri farmerite farmereid farmerit farmerile farmeritest farmeriks farmeril farmeritele farmeritel farmeriga
+39	5639	mõtisklema	mõtiskleda mõtisklen mõtisklesin mõtisklenud mõtisklema mõtiskledes mõtiskled mõtiskles mõtisklev mõtiskleb mõtiskle mõtisklesime
+40	5640	suli	suli sulid sulide sulidega
+41	5641	miljardär	miljardär miljardäri miljardärist miljardärid miljardäride miljardäriga miljardäriks miljardäridest miljardäril
+42	5642	jünger	jüngrid jünger jüngreid jüngrit jüngrite jüngritest jüngri jüngritega jüngritele jüngriks
+43	5643	provints	provintsi provintsis provints provintsist provintsid provintside provintsides provintsidest
+44	5644	sammas	samba sammas sambad sammaste sammast sambaid sambat sammastega sammastes sambal
+45	5645	vahendaja	vahendaja vahendajaid
+46	5646	asjalugu	asjalood asjalugu
+47	5647	hukkamine	hukkamine hukkamisele hukkamised hukkamistest
+48	5648	hulkur	hulkur hulkuri hulkurid hulkureid hulkurit hulkuriks hulkurite hulkurile
+49	5649	kuratlik	kuratlik kuratlikult kuratliku kuratlikku kuratlikud
+50	5650	saiake	saiakesi saiakesed saiake saiakest saiakese saiakeste saiakestega
+51	5651	ässitama	ässitada ässitas ässitab ässitasid ässitan ässitanud ässitad ässita ässitades ässitavad ässitame ässitasite ässitama
+52	5652	murd	murdu murd murdusid murrud murde murdudega
+53	5653	nõuandja	nõuandja nõuandjad nõuandjate nõuandjat nõuandjana nõuandjaks nõuandjaid nõuandjaga nõuandjatest nõuandjatega
+54	5654	kohandama	kohandada kohandatud kohandama kohandas kohandanud kohandasin kohandan kohanda kohandage kohandame kohandades kohandab kohandavad kohandasime kohandatav kohandasid
+55	5655	ruut	ruut ruudus ruudu ruudud ruudust ruuduga ruudule ruudul
+56	5656	varane	varane varased varase varases varasest varasele varasel varaselt varaseid
+57	5657	prügimägi	prügimäele prügimäel prügimägi prügimäe prügimäelt prügimäge prügimäeks
+58	5658	akvaarium	akvaariumi akvaarium akvaariumis akvaariumisse akvaariumist akvaariumid akvaariumit akvaariume
+59	5659	puru	puru
+60	5660	jamps	jamps jampsist
+61	5661	uppunud	uppunud uppunu
+62	5662	seadusevastane	seadusevastane seadusevastast seadusevastaselt seadusevastased seadusevastaseks
+63	5663	sarjama	sarjas sarjad
+64	5664	mereväelane	mereväelane mereväelased mereväelaste mereväelast mereväelasi mereväelase mereväelastega mereväelasest mereväelaseks mereväelasega mereväelastest
+65	5665	monitor	monitori monitorid monitore monitoril monitorile monitorist monitorilt monitoride monitoridel monitoridest monitoriga monitoridele
+66	5666	meistriteos	meistriteos meistriteost meistriteose meistriteosed meistriteosega meistriteoseid meistriteosest meistriteostest
+67	5667	rumaluke	rumaluke rumalukest
+68	5668	vaatlus	vaatluse vaatlus vaatlust vaatluste vaatlused vaatlusi vaatlusel vaatluseks vaatlustega vaatlusele vaatlusega
+69	5669	lihapall	lihapallid lihapalle lihapall lihapalli lihapallidega lihapallide lihapalliga
+70	5670	kali	kali kalja kaljult kaljul kaljule kaljust kaljusse kaljus
+71	5671	sepp	sepp sepa sepad seppa sepaks seppade sepal sepana sepale
+72	5672	pearahakütt	pearahakütt pearahakütid pearahaküti pearahakütiks pearahakütti pearahakütte pearahaküttide pearahakütil pearahakütile
+73	5673	debatt	debatt debatti debati debatil debatile debatiks debatte debatis debatist debatid debatiga
+74	5674	lendamine	lendamine lendamiseks lendamisel
+75	5675	vaist	vaist vaistu vaistuga
+76	5676	taevalik	taevalik taevaliku taevalikku taevalikult taevalikud taevalikust taevalikus taevalike
+77	5677	südamlik	südamlik südamlikud südamlikult südamliku südamlikku südamlikuks südamlike
+78	5678	väljasõit	väljasõit väljasõidule väljasõidu väljasõidul väljasõitu väljasõiduks väljasõite väljasõidud väljasõidust
+79	5679	abivalm	abivalmis abivalmid
+80	5680	rüpp	rüpes rüppe rüpest
+81	5681	torumees	torumees torumehe torumeest torumehed torumehele torumehega torumehena
+82	5682	kalliskivi	kalliskivi kalliskivid kalliskive kalliskividega kalliskivide kalliskividest
+83	5683	toimetus	toimetusi toimetusse toimetuses toimetused toimetus toimetuse toimetusest toimetuste toimetustega
+84	5684	püstitama	püstitada püstitatud püstitas püstitanud püstitab püstitati püstitame püstitama püstitavad püstitage püstitasime püstitasid püstitan püstitasin püstitatakse püstita
+85	5685	kahjulik	kahjulik kahjulikud kahjulike kahjuliku kahjulikke kahjulikult kahjulikku
+86	5686	elustama	elustada elustama elustab elustas elustati elustame elustav elusta elustan elustatud elustanud elustage elustasin elustavad elustasid
+87	5687	volitama	volitatud volitamata volitas volitan volitanud volitada
+88	5688	koolipäev	koolipäev koolipäeva koolipäeval koolipäevast koolipäevaks koolipäevadel
+89	5689	kadett	kadett kadetid kadettide kadetti kadette kadeti kadettidest kadettidel kadettidega kadettidele
+90	5690	viiner	viiner viineri viinerid viinerit viinereid viineriga viinerite viinerile
+91	5691	simulatsioon	simulatsioon simulatsiooni simulatsioone simulatsioonid simulatsioonis simulatsioonist simulatsioonide simulatsiooniga
+92	5692	molekul	molekulid molekule molekul molekuli molekulide molekulidest molekulideks molekulidega
+93	5693	kajut	kajutisse kajutis kajut kajuti kajutist kajutit kajutitesse kajutid kajutite
+94	5694	kirss	kirsi kirss kirsid kirsse kirssi kirssidega kirsside kirsiga
+95	5695	peitus	peitust peitus peituse
+96	5696	otsija	otsija otsijad otsijate otsijaid otsijat otsijatega otsijaks otsijaga
+97	5697	jogurt	jogurt jogurtit jogurti jogurtiga jogurtid
+98	5698	rongijaam	rongijaama rongijaamas rongijaam rongijaamast rongijaamad rongijaamu
+99	5699	blokk	blokk bloki blokki blokis blokist blokiga
+100	5700	primitiivne	primitiivne primitiivsed primitiivse primitiivseid primitiivsete primitiivset primitiivsest primitiivseks

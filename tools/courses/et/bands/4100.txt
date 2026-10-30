@@ -1,0 +1,100 @@
+1	4001	hoop	hoop hoobiga hoopi hoobilt hoope hoobid hoobist hoopide
+2	4002	opereerima	opereerida opereerima opereerib opereeritakse opereeris opereerivad opereeriti opereerime opereeritud opereerin opereerisid opereeri opereerinud opereerisin opereeritav opereerite opereerisime opereeriks opereerimas
+3	4003	tutvus	tutvusi tutvust tutvused tutvuse tutvuste tutvuseid tutvustega tutvus tutvustele tutvusest
+4	4004	vältimatu	vältimatu vältimatut vältimatud vältimatult vältimatuks vältimatus vältimatust
+5	4005	eluaeg	eluajal eluaeg eluaja eluajaks eluaega eluaegu
+6	4006	avenüü	avenüü avenüül avenüüle avenüült avenüüd
+7	4007	õitsema	õitseb õitsema õitsevad õitseda õitsev õitses õitse õitsemas õitsenud õitsesid õitsva õitsed õitsvad õitseks õitsevat õitseme õitsegu õitseva
+8	4008	privileeg	privileeg privileegid privileegi privileege privileegidega privileegide privileegiks privileegidest privileegidele
+9	4009	kvaliteet	kvaliteet kvaliteediga kvaliteeti kvaliteedi kvaliteedist kvaliteedile kvaliteedis
+10	4010	purjetama	purjetama purjetada purjetame purjetan purjetas purjetab purjetad purjetamas purjetasid purjetades purjetanud purjetavad purjetasin purjetasime purjetaks
+11	4011	põlgama	põlgan põlgab põlgavad põlgad põlga põlgama põlata põlgas põlgasid põlgasin põlgate põlgame põlatakse põlates põlati põlgaks põlataks põlgaksid
+12	4012	server	serverisse serveri serverid serveris serverist serverit serveritesse servereid serverite serverile serveriga serveritele serveritega serverini serveritest serverites
+13	4013	sarimõrvar	sarimõrvar sarimõrvari sarimõrvariga sarimõrvarit sarimõrvarid sarimõrvareid sarimõrvarist sarimõrvarite sarimõrvariks sarimõrvaritest sarimõrvarile sarimõrvaritel sarimõrvaril
+14	4014	ettevõtmine	ettevõtmine ettevõtmise ettevõtmist ettevõtmises ettevõtmised ettevõtmisi ettevõtmisest ettevõtmiste ettevõtmistes ettevõtmisele ettevõtmiseks ettevõtmisega ettevõtmisse ettevõtmisel ettevõtmistest ettevõtmisesse
+15	4015	staatus	staatus staatuse staatust staatusest staatuses staatusega staatusele staatusesse
+16	4016	tuss	tuss tussi tusse tussid tussist tussiga tussiks tussidest
+17	4017	kaasaegne	kaasaegne kaasaegse kaasaegsed kaasaegset kaasaegses kaasaegsete kaasaegsele kaasaegseid kaasaegsem kaasaegsest kaasaegsetele kaasaegseks kaasaegsesse kaasaegsel
+18	4018	ehitamine	ehitamiseks ehitamine ehitamist ehitamise ehitamisel ehitamisega ehitamisest ehitamisele ehitamises
+19	4019	kahvatu	kahvatu kahvatut kahvatud kahvatus kahvatuna kahvatule
+20	4020	senikaua	senikaua
+21	4021	jeerum	jeerum
+22	4022	põrsas	põrsas põrsad põrsast põrsa põrsaid põrssa põrsaste põrssad põrsale põrsastele
+23	4023	harjutus	harjutus harjutusi harjutused harjutust harjutuse harjutuste harjutustega harjutusteks harjutuseks harjutustest harjutusest harjutusega harjutustel
+24	4024	näitlema	näidelda näitle näitlema näitled näitleb näitlesin näidelnud näitlen näitlesid näitlemas näitlevad näitles näideldud näitleme näidelge näitleksin näitleks
+25	4025	viiskümmend	viiskümmend viiekümne viiekümneni viiekümnele viiekümnest viitkümmet
+26	4026	ohkama	ohkab ohkas ohkad ohkama ohates ohkan ohka ohkasid ohkavad
+27	4027	vahemaa	vahemaa vahemaad vahemaid vahemaade vahemaal vahemaaga vahemaalt vahemaast
+28	4028	kaasama	kaasatud kaasama kaasanud kaasab kaasati kaasame kaasasin kaasates kaasan kaasatakse kaasake kaasasite kaasamata kaasav kaasasime kaasavad
+29	4029	õhuke	õhuke õhukesed õhukesel õhukese õhukeseks õhukest õhukesi õhukesele õhukeste õhukesest õhukeselt õhukeses
+30	4030	finaal	finaali finaal finaalis finaaliks finaalid finaalile finaalist finaalide
+31	4031	lasteaed	lasteaias lasteaed lasteaeda lasteaia lasteaiast lasteaiad
+32	4032	otseselt	otseselt otsesemalt
+33	4033	taotlema	taotleda taotlen taotleb taotlema taotles taotlesin taotlenud taotleme taotlevad taotled taotlete taotle taotlesid taotlesime taotleks taotleksin
+34	4034	uinak	uinaku uinakut uinak uinakuid uinakuks uinakust uinakud uinakule
+35	4035	kemikaal	kemikaalid kemikaale kemikaali kemikaal kemikaalide kemikaalidega kemikaalidest kemikaaliga kemikaalist
+36	4036	jt	jt
+37	4037	inspireerima	inspireeritud inspireerib inspireeris inspireerisid inspireerida inspireerinud inspireerid inspireeriks inspireeri inspireerima inspireerituna inspireerin inspireerisite inspireerivad inspireerivat
+38	4038	pidurdama	pidurda pidurdada pidurdab pidurdan pidurdama pidurdas pidurdad pidurdavad pidurdanud pidurdage pidurdasid pidurdasin pidurdaks
+39	4039	lõikuma	lõikuvad lõigun lõikuda lõikuma lõikusid lõigutud lõigub lõikusin lõikunud lõikub lõiguvad lõigume lõiguti lõikudes lõigutakse
+40	4040	ainuüksi	ainuüksi
+41	4041	süütunne	süütunne süütunnet süütundest süütundega süütundeta süütundeks süütundele
+42	4042	lahendamine	lahendamiseks lahendamine lahendamist lahendamisel lahendamise lahendamisele lahendamisega lahendamises lahendamisest
+43	4043	alatu	alatu alatult alatut alatuid alatute
+44	4044	ajakava	ajakava ajakavast ajakavas ajakavad ajakavaga ajakavale ajakavasse ajakavva
+45	4045	jäämine	jäämine jäämist jäämise
+46	4046	nafta	nafta naftat naftast naftaga naftale
+47	4047	lutikas	lutikas lutika lutikad lutikaid lutikat lutikatel lutikatega lutikast lutikate lutikaga lutikatest
+48	4048	viivitama	viivitada viivita viivitame viivitad viivitab viivitage viivitamata viivitanud viivitama viivitasid viivitan viivitate viivitavad viivitas viivitasin viivitatud viivitaks
+49	4049	kapsel	kapsel kapsli kapslid kapslit kapslis kapslisse kapsleid kapslist kapsliga kapslite kapslitesse kapslites kapslitega
+50	4050	värviline	värviline värvilised värviliste värvilisi värvilise värvilist värvilistele värviliselt värviliseks värvilisena värvilises värvilistega värvilistel värvilisest värvilisel värvilistest
+51	4051	söökla	söökla sööklas sööklasse sööklast sööklat sööklad sööklates
+52	4052	kauss	kauss kaussi kausi kausis kausist kausid kausse kausiga
+53	4053	esimees	esimees esimehe esimehena esimeheks esimehega esimehele esimeest
+54	4054	savi	savi savist savina savile saviga
+55	4055	kujunema	kujuneb kujunenud kujunes kujuneda kujunevad kujunesid kujunema kujunemas kujuneks kujune
+56	4056	laulmine	laulmine laulmist laulmise laulmisest laulmiseks laulmisega laulmises laulmisel laulmisele
+57	4057	avalikustama	avalikustada avalikustatud avalikustas avalikustama avalikusta avalikustan avalikustatakse avalikustanud avalikustab avalikustame avalikustati avalikustamata avalikustad avalikustasid avalikustaks avalikustata avalikustamast
+58	4058	eelnev	eelneva eelnev eelnevaid eelneval eelnevate eelnevast eelnevatest eelnevates eelnevale eelnevas eelnevatel eelnevatele
+59	4059	veetlev	veetlev veetleva veetlevaks veetlevalt veetlevate veetlevas
+60	4060	kaust	kausta kaust kaustad kaustas kaustu kaustast kaustades kaustadest kaustade kaustasid
+61	4061	nibu	nibud nibu nibusid nibude nibudega nibust nibudest nibuga nibudele
+62	4062	tsükkel	tsükkel tsüklit tsükli tsüklis tsüklist tsüklid tsüklisse tsükleid tsükliks tsüklite tsükliga tsüklil tsüklile tsüklitena
+63	4063	türgi	türgi türgis türgist
+64	4064	heakskiit	heakskiitu heakskiidu heakskiit heakskiiduta heakskiidul heakskiiduga
+65	4065	manner	mandrile mandril mandri mandrilt manner mandrite mandrid mandrit mandrist mandreid mandriga mandritel mander
+66	4066	küngas	künka künkal küngas küngast künkale küngaste küngastel künkast künkad künkalt künkaid küngastele
+67	4067	meeleolu	meeleolu meeleolus meeleolud meeleolusid meeleollu meeleolust meeleolusse meeleoluga
+68	4068	sulguma	sulgub sulguvad sulgunud sulguma sulguda sulgumas sulguks
+69	4069	seljakott	seljakott seljakotti seljakotis seljakoti seljakotid seljakotiga seljakotist seljakotte seljakottidega seljakottidesse
+70	4070	sulgemine	sulgemist sulgemine sulgemise sulgemiseks sulgemiseni
+71	4071	magu	magu maud mao makku maod maul mauna maos maoga maole maost maol maoks maolt
+72	4072	väljapressimine	väljapressimine väljapressimise väljapressimist väljapressimisega väljapressimiseks väljapressimises väljapressimisest väljapressimisele väljapressimiste väljapressimisi väljapressimised väljapressimistega
+73	4073	lippama	lippa lippama lippan lippab lipata lipake lippas lippad lippavad lippasid lippame lippamas
+74	4074	valevorst	valevorst valevorstid valevorsti valevorstiks
+75	4075	hingeõhk	hingeõhk hingeõhku hingeõhu hingeõhuga hingeõhus hingeõhust
+76	4076	sinikas	sinikad sinikaid sinikas sinika sinikat sinikate sinikaga sinikatega sinikates sinikatest sinikatele
+77	4077	kild	kild killud kildudeks kilde kildu killuga kildude killuks kildudest
+78	4078	omapäi	omapäi
+79	4079	taevane	taevane taevase taevased taevasesse taevases taevasele taevasest taevaseid taevaselt taevasel
+80	4080	sokutama	sokutada sokutas sokutasid sokutasin sokutati sokutatud sokutama sokutanud sokutab sokutasite sokutan sokutad sokutame sokutasime
+81	4081	kamandama	kamanda kamandada kamandab kamandama kamandad kamandan kamandav kamandas kamandavad kamandanud kamandaks kamandame kamandamas
+82	4082	ostmine	ostmiseks ostmine ostmist ostmise
+83	4083	pumpama	pumbata pumpab pumpama pumbatakse pumpame pumpan pumbatud pumpavad pumpad pumpas pumbake pumbati pumbanud pumbates pumpamas pumpasin pumpaks
+84	4084	veresaun	veresaun veresauna veresaunast veresaunas veresaunaks veresaunale veresaunaga veresaunad
+85	4085	kontakteeruma	kontakteeruda kontakteeru kontakteerus kontakteerunud kontakteerun kontakteeruma kontakteeruge kontakteerume kontakteerusid kontakteerub kontakteerusin kontakteeruks kontakteeruvad kontakteerud kontakteerusime
+86	4086	eluvorm	eluvorm eluvorme eluvormid eluvormi eluvormide eluvormidest eluvormidega eluvormiks eluvormiga eluvormidele eluvormile
+87	4087	tempo	tempot tempos tempoga tempole
+88	4088	laabuma	laabub laabus laabuvad laabu laabunud laabuma laabuks laabuda laabusid laabuksid laabuvat
+89	4089	skaut	skaut skaudi skaudid skautide skaudiks skauti skaute skautidest skautidel skautidega skautidele
+90	4090	erakorraline	erakorraline erakorralise erakorralist erakorralised erakorraliste erakorralisele erakorraliselt erakorralises erakorraliseks erakorralisel erakorralisi erakorralisse erakorralisest
+91	4091	voor	voorus vooru voor vooruse voorust voorused voorusi vooruste voorustest vooruseks voorud vooruks vooruga vooruses
+92	4092	pommitama	pommitama pommitada pommitavad pommitasid pommitati pommitas pommitatakse pommitame pommitatud pommitab pommitanud pommitasime pommitage pommitasin pommitasite pommitades pommitate
+93	4093	paljus	paljust paljusi paljus
+94	4094	äratus	äratus äratuse äratust äratuseks
+95	4095	täiskuu	täiskuu täiskuud täiskuul täiskuuni täiskuuga
+96	4096	organ	organid organeid organite organi organit organitest organitega organites organitele organitesse
+97	4097	muskel	musklid muskleid musklis muskel musklit muskli musklite musklites musklitega musklisse musklitest
+98	4098	rabelema	rabele rabeleda rabelema rabeled rabeleb rabelen rabelenud rabelesin rabeles rabelevad rabeleme rabelesid rabelda rabeledes
+99	4099	parukas	parukas parukat paruka parukaga parukad parukaid parukast parukata
+100	4100	pintsak	pintsak pintsaku pintsakut pintsakus pintsakuga pintsakud pintsakust pintsakuid

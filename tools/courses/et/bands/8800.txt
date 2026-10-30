@@ -1,0 +1,100 @@
+1	8701	oliiviõli	oliiviõli oliiviõliga
+2	8702	silmama	silmagi silmasin silmanud silman
+3	8703	hologramm	hologramm hologrammi hologrammid
+4	8704	valuuta	valuuta valuutat valuutas valuutaga
+5	8705	edasiminek	edasiminek edasiminekut edasimineku edasiminekuid
+6	8706	valenimi	valenime valenimi valenimesid valenimed valenimede valenimega
+7	8707	meelevald	meelevallas meelevalda meelevald meelevalla
+8	8708	koduabiline	koduabiline koduabilise koduabilised koduabilist koduabilisega
+9	8709	lõpuklass	lõpuklassi lõpuklassis lõpuklass lõpuklassist
+10	8710	kopikas	kopika kopikat kopikas kopikaid kopikatega kopikad kopikate
+11	8711	kolask	kolaskid kolask kolaskite kolaskeid kolaski kolaskit
+12	8712	ilming	ilming ilminguid ilmingud ilmingu ilmingut ilmingute ilmingutega
+13	8713	ükssarvik	ükssarvik ükssarviku ükssarvikud ükssarvikut ükssarvikute ükssarvikuga ükssarvikuid
+14	8714	okastraat	okastraadi okastraat okastraati okastraadiga okastraadist
+15	8715	asundus	asunduse asundus asundusse asundust asundusest asunduses asundusega
+16	8716	tatikas	tatikas tatikad tatika
+17	8717	põhjaosa	põhjaosas põhjaosa põhjaosast põhjaossa
+18	8718	inimveri	inimverd inimveri inimvere inimverega inimverest
+19	8719	nõrgenema	nõrgeneb nõrgenenud nõrgenevad nõrgenes
+20	8720	hääletoon	hääletoon hääletooni hääletoonist hääletooniga
+21	8721	ajend	ajend ajendil ajendiks ajendit ajendi ajendid
+22	8722	pahatahtlik	pahatahtlik pahatahtlikud pahatahtlikult pahatahtliku pahatahtlikku pahatahtlike
+23	8723	kopp-kopp	kopp-kopp
+24	8724	nimepidi	nimepidi
+25	8725	beibe	beibe beibed
+26	8726	infoallikas	infoallikas infoallikat infoallikaid
+27	8727	kooliõpetaja	kooliõpetaja kooliõpetajat kooliõpetajaga kooliõpetajal
+28	8728	vahistamine	vahistamine vahistamisi
+29	8729	režissöör	režissöör režissööri režissöörid režissööriga
+30	8730	standardne	standardne standardse standardsed standardset
+31	8731	fotograafia	fotograafia fotograafiat fotograafiast fotograafiaga
+32	8732	günekoloog	günekoloog günekoloogi günekoloogiga
+33	8733	süsivesik	süsivesikuid süsivesikud süsivesikute süsivesikutest
+34	8734	korallrahu	korallrahu korallrahul korallrahule korallrahude korallrahud
+35	8735	narkoäri	narkoäri narkoäris narkoäriga narkoärist narkoärile
+36	8736	kolonn	kolonni kolonn kolonnis kolonnist
+37	8737	gallialane	gallialane gallialased gallialaste gallialase gallialasele gallialasi
+38	8738	palverändur	palverändurid palverändur palverändurite palverändureid palveränduritele
+39	8739	hekk	hekki heki hekk hekke hekkide hekid
+40	8740	ajendama	ajendas ajendab ajendatud ajendasid
+41	8741	pööramine	pööramine pööramiseks pööramist pööramise pööramisega pööramisest pööramisel
+42	8742	lummus	lummus lummuses lummuse lummusesse lummust lummusest
+43	8743	tippkohtumine	tippkohtumine tippkohtumise tippkohtumisele tippkohtumisel tippkohtumiseks tippkohtumist tippkohtumises
+44	8744	käsirelv	käsirelv käsirelvad käsirelva käsirelvade käsirelvi käsirelvast käsirelvadega
+45	8745	lärmama	lärma lärmake lärmab lärmad lärmata lärmama lärmavad lärmate lärmas lärmaks
+46	8746	etikett	etikett etiketti etiketist
+47	8747	tervendama	tervendada tervendab tervendas tervendatud tervendasin tervendan tervenda tervendama
+48	8748	närbuma	närbunud närbub närbuvad närbuma närbus närbuda närbume
+49	8749	hulpima	hulbib hulpimas hulpis hulbivad hulpima hulpida hulpinud hulpiv hulbi hulbid
+50	8750	tohoh	tohoh
+51	8751	tänuväärt	tänuväärt
+52	8752	niiöelda	niiöelda
+53	8753	kaiss	kaissu
+54	8754	ruutu	ruutu
+55	8755	mõeldamatu	mõeldamatu mõeldamatut
+56	8756	sihilik	sihilikult sihilik
+57	8757	süütaja	süütaja süütajat süütajad süütajaid
+58	8758	tõmbamine	tõmbamine tõmbamise
+59	8759	eos	eos eosed eoseid
+60	8760	pisargaas	pisargaasi pisargaas pisargaasiga
+61	8761	pedaal	pedaal pedaale pedaalideni pedaalile pedaalilt pedaalidele pedaalidega
+62	8762	põrnikas	põrnikas põrnikad põrnika põrnikaga põrnikat
+63	8763	plastiline	plastilise plastiline plastilist plastilisi
+64	8764	tulevärk	tulevärk tulevärki tulevärgi tulevärgiga
+65	8765	triibuline	triibuline triibulised triibulist triibulise triibuliseks triibulises
+66	8766	eeslinn	eeslinnas eeslinna eeslinnades eeslinn eeslinnast eeslinnad
+67	8767	alumiinium	alumiiniumist alumiinium alumiiniumi
+68	8768	agul	agulis aguli agulist agulisse agul agulid agulites
+69	8769	tihend	tihendid tihend tihendi tihendit tihendite
+70	8770	vasturünnak	vasturünnak vasturünnaku vasturünnakut vasturünnakuks vasturünnakule
+71	8771	rullima	rullida rullitud rullige rullima rullin rullisin rullime rullitakse rullib rullivad
+72	8772	funktsioneerima	funktsioneerib funktsioneerida funktsioneerivad funktsioneeri funktsioneeriv funktsioneerima funktsioneerin
+73	8773	randuma	randunud randus randusin randuda randub randusid randuvad randume randuma
+74	8774	paukpadrun	paukpadrunid paukpadrunitega paukpadruneid paukpadrun
+75	8775	hobu	hobu hobust hobuga
+76	8776	penn	penne pennid pennita pennide pennis pennini pennides pennidest
+77	8777	uinutama	uinutada uinutama uinutab uinutatud uinutas uinutasid uinutavad uinutan uinutanud
+78	8778	emm	emm
+79	8779	mõneti	mõneti
+80	8780	lõppkokkuvõte	lõppkokkuvõttes lõppkokkuvõtteks
+81	8781	nõks	nõks nõkse
+82	8782	malaaria	malaaria malaariat malaariasse
+83	8783	jurakas	jurakas jurakat juraka
+84	8784	instruktor	instruktor instruktorid instruktoriks instruktori instruktoritele
+85	8785	limane	limane limased limase limaseid
+86	8786	kompuuter	kompuuter kompuutri kompuutrid
+87	8787	jalaluu	jalaluu jalaluud jalaluuga
+88	8788	edevus	edevus edevuse edevust edevuses
+89	8789	aukülaline	aukülaline aukülalist aukülalised aukülalise aukülaliseks aukülalisele
+90	8790	ikoon	ikoon ikooni ikoonid ikoone
+91	8791	külalistetuba	külalistetuba külalistetoas
+92	8792	suuvärk	suuvärk suuvärki suuvärgiga
+93	8793	vastsündinu	vastsündinu vastsündinute vastsündinuid vastsündinut vastsündinutele vastsündinuga
+94	8794	tsüaniid	tsüaniid tsüaniidi tsüaniidiga
+95	8795	taaselustama	taaselustada taaselustama taaselustatud taaselustanud taaselustab taaselustas taaselustasid taaselustame
+96	8796	kartulipuder	kartulipuder kartuliputru kartulipudru kartulipudruga
+97	8797	vertikaalne	vertikaalselt vertikaalne vertikaalset vertikaalse vertikaalsed
+98	8798	sarkofaag	sarkofaag sarkofaagi sarkofaagist sarkofaagis sarkofaagile
+99	8799	minutiline	minutilise minutiline minutilist minutilised
+100	8800	rüselus	rüselus rüseluse rüselusest rüselust rüseluses

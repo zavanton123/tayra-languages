@@ -1,0 +1,100 @@
+1	6901	surmaotsus	surmaotsus surmaotsusele surmaotsuse surmaotsust surmaotsused
+2	6902	lonkama	lonkab lonkama lonkad lonkas lonkan longata longates lonka lonkavad
+3	6903	noorhärra	noorhärra noorhärrad
+4	6904	elupäev	elupäevade elupäevad elupäevi
+5	6905	torge	torge torget torke torked torkest torkega
+6	6906	tööjõud	tööjõudu tööjõu tööjõud tööjõust tööjõuga
+7	6907	korall	korallid korallide korall koralle koralli korallidest korallidel korallidega
+8	6908	skanner	skanner skannerid skanneri skannerit skannereid skannerist skannerite skanneriga
+9	6909	massimõrv	massimõrv massimõrva massimõrvast massimõrvas massimõrvade massimõrvaks massimõrvad massimõrvu
+10	6910	loputama	loputada loputa loputama loputame loputan loputage loputab loputasin loputasid
+11	6911	võrdlus	võrdlus võrdluseks võrdlust võrdluse võrdlused võrdlusi võrdluses võrdlusena
+12	6912	harv	harv harvad harvem harvadel harvu harvade
+13	6913	tsiviil	tsiviil tsiviilid tsiviili tsiviile tsiviilide tsiviilidele tsiviilis
+14	6914	embus	embuses embus embusse embusesse embusest embust embuse embused
+15	6915	ebakindlus	ebakindlust ebakindlus ebakindluse ebakindlusest ebakindluses ebakindlusele ebakindlusega
+16	6916	kooselu	kooselu kooselust kooseluks
+17	6917	hüpnoos	hüpnoosi hüpnoos hüpnoosist hüpnoosiga hüpnoosis
+18	6918	populatsioon	populatsiooni populatsioon populatsioonist populatsiooniga populatsioonile
+19	6919	astumine	astumine astumist astumise astumisel
+20	6920	vanglakaristus	vanglakaristus vanglakaristust vanglakaristuse vanglakaristusega vanglakaristusest
+21	6921	vasikas	vasikas vasika vasikat vasikad vasikaid vasikate vasikatele
+22	6922	lummav	lummav lummavalt lummava
+23	6923	dünastia	dünastia dünastiast dünastiale dünastiat dünastias
+24	6924	palgatõus	palgatõusu palgatõus palgatõusust palgatõusuga
+25	6925	kolmik	kolmik kolmikud kolmiku kolmikut kolmikuid kolmikute
+26	6926	söömaaeg	söömaaeg söömaaega söömaaja söömaajal söömaajaks söömaajale
+27	6927	kotitäis	kotitäis kotitäie kotitäit
+28	6928	kaelarihm	kaelarihm kaelarihma kaelarihmad kaelarihmaga kaelarihmata kaelarihmal
+29	6929	kurjam	kurjam kurjamid kurjameid kurjami kurjamit kurjamitega kurjamite kurjamiks kurjamitest
+30	6930	streikima	streigi streikima streigib streigivad streigime streigid streikida streikisid
+31	6931	intellektuaalne	intellektuaalne intellektuaalse intellektuaalselt intellektuaalsed intellektuaalset intellektuaalsest intellektuaalseid intellektuaalsete intellektuaalsel intellektuaalsele
+32	6932	tülgastav	tülgastav tülgastava tülgastavaks tülgastavalt
+33	6933	seesmine	seesmiselt seesmine seesmise seesmist seesmised
+34	6934	terrass	terrassil terrassi terrass terrassile terrassilt
+35	6935	uustulnukas	uustulnuka uustulnukad uustulnukas uustulnukate
+36	6936	blankett	blankett blanketid blanketi blankette blanketti blanketile blanketil blankettide
+37	6937	jahvatama	jahvatatud jahvatab jahvatad jahvatada jahvatan jahvata jahvatama jahvatavad jahvatas jahvatanud jahvatame
+38	6938	oinas	oinas oinad oina oinast
+39	6939	õnnetusjuhtum	õnnetusjuhtum õnnetusjuhtumi õnnetusjuhtumite õnnetusjuhtumiks õnnetusjuhtumit õnnetusjuhtumid õnnetusjuhtumiga õnnetusjuhtumeid
+40	6940	maksumaksja	maksumaksja maksumaksjad maksumaksjate maksumaksjatele maksumaksjale
+41	6941	väsimus	väsimus väsimust väsimuse väsimusest
+42	6942	pigi	pigis pigi pigist pigid pikki
+43	6943	läbimärg	läbimärg läbimärjaks läbimärjad läbimärjana
+44	6944	varblane	varblane varblase varblased varblast varblasi varblasest
+45	6945	füüsik	füüsik füüsikud füüsiku füüsikute füüsikuid füüsikuna füüsikuks
+46	6946	hääletaja	hääletaja hääletajad hääletajaid hääletajat hääletajate hääletajatest hääletajatele
+47	6947	suurlinn	suurlinna suurlinn suurlinnas suurlinnades suurlinnast suurlinnu suurlinnade suurlinnad suurlinnadesse suurlinnadest
+48	6948	orjastama	orjastada orjastatud orjastavad orjastasid orjastab orjastanud orjastas orjasta orjastati orjastama orjastad
+49	6949	ahsoo	ahsoo
+50	6950	pikemalt	pikemalt
+51	6951	ümbert	ümbert
+52	6952	allesjäänud	allesjäänud allesjäänu
+53	6953	taskuraha	taskuraha taskurahast
+54	6954	laostuma	laostunud laostus laostub
+55	6955	rahustav	rahustav rahustavalt
+56	6956	erektsioon	erektsiooni erektsioon erektsiooniga erektsioone
+57	6957	ametivõimud	ametivõimud ametivõimudele ametivõimude ametivõime ametivõimudega ametivõimudel
+58	6958	kiirtoit	kiirtoitu kiirtoidu kiirtoit
+59	6959	valitsemine	valitsemise valitsemine valitsemiseks valitsemisest valitsemisega
+60	6960	aadlik	aadlik aadlikud aadliku aadlike aadlikke aadlikele aadlikuna aadlikust
+61	6961	välismaine	välismaine välismaised välismaise välismaiste välismaiseid välismaistele välismaisele
+62	6962	kiilas	kiilaks kiilas kiila kiilad
+63	6963	nurjama	nurjata nurja nurjas nurjanud nurjasid nurjama nurjab
+64	6964	tupp	tupp tuppe tupest tupe tupes tuped
+65	6965	kujutlus	kujutlus kujutluses kujutluse kujutlustes kujutlusi kujutlust kujutlused kujutlusest
+66	6966	sünnitunnistus	sünnitunnistus sünnitunnistust sünnitunnistuse sünnitunnistusel sünnitunnistused sünnitunnistusi sünnitunnistusele
+67	6967	tabatud	tabatud
+68	6968	jalamaid	jalamaid
+69	6969	üüratu	üüratu üüratud
+70	6970	toomine	toomine toomisega
+71	6971	tuvike	tuvike tuvikesed
+72	6972	ebaõnnestumine	ebaõnnestumine ebaõnnestumise ebaõnnestumisi
+73	6973	plankton	plankton planktonit planktoni planktonist
+74	6974	abielusõrmus	abielusõrmus abielusõrmust abielusõrmuse abielusõrmused
+75	6975	sünteetiline	sünteetiline sünteetilise sünteetilised sünteetilist sünteetilisi sünteetiliste sünteetilisest
+76	6976	eluruum	eluruumid eluruumidesse eluruumides eluruumi eluruume eluruumide eluruum
+77	6977	impulsiivne	impulsiivne impulsiivselt impulsiivsed impulsiivset impulsiivseks
+78	6978	välgumihkel	välgumihkel välgumihklit välgumihkli välgumihkliga välgumihklid
+79	6979	riim	riimi riim riime riimide
+80	6980	õhuvägi	õhuvägi õhuväe õhuvägede õhuväes õhuväed õhuväest õhuväega õhuväkke õhuväge õhuvägedes õhuvägedele
+81	6981	kajastama	kajastada kajastab kajastama kajastavad kajasta kajastatud kajastatakse kajastame kajastanud kajastas kajastati kajastan kajastamas
+82	6982	laut	laudas lauta laut lauda laudast laudale laudaga
+83	6983	katel	katel katla katlasse katlas katlad katlast katele
+84	6984	südamevalu	südamevalu südamevalust südamevalus südamevaluga südamevalusse südamevalule
+85	6985	orden	ordeni orden ordenit ordeniga ordenite
+86	6986	maadlus	maadlus maadlust maadluse maadluses maadlusega maadluseks maadlusest
+87	6987	mõjuvõimas	mõjuvõimas mõjuvõimsad mõjuvõimsaid mõjuvõimsa mõjuvõimsate mõjuvõimsaks mõjuvõimsatele mõjuvõimsat
+88	6988	välisuks	välisukse välisuks välisuksest välisuksele välisukseni välisuksed
+89	6989	isolatsioon	isolatsiooni isolatsioonis isolatsioon isolatsioonist
+90	6990	supermarket	supermarketis supermarket supermarketist supermarketi supermarketisse supermarketites supermarketit supermarketid
+91	6991	arvustus	arvustus arvustuse arvustusi arvustust arvustused arvustusest arvustuses
+92	6992	nühkima	nühi nühkida nühkima nühid nühib nühin nühkinud nühkisin nühkige nühkis nühite nühiks
+93	6993	järelejäänud	järelejäänud järelejäänu
+94	6994	ravitseja	ravitseja ravitsejad ravitsejat ravitsejaks
+95	6995	väimees	väimees väimehe väimeheks väimeest väimehele väimehega väimehest
+96	6996	kabi	kabi kabjad kapju kapjade kabja kapjadega kabjaga kapja
+97	6997	raisakotkas	raisakotkad raisakotkas raisakotkastele raisakotkaid raisakotka raisakotkast
+98	6998	kaastöötaja	kaastöötaja kaastöötajad kaastöötajaga kaastöötajate kaastöötajaid kaastöötajat kaastöötajatega kaastöötajatest kaastöötajatele
+99	6999	veepind	veepinnal veepinna veepinnale veepinda veepind veepinnalt veepinnast
+100	7000	põiklema	põikle põigelda põikleb põikled põigelnud põiklema põikles põiklen põiklesid põiklevad põiklete põikleme

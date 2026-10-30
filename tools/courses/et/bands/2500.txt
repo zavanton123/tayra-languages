@@ -1,0 +1,100 @@
+1	2401	garanteerima	garanteerin garanteerida garanteeritud garanteerib garanteeri garanteerime garanteerid garanteerivad garanteerima garanteerite garanteeris garanteerisin garanteeriks garanteerisid
+2	2402	ooh	ooh
+3	2403	blokeerima	blokeeritud blokeerib blokeerida blokeeri blokeerige blokeeris blokeerivad blokeerisid blokeerinud blokeerima blokeerime blokeerid blokeerisin blokeerin blokeeritakse blokeerite blokeerisime blokeeriks blokeerides blokeeriti blokeerimas
+4	2404	peigmees	peigmees peigmehe peigmeest peigmehega peigmehele peigmehest peigmehel peigmehed peigmehi peigmeeste peigmehelt peigmeheks
+5	2405	üksnes	üksnes
+6	2406	si	sid sist sini
+7	2407	hiinlane	hiinlased hiinlane hiinlaste hiinlastele hiinlase hiinlasi hiinlastega hiinlast hiinlasest hiinlastel hiinlasega hiinlastest hiinlastelt hiinlasele hiinlaseks hiinlasel
+8	2408	ajutine	ajutine ajutise ajutist ajutised ajutiseks ajutiste ajutisi ajutisele ajutisse ajutisest ajutisel
+9	2409	palee	palee palees paleesse paleest paleed paleele paleeks paleedes paleega
+10	2410	paradiis	paradiis paradiisi paradiisis paradiisist paradiisiks paradiisina paradiisiga
+11	2411	kodumaa	kodumaa kodumaal kodumaad kodumaale kodumaalt kodumaast kodumaist kodumaata kodumail
+12	2412	küünal	küünlad küünal küünla küünlaid küünalt küünalde küünlaga küünaldega küünaldel
+13	2413	kaubik	kaubik kaubiku kaubikus kaubikusse kaubikut kaubikuga kaubikust kaubikule kaubikud kaubikuid kaubikul
+14	2414	temperatuur	temperatuur temperatuuri temperatuuril temperatuurid temperatuuriga temperatuure temperatuuride temperatuuris temperatuurile temperatuurist temperatuuridel
+15	2415	riiklik	riiklik riikliku riiklikus riiklikku riiklikud riiklikule riiklike riiklikust riiklikul riiklikke riiklikel riiklikult riiklikuks riiklikele riiklikusse riiklikes riiklikest
+16	2416	võimaldama	võimaldab võimaldas võimaldavad võimaldada võimalda võimaldanud võimaldades võimaldaks võimaldasid võimaldama võimaldan võimaldame võimaldad võimaldatud võimaldatakse võimaldate võimaldasin võimaldaksid
+17	2417	näpp	näpud näpuga näppu näpu näpp näppe näpus näppude näpust näppudega näppudel
+18	2418	maapind	maapinnal maapinnale maapind maapinda maapinna maapinnast maapinnalt maapinnani maapinnaga maapinnas
+19	2419	igavik	igaviku igavik igavikku igavikuks igavikuna igavikus igavikust igavikuga igavikule igavikuni
+20	2420	taldrik	taldrik taldriku taldrikud taldrikut taldrikul taldrikuid taldrikule taldrikute taldrikult taldrikuga taldrikust taldrikutega taldrikusse taldrikutelt taldrikutest taldrek taldrikus
+21	2421	ärritama	ärritab ärritada ärritatud ärrita ärritas ärritavad ärritad ärritanud ärritama ärritasid ärritaks ärritasin ärritavat ärritan ärritage ärritate ärritasime ärritame
+22	2422	aruanne	aruanne aruande aruannet aruanded aruandeid aruandes aruandest aruandega aruandesse aruannete aruannetest aruannetes aruandele aruannetele aruannetega
+23	2423	jõllitama	jõllitad jõllita jõllitab jõllitavad jõllitas jõllitada jõllitate jõllitanud jõllitama jõllitasid jõllitan jõllitasin jõllitamas jõllitades jõllitage jõllitaks jõllitame
+24	2424	ümbritsema	ümbritsetud ümbritsevad ümbritseb ümbritsevat ümbritses ümbritsenud ümbritsesid ümbritseda ümbritse ümbritsema ümbritseme ümbritseks ümbritsemas ümbritsedes ümbritsege ümbritsesin ümbritsed ümbritseksid
+25	2425	tundlik	tundlik tundlikud tundliku tundlikku tundlikuks tundlike tundlikus tundlikke tundlikule tundlikust tundlikult tundlikele
+26	2426	kaevandus	kaevanduses kaevandus kaevanduse kaevandusse kaevandused kaevandusest kaevandust kaevanduste kaevandustes kaevandustesse kaevandusi kaevandustest kaevandusega kaevandusele kaevandustele
+27	2427	kampaania	kampaania kampaaniat kampaaniaga kampaanias kampaaniast kampaaniale kampaaniasse kampaaniaid kampaaniad kampaaniate kampaanial kampaaniaks
+28	2428	jamama	jamada jamab jamama jamage jaman jamate jamanud jamavad jamasin jamame jamasime jamasite jamatakse
+29	2429	part	part pardi pardid parti parte pardiga pardel partide pardil pardist partidega partidele pardiks pardile partidel partidest
+30	2430	kauboi	kauboi kauboid kauboisid kauboiks kauboide kauboist kauboidest kauboiga kauboile kauboina kauboil kauboideks kauboidega
+31	2431	söömine	söömine söömist söömise söömiseks söömisest söömisega söömises söömisele söömisel
+32	2432	kaabakas	kaabakas kaabakad kaabakat kaabaka kaabakaid kaabakate kaabakast kaabakatest kaabakaga kaabakatele kaabakale kaabakal kaabakatega kaabakatel kaabakaks
+33	2433	põhiline	põhiliselt põhiline põhilised põhilist põhilise põhilisi põhiliseks põhiliste põhilisest põhilistest põhilisega põhilisem põhilisele põhilises
+34	2434	võistlema	võistelda võistlema võistlevad võistle võistleme võistleb võistlen võistled võistlemas võistelnud võistlesid võistlete võistlev võistles võisteldes võistlesin võistlesime võisteldakse võistleks võistleksid võistlevate
+35	2435	ait	aidata aita ait aida aidas aitasid aidast aidani aidaga
+36	2436	käpp	käpp käpad käpa käppa käpas käppade käpaga käppasid käppadega käpast käppadel käppadele käppi käpale käpal
+37	2437	juurdlus	juurdlus juurdluse juurdlust juurdlusest juurdlusega juurdluses juurdlusele juurdlusel juurdlused juurdlusse juurdlusi juurdlusesse juurdlustest juurdluseks
+38	2438	praktiliselt	praktiliselt
+39	2439	sulama	sulab sulas sulanud sulavad sulama sulada sulan sulav sulaks sulamas sulataks sulasid sulad sulame sulamast sulaksin sulades sulava sulaksid sulavast
+40	2440	liider	liider liidrid liidri liidriks liidrit liidrite liidrile liidrina liidreid liidriga liidritest liidritele liidritega liidril liidrist liidriteks liidrilt
+41	2441	rannik	rannikul ranniku rannikule rannikut rannik rannikust rannikult rannikuni rannikutel rannikuid
+42	2442	vähim	vähimatki vähim vähimagi vähimalgi vähimgi vähima vähimat vähimal vähimad
+43	2443	aimama	aimata aiman aimama aimasin aimanud aimatagi aima aimad aimas aimab aimasid aimavad aimate aimanudki aimaks aimamata aimates aimame aimasite aimasime
+44	2444	rätik	rätik rätiku rätikud rätikuid rätikut rätikuga rätikutega rätikute rätikutest rätikusse rätikul rätikust rätikus rätikuta rätikutes
+45	2445	narkots	narkotsi narkots narkotsiga narkotsist narkotsile
+46	2446	katk	katk katke katkes katku katkust katkuga katkus katkule katkud katkeks katkuks
+47	2447	üksildane	üksildane üksildased üksildasena üksildase üksildast üksildaseks üksildaselt üksildaste üksildasel üksildases üksildasse üksildasi üksildasele üksildasest
+48	2448	kroon	krooni kroon krooniga kroonile krooniks kroonist kroonid kroonis kroone kroonita
+49	2449	valdus	valduses valdusesse valdus valdustes valdused valdusse valdusi valdustest valduste valdustesse valduse valdust valdustel valdusest valdustelt valduselt valdusel valdusele valduseid valdustega valdustele
+50	2450	kandidaat	kandidaat kandidaadid kandidaati kandidaadi kandidaate kandidaatide kandidaadiks kandidaadile kandidaadina kandidaatidest kandidaatidele kandidaadiga kandidaatidega kandidaadist kandidaadil kandidaatidel
+51	2451	analüüs	analüüsi analüüs analüüsid analüüse analüüside analüüsiks analüüsis analüüsiga analüüsides analüüsisid analüüsidega analüüsideks analüüsidele analüüsile analüüsist
+52	2452	rikkumine	rikkumine rikkumise rikkumist rikkumisi rikkumises rikkumised rikkumisest rikkumiseks rikkumisega rikkumiste rikkumistest rikkumisele rikkumistega
+53	2453	tasakaal	tasakaalu tasakaal tasakaalus tasakaalust tasakaaluks tasakaaluga
+54	2454	vihjama	vihjad vihjate vihjab vihjas vihjata vihja vihjanud vihjasid vihjan vihjasin vihjavad vihjaks vihjama vihjates vihjati vihjatakse vihjasite vihjame vihjatud
+55	2455	taguma	tao taob taguda taguma taon tagus taod tagunud tagusid taovad taome tagusin taguge taoks tagudes tagumas taoksin taotakse taoti taote tagusime
+56	2456	iseloom	iseloomu iseloom iseloomuga iseloomust iseloomus iseloomule iseloomult iseloomude iseloomud
+57	2457	ignoreerima	ignoreerida ignoreeri ignoreerid ignoreerin ignoreeris ignoreerinud ignoreerisid ignoreerivad ignoreerima ignoreerib ignoreerige ignoreerime ignoreerides ignoreeritakse ignoreerisin ignoreeriks ignoreerisite ignoreeriti ignoreeritud ignoreerite
+58	2458	öösiti	öösiti
+59	2459	sülitama	sülita sülitan sülitada sülitas sülitab sülitasid sülitad sülitavad sülitasin sülitama sülitanud sülitame sülitaks sülitage sülitate sülitatakse sülitades sülitatud sülitaksid sülitati
+60	2460	ebaviisakas	ebaviisakas ebaviisakad ebaviisakalt ebaviisakaks ebaviisakat ebaviisaka ebaviisakaid
+61	2461	õun	õuna õun õunad õunu õunte õuntega õunaga õuntest õunas õunast õuntel
+62	2462	omamoodi	omamoodi
+63	2463	sittuma	situb sittus sittuda situ situn sittuma situd sittusid sittunud sittusin situvad situks situte situme sittumas situksin situksid sittuv situtud sittuge sittudes
+64	2464	geniaalne	geniaalne geniaalse geniaalsed geniaalset geniaalselt geniaalseid geniaalsest geniaalsele geniaalsete geniaalsel
+65	2465	üleni	üleni
+66	2466	loeng	loengut loeng loengu loenguid loengus loengud loengusse loengutes loengust loengul loengule loengute loengutel loengutele loengutest loenguga loengutesse loengutega
+67	2467	retsept	retsepti retsept retsepte retseptid retseptiga retseptide retseptis retseptist retseptita retseptidega retseptil retseptile retseptidest
+68	2468	salaja	salaja
+69	2469	teenija	teenija teenijad teenijat teenijate teenijaid teenijaga teenijana teenijaks teenijatele teenijale teenijatega teenijatest teenijatel teenijal teenijalt teenijateta teenijast
+70	2470	puha	puha
+71	2471	jõuk	jõuk jõugu jõuku jõuguga jõugud jõukude jõugust jõugus jõuke jõugule jõukudega jõugult jõugul jõukudel jõukusid
+72	2472	levi	levi levis levisid leviga levides levil levile levisse
+73	2473	süütama	süüdata süütas süütame süütab süütan süüdake süütasid süütama süüdatud süütad süütasin süütavad süüdati süütamas süütaks süüdates süütasime süüdatakse süütaksid süütasite
+74	2474	kade	kade kadedad kadedaks kadedat
+75	2475	asutus	asutus asutuse asutuses asutusse asutust asutusest asutused asutuste asutusi asutusele asutustes asutusega asutusel asutustega asutustest asutustesse
+76	2476	kevad	kevadel kevad kevade kevadet kevadeni kevadest kevadeks kevadele kevades kevadesse
+77	2477	sirge	sirge sirgelt sirgeks sirged sirget sirgel sirgeid sirgete sirgele sirgena sirgem sirgetel
+78	2478	sport	sport spordi sporti spordis spordist spordiga spordiks spordile
+79	2479	alandama	alandada alandatud alandab alandas alandama alandasid alanda alandad alandati alandavad alandanud alandatakse alandasin alandan alandaks alandage alandame alandades alandasite alandasime alandamas
+80	2480	koordinaat	koordinaadid koordinaate koordinaatidele koordinaatide koordinaatidel koordinaatidega koordinaat koordinaatidest koordinaatidelt koordinaatideta
+81	2481	kulul	kulul
+82	2482	inglane	inglane inglased inglaste inglasi inglastele inglase inglasest inglast inglastel inglastest inglastega inglasega inglasele inglaseks inglasel inglasena
+83	2483	sõidutama	sõidutada sõidutan sõidutas sõidutab sõidutama sõidutad sõidutasin sõidutasid sõidutanud sõidutaks sõidutame sõidutaksid sõidutades sõidutatakse sõidutavad sõidutate sõidutati sõidutage sõidutaksin sõidutamast
+84	2484	prügi	prügi prügis prügiga prügisse prügiks
+85	2485	lause	lause lauset lauseid lauses laused lausega lausest lausesse lausete lausetega lausele
+86	2486	tülitama	tülitan tülitada tülitamast tülitasin tülitab tülitama tülitanud tülitame tülitaks tülitavad tülitasime tülitad tülitage tülitas tülitate tülitasid tülitatakse tülitati tülitatud
+87	2487	sokk	sokid sokke sokk soki sokkide sokki sokkidega sokkides sokis sokuta sokkidesse sokiga sokkidest sokkidele sokkideta soku sokku
+88	2488	nöör	nööri nöör nööre nöörid nöörist nööriga nööridest nööride nöörile nööridega nööril nöörita nööris nööridesse
+89	2489	lõhki	lõhki
+90	2490	eri	eri erini eris
+91	2491	asepresident	asepresident asepresidendi asepresidendiks asepresidenti asepresidendiga asepresidendile asepresidendil asepresidendilt asepresidendina asepresidendist
+92	2492	peavalu	peavalu peavalud peavalusid peavaluga peavalude peavalust peavaluks peavaludest peavaludega
+93	2493	esindaja	esindaja esindajad esindajana esindajat esindajaga esindajaks esindajatega esindajale esindajate esindajaid esindajatele esindajatest esindajalt esindajatena
+94	2494	julgema	julgeb julgenud julgen julgesid julgevad julgesin julgemaks julgeksid julgeksin julgeme julgema julgesite julgesime julgenudki julgeda
+95	2495	isu	isu isuga isud isule
+96	2496	viltu	viltu
+97	2497	hoolikalt	hoolikalt
+98	2498	mamma	mamma mammat mammale mammaga mammast mammaks
+99	2499	erinevus	erinevus erinevust erinevusi erinevused erinevuse erinevusest erinevusega erinevustest erinevuste erinevustele erinevustega
+100	2500	põlvkond	põlvkonna põlvkond põlvkonda põlvkondi põlvkondade põlvkonnad põlvkonnast põlvkonnale põlvkondadele põlvkonnaga põlvkonnal põlvkonnas põlvkonnalt

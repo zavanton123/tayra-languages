@@ -1,0 +1,100 @@
+1	4701	kolp	kolba kolp kolpa kolbad kolbast kolpasid kolbas kolpade kolbaga kolbal kolbaks
+2	4702	diil	diil diili diilist diiliga diilile diile
+3	4703	kolmandik	kolmandik kolmandiku kolmandikku kolmandikul kolmandikust kolmandikuga
+4	4704	ometigi	ometigi
+5	4705	hinnaline	hinnaline hinnalist hinnalise hinnalised hinnalisi hinnaliseks hinnaliste hinnalisest
+6	4706	ärevus	ärevus ärevust ärevuses ärevuse ärevusse ärevusest ärevusega ärevuseks
+7	4707	kiht	kiht kihti kihi kihid kihte kihtide kihist kihtides kihiga kihtidesse kihis kihtidega kihtidest kihtidena
+8	4708	embama	emmata emba emban embame embab embas embad embama embasin embasid emmates embavad embamas emmake emmanud embaksid
+9	4709	loendama	loendada loendan loenda loendama loendad loendab loendasin loendamatuid loendamatud loendamatu loendanud loendades loendamatul loendavad loendamatute loendasid loendame loendage loendatud loendamatult
+10	4710	tsaar	tsaar tsaari tsaarile tsaaril tsaariks
+11	4711	kriimustus	kriimustus kriimustused kriimustusi kriimustust kriimustuse kriimustuseta kriimustuste kriimustusest
+12	4712	lõpe	lõpe lõpet
+13	4713	sott	sotti sotid soti sott
+14	4714	vaataja	vaatajad vaataja vaatajaid vaatajatele vaatajate vaatajat vaatajale vaatajatel
+15	4715	tross	trossi tross trossid trossiga trosse trossist trossile trossil trossilt trossidega
+16	4716	tagaajamine	tagaajamine tagaajamist tagaajamise tagaajamisest tagaajamises tagaajamiseks tagaajamised tagaajamisel tagaajamisi tagaajamisega
+17	4717	täpsus	täpsusega täpsus täpsust täpsuse täpsusest täpsuses täpsusele
+18	4718	kõnnitee	kõnniteel kõnnitee kõnniteele kõnniteed kõnniteelt kõnniteid
+19	4719	klassika	klassika klassikat klassikaks klassikast
+20	4720	arhitekt	arhitekt arhitekti arhitektid arhitektiks arhitektide arhitektiga arhitektist arhitektile arhitekte
+21	4721	lipakas	lipakas lipaka lipakad lipakat lipakast lipakaks lipakaga lipakateks lipakaid
+22	4722	ordu	ordu ordust ordusse ordule ordut orduga ordus
+23	4723	kanjon	kanjoni kanjon kanjonis kanjonisse kanjonit kanjonist kanjonites kanjonite kanjonid kanjonini
+24	4724	vikerkaar	vikerkaare vikerkaar vikerkaart vikerkaared vikerkaari vikerkaarel vikerkaarest vikerkaartest vikerkaares
+25	4725	elustiil	elustiili elustiil elustiiliga elustiilist elustiilis elustiilile elustiiliks elustiilid
+26	4726	lõige	lõige lõike lõiked lõiget lõikega lõikes lõikeid
+27	4727	labürint	labürint labürindi labürindis labürinti labürindist labürindid
+28	4728	kude	kude kudede koe koed kudesid kudedes kudedest koest koega koes kudedega koel
+29	4729	jne	jne
+30	4730	ettepoole	ettepoole
+31	4731	ohoo	ohoo
+32	4732	alluvus	alluvuses alluvusse alluvusest
+33	4733	allergia	allergia allergiad allergiat allergiaid allergiast allergiate
+34	4734	lonks	lonksu lonks lonksudena
+35	4735	klamber	klamber klambrid klambri klambreid klambrit klambriga klambritega klambrite
+36	4736	hauakamber	hauakamber hauakambri hauakambrisse hauakambris hauakambrist hauakambrit hauakambrid hauakambreid hauakambritesse hauakambrites
+37	4737	seadeldis	seadeldis seadeldise seadeldist seadeldisi seadeldisega seadeldisest seadeldised
+38	4738	bakter	bakterid bakter baktereid bakterite bakteri bakteritega bakteritest bakterit bakteritele bakteriga bakterist bakteritel
+39	4739	tuletõrje	tuletõrje tuletõrjesse tuletõrjet tuletõrjes tuletõrjest tuletõrjega tuletõrjele tuletõrjel
+40	4740	südamerabandus	südamerabanduse südamerabandus südamerabandusse südamerabandust südamerabandusi südamerabandusega
+41	4741	hoov	hoovis hoovi hoov hoovist hoovil hoovile
+42	4742	krae	krae kraesse kraed kraega kraes kraest krael kraesid kraeta
+43	4743	plakat	plakatid plakat plakateid plakati plakatit plakatil plakatiga plakatitel plakatile plakatite plakatitele plakatist
+44	4744	flirtima	flirtida flirdib flirtis flirtima flirtinud flirdin flirtisin flirtimas flirdite flirtiv flirtisime flirdivad flirdime flirtivat
+45	4745	visiitkaart	visiitkaart visiitkaardi visiitkaarti visiitkaardid visiitkaarte visiitkaardil
+46	4746	semester	semestri semestril semestrit semestriks semestrist semestris
+47	4747	sidrun	sidruni sidrunit sidrun sidruniga sidrunid sidruneid sidrunitest
+48	4748	taktikaline	taktikaline taktikalise taktikalist taktikalised taktikaliselt taktikalisi taktikaliste taktikalisest taktikalisele
+49	4749	kogudus	koguduse kogudus kogudusest koguduses kogudusele kogudusse kogudust kogudusega
+50	4750	naljatama	naljatan naljatad naljatada naljatasin naljatab naljatate naljatanud naljatas naljatage naljatama naljatavad naljatasime naljatasid naljatame naljatades naljataks naljatata naljata
+51	4751	tähistamine	tähistamiseks tähistamine tähistamist tähistamise tähistamisel
+52	4752	seanss	seanss seansi seanssi seansid seansse seansile seansil seanssidel seansiga seansiks seansside
+53	4753	puri	purjed puri purje purjeta purjesid purjede purjega purjedel purjedega purjedest
+54	4754	jälitamine	jälitamine jälitamist jälitamise
+55	4755	heategu	heategu heateo heategusid heateod heategude heateoga heategudele heateoks heategudest
+56	4756	praktika	praktika praktikat praktikas praktikal praktikale praktikast praktikasse praktikaga praktikaks
+57	4757	impulss	impulss impulsi impulsid impulsse impulssi impulsside impulsist impulsiga impulssidest impulssidega impulssidele
+58	4758	toetaja	toetaja toetajad toetajaid toetajate toetajat toetajatele toetajatest toetajaks toetajatega
+59	4759	tõsiasi	tõsiasi tõsiasja tõsiasjaga tõsiasjad tõsiasjast tõsiasju tõsiasjale tõsiasjadega
+60	4760	arusaamine	arusaamine arusaamist arusaamisele arusaamise arusaamisega arusaamiseks arusaamisel arusaamises arusaamisest arusaamiseni
+61	4761	mistõttu	mistõttu
+62	4762	müstiline	müstiline müstilisel müstilisest müstilises müstiliseks
+63	4763	millegipärast	millegipärast
+64	4764	kodeerima	kodeeritud kodeerida kodeeris kodeerib kodeerimata
+65	4765	maias	maia maiad maias maiat maial maiale maiaga
+66	4766	ilutulestik	ilutulestik ilutulestikku ilutulestiku ilutulestikuga ilutulestikust ilutulestikke
+67	4767	torpeedo	torpeedo torpeedod torpeedot torpeedoga torpeedode torpeedosid torpeedodega
+68	4768	võimla	võimlas võimla võimlasse võimlast võimlat
+69	4769	efekt	efekt efekti efektid efekte efektist efektide efektiga efektiks
+70	4770	ülestõus	ülestõus ülestõusu ülestõusust ülestõusuga ülestõusule ülestõusuks ülestõuse ülestõusud ülestõusuni ülestõusus
+71	4771	alandav	alandav alandava alandavaid alandavaks alandavalt
+72	4772	mast	masti mast mastid mastist mastis maste mastide mastiga
+73	4773	mugavus	mugavust mugavuse mugavus mugavused mugavusi mugavustega mugavusest mugavuses mugavustest mugavuste mugavuseks
+74	4774	ametikõrgendus	ametikõrgendust ametikõrgenduse ametikõrgendus ametikõrgendusest ametikõrgenduseks ametikõrgendusi
+75	4775	sarnasus	sarnasus sarnasust sarnasusi sarnasused sarnasuse sarnasusest
+76	4776	turvateenistus	turvateenistus turvateenistuse turvateenistusele turvateenistust turvateenistusse turvateenistusest turvateenistuses turvateenistusega
+77	4777	pelgalt	pelgalt
+78	4778	tukk	tukk tuki tukki tukid tukiga tukka tuku tukist tukkusid tukaga tukud
+79	4779	mängur	mängur mängurid mänguri mängurite mängureid mänguritele mänguriks mängurit mänguritel
+80	4780	nõupidamine	nõupidamine nõupidamisel nõupidamisele nõupidamise nõupidamist nõupidamiste nõupidamiseks nõupidamistel nõupidamiselt nõupidamisest nõupidamisega
+81	4781	uskumus	uskumus uskumuste uskumused uskumusi uskumustest uskumust uskumuse uskumusele uskumustele uskumustega uskumuses uskumusega uskumustes
+82	4782	peer	peer peeru peerud peeruga
+83	4783	kogunemine	kogunemine kogunemise kogunemist kogunemisele kogunemisel kogunemised kogunemistel kogunemiseks kogunemisest kogunemisi kogunemiselt
+84	4784	grillima	grillitud grillida grillima grillime grillin grillivad grillisime grillib grillinud grillitakse
+85	4785	poolik	poolik pooliku poolikuks poolikud poolikult poolikut poolikuid poolikute
+86	4786	elektrooniline	elektrooniline elektroonilise elektroonilised elektrooniliselt elektroonilist elektrooniliste elektroonilisi elektroonilises elektroonilisest elektroonilisel
+87	4787	rabi	rabi rabiks rabid rabiga rabide rabile rappi
+88	4788	konkurents	konkurentsi konkurents konkurentsis konkurentsist konkurentsile konkurentsiga
+89	4789	kamin	kamina kamin kaminas kaminasse kaminat kaminast kaminaga kaminad kaminal
+90	4790	rõivas	rõivad rõivaid rõivaste rõivastes rõivastega rõivais rõivastest rõivas rõiva
+91	4791	kinnine	kinnine kinnises kinnise kinniste kinnist kinnisesse kinniseks kinnisele kinnised kinniseid kinnisel kinniselt kinnisena kinnistes
+92	4792	veeretama	veeretada veeretame veeretan veeretama veeretad veeretage veeretab veeretas veeretasin veeretasid veeretanud veeretavad veeretades
+93	4793	vagusi	vagusi
+94	4794	helge	helge helgem helget helgemaid helged helgeid helgest helgeks helgelt
+95	4795	vaatleja	vaatleja vaatlejad vaatlejate vaatlejat vaatlejaid vaatlejana vaatlejaks vaatlejaga vaatlejast
+96	4796	hasartmäng	hasartmängud hasartmänge hasartmängu hasartmängude hasartmängudega hasartmäng hasartmängudest hasartmängudes hasartmängudele
+97	4797	haiglane	haiglane haiglaselt haiglase haiglasena haiglased haiglaseks haiglases haiglaste haiglaseid
+98	4798	väikelinn	väikelinna väikelinnas väikelinn väikelinnast väikelinnad väikelinnade väikelinnu väikelinnades väikelinnadest
+99	4799	suva	suva suvalt
+100	4800	arutelu	arutelu arutelusid arutelud aruteluks arutelust arutelude arutelule arutellu arutelus aruteluga

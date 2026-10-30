@@ -1,0 +1,100 @@
+1	8301	kisk	kisu kisuks
+2	8302	meer	meer meeri meeriks
+3	8303	kärme	kärmelt kärme kärmed
+4	8304	stabiliseeruma	stabiliseerub stabiliseerunud stabiliseerus
+5	8305	meenutus	meenutus meenutuseks meenutused meenutusi meenutust meenutuste
+6	8306	trikoo	trikoo trikood trikoos trikoosid
+7	8307	maatriks	maatriks maatriksi maatriksis maatriksisse maatriksit maatriksiga
+8	8308	imetlus	imetlust imetlus imetluse imetlusega imetlusest
+9	8309	intiimsus	intiimsust intiimsus intiimsuse intiimsusega
+10	8310	äädikas	äädikas äädikat äädikaga äädika
+11	8311	munarakk	munarakud munarakk munaraku munarakke munarakku munarakkude munarakust
+12	8312	lõbustus	lõbustus lõbustused lõbustuseks lõbustusi lõbustuste lõbustust lõbustuse lõbustustest lõbustustele
+13	8313	õnnesoov	õnnesoovid õnnesoove
+14	8314	lollikindel	lollikindel lollikindla lollikindlad
+15	8315	vanilje	vanilje vaniljet vaniljega
+16	8316	ebamäärane	ebamäärane ebamäärased ebamääraselt ebamäärase ebamäärast
+17	8317	seenior	seenior seeniori seeniorite seeniorid seenioride
+18	8318	lobisemine	lobisemine lobisemise lobisemiseks
+19	8319	painama	painab painama painas painatud painanud painasid
+20	8320	triaad	triaadi triaad triaadide triaadid triaadist triaadiga
+21	8321	alusetu	alusetu alusetud alusetult alusetuid alusetuks
+22	8322	päevakava	päevakava päevakavas päevakavaga päevakavast
+23	8323	armutu	armutu armutult armutut
+24	8324	hüpotees	hüpotees hüpoteesi hüpoteese hüpoteesid
+25	8325	idiootlik	idiootlik idiootlikud idiootliku idiootlikult idiootlike idiootlikest idiootlikus idiootlikku
+26	8326	ketser	ketser ketserid ketsereid ketserite ketseri ketserit ketserist ketseriks
+27	8327	duett	duett duetti dueti duetist duette
+28	8328	paljutõotav	paljutõotav paljutõotavalt paljutõotavad paljutõotava
+29	8329	külmavärin	külmavärinad külmavärinaid
+30	8330	gall	gallid galli gallide
+31	8331	korduv	korduv korduvaid korduva korduvate
+32	8332	naturaalne	naturaalne naturaalset naturaalsed naturaalselt naturaalse naturaalsest
+33	8333	lastiruum	lastiruumi lastiruumis lastiruum lastiruumist
+34	8334	ristimine	ristimine ristimise ristimiseks ristimisel ristimist ristimisele ristimisest
+35	8335	boks	boksi boksis boks boksist boksides boksid boksidesse
+36	8336	morg	morg morgi morgis morgist
+37	8337	merekarp	merekarbid merekarp merekarbi merekarpe merekarpi
+38	8338	ronk	ronk ronga rongad ronka rongaga
+39	8339	kuritarvitamine	kuritarvitamine kuritarvitamise kuritarvitamisega
+40	8340	näpunäide	näpunäiteid näpunäited näpunäide näpunäidet näpunäite näpunäidete
+41	8341	biorelv	biorelva biorelv biorelvade biorelvi biorelvad biorelvaga
+42	8342	võhivõõras	võhivõõra võhivõõras võhivõõraga võhivõõrale võhivõõrad võhivõõrast võhivõõrastele võhivõõraid võhivõõraste
+43	8343	vihmane	vihmane vihmasel vihmase vihmasteks vihmased vihmaste vihmast
+44	8344	heatahtlik	heatahtlik heatahtlikud heatahtlikult heatahtliku heatahtlikus heatahtlikku
+45	8345	koosseis	koosseisu koosseis koosseisus koosseisust
+46	8346	tavainimene	tavainimesed tavainimese tavainimene tavainimeste tavainimesele tavainimestele tavainimestega tavainimesi
+47	8347	motikas	motika motikas motikaga motikat motikaid motikatega motikal motikad
+48	8348	toto	toto
+49	8349	lähiaeg	lähiajal
+50	8350	paikne	paikseks paikne
+51	8351	reaalaeg	reaalajas reaalaja
+52	8352	sitavares	sitavares sitavaresed
+53	8353	helilooja	helilooja heliloojad heliloojaks
+54	8354	ülakorrus	ülakorruse ülakorrus
+55	8355	mant	mandi manti mant mandil
+56	8356	arheoloog	arheoloog arheoloogid
+57	8357	soomusauto	soomusauto soomusautot soomusautode soomusautosid soomusautoga soomusautos
+58	8358	tusk	tusk tuska tuski
+59	8359	mõningane	mõningane mõningase mõningased mõningasi
+60	8360	linnaelanik	linnaelanikud linnaelanike linnaelanikke linnaelanikel linnaelanikega linnaelaniku
+61	8361	mootoriruum	mootoriruumi mootoriruum mootoriruumis
+62	8362	koeratoit	koeratoitu koeratoit koeratoidu koeratoiduga
+63	8363	trotsima	trotsides trotsida trotsib trotsivad trotsima trotsin trotsinud
+64	8364	lahkarvamus	lahkarvamusi lahkarvamused lahkarvamus lahkarvamusel
+65	8365	pärak	päraku pärak pärakusse pärakus pärakust pärakut
+66	8366	kookospähkel	kookospähkel kookospähkli kookospähkleid kookospähklid kookospähklit kookospähklist
+67	8367	ankeet	ankeedi ankeet ankeedid ankeeti ankeete ankeedis
+68	8368	rüüpama	rüüpa rüübata rüüpan rüüpama rüüpame rüübanud rüüpamas rüüpad rüüpab rüüpasid
+69	8369	pederast	pederast pederastid pederastist pederasti pederastiga
+70	8370	suitsetaja	suitsetaja suitsetajad suitsetajate suitsetajaid suitsetajatele
+71	8371	pidalitõbine	pidalitõbine pidalitõbised pidalitõbist pidalitõbiste pidalitõbise pidalitõbistega pidalitõbiseid
+72	8372	iseloomustama	iseloomustab iseloomustavad iseloomustada iseloomustaks iseloomusta iseloomustav iseloomustaksite iseloomustas iseloomustaksid iseloomustavat
+73	8373	indiviid	indiviid indiviidi indiviidid indiviide indiviidil indiviidina
+74	8374	üsk	üsas üsast üsa üsk üska üsasse üski
+75	8375	märkimisväärselt	märkimisväärselt
+76	8376	kuhupoole	kuhupoole
+77	8377	kahtlustav	kahtlustav kahtlustavalt
+78	8378	töödejuhataja	töödejuhataja töödejuhatajaga töödejuhatajat
+79	8379	nisu	nisu nisuga nisust
+80	8380	äpu	äpu äpud äpude
+81	8381	rahuldav	rahuldav rahuldava rahuldavalt
+82	8382	eepiline	eepiline eepilise eepilist eepiliste eepilisele
+83	8383	elektrik	elektrik elektriku elektrikud elektrikut elektrikuna
+84	8384	tarvitsema	tarvitse tarvitseb tarvitsenud tarvitses
+85	8385	hallitus	hallitus hallituse hallitust hallitusega
+86	8386	mahv	mahv mahvi
+87	8387	tobi	tobini tobi toppi tobiga
+88	8388	pesuruum	pesuruumis pesuruumi pesuruum pesuruumist
+89	8389	edastus	edastuse edastus edastust
+90	8390	lihtrahvas	lihtrahva lihtrahvas lihtrahvast lihtrahvale lihtrahvaga
+91	8391	sõnaraamat	sõnaraamat sõnaraamatust sõnaraamatut sõnaraamatu sõnaraamatus
+92	8392	suurendamine	suurendamiseks suurendamine suurendamise suurendamist suurendamisega suurendamisest
+93	8393	piik	piigi piik piigid piiki piike piigiga piikide
+94	8394	imago	imago imagot imagole imagoga
+95	8395	söögiisu	söögiisu söögiisuga
+96	8396	tuuline	tuuline tuulisel tuulisest tuulise
+97	8397	kummardus	kummardus kummarduse kummardusega
+98	8398	süsinikdioksiid	süsinikdioksiidi süsinikdioksiid süsinikdioksiidist
+99	8399	tagasiside	tagasisidet tagasiside
+100	8400	diversioon	diversiooni diversioon diversiooniks

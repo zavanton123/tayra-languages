@@ -1,0 +1,100 @@
+1	4501	mõiste	mõiste mõisteta mõistet mõisted mõistest mõisteid mõistete mõistele mõistetest mõistega
+2	4502	tõld	tõld tõlda tõlla tõllas tõllaga tõllast tõllad
+3	4503	sulanduma	sulanduda sulanduma sulandu sulandub sulandunud sulandume sulanduvad sulandun sulandud sulandusid sulandusin sulanduge sulandus
+4	4504	taotlus	taotluse taotlus taotlust taotlused taotlusi taotlusele taotlusega taotluses taotluste taotlusest taotlusel
+5	4505	vedamine	vedamine vedamiseks vedamist vedamise vedamisega vedamisest vedamisel vedamises vedamisse vedamisele
+6	4506	kuuldavasti	kuuldavasti
+7	4507	poissmees	poissmees poissmeeste poissmehe poissmeest poissmehed poissmehena poissmehi poissmeestele poissmeheks poissmehega
+8	4508	kallistus	kallistus kallistust kallistuse kallistused kallistusi kallistusega kallistuste kallistustega kallistusest
+9	4509	ööpäev	ööpäeva ööpäev ööpäevas ööpäevad ööpäevaks ööpäevaga ööpäevast
+10	4510	miin	miinid miini miin miine miinide miinile miinidest miinidele
+11	4511	mõnitama	mõnitad mõnitada mõnitab mõnita mõnitavad mõnitasid mõnitama mõnitas mõnitate mõnitanud mõnitan mõnitaks mõnitage mõnitades mõnitasime
+12	4512	kohustama	kohustatud kohustab kohusta kohustas kohustada
+13	4513	tupik	tupik tupikusse tupikus tupikut tupikud
+14	4514	hulluma	hullunud hullumas hullub hulluvad hulluma
+15	4515	gripp	gripp grippi gripi gripiga gripis gripist gripile
+16	4516	kahvel	kahvel kahvliga kahvlit kahvli kahvlid kahvleid kahvlite kahvlitega
+17	4517	pöörlema	pöörleb pöörlema pöörlevad pöörle pöörlev pöörles pöörleva pöörlevat pöörelda pöörlemas pööreldes pöörleks pöörelnud pöörlen
+18	4518	ühtlasi	ühtlasi
+19	4519	imetlusväärne	imetlusväärne imetlusväärsed imetlusväärselt imetlusväärset imetlusväärse imetlusväärseid
+20	4520	hulkuma	hulkuda hulgub hulkuma hulguvad hulkusin hulgud hulkus hulkumas hulgun hulkusid hulkunud hulkudes hulgu hulgume hulkusime
+21	4521	nõue	nõue nõudeid nõuded nõuetele nõuet nõuete nõuetega nõuetest nõude nõudes nõudega nõudest nõudel nõudele
+22	4522	täpsustama	täpsustada täpsustama täpsusta täpsustan täpsustanud täpsustage täpsustame täpsustad täpsustaksid täpsustas täpsustaksite täpsustab täpsustaks täpsustasin täpsustamata täpsustatud
+23	4523	konfiskeerima	konfiskeeritud konfiskeerida konfiskeeris konfiskeerima konfiskeerisid konfiskeerin konfiskeeriti konfiskeeritakse konfiskeerisin konfiskeerisime konfiskeerinud konfiskeerib konfiskeerige konfiskeerime konfiskeeri konfiskeerisite konfiskeerivad
+24	4524	sakkima	sakib sakivad sakkis sakin sakite sakime sakkida
+25	4525	kuur	kuuri kuuris kuur kuurist kuurid
+26	4526	pragu	pragu praod prao pragusid prakku praost pragude pragudest praos praoga pragudesse
+27	4527	pikaajaline	pikaajaline pikaajalise pikaajalist pikaajalised pikaajalisi pikaajalisest pikaajaliselt pikaajaliseks pikaajalises pikaajaliste pikaajalisele pikaajalisse pikaajalisel
+28	4528	tulevahetus	tulevahetus tulevahetuses tulevahetust tulevahetuse tulevahetusse tulevahetusest tulevahetuseks tulevahetused tulevahetusega
+29	4529	ülemaailmne	ülemaailmne ülemaailmse ülemaailmselt ülemaailmset ülemaailmsed ülemaailmseks ülemaailmses ülemaailmsest ülemaailmsele ülemaailmsete ülemaailmseid
+30	4530	aspiriin	aspiriini aspiriin aspiriiniga aspiriinist
+31	4531	veebruar	veebruar veebruaril veebruaris veebruari veebruarist veebruarini
+32	4532	muutumine	muutumine muutumist muutumise muutumisest muutumiseks muutumisega muutumisel muutumisele
+33	4533	minemine	minemine minemiseks minemisest minemisega
+34	4534	sugu	sugu soost soos sood sugude soole sooni sooga soosse
+35	4535	altkäemaks	altkäemaksu altkäemaks altkäemaksuks altkäemakse altkäemaksust altkäemaksud altkäemaksude altkäemaksuga altkäemaksuna
+36	4536	janune	janune januse janused januseks janusele janusena janusega
+37	4537	habras	habras haprad hapra habrast haprale hapraks hapral hapras hapram haprana haprast
+38	4538	nabima	nabida nabime nabiti nabisid nabima nabitakse nabin nabis nabisime nabib nabitud nabige nabivad nabisin nabinud nabite nabid
+39	4539	mõistagi	mõistagi
+40	4540	õigeaegne	õigeaegselt õigeaegne õigeaegse õigeaegset
+41	4541	morfiin	morfiini morfiin morfiinist morfiiniga
+42	4542	niiske	niiske niisked niiskeks niisket niiskes niiskesse niiskena niiskeid niiskel niiskete niiskest
+43	4543	jahu	jahu jahud jahuta jahus jahuga jahust jahusid
+44	4544	till	till tilli tillist tilliga tillis tillid tillide
+45	4545	asjatu	asjatult asjatu asjatud asjatut asjatuid asjatuks
+46	4546	popp	poppi popp popi popid popiks popil
+47	4547	võrgustik	võrgustik võrgustiku võrgustikku võrgustikust võrgustikus võrgustikuga võrgustikule
+48	4548	vahvel	vahvleid vahvlid vahvel vahvlit vahvli vahvlite vahvlitest vahvlitega
+49	4549	apelsin	apelsini apelsin apelsinid apelsine apelsinidega apelsinide apelsiniga apelsinidest
+50	4550	haak	haagi haagis haak haagises haagise haagisesse haagist haagid haake haaki haagiga haagisega haakisid haagisest haagised
+51	4551	kära	kära kärata kärast käraga
+52	4552	vimm	vimma vimm vimmast vimmaga
+53	4553	tähelepanuväärne	tähelepanuväärne tähelepanuväärselt tähelepanuväärset tähelepanuväärse tähelepanuväärsed tähelepanuväärsem tähelepanuväärseid tähelepanuväärsele
+54	4554	aparaat	aparaat aparaadi aparaati aparaadid aparaadiga aparaatide aparaate aparaadist aparaadis
+55	4555	sõltuv	sõltuvad sõltuvalt sõltuv sõltuvaks sõltuva sõltuvas
+56	4556	kuritöö	kuritöö kuritööd kuritöös kuritööst kuritööga kuritööde kuritööle kuritööks kuritöid kuritöödest
+57	4557	sõudma	sõua sõudke sõuda sõudma sõuame sõuab sõuad sõuan sõuavad sõudkem sõudnud sõudis
+58	4558	raseerima	raseerima raseeritud raseerida raseeri raseerisin raseerin raseerid raseerib raseeris raseerinud raseerisid raseerivad raseeriks raseerides raseerime raseeriksid
+59	4559	pepu	pepu peput pepule pepuga pepusse pepus pepud pepul pepust pepusid pepuks pepude
+60	4560	siiralt	siiralt
+61	4561	tolvan	tolvan tolvanid tolvani tolvanit tolvaneid tolvaniga tolvanile tolvanina
+62	4562	võimetu	võimetu võimetud võimetus võimetuks võimetuna võimetusest võimetuse
+63	4563	topp	topi topp topiga
+64	4564	aastakümme	aastakümneid aastakümne aastakümmet aastakümnete aastakümme aastakümneteks aastakümnel aastakümnega aastakümned aastakümnetega
+65	4565	kese	keskmes keskmesse kese keskme keskmest keskmeks keskmega
+66	4566	vaesus	vaesus vaesuses vaesuse vaesust vaesusest vaesusesse vaesusega vaesusele vaesusse
+67	4567	vaherahu	vaherahu vaherahust vaherahuks vaherahuga
+68	4568	sõnake	sõnakestki sõnake
+69	4569	infarkt	infarkti infarkt infarktiga infarktist infarktid
+70	4570	sant	sant santi sante sandist santide sandina sandile sandiga
+71	4571	kohtuotsus	kohtuotsus kohtuotsuse kohtuotsust kohtuotsusega kohtuotsusest kohtuotsuseid kohtuotsuseta kohtuotsused kohtuotsuseni kohtuotsuseks
+72	4572	kujutis	kujutis kujutist kujutise kujutised kujutisi kujutisega kujutisest kujutisis
+73	4573	filosoofia	filosoofia filosoofiat filosoofiast filosoofias filosoofiaga filosoofiasse filosoofial
+74	4574	termin	termin terminit termineid terminites terminitega terminid terminiga terminite terminile
+75	4575	kirjandus	kirjandus kirjanduse kirjandust kirjanduses kirjandusest kirjandusele
+76	4576	täi	täid täita täi täisid täideta täidest täidega täiga täidele täide
+77	4577	mass	massi massid masside massiga massist massidele massini massidesse massiks massidest massides massidega massina massile
+78	4578	hetero	hetero heterod heteroks heterost heterot heterona
+79	4579	totaalne	totaalselt totaalne totaalse totaalset totaalses
+80	4580	äärelinn	äärelinna äärelinnas äärelinn äärelinnast äärelinnades äärelinnad äärelinnade
+81	4581	tööstus	tööstus tööstuse tööstuses tööstust tööstused tööstusele tööstusest tööstusesse tööstusega tööstusi
+82	4582	patrullima	patrullid patrullima patrullivad patrullimas patrullib patrullida patrullin patrullime patrullisin patrullige patrullisime patrullinud
+83	4583	tutt	tutt tutti tuti tutte tutid tutiga tutist tuttidega tutile
+84	4584	katt	katte katelt kattu katt kattusid katust katele
+85	4585	nooruk	nooruk noorukid nooruki noorukit noorukite noorukeid noorukist noorukina noorukiga noorukile noorukitega noorukitele noorukitel noorukil
+86	4586	paksuke	paksuke paksukese paksukesed paksukest paksukeste paksukesi paksukesele
+87	4587	jätmine	jätmine jätmise jätmist jätmiseks jätmisest jätmisega
+88	4588	kriminaalne	kriminaalne kriminaalset kriminaalse kriminaalselt kriminaalsed kriminaalsest kriminaalseid kriminaalses kriminaalsete kriminaalseks kriminaalsele
+89	4589	teispoolsus	teispoolsuses teispoolsusesse teispoolsusest teispoolsuse teispoolsus teispoolsusega teispoolsusse teispoolsust
+90	4590	aatom	aatomi aatom aatomid aatomite aatomeid aatomitest aatomit aatomiteks aatomist aatomiga aatomitega
+91	4591	ringkond	ringkonna ringkonnas ringkond ringkonnast ringkondades ringkonda ringkonnad ringkondade ringkonnale
+92	4592	vile	vile vilet ville viled vilega vilesid vilest viledega
+93	4593	kallama	kallab kallan kallata kallake kallama kallasin kallame kallanud kallates kallavad kallatakse kallasid kallati kallaku kallatud kallaks kallad
+94	4594	hääldama	hääldada hääldatakse häälda hääldad hääldasin hääldan hääldata hääldama hääldas hääldab hääldatud hääldasid hääldavad
+95	4595	marihuaana	marihuaana marihuaanat marihuaanaga marihuaanast
+96	4596	võistkond	võistkond võistkonda võistkonna võistkonnas võistkonnast võistkonnaga võistkonnale võistkonnad võistkondi võistkonnal võistkondadele
+97	4597	alustamine	alustamiseks alustamist alustamine alustamise
+98	4598	langus	langus langust languse languses langusest langusele langusi langusega languseks langused langusti
+99	4599	doonor	doonor doonori doonorit doonoriks doonorite doonorid doonorilt doonoreid doonorist doonoriga doonorina
+100	4600	originaalne	originaalne originaalset originaalsed originaalse originaalselt originaalsest originaalseid

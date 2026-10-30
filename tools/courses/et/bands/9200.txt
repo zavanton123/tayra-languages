@@ -1,0 +1,100 @@
+1	9101	terrorismivastane	terrorismivastase terrorismivastane terrorismivastast terrorismivastases terrorismivastasest
+2	9102	ühtlane	ühtlane ühtlase ühtlast ühtlases ühtlased ühtlasel
+3	9103	vistrik	vistrik vistrikud vistrikke vistriku
+4	9104	parameeter	parameetrid parameetreid parameetrite parameetritega
+5	9105	puhastustuli	puhastustuli puhastustules puhastustule puhastustulle puhastustuld puhastustulest
+6	9106	ketšup	ketšupit ketšup ketšupi ketšupiga
+7	9107	ülik	ülikud ülik ülikute ülikuid üliku ülikutele ülikut
+8	9108	usuline	usuline usulise usulised usulisi usuliste usulist usulisest usulistel
+9	9109	pide	pide pideme pidet pidemes pidemed pidemest pidemega
+10	9110	muruniiduk	muruniiduki muruniiduk muruniidukit muruniidukiga muruniidukeid
+11	9111	karikakar	karikakrad karikakraid karikakra karikakardega karikakar karikakarde
+12	9112	juurdlema	juurdlen juurelda juurdlema juurdled juurdle juurdlesin juurdlev juurdleb juureldes juurdlevad
+13	9113	tagatuba	tagatoas tagatuppa tagatoa tagatubades
+14	9114	tähesõda	tähesõjad tähesõdade tähesõdades tähesõdasid
+15	9115	peapööritus	peapööritus peapööritust peapöörituse
+16	9116	elukaaslane	elukaaslane elukaaslase elukaaslast elukaaslaseks elukaaslased
+17	9117	vangilaager	vangilaagris vangilaagrisse vangilaager vangilaagrist vangilaagri
+18	9118	neljandik	neljandik neljandikku neljandiku neljandikud
+19	9119	kõnetama	kõnetab kõnetada kõnetas kõnetatakse kõnetama kõnetad kõnetasid kõnetan
+20	9120	mõõn	mõõn mõõnu mõõnaga mõõnast mõõnadega
+21	9121	juha	juha juhani
+22	9122	matkaja	matkaja matkajad matkajat matkajate matkajaid
+23	9123	diisel	diisel diislit diisli diisliga diislid
+24	9124	šimpans	šimpansid šimpans šimpanside šimpansi šimpansidega šimpanse
+25	9125	öökapp	öökapi öökapil öökapile öökapp öökapilt öökapis öökapid
+26	9126	kühveldama	kühveldada kühveldama kühvelda kühveldan kühveldad kühveldasin kühveldame kühveldab
+27	9127	manustama	manustada manustanud manustama manustatud manustati manustas manustame manustan manustasin manustab
+28	9128	õngitsema	õngitsema õngitseda õngitse õngitseb õngitsesin õngitsed õngitsen õngitsesid õngitses õngitsevad
+29	9129	tõesõna	tõesõna
+30	9130	vaevane	vaevast
+31	9131	pihtas	pihtas
+32	9132	vastuvõetud	vastuvõetud
+33	9133	väljasurnud	väljasurnud
+34	9134	abiraha	abiraha abirahast
+35	9135	baarimees	baarimees baarimehe baarimeest baarimehega baarimehelt
+36	9136	aukartus	aukartust aukartus aukartusega aukartusest
+37	9137	alateadlik	alateadlikult alateadlik alateadlikud
+38	9138	lõunaaeg	lõunaaeg lõunaajal
+39	9139	armulik	armulik armulikult armulikud armulikku armuliku
+40	9140	sfäär	sfääri sfäär sfääris
+41	9141	sääst	sääste säästudest säästu sääst
+42	9142	tarima	tarin tarida taris tarisid tarima tarinud
+43	9143	nõjatuma	nõjatu nõjatus nõjatun nõjatuma nõjatud nõjatub nõjatusin nõjatudes
+44	9144	katoliiklik	katoliiklik katoliiklikus katoliikliku katoliiklikku katoliiklikud katoliiklike
+45	9145	kõrgtehnoloogiline	kõrgtehnoloogiline kõrgtehnoloogilise kõrgtehnoloogilised kõrgtehnoloogiliste kõrgtehnoloogilist kõrgtehnoloogilisi
+46	9146	meeltesegadus	meeltesegaduses meeltesegadus meeltesegadust meeltesegaduse
+47	9147	vulkaaniline	vulkaaniline vulkaanilise vulkaanilist vulkaanilised vulkaanilises vulkaaniliselt vulkaanilisi
+48	9148	kosima	kosida kosima kosisin kosib kosinud kosin kosid
+49	9149	vallutus	vallutus vallutusi vallutustest vallutused vallutuste vallutusele vallutust vallutustega vallutuse
+50	9150	ajajoon	ajajoones ajajoon ajajoone ajajoont ajajoonest ajajoonel ajajooned ajajoonele
+51	9151	karjatama	karjatada karjatas karjatama karjatab karjatasin karjatavad karjatasid karjatan
+52	9152	traumaatiline	traumaatiline traumaatilise traumaatilist traumaatilised traumaatiliste traumaatilisi
+53	9153	mattuma	mattunud mattus mattub mattuvad mattuda
+54	9154	märgistus	märgistus märgistused märgistust märgistusega märgistusi märgistuse
+55	9155	kleeps	kleepsu kleeps kleepse kleepsud
+56	9156	diabeetik	diabeetik diabeetikute
+57	9157	raks	raks rakse
+58	9158	õppejõud	õppejõud õppejõu õppejõudu õppejõuks
+59	9159	jõmm	jõmm jõmmid jõmmi
+60	9160	ekspertiis	ekspertiisi ekspertiis
+61	9161	karavan	karavani karavan karavane karavanis
+62	9162	mäetipp	mäetippu mäetipp mäetipu mäetipust
+63	9163	räbal	räbal räbalad räbalates räbalais räbalaid räbala räbalateks räbalalt
+64	9164	tekkimine	tekkimist tekkimise tekkimine tekkimiseks tekkimisel
+65	9165	eakas	eakas eakad eakate eaka eakaid eakatele eakatel
+66	9166	äsama	äsa äsas äsada äsan äsasin äsanud äsasid äsama
+67	9167	murdosa	murdosa
+68	9168	imehästi	imehästi
+69	9169	kuulduma	kuuldub
+70	9170	allavool	allavoolu
+71	9171	valusam	valusam valusamaid
+72	9172	sadistlik	sadistlik sadistlikku sadistlikud sadistliku
+73	9173	käpard	käpard käpardid käpardist
+74	9174	koletu	koletu koletut koletuid koletust koletus koletult
+75	9175	uudne	uudne uudse uudset uudseid
+76	9176	kergemeelne	kergemeelne kergemeelselt kergemeelsed kergemeelseks
+77	9177	meelepärane	meelepärane meelepärast meelepärase meelepäraselt meelepärased
+78	9178	tipphetk	tipphetk tipphetked tipphetki tipphetkel tipphetkeks tipphetkede tipphetke
+79	9179	meelemärkus	meelemärkuseta meelemärkusele meelemärkuse meelemärkusel
+80	9180	hõre	hõre hõredad hõredalt hõreda hõredam
+81	9181	energiline	energiline energiliselt energilised energilise
+82	9182	lahingulaev	lahingulaev lahingulaeva lahingulaevad lahingulaeval
+83	9183	noatera	noatera noateral
+84	9184	kinnituma	kinnitunud kinnitub kinnituvad kinnituda
+85	9185	saeveski	saeveski saeveskisse saeveskis saeveskist
+86	9186	trend	trend trendi trendid trende trendide
+87	9187	edetabel	edetabelis edetabeli edetabel edetabelite edetabelites edetabelit edetabeleid
+88	9188	abiturient	abiturient abituriendid abiturientide abituriendi abituriendina
+89	9189	täbar	täbar täbaras täbarasse täbarad täbaraks
+90	9190	mikroskoopiline	mikroskoopilised mikroskoopiline mikroskoopilisi mikroskoopilist mikroskoopiliste mikroskoopilisel
+91	9191	kivistis	kivistisi kivistised kivististe kivististest kivistis kivistist
+92	9192	järama	järab järada järavad jära järas järama järanud järatud
+93	9193	modifitseerima	modifitseeritud modifitseerida modifitseerima modifitseeris modifitseerimata
+94	9194	võnge	võnked võnkeid võnge võnke võnget
+95	9195	pihustama	pihusta pihustame pihustada pihustatud pihustab pihustan pihustage pihustas
+96	9196	liiges	liigesed liigesest liigese liigeste liigestest liigeseid liigestes liiges
+97	9197	koma	koma komad
+98	9198	austusväärne	austusväärne austusväärset austusväärsed austusväärselt austusväärse
+99	9199	apteeker	apteeker apteekri apteekrit apteekrile apteekriga
+100	9200	lust	lust lusti

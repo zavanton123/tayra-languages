@@ -1,0 +1,100 @@
+1	5301	ratsavägi	ratsavägi ratsaväe ratsaväge ratsaväest ratsaväele ratsaväega ratsaväes
+2	5302	suursugune	suursugune suursuguse suursugust suursugused suursuguselt suursuguseid suursuguste suursugusele suursuguseks
+3	5303	eluviis	eluviisi eluviis eluviisiga eluviise eluviisid eluviisist eluviisile
+4	5304	multikas	multikaid multikas multika multikad multikat multikate multikast multikates multikatest multikatele
+5	5305	ülistama	ülistatud ülistage ülistada ülistab ülistavad ülistagem ülista ülistame ülistama ülistatakse ülistas ülistanud ülistan ülistasid ülistades
+6	5306	kärakas	kärakat kärakas käraka kärakaga kärakast kärakata
+7	5307	kopeerima	kopeerida kopeeritud kopeerib kopeerima kopeerin kopeerisin kopeerivad kopeerinud kopeerime kopeeriti kopeerisime kopeeritakse
+8	5308	kukkumine	kukkumine kukkumisest kukkumisega
+9	5309	intress	intressi intressiga intress intressid intresse intressidega intresside intressidest
+10	5310	kriimustama	kriimustas kriimustada kriimustatud kriimustasin kriimustasid kriimusta kriimustanud kriimustad kriimustab kriimustaks kriimustan
+11	5311	antibiootikum	antibiootikume antibiootikumid antibiootikumide antibiootikum antibiootikumi antibiootikumidega antibiootikumidest antibiootikumidele
+12	5312	hulgus	hulgus hulgused hulguse hulguseid hulgust hulguste hulgusega hulguseks hulgusele
+13	5313	provotseerima	provotseerida provotseeris provotseeri provotseerimata provotseerib provotseeriti provotseerid provotseerisin provotseerisid provotseerinud provotseeritud provotseerima provotseeriks provotseeritakse provotseerime provotseerige provotseerivad
+14	5314	piits	piitsa piits piitsaga piitsad
+15	5315	viirastuma	viirastus viirastusi viirastused viirastust viirastuse viirastuste viirastub viirastustest viirastusega viirastuseks
+16	5316	munand	munandid munandi munand munandeid munandit munandite munanditest munandiga munanditega munanditesse munandist
+17	5317	vandemees	vandemeeste vandemehed vandemees vandemehi vandemehe vandemeest vandemeestele vandemeheks vandemeestest vandemeesteta vandemeestega
+18	5318	juudas	juudas juuda juudast
+19	5319	essee	essee esseed esseesid essees esseega esseede
+20	5320	kohtuistung	kohtuistung kohtuistungi kohtuistungil kohtuistungit kohtuistungile kohtuistungini kohtuistungist kohtuistungiga
+21	5321	broneerima	broneeritud broneerida broneerisin broneeris broneeri broneerin broneerinud broneerisid broneerima broneerisime
+22	5322	tornaado	tornaado tornaadod tornaadot tornaadoga tornaadosid tornaadode tornaadoks tornaados tornaadost
+23	5323	disain	disain disaini disainiga disaine disainist disainide disainile
+24	5324	veer	veereta veeres veer veere veerel veered veeri veereks
+25	5325	pelgama	pelga pelgan pelgad pelgavad pelgab pelgasin peljanud pelgama pelgas peljake pelgate peljata pelgasid
+26	5326	lõhkama	lõhata lõhkama lõhkab lõhkame lõhkas lõhkan lõhka lõhati lõhkasid lõhkavad lõhake lõhates lõhatakse lõhanud lõhatud
+27	5327	uhtuma	uhutud uhuti uhub uhutakse uhtus uhtuda uhu uhtunud uhuvad
+28	5328	delikaatne	delikaatne delikaatselt delikaatse delikaatset delikaatsed delikaatses delikaatseid delikaatsesse
+29	5329	tuhkatriinu	tuhkatriinu tuhkatriinust
+30	5330	taastamine	taastamine taastamiseks taastamise taastamist taastamisega taastamisel
+31	5331	kohtusaal	kohtusaalis kohtusaali kohtusaal kohtusaalist
+32	5332	ilmumine	ilmumist ilmumine ilmumise ilmumisest ilmumisel ilmumisele
+33	5333	pakiline	pakiline pakilist pakilised pakilisem pakilise pakilisi pakilises
+34	5334	ebard	ebard ebardid ebardite ebardi ebardiks ebardeid ebardit ebardist ebardiga ebarditest
+35	5335	uksekell	uksekella uksekell uksekellale uksekellaga
+36	5336	alluv	alluv alluvaid alluvate alluva alluvatest alluvatega alluvaks alluvatele alluvaga alluvatel alluvale alluvana
+37	5337	teleskoop	teleskoobi teleskoop teleskoopi teleskoobiga teleskoobid teleskoope teleskoobis teleskoopide teleskoobist teleskoopidega
+38	5338	koost	koost
+39	5339	laitmatu	laitmatu laitmatult laitmatud laitmatut laitmatus
+40	5340	aimdus	aimdus aimduse aimdust aimdused aimduseks aimdusi aimdusele aimdusest
+41	5341	äärmuslik	äärmuslik äärmuslikke äärmuslikku äärmuslikud äärmusliku äärmuslike äärmuslikes äärmuslikult äärmuslikuks äärmuslikel
+42	5342	edutama	edutati edutatud edutatakse edutada edutan edutas edutama edutab edutanud
+43	5343	sääsk	sääsk sääsed sääsest sääski sääse sääskede sääske sääskedele
+44	5344	kirp	kirbud kirbul kirpe kirp kirbu kirbule kirpudest kirpu kirpude kirpudega
+45	5345	õgima	õgib õgivad õgi õgima õgida õgid õgiv õgis õgin õginud õgisid õgides õgisin õgimas õgiks õgite
+46	5346	vastamisi	vastamisi
+47	5347	nipp	nipp nippe nippi nipiga nippidega
+48	5348	laser	laserid laseri laseriga laserit lasereid laseritega laserite laseritest
+49	5349	perekondlik	perekondlik perekondliku perekondlikud perekondlikku perekondlikel perekondlikke perekondlike perekondlikule perekondlikul perekondlikest
+50	5350	start	starti stardini stardis stardist stardiga stardile
+51	5351	alateadvus	alateadvus alateadvuses alateadvuse alateadvusest alateadvust alateadvusesse alateadvusse alateadvusega alateadvusele
+52	5352	poolsurnud	poolsurnuks poolsurnud
+53	5353	kontrollimine	kontrollimiseks kontrollimine kontrollimist kontrollimise kontrollimisel
+54	5354	ebaharilik	ebaharilik ebaharilikku ebaharilikult ebaharilikud ebahariliku ebaharilikke ebaharilikuks ebaharilikust ebaharilikest
+55	5355	skaneerima	skaneerin skaneerida skaneerib skaneeri skaneerima skaneerisin skaneeris skaneerime skaneerige skaneerivad skaneerisime skaneeriti skaneeritud skaneeritakse skaneerinud skaneerisid
+56	5356	sihtpunkt	sihtpunkti sihtpunkt sihtpunktis sihtpunktist sihtpunktiks sihtpunktini sihtpunktid sihtpunktile sihtpunkte
+57	5357	imetaja	imetajad imetaja imetajate imetajatest imetajaid imetajatele imetajatel imetajat
+58	5358	osalus	osalust osalus osaluse osalusest osalusega osalusele osaluseta osaluses
+59	5359	raskesti	raskesti
+60	5360	pegasus	pegasus pegasuse
+61	5361	pagasiruum	pagasiruumis pagasiruumi pagasiruum pagasiruumist
+62	5362	ustavus	ustavust ustavus ustavuse ustavuses ustavusest ustavusega
+63	5363	seltsiline	seltsilisi seltsiline seltsilised seltsilist seltsilise seltsiliseks seltsiliste
+64	5364	massiivne	massiivne massiivse massiivsed massiivset massiivsest massiivses massiivselt massiivsel massiivsete massiivsesse massiivseks
+65	5365	ühikas	ühikas ühikasse ühika ühikast ühikates ühikad ühikat ühikate
+66	5366	libastuma	libastusin libastus libastu libastuda libastub libastud libastusid libastunud libastun libastuma libastuvad libastuks
+67	5367	vahejuhtum	vahejuhtum vahejuhtumit vahejuhtumi vahejuhtumist vahejuhtumiteta vahejuhtumeid vahejuhtumiga
+68	5368	tiirlema	tiirleb tiirlevad tiirlema tiirles tiirlemas tiirle tiirlesid tiirleme tiirelnud tiirlev tiirelda tiirled tiireldes
+69	5369	virisema	virise viriseda virised viriseb virisema virisevad virisen virisenud virisev virises virisemata viriseks virisesid
+70	5370	suuremeelne	suuremeelne suuremeelselt suuremeelse suuremeelset suuremeelsed suuremeelsena
+71	5371	jooksupoiss	jooksupoiss jooksupoisi jooksupoisid jooksupoisiks jooksupoissi jooksupoisse jooksupoisina jooksupoisteks jooksupoisile jooksupoisist
+72	5372	matkama	matkama matkamas matkasin matkame matkasime matkanud matkatud matkan matkates matkab matkas
+73	5373	pühendatud	pühendatud
+74	5374	ahaa	ahaa
+75	5375	jõle	jõle jõleda jõledad jõledat jõledaid jõledalt jõledate jõledast
+76	5376	pangarööv	pangaröövi pangarööv pangaröövel pangaröövist pangaröövis pangaröövide pangarööviga pangaröövid pangarööve pangaröövidest
+77	5377	vakk	vakka vaka
+78	5378	kunstlik	kunstlik kunstlikku kunstliku kunstlikult kunstlikud kunstlike kunstlikke kunstlikust
+79	5379	türklane	türklased türklane türklaste türklasi türklase türklastega türklastel türklastele türklast türklasest türklasega
+80	5380	kahetsusväärne	kahetsusväärne kahetsusväärse kahetsusväärset kahetsusväärselt kahetsusväärseid kahetsusväärsed kahetsusväärsest
+81	5381	kristlik	kristlik kristliku kristlikud kristlikku kristlikus kristlike kristlikke kristlikul kristlikust kristlikest
+82	5382	geto	geto getos getost getosse getot getodesse getod getodes
+83	5383	puder	putru pudru puder pudruks pudruga pudrust pudrule
+84	5384	lõpupidu	lõpupidu lõpupeole lõpupeo lõpupeol lõpupeost lõpupeoks lõpupeod lõpupeoni
+85	5385	kubel	kupli
+86	5386	kõnts	kõnts kõntsa kõntsaga kõntsaks kõntsas
+87	5387	jändama	jända jännata jändama jändad jändab jändas jändan jändasid jändavad jändasin jändaks jändate
+88	5388	vanapoiss	vanapoiss vanapoisid vanapoissi vanapoisi
+89	5389	lööve	lööve lööbe löövet lööbega lööbed
+90	5390	perenaine	perenaine perenaise perenaist perenaisele perenaisega perenaised perenaiseks
+91	5391	kapuuts	kapuutsiga kapuuts kapuutsi kapuutsid kapuutsis
+92	5392	laulatus	laulatus laulatust laulatuse laulatusele laulatusel laulatusest laulatusega laulatuselt
+93	5393	kaamel	kaamel kaameli kaamelid kaamelit kaameleid kaameliga kaamelil kaamelite kaamelitega
+94	5394	ühtne	ühtse ühtne ühtseks ühtset ühtsed ühtsena ühtselt ühtsest ühtsele ühtses ühtsesse
+95	5395	helendama	helendab helendavad helendav helendama helendas helendavat helendasid helendad helenda helendada
+96	5396	määrus	määrus määruse määrused määrust määruste määrusele määrusega määruseid määrustega määrusi määrustele määrustest määrustes
+97	5397	väljapoole	väljapoole
+98	5398	davai	davai tavai
+99	5399	ähmane	ähmane ähmaselt ähmased ähmaseks ähmase ähmast ähmaseid
+100	5400	juriidiline	juriidiline juriidiliselt juriidilist juriidilise juriidilises juriidilised juriidilisi juriidiliste juriidilisest juriidilisele

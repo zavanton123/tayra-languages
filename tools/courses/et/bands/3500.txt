@@ -1,0 +1,100 @@
+1	3401	saatmine	saatmine saatmist saatmiseks saatmise saatmisest saatmisele saatmisel
+2	3402	redel	redel redelit redeli redelist redelil redelilt redelid redeliga redeleid redelile redelite
+3	3403	november	november novembril novembris novembri novembrist novembrit novembriks
+4	3404	turniir	turniiri turniir turniiril turniirile turniirilt turniirist turniiriks turniiridel turniire turniirini turniirid
+5	3405	loomus	loomuses loomus loomust loomuse loomusest loomusega loomusele loomuselt
+6	3406	venitama	venitada venitad venitab venitama venitage venitan venitasin venitatud venitanud venitasid venitame venitavad venitate venitas venitades venitasime venitamata
+7	3407	pressima	pressida pressitud pressib pressima pressin pressige pressivad pressitakse pressime pressisin pressinud pressimas pressiti pressite
+8	3408	peekon	peekon peekonit peekoni peekoniga peekonis peekonist peekonita peekonisse
+9	3409	kitt	kitt kitti kitiga
+10	3410	tõenäosus	tõenäosus tõenäosusega tõenäosust tõenäosuse
+11	3411	strippar	strippar stripparid strippari stripparit strippariga strippareid stripparite stripparist stripparitega stripparina stripparitele stripparile strippariks stripparitest
+12	3412	sobilik	sobilik sobilikud sobiliku sobilikku sobilikuks sobilikke sobilikult
+13	3413	kardin	kardinad kardinaid kardin kardinate kardinatega kardinat kardinatest
+14	3414	kavandama	kavandatud kavandas kavandasin kavandanud kavandasid kavandab kavandada kavandan kavandama kavandame kavandavad kavandati kavandasime kavanda kavandad kavandatakse kavandate
+15	3415	laegas	laegas laeka laegast laekad laekas laekasse laekast laekaga laekaid laegastega laekale
+16	3416	pill	pilli pillid pill pille pillide pilliga pillidega pillile
+17	3417	meditsiin	meditsiini meditsiin meditsiinis meditsiinist meditsiiniga meditsiinile
+18	3418	kaabel	kaabel kaabli kaablid kaablit kaableid kaabliga kaablitega kaablite kaablitest kaablist kaablitele kaablile
+19	3419	stipendium	stipendiumi stipendium stipendiumit stipendiumiga stipendiumist stipendiumid stipendiume stipendiumile
+20	3420	suitsetamine	suitsetamine suitsetamise suitsetamist suitsetamisest suitsetamiseks suitsetamisega suitsetamisele
+21	3421	allpool	allpool
+22	3422	välistama	välistatud välistada välistab välista välistanud välistama välistas välistaks välistasime välistavad välistasin välistame välistasid välistades välistatakse välistan
+23	3423	ihukaitsja	ihukaitsja ihukaitsjad ihukaitsjat ihukaitsjaid ihukaitsjaks ihukaitsjaga ihukaitsjana ihukaitsjatega ihukaitsjate ihukaitsjatest ihukaitsjast ihukaitsjatele
+24	3424	ümbrik	ümbrik ümbriku ümbrikus ümbrikud ümbrikku ümbrikusse ümbrikut ümbrikul ümbrikke ümbrikule ümbrikuga ümbrikust ümbrikuid
+25	3425	ilmne	ilmne ilmset ilmse ilmsem ilmsed ilmseks ilmseid ilmsete ilmsel ilmsest
+26	3426	mähe	mähkmeid mähkmed mähkmetes mähe mähkme mähet mähkmete mähkmetega mähkmetesse mähkmetest mähkmesse
+27	3427	sipelgas	sipelgad sipelgas sipelgaid sipelgate sipelga sipelgatele sipelgat sipelgatest sipelgatega sipelgatel sipelgast sipelgale
+28	3428	diiler	diiler diileri diilerid diilereid diilerit diilerite diilerile diileriga diileritele diileriks diileril diileritest diileritega diilerist diileritelt diilerilt
+29	3429	serveerima	serveerida serveeritud serveeritakse serveerin serveerib serveeri serveerime serveerima serveerivad serveerid serveeriti serveeris serveerisid serveerisin serveerita serveerinud serveerite serveeriks serveerides serveerige
+30	3430	vanker	vanker vankri vankrit vankris vankrid vankriga vankrisse vankrist vankrile vankreid vankril vankrite vankrilt vankritele vankritega
+31	3431	omandama	omandada omandanud omandatud omandas omandasin omandab omandama omandavad omandasid omandad omandan omanda omandasite omandasime omandaks omandame omandatakse omandamas omandades
+32	3432	hobi	hobi hobid hobisid hobiks hobide hobidest hobiga hobideks hobidega hobist
+33	3433	kautsjon	kautsjoni kautsjon kautsjonit kautsjoniks kautsjonist kautsjoniga
+34	3434	loomine	loomise loomiseks loomine loomisega loomisele
+35	3435	reverend	reverend reverendi reverendiga reverendist reverendile reverendil
+36	3436	tühjendama	tühjendada tühjenda tühjendage tühjendama tühjendas tühjendan tühjendab tühjendasin tühjendame tühjendasid tühjendatud tühjendanud tühjendavad tühjendad tühjendati tühjendatakse tühjendasime tühjendasite
+37	3437	igati	igati
+38	3438	itaallane	itaallane itaallased itaallasi itaallaste itaallasest itaallase itaallast itaallastele itaallastega itaallasega itaallastest itaallastel itaallasena
+39	3439	tarkus	tarkust tarkus tarkusega tarkuses tarkusi tarkused tarkuste tarkuseta
+40	3440	laisk	laisk laisad laisaks laisa laiska laiskade laisalt laisku laiskadele laisem laiskadeks
+41	3441	ligida	ligidal ligidale
+42	3442	dieet	dieet dieedil dieeti dieedi dieedile dieedist dieediga dieedis dieediks
+43	3443	lihunik	lihunik lihuniku lihunikud lihunikku lihunikuks lihunikuga lihunikke lihunike lihunikult lihunikule lihunikust lihunikul
+44	3444	sigar	sigarit sigar sigareid sigari sigarid sigarite sigaritest sigariga sigaritega
+45	3445	kommenteerima	kommenteeri kommenteerida kommenteerite kommenteerinud kommenteerima kommenteerid kommenteeriksite kommenteeris kommenteerimast kommenteerige kommenteerin kommenteeriks kommenteerib kommenteeritud kommenteerisid kommenteerivad
+46	3446	tobu	tobu tobud tobuks tobude tobule tobusid tobust tobul
+47	3447	kasv	kasvu kasv kasvuga kasvule kasvust kasvult
+48	3448	kütma	kütta kütan küta kütab köetud kütame küttis kütma kütkes kütad kütaks kütnud kütavad kütke kütsid köetakse kütmata küttes kütsin
+49	3449	vihkamine	vihkamine vihkamist vihkamise vihkamisest vihkamisega vihkamisele vihkamiseks vihkamises vihkamisel
+50	3450	dušš	duši dušši dušš dušist dušid
+51	3451	hoidja	hoidja hoidjat hoidjad hoidjale hoidjaga hoidjaks hoidjate hoidjal hoidjalt hoidjaid
+52	3452	kujundama	kujundada kujundatud kujundas kujundab kujundavad kujundanud kujundasin kujundan kujundama kujundasid kujundame kujunda kujundad kujundades kujundasime kujundati kujundasite kujundatakse
+53	3453	perfektne	perfektne perfektselt perfektse perfektsed perfektset perfektses perfektseks
+54	3454	majandus	majandus majanduse majandust majanduses majandusele majandusest majandusega majandusel majandusse
+55	3455	tarbima	tarbi tarbinud tarbida tarbib tarbivad tarbid tarbima tarbis tarbin tarbisid tarbime tarbitakse tarbisin tarbite tarbides tarbisite tarbige tarbitud tarbiti
+56	3456	vaimustama	vaimustav vaimustatud vaimustavad vaimustas vaimustavat vaimusta vaimustab vaimustanud vaimustada
+57	3457	lahutatud	lahutatud lahutatuna
+58	3458	avastus	avastus avastuse avastusi avastused avastust avastusest avastuste avastustest avastustele avastusega avastusele avastuseni avastustega
+59	3459	produtsent	produtsent produtsendid produtsendi produtsendiks produtsendiga produtsenti produtsentide produtsentidele produtsendile produtsendina produtsentidega produtsente produtsendist
+60	3460	hommikune	hommikune hommikuse hommikused hommikusest hommikusel hommikuses hommikusi hommikusele hommikuseks hommikuste hommikustes hommikustest
+61	3461	jälile	jälile
+62	3462	katkema	katkeb katkenud katkema katke katkes katkematu katkeda katkemas katkematult katkevad katkesid katked katkematut katkeks
+63	3463	raudtee	raudtee raudteed raudteel raudteele raudteid raudteega raudteelt raudteest raudteede raudteedel
+64	3464	hõbe	hõbe hõbedat hõbeda hõbedast hõbedaga hõbedas hõbedale hõbedasse
+65	3465	õhupall	õhupalli õhupall õhupallid õhupalle õhupalliga õhupallidega õhupallide õhupallist õhupallidest õhupallis õhupallil õhupallini
+66	3466	tarvitama	tarvita tarvitab tarvitanud tarvitad tarvitada tarvitama tarvitas tarvitavad tarvitasin tarvitan tarvitasid tarvitate tarvitades tarvitati tarvitatud tarvitame tarvitage tarvitasite
+67	3467	vaheldus	vahelduseks vaheldust vaheldus vahelduse
+68	3468	juhiluba	juhiluba juhiload juhilube juhiloa juhilubade juhilubasid juhiloal juhilubadest juhiloast juhiloata
+69	3469	ülestunnistus	ülestunnistus ülestunnistuse ülestunnistust ülestunnistused ülestunnistusi ülestunnistusele ülestunnistusest ülestunnistusega ülestunnistuseks ülestunnistuses
+70	3470	ülevaade	ülevaade ülevaate ülevaadet ülevaated ülevaateid ülevaatega ülevaatest
+71	3471	tavapärane	tavapärane tavapärast tavapärase tavapärased tavapäraselt tavapärasest tavapäraste tavapärasel tavapäraseid tavapärases tavapäraseks tavapärastest tavapärasele
+72	3472	stress	stressi stressist stressiga stressile stressil
+73	3473	investeerima	investeerida investeerinud investeerisin investeerima investeeris investeerisid investeeri investeeritud investeerin investeerib investeeriks investeerisime investeerivad investeerime investeerid investeerige investeeriksin
+74	3474	surnukuur	surnukuuri surnukuuris surnukuur surnukuurist surnukuure
+75	3475	küülik	küülik küüliku küülikud küülikut küülikuid küülikuga küülikute küülikul küülikuks küülikule küülikutest küülikust
+76	3476	hiiglane	hiiglane hiiglased hiiglase hiiglaste hiiglast hiiglasi hiiglastest hiiglasega hiiglasest hiiglasele hiiglaseid hiiglaseks hiiglastega hiiglasteks
+77	3477	korvpall	korvpalli korvpall korvpallis korvpallist korvpalliga korvpallile korvpalle
+78	3478	karantiin	karantiini karantiinis karantiin karantiinist karantiiniga
+79	3479	kollektsioon	kollektsiooni kollektsioon kollektsioonist kollektsioonis kollektsiooniga kollektsioonile
+80	3480	tamm	tammi tamm tamme tammest tammist tammile tammil tammid tammide tammed tammilt tammega tammiga
+81	3481	sealne	sealne sealsed sealse sealset sealseid sealses sealsete sealsest sealsele sealsetest sealsetel sealsetele sealsesse sealsel sealsetes
+82	3482	raadius	raadiuses raadius raadiusega raadiusest raadiuse raadiust raadiusse raadiusesse
+83	3483	kardinal	kardinal kardinali kardinalid kardinalile kardinaliga kardinalide kardinalil kardinalilt kardinalidele kardinaliks
+84	3484	konstaabel	konstaabel konstaablid konstaabli konstaablile konstaablit
+85	3485	väärakas	väärakas väärakad vääraka väärakat väärakaks väärakate väärakaid väärakale väärakal väärakana väärakatest väärakast väärakaga väärakatega
+86	3486	pingutus	pingutust pingutus pingutusi pingutused pingutustele pingutuste pingutustest pingutuse pingutusega pingutuseta pingutusteta pingutusest
+87	3487	oda	oda odaga odad odasid odade odadega odast otta
+88	3488	eluaegne	eluaegne eluaegse eluaegset eluaegsed eluaegsest eluaegseks eluaegseid eluaegseni
+89	3489	ooper	ooper ooperit ooperis ooperi ooperisse ooperist oopereid ooperile ooperil ooperid ooperiga
+90	3490	järglane	järglane järglasi järglased järglase järglaste järglast järglastele järglasega järglasele järglaseks järglastel järglasest järglastest järglastega
+91	3491	rinnahoidja	rinnahoidja rinnahoidjat rinnahoidjad rinnahoidjaid rinnahoidjata rinnahoidjaga rinnahoidjas rinnahoidjast rinnahoidjate rinnahoidjatega rinnahoidjasse rinnahoidjateta
+92	3492	algne	algne algse algsed algset algsest algses algsete algseid algsel algsele algsetest algsesse
+93	3493	koomiks	koomikseid koomiksid koomiksi koomiks koomiksite koomiksit koomiksist koomiksis koomiksites koomiksitest koomiksisse
+94	3494	kosmoselaev	kosmoselaev kosmoselaeva kosmoselaevas kosmoselaevaga kosmoselaevad kosmoselaevast kosmoselaevu kosmoselaevale kosmoselaeval kosmoselaevade kosmoselaevadega kosmoselaevadest kosmoselaevalt
+95	3495	kara	kara karaga karal karast karale
+96	3496	kaasnema	kaasneb kaasnevad kaasnes kaasne kaasnevat kaasneda kaasneks kaasnesid
+97	3497	käivituma	käivitub käivitu käivitus käivitunud käivituvad käivituma käivituda käivituseni käivituks käivituseks käivitusid käivituse
+98	3498	hellitama	hellitatud hellitada hellita hellitad hellitab hellitan hellitanud hellitama hellitas hellitame hellitasin hellitasid hellitavad hellitav hellitage hellitaks hellitate hellitades hellitatakse
+99	3499	mikrofon	mikrofoni mikrofon mikrofonid mikrofone mikrofoniga mikrofonide mikrofonil
+100	3500	piisk	piisa piisk piisaks piisas piiska piisata piiskade piisad

@@ -1,0 +1,100 @@
+1	9301	dublant	dublant dublandi dublanti dublandid
+2	9302	matemaatik	matemaatik matemaatikud matemaatikute matemaatikuid
+3	9303	tasustama	tasustatud tasustatakse tasustada tasustab tasustan
+4	9304	veenmine	veenmiseks veenmine veenmisest
+5	9305	regi	ree reega rege regi
+6	9306	terroriakt	terroriakte terroriakt terroriakti terroriaktide
+7	9307	relvajõud	relvajõudude relvajõud relvajõududele relvajõude relvajõududega relvajõududes
+8	9308	küsimärk	küsimärgi küsimärk küsimärki
+9	9309	jõulukaart	jõulukaardi jõulukaarte jõulukaart jõulukaardid jõulukaarti jõulukaartide
+10	9310	kanaarilind	kanaarilind kanaarilinnu kanaarilinnud kanaarilindu kanaarilinde
+11	9311	filter	filtri filtrit filtriga filtreid filtrist
+12	9312	tagaõu	tagaõues tagaõue tagaõu tagaõuel tagaõuele
+13	9313	defekt	defekt defektiga defektid defekte defekti
+14	9314	kummut	kummuti kummut kummutit kummutis kummutil kummutist kummutile
+15	9315	möire	möire möiret möirge möirged möirgega möirgeid
+16	9316	lömitama	lömitama lömita lömitavad lömitada lömitad lömitab lömitanud lömitaks lömitav
+17	9317	purgatoorium	purgatooriumist purgatooriumi purgatoorium purgatooriumis purgatooriumisse
+18	9318	koni	koni konisid konid konni
+19	9319	sisse-väli	sisse-välja
+20	9320	tuttu	tuttu
+21	9321	soomustama	soomustatud
+22	9322	fikseeri=tud	fikseeritud
+23	9323	teisipäeviti	teisipäeviti
+24	9324	lülitus	lülitus lülituse
+25	9325	kebima	kebi kebige
+26	9326	puhk	puhkudel puhkudeks
+27	9327	näljahäda	näljahäda näljahädad näljahädas näljahädast
+28	9328	kalake	kalake kalakesed
+29	9329	kõlupea	kõlupea kõlupead kõlupeast
+30	9330	magister	magister magistri
+31	9331	prügila	prügila prügilas prügilast
+32	9332	mõranema	mõranenud mõraneb mõranes mõranema mõranevad
+33	9333	spartalane	spartalased spartalane spartalasi spartalaste
+34	9334	operatsioonisaal	operatsioonisaali operatsioonisaal operatsioonisaalis
+35	9335	kosmeetika	kosmeetika kosmeetikat
+36	9336	reageering	reageering reageeringut reageeringud reageeringu reageeringuid
+37	9337	vastuvõtlik	vastuvõtlik vastuvõtlikud vastuvõtlikuks
+38	9338	verejanuline	verejanuline verejanulised verejanulise verejanuliseks verejanulist
+39	9339	trell	trelle trell trelli trellidest trellidega
+40	9340	virmalised	virmalised virmaliste virmalisi
+41	9341	kangutama	kangutada kangutama kanguta kangutan kangutame
+42	9342	maik	maik maigu maiku maiguga
+43	9343	seiklema	seiklema seigelda seikles seiklemas seikleb seikleme
+44	9344	jõledus	jõledus jõledusi jõledust jõleduse jõleduste jõledused jõledustest
+45	9345	turundus	turunduse turundus turundusega turundust turunduses turundusest
+46	9346	sanatoorium	sanatooriumis sanatooriumi sanatoorium sanatooriumisse
+47	9347	südametemurdja	südametemurdja südametemurdjad südametemurdjat
+48	9348	mühakas	mühakas mühakad mühakaks
+49	9349	imearmas	imearmas imearmsad imearmsa
+50	9350	müstika	müstika müstikat müstikast
+51	9351	paradoks	paradoks paradoksi paradokse paradoksid
+52	9352	austraallane	austraallane austraallased austraallasi austraallaste austraallast austraallasest
+53	9353	ärritus	ärritus ärritust ärritusest ärrituse
+54	9354	aristokraat	aristokraat aristokraadid aristokraatide aristokraadi aristokraate
+55	9355	peibutama	peibutada peibutab peibutas peibutama peibutavad peibutasid peibutan
+56	9356	talveuni	talveunes talveunne talveund talveunest talveune talveuni
+57	9357	vihastuma	vihastuda vihastu vihastub vihastun vihastud vihastusin vihastus vihastuvad
+58	9358	uuristama	uuristatud uuristanud uuristasid uuristab uuristada uuristavad uuristas uuristame uuristama uuristan
+59	9359	kiusaja	kiusaja kiusajad kiusajaid kiusajate
+60	9360	toetamine	toetamiseks toetamise toetamine toetamisest
+61	9361	väin	väina väinas väin väinast
+62	9362	õud	õudu õuna õud
+63	9363	linnavolikogu	linnavolikogu linnavolikogus linnavolikokku
+64	9364	konsultatsioon	konsultatsiooni konsultatsioon konsultatsioonile konsultatsioone konsultatsiooniks konsultatsioonid
+65	9365	koormatu	koormatud
+66	9366	nuts	nutsu
+67	9367	otsaette	otsaette
+68	9368	vaatevinkel	vaatevinklist vaatevinkel
+69	9369	tõre	tõre tõredaks tõreda tõredad
+70	9370	teenijatüdruk	teenijatüdruk teenijatüdrukut teenijatüdruku teenijatüdrukule
+71	9371	tasakaalutu	tasakaalutu tasakaalutus tasakaalutust
+72	9372	hernehirmutis	hernehirmutis hernehirmutise hernehirmutist hernehirmutised hernehirmutiseks
+73	9373	ettevõtja	ettevõtja ettevõtjad ettevõtjate
+74	9374	traumapunkt	traumapunkti traumapunktis traumapunkt
+75	9375	rämpstoit	rämpstoitu rämpstoit rämpstoidu rämpstoidust
+76	9376	urisema	uriseb urises urise urisema urisevad urised
+77	9377	sportauto	sportauto sportautoga sportautot sportautod sportautodega sportautode
+78	9378	kliitor	kliitor kliitori kliitorit kliitoriga
+79	9379	hõõrumine	hõõrumine hõõrumist hõõrumise hõõrumisega hõõrumisi
+80	9380	barett	barett baretid baretti bareti barette
+81	9381	troll	trollide trolle trollidele trollidest trollidega trollile
+82	9382	pühvel	pühvel pühvli pühvlid pühvleid pühvlite pühvlit
+83	9383	kähkukas	kähkukas kähkuka kähkukat kähkukaks kähkukaga
+84	9384	päevitama	päevitada päevitama päevitanud päevitamas päevita päevitab päevitades päevitan
+85	9385	ettevalmistamine	ettevalmistamiseks ettevalmistamine ettevalmistamisel ettevalmistamise ettevalmistamist ettevalmistamisega ettevalmistamisele
+86	9386	tervenema	terveneda terveneb tervenenud tervenema tervened tervenes tervenen tervene
+87	9387	riietumine	riietumine riietumise riietumist riietumiseks riietumisel riietumisega
+88	9388	sandistama	sandistada sandistatud sandistas sandistanud sandistab sandistasid sandistan sandistav
+89	9389	näolapp	näolapp näolappi näolapi näolapiga
+90	9390	jõuluaeg	jõuluaeg jõuluajal jõuluaja
+91	9391	ahastus	ahastuses ahastust ahastus ahastuse ahastusse
+92	9392	käimla	käimla käimlas käimlasse käimlad käimlaid käimlat käimlast
+93	9393	nikastama	nikastanud nikastasin nikastatud nikastas
+94	9394	isadus	isaduse isadustesti isadus isadust isadustest
+95	9395	põlemine	põlemist põlemine põlemise põlemisest
+96	9396	soodustus	soodustust soodustusi soodustused soodustus soodustuste
+97	9397	eluase	eluaseme eluase eluaset eluasemeid
+98	9398	lepitus	lepitust lepituseks lepitus lepituse
+99	9399	matusebüroo	matusebüroo matusebüroos matusebüroosse matusebüroost matusebürood
+100	9400	paralleelne	paralleelne paralleelsed paralleelsest paralleelsete paralleelse paralleelset paralleelses paralleelsesse

@@ -1,0 +1,100 @@
+1	6701	elukutseline	elukutseline elukutselised elukutselise elukutseliseks elukutselist elukutseliselt
+2	6702	hüsteeriline	hüsteeriline hüsteeriliselt hüsteeriliseks hüsteerilise hüsteerilist hüsteerilised
+3	6703	sobitama	sobitada sobitama sobitatud sobitanud sobitame sobitan sobitasin sobitab sobitad
+4	6704	tapamaja	tapamaja tapamajas tapamajja tapamajast tapamajad
+5	6705	diagnoosima	diagnoositi diagnoositud diagnoosida diagnoosimata diagnoositakse diagnoosisin
+6	6706	kagu	kagu kagus kagusse kagust
+7	6707	jõuluõhtu	jõuluõhtul jõuluõhtu jõuluõhtut jõuluõhtuks
+8	6708	lapp	lapi lapp lapid lapiga lappe lappi
+9	6709	keskaeg	keskaja keskajal keskajast keskaeg keskaega keskajas
+10	6710	üleriigiline	üleriigiline üleriigilise üleriigiliselt üleriigilist üleriigiliseks üleriigilisele üleriigilised üleriigilises üleriigilistele
+11	6711	tulp	tulp tulbid tulpa tulpe tulbi tulpide tulpi tulbas tulpidest
+12	6712	maabuma	maabunud maabub maabus maabume maabusid maabuda maabuvad maabusime maabudes
+13	6713	hauduma	haub hauduma haudunud haududa haudus hauvad haudusid haudub hauduvad haun haudun haudusin haudusite
+14	6714	hoid	hoiule hoiul hoiu hoid
+15	6715	vastupidav	vastupidav vastupidavad vastupidavaks vastupidavat vastupidava
+16	6716	keretäis	keretäie keretäis keretäit
+17	6717	tegelemine	tegelemiseks tegelemine tegelemise
+18	6718	olemasolev	olemasoleva olemasolev olemasolevaid olemasolevat olemasolevate olemasolevaga olemasolevale olemasolevast olemasolevatele
+19	6719	aevastama	aevastas aevastama aevastab aevastada aevastad aevastan aevasta aevastasin aevastanud aevastasid aevastavad
+20	6720	kaasmaalane	kaasmaalased kaasmaalane kaasmaalasi kaasmaalaste kaasmaalastele kaasmaalasele kaasmaalast kaasmaalastega
+21	6721	känguru	känguru kängurud känguruid kängurut kängurul
+22	6722	kuru	kuru kurus kurust kurusse
+23	6723	lumeinimene	lumeinimene lumeinimese lumeinimest lumeinimesest lumeinimesega
+24	6724	orgia	orgia orgiad orgiat orgial orgiaid orgiale orgiast orgiaks orgiate
+25	6725	särts	särtsu särts
+26	6726	paljulubav	paljulubav paljulubavad paljulubavalt paljulubava paljulubavat
+27	6727	protesteerima	protesteerin protesteerivad protesteerima protesteerida protesteeris protesteerib protesteeri protesteerid protesteerisid protesteerimas
+28	6728	barjäär	barjääri barjäär barjääre barjäärid barjäärist
+29	6729	pumppüss	pumppüss pumppüssi pumppüssiga pumppüssid pumppüssist pumppüsse
+30	6730	pakett	pakett paketi paketti paketid pakette paketiga pakettide paketis
+31	6731	laskumine	laskumist laskumine laskumise laskumiseks laskumisel
+32	6732	turi	turjal turja turjas turjalt turjale turi
+33	6733	kirre	kirdesse kirde kirdes kirdest kirre
+34	6734	kohtumõistmine	kohtumõistmine kohtumõistmist kohtumõistmise kohtumõistmiseks kohtumõistmisele kohtumõistmisest kohtumõistmiseta
+35	6735	opp	oppi opi opile opil opiks opist opid oppe oppidele
+36	6736	tungiv	tungivalt tungiv tungiva tungival
+37	6737	ruulima	ruulib ruulivad ruulid ruulime ruulite ruulin
+38	6738	silmnähtav	silmnähtavalt silmnähtav silmnähtavad silmnähtavat silmnähtava
+39	6739	sultan	sultan sultani sultanile sultanit sultaniga sultanid sultanil
+40	6740	õhtupoolik	õhtupoolikul õhtupoolik õhtupooliku õhtupoolikut õhtupoolikuks
+41	6741	eskortima	eskortida eskortima eskortis eskordime eskordin eskordib eskordivad eskortige eskorditakse eskorditi eskordite
+42	6742	kaisukaru	kaisukaru kaisukarud kaisukarule kaisukaruga
+43	6743	nähtavus	nähtavus nähtavust nähtavuse nähtavuses nähtavusest
+44	6744	tainapea	tainapea tainapead tainapeast
+45	6745	kruvikeeraja	kruvikeeraja kruvikeerajat kruvikeerajaga
+46	6746	isamaa	isamaa isamaad isamaale isamaal
+47	6747	puudulik	puudulik puudulikud puuduliku puudulikku puudulikust puudulikuks
+48	6748	esineja	esineja esinejad esinejaid esinejat esinejate esinejaks
+49	6749	meloodia	meloodia meloodiat meloodiaid meloodiaga meloodias meloodiad
+50	6750	eelkäija	eelkäija eelkäijad eelkäijate eelkäijatega eelkäijat eelkäijaid eelkäijaga eelkäijale eelkäijatest
+51	6751	muretu	muretu muretult muretud muretut muretuna
+52	6752	jäämägi	jäämäe jäämägi jäämäed jäämäge jäämägede jäämäega jäämägesid
+53	6753	tasandik	tasandikel tasandikud tasandikul tasandike tasandiku tasandik tasandikele tasandikule tasandikku
+54	6754	tahtejõud	tahtejõud tahtejõudu tahtejõuga tahtejõu tahtejõust
+55	6755	lähenemiskeeld	lähenemiskeelu lähenemiskeeld lähenemiskeeldu lähenemiskeelust lähenemiskeeluga
+56	6756	elektromagnetiline	elektromagnetiline elektromagnetilise elektromagnetilist elektromagnetilised elektromagnetiliste elektromagnetilisi
+57	6757	reguleerima	reguleerida reguleerib reguleeritud reguleerimata reguleerivad reguleerima reguleeri reguleerin reguleeritakse reguleerides
+58	6758	puhh	puhh
+59	6759	veiseliha	veiseliha veiselihaga veiselihale
+60	6760	maskott	maskott maskoti maskotiks maskotti maskotiga maskotid
+61	6761	ärkamine	ärkamist ärkamine
+62	6762	kultus	kultus kultuse kultusega kultust kultusest kultused kultuste kultuses
+63	6763	kattuma	kattuvad kattub kattus kattuma kattunud kattuda kattuks
+64	6764	ülejääk	ülejäägid ülejääk ülejääke ülejäägi ülejääkide ülejääkidest ülejääkidega
+65	6765	poseerima	poseerida poseeri poseerib poseeris poseerima poseerinud poseerisid poseerin poseerisin poseerivad poseerid poseerige poseeriks poseeriksid
+66	6766	streik	streik streiki streigist streigile streigiga streike
+67	6767	valjuhääldi	valjuhääldi valjuhääldile valjuhääldisse valjuhääldis valjuhääldist valjuhääldil valjuhääldit
+68	6768	kommunistlik	kommunistliku kommunistlik kommunistlikku kommunistlikus kommunistlike kommunistlikud kommunistlikust kommunistlikke
+69	6769	abistamine	abistamiseks abistamise abistamine abistamist abistamisele
+70	6770	tugevamini	tugevamini
+71	6771	täiskoht	täiskohaga
+72	6772	romantik	romantik romantikud romantikuks romantiku
+73	6773	hoolikas	hoolikas hoolikat hoolikad hoolika
+74	6774	poolakas	poolakas poolakad poolakate poolakaid poolaka poolakatele
+75	6775	süümepiin	süümepiinu süümepiinad süümepiinadeta süümepiinade süümepiina süümepiinadest süümepiinadega
+76	6776	motivatsioon	motivatsiooni motivatsioon motivatsiooniks motivatsioonist motivatsiooniga
+77	6777	disainer	disainer disaineri disainerid disainerite disaineriks disainerina disainerit disaineritega
+78	6778	spetsialiseeruma	spetsialiseerunud spetsialiseerub spetsialiseerun spetsialiseerus spetsialiseeruvad spetsialiseerusin
+79	6779	rosin	rosinad rosina rosinaid rosin rosinatega rosinate rosinat
+80	6780	mäger	mäger mäkra mägra mägrad mägraga
+81	6781	pisik	pisikud pisikuid pisik pisikute pisiku pisikutega pisikutest
+82	6782	julmus	julmus julmust julmuse julmusega julmusest julmuses julmustest julmusele
+83	6783	kaplan	kaplan kaplani kaplanit kaplaniga kaplanina
+84	6784	moonduma	moondunud moonduda moondub moonduvad moondus moondusid
+85	6785	pekk	pekki pekk peki pekist
+86	6786	ükskõikne	ükskõikne ükskõikseks ükskõiksed ükskõikselt ükskõikset ükskõikse
+87	6787	peapõrutus	peapõrutus peapõrutuse peapõrutust peapõrutusest peapõrutusega
+88	6788	džinn	džinn džinni džinniga
+89	6789	elektrikatkestus	elektrikatkestus elektrikatkestuse elektrikatkestust elektrikatkestused elektrikatkestusi elektrikatkestusega elektrikatkestuste
+90	6790	trajektoor	trajektoori trajektoor trajektooril trajektoorile trajektoorid trajektoore
+91	6791	igatsus	igatsus igatsust igatsusest igatsusega igatsuse
+92	6792	trepikoda	trepikojas trepikoda trepikoja trepikotta trepikojast trepikojad
+93	6793	heidutama	heidutada heiduta heidutab heidutav heidutanud heidutatud heidutavad
+94	6794	tõstatama	tõstatab tõstatada tõstatas tõstatanud tõstatatud tõstatasid tõstata tõstatasin tõstatad tõstatan
+95	6795	lüpsma	lüpsta lüpsma lüpsa lüpsab lüpsis lüpsnud lüpsavad lüpsin lüpsid lüpsame lüpsan lüpstud lüpstakse
+96	6796	oga	ogad oga ogadega ogasid ogata ogade ogadest okka
+97	6797	ebausk	ebausk ebausu ebausku ebausust ebausule ebausuga ebausuks
+98	6798	fanaatik	fanaatik fanaatikud fanaatikute fanaatikuid fanaatiku fanaatikutest fanaatikuks
+99	6799	naerualune	naerualuseks naerualune naerualused naerualusteks naerualuse naerualust
+100	6800	kehastus	kehastus kehastuseks kehastuses kehastust

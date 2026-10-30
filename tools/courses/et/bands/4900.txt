@@ -1,0 +1,100 @@
+1	4801	kibe	kibe kibeda kibedat kibedalt kibedaks kibedad kibedaid kibedate kibedast
+2	4802	jäle	jäle jäledad jäledat jäleda
+3	4803	kliima	kliima kliimas kliimat kliimaga kliimast kliimale
+4	4804	alternatiiv	alternatiiv alternatiivi alternatiive alternatiiviks alternatiivid alternatiivide alternatiivist
+5	4805	imik	imik imiku imikud imikute imikut imikuna imikuid imikuga imikule imikust
+6	4806	mustlane	mustlane mustlased mustlaste mustlase mustlast mustlasi mustlastega mustlasest mustlastest mustlastele mustlasega mustlasele
+7	4807	kehaosa	kehaosad kehaosa kehaosi kehaosade kehaosadega kehaosasid kehaosadest kehaosast
+8	4808	kahekordistama	kahekordistada kahekordistan kahekordistame kahekordista kahekordistama kahekordistab kahekordistage kahekordistanud kahekordistasin kahekordistaks kahekordistas kahekordistasid kahekordistasime kahekordistavad
+9	4809	sügelema	sügeleb sügelema sügelevad sügelev sügeles sügelen sügele sügelesid
+10	4810	vaatlema	vaadelda vaatleme vaatlen vaadeldes vaatlema vaatleb vaatle vaadelnud vaatles vaatlesin vaatlevad vaadelge vaadeldakse vaatled vaadeldav vaadeldud vaatlesid vaadeldi vaatlemas vaadeldava vaatlesime
+11	4811	huulepulk	huulepulk huulepulga huulepulka huulepulgaga huulepulgad huulepulki
+12	4812	eksimus	eksimus eksimust eksimuse eksimusi eksimused eksimuste eksimusest eksimusega eksimustest
+13	4813	köhima	köhi köhib köhima köhis köhida köhid köhisin köhinud köhige köhin köhivad köhisid köhides köhiks köhimas
+14	4814	pritsima	pritsib pritsida pritsivad pritsima pritsin pritsisid pritsinud pritsisin pritsige pritsitakse pritsime pritsides pritsitud pritsite
+15	4815	niitma	niita niidab niitis niitma niidetud niida niidan niitsid niidad niidavad niitnud niitsin niitke niidame niitmas niidaks niideti niidaksin
+16	4816	kätetöö	kätetöö kätetööd kätetööga kätetööna
+17	4817	pipar	pipart pipar pipra pipraga piprad pipraid
+18	4818	sile	sile siledad siledaks sileda siledat siledam siledaid siledal siledalt
+19	4819	pooltki	pooltki
+20	4820	kubisema	kubiseb kubisevad kubises kubisema kubisev kubise kubisesid
+21	4821	surmalaps	surmalaps surmalapsed
+22	4822	poeet	poeet poeedid poeedi poeetide poeeti poeediks poeedile poeedil poeedina
+23	4823	kirjalik	kirjalikult kirjalik kirjaliku kirjalikku kirjalikus kirjalikud kirjalikke
+24	4824	blogi	blogi blogis blogisse blogist blogiga blogid blogisid blogides blogide
+25	4825	klatšimoor	klatšimoor klatšimoori klatšimoorile klatšimooris klatšimoorist klatšimooril klatšimoorina klatšimooriga
+26	4826	ratsu	ratsuta ratsu ratsut ratsud ratsuga ratsul ratsudele
+27	4827	uuendus	uuendusi uuendus uuendused uuendust uuenduse uuenduste uuendustest uuendustega uuendustele uuendusega uuendusteks
+28	4828	olevik	olevik olevikku olevikus oleviku olevikust olevikule olevikuga
+29	4829	kehtestama	kehtestada kehtestatud kehtestama kehtestas kehtestab kehtestati kehtestan kehtestanud kehtestame kehtestavad kehtestasid kehtesta kehtestatakse kehtestad kehtestasin
+30	4830	higi	higi higiga higist higis
+31	4831	hammustus	hammustus hammustuse hammustust hammustused hammustusest hammustusega hammustuste hammustusi hammustustest hammustusele
+32	4832	looming	looming loomingut loomingu loomingust loominguga loomingus loomingule loominguks loominguid loomingusse loomingul
+33	4833	valjusti	valjusti
+34	4834	kummarduma	kummardu kummarduge kummardub kummarduma kummardusin kummardun kummarduda kummardud kummardusid kummarduks
+35	4835	abort	aborti abordi abort abordid abortide aborte abordile abordist abordiga
+36	4836	föderatsioon	föderatsiooni föderatsioon föderatsioonile föderatsiooniga
+37	4837	kalduvus	kalduvus kalduvustega kalduvust kalduvused kalduvusi kalduvusega kalduvuse kalduvuste kalduvusest kalduvustest
+38	4838	peidupaik	peidupaik peidupaika peidupaiga peidupaigas peidupaigast peidupaigad peidupaiku peidupaigaks
+39	4839	ahistamine	ahistamine ahistamise ahistamises ahistamist ahistamisest ahistamisega ahistamisele ahistamiseks
+40	4840	venima	venib venis veninud venivad venida veni venisid venima venid venime venivat venige
+41	4841	väljaõpe	väljaõpe väljaõppe väljaõpet väljaõppega väljaõppel väljaõppeta väljaõppest väljaõppele
+42	4842	urg	urgu urus uru urg urust urkel urgudes urge urud urgudest urgudesse urgusid
+43	4843	rahumeelne	rahumeelne rahumeelselt rahumeelsed rahumeelse rahumeelset rahumeelseid rahumeelsest rahumeelseks rahumeelsete
+44	4844	tugevaim	tugevaim tugevaimad
+45	4845	traat	traati traat traadi traadita traadiga traadid traadist traate traatide
+46	4846	mullivann	mullivanni mullivann mullivannis mullivanniga mullivannid mullivannist
+47	4847	adrenaliin	adrenaliini adrenaliin adrenaliinist adrenaliiniga
+48	4848	meede	meetmed meetmeid meetmete meede meetmetega meetmetest meetme
+49	4849	teoreetiliselt	teoreetiliselt
+50	4850	surmanuhtlus	surmanuhtluse surmanuhtlus surmanuhtlust surmanuhtlusega surmanuhtlusest
+51	4851	juhtimiskeskus	juhtimiskeskus juhtimiskeskusesse juhtimiskeskuse juhtimiskeskuses juhtimiskeskusele juhtimiskeskusega juhtimiskeskusest juhtimiskeskusse juhtimiskeskust
+52	4852	spetsiaalne	spetsiaalne spetsiaalse spetsiaalset spetsiaalsed spetsiaalseid spetsiaalsete spetsiaalses spetsiaalsesse
+53	4853	isamees	isamees isameheks isamehe isamehena isameest isamehed isamehele
+54	4854	piip	piip piipu piibu piibuga piibud
+55	4855	näitaja	näitajad näitaja näitajaid näitajate näitajatega
+56	4856	junn	junn junni junnid junne junnide junnidest junniks junnidega
+57	4857	tüssama	tüssata tüssas tüssasid tüssab tüssatud tüssanud tüssati tüssa tüssad tüssama tüssasin tüssatakse tüssavad tüssasite tüssan tüssaks tüssame
+58	4858	lugupeetud	lugupeetud
+59	4859	jälitaja	jälitaja jälitajad
+60	4860	luksus	luksus luksust luksuses luksusest luksuse luksusega
+61	4861	koondama	koondada koondama koondati koondatud koondab koondame koondanud koondage koonda koondatakse koondas koondavad koondan koondasid koondades
+62	4862	näppama	näpata näppasin näppasid näppas näppama näppab näpanud näppasime näppa näpatud näppad näppan näppavad näppame näppaks näppamas
+63	4863	kuusk	kuuse kuusk kuuske kuused kuuski kuusest kuuseks kuusele kuuskede kuusega kuuselt
+64	4864	araablane	araablane araablased araablaste araablasi araablast araablase araablastele araablastega araablasest araablaseks
+65	4865	edumaa	edumaa edumaad edumaaga
+66	4866	lömastama	lömastada lömastatud lömastas lömastab lömastan lömasta lömastad lömastame lömastanud lömastasid lömastati lömastatakse lömastasin lömastama lömastavad lömastasime
+67	4867	metafoor	metafoor metafoori metafoore metafoorid metafoorina metafooridega metafooriks metafoorist metafooridest metafooride
+68	4868	taltsutama	taltsutada taltsuta taltsutama taltsutatud taltsutage taltsutanud taltsutab taltsutas taltsutasid taltsutamata taltsutan taltsutasin taltsutame
+69	4869	ekspeditsioon	ekspeditsiooni ekspeditsioon ekspeditsioonil ekspeditsioonile ekspeditsioonist ekspeditsiooniga ekspeditsioonid ekspeditsioone ekspeditsioonidel ekspeditsioonilt ekspeditsiooniks
+70	4870	röstsai	röstsaia röstsai röstsaiaga röstsaiad röstsaiale röstsaiu röstsaial
+71	4871	ilmutus	ilmutus ilmutuse ilmutust ilmutuste ilmutused ilmutusi ilmutuseks ilmutusest ilmutuses ilmutustest
+72	4872	niinimetatud	niinimetatud
+73	4873	koit	koitu koidu koiduni koit koidust koiduks koidule koiduga
+74	4874	jääk	jäägi jäägid jääke jääk jääkide jääkidest jääki
+75	4875	seedima	seedida seedi seedin seedima seedib seedinud seeditav seeditud seedid seedivad seedimata seediks seedis
+76	4876	eraelu	eraelu eraelust eraelus eraellu eraelule eraeluga
+77	4877	lindprii	lindprii lindpriid lindpriide lindpriiks lindpriideks lindpriisid lindpriidele lindpriidega lindpriidest
+78	4878	käesolev	käesolevaga käesoleva käesoleval käesolev käesolevas käesolevale käesolevast käesolevat
+79	4879	hispaanlane	hispaanlane hispaanlased hispaanlaste hispaanlasi hispaanlasest hispaanlast hispaanlase hispaanlastele hispaanlastest hispaanlastega hispaanlasega
+80	4880	nutt	nutt nuttu nutti nutu nutuga nutust nutis
+81	4881	silmapilk	silmapilgust silmapilk silmapilguga silmapilgu silmapilgul silmapilguks
+82	4882	sõltumatu	sõltumatu sõltumatud sõltumatult sõltumatust sõltumatute sõltumatut sõltumatuks sõltumatuid sõltumatul
+83	4883	reserveerima	reserveeritud reserveerisin reserveerida reserveeris reserveerinud reserveeri reserveerin reserveerisid reserveerisime reserveerima
+84	4884	subjekt	subjekt subjekti subjektid subjektile subjektide subjektiga subjektiks subjekte subjektil
+85	4885	puding	puding pudingut pudingit pudingu pudinguga pudingi pudingid pudinguks pudingud
+86	4886	vanglaülem	vanglaülem vanglaülema vanglaülemaga vanglaülemale vanglaülemat vanglaülemal
+87	4887	litsents	litsentsi litsents litsentsiga litsentsist litsentside litsentse
+88	4888	sülearvuti	sülearvuti sülearvutit sülearvutiga sülearvutid sülearvutis sülearvutist sülearvutisse sülearvutil sülearvuteid sülearvutile
+89	4889	nussima	nussida nussi nussib nussima nussin nussid nussinud nussivad nussisin nussis nussitakse nussime nussitud nussige nussite nussisid nussiks
+90	4890	vaigistama	vaigistada vaigista vaigistama vaigistab vaigistage vaigistan vaigistas vaigistatud vaigistame vaigistasid vaigistavad vaigistanud vaigistaks vaigistati vaigistasin
+91	4891	võrduma	võrdub võrduks võrdu võrduma võrduvad võrdus
+92	4892	taksojuht	taksojuht taksojuhi taksojuhid taksojuhti taksojuhile taksojuhiks taksojuhiga taksojuhist taksojuhina taksojuhil
+93	4893	erimeelsus	erimeelsused erimeelsusi erimeelsustest erimeelsus erimeelsustele erimeelsuste
+94	4894	linnaosa	linnaosa linnaosas linnaossa linnaosast linnaosades linnaosad linnaosasse
+95	4895	ahah	ahah
+96	4896	pühadus	pühadus pühaduse pühadust pühadusele pühaduselt pühadusega pühadusest pühadusse
+97	4897	tagurdama	tagurda tagurdada tagurdan tagurdage tagurdab tagurdama tagurdame tagurdas tagurdasin tagurdasid tagurdad
+98	4898	ettekääne	ettekääne ettekäänet ettekäändeks ettekäändeid ettekäändel ettekäändena ettekäändega ettekäänded
+99	4899	lori	lori loriga loril lorile
+100	4900	memm	memm memme memmega memmel

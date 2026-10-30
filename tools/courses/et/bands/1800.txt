@@ -1,0 +1,100 @@
+1	1701	esmaspäev	esmaspäeval esmaspäeva esmaspäev esmaspäevaks esmaspäevani esmaspäevast esmaspäevi esmaspäevad esmaspäevale
+2	1702	purustama	purustada purustas purustab purustasid purustan purusta purustama purustame purustanud purustad purustasin purustavad purustati purustades purustatakse purustage purustaks purustasite purustasime purustamas purustate purustavat purustaksin purustamata purustaksid
+3	1703	uhkus	uhkust uhkus uhkusega uhkuse uhkusest uhkuses uhkuseks uhkusele uhkusel
+4	1704	panus	panused panuse panus panust panuseid panustega panuste panuseks panusega panustele panusele panusest panustest panustel
+5	1705	kinkima	kinkis kinkida kingin kinkisin kingib kingitud kinkinud kingiti kinkima kingime kingi kingivad kingitakse kingid kinkisite kingite kinkisid kinkisime kinkige kingiksin kingiksid kinkigu kingiks kinkides
+6	1706	avanema	avaneb avane avanes avanevad avanenud avanesid avanema avaneks avaneda avanedes avaneksid avanemas avanev avanevat
+7	1707	ausus	ausus ausust aususe aususest aususes aususega aususele ausused aususel aususesse aususeks
+8	1708	pingutama	pinguta pingutama pingutada pingutasin pingutad pingutanud pingutan pingutage pingutab pingutas pingutasid pingutame pingutatud pingutavad pingutaks pingutasime pingutate pingutaksid pingutasite pingutades pingutamata pingutamas pingutaksin
+9	1709	kutse	kutse kutset kutsed kutsele kutseid kutsel kutsetega kutsega kutsest kutseta kutsetele kutsete kutseks
+10	1710	hääletama	hääletada hääletame hääletan hääletama hääletage hääletasin hääletavad hääletasid hääletanud hääletas hääletab hääletasime hääletaks hääletate hääletad hääletati hääletaksid hääletasite hääletades hääletatakse hääletamas hääletaksin hääletatud hääleta hääletata hääletaksime hääletamast
+11	1711	liialt	liialt
+12	1712	ajastu	ajastus ajastu ajastul ajastust ajastusse ajastut ajastute ajastule ajastuid ajastuks ajastutest
+13	1713	väärtus	väärtust väärtus väärtuses väärtused väärtuse väärtusega väärtusi väärtusest väärtuste väärtuseks väärtustest väärtustega väärtuseid väärtustele väärtusele
+14	1714	kanal	kanal kanali kanalit kanalil kanaleid kanalid kanalile kanalite kanalis kanalilt kanalist kanalisse kanalitel kanalitest kanalites kanaliga kanalitele kanaliks kanalitelt kanalitega
+15	1715	kostüüm	kostüümi kostüüm kostüümid kostüümis kostüüme kostüümiga kostüümides kostüümide kostüümidega kostüümist kostüümile kostüümidest kostüümita kostüümidesse kostüümiks kostüümidele
+16	1716	usaldus	usalduse usaldust usaldus usaldusest usalduses usaldusega usaldusel usaldusele usalduseta usaldusse usalduseks
+17	1717	pinge	pinge pinges pinget pingeid pinged pingega pingesse pingest pingele pingete pingetest pingeta
+18	1718	inimkond	inimkonna inimkond inimkonda inimkonnale inimkonnast inimkonnal inimkonnaga inimkonnas
+19	1719	britt	briti britid britt brittide britte brittidele britti brittidel brittidega brittidelt brittidest britile britist
+20	1720	lehm	lehm lehma lehmad lehmi lehmade lehmaga lehmadele lehmale lehmadega lehmadest lehmal lehmast lehmadel lehmaks lehmani lehmasid lehmalt lehmadelt
+21	1721	joonistama	joonistada joonistas joonistasin joonista joonistan joonistasid joonistad joonistatud joonistama joonistab joonistanud joonistame joonistavad joonistate joonistage joonistasime joonistades joonistaks joonistaksin joonistaksid joonistamas joonistasite
+22	1722	vot	vot
+23	1723	koobas	koopas koopasse koobas koopa koopast koobastes koopad koobastesse koobast koobaste koopaid koobastest koopani koopaks
+24	1724	reetur	reetur reeturid reeturi reeturiks reetureid reeturit reeturist reeturite reeturitega reeturitele reeturitest reeturile reeturina reeturiga reeturiteks reeturitena reeturil
+25	1725	laine	laine lained laineid lainel lainete lainet lainele lainetel lainetena lainega lainetesse lainetes lainetega lainetest laines lainest lainena lainetele lainesse laineks lainelt
+26	1726	ilmselgelt	ilmselgelt
+27	1727	poisu	poisu poisud poisut poisule poisul poisuga poisuks
+28	1728	juhataja	juhataja juhatajaga juhatajat juhatajaks juhatajale juhatajana juhatajad juhatajal juhatajalt juhatajate juhatajast
+29	1729	kodanik	kodanik kodanikud kodanike kodanikke kodaniku kodanikele kodanikku kodanikuks kodanikel kodanikuna kodanikul kodanikule kodanikuga kodanikeks kodanikega kodanikest kodanikena kodanikelt kodanikult
+30	1730	romantiline	romantiline romantilist romantilise romantilisem romantiliselt romantilised romantilises romantilisi romantiliseks romantilisele romantiliste romantilisest romantilisse romantilisel romantilistest romantilistele romantilisena
+31	1731	nukk	nukk nuku nukud nukku nukke nukkudega nukuga nukid nukkude nukust nukul nukkudest nukuks nukule nukkudele nukki nukkidega nuka nukkudel nukuna nuki
+32	1732	pühkima	pühkida pühib pühin pühitud pühkis pühkima pühitakse pühkige pühime pühkisid pühkisin pühid pühkinud pühivad pühiti pühkides pühkisime pühiksin pühiksid pühi pühite pühkimata pühkimas pühkisite pühiks
+33	1733	taastama	taastada taastatud taastama taastab taastame taastan taastanud taasta taastas taastatakse taastavad taastasin taastaks taastad taastasime taastage taastati taastasid taastamas taastav taastasite taastamaks taastaksid taastata taastades taastaksite taastate
+34	1734	järsku	järsku
+35	1735	viisakas	viisakas viisakalt viisakad viisakam viisaka viisakat viisakaks viisakal viisakaid viisakana viisakate
+36	1736	sõdalane	sõdalane sõdalased sõdalase sõdalasi sõdalaste sõdalast sõdalastega sõdalaseks sõdalastest sõdalasele sõdalastele sõdalasest sõdalasega sõdalastel sõdalasteks sõdalasena sõdalastena sõdalasel
+37	1737	teenistus	teenistuses teenistusse teenistus teenistuse teenistusest teenistust teenistuseks teenistusele teenistusel teenistusega teenistuste teenistusi
+38	1738	säilitama	säilitada säilitage säilitama säilita säilitab säilitame säilitanud säilitan säilitas säilitades säilitasid säilitavad säilitad säilitatud säilitatakse säilitasin säilitaks säilitamaks säilitate säilitasime säilitati säilitaksid säilitaksin
+39	1739	otsekohe	otsekohe
+40	1740	ühiskond	ühiskonna ühiskond ühiskonnas ühiskonda ühiskonnale ühiskonnast ühiskonnaga ühiskonnal ühiskonnad ühiskondades ühiskondade ühiskonnaks ühiskonnana ühiskondi ühiskonnalt
+41	1741	teadus	teadus teaduse teadust teaduses teadusele teadusest teadusega teaduste teadusel teadusesse teaduseks teadusse teadused
+42	1742	kurjus	kurjus kurjuse kurjust kurjusega kurjusest kurjusele kurjusel kurjuseks kurjuses kurjusesse
+43	1743	mujal	mujal mujalgi
+44	1744	hai	hai hais haid hail haisid haide haidega haidele haidest haiga haidel haile haist
+45	1745	tume	tume tumedad tumeda tumedat tumedate tumedam tumedaid tumedast tumedas tumedaks tumedale tumedamad tumedal tumedamaks tumedatest tumedates tumedasse tumedatel tumedana tumedalt
+46	1746	õnnitlema	õnnitlen õnnitleda õnnitleme õnnitlema õnnitle õnnitleb õnnitles õnnitlenud õnnitlege õnnitlevad õnnitlesin õnnitleks õnnitlesid
+47	1747	lähedalt	lähemalt lähedalt
+48	1748	viski	viskit viski viskiga viskist viskile viskis viskisse
+49	1749	pühapäev	pühapäeval pühapäev pühapäeva pühapäevaks pühapäevani pühapäevast pühapäevad pühapäevi pühapäevaga pühapäevadel
+50	1750	madu	madu mao maod madusid madude maos maoga madudega maole maost madudest maol madudel maoks maolt madudele mattu
+51	1751	kink	kink kingi kingid kinke kinkisid kingiga kinkide kinki kingiks kinkidega kingita kinkidest kinkides kingile kingist kingis kingina kingil
+52	1752	summa	summa summat summast summasid summaga summad summas summadest summade summale summaks summadega
+53	1753	surnukeha	surnukeha surnukehad surnukehi surnukehast surnukehasid surnukehaga surnukehade surnukehalt surnukehadest surnukehale surnukehadega surnukehal surnukehata
+54	1754	omaenese	omaenda omaenese omaeneste
+55	1755	seesama	seesama sedasama sellesama needsamad selsamal sellessamas neidsamu sellesamaga nendesamade sellestsamast
+56	1756	õiglus	õiglus õigluse õiglust õiglusest õigluses õiglusesse õiglusega õiglusele õiglusel õigluseks
+57	1757	õieti	õieti
+58	1758	põlv	põlve põlved põlv põlvedele põlvi põlvele põlvede põlvest põlvega põlvini põlvedel põlvel põlvedega põlvedest põlvist põlves põlvedes põlvedesse põlveni põlvelt
+59	1759	vast	vast
+60	1760	sügavalt	sügavalt sügavamalt
+61	1761	lõug	lõuad lõug lõuga lõugu lõua lõugade lõual lõuaga lõugadega lõuast lõuani lõuas lõugasid lõuale
+62	1762	hoiatus	hoiatus hoiatuse hoiatuseks hoiatust hoiatusega hoiatusi hoiatuseta hoiatused hoiatusest hoiatustest hoiatusena hoiatusele hoiatustega hoiatustele
+63	1763	lõhnama	lõhnab lõhnavad lõhnan lõhna lõhnama lõhnatu lõhnav lõhnad lõhnate lõhnates lõhnavat lõhnanud lõhnas lõhnaksid lõhname lõhnasid lõhnaks lõhnata
+64	1764	lina	linna lina linad linus linade linu linasid linadega linast linaga linadel linale linasse linadesse linal linadest linust linas linadele
+65	1765	lapsuke	lapsuke lapsukesed lapsukese lapsukest lapsukesi lapsukesel lapsukesega lapsukesest lapsukestele lapsukesele lapsukestega lapsukeste
+66	1766	müür	müüri müür müüride müürid müüre müürist müürile müüril müüridele müüris müüriga müüridel müüridest müürilt müürini müürisid müüridelt müüridega müüriks
+67	1767	reageerima	reageerib reageeri reageeris reageerivad reageerid reageerida reageerima reageerinud reageerisin reageerin reageerisid reageeriks reageerime reageerite reageeriksid reageerisite reageeriksin reageerivat reageeriv reageerige reageerides reageeritakse
+68	1768	turvalisus	turvalisuse turvalisus turvalisust turvalisusega turvalisusest turvalisusele turvalisuses turvalisuseks turvalisusel turvalisusesse
+69	1769	post	posti post postiga postile postil postist postilt postis postidele postid poste postita postide postini postidelt postidel
+70	1770	huul	huuled huuli huultelt huulte huultega huultele huultel huule huul huulil huulilt huult huultest huulde huulel huulega huultesse huules huultes
+71	1771	tunnistus	tunnistuse tunnistus tunnistust tunnistusi tunnistused tunnistusele tunnistuste tunnistuses tunnistusest tunnistusega tunnistusel tunnistuseks tunnistustega tunnistuseta tunnistustele tunnistustes tunnistustest
+72	1772	inspektor	inspektor inspektori inspektorid inspektorile inspektoriga inspektorit inspektoriks inspektoreid inspektorite
+73	1773	tulekahju	tulekahju tulekahjus tulekahjust tulekahjud tulekahjusid tulekahjude tulekahjuga tulekahjut tulekahjudest tulekahjule tulekahjudes
+74	1774	hunnik	hunnik hunniku hunnikusse hunnikus hunnikut hunnikute hunnikust hunnikutes hunnikule hunnikuga hunnikuks hunnikud hunnikul
+75	1775	vaade	vaade vaadet vaatega vaated vaate vaateid vaadete vaatest vaadetega vaadetest vaates vaadetele vaadetes vaatele
+76	1776	tegelane	tegelane tegelased tegelase tegelast tegelasi tegelaste tegelastega tegelasega tegelasest tegelastest tegelastele tegelaseks tegelasele tegelasel tegelastel tegelasena tegelasse tegelasteks
+77	1777	kummitus	kummitus kummitused kummitust kummitusi kummituse kummituste kummitusega kummitustega kummitustest kummitustesse kummitusele kummituseks kummitusest kummitusena kummitusel
+78	1778	rääkimine	rääkimine rääkimist rääkimiseks rääkimisest rääkimisel
+79	1779	sõbralik	sõbralik sõbralikud sõbralikult sõbralikku sõbraliku sõbralikum sõbralikke sõbralikuks sõbralike sõbralikus sõbralikust sõbralikuna sõbralikes sõbralikule sõbralikumaks sõbralikul
+80	1780	kuiv	kuiv kuiva kuivaks kuival kuivad kuivale kuivata kuivas kuivalt kuivana kuivi kuivem kuivasid kuivast kuivades kuivade
+81	1781	turg	turul turule turg turu turult turgu turud turgudel turust turgude turuga turge turgudele turus
+82	1782	kollane	kollane kollase kollast kollased kollases kollaste kollaseid kollaseks kollasest kollasele kollastest kollasega kollasesse kollastel kollasel kollastes
+83	1783	imestama	imestan imesta imestama imestad imestasin imestada imestaks imestate imestab imestanud imestavad imestas imestasid imestades imestame imestasime imestage imestaksid imestaksin
+84	1784	stopp	stopp
+85	1785	valutama	valutab valutama valutavad valutas valutanud valutav valutaks valutasid valutava valutada valutavat valutan valuta
+86	1786	söötma	sööda sööta söödab söödan söötma söötis söödad söötsid söödame söötsin söötnud söödetakse söödavad söödetud söötke söödeti söötsime söödate söödaksin söötes söödaksid söötmas söödaks
+87	1787	kõrb	kõrbes kõrbe kõrb kõrbesse kõrbest kõrveta kõrbed kõrbeks kõrbet kõrbete kõrbetes kõrbesid kõrbeid kõrbetest kõrbega
+88	1788	kallale	kallale
+89	1789	talu	talu talus talud taluks talust tallu talusid taluta talusse taludes taludest taluni
+90	1790	keskmine	keskmine keskmise keskmist keskmiselt keskmised keskmisest keskmises keskmisel keskmiseks keskmiste keskmisele keskmisega keskmisi
+91	1791	needus	needus needuse needust needusest needuseks needusega needused needustesse needuste needusele needusi needustest needusesse
+92	1792	lift	lifti lift liftis liftiga liftid liftist liftide lifte liftini liftile liftides liftidest liftidega
+93	1793	filmima	filmida filmima filmime filmitud filmin filmib filminud filmiti filmitakse filmisin filmisime filmivad filmige filmimas filmite filmisite filmiksin
+94	1794	heli	heli helid helisid helina heliga helide helist helile heliks helidega helis helidest helidele helli
+95	1795	ajakiri	ajakirja ajakiri ajakirjas ajakirjast ajakirjad ajakirju ajakirjades ajakirjale ajakirjade ajakirjadest ajakirjaga ajakirjadele ajakirjadega ajakirjal
+96	1796	kindlus	kindlus kindluse kindlust kindluses kindlusesse kindlusest kindlusega kindlusse kindlused kindlusele kindluste kindluseks kindlusel kindlusi kindluseni kindlustes kindlustest
+97	1797	keskel	keskel
+98	1798	tegija	tegija tegijad tegijat tegijaid tegijaks tegijate tegijana tegijale tegijatele tegijal tegijatest tegijaga tegijatega tegijast tegijatel tegijateks tegijatelt
+99	1799	neelama	neelas neela neelata neelab neelasin neelasid neelanud neelama neelavad neelan neelad neelaks neelatud neelake neelatakse neelates neelame neelati neelasite neelamas neelate neelaksid
+100	1800	ohverdama	ohverdama ohverdada ohverdas ohverdanud ohverdasid ohverda ohverdan ohverdaks ohverdame ohverdad ohverdab ohverdasin ohverdatakse ohverdati ohverdades ohverdavad ohverdatud ohverdaksid ohverdatav ohverdaksin ohverdasime ohverdate ohverdamas ohverdage ohverdasite

@@ -1,0 +1,100 @@
+1	6501	küüniline	küüniline küüniliseks küünilised küünilise küüniliselt küünilist
+2	6502	kannatlikkus	kannatlikkust kannatlikkus kannatlikkusega
+3	6503	kõndimine	kõndimine kõndimist
+4	6504	jõuetu	jõuetu jõuetud jõuetuks jõuetuna jõuetust jõuetult
+5	6505	vaha	vaha vahast vahata vahaga
+6	6506	mahutama	mahutada mahutab mahutame mahutavad mahutatud mahutama mahutad mahutan
+7	6507	irv	irv irve irvet irvega
+8	6508	küpsema	küpsenud küpseb küpsevad küpsema küpsemas küpseda küpsemaks küpsen küpseme
+9	6509	eputama	eputada eputab eputad eputa eputama eputavad eputasid eputav eputas eputanud eputan
+10	6510	seitseteist	seitseteist seitsmeteistkümne seitsmeteist seitsmeteistkümnes
+11	6511	tallama	talla tallatud tallata tallanud tallab tallavad tallad tallama tallan tallatakse tallate tallati tallasid tallas tallaks
+12	6512	järelevalve	järelevalve järelevalveta järelevalvet
+13	6513	muhk	muhk muhku muhud muhke muhkude
+14	6514	raadiojaam	raadiojaam raadiojaama raadiojaamad raadiojaamas raadiojaamast raadiojaamaga raadiojaamu raadiojaamade
+15	6515	üleannetu	üleannetu üleannetud üleannetute
+16	6516	asjalik	asjalik asjalikku asjalikud asjaliku asjalikke
+17	6517	kommunikatsioon	kommunikatsiooni kommunikatsioon kommunikatsioonid
+18	6518	kutsung	kutsung kutsungi kutsungit kutsungile kutsungitele kutsungid
+19	6519	mustus	mustus mustust mustuse mustusest mustusega mustuses
+20	6520	ling	ling lingu linge
+21	6521	visioon	visioon visiooni visioonid visioonist visiooniga visioone visioonide
+22	6522	töömees	töömees töömehed töömehe töömeest töömehi töömeeste töömehele
+23	6523	parkimisplats	parkimisplatsil parkimisplatsile parkimisplats parkimisplatsi parkimisplatsilt
+24	6524	kontinent	kontinendi kontinendil kontinent kontinenti kontinendile kontinentide kontinente kontinendid kontinendilt kontinendist
+25	6525	õemees	õemees õemehe õemeest õemehega õemehele õemehel
+26	6526	vastumeelne	vastumeelne vastumeelselt vastumeelsed vastumeelseks vastumeelse
+27	6527	sügama	sügada süga sügan sügab sügad sügama sügas sügasid süganud sügades
+28	6528	kutsumine	kutsumine kutsumise kutsumisega
+29	6529	salvrätt	salvrätte salvrätti salvrätid salvrätt salvräti salvrätile salvrätiga
+30	6530	lahja	lahja lahjat lahjaks lahjad lahjem lahjalt
+31	6531	tegevjuht	tegevjuht tegevjuhi tegevjuhti tegevjuhiks tegevjuhina tegevjuhid
+32	6532	tagaruum	tagaruumis tagaruumi tagaruum tagaruumist tagaruumides
+33	6533	kapital	kapitali kapital kapitalist kapitalistid kapitalistide kapitaliga
+34	6534	politseiauto	politseiauto politseiautot politseiautos politseiautoga politseiautod politseiautosse politseiautosid
+35	6535	smoking	smokingu smokingut smokingus smokingi smokingit smokingud smokingis smokingutes
+36	6536	realistlik	realistlik realistlikud realistlikult realistlikuks realistliku realistlikku
+37	6537	elimineerima	elimineerida elimineerima elimineeritud elimineerib elimineerime elimineerinud elimineeri elimineeritakse elimineerisime elimineerin elimineerivad elimineeris elimineerige elimineerisid
+38	6538	arutamine	arutamiseks arutamist arutamisele arutamine arutamise arutamisel arutamisest
+39	6539	võidukas	võidukas võidukalt võidukad võiduka võidukat võidukana võidukaks
+40	6540	võimendama	võimendada võimendab võimendatud võimendas võimenda võimendan võimendama võimendavad võimendav võimendad
+41	6541	nõndaks	nõndaks
+42	6542	poolenisti	poolenisti
+43	6543	pläru	pläru plärusid plärud pläruks
+44	6544	pühalik	pühalikult pühalik pühaliku pühalikku
+45	6545	omavaheline	omavaheline omavahelise omavahelist omavahelised omavahelisi omavahelises omavahelistest omavaheliste
+46	6546	niiskus	niiskus niiskust niiskuse niiskusest niiskusega niiskuses niiskusele
+47	6547	kriit	kriit kriiti kriidi kriidid kriidiga kriite kriidist
+48	6548	andestamatu	andestamatu andestamatut andestamatud andestamatuid andestamatult
+49	6549	läbisõit	läbisõidul läbisõit läbisõidu läbisõitu läbisõiduga
+50	6550	erapooletu	erapooletu erapooletuks erapooletud erapooletult erapooletut erapooletus erapooletust
+51	6551	apokalüpsis	apokalüpsis apokalüpsise apokalüpsist apokalüpsisest apokalüpsises apokalüpsisesse
+52	6552	esikaas	esikaanel esikaanele esikaane esikaas esikaant esikaantel esikaanega
+53	6553	kõhklus	kõhklusi kõhkluseta kõhklused kõhklust kõhklusteta kõhklus kõhklustest kõhkluse
+54	6554	lennuõnnetus	lennuõnnetus lennuõnnetuses lennuõnnetuse lennuõnnetust lennuõnnetusest lennuõnnetusega lennuõnnetusi lennuõnnetusel
+55	6555	esmaabi	esmaabi esmaabisse esmaabis esmaabist
+56	6556	piilu	piilu piilus
+57	6557	romu	romu romuga romus romud romuks romust
+58	6558	tolmuimeja	tolmuimeja tolmuimejaga tolmuimejat tolmuimejaid tolmuimejasse tolmuimejad tolmuimejate
+59	6559	pagasnik	pagasnikus pagasnikusse pagasnik pagasnikust pagasniku
+60	6560	meeskonnaliige	meeskonnaliige meeskonnaliiget meeskonnaliikmed meeskonnaliikme meeskonnaliikmeid meeskonnaliikmete meeskonnaliikmetest meeskonnaliikmega
+61	6561	lüke	lüke lükke lüket
+62	6562	lävi	lävel läve lävele lävi
+63	6563	üürnik	üürnik üürnikud üürniku üürnike üürnikke üürnikku üürnikega
+64	6564	makaron	makaronid makarone makaroni makaron makaronide makaronidest
+65	6565	trupp	trupp truppi trupi trupiga trupis trupist trupile trupid
+66	6566	nämma	nämma nämmad nämmat nämmasid
+67	6567	viissada	viissada viiesaja
+68	6568	rätsep	rätsep rätsepa rätsepad rätsepale rätsepalt rätsepat
+69	6569	paneel	paneel paneeli paneelil paneele paneelile paneeliga paneelide
+70	6570	tuvastamine	tuvastamiseks tuvastamine tuvastamise tuvastamisega tuvastamisel tuvastamisele
+71	6571	päevakord	päevakorras päevakorda päevakorra päevakord päevakorrast päevakorral
+72	6572	veidrus	veidrusi veidruste veidrused veidrus veidrustega veidruse veidrust veidrustest veidrusega
+73	6573	mänedžer	mänedžer mänedžeri mänedžerile mänedžeriga mänedžeriks mänedžerid
+74	6574	korrektne	korrektne korrektselt korrektsed korrektse
+75	6575	rikkalik	rikkalik rikkaliku rikkalikku rikkalikud rikkalike rikkalikust rikkalikule
+76	6576	jäädvustama	jäädvustada jäädvustatud jäädvustas jäädvustatakse jäädvustama jäädvustanud jäädvustan jäädvusta jäädvustab jäädvustame jäädvustavad jäädvustasid jäädvustaks
+77	6577	lekitama	lekitas lekitab lekitada lekitasid lekitanud lekitame lekitasin lekitati lekitad lekitatud lekitama lekitan
+78	6578	vingerdama	vingerdada vingerda vingerdab vingerdama vingerdavad vingerdad vingerdamas vingerdas vingerdame vingerdav vingerdan vingerdasid vingerdades
+79	6579	keskpärane	keskpärane keskpärased keskpärase keskpäraseks keskpäraste keskpäraselt keskpäraseid
+80	6580	peapiiskop	peapiiskop peapiiskopi peapiiskopiks peapiiskopile peapiiskoppi peapiiskopiga
+81	6581	rutiinne	rutiinne rutiinse rutiinset rutiinsed rutiinsel rutiinselt rutiinseid rutiinses rutiinsete
+82	6582	telesaade	telesaade telesaates telesaate telesaadet telesaateid telesaatest telesaatesse telesaated telesaadete telesaadetest
+83	6583	sinnani	sinnani
+84	6584	sümboliseerima	sümboliseerib sümboliseerivad sümboliseeris sümboliseerida sümboliseerimaks sümboliseerima
+85	6585	konsultant	konsultant konsultandina konsultandi konsultandiks konsultandid konsultandiga konsultanti konsultante
+86	6586	lakk	lakka lakku lakk lakki lakaga laka lakas
+87	6587	lennukikandja	lennukikandja lennukikandjat lennukikandjad lennukikandjalt lennukikandjate lennukikandjal lennukikandjale lennukikandjaid
+88	6588	kavand	kavandid kavand kavandi kavandeid kavandit kavandite kavandis kavanditest
+89	6589	närvitsema	närvitse närvitseda närvitsed närvitseb närvitsege närvitsema närvitsen närvitsete närvitsesin närvitsevad
+90	6590	riigisekretär	riigisekretär riigisekretäri
+91	6591	viljakas	viljakas viljaka viljakad viljakat viljakaks viljakam viljakast
+92	6592	korea	koreas koreast koreasse koread koreale
+93	6593	vaatamisväärsus	vaatamisväärsusi vaatamisväärsustega vaatamisväärsus vaatamisväärsused vaatamisväärsuste
+94	6594	ekstreemne	ekstreemne ekstreemselt ekstreemsed ekstreemset ekstreemseid ekstreemse ekstreemsetes ekstreemsete ekstreemseks ekstreemsesse
+95	6595	visand	visand visandid visandeid visandi visandit visandiga
+96	6596	katoliku	katoliku
+97	6597	kiki	kiki
+98	6598	neljakesi	neljakesi
+99	6599	ora	ora orad oraga
+100	6600	bande	bande bandega bandet bandest bandes bandesse

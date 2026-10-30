@@ -1,0 +1,100 @@
+1	8401	kesköine	kesköine kesköise kesköised kesköisele kesköisel kesköiseid kesköisest kesköises
+2	8402	stimuleerima	stimuleerib stimuleerida stimuleeriv stimuleerivad stimuleerides stimuleeri stimuleeritud stimuleerima
+3	8403	vaakum	vaakumis vaakum vaakumi vaakumit vaakumisse vaakumiga
+4	8404	painduma	paindub paindu paindunud painduma paindus painduda paindud painduvat paindun
+5	8405	riidlema	riielda riidlema riidle riidlesime riidlesid riidlevad riidlesite riidleme riidles riielge riidled
+6	8406	kurask	kurask
+7	8407	sipsik	sipsik
+8	8408	ülalt	ülalt
+9	8409	ühinemine	ühinemine ühinemiseks
+10	8410	maiuspala	maiuspala maiuspalad maiuspalu
+11	8411	söögiaeg	söögiaeg söögiajaks söögiajal
+12	8412	kirikuõpetaja	kirikuõpetaja kirikuõpetajaga kirikuõpetajale kirikuõpetajat kirikuõpetajaks
+13	8413	kättemaksuhimuline	kättemaksuhimuline kättemaksuhimulise kättemaksuhimulised kättemaksuhimuliseks
+14	8414	navigatsioon	navigatsiooni navigatsioon
+15	8415	arbuus	arbuusi arbuus arbuusid arbuuse
+16	8416	mürgitus	mürgituse mürgitus mürgitusest mürgitusega
+17	8417	sisering	siseringi siseringis siseringist sisering
+18	8418	hälve	hälve hälbega hälbeid hälvet hälbe hälbed
+19	8419	protsessor	protsessor protsessori protsessorit protsessorid protsessoriga protsessorisse
+20	8420	heategevusüritus	heategevusüritus heategevusüritusele heategevusüritusel heategevusürituse heategevusüritust heategevusüritused
+21	8421	räppar	räppar räpparid räpparite räppariks räppareid
+22	8422	näksima	näksida näksib näksin näksime näksima näksige
+23	8423	pudenema	pudeneb pudenes pudenevad pudenenud pudeneda pudenesid pudenema
+24	8424	kreml	kremli kreml kremlis kremlist kremliga kremlisse kremlit
+25	8425	tõrkuma	tõrgub tõrkus tõrkuma tõrguvad tõrgu tõrkuv tõrgud
+26	8426	toom	toomist toom toome
+27	8427	kaaviar	kaaviar kaaviari
+28	8428	rassism	rassism rassismi rassismist rassismiga rassismis
+29	8429	süvakosmos	süvakosmos süvakosmose süvakosmosesse süvakosmoses süvakosmosest
+30	8430	antikeha	antikehad antikehi antikehade antikehasid antikeha antikehadest
+31	8431	ühenduma	ühenduda ühendub ühendu ühenduma ühendunud ühendume ühenduvad ühendun ühendusin
+32	8432	kurameerima	kurameerida kurameeris kurameerib kurameerima kurameerinud kurameerivad kurameeri kurameerid kurameerisime kurameerite kurameerisid kurameerin
+33	8433	najal	najal
+34	8434	seejuures	seejuures
+35	8435	sihin	sihin
+36	8436	tasuja	tasuja tasujat
+37	8437	inventuur	inventuuri inventuur
+38	8438	paprika	paprika paprikat paprikaga
+39	8439	välisminister	välisminister välisministri välisministriga
+40	8440	peavõit	peavõit peavõidu peavõitu
+41	8441	vanatüdruk	vanatüdruk vanatüdrukuks vanatüdruku vanatüdrukuna vanatüdrukust
+42	8442	paistetus	paistetus paistetuse paistetust
+43	8443	nägija	nägija nägijaks nägijad nägijaid nägijat
+44	8444	armastuslugu	armastuslugu armastuslood armastuslugusid armastusloo
+45	8445	eritama	eritab eritavad eritama eritada
+46	8446	toiduahel	toiduahela toiduahelas toiduahel toiduahelat
+47	8447	vahetamine	vahetamine vahetamise vahetamisest vahetamisele
+48	8448	lisanduma	lisandub lisandunud lisandus lisanduvad
+49	8449	laguun	laguuni laguun laguunis laguunid laguunist laguunile
+50	8450	tuuleklaas	tuuleklaasi tuuleklaas tuuleklaasil tuuleklaasile tuuleklaasilt
+51	8451	peegelpilt	peegelpilt peegelpilti peegelpildis peegelpildi
+52	8452	algatus	algatusel algatus algatust algatuse
+53	8453	marmor	marmorist marmor marmorit marmori
+54	8454	punuma	punuma punutud punuda punume punub punuvad
+55	8455	omandus	omanduses omandus omandust omanduse omandusse
+56	8456	madin	madinaks madinat madin madina madinast
+57	8457	toksiin	toksiini toksiine toksiin toksiinid toksiinide
+58	8458	reostama	reostatud reostavad reostada reostab reostanud reostad reostas reostama reostatakse reosta reostasid
+59	8459	karjane	karjane karjase karjased
+60	8460	sohver	sohver sohvri sohvriks sohvriga sohvrit
+61	8461	mõjuv	mõjuv mõjuva
+62	8462	peasekretär	peasekretär peasekretäri peasekretäriga
+63	8463	eksperimentaalne	eksperimentaalne eksperimentaalset eksperimentaalse eksperimentaalseid eksperimentaalsed
+64	8464	väristama	värista väristage väristada väristab väristan väristas
+65	8465	väeosa	väeosa väeosad väeosas väeossa väeosast väeosade
+66	8466	viiekas	viiekas viieka viiekat
+67	8467	inimsööja	inimsööja inimsööjad inimsööjate inimsööjatest inimsööjast inimsööjaid
+68	8468	sandaal	sandaalid sandaale sandaalidega sandaalides sandaal sandaalide sandaali
+69	8469	lee	leega leele leel leest leelt
+70	8470	kae	kae
+71	8471	kirevane	kirevase
+72	8472	aidaa	aidaa
+73	8473	möga	möga
+74	8474	vabalt	vabamalt
+75	8475	asjake	asjake
+76	8476	õigekiri	õigekirja õigekiri õigekirjas
+77	8477	jahtimine	jahtimine jahtimiseks
+78	8478	selgitamine	selgitamiseks selgitamine selgitamisel selgitamise
+79	8479	filmitäht	filmitäht filmitähed filmitähe filmitähtede filmitäheks
+80	8480	iseloomulik	iseloomulik iseloomulikud iseloomulikku iseloomuliku iseloomulikke iseloomulikult
+81	8481	pokaal	pokaali pokaal pokaalid pokaale
+82	8482	sõrg	sõrad sõrg sõra sõrgadega sõrgu sõrgade sõraga
+83	8483	elektritool	elektritoolile elektritooli elektritool elektritoolil elektritoolis
+84	8484	kaasus	kaasus kaasuse kaasust kaasusega kaasused
+85	8485	kosmosejaam	kosmosejaama kosmosejaam kosmosejaamas kosmosejaamast
+86	8486	euroliit	euroliidu euroliit euroliitu euroliidus euroliiduga euroliidust euroliidul
+87	8487	konkurss	konkurss konkursi konkursil konkursile konkurssi
+88	8488	riiukukk	riiukukk riiukuked riiukuke riiukukega riiukukest riiukukke
+89	8489	kosk	kosk koske kosed koskede
+90	8490	mammut	mammut mammuti mammutid mammutit mammuteid
+91	8491	pidžaama	pidžaama pidžaamas pidžaamat pidžaamad pidžaamades pidžaamaga pidžaamasid
+92	8492	suuline	suuline suuliselt suulise suulist suulised suulisi suulises
+93	8493	foorum	foorum foorumis foorumi foorumil foorumisse foorumites foorumit foorumile foorumid
+94	8494	protestima	protestima protestida protestivad protestin protestib protestinud protestite protestimas
+95	8495	väliselt	väliselt
+96	8496	kompu	kompu kompud
+97	8497	populaarsem	populaarsem populaarsemaks populaarsemad
+98	8498	terminaator	terminaator terminaatori terminaatorid terminaatorit
+99	8499	vanaeit	vanaeit vanaeide vanaeite
+100	8500	baaridaam	baaridaam baaridaami baaridaamiga

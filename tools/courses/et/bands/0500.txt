@@ -1,0 +1,100 @@
+1	401	üksi	üksi
+2	402	iganes	iganes
+3	403	pere	pere perega peret perele perest peres pered perel perede peresid peredele perre peredega perena peredest perelt pereks peresse peredel peredes pereta peredesse peredelt
+4	404	jutt	jutt juttu jutu jutud jutule jutte jutust jutul jutus jutuga jutuks juttude juttugi jututa juttudest juttudega juttudes jutuna juttudele juttudeks jutiga juttudesse
+5	405	number	number numbri numbrit numbrid numbreid numbrile numbrite numbril numbriga numbritega numbrilt numbritest numbris numbrist numbritele numbrisse numbrites numbriks numbritel numbrita numbrini numbriteta numbritesse
+6	406	tüüp	tüüp tüüpi tüübid tüübi tüübiga tüüpe tüübile tüübil tüübist tüüpidega tüüpidest tüübilt tüüpide tüüpidele tüüpidel tüübiks tüübis tüübina tüüpidelt tüübini
+7	407	pilt	pilt pilti pilte pildi pildid pildil piltide pildile pildiga piltidel pildilt piltidega pildist piltidest piltidelt pildis piltidele piltides pildiks piltideta pildita piltideks piltidesse
+8	408	veidi	veidi veidigi
+9	409	vedama	veab vedas vean vedanud vedada vedasin vedasid veame vedama veavad veeti vedage vedasime veetakse veetud veate vea vedasite vedades vedamas veaksin veaksid vead vedagu veaksime vedav veaksite veaks
+10	410	perekond	perekond perekonna perekonda perekonnast perekonnale perekonnaga perekonnas perekonnad perekondi perekonnal perekondade perekonnaks perekondadele perekonnana perekonnata perekondadest perekonnalt perekondadega perekondades perekondadel perekonnani perekondadelt
+11	411	suhe	suhtes suhe suhted suhet suhte suhteid suhete suhtest suhetest suhetes suhtele suhtega suhtesse suhteks suhetega suhtel suhetele suhetesse suhetel suheteks
+12	412	eile	eile eilegi
+13	413	kapten	kapten kapteni kaptenile kaptenit kapteniks kapteniga kaptenil kaptenid kaptenina kaptenilt kaptenist kaptenite kapteneid kaptenitega kaptenitest kaptenita
+14	414	vihkama	vihkan vihkab vihkad vihkavad vihka vihkasin vihkama vihkas vihkasid vihanud vihkame vihkate vihkaks vihatud vihata vihkaksid vihatakse vihkaksin vihkav vihake vihates vihkasime vihkasite vihkavat vihkamas vihati
+15	415	nõu	nõus nõu nõusse nõusid nõud nõul nõude nõudes nõuks nõudega nõudest nõudel nõuga nõudele nõuta nõule nõust
+16	416	võitlema	võidelda võitlema võitle võitleme võitleb võitlen võitlevad võidelnud võitled võitles võitlesid võitlesin võideldes võitlesime võidelge võitlemas võitlete võitleks võitleksid võitlesite võitlemast võitleksin võideldakse võitlev võitlevat võitleksime võideldud võitlemaks võideldi võitleksite võitlemata võidelgem võidelgu
+17	417	proua	proua prouad prouale prouat prouaga prouaks proual proualt prouast prouata
+18	418	lõpuks	lõpuks
+19	419	pidu	pidu peole peo peol peos peost peod peolt pidusid peoks pidudel peoga pidude pidudele pidudest pittu pidusse pidudega peoni pidudeks
+20	420	armas	armas armsad armsa armsam armast armsat armsaim armsaid armsalt armsamat armsama armsaks armsale armsate armsal armsamad armsast armsas armsamaga armsamaid armsamaks armsamale armsamate armsatele armsatest armsasse armsamalt armsamatest armsamast armsates
+21	421	lendama	lennata lendab lendas lendama lenda lendavad lendame lendan lendasid lendad lennanud lendasin lendav lendamas lennates lendaks lendate lendasime lennake lendava lendavat lendavate lendaksid lendasite lendaksin lendavast lennatakse lendaksime lendavatest lennaku lendaval lendavale lendamast lendavatele lennatud lennanudki lendavaks lendavas lendavalt lennati
+22	422	vait	vait
+23	423	võit	võite võit võidu võitu võidule võidust võidud võiduks võiduni võiduga võidus võitude võitudest võitudega võiduna võiduta võidul võitudele
+24	424	sealt	sealt
+25	425	veri	verd veri vere verest verega veres verre verel verele vereks vereta verena vereni vered
+26	426	aus	aus ausalt ausad ausat ausa ausam ausaks ausaid ausal ausas ausale ausate ausana ausast ausaim ausatele ausasse ausatest
+27	427	mitu	mitu mitmeid mitme mitmed mitut mitmel mitmes mitmete mitmest mitmeks mitmele mitmetes mitmetel mitmetest mitmendat mitmetele mitmendas mitmesse mitmega mitmendal mitmelt mitmeteks mitmelgi mitmendale mitmetesse mitmetelt mitmenda mitmedki
+28	428	luba	luba lubasid loa loata load loal lube lubades loaga lubade lubadega lubadest lubadeta loast loale loani lubadel
+29	429	siduma	seotud seo siduda seob siduma siduge seon sidus seome sidusid sidunud sidusin seovad seod seoks seoti siu siduv seotakse sidusime seotuks seoksid seote sidudes sidusite sidumata siduvad siduvat seotaks seoksin seota sidumast
+30	430	rahunema	rahune rahunege rahuneda rahunema rahuneb rahuneme rahunenud rahuneksid rahuned rahunevad rahuneks rahunen rahunes rahunesin rahunesid rahuneksin rahuneksite rahunegem rahunegu rahunete
+31	431	koer	koer koera koerad koeri koeraga koerte koerale koertega koeral koertele koerast koertest koertel koeraks koeralt koerana koeras koerteks koerata koerade
+32	432	lahe	lahe lahedad lahedat lahedam laheda lahedaid lahedalt lahedaim lahes lahedaks lahedate lahest lahel lahele lahedas lahedana lahedasse lahedast lahedal lahedatest lahedale laheni lahedateks lahedatele lahelt
+33	433	sees	sees
+34	434	paik	paigal paika paigas paik paiku paigale paigast paiga paikades paigad paigaks paikadest paikadesse paigalt paigaga paigus paikade paigana paigust paigata
+35	435	telefon	telefoni telefon telefonile telefonis telefoniga telefonid telefonil telefone telefonist telefonilt telefonide telefonidele telefonidega telefonita telefonini telefonidest telefonidesse telefonides telefonidel telefonideta
+36	436	selg	selga selja seljas seljast selg seljal seljale seljaga seljad seljalt selgi selgasid selgade
+37	437	valetama	valetad valetasid valetab valetas valetada valetasin valetanud valetama valetan valetavad valetaks valetate valeta valetasite valetaksin valetav valetame valetage valetades valetasime valetatakse valetatud valetaksid valetati valetamast valetata valetamas valetavat valetamata valetaksime valetataks
+38	438	armastus	armastus armastust armastuse armastusest armastusega armastuses armastusele armastusse armastuseta armastuseks armastusel armastused armastusena
+39	439	vähe	vähem vähe vähemaks vähemat vähema väheks vähemaga vähematki vähest vähemal vähemagi vähemate vähemast vähemad
+40	440	raamat	raamat raamatu raamatut raamatuid raamatud raamatus raamatust raamatute raamatusse raamatutest raamatuga raamatutes raamatutega raamatule raamatutesse raamatul raamatutele raamatuks raamatuta raamatutel raamatuist raamatuna raamatuis
+41	441	ringi	ringi
+42	442	meeldiv	meeldiv meeldivad meeldivat meeldivalt meeldiva meeldivam meeldivaks meeldivaid meeldivamaks meeldivast meeldivas meeldivate meeldivale meeldivamaid meeldival meeldivana meeldivasse meeldivatest
+43	443	tõusma	tõuse tõuseb tõusta tõuske tõusis tõusnud tõusma tõusevad tõusen tõuseme tõusid tõusin tõused tõusmas tõuseks tõusev tõustes tõusva tõuseksid tõusime tõusete tõusvat tõusku tõusite tõuskem tõusvaid tõusvas tõuseksite tõustakse tõusnudki tõuseksin tõusmast tõusmata tõuseksime
+44	444	puhas	puhas puhtaks puhtalt puhta puhtad puhast puhtana puhtast puhtaid puhtam puhaste puhtas puhtasse puhtale puhtamaks puhtal puhastest puhastes
+45	445	kuus	kuus kuue kuues kuut kuueks kuuest kuude kuute kuuele kuuel kuueni kuuega kuudis kuued kuuti kuudist kuuelt kuudi kuusi
+46	446	uudis	uudiseid uudis uudised uudistes uudist uudiste uudistest uudise uudistega uudistesse uudiseks uudistele uudisega uudisest uudisteks uudisele uudisena uudises uudisteta
+47	447	jätkama	jätka jätkata jätkame jätkake jätkab jätkan jätkama jätkad jätkavad jätkas jätkate jätkaks jätkasid jätkasin jätkasime jätkates jätkanud jätkaksime jätkaksid jätkaksin jätkaksite jätkakem jätkatakse jätkasite jätkamaks jätkamas
+48	448	varastama	varastas varastatud varastasid varastada varastanud varastasin varastati varastab varastama varasta varastad varastavad varastan varastame varastasite varastasime varastaks varastatakse varastate varastamas varastades varastaksin varastaksid varastatu varastata varastage varastamast varastataks varastav varastaksime varastaksite varastatut
+49	449	müüma	müüa müüs müüb müü müüma müüdud müün müüsin müüd müünud müüme müüakse müüvad müüte müüdi müüks müüsime müüsite müües müüksin müüge müüda müüdav müüksid müümas müümata müümast müüksite müüdavad müüv müüdaks müüksime müübki müüdava müüdavate
+50	450	suu	suu suhu suust suud suus suuna suuga suule suudeta suuta suul suid suisse suult suude suudega suis
+51	451	täielik	täielikult täielik täieliku täielikku täielikus täielikud täielikuks täielikust täielikule täielikul täielikke täielike
+52	452	must	must musta mustad mustade mustaks mustas musti mustast mustal mustale mustalt mustata mustadele mustem mustadeks mustadest mustades mustadel mustana mustaga mustadega mustadelt mustadesse mustasid
+53	453	hoolima	hooli hoolimata hoolin hoolid hoolib hoolinud hoolivad hoolimatu hoolima hooliks hooliv hoolime hoolida hoolisin hoolis hoolisid hoolite hooliksid hoolimatult hoolivat hoolimatus hoolimatud hooliksin hoolimatust hoolimatuks hoolitakse hoolimatut hoolita hoolisime hoolimast hoolinudki hoolivaid hoolivaks hooliva hoolides hoolimatute hoolitud
+54	454	varsti	varsti
+55	455	dollar	dollarit dollari dollareid dollariga dollarid dollarist dollarile dollarite dollarites dollarini dollaritega dollaritest dollarilt dollariteks dollaril dollaris dollaritesse dollariks dollarisse
+56	456	kukkuma	kukkus kukub kukkunud kukkusid kukkusin kukkuda kuku kukuvad kukud kukun kukume kukkuma kukuks kukkumas kukkudes kukkusime kukute kukkusite kukuksid kukuksin kukkuge kukkumast kukus kukkuv kukkumata kukkugu kukutaks kukutakse kukkuvat
+57	457	sõda	sõda sõja sõjas sõtta sõjast sõjad sõjaks sõdu sõjaga sõjale sõdades sõdade sõjal sõdasid sõdadest sõjani sõjata sõdadega sõdadele
+58	458	tugev	tugev tugevam tugevad tugevamaks tugevalt tugeva tugevaks tugevat tugevamad tugevaid tugevate tugevamat tugevama tugevana tugevamaid tugevamalt tugevast tugevale tugevas tugevamate tugevatele tugeval tugevateks tugevatest tugevasse tugevates tugevamatest tugevatena
+59	459	põrgu	põrgu põrgut põrgusse põrgus põrgust põrguks põrguga põrgule põrgul põrgult põrgud põrguni
+60	460	kiire	kiire kiirelt kiiret kiirem kiired kiireim kiireks kiirest kiiremaks kiireid kiiremas kiiremat kiirema kiirel kiirete kiireima kiirele kiires kiirega kiiremal kiireteks kiiretel
+61	461	mood	moodi moel moe moes mood moest moega moed moele moeks
+62	462	põgenema	põgeneda põgenes põgenema põgene põgenenud põgenesid põgeneb põgenesin põgeneme põgenevad põgened põgenen põgenege põgenesime põgenedes põgeneks põgenemas põgenete põgenesite põgenev põgeneksid põgeneksin põgenemast põgeneksime põgenevat põgeneti põgenetud põgenenu põgenetakse põgeneta põgenevate
+63	463	niimoodi	niimoodi
+64	464	abielluma	abielluda abielluma abiellu abiellun abiellub abiellud abiellus abiellume abiellusin abiellusid abiellunud abiellusime abielluvad abielluks abiellute abielluksid abielludes abielluksin abiellusite abiellumas abielluge abielluksime abielluksite abiellutakse abiellumast abiellumata abielluski
+65	465	hoolitsema	hoolitsen hoolitse hoolitseda hoolitseb hoolitsema hoolitseme hoolitsed hoolitses hoolitsevad hoolitsege hoolitsenud hoolitsesin hoolitsesid hoolitsetakse hoolitseks hoolitsetud hoolitseksid hoolitsete hoolitsedes hoolitseksin hoolitsesime hoolitsesite hoolitsemas hoolitseksite hoolitseti hoolitsetaks hoolitsegu hoolitseta hoolitsemast
+66	466	film	filmi film filmis filme filmid filmist filmides filmide filmile filmiga filmidest filmisid filmil filmiks filmidele filmidega filmita filmidesse filmina filmidel
+67	467	otse	otse otsest otsemaid otseks otsem otses otsemini
+68	468	needma	neetud nean neetute needis neab needa needsid neednud neavad nead needsin neetuid neetus needma neeta neetuna neetu needku neetakse neetut neaks
+69	469	umbes	umbes
+70	470	kuningas	kuningas kuninga kuningat kuningale kuningaks kuningad kuningaga kuningate kuningal kuningast kuningalt kuningana kuningaid kuningatele kuningatest kuningatega kuningatel kuningasse kuningata kuningateks
+71	471	teenima	teeninud teenida teenin teenib teenima teenid teenis teenisin teenisid teenivad teenitud teenime teenite teenisime teeniks teenides teenisite teeniksid teeniksin teenitakse teenige teeniksime teenimas teenimatult teenimatu teenimata teenimast teeniv teenimaks teenivat teeniksite teeniti teenitu teenigu teenidki teenita teeni
+72	472	keerama	keera keerata keerasin keerasid keeras keerab keeran keerad keeranud keerake keerama keerame keeravad keeratud keeraks keerasime keeratakse keerasite keerate keerati keeraksid keerates keeraksin keeramas keeraksite keeraksime keerabki keeramata keerataks keeratav keeraku keeramast
+73	473	üsna	üsna üsnagi
+74	474	pisut	pisut pisutki
+75	475	liigutama	liiguta liigutage liigutada liigutab liigutama liigutatud liigutas liigutame liigutad liigutanud liigutan liigutavad liigutasid liigutasin liigutav liigutate liigutades liigutamas liigutaksid liigutatakse liigutagi liigutamata liigutasite liigutasime liigutaksin liigutaks liigutati liigutaksime liigutaksite liigutavat liigutava liigutagu liigutavalt
+76	476	mure	mures mure muret muresid mured mureks mureta murest muredest murede muredega murega muredele murele muredes muredel muredeta muredesse murel
+77	477	miljon	miljonit miljoni miljon miljoneid miljonid miljonite miljonist miljonile miljoniga miljonitest miljonitele miljoniks miljonitesse miljonini miljonites miljonil miljonitega miljonitel miljonis miljoneist miljonilt miljoniteks
+78	478	loll	loll lolli lolliks lollid lollita lolle lollim lollide lollina lollile lollidele lollilt lollist lollidest lollis lollideks lolliga lollil lollidena lollidega lollidel
+79	479	keel	keelt keeles keel keele keelest keelega keelde keeli keeled keelel keelele keeltes keelte keeltega keelelt keeleta keeleks keeltest keelena keeltel
+80	480	juhtima	juhtida juhib juhtima juhin juhtis juhivad juhi juhtiv juhid juhtinud juhtisin juhime juhitud juhiks juhite juhitakse juhtimas juhitav juhtiva juhiksid juhtisid juhiksin juhiti juhtige juhtisite juhtivaid juhtivad juhtivat juhitava juhitavad juhtigu juhtival juhtides juhtivale juhtimaks juhtivaks juhtisime juhitavat juhitavate juhtivate
+81	481	rahvas	rahvas rahva rahvast rahvale rahvaga rahval rahvaste rahvad rahvalt rahvaid rahvana rahvastele rahvaks rahvani rahvastel rahvasse rahvastest rahvata
+82	482	mööda	mööda
+83	483	paha	paha pahaks pahad pahade pahasid pahas pahadest pahast pahadele pahale pahadel pahal pahadega pahadeks pahana pahalt pahasse pahu pahem pahaga
+84	484	arst	arst arsti arstid arstile arstide arstiga arste arstiks arstina arstil arstilt arstidega arstist arstidele arstidel arstidest arstidelt arstideks
+85	485	kõrv	kõrvale kõrvad kõrva kõrvalt kõrvu kõrv kõrvuni kõrvade kõrvast kõrvas kõrvus kõrvadele kõrvadega kõrvadest kõrvaga kõrvades kõrvust kõrvadesse kõrvadeks kõrvani kõrvadel kõrvadeni kõrvadeta
+86	486	naljakas	naljakas naljakat naljakad naljakalt naljakaks naljaka naljakam naljakaid naljakate naljakaim naljakana naljakal naljakale naljakast naljakatest
+87	487	olukord	olukord olukorda olukorras olukorra olukorrast olukorraga olukordades olukordi olukorrale olukorrad olukordadesse olukordade olukordadest olukorraks olukorral olukordadega olukordadeks olukordadele olukorrani
+88	488	murdma	murda murtud murdis murdsid murrab murran murra murdsin murdnud murrad murdma murrame murravad murraks murti murdsime murdke murdsite murdes murrate murtakse murraksid murdmas murraksin murdmatu murdmata murraksime murta murdmast murdev murtav murdvat murraksite
+89	489	jõud	jõudu jõud jõule jõu jõuga jõus jõust jõul jõudude jõude jõududega jõulu jõusse jõuks jõudusid jõududest jõududele jõuta jõududesse jõududes jõuna jõududel
+90	490	endine	endiselt endine endise endised endiseks endiste endisest endisele endises endisel endisi endistest endiseid endisesse endist endistele endistel endisega endisena endisteks endisse
+91	491	komme	kombes kombel kombeks komme kombed kombeid kombe kommete kommetega kommetest kommet kommetes kombest kommetele kommeteta
+92	492	valik	valikut valik valiku valikuid valikud valikul valikute valikuga valikuks valikutest valikus valikust valikutega valikutes valikule valikuni valikusse valikuna valikuta valikutele
+93	493	püha	püha pühi pühade pühad pühale pühal pühasse pühas pühast pühaks pühasid pühadeks püham pühiks pühadel pühalt pühadest pühadesse pühadele pühana pühades
+94	494	huvi	huvita huvi huvides huvid huvide huviga huve huvisid huvidest huvist huvidega huvidele huvile huviks huvidel huvis
+95	495	õpetama	õpetas õpetada õpetan õpetanud õpetab õpetama õpetasid õpetasin õpeta õpetad õpetatud õpetati õpetame õpetatakse õpetavad õpetaks õpetate õpetage õpetaksid õpetasite õpetata õpetades õpetasime õpetaksin õpetamas õpetaksite õpetamast õpetamaks
+96	496	semu	semu semud semudega semude semuga semudele semule semusid semul semuks semudest semust semult semudel semudeks
+97	497	voodi	voodisse voodis voodi voodist voodit voodid voodile voodil voodiga voodeid voodites voodite vooditest vooditesse voodilt vooditega voodiks voodini
+98	498	halloo	halloo
+99	499	abikaasa	abikaasa abikaasat abikaasaga abikaasale abikaasaks abikaasal abikaasast abikaasad abikaasalt abikaasasid abikaasade abikaasana abikaasata abikaasadega abikaasadele abikaasas abikaasasse abikaasadest abikaasadeks abikaasadena
+100	500	riie	riided riideid riidesse riides riiete riidest riietes riietega riietest riide riieteta riiet riietele riie riietel riietesse riietelt riidega riieteks

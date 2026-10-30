@@ -1,0 +1,100 @@
+1	3801	üldine	üldine üldise üldist üldises üldised üldisest üldiseks üldisele üldiste üldisesse üldiseid üldisemas üldisi
+2	3802	mehhiklane	mehhiklane mehhiklased mehhiklase mehhiklasi mehhiklaste mehhiklast mehhiklasest mehhiklastega mehhiklastest mehhiklastele mehhiklasega mehhiklasele mehhiklastel
+3	3803	väärikus	väärikust väärikus väärikuse väärikusega väärikusest väärikuses väärikusele
+4	3804	irooniline	irooniline irooniliselt iroonilisel iroonilist iroonilise irooniliseks
+5	3805	vennapoeg	vennapoeg vennapoja vennapoega vennapojaga vennapojale vennapojad vennapojal vennapojast
+6	3806	hele	hele heledad heledat heleda heledam heledalt heledamaks heledate heledamad heledaid heledaks
+7	3807	tahtlik	tahtlikult tahtlik tahtliku tahtlikku tahtlikus tahtlikud tahtlike
+8	3808	arusaam	arusaam arusaama arusaamad arusaamu arusaamale arusaamade arusaamadest arusaamast arusaamaga
+9	3809	vaatenurk	vaatenurgast vaatenurk vaatenurka vaatenurga vaatenurki vaatenurgad vaatenurgas vaatenurgale
+10	3810	paak	paak paaki paagi paagid paagis paake paagiga paagist paagile paakides
+11	3811	sektsioon	sektsioon sektsiooni sektsioonis sektsioonid sektsioonist sektsioone sektsioonides sektsioonideks sektsioonidesse sektsioonide sektsioonidest sektsioonile
+12	3812	teras	terasest terase teras teraselt terast terased terasega teraseks
+13	3813	komisjon	komisjoni komisjon komisjonile komisjonis komisjonist komisjoniga komisjonilt komisjonid komisjonil komisjonide
+14	3814	eristama	eristada eristab erista eristama eristavad eristatud eristas eristanud eristan eristatavat eristaks eristame eristad eristasin
+15	3815	piknik	piknik pikniku piknikule piknikul piknikku piknikuks piknikust piknikke piknikud piknikut piknikuid piknikult piknikuga
+16	3816	leebe	leebe leebelt leebem leebed leebet leebemalt leebeks
+17	3817	klann	klanni klann klannist klannid klannile klannis klanniga klannide klanne
+18	3818	etapp	etapp etappi etapi etapis etapil etappe etapiga etapid etapiks etapist etapile etappidel etappides etapini
+19	3819	laad	laadi laadis laadisid laad laadides laadid
+20	3820	külmunud	külmunud
+21	3821	jõmpsikas	jõmpsikas jõmpsikad jõmpsika jõmpsikat jõmpsikaid jõmpsikate jõmpsikale jõmpsikal jõmpsikaga jõmpsikatega
+22	3822	häbelik	häbelik häbelikud häbelikuks häbelikult häbeliku häbelikku
+23	3823	puhastus	puhastus puhastuse puhastust puhastusest puhastusse puhastuses puhastused puhastuseks puhastusele
+24	3824	annetus	annetuse annetusi annetus annetused annetust annetuste annetusest annetustest annetusele annetuseks annetustega annetusega
+25	3825	ükshaaval	ükshaaval
+26	3826	taanduma	taandub taanduda taanduma taanduge taandume taandunud taandus taandu taanduvad taandumas taandusid taandun taanduv taandudes
+27	3827	mõistmine	mõistmist mõistmine mõistmise mõistmiseks mõistmisele mõistmisest mõistmiseni mõistmises mõistmisel
+28	3828	mull	mull mulli mullid mullis mullide mullidega mulliga mullist mullidest mullita
+29	3829	testament	testamendi testamenti testamendis testamendist testamendiga testamendid testamente testamentide testamendile
+30	3830	juuksur	juuksur juuksuris juuksurisse juuksuri juuksurit juuksurist juuksurid juuksuriga juuksurile juuksurina juuksuriks
+31	3831	kerkima	kerkib kerkis kerkivad kerkinud kerkisid kerkida kerkima kerki kerkimas kerkiks kerkiv
+32	3832	sissetung	sissetung sissetungi sissetungist sissetungiks sissetungiga sissetungid sissetungile sissetunge sissetungina sissetungide
+33	3833	hirv	hirve hirv hirved hirvi hirvede hirvega hirvest hirvele hirvesid hirves
+34	3834	potentsiaal	potentsiaali potentsiaal potentsiaaliga potentsiaalist
+35	3835	vise	vise viset viske viskega visked viskeid viskele viskest
+36	3836	jalgsi	jalgsi
+37	3837	õppus	õppus õppust õppused õppustel õppuste õppuse õppusi õppustele õppusel õppusega õppustest õppuseid õppusele
+38	3838	juhtnöör	juhtnööre juhtnöörid juhtnöör juhtnööri juhtnööride juhtnööridega juhtnööriks
+39	3839	tööpäev	tööpäev tööpäeva tööpäeval tööpäevad tööpäevi tööpäevast tööpäevadel tööpäevaks
+40	3840	toores	toores toorest toorelt toore toored tooreid tooreks toorena
+41	3841	tikk	tikud tikke tikk tiku tikkudega tikku tikkude tikkudest tikuga tikkusid
+42	3842	kõikvõimas	kõikvõimas kõikvõimsa kõikvõimsale kõikvõimsad kõikvõimast kõikvõimsaks kõikvõimsat
+43	3843	naiivne	naiivne naiivsed naiivseks naiivselt naiivset naiivse naiivsest
+44	3844	auväärne	auväärne auväärse auväärsed auväärset auväärseks auväärsete auväärsele auväärsest auväärseid
+45	3845	terapeut	terapeut terapeudi terapeuti terapeudiga terapeudile terapeudid terapeudina terapeudiks terapeute terapeutide
+46	3846	väline	väline välise välised välist väliste väliseid välisest välisele välistele välises välisel välistest välisesse
+47	3847	looduslik	looduslik loodusliku looduslikud looduslikku looduslikult looduslikke looduslike looduslikust looduslikest looduslikuks looduslikul looduslikule looduslikus
+48	3848	laeng	laeng laengud laengut laengu laenguid laenguga laengute laengutega
+49	3849	kiir	kiiruga kiir kiirust kiiri kiirt kiirtega kiirte kiired kiirtest kiirtes kiireks kiirest kiirel kiirele kiires kiirega
+50	3850	kuivatama	kuivatatud kuivatada kuivatan kuivatame kuivatab kuivatama kuivatas kuivatage kuivatasin kuivatavad kuivatad kuivatatakse kuivatasid kuivatanud
+51	3851	kommentaar	kommentaare kommentaari kommentaarid kommentaar kommentaaridest kommentaaridega kommentaaride kommentaarideta kommentaariga kommentaarist kommentaarideks
+52	3852	tööandja	tööandja tööandjad tööandjale tööandjat tööandjaga tööandjate tööandjal tööandjatele tööandjaid tööandjalt tööandjast tööandjana tööandjaks tööandjatel
+53	3853	tööots	tööots tööotsa tööotsi tööotsad tööotsast tööotsaks tööotsaga tööotsale tööotsal
+54	3854	ribi	ribi ribid ribisid ribide ribidesse ribidega ribidest
+55	3855	vastupanuliikumine	vastupanuliikumise vastupanuliikumine vastupanuliikumisega vastupanuliikumisest vastupanuliikumises vastupanuliikumist vastupanuliikumisele vastupanuliikumisse vastupanuliikumisel vastupanuliikumiselt
+56	3856	sugune	sugune sugused suguseid sugust suguse suguste suguseks sugusele sugustele sugustega sugustel sugusel sugustest sugusega
+57	3857	käekiri	käekiri käekirja käekirjaga käekirjast käekirjas
+58	3858	jäänus	jäänused jäänuseid jäänuste jäänus jäänustega jäänustest jäänustel
+59	3859	trumm	trummi trummid trumme trumm trummide trummidel trummidega trummidele trummiga
+60	3860	siinpool	siinpool
+61	3861	täpp	täppi täpp täpid täppe täpi täppidega täppide täpiks
+62	3862	kolledž	kolledžis kolledži kolledžisse kolledž kolledžist kolledžit kolledžite
+63	3863	päikeseloojang	päikeseloojangut päikeseloojang päikeseloojangu päikeseloojangul päikeseloojanguks päikeseloojangusse päikeseloojanguni päikeseloojanguid päikeseloojangud päikeseloojangust päikeseloojangule päikeseloojanguga
+64	3864	juuresolek	juuresolekul juuresolek juuresolekut juuresolekuta juuresoleku
+65	3865	näppima	näpi näppida näppinud näppima näpid näpib näppisid näppis näpitud näpin näppige näpiks näpivad näppisin näppides näppimas näpime
+66	3866	lipsama	lipsas lipsata lipsab lipsasin lipsanud lipsan lipsame lipsavad lipsasid lipsa lipsama lipsad lipsaks
+67	3867	tankima	tangid tangi tankida tangitud tankima tankimas tangime tangin tankige tangib tankisin tangitakse tangivad tankisime tankimata tankinud
+68	3868	leinama	leinab leinama leinan leinavad leiname leinav leinasin leinavat leinanud leinamas leinates leinate leinake leinatakse leinasime
+69	3869	lüliti	lüliti lülitit lülitid lülitiga lüliteid lülitist lülitite lülitile
+70	3870	uimane	uimane uimaseks uimaselt uimasena uimased uimase
+71	3871	vahetevahel	vahetevahel
+72	3872	küllaltki	küllaltki
+73	3873	politseiülem	politseiülem politseiülema politseiülemale politseiülemaga politseiülemat politseiülemaks politseiülemate politseiülemal politseiülemast
+74	3874	psühholoogiline	psühholoogiline psühholoogilise psühholoogilist psühholoogiliselt psühholoogilised psühholoogilisi psühholoogilisest psühholoogiliste psühholoogilises psühholoogiliseks psühholoogilistel psühholoogilisele
+75	3875	äärepea	äärepealt
+76	3876	lekkima	lekib lekkis lekkima lekkinud lekivad lekkiv lekkida lekin lekime lekkivat lekkivad
+77	3877	lähenemine	lähenemine lähenemist lähenemise lähenemisel lähenemisest lähenemiseks
+78	3878	linnuke	linnuke linnukeste linnukesel
+79	3879	keemia	keemia keemiat keemias keemiast keemiaga
+80	3880	bobi	bobi bobiga bobile bobil bobiks bobist bobilt
+81	3881	sibul	sibulad sibul sibulat sibulaid sibula sibulaga sibulatega sibulate sibulata sibulatest
+82	3882	vennike	vennike vennikesed vennikest vennikese vennikesel vennikesele vennikesega vennikesi
+83	3883	üksainus	üksainus üheainsa ühtainust üksainuski
+84	3884	palat	palatisse palatis palat palati palatit palatist palatid palatitesse palatites
+85	3885	näts	nätsu näts nätsuga nätsust
+86	3886	viisteist	viisteist viieteist viieteistkümnes viieteistkümne viitteist
+87	3887	saag	saagi saag sae saega saagisid saed sael saage saeks
+88	3888	müüja	müüja müüjad müüjat müüjaga müüjana müüjale müüjaid müüjate müüjalt müüjal müüjaks müüjatest müüjatele müüjatega müüjast
+89	3889	nõunik	nõunik nõunikud nõuniku nõunikuna nõunikku nõunike nõunikuga nõunikuks nõunikke nõunikule nõunikega nõunikul nõunikult
+90	3890	esialgne	esialgne esialgse esialgsed esialgset esialgsest esialgsete esialgselt esialgseid esialgsel esialgsele esialgsetel esialgses esialgsesse
+91	3891	põlvitama	põlvita põlvitage põlvitada põlvitama põlvitab põlvitad põlvitas põlvitades põlvitavad põlvitan põlvitamas põlvitasin põlvitanud põlvitasid põlvitame põlvitaksid
+92	3892	kõikjale	kõikjale
+93	3893	jagamine	jagamine jagamist jagamise jagamisel jagamiseks jagamisele jagamisest jagamisega jagamises
+94	3894	sink	sink sinki singi singel singiga singlit singid singis singli singist
+95	3895	kiusatus	kiusatus kiusatusse kiusatust kiusatusele kiusatusi kiusatusest kiusatuse kiusatuses kiusatused kiusatustest kiusatuste kiusatusega kiusatustele kiusatustega
+96	3896	meiesugune	meiesugused meiesuguseid meiesuguste meiesugustele meiesugune meiesugustel meiesugustest meiesugustega meiesugust meiesuguse meiesuguseks
+97	3897	kangekaelne	kangekaelne kangekaelsed kangekaelselt kangekaelset kangekaelseks
+98	3898	jooksmine	jooksmine jooksmist jooksmise jooksmisest jooksmiseks jooksmisega jooksmises jooksmisele
+99	3899	sõjaline	sõjaline sõjalise sõjalist sõjalised sõjalisi sõjalisest sõjaliste sõjalises sõjalisele sõjaliseks sõjaliselt sõjalistele sõjalistel sõjalisse sõjalisteks sõjalisel
+100	3900	maastik	maastik maastikku maastiku maastikul maastikke maastikud maastikule maastikuga maastikust maastike

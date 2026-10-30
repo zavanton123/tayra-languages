@@ -1,0 +1,100 @@
+1	5501	silmapaistev	silmapaistev silmapaistva silmapaistvad silmapaistvat silmapaistvalt silmapaistvate silmapaistvaks
+2	5502	barbar	barbarid barbar barbarite barbareid barbari barbarist barbaritega barbaritele barbarit barbariks
+3	5503	meeldetuletus	meeldetuletus meeldetuletuseks meeldetuletuse meeldetuletust meeldetuletusi
+4	5504	amps	ampsu amps ampsuga
+5	5505	divisjon	divisjoni divisjon divisjonis divisjonist divisjoniga divisjonile divisjonid
+6	5506	pagendama	pagendatud pagendati pagendas pagendada pagendatakse pagendasid pagenda pagendan pagendama pagendasin pagendab
+7	5507	arter	arter arteri arterit arterid arterite artereid arterisse arterist arterile arteris arteritest arterites
+8	5508	juuksekarv	juuksekarva juuksekarv juuksekarvad juuksekarvu
+9	5509	ettevaatlikult	ettevaatlikult ettevaatlikumalt
+10	5510	etem	etem etemat etemad etema etemaid
+11	5511	antenn	antenni antenn antennid antenniga antenne antennina antennide antennist
+12	5512	elusolend	elusolendid elusolend elusolendeid elusolendite elusolendi elusolendit elusolenditele elusolenditega elusolenditest elusolendile elusolendil
+13	5513	ambitsioon	ambitsioonid ambitsioone ambitsioon ambitsioonide ambitsiooni ambitsioonidest ambitsioonidega ambitsiooniks
+14	5514	trügima	trügi trügida trügige trügid trügib trügima trügis trügivad trügisid trügin trüginud trügite trügisin trügime
+15	5515	avameelne	avameelne avameelselt avameelsed avameelse avameelseks
+16	5516	intervjueerima	intervjueerida intervjueerima intervjueerin intervjueerisin intervjueerinud intervjueerib intervjueeris intervjueerisid intervjueerides intervjueerid intervjueerime intervjueeritav intervjueeriti intervjueeritakse
+17	5517	šampanja	šampanjat šampanja
+18	5518	tagahoov	tagahoovis tagahoovi tagahoov tagahoovist
+19	5519	rühmitus	rühmitus rühmituse rühmitusega rühmitused rühmitust rühmitusse rühmitusest rühmitusi rühmituste rühmitusele
+20	5520	süütamine	süütamine süütamise süütamist süütamiseks süütamisega süütamises süütamised süütamiste süütamisi süütamisele süütamisest süütamisel
+21	5521	sõnumitooja	sõnumitooja sõnumitoojat sõnumitoojad sõnumitoojaks
+22	5522	uksehoidja	uksehoidja uksehoidjat uksehoidjale uksehoidjaga uksehoidjana uksehoidjad uksehoidjaks uksehoidjal uksehoidjast
+23	5523	õigupoolest	õigupoolest
+24	5524	kloon	kloon kloonide kloone klooniga kloonidest kloonidega kloonina
+25	5525	tõlgendama	tõlgendada tõlgendab tõlgendad tõlgendatud tõlgenda tõlgendanud tõlgendan tõlgendama tõlgendatakse tõlgendasin tõlgendavad tõlgendas tõlgendasid
+26	5526	kadedus	kadedus kadedust kadedusest kadeduse kadedusega kadeduses
+27	5527	igavus	igavust igavusest igavuse igavus igavusse igavusega
+28	5528	üleöö	üleöö
+29	5529	mänguväljak	mänguväljakul mänguväljak mänguväljaku mänguväljakule mänguväljakut mänguväljakult mänguväljakutel mänguväljakud mänguväljakute
+30	5530	külaelanik	külaelanikud külaelanikke külaelanike külaelanikele külaelanikega külaelanikku külaelanik külaelanikel külaelaniku külaelanikest
+31	5531	maksimaalne	maksimaalne maksimaalse maksimaalset maksimaalsed maksimaalsele maksimaalseks maksimaalsel
+32	5532	eelarvamus	eelarvamused eelarvamusi eelarvamus eelarvamusteta eelarvamustega eelarvamuste eelarvamustest eelarvamusega eelarvamust eelarvamustel eelarvamusel eelarvamustele
+33	5533	muuma	muudki muuski
+34	5534	sealiha	sealiha sealihaga sealihast
+35	5535	judin	judinad judinaid judin
+36	5536	tung	tung tungi tunge tungist tungile tungiga
+37	5537	kupatus	kupatus kupatuse kupatust kupatusega kupatusest
+38	5538	purskkaev	purskkaevu purskkaev purskkaevust purskkaevus purskkaevud
+39	5539	sisejuurdlus	sisejuurdlus sisejuurdluse sisejuurdlusest sisejuurdlusele sisejuurdlust sisejuurdlusega sisejuurdluses sisejuurdlusesse
+40	5540	pant	panti pandiks pant pandi pandis pandid
+41	5541	kangelaslik	kangelaslik kangelaslikult kangelaslikku kangelasliku kangelaslikud kangelaslikust kangelaslikke kangelaslikule kangelaslike kangelaslikuks
+42	5542	targema	targemaks targema
+43	5543	korruptsioon	korruptsiooni korruptsioon korruptsioonist korruptsioonis korruptsiooniga korruptsioonile
+44	5544	kiirgama	kiirgab kiirgavad kiirga kiirgas kiirata kiirgama kiirgav kiirgame kiirgad kiirgan kiirgavat kiirgamas kiirgasid
+45	5545	ahter	ahter ahtri ahtrisse ahtris ahtrist ahtrit ahtriga ahtrini
+46	5546	trampima	trampida trambi trambivad trambib trambitud trampima trampisid trambitakse trampis trambiti trambime trambin trampinud trampige trambid trampides trambiks trampisin
+47	5547	tunduvalt	tunduvalt
+48	5548	varahommik	varahommikul varahommik varahommikust varahommikuks
+49	5549	vastutustundetu	vastutustundetu vastutustundetud vastutustundetult vastutustundetuks vastutustundetut
+50	5550	öeldu	öeldu öelduna öelduga öeldus
+51	5551	tulenema	tuleneb tulenevad tulenes tulene tulenevat tuleneda tulenema
+52	5552	äike	äike äikest äikese äikesega äikesest äikse
+53	5553	tulemüür	tulemüüri tulemüür tulemüürist tulemüüre tulemüürid tulemüüride tulemüüriga
+54	5554	pori	pori porri poris poriga porist porisse
+55	5555	köitma	köidab köitis köita köida köidavad köitnud köitsid köitma köidan köidaks köitsin köidame
+56	5556	tükeldama	tükeldatud tükeldada tükeldas tükeldan tükeldama tükelda tükeldasid tükeldab tükeldati tükeldatakse tükeldavad tükeldame tükeldanud tükeldasin
+57	5557	allahindlus	allahindlust allahindlus allahindluse allahindlusega allahindlusi allahindlused allahindlusele
+58	5558	kõrvuti	kõrvuti
+59	5559	käepärane	käepärast käepärane käepärase käepärased
+60	5560	küllaldane	küllaldaselt küllaldane küllaldase küllaldast
+61	5561	õetütar	õetütar õetütre õetütart õetütrega õetütrele õetütrel
+62	5562	sarm	sarmi sarm sarmiga sarmist sarmile
+63	5563	religioosne	religioosne religioossed religioosse religioosset religioosseid religioossete religioossest religioossetest religioosses religioossetel religioosseks religioossetele
+64	5564	tunnus	tunnused tunnus tunnuseid tunnuseks tunnust tunnuse tunnustega tunnuste
+65	5565	üleviimine	üleviimist üleviimise üleviimine üleviimiseks üleviimisest üleviimisega üleviimisel üleviimisele
+66	5566	remontima	remontida remondiks remontima remondin remondime remontis remontisin remondivad remondib remonditakse remontinud remontisid remontisime remondid
+67	5567	kasutaja	kasutaja kasutajad kasutajat kasutajate kasutajale kasutajaid kasutajaks kasutajaga kasutajatele kasutajast
+68	5568	autoriteet	autoriteeti autoriteet autoriteedi autoriteedid autoriteediga autoriteedis autoriteete autoriteedile autoriteetide autoriteetidega
+69	5569	haavama	haavasin haavab haavatut haavanud haavav haavatutega haavatutele haavavad haavates haavatavat haavama haavan haavati haavatult haavasite haavatutel haavamata haavake
+70	5570	ohjeldama	ohjeldada ohjeldama ohjelda ohjeldatud ohjeldab ohjeldage ohjeldanud ohjeldad
+71	5571	sekeldus	sekeldusi sekeldustesse sekeldustest sekeldused sekeldus sekelduste sekeldusteta sekeldustes sekeldust
+72	5572	meistrivõistlus	meistrivõistlused meistrivõistluste meistrivõistlustel meistrivõistlustele meistrivõistlusi meistrivõistlus meistrivõistlusteks meistrivõistlustelt
+73	5573	laskur	laskur laskurid laskurit laskuri laskureid laskurite laskuriks
+74	5574	kunstiteos	kunstiteos kunstiteosed kunstiteost kunstiteoseid kunstiteose kunstiteoste kunstiteoseks
+75	5575	kulutus	kulutused kulutusi kulutuste kulutustega kulutustest kulutus kulutusteks
+76	5576	vallandamine	vallandamist vallandamise vallandamine vallandamisest vallandamiseks vallandamisega vallandamised vallandamiste vallandamisel vallandamisele
+77	5577	toidupood	toidupoes toidupoe toidupoodi toidupood toidupoest toidupoed
+78	5578	vastand	vastand vastandid vastandiks vastandina vastandite vastandit vastandi
+79	5579	matš	matši matš matšil matšile matšis matšid matšiks
+80	5580	demonstratsioon	demonstratsioon demonstratsiooni demonstratsiooniga demonstratsiooniks demonstratsioonid demonstratsioonile demonstratsioonist demonstratsioonil
+81	5581	kergendama	kergendada kergendab kergendama kergendatud kergenda kergendan kergendaks kergendavad kergendas kergendame kergendad kergendanud
+82	5582	väljastama	väljastatud väljastada väljastas väljastab väljasta väljastanud väljastatakse väljastama väljastan väljastati väljastame väljastage väljastaks väljastavad
+83	5583	puhtus	puhtuse puhtus puhtust puhtuses puhtusest puhtusega puhtusele
+84	5584	boon	boone booni
+85	5585	peegeldus	peegeldus peegeldust peegelduse peegeldused peegeldusest peegelduses peegeldusi
+86	5586	narkomaan	narkomaan narkomaanid narkomaani narkomaanist narkomaanide narkomaane narkomaanidest narkomaaniks narkomaanidega
+87	5587	perspektiiv	perspektiivis perspektiivi perspektiiv perspektiivist perspektiivid perspektiive
+88	5588	varras	vardad vardasse varras varda vardas vardaid varrast varraste vardast
+89	5589	keskpunkt	keskpunkt keskpunktis keskpunkti keskpunktiks
+90	5590	peenike	peenike peenikesed peenikest peenikese peenikesi peenikeseks peenikeste
+91	5591	kaar	kaarega kaare kaar kaarte kaared kaares kaarest kaarel kaari
+92	5592	huumor	huumor huumorit huumori huumoriga huumorist huumoriks
+93	5593	ärevil	ärevil
+94	5594	teenimine	teenimiseks teenimine teenimise teenimisega
+95	5595	veteran	veteranide veteranid veterani veterane veteranidele veteranidest veteranidega veteranist veteranile veteranidel
+96	5596	ristima	ristitud ristin ristida ristiti ristima ristisin ristib ristitakse ristime ristisime ristimata ristis ristid ristisid ristiks
+97	5597	nülgima	nülin nülitud nülgida nülib nülgima nülitakse nülivad nülime nülgige nülgisid nüli nülgis nüliti nülginud nülid
+98	5598	võimekas	võimekas võimekad võimeka võimekatesse võimekat võimekate võimekaid võimekaks
+99	5599	väljaanne	väljaanne väljaande väljaandes väljaanded väljaannet väljaandeid väljaandesse väljaandest väljaannete väljaannetes väljaandele väljaannetele
+100	5600	eesti	eesti eestis eestist eestisse

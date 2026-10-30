@@ -1,0 +1,100 @@
+1	2801	tugevus	tugevus tugevust tugevuse tugevusega tugevusest tugevuseks tugevusele tugevusi tugevuses tugevused tugevusel
+2	2802	omadus	omadused omadus omadusi omadust omaduste omadustest omadustega omadustele omaduse omaduseks omadusest
+3	2803	olevus	olevus olevused olevusi olevust olevuse olevuste olevusega olevustest olevuseks olevusest olevusel olevustega olevustele olevusele
+4	2804	meedia	meedia meediale meediat meedias meediaga meediasse meediast meedial meedialt
+5	2805	nõudmine	nõudmised nõudmisi nõudmine nõudmistele nõudmisel nõudmistega nõudmiste nõudmise nõudmist nõudmistest nõudmisele nõudmisest nõudmisega nõudmistes nõudmiseni
+6	2806	kartul	kartuleid kartulid kartul kartulit kartuli kartulitega kartulite kartuliga kartulitest kartulist
+7	2807	looja	looja loojad loojaga loojat loojale loojate loojalt loojaid loojast loojana loojaks loojatega loojatest loojasse loojatele
+8	2808	hävitaja	hävitaja hävitajad hävitajat hävitajate hävitajaid hävitajatega hävitajaga hävitajatest hävitajal hävitajatel hävitajast hävitajatele hävitajaks hävitajale
+9	2809	korv	korvi korv korvis korvist korvid korve korviga korvidega korvide
+10	2810	kusagilt	kusagilt
+11	2811	lahtine	lahtine lahtised lahtise lahtisi lahtiste lahtist lahtiseid lahtiselt lahtiseks lahtises lahtisest lahtisena lahtisel lahtistest lahtistele
+12	2812	kahjutu	kahjutuks kahjutu kahjutud
+13	2813	areng	areng arengut arengu arengus arengule arengust arenguks arengud arenguid arenguga arengutega arengutest arengusse arengul arengute
+14	2814	kärbes	kärbes kärbsed kärbseid kärbest kärbse kärbeste kärbsele kärbsest kärbestega kärbestel kärbsel kärbestele kärbestest
+15	2815	vabariik	vabariigi vabariik vabariiki vabariigis vabariigile vabariigist vabariigiga vabariigil
+16	2816	kitarr	kitarri kitarr kitarriga kitarrist kitarrid kitarre kitarril kitarride kitarridega kitarrile
+17	2817	kogukond	kogukonna kogukond kogukonda kogukonnas kogukonnale kogukonnast kogukonnaga kogukonnad kogukondi kogukonnal kogukondades kogukondade kogukondadele
+18	2818	kolmapäev	kolmapäeval kolmapäev kolmapäeva kolmapäevaks kolmapäevani kolmapäevast kolmapäevad
+19	2819	minestama	minestas minestasin minestan minestasid minestama minestab minestanud minestada minesta minestad minestavad minestaks minestamas minestasite
+20	2820	kriis	kriis kriisi kriisis kriisist kriisiga kriisile kriisiks kriisid kriiside kriisidega
+21	2821	rööv	rööv röövist rööviga röövide rööve röövile röövidest röövidega röövil röövini röövina
+22	2822	kull	kull kulli kullid kulle kulles kulliga kullide kulliks kullil
+23	2823	ohutus	ohutuse ohutus ohutuses ohutusse ohutusest ohutust ohutusega ohutusele ohutuseks
+24	2824	takistus	takistus takistuseks takistusi takistused takistust takistuse takistuste takistustest takistusteta takistusest takistusega takistuseta takistustega takistustele
+25	2825	janu	janu janus janusse janust januga
+26	2826	tantsija	tantsija tantsijad tantsijaid tantsijat tantsijaks tantsijaga tantsijate tantsijatest tantsijatega tantsijana tantsijatele
+27	2827	hõim	hõimu hõim hõimust hõimud hõimude hõimule hõimuga hõimus hõimudest hõime hõimudega hõimudele hõimudes hõimuks hõimul
+28	2828	pöial	pöialt pöial pöidla pöidlad pöidlaid pöidlaga pöidlast pöidlal pöialdega pöidlata pöialde
+29	2829	kai	kai kail kaini kaile kaid kailt kaiga kaiks kaist kaide kaidel
+30	2830	luuletus	luuletus luuletuse luuletusi luuletust luuletused luuletuste luuletusest luuletuses luuletusega luuletustest luuletustega
+31	2831	muru	muru murul murule murult murust muruga
+32	2832	öine	öine öise öised öises öisel öiseid öisest öiste öisele öisesse öiseks öistest öistel
+33	2833	loomaaed	loomaaias loomaaeda loomaaed loomaaia loomaaiast loomaaiad loomaaiale loomaaiaga loomaaedu loomaaial loomaaiaks
+34	2834	pikkus	pikkus pikkuse pikkust pikkusega pikkuseks pikkused pikkusest pikkuses pikkusele pikkusel pikkuste pikkuselt pikkusi pikkuseid pikkustel pikkusena
+35	2835	märguanne	märguande märguanne märguannet märguandel märguandeks märguandeid märguannete märguanded märguandeni
+36	2836	mädanema	mädanema mädanenud mädaneb mädaneda mädanevad mädaned mädanev mädanen mädanemas mädanevat mädanete mädanesid mädanegu mädaneks mädanes mädaneksid mädaneme mädanedes
+37	2837	ähvardus	ähvardus ähvardused ähvardusi ähvardusel ähvardust ähvarduse ähvarduste ähvardustest ähvardustega ähvardustele ähvardusena ähvardusele ähvardusega ähvardusest ähvarduseks
+38	2838	saatkond	saatkonda saatkonna saatkond saatkonnas saatkonnast saatkonnaga saatkonnale saatkondade saatkonnad
+39	2839	liiklus	liiklus liiklust liikluse liikluses liiklusega liiklusest liiklusesse liiklusele liikluseks
+40	2840	osake	osake osakeste osakesed osakesi osakest osakese osakeseks osakestest osakestega osakesteks osakene osakesena
+41	2841	rakk	rakud rakkude raku rakke rakk rakku rakkudes rakkudest rakkudesse rakus rakkudega rakkudele rakkudel rakes rakust rakuga rakule rakis rakist rakul raki
+42	2842	koostama	koostada koostas koostan koostasin koostama koostanud koostab koostame koostasid koostasime koostavad koostage koostatakse koostati koostate koostasite koostaksid koostaks koostades
+43	2843	roomlane	roomlased roomlaste roomlane roomlasi roomlastele roomlase roomlastest roomlastega roomlast roomlasest roomlastel roomlasega
+44	2844	joomine	joomine joomise joomisest joomiseks joomisega joomisele joomises joomised
+45	2845	kütt	kütt kütid küti kütte küttide kütti kütiks küttidest kütile kütiga küttidele kütist küttisid küttidel
+46	2846	matemaatika	matemaatika matemaatikat matemaatikas matemaatikaga matemaatikast matemaatikasse matemaatikale matemaatikal
+47	2847	juhtlõng	juhtlõng juhtlõnga juhtlõngu juhtlõngad juhtlõngaks juhtlõngaga juhtlõngale juhtlõngast juhtlõngadega
+48	2848	nuputama	nuputada nuputama nuputame nuputasin nuputan nuputanud nuputad nuputas nuputasid nuputab nuputavad nuputasime nuputate nuputage nuputades nuputasite
+49	2849	maalima	maalida maalitud maalima maalib maalisin maalin maalinud maali maalivad maalimas maaliti maalid maalime maalite maaliksid maalisite maalisime maalige maalis maalisid maalides maaliks
+50	2850	korporatsioon	korporatsiooni korporatsioon korporatsioonide korporatsioonid korporatsioonile korporatsioonis korporatsioonist korporatsioone korporatsiooniga korporatsioonidel korporatsioonidele korporatsioonidega korporatsioonil korporatsioonilt korporatsioonides korporatsioonidest
+51	2851	tekk	tekk tekil tekile tekiga tekilt tekkidel tekkide tekkidega tekkidele
+52	2852	segu	segu sekku seguga segust segud segusid segusse segule segus
+53	2853	ahi	ahju ahjus ahi ahjust ahjud ahjude ahjul ahjuks ahjusid
+54	2854	kuss	kuss
+55	2855	kergendus	kergendus kergendust kergenduseks kergendusega kergenduse
+56	2856	rebane	rebane rebase rebased rebaste rebast rebaseid rebasega rebastest rebasest rebasel rebasele rebaseks rebasena rebastele
+57	2857	väi	väide väitel väited väita väiteid väidet väite väitega väidete väidetele väina väitele väidetel väitest väidetega väidetest väi
+58	2858	protokoll	protokolli protokoll protokolle protokollist protokolliga protokollile protokollide protokollidega protokollidest protokollidele
+59	2859	väsima	väsitav väsi väsima väsib väsisin väsis väsid väsisid väsin väsivad väsida väsiks väsitavaks väsite väsitavalt
+60	2860	toakaaslane	toakaaslane toakaaslased toakaaslast toakaaslase toakaaslasega toakaaslasele toakaaslaste toakaaslaseks toakaaslasel toakaaslasi toakaaslasest toakaaslastega toakaaslasteks toakaaslastest
+61	2861	lesk	lesk lese leseks leske lesed lesele lesega leskede lesena lesest leskedele leski leselt leskedega lesel leskesid
+62	2862	telk	telki telgis telk telgi telgist telke telkide telgiga telgile telkidesse telkidest
+63	2863	klaver	klaverit klaver klaveri klaveril klaveriga klaverist klavereid klaverile klaverid klaveris
+64	2864	pink	pink pingil pinges pingile pingi pinki pingilt pingid pingis pinke pinkidel pinkide pingesse pingest pingist pingele pingiga
+65	2865	jumalik	jumalik jumalikku jumaliku jumalikud jumalikult jumalikust jumalikule jumalikke jumalikuks jumalikus jumalike jumalikuga jumalikul
+66	2866	põnevil	põnevil
+67	2867	segamini	segamini
+68	2868	mäss	mässu mäss mässust mässule mässuga mässe mässude
+69	2869	situatsioon	situatsioon situatsiooni situatsioonis situatsioonist situatsiooniga situatsioonides situatsioonile situatsioonidest situatsioone situatsioonid situatsioonide situatsioonidesse situatsioonidega
+70	2870	ütlus	ütlus ütlust ütlusi ütlused ütluse ütluste ütlustele ütlusele ütlusega ütlustest ütlusest ütlustega
+71	2871	trahv	trahvi trahv trahvid trahve trahvist trahviga trahvide trahvidega
+72	2872	eesel	eesel eesli eeslid eeslit eesliga eesleid eeslil eeslite eesliks eeslile eeslist eeslina eeslitega
+73	2873	tagasitee	tagasiteed tagasiteel tagasitee tagasiteeks tagasiteele
+74	2874	põgenik	põgenik põgenikud põgenike põgenikku põgenikke põgeniku põgenikust põgenikest põgenikele põgenikega põgenikuna põgenikule põgenikuks põgenikeks
+75	2875	kotkas	kotkas kotka kotkad kotkast kotkaid kotkal kotkaste kotkaga kotkale kotkastega kotkana
+76	2876	snaiper	snaiper snaiprid snaipri snaiperid snaiperi snaipreid snaiprit snaiprite snaipriga snaiperit snaiperite snaipereid snaiprile snaipriks snaipritele snaipritega snaipritel
+77	2877	puudumine	puudumine puudumise puudumist puudumisel puudumisest puudumisega puudumisele puudumises puudumiste
+78	2878	naer	naer naeru naerust naerul naeruga naerule naeruks naerus naerud
+79	2879	sagedus	sagedus sagedusel sagedust sageduse sagedusi sagedused sagedusega sagedusele sagedustel sageduste sageduselt sagedustele sagedustega sageduses
+80	2880	lesbi	lesbi lesbid lesbide lesbist lesbit lesbiks lesbisid lesbidest lesbiga lesbidega lesbidele
+81	2881	rabama	rabatud rabab rabama raban rabanud rabada rabavad rabasin rabame rabage rabate rabasime
+82	2882	sõlm	sõlme sõlmis sõlmi sõlm sõlmed sõlmes sõlmiks sõlmega sõlmede sõlmesid sõlmeni sõlmedega
+83	2883	pidev	pidev pideva pidevas pidevat pidevast pidevad pidevate pidevaid pidevaks pidevale pideval
+84	2884	järeldus	järeldusele järeldusi järeldus järeldused järelduse järelduseni järeldustega järelduste järeldustele järeldust järeldusteni järeldusega
+85	2885	instinkt	instinkt instinkte instinktid instinkti instinktide instinktidele instinktidest instinktist instinktidega instinktidel instinktiga instinktides instinktiks
+86	2886	katsetama	katsetada katsetame katsetama katsetan katsetanud katsetasin katsetab katsetas katsetasid katsetatud katsetavad katsetasime katsetati katsetad katsetamata katsetage katsetades katsetatakse katsetaks katsetate katsetasite
+87	2887	kiirtee	kiirtee kiirteel kiirteele kiirteed kiirteelt kiirteest kiirteid kiirteede kiirteedel kiirteeks kiirteeni kiirteega
+88	2888	ülev	ülevalt ülev üleva ülevat ülevas ülevad
+89	2889	kaebus	kaebuse kaebusi kaebus kaebust kaebused kaebuste kaebuseid kaebustega kaebustest kaebusest kaebusega kaebusele
+90	2890	eksitus	eksitus eksitusega eksituse eksitust eksitusse eksitused eksitusi eksitusest eksituseks
+91	2891	olek	olek olekus olekut oleku olekust olekusse olekuga olekul olekuks
+92	2892	sättima	sättida säti sätin sättima sätime sätib sättige sättisin sätitud sättis sätid sättinud sätivad sättisid sättisime sätiks sätitakse sättides
+93	2893	usaldusväärne	usaldusväärne usaldusväärsed usaldusväärset usaldusväärse usaldusväärseid usaldusväärseks usaldusväärsest usaldusväärselt usaldusväärsete usaldusväärsetest usaldusväärsele usaldusväärsetele usaldusväärsena
+94	2894	salat	salatit salat salati salatiga salatis salatid salatisse salateid salatist salatile salatiks
+95	2895	jätkuvalt	jätkuvalt
+96	2896	nägus	nägus nägusa nägusad nägusat nägusaks nägusale nägusate nägusaid nägusana
+97	2897	pooma	puua puuakse poon pooge poovad poob pooma poonud pooduna poodaks poodu pooda pooks pooksin poote poodut poosin
+98	2898	rahvuslik	rahvusliku rahvuslik rahvuslikku rahvuslikust rahvuslikule rahvuslikus rahvuslike rahvuslikud rahvuslikuks rahvuslikult rahvuslikul rahvuslikke rahvuslikel rahvuslikest
+99	2899	sihik	sihikul sihikule sihik sihiku sihikut sihikuga sihikud sihikus
+100	2900	alistuma	alistu alistuda alistuma alistunud alistun alistuge alistus alistub alistume alistusid alistuvad alistud alistute alistumast alistusin alistusime alistuks alistumatu

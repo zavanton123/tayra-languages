@@ -1,0 +1,100 @@
+1	8001	rahapesu	rahapesu rahapesuga rahapesuks rahapesus
+2	8002	ülestõusnud	ülestõusnud ülestõusnute ülestõusnu ülestõusnuid ülestõusnuks ülestõusnutega
+3	8003	valss	valssi valss
+4	8004	õõnes	õõnes õõnsa õõnsad õõnsalt õõnsaks
+5	8005	kujuline	kujuline kujulised kujulist kujulise kujuliselt kujuliseks kujulisest kujulisi
+6	8006	näit	näit näitusid näitude näitu
+7	8007	maamaja	maamaja maamajja maamajas maamajast
+8	8008	puhkepäev	puhkepäev puhkepäeva puhkepäeval puhkepäevad puhkepäevadel puhkepäevi
+9	8009	sähvatus	sähvatus sähvatused sähvatust sähvatusi sähvatusega sähvatuse
+10	8010	läpakas	läpakas läpaka läpakat läpakaga läpakasse läpakast
+11	8011	arvustama	arvusta arvustada arvustama arvustad arvustav arvustab arvustanud
+12	8012	vastuvõtmine	vastuvõtmist vastuvõtmine vastuvõtmiseks vastuvõtmise vastuvõtmisel vastuvõtmisest
+13	8013	koon	koon koonu koonus koonuste koonust koonused koonuga koonuse
+14	8014	materiaalne	materiaalne materiaalse materiaalseid materiaalset materiaalsed materiaalselt materiaalsest materiaalsete materiaalses
+15	8015	kibelema	kibeled kibelen kibeleb kibelevad kibelete kibelesin kibele kibeles kibelenud kibelesid
+16	8016	möödumine	möödumist möödumine möödumiseni möödumisel
+17	8017	roppus	roppusi roppus roppuste roppused roppuse roppust
+18	8018	monstrum	monstrum monstrumid monstrumi monstrumit monstrumitega monstrumiks monstrumeid
+19	8019	harrastama	harrastada harrastab harrastad harrasta harrastan harrastavad harrastas harrastama harrastasin harrastasid harrastanud harrastate
+20	8020	lukustus	lukustus lukustuse lukustust lukustusse
+21	8021	osanik	osanik osanikud osanikuks osanike osaniku osanikele osanikke
+22	8022	moodustuma	moodustub moodustuvad moodustusid moodustuma moodustuda moodustumas
+23	8023	soetama	soetada soetanud soetas soetatud soetama soetad soetasin soetasid soetab soetan
+24	8024	päikesekiir	päikesekiir päikesekiirtes päikesekiirte
+25	8025	armastusväärne	armastusväärne armastusväärset armastusväärsed
+26	8026	heategija	heategija heategijad heategijat heategijaid
+27	8027	ebareaalne	ebareaalne ebareaalsed ebareaalset ebareaalsena ebareaalseid
+28	8028	poks	poks poksiga poksist
+29	8029	poolvend	poolvend poolvenna poolvennad poolvennaga poolvenda
+30	8030	diplomaatia	diplomaatia diplomaatiat diplomaatiast diplomaatiaga diplomaatias diplomaatiale
+31	8031	plutoonium	plutooniumi plutoonium plutooniumiga
+32	8032	pommirühm	pommirühm pommirühma pommirühmast pommirühmale pommirühmas
+33	8033	pusle	pusle puslet pusled puslest puslesid puslega
+34	8034	peotäis	peotäis peotäie peotäit
+35	8035	hankimine	hankimiseks hankimine hankimise hankimisel
+36	8036	nui	nui nuia nuiaga nuiadega
+37	8037	korealane	korealased korealane korealaste korealast korealastele korealasi
+38	8038	kinnipidamine	kinnipidamise kinnipidamine kinnipidamist kinnipidamisel kinnipidamiseks kinnipidamisest kinnipidamisega
+39	8039	tuulutama	tuulutada tuulutama tuulutan tuuluta tuulutame tuulutab tuulutage
+40	8040	marker	markerit markerid markeriga markereid markeri
+41	8041	bussipeatus	bussipeatuses bussipeatus bussipeatusesse bussipeatuse bussipeatusest bussipeatusse bussipeatuseni
+42	8042	ahvatlus	ahvatlus ahvatlusi ahvatlust ahvatlusele ahvatluste ahvatlused ahvatlustele ahvatlustest ahvatlusest ahvatlustega ahvatluse
+43	8043	kommunism	kommunismi kommunism kommunismist
+44	8044	kakama	kakab kakada kakavad kakasin kakan kakama kakanud
+45	8045	hingeldama	hingeldab hingeldad hingeldades hingeldama hingeldas hingelda hingeldasid hingeldan
+46	8046	tärkama	tärkas tärganud tärkab tärkavad tärkavat tärkamas tärgata tärkav
+47	8047	julgustav	julgustav julgustavalt julgustavaid
+48	8048	lank	langi langil langiga langile langid langist
+49	8049	samariitlane	samariitlane samariitlase samariitlast samariitlased samariitlasest
+50	8050	pandimaja	pandimaja pandimajja pandimajast pandimajas
+51	8051	opossum	opossum opossumi opossumit opossumid opossumeid opossumist opossumiga
+52	8052	heelium	heelium heeliumi heeliumiga heeliumit heeliumist
+53	8053	koormus	koormust koormus koormuse koormusega
+54	8054	allakäik	allakäik allakäigu allakäiku allakäigust allakäigus
+55	8055	siitkandist	siitkandist
+56	8056	karvavõrd	karvavõrdki
+57	8057	kuutõbine	kuutõbine kuutõbised kuutõbise kuutõbist
+58	8058	debiilik	debiilik debiilikud debiiliku
+59	8059	poeesia	poeesia poeesiat poeesiast
+60	8060	hiiglasuur	hiiglasuur hiiglasuured hiiglasuure hiiglasuurt hiiglasuuri
+61	8061	meesterahvas	meesterahvas meesterahvast meesterahva meesterahvaga meesterahvad
+62	8062	mikrokiip	mikrokiip mikrokiibi mikrokiibid mikrokiipi mikrokiipide mikrokiipe
+63	8063	koorik	koorik kooriku koorikut koorikuga koorikuta koorikud
+64	8064	imiteerima	imiteerib imiteerida imiteerides imiteerivad imiteeris imiteerima imiteerisid imiteeri
+65	8065	arstlik	arstliku arstlik arstlikku arstlikul arstlikud arstlikust
+66	8066	lõbusõit	lõbusõit lõbusõitu lõbusõidule lõbusõidu lõbusõiduks lõbusõidul lõbusõidud
+67	8067	klobima	klobida klobis klobima klobisid klobid klobitud klobinud klobib klobivad klobiti
+68	8068	ürik	üriku ürik ürikud ürikut ürikutest ürikuid ürikute ürikutes
+69	8069	veekindel	veekindel veekindlad veekindlaks veekindla veekindlat
+70	8070	kõnnumaa	kõnnumaa kõnnumaal kõnnumaale kõnnumaalt kõnnumaad
+71	8071	neem	neeme neem neemel neemele neemeni neemelt
+72	8072	paiste	paiste paistes paistel
+73	8073	konstitutsioon	konstitutsiooni konstitutsioon konstitutsioonile konstitutsioonis konstitutsiooniga
+74	8074	tarbija	tarbija tarbijad tarbijate tarbijale tarbijatele tarbijat tarbijaid
+75	8075	kananahk	kananahk kananaha kananahka
+76	8076	ärev	ärevaks ärev ärevad ärevalt äreva ärevat
+77	8077	tühimik	tühimik tühimikku tühimiku tühimikud tühimikke
+78	8078	osavalt	osavalt
+79	8079	vastulause	vastulause vastulauset
+80	8080	pasta	pastat pastaks pastaga
+81	8081	zoom	zoomi zoomiga zoomile
+82	8082	poeetiline	poeetiline poeetiliselt poeetilist poeetiliseks
+83	8083	lahutamatu	lahutamatud lahutamatu lahutamatult
+84	8084	skeptiline	skeptiline skeptilised skeptiliselt skeptiliseks
+85	8085	lavastus	lavastus lavastuse lavastuses lavastust lavastusest
+86	8086	hageja	hageja hagejad hagejat hagejale hagejate
+87	8087	kehtiv	kehtiv kehtiva kehtivaks kehtivaid kehtivate
+88	8088	sanitar	sanitar sanitarid sanitari sanitarina sanitare
+89	8089	resümee	resümee resümeed resümeele resümees resümeesse resümeega
+90	8090	maailmakuulus	maailmakuulus maailmakuulsa maailmakuulsat maailmakuulsaks maailmakuulsad maailmakuulsast maailmakuulsas
+91	8091	alimendid	alimente alimendid alimentide
+92	8092	partisan	partisanid partisanide partisane partisanidega partisani partisaniks
+93	8093	kevadine	kevadine kevadise kevadisel kevadist kevadised kevadisi
+94	8094	pooldaja	pooldaja pooldajad pooldajate pooldajaid
+95	8095	koputus	koputus koputust koputuse koputuseni
+96	8096	mardikas	mardikas mardikad mardika mardikaid
+97	8097	avalikustamine	avalikustamist avalikustamise avalikustamine avalikustamiseks avalikustamisega avalikustamisest
+98	8098	sahver	sahvris sahver sahvrisse sahvrist sahvri
+99	8099	võõrustama	võõrustada võõrustab võõrustan võõrustas võõrustama võõrustame võõrustanud võõrusta
+100	8100	avanss	avanssi avanss avansi avansiks avansina

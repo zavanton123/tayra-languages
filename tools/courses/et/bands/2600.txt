@@ -1,0 +1,100 @@
+1	2501	peakorter	peakorter peakorterisse peakorteris peakorteri peakorterist peakorterit peakorteriga peakorterile peakorterid peakorteriks
+2	2502	telefonikõne	telefonikõne telefonikõnet telefonikõned telefonikõnesid telefonikõnede telefonikõnest telefonikõnega telefonikõnedele telefonikõnele telefonikõnedest telefonikõnedega
+3	2503	minusugune	minusugune minusugused minusuguse minusuguseid minusugust minusuguste minusugusele minusugustele minusuguseks minusugusel minusugusega minusugustest minusugustega minusugusest minusugustel minusuguselt
+4	2504	krediitkaart	krediitkaardi krediitkaarti krediitkaart krediitkaardid krediitkaardiga krediitkaarte krediitkaartide krediitkaartidega krediitkaardile krediitkaardist krediitkaartidest krediitkaardilt krediitkaardil
+5	2505	otsimine	otsimist otsimine otsimise otsimiseks otsimisel otsimisele otsimises
+6	2506	mesi	mesi mett mee meelt meega meeks meest meele meti metis mette meed
+7	2507	aste	astme aste astet astmed astmes astmel astmeid astmele astmega astel astmest astlaga astmetega astmetel astla astmete astmeks astlad astmetest astmetele astlaid
+8	2508	klaarima	klaarida klaarime klaarima klaariks klaarin klaaritud klaarib klaarivad klaarige klaarinud klaarite klaarisin klaarisime klaarimata klaaritakse
+9	2509	võtmine	võtmine võtmist võtmise võtmiseks võtmisest võtmisega võtmisel
+10	2510	lootusetu	lootusetu lootusetult lootusetud lootusetust lootusetuks lootusetut lootusetute lootusetuid lootusetuna lootusetusse
+11	2511	vanne	vande vannet vanne vanded vandest vandeid vandega vandele vannete vannetega vandesse
+12	2512	pärinema	pärineb pärinevad pärines pärinen pärine pärined pärineme pärineda pärinesid pärinevat pärinema pärinete
+13	2513	kusi	kusele kuse kuses kusi kused kusel kusesid kusega kuseks kusest
+14	2514	ball	ballile balli ballil balle ballid balliks ballilt ballidel ballini balliga
+15	2515	teretulnud	teretulnud
+16	2516	mister	mister
+17	2517	hais	haisu hais haise haises haisuga haisust haiseks haisule
+18	2518	elevant	elevant elevandi elevanti elevandid elevante elevantide elevandiga elevandil elevandist elevandile elevantidest elevantidega elevantidele elevantidel
+19	2519	äkitselt	äkitselt
+20	2520	büroo	büroo büroos büroost büroosse bürood bürooga büroole bürool
+21	2521	virutama	virutas virutada virutan virutasin virutab virutasid virutad virutama virutanud virutaks virutame virutaksin virutati virutatud virutavad virutasite virutaksid virutades virutage virutate
+22	2522	petis	petis petised petisest petiseks petise petiseid petiste petistest petisena petistele petistel petisele petisega petistega petisel
+23	2523	huh	huh
+24	2524	ettekandja	ettekandja ettekandjat ettekandjana ettekandjad ettekandjale ettekandjaga ettekandjaks ettekandjaid ettekandjalt ettekandjate ettekandjatele ettekandjatega ettekandjast ettekandjal ettekandjatest
+25	2525	kinnas	kindad kindaid kinnas kinda kinnastega kinnast kinnaste kindalt kindaga kinnasteta kinnastes kindal kindasse kinnastest kindas kindast
+26	2526	tõotama	tõotan tõota tõotab tõotatud tõotasin tõotasid tõotad tõotanud tõotas tõotame tõotasime tõotada tõotavad tõotav tõotate tõotage tõotades tõotama tõotasite
+27	2527	kultuur	kultuuri kultuur kultuuris kultuurist kultuurid kultuuride kultuurides kultuure kultuuriga kultuurile kultuuridest kultuuril kultuuridega
+28	2528	asetama	aseta asetage asetada asetas asetab asetatud asetan asetame asetad asetama asetasid asetasin asetanud asetaks asetatakse asetavad asetati asetades asetate asetasime asetasite
+29	2529	jessas	jessas
+30	2530	stuudio	stuudio stuudios stuudiosse stuudiot stuudiost stuudiod stuudiole stuudioga stuudiotele stuudioid
+31	2531	näide	näide näite näiteid näidet näited näitena näites näitel näitest näidetest
+32	2532	seletus	seletus seletust seletuse seletusi seletused seletuseta seletusega seletustega seletuseks seletusena
+33	2533	ümbrus	ümbrust ümbruses ümbrus ümbruse ümbrusest ümbrusega ümbrusesse ümbrusele ümbrusse
+34	2534	ülekanne	ülekanne ülekande ülekannet ülekanded ülekandeid ülekandeks ülekandega ülekannete ülekandest ülekandes ülekandele ülekandesse ülekandeni ülekandel ülekannetega
+35	2535	poisike	poisike poisikese poisikesed poisikesena poisikest poisikesest poisikesi poisikeste poisikesele poisikestest poisikestega poisikesega poisikeseks poisikesel poisikestele
+36	2536	pätt	pätt pätid pätte pätti päti pättide pättidega pätist pättidest pättidele pätiks pätiga pätile pättidel pätina pätil
+37	2537	pulss	pulss pulssi pulsi pulsil pulsiga pulsid
+38	2538	õnnistus	õnnistus õnnistust õnnistuse õnnistuseks õnnistusega õnnistused õnnistusi õnnistuste õnnistuseta õnnistusest õnnistusel õnnistustega õnnistusele
+39	2539	traditsioon	traditsioon traditsiooni traditsioone traditsioonid traditsioonide traditsiooniks traditsioonidest traditsioonist traditsioonidega traditsioonidele traditsiooniga traditsioonile traditsioonis traditsioonides traditsioonidesse traditsioonidel
+40	2540	varakult	varakult
+41	2541	ebamugav	ebamugav ebamugavalt ebamugavaks ebamugavad ebamugavasse ebamugavaid ebamugavas ebamugavam ebamugava ebamugavat
+42	2542	tsoon	tsooni tsoonis tsoon tsoonist tsoonid tsooniks tsoone tsoonile tsoonides tsoonide
+43	2543	boston	bostoni bostonis bostonisse bostonist bostonit bostonile bostoniga
+44	2544	emand	emand emanda emandat emandad emandaga emandale emandate emandaid emandal emandalt emandaks
+45	2545	enamasti	enamasti
+46	2546	alluma	allu alluvad alluma allub alluda allunud allun allud allute allume alluge alluks allus allumast allusid alluksid
+47	2547	tülitsema	tülitseda tülitsesime tülitseme tülitsevad tülitsesid tülitsenud tülitsema tülitsesite tülitse tülitsete tülitsemas tülitses tülitsege tülitsesin tülitseb tülitsed tülitseks tülitsen
+48	2548	ennustama	ennustada ennustas ennustab ennustan ennustatud ennustavad ennustasid ennustasin ennustanud ennustati ennustatav ennusta ennustama ennustatakse ennustame ennustaks ennustad ennustades ennustaksid ennustate ennustasite ennustasime
+49	2549	libisema	libises libiseb libiseda libisesin libisen libisema libisevad libisesid libise libisenud libised libisemas libiseks libiseme libisesime libisedes libisevat
+50	2550	lõunasöök	lõunasöögi lõunasöök lõunasööki lõunasöögiks lõunasöögile lõunasöögist lõunasöögil lõunasöögiga lõunasöögid lõunasööke
+51	2551	laskuma	laskuda laskub laskume laskuma laskunud laskus laskun laskuge laskuvad laskud laskusin laskuks laskute laskusime laskumas laskumata laskuksid laskugu
+52	2552	bensiin	bensiini bensiin bensiiniga bensiinist
+53	2553	registreerima	registreeritud registreerida registreerima registreerimata registreeris registreerinud registreerin registreerisin registreeriti registreeri registreerige registreerisid registreerisime registreerivad registreerib registreerime registreeritakse registreerid registreerite registreeriks
+54	2554	psühhiaater	psühhiaater psühhiaatri psühhiaatrit psühhiaatriga psühhiaatrile psühhiaatrid psühhiaatrite psühhiaatriks psühhiaatreid psühhiaatrist psühhiaatrilt psühhiaatrina
+55	2555	uudishimulik	uudishimulik uudishimulikud uudishimulikuks uudishimulikke uudishimulike uudishimuliku uudishimulikku uudishimulikult
+56	2556	eit	eit eite eided eide eidega eitesid eidele eitede eitedest eitedele eideks eidest eidel eitedega
+57	2557	ligipääs	ligipääs ligipääsu ligipääsuga ligipääsuks ligipääsud
+58	2558	graafik	graafikus graafikust graafik graafiku graafikut graafikuid graafikud graafikusse graafikuga graafikule graafikul graafikute
+59	2559	valitseja	valitseja valitsejad valitsejaks valitsejat valitsejale valitsejate valitsejana valitsejaid valitsejaga valitsejateks valitsejal valitsejalt valitsejatele
+60	2560	reaktsioon	reaktsioon reaktsiooni reaktsioone reaktsioonid reaktsioonist reaktsiooniga reaktsioonide reaktsiooniks reaktsioonis
+61	2561	mudel	mudel mudeli mudelit mudelid mudeleid mudeliga mudelil mudelile mudelist mudelitest mudelitel mudelite mudelitega mudelisse mudelitele mudelis
+62	2562	lamp	lamp lambi lampi lambid lambist lampe lambiga lampide lampidega lambis lambile lambil
+63	2563	toituma	toitu toitub toituvad toituda toituma toitunud toitus toitun toitud toitume toituv toitusin toitumas toituks toitute toituksid toitusid toitudes
+64	2564	kere	kere kerre keret keresse kerega kered kerel kerele
+65	2565	vallaline	vallaline vallalised vallaliste vallalise vallalisi vallalist vallaliseks vallalisena vallalistele vallalistest vallalisel
+66	2566	erutama	erutatud erutab eruta erutas erutavad erutada erutad erutavat erutama erutanud erutaks erutan erutasid
+67	2567	emotsioon	emotsioone emotsioonid emotsioonide emotsioon emotsiooni emotsioonidest emotsioonidel emotsioonidega emotsioonideta emotsioonidele emotsioonist emotsioonideks emotsiooniga
+68	2568	viies	viienda viiendal viiendat viiendas viiendale viiendast viiendaks viiendasse viiendalt viies viiendana viiendad viiendaga
+69	2569	nimeline	nimeline nimelise nimelist nimelisest nimelises nimelisele nimeliselt nimelisel nimelisse nimelisi nimelised nimelisega
+70	2570	niiviisi	niiviisi
+71	2571	tüütu	tüütu tüütud tüütuks tüütut tüütult tüütuid tüütutest tüütute
+72	2572	kange	kange kangemat kanget kanged kangem kangeks kangeid kangena kangete kangelt kangel kangest
+73	2573	ülemine	ülemine ülemisel ülemise ülemises ülemisele ülemist ülemised ülemisse ülemiselt ülemisest ülemiste ülemisi ülemistel ülemistes ülemistele ülemistesse
+74	2574	paigaldama	paigaldada paigaldatud paigaldas paigaldasin paigaldama paigaldame paigaldan paigaldanud paigaldati paigaldasid paigaldatakse paigalda paigaldab paigaldasime paigaldage paigaldavad paigaldad paigaldades paigaldamas paigaldasite
+75	2575	kaine	kaine kaineks kainelt kainena kainet kained kainem kainest kainele
+76	2576	nähtavasti	nähtavasti
+77	2577	staar	staar staari staarid staariks staare staaride staariga staarist staaridest staaridega staarile staaril staaridele
+78	2578	vili	vilja vili vilju viljad viljaga viljast viljadest viljade viljadega viljaks viljas
+79	2579	alahindama	alahinda alahindasin alahindad alahinnata alahinnatud alahinnanud alahindasid alahinnake alahindasime alahindate alahindavad alahindas alahindaks alahindasite alahindan alahindab alahinnatakse
+80	2580	olemasolu	olemasolu olemasolust olemasolus olemasolusse olemasolul olemasolule olemasoluga olemasoluks
+81	2581	muld	mulda mulla muld mullast mullas mullaks mullaga mullis mullale mullal mullad mullist
+82	2582	variant	variant varianti variante variandi variandid variantidest variandiga variandis variandist variandina
+83	2583	nats	natsid natside natsi nats natse natsidega natsidele natsidest natsist natsidel natsiga natsiks
+84	2584	kergesti	kergesti kergemini
+85	2585	organiseerima	organiseeritud organiseerida organiseeris organiseerin organiseeri organiseerib organiseerima organiseerisin organiseerime organiseerisid organiseerinud organiseerid organiseerivad organiseerisime organiseerige organiseerimata organiseeriti organiseeritakse organiseerisite
+86	2586	külmik	külmikus külmik külmiku külmikusse külmikust külmikut külmikul külmikud külmikule külmikuga külmikuid külmikult
+87	2587	panustama	panustada panustan panusta panustad panustama panustab panustanud panustas panustasin panustaks panustasid panustavad panustaksin panustame panustades panustate panustatud panustage panustasite panustasime panustaksid panustatakse
+88	2588	negatiivne	negatiivne negatiivsed negatiivset negatiivse negatiivselt negatiivseid negatiivsete negatiivsest negatiivseks negatiivsele negatiivsetest negatiivsetele
+89	2589	tellimus	tellimus tellimuse tellimust tellimusi tellimused tellimuste tellimusel tellimusega tellimustega tellimusele tellimusest
+90	2590	tihe	tihe tihedalt tiheda tihedad tihedam tihedat tihedas tihedamaks tihedasse tihedaks tihedast tihedate tihedamad tihedale
+91	2591	kustuma	kustu kustus kustunud kustub kustusid kustuvad kustuda kustuma kustumas kustun kustusin
+92	2592	tööriist	tööriistad tööriist tööriistu tööriista tööriistade tööriistadega tööriistaks tööriistana tööriistaga tööriistadele tööriistadest tööriistadeta tööriistadeks
+93	2593	kummardama	kummarda kummardama kummardavad kummardage kummardada kummardab kummardan kummardasid kummardame kummardas kummardad kummardanud kummardate kummardaks kummardasin kummardamas kummardades kummardati kummardatakse kummardav kummardamast kummardaksid kummardaksin
+94	2594	kest	kesta kestis kest kestaks kestad kestast kestas kestaga kesti kestal
+95	2595	röövel	röövlid röövel röövlite röövli röövleid röövlit röövlitest röövlitega röövlist röövlitele röövlile röövliga röövliks röövlitel röövlilt
+96	2596	münt	mündi münt münti mündid münte müntide mündil mündiga müntidega mündist müntides mündile müntidest
+97	2597	tormama	tormas tormab tormata tormad tormasid torma tormavad tormasin tormama torman tormanud tormame tormake tormaks tormate tormasime tormamas tormates tormasite tormaksid
+98	2598	siiamaani	siiamaani
+99	2599	kihutama	kihutab kihutas kihutada kihutan kihuta kihutavad kihutama kihutasid kihutame kihutad kihutanud kihutasin kihutades kihutage kihutasime kihutamas kihutaks kihutatud kihutatakse kihutati kihutate kihutasite kihutav
+100	2600	juhtumine	juhtumisi juhtumise juhtumised juhtumistest juhtumiseks juhtumine

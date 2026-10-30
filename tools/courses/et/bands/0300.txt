@@ -1,0 +1,100 @@
+1	201	õhtu	õhtul õhtu õhtust õhtut õhtuks õhtuni õhtuga õhtud õhtule õhtuid õhtusse õhtutel õhtus õhtutest õhtute
+2	202	edasi	edasi
+3	203	ette	ette ettegi
+4	204	hetk	hetk hetkel hetke hetkeks hetkest hetkega hetki hetkekski hetked hetkeni hetkegi hetkedel hetkes hetkedest hetkele hetkede hetkedes hetkedele hetkedega hetkesse hetkedeks
+5	205	maja	maja majas majja majast majad maju majaga majale majade majal majades majani majadest majadesse majaks majasse majadega majadele majalt majadel majasid majata majust majana
+6	206	maailm	maailma maailmas maailm maailmast maailmale maailmaga maailmade maailmal maailmu maailmad maailmadest maailmades maailmadesse maailmaks maailmalt maailmasse maailmani maailmadega maailmasid maailmadele maailmana maailmadel
+7	207	õige	õige õigel õiget õigeks õiged õiges õigeid õigesse õigele õigem õigete õigest õigetel õigena õigetele õigetes õigelt õigetesse õigega õigetest õigeteks
+8	208	mängima	mängida mängi mängima mängib mängime mängid mängin mängis mänginud mängivad mängisin mängisid mängisime mängite mängimas mängides mängige mängiks mängitakse mängitud mängisite mängiksid mängiksin mängita mängiti mängimast mängiksime mängiv mängiksite mängivat mängigu mängitaks mängimaks mängimata
+9	209	abi	abi appi abil abiks abiga abita abile abist abis abid abina abisid abisse
+10	210	ega	ega
+11	211	viis	viis viie viisil viisi viisid viite viit viiest viieks viise viies viieni viiele viide viiel viisidel viiega viied viisist viiski viisidest viisiks viidad viisis viitega viisiga viiside viielt viisidki viitele viisidele viisile viitest viisidega
+12	212	terve	terve terveks tervet terved terves tervelt tervele tervena tervest terveid tervel tervem tervete tervetena tervesse tervemad tervetest tervetele terveteks
+13	213	mõte	mõte mõttes mõtet mõtteid mõtted mõtte mõttega mõttest mõtetes mõtete mõtteis mõtetest mõtetega mõttele mõttesse mõtetesse mõtteks mõttena mõtteski mõttessegi mõtteist mõtetele mõtetel mõttel mõtteni mõtteisse mõtegi mõteteks mõtteta mõttelt
+14	214	hull	hull hulluks hullu hullem hullemaks hullud hullemat hullus hullult hullemad hulle hullemaid hullema hullust hullude hulluse hulluga hulludest hulluna hullule hullul hulludele hulludega hullusest hulludeks hulluses hullusega hullusele hullusi hullusesse hullusena hulludel hullusid hulluseks hulludena hulludesse
+15	215	vana	vana vanad vanu vanem vanaks vanade vanas vanast vanim vanale vanal vanus vanadel vanasse vanadest vanust vanalt vanadele vanana vanima vanades vanimad vanaga vanadesse vanadelt vanasid vanadega vanna vanimal vanimatest vanimate vanimast vanadeks vanimaks
+16	216	kohtuma	kohtuda kohtume kohtunud kohtuma kohtusime kohtusin kohtun kohtu kohtus kohtusid kohtub kohtusite kohtud kohtuvad kohtuksid kohtute kohtuks kohtudes kohtumas kohtuksime kohtuge kohtuksin kohtusimegi kohtuksite kohtumast kohtumaks kohtusidki kohtumata kohtutav
+17	217	vabandama	vabandage vabanda vabandan vabandada vabandama vabandad vabandame vabandaksite vabandaksid vabandasin vabandate vabandab vabandas vabandanud vabandaks vabandasid vabandaksin vabandades vabandavad vabandatud vabandatav vabandav vabandamas vabandamatu
+18	218	vend	vend vennas venna vennad venda vennaga vennale vennal vennast vendi vendade vendadega vendadele vendadest vennaks vennalt vendadel vendasid vennana vendadeks vennata vennaksed vendadelt vennasse vendadena vendades vennani vendadesse
+19	219	tegelikult	tegelikult
+20	220	tunne	tunne tunnete tunded tundeid tunde tunnet tunnetest tunnegi tundes tunnetega tunnetele tundega tunnetel tundest tunnetes tunneteta tundele tunneteks tunnetesse tundel tundeks tundeta tunneteni
+21	221	kaasa	kaasa kaasas kaasata kaasasid kaasat kaasaks kaasaga kaasad kaasale kaasal kaasani
+22	222	probleem	probleem probleeme probleemi probleemid probleemiks probleemide probleemidest probleemidega probleemist probleemiga probleemile probleemidele probleemideta probleemides probleemidesse probleemis probleemil probleemina probleemideks probleemidel probleemini probleemita probleemideni
+23	223	lubama	luban lubada lubasin lubage lubatud lubas lubad lubanud lubab lubate lubama lubaks lubasite lubati lubavad lubata lubasime lubatakse lubame lubamatu lubasid lubaksid lubaksite lubataks lubaksin lubav lubatu lubamatud lubamatut lubavat lubamatult lubades lubamast lubaksime lubatav lubavalt lubamatuid lubamata lubamaks
+24	224	mäletama	mäletad mäletan mäleta mäletate mäletab mäletada mäletama mäletagi mäletavad mäletaks mäletanud mäletatakse mäletasin mäletame mäletas mäletaksin mäletaksid mäletasid mäletage mäletataks mäletaksime mäletaksite mäletata mäletades mäletamaks mäletamata mäletanudki mäletavat mäletagem mäletamast mäletasime
+25	225	tunduma	tundub tundus tundu tundud tunduvad tunduda tundunud tundusid tunduma tunduks tundute tundun tundugi tundubki tundusite tundume tundusin tunduksid tunduvat tundunudki
+26	226	milline	milline millised millist millise milliseid millises millisest millisel millisesse milliseks millisele milliste millisena millistest milliselt millistel millistele millistes millisega millistesse millisteks millistega
+27	227	istuma	istu istuda istuge istub istun istuma istud istume istus istusin istunud istuvad istusid istudes istute istuks istusime istumas istuksid istuksin istuv istuksite istusite istuksime istuvat istutud istugu istumast istutakse istuvale istugem istutaks istuti
+28	228	ilma	ilma ilmu
+29	229	poeg	poeg poja poega pojale pojaga pojad pojal pojast poegi poegade pojaks poegadele pojalt poegadest poegadega pojana pojas poegadel pojata pojasse poegasid pojani poegadelt poegadeks
+30	230	võimalus	võimalus võimalust võimaluse võimalusi võimalused võimalusel võimalustki võimalusest võimaluste võimalusega võimalustest võimaluseks võimalustega võimalusele võimalustele võimaluseta võimalusena võimalustesse võimalusse võimaluses võimaluseni võimalustes võimalusteks võimalustel
+31	231	noh	noh
+32	232	meel	meelde meel meeles meelest meelega meelt meele meeled meelel meeli meeltes meelte meeltesse meeltega meeltest meelele meeldegi meeltele meeltel meelis meeleks
+33	233	unustama	unusta unustasin unustanud unustada unustage unustasid unustama unustas unustame unustad unustan unustatud unustaks unustasite unustab unustasime unustavad unustate unustagem unustaksid unustamatu unustatakse unustata unustaksin unustati unustades unustagu unustataks unustaksime unustamata unustavat unustaksite unustamatuks unustamatut unustamatud unustamas unustav unustatu unustamaks unustatav
+34	234	maksma	maksma maksta maksab maksan maksa maksis maksavad maksad maksnud maksin maksid makstakse maksame makstud maksaks maksate maksti maksmata maksime makske maksaksid maksaksin maksite maksku maksmast makstes maksev makstaks maksaksime maksaksite maksmas maksabki maksvat makstav
+35	235	üritama	üritan üritab üritasin üritas üritad ürita üritanud üritame üritasid üritavad üritada üritades üritasime üritama üritate üritagi üritaks üritage üritasite üritaksid üritati üritatakse üritaksin üritamas üritamast üritatud üritanudki üritaksime üritamata üritagu üritaksite üritamaks üritanuks
+36	236	tohtima	tohi tohiks tohin tohib tohtinud tohime tohiksin tohid tohigi tohivad tohikski tohite tohtis tohiksime tohtinuks tohtisin tohtima tohiksid tohtisid
+37	237	kallis	kallis kallid kallim kalli kalliks kallist kallima kallimat kalleid kallimad kallile kallilt kallite kallimaga kallimaks kalleim kallimale kallimalt kallimast kallitele kallimaid kallil kallimate kallitest kallisse kalliste kallimasse kallimatele kallimal kallimas kallimatest kallites kalliga
+38	238	kuni	kuni
+39	239	kaotama	kaotasin kaotanud kaotada kaotas kaotasid kaotasime kaotad kaotame kaota kaotan kaotab kaotama kaotatud kaotavad kaotasite kaotamas kaotate kaotaksin kaotage kaotaksid kaotaks kaotades kaotaksime kaotati kaotatakse kaotamata kaotatu kaotamast kaotaksite kaotatut kaotamaks kaotanuks kaotavat kaotagu
+40	240	soovima	soovin soovite soovib sooviksin soovid soovime soovinud soovivad sooviksid soovi soovida soovisin sooviksite sooviks soovima soovisite soovitud sooviksime soovitaks soovis soovige soovisid soovigi soovimatu soovisime soovitakse soovitu soovitav soovita soovitavalt soovinuks soovimatut soovimatuid soovimatud soovides sooviti soovimatus soovimas soovimata soovimatute
+41	241	kartma	kardan karda kardad kartsin kardab kartma karta kardavad kartis kartnud kartke kartsid kardate kartmatu kardame kardaks kartsime kartes kardetud kardetakse kardaksid kardaksin kartmatud kartsite kartmata kartmatult kardeti kartmatute kartvat kartmast kartmatut kardeta kartmatust kartev kartmatus kardaksime kardetaks kardaksite kartmatuks kartmatuna
+42	242	kokku	kokku
+43	243	sõitma	sõita sõida sõidame sõitma sõidan sõidab sõitis sõidad sõitsin sõitsid sõitnud sõitsime sõidavad sõitke sõites sõidate sõitmas sõidaks sõitsite sõidaksid sõidetud sõidaksin sõideti sõidetakse sõidaksime sõitev sõitva sõidaksite sõideta sõitku sõitiski sõitvat sõitmast sõitsidki sõitmata
+44	244	püüdma	püüan püüa püüab püüdsin püüdis püüda püüame püüdnud püüad püüavad püüdsid püüdke püüdma püüdes püüdsime püütud püüate püüaks püüti püütakse püüdsite püüdmas püüangi püüaksid püüaksin püüamegi püüdnudki püüaksime püütaks püüdkem püüdmata püüdmatu püüaksite püüdmaks püüdnuks püüdku püüdev püüdvat
+45	245	päris	päris
+46	246	vist	vist
+47	247	proovima	proovi proovida proovin proovime proovisin proovinud proovima proovige proovid proovis proovib proovisid proovisime proovivad prooviks proovigi proovides proovite prooviksid proovitud proovisite prooviksin proovinudki proovigu prooviksime proovimast proovimas prooviksite proovimata proovitakse prooviti proovidagi proovigem
+48	248	lootma	loodan lootsin loodame loota looda loodad loodab lootes lootnud lootsid lootma lootsime loodavad lootis loodate lootke lootsite lootnudki lootkem loodetud loodaks lootkegi loodetakse loodaksin loodeti lootmast lootku lootmas lootmata loodaksid
+49	249	tund	tundi tunni tund tunnis tunniga tunniks tunnid tunneks tundide tunde tunnil tunnist tundides tundidest tundidel tundideks tundidesse tunnini tundidega tunnile tundidele
+50	250	järgmine	järgmine järgmisel järgmise järgmiseks järgmist järgmisena järgmised järgmises järgmisele järgmisest järgmisesse järgmisse järgmiste järgmistel järgmiselt järgmisi järgmisega järgmistele järgmisteks järgmistes järgmiseni järgmistest järgmiseid järgmistena
+51	251	magama	magama magada magab maga maganud magasid magad magasin magan magas magavad magame magasime magades magaks magasite magate magage magamas magaksid magamata magaksin magav magava magavat magatud magatab magaksime magamast magaksite magavaid magatakse magasinid magasinis magadeski
+52	252	kaua	kaua kauem kauemaks
+53	253	hommik	hommikul hommikust hommik hommikut hommikuks hommiku hommikuni hommikud hommikuga hommikuid hommikult hommikutel hommikusse hommikus hommikule
+54	254	kena	kena kenad kenam kenasid kenade kenaks kenale kenasse kenal kenas keni kenast kenamad kenamaks kenalt kenadest kenadele kenna kenana kenades kenil kenadel kenile kenaga kenadesse
+55	255	muretsema	muretse muretsema muretsege muretseda muretsen muretsed muretsesin muretseb muretseks muretseme muretsenud muretses muretsevad muretsete muretsesid muretsesime muretseksid muretsemast muretseksin muretsedes muretsevat muretsesite muretsemata muretsegu muretsev muretsetakse muretseksite muretsetud muretsemas muretseksime
+56	256	relv	relv relva relvad relvi relvaga relvade relvadega relvast relvadest relvaks relvata relvadeta relvana relvadele relvile relval relvale relvas relvasid relvadeks relvis relvalt relvadesse relvades relvadena relvadel relvil
+57	257	linn	linna linnas linn linnast linnu linnale linnad linnades linnaga linnal linnade linnadest linnaks linnani linnadesse linnul linnus linnust linnule linnasid linnuks linnadele linnalt linnadega
+58	258	lööma	lõi lüüa löö löön lööb lööma lööd löönud lõid lööme löödud lõin löövad lööge löödi lööks lüüakse lõime lööte lööksin lüües löömas lööksid lõite lööda löödaks lööv löömast löömaks lööduna löömata löövat lööksite lööksime löögu löönuks löödult löögem
+59	259	raske	raske raskem rasked raskeks raskelt rasket raskemaks raskeid raskel raskete raskes rasketel raskemad raskest raskemat raskema raskemaid raskesse rasketest raskele rasketes raskemalt rasketele raskega rasketeks raskemate raskena raskemates
+60	260	osa	osa osas osad osaks osades osast ossa osale osi osata osasid osaga osalt osade osana osadeks osadest osadel osani osal osadele osasse osadega osadena osadesse osagi osised
+61	261	halb	halb halba halvad halbu halva halvim halvem halvas halvaks halvemaks halbade halval halvast halvale halbadest halbadel halvata halvema halvemal halvemas halvaga halbadeks halbadele halbades halvana halbasid halvimas halvalt halbadega halbadesse
+62	262	perse	persse perse perset perses persses persest persed persega perseid persele persel perssest perseni persetega persesse perseks perssed perselt persete perseta
+63	263	liikuma	liigume liigu liikuma liigub liikuda liikuge liiguvad liikus liigun liikunud liigud liigutav liikumas liikusid liikudes liikuv liiguks liikumatult liigute liikusin liikuvat liikusime liikuva liikuvad liiguksid liigutaks liikumatu liikuvaid liikuvast liiguksime liikuvate liikumast liikuvas liigutavat liiguksin liikuvale liigutakse liiguksite liigutava liikumata
+64	264	selge	selge selgeks selgelt selged selget selgemaks selgem selgest selgeid selgena selges selgete selgel
+65	265	äkki	äkki
+66	266	minut	minutit minuti minut minutiga minutiks minutid minutil minutis minutitki minutite minutist minuteid minutitega minutile minutikski minutini minutitel minutitest minutisse minutiteks minutites
+67	267	järg	järele järel järje järelt järg järge järgides järjel järgisid järjele järjed järjes järjega
+68	268	lugu	lugu loo lood lugusid lukku loos loost looga loodi lool loeks lugude loole loode lugudest lugudega looks lugudes loosi loosse loodes lugudel lugudele loodesse loodest loosiga lugudesse loona looni
+69	269	surm	surma surm surmast surmani surmaga surmas surmale surmad surmaks surmade surmasid surmal surmata surmadest surmadega surmi surmades
+70	270	tõsi	tõsi tõtt tõele tõe tõsist tõeks tõega tõest tõeni tões tõed tõel tõena tõeta tõesse
+71	271	maa	maa maal maas maad maale maalt maast maani mais mail maaga maasse maid maade maadel maadele maades maaks maadelt maadest maist maadesse maadega maiks maata maana maile
+72	272	ajama	ajada ajab ajama ajan ajasid ajavad ajame ajasin ajanud aja ajage aetud ajate ajaks aetakse ajasime ajad aeti ajades ajas ajasite ajav ajamas ajaksid ajaksin aeta ajatu ajamata ajaski aetaks ajagu ajaksime ajavat ajatud ajaksite ajamast aetav ajavadki ajamaks
+73	273	sõna	sõna sõnad sõnu sõnul sõnadega sõnade sõnaga sõnast sõnadest sõnades sõnas sõnale sõnadesse sõnadele sõnal sõnadel sõnalt sõnaks sõnadeta sõnadeks sõnagagi sõnasid sõnasse sõnata sõnana sõnani
+74	274	oskama	oska oskad oskan oskab osanud oskate oskavad oskaks oskas oskame oskama oskasin oskagi oskasid oskaksin oskaksid oskasime oskaksite osanudki osatakse oskasite oskamatu oskabki oskaksime osanuks oskamata osatud oskamatus osati oskavat osaku oskamatud osataks osata
+75	275	juht	juhul juht juhtu juhuks juhi juhid juhti juhiseid juhiks juhtudel juhtisid juhile juhiga juhina juhtusid juhte juhtide juhist juhtidele juhil juhita juhtides juhtidega juhtidest juhtudest juhis juhtudeks juhtidel juhilt juhu juhtideks juhtidelt juhtidesse
+76	276	jalg	jalga jalad jalg jala jalgu jalaga jalge jalast jalas jalule jalgade jalust jalgadega jalal jalgadele jalul jalgadest jalgadel jalus jalale jalgele jalgel jalgades jalgadesse jalgadeta jalgagi jalalt jalani jalgadelt jalata jalgadeni jalgelt jalgadeks jalult
+77	277	paar	paar paari paariks paaril paaris paarid paarile paarist paaride paare paarina paaridesse paariga paaridest paaridele paaridena paarides paaridel paaridega paarilt paarideks
+78	278	üldse	üldse üldsegi yldse
+79	279	jälle	jälle
+80	280	kutt	kutt kutid kutti kuti kutiga kutte kutile kutil kutist kuttidega kuttide kuttidele kuttidest kutilt kuttidel kutiks kutis kuttidelt kutina kuttideks
+81	281	ilus	ilus ilusad ilusat ilusa ilusam ilusaid ilusaks ilusaim ilusate ilusal ilusamad ilusale ilusast ilusamaks ilusas ilusasse ilusamaid ilusana ilusatest ilusalt ilusatele ilusaimad ilusates ilusatel ilusateks ilusaga ilusatesse ilusais
+82	282	nädal	nädalat nädala nädal nädalal nädalas nädalaid nädalaks nädalaga nädalad nädalate nädalast nädalatel nädalatki nädalateks nädalani nädalasse nädalatega nädalatest nädalale nädalalt
+83	283	päästma	päästa päästis päästsid päästma päästsin päästab päästan päästnud päästke päästetud päästame päästad päästsime päästsite päästaks päästes päästeti päästavad päästetakse päästmas päästate päästaksid päästaksin päästmaks päästetaks päästev päästku päästaksime päästmast päästetav päästaksite päästvat
+84	284	täpselt	täpselt täpsemalt täpsemini
+85	285	all	all
+86	286	kirjutama	kirjutada kirjutas kirjutan kirjutasin kirjutatud kirjutama kirjuta kirjutanud kirjutasid kirjutab kirjutad kirjutage kirjutatakse kirjutame kirjutavad kirjutate kirjutaks kirjutati kirjutasite kirjutaksid kirjutasime kirjutades kirjutaksin kirjutaksite kirjutamas kirjutamata kirjutatu kirjutata kirjutamast kirjutatut kirjutatuna kirjutaksime kirjutataks kirjutagu kirjutadki kirjutanuks
+87	287	kindlasti	kindlasti
+88	288	natuke	natuke natukest natukegi natukesest
+89	289	muutma	muuta muudab muuda muutis muutnud muutma muutsid muutsin muudaks muudavad muudad muudan muudame muudetud muutes muudeti muutsime muutke muudate muutsite muudetakse muudaksid muudaksin muutev muutmas muutmaks muutmata muudaksime muudetaks muudaksite muutvat muutmatu muudetav muutmast
+90	290	ehk	ehk
+91	291	suurepärane	suurepärane suurepäraselt suurepärased suurepärase suurepärast suurepäraseid suurepärases suurepäraseks suurepärasest suurepäraste suurepärasele suurepärasel suurepärasem suurepärasesse suurepärastest suurepärastele suurepärastes suurepärasena
+92	292	küsimus	küsimus küsimusi küsimusele küsimuse küsimused küsimust küsimustele küsimuste küsimustega küsimusega küsimuses küsimustest küsimusest küsimustes küsimuseks küsimusteta küsimuseni küsimusena küsimusteks küsimusteni küsimusel küsimuseta küsimusse küsimustesse küsimustel
+93	293	uks	uks ukse uksed ust uksest uksele uksi uste uksel ukseni uksega ukselt ustest ustele ustel ustega ukses ukseks usteni ukseta ustelt
+94	294	kiiresti	kiiresti kiiremini
+95	295	öö	ööd öö ööl ööks ööst öid ööga öös öist öösse öödel ööni ööde öödest ööle öhe ööse öösi öödeks
+96	296	ots	otsa otsas otsast ots otsi otsad otsaga otsis otsiks otsani otsal otstega otsale otste otstes otsaks otsade otstest otsadest otsadega
+97	297	kell	kell kella kellad kelli kellasid kellaga kellade kellast kellal kellaks kellani kelladega kellale kelladest kellas kellata kellades kellalt kellis
+98	298	kust	kust
+99	299	muutuma	muutunud muutub muutuvad muutuda muutu muutusid muutuma muutud muutun muutumas muutuks muutusin muutume muutuksid muutute muutudes muutusime muutumatu muutuv muutuksin muutuvat muutuva muutuge muutumast muutumatuna muutugi muutusite muutumatuks muutumata muututakse muutuksime muutumatud muutuvate muutugem muutumaks muutuval
+100	300	söör	söör sööriks söörid

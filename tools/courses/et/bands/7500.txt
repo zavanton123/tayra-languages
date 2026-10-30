@@ -1,0 +1,100 @@
+1	7401	krooniline	krooniline kroonilise krooniliselt kroonilised kroonilist krooniliste kroonilisest
+2	7402	veresoon	veresooned veresoonte veresoon veresooni veresoone veresoont veresoontes
+3	7403	sorteerima	sorteerida sorteerin sorteerima sorteeritud sorteerib sorteerime sorteerisin sorteerinud sorteerivad
+4	7404	soojenemine	soojenemine soojenemist
+5	7405	okupeerima	okupeeritud okupeerida okupeerimata okupeerisid okupeerinud okupeerib okupeeris okupeerivad
+6	7406	usin	usinalt usin usinad usina
+7	7407	paljastus	paljastus paljastuse paljastused paljastust paljastusi paljastusega paljastuste
+8	7408	sealtkaudu	sealtkaudu
+9	7409	lõualuu	lõualuu lõualuud lõualuuga lõualuude
+10	7410	terror	terrori terrorit terroriga terrorile terroriks
+11	7411	jätkamine	jätkamiseks jätkamist jätkamine
+12	7412	päevitus	päevitus päevituse päevitust päevitusega
+13	7413	vananemine	vananemise vananemine vananemist vananemisest vananemisega
+14	7414	luusima	luusib luusimas luusivad luusima luusida luusin luusinud
+15	7415	humanoid	humanoidid humanoidide humanoidi humanoide humanoidiks humanoidist humanoididele
+16	7416	justiitsministeerium	justiitsministeerium justiitsministeeriumi justiitsministeeriumist justiitsministeeriumis justiitsministeeriumisse justiitsministeeriumile
+17	7417	välitöö	välitööle välitööl välitöö välitöödel välitööd välitööde välitöödele välitööks välitöölt välitöid
+18	7418	tainas	tainas taina tainad tainaga
+19	7419	tagamine	tagamiseks tagamine tagamise tagamisel tagamisele
+20	7420	kompenseerima	kompenseerida kompenseerib kompenseerima kompenseerin kompenseerid kompenseerivad kompenseeri kompenseerime kompenseeritakse kompenseeritud
+21	7421	üleeile	üleeile
+22	7422	selgesti	selgesti
+23	7423	aegajalt	aegajalt
+24	7424	enesevalitsus	enesevalitsuse enesevalitsust enesevalitsus
+25	7425	mõra	mõra mõrad mõrasid
+26	7426	lontrus	lontrus lontrused lontrust lontruse
+27	7427	vänt	vänt vända vändaga vändad vändale
+28	7428	külalislahkus	külalislahkust külalislahkus
+29	7429	sümboolne	sümboolne sümboolse sümboolselt sümboolset sümboolsed sümboolsel
+30	7430	garnison	garnisoni garnison garnisonis garnisonist garnisonid
+31	7431	intellekt	intellekti intellekt intellektiga intellektist intellektile
+32	7432	osalemine	osalemine osalemise osalemiseks osalemisest osalemisega
+33	7433	avaldamine	avaldamist avaldamine avaldamise avaldamisega avaldamisest avaldamisele
+34	7434	ostukeskus	ostukeskuses ostukeskuse ostukeskus ostukeskusesse ostukeskusest ostukeskust ostukeskusse
+35	7435	pakend	pakend pakendis pakendi pakendit pakendid pakendil pakendist pakendiga
+36	7436	istandus	istanduse istanduses istandus istandusse istandusest istandust istandused
+37	7437	poolearuline	poolearuline poolearulised poolearulist poolearulise poolearuliste poolearulisi
+38	7438	ligidus	ligiduses ligidusse ligidus
+39	7439	inimloomus	inimloomus inimloomuse inimloomuses inimloomust inimloomusest inimloomusele
+40	7440	põlgus	põlgus põlgust põlgusega põlguse põlgusest
+41	7441	vähendamine	vähendamine vähendamise vähendamiseks vähendamist vähendamisega vähendamisele vähendamisel vähendamisest
+42	7442	fossiil	fossiil fossiilid fossiile fossiilide fossiili fossiilidest fossiilil fossiilidega
+43	7443	jõulupuu	jõulupuu jõulupuud jõulupuul
+44	7444	nahavärv	nahavärvi nahavärv nahavärviga nahavärvist
+45	7445	lagunemine	lagunemine lagunemist lagunemise lagunemisest lagunemisel
+46	7446	ülevõtmine	ülevõtmine ülevõtmise ülevõtmist ülevõtmiseks ülevõtmisest ülevõtmisega ülevõtmisele ülevõtmiste ülevõtmisel
+47	7447	bussijuht	bussijuht bussijuhi bussijuhti bussijuhid bussijuhiks
+48	7448	putka	putka putkast putkasse putkat
+49	7449	tunnike	tunnike tunnikest tunnikeseks
+50	7450	läbipaistev	läbipaistev läbipaistvad läbipaistva läbipaistvat läbipaistvaks läbipaistvate läbipaistvas
+51	7451	aeglustuma	aeglustub aeglustunud aeglustuvad aeglustu aeglustus aeglustuks
+52	7452	segavereline	segavereline segaverelised segaverelist segaverelise segavereliste segaverelisi
+53	7453	elutu	elutu elutud elutuks elutute elutut elutuna elutuid
+54	7454	täiendus	täiendus täiendust täiendused täiendusi täienduseks täienduse
+55	7455	kalor	kalorit kaloreid kalorid kalorite kalor kalori
+56	7456	kostitama	kostitada kostitan kostitab kostitama kostitas kostitame kostitage kostitad kostitati kostitasin kostitasid kostitavad
+57	7457	muusa	muusa muusat muusad muusaks muusale muusade
+58	7458	abielupaar	abielupaar abielupaari abielupaarid abielupaarina abielupaaril abielupaare
+59	7459	paratamatult	paratamatult
+60	7460	hoopiski	hoopiski
+61	7461	käppima	käpi käppida käppis käpib käppige käppinud käpid
+62	7462	kaubalaev	kaubalaev kaubalaeva kaubalaevale
+63	7463	soovituskiri	soovituskirja soovituskiri soovituskirjad soovituskirju
+64	7464	lõpetaja	lõpetaja lõpetajad lõpetajate lõpetajaid lõpetajatele lõpetajat
+65	7465	kvaliteetne	kvaliteetne kvaliteetset kvaliteetsed kvaliteetse kvaliteetseid kvaliteetselt
+66	7466	veis	veised veise veiseid veiste veis veist
+67	7467	rent	renti rendile rendist rendiga
+68	7468	doktorikraad	doktorikraadi doktorikraad doktorikraadiga
+69	7469	riigipööre	riigipööre riigipööret riigipöörde riigipöördest riigipöördega
+70	7470	delegatsioon	delegatsiooni delegatsioon delegatsiooniga delegatsioonid delegatsioonist
+71	7471	luksuslik	luksuslik luksuslikku luksusliku luksuslikud luksuslikus luksuslikult
+72	7472	taip	taibuga taipu taibu taip taibud
+73	7473	herilane	herilased herilane herilase herilasi herilaste herilast
+74	7474	asjaajamine	asjaajamisi asjaajamised asjaajamine asjaajamist asjaajamise asjaajamiste
+75	7475	rammima	rammida rammin rammib rammime rammisin rammige rammivad rammima ramminud rammitud
+76	7476	islam	islami islam islamis islamit
+77	7477	tolmune	tolmune tolmused tolmuse tolmuseks tolmusel tolmusesse
+78	7478	vägisi	vägisi
+79	7479	paratamatu	paratamatu paratamatut paratamatud
+80	7480	möödanik	möödanik möödaniku möödanikku
+81	7481	ogar	ogar ogaraks ogarad
+82	7482	vaen	vaen vaenu vaenust
+83	7483	vallutamine	vallutamine vallutamiseks vallutamise vallutamist vallutamisel
+84	7484	sedel	sedeli sedel sedelid sedeleid sedelil sedelit
+85	7485	tõsidus	tõsidust tõsidusega tõsidus
+86	7486	objektiivne	objektiivne objektiivselt objektiivseks objektiivset objektiivsed
+87	7487	erootiline	erootiline erootilist erootilise erootilised erootiliselt erootilisi erootiliseks
+88	7488	pastor	pastori pastoriga pastorit pastorile pastoriks pastoril
+89	7489	ensüüm	ensüümi ensüüm ensüümid ensüüme ensüümide ensüümist
+90	7490	näkkama	näkkab näkkas näkanud
+91	7491	puhvertsoon	puhvertsoonis puhvertsooni puhvertsoonist puhvertsoon
+92	7492	põrkuma	põrkuvad põrkus põrkusid põrkub põrkusin põrkusime põrkuda põrkud
+93	7493	pulmakleit	pulmakleiti pulmakleidi pulmakleit pulmakleidis pulmakleite
+94	7494	hõiskama	hõiska hõiskavad hõiskab hõisake hõiskama hõiskasid hõiskas hõiskan hõisates hõiskame
+95	7495	hang	hangi hang hanke hange hangud hangus hangu hangudega hangiks
+96	7496	sarmikas	sarmikas sarmika sarmikalt sarmikad
+97	7497	ülisuur	ülisuur ülisuure ülisuured ülisuurt ülisuuri ülisuurte ülisuurest ülisuureks
+98	7498	käsikäsi	käsikäes
+99	7499	tüürimees	tüürimees tüürimehe tüürimeest tüürimeheks tüürimehena tüürimehele tüürimehega
+100	7500	aut	auti audis audiga
