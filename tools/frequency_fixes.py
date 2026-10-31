@@ -2054,3 +2054,74 @@ OVERRIDES["ga"] = {
 # opposition under idir, Thomas under tom).
 EXCLUDE["ga"] = EXCLUDE.get("ga", set()) | {"the", "of", "and", "directly", "opposition", "difference", "munster", "thomas",
                                              "martha"}
+
+# Lithuanian, after the builder's pass over the forms neither pack has (lithuanian_guess): the forms still filed under a
+# homograph or a word of the wrong kind, as the course writers met them. vėliau "later" is an adverb of its own, not vėlai's
+# or velti's; keli (kelios, keliems) is the word kelis is a form of; saugos and tiesų are sauga's and tiesa's, not saugoti's
+# and tiesus's; siūlo and siūlė are siūlyti's, not siūlas's; dalių dalis's, not Dalia's; balta and balti baltas's; pamato
+# pamatyti's as much as pamatas's; the definite didysis forms didis's, not didelis's; norisi norėtis's; gardus's forms its own,
+# not gardas's; barščių barščiai's; atliekų atliekos's, not atlikti's; pilį pilis's, not pilti's; gandai gandas's; skaudi
+# skaudus's; svėrė sverti's; šaltų šaltas's; vartosi vartytis's; lupa "magnifier" no form of lupti; atlaiko atlaikyti's;
+# kart "once" kartas's; ilgi, sausi ilgas's and sausas's, not ilgis's and sausis's; universitete universitetas's alone; ruda
+# rudas's; giria girti's too, platina platinti's too; žavinga žavingas's, geba gebėti's; verkia verkti's; merginai mergina's;
+# patyriau patirti's; taktikos taktika's, mechanikos mechanika's; mėnesis and its forms mėnuo's; neik eiti's; grąžinti no
+# form of grįžti; tinkamas "suitable" a word of its own, not tikti's; keliu and galvos kelias's and galva's (galvoti's future
+# galvos is rare); stebina stebinti's, not stebėti's; išmokos išmoka's, not išmokti's; atsitiktinai "at random" no form
+# of atsitikti, nor nepriklausomas "independent" of priklausyti, nor užtikrintai "confidently" of užtikrinti; teigimu ("according to") teigimas's; rinkimų "elections" rinkimai's, not rinkimas's; vertas's forms
+# its own, not verti's; pastabų pastaba's, not pastabus's; pilka pilkas's; aktyvus a word, not aktyvas's; sugedęs sugesti's;
+# viduramžių viduramžiai's; ūsais ūsai's; pažemintas pažeminti's; kelerius keleri's; skardos skarda's, not skardas's; pavers,
+# paverk paversti's, not paverti's; nedidelis a word of its own (the list keeps negated adjectives apart: nesvarbus, nemažas); nerija and
+# tarpusavyje words the counts give as one.
+OVERRIDES["lt"].update({
+    "vėliau": ["vėliau"],
+    **{f: ["keli"] for f in ("kelis", "keli", "kelios", "kelioms", "keliomis", "keliems", "keliose")},
+    "kelių": ["kelias", "keli"], "keliais": ["kelias", "keli"], "keliai": ["kelias"], "keliuose": ["kelias"],
+    "saugos": ["sauga"], "tiesų": ["tiesa"], "siūlo": ["siūlyti"], "siūlė": ["siūlyti"], "dalių": ["dalis"],
+    "balta": ["baltas"], "balti": ["baltas"], "pamato": ["pamatyti", "pamatas"],
+    **{f: ["didis"] for f in ("didysis", "didžioji", "didžiosios", "didžiojo", "didžiąją", "didįjį", "didžiajam", "didžiuoju",
+                              "didžiųjų", "didieji", "didžiosioms", "didžiosiomis", "didžiojoje", "didžiajame", "didžiuosius")},
+    **{f: ["norėtis"] for f in ("norisi", "norėjosi", "norėsis", "norėtųsi", "nesinori", "nesinorėjo", "nebesinori", "norėtis")},
+    **{f: ["gardus"] for f in ("gardus", "gardi", "gardžia", "gardūs", "gardžios", "gardžiai", "gardaus", "gardžių", "gardų")},
+    "barščių": ["barščiai"], "barščius": ["barščiai"], "barščiais": ["barščiai"], "atliekų": ["atliekos"], "atliekos": ["atliekos"],
+    "atliekas": ["atliekos"], "atliekomis": ["atliekos"], "pilį": ["pilis"], "gandai": ["gandas"], "gandus": ["gandas"],
+    "gandų": ["gandas"], "gando": ["gandas"], "skaudi": ["skaudus"], "svėrė": ["sverti"], "sveria": ["sverti"],
+    "šaltų": ["šaltas"], "vartosi": ["vartytis"], "lupa": ["lupa"], "atlaiko": ["atlaikyti"], "kart": ["kartas"],
+    "ilgi": ["ilgas"], "sausi": ["sausas"], "universitete": ["universitetas"], "ruda": ["rudas"],
+    "giria": ["girti", "giria"], "platina": ["platinti", "platina"], "žavinga": ["žavingas"], "geba": ["gebėti"],
+    "verkia": ["verkti"], "neverkia": ["verkti"], "merginai": ["mergina"], "merginom": ["mergina"],
+    "patyriau": ["patirti"], "patyrus": ["patirti"], "taktikos": ["taktika"], "taktiką": ["taktika"], "taktikai": ["taktika"],
+    "taktikų": ["taktika"], "mechanikos": ["mechanika"], "mėnesis": ["mėnuo"], "neik": ["eiti"], "neiti": ["eiti"], "grąžinti": ["grąžinti"],
+    **{f: ["tinkamas"] for f in ("tinkamas", "tinkama", "tinkami", "tinkamą", "tinkamai", "tinkamo", "tinkamų", "tinkamos",
+                                 "tinkamu", "tinkamam", "tinkamiausias", "netinkamas", "netinkama", "netinkamai")},
+    "keliu": ["kelias"], "galvos": ["galva"], "stebina": ["stebinti"], "stebinti": ["stebinti"], "išmokos": ["išmoka"],
+    "išmokų": ["išmoka"], "išmoka": ["išmoka"], "atsitiktinai": ["atsitiktinai"], "teigimu": ["teigimas"],
+    **{f: ["rinkimai"] for f in ("rinkimai", "rinkimų", "rinkimuose", "rinkimams", "rinkimus", "rinkimais")},
+    **{f: ["nepriklausomas"] for f in ("nepriklausomas", "nepriklausoma", "nepriklausomos", "nepriklausomų", "nepriklausomą",
+                                       "nepriklausomi", "nepriklausomo", "nepriklausomai", "nepriklausomus", "nepriklausomiems")},
+    "užtikrintai": ["užtikrintai"],
+    **{f: ["pastaba"] for f in ("pastabų", "pastabas", "pastabos", "pastabą", "pastaba", "pastabomis")},
+    **{f: ["pilkas"] for f in ("pilka", "pilkos", "pilką", "pilkų", "pilkoje", "pilkomis")},
+    **{f: ["aktyvus"] for f in ("aktyvus", "aktyvūs", "aktyvi", "aktyvių", "aktyvaus", "aktyviai", "aktyvios", "aktyvią",
+                                "aktyviau", "aktyviems", "aktyviu", "aktyvų", "aktyvesni", "aktyviausi")},
+    **{f: ["sugesti"] for f in ("sugedęs", "sugedusi", "sugedę", "sugedusį", "sugedus", "sugedusių", "sugedusio", "sugedusios",
+                                "sugedusiu", "sugedusią", "sugedusius")},
+    **{f: ["viduramžiai"] for f in ("viduramžiai", "viduramžių", "viduramžiais", "viduramžiuose", "viduramžius")},
+    "ūsais": ["ūsai"], "ūsus": ["ūsai"], "ūsų": ["ūsai"],
+    **{f: ["pažeminti"] for f in ("pažemintas", "pažeminta", "pažemintos", "pažemintų", "pažemintą", "pažeminti")},
+    **{f: ["keleri"] for f in ("keleri", "kelerius", "kelerių", "keleriems", "kelerias", "kelerios", "keleriais")},
+    "skardos": ["skarda"], "skardą": ["skarda"], "skardoje": ["skarda"],
+    **{f: ["paversti"] for f in ("pavers", "paversime", "paverk", "paversi", "nepavers", "paversim", "paverstu", "paversite",
+                                 "nepaversite", "paversiu")},
+    **{f: ["vertas"] for f in ("vertas", "verta", "verti", "vertos", "vertą", "verto", "vertų", "vertam", "vertus", "vertos")},
+    **{f: ["nedidelis"] for f in ("nedidelis", "nedidelė", "nedideli", "nedidelės", "nedidelį", "nedidelę", "nedidelio",
+                                  "nedidelių", "nedideliame", "nedidelėje", "nedideliu", "nedidele", "nedideliems")},
+    "nerija": ["nerija"], "nerijos": ["nerija"], "nerijoje": ["nerija"], "tarpusavyje": ["tarpusavyje"],
+})
+# Names and abbreviations: Druskininkai (filed under druskininkas), Jonas, Ghana (gana), "lady" (under ledas), val., min.,
+# mlrd., prof., angl., nuotr. and the like; būti, dėti, ką, čia, dėl written without their accented letters (and žinoti
+# without its ž); and the archaic
+# esti "to be", which the endings make of stray forms (eso, edai).
+EXCLUDE["lt"] = EXCLUDE.get("lt", set()) | {"druskininkų", "druskininkuose", "druskininkus", "druskininkams", "druskininkai",
+                                             "jonas", "jono", "jonui", "joną", "jonu", "jone", "ganos", "ganoje", "ganą",
+                                             "ledi", "val", "ganietis", "buti", "deti", "ka", "cia", "del", "min", "angl",
+                                             "mlrd", "prof", "vyr", "tel", "tšk", "vnt", "aut", "nuotr", "der", "esti", "inoti"}
