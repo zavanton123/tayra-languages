@@ -1,0 +1,206 @@
+{
+  "id": "et-mini-6700",
+  "rankUpTo": 6700,
+  "level": "C1",
+  "title": "Sõnad ja nende päritolu",
+  "description": "Ten standalone stories about where everyday Estonian words come from: menu words, dictionary work, railway and money words, a famous statue, bees, idioms, football, car software and the language of doctors.",
+  "topic": "Words and where they come from",
+  "names": [
+    "Elviira",
+    "Põldma",
+    "Haapsalu",
+    "Aliisa",
+    "Liivak",
+    "Heete",
+    "Saarniit",
+    "Tartu",
+    "Tallinn",
+    "Silvester",
+    "Tõnisalu",
+    "Kasper",
+    "Elva",
+    "Eesti",
+    "Leander",
+    "Ojaveer",
+    "Rakvere",
+    "Kreeka",
+    "Rosalie",
+    "Vihmar",
+    "Hans",
+    "Christian",
+    "Andersen",
+    "Kopenhaagen",
+    "Edvard",
+    "Eriksen",
+    "Taani",
+    "Eldar",
+    "Vahesalu",
+    "Põlva",
+    "Adele",
+    "Allikvee",
+    "Pärnu",
+    "Laurits",
+    "Sebastian",
+    "Raudmets",
+    "Viljandi",
+    "Lisanne",
+    "Lõhmussaar",
+    "Lorens",
+    "Araabia",
+    "Marliis",
+    "Tamkivi",
+    "Alide",
+    "Kuldsepp",
+    "Elfride",
+    "Kuusemaa",
+    "Euroopa"
+  ],
+  "lessons": [
+    {
+      "title": "Kohviku menüü",
+      "summary": "A café owner on the west coast writes a menu that explains where the names of meals come from.",
+      "newWords": [
+        "hommikueine",
+        "einestama",
+        "hautis",
+        "tops",
+        "lõunapoolne",
+        "läänerannik",
+        "sissejuhatus",
+        "meetrine"
+      ],
+      "text": "Elviira Põldma peab Haapsalus väikest kohvikut, mis asub vanas linnaosas mere lähedal. Haapsalu asub läänerannikul. Suvel on läänerannikul palju turiste, aga talvel käivad kohvikus peamiselt kohalikud inimesed. Elviira õppis kunagi ülikoolis eesti keelt ja armastab siiani vanu sõnu. Sel talvel otsustas ta teha uue menüü, kus on iga roa juures lühike lugu selle nime päritolust.\n\nMenüü esimesel leheküljel on lühike sissejuhatus. Sissejuhatuse alguses kirjutab Elviira, et eesti keeles on söömise kohta palju vanu sõnu, mida tänapäeval kasutatakse harva. Üks neist on eine. Eine tähendab sööki ja sama sõna on olemas ka soome keeles. Sellest on tehtud sõna einestama, mis tähendab rahulikult ja hästi sööma. „Einestama ei ole sama mis kiiresti midagi suhu pistma,“ kirjutab Elviira sissejuhatuse lõpus. „Kes einestab, istub laua taga ja võtab aega.“\n\nKohvik avatakse kell 8 ja menüü teisel leheküljel on hommikueine. Hommikueine on uhkem sõna kui hommikusöök. Hommikueineks pakub Elviira putru, mune ja leiba. Leib tuuakse kohvikusse ühest lähedasest külast ja see on meetrine: üks meetrine leib on peaaegu sama pikk kui laud. Külalised naeravad alati, kui Elviira hakkab meetrisest leivast tükke lõikama. Hommikueine lõpeb kell 11.\n\nLõunasöögi juures selgitab Elviira sõna lõuna. Lõuna tähendab eesti keeles nii keskpäeva kui ka üht neljast suunast. Põhjus on lihtne: keskpäeval on päike lõunas. Lõunasöök on niisiis sõna otseses mõttes söök siis, kui päike on taeva lõunapoolses osas. Kohviku lõunapoolne sein on peaaegu üleni klaasist ja talvelgi paistab päike sealt laudadele. Kõige soojem koht on lõunapoolse akna all.\n\nLõunaks on menüüs hautis. Hautis on tehtud sõnast hautama: liha ja köögiviljad küpsevad kaane all madalal tulel mitu tundi. Elviira hautises on kartul, porgand, kapsas ja sealiha. Iga päev on hautis veidi erinev, sest Elviira kasutab seda, mida ta turult saab. „Hautist ei saa teha kiiresti,“ ütleb ta. „Hautise juures tuleb osata oodata.“\n\nPaljud kliendid ei jõua aga einestada. Nad tahavad kohvi kaasa võtta. Selleks on letil paberist topsid. Topsi juures on menüüs küsimärk, sest selle sõna päritolu kohta ei leidnud Elviira raamatutest kindlat vastust. Ta kirjutas menüüsse: „Kui te teate, kust tuli sõna tops, rääkige mulle!“ Juba esimesel nädalal pakkus kolm klienti oma seletust. Elviira kirjutab neid nüüd väikesesse märkmikusse ja hoiab märkmikku leti peal topsi kõrval. Sissejuhatuse lõppu lisas ta lause: „Sõnad on nagu hea hautis – neis on palju eri asju.“\n\nKüsimused:\nKus asub Elviira kohvik?\nKohvik asub läänerannikul Haapsalus, vanas linnaosas mere lähedal.\nMida tähendab sõna einestama?\nSee tähendab rahulikult ja hästi sööma, laua taga ja aega võttes.\nKui pikk on leib, mida pakutakse hommikueineks?\nLeib on meetrine, peaaegu sama pikk kui laud.\nMiks tähendab lõuna nii keskpäeva kui ka üht neljast suunast?\nSest keskpäeval on päike lõunas.\nKuidas hautist tehakse?\nLiha ja köögiviljad küpsevad kaane all madalal tulel mitu tundi.\nMiks on topsi juures menüüs küsimärk?\nElviira ei leidnud raamatutest kindlat vastust selle sõna päritolu kohta."
+    },
+    {
+      "title": "Praktikant ja otsingute logi",
+      "summary": "A student intern at a dictionary office reads the search log and learns how to define a word.",
+      "newWords": [
+        "praktikant",
+        "logi",
+        "oletatavasti",
+        "määratlema",
+        "ühtemoodi",
+        "terane",
+        "teadagi",
+        "näitamine"
+      ],
+      "text": "Aliisa Liivak õpib Tartu ülikoolis eesti keelt. Sel suvel on ta kaks kuud praktikant Tallinnas ühes instituudis, kus tehakse sõnaraamatuid. Praktikandi juhendaja on teadlane Heete Saarniit, kes on sõnadega töötanud üle kahekümne aasta. Instituudis on igal suvel kaks või kolm praktikanti.\n\nEsimesel päeval näitas Heete Aliisale, kuidas töötab internetis olev sõnaraamat. Iga kord, kui keegi otsib sealt mõnda sõna, jääb otsing logisse. Logi ei näita, kes otsis, vaid ainult seda, mis sõna otsiti ja millal. „Logist näeme, mida inimesed tegelikult teada tahavad,“ selgitas Heete. „Sinu esimene ülesanne on lugeda eelmise kuu logi ja leida sõnad, mida otsiti, kuid mida meil veel ei ole.“\n\nAliisa istus kaks päeva arvuti taga. Logi oli üle miljoni rea pikk. Kõige rohkem otsiti tavalisi sõnu, mille õiges kirjutamises inimesed kindlad ei olnud. Ühel päeval otsisid sajad inimesed sõna hautis. Oletatavasti oli sellest õhtul mõnes telesaates räägitud. Logist leidis Aliisa ka kümme uut sõna, mida sõnaraamatus veel ei olnud. Üks neist oli kaugtöö.\n\n„Nüüd tuleb see sõna määratleda,“ ütles Heete. „Määratle see nii, et ka laps saaks aru. Ja ära kasuta sõna ennast.“ Aliisa esimene selgitus oli teadagi liiga pikk: kaks rida ja kolm koma. Heete luges selle läbi ja naeris. „Kõik praktikandid alustavad nii,“ ütles ta. „Teadagi tahad sa öelda kõike korraga.“ Pärast mitut katset jäi alles lühike lause: „Töö, mida tehakse kodus või mujal, mitte töökohas.“\n\nSiis tegi Heete väikese katse. Ta palus kahel teisel töötajal sama sõna määratleda. Kumbki ei määratlenud seda Aliisaga ühtemoodi. Üks kirjutas arvutist, teine kodust. „Kaks inimest ei kirjelda sõna kunagi ühtemoodi,“ ütles Heete. „Seepärast loeme me iga selgitust mitu korda ja mitme inimesega.“\n\nHeete selgitas ka, et selgitus üksi ei ole veel kõik. Sõna kasutamise näitamiseks lisatakse selgituse järele lühike lause. Näitamine on vahel lihtsam kui seletamine: lugeja näeb kohe, kuidas sõna lauses käitub. Aliisa kirjutas: „Talvel teen ma kaks päeva nädalas kaugtööd.“\n\nPraktika viimasel päeval ütles Heete Aliisale, et tal on terane silm. „Terane praktikant leiab logist asju, mida arvuti ei leia,“ ütles ta. Aliisa sai kutse tulla järgmisel suvel tagasi.\n\nKüsimused:\nKus on Aliisa sel suvel praktikant?\nTa on praktikant Tallinnas ühes instituudis, kus tehakse sõnaraamatuid.\nMida näitab sõnaraamatu logi?\nLogi näitab, mis sõna otsiti ja millal, aga mitte seda, kes otsis.\nMiks otsisid sajad inimesed ühel päeval sõna hautis?\nOletatavasti oli sellest õhtul mõnes telesaates räägitud.\nMilline oli Aliisa esimene selgitus?\nSee oli teadagi liiga pikk: kaks rida ja kolm koma.\nKas teised töötajad määratlesid sõna Aliisaga ühtemoodi?\nEi, kumbki ei määratlenud seda Aliisaga ühtemoodi.\nMida ütles Heete Aliisa kohta praktika lõpus?\nTa ütles, et Aliisal on terane silm."
+    },
+    {
+      "title": "Vanaisa ja raudteejaam",
+      "summary": "A retired railway worker takes his grandson on a day trip and explains the words tankla, jaam and raudtee.",
+      "newWords": [
+        "raudteejaam",
+        "tankla",
+        "senine",
+        "nukker",
+        "binokkel",
+        "käija",
+        "kesk",
+        "suurejooneline"
+      ],
+      "text": "Silvester Tõnisalu töötas raudteel üle neljakümne aasta. Nüüd on ta 72-aastane ja elab Tartus. Tema lapselaps Kasper on 12-aastane. Kasper ei ole suur muuseumides käija, aga rongid meeldivad talle väga. Sel suvel tegi vanaisa suurejoonelise plaani: nad sõidavad ühe päevaga autoga väikesesse jaama kesk metsa, sealt rongiga Tallinnasse ja õhtul tagasi Tartusse. Kasperi senine kõige pikem rongisõit oli olnud Tartust Elvasse.\n\nHommikul peatusid nad tanklas, sest autol oli bensiin peaaegu otsas. Tanklas ostis vanaisa Kasperile kakao. „Miks seda kohta tanklaks kutsutakse?“ küsis Kasper. Vanaisa selgitas, et varem öeldi bensiinijaam. Tankla on uuem sõna, mis on tehtud sõnast tankima. Lõpp -la tähendab kohta, nagu sõnades haigla ja söökla. „Haiglas ollakse haige, sööklas süüakse ja tanklas tangitakse,“ naeris vanaisa.\n\n„Aga miks on bensiinijaamas jaam?“ küsis Kasper. Vanaisa oli seda küsimust oodanud. Sõna jaam on tulnud eesti keelde vene keelest ja vene keelde veel kaugemalt idast. Vanasti tähendas jaam kohta tee ääres, kus käskjalad vahetasid hobuseid. Hiljem hakati jaamaks kutsuma ka kohta, kus rong peatub. Sõna raudtee on aga tehtud nagu saksa keeles: raud ja tee.\n\nJaam kesk metsa oli väike ja vana. Selle puust maja aknad olid laudadega kinni ja ooteruumis ei olnud kedagi. „See on nüüd üsna nukker koht,“ ütles vanaisa. „Kui ma noor olin, ootas siin iga päev kümneid inimesi.“ Kasper vaatas tühja maja ja jäi ka ise natuke nukraks.\n\nVanaisa võttis kotist binokli. Ta vaatas binokliga kaugele mööda raudteed. „Tuleb!“ ütles ta. Kasper sai ka binokliga vaadata ja nägi metsa vahel punast rongi. Vanaisa rääkis, et sõna binokkel tuleb ladina keelest ja tähendab umbes „kaks silma“. Binoklit hoitakse kahe silma ees ja selles ongi kaks klaasi, kummagi silma jaoks üks.\n\nRong oli uus, vaikne ja kiire. Poolteist tundi hiljem jõudsid nad Tallinna raudteejaama. Tallinna raudteejaam on suurejooneline koht: seal on palju ronge, poode ja kohvikuid. Vanaisa rääkis, et esimene raudtee Eestis ehitati 1870. aastal ja üks esimesi jaamu oli just Tallinna raudteejaam.\n\nÕhtul Tartusse tagasi sõites oli Kasper väsinud, aga rõõmus. Tema uus rekord oli üle 300 kilomeetri rongiga ühe päevaga. Senine rekord, Tartust Elvasse, tundus nüüd väga lühike. „Muuseumides ma suur käija ei ole,“ ütles Kasper, „aga raudteejaamades käin ma hea meelega.“ „Järgmine kord sõidame veel kaugemale,“ ütles vanaisa. „Seni pead sa selle rekordi meeles hoidma.“\n\nKüsimused:\nKes on Silvester ja Kasper?\nSilvester on vanaisa, kes töötas raudteel, ja Kasper on tema 12-aastane lapselaps.\nMida tähendab lõpp -la sõnas tankla?\nSee tähendab kohta, nagu sõnades haigla ja söökla.\nMida tähendas sõna jaam vanasti?\nSee tähendas kohta tee ääres, kus käskjalad vahetasid hobuseid.\nMiks oli jaam kesk metsa nukker koht?\nMaja aknad olid laudadega kinni ja seal ei olnud ühtegi inimest.\nMida tähendab sõna binokkel?\nSee tuleb ladina keelest ja tähendab umbes „kaks silma“.\nMilline koht on Tallinna raudteejaam?\nSee on suurejooneline koht, kus on palju ronge, poode ja kohvikuid."
+    },
+    {
+      "title": "Rubla ja kupong",
+      "summary": "A coin collector writes about two money words for his club's yearbook and gets a damaged coin replaced.",
+      "newWords": [
+        "aastaraamat",
+        "rubla",
+        "kupong",
+        "eksklusiivne",
+        "silmakirjalik",
+        "sisseost",
+        "paragrahv",
+        "hüvitama"
+      ],
+      "text": "Leander Ojaveer on 64-aastane ja töötas kogu elu raamatupidajana. Rakveres elav Leander kogub vanu münte. Ta kuulub müntide kogujate klubisse, mis annab igal aastal välja aastaraamatu. Aastaraamatus on lühikesed artiklid, pildid ja klubi liikmete uued leiud. Sel aastal palus klubi juhataja Leanderil kirjutada aastaraamatusse artikli rahaga seotud sõnadest.\n\nLeander valis kaks sõna, mis on pärit eri ajast ja eri maalt: rubla ja kupong. Rubla on vene raha ja sõna on vene keeles juba üle 700 aasta vana. Leanderi raamatute järgi tuleb see tegusõnast, mis tähendab raiuma. Vanasti valmistati hõbedast pikad kangid ja raiuti neid siis tükkideks. Üks tükk oligi rubla. Leanderi kogus on ka mõned vanad rublad. Rublasid on tal ainult viis, aga need on tema kõige vanemad mündid.\n\nTeine sõna, kupong, tuleb prantsuse keelest ja ka see on seotud lõikamisega. Prantsuse keeles tähendab see umbes äralõigatud tükki. Kupong oli alguses paberi osa, mille sai ära lõigata ja raha vastu vahetada. Tänapäeval on kupong enamasti kood, mille saab poes või internetis sisestada. „Rubla ja kupong on mõlemad tükid,“ kirjutas Leander aastaraamatu artiklis. „Üks on raiutud hõbedast, teine lõigatud paberist.“\n\nArtikli kirjutamise ajal juhtus Leanderiga midagi, mis sobis teemaga hästi. Üks münte müüv firma saatis klubi liikmetele eksklusiivse pakkumise. Eksklusiivne tähendab, et pakkumine oli ainult liikmetele: igaüks sai kupongi, millega sai 15 protsenti odavamalt. Leander vaatas firma lehte ja märkas, et hinnad olid päev varem kõrgemaks tõstetud. Kupongiga oli hind peaaegu sama mis eelmisel nädalal ilma kupongita. „See on silmakirjalik,“ ütles Leander oma naisele. „Silmakirjalik pakkumine, mis näeb välja helde, aga ei ole seda.“\n\nÜhe mündi ostis ta siiski, sest see oli haruldane. See oli tema sel aastal kõige kallim sisseost. Kahjuks oli mündi peal pakki avades kriimustus. Leander luges firma tingimused läbi. Tingimuste 7. paragrahv ütles, et kui kaup jõuab kliendini kahjustatud kujul, siis firma hüvitab kogu hinna. Leander saatis firmale pildi ja viitas sellele paragrahvile. Kahe päeva pärast vastas firma: „Vabandame! Hüvitame teile kogu hinna või saadame tasuta uue mündi.“ Leander valis uue mündi ja see oli ilus ja terve.\n\nLeander lisas artiklisse veel ühe lõigu. Sõna paragrahv tuleb kreeka keelest ja tähendas alguses joont, mis tõmmati teksti kõrvale. Hiljem hakkas paragrahv tähendama teksti osa. „Minu uue mündi päästis vana kreeka sõna,“ kirjutas Leander naljaga. Sel aastal oli tema artikkel aastaraamatus kõige pikem.\n\nKüsimused:\nMida annab müntide kogujate klubi igal aastal välja?\nKlubi annab igal aastal välja aastaraamatu.\nKust tuleb sõna rubla?\nSee tuleb vene keelest, tegusõnast, mis tähendab raiuma.\nMiks ütles Leander, et pakkumine on silmakirjalik?\nHinnad olid päev varem kõrgemaks tõstetud, nii et kupongiga oli hind peaaegu sama mis enne.\nMis oli Leanderi kõige kallim sisseost sel aastal?\nTema kõige kallim sisseost oli üks haruldane münt.\nMida ütles tingimuste 7. paragrahv?\nKui kaup jõuab kliendini kahjustatud kujul, siis firma hüvitab kogu hinna.\nMida firma Leanderile pakkus?\nFirma pakkus, et hüvitab kogu hinna või saadab tasuta uue mündi."
+    },
+    {
+      "title": "Väike merineitsi",
+      "summary": "An art student visits the famous mermaid statue in Copenhagen and compares the word for mermaid in three languages.",
+      "newWords": [
+        "merineitsi",
+        "teos",
+        "jutustus",
+        "merepõhi",
+        "figuur",
+        "laik",
+        "segunema"
+      ],
+      "text": "Rosalie Vihmar on 20-aastane ja õpib Tartus kunsti. Lapsena luges ta palju Hans Christian Anderseni teoseid. Anderseni teosed on eesti keelde tõlgitud juba üle saja aasta tagasi ja neid loevad lapsed tänaseni. Rosalie lemmik oli alati jutustus, mille peategelane on väike merineitsi. Sel kevadel sõitis Rosalie koos kursusega Kopenhaagenisse, kus Andersen elas ja kirjutas.\n\nAnderseni jutustus ilmus 1837. aastal. Jutustuse alguses elab väike merineitsi koos õdedega merepõhjas, kus on aed ja loss. Merepõhjas on vaikne ja ilus, aga merineitsi tahab näha inimeste maailma. Ta ujub mere pinnale, vaatab laevu ja kalda ääres olevaid maju ning soovib saada inimeseks. Lugu on pigem nukker kui rõõmus ja paljud lugejad mäletavad seda terve elu.\n\nKopenhaageni sadamas istub kivil merineitsi kuju. Selle tegi 1913. aastal skulptor Edvard Eriksen. Rosalie oli pildilt arvanud, et figuur on suur. Tegelikult on figuur ainult umbes 125 sentimeetrit kõrge. Merineitsi istub, jalad enda all, ja vaatab merele. „Nii väike figuur ja nii kuulus,“ mõtles Rosalie.\n\nRosalie istus kaldal ja joonistas. Lähemalt vaadates märkas ta kujul rohelisi laike. Õppejõud selgitas, et pronks muutub vihma ja mereõhu käes aja jooksul roheliseks. Mõni laik oli hele, mõni tume, ja laigud tegid kuju veel ilusamaks. Rosalie joonistas ka laigud oma pilti.\n\nKuju juures oli palju turiste. Inimesed tulid bussidega, paatidega ja jalgsi, nad tegid pilte ja rääkisid eri keeltes. Keeled segunesid üheks suureks suminaks. Rosalie kuulis hispaania, saksa, hiina ja ka eesti keelt. Kõik need hääled segunesid mere ja lindude häälega.\n\nÕhtul hotellis mõtles Rosalie sõnale merineitsi. Eesti sõnas on kaks osa: meri ja neitsi. Neitsi on vana sõna, mis tähendas noort tüdrukut. Taani keeles öeldakse havfrue: hav tähendab merd ja frue naist. „Mõlemas keeles on merineitsi lihtsalt mere tüdruk või mere naine,“ kirjutas Rosalie oma märkmikusse. Kodus Tartus maalis ta oma joonistuse järgi suure pildi ja pani sellele nimeks „Merineitsi laigud“.\n\nKüsimused:\nMilliseid teoseid luges Rosalie lapsena?\nTa luges palju Hans Christian Anderseni teoseid.\nKus elab merineitsi jutustuse alguses?\nTa elab koos õdedega merepõhjas, kus on aed ja loss.\nKui suur on merineitsi figuur Kopenhaagenis?\nFiguur on ainult umbes 125 sentimeetrit kõrge.\nMiks on kujul rohelised laigud?\nPronks muutub vihma ja mereõhu käes aja jooksul roheliseks.\nMis juhtus kuju juures inimeste keeltega?\nKeeled segunesid üheks suureks suminaks.\nMillest koosneb eesti sõna merineitsi?\nSee koosneb kahest osast: meri ja neitsi."
+    },
+    {
+      "title": "Mesi on vana sõna",
+      "summary": "A beekeeper shows a school class his hives and explains that the words mesi and vaha were borrowed thousands of years ago.",
+      "newWords": [
+        "taru",
+        "aas",
+        "esiisa",
+        "pärandama",
+        "algeline",
+        "ennetama",
+        "fenomen"
+      ],
+      "text": "Eldar Vahesalu peab mesilasi Põlva lähedal. Tema maja taga on suur aas ja aasa servas seisab kakskümmend taru. Igas tarus elab üks mesilaste pere. Suvel lendavad mesilased hommikust õhtuni aasale ja tagasi. Juunis on aas nii täis õisi, et seal on kuulda pidevat suminat.\n\nÜhel juunipäeval tuli Eldari juurde Põlva kooli 5. klass koos õpetajaga. Lapsed said selga valged riided ja näo ette võrgu. Eldar avas ühe taru ja näitas, kuidas mesilased kärgedes mett teevad. Siis istusid kõik aasa servas pingil ja Eldar rääkis neile sõnadest.\n\n„Sõna mesi on üks vanimaid sõnu, mis meie keelde on kunagi laenatud,“ alustas Eldar. Meie esiisad elasid tuhandeid aastaid tagasi kaugel idas. Nende naabrid rääkisid hoopis teist keelt ja nende keelest saadi sõna, millest sai mesi. Sama vana sõna on olemas ka soome ja ungari keeles. Hiljem laenasid esiisad teistelt naabritelt sõna vaha. „Esiisad pärandasid meile need sõnad,“ ütles Eldar. „Keel pärandatakse põlvest põlve nagu maja või aed.“\n\nTänapäeva taru on puust kast, mille sees on raamid. Esiisade aja taru oli palju algelisem. Esiisad otsisid metsast õõnsa puu, kuhu metsmesilased olid ise pesa teinud, ja võtsid sealt mett. Hiljem hakati õõnsat palki puu otsa riputama, et mesilased sinna elama tuleksid. Selline algeline taru oli kasutusel veel 200 aastat tagasi. „Algeline, aga see töötas,“ ütles Eldar.\n\nÜks laps küsis, kas mesilased lendavad vahel minema. Eldar selgitas, et see on tuntud fenomen. Kui perel jääb tarus ruumi väheks, lendab pool peret koos vana emaga välja ja otsib uue kodu. See fenomen on ilus vaadata, aga mesinik kaotab nii pool oma mesilastest. Seepärast püüab Eldar seda ennetada. Ta vaatab maikuus ja juunis tarud iga nädal üle. Kui ruumi hakkab vähe jääma, paneb ta tarusse uued raamid. „Parem on ennetada kui pärast puu otsast mesilasi otsida,“ ütles Eldar.\n\nLõpuks sai iga laps väikese purgi mett. Mett ei olnud tehtud ainult ühest lillest, vaid kogu aasa õitest. „Kui te seda mett sööte, siis pidage meeles, et sõna mesi on veel vanem kui see taru, veel vanem kui see maja ja isegi vanem kui Põlva,“ ütles Eldar naerdes.\n\nKüsimused:\nKus seisavad Eldari tarud?\nTarud seisavad maja taga suure aasa servas.\nKust on sõna mesi pärit?\nMeie esiisad laenasid selle tuhandeid aastaid tagasi oma naabrite keelest.\nMilline oli esiisade aja taru?\nSee oli algeline taru: õõnes palk, mis riputati puu otsa.\nMillist fenomeni Eldar lastele selgitas?\nTa selgitas, kuidas pool peret lendab koos vana emaga välja ja otsib uue kodu.\nKuidas püüab Eldar seda ennetada?\nTa vaatab tarud iga nädal üle ja paneb tarusse uued raamid, kui ruumi jääb vähe.\nMida sai iga laps lõpuks?\nIga laps sai väikese purgi mett."
+    },
+    {
+      "title": "Ütlused tahvlil",
+      "summary": "A teacher in Pärnu gives her class old sayings to explain, and the class joker turns out to be good at it.",
+      "newWords": [
+        "naljamees",
+        "takka",
+        "ihuüksi",
+        "niidiots",
+        "eesots",
+        "viskuma",
+        "hoob",
+        "häbiplekk"
+      ],
+      "text": "Adele Allikvee õpetab Pärnus ühes koolis eesti keelt. Tema 8. klassis on 24 õpilast ja üks neist, Laurits, on klassi naljamees. Laurits teeb nalja iga päev ja kõik naeravad, isegi õpetaja. Naljamehed ei armasta tavaliselt reegleid ja grammatikat, aga ühes tunnis selgus, et Lauritsal on sõnade jaoks hea kõrv.\n\nSel nädalal oli tunni teema vanad ütlused. Adele kirjutas tahvlile mitu ütlust ja iga õpilaste paar pidi ühe ütluse tähenduse ja päritolu välja selgitama. „Ütlus on nagu väike pilt,“ ütles Adele. „Otsige pilti sõnade taga.“\n\nLaurits ja tema pinginaaber said ütluse „Kõik niidiotsad on tema käes“. Laurits mõtles natuke ja ütles siis: „Nukuteatris liigutab üks inimene nukke niitidega. Kellel on niidiotsad käes, see otsustab, mida nukud teevad.“ Adele noogutas. Just nii: kui kõik niidiotsad on ühe inimese käes, juhib tema kõike.\n\nTeine paar sai sõna ihuüksi. Ihu on vana sõna keha kohta. Ihuüksi tähendab, et inimesel ei ole peale oma keha mitte kedagi ega midagi. „Ma jäin metsa ihuüksi,“ on palju tugevam kui „Ma jäin metsa üksi“. Klass otsustas, et ihuüksi on üks ilusamaid sõnu, mis neil sel päeval tahvlil oli.\n\nKolmas ütlus oli „kiitma takka“. Takka on vana sõna, mis on seotud sõnaga taga. Kes kiidab takka, see seisab justkui kellegi taga ja lükkab teda edasi. Laurits ütles, et tema sõbrad kiidavad teda alati takka, kui ta tunnis nalja teeb. Kogu klass naeris.\n\nNeljas paar selgitas sõna eesotsas. Ots on asja lõpp või serv ja ees tähendab ettepoole. Kes on eesotsas, see on rühma eesmises otsas: ta läheb teistest ees ja juhib neid. Näiteks on jooksjate eesotsas kõige kiirem jooksja. Viies ütlus oli „viskuma pea ees“. Kes viskub millessegi pea ees, see alustab kohe ja kõigest jõust, mõtlemata. „Laurits viskub igasse nalja pea ees,“ ütles üks tüdruk.\n\nSiis rääkis Adele ka sõnast hoob. Hoob on pikk kang, millega saab tõsta rasket asja. Hoova abil saab väikese jõuga teha suurt tööd. Üks vana kreeka teadlane ütles kunagi: „Andke mulle piisavalt pikk hoob ja ma tõstan maakera.“\n\nViimane sõna oli häbiplekk. Plekk on väike laik riidel ja häbiplekk on asi, mille pärast tuleb häbeneda. Laurits tõstis käe. „Minu käekiri on klassi häbiplekk,“ ütles ta. Adele naeris ja ütles, et käekirja saab parandada, aga hea huumorimeel on kingitus. Tunni lõpus palus Adele Lauritsal juhtida järgmise nädala tunnis kõiki paare. Nii oli naljamees esimest korda klassi eesotsas.\n\nKüsimused:\nKes on Laurits?\nLaurits on Adele 8. klassi õpilane ja klassi naljamees.\nKuidas selgitas Laurits ütlust „Kõik niidiotsad on tema käes“?\nTa ütles, et nukuteatris liigutab üks inimene nukke niitidega ja otsustab, mida nukud teevad.\nMida tähendab sõna ihuüksi?\nSee tähendab, et inimesel ei ole peale oma keha mitte kedagi ega midagi.\nMida teeb inimene, kes viskub millessegi pea ees?\nTa alustab kohe ja kõigest jõust, mõtlemata.\nMida ütles vana kreeka teadlane hoova kohta?\nTa ütles: „Andke mulle piisavalt pikk hoob ja ma tõstan maakera.“\nMida ütles Laurits häbipleki kohta?\nTa ütles, et tema käekiri on klassi häbiplekk."
+    },
+    {
+      "title": "Söötja ja talisman",
+      "summary": "A boy who has moved to Viljandi joins a football team, makes friends and learns where the football words come from.",
+      "newWords": [
+        "söötja",
+        "ambitsioonikas",
+        "sõbrunema",
+        "talisman",
+        "optimistlik",
+        "ülekaal",
+        "kohapealt"
+      ],
+      "text": "Sebastian Raudmets on 15-aastane. Sel suvel kolis ta koos vanematega Tallinnast Viljandisse. Uues linnas ei tundnud ta kedagi, aga ta teadis, mida teha: ta läks kohe jalgpalli trenni. Tallinnas oli Sebastian olnud oma meeskonna parim söötja. Ta ei löönud ise palju väravaid, aga peaaegu iga värav algas sellest, et tema söötis palli õigele mängijale.\n\nViljandi meeskonna treener Lisanne Lõhmussaar on noor ja ambitsioonikas. Tema eesmärk on viia meeskond kahe aastaga Eesti parimate hulka. „See on ambitsioonikas eesmärk,“ ütles ta esimeses trennis, „aga kui me kõik koos töötame, on see võimalik.“ Lisanne märkas kohe, et Sebastian näeb väljakul hästi ja söödab täpselt. „Meil on vaja just sellist söötjat,“ ütles ta.\n\nEsimestel nädalatel oli Sebastianil raske. Teised poisid olid juba aastaid koos mänginud ja Sebastian tundis end võõrana. Siis hakkas ta pärast trenni kõigiga rääkima. Kõige kiiremini sõbrunes ta ründaja Lorensiga, kes lõi meeskonnas kõige rohkem väravaid. Söötja ja ründaja vajavad teineteist. Peagi sõbrunes Sebastian ka teistega ja tundis end meeskonnas kodus.\n\nÜhel õhtul küsis Lorens, miks palli andmist kutsutakse söötmiseks. Söötma tähendab ju loomadele süüa andma. Treener Lisanne naeris ja selgitas, et see ongi sõna päritolu: söötja annab palli ründajale nagu toitu. „Hea söötja toidab ründajat,“ ütles ta. Ka sõna jalgpall on tehtud inglise sõna järgi: jalg ja pall.\n\nMeeskonnal on ka talisman: väike puust öökull, mille ühe mängija ema kunagi tegi. Talisman istub iga mängu ajal pingil treeneri kõrval. Lisanne rääkis, et sõna talisman on pärit araabia keelest ja sinna tuli see kreeka keelest. „Talisman ei löö väravaid,“ ütles ta, „aga see teeb meid optimistlikuks.“\n\nLaupäeval oli tähtis mäng Pärnu vastu. Sebastiani vanaisa sõitis Tartust kohale, et mängu kohapealt vaadata. Kohapealt oli kohe näha, et Viljandil oli ülekaal: pall oli peaaegu kogu aeg nende jalgade juures. Ülekaalust hoolimata ei tulnud aga väravaid. Poolajal ütles Lisanne: „Olge optimistlikud. Ülekaal on meie poolel, värav tuleb.“\n\nTeisel poolajal nägi Sebastian, et Lorens jooksis vaba kohta. Ta söötis palli täpselt Lorensi jalgadele ja Lorens lõi palli väravasse. Viljandi võitis 1 : 0. Pärast mängu pani Lorens talismani Sebastiani kätte. „Täna oled sina meie talisman,“ ütles ta.\n\nKüsimused:\nMis oli Sebastian Tallinnas olnud?\nTa oli olnud oma meeskonna parim söötja.\nMilline treener on Lisanne Lõhmussaar?\nTa on noor ja ambitsioonikas.\nKellega sõbrunes Sebastian kõige kiiremini?\nTa sõbrunes kõige kiiremini ründaja Lorensiga.\nMiks kutsutakse palli andmist söötmiseks?\nSöötja annab palli ründajale nagu toitu, nii nagu loomadele antakse süüa.\nMilline on meeskonna talisman?\nSee on väike puust öökull, mille ühe mängija ema kunagi tegi.\nKellel oli mängus ülekaal?\nViljandil oli ülekaal, pall oli peaaegu kogu aeg nende jalgade juures."
+    },
+    {
+      "title": "Auto ekraan eesti keeles",
+      "summary": "A translator leads a small team that puts a car's screen texts into Estonian and finds the history of the words she uses.",
+      "newWords": [
+        "koordineerima",
+        "kõrvaklapid",
+        "autopiloot",
+        "katastroofiline",
+        "eemaldamine",
+        "valehäire",
+        "kõikvõimalik"
+      ],
+      "text": "Marliis Tamkivi on tõlk ja töötab Tartus väikeses firmas, mis tõlgib autode tarkvara eesti keelde. Sel kevadel sai firma suure töö: ühe uue auto ekraani kõik tekstid tuli tõlkida eesti keelde kahe kuuga. Marliis koordineerib tööd. Tal on kaks kolleegi ja ta koordineerib nii, et kõik kolm kasutavad samu sõnu. „Kui üks kirjutab ühte ja teine teist, siis juht ei saa aru,“ ütleb ta.\n\nFirma kontor on avatud ruum, kus on kogu aeg kõikvõimalikke hääli: telefonid, kohvimasin ja vestlused. Seepärast kannab Marliis töö ajal kõrvaklappe. Kõrvaklappidega on vaikne ja ta saab keskenduda. Ühel päeval mõtles ta, miks eesti keeles öeldakse kõrvaklapid. Klapp on sõna, mis tuli saksa keelest ja tähendab kaant või läppa. Kõrvaklapid on niisiis klapid, mis on kõrvade peal. Inglise keeles mõeldakse hoopis peale, mitte kõrvadele.\n\nKõige tähtsam sõna tekstides oli autopiloot. Autopiloot on süsteem, mis aitab autot juhtida: hoiab kiirust ja püsib oma reas. Marliis teadis, et sõna auto tuleb kreeka keelest ja tähendab „ise“. Auto on lühend pikemast sõnast, mis tähendas sõidukit, mis liigub ise. Piloot oli vanasti inimene, kes juhtis laevu sadamasse. Autopiloot on niisiis süsteem, mis juhib ise. Autopiloodi tekstid tuli tõlkida eriti täpselt, sest juht peab neist kohe aru saama.\n\nEnne Marliisi meeskonda oli firma proovinud masinaga tõlkida. Tulemus oli katastroofiline. Masin oli tõlkinud ühe nupu nimeks „Seadme kustutamine“, kuigi mõeldud oli telefoni ühenduse eemaldamist autost. Teine katastroofiline viga oli see, et masin kirjutas ühe hoiatuse kolmes kohas kolmel eri moel. Marliis parandas kõik ja valis ühe sõna: eemaldamine. „Telefoni eemaldamine“ tähendab, et telefon ei ole enam autoga ühendatud, aga midagi ei kustutata.\n\nKolmas probleem olid hoiatused. Auto kaamerad ja andurid annavad vahel valehäire: ekraanile tuleb hoiatus, kuigi tee ees on tühi. Valehäireid tuleb ette näiteks paksu lume või vihma ajal. Kui juht valehäirest teada annab, ilmub ekraanile lause, mille Marliis tõlkis nii: „Aitäh! See oli valehäire. Andurid on nüüd korras.“\n\nKahe kuu pärast oli töö valmis. Marliis istus koos kolleegidega uude autosse ja nad vaatasid kõik ekraani tekstid läbi. Autopiloot töötas, hoiatused olid selged ja kõik kolm olid kasutanud samu sõnu. „Koordineerida on raske,“ ütles Marliis ja võttis kõrvaklapid peast, „aga ilma selleta oleks tulemus olnud sama katastroofiline kui masinal.“\n\nKüsimused:\nMida Marliis tööl teeb?\nTa on tõlk ja koordineerib väikese meeskonna tööd, mis tõlgib auto ekraani tekste.\nMiks kannab Marliis tööl kõrvaklappe?\nKontoris on kogu aeg kõikvõimalikke hääli ja kõrvaklappidega on vaikne.\nMida tähendab sõna auto kreeka keeles?\nSee tähendab „ise“.\nMilline oli masina tõlge?\nTulemus oli katastroofiline.\nMis on valehäire?\nSee on hoiatus ekraanil, kuigi tee ees on tühi.\nMillise sõna valis Marliis nupu jaoks?\nTa valis sõna eemaldamine."
+    },
+    {
+      "title": "Arsti keel ja patsiendi keel",
+      "summary": "A hospital social worker helps an elderly patient understand the Latin and Greek words in her diagnosis.",
+      "newWords": [
+        "sotsiaaltöötaja",
+        "iiveldama",
+        "diagnoos",
+        "hämming",
+        "jätis",
+        "vastuoluline",
+        "kohtlemine",
+        "määramine"
+      ],
+      "text": "Alide Kuldsepp on sotsiaaltöötaja Tartu haiglas. Sotsiaaltöötaja aitab patsiente siis, kui neil on muresid, mis ei ole ainult meditsiinilised: kuidas koju saada, kes aitab kodus, kuidas pabereid täita. Sageli aitab Alide ka lihtsalt aru saada, mida arst ütles.\n\nSel nädalal tuli Alide juurde 81-aastane Elfride Kuusemaa. Elfride oli tulnud haiglasse, sest tal oli juba kaks nädalat igal hommikul paha olnud. „Mul iiveldab hommikuti nii, et ma ei saa süüa,“ oli ta arstile öelnud. Pärast uuringuid sai ta arstilt paberi, kus oli kirjas diagnoos. Eesti keeles oli seal ainult üks lause: „Patsiendil iiveldab hommikuti.“ Diagnoos ise oli kirjutatud pooleldi ladina keeles ja Elfride luges seda suures hämmingus. „Mis see tähendab?“ küsis ta Alidelt. „Ma ei saa siit ühestki sõnast aru.“\n\nAlide istus Elfride kõrvale ja luges paberi läbi. Diagnoosiga ei olnud midagi hullu: Elfridel oli kerge maopõletik. Alide selgitas, et ladina keeles kirjutatakse see gastritis. Gast- tähendab kreeka keeles magu ja -itis tähendab põletikku. „Nii lihtne see ongi,“ ütles Alide. Elfride hämming kadus ja ta naeris. „Miks nad siis kohe eesti keeles ei kirjuta?“\n\nAlide rääkis, et ladina keel meditsiinis on jätis vanadest aegadest. Sajandeid kirjutasid Euroopa arstid ja teadlased kõike ladina keeles. Ka Tartu ülikoolis õpetati alguses ladina keeles. Eesti keel tuli meditsiini alles umbes sada aastat tagasi. Jätis on aga jäänud: paljud haiguste nimed on tänaseni ladina või kreeka päritolu. Ka sõna diagnoos tuleb kreeka keelest ja tähendab äratundmist.\n\nArstide seas on see teema vastuoluline. Ühed arvavad, et ladina sõnad on täpsed ja arst saab nendega kogu maailmas aru. Teised leiavad, et patsiendil on õigus oma diagnoosist aru saada ja et ladina keel on vana jätis, mis ainult hirmutab. „Vastuoluline teema,“ ütles Alide, „aga minu meelest on mõlemal poolel õigus.“\n\nAlide arvates on patsiendi hea kohtlemine sama tähtis kui õige ravi. Hea kohtlemine tähendab, et arst räägib patsiendiga rahulikult ja selgelt ja kontrollib, kas patsient sai aru. Diagnoosi määramine on arsti töö, aga ravi määramisel peab ka patsient kaasa mõtlema. Elfride peab nüüd sööma kergemat toitu ja võtma kuu aega tablette.\n\nAlide kirjutas Elfridele kõik eesti keeles ühele paberile. Kaks nädalat hiljem helistas Elfride haiglasse ja ütles, et hommikuti ei ole tal enam paha. „Ja nüüd ma tean ka, mis see gastritis on,“ ütles ta uhkelt.\n\nKüsimused:\nMida teeb sotsiaaltöötaja haiglas?\nSotsiaaltöötaja aitab patsiente muredega, mis ei ole ainult meditsiinilised.\nMiks tuli Elfride haiglasse?\nTal iiveldab hommikuti nii, et ta ei saa süüa.\nMiks oli Elfride hämmingus?\nDiagnoos oli kirjutatud pooleldi ladina keeles ja ta ei saanud sellest aru.\nMida tähendab sõna diagnoos kreeka keeles?\nSee tähendab äratundmist.\nMiks on ladina keel meditsiinis jätis?\nSajandeid kirjutasid arstid ja teadlased kõike ladina keeles.\nMida tähendab patsiendi hea kohtlemine?\nSee tähendab, et arst räägib patsiendiga rahulikult ja selgelt ja kontrollib, kas patsient sai aru."
+    }
+  ]
+}
