@@ -33,6 +33,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
@@ -91,7 +92,8 @@ fun AddToPlaylistButton(
         AppTooltip(description) {
             Box(
                 Modifier.size(size).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle)
-                    .background(if (open) colors.primary.copy(alpha = AppAlpha.soft) else colors.surface)
+                    // Opaque even when tinted, or the raised shadow shows through the fill.
+                    .background(if (open) colors.primary.copy(alpha = AppAlpha.soft).compositeOver(colors.surface) else colors.surface)
                     .border(AppBorders.selected(colors.primary), AppShapes.circle)
                     .clickable { open = !open }
                     .semantics { contentDescription = description }
