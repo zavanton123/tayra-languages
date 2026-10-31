@@ -66,7 +66,7 @@ import org.koin.core.parameter.parametersOf
 
 /**
  * The reader's playlist button, round and raised like the reader's other floating buttons and
- * [size] across: it opens a menu of the language's playlists, each ticked when it holds the text
+ * [size] across with an [iconSize] icon: it opens a menu of the language's playlists, each ticked when it holds the text
  * with [bookId], to put the text in or take it out, and a way to make a new playlist with it.
  * Putting the text in a playlist closes the menu and hands the playlist's name to [onAdded], for
  * the screen to confirm. The menu's right edge is [menuShift] to the right of the button's, so it
@@ -80,6 +80,7 @@ fun AddToPlaylistButton(
     onAdded: (playlist: String) -> Unit,
     modifier: Modifier = Modifier,
     menuShift: Dp = 0.dp,
+    iconSize: Dp = AppSizes.iconMedium,
     viewModel: AddToPlaylistViewModel = koinViewModel(key = "add-to-playlist-$bookId") { parametersOf(PlaylistSource.Text(bookId)) },
 ) {
     val colors = MaterialTheme.colorScheme
@@ -96,7 +97,7 @@ fun AddToPlaylistButton(
                     .semantics { contentDescription = description }
                     .testTag("add-to-playlist"),
                 contentAlignment = Alignment.Center,
-            ) { Icon(AppIcons.PlaylistAdd, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium)) }
+            ) { Icon(AppIcons.PlaylistAdd, contentDescription = null, tint = colors.primary, modifier = Modifier.size(iconSize)) }
         }
         if (open) {
             Popup(

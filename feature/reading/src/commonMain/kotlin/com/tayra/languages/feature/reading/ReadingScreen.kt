@@ -831,14 +831,20 @@ private fun ReadingBody(
             if (state.selecting) {
                 Text(tr("Long-press the last word of the expression, or tap to cancel."), style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }
-            if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome, onPractice, onPracticeAll, edgePadding)
+            if (!state.settings.focusMode) {
+                ReadingFooter(
+                    state, viewModel, onHome, onPractice, onPracticeAll, edgePadding,
+                    playlistBookId = state.book?.id?.takeIf { playlistPlayer != null },
+                    onNewPlaylist = onNewPlaylist,
+                    onAddedToPlaylist = onAddedToPlaylist,
+                )
+            }
         }
         Spacer(Modifier.height(CONTROLS_ROOM))
     }
     EdgeScrollbar(scrollState)
     if (compact && state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
         MobileReaderActions(
-            playlistBookId = state.book?.id?.takeIf { playlistPlayer != null },
             onSettings = onMenu,
             onPreviousSentence = continuous::previous,
             previousEnabled = continuous.currentIndex != null && continuous.currentIndex!! > 0,
@@ -846,8 +852,6 @@ private fun ReadingBody(
             playing = continuous.active,
             onNextSentence = continuous::next,
             nextEnabled = continuous.currentIndex != pageSentences.lastIndex,
-            onNewPlaylist = onNewPlaylist,
-            onAddedToPlaylist = onAddedToPlaylist,
             modifier = Modifier.align(Alignment.BottomCenter),
         )
     }
@@ -868,9 +872,6 @@ private fun ReadingBody(
     }
     if (!compact && state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
         ContinuousControls(
-            bookId = state.book?.id?.takeIf { playlistPlayer != null },
-            onNewPlaylist = onNewPlaylist,
-            onAddedToPlaylist = onAddedToPlaylist,
             playing = continuous.active,
             autoPause = state.settings.autoPause,
             hotkeys = state.settings.hotkeys.takeUnless { LocalWindowWidth.current.isCompact },
@@ -885,7 +886,6 @@ private fun ReadingBody(
 /** Phone controls stay in one place above the safe bottom while the page scrolls behind them. */
 @Composable
 private fun MobileReaderActions(
-    playlistBookId: Long?,
     onSettings: () -> Unit,
     onPreviousSentence: () -> Unit,
     previousEnabled: Boolean,
@@ -893,8 +893,6 @@ private fun MobileReaderActions(
     playing: Boolean,
     onNextSentence: () -> Unit,
     nextEnabled: Boolean,
-    onNewPlaylist: () -> Unit,
-    onAddedToPlaylist: (String) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val colors = MaterialTheme.colorScheme
@@ -923,19 +921,8 @@ private fun MobileReaderActions(
         MobileActionSlot {
             MobileReaderButton(AppIcons.SkipNext, tr("Next sentence"), onNextSentence, enabled = nextEnabled)
         }
-        if (playlistBookId != null) {
-            MobileActionSlot {
-                AddToPlaylistButton(
-                    playlistBookId,
-                    MOBILE_ACTION_SIZE,
-                    onCreate = onNewPlaylist,
-                    onAdded = onAddedToPlaylist,
-                )
-            }
-        } else {
-            // Keeps play centred when this build has no playlist player.
-            MobileActionSlot {}
-        }
+        // Keeps play centred.
+        MobileActionSlot {}
     }
 }
 
@@ -1068,13 +1055,10 @@ private fun KeyCap(hotkey: Hotkey) {
 /**
  * The page's play button, to read on from sentence to sentence, with the auto-pause switch after
  * it and, where there is a keyboard ([hotkeys] given), a button listing the listening shortcuts
- * before it; first of all the button that puts the text in a playlist.
+ * before it.
  */
 @Composable
 private fun ContinuousControls(
-    bookId: Long?,
-    onNewPlaylist: () -> Unit,
-    onAddedToPlaylist: (String) -> Unit,
     playing: Boolean,
     autoPause: Boolean,
     hotkeys: Map<HotkeyAction, Hotkey?>?,
@@ -1088,11 +1072,6 @@ private fun ContinuousControls(
     val playDescription = if (playing) tr("Pause reading") else tr("Read the page")
     val autoPauseDescription = if (autoPause) tr("Auto-pause on") else tr("Auto-pause off")
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        if (bookId != null) {
-            // The menu ends where the controls do: past the buttons after this one.
-            val after = PLAY_CONTROL_SIZE + CONTROL_SIZE + AppSpacing.m * 2 + if (hotkeys != null) CONTROL_SIZE + AppSpacing.m else 0.dp
-            AddToPlaylistButton(bookId, CONTROL_SIZE, onCreate = onNewPlaylist, onAdded = onAddedToPlaylist, menuShift = after)
-        }
         if (hotkeys != null) {
             Box {
                 AppTooltip(shortcutsDescription) {
@@ -1190,7 +1169,18 @@ private fun PageVocabulary(state: ReadingUiState) {
 }
 
 @Composable
-private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, onPractice: (PracticeSetup) -> Unit, onPracticeAll: (PracticeSetup) -> Unit, edgePadding: Dp) {
+private fun ReadingFooter(
+    state: ReadingUiState,
+    viewModel: ReadingViewModel,
+    onHome: () -> Unit,
+    onPractice: (PracticeSetup) -> Unit,
+    onPracticeAll: (PracticeSetup) -> Unit,
+    edgePadding: Dp,
+    /** The text to put in a playlist; null when this build has no playlist player. */
+    playlistBookId: Long?,
+    onNewPlaylist: () -> Unit,
+    onAddedToPlaylist: (String) -> Unit,
+) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val uriHandler = LocalUriHandler.current
@@ -1212,6 +1202,26 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
         // Reaches the card's edges, below the text.
         val strip = Modifier.bleed(edgePadding).drawBehind { drawLine(colors.outlineVariant, Offset.Zero, Offset(size.width, 0f), 1.dp.toPx()) }
             .background(colors.onSurface.copy(alpha = AppAlpha.faint)).padding(horizontal = edgePadding, vertical = if (compact) AppSpacing.l else AppSpacing.xl)
+        // Practice asks about the words being learned, so it is offered only when the page has some.
+        val practisable = remember(state.page, state.items) { state.items.any { it.isWord && it.status.isLearning } }
+        // A text of one page has the same words either way, so it offers only the whole.
+        val showPractice = practisable && state.pageCount > 1
+        val showPracticeAll = last && bookWords > 0
+        val showAnki = showPracticeAll && viewModel.canExportToAnki
+        val playlist: @Composable () -> Unit = {
+            if (playlistBookId != null) {
+                // The menu ends where the buttons do: past the ones after this, next page or finish always among them.
+                val after = listOf(showPractice, showPracticeAll, showAnki, unknowns > 0, true).count { it }
+                AddToPlaylistButton(
+                    playlistBookId,
+                    FOOTER_CONTROL_SIZE,
+                    onCreate = onNewPlaylist,
+                    onAdded = onAddedToPlaylist,
+                    menuShift = (FOOTER_CONTROL_SIZE + AppSpacing.m) * after,
+                    iconSize = AppSizes.iconLarge,
+                )
+            }
+        }
         // Next page also marks this one read, which counts its words as read; on the last page that completes the book.
         val markRemaining: @Composable () -> Unit = {
             if (unknowns > 0) {
@@ -1224,14 +1234,11 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                 ) { viewModel.markPageRead(true, if (last) 0 else 1) }
             }
         }
-        // Practice asks about the words being learned, so it is offered only when the page has some.
-        val practisable = remember(state.page, state.items) { state.items.any { it.isWord && it.status.isLearning } }
-        // A text of one page has the same words either way, so it offers only the whole.
         val practice: @Composable () -> Unit = {
-            if (practisable && state.pageCount > 1) FooterCircle(tr("Practise this page"), AppIcons.Style, FooterCircleStyle.Outlined) { state.book?.let { settingUp = PracticeSource.Page(it.id, state.pageNumber) } }
+            if (showPractice) FooterCircle(tr("Practise this page"), AppIcons.Style, FooterCircleStyle.Outlined) { state.book?.let { settingUp = PracticeSource.Page(it.id, state.pageNumber) } }
         }
         val practiceAll: @Composable () -> Unit = {
-            if (last && bookWords > 0) {
+            if (showPracticeAll) {
                 FooterCircle(
                     when {
                         state.lesson != null -> tr("Practise the lesson's words")
@@ -1251,7 +1258,7 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
         }
         // The same words as the whole text's practice, into Anki: straight into a running one, or as a file.
         val anki: @Composable () -> Unit = {
-            if (last && bookWords > 0 && viewModel.canExportToAnki) {
+            if (showAnki) {
                 val progress = state.ankiProgress
                 FooterCircle(
                     if (progress == null || progress.done.isEmpty()) tr("Export to Anki") else ankiLabel(progress.done, progress.sending),
@@ -1287,6 +1294,7 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                     Modifier.heightIn(min = AppSizes.touch),
                     icon = Icons.AutoMirrored.Filled.ArrowBack,
                 )
+                playlist()
                 practice()
                 practiceAll()
                 anki()
