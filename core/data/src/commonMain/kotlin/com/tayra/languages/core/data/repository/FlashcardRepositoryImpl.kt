@@ -92,6 +92,7 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
                 lastReview = s.lastReview?.toEpochMillis(),
                 suspended = card.suspended,
                 seenStatus = card.seenStatus.value.toLong(),
+                createdAt = card.createdAt?.toEpochMillis(),
             )
         }
     }
@@ -141,5 +142,6 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
         ),
         suspended = suspended,
         seenStatus = TermStatus.entries.firstOrNull { it.value == seen_status.toInt() } ?: TermStatus.WELL_KNOWN,
+        createdAt = created_at?.toInstant(),
     )
 }

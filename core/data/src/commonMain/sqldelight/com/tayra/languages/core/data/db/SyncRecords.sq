@@ -40,9 +40,11 @@ changedFlashcards:
 SELECT f.*, t.text_lc, l.name AS language FROM flashcards f JOIN terms t ON t.id = f.term_id JOIN languages l ON l.id = t.language_id
 WHERE f.updated_at > :since;
 
+-- A record from a device that does not send the card's creation keeps the one here, or dates it as a new card would be.
 upsertFlashcard:
-INSERT OR REPLACE INTO flashcards(term_id, state, due, stability, difficulty, interval_days, remaining_steps, reps, lapses, last_review, suspended, seen_status, updated_at)
-VALUES ?;
+INSERT OR REPLACE INTO flashcards(term_id, state, due, stability, difficulty, interval_days, remaining_steps, reps, lapses, last_review, suspended, seen_status, updated_at, created_at)
+VALUES (:termId, :state, :due, :stability, :difficulty, :intervalDays, :remainingSteps, :reps, :lapses, :lastReview, :suspended, :seenStatus, :updatedAt,
+    coalesce(:createdAt, (SELECT created_at FROM flashcards WHERE term_id = :termId), (SELECT status_changed_at FROM terms WHERE id = :termId)));
 
 deleteFlashcard:
 DELETE FROM flashcards WHERE term_id = :termId;

@@ -1,0 +1,9 @@
+-- When each card was made. Cards made before have it from their word: the last status change of a card not yet
+-- answered is its move to learning, while answers change a word's status, so an answered card dates from the word.
+ALTER TABLE flashcards ADD COLUMN created_at INTEGER;
+
+UPDATE flashcards SET created_at = (
+    SELECT CASE WHEN EXISTS (SELECT 1 FROM flashcard_reviews r WHERE r.term_id = flashcards.term_id) OR flashcards.reps > 0
+        THEN t.created_at ELSE t.status_changed_at END
+    FROM terms t WHERE t.id = flashcards.term_id
+);

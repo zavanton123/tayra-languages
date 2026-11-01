@@ -11,6 +11,8 @@ data class Flashcard(
     val suspended: Boolean = false,
     /** The term's status when the card last saw it; a different status now is a change made elsewhere. */
     val seenStatus: TermStatus,
+    /** When the word became one being learned and the card was made; null for a card not yet saved. */
+    val createdAt: Instant? = null,
 )
 
 /** One answer, kept as history. */

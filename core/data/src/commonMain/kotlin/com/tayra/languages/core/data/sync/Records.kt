@@ -59,7 +59,7 @@ internal data class TermRow(
 internal data class FlashcardRow(
     val termId: Long, val state: Long, val due: Long, val stability: Double?, val difficulty: Double?, val intervalDays: Long,
     val remainingSteps: Long, val reps: Long, val lapses: Long, val lastReview: Long?, val suspended: Boolean, val seenStatus: Long,
-    val updatedAt: Long, val textLc: String, val language: String,
+    val updatedAt: Long, val createdAt: Long?, val textLc: String, val language: String,
 ) {
     fun record(code: String, device: String) = SyncRecord(SyncKinds.FLASHCARD, SyncKeys.ofTerm(code, textLc), updatedAt, data = buildJsonObject {
         put("state", state)
@@ -73,6 +73,7 @@ internal data class FlashcardRow(
         lastReview?.let { put(FlashcardFields.LAST_REVIEW, it) }
         put("suspended", suspended)
         put("seenStatus", seenStatus)
+        createdAt?.let { put("createdAt", it) }
     }, deviceId = device)
 }
 

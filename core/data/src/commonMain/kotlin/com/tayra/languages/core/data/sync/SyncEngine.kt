@@ -5,7 +5,6 @@ import app.cash.sqldelight.async.coroutines.awaitAsOne
 import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
 import com.russhwolf.settings.Settings
 import com.tayra.languages.core.data.db.DatabaseProvider
-import com.tayra.languages.core.data.db.Flashcards
 import com.tayra.languages.core.data.db.Practice_progress
 import com.tayra.languages.core.data.db.Sync_tombstones
 import com.tayra.languages.core.data.db.TayraDatabase
@@ -364,8 +363,8 @@ class SyncEngine(
                         val d = m.data
                         if (remote.kind == SyncKinds.FLASHCARD) {
                             if (m.deleted || d == null) q.deleteFlashcard(termId)
-                            else q.upsertFlashcard(Flashcards(termId, d.long("state") ?: 0, d.long("due") ?: 0, d.double("stability"), d.double("difficulty"), d.long("intervalDays") ?: 0,
-                                d.long("remainingSteps") ?: 0, d.long("reps") ?: 0, d.long("lapses") ?: 0, d.long("lastReview"), d.bool("suspended") ?: false, d.long("seenStatus") ?: 0, m.updatedAt))
+                            else q.upsertFlashcard(termId, d.long("state") ?: 0, d.long("due") ?: 0, d.double("stability"), d.double("difficulty"), d.long("intervalDays") ?: 0,
+                                d.long("remainingSteps") ?: 0, d.long("reps") ?: 0, d.long("lapses") ?: 0, d.long("lastReview"), d.bool("suspended") ?: false, d.long("seenStatus") ?: 0, m.updatedAt, d.long("createdAt"))
                         } else {
                             if (m.deleted || d == null) q.deleteProgress(termId)
                             else q.upsertProgress(Practice_progress(termId, d.long("level") ?: 0, d.long("streak") ?: 0, d.long("asked") ?: 0, d.long("rightAnswers") ?: 0, d.long("lastPractised"), m.updatedAt))

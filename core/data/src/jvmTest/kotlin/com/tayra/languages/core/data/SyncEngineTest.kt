@@ -112,7 +112,7 @@ class SyncEngineTest {
             INSERT INTO term_parents(term_id, parent_id) VALUES ($casas, $casa);
             INSERT INTO level_terms(term_id) VALUES ($casa);
             INSERT INTO vocabulary_levels(language_id, level) VALUES ($pt, 2);
-            INSERT INTO flashcards(term_id, state, due, stability, difficulty, interval_days, reps, last_review, seen_status) VALUES ($casa, 2, 5000, 3.5, 4.25, 3, 2, 4000, 2);
+            INSERT INTO flashcards(term_id, state, due, stability, difficulty, interval_days, reps, last_review, seen_status, created_at) VALUES ($casa, 2, 5000, 3.5, 4.25, 3, 2, 4000, 2, 3500);
             INSERT INTO flashcard_reviews(term_id, reviewed_at, rating, state_before, interval_days, elapsed_days) VALUES ($casa, 4000, 3, 1, 3, 1);
             INSERT INTO practice_progress(term_id, level, streak, asked, right_answers, last_practised) VALUES ($casa, 2, 1, 3, 2, 4500);
             INSERT INTO practice_examples(term_id, sentence, translation, form, form_start, source, fetched_at) VALUES ($casa, 'A casa é azul.', 'The house is blue.', 'casa', 2, 'tatoeba', 100);
@@ -130,7 +130,7 @@ class SyncEngineTest {
         assertEquals(listOf("casa"), desktop.rows("SELECT p.text_lc FROM term_parents tp JOIN terms p ON p.id = tp.parent_id WHERE tp.term_id = ${desktop.id("casas")}"))
         assertEquals(1, desktop.long("SELECT count(*) FROM level_terms WHERE term_id = $copy"))
         assertEquals(listOf("2"), desktop.rows("SELECT level FROM vocabulary_levels"))
-        assertEquals(listOf("2|5000|3.5|4.25|3|2|4000|2"), desktop.rows("SELECT state, due, stability, difficulty, interval_days, reps, last_review, seen_status FROM flashcards WHERE term_id = $copy"))
+        assertEquals(listOf("2|5000|3.5|4.25|3|2|4000|2|3500"), desktop.rows("SELECT state, due, stability, difficulty, interval_days, reps, last_review, seen_status, created_at FROM flashcards WHERE term_id = $copy"))
         assertEquals(listOf("4000|3|1|3|1"), desktop.rows("SELECT reviewed_at, rating, state_before, interval_days, elapsed_days FROM flashcard_reviews WHERE term_id = $copy"))
         assertEquals(listOf("2|1|3|2|4500"), desktop.rows("SELECT level, streak, asked, right_answers, last_practised FROM practice_progress WHERE term_id = $copy"))
         assertEquals(listOf("A casa é azul.|The house is blue.|casa|2|tatoeba"), desktop.rows("SELECT sentence, translation, form, form_start, source FROM practice_examples WHERE term_id = $copy"))
@@ -246,6 +246,24 @@ class SyncEngineTest {
         phone.languages.save(phone.languages.getById(pt)!!.copy(showRomanization = true))
         withTimeout(5_000) { seen.receive() }
         watching.cancel()
+    }
+
+    /** A card from a device that does not send when it was made is dated as a new card here, and keeps that date. */
+    @Test
+    fun aCardSentWithoutItsDateIsDatedHere() = runBlocking<Unit> {
+        val lobo = phone.word("lobo", TermStatus.NEW_2)
+        phone.run("INSERT INTO flashcards(term_id, due, seen_status) VALUES ($lobo, 1000, 2)")
+        phone.engine.syncNow()
+        desktop.engine.syncNow()
+        val copy = desktop.id("lobo")
+        val learning = desktop.long("SELECT status_changed_at FROM terms WHERE id = $copy")
+        assertEquals(learning, desktop.long("SELECT created_at FROM flashcards WHERE term_id = $copy"))
+
+        phone.run("UPDATE flashcards SET reps = 1, last_review = 2000 WHERE term_id = $lobo")
+        phone.engine.syncNow()
+        desktop.run("UPDATE terms SET status_changed_at = ${learning + 5000} WHERE id = $copy")
+        desktop.engine.syncNow()
+        assertEquals(listOf("1|$learning"), desktop.rows("SELECT reps, created_at FROM flashcards WHERE term_id = $copy"))
     }
 
     @Test

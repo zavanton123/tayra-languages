@@ -5,11 +5,15 @@ import java.sql.Connection
 /**
  * Makes a library of the current shape pass for one [version] left, for tests of the migrations
  * after it: what migration 27 adds (sync's columns, tables, indexes and triggers) is taken out of
- * libraries older than 28, which never had it, so the migration can add it again.
+ * libraries older than 28, which never had it, so the migration can add it again; so are later migrations' additions.
  */
 internal fun Connection.pretendVersion(version: Int) {
     if (version <= 28) createStatement().execute("DROP TABLE IF EXISTS sync_pending")
     if (version <= 27) removeSyncTracking()
+    // After the sync triggers go, as a test may have dropped tables they name, or the flashcards themselves.
+    if (version <= 29 && createStatement().executeQuery("SELECT count(*) FROM pragma_table_info('flashcards') WHERE name = 'created_at'").use { it.getInt(1) } > 0) {
+        createStatement().execute("ALTER TABLE flashcards DROP COLUMN created_at")
+    }
     createStatement().execute("PRAGMA user_version = $version")
 }
 

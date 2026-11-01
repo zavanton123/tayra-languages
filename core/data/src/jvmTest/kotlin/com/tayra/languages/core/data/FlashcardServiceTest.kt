@@ -349,4 +349,27 @@ class FlashcardServiceTest {
         val upgraded = FlashcardService(FlashcardRepositoryImpl(reopened), TermRepositoryImpl(reopened, clock), settings, FlashcardScheduler(timeZone = { TimeZone.UTC }), clock)
         assertEquals(lobo, upgraded.next(id).card?.termId)
     }
+
+    /** A card dates from its word's move to learning, keeps the date through its answers, and is dated anew when the word comes back. */
+    @Test
+    fun aCardDatesFromItsWordsMoveToLearning() = runTest {
+        val id = language()
+        val lobo = term(id, "lobo", TermStatus.UNKNOWN)
+        clock.advance(1.hours)
+        terms.updateStatus(listOf(lobo), TermStatus.NEW_1)
+        val learning = clock.now
+        clock.advance(1.hours)
+        assertEquals(learning, service.cardFor(lobo)?.createdAt, "made after the move, dated by it")
+
+        clock.advance(1.days)
+        answer(id, lobo, Rating.GOOD)
+        assertEquals(learning, service.cardFor(lobo)?.createdAt)
+        assertEquals(learning, service.browse(id).cards.single().card.createdAt)
+
+        terms.updateStatus(listOf(lobo), TermStatus.WELL_KNOWN)
+        assertNull(service.cardFor(lobo))
+        clock.advance(1.days)
+        terms.updateStatus(listOf(lobo), TermStatus.NEW_2)
+        assertEquals(clock.now, service.cardFor(lobo)?.createdAt)
+    }
 }
