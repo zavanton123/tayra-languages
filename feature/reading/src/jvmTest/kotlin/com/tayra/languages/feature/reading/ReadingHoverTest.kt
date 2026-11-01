@@ -475,6 +475,22 @@ class ReadingHoverTest {
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.EditBook(1)), visited)
     }
 
+    /** A lesson of several pages is practised as a whole: its footer never offers the page's practice. */
+    @Test
+    fun aLessonOffersOnlyTheWholeLessonsPractice() {
+        val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
+        val vm = runBlocking { reader(mainIsDefault = false, pages = 3, lesson = LessonReading(course, course.lessons[0])) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, practicePane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(vm.state.value.pageCount > 1, "the lesson should have several pages")
+        vm.markToLearn(vm.index("lobo"))
+        rule.waitUntil(5_000) { runBlocking { vm.bookPracticeCount() } > 0 }
+        vm.goToPage(vm.state.value.pageCount)
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Practise the lesson's words").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(rule.onAllNodesWithContentDescription("Practise this page").fetchSemanticsNodes().isEmpty(), "a lesson has no page practice")
+    }
+
     /** A course lesson is shown as part of its course: no word of books or the library, and no editing. */
     @Test
     fun aLessonIsShownAsPartOfItsCourse() {

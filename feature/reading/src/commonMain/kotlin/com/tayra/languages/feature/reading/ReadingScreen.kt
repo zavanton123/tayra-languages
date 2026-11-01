@@ -1176,8 +1176,8 @@ private fun ReadingFooter(
             .background(colors.onSurface.copy(alpha = AppAlpha.faint)).padding(horizontal = edgePadding, vertical = if (compact) AppSpacing.l else AppSpacing.xl)
         // Practice asks about the words being learned, so it is offered only when the page has some.
         val practisable = remember(state.page, state.items) { state.items.any { it.isWord && it.status.isLearning } }
-        // A text of one page has the same words either way, so it offers only the whole.
-        val showPractice = practisable && state.pageCount > 1
+        // A text of one page has the same words either way, so it offers only the whole; a lesson is practised as a whole.
+        val showPractice = practisable && state.pageCount > 1 && state.lesson == null
         val showPracticeAll = last && bookWords > 0
         val showAnki = showPracticeAll && viewModel.canExportToAnki
         val playlist: @Composable () -> Unit = {
