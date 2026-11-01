@@ -203,8 +203,6 @@ internal val frReading: Map<String, String> = mapOf(
     "Online · API key" to "En ligne · Clé API",
     "Playback" to "Lecture audio",
     "Show the play button and a speaker before each sentence" to "Afficher le bouton de lecture et un haut-parleur avant chaque phrase",
-    "Auto-pause" to "Pause auto",
-    "Stop after each sentence" to "S’arrêter après chaque phrase",
     "Hear a word when you select it" to "Entendre un mot quand vous le sélectionnez",
     "Playback speed" to "Vitesse de lecture",
     "Slower" to "Plus lent",

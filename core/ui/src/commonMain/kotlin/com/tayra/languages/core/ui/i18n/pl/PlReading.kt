@@ -203,8 +203,6 @@ internal val plReading: Map<String, String> = mapOf(
     "Online · API key" to "Online · Wymaga klucza API",
     "Playback" to "Odtwarzanie",
     "Show the play button and a speaker before each sentence" to "Pokazuj przycisk odtwarzania i głośnik przed każdym zdaniem",
-    "Auto-pause" to "Autopauza",
-    "Stop after each sentence" to "Zatrzymuj po każdym zdaniu",
     "Hear a word when you select it" to "Wymawiaj zaznaczone słowo",
     "Playback speed" to "Szybkość odtwarzania",
     "Slower" to "Wolniej",

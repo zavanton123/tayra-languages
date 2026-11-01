@@ -203,8 +203,6 @@ internal val esReading: Map<String, String> = mapOf(
     "Online · API key" to "En línea · Clave de API",
     "Playback" to "Reproducción",
     "Show the play button and a speaker before each sentence" to "Mostrar el botón de reproducción y un altavoz antes de cada frase",
-    "Auto-pause" to "Pausa automática",
-    "Stop after each sentence" to "Parar después de cada frase",
     "Hear a word when you select it" to "Oír una palabra al seleccionarla",
     "Playback speed" to "Velocidad de reproducción",
     "Slower" to "Más lento",

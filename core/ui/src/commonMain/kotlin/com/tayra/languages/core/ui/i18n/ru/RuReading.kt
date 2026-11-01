@@ -203,8 +203,6 @@ internal val ruReading: Map<String, String> = mapOf(
     "Online · API key" to "Онлайн · Нужен API-ключ",
     "Playback" to "Воспроизведение",
     "Show the play button and a speaker before each sentence" to "Показывать кнопку воспроизведения и динамик перед каждым предложением",
-    "Auto-pause" to "Автопауза",
-    "Stop after each sentence" to "Останавливаться после каждого предложения",
     "Hear a word when you select it" to "Произносить выбранное слово",
     "Playback speed" to "Скорость воспроизведения",
     "Slower" to "Медленнее",

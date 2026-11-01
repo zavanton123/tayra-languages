@@ -203,8 +203,6 @@ internal val deReading: Map<String, String> = mapOf(
     "Online · API key" to "Online · API-Schlüssel",
     "Playback" to "Wiedergabe",
     "Show the play button and a speaker before each sentence" to "Wiedergabetaste und vor jedem Satz einen Lautsprecher anzeigen",
-    "Auto-pause" to "Autopause",
-    "Stop after each sentence" to "Nach jedem Satz anhalten",
     "Hear a word when you select it" to "Wort beim Auswählen anhören",
     "Playback speed" to "Wiedergabegeschwindigkeit",
     "Slower" to "Langsamer",

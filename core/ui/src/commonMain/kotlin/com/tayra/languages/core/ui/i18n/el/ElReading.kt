@@ -203,8 +203,6 @@ internal val elReading: Map<String, String> = mapOf(
     "Online · API key" to "Online · Κλειδί API",
     "Playback" to "Αναπαραγωγή",
     "Show the play button and a speaker before each sentence" to "Εμφάνιση του κουμπιού αναπαραγωγής και ενός μεγαφώνου πριν από κάθε πρόταση",
-    "Auto-pause" to "Αυτόματη παύση",
-    "Stop after each sentence" to "Διακοπή μετά από κάθε πρόταση",
     "Hear a word when you select it" to "Εκφώνηση λέξης όταν την επιλέγετε",
     "Playback speed" to "Ταχύτητα αναπαραγωγής",
     "Slower" to "Πιο αργά",

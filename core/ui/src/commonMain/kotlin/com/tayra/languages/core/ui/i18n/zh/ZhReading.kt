@@ -203,8 +203,6 @@ internal val zhReading: Map<String, String> = mapOf(
     "Online · API key" to "在线 · 需要 API 密钥",
     "Playback" to "播放",
     "Show the play button and a speaker before each sentence" to "显示播放按钮，并在每个句子前显示扬声器",
-    "Auto-pause" to "自动暂停",
-    "Stop after each sentence" to "每句结束后暂停",
     "Hear a word when you select it" to "选中单词时朗读",
     "Playback speed" to "播放速度",
     "Slower" to "更慢",
