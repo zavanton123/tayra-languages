@@ -232,4 +232,5 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Checking the audio…" to "Проверка озвучки…",
     "Start now" to "Начать сейчас",
     "No translation available" to "Перевод недоступен",
+    "Created" to "Создана",
 )

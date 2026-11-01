@@ -131,7 +131,7 @@ internal val BrowseSortField.label: String
         BrowseSortField.REVIEWS -> tr("Reviews")
         BrowseSortField.LAPSES -> tr("Lapses")
         BrowseSortField.LAST_REVIEW -> tr("Last review")
-        BrowseSortField.ADDED -> tr("Added")
+        BrowseSortField.CREATED -> tr("Created")
     }
 
 /** A card as a row of the list: the word and its translation, its state and when it comes. */

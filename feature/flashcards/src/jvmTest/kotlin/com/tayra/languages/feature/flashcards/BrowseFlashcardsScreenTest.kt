@@ -36,6 +36,7 @@ import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme
 import kotlinx.coroutines.runBlocking
 import java.io.File
+import java.sql.DriverManager
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -45,7 +46,8 @@ import kotlin.test.assertTrue
 @OptIn(ExperimentalTestApi::class)
 class BrowseFlashcardsScreenTest {
 
-    private val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-browse", ".db").also { it.delete() }))
+    private val file = File.createTempFile("tayra-browse", ".db").also { it.delete() }
+    private val provider = DatabaseProvider(DatabaseDriverFactory(file))
     private val languages = LanguageRepositoryImpl(provider)
     private val terms = TermRepositoryImpl(provider)
     private val settings = SettingsRepositoryImpl(MapSettings())
@@ -56,7 +58,7 @@ class BrowseFlashcardsScreenTest {
     private var livro = 0L
 
     /** Three cards: one new, one answered Easy and so in review days away, one suspended. */
-    private fun ComposeUiTest.show(width: Int = 1586, open: (() -> Long)? = null): BrowseFlashcardsViewModel {
+    private fun ComposeUiTest.show(width: Int = 1586, open: (() -> Long)? = null, before: () -> Unit = {}): BrowseFlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id, nativeLanguage = "ru") }
@@ -67,6 +69,7 @@ class BrowseFlashcardsScreenTest {
             service.setSuspended(livro, true)
             id
         }
+        before()
         val viewModel = BrowseFlashcardsViewModel(service, languages, settings, terms)
         setContent {
             TayraTheme {
@@ -89,6 +92,8 @@ class BrowseFlashcardsScreenTest {
     private fun ComposeUiTest.save(env: String) {
         System.getenv(env)?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
     }
+
+    private fun sql(statement: String) = DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.createStatement().execute(statement) }
 
     private fun ComposeUiTest.rows(): Int = listOf(comprar, casa, livro).count { onAllNodesWithTag("browse-row-$it").fetchSemanticsNodes().isNotEmpty() }
 
@@ -120,6 +125,24 @@ class BrowseFlashcardsScreenTest {
         assertEquals(1, rows())
         onNodeWithTag("browse-view-ALL").performClick()
         waitUntil(timeoutMillis = 5_000) { rows() == 3 }
+    }
+
+    /** The table says when each card was made, and sorts by it, the latest first. */
+    @Test
+    fun cardsSayWhenTheyWereMade() = runDesktopComposeUiTest(width = 1500, height = 700) {
+        val day = 86_400_000L
+        val now = System.currentTimeMillis()
+        val viewModel = show(width = 1000) {
+            sql("UPDATE flashcards SET created_at = ${now - 3 * day} WHERE term_id = $comprar")
+            sql("UPDATE flashcards SET created_at = ${now - 14 * day} WHERE term_id = $casa")
+            sql("UPDATE flashcards SET created_at = ${now - day} WHERE term_id = $livro")
+        }
+        onNodeWithText("3 days ago").assertExists()
+        onNodeWithText("2 weeks ago").assertExists()
+        save("BROWSE_CREATED_SCREENSHOT")
+        onNodeWithText("Created").performClick()
+        waitForIdle()
+        assertEquals(listOf(livro, comprar, casa), viewModel.state.value.rows.map { it.termId })
     }
 
     @Test

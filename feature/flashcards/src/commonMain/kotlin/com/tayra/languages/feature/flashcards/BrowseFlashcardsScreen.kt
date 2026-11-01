@@ -327,6 +327,7 @@ private fun CardTableHeader(state: BrowseUiState, viewModel: BrowseFlashcardsVie
         SortHeader(tr("Reviews"), BrowseSortField.REVIEWS, state.sort, Modifier.width(COUNT_WIDTH), viewModel::sortBy)
         SortHeader(tr("Lapses"), BrowseSortField.LAPSES, state.sort, Modifier.width(COUNT_WIDTH), viewModel::sortBy)
         SortHeader(tr("Last review"), BrowseSortField.LAST_REVIEW, state.sort, Modifier.width(LAST_WIDTH), viewModel::sortBy)
+        SortHeader(tr("Created"), BrowseSortField.CREATED, state.sort, Modifier.width(LAST_WIDTH), viewModel::sortBy)
         Spacer(Modifier.width(MENU_WIDTH))
     }
 }
@@ -372,6 +373,7 @@ private fun CardTableRow(row: BrowseRow, state: BrowseUiState, index: Int, actio
         Text("${row.reps}", Modifier.width(COUNT_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim)
         Text("${row.lapses}", Modifier.width(COUNT_WIDTH), style = MaterialTheme.typography.bodyMedium, color = if (row.lapses > 0) AppAccents.red else dim)
         Text(row.lastReview?.relativeTo(state.now) ?: NONE, Modifier.width(LAST_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(row.created?.relativeTo(state.now) ?: NONE, Modifier.width(LAST_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { RowMenu(row, actions) }
     }
 }
@@ -482,7 +484,7 @@ internal fun CardDetail(detail: BrowseDetail, now: Instant, actions: BrowseActio
             StatTile(tr("Reviews"), "${row.reps}", tile)
             StatTile(tr("Lapses"), "${row.lapses}", tile)
             StatTile(tr("Last review"), row.lastReview?.relativeTo(now) ?: NONE, tile)
-            StatTile(tr("Added"), row.added?.formatDate() ?: NONE, tile)
+            StatTile(tr("Created"), row.created?.formatDate() ?: NONE, tile)
             // FSRS's memory state, as Anki's card info shows it: difficulty on a percentage scale, stability in days, the chance of recall now.
             StatTile(tr("Difficulty"), row.difficulty?.let { "${((it - 1) / 9 * 100).roundToInt()}%" } ?: NONE, tile)
             StatTile(tr("Stability"), row.stability?.let { trPlural(it.roundToInt(), "{0} day", "{0} days") } ?: NONE, tile)

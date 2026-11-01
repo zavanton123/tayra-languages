@@ -34,7 +34,8 @@ data class BrowseRow(
     val reps: Int,
     val lapses: Int,
     val lastReview: Instant?,
-    val added: Instant?,
+    /** When the word became one being learned and the card was made. */
+    val created: Instant?,
     /** FSRS's difficulty, from 1 to 10, and stability in days; null before the first answer. */
     val difficulty: Double?,
     val stability: Double?,
@@ -47,7 +48,7 @@ data class BrowseRow(
 /** The groups of cards the browser can show, as the items of Anki's sidebar. */
 enum class BrowseView { ALL, DUE, NEW, LEARNING, REVIEW, FORGOTTEN, SUSPENDED }
 
-enum class BrowseSortField { WORD, STATE, DUE, INTERVAL, REVIEWS, LAPSES, LAST_REVIEW, ADDED }
+enum class BrowseSortField { WORD, STATE, DUE, INTERVAL, REVIEWS, LAPSES, LAST_REVIEW, CREATED }
 
 data class BrowseSort(val field: BrowseSortField, val ascending: Boolean = true)
 
@@ -149,7 +150,7 @@ class BrowseFlashcardsViewModel(
                     reps = s.reps,
                     lapses = s.lapses,
                     lastReview = s.lastReview,
-                    added = entry.term.createdAt,
+                    created = card.createdAt ?: entry.term.createdAt,
                     difficulty = s.memory?.difficulty,
                     stability = s.memory?.stability,
                     retrievability = entry.retrievability,
@@ -207,7 +208,7 @@ class BrowseFlashcardsViewModel(
             BrowseSortField.REVIEWS -> compareBy { it.reps }
             BrowseSortField.LAPSES -> compareBy { it.lapses }
             BrowseSortField.LAST_REVIEW -> compareBy(nullsFirst()) { it.lastReview }
-            BrowseSortField.ADDED -> compareBy(nullsFirst()) { it.added }
+            BrowseSortField.CREATED -> compareBy(nullsFirst()) { it.created }
         }
         val ordered = if (sort.ascending) byField else byField.reversed()
         return ordered.thenBy(String.CASE_INSENSITIVE_ORDER) { it.word }

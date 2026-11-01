@@ -232,4 +232,5 @@ internal val frCourses: Map<String, String> = mapOf(
     "Checking the audio…" to "Vérification de l’audio…",
     "Start now" to "Commencer maintenant",
     "No translation available" to "Aucune traduction disponible",
+    "Created" to "Créée",
 )
