@@ -119,7 +119,8 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     NEXT_THEME(HotkeyCategory.MISC, "Change to the next theme", Hotkey("M")),
     SAVE_TERM(HotkeyCategory.MISC, "Save term in term form", Hotkey("Enter", ctrl = true)),
 
-    FLASHCARDS_PREVIOUS(HotkeyCategory.FLASHCARDS, "Go back to the previous card", Hotkey("Z", ctrl = true));
+    FLASHCARDS_PREVIOUS(HotkeyCategory.FLASHCARDS, "Go back to the previous card", Hotkey("Z", ctrl = true)),
+    FLASHCARDS_LISTEN(HotkeyCategory.FLASHCARDS, "Listen to the card's sentence", Hotkey("R"));
 
     /** Stable key used for persistence. */
     val settingKey: String get() = "hotkey_$name"

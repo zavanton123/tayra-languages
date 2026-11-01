@@ -240,7 +240,7 @@ internal val Rating.tint: Color
 
 /**
  * The page under the top bar. [speaker] reads the card aloud; without one there are no listen buttons. [hotkeys] holds the
- * shortcut back to the previous card. [overlay] says a dialog over the page has the keys.
+ * shortcuts back to the previous card and to the card's sound. [overlay] says a dialog over the page has the keys.
  */
 @Composable
 internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier, hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults, overlay: Boolean = false) {
@@ -263,6 +263,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         // The configurable shortcut (Ctrl+Z unless changed), and the left arrow always.
                         pressed != null && pressed == hotkeys[HotkeyAction.FLASHCARDS_PREVIOUS] -> if (state.canUndo) actions.onUndo()
                         event.key == Key.DirectionLeft -> if (state.canUndo) actions.onUndo()
+                        pressed != null && pressed == hotkeys[HotkeyAction.FLASHCARDS_LISTEN] && speaker != null -> state.card?.let { speaker.toggle(it.spoken, it.languageCode) }
                         event.isCtrlPressed || event.isMetaPressed -> return@onPreviewKeyEvent false
                         !state.revealed && (event.key == Key.Spacebar || event.key == Key.Enter) -> actions.onReveal()
                         !state.revealed -> return@onPreviewKeyEvent false

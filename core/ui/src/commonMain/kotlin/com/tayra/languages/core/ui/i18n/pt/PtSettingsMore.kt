@@ -367,4 +367,5 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "What's new" to "Novidades",
     "Later" to "Mais tarde",
     "Skip this version" to "Pular esta versão",
+    "Listen to the card's sentence" to "Ouvir a frase do cartão",
 )

@@ -367,4 +367,5 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "What's new" to "Что нового",
     "Later" to "Позже",
     "Skip this version" to "Пропустить эту версию",
+    "Listen to the card's sentence" to "Прослушать предложение с карточки",
 )

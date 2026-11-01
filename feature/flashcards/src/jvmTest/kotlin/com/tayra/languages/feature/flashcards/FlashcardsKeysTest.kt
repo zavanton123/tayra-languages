@@ -167,6 +167,23 @@ class FlashcardsKeysTest {
         waitUntil(timeoutMillis = 3_000) { viewModel.state.value.answered == 1 }
     }
 
+    /** R plays the card's sentence and stops it, before the answer as after it. */
+    @Test
+    fun rPlaysTheSentence() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        onRoot().performKeyInput { pressKey(Key.R) }
+        waitUntil(timeoutMillis = 3_000) { playing() }
+        onRoot().performKeyInput { pressKey(Key.R) }
+        waitUntil(timeoutMillis = 3_000) { !playing() }
+        // The answer reads the sentence aloud by itself; R stops it and plays it again.
+        onRoot().performKeyInput { pressKey(Key.Spacebar) }
+        waitUntil(timeoutMillis = 3_000) { playing() }
+        onRoot().performKeyInput { pressKey(Key.R) }
+        waitUntil(timeoutMillis = 3_000) { !playing() }
+        onRoot().performKeyInput { pressKey(Key.R) }
+        waitUntil(timeoutMillis = 3_000) { playing() }
+    }
+
     @Test
     fun thePageTakesTheKeysBackWhenItReturnsToTheFront() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val viewModel = show()

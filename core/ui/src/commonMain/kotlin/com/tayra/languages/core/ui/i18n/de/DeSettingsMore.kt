@@ -367,4 +367,5 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "What's new" to "Was ist neu",
     "Later" to "Später",
     "Skip this version" to "Diese Version überspringen",
+    "Listen to the card's sentence" to "Den Satz der Karte anhören",
 )

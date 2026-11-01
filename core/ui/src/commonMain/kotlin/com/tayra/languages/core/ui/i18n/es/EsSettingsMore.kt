@@ -367,4 +367,5 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "What's new" to "Novedades",
     "Later" to "Más tarde",
     "Skip this version" to "Omitir esta versión",
+    "Listen to the card's sentence" to "Escuchar la frase de la tarjeta",
 )
