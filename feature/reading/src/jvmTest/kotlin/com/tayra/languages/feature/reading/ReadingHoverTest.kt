@@ -1119,7 +1119,7 @@ class ReadingHoverTest {
         assertNull(vm.hoverCard("floresta"))
     }
 
-    /** The language's voice is chosen from a drop-down menu in the Audio tab. */
+    /** The speech engine and the language's voice are chosen from drop-down menus in the Audio tab. */
     @Test
     fun theVoiceIsChosenFromADropDown() {
         val piper = object : LocalSpeechEngine {
@@ -1147,6 +1147,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-AUDIO").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("pane-tab-AUDIO").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("voice-choice").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("speech-engine-choice").assertTextContains("Piper", substring = true)
         System.getenv("VOICE_CHOICE_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[1].captureToImage().toAwtImage(), "png", File(path))
