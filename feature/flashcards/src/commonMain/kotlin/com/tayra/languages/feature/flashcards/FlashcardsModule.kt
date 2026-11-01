@@ -10,7 +10,7 @@ import org.koin.dsl.module
 
 val flashcardsModule = module {
     viewModel { FlashcardsViewModel(get(), get(), get(), get(), get(), get(), get(), books = get()) }
-    viewModel { BrowseFlashcardsViewModel(get(), get(), get(), get()) }
+    viewModel { BrowseFlashcardsViewModel(get(), get(), get(), get(), get()) }
 }
 
 fun NavGraphBuilder.flashcardsGraph(navController: NavController) {

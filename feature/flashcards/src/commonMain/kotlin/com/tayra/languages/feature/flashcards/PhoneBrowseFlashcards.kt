@@ -35,8 +35,10 @@ import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.style.TextOverflow
 import com.tayra.languages.core.ui.components.AppCheckbox
 import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppTooltip
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LearningLanguageSelector
 import com.tayra.languages.core.ui.components.NavSection
@@ -68,7 +70,13 @@ internal fun PhoneBrowseFlashcardsScreen(
     var sorting by remember { mutableStateOf(false) }
     val showChecks = selecting || state.selected.isNotEmpty()
     Scaffold(
-        topBar = { AppTopBar(title = tr("Browse flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS, onBack = onBack, actions = { QuietButton(tr("Review cards"), onClick = actions.onReview, modifier = Modifier.testTag("phone-review")) }) },
+        topBar = { AppTopBar(title = tr("Browse flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS, onBack = onBack, actions = {
+            if (state.canImportAnki) {
+                val label = tr("Import from Anki")
+                AppTooltip(label) { AppIconButton(AppIcons.UploadFile, contentDescription = label, onClick = actions.onImportAnki, modifier = Modifier.testTag("import-anki")) }
+            }
+            QuietButton(tr("Review cards"), onClick = actions.onReview, modifier = Modifier.testTag("phone-review"))
+        }) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         val list = rememberLazyListState()

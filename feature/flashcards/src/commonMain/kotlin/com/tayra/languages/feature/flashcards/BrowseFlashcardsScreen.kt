@@ -32,6 +32,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -91,8 +92,12 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.feature.terms.examples.ChooseExampleDialog
+import io.github.vinceglb.filekit.dialogs.FileKitType
+import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
+import io.github.vinceglb.filekit.readBytes
 import kotlin.math.roundToInt
 import kotlin.time.Instant
+import kotlinx.coroutines.launch
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.daysUntil
@@ -116,6 +121,10 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
     }
     var confirmReset by remember { mutableStateOf<Collection<Long>?>(null) }
     var confirmDelete by remember { mutableStateOf<Collection<Long>?>(null) }
+    val scope = rememberCoroutineScope()
+    val ankiPicker = rememberFilePickerLauncher(type = FileKitType.File(listOf("apkg", "colpkg"))) { file ->
+        if (file != null) scope.launch { viewModel.importAnki(file.readBytes()) }
+    }
     val actions = BrowseActions(
         onOpen = viewModel::open,
         onToggle = viewModel::toggleSelected,
@@ -125,6 +134,7 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
         onDelete = { confirmDelete = it.toList() },
         onReview = { onNavigate(Route.Flashcards) },
         onSaveSentence = viewModel::saveSentence,
+        onImportAnki = { ankiPicker.launch() },
     )
     val width = LocalWindowWidth.current
     if (width.isCompact) {
@@ -152,6 +162,7 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
             onDismiss = { confirmDelete = null },
         )
     }
+    state.ankiImport?.let { AnkiImportDialog(it, onDismiss = viewModel::closeAnkiImport) }
     confirmReset?.let { ids ->
         ConfirmDialog(
             title = trPlural(ids.size, "Reset {0} flashcard?", "Reset {0} flashcards?"),
@@ -177,6 +188,8 @@ internal class BrowseActions(
     val onReview: () -> Unit = {},
     /** Replaces the example sentence of the card's term. */
     val onSaveSentence: (termId: Long, sentence: String) -> Unit = { _, _ -> },
+    /** Asks for an Anki package to import. */
+    val onImportAnki: () -> Unit = {},
 )
 
 private val DETAIL_WIDTH = 400.dp
@@ -195,7 +208,12 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
                     tr("Browse flashcards"),
                     subtitle = if (state.languageName.isEmpty()) tr("Every card of the words you are learning, with where each stands.")
                     else tr("Every card of the {0} words you are learning, with where each stands.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
-                ) { PrimaryButton(tr("Review cards"), onClick = actions.onReview, icon = AppIcons.Style) }
+                ) {
+                    Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                        if (state.canImportAnki) SecondaryButton(tr("Import from Anki"), onClick = actions.onImportAnki, modifier = Modifier.testTag("import-anki"), icon = AppIcons.UploadFile)
+                        PrimaryButton(tr("Review cards"), onClick = actions.onReview, icon = AppIcons.Style)
+                    }
+                }
             }
         }
         item { Toolbar(state, viewModel) }

@@ -2,6 +2,8 @@ package com.tayra.languages.feature.flashcards
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.tayra.languages.core.domain.flashcards.AnkiImportException
+import com.tayra.languages.core.domain.flashcards.AnkiImportService
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.FlashcardReview
 import com.tayra.languages.core.domain.flashcards.FlashcardService
@@ -17,6 +19,7 @@ import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlin.coroutines.cancellation.CancellationException
 import kotlin.time.Instant
 
 /** One card as the browser lists it. */
@@ -65,6 +68,13 @@ data class BrowseCounts(val all: Int = 0, val due: Int = 0, val new: Int = 0, va
     }
 }
 
+/** An import from Anki: under way, with how many words are done, finished, or failed with why. */
+sealed interface AnkiImport {
+    data class Working(val done: Int = 0, val total: Int = 0) : AnkiImport
+    data class Done(val report: AnkiImportService.Report) : AnkiImport
+    data class Failed(val reason: String?) : AnkiImport
+}
+
 /** The card opened for a closer look, with its review history. */
 data class BrowseDetail(val row: BrowseRow, val reviews: List<FlashcardReview> = emptyList(), val loading: Boolean = true)
 
@@ -82,6 +92,9 @@ data class BrowseUiState(
     val now: Instant = Instant.DISTANT_PAST,
     /** A card to bring into view in the list, once; the one the browser was opened for. */
     val focus: Long? = null,
+    /** Whether Anki packages can be imported here. */
+    val canImportAnki: Boolean = false,
+    val ankiImport: AnkiImport? = null,
 ) {
     val filtered: Boolean get() = search.isNotBlank() || view != BrowseView.ALL
 }
@@ -92,9 +105,10 @@ class BrowseFlashcardsViewModel(
     private val languages: LanguageRepository,
     private val settings: SettingsRepository,
     private val terms: TermRepository,
+    private val ankiImport: AnkiImportService? = null,
 ) : ViewModel() {
 
-    private val _state = MutableStateFlow(BrowseUiState())
+    private val _state = MutableStateFlow(BrowseUiState(canImportAnki = ankiImport?.available == true))
     val state: StateFlow<BrowseUiState> = _state.asStateFlow()
 
     private var all: List<BrowseRow> = emptyList()
@@ -296,5 +310,28 @@ class BrowseFlashcardsViewModel(
             // The history shown is gone with the reset.
             if (open != null && open in termIds) open(open)
         }
+    }
+
+    /** Imports the cards of the Anki package in [bytes], then says what was done. */
+    fun importAnki(bytes: ByteArray) {
+        val importer = ankiImport ?: return
+        if (_state.value.ankiImport is AnkiImport.Working) return
+        _state.update { it.copy(ankiImport = AnkiImport.Working()) }
+        viewModelScope.launch {
+            val result = try {
+                AnkiImport.Done(importer.import(bytes) { done, total -> _state.update { it.copy(ankiImport = AnkiImport.Working(done, total)) } })
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                // An unexpected failure is told as one, without its technical message.
+                AnkiImport.Failed((e as? AnkiImportException)?.message)
+            }
+            _state.update { it.copy(ankiImport = result) }
+            refresh()
+        }
+    }
+
+    fun closeAnkiImport() {
+        _state.update { it.copy(ankiImport = null) }
     }
 }

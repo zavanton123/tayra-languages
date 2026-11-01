@@ -23,6 +23,11 @@ import com.tayra.languages.core.data.repository.FlashcardRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
+import com.tayra.languages.core.domain.flashcards.AnkiArchive
+import com.tayra.languages.core.domain.flashcards.AnkiArchiveCard
+import com.tayra.languages.core.domain.flashcards.AnkiArchiveNote
+import com.tayra.languages.core.domain.flashcards.AnkiArchiveReader
+import com.tayra.languages.core.domain.flashcards.AnkiImportService
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.domain.flashcards.Rating
@@ -34,6 +39,7 @@ import com.tayra.languages.core.ui.components.LocalFlashcardsDue
 import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme
+import kotlin.time.Instant
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import java.sql.DriverManager
@@ -58,7 +64,7 @@ class BrowseFlashcardsScreenTest {
     private var livro = 0L
 
     /** Three cards: one new, one answered Easy and so in review days away, one suspended. */
-    private fun ComposeUiTest.show(width: Int = 1586, open: (() -> Long)? = null, before: () -> Unit = {}): BrowseFlashcardsViewModel {
+    private fun ComposeUiTest.show(width: Int = 1586, open: (() -> Long)? = null, importer: AnkiImportService? = null, before: () -> Unit = {}): BrowseFlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id, nativeLanguage = "ru") }
@@ -70,7 +76,7 @@ class BrowseFlashcardsScreenTest {
             id
         }
         before()
-        val viewModel = BrowseFlashcardsViewModel(service, languages, settings, terms)
+        val viewModel = BrowseFlashcardsViewModel(service, languages, settings, terms, importer)
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -110,6 +116,7 @@ class BrowseFlashcardsScreenTest {
         assertEquals(0, onAllNodesWithText("Review").fetchSemanticsNodes().size)
         assertEquals(2, onAllNodesWithText("Not shown yet").fetchSemanticsNodes().size)
         save("BROWSE_SCREENSHOT")
+        assertTrue(onAllNodesWithTag("import-anki").fetchSemanticsNodes().isEmpty(), "no import where packages cannot be read")
 
         onNodeWithTag("browse-search").performTextInput("cas")
         waitUntil(timeoutMillis = 5_000) { rows() == 1 }
@@ -125,6 +132,26 @@ class BrowseFlashcardsScreenTest {
         assertEquals(1, rows())
         onNodeWithTag("browse-view-ALL").performClick()
         waitUntil(timeoutMillis = 5_000) { rows() == 3 }
+    }
+
+    /** An Anki package's cards come in from the button beside Review cards, and the import says what it did. */
+    @Test
+    fun ankiCardsComeInAndTheImportSaysWhatItDid() = runDesktopComposeUiTest(width = 1500, height = 900) {
+        val card = AnkiArchiveCard("Tayra Languages::Portuguese", 2, 2, 400, null, 30, 3, 0, 0, 40.5, 5.25, null, emptyList())
+        val note = AnkiArchiveNote(1, mapOf("Word" to "pretendo", "Language" to "pt", "Subtitle" to "Eu pretendo partir cedo.", "Word Definition" to "намереваюсь"), emptyList(), listOf(card))
+        val reader = object : AnkiArchiveReader {
+            override val available = true
+            override suspend fun read(bytes: ByteArray) = AnkiArchive(Instant.parse("2026-02-14T04:00:00Z"), listOf(note))
+        }
+        val viewModel = show(importer = AnkiImportService(reader, cards, terms, languages, settings))
+        onNodeWithTag("import-anki").assertExists()
+        viewModel.importAnki(ByteArray(0))
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 new word saved with its card").fetchSemanticsNodes().isNotEmpty() }
+        save("BROWSE_ANKI_SCREENSHOT")
+        onNodeWithTag("anki-import-close").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("anki-import").fetchSemanticsNodes().isEmpty() }
+        onNodeWithText("pretendo").assertExists()
+        onNodeWithText("4 cards").assertExists()
     }
 
     /** The table says when each card was made, and sorts by it, the latest first. */
