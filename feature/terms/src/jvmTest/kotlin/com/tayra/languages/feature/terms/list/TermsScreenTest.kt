@@ -168,6 +168,18 @@ class TermsScreenTest {
         onNodeWithContentDescription("1 filter on").assertExists()
     }
 
+    /** A reader's page opens on its words being learned; showing all words adds its known ones and stays on the page. */
+    @Test
+    fun aPageOpensOnItsLearningWords() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        // gostar (known), comprar (learning 1) and pensar (learning 3) are on the page; produtos is not.
+        show(termIds = listOf(1L, 2L, 5L))
+        waitForList("comprar", "pensar", hidden = listOf("gostar", "produtos"))
+        onAllNodesWithText("Show all words")[0].performClick()
+        waitForList("gostar", "comprar", "pensar", hidden = listOf("produtos"))
+        onNodeWithText("Show learning words").performClick()
+        waitForList("comprar", "pensar", hidden = listOf("gostar", "produtos"))
+    }
+
     /** A reader's page whose words are none of them saved yet lists nothing, not the whole vocabulary. */
     @Test
     fun aPageWithNoSavedWordsListsNone() = runDesktopComposeUiTest(width = 1586, height = 1000) {
