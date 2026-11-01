@@ -248,4 +248,8 @@ internal val elCourses: Map<String, String> = mapOf(
     "{0} cards brought up to date" to "Ενημερώθηκε {0} κάρτα|Ενημερώθηκαν {0} κάρτες",
     "{0} answers added to the history" to "Προστέθηκε {0} απάντηση στο ιστορικό|Προστέθηκαν {0} απαντήσεις στο ιστορικό",
     "{0} notes left out: they have no word to read." to "Παραλείφθηκε {0} σημείωση: δεν έχει λέξη.|Παραλείφθηκαν {0} σημειώσεις: δεν έχουν λέξη.",
+    "Flashcard details" to "Λεπτομέρειες κάρτας",
+    "Schedule" to "Πρόγραμμα",
+    "Danger zone" to "Επικίνδυνη ζώνη",
+    "Delete flashcard" to "Διαγραφή κάρτας",
 )

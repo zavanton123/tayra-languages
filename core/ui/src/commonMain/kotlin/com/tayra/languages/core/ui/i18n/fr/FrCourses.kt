@@ -248,4 +248,8 @@ internal val frCourses: Map<String, String> = mapOf(
     "{0} cards brought up to date" to "{0} carte mise à jour|{0} cartes mises à jour",
     "{0} answers added to the history" to "{0} réponse ajoutée à l’historique|{0} réponses ajoutées à l’historique",
     "{0} notes left out: they have no word to read." to "{0} note ignorée : elle ne contient aucun mot.|{0} notes ignorées : elles ne contiennent aucun mot.",
+    "Flashcard details" to "Détails de la carte",
+    "Schedule" to "Planification",
+    "Danger zone" to "Zone de danger",
+    "Delete flashcard" to "Supprimer la carte",
 )

@@ -56,7 +56,7 @@ import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 
-/** The browser on a phone: the cards as a list, the groups in a scrolling row, sorting from a sheet and the card info in another. */
+/** The browser on a phone: the cards as a list, the groups in a scrolling row, sorting from a sheet and the card's details on a page of their own. */
 @Composable
 internal fun PhoneBrowseFlashcardsScreen(
     state: BrowseUiState,
@@ -127,7 +127,7 @@ internal fun PhoneBrowseFlashcardsScreen(
             onPick = { viewModel.sortBy(it); sorting = false },
         )
     }
-    state.detail?.let { DetailSheet(it, state.now, actions, onDismiss = viewModel::closeDetail) }
+    state.detail?.let { DetailScreen(it, state.now, actions, onDismiss = viewModel::closeDetail) }
 }
 
 internal val BrowseSortField.label: String

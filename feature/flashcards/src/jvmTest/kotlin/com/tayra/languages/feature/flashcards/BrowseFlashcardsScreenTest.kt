@@ -102,6 +102,11 @@ class BrowseFlashcardsScreenTest {
         System.getenv(env)?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
     }
 
+    /** The topmost window, a dialog over the page when one is open. */
+    private fun ComposeUiTest.saveTop(env: String) {
+        System.getenv(env)?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot()).fetchSemanticsNodes().indices.last().let { i -> onAllNodes(isRoot())[i] }.captureToImage().toAwtImage(), "png", File(it)) }
+    }
+
     private fun sql(statement: String) = DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.createStatement().execute(statement) }
 
     private fun ComposeUiTest.rows(): Int = listOf(comprar, casa, livro).count { onAllNodesWithTag("browse-row-$it").fetchSemanticsNodes().isNotEmpty() }
@@ -184,8 +189,9 @@ class BrowseFlashcardsScreenTest {
         onNodeWithTag("browse-row-$casa").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("review-history").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("browse-detail").assertExists()
+        onNodeWithText("Flashcard details").assertExists()
         onNodeWithText("Easy").assertExists()
-        save("BROWSE_DETAIL_SCREENSHOT")
+        saveTop("BROWSE_DETAIL_SCREENSHOT")
 
         onNodeWithText("Reset progress").performClick()
         onNodeWithText("Reset 1 flashcard?").assertExists()
@@ -194,6 +200,8 @@ class BrowseFlashcardsScreenTest {
         // A new card has nothing to reset; its history stays, as in Anki.
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Reset progress").fetchSemanticsNodes().isEmpty() }
         onNodeWithText("Easy").assertExists()
+        onNodeWithTag("detail-done").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("browse-detail").fetchSemanticsNodes().isEmpty() }
     }
 
     /** The sentence the card is built on can be changed in the card info, in place. */
@@ -300,7 +308,7 @@ class BrowseFlashcardsScreenTest {
     }
 
     @Test
-    fun aPhoneOpensTheCardInASheet() = runDesktopComposeUiTest(width = 420, height = 900) {
+    fun aPhoneOpensTheCardOnAPageOfItsOwn() = runDesktopComposeUiTest(width = 420, height = 900) {
         show(width = 420)
         onNodeWithTag("phone-sort").assertExists()
         save("BROWSE_PHONE_LIST_SCREENSHOT")
@@ -313,6 +321,9 @@ class BrowseFlashcardsScreenTest {
         onNodeWithTag("browse-row-$casa").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("review-history").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("browse-detail").assertExists()
-        save("BROWSE_PHONE_SCREENSHOT")
+        onNodeWithText("Danger zone").assertExists()
+        saveTop("BROWSE_PHONE_SCREENSHOT")
+        onNodeWithTag("detail-back").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("browse-detail").fetchSemanticsNodes().isEmpty() }
     }
 }

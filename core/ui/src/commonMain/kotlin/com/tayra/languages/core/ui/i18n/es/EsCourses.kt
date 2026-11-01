@@ -248,4 +248,8 @@ internal val esCourses: Map<String, String> = mapOf(
     "{0} cards brought up to date" to "{0} tarjeta actualizada|{0} tarjetas actualizadas",
     "{0} answers added to the history" to "{0} respuesta añadida al historial|{0} respuestas añadidas al historial",
     "{0} notes left out: they have no word to read." to "{0} nota omitida: no tiene ninguna palabra.|{0} notas omitidas: no tienen ninguna palabra.",
+    "Flashcard details" to "Detalles de la tarjeta",
+    "Schedule" to "Programación",
+    "Danger zone" to "Zona de peligro",
+    "Delete flashcard" to "Eliminar tarjeta",
 )

@@ -248,4 +248,8 @@ internal val deCourses: Map<String, String> = mapOf(
     "{0} cards brought up to date" to "{0} Karte aktualisiert|{0} Karten aktualisiert",
     "{0} answers added to the history" to "{0} Antwort zum Verlauf hinzugefügt|{0} Antworten zum Verlauf hinzugefügt",
     "{0} notes left out: they have no word to read." to "{0} Notiz ausgelassen: Sie enthält kein Wort.|{0} Notizen ausgelassen: Sie enthalten kein Wort.",
+    "Flashcard details" to "Karteikarten-Details",
+    "Schedule" to "Zeitplan",
+    "Danger zone" to "Gefahrenbereich",
+    "Delete flashcard" to "Karteikarte löschen",
 )

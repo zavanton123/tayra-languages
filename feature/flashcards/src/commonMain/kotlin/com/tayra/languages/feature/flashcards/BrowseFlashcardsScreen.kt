@@ -1,28 +1,34 @@
 package com.tayra.languages.feature.flashcards
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.hoverable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsHoveredAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -47,12 +53,13 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.FlashcardReview
-import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppCheckbox
+import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppScreenDialog
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.AppVerticalDivider
@@ -61,6 +68,7 @@ import com.tayra.languages.core.ui.components.ChipSize
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconButtonSize
+import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.ListPager
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
@@ -89,6 +97,7 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
@@ -142,16 +151,9 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
         PhoneBrowseFlashcardsScreen(state, viewModel, actions, onNavigate = onNavigate, onBack = onBack)
     } else {
         Scaffold(topBar = { AppTopBar(title = tr("Browse flashcards"), onNavigate = onNavigate, onBack = onBack, section = NavSection.FLASHCARDS) }) { padding ->
-            Row(Modifier.padding(padding).fillMaxSize()) {
-                BrowseContent(state, viewModel, actions, Modifier.weight(1f))
-                val detail = state.detail
-                if (detail != null && width.isExpanded) {
-                    DetailPanel(detail, state.now, actions, onClose = viewModel::closeDetail, Modifier.width(DETAIL_WIDTH).fillMaxHeight())
-                }
-            }
+            BrowseContent(state, viewModel, actions, Modifier.padding(padding).fillMaxSize())
         }
-        val detail = state.detail
-        if (detail != null && !width.isExpanded) DetailSheet(detail, state.now, actions, onDismiss = viewModel::closeDetail)
+        state.detail?.let { DetailDialog(it, state.now, actions, onDismiss = viewModel::closeDetail) }
     }
     confirmDelete?.let { ids ->
         ConfirmDialog(
@@ -193,10 +195,12 @@ internal class BrowseActions(
     val onImportAnki: () -> Unit = {},
 )
 
-private val DETAIL_WIDTH = 400.dp
+private val DETAIL_DIALOG_WIDTH = 820.dp
+/** Narrower than this, the dialog's schedule and history stack rather than stand side by side. */
+private val DETAIL_TWO_COLUMNS = 640.dp
 private val SEARCH_WIDTH = 560.dp
 
-/** The page beside the detail panel: heading, search, the groups, the selection's actions and the table. */
+/** The page: heading, search, the groups, the selection's actions and the table. */
 @Composable
 private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewModel, actions: BrowseActions, modifier: Modifier) {
     val list = rememberLazyListState()
@@ -461,83 +465,140 @@ internal fun dueLabel(row: BrowseRow, now: Instant): String {
 
 internal fun intervalLabel(row: BrowseRow): String = if (row.intervalDays > 0) trPlural(row.intervalDays, "{0} day", "{0} days") else NONE
 
-/** The card's schedule, memory and review history, with what can be done to it, beside the table. */
+/** The opened card on a wide screen: a dialog with its schedule beside its review history, and its reset and delete at the foot. */
 @Composable
-private fun DetailPanel(detail: BrowseDetail, now: Instant, actions: BrowseActions, onClose: () -> Unit, modifier: Modifier) {
-    val colors = MaterialTheme.colorScheme
-    Box(modifier.background(colors.surface)) {
-        Row(Modifier.fillMaxHeight()) {
-            AppVerticalDivider()
-            ScrollColumn(Modifier.fillMaxSize().testTag("browse-detail"), contentModifier = Modifier.padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.l)) {
-                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                    Text(tr("Card info"), Modifier.weight(1f), style = AppText.itemTitle)
-                    AppIconButton(Icons.Default.Close, contentDescription = tr("Close card info"), onClick = onClose)
-                }
-                CardDetail(detail, now, actions, compact = false)
-            }
-        }
-    }
-}
-
-@Composable
-internal fun DetailSheet(detail: BrowseDetail, now: Instant, actions: BrowseActions, onDismiss: () -> Unit) {
-    AppBottomSheet(onDismissRequest = onDismiss) {
-        ScrollColumn(Modifier.fillMaxWidth().testTag("browse-detail"), contentModifier = Modifier.padding(horizontal = AppSpacing.xl).padding(bottom = AppSpacing.xxl)) {
-            CardDetail(detail, now, actions, compact = true)
-        }
-    }
-}
-
-/** The opened card: its content, where it stands, what to do with it, and every answer it got. */
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-internal fun CardDetail(detail: BrowseDetail, now: Instant, actions: BrowseActions, compact: Boolean) {
+private fun DetailDialog(detail: BrowseDetail, now: Instant, actions: BrowseActions, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val row = detail.row
-    val direction = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
-    Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                Text(row.word, Modifier.weight(1f, fill = false), style = AppText.listWord(24).copy(color = colors.onSurface, textDirection = direction))
-                StatePill(row)
+    AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.testTag("browse-detail"), maxWidth = DETAIL_DIALOG_WIDTH) {
+        Column {
+            Row(Modifier.fillMaxWidth().padding(start = AppSpacing.xxl, end = AppSpacing.l, top = AppSpacing.l, bottom = AppSpacing.l), verticalAlignment = Alignment.CenterVertically) {
+                Text(tr("Flashcard details"), Modifier.weight(1f), style = AppText.sectionTitle)
+                AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss, style = IconButtonStyle.Tonal, tint = colors.onSurface)
             }
-            if (row.translation.isNotEmpty()) Text(row.translation, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-        }
-        SentenceBox(row, actions.onSaveSentence)
-        FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m), maxItemsInEachRow = 2) {
-            val tile = Modifier.weight(1f)
-            StatTile(tr("Due"), dueLabel(row, now), tile)
-            StatTile(tr("Interval"), intervalLabel(row), tile)
-            StatTile(tr("Reviews"), "${row.reps}", tile)
-            StatTile(tr("Lapses"), "${row.lapses}", tile)
-            StatTile(tr("Last review"), row.lastReview?.relativeTo(now) ?: NONE, tile)
-            StatTile(tr("Created"), row.created?.formatDate() ?: NONE, tile)
-            // FSRS's memory state, as Anki's card info shows it: difficulty on a percentage scale, stability in days, the chance of recall now.
-            StatTile(tr("Difficulty"), row.difficulty?.let { "${((it - 1) / 9 * 100).roundToInt()}%" } ?: NONE, tile)
-            StatTile(tr("Stability"), row.stability?.let { trPlural(it.roundToInt(), "{0} day", "{0} days") } ?: NONE, tile)
-            StatTile(tr("Recall now"), row.retrievability?.let { "${(it * 100).roundToInt()}%" } ?: NONE, tile)
-        }
-        FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            SecondaryButton(tr("Edit flashcard"), onClick = { actions.onEdit(row.termId) }, icon = Icons.Default.Edit)
-            SecondaryButton(
-                if (row.suspended) tr("Resume") else tr("Suspend"),
-                onClick = { actions.onSuspend(listOf(row.termId), !row.suspended) },
-                modifier = Modifier.testTag("detail-suspend"),
-                icon = if (row.suspended) AppIcons.PlayArrow else AppIcons.Pause,
-            )
-            if (row.state != CardState.NEW) QuietButton(tr("Reset progress"), onClick = { actions.onReset(listOf(row.termId)) }, tone = ButtonTone.Danger)
-            QuietButton(tr("Delete"), onClick = { actions.onDelete(listOf(row.termId)) }, modifier = Modifier.testTag("detail-delete"), tone = ButtonTone.Danger)
-        }
-        AppDivider()
-        Text(tr("Review history"), style = AppText.smallTitle)
-        when {
-            detail.loading -> Text(tr("Loading..."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            detail.reviews.isEmpty() -> Text(tr("No answers yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            else -> Column(Modifier.fillMaxWidth().testTag("review-history")) {
-                detail.reviews.forEachIndexed { index, review ->
-                    if (index > 0) AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
-                    ReviewRow(review, compact)
+            AppDivider()
+            ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                CardHeading(row)
+                SentenceBox(row, actions.onSaveSentence)
+                BoxWithConstraints(Modifier.fillMaxWidth()) {
+                    if (maxWidth >= DETAIL_TWO_COLUMNS) {
+                        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).padding(top = AppSpacing.s)) {
+                            Column(Modifier.weight(1f).padding(end = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { CardSchedule(row, now, actions) }
+                            AppVerticalDivider()
+                            Column(Modifier.weight(1f).padding(start = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                                Text(tr("Review history"), style = AppText.itemTitle)
+                                ReviewHistory(detail, compact = false, Modifier.border(AppBorders.hairline(), AppShapes.card).padding(horizontal = AppSpacing.l, vertical = AppSpacing.xs))
+                            }
+                        }
+                    } else {
+                        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                            CardSchedule(row, now, actions)
+                            AppDivider(Modifier.padding(vertical = AppSpacing.s))
+                            Text(tr("Review history"), style = AppText.itemTitle)
+                            ReviewHistory(detail, compact = false)
+                        }
+                    }
                 }
+            }
+            AppDivider()
+            Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                if (row.state != CardState.NEW) QuietButton(tr("Reset progress"), onClick = { actions.onReset(listOf(row.termId)) }, tone = ButtonTone.Danger)
+                QuietButton(tr("Delete flashcard"), onClick = { actions.onDelete(listOf(row.termId)) }, modifier = Modifier.testTag("detail-delete"), tone = ButtonTone.Danger)
+                Spacer(Modifier.weight(1f))
+                PrimaryButton(tr("Done"), onClick = onDismiss, modifier = Modifier.testTag("detail-done"))
+            }
+        }
+    }
+}
+
+/** The opened card on a phone: a page of its own over the list, its back arrow returning to the list, with reset and delete set apart at the end. */
+@Composable
+internal fun DetailScreen(detail: BrowseDetail, now: Instant, actions: BrowseActions, onDismiss: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val row = detail.row
+    AppScreenDialog(onDismissRequest = onDismiss, modifier = Modifier.testTag("browse-detail")) {
+        Column(Modifier.fillMaxSize()) {
+            Row(Modifier.fillMaxWidth().padding(start = AppSpacing.xs, end = AppSpacing.l, top = AppSpacing.xs, bottom = AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
+                AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onDismiss, modifier = Modifier.testTag("detail-back"))
+                Text(tr("Flashcard details"), Modifier.weight(1f).padding(start = AppSpacing.xs), style = AppText.headline, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
+            AppDivider()
+            ScrollColumn(Modifier.weight(1f), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                CardHeading(row)
+                SentenceBox(row, actions.onSaveSentence)
+                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { CardSchedule(row, now, actions) }
+                AppDivider()
+                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+                    Text(tr("Review history"), style = AppText.itemTitle)
+                    ReviewHistory(detail, compact = true)
+                }
+                // What cannot be undone is kept apart from the rest, at the end.
+                Column(
+                    Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.error.copy(alpha = AppAlpha.wash)).padding(AppSpacing.l),
+                    verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
+                ) {
+                    Text(tr("Danger zone"), style = AppText.itemTitle)
+                    if (row.state != CardState.NEW) SecondaryButton(tr("Reset progress"), onClick = { actions.onReset(listOf(row.termId)) }, modifier = Modifier.fillMaxWidth(), icon = AppIcons.Replay, tone = ButtonTone.Danger)
+                    SecondaryButton(tr("Delete flashcard"), onClick = { actions.onDelete(listOf(row.termId)) }, modifier = Modifier.fillMaxWidth().testTag("detail-delete"), icon = Icons.Default.Delete, tone = ButtonTone.Danger)
+                }
+            }
+        }
+    }
+}
+
+/** The card's word with its state, and its translation under it. */
+@Composable
+private fun CardHeading(row: BrowseRow) {
+    val colors = MaterialTheme.colorScheme
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            Text(row.word, Modifier.weight(1f, fill = false), style = AppText.listWord(28).copy(color = colors.onSurface, textDirection = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr))
+            StatePill(row, large = true)
+        }
+        if (row.translation.isNotEmpty()) Text(row.translation, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+    }
+}
+
+/** Where the card stands, two figures to a line, with its edit and suspend under them. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun ColumnScope.CardSchedule(row: BrowseRow, now: Instant, actions: BrowseActions) {
+    Text(tr("Schedule"), style = AppText.itemTitle)
+    FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m), maxItemsInEachRow = 2) {
+        val tile = Modifier.weight(1f)
+        StatTile(tr("Due"), dueLabel(row, now), tile)
+        StatTile(tr("Interval"), intervalLabel(row), tile)
+        StatTile(tr("Reviews"), "${row.reps}", tile)
+        StatTile(tr("Lapses"), "${row.lapses}", tile)
+        StatTile(tr("Last review"), row.lastReview?.relativeTo(now) ?: NONE, tile)
+        StatTile(tr("Created"), row.created?.formatDate() ?: NONE, tile)
+        // FSRS's memory state, as Anki's card info shows it: difficulty on a percentage scale, stability in days, the chance of recall now.
+        StatTile(tr("Difficulty"), row.difficulty?.let { "${((it - 1) / 9 * 100).roundToInt()}%" } ?: NONE, tile)
+        StatTile(tr("Stability"), row.stability?.let { trPlural(it.roundToInt(), "{0} day", "{0} days") } ?: NONE, tile)
+        StatTile(tr("Recall now"), row.retrievability?.let { "${(it * 100).roundToInt()}%" } ?: NONE, tile)
+    }
+    Row(Modifier.fillMaxWidth().padding(top = AppSpacing.xs), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        SecondaryButton(tr("Edit flashcard"), onClick = { actions.onEdit(row.termId) }, modifier = Modifier.weight(1f), icon = Icons.Default.Edit)
+        SecondaryButton(
+            if (row.suspended) tr("Resume") else tr("Suspend"),
+            onClick = { actions.onSuspend(listOf(row.termId), !row.suspended) },
+            modifier = Modifier.weight(1f).testTag("detail-suspend"),
+            icon = if (row.suspended) AppIcons.PlayArrow else AppIcons.Pause,
+        )
+    }
+}
+
+/** Every answer the card got, the latest first. */
+@Composable
+private fun ReviewHistory(detail: BrowseDetail, compact: Boolean, modifier: Modifier = Modifier) {
+    val colors = MaterialTheme.colorScheme
+    when {
+        detail.loading -> Text(tr("Loading..."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        detail.reviews.isEmpty() -> Text(tr("No answers yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        else -> Column(modifier.fillMaxWidth().testTag("review-history")) {
+            detail.reviews.forEachIndexed { index, review ->
+                if (index > 0) AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
+                ReviewRow(review, compact)
             }
         }
     }
@@ -610,7 +671,7 @@ private fun StatTile(label: String, value: String, modifier: Modifier) {
 private fun ReviewRow(review: FlashcardReview, compact: Boolean) {
     val colors = MaterialTheme.colorScheme
     val zone = TimeZone.currentSystemDefault()
-    Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+    Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         Column(Modifier.weight(1f)) {
             Text("${review.at.formatDate(zone)} ${clockTime(review.at)}", style = MaterialTheme.typography.bodyMedium)
             Text(

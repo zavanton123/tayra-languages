@@ -248,4 +248,8 @@ internal val plCourses: Map<String, String> = mapOf(
     "{0} cards brought up to date" to "Zaktualizowano {0} kartę|Zaktualizowano {0} karty|Zaktualizowano {0} kart",
     "{0} answers added to the history" to "Dodano {0} odpowiedź do historii|Dodano {0} odpowiedzi do historii|Dodano {0} odpowiedzi do historii",
     "{0} notes left out: they have no word to read." to "Pominięto {0} notatkę: nie ma w niej słowa.|Pominięto {0} notatki: nie ma w nich słowa.|Pominięto {0} notatek: nie ma w nich słowa.",
+    "Flashcard details" to "Szczegóły fiszki",
+    "Schedule" to "Harmonogram",
+    "Danger zone" to "Strefa zagrożenia",
+    "Delete flashcard" to "Usuń fiszkę",
 )

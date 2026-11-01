@@ -248,4 +248,8 @@ internal val zhCourses: Map<String, String> = mapOf(
     "{0} cards brought up to date" to "已更新 {0} 张卡片",
     "{0} answers added to the history" to "已向历史记录添加 {0} 条回答",
     "{0} notes left out: they have no word to read." to "跳过 {0} 条笔记：其中没有可读取的词。",
+    "Flashcard details" to "闪卡详情",
+    "Schedule" to "复习安排",
+    "Danger zone" to "危险操作",
+    "Delete flashcard" to "删除闪卡",
 )

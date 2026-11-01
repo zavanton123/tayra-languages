@@ -248,4 +248,8 @@ internal val ruCourses: Map<String, String> = mapOf(
     "{0} cards brought up to date" to "Обновлена {0} карточка|Обновлены {0} карточки|Обновлено {0} карточек",
     "{0} answers added to the history" to "В историю добавлен {0} ответ|В историю добавлено {0} ответа|В историю добавлено {0} ответов",
     "{0} notes left out: they have no word to read." to "Пропущена {0} заметка: в ней нет слова.|Пропущены {0} заметки: в них нет слова.|Пропущено {0} заметок: в них нет слова.",
+    "Flashcard details" to "Подробности карточки",
+    "Schedule" to "Расписание",
+    "Danger zone" to "Опасная зона",
+    "Delete flashcard" to "Удалить карточку",
 )
