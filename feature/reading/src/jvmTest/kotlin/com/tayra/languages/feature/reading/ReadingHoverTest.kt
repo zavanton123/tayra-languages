@@ -493,12 +493,12 @@ class ReadingHoverTest {
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
-        assertTrue(rule.onAllNodesWithText("Back to library").fetchSemanticsNodes().isEmpty(), "Back to library is not shown in a lesson")
+        assertTrue(rule.onAllNodesWithContentDescription("Back to library").fetchSemanticsNodes().isEmpty(), "Back to library is not shown in a lesson")
         assertTrue(rule.onAllNodesWithContentDescription("Finish book").fetchSemanticsNodes().isEmpty(), "Finish book is not shown in a lesson")
         // Every way out of a lesson leads to its course, never to the library.
         rule.onNodeWithText(course.title).performClick()
         rule.waitUntil(5_000) { courses.size == 1 }
-        rule.onNodeWithText("Back to course").performScrollTo().performClick()
+        rule.onNodeWithContentDescription("Back to course").performScrollTo().performClick()
         rule.waitUntil(5_000) { courses.size == 2 }
         rule.onNodeWithContentDescription("Finish lesson").performScrollTo().performClick()
         rule.waitUntil(5_000) { courses.size == 3 }
