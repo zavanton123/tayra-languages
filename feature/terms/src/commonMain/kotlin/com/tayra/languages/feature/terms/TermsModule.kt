@@ -32,7 +32,10 @@ fun NavGraphBuilder.termsGraph(navController: NavController) {
     val openParent: (Long, String) -> Unit = { languageId, text -> navController.navigate(Route.EditTermByText(languageId, text)) }
     composable<Route.Terms> { entry ->
         val route = entry.toRoute<Route.Terms>()
-        TermsScreen(termIds = route.termIds, onNavigate = navigate, onBack = if (route.termIds != null) ({ navController.popBackStack() }) else null)
+        // An empty list of ids does not survive the route and comes back as none, which would mean every term:
+        // a reader's page, given by its book, shows its own terms even when it has none yet.
+        val termIds = route.termIds ?: route.bookId?.let { emptyList() }
+        TermsScreen(termIds = termIds, onNavigate = navigate, onBack = if (termIds != null) ({ navController.popBackStack() }) else null)
     }
     composable<Route.EditTerm> { entry ->
         val route = entry.toRoute<Route.EditTerm>()

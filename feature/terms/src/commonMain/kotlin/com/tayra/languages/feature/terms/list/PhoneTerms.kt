@@ -179,7 +179,7 @@ internal fun PhoneTermsScreen(
             if (state.loading) {
                 item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = colors.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {
-                item { EmptyState(AppIcons.Book, tr("No terms match the current filters.")) }
+                item { EmptyState(AppIcons.Book, if (state.filter.termIds?.isEmpty() == true) tr("No saved words on this page yet.") else tr("No terms match the current filters.")) }
             } else {
                 itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term -> Column(itemMotion()) {
                     PhoneTermRow(term, state.languageName(term.languageId), selected = term.id in state.selected, showCheck = showChecks, rowActions)

@@ -458,4 +458,5 @@ internal val ptTerms: Map<String, String> = mapOf(
     "No example selected" to "Nenhum exemplo selecionado",
     "Replace example" to "Substituir exemplo",
     "No form of ‘{0}’ in this sentence" to "Nenhuma forma de ‘{0}’ nesta frase",
+    "No saved words on this page yet." to "Ainda não há palavras guardadas nesta página.",
 )

@@ -458,4 +458,5 @@ internal val esTerms: Map<String, String> = mapOf(
     "No example selected" to "Ningún ejemplo seleccionado",
     "Replace example" to "Sustituir ejemplo",
     "No form of ‘{0}’ in this sentence" to "Ninguna forma de «{0}» en esta frase",
+    "No saved words on this page yet." to "Todavía no hay palabras guardadas en esta página.",
 )

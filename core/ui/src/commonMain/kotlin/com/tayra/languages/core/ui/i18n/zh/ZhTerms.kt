@@ -458,4 +458,5 @@ internal val zhTerms: Map<String, String> = mapOf(
     "No example selected" to "未选择例句",
     "Replace example" to "替换例句",
     "No form of ‘{0}’ in this sentence" to "这个句子里没有“{0}”的任何形式",
+    "No saved words on this page yet." to "此页尚无已保存的词语。",
 )

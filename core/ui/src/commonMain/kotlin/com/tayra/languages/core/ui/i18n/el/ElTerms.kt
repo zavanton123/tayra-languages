@@ -458,4 +458,5 @@ internal val elTerms: Map<String, String> = mapOf(
     "No example selected" to "Δεν επιλέχθηκε παράδειγμα",
     "Replace example" to "Αντικατάσταση παραδείγματος",
     "No form of ‘{0}’ in this sentence" to "Καμία μορφή του «{0}» σε αυτή την πρόταση",
+    "No saved words on this page yet." to "Δεν υπάρχουν ακόμη αποθηκευμένες λέξεις σε αυτή τη σελίδα.",
 )

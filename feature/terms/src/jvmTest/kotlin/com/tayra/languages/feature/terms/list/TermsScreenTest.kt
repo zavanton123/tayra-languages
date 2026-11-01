@@ -81,7 +81,7 @@ class TermsScreenTest {
     @AfterTest
     fun tearDown() = stopKoin()
 
-    private fun ComposeUiTest.show(onNavigate: (Route) -> Unit = {}, extra: Int = 0) {
+    private fun ComposeUiTest.show(onNavigate: (Route) -> Unit = {}, extra: Int = 0, termIds: List<Long>? = null) {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id) }
@@ -108,18 +108,18 @@ class TermsScreenTest {
         }
         val noTranslator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = null }
         val anki = AnkiExportService(terms, languages, noDictionary, noTranslator, sentenceAudio, settings, AnkiPackagerImpl())
-        val viewModel = TermsListViewModel(null, terms, languages, settings, service, anki)
+        val viewModel = TermsListViewModel(termIds, terms, languages, settings, service, anki)
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
                     CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {}) {
-                        TermsScreen(termIds = null, onNavigate = onNavigate, onBack = null, viewModel = viewModel)
+                        TermsScreen(termIds = termIds, onNavigate = onNavigate, onBack = if (termIds != null) ({}) else null, viewModel = viewModel)
                     }
                 }
             }
         }
         // The newest term comes first: with many more added, the first of them.
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText(if (extra > 0) "palavra${extra - 1}" else "comprar").fetchSemanticsNodes().isNotEmpty() }
+        if (termIds?.isEmpty() != true) waitUntil(timeoutMillis = 5_000) { onAllNodesWithText(if (extra > 0) "palavra${extra - 1}" else "comprar").fetchSemanticsNodes().isNotEmpty() }
     }
 
     private fun ComposeUiTest.listed(word: String) = onAllNodesWithText(word).fetchSemanticsNodes().isNotEmpty()
@@ -166,6 +166,14 @@ class TermsScreenTest {
         onNodeWithText("Show learning words").performClick()
         waitForList("comprar", "pensar", hidden = listOf("gostar", "lá"))
         onNodeWithContentDescription("1 filter on").assertExists()
+    }
+
+    /** A reader's page whose words are none of them saved yet lists nothing, not the whole vocabulary. */
+    @Test
+    fun aPageWithNoSavedWordsListsNone() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(termIds = emptyList())
+        waitUntil(timeoutMillis = 5_000) { listed("No saved words on this page yet.") }
+        assertEquals(false, listed("comprar"))
     }
 
     /** Chosen terms can be practised: the list menu asks which kinds of question, any of them, then opens the practice on them. */

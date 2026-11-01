@@ -458,4 +458,5 @@ internal val plTerms: Map<String, String> = mapOf(
     "No example selected" to "Nie wybrano przykładu",
     "Replace example" to "Zastąp przykład",
     "No form of ‘{0}’ in this sentence" to "W tym zdaniu nie ma żadnej formy „{0}”",
+    "No saved words on this page yet." to "Na tej stronie nie ma jeszcze zapisanych słów.",
 )
