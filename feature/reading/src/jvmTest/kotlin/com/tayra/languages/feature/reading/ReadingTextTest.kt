@@ -66,7 +66,6 @@ class ReadingTextTest {
             ReadingText(
                 page = page(),
                 theme = AppThemes.default,
-                showHighlights = true,
                 marked = emptySet(),
                 hovered = null,
                 selection = null,
@@ -109,7 +108,6 @@ class ReadingTextTest {
             ReadingText(
                 page = twoSentencePage(),
                 theme = AppThemes.default,
-                showHighlights = true,
                 marked = emptySet(),
                 hovered = null,
                 selection = null,
@@ -161,7 +159,6 @@ class ReadingTextTest {
             ReadingText(
                 page = page(),
                 theme = AppThemes.default,
-                showHighlights = true,
                 marked = emptySet(),
                 hovered = null,
                 selection = null,
@@ -199,7 +196,6 @@ class ReadingTextTest {
             ReadingText(
                 page = page(),
                 theme = AppThemes.default,
-                showHighlights = true,
                 marked = emptySet(),
                 hovered = null,
                 selection = null,
@@ -254,7 +250,6 @@ class ReadingTextTest {
                 ReadingText(
                     page = page(),
                     theme = AppThemes.default,
-                    showHighlights = true,
                     marked = emptySet(),
                     hovered = null,
                     selection = null,

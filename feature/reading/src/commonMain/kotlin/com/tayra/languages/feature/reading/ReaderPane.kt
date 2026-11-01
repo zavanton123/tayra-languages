@@ -49,7 +49,6 @@ import androidx.compose.ui.unit.constrainWidth
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.PageBookmark
-import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.morphology.ChineseScript
 import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.service.TranslationEngine
@@ -77,7 +76,6 @@ import com.tayra.languages.core.ui.components.SegmentedToggle
 import com.tayra.languages.core.ui.components.SelectMenu
 import com.tayra.languages.core.ui.components.SettingRow
 import com.tayra.languages.core.ui.components.SliderSetting
-import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.SwitchSetting
 import com.tayra.languages.core.ui.components.Tab
 import com.tayra.languages.core.ui.components.TextInputDialog
@@ -93,7 +91,6 @@ import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.ReadingFont
-import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.core.ui.theme.fontFamily
 import kotlin.math.roundToInt
 
@@ -297,7 +294,6 @@ private fun <T> ChoiceCard(
 private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTranslationSettings: () -> Unit) {
     val prefs = state.settings
     PaneCard(tr("Reading experience")) {
-        SwitchSetting(tr("Highlight terms"), tr("Colour words by learning status"), prefs.showHighlights, icon = AppIcons.Palette, dense = true) { viewModel.toggleHighlights() }
         if (state.language?.let { LanguageCodes.codeFor(it.name) } in READING_LANGUAGES) {
             SwitchSetting(tr("Show readings"), tr("Furigana or pinyin above the words"), prefs.showReadings, icon = AppIcons.Abc, dense = true) { viewModel.toggleReadings() }
         }
@@ -305,18 +301,6 @@ private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTra
         if (state.language?.let { LanguageCodes.codeFor(it.name) } in TONE_LANGUAGES) {
             SwitchSetting(tr("Tone colours"), tr("Colour pinyin by its tone"), prefs.toneColors, icon = AppIcons.Palette, dense = true) { viewModel.toggleToneColors() }
             SwitchSetting(tr("Zhuyin"), tr("Readings in bopomofo instead of pinyin"), prefs.zhuyin, icon = AppIcons.Abc, dense = true) { viewModel.toggleZhuyin() }
-        }
-        if (prefs.showHighlights) {
-            val statusColors = TayraTheme.current.statusColors
-            Row(Modifier.padding(start = AppSpacing.huge), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                listOf(TermStatus.UNKNOWN to tr("New"), TermStatus.NEW_1 to tr("Learning")).forEach { (status, label) ->
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        StatusDot(statusColors.background(status), size = 14.dp)
-                        Spacer(Modifier.width(AppSpacing.s))
-                        Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    }
-                }
-            }
         }
         SegmentedSetting(AppIcons.LineSpacing, tr("Sentence layout"), listOf(false to tr("Continuous"), true to tr("One per line")), prefs.splitSentences, viewModel::setSplitSentences)
     }

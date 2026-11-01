@@ -64,8 +64,6 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
             ContentCard(tr("Appearance"), subtitle = null, icon = AppIcons.Palette, dense = true) {
                 NavigationRow(tr("Theme"), onClick = { themeSheet = true }, modifier = Modifier.testTag("phone-theme"), value = AppThemes.byId(settings.themeId).label)
                 AppDivider()
-                SwitchSetting(tr("Highlight terms by status"), description = null, checked = settings.showHighlights, dense = true) { v -> viewModel.update { it.copy(showHighlights = v) } }
-                AppDivider()
                 SwitchSetting(tr("Reduce motion"), description = null, checked = settings.reduceMotion, dense = true) { v -> viewModel.update { it.copy(reduceMotion = v) } }
             }
             ContentCard(tr("Reading"), subtitle = null, iconText = "Aa", dense = true) {

@@ -176,7 +176,6 @@ fun CentreWordOnResize(scrollState: ScrollState, word: Int?, locator: WordLocato
 fun ReadingText(
     page: RenderedPage,
     theme: AppTheme,
-    showHighlights: Boolean,
     marked: Set<Int>,
     hovered: Int?,
     selection: IntRange?,
@@ -284,7 +283,6 @@ fun ReadingText(
                         readingTint = readingTint,
                         firstItemIndex = first,
                         theme = theme,
-                        showHighlights = showHighlights,
                         marked = marked,
                         hovered = hovered,
                         selection = selection,
@@ -494,7 +492,6 @@ private fun ParagraphText(
     items: List<TextItem>,
     firstItemIndex: Int,
     theme: AppTheme,
-    showHighlights: Boolean,
     marked: Set<Int>,
     hovered: Int?,
     selection: IntRange?,
@@ -541,9 +538,9 @@ private fun ParagraphText(
     val fade = remember(items) { Animatable(if (fading.isEmpty() || reduceMotion) 1f else 0f) }
     LaunchedEffect(fade) { if (fade.value < 1f) fade.animateTo(1f, tween(AppMotion.medium, easing = AppMotion.standard)) }
     val fraction = if (fading.isEmpty()) 1f else fade.value
-    val text = remember(items, theme, showHighlights, marked, hovered, selection, firstItemIndex, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint, fraction) {
+    val text = remember(items, theme, marked, hovered, selection, firstItemIndex, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint, fraction) {
         spans.clear()
-        buildParagraph(items, firstItemIndex, theme, showHighlights, marked, hovered, selection, spans, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint, fading, fraction)
+        buildParagraph(items, firstItemIndex, theme, marked, hovered, selection, spans, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint, fading, fraction)
     }
     val primary = MaterialTheme.colorScheme.primary
     val inlineContent = remember(inlinePlay, onSpeakSentence, primary, playingSentence, preparingSentences) {
@@ -707,7 +704,6 @@ private fun buildParagraph(
     items: List<TextItem>,
     firstItemIndex: Int,
     theme: AppTheme,
-    showHighlights: Boolean,
     marked: Set<Int>,
     hovered: Int?,
     selection: IntRange?,
@@ -723,8 +719,8 @@ private fun buildParagraph(
     val colors = theme.statusColors
 
     // How a word of [status] is coloured: its letters, on the background its status gives.
-    fun colouring(status: TermStatus, highlight: Boolean): SpanStyle {
-        if (!highlight || status == TermStatus.WELL_KNOWN || status == TermStatus.IGNORED) return SpanStyle()
+    fun colouring(status: TermStatus): SpanStyle {
+        if (status == TermStatus.WELL_KNOWN || status == TermStatus.IGNORED) return SpanStyle()
         val background = colors.background(status)
         return when {
             status == TermStatus.UNKNOWN && colors.unknownAsText -> SpanStyle(color = background)
@@ -747,11 +743,10 @@ private fun buildParagraph(
         val isHovered = itemIndex == hovered
         var style = SpanStyle()
         if (item.isWord) {
-            val highlight = showHighlights || isHovered || isMarked
-            style = colouring(item.status, highlight)
+            style = colouring(item.status)
             val before = fading[itemIndex]
             if (before != null && fade < 1f) {
-                val from = colouring(before, highlight)
+                val from = colouring(before)
                 val background = lerp(from.background.orElse(Color.Transparent), style.background.orElse(Color.Transparent), fade)
                 val letters = lerp(from.color.orElse(theme.readingText), style.color.orElse(theme.readingText), fade)
                 style = SpanStyle(background = background, color = letters)

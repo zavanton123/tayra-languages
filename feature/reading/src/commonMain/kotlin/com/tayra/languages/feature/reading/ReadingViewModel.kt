@@ -831,7 +831,6 @@ class ReadingViewModel(
 
     // ---- settings
 
-    fun toggleHighlights() = updateSettings { it.copy(showHighlights = !it.showHighlights) }
     fun toggleSplitSentences() = updateSettings { it.copy(splitSentences = !it.splitSentences) }
     fun toggleSideBySideTranslations() = updateSettings { it.copy(sideBySideTranslations = !it.sideBySideTranslations) }
     fun toggleSentencePlay() = updateSettings { it.copy(showSentencePlay = !it.showSentencePlay) }
@@ -985,7 +984,6 @@ class ReadingViewModel(
     fun resetReaderSettings() = updateSettings {
         val defaults = UserSettings()
         it.copy(
-            showHighlights = defaults.showHighlights,
             splitSentences = defaults.splitSentences,
             showTranslations = defaults.showTranslations,
             sideBySideTranslations = defaults.sideBySideTranslations,

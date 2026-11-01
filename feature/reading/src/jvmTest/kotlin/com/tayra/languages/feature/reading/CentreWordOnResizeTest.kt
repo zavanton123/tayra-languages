@@ -61,7 +61,6 @@ class CentreWordOnResizeTest {
                         ReadingText(
                             page = page,
                             theme = AppThemes.default,
-                            showHighlights = true,
                             marked = setOf(word),
                             hovered = null,
                             selection = null,

@@ -67,7 +67,6 @@ class ArabicShapingTest {
                 ReadingText(
                     page = page,
                     theme = AppThemes.default,
-                    showHighlights = true,
                     marked = setOf(selected),
                     hovered = null,
                     selection = null,

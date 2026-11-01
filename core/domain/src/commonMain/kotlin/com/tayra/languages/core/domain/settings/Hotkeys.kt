@@ -117,7 +117,6 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     BOOKMARK(HotkeyCategory.MISC, "Bookmark the current page", Hotkey("B")),
     EDIT_PAGE(HotkeyCategory.MISC, "Edit the current page", null),
     NEXT_THEME(HotkeyCategory.MISC, "Change to the next theme", Hotkey("M")),
-    TOGGLE_HIGHLIGHT(HotkeyCategory.MISC, "Toggle highlights", Hotkey("H")),
     SAVE_TERM(HotkeyCategory.MISC, "Save term in term form", Hotkey("Enter", ctrl = true)),
 
     FLASHCARDS_PREVIOUS(HotkeyCategory.FLASHCARDS, "Go back to the previous card", Hotkey("Z", ctrl = true));

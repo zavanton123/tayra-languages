@@ -100,7 +100,6 @@ class SettingsRepositoryImpl(
         return UserSettings(
             currentLanguageId = store.getLong(Keys.CURRENT_LANGUAGE, defaults.currentLanguageId),
             themeId = store.getString(Keys.THEME, defaults.themeId),
-            showHighlights = store.getBoolean(Keys.SHOW_HIGHLIGHTS, defaults.showHighlights),
             reduceMotion = store.getBoolean(Keys.REDUCE_MOTION, defaults.reduceMotion),
             showLearningLevels = store.getBoolean(Keys.SHOW_LEARNING_LEVELS, defaults.showLearningLevels),
             statsSampleSize = store.getInt(Keys.STATS_SAMPLE_SIZE, defaults.statsSampleSize),
@@ -214,7 +213,6 @@ class SettingsRepositoryImpl(
     private fun write(s: UserSettings, store: Settings) {
         store.putLong(Keys.CURRENT_LANGUAGE, s.currentLanguageId)
         store.putString(Keys.THEME, s.themeId)
-        store.putBoolean(Keys.SHOW_HIGHLIGHTS, s.showHighlights)
         store.putBoolean(Keys.REDUCE_MOTION, s.reduceMotion)
         store.putBoolean(Keys.SHOW_LEARNING_LEVELS, s.showLearningLevels)
         store.putInt(Keys.STATS_SAMPLE_SIZE, s.statsSampleSize)
@@ -283,7 +281,6 @@ class SettingsRepositoryImpl(
 
         const val CURRENT_LANGUAGE = "current_language_id"
         const val THEME = "current_theme"
-        const val SHOW_HIGHLIGHTS = "show_highlights"
         const val REDUCE_MOTION = "reduce_motion"
         const val SHOW_LEARNING_LEVELS = "show_learning_levels"
         const val STATS_SAMPLE_SIZE = "stats_calc_sample_size"

@@ -108,7 +108,6 @@ import com.tayra.languages.core.domain.morphology.Chinese
 import com.tayra.languages.core.domain.morphology.ChineseGrammarWiki
 import com.tayra.languages.core.domain.service.WordRecording
 import com.tayra.languages.core.domain.service.WordTranslationService
-import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.audio.AudioPlayback
 import com.tayra.languages.core.ui.audio.RecordingButton
 import com.tayra.languages.core.ui.audio.SpeakButton
@@ -1066,7 +1065,6 @@ private fun ExamplesSection(
     val audio = rememberExampleAudio()
     val wordTranslations = koinInject<WordTranslationService>()
     val translateWord: suspend (String) -> String? = { word -> language?.let { wordTranslations.translate(it, word) } }
-    val showHighlights = koinInject<SettingsRepository>().settings.collectAsStateWithLifecycle().value.showHighlights
     val languageCode = language?.let { LanguageCodes.codeFor(it.name) }
     audio.PrepareSpeech(if (expanded) state.examples else state.examples.take(VISIBLE_EXAMPLES), languageCode)
     val total = state.examplesTotal ?: state.examples.size
@@ -1108,7 +1106,7 @@ private fun ExamplesSection(
                         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(vertical = AppSpacing.xs)) {
                             HoverTranslatedText(
                                 emphasize(example.text, term, SpanStyle(fontWeight = AppText.labelStrong.fontWeight))
-                                    .withStatuses(state.exampleWords[example.text].orEmpty(), TayraTheme.current.statusColors, showHighlights)
+                                    .withStatuses(state.exampleWords[example.text].orEmpty(), TayraTheme.current.statusColors)
                                     .withSelected(term, TayraTheme.current.selectedText),
                                 translate = translateWord,
                                 style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),

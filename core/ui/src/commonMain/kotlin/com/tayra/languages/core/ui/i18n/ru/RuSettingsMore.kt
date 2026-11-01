@@ -19,8 +19,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Light" to "Светлые",
     "Dark" to "Тёмные",
     "Choose how Tayra looks." to "Выберите, как будет выглядеть Tayra.",
-    "Highlight terms by status" to "Подсвечивать слова по статусу",
-    "Use status colours while reading." to "Выделять слова при чтении цветом их статуса.",
     "Reduce motion" to "Меньше движения",
     "Keep the screens still: no sliding, fading or turning over." to "Экраны не двигаются: без сдвигов, затуханий и переворотов.",
     "Reading" to "Чтение",
@@ -203,7 +201,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Bookmark the current page" to "Добавить закладку на текущую страницу",
     "Edit the current page" to "Изменить текущую страницу",
     "Change to the next theme" to "Переключить на следующую тему",
-    "Toggle highlights" to "Включить или выключить подсветку",
     "Save term in term form" to "Сохранить слово в форме слова",
     "Go back to the previous card" to "Вернуться к предыдущей карточке",
 

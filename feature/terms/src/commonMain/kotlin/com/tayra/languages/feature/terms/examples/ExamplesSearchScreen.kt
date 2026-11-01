@@ -168,7 +168,6 @@ fun ExamplesSearchScreen(
     val translateWord: suspend (String) -> String? = { word -> state.language?.let { wordTranslations.translate(it, word) } }
 
     val prefs by koinInject<SettingsRepository>().settings.collectAsStateWithLifecycle()
-    val showHighlights = prefs.showHighlights
     var textSettingsOpen by rememberSaveable { mutableStateOf(false) }
     // Status shortcuts work while the results, not a text field, have the keyboard.
     val focus = remember { FocusRequester() }
@@ -327,7 +326,7 @@ fun ExamplesSearchScreen(
                             if (!state.features.translations) LaunchedEffect(example.text) { viewModel.translate(example.text) }
                             ExampleCard(
                                 text = emphasize(example.text, query.text)
-                                    .withStatuses(state.words[example.text].orEmpty(), TayraTheme.current.statusColors, showHighlights)
+                                    .withStatuses(state.words[example.text].orEmpty(), TayraTheme.current.statusColors)
                                     .withSelected(state.paneTerm, TayraTheme.current.selectedText),
                                 translateWord = translateWord,
                                 translation = example.translation,

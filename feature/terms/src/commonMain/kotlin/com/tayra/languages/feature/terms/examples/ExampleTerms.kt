@@ -68,10 +68,10 @@ data class WordStatus(val start: Int, val end: Int, val status: TermStatus)
 
 /**
  * Paints the words in their status colours as the reader does: unknown and learning words are
- * coloured, known and ignored ones are left plain. [highlight] is the reader's "Highlight terms".
+ * coloured, known and ignored ones are left plain.
  */
-fun AnnotatedString.withStatuses(words: List<WordStatus>, colors: StatusColors, highlight: Boolean = true): AnnotatedString {
-    if (!highlight || words.isEmpty()) return this
+fun AnnotatedString.withStatuses(words: List<WordStatus>, colors: StatusColors): AnnotatedString {
+    if (words.isEmpty()) return this
     return buildAnnotatedString {
         append(this@withStatuses)
         for (word in words) {

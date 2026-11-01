@@ -19,8 +19,6 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Light" to "Claros",
     "Dark" to "Escuros",
     "Choose how Tayra looks." to "Escolha a aparência do Tayra.",
-    "Highlight terms by status" to "Destacar termos pelo status",
-    "Use status colours while reading." to "Usar as cores de domínio durante a leitura.",
     "Reduce motion" to "Reduzir movimento",
     "Keep the screens still: no sliding, fading or turning over." to "Mantém as telas paradas: sem deslizar, esmaecer nem virar.",
     "Reading" to "Leitura",
@@ -203,7 +201,6 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Bookmark the current page" to "Adicionar marcador na página atual",
     "Edit the current page" to "Editar a página atual",
     "Change to the next theme" to "Mudar para o próximo tema",
-    "Toggle highlights" to "Ativar ou desativar os destaques",
     "Save term in term form" to "Salvar o termo no formulário do termo",
     "Go back to the previous card" to "Voltar ao flashcard anterior",
 

@@ -9,7 +9,6 @@ import com.tayra.languages.core.domain.service.TranslationEngine
 data class UserSettings(
     val currentLanguageId: Long = 0,
     val themeId: String = DEFAULT_THEME,
-    val showHighlights: Boolean = true,
     /** Keep the screens still: no sliding, fading or flipping, for those whom motion bothers. */
     val reduceMotion: Boolean = false,
     /** Show the four learning levels, 1 to 4, rather than one Learning status; the levels are kept either way. */

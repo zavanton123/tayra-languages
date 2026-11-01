@@ -19,8 +19,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Light" to "Hell",
     "Dark" to "Dunkel",
     "Choose how Tayra looks." to "Wähle, wie Tayra aussieht.",
-    "Highlight terms by status" to "Begriffe nach Status hervorheben",
-    "Use status colours while reading." to "Beim Lesen die Farben des Lernstands verwenden.",
     "Reduce motion" to "Bewegung reduzieren",
     "Keep the screens still: no sliding, fading or turning over." to "Hält die Bildschirme ruhig: kein Gleiten, Ein- und Ausblenden oder Umdrehen.",
     "Reading" to "Lesen",
@@ -203,7 +201,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Bookmark the current page" to "Lesezeichen auf die aktuelle Seite setzen",
     "Edit the current page" to "Aktuelle Seite bearbeiten",
     "Change to the next theme" to "Zum nächsten Design wechseln",
-    "Toggle highlights" to "Hervorhebungen ein-/ausschalten",
     "Save term in term form" to "Begriff im Begriffsformular speichern",
     "Go back to the previous card" to "Zur vorherigen Karte zurück",
 

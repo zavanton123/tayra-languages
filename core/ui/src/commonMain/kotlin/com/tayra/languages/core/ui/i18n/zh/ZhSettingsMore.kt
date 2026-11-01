@@ -19,8 +19,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Light" to "浅色",
     "Dark" to "深色",
     "Choose how Tayra looks." to "选择 Tayra 的外观。",
-    "Highlight terms by status" to "按状态高亮词条",
-    "Use status colours while reading." to "阅读时用颜色显示掌握程度。",
     "Reduce motion" to "减少动态效果",
     "Keep the screens still: no sliding, fading or turning over." to "让界面保持静止：不滑动、不淡入淡出、不翻转。",
     "Reading" to "阅读",
@@ -203,7 +201,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Bookmark the current page" to "为当前页添加书签",
     "Edit the current page" to "编辑当前页",
     "Change to the next theme" to "切换到下一个主题",
-    "Toggle highlights" to "开启或关闭高亮",
     "Save term in term form" to "在词条表单中保存词条",
     "Go back to the previous card" to "返回上一张卡片",
 

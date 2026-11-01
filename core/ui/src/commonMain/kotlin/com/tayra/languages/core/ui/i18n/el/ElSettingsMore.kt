@@ -19,8 +19,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Light" to "Φωτεινά",
     "Dark" to "Σκούρα",
     "Choose how Tayra looks." to "Επιλέξτε πώς φαίνεται το Tayra.",
-    "Highlight terms by status" to "Επισήμανση λέξεων ανά κατάσταση",
-    "Use status colours while reading." to "Χρωματισμός λέξεων ανάλογα με την κατάστασή τους κατά την ανάγνωση.",
     "Reduce motion" to "Μείωση κίνησης",
     "Keep the screens still: no sliding, fading or turning over." to "Κρατά τις οθόνες ακίνητες: χωρίς ολίσθηση, σβήσιμο ή αναποδογύρισμα.",
     "Reading" to "Ανάγνωση",
@@ -203,7 +201,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Bookmark the current page" to "Προσθήκη σελιδοδείκτη στην τρέχουσα σελίδα",
     "Edit the current page" to "Επεξεργασία της τρέχουσας σελίδας",
     "Change to the next theme" to "Αλλαγή στο επόμενο θέμα",
-    "Toggle highlights" to "Εναλλαγή επισήμανσης",
     "Save term in term form" to "Αποθήκευση λέξης στη φόρμα λέξης",
     "Go back to the previous card" to "Επιστροφή στην προηγούμενη κάρτα",
 

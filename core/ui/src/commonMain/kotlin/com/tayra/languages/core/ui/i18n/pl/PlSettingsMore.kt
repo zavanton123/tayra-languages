@@ -19,8 +19,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Light" to "Jasne",
     "Dark" to "Ciemne",
     "Choose how Tayra looks." to "Wybierz, jak ma wyglądać Tayra.",
-    "Highlight terms by status" to "Podświetlaj słowa według statusu",
-    "Use status colours while reading." to "Podczas czytania oznaczaj słowa kolorem ich statusu.",
     "Reduce motion" to "Ogranicz ruch",
     "Keep the screens still: no sliding, fading or turning over." to "Ekrany pozostają nieruchome: bez przesuwania, zanikania i obracania.",
     "Reading" to "Czytanie",
@@ -203,7 +201,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Bookmark the current page" to "Dodaj zakładkę na bieżącej stronie",
     "Edit the current page" to "Edytuj bieżącą stronę",
     "Change to the next theme" to "Przełącz na następny motyw",
-    "Toggle highlights" to "Włącz lub wyłącz podświetlanie",
     "Save term in term form" to "Zapisz słowo w formularzu słowa",
     "Go back to the previous card" to "Wróć do poprzedniej fiszki",
 

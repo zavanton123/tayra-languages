@@ -350,7 +350,6 @@ fun ReadingScreen(
             HotkeyAction.BOOKMARK -> bookmarkDialog = true
             HotkeyAction.EDIT_PAGE -> onNavigate(Route.EditPage(bookId, state.pageNumber))
             HotkeyAction.NEXT_THEME -> viewModel.nextTheme()
-            HotkeyAction.TOGGLE_HIGHLIGHT -> viewModel.toggleHighlights()
             HotkeyAction.SAVE_TERM, HotkeyAction.FLASHCARDS_PREVIOUS -> return false
         }
         return true
@@ -770,7 +769,6 @@ private fun ReadingBody(
             CompositionLocalProvider(LocalWordLocator provides wordLocator) { ReadingText(
                 page = state.page,
                 theme = theme,
-                showHighlights = state.settings.showHighlights,
                 marked = state.marked,
                 hovered = state.hovered,
                 selection = state.selection,

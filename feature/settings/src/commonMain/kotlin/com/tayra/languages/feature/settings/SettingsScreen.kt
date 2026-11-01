@@ -146,7 +146,6 @@ class SettingsViewModel(
         val defaults = UserSettings()
         it.copy(
             themeId = defaults.themeId,
-            showHighlights = defaults.showHighlights,
             readingFontScale = defaults.readingFontScale,
             readingLineHeight = defaults.readingLineHeight,
             readingFont = defaults.readingFont,
@@ -317,9 +316,6 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
                 },
             )
         }
-        SwitchSetting(tr("Highlight terms by status"), tr("Use status colours while reading."), settings.showHighlights, divider = true) { v ->
-            viewModel.update { it.copy(showHighlights = v) }
-        }
         SwitchSetting(tr("Reduce motion"), tr("Keep the screens still: no sliding, fading or turning over."), settings.reduceMotion, divider = true) { v ->
             viewModel.update { it.copy(reduceMotion = v) }
         }
@@ -481,7 +477,7 @@ internal fun PreviewBox(settings: UserSettings, padding: Dp = AppSpacing.xxl) {
         val text = buildAnnotatedString {
             sample.forEach { (part, status) ->
                 // As in the reader, known words are never coloured.
-                val shown = status != null && settings.showHighlights && status != TermStatus.WELL_KNOWN
+                val shown = status != null && status != TermStatus.WELL_KNOWN
                 val background = if (shown) colors.background(status!!) else Color.Transparent
                 when {
                     background == Color.Transparent -> append(part)
