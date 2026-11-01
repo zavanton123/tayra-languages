@@ -196,9 +196,9 @@ internal fun ReaderPane(
                         },
                         { Columns(phone, { TypographyCard(state, viewModel) }, { PreviewCard(state) }) },
                     ),
+                    // A lesson has none of the tools: no editing, no bookmarks, and its vocabulary is at its end.
+                    after = { if (state.lesson == null) ReaderTools(state, bookmarksOpen = false, onBookmarks = { showBookmarks = true }, actions = actions, onClose = onClose) },
                 )
-                // A lesson has none of the tools: no editing, no bookmarks, and its vocabulary is at its end.
-                if (state.lesson == null) ReaderTools(state, bookmarksOpen = false, onBookmarks = { showBookmarks = true }, actions = actions, onClose = onClose)
             }
         }
         AppDivider()
@@ -247,19 +247,26 @@ private fun SettingsHeader(title: String, subtitle: String?, phone: Boolean, onB
 }
 
 /**
- * The chosen one of the [tabs], as tall as the tallest of them: all are measured and only the
- * chosen one placed, so the dialog keeps one height whichever tab is open.
+ * The chosen one of the [tabs] with [after] right under it, as tall as the tallest tab with it: all
+ * are measured and only the chosen one placed, so the dialog keeps one height whichever tab is open,
+ * its spare room at the bottom rather than between the tab and what follows it.
  */
 @Composable
-private fun TallestTab(chosen: Int, tabs: List<@Composable () -> Unit>) {
+private fun TallestTab(chosen: Int, tabs: List<@Composable () -> Unit>, after: @Composable () -> Unit) {
     // The others are measured only: out of sight, and out of reach of screen readers too.
     val wrapped = tabs.mapIndexed { index, tab -> @Composable { Box(if (index == chosen) Modifier else Modifier.clearAndSetSemantics {}) { tab() } } }
-    Layout(contents = wrapped) { measurables, constraints ->
-        val placeables = measurables.map { tab -> tab.map { it.measure(constraints.copy(minHeight = 0)) } }
-        val height = placeables.maxOf { tab -> tab.sumOf { it.height } }
+    Layout(contents = wrapped + listOf(after)) { measurables, constraints ->
+        val free = constraints.copy(minHeight = 0)
+        val placeables = measurables.dropLast(1).map { tab -> tab.map { it.measure(free) } }
+        val footer = measurables.last().map { it.measure(free) }
+        val footerHeight = footer.sumOf { it.height }
+        val gap = if (footerHeight > 0) AppSpacing.l.roundToPx() else 0
+        val height = placeables.maxOf { tab -> tab.sumOf { it.height } } + gap + footerHeight
         layout(constraints.maxWidth, height) {
             var y = 0
             placeables[chosen].forEach { it.place(0, y); y += it.height }
+            y += gap
+            footer.forEach { it.place(0, y); y += it.height }
         }
     }
 }
