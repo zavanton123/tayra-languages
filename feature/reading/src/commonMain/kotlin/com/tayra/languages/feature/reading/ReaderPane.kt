@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
@@ -140,7 +141,7 @@ internal fun ReaderPane(
     val title = state.book?.title.orEmpty().inLearnedScript()
     val gutter = if (phone) AppSpacing.l else AppSpacing.xxl
 
-    Column(Modifier.fillMaxWidth()) {
+    Column(Modifier.fillMaxSize()) {
         SettingsHeader(
             title = if (showBookmarks) tr("Bookmarks") else tr("Reader settings"),
             subtitle = if (showBookmarks) trPlural(bookmarks.size, "{1} · {0} saved", "{1} · {0} saved", title) else title.takeIf { !phone && it.isNotEmpty() },
@@ -164,7 +165,8 @@ internal fun ReaderPane(
             )
         }
         ScrollColumn(
-            Modifier.weight(1f, fill = phone).fillMaxWidth(),
+            // Every tab takes the same room, so the dialog keeps its size as the tabs change.
+            Modifier.weight(1f).fillMaxWidth(),
             contentModifier = Modifier.padding(start = gutter, end = gutter, top = AppSpacing.l, bottom = AppSpacing.l),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
@@ -341,6 +343,23 @@ private fun <T> ChoiceRow(
     }
 }
 
+/** A setting chosen from a drop-down menu: its icon on a tinted tile, its name and an optional note, and the menu's button. */
+@Composable
+private fun <T> DropDownRow(icon: ImageVector, title: String, note: String?, options: List<T>, selected: T, optionLabel: (T) -> String, tag: String, onSelect: (T) -> Unit) {
+    Row(
+        Modifier.fillMaxWidth().padding(vertical = AppSpacing.s),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
+    ) {
+        IconTile(icon, size = 44)
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+            Text(title, style = MaterialTheme.typography.bodyLarge, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            if (note != null) Text(note, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+        SelectMenu(options, selected, onSelect, optionLabel, Modifier.widthIn(max = SELECT_MAX_WIDTH), buttonModifier = Modifier.testTag(tag))
+    }
+}
+
 /** A row that leaves for a settings screen, as a link: its icon on a tinted tile, its name in the primary colour. */
 @Composable
 private fun LinkRow(title: String, icon: ImageVector, tag: String, onClick: () -> Unit) {
@@ -468,41 +487,20 @@ private fun VoiceCard(state: ReadingUiState, viewModel: ReadingViewModel, onSpee
     val engine = prefs.speechEngine.takeIf { it in viewModel.speechEngines } ?: SpeechEngine.SYSTEM
     val languageName = state.language?.name.orEmpty()
     PaneCard(tr("Voice")) {
-        ChoiceRow(
-            icon = AppIcons.Globe,
-            title = tr("Speech engine"),
-            value = speechName(engine),
-            options = viewModel.speechEngines,
-            optionLabel = ::speechName,
-            note = { Text(speechNote(engine), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant) },
-            onSelect = viewModel::setSpeechEngine,
-        )
+        DropDownRow(AppIcons.Globe, tr("Speech engine"), speechNote(engine), viewModel.speechEngines, engine, ::speechName, "speech-engine-choice", viewModel::setSpeechEngine)
         if (engine != SpeechEngine.SYSTEM) {
             AppDivider()
             if (voices.isNotEmpty()) {
                 val chosen = prefs.speechVoices["${prefs.speechEngine.name}:${viewModel.speechLanguage}"]
-                Row(
-                    Modifier.fillMaxWidth().padding(vertical = AppSpacing.s),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
-                ) {
-                    IconTile(AppIcons.RecordVoiceOver, size = 44)
-                    Text(
-                        if (languageName.isEmpty()) tr("Voice") else tr("{0} voice", tr(languageName)),
-                        style = MaterialTheme.typography.bodyLarge,
-                        maxLines = 2,
-                        overflow = TextOverflow.Ellipsis,
-                        modifier = Modifier.weight(1f),
-                    )
-                    SelectMenu(
-                        voices,
-                        selected = voices.firstOrNull { it.id == chosen } ?: voices.first(),
-                        onSelect = { viewModel.setSpeechVoice(it.id) },
-                        optionLabel = { it.name },
-                        modifier = Modifier.widthIn(max = VOICE_SELECT_MAX_WIDTH),
-                        buttonModifier = Modifier.testTag("voice-choice"),
-                    )
-                }
+                DropDownRow(
+                    AppIcons.RecordVoiceOver,
+                    if (languageName.isEmpty()) tr("Voice") else tr("{0} voice", tr(languageName)),
+                    note = null,
+                    voices,
+                    voices.firstOrNull { it.id == chosen } ?: voices.first(),
+                    { it.name },
+                    "voice-choice",
+                ) { viewModel.setSpeechVoice(it.id) }
             } else {
                 Text(
                     tr("No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings.", tr(languageName)),
@@ -772,7 +770,7 @@ private fun ChineseScriptSetting(current: ChineseScript?, onChoose: (ChineseScri
 
 private val VALUE_MAX_WIDTH = 160.dp
 private val TAB_BAR_HEIGHT = 52.dp
-private val VOICE_SELECT_MAX_WIDTH = 260.dp
+private val SELECT_MAX_WIDTH = 260.dp
 private val DONE_MIN_WIDTH = 120.dp
 private val SPEED_FIGURE_WIDTH = 96.dp
 private val SCRIPT_DROPDOWN_WIDTH = 150.dp
