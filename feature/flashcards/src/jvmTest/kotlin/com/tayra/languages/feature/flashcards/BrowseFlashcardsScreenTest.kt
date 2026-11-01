@@ -169,6 +169,9 @@ class BrowseFlashcardsScreenTest {
         }
         onNodeWithText("3 days ago").assertExists()
         onNodeWithText("2 weeks ago").assertExists()
+        // Created comes right after the sentence, before the state.
+        val left = { label: String -> onNodeWithText(label).fetchSemanticsNode().boundsInRoot.left }
+        assertTrue(left("Sentence") < left("Created") && left("Created") < left("State"))
         save("BROWSE_CREATED_SCREENSHOT")
         onNodeWithText("Created").performClick()
         waitForIdle()

@@ -348,13 +348,13 @@ private fun CardTableHeader(state: BrowseUiState, viewModel: BrowseFlashcardsVie
         AppCheckbox(checked = allSelected, onCheckedChange = viewModel::selectAllShown, modifier = Modifier.testTag("browse-select-all"))
         SortHeader(tr("Card"), BrowseSortField.WORD, state.sort, Modifier.weight(CARD_WEIGHT), viewModel::sortBy)
         TableHeaderCell(tr("Sentence"), Modifier.weight(SENTENCE_WEIGHT))
+        SortHeader(tr("Created"), BrowseSortField.CREATED, state.sort, Modifier.width(LAST_WIDTH), viewModel::sortBy)
         SortHeader(tr("State"), BrowseSortField.STATE, state.sort, Modifier.width(STATE_WIDTH), viewModel::sortBy)
         SortHeader(tr("Due"), BrowseSortField.DUE, state.sort, Modifier.width(DUE_WIDTH), viewModel::sortBy)
         SortHeader(tr("Interval"), BrowseSortField.INTERVAL, state.sort, Modifier.width(INTERVAL_WIDTH), viewModel::sortBy)
         SortHeader(tr("Reviews"), BrowseSortField.REVIEWS, state.sort, Modifier.width(COUNT_WIDTH), viewModel::sortBy)
         SortHeader(tr("Lapses"), BrowseSortField.LAPSES, state.sort, Modifier.width(COUNT_WIDTH), viewModel::sortBy)
         SortHeader(tr("Last review"), BrowseSortField.LAST_REVIEW, state.sort, Modifier.width(LAST_WIDTH), viewModel::sortBy)
-        SortHeader(tr("Created"), BrowseSortField.CREATED, state.sort, Modifier.width(LAST_WIDTH), viewModel::sortBy)
         Spacer(Modifier.width(MENU_WIDTH))
     }
 }
@@ -394,13 +394,13 @@ private fun CardTableRow(row: BrowseRow, state: BrowseUiState, index: Int, actio
             if (row.translation.isNotEmpty()) Text(row.translation, style = MaterialTheme.typography.bodySmall, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
         Text(row.sentence.orEmpty(), Modifier.weight(SENTENCE_WEIGHT).padding(end = AppSpacing.m), style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        Text(row.created?.relativeTo(state.now) ?: NONE, Modifier.width(LAST_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Box(Modifier.width(STATE_WIDTH)) { StatePill(row) }
         Text(dueLabel(row, state.now), Modifier.width(DUE_WIDTH), style = MaterialTheme.typography.bodyMedium, color = if (row.isDue && !row.suspended) AppAccents.orange else dim, fontWeight = if (row.isDue) FontWeight.Medium else FontWeight.Normal)
         Text(intervalLabel(row), Modifier.width(INTERVAL_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim)
         Text("${row.reps}", Modifier.width(COUNT_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim)
         Text("${row.lapses}", Modifier.width(COUNT_WIDTH), style = MaterialTheme.typography.bodyMedium, color = if (row.lapses > 0) AppAccents.red else dim)
         Text(row.lastReview?.relativeTo(state.now) ?: NONE, Modifier.width(LAST_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        Text(row.created?.relativeTo(state.now) ?: NONE, Modifier.width(LAST_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { RowMenu(row, actions) }
     }
 }
