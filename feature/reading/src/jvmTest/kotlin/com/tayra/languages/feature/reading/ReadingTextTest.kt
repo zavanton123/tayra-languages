@@ -152,9 +152,9 @@ class ReadingTextTest {
         assertEquals(listOf(0, 3), clicked, "the audio gutter does not offset the page's word indexes")
     }
 
-    /** Side by side, the sentence takes the wider column, play button and all, and its translation the narrower. */
+    /** Side by side, the sentence's text and its translation are equally wide; the play button is beside them, not counted. */
     @Test
-    fun sideBySideGivesTheTextTheWiderColumn() {
+    fun sideBySideGivesTheTextAndItsTranslationEqualColumns() {
         rule.setContent {
             ReadingText(
                 page = page(),
@@ -182,9 +182,11 @@ class ReadingTextTest {
             )
         }
         val translation = rule.onAllNodesWithTag("side-translation")[0].fetchSemanticsNode().boundsInRoot
-        // The text column runs from the row's start to the gap before the translation.
-        val text = translation.left
-        assertTrue(text > translation.width * 1.3f, "the text column ($text) is wider than the translation's (${translation.width})")
+        val sentence = rule.onNodeWithText("Hello", substring = true).fetchSemanticsNode().boundsInRoot
+        // The text column runs from the sentence's first letter, past its play button, to the gap before the translation.
+        val gap = with(rule.density) { com.tayra.languages.core.ui.theme.AppSpacing.xxl.toPx() }
+        val text = translation.left - gap - sentence.left
+        assertEquals(translation.width, text, 2f, "the text column ($text) is as wide as the translation's (${translation.width})")
     }
 
     /** Practising translation blurs each sentence under its translation; the mouse shows it while over it, and by touch a tap shows it and a tap beside its words hides it. */

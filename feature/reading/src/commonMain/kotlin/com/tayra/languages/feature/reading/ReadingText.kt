@@ -23,7 +23,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.relocation.BringIntoViewRequester
 import androidx.compose.foundation.relocation.bringIntoViewRequester
 import androidx.compose.foundation.text.InlineTextContent
@@ -54,6 +53,7 @@ import androidx.compose.ui.geometry.Size
 import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.gestures.animateScrollBy
 import androidx.compose.runtime.withFrameNanos
+import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.boundsInRoot
 import androidx.compose.ui.layout.onGloballyPositioned
@@ -89,6 +89,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
@@ -304,14 +305,16 @@ fun ReadingText(
                 }
                 // The background takes in the sentence's translation too, beside it or under it.
                 if (twoColumns) {
-                    // The text is what is read, in larger type and beside its play button, so it takes the wider column.
-                    Row(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING), verticalAlignment = Alignment.Top) {
-                        if (onSpeakSentence != null) withButton(Modifier.weight(TEXT_COLUMN_WEIGHT)) else Box(Modifier.weight(TEXT_COLUMN_WEIGHT)) { sentence() }
-                        Box(Modifier.width(AppSpacing.xxl))
-                        Box(Modifier.weight(TRANSLATION_COLUMN_WEIGHT).testTag("side-translation")) {
-                            if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true)
-                        }
-                    }
+                    SideBySide(
+                        gutter = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp,
+                        modifier = Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING),
+                        text = { if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else Box(Modifier.fillMaxWidth()) { sentence() } },
+                        translation = {
+                            Box(Modifier.fillMaxWidth().testTag("side-translation")) {
+                                if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true)
+                            }
+                        },
+                    )
                 } else if (perSentence) {
                     Column(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING)) {
                         if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else sentence()
@@ -326,6 +329,27 @@ fun ReadingText(
                     Box(Modifier.fillMaxWidth().followed(isReading, followReading, Color.Transparent, highlightReach)) { sentence() }
                 }
             }
+        }
+    }
+}
+
+/**
+ * A sentence beside its translation, the two texts equally wide: the sentence's column also holds
+ * its play button, so it is wider by the button's [gutter].
+ */
+@Composable
+private fun SideBySide(gutter: Dp, modifier: Modifier, text: @Composable () -> Unit, translation: @Composable () -> Unit) {
+    Layout(contents = listOf(text, translation), modifier = modifier) { (textPart, translationPart), constraints ->
+        val gap = AppSpacing.xxl.roundToPx()
+        val gutterPx = gutter.roundToPx()
+        val width = constraints.maxWidth
+        val column = ((width - gap - gutterPx) / 2).coerceAtLeast(0)
+        val left = textPart.map { it.measure(Constraints.fixedWidth(gutterPx + column)) }
+        val right = translationPart.map { it.measure(Constraints.fixedWidth(column)) }
+        val height = (left + right).maxOfOrNull { it.height } ?: 0
+        layout(width, height) {
+            left.forEach { it.place(0, 0) }
+            right.forEach { it.place(width - column, 0) }
         }
     }
 }
@@ -449,8 +473,6 @@ private val HIGHLIGHT_INSET = 8.dp
 private val SENTENCE_ROW_PADDING = 6.dp
 
 /** Side by side, the sentences take three fifths of the width and their translations two. */
-private const val TEXT_COLUMN_WEIGHT = 3f
-private const val TRANSLATION_COLUMN_WEIGHT = 2f
 
 /** How strongly the sentence being heard is tinted with the text colour. */
 private const val HEARD_TINT_ALPHA = 0.1f
@@ -468,7 +490,8 @@ private fun TranslationLine(translation: SentenceTranslation?, theme: AppTheme, 
     when (translation) {
         is SentenceTranslation.Done -> Text(
             translation.text,
-            style = TextStyle(fontSize = size.sp, lineHeight = (size * spacing).sp, color = color),
+            // Beside the sentence it is justified as the sentence is.
+            style = TextStyle(fontSize = size.sp, lineHeight = (size * spacing).sp, color = color, textAlign = if (large) TextAlign.Justify else TextAlign.Start),
             // It starts under the sentence's first letter.
             modifier = Modifier.fillMaxWidth().padding(bottom = if (large) 0.dp else AppSpacing.m),
         )
