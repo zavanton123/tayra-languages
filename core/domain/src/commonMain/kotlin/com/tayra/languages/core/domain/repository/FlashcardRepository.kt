@@ -32,6 +32,9 @@ interface FlashcardRepository {
 
     suspend fun save(card: Flashcard)
     suspend fun addReview(review: FlashcardReview): Long
+
+    /** Adds [reviews] together, as one write. */
+    suspend fun addReviews(reviews: List<FlashcardReview>)
     suspend fun deleteReview(id: Long)
     suspend fun setSuspended(termId: Long, suspended: Boolean)
 

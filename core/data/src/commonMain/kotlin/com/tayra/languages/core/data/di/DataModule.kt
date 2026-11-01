@@ -6,6 +6,7 @@ import com.tayra.languages.core.domain.account.CloudBackupService
 import com.tayra.languages.core.domain.account.AccountRepository
 import com.tayra.languages.core.domain.account.AutoSync
 import com.tayra.languages.core.domain.account.LibrarySync
+import com.tayra.languages.core.data.anki.AnkiArchiveReaderImpl
 import com.tayra.languages.core.data.network.createAccountHttpClient
 import com.tayra.languages.core.data.account.thisDevice
 import com.tayra.languages.core.data.account.defaultAccountServer
@@ -100,6 +101,8 @@ import com.tayra.languages.core.domain.practice.PracticeProgressRepository
 import com.tayra.languages.core.data.repository.PracticeProgressRepositoryImpl
 import com.tayra.languages.core.domain.practice.WordForms
 import com.tayra.languages.core.data.repository.PracticeExampleRepositoryImpl
+import com.tayra.languages.core.domain.flashcards.AnkiArchiveReader
+import com.tayra.languages.core.domain.flashcards.AnkiImportService
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.domain.frequency.VocabularyLevelRepository
 import com.tayra.languages.core.domain.news.NewsFeedReader
@@ -291,4 +294,6 @@ val dataModule: Module = module {
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }
     single<VocabularyLevelRepository> { VocabularyLevelRepositoryImpl(get()) }
     single { FlashcardService(get(), get(), get()) }
+    single<AnkiArchiveReader> { AnkiArchiveReaderImpl() }
+    single { AnkiImportService(get(), get(), get(), get(), get()) }
 }

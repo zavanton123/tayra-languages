@@ -6,6 +6,7 @@ import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
 import app.cash.sqldelight.coroutines.asFlow
 import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.db.Flashcards
+import com.tayra.languages.core.data.db.TayraDatabase
 import com.tayra.languages.core.data.db.databaseDispatcher
 import com.tayra.languages.core.domain.flashcards.CardSchedule
 import com.tayra.languages.core.domain.flashcards.CardState
@@ -98,16 +99,28 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
     override suspend fun addReview(review: FlashcardReview): Long = withContext(databaseDispatcher) {
         val database = provider.database()
         database.transactionWithResult {
-            database.flashcardsQueries.insertReview(
-                termId = review.termId,
-                reviewedAt = review.at.toEpochMillis(),
-                rating = review.rating.value.toLong(),
-                stateBefore = review.stateBefore.value.toLong(),
-                intervalDays = review.intervalDays.toLong(),
-                elapsedDays = review.elapsedDays.toLong(),
-            )
+            insert(database, review)
             database.flashcardsQueries.lastReviewId().awaitAsOne()
         }
+    }
+
+    override suspend fun addReviews(reviews: List<FlashcardReview>) {
+        if (reviews.isEmpty()) return
+        withContext(databaseDispatcher) {
+            val database = provider.database()
+            database.transaction { reviews.forEach { insert(database, it) } }
+        }
+    }
+
+    private suspend fun insert(database: TayraDatabase, review: FlashcardReview) {
+        database.flashcardsQueries.insertReview(
+            termId = review.termId,
+            reviewedAt = review.at.toEpochMillis(),
+            rating = review.rating.value.toLong(),
+            stateBefore = review.stateBefore.value.toLong(),
+            intervalDays = review.intervalDays.toLong(),
+            elapsedDays = review.elapsedDays.toLong(),
+        )
     }
 
     override suspend fun deleteReview(id: Long) {

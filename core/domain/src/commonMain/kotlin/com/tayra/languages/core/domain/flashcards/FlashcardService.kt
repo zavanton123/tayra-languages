@@ -70,11 +70,7 @@ class FlashcardService(
         return terms.getById(termId)?.let { clozeRange(it) }
     }
 
-    private fun config(s: UserSettings = settings.current) = SchedulerConfig(
-        desiredRetention = s.flashcardRetention / 100.0,
-        learnSteps = LearningSteps.parseOr(s.flashcardLearnSteps, UserSettings().flashcardLearnSteps),
-        relearnSteps = LearningSteps.parseOr(s.flashcardRelearnSteps, UserSettings().flashcardRelearnSteps),
-    )
+    private fun config(s: UserSettings = settings.current) = schedulerConfig(s)
 
     private data class Limits(val newLeft: Int, val reviewsLeft: Int)
 
@@ -251,6 +247,13 @@ class FlashcardService(
 
         /** A card being learned is shown this much early when nothing else is left, as in Anki. */
         private val LEARN_AHEAD = 20.minutes
+
+        /** The scheduling the flashcard settings in [s] ask for. */
+        fun schedulerConfig(s: UserSettings) = SchedulerConfig(
+            desiredRetention = s.flashcardRetention / 100.0,
+            learnSteps = LearningSteps.parseOr(s.flashcardLearnSteps, UserSettings().flashcardLearnSteps),
+            relearnSteps = LearningSteps.parseOr(s.flashcardRelearnSteps, UserSettings().flashcardRelearnSteps),
+        )
 
         /** The status a review interval of [days] has earned. */
         fun statusFor(days: Int): TermStatus = when {
