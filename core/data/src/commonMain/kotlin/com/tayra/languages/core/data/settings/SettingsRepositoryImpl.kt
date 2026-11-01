@@ -115,7 +115,6 @@ class SettingsRepositoryImpl(
             knownWordCounts = store.getString(Keys.KNOWN_WORD_COUNTS, defaults.knownWordCounts),
             accountServer = store.getString(Keys.ACCOUNT_SERVER, defaults.accountServer),
             autoSync = store.getBoolean(Keys.AUTO_SYNC, defaults.autoSync),
-            readingColumnWidth = store.getInt(Keys.COLUMN_WIDTH, defaults.readingColumnWidth),
             splitSentences = store.getBoolean(Keys.SPLIT_SENTENCES, defaults.splitSentences),
             showTranslations = store.getBoolean(Keys.SHOW_TRANSLATIONS, defaults.showTranslations),
             sideBySideTranslations = store.getBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, defaults.sideBySideTranslations),
@@ -227,7 +226,6 @@ class SettingsRepositoryImpl(
         store.putString(Keys.KNOWN_WORD_COUNTS, s.knownWordCounts)
         store.putString(Keys.ACCOUNT_SERVER, s.accountServer)
         store.putBoolean(Keys.AUTO_SYNC, s.autoSync)
-        store.putInt(Keys.COLUMN_WIDTH, s.readingColumnWidth)
         store.putBoolean(Keys.SPLIT_SENTENCES, s.splitSentences)
         store.putBoolean(Keys.SHOW_TRANSLATIONS, s.showTranslations)
         store.putBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, s.sideBySideTranslations)
@@ -295,7 +293,6 @@ class SettingsRepositoryImpl(
         const val KNOWN_WORD_COUNTS = "known_word_counts"
         const val ACCOUNT_SERVER = "account_server"
         const val AUTO_SYNC = "auto_sync"
-        const val COLUMN_WIDTH = "reading_column_width"
         const val SPLIT_SENTENCES = "reading_split_sentences"
         const val SIDE_BY_SIDE_TRANSLATIONS = "reading_side_by_side_translations"
         const val SHOW_SENTENCE_PLAY = "reading_show_sentence_play"

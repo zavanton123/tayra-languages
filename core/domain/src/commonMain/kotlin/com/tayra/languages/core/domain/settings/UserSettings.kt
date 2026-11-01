@@ -18,7 +18,6 @@ data class UserSettings(
     val readingLineHeight: Float = 1.6f,
     /** The typeface of the reader's text, by id; see the reading fonts in the UI. */
     val readingFont: String = DEFAULT_READING_FONT,
-    val readingColumnWidth: Int = 720,
     /** Start every sentence on its own line while reading. */
     val splitSentences: Boolean = false,
     /** Show a translation under every sentence while reading. */

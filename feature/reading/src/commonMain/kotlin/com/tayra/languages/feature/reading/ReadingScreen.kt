@@ -731,7 +731,7 @@ private fun ReadingBody(
         Modifier.fillMaxWidth().padding(start = edgePadding, end = edgePadding, top = AppSpacing.l)
     } else {
         Modifier.padding(start = if (compact) AppSpacing.m else AppSpacing.l, top = if (compact) AppSpacing.m else AppSpacing.l, bottom = if (compact) AppSpacing.m else AppSpacing.l, end = if (compact) AppSpacing.m else AppSpacing.l)
-            .widthIn(max = state.settings.readingColumnWidth.dp + AppSpacing.xxxl * 2)
+            .widthIn(max = READING_COLUMN_WIDTH + AppSpacing.xxxl * 2)
             .clip(AppShapes.card)
             .background(theme.readingBackground)
             .border(AppBorders.hairline(), AppShapes.card)
@@ -938,6 +938,8 @@ private val MOBILE_ACTION_BAR_HEIGHT = 76.dp
 /** Room under the text, so the floating play controls do not cover its end. */
 private val CONTROLS_ROOM = 120.dp
 private val DRAWER_WIDTH = 460.dp
+/** The widest the text runs on a wide window. */
+private val READING_COLUMN_WIDTH = 2000.dp
 /** The docked term pane, as wide as Word frequency's. */
 private val TERM_PANEL_WIDTH = 440.dp
 /** How much of a phone's height the reader's settings take, leaving the text above them in view. */

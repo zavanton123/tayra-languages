@@ -964,7 +964,6 @@ class ReadingViewModel(
     fun nextTheme() = updateSettings { it.copy(themeId = AppThemes.next(it.themeId).id) }
     fun adjustFontScale(delta: Float) = updateSettings { it.copy(readingFontScale = (it.readingFontScale + delta).coerceIn(0.6f, 2.5f)) }
     fun adjustLineHeight(delta: Float) = updateSettings { it.copy(readingLineHeight = (it.readingLineHeight + delta).coerceIn(1.0f, 3.0f)) }
-    fun adjustColumnWidth(delta: Int) = updateSettings { it.copy(readingColumnWidth = (it.readingColumnWidth + delta).coerceIn(320, 2000)) }
 
     private fun updateSettings(transform: (UserSettings) -> UserSettings) {
         viewModelScope.launch { settingsRepository.update(transform) }
@@ -976,7 +975,6 @@ class ReadingViewModel(
     fun setSideBySideTranslations(on: Boolean) = updateSettings { it.copy(sideBySideTranslations = on) }
     fun setFontScale(scale: Float) = updateSettings { it.copy(readingFontScale = ((scale * 10).roundToInt() / 10f).coerceIn(0.6f, 2.5f)) }
     fun setLineHeight(height: Float) = updateSettings { it.copy(readingLineHeight = ((height * 10).roundToInt() / 10f).coerceIn(1.0f, 3.0f)) }
-    fun setColumnWidth(width: Int) = updateSettings { it.copy(readingColumnWidth = (width / 20 * 20).coerceIn(320, 2000)) }
     fun setSpeechSpeed(speed: Float) = updateSettings { it.copy(speechSpeed = ((speed.coerceIn(0.5f, 1.5f) * 20).roundToInt() / 20f)) }
 
     /** Puts the pane's settings (reading, audio and appearance) back to their defaults; the engines and voices stay. */
@@ -997,7 +995,6 @@ class ReadingViewModel(
             readingFont = defaults.readingFont,
             readingFontScale = defaults.readingFontScale,
             readingLineHeight = defaults.readingLineHeight,
-            readingColumnWidth = defaults.readingColumnWidth,
         )
     }
 
