@@ -60,7 +60,8 @@ class CachedSentenceTranslator(
                 runCatching { store.prune(now - storeTtlMs) }
                 lastPruneAt = now
             }
-            runCatching { store.get(text, target, now - storeTtlMs) }.getOrNull()?.let { stored ->
+            // Ones with U+FFFD were mangled on the way from the offline translator on Windows; they are asked for again.
+            runCatching { store.get(text, target, now - storeTtlMs) }.getOrNull()?.takeUnless { '\uFFFD' in it }?.let { stored ->
                 remember(key, Entry(stored, now))
                 return stored
             }

@@ -44,6 +44,17 @@ class CachedSentenceTranslatorTest {
     }
 
     @Test
+    fun aGarbledStoredTranslationIsAskedForAgain() = runTest {
+        val store = FakeStore()
+        store.rows["Ben has a dog, Max." to "ru"] = "\uFFFD \uFFFD\uFFFD\uFFFD\uFFFD." to Clock.System.now().toEpochMilliseconds()
+        val inner = CountingTranslator("У Бена есть собака, Макс.")
+        val translator = CachedSentenceTranslator(inner, store, targetLanguage = { "ru" }, minIntervalMs = 0)
+        assertEquals("У Бена есть собака, Макс.", translator.translate("Ben has a dog, Max.", language))
+        assertEquals(1, inner.calls)
+        assertEquals("У Бена есть собака, Макс.", store.rows["Ben has a dog, Max." to "ru"]?.first, "the good one replaces it")
+    }
+
+    @Test
     fun targetLanguageIsPartOfTheKey() = runTest {
         val store = FakeStore()
         val inner = CountingTranslator("x")
