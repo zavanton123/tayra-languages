@@ -38,7 +38,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.platform.testTag
@@ -391,21 +390,6 @@ private fun AudioTab(state: ReadingUiState, viewModel: ReadingViewModel, onSpeec
                 Text(tr("Slower"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 AppSlider(value = prefs.speechSpeed, onValueChange = viewModel::setSpeechSpeed, valueRange = 0.5f..1.5f, modifier = Modifier.weight(1f).testTag("speech-speed"))
                 Text(tr("Faster"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                listOf(0.75f, 1f, 1.25f).forEach { speed ->
-                    val active = kotlin.math.abs(prefs.speechSpeed - speed) < 0.01f
-                    Text(
-                        "${(speed * 100).roundToInt()}%",
-                        Modifier.weight(1f).clip(AppShapes.control)
-                            .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = AppAlpha.soft) else Color.Transparent)
-                            .border(AppBorders.hairline(if (active) MaterialTheme.colorScheme.primary.copy(alpha = AppAlpha.half) else MaterialTheme.colorScheme.outlineVariant), AppShapes.control)
-                            .clickable { viewModel.setSpeechSpeed(speed) }.padding(vertical = AppSpacing.s),
-                        style = MaterialTheme.typography.bodyLarge,
-                        color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface,
-                        textAlign = TextAlign.Center,
-                    )
-                }
             }
         }
     }
