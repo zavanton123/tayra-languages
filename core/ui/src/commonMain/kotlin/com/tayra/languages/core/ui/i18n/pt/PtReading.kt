@@ -252,4 +252,6 @@ internal val ptReading: Map<String, String> = mapOf(
     "That could not be made out. Try again." to "Não foi possível reconhecer. Tente novamente.",
     "See lesson vocabulary" to "Ver o vocabulário da lição",
     "Lesson vocabulary" to "Vocabulário da lição",
+    "Translation display" to "Exibição das traduções",
+    "Preview" to "Pré-visualização",
 )

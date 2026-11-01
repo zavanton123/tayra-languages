@@ -1,5 +1,16 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.ui.input.key.onKeyEvent
+import com.tayra.languages.core.domain.service.SentenceTranslation
+import com.tayra.languages.core.domain.service.TranslationEngine
+import kotlin.math.roundToInt
+import com.tayra.languages.core.domain.service.SpeechEngine
+import com.tayra.languages.core.ui.components.AppMenu
+import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.domain.playlists.PlaylistPlayer
 import com.tayra.languages.feature.playlists.AddToPlaylistButton
 import com.tayra.languages.feature.playlists.NewPlaylistDialog
@@ -41,7 +52,6 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Warning
@@ -57,20 +67,14 @@ import androidx.compose.material3.rememberStandardBottomSheetState
 import androidx.compose.material3.rememberBottomSheetScaffoldState
 import androidx.compose.material3.SheetValue
 import androidx.compose.material3.BottomSheetScaffold
-import androidx.compose.material3.ModalDrawerSheet
-import androidx.compose.material3.ModalNavigationDrawer
 import androidx.compose.material3.Text
-import androidx.compose.material3.rememberDrawerState
-import androidx.compose.material3.DrawerValue
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -84,7 +88,6 @@ import com.tayra.languages.core.ui.audio.Speaker
 import com.tayra.languages.core.domain.settings.Hotkey
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.input.key.onPreviewKeyEvent
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.draw.shadow
@@ -94,11 +97,9 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
-import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.runtime.CompositionLocalProvider
 import com.tayra.languages.feature.terms.form.LocalTypingReporter
 import androidx.compose.ui.input.key.KeyEventType
-import androidx.compose.ui.input.key.onKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.platform.LocalClipboardManager
 import androidx.compose.ui.platform.LocalUriHandler
@@ -119,11 +120,7 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.LocalTranslationProblem
-import com.tayra.languages.core.domain.service.SentenceTranslation
-import com.tayra.languages.core.domain.service.TranslationEngine
 import androidx.compose.runtime.collectAsState
-import kotlin.math.roundToInt
-import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
 import com.tayra.languages.core.ui.audio.rememberSpeaker
@@ -137,6 +134,7 @@ import com.tayra.languages.core.ui.components.AboveTargetPositionProvider
 import androidx.compose.ui.platform.LocalDensity
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppDialogSurface
+import com.tayra.languages.core.ui.components.AppScreenDialog
 import com.tayra.languages.core.ui.navigation.rememberPracticeOpener
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppSwitch
@@ -144,13 +142,10 @@ import com.tayra.languages.core.ui.components.BarSurface
 import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.PopupCard
-import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTooltip
 import com.tayra.languages.core.ui.components.BadgeEmphasis
 import com.tayra.languages.core.ui.components.CountBadge
-import com.tayra.languages.core.ui.components.AppMenu
-import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.IconTile
@@ -222,19 +217,17 @@ fun ReadingScreen(
     val theme = TayraTheme.current
     val wide = LocalWindowWidth.current.isExpanded
     val scope = rememberCoroutineScope()
-    val drawerState = rememberDrawerState(DrawerValue.Closed)
-    // A phone opens the reader's settings in a sheet over the lower part of the page, so the text
-    // they change stays in sight above it; a wider window has room for the drawer beside the text.
+    // The reader's settings: a large dialog over the page, or a screen of their own on a phone.
     val phone = LocalWindowWidth.current.isCompact
-    var paneSheet by remember { mutableStateOf(false) }
+    var paneOpen by remember { mutableStateOf(false) }
     var paneInitialTab by remember { mutableStateOf(PaneTab.READING) }
     val openPane: () -> Unit = {
         paneInitialTab = PaneTab.READING
-        if (phone) paneSheet = true else scope.launch { drawerState.open() }
+        paneOpen = true
     }
     val openAppearance: () -> Unit = {
         paneInitialTab = PaneTab.APPEARANCE
-        if (phone) paneSheet = true else scope.launch { drawerState.open() }
+        paneOpen = true
     }
     var bookmarkDialog by remember { mutableStateOf(false) }
     // True while a text field of the term pane is being typed in: the hotkeys then stay out of the typing.
@@ -366,28 +359,19 @@ fun ReadingScreen(
         onTranslationSettings = { onNavigate(Route.OfflineTranslation) },
     )
 
-    if (phone && paneSheet) {
-        AppBottomSheet(onDismissRequest = { paneSheet = false }, scrimColor = MaterialTheme.colorScheme.scrim.copy(alpha = AppAlpha.tint)) {
-            Box(Modifier.fillMaxWidth().fillMaxHeight(PANE_SHEET_HEIGHT)) {
-                ReaderPane(state, viewModel, paneActions, onClose = { paneSheet = false }, initialTab = paneInitialTab)
+    if (paneOpen) {
+        val closePane = { paneOpen = false }
+        if (phone) {
+            AppScreenDialog(onDismissRequest = closePane, modifier = Modifier.testTag("reader-settings")) {
+                ReaderPane(state, viewModel, paneActions, onClose = closePane, initialTab = paneInitialTab)
+            }
+        } else {
+            AppDialogSurface(onDismissRequest = closePane, modifier = Modifier.windowInsetsPadding(WindowInsets.safeDrawing).testTag("reader-settings"), maxWidth = SETTINGS_DIALOG_WIDTH) {
+                ReaderPane(state, viewModel, paneActions, onClose = closePane, initialTab = paneInitialTab)
             }
         }
     }
-    ModalNavigationDrawer(
-        drawerState = drawerState,
-        gesturesEnabled = !phone,
-        drawerContent = {
-            ModalDrawerSheet(
-                drawerContainerColor = MaterialTheme.colorScheme.surface,
-                drawerShape = RectangleShape,
-                windowInsets = WindowInsets.safeDrawing,
-                // Wider than Material's 360dp drawer, so the tabs and tool tiles fit; a phone keeps a strip of the page.
-                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth(0.9f) else Modifier.width(DRAWER_WIDTH),
-            ) {
-                ReaderPane(state, viewModel, paneActions, onClose = { scope.launch { drawerState.close() } })
-            }
-        },
-    ) {
+    Box(Modifier.fillMaxSize()) {
         TermSheet(
             enabled = !wide,
             open = state.panel != ReadingPanel.None,
@@ -967,13 +951,12 @@ private val MOBILE_ACTION_BAR_HEIGHT = 76.dp
 
 /** Room under the text, so the floating play controls do not cover its end. */
 private val CONTROLS_ROOM = 120.dp
-private val DRAWER_WIDTH = 460.dp
+/** The reader settings dialog beyond a phone, room for two columns of cards. */
+private val SETTINGS_DIALOG_WIDTH = 1040.dp
 /** The widest the text runs on a wide window. */
 private val READING_COLUMN_WIDTH = 2000.dp
 /** The docked term pane, as wide as Word frequency's. */
 private val TERM_PANEL_WIDTH = 440.dp
-/** How much of a phone's height the reader's settings take, leaving the text above them in view. */
-private const val PANE_SHEET_HEIGHT = 0.6f
 private const val EXAMPLES_DIALOG_HEIGHT = 0.92f
 private val HANDLE_WIDTH = 32.dp
 private val SHORTCUTS_WIDTH = 440.dp

@@ -252,4 +252,6 @@ internal val esReading: Map<String, String> = mapOf(
     "That could not be made out. Try again." to "No se pudo reconocer. Inténtalo de nuevo.",
     "See lesson vocabulary" to "Ver el vocabulario de la lección",
     "Lesson vocabulary" to "Vocabulario de la lección",
+    "Translation display" to "Visualización de las traducciones",
+    "Preview" to "Vista previa",
 )

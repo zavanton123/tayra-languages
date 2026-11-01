@@ -467,7 +467,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Reader settings").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-edit").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithTag("tool-edit").performClick()
+        rule.onNodeWithTag("tool-edit").performScrollTo().performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Edit book").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithText("Edit current page").assertExists()
         for (gone in listOf("Add page after", "Add page before", "Delete current page")) {
@@ -713,7 +713,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Reader settings").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-bookmarks").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithTag("tool-bookmarks").performClick()
+        rule.onNodeWithTag("tool-bookmarks").performScrollTo().performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Add bookmark to page 1").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("add-bookmark").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("bookmark-1").fetchSemanticsNodes().isNotEmpty() }
@@ -761,7 +761,8 @@ class ReadingHoverTest {
         rule.onNodeWithContentDescription("Appearance").performClick()
         // The font is on the Appearance tab, reached without choosing the tab.
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("font-choice").fetchSemanticsNodes().isNotEmpty() }
-        rule.onAllNodesWithText("lobo dorme", substring = true).assertCountEquals(1)
+        // The preview shows the page's first sentence in the chosen font.
+        rule.onNode(hasText("lobo dorme", substring = true) and hasAnyAncestor(hasTestTag("reader-preview"))).assertExists()
     }
 
     /** On a phone the pane is a sheet over a live page: a tap on the text above it does not put it away. */

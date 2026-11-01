@@ -252,4 +252,6 @@ internal val zhReading: Map<String, String> = mapOf(
     "That could not be made out. Try again." to "没能识别出来。请重试。",
     "See lesson vocabulary" to "查看本课词汇",
     "Lesson vocabulary" to "本课词汇",
+    "Translation display" to "译文显示",
+    "Preview" to "预览",
 )

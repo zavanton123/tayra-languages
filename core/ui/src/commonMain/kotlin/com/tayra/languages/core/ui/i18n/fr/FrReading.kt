@@ -252,4 +252,6 @@ internal val frReading: Map<String, String> = mapOf(
     "That could not be made out. Try again." to "Impossible de le reconnaître. Réessayez.",
     "See lesson vocabulary" to "Voir le vocabulaire de la leçon",
     "Lesson vocabulary" to "Vocabulaire de la leçon",
+    "Translation display" to "Affichage des traductions",
+    "Preview" to "Aperçu",
 )

@@ -252,4 +252,6 @@ internal val elReading: Map<String, String> = mapOf(
     "That could not be made out. Try again." to "Δεν ήταν δυνατό να αναγνωριστεί. Δοκιμάστε ξανά.",
     "See lesson vocabulary" to "Δείτε το λεξιλόγιο του μαθήματος",
     "Lesson vocabulary" to "Λεξιλόγιο μαθήματος",
+    "Translation display" to "Εμφάνιση μεταφράσεων",
+    "Preview" to "Προεπισκόπηση",
 )

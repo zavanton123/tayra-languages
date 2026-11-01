@@ -1,5 +1,10 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.foundation.layout.safeDrawing
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -83,6 +88,16 @@ fun AppDialogSurface(
     Dialog(onDismissRequest = onDismissRequest, properties = DialogProperties(usePlatformDefaultWidth = false, dismissOnClickOutside = dismissible)) {
         // The same margin on every side: wide enough at the top to clear a title bar the window's content runs under.
         Surface(modifier.padding(LocalTitleBarInset.current + AppSpacing.l).widthIn(max = maxWidth).fillMaxWidth(), shape = AppShapes.large, color = color, content = content)
+    }
+}
+
+/** A dialog that fills the screen, as a page of its own over the one under it: a phone's settings. */
+@Composable
+fun AppScreenDialog(onDismissRequest: () -> Unit, modifier: Modifier = Modifier, content: @Composable () -> Unit) {
+    Dialog(onDismissRequest = onDismissRequest, properties = DialogProperties(usePlatformDefaultWidth = false)) {
+        Surface(modifier.fillMaxSize(), color = MaterialTheme.colorScheme.surface) {
+            Box(Modifier.windowInsetsPadding(WindowInsets.safeDrawing)) { content() }
+        }
     }
 }
 

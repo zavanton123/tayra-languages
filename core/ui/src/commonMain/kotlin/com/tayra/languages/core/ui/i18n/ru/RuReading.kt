@@ -252,4 +252,6 @@ internal val ruReading: Map<String, String> = mapOf(
     "That could not be made out. Try again." to "Не удалось распознать. Попробуйте снова.",
     "See lesson vocabulary" to "Посмотреть слова урока",
     "Lesson vocabulary" to "Слова урока",
+    "Translation display" to "Отображение перевода",
+    "Preview" to "Предпросмотр",
 )

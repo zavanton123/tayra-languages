@@ -235,6 +235,10 @@ object AppIcons {
         icon("Mic", "M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z")
     }
 
+    val FormatAlignLeft: ImageVector by lazy { icon("FormatAlignLeft", "M15 15H3v2h12v-2zm0-8H3v2h12V7zM3 13h18v-2H3v2zm0 8h18v-2H3v2zM3 3v2h18V3H3z") }
+
+    val ViewStream: ImageVector by lazy { icon("ViewStream", "M4 14h17v-4H4v4zm0 5h17v-4H4v4zM4 5v4h17V5H4z") }
+
     val ViewColumn: ImageVector by lazy { icon("ViewColumn", "M14.67 5v14H9.33V5h5.34zm1 14H21V5h-5.33v14zm-7.34 0V5H3v14h5.33z") }
 
     val Tune: ImageVector by lazy {
