@@ -391,11 +391,13 @@ fun ReadingScreen(
                 .onPreviewKeyEvent { event ->
                     val isShift = event.key == Key.ShiftLeft || event.key == Key.ShiftRight
                     if (shift.onKey(isShift, down = event.type == KeyEventType.KeyDown)) return@onPreviewKeyEvent false
+                    // Escape deselects the words, or else does nothing: left to the window it would mean "back" and leave the text.
+                    if (event.key == Key.Escape && (event.type != KeyEventType.KeyDown || typing || state.items.isEmpty())) return@onPreviewKeyEvent true
                     if (event.type != KeyEventType.KeyDown || typing || state.items.isEmpty()) return@onPreviewKeyEvent false
                     val pressed = HotkeyMatcher.fromEvent(event)?.let(shift::adjust) ?: return@onPreviewKeyEvent false
                     val action = HotkeyAction.resolve(hotkeys, pressed, wordSelected = state.marked.isNotEmpty(), listening = state.settings.showSentencePlay)
                     Logger.d { "Reader key ${event.key} (char ${event.utf16CodePoint}, Shift flag ${event.isShiftPressed}, Shift held ${shift.held}) read as $pressed: ${action ?: "no shortcut"}" }
-                    if (action == null) return@onPreviewKeyEvent false
+                    if (action == null) return@onPreviewKeyEvent event.key == Key.Escape
                     handleAction(action)
                 },
         ) {

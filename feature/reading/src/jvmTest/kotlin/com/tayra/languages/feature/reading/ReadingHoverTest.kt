@@ -1,5 +1,11 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.ui.Modifier
+import androidx.compose.foundation.layout.Box
+import kotlin.test.assertFalse
+import androidx.compose.ui.input.key.key
+import androidx.compose.ui.input.key.onKeyEvent
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasAnyAncestor
 import androidx.compose.ui.test.hasText
@@ -519,6 +525,28 @@ class ReadingHoverTest {
         rule.onNode(hasText("Cancel") and hasAnyAncestor(hasTestTag("term-dialog"))).performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("term-dialog").fetchSemanticsNodes().isEmpty() }
         rule.onNodeWithTag("lesson-vocabulary-dialog").assertExists()
+    }
+
+    /**
+     * Escape on a lesson keeps it open: with no word chosen it does nothing, and it never reaches
+     * the window, which would take an Escape left to it as "back".
+     */
+    @Test
+    fun escapeStaysOnTheLesson() {
+        val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        var reachedWindow = false
+        rule.setContent {
+            Box(Modifier.onKeyEvent { if (it.key == Key.Escape) reachedWindow = true; false }) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, onCourse = {}, viewModel = vm)
+            }
+        }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitForIdle()
+        rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(Key.Escape) }
+        rule.waitForIdle()
+        assertFalse(reachedWindow, "Escape is kept by the reader")
     }
 
     /** On a phone a lesson's vocabulary opens as its own screen. */
