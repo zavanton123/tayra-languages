@@ -481,14 +481,28 @@ private fun VoiceCard(state: ReadingUiState, viewModel: ReadingViewModel, onSpee
             AppDivider()
             if (voices.isNotEmpty()) {
                 val chosen = prefs.speechVoices["${prefs.speechEngine.name}:${viewModel.speechLanguage}"]
-                ChoiceRow(
-                    icon = AppIcons.RecordVoiceOver,
-                    title = if (languageName.isEmpty()) tr("Voice") else tr("{0} voice", tr(languageName)),
-                    value = (voices.firstOrNull { it.id == chosen } ?: voices.first()).name,
-                    options = voices,
-                    optionLabel = { it.name },
-                    onSelect = { viewModel.setSpeechVoice(it.id) },
-                )
+                Row(
+                    Modifier.fillMaxWidth().padding(vertical = AppSpacing.s),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
+                ) {
+                    IconTile(AppIcons.RecordVoiceOver, size = 44)
+                    Text(
+                        if (languageName.isEmpty()) tr("Voice") else tr("{0} voice", tr(languageName)),
+                        style = MaterialTheme.typography.bodyLarge,
+                        maxLines = 2,
+                        overflow = TextOverflow.Ellipsis,
+                        modifier = Modifier.weight(1f),
+                    )
+                    SelectMenu(
+                        voices,
+                        selected = voices.firstOrNull { it.id == chosen } ?: voices.first(),
+                        onSelect = { viewModel.setSpeechVoice(it.id) },
+                        optionLabel = { it.name },
+                        modifier = Modifier.widthIn(max = VOICE_SELECT_MAX_WIDTH),
+                        buttonModifier = Modifier.testTag("voice-choice"),
+                    )
+                }
             } else {
                 Text(
                     tr("No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings.", tr(languageName)),
@@ -758,6 +772,7 @@ private fun ChineseScriptSetting(current: ChineseScript?, onChoose: (ChineseScri
 
 private val VALUE_MAX_WIDTH = 160.dp
 private val TAB_BAR_HEIGHT = 52.dp
+private val VOICE_SELECT_MAX_WIDTH = 260.dp
 private val DONE_MIN_WIDTH = 120.dp
 private val SPEED_FIGURE_WIDTH = 96.dp
 private val SCRIPT_DROPDOWN_WIDTH = 150.dp

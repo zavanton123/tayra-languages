@@ -1119,6 +1119,44 @@ class ReadingHoverTest {
         assertNull(vm.hoverCard("floresta"))
     }
 
+    /** The language's voice is chosen from a drop-down menu in the Audio tab. */
+    @Test
+    fun theVoiceIsChosenFromADropDown() {
+        val piper = object : LocalSpeechEngine {
+            override val engine = SpeechEngine.PIPER
+            override val displayName = "Fake Piper"
+            override val description = ""
+            override val packagesDescription = ""
+            override val hasRuntimeSetup = false
+            override val progress = MutableStateFlow<String?>(null)
+            override suspend fun status() = "ready"
+            override suspend fun isReady() = true
+            override suspend fun setUp() = "ready"
+            override suspend fun packages() = emptyList<SpeechPackage>()
+            override suspend fun installPackage(id: String) {}
+            override suspend fun removePackage(id: String) {}
+            override suspend fun voices(languageCode: String) = listOf(SpeechVoice("cadu", "Cadu (Brazil, medium)", languageCode), SpeechVoice("faber", "Faber (Brazil, medium)", languageCode))
+            override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float) = silentWav()
+        }
+        val vm = runBlocking { reader(mainIsDefault = false, speech = LocalSpeech(listOf(piper))) }
+        runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER) } }
+        startKoin { modules(module { single { LocalSpeech(listOf(piper)) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithContentDescription("Reader settings").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-AUDIO").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("pane-tab-AUDIO").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("voice-choice").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("VOICE_CHOICE_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[1].captureToImage().toAwtImage(), "png", File(path))
+        }
+        rule.onNodeWithTag("voice-choice").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Faber (Brazil, medium)").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Faber (Brazil, medium)").performClick()
+        rule.waitUntil(5_000) { settings.current.speechVoices.values.contains("faber") }
+    }
+
     /** The pane's "View all examples" opens the examples at the first click, with speech, translations and split sentences on. */
     @Test
     fun viewAllExamplesOpensAtTheFirstClick() {
