@@ -290,10 +290,10 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { home }
     }
 
-    /** Beside the play controls, a round button puts the text in a playlist, or makes one with it. */
+    /** On the last page, among the buttons under the text, a round button puts the text in a playlist, or makes one with it. */
     @Test
     fun theReaderPutsTheTextInAPlaylist() {
-        val vm = runBlocking { reader(mainIsDefault = false) }
+        val vm = runBlocking { reader(mainIsDefault = false, pages = 3) }
         val languages = LanguageRepositoryImpl(provider)
         val books = BookRepositoryImpl(provider)
         val courses = com.tayra.languages.core.domain.courses.CourseService(books, languages, BookService(books, languages), com.tayra.languages.core.data.repository.CourseRepositoryImpl(provider)) { emptyList() }
@@ -334,6 +334,10 @@ class ReadingHoverTest {
                 }
             }
         }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitForIdle()
+        assertTrue(rule.onAllNodesWithTag("add-to-playlist").fetchSemanticsNodes().isEmpty(), "only the last page offers the playlist button")
+        vm.goToPage(vm.state.value.pageCount)
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("add-to-playlist").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("add-to-playlist").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Morning Portuguese").fetchSemanticsNodes().isNotEmpty() }

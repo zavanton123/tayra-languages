@@ -1180,7 +1180,8 @@ private fun ReadingFooter(
         val showPracticeAll = last && bookWords > 0
         val showAnki = showPracticeAll && viewModel.canExportToAnki
         val playlist: @Composable () -> Unit = {
-            if (playlistBookId != null) {
+            // Offered once the text has been read through, as the whole-text actions are.
+            if (playlistBookId != null && last) {
                 // The menu ends where the buttons do: past the ones after this, next page or finish always among them.
                 val after = listOf(showPractice, showPracticeAll, showAnki, unknowns > 0, true).count { it }
                 AddToPlaylistButton(
