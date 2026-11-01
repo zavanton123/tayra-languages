@@ -12,7 +12,7 @@ CREATE TABLE flashcards (
     lapses INTEGER NOT NULL DEFAULT 0,
     last_review INTEGER,
     suspended INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0,
-    -- The term's status when the card last saw it; a different status now is a change made elsewhere.
+    -- The term's status as the card last noted it.
     seen_status INTEGER NOT NULL,
     updated_at INTEGER NOT NULL DEFAULT 0,
     -- When the word became one being learned and the card was made for it.
@@ -101,8 +101,9 @@ INNER JOIN terms t ON t.id = r.term_id
 WHERE r.reviewed_at >= :since AND r.state_before = :stateBefore
   AND (:languageId IS NULL OR t.language_id = :languageId);
 
--- Keeping cards in line with the terms' statuses. Cards and reviews of deleted terms are removed
--- here as well, since not every platform's driver enforces the cascades.
+-- Keeping cards in line with the terms: a term moved to learning gets a card, which stays whatever status is
+-- set by hand later, and goes only with its term. Cards and reviews of deleted terms are removed here, since
+-- not every platform's driver enforces the cascades.
 
 outOfLine:
 SELECT
@@ -117,21 +118,11 @@ DELETE FROM flashcards WHERE term_id NOT IN (SELECT id FROM terms);
 deleteOrphanReviews:
 DELETE FROM flashcard_reviews WHERE term_id NOT IN (SELECT id FROM terms);
 
--- A term marked known, ignored or unknown outside the flashcards has no card any more.
-deleteRetired:
-DELETE FROM flashcards
-WHERE EXISTS (SELECT 1 FROM terms t WHERE t.id = flashcards.term_id AND t.status NOT IN (1, 2, 3, 4) AND t.status != flashcards.seen_status);
-
--- A term the flashcards made known and that was moved back to learning starts over, as a card made then.
-restartReturned:
-UPDATE flashcards SET state = 0, due = :now, stability = NULL, difficulty = NULL, interval_days = 0, remaining_steps = 0,
-    reps = 0, lapses = 0, last_review = NULL, created_at = (SELECT t.status_changed_at FROM terms t WHERE t.id = flashcards.term_id)
-WHERE seen_status NOT IN (1, 2, 3, 4)
-  AND EXISTS (SELECT 1 FROM terms t WHERE t.id = flashcards.term_id AND t.status IN (1, 2, 3, 4));
-
+-- The card notes its term's status, any status: older versions synced with this one retire a card whose term
+-- changed status without it.
 followStatus:
 UPDATE flashcards SET seen_status = (SELECT t.status FROM terms t WHERE t.id = flashcards.term_id)
-WHERE EXISTS (SELECT 1 FROM terms t WHERE t.id = flashcards.term_id AND t.status IN (1, 2, 3, 4) AND t.status != flashcards.seen_status);
+WHERE EXISTS (SELECT 1 FROM terms t WHERE t.id = flashcards.term_id AND t.status != flashcards.seen_status);
 
 -- New cards queue in the order their terms were added. A card is made when the word is next looked at, so it
 -- dates from the word's move to learning.

@@ -31,8 +31,6 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
         database.transaction {
             q.deleteOrphanCards()
             q.deleteOrphanReviews()
-            q.deleteRetired()
-            q.restartReturned(now.toEpochMillis())
             q.followStatus()
             q.createMissing()
         }

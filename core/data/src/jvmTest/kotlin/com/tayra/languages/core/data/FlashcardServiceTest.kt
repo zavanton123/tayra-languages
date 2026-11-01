@@ -224,33 +224,29 @@ class FlashcardServiceTest {
         assertEquals(TermStatus.LEARNING_4, status(lobo), "failing again while relearning drops no further")
     }
 
+    /** A status set by hand leaves the card as it was: a word marked known or ignored is still reviewed, and its answers move its status again. */
     @Test
-    fun aStatusChangedByHandWins() = runTest {
+    fun aStatusSetByHandLeavesTheCard() = runTest {
         val id = language()
         val lobo = term(id, "lobo")
         answer(id, lobo, Rating.EASY)
-        assertEquals(1, service.cardFor(lobo)!!.schedule.reps)
+        val answered = service.cardFor(lobo)!!.schedule
 
-        // Between learning levels the card carries on.
-        termService.setStatus(listOf(lobo), TermStatus.LEARNING_4)
-        assertEquals(1, service.cardFor(lobo)!!.schedule.reps)
+        for (status in listOf(TermStatus.LEARNING_4, TermStatus.WELL_KNOWN, TermStatus.IGNORED, TermStatus.UNKNOWN, TermStatus.NEW_2, TermStatus.WELL_KNOWN)) {
+            termService.setStatus(listOf(lobo), status)
+            assertEquals(answered, service.cardFor(lobo)!!.schedule, "set to $status")
+            assertEquals(status, status(lobo))
+        }
+
+        // Known by hand, and still due when its day comes; forgetting it brings the word down a level.
+        clock.now = answered.due + 1.hours
+        assertEquals(1, service.counts(id).review)
+        answer(id, lobo, Rating.AGAIN)
         assertEquals(TermStatus.LEARNING_4, status(lobo))
-
-        // Known by hand: the card is retired.
-        termService.setStatus(listOf(lobo), TermStatus.WELL_KNOWN)
-        assertNull(service.cardFor(lobo))
-        assertEquals(0, service.counts(id).total)
-
-        // Back to learning: the card starts over.
-        termService.setStatus(listOf(lobo), TermStatus.NEW_2)
-        val card = service.cardFor(lobo)!!
-        assertEquals(CardState.NEW, card.schedule.state)
-        assertEquals(0, card.schedule.reps)
-        assertEquals(1, service.counts(id).new)
     }
 
     @Test
-    fun aTermTheCardsMadeKnownStartsOverWhenMovedBackToLearning() = runTest {
+    fun aTermTheCardsMadeKnownCarriesOnWhenMovedBackToLearning() = runTest {
         val id = language()
         val lobo = term(id, "lobo")
         answer(id, lobo, Rating.EASY)
@@ -258,9 +254,10 @@ class FlashcardServiceTest {
             clock.now = service.cardFor(lobo)!!.schedule.due + 8.hours
             answer(id, lobo, Rating.EASY)
         }
+        val known = service.cardFor(lobo)!!.schedule
         termService.setStatus(listOf(lobo), TermStatus.LEARNING_3)
-        val card = service.cardFor(lobo)!!
-        assertEquals(CardState.NEW, card.schedule.state)
+        assertEquals(known, service.cardFor(lobo)!!.schedule)
+        assertEquals(CardState.REVIEW, known.state)
         assertEquals(TermStatus.LEARNING_3, status(lobo))
     }
 
@@ -350,7 +347,7 @@ class FlashcardServiceTest {
         assertEquals(lobo, upgraded.next(id).card?.termId)
     }
 
-    /** A card dates from its word's move to learning, keeps the date through its answers, and is dated anew when the word comes back. */
+    /** A card dates from its word's move to learning, and keeps the date through its answers and later statuses. */
     @Test
     fun aCardDatesFromItsWordsMoveToLearning() = runTest {
         val id = language()
@@ -367,9 +364,8 @@ class FlashcardServiceTest {
         assertEquals(learning, service.browse(id).cards.single().card.createdAt)
 
         terms.updateStatus(listOf(lobo), TermStatus.WELL_KNOWN)
-        assertNull(service.cardFor(lobo))
         clock.advance(1.days)
         terms.updateStatus(listOf(lobo), TermStatus.NEW_2)
-        assertEquals(clock.now, service.cardFor(lobo)?.createdAt)
+        assertEquals(learning, service.cardFor(lobo)?.createdAt)
     }
 }

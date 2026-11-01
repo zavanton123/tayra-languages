@@ -8,10 +8,9 @@ import kotlin.time.Instant
 
 interface FlashcardRepository {
     /**
-     * Brings the cards in line with the terms' statuses: every term at status 1 to 4 has a card;
-     * a term marked known, ignored or unknown outside the flashcards loses its card; a term the
-     * flashcards made known and that was moved back to learning starts over. Writes only when
-     * something is out of line.
+     * Brings the cards in line with the terms: every term at status 1 to 4 has a card, which then
+     * stays whatever status is set by hand and goes only with its term. Writes only when something
+     * is out of line.
      */
     suspend fun reconcile(now: Instant)
 

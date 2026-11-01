@@ -18,15 +18,15 @@ import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Instant
 
 /**
- * The flashcards of the terms being learned. Every term at status 1 to 4 has a card; answering
+ * The flashcards of the terms being learned. A term moved to status 1 to 4 gets a card; answering
  * cards schedules them with FSRS and moves the term's status with what the reviews show:
  *
  * - up, as the wait until the next review grows: a day or more is status 2, a week 3, three
  *   weeks 4 and ninety days Known;
  * - down one level when a review is forgotten.
  *
- * A status changed anywhere else wins: marking a term known, ignored or unknown retires its
- * card, and moving a known term back to learning starts its card over.
+ * A status set by hand leaves the card as it is: a term marked known is still reviewed, as in
+ * Anki, and its card goes only with the term.
  */
 class FlashcardService(
     private val cards: FlashcardRepository,

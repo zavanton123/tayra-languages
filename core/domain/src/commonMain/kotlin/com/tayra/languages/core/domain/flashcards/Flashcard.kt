@@ -9,7 +9,7 @@ data class Flashcard(
     val schedule: CardSchedule,
     /** A suspended card is kept but never shown. */
     val suspended: Boolean = false,
-    /** The term's status when the card last saw it; a different status now is a change made elsewhere. */
+    /** The term's status as the card last noted it. */
     val seenStatus: TermStatus,
     /** When the word became one being learned and the card was made; null for a card not yet saved. */
     val createdAt: Instant? = null,
