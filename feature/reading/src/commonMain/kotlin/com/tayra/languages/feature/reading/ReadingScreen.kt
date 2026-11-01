@@ -366,7 +366,7 @@ fun ReadingScreen(
                 ReaderPane(state, viewModel, paneActions, onClose = closePane, initialTab = paneInitialTab)
             }
         } else {
-            AppDialogSurface(onDismissRequest = closePane, modifier = Modifier.windowInsetsPadding(WindowInsets.safeDrawing).height(SETTINGS_DIALOG_HEIGHT).testTag("reader-settings"), maxWidth = SETTINGS_DIALOG_WIDTH) {
+            AppDialogSurface(onDismissRequest = closePane, modifier = Modifier.windowInsetsPadding(WindowInsets.safeDrawing).testTag("reader-settings"), maxWidth = SETTINGS_DIALOG_WIDTH) {
                 ReaderPane(state, viewModel, paneActions, onClose = closePane, initialTab = paneInitialTab)
             }
         }
@@ -953,8 +953,6 @@ private val MOBILE_ACTION_BAR_HEIGHT = 76.dp
 private val CONTROLS_ROOM = 120.dp
 /** The reader settings dialog beyond a phone, room for two columns of cards. */
 private val SETTINGS_DIALOG_WIDTH = 1040.dp
-/** Its height, the same whichever tab is open, and less on a window too short for it. */
-private val SETTINGS_DIALOG_HEIGHT = 640.dp
 /** The widest the text runs on a wide window. */
 private val READING_COLUMN_WIDTH = 2000.dp
 /** The docked term pane, as wide as Word frequency's. */

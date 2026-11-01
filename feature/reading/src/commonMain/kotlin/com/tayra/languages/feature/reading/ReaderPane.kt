@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.ui.semantics.clearAndSetSemantics
+import androidx.compose.ui.layout.Layout
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.runtime.getValue
@@ -141,7 +143,7 @@ internal fun ReaderPane(
     val title = state.book?.title.orEmpty().inLearnedScript()
     val gutter = if (phone) AppSpacing.l else AppSpacing.xxl
 
-    Column(Modifier.fillMaxSize()) {
+    Column(if (phone) Modifier.fillMaxSize() else Modifier.fillMaxWidth()) {
         SettingsHeader(
             title = if (showBookmarks) tr("Bookmarks") else tr("Reader settings"),
             subtitle = if (showBookmarks) trPlural(bookmarks.size, "{1} · {0} saved", "{1} · {0} saved", title) else title.takeIf { !phone && it.isNotEmpty() },
@@ -165,8 +167,8 @@ internal fun ReaderPane(
             )
         }
         ScrollColumn(
-            // Every tab takes the same room, so the dialog keeps its size as the tabs change.
-            Modifier.weight(1f).fillMaxWidth(),
+            // Up to the window's height, beyond which the tab scrolls; a phone's screen is all of it.
+            Modifier.weight(1f, fill = phone).fillMaxWidth(),
             contentModifier = Modifier.padding(start = gutter, end = gutter, top = AppSpacing.l, bottom = AppSpacing.l),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
@@ -175,19 +177,26 @@ internal fun ReaderPane(
             } else {
                 val toTranslationSettings = { onClose(); actions.onTranslationSettings() }
                 val toSpeechSettings = { onClose(); actions.onSpeechSettings() }
-                when (tab) {
-                    PaneTab.READING -> Columns(
-                        phone,
-                        { ReadingExperienceCard(state, viewModel, phone); TranslationsCard(state, viewModel) },
-                        { TranslationDisplayCard(state, viewModel, phone); TranslationEngineCard(state, viewModel, toTranslationSettings) },
-                    )
-                    PaneTab.AUDIO -> Columns(
-                        phone,
-                        { PlaybackCard(state, viewModel); if (!phone) SpeedCard(state, viewModel) },
-                        { VoiceCard(state, viewModel, toSpeechSettings); if (phone) SpeedCard(state, viewModel) },
-                    )
-                    PaneTab.APPEARANCE -> Columns(phone, { TypographyCard(state, viewModel) }, { PreviewCard(state) })
-                }
+                TallestTab(
+                    PaneTab.entries.indexOf(tab),
+                    listOf(
+                        {
+                            Columns(
+                                phone,
+                                { ReadingExperienceCard(state, viewModel, phone); TranslationsCard(state, viewModel) },
+                                { TranslationDisplayCard(state, viewModel, phone); TranslationEngineCard(state, viewModel, toTranslationSettings) },
+                            )
+                        },
+                        {
+                            Columns(
+                                phone,
+                                { PlaybackCard(state, viewModel); if (!phone) SpeedCard(state, viewModel) },
+                                { VoiceCard(state, viewModel, toSpeechSettings); if (phone) SpeedCard(state, viewModel) },
+                            )
+                        },
+                        { Columns(phone, { TypographyCard(state, viewModel) }, { PreviewCard(state) }) },
+                    ),
+                )
                 // A lesson has none of the tools: no editing, no bookmarks, and its vocabulary is at its end.
                 if (state.lesson == null) ReaderTools(state, bookmarksOpen = false, onBookmarks = { showBookmarks = true }, actions = actions, onClose = onClose)
             }
@@ -228,6 +237,24 @@ private fun SettingsHeader(title: String, subtitle: String?, phone: Boolean, onB
             if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
         if (!phone) AppIconButton(Icons.Default.Close, contentDescription = tr("Close menu"), onClick = onClose, style = IconButtonStyle.Tonal, tint = colors.onSurface)
+    }
+}
+
+/**
+ * The chosen one of the [tabs], as tall as the tallest of them: all are measured and only the
+ * chosen one placed, so the dialog keeps one height whichever tab is open.
+ */
+@Composable
+private fun TallestTab(chosen: Int, tabs: List<@Composable () -> Unit>) {
+    // The others are measured only: out of sight, and out of reach of screen readers too.
+    val wrapped = tabs.mapIndexed { index, tab -> @Composable { Box(if (index == chosen) Modifier else Modifier.clearAndSetSemantics {}) { tab() } } }
+    Layout(contents = wrapped) { measurables, constraints ->
+        val placeables = measurables.map { tab -> tab.map { it.measure(constraints.copy(minHeight = 0)) } }
+        val height = placeables.maxOf { tab -> tab.sumOf { it.height } }
+        layout(constraints.maxWidth, height) {
+            var y = 0
+            placeables[chosen].forEach { it.place(0, y); y += it.height }
+        }
     }
 }
 
