@@ -1,5 +1,12 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.hasAnyDescendant
+import androidx.compose.ui.test.SemanticsMatcher
+import androidx.compose.ui.semantics.SemanticsProperties
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.test.junit4.createComposeRule
@@ -19,6 +26,20 @@ import kotlin.test.assertEquals
 class AppTopBarTest {
     @get:Rule
     val rule = createComposeRule()
+
+    /** The Settings menu is tall enough for all its entries: its list does not scroll, so it shows no scrollbar. */
+    @Test
+    fun theSettingsMenuFitsWithoutScrolling() {
+        rule.setContent { MaterialTheme { AppTopBar(title = "Tayra Languages", onNavigate = {}, section = NavSection.HOME) } }
+        rule.onNodeWithText("Settings").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("About").fetchSemanticsNodes().isNotEmpty() }
+        val lists = rule.onAllNodes(SemanticsMatcher.keyIsDefined(SemanticsProperties.VerticalScrollAxisRange) and hasAnyDescendant(hasText("About"))).fetchSemanticsNodes()
+        System.getenv("SETTINGS_MENU_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(isRoot())[1].captureToImage().toAwtImage(), "png", java.io.File(path))
+        }
+        for (list in lists) assertEquals(0f, list.config[SemanticsProperties.VerticalScrollAxisRange].maxValue(), "nothing is left to scroll to")
+    }
 
     @Test
     fun theLogoAlwaysShowsTheAppNameAndLeadsHome() {

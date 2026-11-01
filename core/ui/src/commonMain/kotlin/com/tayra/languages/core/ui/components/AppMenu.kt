@@ -53,4 +53,5 @@ fun AppMenuItem(text: @Composable () -> Unit, onClick: () -> Unit, enabled: Bool
 }
 
 private val MENU_MIN_WIDTH = 160.dp
-private val MENU_MAX_HEIGHT = 420.dp
+/** Room for the longest of the app's own menus, the top bar's Settings, without a scrollbar; only long lists, such as voices, scroll. */
+private val MENU_MAX_HEIGHT = 560.dp
