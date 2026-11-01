@@ -979,25 +979,31 @@ class ReadingViewModel(
     fun setLineHeight(height: Float) = updateSettings { it.copy(readingLineHeight = ((height * 10).roundToInt() / 10f).coerceIn(1.0f, 3.0f)) }
     fun setSpeechSpeed(speed: Float) = updateSettings { it.copy(speechSpeed = ((speed.coerceIn(0.5f, 1.5f) * 20).roundToInt() / 20f)) }
 
-    /** Puts the pane's settings (reading, audio and appearance) back to their defaults; the engines and voices stay. */
-    fun resetReaderSettings() = updateSettings {
+    /** Puts the settings of one tab of the reader's settings back to their defaults; the engines and voices stay. */
+    internal fun resetReaderSettings(tab: PaneTab) = updateSettings {
         val defaults = UserSettings()
-        it.copy(
-            splitSentences = defaults.splitSentences,
-            showTranslations = defaults.showTranslations,
-            sideBySideTranslations = defaults.sideBySideTranslations,
-            practiceTranslation = defaults.practiceTranslation,
-            showSentencePlay = defaults.showSentencePlay,
-            showReadings = defaults.showReadings,
-            toneColors = defaults.toneColors,
-            zhuyin = defaults.zhuyin,
-            speakWordOnClick = defaults.speakWordOnClick,
-            autoPause = defaults.autoPause,
-            speechSpeed = defaults.speechSpeed,
-            readingFont = defaults.readingFont,
-            readingFontScale = defaults.readingFontScale,
-            readingLineHeight = defaults.readingLineHeight,
-        )
+        when (tab) {
+            PaneTab.READING -> it.copy(
+                splitSentences = defaults.splitSentences,
+                showTranslations = defaults.showTranslations,
+                sideBySideTranslations = defaults.sideBySideTranslations,
+                practiceTranslation = defaults.practiceTranslation,
+                showReadings = defaults.showReadings,
+                toneColors = defaults.toneColors,
+                zhuyin = defaults.zhuyin,
+            )
+            PaneTab.AUDIO -> it.copy(
+                showSentencePlay = defaults.showSentencePlay,
+                speakWordOnClick = defaults.speakWordOnClick,
+                autoPause = defaults.autoPause,
+                speechSpeed = defaults.speechSpeed,
+            )
+            PaneTab.APPEARANCE -> it.copy(
+                readingFont = defaults.readingFont,
+                readingFontScale = defaults.readingFontScale,
+                readingLineHeight = defaults.readingLineHeight,
+            )
+        }
     }
 
     /** The book's bookmarks, in page order. */

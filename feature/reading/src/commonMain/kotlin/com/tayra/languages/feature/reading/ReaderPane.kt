@@ -212,11 +212,17 @@ internal fun ReaderPane(
         }
     }
     if (confirmReset) {
+        // Only the open tab's settings: the others keep theirs.
+        val (question, detail) = when (tab) {
+            PaneTab.READING -> tr("Reset reading settings?") to tr("Sentence layout and translations go back to their defaults. Your translation engine stays.")
+            PaneTab.AUDIO -> tr("Reset audio settings?") to tr("Playback and speed go back to their defaults. Your speech engine and voices stay.")
+            PaneTab.APPEARANCE -> tr("Reset appearance settings?") to tr("Font, font size and line height go back to their defaults.")
+        }
         AppDialog(
             onDismissRequest = { confirmReset = false },
-            title = { Text(tr("Reset reader settings?")) },
-            text = { Text(tr("Reading, audio and appearance go back to their defaults. Your translation and speech engines and voices stay.")) },
-            confirmButton = { PrimaryButton(tr("Reset"), onClick = { confirmReset = false; viewModel.resetReaderSettings() }) },
+            title = { Text(question) },
+            text = { Text(detail) },
+            confirmButton = { PrimaryButton(tr("Reset"), onClick = { confirmReset = false; viewModel.resetReaderSettings(tab) }, modifier = Modifier.testTag("reset-confirm")) },
             dismissButton = { QuietButton(tr("Cancel"), onClick = { confirmReset = false }) },
         )
     }

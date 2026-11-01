@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.domain.settings.UserSettings
 import androidx.compose.ui.Modifier
 import androidx.compose.foundation.layout.Box
 import kotlin.test.assertFalse
@@ -547,6 +548,24 @@ class ReadingHoverTest {
         rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(Key.Escape) }
         rule.waitForIdle()
         assertFalse(reachedWindow, "Escape is kept by the reader")
+    }
+
+    /** Reset puts back only the open tab's settings: the other tabs keep theirs. */
+    @Test
+    fun resetPutsBackOnlyTheOpenTab() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        runBlocking { settings.update { it.copy(splitSentences = true, readingFontScale = 1.4f) } }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithContentDescription("Reader settings").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-APPEARANCE").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("pane-tab-APPEARANCE").performClick()
+        rule.onNodeWithTag("reset-reader").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Reset appearance settings?").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("reset-confirm").performClick()
+        rule.waitUntil(5_000) { settings.current.readingFontScale == UserSettings().readingFontScale }
+        assertTrue(settings.current.splitSentences, "the Reading tab keeps its settings")
     }
 
     /** On a phone a lesson's vocabulary opens as its own screen. */
