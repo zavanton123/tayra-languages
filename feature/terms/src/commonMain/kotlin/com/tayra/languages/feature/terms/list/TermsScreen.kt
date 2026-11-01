@@ -33,6 +33,7 @@ import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -142,7 +143,11 @@ fun TermsScreen(
     termIds: List<Long>?,
     onNavigate: (Route) -> Unit,
     onBack: (() -> Unit)?,
-    viewModel: TermsListViewModel = koinViewModel(key = "terms-${termIds?.size}") { parametersOf(termIds) },
+    /** Shown over another screen, under [title] and [subtitle] with a way to close, without the app bar or the whole vocabulary's counts. */
+    dialog: Boolean = false,
+    title: String? = null,
+    subtitle: String? = null,
+    viewModel: TermsListViewModel = koinViewModel(key = "terms-${termIds?.hashCode()}") { parametersOf(termIds) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     var bulkEdit by remember { mutableStateOf(false) }
@@ -170,7 +175,7 @@ fun TermsScreen(
         PhoneTermsScreen(state, viewModel, listActions, rowActions, onNavigate = onNavigate, onBack = onBack, onNew = { onNavigate(Route.NewTerm) })
     } else Scaffold(
         topBar = {
-            AppTopBar(
+            if (!dialog) AppTopBar(
                 title = "Tayra Languages",
                 onNavigate = onNavigate,
                 section = NavSection.TERMS,
@@ -184,10 +189,14 @@ fun TermsScreen(
     ) { padding ->
         val gutter = if (compact) AppSpacing.l else AppSpacing.xxxl
         ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = gutter, vertical = AppSpacing.l)) {
-            item { PageHeader(exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onNew = { onNavigate(Route.NewTerm) }) }
-            item { StatCards(state, compact) }
+            if (dialog) {
+                item { DialogHeader(title.orEmpty(), subtitle, exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onClose = { onBack?.invoke() }) }
+            } else {
+                item { PageHeader(exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onNew = { onNavigate(Route.NewTerm) }) }
+                item { StatCards(state, compact) }
+            }
             item { Toolbar(state, viewModel, compact) }
-            if (state.filtersVisible) item(key = "filters") { Column(itemMotion()) { FilterPanel(state, viewModel) } }
+            if (state.filtersVisible) item(key = "filters") { Column(itemMotion()) { FilterPanel(state, viewModel, pageNote = !dialog) } }
             if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel, onEdit = { if (!state.filtersVisible) viewModel.toggleFilters() }) }
             if (state.loading) {
                 item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = MaterialTheme.colorScheme.onSurfaceVariant) }
@@ -267,6 +276,17 @@ internal fun PageHeader(exporting: String?, sending: Boolean, onExport: () -> Un
         ScreenHeader(tr("Vocabulary"), tr("Review and manage your vocabulary.")) {
             SecondaryButton(ankiLabel(exporting, sending), onClick = onExport, modifier = Modifier.testTag("export-to-anki"), icon = AppIcons.Download, enabled = exporting == null)
             PrimaryButton(tr("Add term"), onClick = onNew, icon = Icons.Default.Add)
+        }
+    }
+}
+
+/** The header of the list shown over another screen: its own title, the Anki export of what it lists, and a way to close. */
+@Composable
+private fun DialogHeader(title: String, subtitle: String?, exporting: String?, sending: Boolean, onExport: () -> Unit, onClose: () -> Unit) {
+    Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
+        ScreenHeader(title, subtitle) {
+            SecondaryButton(ankiLabel(exporting, sending), onClick = onExport, modifier = Modifier.testTag("export-to-anki"), icon = AppIcons.Download, enabled = exporting == null)
+            AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-terms-dialog"), style = IconButtonStyle.Tonal)
         }
     }
 }
@@ -360,7 +380,7 @@ internal fun statusTint(status: TermStatus): Color =
 /** The filters, applied as soon as they change: the statuses to show and how long ago terms were added. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) {
+private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel, pageNote: Boolean) {
     val colors = MaterialTheme.colorScheme
     val filter = state.filter
     Column(
@@ -382,7 +402,7 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
         AppDivider(Modifier.padding(vertical = AppSpacing.l))
         Text(tr("Added"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(bottom = AppSpacing.m))
         AddedPresets(filter.minAgeDays, filter.maxAgeDays, viewModel::setAddedRange)
-        if (filter.termIds != null) {
+        if (pageNote && filter.termIds != null) {
             Text(
                 trPlural(filter.termIds!!.size, "Showing {0} term from the current page.", "Showing {0} terms from the current page."),
                 style = MaterialTheme.typography.bodyMedium,

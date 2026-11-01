@@ -493,6 +493,37 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { vm.state.value.pageNumber == 1 }
     }
 
+    /** On a phone a lesson's vocabulary opens as its own screen. */
+    @Test
+    fun aPhoneOpensALessonsVocabularyAsAScreen() {
+        val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
+        rule.setContent {
+            CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, onCourse = {}, viewModel = vm)
+            }
+        }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-vocabulary").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("lesson-vocabulary").performScrollTo().performClick()
+        rule.waitUntil(5_000) { visited.any { it is com.tayra.languages.core.ui.navigation.Route.Terms } }
+        assertEquals(1L, visited.filterIsInstance<com.tayra.languages.core.ui.navigation.Route.Terms>().single().bookId)
+    }
+
+    /** The vocabulary list a lesson opens over the reader. */
+    private val vocabularyList get() = module {
+        val noDictionary = object : com.tayra.languages.core.domain.dictionary.OfflineDictionary {
+            override suspend fun isAvailable(dictionary: com.tayra.languages.core.domain.dictionary.DictionaryId) = false
+            override suspend fun lookup(dictionary: com.tayra.languages.core.domain.dictionary.DictionaryId, text: String) = error("not installed")
+        }
+        val noTranslator = object : com.tayra.languages.core.domain.service.SentenceTranslator {
+            override suspend fun translate(text: String, language: Language): String? = null
+        }
+        val anki = com.tayra.languages.core.domain.export.AnkiExportService(termRepository, languageRepository, noDictionary, noTranslator, sentenceAudio, settings, com.tayra.languages.core.data.export.AnkiPackagerImpl())
+        viewModel { (ids: List<Long>?) -> com.tayra.languages.feature.terms.list.TermsListViewModel(ids, termRepository, languageRepository, settings, termService, anki) }
+    }
+
     /** A lesson of several pages is practised as a whole: its footer never offers the page's practice. */
     @Test
     fun aLessonOffersOnlyTheWholeLessonsPractice() {
@@ -517,7 +548,7 @@ class ReadingHoverTest {
             listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme."), Lesson("pt-mini-0100-02", "Onde está o Tom?", "", "O lobo dorme.")),
         )
         val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[1])) }
-        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, vocabularyList) }
         val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
         var back = 0
         val courses = mutableListOf<String>()
@@ -539,10 +570,17 @@ class ReadingHoverTest {
         assertEquals(List(3) { course.id }, courses)
         assertEquals(0, back, "a lesson never leaves for the library")
 
-        // The lesson's saved words are at its end, among the buttons under the text.
+        // The lesson's saved words are at its end, among the buttons under the text, and list over the reader.
         rule.onNodeWithTag("lesson-vocabulary").performScrollTo().performClick()
-        rule.waitUntil(5_000) { visited.any { it is com.tayra.languages.core.ui.navigation.Route.Terms } }
-        assertEquals(1L, visited.filterIsInstance<com.tayra.languages.core.ui.navigation.Route.Terms>().single().bookId)
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-vocabulary-dialog").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Lesson vocabulary").assertExists()
+        System.getenv("LESSON_VOCABULARY_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
+        assertTrue(visited.none { it is com.tayra.languages.core.ui.navigation.Route.Terms }, "the reader stays under the list")
+        rule.onNodeWithTag("close-terms-dialog").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-vocabulary-dialog").fetchSemanticsNodes().isEmpty() }
 
         // Nothing is left for the reader's tools: no editing, no bookmarks, and the vocabulary is at the end.
         rule.onNodeWithContentDescription("Reader settings").performClick()

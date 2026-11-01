@@ -251,4 +251,5 @@ internal val frReading: Map<String, String> = mapOf(
     "The microphone gave no sound. Check it and try again." to "Le micro n'a capté aucun son. Vérifiez-le et réessayez.",
     "That could not be made out. Try again." to "Impossible de le reconnaître. Réessayez.",
     "See lesson vocabulary" to "Voir le vocabulaire de la leçon",
+    "Lesson vocabulary" to "Vocabulaire de la leçon",
 )

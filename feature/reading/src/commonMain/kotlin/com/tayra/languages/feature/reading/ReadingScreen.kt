@@ -185,6 +185,7 @@ import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormViewModel
 import com.tayra.languages.feature.terms.examples.ExamplesSearchScreen
+import com.tayra.languages.feature.terms.list.TermsScreen
 import com.tayra.languages.feature.terms.list.BulkEditDialog
 import kotlinx.coroutines.launch
 import androidx.compose.ui.platform.testTag
@@ -245,6 +246,8 @@ fun ReadingScreen(
     var examplesLanguageId by rememberSaveable(bookId) { mutableStateOf<Long?>(null) }
     var examplesText by rememberSaveable(bookId) { mutableStateOf("") }
     var embeddedTermForm by remember { mutableStateOf<TermFormViewModel?>(null) }
+    // The lesson's saved words, listed over the reader beyond a phone.
+    var lessonVocabulary by remember { mutableStateOf<List<Long>?>(null) }
     val closeExamples: () -> Unit = {
         examplesLanguageId = null
         viewModel.refresh()
@@ -436,7 +439,12 @@ fun ReadingScreen(
                             onSettings = { onNavigate(Route.OfflineTranslation) },
                             onMenu = openPane,
                             onCourses = { onNavigate(Route.Courses) },
-                            onLessonVocabulary = { scope.launch { onNavigate(Route.Terms(viewModel.textTermIds(), bookId)) } },
+                            onLessonVocabulary = {
+                                scope.launch {
+                                    val ids = viewModel.textTermIds()
+                                    if (phone) onNavigate(Route.Terms(ids, bookId)) else lessonVocabulary = ids
+                                }
+                            },
                             onNewPlaylist = { newPlaylist = true },
                             onAddedToPlaylist = { name -> toast.show(tr("Added to {0}", name)) },
                             focusText = { runCatching { focusRequester.requestFocus() } },
@@ -477,6 +485,24 @@ fun ReadingScreen(
                 onNavigate = navigateFromReader,
                 onBack = closeExamples,
                 dialog = true,
+            )
+        }
+    }
+    lessonVocabulary?.let { ids ->
+        // Statuses changed in the list show in the text once it closes.
+        val close = { lessonVocabulary = null; viewModel.refresh() }
+        AppDialogSurface(
+            onDismissRequest = close,
+            modifier = Modifier.fillMaxHeight().windowInsetsPadding(WindowInsets.safeDrawing).testTag("lesson-vocabulary-dialog"),
+            maxWidth = Dp.Infinity,
+        ) {
+            TermsScreen(
+                termIds = ids,
+                onNavigate = { route -> close(); navigateFromReader(route) },
+                onBack = close,
+                dialog = true,
+                title = tr("Lesson vocabulary"),
+                subtitle = state.book?.title,
             )
         }
     }
