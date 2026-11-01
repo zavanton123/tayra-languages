@@ -612,7 +612,7 @@ class ReadingHoverTest {
 
         // Nothing is left for the reader's tools: no editing, no bookmarks, and the vocabulary is at the end.
         rule.onNodeWithContentDescription("Reader settings").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Reading experience").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Sentence layout").fetchSemanticsNodes().isNotEmpty() }
         for (tool in listOf("tool-edit", "tool-bookmarks", "tool-vocabulary")) {
             assertTrue(rule.onAllNodesWithTag(tool).fetchSemanticsNodes().isEmpty(), "a lesson has no $tool")
         }
@@ -627,7 +627,7 @@ class ReadingHoverTest {
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Reader settings").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Reading experience").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Sentence layout").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("READER_PANE_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File("$path-reading.png"))
@@ -647,7 +647,7 @@ class ReadingHoverTest {
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File("$path-audio.png"))
         }
-        assertTrue(rule.onAllNodesWithText("Reading experience").fetchSemanticsNodes().isEmpty())
+        assertTrue(rule.onAllNodesWithText("Sentence layout").fetchSemanticsNodes().isEmpty())
 
         rule.onNodeWithTag("pane-tab-APPEARANCE").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Typography").fetchSemanticsNodes().isNotEmpty() }

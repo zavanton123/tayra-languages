@@ -417,7 +417,7 @@ private fun EngineNote(note: String) {
 @Composable
 private fun ReadingExperienceCard(state: ReadingUiState, viewModel: ReadingViewModel, phone: Boolean) {
     val prefs = state.settings
-    PaneCard(if (phone) tr("Sentence layout") else tr("Reading experience")) {
+    PaneCard(tr("Sentence layout")) {
         if (state.language?.let { LanguageCodes.codeFor(it.name) } in READING_LANGUAGES) {
             SwitchSetting(tr("Show readings"), tr("Furigana or pinyin above the words"), prefs.showReadings, icon = AppIcons.Abc, dense = true) { viewModel.toggleReadings() }
         }
@@ -426,7 +426,6 @@ private fun ReadingExperienceCard(state: ReadingUiState, viewModel: ReadingViewM
             SwitchSetting(tr("Tone colours"), tr("Colour pinyin by its tone"), prefs.toneColors, icon = AppIcons.Palette, dense = true) { viewModel.toggleToneColors() }
             SwitchSetting(tr("Zhuyin"), tr("Readings in bopomofo instead of pinyin"), prefs.zhuyin, icon = AppIcons.Abc, dense = true) { viewModel.toggleZhuyin() }
         }
-        if (!phone) SettingRow(tr("Sentence layout"), icon = AppIcons.LineSpacing, dense = true) {}
         LayoutChoice(
             listOf(
                 LayoutOption(false, AppIcons.FormatAlignLeft, tr("Continuous"), "layout-continuous"),
@@ -443,14 +442,13 @@ private fun TranslationsCard(state: ReadingUiState, viewModel: ReadingViewModel)
     PaneCard(tr("Translations")) {
         SwitchSetting(tr("Show translations"), null, prefs.showTranslations, icon = AppIcons.Translate, dense = true) { viewModel.toggleShowTranslations() }
         AppDivider()
-        SwitchSetting(tr("Practise translation"), tr("Blur the sentences; point at or tap one to show it"), prefs.practiceTranslation, icon = AppIcons.School, dense = true) { viewModel.togglePracticeTranslation() }
+        SwitchSetting(tr("Blur the original sentences"), null, prefs.practiceTranslation, icon = AppIcons.School, dense = true) { viewModel.togglePracticeTranslation() }
     }
 }
 
 @Composable
 private fun TranslationDisplayCard(state: ReadingUiState, viewModel: ReadingViewModel, phone: Boolean) {
-    PaneCard(if (phone) tr("Translation layout") else tr("Translation display")) {
-        if (!phone) SettingRow(tr("Translation layout"), icon = AppIcons.ViewColumn, dense = true) {}
+    PaneCard(tr("Translation layout")) {
         LayoutChoice(
             listOf(
                 LayoutOption(true, AppIcons.ViewColumn, tr("Side by side"), "layout-side-by-side"),
