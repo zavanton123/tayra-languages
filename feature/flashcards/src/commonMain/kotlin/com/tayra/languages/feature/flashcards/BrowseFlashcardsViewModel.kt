@@ -11,6 +11,8 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.repository.TermRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.ui.components.LIST_PAGE_SIZES
+import com.tayra.languages.core.ui.components.pageCount
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -86,6 +88,9 @@ data class BrowseUiState(
     val sort: BrowseSort = BrowseSort(BrowseSortField.DUE),
     /** The cards of the chosen view that match the search, in the sort order. */
     val rows: List<BrowseRow> = emptyList(),
+    /** The page of [rows] shown, from 0, and how many cards a page holds. */
+    val page: Int = 0,
+    val pageSize: Int = LIST_PAGE_SIZES[1],
     val counts: BrowseCounts = BrowseCounts(),
     val selected: Set<Long> = emptySet(),
     val detail: BrowseDetail? = null,
@@ -97,6 +102,11 @@ data class BrowseUiState(
     val ankiImport: AnkiImport? = null,
 ) {
     val filtered: Boolean get() = search.isNotBlank() || view != BrowseView.ALL
+
+    val pageCount: Int get() = pageCount(rows.size, pageSize)
+
+    /** The cards on the page shown. */
+    val pageRows: List<BrowseRow> get() = rows.drop(page * pageSize).take(pageSize)
 }
 
 /** Every flashcard of the language being learned: searched, sorted, looked into and managed, as in Anki's browser. */
@@ -108,7 +118,12 @@ class BrowseFlashcardsViewModel(
     private val ankiImport: AnkiImportService? = null,
 ) : ViewModel() {
 
-    private val _state = MutableStateFlow(BrowseUiState(canImportAnki = ankiImport?.available == true))
+    private val _state = MutableStateFlow(
+        BrowseUiState(
+            canImportAnki = ankiImport?.available == true,
+            pageSize = settings.current.flashcardBrowsePageSize.takeIf { it in LIST_PAGE_SIZES } ?: LIST_PAGE_SIZES[1],
+        ),
+    )
     val state: StateFlow<BrowseUiState> = _state.asStateFlow()
 
     private var all: List<BrowseRow> = emptyList()
@@ -120,7 +135,7 @@ class BrowseFlashcardsViewModel(
         // The cards follow the language chosen in the top bar.
         viewModelScope.launch {
             settings.settings.map { it.currentLanguageId }.distinctUntilChanged().drop(1).collect {
-                _state.update { it.copy(selected = emptySet(), detail = null) }
+                _state.update { it.copy(selected = emptySet(), detail = null, page = 0) }
                 load()
             }
         }
@@ -132,7 +147,7 @@ class BrowseFlashcardsViewModel(
             refresh()
             if (open != null && all.any { it.termId == open }) {
                 open(open)
-                _state.update { it.copy(focus = open) }
+                _state.update { s -> s.copy(focus = open, page = s.rows.indexOfFirst { it.termId == open }.coerceAtLeast(0) / s.pageSize) }
             }
         }
     }
@@ -202,14 +217,14 @@ class BrowseFlashcardsViewModel(
         BrowseView.SUSPENDED -> suspended
     }
 
-    /** Applies the view, the search and the sort to the cards. */
+    /** Applies the view, the search and the sort to the cards, staying on the page shown while it still has cards. */
     private fun publish() {
         val s = _state.value
         val needle = s.search.trim().lowercase()
         val shown = all.filter { row ->
             row.inView(s.view) && (needle.isEmpty() || row.word.lowercase().contains(needle) || row.translation.lowercase().contains(needle) || row.sentence?.lowercase()?.contains(needle) == true)
         }
-        _state.update { it.copy(rows = shown.sortedWith(comparator(s.sort))) }
+        _state.update { it.copy(rows = shown.sortedWith(comparator(s.sort)), page = it.page.coerceAtMost(pageCount(shown.size, it.pageSize) - 1)) }
     }
 
     private fun comparator(sort: BrowseSort): Comparator<BrowseRow> {
@@ -229,19 +244,29 @@ class BrowseFlashcardsViewModel(
     }
 
     fun setSearch(search: String) {
-        _state.update { it.copy(search = search) }
+        _state.update { it.copy(search = search, page = 0) }
         publish()
     }
 
     fun setView(view: BrowseView) {
-        _state.update { it.copy(view = view) }
+        _state.update { it.copy(view = view, page = 0) }
         publish()
+    }
+
+    fun goToPage(page: Int) {
+        _state.update { it.copy(page = page.coerceIn(0, it.pageCount - 1)) }
+    }
+
+    /** Shows [size] cards a page from the first page on, and keeps the size for the next time. */
+    fun setPageSize(size: Int) {
+        _state.update { it.copy(pageSize = size, page = 0) }
+        viewModelScope.launch { settings.update { it.copy(flashcardBrowsePageSize = size) } }
     }
 
     /** Sorts by [field]; choosing the field already sorted by turns the order round. */
     fun sortBy(field: BrowseSortField) {
         _state.update { s ->
-            s.copy(sort = if (s.sort.field == field) s.sort.copy(ascending = !s.sort.ascending) else BrowseSort(field, ascending = field == BrowseSortField.WORD || field == BrowseSortField.DUE || field == BrowseSortField.STATE))
+            s.copy(page = 0, sort = if (s.sort.field == field) s.sort.copy(ascending = !s.sort.ascending) else BrowseSort(field, ascending = field == BrowseSortField.WORD || field == BrowseSortField.DUE || field == BrowseSortField.STATE))
         }
         publish()
     }
@@ -250,7 +275,7 @@ class BrowseFlashcardsViewModel(
         _state.update { s -> s.copy(selected = if (termId in s.selected) s.selected - termId else s.selected + termId) }
     }
 
-    /** Selects or clears every card in the list as it stands. */
+    /** Selects or clears every card of the view and search, on every page. */
     fun selectAllShown(selected: Boolean) {
         _state.update { s -> s.copy(selected = if (selected) s.selected + s.rows.map { it.termId } else s.selected - s.rows.map { it.termId }.toSet()) }
     }

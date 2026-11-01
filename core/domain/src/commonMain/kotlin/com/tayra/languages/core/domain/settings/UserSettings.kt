@@ -74,6 +74,8 @@ data class UserSettings(
     val flashcardAutoplay: Boolean = true,
     /** Answer flashcards with Again and Good only, Hard and Easy left out. */
     val flashcardTwoButtons: Boolean = false,
+    /** How many cards a page of the flashcard browser holds. */
+    val flashcardBrowsePageSize: Int = 50,
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
     /** Whether the desktop app looks for a new release when it starts. */
     val checkForUpdates: Boolean = true,

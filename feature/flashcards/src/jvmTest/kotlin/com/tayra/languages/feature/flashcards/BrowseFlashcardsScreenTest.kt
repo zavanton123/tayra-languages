@@ -4,8 +4,11 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.semantics.SemanticsProperties
+import androidx.compose.ui.semantics.getOrNull
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.SemanticsMatcher
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
@@ -215,6 +218,44 @@ class BrowseFlashcardsScreenTest {
         // The translation shows in the row and in the info; only the suspended card offers Resume.
         assertEquals(2, onAllNodesWithText("книга").fetchSemanticsNodes().size)
         onNodeWithText("Resume").assertExists()
+    }
+
+    /** Long lists come in pages of the size chosen, kept for the next time; selecting all takes every page's cards. */
+    @Test
+    fun cardsComeInPages() = runDesktopComposeUiTest(width = 1586, height = 3200) {
+        val viewModel = show(before = {
+            runBlocking {
+                val id = settings.current.currentLanguageId
+                (1..30).forEach { n -> terms.save(Term(languageId = id, text = "palavra$n", textLc = "palavra$n", status = TermStatus.NEW_1, translation = "слово")) }
+            }
+            // The cards of the new words are made when the browser loads.
+        })
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.rows.size == 33 }
+        waitForIdle()
+        onNodeWithText("1–33 of 33").assertExists()
+
+        onNodeWithText("50 per page").performClick()
+        onNodeWithText("25 per page").performClick()
+        waitForIdle()
+        onNodeWithText("1–25 of 33").assertExists()
+        assertEquals(25, onAllNodes(SemanticsMatcher("a card's row") { it.config.getOrNull(SemanticsProperties.TestTag)?.startsWith("browse-row-") == true }).fetchSemanticsNodes().size)
+        assertEquals(25, settings.current.flashcardBrowsePageSize)
+        save("BROWSE_PAGES_SCREENSHOT")
+
+        onNodeWithContentDescription("Next page").performClick()
+        waitForIdle()
+        onNodeWithText("26–33 of 33").assertExists()
+        assertEquals(8, viewModel.state.value.pageRows.size)
+
+        onNodeWithTag("browse-select-all").performClick()
+        waitForIdle()
+        assertEquals(33, viewModel.state.value.selected.size)
+        onNodeWithText("33 of 33 selected").assertExists()
+
+        // A new search starts again from the first page.
+        viewModel.setSearch("palavra")
+        waitForIdle()
+        onNodeWithText("1–25 of 30").assertExists()
     }
 
     /** A card is deleted from its info, after asking, with its word; the selection deletes several. */

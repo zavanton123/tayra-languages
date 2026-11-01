@@ -81,7 +81,7 @@ internal fun PhoneBrowseFlashcardsScreen(
     ) { padding ->
         val list = rememberLazyListState()
         // Search, groups and the sort row, with the selection's actions when there is a selection, come before the cards.
-        FocusRow(state, list, rowsBefore = if (state.selected.isNotEmpty()) 4 else 3, onShown = viewModel::focusShown)
+        FocusRow(state, state.rows, list, rowsBefore = if (state.selected.isNotEmpty()) 4 else 3, onShown = viewModel::focusShown)
         // The controls keep to the page's margins; the cards run edge to edge between dividers.
         ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(top = AppSpacing.xs, bottom = AppSpacing.m)) {
             item { CardSearchField(state.search, viewModel::setSearch, Modifier.padding(horizontal = AppSpacing.l).fillMaxWidth().padding(bottom = AppSpacing.l)) }

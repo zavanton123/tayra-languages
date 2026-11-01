@@ -61,6 +61,7 @@ import com.tayra.languages.core.ui.components.ChipSize
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconButtonSize
+import com.tayra.languages.core.ui.components.ListPager
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.OverflowMenu
@@ -200,7 +201,14 @@ private val SEARCH_WIDTH = 560.dp
 private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewModel, actions: BrowseActions, modifier: Modifier) {
     val list = rememberLazyListState()
     // Heading, toolbar, groups, the selection's actions when there is a selection, and the table header come before the rows.
-    FocusRow(state, list, rowsBefore = if (state.selected.isNotEmpty()) 5 else 4, onShown = viewModel::focusShown)
+    val rowsBefore = if (state.selected.isNotEmpty()) 5 else 4
+    FocusRow(state, state.pageRows, list, rowsBefore, onShown = viewModel::focusShown)
+    // A new page starts at its first card, under the table's header.
+    var shownPage by remember { mutableStateOf(state.page) }
+    LaunchedEffect(state.page) {
+        if (state.page != shownPage && list.firstVisibleItemIndex >= rowsBefore - 1) list.scrollToItem(rowsBefore - 1)
+        shownPage = state.page
+    }
     ScrollList(modifier, state = list, contentPadding = PaddingValues(horizontal = AppSpacing.xxxl, vertical = AppSpacing.l)) {
         item {
             Box(Modifier.padding(bottom = AppSpacing.xl)) {
@@ -224,9 +232,10 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
             state.rows.isEmpty() -> item { EmptyCards(state) }
             else -> {
                 item { CardTableHeader(state, viewModel) }
-                itemsIndexed(state.rows, key = { _, row -> row.termId }) { index, row -> Column(itemMotion()) {
+                itemsIndexed(state.pageRows, key = { _, row -> row.termId }) { index, row -> Column(itemMotion()) {
                     CardTableRow(row, state, index, actions)
                 }}
+                item { ListPager(state.page, state.pageSize, state.rows.size, viewModel::setPageSize, viewModel::goToPage) }
             }
         }
     }
@@ -234,11 +243,11 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
 
 /** Scrolls the list to the card asked for, a little above it so the rows before it show too. */
 @Composable
-internal fun FocusRow(state: BrowseUiState, list: LazyListState, rowsBefore: Int, onShown: () -> Unit) {
+internal fun FocusRow(state: BrowseUiState, rows: List<BrowseRow>, list: LazyListState, rowsBefore: Int, onShown: () -> Unit) {
     val focus = state.focus
-    LaunchedEffect(focus, state.rows) {
+    LaunchedEffect(focus, rows) {
         if (focus == null) return@LaunchedEffect
-        val index = state.rows.indexOfFirst { it.termId == focus }
+        val index = rows.indexOfFirst { it.termId == focus }
         if (index >= 0) list.animateScrollToItem((rowsBefore + index - 2).coerceAtLeast(0))
         onShown()
     }

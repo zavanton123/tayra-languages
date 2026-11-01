@@ -135,6 +135,7 @@ class SettingsRepositoryImpl(
                 store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
             ).code,
             uiLanguage = LanguageCatalog.interfaceOption(store.getString(Keys.UI_LANGUAGE, defaults.uiLanguage)).code,
+            flashcardBrowsePageSize = store.getInt(Keys.FLASHCARD_BROWSE_PAGE_SIZE, defaults.flashcardBrowsePageSize),
             checkForUpdates = store.getBoolean(Keys.CHECK_FOR_UPDATES, defaults.checkForUpdates),
             skippedUpdate = store.getString(Keys.SKIPPED_UPDATE, defaults.skippedUpdate),
             lastUpdateCheck = store.getLong(Keys.LAST_UPDATE_CHECK, defaults.lastUpdateCheck),
@@ -243,6 +244,7 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.TUTORIAL_BOOKS, s.tutorialBooksAdded)
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.UI_LANGUAGE, s.uiLanguage)
+        store.putInt(Keys.FLASHCARD_BROWSE_PAGE_SIZE, s.flashcardBrowsePageSize)
         store.putBoolean(Keys.CHECK_FOR_UPDATES, s.checkForUpdates)
         store.putString(Keys.SKIPPED_UPDATE, s.skippedUpdate)
         store.putLong(Keys.LAST_UPDATE_CHECK, s.lastUpdateCheck)
@@ -318,6 +320,7 @@ class SettingsRepositoryImpl(
         const val NATIVE_LANGUAGE = "native_language"
         const val LEGACY_TRANSLATION_TARGET = "translation_target_language"
         const val UI_LANGUAGE = "ui_language"
+        const val FLASHCARD_BROWSE_PAGE_SIZE = "flashcard_browse_page_size"
         const val CHECK_FOR_UPDATES = "check_for_updates"
         const val SKIPPED_UPDATE = "skipped_update"
         const val LAST_UPDATE_CHECK = "last_update_check"
