@@ -204,7 +204,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Edit the current page" to "Aktuelle Seite bearbeiten",
     "Change to the next theme" to "Zum nächsten Design wechseln",
     "Toggle highlights" to "Hervorhebungen ein-/ausschalten",
-    "Toggle focus mode" to "Fokusmodus ein-/ausschalten",
     "Save term in term form" to "Begriff im Begriffsformular speichern",
     "Go back to the previous card" to "Zur vorherigen Karte zurück",
 

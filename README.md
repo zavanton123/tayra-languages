@@ -21,7 +21,7 @@ everything you learn stays on your own device.
 - **Listen to any sentence.** A play button before each sentence reads it aloud and turns into
   a stop button while it plays. The reader's left pane has the speech engine, the voice for the
   book's language and the speed, so they can be changed without leaving the page.
-- **A reader that adapts to you.** Focus mode, adjustable font size, line height and text
+- **A reader that adapts to you.** Adjustable font size, line height and text
   width, several colour themes, keyboard shortcuts on desktop, and bookmarks to pick up
   where you left off. Screens move gently: a word's colour fades to its new status and a
   flashcard turns over. Reduce motion in Settings, or the system's own setting, keeps them still.

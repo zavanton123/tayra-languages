@@ -40,8 +40,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
-import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
-import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
@@ -353,7 +351,6 @@ fun ReadingScreen(
             HotkeyAction.EDIT_PAGE -> onNavigate(Route.EditPage(bookId, state.pageNumber))
             HotkeyAction.NEXT_THEME -> viewModel.nextTheme()
             HotkeyAction.TOGGLE_HIGHLIGHT -> viewModel.toggleHighlights()
-            HotkeyAction.TOGGLE_FOCUS -> viewModel.toggleFocusMode()
             HotkeyAction.SAVE_TERM, HotkeyAction.FLASHCARDS_PREVIOUS -> return false
         }
         return true
@@ -419,7 +416,6 @@ fun ReadingScreen(
         ) {
             val compact = LocalWindowWidth.current.isCompact
             when {
-                state.settings.focusMode -> FocusBar(state, viewModel, onMenu = openPane)
                 compact -> ReadingHeader(state, onAppearance = openAppearance, onMenu = openPane, onHome = leave)
                 else -> {
                     AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = when {
@@ -433,7 +429,7 @@ fun ReadingScreen(
             // beside a divider; the reader's own toolbar belongs to the text and keeps to its side.
             Row(Modifier.weight(1f)) {
                 Column(Modifier.weight(1f).fillMaxHeight()) {
-                    Box(Modifier.weight(1f).fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else AppAlpha.line))) {
+                    Box(Modifier.weight(1f).fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = AppAlpha.line))) {
                         ReadingBody(
                             state, viewModel, speaker, continuous,
                             onHome = leave,
@@ -621,21 +617,6 @@ private fun ReaderBreadcrumb(state: ReadingUiState, viewModel: ReadingViewModel,
     }
 }
 
-/** Minimal header shown in focus mode: just the menu, the page position and a way out. */
-@Composable
-private fun FocusBar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit) {
-    Row(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
-        AppIconButton(Icons.Default.Settings, contentDescription = tr("Reader settings"), onClick = onMenu)
-        Spacer(Modifier.weight(1f))
-        if (state.pageCount > 1) {
-            AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = tr("Previous page"), onClick = { viewModel.goToRelativePage(-1) }, enabled = !state.isFirstPage)
-            Text("${state.pageNumber}/${state.pageCount}", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = tr("Next page"), onClick = { viewModel.goToRelativePage(1) }, enabled = !state.isLastPage)
-        }
-        QuietButton(tr("Exit focus"), onClick = viewModel::toggleFocusMode)
-    }
-}
-
 @Composable
 private fun ReadingBody(
     state: ReadingUiState,
@@ -746,11 +727,8 @@ private fun ReadingBody(
     var viewportSize by remember { mutableStateOf(IntSize.Zero) }
     CentreWordOnResize(scrollState, state.marked.minOrNull(), wordLocator, viewportSize) { viewport[0] }
     val compact = LocalWindowWidth.current.isCompact
-    val focus = state.settings.focusMode
-    val edgePadding = if (focus || compact) AppSpacing.l else AppSpacing.xxxl
-    val cardModifier = if (focus) {
-        Modifier.widthIn(max = state.settings.readingColumnWidth.dp).padding(horizontal = edgePadding, vertical = AppSpacing.m)
-    } else if (compact) {
+    val edgePadding = if (compact) AppSpacing.l else AppSpacing.xxxl
+    val cardModifier = if (compact) {
         // A phone has no width to spare for a card's border and margins: the text runs on the page itself.
         Modifier.fillMaxWidth().padding(start = edgePadding, end = edgePadding, top = AppSpacing.l)
     } else {
@@ -762,7 +740,7 @@ private fun ReadingBody(
             // No bottom padding: the footer runs to the card's bottom edge.
             .padding(start = edgePadding, end = edgePadding, top = if (compact) AppSpacing.l else AppSpacing.xxxl)
     }
-    Box(Modifier.fillMaxSize().then(if (compact && !focus) Modifier.background(theme.readingBackground) else Modifier)) {
+    Box(Modifier.fillMaxSize().then(if (compact) Modifier.background(theme.readingBackground) else Modifier)) {
     Column(
         Modifier.fillMaxSize()
             .onGloballyPositioned { viewport[0] = it; if (it.size != viewportSize) viewportSize = it.size }
@@ -770,20 +748,18 @@ private fun ReadingBody(
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Column(cardModifier) {
-            if (!focus) {
-                // A phone's bar already shows the title, and the text should start near the top.
-                if (!compact) {
-                    ReaderBreadcrumb(state, viewModel, onHome, onCourses)
-                    Text(
-                        state.book?.title.orEmpty(),
-                        style = AppText.screenTitle.copy(color = theme.readingText, textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
-                    )
-                }
-                PageVocabulary(state)
-                state.translationProgress?.let { TranslationProgress(it) }
-                    ?: state.translationError?.let { TranslationNotice(it, viewModel, onSettings) }
-                AppDivider(Modifier.padding(bottom = AppSpacing.xl))
+            // A phone's bar already shows the title, and the text should start near the top.
+            if (!compact) {
+                ReaderBreadcrumb(state, viewModel, onHome, onCourses)
+                Text(
+                    state.book?.title.orEmpty(),
+                    style = AppText.screenTitle.copy(color = theme.readingText, textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
+                )
             }
+            PageVocabulary(state)
+            state.translationProgress?.let { TranslationProgress(it) }
+                ?: state.translationError?.let { TranslationNotice(it, viewModel, onSettings) }
+            AppDivider(Modifier.padding(bottom = AppSpacing.xl))
             state.flash?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelLarge) }
             val chinese = state.language?.let { LanguageCodes.codeFor(it.name) } in setOf("zh", "yue")
             // Pinyin above the words is kept; zhuyin is written from it when chosen.
@@ -831,14 +807,12 @@ private fun ReadingBody(
             if (state.selecting) {
                 Text(tr("Long-press the last word of the expression, or tap to cancel."), style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }
-            if (!state.settings.focusMode) {
-                ReadingFooter(
-                    state, viewModel, onHome, onPractice, onPracticeAll, edgePadding,
-                    playlistBookId = state.book?.id?.takeIf { playlistPlayer != null },
-                    onNewPlaylist = onNewPlaylist,
-                    onAddedToPlaylist = onAddedToPlaylist,
-                )
-            }
+            ReadingFooter(
+                state, viewModel, onHome, onPractice, onPracticeAll, edgePadding,
+                playlistBookId = state.book?.id?.takeIf { playlistPlayer != null },
+                onNewPlaylist = onNewPlaylist,
+                onAddedToPlaylist = onAddedToPlaylist,
+            )
         }
         Spacer(Modifier.height(CONTROLS_ROOM))
     }
@@ -855,7 +829,7 @@ private fun ReadingBody(
             modifier = Modifier.align(Alignment.BottomCenter),
         )
     }
-    if (!compact && !focus) {
+    if (!compact) {
         val settingsDescription = tr("Reader settings")
         // The tooltip does not pass the alignment on to the screen's box, so a box of its own takes the corner.
         Box(Modifier.align(Alignment.BottomStart).padding(AppSpacing.xxl)) {

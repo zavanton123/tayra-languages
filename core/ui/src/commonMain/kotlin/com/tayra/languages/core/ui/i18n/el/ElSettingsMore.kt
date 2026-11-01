@@ -204,7 +204,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Edit the current page" to "Επεξεργασία της τρέχουσας σελίδας",
     "Change to the next theme" to "Αλλαγή στο επόμενο θέμα",
     "Toggle highlights" to "Εναλλαγή επισήμανσης",
-    "Toggle focus mode" to "Εναλλαγή λειτουργίας εστίασης",
     "Save term in term form" to "Αποθήκευση λέξης στη φόρμα λέξης",
     "Go back to the previous card" to "Επιστροφή στην προηγούμενη κάρτα",
 

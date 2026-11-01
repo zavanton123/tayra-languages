@@ -204,7 +204,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Edit the current page" to "编辑当前页",
     "Change to the next theme" to "切换到下一个主题",
     "Toggle highlights" to "开启或关闭高亮",
-    "Toggle focus mode" to "开启或关闭专注模式",
     "Save term in term form" to "在词条表单中保存词条",
     "Go back to the previous card" to "返回上一张卡片",
 

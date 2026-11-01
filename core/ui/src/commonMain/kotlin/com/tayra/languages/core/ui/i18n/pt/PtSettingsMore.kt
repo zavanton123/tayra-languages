@@ -204,7 +204,6 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Edit the current page" to "Editar a página atual",
     "Change to the next theme" to "Mudar para o próximo tema",
     "Toggle highlights" to "Ativar ou desativar os destaques",
-    "Toggle focus mode" to "Ativar ou desativar o modo foco",
     "Save term in term form" to "Salvar o termo no formulário do termo",
     "Go back to the previous card" to "Voltar ao flashcard anterior",
 

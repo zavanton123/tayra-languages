@@ -22,7 +22,6 @@ data class UserSettings(
     val readingColumnWidth: Int = 720,
     /** Whether the reading text is justified rather than aligned to the start. */
     val readingJustified: Boolean = false,
-    val focusMode: Boolean = false,
     /** Start every sentence on its own line while reading. */
     val splitSentences: Boolean = false,
     /** Show a translation under every sentence while reading. */

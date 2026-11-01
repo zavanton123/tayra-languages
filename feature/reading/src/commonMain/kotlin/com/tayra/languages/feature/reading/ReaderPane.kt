@@ -297,7 +297,6 @@ private fun <T> ChoiceCard(
 private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTranslationSettings: () -> Unit) {
     val prefs = state.settings
     PaneCard(tr("Reading experience")) {
-        SwitchSetting(tr("Focus mode"), tr("Hide navigation and distractions"), prefs.focusMode, icon = AppIcons.Fullscreen, dense = true) { viewModel.toggleFocusMode() }
         SwitchSetting(tr("Highlight terms"), tr("Colour words by learning status"), prefs.showHighlights, icon = AppIcons.Palette, dense = true) { viewModel.toggleHighlights() }
         if (state.language?.let { LanguageCodes.codeFor(it.name) } in READING_LANGUAGES) {
             SwitchSetting(tr("Show readings"), tr("Furigana or pinyin above the words"), prefs.showReadings, icon = AppIcons.Abc, dense = true) { viewModel.toggleReadings() }

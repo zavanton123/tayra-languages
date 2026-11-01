@@ -204,7 +204,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Edit the current page" to "Изменить текущую страницу",
     "Change to the next theme" to "Переключить на следующую тему",
     "Toggle highlights" to "Включить или выключить подсветку",
-    "Toggle focus mode" to "Включить или выключить режим фокуса",
     "Save term in term form" to "Сохранить слово в форме слова",
     "Go back to the previous card" to "Вернуться к предыдущей карточке",
 

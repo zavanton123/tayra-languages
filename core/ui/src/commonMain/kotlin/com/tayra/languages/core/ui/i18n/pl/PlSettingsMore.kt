@@ -204,7 +204,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Edit the current page" to "Edytuj bieżącą stronę",
     "Change to the next theme" to "Przełącz na następny motyw",
     "Toggle highlights" to "Włącz lub wyłącz podświetlanie",
-    "Toggle focus mode" to "Włącz lub wyłącz tryb skupienia",
     "Save term in term form" to "Zapisz słowo w formularzu słowa",
     "Go back to the previous card" to "Wróć do poprzedniej fiszki",
 

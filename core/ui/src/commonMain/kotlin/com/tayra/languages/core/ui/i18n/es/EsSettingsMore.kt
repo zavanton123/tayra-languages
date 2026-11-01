@@ -204,7 +204,6 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Edit the current page" to "Editar la página actual",
     "Change to the next theme" to "Cambiar al tema siguiente",
     "Toggle highlights" to "Activar o desactivar el resaltado",
-    "Toggle focus mode" to "Activar o desactivar el modo concentración",
     "Save term in term form" to "Guardar la palabra en el formulario",
     "Go back to the previous card" to "Volver a la tarjeta anterior",
 
