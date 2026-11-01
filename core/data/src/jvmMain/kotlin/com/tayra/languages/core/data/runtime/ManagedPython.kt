@@ -61,7 +61,7 @@ class ManagedPython(private val dir: File = File(DatabaseDriverFactory.dataDirec
     /** Runs a command to completion, failing with its last output lines when it exits with an error or overruns [timeoutMs]. */
     fun run(command: List<String>, timeoutMs: Long, onLine: (String) -> Unit = {}) {
         val process = try {
-            ProcessBuilder(command).redirectErrorStream(true).start()
+            ProcessBuilder(command).inUtf8().redirectErrorStream(true).start()
         } catch (e: Exception) {
             error("cannot run '${command.first()}' (${e.message})")
         }
@@ -126,3 +126,10 @@ class ManagedPython(private val dir: File = File(DatabaseDriverFactory.dataDirec
         const val PIP_TIMEOUT_MS = 30L * 60 * 1000
     }
 }
+
+/**
+ * Has the Python started by this process read and write its standard streams in UTF-8, as the app
+ * does. On Windows Python would use the system code page there, cp1251 on a Russian one, so every
+ * letter outside ASCII would reach the app as one undecodable byte and show as "�".
+ */
+internal fun ProcessBuilder.inUtf8(): ProcessBuilder = apply { environment()["PYTHONIOENCODING"] = "utf-8" }

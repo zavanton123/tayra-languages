@@ -3,6 +3,7 @@ package com.tayra.languages.core.data.translation
 import kotlin.coroutines.cancellation.CancellationException
 import co.touchlab.kermit.Logger
 import com.tayra.languages.core.data.runtime.ManagedPython
+import com.tayra.languages.core.data.runtime.inUtf8
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.service.LocalPackage
@@ -232,7 +233,7 @@ class ArgosSentenceTranslator(
         stop()
         val script = extractScript()
         val started = try {
-            ProcessBuilder(python, "-u", script.absolutePath).redirectErrorStream(false).start()
+            ProcessBuilder(python, "-u", script.absolutePath).inUtf8().redirectErrorStream(false).start()
         } catch (e: Exception) {
             error("cannot run '$python' (${e.message})")
         }

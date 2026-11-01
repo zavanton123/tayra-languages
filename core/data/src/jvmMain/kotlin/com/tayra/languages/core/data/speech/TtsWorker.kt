@@ -2,6 +2,7 @@ package com.tayra.languages.core.data.speech
 
 import co.touchlab.kermit.Logger
 import com.tayra.languages.core.data.runtime.ManagedPython
+import com.tayra.languages.core.data.runtime.inUtf8
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
@@ -47,7 +48,7 @@ class TtsWorker(private val python: ManagedPython) {
         val current = process
         if (current != null && current.isAlive) return writer!! to reader!!
         stopNow()
-        val started = ProcessBuilder(python.python.absolutePath, "-u", script().absolutePath).redirectErrorStream(false).start()
+        val started = ProcessBuilder(python.python.absolutePath, "-u", script().absolutePath).inUtf8().redirectErrorStream(false).start()
         Thread { started.errorStream.bufferedReader().useLines { lines -> lines.forEach { Logger.d { "tts: $it" } } } }.apply { isDaemon = true; start() }
         process = started
         writer = started.outputStream.bufferedWriter()
