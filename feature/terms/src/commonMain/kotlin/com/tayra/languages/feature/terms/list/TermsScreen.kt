@@ -37,8 +37,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
-import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
@@ -82,6 +80,7 @@ import com.tayra.languages.core.ui.components.ChipLeading
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconButtonStyle
+import com.tayra.languages.core.ui.components.ListPager
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
@@ -144,7 +143,6 @@ internal enum class TermSortOption(val sort: TermListSort) {
         }
 }
 
-private val PAGE_SIZES = listOf(25, 50, 100)
 
 @Composable
 fun TermsScreen(
@@ -223,7 +221,7 @@ fun TermsScreen(
                     TermTableRow(term, state.languageName(term.languageId), term.id in state.selected, index, rowActions)
                 }}
             }
-            item { Pager(state, viewModel, compact) }
+            item { ListPager(state.page, state.pageSize, state.totalCount, viewModel::setPageSize, viewModel::goToPage, compact) }
         }
     }
 
@@ -635,26 +633,6 @@ internal fun RowMenu(term: Term, actions: RowActions) {
     OverflowMenu(tr("Term actions")) { close ->
         AppMenuItem(text = { Text(tr("Edit")) }, onClick = { close(); actions.onOpen(term) })
         AppMenuItem(text = { Text(tr("Delete")) }, onClick = { close(); actions.onDelete(term) })
-    }
-}
-
-@Composable
-internal fun Pager(state: TermsListUiState, viewModel: TermsListViewModel, compact: Boolean) {
-    // With every term on one page at the smallest page size there is nothing to page through or resize.
-    if (state.page == 0 && state.totalCount <= PAGE_SIZES.first()) return
-    val colors = MaterialTheme.colorScheme
-    val from = if (state.totalCount == 0) 0 else state.page * state.pageSize + 1
-    val to = minOf(state.totalCount, (state.page + 1) * state.pageSize)
-    Row(Modifier.fillMaxWidth().padding(top = AppSpacing.xl), verticalAlignment = Alignment.CenterVertically) {
-        SelectMenu(PAGE_SIZES, state.pageSize, viewModel::setPageSize, { tr("{0} per page", it) })
-        Spacer(Modifier.weight(1f))
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            val pagerTint = { enabled: Boolean -> if (enabled) colors.primary else colors.outlineVariant }
-            AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, tr("Previous page"), { viewModel.goToPage(state.page - 1) }, enabled = state.page > 0, style = IconButtonStyle.Outlined, tint = pagerTint(state.page > 0))
-            Text(tr("{0}–{1} of {2}", from, to, state.totalCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, tr("Next page"), { viewModel.goToPage(state.page + 1) }, enabled = state.page < state.pageCount - 1, style = IconButtonStyle.Outlined, tint = pagerTint(state.page < state.pageCount - 1))
-        }
-        if (!compact) Spacer(Modifier.weight(1f))
     }
 }
 
