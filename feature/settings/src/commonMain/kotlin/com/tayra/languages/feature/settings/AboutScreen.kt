@@ -13,10 +13,12 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.rememberScrollState
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.appVersion
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
@@ -29,6 +31,7 @@ fun AboutScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit = { onNavigate(R
         ScrollColumn(Modifier.padding(padding).fillMaxSize(), contentModifier = Modifier.padding(AppSpacing.l).widthIn(max = TEXT_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             ScreenTitle(tr("About"))
             Text("Tayra Languages", style = MaterialTheme.typography.headlineSmall)
+            appVersion()?.let { Text(tr("Version {0}", it), modifier = Modifier.testTag("about-version"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
             Text(tr("Learn languages by reading. Import texts, select words to look them up and track what you know."), style = MaterialTheme.typography.bodyLarge)
             Text(tr("A reader for learning languages through texts, on Android, iOS, desktop and the web."), style = MaterialTheme.typography.bodyMedium)
             Text(tr("Credits"), style = MaterialTheme.typography.titleMedium)
