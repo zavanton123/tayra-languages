@@ -101,7 +101,7 @@ class TermsListViewModel(
     private val message = MutableStateFlow<String?>(null)
     private val exporting = MutableStateFlow<String?>(null)
     private val sendingToAnki = MutableStateFlow(false)
-    private val filtersVisible = MutableStateFlow(initialTermIds != null)
+    private val filtersVisible = MutableStateFlow(false)
     val events = UiEvents<TermsListEvent>()
 
     init {

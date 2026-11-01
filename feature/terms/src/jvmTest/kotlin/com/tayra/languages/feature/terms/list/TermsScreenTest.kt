@@ -176,6 +176,7 @@ class TermsScreenTest {
         waitForList("comprar", "pensar", hidden = listOf("gostar", "produtos"))
         onAllNodesWithText("Show all words")[0].performClick()
         waitForList("gostar", "comprar", "pensar", hidden = listOf("produtos"))
+        onNodeWithText("Filters").performClick()
         onNodeWithText("Show learning words").performClick()
         waitForList("comprar", "pensar", hidden = listOf("gostar", "produtos"))
     }

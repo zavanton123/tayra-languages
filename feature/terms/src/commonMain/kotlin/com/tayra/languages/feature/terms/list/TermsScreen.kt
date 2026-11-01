@@ -1,5 +1,13 @@
 package com.tayra.languages.feature.terms.list
 
+import com.tayra.languages.feature.terms.form.TermFormKey
+import com.tayra.languages.feature.terms.form.TermEditScreen
+import com.tayra.languages.core.ui.components.AppDialogSurface
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.safeDrawing
+import androidx.compose.ui.unit.Dp
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.components.ActiveFilterSummary
 import com.tayra.languages.core.ui.components.chosenFor
@@ -154,6 +162,8 @@ fun TermsScreen(
     var confirmDelete by remember { mutableStateOf(false) }
     var practising by remember { mutableStateOf(false) }
     var pendingDelete by remember { mutableStateOf<Term?>(null) }
+    // Over another screen a term opens in a dialog of its own, over the list.
+    var editing by remember { mutableStateOf<TermFormKey?>(null) }
     val scope = androidx.compose.runtime.rememberCoroutineScope()
     CollectEvents(viewModel.events) { event ->
         when (event) {
@@ -165,7 +175,7 @@ fun TermsScreen(
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     val rowActions = RowActions(
         speaker = speaker,
-        onOpen = { onNavigate(Route.EditTerm(it.id)) },
+        onOpen = { if (dialog) editing = TermFormKey.ById(it.id) else onNavigate(Route.EditTerm(it.id)) },
         onDelete = { pendingDelete = it },
         onStatus = { term, status -> viewModel.setStatus(term.id, status) },
         onToggle = { viewModel.toggleSelected(it.id) },
@@ -214,6 +224,30 @@ fun TermsScreen(
                 }}
             }
             item { Pager(state, viewModel, compact) }
+        }
+    }
+
+    editing?.let { key ->
+        AppDialogSurface(
+            onDismissRequest = { editing = null },
+            modifier = Modifier.fillMaxHeight().windowInsetsPadding(WindowInsets.safeDrawing).testTag("term-dialog"),
+            maxWidth = Dp.Infinity,
+        ) {
+            TermEditScreen(
+                key,
+                // Another term, its parent or a duplicate, opens in the same dialog.
+                onNavigate = { route ->
+                    when (route) {
+                        is Route.EditTerm -> editing = TermFormKey.ById(route.termId)
+                        is Route.EditTermByText -> editing = TermFormKey.ByText(route.languageId, route.text)
+                        else -> { editing = null; onNavigate(route) }
+                    }
+                },
+                onBack = { editing = null },
+                onDone = { editing = null },
+                onOpenParent = { languageId, text -> editing = TermFormKey.ByText(languageId, text) },
+                dialog = true,
+            )
         }
     }
 

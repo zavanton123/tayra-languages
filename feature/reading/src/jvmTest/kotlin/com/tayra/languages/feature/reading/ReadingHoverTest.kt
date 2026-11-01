@@ -1,5 +1,8 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.hasAnyAncestor
+import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.assertCountEquals
 import com.tayra.languages.core.domain.courses.Course
 import com.tayra.languages.core.domain.courses.CourseLevel
@@ -491,6 +494,31 @@ class ReadingHoverTest {
         }
         rule.onNodeWithTag("footer-previous").performScrollTo().performClick()
         rule.waitUntil(5_000) { vm.state.value.pageNumber == 1 }
+    }
+
+    /** The lesson's vocabulary opens with its filters folded away, and a word in it opens in a dialog over the list. */
+    @Test
+    fun aWordInTheLessonsVocabularyOpensInADialog() {
+        val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, vocabularyList, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, onCourse = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-vocabulary").fetchSemanticsNodes().isNotEmpty() }
+        vm.markToLearn(vm.index("lobo"))
+        rule.waitUntil(5_000) { runBlocking { vm.bookPracticeCount() } > 0 }
+        rule.onNodeWithTag("lesson-vocabulary").performScrollTo().performClick()
+        val inList = hasText("lobo") and hasAnyAncestor(hasTestTag("lesson-vocabulary-dialog"))
+        rule.waitUntil(5_000) { rule.onAllNodes(inList).fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(rule.onAllNodesWithText("Filter vocabulary").fetchSemanticsNodes().isEmpty(), "the filters start folded away")
+        rule.onAllNodes(inList)[0].performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("term-dialog").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("TERM_DIALOG_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
+        rule.onNode(hasText("Cancel") and hasAnyAncestor(hasTestTag("term-dialog"))).performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("term-dialog").fetchSemanticsNodes().isEmpty() }
+        rule.onNodeWithTag("lesson-vocabulary-dialog").assertExists()
     }
 
     /** On a phone a lesson's vocabulary opens as its own screen. */

@@ -31,6 +31,8 @@ fun TermEditScreen(
     onBack: () -> Unit,
     onDone: () -> Unit,
     onOpenParent: (languageId: Long, text: String) -> Unit,
+    /** Shown over another screen: no app bar, and no way back to the vocabulary but Cancel. */
+    dialog: Boolean = false,
 ) {
     val viewModel = koinViewModel<TermFormViewModel>(key = "term-form-$key") { parametersOf(key) }
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -45,7 +47,7 @@ fun TermEditScreen(
     val isNew = key is TermFormKey.New
     val compact = LocalWindowWidth.current.isCompact
     val gutter = if (compact) AppSpacing.l else AppSpacing.xxxl
-    Scaffold(topBar = { AppTopBar(title = if (isNew) tr("New term") else tr("Edit term"), onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) }) { padding ->
+    Scaffold(topBar = { if (!dialog) AppTopBar(title = if (isNew) tr("New term") else tr("Edit term"), onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
             PageHeader(
                 title = if (isNew) tr("New term") else tr("Edit term"),
@@ -54,7 +56,7 @@ fun TermEditScreen(
                 saving = state.saving,
                 canSave = state.draft.text.isNotBlank(),
                 onBack = onBack,
-                onTerms = { onNavigate(Route.Terms()) },
+                onTerms = if (dialog) null else ({ onNavigate(Route.Terms()) }),
                 onSave = viewModel::save,
             )
             TermFormPanel(
@@ -76,11 +78,11 @@ private fun PageHeader(
     saving: Boolean,
     canSave: Boolean,
     onBack: () -> Unit,
-    onTerms: () -> Unit,
+    onTerms: (() -> Unit)?,
     onSave: () -> Unit,
 ) {
-    // On a phone the bar has the way back and the title; the buttons stay.
-    val crumbs = if (compact) emptyList() else listOf(Crumb(tr("Vocabulary"), onTerms), Crumb(title))
+    // On a phone the bar has the way back and the title; the buttons stay. Over another screen it has no crumbs.
+    val crumbs = if (compact || onTerms == null) emptyList() else listOf(Crumb(tr("Vocabulary"), onTerms), Crumb(title))
     Column(Modifier.fillMaxWidth().padding(horizontal = gutter, vertical = AppSpacing.l)) {
         ScreenHeader(title, subtitle = null, crumbs = crumbs, onBack = onBack) {
             SecondaryButton(tr("Cancel"), onClick = onBack)
