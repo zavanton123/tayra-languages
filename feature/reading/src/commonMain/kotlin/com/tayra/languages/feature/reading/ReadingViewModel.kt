@@ -121,6 +121,8 @@ data class ReadingUiState(
     val items: List<TextItem> get() = page.items
     val isLastPage: Boolean get() = pageNumber >= pageCount
     val isFirstPage: Boolean get() = pageNumber <= 1
+    /** Bookmarks are for books; a lesson or an article is short enough to need none. */
+    val bookmarkable: Boolean get() = lesson == null && !news
 
     /** The words that status hotkeys act on: clicked words, or the hovered word. */
     val activeWordIndexes: List<Int>

@@ -346,7 +346,7 @@ fun ReadingScreen(
             HotkeyAction.COPY_PARAGRAPH -> viewModel.copy(TextScope.PARAGRAPH)
             HotkeyAction.COPY_PAGE -> viewModel.copy(TextScope.PAGE)
             HotkeyAction.PAGE_TERM_LIST -> onNavigate(Route.Terms(viewModel.pageTermIds(), bookId, state.pageNumber))
-            HotkeyAction.BOOKMARK -> bookmarkDialog = true
+            HotkeyAction.BOOKMARK -> if (state.bookmarkable) bookmarkDialog = true else return false
             HotkeyAction.EDIT_PAGE -> onNavigate(Route.EditPage(bookId, state.pageNumber))
             HotkeyAction.NEXT_THEME -> viewModel.nextTheme()
             HotkeyAction.SAVE_TERM, HotkeyAction.FLASHCARDS_PREVIOUS -> return false

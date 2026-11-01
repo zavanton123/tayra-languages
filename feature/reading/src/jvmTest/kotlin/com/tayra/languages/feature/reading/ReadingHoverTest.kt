@@ -506,8 +506,9 @@ class ReadingHoverTest {
         assertEquals(0, back, "a lesson never leaves for the library")
 
         rule.onNodeWithContentDescription("Reader settings").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-bookmarks").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-vocabulary").fetchSemanticsNodes().isNotEmpty() }
         assertTrue(rule.onAllNodesWithTag("tool-edit").fetchSemanticsNodes().isEmpty(), "a lesson's text is not edited")
+        assertTrue(rule.onAllNodesWithTag("tool-bookmarks").fetchSemanticsNodes().isEmpty(), "a lesson has no bookmarks")
     }
 
     /** The pane sorts its settings into Reading, Audio and Appearance tabs; a layout choice is saved as it is made. */
