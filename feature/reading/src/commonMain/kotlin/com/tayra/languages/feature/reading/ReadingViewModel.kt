@@ -1030,5 +1030,13 @@ class ReadingViewModel(
 
     fun pageTermIds(): List<Long> = _state.value.page.words.mapNotNull { it.termId }.distinct()
 
+    /** The saved terms on every page of the text. */
+    suspend fun textTermIds(): List<Long> {
+        val language = _state.value.language ?: return emptyList()
+        return (1..books.pageCount(bookId)).mapNotNull { books.getPage(bookId, it) }
+            .flatMap { page -> readingService.renderPage(page.text, language).words.mapNotNull { it.termId } }
+            .distinct()
+    }
+
     fun clearFlash() = _state.update { it.copy(flash = null) }
 }

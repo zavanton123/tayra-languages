@@ -250,4 +250,5 @@ internal val elReading: Map<String, String> = mapOf(
     "Fix translation" to "Διόρθωση μετάφρασης",
     "The microphone gave no sound. Check it and try again." to "Το μικρόφωνο δεν έδωσε ήχο. Ελέγξτε το και δοκιμάστε ξανά.",
     "That could not be made out. Try again." to "Δεν ήταν δυνατό να αναγνωριστεί. Δοκιμάστε ξανά.",
+    "See lesson vocabulary" to "Δείτε το λεξιλόγιο του μαθήματος",
 )

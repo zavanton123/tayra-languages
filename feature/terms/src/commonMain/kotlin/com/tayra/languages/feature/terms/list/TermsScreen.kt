@@ -192,7 +192,7 @@ fun TermsScreen(
             if (state.loading) {
                 item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = MaterialTheme.colorScheme.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {
-                item { EmptyState(AppIcons.Book, if (state.filter.termIds?.isEmpty() == true) tr("No saved words on this page yet.") else tr("No terms match the current filters.")) }
+                item { EmptyState(AppIcons.Book, if (state.filter.termIds?.isEmpty() == true) tr("No saved words here yet.") else tr("No terms match the current filters.")) }
             } else if (compact) {
                 itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term -> Column(itemMotion()) {
                     CompactTermRow(term, state.languageName(term.languageId), term.id in state.selected, rowActions)

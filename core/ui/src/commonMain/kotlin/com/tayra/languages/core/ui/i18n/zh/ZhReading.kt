@@ -250,4 +250,5 @@ internal val zhReading: Map<String, String> = mapOf(
     "Fix translation" to "修正翻译",
     "The microphone gave no sound. Check it and try again." to "麦克风没有收到声音。请检查后重试。",
     "That could not be made out. Try again." to "没能识别出来。请重试。",
+    "See lesson vocabulary" to "查看本课词汇",
 )

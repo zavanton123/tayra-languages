@@ -458,5 +458,5 @@ internal val frTerms: Map<String, String> = mapOf(
     "No example selected" to "Aucun exemple sélectionné",
     "Replace example" to "Remplacer l’exemple",
     "No form of ‘{0}’ in this sentence" to "Aucune forme de « {0} » dans cette phrase",
-    "No saved words on this page yet." to "Aucun mot enregistré sur cette page pour l’instant.",
+    "No saved words here yet." to "Aucun mot enregistré ici pour l’instant.",
 )

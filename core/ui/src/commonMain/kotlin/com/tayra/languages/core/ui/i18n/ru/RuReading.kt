@@ -250,4 +250,5 @@ internal val ruReading: Map<String, String> = mapOf(
     "Fix translation" to "Исправить перевод",
     "The microphone gave no sound. Check it and try again." to "Микрофон не передал звук. Проверьте его и попробуйте снова.",
     "That could not be made out. Try again." to "Не удалось распознать. Попробуйте снова.",
+    "See lesson vocabulary" to "Посмотреть слова урока",
 )

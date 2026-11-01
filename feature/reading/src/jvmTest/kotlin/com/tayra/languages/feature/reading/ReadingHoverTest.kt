@@ -539,10 +539,18 @@ class ReadingHoverTest {
         assertEquals(List(3) { course.id }, courses)
         assertEquals(0, back, "a lesson never leaves for the library")
 
+        // The lesson's saved words are at its end, among the buttons under the text.
+        rule.onNodeWithTag("lesson-vocabulary").performScrollTo().performClick()
+        rule.waitUntil(5_000) { visited.any { it is com.tayra.languages.core.ui.navigation.Route.Terms } }
+        assertEquals(1L, visited.filterIsInstance<com.tayra.languages.core.ui.navigation.Route.Terms>().single().bookId)
+
+        // Nothing is left for the reader's tools: no editing, no bookmarks, and the vocabulary is at the end.
         rule.onNodeWithContentDescription("Reader settings").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-vocabulary").fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(rule.onAllNodesWithTag("tool-edit").fetchSemanticsNodes().isEmpty(), "a lesson's text is not edited")
-        assertTrue(rule.onAllNodesWithTag("tool-bookmarks").fetchSemanticsNodes().isEmpty(), "a lesson has no bookmarks")
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Reading experience").fetchSemanticsNodes().isNotEmpty() }
+        for (tool in listOf("tool-edit", "tool-bookmarks", "tool-vocabulary")) {
+            assertTrue(rule.onAllNodesWithTag(tool).fetchSemanticsNodes().isEmpty(), "a lesson has no $tool")
+        }
+        assertTrue(rule.onAllNodesWithText("Reader tools").fetchSemanticsNodes().isEmpty(), "a lesson's pane has no tools section")
     }
 
     /** The pane sorts its settings into Reading, Audio and Appearance tabs; a layout choice is saved as it is made. */

@@ -458,5 +458,5 @@ internal val deTerms: Map<String, String> = mapOf(
     "No example selected" to "Kein Beispiel ausgewählt",
     "Replace example" to "Beispiel ersetzen",
     "No form of ‘{0}’ in this sentence" to "Keine Form von „{0}“ in diesem Satz",
-    "No saved words on this page yet." to "Auf dieser Seite gibt es noch keine gespeicherten Wörter.",
+    "No saved words here yet." to "Hier gibt es noch keine gespeicherten Wörter.",
 )

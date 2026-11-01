@@ -458,5 +458,5 @@ internal val ruTerms: Map<String, String> = mapOf(
     "No example selected" to "Пример не выбран",
     "Replace example" to "Заменить пример",
     "No form of ‘{0}’ in this sentence" to "В этом предложении нет формы «{0}»",
-    "No saved words on this page yet." to "На этой странице пока нет сохранённых слов.",
+    "No saved words here yet." to "Здесь пока нет сохранённых слов.",
 )

@@ -250,4 +250,5 @@ internal val ptReading: Map<String, String> = mapOf(
     "Fix translation" to "Corrigir tradução",
     "The microphone gave no sound. Check it and try again." to "O microfone não captou som. Verifique-o e tente novamente.",
     "That could not be made out. Try again." to "Não foi possível reconhecer. Tente novamente.",
+    "See lesson vocabulary" to "Ver o vocabulário da lição",
 )

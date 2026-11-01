@@ -184,7 +184,7 @@ class TermsScreenTest {
     @Test
     fun aPageWithNoSavedWordsListsNone() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show(termIds = emptyList())
-        waitUntil(timeoutMillis = 5_000) { listed("No saved words on this page yet.") }
+        waitUntil(timeoutMillis = 5_000) { listed("No saved words here yet.") }
         assertEquals(false, listed("comprar"))
     }
 

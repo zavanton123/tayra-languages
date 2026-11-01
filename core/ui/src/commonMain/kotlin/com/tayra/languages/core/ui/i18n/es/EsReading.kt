@@ -250,4 +250,5 @@ internal val esReading: Map<String, String> = mapOf(
     "Fix translation" to "Corregir traducción",
     "The microphone gave no sound. Check it and try again." to "El micrófono no captó sonido. Revísalo e inténtalo de nuevo.",
     "That could not be made out. Try again." to "No se pudo reconocer. Inténtalo de nuevo.",
+    "See lesson vocabulary" to "Ver el vocabulario de la lección",
 )

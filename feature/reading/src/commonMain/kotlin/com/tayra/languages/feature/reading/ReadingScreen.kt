@@ -436,6 +436,7 @@ fun ReadingScreen(
                             onSettings = { onNavigate(Route.OfflineTranslation) },
                             onMenu = openPane,
                             onCourses = { onNavigate(Route.Courses) },
+                            onLessonVocabulary = { scope.launch { onNavigate(Route.Terms(viewModel.textTermIds(), bookId)) } },
                             onNewPlaylist = { newPlaylist = true },
                             onAddedToPlaylist = { name -> toast.show(tr("Added to {0}", name)) },
                             focusText = { runCatching { focusRequester.requestFocus() } },
@@ -629,6 +630,8 @@ private fun ReadingBody(
     /** Opening the reader's settings, from the floating button a wide window shows. */
     onMenu: () -> Unit,
     onCourses: () -> Unit,
+    /** Opening the saved words of the whole lesson. */
+    onLessonVocabulary: () -> Unit,
     /** Making a playlist that starts with this text. */
     onNewPlaylist: () -> Unit,
     /** Confirming that the text went into the playlist with this name. */
@@ -805,6 +808,7 @@ private fun ReadingBody(
             }
             ReadingFooter(
                 state, viewModel, onHome, onPractice, onPracticeAll, edgePadding,
+                onLessonVocabulary = onLessonVocabulary,
                 playlistBookId = state.book?.id?.takeIf { playlistPlayer != null },
                 onNewPlaylist = onNewPlaylist,
                 onAddedToPlaylist = onAddedToPlaylist,
@@ -1148,6 +1152,7 @@ private fun ReadingFooter(
     onPractice: (PracticeSetup) -> Unit,
     onPracticeAll: (PracticeSetup) -> Unit,
     edgePadding: Dp,
+    onLessonVocabulary: () -> Unit,
     /** The text to put in a playlist; null when this build has no playlist player. */
     playlistBookId: Long?,
     onNewPlaylist: () -> Unit,
@@ -1180,6 +1185,12 @@ private fun ReadingFooter(
         val showPractice = practisable && state.pageCount > 1 && state.lesson == null
         val showPracticeAll = last && bookWords > 0
         val showAnki = showPracticeAll && viewModel.canExportToAnki
+        // At a lesson's end, its saved words; a book's page has them in the reader's tools.
+        val vocabulary: @Composable () -> Unit = {
+            if (last && state.lesson != null) {
+                FooterCircle(tr("See lesson vocabulary"), Icons.AutoMirrored.Filled.List, FooterCircleStyle.Outlined, Modifier.testTag("lesson-vocabulary"), onClick = onLessonVocabulary)
+            }
+        }
         val playlist: @Composable () -> Unit = {
             // Offered once the text has been read through, as the whole-text actions are.
             if (playlistBookId != null && last) {
@@ -1273,6 +1284,7 @@ private fun ReadingFooter(
                         FooterCircle(tr("Previous page"), Icons.AutoMirrored.Filled.ArrowBack, FooterCircleStyle.Outlined, Modifier.testTag("footer-previous")) { viewModel.goToRelativePage(-1) }
                     }
                 }
+                vocabulary()
                 playlist()
                 practice()
                 practiceAll()

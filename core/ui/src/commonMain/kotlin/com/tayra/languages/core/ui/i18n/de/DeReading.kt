@@ -250,4 +250,5 @@ internal val deReading: Map<String, String> = mapOf(
     "Fix translation" to "Übersetzung korrigieren",
     "The microphone gave no sound. Check it and try again." to "Das Mikrofon hat keinen Ton geliefert. Prüf es und versuch es noch einmal.",
     "That could not be made out. Try again." to "Das konnte nicht erkannt werden. Versuch es noch einmal.",
+    "See lesson vocabulary" to "Wortschatz der Lektion ansehen",
 )

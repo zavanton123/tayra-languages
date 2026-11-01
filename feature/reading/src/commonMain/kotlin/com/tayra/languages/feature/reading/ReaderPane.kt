@@ -170,13 +170,16 @@ internal fun ReaderPane(
                 LinkText(tr("Reset reader settings"), onClick = { confirmReset = true }, modifier = Modifier.align(Alignment.CenterHorizontally).testTag("reset-reader"), icon = Icons.Default.Refresh)
             }
         }
-        ReaderTools(
-            state,
-            bookmarksOpen = showBookmarks,
-            onBookmarks = { showBookmarks = !showBookmarks },
-            actions = actions,
-            onClose = onClose,
-        )
+        // A lesson has none of the tools: no editing, no bookmarks, and its vocabulary is at its end.
+        if (state.lesson == null) {
+            ReaderTools(
+                state,
+                bookmarksOpen = showBookmarks,
+                onBookmarks = { showBookmarks = !showBookmarks },
+                actions = actions,
+                onClose = onClose,
+            )
+        }
     }
     if (confirmReset) {
         AppDialog(
