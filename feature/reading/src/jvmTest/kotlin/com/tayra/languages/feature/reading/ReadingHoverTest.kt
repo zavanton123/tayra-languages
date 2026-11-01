@@ -475,6 +475,24 @@ class ReadingHoverTest {
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.EditBook(1)), visited)
     }
 
+    /** Under the text, after the way out, a button turns back a page: on every page but the first. */
+    @Test
+    fun theFooterTurnsBackAPage() {
+        val vm = runBlocking { reader(mainIsDefault = false, pages = 3) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Back to library").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(rule.onAllNodesWithTag("footer-previous").fetchSemanticsNodes().isEmpty(), "the first page has no page before it")
+        vm.goToPage(2)
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("footer-previous").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("FOOTER_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
+        rule.onNodeWithTag("footer-previous").performScrollTo().performClick()
+        rule.waitUntil(5_000) { vm.state.value.pageNumber == 1 }
+    }
+
     /** A lesson of several pages is practised as a whole: its footer never offers the page's practice. */
     @Test
     fun aLessonOffersOnlyTheWholeLessonsPractice() {

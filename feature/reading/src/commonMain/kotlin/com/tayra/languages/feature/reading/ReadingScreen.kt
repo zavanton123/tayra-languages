@@ -1257,16 +1257,22 @@ private fun ReadingFooter(
         }
         Layout(
             content = {
-                FooterCircle(
-                    when {
-                        state.lesson != null -> tr("Back to course")
-                        state.news -> tr("Back to news")
-                        else -> tr("Back to library")
-                    },
-                    Icons.AutoMirrored.Filled.ArrowBack,
-                    FooterCircleStyle.Outlined,
-                    onClick = onHome,
-                )
+                // The way out, then the way back a page, together at the start.
+                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    FooterCircle(
+                        when {
+                            state.lesson != null -> tr("Back to course")
+                            state.news -> tr("Back to news")
+                            else -> tr("Back to library")
+                        },
+                        Icons.Default.Home,
+                        FooterCircleStyle.Outlined,
+                        onClick = onHome,
+                    )
+                    if (!state.isFirstPage) {
+                        FooterCircle(tr("Previous page"), Icons.AutoMirrored.Filled.ArrowBack, FooterCircleStyle.Outlined, Modifier.testTag("footer-previous")) { viewModel.goToRelativePage(-1) }
+                    }
+                }
                 playlist()
                 practice()
                 practiceAll()
