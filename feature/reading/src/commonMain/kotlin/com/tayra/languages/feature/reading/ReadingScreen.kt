@@ -1206,7 +1206,7 @@ private fun ReadingFooter(
             // Offered once the text has been read through, as the whole-text actions are.
             if (playlistBookId != null && last) {
                 // The menu ends where the buttons do: past the ones after this, next page or finish always among them.
-                val after = listOf(showPractice, showPracticeAll, showAnki, unknowns > 0, true).count { it }
+                val after = listOf(showAnki, unknowns > 0, true).count { it }
                 AddToPlaylistButton(
                     playlistBookId,
                     FOOTER_CONTROL_SIZE,
@@ -1296,9 +1296,9 @@ private fun ReadingFooter(
                     }
                 }
                 vocabulary()
-                playlist()
                 practice()
                 practiceAll()
+                playlist()
                 anki()
                 markRemaining()
                 next()
