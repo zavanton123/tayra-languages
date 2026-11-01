@@ -542,8 +542,6 @@ class ReadingHoverTest {
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File("$path-appearance.png"))
         }
-        rule.onNodeWithText("Justified").performScrollTo().performClick()
-        rule.waitUntil(5_000) { settings.current.readingJustified }
     }
 
     /** A long setting name, as in Russian, goes above its choices rather than being squeezed beside them. */

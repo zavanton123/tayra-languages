@@ -192,8 +192,6 @@ fun ReadingText(
     readings: Map<String, List<Furigana>> = emptyMap(),
     /** Pinyin readings coloured by tone. */
     toneColors: Boolean = false,
-    /** Justify the lines of text rather than aligning them to the start. */
-    justify: Boolean = false,
     /** Translations shown under each sentence, keyed by [RenderedSentence.displayText]; null hides them. */
     translations: Map<String, SentenceTranslation>? = null,
     /** With translations, put each sentence in a left column and its translation in a right one. */
@@ -289,7 +287,6 @@ fun ReadingText(
                         popupItem = popupItem,
                         fontScale = fontScale,
                         lineHeight = lineHeight,
-                        justify = justify,
                         rightToLeft = rightToLeft,
                         callbacks = if (shown) callbacks.copy(onBlankTap = { reveal(false) }) else callbacks,
                         fontFamily = fontFamily,
@@ -501,7 +498,6 @@ private fun ParagraphText(
     rightToLeft: Boolean,
     callbacks: ReadingTextCallbacks,
     fontFamily: FontFamily = FontFamily.Serif,
-    justify: Boolean = false,
     /** Local item positions that start a sentence, with the sentence to read, for inline play buttons. */
     inlinePlay: Map<Int, SpokenSentence> = emptyMap(),
     onSpeakSentence: ((Int) -> Unit)? = null,
@@ -599,7 +595,7 @@ private fun ParagraphText(
                 color = theme.readingText,
                 textDirection = if (rightToLeft) TextDirection.Rtl else TextDirection.Ltr,
                 fontFamily = fontFamily,
-                textAlign = if (justify) TextAlign.Justify else TextAlign.Start,
+                textAlign = TextAlign.Justify,
             ),
             onTextLayout = { layout = it },
             inlineContent = inlineContent,

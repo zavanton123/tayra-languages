@@ -974,7 +974,6 @@ class ReadingViewModel(
 
     fun setSplitSentences(on: Boolean) = updateSettings { it.copy(splitSentences = on) }
     fun setSideBySideTranslations(on: Boolean) = updateSettings { it.copy(sideBySideTranslations = on) }
-    fun setJustified(on: Boolean) = updateSettings { it.copy(readingJustified = on) }
     fun setFontScale(scale: Float) = updateSettings { it.copy(readingFontScale = ((scale * 10).roundToInt() / 10f).coerceIn(0.6f, 2.5f)) }
     fun setLineHeight(height: Float) = updateSettings { it.copy(readingLineHeight = ((height * 10).roundToInt() / 10f).coerceIn(1.0f, 3.0f)) }
     fun setColumnWidth(width: Int) = updateSettings { it.copy(readingColumnWidth = (width / 20 * 20).coerceIn(320, 2000)) }
@@ -999,7 +998,6 @@ class ReadingViewModel(
             readingFontScale = defaults.readingFontScale,
             readingLineHeight = defaults.readingLineHeight,
             readingColumnWidth = defaults.readingColumnWidth,
-            readingJustified = defaults.readingJustified,
         )
     }
 

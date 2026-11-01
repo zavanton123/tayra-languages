@@ -427,12 +427,11 @@ private fun AppearanceTab(state: ReadingUiState, viewModel: ReadingViewModel) {
         SliderSetting(tr("Font size"), "${(prefs.readingFontScale * 100).roundToInt()}%", prefs.readingFontScale, 0.6f..2.5f, viewModel::setFontScale, sliderModifier = Modifier.testTag("font-size"))
         SliderSetting(tr("Line height"), "${(prefs.readingLineHeight * 10).roundToInt() / 10f}", prefs.readingLineHeight, 1.0f..3.0f, viewModel::setLineHeight, sliderModifier = Modifier.testTag("line-height"))
     }
-    PaneCard(tr("Page layout")) {
-        // A phone's text already fills its narrow screen, so its width is not offered there.
-        if (!LocalWindowWidth.current.isCompact) {
+    // A phone's text already fills its narrow screen, so its width is not offered there.
+    if (!LocalWindowWidth.current.isCompact) {
+        PaneCard(tr("Page layout")) {
             SliderSetting(tr("Text width"), tr("{0} px", prefs.readingColumnWidth), prefs.readingColumnWidth.toFloat(), 320f..2000f, { viewModel.setColumnWidth(it.roundToInt()) }, sliderModifier = Modifier.testTag("text-width"))
         }
-        SegmentedSetting(null, tr("Alignment"), listOf(false to tr("Left"), true to tr("Justified")), prefs.readingJustified, viewModel::setJustified)
     }
 }
 

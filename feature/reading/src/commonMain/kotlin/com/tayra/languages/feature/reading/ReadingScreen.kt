@@ -786,7 +786,6 @@ private fun ReadingBody(
                     else -> state.readings
                 },
                 toneColors = state.settings.toneColors && chinese,
-                justify = state.settings.readingJustified,
                 translations = if (state.settings.showTranslations) state.translations else null,
                 sideBySide = state.settings.sideBySideTranslations,
                 practice = state.settings.practiceTranslation,
