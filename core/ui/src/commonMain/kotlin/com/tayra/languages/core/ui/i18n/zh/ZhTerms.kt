@@ -459,4 +459,5 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Replace example" to "替换例句",
     "No form of ‘{0}’ in this sentence" to "这个句子里没有“{0}”的任何形式",
     "No saved words here yet." to "这里还没有已保存的词语。",
+    "Learned with the card of its parent, {0}." to "随其父词 {0} 的闪卡一起学习。",
 )

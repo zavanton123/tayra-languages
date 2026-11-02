@@ -459,4 +459,5 @@ internal val deTerms: Map<String, String> = mapOf(
     "Replace example" to "Beispiel ersetzen",
     "No form of ‘{0}’ in this sentence" to "Keine Form von „{0}“ in diesem Satz",
     "No saved words here yet." to "Hier gibt es noch keine gespeicherten Wörter.",
+    "Learned with the card of its parent, {0}." to "Wird mit der Karteikarte des Stammworts {0} gelernt.",
 )

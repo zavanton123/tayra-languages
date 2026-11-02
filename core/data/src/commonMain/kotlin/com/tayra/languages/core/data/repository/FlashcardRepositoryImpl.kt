@@ -33,6 +33,7 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
             q.deleteOrphanCards()
             q.deleteOrphanReviews()
             q.followStatus()
+            q.retireFamilyCards()
             q.createMissing()
         }
     }

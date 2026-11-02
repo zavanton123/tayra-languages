@@ -459,4 +459,5 @@ internal val frTerms: Map<String, String> = mapOf(
     "Replace example" to "Remplacer l’exemple",
     "No form of ‘{0}’ in this sentence" to "Aucune forme de « {0} » dans cette phrase",
     "No saved words here yet." to "Aucun mot enregistré ici pour l’instant.",
+    "Learned with the card of its parent, {0}." to "Appris avec la carte de son terme parent, {0}.",
 )

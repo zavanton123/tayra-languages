@@ -459,4 +459,5 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Replace example" to "Заменить пример",
     "No form of ‘{0}’ in this sentence" to "В этом предложении нет формы «{0}»",
     "No saved words here yet." to "Здесь пока нет сохранённых слов.",
+    "Learned with the card of its parent, {0}." to "Изучается по карточке родительского слова: {0}.",
 )

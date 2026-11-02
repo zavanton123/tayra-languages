@@ -132,6 +132,8 @@ data class TermFormUiState(
     val flashcard: Flashcard? = null,
     /** Whether this form can show and change the term's flashcard. */
     val flashcardsShown: Boolean = false,
+    /** The parent being learned whose card the term is learned with, when it has none of its own. */
+    val learnedWith: String? = null,
     /** How far practice has taken the term; null before it is practised. */
     val practice: WordProgress? = null,
     /** Whether this form shows the term's practice level. */
@@ -799,7 +801,8 @@ class TermFormViewModel(
         refreshPractice(termId)
         val service = flashcards ?: return
         val card = termId?.let { service.cardFor(it) }
-        _state.update { it.copy(flashcard = card, flashcardsShown = true) }
+        val learnedWith = if (card == null && termId != null) terms.getById(termId)?.parents?.firstOrNull { it.status.isLearning }?.text else null
+        _state.update { it.copy(flashcard = card, flashcardsShown = true, learnedWith = learnedWith) }
     }
 
     private suspend fun refreshPractice(termId: Long?) {

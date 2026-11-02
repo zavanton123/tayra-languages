@@ -459,4 +459,5 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Replace example" to "Substituir exemplo",
     "No form of ‘{0}’ in this sentence" to "Nenhuma forma de ‘{0}’ nesta frase",
     "No saved words here yet." to "Ainda não há palavras guardadas aqui.",
+    "Learned with the card of its parent, {0}." to "Aprendido com o flashcard do termo pai, {0}.",
 )

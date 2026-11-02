@@ -82,6 +82,29 @@ class FlashcardServiceTest {
         assertEquals(learning, service.next(id).card?.termId)
     }
 
+    /** A form whose parent is being learned too is learned with the parent's card; one answered before keeps its own. */
+    @Test
+    fun aFamilyBeingLearnedHasOneCard() = runTest {
+        val id = language()
+        val lemma = term(id, "diminuir")
+        val past = term(id, "diminuíram")
+        assertNotNull(service.cardFor(past), "its own card before it has a parent")
+        terms.setParents(past, listOf(lemma))
+        assertNull(service.cardFor(past), "the unanswered card goes once the parent is being learned")
+        assertNotNull(service.cardFor(lemma))
+        assertEquals(1, service.browse(id).cards.size)
+
+        // Answered before it was linked, a form keeps its card and history.
+        val future = term(id, "diminuirão")
+        service.answer(service.next(id, prefer = future).card!!, Rating.GOOD)
+        terms.setParents(future, listOf(lemma))
+        assertNotNull(service.cardFor(future), "a card with answers stays")
+
+        // With the parent known, the form is learned on a card of its own again.
+        terms.updateStatus(listOf(lemma), TermStatus.WELL_KNOWN)
+        assertNotNull(service.cardFor(past))
+    }
+
     /** A card blanks out the form the sentence holds: the term's own, or a parent's or sibling's when the sentence came through the family. */
     @Test
     fun theCardBlanksOutTheFormOfTheFamilyReadInTheSentence() = runTest {
