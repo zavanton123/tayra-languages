@@ -252,4 +252,6 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Schedule" to "复习安排",
     "Danger zone" to "危险操作",
     "Delete flashcard" to "删除闪卡",
+    "Review {0} due" to "复习 {0} 张到期卡片",
+    "Interval {0}" to "间隔 {0}",
 )

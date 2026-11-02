@@ -252,4 +252,6 @@ internal val deCourses: Map<String, String> = mapOf(
     "Schedule" to "Zeitplan",
     "Danger zone" to "Gefahrenbereich",
     "Delete flashcard" to "Karteikarte löschen",
+    "Review {0} due" to "{0} fällige wiederholen",
+    "Interval {0}" to "Intervall {0}",
 )

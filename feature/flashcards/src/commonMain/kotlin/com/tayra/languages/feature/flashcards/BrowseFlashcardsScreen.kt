@@ -295,14 +295,14 @@ internal val BrowseView.label: String
 /** The groups of cards to show, each with how many it holds. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-internal fun ViewChips(state: BrowseUiState, onSelect: (BrowseView) -> Unit, modifier: Modifier = Modifier, large: Boolean = false) {
+internal fun ViewChips(state: BrowseUiState, onSelect: (BrowseView) -> Unit, modifier: Modifier = Modifier, large: Boolean = false, short: Boolean = false) {
     FlowRow(modifier, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        BrowseView.entries.forEach { view -> ViewChip(view, state.counts[view], selected = view == state.view, large) { onSelect(view) } }
+        BrowseView.entries.forEach { view -> ViewChip(view, state.counts[view], selected = view == state.view, large, short) { onSelect(view) } }
     }
 }
 
 @Composable
-private fun ViewChip(view: BrowseView, count: Int, selected: Boolean, large: Boolean, onClick: () -> Unit) {
+private fun ViewChip(view: BrowseView, count: Int, selected: Boolean, large: Boolean, short: Boolean, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val tint = when (view) {
         BrowseView.NEW -> AppAccents.blue
@@ -313,7 +313,13 @@ private fun ViewChip(view: BrowseView, count: Int, selected: Boolean, large: Boo
         BrowseView.SUSPENDED -> AppAccents.gray
         BrowseView.ALL -> colors.primary
     }
-    SelectableChip(view.label, selected, onClick, Modifier.testTag("browse-view-${view.name}"), tint = tint, count = count, size = if (large) ChipSize.Large else ChipSize.Small)
+    // A phone's row is narrow: the first two groups go by one word.
+    val label = when {
+        short && view == BrowseView.ALL -> tr("All")
+        short && view == BrowseView.DUE -> tr("Due")
+        else -> view.label
+    }
+    SelectableChip(label, selected, onClick, Modifier.testTag("browse-view-${view.name}"), tint = tint, count = count, size = if (large) ChipSize.Large else ChipSize.Small)
 }
 
 /** What can be done with the selected cards together. */

@@ -17,6 +17,8 @@ import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.longClick
+import androidx.compose.ui.test.performTouchInput
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.russhwolf.settings.MapSettings
@@ -340,11 +342,20 @@ class BrowseFlashcardsScreenTest {
         show(width = 420)
         onNodeWithTag("phone-sort").assertExists()
         save("BROWSE_PHONE_LIST_SCREENSHOT")
-        // Select puts checkboxes on the rows; a tap then picks the card instead of opening it.
+        // The review shows how many are due, beside the sort.
+        onNodeWithText("Review 1 due").assertDoesNotExist()
+        onNodeWithTag("phone-review").assertExists()
+        // Select, from the bar's menu, puts checkboxes on the cards; a tap then picks the card instead of opening it.
+        onNodeWithTag("phone-menu").performClick()
         onNodeWithTag("phone-select").performClick()
         onNodeWithTag("browse-row-$comprar").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("selection-bar").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Done").performClick()
+        onNodeWithTag("phone-select-done").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("selection-bar").fetchSemanticsNodes().isEmpty() }
+        // A long press starts selecting with that card.
+        onNodeWithTag("browse-row-$casa").performTouchInput { longClick() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 of 3 selected").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("phone-select-done").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("selection-bar").fetchSemanticsNodes().isEmpty() }
         onNodeWithTag("browse-row-$casa").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("review-history").fetchSemanticsNodes().isNotEmpty() }

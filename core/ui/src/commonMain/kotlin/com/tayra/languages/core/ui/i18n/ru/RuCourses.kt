@@ -252,4 +252,6 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Schedule" to "Расписание",
     "Danger zone" to "Опасная зона",
     "Delete flashcard" to "Удалить карточку",
+    "Review {0} due" to "Повторить: {0}",
+    "Interval {0}" to "Интервал {0}",
 )
