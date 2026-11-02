@@ -1,0 +1,18 @@
+-- The card sentence's own translation, kept with the word and synced with it.
+ALTER TABLE terms ADD COLUMN sentence_translation TEXT;
+
+-- A sentence changed leaves its translation behind, unless the same change brought a new one.
+CREATE TRIGGER terms_sentence_translation_stale
+AFTER UPDATE OF sentence ON terms
+WHEN old.sentence IS NOT new.sentence AND new.sentence_translation IS old.sentence_translation
+BEGIN
+    UPDATE terms SET sentence_translation = NULL WHERE id = new.id;
+END;
+
+DROP TRIGGER IF EXISTS sync_terms_update;
+CREATE TRIGGER sync_terms_update
+AFTER UPDATE OF text, text_lc, status, translation, romanization, token_count, flash_message, translation_language, sentence, card_form, sentence_translation ON terms
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE terms SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;

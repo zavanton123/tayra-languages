@@ -11,6 +11,7 @@ import com.tayra.languages.core.domain.flashcards.DueCounts
 import com.tayra.languages.core.domain.flashcards.Flashcard
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.domain.flashcards.Rating
+import com.tayra.languages.core.domain.flashcards.SentenceTranslations
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
@@ -111,6 +112,8 @@ class FlashcardsViewModel(
     private val audio: SentenceAudio? = null,
     /** The texts, for the one to go on reading once the cards are done; null leaves that out. */
     private val books: BookRepository? = null,
+    /** Keeps the sentences' translations with their words; null translates them each time, as in tests. */
+    private val sentences: SentenceTranslations? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(FlashcardsUiState())
@@ -227,7 +230,8 @@ class FlashcardsViewModel(
             languageId = term.languageId,
             word = word,
             sentence = sentence,
-            translating = sentence != null,
+            sentenceTranslation = term.sentenceTranslation?.takeIf { sentence != null && it.isNotBlank() },
+            translating = sentence != null && term.sentenceTranslation.isNullOrBlank(),
             wordRange = wordRange,
             translation = term.translation.orEmpty().trim(),
             romanization = term.romanization.orEmpty().trim(),
@@ -261,7 +265,8 @@ class FlashcardsViewModel(
         fun updateCard(change: (CardContent) -> CardContent) = _state.update { s -> if (s.card?.termId == term.id) s.copy(card = change(s.card)) else s }
         extrasJob = viewModelScope.launch {
             launch {
-                val translated = sentence?.let { attempt { translator.translate(it, language) } }
+                // A translation kept with the word is shown as it is; one made now is kept for the next time.
+                val translated = if (!term.sentenceTranslation.isNullOrBlank()) term.sentenceTranslation else sentence?.let { translate(term.id, it, language) }
                 // An example chosen for the card meanwhile has a translation of its own.
                 updateCard { if (it.sentence == sentence) it.copy(sentenceTranslation = translated?.takeIf(String::isNotBlank), translating = false) else it }
                 translateAhead(term, language)
@@ -289,11 +294,15 @@ class FlashcardsViewModel(
     private suspend fun translateAhead(term: Term, language: Language) {
         val session = service.sessionTerms(languageId)
         val after = session.indexOfFirst { it.id == term.id }.takeIf { it >= 0 } ?: return
-        session.drop(after + 1).filter { it.languageId == language.id }
-            .mapNotNull { it.sentence?.trim()?.takeIf(String::isNotEmpty) }
+        session.drop(after + 1).filter { it.languageId == language.id && it.sentenceTranslation.isNullOrBlank() }
+            .mapNotNull { next -> next.sentence?.takeIf(String::isNotBlank)?.let { next.id to it } }
             .take(TRANSLATE_AHEAD)
-            .forEach { attempt { translator.translate(it, language) } }
+            .forEach { (termId, sentence) -> translate(termId, sentence, language) }
     }
+
+    /** Translates [termId]'s [sentence], keeping the translation with the word where it can be kept. */
+    private suspend fun translate(termId: Long, sentence: String, language: Language): String? =
+        attempt { sentences?.make(termId, sentence, language) ?: translator.translate(sentence.trim(), language) }
 
     private suspend fun <T> attempt(block: suspend () -> T?): T? = try {
         block()
@@ -332,12 +341,12 @@ class FlashcardsViewModel(
         if (text.isEmpty() || text == card.sentence) return
         fun updateCard(change: (CardContent) -> CardContent) = _state.update { s -> if (s.card?.termId == card.termId) s.copy(card = change(s.card)) else s }
         viewModelScope.launch {
-            val range = service.replaceSentence(card.termId, text)
             val given = translation?.takeIf(String::isNotBlank)
+            val range = service.replaceSentence(card.termId, text, given)
             updateCard { it.copy(sentence = text, wordRange = range, sentenceTranslation = given, translating = given == null) }
             audio?.let { launch { attempt { it.prepare(listOf(text), card.languageCode) } } }
             if (translation.isNullOrBlank()) {
-                val translated = languages.getById(card.languageId)?.let { language -> attempt { translator.translate(text, language) } }
+                val translated = languages.getById(card.languageId)?.let { language -> translate(card.termId, text, language) }
                 updateCard { if (it.sentence == text) it.copy(sentenceTranslation = translated?.takeIf(String::isNotBlank), translating = false) else it }
             }
         }

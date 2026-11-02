@@ -239,6 +239,15 @@ class FlashcardsScreenTest {
     }
 
     /** The translation's place is kept while it is looked up, and after a failed lookup, so the card does not jump when it comes. */
+    /** A translation kept with the word is shown as it is, the translator not asked. */
+    @Test
+    fun aKeptTranslationIsShownWithoutTranslating() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        var asked = 0
+        show(translate = { asked++; "made now" }, moreTerms = { runBlocking { terms.updateSentenceTranslation(termId, "When we need to buy something, we stop at the supermarket.") } })
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("When we need to buy something, we stop at the supermarket.").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, asked)
+    }
+
     @Test
     fun theTranslationKeepsItsPlaceWhileItIsLookedUp() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val answer = kotlinx.coroutines.CompletableDeferred<String?>()

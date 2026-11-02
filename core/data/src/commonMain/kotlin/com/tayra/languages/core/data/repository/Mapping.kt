@@ -80,6 +80,7 @@ internal fun Terms.toDomain(parents: List<TermRef>): Term = Term(
     sentence = sentence,
     ankiExportedAt = anki_exported_at?.toInstant(),
     cardForm = card_form,
+    sentenceTranslation = sentence_translation,
 )
 
 internal fun Long.toInstant(): Instant = Instant.fromEpochMilliseconds(this)

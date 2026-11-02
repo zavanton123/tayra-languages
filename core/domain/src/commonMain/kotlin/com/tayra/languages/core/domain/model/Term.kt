@@ -72,11 +72,16 @@ data class Term(
     val ankiExportedAt: Instant? = null,
     /** The form of the term its flashcard hides in [sentence], chosen by hand; null to let the card find it. */
     val cardForm: String? = null,
+    /** [sentence]'s translation, made automatically when missing and changed by hand. */
+    val sentenceTranslation: String? = null,
 ) {
     val displayText: String get() = text.replace(ZWS_STRING, "")
     val isMultiword: Boolean get() = tokenCount > 1
     val isSaved: Boolean get() = id != 0L
 }
+
+/** A card's sentence waiting for its translation. */
+data class SentenceToTranslate(val termId: Long, val languageId: Long, val sentence: String)
 
 /** A lightweight reference to another term. */
 data class TermRef(

@@ -16,8 +16,18 @@ CREATE TABLE terms (
     anki_exported_at INTEGER,
     updated_at INTEGER NOT NULL DEFAULT 0,
     -- The form of the word its flashcard hides in the sentence, chosen by hand; null to let the card find it.
-    card_form TEXT
+    card_form TEXT,
+    -- The sentence's translation, made automatically when missing and changed by hand.
+    sentence_translation TEXT
 );
+
+-- A sentence changed leaves its translation behind, unless the same change brought a new one.
+CREATE TRIGGER terms_sentence_translation_stale
+AFTER UPDATE OF sentence ON terms
+WHEN old.sentence IS NOT new.sentence AND new.sentence_translation IS old.sentence_translation
+BEGIN
+    UPDATE terms SET sentence_translation = NULL WHERE id = new.id;
+END;
 
 CREATE UNIQUE INDEX terms_text_lc_language ON terms(text_lc, language_id);
 CREATE INDEX terms_language ON terms(language_id);
@@ -81,6 +91,19 @@ UPDATE terms SET sentence = :sentence WHERE id = :id;
 
 updateCardForm:
 UPDATE terms SET card_form = :cardForm WHERE id = :id;
+
+updateSentenceTranslation:
+UPDATE terms SET sentence_translation = :translation WHERE id = :id;
+
+-- A translation made for [sentence], kept only while it is still the term's sentence.
+fillSentenceTranslation:
+UPDATE terms SET sentence_translation = :translation WHERE id = :id AND sentence = :sentence AND sentence_translation IS NULL;
+
+-- The sentences of the cards' terms (status 1 to 4) still without a translation, oldest first.
+missingSentenceTranslations:
+SELECT id, language_id, sentence FROM terms
+WHERE status IN (1, 2, 3, 4) AND sentence IS NOT NULL AND trim(sentence) != '' AND sentence_translation IS NULL
+ORDER BY id;
 
 updateSyncStatus:
 UPDATE terms SET sync_status = :syncStatus WHERE id = :id;

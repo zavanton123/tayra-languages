@@ -30,6 +30,8 @@ import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Instant
+import com.tayra.languages.core.domain.flashcards.SentenceTranslations
+import com.tayra.languages.core.domain.service.SentenceTranslator
 
 /** Flashcards over a real database: which terms have cards, what is shown when, and how answers move a term's status. */
 class FlashcardServiceTest {
@@ -116,6 +118,48 @@ class FlashcardServiceTest {
         assertEquals(4 until 9, service.clozeRange(terms.getById(temer)!!))
         terms.updateCardForm(temer, null)
         assertEquals(12 until 17, service.clozeRange(terms.getById(temer)!!))
+    }
+
+    /**
+     * The cards' sentences without a translation get one, kept with the word; a translator that gives
+     * none ends the round, and a sentence changed afterwards leaves its translation behind.
+     */
+    @Test
+    fun sentenceTranslationsAreMadeOnceAndKept() = runTest {
+        val id = language()
+        val casa = term(id, "casa")
+        val lobo = term(id, "lobo")
+        val known = term(id, "gato", TermStatus.WELL_KNOWN)
+        terms.updateSentence(casa, "A casa é azul.")
+        terms.updateSentence(lobo, "O lobo uivou.")
+        terms.updateSentence(known, "O gato dorme.")
+        val asked = mutableListOf<String>()
+        var answering = false
+        val translator = object : SentenceTranslator {
+            override suspend fun translate(text: String, language: Language): String? { asked += text; return if (answering) "<$text>" else null }
+        }
+        val sentences = SentenceTranslations(terms, languages, translator)
+
+        sentences.fillMissing()
+        assertEquals(listOf("A casa é azul."), asked, "nothing came back, so the round ends")
+        assertNull(terms.getById(casa)!!.sentenceTranslation)
+
+        answering = true
+        sentences.fillMissing()
+        assertEquals("<A casa é azul.>", terms.getById(casa)!!.sentenceTranslation)
+        assertEquals("<O lobo uivou.>", terms.getById(lobo)!!.sentenceTranslation)
+        assertNull(terms.getById(known)!!.sentenceTranslation, "a word without a card")
+        asked.clear()
+        sentences.fillMissing()
+        assertEquals(emptyList(), asked, "kept, not made again")
+
+        terms.updateSentenceTranslation(casa, "The house is blue.")
+        assertEquals("The house is blue.", terms.getById(casa)!!.sentenceTranslation)
+        terms.updateSentence(casa, "A casa é grande.")
+        assertNull(terms.getById(casa)!!.sentenceTranslation, "a new sentence leaves the old translation behind")
+        // A translation made for the old sentence does not stick to the new one.
+        terms.fillSentenceTranslation(casa, "A casa é azul.", "The house is blue.")
+        assertNull(terms.getById(casa)!!.sentenceTranslation)
     }
 
     /** A card blanks out the form the sentence holds: the term's own, or a parent's or sibling's when the sentence came through the family. */

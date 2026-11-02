@@ -27,9 +27,10 @@ class StatusMigrationTest {
         // A database from before the change, with one term still at status 5.
         DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use {
             it.createStatement().execute("UPDATE terms SET status = 5 WHERE id = $learned")
+            // The newer schema goes first: its triggers name the columns dropped next.
+            it.pretendVersion(6)
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN sentence")
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN anki_exported_at")
-            it.pretendVersion(6)
         }
 
         val reopened = TermRepositoryImpl(DatabaseProvider(DatabaseDriverFactory(file)))

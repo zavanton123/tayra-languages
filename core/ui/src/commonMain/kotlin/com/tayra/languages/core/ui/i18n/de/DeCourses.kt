@@ -257,4 +257,5 @@ internal val deCourses: Map<String, String> = mapOf(
     "Total cards" to "Karteikarten gesamt",
     "Click another word to hide it on the card instead." to "Klicken Sie auf ein anderes Wort, damit die Karte stattdessen dieses verbirgt.",
     "Tap another word to hide it on the card instead." to "Tippen Sie auf ein anderes Wort, damit die Karte stattdessen dieses verbirgt.",
+    "Edit translation" to "Übersetzung bearbeiten",
 )

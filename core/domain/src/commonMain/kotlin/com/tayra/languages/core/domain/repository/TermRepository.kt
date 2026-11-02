@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.repository
 
+import com.tayra.languages.core.domain.model.SentenceToTranslate
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermMatch
 import com.tayra.languages.core.domain.model.TermReference
@@ -50,6 +51,12 @@ interface TermRepository {
     suspend fun updateSentence(termId: Long, sentence: String?)
     /** Sets the form the term's flashcard hides in its sentence; null lets the card find it. */
     suspend fun updateCardForm(termId: Long, form: String?)
+    /** Sets the translation of the term's sentence, as written by hand; null leaves it to be made again. */
+    suspend fun updateSentenceTranslation(termId: Long, translation: String?)
+    /** Keeps a translation made for [sentence], if that is still the term's sentence and it has none. */
+    suspend fun fillSentenceTranslation(termId: Long, sentence: String, translation: String)
+    /** The sentences of the cards' terms still without a translation, oldest first. */
+    suspend fun missingSentenceTranslations(): List<SentenceToTranslate>
 
     /** Records that the terms were exported to Anki at [at]. */
     suspend fun markAnkiExported(termIds: Collection<Long>, at: Instant)

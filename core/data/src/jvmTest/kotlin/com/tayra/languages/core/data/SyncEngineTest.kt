@@ -146,7 +146,7 @@ class SyncEngineTest {
         assertEquals(seq, account.seq, "sending back what came from the account changes nothing there")
     }
 
-    /** The word a card hides, chosen by hand, follows the word to the other device, and so does taking it back. */
+    /** The word a card hides, chosen by hand, and the sentence's translation follow the word to the other device, and so does taking the choice back. */
     @Test
     fun theFormACardHidesTravelsWithItsWord() = runBlocking<Unit> {
         val temer = phone.word("temer")
@@ -157,6 +157,12 @@ class SyncEngineTest {
         phone.engine.syncNow()
         desktop.engine.syncNow()
         assertEquals(listOf("temia"), desktop.rows("SELECT card_form FROM terms WHERE text_lc = 'temer'"))
+
+        phone.terms.updateSentence(temer, "Ele temia o mar.")
+        phone.terms.updateSentenceTranslation(temer, "He feared the sea.")
+        phone.engine.syncNow()
+        desktop.engine.syncNow()
+        assertEquals(listOf("Ele temia o mar.|He feared the sea."), desktop.rows("SELECT sentence, sentence_translation FROM terms WHERE text_lc = 'temer'"))
 
         phone.terms.updateCardForm(temer, null)
         phone.engine.syncNow()

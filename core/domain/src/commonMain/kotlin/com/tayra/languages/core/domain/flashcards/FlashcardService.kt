@@ -67,8 +67,9 @@ class FlashcardService(
         term.sentence?.trim()?.takeIf { it.isNotEmpty() }?.let { Cloze.cardRange(it, term, terms, formLemmas?.let { lemmas -> { form -> lemmas(term.languageId, form) } }) }
 
     /** Gives [termId]'s card [sentence] to blank its word out of; where the word stands in it, null when it does not. */
-    suspend fun replaceSentence(termId: Long, sentence: String): IntRange? {
+    suspend fun replaceSentence(termId: Long, sentence: String, translation: String? = null): IntRange? {
         terms.updateSentence(termId, sentence.trim())
+        translation?.trim()?.takeIf { it.isNotEmpty() }?.let { terms.updateSentenceTranslation(termId, it) }
         return terms.getById(termId)?.let { clozeRange(it) }
     }
 

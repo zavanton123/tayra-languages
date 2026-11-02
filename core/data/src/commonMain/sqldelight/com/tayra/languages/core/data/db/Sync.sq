@@ -52,7 +52,7 @@ BEGIN
 END;
 
 CREATE TRIGGER sync_terms_update
-AFTER UPDATE OF text, text_lc, status, translation, romanization, token_count, flash_message, translation_language, sentence, card_form ON terms
+AFTER UPDATE OF text, text_lc, status, translation, romanization, token_count, flash_message, translation_language, sentence, card_form, sentence_translation ON terms
 WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
 BEGIN
     UPDATE terms SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;

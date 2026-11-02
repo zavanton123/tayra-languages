@@ -7,6 +7,7 @@ import com.tayra.languages.core.domain.flashcards.AnkiImportService
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.FlashcardReview
 import com.tayra.languages.core.domain.flashcards.FlashcardService
+import com.tayra.languages.core.domain.flashcards.SentenceTranslations
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.repository.TermRepository
@@ -30,6 +31,8 @@ data class BrowseRow(
     val word: String,
     val translation: String,
     val sentence: String?,
+    /** [sentence]'s translation as kept with the word; null while it has none. */
+    val sentenceTranslation: String? = null,
     val state: CardState,
     val suspended: Boolean,
     val due: Instant,
@@ -83,6 +86,8 @@ sealed interface AnkiImport {
 /** The card opened for a closer look, with its review history. */
 data class BrowseDetail(
     val row: BrowseRow,
+    /** The sentence's translation is being made. */
+    val translating: Boolean = false,
     val reviews: List<FlashcardReview> = emptyList(),
     val loading: Boolean = true,
     /** Where the card's word stands in its sentence, the part its front blanks out; null when it is not found. */
@@ -125,6 +130,8 @@ class BrowseFlashcardsViewModel(
     private val settings: SettingsRepository,
     private val terms: TermRepository,
     private val ankiImport: AnkiImportService? = null,
+    /** Keeps the sentences' translations with their words; null shows none, as in tests. */
+    private val sentences: SentenceTranslations? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(
@@ -188,6 +195,7 @@ class BrowseFlashcardsViewModel(
                     word = entry.term.displayText,
                     translation = entry.term.translation.orEmpty().trim(),
                     sentence = entry.term.sentence?.trim()?.takeIf { it.isNotEmpty() },
+                    sentenceTranslation = entry.term.sentenceTranslation?.trim()?.takeIf { it.isNotEmpty() },
                     state = s.state,
                     suspended = card.suspended,
                     due = s.due,
@@ -320,9 +328,27 @@ class BrowseFlashcardsViewModel(
     /** Marks the open card's word in its sentence, as it is now. */
     private fun findWord(termId: Long) {
         viewModelScope.launch {
-            val range = terms.getById(termId)?.let { service.clozeRange(it) }
+            val term = terms.getById(termId)
+            val range = term?.let { service.clozeRange(it) }
             _state.update { s -> if (s.detail?.row?.termId == termId) s.copy(detail = s.detail.copy(wordRange = range)) else s }
+            // A sentence still without its translation gets one, kept with the word.
+            val sentence = term?.sentence?.takeIf { it.isNotBlank() }
+            if (sentence != null && term.sentenceTranslation.isNullOrBlank()) translate(termId, sentence, term.languageId)
         }
+    }
+
+    /** The sentences a translation was asked for, each once: a translator that gives none is not asked again and again. */
+    private val asked = mutableSetOf<Pair<Long, String>>()
+
+    /** Makes and keeps the translation of [termId]'s [sentence], shown as translating meanwhile. */
+    private suspend fun translate(termId: Long, sentence: String, languageId: Long) {
+        val sentences = sentences ?: return
+        if (!asked.add(termId to sentence)) return
+        val language = languages.getById(languageId) ?: return
+        _state.update { s -> if (s.detail?.row?.termId == termId) s.copy(detail = s.detail.copy(translating = true)) else s }
+        sentences.make(termId, sentence, language)
+        _state.update { s -> if (s.detail?.row?.termId == termId) s.copy(detail = s.detail.copy(translating = false)) else s }
+        refresh()
     }
 
     fun closeDetail() {
@@ -330,9 +356,21 @@ class BrowseFlashcardsViewModel(
     }
 
     /** Gives the card's term a new example sentence, the one its front blanks the word out of; blank removes it. */
-    fun saveSentence(termId: Long, sentence: String) {
+    fun saveSentence(termId: Long, sentence: String, translation: String? = null) {
         viewModelScope.launch {
+            // A new sentence leaves its old translation behind; one that came with it is kept, or one is made.
             terms.updateSentence(termId, sentence.trim().ifEmpty { null })
+            translation?.trim()?.takeIf { it.isNotEmpty() }?.let { terms.updateSentenceTranslation(termId, it) }
+            refresh()
+        }
+    }
+
+    /** Writes the translation of the card's sentence by hand; left blank, a new one is made. */
+    fun saveSentenceTranslation(termId: Long, translation: String) {
+        viewModelScope.launch {
+            val written = translation.trim().ifEmpty { null }
+            terms.updateSentenceTranslation(termId, written)
+            if (written == null) asked.removeAll { it.first == termId }
             refresh()
         }
     }

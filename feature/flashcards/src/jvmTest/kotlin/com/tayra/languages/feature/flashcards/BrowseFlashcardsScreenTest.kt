@@ -61,6 +61,8 @@ import kotlin.test.assertFalse
 import com.tayra.languages.core.ui.navigation.Route
 import androidx.compose.ui.test.performFirstLinkClick
 import androidx.compose.ui.text.LinkAnnotation
+import androidx.compose.ui.test.performTextClearance
+import androidx.compose.ui.test.assertTextEquals
 
 /** The browser lists every card, narrows them by search and group, opens one for its history, and suspends or resets a selection. */
 @OptIn(ExperimentalTestApi::class)
@@ -286,6 +288,23 @@ class BrowseFlashcardsScreenTest {
         onNodeWithTag("detail-sentence").performFirstLinkClick { (it.item as? LinkAnnotation.Clickable)?.tag == "pão" }
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.detail?.wordRange == 12 until 15 }
         assertEquals("pão", runBlocking { terms.getById(comprar)!!.cardForm })
+    }
+
+    /** The details show the sentence's translation kept with the word, and it is written over by hand there. */
+    @Test
+    fun theSentencesTranslationIsWrittenByHand() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show { runBlocking { terms.updateSentenceTranslation(comprar, "I'll buy bread.") } }
+        onNodeWithTag("browse-row-$comprar").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("detail-translation").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("detail-translation").assertTextEquals("I'll buy bread.")
+        onNodeWithTag("translation-edit").performClick()
+        onNodeWithTag("translation-field").performTextClearance()
+        onNodeWithTag("translation-field").performTextInput("Я куплю хлеб.")
+        onNodeWithTag("translation-save").performClick()
+        waitUntil(timeoutMillis = 5_000) { runBlocking { terms.getById(comprar)!!.sentenceTranslation } == "Я куплю хлеб." }
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.detail?.row?.sentenceTranslation == "Я куплю хлеб." }
+        onNodeWithTag("detail-translation").assertTextEquals("Я куплю хлеб.")
+        saveTop("BROWSE_TRANSLATION_SCREENSHOT")
     }
 
     /** The sentence the card is built on can be changed in the card info, in place. */

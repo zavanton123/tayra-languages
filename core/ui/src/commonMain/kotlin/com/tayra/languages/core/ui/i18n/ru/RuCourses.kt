@@ -257,4 +257,5 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Total cards" to "Всего карточек",
     "Click another word to hide it on the card instead." to "Нажмите на другое слово, чтобы на карточке скрывалось оно.",
     "Tap another word to hide it on the card instead." to "Коснитесь другого слова, чтобы на карточке скрывалось оно.",
+    "Edit translation" to "Изменить перевод",
 )

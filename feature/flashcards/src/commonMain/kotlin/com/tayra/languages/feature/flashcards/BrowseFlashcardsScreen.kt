@@ -84,6 +84,7 @@ import com.tayra.languages.core.ui.components.ChipSize
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.EscapeStaysOnPage
+import com.tayra.languages.core.ui.components.IconButtonSize
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.ListPager
@@ -167,6 +168,7 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
         onDelete = { confirmDelete = it.toList() },
         onReview = { onNavigate(Route.Flashcards) },
         onSaveSentence = viewModel::saveSentence,
+        onSaveTranslation = viewModel::saveSentenceTranslation,
         onPickWord = viewModel::chooseHiddenWord,
         onImportAnki = { ankiPicker.launch() },
     )
@@ -208,6 +210,7 @@ fun FlashcardDetails(
         onReset = { confirmReset = it.toList() },
         onDelete = { confirmDelete = it.toList() },
         onSaveSentence = viewModel::saveSentence,
+        onSaveTranslation = viewModel::saveSentenceTranslation,
         onPickWord = viewModel::chooseHiddenWord,
     )
     state.detail?.let { detail ->
@@ -254,7 +257,9 @@ internal class BrowseActions(
     val onDelete: (termIds: Collection<Long>) -> Unit = {},
     val onReview: () -> Unit = {},
     /** Replaces the example sentence of the card's term. */
-    val onSaveSentence: (termId: Long, sentence: String) -> Unit = { _, _ -> },
+    val onSaveSentence: (termId: Long, sentence: String, translation: String?) -> Unit = { _, _, _ -> },
+    /** Writes the translation of the card's sentence by hand; blank has a new one made. */
+    val onSaveTranslation: (termId: Long, translation: String) -> Unit = { _, _ -> },
     /** Makes a word of the sentence the one the card hides. */
     val onPickWord: (termId: Long, form: String) -> Unit = { _, _ -> },
     /** Asks for an Anki package to import. */
@@ -652,7 +657,7 @@ private fun DetailDialog(detail: BrowseDetail, now: Instant, actions: BrowseActi
             AppDivider()
             ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                 CardHeading(row)
-                SentenceBox(row, detail.wordRange, compact = false, actions.onSaveSentence, actions.onPickWord)
+                SentenceBox(row, detail.wordRange, detail.translating, compact = false, actions)
                 BoxWithConstraints(Modifier.fillMaxWidth()) {
                     if (maxWidth >= DETAIL_TWO_COLUMNS) {
                         Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).padding(top = AppSpacing.s)) {
@@ -698,7 +703,7 @@ internal fun DetailScreen(detail: BrowseDetail, now: Instant, actions: BrowseAct
             AppDivider()
             ScrollColumn(Modifier.weight(1f), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                 CardHeading(row)
-                SentenceBox(row, detail.wordRange, compact = true, actions.onSaveSentence, actions.onPickWord)
+                SentenceBox(row, detail.wordRange, detail.translating, compact = true, actions)
                 Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { CardSchedule(row, now, actions) }
                 AppDivider()
                 Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
@@ -783,7 +788,7 @@ private fun ReviewHistory(detail: BrowseDetail, compact: Boolean, modifier: Modi
  * offers to add one either way.
  */
 @Composable
-private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, compact: Boolean, onSave: (termId: Long, sentence: String) -> Unit, onPick: (termId: Long, form: String) -> Unit) {
+private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, translating: Boolean, compact: Boolean, actions: BrowseActions) {
     val colors = MaterialTheme.colorScheme
     val direction = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val sentenceStyle = AppText.cardSentence(if (compact) 22f else 28f, FontWeight.SemiBold).copy(color = colors.onSurface, textDirection = direction)
@@ -796,7 +801,7 @@ private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, compact: Boolean, 
             word = row.word,
             sentence = row.sentence,
             translation = null,
-            onReplace = { sentence, _ -> choosing = false; onSave(row.termId, sentence) },
+            onReplace = { sentence, translation -> choosing = false; actions.onSaveSentence(row.termId, sentence, translation) },
             onDismiss = { choosing = false },
         )
     }
@@ -816,7 +821,7 @@ private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, compact: Boolean, 
                 )
                 Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.End)) {
                     QuietButton(tr("Cancel"), onClick = { editing = false })
-                    PrimaryButton(tr("Save"), onClick = { onSave(row.termId, draft); editing = false }, modifier = Modifier.testTag("sentence-save"))
+                    PrimaryButton(tr("Save"), onClick = { actions.onSaveSentence(row.termId, draft, null); editing = false }, modifier = Modifier.testTag("sentence-save"))
                 }
             }
             sentence == null -> Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
@@ -831,7 +836,7 @@ private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, compact: Boolean, 
                 horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
             ) {
                 val hover = SpanStyle(color = colors.primary, textDecoration = TextDecoration.Underline)
-                Text(markWord(sentence, wordRange, hover) { onPick(row.termId, it) }, Modifier.weight(1f).testTag("detail-sentence"), style = sentenceStyle)
+                Text(markWord(sentence, wordRange, hover) { actions.onPickWord(row.termId, it) }, Modifier.weight(1f).testTag("detail-sentence"), style = sentenceStyle)
                 AppIconButton(AppIcons.Sync, contentDescription = tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), style = IconButtonStyle.Outlined)
                 AppIconButton(Icons.Default.Edit, contentDescription = tr("Edit sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), style = IconButtonStyle.Outlined)
             }
@@ -842,6 +847,46 @@ private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, compact: Boolean, 
                 style = MaterialTheme.typography.bodySmall,
                 color = colors.onSurfaceVariant,
             )
+        }
+        if (!editing && sentence != null) SentenceTranslation(row, translating, compact, actions.onSaveTranslation)
+    }
+}
+
+/** The sentence's translation as the card shows it, with a pencil to write it by hand; emptied, a new one is made. */
+@Composable
+private fun SentenceTranslation(row: BrowseRow, translating: Boolean, compact: Boolean, onSave: (termId: Long, translation: String) -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    var editing by remember(row.termId) { mutableStateOf(false) }
+    var draft by remember(row.termId, editing) { mutableStateOf(row.sentenceTranslation.orEmpty()) }
+    val translation = row.sentenceTranslation
+    val style = AppText.cardTranslation(compact)
+    Column(Modifier.fillMaxWidth().padding(top = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        Text(tr("Translation"), style = MaterialTheme.typography.titleSmall, color = colors.onSurfaceVariant)
+        if (editing) {
+            AppTextField(
+                value = draft,
+                onValueChange = { draft = it },
+                modifier = Modifier.fillMaxWidth().testTag("translation-field"),
+                placeholder = { Text(tr("Translation")) },
+                textStyle = MaterialTheme.typography.bodyLarge,
+                minLines = 2,
+            )
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.End)) {
+                QuietButton(tr("Cancel"), onClick = { editing = false })
+                PrimaryButton(tr("Save"), onClick = { onSave(row.termId, draft); editing = false }, modifier = Modifier.testTag("translation-save"))
+            }
+        } else {
+            Row(
+                Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.surfaceVariant.copy(alpha = AppAlpha.disabled)).padding(start = AppSpacing.l, end = AppSpacing.xs, top = AppSpacing.xs, bottom = AppSpacing.xs),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text(
+                    translation ?: if (translating) tr("Translating…") else tr("No translation available"),
+                    Modifier.weight(1f).padding(vertical = AppSpacing.s).testTag("detail-translation"),
+                    style = style.copy(color = if (translation != null) colors.onSurfaceVariant else colors.outline),
+                )
+                AppIconButton(Icons.Default.Edit, contentDescription = tr("Edit translation"), onClick = { editing = true }, modifier = Modifier.testTag("translation-edit"), size = IconButtonSize.Small)
+            }
         }
     }
 }

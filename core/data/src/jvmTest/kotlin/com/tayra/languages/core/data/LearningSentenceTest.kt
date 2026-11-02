@@ -95,9 +95,10 @@ class LearningSentenceTest {
         val id = env.terms.save(Term(languageId = language, text = "tempo", textLc = "tempo", status = TermStatus.NEW_2))
         // A database from before the sentence was stored.
         DriverManager.getConnection("jdbc:sqlite:${env.file.absolutePath}").use {
+            // The newer schema goes first: its triggers name the columns dropped next.
+            it.pretendVersion(7)
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN sentence")
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN anki_exported_at")
-            it.pretendVersion(7)
         }
 
         val reopened = TermRepositoryImpl(DatabaseProvider(DatabaseDriverFactory(env.file)))

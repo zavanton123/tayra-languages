@@ -9,6 +9,7 @@ import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.db.TayraDatabase
 import com.tayra.languages.core.data.db.Terms
 import com.tayra.languages.core.data.db.databaseDispatcher
+import com.tayra.languages.core.domain.model.SentenceToTranslate
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermMatch
 import com.tayra.languages.core.domain.model.TermRef
@@ -209,6 +210,18 @@ class TermRepositoryImpl(
         withContext(databaseDispatcher) { db().termsQueries.updateCardForm(cardForm = form, id = termId) }
     }
 
+    override suspend fun updateSentenceTranslation(termId: Long, translation: String?) {
+        withContext(databaseDispatcher) { db().termsQueries.updateSentenceTranslation(translation = translation, id = termId) }
+    }
+
+    override suspend fun fillSentenceTranslation(termId: Long, sentence: String, translation: String) {
+        withContext(databaseDispatcher) { db().termsQueries.fillSentenceTranslation(translation = translation, id = termId, sentence = sentence) }
+    }
+
+    override suspend fun missingSentenceTranslations(): List<SentenceToTranslate> = withContext(databaseDispatcher) {
+        db().termsQueries.missingSentenceTranslations().awaitAsList().mapNotNull { row -> row.sentence?.let { SentenceToTranslate(row.id, row.language_id, it) } }
+    }
+
     override suspend fun updateSentence(termId: Long, sentence: String?) {
         withContext(databaseDispatcher) { db().termsQueries.updateSentence(sentence = sentence, id = termId) }
     }
@@ -404,7 +417,7 @@ class TermRepositoryImpl(
         romanization = romanization, token_count = token_count, sync_status = sync_status,
         flash_message = flash_message, created_at = created_at, status_changed_at = status_changed_at,
         translation_language = translation_language, sentence = sentence, anki_exported_at = anki_exported_at,
-        updated_at = updated_at, card_form = card_form,
+        updated_at = updated_at, card_form = card_form, sentence_translation = sentence_translation,
     )
 
     private companion object {

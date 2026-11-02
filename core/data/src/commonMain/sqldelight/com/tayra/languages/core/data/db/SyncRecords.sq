@@ -5,20 +5,20 @@
 
 changedTerms:
 SELECT t.id, l.name AS language, t.text, t.text_lc, t.status, t.translation, t.romanization, t.token_count,
-    t.flash_message, t.created_at, t.status_changed_at, t.translation_language, t.sentence, t.updated_at, t.card_form,
+    t.flash_message, t.created_at, t.status_changed_at, t.translation_language, t.sentence, t.updated_at, t.card_form, t.sentence_translation,
     coalesce((SELECT group_concat(p.text_lc, char(31)) FROM term_parents tp JOIN terms p ON p.id = tp.parent_id WHERE tp.term_id = t.id), '') AS parents,
     EXISTS (SELECT 1 FROM level_terms lt WHERE lt.term_id = t.id) AS level
 FROM terms t JOIN languages l ON l.id = t.language_id
 WHERE t.updated_at > :since;
 
 insertTerm:
-INSERT INTO terms(language_id, text, text_lc, status, translation, romanization, token_count, flash_message, created_at, status_changed_at, translation_language, sentence, updated_at, card_form)
-VALUES (:languageId, :text, :textLc, :status, :translation, :romanization, :tokenCount, :flashMessage, :createdAt, :statusChangedAt, :translationLanguage, :sentence, :updatedAt, :cardForm);
+INSERT INTO terms(language_id, text, text_lc, status, translation, romanization, token_count, flash_message, created_at, status_changed_at, translation_language, sentence, updated_at, card_form, sentence_translation)
+VALUES (:languageId, :text, :textLc, :status, :translation, :romanization, :tokenCount, :flashMessage, :createdAt, :statusChangedAt, :translationLanguage, :sentence, :updatedAt, :cardForm, :sentenceTranslation);
 
 updateTerm:
 UPDATE terms SET text = :text, status = :status, translation = :translation, romanization = :romanization, token_count = :tokenCount,
     flash_message = :flashMessage, created_at = :createdAt, status_changed_at = :statusChangedAt, translation_language = :translationLanguage,
-    sentence = :sentence, updated_at = :updatedAt, card_form = :cardForm
+    sentence = :sentence, updated_at = :updatedAt, card_form = :cardForm, sentence_translation = :sentenceTranslation
 WHERE id = :id;
 
 deleteTerm:
@@ -178,7 +178,7 @@ SELECT 1 WHERE
 -- A language's words and what belongs to them, read at once when a pull is applied.
 termsOfLanguage:
 SELECT t.id, l.name AS language, t.text, t.text_lc, t.status, t.translation, t.romanization, t.token_count,
-    t.flash_message, t.created_at, t.status_changed_at, t.translation_language, t.sentence, t.updated_at, t.card_form,
+    t.flash_message, t.created_at, t.status_changed_at, t.translation_language, t.sentence, t.updated_at, t.card_form, t.sentence_translation,
     coalesce((SELECT group_concat(p.text_lc, char(31)) FROM term_parents tp JOIN terms p ON p.id = tp.parent_id WHERE tp.term_id = t.id), '') AS parents,
     EXISTS (SELECT 1 FROM level_terms lt WHERE lt.term_id = t.id) AS level
 FROM terms t JOIN languages l ON l.id = t.language_id

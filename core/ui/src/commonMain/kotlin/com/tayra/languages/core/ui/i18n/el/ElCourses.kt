@@ -257,4 +257,5 @@ internal val elCourses: Map<String, String> = mapOf(
     "Total cards" to "Σύνολο καρτών",
     "Click another word to hide it on the card instead." to "Κάντε κλικ σε άλλη λέξη για να κρυφτεί αυτή στην κάρτα.",
     "Tap another word to hide it on the card instead." to "Πατήστε σε άλλη λέξη για να κρυφτεί αυτή στην κάρτα.",
+    "Edit translation" to "Επεξεργασία μετάφρασης",
 )

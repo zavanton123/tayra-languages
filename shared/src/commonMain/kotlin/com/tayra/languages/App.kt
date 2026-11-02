@@ -60,6 +60,7 @@ import org.koin.compose.viewmodel.koinViewModel
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.domain.flashcards.SentenceTranslations
 
 /**
  * Gives every screen's top bar the choice of the language being learned, and picks a language
@@ -151,6 +152,9 @@ fun App(titleBarInset: Dp = 0.dp) {
         // A theme looked at in the theme list shows over the chosen one, until the choice is made or the list closes.
         var previewThemeId by remember { mutableStateOf<String?>(null) }
         LaunchedEffect(settings.themeId) { previewThemeId = null }
+        // The cards' sentences still without a translation get one, a sentence at a time, while the app runs.
+        val sentenceTranslations = koinInject<SentenceTranslations>()
+        LaunchedEffect(sentenceTranslations) { sentenceTranslations.fillMissing() }
         TayraTheme(AppThemes.byId(previewThemeId ?: settings.themeId), reduceMotion = settings.reduceMotion, learningLevels = settings.showLearningLevels) {
             // Text takes the background's content colour from here, as a Surface would provide it.
             Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) {

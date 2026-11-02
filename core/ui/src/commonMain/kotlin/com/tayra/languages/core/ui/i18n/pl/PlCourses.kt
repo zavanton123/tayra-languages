@@ -257,4 +257,5 @@ internal val plCourses: Map<String, String> = mapOf(
     "Total cards" to "Wszystkie fiszki",
     "Click another word to hide it on the card instead." to "Kliknij inne słowo, aby to ono było ukryte na fiszce.",
     "Tap another word to hide it on the card instead." to "Dotknij inne słowo, aby to ono było ukryte na fiszce.",
+    "Edit translation" to "Edytuj tłumaczenie",
 )

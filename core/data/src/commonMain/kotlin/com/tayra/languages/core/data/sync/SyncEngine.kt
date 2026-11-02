@@ -337,15 +337,16 @@ class SyncEngine(
                         val text = d.string("text") ?: return@write
                         val status = d.long("status") ?: return@write
                         val statusChangedAt = d.long("statusChangedAt") ?: m.updatedAt
-                        // Older versions send no card form: the one chosen here stays.
+                        // Older versions send no card form or sentence translation: the ones here stay.
                         val cardForm = if ("cardForm" in d) d.string("cardForm") else row?.cardForm
+                        val sentenceTranslation = if ("sentenceTranslation" in d) d.string("sentenceTranslation") else row?.sentenceTranslation
                         val id = if (row != null) {
                             q.updateTerm(text, status, d.string("translation"), d.string("romanization"), d.long("tokenCount") ?: 1, d.string("flashMessage"),
-                                d.long("createdAt") ?: m.updatedAt, statusChangedAt, d.string("translationLanguage"), d.string("sentence"), m.updatedAt, cardForm, row.id)
+                                d.long("createdAt") ?: m.updatedAt, statusChangedAt, d.string("translationLanguage"), d.string("sentence"), m.updatedAt, cardForm, sentenceTranslation, row.id)
                             row.id
                         } else {
                             q.insertTerm(languageId, text, textLc, status, d.string("translation"), d.string("romanization"), d.long("tokenCount") ?: 1, d.string("flashMessage"),
-                                d.long("createdAt") ?: m.updatedAt, statusChangedAt, d.string("translationLanguage"), d.string("sentence"), m.updatedAt, cardForm)
+                                d.long("createdAt") ?: m.updatedAt, statusChangedAt, d.string("translationLanguage"), d.string("sentence"), m.updatedAt, cardForm, sentenceTranslation)
                             q.lastInsertId().awaitAsOne().also { here.ids[textLc] = it }
                         }
                         val texts = d.strings("parents")

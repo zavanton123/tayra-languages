@@ -121,10 +121,11 @@ class TranslationLanguageKeeperTest {
         val pt = env.portuguese()
         val id = env.term(pt, "maldição", "curse")
         DriverManager.getConnection("jdbc:sqlite:${env.file.absolutePath}").use {
+            // The newer schema goes first: its triggers name the columns dropped next.
+            it.pretendVersion(5)
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN translation_language")
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN sentence")
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN anki_exported_at")
-            it.pretendVersion(5)
         }
 
         val reopened = Env(env.file)

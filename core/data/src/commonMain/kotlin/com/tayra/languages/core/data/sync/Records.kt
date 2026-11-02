@@ -27,7 +27,7 @@ internal const val LANGUAGE_REMOVED = "language_removed"
 internal data class TermRow(
     val id: Long, val language: String, val text: String, val textLc: String, val status: Long, val translation: String?,
     val romanization: String?, val tokenCount: Long, val flashMessage: String?, val createdAt: Long, val statusChangedAt: Long,
-    val translationLanguage: String?, val sentence: String?, val updatedAt: Long, val cardForm: String?, val parents: String, val level: Boolean,
+    val translationLanguage: String?, val sentence: String?, val updatedAt: Long, val cardForm: String?, val sentenceTranslation: String?, val parents: String, val level: Boolean,
 ) {
     /** Whether it was never saved: left unknown since it was made, as the reader makes the words of a text. */
     val neverSaved: Boolean get() = status == 0L && statusChangedAt <= createdAt
@@ -46,8 +46,9 @@ internal data class TermRow(
         flashMessage?.let { put("flashMessage", it) }
         translationLanguage?.let { put("translationLanguage", it) }
         sentence?.let { put("sentence", it) }
-        // Always sent, null too, so taking the choice back travels; a device that sends none leaves the choice here.
+        // Always sent, null too, so taking them back travels; a device that sends none leaves them as they are here.
         put("cardForm", cardForm)
+        put("sentenceTranslation", sentenceTranslation)
         put("createdAt", createdAt)
         put("parents", buildJsonArray { parents.split(PARENT_SEPARATOR).filter { it.isNotEmpty() }.sorted().forEach { add(JsonPrimitive(it)) } })
         put("level", level)

@@ -257,4 +257,5 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Total cards" to "闪卡总数",
     "Click another word to hide it on the card instead." to "点击另一个词，让闪卡改为隐藏它。",
     "Tap another word to hide it on the card instead." to "轻点另一个词，让闪卡改为隐藏它。",
+    "Edit translation" to "编辑翻译",
 )
