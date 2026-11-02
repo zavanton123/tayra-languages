@@ -608,18 +608,14 @@ private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardAc
         // A phone has the room for the short names only, spread over the width.
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
             FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous"), Modifier.weight(1f), tight = true, enabled = canUndo, onClick = actions.onUndo)
-            PillDivider()
             FooterLink(Icons.Default.Edit, tr("Edit"), Modifier.weight(1f), tight = true, onClick = { actions.onEdit(card.termId) })
-            PillDivider()
             MoreActions(actions, tight = true, Modifier.weight(1f))
         }
         return
     }
-    FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.CenterHorizontally), itemVerticalAlignment = Alignment.CenterVertically) {
+    FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl, Alignment.CenterHorizontally), itemVerticalAlignment = Alignment.CenterVertically) {
         FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous card"), enabled = canUndo, onClick = actions.onUndo)
-        PillDivider()
         FooterLink(Icons.Default.Edit, tr("Edit flashcard"), onClick = { actions.onEdit(card.termId) })
-        PillDivider()
         MoreActions(actions, tight = false)
     }
 }
