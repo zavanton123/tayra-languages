@@ -36,6 +36,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -55,14 +56,21 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.input.key.Key
+import androidx.compose.ui.input.key.KeyEventType
+import androidx.compose.ui.input.key.isShiftPressed
+import androidx.compose.ui.input.key.key
+import androidx.compose.ui.input.key.onPreviewKeyEvent
+import androidx.compose.ui.input.key.type
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.AnnotatedString
-import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.style.TextDecoration
-import androidx.compose.ui.text.TextLinkStyles
 import androidx.compose.ui.text.LinkAnnotation
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.TextLinkStyles
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -128,7 +136,9 @@ import io.github.vinceglb.filekit.dialogs.FileKitType
 import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
 import io.github.vinceglb.filekit.readBytes
 import kotlin.math.roundToInt
+import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Instant
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
@@ -169,6 +179,7 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
         onReview = { onNavigate(Route.Flashcards) },
         onSaveSentence = viewModel::saveSentence,
         onSaveTranslation = viewModel::saveSentenceTranslation,
+        onEditing = viewModel::editingText,
         onPickWord = viewModel::chooseHiddenWord,
         onImportAnki = { ankiPicker.launch() },
     )
@@ -211,6 +222,7 @@ fun FlashcardDetails(
         onDelete = { confirmDelete = it.toList() },
         onSaveSentence = viewModel::saveSentence,
         onSaveTranslation = viewModel::saveSentenceTranslation,
+        onEditing = viewModel::editingText,
         onPickWord = viewModel::chooseHiddenWord,
     )
     state.detail?.let { detail ->
@@ -260,6 +272,8 @@ internal class BrowseActions(
     val onSaveSentence: (termId: Long, sentence: String, translation: String?) -> Unit = { _, _, _ -> },
     /** Writes the translation of the card's sentence by hand; blank has a new one made. */
     val onSaveTranslation: (termId: Long, translation: String) -> Unit = { _, _ -> },
+    /** The card's sentence or its translation is being typed, or no longer is: no translation is made meanwhile. */
+    val onEditing: (termId: Long, editing: Boolean) -> Unit = { _, _ -> },
     /** Makes a word of the sentence the one the card hides. */
     val onPickWord: (termId: Long, form: String) -> Unit = { _, _ -> },
     /** Asks for an Anki package to import. */
@@ -805,24 +819,23 @@ private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, translating: Boole
             onDismiss = { choosing = false },
         )
     }
-    var draft by remember(row.termId, editing) { mutableStateOf(row.sentence.orEmpty()) }
     val sentence = row.sentence
     Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         Text(tr("Example sentence"), style = MaterialTheme.typography.titleSmall, color = colors.onSurfaceVariant)
         when {
             editing -> {
-                AppTextField(
-                    value = draft,
-                    onValueChange = { draft = it },
-                    modifier = Modifier.fillMaxWidth().testTag("sentence-field"),
-                    placeholder = { Text(tr("Example sentence")) },
+                // Cancel puts back the sentence and its translation as they were when the typing began.
+                val original = remember { row.sentence to row.sentenceTranslation }
+                EditingNotice(row.termId, actions.onEditing)
+                AutoSavedField(
+                    initial = row.sentence.orEmpty(),
+                    placeholder = tr("Example sentence"),
                     textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
-                    minLines = 2,
+                    fieldTag = "sentence-field",
+                    onSave = { actions.onSaveSentence(row.termId, it, null) },
+                    onCancel = { actions.onSaveSentence(row.termId, original.first.orEmpty(), original.second); editing = false },
+                    onFinish = { editing = false },
                 )
-                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.End)) {
-                    QuietButton(tr("Cancel"), onClick = { editing = false })
-                    PrimaryButton(tr("Save"), onClick = { actions.onSaveSentence(row.termId, draft, null); editing = false }, modifier = Modifier.testTag("sentence-save"))
-                }
             }
             sentence == null -> Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 QuietButton(tr("Add a sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), icon = Icons.Default.Edit)
@@ -848,33 +861,93 @@ private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, translating: Boole
                 color = colors.onSurfaceVariant,
             )
         }
-        if (!editing && sentence != null) SentenceTranslation(row, translating, compact, actions.onSaveTranslation)
+        if (!editing && sentence != null) SentenceTranslation(row, translating, compact, actions.onSaveTranslation, actions.onEditing)
     }
 }
 
+/** Tells the screen [termId]'s text is being typed while this is shown. */
+@Composable
+private fun EditingNotice(termId: Long, onEditing: (termId: Long, editing: Boolean) -> Unit) {
+    DisposableEffect(termId) {
+        onEditing(termId, true)
+        onDispose { onEditing(termId, false) }
+    }
+}
+
+/**
+ * A field that keeps what is typed: saved a moment after the typing stops, and at once when Enter
+ * ends it ([onFinish]) or the field goes, as with the dialog closed. Cancel saves nothing more and
+ * leaves [onCancel] to put back what was there before.
+ */
+@Composable
+private fun AutoSavedField(
+    initial: String,
+    placeholder: String,
+    textStyle: TextStyle,
+    fieldTag: String,
+    onSave: (String) -> Unit,
+    onCancel: () -> Unit,
+    onFinish: () -> Unit,
+) {
+    var draft by remember { mutableStateOf(initial) }
+    var saved by remember { mutableStateOf(initial) }
+    var cancelled by remember { mutableStateOf(false) }
+    val save by rememberUpdatedState(onSave)
+    val latest by rememberUpdatedState(draft)
+    LaunchedEffect(draft) {
+        if (draft == saved) return@LaunchedEffect
+        delay(AUTOSAVE_DELAY)
+        save(draft)
+        saved = draft
+    }
+    DisposableEffect(Unit) { onDispose { if (!cancelled && latest != saved) save(latest) } }
+    Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        AppTextField(
+            value = draft,
+            onValueChange = { draft = it },
+            modifier = Modifier.fillMaxWidth().testTag(fieldTag).onPreviewKeyEvent { event ->
+                // Enter ends the typing, the text kept; Shift+Enter is left to the field.
+                if (event.type == KeyEventType.KeyDown && event.key == Key.Enter && !event.isShiftPressed) {
+                    onFinish()
+                    true
+                } else {
+                    false
+                }
+            },
+            placeholder = { Text(placeholder) },
+            textStyle = textStyle,
+            minLines = 2,
+        )
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+            QuietButton(tr("Cancel"), onClick = { cancelled = true; onCancel() }, modifier = Modifier.testTag("$fieldTag-cancel"))
+        }
+    }
+}
+
+/** How long typing rests before it is saved. */
+private val AUTOSAVE_DELAY = 500.milliseconds
+
 /** The sentence's translation as the card shows it, with a pencil to write it by hand; emptied, a new one is made. */
 @Composable
-private fun SentenceTranslation(row: BrowseRow, translating: Boolean, compact: Boolean, onSave: (termId: Long, translation: String) -> Unit) {
+private fun SentenceTranslation(row: BrowseRow, translating: Boolean, compact: Boolean, onSave: (termId: Long, translation: String) -> Unit, onEditing: (termId: Long, editing: Boolean) -> Unit) {
     val colors = MaterialTheme.colorScheme
     var editing by remember(row.termId) { mutableStateOf(false) }
-    var draft by remember(row.termId, editing) { mutableStateOf(row.sentenceTranslation.orEmpty()) }
     val translation = row.sentenceTranslation
     val style = AppText.cardTranslation(compact)
     Column(Modifier.fillMaxWidth().padding(top = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         Text(tr("Translation"), style = MaterialTheme.typography.titleSmall, color = colors.onSurfaceVariant)
         if (editing) {
-            AppTextField(
-                value = draft,
-                onValueChange = { draft = it },
-                modifier = Modifier.fillMaxWidth().testTag("translation-field"),
-                placeholder = { Text(tr("Translation")) },
+            val original = remember { translation.orEmpty() }
+            EditingNotice(row.termId, onEditing)
+            AutoSavedField(
+                initial = original,
+                placeholder = tr("Translation"),
                 textStyle = MaterialTheme.typography.bodyLarge,
-                minLines = 2,
+                fieldTag = "translation-field",
+                onSave = { onSave(row.termId, it) },
+                onCancel = { onSave(row.termId, original); editing = false },
+                onFinish = { editing = false },
             )
-            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.End)) {
-                QuietButton(tr("Cancel"), onClick = { editing = false })
-                PrimaryButton(tr("Save"), onClick = { onSave(row.termId, draft); editing = false }, modifier = Modifier.testTag("translation-save"))
-            }
         } else {
             Row(
                 Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.surfaceVariant.copy(alpha = AppAlpha.disabled)).padding(start = AppSpacing.l, end = AppSpacing.xs, top = AppSpacing.xs, bottom = AppSpacing.xs),

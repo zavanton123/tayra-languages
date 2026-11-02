@@ -348,7 +348,20 @@ class BrowseFlashcardsViewModel(
             _state.update { s -> if (s.detail?.row?.termId == termId) s.copy(detail = s.detail.copy(wordRange = range)) else s }
             // A sentence still without its translation gets one, kept with the word.
             val sentence = term?.sentence?.takeIf { it.isNotBlank() }
-            if (sentence != null && term.sentenceTranslation.isNullOrBlank()) translate(termId, sentence, term.languageId)
+            if (sentence != null && term.sentenceTranslation.isNullOrBlank() && typingFor != termId) translate(termId, sentence, term.languageId)
+        }
+    }
+
+    /** The card whose sentence or translation is being typed; no translation is made for it meanwhile. */
+    private var typingFor: Long? = null
+
+    /** [termId]'s sentence or translation is being typed, or the typing ended: then a translation it lacks is made. */
+    fun editingText(termId: Long, editing: Boolean) {
+        if (editing) {
+            typingFor = termId
+        } else if (typingFor == termId) {
+            typingFor = null
+            viewModelScope.launch { refresh() }
         }
     }
 

@@ -63,6 +63,9 @@ import androidx.compose.ui.test.performFirstLinkClick
 import androidx.compose.ui.text.LinkAnnotation
 import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.assertTextEquals
+import androidx.compose.ui.test.performKeyInput
+import androidx.compose.ui.test.pressKey
+import androidx.compose.ui.input.key.Key
 
 /** The browser lists every card, narrows them by search and group, opens one for its history, and suspends or resets a selection. */
 @OptIn(ExperimentalTestApi::class)
@@ -300,11 +303,20 @@ class BrowseFlashcardsScreenTest {
         onNodeWithTag("translation-edit").performClick()
         onNodeWithTag("translation-field").performTextClearance()
         onNodeWithTag("translation-field").performTextInput("Я куплю хлеб.")
-        onNodeWithTag("translation-save").performClick()
+        // Kept as it is typed; Enter ends the typing.
         waitUntil(timeoutMillis = 5_000) { runBlocking { terms.getById(comprar)!!.sentenceTranslation } == "Я куплю хлеб." }
+        onNodeWithTag("translation-field").performKeyInput { pressKey(Key.Enter) }
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.detail?.row?.sentenceTranslation == "Я куплю хлеб." }
         onNodeWithTag("detail-translation").assertTextEquals("Я куплю хлеб.")
         saveTop("BROWSE_TRANSLATION_SCREENSHOT")
+
+        // Cancel puts back the translation from before the typing, though the typing was kept meanwhile.
+        onNodeWithTag("translation-edit").performClick()
+        onNodeWithTag("translation-field").performTextClearance()
+        onNodeWithTag("translation-field").performTextInput("Куплю.")
+        waitUntil(timeoutMillis = 5_000) { runBlocking { terms.getById(comprar)!!.sentenceTranslation } == "Куплю." }
+        onNodeWithTag("translation-field-cancel").performClick()
+        waitUntil(timeoutMillis = 5_000) { runBlocking { terms.getById(comprar)!!.sentenceTranslation } == "Я куплю хлеб." }
     }
 
     /** A term edited over the card's details, as in its editor, shows there as it is now once the editor closes. */
@@ -327,16 +339,21 @@ class BrowseFlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("sentence-edit").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Add a sentence").performClick()
         onNodeWithTag("sentence-field").performTextInput("A casa é grande.")
-        onNodeWithTag("sentence-save").performClick()
+        // Kept as it is typed, with no Save to press; Enter ends the typing.
         waitUntil(timeoutMillis = 5_000) { runBlocking { terms.getById(casa)!!.sentence } == "A casa é grande." }
+        onNodeWithTag("sentence-field").performKeyInput { pressKey(Key.Enter) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("A casa é grande.").fetchSemanticsNodes().size == 2 }
         // The word is marked where the card blanks it out.
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.detail?.wordRange == 2..5 }
         saveTop("BROWSE_SENTENCE_SCREENSHOT")
-        // The pencil now opens the sentence for changing.
+        // The pencil opens the sentence again; what is typed is kept, and Cancel puts the sentence back as it was.
         onNodeWithTag("sentence-edit").performClick()
-        onNodeWithText("Cancel").performClick()
+        onNodeWithTag("sentence-field").performTextClearance()
+        onNodeWithTag("sentence-field").performTextInput("A casa é grande. Muito.")
+        waitUntil(timeoutMillis = 5_000) { runBlocking { terms.getById(casa)!!.sentence } == "A casa é grande. Muito." }
+        onNodeWithTag("sentence-field-cancel").performClick()
         assertEquals(0, onAllNodesWithTag("sentence-field").fetchSemanticsNodes().size)
+        waitUntil(timeoutMillis = 5_000) { runBlocking { terms.getById(casa)!!.sentence } == "A casa é grande." }
     }
 
     /** Opened for a card, as from the review screen's Edit flashcard, the browser shows that card's info. */
