@@ -376,4 +376,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Suspend the card" to "Αναστολή κάρτας",
     "Delete the card" to "Διαγραφή κάρτας",
     "Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it." to "Κάθε λέξη με κατάσταση από 1 έως 4 έχει κάρτα. Η κατάστασή της ανεβαίνει όσο οι επαναλήψεις δείχνουν ότι τη θυμάστε: 2 μόλις μαθευτεί η κάρτα, έπειτα 3, 4 και «Γνωστή» όταν θα τη θυμόσασταν ακόμη μετά από τρεις ημέρες, μία εβδομάδα και δύο εβδομάδες. Μέχρι να γίνει «Γνωστή», η κάρτα της επιστρέφει μέσα σε μία εβδομάδα, οπότε μια λέξη που θυμάστε πάντα γίνεται «Γνωστή» σε περίπου εννέα ημέρες. Αν ξεχάσετε μια επανάληψη, πέφτει ένα επίπεδο. Η κατάσταση που ορίζετε εσείς μένει μέχρι να την αλλάξει μια επανάληψη.",
+    "Type" to "Πληκτρολόγηση",
+    "Answer by" to "Τρόπος απάντησης",
+    "Show the answer, or type or say the hidden word first." to "Εμφανίστε την απάντηση ή πρώτα πληκτρολογήστε ή πείτε την κρυμμένη λέξη.",
 )

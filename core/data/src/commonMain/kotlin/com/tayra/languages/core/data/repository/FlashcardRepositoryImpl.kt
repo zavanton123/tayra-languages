@@ -9,6 +9,7 @@ import com.tayra.languages.core.data.db.Flashcards
 import com.tayra.languages.core.data.db.TayraDatabase
 import com.tayra.languages.core.data.db.databaseDispatcher
 import com.tayra.languages.core.domain.flashcards.CardSchedule
+import com.tayra.languages.core.domain.flashcards.AnswerMode
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.Flashcard
 import com.tayra.languages.core.domain.flashcards.FlashcardReview
@@ -56,6 +57,7 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
                 stateBefore = CardState.of(it.state_before.toInt()),
                 intervalDays = it.interval_days.toInt(),
                 elapsedDays = it.elapsed_days.toInt(),
+                answeredBy = AnswerMode.of(it.answered_by.toInt()),
             )
         }
     }
@@ -121,6 +123,7 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
             stateBefore = review.stateBefore.value.toLong(),
             intervalDays = review.intervalDays.toLong(),
             elapsedDays = review.elapsedDays.toLong(),
+            answeredBy = review.answeredBy.value.toLong(),
         )
     }
 

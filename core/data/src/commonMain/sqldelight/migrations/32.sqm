@@ -1,0 +1,2 @@
+-- How each answer was given: the answer shown, or the word typed or said first.
+ALTER TABLE flashcard_reviews ADD COLUMN answered_by INTEGER NOT NULL DEFAULT 0;

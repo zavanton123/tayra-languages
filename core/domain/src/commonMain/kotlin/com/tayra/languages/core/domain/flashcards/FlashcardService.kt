@@ -153,8 +153,8 @@ class FlashcardService(
         return ordered.mapNotNull { byId[it.termId] }
     }
 
-    /** Answers [card] and moves its term's status with it. */
-    suspend fun answer(card: Flashcard, rating: Rating): Answered? {
+    /** Answers [card], typed or said first as [answeredBy] says, and moves its term's status with it. */
+    suspend fun answer(card: Flashcard, rating: Rating, answeredBy: AnswerMode = AnswerMode.SHOW): Answered? {
         val now = clock.now()
         val term = terms.getById(card.termId) ?: return null
         val config = config()
@@ -170,6 +170,7 @@ class FlashcardService(
                 stateBefore = before.state,
                 intervalDays = if (after.state.isReview) after.intervalDays else 0,
                 elapsedDays = elapsed,
+                answeredBy = answeredBy,
             ),
         )
         // The card records the status it gives the term, so the change is not taken for one made elsewhere.

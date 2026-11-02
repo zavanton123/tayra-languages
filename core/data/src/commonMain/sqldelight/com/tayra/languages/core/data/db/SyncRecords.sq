@@ -54,8 +54,8 @@ SELECT r.*, t.text_lc, l.name AS language FROM flashcard_reviews r JOIN terms t 
 WHERE r.updated_at > :since;
 
 insertReview:
-INSERT INTO flashcard_reviews(term_id, reviewed_at, rating, state_before, interval_days, elapsed_days, updated_at)
-VALUES (:termId, :reviewedAt, :rating, :stateBefore, :intervalDays, :elapsedDays, :updatedAt);
+INSERT INTO flashcard_reviews(term_id, reviewed_at, rating, state_before, interval_days, elapsed_days, updated_at, answered_by)
+VALUES (:termId, :reviewedAt, :rating, :stateBefore, :intervalDays, :elapsedDays, :updatedAt, :answeredBy);
 
 deleteReview:
 DELETE FROM flashcard_reviews WHERE term_id = :termId AND reviewed_at = :reviewedAt;

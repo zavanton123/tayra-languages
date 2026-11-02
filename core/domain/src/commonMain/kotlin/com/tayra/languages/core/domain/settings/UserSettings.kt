@@ -1,5 +1,7 @@
 package com.tayra.languages.core.domain.settings
 
+import com.tayra.languages.core.domain.flashcards.AnswerMode
+
 import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.service.TranslationEngine
 
@@ -74,6 +76,8 @@ data class UserSettings(
     val flashcardAutoplay: Boolean = true,
     /** Answer flashcards with Again and Good only, Hard and Easy left out. */
     val flashcardTwoButtons: Boolean = false,
+    /** How cards are answered on this device: shown, or typed or said first. */
+    val flashcardAnswerMode: AnswerMode = AnswerMode.SHOW,
     /** How many cards a page of the flashcard browser holds. */
     val flashcardBrowsePageSize: Int = 50,
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,

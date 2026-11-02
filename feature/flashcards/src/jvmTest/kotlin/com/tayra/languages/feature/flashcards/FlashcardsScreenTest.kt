@@ -1,5 +1,9 @@
 package com.tayra.languages.feature.flashcards
 
+import androidx.compose.ui.test.performTextClearance
+import androidx.compose.ui.test.performTextInput
+import androidx.compose.ui.test.assertIsSelected
+import com.tayra.languages.core.domain.flashcards.AnswerMode
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.BookService
@@ -100,10 +104,11 @@ class FlashcardsScreenTest {
         translate: suspend (String) -> String? = { "Когда нам нужно что-то купить, мы заходим в супермаркет." },
         /** Saves more words in the language, after the first card's. */
         moreTerms: suspend (languageId: Long) -> Unit = {},
+        answerMode: AnswerMode = AnswerMode.SHOW,
     ): FlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
-            settings.update { it.copy(currentLanguageId = id, nativeLanguage = "ru") }
+            settings.update { it.copy(currentLanguageId = id, nativeLanguage = "ru", flashcardAnswerMode = answerMode) }
             termId = terms.save(Term(languageId = id, text = "comprar", textLc = "comprar", status = TermStatus.NEW_1, translation = "купить, покупать", sentence = sentence))
             moreTerms(id)
             id
@@ -134,7 +139,7 @@ class FlashcardsScreenTest {
                                 FlashcardsContent(
                                     state,
                                     speaker = if (withSpeaker) rememberSpeaker(LocalSpeech(emptyList()), settings) else null,
-                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting),
+                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode),
                                     hotkeys = hotkeys,
                                 )
                             }
@@ -157,6 +162,79 @@ class FlashcardsScreenTest {
     }
 
     private fun status() = runBlocking { terms.getById(termId)!!.status }
+
+    private fun ComposeUiTest.typeAndCheck(text: String) {
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("flashcard-typed").performTextInput(text)
+        onNodeWithTag("flashcard-typed").performKeyInput { pressKey(Key.Enter) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    @Test
+    fun aWordTypedRightSuggestsGoodAndEnterGivesIt() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(answerMode = AnswerMode.TYPE)
+        onNodeWithText("Show answer").assertExists()
+        save("FLASHCARD_TYPING_SCREENSHOT")
+        typeAndCheck("Comprar")
+        onNodeWithText("Correct").assertExists()
+        assertEquals(0, onAllNodesWithTag("flashcard-typed-check").fetchSemanticsNodes().size, "nothing to set right")
+        onNodeWithTag("answer-Good").assertIsSelected()
+        save("FLASHCARD_TYPED_SCREENSHOT")
+        onNodeWithTag("flashcards-keys").performKeyInput { pressKey(Key.Enter) }
+        waitUntil(timeoutMillis = 5_000) { runBlocking { service.reviews(termId) }.isNotEmpty() }
+        val review = runBlocking { service.reviews(termId) }.single()
+        assertEquals(Rating.GOOD, review.rating)
+        assertEquals(AnswerMode.TYPE, review.answeredBy)
+    }
+
+    @Test
+    fun aSlipSuggestsHardAndAWrongWordAgain() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(answerMode = AnswerMode.TYPE)
+        typeAndCheck("cmprar")
+        onNodeWithText("Almost: mind the spelling").assertExists()
+        save("FLASHCARD_SLIP_SCREENSHOT")
+        onNodeWithTag("answer-Hard").assertIsSelected()
+        onNodeWithTag("flashcard-typed-check").assertExists()
+        // Answered Again, the card is the only one left, so it comes straight back: now a wrong word.
+        onNodeWithTag("answer-Again").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isEmpty() }
+        typeAndCheck("compra")
+        onNodeWithText("Not quite").assertExists()
+        onNodeWithTag("answer-Again").assertIsSelected()
+    }
+
+    @Test
+    fun theFieldKeepsTheKeysTypedAndNothingTypedOnlyShowsTheAnswer() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(answerMode = AnswerMode.TYPE)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isNotEmpty() }
+        // The shortcuts' letters are the word's while it is typed.
+        onNodeWithTag("flashcard-typed").performTextInput("sedb")
+        onNodeWithTag("flashcard-typed").assertTextEquals("sedb")
+        onNodeWithText("Check").assertExists()
+        onNodeWithTag("flashcard-typed").performTextClearance()
+        onNodeWithText("Show answer").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithTag("flashcard-verdict").fetchSemanticsNodes().size)
+        onNodeWithTag("answer-Again").assertIsSelected()
+        onNodeWithTag("flashcards-keys").performKeyInput { pressKey(Key.Enter) }
+        waitUntil(timeoutMillis = 5_000) { runBlocking { service.reviews(termId) }.isNotEmpty() }
+        val review = runBlocking { service.reviews(termId) }.single()
+        assertEquals(Rating.AGAIN, review.rating)
+        assertEquals(AnswerMode.SHOW, review.answeredBy, "nothing was typed")
+    }
+
+    @Test
+    fun theSwitchChangesHowCardsAreAnsweredAndIsRemembered() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        assertEquals(0, onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().size)
+        onNodeWithTag("answer-mode-TYPE").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardAnswerMode == AnswerMode.TYPE }
+        onNodeWithTag("answer-mode-SHOW").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isEmpty() }
+        onNodeWithTag("flashcards-keys").performKeyInput { pressKey(Key.Spacebar) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+    }
 
     @Test
     fun aCardHidesItsWordUntilTheAnswerIsShown() = runDesktopComposeUiTest(width = 1586, height = 1000) {

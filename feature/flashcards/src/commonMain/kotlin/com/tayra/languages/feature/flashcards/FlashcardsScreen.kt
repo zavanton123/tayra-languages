@@ -1,5 +1,17 @@
 package com.tayra.languages.feature.flashcards
 
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.ui.input.key.Key
+import androidx.compose.ui.input.key.key
+import androidx.compose.ui.semantics.selected
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.input.ImeAction
+import com.tayra.languages.core.domain.flashcards.AnswerMode
+import com.tayra.languages.core.domain.practice.TypedResult
+import com.tayra.languages.core.ui.components.AnswerModeToggle
+import com.tayra.languages.core.ui.components.AppTextField
+import com.tayra.languages.core.ui.components.SentenceCheck
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -176,6 +188,9 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onBrowse = { onNavigate(Route.BrowseFlashcards()) },
                 onChooseExample = { choosingExample = it },
                 onStartWithoutWaiting = viewModel::startWithoutWaiting,
+                onType = viewModel::type,
+                onCheck = viewModel::check,
+                onAnswerMode = viewModel::setAnswerMode,
             ),
             modifier = Modifier.padding(padding),
             overlay = choosingExample != null || details != null || confirmDelete != null,
@@ -224,6 +239,11 @@ internal class FlashcardActions(
     val onChooseExample: (CardContent) -> Unit = {},
     /** Starts the session before its speech is all made. */
     val onStartWithoutWaiting: () -> Unit = {},
+    val onType: (String) -> Unit = {},
+    /** Checks what was typed and shows the answer; with nothing typed, only shows it. */
+    val onCheck: () -> Unit = {},
+    /** Answers cards another way: shown, or typed or said first. */
+    val onAnswerMode: (AnswerMode) -> Unit = {},
 )
 
 internal val Rating.tint: Color
@@ -243,8 +263,9 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
     val compact = LocalWindowWidth.current.isCompact
     val focus = remember { FocusRequester() }
     // The page holds the keys: it takes them with each card and answer, back when the window or the screen returns to the front, and when a dialog over it closes.
-    LaunchedEffect(state.card?.termId, state.revealed, state.canUndo, overlay) { if (!overlay) runCatching { focus.requestFocus() } }
-    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { runCatching { focus.requestFocus() } }
+    // While the word is typed, its field has them instead.
+    LaunchedEffect(state.card?.termId, state.revealed, state.canUndo, overlay, state.typing) { if (!overlay && !state.typing) runCatching { focus.requestFocus() } }
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { if (!state.typing) runCatching { focus.requestFocus() } }
     val scroll = rememberScrollState()
     Box(modifier.fillMaxSize()) {
         Box(
@@ -253,6 +274,12 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                 .focusRequester(focus).focusable().testTag("flashcards-keys")
                 .onPreviewKeyEvent { event ->
                     if (event.type != KeyEventType.KeyDown) return@onPreviewKeyEvent false
+                    // The keys typed are the word's, but Enter, which checks it.
+                    if (state.typing) {
+                        if (event.key != Key.Enter && event.key != Key.NumPadEnter) return@onPreviewKeyEvent false
+                        actions.onCheck()
+                        return@onPreviewKeyEvent true
+                    }
                     val pressed = HotkeyMatcher.fromEvent(event) ?: return@onPreviewKeyEvent false
                     fun isKey(vararg shortcuts: HotkeyAction) = shortcuts.any { hotkeys[it] == pressed }
                     // Every card is a key away, with one on show or none.
@@ -269,7 +296,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         isKey(HotkeyAction.FLASHCARDS_SUSPEND) -> actions.onSuspend()
                         // Asks first, as from the menu.
                         isKey(HotkeyAction.FLASHCARDS_DELETE) -> actions.onDelete()
-                        isKey(HotkeyAction.FLASHCARDS_SHOW_ANSWER, HotkeyAction.FLASHCARDS_SHOW_ANSWER_ENTER) -> if (state.revealed) actions.onAnswer(Rating.GOOD) else actions.onReveal()
+                        isKey(HotkeyAction.FLASHCARDS_SHOW_ANSWER, HotkeyAction.FLASHCARDS_SHOW_ANSWER_ENTER) -> if (state.revealed) actions.onAnswer(state.suggested ?: Rating.GOOD) else actions.onReveal()
                         !state.revealed -> return@onPreviewKeyEvent false
                         isKey(HotkeyAction.FLASHCARDS_AGAIN) -> actions.onAnswer(Rating.AGAIN)
                         // With two buttons the hidden answers have no keys either, so none is given by accident.
@@ -296,6 +323,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         tr("Flashcards"),
                         subtitle = null,
                     ) {
+                        AnswerModeToggle(state.answerMode, actions.onAnswerMode, NoFocus, modes = state.modes)
                         // The phone's bar carries this button instead.
                         if (!compact) SecondaryButton(tr("Browse flashcards"), onClick = actions.onBrowse, modifier = Modifier.testTag("browse-flashcards"), icon = AppIcons.ViewList)
                     }
@@ -308,14 +336,12 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         Finished(state, actions)
                     } else {
                         // Each card fades in as it comes up, filling the height left to it.
-                        key(card.termId) { Appear(Modifier.weight(1f), grow = true) { WideCard(card, state.revealed, state.canUndo, speaker, actions) } }
+                        key(card.termId) { Appear(Modifier.weight(1f), grow = true) { WideCard(card, state.revealed, state.canUndo, speaker, actions) { AnswerGiven(state, actions, compact = false) } } }
                         // Show answer and the answers share one place at the foot; the answers fade in as the card turns over.
                         if (state.revealed) {
-                            Appear { Answers(actions, compact = false, state.twoButtons, state.waits) }
+                            Appear { Answers(actions, compact = false, state.twoButtons, state.waits, state.suggested) }
                         } else {
-                            PrimaryButton(onClick = actions.onReveal, modifier = Modifier.fillMaxWidth().height(ANSWER_SLOT).then(NoFocus)) {
-                                Text(tr("Show answer"), style = AppText.itemTitle)
-                            }
+                            RevealButton(state, actions, Modifier.fillMaxWidth().height(ANSWER_SLOT))
                         }
                     }
                 }
@@ -348,23 +374,23 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             ScreenHeader(
                 tr("Flashcards"),
                 subtitle = null,
-            )
+            ) {
+                AnswerModeToggle(state.answerMode, actions.onAnswerMode, NoFocus, modes = state.modes, iconsOnly = true)
+            }
             Progress(state, compact = true)
             val card = state.card
             val preparing = state.preparingAudio
             if (preparing != null) PreparingAudio(preparing, actions.onStartWithoutWaiting, compact = true)
             else if (card == null) Finished(state, actions)
-            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, onChooseExample = { actions.onChooseExample(card) }) } }
+            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, onChooseExample = { actions.onChooseExample(card) }) { AnswerGiven(state, actions, compact = true) } } }
         }
         val card = state.card?.takeIf { state.preparingAudio == null } ?: return@Column
         Column(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             // Show answer and the answers share one slot, so the thumb finds them in the same place.
             if (state.revealed) {
-                Appear { Answers(actions, compact = true, state.twoButtons, state.waits) }
+                Appear { Answers(actions, compact = true, state.twoButtons, state.waits, state.suggested) }
             } else {
-                PrimaryButton(onClick = actions.onReveal, modifier = Modifier.fillMaxWidth().heightIn(min = ANSWER_SLOT_COMPACT).then(NoFocus)) {
-                    Text(tr("Show answer"), style = AppText.itemTitle)
-                }
+                RevealButton(state, actions, Modifier.fillMaxWidth().heightIn(min = ANSWER_SLOT_COMPACT))
             }
             CardFooter(card, state.canUndo, actions)
         }
@@ -448,7 +474,7 @@ private fun CountPill(tag: String, count: Int, label: String, tint: Color, large
  * examples for it, beside its sound.
  */
 @Composable
-private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onChooseExample: () -> Unit = {}) {
+private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onChooseExample: () -> Unit = {}, given: @Composable () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val inset = if (compact) AppSpacing.xl else AppSpacing.xxxl
@@ -491,6 +517,7 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
             }
         }
         CardText(card, revealed, compact)
+        given()
         if (revealed) {
             Column(
                 Modifier.fillMaxWidth().padding(top = AppSpacing.xxl, bottom = AppSpacing.xs).testTag("flashcard-answer"),
@@ -565,7 +592,7 @@ private fun CardText(card: CardContent, revealed: Boolean, compact: Boolean) {
  * word under the sentence, its sound above it.
  */
 @Composable
-private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier) {
+private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier, given: @Composable () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     Column(modifier.fillMaxSize().cardSurface(AppShapes.large).padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl).testTag("flashcard")) {
@@ -591,6 +618,7 @@ private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, spe
                 verticalArrangement = Arrangement.Center,
             ) {
                 CardText(card, revealed, compact = false)
+                given()
                 if (revealed) {
                     Column(
                         Modifier.fillMaxWidth().padding(top = AppSpacing.xxl).testTag("flashcard-answer"),
@@ -669,6 +697,60 @@ private fun PartOfSpeech(pos: String) {
     )
 }
 
+/** Show answer, or, while the word is typed, Check; with nothing typed it only shows the answer. */
+@Composable
+private fun RevealButton(state: FlashcardsUiState, actions: FlashcardActions, modifier: Modifier) {
+    val checking = state.cardMode == AnswerMode.TYPE && state.typed.isNotBlank()
+    PrimaryButton(onClick = if (state.cardMode == AnswerMode.TYPE) actions.onCheck else actions.onReveal, modifier = modifier.then(NoFocus).testTag("reveal")) {
+        Text(if (checking) tr("Check") else tr("Show answer"), style = AppText.itemTitle)
+    }
+}
+
+/** The word typed for the blank, as it is typed and, once checked, against the word. */
+@Composable
+private fun AnswerGiven(state: FlashcardsUiState, actions: FlashcardActions, compact: Boolean) {
+    val card = state.card ?: return
+    val hidden = card.hidden ?: return
+    val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
+    when {
+        state.typing -> {
+            val focus = remember { FocusRequester() }
+            LaunchedEffect(card.termId) { runCatching { focus.requestFocus() } }
+            AppTextField(
+                value = state.typed,
+                onValueChange = actions.onType,
+                singleLine = true,
+                placeholder = { Text(tr("Type the word"), Modifier.fillMaxWidth(), textAlign = TextAlign.Center) },
+                textStyle = MaterialTheme.typography.titleMedium.copy(textDirection = direction, textAlign = TextAlign.Center),
+                keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done, autoCorrectEnabled = false),
+                keyboardActions = KeyboardActions(onDone = { actions.onCheck() }),
+                modifier = Modifier.widthIn(max = ANSWER_FIELD_WIDTH).fillMaxWidth().padding(top = if (compact) AppSpacing.l else AppSpacing.xl)
+                    .focusRequester(focus).testTag("flashcard-typed"),
+            )
+        }
+        state.revealed && state.typedResult != null -> TypedVerdict(hidden, state.typed, state.typedResult, compact)
+    }
+}
+
+/** How the word typed compared: right, right but for an accent or a slip, or wrong; short of right, what was typed against the word. */
+@Composable
+private fun TypedVerdict(hidden: String, typed: String, result: TypedResult, compact: Boolean) {
+    val (tint, title) = when (result) {
+        TypedResult.CORRECT -> AppAccents.green to tr("Correct")
+        TypedResult.ALMOST -> AppAccents.amber to tr("Almost: mind the accents")
+        TypedResult.TYPO -> AppAccents.amber to tr("Almost: mind the spelling")
+        TypedResult.WRONG -> AppAccents.red to tr("Not quite")
+    }
+    Column(
+        Modifier.fillMaxWidth().padding(top = if (compact) AppSpacing.l else AppSpacing.xl).testTag("flashcard-verdict"),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.xs),
+    ) {
+        Text(title, style = AppText.itemTitle, color = tint)
+        if (result != TypedResult.CORRECT) SentenceCheck(hidden, typed, Modifier.testTag("flashcard-typed-check"))
+    }
+}
+
 private const val BLANK = "[...]"
 
 private val REVIEW_WIDTH = 1048.dp
@@ -678,6 +760,7 @@ private val ANSWER_SLOT = 76.dp
 private val ANSWER_SLOT_COMPACT = 76.dp
 private val FINISHED_ICON_TILE = 64.dp
 private val PREPARING_BAR_WIDTH = 420.dp
+private val ANSWER_FIELD_WIDTH = 420.dp
 
 /**
  * For the page's buttons: a click does not move the keyboard focus onto them, so it stays with
@@ -688,14 +771,19 @@ private val NoFocus = Modifier.focusProperties { canFocus = false }
 
 /** The answers: all four, or Again and Good only. */
 @Composable
-private fun Answers(actions: FlashcardActions, compact: Boolean, twoButtons: Boolean, waits: Map<Rating, CardWait> = emptyMap()) {
+private fun Answers(actions: FlashcardActions, compact: Boolean, twoButtons: Boolean, waits: Map<Rating, CardWait> = emptyMap(), suggested: Rating? = null) {
     val ratings = if (twoButtons) listOf(Rating.AGAIN, Rating.GOOD) else Rating.entries
     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.s else AppSpacing.l)) {
         ratings.forEach { rating ->
             val tint = rating.tint
             val label = tr(rating.label)
+            // The answer a typed or said word earned stands out, and Enter gives it.
+            val chosen = rating == suggested
             Column(
-                Modifier.weight(1f).heightIn(min = if (compact) ANSWER_SLOT_COMPACT else ANSWER_SLOT).clip(AppShapes.panel).background(tint.copy(alpha = AppAlpha.tint)).border(AppBorders.hairline(tint.copy(alpha = AppAlpha.disabled)), AppShapes.panel)
+                Modifier.weight(1f).heightIn(min = if (compact) ANSWER_SLOT_COMPACT else ANSWER_SLOT).clip(AppShapes.panel)
+                    .background(tint.copy(alpha = if (chosen) AppAlpha.soft else AppAlpha.tint))
+                    .border(if (chosen) AppBorders.selected(tint) else AppBorders.hairline(tint.copy(alpha = AppAlpha.disabled)), AppShapes.panel)
+                    .then(if (chosen) Modifier.semantics { selected = true } else Modifier)
                     .then(NoFocus).clickable(onClickLabel = label) { actions.onAnswer(rating) }.padding(vertical = if (compact) AppSpacing.l else AppSpacing.xl, horizontal = AppSpacing.xs).testTag("answer-${rating.label}"),
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center,

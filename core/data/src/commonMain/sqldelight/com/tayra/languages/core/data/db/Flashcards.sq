@@ -29,7 +29,9 @@ CREATE TABLE flashcard_reviews (
     state_before INTEGER NOT NULL,
     interval_days INTEGER NOT NULL,
     elapsed_days INTEGER NOT NULL,
-    updated_at INTEGER NOT NULL DEFAULT 0
+    updated_at INTEGER NOT NULL DEFAULT 0,
+    -- 0 the answer shown, 1 the word typed first, 2 said first.
+    answered_by INTEGER NOT NULL DEFAULT 0
 );
 
 CREATE INDEX flashcard_reviews_at ON flashcard_reviews(reviewed_at);
@@ -82,8 +84,8 @@ WHERE term_id = :termId;
 -- Reviews
 
 insertReview:
-INSERT INTO flashcard_reviews(term_id, reviewed_at, rating, state_before, interval_days, elapsed_days)
-VALUES (:termId, :reviewedAt, :rating, :stateBefore, :intervalDays, :elapsedDays);
+INSERT INTO flashcard_reviews(term_id, reviewed_at, rating, state_before, interval_days, elapsed_days, answered_by)
+VALUES (:termId, :reviewedAt, :rating, :stateBefore, :intervalDays, :elapsedDays, :answeredBy);
 
 lastReviewId:
 SELECT last_insert_rowid();

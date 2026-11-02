@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.components.AnswerModeToggle
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -59,6 +60,7 @@ fun FlashcardSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vie
                 flashcardRelearnSteps = defaults.flashcardRelearnSteps,
                 flashcardAutoplay = defaults.flashcardAutoplay,
                 flashcardTwoButtons = defaults.flashcardTwoButtons,
+                flashcardAnswerMode = defaults.flashcardAnswerMode,
             )
         }
         Unit
@@ -181,7 +183,10 @@ internal fun StepsRow(title: String, description: String?, saved: String, dense:
 @Composable
 private fun AnswerCard(settings: UserSettings, viewModel: SettingsViewModel) {
     ContentCard(tr("Answer"), tr("What happens when a card's answer is shown."), icon = AppIcons.VolumeUp) {
-        SwitchSetting(tr("Read aloud"), tr("Read the sentence, or the word, when the answer is shown."), settings.flashcardAutoplay) { v ->
+        SettingRow(tr("Answer by"), tr("Show the answer, or type or say the hidden word first."), stackOnCompact = true) {
+            AnswerModeToggle(settings.flashcardAnswerMode, onSelect = { mode -> viewModel.update { it.copy(flashcardAnswerMode = mode) } })
+        }
+        SwitchSetting(tr("Read aloud"), tr("Read the sentence, or the word, when the answer is shown."), settings.flashcardAutoplay, divider = true) { v ->
             viewModel.update { it.copy(flashcardAutoplay = v) }
         }
         SwitchSetting(tr("Two answer buttons"), tr("Answer with Again and Good only; Hard and Easy are left out."), settings.flashcardTwoButtons, divider = true) { v ->

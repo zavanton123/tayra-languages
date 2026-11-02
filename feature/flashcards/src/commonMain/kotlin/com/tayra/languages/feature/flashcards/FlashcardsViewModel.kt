@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
+import com.tayra.languages.core.domain.flashcards.AnswerMode
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.DueCounts
 import com.tayra.languages.core.domain.flashcards.Flashcard
@@ -14,6 +15,8 @@ import com.tayra.languages.core.domain.flashcards.Rating
 import com.tayra.languages.core.domain.flashcards.SentenceTranslations
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.practice.PracticeChecker
+import com.tayra.languages.core.domain.practice.TypedResult
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.SentenceAudio
@@ -60,6 +63,9 @@ data class CardContent(
 ) {
     /** What is read aloud when the answer is shown. */
     val spoken: String get() = sentence ?: word
+
+    /** What fills the blank, as the sentence has it; null for a card without a sentence, whose front shows the word itself. */
+    val hidden: String? get() = sentence?.let { s -> wordRange?.let { s.substring(it) } ?: word }
 }
 
 data class FlashcardsUiState(
@@ -82,7 +88,23 @@ data class FlashcardsUiState(
     val reading: ReadingToContinue? = null,
     /** The session's speech still being made before its first card, so that no card waits for its sound; null once it may start. */
     val preparingAudio: AudioPreparation? = null,
-)
+    /** How cards are answered, as the settings ask. */
+    val answerMode: AnswerMode = AnswerMode.SHOW,
+    /** The ways of answering this device offers. */
+    val modes: List<AnswerMode> = listOf(AnswerMode.SHOW, AnswerMode.TYPE),
+    /** What was typed for the card on show. */
+    val typed: String = "",
+    /** How what was typed compares with the hidden word; null until it is checked. */
+    val typedResult: TypedResult? = null,
+    /** The answer the check suggests, which Enter gives; null when the answer was only shown. */
+    val suggested: Rating? = null,
+) {
+    /** How the card on show is answered: by showing it when it has no blank to fill. */
+    val cardMode: AnswerMode get() = if (card?.hidden == null) AnswerMode.SHOW else answerMode
+
+    /** The hidden word is being typed: the keys are the field's. */
+    val typing: Boolean get() = cardMode == AnswerMode.TYPE && !revealed && card != null && preparingAudio == null
+}
 
 /** How much of the speech the session waits for is made: [ready] of [total], which is 0 while that is still being found out. */
 data class AudioPreparation(val ready: Int, val total: Int)
@@ -201,18 +223,25 @@ class FlashcardsViewModel(
         waitingJob?.cancel()
         val shownBefore = _state.value.card?.termId
         viewModelScope.launch {
+            val mode = settings.current.flashcardAnswerMode.takeIf { it in _state.value.modes } ?: AnswerMode.SHOW
             val session = service.next(languageId, prefer)
             val language = languageId?.let { languages.getById(it) } ?: session.term?.let { languages.getById(it.languageId) }
             current = session.card
             val term = session.term
             val wordRange = term?.let { service.clozeRange(it) }
             val reading = if (session.card == null) lastReading() else null
+            val same = keepAnswer && session.card != null && session.card!!.termId == shownBefore
             _state.update {
                 it.copy(
                     loading = false,
+                    answerMode = mode,
+                    // What was typed stays with the card it was typed for.
+                    typed = if (same) it.typed else "",
+                    typedResult = if (same) it.typedResult else null,
+                    suggested = if (same) it.suggested else null,
                     languageName = language?.name.orEmpty(),
                     card = if (session.card != null && term != null) content(term, language, wordRange, session.card!!.schedule.state) else null,
-                    revealed = keepAnswer && session.card != null && session.card!!.termId == shownBefore,
+                    revealed = same && it.revealed,
                     counts = session.counts,
                     nextLearningAt = session.nextLearningAt,
                     canUndo = answers.isNotEmpty(),
@@ -325,7 +354,8 @@ class FlashcardsViewModel(
     fun reveal() {
         val card = _state.value.card ?: return
         if (_state.value.revealed) return
-        _state.update { it.copy(revealed = true) }
+        // Shown without an answer given, the card was not known.
+        _state.update { it.copy(revealed = true, suggested = it.suggested ?: if (it.cardMode != AnswerMode.SHOW) Rating.AGAIN else null) }
         if (settings.current.flashcardAutoplay) events.trySend(FlashcardsEvent.Speak(card.spoken, card.languageCode))
     }
 
@@ -335,10 +365,34 @@ class FlashcardsViewModel(
         current = null
         events.trySend(FlashcardsEvent.StopSpeaking)
         viewModelScope.launch {
-            service.answer(card, rating)?.let { answers.addLast(it) }
+            val answeredBy = if (_state.value.typedResult != null) AnswerMode.TYPE else AnswerMode.SHOW
+            service.answer(card, rating, answeredBy)?.let { answers.addLast(it) }
             _state.update { it.copy(answered = it.answered + 1) }
             load()
         }
+    }
+
+    /** Answers cards [mode]'s way from now on, here and in the settings; a card being answered another way starts afresh. */
+    fun setAnswerMode(mode: AnswerMode) {
+        if (mode !in _state.value.modes) return
+        viewModelScope.launch { settings.update { it.copy(flashcardAnswerMode = mode) } }
+        _state.update { if (it.revealed) it.copy(answerMode = mode) else it.copy(answerMode = mode, typed = "", typedResult = null, suggested = null) }
+    }
+
+    fun type(text: String) {
+        if (!_state.value.revealed) _state.update { it.copy(typed = text) }
+    }
+
+    /** Checks what was typed against the hidden word and shows the answer, with the rating it earns suggested; nothing typed only shows it. */
+    fun check() {
+        val s = _state.value
+        val hidden = s.card?.hidden ?: return
+        if (s.revealed) return
+        if (s.typed.isNotBlank()) {
+            val result = PracticeChecker.check(hidden, s.typed)
+            _state.update { it.copy(typedResult = result, suggested = suggestion(result, it.twoButtons)) }
+        }
+        reveal()
     }
 
     /**
@@ -395,6 +449,13 @@ class FlashcardsViewModel(
             load()
         }
     }
+}
+
+/** The answer a checked one earns: right is Good, right but for an accent or a slip Hard (Good with two buttons), wrong Again. */
+internal fun suggestion(result: TypedResult, twoButtons: Boolean): Rating = when (result) {
+    TypedResult.CORRECT -> Rating.GOOD
+    TypedResult.ALMOST, TypedResult.TYPO -> if (twoButtons) Rating.GOOD else Rating.HARD
+    TypedResult.WRONG -> Rating.AGAIN
 }
 
 /** How many cards ahead have their sentences translated before they come. */

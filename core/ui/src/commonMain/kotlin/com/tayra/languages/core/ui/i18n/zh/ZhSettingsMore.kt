@@ -376,4 +376,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Suspend the card" to "暂停卡片",
     "Delete the card" to "删除卡片",
     "Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it." to "每个状态为 1 到 4 的单词都有一张卡片。复习表明你记得它时，状态会上升：卡片学会后为 2，之后当你在三天、一周和两周后仍能想起时，依次升为 3、4 和“已掌握”。在单词“已掌握”之前，卡片最多一周就会再次出现，所以一个你每次都记得的单词大约九天就会“已掌握”。复习时遗忘会降低一级。你手动设置的状态会保留，直到复习改变它。",
+    "Type" to "输入",
+    "Answer by" to "回答方式",
+    "Show the answer, or type or say the hidden word first." to "显示答案，或先输入或说出被隐藏的单词。",
 )

@@ -14,6 +14,9 @@ internal fun Connection.pretendVersion(version: Int) {
     if (version <= 29 && createStatement().executeQuery("SELECT count(*) FROM pragma_table_info('flashcards') WHERE name = 'created_at'").use { it.getInt(1) } > 0) {
         createStatement().execute("ALTER TABLE flashcards DROP COLUMN created_at")
     }
+    if (version <= 32 && createStatement().executeQuery("SELECT count(*) FROM pragma_table_info('flashcard_reviews') WHERE name = 'answered_by'").use { it.getInt(1) } > 0) {
+        createStatement().execute("ALTER TABLE flashcard_reviews DROP COLUMN answered_by")
+    }
     if (version <= 31 && createStatement().executeQuery("SELECT count(*) FROM pragma_table_info('terms') WHERE name = 'sentence_translation'").use { it.getInt(1) } > 0) {
         createStatement().execute("DROP TRIGGER IF EXISTS terms_sentence_translation_stale")
         if (version >= 28) {

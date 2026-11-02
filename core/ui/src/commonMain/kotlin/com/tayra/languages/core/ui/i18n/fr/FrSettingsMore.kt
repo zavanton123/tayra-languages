@@ -376,4 +376,7 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Suspend the card" to "Suspendre la carte",
     "Delete the card" to "Supprimer la carte",
     "Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it." to "Chaque mot au statut 1 à 4 a une carte. Son statut monte à mesure que les révisions montrent que vous le retenez : 2 une fois la carte apprise, puis 3, 4 et « Connu » quand vous vous en souviendriez encore après trois jours, une semaine et deux semaines. Tant que le mot n’est pas « Connu », sa carte revient au plus tard au bout d’une semaine : un mot dont vous vous souvenez toujours est « Connu » en neuf jours environ. Un oubli lors d’une révision le fait baisser d’un niveau. Un statut que vous définissez vous-même reste jusqu’à ce qu’une révision le change.",
+    "Type" to "Saisir",
+    "Answer by" to "Répondre en",
+    "Show the answer, or type or say the hidden word first." to "Afficher la réponse, ou d’abord saisir ou dire le mot caché.",
 )

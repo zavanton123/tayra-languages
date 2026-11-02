@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.components.AnswerModeToggle
 import com.tayra.languages.core.ui.components.ScrollColumn
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -97,6 +98,10 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                 Text(tr("Use s, m, h, or d."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = AppSpacing.xs))
             }
             ContentCard(tr("Answer"), subtitle = null, icon = AppIcons.VolumeUp, dense = true) {
+                Text(tr("Answer by"), style = MaterialTheme.typography.titleSmall)
+                AnswerModeToggle(settings.flashcardAnswerMode, onSelect = { mode -> viewModel.update { it.copy(flashcardAnswerMode = mode) } }, fill = true)
+                Text(tr("Show the answer, or type or say the hidden word first."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                AppDivider()
                 SwitchSetting(tr("Read aloud"), tr("Play audio when the answer is shown."), settings.flashcardAutoplay, dense = true) { v ->
                     viewModel.update { it.copy(flashcardAutoplay = v) }
                 }

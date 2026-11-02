@@ -15,6 +15,17 @@ data class Flashcard(
     val createdAt: Instant? = null,
 )
 
+/** How a card is answered: its answer shown, or the word typed or said first. */
+enum class AnswerMode(val value: Int) {
+    SHOW(0),
+    TYPE(1),
+    SPEAK(2);
+
+    companion object {
+        fun of(value: Int): AnswerMode = entries.firstOrNull { it.value == value } ?: SHOW
+    }
+}
+
 /** One answer, kept as history. */
 data class FlashcardReview(
     val id: Long = 0,
@@ -25,6 +36,8 @@ data class FlashcardReview(
     /** The interval the answer gave the card, in days; 0 while it is on steps. */
     val intervalDays: Int,
     val elapsedDays: Int,
+    /** Whether the word was typed or said before the answer was shown. */
+    val answeredBy: AnswerMode = AnswerMode.SHOW,
 )
 
 /** The cards waiting today. */

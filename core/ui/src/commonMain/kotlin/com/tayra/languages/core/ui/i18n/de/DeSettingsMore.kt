@@ -376,4 +376,7 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Suspend the card" to "Karte pausieren",
     "Delete the card" to "Karte löschen",
     "Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it." to "Jedes Wort mit Status 1 bis 4 hat eine Karte. Sein Status steigt, sobald die Wiederholungen zeigen, dass du es behältst: 2, wenn die Karte gelernt ist, dann 3, 4 und „Bekannt“, wenn du dich nach drei Tagen, einer Woche und zwei Wochen noch daran erinnern würdest. Bis das Wort „Bekannt“ ist, kommt seine Karte spätestens nach einer Woche wieder, sodass ein Wort, das du immer weißt, nach etwa neun Tagen „Bekannt“ ist. Wird eine Wiederholung vergessen, sinkt er um eine Stufe. Ein selbst gesetzter Status bleibt, bis eine Wiederholung ihn ändert.",
+    "Type" to "Tippen",
+    "Answer by" to "Antworten durch",
+    "Show the answer, or type or say the hidden word first." to "Die Antwort zeigen oder zuerst das verborgene Wort tippen oder sprechen.",
 )
