@@ -34,6 +34,8 @@ class FlashcardService(
     private val settings: SettingsRepository,
     private val scheduler: FlashcardScheduler = FlashcardScheduler(),
     private val clock: Clock = Clock.System,
+    /** The dictionary forms a lowercase word of a language is a form of, from the installed dictionary; none without one. */
+    private val formLemmas: (suspend (languageId: Long, formLc: String) -> List<String>)? = null,
 ) {
     /** The card to show next with its term and what each answer would do, or no card when the day's work is done. */
     data class Session(
@@ -62,7 +64,7 @@ class FlashcardService(
 
     /** Where the word a card blanks out stands in [term]'s sentence (see [Cloze.cardRange]); null without a sentence or a match. */
     suspend fun clozeRange(term: Term): IntRange? =
-        term.sentence?.trim()?.takeIf { it.isNotEmpty() }?.let { Cloze.cardRange(it, term, terms) }
+        term.sentence?.trim()?.takeIf { it.isNotEmpty() }?.let { Cloze.cardRange(it, term, terms, formLemmas?.let { lemmas -> { form -> lemmas(term.languageId, form) } }) }
 
     /** Gives [termId]'s card [sentence] to blank its word out of; where the word stands in it, null when it does not. */
     suspend fun replaceSentence(termId: Long, sentence: String): IntRange? {

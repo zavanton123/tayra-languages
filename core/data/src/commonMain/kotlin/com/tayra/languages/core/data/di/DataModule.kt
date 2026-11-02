@@ -103,6 +103,7 @@ import com.tayra.languages.core.domain.practice.WordForms
 import com.tayra.languages.core.data.repository.PracticeExampleRepositoryImpl
 import com.tayra.languages.core.domain.flashcards.AnkiArchiveReader
 import com.tayra.languages.core.domain.flashcards.AnkiImportService
+import com.tayra.languages.core.domain.flashcards.DictionaryFormLemmas
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.domain.frequency.VocabularyLevelRepository
 import com.tayra.languages.core.domain.news.NewsFeedReader
@@ -293,7 +294,8 @@ val dataModule: Module = module {
     single { LanguageRemovalService(get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }
     single<VocabularyLevelRepository> { VocabularyLevelRepositoryImpl(get()) }
-    single { FlashcardService(get(), get(), get()) }
+    single { DictionaryFormLemmas(get(), get(), get()) }
+    single { FlashcardService(get(), get(), get(), formLemmas = get<DictionaryFormLemmas>()::lemmas) }
     single<AnkiArchiveReader> { AnkiArchiveReaderImpl() }
     single { AnkiImportService(get(), get(), get(), get(), get()) }
 }

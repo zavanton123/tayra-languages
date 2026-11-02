@@ -1,6 +1,7 @@
 package com.tayra.languages.core.domain.flashcards
 
 import com.tayra.languages.core.domain.model.Term
+import com.tayra.languages.core.domain.morphology.Unicode
 import com.tayra.languages.core.domain.repository.TermRepository
 import kotlin.math.abs
 
@@ -35,10 +36,45 @@ object Cloze {
 
     /**
      * Where a card blanks [term] out of [sentence]: its family's forms first, then a word that only
-     * ends differently ("turma" for "turmas"), as an example chosen for the card may hold.
+     * ends differently ("turma" for "turmas"), as an example chosen for the card may hold; then a
+     * word the dictionary's [lemmas] tie to it ("temia" for "temer"), and last the word that begins
+     * most like it ("sobrou" for "sobrar").
      */
-    suspend fun cardRange(sentence: String, term: Term, terms: TermRepository): IntRange? =
+    suspend fun cardRange(sentence: String, term: Term, terms: TermRepository, lemmas: (suspend (formLc: String) -> List<String>)? = null): IntRange? =
         familyRange(sentence, term, terms) ?: nearRange(sentence, term.displayText)
+            ?: lemmas?.let { lemmaRange(sentence, term.displayText, it) } ?: sharedBeginningRange(sentence, term.displayText)
+
+    /** The first word of [sentence] that shares a dictionary form with the single word [word], either being a form of the other or both of a third. */
+    suspend fun lemmaRange(sentence: String, word: String, lemmas: suspend (formLc: String) -> List<String>): IntRange? {
+        val needle = word.trim().lowercase()
+        if (needle.isEmpty() || needle.any(Char::isWhitespace)) return null
+        suspend fun forms(lc: String) = (lemmas(lc).map { it.lowercase() } + lc).toSet()
+        val own = forms(needle)
+        return WORD.findAll(sentence).firstOrNull { match -> forms(match.value.lowercase()).any { it in own } }?.range
+    }
+
+    /**
+     * The word of [sentence] whose beginning, accents aside, is most like the single word [word]'s:
+     * at least three letters in common and half the longer of the two, the length nearer the word's
+     * on a tie.
+     * Scripts written without spaces are left alone, a run of their text being no word.
+     */
+    fun sharedBeginningRange(sentence: String, word: String): IntRange? {
+        val needle = plain(word.trim())
+        if (needle.isEmpty() || needle.any { it.isWhitespace() || writtenWithoutSpaces(it) }) return null
+        return WORD.findAll(sentence)
+            .map { match -> match to plain(match.value).let { it.commonPrefixWith(needle).length to it.length } }
+            .filter { (_, fit) -> fit.first >= SHARED_MIN && fit.first * 2 >= maxOf(fit.second, needle.length) }
+            .map { (match, fit) -> match to (fit.first to abs(fit.second - needle.length)) }
+            .maxWithOrNull(compareBy<Pair<MatchResult, Pair<Int, Int>>> { it.second.first }.thenByDescending { it.second.second })
+            ?.first?.range
+    }
+
+    /** Lowercase, without the accents its letters carry. */
+    private fun plain(text: String): String = Unicode.nfd(text.lowercase()).filter { Unicode.combiningClass(it) == 0 }
+
+    private fun writtenWithoutSpaces(c: Char): Boolean = c.code in 0x3040..0x30FF || c.code in 0x3400..0x9FFF || c.code in 0xF900..0xFAFF ||
+        c.code in 0x0E00..0x0EFF || c.code in 0x1000..0x109F || c.code in 0x1780..0x17FF
 
     /** The first whole word of [sentence] that starts like the single word [word] and is at most two letters longer or shorter. */
     fun nearRange(sentence: String, word: String): IntRange? {
@@ -54,4 +90,5 @@ object Cloze {
     private val WORD = Regex("""[\p{L}\p{M}\p{Nd}'’-]+""")
     private const val NEAR_MIN = 5
     private const val NEAR_SLACK = 2
+    private const val SHARED_MIN = 3
 }
