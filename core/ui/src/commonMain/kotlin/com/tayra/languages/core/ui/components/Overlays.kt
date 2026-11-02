@@ -86,9 +86,20 @@ fun AppDialogSurface(
     content: @Composable () -> Unit,
 ) {
     Dialog(onDismissRequest = onDismissRequest, properties = DialogProperties(usePlatformDefaultWidth = false, dismissOnClickOutside = dismissible)) {
-        // The same margin on every side: wide enough at the top to clear a title bar the window's content runs under.
-        Surface(modifier.padding(LocalTitleBarInset.current + AppSpacing.l).widthIn(max = maxWidth).fillMaxWidth(), shape = AppShapes.large, color = color, content = content)
+        DialogCard(modifier, maxWidth, color, content)
     }
+}
+
+/** [AppDialogSurface]'s card for a dialog window made elsewhere, such as a navigation destination's. */
+@Composable
+fun DialogCard(
+    modifier: Modifier = Modifier,
+    maxWidth: Dp = AppSizes.dialogWide,
+    color: Color = MaterialTheme.colorScheme.surface,
+    content: @Composable () -> Unit,
+) {
+    // The same margin on every side: wide enough at the top to clear a title bar the window's content runs under.
+    Surface(modifier.padding(LocalTitleBarInset.current + AppSpacing.l).widthIn(max = maxWidth).fillMaxWidth(), shape = AppShapes.large, color = color, content = content)
 }
 
 /** A dialog that fills the screen, as a page of its own over the one under it: a phone's settings. */

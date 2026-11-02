@@ -179,10 +179,12 @@ fun TermFormPanel(
     onDuplicateClick: ((Long) -> Unit)? = null,
     onOpenExamples: ((languageId: Long, text: String) -> Unit)? = null,
     onManageDictionaries: ((languageId: Long) -> Unit)? = null,
+    /** False where the editor's dialog offers the delete in its footer instead. */
+    showDelete: Boolean = true,
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val playback = rememberAudioPlayback()
-    CompositionLocalProvider(LocalRecordingPlayback provides playback) { TermFormContent(state, viewModel, modifier, embedded, onClose, onDuplicateClick, onOpenExamples, onManageDictionaries) }
+    CompositionLocalProvider(LocalRecordingPlayback provides playback) { TermFormContent(state, viewModel, modifier, embedded, onClose, onDuplicateClick, onOpenExamples, onManageDictionaries, showDelete) }
 }
 
 @Composable
@@ -195,6 +197,7 @@ private fun TermFormContent(
     onDuplicateClick: ((Long) -> Unit)?,
     onOpenExamples: ((languageId: Long, text: String) -> Unit)?,
     onManageDictionaries: ((languageId: Long) -> Unit)?,
+    showDelete: Boolean,
 ) {
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.onResumed() }
     val uriHandler = LocalUriHandler.current
@@ -340,7 +343,7 @@ private fun TermFormContent(
             val links: @Composable (Modifier) -> Unit = { m ->
                 if (language != null && !empty) FormCard(m, AppIcons.Link, tr("Dictionaries")) { linksContent() }
             }
-            val delete: @Composable (Modifier) -> Unit = { m -> if (!state.isNew) DeleteCard(m, onClick = { confirmDelete = true }) }
+            val delete: @Composable (Modifier) -> Unit = { m -> if (!state.isNew && showDelete) DeleteCard(m, onClick = { confirmDelete = true }) }
             CompositionLocalProvider(LocalPageSections provides true) {
             if (LocalWindowWidth.current.isCompact) {
                 InformationCard(Modifier.fillMaxWidth(), state, viewModel, direction, focusRequester)
@@ -371,16 +374,20 @@ private fun TermFormContent(
         }
         if (embedded) Spacer(Modifier.height(AppSpacing.xxl))
     }
-    if (confirmDelete) {
-        ConfirmDialog(
-            title = tr("Delete \"{0}\"?", draft.text.replace("\u200B", "")),
-            text = tr("The term and its translation will be removed. This cannot be undone."),
-            confirmLabel = tr("Delete"),
-            destructive = true,
-            onConfirm = { viewModel.delete(); confirmDelete = false },
-            onDismiss = { confirmDelete = false },
-        )
-    }
+    if (confirmDelete) ConfirmDeleteTerm(draft.text, onConfirm = { viewModel.delete(); confirmDelete = false }, onDismiss = { confirmDelete = false })
+}
+
+/** Asks before [text]'s term is deleted. */
+@Composable
+internal fun ConfirmDeleteTerm(text: String, onConfirm: () -> Unit, onDismiss: () -> Unit) {
+    ConfirmDialog(
+        title = tr("Delete \"{0}\"?", text.replace("\u200B", "")),
+        text = tr("The term and its translation will be removed. This cannot be undone."),
+        confirmLabel = tr("Delete"),
+        destructive = true,
+        onConfirm = onConfirm,
+        onDismiss = onDismiss,
+    )
 }
 
 private data class CompactWordSummary(val pronunciation: String?, val firstSense: String?)

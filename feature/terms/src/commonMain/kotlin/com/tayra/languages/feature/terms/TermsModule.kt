@@ -2,14 +2,16 @@ package com.tayra.languages.feature.terms
 
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
+import androidx.compose.ui.window.DialogProperties
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.dialog
 import androidx.navigation.toRoute
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.feature.terms.examples.ExamplesSearchScreen
 import com.tayra.languages.feature.terms.examples.ExamplesSearchViewModel
 import com.tayra.languages.feature.terms.examples.ExampleTerms
-import com.tayra.languages.feature.terms.form.TermEditScreen
+import com.tayra.languages.feature.terms.form.TermEditDestination
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormViewModel
 import com.tayra.languages.feature.terms.list.TermsListViewModel
@@ -37,16 +39,19 @@ fun NavGraphBuilder.termsGraph(navController: NavController) {
         val termIds = route.termIds ?: route.bookId?.let { emptyList() }
         TermsScreen(termIds = termIds, onNavigate = navigate, onBack = if (termIds != null) ({ navController.popBackStack() }) else null)
     }
-    composable<Route.EditTerm> { entry ->
+    // The editor opens over the screen it was opened from; a click beside it keeps what is being typed.
+    val editor = DialogProperties(usePlatformDefaultWidth = false, dismissOnClickOutside = false)
+    val close = { navController.popBackStack(); Unit }
+    dialog<Route.EditTerm>(dialogProperties = editor) { entry ->
         val route = entry.toRoute<Route.EditTerm>()
-        TermEditScreen(TermFormKey.ById(route.termId), navigate, { navController.popBackStack() }, { navController.popBackStack() }, openParent)
+        TermEditDestination(TermFormKey.ById(route.termId), navigate, close, openParent)
     }
-    composable<Route.EditTermByText> { entry ->
+    dialog<Route.EditTermByText>(dialogProperties = editor) { entry ->
         val route = entry.toRoute<Route.EditTermByText>()
-        TermEditScreen(TermFormKey.ByText(route.languageId, route.text), navigate, { navController.popBackStack() }, { navController.popBackStack() }, openParent)
+        TermEditDestination(TermFormKey.ByText(route.languageId, route.text), navigate, close, openParent)
     }
-    composable<Route.NewTerm> {
-        TermEditScreen(TermFormKey.New, navigate, { navController.popBackStack() }, { navController.popBackStack() }, openParent)
+    dialog<Route.NewTerm>(dialogProperties = editor) {
+        TermEditDestination(TermFormKey.New, navigate, close, openParent)
     }
     composable<Route.Examples> { entry ->
         val route = entry.toRoute<Route.Examples>()

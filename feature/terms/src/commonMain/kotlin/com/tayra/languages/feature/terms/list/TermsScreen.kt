@@ -1,13 +1,13 @@
 package com.tayra.languages.feature.terms.list
 
 import com.tayra.languages.feature.terms.form.TermFormKey
+import com.tayra.languages.feature.terms.form.TERM_DIALOG_WIDTH
 import com.tayra.languages.feature.terms.form.TermEditScreen
 import com.tayra.languages.core.ui.components.AppDialogSurface
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.safeDrawing
-import androidx.compose.ui.unit.Dp
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.components.ActiveFilterSummary
 import com.tayra.languages.core.ui.components.chosenFor
@@ -229,7 +229,8 @@ fun TermsScreen(
         AppDialogSurface(
             onDismissRequest = { editing = null },
             modifier = Modifier.fillMaxHeight().windowInsetsPadding(WindowInsets.safeDrawing).testTag("term-dialog"),
-            maxWidth = Dp.Infinity,
+            maxWidth = TERM_DIALOG_WIDTH,
+            dismissible = false,
         ) {
             TermEditScreen(
                 key,

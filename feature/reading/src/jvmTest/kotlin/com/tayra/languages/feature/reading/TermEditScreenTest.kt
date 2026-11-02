@@ -1,6 +1,8 @@
 package com.tayra.languages.feature.reading
 
 import androidx.compose.ui.test.hasAnyAncestor
+import androidx.compose.ui.test.isDialog
+import androidx.compose.ui.semantics.SemanticsActions
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.hasTestTag
 import org.koin.core.parameter.parametersOf
@@ -60,6 +62,7 @@ import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.feature.terms.examples.ExampleTerms
+import com.tayra.languages.feature.terms.form.TermEditDestination
 import com.tayra.languages.feature.terms.form.TermEditScreen
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormViewModel
@@ -77,6 +80,13 @@ import kotlin.test.assertTrue
 import com.tayra.languages.core.data.repository.PracticeProgressRepositoryImpl
 import com.tayra.languages.core.domain.practice.WordProgress
 import kotlin.time.Instant
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.feature.terms.termsGraph
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.material3.Text
 
 /** The term editor page shows the term, its dictionary entry, examples, status and links, and saves a new status. */
 @OptIn(ExperimentalTestApi::class)
@@ -129,7 +139,7 @@ class TermEditScreenTest {
     }
 
     /** The editor for [word], a Portuguese term being learned, with only the [installed] dictionary of the pair on the device. */
-    private fun ComposeUiTest.openEditor(word: String, installed: DictionaryId, sheet: Boolean = false, practised: List<WordProgress.Answer> = emptyList()): Editor {
+    private fun ComposeUiTest.openEditor(word: String, installed: DictionaryId, sheet: Boolean = false, practised: List<WordProgress.Answer> = emptyList(), asDialog: Boolean = false, navigated: Boolean = false): Editor {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-term-edit", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider)
@@ -189,6 +199,17 @@ class TermEditScreenTest {
                             CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
                                 TermFormPanel(koinViewModel(key = "sheet-$termId") { parametersOf(TermFormKey.ById(termId)) }, embedded = true)
                             }
+                        } else if (navigated) {
+                            // The app's own routes, over a screen that opens the word.
+                            val navController = rememberNavController()
+                            NavHost(navController, startDestination = Route.Home) {
+                                composable<Route.Home> { Text("The screen under") }
+                                termsGraph(navController)
+                            }
+                            LaunchedEffect(Unit) { navController.navigate(Route.EditTerm(termId)) }
+                        } else if (asDialog) {
+                            // As the navigation's dialog window holds it, over the screen it was opened from.
+                            TermEditDestination(TermFormKey.ById(termId), onNavigate = {}, onClose = { opened.done = true }, onOpenParent = { _, _ -> })
                         } else {
                             TermEditScreen(TermFormKey.ById(termId), onNavigate = {}, onBack = {}, onDone = { opened.done = true }, onOpenParent = { _, _ -> })
                         }
@@ -198,6 +219,37 @@ class TermEditScreenTest {
         }
 
         return opened
+    }
+
+    /** Over another screen the editor is a dialog: its title and close above, its delete beside Cancel and Save below, once. */
+    @Test
+    fun theEditorOpensAsADialog() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val editor = openEditor("semana", DictionaryId("pt", "en"), asDialog = true)
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Term information")).fetchSemanticsNodes().isNotEmpty() }
+        onNode(hasText("Edit term")).assertExists()
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("a week's wages")).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, onAllNodes(hasText("Delete term")).fetchSemanticsNodes().size)
+        onNode(hasText("Save changes")).assertExists()
+        System.getenv("TERM_DIALOG_SCREENSHOT")?.let { save(it) }
+        onNode(hasText("Delete term")).performClick()
+        onNode(hasText("Delete \"semana\"?")).assertExists()
+        onNode(hasText("Cancel") and hasAnyAncestor(isDialog())).performClick()
+        onNode(hasTestTag("term-dialog-close")).performClick()
+        assertTrue(editor.done)
+    }
+
+    /** Opened by its route, the editor is a dialog over the screen that opened it, and closing it goes back to that screen. */
+    @Test
+    fun theEditorRouteOpensOverTheScreenUnder() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        openEditor("semana", DictionaryId("pt", "en"), navigated = true)
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Term information")).fetchSemanticsNodes().isNotEmpty() }
+        onNode(hasText("Edit term") and hasAnyAncestor(isDialog())).assertExists()
+        onNode(hasText("The screen under")).assertExists()
+        // Navigation pops only on the main thread, where the app's clicks come.
+        val close = onNode(hasTestTag("term-dialog-close")).fetchSemanticsNode()
+        runOnUiThread { close.config[SemanticsActions.OnClick].action?.invoke() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Term information")).fetchSemanticsNodes().isEmpty() }
+        onNode(hasText("The screen under")).assertExists()
     }
 
     /** In the phone reader's sheet, the word's pronunciation and its first dictionary sense show at once, above the dictionary. */
