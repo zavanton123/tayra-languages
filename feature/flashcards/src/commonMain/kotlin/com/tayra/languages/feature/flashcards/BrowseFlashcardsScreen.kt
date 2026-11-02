@@ -20,6 +20,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyListState
@@ -44,7 +45,14 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.geometry.Rect
+import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
@@ -72,6 +80,7 @@ import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.EscapeStaysOnPage
 import com.tayra.languages.core.ui.components.IconButtonStyle
+import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.ListPager
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
@@ -83,6 +92,7 @@ import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SelectMenu
 import com.tayra.languages.core.ui.components.SelectableChip
 import com.tayra.languages.core.ui.components.SelectionBar
 import com.tayra.languages.core.ui.components.StatusPill
@@ -90,6 +100,9 @@ import com.tayra.languages.core.ui.components.TableHeader
 import com.tayra.languages.core.ui.components.TableHeaderCell
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.TagSize
+import com.tayra.languages.core.ui.components.TintedSurface
+import com.tayra.languages.core.ui.components.animatedCount
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.formatDate
 import com.tayra.languages.core.ui.components.itemMotion
 import com.tayra.languages.core.ui.components.relativeTo
@@ -203,14 +216,13 @@ internal class BrowseActions(
 private val DETAIL_DIALOG_WIDTH = 820.dp
 /** Narrower than this, the dialog's schedule and history stack rather than stand side by side. */
 private val DETAIL_TWO_COLUMNS = 640.dp
-private val SEARCH_WIDTH = 560.dp
 
 /** The page: heading, search, the groups, the selection's actions and the table. */
 @Composable
 private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewModel, actions: BrowseActions, modifier: Modifier) {
     val list = rememberLazyListState()
-    // Heading, toolbar, groups, the selection's actions when there is a selection, and the table header come before the rows.
-    val rowsBefore = if (state.selected.isNotEmpty()) 5 else 4
+    // Heading, the figures, toolbar, groups, the selection's actions when there is a selection, and the table header come before the rows.
+    val rowsBefore = if (state.selected.isNotEmpty()) 6 else 5
     FocusRow(state, state.pageRows, list, rowsBefore, onShown = viewModel::focusShown)
     // A new page starts at its first card, under the table's header.
     var shownPage by remember { mutableStateOf(state.page) }
@@ -228,11 +240,13 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
                 ) {
                     Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                         if (state.canImportAnki) SecondaryButton(tr("Import from Anki"), onClick = actions.onImportAnki, modifier = Modifier.testTag("import-anki"), icon = AppIcons.UploadFile)
-                        PrimaryButton(tr("Review cards"), onClick = actions.onReview, icon = AppIcons.Style)
+                        val due = state.counts.due
+                        PrimaryButton(if (due > 0) tr("Review {0} due", due) else tr("Review cards"), onClick = actions.onReview, icon = AppIcons.Style)
                     }
                 }
             }
         }
+        item { BrowseFigures(state, viewModel::setView) }
         item { Toolbar(state, viewModel) }
         item { ViewChips(state, viewModel::setView, Modifier.fillMaxWidth().padding(bottom = AppSpacing.l)) }
         if (state.selected.isNotEmpty()) item { CardSelectionBar(state, viewModel, actions) }
@@ -240,11 +254,16 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
             state.loading -> item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = MaterialTheme.colorScheme.onSurfaceVariant) }
             state.rows.isEmpty() -> item { EmptyCards(state) }
             else -> {
-                item { CardTableHeader(state, viewModel) }
-                itemsIndexed(state.pageRows, key = { _, row -> row.termId }) { index, row -> Column(itemMotion()) {
+                // The header, the rows and the pager make one card, each drawing its part of the outline.
+                item { CardTableHeader(state, viewModel, Modifier.tableFrame(TableSlice.TOP)) }
+                itemsIndexed(state.pageRows, key = { _, row -> row.termId }) { index, row -> Column(itemMotion().tableFrame(TableSlice.MIDDLE)) {
                     CardTableRow(row, state, index, actions)
                 }}
-                item { ListPager(state.page, state.pageSize, state.rows.size, viewModel::setPageSize, viewModel::goToPage) }
+                item {
+                    Box(Modifier.fillMaxWidth().tableFrame(TableSlice.BOTTOM).padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.m).heightIn(min = AppSpacing.s)) {
+                        ListPager(state.page, state.pageSize, state.rows.size, viewModel::setPageSize, viewModel::goToPage)
+                    }
+                }
             }
         }
     }
@@ -262,11 +281,56 @@ internal fun FocusRow(state: BrowseUiState, rows: List<BrowseRow>, list: LazyLis
     }
 }
 
+/** The three figures that matter most, each a way to its group: every card, those due today, those forgotten before. */
+@Composable
+private fun BrowseFigures(state: BrowseUiState, onSelect: (BrowseView) -> Unit) {
+    Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        val figure = Modifier.weight(1f)
+        Figure(BrowseView.ALL, tr("Total cards"), AppIcons.Style, AppAccents.blue, state, onSelect, figure)
+        Figure(BrowseView.DUE, tr("Due today"), AppIcons.Schedule, AppAccents.green, state, onSelect, figure)
+        Figure(BrowseView.FORGOTTEN, tr("Forgotten before"), AppIcons.History, AppAccents.red, state, onSelect, figure)
+    }
+}
+
+/** One figure: its number over its name, ringed while its group is the one shown. */
+@Composable
+private fun Figure(view: BrowseView, label: String, icon: ImageVector, tint: Color, state: BrowseUiState, onSelect: (BrowseView) -> Unit, modifier: Modifier) {
+    val shown = state.view == view
+    TintedSurface(
+        tint,
+        modifier.clip(AppShapes.card).then(if (shown) Modifier.border(AppBorders.selected(tint), AppShapes.card) else Modifier)
+            .clickable(onClickLabel = label) { onSelect(view) }.testTag("browse-figure-${view.name}"),
+        shape = AppShapes.card,
+        padding = PaddingValues(horizontal = AppSpacing.xl, vertical = AppSpacing.l),
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+            IconTile(icon, size = 48, tint = tint)
+            Column {
+                Text("${animatedCount(state.counts[view])}", style = AppText.headline)
+                Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+        }
+    }
+}
+
+/** The search and the sort on a card of their own, with how many cards there are or are chosen. */
 @Composable
 private fun Toolbar(state: BrowseUiState, viewModel: BrowseFlashcardsViewModel) {
-    Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        CardSearchField(state.search, viewModel::setSearch, Modifier.width(SEARCH_WIDTH))
-        Spacer(Modifier.weight(1f))
+    Row(
+        Modifier.fillMaxWidth().padding(bottom = AppSpacing.l).cardSurface(AppShapes.card).padding(AppSpacing.m),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+    ) {
+        CardSearchField(state.search, viewModel::setSearch, Modifier.weight(1f))
+        SelectMenu(
+            options = BrowseSortField.entries,
+            selected = state.sort.field,
+            onSelect = viewModel::sortBy,
+            optionLabel = { it.label },
+            value = tr("Sort: {0}", state.sort.field.label),
+            icon = if (state.sort.ascending) AppIcons.ArrowUp else AppIcons.ArrowDown,
+            buttonModifier = Modifier.testTag("browse-sort"),
+        )
         Text(
             if (state.selected.isEmpty()) trPlural(state.rows.size, "{0} card", "{0} cards") else tr("{0} of {1} selected", state.selected.size, state.rows.size),
             style = MaterialTheme.typography.bodyMedium,
@@ -357,9 +421,9 @@ private val LAST_WIDTH = 120.dp
 private val MENU_WIDTH = 48.dp
 
 @Composable
-private fun CardTableHeader(state: BrowseUiState, viewModel: BrowseFlashcardsViewModel) {
+private fun CardTableHeader(state: BrowseUiState, viewModel: BrowseFlashcardsViewModel, modifier: Modifier) {
     val allSelected = state.rows.isNotEmpty() && state.rows.all { it.termId in state.selected }
-    TableHeader {
+    TableHeader(modifier) {
         AppCheckbox(checked = allSelected, onCheckedChange = viewModel::selectAllShown, modifier = Modifier.testTag("browse-select-all"))
         SortHeader(tr("Card"), BrowseSortField.WORD, state.sort, Modifier.weight(CARD_WEIGHT), viewModel::sortBy)
         TableHeaderCell(tr("Sentence"), Modifier.weight(SENTENCE_WEIGHT))
@@ -394,8 +458,12 @@ private fun CardTableRow(row: BrowseRow, state: BrowseUiState, index: Int, actio
         else -> Color.Transparent
     }
     val dim = if (row.suspended) colors.outline else colors.onSurfaceVariant
+    val accent = colors.primary
     Row(
-        Modifier.fillMaxWidth().background(background).hoverable(interaction).clickable { actions.onOpen(row.termId) }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs).testTag("browse-row-${row.termId}"),
+        Modifier.fillMaxWidth().background(background)
+            // The open card's row is marked down its leading edge as well as by its tint.
+            .then(if (open) Modifier.drawBehind { drawRect(accent, size = Size(OPEN_MARK.toPx(), size.height)) } else Modifier)
+            .hoverable(interaction).clickable { actions.onOpen(row.termId) }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs).testTag("browse-row-${row.termId}"),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(row.termId) })
@@ -417,6 +485,49 @@ private fun CardTableRow(row: BrowseRow, state: BrowseUiState, index: Int, actio
         Text("${row.lapses}", Modifier.width(COUNT_WIDTH), style = MaterialTheme.typography.bodyMedium, color = if (row.lapses > 0) AppAccents.red else dim)
         Text(row.lastReview?.relativeTo(state.now) ?: NONE, Modifier.width(LAST_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { RowMenu(row, actions) }
+    }
+}
+
+private val OPEN_MARK = 3.dp
+
+/** Which part of the table's card an item is: its top with the header, a row between, or its foot with the pager. */
+private enum class TableSlice { TOP, MIDDLE, BOTTOM }
+
+/** The table card's corners, as the header's own. */
+private val TABLE_CORNER = 10.dp
+
+/** Draws [slice]'s part of the table card's outline over the item: down both sides, and round the top or the foot. */
+@Composable
+private fun Modifier.tableFrame(slice: TableSlice): Modifier {
+    val border = AppBorders.hairline()
+    return drawWithContent {
+        drawContent()
+        val stroke = border.width.toPx()
+        val left = stroke / 2
+        val right = size.width - stroke / 2
+        val r = TABLE_CORNER.toPx()
+        val path = Path().apply {
+            when (slice) {
+                TableSlice.TOP -> {
+                    val top = stroke / 2
+                    moveTo(left, size.height); lineTo(left, top + r)
+                    arcTo(Rect(left, top, left + 2 * r, top + 2 * r), 180f, 90f, false)
+                    lineTo(right - r, top)
+                    arcTo(Rect(right - 2 * r, top, right, top + 2 * r), 270f, 90f, false)
+                    lineTo(right, size.height)
+                }
+                TableSlice.MIDDLE -> { moveTo(left, 0f); lineTo(left, size.height); moveTo(right, 0f); lineTo(right, size.height) }
+                TableSlice.BOTTOM -> {
+                    val bottom = size.height - stroke / 2
+                    moveTo(left, 0f); lineTo(left, bottom - r)
+                    arcTo(Rect(left, bottom - 2 * r, left + 2 * r, bottom), 180f, -90f, false)
+                    lineTo(right - r, bottom)
+                    arcTo(Rect(right - 2 * r, bottom - 2 * r, right, bottom), 90f, -90f, false)
+                    lineTo(right, 0f)
+                }
+            }
+        }
+        drawPath(path, border.brush, style = Stroke(stroke))
     }
 }
 

@@ -254,4 +254,5 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Delete flashcard" to "Excluir flashcard",
     "Review {0} due" to "Revisar {0} pendentes",
     "Interval {0}" to "Intervalo {0}",
+    "Total cards" to "Total de flashcards",
 )

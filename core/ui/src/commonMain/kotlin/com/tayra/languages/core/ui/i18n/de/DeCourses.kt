@@ -254,4 +254,5 @@ internal val deCourses: Map<String, String> = mapOf(
     "Delete flashcard" to "Karteikarte löschen",
     "Review {0} due" to "{0} fällige wiederholen",
     "Interval {0}" to "Intervall {0}",
+    "Total cards" to "Karteikarten gesamt",
 )

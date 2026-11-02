@@ -254,4 +254,5 @@ internal val plCourses: Map<String, String> = mapOf(
     "Delete flashcard" to "Usuń fiszkę",
     "Review {0} due" to "Powtórz zaległe: {0}",
     "Interval {0}" to "Odstęp {0}",
+    "Total cards" to "Wszystkie fiszki",
 )

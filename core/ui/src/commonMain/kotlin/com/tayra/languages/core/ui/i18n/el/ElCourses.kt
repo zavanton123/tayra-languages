@@ -254,4 +254,5 @@ internal val elCourses: Map<String, String> = mapOf(
     "Delete flashcard" to "Διαγραφή κάρτας",
     "Review {0} due" to "Επανάληψη {0} οφειλόμενων",
     "Interval {0}" to "Διάστημα {0}",
+    "Total cards" to "Σύνολο καρτών",
 )

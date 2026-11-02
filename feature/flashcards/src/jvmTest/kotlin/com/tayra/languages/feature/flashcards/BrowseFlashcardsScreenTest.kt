@@ -201,6 +201,20 @@ class BrowseFlashcardsScreenTest {
         assertEquals(listOf(livro, comprar, casa), viewModel.state.value.rows.map { it.termId })
     }
 
+    /** The figures over the table count their groups and show them when clicked. */
+    @Test
+    fun theFiguresShowTheirGroups() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show()
+        onNodeWithTag("browse-figure-ALL").assertExists()
+        save("BROWSE_DESKTOP_SCREENSHOT")
+        onNodeWithTag("browse-figure-FORGOTTEN").performClick()
+        waitForIdle()
+        assertEquals(BrowseView.FORGOTTEN, viewModel.state.value.view)
+        onNodeWithTag("browse-figure-ALL").performClick()
+        waitForIdle()
+        assertEquals(3, viewModel.state.value.rows.size)
+    }
+
     /** On a desktop, the back a window makes of Escape stays in the browser rather than leaving it. */
     @Test
     fun escapeDoesNotLeaveTheBrowser() = runDesktopComposeUiTest(width = 1586, height = 1000) {

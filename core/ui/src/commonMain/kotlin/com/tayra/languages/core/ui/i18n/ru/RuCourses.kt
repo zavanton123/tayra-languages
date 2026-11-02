@@ -254,4 +254,5 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Delete flashcard" to "Удалить карточку",
     "Review {0} due" to "Повторить: {0}",
     "Interval {0}" to "Интервал {0}",
+    "Total cards" to "Всего карточек",
 )

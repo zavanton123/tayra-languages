@@ -254,4 +254,5 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Delete flashcard" to "删除闪卡",
     "Review {0} due" to "复习 {0} 张到期卡片",
     "Interval {0}" to "间隔 {0}",
+    "Total cards" to "闪卡总数",
 )
