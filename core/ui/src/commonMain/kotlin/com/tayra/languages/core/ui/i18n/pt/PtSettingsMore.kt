@@ -240,7 +240,6 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Answer with Again and Good only; Hard and Easy are left out." to "Responder só com “De novo” e “Bom”; “Difícil” e “Fácil” ficam de fora.",
     "Show only Again and Good." to "Mostrar só “De novo” e “Bom”.",
     "Read the sentence, or the word, when the answer is shown." to "Ler a frase, ou a palavra, quando a resposta aparece.",
-    "Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card." to "Toda palavra com status de 1 a 4 tem um flashcard, e o status acompanha o flashcard: intervalo de um dia ou mais é 2, de uma semana é 3, de três semanas é 4, e de noventa dias é “Conhecida”. Esquecer em uma revisão baixa um nível. O status que você define manualmente prevalece: “Conhecida” ou “Ignorada” aposenta o flashcard.",
 
     // AboutScreen.kt
     "About" to "Sobre",
@@ -376,4 +375,5 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Answer Easy" to "Responder Fácil",
     "Suspend the card" to "Suspender flashcard",
     "Delete the card" to "Excluir flashcard",
+    "Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it." to "Toda palavra com status de 1 a 4 tem um flashcard. O status sobe à medida que as revisões mostram que você se lembra dela: 2 quando o flashcard é aprendido, depois 3, 4 e “Conhecida” quando você ainda se lembraria dela após três dias, uma semana e duas semanas. Até a palavra ser “Conhecida”, o flashcard volta em no máximo uma semana, então uma palavra de que você sempre se lembra fica “Conhecida” em cerca de nove dias. Esquecer em uma revisão baixa um nível. O status que você define manualmente fica até uma revisão mudá-lo.",
 )

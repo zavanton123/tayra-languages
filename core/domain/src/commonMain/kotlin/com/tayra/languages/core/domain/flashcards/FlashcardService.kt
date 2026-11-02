@@ -21,9 +21,12 @@ import kotlin.time.Instant
  * The flashcards of the terms being learned. A term moved to status 1 to 4 gets a card; answering
  * cards schedules them with FSRS and moves the term's status with what the reviews show:
  *
- * - up, as the wait until the next review grows: a day or more is status 2, a week 3, three
- *   weeks 4 and ninety days Known;
+ * - up, as the memory grows (its stability: the days until recall drops to 90%): a learned card
+ *   is status 2, three days 3, a week 4 and two weeks Known;
  * - down one level when a review is forgotten.
+ *
+ * Until its word is Known, a card comes back within a week, so a word remembered every time is
+ * Known in about nine days.
  *
  * A status set by hand leaves the card as it is: a term marked known is still reviewed, as in
  * Anki, and its card goes only with the term.
@@ -126,7 +129,7 @@ class FlashcardService(
             val later = cards.earliestDue(languageId, STEPPING)?.takeIf { it < endOfDay }
             return Session(null, null, emptyMap(), counts, later, now)
         }
-        return Session(card, term, scheduler.outcomes(card.schedule, now, config, fuzz(card)), counts, null, now)
+        return Session(card, term, outcomes(card, term.status, now, config), counts, null, now)
     }
 
     /**
@@ -156,7 +159,7 @@ class FlashcardService(
         val term = terms.getById(card.termId) ?: return null
         val config = config()
         val before = card.schedule
-        val after = scheduler.answer(before, rating, now, config, fuzz(card))
+        val after = outcomes(card, term.status, now, config).getValue(rating)
         val status = statusAfter(term.status, before, after, rating)
         val elapsed = before.lastReview?.let { (scheduler.day(now, config) - scheduler.day(it, config)).coerceAtLeast(0).toInt() } ?: 0
         val reviewId = cards.addReview(
@@ -246,6 +249,13 @@ class FlashcardService(
             .distinctUntilChanged()
     }
 
+    /** What each answer would make of [card], whose word is at [status]: a review that leaves the word short of Known waits a week at most. */
+    private fun outcomes(card: Flashcard, status: TermStatus, now: Instant, config: SchedulerConfig): Map<Rating, CardSchedule> =
+        scheduler.outcomes(card.schedule, now, config, fuzz(card)).mapValues { (rating, after) ->
+            val known = statusAfter(status, card.schedule, after, rating) == TermStatus.WELL_KNOWN
+            if (known || !status.isLearning) after else scheduler.within(after, UNTIL_KNOWN_DAYS, now, config)
+        }
+
     /** The same fuzz for a card until it is answered, so the buttons show the intervals the answers give. */
     private fun fuzz(card: Flashcard): Double = Random(card.termId * 31 + card.schedule.reps).nextDouble()
 
@@ -255,6 +265,9 @@ class FlashcardService(
         /** A card being learned is shown this much early when nothing else is left, as in Anki. */
         private val LEARN_AHEAD = 20.minutes
 
+        /** The longest a review waits while its word is not Known yet. */
+        const val UNTIL_KNOWN_DAYS = 7
+
         /** The scheduling the flashcard settings in [s] ask for. */
         fun schedulerConfig(s: UserSettings) = SchedulerConfig(
             desiredRetention = s.flashcardRetention / 100.0,
@@ -262,14 +275,16 @@ class FlashcardService(
             relearnSteps = LearningSteps.parseOr(s.flashcardRelearnSteps, UserSettings().flashcardRelearnSteps),
         )
 
-        /** The status a review interval of [days] has earned. */
-        fun statusFor(days: Int): TermStatus = when {
-            days >= 90 -> TermStatus.WELL_KNOWN
-            days >= 21 -> TermStatus.LEARNING_4
-            days >= 7 -> TermStatus.LEARNING_3
-            days >= 1 -> TermStatus.NEW_2
-            else -> TermStatus.NEW_1
+        /** The status a learned card has earned with [stabilityDays] of memory. */
+        fun statusFor(stabilityDays: Double): TermStatus = when {
+            stabilityDays >= 14 -> TermStatus.WELL_KNOWN
+            stabilityDays >= 7 -> TermStatus.LEARNING_4
+            stabilityDays >= 3 -> TermStatus.LEARNING_3
+            else -> TermStatus.NEW_2
         }
+
+        /** The status [card] has earned, from its memory, or its interval when it has none. */
+        fun statusFor(card: CardSchedule): TermStatus = statusFor(card.memory?.stability ?: card.intervalDays.toDouble())
 
         private fun oneLower(status: TermStatus): TermStatus = when (status) {
             TermStatus.WELL_KNOWN -> TermStatus.LEARNING_4
@@ -282,7 +297,7 @@ class FlashcardService(
         fun statusAfter(current: TermStatus, before: CardSchedule, after: CardSchedule, rating: Rating): TermStatus {
             if (rating == Rating.AGAIN && before.state.isReview) return oneLower(current)
             if (!after.state.isReview) return current
-            val earned = statusFor(after.intervalDays)
+            val earned = statusFor(after)
             return if (earned.value > current.value) earned else current
         }
     }

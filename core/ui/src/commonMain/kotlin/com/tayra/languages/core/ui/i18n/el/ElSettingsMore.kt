@@ -240,7 +240,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Answer with Again and Good only; Hard and Easy are left out." to "Απάντηση μόνο με «Ξανά» και «Καλό»· τα «Δύσκολο» και «Εύκολο» παραλείπονται.",
     "Show only Again and Good." to "Μόνο «Ξανά» και «Καλό».",
     "Read the sentence, or the word, when the answer is shown." to "Ανάγνωση φωναχτά της πρότασης ή της λέξης όταν εμφανίζεται η απάντηση.",
-    "Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card." to "Κάθε λέξη με κατάσταση από 1 έως 4 έχει κάρτα, και η κατάστασή της ακολουθεί την κάρτα: διάστημα μίας ημέρας ή περισσότερο δίνει 2, μίας εβδομάδας 3, τριών εβδομάδων 4 και ενενήντα ημερών «Γνωστή». Αν ξεχάσετε μια επανάληψη, πέφτει ένα επίπεδο. Η κατάσταση που ορίζετε εσείς υπερισχύει: το «Γνωστή» ή το «Αγνοείται» αποσύρει την κάρτα.",
 
     // AboutScreen.kt
     "About" to "Σχετικά",
@@ -376,4 +375,5 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Answer Easy" to "Απάντηση Εύκολο",
     "Suspend the card" to "Αναστολή κάρτας",
     "Delete the card" to "Διαγραφή κάρτας",
+    "Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it." to "Κάθε λέξη με κατάσταση από 1 έως 4 έχει κάρτα. Η κατάστασή της ανεβαίνει όσο οι επαναλήψεις δείχνουν ότι τη θυμάστε: 2 μόλις μαθευτεί η κάρτα, έπειτα 3, 4 και «Γνωστή» όταν θα τη θυμόσασταν ακόμη μετά από τρεις ημέρες, μία εβδομάδα και δύο εβδομάδες. Μέχρι να γίνει «Γνωστή», η κάρτα της επιστρέφει μέσα σε μία εβδομάδα, οπότε μια λέξη που θυμάστε πάντα γίνεται «Γνωστή» σε περίπου εννέα ημέρες. Αν ξεχάσετε μια επανάληψη, πέφτει ένα επίπεδο. Η κατάσταση που ορίζετε εσείς μένει μέχρι να την αλλάξει μια επανάληψη.",
 )

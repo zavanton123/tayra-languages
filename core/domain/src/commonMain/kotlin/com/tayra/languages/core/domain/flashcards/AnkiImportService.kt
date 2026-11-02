@@ -85,7 +85,7 @@ class AnkiImportService(
             onProgress(index, chosen.size)
             val note = entry.note
             val (schedule, suspended) = schedule(note.card, note.created ?: now, archive.dayZero, config)
-            val earned = if (schedule.state.isReview || schedule.state == CardState.RELEARNING) FlashcardService.statusFor(schedule.intervalDays) else TermStatus.NEW_1
+            val earned = if (schedule.state.isReview || schedule.state == CardState.RELEARNING) FlashcardService.statusFor(schedule) else TermStatus.NEW_1
             val term = stored[entry.language.id to entry.spec.textLc]
             // Read before the word changes: a word made learning gets a plain card of its own as soon as the cards are next looked at.
             val before = term?.let { cards.get(it.id) }

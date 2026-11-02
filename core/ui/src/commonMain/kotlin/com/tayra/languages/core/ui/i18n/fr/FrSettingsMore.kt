@@ -240,7 +240,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Answer with Again and Good only; Hard and Easy are left out." to "Répondre uniquement avec « À revoir » et « Correct » ; « Difficile » et « Facile » sont masqués.",
     "Show only Again and Good." to "Afficher uniquement « À revoir » et « Correct ».",
     "Read the sentence, or the word, when the answer is shown." to "Lire la phrase, ou le mot, quand la réponse s’affiche.",
-    "Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card." to "Chaque mot au statut 1 à 4 a une carte, et son statut suit la carte : un intervalle d’un jour ou plus donne 2, d’une semaine 3, de trois semaines 4, et de quatre-vingt-dix jours « Connu ». Un oubli lors d’une révision le fait baisser d’un niveau. Un statut que vous définissez vous-même l’emporte : « Connu » ou « Ignoré » retire la carte.",
 
     // AboutScreen.kt
     "About" to "À propos",
@@ -376,4 +375,5 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Answer Easy" to "Répondre Facile",
     "Suspend the card" to "Suspendre la carte",
     "Delete the card" to "Supprimer la carte",
+    "Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it." to "Chaque mot au statut 1 à 4 a une carte. Son statut monte à mesure que les révisions montrent que vous le retenez : 2 une fois la carte apprise, puis 3, 4 et « Connu » quand vous vous en souviendriez encore après trois jours, une semaine et deux semaines. Tant que le mot n’est pas « Connu », sa carte revient au plus tard au bout d’une semaine : un mot dont vous vous souvenez toujours est « Connu » en neuf jours environ. Un oubli lors d’une révision le fait baisser d’un niveau. Un statut que vous définissez vous-même reste jusqu’à ce qu’une révision le change.",
 )

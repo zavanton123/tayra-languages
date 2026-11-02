@@ -275,26 +275,30 @@ class FlashcardServiceTest {
     }
 
     @Test
-    fun statusRisesAsTheIntervalGrowsAndDropsALevelWhenForgotten() = runTest {
+    fun statusRisesAsTheMemoryGrowsAndDropsALevelWhenForgotten() = runTest {
         val id = language()
         val lobo = term(id, "lobo")
-        answer(id, lobo, Rating.EASY)
-        // Easy sends a new card about eight days out: a week or more is status 3.
-        assertEquals(TermStatus.LEARNING_3, status(lobo))
+        answer(id, lobo, Rating.GOOD)
+        clock.advance(10.minutes)
+        answer(id, lobo, Rating.GOOD)
+        assertEquals(TermStatus.NEW_2, status(lobo), "a learned card is status 2")
 
+        val learned = clock.now
         val seen = mutableListOf(status(lobo))
-        repeat(6) {
-            clock.now = service.cardFor(lobo)!!.schedule.due + 8.hours
+        while (status(lobo) != TermStatus.WELL_KNOWN && seen.size < 10) {
+            val waiting = service.cardFor(lobo)!!.schedule
+            assertTrue(waiting.intervalDays <= FlashcardService.UNTIL_KNOWN_DAYS, "a word not yet known comes back within a week: $waiting")
+            clock.now = waiting.due + 8.hours
             answer(id, lobo, Rating.GOOD)
             seen += status(lobo)
         }
         assertEquals(seen.sortedBy { it.value }, seen, "the status never falls while the card is remembered: $seen")
-        assertTrue(TermStatus.LEARNING_4 in seen, "three weeks or more is status 4: $seen")
-        assertEquals(TermStatus.WELL_KNOWN, seen.last(), "ninety days or more is known: $seen")
-        // A term the flashcards made known keeps its card.
+        assertEquals(TermStatus.WELL_KNOWN, seen.last(), "remembered every time, a word is known: $seen")
+        assertTrue(clock.now - learned < 14.days, "within two weeks: ${clock.now - learned}")
+        // A term the flashcards made known keeps its card, which waits as long as its memory says.
         val card = service.cardFor(lobo)
         assertNotNull(card)
-        assertTrue(card.schedule.intervalDays >= 90)
+        assertTrue(card.schedule.intervalDays > FlashcardService.UNTIL_KNOWN_DAYS, "${card.schedule}")
 
         clock.now = card.schedule.due + 8.hours
         answer(id, lobo, Rating.AGAIN)
@@ -302,6 +306,17 @@ class FlashcardServiceTest {
         clock.advance(10.minutes)
         answer(id, lobo, Rating.AGAIN)
         assertEquals(TermStatus.LEARNING_4, status(lobo), "failing again while relearning drops no further")
+    }
+
+    @Test
+    fun easyOnANewCardWaitsAWeekAtMost() = runTest {
+        val id = language()
+        val lobo = term(id, "lobo")
+        val easy = service.next(id).outcomes.getValue(Rating.EASY)
+        assertEquals(FlashcardService.UNTIL_KNOWN_DAYS, easy.intervalDays, "the eight days the memory allows are cut to a week")
+        answer(id, lobo, Rating.EASY)
+        assertEquals(easy.due, service.cardFor(lobo)!!.schedule.due, "the answer does what its button showed")
+        assertEquals(TermStatus.LEARNING_4, status(lobo), "a week of memory is status 4")
     }
 
     /** A status set by hand leaves the card as it was: a word marked known or ignored is still reviewed, and its answers move its status again. */
@@ -384,7 +399,7 @@ class FlashcardServiceTest {
         val lobo = term(id, "lobo")
         val before = service.cardFor(lobo)!!
         val answered = answer(id, lobo, Rating.EASY)
-        assertEquals(TermStatus.LEARNING_3, status(lobo))
+        assertEquals(TermStatus.LEARNING_4, status(lobo))
 
         service.undo(answered)
         assertEquals(before, service.cardFor(lobo))

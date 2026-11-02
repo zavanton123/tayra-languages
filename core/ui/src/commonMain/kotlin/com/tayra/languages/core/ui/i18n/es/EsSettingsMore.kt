@@ -240,7 +240,6 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Answer with Again and Good only; Hard and Easy are left out." to "Responde solo con «Otra vez» y «Bien»; «Difícil» y «Fácil» se omiten.",
     "Show only Again and Good." to "Mostrar solo «Otra vez» y «Bien».",
     "Read the sentence, or the word, when the answer is shown." to "Leer en voz alta la frase, o la palabra, al mostrar la respuesta.",
-    "Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card." to "Cada palabra en estado 1 a 4 tiene una tarjeta, y su estado sigue a la tarjeta: una espera de un día o más es 2, de una semana 3, de tres semanas 4 y de noventa días «Conocido». Olvidarla en un repaso la baja un nivel. El estado que pones tú manda: «Conocido» o «Ignorado» retiran la tarjeta.",
 
     // AboutScreen.kt
     "About" to "Acerca de",
@@ -376,4 +375,5 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Answer Easy" to "Responder Fácil",
     "Suspend the card" to "Suspender tarjeta",
     "Delete the card" to "Eliminar tarjeta",
+    "Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it." to "Cada palabra en estado 1 a 4 tiene una tarjeta. Su estado sube a medida que los repasos muestran que la recuerdas: 2 cuando la tarjeta está aprendida, luego 3, 4 y «Conocido» cuando aún la recordarías tras tres días, una semana y dos semanas. Hasta que la palabra es «Conocido», su tarjeta vuelve como mucho en una semana, así que una palabra que siempre recuerdas es «Conocido» en unos nueve días. Olvidarla en un repaso la baja un nivel. El estado que pones tú se mantiene hasta que un repaso lo cambie.",
 )

@@ -84,7 +84,8 @@ class AnkiImportServiceTest {
         left: Int = 0,
         reviews: List<AnkiArchiveReview> = emptyList(),
         deck: String = "Tayra Languages::Portuguese",
-    ) = AnkiArchiveCard(deck, type, queue, due, null, ivl, reps, lapses, left, 40.5.takeIf { type != 0 }, 5.25.takeIf { type != 0 }, reviews.maxOfOrNull { it.at }, reviews)
+        stability: Double = 40.5,
+    ) = AnkiArchiveCard(deck, type, queue, due, null, ivl, reps, lapses, left, stability.takeIf { type != 0 }, 5.25.takeIf { type != 0 }, reviews.maxOfOrNull { it.at }, reviews)
 
     /** A note laid out as Tayra and Language Reactor export them. */
     private fun note(id: Long, word: String, card: AnkiArchiveCard, sentence: String = "", translation: String = "", language: String = "pt", created: String = "") =
@@ -101,7 +102,7 @@ class AnkiImportServiceTest {
         val report = importer.import(ByteArray(0))
         assertEquals(AnkiImportService.Report(added = 1, carded = 0, updated = 0, reviews = 3, unreadable = 0, missingLanguages = emptyList()), report)
         val term = assertNotNull(terms.findByTextLc(pt, "pretendo"))
-        assertEquals(TermStatus.LEARNING_4, term.status, "thirty days earn a 4")
+        assertEquals(TermStatus.WELL_KNOWN, term.status, "forty days of memory are known")
         assertEquals("намереваюсь", term.translation)
         assertEquals("Eu pretendo partir cedo.", term.sentence)
         assertNotNull(term.ankiExportedAt, "in Anki already, so not exported again")
@@ -139,7 +140,7 @@ class AnkiImportServiceTest {
         archive = AnkiArchive(
             dayZero,
             listOf(
-                note(1, "lobo", card(ivl = 10, reps = 6, lapses = 1, reviews = listOf(review("2026-10-20T10:00:00Z", 1, 1, ivl = -600)))),
+                note(1, "lobo", card(ivl = 10, stability = 10.0, reps = 6, lapses = 1, reviews = listOf(review("2026-10-20T10:00:00Z", 1, 1, ivl = -600)))),
                 note(2, "casa", card(ivl = 3, reps = 2)),
                 note(3, "gato", card(type = 1, due = learningDue, ivl = 0, reps = 1, left = 1002)),
             ),
@@ -148,7 +149,7 @@ class AnkiImportServiceTest {
         assertEquals(AnkiImportService.Report(added = 0, carded = 2, updated = 1, reviews = 1, unreadable = 0, missingLanguages = emptyList()), report)
 
         val loboCard = cards.get(lobo)!!
-        assertEquals(TermStatus.LEARNING_3, terms.getById(lobo)!!.status, "raised to what ten days earn")
+        assertEquals(TermStatus.LEARNING_4, terms.getById(lobo)!!.status, "raised to what ten days of memory earn")
         assertEquals(6, loboCard.schedule.reps)
         assertEquals(1, loboCard.schedule.lapses)
         assertEquals(onDay(262), loboCard.schedule.due)
@@ -174,7 +175,7 @@ class AnkiImportServiceTest {
             listOf(
                 AnkiArchiveNote(10, mapOf("Text" to "Ah, desculpa, é a segunda porta à {{c1::direita::справа}}.", "Back Extra" to ""), emptyList(), listOf(card(type = 0, queue = -1, due = 5, ivl = 0, reps = 0))),
                 note(11, "levar", card(ivl = 4, reps = 2)),
-                note(12, "levar", card(ivl = 40, reps = 7)),
+                note(12, "levar", card(ivl = 40, stability = 10.0, reps = 7)),
                 AnkiArchiveNote(13, mapOf("Front" to "hello", "Back" to "olá"), emptyList(), listOf(card())),
                 note(14, "Haus", card(), language = "de"),
             ),

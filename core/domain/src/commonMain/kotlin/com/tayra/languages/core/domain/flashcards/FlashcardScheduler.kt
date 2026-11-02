@@ -148,6 +148,10 @@ class FlashcardScheduler(private val fsrs: Fsrs = Fsrs(), private val timeZone: 
         return mapOf(Rating.AGAIN to again, Rating.HARD to hard, Rating.GOOD to good, Rating.EASY to easy)
     }
 
+    /** [card] coming back at most [days] after [now] when it is a review due later. */
+    fun within(card: CardSchedule, days: Int, now: Instant, config: SchedulerConfig): CardSchedule =
+        if (card.state.isReview && card.intervalDays > days) card.copy(intervalDays = days, due = dayStart(day(now, config) + days, config)) else card
+
     /** Hard repeats the current step; on the first step it waits half-way to the second. */
     private fun hardDelay(steps: List<Duration>, index: Int): Duration? {
         val current = steps.getOrNull(index) ?: return null

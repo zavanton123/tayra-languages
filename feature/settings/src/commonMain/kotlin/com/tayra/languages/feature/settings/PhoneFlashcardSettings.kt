@@ -137,7 +137,7 @@ internal fun HowItWorks() {
         }
         Reveal(open) {
             Text(
-                tr("Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card."),
+                tr("Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it."),
                 Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l),
                 style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,

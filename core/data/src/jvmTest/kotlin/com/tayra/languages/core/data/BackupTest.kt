@@ -66,7 +66,7 @@ class BackupTest {
         env.settings.update { it.copy(flashcardNewPerDay = 7, flashcardLearnSteps = "5m") }
         flashcards.answer(flashcards.next(language).card!!, Rating.EASY)
         val answered = flashcards.cardFor(lobo)!!
-        assertEquals(TermStatus.LEARNING_3, env.terms.getById(lobo)!!.status)
+        assertEquals(TermStatus.LEARNING_4, env.terms.getById(lobo)!!.status)
         val backup = env.backups.create()
 
         // After the backup the card is started over and the settings change.

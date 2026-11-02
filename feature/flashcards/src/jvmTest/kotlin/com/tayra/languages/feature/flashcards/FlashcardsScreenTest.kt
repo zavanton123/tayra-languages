@@ -516,6 +516,6 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Four) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("All done for today").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(TermStatus.LEARNING_3, status())
+        assertEquals(TermStatus.LEARNING_4, status())
     }
 }

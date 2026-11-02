@@ -240,7 +240,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Answer with Again and Good only; Hard and Easy are left out." to "Отвечать только «Снова» и «Хорошо»; «Трудно» и «Легко» скрыты.",
     "Show only Again and Good." to "Только «Снова» и «Хорошо».",
     "Read the sentence, or the word, when the answer is shown." to "Читать вслух предложение или слово, когда показан ответ.",
-    "Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card." to "У каждого слова со статусом от 1 до 4 есть карточка, и статус следует за ней: интервал от дня — 2, от недели — 3, от трёх недель — 4, от девяноста дней — «Знаю». Если при повторении вы забыли слово, статус понижается на один уровень. Статус, заданный вручную, важнее: «Знаю» или «Игнорируется» убирают карточку.",
 
     // AboutScreen.kt
     "About" to "О программе",
@@ -376,4 +375,5 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Answer Easy" to "Ответить «Легко»",
     "Suspend the card" to "Приостановить карточку",
     "Delete the card" to "Удалить карточку",
+    "Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it." to "У каждого слова со статусом от 1 до 4 есть карточка. Статус растёт, когда повторения показывают, что вы помните слово: 2, когда карточка выучена, затем 3, 4 и «Знаю», когда вы вспомнили бы его через три дня, неделю и две недели. Пока слово не стало «Знаю», карточка возвращается не позже чем через неделю, так что слово, которое вы всегда помните, становится «Знаю» примерно за девять дней. Если при повторении вы забыли слово, статус понижается на один уровень. Статус, заданный вручную, сохраняется, пока его не изменит повторение.",
 )

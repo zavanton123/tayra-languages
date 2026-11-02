@@ -240,7 +240,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Answer with Again and Good only; Hard and Easy are left out." to "Odpowiadaj tylko „Powtórz” i „Dobre”; „Trudne” i „Łatwe” są ukryte.",
     "Show only Again and Good." to "Tylko „Powtórz” i „Dobre”.",
     "Read the sentence, or the word, when the answer is shown." to "Czytaj na głos zdanie lub słowo po pokazaniu odpowiedzi.",
-    "Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card." to "Każde słowo ze statusem od 1 do 4 ma fiszkę, a jego status podąża za nią: odstęp od dnia to 2, od tygodnia 3, od trzech tygodni 4, a od dziewięćdziesięciu dni „Znane”. Zapomnienie przy powtórce obniża status o jeden poziom. Status ustawiony ręcznie ma pierwszeństwo: „Znane” lub „Ignorowane” wycofuje fiszkę.",
 
     // AboutScreen.kt
     "About" to "O aplikacji",
@@ -376,4 +375,5 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Answer Easy" to "Odpowiedz Łatwe",
     "Suspend the card" to "Wstrzymaj fiszkę",
     "Delete the card" to "Usuń fiszkę",
+    "Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it." to "Każde słowo ze statusem od 1 do 4 ma fiszkę. Jego status rośnie, gdy powtórki pokazują, że je pamiętasz: 2, gdy fiszka jest wyuczona, potem 3, 4 i „Znane”, gdy przypomnisz je sobie po trzech dniach, tygodniu i dwóch tygodniach. Dopóki słowo nie jest „Znane”, fiszka wraca najpóźniej po tygodniu, więc słowo, które zawsze pamiętasz, staje się „Znane” po około dziewięciu dniach. Zapomnienie przy powtórce obniża status o jeden poziom. Status ustawiony ręcznie zostaje, dopóki nie zmieni go powtórka.",
 )

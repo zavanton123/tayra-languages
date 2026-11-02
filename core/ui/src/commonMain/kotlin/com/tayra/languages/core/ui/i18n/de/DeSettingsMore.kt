@@ -240,7 +240,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Answer with Again and Good only; Hard and Easy are left out." to "Nur mit „Nochmal“ und „Gut“ antworten; „Schwer“ und „Leicht“ entfallen.",
     "Show only Again and Good." to "Nur „Nochmal“ und „Gut“ anzeigen.",
     "Read the sentence, or the word, when the answer is shown." to "Satz oder Wort vorlesen, wenn die Antwort angezeigt wird.",
-    "Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card." to "Jedes Wort mit Status 1 bis 4 hat eine Karte. Sein Status folgt der Karte: ab einem Tag Wartezeit ist er 2, ab einer Woche 3, ab drei Wochen 4 und ab neunzig Tagen „Bekannt“. Wird eine Wiederholung vergessen, sinkt er um eine Stufe. Ein selbst gesetzter Status hat Vorrang: „Bekannt“ oder „Ignoriert“ legt die Karte still.",
 
     // AboutScreen.kt
     "About" to "Über",
@@ -376,4 +375,5 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Answer Easy" to "Mit Leicht antworten",
     "Suspend the card" to "Karte pausieren",
     "Delete the card" to "Karte löschen",
+    "Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it." to "Jedes Wort mit Status 1 bis 4 hat eine Karte. Sein Status steigt, sobald die Wiederholungen zeigen, dass du es behältst: 2, wenn die Karte gelernt ist, dann 3, 4 und „Bekannt“, wenn du dich nach drei Tagen, einer Woche und zwei Wochen noch daran erinnern würdest. Bis das Wort „Bekannt“ ist, kommt seine Karte spätestens nach einer Woche wieder, sodass ein Wort, das du immer weißt, nach etwa neun Tagen „Bekannt“ ist. Wird eine Wiederholung vergessen, sinkt er um eine Stufe. Ein selbst gesetzter Status bleibt, bis eine Wiederholung ihn ändert.",
 )

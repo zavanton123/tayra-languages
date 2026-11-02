@@ -240,7 +240,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Answer with Again and Good only; Hard and Easy are left out." to "只用“重来”和“良好”回答，不显示“困难”和“简单”。",
     "Show only Again and Good." to "只显示“重来”和“良好”。",
     "Read the sentence, or the word, when the answer is shown." to "显示答案时朗读句子或单词。",
-    "Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card." to "每个状态为 1 到 4 的单词都有一张卡片，其状态随卡片变化：间隔一天或以上为 2，一周为 3，三周为 4，九十天为“已掌握”。复习时遗忘会降低一级。你手动设置的状态优先：“已掌握”或“已忽略”会让卡片退出复习。",
 
     // AboutScreen.kt
     "About" to "关于",
@@ -376,4 +375,5 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Answer Easy" to "回答“简单”",
     "Suspend the card" to "暂停卡片",
     "Delete the card" to "删除卡片",
+    "Every word at status 1 to 4 has a card. Its status rises as the reviews show you remember it: 2 once the card is learned, then 3, 4 and Known when you would still recall it after three days, a week and two weeks. Until the word is Known, its card comes back within a week, so a word you always remember is Known in about nine days. Forgetting a review drops it one level. A status you set yourself stays until a review moves it." to "每个状态为 1 到 4 的单词都有一张卡片。复习表明你记得它时，状态会上升：卡片学会后为 2，之后当你在三天、一周和两周后仍能想起时，依次升为 3、4 和“已掌握”。在单词“已掌握”之前，卡片最多一周就会再次出现，所以一个你每次都记得的单词大约九天就会“已掌握”。复习时遗忘会降低一级。你手动设置的状态会保留，直到复习改变它。",
 )
