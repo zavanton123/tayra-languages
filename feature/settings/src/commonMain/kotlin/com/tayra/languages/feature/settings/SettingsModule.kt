@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import org.koin.compose.viewmodel.koinViewModel
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
@@ -12,6 +13,7 @@ import org.koin.dsl.module
 
 val settingsModule = module {
     viewModel { SettingsViewModel(get(), getOrNull(), getOrNull()) }
+    viewModel { PersonalSchedulingViewModel(get(), get()) }
     viewModel { DictionariesViewModel(get(), get(), get(), get()) }
     viewModel { CoursePacksViewModel(get()) }
     viewModel { BookPacksViewModel(get()) }
@@ -28,7 +30,7 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
     composable<Route.Settings> { SettingsScreen(onNavigate = navigate) }
     composable<Route.Shortcuts> { ShortcutsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.Speech> { SpeechScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
-    composable<Route.FlashcardSettings> { FlashcardSettingsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
+    composable<Route.FlashcardSettings> { FlashcardSettingsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }, personal = koinViewModel()) }
     composable<Route.OfflineDictionaries> { DictionariesScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.CoursePacks> { CoursePacksScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.BookPacks> { BookPacksScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }

@@ -1,5 +1,24 @@
 package com.tayra.languages.feature.settings
 
+import androidx.compose.ui.test.onAllNodesWithTag
+import androidx.compose.ui.test.assertTextContains
+import kotlin.time.Instant
+import kotlin.time.Duration.Companion.days
+import kotlin.random.Random
+import kotlinx.coroutines.runBlocking
+import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.model.Term
+import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.flashcards.Rating
+import com.tayra.languages.core.domain.flashcards.PersonalScheduling
+import com.tayra.languages.core.domain.flashcards.Fsrs
+import com.tayra.languages.core.domain.flashcards.FlashcardReview
+import com.tayra.languages.core.domain.flashcards.CardState
+import com.tayra.languages.core.data.repository.TermRepositoryImpl
+import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
+import com.tayra.languages.core.data.repository.FlashcardRepositoryImpl
+import com.tayra.languages.core.data.db.DatabaseProvider
+import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
@@ -62,6 +81,54 @@ class FlashcardSettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewPerDay == 20 && settings.current.flashcardLearnSteps == "1m 10m" && settings.current.flashcardRelearnSteps == "10m" }
         assertEquals(false, settings.current.flashcardTwoButtons, "reset brings the four buttons back")
         assertEquals(0, settings.current.flashcardReviewsPerDay)
+    }
+
+    /** A language with [count] words reviewed for months by a learner who forgets sooner than the defaults expect. */
+    private suspend fun reviewedLanguage(provider: DatabaseProvider, count: Int): Long {
+        val languages = LanguageRepositoryImpl(provider)
+        val terms = TermRepositoryImpl(provider)
+        val cards = FlashcardRepositoryImpl(provider)
+        val id = languages.save(Language(name = "Portuguese"))
+        val truth = Fsrs.DEFAULT_PARAMETERS.copyOf().also { it[0] = 0.1; it[1] = 0.6; it[2] = 1.2; it[3] = 4.0; it[8] = 1.4; it[20] = 0.3 }
+        val fsrs = Fsrs(truth)
+        val random = Random(4)
+        val start = Instant.parse("2026-01-05T12:00:00Z")
+        repeat(count) { n ->
+            val termId = terms.save(Term(languageId = id, text = "w$n", textLc = "w$n", status = TermStatus.NEW_1))
+            var day = random.nextInt(40)
+            var state = fsrs.next(null, 0, Rating.GOOD)
+            val reviews = mutableListOf(FlashcardReview(termId = termId, at = start + day.days, rating = Rating.GOOD, stateBefore = CardState.NEW, intervalDays = 0, elapsedDays = 0))
+            while (true) {
+                val interval = fsrs.interval(state.stability, 0.9).toInt().coerceAtLeast(1)
+                if (day + interval >= 150) break
+                day += interval
+                val rating = if (random.nextDouble() < fsrs.retrievability(interval.toDouble(), state.stability)) Rating.GOOD else Rating.AGAIN
+                state = fsrs.next(state, interval, rating)
+                reviews += FlashcardReview(termId = termId, at = start + day.days, rating = rating, stateBefore = CardState.REVIEW, intervalDays = interval, elapsedDays = interval)
+            }
+            cards.addReviews(reviews)
+        }
+        return id
+    }
+
+    @Test
+    fun aLanguageIsOptimisedOnItsAnswersAndCanGoBackToTheDefaults() = runDesktopComposeUiTest(width = 1586, height = 1200) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-personal-ui", ".db").also { it.delete() }))
+        val pt = runBlocking { reviewedLanguage(provider, 300) }
+        val personal = PersonalSchedulingViewModel(PersonalScheduling(FlashcardRepositoryImpl(provider), settings), LanguageRepositoryImpl(provider))
+        setContent { Hosted(settings) { FlashcardSettingsScreen(onNavigate = {}, onBack = {}, viewModel = SettingsViewModel(settings), personal = personal) } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("personal-status-$pt").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("personal-status-$pt").assertTextContains("The defaults, with", substring = true)
+        assertEquals(0, onAllNodesWithTag("personal-defaults-$pt").fetchSemanticsNodes().size)
+
+        onNodeWithTag("personal-optimise-$pt").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 30_000) { onAllNodesWithText("Your own: trained on", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("personal-status-$pt").assertTextContains("better than the defaults", substring = true)
+        System.getenv("PERSONAL_SCHEDULING_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
+
+        onNodeWithTag("personal-defaults-$pt").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("The defaults, with", substring = true).fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** A phone gets compact rows, the retention slider under its label, the explanation folded away and Reset at the bottom. */

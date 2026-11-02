@@ -52,7 +52,7 @@ import com.tayra.languages.core.ui.components.Reveal
 
 /** The flashcard settings on a phone: compact cards of plain rows, the explanation folded away, Reset at the bottom. */
 @Composable
-internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: SettingsViewModel, onNavigate: (Route) -> Unit, onBack: () -> Unit, onReset: () -> Unit) {
+internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: SettingsViewModel, onNavigate: (Route) -> Unit, onBack: () -> Unit, onReset: () -> Unit, personal: PersonalSchedulingViewModel? = null) {
     val colors = MaterialTheme.colorScheme
     Scaffold(
         topBar = { AppTopBar(title = tr("Flashcard settings"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
@@ -97,6 +97,7 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                 StepsRow(tr("Relearning steps"), description = null, saved = settings.flashcardRelearnSteps, dense = true) { text -> viewModel.update { it.copy(flashcardRelearnSteps = text) } }
                 Text(tr("Use s, m, h, or d."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = AppSpacing.xs))
             }
+            personal?.let { PersonalSchedulingCard(it, dense = true) }
             ContentCard(tr("Answer"), subtitle = null, icon = AppIcons.VolumeUp, dense = true) {
                 Text(tr("Answer by"), style = MaterialTheme.typography.titleSmall)
                 AnswerModeToggle(settings.flashcardAnswerMode, onSelect = { mode -> viewModel.update { it.copy(flashcardAnswerMode = mode) } }, fill = true)

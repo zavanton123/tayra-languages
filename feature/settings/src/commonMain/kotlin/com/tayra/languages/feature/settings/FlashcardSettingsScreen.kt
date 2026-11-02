@@ -45,7 +45,13 @@ import org.koin.compose.viewmodel.koinViewModel
 
 /** How many flashcards a day, how reviews are timed and how the learning steps run. */
 @Composable
-fun FlashcardSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: SettingsViewModel = koinViewModel()) {
+fun FlashcardSettingsScreen(
+    onNavigate: (Route) -> Unit,
+    onBack: () -> Unit,
+    viewModel: SettingsViewModel = koinViewModel(),
+    /** Each language's own scheduling; without it the card is left out. */
+    personal: PersonalSchedulingViewModel? = null,
+) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
     val wide = LocalWindowWidth.current.isExpanded
     val compact = LocalWindowWidth.current.isCompact
@@ -66,7 +72,7 @@ fun FlashcardSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vie
         Unit
     }
     if (compact) {
-        PhoneFlashcardSettingsScreen(settings, viewModel, onNavigate, onBack, onReset = reset)
+        PhoneFlashcardSettingsScreen(settings, viewModel, onNavigate, onBack, onReset = reset, personal = personal)
         return
     }
     Scaffold(
@@ -82,6 +88,7 @@ fun FlashcardSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vie
                     Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         LimitsCard(settings, viewModel)
                         SchedulingCard(settings, viewModel)
+                        personal?.let { PersonalSchedulingCard(it) }
                     }
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         AnswerCard(settings, viewModel)
@@ -91,6 +98,7 @@ fun FlashcardSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vie
             } else {
                 LimitsCard(settings, viewModel)
                 SchedulingCard(settings, viewModel)
+                personal?.let { PersonalSchedulingCard(it) }
                 AnswerCard(settings, viewModel)
                 StatusInfo()
             }

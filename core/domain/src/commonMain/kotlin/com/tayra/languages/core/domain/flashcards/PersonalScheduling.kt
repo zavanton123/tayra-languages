@@ -4,6 +4,12 @@ import com.tayra.languages.core.domain.repository.FlashcardRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import kotlin.time.Clock
 import kotlin.time.Duration.Companion.days
@@ -30,12 +36,33 @@ class PersonalScheduling(
         data object TooFew : Outcome
     }
 
+    /** One training at a time, whether asked for or of its own accord. */
+    private val training = Mutex()
+    private val progressState = MutableStateFlow<Map<Long, Double>>(emptyMap())
+
+    /** The languages being trained now, with the share of each done. */
+    val progress: StateFlow<Map<Long, Double>> = progressState.asStateFlow()
+
     suspend fun current(languageId: Long): PersonalParameters? = cards.parameters(languageId)
 
     suspend fun reviewCount(languageId: Long): Int = cards.reviewCount(languageId)
 
-    /** Trains [languageId]'s parameters on its answers; [onProgress] hears the share done. */
-    suspend fun optimize(languageId: Long, onProgress: (Double) -> Unit = {}): Outcome {
+    /** Trains [languageId]'s parameters on its answers, its progress shown in [progress]. */
+    suspend fun optimize(languageId: Long): Outcome = training.withLock {
+        progressState.update { it + (languageId to 0.0) }
+        try {
+            train(languageId) { done -> progressState.update { it + (languageId to done) } }
+        } finally {
+            progressState.update { it - languageId }
+        }
+    }
+
+    /** Trains each of [languageIds] that [isDue] says is due, one after another. */
+    suspend fun optimizeWhereDue(languageIds: List<Long>) {
+        for (id in languageIds) if (isDue(id)) optimize(id)
+    }
+
+    private suspend fun train(languageId: Long, onProgress: (Double) -> Unit): Outcome {
         val reviews = cards.reviewsOf(languageId)
         val histories = histories(reviews)
         val previous = cards.parameters(languageId)

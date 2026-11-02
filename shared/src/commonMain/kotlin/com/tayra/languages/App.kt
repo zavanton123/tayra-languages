@@ -1,5 +1,9 @@
 package com.tayra.languages
 
+import kotlin.time.Duration.Companion.seconds
+import com.tayra.languages.core.domain.flashcards.PersonalScheduling
+import kotlin.coroutines.cancellation.CancellationException
+import kotlinx.coroutines.delay
 import com.tayra.languages.core.ui.components.LocalTitleBarInset
 import com.tayra.languages.core.ui.components.LocalLearnedScript
 import com.tayra.languages.core.domain.flashcards.FlashcardService
@@ -155,6 +159,14 @@ fun App(titleBarInset: Dp = 0.dp) {
         // The cards' sentences still without a translation get one, a sentence at a time, while the app runs.
         val sentenceTranslations = koinInject<SentenceTranslations>()
         LaunchedEffect(sentenceTranslations) { sentenceTranslations.fillMissing() }
+        // Each language's scheduling is trained again on its answers once enough new ones have come in.
+        val personalScheduling = koinInject<PersonalScheduling>()
+        val languageRepository = koinInject<LanguageRepository>()
+        LaunchedEffect(personalScheduling) {
+            delay(PERSONAL_SCHEDULING_DELAY)
+            runCatching { personalScheduling.optimizeWhereDue(languageRepository.getAll().map { it.id }) }
+                .onFailure { if (it is CancellationException) throw it }
+        }
         TayraTheme(AppThemes.byId(previewThemeId ?: settings.themeId), reduceMotion = settings.reduceMotion, learningLevels = settings.showLearningLevels) {
             // Text takes the background's content colour from here, as a Surface would provide it.
             Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) {
@@ -194,3 +206,6 @@ fun App(titleBarInset: Dp = 0.dp) {
         }
     }
 }
+
+/** How long after the app opens its languages' scheduling is looked at, so training never slows the start. */
+private val PERSONAL_SCHEDULING_DELAY = 30.seconds
