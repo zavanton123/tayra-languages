@@ -13,9 +13,9 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -50,6 +50,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
@@ -86,7 +87,6 @@ import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppScreenDialog
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
-import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.ChipSize
 import com.tayra.languages.core.ui.components.ConfirmDialog
@@ -674,9 +674,14 @@ private fun DetailDialog(detail: BrowseDetail, now: Instant, actions: BrowseActi
                 SentenceBox(row, detail.wordRange, detail.translating, compact = false, actions)
                 BoxWithConstraints(Modifier.fillMaxWidth()) {
                     if (maxWidth >= DETAIL_TWO_COLUMNS) {
-                        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).padding(top = AppSpacing.s)) {
-                            Column(Modifier.weight(1f).padding(end = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { CardSchedule(row, now, actions) }
-                            AppVerticalDivider()
+                        // The rule between the halves runs down the middle as tall as the taller one; asking the schedule's
+                        // grid for its height ahead (intrinsics) leaves out its last line.
+                        val rule = MaterialTheme.colorScheme.outlineVariant
+                        Row(Modifier.fillMaxWidth().padding(top = AppSpacing.s).drawBehind {
+                            val x = size.width / 2
+                            drawLine(rule, Offset(x, 0f), Offset(x, size.height), strokeWidth = 1.dp.toPx())
+                        }) {
+                            Column(Modifier.weight(1f).padding(end = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { CardSchedule(row, now, actions, withButtons = false) }
                             Column(Modifier.weight(1f).padding(start = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                                 Text(tr("Review history"), style = AppText.itemTitle)
                                 ReviewHistory(detail, compact = false, Modifier.border(AppBorders.hairline(), AppShapes.card).padding(horizontal = AppSpacing.l, vertical = AppSpacing.xs))
@@ -684,7 +689,7 @@ private fun DetailDialog(detail: BrowseDetail, now: Instant, actions: BrowseActi
                         }
                     } else {
                         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                            CardSchedule(row, now, actions)
+                            CardSchedule(row, now, actions, withButtons = false)
                             AppDivider(Modifier.padding(vertical = AppSpacing.s))
                             Text(tr("Review history"), style = AppText.itemTitle)
                             ReviewHistory(detail, compact = false)
@@ -697,6 +702,8 @@ private fun DetailDialog(detail: BrowseDetail, now: Instant, actions: BrowseActi
                 if (row.state != CardState.NEW) QuietButton(tr("Reset progress"), onClick = { actions.onReset(listOf(row.termId)) }, tone = ButtonTone.Danger)
                 QuietButton(tr("Delete flashcard"), onClick = { actions.onDelete(listOf(row.termId)) }, modifier = Modifier.testTag("detail-delete"), tone = ButtonTone.Danger)
                 Spacer(Modifier.weight(1f))
+                // What changes the card itself sits by Done; what cannot be undone stays apart on the left.
+                CardButtons(row, actions)
                 PrimaryButton(tr("Done"), onClick = onDismiss, modifier = Modifier.testTag("detail-done"))
             }
         }
@@ -751,10 +758,10 @@ private fun CardHeading(row: BrowseRow) {
     }
 }
 
-/** Where the card stands, two figures to a line, with its edit and suspend under them. */
+/** Where the card stands, two figures to a line, with its edit and suspend under them [withButtons]. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun ColumnScope.CardSchedule(row: BrowseRow, now: Instant, actions: BrowseActions) {
+private fun ColumnScope.CardSchedule(row: BrowseRow, now: Instant, actions: BrowseActions, withButtons: Boolean = true) {
     Text(tr("Schedule"), style = AppText.itemTitle)
     FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m), maxItemsInEachRow = 2) {
         val tile = Modifier.weight(1f)
@@ -769,15 +776,23 @@ private fun ColumnScope.CardSchedule(row: BrowseRow, now: Instant, actions: Brow
         StatTile(tr("Stability"), row.stability?.let { trPlural(it.roundToInt(), "{0} day", "{0} days") } ?: NONE, tile)
         StatTile(tr("Recall now"), row.retrievability?.let { "${(it * 100).roundToInt()}%" } ?: NONE, tile)
     }
-    Row(Modifier.fillMaxWidth().padding(top = AppSpacing.xs), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        SecondaryButton(tr("Edit term"), onClick = { actions.onEdit(row.termId) }, modifier = Modifier.weight(1f), icon = Icons.Default.Edit)
-        SecondaryButton(
-            if (row.suspended) tr("Resume") else tr("Suspend"),
-            onClick = { actions.onSuspend(listOf(row.termId), !row.suspended) },
-            modifier = Modifier.weight(1f).testTag("detail-suspend"),
-            icon = if (row.suspended) AppIcons.PlayArrow else AppIcons.Pause,
-        )
+    if (withButtons) {
+        Row(Modifier.fillMaxWidth().padding(top = AppSpacing.xs), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            CardButtons(row, actions, Modifier.weight(1f))
+        }
     }
+}
+
+/** The term's editor and suspending the card, under a phone's schedule or beside the dialog's Done. */
+@Composable
+private fun RowScope.CardButtons(row: BrowseRow, actions: BrowseActions, modifier: Modifier = Modifier) {
+    SecondaryButton(tr("Edit term"), onClick = { actions.onEdit(row.termId) }, modifier = modifier, icon = Icons.Default.Edit)
+    SecondaryButton(
+        if (row.suspended) tr("Resume") else tr("Suspend"),
+        onClick = { actions.onSuspend(listOf(row.termId), !row.suspended) },
+        modifier = modifier.testTag("detail-suspend"),
+        icon = if (row.suspended) AppIcons.PlayArrow else AppIcons.Pause,
+    )
 }
 
 /** Every answer the card got, the latest first. */

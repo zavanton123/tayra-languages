@@ -66,6 +66,7 @@ import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.performKeyInput
 import androidx.compose.ui.test.pressKey
 import androidx.compose.ui.input.key.Key
+import androidx.compose.ui.test.assertIsDisplayed
 
 /** The browser lists every card, narrows them by search and group, opens one for its history, and suspends or resets a selection. */
 @OptIn(ExperimentalTestApi::class)
@@ -268,6 +269,9 @@ class BrowseFlashcardsScreenTest {
         onNodeWithTag("browse-detail").assertExists()
         onNodeWithText("Flashcard details").assertExists()
         onNodeWithText("Easy").assertExists()
+        // Every figure shows, the last one too, though Edit term and Suspend went down beside Done.
+        onNodeWithText("Recall now").assertIsDisplayed()
+        onNodeWithTag("detail-suspend").assertIsDisplayed()
         saveTop("BROWSE_DETAIL_SCREENSHOT")
 
         onNodeWithText("Reset progress").performClick()
