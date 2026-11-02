@@ -416,7 +416,7 @@ internal const val NONE = "—"
 internal fun RowMenu(row: BrowseRow, actions: BrowseActions) {
     OverflowMenu(tr("Card actions")) { close ->
         AppMenuItem(text = { Text(tr("Card info")) }, onClick = { close(); actions.onOpen(row.termId) })
-        AppMenuItem(text = { Text(tr("Edit flashcard")) }, onClick = { close(); actions.onEdit(row.termId) })
+        AppMenuItem(text = { Text(tr("Edit term")) }, onClick = { close(); actions.onEdit(row.termId) })
         AppMenuItem(text = { Text(if (row.suspended) tr("Resume") else tr("Suspend")) }, onClick = { close(); actions.onSuspend(listOf(row.termId), !row.suspended) })
         AppMenuItem(text = { Text(tr("Reset progress")) }, enabled = row.state != CardState.NEW, onClick = { close(); actions.onReset(listOf(row.termId)) })
         AppMenuItem(text = { Text(tr("Delete"), color = MaterialTheme.colorScheme.error) }, onClick = { close(); actions.onDelete(listOf(row.termId)) })
@@ -578,7 +578,7 @@ private fun ColumnScope.CardSchedule(row: BrowseRow, now: Instant, actions: Brow
         StatTile(tr("Recall now"), row.retrievability?.let { "${(it * 100).roundToInt()}%" } ?: NONE, tile)
     }
     Row(Modifier.fillMaxWidth().padding(top = AppSpacing.xs), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        SecondaryButton(tr("Edit flashcard"), onClick = { actions.onEdit(row.termId) }, modifier = Modifier.weight(1f), icon = Icons.Default.Edit)
+        SecondaryButton(tr("Edit term"), onClick = { actions.onEdit(row.termId) }, modifier = Modifier.weight(1f), icon = Icons.Default.Edit)
         SecondaryButton(
             if (row.suspended) tr("Resume") else tr("Suspend"),
             onClick = { actions.onSuspend(listOf(row.termId), !row.suspended) },
