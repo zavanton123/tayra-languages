@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.flashcards
 
+import androidx.compose.material.icons.filled.Add
+import com.tayra.languages.core.domain.flashcards.ExtraStudy
 import com.tayra.languages.core.ui.components.SpeakAnswer
 import com.tayra.languages.core.ui.audio.rememberMicrophoneAccess
 import androidx.compose.foundation.text.KeyboardActions
@@ -164,6 +166,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     var choosingExample by remember { mutableStateOf<CardContent?>(null) }
     // The card's details open over the review, which shows the card as it is now once they close, its answer still showing if it was.
     var details by remember { mutableStateOf<Long?>(null) }
+    var studyingMore by remember { mutableStateOf(false) }
     Scaffold(
         topBar = {
             // Wide windows offer the browser from the page heading instead.
@@ -197,11 +200,14 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onListen = { microphone { allowed -> if (allowed) viewModel.listen() else viewModel.refuseSpeaking() } },
                 onStopListening = viewModel::stopListening,
                 onTypeInstead = viewModel::typeInstead,
+                onStudyMore = { studyingMore = true },
+                onEndPass = viewModel::endPass,
             ),
             modifier = Modifier.padding(padding),
-            overlay = choosingExample != null || details != null || confirmDelete != null,
+            overlay = choosingExample != null || details != null || confirmDelete != null || studyingMore,
         )
     }
+    if (studyingMore) StudyMoreDialog(viewModel, onAddNew = viewModel::addNewToday, onStart = viewModel::startPass, onDismiss = { studyingMore = false })
     details?.let { termId -> FlashcardDetails(termId, onNavigate, onClose = { details = null; viewModel.reloadCard() }) }
     choosingExample?.let { card ->
         ChooseExampleDialog(
@@ -255,6 +261,10 @@ internal class FlashcardActions(
     val onStopListening: () -> Unit = {},
     /** Types the card's word instead of saying it. */
     val onTypeInstead: () -> Unit = {},
+    /** Offers cards past the day's limits. */
+    val onStudyMore: () -> Unit = {},
+    /** Leaves an extra pass for the day's own cards. */
+    val onEndPass: () -> Unit = {},
 )
 
 internal val Rating.tint: Color
@@ -340,7 +350,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         // The phone's bar carries this button instead.
                         if (!compact) SecondaryButton(tr("Browse flashcards"), onClick = actions.onBrowse, modifier = Modifier.testTag("browse-flashcards"), icon = AppIcons.ViewList)
                     }
-                    Progress(state, compact)
+                    Progress(state, compact, onEndPass = actions.onEndPass)
                     val card = state.card
                     val preparing = state.preparingAudio
                     if (preparing != null) {
@@ -390,7 +400,7 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             ) {
                 AnswerModeToggle(state.answerMode, actions.onAnswerMode, NoFocus, modes = state.modes, iconsOnly = true)
             }
-            Progress(state, compact = true)
+            Progress(state, compact = true, onEndPass = actions.onEndPass)
             val card = state.card
             val preparing = state.preparingAudio
             if (preparing != null) PreparingAudio(preparing, actions.onStartWithoutWaiting, compact = true)
@@ -419,12 +429,14 @@ internal fun BrowseAction(onBrowse: () -> Unit) {
 /** How far through today's cards the session is, with the new, learning and review cards still waiting, as under Anki's cards. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun Progress(state: FlashcardsUiState, compact: Boolean) {
+private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val counts = state.counts
-    // Answers given this session plus what still waits; a card answered Again waits again, so the total can grow.
-    val total = state.answered + counts.total
-    val current = if (state.card != null) (state.answered + 1).coerceAtMost(total.coerceAtLeast(1)) else state.answered
+    val pass = state.pass
+    // Answers given this session plus what still waits; a card answered Again waits again, so the total can grow. An extra pass counts its own cards.
+    val total = pass?.termIds?.size ?: (state.answered + counts.total)
+    val behind = pass?.done ?: state.answered
+    val current = if (state.card != null) (behind + 1).coerceAtMost(total.coerceAtLeast(1)) else behind
     val pills: @Composable () -> Unit = {
         // Large text may not fit the three in a row; they wrap.
         FlowRow(
@@ -441,11 +453,12 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean) {
     }
     val bar: @Composable (Modifier) -> Unit = { m ->
         // Filled by the cards answered: the first card of one shows an empty bar, not a full one.
-        ProgressTrack(if (total > 0) state.answered.toFloat() / total else 0f, AppAccents.blue, m, height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
+        ProgressTrack(if (total > 0) behind.toFloat() / total else 0f, if (pass != null) AppAccents.purple else AppAccents.blue, m, height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
     }
     val label: @Composable () -> Unit = {
         Text(
             when {
+                pass != null -> tr("{0} · card {1} of {2}", pass.study.title(), current, total)
                 total == 0 -> tr("No cards today")
                 state.card == null -> tr("{0} of {1} answered", current, total)
                 else -> tr("Card {0} of {1}", current, total)
@@ -463,15 +476,29 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean) {
                 label()
                 bar(Modifier.weight(1f))
             }
-            pills()
+            if (pass != null) EndPass(onEndPass, Modifier.align(Alignment.CenterHorizontally)) else pills()
         }
     } else {
         Row(box.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl)) {
             label()
             bar(Modifier.weight(1f))
-            pills()
+            if (pass != null) EndPass(onEndPass) else pills()
         }
     }
+}
+
+/** The way back from an extra pass to the day's own cards. */
+@Composable
+private fun EndPass(onEndPass: () -> Unit, modifier: Modifier = Modifier) {
+    QuietButton(tr("Back to today's cards"), onClick = onEndPass, modifier = modifier.then(NoFocus).testTag("end-pass"), size = ButtonSize.Compact)
+}
+
+/** The name of an extra pass, as its progress shows it. */
+@Composable
+private fun ExtraStudy.title(): String = when (this) {
+    is ExtraStudy.Ahead -> tr("Review ahead")
+    is ExtraStudy.Forgotten -> tr("Forgotten cards again")
+    is ExtraStudy.Practise -> tr("Practise words")
 }
 
 @Composable
@@ -683,6 +710,7 @@ private fun CardMenu(card: CardContent, actions: FlashcardActions) {
         CardButton(AppIcons.MoreHoriz, tr("More actions"), { open = true }, tag = "card-menu")
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             MenuAction(Icons.Default.Edit, tr("Edit flashcard")) { open = false; actions.onEdit(card.termId) }
+            MenuAction(Icons.Default.Add, tr("Study more")) { open = false; actions.onStudyMore() }
             MenuAction(AppIcons.Pause, tr("Suspend card")) { open = false; actions.onSuspend() }
             MenuAction(Icons.Default.Delete, tr("Delete card"), destructive = true) { open = false; actions.onDelete() }
         }
@@ -865,6 +893,7 @@ private fun MoreActions(actions: FlashcardActions, modifier: Modifier = Modifier
     Box(modifier) {
         FooterLink(AppIcons.MoreHoriz, tr("More"), Modifier.fillMaxWidth(), onClick = { open = true })
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            AppMenuItem(text = { Text(tr("Study more")) }, onClick = { open = false; actions.onStudyMore() })
             AppMenuItem(text = { Text(tr("Suspend card")) }, onClick = { open = false; actions.onSuspend() })
             AppMenuItem(text = { Text(tr("Delete card"), color = MaterialTheme.colorScheme.error) }, onClick = { open = false; actions.onDelete() })
         }
@@ -914,6 +943,8 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
         } else {
             PrimaryButton(tr("Keep reading"), onClick = actions.onBooks, modifier = NoFocus.padding(top = AppSpacing.s), icon = AppIcons.MenuBook)
         }
+        // Past the day's limits: more new cards, the coming days' reviews, the forgotten ones, or practice.
+        SecondaryButton(tr("Study more"), onClick = actions.onStudyMore, modifier = NoFocus.testTag("study-more"), icon = Icons.Default.Add)
         if (state.canUndo) QuietButton(tr("Previous card"), onClick = actions.onUndo, modifier = NoFocus)
     }
 }

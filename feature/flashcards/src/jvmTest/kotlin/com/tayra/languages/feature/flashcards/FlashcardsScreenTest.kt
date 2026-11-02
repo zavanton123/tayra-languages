@@ -1,5 +1,9 @@
 package com.tayra.languages.feature.flashcards
 
+import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import com.tayra.languages.core.domain.practice.Heard
 import com.tayra.languages.core.domain.practice.SpeechRecognition
 import androidx.compose.ui.test.performTextClearance
@@ -136,13 +140,15 @@ class FlashcardsScreenTest {
                         LocalFlashcardsDue provides 1,
                     ) {
                         val state by viewModel.state.collectAsState()
+                        var studyingMore by remember { mutableStateOf(false) }
+                        if (studyingMore) StudyMoreDialog(viewModel, onAddNew = viewModel::addNewToday, onStart = viewModel::startPass, onDismiss = { studyingMore = false })
                         Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                             Column {
                                 AppTopBar(title = "Flashcards", onNavigate = {}, section = NavSection.FLASHCARDS, actions = { if (phone) BrowseAction {} })
                                 FlashcardsContent(
                                     state,
                                     speaker = if (withSpeaker) rememberSpeaker(LocalSpeech(emptyList()), settings) else null,
-                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, onTypeInstead = viewModel::typeInstead),
+                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, onTypeInstead = viewModel::typeInstead, onStudyMore = { studyingMore = true }, onEndPass = viewModel::endPass),
                                     hotkeys = hotkeys,
                                 )
                             }
@@ -322,6 +328,70 @@ class FlashcardsScreenTest {
         onNodeWithTag("answer-mode-TYPE").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isNotEmpty() }
         save("FLASHCARD_PHONE_TYPE_SCREENSHOT")
+    }
+
+    private fun ComposeUiTest.answerShown(rating: String) {
+        onNodeWithTag("flashcards-keys").performKeyInput { pressKey(Key.Spacebar) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("answer-$rating").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("answer-$rating").performClick()
+    }
+
+    private fun ComposeUiTest.openStudyMore() {
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("study-more").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("study-more").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("study-more-dialog").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    @Test
+    fun moreNewCardsCanBeStudiedToday() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(moreTerms = { id ->
+            settings.update { it.copy(flashcardNewPerDay = 1) }
+            terms.save(Term(languageId = id, text = "casa", textLc = "casa", status = TermStatus.NEW_1, translation = "дом", sentence = "A casa é grande."))
+        })
+        answerShown("Easy")
+        openStudyMore()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 new card waits beyond today's limit.").fetchSemanticsNodes().isNotEmpty() }
+        save("STUDY_MORE_SCREENSHOT")
+        onNodeWithTag("study-more-start").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("A [...] é grande.").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    @Test
+    fun reviewAheadGoesOverTheComingDaysAndEndsInTheDaysCards() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        answerShown("Easy")
+        openStudyMore()
+        onNodeWithTag("study-more-AHEAD").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("0 cards are due in that time.").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("study-more-start").assertIsNotEnabled()
+        // Easy put the card about a week away.
+        repeat(5) { onNodeWithContentDescription("Increase Days ahead").performClick() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 card is due in that time.").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("study-more-start").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Review ahead · card 1 of 1").fetchSemanticsNodes().isNotEmpty() }
+        save("REVIEW_AHEAD_SCREENSHOT")
+        answerShown("Good")
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("study-more").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(listOf(Rating.GOOD, Rating.EASY), runBlocking { service.reviews(termId) }.map { it.rating }, "the early review counts")
+    }
+
+    @Test
+    fun aPassOfPractiseCanBeLeftForTheDaysCards() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        answerShown("Easy")
+        openStudyMore()
+        onNodeWithTag("study-more-PRACTISE").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 card to practise.").fetchSemanticsNodes().isNotEmpty() }
+        // The card's word is at status 4 after Easy; without it ticked there is nothing to practise.
+        onNodeWithTag("practise-status-LEARNING_4").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("0 cards to practise.").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("practise-status-LEARNING_4").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 card to practise.").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("study-more-start").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Practise words · card 1 of 1").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("end-pass").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("study-more").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, runBlocking { service.reviews(termId) }.size, "nothing answered in the pass")
     }
 
     @Test
