@@ -150,7 +150,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     val compact = LocalWindowWidth.current.isCompact
     var confirmDelete by remember { mutableStateOf<CardContent?>(null) }
     var choosingExample by remember { mutableStateOf<CardContent?>(null) }
-    // The card's details open over the review, which shows the card as it is now once they close.
+    // The card's details open over the review, which shows the card as it is now once they close, its answer still showing if it was.
     var details by remember { mutableStateOf<Long?>(null) }
     Scaffold(
         topBar = {
@@ -184,7 +184,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
             overlay = choosingExample != null || details != null,
         )
     }
-    details?.let { termId -> FlashcardDetails(termId, onNavigate, onClose = { details = null; viewModel.load() }) }
+    details?.let { termId -> FlashcardDetails(termId, onNavigate, onClose = { details = null; viewModel.reloadCard() }) }
     choosingExample?.let { card ->
         ChooseExampleDialog(
             termId = card.termId,

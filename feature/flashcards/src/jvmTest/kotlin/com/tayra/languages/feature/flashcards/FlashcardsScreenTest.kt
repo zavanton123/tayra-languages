@@ -357,6 +357,23 @@ class FlashcardsScreenTest {
         waitForCard("Card 1 of 1")
     }
 
+    /** Back from the card's details, the card shows as it is now with its answer still showing; a card left unanswered stays so. */
+    @Test
+    fun theAnswerStaysShownAfterTheDetailsClose() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show()
+        onNodeWithText("Show answer").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.revealed }
+        runBlocking { terms.save(terms.getById(termId)!!.copy(translation = "покупать")) }
+        viewModel.reloadCard()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.card?.translation == "покупать" }
+        assertEquals(true, viewModel.state.value.revealed)
+        onNodeWithText("покупать").assertExists()
+
+        // Another visit to the page shows the front first, as before.
+        viewModel.load()
+        waitUntil(timeoutMillis = 5_000) { !viewModel.state.value.revealed }
+    }
+
     /** The answer keys are the ones set in the shortcuts: given others, those show and answer the card, and the old ones no longer do. */
     @Test
     fun theAnswerKeysCanBeChanged() = runDesktopComposeUiTest(width = 1586, height = 1000) {

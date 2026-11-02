@@ -186,10 +186,20 @@ class FlashcardsViewModel(
         _state.update { it.copy(preparingAudio = null) }
     }
 
-    /** Shows the next card, or that there is none; [prefer] names a term whose card comes first. */
-    fun load(prefer: Long? = null) {
+    /** Shows the card on screen again as it is now, its answer still showing if it was: after its details were changed. */
+    fun reloadCard() {
+        val shown = _state.value.card?.termId
+        load(prefer = shown, keepAnswer = _state.value.revealed)
+    }
+
+    /**
+     * Shows the next card, or that there is none; [prefer] names a term whose card comes first, and
+     * [keepAnswer] leaves its answer showing when it is the card already on screen.
+     */
+    fun load(prefer: Long? = null, keepAnswer: Boolean = false) {
         extrasJob?.cancel()
         waitingJob?.cancel()
+        val shownBefore = _state.value.card?.termId
         viewModelScope.launch {
             val session = service.next(languageId, prefer)
             val language = languageId?.let { languages.getById(it) } ?: session.term?.let { languages.getById(it.languageId) }
@@ -202,7 +212,7 @@ class FlashcardsViewModel(
                     loading = false,
                     languageName = language?.name.orEmpty(),
                     card = if (session.card != null && term != null) content(term, language, wordRange, session.card!!.schedule.state) else null,
-                    revealed = false,
+                    revealed = keepAnswer && session.card != null && session.card!!.termId == shownBefore,
                     counts = session.counts,
                     nextLearningAt = session.nextLearningAt,
                     canUndo = answers.isNotEmpty(),
