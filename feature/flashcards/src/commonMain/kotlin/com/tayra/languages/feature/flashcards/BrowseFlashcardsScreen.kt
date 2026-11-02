@@ -41,6 +41,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -174,25 +175,64 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
         }
         state.detail?.let { DetailDialog(it, state.now, actions, onDismiss = viewModel::closeDetail) }
     }
-    confirmDelete?.let { ids ->
+    state.ankiImport?.let { AnkiImportDialog(it, onDismiss = viewModel::closeAnkiImport) }
+    CardConfirmations(confirmReset, confirmDelete, viewModel, onResetClosed = { confirmReset = null }, onDeleteClosed = { confirmDelete = null })
+}
+
+/**
+ * One card's details over another screen, as the review screen opens them: the browser's dialog (a
+ * page of its own on a phone) with all it can do, the term's editor opening over it; [onClose] when
+ * it is closed, or the card is deleted or not there.
+ */
+@Composable
+fun FlashcardDetails(
+    termId: Long,
+    onNavigate: (Route) -> Unit,
+    onClose: () -> Unit,
+    viewModel: BrowseFlashcardsViewModel = koinViewModel(key = "flashcard-details-$termId"),
+) {
+    val state by viewModel.state.collectAsStateWithLifecycle()
+    val closed by rememberUpdatedState(onClose)
+    var opened by remember { mutableStateOf(false) }
+    LaunchedEffect(termId) { if (viewModel.openAlone(termId)) opened = true else closed() }
+    LaunchedEffect(opened, state.detail == null) { if (opened && state.detail == null) closed() }
+    var confirmReset by remember { mutableStateOf<Collection<Long>?>(null) }
+    var confirmDelete by remember { mutableStateOf<Collection<Long>?>(null) }
+    val actions = BrowseActions(
+        onEdit = { onNavigate(Route.EditTerm(it)) },
+        onSuspend = viewModel::setSuspended,
+        onReset = { confirmReset = it.toList() },
+        onDelete = { confirmDelete = it.toList() },
+        onSaveSentence = viewModel::saveSentence,
+    )
+    state.detail?.let { detail ->
+        if (LocalWindowWidth.current.isCompact) DetailScreen(detail, state.now, actions, onDismiss = viewModel::closeDetail)
+        else DetailDialog(detail, state.now, actions, onDismiss = viewModel::closeDetail)
+    }
+    CardConfirmations(confirmReset, confirmDelete, viewModel, onResetClosed = { confirmReset = null }, onDeleteClosed = { confirmDelete = null })
+}
+
+/** Asks before the cards are made new again, or deleted with their words. */
+@Composable
+private fun CardConfirmations(reset: Collection<Long>?, delete: Collection<Long>?, viewModel: BrowseFlashcardsViewModel, onResetClosed: () -> Unit, onDeleteClosed: () -> Unit) {
+    delete?.let { ids ->
         ConfirmDialog(
             title = trPlural(ids.size, "Delete {0} flashcard?", "Delete {0} flashcards?"),
             text = trPlural(ids.size, "Its word is deleted from your vocabulary too, with the card's review history. This cannot be undone.", "Their words are deleted from your vocabulary too, with the cards' review history. This cannot be undone."),
             confirmLabel = tr("Delete"),
             destructive = true,
-            onConfirm = { viewModel.delete(ids); confirmDelete = null },
-            onDismiss = { confirmDelete = null },
+            onConfirm = { viewModel.delete(ids); onDeleteClosed() },
+            onDismiss = onDeleteClosed,
         )
     }
-    state.ankiImport?.let { AnkiImportDialog(it, onDismiss = viewModel::closeAnkiImport) }
-    confirmReset?.let { ids ->
+    reset?.let { ids ->
         ConfirmDialog(
             title = trPlural(ids.size, "Reset {0} flashcard?", "Reset {0} flashcards?"),
             text = tr("The cards become new again and their review schedules are forgotten. The terms' statuses stay as they are."),
             confirmLabel = tr("Reset"),
             destructive = true,
-            onConfirm = { viewModel.reset(ids); confirmReset = null },
-            onDismiss = { confirmReset = null },
+            onConfirm = { viewModel.reset(ids); onResetClosed() },
+            onDismiss = onResetClosed,
         )
     }
 }

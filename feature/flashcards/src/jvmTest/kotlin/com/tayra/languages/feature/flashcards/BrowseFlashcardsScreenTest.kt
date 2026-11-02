@@ -58,6 +58,7 @@ import androidx.compose.runtime.DisposableEffect
 import androidx.navigationevent.DirectNavigationEventInput
 import androidx.navigationevent.compose.LocalNavigationEventDispatcherOwner
 import kotlin.test.assertFalse
+import com.tayra.languages.core.ui.navigation.Route
 
 /** The browser lists every card, narrows them by search and group, opens one for its history, and suspends or resets a selection. */
 @OptIn(ExperimentalTestApi::class)
@@ -219,6 +220,28 @@ class BrowseFlashcardsScreenTest {
         onNodeWithTag("browse-figure-ALL").performClick()
         waitForIdle()
         assertEquals(3, viewModel.state.value.rows.size)
+    }
+
+    /** Opened from the review screen, a card's details stand alone over it: the term's editor opens over them, and Done closes them. */
+    @Test
+    fun aCardsDetailsOpenOverAnotherScreen() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show()
+        val routes = mutableListOf<Route>()
+        var closed = false
+        // The browser's own content goes, leaving the details over a screen of their own.
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    FlashcardDetails(comprar, onNavigate = { routes += it }, onClose = { closed = true }, viewModel = viewModel)
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Flashcard details").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Vou comprar pão.").assertExists()
+        onNodeWithText("Edit term").performClick()
+        assertEquals(listOf<Route>(Route.EditTerm(comprar)), routes)
+        onNodeWithTag("detail-done").performClick()
+        waitUntil(timeoutMillis = 5_000) { closed }
     }
 
     /** On a desktop, the back a window makes of Escape stays in the browser rather than leaving it. */

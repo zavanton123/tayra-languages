@@ -154,6 +154,8 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     val compact = LocalWindowWidth.current.isCompact
     var confirmDelete by remember { mutableStateOf<CardContent?>(null) }
     var choosingExample by remember { mutableStateOf<CardContent?>(null) }
+    // The card's details open over the review, which shows the card as it is now once they close.
+    var details by remember { mutableStateOf<Long?>(null) }
     Scaffold(
         topBar = {
             // Wide windows offer the browser from the page heading instead.
@@ -175,7 +177,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onUndo = viewModel::undo,
                 onSuspend = viewModel::suspendCard,
                 onDelete = { confirmDelete = state.card },
-                onEdit = { onNavigate(Route.BrowseFlashcards(termId = it)) },
+                onEdit = { details = it },
                 onBooks = { onNavigate(Route.Books) },
                 onRead = { onNavigate(Route.Read(it)) },
                 onBrowse = { onNavigate(Route.BrowseFlashcards()) },
@@ -183,9 +185,10 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onStartWithoutWaiting = viewModel::startWithoutWaiting,
             ),
             modifier = Modifier.padding(padding),
-            overlay = choosingExample != null,
+            overlay = choosingExample != null || details != null,
         )
     }
+    details?.let { termId -> FlashcardDetails(termId, onNavigate, onClose = { details = null; viewModel.load() }) }
     choosingExample?.let { card ->
         ChooseExampleDialog(
             termId = card.termId,

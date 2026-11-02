@@ -161,6 +161,14 @@ class BrowseFlashcardsViewModel(
         }
     }
 
+    /** Opens [termId]'s card alone, for its details over another screen; false when it has none. */
+    suspend fun openAlone(termId: Long): Boolean {
+        refresh()
+        if (all.none { it.termId == termId }) return false
+        open(termId)
+        return true
+    }
+
     /** The card asked to be brought into view is in view. */
     fun focusShown() {
         _state.update { it.copy(focus = null) }
