@@ -230,6 +230,9 @@ class FlashcardService(
         termIds.forEach { cards.restart(it, now) }
     }
 
+    /** Emits whenever terms, cards or reviews change, here or by sync. */
+    fun observeChanges(): Flow<Unit> = cards.observeChanges()
+
     /** How many cards of the language being learned wait today; follows changes and the clock. */
     fun observeDueCount(): Flow<Int> {
         val everyMinute = flow {

@@ -18,11 +18,14 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.FlowPreview
+import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlin.coroutines.cancellation.CancellationException
+import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Instant
 
 /** One card as the browser lists it. */
@@ -148,12 +151,24 @@ class BrowseFlashcardsViewModel(
 
     init {
         load()
+        followChanges()
         // The cards follow the language chosen in the top bar.
         viewModelScope.launch {
             settings.settings.map { it.currentLanguageId }.distinctUntilChanged().drop(1).collect {
                 _state.update { it.copy(selected = emptySet(), detail = null, page = 0) }
                 load()
             }
+        }
+    }
+
+    /**
+     * The cards follow what changes elsewhere, as a term edited over the browser or the card's details:
+     * a burst of writes, such as sentences translated one after another, is taken in once it settles.
+     */
+    @OptIn(FlowPreview::class)
+    private fun followChanges() {
+        viewModelScope.launch {
+            service.observeChanges().drop(1).debounce(CHANGES_SETTLE).collect { refresh() }
         }
     }
 
@@ -435,5 +450,10 @@ class BrowseFlashcardsViewModel(
 
     fun closeAnkiImport() {
         _state.update { it.copy(ankiImport = null) }
+    }
+
+    private companion object {
+        /** How long writes elsewhere settle before the cards are read again. */
+        val CHANGES_SETTLE = 400.milliseconds
     }
 }

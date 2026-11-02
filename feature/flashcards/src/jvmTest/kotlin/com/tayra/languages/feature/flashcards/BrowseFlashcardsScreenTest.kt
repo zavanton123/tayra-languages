@@ -307,6 +307,18 @@ class BrowseFlashcardsScreenTest {
         saveTop("BROWSE_TRANSLATION_SCREENSHOT")
     }
 
+    /** A term edited over the card's details, as in its editor, shows there as it is now once the editor closes. */
+    @Test
+    fun theDetailsFollowTheTermEditedOverThem() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show()
+        onNodeWithTag("browse-row-$comprar").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.detail != null }
+        runBlocking { terms.save(terms.getById(comprar)!!.copy(translation = "покупать")) }
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.detail?.row?.translation == "покупать" }
+        // In the details and in the card's row under them.
+        assertEquals(2, onAllNodesWithText("покупать").fetchSemanticsNodes().size)
+    }
+
     /** The sentence the card is built on can be changed in the card info, in place. */
     @Test
     fun theSentenceIsEditedInTheCardInfo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
