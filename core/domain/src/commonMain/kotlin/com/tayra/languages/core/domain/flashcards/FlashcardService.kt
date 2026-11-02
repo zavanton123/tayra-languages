@@ -98,6 +98,30 @@ class FlashcardService(
         settings.update { it.copy(flashcardExtraNew = ExtraNew.add(it.flashcardExtraNew, today, languageId, count)) }
     }
 
+    /** The terms of the cards [study] goes over, in the order they come up; suspended cards are left out. */
+    suspend fun extraCards(languageId: Long?, study: ExtraStudy, random: Random = Random.Default): List<Long> {
+        val now = clock.now()
+        cards.reconcile(now)
+        val config = config()
+        val today = scheduler.day(now, config)
+        val active = cards.list(languageId).filter { !it.suspended }
+        return when (study) {
+            is ExtraStudy.Ahead -> {
+                val by = scheduler.dayStart(today + study.days + 1, config)
+                active.filter { it.schedule.state.isReview && it.schedule.due < by }.sortedWith(compareBy({ it.schedule.due }, { it.termId })).map { it.termId }
+            }
+            is ExtraStudy.Forgotten -> {
+                val forgotten = cards.forgottenSince(languageId, scheduler.dayStart(today - (study.days - 1).coerceAtLeast(0), config))
+                active.filter { it.termId in forgotten && it.schedule.state != CardState.NEW }.sortedWith(compareBy({ it.schedule.due }, { it.termId })).map { it.termId }
+            }
+            is ExtraStudy.Practise -> {
+                val answered = active.filter { it.schedule.state != CardState.NEW }
+                val statuses = terms.getByIds(answered.map { it.termId }).associate { it.id to it.status }
+                answered.filter { statuses[it.termId] in study.statuses }.map { it.termId }.shuffled(random).take(study.count)
+            }
+        }
+    }
+
     /** The new cards of [languageId] waiting beyond today's limit. */
     suspend fun newBeyondToday(languageId: Long?): Int {
         val now = clock.now()
@@ -320,6 +344,18 @@ class FlashcardService(
             return if (earned.value > current.value) earned else current
         }
     }
+}
+
+/** A pass over cards past the day's limits; every answer in it is a review like any other. */
+sealed interface ExtraStudy {
+    /** The reviews due in the next [days] study days, today's among them, the soonest first. */
+    data class Ahead(val days: Int) : ExtraStudy
+
+    /** The cards answered Again in the last [days] study days, today being the first. */
+    data class Forgotten(val days: Int) : ExtraStudy
+
+    /** Up to [count] answered cards of words at [statuses], in no order. */
+    data class Practise(val statuses: Set<TermStatus>, val count: Int) : ExtraStudy
 }
 
 /** The new cards added to a day's limit, kept as "day|language:count,…", a language of 0 standing for every language. */

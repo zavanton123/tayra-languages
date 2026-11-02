@@ -9,6 +9,7 @@ import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.FlashcardScheduler
+import com.tayra.languages.core.domain.flashcards.ExtraStudy
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.domain.flashcards.Rating
 import com.tayra.languages.core.domain.model.Language
@@ -93,6 +94,37 @@ class FlashcardServiceTest {
         service.addNewToday(id, 5)
         assertEquals(1, service.counts(id).new, "no more than wait")
         assertEquals(casa, service.next(id).card?.termId)
+    }
+
+    @Test
+    fun extraPassesGoOverTheirCards() = runTest {
+        val id = language()
+        val lobo = term(id, "lobo")
+        val gato = term(id, "gato")
+        val casa = term(id, "casa")
+        term(id, "livro")
+        answer(id, lobo, Rating.EASY)
+        clock.advance(1.hours)
+        answer(id, gato, Rating.EASY)
+        answer(id, casa, Rating.AGAIN)
+        // Easy waits about a week, a week at most while a word is not yet known.
+        assertEquals(emptyList(), service.extraCards(id, ExtraStudy.Ahead(2)))
+        val ahead = service.extraCards(id, ExtraStudy.Ahead(7))
+        assertEquals(setOf(lobo, gato), ahead.toSet())
+        assertEquals(ahead.map { cards.get(it)!!.schedule.due }.sorted(), ahead.map { cards.get(it)!!.schedule.due }, "the soonest first")
+        assertEquals(listOf(casa), service.extraCards(id, ExtraStudy.Forgotten(1)))
+
+        val learning = setOf(TermStatus.NEW_1, TermStatus.NEW_2, TermStatus.LEARNING_3, TermStatus.LEARNING_4)
+        assertEquals(setOf(lobo, gato, casa), service.extraCards(id, ExtraStudy.Practise(learning, 10)).toSet(), "a card never answered is left out")
+        assertEquals(setOf(lobo, gato), service.extraCards(id, ExtraStudy.Practise(setOf(TermStatus.LEARNING_4), 10)).toSet())
+        assertEquals(1, service.extraCards(id, ExtraStudy.Practise(learning, 1)).size)
+        service.setSuspended(gato, true)
+        assertEquals(listOf(lobo), service.extraCards(id, ExtraStudy.Ahead(7)), "suspended cards stay aside")
+
+        // Two days on, today's Again is no longer today's.
+        clock.advance(2.days)
+        assertEquals(emptyList(), service.extraCards(id, ExtraStudy.Forgotten(1)))
+        assertEquals(listOf(casa), service.extraCards(id, ExtraStudy.Forgotten(3)))
     }
 
     @Test

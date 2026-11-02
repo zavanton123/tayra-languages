@@ -27,6 +27,9 @@ interface FlashcardRepository {
     suspend fun count(languageId: Long?, states: Set<CardState>, dueBy: Instant): Int
     suspend fun earliestDue(languageId: Long?, states: Set<CardState>): Instant?
 
+    /** The terms of [languageId] whose cards were answered Again since [since]. */
+    suspend fun forgottenSince(languageId: Long?, since: Instant): Set<Long>
+
     /** Answers given since [since] to cards that were in [stateBefore]. */
     suspend fun reviewsSince(languageId: Long?, stateBefore: CardState, since: Instant): Int
 

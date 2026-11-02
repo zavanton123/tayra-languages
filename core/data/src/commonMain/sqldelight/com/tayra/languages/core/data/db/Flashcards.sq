@@ -96,6 +96,12 @@ DELETE FROM flashcard_reviews WHERE id = :id;
 selectReviewsByTerm:
 SELECT * FROM flashcard_reviews WHERE term_id = :termId ORDER BY reviewed_at DESC, id DESC;
 
+forgottenSince:
+SELECT DISTINCT r.term_id
+FROM flashcard_reviews r
+INNER JOIN terms t ON t.id = r.term_id
+WHERE r.rating = 1 AND r.reviewed_at >= :since AND (:languageId IS NULL OR t.language_id = :languageId);
+
 countReviewsSince:
 SELECT count(*)
 FROM flashcard_reviews r
