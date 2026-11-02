@@ -57,11 +57,7 @@ import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.KeyEventType
-import androidx.compose.ui.input.key.isCtrlPressed
-import androidx.compose.ui.input.key.isMetaPressed
-import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.platform.testTag
@@ -261,21 +257,19 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                 .onPreviewKeyEvent { event ->
                     // Nothing is answered while the session's speech is being made.
                     if (event.type != KeyEventType.KeyDown || state.card == null || state.preparingAudio != null) return@onPreviewKeyEvent false
-                    val pressed = HotkeyMatcher.fromEvent(event)
+                    val pressed = HotkeyMatcher.fromEvent(event) ?: return@onPreviewKeyEvent false
+                    fun isKey(vararg shortcuts: HotkeyAction) = shortcuts.any { hotkeys[it] == pressed }
                     when {
-                        // The configurable shortcut (Ctrl+Z unless changed), and the left arrow always.
-                        pressed != null && pressed == hotkeys[HotkeyAction.FLASHCARDS_PREVIOUS] -> if (state.canUndo) actions.onUndo()
-                        event.key == Key.DirectionLeft -> if (state.canUndo) actions.onUndo()
-                        pressed != null && pressed == hotkeys[HotkeyAction.FLASHCARDS_LISTEN] && speaker != null -> state.card?.let { speaker.toggle(it.spoken, it.languageCode) }
-                        pressed != null && pressed == hotkeys[HotkeyAction.FLASHCARDS_EDIT] -> state.card?.let { actions.onEdit(it.termId) }
-                        event.isCtrlPressed || event.isMetaPressed -> return@onPreviewKeyEvent false
-                        !state.revealed && (event.key == Key.Spacebar || event.key == Key.Enter) -> actions.onReveal()
+                        isKey(HotkeyAction.FLASHCARDS_PREVIOUS, HotkeyAction.FLASHCARDS_PREVIOUS_ARROW) -> if (state.canUndo) actions.onUndo()
+                        isKey(HotkeyAction.FLASHCARDS_LISTEN) && speaker != null -> state.card?.let { speaker.toggle(it.spoken, it.languageCode) }
+                        isKey(HotkeyAction.FLASHCARDS_EDIT) -> state.card?.let { actions.onEdit(it.termId) }
+                        isKey(HotkeyAction.FLASHCARDS_SHOW_ANSWER, HotkeyAction.FLASHCARDS_SHOW_ANSWER_ENTER) -> if (state.revealed) actions.onAnswer(Rating.GOOD) else actions.onReveal()
                         !state.revealed -> return@onPreviewKeyEvent false
-                        event.key == Key.Spacebar || event.key == Key.Enter || event.key == Key.Three -> actions.onAnswer(Rating.GOOD)
-                        event.key == Key.One -> actions.onAnswer(Rating.AGAIN)
+                        isKey(HotkeyAction.FLASHCARDS_AGAIN) -> actions.onAnswer(Rating.AGAIN)
                         // With two buttons the hidden answers have no keys either, so none is given by accident.
-                        event.key == Key.Two && !state.twoButtons -> actions.onAnswer(Rating.HARD)
-                        event.key == Key.Four && !state.twoButtons -> actions.onAnswer(Rating.EASY)
+                        isKey(HotkeyAction.FLASHCARDS_HARD) && !state.twoButtons -> actions.onAnswer(Rating.HARD)
+                        isKey(HotkeyAction.FLASHCARDS_GOOD) -> actions.onAnswer(Rating.GOOD)
+                        isKey(HotkeyAction.FLASHCARDS_EASY) && !state.twoButtons -> actions.onAnswer(Rating.EASY)
                         else -> return@onPreviewKeyEvent false
                     }
                     true

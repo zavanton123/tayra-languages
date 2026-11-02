@@ -369,4 +369,9 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Skip this version" to "Παράλειψη αυτής της έκδοσης",
     "Listen to the card's sentence" to "Ακούστε την πρόταση της κάρτας",
     "Edit the flashcard" to "Επεξεργασία της κάρτας",
+    "Show the answer, then answer Good" to "Εμφάνιση απάντησης, μετά απάντηση Καλό",
+    "Answer Again" to "Απάντηση Ξανά",
+    "Answer Hard" to "Απάντηση Δύσκολο",
+    "Answer Good" to "Απάντηση Καλό",
+    "Answer Easy" to "Απάντηση Εύκολο",
 )

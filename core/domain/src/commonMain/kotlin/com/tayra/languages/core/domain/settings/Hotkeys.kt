@@ -120,6 +120,14 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     SAVE_TERM(HotkeyCategory.MISC, "Save term in term form", Hotkey("Enter", ctrl = true)),
 
     FLASHCARDS_PREVIOUS(HotkeyCategory.FLASHCARDS, "Go back to the previous card", Hotkey("Z", ctrl = true)),
+    FLASHCARDS_PREVIOUS_ARROW(HotkeyCategory.FLASHCARDS, "Go back to the previous card (second key)", Hotkey("Left")),
+    // As in Anki, the key that shows the answer gives Good once it shows.
+    FLASHCARDS_SHOW_ANSWER(HotkeyCategory.FLASHCARDS, "Show the answer, then answer Good", Hotkey("Space")),
+    FLASHCARDS_SHOW_ANSWER_ENTER(HotkeyCategory.FLASHCARDS, "Show the answer, then answer Good (second key)", Hotkey("Enter")),
+    FLASHCARDS_AGAIN(HotkeyCategory.FLASHCARDS, "Answer Again", Hotkey("1")),
+    FLASHCARDS_HARD(HotkeyCategory.FLASHCARDS, "Answer Hard", Hotkey("2")),
+    FLASHCARDS_GOOD(HotkeyCategory.FLASHCARDS, "Answer Good", Hotkey("3")),
+    FLASHCARDS_EASY(HotkeyCategory.FLASHCARDS, "Answer Easy", Hotkey("4")),
     FLASHCARDS_LISTEN(HotkeyCategory.FLASHCARDS, "Listen to the card's sentence", Hotkey("R")),
     FLASHCARDS_EDIT(HotkeyCategory.FLASHCARDS, "Edit the flashcard", Hotkey("E"));
 
@@ -155,10 +163,10 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
         /**
          * The action for [pressed] among [hotkeys]. Keys shared by a word shortcut and a listening one
          * act on the word while one is [wordSelected], and on reading aloud otherwise (when [listening]
-         * is available at all).
+         * is available at all). The flashcards' shortcuts act on their own screen and are never the reader's.
          */
         fun resolve(hotkeys: Map<HotkeyAction, Hotkey?>, pressed: Hotkey, wordSelected: Boolean, listening: Boolean): HotkeyAction? {
-            val matches = hotkeys.filterValues { it == pressed }.keys
+            val matches = hotkeys.filter { (action, key) -> key == pressed && action.category != HotkeyCategory.FLASHCARDS }.keys
             val usable = if (listening) matches else matches.filter { it.category != HotkeyCategory.LISTENING }
             return usable.firstOrNull { (it.category == HotkeyCategory.LISTENING) != wordSelected } ?: usable.firstOrNull()
         }

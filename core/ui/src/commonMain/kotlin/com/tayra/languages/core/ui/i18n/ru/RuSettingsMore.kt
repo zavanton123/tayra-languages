@@ -369,4 +369,9 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Skip this version" to "Пропустить эту версию",
     "Listen to the card's sentence" to "Прослушать предложение с карточки",
     "Edit the flashcard" to "Изменить карточку",
+    "Show the answer, then answer Good" to "Показать ответ, затем ответить «Хорошо»",
+    "Answer Again" to "Ответить «Снова»",
+    "Answer Hard" to "Ответить «Трудно»",
+    "Answer Good" to "Ответить «Хорошо»",
+    "Answer Easy" to "Ответить «Легко»",
 )

@@ -369,4 +369,9 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Skip this version" to "跳过此版本",
     "Listen to the card's sentence" to "收听卡片上的句子",
     "Edit the flashcard" to "编辑闪卡",
+    "Show the answer, then answer Good" to "显示答案，然后回答“良好”",
+    "Answer Again" to "回答“重来”",
+    "Answer Hard" to "回答“困难”",
+    "Answer Good" to "回答“良好”",
+    "Answer Easy" to "回答“简单”",
 )

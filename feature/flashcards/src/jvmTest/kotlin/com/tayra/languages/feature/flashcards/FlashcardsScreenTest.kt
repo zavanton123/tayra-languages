@@ -72,6 +72,7 @@ import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
+import com.tayra.languages.core.domain.flashcards.Rating
 
 /** A card is shown front first, the answer on request, and answering it moves on and moves the word's status. */
 @OptIn(ExperimentalTestApi::class)
@@ -354,6 +355,27 @@ class FlashcardsScreenTest {
         onNodeWithText("Card 2 of 2").assertExists()
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.B) }
         waitForCard("Card 1 of 1")
+    }
+
+    /** The answer keys are the ones set in the shortcuts: given others, those show and answer the card, and the old ones no longer do. */
+    @Test
+    fun theAnswerKeysCanBeChanged() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(hotkeys = HotkeyAction.defaults + mapOf(
+            HotkeyAction.FLASHCARDS_SHOW_ANSWER to Hotkey("S"),
+            HotkeyAction.FLASHCARDS_SHOW_ANSWER_ENTER to null,
+            HotkeyAction.FLASHCARDS_EASY to Hotkey("L"),
+        ))
+        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Spacebar) }
+        waitForIdle()
+        assertEquals(false, viewModel.state.value.revealed, "Space no longer shows the answer")
+        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.S) }
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.revealed }
+        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Four) }
+        waitForIdle()
+        assertEquals(true, viewModel.state.value.revealed, "4 no longer answers Easy")
+        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.L) }
+        waitUntil(timeoutMillis = 5_000) { runBlocking { service.cardFor(termId)!!.schedule.reps } == 1 }
+        assertEquals(Rating.EASY, runBlocking { service.reviews(termId).single().rating })
     }
 
     /** The answer is read aloud when shown, and the reading stops as the card goes away. */
