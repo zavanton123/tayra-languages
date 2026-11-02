@@ -60,6 +60,8 @@ object AppAccents {
     val highlight = Color(0xFFFFD166)
     val highlightSoft = Color(0xFFFFE9A8)
     val onHighlight = Color(0xFF7A6A3A)
+    /** A marked word within a sentence on [highlightSoft]: dark in either theme, as the sentence's own ink is in a light one. */
+    val inkOnHighlight = Color(0xFF1F1A0E)
 }
 
 /** The colours of a flashcard's answers, as Anki has them. */
@@ -247,8 +249,8 @@ object AppText {
     /** The word on a flashcard. */
     fun cardWord(compact: Boolean) = TextStyle(fontSize = if (compact) 24.sp else 30.sp, fontWeight = FontWeight.Medium)
 
-    /** The sentence on a flashcard or in an exercise, at [size] sp. */
-    fun cardSentence(size: Float) = TextStyle(fontSize = size.sp, lineHeight = (size * 1.45f).sp, fontWeight = FontWeight.Medium)
+    /** The sentence on a flashcard or in an exercise, at [size] sp; [weight] heavier where it is the point of a detail. */
+    fun cardSentence(size: Float, weight: FontWeight = FontWeight.Medium) = TextStyle(fontSize = size.sp, lineHeight = (size * 1.45f).sp, fontWeight = weight)
 
     /** The translation under a card's sentence. */
     fun cardTranslation(compact: Boolean) = TextStyle(fontSize = if (compact) 15.sp else 18.sp, lineHeight = 26.sp)

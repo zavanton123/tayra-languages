@@ -46,6 +46,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.style.TextOverflow
@@ -67,7 +70,6 @@ import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.ChipSize
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.EmptyState
-import com.tayra.languages.core.ui.components.IconButtonSize
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.ListPager
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -479,7 +481,7 @@ private fun DetailDialog(detail: BrowseDetail, now: Instant, actions: BrowseActi
             AppDivider()
             ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                 CardHeading(row)
-                SentenceBox(row, actions.onSaveSentence)
+                SentenceBox(row, detail.wordRange, compact = false, actions.onSaveSentence)
                 BoxWithConstraints(Modifier.fillMaxWidth()) {
                     if (maxWidth >= DETAIL_TWO_COLUMNS) {
                         Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).padding(top = AppSpacing.s)) {
@@ -525,7 +527,7 @@ internal fun DetailScreen(detail: BrowseDetail, now: Instant, actions: BrowseAct
             AppDivider()
             ScrollColumn(Modifier.weight(1f), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                 CardHeading(row)
-                SentenceBox(row, actions.onSaveSentence)
+                SentenceBox(row, detail.wordRange, compact = true, actions.onSaveSentence)
                 Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { CardSchedule(row, now, actions) }
                 AppDivider()
                 Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
@@ -605,13 +607,15 @@ private fun ReviewHistory(detail: BrowseDetail, compact: Boolean, modifier: Modi
 }
 
 /**
- * The example sentence the card blanks the word out of, with a pencil to change it in place and
- * the examples to choose another from; without one, the offers to add one either way.
+ * The example sentence the card blanks the word out of, large, as the card shows it, with the
+ * word marked; a pencil changes it in place and the examples offer another. Without one, the
+ * offers to add one either way.
  */
 @Composable
-private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String) -> Unit) {
+private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, compact: Boolean, onSave: (termId: Long, sentence: String) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val direction = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
+    val sentenceStyle = AppText.cardSentence(if (compact) 22f else 28f, FontWeight.SemiBold).copy(color = colors.onSurface, textDirection = direction)
     var editing by remember(row.termId) { mutableStateOf(false) }
     var choosing by remember(row.termId) { mutableStateOf(false) }
     if (choosing) {
@@ -627,33 +631,47 @@ private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String)
     }
     var draft by remember(row.termId, editing) { mutableStateOf(row.sentence.orEmpty()) }
     val sentence = row.sentence
-    when {
-        editing -> Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            AppTextField(
-                value = draft,
-                onValueChange = { draft = it },
-                modifier = Modifier.fillMaxWidth().testTag("sentence-field"),
-                placeholder = { Text(tr("Example sentence")) },
-                textStyle = MaterialTheme.typography.bodyMedium.copy(textDirection = direction),
-                minLines = 2,
-            )
-            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.End)) {
-                QuietButton(tr("Cancel"), onClick = { editing = false })
-                PrimaryButton(tr("Save"), onClick = { onSave(row.termId, draft); editing = false }, modifier = Modifier.testTag("sentence-save"))
+    Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        Text(tr("Example sentence"), style = MaterialTheme.typography.titleSmall, color = colors.onSurfaceVariant)
+        when {
+            editing -> {
+                AppTextField(
+                    value = draft,
+                    onValueChange = { draft = it },
+                    modifier = Modifier.fillMaxWidth().testTag("sentence-field"),
+                    placeholder = { Text(tr("Example sentence")) },
+                    textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
+                    minLines = 2,
+                )
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.End)) {
+                    QuietButton(tr("Cancel"), onClick = { editing = false })
+                    PrimaryButton(tr("Save"), onClick = { onSave(row.termId, draft); editing = false }, modifier = Modifier.testTag("sentence-save"))
+                }
+            }
+            sentence == null -> Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                QuietButton(tr("Add a sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), icon = Icons.Default.Edit)
+                QuietButton(tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), icon = AppIcons.Sync)
+            }
+            else -> Row(
+                Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash))
+                    .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.line)), AppShapes.card)
+                    .padding(start = if (compact) AppSpacing.l else AppSpacing.xl, end = AppSpacing.m, top = if (compact) AppSpacing.l else AppSpacing.xl, bottom = if (compact) AppSpacing.l else AppSpacing.xl),
+                verticalAlignment = if (compact) Alignment.Top else Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
+            ) {
+                Text(markWord(sentence, wordRange), Modifier.weight(1f).testTag("detail-sentence"), style = sentenceStyle)
+                AppIconButton(AppIcons.Sync, contentDescription = tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), style = IconButtonStyle.Outlined)
+                AppIconButton(Icons.Default.Edit, contentDescription = tr("Edit sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), style = IconButtonStyle.Outlined)
             }
         }
-        sentence == null -> Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            QuietButton(tr("Add a sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), icon = Icons.Default.Edit)
-            QuietButton(tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), icon = AppIcons.Sync)
-        }
-        else -> Row(
-            Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(start = AppSpacing.l, end = AppSpacing.xs, top = AppSpacing.xs, bottom = AppSpacing.xs),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            Text(sentence, Modifier.weight(1f).padding(vertical = AppSpacing.s), style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction), color = colors.onSurfaceVariant)
-            AppIconButton(AppIcons.Sync, contentDescription = tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), size = IconButtonSize.Small)
-            AppIconButton(Icons.Default.Edit, contentDescription = tr("Edit sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), size = IconButtonSize.Small)
-        }
+    }
+}
+
+/** [sentence] with the word at [range] on the highlighter's yellow; as it is when the range does not fit it. */
+private fun markWord(sentence: String, range: IntRange?): AnnotatedString = buildAnnotatedString {
+    append(sentence)
+    if (range != null && range.first >= 0 && range.last < sentence.length && !range.isEmpty()) {
+        addStyle(SpanStyle(background = AppAccents.highlightSoft, color = AppAccents.inkOnHighlight), range.first, range.last + 1)
     }
 }
 

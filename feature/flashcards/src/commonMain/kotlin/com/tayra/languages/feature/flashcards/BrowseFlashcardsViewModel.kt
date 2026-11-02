@@ -78,7 +78,13 @@ sealed interface AnkiImport {
 }
 
 /** The card opened for a closer look, with its review history. */
-data class BrowseDetail(val row: BrowseRow, val reviews: List<FlashcardReview> = emptyList(), val loading: Boolean = true)
+data class BrowseDetail(
+    val row: BrowseRow,
+    val reviews: List<FlashcardReview> = emptyList(),
+    val loading: Boolean = true,
+    /** Where the card's word stands in its sentence, the part its front blanks out; null when it is not found. */
+    val wordRange: IntRange? = null,
+)
 
 data class BrowseUiState(
     val loading: Boolean = true,
@@ -194,6 +200,8 @@ class BrowseFlashcardsViewModel(
                 s.copy(loading = false, languageName = language?.name.orEmpty(), counts = counts(all), selected = s.selected intersect ids, detail = detail, now = browse.now)
             }
             publish()
+            // The sentence may have changed, here or in the term's editor.
+            _state.value.detail?.let { findWord(it.row.termId) }
         }
     }
 
@@ -291,6 +299,15 @@ class BrowseFlashcardsViewModel(
         viewModelScope.launch {
             val reviews = service.reviews(termId)
             _state.update { s -> if (s.detail?.row?.termId == termId) s.copy(detail = s.detail.copy(reviews = reviews, loading = false)) else s }
+        }
+        findWord(termId)
+    }
+
+    /** Marks the open card's word in its sentence, as it is now. */
+    private fun findWord(termId: Long) {
+        viewModelScope.launch {
+            val range = terms.getById(termId)?.let { service.clozeRange(it) }
+            _state.update { s -> if (s.detail?.row?.termId == termId) s.copy(detail = s.detail.copy(wordRange = range)) else s }
         }
     }
 

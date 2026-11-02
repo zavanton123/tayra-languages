@@ -207,7 +207,7 @@ class BrowseFlashcardsScreenTest {
     /** The sentence the card is built on can be changed in the card info, in place. */
     @Test
     fun theSentenceIsEditedInTheCardInfo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        show()
+        val viewModel = show()
         onNodeWithTag("browse-row-$casa").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("sentence-edit").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Add a sentence").performClick()
@@ -215,6 +215,9 @@ class BrowseFlashcardsScreenTest {
         onNodeWithTag("sentence-save").performClick()
         waitUntil(timeoutMillis = 5_000) { runBlocking { terms.getById(casa)!!.sentence } == "A casa é grande." }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("A casa é grande.").fetchSemanticsNodes().size == 2 }
+        // The word is marked where the card blanks it out.
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.detail?.wordRange == 2..5 }
+        saveTop("BROWSE_SENTENCE_SCREENSHOT")
         // The pencil now opens the sentence for changing.
         onNodeWithTag("sentence-edit").performClick()
         onNodeWithText("Cancel").performClick()
