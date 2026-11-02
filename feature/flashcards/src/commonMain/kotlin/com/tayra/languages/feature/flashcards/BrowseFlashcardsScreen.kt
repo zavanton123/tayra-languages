@@ -644,14 +644,14 @@ private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String)
         }
         sentence == null -> Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             QuietButton(tr("Add a sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), icon = Icons.Default.Edit)
-            QuietButton(tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), icon = AppIcons.Forum)
+            QuietButton(tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), icon = AppIcons.Sync)
         }
         else -> Row(
             Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(start = AppSpacing.l, end = AppSpacing.xs, top = AppSpacing.xs, bottom = AppSpacing.xs),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Text(sentence, Modifier.weight(1f).padding(vertical = AppSpacing.s), style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction), color = colors.onSurfaceVariant)
-            AppIconButton(AppIcons.Forum, contentDescription = tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), size = IconButtonSize.Small)
+            AppIconButton(AppIcons.Sync, contentDescription = tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), size = IconButtonSize.Small)
             AppIconButton(Icons.Default.Edit, contentDescription = tr("Edit sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), size = IconButtonSize.Small)
         }
     }
