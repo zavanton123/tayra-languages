@@ -80,7 +80,6 @@ import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTooltip
 import com.tayra.languages.core.ui.components.AppTopBar
-import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.Appear
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ButtonTone
@@ -104,7 +103,6 @@ import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.animatedCount
 import com.tayra.languages.core.ui.components.cardSurface
-import com.tayra.languages.core.ui.components.largeText
 import com.tayra.languages.core.ui.components.pushFill
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.i18n.tr
@@ -389,19 +387,16 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean) {
     val total = state.answered + counts.total
     val current = if (state.card != null) (state.answered + 1).coerceAtMost(total.coerceAtLeast(1)) else state.answered
     val pills: @Composable () -> Unit = {
-        // Large text may not fit the three in a row; they wrap, without the dividers between them.
-        val divided = !largeText
+        // Large text may not fit the three in a row; they wrap.
         FlowRow(
             if (compact) Modifier.fillMaxWidth() else Modifier,
             itemVerticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.m else AppSpacing.s, Alignment.CenterHorizontally),
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.CenterHorizontally),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
         ) {
             // Scheduling words, apart from a word's New, Learning and Known: a card seen for the first time, one in its learning steps, one due.
             CountPill("New", counts.new, trPlural(counts.new, "first time", "first time"), AppAccents.blue, compact)
-            if (divided) PillDivider()
             CountPill("Learning", counts.learning, trPlural(counts.learning, "in steps", "in steps"), AppAccents.orange, compact)
-            if (divided) PillDivider()
             CountPill("To review", counts.review, trPlural(counts.review, "due", "due"), AppAccents.green, compact)
         }
     }
@@ -438,11 +433,6 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean) {
             pills()
         }
     }
-}
-
-@Composable
-private fun PillDivider() {
-    AppVerticalDivider(Modifier.height(PILL_DIVIDER_HEIGHT))
 }
 
 @Composable
@@ -682,7 +672,6 @@ private fun PartOfSpeech(pos: String) {
 private const val BLANK = "[...]"
 
 private val REVIEW_WIDTH = 1048.dp
-private val PILL_DIVIDER_HEIGHT = 22.dp
 
 /** The answer slot at the foot: Show answer and the answers in its place are the same height, so neither moves the other. */
 private val ANSWER_SLOT = 76.dp
