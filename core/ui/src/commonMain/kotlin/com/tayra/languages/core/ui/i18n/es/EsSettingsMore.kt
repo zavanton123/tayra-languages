@@ -368,4 +368,5 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Later" to "Más tarde",
     "Skip this version" to "Omitir esta versión",
     "Listen to the card's sentence" to "Escuchar la frase de la tarjeta",
+    "Edit the flashcard" to "Editar la tarjeta",
 )

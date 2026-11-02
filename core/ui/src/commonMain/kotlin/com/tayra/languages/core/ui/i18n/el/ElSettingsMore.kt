@@ -368,4 +368,5 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Later" to "Αργότερα",
     "Skip this version" to "Παράλειψη αυτής της έκδοσης",
     "Listen to the card's sentence" to "Ακούστε την πρόταση της κάρτας",
+    "Edit the flashcard" to "Επεξεργασία της κάρτας",
 )

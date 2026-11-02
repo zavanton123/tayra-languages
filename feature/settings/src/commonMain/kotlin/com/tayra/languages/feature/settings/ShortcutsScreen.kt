@@ -162,15 +162,20 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
 
 /**
  * Actions sharing a key with another one that can fire in the same moment. A word shortcut and a
- * listening one may share a key, since the reader picks by whether a word is selected.
+ * listening one may share a key, since the reader picks by whether a word is selected; the
+ * flashcards' shortcuts act on their own screen, so they may share keys with the reader's.
  */
 internal fun shortcutConflicts(hotkeys: Map<HotkeyAction, Hotkey?>): Map<HotkeyAction, List<HotkeyAction>> =
     hotkeys.entries.mapNotNull { (action, key) ->
         if (key == null) return@mapNotNull null
-        val listening = action.category == HotkeyCategory.LISTENING
-        val others = hotkeys.filter { (other, otherKey) -> other != action && otherKey == key && (other.category == HotkeyCategory.LISTENING) == listening }.keys
+        val others = hotkeys.filter { (other, otherKey) -> other != action && otherKey == key && other.firesWith(action) }.keys
         if (others.isEmpty()) null else action to others.toList()
     }.toMap()
+
+/** Whether the two can act at the same moment: on the same screen, and not one for a selected word while the other reads aloud. */
+private fun HotkeyAction.firesWith(other: HotkeyAction): Boolean =
+    (category == HotkeyCategory.FLASHCARDS) == (other.category == HotkeyCategory.FLASHCARDS) &&
+        (category == HotkeyCategory.LISTENING) == (other.category == HotkeyCategory.LISTENING)
 
 private fun HotkeyAction.matches(query: String, hotkey: Hotkey?): Boolean {
     val q = query.trim()

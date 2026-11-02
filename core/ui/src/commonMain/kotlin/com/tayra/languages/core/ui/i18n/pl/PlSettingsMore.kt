@@ -368,4 +368,5 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Later" to "Później",
     "Skip this version" to "Pomiń tę wersję",
     "Listen to the card's sentence" to "Odsłuchaj zdanie z karty",
+    "Edit the flashcard" to "Edytuj fiszkę",
 )

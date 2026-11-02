@@ -345,7 +345,7 @@ fun ReadingScreen(
             HotkeyAction.BOOKMARK -> if (state.bookmarkable) bookmarkDialog = true else return false
             HotkeyAction.EDIT_PAGE -> onNavigate(Route.EditPage(bookId, state.pageNumber))
             HotkeyAction.NEXT_THEME -> viewModel.nextTheme()
-            HotkeyAction.SAVE_TERM, HotkeyAction.FLASHCARDS_PREVIOUS, HotkeyAction.FLASHCARDS_LISTEN -> return false
+            HotkeyAction.SAVE_TERM, HotkeyAction.FLASHCARDS_PREVIOUS, HotkeyAction.FLASHCARDS_LISTEN, HotkeyAction.FLASHCARDS_EDIT -> return false
         }
         return true
     }

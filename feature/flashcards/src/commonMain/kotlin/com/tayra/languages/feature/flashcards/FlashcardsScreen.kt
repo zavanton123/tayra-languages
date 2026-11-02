@@ -267,6 +267,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         pressed != null && pressed == hotkeys[HotkeyAction.FLASHCARDS_PREVIOUS] -> if (state.canUndo) actions.onUndo()
                         event.key == Key.DirectionLeft -> if (state.canUndo) actions.onUndo()
                         pressed != null && pressed == hotkeys[HotkeyAction.FLASHCARDS_LISTEN] && speaker != null -> state.card?.let { speaker.toggle(it.spoken, it.languageCode) }
+                        pressed != null && pressed == hotkeys[HotkeyAction.FLASHCARDS_EDIT] -> state.card?.let { actions.onEdit(it.termId) }
                         event.isCtrlPressed || event.isMetaPressed -> return@onPreviewKeyEvent false
                         !state.revealed && (event.key == Key.Spacebar || event.key == Key.Enter) -> actions.onReveal()
                         !state.revealed -> return@onPreviewKeyEvent false

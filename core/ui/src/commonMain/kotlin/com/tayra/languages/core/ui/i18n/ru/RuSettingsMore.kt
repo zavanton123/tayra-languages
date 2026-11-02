@@ -368,4 +368,5 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Later" to "Позже",
     "Skip this version" to "Пропустить эту версию",
     "Listen to the card's sentence" to "Прослушать предложение с карточки",
+    "Edit the flashcard" to "Изменить карточку",
 )

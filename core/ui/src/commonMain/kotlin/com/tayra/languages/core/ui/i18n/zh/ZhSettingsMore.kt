@@ -368,4 +368,5 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Later" to "稍后",
     "Skip this version" to "跳过此版本",
     "Listen to the card's sentence" to "收听卡片上的句子",
+    "Edit the flashcard" to "编辑闪卡",
 )

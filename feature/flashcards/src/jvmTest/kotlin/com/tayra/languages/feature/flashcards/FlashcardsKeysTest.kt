@@ -65,6 +65,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import kotlin.test.Test
+import kotlin.test.assertEquals
 
 /** The flashcard page keeps the keys: clicks on its buttons leave them with it, and it takes them back when it returns to the front. */
 @OptIn(ExperimentalTestApi::class)
@@ -100,6 +101,9 @@ class FlashcardsKeysTest {
 
     private val owner = Owner()
     private val elsewhere = FocusRequester()
+
+    /** The cards the edit shortcut opened. */
+    private val edited = mutableListOf<Long>()
 
     private fun ComposeUiTest.show(): FlashcardsViewModel {
         val id = runBlocking {
@@ -138,7 +142,7 @@ class FlashcardsKeysTest {
                             Column {
                                 // Something else that takes the keyboard, as another screen or window does.
                                 androidx.compose.foundation.layout.Box(Modifier.size(1.dp).focusRequester(elsewhere).focusable().testTag("elsewhere"))
-                                FlashcardsContent(state, speaker = speaker, actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo))
+                                FlashcardsContent(state, speaker = speaker, actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onEdit = { edited += it }))
                             }
                         }
                     }
@@ -168,6 +172,14 @@ class FlashcardsKeysTest {
     }
 
     /** R plays the card's sentence and stops it, before the answer as after it. */
+    /** E opens the card's details, before the answer is shown as after. */
+    @Test
+    fun eEditsTheFlashcard() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show()
+        onRoot().performKeyInput { pressKey(Key.E) }
+        assertEquals(listOf(viewModel.state.value.card!!.termId), edited)
+    }
+
     @Test
     fun rPlaysTheSentence() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
