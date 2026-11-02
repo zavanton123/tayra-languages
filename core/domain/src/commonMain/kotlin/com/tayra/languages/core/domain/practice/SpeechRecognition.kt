@@ -1,6 +1,7 @@
 package com.tayra.languages.core.domain.practice
 
 import kotlinx.coroutines.flow.StateFlow
+import kotlin.coroutines.cancellation.CancellationException
 
 /**
  * Hears what the learner says, on the device: the system's recogniser on a phone, a local
@@ -44,6 +45,58 @@ sealed interface Heard {
 
     /** The microphone may not be used, or nothing here hears the language: speaking is given up for this practice. */
     data object Refused : Heard
+}
+
+/** Why an answer said aloud came to nothing, to be said again. */
+enum class SpeechRetry {
+    /** Nothing was made out. */
+    NOTHING,
+
+    /** The microphone gave no sound. */
+    MUTED,
+
+    /** The recogniser failed. */
+    FAILED,
+}
+
+/** What listening for an answer came to: words to check, a reason to say it again, or speaking given up. */
+sealed interface SpokenAnswer {
+    data class Said(val text: String) : SpokenAnswer
+
+    data class Again(val why: SpeechRetry) : SpokenAnswer
+
+    /** The microphone may not be used, or nothing here hears the language: asked again it would be refused again. */
+    data object GivenUp : SpokenAnswer
+}
+
+/**
+ * Listens for an answer with [recogniser], leaning towards [hint]. A microphone silent once may be a
+ * headset switching modes; silent again right after one ([mutedBefore]), it is not to be had.
+ */
+suspend fun listenForAnswer(
+    recogniser: SpeechRecognition?,
+    languageCode: String,
+    hint: String?,
+    mutedBefore: Boolean,
+    onRecorded: () -> Unit = {},
+): SpokenAnswer {
+    val heard = when (recogniser) {
+        null -> Heard.Refused
+        else -> try {
+            recogniser.listen(languageCode, hint, onRecorded)
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            Heard.Failed
+        }
+    }
+    return when (heard) {
+        is Heard.Words -> SpokenAnswer.Said(heard.text)
+        Heard.Nothing -> SpokenAnswer.Again(SpeechRetry.NOTHING)
+        Heard.Failed -> SpokenAnswer.Again(SpeechRetry.FAILED)
+        Heard.Muted -> if (mutedBefore) SpokenAnswer.GivenUp else SpokenAnswer.Again(SpeechRetry.MUTED)
+        Heard.Refused -> SpokenAnswer.GivenUp
+    }
 }
 
 /** How well a downloaded recogniser hears, against how long it takes. */

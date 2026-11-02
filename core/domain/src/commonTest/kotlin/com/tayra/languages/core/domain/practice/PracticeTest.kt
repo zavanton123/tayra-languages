@@ -298,6 +298,18 @@ class PracticeTest {
         assertEquals(TypedResult.WRONG, PracticeChecker.check("Eu moro no Brasil.", "eu moro em Brasil"))
     }
 
+    @Test
+    fun accentsAreForgivenInEveryAlphabet() {
+        assertEquals(TypedResult.ALMOST, PracticeChecker.check("καλημέρα", "καλημερα"))
+        assertEquals(TypedResult.ALMOST, PracticeChecker.check("ещё", "еще"))
+        assertEquals(TypedResult.ALMOST, PracticeChecker.check("łódź", "lodz"))
+        // Typed apart from its letter, an accent is the same accent.
+        assertEquals(TypedResult.CORRECT, PracticeChecker.check("família", "fami\u0301lia"))
+        assertEquals(TypedResult.WRONG, PracticeChecker.check("мой", "мои"), "й is a letter of its own")
+        assertEquals(TypedResult.CORRECT, PracticeChecker.check("사람", "사람"))
+        assertEquals(TypedResult.WRONG, PracticeChecker.check("사람", "사랑"))
+    }
+
     /** A typed sentence is compared word by word: right, right but for accents, wrong in place of a word, or missing. */
     @Test
     fun aTypedSentenceIsComparedWordByWord() {

@@ -72,6 +72,8 @@ import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SentenceCheck
+import com.tayra.languages.core.ui.components.SpeakAnswer
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
@@ -99,9 +101,6 @@ import com.tayra.languages.core.domain.practice.ExerciseType
 import com.tayra.languages.core.ui.components.label
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.mutableStateOf
-import com.tayra.languages.core.domain.practice.WordResult
-import com.tayra.languages.core.domain.practice.PracticeChecker
-import androidx.compose.ui.text.style.TextDecoration
 import com.tayra.languages.core.ui.audio.rememberMicrophoneAccess
 import androidx.compose.material.icons.filled.Edit
 import com.tayra.languages.core.ui.state.CollectEvents
@@ -473,7 +472,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         when {
             exercise.isChoice -> Choices(state, exercise, actions, compact)
             exercise.tiles.isNotEmpty() -> TilesAnswer(state, exercise, actions)
-            exercise.response == PracticeResponse.SPEAK -> SpokenAnswer(state, exercise, actions)
+            exercise.response == PracticeResponse.SPEAK -> SpokenAnswer(state, actions)
             else -> TypedAnswer(state, exercise, actions)
         }
 
@@ -484,7 +483,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         }
         // A sentence built whole, or a phrase said, and not quite right: which words were.
         if (answered && (exercise.wholeSentence || exercise.saying != null) && state.result != PracticeResult.CORRECT && state.typed.isNotBlank()) {
-            SentenceCheck(exercise.saying ?: exercise.answer, state.typed)
+            SentenceCheck(exercise.saying ?: exercise.answer, state.typed, Modifier.testTag("practice-sentence-check"))
         }
 
         AppDivider()
@@ -674,62 +673,18 @@ private fun FixTranslationDialog(termId: Long, sentence: String, key: Int, onDon
 
 /** The answer said aloud: a button to start and stop hearing it, what was heard, and the way to type it instead. */
 @Composable
-private fun SpokenAnswer(state: PracticeUiState, exercise: Exercise, actions: PracticeActions) {
-    Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        if (!state.answered && !state.recognising) {
-            PrimaryButton(
-                if (state.listening) tr("Stop") else tr("Speak"),
-                onClick = if (state.listening) actions.onStopListening else actions.onListen,
-                icon = AppIcons.Mic,
-                size = ButtonSize.Large,
-                modifier = Modifier.testTag("practice-speak"),
-            )
-        }
-        val note = when {
-            state.recognising -> tr("Recognising…")
-            state.listening -> tr("Listening…")
-            state.typed.isNotBlank() -> tr("Heard: {0}", state.typed)
-            state.retry == SpeechRetry.NOTHING -> tr("Nothing was heard. Try again.")
-            state.retry == SpeechRetry.MUTED -> tr("The microphone gave no sound. Check it and try again.")
-            state.retry == SpeechRetry.FAILED -> tr("That could not be made out. Try again.")
-            else -> null
-        }
-        note?.let {
-            Text(
-                it,
-                Modifier.testTag("practice-heard"),
-                style = MaterialTheme.typography.titleMedium.copy(textDirection = if (state.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                textAlign = TextAlign.Center,
-            )
-        }
-        if (!state.answered) QuietButton(tr("Type instead"), onClick = actions.onTypeInstead, modifier = Modifier.testTag("practice-type-instead"))
-    }
-}
-
-/** The sentence expected, word by word as it was typed: right, right but for accents, wrong (with what was typed), or missing. */
-@Composable
-private fun SentenceCheck(expected: String, typed: String) {
-    val colors = MaterialTheme.colorScheme
-    val checks = remember(expected, typed) { PracticeChecker.compareWords(expected, typed) }
-    Text(
-        buildAnnotatedString {
-            checks.forEachIndexed { index, check ->
-                if (index > 0) append(" ")
-                when (check.result) {
-                    WordResult.RIGHT -> withStyle(SpanStyle(color = AppAccents.green)) { append(check.word) }
-                    WordResult.ACCENT -> withStyle(SpanStyle(color = AppAccents.amber, fontWeight = AppText.labelStrong.fontWeight)) { append(check.word) }
-                    WordResult.WRONG -> {
-                        withStyle(SpanStyle(color = AppAccents.red, fontWeight = AppText.labelStrong.fontWeight)) { append(check.word) }
-                        withStyle(SpanStyle(color = colors.onSurfaceVariant, textDecoration = TextDecoration.LineThrough)) { append(" ${check.typed}") }
-                    }
-                    WordResult.MISSING -> withStyle(SpanStyle(color = AppAccents.red, textDecoration = TextDecoration.Underline)) { append(check.word) }
-                }
-            }
-        },
-        Modifier.fillMaxWidth().testTag("practice-sentence-check"),
-        style = MaterialTheme.typography.titleMedium,
-        textAlign = TextAlign.Center,
+private fun SpokenAnswer(state: PracticeUiState, actions: PracticeActions) {
+    SpeakAnswer(
+        listening = state.listening,
+        recognising = state.recognising,
+        heard = state.typed,
+        retry = state.retry,
+        answered = state.answered,
+        onListen = actions.onListen,
+        onStop = actions.onStopListening,
+        onTypeInstead = actions.onTypeInstead,
+        tag = "practice",
+        rightToLeft = state.rightToLeft,
     )
 }
 

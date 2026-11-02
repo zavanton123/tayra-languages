@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.practice
 
+import com.tayra.languages.core.domain.morphology.Unicode
 import kotlin.random.Random
 
 /** A word being learned, where it stands in a sentence of the page. */
@@ -621,15 +622,25 @@ object PracticeChecker {
         return if (said.isNotEmpty() && " ${unaccented(normalize(word))} " in " $said ") TypedResult.CORRECT else TypedResult.WRONG
     }
 
+    // An accent typed apart from its letter is joined to it; marks with no letter to join stay, to be taken off with the accents.
     private fun normalize(text: String): String =
-        text.lowercase().map { if (it.isLetterOrDigit() || it == '\'' || it == '’') it else ' ' }.joinToString("")
+        Unicode.nfc(text.lowercase()).map { if (it.isLetterOrDigit() || it == '\'' || it == '’' || Unicode.combiningClass(it) != 0) it else ' ' }.joinToString("")
             .replace('’', '\'').trim().replace(Regex("""\s+"""), " ")
 
-    /** Plain letters with their accented forms. */
-    private val ACCENTS: Map<Char, Char> = listOf(
-        'a' to "áàâãäåāăą", 'c' to "çćč", 'd' to "ď", 'e' to "éèêëēęě", 'i' to "íìîïī", 'l' to "ł", 'n' to "ñńň",
-        'o' to "óòôõöōő", 'r' to "ř", 's' to "śš", 't' to "ť", 'u' to "úùûüūůű", 'y' to "ýÿ", 'z' to "źżž",
-    ).flatMap { (plain, accented) -> accented.map { it to plain } }.toMap()
+    /** Letters whose mark is drawn through them, so no decomposition takes it off. */
+    private val STROKED = mapOf('ł' to 'l', 'ø' to 'o', 'đ' to 'd', 'ħ' to 'h')
 
-    private fun unaccented(text: String): String = text.map { ACCENTS[it] ?: it }.joinToString("")
+    /** Letters that look accented but are letters of their own, as й is beside и. */
+    private val OWN_LETTERS = setOf('й')
+
+    /**
+     * The letters without their accents, in any alphabet that has them (é, ά, ё); scripts past
+     * U+2000 are left whole, Hangul among them, whose syllables would fall apart into letters.
+     */
+    private fun unaccented(text: String): String = buildString {
+        for (c in text) when {
+            c in OWN_LETTERS || c.code >= 0x2000 -> append(c)
+            else -> STROKED[c]?.let(::append) ?: Unicode.nfd(c.toString()).forEach { if (Unicode.combiningClass(it) == 0) append(it) }
+        }
+    }
 }

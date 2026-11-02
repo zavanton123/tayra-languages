@@ -37,22 +37,11 @@ import com.tayra.languages.core.domain.practice.WordProgress
 import com.tayra.languages.core.domain.practice.PracticeProgressRepository
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.sync.Mutex
-import co.touchlab.kermit.Logger
-import com.tayra.languages.core.domain.practice.Heard
+import com.tayra.languages.core.domain.practice.SpeechRetry
+import com.tayra.languages.core.domain.practice.SpokenAnswer
+import com.tayra.languages.core.domain.practice.listenForAnswer
 import com.tayra.languages.core.domain.practice.PracticeResponse
 import com.tayra.languages.core.domain.practice.SpeechRecognition
-
-/** Why an answer said aloud came to nothing, to be said again. */
-enum class SpeechRetry {
-    /** Nothing was made out. */
-    NOTHING,
-
-    /** The microphone gave no sound. */
-    MUTED,
-
-    /** The recogniser failed. */
-    FAILED,
-}
 
 /** How a question was answered. */
 enum class PracticeResult { CORRECT, ALMOST, TYPO, WRONG }
@@ -288,30 +277,19 @@ class PracticeViewModel(
         val mutedBefore = _state.value.retry == SpeechRetry.MUTED
         _state.update { it.copy(listening = true, retry = null, typed = "") }
         listenJob = viewModelScope.launch {
-            val heard = when (val recogniser = speech) {
-                null -> Heard.Refused
-                else -> try {
-                    recogniser.listen(code, exercise.saying ?: exercise.sentence) { _state.update { if (it.current === exercise) it.copy(recognising = true) else it } }
-                } catch (e: CancellationException) {
-                    throw e
-                } catch (e: Exception) {
-                    Logger.w(e) { "listening failed" }
-                    Heard.Failed
-                }
+            val heard = listenForAnswer(speech, code, exercise.saying ?: exercise.sentence, mutedBefore) {
+                _state.update { if (it.current === exercise) it.copy(recognising = true) else it }
             }
             _state.update { it.copy(recognising = false) }
             if (_state.value.current !== exercise) return@launch
             when (heard) {
-                is Heard.Words -> {
+                is SpokenAnswer.Said -> {
                     _state.update { it.copy(listening = false, typed = heard.text) }
                     // Only the missing word counts; the rest of the phrase is its setting.
                     record(exercise, PracticeChecker.checkSpoken(heard.text, exercise.answer).result)
                 }
-                Heard.Nothing -> retry(SpeechRetry.NOTHING)
-                Heard.Failed -> retry(SpeechRetry.FAILED)
-                // Silence once may be a headset switching modes; twice running, the microphone is not to be had.
-                Heard.Muted -> if (mutedBefore) refuseSpeaking() else retry(SpeechRetry.MUTED)
-                Heard.Refused -> refuseSpeaking()
+                is SpokenAnswer.Again -> retry(heard.why)
+                SpokenAnswer.GivenUp -> refuseSpeaking()
             }
         }
     }
