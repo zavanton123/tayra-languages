@@ -1,11 +1,5 @@
 package com.tayra.languages.feature.flashcards
 
-import com.tayra.languages.core.ui.components.ScrollColumn
-import com.tayra.languages.core.ui.components.EdgeScrollbar
-import kotlin.math.roundToInt
-import kotlin.time.Duration.Companion.minutes
-import kotlin.time.Duration.Companion.hours
-import kotlin.time.Duration.Companion.days
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -13,12 +7,14 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -78,36 +74,38 @@ import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.ui.audio.SpeakButton
 import com.tayra.languages.core.ui.audio.Speaker
 import com.tayra.languages.core.ui.audio.rememberSpeaker
-import com.tayra.languages.core.ui.components.MarkedText
-import com.tayra.languages.core.ui.components.pushFill
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
-import com.tayra.languages.core.ui.components.AppTooltip
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppTooltip
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.Appear
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.ConfirmDialog
+import com.tayra.languages.core.ui.components.EdgeScrollbar
 import com.tayra.languages.core.ui.components.FitText
 import com.tayra.languages.core.ui.components.IconButtonSize
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.LearningLanguageSelector
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.MarkedText
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.animatedCount
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.largeText
+import com.tayra.languages.core.ui.components.pushFill
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
@@ -125,6 +123,10 @@ import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.RatingColors
 import com.tayra.languages.feature.terms.examples.ChooseExampleDialog
+import kotlin.math.roundToInt
+import kotlin.time.Duration.Companion.days
+import kotlin.time.Duration.Companion.hours
+import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Instant
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
@@ -250,8 +252,8 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
     val scroll = rememberScrollState()
     Box(modifier.fillMaxSize()) {
         Box(
-            // A phone scrolls the card alone, under buttons that stay put; a wide screen scrolls the page.
-            Modifier.fillMaxSize().then(if (compact) Modifier else Modifier.verticalScroll(scroll))
+            // A phone scrolls the card alone, under buttons that stay put; so does a wide screen while a card is on it.
+            Modifier.fillMaxSize()
                 .focusRequester(focus).focusable().testTag("flashcards-keys")
                 .onPreviewKeyEvent { event ->
                     // Nothing is answered while the session's speech is being made.
@@ -281,9 +283,12 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
             if (compact) {
                 PhoneReview(state, speaker, actions)
             } else {
+                val reviewing = state.card != null && state.preparingAudio == null
                 Column(
-                    Modifier.widthIn(max = REVIEW_WIDTH).fillMaxWidth().padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
-                    verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xxl),
+                    // The card takes the height between the progress and the answers at the foot; with no card, the page scrolls.
+                    Modifier.widthIn(max = REVIEW_WIDTH).fillMaxWidth().then(if (reviewing) Modifier.fillMaxHeight() else Modifier.verticalScroll(scroll))
+                        .padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.xxxl),
+                    verticalArrangement = Arrangement.spacedBy(AppSpacing.xxl),
                 ) {
                     ScreenHeader(
                         tr("Flashcards"),
@@ -300,11 +305,16 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                     } else if (card == null) {
                         Finished(state, actions)
                     } else {
-                        // Each card fades in as it comes up.
-                        key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact, actions.onReveal, onChooseExample = { actions.onChooseExample(card) }) } }
-                        // The answers fade in as the card turns over.
-                        if (state.revealed) Appear { Answers(actions, compact, state.twoButtons, state.waits) }
-                        CardFooter(card, state.canUndo, actions, compact)
+                        // Each card fades in as it comes up, filling the height left to it.
+                        key(card.termId) { Appear(Modifier.weight(1f), grow = true) { WideCard(card, state.revealed, state.canUndo, speaker, actions) } }
+                        // Show answer and the answers share one place at the foot; the answers fade in as the card turns over.
+                        if (state.revealed) {
+                            Appear { Answers(actions, compact = false, state.twoButtons, state.waits) }
+                        } else {
+                            PrimaryButton(onClick = actions.onReveal, modifier = Modifier.fillMaxWidth().height(ANSWER_SLOT).then(NoFocus)) {
+                                Text(tr("Show answer"), style = AppText.itemTitle)
+                            }
+                        }
                     }
                 }
             }
@@ -342,7 +352,7 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             val preparing = state.preparingAudio
             if (preparing != null) PreparingAudio(preparing, actions.onStartWithoutWaiting, compact = true)
             else if (card == null) Finished(state, actions)
-            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, actions.onReveal, revealButton = false, onChooseExample = { actions.onChooseExample(card) }) } }
+            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, onChooseExample = { actions.onChooseExample(card) }) } }
         }
         val card = state.card?.takeIf { state.preparingAudio == null } ?: return@Column
         Column(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -354,7 +364,7 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
                     Text(tr("Show answer"), style = AppText.itemTitle)
                 }
             }
-            CardFooter(card, state.canUndo, actions, compact = true)
+            CardFooter(card, state.canUndo, actions)
         }
     }
 }
@@ -444,7 +454,7 @@ private fun CountPill(tag: String, count: Int, label: String, tint: Color, large
  * examples for it, beside its sound.
  */
 @Composable
-private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onReveal: () -> Unit, revealButton: Boolean = true, onChooseExample: () -> Unit = {}) {
+private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onChooseExample: () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val inset = if (compact) AppSpacing.xl else AppSpacing.xxxl
@@ -486,44 +496,7 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
                 )
             }
         }
-        val fill = AppAccents.highlight.copy(alpha = AppAlpha.half)
-        val highlight = SpanStyle(fontWeight = AppText.labelStrong.fontWeight)
-        fun AnnotatedString.Builder.marked(word: String) {
-            pushFill(fill)
-            withStyle(highlight) { append(word) }
-            pop()
-        }
-        val sentence = card.sentence
-        val range = card.wordRange
-        val front = when {
-            sentence == null -> buildAnnotatedString { marked(card.word) }
-            range == null -> buildAnnotatedString {
-                // The word is not in the sentence as written: it leads, as on the exported card.
-                marked(if (revealed) card.word else BLANK)
-                append("\n")
-                append(sentence)
-            }
-            else -> buildAnnotatedString {
-                append(sentence.substring(0, range.first))
-                marked(if (revealed) sentence.substring(range) else BLANK)
-                append(sentence.substring(range.last + 1))
-            }
-        }
-        MarkedText(
-            front,
-            style = AppText.cardSentence(if (compact) 26f else 30f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),
-            modifier = Modifier.padding(top = if (compact) AppSpacing.s else AppSpacing.m, bottom = if (compact) AppSpacing.l else AppSpacing.xxl).testTag("flashcard-front"),
-        )
-        // A sentence keeps its translation's place from the start, in the same type, so nothing moves when it comes.
-        if (sentence != null || card.sentenceTranslation != null) {
-            val translation = card.sentenceTranslation
-            Text(
-                translation ?: if (card.translating) tr("Translating…") else tr("No translation available"),
-                Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash))
-                    .padding(horizontal = if (compact) AppSpacing.l else AppSpacing.huge, vertical = AppSpacing.l).testTag("flashcard-translation"),
-                style = AppText.cardTranslation(compact).copy(color = if (translation != null) colors.onSurfaceVariant else colors.outline, textAlign = TextAlign.Center),
-            )
-        }
+        CardText(card, revealed, compact)
         if (revealed) {
             Column(
                 Modifier.fillMaxWidth().padding(top = AppSpacing.xxl, bottom = AppSpacing.xs).testTag("flashcard-answer"),
@@ -534,13 +507,7 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
                     // Ringed as the sentence's button is, so it reads as a button beside the word.
                     if (speaker != null) SpeakButton(card.word, card.languageCode, speaker, NoFocus, style = IconButtonStyle.Outlined, size = IconButtonSize.Large, shape = AppShapes.circle)
                     Text(card.word, style = AppText.cardWord(compact).copy(color = colors.onSurface, textDirection = direction))
-                    if (card.partOfSpeech.isNotEmpty()) {
-                        Text(
-                            card.partOfSpeech.uppercase(),
-                            Modifier.clip(AppShapes.small).background(AppAccents.highlightSoft).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
-                            style = AppText.overline.copy(color = AppAccents.onHighlight),
-                        )
-                    }
+                    if (card.partOfSpeech.isNotEmpty()) PartOfSpeech(card.partOfSpeech)
                 }
                 Text(
                     card.translation.ifEmpty { tr("No translation saved yet") },
@@ -548,26 +515,170 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
                 )
                 if (card.romanization.isNotEmpty()) Text(card.romanization, style = MaterialTheme.typography.bodyLarge, color = colors.outline)
             }
-        } else if (revealButton) {
-            PrimaryButton(
-                onClick = onReveal,
-                modifier = Modifier.padding(top = AppSpacing.xl, bottom = AppSpacing.s).then(if (compact) Modifier.fillMaxWidth(0.85f) else Modifier.widthIn(min = SHOW_ANSWER_WIDTH)).height(if (compact) SHOW_ANSWER_HEIGHT_COMPACT else SHOW_ANSWER_HEIGHT).then(NoFocus),
+        }
+    }
+}
+
+/** The card's sentence with its word blanked out, or put back once answered, over the sentence's translation. */
+@Composable
+private fun CardText(card: CardContent, revealed: Boolean, compact: Boolean) {
+    val colors = MaterialTheme.colorScheme
+    val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
+    val fill = AppAccents.highlight.copy(alpha = AppAlpha.half)
+    val highlight = SpanStyle(fontWeight = AppText.labelStrong.fontWeight)
+    fun AnnotatedString.Builder.marked(word: String) {
+        pushFill(fill)
+        withStyle(highlight) { append(word) }
+        pop()
+    }
+    val sentence = card.sentence
+    val range = card.wordRange
+    val front = when {
+        sentence == null -> buildAnnotatedString { marked(card.word) }
+        range == null -> buildAnnotatedString {
+            // The word is not in the sentence as written: it leads, as on the exported card.
+            marked(if (revealed) card.word else BLANK)
+            append("\n")
+            append(sentence)
+        }
+        else -> buildAnnotatedString {
+            append(sentence.substring(0, range.first))
+            marked(if (revealed) sentence.substring(range) else BLANK)
+            append(sentence.substring(range.last + 1))
+        }
+    }
+    MarkedText(
+        front,
+        style = AppText.cardSentence(if (compact) 26f else 30f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),
+        modifier = Modifier.padding(top = if (compact) AppSpacing.s else AppSpacing.m, bottom = if (compact) AppSpacing.l else AppSpacing.xxl).testTag("flashcard-front"),
+    )
+    // A sentence keeps its translation's place from the start, in the same type, so nothing moves when it comes.
+    if (sentence != null || card.sentenceTranslation != null) {
+        val translation = card.sentenceTranslation
+        Text(
+            translation ?: if (card.translating) tr("Translating…") else tr("No translation available"),
+            Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash))
+                .padding(horizontal = if (compact) AppSpacing.l else AppSpacing.huge, vertical = AppSpacing.l).testTag("flashcard-translation"),
+            style = AppText.cardTranslation(compact).copy(color = if (translation != null) colors.onSurfaceVariant else colors.outline, textAlign = TextAlign.Center),
+        )
+    }
+}
+
+/**
+ * The card on a wide screen, as tall as the room it is given: its buttons along the top (back to
+ * the previous card on the left; the sentence's sound, other examples once answered and the rest
+ * on the right) and its content in the middle, scrolling should it not fit. The answer puts the
+ * word under the sentence, its sound above it.
+ */
+@Composable
+private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier) {
+    val colors = MaterialTheme.colorScheme
+    val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
+    Column(modifier.fillMaxSize().cardSurface(AppShapes.large).padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl).testTag("flashcard")) {
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            CardButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous card"), actions.onUndo, enabled = canUndo, tag = "previous-card")
+            Spacer(Modifier.weight(1f))
+            if (speaker != null) {
+                SpeakButton(
+                    card.spoken, card.languageCode, speaker, NoFocus,
+                    style = IconButtonStyle.Outlined, size = IconButtonSize.Large, shape = AppShapes.circle,
+                    tooltip = if (card.sentence != null) tr("Listen to the sentence") else tr("Pronounce"),
+                )
+            }
+            // Other examples show the word, so they are offered once it is shown.
+            if (revealed && card.sentence != null) CardButton(AppIcons.Sync, tr("Choose another example"), { actions.onChooseExample(card) }, tag = "choose-example")
+            CardMenu(card, actions)
+        }
+        BoxWithConstraints(Modifier.weight(1f).fillMaxWidth()) {
+            Column(
+                Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).heightIn(min = maxHeight).padding(horizontal = AppSpacing.l, vertical = AppSpacing.l),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center,
             ) {
-                Text(tr("Show answer"), style = AppText.itemTitle)
+                CardText(card, revealed, compact = false)
+                if (revealed) {
+                    Column(
+                        Modifier.fillMaxWidth().padding(top = AppSpacing.xxl).testTag("flashcard-answer"),
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
+                    ) {
+                        if (speaker != null) SpeakButton(card.word, card.languageCode, speaker, NoFocus, style = IconButtonStyle.Outlined, size = IconButtonSize.Large, shape = AppShapes.circle)
+                        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                            Text(card.word, style = AppText.cardWord(compact = false).copy(color = colors.onSurface, textDirection = direction))
+                            if (card.partOfSpeech.isNotEmpty()) PartOfSpeech(card.partOfSpeech)
+                        }
+                        Text(
+                            card.translation.ifEmpty { tr("No translation saved yet") },
+                            style = AppText.cardBack(compact = false).copy(color = if (card.translation.isEmpty()) colors.outline else colors.onSurfaceVariant, textAlign = TextAlign.Center),
+                        )
+                        if (card.romanization.isNotEmpty()) Text(card.romanization, style = MaterialTheme.typography.bodyLarge, color = colors.outline)
+                    }
+                }
             }
         }
     }
+}
+
+/** A round button along the card's top, named by its tooltip. */
+@Composable
+private fun CardButton(icon: ImageVector, label: String, onClick: () -> Unit, enabled: Boolean = true, tag: String) {
+    AppTooltip(label) {
+        AppIconButton(
+            icon,
+            contentDescription = label,
+            onClick = onClick,
+            modifier = NoFocus.testTag(tag),
+            enabled = enabled,
+            size = IconButtonSize.Large,
+            style = IconButtonStyle.Outlined,
+            tint = if (enabled) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outlineVariant,
+            shape = AppShapes.circle,
+        )
+    }
+}
+
+/** The card's other actions behind one round button: its details, and suspending or deleting it. */
+@Composable
+private fun CardMenu(card: CardContent, actions: FlashcardActions) {
+    var open by remember { mutableStateOf(false) }
+    Box {
+        CardButton(AppIcons.MoreHoriz, tr("More actions"), { open = true }, tag = "card-menu")
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            MenuAction(Icons.Default.Edit, tr("Edit flashcard")) { open = false; actions.onEdit(card.termId) }
+            MenuAction(AppIcons.Pause, tr("Suspend card")) { open = false; actions.onSuspend() }
+            MenuAction(Icons.Default.Delete, tr("Delete card"), destructive = true) { open = false; actions.onDelete() }
+        }
+    }
+}
+
+@Composable
+private fun MenuAction(icon: ImageVector, label: String, destructive: Boolean = false, onClick: () -> Unit) {
+    val tint = if (destructive) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurfaceVariant
+    AppMenuItem(text = {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.icon))
+            Text(label, color = if (destructive) MaterialTheme.colorScheme.error else Color.Unspecified)
+        }
+    }, onClick = onClick)
+}
+
+/** The word's part of speech, as a small tag beside it. */
+@Composable
+private fun PartOfSpeech(pos: String) {
+    Text(
+        pos.uppercase(),
+        Modifier.clip(AppShapes.small).background(AppAccents.highlightSoft).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
+        style = AppText.overline.copy(color = AppAccents.onHighlight),
+    )
 }
 
 private const val BLANK = "[...]"
 
 private val REVIEW_WIDTH = 1048.dp
 private val PILL_DIVIDER_HEIGHT = 22.dp
-private val SHOW_ANSWER_WIDTH = 360.dp
-private val SHOW_ANSWER_HEIGHT = 64.dp
-private val SHOW_ANSWER_HEIGHT_COMPACT = 54.dp
 
-/** The phone's answer slot: Show answer and the answers under it are the same height, so neither moves the other. */
+/** The answer slot at the foot: Show answer and the answers in its place are the same height, so neither moves the other. */
+private val ANSWER_SLOT = 76.dp
 private val ANSWER_SLOT_COMPACT = 76.dp
 private val FINISHED_ICON_TILE = 64.dp
 private val PREPARING_BAR_WIDTH = 420.dp
@@ -588,7 +699,7 @@ private fun Answers(actions: FlashcardActions, compact: Boolean, twoButtons: Boo
             val tint = rating.tint
             val label = tr(rating.label)
             Column(
-                Modifier.weight(1f).then(if (compact) Modifier.heightIn(min = ANSWER_SLOT_COMPACT) else Modifier).clip(AppShapes.panel).background(tint.copy(alpha = AppAlpha.tint)).border(AppBorders.hairline(tint.copy(alpha = AppAlpha.disabled)), AppShapes.panel)
+                Modifier.weight(1f).heightIn(min = if (compact) ANSWER_SLOT_COMPACT else ANSWER_SLOT).clip(AppShapes.panel).background(tint.copy(alpha = AppAlpha.tint)).border(AppBorders.hairline(tint.copy(alpha = AppAlpha.disabled)), AppShapes.panel)
                     .then(NoFocus).clickable(onClickLabel = label) { actions.onAnswer(rating) }.padding(vertical = if (compact) AppSpacing.l else AppSpacing.xl, horizontal = AppSpacing.xs).testTag("answer-${rating.label}"),
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center,
@@ -601,31 +712,22 @@ private fun Answers(actions: FlashcardActions, compact: Boolean, twoButtons: Boo
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
+/** A phone's actions under the card: the short names only, spread over the width. */
 @Composable
-private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardActions, compact: Boolean) {
-    if (compact) {
-        // A phone has the room for the short names only, spread over the width.
-        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-            FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous"), Modifier.weight(1f), tight = true, enabled = canUndo, onClick = actions.onUndo)
-            FooterLink(Icons.Default.Edit, tr("Edit"), Modifier.weight(1f), tight = true, onClick = { actions.onEdit(card.termId) })
-            MoreActions(actions, tight = true, Modifier.weight(1f))
-        }
-        return
-    }
-    FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl, Alignment.CenterHorizontally), itemVerticalAlignment = Alignment.CenterVertically) {
-        FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous card"), enabled = canUndo, onClick = actions.onUndo)
-        FooterLink(Icons.Default.Edit, tr("Edit flashcard"), onClick = { actions.onEdit(card.termId) })
-        MoreActions(actions, tight = false)
+private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardActions) {
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+        FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous"), Modifier.weight(1f), enabled = canUndo, onClick = actions.onUndo)
+        FooterLink(Icons.Default.Edit, tr("Edit"), Modifier.weight(1f), onClick = { actions.onEdit(card.termId) })
+        MoreActions(actions, Modifier.weight(1f))
     }
 }
 
 /** Suspend and Delete, a step away from the card so neither is pressed by mistake while reviewing. */
 @Composable
-private fun MoreActions(actions: FlashcardActions, tight: Boolean, modifier: Modifier = Modifier) {
+private fun MoreActions(actions: FlashcardActions, modifier: Modifier = Modifier) {
     var open by remember { mutableStateOf(false) }
     Box(modifier) {
-        FooterLink(AppIcons.MoreHoriz, tr("More"), if (tight) Modifier.fillMaxWidth() else Modifier, tight = tight, onClick = { open = true })
+        FooterLink(AppIcons.MoreHoriz, tr("More"), Modifier.fillMaxWidth(), onClick = { open = true })
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             AppMenuItem(text = { Text(tr("Suspend card")) }, onClick = { open = false; actions.onSuspend() })
             AppMenuItem(text = { Text(tr("Delete card"), color = MaterialTheme.colorScheme.error) }, onClick = { open = false; actions.onDelete() })
@@ -633,26 +735,13 @@ private fun MoreActions(actions: FlashcardActions, tight: Boolean, modifier: Mod
     }
 }
 
-/** One of the actions under the card; [tight] for a phone's row of them. */
+/** One of the phone's actions under the card: the icon over its name, so each name has the whole column. */
 @Composable
-private fun FooterLink(icon: ImageVector, label: String, modifier: Modifier = Modifier, enabled: Boolean = true, destructive: Boolean = false, tight: Boolean = false, onClick: () -> Unit) {
-    QuietButton(
-        onClick = onClick,
-        enabled = enabled,
-        modifier = modifier.then(NoFocus),
-        size = if (tight) ButtonSize.Compact else ButtonSize.Regular,
-        tone = if (destructive) ButtonTone.Danger else ButtonTone.Normal,
-    ) {
-        if (tight) {
-            // The icon over its name, so each name has the whole column.
-            Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                Icon(icon, contentDescription = null, modifier = Modifier.size(AppSizes.iconMedium))
-                FitText(label, style = MaterialTheme.typography.labelLarge)
-            }
-        } else {
-            Icon(icon, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
-            Spacer(Modifier.width(AppSpacing.s))
-            Text(label, style = MaterialTheme.typography.bodyLarge)
+private fun FooterLink(icon: ImageVector, label: String, modifier: Modifier = Modifier, enabled: Boolean = true, onClick: () -> Unit) {
+    QuietButton(onClick = onClick, enabled = enabled, modifier = modifier.then(NoFocus), size = ButtonSize.Compact) {
+        Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+            Icon(icon, contentDescription = null, modifier = Modifier.size(AppSizes.iconMedium))
+            FitText(label, style = MaterialTheme.typography.labelLarge)
         }
     }
 }

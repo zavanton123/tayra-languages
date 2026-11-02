@@ -490,7 +490,7 @@ class FlashcardsScreenTest {
     @Test
     fun deletingTheCardOnShowDeletesItsWord() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
-        onNodeWithText("More").performClick()
+        onNodeWithContentDescription("More actions").performClick()
         onNodeWithText("Delete card").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No cards are due").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(null, runBlocking { terms.getById(termId) })
