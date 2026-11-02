@@ -374,4 +374,6 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Responder Difícil",
     "Answer Good" to "Responder Bom",
     "Answer Easy" to "Responder Fácil",
+    "Suspend the card" to "Suspender flashcard",
+    "Delete the card" to "Excluir flashcard",
 )

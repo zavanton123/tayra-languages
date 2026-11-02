@@ -374,4 +374,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Odpowiedz Trudne",
     "Answer Good" to "Odpowiedz Dobre",
     "Answer Easy" to "Odpowiedz Łatwe",
+    "Suspend the card" to "Wstrzymaj fiszkę",
+    "Delete the card" to "Usuń fiszkę",
 )

@@ -105,6 +105,9 @@ class FlashcardsKeysTest {
     /** The cards the edit shortcut opened. */
     private val edited = mutableListOf<Long>()
 
+    /** The card actions the shortcuts asked for. */
+    private val pressed = mutableListOf<String>()
+
     private fun ComposeUiTest.show(): FlashcardsViewModel {
         val id = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
@@ -142,7 +145,7 @@ class FlashcardsKeysTest {
                             Column {
                                 // Something else that takes the keyboard, as another screen or window does.
                                 androidx.compose.foundation.layout.Box(Modifier.size(1.dp).focusRequester(elsewhere).focusable().testTag("elsewhere"))
-                                FlashcardsContent(state, speaker = speaker, actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onEdit = { edited += it }))
+                                FlashcardsContent(state, speaker = speaker, actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onEdit = { edited += it }, onSuspend = { pressed += "suspend" }, onDelete = { pressed += "delete" }))
                             }
                         }
                     }
@@ -178,6 +181,15 @@ class FlashcardsKeysTest {
         val viewModel = show()
         onRoot().performKeyInput { pressKey(Key.E) }
         assertEquals(listOf(viewModel.state.value.card!!.termId), edited)
+    }
+
+    /** S suspends the card, and D asks to delete it. */
+    @Test
+    fun sSuspendsAndDDeletesTheCard() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        onRoot().performKeyInput { pressKey(Key.S) }
+        onRoot().performKeyInput { pressKey(Key.D) }
+        assertEquals(listOf("suspend", "delete"), pressed)
     }
 
     @Test

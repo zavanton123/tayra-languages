@@ -374,4 +374,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Ответить «Трудно»",
     "Answer Good" to "Ответить «Хорошо»",
     "Answer Easy" to "Ответить «Легко»",
+    "Suspend the card" to "Приостановить карточку",
+    "Delete the card" to "Удалить карточку",
 )

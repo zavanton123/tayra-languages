@@ -129,7 +129,9 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     FLASHCARDS_GOOD(HotkeyCategory.FLASHCARDS, "Answer Good", Hotkey("3")),
     FLASHCARDS_EASY(HotkeyCategory.FLASHCARDS, "Answer Easy", Hotkey("4")),
     FLASHCARDS_LISTEN(HotkeyCategory.FLASHCARDS, "Listen to the card's sentence", Hotkey("R")),
-    FLASHCARDS_EDIT(HotkeyCategory.FLASHCARDS, "Edit the flashcard", Hotkey("E"));
+    FLASHCARDS_EDIT(HotkeyCategory.FLASHCARDS, "Edit the flashcard", Hotkey("E")),
+    FLASHCARDS_SUSPEND(HotkeyCategory.FLASHCARDS, "Suspend the card", Hotkey("S")),
+    FLASHCARDS_DELETE(HotkeyCategory.FLASHCARDS, "Delete the card", Hotkey("D"));
 
     /** Stable key used for persistence. */
     val settingKey: String get() = "hotkey_$name"

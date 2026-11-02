@@ -378,14 +378,14 @@ class FlashcardsScreenTest {
     @Test
     fun theAnswerKeysCanBeChanged() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val viewModel = show(hotkeys = HotkeyAction.defaults + mapOf(
-            HotkeyAction.FLASHCARDS_SHOW_ANSWER to Hotkey("S"),
+            HotkeyAction.FLASHCARDS_SHOW_ANSWER to Hotkey("A"),
             HotkeyAction.FLASHCARDS_SHOW_ANSWER_ENTER to null,
             HotkeyAction.FLASHCARDS_EASY to Hotkey("L"),
         ))
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Spacebar) }
         waitForIdle()
         assertEquals(false, viewModel.state.value.revealed, "Space no longer shows the answer")
-        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.S) }
+        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.A) }
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.revealed }
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Four) }
         waitForIdle()

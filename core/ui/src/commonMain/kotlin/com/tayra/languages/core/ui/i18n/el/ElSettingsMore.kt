@@ -374,4 +374,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Απάντηση Δύσκολο",
     "Answer Good" to "Απάντηση Καλό",
     "Answer Easy" to "Απάντηση Εύκολο",
+    "Suspend the card" to "Αναστολή κάρτας",
+    "Delete the card" to "Διαγραφή κάρτας",
 )

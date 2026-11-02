@@ -180,7 +180,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onStartWithoutWaiting = viewModel::startWithoutWaiting,
             ),
             modifier = Modifier.padding(padding),
-            overlay = choosingExample != null || details != null,
+            overlay = choosingExample != null || details != null || confirmDelete != null,
         )
     }
     details?.let { termId -> FlashcardDetails(termId, onNavigate, onClose = { details = null; viewModel.reloadCard() }) }
@@ -262,6 +262,9 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         isKey(HotkeyAction.FLASHCARDS_PREVIOUS, HotkeyAction.FLASHCARDS_PREVIOUS_ARROW) -> if (state.canUndo) actions.onUndo()
                         isKey(HotkeyAction.FLASHCARDS_LISTEN) && speaker != null -> state.card?.let { speaker.toggle(it.spoken, it.languageCode) }
                         isKey(HotkeyAction.FLASHCARDS_EDIT) -> state.card?.let { actions.onEdit(it.termId) }
+                        isKey(HotkeyAction.FLASHCARDS_SUSPEND) -> actions.onSuspend()
+                        // Asks first, as from the menu.
+                        isKey(HotkeyAction.FLASHCARDS_DELETE) -> actions.onDelete()
                         isKey(HotkeyAction.FLASHCARDS_SHOW_ANSWER, HotkeyAction.FLASHCARDS_SHOW_ANSWER_ENTER) -> if (state.revealed) actions.onAnswer(Rating.GOOD) else actions.onReveal()
                         !state.revealed -> return@onPreviewKeyEvent false
                         isKey(HotkeyAction.FLASHCARDS_AGAIN) -> actions.onAnswer(Rating.AGAIN)

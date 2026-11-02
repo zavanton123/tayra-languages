@@ -374,4 +374,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "回答“困难”",
     "Answer Good" to "回答“良好”",
     "Answer Easy" to "回答“简单”",
+    "Suspend the card" to "暂停卡片",
+    "Delete the card" to "删除卡片",
 )

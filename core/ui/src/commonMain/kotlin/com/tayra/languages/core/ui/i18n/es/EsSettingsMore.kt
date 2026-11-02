@@ -374,4 +374,6 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Responder Difícil",
     "Answer Good" to "Responder Bien",
     "Answer Easy" to "Responder Fácil",
+    "Suspend the card" to "Suspender tarjeta",
+    "Delete the card" to "Eliminar tarjeta",
 )

@@ -374,4 +374,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Répondre Difficile",
     "Answer Good" to "Répondre Correct",
     "Answer Easy" to "Répondre Facile",
+    "Suspend the card" to "Suspendre la carte",
+    "Delete the card" to "Supprimer la carte",
 )
