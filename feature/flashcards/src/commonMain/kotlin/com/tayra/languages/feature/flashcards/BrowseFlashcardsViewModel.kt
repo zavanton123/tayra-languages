@@ -41,6 +41,8 @@ data class BrowseRow(
     val lastReview: Instant?,
     /** When the word became one being learned and the card was made. */
     val created: Instant?,
+    /** Made in the current study day. */
+    val addedToday: Boolean = false,
     /** FSRS's difficulty, from 1 to 10, and stability in days; null before the first answer. */
     val difficulty: Double?,
     val stability: Double?,
@@ -50,15 +52,15 @@ data class BrowseRow(
     val languageId: Long = 0,
 )
 
-/** The groups of cards the browser can show, as the items of Anki's sidebar. */
-enum class BrowseView { ALL, DUE, NEW, LEARNING, REVIEW, FORGOTTEN, SUSPENDED }
+/** The groups of cards the browser can show, as the items of Anki's sidebar; [ADDED_TODAY] is opened from its figure only. */
+enum class BrowseView { ALL, DUE, NEW, LEARNING, REVIEW, FORGOTTEN, SUSPENDED, ADDED_TODAY }
 
 enum class BrowseSortField { WORD, STATE, DUE, INTERVAL, REVIEWS, LAPSES, LAST_REVIEW, CREATED }
 
 data class BrowseSort(val field: BrowseSortField, val ascending: Boolean = true)
 
 /** How many cards each [BrowseView] holds. */
-data class BrowseCounts(val all: Int = 0, val due: Int = 0, val new: Int = 0, val learning: Int = 0, val review: Int = 0, val forgotten: Int = 0, val suspended: Int = 0) {
+data class BrowseCounts(val all: Int = 0, val due: Int = 0, val new: Int = 0, val learning: Int = 0, val review: Int = 0, val forgotten: Int = 0, val suspended: Int = 0, val addedToday: Int = 0) {
     operator fun get(view: BrowseView): Int = when (view) {
         BrowseView.ALL -> all
         BrowseView.DUE -> due
@@ -67,6 +69,7 @@ data class BrowseCounts(val all: Int = 0, val due: Int = 0, val new: Int = 0, va
         BrowseView.REVIEW -> review
         BrowseView.FORGOTTEN -> forgotten
         BrowseView.SUSPENDED -> suspended
+        BrowseView.ADDED_TODAY -> addedToday
     }
 }
 
@@ -186,6 +189,7 @@ class BrowseFlashcardsViewModel(
                     lapses = s.lapses,
                     lastReview = s.lastReview,
                     created = card.createdAt ?: entry.term.createdAt,
+                    addedToday = (card.createdAt ?: entry.term.createdAt)?.let { it >= browse.startOfDay } == true,
                     difficulty = s.memory?.difficulty,
                     stability = s.memory?.stability,
                     retrievability = entry.retrievability,
@@ -213,6 +217,7 @@ class BrowseFlashcardsViewModel(
         review = rows.count { it.state == CardState.REVIEW && !it.suspended },
         forgotten = rows.count { it.lapses > 0 },
         suspended = rows.count { it.suspended },
+        addedToday = rows.count { it.addedToday },
     )
 
     private fun BrowseRow.inView(view: BrowseView): Boolean = when (view) {
@@ -223,6 +228,7 @@ class BrowseFlashcardsViewModel(
         BrowseView.REVIEW -> state == CardState.REVIEW && !suspended
         BrowseView.FORGOTTEN -> lapses > 0
         BrowseView.SUSPENDED -> suspended
+        BrowseView.ADDED_TODAY -> addedToday
     }
 
     /** Applies the view, the search and the sort to the cards, staying on the page shown while it still has cards. */

@@ -28,6 +28,7 @@ import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
@@ -281,14 +282,14 @@ internal fun FocusRow(state: BrowseUiState, rows: List<BrowseRow>, list: LazyLis
     }
 }
 
-/** The three figures that matter most, each a way to its group: every card, those due today, those forgotten before. */
+/** The three figures that matter most, each a way to its group: every card, those due today, those added today. */
 @Composable
 private fun BrowseFigures(state: BrowseUiState, onSelect: (BrowseView) -> Unit) {
     Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         val figure = Modifier.weight(1f)
         Figure(BrowseView.ALL, tr("Total cards"), AppIcons.Style, AppAccents.blue, state, onSelect, figure)
         Figure(BrowseView.DUE, tr("Due today"), AppIcons.Schedule, AppAccents.green, state, onSelect, figure)
-        Figure(BrowseView.FORGOTTEN, tr("Forgotten before"), AppIcons.History, AppAccents.red, state, onSelect, figure)
+        Figure(BrowseView.ADDED_TODAY, tr("Added today"), Icons.Default.Add, AppAccents.purple, state, onSelect, figure)
     }
 }
 
@@ -354,6 +355,7 @@ internal val BrowseView.label: String
         BrowseView.REVIEW -> tr("Scheduled")
         BrowseView.FORGOTTEN -> tr("Forgotten before")
         BrowseView.SUSPENDED -> tr("Suspended")
+        BrowseView.ADDED_TODAY -> tr("Added today")
     }
 
 /** The groups of cards to show, each with how many it holds. */
@@ -361,7 +363,8 @@ internal val BrowseView.label: String
 @Composable
 internal fun ViewChips(state: BrowseUiState, onSelect: (BrowseView) -> Unit, modifier: Modifier = Modifier, large: Boolean = false, short: Boolean = false) {
     FlowRow(modifier, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        BrowseView.entries.forEach { view -> ViewChip(view, state.counts[view], selected = view == state.view, large, short) { onSelect(view) } }
+        // Added today is opened from its figure; the chips are Anki's groups.
+        BrowseView.entries.filter { it != BrowseView.ADDED_TODAY }.forEach { view -> ViewChip(view, state.counts[view], selected = view == state.view, large, short) { onSelect(view) } }
     }
 }
 
@@ -375,6 +378,7 @@ private fun ViewChip(view: BrowseView, count: Int, selected: Boolean, large: Boo
         BrowseView.DUE -> AppAccents.orange
         BrowseView.FORGOTTEN -> AppAccents.red
         BrowseView.SUSPENDED -> AppAccents.gray
+        BrowseView.ADDED_TODAY -> AppAccents.purple
         BrowseView.ALL -> colors.primary
     }
     // A phone's row is narrow: the first two groups go by one word.

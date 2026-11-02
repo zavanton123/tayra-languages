@@ -204,12 +204,18 @@ class BrowseFlashcardsScreenTest {
     /** The figures over the table count their groups and show them when clicked. */
     @Test
     fun theFiguresShowTheirGroups() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = show()
+        val day = 86_400_000L
+        // One card was made two days ago; the other two today.
+        val viewModel = show { sql("UPDATE flashcards SET created_at = ${System.currentTimeMillis() - 2 * day} WHERE term_id = $livro") }
         onNodeWithTag("browse-figure-ALL").assertExists()
         save("BROWSE_DESKTOP_SCREENSHOT")
-        onNodeWithTag("browse-figure-FORGOTTEN").performClick()
+        assertEquals(2, viewModel.state.value.counts.addedToday)
+        onNodeWithTag("browse-figure-ADDED_TODAY").performClick()
         waitForIdle()
-        assertEquals(BrowseView.FORGOTTEN, viewModel.state.value.view)
+        assertEquals(BrowseView.ADDED_TODAY, viewModel.state.value.view)
+        assertEquals(setOf(comprar, casa), viewModel.state.value.rows.map { it.termId }.toSet())
+        // It is not one of the chips.
+        assertEquals(0, onAllNodesWithTag("browse-view-ADDED_TODAY").fetchSemanticsNodes().size)
         onNodeWithTag("browse-figure-ALL").performClick()
         waitForIdle()
         assertEquals(3, viewModel.state.value.rows.size)

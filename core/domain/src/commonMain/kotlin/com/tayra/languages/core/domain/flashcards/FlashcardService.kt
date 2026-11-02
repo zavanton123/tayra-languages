@@ -54,8 +54,8 @@ class FlashcardService(
         val retrievability: Double?,
     )
 
-    /** Every card of a language with its term; [endOfDay] is when the current study day ends, by which the cards due today come. */
-    data class Browse(val cards: List<BrowseCard>, val now: Instant, val endOfDay: Instant)
+    /** Every card of a language with its term; the current study day runs from [startOfDay] to [endOfDay], by which the cards due today come. */
+    data class Browse(val cards: List<BrowseCard>, val now: Instant, val endOfDay: Instant, val startOfDay: Instant = endOfDay)
 
     /** What an answer changed, enough to take it back. */
     data class Answered(val before: Flashcard, val statusBefore: TermStatus, val statusAfter: TermStatus, val reviewId: Long)
@@ -187,7 +187,8 @@ class FlashcardService(
         val all = cards.list(languageId)
         val byId = terms.getByIds(all.map { it.termId }).associateBy { it.id }
         val listed = all.mapNotNull { card -> byId[card.termId]?.let { BrowseCard(card, it, scheduler.retrievability(card.schedule, now, config)) } }
-        return Browse(listed, now, scheduler.dayStart(scheduler.day(now, config) + 1, config))
+        val day = scheduler.day(now, config)
+        return Browse(listed, now, endOfDay = scheduler.dayStart(day + 1, config), startOfDay = scheduler.dayStart(day, config))
     }
 
     /** The answers given to the term's card, the latest first. */
