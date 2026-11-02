@@ -348,14 +348,14 @@ class FlashcardsScreenTest {
     /** The shortcut back is the configurable one: given another key, that key goes back and Ctrl+Z no longer does. */
     @Test
     fun theShortcutBackCanBeChanged() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        show(hotkeys = HotkeyAction.defaults + (HotkeyAction.FLASHCARDS_PREVIOUS to Hotkey("B")))
+        show(hotkeys = HotkeyAction.defaults + (HotkeyAction.FLASHCARDS_PREVIOUS to Hotkey("P")))
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("answer-Good").performClick()
         waitForCard("Card 2 of 2")
         onNodeWithTag("flashcard").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Z) } }
         waitForIdle()
         onNodeWithText("Card 2 of 2").assertExists()
-        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.B) }
+        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.P) }
         waitForCard("Card 1 of 1")
     }
 

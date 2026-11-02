@@ -145,7 +145,7 @@ class FlashcardsKeysTest {
                             Column {
                                 // Something else that takes the keyboard, as another screen or window does.
                                 androidx.compose.foundation.layout.Box(Modifier.size(1.dp).focusRequester(elsewhere).focusable().testTag("elsewhere"))
-                                FlashcardsContent(state, speaker = speaker, actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onEdit = { edited += it }, onSuspend = { pressed += "suspend" }, onDelete = { pressed += "delete" }))
+                                FlashcardsContent(state, speaker = speaker, actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onEdit = { edited += it }, onSuspend = { pressed += "suspend" }, onDelete = { pressed += "delete" }, onBrowse = { pressed += "browse" }))
                             }
                         }
                     }
@@ -181,6 +181,14 @@ class FlashcardsKeysTest {
         val viewModel = show()
         onRoot().performKeyInput { pressKey(Key.E) }
         assertEquals(listOf(viewModel.state.value.card!!.termId), edited)
+    }
+
+    /** B opens the browser. */
+    @Test
+    fun bBrowsesTheFlashcards() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        onRoot().performKeyInput { pressKey(Key.B) }
+        assertEquals(listOf("browse"), pressed)
     }
 
     /** S suspends the card, and D asks to delete it. */

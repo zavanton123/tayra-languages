@@ -107,8 +107,6 @@ import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.largeText
 import com.tayra.languages.core.ui.components.pushFill
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
-import com.tayra.languages.core.ui.i18n.LanguageCase
-import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
@@ -256,10 +254,16 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
             Modifier.fillMaxSize()
                 .focusRequester(focus).focusable().testTag("flashcards-keys")
                 .onPreviewKeyEvent { event ->
-                    // Nothing is answered while the session's speech is being made.
-                    if (event.type != KeyEventType.KeyDown || state.card == null || state.preparingAudio != null) return@onPreviewKeyEvent false
+                    if (event.type != KeyEventType.KeyDown) return@onPreviewKeyEvent false
                     val pressed = HotkeyMatcher.fromEvent(event) ?: return@onPreviewKeyEvent false
                     fun isKey(vararg shortcuts: HotkeyAction) = shortcuts.any { hotkeys[it] == pressed }
+                    // Every card is a key away, with one on show or none.
+                    if (isKey(HotkeyAction.FLASHCARDS_BROWSE)) {
+                        actions.onBrowse()
+                        return@onPreviewKeyEvent true
+                    }
+                    // Nothing is answered while the session's speech is being made.
+                    if (state.card == null || state.preparingAudio != null) return@onPreviewKeyEvent false
                     when {
                         isKey(HotkeyAction.FLASHCARDS_PREVIOUS, HotkeyAction.FLASHCARDS_PREVIOUS_ARROW) -> if (state.canUndo) actions.onUndo()
                         isKey(HotkeyAction.FLASHCARDS_LISTEN) && speaker != null -> state.card?.let { speaker.toggle(it.spoken, it.languageCode) }
@@ -292,7 +296,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                 ) {
                     ScreenHeader(
                         tr("Flashcards"),
-                        subtitle = if (state.languageName.isEmpty()) tr("Review the words you are learning.") else tr("Review the {0} words you are learning.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
+                        subtitle = null,
                     ) {
                         // The phone's bar carries this button instead.
                         if (!compact) SecondaryButton(tr("Browse flashcards"), onClick = actions.onBrowse, modifier = Modifier.testTag("browse-flashcards"), icon = AppIcons.ViewList)
@@ -345,7 +349,7 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             // The phone's bar carries the Browse button.
             ScreenHeader(
                 tr("Flashcards"),
-                subtitle = if (state.languageName.isEmpty()) tr("Review the words you are learning.") else tr("Review the {0} words you are learning.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
+                subtitle = null,
             )
             Progress(state, compact = true)
             val card = state.card
