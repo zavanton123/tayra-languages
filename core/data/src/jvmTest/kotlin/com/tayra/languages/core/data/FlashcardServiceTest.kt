@@ -68,6 +68,34 @@ class FlashcardServiceTest {
     }
 
     @Test
+    fun moreNewCardsCanBeAddedForTodayAlone() = runTest {
+        val id = language()
+        val other = languages.save(Language(name = "German"))
+        val lobo = term(id, "lobo")
+        val gato = term(id, "gato")
+        val casa = term(id, "casa")
+        term(other, "Haus")
+        settings.update { it.copy(flashcardNewPerDay = 1) }
+        answer(id, lobo, Rating.EASY)
+        assertEquals(0, service.counts(id).new)
+        assertEquals(2, service.newBeyondToday(id))
+
+        service.addNewToday(id, 1)
+        assertEquals(1, service.counts(id).new)
+        assertEquals(1, service.newBeyondToday(id))
+        assertEquals(1, service.counts(other).new, "another language keeps its own limit")
+        answer(id, gato, Rating.EASY)
+        assertEquals(0, service.counts(id).new)
+
+        // The next study day has the usual limit again.
+        clock.advance(1.days)
+        assertEquals(1, service.counts(id).new)
+        service.addNewToday(id, 5)
+        assertEquals(1, service.counts(id).new, "no more than wait")
+        assertEquals(casa, service.next(id).card?.termId)
+    }
+
+    @Test
     fun onlyTermsBeingLearnedHaveCards() = runTest {
         val id = language()
         val learning = term(id, "lobo", TermStatus.NEW_1)

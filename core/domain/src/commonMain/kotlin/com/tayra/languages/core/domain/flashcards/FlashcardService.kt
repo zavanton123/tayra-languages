@@ -82,11 +82,29 @@ class FlashcardService(
 
     private suspend fun limits(languageId: Long?, now: Instant, config: SchedulerConfig): Limits {
         val s = settings.current
-        val since = scheduler.dayStart(scheduler.day(now, config), config)
-        val newLeft = (s.flashcardNewPerDay - cards.reviewsSince(languageId, CardState.NEW, since)).coerceAtLeast(0)
+        val today = scheduler.day(now, config)
+        val since = scheduler.dayStart(today, config)
+        val allowed = s.flashcardNewPerDay + ExtraNew.of(s.flashcardExtraNew, today, languageId)
+        val newLeft = (allowed - cards.reviewsSince(languageId, CardState.NEW, since)).coerceAtLeast(0)
         val reviewsLeft = if (s.flashcardReviewsPerDay == 0) Int.MAX_VALUE
         else (s.flashcardReviewsPerDay - cards.reviewsSince(languageId, CardState.REVIEW, since)).coerceAtLeast(0)
         return Limits(newLeft, reviewsLeft)
+    }
+
+    /** Adds [count] new cards to today's limit of [languageId] (null for every language), on this device. */
+    suspend fun addNewToday(languageId: Long?, count: Int) {
+        if (count <= 0) return
+        val today = scheduler.day(clock.now(), config())
+        settings.update { it.copy(flashcardExtraNew = ExtraNew.add(it.flashcardExtraNew, today, languageId, count)) }
+    }
+
+    /** The new cards of [languageId] waiting beyond today's limit. */
+    suspend fun newBeyondToday(languageId: Long?): Int {
+        val now = clock.now()
+        cards.reconcile(now)
+        val config = config()
+        val waiting = cards.count(languageId, setOf(CardState.NEW), Instant.DISTANT_FUTURE)
+        return (waiting - counts(languageId, now, config, limits(languageId, now, config)).new).coerceAtLeast(0)
     }
 
     /** The cards of [languageId] (null for every language) waiting today, within the daily limits. */
@@ -301,5 +319,28 @@ class FlashcardService(
             val earned = statusFor(after)
             return if (earned.value > current.value) earned else current
         }
+    }
+}
+
+/** The new cards added to a day's limit, kept as "day|language:count,…", a language of 0 standing for every language. */
+internal object ExtraNew {
+    private fun parse(text: String): Pair<Long, Map<Long, Int>>? {
+        val day = text.substringBefore('|', "").toLongOrNull() ?: return null
+        val counts = text.substringAfter('|').split(',').mapNotNull { part ->
+            val language = part.substringBefore(':').toLongOrNull() ?: return@mapNotNull null
+            val count = part.substringAfter(':').toIntOrNull() ?: return@mapNotNull null
+            language to count
+        }.toMap()
+        return day to counts
+    }
+
+    /** The extra new cards of [languageId] on study day [today]. */
+    fun of(text: String, today: Long, languageId: Long?): Int = parse(text)?.takeIf { it.first == today }?.second?.get(languageId ?: 0) ?: 0
+
+    /** [text] with [count] more for [languageId] on [today]; another day's extras are dropped. */
+    fun add(text: String, today: Long, languageId: Long?, count: Int): String {
+        val counts = parse(text)?.takeIf { it.first == today }?.second.orEmpty().toMutableMap()
+        counts[languageId ?: 0] = (counts[languageId ?: 0] ?: 0) + count
+        return "$today|" + counts.entries.joinToString(",") { "${it.key}:${it.value}" }
     }
 }

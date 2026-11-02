@@ -76,6 +76,11 @@ data class UserSettings(
     val flashcardAutoplay: Boolean = true,
     /** Answer flashcards with Again and Good only, Hard and Easy left out. */
     val flashcardTwoButtons: Boolean = false,
+    /**
+     * New cards added to the day's limit on this device, as "day|language:count,…": the study day
+     * they were added on, then each language's extra; another day's are gone.
+     */
+    val flashcardExtraNew: String = "",
     /** How cards are answered on this device: shown, or typed or said first. */
     val flashcardAnswerMode: AnswerMode = AnswerMode.SHOW,
     /** How many cards a page of the flashcard browser holds. */
