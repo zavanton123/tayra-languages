@@ -381,4 +381,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Show the answer, or type or say the hidden word first." to "Die Antwort zeigen oder zuerst das verborgene Wort tippen oder sprechen.",
     "The microphone could not be used, so type the word." to "Das Mikrofon konnte nicht verwendet werden, also tippe das Wort.",
     "Speech in this language cannot be recognised here, so type the word." to "Sprache in dieser Sprache kann hier nicht erkannt werden, also tippe das Wort.",
+    "Typed" to "Getippt",
+    "Said aloud" to "Gesprochen",
 )

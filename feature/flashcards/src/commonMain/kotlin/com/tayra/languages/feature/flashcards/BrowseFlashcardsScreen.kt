@@ -1,5 +1,10 @@
 package com.tayra.languages.feature.flashcards
 
+import androidx.compose.foundation.layout.size
+import androidx.compose.material3.Icon
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.components.AppTooltip
+import com.tayra.languages.core.domain.flashcards.AnswerMode
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -1004,7 +1009,7 @@ private fun StatTile(label: String, value: String, modifier: Modifier) {
     }
 }
 
-/** One answer: when, which, the state the card was in, and the wait it gave. */
+/** One answer: when, which, the state the card was in, the wait it gave, and whether the word was typed or said first. */
 @Composable
 private fun ReviewRow(review: FlashcardReview, compact: Boolean) {
     val colors = MaterialTheme.colorScheme
@@ -1017,6 +1022,16 @@ private fun ReviewRow(review: FlashcardReview, compact: Boolean) {
                 style = MaterialTheme.typography.bodySmall,
                 color = colors.onSurfaceVariant,
             )
+        }
+        val given = when (review.answeredBy) {
+            AnswerMode.SHOW -> null
+            AnswerMode.TYPE -> AppIcons.Keyboard to tr("Typed")
+            AnswerMode.SPEAK -> AppIcons.Mic to tr("Said aloud")
+        }
+        given?.let { (icon, label) ->
+            AppTooltip(label) {
+                Icon(icon, contentDescription = label, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.icon).testTag("answered-by-${review.answeredBy.name}"))
+            }
         }
         Tag(tr(review.rating.label), review.rating.tint, size = if (compact) TagSize.Small else TagSize.Medium, shape = AppShapes.compact)
     }

@@ -381,4 +381,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Show the answer, or type or say the hidden word first." to "Pokaż odpowiedź albo najpierw wpisz lub wypowiedz ukryte słowo.",
     "The microphone could not be used, so type the word." to "Nie można było użyć mikrofonu, więc wpisz słowo.",
     "Speech in this language cannot be recognised here, so type the word." to "Mowy w tym języku nie da się tu rozpoznać, więc wpisz słowo.",
+    "Typed" to "Wpisane",
+    "Said aloud" to "Wypowiedziane",
 )

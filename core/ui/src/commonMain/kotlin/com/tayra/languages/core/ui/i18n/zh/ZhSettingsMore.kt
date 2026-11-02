@@ -381,4 +381,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Show the answer, or type or say the hidden word first." to "显示答案，或先输入或说出被隐藏的单词。",
     "The microphone could not be used, so type the word." to "无法使用麦克风，请输入该单词。",
     "Speech in this language cannot be recognised here, so type the word." to "此处无法识别该语言的语音，请输入该单词。",
+    "Typed" to "已输入",
+    "Said aloud" to "已说出",
 )

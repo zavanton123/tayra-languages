@@ -381,4 +381,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Show the answer, or type or say the hidden word first." to "Показать ответ или сначала ввести или произнести скрытое слово.",
     "The microphone could not be used, so type the word." to "Микрофон недоступен, поэтому введите слово.",
     "Speech in this language cannot be recognised here, so type the word." to "Речь на этом языке здесь не распознаётся, поэтому введите слово.",
+    "Typed" to "Введено",
+    "Said aloud" to "Произнесено",
 )

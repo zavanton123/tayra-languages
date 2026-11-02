@@ -381,4 +381,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Show the answer, or type or say the hidden word first." to "Εμφανίστε την απάντηση ή πρώτα πληκτρολογήστε ή πείτε την κρυμμένη λέξη.",
     "The microphone could not be used, so type the word." to "Το μικρόφωνο δεν μπόρεσε να χρησιμοποιηθεί, οπότε πληκτρολογήστε τη λέξη.",
     "Speech in this language cannot be recognised here, so type the word." to "Η ομιλία σε αυτή τη γλώσσα δεν μπορεί να αναγνωριστεί εδώ, οπότε πληκτρολογήστε τη λέξη.",
+    "Typed" to "Πληκτρολογήθηκε",
+    "Said aloud" to "Ειπώθηκε φωναχτά",
 )

@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.flashcards
 
+import com.tayra.languages.core.domain.flashcards.AnswerMode
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.CompositionLocalProvider
@@ -95,7 +96,7 @@ class BrowseFlashcardsScreenTest {
             comprar = terms.save(Term(languageId = id, text = "comprar", textLc = "comprar", status = TermStatus.NEW_1, translation = "купить", sentence = "Vou comprar pão."))
             casa = terms.save(Term(languageId = id, text = "casa", textLc = "casa", status = TermStatus.NEW_1, translation = "дом"))
             livro = terms.save(Term(languageId = id, text = "livro", textLc = "livro", status = TermStatus.NEW_1, translation = "книга"))
-            service.answer(service.next(id, prefer = casa).card!!, Rating.EASY)
+            service.answer(service.next(id, prefer = casa).card!!, Rating.EASY, AnswerMode.TYPE)
             service.setSuspended(livro, true)
             id
         }
@@ -269,6 +270,7 @@ class BrowseFlashcardsScreenTest {
         onNodeWithTag("browse-detail").assertExists()
         onNodeWithText("Flashcard details").assertExists()
         onNodeWithText("Easy").assertExists()
+        onNodeWithTag("answered-by-TYPE", useUnmergedTree = true).assertExists()
         // Every figure shows, the last one too, though Edit term and Suspend went down beside Done.
         onNodeWithText("Recall now").assertIsDisplayed()
         onNodeWithTag("detail-suspend").assertIsDisplayed()

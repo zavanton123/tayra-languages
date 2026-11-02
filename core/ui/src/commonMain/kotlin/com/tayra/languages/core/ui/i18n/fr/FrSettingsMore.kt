@@ -381,4 +381,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Show the answer, or type or say the hidden word first." to "Afficher la réponse, ou d’abord saisir ou dire le mot caché.",
     "The microphone could not be used, so type the word." to "Le micro n’a pas pu être utilisé : saisissez le mot.",
     "Speech in this language cannot be recognised here, so type the word." to "La parole dans cette langue ne peut pas être reconnue ici : saisissez le mot.",
+    "Typed" to "Saisi",
+    "Said aloud" to "Dit à voix haute",
 )
