@@ -73,6 +73,8 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 import com.tayra.languages.core.domain.flashcards.Rating
+import androidx.compose.ui.test.performScrollTo
+import androidx.compose.ui.test.assertIsDisplayed
 
 /** A card is shown front first, the answer on request, and answering it moves on and moves the word's status. */
 @OptIn(ExperimentalTestApi::class)
@@ -484,6 +486,17 @@ class FlashcardsScreenTest {
         onNodeWithTag("flashcard-answer").assertExists()
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Three) }
         waitForCard("Card 2 of 2")
+    }
+
+    /** In a low window the card keeps its place between the progress and the answers, and its content scrolls under a bar. */
+    @Test
+    fun aCardTallerThanTheWindowScrolls() = runDesktopComposeUiTest(width = 1586, height = 640) {
+        show()
+        onNodeWithText("Show answer").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("answer-Good").assertIsDisplayed()
+        onNodeWithTag("flashcard-answer").performScrollTo().assertIsDisplayed()
+        save("FLASHCARD_SCROLL_SCREENSHOT")
     }
 
     /** Deleting the card on show deletes its word, and the next card, if any, comes up. */

@@ -590,8 +590,9 @@ private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, spe
             CardMenu(card, actions)
         }
         BoxWithConstraints(Modifier.weight(1f).fillMaxWidth()) {
+            val scroll = rememberScrollState()
             Column(
-                Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).heightIn(min = maxHeight).padding(horizontal = AppSpacing.l, vertical = AppSpacing.l),
+                Modifier.fillMaxWidth().verticalScroll(scroll).heightIn(min = maxHeight).padding(horizontal = AppSpacing.l, vertical = AppSpacing.l),
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center,
             ) {
@@ -615,6 +616,8 @@ private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, spe
                     }
                 }
             }
+            // Shown when the card's content is taller than the card, as a long sentence and its answer may be.
+            EdgeScrollbar(scroll)
         }
     }
 }
