@@ -531,7 +531,8 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
             ) {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.CenterHorizontally)) {
-                    if (speaker != null) SpeakButton(card.word, card.languageCode, speaker, Modifier.size(AppSizes.tile).then(NoFocus))
+                    // Ringed as the sentence's button is, so it reads as a button beside the word.
+                    if (speaker != null) SpeakButton(card.word, card.languageCode, speaker, NoFocus, style = IconButtonStyle.Outlined, size = IconButtonSize.Large, shape = AppShapes.circle)
                     Text(card.word, style = AppText.cardWord(compact).copy(color = colors.onSurface, textDirection = direction))
                     if (card.partOfSpeech.isNotEmpty()) {
                         Text(
