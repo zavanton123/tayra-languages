@@ -91,7 +91,7 @@ class DesktopSpeechRecognition(
         models.listFiles { file -> file.isDirectory && whisper.repo in file.name }?.forEach { it.deleteRecursively() }
     }
 
-    override suspend fun listen(languageCode: String, hint: String?, onRecorded: () -> Unit): Heard = withContext(Dispatchers.IO) {
+    override suspend fun listen(languageCode: String, hint: String?, longPauses: Boolean, onRecorded: () -> Unit): Heard = withContext(Dispatchers.IO) {
         val language = whisperCode(languageCode) ?: return@withContext Heard.Refused
         val whisper = downloadedModel() ?: return@withContext Heard.Refused
         // The worker also reads aloud, and can be restarting or busy: worth another try, not a refusal.
@@ -100,7 +100,7 @@ class DesktopSpeechRecognition(
             return@withContext Heard.Failed
         }
         stopping = false
-        when (val recording = record()) {
+        when (val recording = record(longPauses)) {
             Recording.Refused -> Heard.Refused
             Recording.Muted -> {
                 Logger.w { "the microphone gave only silence" }
@@ -140,7 +140,7 @@ class DesktopSpeechRecognition(
     }
 
     /** The microphone until [SpeechEndpoint] or [stop] ends it; refused when there is none to open, muted when it gives only zeros. */
-    private suspend fun record(): Recording {
+    private suspend fun record(longPauses: Boolean): Recording {
         val line = try {
             AudioSystem.getTargetDataLine(FORMAT).apply {
                 open(FORMAT)
@@ -151,7 +151,7 @@ class DesktopSpeechRecognition(
             return Recording.Refused
         }
         val pcm = ByteArrayOutputStream()
-        val endpoint = SpeechEndpoint(FORMAT.sampleRate.toInt())
+        val endpoint = SpeechEndpoint(FORMAT.sampleRate.toInt(), longPauses)
         val chunk = ByteArray(CHUNK_BYTES)
         try {
             while (true) {

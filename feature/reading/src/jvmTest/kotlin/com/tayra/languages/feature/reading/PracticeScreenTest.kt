@@ -126,7 +126,7 @@ class PracticeScreenTest {
         val hints = mutableListOf<String?>()
         /** Released to let the recognising, after the speaking, finish; none keeps no one waiting. */
         var recognised: CompletableDeferred<Unit>? = null
-        override suspend fun listen(languageCode: String, hint: String?, onRecorded: () -> Unit): Heard {
+        override suspend fun listen(languageCode: String, hint: String?, longPauses: Boolean, onRecorded: () -> Unit): Heard {
             hints += hint
             heard?.await()
             onRecorded()

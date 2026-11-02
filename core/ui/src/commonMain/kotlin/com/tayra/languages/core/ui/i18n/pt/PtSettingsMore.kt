@@ -379,4 +379,6 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Type" to "Digitar",
     "Answer by" to "Responder por",
     "Show the answer, or type or say the hidden word first." to "Mostre a resposta ou primeiro digite ou diga a palavra oculta.",
+    "The microphone could not be used, so type the word." to "Não foi possível usar o microfone, então digite a palavra.",
+    "Speech in this language cannot be recognised here, so type the word." to "A fala neste idioma não pode ser reconhecida aqui, então digite a palavra.",
 )

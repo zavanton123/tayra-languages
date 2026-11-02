@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.flashcards
 
+import com.tayra.languages.core.domain.practice.Heard
+import com.tayra.languages.core.domain.practice.SpeechRecognition
 import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.assertIsSelected
@@ -105,6 +107,7 @@ class FlashcardsScreenTest {
         /** Saves more words in the language, after the first card's. */
         moreTerms: suspend (languageId: Long) -> Unit = {},
         answerMode: AnswerMode = AnswerMode.SHOW,
+        speech: SpeechRecognition? = null,
     ): FlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
@@ -124,7 +127,7 @@ class FlashcardsScreenTest {
             override val name = "Fake"
             override suspend fun suggestTranslation(text: String, language: Language): String? = null
         }
-        val viewModel = FlashcardsViewModel(service, languages, settings, translator, noDictionary, WordTranslationService(terms, noDictionary, suggestions, settings), audio, books = books)
+        val viewModel = FlashcardsViewModel(service, languages, settings, translator, noDictionary, WordTranslationService(terms, noDictionary, suggestions, settings), audio, books = books, speech = speech)
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -139,7 +142,7 @@ class FlashcardsScreenTest {
                                 FlashcardsContent(
                                     state,
                                     speaker = if (withSpeaker) rememberSpeaker(LocalSpeech(emptyList()), settings) else null,
-                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode),
+                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, onTypeInstead = viewModel::typeInstead),
                                     hotkeys = hotkeys,
                                 )
                             }
@@ -234,6 +237,91 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isEmpty() }
         onNodeWithTag("flashcards-keys").performKeyInput { pressKey(Key.Spacebar) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** Hears [replies] in turn, keeping the hints it was given and whether it waited out long pauses. */
+    private class FakeSpeech(private val available: Boolean = true, vararg replies: Heard) : SpeechRecognition {
+        private val replies = ArrayDeque(replies.toList())
+        val hints = mutableListOf<String?>()
+        val longPauses = mutableListOf<Boolean>()
+        override suspend fun isAvailable(languageCode: String) = available
+        override suspend fun listen(languageCode: String, hint: String?, longPauses: Boolean, onRecorded: () -> Unit): Heard {
+            hints += hint
+            this.longPauses += longPauses
+            onRecorded()
+            return replies.removeFirstOrNull() ?: Heard.Nothing
+        }
+    }
+
+    @Test
+    fun theSentenceSaidWithItsWordSuggestsGood() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val speech = FakeSpeech(true, Heard.Words("Quando precisamos comprar alguma coisa passamos no supermercado"))
+        show(answerMode = AnswerMode.SPEAK, speech = speech)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
+        save("FLASHCARD_SPEAK_SCREENSHOT")
+        // Space starts listening while the sentence is to be said.
+        onNodeWithTag("flashcards-keys").performKeyInput { pressKey(Key.Spacebar) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(listOf<String?>(sentence), speech.hints, "the recogniser leans towards the sentence")
+        assertEquals(listOf(true), speech.longPauses, "a whole sentence may pause")
+        onNodeWithText("Correct").assertExists()
+        onNodeWithTag("flashcard-heard-check").assertExists()
+        onNodeWithTag("answer-Good").assertIsSelected()
+        save("FLASHCARD_SPOKEN_SCREENSHOT")
+        onNodeWithTag("flashcards-keys").performKeyInput { pressKey(Key.Enter) }
+        waitUntil(timeoutMillis = 5_000) { runBlocking { service.reviews(termId) }.isNotEmpty() }
+        val review = runBlocking { service.reviews(termId) }.single()
+        assertEquals(Rating.GOOD, review.rating)
+        assertEquals(AnswerMode.SPEAK, review.answeredBy)
+    }
+
+    @Test
+    fun theWordMissedSuggestsAgainAndNothingHeardIsSaidAgain() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val speech = FakeSpeech(true, Heard.Nothing, Heard.Words("Quando precisamos comer alguma coisa"))
+        show(answerMode = AnswerMode.SPEAK, speech = speech)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("flashcard-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Nothing was heard. Try again.").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().size)
+        onNodeWithTag("flashcard-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Not quite").assertExists()
+        onNodeWithTag("answer-Again").assertIsSelected()
+    }
+
+    @Test
+    fun aWordThatCannotBeSaidIsTyped() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(answerMode = AnswerMode.SPEAK, speech = FakeSpeech(available = false))
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("flashcard-speak-unavailable").assertExists()
+        assertEquals(0, onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().size)
+    }
+
+    @Test
+    fun aRefusedMicrophoneOrTypeInsteadTypesTheWord() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(answerMode = AnswerMode.SPEAK, speech = FakeSpeech(true, Heard.Refused))
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("flashcard-type-instead").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithTag("flashcard-speak-unavailable").fetchSemanticsNodes().size, "typed by choice")
+        typeAndCheck("comprar")
+        onNodeWithTag("flashcards-keys").performKeyInput { pressKey(Key.Enter) }
+        // A new card's Good waits ten minutes; with no other card it comes back early, to be said this time.
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("flashcard-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak-unavailable").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("The microphone could not be used, so type the word.").assertExists()
+    }
+
+    @Test
+    fun aPhoneOffersTheWaysOfAnsweringAsIcons() = runDesktopComposeUiTest(width = 420, height = 900) {
+        show(phone = true, answerMode = AnswerMode.SPEAK, speech = FakeSpeech(true))
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("answer-mode-SPEAK").assertExists()
+        save("FLASHCARD_PHONE_SPEAK_SCREENSHOT")
+        onNodeWithTag("answer-mode-TYPE").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isNotEmpty() }
+        save("FLASHCARD_PHONE_TYPE_SCREENSHOT")
     }
 
     @Test

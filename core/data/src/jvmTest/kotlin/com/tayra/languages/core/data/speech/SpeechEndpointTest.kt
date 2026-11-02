@@ -38,6 +38,14 @@ class SpeechEndpointTest {
     }
 
     @Test
+    fun aSentenceReadAloudWaitsOutALongerPause() {
+        val endpoint = SpeechEndpoint(longPauses = true)
+        val states = endpoint.feed(List(15) { chunk(4_000) } + List(20) { chunk(30) } + List(10) { chunk(4_000) } + List(23) { chunk(30) })
+        assertEquals(SpeechEndpoint.State.LISTENING, states[34], "a pause of two seconds within the sentence")
+        assertEquals(SpeechEndpoint.State.SAID, states.last())
+    }
+
+    @Test
     fun anAnswerBegunAtOnceIsHeard() {
         val states = SpeechEndpoint().feed(List(15) { chunk(4_000) } + List(12) { chunk(30) })
         assertEquals(SpeechEndpoint.State.SAID, states.last())

@@ -28,11 +28,11 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
 
     override suspend fun isAvailable(languageCode: String): Boolean = withContext(Dispatchers.Main) { SpeechRecognizer.isRecognitionAvailable(context) }
 
-    override suspend fun listen(languageCode: String, hint: String?, onRecorded: () -> Unit): Heard = withContext(Dispatchers.Main) {
+    override suspend fun listen(languageCode: String, hint: String?, longPauses: Boolean, onRecorded: () -> Unit): Heard = withContext(Dispatchers.Main) {
         if (context.checkSelfPermission(Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) return@withContext Heard.Refused
         val words = hintWords(hint)
-        val offline = hear(languageCode, words, offline = true, onRecorded)
-        if (offline is Attempt.Unavailable) hear(languageCode, words, offline = false, onRecorded).heard else offline.heard
+        val offline = hear(languageCode, words, offline = true, longPauses, onRecorded)
+        if (offline is Attempt.Unavailable) hear(languageCode, words, offline = false, longPauses, onRecorded).heard else offline.heard
     }
 
     override fun stop() {
@@ -50,7 +50,7 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
         }
     }
 
-    private suspend fun hear(languageCode: String, hint: List<String>, offline: Boolean, onRecorded: () -> Unit): Attempt = suspendCancellableCoroutine { done ->
+    private suspend fun hear(languageCode: String, hint: List<String>, offline: Boolean, longPauses: Boolean, onRecorded: () -> Unit): Attempt = suspendCancellableCoroutine { done ->
         val heard = SpeechRecognizer.createSpeechRecognizer(context)
         recognizer = heard
         var partial = ""
@@ -93,6 +93,11 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
             .putExtra(RecognizerIntent.EXTRA_LANGUAGE, languageCode)
             .putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true)
             .putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE, offline)
+        // Asked of the recogniser, which may not heed it.
+        if (longPauses) {
+            intent.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_COMPLETE_SILENCE_LENGTH_MILLIS, LONG_PAUSE_MS)
+            intent.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_POSSIBLY_COMPLETE_SILENCE_LENGTH_MILLIS, LONG_PAUSE_MS)
+        }
         // The words expected, which recognisers from Android 13 lean towards.
         if (hint.isNotEmpty() && Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) intent.putStringArrayListExtra(RecognizerIntent.EXTRA_BIASING_STRINGS, ArrayList(hint))
         heard.startListening(intent)
@@ -106,3 +111,6 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
         }
     }
 }
+
+/** How long a pause in a sentence read aloud is waited out. */
+private const val LONG_PAUSE_MS = 2_500L

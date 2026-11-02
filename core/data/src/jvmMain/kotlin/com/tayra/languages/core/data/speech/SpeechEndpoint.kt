@@ -7,7 +7,9 @@ import kotlin.math.sqrt
  * after a pause once something was said, after a while with nothing said, or at once when the
  * microphone gives only zeros, as one the system keeps from the app does.
  */
-internal class SpeechEndpoint(private val sampleRate: Int = 16_000) {
+internal class SpeechEndpoint(private val sampleRate: Int = 16_000, longPauses: Boolean = false) {
+    private val pauseMs = if (longPauses) LONG_PAUSE_MS else PAUSE_MS
+
     enum class State { LISTENING, SAID, SILENT, MUTED }
 
     private var samples = 0L
@@ -44,7 +46,7 @@ internal class SpeechEndpoint(private val sampleRate: Int = 16_000) {
         }
         return when {
             !anySound && elapsedMs >= MUTED_MS -> State.MUTED
-            spoke && quietMs >= PAUSE_MS -> State.SAID
+            spoke && quietMs >= pauseMs -> State.SAID
             elapsedMs >= LIMIT_MS -> if (spoke) State.SAID else State.SILENT
             !spoke && elapsedMs >= WAIT_MS -> State.SILENT
             else -> State.LISTENING
@@ -58,6 +60,9 @@ internal class SpeechEndpoint(private val sampleRate: Int = 16_000) {
         const val MAX_SPEECH_LEVEL = 1_500.0
         const val SPEECH_MS = 200
         const val PAUSE_MS = 1_200
+
+        /** For a whole sentence read aloud, which a reader may pause in. */
+        const val LONG_PAUSE_MS = 2_200
         const val WAIT_MS = 7_000
         const val LIMIT_MS = 20_000
         const val MUTED_MS = 1_000

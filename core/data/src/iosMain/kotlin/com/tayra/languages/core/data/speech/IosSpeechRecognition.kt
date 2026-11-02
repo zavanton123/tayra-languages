@@ -4,6 +4,7 @@ import com.tayra.languages.core.domain.practice.Heard
 import com.tayra.languages.core.domain.practice.SpeechRecognition
 import com.tayra.languages.core.domain.practice.hintWords
 import kotlin.coroutines.resume
+import kotlin.time.Duration
 import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Duration.Companion.seconds
 import kotlin.time.TimeSource
@@ -40,7 +41,7 @@ class IosSpeechRecognition : SpeechRecognition {
         allowed && SFSpeechRecognizer(NSLocale(languageCode)).isAvailable()
     }
 
-    override suspend fun listen(languageCode: String, hint: String?, onRecorded: () -> Unit): Heard = withContext(Dispatchers.Main) {
+    override suspend fun listen(languageCode: String, hint: String?, longPauses: Boolean, onRecorded: () -> Unit): Heard = withContext(Dispatchers.Main) {
         if (!allowed()) return@withContext Heard.Refused
         val recognizer = SFSpeechRecognizer(NSLocale(languageCode))
         // Unavailable for now (offline, or busy), or the audio held by something else: worth another try.
@@ -70,7 +71,7 @@ class IosSpeechRecognition : SpeechRecognition {
         try {
             engine.prepare()
             if (!engine.startAndReturnError(null)) return@withContext Heard.Failed
-            hear(updates) { engine.stop(); request.endAudio(); onRecorded() }
+            hear(updates, if (longPauses) LONG_PAUSE else PAUSE) { engine.stop(); request.endAudio(); onRecorded() }
         } finally {
             engine.stop()
             input.removeTapOnBus(0u)
@@ -86,7 +87,7 @@ class IosSpeechRecognition : SpeechRecognition {
     private class Update(val text: String, val done: Boolean)
 
     /** What is heard until a pause after speaking, [stop], or [LIMIT]; then [endAudio] lets the last words through. */
-    private suspend fun hear(updates: Channel<Update>, endAudio: () -> Unit): Heard {
+    private suspend fun hear(updates: Channel<Update>, pause: Duration, endAudio: () -> Unit): Heard {
         val started = TimeSource.Monotonic.markNow()
         var changed = started
         var ended: TimeSource.Monotonic.ValueTimeMark? = null
@@ -100,7 +101,7 @@ class IosSpeechRecognition : SpeechRecognition {
                 }
                 if (update.done) break
             }
-            if (ended == null && (stopping || started.elapsedNow() > LIMIT || (heard.isNotEmpty() && changed.elapsedNow() > PAUSE))) {
+            if (ended == null && (stopping || started.elapsedNow() > LIMIT || (heard.isNotEmpty() && changed.elapsedNow() > pause))) {
                 endAudio()
                 ended = TimeSource.Monotonic.markNow()
             }
@@ -124,6 +125,7 @@ class IosSpeechRecognition : SpeechRecognition {
     private companion object {
         val TICK = 200.milliseconds
         val PAUSE = 1.5.seconds
+        val LONG_PAUSE = 2.5.seconds
         val LIMIT = 20.seconds
         val LAST_WORDS = 2.seconds
     }

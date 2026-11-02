@@ -379,4 +379,6 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Type" to "Escribir",
     "Answer by" to "Responder con",
     "Show the answer, or type or say the hidden word first." to "Muestra la respuesta, o primero escribe o di la palabra oculta.",
+    "The microphone could not be used, so type the word." to "No se pudo usar el micrófono, así que escribe la palabra.",
+    "Speech in this language cannot be recognised here, so type the word." to "Aquí no se puede reconocer el habla en este idioma, así que escribe la palabra.",
 )

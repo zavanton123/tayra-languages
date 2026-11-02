@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.flashcards
 
+import com.tayra.languages.core.ui.components.SpeakAnswer
+import com.tayra.languages.core.ui.audio.rememberMicrophoneAccess
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.ui.input.key.Key
@@ -157,6 +159,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     // Coming back from editing a term or the settings shows the card as it is now.
     LaunchedEffect(Unit) { viewModel.load() }
     val compact = LocalWindowWidth.current.isCompact
+    val microphone = rememberMicrophoneAccess()
     var confirmDelete by remember { mutableStateOf<CardContent?>(null) }
     var choosingExample by remember { mutableStateOf<CardContent?>(null) }
     // The card's details open over the review, which shows the card as it is now once they close, its answer still showing if it was.
@@ -191,6 +194,9 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onType = viewModel::type,
                 onCheck = viewModel::check,
                 onAnswerMode = viewModel::setAnswerMode,
+                onListen = { microphone { allowed -> if (allowed) viewModel.listen() else viewModel.refuseSpeaking() } },
+                onStopListening = viewModel::stopListening,
+                onTypeInstead = viewModel::typeInstead,
             ),
             modifier = Modifier.padding(padding),
             overlay = choosingExample != null || details != null || confirmDelete != null,
@@ -244,6 +250,11 @@ internal class FlashcardActions(
     val onCheck: () -> Unit = {},
     /** Answers cards another way: shown, or typed or said first. */
     val onAnswerMode: (AnswerMode) -> Unit = {},
+    /** Listens to the sentence said aloud, the microphone allowed. */
+    val onListen: () -> Unit = {},
+    val onStopListening: () -> Unit = {},
+    /** Types the card's word instead of saying it. */
+    val onTypeInstead: () -> Unit = {},
 )
 
 internal val Rating.tint: Color
@@ -296,6 +307,8 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         isKey(HotkeyAction.FLASHCARDS_SUSPEND) -> actions.onSuspend()
                         // Asks first, as from the menu.
                         isKey(HotkeyAction.FLASHCARDS_DELETE) -> actions.onDelete()
+                        // Space starts and stops listening while the sentence is to be said; Enter still shows the answer.
+                        state.speaking && isKey(HotkeyAction.FLASHCARDS_SHOW_ANSWER) -> if (state.listening) actions.onStopListening() else actions.onListen()
                         isKey(HotkeyAction.FLASHCARDS_SHOW_ANSWER, HotkeyAction.FLASHCARDS_SHOW_ANSWER_ENTER) -> if (state.revealed) actions.onAnswer(state.suggested ?: Rating.GOOD) else actions.onReveal()
                         !state.revealed -> return@onPreviewKeyEvent false
                         isKey(HotkeyAction.FLASHCARDS_AGAIN) -> actions.onAnswer(Rating.AGAIN)
@@ -712,7 +725,32 @@ private fun AnswerGiven(state: FlashcardsUiState, actions: FlashcardActions, com
     val card = state.card ?: return
     val hidden = card.hidden ?: return
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
+    // Speaking was asked for, but the word is typed: why.
+    if (state.answerMode == AnswerMode.SPEAK && state.typing && !state.typeInstead) {
+        Text(
+            if (state.speakingRefused) tr("The microphone could not be used, so type the word.") else tr("Speech in this language cannot be recognised here, so type the word."),
+            Modifier.padding(top = if (compact) AppSpacing.l else AppSpacing.xl).testTag("flashcard-speak-unavailable"),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            textAlign = TextAlign.Center,
+        )
+    }
     when {
+        state.speaking -> SpeakAnswer(
+            listening = state.listening,
+            recognising = state.recognising,
+            heard = "",
+            retry = state.retry,
+            answered = false,
+            onListen = actions.onListen,
+            onStop = actions.onStopListening,
+            onTypeInstead = actions.onTypeInstead,
+            tag = "flashcard",
+            modifier = Modifier.padding(top = if (compact) AppSpacing.l else AppSpacing.xl),
+            rightToLeft = card.rightToLeft,
+            buttonModifier = NoFocus,
+        )
+        state.revealed && state.spokenResult != null -> SpokenVerdict(card.sentence ?: hidden, state.heard, state.spokenResult, compact)
         state.typing -> {
             val focus = remember { FocusRequester() }
             LaunchedEffect(card.termId) { runCatching { focus.requestFocus() } }
@@ -748,6 +786,20 @@ private fun TypedVerdict(hidden: String, typed: String, result: TypedResult, com
     ) {
         Text(title, style = AppText.itemTitle, color = tint)
         if (result != TypedResult.CORRECT) SentenceCheck(hidden, typed, Modifier.testTag("flashcard-typed-check"))
+    }
+}
+
+/** Whether the hidden word was heard, and the sentence word by word as it was heard. */
+@Composable
+private fun SpokenVerdict(sentence: String, heard: String, result: TypedResult, compact: Boolean) {
+    val right = result != TypedResult.WRONG
+    Column(
+        Modifier.fillMaxWidth().padding(top = if (compact) AppSpacing.l else AppSpacing.xl).testTag("flashcard-verdict"),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.xs),
+    ) {
+        Text(if (right) tr("Correct") else tr("Not quite"), style = AppText.itemTitle, color = if (right) AppAccents.green else AppAccents.red)
+        SentenceCheck(sentence, heard, Modifier.testTag("flashcard-heard-check"))
     }
 }
 

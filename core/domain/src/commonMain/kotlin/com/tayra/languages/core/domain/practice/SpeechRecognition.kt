@@ -15,9 +15,10 @@ interface SpeechRecognition {
      * Listens until the learner stops speaking, or [stop] is called. [hint] is what they are expected
      * to say, which recognisers that take one lean towards: a learner's accent is heard far better.
      * [onRecorded] is told when the speaking is over and only the recognising is left, which can take
-     * a few seconds.
+     * a few seconds. [longPauses] waits out longer pauses before taking the speaking for over, as a
+     * whole sentence read aloud has.
      */
-    suspend fun listen(languageCode: String, hint: String? = null, onRecorded: () -> Unit = {}): Heard
+    suspend fun listen(languageCode: String, hint: String? = null, longPauses: Boolean = false, onRecorded: () -> Unit = {}): Heard
 
     /** Stops listening early; [listen] then returns what was heard so far. */
     fun stop() {}
@@ -78,12 +79,13 @@ suspend fun listenForAnswer(
     languageCode: String,
     hint: String?,
     mutedBefore: Boolean,
+    longPauses: Boolean = false,
     onRecorded: () -> Unit = {},
 ): SpokenAnswer {
     val heard = when (recogniser) {
         null -> Heard.Refused
         else -> try {
-            recogniser.listen(languageCode, hint, onRecorded)
+            recogniser.listen(languageCode, hint, longPauses, onRecorded)
         } catch (e: CancellationException) {
             throw e
         } catch (e: Exception) {
