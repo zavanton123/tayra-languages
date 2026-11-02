@@ -50,6 +50,12 @@ import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
+import androidx.compose.ui.ExperimentalComposeUiApi
+import androidx.compose.ui.backhandler.BackHandler
+import androidx.compose.runtime.DisposableEffect
+import androidx.navigationevent.DirectNavigationEventInput
+import androidx.navigationevent.compose.LocalNavigationEventDispatcherOwner
+import kotlin.test.assertFalse
 
 /** The browser lists every card, narrows them by search and group, opens one for its history, and suspends or resets a selection. */
 @OptIn(ExperimentalTestApi::class)
@@ -67,6 +73,10 @@ class BrowseFlashcardsScreenTest {
     private var livro = 0L
 
     /** Three cards: one new, one answered Easy and so in review days away, one suspended. */
+    /** Whether a back below the screen was reached, and the window's back, as Escape sends it. */
+    private var wentBack = false
+    private val backInput = DirectNavigationEventInput()
+
     private fun ComposeUiTest.show(width: Int = 1586, open: (() -> Long)? = null, importer: AnkiImportService? = null, before: () -> Unit = {}): BrowseFlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
@@ -80,6 +90,7 @@ class BrowseFlashcardsScreenTest {
         }
         before()
         val viewModel = BrowseFlashcardsViewModel(service, languages, settings, terms, importer)
+        @OptIn(ExperimentalComposeUiApi::class)
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -87,6 +98,11 @@ class BrowseFlashcardsScreenTest {
                         LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {},
                         LocalFlashcardsDue provides 0,
                     ) {
+                        // Below the screen, as the navigation's own way back is.
+                        BackHandler { wentBack = true }
+                        LocalNavigationEventDispatcherOwner.current?.navigationEventDispatcher?.let { dispatcher ->
+                            DisposableEffect(dispatcher) { dispatcher.addInput(backInput); onDispose { dispatcher.removeInput(backInput) } }
+                        }
                         Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                             BrowseFlashcardsScreen(onNavigate = {}, onBack = {}, termId = open?.invoke(), viewModel = viewModel)
                         }
@@ -181,6 +197,15 @@ class BrowseFlashcardsScreenTest {
         onNodeWithText("Created").performClick()
         waitForIdle()
         assertEquals(listOf(livro, comprar, casa), viewModel.state.value.rows.map { it.termId })
+    }
+
+    /** On a desktop, the back a window makes of Escape stays in the browser rather than leaving it. */
+    @Test
+    fun escapeDoesNotLeaveTheBrowser() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        runOnUiThread { backInput.backCompleted() }
+        waitForIdle()
+        assertFalse(wentBack)
     }
 
     @Test

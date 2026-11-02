@@ -24,6 +24,7 @@ kotlin {
         }
         jvmMain.dependencies {
             implementation(libs.jlayer)
+            implementation(libs.compose.ui.backhandler)
         }
         jvmTest.dependencies {
             implementation(libs.compose.ui.test.junit4)

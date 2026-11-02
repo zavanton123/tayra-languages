@@ -16,6 +16,8 @@ kotlin {
             implementation(libs.compose.ui.test.junit4)
             implementation(libs.junit4)
             implementation(compose.desktop.currentOs)
+            implementation(libs.compose.ui.backhandler)
+            implementation(libs.jetbrains.navigationevent.compose)
         }
     }
 }

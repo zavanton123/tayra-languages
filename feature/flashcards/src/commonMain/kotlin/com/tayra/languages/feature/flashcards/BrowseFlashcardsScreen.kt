@@ -70,6 +70,7 @@ import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.ChipSize
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.EmptyState
+import com.tayra.languages.core.ui.components.EscapeStaysOnPage
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.ListPager
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -125,6 +126,8 @@ import org.koin.compose.viewmodel.koinViewModel
 @Composable
 fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, termId: Long? = null, viewModel: BrowseFlashcardsViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    // Escape closes a card's details or the search's focus, never the browser itself.
+    EscapeStaysOnPage()
     // The card the browser was opened for is opened once; coming back from editing a term only shows the cards as they are now.
     var arrived by rememberSaveable { mutableStateOf(false) }
     LaunchedEffect(Unit) {
