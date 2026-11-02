@@ -255,4 +255,6 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Review {0} due" to "Revisar {0} pendentes",
     "Interval {0}" to "Intervalo {0}",
     "Total cards" to "Total de flashcards",
+    "Click another word to hide it on the card instead." to "Clique em outra palavra para escondê-la no flashcard.",
+    "Tap another word to hide it on the card instead." to "Toque em outra palavra para escondê-la no flashcard.",
 )

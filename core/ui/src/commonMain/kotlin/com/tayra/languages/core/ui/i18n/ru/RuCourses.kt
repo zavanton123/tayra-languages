@@ -255,4 +255,6 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Review {0} due" to "Повторить: {0}",
     "Interval {0}" to "Интервал {0}",
     "Total cards" to "Всего карточек",
+    "Click another word to hide it on the card instead." to "Нажмите на другое слово, чтобы на карточке скрывалось оно.",
+    "Tap another word to hide it on the card instead." to "Коснитесь другого слова, чтобы на карточке скрывалось оно.",
 )

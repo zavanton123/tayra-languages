@@ -35,13 +35,13 @@ object Cloze {
     }
 
     /**
-     * Where a card blanks [term] out of [sentence]: its family's forms first, then a word that only
+     * Where a card blanks [term] out of [sentence]: the form chosen for it by hand, its family's forms, then a word that only
      * ends differently ("turma" for "turmas"), as an example chosen for the card may hold; then a
      * word the dictionary's [lemmas] tie to it ("temia" for "temer"), and last the word that begins
      * most like it ("sobrou" for "sobrar").
      */
     suspend fun cardRange(sentence: String, term: Term, terms: TermRepository, lemmas: (suspend (formLc: String) -> List<String>)? = null): IntRange? =
-        familyRange(sentence, term, terms) ?: nearRange(sentence, term.displayText)
+        term.cardForm?.let { range(sentence, it) } ?: familyRange(sentence, term, terms) ?: nearRange(sentence, term.displayText)
             ?: lemmas?.let { lemmaRange(sentence, term.displayText, it) } ?: sharedBeginningRange(sentence, term.displayText)
 
     /** The first word of [sentence] that shares a dictionary form with the single word [word], either being a form of the other or both of a third. */

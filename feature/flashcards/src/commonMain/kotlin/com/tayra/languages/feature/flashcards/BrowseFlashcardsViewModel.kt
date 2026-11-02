@@ -337,6 +337,14 @@ class BrowseFlashcardsViewModel(
         }
     }
 
+    /** Makes [form], a word of the card's sentence, the one the card hides. */
+    fun chooseHiddenWord(termId: Long, form: String) {
+        viewModelScope.launch {
+            terms.updateCardForm(termId, form)
+            refresh()
+        }
+    }
+
     /** Puts the cards aside, or brings them back into the reviews. */
     fun setSuspended(termIds: Collection<Long>, suspended: Boolean) {
         if (termIds.isEmpty()) return

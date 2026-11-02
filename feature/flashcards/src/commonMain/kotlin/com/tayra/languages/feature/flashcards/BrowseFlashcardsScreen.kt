@@ -58,6 +58,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.text.TextLinkStyles
+import androidx.compose.ui.text.LinkAnnotation
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDirection
@@ -164,6 +167,7 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
         onDelete = { confirmDelete = it.toList() },
         onReview = { onNavigate(Route.Flashcards) },
         onSaveSentence = viewModel::saveSentence,
+        onPickWord = viewModel::chooseHiddenWord,
         onImportAnki = { ankiPicker.launch() },
     )
     val width = LocalWindowWidth.current
@@ -204,6 +208,7 @@ fun FlashcardDetails(
         onReset = { confirmReset = it.toList() },
         onDelete = { confirmDelete = it.toList() },
         onSaveSentence = viewModel::saveSentence,
+        onPickWord = viewModel::chooseHiddenWord,
     )
     state.detail?.let { detail ->
         if (LocalWindowWidth.current.isCompact) DetailScreen(detail, state.now, actions, onDismiss = viewModel::closeDetail)
@@ -250,6 +255,8 @@ internal class BrowseActions(
     val onReview: () -> Unit = {},
     /** Replaces the example sentence of the card's term. */
     val onSaveSentence: (termId: Long, sentence: String) -> Unit = { _, _ -> },
+    /** Makes a word of the sentence the one the card hides. */
+    val onPickWord: (termId: Long, form: String) -> Unit = { _, _ -> },
     /** Asks for an Anki package to import. */
     val onImportAnki: () -> Unit = {},
 )
@@ -645,7 +652,7 @@ private fun DetailDialog(detail: BrowseDetail, now: Instant, actions: BrowseActi
             AppDivider()
             ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                 CardHeading(row)
-                SentenceBox(row, detail.wordRange, compact = false, actions.onSaveSentence)
+                SentenceBox(row, detail.wordRange, compact = false, actions.onSaveSentence, actions.onPickWord)
                 BoxWithConstraints(Modifier.fillMaxWidth()) {
                     if (maxWidth >= DETAIL_TWO_COLUMNS) {
                         Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).padding(top = AppSpacing.s)) {
@@ -691,7 +698,7 @@ internal fun DetailScreen(detail: BrowseDetail, now: Instant, actions: BrowseAct
             AppDivider()
             ScrollColumn(Modifier.weight(1f), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                 CardHeading(row)
-                SentenceBox(row, detail.wordRange, compact = true, actions.onSaveSentence)
+                SentenceBox(row, detail.wordRange, compact = true, actions.onSaveSentence, actions.onPickWord)
                 Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { CardSchedule(row, now, actions) }
                 AppDivider()
                 Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
@@ -776,7 +783,7 @@ private fun ReviewHistory(detail: BrowseDetail, compact: Boolean, modifier: Modi
  * offers to add one either way.
  */
 @Composable
-private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, compact: Boolean, onSave: (termId: Long, sentence: String) -> Unit) {
+private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, compact: Boolean, onSave: (termId: Long, sentence: String) -> Unit, onPick: (termId: Long, form: String) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val direction = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val sentenceStyle = AppText.cardSentence(if (compact) 22f else 28f, FontWeight.SemiBold).copy(color = colors.onSurface, textDirection = direction)
@@ -823,21 +830,37 @@ private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, compact: Boolean, 
                 verticalAlignment = if (compact) Alignment.Top else Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
             ) {
-                Text(markWord(sentence, wordRange), Modifier.weight(1f).testTag("detail-sentence"), style = sentenceStyle)
+                val hover = SpanStyle(color = colors.primary, textDecoration = TextDecoration.Underline)
+                Text(markWord(sentence, wordRange, hover) { onPick(row.termId, it) }, Modifier.weight(1f).testTag("detail-sentence"), style = sentenceStyle)
                 AppIconButton(AppIcons.Sync, contentDescription = tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), style = IconButtonStyle.Outlined)
                 AppIconButton(Icons.Default.Edit, contentDescription = tr("Edit sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), style = IconButtonStyle.Outlined)
             }
         }
+        if (!editing && sentence != null) {
+            Text(
+                if (compact) tr("Tap another word to hide it on the card instead.") else tr("Click another word to hide it on the card instead."),
+                style = MaterialTheme.typography.bodySmall,
+                color = colors.onSurfaceVariant,
+            )
+        }
     }
 }
 
-/** [sentence] with the word at [range] on the highlighter's yellow; as it is when the range does not fit it. */
-private fun markWord(sentence: String, range: IntRange?): AnnotatedString = buildAnnotatedString {
+/**
+ * [sentence] with the word at [range] on the highlighter's yellow (as it is when the range does not
+ * fit it), and every other word a link that [onPick]s it, [hover] while the pointer is over it.
+ */
+private fun markWord(sentence: String, range: IntRange?, hover: SpanStyle, onPick: (String) -> Unit): AnnotatedString = buildAnnotatedString {
     append(sentence)
-    if (range != null && range.first >= 0 && range.last < sentence.length && !range.isEmpty()) {
-        addStyle(SpanStyle(background = AppAccents.highlightSoft, color = AppAccents.inkOnHighlight), range.first, range.last + 1)
+    val marked = range?.takeIf { it.first >= 0 && it.last < sentence.length && !it.isEmpty() }
+    marked?.let { addStyle(SpanStyle(background = AppAccents.highlightSoft, color = AppAccents.inkOnHighlight), it.first, it.last + 1) }
+    SENTENCE_WORD.findAll(sentence).filter { it.range != marked }.forEach { word ->
+        addLink(LinkAnnotation.Clickable(word.value, TextLinkStyles(hoveredStyle = hover)) { onPick(word.value) }, word.range.first, word.range.last + 1)
     }
 }
+
+/** A word of a sentence, as a card's word is found in one. */
+private val SENTENCE_WORD = Regex("""[\p{L}\p{M}\p{Nd}'’-]+""")
 
 @Composable
 private fun StatTile(label: String, value: String, modifier: Modifier) {

@@ -255,4 +255,6 @@ internal val deCourses: Map<String, String> = mapOf(
     "Review {0} due" to "{0} fällige wiederholen",
     "Interval {0}" to "Intervall {0}",
     "Total cards" to "Karteikarten gesamt",
+    "Click another word to hide it on the card instead." to "Klicken Sie auf ein anderes Wort, damit die Karte stattdessen dieses verbirgt.",
+    "Tap another word to hide it on the card instead." to "Tippen Sie auf ein anderes Wort, damit die Karte stattdessen dieses verbirgt.",
 )

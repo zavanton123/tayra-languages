@@ -59,6 +59,8 @@ import androidx.navigationevent.DirectNavigationEventInput
 import androidx.navigationevent.compose.LocalNavigationEventDispatcherOwner
 import kotlin.test.assertFalse
 import com.tayra.languages.core.ui.navigation.Route
+import androidx.compose.ui.test.performFirstLinkClick
+import androidx.compose.ui.text.LinkAnnotation
 
 /** The browser lists every card, narrows them by search and group, opens one for its history, and suspends or resets a selection. */
 @OptIn(ExperimentalTestApi::class)
@@ -272,6 +274,18 @@ class BrowseFlashcardsScreenTest {
         onNodeWithText("Easy").assertExists()
         onNodeWithTag("detail-done").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("browse-detail").fetchSemanticsNodes().isEmpty() }
+    }
+
+    /** A word of the sentence clicked in the card's details becomes the one the card hides. */
+    @Test
+    fun aWordClickedInTheSentenceIsTheOneHidden() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show()
+        onNodeWithTag("browse-row-$comprar").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.detail?.wordRange == 4 until 11 }
+        onNodeWithText("Click another word to hide it on the card instead.").assertExists()
+        onNodeWithTag("detail-sentence").performFirstLinkClick { (it.item as? LinkAnnotation.Clickable)?.tag == "pão" }
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.detail?.wordRange == 12 until 15 }
+        assertEquals("pão", runBlocking { terms.getById(comprar)!!.cardForm })
     }
 
     /** The sentence the card is built on can be changed in the card info, in place. */

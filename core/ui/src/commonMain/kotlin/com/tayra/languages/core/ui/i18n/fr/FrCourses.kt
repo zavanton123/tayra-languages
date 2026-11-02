@@ -255,4 +255,6 @@ internal val frCourses: Map<String, String> = mapOf(
     "Review {0} due" to "Réviser {0} dues",
     "Interval {0}" to "Intervalle {0}",
     "Total cards" to "Cartes au total",
+    "Click another word to hide it on the card instead." to "Cliquez sur un autre mot pour que la carte le masque à la place.",
+    "Tap another word to hide it on the card instead." to "Touchez un autre mot pour que la carte le masque à la place.",
 )

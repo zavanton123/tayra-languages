@@ -48,6 +48,8 @@ interface TermRepository {
     suspend fun setParents(termId: Long, parentIds: List<Long>)
     suspend fun updateStatus(termIds: Collection<Long>, status: TermStatus)
     suspend fun updateSentence(termId: Long, sentence: String?)
+    /** Sets the form the term's flashcard hides in its sentence; null lets the card find it. */
+    suspend fun updateCardForm(termId: Long, form: String?)
 
     /** Records that the terms were exported to Anki at [at]. */
     suspend fun markAnkiExported(termIds: Collection<Long>, at: Instant)

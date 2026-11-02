@@ -105,6 +105,19 @@ class FlashcardServiceTest {
         assertNotNull(service.cardFor(past))
     }
 
+    /** A form chosen by hand is the one the card hides, before any it would find itself; taken back, the card finds its own. */
+    @Test
+    fun theCardHidesTheFormChosenForIt() = runTest {
+        val id = language()
+        val temer = term(id, "temer")
+        terms.updateSentence(temer, "Ele temia o temer dos outros.")
+        assertEquals(12 until 17, service.clozeRange(terms.getById(temer)!!), "the word itself")
+        terms.updateCardForm(temer, "temia")
+        assertEquals(4 until 9, service.clozeRange(terms.getById(temer)!!))
+        terms.updateCardForm(temer, null)
+        assertEquals(12 until 17, service.clozeRange(terms.getById(temer)!!))
+    }
+
     /** A card blanks out the form the sentence holds: the term's own, or a parent's or sibling's when the sentence came through the family. */
     @Test
     fun theCardBlanksOutTheFormOfTheFamilyReadInTheSentence() = runTest {

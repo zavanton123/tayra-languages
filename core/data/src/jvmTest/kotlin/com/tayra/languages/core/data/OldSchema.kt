@@ -14,6 +14,23 @@ internal fun Connection.pretendVersion(version: Int) {
     if (version <= 29 && createStatement().executeQuery("SELECT count(*) FROM pragma_table_info('flashcards') WHERE name = 'created_at'").use { it.getInt(1) } > 0) {
         createStatement().execute("ALTER TABLE flashcards DROP COLUMN created_at")
     }
+    if (version <= 30 && createStatement().executeQuery("SELECT count(*) FROM pragma_table_info('terms') WHERE name = 'card_form'").use { it.getInt(1) } > 0) {
+        // The trigger names the column, so it goes back to the one before it first.
+        if (version >= 28) {
+            createStatement().execute("DROP TRIGGER IF EXISTS sync_terms_update")
+            createStatement().execute(
+                """
+                CREATE TRIGGER sync_terms_update
+                AFTER UPDATE OF text, text_lc, status, translation, romanization, token_count, flash_message, translation_language, sentence ON terms
+                WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+                BEGIN
+                    UPDATE terms SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+                END
+                """.trimIndent(),
+            )
+        }
+        createStatement().execute("ALTER TABLE terms DROP COLUMN card_form")
+    }
     createStatement().execute("PRAGMA user_version = $version")
 }
 

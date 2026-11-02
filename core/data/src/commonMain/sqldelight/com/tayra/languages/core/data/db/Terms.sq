@@ -14,7 +14,9 @@ CREATE TABLE terms (
     translation_language TEXT,
     sentence TEXT,
     anki_exported_at INTEGER,
-    updated_at INTEGER NOT NULL DEFAULT 0
+    updated_at INTEGER NOT NULL DEFAULT 0,
+    -- The form of the word its flashcard hides in the sentence, chosen by hand; null to let the card find it.
+    card_form TEXT
 );
 
 CREATE UNIQUE INDEX terms_text_lc_language ON terms(text_lc, language_id);
@@ -76,6 +78,9 @@ UPDATE terms SET anki_exported_at = :at WHERE id IN :ids;
 
 updateSentence:
 UPDATE terms SET sentence = :sentence WHERE id = :id;
+
+updateCardForm:
+UPDATE terms SET card_form = :cardForm WHERE id = :id;
 
 updateSyncStatus:
 UPDATE terms SET sync_status = :syncStatus WHERE id = :id;

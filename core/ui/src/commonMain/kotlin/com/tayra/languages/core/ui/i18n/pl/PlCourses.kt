@@ -255,4 +255,6 @@ internal val plCourses: Map<String, String> = mapOf(
     "Review {0} due" to "Powtórz zaległe: {0}",
     "Interval {0}" to "Odstęp {0}",
     "Total cards" to "Wszystkie fiszki",
+    "Click another word to hide it on the card instead." to "Kliknij inne słowo, aby to ono było ukryte na fiszce.",
+    "Tap another word to hide it on the card instead." to "Dotknij inne słowo, aby to ono było ukryte na fiszce.",
 )

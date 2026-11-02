@@ -70,6 +70,8 @@ data class Term(
     val sentence: String? = null,
     /** When the term was last exported to Anki; an exported term is not exported again. */
     val ankiExportedAt: Instant? = null,
+    /** The form of the term its flashcard hides in [sentence], chosen by hand; null to let the card find it. */
+    val cardForm: String? = null,
 ) {
     val displayText: String get() = text.replace(ZWS_STRING, "")
     val isMultiword: Boolean get() = tokenCount > 1
