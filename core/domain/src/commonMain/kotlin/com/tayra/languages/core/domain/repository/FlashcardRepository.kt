@@ -1,5 +1,7 @@
 package com.tayra.languages.core.domain.repository
 
+import com.tayra.languages.core.domain.flashcards.MemoryState
+import com.tayra.languages.core.domain.flashcards.PersonalParameters
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.Flashcard
 import com.tayra.languages.core.domain.flashcards.FlashcardReview
@@ -43,6 +45,20 @@ interface FlashcardRepository {
 
     /** Makes the card new again, at the end of the new cards. */
     suspend fun restart(termId: Long, now: Instant)
+
+    /** The FSRS parameters trained on [languageId]'s answers, once it has been trained. */
+    suspend fun parameters(languageId: Long): PersonalParameters?
+    suspend fun saveParameters(parameters: PersonalParameters)
+
+    /** Goes back to the default parameters for [languageId]. */
+    suspend fun clearParameters(languageId: Long)
+
+    /** Every answer to [languageId]'s cards, card by card in the order given. */
+    suspend fun reviewsOf(languageId: Long): List<FlashcardReview>
+    suspend fun reviewCount(languageId: Long): Int
+
+    /** Sets the memory of cards, as worked out again from their answers, in one write. */
+    suspend fun setMemories(memories: Map<Long, MemoryState>)
 
     /** Emits whenever terms, cards or reviews change. */
     fun observeChanges(): Flow<Unit>

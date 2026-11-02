@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.sync
 
+import kotlinx.serialization.json.JsonNull
 import app.cash.sqldelight.async.coroutines.awaitAsList
 import app.cash.sqldelight.async.coroutines.awaitAsOne
 import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
@@ -182,7 +183,7 @@ class SyncEngine(
             fun code(language: String) = langs.codeOf[language]
             q.changedLanguages(since, ::LanguageRow).awaitAsList().forEach { row ->
                 val c = code(row.name) ?: return@forEach
-                records += languageRecord(row, q.dictionariesOf(row.id, ::DictionaryRow).awaitAsList(), c, device)
+                records += languageRecord(row, q.dictionariesOf(row.id, ::DictionaryRow).awaitAsList(), c, device, q.fsrsOf(row.id, ::FsrsRow).awaitAsOneOrNull())
             }
             q.changedTerms(since, ::TermRow).awaitAsList().forEach { r -> code(r.language)?.let { r.record(it, device) }?.let { records += it } }
             q.changedFlashcards(since, ::FlashcardRow).awaitAsList().forEach { r -> code(r.language)?.let { records += r.record(it, device) } }
@@ -304,7 +305,7 @@ class SyncEngine(
             return when (remote.kind) {
                 SyncKinds.LANGUAGE -> {
                     val row = q.languageSettings(languageId, ::LanguageRow).awaitAsOne()
-                    val local = languageRecord(row, q.dictionariesOf(languageId, ::DictionaryRow).awaitAsList(), code, device).takeIf { row.updatedAt > 0 }
+                    val local = languageRecord(row, q.dictionariesOf(languageId, ::DictionaryRow).awaitAsList(), code, device, q.fsrsOf(languageId, ::FsrsRow).awaitAsOneOrNull()).takeIf { row.updatedAt > 0 }
                     write(local, remote) { m ->
                         val data = m.data ?: return@write
                         q.setLanguageSettings(data.bool("showRomanization") ?: false, m.updatedAt, languageId)
@@ -314,6 +315,12 @@ class SyncEngine(
                         }
                         val script = data.string("script")
                         if (script != null) q.setScript(languageId, script) else q.clearScript(languageId)
+                        // A record from before trained parameters, without the field, leaves those here as they are.
+                        when (val f = data["fsrs"]) {
+                            is JsonObject -> q.setFsrs(languageId, f.string("parameters") ?: "", f.long("reviews") ?: 0, f.long("trainedAt") ?: 0, f.double("gain") ?: 0.0)
+                            JsonNull -> q.clearFsrs(languageId)
+                            else -> {}
+                        }
                     }
                 }
                 SyncKinds.VOCABULARY_LEVEL -> {

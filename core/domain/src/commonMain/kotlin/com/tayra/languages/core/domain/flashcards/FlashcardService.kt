@@ -78,6 +78,9 @@ class FlashcardService(
 
     private fun config(s: UserSettings = settings.current) = schedulerConfig(s)
 
+    /** The scheduling of a card of [languageId]: the settings', with the parameters trained on the language's answers. */
+    private suspend fun configFor(languageId: Long): SchedulerConfig = config().copy(parameters = cards.parameters(languageId)?.parameters)
+
     private data class Limits(val newLeft: Int, val reviewsLeft: Int)
 
     private suspend fun limits(languageId: Long?, now: Instant, config: SchedulerConfig): Limits {
@@ -171,7 +174,7 @@ class FlashcardService(
             val later = cards.earliestDue(languageId, STEPPING)?.takeIf { it < endOfDay }
             return Session(null, null, emptyMap(), counts, later, now)
         }
-        return Session(card, term, outcomes(card, term.status, now, config), counts, null, now)
+        return Session(card, term, outcomes(card, term.status, now, configFor(term.languageId)), counts, null, now)
     }
 
     /**
@@ -199,7 +202,7 @@ class FlashcardService(
     suspend fun answer(card: Flashcard, rating: Rating, answeredBy: AnswerMode = AnswerMode.SHOW): Answered? {
         val now = clock.now()
         val term = terms.getById(card.termId) ?: return null
-        val config = config()
+        val config = configFor(term.languageId)
         val before = card.schedule
         val after = outcomes(card, term.status, now, config).getValue(rating)
         val status = statusAfter(term.status, before, after, rating)
@@ -235,7 +238,8 @@ class FlashcardService(
         val config = config()
         val all = cards.list(languageId)
         val byId = terms.getByIds(all.map { it.termId }).associateBy { it.id }
-        val listed = all.mapNotNull { card -> byId[card.termId]?.let { BrowseCard(card, it, scheduler.retrievability(card.schedule, now, config)) } }
+        val configs = byId.values.map { it.languageId }.distinct().associateWith { configFor(it) }
+        val listed = all.mapNotNull { card -> byId[card.termId]?.let { BrowseCard(card, it, scheduler.retrievability(card.schedule, now, configs[it.languageId] ?: config)) } }
         val day = scheduler.day(now, config)
         return Browse(listed, now, endOfDay = scheduler.dayStart(day + 1, config), startOfDay = scheduler.dayStart(day, config))
     }

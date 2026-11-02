@@ -60,6 +60,8 @@ data class SchedulerConfig(
     val maximumIntervalDays: Int = 36500,
     /** The hour a new study day starts, so late-night reviews count for the day before. */
     val dayStartHour: Int = 4,
+    /** The memory model's parameters trained for the card's language; null for the defaults. */
+    val parameters: List<Double>? = null,
 )
 
 /**
@@ -68,6 +70,12 @@ data class SchedulerConfig(
  * Every answer updates the memory state; intervals in days come from it.
  */
 class FlashcardScheduler(private val fsrs: Fsrs = Fsrs(), private val timeZone: () -> TimeZone = { TimeZone.currentSystemDefault() }) {
+    /** The model of the trained parameters last asked for, kept for the next card of the language. */
+    private var trained: Pair<List<Double>, Fsrs>? = null
+
+    private fun model(config: SchedulerConfig): Fsrs = config.parameters?.let { parameters ->
+        trained?.takeIf { it.first == parameters }?.second ?: Fsrs(parameters.toDoubleArray()).also { trained = parameters to it }
+    } ?: fsrs
 
     /** The study day [instant] falls in, as a day number. */
     fun day(instant: Instant, config: SchedulerConfig): Long =
@@ -81,7 +89,7 @@ class FlashcardScheduler(private val fsrs: Fsrs = Fsrs(), private val timeZone: 
     fun retrievability(card: CardSchedule, now: Instant, config: SchedulerConfig): Double? {
         val memory = card.memory ?: return null
         val elapsed = card.lastReview?.let { (day(now, config) - day(it, config)).coerceAtLeast(0) } ?: 0
-        return fsrs.retrievability(elapsed.toDouble(), memory.stability)
+        return model(config).retrievability(elapsed.toDouble(), memory.stability)
     }
 
     /** The card after answering [rating] at [now]. */
@@ -96,6 +104,7 @@ class FlashcardScheduler(private val fsrs: Fsrs = Fsrs(), private val timeZone: 
     fun outcomes(card: CardSchedule, now: Instant, config: SchedulerConfig, fuzz: Double? = null): Map<Rating, CardSchedule> {
         val today = day(now, config)
         val elapsed = card.lastReview?.let { (today - day(it, config)).coerceAtLeast(0).toInt() } ?: 0
+        val fsrs = model(config)
         val memory = Rating.entries.associateWith { fsrs.next(card.memory, elapsed, it) }
         val interval = memory.mapValues { fsrs.interval(it.value.stability, config.desiredRetention) }
         val maximum = config.maximumIntervalDays

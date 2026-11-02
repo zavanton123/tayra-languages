@@ -102,6 +102,15 @@ languageSettings:
 SELECT l.id, l.name, l.show_romanization, l.updated_at, coalesce((SELECT script FROM language_scripts s WHERE s.language_id = l.id), '') AS script
 FROM languages l WHERE l.id = :id;
 
+fsrsOf:
+SELECT parameters, reviews, trained_at, gain FROM fsrs_parameters WHERE language_id = :languageId;
+
+setFsrs:
+INSERT OR REPLACE INTO fsrs_parameters(language_id, parameters, reviews, trained_at, gain) VALUES (:languageId, :parameters, :reviews, :trainedAt, :gain);
+
+clearFsrs:
+DELETE FROM fsrs_parameters WHERE language_id = :languageId;
+
 dictionariesOf:
 SELECT use_for, dict_type, url, is_active, sort_order FROM language_dictionaries WHERE language_id = :languageId ORDER BY sort_order, id;
 

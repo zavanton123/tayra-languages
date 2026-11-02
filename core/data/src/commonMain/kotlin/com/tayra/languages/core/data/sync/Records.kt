@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.sync
 
+import kotlinx.serialization.json.JsonNull
 import com.tayra.languages.sync.FlashcardFields
 import com.tayra.languages.sync.PracticeProgressFields
 import com.tayra.languages.sync.SyncKeys
@@ -129,9 +130,14 @@ internal data class LanguageRow(val id: Long, val name: String, val showRomaniza
 
 internal data class DictionaryRow(val useFor: String, val dictType: String, val url: String, val active: Boolean, val order: Long)
 
-internal fun languageRecord(row: LanguageRow, dictionaries: List<DictionaryRow>, code: String, device: String) =
+/** A language's trained FSRS parameters, as kept in fsrs_parameters. */
+internal data class FsrsRow(val parameters: String, val reviews: Long, val trainedAt: Long, val gain: Double)
+
+internal fun languageRecord(row: LanguageRow, dictionaries: List<DictionaryRow>, code: String, device: String, fsrs: FsrsRow? = null) =
     SyncRecord(SyncKinds.LANGUAGE, SyncKeys.language(code), row.updatedAt, data = buildJsonObject {
         put("showRomanization", row.showRomanization)
+        // Null says the language has none, as a record from before them, without the field, cannot.
+        put("fsrs", fsrs?.let { buildJsonObject { put("parameters", it.parameters); put("reviews", it.reviews); put("trainedAt", it.trainedAt); put("gain", it.gain) } } ?: JsonNull)
         if (row.script.isNotEmpty()) put("script", row.script)
         put("dictionaries", buildJsonArray {
             dictionaries.forEach { d ->

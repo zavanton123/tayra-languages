@@ -64,7 +64,7 @@ class SyncMigrationTest {
             assertEquals(2, ids.toSet().size)
             assertTrue(ids.all { it.matches(Regex("[0-9a-f]{32}")) }, ids.toString())
             assertEquals(listOf("0|1|"), strings("SELECT last_seq, full_push, last_push_at FROM sync_state"), "the first sync sends everything")
-            assertEquals(listOf("47"), strings("SELECT count(*) FROM sqlite_master WHERE type = 'trigger' AND name LIKE 'sync_%'"))
+            assertEquals(listOf("49"), strings("SELECT count(*) FROM sqlite_master WHERE type = 'trigger' AND name LIKE 'sync_%'"))
             // And the triggers work in it.
             createStatement().execute("PRAGMA foreign_keys = ON")
             createStatement().execute("DELETE FROM terms WHERE id = $lobo")

@@ -1,0 +1,25 @@
+-- A language's own FSRS parameters, trained on its answers; a language without a row schedules with the defaults.
+CREATE TABLE fsrs_parameters (
+    language_id INTEGER NOT NULL PRIMARY KEY REFERENCES languages(id) ON DELETE CASCADE,
+    -- The 21 parameters, comma-separated; empty while the defaults fit the answers best.
+    parameters TEXT NOT NULL,
+    -- The answers the last training read, when it ran, and how much better than the defaults the parameters predict them.
+    reviews INTEGER NOT NULL,
+    trained_at INTEGER NOT NULL,
+    gain REAL NOT NULL DEFAULT 0
+);
+
+-- A language's trained parameters travel with its settings.
+CREATE TRIGGER sync_fsrs_parameters_insert
+AFTER INSERT ON fsrs_parameters
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE languages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.language_id;
+END;
+
+CREATE TRIGGER sync_fsrs_parameters_delete
+AFTER DELETE ON fsrs_parameters
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE languages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = old.language_id;
+END;

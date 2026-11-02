@@ -1,5 +1,10 @@
 package com.tayra.languages.core.data
 
+import kotlin.time.Instant
+import kotlinx.serialization.json.JsonObject
+import com.tayra.languages.core.data.repository.FlashcardRepositoryImpl
+import com.tayra.languages.core.domain.flashcards.PersonalParameters
+import com.tayra.languages.core.domain.flashcards.Fsrs
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
@@ -187,6 +192,32 @@ class SyncEngineTest {
         for (device in listOf(phone, desktop)) {
             assertEquals(listOf("3|home"), device.rows("SELECT status, translation FROM terms WHERE text_lc = 'casa'"))
         }
+    }
+
+    @Test
+    fun trainedParametersTravelWithTheLanguage() = runBlocking<Unit> {
+        val pt = phone.portuguese()
+        desktop.portuguese()
+        val params = Fsrs.DEFAULT_PARAMETERS.map { it * 0.9 }
+        FlashcardRepositoryImpl(phone.provider).saveParameters(PersonalParameters(pt, params, 812, Instant.fromEpochMilliseconds(1_790_000_000_000), 0.06))
+        phone.engine.syncNow()
+        desktop.engine.syncNow()
+        val desktopPt = desktop.portuguese()
+        assertEquals(PersonalParameters(desktopPt, params, 812, Instant.fromEpochMilliseconds(1_790_000_000_000), 0.06), FlashcardRepositoryImpl(desktop.provider).parameters(desktopPt))
+
+        // A change of the language's other settings from a version that knows nothing of them leaves them be.
+        Thread.sleep(5)
+        desktop.run("UPDATE languages SET show_romanization = 1 WHERE id = $desktopPt")
+        val record = account.records.values.first { it.first.kind == "language" }.first
+        account.records[record.kind to record.key] = record.copy(data = JsonObject(record.data!!.filterKeys { it != "fsrs" }), updatedAt = record.updatedAt + 1) to ++account.seq
+        phone.engine.syncNow()
+        assertEquals(params, FlashcardRepositoryImpl(phone.provider).parameters(pt)?.parameters)
+
+        // Gone back to the defaults on one, the other follows.
+        FlashcardRepositoryImpl(phone.provider).clearParameters(pt)
+        phone.engine.syncNow()
+        desktop.engine.syncNow()
+        assertEquals(null, FlashcardRepositoryImpl(desktop.provider).parameters(desktopPt))
     }
 
     @Test

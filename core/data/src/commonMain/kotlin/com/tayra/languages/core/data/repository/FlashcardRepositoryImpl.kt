@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.repository
 
+import com.tayra.languages.core.domain.flashcards.PersonalParameters
 import app.cash.sqldelight.async.coroutines.awaitAsList
 import app.cash.sqldelight.async.coroutines.awaitAsOne
 import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
@@ -59,6 +60,55 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
                 elapsedDays = it.elapsed_days.toInt(),
                 answeredBy = AnswerMode.of(it.answered_by.toInt()),
             )
+        }
+    }
+
+    override suspend fun parameters(languageId: Long): PersonalParameters? = withContext(databaseDispatcher) {
+        queries().parametersOf(languageId).awaitAsOneOrNull()?.let { row ->
+            PersonalParameters(
+                languageId = row.language_id,
+                parameters = row.parameters.split(',').mapNotNull { it.trim().toDoubleOrNull() }.takeIf { it.size == 21 },
+                reviews = row.reviews.toInt(),
+                trainedAt = row.trained_at.toInstant(),
+                gain = row.gain,
+            )
+        }
+    }
+
+    override suspend fun saveParameters(parameters: PersonalParameters) = withContext(databaseDispatcher) {
+        queries().saveParameters(parameters.languageId, parameters.parameters?.joinToString(",").orEmpty(), parameters.reviews.toLong(), parameters.trainedAt.toEpochMillis(), parameters.gain)
+        Unit
+    }
+
+    override suspend fun clearParameters(languageId: Long) = withContext(databaseDispatcher) {
+        queries().clearParameters(languageId)
+        Unit
+    }
+
+    override suspend fun reviewsOf(languageId: Long): List<FlashcardReview> = withContext(databaseDispatcher) {
+        queries().reviewsOfLanguage(languageId).awaitAsList().map {
+            FlashcardReview(
+                id = it.id,
+                termId = it.term_id,
+                at = it.reviewed_at.toInstant(),
+                rating = Rating.of(it.rating.toInt()),
+                stateBefore = CardState.of(it.state_before.toInt()),
+                intervalDays = it.interval_days.toInt(),
+                elapsedDays = it.elapsed_days.toInt(),
+                answeredBy = AnswerMode.of(it.answered_by.toInt()),
+            )
+        }
+    }
+
+    override suspend fun reviewCount(languageId: Long): Int = withContext(databaseDispatcher) {
+        queries().countReviewsOfLanguage(languageId).awaitAsOne().toInt()
+    }
+
+    override suspend fun setMemories(memories: Map<Long, MemoryState>) {
+        if (memories.isEmpty()) return
+        withContext(databaseDispatcher) {
+            val database = provider.database()
+            database.transaction { memories.forEach { (termId, memory) -> database.flashcardsQueries.setMemory(memory.stability, memory.difficulty, termId) } }
         }
     }
 

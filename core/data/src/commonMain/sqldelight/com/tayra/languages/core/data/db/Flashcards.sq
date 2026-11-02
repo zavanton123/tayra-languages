@@ -36,6 +36,17 @@ CREATE TABLE flashcard_reviews (
 
 CREATE INDEX flashcard_reviews_at ON flashcard_reviews(reviewed_at);
 
+-- A language's own FSRS parameters, trained on its answers; a language without a row schedules with the defaults.
+CREATE TABLE fsrs_parameters (
+    language_id INTEGER NOT NULL PRIMARY KEY REFERENCES languages(id) ON DELETE CASCADE,
+    -- The 21 parameters, comma-separated; empty while the defaults fit the answers best.
+    parameters TEXT NOT NULL,
+    -- The answers the last training read, when it ran, and how much better than the defaults the parameters predict them.
+    reviews INTEGER NOT NULL,
+    trained_at INTEGER NOT NULL,
+    gain REAL NOT NULL DEFAULT 0
+);
+
 selectByTerm:
 SELECT * FROM flashcards WHERE term_id = :termId;
 
@@ -154,3 +165,24 @@ DELETE FROM flashcards WHERE term_id IN (SELECT tp.term_id FROM term_parents tp 
 -- Changes whenever terms, cards or reviews are written; observed to refresh what is due.
 changeMarker:
 SELECT (SELECT count(*) FROM terms) + (SELECT count(*) FROM flashcards) + (SELECT count(*) FROM flashcard_reviews);
+
+parametersOf:
+SELECT * FROM fsrs_parameters WHERE language_id = :languageId;
+
+saveParameters:
+INSERT OR REPLACE INTO fsrs_parameters(language_id, parameters, reviews, trained_at, gain) VALUES (:languageId, :parameters, :reviews, :trainedAt, :gain);
+
+clearParameters:
+DELETE FROM fsrs_parameters WHERE language_id = :languageId;
+
+-- Every answer to a language's cards, card by card in the order given.
+reviewsOfLanguage:
+SELECT r.* FROM flashcard_reviews r INNER JOIN terms t ON t.id = r.term_id
+WHERE t.language_id = :languageId
+ORDER BY r.term_id, r.reviewed_at, r.id;
+
+countReviewsOfLanguage:
+SELECT count(*) FROM flashcard_reviews r INNER JOIN terms t ON t.id = r.term_id WHERE t.language_id = :languageId;
+
+setMemory:
+UPDATE flashcards SET stability = :stability, difficulty = :difficulty WHERE term_id = :termId;

@@ -177,6 +177,21 @@ BEGIN
     UPDATE languages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
 END;
 
+-- A language's trained parameters travel with its settings.
+CREATE TRIGGER sync_fsrs_parameters_insert
+AFTER INSERT ON fsrs_parameters
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE languages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.language_id;
+END;
+
+CREATE TRIGGER sync_fsrs_parameters_delete
+AFTER DELETE ON fsrs_parameters
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE languages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = old.language_id;
+END;
+
 CREATE TRIGGER sync_languages_delete
 AFTER DELETE ON languages
 WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1

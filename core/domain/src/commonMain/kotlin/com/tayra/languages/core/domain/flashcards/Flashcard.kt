@@ -44,3 +44,10 @@ data class FlashcardReview(
 data class DueCounts(val new: Int = 0, val learning: Int = 0, val review: Int = 0) {
     val total: Int get() = new + learning + review
 }
+
+/**
+ * A language's FSRS parameters trained on its own answers; null [parameters] while the defaults fit
+ * them best. [reviews] counts the answers the last training read, at [trainedAt]; [gain] is how
+ * much better than the defaults the parameters predict them, a share of the defaults' log loss.
+ */
+data class PersonalParameters(val languageId: Long, val parameters: List<Double>?, val reviews: Int, val trainedAt: Instant, val gain: Double)
