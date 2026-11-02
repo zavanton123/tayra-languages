@@ -63,7 +63,8 @@ private val menuGroups = listOf(
     MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Books), MenuEntry("Create new book", Route.NewBook), MenuEntry("Find free books", Route.FindBooks), MenuEntry("Book archive", Route.ArchivedBooks))),
     MenuGroup(NavSection.NEWS, listOf(MenuEntry("News", Route.News)), direct = true),
     MenuGroup(NavSection.PLAYLISTS, listOf(MenuEntry("Playlists", Route.Playlists)), direct = true),
-    MenuGroup(NavSection.FLASHCARDS, listOf(MenuEntry("Review flashcards", Route.Flashcards), MenuEntry("Browse flashcards", Route.BrowseFlashcards()), MenuEntry("Flashcard settings", Route.FlashcardSettings))),
+    // Their settings are under Settings, with the others.
+    MenuGroup(NavSection.FLASHCARDS, listOf(MenuEntry("Review flashcards", Route.Flashcards), MenuEntry("Browse flashcards", Route.BrowseFlashcards()))),
     MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()), MenuEntry("Word frequency", Route.WordFrequency), MenuEntry("Statistics", Route.Stats))),
     MenuGroup(
         NavSection.SETTINGS,
