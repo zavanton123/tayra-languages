@@ -80,7 +80,6 @@ import com.tayra.languages.core.ui.audio.Speaker
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.ui.components.MarkedText
 import com.tayra.languages.core.ui.components.pushFill
-import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
@@ -515,18 +514,16 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
         // A sentence keeps its translation's place from the start, in the same type, so nothing moves when it comes.
         if (sentence != null || card.sentenceTranslation != null) {
             val translation = card.sentenceTranslation
-            AppDivider()
             Text(
                 translation ?: if (card.translating) tr("Translating…") else tr("No translation available"),
-                Modifier.padding(top = AppSpacing.l).fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash))
+                Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash))
                     .padding(horizontal = if (compact) AppSpacing.l else AppSpacing.huge, vertical = AppSpacing.l).testTag("flashcard-translation"),
                 style = AppText.cardTranslation(compact).copy(color = if (translation != null) colors.onSurfaceVariant else colors.outline, textAlign = TextAlign.Center),
             )
         }
         if (revealed) {
-            AppDivider(Modifier.padding(top = AppSpacing.l))
             Column(
-                Modifier.fillMaxWidth().padding(top = AppSpacing.xl, bottom = AppSpacing.xs).testTag("flashcard-answer"),
+                Modifier.fillMaxWidth().padding(top = AppSpacing.xxl, bottom = AppSpacing.xs).testTag("flashcard-answer"),
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
             ) {
