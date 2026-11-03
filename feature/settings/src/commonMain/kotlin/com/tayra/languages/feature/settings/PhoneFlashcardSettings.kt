@@ -122,6 +122,7 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                     dense = true,
                     switchModifier = Modifier.testTag("phone-two-buttons"),
                 ) { v -> viewModel.update { it.copy(flashcardTwoButtons = v) } }
+                AutoAdvanceSettings(settings, viewModel, dense = true)
             }
             LeechCard(settings, viewModel, dense = true)
             HowItWorks()

@@ -1,5 +1,8 @@
 package com.tayra.languages.feature.flashcards
 
+import com.tayra.languages.core.domain.flashcards.FlashcardService
+import kotlin.time.Duration.Companion.milliseconds
+import kotlinx.coroutines.delay
 import com.tayra.languages.core.domain.flashcards.BacklogOrder
 import androidx.compose.material.icons.filled.Add
 import com.tayra.languages.core.domain.flashcards.ExtraStudy
@@ -168,6 +171,9 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     // The card's details open over the review, which shows the card as it is now once they close, its answer still showing if it was.
     var details by remember { mutableStateOf<Long?>(null) }
     var studyingMore by remember { mutableStateOf(false) }
+    val overlay = choosingExample != null || details != null || confirmDelete != null || studyingMore
+    // Nothing moves on by itself while something is open over the card.
+    LaunchedEffect(overlay) { viewModel.pauseAuto(overlay) }
     Scaffold(
         topBar = {
             // Wide windows offer the browser from the page heading instead.
@@ -206,7 +212,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onEndPass = viewModel::endPass,
             ),
             modifier = Modifier.padding(padding),
-            overlay = choosingExample != null || details != null || confirmDelete != null || studyingMore,
+            overlay = overlay,
         )
     }
     if (studyingMore) StudyMoreDialog(viewModel, onAddNew = viewModel::addNewToday, onStart = viewModel::startPass, onDismiss = { studyingMore = false })
@@ -364,7 +370,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         Finished(state, actions)
                     } else {
                         // Each card fades in as it comes up, filling the height left to it.
-                        key(card.termId) { Appear(Modifier.weight(1f), grow = true) { WideCard(card, state.revealed, state.canUndo, speaker, actions) { AnswerGiven(state, actions, compact = false) } } }
+                        key(card.termId) { Appear(Modifier.weight(1f), grow = true) { WideCard(card, state.revealed, state.canUndo, speaker, actions, timer = { AnswerTimer(state) }) { AnswerGiven(state, actions, compact = false) } } }
                         // Show answer and the answers share one place at the foot; the answers fade in as the card turns over.
                         if (state.revealed) {
                             Appear { Answers(actions, compact = false, state.twoButtons, state.waits, state.suggested) }
@@ -410,7 +416,7 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             val preparing = state.preparingAudio
             if (preparing != null) PreparingAudio(preparing, actions.onStartWithoutWaiting, compact = true)
             else if (card == null) Finished(state, actions)
-            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, onChooseExample = { actions.onChooseExample(card) }) { AnswerGiven(state, actions, compact = true) } } }
+            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, onChooseExample = { actions.onChooseExample(card) }, timer = { AnswerTimer(state) }) { AnswerGiven(state, actions, compact = true) } } }
         }
         val card = state.card?.takeIf { state.preparingAudio == null } ?: return@Column
         Column(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -555,7 +561,7 @@ private fun CountPill(tag: String, count: Int, label: String, tint: Color, large
  * examples for it, beside its sound.
  */
 @Composable
-private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onChooseExample: () -> Unit = {}, given: @Composable () -> Unit = {}) {
+private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onChooseExample: () -> Unit = {}, timer: @Composable () -> Unit = {}, given: @Composable () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val inset = if (compact) AppSpacing.xl else AppSpacing.xxxl
@@ -571,6 +577,7 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
         Row(Modifier.fillMaxWidth().heightIn(min = AppSizes.tileLarge), verticalAlignment = Alignment.CenterVertically) {
             // No state tag: the counters above say how many cards are new, learning and due, and a tag named
             // Learning would read as the word's status.
+            timer()
             Spacer(Modifier.weight(1f))
             // Two round buttons in the corner, each named by a tooltip: other examples once answered, and the sentence's sound.
             if (revealed && card.sentence != null) {
@@ -673,12 +680,13 @@ private fun CardText(card: CardContent, revealed: Boolean, compact: Boolean) {
  * word under the sentence, its sound above it.
  */
 @Composable
-private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier, given: @Composable () -> Unit = {}) {
+private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier, timer: @Composable () -> Unit = {}, given: @Composable () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     Column(modifier.fillMaxSize().cardSurface(AppShapes.large).padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl).testTag("flashcard")) {
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             CardButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous card"), actions.onUndo, enabled = canUndo, tag = "previous-card")
+            timer()
             Spacer(Modifier.weight(1f))
             if (speaker != null) {
                 SpeakButton(
@@ -742,6 +750,31 @@ private fun CardButton(icon: ImageVector, label: String, onClick: () -> Unit, en
         )
     }
 }
+
+/**
+ * How long the card has been on show, as Anki's timer shows it, when the settings ask for it: red
+ * once it reaches the most an answer is taken to take.
+ */
+@Composable
+private fun AnswerTimer(state: FlashcardsUiState) {
+    val shown = state.shownAt?.takeIf { state.showTimer } ?: return
+    val most = FlashcardService.MAX_ANSWER_TIME.inWholeSeconds
+    var seconds by remember(shown) { mutableStateOf(shown.elapsedNow().inWholeSeconds.coerceAtMost(most)) }
+    LaunchedEffect(shown) {
+        while (seconds < most) {
+            delay(TIMER_TICK)
+            seconds = shown.elapsedNow().inWholeSeconds.coerceAtMost(most)
+        }
+    }
+    Text(
+        "${seconds / 60}:${(seconds % 60).toString().padStart(2, '0')}",
+        style = MaterialTheme.typography.titleMedium,
+        color = if (seconds >= most) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurfaceVariant,
+        modifier = Modifier.padding(horizontal = AppSpacing.s).testTag("answer-timer"),
+    )
+}
+
+private val TIMER_TICK = 250.milliseconds
 
 /** The card's other actions behind one round button: its details, and suspending or deleting it. */
 @Composable

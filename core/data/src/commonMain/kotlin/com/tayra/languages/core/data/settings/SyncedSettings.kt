@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.settings
 
+import com.tayra.languages.core.domain.flashcards.AutoAnswer
 import com.tayra.languages.core.domain.flashcards.BacklogOrder
 import com.tayra.languages.core.domain.flashcards.NewCardMix
 import com.tayra.languages.core.domain.flashcards.NewCardOrder
@@ -37,6 +38,10 @@ internal object SyncedSettings {
         flag("flashcardLoadBalancing", { it.flashcardLoadBalancing }) { s, v -> s.copy(flashcardLoadBalancing = v) },
         text("flashcardEasyDays", { it.flashcardEasyDays }) { s, v -> s.copy(flashcardEasyDays = v) },
         text("flashcardBacklogOrder", { it.flashcardBacklogOrder.name }) { s, v -> s.copy(flashcardBacklogOrder = BacklogOrder.entries.firstOrNull { it.name == v } ?: s.flashcardBacklogOrder) },
+        flag("flashcardShowTimer", { it.flashcardShowTimer }) { s, v -> s.copy(flashcardShowTimer = v) },
+        number("flashcardAutoReveal", { it.flashcardAutoReveal }) { s, v -> s.copy(flashcardAutoReveal = v.coerceIn(0, UserSettings.MAX_AUTO_SECONDS)) },
+        number("flashcardAutoAnswer", { it.flashcardAutoAnswer }) { s, v -> s.copy(flashcardAutoAnswer = v.coerceIn(0, UserSettings.MAX_AUTO_SECONDS)) },
+        text("flashcardAutoAnswerAction", { it.flashcardAutoAnswerAction.name }) { s, v -> s.copy(flashcardAutoAnswerAction = AutoAnswer.entries.firstOrNull { it.name == v } ?: s.flashcardAutoAnswerAction) },
         number("flashcardDayStartHour", { it.flashcardDayStartHour }) { s, v -> s.copy(flashcardDayStartHour = v.coerceIn(0, 23)) },
         number("flashcardMaxInterval", { it.flashcardMaxInterval }) { s, v -> s.copy(flashcardMaxInterval = v.coerceIn(1, UserSettings.MAX_FLASHCARD_INTERVAL)) },
         text("flashcardNewOrder", { it.flashcardNewOrder.name }) { s, v -> s.copy(flashcardNewOrder = NewCardOrder.entries.firstOrNull { it.name == v } ?: s.flashcardNewOrder) },

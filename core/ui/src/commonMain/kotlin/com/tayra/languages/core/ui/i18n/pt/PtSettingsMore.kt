@@ -450,4 +450,13 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "The longest a review waits, in days. Words not yet Known still come back within a week." to "O máximo que uma revisão espera, em dias. Palavras ainda não Conhecidas voltam mesmo assim em até uma semana.",
     "days" to "dias",
     "From 1 to {0}" to "De 1 a {0}",
+    "Show a timer" to "Mostrar cronômetro",
+    "How long the card has been on show, up to the minute an answer is counted for." to "Quanto tempo o cartão está à mostra, até o minuto que conta para uma resposta.",
+    "Show the answer after" to "Mostrar a resposta após",
+    "Seconds before a card's answer shows by itself, for cards answered by showing; 0 never." to "Segundos até a resposta aparecer sozinha, para cartões respondidos mostrando; 0 nunca.",
+    "seconds before the answer shows" to "segundos até a resposta aparecer",
+    "Answer after" to "Responder após",
+    "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "Segundos com a resposta à mostra antes de o cartão ser respondido sozinho; 0 nunca. Uma palavra digitada ou dita recebe a resposta que mereceu.",
+    "seconds before the card is answered" to "segundos até o cartão ser respondido",
+    "Answered as" to "Respondido como",
 )

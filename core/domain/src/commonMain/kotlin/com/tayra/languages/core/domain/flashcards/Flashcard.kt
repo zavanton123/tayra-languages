@@ -65,6 +65,16 @@ enum class NewCardMix {
     BEFORE_REVIEWS,
 }
 
+/** What is done with a card left with its answer showing, as Anki's auto-advance does. */
+enum class AutoAnswer {
+    AGAIN,
+    HARD,
+    GOOD,
+
+    /** Skipped until tomorrow. */
+    SKIP,
+}
+
 /** One answer, kept as history. */
 data class FlashcardReview(
     val id: Long = 0,

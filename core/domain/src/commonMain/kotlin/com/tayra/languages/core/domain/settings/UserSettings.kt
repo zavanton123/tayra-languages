@@ -1,6 +1,7 @@
 package com.tayra.languages.core.domain.settings
 
 import com.tayra.languages.core.domain.flashcards.AnswerMode
+import com.tayra.languages.core.domain.flashcards.AutoAnswer
 import com.tayra.languages.core.domain.flashcards.BacklogOrder
 import com.tayra.languages.core.domain.flashcards.NewCardMix
 import com.tayra.languages.core.domain.flashcards.NewCardOrder
@@ -90,6 +91,14 @@ data class UserSettings(
     val flashcardEasyDays: String = "NNNNNNN",
     /** The order of the reviews due on a day with far more of them than usual. */
     val flashcardBacklogOrder: BacklogOrder = BacklogOrder.RELATIVE_OVERDUENESS,
+    /** A card shows how long it has been on show. */
+    val flashcardShowTimer: Boolean = false,
+    /** Seconds after which a card shown its answer is shown, 0 for never. */
+    val flashcardAutoReveal: Int = 0,
+    /** Seconds after which a card showing its answer is answered with [flashcardAutoAnswerAction], 0 for never. */
+    val flashcardAutoAnswer: Int = 0,
+    /** How a card is answered when [flashcardAutoAnswer] runs out, unless what was typed or said suggests another. */
+    val flashcardAutoAnswerAction: AutoAnswer = AutoAnswer.GOOD,
     /** The hour a new study day starts, so late-night reviews count for the day before. */
     val flashcardDayStartHour: Int = 4,
     /** The longest a review waits, in days. */
@@ -149,6 +158,7 @@ data class UserSettings(
         const val MIN_FLASHCARD_RETENTION = 70
         const val MAX_LEECH_THRESHOLD = 99
         const val MAX_FLASHCARD_INTERVAL = 36500
+        const val MAX_AUTO_SECONDS = 120
         const val MAX_FLASHCARD_RETENTION = 97
     }
 }

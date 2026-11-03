@@ -450,4 +450,13 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "The longest a review waits, in days. Words not yet Known still come back within a week." to "Najdłuższy czas oczekiwania powtórki, w dniach. Słowa jeszcze nieznane i tak wracają w ciągu tygodnia.",
     "days" to "dni",
     "From 1 to {0}" to "Od 1 do {0}",
+    "Show a timer" to "Pokazuj stoper",
+    "How long the card has been on show, up to the minute an answer is counted for." to "Jak długo fiszka jest wyświetlana, do minuty, którą liczy się na odpowiedź.",
+    "Show the answer after" to "Pokaż odpowiedź po",
+    "Seconds before a card's answer shows by itself, for cards answered by showing; 0 never." to "Sekundy, po których odpowiedź pokazuje się sama, dla fiszek odpowiadanych przez pokazanie; 0 — nigdy.",
+    "seconds before the answer shows" to "sekundy do pokazania odpowiedzi",
+    "Answer after" to "Odpowiedz po",
+    "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "Sekundy wyświetlania odpowiedzi, zanim fiszka zostanie oceniona sama; 0 — nigdy. Słowo wpisane lub wypowiedziane dostaje ocenę, na którą zasłużyło.",
+    "seconds before the card is answered" to "sekundy do oceny fiszki",
+    "Answered as" to "Ocena",
 )

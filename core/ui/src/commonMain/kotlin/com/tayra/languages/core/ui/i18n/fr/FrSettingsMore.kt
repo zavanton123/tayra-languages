@@ -450,4 +450,13 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "The longest a review waits, in days. Words not yet Known still come back within a week." to "L’attente la plus longue d’une révision, en jours. Les mots pas encore Connus reviennent quand même dans la semaine.",
     "days" to "jours",
     "From 1 to {0}" to "De 1 à {0}",
+    "Show a timer" to "Afficher un chronomètre",
+    "How long the card has been on show, up to the minute an answer is counted for." to "Depuis combien de temps la carte est affichée, jusqu’à la minute comptée pour une réponse.",
+    "Show the answer after" to "Montrer la réponse après",
+    "Seconds before a card's answer shows by itself, for cards answered by showing; 0 never." to "Secondes avant que la réponse s’affiche d’elle-même, pour les cartes répondues en affichant ; 0 jamais.",
+    "seconds before the answer shows" to "secondes avant la réponse",
+    "Answer after" to "Répondre après",
+    "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "Secondes d’affichage de la réponse avant que la carte soit répondue d’elle-même ; 0 jamais. Un mot tapé ou dit reçoit la réponse méritée.",
+    "seconds before the card is answered" to "secondes avant la réponse à la carte",
+    "Answered as" to "Répondue par",
 )

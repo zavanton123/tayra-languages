@@ -450,4 +450,13 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "The longest a review waits, in days. Words not yet Known still come back within a week." to "Wie lange eine Wiederholung höchstens wartet, in Tagen. Noch nicht bekannte Wörter kommen trotzdem binnen einer Woche wieder.",
     "days" to "Tage",
     "From 1 to {0}" to "Von 1 bis {0}",
+    "Show a timer" to "Timer anzeigen",
+    "How long the card has been on show, up to the minute an answer is counted for." to "Wie lange die Karte zu sehen ist, bis zu der Minute, die eine Antwort zählt.",
+    "Show the answer after" to "Antwort zeigen nach",
+    "Seconds before a card's answer shows by itself, for cards answered by showing; 0 never." to "Sekunden, bis die Antwort von selbst erscheint, bei Karten, die per Anzeigen beantwortet werden; 0 nie.",
+    "seconds before the answer shows" to "Sekunden bis zur Antwort",
+    "Answer after" to "Antworten nach",
+    "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "Sekunden, die die Antwort zu sehen ist, bevor die Karte von selbst beantwortet wird; 0 nie. Ein getipptes oder gesagtes Wort bekommt die verdiente Antwort.",
+    "seconds before the card is answered" to "Sekunden bis zur Antwort auf die Karte",
+    "Answered as" to "Beantwortet mit",
 )

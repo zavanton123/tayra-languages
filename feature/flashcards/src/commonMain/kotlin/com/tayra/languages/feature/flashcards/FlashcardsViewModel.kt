@@ -7,6 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.flashcards.AnswerMode
+import com.tayra.languages.core.domain.flashcards.AutoAnswer
 import com.tayra.languages.core.domain.flashcards.BacklogOrder
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.DueCounts
@@ -125,6 +126,9 @@ data class FlashcardsUiState(
     val backlog: BacklogOrder? = null,
     /** The card the last answer made a leech; null when it made none. */
     val leech: LeechNote? = null,
+    /** When the card on show came up, for the timer the settings may show; null without a card. */
+    val shownAt: TimeSource.Monotonic.ValueTimeMark? = null,
+    val showTimer: Boolean = false,
 ) {
     /**
      * How the card on show is answered: by showing it when it has no blank to fill, and by typing
@@ -203,6 +207,10 @@ class FlashcardsViewModel(
     private var waitingJob: Job? = null
     private var speechJob: Job? = null
     private var listenJob: Job? = null
+    /** Shows the answer, or answers, once the card has been left long enough, as the settings ask. */
+    private var autoJob: Job? = null
+    /** Something is open over the cards: nothing moves on by itself meanwhile. */
+    private var autoPaused = false
     /** Whether each language can be heard, found out once a session, as finding out can take a moment. */
     private val hearable = mutableMapOf<String, Boolean>()
 
@@ -258,6 +266,7 @@ class FlashcardsViewModel(
             } finally {
                 progress.cancel()
                 _state.update { it.copy(preparingAudio = null) }
+                scheduleAuto()
             }
         }
     }
@@ -265,6 +274,38 @@ class FlashcardsViewModel(
     /** Starts the session before its speech is all made; the rest is made while the cards are reviewed. */
     fun startWithoutWaiting() {
         _state.update { it.copy(preparingAudio = null) }
+        scheduleAuto()
+    }
+
+    /**
+     * Shows the answer once the card has been on show the seconds the settings ask, and answers it
+     * once its answer has; a card answered by typing or speaking shows its answer only when checked.
+     */
+    private fun scheduleAuto() {
+        autoJob?.cancel()
+        val s = settings.current
+        val state = _state.value
+        val termId = state.card?.termId ?: return
+        if (autoPaused || state.preparingAudio != null) return
+        val seconds = if (state.revealed) s.flashcardAutoAnswer else s.flashcardAutoReveal.takeIf { state.cardMode == AnswerMode.SHOW } ?: 0
+        if (seconds <= 0) return
+        autoJob = viewModelScope.launch {
+            delay(seconds.seconds)
+            val now = _state.value
+            if (now.card?.termId != termId || autoPaused) return@launch
+            if (!now.revealed) return@launch reveal()
+            when (val action = s.flashcardAutoAnswerAction) {
+                AutoAnswer.SKIP -> if (now.suggested == null) skipCard() else answer(now.suggested)
+                else -> answer(now.suggested ?: Rating.valueOf(action.name))
+            }
+        }
+    }
+
+    /** Stops the card moving on by itself while something is open over it, [paused], and starts it afresh after. */
+    fun pauseAuto(paused: Boolean) {
+        if (autoPaused == paused) return
+        autoPaused = paused
+        if (paused) autoJob?.cancel() else scheduleAuto()
     }
 
     /** Shows the card on screen again as it is now, its answer still showing if it was: after its details were changed. */
@@ -280,6 +321,7 @@ class FlashcardsViewModel(
     fun load(prefer: Long? = null, keepAnswer: Boolean = false) {
         extrasJob?.cancel()
         waitingJob?.cancel()
+        autoJob?.cancel()
         stopHearing()
         val shownBefore = _state.value.card?.termId
         viewModelScope.launch {
@@ -315,8 +357,11 @@ class FlashcardsViewModel(
                     reading = reading,
                     pass = pass,
                     backlog = session.backlog,
+                    shownAt = shownAt,
+                    showTimer = settings.current.flashcardShowTimer,
                 )
             }
+            scheduleAuto()
             if (term != null && language != null) loadExtras(term, language)
             findOutHearing(_state.value.card?.languageCode)
             // Nothing to show while a card being learned waits: look again as its time nears.
@@ -441,12 +486,14 @@ class FlashcardsViewModel(
         // Shown without an answer given, the card was not known.
         _state.update { it.copy(revealed = true, suggested = it.suggested ?: if (it.cardMode != AnswerMode.SHOW) Rating.AGAIN else null) }
         if (settings.current.flashcardAutoplay) events.trySend(FlashcardsEvent.Speak(card.spoken, card.languageCode))
+        scheduleAuto()
     }
 
     fun answer(rating: Rating) {
         val card = current ?: return
         if (!_state.value.revealed) return
         current = null
+        autoJob?.cancel()
         val word = _state.value.card?.word.orEmpty()
         events.trySend(FlashcardsEvent.StopSpeaking)
         viewModelScope.launch {

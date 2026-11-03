@@ -450,4 +450,13 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "The longest a review waits, in days. Words not yet Known still come back within a week." to "Το μεγαλύτερο διάστημα αναμονής μιας επανάληψης, σε ημέρες. Οι λέξεις που δεν είναι ακόμα Γνωστές επιστρέφουν πάντως μέσα σε μια εβδομάδα.",
     "days" to "ημέρες",
     "From 1 to {0}" to "Από 1 έως {0}",
+    "Show a timer" to "Εμφάνιση χρονομέτρου",
+    "How long the card has been on show, up to the minute an answer is counted for." to "Πόση ώρα φαίνεται η κάρτα, έως το λεπτό που μετράει μια απάντηση.",
+    "Show the answer after" to "Εμφάνιση απάντησης μετά από",
+    "Seconds before a card's answer shows by itself, for cards answered by showing; 0 never." to "Δευτερόλεπτα πριν εμφανιστεί μόνη της η απάντηση, για κάρτες που απαντώνται με εμφάνιση· 0 ποτέ.",
+    "seconds before the answer shows" to "δευτερόλεπτα πριν φανεί η απάντηση",
+    "Answer after" to "Απάντηση μετά από",
+    "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "Δευτερόλεπτα που φαίνεται η απάντηση πριν απαντηθεί μόνη της η κάρτα· 0 ποτέ. Μια λέξη που γράφτηκε ή ειπώθηκε παίρνει την απάντηση που της αξίζει.",
+    "seconds before the card is answered" to "δευτερόλεπτα πριν απαντηθεί η κάρτα",
+    "Answered as" to "Απαντάται ως",
 )

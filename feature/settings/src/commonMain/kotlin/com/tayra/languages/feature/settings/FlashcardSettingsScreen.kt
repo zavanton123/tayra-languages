@@ -73,6 +73,10 @@ fun FlashcardSettingsScreen(
                 flashcardBacklogOrder = defaults.flashcardBacklogOrder,
                 flashcardLoadBalancing = defaults.flashcardLoadBalancing,
                 flashcardEasyDays = defaults.flashcardEasyDays,
+                flashcardShowTimer = defaults.flashcardShowTimer,
+                flashcardAutoReveal = defaults.flashcardAutoReveal,
+                flashcardAutoAnswer = defaults.flashcardAutoAnswer,
+                flashcardAutoAnswerAction = defaults.flashcardAutoAnswerAction,
                 flashcardDayStartHour = defaults.flashcardDayStartHour,
                 flashcardMaxInterval = defaults.flashcardMaxInterval,
                 flashcardNewOrder = defaults.flashcardNewOrder,
@@ -221,6 +225,7 @@ private fun AnswerCard(settings: UserSettings, viewModel: SettingsViewModel) {
         SwitchSetting(tr("Two answer buttons"), tr("Answer with Again and Good only; Hard and Easy are left out."), settings.flashcardTwoButtons, divider = true) { v ->
             viewModel.update { it.copy(flashcardTwoButtons = v) }
         }
+        AutoAdvanceSettings(settings, viewModel)
     }
 }
 

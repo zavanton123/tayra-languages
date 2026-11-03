@@ -85,6 +85,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
+import com.tayra.languages.core.domain.flashcards.AutoAnswer
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -431,6 +432,18 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("leech-note").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("\"comprar\" was forgotten 8 times and is a leech. A better sentence or a note may help it stick.").assertExists()
         save("LEECH_SCREENSHOT")
+    }
+
+    @Test
+    fun aCardLeftAloneShowsItsAnswerAndIsAnsweredAsSet() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(moreTerms = {
+            settings.update { it.copy(flashcardShowTimer = true, flashcardAutoReveal = 1, flashcardAutoAnswer = 1, flashcardAutoAnswerAction = AutoAnswer.HARD) }
+        })
+        onNodeWithTag("answer-timer").assertExists()
+        save("TIMER_SCREENSHOT")
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { runBlocking { service.reviews(termId) }.isNotEmpty() }
+        assertEquals(Rating.HARD, runBlocking { service.reviews(termId) }.single().rating)
     }
 
     @Test

@@ -89,6 +89,12 @@ class FlashcardSettingsScreenTest {
         onNodeWithText("06:00").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardDayStartHour == 6 }
 
+        onNodeWithTag("show-timer").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardShowTimer }
+        onNodeWithContentDescription("Increase seconds before the card is answered").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardAutoAnswer == 1 }
+        onNodeWithTag("auto-answer-action").assertExists()
+
         onNodeWithTag("leech-suspend").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardLeechSuspend }
         onNodeWithContentDescription("Decrease leech threshold").performScrollTo().performClick()
@@ -99,6 +105,7 @@ class FlashcardSettingsScreenTest {
         assertEquals(false, settings.current.flashcardTwoButtons, "reset brings the four buttons back")
         assertEquals(0, settings.current.flashcardReviewsPerDay)
         assertEquals(NewCardMix.AFTER_REVIEWS, settings.current.flashcardNewMix)
+        assertEquals(false to 0, settings.current.flashcardShowTimer to settings.current.flashcardAutoAnswer)
         assertEquals(36500 to 4, settings.current.flashcardMaxInterval to settings.current.flashcardDayStartHour)
         assertEquals(8 to false, settings.current.flashcardLeechThreshold to settings.current.flashcardLeechSuspend)
     }

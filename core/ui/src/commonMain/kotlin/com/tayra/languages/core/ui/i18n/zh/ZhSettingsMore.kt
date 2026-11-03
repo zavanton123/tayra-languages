@@ -450,4 +450,13 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "The longest a review waits, in days. Words not yet Known still come back within a week." to "复习最长的等待天数。尚未“已掌握”的单词仍会在一周内回来。",
     "days" to "天",
     "From 1 to {0}" to "1 到 {0}",
+    "Show a timer" to "显示计时器",
+    "How long the card has been on show, up to the minute an answer is counted for." to "卡片显示了多久，最多计到一次回答计入的一分钟。",
+    "Show the answer after" to "多少秒后显示答案",
+    "Seconds before a card's answer shows by itself, for cards answered by showing; 0 never." to "以“显示”作答的卡片在多少秒后自动显示答案；0 表示从不。",
+    "seconds before the answer shows" to "显示答案前的秒数",
+    "Answer after" to "多少秒后作答",
+    "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "答案显示多少秒后卡片自动作答；0 表示从不。打字或说出的单词按其结果作答。",
+    "seconds before the card is answered" to "卡片自动作答前的秒数",
+    "Answered as" to "自动作答为",
 )

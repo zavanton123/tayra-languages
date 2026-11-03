@@ -6,6 +6,7 @@ import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.settings.Hotkey
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.flashcards.AnswerMode
+import com.tayra.languages.core.domain.flashcards.AutoAnswer
 import com.tayra.languages.core.domain.flashcards.BacklogOrder
 import com.tayra.languages.core.domain.flashcards.NewCardMix
 import com.tayra.languages.core.domain.flashcards.NewCardOrder
@@ -159,6 +160,10 @@ class SettingsRepositoryImpl(
             flashcardLoadBalancing = store.getBoolean(Keys.FLASHCARD_LOAD_BALANCING, defaults.flashcardLoadBalancing),
             flashcardEasyDays = store.getString(Keys.FLASHCARD_EASY_DAYS, defaults.flashcardEasyDays),
             flashcardBacklogOrder = BacklogOrder.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_BACKLOG_ORDER, "") } ?: defaults.flashcardBacklogOrder,
+            flashcardShowTimer = store.getBoolean(Keys.FLASHCARD_SHOW_TIMER, defaults.flashcardShowTimer),
+            flashcardAutoReveal = store.getInt(Keys.FLASHCARD_AUTO_REVEAL, defaults.flashcardAutoReveal).coerceIn(0, UserSettings.MAX_AUTO_SECONDS),
+            flashcardAutoAnswer = store.getInt(Keys.FLASHCARD_AUTO_ANSWER, defaults.flashcardAutoAnswer).coerceIn(0, UserSettings.MAX_AUTO_SECONDS),
+            flashcardAutoAnswerAction = AutoAnswer.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_AUTO_ANSWER_ACTION, "") } ?: defaults.flashcardAutoAnswerAction,
             flashcardDayStartHour = store.getInt(Keys.FLASHCARD_DAY_START_HOUR, defaults.flashcardDayStartHour).coerceIn(0, 23),
             flashcardMaxInterval = store.getInt(Keys.FLASHCARD_MAX_INTERVAL, defaults.flashcardMaxInterval).coerceIn(1, UserSettings.MAX_FLASHCARD_INTERVAL),
             flashcardNewOrder = NewCardOrder.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_NEW_ORDER, "") } ?: defaults.flashcardNewOrder,
@@ -279,6 +284,10 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.FLASHCARD_LOAD_BALANCING, s.flashcardLoadBalancing)
         store.putString(Keys.FLASHCARD_EASY_DAYS, s.flashcardEasyDays)
         store.putString(Keys.FLASHCARD_EXTRA_NEW, s.flashcardExtraNew)
+        store.putBoolean(Keys.FLASHCARD_SHOW_TIMER, s.flashcardShowTimer)
+        store.putInt(Keys.FLASHCARD_AUTO_REVEAL, s.flashcardAutoReveal)
+        store.putInt(Keys.FLASHCARD_AUTO_ANSWER, s.flashcardAutoAnswer)
+        store.putString(Keys.FLASHCARD_AUTO_ANSWER_ACTION, s.flashcardAutoAnswerAction.name)
         store.putInt(Keys.FLASHCARD_DAY_START_HOUR, s.flashcardDayStartHour)
         store.putInt(Keys.FLASHCARD_MAX_INTERVAL, s.flashcardMaxInterval)
         store.putString(Keys.FLASHCARD_NEW_ORDER, s.flashcardNewOrder.name)
@@ -365,6 +374,10 @@ class SettingsRepositoryImpl(
         const val FLASHCARD_LOAD_BALANCING = "flashcard_load_balancing"
         const val FLASHCARD_EASY_DAYS = "flashcard_easy_days"
         const val FLASHCARD_EXTRA_NEW = "flashcard_extra_new"
+        const val FLASHCARD_SHOW_TIMER = "flashcard_show_timer"
+        const val FLASHCARD_AUTO_REVEAL = "flashcard_auto_reveal"
+        const val FLASHCARD_AUTO_ANSWER = "flashcard_auto_answer"
+        const val FLASHCARD_AUTO_ANSWER_ACTION = "flashcard_auto_answer_action"
         const val FLASHCARD_DAY_START_HOUR = "flashcard_day_start_hour"
         const val FLASHCARD_MAX_INTERVAL = "flashcard_max_interval"
         const val FLASHCARD_NEW_ORDER = "flashcard_new_order"
