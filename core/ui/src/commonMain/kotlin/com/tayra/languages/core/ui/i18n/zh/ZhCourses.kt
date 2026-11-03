@@ -359,4 +359,13 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Use a number, or a range such as 3-7" to "填一个数字，或 3-7 这样的范围",
     "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "0 表示今天，1 表示明天；范围会把卡片分散到其中各天。卡片的记忆不变，新卡片不受影响。",
     "Set" to "设置",
+    "Exported to Anki" to "已导出到 Anki",
+    "Could not export to Anki" to "无法导出到 Anki",
+    "Exporting to Anki" to "正在导出到 Anki",
+    "Gathering the cards..." to "正在收集卡片...",
+    "{0} of {1} cards" to "{0}/{1} 张卡片",
+    "{0} cards saved with their progress" to "已保存 {0} 张卡片及其学习进度",
+    "In Anki, open the file with File › Import and tick “Import any learning progress”, or the cards come in as new." to "在 Anki 中，通过“文件 › 导入”打开此文件，并勾选“导入所有学习进度信息”，否则卡片会作为新卡片导入。",
+    "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "同时勾选“导入所有牌组预设配置”，牌组即可保留这些卡片设置。",
+    "Something went wrong while making the deck." to "创建牌组时出错。",
 )

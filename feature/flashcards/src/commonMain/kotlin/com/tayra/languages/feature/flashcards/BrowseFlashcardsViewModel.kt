@@ -2,6 +2,8 @@ package com.tayra.languages.feature.flashcards
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.tayra.languages.core.domain.export.AnkiDeckExportService
+import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.flashcards.AnkiImportException
 import com.tayra.languages.core.domain.flashcards.AnkiImportService
 import com.tayra.languages.core.domain.flashcards.CardState
@@ -90,6 +92,14 @@ sealed interface AnkiImport {
     data class Failed(val reason: String?) : AnkiImport
 }
 
+/** An export to Anki: under way, with how many cards are done, ready to save, saved with how many cards, or failed. */
+sealed interface AnkiExport {
+    data class Working(val done: Int = 0, val total: Int = 0) : AnkiExport
+    data class Ready(val export: AnkiExportService.Export) : AnkiExport
+    data class Saved(val cards: Int) : AnkiExport
+    data object Failed : AnkiExport
+}
+
 /** The card opened for a closer look, with its review history. */
 data class BrowseDetail(
     val row: BrowseRow,
@@ -121,6 +131,9 @@ data class BrowseUiState(
     /** Whether Anki packages can be imported here. */
     val canImportAnki: Boolean = false,
     val ankiImport: AnkiImport? = null,
+    /** Whether the cards can be exported to Anki here. */
+    val canExportAnki: Boolean = false,
+    val ankiExport: AnkiExport? = null,
     /** Whether cards forgotten often become leeches, which then have a group of their own. */
     val leeches: Boolean = true,
     /** Whether new cards come in an order they can be moved in: not a random one. */
@@ -141,6 +154,7 @@ class BrowseFlashcardsViewModel(
     private val settings: SettingsRepository,
     private val terms: TermRepository,
     private val ankiImport: AnkiImportService? = null,
+    private val deckExport: AnkiDeckExportService? = null,
     /** Keeps the sentences' translations with their words; null shows none, as in tests. */
     private val sentences: SentenceTranslations? = null,
 ) : ViewModel() {
@@ -148,6 +162,7 @@ class BrowseFlashcardsViewModel(
     private val _state = MutableStateFlow(
         BrowseUiState(
             canImportAnki = ankiImport?.available == true,
+            canExportAnki = deckExport != null,
             pageSize = settings.current.flashcardBrowsePageSize.takeIf { it in LIST_PAGE_SIZES } ?: LIST_PAGE_SIZES[1],
         ),
     )
@@ -493,6 +508,38 @@ class BrowseFlashcardsViewModel(
 
     fun closeAnkiImport() {
         _state.update { it.copy(ankiImport = null) }
+    }
+
+    /** Builds the Anki deck of the language's cards with their progress, for the screen to save. */
+    fun exportAnki() {
+        val exporter = deckExport ?: return
+        val language = languageId ?: return
+        if (_state.value.ankiExport is AnkiExport.Working) return
+        _state.update { it.copy(ankiExport = AnkiExport.Working()) }
+        viewModelScope.launch {
+            val result = try {
+                exporter.export(language) { done, total -> _state.update { it.copy(ankiExport = AnkiExport.Working(done, total)) } }
+                    ?.let { AnkiExport.Ready(it) } ?: AnkiExport.Failed
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                AnkiExport.Failed
+            }
+            _state.update { it.copy(ankiExport = result) }
+        }
+    }
+
+    /** The deck was saved: its words count as in Anki now, so reading does not send them again. */
+    fun ankiExportSaved(export: AnkiExportService.Export) {
+        val exporter = deckExport ?: return
+        viewModelScope.launch {
+            exporter.markExported(export)
+            _state.update { it.copy(ankiExport = AnkiExport.Saved(export.notes)) }
+        }
+    }
+
+    fun closeAnkiExport() {
+        _state.update { it.copy(ankiExport = null) }
     }
 
     private companion object {

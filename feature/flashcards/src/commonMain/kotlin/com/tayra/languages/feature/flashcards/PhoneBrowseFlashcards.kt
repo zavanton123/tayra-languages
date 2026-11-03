@@ -85,6 +85,7 @@ internal fun PhoneBrowseFlashcardsScreen(
                 AppMenuItem(text = { Text(tr("Select")) }, onClick = { close(); selecting = true }, modifier = Modifier.testTag("phone-select"))
                 AppMenuItem(text = { Text(tr("Statistics")) }, onClick = { close(); actions.onStatistics() }, modifier = Modifier.testTag("browse-statistics"))
                 if (state.canImportAnki) AppMenuItem(text = { Text(tr("Import from Anki")) }, onClick = { close(); actions.onImportAnki() }, modifier = Modifier.testTag("import-anki"))
+                if (state.canExportAnki && state.counts.all > 0) AppMenuItem(text = { Text(tr("Export to Anki")) }, onClick = { close(); actions.onExportAnki() }, modifier = Modifier.testTag("export-anki"))
             }
         }) },
         containerColor = colors.surfaceContainerLow,

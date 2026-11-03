@@ -359,4 +359,13 @@ internal val elCourses: Map<String, String> = mapOf(
     "Use a number, or a range such as 3-7" to "Γράψτε αριθμό ή εύρος, π.χ. 3-7",
     "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "Το 0 είναι σήμερα και το 1 αύριο· ένα εύρος μοιράζει τις κάρτες στις μέρες του. Η μνήμη τους μένει ως έχει και οι νέες κάρτες δεν αλλάζουν.",
     "Set" to "Ορισμός",
+    "Exported to Anki" to "Εξήχθη στο Anki",
+    "Could not export to Anki" to "Δεν ήταν δυνατή η εξαγωγή στο Anki",
+    "Exporting to Anki" to "Εξαγωγή στο Anki",
+    "Gathering the cards..." to "Συλλογή των καρτών...",
+    "{0} of {1} cards" to "{0} από {1} κάρτες",
+    "{0} cards saved with their progress" to "Αποθηκεύτηκε {0} κάρτα με την πρόοδό της|Αποθηκεύτηκαν {0} κάρτες με την πρόοδό τους",
+    "In Anki, open the file with File › Import and tick “Import any learning progress”, or the cards come in as new." to "Στο Anki, ανοίξτε το αρχείο από Αρχείο › Εισαγωγή και επιλέξτε «Εισαγωγή προόδου εκμάθησης», αλλιώς οι κάρτες θα εισαχθούν ως νέες.",
+    "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Επιλέξτε επίσης «Εισαγωγή προεπιλογών τραπουλών», ώστε η τράπουλα να κρατήσει αυτές τις ρυθμίσεις καρτών.",
+    "Something went wrong while making the deck." to "Κάτι πήγε στραβά κατά τη δημιουργία της τράπουλας.",
 )

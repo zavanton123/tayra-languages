@@ -359,4 +359,13 @@ internal val esCourses: Map<String, String> = mapOf(
     "Use a number, or a range such as 3-7" to "Un número o un rango como 3-7",
     "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "0 es hoy y 1 mañana; un rango reparte las tarjetas por sus días. Su memoria se queda como está y las tarjetas nuevas no cambian.",
     "Set" to "Fijar",
+    "Exported to Anki" to "Exportado a Anki",
+    "Could not export to Anki" to "No se pudo exportar a Anki",
+    "Exporting to Anki" to "Exportando a Anki",
+    "Gathering the cards..." to "Reuniendo las tarjetas...",
+    "{0} of {1} cards" to "{0} de {1} tarjetas",
+    "{0} cards saved with their progress" to "{0} tarjeta guardada con su progreso|{0} tarjetas guardadas con su progreso",
+    "In Anki, open the file with File › Import and tick “Import any learning progress”, or the cards come in as new." to "En Anki, abre el archivo con Archivo › Importar y marca «Importar cualquier progreso de aprendizaje», o las tarjetas llegarán como nuevas.",
+    "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Marca también «Importar cualquier configuración del mazo» para que el mazo conserve estos ajustes de tarjetas.",
+    "Something went wrong while making the deck." to "Algo salió mal al crear el mazo.",
 )

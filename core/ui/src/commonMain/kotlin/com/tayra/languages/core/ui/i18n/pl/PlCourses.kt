@@ -359,4 +359,13 @@ internal val plCourses: Map<String, String> = mapOf(
     "Use a number, or a range such as 3-7" to "Wpisz liczbę lub zakres, np. 3-7",
     "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "0 to dziś, 1 to jutro; zakres rozkłada fiszki na swoje dni. Ich pamięć zostaje bez zmian, a nowe fiszki pozostają nietknięte.",
     "Set" to "Ustaw",
+    "Exported to Anki" to "Wyeksportowano do Anki",
+    "Could not export to Anki" to "Nie udało się wyeksportować do Anki",
+    "Exporting to Anki" to "Eksportowanie do Anki",
+    "Gathering the cards..." to "Zbieranie kart...",
+    "{0} of {1} cards" to "{0} z {1} kart",
+    "{0} cards saved with their progress" to "Zapisano {0} kartę z postępem|Zapisano {0} karty z postępem|Zapisano {0} kart z postępem",
+    "In Anki, open the file with File › Import and tick “Import any learning progress”, or the cards come in as new." to "W Anki otwórz plik przez Plik › Importuj i zaznacz „importuj postęp nauki”, inaczej karty trafią tam jako nowe.",
+    "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Zaznacz też „Importuj opcje talii”, aby talia zachowała te ustawienia fiszek.",
+    "Something went wrong while making the deck." to "Coś poszło nie tak podczas tworzenia talii.",
 )

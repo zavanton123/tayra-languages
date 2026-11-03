@@ -1,5 +1,15 @@
 package com.tayra.languages.feature.flashcards
 
+import com.tayra.languages.core.data.export.AnkiPackagerImpl
+import com.tayra.languages.core.domain.dictionary.DictionaryId
+import com.tayra.languages.core.domain.dictionary.DictionaryLookup
+import com.tayra.languages.core.domain.dictionary.OfflineDictionary
+import com.tayra.languages.core.domain.export.AnkiDeckExportService
+import com.tayra.languages.core.domain.export.AnkiExportService
+import com.tayra.languages.core.domain.service.LocalSpeech
+import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
+import com.tayra.languages.core.domain.service.SentenceAudio
+import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.flashcards.AnswerMode
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -95,7 +105,14 @@ class BrowseFlashcardsScreenTest {
     /** Where the browser was asked to go. */
     private val visited = mutableListOf<Route>()
 
-    private fun ComposeUiTest.show(width: Int = 1586, open: (() -> Long)? = null, importer: AnkiImportService? = null, before: () -> Unit = {}): BrowseFlashcardsViewModel {
+    private fun ComposeUiTest.show(
+        width: Int = 1586,
+        open: (() -> Long)? = null,
+        importer: AnkiImportService? = null,
+        exporter: AnkiDeckExportService? = null,
+        saveFile: suspend (String, String, ByteArray) -> Boolean = { _, _, _ -> false },
+        before: () -> Unit = {},
+    ): BrowseFlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id, nativeLanguage = "ru") }
@@ -107,7 +124,7 @@ class BrowseFlashcardsScreenTest {
             id
         }
         before()
-        val viewModel = BrowseFlashcardsViewModel(service, languages, settings, terms, importer)
+        val viewModel = BrowseFlashcardsViewModel(service, languages, settings, terms, importer, exporter)
         @OptIn(ExperimentalComposeUiApi::class)
         setContent {
             TayraTheme {
@@ -122,7 +139,7 @@ class BrowseFlashcardsScreenTest {
                             DisposableEffect(dispatcher) { dispatcher.addInput(backInput); onDispose { dispatcher.removeInput(backInput) } }
                         }
                         Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
-                            BrowseFlashcardsScreen(onNavigate = { visited += it }, onBack = {}, termId = open?.invoke(), viewModel = viewModel)
+                            BrowseFlashcardsScreen(onNavigate = { visited += it }, onBack = {}, termId = open?.invoke(), viewModel = viewModel, saveFile = saveFile)
                         }
                     }
                 }
@@ -194,6 +211,31 @@ class BrowseFlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("anki-import").fetchSemanticsNodes().isEmpty() }
         onNodeWithText("pretendo").assertExists()
         onNodeWithText("4 cards").assertExists()
+    }
+
+    /** The language's cards go to Anki as a deck with their progress, and the dialog says how to bring it in with it. */
+    @Test
+    fun theCardsGoToAnkiWithTheirProgress() = runDesktopComposeUiTest(width = 1500, height = 900) {
+        val dictionary = object : OfflineDictionary {
+            override suspend fun isAvailable(dictionary: DictionaryId) = false
+            override suspend fun lookup(dictionary: DictionaryId, text: String) = DictionaryLookup(emptyList(), emptyList())
+        }
+        val translator = object : SentenceTranslator {
+            override suspend fun translate(text: String, language: Language): String? = null
+        }
+        val notes = AnkiExportService(terms, languages, dictionary, translator, SentenceAudio(LocalSpeech(emptyList()), settings, MemorySpeechAudioCache()), settings, AnkiPackagerImpl())
+        val saved = mutableListOf<Pair<String, ByteArray>>()
+        show(exporter = AnkiDeckExportService(cards, terms, languages, settings, notes, AnkiPackagerImpl()), saveFile = { name, extension, bytes -> saved += "$name.$extension" to bytes; true })
+        onNodeWithTag("export-anki").performClick()
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithText("3 cards saved with their progress").fetchSemanticsNodes().isNotEmpty() }
+        saveTop("BROWSE_ANKI_EXPORT_SCREENSHOT")
+        val (name, bytes) = saved.single()
+        assertTrue(name.startsWith("Portuguese ") && name.endsWith(".apkg"), name)
+        assertTrue(bytes.isNotEmpty())
+        // Reading sends none of them again.
+        assertTrue(runBlocking { terms.getByIds(listOf(comprar, casa, livro)) }.all { it.ankiExportedAt != null })
+        onNodeWithTag("anki-export-close").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("anki-export").fetchSemanticsNodes().isEmpty() }
     }
 
     /** The table says when each card was made, and sorts by it, the latest first. */

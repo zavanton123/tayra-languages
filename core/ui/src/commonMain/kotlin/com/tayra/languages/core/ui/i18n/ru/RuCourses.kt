@@ -359,4 +359,13 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Use a number, or a range such as 3-7" to "Введите число или диапазон, например 3-7",
     "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "0 — сегодня, 1 — завтра; диапазон распределяет карточки по своим дням. Память карточек не меняется, новые карточки не затрагиваются.",
     "Set" to "Назначить",
+    "Exported to Anki" to "Экспортировано в Anki",
+    "Could not export to Anki" to "Не удалось экспортировать в Anki",
+    "Exporting to Anki" to "Экспорт в Anki",
+    "Gathering the cards..." to "Сбор карточек...",
+    "{0} of {1} cards" to "{0} из {1} карточек",
+    "{0} cards saved with their progress" to "Сохранена {0} карточка с прогрессом|Сохранены {0} карточки с прогрессом|Сохранено {0} карточек с прогрессом",
+    "In Anki, open the file with File › Import and tick “Import any learning progress”, or the cards come in as new." to "В Anki откройте файл через Файл › Импортировать и отметьте «Импортировать прогресс обучения», иначе карточки придут как новые.",
+    "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Отметьте и «Импортировать конфигурации колод», чтобы колода сохранила эти настройки карточек.",
+    "Something went wrong while making the deck." to "При создании колоды что-то пошло не так.",
 )

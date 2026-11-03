@@ -359,4 +359,13 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Use a number, or a range such as 3-7" to "Use um número ou um intervalo como 3-7",
     "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "0 é hoje e 1 amanhã; um intervalo espalha os cartões pelos seus dias. A memória deles fica como está, e cartões novos não mudam.",
     "Set" to "Definir",
+    "Exported to Anki" to "Exportado para o Anki",
+    "Could not export to Anki" to "Não foi possível exportar para o Anki",
+    "Exporting to Anki" to "Exportando para o Anki",
+    "Gathering the cards..." to "Reunindo os cartões...",
+    "{0} of {1} cards" to "{0} de {1} cartões",
+    "{0} cards saved with their progress" to "{0} cartão salvo com o seu progresso|{0} cartões salvos com o seu progresso",
+    "In Anki, open the file with File › Import and tick “Import any learning progress”, or the cards come in as new." to "No Anki, abra o arquivo em Arquivo › Importar e marque “Importar também qualquer progresso de aprendizagem”, senão os cartões entram como novos.",
+    "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Marque também “Importar qualquer configuração de baralho” para o baralho manter estas configurações de cartões.",
+    "Something went wrong while making the deck." to "Algo deu errado ao criar o baralho.",
 )

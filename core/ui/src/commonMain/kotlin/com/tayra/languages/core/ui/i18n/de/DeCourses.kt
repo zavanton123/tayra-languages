@@ -359,4 +359,13 @@ internal val deCourses: Map<String, String> = mapOf(
     "Use a number, or a range such as 3-7" to "Eine Zahl oder einen Bereich wie 3-7",
     "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "0 ist heute, 1 morgen; ein Bereich verteilt die Karten auf seine Tage. Ihr Gedächtnis bleibt, wie es ist, neue Karten bleiben unberührt.",
     "Set" to "Festlegen",
+    "Exported to Anki" to "Nach Anki exportiert",
+    "Could not export to Anki" to "Export nach Anki fehlgeschlagen",
+    "Exporting to Anki" to "Export nach Anki läuft",
+    "Gathering the cards..." to "Karten werden gesammelt...",
+    "{0} of {1} cards" to "{0} von {1} Karten",
+    "{0} cards saved with their progress" to "{0} Karte mit Lernfortschritt gespeichert|{0} Karten mit Lernfortschritt gespeichert",
+    "In Anki, open the file with File › Import and tick “Import any learning progress”, or the cards come in as new." to "Öffne die Datei in Anki über Datei › Importieren und aktiviere „Lernfortschritt (falls enthalten) ebenfalls importieren“, sonst kommen die Karten als neue an.",
+    "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Aktiviere auch „Stapelprofile (falls enthalten) ebenfalls importieren“, damit der Stapel diese Karteneinstellungen behält.",
+    "Something went wrong while making the deck." to "Beim Erstellen des Stapels ist etwas schiefgelaufen.",
 )

@@ -2,6 +2,7 @@ package com.tayra.languages.feature.flashcards
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Icon
+import com.tayra.languages.core.ui.files.saveBinaryFile
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.components.AppTooltip
 import com.tayra.languages.core.domain.flashcards.AnswerMode
@@ -158,7 +159,14 @@ import org.koin.compose.viewmodel.koinViewModel
  * schedule and review history.
  */
 @Composable
-fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, termId: Long? = null, viewModel: BrowseFlashcardsViewModel = koinViewModel()) {
+fun BrowseFlashcardsScreen(
+    onNavigate: (Route) -> Unit,
+    onBack: () -> Unit,
+    termId: Long? = null,
+    viewModel: BrowseFlashcardsViewModel = koinViewModel(),
+    /** Saves a file the user names; replaced in tests. */
+    saveFile: suspend (baseName: String, extension: String, bytes: ByteArray) -> Boolean = ::saveBinaryFile,
+) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     // Escape closes a card's details or the search's focus, never the browser itself.
     EscapeStaysOnPage()
@@ -190,6 +198,7 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
         onEditing = viewModel::editingText,
         onPickWord = viewModel::chooseHiddenWord,
         onImportAnki = { ankiPicker.launch() },
+        onExportAnki = viewModel::exportAnki,
         onStatistics = { onNavigate(Route.FlashcardStats) },
     )
     val width = LocalWindowWidth.current
@@ -202,6 +211,13 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
         state.detail?.let { DetailDialog(it, state.now, actions, onDismiss = viewModel::closeDetail) }
     }
     state.ankiImport?.let { AnkiImportDialog(it, onDismiss = viewModel::closeAnkiImport) }
+    (state.ankiExport as? AnkiExport.Ready)?.let { ready ->
+        LaunchedEffect(ready) {
+            val export = ready.export
+            if (saveFile(export.fileName.removeSuffix(".apkg"), "apkg", export.bytes)) viewModel.ankiExportSaved(export) else viewModel.closeAnkiExport()
+        }
+    }
+    state.ankiExport?.takeIf { it !is AnkiExport.Ready }?.let { AnkiExportDialog(it, onDismiss = viewModel::closeAnkiExport) }
     CardConfirmations(confirmReset, confirmDelete, viewModel, onResetClosed = { confirmReset = null }, onDeleteClosed = { confirmDelete = null })
     settingDue?.let { ids -> SetDueDialog(ids.size, onSet = { days -> viewModel.setDue(ids, days); viewModel.clearSelection() }, onDismiss = { settingDue = null }) }
 }
@@ -292,6 +308,8 @@ internal class BrowseActions(
     val onPickWord: (termId: Long, form: String) -> Unit = { _, _ -> },
     /** Asks for an Anki package to import. */
     val onImportAnki: () -> Unit = {},
+    /** Exports the language's cards to Anki with their progress. */
+    val onExportAnki: () -> Unit = {},
     /** The cards in figures. */
     val onStatistics: () -> Unit = {},
 )
@@ -324,6 +342,7 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
                     Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                         SecondaryButton(tr("Statistics"), onClick = actions.onStatistics, modifier = Modifier.testTag("browse-statistics"), icon = AppIcons.BarChart)
                         if (state.canImportAnki) SecondaryButton(tr("Import from Anki"), onClick = actions.onImportAnki, modifier = Modifier.testTag("import-anki"), icon = AppIcons.UploadFile)
+                        if (state.canExportAnki && state.counts.all > 0) SecondaryButton(tr("Export to Anki"), onClick = actions.onExportAnki, modifier = Modifier.testTag("export-anki"), icon = AppIcons.Download)
                         val due = state.counts.due
                         PrimaryButton(if (due > 0) tr("Review {0} due", due) else tr("Review cards"), onClick = actions.onReview, icon = AppIcons.Style)
                     }
