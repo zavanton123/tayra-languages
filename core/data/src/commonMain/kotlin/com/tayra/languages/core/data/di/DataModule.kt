@@ -107,6 +107,7 @@ import com.tayra.languages.core.domain.flashcards.DictionaryFormLemmas
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.domain.flashcards.PersonalScheduling
 import com.tayra.languages.core.domain.flashcards.FlashcardStatsService
+import com.tayra.languages.core.domain.flashcards.RetentionAdvisor
 import com.tayra.languages.core.domain.flashcards.ReadingWords
 import com.tayra.languages.core.domain.flashcards.SentenceTranslations
 import com.tayra.languages.core.domain.frequency.VocabularyLevelRepository
@@ -304,6 +305,7 @@ val dataModule: Module = module {
     single { FlashcardService(get(), get(), get(), formLemmas = get<DictionaryFormLemmas>()::lemmas, wordsAhead = get<ReadingWords>()::termIds) }
     single { PersonalScheduling(get(), get()) }
     single { FlashcardStatsService(get(), get()) }
+    single { RetentionAdvisor(get(), get()) }
     single<AnkiArchiveReader> { AnkiArchiveReaderImpl() }
     single { AnkiImportService(get(), get(), get(), get(), get()) }
 }
