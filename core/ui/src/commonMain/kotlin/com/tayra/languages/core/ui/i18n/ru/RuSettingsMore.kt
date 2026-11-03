@@ -434,4 +434,12 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Minutes use typical answer times until about {0} of your answers are timed; {1} are so far." to "Минуты считаются по типичному времени ответа, пока не наберётся около {0} ваших замеренных ответов; сейчас их {1}.",
     "Use {0}%" to "Выбрать {0}%",
     "Help me choose" to "Помочь выбрать",
+    "As saved" to "В порядке сохранения",
+    "Mixed with reviews" to "Вперемешку с повторениями",
+    "After reviews" to "После повторений",
+    "Before reviews" to "До повторений",
+    "New card order" to "Порядок новых карточек",
+    "Random keeps words saved from one text from all coming at once; it is shuffled again each day." to "Случайный порядок не даёт словам из одного текста идти подряд; он перемешивается каждый день.",
+    "New cards among reviews" to "Новые карточки среди повторений",
+    "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "Вперемешку — равномерно среди повторений дня, так что даже в длинный день новые слова появляются рано.",
 )

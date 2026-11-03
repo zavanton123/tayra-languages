@@ -4,6 +4,8 @@ import com.tayra.languages.core.domain.flashcards.FlashcardReview
 import com.tayra.languages.core.domain.flashcards.MemoryState
 import com.tayra.languages.core.domain.flashcards.CardSchedule
 import com.tayra.languages.core.domain.flashcards.BacklogOrder
+import com.tayra.languages.core.domain.flashcards.NewCardMix
+import com.tayra.languages.core.domain.flashcards.NewCardOrder
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
@@ -619,5 +621,51 @@ class FlashcardServiceTest {
         assertEquals(listOf(8, 12, 16), (1..17).filter { FlashcardService.leechAt(it, 8) })
         assertEquals(listOf(1, 2, 3), (1..3).filter { FlashcardService.leechAt(it, 1) })
         assertTrue((1..20).none { FlashcardService.leechAt(it, 0) })
+    }
+
+    @Test
+    fun newCardsComeInTheOrderChosen() = runTest {
+        val id = language()
+        val words = (1..12).map { term(id, "palavra$it") }
+        assertEquals(words.first(), service.next(id).card?.termId, "as saved")
+        settings.update { it.copy(flashcardNewOrder = NewCardOrder.NEWEST) }
+        assertEquals(words.last(), service.next(id).card?.termId)
+        settings.update { it.copy(flashcardNewOrder = NewCardOrder.RANDOM) }
+        val today = service.sessionTerms(id).map { it.id }
+        assertEquals(words.toSet(), today.toSet())
+        assertTrue(today != words && today != words.reversed(), "shuffled")
+        assertEquals(today.first(), service.next(id).card?.termId)
+        assertEquals(today, service.sessionTerms(id).map { it.id }, "the same all day")
+        clock.advance(1.days)
+        assertTrue(service.sessionTerms(id).map { it.id } != today, "shuffled again the next day")
+    }
+
+    @Test
+    fun newCardsAreMixedAmongTheReviewsAsChosen() = runTest {
+        val id = language()
+        val reviews = (1..4).map { n ->
+            val word = term(id, "revisão$n")
+            cards.reconcile(clock.now())
+            val card = cards.get(word)!!
+            cards.save(card.copy(schedule = CardSchedule(CardState.REVIEW, clock.now() - 1.days, MemoryState(5.0, 5.0), 5, 0, 2, 0, clock.now() - 6.days)))
+            word
+        }
+        val news = (1..2).map { term(id, "nova$it") }
+        suspend fun kinds() = service.sessionTerms(id).map { if (it.id in news) "N" else "R" }.joinToString("")
+        assertEquals("RRRRNN", kinds(), "after the reviews")
+        settings.update { it.copy(flashcardNewMix = NewCardMix.BEFORE_REVIEWS) }
+        assertEquals("NNRRRR", kinds())
+        settings.update { it.copy(flashcardNewMix = NewCardMix.MIXED) }
+        assertEquals("RNRRNR", kinds())
+        // The cards come up as listed, each answered in turn.
+        val shown = buildList {
+            repeat(6) {
+                val card = service.next(id).card!!
+                add(if (card.termId in news) "N" else "R")
+                service.answer(card, Rating.EASY)
+            }
+        }
+        assertEquals("RNRRNR", shown.joinToString(""))
+        assertTrue(reviews.all { cards.get(it)!!.schedule.due > clock.now() })
     }
 }

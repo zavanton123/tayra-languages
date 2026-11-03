@@ -434,4 +434,12 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Minutes use typical answer times until about {0} of your answers are timed; {1} are so far." to "在约 {0} 次回答有计时之前，分钟数按常见回答时间估算；目前有 {1} 次。",
     "Use {0}%" to "使用 {0}%",
     "Help me choose" to "帮我选择",
+    "As saved" to "按保存顺序",
+    "Mixed with reviews" to "与复习穿插",
+    "After reviews" to "复习之后",
+    "Before reviews" to "复习之前",
+    "New card order" to "新卡片顺序",
+    "Random keeps words saved from one text from all coming at once; it is shuffled again each day." to "随机顺序让同一篇文本里保存的单词不会一起出现；每天重新打乱。",
+    "New cards among reviews" to "新卡片在复习中的位置",
+    "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "穿插时新卡片均匀分布在当天的复习里，复习再多也能早早见到新单词。",
 )

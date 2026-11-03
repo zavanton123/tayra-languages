@@ -434,4 +434,12 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Minutes use typical answer times until about {0} of your answers are timed; {1} are so far." to "Τα λεπτά βασίζονται σε συνηθισμένους χρόνους απάντησης μέχρι να μετρηθούν περίπου {0} απαντήσεις σας· μέχρι τώρα {1}.",
     "Use {0}%" to "Χρήση {0}%",
     "Help me choose" to "Βοηθήστε με να επιλέξω",
+    "As saved" to "Όπως αποθηκεύτηκαν",
+    "Mixed with reviews" to "Ανάμεσα στις επαναλήψεις",
+    "After reviews" to "Μετά τις επαναλήψεις",
+    "Before reviews" to "Πριν από τις επαναλήψεις",
+    "New card order" to "Σειρά νέων καρτών",
+    "Random keeps words saved from one text from all coming at once; it is shuffled again each day." to "Η τυχαία σειρά κρατά τις λέξεις ενός κειμένου από το να έρχονται όλες μαζί· ανακατεύεται ξανά κάθε μέρα.",
+    "New cards among reviews" to "Νέες κάρτες στις επαναλήψεις",
+    "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "Η ανάμειξη τις μοιράζει ομοιόμορφα στις επαναλήψεις της ημέρας, έτσι ακόμα και μια μεγάλη μέρα φέρνει νωρίς νέες λέξεις.",
 )

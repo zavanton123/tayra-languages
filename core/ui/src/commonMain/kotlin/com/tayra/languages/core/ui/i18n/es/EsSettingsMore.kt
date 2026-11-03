@@ -434,4 +434,12 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Minutes use typical answer times until about {0} of your answers are timed; {1} are so far." to "Los minutos usan tiempos de respuesta típicos hasta que haya unas {0} respuestas tuyas cronometradas; por ahora hay {1}.",
     "Use {0}%" to "Usar {0} %",
     "Help me choose" to "Ayúdame a elegir",
+    "As saved" to "Como se guardaron",
+    "Mixed with reviews" to "Mezcladas con los repasos",
+    "After reviews" to "Después de los repasos",
+    "Before reviews" to "Antes de los repasos",
+    "New card order" to "Orden de las tarjetas nuevas",
+    "Random keeps words saved from one text from all coming at once; it is shuffled again each day." to "Aleatorio evita que las palabras guardadas de un texto lleguen todas juntas; se baraja de nuevo cada día.",
+    "New cards among reviews" to "Tarjetas nuevas entre los repasos",
+    "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "Mezcladas se reparten por igual entre los repasos del día, así que incluso un día largo trae pronto palabras nuevas.",
 )

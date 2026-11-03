@@ -73,6 +73,8 @@ fun FlashcardSettingsScreen(
                 flashcardBacklogOrder = defaults.flashcardBacklogOrder,
                 flashcardLoadBalancing = defaults.flashcardLoadBalancing,
                 flashcardEasyDays = defaults.flashcardEasyDays,
+                flashcardNewOrder = defaults.flashcardNewOrder,
+                flashcardNewMix = defaults.flashcardNewMix,
                 flashcardLeechThreshold = defaults.flashcardLeechThreshold,
                 flashcardLeechSuspend = defaults.flashcardLeechSuspend,
             )
@@ -124,6 +126,7 @@ private fun LimitsCard(settings: UserSettings, viewModel: SettingsViewModel) {
                 viewModel.update { it.copy(flashcardNewPerDay = n) }
             }
         }
+        NewCardSettings(settings, viewModel)
         val limited = settings.flashcardReviewsPerDay > 0
         SwitchSetting(tr("Limit reviews a day"), tr("Off shows every review that is due."), limited, divider = true) { on ->
             viewModel.update { it.copy(flashcardReviewsPerDay = if (on) DEFAULT_REVIEW_LIMIT else 0) }

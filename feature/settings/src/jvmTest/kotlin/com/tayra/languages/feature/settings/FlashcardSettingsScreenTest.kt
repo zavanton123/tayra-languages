@@ -42,6 +42,7 @@ import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import com.tayra.languages.core.domain.flashcards.NewCardMix
 import kotlin.test.assertEquals
 
 /** The daily limits, the wanted retention and the learning steps of the flashcards. */
@@ -57,6 +58,9 @@ class FlashcardSettingsScreenTest {
 
         onNodeWithContentDescription("Increase new cards a day").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewPerDay == 25 }
+        onNodeWithTag("new-mix").performClick()
+        onNodeWithText("Mixed with reviews").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewMix == NewCardMix.MIXED }
 
         // Reviews are unlimited until a limit is switched on, which starts at Anki's 200.
         assertEquals(0, settings.current.flashcardReviewsPerDay)
@@ -87,6 +91,7 @@ class FlashcardSettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewPerDay == 20 && settings.current.flashcardLearnSteps == "1m 10m" && settings.current.flashcardRelearnSteps == "10m" }
         assertEquals(false, settings.current.flashcardTwoButtons, "reset brings the four buttons back")
         assertEquals(0, settings.current.flashcardReviewsPerDay)
+        assertEquals(NewCardMix.AFTER_REVIEWS, settings.current.flashcardNewMix)
         assertEquals(8 to false, settings.current.flashcardLeechThreshold to settings.current.flashcardLeechSuspend)
     }
 

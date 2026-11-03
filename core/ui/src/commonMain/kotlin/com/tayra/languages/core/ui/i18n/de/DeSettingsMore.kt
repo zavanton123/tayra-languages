@@ -434,4 +434,12 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Minutes use typical answer times until about {0} of your answers are timed; {1} are so far." to "Die Minuten beruhen auf typischen Antwortzeiten, bis etwa {0} deiner Antworten gemessen sind; bisher sind es {1}.",
     "Use {0}%" to "{0} % verwenden",
     "Help me choose" to "Hilf mir bei der Wahl",
+    "As saved" to "Wie gespeichert",
+    "Mixed with reviews" to "Unter die Wiederholungen gemischt",
+    "After reviews" to "Nach den Wiederholungen",
+    "Before reviews" to "Vor den Wiederholungen",
+    "New card order" to "Reihenfolge neuer Karten",
+    "Random keeps words saved from one text from all coming at once; it is shuffled again each day." to "Zufällig verhindert, dass die Wörter aus einem Text alle zugleich kommen; jeden Tag neu gemischt.",
+    "New cards among reviews" to "Neue Karten und Wiederholungen",
+    "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "Gemischt verteilt sie gleichmäßig über die Wiederholungen des Tages, so kommen auch an langen Tagen früh neue Wörter.",
 )

@@ -1,6 +1,8 @@
 package com.tayra.languages.core.data.settings
 
 import com.tayra.languages.core.domain.flashcards.BacklogOrder
+import com.tayra.languages.core.domain.flashcards.NewCardMix
+import com.tayra.languages.core.domain.flashcards.NewCardOrder
 import com.tayra.languages.core.domain.settings.UserSettings
 
 /** A setting that follows the account: its value as text, and when it last changed (0: never, here). */
@@ -35,6 +37,8 @@ internal object SyncedSettings {
         flag("flashcardLoadBalancing", { it.flashcardLoadBalancing }) { s, v -> s.copy(flashcardLoadBalancing = v) },
         text("flashcardEasyDays", { it.flashcardEasyDays }) { s, v -> s.copy(flashcardEasyDays = v) },
         text("flashcardBacklogOrder", { it.flashcardBacklogOrder.name }) { s, v -> s.copy(flashcardBacklogOrder = BacklogOrder.entries.firstOrNull { it.name == v } ?: s.flashcardBacklogOrder) },
+        text("flashcardNewOrder", { it.flashcardNewOrder.name }) { s, v -> s.copy(flashcardNewOrder = NewCardOrder.entries.firstOrNull { it.name == v } ?: s.flashcardNewOrder) },
+        text("flashcardNewMix", { it.flashcardNewMix.name }) { s, v -> s.copy(flashcardNewMix = NewCardMix.entries.firstOrNull { it.name == v } ?: s.flashcardNewMix) },
         number("flashcardLeechThreshold", { it.flashcardLeechThreshold }) { s, v -> s.copy(flashcardLeechThreshold = v.coerceIn(0, UserSettings.MAX_LEECH_THRESHOLD)) },
         flag("flashcardLeechSuspend", { it.flashcardLeechSuspend }) { s, v -> s.copy(flashcardLeechSuspend = v) },
         text("practiceSetupReading", { it.practiceSetupReading }) { s, v -> s.copy(practiceSetupReading = v) },

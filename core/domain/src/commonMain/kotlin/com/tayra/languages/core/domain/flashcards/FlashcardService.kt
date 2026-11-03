@@ -107,17 +107,19 @@ class FlashcardService(
         return config.copy(load = due.groupingBy { scheduler.day(it, config) }.eachCount())
     }
 
-    private data class Limits(val newLeft: Int, val reviewsLeft: Int)
+    /** What the day's limits leave, and the new cards and reviews answered so far today. */
+    private data class Limits(val newLeft: Int, val reviewsLeft: Int, val newDone: Int = 0, val reviewsDone: Int = 0)
 
     private suspend fun limits(languageId: Long?, now: Instant, config: SchedulerConfig): Limits {
         val s = settings.current
         val today = scheduler.day(now, config)
         val since = scheduler.dayStart(today, config)
         val allowed = s.flashcardNewPerDay + ExtraNew.of(s.flashcardExtraNew, today, languageId)
-        val newLeft = (allowed - cards.reviewsSince(languageId, CardState.NEW, since)).coerceAtLeast(0)
-        val reviewsLeft = if (s.flashcardReviewsPerDay == 0) Int.MAX_VALUE
-        else (s.flashcardReviewsPerDay - cards.reviewsSince(languageId, CardState.REVIEW, since)).coerceAtLeast(0)
-        return Limits(newLeft, reviewsLeft)
+        val newDone = cards.reviewsSince(languageId, CardState.NEW, since)
+        val reviewsDone = cards.reviewsSince(languageId, CardState.REVIEW, since)
+        val newLeft = (allowed - newDone).coerceAtLeast(0)
+        val reviewsLeft = if (s.flashcardReviewsPerDay == 0) Int.MAX_VALUE else (s.flashcardReviewsPerDay - reviewsDone).coerceAtLeast(0)
+        return Limits(newLeft, reviewsLeft, newDone, reviewsDone)
     }
 
     /** Adds [count] new cards to today's limit of [languageId] (null for every language), on this device. */
@@ -178,9 +180,9 @@ class FlashcardService(
     }
 
     /**
-     * The next card: one being learned whose wait is over, then a review that is due, then a new
-     * card, and when only cards being learned are left, one whose wait ends within twenty minutes.
-     * [prefer] names a term whose card is shown first if it has one.
+     * The next card: one being learned whose wait is over, then a review that is due or a new card,
+     * as the new cards are mixed among the reviews, and when only cards being learned are left, one
+     * whose wait ends within twenty minutes. [prefer] names a term whose card is shown first if it has one.
      */
     suspend fun next(languageId: Long?, prefer: Long? = null): Session {
         val now = clock.now()
@@ -188,20 +190,36 @@ class FlashcardService(
         val config = config()
         val limits = limits(languageId, now, config)
         val backlog = backlogOrder(languageId, now, config)
+        val counts = counts(languageId, now, config, limits)
+        val newFirst = newTurn(settings.current.flashcardNewMix, limits.newDone, limits.reviewsDone, counts.new, counts.review)
         // [prefer] puts a card first whatever its turn: the one an answer was just taken back from.
         val card = prefer?.let { cards.get(it) }?.takeIf { !it.suspended }
             ?: cards.next(languageId, STEPPING, now)
+            ?: (if (newFirst) newCards(languageId, now, config).firstOrNull() else null)
             ?: (if (limits.reviewsLeft > 0) nextReview(languageId, now, backlog) else null)
-            ?: (if (limits.newLeft > 0) cards.next(languageId, setOf(CardState.NEW), Instant.DISTANT_FUTURE) else null)
+            ?: (if (limits.newLeft > 0) newCards(languageId, now, config).firstOrNull() else null)
             ?: cards.next(languageId, STEPPING, now + LEARN_AHEAD)
         val term = card?.let { terms.getById(it.termId) }
-        val counts = counts(languageId, now, config, limits)
         if (card == null || term == null) {
             val endOfDay = scheduler.dayStart(scheduler.day(now, config) + 1, config)
             val later = cards.earliestDue(languageId, STEPPING)?.takeIf { it < endOfDay }
             return Session(null, null, emptyMap(), counts, later, now)
         }
         return Session(card, term, outcomes(card, term.status, now, configWithLoad(term.languageId, now)), counts, null, now, backlog)
+    }
+
+    /** [languageId]'s new cards, in the order the settings ask for. */
+    private suspend fun newCards(languageId: Long?, now: Instant, config: SchedulerConfig): List<Flashcard> =
+        ordered(cards.dueInStates(languageId, setOf(CardState.NEW), Instant.DISTANT_FUTURE), scheduler.day(now, config))
+
+    /** New cards [waiting] in the settings' order; a random order is the same all through study day [today]. */
+    private fun ordered(waiting: List<Flashcard>, today: Long): List<Flashcard> {
+        val saved = waiting.sortedWith(compareBy({ it.schedule.due }, { it.termId }))
+        return when (settings.current.flashcardNewOrder) {
+            NewCardOrder.SAVED -> saved
+            NewCardOrder.NEWEST -> saved.reversed()
+            NewCardOrder.RANDOM -> saved.sortedBy { Random(it.termId * 7919 + today).nextLong() }
+        }
     }
 
     private suspend fun nextReview(languageId: Long?, now: Instant, backlog: BacklogOrder?): Flashcard? =
@@ -269,10 +287,18 @@ class FlashcardService(
         val stepping = active.filter { it.schedule.state in STEPPING && it.schedule.due < endOfDay }
         val reviews = backlogOrder(languageId, now, config)?.let { dueReviews(languageId, now, it) }
             ?: active.filter { it.schedule.state == CardState.REVIEW && it.schedule.due <= now }
-        val ordered = stepping.filter { it.schedule.due <= now } +
-            reviews.take(limits.reviewsLeft) +
-            active.filter { it.schedule.state == CardState.NEW }.take(limits.newLeft) +
-            stepping.filter { it.schedule.due > now }
+        val due = reviews.take(limits.reviewsLeft)
+        val new = ordered(active.filter { it.schedule.state == CardState.NEW }, scheduler.day(now, config)).take(limits.newLeft)
+        val mix = settings.current.flashcardNewMix
+        // The reviews and new cards in the turns they take.
+        val today = buildList {
+            var r = 0
+            var n = 0
+            while (r < due.size || n < new.size) {
+                if (newTurn(mix, limits.newDone + n, limits.reviewsDone + r, new.size - n, due.size - r)) add(new[n++]) else add(due[r++])
+            }
+        }
+        val ordered = stepping.filter { it.schedule.due <= now } + today + stepping.filter { it.schedule.due > now }
         val byId = terms.getByIds(ordered.map { it.termId }).associateBy { it.id }
         return ordered.mapNotNull { byId[it.termId] }
     }
@@ -423,6 +449,19 @@ class FlashcardService(
             learnSteps = LearningSteps.parseOr(s.flashcardLearnSteps, UserSettings().flashcardLearnSteps),
             relearnSteps = LearningSteps.parseOr(s.flashcardRelearnSteps, UserSettings().flashcardRelearnSteps),
         )
+
+        /**
+         * Whether a new card comes next rather than a review, with [newDone] and [reviewsDone]
+         * answered today and [newLeft] and [reviewsLeft] still to come: mixed, a new card takes its
+         * turn once as many reviews have gone before it as its share of the day's cards gives.
+         */
+        fun newTurn(mix: NewCardMix, newDone: Int, reviewsDone: Int, newLeft: Int, reviewsLeft: Int): Boolean = when {
+            newLeft <= 0 -> false
+            reviewsLeft <= 0 -> true
+            mix == NewCardMix.AFTER_REVIEWS -> false
+            mix == NewCardMix.BEFORE_REVIEWS -> true
+            else -> (newDone + 1).toLong() * (reviewsDone + reviewsLeft) <= (reviewsDone + 1).toLong() * (newDone + newLeft)
+        }
 
         /** Whether a card forgotten [lapses] times is a leech, as [threshold] has it. */
         fun isLeech(lapses: Int, threshold: Int): Boolean = threshold > 0 && lapses >= threshold

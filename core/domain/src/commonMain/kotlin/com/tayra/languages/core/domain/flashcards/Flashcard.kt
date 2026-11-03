@@ -45,6 +45,26 @@ enum class BacklogOrder {
     DUE_DATE,
 }
 
+/** The order new cards are learned in. */
+enum class NewCardOrder {
+    /** As the words were saved, the first saved first. */
+    SAVED,
+
+    /** The word saved last first, while its text is fresh. */
+    NEWEST,
+
+    /** In no order, shuffled again each study day, so words saved together come apart. */
+    RANDOM,
+}
+
+/** Where a day's new cards come among its reviews. */
+enum class NewCardMix {
+    /** Spread evenly among the reviews, as Anki spreads them by default. */
+    MIXED,
+    AFTER_REVIEWS,
+    BEFORE_REVIEWS,
+}
+
 /** One answer, kept as history. */
 data class FlashcardReview(
     val id: Long = 0,

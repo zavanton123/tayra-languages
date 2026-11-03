@@ -2,6 +2,8 @@ package com.tayra.languages.core.domain.settings
 
 import com.tayra.languages.core.domain.flashcards.AnswerMode
 import com.tayra.languages.core.domain.flashcards.BacklogOrder
+import com.tayra.languages.core.domain.flashcards.NewCardMix
+import com.tayra.languages.core.domain.flashcards.NewCardOrder
 
 import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.service.TranslationEngine
@@ -88,6 +90,10 @@ data class UserSettings(
     val flashcardEasyDays: String = "NNNNNNN",
     /** The order of the reviews due on a day with far more of them than usual. */
     val flashcardBacklogOrder: BacklogOrder = BacklogOrder.RELATIVE_OVERDUENESS,
+    /** The order new cards are learned in. */
+    val flashcardNewOrder: NewCardOrder = NewCardOrder.SAVED,
+    /** Where the day's new cards come among its reviews. */
+    val flashcardNewMix: NewCardMix = NewCardMix.AFTER_REVIEWS,
     /** The times a card is forgotten that make it a leech, as in Anki; 0 makes none. */
     val flashcardLeechThreshold: Int = 8,
     /** A card that becomes a leech is suspended, not only marked as one. */

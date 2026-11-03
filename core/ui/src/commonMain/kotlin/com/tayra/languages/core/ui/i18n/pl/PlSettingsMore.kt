@@ -434,4 +434,12 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Minutes use typical answer times until about {0} of your answers are timed; {1} are so far." to "Minuty opierają się na typowych czasach odpowiedzi, dopóki nie będzie około {0} twoich zmierzonych odpowiedzi; na razie jest ich {1}.",
     "Use {0}%" to "Użyj {0}%",
     "Help me choose" to "Pomóż mi wybrać",
+    "As saved" to "Jak zapisano",
+    "Mixed with reviews" to "Wymieszane z powtórkami",
+    "After reviews" to "Po powtórkach",
+    "Before reviews" to "Przed powtórkami",
+    "New card order" to "Kolejność nowych fiszek",
+    "Random keeps words saved from one text from all coming at once; it is shuffled again each day." to "Losowa kolejność sprawia, że słowa zapisane z jednego tekstu nie pojawiają się naraz; jest tasowana co dzień.",
+    "New cards among reviews" to "Nowe fiszki wśród powtórek",
+    "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "Wymieszane rozkłada je równo między powtórki dnia, więc nawet długi dzień szybko przynosi nowe słowa.",
 )

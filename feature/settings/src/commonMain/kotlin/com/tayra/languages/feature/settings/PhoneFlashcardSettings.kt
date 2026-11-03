@@ -66,6 +66,7 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                         viewModel.update { it.copy(flashcardNewPerDay = n) }
                     }
                 }
+                NewCardSettings(settings, viewModel, dense = true)
                 AppDivider()
                 val limited = settings.flashcardReviewsPerDay > 0
                 SwitchSetting(tr("Limit reviews a day"), description = null, checked = limited, dense = true) { on ->
