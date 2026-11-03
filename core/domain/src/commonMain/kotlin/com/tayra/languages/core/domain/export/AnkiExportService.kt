@@ -99,7 +99,7 @@ class AnkiExportService(
         return Prepared(AnkiCollection(noteType(), notes.values.toList(), media.values.toList()), notes.keys.map { noteTerms.getValue(it) }, all.size - selected.size)
     }
 
-    private suspend fun noteFor(term: Term, language: Language, native: String, now: Instant, media: MutableMap<String, AnkiMedia>): AnkiNote {
+    internal suspend fun noteFor(term: Term, language: Language, native: String, now: Instant, media: MutableMap<String, AnkiMedia>): AnkiNote {
         val code = LanguageCodes.codeFor(language.name) ?: language.name.lowercase()
         val word = term.displayText
         val sentence = term.sentence?.trim()?.takeIf { it.isNotEmpty() }
@@ -161,7 +161,7 @@ class AnkiExportService(
         return sentence.substring(0, found.first) + "{{c1::" + sentence.substring(found) + "}}" + sentence.substring(found.last + 1)
     }
 
-    private fun stamp(instant: Instant, pretty: Boolean = false): String {
+    internal fun stamp(instant: Instant, pretty: Boolean = false): String {
         val t = instant.toLocalDateTime(timeZone())
         fun two(n: Int) = n.toString().padStart(2, '0')
         val date = "${t.year}-${two(t.month.ordinal + 1)}-${two(t.day)}"

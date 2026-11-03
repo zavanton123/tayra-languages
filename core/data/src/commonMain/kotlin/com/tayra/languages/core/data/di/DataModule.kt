@@ -93,6 +93,7 @@ import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.ImportedDictionaries
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.dictionary.OnlineWiktionary
+import com.tayra.languages.core.domain.export.AnkiDeckExportService
 import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.export.AnkiPackager
 import com.tayra.languages.core.domain.practice.PracticeMaterialLoader
@@ -247,6 +248,7 @@ val dataModule: Module = module {
     single { LearningTranslations(get(), get(), get()) }
     single<AnkiPackager> { AnkiPackagerImpl() }
     single { AnkiExportService(get(), get(), get(), get(), get(), get(), get()) }
+    single { AnkiDeckExportService(get(), get(), get(), get(), get(), get()) }
     single { PracticeMaterialLoader(get(), get(), get(), get()) }
     single<PracticeExampleRepository> { PracticeExampleRepositoryImpl(get()) }
     single<PracticeProgressRepository> { PracticeProgressRepositoryImpl(get()) }
