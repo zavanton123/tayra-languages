@@ -188,6 +188,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onAnswer = viewModel::answer,
                 onUndo = viewModel::undo,
                 onSuspend = viewModel::suspendCard,
+                onSkip = viewModel::skipCard,
                 onDelete = { confirmDelete = state.card },
                 onEdit = { details = it },
                 onBooks = { onNavigate(Route.Books) },
@@ -239,6 +240,8 @@ internal class FlashcardActions(
     /** Back to the previous card, its answer taken back. */
     val onUndo: () -> Unit = {},
     val onSuspend: () -> Unit = {},
+    /** Leaves the card until tomorrow. */
+    val onSkip: () -> Unit = {},
     /** Asks before the card is deleted with its word. */
     val onDelete: () -> Unit = {},
     /** Opens the card in the browser, where its sentence, schedule and state are changed. */
@@ -316,6 +319,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         isKey(HotkeyAction.FLASHCARDS_LISTEN) && speaker != null -> state.card?.let { speaker.toggle(it.spoken, it.languageCode) }
                         isKey(HotkeyAction.FLASHCARDS_EDIT) -> state.card?.let { actions.onEdit(it.termId) }
                         isKey(HotkeyAction.FLASHCARDS_SUSPEND) -> actions.onSuspend()
+                        isKey(HotkeyAction.FLASHCARDS_SKIP) -> actions.onSkip()
                         // Asks first, as from the menu.
                         isKey(HotkeyAction.FLASHCARDS_DELETE) -> actions.onDelete()
                         // Space starts and stops listening while the sentence is to be said; Enter still shows the answer.
@@ -748,6 +752,7 @@ private fun CardMenu(card: CardContent, actions: FlashcardActions) {
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             MenuAction(Icons.Default.Edit, tr("Edit flashcard")) { open = false; actions.onEdit(card.termId) }
             MenuAction(Icons.Default.Add, tr("Study more")) { open = false; actions.onStudyMore() }
+            MenuAction(AppIcons.SkipNext, tr("Skip until tomorrow")) { open = false; actions.onSkip() }
             MenuAction(AppIcons.Pause, tr("Suspend card")) { open = false; actions.onSuspend() }
             MenuAction(Icons.Default.Delete, tr("Delete card"), destructive = true) { open = false; actions.onDelete() }
         }
@@ -931,6 +936,7 @@ private fun MoreActions(actions: FlashcardActions, modifier: Modifier = Modifier
         FooterLink(AppIcons.MoreHoriz, tr("More"), Modifier.fillMaxWidth(), onClick = { open = true })
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             AppMenuItem(text = { Text(tr("Study more")) }, onClick = { open = false; actions.onStudyMore() })
+            AppMenuItem(text = { Text(tr("Skip until tomorrow")) }, onClick = { open = false; actions.onSkip() })
             AppMenuItem(text = { Text(tr("Suspend card")) }, onClick = { open = false; actions.onSuspend() })
             AppMenuItem(text = { Text(tr("Delete card"), color = MaterialTheme.colorScheme.error) }, onClick = { open = false; actions.onDelete() })
         }

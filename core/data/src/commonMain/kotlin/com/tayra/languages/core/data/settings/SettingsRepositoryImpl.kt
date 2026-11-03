@@ -161,6 +161,7 @@ class SettingsRepositoryImpl(
             flashcardBacklogOrder = BacklogOrder.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_BACKLOG_ORDER, "") } ?: defaults.flashcardBacklogOrder,
             flashcardNewOrder = NewCardOrder.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_NEW_ORDER, "") } ?: defaults.flashcardNewOrder,
             flashcardNewMix = NewCardMix.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_NEW_MIX, "") } ?: defaults.flashcardNewMix,
+            flashcardSkipped = store.getString(Keys.FLASHCARD_SKIPPED, defaults.flashcardSkipped),
             flashcardLeechThreshold = store.getInt(Keys.FLASHCARD_LEECH_THRESHOLD, defaults.flashcardLeechThreshold).coerceIn(0, UserSettings.MAX_LEECH_THRESHOLD),
             flashcardLeechSuspend = store.getBoolean(Keys.FLASHCARD_LEECH_SUSPEND, defaults.flashcardLeechSuspend),
             flashcardAnswerMode = AnswerMode.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_ANSWER_MODE, "") } ?: defaults.flashcardAnswerMode,
@@ -278,6 +279,7 @@ class SettingsRepositoryImpl(
         store.putString(Keys.FLASHCARD_EXTRA_NEW, s.flashcardExtraNew)
         store.putString(Keys.FLASHCARD_NEW_ORDER, s.flashcardNewOrder.name)
         store.putString(Keys.FLASHCARD_NEW_MIX, s.flashcardNewMix.name)
+        store.putString(Keys.FLASHCARD_SKIPPED, s.flashcardSkipped)
         store.putInt(Keys.FLASHCARD_LEECH_THRESHOLD, s.flashcardLeechThreshold)
         store.putBoolean(Keys.FLASHCARD_LEECH_SUSPEND, s.flashcardLeechSuspend)
         for (action in HotkeyAction.entries) {
@@ -361,6 +363,7 @@ class SettingsRepositoryImpl(
         const val FLASHCARD_EXTRA_NEW = "flashcard_extra_new"
         const val FLASHCARD_NEW_ORDER = "flashcard_new_order"
         const val FLASHCARD_NEW_MIX = "flashcard_new_mix"
+        const val FLASHCARD_SKIPPED = "flashcard_skipped"
         const val FLASHCARD_LEECH_THRESHOLD = "flashcard_leech_threshold"
         const val FLASHCARD_LEECH_SUSPEND = "flashcard_leech_suspend"
     }

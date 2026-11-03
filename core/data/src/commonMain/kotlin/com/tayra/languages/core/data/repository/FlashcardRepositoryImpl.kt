@@ -123,20 +123,20 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
         queries().dueBetween(states.map { it.value.toLong() }, from.toEpochMillis(), until.toEpochMillis(), languageId).awaitAsList().map { it.toInstant() }
     }
 
-    override suspend fun dueInStates(languageId: Long?, states: Set<CardState>, dueBy: Instant): List<Flashcard> = withContext(databaseDispatcher) {
-        queries().allInStates(states.map { it.value.toLong() }, dueBy.toEpochMillis(), languageId).awaitAsList().map { it.toFlashcard() }
+    override suspend fun dueInStates(languageId: Long?, states: Set<CardState>, dueBy: Instant, except: Set<Long>): List<Flashcard> = withContext(databaseDispatcher) {
+        queries().allInStates(states.map { it.value.toLong() }, dueBy.toEpochMillis(), except, languageId).awaitAsList().map { it.toFlashcard() }
     }
 
-    override suspend fun next(languageId: Long?, states: Set<CardState>, dueBy: Instant): Flashcard? = withContext(databaseDispatcher) {
-        queries().nextInStates(states.map { it.value.toLong() }, dueBy.toEpochMillis(), languageId).awaitAsOneOrNull()?.toFlashcard()
+    override suspend fun next(languageId: Long?, states: Set<CardState>, dueBy: Instant, except: Set<Long>): Flashcard? = withContext(databaseDispatcher) {
+        queries().nextInStates(states.map { it.value.toLong() }, dueBy.toEpochMillis(), except, languageId).awaitAsOneOrNull()?.toFlashcard()
     }
 
-    override suspend fun count(languageId: Long?, states: Set<CardState>, dueBy: Instant): Int = withContext(databaseDispatcher) {
-        queries().countInStates(states.map { it.value.toLong() }, dueBy.toEpochMillis(), languageId).awaitAsOne().toInt()
+    override suspend fun count(languageId: Long?, states: Set<CardState>, dueBy: Instant, except: Set<Long>): Int = withContext(databaseDispatcher) {
+        queries().countInStates(states.map { it.value.toLong() }, dueBy.toEpochMillis(), except, languageId).awaitAsOne().toInt()
     }
 
-    override suspend fun earliestDue(languageId: Long?, states: Set<CardState>): Instant? = withContext(databaseDispatcher) {
-        queries().earliestInStates(states.map { it.value.toLong() }, languageId).awaitAsOneOrNull()?.min?.toInstant()
+    override suspend fun earliestDue(languageId: Long?, states: Set<CardState>, except: Set<Long>): Instant? = withContext(databaseDispatcher) {
+        queries().earliestInStates(states.map { it.value.toLong() }, except, languageId).awaitAsOneOrNull()?.min?.toInstant()
     }
 
     override suspend fun reviewsSince(languageId: Long?, stateBefore: CardState, since: Instant): Int = withContext(databaseDispatcher) {

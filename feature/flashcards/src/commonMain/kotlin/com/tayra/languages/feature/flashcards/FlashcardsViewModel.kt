@@ -641,6 +641,18 @@ class FlashcardsViewModel(
         }
     }
 
+    /** Leaves the card on show until the next study day, its schedule as it is. */
+    fun skipCard() {
+        val card = current ?: return
+        current = null
+        events.trySend(FlashcardsEvent.StopSpeaking)
+        passOn(card.termId)
+        viewModelScope.launch {
+            service.skip(listOf(card.termId))
+            load()
+        }
+    }
+
     /** Puts the card on show aside until it is resumed from its term. */
     fun suspendCard() {
         val card = current ?: return

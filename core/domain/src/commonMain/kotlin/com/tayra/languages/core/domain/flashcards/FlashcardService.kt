@@ -122,6 +122,16 @@ class FlashcardService(
         return Limits(newLeft, reviewsLeft, newDone, reviewsDone)
     }
 
+    /** The terms whose cards were skipped until the next study day. */
+    private fun skipped(now: Instant, config: SchedulerConfig): Set<Long> = Skipped.of(settings.current.flashcardSkipped, scheduler.day(now, config))
+
+    /** Leaves the cards of [termIds] out until the next study day, their schedules as they are, as Anki buries a card. */
+    suspend fun skip(termIds: Collection<Long>) {
+        if (termIds.isEmpty()) return
+        val today = scheduler.day(clock.now(), config())
+        settings.update { it.copy(flashcardSkipped = Skipped.add(it.flashcardSkipped, today, termIds)) }
+    }
+
     /** Adds [count] new cards to today's limit of [languageId] (null for every language), on this device. */
     suspend fun addNewToday(languageId: Long?, count: Int) {
         if (count <= 0) return
@@ -172,10 +182,11 @@ class FlashcardService(
 
     private suspend fun counts(languageId: Long?, now: Instant, config: SchedulerConfig, limits: Limits): DueCounts {
         val endOfDay = scheduler.dayStart(scheduler.day(now, config) + 1, config)
+        val skipped = skipped(now, config)
         return DueCounts(
-            new = minOf(cards.count(languageId, setOf(CardState.NEW), Instant.DISTANT_FUTURE), limits.newLeft),
-            learning = cards.count(languageId, STEPPING, endOfDay),
-            review = minOf(cards.count(languageId, setOf(CardState.REVIEW), now), limits.reviewsLeft),
+            new = minOf(cards.count(languageId, setOf(CardState.NEW), Instant.DISTANT_FUTURE, skipped), limits.newLeft),
+            learning = cards.count(languageId, STEPPING, endOfDay, skipped),
+            review = minOf(cards.count(languageId, setOf(CardState.REVIEW), now, skipped), limits.reviewsLeft),
         )
     }
 
@@ -192,17 +203,18 @@ class FlashcardService(
         val backlog = backlogOrder(languageId, now, config)
         val counts = counts(languageId, now, config, limits)
         val newFirst = newTurn(settings.current.flashcardNewMix, limits.newDone, limits.reviewsDone, counts.new, counts.review)
+        val skipped = skipped(now, config)
         // [prefer] puts a card first whatever its turn: the one an answer was just taken back from.
         val card = prefer?.let { cards.get(it) }?.takeIf { !it.suspended }
-            ?: cards.next(languageId, STEPPING, now)
+            ?: cards.next(languageId, STEPPING, now, skipped)
             ?: (if (newFirst) newCards(languageId, now, config).firstOrNull() else null)
-            ?: (if (limits.reviewsLeft > 0) nextReview(languageId, now, backlog) else null)
+            ?: (if (limits.reviewsLeft > 0) nextReview(languageId, now, backlog, skipped) else null)
             ?: (if (limits.newLeft > 0) newCards(languageId, now, config).firstOrNull() else null)
-            ?: cards.next(languageId, STEPPING, now + LEARN_AHEAD)
+            ?: cards.next(languageId, STEPPING, now + LEARN_AHEAD, skipped)
         val term = card?.let { terms.getById(it.termId) }
         if (card == null || term == null) {
             val endOfDay = scheduler.dayStart(scheduler.day(now, config) + 1, config)
-            val later = cards.earliestDue(languageId, STEPPING)?.takeIf { it < endOfDay }
+            val later = cards.earliestDue(languageId, STEPPING, skipped)?.takeIf { it < endOfDay }
             return Session(null, null, emptyMap(), counts, later, now)
         }
         return Session(card, term, outcomes(card, term.status, now, configWithLoad(term.languageId, now)), counts, null, now, backlog)
@@ -210,7 +222,7 @@ class FlashcardService(
 
     /** [languageId]'s new cards, in the order the settings ask for. */
     private suspend fun newCards(languageId: Long?, now: Instant, config: SchedulerConfig): List<Flashcard> =
-        ordered(cards.dueInStates(languageId, setOf(CardState.NEW), Instant.DISTANT_FUTURE), scheduler.day(now, config))
+        ordered(cards.dueInStates(languageId, setOf(CardState.NEW), Instant.DISTANT_FUTURE, skipped(now, config)), scheduler.day(now, config))
 
     /** New cards [waiting] in the settings' order; a random order is the same all through study day [today]. */
     private fun ordered(waiting: List<Flashcard>, today: Long): List<Flashcard> {
@@ -222,8 +234,8 @@ class FlashcardService(
         }
     }
 
-    private suspend fun nextReview(languageId: Long?, now: Instant, backlog: BacklogOrder?): Flashcard? =
-        if (backlog == null) cards.next(languageId, setOf(CardState.REVIEW), now) else dueReviews(languageId, now, backlog).firstOrNull()
+    private suspend fun nextReview(languageId: Long?, now: Instant, backlog: BacklogOrder?, skipped: Set<Long>): Flashcard? =
+        if (backlog == null) cards.next(languageId, setOf(CardState.REVIEW), now, skipped) else dueReviews(languageId, now, backlog).firstOrNull()
 
     /**
      * The order the due reviews of [languageId] take: the one chosen for a backlog when more are due
@@ -232,7 +244,7 @@ class FlashcardService(
      */
     private suspend fun backlogOrder(languageId: Long?, now: Instant, config: SchedulerConfig): BacklogOrder? {
         val order = settings.current.flashcardBacklogOrder.takeIf { it != BacklogOrder.DUE_DATE } ?: return null
-        val due = cards.count(languageId, setOf(CardState.REVIEW), now)
+        val due = cards.count(languageId, setOf(CardState.REVIEW), now, skipped(now, config))
         if (due <= BACKLOG_MIN) return null
         val since = scheduler.dayStart(scheduler.day(now, config) - BACKLOG_DAYS, config)
         val usual = cards.reviewsSince(languageId, CardState.REVIEW, since).toDouble() / BACKLOG_DAYS
@@ -241,8 +253,8 @@ class FlashcardService(
 
     /** [languageId]'s reviews due now in [order]; ties go to the card due longest. */
     private suspend fun dueReviews(languageId: Long?, now: Instant, order: BacklogOrder): List<Flashcard> {
-        val due = cards.dueInStates(languageId, setOf(CardState.REVIEW), now)
         val config = languageId?.let { configFor(it) } ?: config()
+        val due = cards.dueInStates(languageId, setOf(CardState.REVIEW), now, skipped(now, config))
         val recall = due.associate { it.termId to (scheduler.retrievability(it.schedule, now, config) ?: 1.0) }
         fun byRecall(lowFirst: Boolean) = Comparator<Flashcard> { a, b ->
             val ra = recall.getValue(a.termId)
@@ -283,7 +295,8 @@ class FlashcardService(
         val config = config()
         val limits = limits(languageId, now, config)
         val endOfDay = scheduler.dayStart(scheduler.day(now, config) + 1, config)
-        val active = cards.list(languageId).filter { !it.suspended }.sortedWith(compareBy({ it.schedule.due }, { it.termId }))
+        val skipped = skipped(now, config)
+        val active = cards.list(languageId).filter { !it.suspended && it.termId !in skipped }.sortedWith(compareBy({ it.schedule.due }, { it.termId }))
         val stepping = active.filter { it.schedule.state in STEPPING && it.schedule.due < endOfDay }
         val reviews = backlogOrder(languageId, now, config)?.let { dueReviews(languageId, now, it) }
             ?: active.filter { it.schedule.state == CardState.REVIEW && it.schedule.due <= now }
@@ -534,4 +547,16 @@ internal object ExtraNew {
         counts[languageId ?: 0] = (counts[languageId ?: 0] ?: 0) + count
         return "$today|" + counts.entries.joinToString(",") { "${it.key}:${it.value}" }
     }
+}
+
+/** The cards skipped until the next study day, kept as "day|term,term"; another day's are gone. */
+internal object Skipped {
+    /** The terms skipped on study day [today]. */
+    fun of(text: String, today: Long): Set<Long> {
+        if (text.substringBefore('|', "").toLongOrNull() != today) return emptySet()
+        return text.substringAfter('|').split(',').mapNotNull { it.toLongOrNull() }.toSet()
+    }
+
+    /** [text] with [termIds] skipped on [today] too; another day's are dropped. */
+    fun add(text: String, today: Long, termIds: Collection<Long>): String = "$today|" + (of(text, today) + termIds).joinToString(",")
 }

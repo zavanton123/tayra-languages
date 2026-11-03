@@ -24,16 +24,16 @@ interface FlashcardRepository {
     /** The answers given to the term's card, the latest first. */
     suspend fun reviews(termId: Long): List<FlashcardReview>
 
-    /** The card in [states] due soonest, by [dueBy] at the latest, among those not suspended. */
-    suspend fun next(languageId: Long?, states: Set<CardState>, dueBy: Instant): Flashcard?
-    suspend fun count(languageId: Long?, states: Set<CardState>, dueBy: Instant): Int
+    /** The card in [states] due soonest, by [dueBy] at the latest, among those not suspended; the terms in [except] are left out. */
+    suspend fun next(languageId: Long?, states: Set<CardState>, dueBy: Instant, except: Set<Long> = emptySet()): Flashcard?
+    suspend fun count(languageId: Long?, states: Set<CardState>, dueBy: Instant, except: Set<Long> = emptySet()): Int
 
     /** When the cards in [states] not suspended fall due, those due from [from] until [until]. */
     suspend fun dueTimes(languageId: Long?, states: Set<CardState>, from: Instant, until: Instant): List<Instant>
 
     /** Every card in [states] due by [dueBy], the soonest first, among those not suspended. */
-    suspend fun dueInStates(languageId: Long?, states: Set<CardState>, dueBy: Instant): List<Flashcard>
-    suspend fun earliestDue(languageId: Long?, states: Set<CardState>): Instant?
+    suspend fun dueInStates(languageId: Long?, states: Set<CardState>, dueBy: Instant, except: Set<Long> = emptySet()): List<Flashcard>
+    suspend fun earliestDue(languageId: Long?, states: Set<CardState>, except: Set<Long> = emptySet()): Instant?
 
     /** The terms of [languageId] whose cards were answered Again since [since]. */
     suspend fun forgottenSince(languageId: Long?, since: Instant): Set<Long>

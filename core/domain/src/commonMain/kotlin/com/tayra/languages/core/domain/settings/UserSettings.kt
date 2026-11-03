@@ -94,6 +94,8 @@ data class UserSettings(
     val flashcardNewOrder: NewCardOrder = NewCardOrder.SAVED,
     /** Where the day's new cards come among its reviews. */
     val flashcardNewMix: NewCardMix = NewCardMix.AFTER_REVIEWS,
+    /** The cards skipped until the next study day, as "day|term,term": the study day they were skipped on, then their terms. */
+    val flashcardSkipped: String = "",
     /** The times a card is forgotten that make it a leech, as in Anki; 0 makes none. */
     val flashcardLeechThreshold: Int = 8,
     /** A card that becomes a leech is suspended, not only marked as one. */

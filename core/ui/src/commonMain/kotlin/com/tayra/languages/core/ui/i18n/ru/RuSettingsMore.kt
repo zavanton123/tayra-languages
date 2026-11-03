@@ -442,4 +442,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Random keeps words saved from one text from all coming at once; it is shuffled again each day." to "Случайный порядок не даёт словам из одного текста идти подряд; он перемешивается каждый день.",
     "New cards among reviews" to "Новые карточки среди повторений",
     "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "Вперемешку — равномерно среди повторений дня, так что даже в длинный день новые слова появляются рано.",
+    "Skip until tomorrow" to "Отложить до завтра",
+    "Skip the card until tomorrow" to "Отложить карточку до завтра",
 )

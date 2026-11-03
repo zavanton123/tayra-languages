@@ -39,6 +39,7 @@ internal object SyncedSettings {
         text("flashcardBacklogOrder", { it.flashcardBacklogOrder.name }) { s, v -> s.copy(flashcardBacklogOrder = BacklogOrder.entries.firstOrNull { it.name == v } ?: s.flashcardBacklogOrder) },
         text("flashcardNewOrder", { it.flashcardNewOrder.name }) { s, v -> s.copy(flashcardNewOrder = NewCardOrder.entries.firstOrNull { it.name == v } ?: s.flashcardNewOrder) },
         text("flashcardNewMix", { it.flashcardNewMix.name }) { s, v -> s.copy(flashcardNewMix = NewCardMix.entries.firstOrNull { it.name == v } ?: s.flashcardNewMix) },
+        text("flashcardSkipped", { it.flashcardSkipped }) { s, v -> s.copy(flashcardSkipped = v) },
         number("flashcardLeechThreshold", { it.flashcardLeechThreshold }) { s, v -> s.copy(flashcardLeechThreshold = v.coerceIn(0, UserSettings.MAX_LEECH_THRESHOLD)) },
         flag("flashcardLeechSuspend", { it.flashcardLeechSuspend }) { s, v -> s.copy(flashcardLeechSuspend = v) },
         text("practiceSetupReading", { it.practiceSetupReading }) { s, v -> s.copy(practiceSetupReading = v) },

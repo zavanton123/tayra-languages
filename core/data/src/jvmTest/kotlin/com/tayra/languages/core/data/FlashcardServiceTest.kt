@@ -668,4 +668,20 @@ class FlashcardServiceTest {
         assertEquals("RNRRNR", shown.joinToString(""))
         assertTrue(reviews.all { cards.get(it)!!.schedule.due > clock.now() })
     }
+
+    @Test
+    fun aSkippedCardWaitsUntilTheNextStudyDay() = runTest {
+        val id = language()
+        val lobo = term(id, "lobo")
+        val gato = term(id, "gato")
+        assertEquals(2, service.counts(id).new)
+        service.skip(listOf(lobo))
+        assertEquals(1, service.counts(id).new)
+        assertEquals(gato, service.next(id).card?.termId)
+        assertEquals(listOf(gato), service.sessionTerms(id).map { it.id })
+        assertEquals(CardState.NEW, cards.get(lobo)!!.schedule.state, "its schedule as it was")
+        // The study day ends at 4 in the morning.
+        clock.advance(16.hours)
+        assertEquals(lobo, service.next(id).card?.termId)
+    }
 }

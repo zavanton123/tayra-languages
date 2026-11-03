@@ -442,4 +442,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Random keeps words saved from one text from all coming at once; it is shuffled again each day." to "Η τυχαία σειρά κρατά τις λέξεις ενός κειμένου από το να έρχονται όλες μαζί· ανακατεύεται ξανά κάθε μέρα.",
     "New cards among reviews" to "Νέες κάρτες στις επαναλήψεις",
     "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "Η ανάμειξη τις μοιράζει ομοιόμορφα στις επαναλήψεις της ημέρας, έτσι ακόμα και μια μεγάλη μέρα φέρνει νωρίς νέες λέξεις.",
+    "Skip until tomorrow" to "Παράλειψη ως αύριο",
+    "Skip the card until tomorrow" to "Παράλειψη της κάρτας ως αύριο",
 )

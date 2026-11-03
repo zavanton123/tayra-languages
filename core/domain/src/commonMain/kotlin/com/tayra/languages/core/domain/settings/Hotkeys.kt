@@ -131,6 +131,8 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     FLASHCARDS_LISTEN(HotkeyCategory.FLASHCARDS, "Listen to the card's sentence", Hotkey("R")),
     FLASHCARDS_EDIT(HotkeyCategory.FLASHCARDS, "Edit the flashcard", Hotkey("E")),
     FLASHCARDS_SUSPEND(HotkeyCategory.FLASHCARDS, "Suspend the card", Hotkey("S")),
+    // Anki's key for burying a card.
+    FLASHCARDS_SKIP(HotkeyCategory.FLASHCARDS, "Skip the card until tomorrow", Hotkey("Minus")),
     FLASHCARDS_DELETE(HotkeyCategory.FLASHCARDS, "Delete the card", Hotkey("D")),
     FLASHCARDS_BROWSE(HotkeyCategory.FLASHCARDS, "Browse flashcards", Hotkey("B"));
 
