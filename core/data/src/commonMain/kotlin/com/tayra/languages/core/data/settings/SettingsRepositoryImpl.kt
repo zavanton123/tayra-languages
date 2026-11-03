@@ -154,6 +154,8 @@ class SettingsRepositoryImpl(
             flashcardAutoplay = store.getBoolean(Keys.FLASHCARD_AUTOPLAY, defaults.flashcardAutoplay),
             flashcardTwoButtons = store.getBoolean(Keys.FLASHCARD_TWO_BUTTONS, defaults.flashcardTwoButtons),
             flashcardExtraNew = store.getString(Keys.FLASHCARD_EXTRA_NEW, defaults.flashcardExtraNew),
+            flashcardLoadBalancing = store.getBoolean(Keys.FLASHCARD_LOAD_BALANCING, defaults.flashcardLoadBalancing),
+            flashcardEasyDays = store.getString(Keys.FLASHCARD_EASY_DAYS, defaults.flashcardEasyDays),
             flashcardBacklogOrder = BacklogOrder.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_BACKLOG_ORDER, "") } ?: defaults.flashcardBacklogOrder,
             flashcardAnswerMode = AnswerMode.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_ANSWER_MODE, "") } ?: defaults.flashcardAnswerMode,
             hotkeys = loadHotkeys(store),
@@ -265,6 +267,8 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.FLASHCARD_TWO_BUTTONS, s.flashcardTwoButtons)
         store.putString(Keys.FLASHCARD_ANSWER_MODE, s.flashcardAnswerMode.name)
         store.putString(Keys.FLASHCARD_BACKLOG_ORDER, s.flashcardBacklogOrder.name)
+        store.putBoolean(Keys.FLASHCARD_LOAD_BALANCING, s.flashcardLoadBalancing)
+        store.putString(Keys.FLASHCARD_EASY_DAYS, s.flashcardEasyDays)
         store.putString(Keys.FLASHCARD_EXTRA_NEW, s.flashcardExtraNew)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
@@ -342,6 +346,8 @@ class SettingsRepositoryImpl(
         const val FLASHCARD_TWO_BUTTONS = "flashcard_two_buttons"
         const val FLASHCARD_ANSWER_MODE = "flashcard_answer_mode"
         const val FLASHCARD_BACKLOG_ORDER = "flashcard_backlog_order"
+        const val FLASHCARD_LOAD_BALANCING = "flashcard_load_balancing"
+        const val FLASHCARD_EASY_DAYS = "flashcard_easy_days"
         const val FLASHCARD_EXTRA_NEW = "flashcard_extra_new"
     }
 }

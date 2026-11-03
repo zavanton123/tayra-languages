@@ -28,6 +28,9 @@ interface FlashcardRepository {
     suspend fun next(languageId: Long?, states: Set<CardState>, dueBy: Instant): Flashcard?
     suspend fun count(languageId: Long?, states: Set<CardState>, dueBy: Instant): Int
 
+    /** When the cards in [states] not suspended fall due, those due from [from] until [until]. */
+    suspend fun dueTimes(languageId: Long?, states: Set<CardState>, from: Instant, until: Instant): List<Instant>
+
     /** Every card in [states] due by [dueBy], the soonest first, among those not suspended. */
     suspend fun dueInStates(languageId: Long?, states: Set<CardState>, dueBy: Instant): List<Flashcard>
     suspend fun earliestDue(languageId: Long?, states: Set<CardState>): Instant?

@@ -116,6 +116,10 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
         queries().forgottenSince(since.toEpochMillis(), languageId).awaitAsList().toSet()
     }
 
+    override suspend fun dueTimes(languageId: Long?, states: Set<CardState>, from: Instant, until: Instant): List<Instant> = withContext(databaseDispatcher) {
+        queries().dueBetween(states.map { it.value.toLong() }, from.toEpochMillis(), until.toEpochMillis(), languageId).awaitAsList().map { it.toInstant() }
+    }
+
     override suspend fun dueInStates(languageId: Long?, states: Set<CardState>, dueBy: Instant): List<Flashcard> = withContext(databaseDispatcher) {
         queries().allInStates(states.map { it.value.toLong() }, dueBy.toEpochMillis(), languageId).awaitAsList().map { it.toFlashcard() }
     }

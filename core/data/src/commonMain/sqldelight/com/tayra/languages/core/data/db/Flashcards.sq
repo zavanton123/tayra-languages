@@ -74,6 +74,13 @@ WHERE f.suspended = 0 AND f.state IN :states AND f.due <= :dueBy
   AND (:languageId IS NULL OR t.language_id = :languageId)
 ORDER BY f.due, f.term_id;
 
+dueBetween:
+SELECT f.due
+FROM flashcards f
+INNER JOIN terms t ON t.id = f.term_id
+WHERE f.suspended = 0 AND f.state IN :states AND f.due >= :from AND f.due < :until
+  AND (:languageId IS NULL OR t.language_id = :languageId);
+
 countInStates:
 SELECT count(*)
 FROM flashcards f

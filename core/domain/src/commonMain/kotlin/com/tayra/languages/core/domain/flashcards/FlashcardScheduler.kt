@@ -9,6 +9,7 @@ import kotlinx.datetime.toLocalDateTime
 import kotlin.math.floor
 import kotlin.math.max
 import kotlin.math.min
+import kotlin.math.pow
 import kotlin.math.roundToInt
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
@@ -62,7 +63,28 @@ data class SchedulerConfig(
     val dayStartHour: Int = 4,
     /** The memory model's parameters trained for the card's language; null for the defaults. */
     val parameters: List<Double>? = null,
+    /** A review's day within its fuzz is chosen to even out the load, as Anki's load balancer chooses it. */
+    val loadBalancing: Boolean = false,
+    /** How much each weekday, Monday first, may be given. */
+    val easyDays: List<EasyDay> = List(7) { EasyDay.NORMAL },
+    /** The reviews already due on each study day ahead, by day number, which load balancing evens out. */
+    val load: Map<Long, Int> = emptyMap(),
 )
+
+/** How much a weekday may be given: as much as any other, about half of that, or as little as can be. */
+enum class EasyDay(val share: Double) {
+    NORMAL(1.0),
+    REDUCED(0.5),
+    MINIMUM(0.0001);
+
+    companion object {
+        /** The seven days, Monday first, as kept in settings: a letter a day, N, R or M. */
+        fun parse(text: String): List<EasyDay> =
+            List(7) { i -> when (text.getOrNull(i)) { 'R' -> REDUCED; 'M' -> MINIMUM; else -> NORMAL } }
+
+        fun format(days: List<EasyDay>): String = days.joinToString("") { it.name.take(1) }
+    }
+}
 
 /**
  * Anki's card states around the FSRS memory model: new cards go through the learning steps,
@@ -114,7 +136,7 @@ class FlashcardScheduler(private val fsrs: Fsrs = Fsrs(), private val timeZone: 
         fun review(rating: Rating, days: Int) =
             answered(rating).copy(state = CardState.REVIEW, intervalDays = days, remainingSteps = 0, due = dayStart(today + days, config))
 
-        fun fuzzed(days: Double, minimum: Int) = withFuzz(fuzz, days, minimum, maximum)
+        fun fuzzed(days: Double, minimum: Int) = fuzzedDay(fuzz, days, minimum, maximum, today, config)
 
         if (card.state.isReview) {
             val previous = card.intervalDays
@@ -153,13 +175,68 @@ class FlashcardScheduler(private val fsrs: Fsrs = Fsrs(), private val timeZone: 
         val hard = hardDelay(steps, index)?.let { step(Rating.HARD, remaining, it) } ?: graduate(Rating.HARD)
         val good = steps.getOrNull(index + 1)?.let { step(Rating.GOOD, steps.size - (index + 1), it) } ?: graduate(Rating.GOOD)
         val goodDays = fuzzed(interval.getValue(Rating.GOOD), 1)
-        val easy = review(Rating.EASY, withFuzz(fuzz, max(interval.getValue(Rating.EASY).roundToInt(), 1).toDouble(), goodDays + 1, maximum))
+        val easy = review(Rating.EASY, fuzzed(max(interval.getValue(Rating.EASY).roundToInt(), 1).toDouble(), goodDays + 1))
         return mapOf(Rating.AGAIN to again, Rating.HARD to hard, Rating.GOOD to good, Rating.EASY to easy)
     }
 
-    /** [card] coming back at most [days] after [now] when it is a review due later. */
-    fun within(card: CardSchedule, days: Int, now: Instant, config: SchedulerConfig): CardSchedule =
-        if (card.state.isReview && card.intervalDays > days) card.copy(intervalDays = days, due = dayStart(day(now, config) + days, config)) else card
+    /**
+     * [card] coming back at most [days] after [now] when it is a review due later: on the last of
+     * those days, or, balancing the load, on whichever of the last [CAP_SPREAD] + 1 is lighter.
+     */
+    fun within(card: CardSchedule, days: Int, now: Instant, config: SchedulerConfig, fuzz: Double? = null): CardSchedule {
+        if (!card.state.isReview || card.intervalDays <= days) return card
+        val today = day(now, config)
+        val chosen = if (fuzz != null && config.loadBalancing) balanced((days - CAP_SPREAD).coerceAtLeast(1)..days, fuzz, today, config) else days
+        return card.copy(intervalDays = chosen, due = dayStart(today + chosen, config))
+    }
+
+    /** The interval [fuzz] picks for [days] within its fuzz range: by load where it is balanced, else evenly. */
+    private fun fuzzedDay(fuzz: Double?, days: Double, minimum: Int, maximum: Int, today: Long, config: SchedulerConfig): Int {
+        if (fuzz == null || !config.loadBalancing || days > MAX_BALANCED || minimum > MAX_BALANCED) return withFuzz(fuzz, days, minimum, maximum)
+        val (lower, upper) = fuzzBounds(days, minimum, maximum)
+        return balanced(lower..upper, fuzz, today, config)
+    }
+
+    /**
+     * One of the intervals in [range], drawn with [fuzz] by the weights of Anki's load balancer: a
+     * day with nothing due weighs 1, any other (1 / reviews due)^2.15 × (1 / interval)^3, so the
+     * emptiest and nearest days are likeliest; each weighed again by how much its weekday may be given.
+     */
+    internal fun balanced(range: IntRange, fuzz: Double, today: Long, config: SchedulerConfig): Int {
+        if (range.first >= range.last) return range.first
+        val counts = range.map { config.load[today + it] ?: 0 }
+        val weekdays = range.map { LocalDate.fromEpochDays((today + it).toInt()).dayOfWeek.ordinal }
+        val easy = easyDayShares(config.easyDays, weekdays, counts)
+        val weights = range.mapIndexed { i, days ->
+            // Unlike Anki, an empty day is weighed by its weekday too, so a day kept light stays light while there is little due.
+            (if (counts[i] == 0) 1.0 else (1.0 / counts[i]).pow(2.15) * (1.0 / days).pow(3)) * easy[i]
+        }
+        var left = fuzz.coerceIn(0.0, 1.0) * weights.sum()
+        weights.forEachIndexed { i, weight ->
+            left -= weight
+            if (left < 0) return range.first + i
+        }
+        return range.last
+    }
+
+    /**
+     * What each day of a range may be given, as Anki works it out: a reduced day is open only while
+     * it holds no more than half a day's share of the reviews due over the range.
+     */
+    private fun easyDayShares(easyDays: List<EasyDay>, weekdays: List<Int>, counts: List<Int>): List<Double> {
+        val total = counts.sum()
+        val shares = weekdays.sumOf { easyDays[it].share }
+        return weekdays.mapIndexed { i, weekday ->
+            when (val day = easyDays[weekday]) {
+                EasyDay.REDUCED -> {
+                    val otherShares = shares - EasyDay.REDUCED.share
+                    val threshold = if (otherShares > 0) (total - counts[i]) / otherShares else Double.MAX_VALUE
+                    if (counts[i] / EasyDay.REDUCED.share > threshold) EasyDay.MINIMUM.share else EasyDay.NORMAL.share
+                }
+                else -> day.share
+            }
+        }
+    }
 
     /** Hard repeats the current step; on the first step it waits half-way to the second. */
     private fun hardDelay(steps: List<Duration>, index: Int): Duration? {
@@ -170,6 +247,12 @@ class FlashcardScheduler(private val fsrs: Fsrs = Fsrs(), private val timeZone: 
     }
 
     private companion object {
+        /** Past this many days a review's day is left to fuzz alone: so far out, an even load matters little. */
+        const val MAX_BALANCED = 90
+
+        /** How many days before the cap a capped review may come, for a lighter day. */
+        const val CAP_SPREAD = 2
+
         /** From an interval of days up, and the share of the days in that range an interval may move by. */
         val FUZZ_RANGES = listOf(Triple(2.5, 7.0, 0.15), Triple(7.0, 20.0, 0.1), Triple(20.0, Double.MAX_VALUE, 0.05))
 

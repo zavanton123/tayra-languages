@@ -16,6 +16,71 @@ class FlashcardSchedulerTest {
     private val noon = Instant.parse("2026-10-05T12:00:00Z")
     private val fresh = CardSchedule(due = noon)
 
+    private val today = scheduler.day(noon, config)
+    private val balancing = SchedulerConfig(loadBalancing = true)
+
+    /** A review card [interval] days old, answered again on its day with Good. */
+    private fun review(interval: Int, stability: Double = interval.toDouble()) =
+        CardSchedule(CardState.REVIEW, noon, MemoryState(stability, 5.0), interval, 0, 5, 0, noon - interval.days)
+
+    @Test
+    fun loadBalancingWeighsTheDaysAsAnkiDoes() {
+        // Days 10 and 11 hold one review and two: Anki's weights are (1/1)^2.15 (1/10)^3 and (1/2)^2.15 (1/11)^3.
+        val loaded = balancing.copy(load = mapOf(today + 10 to 1, today + 11 to 2))
+        val first = 1.0 / 1000
+        val second = Math.pow(0.5, 2.15) / 1331
+        val split = first / (first + second)
+        assertEquals(10, scheduler.balanced(10..11, split - 1e-6, today, loaded))
+        assertEquals(11, scheduler.balanced(10..11, split + 1e-6, today, loaded))
+        // A day with nothing due outweighs any with reviews.
+        val busy = balancing.copy(load = (8..12).associate { today + it to 5 } - (today + 11))
+        assertEquals(11, scheduler.balanced(8..12, 0.5, today, busy))
+    }
+
+    @Test
+    fun theDayShownIsTheDayGiven() {
+        val loaded = balancing.copy(load = (1..60).associate { today + it to it % 7 })
+        val card = review(20, stability = 25.0)
+        for (fuzz in listOf(0.0, 0.3, 0.7, 0.99)) {
+            val shown = scheduler.outcomes(card, noon, loaded, fuzz)
+            assertEquals(shown.getValue(Rating.GOOD), scheduler.answer(card, Rating.GOOD, noon, loaded, fuzz))
+        }
+    }
+
+    @Test
+    fun withoutBalancingOrFarOutTheFuzzAloneDecides() {
+        val card = review(20, stability = 25.0)
+        val loaded = balancing.copy(load = (1..60).associate { today + it to if (it % 2 == 0) 50 else 0 })
+        assertEquals(scheduler.outcomes(card, noon, config, 0.4), scheduler.outcomes(card, noon, loaded.copy(loadBalancing = false), 0.4))
+        val far = review(200, stability = 300.0)
+        assertEquals(scheduler.outcomes(far, noon, config, 0.4), scheduler.outcomes(far, noon, loaded, 0.4), "past 90 days nothing is balanced")
+    }
+
+    @Test
+    fun easyDaysKeepTheirWeekdaysLight() {
+        // Today, 5 October 2026, is a Monday: days 5 to 7 on are Saturday, Sunday and Monday.
+        val weekend = balancing.copy(easyDays = List(5) { EasyDay.NORMAL } + listOf(EasyDay.MINIMUM, EasyDay.MINIMUM))
+        // A day kept light weighs a ten-thousandth of another, so only the barest draw lands on it.
+        for (fuzz in listOf(0.01, 0.5, 0.99)) assertEquals(7, scheduler.balanced(5..7, fuzz, today, weekend), "nothing on the weekend, though it is empty")
+        // A reduced Saturday takes reviews only while it holds less than half a day's share.
+        val reduced = balancing.copy(easyDays = List(5) { EasyDay.NORMAL } + listOf(EasyDay.REDUCED, EasyDay.NORMAL))
+        val light = reduced.copy(load = mapOf(today + 5 to 1, today + 6 to 10, today + 7 to 10))
+        assertEquals(5, scheduler.balanced(5..7, 0.0, today, light))
+        val heavy = reduced.copy(load = mapOf(today + 5 to 8, today + 6 to 10, today + 7 to 10))
+        for (fuzz in listOf(0.01, 0.5, 0.99)) assertTrue(scheduler.balanced(5..7, fuzz, today, heavy) != 5)
+        assertEquals("NNNNNRM", EasyDay.format(EasyDay.parse("NNNNNRM")))
+    }
+
+    @Test
+    fun aCappedReviewComesOnTheLightestOfItsLastDays() {
+        val card = review(30, stability = 40.0)
+        val loaded = balancing.copy(load = mapOf(today + 5 to 9, today + 6 to 0, today + 7 to 9))
+        val capped = scheduler.within(card.copy(intervalDays = 30), 7, noon, loaded, fuzz = 0.9)
+        assertEquals(6, capped.intervalDays)
+        assertEquals(scheduler.dayStart(today + 6, config), capped.due)
+        assertEquals(7, scheduler.within(card.copy(intervalDays = 30), 7, noon, config, fuzz = 0.9).intervalDays, "without balancing, the cap itself")
+    }
+
     @Test
     fun aNewCardGoesThroughTheLearningSteps() {
         val first = scheduler.outcomes(fresh, noon, config)

@@ -32,6 +32,8 @@ internal object SyncedSettings {
         text("flashcardLearnSteps", { it.flashcardLearnSteps }) { s, v -> s.copy(flashcardLearnSteps = v) },
         text("flashcardRelearnSteps", { it.flashcardRelearnSteps }) { s, v -> s.copy(flashcardRelearnSteps = v) },
         flag("flashcardTwoButtons", { it.flashcardTwoButtons }) { s, v -> s.copy(flashcardTwoButtons = v) },
+        flag("flashcardLoadBalancing", { it.flashcardLoadBalancing }) { s, v -> s.copy(flashcardLoadBalancing = v) },
+        text("flashcardEasyDays", { it.flashcardEasyDays }) { s, v -> s.copy(flashcardEasyDays = v) },
         text("flashcardBacklogOrder", { it.flashcardBacklogOrder.name }) { s, v -> s.copy(flashcardBacklogOrder = BacklogOrder.entries.firstOrNull { it.name == v } ?: s.flashcardBacklogOrder) },
         text("practiceSetupReading", { it.practiceSetupReading }) { s, v -> s.copy(practiceSetupReading = v) },
         text("practiceSetupVocabulary", { it.practiceSetupVocabulary }) { s, v -> s.copy(practiceSetupVocabulary = v) },

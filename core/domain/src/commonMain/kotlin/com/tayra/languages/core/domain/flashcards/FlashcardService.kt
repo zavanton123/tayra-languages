@@ -85,6 +85,15 @@ class FlashcardService(
     /** The scheduling of a card of [languageId]: the settings', with the parameters trained on the language's answers. */
     private suspend fun configFor(languageId: Long): SchedulerConfig = config().copy(parameters = cards.parameters(languageId)?.parameters)
 
+    /** [configFor] with the reviews of [languageId] due on each day ahead, for an answer to even them out. */
+    private suspend fun configWithLoad(languageId: Long, now: Instant): SchedulerConfig {
+        val config = configFor(languageId)
+        if (!config.loadBalancing) return config
+        val today = scheduler.day(now, config)
+        val due = cards.dueTimes(languageId, setOf(CardState.REVIEW), scheduler.dayStart(today + 1, config), scheduler.dayStart(today + LOAD_DAYS + 1, config))
+        return config.copy(load = due.groupingBy { scheduler.day(it, config) }.eachCount())
+    }
+
     private data class Limits(val newLeft: Int, val reviewsLeft: Int)
 
     private suspend fun limits(languageId: Long?, now: Instant, config: SchedulerConfig): Limits {
@@ -179,7 +188,7 @@ class FlashcardService(
             val later = cards.earliestDue(languageId, STEPPING)?.takeIf { it < endOfDay }
             return Session(null, null, emptyMap(), counts, later, now)
         }
-        return Session(card, term, outcomes(card, term.status, now, configFor(term.languageId)), counts, null, now, backlog)
+        return Session(card, term, outcomes(card, term.status, now, configWithLoad(term.languageId, now)), counts, null, now, backlog)
     }
 
     private suspend fun nextReview(languageId: Long?, now: Instant, backlog: BacklogOrder?): Flashcard? =
@@ -259,7 +268,7 @@ class FlashcardService(
     suspend fun answer(card: Flashcard, rating: Rating, answeredBy: AnswerMode = AnswerMode.SHOW): Answered? {
         val now = clock.now()
         val term = terms.getById(card.termId) ?: return null
-        val config = configFor(term.languageId)
+        val config = configWithLoad(term.languageId, now)
         val before = card.schedule
         val after = outcomes(card, term.status, now, config).getValue(rating)
         val status = statusAfter(term.status, before, after, rating)
@@ -357,7 +366,7 @@ class FlashcardService(
     private fun outcomes(card: Flashcard, status: TermStatus, now: Instant, config: SchedulerConfig): Map<Rating, CardSchedule> =
         scheduler.outcomes(card.schedule, now, config, fuzz(card)).mapValues { (rating, after) ->
             val known = statusAfter(status, card.schedule, after, rating) == TermStatus.WELL_KNOWN
-            if (known || !status.isLearning) after else scheduler.within(after, UNTIL_KNOWN_DAYS, now, config)
+            if (known || !status.isLearning) after else scheduler.within(after, UNTIL_KNOWN_DAYS, now, config, fuzz(card))
         }
 
     /** The same fuzz for a card until it is answered, so the buttons show the intervals the answers give. */
@@ -373,6 +382,9 @@ class FlashcardService(
         private const val BACKLOG_MIN = 30
         private const val BACKLOG_DAYS = 14
 
+        /** The days ahead whose reviews load balancing counts: the longest interval it balances, and a little more. */
+        private const val LOAD_DAYS = 99
+
         /** How long the words found ahead in the text read last are taken as still ahead. */
         private val AHEAD_FRESH = 10.minutes
 
@@ -381,6 +393,8 @@ class FlashcardService(
 
         /** The scheduling the flashcard settings in [s] ask for. */
         fun schedulerConfig(s: UserSettings) = SchedulerConfig(
+            loadBalancing = s.flashcardLoadBalancing,
+            easyDays = EasyDay.parse(s.flashcardEasyDays),
             desiredRetention = s.flashcardRetention / 100.0,
             learnSteps = LearningSteps.parseOr(s.flashcardLearnSteps, UserSettings().flashcardLearnSteps),
             relearnSteps = LearningSteps.parseOr(s.flashcardRelearnSteps, UserSettings().flashcardRelearnSteps),

@@ -432,7 +432,7 @@ class FlashcardServiceTest {
         val id = language()
         val lobo = term(id, "lobo")
         val easy = service.next(id).outcomes.getValue(Rating.EASY)
-        assertEquals(FlashcardService.UNTIL_KNOWN_DAYS, easy.intervalDays, "the eight days the memory allows are cut to a week")
+        assertTrue(easy.intervalDays in 5..FlashcardService.UNTIL_KNOWN_DAYS, "the eight days the memory allows are cut to a week, on the lighter of its last days: ${easy.intervalDays}")
         answer(id, lobo, Rating.EASY)
         assertEquals(easy.due, service.cardFor(lobo)!!.schedule.due, "the answer does what its button showed")
         assertEquals(TermStatus.LEARNING_4, status(lobo), "a week of memory is status 4")

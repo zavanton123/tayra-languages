@@ -82,6 +82,10 @@ data class UserSettings(
      * they were added on, then each language's extra; another day's are gone.
      */
     val flashcardExtraNew: String = "",
+    /** Reviews are given the lighter days within their fuzz, so each day has about as many. */
+    val flashcardLoadBalancing: Boolean = true,
+    /** How much each weekday, Monday first, may be given: a letter a day, N(ormal), R(educed) or M(inimum). */
+    val flashcardEasyDays: String = "NNNNNNN",
     /** The order of the reviews due on a day with far more of them than usual. */
     val flashcardBacklogOrder: BacklogOrder = BacklogOrder.RELATIVE_OVERDUENESS,
     /** How cards are answered on this device: shown, or typed or said first. */
