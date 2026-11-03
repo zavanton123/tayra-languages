@@ -85,6 +85,30 @@ class FlashcardSettingsScreenTest {
     }
 
     @Test
+    fun loadBalancingAndEasyDaysAreSetWithADayAlwaysNormal() = runDesktopComposeUiTest(width = 1586, height = 1400) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        runBlocking { settings.update { it.copy(flashcardEasyDays = "MMMMMMN") } }
+        setContent { Hosted(settings) { FlashcardSettingsScreen(onNavigate = {}, onBack = {}, viewModel = SettingsViewModel(settings)) } }
+        onNodeWithTag("load-balancing").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { !settings.current.flashcardLoadBalancing }
+
+        // Sunday is the only normal day: it cannot be made lighter.
+        onNodeWithTag("easy-day-6").performScrollTo().performClick()
+        onNodeWithText("Reduced").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("easy-days-no-normal").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals("MMMMMMN", settings.current.flashcardEasyDays)
+
+        onNodeWithTag("easy-day-5").performClick()
+        onNodeWithText("Normal").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardEasyDays == "MMMMMNN" }
+        onNodeWithTag("easy-day-5").assertTextContains("Sat · Normal", substring = true)
+        System.getenv("EASY_DAYS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
+
+        onNodeWithText("Reset to defaults").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardEasyDays == "NNNNNNN" && settings.current.flashcardLoadBalancing }
+    }
+
+    @Test
     fun theOrderOfABacklogIsChosenWithWhatEachDoes() = runDesktopComposeUiTest(width = 1586, height = 1200) {
         val settings = SettingsRepositoryImpl(MapSettings())
         setContent { Hosted(settings) { FlashcardSettingsScreen(onNavigate = {}, onBack = {}, viewModel = SettingsViewModel(settings)) } }

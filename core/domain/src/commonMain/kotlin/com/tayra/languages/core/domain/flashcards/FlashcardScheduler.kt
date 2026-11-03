@@ -69,7 +69,10 @@ data class SchedulerConfig(
     val easyDays: List<EasyDay> = List(7) { EasyDay.NORMAL },
     /** The reviews already due on each study day ahead, by day number, which load balancing evens out. */
     val load: Map<Long, Int> = emptyMap(),
-)
+) {
+    /** A review's day is weighed: for the load, or, without balancing, to keep the light weekdays light. */
+    val weighsDays: Boolean get() = loadBalancing || easyDays.any { it != EasyDay.NORMAL }
+}
 
 /** How much a weekday may be given: as much as any other, about half of that, or as little as can be. */
 enum class EasyDay(val share: Double) {
@@ -186,13 +189,13 @@ class FlashcardScheduler(private val fsrs: Fsrs = Fsrs(), private val timeZone: 
     fun within(card: CardSchedule, days: Int, now: Instant, config: SchedulerConfig, fuzz: Double? = null): CardSchedule {
         if (!card.state.isReview || card.intervalDays <= days) return card
         val today = day(now, config)
-        val chosen = if (fuzz != null && config.loadBalancing) balanced((days - CAP_SPREAD).coerceAtLeast(1)..days, fuzz, today, config) else days
+        val chosen = if (fuzz != null && config.weighsDays) balanced((days - CAP_SPREAD).coerceAtLeast(1)..days, fuzz, today, config) else days
         return card.copy(intervalDays = chosen, due = dayStart(today + chosen, config))
     }
 
     /** The interval [fuzz] picks for [days] within its fuzz range: by load where it is balanced, else evenly. */
     private fun fuzzedDay(fuzz: Double?, days: Double, minimum: Int, maximum: Int, today: Long, config: SchedulerConfig): Int {
-        if (fuzz == null || !config.loadBalancing || days > MAX_BALANCED || minimum > MAX_BALANCED) return withFuzz(fuzz, days, minimum, maximum)
+        if (fuzz == null || !config.weighsDays || days > MAX_BALANCED || minimum > MAX_BALANCED) return withFuzz(fuzz, days, minimum, maximum)
         val (lower, upper) = fuzzBounds(days, minimum, maximum)
         return balanced(lower..upper, fuzz, today, config)
     }

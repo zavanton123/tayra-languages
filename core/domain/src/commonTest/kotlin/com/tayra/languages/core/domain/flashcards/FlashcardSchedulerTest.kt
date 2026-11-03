@@ -69,6 +69,10 @@ class FlashcardSchedulerTest {
         val heavy = reduced.copy(load = mapOf(today + 5 to 8, today + 6 to 10, today + 7 to 10))
         for (fuzz in listOf(0.01, 0.5, 0.99)) assertTrue(scheduler.balanced(5..7, fuzz, today, heavy) != 5)
         assertEquals("NNNNNRM", EasyDay.format(EasyDay.parse("NNNNNRM")))
+        // Without balancing, the light weekdays are still kept light.
+        val unbalanced = SchedulerConfig(easyDays = List(5) { EasyDay.NORMAL } + listOf(EasyDay.MINIMUM, EasyDay.MINIMUM))
+        val capped = scheduler.within(review(30, stability = 40.0), 7, noon, unbalanced, fuzz = 0.1)
+        assertEquals(7, capped.intervalDays, "Monday rather than the weekend")
     }
 
     @Test

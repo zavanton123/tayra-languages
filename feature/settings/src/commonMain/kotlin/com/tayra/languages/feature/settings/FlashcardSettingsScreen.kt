@@ -69,6 +69,8 @@ fun FlashcardSettingsScreen(
                 flashcardTwoButtons = defaults.flashcardTwoButtons,
                 flashcardAnswerMode = defaults.flashcardAnswerMode,
                 flashcardBacklogOrder = defaults.flashcardBacklogOrder,
+                flashcardLoadBalancing = defaults.flashcardLoadBalancing,
+                flashcardEasyDays = defaults.flashcardEasyDays,
             )
         }
         Unit
@@ -164,6 +166,8 @@ private fun SchedulingCard(settings: UserSettings, viewModel: SettingsViewModel)
         )
         AppDivider(Modifier.padding(vertical = AppSpacing.s))
         BacklogOrderSetting(settings.flashcardBacklogOrder, onSelect = { order -> viewModel.update { it.copy(flashcardBacklogOrder = order) } })
+        AppDivider(Modifier.padding(vertical = AppSpacing.s))
+        LoadBalancingSettings(settings, viewModel)
     }
 }
 
