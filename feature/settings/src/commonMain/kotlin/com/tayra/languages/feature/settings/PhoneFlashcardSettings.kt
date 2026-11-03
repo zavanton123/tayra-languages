@@ -96,6 +96,8 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                 AppDivider()
                 StepsRow(tr("Relearning steps"), description = null, saved = settings.flashcardRelearnSteps, dense = true) { text -> viewModel.update { it.copy(flashcardRelearnSteps = text) } }
                 Text(tr("Use s, m, h, or d."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = AppSpacing.xs))
+                AppDivider(Modifier.padding(top = AppSpacing.xs))
+                BacklogOrderSetting(settings.flashcardBacklogOrder, onSelect = { order -> viewModel.update { it.copy(flashcardBacklogOrder = order) } }, dense = true)
             }
             personal?.let { PersonalSchedulingCard(it, dense = true) }
             ContentCard(tr("Answer"), subtitle = null, icon = AppIcons.VolumeUp, dense = true) {

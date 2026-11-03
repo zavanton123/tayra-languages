@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.domain.flashcards.BacklogOrder
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.assertTextContains
 import kotlin.time.Instant
@@ -81,6 +82,19 @@ class FlashcardSettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewPerDay == 20 && settings.current.flashcardLearnSteps == "1m 10m" && settings.current.flashcardRelearnSteps == "10m" }
         assertEquals(false, settings.current.flashcardTwoButtons, "reset brings the four buttons back")
         assertEquals(0, settings.current.flashcardReviewsPerDay)
+    }
+
+    @Test
+    fun theOrderOfABacklogIsChosenWithWhatEachDoes() = runDesktopComposeUiTest(width = 1586, height = 1200) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        setContent { Hosted(settings) { FlashcardSettingsScreen(onNavigate = {}, onBack = {}, viewModel = SettingsViewModel(settings)) } }
+        onNodeWithTag("backlog-order-explanation").performScrollTo().assertTextContains("most at risk", substring = true)
+        onNodeWithTag("backlog-order").performClick()
+        onNodeWithText("Words I'm reading first").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardBacklogOrder == BacklogOrder.READING_FIRST }
+        onNodeWithTag("backlog-order-explanation").assertTextContains("the five pages after it", substring = true)
+        onNodeWithText("Reset to defaults").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardBacklogOrder == BacklogOrder.RELATIVE_OVERDUENESS }
     }
 
     /** A language with [count] words reviewed for months by a learner who forgets sooner than the defaults expect. */

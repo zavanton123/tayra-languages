@@ -1,5 +1,10 @@
 package com.tayra.languages.feature.flashcards
 
+import kotlin.time.Duration.Companion.days
+import kotlin.time.Clock
+import com.tayra.languages.core.domain.flashcards.MemoryState
+import com.tayra.languages.core.domain.flashcards.CardState
+import com.tayra.languages.core.domain.flashcards.CardSchedule
 import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.mutableStateOf
@@ -392,6 +397,23 @@ class FlashcardsScreenTest {
         onNodeWithTag("end-pass").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("study-more").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(1, runBlocking { service.reviews(termId) }.size, "nothing answered in the pass")
+    }
+
+    @Test
+    fun aBacklogSaysWhichCardsComeFirst() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val repository = FlashcardRepositoryImpl(provider)
+        show(moreTerms = { id ->
+            val now = Clock.System.now()
+            repeat(31) { n ->
+                val word = terms.save(Term(languageId = id, text = "palavra$n", textLc = "palavra$n", status = TermStatus.NEW_2, translation = "слово"))
+                repository.reconcile(now)
+                val card = repository.get(word)!!
+                repository.save(card.copy(schedule = CardSchedule(CardState.REVIEW, now - 2.days, MemoryState(3.0 + n, 5.0), 3, 0, 2, 0, now - 5.days)))
+            }
+        })
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("backlog-note").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("You're behind: the cards most at risk come first.").assertExists()
+        save("BACKLOG_SCREENSHOT")
     }
 
     @Test

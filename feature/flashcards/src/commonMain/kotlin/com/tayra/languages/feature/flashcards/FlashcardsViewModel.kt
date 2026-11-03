@@ -7,6 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.flashcards.AnswerMode
+import com.tayra.languages.core.domain.flashcards.BacklogOrder
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.DueCounts
 import com.tayra.languages.core.domain.flashcards.ExtraStudy
@@ -119,6 +120,8 @@ data class FlashcardsUiState(
     val suggested: Rating? = null,
     /** The extra pass being gone through past the day's limits; null for the day's own cards. */
     val pass: ExtraPass? = null,
+    /** The order today's reviews take as far more are due than usual; null on a day like any other. */
+    val backlog: BacklogOrder? = null,
 ) {
     /**
      * How the card on show is answered: by showing it when it has no blank to fill, and by typing
@@ -301,6 +304,7 @@ class FlashcardsViewModel(
                     waits = session.outcomes.mapValues { (_, after) -> CardWait(after.intervalDays.takeIf { after.state.isReview }, after.due - session.shownAt) },
                     reading = reading,
                     pass = pass,
+                    backlog = session.backlog,
                 )
             }
             if (term != null && language != null) loadExtras(term, language)

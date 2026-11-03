@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AnswerModeToggle
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -67,6 +68,7 @@ fun FlashcardSettingsScreen(
                 flashcardAutoplay = defaults.flashcardAutoplay,
                 flashcardTwoButtons = defaults.flashcardTwoButtons,
                 flashcardAnswerMode = defaults.flashcardAnswerMode,
+                flashcardBacklogOrder = defaults.flashcardBacklogOrder,
             )
         }
         Unit
@@ -160,6 +162,8 @@ private fun SchedulingCard(settings: UserSettings, viewModel: SettingsViewModel)
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.padding(top = AppSpacing.s),
         )
+        AppDivider(Modifier.padding(vertical = AppSpacing.s))
+        BacklogOrderSetting(settings.flashcardBacklogOrder, onSelect = { order -> viewModel.update { it.copy(flashcardBacklogOrder = order) } })
     }
 }
 

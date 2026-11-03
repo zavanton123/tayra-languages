@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.flashcards
 
+import com.tayra.languages.core.domain.flashcards.BacklogOrder
 import androidx.compose.material.icons.filled.Add
 import com.tayra.languages.core.domain.flashcards.ExtraStudy
 import com.tayra.languages.core.ui.components.SpeakAnswer
@@ -470,6 +471,23 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
         )
     }
     val box = Modifier.fillMaxWidth().cardSurface(AppShapes.card)
+    // Far more due than usual: the order the reviews take instead of the due date, said once under the counts.
+    val backlog: @Composable () -> Unit = {
+        val order = state.backlog?.takeIf { pass == null && state.card != null }
+        if (order != null) {
+            Text(
+                when (order) {
+                    BacklogOrder.RELATIVE_OVERDUENESS -> tr("You're behind: the cards most at risk come first.")
+                    BacklogOrder.RECALL_HIGH_FIRST -> tr("You're behind: the cards you most likely remember come first.")
+                    BacklogOrder.READING_FIRST -> tr("You're behind: the words ahead in your reading come first.")
+                    BacklogOrder.DUE_DATE -> tr("You're behind: the cards due longest come first.")
+                },
+                style = MaterialTheme.typography.bodyMedium,
+                color = colors.onSurfaceVariant,
+                modifier = Modifier.testTag("backlog-note"),
+            )
+        }
+    }
     if (compact) {
         Column(box.padding(horizontal = AppSpacing.l, vertical = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
@@ -477,6 +495,7 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
                 bar(Modifier.weight(1f))
             }
             if (pass != null) EndPass(onEndPass, Modifier.align(Alignment.CenterHorizontally)) else pills()
+            backlog()
         }
     } else {
         Row(box.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl)) {
@@ -484,6 +503,7 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
             bar(Modifier.weight(1f))
             if (pass != null) EndPass(onEndPass) else pills()
         }
+        if (state.backlog != null && pass == null && state.card != null) Box(Modifier.fillMaxWidth().padding(top = AppSpacing.s), contentAlignment = Alignment.Center) { backlog() }
     }
 }
 
