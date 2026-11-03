@@ -35,6 +35,8 @@ internal object SyncedSettings {
         flag("flashcardLoadBalancing", { it.flashcardLoadBalancing }) { s, v -> s.copy(flashcardLoadBalancing = v) },
         text("flashcardEasyDays", { it.flashcardEasyDays }) { s, v -> s.copy(flashcardEasyDays = v) },
         text("flashcardBacklogOrder", { it.flashcardBacklogOrder.name }) { s, v -> s.copy(flashcardBacklogOrder = BacklogOrder.entries.firstOrNull { it.name == v } ?: s.flashcardBacklogOrder) },
+        number("flashcardLeechThreshold", { it.flashcardLeechThreshold }) { s, v -> s.copy(flashcardLeechThreshold = v.coerceIn(0, UserSettings.MAX_LEECH_THRESHOLD)) },
+        flag("flashcardLeechSuspend", { it.flashcardLeechSuspend }) { s, v -> s.copy(flashcardLeechSuspend = v) },
         text("practiceSetupReading", { it.practiceSetupReading }) { s, v -> s.copy(practiceSetupReading = v) },
         text("practiceSetupVocabulary", { it.practiceSetupVocabulary }) { s, v -> s.copy(practiceSetupVocabulary = v) },
     )

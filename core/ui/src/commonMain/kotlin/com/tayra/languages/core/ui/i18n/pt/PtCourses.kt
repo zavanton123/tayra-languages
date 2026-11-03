@@ -342,4 +342,13 @@ internal val ptCourses: Map<String, String> = mapOf(
     "How you answered" to "Como você respondeu",
     "Answers shown, typed or said, and how many were right" to "Respostas mostradas, digitadas ou faladas, e quantas estavam certas",
     "More statistics" to "Mais estatísticas",
+    "Leeches" to "Sanguessugas",
+    "Cards you keep forgetting, as Anki finds them." to "Cartões que você vive esquecendo, como o Anki os encontra.",
+    "Leech threshold" to "Limite de sanguessuga",
+    "leech threshold" to "limite de sanguessuga",
+    "Forgotten this many times, a card is a leech and gathers under Leeches in Browse. 0 makes none." to "Esquecido tantas vezes, um cartão vira sanguessuga e fica em Sanguessugas no navegador. 0 desativa.",
+    "Suspend leeches" to "Suspender sanguessugas",
+    "Off only marks them, and they keep coming up." to "Desligado, só os marca, e eles continuam aparecendo.",
+    "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "\"{1}\" foi esquecido {0} vez e é uma sanguessuga, por isso foi suspenso. Dê a ele uma frase melhor ou uma nota e retome-o no navegador.|\"{1}\" foi esquecido {0} vezes e é uma sanguessuga, por isso foi suspenso. Dê a ele uma frase melhor ou uma nota e retome-o no navegador.",
+    "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "\"{1}\" foi esquecido {0} vez e é uma sanguessuga. Uma frase melhor ou uma nota podem ajudar a fixá-lo.|\"{1}\" foi esquecido {0} vezes e é uma sanguessuga. Uma frase melhor ou uma nota podem ajudar a fixá-lo.",
 )

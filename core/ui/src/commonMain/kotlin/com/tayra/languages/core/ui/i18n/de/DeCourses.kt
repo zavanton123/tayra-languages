@@ -342,4 +342,13 @@ internal val deCourses: Map<String, String> = mapOf(
     "How you answered" to "Wie du geantwortet hast",
     "Answers shown, typed or said, and how many were right" to "Gezeigte, getippte oder gesprochene Antworten und wie viele richtig waren",
     "More statistics" to "Mehr Statistik",
+    "Leeches" to "Lernblockaden",
+    "Cards you keep forgetting, as Anki finds them." to "Karten, die du immer wieder vergisst, wie Anki sie findet.",
+    "Leech threshold" to "Schwelle für Lernblockaden",
+    "leech threshold" to "Schwelle für Lernblockaden",
+    "Forgotten this many times, a card is a leech and gathers under Leeches in Browse. 0 makes none." to "So oft vergessen, wird eine Karte zur Lernblockade und erscheint unter Lernblockaden in der Kartenübersicht. 0 schaltet das ab.",
+    "Suspend leeches" to "Lernblockaden aussetzen",
+    "Off only marks them, and they keep coming up." to "Aus markiert sie nur, und sie kommen weiter dran.",
+    "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "„{1}“ wurde {0}-mal vergessen und ist eine Lernblockade, darum wurde die Karte ausgesetzt. Gib ihr einen besseren Satz oder eine Notiz und setze sie dann in der Kartenübersicht fort.|„{1}“ wurde {0}-mal vergessen und ist eine Lernblockade, darum wurde die Karte ausgesetzt. Gib ihr einen besseren Satz oder eine Notiz und setze sie dann in der Kartenübersicht fort.",
+    "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "„{1}“ wurde {0}-mal vergessen und ist eine Lernblockade. Ein besserer Satz oder eine Notiz hilft vielleicht beim Merken.|„{1}“ wurde {0}-mal vergessen und ist eine Lernblockade. Ein besserer Satz oder eine Notiz hilft vielleicht beim Merken.",
 )

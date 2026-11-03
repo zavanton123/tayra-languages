@@ -342,4 +342,13 @@ internal val elCourses: Map<String, String> = mapOf(
     "How you answered" to "Πώς απαντήσατε",
     "Answers shown, typed or said, and how many were right" to "Απαντήσεις που εμφανίστηκαν, πληκτρολογήθηκαν ή ειπώθηκαν, και πόσες ήταν σωστές",
     "More statistics" to "Περισσότερα στατιστικά",
+    "Leeches" to "Βδέλλες",
+    "Cards you keep forgetting, as Anki finds them." to "Κάρτες που ξεχνάτε ξανά και ξανά, όπως τις βρίσκει το Anki.",
+    "Leech threshold" to "Όριο βδέλλας",
+    "leech threshold" to "όριο βδέλλας",
+    "Forgotten this many times, a card is a leech and gathers under Leeches in Browse. 0 makes none." to "Μια κάρτα που ξεχάστηκε τόσες φορές γίνεται βδέλλα και μπαίνει στις Βδέλλες της Περιήγησης. Το 0 δεν κάνει καμία.",
+    "Suspend leeches" to "Αναστολή βδελλών",
+    "Off only marks them, and they keep coming up." to "Όταν είναι ανενεργό, απλώς τις σημειώνει και συνεχίζουν να εμφανίζονται.",
+    "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "Το «{1}» ξεχάστηκε {0} φορά και είναι βδέλλα, οπότε τέθηκε σε αναστολή. Δώστε του καλύτερη πρόταση ή σημείωση και μετά συνεχίστε το από την Περιήγηση.|Το «{1}» ξεχάστηκε {0} φορές και είναι βδέλλα, οπότε τέθηκε σε αναστολή. Δώστε του καλύτερη πρόταση ή σημείωση και μετά συνεχίστε το από την Περιήγηση.",
+    "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "Το «{1}» ξεχάστηκε {0} φορά και είναι βδέλλα. Μια καλύτερη πρόταση ή μια σημείωση ίσως βοηθήσει.|Το «{1}» ξεχάστηκε {0} φορές και είναι βδέλλα. Μια καλύτερη πρόταση ή μια σημείωση ίσως βοηθήσει.",
 )

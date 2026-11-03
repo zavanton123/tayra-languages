@@ -73,6 +73,8 @@ fun FlashcardSettingsScreen(
                 flashcardBacklogOrder = defaults.flashcardBacklogOrder,
                 flashcardLoadBalancing = defaults.flashcardLoadBalancing,
                 flashcardEasyDays = defaults.flashcardEasyDays,
+                flashcardLeechThreshold = defaults.flashcardLeechThreshold,
+                flashcardLeechSuspend = defaults.flashcardLeechSuspend,
             )
         }
         Unit
@@ -98,6 +100,7 @@ fun FlashcardSettingsScreen(
                     }
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         AnswerCard(settings, viewModel)
+                        LeechCard(settings, viewModel)
                         StatusInfo()
                     }
                 }
@@ -106,6 +109,7 @@ fun FlashcardSettingsScreen(
                 SchedulingCard(settings, viewModel, retention)
                 personal?.let { PersonalSchedulingCard(it) }
                 AnswerCard(settings, viewModel)
+                LeechCard(settings, viewModel)
                 StatusInfo()
             }
         }

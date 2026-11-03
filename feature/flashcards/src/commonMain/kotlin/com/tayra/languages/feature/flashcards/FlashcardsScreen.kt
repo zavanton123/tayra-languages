@@ -496,6 +496,7 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
             }
             if (pass != null) EndPass(onEndPass, Modifier.align(Alignment.CenterHorizontally)) else pills()
             backlog()
+            state.leech?.let { LeechNotice(it) }
         }
     } else {
         Row(box.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl)) {
@@ -504,7 +505,23 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
             if (pass != null) EndPass(onEndPass) else pills()
         }
         if (state.backlog != null && pass == null && state.card != null) Box(Modifier.fillMaxWidth().padding(top = AppSpacing.s), contentAlignment = Alignment.Center) { backlog() }
+        state.leech?.let { Box(Modifier.fillMaxWidth().padding(top = AppSpacing.s), contentAlignment = Alignment.Center) { LeechNotice(it) } }
     }
+}
+
+/** The card answered last became a leech: said under the counts until the next answer. */
+@Composable
+private fun LeechNotice(note: LeechNote) {
+    Text(
+        if (note.suspended) {
+            trPlural(note.lapses, "\"{1}\" was forgotten {0} time and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse.", "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse.", note.word)
+        } else {
+            trPlural(note.lapses, "\"{1}\" was forgotten {0} time and is a leech. A better sentence or a note may help it stick.", "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick.", note.word)
+        },
+        style = MaterialTheme.typography.bodyMedium,
+        color = MaterialTheme.colorScheme.error,
+        modifier = Modifier.testTag("leech-note"),
+    )
 }
 
 /** The way back from an extra pass to the day's own cards. */

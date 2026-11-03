@@ -342,4 +342,13 @@ internal val frCourses: Map<String, String> = mapOf(
     "How you answered" to "Comment vous avez répondu",
     "Answers shown, typed or said, and how many were right" to "Réponses affichées, saisies ou dites, et combien étaient justes",
     "More statistics" to "Plus de statistiques",
+    "Leeches" to "Sangsues",
+    "Cards you keep forgetting, as Anki finds them." to "Les cartes que vous oubliez sans cesse, repérées comme dans Anki.",
+    "Leech threshold" to "Seuil de sangsue",
+    "leech threshold" to "seuil de sangsue",
+    "Forgotten this many times, a card is a leech and gathers under Leeches in Browse. 0 makes none." to "Oubliée autant de fois, une carte devient une sangsue et se range sous Sangsues dans le navigateur. 0 n’en fait aucune.",
+    "Suspend leeches" to "Suspendre les sangsues",
+    "Off only marks them, and they keep coming up." to "Désactivé, elles sont seulement marquées et continuent d’apparaître.",
+    "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "« {1} » a été oublié {0} fois et c’est une sangsue : la carte est suspendue. Donnez-lui une meilleure phrase ou une note, puis reprenez-la dans le navigateur.|« {1} » a été oublié {0} fois et c’est une sangsue : la carte est suspendue. Donnez-lui une meilleure phrase ou une note, puis reprenez-la dans le navigateur.",
+    "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "« {1} » a été oublié {0} fois et c’est une sangsue. Une meilleure phrase ou une note peut aider à le retenir.|« {1} » a été oublié {0} fois et c’est une sangsue. Une meilleure phrase ou une note peut aider à le retenir.",
 )

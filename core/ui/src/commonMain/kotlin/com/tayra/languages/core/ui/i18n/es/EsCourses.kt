@@ -342,4 +342,13 @@ internal val esCourses: Map<String, String> = mapOf(
     "How you answered" to "Cómo respondiste",
     "Answers shown, typed or said, and how many were right" to "Respuestas mostradas, escritas o dichas, y cuántas fueron correctas",
     "More statistics" to "Más estadísticas",
+    "Leeches" to "Sanguijuelas",
+    "Cards you keep forgetting, as Anki finds them." to "Tarjetas que olvidas una y otra vez, detectadas como en Anki.",
+    "Leech threshold" to "Umbral de sanguijuela",
+    "leech threshold" to "umbral de sanguijuela",
+    "Forgotten this many times, a card is a leech and gathers under Leeches in Browse. 0 makes none." to "Olvidada tantas veces, una tarjeta se vuelve sanguijuela y aparece en Sanguijuelas del explorador. 0 no marca ninguna.",
+    "Suspend leeches" to "Suspender sanguijuelas",
+    "Off only marks them, and they keep coming up." to "Desactivado, solo las marca y siguen apareciendo.",
+    "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "«{1}» se olvidó {0} vez y es una sanguijuela, así que se suspendió. Dale una frase mejor o una nota y luego reanúdala en el explorador.|«{1}» se olvidó {0} veces y es una sanguijuela, así que se suspendió. Dale una frase mejor o una nota y luego reanúdala en el explorador.",
+    "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "«{1}» se olvidó {0} vez y es una sanguijuela. Una frase mejor o una nota pueden ayudar a fijarla.|«{1}» se olvidó {0} veces y es una sanguijuela. Una frase mejor o una nota pueden ayudar a fijarla.",
 )

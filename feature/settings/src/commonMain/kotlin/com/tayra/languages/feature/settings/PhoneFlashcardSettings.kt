@@ -120,6 +120,7 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                     switchModifier = Modifier.testTag("phone-two-buttons"),
                 ) { v -> viewModel.update { it.copy(flashcardTwoButtons = v) } }
             }
+            LeechCard(settings, viewModel, dense = true)
             HowItWorks()
             SecondaryButton(
                 tr("Reset to defaults"),

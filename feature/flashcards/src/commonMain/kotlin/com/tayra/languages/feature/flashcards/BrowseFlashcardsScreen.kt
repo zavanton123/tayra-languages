@@ -429,6 +429,7 @@ internal val BrowseView.label: String
         BrowseView.LEARNING -> tr("In steps")
         BrowseView.REVIEW -> tr("Scheduled")
         BrowseView.FORGOTTEN -> tr("Forgotten before")
+        BrowseView.LEECHES -> tr("Leeches")
         BrowseView.SUSPENDED -> tr("Suspended")
         BrowseView.ADDED_TODAY -> tr("Added today")
     }
@@ -438,8 +439,8 @@ internal val BrowseView.label: String
 @Composable
 internal fun ViewChips(state: BrowseUiState, onSelect: (BrowseView) -> Unit, modifier: Modifier = Modifier, large: Boolean = false, short: Boolean = false) {
     FlowRow(modifier, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        // Added today is opened from its figure; the chips are Anki's groups.
-        BrowseView.entries.filter { it != BrowseView.ADDED_TODAY }.forEach { view -> ViewChip(view, state.counts[view], selected = view == state.view, large, short) { onSelect(view) } }
+        // Added today is opened from its figure; the chips are Anki's groups, leeches while cards become them.
+        BrowseView.entries.filter { it != BrowseView.ADDED_TODAY && (it != BrowseView.LEECHES || state.leeches) }.forEach { view -> ViewChip(view, state.counts[view], selected = view == state.view, large, short) { onSelect(view) } }
     }
 }
 
@@ -452,6 +453,7 @@ private fun ViewChip(view: BrowseView, count: Int, selected: Boolean, large: Boo
         BrowseView.REVIEW -> AppAccents.green
         BrowseView.DUE -> AppAccents.orange
         BrowseView.FORGOTTEN -> AppAccents.red
+        BrowseView.LEECHES -> AppAccents.purple
         BrowseView.SUSPENDED -> AppAccents.gray
         BrowseView.ADDED_TODAY -> AppAccents.purple
         BrowseView.ALL -> colors.primary

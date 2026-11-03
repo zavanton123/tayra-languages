@@ -68,8 +68,19 @@ class FlashcardService(
     /** Every card of a language with its term; the current study day runs from [startOfDay] to [endOfDay], by which the cards due today come. */
     data class Browse(val cards: List<BrowseCard>, val now: Instant, val endOfDay: Instant, val startOfDay: Instant = endOfDay)
 
-    /** What an answer changed, enough to take it back. */
-    data class Answered(val before: Flashcard, val statusBefore: TermStatus, val statusAfter: TermStatus, val reviewId: Long)
+    /**
+     * What an answer changed, enough to take it back. [leech] says the answer forgot the card often
+     * enough to make it a leech, and [suspended] that it was suspended for it.
+     */
+    data class Answered(
+        val before: Flashcard,
+        val statusBefore: TermStatus,
+        val statusAfter: TermStatus,
+        val reviewId: Long,
+        val leech: Boolean = false,
+        val suspended: Boolean = false,
+        val lapses: Int = 0,
+    )
 
     /** Where the word a card blanks out stands in [term]'s sentence (see [Cloze.cardRange]); null without a sentence or a match. */
     suspend fun clozeRange(term: Term): IntRange? =
@@ -291,10 +302,13 @@ class FlashcardService(
                 answerTime = answerTime?.coerceIn(Duration.ZERO, MAX_ANSWER_TIME),
             ),
         )
+        val s = settings.current
+        val leech = after.lapses > before.lapses && leechAt(after.lapses, s.flashcardLeechThreshold)
+        val suspend = leech && s.flashcardLeechSuspend
         // The card records the status it gives the term, so the change is not taken for one made elsewhere.
-        cards.save(card.copy(schedule = after, seenStatus = status))
+        cards.save(card.copy(schedule = after, seenStatus = status, suspended = card.suspended || suspend))
         if (status != term.status) terms.updateStatus(listOf(term.id), status)
-        return Answered(card, term.status, status, reviewId)
+        return Answered(card, term.status, status, reviewId, leech, suspend, after.lapses)
     }
 
     /** Takes [answered] back: the card, its term's status and the history are as before. */
@@ -409,6 +423,16 @@ class FlashcardService(
             learnSteps = LearningSteps.parseOr(s.flashcardLearnSteps, UserSettings().flashcardLearnSteps),
             relearnSteps = LearningSteps.parseOr(s.flashcardRelearnSteps, UserSettings().flashcardRelearnSteps),
         )
+
+        /** Whether a card forgotten [lapses] times is a leech, as [threshold] has it. */
+        fun isLeech(lapses: Int, threshold: Int): Boolean = threshold > 0 && lapses >= threshold
+
+        /**
+         * Whether the lapse that brought a card to [lapses] tells it is a leech: the one reaching
+         * [threshold], and every half of it after, as Anki tells it again.
+         */
+        fun leechAt(lapses: Int, threshold: Int): Boolean =
+            isLeech(lapses, threshold) && (lapses - threshold) % ((threshold + 1) / 2).coerceAtLeast(1) == 0
 
         /** The status a learned card has earned with [stabilityDays] of memory. */
         fun statusFor(stabilityDays: Double): TermStatus = when {

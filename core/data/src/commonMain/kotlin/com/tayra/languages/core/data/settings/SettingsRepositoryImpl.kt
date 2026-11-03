@@ -157,6 +157,8 @@ class SettingsRepositoryImpl(
             flashcardLoadBalancing = store.getBoolean(Keys.FLASHCARD_LOAD_BALANCING, defaults.flashcardLoadBalancing),
             flashcardEasyDays = store.getString(Keys.FLASHCARD_EASY_DAYS, defaults.flashcardEasyDays),
             flashcardBacklogOrder = BacklogOrder.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_BACKLOG_ORDER, "") } ?: defaults.flashcardBacklogOrder,
+            flashcardLeechThreshold = store.getInt(Keys.FLASHCARD_LEECH_THRESHOLD, defaults.flashcardLeechThreshold).coerceIn(0, UserSettings.MAX_LEECH_THRESHOLD),
+            flashcardLeechSuspend = store.getBoolean(Keys.FLASHCARD_LEECH_SUSPEND, defaults.flashcardLeechSuspend),
             flashcardAnswerMode = AnswerMode.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_ANSWER_MODE, "") } ?: defaults.flashcardAnswerMode,
             hotkeys = loadHotkeys(store),
         )
@@ -270,6 +272,8 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.FLASHCARD_LOAD_BALANCING, s.flashcardLoadBalancing)
         store.putString(Keys.FLASHCARD_EASY_DAYS, s.flashcardEasyDays)
         store.putString(Keys.FLASHCARD_EXTRA_NEW, s.flashcardExtraNew)
+        store.putInt(Keys.FLASHCARD_LEECH_THRESHOLD, s.flashcardLeechThreshold)
+        store.putBoolean(Keys.FLASHCARD_LEECH_SUSPEND, s.flashcardLeechSuspend)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
         }
@@ -349,5 +353,7 @@ class SettingsRepositoryImpl(
         const val FLASHCARD_LOAD_BALANCING = "flashcard_load_balancing"
         const val FLASHCARD_EASY_DAYS = "flashcard_easy_days"
         const val FLASHCARD_EXTRA_NEW = "flashcard_extra_new"
+        const val FLASHCARD_LEECH_THRESHOLD = "flashcard_leech_threshold"
+        const val FLASHCARD_LEECH_SUSPEND = "flashcard_leech_suspend"
     }
 }

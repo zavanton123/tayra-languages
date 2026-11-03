@@ -88,6 +88,10 @@ data class UserSettings(
     val flashcardEasyDays: String = "NNNNNNN",
     /** The order of the reviews due on a day with far more of them than usual. */
     val flashcardBacklogOrder: BacklogOrder = BacklogOrder.RELATIVE_OVERDUENESS,
+    /** The times a card is forgotten that make it a leech, as in Anki; 0 makes none. */
+    val flashcardLeechThreshold: Int = 8,
+    /** A card that becomes a leech is suspended, not only marked as one. */
+    val flashcardLeechSuspend: Boolean = false,
     /** How cards are answered on this device: shown, or typed or said first. */
     val flashcardAnswerMode: AnswerMode = AnswerMode.SHOW,
     /** How many cards a page of the flashcard browser holds. */
@@ -131,6 +135,7 @@ data class UserSettings(
         const val MAX_STATS_SAMPLE_SIZE = 500
         const val MAX_FLASHCARDS_PER_DAY = 9999
         const val MIN_FLASHCARD_RETENTION = 70
+        const val MAX_LEECH_THRESHOLD = 99
         const val MAX_FLASHCARD_RETENTION = 97
     }
 }

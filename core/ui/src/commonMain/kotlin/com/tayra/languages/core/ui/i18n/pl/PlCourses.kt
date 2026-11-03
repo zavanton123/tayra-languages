@@ -342,4 +342,13 @@ internal val plCourses: Map<String, String> = mapOf(
     "How you answered" to "Jak odpowiadałeś",
     "Answers shown, typed or said, and how many were right" to "Odpowiedzi pokazane, wpisane lub wypowiedziane i ile było poprawnych",
     "More statistics" to "Więcej statystyk",
+    "Leeches" to "Pijawki",
+    "Cards you keep forgetting, as Anki finds them." to "Fiszki, które ciągle zapominasz, wykrywane jak w Anki.",
+    "Leech threshold" to "Próg pijawki",
+    "leech threshold" to "próg pijawki",
+    "Forgotten this many times, a card is a leech and gathers under Leeches in Browse. 0 makes none." to "Fiszka zapomniana tyle razy staje się pijawką i trafia do grupy Pijawki w przeglądarce. 0 wyłącza pijawki.",
+    "Suspend leeches" to "Zawieszaj pijawki",
+    "Off only marks them, and they keep coming up." to "Wyłączone tylko je oznacza i nadal się pojawiają.",
+    "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "„{1}” zapomniano {0} raz i jest pijawką, więc ją zawieszono. Daj jej lepsze zdanie lub notatkę, a potem wznów ją w przeglądarce.|„{1}” zapomniano {0} razy i jest pijawką, więc ją zawieszono. Daj jej lepsze zdanie lub notatkę, a potem wznów ją w przeglądarce.|„{1}” zapomniano {0} razy i jest pijawką, więc ją zawieszono. Daj jej lepsze zdanie lub notatkę, a potem wznów ją w przeglądarce.",
+    "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "„{1}” zapomniano {0} raz i jest pijawką. Lepsze zdanie lub notatka może pomóc ją zapamiętać.|„{1}” zapomniano {0} razy i jest pijawką. Lepsze zdanie lub notatka może pomóc ją zapamiętać.|„{1}” zapomniano {0} razy i jest pijawką. Lepsze zdanie lub notatka może pomóc ją zapamiętać.",
 )

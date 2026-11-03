@@ -75,14 +75,19 @@ class FlashcardSettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Use steps such as 1m 10m").fetchSemanticsNodes().isNotEmpty() }
         assertEquals("", settings.current.flashcardRelearnSteps, "clearing the field saved no steps; the unreadable text was not saved")
 
-        onNodeWithText("Two answer buttons").performScrollTo()
-        onAllNodes(isToggleable()).fetchSemanticsNodes().size.let { n -> onAllNodes(isToggleable())[n - 1].performClick() }
+        onNodeWithText("Two answer buttons").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardTwoButtons }
+
+        onNodeWithTag("leech-suspend").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardLeechSuspend }
+        onNodeWithContentDescription("Decrease leech threshold").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardLeechThreshold == 7 }
 
         onNodeWithText("Reset to defaults").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewPerDay == 20 && settings.current.flashcardLearnSteps == "1m 10m" && settings.current.flashcardRelearnSteps == "10m" }
         assertEquals(false, settings.current.flashcardTwoButtons, "reset brings the four buttons back")
         assertEquals(0, settings.current.flashcardReviewsPerDay)
+        assertEquals(8 to false, settings.current.flashcardLeechThreshold to settings.current.flashcardLeechSuspend)
     }
 
     @Test

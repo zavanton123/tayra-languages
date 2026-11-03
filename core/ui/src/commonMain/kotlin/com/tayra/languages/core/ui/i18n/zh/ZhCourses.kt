@@ -342,4 +342,13 @@ internal val zhCourses: Map<String, String> = mapOf(
     "How you answered" to "你的作答方式",
     "Answers shown, typed or said, and how many were right" to "显示、输入或说出的回答，以及其中答对的数量",
     "More statistics" to "更多统计",
+    "Leeches" to "难记卡",
+    "Cards you keep forgetting, as Anki finds them." to "你总是忘记的卡片，按 Anki 的方式找出。",
+    "Leech threshold" to "难记卡阈值",
+    "leech threshold" to "难记卡阈值",
+    "Forgotten this many times, a card is a leech and gathers under Leeches in Browse. 0 makes none." to "卡片被忘记这么多次就成为难记卡，并归入浏览中的“难记卡”。0 表示不标记。",
+    "Suspend leeches" to "暂停难记卡",
+    "Off only marks them, and they keep coming up." to "关闭时只做标记，卡片照常出现。",
+    "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "“{1}”已被忘记 {0} 次，成为难记卡，因此已暂停。给它换个更好的句子或加个备注，然后在浏览中恢复它。",
+    "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "“{1}”已被忘记 {0} 次，成为难记卡。换个更好的句子或加个备注可能有助于记住。",
 )

@@ -123,6 +123,8 @@ data class FlashcardsUiState(
     val pass: ExtraPass? = null,
     /** The order today's reviews take as far more are due than usual; null on a day like any other. */
     val backlog: BacklogOrder? = null,
+    /** The card the last answer made a leech; null when it made none. */
+    val leech: LeechNote? = null,
 ) {
     /**
      * How the card on show is answered: by showing it when it has no blank to fill, and by typing
@@ -141,6 +143,9 @@ data class FlashcardsUiState(
     /** The hidden word is being typed: the keys are the field's. */
     val typing: Boolean get() = cardMode == AnswerMode.TYPE && !revealed && card != null && preparingAudio == null
 }
+
+/** A card that just became a leech: its word, the times it was forgotten, and whether it was suspended for it. */
+data class LeechNote(val word: String, val lapses: Int, val suspended: Boolean)
 
 /** An extra pass past the day's limits: what it goes over, its cards in order, and how many are behind. */
 data class ExtraPass(val study: ExtraStudy, val termIds: List<Long>, val done: Int = 0) {
@@ -442,6 +447,7 @@ class FlashcardsViewModel(
         val card = current ?: return
         if (!_state.value.revealed) return
         current = null
+        val word = _state.value.card?.word.orEmpty()
         events.trySend(FlashcardsEvent.StopSpeaking)
         viewModelScope.launch {
             val answeredBy = when {
@@ -449,9 +455,10 @@ class FlashcardsViewModel(
                 _state.value.typedResult != null -> AnswerMode.TYPE
                 else -> AnswerMode.SHOW
             }
-            service.answer(card, rating, answeredBy, shownAt?.elapsedNow())?.let { answers.addLast(it) }
+            val answered = service.answer(card, rating, answeredBy, shownAt?.elapsedNow())?.also { answers.addLast(it) }
             passOn(card.termId)
-            _state.update { it.copy(answered = it.answered + 1) }
+            val leech = answered?.takeIf { it.leech }?.let { LeechNote(word, it.lapses, it.suspended) }
+            _state.update { it.copy(answered = it.answered + 1, leech = leech) }
             load()
         }
     }
@@ -616,7 +623,7 @@ class FlashcardsViewModel(
             service.undo(answered)
             // Back in the pass too, when the answer taken back was its last.
             pass?.let { going -> if (going.done > 0 && going.termIds[going.done - 1] == answered.before.termId) pass = going.copy(done = going.done - 1) }
-            _state.update { it.copy(answered = (it.answered - 1).coerceAtLeast(0)) }
+            _state.update { it.copy(answered = (it.answered - 1).coerceAtLeast(0), leech = null) }
             load(prefer = answered.before.termId)
         }
     }

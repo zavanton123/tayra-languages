@@ -342,4 +342,13 @@ internal val ruCourses: Map<String, String> = mapOf(
     "How you answered" to "Как вы отвечали",
     "Answers shown, typed or said, and how many were right" to "Ответы показанные, введённые или произнесённые, и сколько из них верных",
     "More statistics" to "Подробная статистика",
+    "Leeches" to "Пиявки",
+    "Cards you keep forgetting, as Anki finds them." to "Карточки, которые вы постоянно забываете, как их находит Anki.",
+    "Leech threshold" to "Порог пиявки",
+    "leech threshold" to "порог пиявки",
+    "Forgotten this many times, a card is a leech and gathers under Leeches in Browse. 0 makes none." to "Карточка, забытая столько раз, становится пиявкой и попадает в группу «Пиявки» в обзоре. 0 — без пиявок.",
+    "Suspend leeches" to "Приостанавливать пиявки",
+    "Off only marks them, and they keep coming up." to "Если выключено, они только отмечаются и продолжают показываться.",
+    "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "«{1}» забыто {0} раз и стало пиявкой, поэтому карточка приостановлена. Дайте ей предложение получше или заметку, а затем возобновите её в обзоре.|«{1}» забыто {0} раза и стало пиявкой, поэтому карточка приостановлена. Дайте ей предложение получше или заметку, а затем возобновите её в обзоре.|«{1}» забыто {0} раз и стало пиявкой, поэтому карточка приостановлена. Дайте ей предложение получше или заметку, а затем возобновите её в обзоре.",
+    "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "«{1}» забыто {0} раз и стало пиявкой. Предложение получше или заметка могут помочь запомнить.|«{1}» забыто {0} раза и стало пиявкой. Предложение получше или заметка могут помочь запомнить.|«{1}» забыто {0} раз и стало пиявкой. Предложение получше или заметка могут помочь запомнить.",
 )

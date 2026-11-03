@@ -594,4 +594,30 @@ class FlashcardServiceTest {
         terms.updateStatus(listOf(lobo), TermStatus.NEW_2)
         assertEquals(learning, service.cardFor(lobo)?.createdAt)
     }
+
+    @Test
+    fun aCardForgottenAgainAndAgainBecomesALeech() = runTest {
+        val id = language()
+        val lobo = term(id, "lobo")
+        settings.update { it.copy(flashcardLeechThreshold = 2, flashcardLeechSuspend = true) }
+        answer(id, lobo, Rating.EASY)
+        suspend fun forget(): FlashcardService.Answered {
+            clock.advance(8.days)
+            val forgotten = answer(id, lobo, Rating.AGAIN)
+            if (!forgotten.suspended) answer(id, lobo, Rating.GOOD)
+            return forgotten
+        }
+        val first = forget()
+        assertTrue(!first.leech, "once is not a leech")
+        val second = forget()
+        assertTrue(second.leech && second.suspended)
+        assertTrue(cards.get(lobo)!!.suspended)
+        service.undo(second)
+        assertTrue(!cards.get(lobo)!!.suspended, "undone, it is not suspended")
+
+        // Anki tells a leech again every half of the threshold after it.
+        assertEquals(listOf(8, 12, 16), (1..17).filter { FlashcardService.leechAt(it, 8) })
+        assertEquals(listOf(1, 2, 3), (1..3).filter { FlashcardService.leechAt(it, 1) })
+        assertTrue((1..20).none { FlashcardService.leechAt(it, 0) })
+    }
 }

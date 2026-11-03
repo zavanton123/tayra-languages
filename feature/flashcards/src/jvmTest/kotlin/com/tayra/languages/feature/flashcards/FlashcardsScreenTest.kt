@@ -419,6 +419,21 @@ class FlashcardsScreenTest {
     }
 
     @Test
+    fun aCardForgottenOnceTooOftenIsCalledALeech() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val repository = FlashcardRepositoryImpl(provider)
+        show(moreTerms = {
+            val now = Clock.System.now()
+            repository.reconcile(now)
+            val card = repository.get(termId)!!
+            repository.save(card.copy(schedule = CardSchedule(CardState.REVIEW, now - 1.days, MemoryState(3.0, 5.0), 3, 0, 9, 7, now - 4.days)))
+        })
+        answerShown("Again")
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("leech-note").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("\"comprar\" was forgotten 8 times and is a leech. A better sentence or a note may help it stick.").assertExists()
+        save("LEECH_SCREENSHOT")
+    }
+
+    @Test
     fun aCardHidesItsWordUntilTheAnswerIsShown() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Когда нам нужно что-то купить, мы заходим в супермаркет.").fetchSemanticsNodes().isNotEmpty() }

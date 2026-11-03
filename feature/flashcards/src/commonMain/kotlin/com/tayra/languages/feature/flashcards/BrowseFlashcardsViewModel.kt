@@ -56,17 +56,19 @@ data class BrowseRow(
     val languageCode: String?,
     val rightToLeft: Boolean,
     val languageId: Long = 0,
+    /** Forgotten often enough to be a leech. */
+    val isLeech: Boolean = false,
 )
 
 /** The groups of cards the browser can show, as the items of Anki's sidebar; [ADDED_TODAY] is opened from its figure only. */
-enum class BrowseView { ALL, DUE, NEW, LEARNING, REVIEW, FORGOTTEN, SUSPENDED, ADDED_TODAY }
+enum class BrowseView { ALL, DUE, NEW, LEARNING, REVIEW, FORGOTTEN, LEECHES, SUSPENDED, ADDED_TODAY }
 
 enum class BrowseSortField { WORD, STATE, DUE, INTERVAL, REVIEWS, LAPSES, LAST_REVIEW, CREATED }
 
 data class BrowseSort(val field: BrowseSortField, val ascending: Boolean = true)
 
 /** How many cards each [BrowseView] holds. */
-data class BrowseCounts(val all: Int = 0, val due: Int = 0, val new: Int = 0, val learning: Int = 0, val review: Int = 0, val forgotten: Int = 0, val suspended: Int = 0, val addedToday: Int = 0) {
+data class BrowseCounts(val all: Int = 0, val due: Int = 0, val new: Int = 0, val learning: Int = 0, val review: Int = 0, val forgotten: Int = 0, val leeches: Int = 0, val suspended: Int = 0, val addedToday: Int = 0) {
     operator fun get(view: BrowseView): Int = when (view) {
         BrowseView.ALL -> all
         BrowseView.DUE -> due
@@ -74,6 +76,7 @@ data class BrowseCounts(val all: Int = 0, val due: Int = 0, val new: Int = 0, va
         BrowseView.LEARNING -> learning
         BrowseView.REVIEW -> review
         BrowseView.FORGOTTEN -> forgotten
+        BrowseView.LEECHES -> leeches
         BrowseView.SUSPENDED -> suspended
         BrowseView.ADDED_TODAY -> addedToday
     }
@@ -117,6 +120,8 @@ data class BrowseUiState(
     /** Whether Anki packages can be imported here. */
     val canImportAnki: Boolean = false,
     val ankiImport: AnkiImport? = null,
+    /** Whether cards forgotten often become leeches, which then have a group of their own. */
+    val leeches: Boolean = true,
 ) {
     val filtered: Boolean get() = search.isNotBlank() || view != BrowseView.ALL
 
@@ -199,6 +204,7 @@ class BrowseFlashcardsViewModel(
     private suspend fun refresh() {
         run {
             val browse = service.browse(languageId)
+            val leechThreshold = settings.current.flashcardLeechThreshold
             val language = languageId?.let { languages.getById(it) }
             val byLanguage = browse.cards.map { it.term.languageId }.distinct().associateWith { id -> language?.takeIf { it.id == id } ?: languages.getById(id) }
             all = browse.cards.map { entry ->
@@ -227,12 +233,13 @@ class BrowseFlashcardsViewModel(
                     languageCode = termLanguage?.let { LanguageCodes.codeFor(it.name) },
                     rightToLeft = termLanguage?.rightToLeft == true,
                     languageId = entry.term.languageId,
+                    isLeech = FlashcardService.isLeech(s.lapses, leechThreshold),
                 )
             }
             val ids = all.map { it.termId }.toSet()
             _state.update { s ->
                 val detail = s.detail?.let { d -> all.firstOrNull { it.termId == d.row.termId }?.let { row -> d.copy(row = row) } }
-                s.copy(loading = false, languageName = language?.name.orEmpty(), counts = counts(all), selected = s.selected intersect ids, detail = detail, now = browse.now)
+                s.copy(loading = false, languageName = language?.name.orEmpty(), counts = counts(all), leeches = leechThreshold > 0, selected = s.selected intersect ids, detail = detail, now = browse.now)
             }
             publish()
             // The sentence may have changed, here or in the term's editor.
@@ -247,6 +254,7 @@ class BrowseFlashcardsViewModel(
         learning = rows.count { (it.state == CardState.LEARNING || it.state == CardState.RELEARNING) && !it.suspended },
         review = rows.count { it.state == CardState.REVIEW && !it.suspended },
         forgotten = rows.count { it.lapses > 0 },
+        leeches = rows.count { it.isLeech },
         suspended = rows.count { it.suspended },
         addedToday = rows.count { it.addedToday },
     )
@@ -258,6 +266,7 @@ class BrowseFlashcardsViewModel(
         BrowseView.LEARNING -> (state == CardState.LEARNING || state == CardState.RELEARNING) && !suspended
         BrowseView.REVIEW -> state == CardState.REVIEW && !suspended
         BrowseView.FORGOTTEN -> lapses > 0
+        BrowseView.LEECHES -> isLeech
         BrowseView.SUSPENDED -> suspended
         BrowseView.ADDED_TODAY -> addedToday
     }
