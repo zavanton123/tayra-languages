@@ -37,6 +37,8 @@ internal object SyncedSettings {
         flag("flashcardLoadBalancing", { it.flashcardLoadBalancing }) { s, v -> s.copy(flashcardLoadBalancing = v) },
         text("flashcardEasyDays", { it.flashcardEasyDays }) { s, v -> s.copy(flashcardEasyDays = v) },
         text("flashcardBacklogOrder", { it.flashcardBacklogOrder.name }) { s, v -> s.copy(flashcardBacklogOrder = BacklogOrder.entries.firstOrNull { it.name == v } ?: s.flashcardBacklogOrder) },
+        number("flashcardDayStartHour", { it.flashcardDayStartHour }) { s, v -> s.copy(flashcardDayStartHour = v.coerceIn(0, 23)) },
+        number("flashcardMaxInterval", { it.flashcardMaxInterval }) { s, v -> s.copy(flashcardMaxInterval = v.coerceIn(1, UserSettings.MAX_FLASHCARD_INTERVAL)) },
         text("flashcardNewOrder", { it.flashcardNewOrder.name }) { s, v -> s.copy(flashcardNewOrder = NewCardOrder.entries.firstOrNull { it.name == v } ?: s.flashcardNewOrder) },
         text("flashcardNewMix", { it.flashcardNewMix.name }) { s, v -> s.copy(flashcardNewMix = NewCardMix.entries.firstOrNull { it.name == v } ?: s.flashcardNewMix) },
         text("flashcardSkipped", { it.flashcardSkipped }) { s, v -> s.copy(flashcardSkipped = v) },

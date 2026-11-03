@@ -444,4 +444,10 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "Η ανάμειξη τις μοιράζει ομοιόμορφα στις επαναλήψεις της ημέρας, έτσι ακόμα και μια μεγάλη μέρα φέρνει νωρίς νέες λέξεις.",
     "Skip until tomorrow" to "Παράλειψη ως αύριο",
     "Skip the card until tomorrow" to "Παράλειψη της κάρτας ως αύριο",
+    "Next day starts at" to "Η νέα μέρα ξεκινά στις",
+    "Reviews done before this hour count for the day before." to "Οι επαναλήψεις πριν από αυτή την ώρα μετρούν για την προηγούμενη μέρα.",
+    "Maximum interval" to "Μέγιστο διάστημα",
+    "The longest a review waits, in days. Words not yet Known still come back within a week." to "Το μεγαλύτερο διάστημα αναμονής μιας επανάληψης, σε ημέρες. Οι λέξεις που δεν είναι ακόμα Γνωστές επιστρέφουν πάντως μέσα σε μια εβδομάδα.",
+    "days" to "ημέρες",
+    "From 1 to {0}" to "Από 1 έως {0}",
 )

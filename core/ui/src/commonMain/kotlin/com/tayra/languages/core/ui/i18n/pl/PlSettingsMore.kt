@@ -444,4 +444,10 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "Wymieszane rozkłada je równo między powtórki dnia, więc nawet długi dzień szybko przynosi nowe słowa.",
     "Skip until tomorrow" to "Pomiń do jutra",
     "Skip the card until tomorrow" to "Pomiń fiszkę do jutra",
+    "Next day starts at" to "Nowy dzień zaczyna się o",
+    "Reviews done before this hour count for the day before." to "Powtórki sprzed tej godziny liczą się do poprzedniego dnia.",
+    "Maximum interval" to "Maksymalny odstęp",
+    "The longest a review waits, in days. Words not yet Known still come back within a week." to "Najdłuższy czas oczekiwania powtórki, w dniach. Słowa jeszcze nieznane i tak wracają w ciągu tygodnia.",
+    "days" to "dni",
+    "From 1 to {0}" to "Od 1 do {0}",
 )

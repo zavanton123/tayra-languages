@@ -159,6 +159,8 @@ class SettingsRepositoryImpl(
             flashcardLoadBalancing = store.getBoolean(Keys.FLASHCARD_LOAD_BALANCING, defaults.flashcardLoadBalancing),
             flashcardEasyDays = store.getString(Keys.FLASHCARD_EASY_DAYS, defaults.flashcardEasyDays),
             flashcardBacklogOrder = BacklogOrder.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_BACKLOG_ORDER, "") } ?: defaults.flashcardBacklogOrder,
+            flashcardDayStartHour = store.getInt(Keys.FLASHCARD_DAY_START_HOUR, defaults.flashcardDayStartHour).coerceIn(0, 23),
+            flashcardMaxInterval = store.getInt(Keys.FLASHCARD_MAX_INTERVAL, defaults.flashcardMaxInterval).coerceIn(1, UserSettings.MAX_FLASHCARD_INTERVAL),
             flashcardNewOrder = NewCardOrder.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_NEW_ORDER, "") } ?: defaults.flashcardNewOrder,
             flashcardNewMix = NewCardMix.entries.firstOrNull { it.name == store.getString(Keys.FLASHCARD_NEW_MIX, "") } ?: defaults.flashcardNewMix,
             flashcardSkipped = store.getString(Keys.FLASHCARD_SKIPPED, defaults.flashcardSkipped),
@@ -277,6 +279,8 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.FLASHCARD_LOAD_BALANCING, s.flashcardLoadBalancing)
         store.putString(Keys.FLASHCARD_EASY_DAYS, s.flashcardEasyDays)
         store.putString(Keys.FLASHCARD_EXTRA_NEW, s.flashcardExtraNew)
+        store.putInt(Keys.FLASHCARD_DAY_START_HOUR, s.flashcardDayStartHour)
+        store.putInt(Keys.FLASHCARD_MAX_INTERVAL, s.flashcardMaxInterval)
         store.putString(Keys.FLASHCARD_NEW_ORDER, s.flashcardNewOrder.name)
         store.putString(Keys.FLASHCARD_NEW_MIX, s.flashcardNewMix.name)
         store.putString(Keys.FLASHCARD_SKIPPED, s.flashcardSkipped)
@@ -361,6 +365,8 @@ class SettingsRepositoryImpl(
         const val FLASHCARD_LOAD_BALANCING = "flashcard_load_balancing"
         const val FLASHCARD_EASY_DAYS = "flashcard_easy_days"
         const val FLASHCARD_EXTRA_NEW = "flashcard_extra_new"
+        const val FLASHCARD_DAY_START_HOUR = "flashcard_day_start_hour"
+        const val FLASHCARD_MAX_INTERVAL = "flashcard_max_interval"
         const val FLASHCARD_NEW_ORDER = "flashcard_new_order"
         const val FLASHCARD_NEW_MIX = "flashcard_new_mix"
         const val FLASHCARD_SKIPPED = "flashcard_skipped"

@@ -444,4 +444,10 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "Вперемешку — равномерно среди повторений дня, так что даже в длинный день новые слова появляются рано.",
     "Skip until tomorrow" to "Отложить до завтра",
     "Skip the card until tomorrow" to "Отложить карточку до завтра",
+    "Next day starts at" to "Новый день начинается в",
+    "Reviews done before this hour count for the day before." to "Повторения до этого часа засчитываются предыдущему дню.",
+    "Maximum interval" to "Максимальный интервал",
+    "The longest a review waits, in days. Words not yet Known still come back within a week." to "Самое долгое ожидание повторения, в днях. Слова, которые ещё не «Известные», всё равно возвращаются в течение недели.",
+    "days" to "дн.",
+    "From 1 to {0}" to "От 1 до {0}",
 )

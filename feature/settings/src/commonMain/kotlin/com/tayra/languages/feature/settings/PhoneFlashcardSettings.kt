@@ -102,6 +102,8 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                 BacklogOrderSetting(settings.flashcardBacklogOrder, onSelect = { order -> viewModel.update { it.copy(flashcardBacklogOrder = order) } }, dense = true)
                 AppDivider()
                 LoadBalancingSettings(settings, viewModel, dense = true)
+                AppDivider()
+                DaySettings(settings, viewModel, dense = true)
             }
             personal?.let { PersonalSchedulingCard(it, dense = true) }
             ContentCard(tr("Answer"), subtitle = null, icon = AppIcons.VolumeUp, dense = true) {

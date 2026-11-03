@@ -710,4 +710,22 @@ class FlashcardServiceTest {
         assertTrue(after.due in clock.now() + 2.days..clock.now() + 5.days)
         assertEquals(before.memory to before.intervalDays, after.memory to after.intervalDays, "its memory as it was")
     }
+
+    @Test
+    fun theStudyDayStartsAndIntervalsEndWhereTheSettingsSay() = runTest {
+        val id = language()
+        val lobo = term(id, "lobo")
+        term(id, "gato")
+        settings.update { it.copy(flashcardNewPerDay = 1) }
+        answer(id, lobo, Rating.EASY)
+        assertEquals(0, service.counts(id).new)
+        clock.advance(2.hours)
+        assertEquals(0, service.counts(id).new, "the day goes on until 4 in the morning")
+        settings.update { it.copy(flashcardDayStartHour = 13) }
+        assertEquals(1, service.counts(id).new, "a day starting at one in the afternoon is a new one")
+
+        settings.update { it.copy(flashcardMaxInterval = 2) }
+        val outcomes = service.next(id).outcomes
+        assertTrue(outcomes.values.all { it.intervalDays <= 2 })
+    }
 }

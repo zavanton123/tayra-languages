@@ -73,6 +73,8 @@ fun FlashcardSettingsScreen(
                 flashcardBacklogOrder = defaults.flashcardBacklogOrder,
                 flashcardLoadBalancing = defaults.flashcardLoadBalancing,
                 flashcardEasyDays = defaults.flashcardEasyDays,
+                flashcardDayStartHour = defaults.flashcardDayStartHour,
+                flashcardMaxInterval = defaults.flashcardMaxInterval,
                 flashcardNewOrder = defaults.flashcardNewOrder,
                 flashcardNewMix = defaults.flashcardNewMix,
                 flashcardLeechThreshold = defaults.flashcardLeechThreshold,
@@ -178,6 +180,7 @@ private fun SchedulingCard(settings: UserSettings, viewModel: SettingsViewModel,
         BacklogOrderSetting(settings.flashcardBacklogOrder, onSelect = { order -> viewModel.update { it.copy(flashcardBacklogOrder = order) } })
         AppDivider(Modifier.padding(vertical = AppSpacing.s))
         LoadBalancingSettings(settings, viewModel)
+        DaySettings(settings, viewModel)
     }
 }
 

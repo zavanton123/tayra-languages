@@ -444,4 +444,10 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "穿插时新卡片均匀分布在当天的复习里，复习再多也能早早见到新单词。",
     "Skip until tomorrow" to "跳过到明天",
     "Skip the card until tomorrow" to "把卡片跳过到明天",
+    "Next day starts at" to "新的一天开始于",
+    "Reviews done before this hour count for the day before." to "在这个时间之前完成的复习算作前一天。",
+    "Maximum interval" to "最大间隔",
+    "The longest a review waits, in days. Words not yet Known still come back within a week." to "复习最长的等待天数。尚未“已掌握”的单词仍会在一周内回来。",
+    "days" to "天",
+    "From 1 to {0}" to "1 到 {0}",
 )

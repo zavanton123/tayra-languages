@@ -90,6 +90,10 @@ data class UserSettings(
     val flashcardEasyDays: String = "NNNNNNN",
     /** The order of the reviews due on a day with far more of them than usual. */
     val flashcardBacklogOrder: BacklogOrder = BacklogOrder.RELATIVE_OVERDUENESS,
+    /** The hour a new study day starts, so late-night reviews count for the day before. */
+    val flashcardDayStartHour: Int = 4,
+    /** The longest a review waits, in days. */
+    val flashcardMaxInterval: Int = MAX_FLASHCARD_INTERVAL,
     /** The order new cards are learned in. */
     val flashcardNewOrder: NewCardOrder = NewCardOrder.SAVED,
     /** Where the day's new cards come among its reviews. */
@@ -144,6 +148,7 @@ data class UserSettings(
         const val MAX_FLASHCARDS_PER_DAY = 9999
         const val MIN_FLASHCARD_RETENTION = 70
         const val MAX_LEECH_THRESHOLD = 99
+        const val MAX_FLASHCARD_INTERVAL = 36500
         const val MAX_FLASHCARD_RETENTION = 97
     }
 }

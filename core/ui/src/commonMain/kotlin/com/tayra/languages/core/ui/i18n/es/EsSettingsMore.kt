@@ -444,4 +444,10 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "Mezcladas se reparten por igual entre los repasos del día, así que incluso un día largo trae pronto palabras nuevas.",
     "Skip until tomorrow" to "Saltar hasta mañana",
     "Skip the card until tomorrow" to "Saltar la tarjeta hasta mañana",
+    "Next day starts at" to "El nuevo día empieza a las",
+    "Reviews done before this hour count for the day before." to "Los repasos hechos antes de esta hora cuentan para el día anterior.",
+    "Maximum interval" to "Intervalo máximo",
+    "The longest a review waits, in days. Words not yet Known still come back within a week." to "Lo máximo que espera un repaso, en días. Las palabras aún no Conocidas vuelven de todos modos en una semana.",
+    "days" to "días",
+    "From 1 to {0}" to "De 1 a {0}",
 )

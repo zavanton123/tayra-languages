@@ -498,6 +498,8 @@ class FlashcardService(
 
         /** The scheduling the flashcard settings in [s] ask for. */
         fun schedulerConfig(s: UserSettings) = SchedulerConfig(
+            maximumIntervalDays = s.flashcardMaxInterval,
+            dayStartHour = s.flashcardDayStartHour,
             loadBalancing = s.flashcardLoadBalancing,
             easyDays = EasyDay.parse(s.flashcardEasyDays),
             desiredRetention = s.flashcardRetention / 100.0,
