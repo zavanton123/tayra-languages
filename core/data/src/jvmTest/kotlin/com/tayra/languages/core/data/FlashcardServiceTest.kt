@@ -1,5 +1,9 @@
 package com.tayra.languages.core.data
 
+import com.tayra.languages.core.domain.flashcards.FlashcardReview
+import com.tayra.languages.core.domain.flashcards.MemoryState
+import com.tayra.languages.core.domain.flashcards.CardSchedule
+import com.tayra.languages.core.domain.flashcards.BacklogOrder
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
@@ -125,6 +129,61 @@ class FlashcardServiceTest {
         clock.advance(2.days)
         assertEquals(emptyList(), service.extraCards(id, ExtraStudy.Forgotten(1)))
         assertEquals(listOf(casa), service.extraCards(id, ExtraStudy.Forgotten(3)))
+    }
+
+    /** A review card of a new word due [overdue] days ago, last answered [interval] days before that, holding [stability] days of memory. */
+    private suspend fun dueCard(languageId: Long, text: String, overdue: Int, interval: Int, stability: Double): Long {
+        val id = term(languageId, text)
+        cards.reconcile(clock.now)
+        val card = cards.get(id)!!
+        val due = clock.now - overdue.days
+        cards.save(card.copy(schedule = CardSchedule(CardState.REVIEW, due, MemoryState(stability, 5.0), interval, 0, 3, 0, due - interval.days)))
+        return id
+    }
+
+    @Test
+    fun aBacklogComesInTheOrderChosenForIt() = runTest {
+        val id = language()
+        // Due longest, but remembered for months: very likely recalled still.
+        val waiting = dueCard(id, "esperar", overdue = 10, interval = 10, stability = 200.0)
+        // Due a day ago, from a weak memory: the most likely forgotten.
+        val slipping = dueCard(id, "escorregar", overdue = 1, interval = 2, stability = 0.5)
+        val others = (0 until 29).map { dueCard(id, "palavra$it", overdue = 5, interval = 5, stability = 10.0) }
+        clock.advance(1.minutes)
+
+        val atRisk = service.next(id)
+        assertEquals(slipping, atRisk.card?.termId, "relative overdueness, by default")
+        assertEquals(BacklogOrder.RELATIVE_OVERDUENESS, atRisk.backlog)
+        assertEquals(slipping, service.sessionTerms(id).first().id)
+
+        settings.update { it.copy(flashcardBacklogOrder = BacklogOrder.RECALL_HIGH_FIRST) }
+        assertEquals(waiting, service.next(id).card?.termId)
+
+        settings.update { it.copy(flashcardBacklogOrder = BacklogOrder.DUE_DATE) }
+        val byDate = service.next(id)
+        assertEquals(waiting, byDate.card?.termId)
+        assertNull(byDate.backlog)
+
+        settings.update { it.copy(flashcardBacklogOrder = BacklogOrder.READING_FIRST) }
+        val reading = FlashcardService(cards, terms, settings, FlashcardScheduler(timeZone = { TimeZone.UTC }), clock, wordsAhead = { setOf(others[7], waiting) })
+        assertEquals(listOf(waiting, others[7]).toSet(), reading.sessionTerms(id).take(2).map { it.id }.toSet(), "the words ahead first")
+        assertEquals(others[7], reading.next(id).card?.termId, "among them, the one more at risk")
+        assertEquals(slipping, reading.sessionTerms(id)[2].id, "then the rest by relative overdueness")
+    }
+
+    @Test
+    fun aDayWithTheUsualReviewsKeepsTheDueOrder() = runTest {
+        val id = language()
+        val waiting = dueCard(id, "esperar", overdue = 10, interval = 10, stability = 200.0)
+        dueCard(id, "escorregar", overdue = 1, interval = 2, stability = 0.5)
+        repeat(29) { dueCard(id, "palavra$it", overdue = 5, interval = 5, stability = 10.0) }
+        // Twenty reviews a day for the last two weeks: 31 due is an ordinary day.
+        cards.addReviews((1..14).flatMap { day ->
+            (0 until 20).map { FlashcardReview(termId = waiting, at = clock.now - day.days, rating = Rating.GOOD, stateBefore = CardState.REVIEW, intervalDays = 3, elapsedDays = 3) }
+        })
+        val session = service.next(id)
+        assertEquals(waiting, session.card?.termId)
+        assertNull(session.backlog)
     }
 
     @Test

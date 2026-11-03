@@ -26,6 +26,24 @@ enum class AnswerMode(val value: Int) {
     }
 }
 
+/** The order of the reviews due when there are far more of them than usual. */
+enum class BacklogOrder {
+    /**
+     * The cards slipping furthest past where they were meant to be reviewed first, measured against
+     * their memory; with one desired retention, the cards least likely to be recalled now first.
+     */
+    RELATIVE_OVERDUENESS,
+
+    /** The cards still most likely to be recalled first, to keep what can still be kept. */
+    RECALL_HIGH_FIRST,
+
+    /** The cards of words ahead in the text read last first, the rest by relative overdueness. */
+    READING_FIRST,
+
+    /** The order of every other day: the cards due longest first. */
+    DUE_DATE,
+}
+
 /** One answer, kept as history. */
 data class FlashcardReview(
     val id: Long = 0,

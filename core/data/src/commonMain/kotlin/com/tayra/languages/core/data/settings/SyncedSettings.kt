@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.settings
 
+import com.tayra.languages.core.domain.flashcards.BacklogOrder
 import com.tayra.languages.core.domain.settings.UserSettings
 
 /** A setting that follows the account: its value as text, and when it last changed (0: never, here). */
@@ -31,6 +32,7 @@ internal object SyncedSettings {
         text("flashcardLearnSteps", { it.flashcardLearnSteps }) { s, v -> s.copy(flashcardLearnSteps = v) },
         text("flashcardRelearnSteps", { it.flashcardRelearnSteps }) { s, v -> s.copy(flashcardRelearnSteps = v) },
         flag("flashcardTwoButtons", { it.flashcardTwoButtons }) { s, v -> s.copy(flashcardTwoButtons = v) },
+        text("flashcardBacklogOrder", { it.flashcardBacklogOrder.name }) { s, v -> s.copy(flashcardBacklogOrder = BacklogOrder.entries.firstOrNull { it.name == v } ?: s.flashcardBacklogOrder) },
         text("practiceSetupReading", { it.practiceSetupReading }) { s, v -> s.copy(practiceSetupReading = v) },
         text("practiceSetupVocabulary", { it.practiceSetupVocabulary }) { s, v -> s.copy(practiceSetupVocabulary = v) },
     )

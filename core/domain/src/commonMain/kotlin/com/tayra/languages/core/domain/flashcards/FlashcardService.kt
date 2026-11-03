@@ -39,6 +39,8 @@ class FlashcardService(
     private val clock: Clock = Clock.System,
     /** The dictionary forms a lowercase word of a language is a form of, from the installed dictionary; none without one. */
     private val formLemmas: (suspend (languageId: Long, formLc: String) -> List<String>)? = null,
+    /** The terms whose cards hold the words ahead in a language's text read last; none without it. */
+    private val wordsAhead: (suspend (languageId: Long) -> Set<Long>)? = null,
 ) {
     /** The card to show next with its term and what each answer would do, or no card when the day's work is done. */
     data class Session(
@@ -49,6 +51,8 @@ class FlashcardService(
         /** When the next card being learned comes back, if one does later today. */
         val nextLearningAt: Instant?,
         val shownAt: Instant,
+        /** The order today's reviews take as far more are due than usual; null on a day like any other. */
+        val backlog: BacklogOrder? = null,
     )
 
     /** A card with its term, as the browser lists them. */
@@ -161,10 +165,11 @@ class FlashcardService(
         cards.reconcile(now)
         val config = config()
         val limits = limits(languageId, now, config)
+        val backlog = backlogOrder(languageId, now, config)
         // [prefer] puts a card first whatever its turn: the one an answer was just taken back from.
         val card = prefer?.let { cards.get(it) }?.takeIf { !it.suspended }
             ?: cards.next(languageId, STEPPING, now)
-            ?: (if (limits.reviewsLeft > 0) cards.next(languageId, setOf(CardState.REVIEW), now) else null)
+            ?: (if (limits.reviewsLeft > 0) nextReview(languageId, now, backlog) else null)
             ?: (if (limits.newLeft > 0) cards.next(languageId, setOf(CardState.NEW), Instant.DISTANT_FUTURE) else null)
             ?: cards.next(languageId, STEPPING, now + LEARN_AHEAD)
         val term = card?.let { terms.getById(it.termId) }
@@ -174,7 +179,57 @@ class FlashcardService(
             val later = cards.earliestDue(languageId, STEPPING)?.takeIf { it < endOfDay }
             return Session(null, null, emptyMap(), counts, later, now)
         }
-        return Session(card, term, outcomes(card, term.status, now, configFor(term.languageId)), counts, null, now)
+        return Session(card, term, outcomes(card, term.status, now, configFor(term.languageId)), counts, null, now, backlog)
+    }
+
+    private suspend fun nextReview(languageId: Long?, now: Instant, backlog: BacklogOrder?): Flashcard? =
+        if (backlog == null) cards.next(languageId, setOf(CardState.REVIEW), now) else dueReviews(languageId, now, backlog).firstOrNull()
+
+    /**
+     * The order the due reviews of [languageId] take: the one chosen for a backlog when more are due
+     * than [BACKLOG_MIN] and twice the reviews of an average day of the last [BACKLOG_DAYS]; null,
+     * the cards due longest first, on any other day.
+     */
+    private suspend fun backlogOrder(languageId: Long?, now: Instant, config: SchedulerConfig): BacklogOrder? {
+        val order = settings.current.flashcardBacklogOrder.takeIf { it != BacklogOrder.DUE_DATE } ?: return null
+        val due = cards.count(languageId, setOf(CardState.REVIEW), now)
+        if (due <= BACKLOG_MIN) return null
+        val since = scheduler.dayStart(scheduler.day(now, config) - BACKLOG_DAYS, config)
+        val usual = cards.reviewsSince(languageId, CardState.REVIEW, since).toDouble() / BACKLOG_DAYS
+        return order.takeIf { due > 2 * usual }
+    }
+
+    /** [languageId]'s reviews due now in [order]; ties go to the card due longest. */
+    private suspend fun dueReviews(languageId: Long?, now: Instant, order: BacklogOrder): List<Flashcard> {
+        val due = cards.dueInStates(languageId, setOf(CardState.REVIEW), now)
+        val config = languageId?.let { configFor(it) } ?: config()
+        val recall = due.associate { it.termId to (scheduler.retrievability(it.schedule, now, config) ?: 1.0) }
+        fun byRecall(lowFirst: Boolean) = Comparator<Flashcard> { a, b ->
+            val ra = recall.getValue(a.termId)
+            val rb = recall.getValue(b.termId)
+            if (ra != rb) (if (lowFirst) ra.compareTo(rb) else rb.compareTo(ra)) else compareValuesBy(a, b, { it.schedule.due }, { it.termId })
+        }
+        return when (order) {
+            // With one desired retention, slipping furthest past it is being least likely to be recalled.
+            BacklogOrder.RELATIVE_OVERDUENESS -> due.sortedWith(byRecall(lowFirst = true))
+            BacklogOrder.RECALL_HIGH_FIRST -> due.sortedWith(byRecall(lowFirst = false))
+            BacklogOrder.READING_FIRST -> {
+                val ahead = wordsAhead(languageId, now)
+                val atRisk = byRecall(lowFirst = true)
+                due.sortedWith { a, b -> compareValues(a.termId !in ahead, b.termId !in ahead).takeIf { it != 0 } ?: atRisk.compare(a, b) }
+            }
+            BacklogOrder.DUE_DATE -> due
+        }
+    }
+
+    /** The words ahead in the text read last, found again once they are [AHEAD_FRESH] old, as reading moves on. */
+    private var ahead: Triple<Long, Instant, Set<Long>>? = null
+
+    private suspend fun wordsAhead(languageId: Long?, now: Instant): Set<Long> {
+        val id = languageId ?: return emptySet()
+        val find = wordsAhead ?: return emptySet()
+        ahead?.takeIf { it.first == id && now - it.second < AHEAD_FRESH }?.let { return it.third }
+        return find(id).also { ahead = Triple(id, now, it) }
     }
 
     /**
@@ -190,8 +245,10 @@ class FlashcardService(
         val endOfDay = scheduler.dayStart(scheduler.day(now, config) + 1, config)
         val active = cards.list(languageId).filter { !it.suspended }.sortedWith(compareBy({ it.schedule.due }, { it.termId }))
         val stepping = active.filter { it.schedule.state in STEPPING && it.schedule.due < endOfDay }
+        val reviews = backlogOrder(languageId, now, config)?.let { dueReviews(languageId, now, it) }
+            ?: active.filter { it.schedule.state == CardState.REVIEW && it.schedule.due <= now }
         val ordered = stepping.filter { it.schedule.due <= now } +
-            active.filter { it.schedule.state == CardState.REVIEW && it.schedule.due <= now }.take(limits.reviewsLeft) +
+            reviews.take(limits.reviewsLeft) +
             active.filter { it.schedule.state == CardState.NEW }.take(limits.newLeft) +
             stepping.filter { it.schedule.due > now }
         val byId = terms.getByIds(ordered.map { it.termId }).associateBy { it.id }
@@ -311,6 +368,13 @@ class FlashcardService(
 
         /** A card being learned is shown this much early when nothing else is left, as in Anki. */
         private val LEARN_AHEAD = 20.minutes
+
+        /** A backlog is more reviews due than this, and than twice those of an average day of the last [BACKLOG_DAYS]. */
+        private const val BACKLOG_MIN = 30
+        private const val BACKLOG_DAYS = 14
+
+        /** How long the words found ahead in the text read last are taken as still ahead. */
+        private val AHEAD_FRESH = 10.minutes
 
         /** The longest a review waits while its word is not Known yet. */
         const val UNTIL_KNOWN_DAYS = 7

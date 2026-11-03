@@ -1,6 +1,7 @@
 package com.tayra.languages.core.domain.settings
 
 import com.tayra.languages.core.domain.flashcards.AnswerMode
+import com.tayra.languages.core.domain.flashcards.BacklogOrder
 
 import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.service.TranslationEngine
@@ -81,6 +82,8 @@ data class UserSettings(
      * they were added on, then each language's extra; another day's are gone.
      */
     val flashcardExtraNew: String = "",
+    /** The order of the reviews due on a day with far more of them than usual. */
+    val flashcardBacklogOrder: BacklogOrder = BacklogOrder.RELATIVE_OVERDUENESS,
     /** How cards are answered on this device: shown, or typed or said first. */
     val flashcardAnswerMode: AnswerMode = AnswerMode.SHOW,
     /** How many cards a page of the flashcard browser holds. */
