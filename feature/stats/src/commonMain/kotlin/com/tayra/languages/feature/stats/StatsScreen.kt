@@ -159,7 +159,7 @@ internal fun StatsContent(state: StatsUiState, onNavigate: (Route) -> Unit = {})
 
 /** Two cards side by side on wide windows, one above the other otherwise. */
 @Composable
-private fun SideBySide(wide: Boolean, first: @Composable (Modifier) -> Unit, second: @Composable (Modifier) -> Unit) {
+internal fun SideBySide(wide: Boolean, first: @Composable (Modifier) -> Unit, second: @Composable (Modifier) -> Unit) {
     if (wide) {
         Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
             first(Modifier.weight(1f).fillMaxHeight())

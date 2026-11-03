@@ -168,6 +168,10 @@ sealed interface Route {
     @Serializable
     data object Stats : Route
 
+    /** The flashcards of the language being learned in figures, as Anki's statistics give them. */
+    @Serializable
+    data object FlashcardStats : Route
+
     @Serializable
     data object About : Route
 

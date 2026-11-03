@@ -104,6 +104,7 @@ class FlashcardStatsTest {
         assertEquals(3, s.reviewsByDay.getValue(s.today).total)
         assertEquals(18.seconds, s.reviewsByDay.getValue(s.today).time)
         assertEquals(listOf(10, 1, 5), s.intervals)
+        assertEquals(1, s.calendar[s.today - 40], "the calendar keeps every day")
         assertEquals(4, s.knowledgeOf, "every answered card holding a memory, the suspended one aside")
         assertTrue(s.knowledge in 0.0..4.0)
         assertEquals(s.today - 29, s.firstDay)

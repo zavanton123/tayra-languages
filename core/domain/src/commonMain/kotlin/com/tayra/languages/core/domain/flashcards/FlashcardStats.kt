@@ -78,6 +78,8 @@ data class FlashcardStatistics(
     val dueByDay: Map<Int, Int>,
     val overdue: Int,
     val reviewsByDay: Map<Long, DayReviews>,
+    /** The answers of each day of all time, for the calendar. */
+    val calendar: Map<Long, Int>,
     val counts: CardCounts,
     /** The intervals, in days, of the cards in review. */
     val intervals: List<Int>,
@@ -119,7 +121,7 @@ class FlashcardStatsService(
         val answers = kinds(cards.reviewsOf(languageId))
         val firstAnswer = answers.minOfOrNull { scheduler.day(it.first.at, config) } ?: today
         val firstDay = period.days?.let { today - it + 1 } ?: firstAnswer
-        val inPeriod = answers.filter { scheduler.day(it.first.at, config) >= firstDay }
+        val inPeriod = answers.filter { scheduler.day(it.first.at, config) in firstDay..today }
 
         val todays = answers.filter { scheduler.day(it.first.at, config) == today }
         val todayStats = TodayStats(
@@ -173,7 +175,7 @@ class FlashcardStatsService(
             Rating.entries.map { rating -> kind.count { it.first.rating == rating } }
         }
 
-        val added = all.mapNotNull { it.createdAt?.let { at -> scheduler.day(at, config) } }.filter { it >= firstDay }.groupingBy { it }.eachCount()
+        val added = all.mapNotNull { it.createdAt?.let { at -> scheduler.day(at, config) } }.filter { it in firstDay..today }.groupingBy { it }.eachCount()
 
         val answeredBy = inPeriod.groupBy { it.first.answeredBy }.mapValues { (_, given) -> given.fold(Pass()) { pass, (review, _) -> pass + (review.rating != Rating.AGAIN) } }
 
@@ -184,6 +186,7 @@ class FlashcardStatsService(
             dueByDay = dueByDay,
             overdue = due.count { it < 0 },
             reviewsByDay = reviewsByDay,
+            calendar = answers.groupingBy { scheduler.day(it.first.at, config) }.eachCount(),
             counts = counts,
             intervals = reviewing.map { it.schedule.intervalDays },
             stabilities = remembered.mapNotNull { it.schedule.memory?.stability },
