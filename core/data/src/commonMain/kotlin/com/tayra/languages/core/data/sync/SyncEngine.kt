@@ -390,7 +390,7 @@ class SyncEngine(
                     write(local, remote) { m ->
                         val d = m.data
                         if (m.deleted || d == null) q.deleteReview(termId, reviewedAt)
-                        else if (local == null || local.deleted) q.insertReview(termId, reviewedAt, d.long("rating") ?: 0, d.long("stateBefore") ?: 0, d.long("intervalDays") ?: 0, d.long("elapsedDays") ?: 0, m.updatedAt, d.long("answeredBy") ?: 0)
+                        else if (local == null || local.deleted) q.insertReview(termId, reviewedAt, d.long("rating") ?: 0, d.long("stateBefore") ?: 0, d.long("intervalDays") ?: 0, d.long("elapsedDays") ?: 0, m.updatedAt, d.long("answeredBy") ?: 0, d.long("takenMs"))
                     }
                 }
                 SyncKinds.PRACTICE_EXAMPLE -> {

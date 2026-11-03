@@ -34,6 +34,7 @@ import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.minutes
+import kotlin.time.Duration.Companion.seconds
 import kotlin.time.Instant
 import com.tayra.languages.core.domain.flashcards.SentenceTranslations
 import com.tayra.languages.core.domain.service.SentenceTranslator
@@ -184,6 +185,17 @@ class FlashcardServiceTest {
         val session = service.next(id)
         assertEquals(waiting, session.card?.termId)
         assertNull(session.backlog)
+    }
+
+    @Test
+    fun anAnswersTimeIsKeptToAMinute() = runTest {
+        val id = language()
+        val lobo = term(id, "lobo")
+        val gato = term(id, "gato")
+        service.answer(service.next(id).card!!, Rating.GOOD, answerTime = 7.seconds)
+        service.answer(service.next(id, prefer = gato).card!!, Rating.GOOD, answerTime = 5.minutes)
+        assertEquals(7.seconds, service.reviews(lobo).single().answerTime)
+        assertEquals(FlashcardService.MAX_ANSWER_TIME, service.reviews(gato).single().answerTime, "the rest was spent away")
     }
 
     @Test

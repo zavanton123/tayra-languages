@@ -1,0 +1,2 @@
+-- How long each answer took, from the card shown to its rating, in milliseconds.
+ALTER TABLE flashcard_reviews ADD COLUMN taken_ms INTEGER;

@@ -21,6 +21,7 @@ import com.tayra.languages.core.domain.repository.FlashcardRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.withContext
+import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Instant
 
 class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : FlashcardRepository {
@@ -59,6 +60,7 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
                 intervalDays = it.interval_days.toInt(),
                 elapsedDays = it.elapsed_days.toInt(),
                 answeredBy = AnswerMode.of(it.answered_by.toInt()),
+                answerTime = it.taken_ms?.milliseconds,
             )
         }
     }
@@ -96,6 +98,7 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
                 intervalDays = it.interval_days.toInt(),
                 elapsedDays = it.elapsed_days.toInt(),
                 answeredBy = AnswerMode.of(it.answered_by.toInt()),
+                answerTime = it.taken_ms?.milliseconds,
             )
         }
     }
@@ -186,6 +189,7 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
             intervalDays = review.intervalDays.toLong(),
             elapsedDays = review.elapsedDays.toLong(),
             answeredBy = review.answeredBy.value.toLong(),
+            takenMs = review.answerTime?.inWholeMilliseconds,
         )
     }
 

@@ -83,7 +83,7 @@ internal data class FlashcardRow(
 
 internal data class ReviewRow(
     val id: Long, val termId: Long, val reviewedAt: Long, val rating: Long, val stateBefore: Long, val intervalDays: Long,
-    val elapsedDays: Long, val updatedAt: Long, val answeredBy: Long, val textLc: String, val language: String,
+    val elapsedDays: Long, val updatedAt: Long, val answeredBy: Long, val takenMs: Long?, val textLc: String, val language: String,
 ) {
     fun record(code: String, device: String) = SyncRecord(SyncKinds.REVIEW, SyncKeys.review(code, textLc, reviewedAt), updatedAt, data = buildJsonObject {
         put("rating", rating)
@@ -91,6 +91,7 @@ internal data class ReviewRow(
         put("intervalDays", intervalDays)
         put("elapsedDays", elapsedDays)
         put("answeredBy", answeredBy)
+        takenMs?.let { put("takenMs", it) }
     }, deviceId = device)
 }
 

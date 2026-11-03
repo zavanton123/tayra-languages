@@ -47,6 +47,7 @@ import kotlin.coroutines.cancellation.CancellationException
 import kotlin.time.Duration.Companion.seconds
 import kotlin.time.Duration
 import kotlin.time.Instant
+import kotlin.time.TimeSource
 
 /** What a card shows: the same content as the cards exported to Anki. */
 data class CardContent(
@@ -185,6 +186,9 @@ class FlashcardsViewModel(
     val events = UiEvents<FlashcardsEvent>()
 
     private var current: Flashcard? = null
+    /** When the card on show came up, to time the answer to it. */
+    private var shownAt: TimeSource.Monotonic.ValueTimeMark? = null
+
     /** The extra pass under way, kept here as well as in the state so a load reads the one it acts on. */
     private var pass: ExtraPass? = null
 
@@ -282,6 +286,7 @@ class FlashcardsViewModel(
             val wordRange = term?.let { service.clozeRange(it) }
             val reading = if (session.card == null) lastReading() else null
             val same = keepAnswer && session.card != null && session.card!!.termId == shownBefore
+            if (!same) shownAt = session.card?.let { TimeSource.Monotonic.markNow() }
             _state.update {
                 it.copy(
                     loading = false,
@@ -444,7 +449,7 @@ class FlashcardsViewModel(
                 _state.value.typedResult != null -> AnswerMode.TYPE
                 else -> AnswerMode.SHOW
             }
-            service.answer(card, rating, answeredBy)?.let { answers.addLast(it) }
+            service.answer(card, rating, answeredBy, shownAt?.elapsedNow())?.let { answers.addLast(it) }
             passOn(card.termId)
             _state.update { it.copy(answered = it.answered + 1) }
             load()

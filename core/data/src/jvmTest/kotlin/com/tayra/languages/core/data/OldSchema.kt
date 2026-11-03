@@ -14,6 +14,9 @@ internal fun Connection.pretendVersion(version: Int) {
     if (version <= 29 && createStatement().executeQuery("SELECT count(*) FROM pragma_table_info('flashcards') WHERE name = 'created_at'").use { it.getInt(1) } > 0) {
         createStatement().execute("ALTER TABLE flashcards DROP COLUMN created_at")
     }
+    if (version <= 34 && createStatement().executeQuery("SELECT count(*) FROM pragma_table_info('flashcard_reviews') WHERE name = 'taken_ms'").use { it.getInt(1) } > 0) {
+        createStatement().execute("ALTER TABLE flashcard_reviews DROP COLUMN taken_ms")
+    }
     if (version <= 33) {
         createStatement().execute("DROP TRIGGER IF EXISTS sync_fsrs_parameters_insert")
         createStatement().execute("DROP TRIGGER IF EXISTS sync_fsrs_parameters_delete")

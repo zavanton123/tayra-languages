@@ -1,6 +1,7 @@
 package com.tayra.languages.core.domain.flashcards
 
 import com.tayra.languages.core.domain.model.TermStatus
+import kotlin.time.Duration
 import kotlin.time.Instant
 
 /** A term's flashcard. */
@@ -56,6 +57,8 @@ data class FlashcardReview(
     val elapsedDays: Int,
     /** Whether the word was typed or said before the answer was shown. */
     val answeredBy: AnswerMode = AnswerMode.SHOW,
+    /** How long the answer took, from the card shown to its rating; null for answers from before it was kept. */
+    val answerTime: Duration? = null,
 )
 
 /** The cards waiting today. */

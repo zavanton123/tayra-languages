@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.flashcards
 
+import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Clock
 import com.tayra.languages.core.domain.flashcards.MemoryState
@@ -199,6 +200,7 @@ class FlashcardsScreenTest {
         val review = runBlocking { service.reviews(termId) }.single()
         assertEquals(Rating.GOOD, review.rating)
         assertEquals(AnswerMode.TYPE, review.answeredBy)
+        assertTrue(review.answerTime!! > Duration.ZERO, "timed from the card shown")
     }
 
     @Test

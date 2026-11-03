@@ -15,6 +15,8 @@ import kotlinx.coroutines.flow.flow
 import kotlin.random.Random
 import kotlin.time.Clock
 import kotlin.time.Duration.Companion.minutes
+import kotlin.time.Duration.Companion.seconds
+import kotlin.time.Duration
 import kotlin.time.Instant
 
 /**
@@ -264,8 +266,12 @@ class FlashcardService(
         return ordered.mapNotNull { byId[it.termId] }
     }
 
-    /** Answers [card], typed or said first as [answeredBy] says, and moves its term's status with it. */
-    suspend fun answer(card: Flashcard, rating: Rating, answeredBy: AnswerMode = AnswerMode.SHOW): Answered? {
+    /**
+     * Answers [card], typed or said first as [answeredBy] says, after [answerTime] on it, and moves
+     * its term's status with it. A time past [MAX_ANSWER_TIME] counts as that, as Anki counts it:
+     * the rest was spent away.
+     */
+    suspend fun answer(card: Flashcard, rating: Rating, answeredBy: AnswerMode = AnswerMode.SHOW, answerTime: Duration? = null): Answered? {
         val now = clock.now()
         val term = terms.getById(card.termId) ?: return null
         val config = configWithLoad(term.languageId, now)
@@ -282,6 +288,7 @@ class FlashcardService(
                 intervalDays = if (after.state.isReview) after.intervalDays else 0,
                 elapsedDays = elapsed,
                 answeredBy = answeredBy,
+                answerTime = answerTime?.coerceIn(Duration.ZERO, MAX_ANSWER_TIME),
             ),
         )
         // The card records the status it gives the term, so the change is not taken for one made elsewhere.
@@ -387,6 +394,9 @@ class FlashcardService(
 
         /** How long the words found ahead in the text read last are taken as still ahead. */
         private val AHEAD_FRESH = 10.minutes
+
+        /** The longest an answer is taken to have taken. */
+        val MAX_ANSWER_TIME = 60.seconds
 
         /** The longest a review waits while its word is not Known yet. */
         const val UNTIL_KNOWN_DAYS = 7
