@@ -459,4 +459,5 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "Segundos com a resposta à mostra antes de o cartão ser respondido sozinho; 0 nunca. Uma palavra digitada ou dita recebe a resposta que mereceu.",
     "seconds before the card is answered" to "segundos até o cartão ser respondido",
     "Answered as" to "Respondido como",
+    "Backed up before replacing {0} translations" to "Backup feito antes de substituir {0} tradução|Backup feito antes de substituir {0} traduções",
 )

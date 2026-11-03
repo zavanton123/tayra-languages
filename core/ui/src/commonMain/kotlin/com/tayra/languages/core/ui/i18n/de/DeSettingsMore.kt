@@ -459,4 +459,5 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "Sekunden, die die Antwort zu sehen ist, bevor die Karte von selbst beantwortet wird; 0 nie. Ein getipptes oder gesagtes Wort bekommt die verdiente Antwort.",
     "seconds before the card is answered" to "Sekunden bis zur Antwort auf die Karte",
     "Answered as" to "Beantwortet mit",
+    "Backed up before replacing {0} translations" to "Vor dem Ersetzen von {0} Übersetzung gesichert|Vor dem Ersetzen von {0} Übersetzungen gesichert",
 )

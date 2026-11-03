@@ -1,5 +1,12 @@
 package com.tayra.languages.navigation
 
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.domain.service.TranslationLanguageKeeper
+import com.tayra.languages.core.ui.components.ToastHost
+import com.tayra.languages.core.ui.components.rememberToastState
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
+import org.koin.compose.koinInject
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
 import androidx.compose.animation.fadeIn
@@ -133,6 +140,21 @@ fun AppNavHost(openCourses: Int = 0) {
     PlaybackNotificationsPermission()
     LanguageSetupDialog(voiceFor, onClosed = { voiceFor = null })
     if (more) MoreSheet(onNavigate = { more = false; navController.navigate(it) }, onDismiss = { more = false })
+    TranslationBackupNotice(onBackups = { navController.navigate(Route.Backups) { launchSingleTop = true } })
+}
+
+/** Says that the data was backed up before saved translations were replaced in the new translation language, with the way to the backups. */
+@Composable
+private fun TranslationBackupNotice(onBackups: () -> Unit) {
+    val keeper = koinInject<TranslationLanguageKeeper>()
+    val replaced by keeper.backedUp.collectAsStateWithLifecycle()
+    val toast = rememberToastState()
+    LaunchedEffect(replaced) {
+        val count = replaced ?: return@LaunchedEffect
+        toast.show(trPlural(count, "Backed up before replacing {0} translation", "Backed up before replacing {0} translations"), tr("Backups"), onBackups)
+        keeper.noticed()
+    }
+    ToastHost(toast)
 }
 
 /** The area of the bottom bar a destination belongs to; pages beyond the tabs count as More. */

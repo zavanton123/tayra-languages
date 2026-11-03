@@ -459,4 +459,5 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "Sekundy wyświetlania odpowiedzi, zanim fiszka zostanie oceniona sama; 0 — nigdy. Słowo wpisane lub wypowiedziane dostaje ocenę, na którą zasłużyło.",
     "seconds before the card is answered" to "sekundy do oceny fiszki",
     "Answered as" to "Ocena",
+    "Backed up before replacing {0} translations" to "Utworzono kopię zapasową przed zastąpieniem {0} tłumaczenia|Utworzono kopię zapasową przed zastąpieniem {0} tłumaczeń|Utworzono kopię zapasową przed zastąpieniem {0} tłumaczeń",
 )

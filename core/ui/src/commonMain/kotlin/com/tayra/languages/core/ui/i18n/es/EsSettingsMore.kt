@@ -459,4 +459,5 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "Segundos que se ve la respuesta antes de que la tarjeta se responda sola; 0 nunca. Una palabra escrita o dicha recibe la respuesta que se ganó.",
     "seconds before the card is answered" to "segundos antes de responder la tarjeta",
     "Answered as" to "Respondida como",
+    "Backed up before replacing {0} translations" to "Copia de seguridad hecha antes de reemplazar {0} traducción|Copia de seguridad hecha antes de reemplazar {0} traducciones",
 )

@@ -459,4 +459,5 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "Δευτερόλεπτα που φαίνεται η απάντηση πριν απαντηθεί μόνη της η κάρτα· 0 ποτέ. Μια λέξη που γράφτηκε ή ειπώθηκε παίρνει την απάντηση που της αξίζει.",
     "seconds before the card is answered" to "δευτερόλεπτα πριν απαντηθεί η κάρτα",
     "Answered as" to "Απαντάται ως",
+    "Backed up before replacing {0} translations" to "Δημιουργήθηκε αντίγραφο ασφαλείας πριν αντικατασταθεί {0} μετάφραση|Δημιουργήθηκε αντίγραφο ασφαλείας πριν αντικατασταθούν {0} μεταφράσεις",
 )

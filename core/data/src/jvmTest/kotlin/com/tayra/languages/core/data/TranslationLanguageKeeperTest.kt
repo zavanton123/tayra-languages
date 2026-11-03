@@ -1,5 +1,7 @@
 package com.tayra.languages.core.data
 
+import com.tayra.languages.core.domain.backup.Backup
+import com.tayra.languages.core.domain.backup.BackupRepository
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
@@ -80,6 +82,62 @@ class TranslationLanguageKeeperTest {
         assertEquals("seventh", env.terms.getById(untranslatable)?.translation)
         assertEquals("en", env.column(untranslatable))
         assertEquals(null, env.terms.getById(blank)?.translation)
+    }
+
+    /** Backups that run [made] as each is made, and fail when [failing]. */
+    private class Backups(val failing: Boolean = false, val made: suspend () -> Unit = {}) : BackupRepository {
+        var count = 0
+        override suspend fun list() = emptyList<Backup>()
+        override suspend fun create(): Backup {
+            if (failing) throw IllegalStateException("disk full")
+            made()
+            count++
+            return Backup("tayra-backup-$count.sqlite", null, 0)
+        }
+        override suspend fun delete(name: String) {}
+        override suspend fun read(name: String) = ByteArray(0)
+        override suspend fun import(file: ByteArray) = throw UnsupportedOperationException()
+        override suspend fun restore(name: String) = throw UnsupportedOperationException()
+    }
+
+    @Test
+    fun theDataIsBackedUpOnceJustBeforeTranslationsAreReplaced() = runTest {
+        val env = Env()
+        env.native("en")
+        val pt = env.portuguese()
+        val curse = env.term(pt, "maldição", "curse")
+        env.term(pt, "ser", "to be")
+        val inBackup = mutableListOf<String?>()
+        val backups = Backups { inBackup += env.terms.getById(curse)?.translation }
+        val keeper = TranslationLanguageKeeper(env.terms, env.languages, env.dictionary, env.engine, env.settings, backups)
+
+        env.native("ru")
+        assertEquals(2, keeper.update("ru"))
+        assertEquals(listOf<String?>("curse"), inBackup)
+        assertEquals(2, keeper.backedUp.value)
+        keeper.noticed()
+        assertEquals(null, keeper.backedUp.value)
+
+        // Nothing left that can be replaced: no backup.
+        env.term(pt, "sétimo", "seventh")
+        assertEquals(0, keeper.update("ru"))
+        assertEquals(1, backups.count)
+        assertEquals(null, keeper.backedUp.value)
+    }
+
+    @Test
+    fun withoutABackupNoTranslationIsReplaced() = runTest {
+        val env = Env()
+        env.native("en")
+        val pt = env.portuguese()
+        val curse = env.term(pt, "maldição", "curse")
+        val keeper = TranslationLanguageKeeper(env.terms, env.languages, env.dictionary, env.engine, env.settings, Backups(failing = true))
+
+        env.native("ru")
+        assertEquals(0, keeper.update("ru"))
+        assertEquals("curse", env.terms.getById(curse)?.translation)
+        assertEquals("en", env.column(curse))
+        assertEquals(null, keeper.backedUp.value)
     }
 
     @Test

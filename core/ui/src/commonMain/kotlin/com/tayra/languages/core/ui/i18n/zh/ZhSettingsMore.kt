@@ -459,4 +459,5 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "答案显示多少秒后卡片自动作答；0 表示从不。打字或说出的单词按其结果作答。",
     "seconds before the card is answered" to "卡片自动作答前的秒数",
     "Answered as" to "自动作答为",
+    "Backed up before replacing {0} translations" to "已在替换 {0} 条翻译前创建备份",
 )

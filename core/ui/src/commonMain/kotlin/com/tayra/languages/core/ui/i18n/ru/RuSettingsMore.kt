@@ -459,4 +459,5 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "Секунды показа ответа, прежде чем карточка оценится сама; 0 — никогда. Слово, набранное или произнесённое, получает заслуженную оценку.",
     "seconds before the card is answered" to "секунды до оценки карточки",
     "Answered as" to "Оценка",
+    "Backed up before replacing {0} translations" to "Создана резервная копия перед заменой {0} перевода|Создана резервная копия перед заменой {0} переводов|Создана резервная копия перед заменой {0} переводов",
 )

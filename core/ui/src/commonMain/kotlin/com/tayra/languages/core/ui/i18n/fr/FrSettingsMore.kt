@@ -459,4 +459,5 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Seconds the answer shows before the card is answered by itself; 0 never. A word typed or said gets the answer it earned." to "Secondes d’affichage de la réponse avant que la carte soit répondue d’elle-même ; 0 jamais. Un mot tapé ou dit reçoit la réponse méritée.",
     "seconds before the card is answered" to "secondes avant la réponse à la carte",
     "Answered as" to "Répondue par",
+    "Backed up before replacing {0} translations" to "Sauvegarde faite avant de remplacer {0} traduction|Sauvegarde faite avant de remplacer {0} traductions",
 )

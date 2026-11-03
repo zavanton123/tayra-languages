@@ -260,7 +260,7 @@ val dataModule: Module = module {
     // In a browser the requests go without the app's User-Agent, which would need a preflight WiktApi refuses.
     single<OnlineWiktionary> { if (webPagesSupported) WiktApiClient(get(), get()) else WiktApiClient(createPlainHttpClient(), get(), failureIsMiss = true) }
     single { SentenceAudio(get(), get(), get(), get()) }
-    single { TranslationLanguageKeeper(get(), get(), get<DictionaryService>(), get(), get()) }
+    single { TranslationLanguageKeeper(get(), get(), get<DictionaryService>(), get(), get(), get()) }
     single { LexiconService(get(), get(), getOrNull(), getOrNull()) }
     single { ChineseScriptService(get(), getOrNull(), get(), get()) }
     single {
