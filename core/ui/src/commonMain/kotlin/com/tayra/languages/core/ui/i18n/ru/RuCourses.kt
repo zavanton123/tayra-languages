@@ -341,4 +341,5 @@ internal val ruCourses: Map<String, String> = mapOf(
     "{0}% correct of {1}" to "{0}% верно из {1}",
     "How you answered" to "Как вы отвечали",
     "Answers shown, typed or said, and how many were right" to "Ответы показанные, введённые или произнесённые, и сколько из них верных",
+    "More statistics" to "Подробная статистика",
 )

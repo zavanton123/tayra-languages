@@ -341,4 +341,5 @@ internal val ptCourses: Map<String, String> = mapOf(
     "{0}% correct of {1}" to "{0}% corretas de {1}",
     "How you answered" to "Como você respondeu",
     "Answers shown, typed or said, and how many were right" to "Respostas mostradas, digitadas ou faladas, e quantas estavam certas",
+    "More statistics" to "Mais estatísticas",
 )

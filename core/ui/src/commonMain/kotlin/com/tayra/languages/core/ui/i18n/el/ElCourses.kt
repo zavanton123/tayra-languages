@@ -341,4 +341,5 @@ internal val elCourses: Map<String, String> = mapOf(
     "{0}% correct of {1}" to "{0}% σωστές από {1}",
     "How you answered" to "Πώς απαντήσατε",
     "Answers shown, typed or said, and how many were right" to "Απαντήσεις που εμφανίστηκαν, πληκτρολογήθηκαν ή ειπώθηκαν, και πόσες ήταν σωστές",
+    "More statistics" to "Περισσότερα στατιστικά",
 )

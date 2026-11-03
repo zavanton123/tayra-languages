@@ -341,4 +341,5 @@ internal val deCourses: Map<String, String> = mapOf(
     "{0}% correct of {1}" to "{0} % richtig von {1}",
     "How you answered" to "Wie du geantwortet hast",
     "Answers shown, typed or said, and how many were right" to "Gezeigte, getippte oder gesprochene Antworten und wie viele richtig waren",
+    "More statistics" to "Mehr Statistik",
 )

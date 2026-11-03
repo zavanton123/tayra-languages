@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.stats
 
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.shownName
 import com.tayra.languages.core.ui.components.learningLevels
 import androidx.compose.foundation.Canvas
@@ -152,7 +153,7 @@ internal fun StatsContent(state: StatsUiState, onNavigate: (Route) -> Unit = {})
         OverviewTiles(overview)
         ActivityCard(overview)
         SideBySide(wide, { WordsPerDayCard(overview, it) }, { SavedPerWeekCard(overview, it) })
-        SideBySide(wide, { VocabularyCard(overview, it) }, { FlashcardsCard(overview, it) })
+        SideBySide(wide, { VocabularyCard(overview, it) }, { FlashcardsCard(overview, it) { onNavigate(Route.FlashcardStats) } })
     }
     state.summary?.takeIf { it.table.isNotEmpty() }?.let { LanguagesCard(it) }
 }
@@ -316,7 +317,7 @@ private fun VocabularyCard(o: LanguageOverview, modifier: Modifier) {
 }
 
 @Composable
-private fun FlashcardsCard(o: LanguageOverview, modifier: Modifier) {
+private fun FlashcardsCard(o: LanguageOverview, modifier: Modifier, onMore: () -> Unit) {
     val first = o.today.minus(29, DateTimeUnit.DAY)
     val values = (0 until 30).map { o.reviewsByDay[first.plus(it, DateTimeUnit.DAY)] ?: 0 }
     ContentCard(
@@ -327,6 +328,7 @@ private fun FlashcardsCard(o: LanguageOverview, modifier: Modifier) {
         },
         icon = AppIcons.DoneAll,
         modifier = modifier,
+        headerExtra = { QuietButton(tr("More statistics"), onClick = onMore, modifier = Modifier.testTag("flashcard-stats-more")) },
     ) {
         BarChart(values, AppAccents.purple, first.shortDate(), o.today.shortDate(), tr("No flashcard reviews in the last 30 days."), Modifier.testTag("reviews-per-day"))
     }

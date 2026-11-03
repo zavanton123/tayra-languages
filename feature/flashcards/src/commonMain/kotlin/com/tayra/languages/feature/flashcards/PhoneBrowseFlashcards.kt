@@ -83,6 +83,7 @@ internal fun PhoneBrowseFlashcardsScreen(
         topBar = { AppTopBar(title = tr("Browse flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS, onBack = onBack, actions = {
             OverflowMenu(tr("More"), buttonModifier = Modifier.testTag("phone-menu")) { close ->
                 AppMenuItem(text = { Text(tr("Select")) }, onClick = { close(); selecting = true }, modifier = Modifier.testTag("phone-select"))
+                AppMenuItem(text = { Text(tr("Statistics")) }, onClick = { close(); actions.onStatistics() }, modifier = Modifier.testTag("browse-statistics"))
                 if (state.canImportAnki) AppMenuItem(text = { Text(tr("Import from Anki")) }, onClick = { close(); actions.onImportAnki() }, modifier = Modifier.testTag("import-anki"))
             }
         }) },

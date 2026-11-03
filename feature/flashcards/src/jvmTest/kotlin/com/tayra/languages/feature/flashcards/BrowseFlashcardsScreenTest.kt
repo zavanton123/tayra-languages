@@ -89,6 +89,9 @@ class BrowseFlashcardsScreenTest {
     private var wentBack = false
     private val backInput = DirectNavigationEventInput()
 
+    /** Where the browser was asked to go. */
+    private val visited = mutableListOf<Route>()
+
     private fun ComposeUiTest.show(width: Int = 1586, open: (() -> Long)? = null, importer: AnkiImportService? = null, before: () -> Unit = {}): BrowseFlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
@@ -116,7 +119,7 @@ class BrowseFlashcardsScreenTest {
                             DisposableEffect(dispatcher) { dispatcher.addInput(backInput); onDispose { dispatcher.removeInput(backInput) } }
                         }
                         Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
-                            BrowseFlashcardsScreen(onNavigate = {}, onBack = {}, termId = open?.invoke(), viewModel = viewModel)
+                            BrowseFlashcardsScreen(onNavigate = { visited += it }, onBack = {}, termId = open?.invoke(), viewModel = viewModel)
                         }
                     }
                 }
@@ -260,6 +263,13 @@ class BrowseFlashcardsScreenTest {
         runOnUiThread { backInput.backCompleted() }
         waitForIdle()
         assertFalse(wentBack)
+    }
+
+    @Test
+    fun theStatisticsAreAClickAway() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        onNodeWithTag("browse-statistics").performClick()
+        assertEquals(listOf<Route>(Route.FlashcardStats), visited)
     }
 
     @Test

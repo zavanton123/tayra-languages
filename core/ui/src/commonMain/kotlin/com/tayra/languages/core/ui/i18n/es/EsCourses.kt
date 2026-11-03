@@ -341,4 +341,5 @@ internal val esCourses: Map<String, String> = mapOf(
     "{0}% correct of {1}" to "{0} % correctas de {1}",
     "How you answered" to "Cómo respondiste",
     "Answers shown, typed or said, and how many were right" to "Respuestas mostradas, escritas o dichas, y cuántas fueron correctas",
+    "More statistics" to "Más estadísticas",
 )

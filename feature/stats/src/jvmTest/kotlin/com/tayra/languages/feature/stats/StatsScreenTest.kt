@@ -122,11 +122,12 @@ class StatsScreenTest {
         assertEquals(75, overview.rememberedPercent)
 
         val summary = runBlocking { stats.summary() }
+        val visited = mutableListOf<Route>()
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
                     Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
-                        PageColumn(PaddingValues()) { StatsContent(StatsUiState(loading = false, overview = overview, summary = summary)) }
+                        PageColumn(PaddingValues()) { StatsContent(StatsUiState(loading = false, overview = overview, summary = summary), onNavigate = { visited += it }) }
                     }
                 }
             }
@@ -145,5 +146,7 @@ class StatsScreenTest {
         onNodeWithText("3 words being learned").assertExists()
         onNodeWithText("4 reviews, remembered 75% of the time").assertExists()
         onNodeWithTag("heatmap").assertExists()
+        onNodeWithTag("flashcard-stats-more").performClick()
+        assertEquals(listOf<Route>(Route.FlashcardStats), visited)
     }
 }

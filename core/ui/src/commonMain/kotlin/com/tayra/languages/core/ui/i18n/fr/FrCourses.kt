@@ -341,4 +341,5 @@ internal val frCourses: Map<String, String> = mapOf(
     "{0}% correct of {1}" to "{0} % correctes sur {1}",
     "How you answered" to "Comment vous avez répondu",
     "Answers shown, typed or said, and how many were right" to "Réponses affichées, saisies ou dites, et combien étaient justes",
+    "More statistics" to "Plus de statistiques",
 )

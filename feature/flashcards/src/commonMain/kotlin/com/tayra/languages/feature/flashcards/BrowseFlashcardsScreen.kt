@@ -187,6 +187,7 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
         onEditing = viewModel::editingText,
         onPickWord = viewModel::chooseHiddenWord,
         onImportAnki = { ankiPicker.launch() },
+        onStatistics = { onNavigate(Route.FlashcardStats) },
     )
     val width = LocalWindowWidth.current
     if (width.isCompact) {
@@ -283,6 +284,8 @@ internal class BrowseActions(
     val onPickWord: (termId: Long, form: String) -> Unit = { _, _ -> },
     /** Asks for an Anki package to import. */
     val onImportAnki: () -> Unit = {},
+    /** The cards in figures. */
+    val onStatistics: () -> Unit = {},
 )
 
 private val DETAIL_DIALOG_WIDTH = 820.dp
@@ -311,6 +314,7 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
                     else tr("Every card of the {0} words you are learning, with where each stands.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
                 ) {
                     Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                        SecondaryButton(tr("Statistics"), onClick = actions.onStatistics, modifier = Modifier.testTag("browse-statistics"), icon = AppIcons.BarChart)
                         if (state.canImportAnki) SecondaryButton(tr("Import from Anki"), onClick = actions.onImportAnki, modifier = Modifier.testTag("import-anki"), icon = AppIcons.UploadFile)
                         val due = state.counts.due
                         PrimaryButton(if (due > 0) tr("Review {0} due", due) else tr("Review cards"), onClick = actions.onReview, icon = AppIcons.Style)

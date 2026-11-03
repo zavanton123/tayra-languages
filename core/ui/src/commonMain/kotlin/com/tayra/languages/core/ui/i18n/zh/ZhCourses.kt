@@ -341,4 +341,5 @@ internal val zhCourses: Map<String, String> = mapOf(
     "{0}% correct of {1}" to "{1} 次中正确率 {0}%",
     "How you answered" to "你的作答方式",
     "Answers shown, typed or said, and how many were right" to "显示、输入或说出的回答，以及其中答对的数量",
+    "More statistics" to "更多统计",
 )
