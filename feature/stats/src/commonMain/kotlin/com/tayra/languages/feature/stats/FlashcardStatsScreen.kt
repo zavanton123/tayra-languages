@@ -146,6 +146,7 @@ internal fun FlashcardStatsContent(state: FlashcardStatsUiState, onPeriod: (Stat
     CalendarCard(stats)
     ReviewsCard(stats)
     AddedCard(stats)
+    FlashcardStatsDetails(stats)
 }
 
 private fun StatsPeriod.label(): String = when (this) {

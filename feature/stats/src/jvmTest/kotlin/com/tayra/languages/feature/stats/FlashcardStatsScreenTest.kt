@@ -83,7 +83,7 @@ class FlashcardStatsScreenTest {
     }
 
     @Test
-    fun theFiguresShowAndThePeriodChangesThem() = runDesktopComposeUiTest(width = 1586, height = 2400) {
+    fun theFiguresShowAndThePeriodChangesThem() = runDesktopComposeUiTest(width = 1586, height = 4200) {
         var state by mutableStateOf(FlashcardStatsUiState(loading = false, languageName = "Portuguese", stats = runBlocking { service.statistics(portuguese, StatsPeriod.MONTH) }))
         val visited = mutableListOf<Route>()
         setContent {
@@ -98,7 +98,7 @@ class FlashcardStatsScreenTest {
             }
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Future due").fetchSemanticsNodes().isNotEmpty() }
-        for (tag in listOf("today-studied", "future-due", "card-counts-bar", "reviews-by-day", "added-by-day")) onNodeWithTag(tag).assertExists()
+        for (tag in listOf("today-studied", "future-due", "card-counts-bar", "reviews-by-day", "added-by-day", "intervals", "stability", "difficulty", "recall", "true-retention", "knowledge", "hours", "answer-buttons", "answered-by")) onNodeWithTag(tag).assertExists()
         onNodeWithTag("card-counts-bar").assertExists()
         System.getenv("FLASHCARD_STATS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
 
