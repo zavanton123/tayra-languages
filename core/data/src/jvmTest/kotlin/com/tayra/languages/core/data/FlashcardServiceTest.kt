@@ -684,4 +684,30 @@ class FlashcardServiceTest {
         clock.advance(16.hours)
         assertEquals(lobo, service.next(id).card?.termId)
     }
+
+    @Test
+    fun cardsAreGivenADueDateOrMovedAmongTheNewCards() = runTest {
+        val id = language()
+        val lobo = term(id, "lobo")
+        val gato = term(id, "gato")
+        val casa = term(id, "casa")
+        val livro = term(id, "livro")
+        answer(id, lobo, Rating.EASY)
+        assertEquals(gato, service.next(id).card?.termId)
+        assertEquals(2, service.reposition(listOf(livro, casa), first = true))
+        assertEquals(listOf(casa, livro, gato), service.sessionTerms(id).map { it.id }, "first, in the order they had")
+        service.reposition(listOf(casa), first = false)
+        assertEquals(listOf(livro, gato, casa), service.sessionTerms(id).map { it.id })
+        settings.update { it.copy(flashcardNewOrder = NewCardOrder.NEWEST) }
+        service.reposition(listOf(gato), first = true)
+        assertEquals(gato, service.next(id).card?.termId, "first as newest first learns them")
+
+        assertEquals(1, service.setDue(listOf(lobo, gato), 0..0), "a new card is left alone")
+        assertEquals(lobo, service.next(id).card?.termId, "due today")
+        val before = cards.get(lobo)!!.schedule
+        service.setDue(listOf(lobo), 3..5)
+        val after = cards.get(lobo)!!.schedule
+        assertTrue(after.due in clock.now() + 2.days..clock.now() + 5.days)
+        assertEquals(before.memory to before.intervalDays, after.memory to after.intervalDays, "its memory as it was")
+    }
 }

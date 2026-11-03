@@ -351,4 +351,12 @@ internal val frCourses: Map<String, String> = mapOf(
     "Off only marks them, and they keep coming up." to "Désactivé, elles sont seulement marquées et continuent d’apparaître.",
     "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "« {1} » a été oublié {0} fois et c’est une sangsue : la carte est suspendue. Donnez-lui une meilleure phrase ou une note, puis reprenez-la dans le navigateur.|« {1} » a été oublié {0} fois et c’est une sangsue : la carte est suspendue. Donnez-lui une meilleure phrase ou une note, puis reprenez-la dans le navigateur.",
     "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "« {1} » a été oublié {0} fois et c’est une sangsue. Une meilleure phrase ou une note peut aider à le retenir.|« {1} » a été oublié {0} fois et c’est une sangsue. Une meilleure phrase ou une note peut aider à le retenir.",
+    "Set due date" to "Fixer l’échéance",
+    "Learn first" to "Apprendre d’abord",
+    "Learn last" to "Apprendre en dernier",
+    "Set the due date of {0} cards" to "Fixer l’échéance de {0} carte|Fixer l’échéance de {0} cartes",
+    "Days from today" to "Jours à partir d’aujourd’hui",
+    "Use a number, or a range such as 3-7" to "Un nombre, ou un intervalle comme 3-7",
+    "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "0 est aujourd’hui et 1 demain ; un intervalle répartit les cartes sur ses jours. Leur mémoire reste telle quelle, et les nouvelles cartes ne changent pas.",
+    "Set" to "Fixer",
 )

@@ -7,6 +7,7 @@ import com.tayra.languages.core.domain.flashcards.AnkiImportService
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.FlashcardReview
 import com.tayra.languages.core.domain.flashcards.FlashcardService
+import com.tayra.languages.core.domain.flashcards.NewCardOrder
 import com.tayra.languages.core.domain.flashcards.SentenceTranslations
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
@@ -122,6 +123,8 @@ data class BrowseUiState(
     val ankiImport: AnkiImport? = null,
     /** Whether cards forgotten often become leeches, which then have a group of their own. */
     val leeches: Boolean = true,
+    /** Whether new cards come in an order they can be moved in: not a random one. */
+    val repositions: Boolean = true,
 ) {
     val filtered: Boolean get() = search.isNotBlank() || view != BrowseView.ALL
 
@@ -239,7 +242,7 @@ class BrowseFlashcardsViewModel(
             val ids = all.map { it.termId }.toSet()
             _state.update { s ->
                 val detail = s.detail?.let { d -> all.firstOrNull { it.termId == d.row.termId }?.let { row -> d.copy(row = row) } }
-                s.copy(loading = false, languageName = language?.name.orEmpty(), counts = counts(all), leeches = leechThreshold > 0, selected = s.selected intersect ids, detail = detail, now = browse.now)
+                s.copy(loading = false, languageName = language?.name.orEmpty(), counts = counts(all), leeches = leechThreshold > 0, repositions = settings.current.flashcardNewOrder != NewCardOrder.RANDOM, selected = s.selected intersect ids, detail = detail, now = browse.now)
             }
             publish()
             // The sentence may have changed, here or in the term's editor.
@@ -425,6 +428,24 @@ class BrowseFlashcardsViewModel(
         if (termIds.isEmpty()) return
         viewModelScope.launch {
             service.setSuspended(termIds, suspended)
+            refresh()
+        }
+    }
+
+    /** Sets the answered cards to come up [days] study days from today. */
+    fun setDue(termIds: Collection<Long>, days: IntRange) {
+        if (termIds.isEmpty()) return
+        viewModelScope.launch {
+            service.setDue(termIds, days)
+            refresh()
+        }
+    }
+
+    /** Moves the new cards to the front of the new cards, [first], or to their end. */
+    fun reposition(termIds: Collection<Long>, first: Boolean) {
+        if (termIds.isEmpty()) return
+        viewModelScope.launch {
+            service.reposition(termIds, first)
             refresh()
         }
     }

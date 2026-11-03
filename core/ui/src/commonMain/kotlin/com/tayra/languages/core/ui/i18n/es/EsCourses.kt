@@ -351,4 +351,12 @@ internal val esCourses: Map<String, String> = mapOf(
     "Off only marks them, and they keep coming up." to "Desactivado, solo las marca y siguen apareciendo.",
     "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "«{1}» se olvidó {0} vez y es una sanguijuela, así que se suspendió. Dale una frase mejor o una nota y luego reanúdala en el explorador.|«{1}» se olvidó {0} veces y es una sanguijuela, así que se suspendió. Dale una frase mejor o una nota y luego reanúdala en el explorador.",
     "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "«{1}» se olvidó {0} vez y es una sanguijuela. Una frase mejor o una nota pueden ayudar a fijarla.|«{1}» se olvidó {0} veces y es una sanguijuela. Una frase mejor o una nota pueden ayudar a fijarla.",
+    "Set due date" to "Fijar fecha",
+    "Learn first" to "Aprender primero",
+    "Learn last" to "Aprender al final",
+    "Set the due date of {0} cards" to "Fijar la fecha de {0} tarjeta|Fijar la fecha de {0} tarjetas",
+    "Days from today" to "Días desde hoy",
+    "Use a number, or a range such as 3-7" to "Un número o un rango como 3-7",
+    "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "0 es hoy y 1 mañana; un rango reparte las tarjetas por sus días. Su memoria se queda como está y las tarjetas nuevas no cambian.",
+    "Set" to "Fijar",
 )

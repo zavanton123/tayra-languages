@@ -351,4 +351,12 @@ internal val deCourses: Map<String, String> = mapOf(
     "Off only marks them, and they keep coming up." to "Aus markiert sie nur, und sie kommen weiter dran.",
     "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "„{1}“ wurde {0}-mal vergessen und ist eine Lernblockade, darum wurde die Karte ausgesetzt. Gib ihr einen besseren Satz oder eine Notiz und setze sie dann in der Kartenübersicht fort.|„{1}“ wurde {0}-mal vergessen und ist eine Lernblockade, darum wurde die Karte ausgesetzt. Gib ihr einen besseren Satz oder eine Notiz und setze sie dann in der Kartenübersicht fort.",
     "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "„{1}“ wurde {0}-mal vergessen und ist eine Lernblockade. Ein besserer Satz oder eine Notiz hilft vielleicht beim Merken.|„{1}“ wurde {0}-mal vergessen und ist eine Lernblockade. Ein besserer Satz oder eine Notiz hilft vielleicht beim Merken.",
+    "Set due date" to "Fälligkeit festlegen",
+    "Learn first" to "Zuerst lernen",
+    "Learn last" to "Zuletzt lernen",
+    "Set the due date of {0} cards" to "Fälligkeit von {0} Karte festlegen|Fälligkeit von {0} Karten festlegen",
+    "Days from today" to "Tage ab heute",
+    "Use a number, or a range such as 3-7" to "Eine Zahl oder einen Bereich wie 3-7",
+    "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "0 ist heute, 1 morgen; ein Bereich verteilt die Karten auf seine Tage. Ihr Gedächtnis bleibt, wie es ist, neue Karten bleiben unberührt.",
+    "Set" to "Festlegen",
 )

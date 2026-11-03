@@ -351,4 +351,12 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Off only marks them, and they keep coming up." to "关闭时只做标记，卡片照常出现。",
     "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "“{1}”已被忘记 {0} 次，成为难记卡，因此已暂停。给它换个更好的句子或加个备注，然后在浏览中恢复它。",
     "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "“{1}”已被忘记 {0} 次，成为难记卡。换个更好的句子或加个备注可能有助于记住。",
+    "Set due date" to "设置到期日",
+    "Learn first" to "优先学习",
+    "Learn last" to "最后学习",
+    "Set the due date of {0} cards" to "设置 {0} 张卡片的到期日",
+    "Days from today" to "距今天数",
+    "Use a number, or a range such as 3-7" to "填一个数字，或 3-7 这样的范围",
+    "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "0 表示今天，1 表示明天；范围会把卡片分散到其中各天。卡片的记忆不变，新卡片不受影响。",
+    "Set" to "设置",
 )

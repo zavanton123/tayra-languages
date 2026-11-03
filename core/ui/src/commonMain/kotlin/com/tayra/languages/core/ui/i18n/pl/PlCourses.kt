@@ -351,4 +351,12 @@ internal val plCourses: Map<String, String> = mapOf(
     "Off only marks them, and they keep coming up." to "Wyłączone tylko je oznacza i nadal się pojawiają.",
     "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "„{1}” zapomniano {0} raz i jest pijawką, więc ją zawieszono. Daj jej lepsze zdanie lub notatkę, a potem wznów ją w przeglądarce.|„{1}” zapomniano {0} razy i jest pijawką, więc ją zawieszono. Daj jej lepsze zdanie lub notatkę, a potem wznów ją w przeglądarce.|„{1}” zapomniano {0} razy i jest pijawką, więc ją zawieszono. Daj jej lepsze zdanie lub notatkę, a potem wznów ją w przeglądarce.",
     "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "„{1}” zapomniano {0} raz i jest pijawką. Lepsze zdanie lub notatka może pomóc ją zapamiętać.|„{1}” zapomniano {0} razy i jest pijawką. Lepsze zdanie lub notatka może pomóc ją zapamiętać.|„{1}” zapomniano {0} razy i jest pijawką. Lepsze zdanie lub notatka może pomóc ją zapamiętać.",
+    "Set due date" to "Ustaw termin",
+    "Learn first" to "Ucz się najpierw",
+    "Learn last" to "Ucz się na końcu",
+    "Set the due date of {0} cards" to "Ustaw termin {0} fiszki|Ustaw termin {0} fiszek|Ustaw termin {0} fiszek",
+    "Days from today" to "Dni od dziś",
+    "Use a number, or a range such as 3-7" to "Wpisz liczbę lub zakres, np. 3-7",
+    "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "0 to dziś, 1 to jutro; zakres rozkłada fiszki na swoje dni. Ich pamięć zostaje bez zmian, a nowe fiszki pozostają nietknięte.",
+    "Set" to "Ustaw",
 )

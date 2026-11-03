@@ -50,6 +50,9 @@ import kotlinx.coroutines.runBlocking
 import java.io.File
 import java.sql.DriverManager
 import javax.imageio.ImageIO
+import androidx.compose.ui.test.assertIsNotEnabled
+import kotlin.time.Duration.Companion.days
+import kotlin.time.Clock
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -456,6 +459,33 @@ class BrowseFlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Resume").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Resume").performClick()
         waitUntil(timeoutMillis = 5_000) { !card(livro).suspended && !card(comprar).suspended }
+    }
+
+    @Test
+    fun selectedCardsGetADueDateOrMoveAmongTheNewCards() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        val before = card(casa).schedule.due
+        onNodeWithTag("browse-select-all").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("set-due").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("set-due").performClick()
+        onNodeWithText("Set the due date of 1 card").assertExists()
+        onNodeWithContentDescription("Days from today").performTextClearance()
+        onNodeWithContentDescription("Days from today").performTextInput("5-x")
+        onNodeWithTag("set-due-confirm").assertIsNotEnabled()
+        onNodeWithContentDescription("Days from today").performTextClearance()
+        onNodeWithContentDescription("Days from today").performTextInput("20")
+        save("SET_DUE_SCREENSHOT")
+        onNodeWithTag("set-due-confirm").performClick()
+        waitUntil(timeoutMillis = 5_000) { card(casa).schedule.due != before }
+        assertTrue(card(casa).schedule.due > Clock.System.now() + 19.days)
+        assertEquals(CardState.NEW, card(comprar).schedule.state, "a new card is left alone")
+
+        // The new card among the selection moves to the end of the new cards.
+        onNodeWithTag("browse-select-all").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("learn-last").fetchSemanticsNodes().isNotEmpty() }
+        val saved = card(comprar).schedule.due
+        onNodeWithTag("learn-last").performClick()
+        waitUntil(timeoutMillis = 5_000) { card(comprar).schedule.due != saved }
     }
 
     @Test

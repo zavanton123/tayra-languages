@@ -351,4 +351,12 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Off only marks them, and they keep coming up." to "Desligado, só os marca, e eles continuam aparecendo.",
     "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "\"{1}\" foi esquecido {0} vez e é uma sanguessuga, por isso foi suspenso. Dê a ele uma frase melhor ou uma nota e retome-o no navegador.|\"{1}\" foi esquecido {0} vezes e é uma sanguessuga, por isso foi suspenso. Dê a ele uma frase melhor ou uma nota e retome-o no navegador.",
     "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "\"{1}\" foi esquecido {0} vez e é uma sanguessuga. Uma frase melhor ou uma nota podem ajudar a fixá-lo.|\"{1}\" foi esquecido {0} vezes e é uma sanguessuga. Uma frase melhor ou uma nota podem ajudar a fixá-lo.",
+    "Set due date" to "Definir data",
+    "Learn first" to "Aprender primeiro",
+    "Learn last" to "Aprender por último",
+    "Set the due date of {0} cards" to "Definir a data de {0} cartão|Definir a data de {0} cartões",
+    "Days from today" to "Dias a partir de hoje",
+    "Use a number, or a range such as 3-7" to "Use um número ou um intervalo como 3-7",
+    "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "0 é hoje e 1 amanhã; um intervalo espalha os cartões pelos seus dias. A memória deles fica como está, e cartões novos não mudam.",
+    "Set" to "Definir",
 )

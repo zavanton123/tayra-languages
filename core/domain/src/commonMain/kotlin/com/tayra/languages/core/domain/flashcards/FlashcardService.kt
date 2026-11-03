@@ -14,6 +14,7 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flow
 import kotlin.random.Random
 import kotlin.time.Clock
+import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Duration.Companion.seconds
 import kotlin.time.Duration
@@ -395,6 +396,47 @@ class FlashcardService(
         if (termIds.isEmpty()) return
         terms.deleteAll(termIds)
         cards.reconcile(clock.now())
+    }
+
+    /**
+     * Sets the answered cards among [termIds] to come up [days] study days from today, each on a
+     * day picked within [days], as Anki's Set due date sets them: a review keeps its memory and
+     * interval, and a card on its steps becomes a review. New cards stay as they are; returns how
+     * many were set.
+     */
+    suspend fun setDue(termIds: Collection<Long>, days: IntRange, random: Random = Random.Default): Int {
+        val now = clock.now()
+        cards.reconcile(now)
+        val config = config()
+        val today = scheduler.day(now, config)
+        return termIds.mapNotNull { cards.get(it) }.count { card ->
+            val s = card.schedule
+            if (s.state == CardState.NEW || (s.state != CardState.REVIEW && s.memory == null)) return@count false
+            val day = days.random(random)
+            val due = scheduler.dayStart(today + day, config)
+            val set = if (s.state == CardState.REVIEW) s.copy(due = due) else s.copy(state = CardState.REVIEW, due = due, intervalDays = day.coerceAtLeast(1), remainingSteps = 0)
+            cards.save(card.copy(schedule = set))
+            true
+        }
+    }
+
+    /**
+     * Moves the new cards among [termIds] to the front of the new cards, [first], or to their end,
+     * in the order they had; returns how many moved.
+     */
+    suspend fun reposition(termIds: Collection<Long>, first: Boolean): Int {
+        cards.reconcile(clock.now())
+        val ids = termIds.toSet()
+        val waiting = cards.dueInStates(null, setOf(CardState.NEW), Instant.DISTANT_FUTURE)
+        val moving = waiting.filter { it.termId in ids }.sortedWith(compareBy({ it.schedule.due }, { it.termId }))
+        if (moving.isEmpty()) return 0
+        val rest = waiting.filter { it.termId !in ids }.map { it.schedule.due }
+        // Newest first learns the latest-dated first, so its front is the other end.
+        val earliest = first != (settings.current.flashcardNewOrder == NewCardOrder.NEWEST)
+        val start = if (earliest) (rest.minOrNull() ?: moving.first().schedule.due) - moving.size.milliseconds
+        else (rest.maxOrNull() ?: moving.last().schedule.due) + 1.milliseconds
+        moving.forEachIndexed { i, card -> cards.save(card.copy(schedule = card.schedule.copy(due = start + i.milliseconds))) }
+        return moving.size
     }
 
     /** Forgets the card's history: it is a new card again. */

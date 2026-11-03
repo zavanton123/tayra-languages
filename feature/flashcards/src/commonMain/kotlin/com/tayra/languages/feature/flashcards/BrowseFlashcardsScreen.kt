@@ -174,6 +174,7 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
     val ankiPicker = rememberFilePickerLauncher(type = FileKitType.File(listOf("apkg", "colpkg"))) { file ->
         if (file != null) scope.launch { viewModel.importAnki(file.readBytes()) }
     }
+    var settingDue by remember { mutableStateOf<Collection<Long>?>(null) }
     val actions = BrowseActions(
         onOpen = viewModel::open,
         onToggle = viewModel::toggleSelected,
@@ -181,6 +182,8 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
         onSuspend = viewModel::setSuspended,
         onReset = { confirmReset = it.toList() },
         onDelete = { confirmDelete = it.toList() },
+        onSetDue = { settingDue = it.toList() },
+        onReposition = { ids, first -> viewModel.reposition(ids, first); viewModel.clearSelection() },
         onReview = { onNavigate(Route.Flashcards) },
         onSaveSentence = viewModel::saveSentence,
         onSaveTranslation = viewModel::saveSentenceTranslation,
@@ -200,6 +203,7 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
     }
     state.ankiImport?.let { AnkiImportDialog(it, onDismiss = viewModel::closeAnkiImport) }
     CardConfirmations(confirmReset, confirmDelete, viewModel, onResetClosed = { confirmReset = null }, onDeleteClosed = { confirmDelete = null })
+    settingDue?.let { ids -> SetDueDialog(ids.size, onSet = { days -> viewModel.setDue(ids, days); viewModel.clearSelection() }, onDismiss = { settingDue = null }) }
 }
 
 /**
@@ -273,6 +277,10 @@ internal class BrowseActions(
     val onReset: (termIds: Collection<Long>) -> Unit = {},
     /** Asks before the cards are deleted with their words. */
     val onDelete: (termIds: Collection<Long>) -> Unit = {},
+    /** Asks when the answered cards are to come up. */
+    val onSetDue: (termIds: Collection<Long>) -> Unit = {},
+    /** Moves the new cards to the front of the new cards, or to their end. */
+    val onReposition: (termIds: Collection<Long>, first: Boolean) -> Unit = { _, _ -> },
     val onReview: () -> Unit = {},
     /** Replaces the example sentence of the card's term. */
     val onSaveSentence: (termId: Long, sentence: String, translation: String?) -> Unit = { _, _, _ -> },
@@ -476,6 +484,12 @@ internal fun CardSelectionBar(state: BrowseUiState, viewModel: BrowseFlashcardsV
     SelectionBar(tr("{0} selected", state.selected.size), Modifier.padding(bottom = AppSpacing.l).testTag("selection-bar")) {
         if (anyActive) QuietButton(tr("Suspend"), onClick = { actions.onSuspend(state.selected, true); viewModel.clearSelection() })
         if (anySuspended) QuietButton(tr("Resume"), onClick = { actions.onSuspend(state.selected, false); viewModel.clearSelection() })
+        val answered = chosen.filter { it.state != CardState.NEW }.map { it.termId }
+        if (answered.isNotEmpty()) QuietButton(tr("Set due date"), onClick = { actions.onSetDue(answered) }, modifier = Modifier.testTag("set-due"))
+        if (state.repositions && chosen.any { it.state == CardState.NEW && !it.suspended }) {
+            QuietButton(tr("Learn first"), onClick = { actions.onReposition(state.selected, true) }, modifier = Modifier.testTag("learn-first"))
+            QuietButton(tr("Learn last"), onClick = { actions.onReposition(state.selected, false) }, modifier = Modifier.testTag("learn-last"))
+        }
         QuietButton(tr("Reset progress"), onClick = { actions.onReset(state.selected); viewModel.clearSelection() }, tone = ButtonTone.Danger)
         QuietButton(tr("Delete"), onClick = { actions.onDelete(state.selected) }, modifier = Modifier.testTag("delete-selected"), tone = ButtonTone.Danger)
         QuietButton(tr("Clear selection"), onClick = viewModel::clearSelection)
@@ -621,6 +635,7 @@ internal fun RowMenu(row: BrowseRow, actions: BrowseActions) {
         AppMenuItem(text = { Text(tr("Card info")) }, onClick = { close(); actions.onOpen(row.termId) })
         AppMenuItem(text = { Text(tr("Edit term")) }, onClick = { close(); actions.onEdit(row.termId) })
         AppMenuItem(text = { Text(if (row.suspended) tr("Resume") else tr("Suspend")) }, onClick = { close(); actions.onSuspend(listOf(row.termId), !row.suspended) })
+        AppMenuItem(text = { Text(tr("Set due date")) }, enabled = row.state != CardState.NEW, onClick = { close(); actions.onSetDue(listOf(row.termId)) })
         AppMenuItem(text = { Text(tr("Reset progress")) }, enabled = row.state != CardState.NEW, onClick = { close(); actions.onReset(listOf(row.termId)) })
         AppMenuItem(text = { Text(tr("Delete"), color = MaterialTheme.colorScheme.error) }, onClick = { close(); actions.onDelete(listOf(row.termId)) })
     }

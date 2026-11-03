@@ -351,4 +351,12 @@ internal val elCourses: Map<String, String> = mapOf(
     "Off only marks them, and they keep coming up." to "Όταν είναι ανενεργό, απλώς τις σημειώνει και συνεχίζουν να εμφανίζονται.",
     "\"{1}\" was forgotten {0} times and is a leech, so it was suspended. Give it a better sentence or a note, then resume it in Browse." to "Το «{1}» ξεχάστηκε {0} φορά και είναι βδέλλα, οπότε τέθηκε σε αναστολή. Δώστε του καλύτερη πρόταση ή σημείωση και μετά συνεχίστε το από την Περιήγηση.|Το «{1}» ξεχάστηκε {0} φορές και είναι βδέλλα, οπότε τέθηκε σε αναστολή. Δώστε του καλύτερη πρόταση ή σημείωση και μετά συνεχίστε το από την Περιήγηση.",
     "\"{1}\" was forgotten {0} times and is a leech. A better sentence or a note may help it stick." to "Το «{1}» ξεχάστηκε {0} φορά και είναι βδέλλα. Μια καλύτερη πρόταση ή μια σημείωση ίσως βοηθήσει.|Το «{1}» ξεχάστηκε {0} φορές και είναι βδέλλα. Μια καλύτερη πρόταση ή μια σημείωση ίσως βοηθήσει.",
+    "Set due date" to "Ορισμός ημερομηνίας",
+    "Learn first" to "Εκμάθηση πρώτα",
+    "Learn last" to "Εκμάθηση τελευταία",
+    "Set the due date of {0} cards" to "Ορισμός ημερομηνίας για {0} κάρτα|Ορισμός ημερομηνίας για {0} κάρτες",
+    "Days from today" to "Ημέρες από σήμερα",
+    "Use a number, or a range such as 3-7" to "Γράψτε αριθμό ή εύρος, π.χ. 3-7",
+    "0 is today and 1 tomorrow; a range spreads the cards over its days. Their memory stays as it is, and new cards are left alone." to "Το 0 είναι σήμερα και το 1 αύριο· ένα εύρος μοιράζει τις κάρτες στις μέρες του. Η μνήμη τους μένει ως έχει και οι νέες κάρτες δεν αλλάζουν.",
+    "Set" to "Ορισμός",
 )
