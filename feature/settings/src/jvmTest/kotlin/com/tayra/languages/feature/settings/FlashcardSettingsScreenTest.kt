@@ -12,6 +12,7 @@ import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.flashcards.Rating
 import com.tayra.languages.core.domain.flashcards.PersonalScheduling
+import com.tayra.languages.core.domain.flashcards.RetentionAdvisor
 import com.tayra.languages.core.domain.flashcards.Fsrs
 import com.tayra.languages.core.domain.flashcards.FlashcardReview
 import com.tayra.languages.core.domain.flashcards.CardState
@@ -82,6 +83,26 @@ class FlashcardSettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewPerDay == 20 && settings.current.flashcardLearnSteps == "1m 10m" && settings.current.flashcardRelearnSteps == "10m" }
         assertEquals(false, settings.current.flashcardTwoButtons, "reset brings the four buttons back")
         assertEquals(0, settings.current.flashcardReviewsPerDay)
+    }
+
+    @Test
+    fun theRetentionHelperSimulatesAndSetsTheRetentionChosen() = runDesktopComposeUiTest(width = 1586, height = 1200) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-retention-ui", ".db").also { it.delete() }))
+        val pt = runBlocking { reviewedLanguage(provider, 120) }
+        runBlocking { settings.update { it.copy(currentLanguageId = pt) } }
+        val retention = RetentionHelpViewModel(RetentionAdvisor(FlashcardRepositoryImpl(provider), settings), settings)
+        setContent { Hosted(settings) { FlashcardSettingsScreen(onNavigate = {}, onBack = {}, viewModel = SettingsViewModel(settings), retention = retention) } }
+        onNodeWithTag("retention-help-open").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 30_000) { onAllNodesWithTag("retention-chosen").fetchSemanticsNodes().isNotEmpty() }
+        val suggested = retention.state.value.advice!!.suggested
+        onNodeWithTag("retention-chosen").assertTextContains("At $suggested%", substring = true)
+        System.getenv("RETENTION_HELP_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
+
+        onNodeWithTag("span-90").performClick()
+        waitUntil(timeoutMillis = 30_000) { retention.state.value.advice?.days == 90 && !retention.state.value.working }
+        onNodeWithTag("retention-use").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardRetention == retention.state.value.advice!!.suggested.coerceAtMost(97) }
     }
 
     @Test

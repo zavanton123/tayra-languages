@@ -52,7 +52,7 @@ import com.tayra.languages.core.ui.components.Reveal
 
 /** The flashcard settings on a phone: compact cards of plain rows, the explanation folded away, Reset at the bottom. */
 @Composable
-internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: SettingsViewModel, onNavigate: (Route) -> Unit, onBack: () -> Unit, onReset: () -> Unit, personal: PersonalSchedulingViewModel? = null) {
+internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: SettingsViewModel, onNavigate: (Route) -> Unit, onBack: () -> Unit, onReset: () -> Unit, personal: PersonalSchedulingViewModel? = null, retention: RetentionHelpViewModel? = null) {
     val colors = MaterialTheme.colorScheme
     Scaffold(
         topBar = { AppTopBar(title = tr("Flashcard settings"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
@@ -91,6 +91,7 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                     step = 1f,
                     sliderModifier = Modifier.semantics { contentDescription = tr("desired retention") }.testTag("phone-retention"),
                 )
+                retention?.let { RetentionHelpButton(it) }
                 AppDivider(Modifier.padding(top = AppSpacing.xs))
                 StepsRow(tr("Learning steps"), description = null, saved = settings.flashcardLearnSteps, dense = true) { text -> viewModel.update { it.copy(flashcardLearnSteps = text) } }
                 AppDivider()

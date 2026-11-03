@@ -71,8 +71,14 @@ class RetentionAdvisor(
         )
         val points = withContext(Dispatchers.Default) {
             (MIN_RETENTION..MAX_RETENTION).map { retention ->
-                val result = FsrsSimulator.simulate(w, simulator, retention / 100.0, days, existing, newCards)
-                Point(retention, result.seconds.sum() / 60 / days, (result.reviews.sum() + result.learned.sum()).toDouble() / days, result.remembered.last())
+                // A few runs each, as one run's chances make the curves jagged.
+                val runs = (1..RUNS).map { seed -> FsrsSimulator.simulate(w, simulator, retention / 100.0, days, existing, newCards, seed) }
+                Point(
+                    retention,
+                    runs.sumOf { it.seconds.sum() } / RUNS / 60 / days,
+                    runs.sumOf { it.reviews.sum() + it.learned.sum() }.toDouble() / RUNS / days,
+                    runs.sumOf { it.remembered.last() } / RUNS,
+                )
             }
         }
         val suggested = points.filter { it.retention in MIN_RETENTION..MAX_SUGGESTED && it.minutesPerDay > 0 }
@@ -159,6 +165,9 @@ class RetentionAdvisor(
         const val MIN_RETENTION = 70
         const val MAX_RETENTION = 99
         private const val MAX_SUGGESTED = 95
+
+        /** The runs each retention's figures are the average of. */
+        private const val RUNS = 3
 
         /** The days whose new cards set how many more are taken to come. */
         private const val RECENT = 30

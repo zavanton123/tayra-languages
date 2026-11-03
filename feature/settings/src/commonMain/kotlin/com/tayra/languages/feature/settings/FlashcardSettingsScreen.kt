@@ -52,6 +52,8 @@ fun FlashcardSettingsScreen(
     viewModel: SettingsViewModel = koinViewModel(),
     /** Each language's own scheduling; without it the card is left out. */
     personal: PersonalSchedulingViewModel? = null,
+    /** The help choosing the desired retention; without it the button is left out. */
+    retention: RetentionHelpViewModel? = null,
 ) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
     val wide = LocalWindowWidth.current.isExpanded
@@ -76,7 +78,7 @@ fun FlashcardSettingsScreen(
         Unit
     }
     if (compact) {
-        PhoneFlashcardSettingsScreen(settings, viewModel, onNavigate, onBack, onReset = reset, personal = personal)
+        PhoneFlashcardSettingsScreen(settings, viewModel, onNavigate, onBack, onReset = reset, personal = personal, retention = retention)
         return
     }
     Scaffold(
@@ -91,7 +93,7 @@ fun FlashcardSettingsScreen(
                 Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                     Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         LimitsCard(settings, viewModel)
-                        SchedulingCard(settings, viewModel)
+                        SchedulingCard(settings, viewModel, retention)
                         personal?.let { PersonalSchedulingCard(it) }
                     }
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
@@ -101,7 +103,7 @@ fun FlashcardSettingsScreen(
                 }
             } else {
                 LimitsCard(settings, viewModel)
-                SchedulingCard(settings, viewModel)
+                SchedulingCard(settings, viewModel, retention)
                 personal?.let { PersonalSchedulingCard(it) }
                 AnswerCard(settings, viewModel)
                 StatusInfo()
@@ -138,7 +140,7 @@ private val STEPS_FIELD = 220.dp
 private val STEPS_FIELD_DENSE = 170.dp
 
 @Composable
-private fun SchedulingCard(settings: UserSettings, viewModel: SettingsViewModel) {
+private fun SchedulingCard(settings: UserSettings, viewModel: SettingsViewModel, retention: RetentionHelpViewModel?) {
     ContentCard(tr("Scheduling"), tr("Reviews are timed with FSRS, as in Anki."), icon = Icons.Default.Settings) {
         // The slider gets the card's width, its name and value above it, as on the phone.
         SliderSetting(
@@ -152,6 +154,7 @@ private fun SchedulingCard(settings: UserSettings, viewModel: SettingsViewModel)
             sliderModifier = Modifier.semantics { contentDescription = tr("desired retention") },
             description = tr("The share of cards you want to remember when they come up. Higher means more reviews."),
         )
+        retention?.let { RetentionHelpButton(it) }
         StepsRow(tr("Learning steps"), tr("Waits before a new card comes back, until it is learned."), settings.flashcardLearnSteps) { text ->
             viewModel.update { it.copy(flashcardLearnSteps = text) }
         }
