@@ -36,4 +36,9 @@ internal val ruVideos: Map<String, String> = mapOf(
     "The subtitles have no lines" to "В субтитрах нет реплик",
     "This video is no longer in the library." to "Этого видео больше нет в библиотеке.",
     "The video could not be opened." to "Не удалось открыть видео.",
+    "The video file is not where it was." to "Видеофайла больше нет на прежнем месте.",
+    "This kind of video can't be played here." to "Видео такого формата здесь не воспроизводится.",
+    "{0} is needed to play videos." to "Для воспроизведения видео нужен {0}.",
+    "The video could not be played." to "Не удалось воспроизвести видео.",
+    "Choose the file" to "Выбрать файл",
 )

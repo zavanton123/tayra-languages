@@ -36,4 +36,9 @@ internal val zhVideos: Map<String, String> = mapOf(
     "The subtitles have no lines" to "字幕中没有内容",
     "This video is no longer in the library." to "此视频已不在资料库中。",
     "The video could not be opened." to "无法打开视频。",
+    "The video file is not where it was." to "视频文件已不在原来的位置。",
+    "This kind of video can't be played here." to "此处无法播放这种视频。",
+    "{0} is needed to play videos." to "播放视频需要 {0}。",
+    "The video could not be played." to "无法播放视频。",
+    "Choose the file" to "选择文件",
 )

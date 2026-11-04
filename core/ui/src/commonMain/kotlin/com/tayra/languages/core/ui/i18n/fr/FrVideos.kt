@@ -36,4 +36,9 @@ internal val frVideos: Map<String, String> = mapOf(
     "The subtitles have no lines" to "Les sous-titres ne contiennent aucune ligne",
     "This video is no longer in the library." to "Cette vidéo n'est plus dans la bibliothèque.",
     "The video could not be opened." to "Impossible d'ouvrir la vidéo.",
+    "The video file is not where it was." to "Le fichier vidéo n'est plus à son emplacement.",
+    "This kind of video can't be played here." to "Ce type de vidéo ne peut pas être lu ici.",
+    "{0} is needed to play videos." to "{0} est nécessaire pour lire les vidéos.",
+    "The video could not be played." to "Impossible de lire la vidéo.",
+    "Choose the file" to "Choisir le fichier",
 )

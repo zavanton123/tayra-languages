@@ -77,6 +77,15 @@ import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.feature.terms.form.TermFormEvent
 import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormViewModel
+import androidx.compose.runtime.rememberCoroutineScope
+import com.tayra.languages.core.data.media.SubtitleFiles
+import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.cardSurface
+import com.tayra.languages.core.ui.media.VideoProblem
+import com.tayra.languages.core.ui.media.videoAddress
+import io.github.vinceglb.filekit.dialogs.FileKitType
+import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
+import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import kotlin.random.Random
@@ -106,8 +115,16 @@ private fun WatchContent(state: WatchUiState, playback: CuePlayback?, viewModel:
     LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
     val source = remember(video.media, video.kind) { if (video.kind == VideoKind.YOUTUBE) VideoSource.YouTube(video.media) else VideoSource.File(video.media) }
     val current = playback?.current?.collectAsState()?.value
+    val problem by viewModel.problem.collectAsStateWithLifecycle()
+    val scope = rememberCoroutineScope()
+    val relink = rememberFilePickerLauncher(type = FileKitType.File(SubtitleFiles.mediaExtensions)) { file ->
+        if (file != null) scope.launch { viewModel.relink(file.videoAddress()) }
+    }
     val player: @Composable (Modifier) -> Unit = { m ->
-        VideoPlayer(source, onController = viewModel::attach, modifier = m.fillMaxWidth().aspectRatio(VIDEO_RATIO).clip(AppShapes.small))
+        Box(m.fillMaxWidth().aspectRatio(VIDEO_RATIO).clip(AppShapes.small)) {
+            VideoPlayer(source, onController = viewModel::attach, modifier = Modifier.fillMaxSize())
+            problem?.let { VideoProblemNotice(it, onChooseFile = { relink.launch() }, Modifier.align(Alignment.Center).padding(AppSpacing.l)) }
+        }
     }
     Box(
         modifier.fillMaxSize().focusRequester(focus).focusable().onKeyEvent { event -> event.type == KeyEventType.KeyDown && handleKey(event.key, event.isAltPressed, event.isCtrlPressed || event.isMetaPressed, playback) },
@@ -136,6 +153,27 @@ private fun WatchContent(state: WatchUiState, playback: CuePlayback?, viewModel:
                     SidePanel(TERM_PANE_WIDTH, Modifier.fillMaxHeight()) { TermPane(state, viewModel, onNavigate) }
                 }
             }
+        }
+    }
+}
+
+@Composable
+private fun VideoProblemNotice(problem: VideoProblem, onChooseFile: () -> Unit, modifier: Modifier) {
+    val colors = MaterialTheme.colorScheme
+    Column(modifier.cardSurface().padding(AppSpacing.l), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        Text(
+            when (problem) {
+                VideoProblem.FileMissing -> tr("The video file is not where it was.")
+                VideoProblem.Unsupported -> tr("This kind of video can't be played here.")
+                is VideoProblem.NeedsEngine -> tr("{0} is needed to play videos.", problem.name)
+                is VideoProblem.Failed -> tr("The video could not be played.")
+            },
+            style = AppText.itemTitle,
+            textAlign = TextAlign.Center,
+        )
+        if (problem is VideoProblem.Failed) Text(problem.message, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+        if (problem == VideoProblem.FileMissing || problem == VideoProblem.Unsupported) {
+            SecondaryButton(tr("Choose the file"), onClick = onChooseFile, icon = AppIcons.Movie, modifier = Modifier.testTag("relink-video"))
         }
     }
 }

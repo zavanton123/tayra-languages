@@ -116,7 +116,7 @@ internal fun AddVideoContent(state: AddVideoUiState, actions: AddVideoActions, m
             Text(tr("Video file"), style = AppText.itemTitle)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 SecondaryButton(tr("Choose file"), onClick = actions.onPickMedia, icon = AppIcons.Movie, modifier = Modifier.testTag("pick-media"))
-                Text(state.mediaName ?: tr("No file chosen"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                Text(state.mediaName ?: tr("No file chosen"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f, fill = false))
             }
         }
         AppCard(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -124,7 +124,7 @@ internal fun AddVideoContent(state: AddVideoUiState, actions: AddVideoActions, m
             Text(tr("SRT, WebVTT or ASS, in the language of the video."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 SecondaryButton(tr("Choose subtitles"), onClick = actions.onPickSubtitles, icon = AppIcons.Subtitles, modifier = Modifier.testTag("pick-subtitles"))
-                state.subtitles?.let { Text(describe(it), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.testTag("subtitles-picked")) }
+                state.subtitles?.let { Text(describe(it), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f, fill = false).testTag("subtitles-picked")) }
             }
             if (state.sidecars.isNotEmpty()) {
                 Text(tr("Found beside the video"), style = AppText.label)
@@ -141,8 +141,8 @@ internal fun AddVideoContent(state: AddVideoUiState, actions: AddVideoActions, m
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 SecondaryButton(tr("Choose translation"), onClick = actions.onPickTranslation, icon = AppIcons.Translate, modifier = Modifier.testTag("pick-translation"))
                 state.translation?.let {
-                    Text(describe(it), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                    QuietButton(tr("Remove"), onClick = actions.onClearTranslation)
+                    Text(describe(it), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f, fill = false))
+                    QuietButton(tr("Remove"), onClick = actions.onClearTranslation, modifier = Modifier.testTag("remove-translation"))
                 }
             }
             if (state.sidecars.size > 1) {

@@ -36,4 +36,9 @@ internal val elVideos: Map<String, String> = mapOf(
     "The subtitles have no lines" to "Οι υπότιτλοι δεν έχουν γραμμές",
     "This video is no longer in the library." to "Αυτό το βίντεο δεν υπάρχει πια στη βιβλιοθήκη.",
     "The video could not be opened." to "Δεν ήταν δυνατό το άνοιγμα του βίντεο.",
+    "The video file is not where it was." to "Το αρχείο βίντεο δεν είναι πια εκεί που ήταν.",
+    "This kind of video can't be played here." to "Αυτό το είδος βίντεο δεν μπορεί να αναπαραχθεί εδώ.",
+    "{0} is needed to play videos." to "Χρειάζεται το {0} για την αναπαραγωγή βίντεο.",
+    "The video could not be played." to "Δεν ήταν δυνατή η αναπαραγωγή του βίντεο.",
+    "Choose the file" to "Επιλογή αρχείου",
 )

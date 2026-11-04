@@ -17,6 +17,7 @@ import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.ui.media.VideoController
+import com.tayra.languages.core.ui.media.VideoProblem
 import com.tayra.languages.feature.terms.form.TermFormKey
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
@@ -79,6 +80,11 @@ class WatchViewModel(
 
     /** Line-by-line playback, once the player is there. */
     val playback: StateFlow<CuePlayback?> = _playback.asStateFlow()
+
+    private val _problem = MutableStateFlow<VideoProblem?>(null)
+
+    /** Why the video does not play, as the player tells it. */
+    val problem: StateFlow<VideoProblem?> = _problem.asStateFlow()
 
     private var controller: VideoController? = null
     private var controllerJobs: List<Job> = emptyList()
@@ -146,6 +152,7 @@ class WatchViewModel(
         val resume = state.value.video?.positionMs ?: 0
         if (resume > 0) player.seekTo(resume)
         controllerJobs = listOf(
+            viewModelScope.launch { player.problem.collect { _problem.value = it } },
             viewModelScope.launch { player.durationMs.filter { it > 0 }.distinctUntilChanged().collect { videos.setDuration(bookId, it) } },
             viewModelScope.launch {
                 var saved = resume
@@ -183,6 +190,15 @@ class WatchViewModel(
         val passed = page - 1
         if (passed >= 1 && pagesRead.add(passed)) {
             viewModelScope.launch { runCatching { reading.markPageRead(bookId, passed, markRestAsKnown = false) } }
+        }
+    }
+
+    /** The video file was chosen again, where it now is; the player opens it from there. */
+    fun relink(address: String) {
+        viewModelScope.launch {
+            videos.setMedia(bookId, address)
+            _problem.value = null
+            _state.update { it.copy(video = it.video?.copy(media = address)) }
         }
     }
 

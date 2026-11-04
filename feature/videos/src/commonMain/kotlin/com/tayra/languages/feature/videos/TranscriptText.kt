@@ -56,10 +56,15 @@ internal fun TranscriptText(
             .pointerInput(Unit) {
                 detectTapGestures { position ->
                     val result = layout ?: return@detectTapGestures line()
-                    val offset = result.getOffsetForPosition(position)
-                    val bounds = result.getBoundingBox(offset.coerceAtMost(result.layoutInput.text.length - 1).coerceAtLeast(0))
-                    val hit = spans.firstOrNull { offset in it.start until it.end }
-                        ?.takeIf { items.getOrNull(it.item)?.isWord == true && position.x in (bounds.left - SLACK)..(bounds.right + SLACK) }
+                    // The offset is a caret place, between two letters: the letter under the tap is the one after it or the one before.
+                    val caret = result.getOffsetForPosition(position)
+                    val length = result.layoutInput.text.length
+                    val letter = listOf(caret, caret - 1).firstOrNull { at ->
+                        at in 0 until length && result.getBoundingBox(at).let { box ->
+                            position.x in (box.left - SLACK)..(box.right + SLACK) && position.y in box.top..box.bottom
+                        }
+                    }
+                    val hit = letter?.let { at -> spans.firstOrNull { at in it.start until it.end } }?.takeIf { items.getOrNull(it.item)?.isWord == true }
                     if (hit != null) word(hit.item) else line()
                 }
             },

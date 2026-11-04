@@ -36,4 +36,9 @@ internal val ptVideos: Map<String, String> = mapOf(
     "The subtitles have no lines" to "As legendas não têm linhas",
     "This video is no longer in the library." to "Este vídeo não está mais na biblioteca.",
     "The video could not be opened." to "Não foi possível abrir o vídeo.",
+    "The video file is not where it was." to "O arquivo de vídeo não está mais onde estava.",
+    "This kind of video can't be played here." to "Este tipo de vídeo não pode ser reproduzido aqui.",
+    "{0} is needed to play videos." to "É preciso o {0} para reproduzir vídeos.",
+    "The video could not be played." to "Não foi possível reproduzir o vídeo.",
+    "Choose the file" to "Escolher o arquivo",
 )
