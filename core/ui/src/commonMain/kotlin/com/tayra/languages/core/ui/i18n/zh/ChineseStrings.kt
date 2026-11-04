@@ -17,6 +17,7 @@ internal val chineseParts: List<Pair<String, Map<String, String>>> = listOf(
     "settings" to zhSettings,
     "settings-more" to zhSettingsMore,
     "terms" to zhTerms,
+    "videos" to zhVideos,
 )
 
 internal val chineseStrings: Map<String, String> by lazy { chineseParts.fold(emptyMap()) { all, (_, part) -> all + part } }

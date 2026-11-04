@@ -28,6 +28,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.media.videoSupported
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppSpacing
@@ -41,8 +42,8 @@ import com.tayra.languages.core.ui.theme.AppText
 fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val due = LocalFlashcardsDue.current
-    // The news, the playlists and the vocabulary pages are reached through More.
-    val area = if (section == NavSection.TERMS || section == NavSection.NEWS || section == NavSection.PLAYLISTS) NavSection.SETTINGS else section
+    // The videos, the news, the playlists and the vocabulary pages are reached through More.
+    val area = if (section == NavSection.TERMS || section == NavSection.NEWS || section == NavSection.PLAYLISTS || section == NavSection.VIDEOS) NavSection.SETTINGS else section
     NavigationBar(containerColor = colors.surface, modifier = Modifier.testTag("phone-nav")) {
         PhoneTab(NavSection.HOME, Icons.Default.Home, area) { onNavigate(Route.Home) }
         PhoneTab(NavSection.COURSES, AppIcons.School, area) { onNavigate(Route.Courses) }
@@ -90,7 +91,8 @@ private class MoreGroup(val title: String, val entries: List<MoreEntry>)
 private val moreGroups = listOf(
     MoreGroup(
         "Read and listen",
-        listOf(
+        listOfNotNull(
+            MoreEntry("Videos", AppIcons.Movie, Route.Videos).takeIf { videoSupported },
             MoreEntry("News", AppIcons.Newspaper, Route.News),
             MoreEntry("Playlists", AppIcons.QueueMusic, Route.Playlists),
             MoreEntry("Find books", AppIcons.Book, Route.FindBooks),

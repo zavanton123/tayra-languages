@@ -50,6 +50,13 @@ class CuePlayback(private val clock: MediaClock, scope: CoroutineScope) {
     private val _autoPause = MutableStateFlow(AutoPause.OFF)
     val autoPause: StateFlow<AutoPause> = _autoPause.asStateFlow()
 
+    /** Whether the player plays, as its clock says. */
+    val playing: StateFlow<Boolean> get() = clock.playing
+
+    val rate: StateFlow<Float> get() = clock.rate
+
+    fun setRate(rate: Float) = clock.setRate(rate)
+
     /** For [AutoPause.UNKNOWN_LINES]: whether the line at an index has words not known yet. */
     var hasUnknownWords: (Int) -> Boolean = { true }
 

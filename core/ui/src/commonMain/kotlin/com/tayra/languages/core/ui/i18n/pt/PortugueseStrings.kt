@@ -17,6 +17,7 @@ internal val portugueseParts: List<Pair<String, Map<String, String>>> = listOf(
     "settings" to ptSettings,
     "settings-more" to ptSettingsMore,
     "terms" to ptTerms,
+    "videos" to ptVideos,
 )
 
 internal val portugueseStrings: Map<String, String> by lazy { portugueseParts.fold(emptyMap()) { all, (_, part) -> all + part } }

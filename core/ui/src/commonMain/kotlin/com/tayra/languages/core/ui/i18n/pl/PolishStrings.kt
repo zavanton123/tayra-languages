@@ -17,6 +17,7 @@ internal val polishParts: List<Pair<String, Map<String, String>>> = listOf(
     "settings" to plSettings,
     "settings-more" to plSettingsMore,
     "terms" to plTerms,
+    "videos" to plVideos,
 )
 
 internal val polishStrings: Map<String, String> by lazy { polishParts.fold(emptyMap()) { all, (_, part) -> all + part } }

@@ -21,6 +21,18 @@ sealed interface Route {
     @Serializable
     data object News : Route
 
+    /** The videos of the language being learned, watched with their subtitles as text. */
+    @Serializable
+    data object Videos : Route
+
+    /** Adding a video: a file with its subtitles, or a YouTube link. */
+    @Serializable
+    data object NewVideo : Route
+
+    /** Watching a video, whose transcript is the book [bookId]. */
+    @Serializable
+    data class Watch(val bookId: Long) : Route
+
     /** The playlists of the language being learned: texts to listen to one after another. */
     @Serializable
     data object Playlists : Route

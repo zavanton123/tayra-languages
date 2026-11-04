@@ -17,6 +17,7 @@ internal val frenchParts: List<Pair<String, Map<String, String>>> = listOf(
     "settings" to frSettings,
     "settings-more" to frSettingsMore,
     "terms" to frTerms,
+    "videos" to frVideos,
 )
 
 internal val frenchStrings: Map<String, String> by lazy { frenchParts.fold(emptyMap()) { all, (_, part) -> all + part } }

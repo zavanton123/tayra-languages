@@ -46,6 +46,7 @@ import com.tayra.languages.feature.frequency.frequencyGraph
 import com.tayra.languages.feature.home.homeGraph
 import com.tayra.languages.feature.languages.languagesGraph
 import com.tayra.languages.feature.news.newsGraph
+import com.tayra.languages.feature.videos.videosGraph
 import com.tayra.languages.feature.playlists.PlaybackNotificationsPermission
 import com.tayra.languages.feature.playlists.PlaybackProblemDialog
 import com.tayra.languages.feature.playlists.PlayerBar
@@ -122,6 +123,7 @@ fun AppNavHost(openCourses: Int = 0) {
         ) {
             homeGraph(navController)
             newsGraph(navController)
+            videosGraph(navController)
             playlistsGraph(navController)
             booksGraph(navController)
             coursesGraph(navController)
@@ -164,6 +166,7 @@ private fun sectionOf(destination: NavDestination): NavSection = when {
         destination.hasRoute<Route.EditCourse>() || destination.hasRoute<Route.NewLesson>() || destination.hasRoute<Route.EditLesson>() -> NavSection.COURSES
     destination.hasRoute<Route.Books>() || destination.hasRoute<Route.NewBook>() || destination.hasRoute<Route.FindBooks>() || destination.hasRoute<Route.EditBook>() ||
         destination.hasRoute<Route.Bookmarks>() || destination.hasRoute<Route.EditPage>() -> NavSection.BOOKS
+    destination.hasRoute<Route.Videos>() || destination.hasRoute<Route.NewVideo>() || destination.hasRoute<Route.Watch>() -> NavSection.VIDEOS
     destination.hasRoute<Route.News>() -> NavSection.NEWS
     destination.hasRoute<Route.Playlists>() || destination.hasRoute<Route.Playlist>() ||
         destination.hasRoute<Route.EditPlaylist>() || destination.hasRoute<Route.AddToPlaylist>() || destination.hasRoute<Route.Player>() -> NavSection.PLAYLISTS

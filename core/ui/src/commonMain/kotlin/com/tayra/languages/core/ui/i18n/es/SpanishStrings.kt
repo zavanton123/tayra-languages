@@ -17,6 +17,7 @@ internal val spanishParts: List<Pair<String, Map<String, String>>> = listOf(
     "settings" to esSettings,
     "settings-more" to esSettingsMore,
     "terms" to esTerms,
+    "videos" to esVideos,
 )
 
 internal val spanishStrings: Map<String, String> by lazy { spanishParts.fold(emptyMap()) { all, (_, part) -> all + part } }

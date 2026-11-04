@@ -17,6 +17,7 @@ internal val greekParts: List<Pair<String, Map<String, String>>> = listOf(
     "settings" to elSettings,
     "settings-more" to elSettingsMore,
     "terms" to elTerms,
+    "videos" to elVideos,
 )
 
 internal val greekStrings: Map<String, String> by lazy { greekParts.fold(emptyMap()) { all, (_, part) -> all + part } }
