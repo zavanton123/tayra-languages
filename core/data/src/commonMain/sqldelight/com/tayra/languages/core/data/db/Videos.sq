@@ -1,0 +1,127 @@
+-- Videos: a video is a text whose lines are its subtitles, kept apart from the books like news. The
+-- book holds the transcript (a line per subtitle) for words, statistics and sync; the cues hold when
+-- each line is spoken.
+CREATE TABLE videos (
+    book_id INTEGER NOT NULL PRIMARY KEY REFERENCES books(id) ON DELETE CASCADE,
+    -- 'FILE' or 'YOUTUBE'.
+    kind TEXT NOT NULL,
+    -- The file's address on this device, or the YouTube video id.
+    media TEXT NOT NULL,
+    channel TEXT,
+    thumbnail TEXT,
+    duration_ms INTEGER NOT NULL DEFAULT 0,
+    -- Where watching got to.
+    position_ms INTEGER NOT NULL DEFAULT 0,
+    -- Where the subtitles came from: 'FILE', 'YOUTUBE', 'YOUTUBE_AUTO' or 'TRANSCRIBED'.
+    subtitle_kind TEXT NOT NULL,
+    created_at INTEGER NOT NULL,
+    updated_at INTEGER NOT NULL DEFAULT 0
+);
+
+-- The subtitle lines of a video in order, each on its line of its page of the transcript.
+CREATE TABLE video_cues (
+    book_id INTEGER NOT NULL REFERENCES books(id) ON DELETE CASCADE,
+    cue_order INTEGER NOT NULL,
+    page_order INTEGER NOT NULL,
+    line_index INTEGER NOT NULL,
+    begin_ms INTEGER NOT NULL,
+    end_ms INTEGER NOT NULL,
+    text TEXT NOT NULL,
+    translation TEXT,
+    -- 'FILE' or 'YOUTUBE' for a translation that came with the video; null when there is none.
+    translation_source TEXT,
+    PRIMARY KEY (book_id, cue_order)
+);
+
+CREATE INDEX video_cues_time ON video_cues(book_id, begin_ms);
+
+-- Sync stamps a video when it is made or changed. Where watching got to changes every few seconds;
+-- it is stamped only by [touch], when the video is left, so the cues are not sent again and again.
+CREATE TRIGGER sync_videos_insert
+AFTER INSERT ON videos
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE videos SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE book_id = new.book_id;
+END;
+
+CREATE TRIGGER sync_videos_update
+AFTER UPDATE OF kind, media, channel, thumbnail, duration_ms, subtitle_kind, updated_at ON videos
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE videos SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE book_id = new.book_id;
+END;
+
+listVideos:
+SELECT
+    v.book_id,
+    b.title,
+    b.language_id,
+    l.name AS language_name,
+    v.kind,
+    v.media,
+    v.channel,
+    v.thumbnail,
+    v.duration_ms,
+    v.position_ms,
+    v.subtitle_kind,
+    v.created_at,
+    (SELECT max(start_date) FROM pages p WHERE p.book_id = b.id) AS last_opened,
+    (SELECT COALESCE(sum(word_count), 0) FROM pages p WHERE p.book_id = b.id) AS word_count,
+    s.distinct_terms,
+    s.distinct_unknowns,
+    s.unknown_percent
+FROM videos v
+INNER JOIN books b ON b.id = v.book_id
+INNER JOIN languages l ON l.id = b.language_id
+LEFT OUTER JOIN book_stats s ON s.book_id = b.id
+WHERE b.archived = 0
+ORDER BY coalesce(last_opened, v.created_at) DESC, b.title;
+
+selectVideo:
+SELECT v.*, b.title, b.language_id FROM videos v INNER JOIN books b ON b.id = v.book_id WHERE v.book_id = :bookId;
+
+videoOfMedia:
+SELECT v.book_id FROM videos v INNER JOIN books b ON b.id = v.book_id
+WHERE v.kind = :kind AND v.media = :media AND b.language_id = :languageId
+LIMIT 1;
+
+isVideo:
+SELECT count(*) > 0 FROM videos WHERE book_id = :bookId;
+
+insertVideo:
+INSERT INTO videos(book_id, kind, media, channel, thumbnail, duration_ms, position_ms, subtitle_kind, created_at)
+VALUES (:bookId, :kind, :media, :channel, :thumbnail, :durationMs, 0, :subtitleKind, :createdAt);
+
+setPosition:
+UPDATE videos SET position_ms = :positionMs WHERE book_id = :bookId;
+
+setDuration:
+UPDATE videos SET duration_ms = :durationMs WHERE book_id = :bookId AND duration_ms != :durationMs;
+
+setMedia:
+UPDATE videos SET media = :media WHERE book_id = :bookId;
+
+setSubtitleKind:
+UPDATE videos SET subtitle_kind = :subtitleKind WHERE book_id = :bookId;
+
+-- Cues
+
+cues:
+SELECT * FROM video_cues WHERE book_id = :bookId ORDER BY cue_order;
+
+insertCue:
+INSERT INTO video_cues(book_id, cue_order, page_order, line_index, begin_ms, end_ms, text, translation, translation_source)
+VALUES (:bookId, :cueOrder, :pageOrder, :lineIndex, :beginMs, :endMs, :text, :translation, :translationSource);
+
+deleteCues:
+DELETE FROM video_cues WHERE book_id = :bookId;
+
+setCueTranslation:
+UPDATE video_cues SET translation = :translation, translation_source = :translationSource WHERE book_id = :bookId AND cue_order = :cueOrder;
+
+shiftCues:
+UPDATE video_cues SET begin_ms = max(0, begin_ms + :deltaMs), end_ms = max(0, end_ms + :deltaMs) WHERE book_id = :bookId;
+
+-- Bumps the video's record for sync when its cues change, which no trigger sees.
+touch:
+UPDATE videos SET updated_at = updated_at WHERE book_id = :bookId;

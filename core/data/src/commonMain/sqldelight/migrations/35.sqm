@@ -1,0 +1,42 @@
+-- Videos: a text whose lines are a video's subtitles, with when each line is spoken.
+CREATE TABLE IF NOT EXISTS videos (
+    book_id INTEGER NOT NULL PRIMARY KEY REFERENCES books(id) ON DELETE CASCADE,
+    kind TEXT NOT NULL,
+    media TEXT NOT NULL,
+    channel TEXT,
+    thumbnail TEXT,
+    duration_ms INTEGER NOT NULL DEFAULT 0,
+    position_ms INTEGER NOT NULL DEFAULT 0,
+    subtitle_kind TEXT NOT NULL,
+    created_at INTEGER NOT NULL,
+    updated_at INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS video_cues (
+    book_id INTEGER NOT NULL REFERENCES books(id) ON DELETE CASCADE,
+    cue_order INTEGER NOT NULL,
+    page_order INTEGER NOT NULL,
+    line_index INTEGER NOT NULL,
+    begin_ms INTEGER NOT NULL,
+    end_ms INTEGER NOT NULL,
+    text TEXT NOT NULL,
+    translation TEXT,
+    translation_source TEXT,
+    PRIMARY KEY (book_id, cue_order)
+);
+
+CREATE INDEX IF NOT EXISTS video_cues_time ON video_cues(book_id, begin_ms);
+
+CREATE TRIGGER IF NOT EXISTS sync_videos_insert
+AFTER INSERT ON videos
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE videos SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE book_id = new.book_id;
+END;
+
+CREATE TRIGGER IF NOT EXISTS sync_videos_update
+AFTER UPDATE OF kind, media, channel, thumbnail, duration_ms, subtitle_kind, updated_at ON videos
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE videos SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE book_id = new.book_id;
+END;

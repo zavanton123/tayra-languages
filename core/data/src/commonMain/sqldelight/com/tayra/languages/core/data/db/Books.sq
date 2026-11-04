@@ -111,6 +111,7 @@ LEFT OUTER JOIN book_stats s ON s.book_id = b.id
 WHERE b.archived = :archived
   AND b.id NOT IN (SELECT book_id FROM course_lessons)
   AND b.id NOT IN (SELECT book_id FROM news_articles)
+  AND b.id NOT IN (SELECT book_id FROM videos)
 ORDER BY last_opened DESC, b.title;
 
 -- Course lessons

@@ -61,6 +61,9 @@ import com.tayra.languages.core.data.network.createPlainHttpClient
 import com.tayra.languages.core.data.news.FeedNewsReader
 import com.tayra.languages.core.data.news.WikiArticles
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
+import com.tayra.languages.core.data.repository.VideoRepositoryImpl
+import com.tayra.languages.core.domain.media.VideoRepository
+import com.tayra.languages.core.domain.media.VideoService
 import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.data.repository.DatabaseMaintenanceImpl
 import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
@@ -197,6 +200,7 @@ val dataModule: Module = module {
     single { AutoSync(get(), get(), get(), changes = libraryChanges(get())) }
     single<LanguageRepository> { LanguageRepositoryImpl(get()) }
     single<BookRepository> { BookRepositoryImpl(get()) }
+    single<VideoRepository> { VideoRepositoryImpl(get()) }
     single<TermRepository> {
         val settings = get<SettingsRepository>()
         TermRepositoryImpl(get(), translationLanguage = { settings.current.nativeLanguage.ifBlank { "en" } })
@@ -274,6 +278,7 @@ val dataModule: Module = module {
     single { ReadingService(get(), get(), get(), get(), get(), get<LexiconService>()) }
     single { TermPopupBuilder(get(), get(), get()) }
     single { BookService(get(), get()) }
+    single { VideoService(get(), get()) }
     single { BookStatsService(get(), get(), get(), get()) }
     single { LanguageService(get(), get(), get()) }
     single { LearningLanguageService(get(), get(), get(), get()) }

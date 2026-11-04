@@ -8,6 +8,12 @@ import java.sql.Connection
  * libraries older than 28, which never had it, so the migration can add it again; so are later migrations' additions.
  */
 internal fun Connection.pretendVersion(version: Int) {
+    if (version <= 35) {
+        createStatement().execute("DROP TRIGGER IF EXISTS sync_videos_insert")
+        createStatement().execute("DROP TRIGGER IF EXISTS sync_videos_update")
+        createStatement().execute("DROP TABLE IF EXISTS video_cues")
+        createStatement().execute("DROP TABLE IF EXISTS videos")
+    }
     if (version <= 28) createStatement().execute("DROP TABLE IF EXISTS sync_pending")
     if (version <= 27) removeSyncTracking()
     // After the sync triggers go, as a test may have dropped tables they name, or the flashcards themselves.

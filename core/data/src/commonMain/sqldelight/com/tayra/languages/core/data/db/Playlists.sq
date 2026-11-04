@@ -72,6 +72,7 @@ FROM books b
 WHERE b.language_id = :languageId
   AND b.archived = 0
   AND b.id NOT IN (SELECT book_id FROM course_lessons)
+  AND b.id NOT IN (SELECT book_id FROM videos)
 ORDER BY last_opened DESC, b.title;
 
 insertPlaylist:
