@@ -66,6 +66,7 @@ import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SelectableChip
 import com.tayra.languages.core.ui.components.SidePanel
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.media.VideoController
 import com.tayra.languages.core.ui.media.VideoPlayer
 import com.tayra.languages.core.ui.media.VideoSource
 import com.tayra.languages.core.ui.navigation.Route
@@ -91,7 +92,14 @@ import org.koin.core.parameter.parametersOf
 import kotlin.random.Random
 
 @Composable
-fun WatchScreen(bookId: Long, onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: WatchViewModel = koinViewModel(key = "watch-$bookId") { parametersOf(bookId) }) {
+fun WatchScreen(
+    bookId: Long,
+    onNavigate: (Route) -> Unit,
+    onBack: () -> Unit,
+    viewModel: WatchViewModel = koinViewModel(key = "watch-$bookId") { parametersOf(bookId) },
+    /** The player; tests give one that only keeps time. */
+    player: PlayerSlot = { source, onController, modifier -> VideoPlayer(source, onController, modifier) },
+) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val playback by viewModel.playback.collectAsStateWithLifecycle()
     DisposableEffect(viewModel) { onDispose { viewModel.detach() } }
@@ -102,13 +110,13 @@ fun WatchScreen(bookId: Long, onNavigate: (Route) -> Unit, onBack: () -> Unit, v
         when {
             state.loading -> LoadingIndicator(Modifier.padding(padding))
             state.video == null -> EmptyState(AppIcons.Movie, tr("Video not found"), Modifier.padding(padding), message = state.error?.let { tr(it) })
-            else -> WatchContent(state, playback, viewModel, onNavigate, Modifier.padding(padding))
+            else -> WatchContent(state, playback, viewModel, onNavigate, player, Modifier.padding(padding))
         }
     }
 }
 
 @Composable
-private fun WatchContent(state: WatchUiState, playback: CuePlayback?, viewModel: WatchViewModel, onNavigate: (Route) -> Unit, modifier: Modifier) {
+private fun WatchContent(state: WatchUiState, playback: CuePlayback?, viewModel: WatchViewModel, onNavigate: (Route) -> Unit, playerSlot: PlayerSlot, modifier: Modifier) {
     val video = state.video ?: return
     val compact = LocalWindowWidth.current.isCompact
     val focus = remember { FocusRequester() }
@@ -122,7 +130,7 @@ private fun WatchContent(state: WatchUiState, playback: CuePlayback?, viewModel:
     }
     val player: @Composable (Modifier) -> Unit = { m ->
         Box(m.fillMaxWidth().aspectRatio(VIDEO_RATIO).clip(AppShapes.small)) {
-            VideoPlayer(source, onController = viewModel::attach, modifier = Modifier.fillMaxSize())
+            playerSlot(source, viewModel::attach, Modifier.fillMaxSize())
             problem?.let { VideoProblemNotice(it, onChooseFile = { relink.launch() }, Modifier.align(Alignment.Center).padding(AppSpacing.l)) }
         }
     }
@@ -347,6 +355,9 @@ private fun TermPane(state: WatchUiState, viewModel: WatchViewModel, onNavigate:
         onManageDictionaries = { languageId -> onNavigate(Route.ManageDictionaries(languageId)) },
     )
 }
+
+/** Where the video plays: the platform's player, or a stand-in. */
+typealias PlayerSlot = @Composable (source: VideoSource, onController: (VideoController) -> Unit, modifier: Modifier) -> Unit
 
 /** The state description of the line being spoken, for tests and accessibility tools. */
 internal const val CURRENT_LINE = "current line"

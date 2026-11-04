@@ -32,6 +32,7 @@ import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
+import com.tayra.languages.core.ui.media.SilentVideo
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.feature.terms.form.TermFormKey
@@ -85,7 +86,7 @@ class VideosScreenTest {
     @Test
     fun theWatchScreenShowsTheTranscriptAndFollowsTheLines() = runDesktopComposeUiTest(width = 1500, height = 900) {
         val vm = watch()
-        setContent { TayraTheme { ProvideWindowWidth { WatchScreen(bookId, onNavigate = {}, onBack = {}, viewModel = vm) } } }
+        setContent { TayraTheme { ProvideWindowWidth { WatchScreen(bookId, onNavigate = {}, onBack = {}, viewModel = vm, player = { source, onController, modifier -> SilentVideo(source, onController, modifier) }) } } }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("line-2").fetchSemanticsNodes().isNotEmpty() && vm.playback.value != null }
         onNodeWithText("Hello, how are you?").assertExists()
         // Lines without a translation of their own are translated as they come near.
