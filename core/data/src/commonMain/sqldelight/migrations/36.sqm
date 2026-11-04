@@ -1,0 +1,7 @@
+-- The video line a word was saved from, for its card's sound and picture.
+CREATE TABLE IF NOT EXISTS term_video_sources (
+    term_id INTEGER NOT NULL PRIMARY KEY REFERENCES terms(id) ON DELETE CASCADE,
+    book_id INTEGER NOT NULL REFERENCES books(id) ON DELETE CASCADE,
+    begin_ms INTEGER NOT NULL,
+    end_ms INTEGER NOT NULL
+);

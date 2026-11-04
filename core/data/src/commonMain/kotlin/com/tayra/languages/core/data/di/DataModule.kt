@@ -251,7 +251,7 @@ val dataModule: Module = module {
 
     single { LearningTranslations(get(), get(), get()) }
     single<AnkiPackager> { AnkiPackagerImpl() }
-    single { AnkiExportService(get(), get(), get(), get(), get(), get(), get()) }
+    single { AnkiExportService(get(), get(), get(), get(), get(), get(), get(), videos = get(), clips = getOrNull()) }
     single { AnkiDeckExportService(get(), get(), get(), get(), get(), get()) }
     single { PracticeMaterialLoader(get(), get(), get(), get()) }
     single<PracticeExampleRepository> { PracticeExampleRepositoryImpl(get()) }

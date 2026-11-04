@@ -460,7 +460,7 @@ private fun TermPane(state: WatchUiState, viewModel: WatchViewModel, onNavigate:
     val form = koinViewModel<TermFormViewModel>(key = "watch-term-${state.termKey}-$opening") { parametersOf(key) }
     CollectEvents(form.events) { event ->
         when (event) {
-            is TermFormEvent.Saved -> viewModel.onTermChanged(close = !event.keepOpen)
+            is TermFormEvent.Saved -> viewModel.onTermSaved(event.termId, close = !event.keepOpen)
             TermFormEvent.Deleted -> viewModel.onTermChanged(close = true)
             is TermFormEvent.OpenParent -> viewModel.openTerm(event.languageId, event.text, key.sentence)
             is TermFormEvent.OpenTerm -> viewModel.openTerm(event.languageId, event.text, event.sentence)

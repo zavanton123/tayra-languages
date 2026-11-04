@@ -121,6 +121,11 @@ kotlin {
             implementation(libs.ktor.client.okhttp)
             implementation(libs.jna)
             implementation(libs.jna.platform)
+            // VLC cuts the sound and pictures of words' video lines for their cards; it brings JNA again as the jpms jars.
+            implementation(libs.vlcj.get().toString()) {
+                exclude(group = "net.java.dev.jna", module = "jna-jpms")
+                exclude(group = "net.java.dev.jna", module = "jna-platform-jpms")
+            }
             implementation(libs.kuromoji.ipadic)
             implementation(libs.pdfbox)
             tesseractNatives(javacppDesktopPlatform).forEach { implementation(it) }

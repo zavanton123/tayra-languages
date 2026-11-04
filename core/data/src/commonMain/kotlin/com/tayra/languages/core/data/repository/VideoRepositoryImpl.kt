@@ -13,6 +13,7 @@ import com.tayra.languages.core.domain.media.Cue
 import com.tayra.languages.core.domain.media.NewVideo
 import com.tayra.languages.core.domain.media.StoredCue
 import com.tayra.languages.core.domain.media.SubtitleKind
+import com.tayra.languages.core.domain.media.TermVideoSource
 import com.tayra.languages.core.domain.media.TranslationSource
 import com.tayra.languages.core.domain.media.Video
 import com.tayra.languages.core.domain.media.VideoKind
@@ -177,6 +178,16 @@ class VideoRepositoryImpl(private val provider: DatabaseProvider) : VideoReposit
 
     override suspend fun setMedia(bookId: Long, media: String) {
         withContext(databaseDispatcher) { db().videosQueries.setMedia(media, bookId) }
+    }
+
+    override suspend fun keepTermSource(termId: Long, bookId: Long, beginMs: Long, endMs: Long) {
+        withContext(databaseDispatcher) { db().videosQueries.keepTermSource(termId, bookId, beginMs, endMs) }
+    }
+
+    override suspend fun termSource(termId: Long): TermVideoSource? = withContext(databaseDispatcher) {
+        db().videosQueries.termSource(termId).awaitAsOneOrNull()?.let {
+            TermVideoSource(it.book_id, it.title, kindOf(it.kind), it.media, it.begin_ms, it.end_ms)
+        }
     }
 
     private suspend fun insertCues(database: TayraDatabase, bookId: Long, transcript: VideoTranscript) {

@@ -67,6 +67,21 @@ data class NewVideo(
     val createdAt: Instant,
 )
 
+/** The video line a word was saved from. */
+data class TermVideoSource(val bookId: Long, val title: String, val kind: VideoKind, val media: String, val beginMs: Long, val endMs: Long)
+
+/**
+ * Cuts from a video file what a word's card shows: the sound of its line and a picture of it.
+ * Each is null when the file can't give it (not here, a kind the platform can't cut).
+ */
+interface VideoClips {
+    /** The sound from [fromMs] to [toMs], and the extension of its file ("m4a"). */
+    suspend fun sound(media: String, fromMs: Long, toMs: Long): Pair<ByteArray, String>?
+
+    /** A JPEG picture at [atMs], at most [maxWidth] pixels wide. */
+    suspend fun picture(media: String, atMs: Long, maxWidth: Int = 800): ByteArray?
+}
+
 interface VideoRepository {
     fun observeVideos(): Flow<List<VideoListItem>>
     suspend fun video(bookId: Long): Video?
@@ -87,4 +102,9 @@ interface VideoRepository {
     suspend fun setPosition(bookId: Long, positionMs: Long, final: Boolean)
     suspend fun setDuration(bookId: Long, durationMs: Long)
     suspend fun setMedia(bookId: Long, media: String)
+
+    /** Keeps the line [termId] was saved from, unless it was saved from one before. */
+    suspend fun keepTermSource(termId: Long, bookId: Long, beginMs: Long, endMs: Long) {}
+
+    suspend fun termSource(termId: Long): TermVideoSource? = null
 }
