@@ -1,5 +1,7 @@
 package com.tayra.languages.core.data.di
 
+import com.tayra.languages.core.data.media.IosVideoClips
+import com.tayra.languages.core.domain.media.VideoClips
 import com.russhwolf.settings.NSUserDefaultsSettings
 import com.russhwolf.settings.Settings
 import com.tayra.languages.core.data.backup.BackupFiles
@@ -20,6 +22,7 @@ import org.koin.dsl.module
 import platform.Foundation.NSUserDefaults
 
 actual val platformDataModule: Module = module {
+    single<VideoClips> { IosVideoClips() }
     single { DatabaseDriverFactory() }
     single { BackupFiles() }
     single<SpeechAudioCache> { FileSpeechAudioCache() }
