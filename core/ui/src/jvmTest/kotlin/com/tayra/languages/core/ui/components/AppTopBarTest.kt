@@ -42,6 +42,16 @@ class AppTopBarTest {
     }
 
     @Test
+    fun theFlashcardsMenuLeadsToTheFlashcardStatistics() {
+        val visited = mutableListOf<Route>()
+        rule.setContent { MaterialTheme { AppTopBar(title = "Flashcards", onNavigate = { visited += it }, section = NavSection.FLASHCARDS) } }
+        rule.onNodeWithText("Flashcards").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Flashcard statistics").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Flashcard statistics").performClick()
+        assertEquals(listOf<Route>(Route.FlashcardStats), visited)
+    }
+
+    @Test
     fun theLogoAlwaysShowsTheAppNameAndLeadsHome() {
         val visited = mutableListOf<Route>()
         rule.setContent { MaterialTheme { AppTopBar(title = "Statistics", onNavigate = { visited += it }, section = NavSection.TERMS) } }

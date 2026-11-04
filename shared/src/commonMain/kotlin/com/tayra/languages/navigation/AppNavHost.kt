@@ -167,7 +167,7 @@ private fun sectionOf(destination: NavDestination): NavSection = when {
     destination.hasRoute<Route.News>() -> NavSection.NEWS
     destination.hasRoute<Route.Playlists>() || destination.hasRoute<Route.Playlist>() ||
         destination.hasRoute<Route.EditPlaylist>() || destination.hasRoute<Route.AddToPlaylist>() || destination.hasRoute<Route.Player>() -> NavSection.PLAYLISTS
-    destination.hasRoute<Route.Flashcards>() || destination.hasRoute<Route.BrowseFlashcards>() -> NavSection.FLASHCARDS
+    destination.hasRoute<Route.Flashcards>() || destination.hasRoute<Route.BrowseFlashcards>() || destination.hasRoute<Route.FlashcardStats>() -> NavSection.FLASHCARDS
     destination.hasRoute<Route.Terms>() || destination.hasRoute<Route.EditTerm>() || destination.hasRoute<Route.EditTermByText>() ||
         destination.hasRoute<Route.NewTerm>() || destination.hasRoute<Route.Examples>() -> NavSection.TERMS
     else -> NavSection.SETTINGS

@@ -111,7 +111,7 @@ fun FlashcardStatsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMo
     val state by viewModel.state.collectAsStateWithLifecycle()
     val compact = LocalWindowWidth.current.isCompact
     Scaffold(
-        topBar = { AppTopBar(title = tr("Flashcard statistics"), onNavigate = onNavigate, section = NavSection.TERMS, onBack = onBack.takeIf { compact }) },
+        topBar = { AppTopBar(title = tr("Flashcard statistics"), onNavigate = onNavigate, section = NavSection.FLASHCARDS, onBack = onBack.takeIf { compact }) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
