@@ -56,4 +56,8 @@ internal val elVideos: Map<String, String> = mapOf(
     "This video is no longer on YouTube." to "Αυτό το βίντεο δεν υπάρχει πια στο YouTube.",
     "The owner of this video doesn't let it play outside YouTube." to "Ο κάτοχος αυτού του βίντεο δεν επιτρέπει την αναπαραγωγή του εκτός YouTube.",
     "YouTube could not play this video." to "Το YouTube δεν μπόρεσε να αναπαράγει αυτό το βίντεο.",
+    "YouTube videos play in the phone and tablet apps." to "Τα βίντεο του YouTube παίζουν στις εφαρμογές για κινητό και tablet.",
+    "Its lines can still be read and looked up here." to "Οι γραμμές του μπορούν ακόμη να διαβαστούν και να αναζητηθούν εδώ.",
+    "Watch on YouTube" to "Παρακολούθηση στο YouTube",
+    "Get VLC" to "Λήψη του VLC",
 )

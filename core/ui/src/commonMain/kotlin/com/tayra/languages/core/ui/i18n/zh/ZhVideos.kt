@@ -56,4 +56,8 @@ internal val zhVideos: Map<String, String> = mapOf(
     "This video is no longer on YouTube." to "此视频已不在 YouTube 上。",
     "The owner of this video doesn't let it play outside YouTube." to "此视频的所有者不允许在 YouTube 以外播放。",
     "YouTube could not play this video." to "YouTube 无法播放此视频。",
+    "YouTube videos play in the phone and tablet apps." to "YouTube 视频可在手机和平板应用中播放。",
+    "Its lines can still be read and looked up here." to "仍可在这里阅读和查询它的字幕。",
+    "Watch on YouTube" to "在 YouTube 上观看",
+    "Get VLC" to "获取 VLC",
 )

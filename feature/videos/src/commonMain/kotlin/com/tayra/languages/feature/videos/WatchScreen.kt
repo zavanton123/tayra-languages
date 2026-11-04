@@ -41,6 +41,7 @@ import androidx.compose.ui.input.key.isMetaPressed
 import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onKeyEvent
 import androidx.compose.ui.input.key.type
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.stateDescription
@@ -177,6 +178,7 @@ private fun VideoProblemNotice(problem: VideoProblem, onChooseFile: () -> Unit, 
                 VideoProblem.Unsupported -> tr("This kind of video can't be played here.")
                 is VideoProblem.NeedsEngine -> tr("{0} is needed to play videos.", problem.name)
                 is VideoProblem.Failed -> tr("The video could not be played.")
+                is VideoProblem.Elsewhere -> tr("YouTube videos play in the phone and tablet apps.")
             },
             style = AppText.itemTitle,
             textAlign = TextAlign.Center,
@@ -184,6 +186,15 @@ private fun VideoProblemNotice(problem: VideoProblem, onChooseFile: () -> Unit, 
         if (problem is VideoProblem.Failed) Text(tr(problem.message), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
         if (problem == VideoProblem.FileMissing || problem == VideoProblem.Unsupported) {
             SecondaryButton(tr("Choose the file"), onClick = onChooseFile, icon = AppIcons.Movie, modifier = Modifier.testTag("relink-video"))
+        }
+        val links = LocalUriHandler.current
+        when (problem) {
+            is VideoProblem.Elsewhere -> {
+                Text(tr("Its lines can still be read and looked up here."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+                SecondaryButton(tr("Watch on YouTube"), onClick = { runCatching { links.openUri(problem.url) } }, icon = AppIcons.Link, modifier = Modifier.testTag("watch-elsewhere"))
+            }
+            is VideoProblem.NeedsEngine -> SecondaryButton(tr("Get VLC"), onClick = { runCatching { links.openUri(VLC_SITE) } }, icon = AppIcons.Link)
+            else -> Unit
         }
     }
 }
@@ -367,6 +378,7 @@ typealias PlayerSlot = @Composable (source: VideoSource, onController: (VideoCon
 internal const val CURRENT_LINE = "current line"
 
 private const val VIDEO_RATIO = 16f / 9f
+private const val VLC_SITE = "https://www.videolan.org/vlc/"
 private const val VIDEO_WEIGHT = 0.56f
 private const val TRANSCRIPT_WEIGHT = 0.44f
 private const val SHEET_HEIGHT = 0.7f

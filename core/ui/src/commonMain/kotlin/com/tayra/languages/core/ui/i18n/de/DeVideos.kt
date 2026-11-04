@@ -56,4 +56,8 @@ internal val deVideos: Map<String, String> = mapOf(
     "This video is no longer on YouTube." to "Dieses Video ist nicht mehr auf YouTube.",
     "The owner of this video doesn't let it play outside YouTube." to "Der Inhaber dieses Videos erlaubt keine Wiedergabe außerhalb von YouTube.",
     "YouTube could not play this video." to "YouTube konnte dieses Video nicht abspielen.",
+    "YouTube videos play in the phone and tablet apps." to "YouTube-Videos laufen in den Apps für Handy und Tablet.",
+    "Its lines can still be read and looked up here." to "Seine Zeilen lassen sich hier trotzdem lesen und nachschlagen.",
+    "Watch on YouTube" to "Auf YouTube ansehen",
+    "Get VLC" to "VLC holen",
 )

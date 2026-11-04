@@ -41,6 +41,9 @@ sealed interface VideoProblem {
     data class NeedsEngine(val name: String) : VideoProblem
 
     data class Failed(val message: String) : VideoProblem
+
+    /** This device can't play it, but [url] opens it where it can (a YouTube video on the desktop). */
+    data class Elsewhere(val url: String) : VideoProblem
 }
 
 /** Whether this platform plays videos at all; the web version has no video feature. */
@@ -71,7 +74,8 @@ class TickingClock(
     private var ticker: Job? = null
 
     override fun play() {
-        if (playing.value) return
+        // A video that can't play here doesn't pretend to: its lines are only gone through by hand.
+        if (playing.value || problem.value != null) return
         playing.value = true
         ticker = scope.launch {
             var mark = TimeSource.Monotonic.markNow()
