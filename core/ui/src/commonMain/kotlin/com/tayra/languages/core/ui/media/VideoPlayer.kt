@@ -17,7 +17,8 @@ sealed interface VideoSource {
     /** A file on this device, by its path or (on Android) its content address. */
     data class File(val uri: String) : VideoSource
 
-    data class YouTube(val id: String) : VideoSource
+    /** A YouTube video; [language] is the one its subtitles are wanted in. */
+    data class YouTube(val id: String, val language: String? = null) : VideoSource
 }
 
 /** A player as the screen drives it: its clock, and letting go of it when the screen goes. */

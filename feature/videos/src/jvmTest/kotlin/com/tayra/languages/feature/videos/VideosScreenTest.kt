@@ -33,6 +33,7 @@ import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.media.SilentVideo
+import com.tayra.languages.core.ui.media.YouTubeTrack
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.feature.terms.form.TermFormKey
@@ -152,7 +153,7 @@ class VideosScreenTest {
 
     @Test
     fun addingAFileFindsItsSubtitlesBesideItAndOpensTheNewVideo() = runBlocking {
-        val add = AddVideoViewModel(service, videos, settings)
+        val add = AddVideoViewModel(service, videos, settings, languages)
         val srt = "1\n00:00:01,000 --> 00:00:02,000\nBom dia.\n\n2\n00:00:02,500 --> 00:00:04,000\nComo vai?\n".encodeToByteArray()
         val english = "1\n00:00:01,000 --> 00:00:02,000\nGood morning.\n".encodeToByteArray()
         add.pickMedia("Aula 1.mp4", "/videos/Aula 1.mp4", listOf("Aula 1.en.srt" to english, "Aula 1.srt" to srt))
@@ -168,5 +169,16 @@ class VideosScreenTest {
         assertEquals("Good morning.", videos.cues(id).first().cue.translation)
         add.pickSubtitles("broken.srt", "not subtitles".encodeToByteArray())
         assertEquals("No subtitles were found in this file.", add.state.value.error)
+    }
+
+    @Test
+    fun theSubtitlesChosenFirstArePeoplesInTheLanguageLearned() {
+        val auto = YouTubeTrack("pt", true, "Português (automático)", "a")
+        val made = YouTubeTrack("pt-BR", false, "Português (Brasil)", "b")
+        val english = YouTubeTrack("en", false, "English", "c")
+        assertEquals(made, AddVideoViewModel.bestTrack(listOf(english, auto, made), "pt"))
+        assertEquals(auto, AddVideoViewModel.bestTrack(listOf(english, auto), "pt"))
+        assertEquals(english, AddVideoViewModel.bestTrack(listOf(english), "pt"))
+        assertEquals(null, AddVideoViewModel.bestTrack(emptyList(), "pt"))
     }
 }

@@ -49,6 +49,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.media.AutoPause
 import com.tayra.languages.core.domain.media.CuePlayback
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.media.VideoKind
 import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppIconButton
@@ -121,7 +122,8 @@ private fun WatchContent(state: WatchUiState, playback: CuePlayback?, viewModel:
     val compact = LocalWindowWidth.current.isCompact
     val focus = remember { FocusRequester() }
     LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
-    val source = remember(video.media, video.kind) { if (video.kind == VideoKind.YOUTUBE) VideoSource.YouTube(video.media) else VideoSource.File(video.media) }
+    val languageCode = state.language?.let { LanguageCodes.codeFor(it.name) }
+    val source = remember(video.media, video.kind, languageCode) { if (video.kind == VideoKind.YOUTUBE) VideoSource.YouTube(video.media, languageCode) else VideoSource.File(video.media) }
     val current = playback?.current?.collectAsState()?.value
     val problem by viewModel.problem.collectAsStateWithLifecycle()
     val scope = rememberCoroutineScope()
@@ -179,7 +181,7 @@ private fun VideoProblemNotice(problem: VideoProblem, onChooseFile: () -> Unit, 
             style = AppText.itemTitle,
             textAlign = TextAlign.Center,
         )
-        if (problem is VideoProblem.Failed) Text(problem.message, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+        if (problem is VideoProblem.Failed) Text(tr(problem.message), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
         if (problem == VideoProblem.FileMissing || problem == VideoProblem.Unsupported) {
             SecondaryButton(tr("Choose the file"), onClick = onChooseFile, icon = AppIcons.Movie, modifier = Modifier.testTag("relink-video"))
         }
@@ -298,11 +300,13 @@ private fun speedLabel(speed: Float): String = if (speed == speed.toInt().toFloa
 private fun Transcript(state: WatchUiState, current: Int?, playback: CuePlayback?, viewModel: WatchViewModel, modifier: Modifier) {
     val list = rememberLazyListState()
     val colors = MaterialTheme.colorScheme
+    // A phone's short list shows the line being spoken at its top; a tall one keeps a couple of lines before it in view.
+    val above = if (LocalWindowWidth.current.isCompact) 0 else FOLLOW_ABOVE
     LaunchedEffect(current) {
         val at = current ?: return@LaunchedEffect
         val visible = list.layoutInfo.visibleItemsInfo
         val shown = visible.any { it.index == at } && visible.lastOrNull()?.index != at
-        if (!shown) list.animateScrollToItem((at - FOLLOW_ABOVE).coerceAtLeast(0))
+        if (!shown) list.animateScrollToItem((at - above).coerceAtLeast(0))
     }
     ScrollList(modifier.clip(AppShapes.card).background(colors.surface).testTag("transcript"), state = list) {
         itemsIndexed(state.lines, key = { _, line -> line.index }) { _, line ->

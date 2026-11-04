@@ -32,7 +32,7 @@ actual val videoSupported: Boolean = true
 actual fun VideoPlayer(source: VideoSource, onController: (VideoController) -> Unit, modifier: Modifier) {
     when (source) {
         is VideoSource.File -> FileVideo(source.uri, onController, modifier)
-        is VideoSource.YouTube -> SilentVideo(source, onController, modifier)
+        is VideoSource.YouTube -> YouTubeVideo(source, onController, modifier)
     }
 }
 

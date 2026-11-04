@@ -40,6 +40,21 @@ import com.tayra.languages.core.ui.media.sidecarSubtitleFiles
 import com.tayra.languages.core.ui.media.videoAddress
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.runtime.remember
+import androidx.compose.ui.draw.clip
+import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.ui.components.AppSpinner
+import com.tayra.languages.core.ui.components.Segment
+import com.tayra.languages.core.ui.components.SegmentedToggle
+import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.SwitchSetting
+import com.tayra.languages.core.ui.media.VideoController
+import com.tayra.languages.core.ui.media.VideoPlayer
+import com.tayra.languages.core.ui.media.VideoSource
+import com.tayra.languages.core.ui.media.YouTubeTrack
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 import io.github.vinceglb.filekit.dialogs.FileKitType
@@ -78,6 +93,11 @@ fun AddVideoScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onAdded: (Lo
         AddVideoContent(
             state,
             AddVideoActions(
+                onOrigin = viewModel::setOrigin,
+                onYouTubeInput = viewModel::setYouTubeInput,
+                onYouTubePlayer = viewModel::onYouTubePlayer,
+                onTrack = viewModel::chooseTrack,
+                onTranslate = viewModel::setTranslate,
                 onPickMedia = { mediaPicker.launch() },
                 onPickSubtitles = { subtitlePicker.launch() },
                 onPickTranslation = { translationPicker.launch() },
@@ -92,6 +112,11 @@ fun AddVideoScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onAdded: (Lo
 }
 
 internal class AddVideoActions(
+    val onOrigin: (VideoOrigin) -> Unit = {},
+    val onYouTubeInput: (String) -> Unit = {},
+    val onYouTubePlayer: (VideoController) -> Unit = {},
+    val onTrack: (YouTubeTrack) -> Unit = {},
+    val onTranslate: (Boolean) -> Unit = {},
     val onPickMedia: () -> Unit,
     val onPickSubtitles: () -> Unit,
     val onPickTranslation: () -> Unit,
@@ -111,7 +136,30 @@ internal fun AddVideoContent(state: AddVideoUiState, actions: AddVideoActions, m
         contentModifier = Modifier.padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl).widthIn(max = FORM_WIDTH),
         verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
     ) {
-        ScreenHeader(tr("Add video"), tr("A video or audio file with its subtitles."))
+        ScreenHeader(tr("Add video"), tr("A video file with its subtitles, or a YouTube video."))
+        SegmentedToggle(
+            listOf(Segment(VideoOrigin.FILE, AppIcons.Movie, tr("Video file"), testTag = "origin-file"), Segment(VideoOrigin.YOUTUBE, AppIcons.Link, "YouTube", testTag = "origin-youtube")),
+            selected = state.origin,
+            onSelect = actions.onOrigin,
+        )
+        if (state.origin == VideoOrigin.YOUTUBE) {
+            YouTubeForm(state, actions)
+        } else {
+            FileForm(state, actions)
+        }
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            Text(tr("Title"), style = AppText.label)
+            AppTextField(state.title, actions.onTitle, Modifier.fillMaxWidth().testTag("video-title"), singleLine = true)
+        }
+        state.error?.let { Notice(tr(it), tint = colors.error) }
+        PrimaryButton(tr("Add video"), onClick = actions.onAdd, enabled = state.canAdd, loading = state.saving, icon = AppIcons.Movie, modifier = Modifier.testTag("add-video-confirm"))
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun FileForm(state: AddVideoUiState, actions: AddVideoActions) {
+    val colors = MaterialTheme.colorScheme
         AppCard(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Text(tr("Video file"), style = AppText.itemTitle)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -153,13 +201,68 @@ internal fun AddVideoContent(state: AddVideoUiState, actions: AddVideoActions, m
                 }
             }
         }
-        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            Text(tr("Title"), style = AppText.label)
-            AppTextField(state.title, actions.onTitle, Modifier.fillMaxWidth().testTag("video-title"), singleLine = true)
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun YouTubeForm(state: AddVideoUiState, actions: AddVideoActions) {
+    val colors = MaterialTheme.colorScheme
+    val pick = state.youtube
+    AppCard(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        Text(tr("YouTube link"), style = AppText.itemTitle)
+        AppTextField(
+            pick.input,
+            actions.onYouTubeInput,
+            Modifier.fillMaxWidth().testTag("youtube-link"),
+            singleLine = true,
+            placeholder = { Text("https://www.youtube.com/watch?v=…") },
+        )
+        if (pick.input.isNotBlank() && pick.id == null) {
+            Text(tr("This is not a YouTube video link."), style = MaterialTheme.typography.bodySmall, color = colors.error)
         }
-        state.error?.let { Notice(tr(it), tint = colors.error) }
-        PrimaryButton(tr("Add video"), onClick = actions.onAdd, enabled = state.canAdd, loading = state.saving, icon = AppIcons.Movie, modifier = Modifier.testTag("add-video-confirm"))
+        pick.id?.let { id ->
+            val source = remember(id, state.languageCode) { VideoSource.YouTube(id, state.languageCode) }
+            Box(Modifier.fillMaxWidth().widthIn(max = PREVIEW_WIDTH).aspectRatio(PREVIEW_RATIO).clip(AppShapes.small)) {
+                VideoPlayer(source, onController = actions.onYouTubePlayer, modifier = Modifier.fillMaxSize())
+            }
+        }
+        when {
+            pick.unsupported -> Notice(tr("YouTube videos can't be added on this device yet."), tint = colors.error)
+            pick.loading -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                AppSpinner(size = SpinnerSize.Small)
+                Text(tr("Reading the video…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            }
+        }
+        pick.details?.let { details ->
+            details.channel?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
+            if (details.tracks.isNotEmpty()) {
+                Text(tr("Subtitles"), style = AppText.label)
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                    val labels = details.tracks.map { trackLabel(it) }
+                    details.tracks.forEachIndexed { i, track ->
+                        // Two tracks of one language (Brazil's and Portugal's, say) go by YouTube's own names for them.
+                        val label = if (labels.count { it == labels[i] } > 1) track.name.ifBlank { track.languageCode } else labels[i]
+                        SelectableChip(label, selected = pick.track == track, onClick = { actions.onTrack(track) }, modifier = Modifier.testTag("track-${track.languageCode}-${track.automatic}"))
+                    }
+                }
+                pick.track?.takeIf { it.automatic }?.let {
+                    Text(tr("Automatic subtitles have no punctuation; their pieces are joined into lines."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                }
+                SwitchSetting(
+                    tr("YouTube's translation"),
+                    tr("Show YouTube's translation of each line into your language."),
+                    checked = pick.translate,
+                    onChange = actions.onTranslate,
+                )
+            }
+        }
     }
+}
+
+@Composable
+private fun trackLabel(track: YouTubeTrack): String {
+    val language = LanguageCodes.option(track.languageCode.substringBefore('-'))?.name ?: track.name.ifBlank { track.languageCode }
+    return if (track.automatic) tr("{0} (automatic)", language) else language
 }
 
 @Composable
@@ -167,3 +270,5 @@ private fun describe(picked: PickedSubtitles): String =
     "${picked.name} · ${trPlural(picked.cues.size, "{0} line", "{0} lines")} · ${formatClock(picked.lastMs)}"
 
 private val FORM_WIDTH = 720.dp
+private val PREVIEW_WIDTH = 560.dp
+private const val PREVIEW_RATIO = 16f / 9f
