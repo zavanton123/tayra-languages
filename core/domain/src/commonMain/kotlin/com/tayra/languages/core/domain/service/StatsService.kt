@@ -8,6 +8,7 @@ import com.tayra.languages.core.domain.stats.LearningStatsRepository
 import com.tayra.languages.core.domain.stats.ChartPoint
 import com.tayra.languages.core.domain.stats.LanguageReadCounts
 import com.tayra.languages.core.domain.stats.ReadingStats
+import com.tayra.languages.core.domain.stats.SavedWord
 import com.tayra.languages.core.domain.stats.StudyActivity
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone
@@ -77,6 +78,9 @@ class StatsService(
         val read = ReadingStats.byLanguage(wordsRead.dailyCounts())[languageName].orEmpty()
         return StudyActivity.of(read, activity.reviews, activity.termsSaved, today())
     }
+
+    /** The words counted as saved today in the language with [languageId], the latest first. */
+    suspend fun savedToday(languageId: Long): List<SavedWord> = learning.savedOn(languageId, today())
 
     suspend fun streak(): Int =ReadingStats.streak(wordsRead.dailyCounts().mapTo(HashSet()) { it.date }, today())
 

@@ -8,6 +8,12 @@ import com.tayra.languages.core.domain.playlists.ListeningPosition
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
@@ -73,12 +79,14 @@ class HomeScreenTest {
 
     private fun at(daysAgo: Int): Instant = today.atStartOfDayIn(zone) - (daysAgo * 24).hours + 12.hours
 
+    private var portuguese = 0L
+
     /** Read three days ago, answered flashcards the day before yesterday and yesterday, and saved two words today. */
     private val activity = runBlocking {
-        val id = LanguageRepositoryImpl(provider).save(Language(name = "Portuguese"))
+        val id = LanguageRepositoryImpl(provider).save(Language(name = "Portuguese")).also { portuguese = it }
         WordsReadRepositoryImpl(provider, zone).add(WordsReadEntry(languageId = id, pageId = null, readAt = at(3), wordCount = 400))
         val terms = TermRepositoryImpl(provider)
-        val saved = listOf("casa", "gato").map { terms.save(Term(languageId = id, text = it, textLc = it, status = TermStatus.NEW_1)) }
+        val saved = listOf("casa" to "house", "gato" to null).map { (text, translation) -> terms.save(Term(languageId = id, text = text, textLc = text, status = TermStatus.NEW_1, translation = translation)) }
         DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { c ->
             saved.forEach { c.createStatement().execute("UPDATE terms SET created_at = ${at(0).toEpochMilliseconds()} WHERE id = $it") }
         }
@@ -115,6 +123,36 @@ class HomeScreenTest {
                 }
             }
         }
+    }
+
+    /** The tile of the words saved today opens their list, the latest first; choosing one opens it. */
+    @Test
+    fun theWordsSavedTodayAreListedFromTheirTile() = runDesktopComposeUiTest(width = 1586, height = 1200) {
+        val visited = mutableListOf<Route>()
+        val words = runBlocking { stats.savedToday(portuguese) }
+        setContent {
+            var shown by remember { mutableStateOf(false) }
+            TayraTheme {
+                ProvideWindowWidth {
+                    PageColumn(PaddingValues()) {
+                        HomeContent(HomeUiState(loading = false, languageName = "Portuguese", activity = activity), onNavigate = {}, onContinueCourse = {}, onSavedToday = { shown = true })
+                    }
+                    if (shown) SavedTodayDialog(words, onOpen = { visited += Route.EditTerm(it) }, onDismiss = { shown = false })
+                }
+            }
+        }
+        onNodeWithTag("tile-words-today").performClick()
+        onNodeWithTag("saved-today").assertExists()
+        assertEquals(listOf("gato", "casa"), words.map { it.text })
+        onNodeWithText("house").assertExists()
+        System.getenv("SAVED_TODAY_SCREENSHOT")?.let { path ->
+            waitForIdle()
+            ImageIO.write(onAllNodes(isRoot())[1].captureToImage().toAwtImage(), "png", File(path))
+        }
+        onNodeWithTag("saved-word-${words.last().termId}").performClick()
+        assertEquals(listOf<Route>(Route.EditTerm(words.last().termId)), visited)
+        onNodeWithTag("saved-today-close").performClick()
+        assertEquals(0, onAllNodesWithTag("saved-today").fetchSemanticsNodes().size)
     }
 
     @Test

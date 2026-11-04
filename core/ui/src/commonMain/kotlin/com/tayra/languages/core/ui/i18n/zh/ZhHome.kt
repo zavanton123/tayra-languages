@@ -27,4 +27,5 @@ internal val zhHome: Map<String, String> = mapOf(
     "{1} days studied since {2}" to "自 {2} 起共学习 {1} 天",
     "Less study" to "学习较少",
     "More study" to "学习较多",
+    "No words saved yet today." to "今天还没有保存单词。",
 )

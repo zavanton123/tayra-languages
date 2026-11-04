@@ -86,12 +86,16 @@ fun HomeScreen(onNavigate: (Route) -> Unit, viewModel: HomeViewModel = koinViewM
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold
         }
-        PageColumn(padding) { HomeContent(state, onNavigate, onContinueCourse = viewModel::continueCourse, onContinuePlaylist = viewModel::continuePlaylist) }
+        PageColumn(padding) { HomeContent(state, onNavigate, onContinueCourse = viewModel::continueCourse, onContinuePlaylist = viewModel::continuePlaylist, onSavedToday = viewModel::showSavedToday) }
+    }
+    val savedToday by viewModel.savedToday.collectAsStateWithLifecycle()
+    savedToday?.let { words ->
+        SavedTodayDialog(words, onOpen = { viewModel.closeSavedToday(); onNavigate(Route.EditTerm(it)) }, onDismiss = viewModel::closeSavedToday)
     }
 }
 
 @Composable
-internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit, onContinuePlaylist: () -> Unit = {}) {
+internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit, onContinuePlaylist: () -> Unit = {}, onSavedToday: () -> Unit = {}) {
     val width = LocalWindowWidth.current
     // A completed book is history, not something Home should offer to continue. The view-model
     // already filters it out; keeping the guard here also protects previews and direct callers.
@@ -103,12 +107,12 @@ internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onCont
     )
     val activity = shownState.activity
     if (width.isCompact) {
-        PhoneHomeContent(shownState, onNavigate, onContinueCourse, onContinuePlaylist)
+        PhoneHomeContent(shownState, onNavigate, onContinueCourse, onContinuePlaylist, onSavedToday)
         return
     }
     if (activity != null) {
         Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-            WordsTodayTile(activity, Modifier.weight(1f).fillMaxHeight())
+            WordsTodayTile(activity, Modifier.weight(1f).fillMaxHeight(), onSavedToday)
             StreakTile(activity, Modifier.weight(1f).fillMaxHeight())
         }
     }
@@ -142,12 +146,12 @@ internal fun phonePrimaryActivity(state: HomeUiState): PhonePrimaryActivity = wh
 
 /** One prominent next step, followed by compact alternatives and secondary progress figures. */
 @Composable
-private fun PhoneHomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit, onContinuePlaylist: () -> Unit) {
-    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { PhoneHomeItems(state, onNavigate, onContinueCourse, onContinuePlaylist) }
+private fun PhoneHomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit, onContinuePlaylist: () -> Unit, onSavedToday: () -> Unit) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { PhoneHomeItems(state, onNavigate, onContinueCourse, onContinuePlaylist, onSavedToday) }
 }
 
 @Composable
-private fun PhoneHomeItems(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit, onContinuePlaylist: () -> Unit) {
+private fun PhoneHomeItems(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit, onContinuePlaylist: () -> Unit, onSavedToday: () -> Unit) {
     val courseUnderWay = state.course?.status == LessonStatus.IN_PROGRESS && state.course.nextLesson != null
     val primary = phonePrimaryActivity(state)
     Box(Modifier.fillMaxWidth().testTag("primary-activity")) {
@@ -164,7 +168,7 @@ private fun PhoneHomeItems(state: HomeUiState, onNavigate: (Route) -> Unit, onCo
     }
     state.activity?.let { activity ->
         Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            WordsTodayTile(activity, Modifier.weight(1f).fillMaxHeight())
+            WordsTodayTile(activity, Modifier.weight(1f).fillMaxHeight(), onSavedToday)
             StreakTile(activity, Modifier.weight(1f).fillMaxHeight())
         }
     }
@@ -299,10 +303,10 @@ private fun SecondaryActivityRow(
 }
 
 @Composable
-private fun WordsTodayTile(activity: StudyActivity, modifier: Modifier) {
+private fun WordsTodayTile(activity: StudyActivity, modifier: Modifier, onClick: () -> Unit) {
     val weekStart = activity.today.minus(6, DateTimeUnit.DAY)
     val week = activity.days.filterKeys { it in weekStart..activity.today }.values.sumOf { it.wordsSaved }
-    Tile(tr("Words saved today"), formatCount(animatedCount(activity.savedToday)), tr("{0} this week", formatCount(week)), AppIcons.Abc, AppAccents.orange, "words-today", modifier)
+    Tile(tr("Words saved today"), formatCount(animatedCount(activity.savedToday)), tr("{0} this week", formatCount(week)), AppIcons.Abc, AppAccents.orange, "words-today", modifier, onClick)
 }
 
 @Composable
@@ -316,8 +320,8 @@ private fun StreakTile(activity: StudyActivity, modifier: Modifier) {
 }
 
 @Composable
-private fun Tile(label: String, value: String, detail: String, icon: ImageVector, tint: Color, tag: String, modifier: Modifier) =
-    StatTile(label, value, detail, icon, tint, modifier.testTag("tile-$tag"))
+private fun Tile(label: String, value: String, detail: String, icon: ImageVector, tint: Color, tag: String, modifier: Modifier, onClick: (() -> Unit)? = null) =
+    StatTile(label, value, detail, icon, tint, modifier.testTag("tile-$tag"), onClick)
 
 @Composable
 private fun CourseCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNavigate: (Route) -> Unit, onContinue: () -> Unit) {

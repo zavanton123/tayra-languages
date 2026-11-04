@@ -27,4 +27,5 @@ internal val esHome: Map<String, String> = mapOf(
     "{1} days studied since {2}" to "{1} día de estudio desde {2}|{1} días de estudio desde {2}",
     "Less study" to "Menos estudio",
     "More study" to "Más estudio",
+    "No words saved yet today." to "Todavía no has guardado ninguna palabra hoy.",
 )

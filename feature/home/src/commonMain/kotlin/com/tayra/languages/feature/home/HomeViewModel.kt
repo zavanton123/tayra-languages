@@ -15,6 +15,7 @@ import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.StatsService
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.domain.stats.SavedWord
 import com.tayra.languages.core.domain.stats.StudyActivity
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.state.UiEvents
@@ -61,7 +62,7 @@ class HomeViewModel(
     flashcards: FlashcardService,
     private val stats: StatsService,
     languages: LanguageRepository,
-    settings: SettingsRepository,
+    private val settings: SettingsRepository,
     /** The playlists, for the one under way; null leaves it out, as in tests. */
     playlists: PlaylistService? = null,
     private val player: PlaylistPlayer? = null,
@@ -96,6 +97,19 @@ class HomeViewModel(
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), HomeUiState())
 
     fun refresh() = refreshes.update { it + 1 }
+
+    private val _savedToday = MutableStateFlow<List<SavedWord>?>(null)
+
+    /** The words saved today, while they are shown; null otherwise. */
+    val savedToday: StateFlow<List<SavedWord>?> = _savedToday
+
+    fun showSavedToday() {
+        viewModelScope.launch { _savedToday.value = stats.savedToday(settings.current.currentLanguageId) }
+    }
+
+    fun closeSavedToday() {
+        _savedToday.value = null
+    }
 
     /** Goes on with the playlist under way, from where listening stopped. */
     fun continuePlaylist() {

@@ -2,6 +2,7 @@ package com.tayra.languages.core.domain.stats
 
 import com.tayra.languages.core.domain.model.TermStatus
 import kotlinx.datetime.LocalDate
+import kotlin.time.Instant
 
 /** What the database holds about the reader's work in one language, beyond the words read. */
 data class LanguageActivity(
@@ -15,9 +16,15 @@ data class LanguageActivity(
     val booksFinished: Int = 0,
 )
 
+/** A word counted in [LanguageActivity.termsSaved]. */
+data class SavedWord(val termId: Long, val text: String, val translation: String?, val status: TermStatus, val savedAt: Instant)
+
 /** Reads [LanguageActivity] from the database. */
 fun interface LearningStatsRepository {
     suspend fun activity(languageId: Long): LanguageActivity
+
+    /** The words counted in [LanguageActivity.termsSaved] on [day], the latest first. */
+    suspend fun savedOn(languageId: Long, day: LocalDate): List<SavedWord> = emptyList()
 }
 
 /** One language's progress, ready to show. */

@@ -27,4 +27,5 @@ internal val plHome: Map<String, String> = mapOf(
     "{1} days studied since {2}" to "{1} dzień nauki od {2}|{1} dni nauki od {2}|{1} dni nauki od {2}",
     "Less study" to "Mniej nauki",
     "More study" to "Więcej nauki",
+    "No words saved yet today." to "Dziś nie zapisano jeszcze żadnych słów.",
 )

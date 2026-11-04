@@ -27,4 +27,5 @@ internal val elHome: Map<String, String> = mapOf(
     "{1} days studied since {2}" to "{1} ημέρα μελέτης από {2}|{1} ημέρες μελέτης από {2}",
     "Less study" to "Λιγότερη μελέτη",
     "More study" to "Περισσότερη μελέτη",
+    "No words saved yet today." to "Δεν έχουν αποθηκευτεί λέξεις σήμερα ακόμη.",
 )

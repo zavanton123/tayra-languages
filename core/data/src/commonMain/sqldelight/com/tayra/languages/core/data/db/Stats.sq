@@ -9,6 +9,13 @@ termSavedTimes:
 SELECT created_at FROM terms
 WHERE language_id = :languageId AND status BETWEEN 1 AND 4 AND id NOT IN (SELECT term_id FROM level_terms);
 
+-- The same words saved from :since until before :until, the latest first.
+termsSavedBetween:
+SELECT id, text, translation, status, created_at FROM terms
+WHERE language_id = :languageId AND status BETWEEN 1 AND 4 AND id NOT IN (SELECT term_id FROM level_terms)
+    AND created_at >= :since AND created_at < :until
+ORDER BY created_at DESC, id DESC;
+
 reviewTimes:
 SELECT r.reviewed_at, r.rating FROM flashcard_reviews r INNER JOIN terms t ON t.id = r.term_id
 WHERE t.language_id = :languageId;

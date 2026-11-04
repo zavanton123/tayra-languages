@@ -8,6 +8,10 @@ import com.tayra.languages.core.domain.flashcards.Rating
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.stats.LanguageActivity
 import com.tayra.languages.core.domain.stats.LearningStatsRepository
+import com.tayra.languages.core.domain.stats.SavedWord
+import kotlinx.datetime.DateTimeUnit
+import kotlinx.datetime.atStartOfDayIn
+import kotlinx.datetime.plus
 import kotlinx.coroutines.withContext
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone
@@ -31,6 +35,15 @@ class LearningStatsRepositoryImpl(
             pagesRead = queries.pagesRead(languageId).awaitAsOne().toInt(),
             booksFinished = queries.booksFinished(languageId).awaitAsOne().toInt(),
         )
+    }
+
+    override suspend fun savedOn(languageId: Long, day: LocalDate): List<SavedWord> = withContext(databaseDispatcher) {
+        val since = day.atStartOfDayIn(timeZone).toEpochMilliseconds()
+        val until = day.plus(1, DateTimeUnit.DAY).atStartOfDayIn(timeZone).toEpochMilliseconds()
+        provider.database().statsQueries.termsSavedBetween(languageId, since, until).awaitAsList().mapNotNull { row ->
+            val status = TermStatus.fromValueOrNull(row.status.toInt()) ?: return@mapNotNull null
+            SavedWord(row.id, row.text, row.translation?.takeIf { it.isNotBlank() }, status, row.created_at.toInstant())
+        }
     }
 
     private fun Long.day(): LocalDate = toInstant().toLocalDateTime(timeZone).date

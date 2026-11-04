@@ -242,10 +242,10 @@ fun ContentCard(
  * takes two lines in large text rather than being cut.
  */
 @Composable
-fun StatTile(label: String, value: String, detail: String, icon: ImageVector, tint: Color, modifier: Modifier = Modifier) {
+fun StatTile(label: String, value: String, detail: String, icon: ImageVector, tint: Color, modifier: Modifier = Modifier, onClick: (() -> Unit)? = null) {
     val compact = LocalWindowWidth.current.isCompact
     Row(
-        modifier.cardSurface(AppShapes.card).padding(if (compact) AppSpacing.l else AppSpacing.xl),
+        modifier.cardSurface(AppShapes.card).then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier).padding(if (compact) AppSpacing.l else AppSpacing.xl),
         verticalAlignment = Alignment.Top,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
