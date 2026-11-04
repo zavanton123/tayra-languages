@@ -60,4 +60,8 @@ internal val deVideos: Map<String, String> = mapOf(
     "Its lines can still be read and looked up here." to "Seine Zeilen lassen sich hier trotzdem lesen und nachschlagen.",
     "Watch on YouTube" to "Auf YouTube ansehen",
     "Get VLC" to "VLC holen",
+    "Nothing hidden" to "Nichts verborgen",
+    "Translations hidden" to "Übersetzungen verborgen",
+    "Lines hidden" to "Zeilen verborgen",
+    "Pause when looking up a word" to "Beim Nachschlagen eines Worts pausieren",
 )

@@ -31,6 +31,11 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.blur
+import androidx.compose.ui.graphics.graphicsLayer
+import com.tayra.languages.core.domain.media.VideoBlur
+import com.tayra.languages.core.ui.components.OverflowMenu
+import com.tayra.languages.core.ui.components.softBlurAvailable
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.input.key.Key
@@ -138,7 +143,7 @@ private fun WatchContent(state: WatchUiState, playback: CuePlayback?, viewModel:
         }
     }
     Box(
-        modifier.fillMaxSize().focusRequester(focus).focusable().onKeyEvent { event -> event.type == KeyEventType.KeyDown && handleKey(event.key, event.isAltPressed, event.isCtrlPressed || event.isMetaPressed, playback) },
+        modifier.fillMaxSize().focusRequester(focus).focusable().onKeyEvent { event -> event.type == KeyEventType.KeyDown && handleKey(event.key, event.isAltPressed, event.isCtrlPressed || event.isMetaPressed, playback, viewModel) },
     ) {
         if (compact) {
             Column(Modifier.fillMaxSize()) {
@@ -200,10 +205,14 @@ private fun VideoProblemNotice(problem: VideoProblem, onChooseFile: () -> Unit, 
 }
 
 /** The keys of watching, as reading aloud has them: Space or W plays and pauses, A, S and D go back, again and on. */
-private fun handleKey(key: Key, alt: Boolean, ctrl: Boolean, playback: CuePlayback?): Boolean {
+private fun handleKey(key: Key, alt: Boolean, ctrl: Boolean, playback: CuePlayback?, viewModel: WatchViewModel): Boolean {
     val p = playback ?: return false
     if (ctrl) return false
     when {
+        !alt && key == Key.E -> viewModel.revealCurrent()
+        !alt && key == Key.H -> viewModel.cycleBlur()
+        !alt && key == Key.Comma -> p.setRate((p.rate.value - RATE_STEP).coerceAtLeast(MIN_RATE))
+        !alt && key == Key.Period -> p.setRate((p.rate.value + RATE_STEP).coerceAtMost(MAX_RATE))
         alt && key == Key.DirectionLeft -> p.seekBy(-SEEK_MS)
         alt && key == Key.DirectionRight -> p.seekBy(SEEK_MS)
         alt -> return false
@@ -230,16 +239,26 @@ private fun CurrentLine(state: WatchUiState, current: Int?, viewModel: WatchView
             Text(" ", style = if (compact) AppText.itemTitle else AppText.headline)
             return@Column
         }
+        // The line being spoken is heard, so with lines hidden it stays hidden until revealed (E, or a click).
+        val hideLine = state.blur == VideoBlur.LINE && line.index !in state.revealed
+        val hideTranslation = hideLine || (state.blur == VideoBlur.TRANSLATION && line.index !in state.revealed)
         TranscriptText(
             line.items,
             style = (if (compact) AppText.itemTitle else AppText.headline).copy(color = colors.onSurface),
+            modifier = Modifier.hidden(hideLine).testTag("current-line-text"),
             picked = state.picked?.takeIf { it.line == line.index }?.item,
             textAlign = TextAlign.Center,
-            onWord = { viewModel.pickWord(line.index, it) },
-            onLine = {},
+            onWord = { if (hideLine) viewModel.reveal(line.index) else viewModel.pickWord(line.index, it) },
+            onLine = { if (hideLine) viewModel.reveal(line.index) },
         )
         if (state.showTranslations) {
-            Text(line.translation.orEmpty(), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+            Text(
+                line.translation.orEmpty(),
+                Modifier.hidden(hideTranslation).clickable(enabled = hideTranslation) { viewModel.reveal(line.index) },
+                style = MaterialTheme.typography.bodyLarge,
+                color = colors.onSurfaceVariant,
+                textAlign = TextAlign.Center,
+            )
         }
     }
 }
@@ -269,7 +288,24 @@ private fun Controls(state: WatchUiState, playback: CuePlayback?, viewModel: Wat
             modifier = Modifier.testTag("auto-pause"),
         )
         SelectableChip(tr("Translation"), selected = state.showTranslations, onClick = { viewModel.setShowTranslations(!state.showTranslations) }, modifier = Modifier.testTag("show-translations"))
+        SelectableChip(
+            when (state.blur) {
+                VideoBlur.OFF -> tr("Nothing hidden")
+                VideoBlur.TRANSLATION -> tr("Translations hidden")
+                VideoBlur.LINE -> tr("Lines hidden")
+            },
+            selected = state.blur != VideoBlur.OFF,
+            onClick = viewModel::cycleBlur,
+            modifier = Modifier.testTag("blur"),
+        )
         SpeedMenu(playback)
+        OverflowMenu(tr("More")) { close ->
+            AppMenuItem(
+                text = { Text(if (state.pauseOnLookup) "✓ " + tr("Pause when looking up a word") else tr("Pause when looking up a word")) },
+                onClick = { close(); viewModel.setPauseOnLookup(!state.pauseOnLookup) },
+                modifier = Modifier.testTag("pause-on-lookup"),
+            )
+        }
     }
 }
 
@@ -331,15 +367,23 @@ private fun Transcript(state: WatchUiState, current: Int?, playback: CuePlayback
                     .semantics { if (isCurrent) stateDescription = CURRENT_LINE },
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs),
             ) {
+                val hideLine = state.hidesLine(line.index, current)
+                val hideTranslation = state.hidesTranslation(line.index, current)
                 TranscriptText(
                     line.items,
                     style = MaterialTheme.typography.bodyLarge.copy(color = colors.onSurface),
+                    modifier = Modifier.hidden(hideLine),
                     picked = state.picked?.takeIf { it.line == line.index }?.item,
-                    onWord = { viewModel.pickWord(line.index, it) },
+                    onWord = { if (hideLine) playback?.jumpTo(line.index) else viewModel.pickWord(line.index, it) },
                     onLine = { playback?.jumpTo(line.index) },
                 )
                 if (state.showTranslations && line.translation != null) {
-                    Text(line.translation, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                    Text(
+                        line.translation,
+                        Modifier.hidden(hideTranslation).clickable(enabled = hideTranslation) { viewModel.reveal(line.index) },
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = colors.onSurfaceVariant,
+                    )
                 }
             }
         }
@@ -374,10 +418,21 @@ private fun TermPane(state: WatchUiState, viewModel: WatchViewModel, onNavigate:
 /** Where the video plays: the platform's player, or a stand-in. */
 typealias PlayerSlot = @Composable (source: VideoSource, onController: (VideoController) -> Unit, modifier: Modifier) -> Unit
 
+/** Hides text while its kind is hidden: blurred where blurring draws, else all but invisible. */
+private fun Modifier.hidden(hide: Boolean): Modifier = when {
+    !hide -> this
+    softBlurAvailable -> blur(HIDE_BLUR)
+    else -> graphicsLayer { alpha = AppAlpha.faint }
+}
+
 /** The state description of the line being spoken, for tests and accessibility tools. */
 internal const val CURRENT_LINE = "current line"
 
 private const val VIDEO_RATIO = 16f / 9f
+private const val RATE_STEP = 0.1f
+private const val MIN_RATE = 0.5f
+private const val MAX_RATE = 2f
+private val HIDE_BLUR = 8.dp
 private const val VLC_SITE = "https://www.videolan.org/vlc/"
 private const val VIDEO_WEIGHT = 0.56f
 private const val TRANSCRIPT_WEIGHT = 0.44f

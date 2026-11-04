@@ -60,4 +60,8 @@ internal val ruVideos: Map<String, String> = mapOf(
     "Its lines can still be read and looked up here." to "Его реплики можно читать и переводить здесь.",
     "Watch on YouTube" to "Смотреть на YouTube",
     "Get VLC" to "Скачать VLC",
+    "Nothing hidden" to "Всё видно",
+    "Translations hidden" to "Переводы скрыты",
+    "Lines hidden" to "Реплики скрыты",
+    "Pause when looking up a word" to "Пауза при поиске слова",
 )

@@ -1,5 +1,8 @@
 package com.tayra.languages.core.data.settings
 
+
+import com.tayra.languages.core.domain.media.AutoPause
+import com.tayra.languages.core.domain.media.VideoBlur
 import co.touchlab.kermit.Logger
 import com.russhwolf.settings.Settings
 import com.tayra.languages.core.domain.language.LanguageCatalog
@@ -130,6 +133,10 @@ class SettingsRepositoryImpl(
             zhuyin = store.getBoolean(Keys.ZHUYIN, defaults.zhuyin),
             speakWordOnClick = store.getBoolean(Keys.SPEAK_WORD_ON_CLICK, defaults.speakWordOnClick),
             autoPause = store.getBoolean(Keys.AUTO_PAUSE, defaults.autoPause),
+            videoAutoPause = AutoPause.entries.firstOrNull { it.name == store.getString(Keys.VIDEO_AUTO_PAUSE, "") } ?: defaults.videoAutoPause,
+            videoPauseOnLookup = store.getBoolean(Keys.VIDEO_PAUSE_ON_LOOKUP, defaults.videoPauseOnLookup),
+            videoTranslations = store.getBoolean(Keys.VIDEO_TRANSLATIONS, defaults.videoTranslations),
+            videoBlur = VideoBlur.entries.firstOrNull { it.name == store.getString(Keys.VIDEO_BLUR, "") } ?: defaults.videoBlur,
             speechEngine = SpeechEngine.entries.firstOrNull { it.name == store.getString(Keys.SPEECH_ENGINE, "") } ?: defaults.speechEngine,
             speechVoices = store.getString(Keys.SPEECH_VOICES, "").split('\n').mapNotNull { line -> line.split('\t').takeIf { it.size == 2 }?.let { it[0] to it[1] } }.toMap(),
             speechSpeed = speechSpeed,
@@ -258,6 +265,10 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.ZHUYIN, s.zhuyin)
         store.putBoolean(Keys.SPEAK_WORD_ON_CLICK, s.speakWordOnClick)
         store.putBoolean(Keys.AUTO_PAUSE, s.autoPause)
+        store.putString(Keys.VIDEO_AUTO_PAUSE, s.videoAutoPause.name)
+        store.putBoolean(Keys.VIDEO_PAUSE_ON_LOOKUP, s.videoPauseOnLookup)
+        store.putBoolean(Keys.VIDEO_TRANSLATIONS, s.videoTranslations)
+        store.putString(Keys.VIDEO_BLUR, s.videoBlur.name)
         store.putString(Keys.SPEECH_ENGINE, s.speechEngine.name)
         store.putString(Keys.SPEECH_VOICES, s.speechVoices.entries.joinToString("\n") { "${it.key}\t${it.value}" })
         store.putFloat(Keys.SPEECH_SPEED, s.speechSpeed)
@@ -340,6 +351,10 @@ class SettingsRepositoryImpl(
         const val ZHUYIN = "reading_zhuyin"
         const val SPEAK_WORD_ON_CLICK = "reading_speak_word_on_click"
         const val AUTO_PAUSE = "reading_auto_pause"
+        const val VIDEO_AUTO_PAUSE = "video_auto_pause"
+        const val VIDEO_PAUSE_ON_LOOKUP = "video_pause_on_lookup"
+        const val VIDEO_TRANSLATIONS = "video_translations"
+        const val VIDEO_BLUR = "video_blur"
         const val LATER_HOTKEY_DEFAULTS = "hotkeys_later_defaults_applied"
         const val CTRL_WORD_HOTKEYS = "hotkeys_ctrl_word_applied_v2"
         const val KNOWN_HOTKEY = "hotkeys_known_on_k_applied"

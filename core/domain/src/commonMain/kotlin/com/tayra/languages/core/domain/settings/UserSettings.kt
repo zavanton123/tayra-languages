@@ -1,5 +1,7 @@
 package com.tayra.languages.core.domain.settings
 
+import com.tayra.languages.core.domain.media.AutoPause
+import com.tayra.languages.core.domain.media.VideoBlur
 import com.tayra.languages.core.domain.flashcards.AnswerMode
 import com.tayra.languages.core.domain.flashcards.AutoAnswer
 import com.tayra.languages.core.domain.flashcards.BacklogOrder
@@ -44,6 +46,14 @@ data class UserSettings(
     val speakWordOnClick: Boolean = false,
     /** Continuous reading stops after each sentence, so the next press of play reads the following one. */
     val autoPause: Boolean = false,
+    /** After which lines a video pauses by itself. */
+    val videoAutoPause: AutoPause = AutoPause.OFF,
+    /** Looking a word up in a video's lines pauses the video. */
+    val videoPauseOnLookup: Boolean = true,
+    /** A video's lines show their translations. */
+    val videoTranslations: Boolean = true,
+    /** What of a video's lines stays hidden until it is revealed. */
+    val videoBlur: VideoBlur = VideoBlur.OFF,
     /** The engine that reads sentences and terms aloud. */
     val speechEngine: SpeechEngine = SpeechEngine.SYSTEM,
     /** The chosen voice per engine and language, keyed `ENGINE:code`. */

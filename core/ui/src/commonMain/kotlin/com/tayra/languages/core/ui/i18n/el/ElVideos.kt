@@ -60,4 +60,8 @@ internal val elVideos: Map<String, String> = mapOf(
     "Its lines can still be read and looked up here." to "Οι γραμμές του μπορούν ακόμη να διαβαστούν και να αναζητηθούν εδώ.",
     "Watch on YouTube" to "Παρακολούθηση στο YouTube",
     "Get VLC" to "Λήψη του VLC",
+    "Nothing hidden" to "Τίποτα κρυφό",
+    "Translations hidden" to "Μεταφράσεις κρυφές",
+    "Lines hidden" to "Γραμμές κρυφές",
+    "Pause when looking up a word" to "Παύση όταν αναζητάτε μια λέξη",
 )

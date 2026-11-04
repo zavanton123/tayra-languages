@@ -60,4 +60,8 @@ internal val zhVideos: Map<String, String> = mapOf(
     "Its lines can still be read and looked up here." to "仍可在这里阅读和查询它的字幕。",
     "Watch on YouTube" to "在 YouTube 上观看",
     "Get VLC" to "获取 VLC",
+    "Nothing hidden" to "全部显示",
+    "Translations hidden" to "隐藏翻译",
+    "Lines hidden" to "隐藏字幕",
+    "Pause when looking up a word" to "查词时暂停",
 )

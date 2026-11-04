@@ -25,6 +25,7 @@ import com.tayra.languages.core.domain.media.SubtitleTrack
 import com.tayra.languages.core.domain.media.TranslationSource
 import com.tayra.languages.core.domain.media.VideoImport
 import com.tayra.languages.core.domain.media.VideoKind
+import com.tayra.languages.core.domain.media.VideoBlur
 import com.tayra.languages.core.domain.media.VideoService
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.service.BookStatsService
@@ -82,7 +83,7 @@ class VideosScreenTest {
         )
     }
 
-    private fun watch() = WatchViewModel(bookId, videos, books, languages, reading, BookStatsService(books, languages, settings, reading), translator)
+    private fun watch() = WatchViewModel(bookId, videos, books, languages, reading, BookStatsService(books, languages, settings, reading), translator, settings)
 
     @Test
     fun theWatchScreenShowsTheTranscriptAndFollowsTheLines() = runDesktopComposeUiTest(width = 1500, height = 900) {
@@ -180,5 +181,31 @@ class VideosScreenTest {
         assertEquals(auto, AddVideoViewModel.bestTrack(listOf(english, auto), "pt"))
         assertEquals(english, AddVideoViewModel.bestTrack(listOf(english), "pt"))
         assertEquals(null, AddVideoViewModel.bestTrack(emptyList(), "pt"))
+    }
+
+    @Test
+    fun watchingChoicesAreKeptForTheNextVideo() = runBlocking {
+        val vm = watch()
+        vm.setBlur(VideoBlur.LINE)
+        vm.setShowTranslations(false)
+        vm.setPauseOnLookup(false)
+        val start = System.currentTimeMillis()
+        while (settings.current.videoPauseOnLookup && System.currentTimeMillis() - start < 3_000) Thread.sleep(20)
+        assertEquals(VideoBlur.LINE, settings.current.videoBlur)
+        assertEquals(false, settings.current.videoTranslations)
+        val next = watch().state.value
+        assertEquals(VideoBlur.LINE, next.blur)
+        assertEquals(false, next.showTranslations)
+        assertEquals(false, next.pauseOnLookup)
+    }
+
+    @Test
+    fun hiddenLinesAreThoseNotHeardYetAndRevealedOnesShow() {
+        val lines = WatchUiState(blur = VideoBlur.LINE, revealed = setOf(3))
+        // Heard lines show; the one being spoken and those to come stay hidden, unless revealed.
+        assertEquals(listOf(false, true, true, false), (0..3).map { lines.hidesLine(it, current = 1) })
+        val translations = WatchUiState(blur = VideoBlur.TRANSLATION, revealed = setOf(2))
+        assertEquals(listOf(true, true, false), (0..2).map { translations.hidesTranslation(it, current = 1) })
+        assertEquals(false, WatchUiState().hidesTranslation(0, null))
     }
 }

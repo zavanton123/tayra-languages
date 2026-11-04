@@ -23,6 +23,17 @@ interface MediaClock {
     fun setRate(rate: Float)
 }
 
+/** What of a video's lines stays hidden until revealed, for listening first. */
+enum class VideoBlur {
+    OFF,
+
+    /** The translations: the line is read, its meaning worked out first. */
+    TRANSLATION,
+
+    /** The lines themselves, with their translations, until they have been heard. */
+    LINE,
+}
+
 enum class AutoPause {
     OFF,
 

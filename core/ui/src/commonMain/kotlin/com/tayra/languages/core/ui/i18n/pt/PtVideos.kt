@@ -60,4 +60,8 @@ internal val ptVideos: Map<String, String> = mapOf(
     "Its lines can still be read and looked up here." to "Suas linhas ainda podem ser lidas e consultadas aqui.",
     "Watch on YouTube" to "Assistir no YouTube",
     "Get VLC" to "Baixar o VLC",
+    "Nothing hidden" to "Nada oculto",
+    "Translations hidden" to "Traduções ocultas",
+    "Lines hidden" to "Linhas ocultas",
+    "Pause when looking up a word" to "Pausar ao consultar uma palavra",
 )

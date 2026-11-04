@@ -7,6 +7,7 @@ import com.tayra.languages.core.domain.media.Cue
 import com.tayra.languages.core.domain.media.CuePlayback
 import com.tayra.languages.core.domain.media.StoredCue
 import com.tayra.languages.core.domain.media.Video
+import com.tayra.languages.core.domain.media.VideoBlur
 import com.tayra.languages.core.domain.media.VideoRepository
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
@@ -16,6 +17,7 @@ import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.SentenceTranslator
+import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.media.VideoController
 import com.tayra.languages.core.ui.media.VideoProblem
 import com.tayra.languages.feature.terms.form.TermFormKey
@@ -61,8 +63,21 @@ data class WatchUiState(
     val termKey: String = "",
     val showTranslations: Boolean = true,
     val pauseOnLookup: Boolean = true,
+    val blur: VideoBlur = VideoBlur.OFF,
+    /** Lines shown on purpose while their kind is hidden. */
+    val revealed: Set<Int> = emptySet(),
     val error: String? = null,
-)
+) {
+    /** Whether [line]'s own text is hidden: with lines hidden, until it has been heard or revealed. */
+    fun hidesLine(line: Int, current: Int?): Boolean = blur == VideoBlur.LINE && line !in revealed && (current == null || line >= current)
+
+    /** Whether [line]'s translation is hidden. */
+    fun hidesTranslation(line: Int, current: Int?): Boolean = when (blur) {
+        VideoBlur.OFF -> false
+        VideoBlur.TRANSLATION -> line !in revealed
+        VideoBlur.LINE -> hidesLine(line, current)
+    }
+}
 
 class WatchViewModel(
     private val bookId: Long,
@@ -72,8 +87,11 @@ class WatchViewModel(
     private val reading: ReadingService,
     private val bookStats: BookStatsService,
     private val translator: SentenceTranslator,
+    private val settings: SettingsRepository,
 ) : ViewModel() {
-    private val _state = MutableStateFlow(WatchUiState())
+    private val _state = MutableStateFlow(
+        settings.current.let { WatchUiState(showTranslations = it.videoTranslations, pauseOnLookup = it.videoPauseOnLookup, blur = it.videoBlur) },
+    )
     val state: StateFlow<WatchUiState> = _state.asStateFlow()
 
     private val _playback = MutableStateFlow<CuePlayback?>(null)
@@ -90,7 +108,7 @@ class WatchViewModel(
     private var controllerJobs: List<Job> = emptyList()
     private var translationJob: Job? = null
     private var pagesRead = mutableSetOf<Int>()
-    private var autoPause = AutoPause.OFF
+    private var autoPause = settings.current.videoAutoPause
 
     init {
         viewModelScope.launch { load(firstTime = true) }
@@ -166,6 +184,13 @@ class WatchViewModel(
             viewModelScope.launch {
                 playback.current.collect { index -> if (index != null) onLine(index) }
             },
+            // The Q key changes it on the playback itself; it is kept for next time all the same.
+            viewModelScope.launch {
+                playback.autoPause.collect { mode ->
+                    autoPause = mode
+                    if (settings.current.videoAutoPause != mode) settings.update { it.copy(videoAutoPause = mode) }
+                }
+            },
         )
     }
 
@@ -209,10 +234,29 @@ class WatchViewModel(
 
     fun setShowTranslations(show: Boolean) {
         _state.update { it.copy(showTranslations = show) }
+        viewModelScope.launch { settings.update { it.copy(videoTranslations = show) } }
         if (show) translateAround(_playback.value?.current?.value ?: 0)
     }
 
-    fun setPauseOnLookup(pause: Boolean) = _state.update { it.copy(pauseOnLookup = pause) }
+    fun setPauseOnLookup(pause: Boolean) {
+        _state.update { it.copy(pauseOnLookup = pause) }
+        viewModelScope.launch { settings.update { it.copy(videoPauseOnLookup = pause) } }
+    }
+
+    fun setBlur(blur: VideoBlur) {
+        _state.update { it.copy(blur = blur, revealed = emptySet()) }
+        viewModelScope.launch { settings.update { it.copy(videoBlur = blur) } }
+    }
+
+    fun cycleBlur() = setBlur(VideoBlur.entries[(state.value.blur.ordinal + 1) % VideoBlur.entries.size])
+
+    /** Shows the hidden part of [line]. */
+    fun reveal(line: Int) = _state.update { it.copy(revealed = it.revealed + line) }
+
+    /** Shows the hidden part of the line being spoken, as the E key does. */
+    fun revealCurrent() {
+        _playback.value?.current?.value?.let(::reveal)
+    }
 
     /** Translates the lines near [index] that have no translation yet, the current one first. */
     fun translateAround(index: Int) {
