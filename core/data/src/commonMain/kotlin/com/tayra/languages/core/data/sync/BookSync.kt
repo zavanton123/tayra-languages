@@ -136,7 +136,7 @@ internal data class WordsReadRow(
     }, deviceId = device)
 }
 
-internal val BOOK_KINDS = setOf(SyncKinds.BOOK, SyncKinds.PAGE, SyncKinds.BOOKMARK, SyncKinds.WORDS_READ, SyncKinds.PLAYLIST)
+internal val BOOK_KINDS = setOf(SyncKinds.BOOK, SyncKinds.PAGE, SyncKinds.BOOKMARK, SyncKinds.WORDS_READ, SyncKinds.PLAYLIST, SyncKinds.VIDEO)
 
 internal val BOOK_TOMBSTONES = setOf("book", "page", "bookmark", "playlist")
 
@@ -153,6 +153,7 @@ internal class BookReader(private val db: TayraDatabase, private val device: Str
         q.changedBookmarks(since, ::BookmarkRow).awaitAsList().forEach { row -> row.record(device)?.let { records += it } }
         q.changedWordsRead(since, ::WordsReadRow).awaitAsList().forEach { row -> codeOf(row.language)?.let { records += row.record(it, device) } }
         q.changedPlaylists(since, ::PlaylistRow).awaitAsList().forEach { row -> codeOf(row.language)?.let { records += playlistRecord(db, row, it, device) } }
+        records += changedVideos(db, since, device)
         return records.filter { r -> if (r.kind == SyncKinds.BOOKMARK) fits(r.key.substringBefore('\n')) else fits(r.key) }
     }
 
@@ -295,6 +296,16 @@ internal class BookWriter(private val db: TayraDatabase, private val device: Str
             val pageId = remote.data?.string("page")?.let(::pageParts)?.let { (key, order) -> find(key)?.let { q.pageId(it.id, order).awaitAsOneOrNull() } }
             q.insertWordsRead(language, pageId, readAt, remote.data?.long("wordCount") ?: 0, remote.updatedAt)
             changed++
+        }
+
+        // After the texts and their pages, so a video's text made by this sync is there for it.
+        for (remote in records.filter { it.kind == SyncKinds.VIDEO }) {
+            val book = if (remote.key in waiting) null else find(remote.key)
+            if (book == null) {
+                if (!remote.deleted) deferred += remote
+                continue
+            }
+            if (applyVideo(db, remote, book.id, device)) changed++
         }
 
         val playlists = PlaylistWriter(db, device, languageId)

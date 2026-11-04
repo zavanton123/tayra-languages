@@ -125,3 +125,25 @@ UPDATE video_cues SET begin_ms = max(0, begin_ms + :deltaMs), end_ms = max(0, en
 -- Bumps the video's record for sync when its cues change, which no trigger sees.
 touch:
 UPDATE videos SET updated_at = updated_at WHERE book_id = :bookId;
+
+-- Sync
+
+changedVideos:
+SELECT v.book_id, v.kind, v.media, v.channel, v.thumbnail, v.duration_ms, v.position_ms, v.subtitle_kind, v.created_at, v.updated_at,
+    b.sync_id, b.source_uri, b.title, l.name AS language
+FROM videos v
+JOIN books b ON b.id = v.book_id
+JOIN languages l ON l.id = b.language_id
+WHERE v.updated_at > :since;
+
+videoRowOfBook:
+SELECT v.book_id, v.kind, v.media, v.channel, v.thumbnail, v.duration_ms, v.position_ms, v.subtitle_kind, v.created_at, v.updated_at,
+    b.sync_id, b.source_uri, b.title, l.name AS language
+FROM videos v
+JOIN books b ON b.id = v.book_id
+JOIN languages l ON l.id = b.language_id
+WHERE v.book_id = :bookId;
+
+putVideo:
+INSERT OR REPLACE INTO videos(book_id, kind, media, channel, thumbnail, duration_ms, position_ms, subtitle_kind, created_at, updated_at)
+VALUES (:bookId, :kind, :media, :channel, :thumbnail, :durationMs, :positionMs, :subtitleKind, :createdAt, :updatedAt);

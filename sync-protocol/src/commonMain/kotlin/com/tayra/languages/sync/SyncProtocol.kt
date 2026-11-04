@@ -46,6 +46,9 @@ object SyncKinds {
     const val BOOKMARK = "bookmark"
     const val WORDS_READ = "words_read"
     const val PLAYLIST = "playlist"
+
+    /** A video's player and timed lines, keyed as its transcript's text is. */
+    const val VIDEO = "video"
     const val SETTING = "setting"
 
     /** Kinds whose records are only ever added: two devices never disagree on one, so they are never merged. */
