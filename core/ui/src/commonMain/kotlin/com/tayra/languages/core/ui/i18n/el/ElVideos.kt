@@ -64,4 +64,9 @@ internal val elVideos: Map<String, String> = mapOf(
     "Translations hidden" to "Μεταφράσεις κρυφές",
     "Lines hidden" to "Γραμμές κρυφές",
     "Pause when looking up a word" to "Παύση όταν αναζητάτε μια λέξη",
+    "Lines" to "Γραμμές",
+    "New first" to "Πρώτα οι νέες",
+    "Most frequent" to "Οι πιο συχνές",
+    "{0} new" to "{0} νέα|{0} νέες",
+    "A–Z" to "Α–Ω",
 )

@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.media.VideoListItem
 import com.tayra.languages.core.domain.media.VideoRepository
 import com.tayra.languages.core.domain.repository.BookRepository
+import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -28,7 +29,11 @@ class VideosViewModel(
     videos: VideoRepository,
     private val books: BookRepository,
     settings: SettingsRepository,
+    private val bookStats: BookStatsService,
 ) : ViewModel() {
+    /** Videos whose share of known words is being counted, so each is counted once. */
+    private val counting = mutableSetOf<Long>()
+
     private val _state = MutableStateFlow(VideosUiState())
     val state: StateFlow<VideosUiState> = _state.asStateFlow()
 
@@ -36,7 +41,13 @@ class VideosViewModel(
         viewModelScope.launch {
             combine(videos.observeVideos(), settings.settings.map { it.currentLanguageId }) { all, language ->
                 all.filter { it.video.languageId == language }
-            }.collect { list -> _state.update { it.copy(loading = false, videos = list) } }
+            }.collect { list ->
+                _state.update { it.copy(loading = false, videos = list) }
+                // A video's statistics are counted once and kept; until then the card has no "% known".
+                list.filter { it.unknownPercent == null && counting.add(it.video.bookId) }.forEach { item ->
+                    launch { runCatching { bookStats.stats(item.video.bookId) } }
+                }
+            }
         }
     }
 

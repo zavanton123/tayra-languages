@@ -49,6 +49,51 @@ data class TranscriptLine(
     val hasUnknownWords: Boolean get() = items.any { it.isWord && (it.status == TermStatus.UNKNOWN || it.status == TermStatus.NEW_1) }
 }
 
+/** A word of a video: how often it comes, its status and meaning, and where it first comes. */
+data class VideoWord(
+    val text: String,
+    val textLc: String,
+    val status: TermStatus,
+    val translation: String?,
+    val count: Int,
+    val firstLine: Int,
+    val firstItem: Int,
+)
+
+/** How the words of a video are listed. */
+enum class WordOrder { NEW_FIRST, MOST_FREQUENT, ALPHABETICAL }
+
+/** The words of [lines], each once (a phrase counts as its own word), ordered by [order]. */
+fun videoWords(lines: List<TranscriptLine>, order: WordOrder): List<VideoWord> {
+    val found = LinkedHashMap<String, VideoWord>()
+    for (line in lines) {
+        line.items.forEachIndexed { i, item ->
+            if (!item.isWord) return@forEachIndexed
+            val key = item.textLc
+            val known = found[key]
+            found[key] = known?.copy(count = known.count + 1)
+                ?: VideoWord(item.renderText, key, item.status, item.term?.translation, 1, line.index, i)
+        }
+    }
+    val words = found.values.toList()
+    return when (order) {
+        WordOrder.NEW_FIRST -> words.sortedWith(compareBy<VideoWord> { statusRank(it.status) }.thenByDescending { it.count }.thenBy { it.textLc })
+        WordOrder.MOST_FREQUENT -> words.sortedWith(compareByDescending<VideoWord> { it.count }.thenBy { it.textLc })
+        WordOrder.ALPHABETICAL -> words.sortedBy { it.textLc }
+    }
+}
+
+/** New words first, then those being learned (the least known first), then known and ignored ones. */
+private fun statusRank(status: TermStatus): Int = when (status) {
+    TermStatus.UNKNOWN -> 0
+    TermStatus.NEW_1 -> 1
+    TermStatus.NEW_2 -> 2
+    TermStatus.LEARNING_3 -> 3
+    TermStatus.LEARNING_4 -> 4
+    TermStatus.WELL_KNOWN -> 5
+    TermStatus.IGNORED -> 6
+}
+
 /** The word picked in the transcript, by its line and its place there. */
 data class PickedWord(val line: Int, val item: Int)
 

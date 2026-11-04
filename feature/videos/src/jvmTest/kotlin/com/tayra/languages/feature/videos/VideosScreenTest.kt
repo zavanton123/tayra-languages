@@ -113,6 +113,13 @@ class VideosScreenTest {
             waitForIdle()
             ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
+        onNodeWithTag("tab-words").performClick()
+        onNodeWithTag("video-words").assertExists()
+        onNodeWithText("gato").assertExists()
+        System.getenv("WATCH_WORDS_SCREENSHOT")?.let { path ->
+            waitForIdle()
+            ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
     }
 
     @Test
@@ -136,7 +143,7 @@ class VideosScreenTest {
     @Test
     fun theListShowsTheVideosOfTheLanguageAndAddsNewOnes() = runDesktopComposeUiTest(width = 1200, height = 800) {
         val visited = mutableListOf<Route>()
-        val list = VideosViewModel(videos, books, settings)
+        val list = VideosViewModel(videos, books, settings, BookStatsService(books, languages, settings, reading))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -207,5 +214,20 @@ class VideosScreenTest {
         val translations = WatchUiState(blur = VideoBlur.TRANSLATION, revealed = setOf(2))
         assertEquals(listOf(true, true, false), (0..2).map { translations.hidesTranslation(it, current = 1) })
         assertEquals(false, WatchUiState().hidesTranslation(0, null))
+    }
+
+    @Test
+    fun theWordsOfAVideoAreCountedOnceAndListedNewFirst() = runBlocking {
+        val vm = watch()
+        val start = System.currentTimeMillis()
+        while (vm.state.value.loading && System.currentTimeMillis() - start < 5_000) Thread.sleep(20)
+        val words = videoWords(vm.state.value.lines, WordOrder.MOST_FREQUENT)
+        assertEquals(words.map { it.textLc }.toSet().size, words.size, "each word once")
+        assertEquals("o", words.first().textLc, "'o' comes most often")
+        assertEquals(2, words.first().count)
+        val gato = words.single { it.textLc == "gato" }
+        assertEquals(1, gato.firstLine)
+        assertEquals("gato", vm.state.value.lines[1].items[gato.firstItem].renderText)
+        assertEquals(words.sortedBy { it.textLc }, videoWords(vm.state.value.lines, WordOrder.ALPHABETICAL))
     }
 }

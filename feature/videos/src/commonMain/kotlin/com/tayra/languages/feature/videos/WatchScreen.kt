@@ -31,6 +31,15 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.foundation.lazy.items
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextOverflow
+import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.ui.components.Segment
+import com.tayra.languages.core.ui.components.SegmentedToggle
+import com.tayra.languages.core.ui.components.StatusDot
+import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.LocalAppTheme
 import androidx.compose.ui.draw.blur
 import androidx.compose.ui.graphics.graphicsLayer
 import com.tayra.languages.core.domain.media.VideoBlur
@@ -150,7 +159,7 @@ private fun WatchContent(state: WatchUiState, playback: CuePlayback?, viewModel:
                 player(Modifier)
                 CurrentLine(state, current, viewModel, compact = true)
                 Controls(state, playback, viewModel, Modifier.padding(horizontal = AppSpacing.m))
-                Transcript(state, current, playback, viewModel, Modifier.weight(1f))
+                TranscriptPanel(state, current, playback, viewModel, Modifier.weight(1f))
             }
             if (state.term != null) {
                 AppBottomSheet(onDismissRequest = viewModel::closeTerm) {
@@ -164,7 +173,7 @@ private fun WatchContent(state: WatchUiState, playback: CuePlayback?, viewModel:
                     Controls(state, playback, viewModel)
                     CurrentLine(state, current, viewModel, compact = false)
                 }
-                Transcript(state, current, playback, viewModel, Modifier.weight(TRANSCRIPT_WEIGHT).fillMaxHeight())
+                TranscriptPanel(state, current, playback, viewModel, Modifier.weight(TRANSCRIPT_WEIGHT).fillMaxHeight())
                 if (state.term != null) {
                     SidePanel(TERM_PANE_WIDTH, Modifier.fillMaxHeight()) { TermPane(state, viewModel, onNavigate) }
                 }
@@ -342,6 +351,59 @@ private fun SpeedMenu(playback: CuePlayback?) {
 }
 
 private fun speedLabel(speed: Float): String = if (speed == speed.toInt().toFloat()) "${speed.toInt()}×" else "$speed×"
+
+/** The transcript and, on its other tab, the video's words. */
+@Composable
+private fun TranscriptPanel(state: WatchUiState, current: Int?, playback: CuePlayback?, viewModel: WatchViewModel, modifier: Modifier) {
+    var words by remember { mutableStateOf(false) }
+    Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        SegmentedToggle(
+            listOf(Segment(false, label = tr("Lines"), testTag = "tab-lines"), Segment(true, label = tr("Words"), testTag = "tab-words")),
+            selected = words,
+            onSelect = { words = it },
+            modifier = Modifier.padding(horizontal = AppSpacing.s),
+        )
+        if (words) WordsList(state, viewModel, Modifier.weight(1f)) else Transcript(state, current, playback, viewModel, Modifier.weight(1f))
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun WordsList(state: WatchUiState, viewModel: WatchViewModel, modifier: Modifier) {
+    var order by remember { mutableStateOf(WordOrder.NEW_FIRST) }
+    val words = remember(state.lines, order) { videoWords(state.lines, order) }
+    val colors = MaterialTheme.colorScheme
+    val statuses = LocalAppTheme.current.statusColors
+    Column(modifier.clip(AppShapes.card).background(colors.surface)) {
+        FlowRow(Modifier.padding(AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            SelectableChip(tr("New first"), selected = order == WordOrder.NEW_FIRST, onClick = { order = WordOrder.NEW_FIRST })
+            SelectableChip(tr("Most frequent"), selected = order == WordOrder.MOST_FREQUENT, onClick = { order = WordOrder.MOST_FREQUENT })
+            SelectableChip(tr("A–Z"), selected = order == WordOrder.ALPHABETICAL, onClick = { order = WordOrder.ALPHABETICAL })
+        }
+        Text(
+            trPlural(words.size, "{0} word", "{0} words") + " · " + trPlural(words.count { it.status == TermStatus.UNKNOWN }, "{0} new", "{0} new"),
+            Modifier.padding(horizontal = AppSpacing.m),
+            style = MaterialTheme.typography.bodySmall,
+            color = colors.onSurfaceVariant,
+        )
+        ScrollList(Modifier.weight(1f).testTag("video-words")) {
+            items(words, key = { it.textLc }) { word ->
+                Row(
+                    Modifier.fillMaxWidth().clickable { viewModel.pickWord(word.firstLine, word.firstItem) }.padding(horizontal = AppSpacing.m, vertical = AppSpacing.s),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+                ) {
+                    StatusDot(statuses.background(word.status).takeIf { it != Color.Transparent } ?: colors.outlineVariant)
+                    Column(Modifier.weight(1f)) {
+                        Text(word.text, style = AppText.label)
+                        word.translation?.takeIf { it.isNotBlank() }?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis) }
+                    }
+                    Text("×${word.count}", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                }
+            }
+        }
+    }
+}
 
 @Composable
 private fun Transcript(state: WatchUiState, current: Int?, playback: CuePlayback?, viewModel: WatchViewModel, modifier: Modifier) {

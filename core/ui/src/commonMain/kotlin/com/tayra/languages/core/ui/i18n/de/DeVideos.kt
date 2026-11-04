@@ -64,4 +64,9 @@ internal val deVideos: Map<String, String> = mapOf(
     "Translations hidden" to "Übersetzungen verborgen",
     "Lines hidden" to "Zeilen verborgen",
     "Pause when looking up a word" to "Beim Nachschlagen eines Worts pausieren",
+    "Lines" to "Zeilen",
+    "New first" to "Neue zuerst",
+    "Most frequent" to "Am häufigsten",
+    "{0} new" to "{0} neu|{0} neu",
+    "A–Z" to "A–Z",
 )

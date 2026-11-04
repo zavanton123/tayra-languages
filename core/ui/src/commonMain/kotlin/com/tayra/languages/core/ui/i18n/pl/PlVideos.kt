@@ -64,4 +64,9 @@ internal val plVideos: Map<String, String> = mapOf(
     "Translations hidden" to "Tłumaczenia ukryte",
     "Lines hidden" to "Linijki ukryte",
     "Pause when looking up a word" to "Pauza przy sprawdzaniu słowa",
+    "Lines" to "Linijki",
+    "New first" to "Najpierw nowe",
+    "Most frequent" to "Najczęstsze",
+    "{0} new" to "{0} nowe|{0} nowe|{0} nowych",
+    "A–Z" to "A–Z",
 )

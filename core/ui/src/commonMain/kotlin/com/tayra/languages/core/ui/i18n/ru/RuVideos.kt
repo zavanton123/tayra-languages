@@ -64,4 +64,9 @@ internal val ruVideos: Map<String, String> = mapOf(
     "Translations hidden" to "Переводы скрыты",
     "Lines hidden" to "Реплики скрыты",
     "Pause when looking up a word" to "Пауза при поиске слова",
+    "Lines" to "Реплики",
+    "New first" to "Сначала новые",
+    "Most frequent" to "Самые частые",
+    "{0} new" to "{0} новое|{0} новых|{0} новых",
+    "A–Z" to "А–Я",
 )

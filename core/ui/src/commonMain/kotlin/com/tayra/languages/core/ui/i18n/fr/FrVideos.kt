@@ -64,4 +64,9 @@ internal val frVideos: Map<String, String> = mapOf(
     "Translations hidden" to "Traductions masquées",
     "Lines hidden" to "Lignes masquées",
     "Pause when looking up a word" to "Mettre en pause pour chercher un mot",
+    "Lines" to "Lignes",
+    "New first" to "Nouveaux d'abord",
+    "Most frequent" to "Les plus fréquents",
+    "{0} new" to "{0} nouveau|{0} nouveaux",
+    "A–Z" to "A–Z",
 )

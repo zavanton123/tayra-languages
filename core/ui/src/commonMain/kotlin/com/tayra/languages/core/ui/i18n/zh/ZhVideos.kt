@@ -64,4 +64,9 @@ internal val zhVideos: Map<String, String> = mapOf(
     "Translations hidden" to "隐藏翻译",
     "Lines hidden" to "隐藏字幕",
     "Pause when looking up a word" to "查词时暂停",
+    "Lines" to "字幕",
+    "New first" to "生词优先",
+    "Most frequent" to "最常出现",
+    "{0} new" to "{0} 个生词",
+    "A–Z" to "按字母",
 )
