@@ -1,0 +1,200 @@
+{
+  "id": "la-mini-8900",
+  "rankUpTo": 8900,
+  "level": "C2",
+  "title": "Musica popularis et classica",
+  "description": "Ten stories about traditional and classical music: collecting shepherds' songs, a triangle player, a rescued violin, a brass band, clay whistles and ringing stones, a revived song, a milking song, a company choir, a leap-day orchestra and a zoo of sounds.",
+  "topic": "Traditional and classical music",
+  "names": [
+    "Veturia",
+    "Mediolanum",
+    "Iunius",
+    "Bauzanum",
+    "Pupius",
+    "Titinia",
+    "Vindobona",
+    "Cluvius",
+    "Cremona",
+    "Cominius",
+    "Mamilia",
+    "Bergomum",
+    "Arruntius",
+    "December",
+    "Caesennia",
+    "Faventia",
+    "Pinarius",
+    "Duilius",
+    "September",
+    "Lipsia",
+    "Allia",
+    "Volumnius",
+    "Lartia",
+    "Plautius",
+    "Ticinum",
+    "Tettius",
+    "Ummidia",
+    "Patavium",
+    "Laelia",
+    "Mucius",
+    "Atilia",
+    "Februarius",
+    "Ianuarius",
+    "Berolinum",
+    "Helvius",
+    "Oppia"
+  ],
+  "lessons": [
+    {
+      "title": "Carmina vallis conquisita",
+      "summary": "A Milan musicologist takes the train to a mountain village to collect old shepherds' songs before they are forgotten, records an old bagpiper in a smoky inn kitchen and says goodbye with a promise to return.",
+      "newWords": [
+        "conquiro",
+        "hamaxostichus",
+        "deverto",
+        "ovinus",
+        "coriaceus",
+        "fumosus",
+        "graphium",
+        "quaesitio",
+        "praeservo",
+        "valedico"
+      ],
+      "text": "Veturia, quae Mediolani in universitate musicam popularem docet, hoc anno quaesitionem novam suscepit. Carmina vetera vallium montanarum conquirere vult, quae pastores et agricolae olim cantabant et quae nunc pauci tantum senes meminerunt. Pleraque enim ex his carminibus numquam litteris mandata sunt: patres ea filiis, matres filiabus voce tradiderunt. Si nemo ea nunc conquirit, cum ultimis cantoribus evanescent. Quaesitio igitur Veturiae non solum ad scientiam pertinet; carmina praeservare vult, sicut bibliothecarii codices veteres praeservant.\n\nMense Iunio Veturia Mediolano hamaxosticho profecta est. Hamaxostichus primum per campos planos currebat, deinde per valles angustas lente ascendebat, praeter lacus caeruleos et silvas obscuras. Bauzani in alium hamaxostichum transiit, minorem et lentiorem, qui eam per multos pontes et cuniculos usque ad vicum parvum in summa valle vexit. Ibi in hospitio quodam devertit, quod eadem familia iam centum annos tenet. Hospites qui ibi devertunt plerumque montes ascendere volunt; Veturia sola carmina quaerebat.\n\nCulina hospitii fumosa erat, nam focus vetus fumum non totum per caminum emittebat, et trabes tecti fumo nigrae factae erant. In hac culina fumosa tamen vesperi senes vici conveniebant ut colloquerentur et interdum canerent. Primo vespere Veturia ibi Pupium cognovit, pastorem octoginta annos natum, qui iuvenis per singulas aestates greges ovium in prata alta duxerat.\n\nPupius utriculum secum habebat, instrumentum quo pastores vallis olim utebantur. Uter eius ex pelle ovina factus erat, coriaceus et fuscus, et ex eo tres tibiae ligneae prominebant. «Hanc pellem ovinam pater meus ipse paravit», inquit Pupius; «ideo tam coriacea est et tam diu durat.» Deinde aerem in utrem flavit et carmen vetus cecinit quo pastores vespere greges ad stabula vocabant.\n\nVeturia carmen telephono excepit, sed etiam graphio verba in libello scripsit, quia Pupius dialecto vallis canebat, quam nullus apparatus recte intellegit. Per totam hebdomadem in culina fumosa sedebat et graphio scribebat, dum Pupius et amici eius canebant: carmina de nive et de ovibus, de messe et de nuptiis, carmina quibus matres infantes sopiebant. Tam multa scribebat ut graphium cotidie acuendum esset.\n\nUltimo die Veturia quadraginta carmina conquisiverat. Antequam discessit, senibus in culina valedixit. «Gratias vobis ago», inquit. «Haec carmina in archivo universitatis praeservabuntur, et studiosi ea ex libello meo discent.» Pupius, cum ei valediceret, utriculum ostendit. «Redi proxima aestate», inquit; «alia carmina interea meminero.» Veturia promisit se rediturum esse. Cum hamaxostichus e vico descenderet, libellum suum aperuit et verba primi carminis legit, quasi vocem Pupii adhuc audiret.\n\nQuaestiones:\nQuid Veturia hoc anno conquirere vult?\nCarmina vetera vallium montanarum conquirere vult, quae pauci tantum senes meminerunt.\nCur Veturia haec carmina praeservare vult?\nQuia pleraque numquam scripta sunt et cum ultimis cantoribus evanescent.\nQuomodo Veturia ad vicum pervenit?\nMediolano hamaxosticho profecta est et Bauzani in alium hamaxostichum transiit.\nEx qua re uter instrumenti Pupii factus est?\nEx pelle ovina coriacea factus est, quam pater Pupii paravit.\nCur Veturia verba graphio in libello scribebat?\nQuia Pupius dialecto vallis canebat, quam nullus apparatus recte intellegit."
+    },
+    {
+      "title": "Trigonum",
+      "summary": "In Vienna a young percussion student plays the triangle in her first orchestra concert, comes in too early at the long rehearsal, blushes, and learns from the conductor to wait for his nod.",
+      "newWords": [
+        "trigonum",
+        "percussio",
+        "nutus",
+        "synchronus",
+        "semicirculus",
+        "defatigo",
+        "fessus",
+        "erubesco",
+        "levamen"
+      ],
+      "text": "Titinia, puella undeviginti annos nata, Vindobonae in conservatorio instrumenta percussionis discit. Tympana et campanas pulsare scit; sed in primo concentu orchestrae conservatorii ei mandatum est instrumentum parvum et simplex: trigonum. Trigonum est virga ferrea in tres partes flexa, quae, cum virgula ferrea pulsatur, sonum clarum et tenuem reddit, qui per totam orchestram auditur.\n\nAmici eius rident. «Trigonum?» inquiunt. «Quid facilius est?» Titinia autem mox intellegit trigonum non esse facile. In tota symphonia, quae quadraginta minuta durat, tantum undecim percussiones trigoni scriptae sunt. Inter percussiones longa silentia sunt, in quibus Titinia mensuras numerare debet nec umquam desinere. Si una percussio nimis mature vel nimis sero venit, omnes audiunt.\n\nOrchestra in semicirculo sedet circa magistrum Cluvium, qui eam dirigit. In primo semicirculo ii sedent qui fidibus canunt, in altero ii qui tibiis, in ultimo, post ceteros, ii qui tubis et cornibus canunt, et instrumenta percussionis. Ex loco suo Titinia faciem Cluvii vix videt, sed nutum eius videre debet. Cluvius enim ante omnes introitus difficiles parvum nutum dat, ut musici simul incipiant. «Percussio trigoni», inquit Cluvius, «synchrona esse debet cum primo sono fidium. Si synchrona non est, totus locus corrumpitur.»\n\nPridie concentus probatio longa et difficilis fuit. Sex horas musici canebant, et Cluvius singulas partes iterum atque iterum repeti iubebat. Probatio omnes defatigavit, nam tam longae probationes etiam musicos peritos defatigant; et Cluvius quoque ipse defatigatus erat. Titinia, quae tot horas numeraverat, tam fessa erat ut paene dormiret. In loco ultimo, cum mente fessa numerare desisset, trigonum una mensura nimis mature pulsavit. Percussio clara per silentium sonuit. Omnes musici se verterunt, et Titinia vehementer erubuit; sentiebat genas suas ardere.\n\nCluvius autem non iratus erat. Post probationem eam ad se vocavit. «Noli erubescere», inquit. «Omnes musici fessi errant. Sed noli tantum numerare; spectare quoque debes. Ante percussionem tuam ad te me vertam et nutum dabo. Nutum meum exspecta.» Haec verba Titiniae magno levamini fuerunt.\n\nPostridie in concentu Titinia numeravit et spectavit. Cum locus ultimus appropinquaret, Cluvius ad eam se vertit et capite nutum dedit. Titinia trigonum pulsavit, et percussio cum primo sono fidium synchrona fuit, clara et certa. Post concentum Cluvius eam inter ceteros musicos laudavit, et Titinia iterum erubuit, sed hoc tempore gaudio. Fessa domum rediit, sed magnum levamen sentiebat: undecim percussiones, nullum erratum.\n\nQuaestiones:\nQuod instrumentum Titinia in primo concentu pulsat?\nTrigonum pulsat, instrumentum minimum omnium.\nQuot percussiones trigoni in symphonia scriptae sunt?\nUndecim percussiones trigoni scriptae sunt.\nQuomodo orchestra circa Cluvium sedet?\nOrchestra in semicirculo circa Cluvium sedet.\nCur Titinia in probatione erubuit?\nQuia fessa trigonum una mensura nimis mature pulsavit.\nQuid Titiniae magno levamini fuit?\nVerba Cluvii, qui ei nutum ante percussionem promisit."
+    },
+    {
+      "title": "Violina ex heredio",
+      "summary": "In Cremona an old violin maker repairs a rare eighteenth-century violin found in the attic of a family farm, patching the wormholes, gluing the loose top and fitting a new tailpiece cord.",
+      "newWords": [
+        "resarcio",
+        "conglutino",
+        "funiculus",
+        "erodo",
+        "attenuo",
+        "exaequo",
+        "raritas",
+        "heredium",
+        "sospes"
+      ],
+      "text": "Cremonae, in via angusta prope forum, Cominius officinam habet, in qua iam quinquaginta annos violinas facit et reficit. Quodam mane mulier iuvenis, nomine Mamilia, capsam veterem et pulvere sordidam in officinam portavit. «Avus meus», inquit, «heredium parvum in collibus prope Cremonam habet, quod familia nostra iam plus quam ducentos annos colit. In tabulato heredii hanc capsam invenimus. Nemo scit quis violinam in ea posuerit.»\n\nCominius capsam aperuit et diu tacuit. Intus violina iacebat, fusca et pulvere tecta, sed formae valde elegantis. Per foramen corporis chartulam inspexit, in qua annus 1768 et nomen artificis qui Cremonae laborabat vix legi poterant. «Haec violina magnae raritatis est», inquit. «Pauca huius artificis instrumenta supersunt, et quae supersunt in museis servantur. Raritas tanta est ut res mira sit quod haec in heredio vestro tot annos sospes mansit.»\n\nSospes tamen non omnino erat. Vermes lignum in multis locis eroserant: in dorso parva foramina apparebant, et prope collum lignum tam erosum erat ut digito premi posset. Praeterea tabula superior, quae cum lateribus conglutinari debet, una parte ab eis soluta erat, et rima longa per eam currebat.\n\nCominius per tres menses violinam reficiebat. Primum tabulam solutam diligenter removit. Deinde rimam resarsit: in latere interiore parvas lamellas ligni conglutinavit, quae rimam firmarent. Foramina quae vermes eroserant pulvere ligni et glutine explevit, et lignum collo proximum, quod nimis erosum erat, novo ligno resarsit. Hoc lignum, quod ex trabe vetere sumpserat, cultello attenuavit, donec tam tenue esset quam lignum vetus; deinde superficiem ita exaequavit ut nemo videret ubi lignum vetus et novum coniungerentur. Postremo tabulam superiorem cum lateribus iterum conglutinavit et rimas extrinsecus exaequavit.\n\nRestabant chordae. In parte inferiore violinae lignum parvum, quod chordas tenet, funiculo ad corpus alligatur. Funiculus vetus, et ipse a vermibus erosus, iam se solverat; Cominius funiculum novum et firmum aptavit, nam si funiculus cedit, omnes chordae simul cadunt. Lignum enim, si nimis attenuatur, facile frangitur; si non satis attenuatur, sonus gravis et tristis est. Deinde Cominius chordas novas intendit et paulatim temperavit, donec recte sonarent.\n\nCum Mamilia rediret, Cominius violinam ei tradidit et primum sonum ipse fecit. Sonus erat clarus et calidus, quasi vox quae post longum silentium iterum loquitur. Mamilia lacrimas tenere non potuit. «Avus meus putabat in heredio nihil pretiosum esse praeter terram», inquit. «Nunc violinam habemus quae duo saecula sospes mansit.» Cominius ei suasit ut tantae raritatis instrumentum musico bono commodaret, qui eo in concentibus uteretur et vocem eius iterum audiri faceret.\n\nQuaestiones:\nUbi Mamilia violinam invenit?\nIn tabulato heredii, quod avus eius in collibus prope Cremonam habet.\nCur violina magnae raritatis est?\nQuia pauca huius artificis instrumenta supersunt, et quae supersunt in museis servantur.\nQuid vermes fecerant?\nVermes lignum in multis locis eroserant.\nQuomodo Cominius rimam resarsit?\nIn latere interiore parvas lamellas ligni conglutinavit, quae rimam firmarent.\nQuid fit si funiculus cedit?\nSi funiculus cedit, omnes chordae simul cadunt."
+    },
+    {
+      "title": "Musici ex orichalco",
+      "summary": "In Bergamo the leader of a town brass band struggles to fill the square for its monthly concerts, until a generous patron lends a warm hall for the winter and the band wins back its audience.",
+      "newWords": [
+        "orichalcum",
+        "afflatus",
+        "pellicio",
+        "mensualis",
+        "hibernalis",
+        "tepidus",
+        "magnanimus",
+        "piget"
+      ],
+      "text": "Bergomi, in oppido superiore, caterva musicorum est quae solis instrumentis ex orichalco canit: tubis, cornibus et tuba maxima, quae sonos gravissimos reddit. Orichalcum est metallum flavum, ex aere et zinco mixtum, quod sole splendet et sonum clarum ac fortem dat. Arruntius, qui catervam iam viginti annos dirigit, dicere solet orichalcum esse vocem oppidi.\n\nCaterva concentum mensualem dat: semel in mense, primo die, musici in foro sub divo canunt. Olim hi concentus mensuales multos auditores habebant, qui toto vespere manebant. Nunc autem homines praetereunt, telephona sua spectantes; pauci consistunt, et plausus tepidus est. Arruntium piget haec videre. «Piget me», inquit, «tam pulchram musicam in foro paene vacuo canere. Piget etiam musicos meos, qui toto mense parant.»\n\nDeinde hiems accedit. Mense Decembri afflatus frigidus de montibus descendit, et in foro vix cani potest. Labra musicorum frigore rigent, et orichalcum tam gelidum fit ut digitis haereat. Ne afflatus quidem musicorum, qui per tubas it, satis calidus est ut instrumenta calefaciat. Concentus mensuales igitur hieme intermitti solent, et caterva tres menses in parvo conclavi exercetur, ubi nemo eam audit.\n\nHoc anno autem Caesennia, femina magnanima quae officinam veterem in oppido inferiore possidet, Arruntio aulam magnam officinae obtulit. «Aula mea hieme vacua est», inquit. «Concentus vestros hibernales ibi date. Nihil a vobis peto.» Arruntius, qui tale donum non exspectaverat, ei gratias egit. Caesennia magnanima non solum aulam dedit, sed etiam curavit ut post concentus auditoribus lac tepidum cum pane offerretur.\n\nRestabat quaestio quomodo auditores pellicerentur. Musicus iuvenis, qui tuba canit, consilium dedit: «Saltationes veteres oppidi canamus, quas avi nostri amabant, et pueros invitemus ut instrumenta ex orichalco ipsi tangant. Pueri parentes pellicient, parentes avos.» Arruntius consensit.\n\nPrimus concentus hibernalis aulam semiplenam habuit, et plausus adhuc tepidus erat. Sed pueri, qui tubas et cornua tetigerant, domi narrabant, et ad secundum concentum hibernalem multo plures venerunt. Ad tertium aula plena erat; senes saltationes veteres agnoscebant et una cantabant, et lac tepidum in poculis fumabat. Afflatus frigidus extra fenestras flabat, sed intus calor erat.\n\nVere caterva in forum rediit. Primus concentus mensualis post hiemem multos auditores habuit, nam qui hieme in aulam venerant nunc etiam in forum veniebant. Plausus non iam tepidus erat, sed calidus et longus. Arruntium nihil iam pigebat. Postridie Caesenniae magnanimae epistolam scripsit, in qua dixit nullum orichalcum tam clare sonare quam beneficium eius.\n\nQuaestiones:\nEx quo metallo instrumenta catervae facta sunt?\nEx orichalco facta sunt, metallo flavo ex aere et zinco mixto.\nQuid Arruntium piget?\nPiget eum tam pulchram musicam in foro paene vacuo canere.\nCur concentus mensuales hieme intermitti solent?\nQuia afflatus frigidus de montibus descendit, et labra musicorum frigore rigent.\nQuid Caesennia magnanima catervae obtulit?\nAulam magnam officinae suae obtulit, ubi concentus hibernales darent.\nQuomodo musici auditores pellicere voluerunt?\nSaltationes veteres canere et pueros invitare voluerunt ut instrumenta ipsi tangerent."
+    },
+    {
+      "title": "Fistulae et lapides",
+      "summary": "In Faenza a potter digs wet clay from a marsh to make clay whistles, his neighbour, a stonecutter, finds that some wall stones ring, and together they give a small concert for the town's children.",
+      "newWords": [
+        "figulus",
+        "lapidarius",
+        "murarius",
+        "paluster",
+        "aquosus",
+        "coacervo",
+        "frutex",
+        "perfusus"
+      ],
+      "text": "Faventiae, quae urbs iam multa saecula vasis fictilibus nota est, Pinarius figulus officinam parvam habet. Hic figulus non vasa tantum facit, sed etiam fistulas fictiles, instrumenta parva quae formam ovi vel avis parvae habent et, cum inflantur, sonum dulcem et rotundum reddunt. Pueri eas amant, et musici quoque qui carmina popularia canunt apud Pinarium emere solent.\n\nArgillam Pinarius non emit. Ipse eam e terra palustri effodit, quae prope flumen extra urbem iacet. Ibi, inter frutices et calamos, solum palustre argillam cineream et subtilem continet, quae ad fistulas optima est. Argilla palustris, cum effoditur, aquosa est et gravis, et figulus aquosam argillam statim fingere non potest. Itaque eam domum portat et in area post officinam coacervat. Ibi argilla coacervatur et per aestatem siccatur, et frutices circa aream eam a sole nimio tegunt. Cum Pinarius ex palude redit, sudore et luto perfusus est, sed laetus.\n\nDuilius, vicinus eius, lapidarius est. In officina sua lapides murarios secat, quibus fabri domos et hortos cingunt. Lapides murarios ad mensuram quam fabri murarii postulant secare solet, et lapidarius tam peritus est ut fabri murarii eum ceteris praeferant. Quodam die, cum laminas tenues lapidis secaret, Duilius animadvertit nonnullas laminas, cum malleo leviter pulsarentur, sonare sicut campanas parvas.\n\nDuilius figulum vocavit, et ambo laminas diu pulsabant. «Si laminas variae longitudinis secemus», inquit Pinarius, «sonos varios habebimus, sicut in fistulis meis.» Per totum mensem lapidarius laminas secabat et radebat, figulus eas cum fistulis suis comparabat, donec octo laminae octo sonos fistularum recte redderent. Laminas funiculis ex trabe lignea suspenderunt, ut libere sonarent.\n\nInterim argilla in area siccata erat. Pinarius argillam quam in area coacervaverat, quae iam non aquosa sed mollis erat, in officinam tulit et triginta fistulas novas finxit, quas in furno coxit. Duilius autem, qui officinam suam numquam tam diu reliquerat, statim ad fabros murarios rediit et lapides murarios eis celerius secare coepit.\n\nMense Septembri figulus et lapidarius pueros oppidi in aream post officinam invitaverunt. Area sole tepido perfusa erat, et frutices iam rubebant. Duilius laminas malleolo pulsabat, Pinarius fistula canebat, et pueri, quibus singulae fistulae novae datae erant, carmina popularia una canebant. Parentes circa aream stabant et plaudebant. Postea omnes pueri manus argilla et pulvere lapidis perfusas habebant, sed nemo querebatur, et multi rogabant num proximo anno iterum venire liceret.\n\nQuaestiones:\nQuid Pinarius figulus praeter vasa facit?\nFistulas fictiles facit, quae formam ovi vel avis parvae habent.\nUnde Pinarius argillam sumit?\nE terra palustri effodit, quae prope flumen extra urbem iacet.\nCur Pinarius argillam in area coacervat?\nQuia argilla palustris, cum effoditur, aquosa est et gravis, et per aestatem siccari debet.\nQuid Duilius lapidarius animadvertit?\nAnimadvertit nonnullas laminas lapidis sonare sicut campanulas.\nQuomodo Duilius et Pinarius instrumentum fecerunt?\nLaminas variae longitudinis secuerunt et funiculis ex trabe lignea suspenderunt."
+    },
+    {
+      "title": "Carmen redivivum",
+      "summary": "At a singing competition in Leipzig a young singer performs a forgotten song she found in an archive, and even the town's most cynical critic praises its revival in a short review.",
+      "newWords": [
+        "agon",
+        "cynicus",
+        "invidus",
+        "eloquium",
+        "compendiosus",
+        "delirium",
+        "delusio",
+        "redivivus"
+      ],
+      "text": "Lipsiae quotannis agon cantorum iuvenum habetur, in quo cantores ex multis terris certant. Allia, viginti tres annos nata, hoc anno primum in agone canit. Plerique cantores eadem carmina eligunt, quae arbitri agonis iam centies audiverunt. Allia autem aliquid novi afferre voluit. In archivo bibliothecae urbis carmen invenit quod compositor quidam saeculo duodevicesimo scripserat et quod nemo plus quam ducentos annos cecinerat. Hoc carmen in agone canere statuit, ut musica oblita rediviva fieret.\n\nVolumnius, criticus notissimus urbis, de agone quotannis in diario scribit. Cynicus est, et se cynicum esse non negat. Recensio eius semper compendiosa est: paucis verbis cantores laudat vel, saepius, vituperat. Quidam dicunt eum invidum esse, quia ipse olim cantor fieri voluerat neque potuerat; alii putant eum tantum verum dicere. Recensio eius de agone superiore tota compendiosa fuit: «Multae voces, nulla nova.» Eodem anno scripserat: «Cantores iuvenes putant se carmina oblita revocare. Delusio est. Quod oblitum est, merito oblitum est.»\n\nMagistra Alliae eam monuit ne verba Volumnii timeret. «Criticus cynicus», inquit, «nihil credit nisi quod ipse audit. Noli ei respondere verbis; responde voce.» Allia per tres menses carmen redivivum parabat. Verba eius, quae poeta ignotus scripserat, eloquio simplici et puro de fluvio et de vere loquebantur, et Allia volebat ut auditores eloquium illud sentirent, non solum vocem eius. Ceteris cantoribus non invidebat; numquam invida fuerat, et gaudebat cum alii bene canebant.\n\nDie agonis aula plena erat. Cum Allia in scaenam veniret et arbitri nomen carminis legerent, nonnulli inter se mirabantur; nemo enim id umquam audiverat. Allia primum leniter, deinde plena voce cecinit. Melodia simplex erat, sed eloquium verborum et vox eius ita coniungebantur ut aula tota taceret. Cum finem fecisset, auditores, quasi delirio quodam capti, surrexerunt et diu plaudebant; quidam etiam clamabant ut iterum caneret. Tale delirium arbitri raro viderant.\n\nPostridie Volumnius recensionem suam edidit. Ea quoque compendiosa erat, sed alia ac solebat: «Carmen redivivum, vox viva. Delirium auditorum hoc anno iustum fuit. Erravi cum scripsi carmina oblita revocari non posse: delusio non fuit.» Allia praemium secundum accepit, sed magistra eius dixit recensionem Volumnii pluris esse quam omnia praemia. Nam criticus cynicus, qui raro laudat, eloquium verborum non pro delusione habuerat, sed pro re vera.\n\nQuaestiones:\nQuid Allia in archivo invenit?\nCarmen invenit quod compositor quidam saeculo duodevicesimo scripserat et quod nemo plus quam ducentos annos cecinerat.\nQualis solet esse recensio Volumnii?\nCompendiosa est; paucis verbis cantores laudat vel vituperat.\nCur quidam Volumnium invidum esse dicunt?\nQuia ipse olim cantor fieri voluerat neque potuerat.\nQuid auditores fecerunt cum Allia finem fecisset?\nQuasi delirio capti surrexerunt et diu plaudebant.\nQuid Volumnius in recensione sua scripsit?\nScripsit carmen redivivum esse, vocem vivam, et delirium auditorum iustum fuisse."
+    },
+    {
+      "title": "Carmen mulgendi",
+      "summary": "A city girl spends a week with her grandfather on his mountain farm, learns the old song he sings while milking, helps with the spelt he grows and the food he boils and grills, and sings the song herself.",
+      "newWords": [
+        "papilla",
+        "ador",
+        "elixo",
+        "craticula",
+        "cultivo",
+        "nutrimentum",
+        "praetervehor",
+        "devasto"
+      ],
+      "text": "Lartia, duodecim annos nata, quae Mediolani habitat, quotannis aestate hebdomadem apud avum suum Plautium in montibus agit. Hoc anno mater eam autocineto vexit, quod multos vicos et lacum longum praetervectum est. Via angusta per silvas ascendebat; postremo, cum autocinetum ultimum vicum praetervectum esset, ad villam avi pervenerunt, quae sola in prato alto stat.\n\nPlautius sex vaccas habet et agrum parvum in quo ador cultivat. Ador est genus frumenti valde vetus, quod iam antiqui cultivabant; ex adore Plautius panem fuscum et durum facit, quem Lartia mox amare didicit. In horto prope villam holera cultivat. Aestate superiore grando hortum eius devastaverat, et omnia holera fracta iacuerant; ador tamen in agro, quem grando non devastaverat, integrum manserat. Hoc anno omnia bene crescunt.\n\nBis in die, mane et vesperi, Plautius vaccas manu mulget, et dum mulget, carmen vetus canit, quod ab avo suo didicit. Carmen lentum et tranquillum est; verba eius vaccas nominibus suis vocant et eis prata viridia promittunt. «Cum canto», inquit Plautius, «vaccae quiete stant et plus lactis dant.» Lartiae ostendit quomodo papillas vaccae leniter premat: non trahit, sed digitis papillam ab summo ad imum deprimit, et lac in vas fluit. Primo die Lartia nihil efficere potuit; vacca caput vertit, quasi rideret. Sed avus eam papillas lenius tangere et simul carmen canere docuit.\n\n«Lac», inquit Plautius, «primum nutrimentum vitulorum est, deinde nostrum. Ador quoque nutrimentum bonum est, et holera.» Vesperi in culina cenam parabant. Avus lac recens elixabat, antequam id biberent, et tubera in olla elixabat. Interim Lartia in craticula super focum crustula ex farina adoris et caseum torrebat. Craticula vetus et nigra erat, sed avus dicebat nullam craticulam meliorem esse. Cibus simplex erat, sed Lartiae numquam tam bene sapuerat: tubera elixa, caseus in craticula tostus, panis ex adore.\n\nUltimo mane Lartia sola vaccam mulsit. Avus in limine stabuli spectabat. Lartia papillas leniter premebat et carmen vetus canebat, verbis paene omnibus memoria tentis. Vacca quiete stabat, et vas paulatim lacte complebatur. «Nunc carmen tuum quoque est», inquit Plautius. Cum autocinetum descenderet et vicos rursus praeterveheretur, Lartia carmen matri cantabat, ne verba oblivisceretur.\n\nQuaestiones:\nQuid Plautius in agro suo cultivat?\nAdor cultivat, genus frumenti valde vetus.\nQuid aestate superiore accidit?\nGrando hortum Plautii devastavit, sed ador in agro integrum mansit.\nCur Plautius canit dum vaccas mulget?\nQuia vaccae, cum canit, quiete stant et plus lactis dant.\nQuomodo Lartia papillas vaccae premere didicit?\nLeniter, non trahens, sed digitis papillam ab summo ad imum deprimens.\nQuid Lartia in craticula torrebat?\nCrustula ex farina adoris et caseum in craticula torrebat."
+    },
+    {
+      "title": "Chorus societatis",
+      "summary": "In Pavia a music teacher agrees terms with a pharmaceutical company for a choir of its employees, obtains an hour of rehearsal in work time, divides the singers into groups of eight and teaches them a song on verses written by a chemist.",
+      "newWords": [
+        "pharmaceuticus",
+        "negotialis",
+        "negotiatorius",
+        "stipulor",
+        "oblatio",
+        "dispertio",
+        "octonus",
+        "diaeresis"
+      ],
+      "text": "Ticini societas pharmaceutica est quae medicamenta contra tussim et dolorem capitis facit. Proximo anno centesimum annum celebrabit, et moderatores societatis festum magnum parare volunt. Tettius, qui rebus negotiatoriis societatis praeest, consilium habuit: chorum ex operariis societatis condere, qui in festo caneret. Ad Ummidiam igitur, magistram musicae quae in urbe chorum puerorum dirigit, epistolam misit, in qua oblationem fecit: si chorum societatis per annum doceret, societas ei mercedem bonam solveret.\n\nUmmidia oblationem libenter accepit, sed prius de condicionibus cum Tettio collocuta est. In conventu negotiali, qui in conclavi magno societatis habitus est, Tettius stipulatus est ut chorus post laborem exerceretur, ne opus societatis impediretur, et ut nomen societatis pharmaceuticae in omnibus libellis concentus legeretur. Ummidia autem, cum Tettius stipulatus esset, et ipsa condiciones posuit: ut aula idonea ad exercendum daretur et ut chorus carmina ipsa eligeret. Tettius, qui in rebus negotiatoriis peritissimus est, primo de aula dubitabat, deinde consensit.\n\nPost primas hebdomades Ummidia vidit operarios post longum diem laboris fessos esse et male canere. Iterum igitur ad Tettium venit et ab eo unam horam in hebdomade petivit, in qua chorus tempore laboris exerceri posset. Hanc horam non facile impetravit: Tettius diu rationes negotiales exposuit et dixit horam laboris pretiosam esse. Sed Ummidia respondit operarios qui una canunt etiam melius una laborare, et Tettius tandem cessit.\n\nChorus quadraginta octo cantores habebat: chemicos, operarios, scribas, etiam duos rerum negotialium peritos. Ummidia eos in sex greges octonos dispertivit, ut singuli greges partes suas separatim discerent. Octoni cantores in singulis gregibus erant: bini qui sonos summos, bini qui altos, bini qui graves, bini qui gravissimos canerent. Deinde Ummidia partes carminis inter greges dispertivit, et postremo omnes una canebant.\n\nCarmen ipsum chemicus quidam societatis scripserat, qui in schola versus Latinos legere amaverat: hexametros de herbis medicis et de manibus quae eas colligunt. Ummidia cantoribus explicavit in singulis versibus diaeresim esse, id est locum ubi finis verbi cum fine pedis congruit. «Ubi diaeresis est», inquit, «ibi spiritum ducimus. Diaeresis est quasi porta in medio versu.» Cantores, qui numquam de diaeresi audiverant, primo riserunt, sed mox intellexerunt carmen ita facilius cani.\n\nIn festo societatis chorus in aula magna cecinit. Moderatores, operarii, familiae eorum audiebant. Post concentum Tettius ad Ummidiam accessit et fassus est horam quam ab eo impetraverat optimam fuisse.\n\nQuaestiones:\nQuam oblationem Tettius Ummidiae fecit?\nSi chorum societatis per annum doceret, societas ei mercedem bonam solveret.\nQuid Tettius in conventu negotiali stipulatus est?\nStipulatus est ut chorus post laborem exerceretur et nomen societatis in libellis legeretur.\nQuid Ummidia a Tettio impetravit?\nUnam horam in hebdomade impetravit, in qua chorus tempore laboris exerceri posset.\nQuomodo Ummidia cantores dispertivit?\nEos in sex greges octonos dispertivit.\nQuid est diaeresis?\nDiaeresis est locus in versu ubi finis verbi cum fine pedis congruit."
+    },
+    {
+      "title": "Orchestra diei intercalaris",
+      "summary": "In Padua an amateur orchestra of scientists and doctors plays only once every four years, on the leap day; a physicist who studies neutrons, a skin doctor and a heart doctor take the instruments out of the storeroom and give their concert.",
+      "newWords": [
+        "intercalaris",
+        "neutron",
+        "cutaneus",
+        "cardiacus",
+        "stater",
+        "apotheca",
+        "innecto"
+      ],
+      "text": "Patavii orchestra est quae tantum semel quattuor annis canit: die intercalari, qui mense Februario quarto quoque anno additur. Ante triginta annos medici et physici universitatis, qui omnes musicam amabant sed tempus non habebant, constituerunt ut die intercalari concentum darent. «Dies intercalaris», aiebant, «dies est qui nobis donatur, nam ceteris annis deest. Eum musicae donemus.» Ex eo tempore orchestra singulis diebus intercalaribus canit.\n\nLaelia, physica quae neutrones investigat, in orchestra tibia canit. Neutron est particula quae in nucleo atomi est et nullam electricitatem habet; Laelia neutrones in laboratorio mittit per metalla et crystalla, ut videat quomodo intus composita sint. «Neutron», inquit, «per materiam transit sicut sonus per aulam; neutrones, sicut soni, nobis ostendunt quod oculis non videmus.» Mucius, medicus qui morbos cutaneos curat, cornu canit. Atilia, medica quae morbos cardiacos curat, orchestram dirigit. Ridens dicit se pulsum cardiacum musicae metiri.\n\nInstrumenta orchestrae, quae ipsa possidet, tympana et pulpita et libri musici, per quattuor annos in apotheca sub aedificio universitatis servantur. Mense Ianuario anni intercalaris Laelia et Mucius apothecam aperuerunt. Omnia pulvere tecta erant. Fasciculus librorum musicorum, funiculo innexus, in arca iacebat, sicut eum post concentum superiorem innexuerant. Mucius, qui morbos cutaneos curat, statim manus lavit; pulverem apothecae timebat, quia cutem eius irritabat. Laelia funiculos solvit et partes inter musicos distribuit.\n\nInsigne orchestrae est lyra quae in statere antiquo impressa est. Mucius enim nummos antiquos colligit, et inter eos staterem argenteum possidet, in quo lyra parva et elegans videtur. Ante triginta annos staterem ad primam probationem attulerat, et musici lyram illius stateris pro insigni sumpserunt. Nunc ille stater in arca vitrea in vestibulo aulae ponitur, cum orchestra canit.\n\nPer sex hebdomades musici post laborem exercebantur. Atilia, quae pulsus cardiacos tota die numerat, vesperi mensuras numerabat. Die intercalari aula plena erat: collegae, aegroti qui iam sani erant, studiosi, familiae. Orchestra symphoniam veterem cecinit, et post concentum Laelia libros musicos iterum funiculis innexuit et in apothecam rettulit. «Usque ad proximum diem intercalarem», inquit, et apothecam clausit.\n\nQuaestiones:\nQuando orchestra Patavii canit?\nTantum semel quattuor annis canit, die intercalari.\nQuid Laelia investigat?\nNeutrones investigat, qui nullam electricitatem habent.\nQuos morbos Mucius et Atilia curant?\nMucius morbos cutaneos, Atilia morbos cardiacos curat.\nUbi instrumenta orchestrae servantur?\nIn apotheca sub aedificio universitatis servantur.\nUnde insigne orchestrae sumptum est?\nEx statere argenteo Mucii, in quo lyra impressa est."
+    },
+    {
+      "title": "Voces animalium",
+      "summary": "In Berlin a composer writing a children's piece about animals takes his niece to the zoo to listen to an elephant, tropical birds, a badger and a snake, and turns what they hear into music.",
+      "newWords": [
+        "barrio",
+        "tropicalis",
+        "advolo",
+        "meles",
+        "serpentinus",
+        "consimilis",
+        "nescioquis"
+      ],
+      "text": "Helvius, qui Berolini habitat, compositor est. Ab orchestra urbis rogatus est ut opus breve pro pueris componeret, in quo instrumenta voces animalium imitarentur. Sed Helvius, qui semper in urbe vixit, voces animalium vix noverat. Itaque quodam die cum nepte sua Oppia, puella novem annos nata, in hortum zoologicum ivit, libello et graphio instructus.\n\nPrimum ad elephantos venerunt. Elephantus maximus, cum custos ei cibum afferret, proboscidem sustulit et barrivit. Sonus tam fortis erat ut Oppia aures manibus tegeret. «Elephanti barriunt», inquit Helvius, «cum laeti vel irati sunt. Hic laetus est, nam cibum videt.» In libello scripsit: «Tuba maxima barrit; cornua respondent.»\n\nDeinde domum tropicalem intraverunt, ubi aer calidus et umidus erat, sicut in silvis tropicalibus. Inter arbores et plantas tropicales aves multorum colorum volabant. Cum custos semina in mensam effunderet, aves statim advolaverunt; una etiam in umerum Oppiae advolavit, quae primo timuit, deinde risit. Avis quaedam parva carmen canebat quod sono tibiae consimile erat; aliae duae voces consimiles habebant, ita ut vix distingui possent. «Has voces consimiles tibiae duae canent», scripsit Helvius.\n\nIn domo nocturna, ubi lux debilis est, meles in fossa terram fodiebat. Meles animal est nocturnum, cum fascia alba in capite nigro; Oppia eum numquam viderat. Nescioquis ex visitatoribus dixit melem raro vocem edere, sed hic meles, dum fodiebat, murmur grave emittebat. «Melem contrabassus imitabitur», inquit Helvius, «lente et graviter.» Oppia quoque nescioquid audivit, quod Helvius non audiverat: sonum unguium in terra.\n\nPostremo serpentem viderunt, qui motu serpentino per ramos repebat. Helvius diu spectabat. «Pro serpente», inquit, «clarinetum melodiam serpentinam canet, quae sursum et deorsum flectitur sicut corpus eius.» Domum redierunt, et Helvius per totam noctem componebat.\n\nPost duos menses orchestra opus in concentu pro pueris cecinit. Oppia in prima sede sedebat. Cum tuba maxima barriret, omnes pueri riserunt; cum tibiae voces avium consimiles canerent, quasi in domo tropicali erant. Ubi contrabassus melem imitabatur, Oppia sonum unguium agnovit, quem Helvius in opus addiderat. Post concentum nescioquis puer ab ea quaesivit quomodo compositor animalia tam bene novisset. «Ego eum duxi», respondit Oppia.\n\nQuaestiones:\nQuid Helvius ab orchestra rogatus est?\nRogatus est ut opus breve pro pueris componeret, in quo instrumenta voces animalium imitarentur.\nQuid elephantus fecit cum custos cibum afferret?\nProboscidem sustulit et barrivit.\nQuid in domo tropicali accidit?\nAves ad semina advolaverunt, et una in umerum Oppiae advolavit.\nQuod instrumentum melem imitabitur?\nContrabassus melem imitabitur, lente et graviter.\nQualem melodiam clarinetum pro serpente canet?\nMelodiam serpentinam, quae sursum et deorsum flectitur."
+    }
+  ]
+}
