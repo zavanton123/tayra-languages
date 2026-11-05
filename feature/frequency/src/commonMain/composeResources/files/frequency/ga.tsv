@@ -3,8 +3,9 @@
 an	an na a’ anta aʼ anfaid
 bí	tá bhí bhfuil atá raibh níl bheith táim bíonn beidh mbeadh bheadh bhíodh táimid bí nílim nílimid bhíodar bíodh bhfuilimid mbíodh bhíomar bhfuilim beimid bímis táthar rabhthas rabhadar bhíos níltear bhíothas beinn bhfuiltear bhítí bhídís bhítear bítear mbeidís mbeifí bheas
 a	a ha n-a
+i	i sa in ann san sna iontu inti inár ionam ins insan innti shan iontusan insna ionat ionainn insa innte ionaibh ionamsa
 ar	ar air orm orthu uirthi ort oraibh orainn orthusan hair b'ar ormsa uirthise ortsa har nar orainne d'ar n-ar
-is	is ba ab mba abb aba habaí abaí hab t-ab nab
+is	is ba ab mba
 ag	ag agam aige agat acu aici againn agaibh agatsa agamsa age acusan aigesean againne agaibhse aigesan a'm
 agus	agus a’s a's
 le	le leis liom leat linn léi leo liomsa leatsa linne len let lenár leosan led libh leisean linnte leó lem libhse leise leis-sean leasracha
@@ -26,7 +27,6 @@ mór	mór mó mhór móra mhó mhóir mhóra móire móir móradh mhóire mhóra
 tú	tú tusa
 duine	duine daoine dhuine dhaoine ndaoine éinne nduine
 ach	ach
-ann	ann
 tabhair	thug thabhairt tugtar tugadh dtugtar tugann thugtar tabhairt tabhair tabharfaidh thugann thugtaí dtugann thugadh dtugtaí tabharfar thabharfadh thugaim dtabharfadh dtabharfaí dtugadh bheirtear thugadar dtabharfaidh dtabharfar tabhartha thabharfaidh dtabharfaidís thabharfaí tugaimid dtuga tug tugtaí dtug dtugaimid thugas tugaid thugaidís thabharfar thabharfaidís
 cuid	chuid cuid gcuid codanna gcodanna chodanna coda choda gcoda
 í	í hí ise
@@ -48,7 +48,6 @@ cuir	chuir cuir cuireann chuireann cuirtear chuirfeadh curtha gcuireann cuirfidh
 aon	aon haon t-aon d'aon d’aon aoin n-aon aen
 nach	nach nách
 iad	iad hiad iadsan
-san	san insan shan
 baile	baile bhaile mbaile bailte mbailte bhailte bailtí bailteacha
 féidir	féidir fhéidir b’fhéidir m’fhéidir bhféidir
 rud	rud rudaí ruda
@@ -77,6 +76,7 @@ obair	obair oibre hoibre m'obair oibreacha hobair d'obair hoibreacha d’obair n
 cad	cad god
 teanga	teanga teangacha theanga dteanga dteangacha teangan teangain teangaidh
 dul	dul dhul dula ndul goil gul
+ainm	ainm t-ainm ainmneacha hainm d'ainm hainmneacha n-ainmneacha n-ainm d'ainmneacha d’ainm d’ainmneacha b’ainm b'ainm m'ainm m’ainm
 idir	idir eatarthu eadar eadair eadrainn eatorra
 cónaí	gcónaí chónaí cónaí cónaithe chónaithe
 bean	bhean bean mná mban mhná ban bhan mbean mhnaoi mnáibh mnaoi beainín
@@ -84,7 +84,6 @@ dtí	dtí
 chomh	chomh co comh
 céile	chéile céile gcéile
 tír	tír tíre thír tíortha dtír dtíortha thíortha thíre dtíre
-ainm	ainm t-ainm hainm d'ainm hainmneacha n-ainmneacha n-ainm d'ainmneacha d’ainm d’ainmneacha b’ainm b'ainm m'ainm m’ainm
 aois	haois d'aois aois haoise d’aois haoiseanna naoise aoise aoiseanna n-aoiseanna n-aois n-aoise naois d’aoiseanna
 abair	dúirt deir deirtear abair habair dúradh ndúirt deireann deirtí ráite déarfá ndeirtear déarfadh déarfaí ndéarfadh ndeir deiridís déarfaimid ndéarfaí ndeireann ndúradh deirimid déarfainn déarfaidh dúradar deirim dúras adeir dheir ndéarfá dheire dúrt dheirtear ndeirtí n-abraim dúramar abraítear abraimis deire
 cathair	chathair cathair cathrach gcathair cathracha gcathracha chathrach chathracha gcathrach caithreacha gcathraigh cathraigh
@@ -122,7 +121,6 @@ taobh	taobh thaobh dtaobh taobhanna taoibh thaobhanna dtaoibh dtaobhanna thaoibh
 cogadh	cogadh chogaidh chogadh cogaidh gcogadh cogaí gcogaí chogaí cogaíocha
 bunaigh	bunaithe bunaíodh bhunaigh bhunaíodh bhunaithe bhunaítear bunaítear mbunófaí mbunaítear bunaigh mbunódh bunaíonn bhunófaí mbunófar bhunaíonn mbunaithe mbunaíodh bhunaíodar bhunódh mbunóidís mbunaíonn
 domhan	domhan domhain doimhne dhomhan dhomhain ndomhan dhoimhne ndomhain dhoimhneacha
-bith	bith beatha bheatha mbeatha beathaí bhith mbeathaí bheathaí beathaidh
 éis	éis
 roimh	roimh roimhe romhat rompu romhainn roimpi romhaibh romham roimhesean roimpise roimis romhamsa
 ansin	ansin ansan annsin
@@ -143,6 +141,7 @@ tús	dtús tús thús túis dtúis túise
 roinnt	roinnt roinnte
 teacht	teacht theacht teachta theachta dteachtaí theachtaí teachtaí dteacht tíocht dteachta
 baint	bhaint baint bainte mbaint bhainte mbainte
+bith	bith bhith
 fada	fada faide fhada fhaide b'fhaide b’fhada b'fhada fuide
 cailín	cailín chailín cailíní gcailín chailíní gcailíní
 thar	thar thairis tharstu thairsti tharat tharam
@@ -157,7 +156,6 @@ chuig	chuig chuige chugam chugainn chucu chuici chugat chugaibh chugainne chugam
 athair	athair m'athair hathair athar tathair t-athair hathar n-athair aithreacha n-athar haithreacha d'aithreacha d'athair b'athair nathar n-aithreacha d’athair m’athair d’aithreacha m'aithreacha
 uisce	uisce t-uisce huisce uiscí d'uisce huiscí d’uisce n-uiscí d'uiscí n-uisce
 aontaithe	aontaithe
-má	má mhaigh maigh magh mhá maighe mhagh máigh mhaighe mánna maighne mhánna
 bord	mbord bord bhord boird bhoird bórd borda
 ábhar	ábhar ábhair t-ábhar hábhair hábhar n-ábhar d'ábhar d'ábhair n-ábhair b'ábhar d’ábhar d’ábhair abhar ádhbhar b’ábhar adhbhar
 leith	leith leitheanna leithe leitha
@@ -226,7 +224,7 @@ cara	chara cara cairde charad chairde gcairde gcarad carad gcara cháirde caraid
 baineann	bhaineann baineann mbaineann baineanna bhaineanna bhaininn baininne
 caint	caint cainte chaint cainteanna gcaint chainte chainteanna cainnt gcainteanna
 dia	dia dé déithe dhia ndéithe ndia dhéithe dhé ndé
-iúl	iúil iúl úil
+má	má
 saothar	saothar shaothar saothair shaothair tsaothair tsaothar
 scannán	scannán scannáin
 doras	doras dhoras doirse dorais dhoirse ndoras ndoirse dorus
@@ -315,7 +313,6 @@ téarma	téarma téarmaí théarma dtéarmaí théarmaí dtéarma
 tuaisceart	dtuaisceart tuaisceart tuaiscirt thuaisceart thuaiscirt
 caill	cailleadh chaill chailleann chailleadh cailleann cailltear chailltear chailleadar gcaillfeadh chaillfeadh gcaillfí gcailleann caill gcailltear gcaillfidh chaillfí gcailltí caillfidh gcailleadh caillfear chaillinn gcaillfear gcaillfeá gcaillfidís chaillfidh
 stair	stair staire startha
-saor	saor saoire shaoradh saoradh shaor saora saoir shaora tsaoir shaoir saortha shaoire shaortha saortar saoirí saorfar saorfaidh tsaoire shaorfadh shaorfaí tsaor saorfaí
 muid	muid muidne muide
 loch	loch locha lochanna
 gnáth	ghnáth gnáth ngnáth
@@ -395,6 +392,7 @@ aontas	aontas aontais taontas t-aontas haontas d'aontas d’aontas n-aontas naon
 éirí	éirí t-éirí héirí d'éirí d’éirí éirghe
 fuinneog	fhuinneog bhfuinneog fuinneoga fuinneog fuinneoige bhfuinneoga fhuinneoga d'fhuinneoga fuinneoig fhuinneoig d'fhuinneog d’fhuinneog
 céim	céim chéim céimeanna céime chéimeanna gcéimeanna gcéim chéime
+saor	saor shaoradh saoradh shaor saora saoir shaora tsaoir shaoir saortha shaortha saortar saorfar saorfaidh shaorfadh shaorfaí tsaor saorfaí
 iontach	iontach hiontach iontacha iontaí b’iontach iontaigh b'iontach
 príomhchathair	príomhchathair phríomhchathair príomhchathrach bpríomhchathair príomhchathracha bpríomhchathracha phríomhchathrach phríomhchathracha bpríomhchathrach
 ionann	ionann hionann b'ionann b’ionann mb'ionann
@@ -558,6 +556,7 @@ eagla	eagla heagla
 leabharlann	leabharlann leabharlanna leabharlainne
 canúint	canúintí chanúint canúint gcanúint gcanúintí chanúintí canúna chanúna canúnacha gcanúna canamhaint
 craobh	craobh chraobh gcraobh craoibhe gcraobhacha craoibh chraoibhe craobha
+maigh	mhaigh maigh magh mhá maighe mhagh máigh mhaighe mánna maighne mhánna
 luaigh	luaitear luaite luaigh luann luadar luaití luafaidh luafar luafaí
 cló	gcló cló chló clóite clónna
 galar	galar galair ghalar ghalair ngalar galra ngalair
@@ -566,7 +565,6 @@ siopa	siopa siopaí tsiopa shiopa shiopaí
 marú	mharú marú maruithe
 oiread	oiread n-oiread d'oiread hoiread d’oiread
 deisceart	ndeisceart deisceart deiscirt dheisceart ndeiscirt
-riail	riail rialacha rialaithe rialaigh rialach rial rialann rialtá rialadh rialtaí
 toghchán	toghcháin toghchán dtoghchán dtoghcháin thoghchán thoghcháin
 méadaigh	méadú mhéadaigh mhéadú méadaithe méadaíonn mhéadaíonn méadaíodh méadaítear mhéadaithe mhéadaíodh mhéadaítear méadófar méaduithe méadófaí mhéadódh méadóidh méadódh mhéadóidh mhéadófaí méadaigh mhéadaíodar
 croí	croí chroí gcroí croidhe gcroíthe croíthe chroíthe cridhe
@@ -585,6 +583,7 @@ chóir	chóir
 scríofa	scríofa scríobhtha
 paróiste	pharóiste paróiste bparóiste paróistí pharóistí bparóistí
 aistrigh	d'aistrigh aistríodh aistrithe d’aistrigh aistríonn aistrigh aistrítear haistríodh d’aistríodh n-aistrítear n-aistreofaí haistrithe aistreofaí aistrím n-aistreoidh d’aistríodar aistreofar d'aistríodh n-aistríonn n-aistreofar n-aistreodh aistríos d’aistreofaí haistrigh
+beatha	beatha bheatha mbeatha beathaí mbeathaí bheathaí beathaidh
 ós	ós
 foirgneamh	foirgneamh foirgnimh bhfoirgneamh fhoirgneamh fhoirgnimh bhfoirgnimh d'fhoirgnimh d’fhoirgnimh d'fhoirgneamh d’fhoirgneamh
 cloch	cloch cloiche clocha chloch gcloch chloiche chlocha gcloich cloich gclocha
@@ -673,7 +672,6 @@ eachtra	eachtra eachtraí heachtraí d'eachtraí n-eachtraí heachtra t-eachtra 
 gleann	gleann ghleann ngleann ghleanna gleannta glinne ngleannta ghlinn ghlinne gleanna glinn glinnte nglinne ngleanna
 fíor	fíor fhíor fhíorú fír fíoracha ír bhfíoracha fhíoracha b'fhíor b’fhíor fhíora fíorach bhfíor fhíorach fhíortha fíre fíora fíortha hír
 deacair	deacair deacra dheacair dheacra
-at	at ata ait hat atann b'ait t-at hait aite b’ait atas d'at n-atann n-atfaidh
 cumas	chumas cumas gcumas cumais chumais gcumais
 tarraing	tharraing tarraingíonn tarraingíodh tharraingíonn tarraingítear dtarraingeofaí tharraingítear tharraingíodh tarraing dtarraingeoidh tharraingeoidh dtarraingeodh tharraingeodh dtarraingíonn dtarraingítear dtarraingeoidís tarraingeoidh tarraingítí tharraingeoidís dtarraingíodh tharraingítí tarraingeoir tharraingeofaí tharraingídís
 stairiúil	stairiúil stairiúla
@@ -683,6 +681,7 @@ teann	dteannta theannta teann teannadh teannta theann theannadh theannas dteann 
 tuiscint	tuiscint thuiscint tuisceana dtuiscint tuiscintí tuigsint thuiscintí dtuisceana tuigbheáil thuisceana dtuiscintí
 ról	ról róil
 sine	sine shine siní tsine
+iúl	iúl
 bunreacht	bunreacht bhunreacht mbunreacht bhunreachta bunreachta bunreachtanna mbunreachta
 fágtha	fágtha
 féile	féile fhéile féilte bhféile d’fhéile bhféilte d'fhéile fhéilte
@@ -711,6 +710,7 @@ caife	caife chaife gcaife caifí gcaifí
 traidisiúnta	traidisiúnta thraidisiúnta
 cinnte	cinnte chinnte
 cinn	chinn gcinn cinneann cinntear chinneann chinntí chinnfeadh gcinntí chinneadar gcinneann gcinnfeadh cinne chinntear chinnireacht cinnfear gcinnfidh gcinntear chinnfidh cinnireacht cinnfidh
+at	at ata hat atann t-at atas d'at n-atann n-atfaidh
 úll	úlla úll úill húlla t-úll n-úll húill húll ubhal
 triail	triail trialach thriail trialacha dtriail dtrialacha thrialacha thrialach triaileadh thriaileann trialaí dtriailfeadh trialaigh thriailfí
 ainmnigh	ainmníodh d'ainmnigh ainmnítear ainmnithe d’ainmnigh ainmníonn hainmniú ainmnigh n-ainmneofaí hainmníodh ainmneoidh n-ainmníonn d'ainmnítí n-ainmnítear d'ainmníodh n-ainmneodh d’ainmníodh ainmneofar d'ainmnithe
@@ -733,6 +733,7 @@ ceoltóir	ceoltóir ceoltóirí cheoltóir cheoltóirí gceoltóir gceoltóirí 
 aer	aer aeir t-aer haer d'aer d’aer aera
 annáil	annála hannála d'annála n-annála annáil
 laghad	laghad
+riail	riail rialacha rialach rial rialann rialtá rialadh rialtaí
 liteartha	liteartha
 feachtas	feachtas fheachtas bhfeachtas feachtais fheachtais bhfeachtais d'fheachtas d’fheachtas d'fheachtais
 dromchla	dromchla dhromchla dromchlaí dhromchlaí ndromchla ndromchlaí
@@ -961,7 +962,6 @@ sinsear	sinsear sinsir shinsear shinsir tsinsir
 léarscáil	léarscáil léarscáileanna léarscáile
 rang	ranganna rang ranga
 éadan	éadan éadain n-éadan t-éadan héadan d’éadan d'éadan héadain
-lón	lón luan lóin lónta
 oidhreacht	oidhreacht oidhreachta hoidhreacht hoidhreachta d'oidhreacht d’oidhreacht n-oidhreacht oidhreachtaí hoidhreachtaí
 béim	béim bhéim béime mbéim béimeanna
 eagar	eagar eagair d'eagar t-eagar n-eagar heagar heagair
@@ -1036,7 +1036,6 @@ láithreach	láithreach láithreacha láithrí láithriú láithrigh
 iarla	iarla hiarla tiarla niarlaí iarlaí hiarlaí t-iarla n-iarlaí d'iarlaí d’iarla d'iarla d’iarlaí
 dalta	daltaí dalta dhaltaí dhalta ndaltaí
 trá	trá dtrá thrá tránna thránna tra dtránna
-ainmneach	ainmneacha ainmneach t-ainmneach
 intinn	intinn intinne hintinne d'intinn hintinn n-intinn m'intinn m’intinn d’intinn intinní
 cúram	cúram chúram cúraim cúraimí gcúram chúraim chúraimí gcúraimí
 anocht	anocht
@@ -1051,6 +1050,7 @@ múineadh	múineadh múinte mhúinte
 cluain	cluain chluain gcluain cluana chluana chluainte cluainte
 airgeadas	airgeadais airgeadas hairgeadas hairgeadais
 sibhialta	sibhialta shibhialta
+lón	lón lóin lónta
 stad	stad stadann stadaidh stadanna stadas stadadh stadfaidh stadfadh stadair stadta stadtar stadais
 ainneoin	ainneoin d’ainneoin n-ainneoin aindeoin
 draíocht	draíochta draíocht dhraíocht dhraíochta ndraíocht draoidheachta draoidheacht
@@ -1166,6 +1166,7 @@ halla	halla hallaí
 meisce	meisce
 fisiceoir	fisiceoir fisiceoirí fhisiceoir bhfisiceoir bhfisiceoirí fhisiceora b'fhisiceoir fhisiceoirí d'fhisiceoirí
 tionscadal	tionscadal tionscadail thionscadal thionscadail dtionscadal dtionscadail
+saoire	saoire shaoire saoirí tsaoire
 carbón	carbóin charbóin carbón charbón gcarbón
 coiteann	gcoitinne coiteann choiteann coitinne choitinn gcoiteann coiteanna choiteanna coitinn gcoitinn
 coimeád	choimeád coimeádtar coimeád coimeádta coimeádadh choimeádtar coimeádann coimeádfaidh choimeádann gcoimeádtar choimeádfadh gcoimeád gcoimeádfaidís gcoimeádfadh coimhead gcoimeádann gcoimeádfar choimeádta gcoimeádfaí
@@ -1205,6 +1206,7 @@ múin	mhúin mhúineadh múineann múintear mhúintear mhúineann múinfidh mhú
 dornálaí	dornálaí dhornálaí dornálaithe dhornálaithe
 oiliúint	oiliúint oiliúna hoiliúint hoiliúna n-oiliúint b’oiliúint d'oiliúint
 radharc	radharc radhairc
+rialaigh	rialaithe rialaigh rialaíonn rialaítear rialaíodh rialódh rialófar rialófaí
 foilsiú	fhoilsiú foilsiú bhfoilsiú
 cliste	cliste chliste
 beith	bheith beithe beith mbeith bheithe beitheanna bheitheanna
@@ -1453,7 +1455,6 @@ bar	bar bhar mbar
 pléasc	phléasc pléascadh pléasctha phléascadh pléasc pléascann phléascann phléasctha pléisce bpléasca bpléasc pléascanna bpléascadh bpléascfadh phléascfadh bpléascanna pléasca bpléascann phléascanna phléascadar bpléascfaí
 deo	deo
 sibhialtacht	si sibhialtachta sibhialtacht shibhialtacht tsibhialtacht sibhialtachtaí
-ionam	ionam ionamsa
 imleabhar	imleabhar n-imleabhar himleabhar imleabhair himleabhair t-imleabhar
 cibé	cibé
 samhlaigh	shamhlaítear shamhlú samhlaítear samhlú shamhlaigh shamhlófá samhlaíodh shamhlaíonn samhlódh samhlaíonn samhlófá samhlaithe shamhlaímid shamhlófaí samhlaigh shamhlaítí samhlaímis shamhlaithe samhlóimid shamhlóidh shamhlaíodh
@@ -2380,6 +2381,7 @@ matán	matán matáin mhatáin mhatán
 cam	cam cham chaim cama camfar chamadh camfair chama camadh camtha gcam caim camann
 móilíneach	mhóilíneach móilíneach móilíneacha mhóilíneacha mhóilínigh
 féiniúlacht	féiniúlacht féiniúlachta fhéiniúlacht bhféiniúlacht d'fhéiniúlacht féiniúlachtaí fhéiniúlachtaí bhféiniúlachtaí
+luan	luain luan
 cleachtas	cleachtas gcleachtas cleachtais gcleachtais
 cóimheas	cóimheas gcóimheas cóimheasta chóimheas cóimheasa chóimheasta chóimheasa
 dáimh	dámhachtainí dámhachtain dámh dáimh dháimh dáimhe dhámhachtain ndámhachtainí dhámhachtainí dámhachtana
@@ -3157,7 +3159,6 @@ teileafón	teileafóin teileafón theileafóin
 fealsúnach	fealsúnach fealsúnaí fealsúnacha fhealsúnacha fhealsúnach fhealsúnaí
 freastalaí	fhreastalaí freastalaí freastalaithe bhfreastalaí fhreastalaithe bhfreastalaithe
 cíl	cíle chíle gcíle cílí
-luain	luain luaine
 cart	chart carta scartáil cartadh scartáladh gcartar scartáilte scartála chartaí cart gcartfadh cartar
 fíric	fíricí bhfíric fhíric fíric fhíricí fírice bhfíricí d’fhíricí
 comhchoiteann	comhchoiteann chomhchoiteann comhchoiteanna gcomhchoiteann chomhchoitinn comhchoitianta
@@ -3603,6 +3604,7 @@ tionóntaí	tionóntaí thionóntaí tionóntaithe
 cúb	cúba gcúba
 galf	gailf galf ghailf ngalf ghalf
 cillín	cillín cillíní gcillín chillín gcillíní
+ait	ait b'ait hait aite b’ait
 trodach	trodaithe trodaí trodach throdach trodacha
 fiseolaíocht	fiseolaíochta fhiseolaíocht fiseolaíocht bhfiseolaíocht
 comhpháirtíocht	comhpháirtíocht gcomhpháirtíocht comhpháirtíochta chomhpháirtíocht comhpháirtíochtaí chomhpháirtíochtaí
@@ -3953,6 +3955,7 @@ fuíoll	fuíoll fhuíoll fuíll bhfuíoll d'fhuíoll
 lotnaid	lotnaidí lotnaid lotnaide
 matánach	matánach matánacha matánaí mhatánach mhatánacha mhatánaigh
 cuibheasach	cuíosach cuibheasach
+ainmneach	ainmneach t-ainmneach
 alga	algaí alga halgaí n-algaí t-alga halga
 flórans	bhflórans flórans fhlórans
 athghabh	athghabháil athghabhadh athghabh athghabhála d'athghabh hathghabhála athghafa d'athghabháil
@@ -5864,7 +5867,6 @@ ilcheallach	ilcheallacha ilcheallach
 guí	guí ghuí nguí guibhe
 scréachóg	scréachóg scréachóga
 leabaigh	leabaithe leabú
-inti	innti innte
 aoisghrúpa	aoisghrúpa haoisghrúpaí
 mionteanga	mionteangacha mionteanga mhionteanga mhionteangacha
 reo	reo
@@ -8914,7 +8916,6 @@ cruadhiosca	cruadhioscaí cruadhiosca
 deasbhord	deasbhord
 dúdhearg	dúdhearg
 forrán	forráin
-iontu	iontusan
 leathscór	leathscór
 mothálach	mothálach
 deabhadh	ndeabhaidh
@@ -9999,4 +10000,3 @@ géineolaí	géineolaí géineolaithe
 báidín	báidín bháidín
 dearfa	dearfa dearbhtha
 baictéareolaí	baictéareolaí bhaictéareolaí mbaictéareolaí
-sóid	sóid sóide

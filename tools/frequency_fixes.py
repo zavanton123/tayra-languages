@@ -2054,6 +2054,33 @@ OVERRIDES["ga"] = {
 # opposition under idir, Thomas under tom).
 EXCLUDE["ga"] = EXCLUDE.get("ga", set()) | {"the", "of", "and", "directly", "opposition", "difference", "munster", "thomas",
                                              "martha"}
+# The preposition i ("in"), which the pack has only as a letter: its forms before a vowel (in), with the article (sa, san,
+# sna, and the older ins, insa, insan, insna), with ár (inár), and as prepositional pronouns (ionam, ionat, ann, inti,
+# ionainn, ionaibh, iontu, and their emphatic forms) are its. ina and inar ("in which") stay words, as lena and faoina do.
+# Words of their own, which the pack or simplemma files under another: beatha ("life, food") is no form of bith (ar bith);
+# saoire ("holiday") none of saor; luan ("Monday", Dé Luain) none of lón; maigh ("plain", with the noun má's forms) none
+# of the conjunction má; the verb rialaigh ("rule, govern") none of the noun riail. Iúil ("July") is a month's name, as
+# the others the list leaves out, and no form of iúl (in iúl); nor are the abbot's forms (an t-ab, na habaí) the copula's.
+# ainmneacha are names (ainm's plural), not the grammar's nominative (ainmneach); ait ("strange") is no form of at ("swell").
+OVERRIDES["ga"].update({
+    "i": ["i"], "in": ["i"], "sa": ["i"], "san": ["i"], "sna": ["i"], "ins": ["i"], "insa": ["i"], "insan": ["i"],
+    "insna": ["i"], "inár": ["i"],
+    "ionam": ["i"], "ionamsa": ["i"], "ionat": ["i"], "ionatsa": ["i"], "ann": ["i"], "annsan": ["i"], "inti": ["i"],
+    "intise": ["i"], "innti": ["i"], "ionainn": ["i"], "ionainne": ["i"], "ionaibh": ["i"], "ionaibhse": ["i"],
+    "iontu": ["i"], "iontusan": ["i"],
+    "beatha": ["beatha"], "bheatha": ["beatha"], "mbeatha": ["beatha"], "beathaí": ["beatha"], "bheathaí": ["beatha"],
+    "mbeathaí": ["beatha"],
+    "saoire": ["saoire"], "shaoire": ["saoire"], "tsaoire": ["saoire"], "saoirí": ["saoire"],
+    "luan": ["luan"], "luain": ["luan"], "luaine": [],
+    "maigh": ["maigh"], "mhaigh": ["maigh"], "maighe": ["maigh"], "mhaighe": ["maigh"], "maighne": ["maigh"],
+    "magh": ["maigh"], "mhagh": ["maigh"], "mhá": ["maigh"], "máigh": ["maigh"], "mánna": ["maigh"], "mhánna": ["maigh"],
+    "rialaigh": ["rialaigh"], "rialaíonn": ["rialaigh"], "rialaíodh": ["rialaigh"], "rialaítear": ["rialaigh"],
+    "rialaithe": ["rialaigh"], "rialóidh": ["rialaigh"], "rialófar": ["rialaigh"], "rialódh": ["rialaigh"],
+    "rialaigí": ["rialaigh"], "rialaím": ["rialaigh"],
+    "iúil": [], "úil": [],
+    "ba": ["is"], "abb": [], "aba": [], "abaí": [], "habaí": [], "hab": [], "t-ab": [], "nab": [],
+    "ainmneacha": ["ainm"], "ait": ["ait"], "hait": ["ait"], "aite": ["ait"], "b'ait": ["ait"],
+})
 
 # Lithuanian, after the builder's pass over the forms neither pack has (lithuanian_guess): the forms still filed under a
 # homograph or a word of the wrong kind, as the course writers met them. vėliau "later" is an adverb of its own, not vėlai's
