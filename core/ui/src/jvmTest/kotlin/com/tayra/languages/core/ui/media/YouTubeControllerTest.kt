@@ -9,6 +9,7 @@ import kotlinx.coroutines.runBlocking
 import kotlin.test.AfterTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
 import kotlin.test.assertIs
 import kotlin.test.assertNull
 import kotlin.test.assertTrue
@@ -184,5 +185,17 @@ class YouTubeControllerTest {
         val url = YouTubeScripts.embedUrl("dQw4w9WgXcQ", "pt")
         assertTrue(url.startsWith("https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?controls=0"))
         assertTrue("hl=pt" in url && "cc_lang_pref=pt" in url && "origin=https://tayra.app" in url)
+    }
+
+    @Test
+    fun `only YouTube's own pages stay in the player`() {
+        assertTrue(YouTubeScripts.staysInPlayer("www.youtube.com", "/watch"))
+        assertTrue(YouTubeScripts.staysInPlayer("consent.youtube.com", "/m"))
+        assertTrue(YouTubeScripts.staysInPlayer("www.youtube-nocookie.com", "/embed/x"))
+        assertFalse(YouTubeScripts.staysInPlayer("www.youtube.com", "/pagead/aclk"))
+        assertFalse(YouTubeScripts.staysInPlayer("www.youtube.com", "/redirect"))
+        assertFalse(YouTubeScripts.staysInPlayer("charisma-r.riseguide.com", "/"))
+        assertFalse(YouTubeScripts.staysInPlayer("notyoutube.com", "/watch"))
+        assertFalse(YouTubeScripts.staysInPlayer(null, null))
     }
 }

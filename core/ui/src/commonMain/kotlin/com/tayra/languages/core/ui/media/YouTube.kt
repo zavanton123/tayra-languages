@@ -297,6 +297,9 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
     }
 }
 
+/** The videos YouTube has refused to embed since the app started, so their players go straight to their own page. Main thread only. */
+internal val embedRefused = mutableSetOf<String>()
+
 /** What runs in YouTube's embedded player page. */
 object YouTubeScripts {
     /** What the page is opened with as its referrer; YouTube refuses embeds without one ("error 153"). */
@@ -311,21 +314,33 @@ object YouTubeScripts {
     fun watchUrl(id: String, language: String?): String =
         "https://www.youtube.com/watch?v=$id" + (language?.let { "&hl=$it&cc_lang_pref=$it" } ?: "")
 
+    /** Whether a page the player is sent to is one of YouTube's, rather than where an advert leads. */
+    fun staysInPlayer(host: String?, path: String?): Boolean {
+        val site = host.orEmpty().lowercase()
+        val youTube = listOf("youtube.com", "youtube-nocookie.com").any { site == it || site.endsWith(".$it") }
+        return youTube && path.orEmpty().let { !it.startsWith("/pagead") && !it.startsWith("/redirect") }
+    }
+
     /**
      * Turns YouTube's own page of the video [id] into a player like the embedded one: only the player
      * shows, filling the view, and without YouTube's controls, as the app has its own. It waits for the
      * app's word to start, adverts too, and stays on this video when it ends. Adverts play as YouTube sends them.
      */
     fun watchPage(id: String): String = """
-        (function () {
+        (function start() {
+          // Android's web view runs this before the page has its root.
+          if (!document.documentElement) return setTimeout(start, 20);
           if (window.__tayraWatch) return;
           window.__tayraWatch = true;
           window.__tayraHold = true;
           var style = document.createElement('style');
           style.textContent =
             'html, body { overflow: hidden !important; background: #000 !important; }' +
-            '#movie_player { position: fixed !important; top: 0 !important; left: 0 !important; width: 100vw !important; height: 100vh !important; z-index: 2147483647 !important; background: #000; }' +
-            '#movie_player video { top: 0 !important; left: 0 !important; width: 100vw !important; height: 100vh !important; object-fit: contain !important; }' +
+            // What is around the player would widen the page past a phone's screen and crop it.
+            '#primary { min-width: 0 !important; max-width: 100% !important; } #below, #secondary { display: none !important; }' +
+            '#movie_player { position: fixed !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; z-index: 2147483647 !important; background: #000; }' +
+            '#movie_player .html5-video-container { position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; }' +
+            '#movie_player video { top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; object-fit: contain !important; }' +
             '#masthead-container, tp-yt-app-drawer, ytd-mini-guide-renderer, .ytp-chrome-top, .ytp-chrome-bottom, .ytp-gradient-top, .ytp-gradient-bottom, .ytp-pause-overlay, .ytp-ce-element, .ytp-endscreen-content, .ytp-autonav-endscreen-countdown-overlay, .ytp-cards-teaser, .iv-branding { display: none !important; }';
           document.documentElement.appendChild(style);
           setInterval(function () {

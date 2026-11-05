@@ -82,9 +82,6 @@ internal object Jcef {
     private val client: CefClient? by lazy { app?.createClient()?.also(::listen) }
     private val players = ConcurrentHashMap<CefBrowser, JcefController>()
 
-    /** The videos YouTube has refused to embed, so they open on its own page at once from then on. */
-    val refused: MutableSet<String> = ConcurrentHashMap.newKeySet()
-
     fun open(url: String, player: JcefController): CefBrowser? =
         client?.createBrowser(url, CefRendering.DEFAULT, false)?.also { players[it] = player }
 
@@ -160,7 +157,7 @@ internal fun JcefVideo(source: VideoSource, onController: (VideoController) -> U
 internal class JcefController(scope: CoroutineScope, private val source: VideoSource) : WebYouTubeController(scope) {
     private val answers = ConcurrentHashMap<Int, CompletableDeferred<String?>>()
     private val next = AtomicInteger(0)
-    private var onWatchPage = source is VideoSource.YouTube && source.id in Jcef.refused
+    private var onWatchPage = source is VideoSource.YouTube && source.id in embedRefused
     val browser: CefBrowser?
 
     init {
@@ -177,7 +174,7 @@ internal class JcefController(scope: CoroutineScope, private val source: VideoSo
         val page = browser ?: return false
         if (onWatchPage) return false
         onWatchPage = true
-        Jcef.refused += video.id
+        embedRefused += video.id
         page.loadURL(YouTubeScripts.watchUrl(video.id, video.language))
         return true
     }

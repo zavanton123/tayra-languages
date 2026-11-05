@@ -1,7 +1,12 @@
 package com.tayra.languages.core.ui.media
 
 import android.annotation.SuppressLint
+import android.content.Intent
+import android.graphics.Bitmap
+import android.view.ViewGroup
+import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.webkit.JavascriptInterface
+import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.compose.runtime.Composable
@@ -29,7 +34,8 @@ import kotlin.coroutines.resume
 internal fun YouTubeVideo(source: VideoSource.YouTube, onController: (VideoController) -> Unit, modifier: Modifier) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
-    val webView = remember(source) { WebView(context) }
+    // Left to wrap its content, a web view lays its page out with no height, and YouTube's player takes that height.
+    val webView = remember(source) { WebView(context).apply { layoutParams = ViewGroup.LayoutParams(MATCH_PARENT, MATCH_PARENT) } }
     val controller = remember(source) { AndroidYouTubeController(scope, webView, source) }
     DisposableEffect(controller) {
         onController(controller)
@@ -48,7 +54,8 @@ internal fun YouTubeVideo(source: VideoSource.YouTube, onController: (VideoContr
 }
 
 @SuppressLint("SetJavaScriptEnabled")
-private class AndroidYouTubeController(scope: CoroutineScope, private val web: WebView, source: VideoSource.YouTube) : WebYouTubeController(scope) {
+private class AndroidYouTubeController(scope: CoroutineScope, private val web: WebView, private val source: VideoSource.YouTube) : WebYouTubeController(scope) {
+    private var onWatchPage = source.id in embedRefused
 
     /** What the page's `TayraBridge.postMessage` reaches; called on a background thread, so passed on to the main one. */
     private inner class Bridge {
@@ -64,9 +71,51 @@ private class AndroidYouTubeController(scope: CoroutineScope, private val web: W
         web.settings.mediaPlaybackRequiresUserGesture = false
         web.addJavascriptInterface(Bridge(), "TayraBridge")
         web.webViewClient = object : WebViewClient() {
+            // An advert's links go to the browser, or they would take the player's place.
+            override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
+                if (!request.isForMainFrame || YouTubeScripts.staysInPlayer(request.url.host, request.url.path)) return false
+                runCatching { view.context.startActivity(Intent(Intent.ACTION_VIEW, request.url)) }
+                return true
+            }
+
+            override fun onPageStarted(view: WebView, url: String, favicon: Bitmap?) = keepToPlayer()
             override fun onPageFinished(view: WebView, url: String) = onPageLoaded()
         }
-        web.loadUrl(YouTubeScripts.embedUrl(source.id, source.language), mapOf("Referer" to YouTubeScripts.REFERRER))
+        if (onWatchPage) {
+            loadWatchPage()
+        } else {
+            web.loadUrl(YouTubeScripts.embedUrl(source.id, source.language), mapOf("Referer" to YouTubeScripts.REFERRER))
+        }
+    }
+
+    override fun openWatchPage(): Boolean {
+        if (onWatchPage) return false
+        onWatchPage = true
+        embedRefused += source.id
+        loadWatchPage()
+        return true
+    }
+
+    /** As a computer: YouTube's mobile site covers its player with a dialog about its app. */
+    private fun loadWatchPage() {
+        val chrome = Regex("Chrome/[0-9.]+").find(web.settings.userAgentString)?.value ?: "Chrome/145.0.0.0"
+        web.settings.userAgentString = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) $chrome Safari/537.36"
+        web.loadUrl(YouTubeScripts.watchUrl(source.id, source.language))
+    }
+
+    override fun reloadWatchPage(): Boolean {
+        if (!onWatchPage) return false
+        web.reload()
+        return true
+    }
+
+    private fun keepToPlayer() {
+        if (onWatchPage) web.evaluateJavascript(YouTubeScripts.watchPage(source.id), null)
+    }
+
+    override fun onPageLoaded() {
+        keepToPlayer()
+        super.onPageLoaded()
     }
 
     override suspend fun evaluate(script: String): String? = suspendCancellableCoroutine { done ->
