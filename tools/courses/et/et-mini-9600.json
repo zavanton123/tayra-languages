@@ -1,0 +1,190 @@
+{
+  "id": "et-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "Igapäevane füüsika",
+  "description": "Ten standalone stories about the physics of everyday life: rising dumplings, a headwind on a bike ride, a returning space capsule, hovering hummingbirds, a sauna on soft ground, a barber's hot towel, a trampoline park, fertiliser and a lake, a cockroach's reflex and a chess monument split by heat and frost.",
+  "topic": "Everyday physics",
+  "names": [
+    "Stina",
+    "Ilvi",
+    "Tartu",
+    "Jörn",
+    "Vahtel",
+    "Pärnu",
+    "Ebba",
+    "Ilmet",
+    "Nikolas",
+    "Eerin",
+    "Kesamaa",
+    "Haapsalu",
+    "Mehhiko",
+    "Eesti",
+    "Irene",
+    "Pajuste",
+    "Soomaa",
+    "Paide",
+    "Riko",
+    "Heimo",
+    "Melinda",
+    "Kriisk",
+    "Jonas",
+    "Rakvere",
+    "Pirkko",
+    "Ruutel",
+    "Võrtsjärv",
+    "Ivor",
+    "Raudjärv",
+    "Reda",
+    "Uldis"
+  ],
+  "lessons": [
+    {
+      "title": "Pelmeenid tõusevad pinnale",
+      "summary": "Two half-sisters cook frozen dumplings and work out why they rise and why they stay hot inside.",
+      "newWords": [
+        "poolõde",
+        "pelmeen",
+        "esmapilk",
+        "kausitäis",
+        "heasüdamlik",
+        "kugistama",
+        "kipitama",
+        "kummuli"
+      ],
+      "text": "Stina poolõde Ilvi on temast kaksteist aastat noorem ja õpib Tartu ülikoolis füüsikat. Kui Ilvi pühapäeval külla tuleb, teevad õed koos süüa ja kõige sagedamini keedavad nad pelmeene. Stina ostab poest külmutatud pelmeene, sest ise neid teha pole tal kunagi aega. Ilvi aga ütleb, et ka poest ostetud pelmeen on väike füüsikatund, kui seda tähelepanelikult vaadata.\n\nEsmapilgul ei ole pelmeenide keetmises midagi huvitavat. Vesi läheb potis keema, Stina kallab sinna kausitäie külmunud pelmeene ja segab lusikaga, et need põhja kinni ei jääks. Alguses vajuvad kõik pelmeenid põhja. Mõne minuti pärast hakkavad nad aga üksteise järel pinnale tõusma. „Miks nad üles tulevad?“ küsis Stina kord oma poolõelt. Ilvi seletas seda heasüdamliku kannatlikkusega, nagu oleks ta õpetaja ja vanem õde tema õpilane.\n\nKülmunud pelmeen on veest raskem ja vajub seepärast põhja. Kuumas vees hakkavad selle sees olev õhk ja niiskus soojenema ning paisuma. Tainas läheb pehmeks ja venib, pelmeen muutub natuke suuremaks, kuid tema kaal jääb peaaegu samaks. Kui pelmeen on oma suuruse kohta piisavalt kerge, tõstab vesi selle üles. Kogenud kokad teavad seda ilma igasuguse füüsikata: kui pelmeenid on pinnal, tuleb neid veel paar minutit keeta ja siis on nad valmis.\n\nIlvi on heasüdamlik, kuid tal on üks halb komme: ta kugistab toitu. Kui Stina tõstab esimese kausitäie lauale, võtab Ilvi kahvliga kohe ühe pelmeeni ja kugistab selle alla, ootamata, et see jahtuks. Siis ta ohkab ja ütleb, et keel kipitab. „Sa õpid füüsikat ega tea, et pelmeeni sees on vesi peaaegu saja kraadi kuum?“ naerab Stina. Pelmeeni sees on liha ja mahl, mis hoiavad soojust kauem kui õhuke tainas. Väljast tundub pelmeen esmapilgul juba jahe, aga seest on see endiselt kuum.\n\nStinal on oma nipp, mille ta õppis vanaemalt. Kui pelmeenid on taldrikule tõstetud, paneb ta nende peale kummuli kausi. Kummuli kauss hoiab sooja õhku pelmeenide ümber ja need ei jahtu nii kiiresti. Ilvi seletab, et kauss takistab aurumist, sest aurudes viib vesi soojust kaasa. Seepärast kipitab keel ka siis, kui pelmeen on kausi all mitu minutit oodanud.\n\nSel pühapäeval teevad õed katse. Stina paneb ühe taldriku kummuli kausi alla ja jätab teise lahtiseks. Viie minuti pärast on lahtise taldriku pelmeenid parajalt soojad, kausi all olevad aga veel kuumad. Ilvi ei kugista seekord midagi. Ta sööb aeglaselt ja ütleb, et füüsika maitseb hapukoorega kõige paremini.\n\nKüsimused:\nKes on Ilvi?\nIlvi on Stina poolõde, kes õpib Tartu ülikoolis füüsikat.\nMiks tõusevad pelmeenid keetmise ajal pinnale?\nNende sees olev õhk ja niiskus paisuvad, pelmeen muutub suuremaks, aga mitte raskemaks, ja vesi tõstab selle üles.\nMis on Ilvi halb komme?\nIlvi kugistab toitu ega oota, et see jahtuks.\nMiks kipitab Ilvi keel?\nPelmeeni sees olev liha ja mahl on veel väga kuumad, kuigi pelmeen tundub esmapilgul jahe.\nMilleks paneb Stina pelmeenide peale kummuli kausi?\nKummuli kauss hoiab sooja õhku pelmeenide ümber ja need ei jahtu nii kiiresti."
+    },
+    {
+      "title": "Vastu tuult",
+      "summary": "A cyclist with a strict timetable learns once more how much the wind changes his Saturday ride along the coast.",
+      "newWords": [
+        "rattur",
+        "ajagraafik",
+        "tugevnema",
+        "raskendama",
+        "tagatasku",
+        "maapähkel",
+        "võsa",
+        "mutter"
+      ],
+      "text": "Jörn Vahtel on rattur, kes sõidab igal laupäeval pika ringi Pärnust mööda rannikut lõunasse ja tagasi. Tal on paberil ajagraafik: iga peatuskoha juures on kirjas kellaaeg, millal ta peaks seal olema. Jörn on insener ja armastab numbreid, kuid tema ajagraafikut rikub ikka ja jälle üks asi, mida paberile kirjutada ei saa. See asi on tuul.\n\nRatturi jaoks on õhk palju tihedam, kui jalakäijale tundub. Juba kiirusel kakskümmend kilomeetrit tunnis kulub suurem osa ratturi jõust sellele, et õhku eest ära lükata. Õhu vastupanu ei kasva kiirusega ühtlaselt, vaid palju kiiremini: kui kiirus kahekordistub, on vastupanu umbes neli korda suurem. Vastu tuult sõites raskendab tuul seda veelgi, sest ratturi kiirusele liitub tuule kiirus. Kui tuul tugevneb, tunneb Jörn seda kohe jalgades.\n\nSel laupäeval oli hommik vaikne. Jörn pani tagataskusse kaks banaani ja peotäie maapähkleid, sest maapähklid annavad palju energiat ega võta palju ruumi. Esimesed nelikümmend kilomeetrit sõitis ta, tuul selja taga, ja jõudis igasse kohta varem, kui ajagraafik lubas. Pöördekohas vaatas ta merele ja nägi, et lainetel on valged harjad. Tuul oli tugevnenud ja tagasi tuli sõita vastu tuult.\n\nTagasiteel tugevnes tuul veel. Jörn painutas end madalamaks, et tema keha oleks tuulele väiksem ja õhk pääseks temast kergemini mööda. Mõnes kohas kasvas tee ääres tihe võsa ning võsa taga oli tuul tunduvalt nõrgem. Seal tõusis kiirus kohe paar kilomeetrit tunnis. Lagedal kohal on teisiti: seal raskendab iga tuulehoog sõitu nii, et Jörn peab vajutama pedaalidele kogu jõuga.\n\nPoolel teel kuulis Jörn rattast imelikku heli. Ta peatus võsa ääres ja nägi, et pudelihoidja mutter oli lahti tulnud. Ta võttis tagataskust väikese tööriista, keeras mutri kinni ja kontrollis igaks juhuks ka teisi mutreid. Siis sõi ta peotäie maapähkleid ja jõi vett. Pausi ajal mõtles ta, et ratturi jaoks on väike lahtine mutter sama tüütu kui tugev vastutuul: kumbki ei peata sõitu, aga mõlemad raskendavad seda.\n\nKoju jõudis Jörn ajagraafikust nelikümmend minutit hiljem. Õhtul võttis ta paberi ja kirjutas ajagraafikusse uue rea: „Vastu tuult sõites lisa iga tunni kohta veerand tundi.“ Ta teab, et ka see reegel ei ole täpne, sest tuul ei loe ajagraafikut.\n\nKüsimused:\nMis on Jörni ajagraafikus kirjas?\nJörni ajagraafikus on kirjas, millal ta peaks igas peatuskohas olema.\nMiks raskendab vastutuul ratturi sõitu?\nRatturi kiirusele liitub tuule kiirus ja õhu vastupanu kasvab palju kiiremini kui kiirus.\nMida pani Jörn tagataskusse?\nTa pani tagataskusse kaks banaani ja peotäie maapähkleid.\nMiks oli võsa taga kergem sõita?\nTihe võsa peatas osa tuulest ja seal oli tuul nõrgem.\nMis juhtus poolel teel?\nPudelihoidja mutter tuli lahti ja Jörn keeras selle kinni."
+    },
+    {
+      "title": "Kapsel, mis tuli tagasi",
+      "summary": "A grandmother and her grandson visit a space exhibition and learn how a capsule survives its return to Earth.",
+      "newWords": [
+        "maailmaruum",
+        "poster",
+        "mehitama",
+        "kaitsekilp",
+        "hädamaandumine",
+        "hädasignaal",
+        "edastamine",
+        "modernne"
+      ],
+      "text": "Ebba Ilmet on seitsekümmend kaks aastat vana ja käib oma lapselapse Nikolasega sageli Tartu teaduskeskuses. Seekord on seal näitus maailmaruumist. Saali keskel seisab kosmosekapsli täpne koopia, mis on umbes auto suurune. Seina ääres on suured postrid, mis seletavad, kuidas inimene maailmaruumi jõuab ja kuidas ta sealt tagasi tuleb.\n\nNikolas on üheksa aastat vana ja tahab kõike korraga teada. Ta loeb esimese posteri pealkirja valjusti: „Mehitatud lend“. „Mida see tähendab?“ küsib ta. Ebba seletab, et mehitatud kapslis on inimesed, keda nimetatakse meeskonnaks. Mehitada tähendab anda laevale või masinale meeskond, kes seda juhib ja selle eest hoolitseb.\n\nKapsli põhjas on paks tume kiht. Postril on kirjas, et see on kaitsekilp. Kui kapsel tuleb maailmaruumist tagasi, liigub see õhus tohutu kiirusega, mitukümmend korda kiiremini kui lennuk. Õhk kapsli ees ei jõua eest ära minna, see surutakse kokku ja läheb nii kuumaks, et hakkab helendama. Kaitsekilp võtab selle kuumuse enda peale: selle pind põleb ja sulab aeglaselt ning viib soojuse kapslist eemale. Kaitsekilbi taga istuvad inimesed ei tunne seda kuumust peaaegu üldse.\n\nTeise posteri peal on suurte tähtedega sõna hädamaandumine. Nikolas arvab, et see on midagi hirmsat, kuid Ebba loeb talle ette, et hädamaandumine tähendab lihtsalt seda, et kapsel ei maandu plaanitud kohas. Selleks puhuks on kapslis kõik vajalik: vesi, toit, soojad riided ja raadio. Pärast hädamaandumist saadab kapsel hädasignaali, et otsijad teaksid, kuhu sõita.\n\nHädasignaali edastamine käib raadiolainete abil, mis liiguvad valguse kiirusega. Signaali võtavad vastu satelliidid ja saadavad selle edasi maa peal asuvatesse jaamadesse. Näitusel on väike nupp, millega lapsed saavad ise hädasignaali saata. Nikolas vajutab nuppu ja ekraanil süttib kaart: signaal on mõne sekundiga jõudnud keskusesse. Näituse juhendaja ütleb, et signaali edastamiseks kulub vähem aega kui ühe lause ütlemiseks.\n\nViimasel posteril on modernne kapsel, mis on vanadest palju suurem ja mille ekraanid on nagu nutitelefonil. Ebba mäletab, kuidas ta lapsena mustvalgest telerist esimesi mehitatud lende vaatas. Need kapslid olid kitsad ja lihtsad. Modernne kapsel on mugavam, aga füüsika on jäänud samaks: tagasiteel kaitseb meeskonda ikka kaitsekilp ja kõige kuumem aeg kestab ikka mõne minuti. Enne lahkumist ostab Ebba muuseumipoest kapsli pildiga postri ja Nikolas riputab selle kodus oma voodi kohale.\n\nKüsimused:\nMida seletavad saali seina ääres olevad postrid?\nPostrid seletavad, kuidas inimene maailmaruumi jõuab ja kuidas ta sealt tagasi tuleb.\nMida tähendab mehitatud lend?\nMehitatud lennul on kapslis inimesed, kes masinat juhivad.\nMiks läheb kapsli ees olev õhk nii kuumaks?\nKapsel liigub tohutu kiirusega ja õhk surutakse selle ees kokku.\nMida teeb kaitsekilp?\nKaitsekilp võtab kuumuse enda peale ja kaitseb meeskonda.\nMilleks saadab kapsel pärast hädamaandumist hädasignaali?\nEt otsijad teaksid, kuhu sõita.\nMis on modernse kapsli juures teisiti ja mis on jäänud samaks?\nModernne kapsel on suurem ja mugavam, aga füüsika on jäänud samaks."
+    },
+    {
+      "title": "Kaheksakümmend lööki sekundis",
+      "summary": "A nature photographer travels to Mexico to photograph hummingbirds and learns how they hover in the air.",
+      "newWords": [
+        "koolibri",
+        "kassiir",
+        "peeso",
+        "agu",
+        "kaheksakümmend",
+        "fotoaparaat",
+        "merehaige",
+        "meene"
+      ],
+      "text": "Eerin Kesamaa on Haapsalus elav loodusfotograaf. Mullu sügisel sõitis ta kolmeks nädalaks Mehhikosse, et pildistada koolibrisid. Koolibri on maailma väikseim lind: kõige väiksemad kaaluvad vähem kui kaks grammi. Eestis koolibrid ei ela, nii et Eerin oli neid varem näinud ainult piltidel.\n\nMehhikosse jõudes läks Eerin kõigepealt panka raha vahetama. Kassiir luges peesod tema silme all üle, pani need ümbrikusse ja soovitas peesosid väikeste rahatähtedena hoida, sest turul ei ole müüjatel suurte rahatähtede jaoks tagasi anda. Eerin tänas kassiiri ja sai hiljem aru, et nõuanne oli väga hea.\n\nKoolibrid on kõige aktiivsemad ao ajal. Iga päev tõusis Eerin enne agu ja ootas aias, fotoaparaat kolmjalal. Kui taevas idas heledaks läks, saabusid esimesed linnud õite juurde. Koolibri ei istu õiele nagu liblikas, vaid hõljub selle ees õhus paigal. Selleks liigutavad väiksemad koolibrid tiibu kuni kaheksakümmend korda sekundis. Iga tiivalöök lükkab õhku allapoole ja õhk lükkab lindu vastu üles nagu helikopterit.\n\nKaheksakümmend lööki sekundis on nii kiire, et inimese silm näeb tiibade asemel ainult udust varju. Tavaline fotoaparaat näeb sama: kui pilt tehakse liiga aeglaselt, jääb tiivast pildile hägune laik. Eerin seadis oma fotoaparaadi nii, et pilt tehakse sekundi tuhandiku jooksul, ja siis jäi ka kiire tiib pildile teravana. Päikesevalgust oli ao ajal veel vähe, nii et ta pidi kasutama välku.\n\nÜhel päeval sõitis Eerin paadiga saarele, kus elab haruldane koolibri. Meri oli rahutu ja paat kõikus. Eerin jäi merehaigeks juba poole tunni pärast. Paadimees ütles, et merehaige inimene peab vaatama silmapiiri. Ta seletas, et inimene jääb merehaigeks siis, kui silmad ütlevad ajule, et keha on paigal, kõrv aga tunneb, et kõik liigub. Kui silmad näevad silmapiiril sama liikumist, mida tunneb kõrv, jääb aju rahule. Eerin vaatas silmapiiri ja tal hakkas parem.\n\nViimasel päeval ostis Eerin turult meeneid: puust koolibri, värvilise rätiku ja väikese savikausi. Iga meene eest maksis ta paarsada peesot. Kodus Haapsalus pani ta puust meene oma töölauale ja riputas seinale kõige parema foto: väike roheline lind õhus, tiivad teravad, nagu oleks kaheksakümmend lööki sekundis korraga peatunud.\n\nKüsimused:\nMiks soovitas kassiir peesosid väikeste rahatähtedena hoida?\nTurul ei ole müüjatel suurte rahatähtede jaoks tagasi anda.\nMillal on koolibrid kõige aktiivsemad?\nKoolibrid on kõige aktiivsemad ao ajal.\nKuidas suudab koolibri õhus paigal hõljuda?\nTa liigutab tiibu kuni kaheksakümmend korda sekundis ja lükkab iga löögiga õhku allapoole.\nMiks pidi Eerin fotoaparaadi nii seadma, et pilt tehakse väga kiiresti?\nMuidu jääks kiire tiib pildile häguseks.\nMida soovitas paadimees merehaigele inimesele?\nTa soovitas vaadata silmapiiri.\nMilliseid meeneid ostis Eerin?\nTa ostis puust koolibri, värvilise rätiku ja väikese savikausi."
+    },
+    {
+      "title": "Saun raba serval",
+      "summary": "An engineer designs a sauna on soft ground near a bog and explains pressure and sliding sand to the family.",
+      "newWords": [
+        "projekteerima",
+        "geoloogiline",
+        "mülgas",
+        "ületamatu",
+        "alustala",
+        "põhinev",
+        "varing",
+        "hoiuruum"
+      ],
+      "text": "Irene Pajuste on insener, kes projekteerib väikesi maju ja saunu. Tema viimane töö on saun Soomaa servas, ühe pere maakodu juures, mille lähedal algab raba. Pere kartis alguses, et pehme maa on ületamatu takistus. Irene sõnul ei ole see ületamatu, kui maad hästi tunda ja õige alus ehitada.\n\nKõigepealt sõidab Irene kohale ja tellib geoloogilise uuringu, sest pinnalt ei näe, mis on sügavamal. Geoloogiline uuring näitab, et sauna kohal on kaks meetrit liiva, selle all savi, ja natuke eemal algab turvas, mis on vett täis nagu käsn. Seal, kus turvas on kõige pehmem, on lausa mülgas: kui sinna astud, vajub jalg põlvini sisse.\n\nPere lapsed küsivad, miks jalg vajub mülkasse, aga laud mitte. Irene paneb mülka äärde laia laua ja astub selle peale. Laud vajub vaid veidi. Ta seletab, et inimese raskus jääb samaks, kuid laual jaguneb see suuremale pinnale ja maa peab iga ruutsentimeetri kohta kandma palju vähem. Samal põhjusel ei vaju inimene suuskadega lumme ega laiade ratastega traktor märga põldu.\n\nSaun peab seisma kindlalt, nii et Irene projekteerib sellele laia aluse. Selle peale tulevad paksud alustalad, mis kannavad põrandat ja seinu. Alustala on maja kõige alumine palk; kui alustalad on märjad või kõverad, hakkab kogu hoone aja jooksul vajuma. Geoloogilisel uuringul põhinev arvutus näitab, et liivakiht kannab sauna raskust hästi. Irene usaldab sellisel arvutusel põhineva plaani kõrval ka oma silmi: ta käib iga nädal ehitust vaatamas.\n\nKui ehitajad kaevavad aluse jaoks auku, jälgib Irene augu servi. Kuiv liiv ei püsi püsti. Kui serv on liiga järsk, tekib varing: liiv voolab alla ja täidab augu uuesti. Iga liivahunnik, ka laste liivakastis, püsib ainult kindla nurga all, kuiva liiva puhul umbes kolmkümmend kraadi. Järsem serv variseb. Seepärast kaevatakse auk laiade, kaldus servadega ja varingu ohtu jälgitakse iga päev. Niiske liiv püsib veidi paremini, sest vesi hoiab terakesi koos, aga väga märg liiv voolab jälle nagu puder. Pärast vihmast ööd on ühes augu servas toimunud väike varing ja ehitajad kaevavad liiva välja.\n\nSauna kõrvale projekteerib Irene väikese hoiuruumi küttepuude ja aiatööriistade jaoks. Hoiuruumis peab õhk hästi liikuma, et puud kuivaksid. Selleks jätab Irene seina alumisse ja ülemisse serva kitsad avad: soe õhk tõuseb üles ja väljub ülevalt, külm õhk tuleb alt asemele. Sügisel on saun valmis ja hoiuruum kuivi puid täis.\n\nKüsimused:\nMida näitas geoloogiline uuring?\nSauna kohal on kaks meetrit liiva, selle all savi, ja natuke eemal algab turvas.\nMiks ei vaju laud mülkasse?\nLaual jaguneb inimese raskus suuremale pinnale ja maa peab iga ruutsentimeetri kohta kandma vähem.\nMis on alustala?\nAlustala on maja kõige alumine palk, mis kannab põrandat ja seinu.\nMillal tekib varing?\nVaring tekib siis, kui augu serv on liiga järsk ja liiv voolab alla.\nKuidas liigub õhk hoiuruumis?\nSoe õhk tõuseb üles ja väljub ülevalt, külm õhk tuleb alt asemele."
+    },
+    {
+      "title": "Kuum rätik",
+      "summary": "A barber explains to a customer why he uses a hot towel, why a sharp blade cuts and why mirrors repeat a face.",
+      "newWords": [
+        "habemeajaja",
+        "buum",
+        "varn",
+        "võhik",
+        "pomisema",
+        "meelitus",
+        "tüügas",
+        "žest"
+      ],
+      "text": "Paides on väike töökoda, mille uksel on kiri „Habemeajaja“. Seal töötab Riko, kes on olnud habemeajaja kakskümmend aastat. Viimastel aastatel on habemete moe tõttu tekkinud väike buum: noored mehed kasvatavad pikka habet ja käivad seda iga paari nädala tagant hooldamas. Buumi alguses kartis Riko, et see kestab ainult ühe suve, kuid klientide arv kasvab ikka veel.\n\nUkse kõrval on puust varn, kuhu kliendid riputavad oma mantlid. Ühel novembri hommikul tuli sisse Heimo, keskealine raamatupidaja, riputas märja mantli varna ja istus toolile. „Ma olen füüsikas täielik võhik,“ ütles ta, „aga seda olen ma alati tahtnud teada: miks te panete enne habeme ajamist näole kuuma rätiku?“\n\nRiko naeratas, sest ta oli selle üle palju mõelnud ja sellest lugenud. Habemekarv koosneb samast ainest nagu küüs. Kuivana on see üllatavalt kõva; räägitakse, et see on peaaegu sama tugev kui sama jäme vasktraat. Kuum ja niiske rätik laseb karval vett endasse imeda ja karv muutub pehmemaks. Pehmet karva lõikab tera kergemini ja nahk ei ärritu. „Te ei ole mingi võhik,“ ütles Riko, „te lihtsalt küsite õigeid küsimusi.“ Heimo pomises rätiku all midagi, mis kõlas nagu „see on meelitus“. Riko vastas, et habemeajaja töös on meelitus tavaline asi, aga füüsika ei vaja meelitusi.\n\nSiis võttis Riko noa. Ta seletas, et tera on nii terav, sest selle serv on väga õhuke. Kui sama jõud langeb väga väikesele pinnale, on surve suur ja karv lõikub. Nüri teraga peab vajutama palju tugevamalt ja just siis nahk ärritub.\n\nHeimo lõual oli väike tüügas. Riko tundis oma kliente ja teadis, et tüüka ümber tuleb liikuda aeglaselt. Ta tõmbas sõrmega nahka veidi pingule, nii et tüügas jäi tera teelt kõrvale. See on habemeajaja vana žest: vasaku käe kaks sõrme hoiavad nahka, parem käsi liigutab tera väikese nurga all. Žest näeb lihtne välja, aga Riko õppis seda kaks aastat.\n\nHeimo vaatas peeglisse ja nägi seal teist peeglit, mis rippus tema selja taga seinal. Kahe peegli vahel kordus tema nägu lõputult, iga järgmine pilt veidi väiksem ja tumedam. „Miks need pildid lõpus tumedaks lähevad?“ pomises Heimo, sest ta ei tahtnud lõuga liigutada. Riko seletas, et iga peegel neelab natuke valgust ja kümnenda peegelduse järel on valgust palju vähem.\n\nLõpuks pani Riko Heimo näole külma rätiku ja tegi oma tavalise žesti: tõstis käed, nagu näitaks ta peeglis valmis kunstiteost. Heimo tõusis, võttis mantli varnast ja ütles, et tuleb järgmisel kuul tagasi, mitte ainult habet ajama, vaid ka füüsikatundi.\n\nKüsimused:\nMiks on habemeajaja Riko juures viimastel aastatel rohkem kliente?\nHabemete moe tõttu on tekkinud buum ja noored mehed käivad habet hooldamas.\nKuhu riputas Heimo oma mantli?\nHeimo riputas oma mantli ukse kõrval olevasse varna.\nMiks paneb Riko enne habeme ajamist näole kuuma rätiku?\nKarv imeb vett endasse ja muutub pehmemaks, nii et tera lõikab seda kergemini.\nMida teeb Riko, kui ta liigub tüüka ümber?\nTa tõmbab sõrmega nahka pingule, nii et tüügas jääb tera teelt kõrvale.\nMiks lähevad kahe peegli vahel pildid lõpus tumedaks?\nIga peegel neelab natuke valgust."
+    },
+    {
+      "title": "Batuudipark",
+      "summary": "A mother takes her son to a trampoline park, where he learns why bent knees make a landing softer.",
+      "newWords": [
+        "varuväljapääs",
+        "turvatunne",
+        "hüppamine",
+        "supermees",
+        "verevalum",
+        "empaatia",
+        "kindlustunne",
+        "osavõtt"
+      ],
+      "text": "Melinda Kriisk viis oma kaheksa-aastase poja Jonase laupäeval Rakvere batuudiparki. Enne kui keegi tohtis batuudile minna, kogus töötaja kõik külastajad kokku ja tutvustas reegleid. Ta näitas, kus asuvad varuväljapääsud, ja palus kõigil meeles pidada, et mõlemad varuväljapääsud peavad alati vabad olema. Melinda kuulas tähelepanelikult. Talle andis turvatunnet, et töötajad võtsid reegleid tõsiselt.\n\nJonas tahtis kohe hüpata. Töötaja seletas lastele, et hüppamine on tegelikult energia mäng. Kui laps hüppab üles, saab ta kõrgust; kui ta kukub alla, muutub kõrgus kiiruseks. Batuudi võrk venib ja vedrud venivad pingule: liikumise energia kogutakse vedrudesse ja antakse lapsele tagasi. Batuudil hüppamine on seepärast nii kerge, et isegi väike laps tõuseb kõrgemale kui põrandal.\n\nJonase lemmiktegelane on supermees. Ta jooksis batuudile, tõstis käe nagu supermees ja hüppas järjest kõrgemale. Siis maandus ta sirgete jalgadega ja kukkus küljele. Põlve alla tekkis väike sinine laik. „See on verevalum,“ ütles Melinda, „see ei ole midagi hullu, see kaob nädalaga.“ Jonas vaatas sinist laiku nagu auhinda.\n\nMelinda ei hakanud teda noomima. Ta mäletas oma lapsepõlve ja teadis, et kukkumine on mängu osa. Empaatia tähendab tema jaoks seda, et ta püüab näha asja poja silmadega. Jonase jaoks oli verevalum märk sellest, et ta oli julge. Melinda empaatia aitas tal leida õiged sõnad: ta ütles, et ka supermees peab õppima maanduma.\n\nSiis tuli sama töötaja ja näitas, kuidas õigesti maanduda. Kui põlved on sirged, peab keha peatuma väga lühikese ajaga ja jõud jalgadele on suur. Kui põlved painduvad, peatub keha pikema aja jooksul ja jõud on palju väiksem. Liikumine on sama, kuid aeg on teine. Jonas proovis kümme korda järjest ja iga korraga kasvas tema kindlustunne. Lõpuks ei kartnud ta enam ka kõrget hüpet. Ka Melinda turvatunne kasvas, sest ta nägi, et poeg oskab nüüd kukkuda.\n\nPargi seinal oli kuulutus: järgmisel nädalal toimub laste võistlus ja osavõtt on tasuta. Jonas tahtis kohe minna. Melinda ütles, et osavõtt ei tähenda, et peab võitma; tähtis on, et laps saab katsetada ja õppida. Ta kirjutas poja nime nimekirja. Kodus näitas Jonas isale oma sinist laiku ja ütles, et hüppamine on füüsika. Isa naeris, aga Melinda nägi, et pojal oli rohkem kindlustunnet kui hommikul.\n\nKüsimused:\nMida näitas töötaja külastajatele, enne kui keegi batuudile läks?\nTa näitas, kus asuvad varuväljapääsud, ja tutvustas reegleid.\nMis andis Melindale turvatunnet?\nTalle andis turvatunnet, et töötajad võtsid reegleid tõsiselt.\nKuidas tekkis Jonasel verevalum?\nTa maandus sirgete jalgadega ja kukkus küljele.\nMida tähendab empaatia Melinda jaoks?\nSee tähendab, et ta püüab näha asja poja silmadega.\nMiks peab maanduma painutatud põlvedega?\nSiis peatub keha pikema aja jooksul ja jõud jalgadele on väiksem.\nMida ütles Melinda võistlusest osavõtu kohta?\nTa ütles, et osavõtt ei tähenda, et peab võitma."
+    },
+    {
+      "title": "Spargel ja vihm",
+      "summary": "A retired teacher grows asparagus, learns why too much fertiliser hurts the plants and keeps it out of the nearby lake.",
+      "newWords": [
+        "spargel",
+        "geneetika",
+        "stiimul",
+        "väetis",
+        "saastuma",
+        "salgama"
+      ],
+      "text": "Pirkko Ruutel on bioloogiaõpetaja, kes on nüüd pensionil ja elab Võrtsjärve lähedal väikeses majas. Kümme aastat tagasi istutas ta aeda sparglit ja nüüd on spargel tema aia uhkus. Igal kevadel tulevad naabrid vaatama, kuidas mullast tõusevad paksud rohelised varred. Pirkko pole kunagi salanud, et ta on oma aia üle uhke.\n\nPirkko teab, et spargli puhul on tähtis ka geneetika. Spargli taimed on kas isased või emased. Isased taimed ei kasvata seemneid ja panevad kogu jõu varte kasvatamisse, mistõttu annavad nad rohkem saaki. Pirkko on lugenud geneetikast ja ostnud sorte, kus on peaaegu ainult isased taimed. Ta ütleb, et aednik ei pea olema teadlane, kuid natuke geneetikat ei tee kellelegi halba.\n\nKevadel on spargli jaoks kõige tähtsam stiimul soojus. Kui muld soojeneb üle kümne kraadi, hakkab spargel kasvama ja sooja ilmaga tõuseb vars ühe päevaga mitu sentimeetrit. Teine stiimul on valgus: kui vars jõuab valguse kätte, muutub see roheliseks. Kui Pirkko katab maa musta kilega, jääb osa varsi valgeks.\n\nEsimestel aastatel tegi Pirkko ühe vea. Ta arvas, et mida rohkem väetist, seda parem, ja puistas spargli ümber palju väetist. Taimed hakkasid hoopis närbuma. Hiljem sai ta aru, miks. Kui mullas on väetisega liiga palju soola, liigub vesi juurtest välja, mitte juurtesse sisse, sest vesi liigub sinna, kus soola on rohkem. Taim jääb janusse, kuigi muld on märg. Pirkko ei ole see aednik, kes oma vigu salgab. Ta räägib oma veast naabritele, et nemad sama viga ei teeks.\n\nTeine põhjus väetisega ettevaatlik olla on järv. Pirkko aed on mäe peal ja järv on all. Tugev vihm uhub üleliigse väetise mullast välja ja vesi kannab selle järve. Järves hakkavad väetised toitma vetikaid, vetikaid tekib liiga palju ja vesi muutub roheliseks ja häguseks. Nii võib järv saastuma hakata. Pirkko on näinud, kuidas mõni väike järv on saastunud just niimoodi. Saastunud järve on väga raske uuesti puhtaks saada.\n\nNüüd kasutab Pirkko väetisi vähe ja ainult siis, kui taimed neid tõesti vajavad. Aia ja järve vahele on ta jätnud laia riba rohtu, mis võtab osa vihma veest kinni. Spargel kasvab endiselt hästi ja järv on puhas. Kevade esimese spargli keedab Pirkko kohe, kui see on korjatud, ja sööb seda võiga.\n\nKüsimused:\nMiks annavad spargli isased taimed rohkem saaki?\nNad ei kasvata seemneid ja panevad kogu jõu varte kasvatamisse.\nMis on kevadel spargli jaoks kõige tähtsam stiimul?\nKõige tähtsam stiimul on soojus.\nMiks hakkasid taimed närbuma, kui Pirkko puistas spargli ümber palju väetist?\nMullas oli liiga palju soola ja vesi liikus juurtest välja.\nKuidas võib järv väetisest saastuma hakata?\nVihm uhub väetise mullast välja, vesi kannab selle järve ja seal tekib liiga palju vetikaid.\nKas Pirkko salgab oma viga?\nEi, Pirkko ei ole see aednik, kes oma vigu salgab, vaid räägib oma veast naabritele.\nMida teeb Pirkko nüüd teisiti?\nTa kasutab väetisi vähe ja on jätnud aia ja järve vahele laia riba rohtu."
+    },
+    {
+      "title": "Kiirem kui mõte",
+      "summary": "A medical student studying alone before exams watches a cockroach escape and learns why its reflex beats the human brain.",
+      "newWords": [
+        "meditsiinikool",
+        "eraldatus",
+        "tarakan",
+        "ajukoor",
+        "varjatult",
+        "eksisteerimine",
+        "rahuldamine"
+      ],
+      "text": "Ivor Raudjärv käib Tartus meditsiinikooli teisel kursusel ja tahab saada arstiks. Kevadel algab eksamite aeg ja Ivor on kaks nädalat peaaegu üksi oma toas ühiselamus. Esimestel päevadel meeldib eraldatus talle: keegi ei sega ja ta saab rahus lugeda. Teisel nädalal hakkab eraldatus teda väsitama ja ta räägib iseendaga.\n\nÜhel õhtul, kui Ivor kööki vett võtma läheb, jookseb laua pealt minema tarakan. Ivor üritab seda paberiga katta, aga tarakan on juba kraanikausi all. Ta proovib veel kaks korda ja iga kord on tarakan temast kiirem. Ivor on pahane, kuid ta on ka meditsiinikooli tudeng ja mõtleb kohe: kuidas see võimalik on?\n\nTa otsib vastust raamatust ja leiab selle. Tarakani keha tagaosas on kaks väikest ja väga tundlikku osa, mis tunnevad ka kõige nõrgemat õhu liikumist. Kui inimese käsi läheneb, liigub õhk tarakani kehast mööda ja need annavad sellest kohe märku. Signaal ei lähe pähe, vaid otse jalgadesse. Tarakan hakkab jooksma juba mõne sekundi sajandiku pärast.\n\nInimese reaktsioon on aeglasem. Kui Ivor näeb tarakani, liigub signaal silmast ajju ja ajukoores otsustatakse, mida teha. Ajukoor on aju välimine kiht, kus inimene mõtleb, plaanib ja valib. Mõtlemine on tore, aga see võtab aega: inimene reageerib tavaliselt umbes viiendiku sekundi jooksul. Selle ajaga on tarakan juba kraanikausi all peidus. Ivor naerab, et tema tark ajukoor jääb tarakani kiiretele jalgadele alla.\n\nTarakan elab varjatult: päeval peidab see end pragudesse ja tuleb välja alles öösel, kui köök on vaikne. Ka siis liigub see varjatult, seinte ääres ja varjus. Raamat ütleb, et tarakani eksisteerimine sõltub kolmest asjast: soojusest, veest ja toidust. Kui need vajadused on täidetud, jääb tarakan elama. Kui vajaduste rahuldamine muutub raskeks, kolib ta mujale. Tarakani eksisteerimine on seega lihtne arvutus.\n\nJärgmisel päeval peseb Ivor köögi puhtaks, kuivatab kraanikausi ja paneb toidu kinnistesse karpidesse. Vajaduste rahuldamine muutub tarakani jaoks raskeks ja paari päeva pärast ei näe Ivor ühtegi. Ta naaseb raamatute juurde ja tunneb, et eraldatus on talle andnud ühe uue teadmise, mida eksamil ei küsita.\n\nKüsimused:\nMiks on Ivor kaks nädalat peaaegu üksi?\nKevadel algab eksamite aeg ja ta õpib oma toas ühiselamus.\nKuidas tunneb tarakan, et käsi läheneb?\nTarakani keha tagaosas on kaks tundlikku osa, mis tunnevad õhu liikumist.\nMiks on inimese reaktsioon aeglasem?\nSignaal liigub ajju ja ajukoores otsustatakse, mida teha.\nMis on ajukoor?\nAjukoor on aju välimine kiht, kus inimene mõtleb, plaanib ja valib.\nMillest sõltub tarakani eksisteerimine?\nSee sõltub soojusest, veest ja toidust.\nMida tegi Ivor, et tarakanid kaoksid?\nTa pesi köögi puhtaks, kuivatas kraanikausi ja pani toidu kinnistesse karpidesse."
+    },
+    {
+      "title": "Pronksist malelaud",
+      "summary": "A restorer repairs a chess monument split by heat and frost, while the town wrestles with paperwork.",
+      "newWords": [
+        "mälestusmärk",
+        "lõppmäng",
+        "hüljatu",
+        "elevandiluu",
+        "pressiteade",
+        "paberimajandus",
+        "farss",
+        "viimistlema"
+      ],
+      "text": "Väikese linna pargis seisab mälestusmärk kohalikule malemeistrile, kes võitis sada aastat tagasi palju turniire. Mälestusmärk on kivist laud, mille peal on pronksist malelaud ja nupud. Nupud ei ole juhuslikult paigas: need näitavad lõppmängu, millega meister võitis oma kõige kuulsama partii. Kes malet tunneb, saab seda lõppmängu laua ääres läbi mõelda.\n\nAastaid ei hoolinud keegi mälestusmärgist. See seisis põõsaste vahel nagu hüljatu, kellest kõik on unustanud. Siis märkas üks kooliõpetaja, et pronksi ja kivi vahel on pragu. Ta kirjutas linnale ja kevadel kutsuti kohale kunstnik Reda Uldis, kes parandab vanu kujusid.\n\nReda seletas, et pragu on füüsika töö. Pronks paisub soojuses rohkem kui kivi. Suvel läheb päikese käes pronks väga kuumaks ja venib, talvel külmas tõmbub see kokku. Kui kaks erinevat materjali on omavahel kõvasti kinni, hakkavad need üksteist sikutama. Saja aasta jooksul tekib sellest pragu, kuhu läheb vesi. Vesi külmub, jää paisub ja pragu muutub suuremaks.\n\nEnne kui Reda tööd alustada sai, algas paberimajandus. Linn pidi tellima uuringu, uuring pidi saama loa ja luba pidi ootama koosolekut. Reda ütles naerdes, et paberimajandus on kestnud kauem, kui kestab ta enda töö. Kooliõpetaja nimetas seda farsiks. Tõepoolest oli see natuke farss, aga lõpuks olid kõik paberid korras ja suvel võis Reda alustada.\n\nLinna muuseumis hoitakse meistri enda nuppe. Need on tehtud elevandiluust. Reda vaatas neid ja seletas, et elevandiluu on pronksist veel tundlikum: see imeb õhust niiskust, paisub ja kuivas õhus tõmbub kokku. Seepärast hoitakse elevandiluust nuppe klaasist kapis, kus õhu niiskus on kogu aeg sama.\n\nReda võttis pronksist laua lahti, puhastas selle ja kinnitas selle uuesti nii, et pronksil on ruumi liikuda. Siis hakkas ta pinda viimistlema. Iga nuppu tuli viimistleda pehme harjaga, kuni kõik nupud olid ühte värvi. Lõpuks kattis ta need vahaga, mis kaitseb pronksi vihma eest. Viimistletud mälestusmärk ei säranud nagu uus, vaid oli tume ja pruun, nagu pronks peabki olema.\n\nSeptembris saatis linn välja pressiteate. Pressiteade kutsus kõiki parki, kus kohalik maleklubi pidi mälestusmärgi juures lõppmängu läbi mängima. Pärast seda ei seisnud mälestusmärk enam nagu hüljatu, vaid lapsed istusid laua ääres ja katsusid sõrmega pronksist nuppe, mis ei liigu.\n\nKüsimused:\nMida näitavad mälestusmärgi pronksist nupud?\nNupud näitavad lõppmängu, millega meister võitis oma kõige kuulsama partii.\nMiks tekkis pronksi ja kivi vahele pragu?\nPronks paisub soojuses rohkem kui kivi ja materjalid hakkasid üksteist sikutama.\nMiks nimetas kooliõpetaja paberimajandust farsiks?\nPaberimajandus kestis kauem kui Reda enda töö.\nMiks hoitakse elevandiluust nuppe klaaskapis?\nElevandiluu imeb õhust niiskust ja paisub, nii et õhu niiskus peab olema kogu aeg sama.\nMida kirjutati pressiteates?\nPressiteade kutsus kõiki parki, kus maleklubi pidi lõppmängu läbi mängima."
+    }
+  ]
+}
