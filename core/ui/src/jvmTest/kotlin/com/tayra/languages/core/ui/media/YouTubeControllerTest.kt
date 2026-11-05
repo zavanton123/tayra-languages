@@ -88,6 +88,25 @@ class YouTubeControllerTest {
     }
 
     @Test
+    fun aTranslationYouTubeRefusesIsNone() = runBlocking {
+        val page = FakePage(null, mapOf("original" to "{\"events\":[]}", "en" to null))
+        page.onMessage("""{"type":"ready"}""")
+        val (original, translated) = page.captions(YouTubeTrack("pt", false, "Português", "/api/timedtext?v=x"), "en")
+        assertEquals("{\"events\":[]}", original)
+        assertNull(translated)
+        page.release()
+    }
+
+    @Test
+    fun aVideoWithAProblemDoesNotStartPlaying() = runBlocking {
+        val page = FakePage(null)
+        page.onMessage("""{"type":"error","code":150}""")
+        page.play()
+        assertTrue(!page.playing.value)
+        page.release()
+    }
+
+    @Test
     fun aPageThatNeverAnswersGivesNoDetails() = runBlocking {
         val page = FakePage(null)
         page.onMessage("""{"type":"ready"}""")

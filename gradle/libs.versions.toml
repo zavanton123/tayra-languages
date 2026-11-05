@@ -48,6 +48,8 @@ bytedeco-javacpp = { module = "org.bytedeco:javacpp", version.ref = "bytedeco-ja
 bytedeco-leptonica = { module = "org.bytedeco:leptonica", version.ref = "bytedeco-leptonica" }
 bytedeco-tesseract = { module = "org.bytedeco:tesseract", version.ref = "bytedeco-tesseract" }
 jna = { module = "net.java.dev.jna:jna", version = "5.19.1" }
+# The JCEF API (org.cef), only to compile against: the desktop app runs on JetBrains Runtime, which has JCEF built in.
+jcef-api = { module = "dev.datlag:jcef", version = "2025.03.23" }
 jna-platform = { module = "net.java.dev.jna:jna-platform", version = "5.19.1" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
 android-billing-ktx = { module = "com.android.billingclient:billing-ktx", version.ref = "android-billing" }

@@ -27,6 +27,11 @@ kotlin {
         }
         jvmMain.dependencies {
             implementation(libs.jlayer)
+            // Videos play in Chromium, which JetBrains Runtime carries as its jcef module; this is only its API.
+            compileOnly(libs.jcef.api.get().toString()) {
+                exclude(group = "org.jogamp.gluegen")
+                exclude(group = "org.jogamp.jogl")
+            }
             implementation(libs.compose.ui.backhandler)
         }
         jvmTest.dependencies {

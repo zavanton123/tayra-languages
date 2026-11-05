@@ -31,9 +31,20 @@ val installerVersion = providers.gradleProperty("releaseVersion")
 val isMacHost = System.getProperty("os.name").lowercase().contains("mac")
 val dockNameArgs = if (isMacHost) listOf("-Xdock:name=Tayra Languages", "-Dtayra.dockNamed=true") else emptyList()
 
+// Videos play in the Chromium that JetBrains Runtime's JCEF builds carry. It lies beside the JDK's modules, where jlink
+// cannot take it from, so given one (-Ptayra.jbr or TAYRA_JBR: the folder its archive unpacks to) the app runs on it and
+// is packaged with all of it as its runtime. Without one, the app watches videos in the browser.
+val jbr: File? = providers.gradleProperty("tayra.jbr").orElse(providers.environmentVariable("TAYRA_JBR")).orNull
+    ?.let { file(it) }
+    ?.also { require(it.resolve("Contents/Home/release").isFile || it.resolve("release").isFile) { "$it is not a Java runtime" } }
+val jbrJava: File? = jbr?.let { home -> listOf("Contents/Home/bin/java", "bin/java", "bin/java.exe").map(home::resolve).firstOrNull { it.isFile } }
+
 // Android Studio injects Compose Hot Reload's `hotRun` task; give that JVM the Dock name too.
 tasks.matching { it.name == "hotRun" }.configureEach {
-    (this as? JavaExec)?.jvmArgs(dockNameArgs)
+    (this as? JavaExec)?.apply {
+        jvmArgs(dockNameArgs)
+        jbrJava?.let { setExecutable(it.absolutePath) }
+    }
 }
 
 compose.desktop {
@@ -96,6 +107,7 @@ compose.desktop {
 tasks.withType<JavaExec>().matching { it.name == "run" }.configureEach {
     // A run from the sources has no bundled `tayra`; Settings > Command-line tool puts the one :cli builds on the PATH instead.
     dependsOn(":cli:installDist")
+    jbrJava?.let { setExecutable(it.absolutePath) }
     val windowsHost = System.getProperty("os.name").lowercase().contains("win")
     systemProperty("tayra.cliLauncher", rootDir.resolve("cli/build/install/tayra/bin/" + if (windowsHost) "tayra.bat" else "tayra").absolutePath)
     val projectRoot = rootDir.absolutePath + File.separator
@@ -140,4 +152,25 @@ val writeCliLauncherProperties by tasks.registering {
 tasks.withType<AbstractJPackageTask>().matching { it.name.startsWith("create") && it.name.endsWith("Distributable") }.configureEach {
     dependsOn(writeCliLauncherProperties)
     freeArgs.addAll("--add-launcher", "tayra=${cliLauncherProperties.get().asFile.absolutePath}")
+}
+// The given JetBrains Runtime replaces the one jlink makes, Chromium and all (see `jbr` above).
+afterEvaluate {
+    if (jbr != null) {
+        tasks.withType<AbstractJPackageTask>().matching { it.name.startsWith("create") && it.name.endsWith("Distributable") }.configureEach {
+            runtimeImage.set(jbr)
+            // jpackage takes only Contents/Home of a macOS runtime, and Chromium lies in Contents/Frameworks beside it.
+            val frameworks = jbr.resolve("Contents/Frameworks")
+            val images = destinationDir
+            doLast {
+                if (!frameworks.isDirectory) return@doLast
+                val app = images.get().asFile.listFiles().orEmpty().single { it.name.endsWith(".app") }
+                val runtime = app.resolve("Contents/runtime")
+                fun run(vararg command: String) = check(ProcessBuilder(*command).inheritIO().start().waitFor() == 0) { "${command.first()} failed" }
+                run("ditto", frameworks.absolutePath, runtime.resolve("Contents/Frameworks").absolutePath)
+                // The runtime and the app were sealed without it; Chromium's own parts keep JetBrains' signatures.
+                run("codesign", "--force", "--sign", "-", runtime.absolutePath)
+                run("codesign", "--force", "--sign", "-", app.absolutePath)
+            }
+        }
+    }
 }

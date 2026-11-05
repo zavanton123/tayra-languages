@@ -17,6 +17,9 @@ env:
   # The account service the apps are built to use (the repository variable ACCOUNT_SERVER, such as
   # https://api.example.com); without it they are built without accounts, sync and cloud backups.
   TAYRA_ACCOUNT_SERVER: ${{ vars.ACCOUNT_SERVER }}
+  # The JetBrains Runtime the desktop apps ship with: its JCEF build carries the Chromium that plays videos.
+  JBR_JDK: 21.0.10
+  JBR_BUILD: b1163.110
 
 # Data releases (courses-v1, freedict-v1, ...) only carry data files, so the apps are built for app tags (vX.Y.Z) alone,
 # and a data release hands the "latest" mark back to the newest app release, which the app's updates and the README link to.
@@ -98,6 +101,15 @@ jobs:
           distribution: temurin
           java-version: 21
       - uses: gradle/actions/setup-gradle@v4
+      - name: Fetch JetBrains Runtime
+        run: |
+          mkdir -p "$RUNNER_TEMP/jbr" && cd "$RUNNER_TEMP/jbr"
+          curl -fsSL "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-$JBR_JDK-osx-aarch64-$JBR_BUILD.tar.gz" | tar -xz
+          # The runtime's root: the folder with `release`, or on macOS the bundle around Contents/Home.
+          home=$(dirname "$(find "$PWD" -maxdepth 4 -name release | head -1)")
+          if [ "$(basename "$home")" = Home ]; then home=$(dirname "$(dirname "$home")"); fi
+          if command -v cygpath >/dev/null; then home=$(cygpath -m "$home"); fi
+          echo "TAYRA_JBR=$home" >> "$GITHUB_ENV"
       - name: Build DMG
         run: |
           VERSION="${RELEASE_TAG#v}"
@@ -157,6 +169,15 @@ jobs:
           distribution: temurin
           java-version: 21
       - uses: gradle/actions/setup-gradle@v4
+      - name: Fetch JetBrains Runtime
+        run: |
+          mkdir -p "$RUNNER_TEMP/jbr" && cd "$RUNNER_TEMP/jbr"
+          curl -fsSL "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-$JBR_JDK-windows-x64-$JBR_BUILD.tar.gz" | tar -xz
+          # The runtime's root: the folder with `release`, or on macOS the bundle around Contents/Home.
+          home=$(dirname "$(find "$PWD" -maxdepth 4 -name release | head -1)")
+          if [ "$(basename "$home")" = Home ]; then home=$(dirname "$(dirname "$home")"); fi
+          if command -v cygpath >/dev/null; then home=$(cygpath -m "$home"); fi
+          echo "TAYRA_JBR=$home" >> "$GITHUB_ENV"
       - name: Build MSI
         run: |
           VERSION="${RELEASE_TAG#v}"
@@ -180,6 +201,15 @@ jobs:
           distribution: temurin
           java-version: 21
       - uses: gradle/actions/setup-gradle@v4
+      - name: Fetch JetBrains Runtime
+        run: |
+          mkdir -p "$RUNNER_TEMP/jbr" && cd "$RUNNER_TEMP/jbr"
+          curl -fsSL "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-$JBR_JDK-linux-x64-$JBR_BUILD.tar.gz" | tar -xz
+          # The runtime's root: the folder with `release`, or on macOS the bundle around Contents/Home.
+          home=$(dirname "$(find "$PWD" -maxdepth 4 -name release | head -1)")
+          if [ "$(basename "$home")" = Home ]; then home=$(dirname "$(dirname "$home")"); fi
+          if command -v cygpath >/dev/null; then home=$(cygpath -m "$home"); fi
+          echo "TAYRA_JBR=$home" >> "$GITHUB_ENV"
       - name: Install packaging tools
         run: sudo apt-get update && sudo apt-get install -y fakeroot rpm
       - name: Build packages

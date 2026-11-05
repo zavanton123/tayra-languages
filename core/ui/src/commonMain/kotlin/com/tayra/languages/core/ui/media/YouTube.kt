@@ -12,6 +12,7 @@ import kotlinx.coroutines.withTimeoutOrNull
 import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonArray
+import kotlinx.serialization.json.JsonNull
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.booleanOrNull
 import kotlinx.serialization.json.doubleOrNull
@@ -75,7 +76,7 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
     }
 
     /** A message the page posted (see [YouTubeScripts.BRIDGE]). */
-    fun onMessage(text: String) {
+    open fun onMessage(text: String) {
         val message = runCatching { Json.parseToJsonElement(text) as? JsonObject }.getOrNull() ?: return
         when (message["type"]?.jsonPrimitive?.content) {
             "ready" -> if (ready.complete(Unit)) startPolling()
@@ -86,7 +87,13 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
             }
             "result" -> {
                 val id = message["id"]?.jsonPrimitive?.intOrNull ?: return
-                waiting.remove(id)?.complete(message["value"]?.let { if (it is JsonObject || it is JsonArray) it.toString() else it.jsonPrimitive.content })
+                waiting.remove(id)?.complete(
+                    when (val value = message["value"]) {
+                        null, is JsonNull -> null
+                        is JsonObject, is JsonArray -> value.toString()
+                        else -> value.jsonPrimitive.content
+                    },
+                )
             }
         }
     }
@@ -134,6 +141,7 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
     }
 
     override fun play() {
+        if (problem.value != null) return
         playing.value = true
         toldAt = TimeSource.Monotonic.markNow()
         command("p.playVideo()")

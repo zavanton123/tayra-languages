@@ -176,6 +176,13 @@ Locally:
 ./gradlew :desktopApp:packageDmg -PreleaseVersion=0.1.0
 ```
 
+Desktop videos play in the Chromium of JetBrains Runtime's JCEF builds (`JcefVideo` in core/ui). Give
+the desktop tasks one with `-Ptayra.jbr=<folder>` or `TAYRA_JBR` (the folder a `jbr_jcef` archive
+unpacks to, such as an IDE's `Contents/jbr`): `run` starts on it, and the packages carry all of it as
+their runtime in place of the one jlink makes. The release workflow fetches the version it names in
+`JBR_JDK` and `JBR_BUILD`. Without one the app is the same, but videos open in the browser. JBR's
+Chromium has no H.264, so video links in it play WebM (VP8, VP9, AV1) and the rest open in the browser.
+
 ## Languages
 
 The catalog is fixed: `LanguageCatalog` lists the 69 learnable languages and the nine native
