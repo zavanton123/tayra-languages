@@ -64,7 +64,9 @@ internal object Jcef {
             val args = (config.getMethod("getAppArgs").invoke(instance) as Array<String>) + "--autoplay-policy=no-user-gesture-required"
             val settings = config.getMethod("getCefSettings").invoke(instance) as CefSettings
             settings.windowless_rendering_enabled = false
-            settings.cache_path = File(System.getProperty("java.io.tmpdir"), "tayra-chromium").absolutePath
+            // One for each runtime: an older Chromium dies on starting with a profile a newer one has written.
+            val runtime = System.getProperty("java.runtime.version").orEmpty().replace(Regex("[^A-Za-z0-9._-]"), "_")
+            settings.cache_path = File(System.getProperty("java.io.tmpdir"), "tayra-chromium-$runtime").absolutePath
             CefApp.startup(args)
             // JetBrains Runtime 25 added the path of an out-of-process Chromium server (null: its own) to the call 21 has.
             val start = CefApp::class.java.methods.filter { it.name == "getInstance" }
