@@ -1,0 +1,182 @@
+{
+  "id": "la-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Ars machinalis",
+  "description": "Ten standalone modern stories about engineering: a revived brickworks, a lightning rod, a cold room, a mechanics syllabus, a robotic piano hand, drip irrigation, a bronze statue's repair, artificial spider silk, a noisy boiler and a wooden footbridge.",
+  "topic": "Engineering",
+  "names": [
+    "Gratiana",
+    "Ambivius",
+    "Ateste",
+    "Mediolanum",
+    "Verona",
+    "Patavium",
+    "Konradus",
+    "Lindavia",
+    "Plotina",
+    "Faenia",
+    "Lugdunum",
+    "Luxemburgum",
+    "Reginbaldus",
+    "Groninga",
+    "Adelgunda",
+    "Pacilia",
+    "Coventria",
+    "Waldemarus",
+    "Sentinia",
+    "Olbia",
+    "Tuticius",
+    "Durocortorum",
+    "Vettilla",
+    "Nasonius",
+    "Volcenia",
+    "Norvicum",
+    "Ingeborga",
+    "Nidrosia",
+    "Rufilla",
+    "Allidius",
+    "Cestria",
+    "Ansfridus"
+  ],
+  "lessons": [
+    {
+      "title": "Figlina derelicta",
+      "summary": "An engineer revisits her grandfather's abandoned brickworks near Este, learns how he made bricks and coated the kiln walls with clay, and brings the works back to life.",
+      "newWords": [
+        "later",
+        "figlina",
+        "derelinquo",
+        "reviso",
+        "abolesco",
+        "invetero",
+        "lino"
+      ],
+      "text": "Gratiana ingeniaria est et Mediolani domos antiquas reficit. Aestate oppidum Ateste revisit, ubi puella habitaverat. Avus eius Ambivius, iam octoginta annos natus, ibi adhuc habitat. Extra oppidum stat vetus figlina, in qua Ambivius per quadraginta annos lateres faciebat. Ante viginti annos domini eam dereliquerunt, quia lateres in magnis officinis minore pretio fiebant. Ex eo tempore aedificium derelictum vacuum stat, et herbae inter lateres crescunt.\n\n«Visne figlinam mecum revisere?» rogavit avus. «Saepe eam solus reviso, sed tecum libentius ibo.»\n\nPostridie per agros ad figlinam ambulaverunt. Ianua aperta erat, tectum partim ceciderat. Intus magna fornax stabat, et in pavimento acervi laterum veterum iacebant. Ambivius laterem unum sustulit et nepti ostendit. «Hunc laterem manibus meis feci», inquit. «Argillam ex ripa fluminis sumebamus, in formas ligneas premebamus, in sole siccabamus, deinde in fornace coquebamus. Parietes fornacis argilla linebamus, ne calor effugeret, et quotannis eos iterum linere debebamus.»\n\nGratiana rogavit cur haec ars abolesceret. «Multae artes manuum paulatim abolescunt», respondit avus, «cum machinae idem celerius et minore pretio faciunt. Sed mos inveteratus non facile abolescit. In hac regione amor laterum veterum inveteratus est: domus antiquae ex eis aedificatae sunt, et qui talem domum reficit, laterem novum et nitidum ponere non vult.»\n\nGratiana diu tacuit. Mediolani enim, cum domos antiquas reficeret, semper lateres veteres quaerere debebat, quia lateres magnarum officinarum colore et magnitudine differebant. Saepe frustra per totam regionem quaerebat.\n\n«Non oportet hanc figlinam in perpetuum derelinquere», inquit tandem. «Si fornacem novam aedificaverimus, quae minus ligni consumat, lateres veteris formae iterum facere poterimus. Tu iuvenes docebis quomodo argillam parare et parietes fornacis linere oporteat.»\n\nAmbivius risit, sed oculi eius splendebant.\n\nProximo anno Gratiana cum duobus sociis figlinam emit. Tectum refecerunt, fornacem novam aedificaverunt, et Ambivius tres iuvenes artem suam docuit. Nunc figlina iterum fumat, et lateres eius ad domos antiquas Mediolani, Veronae et Patavii vehuntur. Quotiens Gratiana oppidum Ateste revisit, primum ad figlinam it, ubi avus eam salutat. «Ars mea non abolescet», dicit laetus.\n\nQuaestiones:\nUbi Ambivius per quadraginta annos laborabat?\nIn vetere figlina extra oppidum Ateste laborabat.\nCur domini figlinam dereliquerunt?\nQuia lateres in magnis officinis minore pretio fiebant.\nQuomodo Ambivius et socii lateres faciebant?\nArgillam in formas ligneas premebant, in sole siccabant, deinde in fornace coquebant.\nCur parietes fornacis argilla linebant?\nLinebant eos ne calor effugeret.\nCur mos laterum veterum non facile abolescit?\nQuia amor laterum veterum in regione inveteratus est, et domus antiquae ex eis aedificatae sunt.\nQuid Gratiana cum sociis fecit?\nFiglinam, quam domini dereliquerant, emit et iterum aperuit."
+    },
+    {
+      "title": "Virga et picus",
+      "summary": "A farmer near Lindau has an engineer fit a lightning rod to an old wooden post that a woodpecker has riddled with holes; they prop the post up, and the next storm passes harmlessly.",
+      "newWords": [
+        "fulgur",
+        "cuspis",
+        "contego",
+        "picus",
+        "bucolicus",
+        "vastus",
+        "fulcio"
+      ],
+      "text": "Konradus villam rusticam prope Lindaviam habet, in collibus supra lacum. Circum villam prata vasta patent, et ultra prata lacus vastus usque ad montes extenditur. Pictores et photographi hanc regionem bucolicam amant: colles virides, vaccas tranquillas, horrea lignea. Sed vita bucolica non semper quieta est. Aestate superiore fulgur arborem altam prope horreum percussit, et ramus ingens in pratum cecidit. Ex eo tempore Konradus, quotiens tempestas appropinquat, timet ne fulgur ipsum horreum incendat, in quo fenum totius hiemis servatur.\n\nItaque Plotinam arcessivit, ingeniariam quae domos et horrea contra fulgura tuetur. Plotina villam circumivit et tectum horrei diu spectavit. «Fulgur semper viam brevissimam ad terram quaerit», explicavit. «Itaque in summo loco virgam ferream ponemus, cuius cuspis acuta in caelum spectet. Cuspis fulgur ad se trahet, et filum aeneum id per murum in terram ducet, priusquam ignem facere possit.»\n\nTectum horrei tabulis ligneis contectum erat. Plotina dixit filum aeneum lignum tangere non debere. Praeterea partem eius inferiorem tubo crasso contegere volebat, ne pueri vel animalia id tangerent.\n\nPrope horreum stabat vetus columna lignea, altior quam tectum. Plotina in ea virgam ponere volebat. Sed cum columnam inspexit, multa foramina rotunda invenit. «Picus hic habitat», dixit Konradus ridens. «Quotannis vere picum audio, qui rostro lignum pulsat ut vermes inveniat.» Plotina columnam tetigit. «Picus diligenter laboravit», inquit. «Lignum foraminibus debilitatum est. Nisi columnam fulcimus, primo vento vehementi cadet.»\n\nItaque tres trabes ferreas paraverunt quae columnam undique fulcirent. Konradus eas in terram fixit, Plotina ad lignum firmavit. Deinde virgam cum cuspide aenea in summa columna posuit et filum ad terram duxit; partem inferiorem fili tubo contexit. Picus interea in silva proxima clamabat, quasi opus inspiceret.\n\nPaucis post diebus caelum supra lacum vastum nigrum factum est. Konradus ex fenestra spectabat. Subito fulgur clarissimum in cuspidem virgae descendit; fenestrae magno sonitu tremuerunt, sed horreum non arsit. Filum aeneum fulgur in terram duxerat.\n\nPostridie Konradus ad columnam ambulavit. Trabes ferreae eam firme fulciebant, et picus iam in summa columna sedebat, sub cuspide virgae, tamquam ipse custos horrei esset.\n\nQuaestiones:\nUbi Konradus habitat?\nIn villa rustica prope Lindaviam habitat, in collibus supra lacum.\nQuid aestate superiore accidit?\nFulgur arborem altam prope horreum percussit.\nQuid cuspis virgae facit?\nCuspis fulgur ad se trahit, et filum aeneum id in terram ducit.\nCur columna lignea fulcienda erat?\nQuia picus multa foramina in ea fecerat et lignum debilitatum erat.\nQuomodo Konradus et Plotina columnam fulciunt?\nTribus trabibus ferreis eam undique fulciunt.\nQuid Plotina tubo contexit?\nPartem inferiorem fili aenei tubo contexit."
+    },
+    {
+      "title": "Cella frigida",
+      "summary": "A chef in Luxembourg whose storeroom grows too warm in summer has an engineer build a cold room and a freezer; she spots a flaw in his plan before work begins.",
+      "newWords": [
+        "frigus",
+        "gelo",
+        "cellarium",
+        "culinaris",
+        "exhaurio",
+        "menda",
+        "incresco"
+      ],
+      "text": "Faenia, quae artem culinarem Lugduni didicit, nunc Luxemburgi popinam parvam habet. Cibi eius tam boni sunt ut magistri artis culinaris eam saepe laudent. Sed aestate superiore Faenia magnam molestiam habuit. Cellarium, in quo carnem, pisces et holera servabat, nimis calidum erat. Cum calor diei increscebat, etiam calor in cellario increscebat, et holera intra duos dies flaccida fiebant.\n\nItaque Reginbaldum vocavit, ingeniarium qui machinas frigoris aedificat. Reginbaldus cellarium mensus est et diu cogitavit. «Multi putant machinas frigus facere», inquit. «Sed frigus non fit: calor exhauritur. Machina calorem ex cellario exhaurit et foras emittit, sicut nauta aquam ex nave exhaurit. Quo plus caloris exhauritur, eo frigidius cellarium fit.»\n\nFaenia rogavit num etiam locum habere posset ubi pisces gelarentur. «Certe», respondit Reginbaldus. «Cellarium in duas partes dividemus. In parte maiore holera et carnem frigore modico servabis. In parte minore aer tam frigidus erit ut aqua statim gelet; ibi pisces et cibos paratos gelare poteris.»\n\nPaucis post diebus Reginbaldus consilium suum attulit, magnam chartam plenam lineis et numeris. Faenia, quae in arte culinari omnia accurate metiri solet, chartam diligenter legit. Subito digitum in parte quadam posuit. «Hic menda est», inquit. «Machinam quae calorem emittit sub fenestra culinae ponere vis. Sed fenestra culinae aestate semper aperta est. Calor quem ex cellario exhauris statim in culinam redibit, et coqui mei calore increscente laborare non poterunt.»\n\nReginbaldus chartam inspexit et risit. «Recte dicis», inquit. «Mendam meam invenisti. Melius est mendam in charta corrigere quam in muro.» Machinam igitur in tecto posuit, procul ab omnibus fenestris.\n\nMense post opus perfectum est. Nunc in cellario frigus constans est, etiam cum calor aestatis increscit, et holera multos dies recentia manent. In parte minore pisces et cibi parati gelantur, quos Faenia per hiemem adhibet. Reginbaldum ad cenam invitavit et ei cibum novum paravit, quem «gelidum Reginbaldi» appellavit.\n\nQuaestiones:\nUbi Faenia artem culinarem didicit?\nLugduni eam didicit.\nQuae molestia aestate superiore erat?\nCellarium nimis calidum erat, et holera intra duos dies flaccida fiebant.\nQuid machina frigoris facit?\nCalorem ex cellario exhaurit et foras emittit.\nIn quas partes cellarium divisum est?\nIn partem maiorem, ubi frigus modicum est, et minorem, ubi cibi gelantur.\nQuam mendam Faenia in charta invenit?\nMachinam sub fenestra culinae positam esse, unde calor in culinam rediret.\nUbi Reginbaldus machinam tandem posuit?\nIn tecto eam posuit, procul ab omnibus fenestris."
+    },
+    {
+      "title": "Syllabus novus",
+      "summary": "A newly qualified lecturer in Groningen writes too long a syllabus for his first mechanics course; a chance meeting with his old teacher shows him how to cut it, and his students agree to the plan.",
+      "newWords": [
+        "syllabus",
+        "habilito",
+        "assentio",
+        "impertio",
+        "occursus",
+        "honestus",
+        "culpo"
+      ],
+      "text": "Mense superiore in universitate Groningae habilitatus sum. Diu hunc diem exspectaveram: qui habilitatus est, cursus suos docere potest, nec iam alterius professoris adiutor est. Primus cursus meus de mechanica pontium erit, et per totam aestatem syllabum eius scribebam. Syllabus est index rerum quae in cursu tractabuntur, cum libris legendis et operibus faciendis.\n\nVolebam discipulis omnia impertire quae ipse didiceram. Itaque syllabus meus in dies crescebat: post quattuor hebdomades octo paginas habebat, et in singulas horas tres vel quattuor res difficiles posueram.\n\nTum occursus fortuitus omnia mutavit. In bibliotheca Adelgundae occurri, quae olim magistra mea fuerat et nunc senex iam non docet. Occursus mihi gratissimus erat; ei syllabum meum ostendi, quasi puer qui patri opus suum ostendit.\n\nAdelgunda paginas lente legit. «Honestus es», inquit tandem, «et multa scis. Sed qui omnia impertire vult, nihil impertit. Discipuli non sunt vasa quae implentur. Si eis tantum rerum das, nullam rem bene discent.»\n\nDeinde mihi rem narravit quam numquam audiveram. «Cum primum habilitata essem», inquit, «syllabum longiorem etiam quam tuum scripsi. Post primum examen paene omnes discipuli male responderunt, et ego eos culpabam: pigros eos esse putabam. Sed collega quidam, vir honestus, mihi dixit: noli discipulos culpare; syllabum tuum culpa. Recte dicebat. Proximo anno syllabum dimidium feci, et discipuli multo melius didicerunt.»\n\nDomum redii et syllabum meum iterum scripsi. Res minus necessarias delevi; pro eis opus unum posui: singuli greges discipulorum pontem parvum ex charta et glutine aedificabunt, qui pondus quinque chiliogrammatum sustinere debebit. Syllabus novus tres paginas tantum habet.\n\nPrima hora cursus syllabum discipulis ostendi et rogavi num consilio assentirent. Discipula quaedam rogavit quid fieret si pons eorum caderet. «Nemo culpabitur», respondi. «Ex ponte qui cadit plus discimus quam ex ponte qui stat.» Tum omnes riserunt et assenserunt.\n\nPost hebdomadem Adelgundae epistulam scripsi et ei gratias egi. Respondit breviter: «Gaudeo. Magister honestus est qui discipulis impertit quod possunt accipere, non quod ipse scit.»\n\nQuaestiones:\nQuid narrator mense superiore fecit?\nIn universitate Groningae habilitatus est.\nQuid est syllabus?\nIndex rerum quae in cursu tractabuntur, cum libris legendis et operibus faciendis.\nCuius occursus omnia mutavit?\nOccursus Adelgundae, quae olim magistra eius fuerat.\nCur Adelgunda olim discipulos culpabat?\nQuia post primum examen paene omnes male responderant, et eos pigros esse putabat.\nQuod opus syllabus novus habet?\nDiscipuli pontem parvum ex charta et glutine aedificabunt.\nNum discipuli consilio assenserunt?\nIta, omnes riserunt et assenserunt."
+    },
+    {
+      "title": "Manus canora",
+      "summary": "An engineer in Coventry builds a robotic hand that plays the piano; an old pianist shows her it plays fast but not musically, and after she changes its program they play an unheard-of duet.",
+      "newWords": [
+        "canorus",
+        "anularis",
+        "instinctus",
+        "gemino",
+        "immuto",
+        "inauditus",
+        "assiduus"
+      ],
+      "text": "Pacilia ingeniaria est Coventriae, in officina quae manus mechanicas aedificat. Per duos annos labore assiduo manum fecit quae clavile pulsare potest. Quinque digitos habet, quorum quisque motore suo movetur. Difficillimus erat digitus anularis: in manu humana enim anularis cum digito medio coniunctus est nec facile solus movetur. Manus Paciliae tamen digitum anularem tam libere movet quam ceteros.\n\nCum manus perfecta esset, Pacilia Waldemarum invitavit, pianistam senem qui per quinquaginta annos in theatris musicam faciebat. Manus musicam celerem coram eo pulsavit. Deinde Pacilia programma immutavit ut manus velocitatem geminaret, et manus eandem musicam duplo celerius pulsavit. Nulla nota erravit.\n\nWaldemarus diu tacuit. «Velocitas inaudita est», inquit tandem. «Numquam audivi hominem tam celeriter pulsantem. Sed sonus non est canorus. Omnes notae aeque fortes sunt, sicut guttae pluviae in tecto. Musica canora spirat: aliae notae molliores sunt, aliae fortiores; aliae paulum morantur, aliae properant.»\n\nPacilia rogavit quomodo pianista sciret quas notas mollius pulsaret. «Instinctu», respondit Waldemarus. «Post tot annos digiti mei sciunt. Instinctus non ex libro discitur, sed ex usu assiduo.»\n\nPacilia instinctum in machinam ponere non poterat. Sed aliam viam invenit. Waldemarum rogavit ut eandem musicam multis diebus pulsaret, dum sensoria in clavibus vim cuiusque digiti metirentur. Labore assiduo mille exempla collegit, et ex eis programma manus immutavit. Nunc manus discit quam fortiter Waldemarus singulas notas pulsat, et similiter pulsat.\n\nPost tres menses Waldemarus iterum venit. Manus musicam lentam pulsavit, et sonus canorus erat, paene humanus. «Non est meus instinctus», dixit Waldemarus subridens, «sed bona imitatio.»\n\nTum Pacilia rem inauditam proposuit: ut Waldemarus et manus una pulsarent. Waldemarus partem lentam et canoram pulsavit, manus partem celerrimam, quam nullus homo pulsare potest. Cum musicam ad finem duxissent, operarii officinae, qui circumstabant, plauserunt. «Sonum talem numquam audivi», dixit Waldemarus. «Tu velocitatem meam geminasti, ego tibi cantum impertii.»\n\nQuaestiones:\nQuid Pacilia per duos annos fecit?\nLabore assiduo manum mechanicam fecit quae clavile pulsare potest.\nCur digitus anularis difficillimus erat?\nQuia in manu humana cum digito medio coniunctus est nec facile solus movetur.\nQuid manus fecit cum Pacilia programma immutavit?\nVelocitatem geminavit et musicam duplo celerius pulsavit.\nCur sonus primo non erat canorus?\nQuia omnes notae aeque fortes erant.\nUnde pianista scit quas notas mollius pulsare debeat?\nInstinctu scit, qui ex usu assiduo discitur.\nQuam rem inauditam Pacilia proposuit?\nUt Waldemarus et manus una pulsarent."
+    },
+    {
+      "title": "Guttae in agro arido",
+      "summary": "After a dry summer near Olbia, an engineer lays drip pipes for a farmer, explains how water rises through a plant, and builds a fence to keep hares off the young plants.",
+      "newWords": [
+        "aridus",
+        "areo",
+        "vascularis",
+        "pascor",
+        "lepus",
+        "vescor"
+      ],
+      "text": "Sentinia hortum magnum prope Olbiam colit, ubi holera et pomodora serit. Superiore aestate per tres menses non pluit. Fontes aruerunt, flumen parvum quod iuxta agros fluit paene aruit, et solum tam aridum factum est ut rimas haberet. Oves vicini, quae in colle pascuntur, herbam vix inveniebant, quia etiam collis aridus erat.\n\nSentinia multam aquam in agros fundebat, sed sol maiorem partem statim siccabat. Itaque Tuticium vocavit, ingeniarium qui de aqua in agris aridis adhibenda laborat.\n\nTuticius foliis pomodororum inspectis explicavit: «Planta non per folia bibit, sed per radices. Aqua a radicibus per systema vasculare ad folia ascendit, sicut per tubos tenuissimos. Si aquam in totum agrum fundis, maior pars aret antequam ad radices pervenit. Melius est aquam gutta post guttam ibi dare ubi radices sunt.»\n\nTum Sentiniae tubos tenues ostendit, quibus parva foramina erant. «Hos tubos inter ordines plantarum ponemus», inquit. «Per singula foramina gutta post guttam ad radices cadet. Sic systema vasculare plantae semper aquam habebit, etiam cum terra superior aret.»\n\nPer duos dies tubos posuerunt. Sed tertio die Sentinia tubos in pluribus locis morsos invenit. «Lepores!» clamavit. In colle enim multi lepores vivunt, qui noctu in hortum veniunt. Plantis teneris vescuntur, et nunc etiam tubos mollibus dentibus temptabant, quia aqua in eis erat.\n\nTuticius rem cogitavit. «Lepus aquam quaerit», inquit, «non tubos. Si leporibus aquam alibi damus, tubos relinquent.» Itaque saepem humilem circum hortum fecerunt, et extra saepem vas aquae posuerunt. Ex eo tempore lepores ad vas veniunt et bibunt; deinde herba et foliis in colle vescuntur, non plantis Sentiniae.\n\nAestate proxima iterum diu non pluit, sed horti plantae virides manserunt. Tuticius etiam vicino tubos posuit, ut oves eius in prato humido pascerentur. Sentinia nunc minus quam dimidium aquae consumit quam antea, et pomodora eius maiora sunt quam umquam.\n\nQuaestiones:\nQuid superiore aestate in agris Sentiniae accidit?\nFontes aruerunt, et solum tam aridum factum est ut rimas haberet.\nQuomodo aqua a radicibus ad folia ascendit?\nPer systema vasculare ascendit, sicut per tubos tenuissimos.\nCur aqua in totum agrum fusa non prodest?\nQuia maior pars aret antequam ad radices pervenit.\nQui tubos momorderunt?\nLepores, qui noctu in hortum veniunt et plantis teneris vescuntur.\nQuomodo Tuticius lepores a tubis abduxit?\nSaepem fecit et extra saepem vas aquae posuit.\nUbi oves vicini nunc pascuntur?\nIn prato humido pascuntur."
+    },
+    {
+      "title": "Quadrigae aeneae",
+      "summary": "A restorer in Reims takes down the bronze four-horse chariot from a theatre roof, wraps it in linen, repairs a cracked hoof and its inner frame, and puts it back.",
+      "newWords": [
+        "quadrigae",
+        "ungula",
+        "effrenatus",
+        "linteum",
+        "merito",
+        "erectio"
+      ],
+      "text": "In summo theatro Durocortori stant quadrigae aeneae: quattuor equi currum vacuum trahunt. Artifex, qui eas ante centum et quinquaginta annos fecit, equos effrenatos finxit: capita alta tollunt, iubae in ventum volant, et duo equi priores in pedibus posterioribus stant, ungulis anterioribus in aere. Cives quadrigas merito amant, nam nullum aliud opus urbis tantam vim habet.\n\nSed tempus quadrigis nocuerat. Vettilla, ingeniaria quae opera antiqua reficit, eas cum adiutore Nasonio inspexit. In ungula posteriore equi primi rimam longam invenit. «Equi effrenati pulchri sunt», inquit, «sed difficiles. Hic equus, qui in duobus pedibus stat, totum pondus suum in duabus ungulis portat. Si haec ungula frangitur, equus cadet.»\n\nItaque quadrigas de tecto deponere constituerunt. Ante opus Nasonius singulos equos linteis mollibus contexit, ne aes in itinere laederetur. Machina ingens equos lente in aera sustulit et in terram deposuit, dum cives in foro spectabant. Equi lintea alba gerentes in officinam vecti sunt.\n\nIn officina Vettilla interiora equorum inspexit. Intus erant ossa ferrea, quae artifex olim posuerat ut aes sustinerent. Ferrum autem robigine consumptum erat, et ideo ungula rimas egerat. Vettilla ossa nova ex chalybe fecit, quae non robiginem contrahunt, et rimam ungulae aere novo explevit. Nasonius interea totas quadrigas lavit, donec aes iterum fulgeret.\n\nPost sex menses quadrigae in theatrum redierunt. Iterum lintea equos tegebant, et cives iterum in foro stabant. Erectio quadrigarum totum diem duravit. Machina singulos equos lente in tectum sustulit, et Vettilla, in tecto stans, erectionem cuiusque equi diligenter dirigebat, donec ungulae in locis suis firmatae essent. Erectione perfecta Nasonius lintea removit. Equi effrenati in sole splendebant, tamquam ex theatro in caelum currere vellent. Cives plauserunt.\n\nPostea senex quidam in foro ad Vettillam accessit. «Merito laudaris», inquit. «Patrem meum, qui hos equos amabat, saepe audivi dicentem ungulam illam aliquando fractum iri. Nunc equi diutius stabunt quam nos omnes.» Vettilla, quae laudes non amat, respondit artificem antiquum merito laudandum esse, non se.\n\nQuaestiones:\nQuid in summo theatro Durocortori stat?\nQuadrigae aeneae stant: quattuor equi currum vacuum trahunt.\nQuomodo artifex equos finxit?\nEquos effrenatos finxit, capitibus altis et iubis in ventum volantibus.\nQuam rem Vettilla in ungula invenit?\nRimam longam in ungula posteriore equi primi invenit.\nQuamdiu erectio quadrigarum duravit?\nErectio quadrigarum totum diem duravit.\nCur Nasonius equos linteis contexit?\nNe aes in itinere laederetur.\nCur ungula rimas egerat?\nQuia ossa ferrea intus robigine consumpta erant.\nQuid senex Vettillae dixit?\nDixit eam merito laudari."
+    },
+    {
+      "title": "Fila araneae",
+      "summary": "A materials engineer in Norwich studies the webs scattered across her garden, explains why engineers envy the spider's silk, and slowly makes a stronger artificial thread that doctors hope to use in surgery.",
+      "newWords": [
+        "aranea",
+        "laqueo",
+        "disseminatus",
+        "augmentum",
+        "invideo",
+        "chirurgia"
+      ],
+      "text": "Volcenia, quae Norvici in laboratorio materiarum laborat, primam horam diei semper in horto suo agit. Autumno, cum ros in herba est, telas aranearum ubique videt: inter rosas, in saepe, sub fenestris. Telae per totum hortum disseminatae sunt, et in singulis telis gutta roris quasi gemma splendet.\n\nVolcenia araneas libenter spectat. Aranea telam suam una nocte texit, et postridie muscas in ea laqueat. Musca quae in telam volat statim laqueatur, nam fila glutine tenui obducta sunt. Aranea autem ipsa per telam currit nec laqueatur, quia certa fila tantum calcat.\n\n«Nos ingeniarii araneis invidemus», dicere solet Volcenia, cum de opere suo rogatur. «Filum araneae, si pondus aequum comparas, fortius est quam chalybs, et tamen tam molle ut extendi possit. Aranea id sine igne et sine machina facit, in ventre suo, ex aqua et cibo. Quis tali arti non invideat?»\n\nPer decem annos Volcenia et socii eius filum simile facere conantur. Araneas in laboratorio alere non possunt, quia solae vivere malunt nec multae in uno loco vivere possunt. Itaque fila ex materia quadam faciunt quam microbia producunt. Primo fila eorum infirma erant et facile frangebantur. Sed singulis annis parvum augmentum virium inveniebant: hoc anno augmentum quinque partium centesimarum, proximo anno septem.\n\nNunc Volcenia filum habet quod paene tam forte est quam filum araneae. Medici iam rogaverunt num hoc filum in chirurgia adhibere possent. In chirurgia enim fila tenuissima et firmissima requiruntur, quae corpus non respuit et quae post tempus sponte dissolvuntur. Volcenia sperat filum suum aliquando medicos in chirurgia adiuturum esse.\n\nVespere, cum ex laboratorio domum redit, Volcenia iterum per hortum ambulat. Telae disseminatae in luce solis occidentis splendent. Aranea magna in angulo fenestrae novam telam texit. «Adhuc tibi invideo», dicit Volcenia ridens. «Sed non diu.»\n\nQuaestiones:\nUbi Volcenia telas aranearum videt?\nIn horto suo, inter rosas, in saepe et sub fenestris.\nCur musca in tela laqueatur?\nQuia fila glutine tenui obducta sunt.\nCur ingeniarii araneis invident?\nQuia filum araneae fortius est quam chalybs et tamen molle.\nQuod augmentum Volcenia singulis annis inveniebat?\nParvum augmentum virium, quinque vel septem partium centesimarum.\nUbi medici filum adhibere volunt?\nIn chirurgia id adhibere volunt.\nQuid aranea magna vespere facit?\nIn angulo fenestrae novam telam texit."
+    },
+    {
+      "title": "Aenum in cella",
+      "summary": "In Trondheim a retired engineer who lives with her daughter's family finds out why the old copper boiler makes the pipes surge and bang at night, frightening her granddaughter, and fixes it.",
+      "newWords": [
+        "aenum",
+        "undo",
+        "convivo",
+        "quotienscumque",
+        "fleo",
+        "como",
+        "egredior"
+      ],
+      "text": "Ingeborga, quae olim ingeniaria fuit, nunc Nidrosiae cum filia et genero et nepte Rufilla convivit. Domus eorum vetus est et lignea, et in cella stat aenum magnum ex cupro, quod aquam calidam toti domui praebet. Ingeborga libenter cum familia convivit, sed una res eam vexat.\n\nQuotienscumque enim aliquis noctu aquam calidam aperit, aqua in tubis undat et tubi sonos graves edunt, quasi aliquis malleo in muris pulsaret. Rufilla, quae sex annos nata est, his sonis saepe e somno excitatur. Tum in lecto sedet et flet, et mater eam diu consolari debet.\n\nQuadam nocte Ingeborga flentem audivit et ad lectum neptis venit. «Cur fles?» rogavit. «Aliquis in muris est», respondit Rufilla flens. «Quotienscumque dormire volo, pulsat.» Ingeborga eam amplexa est. «Nemo in muris est», inquit. «Aqua est, quae in tubis undat. Mane eam domabimus.»\n\nMane Ingeborga capillos Rufillae comebat, sicut cotidie facit. Dum capillos eius comit, rem explicavit. «Aqua in aeno calefit et per tubos ascendit. Sed in tubis aer quoque est. Cum aqua celeriter currit et subito sistitur, undat et tubos pulsat. Eodem modo undae maris saxa pulsant.»\n\nCapillis comptis Ingeborga «Egrediamur», inquit. Ambae domo exierunt et ad tabernam artificum ambulaverunt. Ingeborga ibi valvam parvam emit et vas quod impetum aquae molliret. Domum reversae in cellam descenderunt. Rufilla lucernam tenebat, dum avia valvam supra aenum ponebat et aerem ex tubis emittebat. Aer sibilans e valva egreditur, et Rufilla ridet.\n\n«Nunc aqua non undabit», dixit Ingeborga. Rufilla aquam calidam in culina aperuit et clausit, iterum et iterum. Tubi tacebant.\n\nEa nocte pater Rufillae sero domum rediit et aquam calidam aperuit. Nullus sonus auditus est. Rufilla in lecto suo dormiebat. Postridie mane, dum avia capillos eius comit, Rufilla rogavit num ipsa quoque ingeniaria fieri posset. «Certe», respondit Ingeborga. «Iam scis aquam undare, et scis quare.»\n\nQuaestiones:\nQuibuscum Ingeborga convivit?\nCum filia et genero et nepte Rufilla convivit.\nQuid in cella stat?\nAenum magnum ex cupro, quod aquam calidam toti domui praebet.\nQuid fit quotienscumque aliquis noctu aquam calidam aperit?\nAqua in tubis undat et tubi sonos graves edunt.\nCur Rufilla flebat?\nQuia putabat aliquem in muris pulsare.\nQuid Ingeborga facit dum capillos Rufillae comit?\nExplicat cur aqua in tubis undet.\nQuid ex valva egreditur?\nAer sibilans ex valva egreditur."
+    },
+    {
+      "title": "Pons in horto",
+      "summary": "A carpenter in Chester and his apprentice build a wooden footbridge in a park; a misused tool and a lying laser meter cause a wrong cut, and they wait for the soil to settle before nailing the last boards.",
+      "newWords": [
+        "clavo",
+        "curto",
+        "abutor",
+        "resido",
+        "mendax",
+        "rubeo",
+        "supplico",
+        "vallo"
+      ],
+      "text": "Allidius faber tignarius est Cestriae. Hoc vere oppidum ei pontem ligneum mandavit, qui rivum in horto publico transiret. Allidius discipulum suum Ansfridum secum duxit, iuvenem diligentem sed nimis festinantem.\n\nPrimo die Allidius metrum electronicum Ansfrido dedit, ut longitudinem pontis metiretur. Ansfridus ripam utramque mensus est: septem metra et triginta centesimas. Domi in officina tabulas longas paraverunt et eas curtare coeperunt. Allidius tabulas ad longitudinem pontis curtabat, Ansfridus clavos parabat.\n\nSed Ansfridus, dum laborat, instrumentis abutebatur. Cum malleum non inveniret, cochleas tubo ferreo pulsabat, et metrum electronicum in terram deponebat ubi pulvis et aqua erant. «Noli instrumentis abuti», dixit Allidius. «Qui instrumento abutitur, eo postea frui non potest.»\n\nPostridie tabulae ad rivum portatae sunt. Sed cum in ripis positae essent, breviores erant quam pons: deerant decem centesimae. Ansfridus rubebat. Allidius metrum electronicum sumpsit et inspexit. In parte eius lux parva rubebat: pila paene exhausta erat. «Hoc metrum mendax est», inquit. «Cum pila deficit, lux rubet, et mensurae mendaces fiunt. Lux rubens te monuit, sed tu eam non vidisti.»\n\nAnsfridus tabulas iterum curtare nolebat, nam eas iam curtaverant. Novas igitur tabulas fecerunt, et hoc tempore Allidius ripas metro ferreo veteri mensus est, quod numquam mendax est.\n\nCum tabulae paratae essent, Ansfridus statim eas clavare volebat. Sed Allidius eum prohibuit. Proximis enim diebus multum pluerat, et terra sub columnis pontis mollis erat. «Terra residit», explicavit. «Si nunc tabulas clavamus, et columnae paulum residunt, pons curvus fiet. Exspectemus dum terra residat.»\n\nSed oppidum pontem intra duos dies perfectum volebat. Allidius igitur ad officium oppidi ivit et diu supplicavit ut sibi una hebdomas daretur. «Si nunc festinamus», inquit, «pons curvus erit. Supplico vobis: date nobis tempus.» Tandem homo officii, qui ipse pontem curvum nolebat, assensit.\n\nInterea rivus pluviis auctus terram circum columnas auferre coepit. «Columnas aggere vallare debemus», dixit Allidius. Itaque columnas aggere terrae et saxorum vallaverunt, et agger quo eas vallaverant aquam per totam hebdomadem arcebat.\n\nItaque per hebdomadem exspectaverunt, et columnas cotidie metiebantur. Primo terra duas centesimas resedit, deinde nihil. Tum demum tabulas clavaverunt. Allidius clavos lente et accurate clavabat, Ansfridus post eum, iam non festinans.\n\nPons perfectus pueros et senes trans rivum fert, nec curvus est. Ansfridus nunc pilas instrumentorum ante omne opus inspicit, et si lux rubet, novas ponit.\n\nQuaestiones:\nQuod opus oppidum Allidio mandavit?\nPontem ligneum, qui rivum in horto publico transiret.\nQuomodo Ansfridus instrumentis abutebatur?\nCochleas tubo ferreo pulsabat et metrum electronicum in pulvere et aqua deponebat.\nCur metrum electronicum mendax erat?\nQuia pila paene exhausta erat; tum lux rubet et mensurae mendaces fiunt.\nQuid Allidius ante tabulas clavandas exspectabat?\nExspectabat dum terra sub columnis resideret.\nQuid Allidius in officio oppidi fecit?\nDiu supplicavit ut sibi una hebdomas daretur, ne pons curvus fieret.\nQuomodo columnas contra rivum tutati sunt?\nColumnas aggere terrae et saxorum vallaverunt.\nQuantum terra resedit?\nDuas centesimas resedit, deinde nihil.\nQuid Ansfridus nunc ante omne opus facit?\nPilas instrumentorum inspicit, et si lux rubet, novas ponit."
+    }
+  ]
+}
