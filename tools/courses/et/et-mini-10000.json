@@ -1,0 +1,215 @@
+{
+  "id": "et-mini-10000",
+  "rankUpTo": 10000,
+  "level": "C2",
+  "title": "Õppimine ja keel",
+  "description": "Ten standalone stories about learning at every age: a boarding school, an Estonian course, programming, an eclipse, a cooking school, a farm internship, a beauty salon, a student company, old newspapers and painting after retirement.",
+  "topic": "Learning and language",
+  "names": [
+    "Liilika",
+    "Hiiumaa",
+    "Tartu",
+    "Eesti",
+    "Margarete",
+    "Elme",
+    "Karlova",
+    "Simo",
+    "Matteo",
+    "Itaalia",
+    "Rünne",
+    "Python",
+    "Gerlin",
+    "Tallinn",
+    "Artjom",
+    "Rakvere",
+    "Roman",
+    "Tommi",
+    "Einstein",
+    "Sanni",
+    "Viljandi",
+    "Joakim",
+    "Eleriin",
+    "Põlvamaa",
+    "Heldur",
+    "Tuulia",
+    "Haapsalu",
+    "Kärolyn",
+    "Salme",
+    "Pärnu",
+    "Merlyn",
+    "Maksim",
+    "India",
+    "Jaipur",
+    "Alis",
+    "Hellika",
+    "Helsinki",
+    "Helsingi",
+    "Haanja",
+    "Võrumaa",
+    "Võru",
+    "Alpid",
+    "Šveits"
+  ],
+  "lessons": [
+    {
+      "title": "Elu internaadis",
+      "summary": "A fifteen-year-old from Hiiumaa starts at a Tartu school, learns the boarding-house rules, plays table tennis past bedtime and learns from her great-aunt how to lose well.",
+      "newWords": [
+        "internaat",
+        "hoolealune",
+        "magamaminek",
+        "eemalolek",
+        "üleastumine",
+        "lauatennis",
+        "vanatädi",
+        "sündsus",
+        "lüüasaamine"
+      ],
+      "text": "Liilika on 15-aastane ja pärit Hiiumaalt. Sügisel hakkas ta õppima Tartu gümnaasiumis, kus on tugev loodusteaduste suund. Hiiumaalt on Tartusse liiga pikk tee, et iga päev koolis käia, ja seepärast elab Liilika nüüd internaadis. Internaat asub kooli kõrval vanas puumajas, kus elab umbes nelikümmend õpilast üle kogu Eesti.\n\nInternaadi kasvataja on Margarete, rahulik naine, kes on seal töötanud üle kahekümne aasta. Ta ütleb, et iga hoolealune on talle nagu oma laps, ja juba esimese nädala lõpuks teab ta kõiki nimepidi. Esimesel õhtul kutsus Margarete uued hoolealused saali ja rääkis neile internaadi reeglitest.\n\n„Reegleid ei ole palju,“ ütles ta, „aga neid tuleb täita. Magamaminek on kell 22.30 ja pärast seda on majas vaikus. Kui keegi tahab nädalavahetusel koju sõita või sugulaste juures ööbida, peab ta oma eemalolekust mulle ette teatama. Eemalolek ilma teatamata on kõige tõsisem üleastumine, sest siis ma ei tea, kus te olete.“\n\nLiilika kirjutas reeglid vihikusse. Ta tahtis olla eeskujulik hoolealune.\n\nEsimesed nädalad olid rasked. Liilikal oli kodust puudus ja tuba tuli jagada kahe teise tüdrukuga. Õhtuti mängisid õpilased keldris lauatennist. Lauatennis oli internaadis nii populaarne, et laua juures oli alati järjekord. Liilika oli varem mänginud ainult isaga garaažis, aga ta õppis kiiresti ja hakkas peagi võitma ka vanemaid õpilasi.\n\nÜhel õhtul läks mäng nii põnevaks, et keegi ei vaadanud kella. Kui Margarete keldriukse avas, oli magamaminek olnud juba veerand tundi tagasi. „See on üleastumine,“ ütles kasvataja rahulikult, „kuid mitte suur. Homme lõpetate mängu õigel ajal.“ Liilika tundis häbi, aga Margarete naeratas ja soovis kõigile head ööd.\n\nLiilika vanatädi Elme elab Tartus Karlova linnaosas. Vanatädi on Liilika vanaema noorem õde ja töötas kunagi koolis eesti keele õpetajana. Kord kuus kutsub ta Liilika laupäevaks enda juurde. Kuna Liilika jääb siis vanatädi juurde ööseks, teatab ta oma eemalolekust alati juba reedel. Elme peab lugu sündsusest: söögilauas ei kasutata telefoni, külalise tulles tõustakse püsti ja võõrastele vanematele inimestele öeldakse teie. Alguses naeris Liilika, et vanatädi sündsuse reeglid on rangemad kui internaadi omad. Peagi märkas ta aga, et just nende reeglite pärast on vanatädi juures nii rahulik ja hea olla.\n\nKevadel peeti internaadis lauatennise turniir. Liilika jõudis finaali, kus tema vastane oli abiturient Simo. Mäng oli pikk ja tasavägine, kuid lõpuks võitis Simo. Lüüasaamine oli kibe ja Liilikal olid pisarad silmis. Simo surus tal kätt ja ütles naerdes, et järgmisel aastal võidab kindlasti Liilika, sest tema ise on siis juba koolist läinud.\n\nVanatädi Elme oli tulnud finaali vaatama. Pärast mängu ütles ta: „Ka lüüasaamisega tuleb osata elada. Võitjale kätt suruda ja teda õnnitleda – see on samuti sündsus.“ Liilika noogutas. Ta mõtles, et internaadis õpib ta palju rohkem kui ainult koolitundides.\n\nKüsimused:\nMiks elab Liilika internaadis?\nHiiumaalt on Tartusse liiga pikk tee, et iga päev koolis käia.\nMis on internaadis kõige tõsisem üleastumine?\nKõige tõsisem üleastumine on eemalolek ilma kasvatajale ette teatamata.\nMis juhtus õhtul, kui lauatennise mäng läks põnevaks?\nKeegi ei vaadanud kella ja kui kasvataja tuli, oli magamaminek olnud juba veerand tundi tagasi.\nKes on Elme?\nElme on Liilika vanatädi, tema vanaema noorem õde.\nMilliseid sündsuse reegleid peab vanatädi oma kodus?\nSöögilauas ei kasutata telefoni, külalise tulles tõustakse püsti ja võõrastele vanematele inimestele öeldakse teie.\nMida ütles vanatädi pärast Liilika lüüasaamist?\nTa ütles, et ka lüüasaamisega tuleb osata elada ning võitjat õnnitleda on samuti sündsus."
+    },
+    {
+      "title": "Kümme sekundit mõtlemisaega",
+      "summary": "An Italian engineer in Tartu learns Estonian, is told to take time to think, practises his t and d, answers a rhetorical question and learns to welcome corrections.",
+      "newWords": [
+        "õppija",
+        "rutakas",
+        "korrigeerima",
+        "mõtlemisaeg",
+        "umbkaudu",
+        "ige",
+        "retooriline",
+        "nähvama",
+        "teadvustama",
+        "kohanduma"
+      ],
+      "text": "Matteo on pärit Itaaliast ja töötab kolmandat aastat Tartus insenerina. Tööl räägivad kolleegid temaga inglise keelt, kuid Matteo tahab aru saada ka sellest, millest nad lõunalauas omavahel räägivad. Seepärast käib ta kaks korda nädalas eesti keele kursusel. Kursust juhendab õpetaja Rünne ja rühmas on kaheksa täiskasvanud õppijat.\n\nMatteo on usin, kuid rutakas õppija. Kui Rünne esitab küsimuse, hakkab Matteo kohe vastama, enne kui ta on lause lõpuni läbi mõelnud. Siis lähevad tal käänded sassi või jääb verb lausest välja. Rünne ei pane seda pahaks. Ta korrigeerib Matteot rahulikult: ütleb lause õigesti ette ja laseb tal seda korrata. Korrigeerida tuleb sõbralikult, ütleb Rünne, muidu kaob õppijal julgus.\n\nÜhel õhtul ütles Rünne: „Matteo, te olete liiga rutakas. Ma annan igale õppijale pärast küsimust mõtlemisaega. Kümme sekundit mõtlemisaega ei ole raisatud aeg.“ Matteo naeris. Tema peres oli alati räägitud kiiresti ja kõik korraga, nii et vaikus tundus talle ebamugav. Kuid ta proovis. Ta mõtles umbkaudu kümme sekundit ja vastas alles siis. Vigu tuli palju vähem.\n\nRaskusi oli ka hääldusega. Rünne seletas, et eesti t ja d ütlemisel ei puuduta keeleots hambaid, vaid ülemisi igemeid hammaste taga. Matteo harjutas kodus peegli ees. Ta tundis keeleotsaga igemeid ja kordas sõnu „tuba“, „tuli“ ja „aed“, kuni need hakkasid kõlama nii, nagu peab.\n\nTööl juhtus kord naljakas lugu. Ülemus ütles koosolekul ohates: „Kas me tõesti peame jälle koosolekut pidama?“ Matteo vastas viisakalt: „Jah, homme kell kolm.“ Kõik naersid. Hiljem seletas Rünne, et see oli retooriline küsimus. „Retooriline küsimus ei oota vastust,“ ütles ta. „Ülemus tahtis lihtsalt öelda, et koosolekuid on liiga palju.“\n\nTeine lugu oli vähem naljakas. Üks kolleeg parandas lõunalauas Matteo eesti keelt kõigi kuuldes. Matteo oli väsinud ja nähvas: „Ma tean ise!“ Kolleeg jäi vait. Õhtul rääkis Matteo sellest kursusel. Rünne kuulas ja ütles: „Kolleegile ei olnud vaja nähvata. Õppija jaoks on parandus kingitus. Tähtis on teadvustada, et vead on õppimise osa, mitte häbi.“\n\nJärgmisel päeval palus Matteo kolleegilt vabandust. Nüüd parandab kolleeg teda lõunalauas hea meelega ja Matteo tänab. Ta on endale teadvustanud, et võõras keeles on inimene alguses alati natuke abitu. Eesti eluga on Matteo kohandunud kiiremini, kui ta ise arvas: ta käib saunas, sööb kama ja talub novembri pimedust. Keelega kohanduda võtab rohkem aega, aga Matteo on kannatlikum kui varem. Ta teab nüüd umbkaudu kaks tuhat sõna ja vastab küsimustele alles siis, kui on endale mõtlemisaega andnud.\n\nKüsimused:\nMiks õpib Matteo eesti keelt?\nTa tahab aru saada, millest kolleegid lõunalauas omavahel räägivad.\nMilline õppija on Matteo?\nTa on usin, kuid rutakas õppija, kes hakkab vastama enne, kui on lause läbi mõelnud.\nKuidas aitas Rünne tal hääldust parandada?\nTa seletas, et t ja d ütlemisel puudutab keeleots ülemisi igemeid hammaste taga.\nMiks kolleegid koosolekul naersid?\nMatteo vastas ülemuse küsimusele, kuigi see oli retooriline küsimus.\nMida ütles Rünne pärast seda, kui Matteo oli kolleegile nähvanud?\nTa ütles, et õppija jaoks on parandus kingitus ja tuleb teadvustada, et vead on õppimise osa.\nKui palju sõnu Matteo nüüd teab?\nTa teab umbkaudu kaks tuhat sõna."
+    },
+    {
+      "title": "Kood klaasseinal",
+      "summary": "A cleaner at a Tallinn software company gets curious about the code on the glass partitions, learns programming with a developer's help and earns a certificate.",
+      "newWords": [
+        "vahesein",
+        "mopp",
+        "programmeerimine",
+        "kõrgetasemeline",
+        "ettevalmistatud",
+        "staatiline",
+        "efektiivsus",
+        "sertifikaat",
+        "eelseisev"
+      ],
+      "text": "Gerlin on 38-aastane ja töötab koristajana Tallinnas ühes tarkvarafirmas. Ta tuleb tööle õhtul kell kuus, kui enamik töötajaid on juba koju läinud. Kontor on suur avatud ruum, mida jagavad klaasist vaheseinad mitmeks osaks. Gerlin tühjendab prügikastid, pühib laudu ja peseb mopiga põrandat.\n\nProgrammeerijad kirjutavad klaasist vaheseintele markeriga skeeme ja koodiridu. Alguses tundusid need Gerlinile salakirjana. Aga mida kauem ta neid vaatas, seda rohkem hakkasid need teda huvitama. Mõnikord seisis ta mopiga vaheseina ees ja proovis aru saada, mida üks või teine rida tähendab.\n\nÜhel õhtul jäi programmeerija Artjom tööle kauemaks. Ta märkas, et koristaja vaatab vaheseinal olevat koodi kauem kui tavaliselt. „Kas see huvitab teid?“ küsis Artjom. Gerlin tunnistas, et huvitab, kuid ta arvas, et programmeerimine on ainult matemaatikageeniustele.\n\nArtjom naeris. „Programmeerimine on lihtsalt keel,“ ütles ta. „Ainult et kuulaja on arvuti, kes võtab iga sõna täpselt nii, nagu see on kirjutatud.“ Ta seletas, et Python on kõrgetasemeline keel: see on inimese keelele lähemal kui masina keelele ja seda on lihtne lugeda. Kõrgetasemeline keel peidab arvuti keerulise töö õppija eest ära.\n\nArtjom soovitas tasuta veebikursust ja lubas aidata. Iga nädal jättis ta Gerlinile laua peale paar ettevalmistatud ülesannet. Kui mopp oli kapis, istus Gerlin kontori köögis ja lahendas neid. Ettevalmistatud ülesanded läksid aina raskemaks ja Gerlin õppis iga nädalaga juurde.\n\nTema esimene projekt oli staatiline veebileht poja jalgpalliklubile. Staatiline leht ei muutu iseenesest: see näitab alati sama teksti ja samu pilte, kuni keegi neid käsitsi muudab. Klubi treener oli lehega väga rahul.\n\nSiis rääkis Artjom efektiivsusest. Hea programm ei tee asjatut tööd, sest see raiskab aega ja elektrit. Gerlin naeratas. Efektiivsus oli talle tuttav: ta oli aastaid planeerinud, kuidas kontor võimalikult väheste sammudega puhtaks saada. Kõigepealt prügikastid, siis lauad ja viimasena põrand, alati ukse poole liikudes. „Te mõtlete juba nagu programmeerija,“ ütles Artjom.\n\nKevadel otsustas Gerlin teha eksami, mis annab rahvusvahelise sertifikaadi. Eelseisev eksam tegi talle muret ja ta harjutas iga õhtu. Artjom koostas talle eelseisva eksami jaoks proovitesti. Eksam kestis kolm tundi. Kaks nädalat hiljem tuli e-kiri: Gerlin oli sertifikaadi saanud.\n\nSügisel võttis sama firma ta tööle tarkvara testijaks. Nüüd istub Gerlin ise klaasist vaheseina taga ja kirjutab koodiridu, mida õhtune koristaja uudishimulikult vaatab.\n\nKüsimused:\nKus Gerlin töötas?\nTa töötas koristajana Tallinnas ühes tarkvarafirmas.\nMida programmeerijad kirjutasid klaasist vaheseintele?\nNad kirjutasid markeriga skeeme ja koodiridu.\nMida ütles Artjom programmeerimise kohta?\nTa ütles, et programmeerimine on lihtsalt keel ja kuulaja on arvuti.\nMis on staatiline veebileht?\nSee on leht, mis näitab alati sama teksti ja samu pilte, kuni keegi neid käsitsi muudab.\nMiks oli efektiivsus Gerlinile tuttav?\nTa oli aastaid planeerinud, kuidas kontor võimalikult väheste sammudega puhtaks saada.\nMida Gerlin kevadel saavutas?\nTa tegi eksami ja sai rahvusvahelise sertifikaadi."
+    },
+    {
+      "title": "Varjutus koolihoovis",
+      "summary": "A physics teacher in Rakvere shows twenty pupils a partial solar eclipse through filtered telescopes and answers a red-haired boy's questions about poles, spacetime and distant star systems.",
+      "newWords": [
+        "varjutus",
+        "paarkümmend",
+        "elevile",
+        "punapäine",
+        "poolus",
+        "mustvalge",
+        "aegruum",
+        "tähesüsteem"
+      ],
+      "text": "Ühel hommikul märtsis oli Eestis näha Päikese osaline varjutus. Rakvere gümnaasiumi füüsika õpetaja Roman oli selleks valmistunud juba nädalaid. Ta oli tellinud kõigile spetsiaalsed prillid ja kooli hoovis ootasid kaks teleskoopi, mille ette oli kinnitatud tume filter. Ilma sellise filtrita ei tohi Päikesesse kunagi vaadata.\n\nKell kümme kogunes hoovi paarkümmend õpilast. Kui Kuu hakkas Päikese ette liikuma ja Päikese serv muutus tumedaks, läksid lapsed elevile. Kõik tahtsid korraga teleskoopi vaadata. „Rahu!“ ütles Roman. „Varjutus kestab peaaegu kaks tundi. Kõik paarkümmend õpilast jõuavad vaadata, kui te seisate järjekorras.“\n\nJärjekorras oli esimene punapäine poiss Tommi, kes tahab saada astronoomiks. Tommi läks elevile iga kord, kui taevas midagi juhtus. „Miks ei ole varjutust iga kuu?“ küsis ta. Roman võttis kotist väikese maakera ja palli. Ta näitas, et Kuu tee ümber Maa on natuke viltu. Seepärast satuvad Päike, Kuu ja Maa ühele joonele ainult mõnikord.\n\nSiis keeras Roman maakera ja näitas, kus asuvad Maa poolused. „Poolused on kohad, kus suvel päike ei looju,“ ütles ta. „Seal võib Päikese varjutust näha ka keskööl.“ Punapäine Tommi ei tahtnud seda alguses uskuda, aga Roman lubas talle hiljem näidata fotosid, mis on tehtud suvisel ööl pooluse lähedal.\n\nVahepeal oli Kuu katnud juba kolmandiku Päikesest ja hoovis läks pisut jahedamaks. Roman võttis kaustast vana mustvalge foto. Sellel oli näha must ketas ja selle ümber helendav rõngas. „See mustvalge foto on tehtud 1919. aastal,“ seletas ta. „Tol päeval pildistasid teadlased täieliku varjutuse ajal tähti, mis paistsid Päikese lähedal.“\n\nFotodelt selgus, et nende tähtede valgus oli Päikese lähedalt möödudes veidi kõrvale paindunud. Nii sai kinnitust Einsteini mõte, et suur mass painutab aegruumi. „Kujutage ette, et aegruum on nagu pingul lina,“ ütles Roman. „Kui panna selle keskele raske kivi, tekib lohk ja väike pall veereb selle ümber.“\n\nTommi mõtles natuke ja küsis siis, kas teistel tähtedel on ka planeedid. Roman noogutas. Meie Päike koos planeetidega on üks tähesüsteem paljude seas. Ka kaugest tähesüsteemist leiavad teadlased planeete sageli varjutuse abil: kui planeet liigub oma tähe eest läbi, muutub täht natuke tumedamaks. „See on nagu väga väike varjutus väga kaugel,“ ütles Roman.\n\nKella poole kaheteistkümne paiku oli Päike jälle ümmargune. Õpilased läksid tundi tagasi ja Roman korjas teleskoobid kokku. Tommi jäi veel hetkeks hoovi seisma. Ta ütles, et kui temast saab astronoom, hakkab ta otsima uusi tähesüsteeme.\n\nKüsimused:\nMitu õpilast kogunes kell kümme kooli hoovi?\nKooli hoovi kogunes paarkümmend õpilast.\nMis oli teleskoopide ees?\nTeleskoopide ees oli tume filter, sest ilma selleta ei tohi Päikesesse vaadata.\nKes oli järjekorras esimene?\nEsimene oli punapäine poiss Tommi, kes tahab saada astronoomiks.\nMida näitas Roman maakeral?\nTa näitas Maa poolusi, kus suvel päike ei looju.\nMis oli näha vanal mustvalgel fotol?\nFotol oli must ketas ja selle ümber helendav rõngas. Foto oli tehtud 1919. aasta varjutuse ajal.\nKuidas leiavad teadlased planeete kaugest tähesüsteemist?\nKui planeet liigub oma tähe eest läbi, muutub täht natuke tumedamaks."
+    },
+    {
+      "title": "Emadepäeva lõuna",
+      "summary": "At a Saturday cooking school in Viljandi a chef teaches a thirteen-year-old to make bone broth, blanch vegetables, whip cream and lay out a platter for Mother's Day.",
+      "newWords": [
+        "emadepäev",
+        "luuüdi",
+        "aurustuma",
+        "kupatama",
+        "ürt",
+        "hõng",
+        "kloppima",
+        "vaagen",
+        "silmarõõm"
+      ],
+      "text": "Sanni on 13-aastane ja käib laupäeviti Viljandis noorte kokkade kursusel. Kursust juhendab kokk Joakim, kes töötas varem aastaid suures restoranis. Mai alguses teatas Joakim, et järgmisel korral teevad nad emadepäeva lõunat. Emadepäev on Eestis mai teisel pühapäeval ja iga õpilane saab oma emale midagi head koju viia.\n\nJoakim alustas supist. Ta oli toonud turult veise konte. „Kontide sees on luuüdi,“ seletas ta. „Kui kondid enne potti panemist ahjus pruuniks küpsetada, sulab luuüdi ja annab supile sügava maitse.“ Sanni oli luuüdist kuulnud seni ainult bioloogia tunnis. Pruunid kondid läksid suurde potti koos sibula, porgandi ja külma veega ning supp hakkas vaiksel tulel tasa keema.\n\n„Miks pott on kaaneta?“ küsis Sanni. Joakim seletas, et nii saab osa veest aurustuda. „Mida rohkem vett aurustub, seda tugevam on maitse. Aga ära lase liiga palju aurustuda, muidu jääb supp liiga soolaseks.“\n\nSiis tulid köögiviljad. Joakim näitas, kuidas rohelisi ube ja porgandeid kupatada: need pannakse paariks minutiks keeva soolaga vette ja siis kohe jääkülma vette. Sanni kupatas oad ise. Need jäid krõbedaks ja ilusasti roheliseks. „Köögivilju kupatatakse selleks, et värv ja maitse jääksid alles,“ ütles Joakim.\n\nAknal kasvasid pottides ürdid: till, piparmünt ja basiilik. Sanni hakkis ürte ja köögis levis värske hõng. Joakim ütles, et ürtidega tuleb olla ettevaatlik: neid lisatakse toidule alles lõpus, sest kuumus võtab neilt lõhna. Supist tõusis samal ajal soe ja sügav hõng, mis meenutas Sannile vanaema kööki.\n\nMagustoiduks olid maasikad vahukoorega. Joakim näitas, kuidas koort kloppida: kauss peab olema külm ja käsi liikuma kiiresti. Sanni kloppis koort kogu jõust, kuni see läks paksuks ja kohevaks. „Liiga kaua ei tohi kloppida,“ hoiatas Joakim, „muidu saad hoopis võid.“\n\nLõpuks võttis Joakim kapist suure valge vaagna. Ta ütles, et toit peab olema ka silmarõõm, enne kui see on suutäis. Sanni pani vaagnale rohelised oad, oranžid porgandid ja ürdid. Keskele jäi koht maasikatele. Vaagen nägi välja nagu maal. „See on tõeline silmarõõm,“ kiitis Joakim.\n\nPühapäeva hommikul viis Sanni emale supi ja vaagna köögiviljadega. Ema oli liigutatud. Ta ütles, et see on tema elu kõige maitsvam emadepäev.\n\nKüsimused:\nMida tegid õpilased kursusel emadepäeva eel?\nNad õppisid tegema emadepäeva lõunat.\nMiks küpsetas Joakim kondid kõigepealt ahjus pruuniks?\nSiis sulab luuüdi ja annab supile sügava maitse.\nMiks oli pott kaaneta?\nNii sai osa veest aurustuda ja maitse läks tugevamaks.\nKuidas köögivilju kupatatakse?\nNeed pannakse paariks minutiks keeva soolaga vette ja siis kohe jääkülma vette.\nMiks lisatakse ürte toidule alles lõpus?\nKuumus võtab neilt lõhna.\nMida ütles Joakim toidu välimuse kohta?\nTa ütles, et toit peab olema ka silmarõõm, enne kui see on suutäis."
+    },
+    {
+      "title": "Suvi põllumehe juures",
+      "summary": "An agronomy student spends a summer on a farm in Põlva County and learns from the farmer about hectares, a wild strip for pheasants, rotting straw, compacted soil, wilting crops and a polluted ditch.",
+      "newWords": [
+        "põllumees",
+        "hektar",
+        "maalapp",
+        "faasan",
+        "metsaline",
+        "kõdunema",
+        "tihke",
+        "närtsima",
+        "reostuma"
+      ],
+      "text": "Eleriin õpib Tartus agronoomiks. Suvise praktika tegi ta Põlvamaal Helduri talus. Heldur on põllumees juba kolmandat põlve: põldu harisid ka tema isa ja vanaisa. Tema talul on kakssada hektarit põldu, kus kasvavad nisu, oder ja hernes. Eleriin teadis raamatutest, et üks hektar on sada korda sada meetrit, aga alles nüüd nägi ta, kui suur on kakssada hektarit.\n\nEsimesel päeval viis Heldur ta metsa äärde väikese maalapi juurde, kus ta midagi ei külva. Maalapp oli täis kõrget rohtu ja põõsaid. „Siin elavad faasanid ja jänesed,“ ütles Heldur. „Ka metsalised vajavad oma kohta. Kui neil on metsa ääres süüa ja varju, ei tule nad nii palju minu nisu kallale.“ Varahommikul kõndisid maalapil tõepoolest faasanid. Isase faasani punane pea ja kirju sulestik särasid hommikuses päikeses.\n\nHeldur rääkis, et kitsed ja metssead on talle tuttavad naabrid. „Metsaline tahab ka süüa ja seda ei saa talle pahaks panna,“ ütles ta. „Põllumees peab lihtsalt targem olema.“\n\nTeisel nädalal õppis Eleriin, mida Heldur põhuga teeb. Ta ei vii põhku põllult ära, vaid hakib selle ja jätab maha. Seal see kõduneb ja muutub uueks mullaks. „Kõdunenud põhk on mulla toit,“ seletas Heldur. „Mida rohkem kõdunevat ainet mullas on, seda paremini hoiab see vett.“\n\nKõige rohkem kõneles Heldur mullast. Ta võttis labida ja kaevas augu kahe põllu piirile. Ühel pool oli muld kohev ja täis vihmausse. Teisel pool, kus aastaid oli sõitnud raske traktor, oli muld tihke ja kõva. „Tihke muld on nagu lukus uks,“ ütles Heldur. „Juured ei pääse sügavale ja vihmavesi jääb pinnale.“ Seepärast sõidab ta nüüd põllul ainult kindlaid radu mööda ja kerge masinaga.\n\nJuuli lõpus oli kaks nädalat põuda. Noored taimed hakkasid lõunapäikese käes närtsima. Eleriin oli mures, aga Heldur näitas, et kohevas mullas närtsisid taimed palju vähem kui tihkes. Kui lõpuks tuli vihm, tõusid närtsinud lehed paari päevaga taas püsti.\n\nViimasel nädalal näitas Heldur kraavi, mis voolab põldude vahelt jõkke. Mõni aasta tagasi oli see kraav reostunud. Naaber oli laotanud põllule väetist vahetult enne suurt vihma ja vesi oli väetise kraavi uhtunud. Kraav oli reostunud nii, et suvel kattus see rohelise vetikaga. Pärast seda leppisid naabrid kokku, et väetist laotatakse ainult kuiva ilmaga ja kraavi äärde jäetakse kümme meetrit rohtu.\n\nAugustis kirjutas Eleriin praktika aruande. Ta mõtles, et ühes suves õppis ta rohkem kui mitmes loengus. Heldur ütles hüvastijätuks, et põllumees õpib terve elu, sest iga aasta on erinev.\n\nKüsimused:\nKui suur on Helduri talu?\nTema talul on kakssada hektarit põldu.\nMiks ei külva Heldur midagi maalapile metsa ääres?\nSeal elavad faasanid, jänesed ja muud loomad, ja kui metsalised leiavad seal süüa, ei tule nad nii palju nisu kallale.\nMis juhtub põhuga, mille Heldur põllule jätab?\nPõhk kõduneb ja muutub uueks mullaks.\nMiks oli muld ühel pool tihke ja kõva?\nSeal oli aastaid sõitnud raske traktor.\nKus närtsisid taimed põua ajal vähem?\nKohevas mullas närtsisid taimed vähem kui tihkes.\nMiks oli kraav reostunud?\nNaaber oli laotanud väetist enne suurt vihma ja vesi oli selle kraavi uhtunud."
+    },
+    {
+      "title": "Tiaara ja habemenuga",
+      "summary": "A hairdressing apprentice in a Haapsalu beauty salon practises the straight razor on a balloon, styles a tanned old lady's windblown hair for a masquerade and shaves her first beard.",
+      "newWords": [
+        "ilusalong",
+        "habemenuga",
+        "vanaproua",
+        "nässus",
+        "päevituma",
+        "neiuke",
+        "maskeraad",
+        "tiaara",
+        "eritellimus"
+      ],
+      "text": "Tuulia õpib Haapsalus juuksuriks. Praktikat teeb ta Kärolyni ilusalongis vanalinnas. Ilusalong on väike, aga seal saab kõike: lõigata juukseid, värvida kulme, teha maniküüri ja lasta habet ajada. Esimesel nädalal pühkis Tuulia ainult põrandat ja pesi klientide juukseid.\n\nTeisel nädalal võttis Kärolyn sahtlist vana habemenoa. „Kõigepealt harjutad õhupalli peal,“ ütles ta. Ta kattis täispuhutud õhupalli paksult habemeajamisvahuga ja näitas, kuidas habemenuga hoida: kerge nurga all, käsi rahulik ja liigutus lühike. „Kui pall lõhkeb, vajutasid liiga kõvasti.“ Tuulia lõhkus esimesel päeval neli palli. Viiendat palli ta enam ei lõhkunud.\n\nÜhel tuulisel hommikul astus salongi vanaproua Salme. Ta oli tulnud mööda mereäärset promenaadi ja tema hõbedased juuksed olid tuulest täiesti nässus. „Vaadake mind,“ naeris ta, „mu juuksed on nässus nagu linnupesa!“ Salme nägu oli pruun. Ta oli kogu suve aias töötanud ja päevitunud. Päevitunud näo ja valgete juuste kõrval särasid tema sinised silmad eriti eredalt.\n\n„Neiuke,“ ütles vanaproua Tuuliale, „kas te oskate teha soengut nagu 1920. aastatel?“ Laupäeval toimub kultuurimajas maskeraad ja Salme kavatses minna sinna sajanditaguse moe järgi riides. Maskeraadi jaoks oli tal juba olemas kleit ja pikad kindad. Kotist võttis ta väikese karbi. Selles oli hõbedane tiaara.\n\n„Tiaara on tehtud eritellimusel,“ ütles Salme uhkelt. „Selle valmistas üks Haapsalu kullassepp. Eritellimus võttis kaks kuud, aga ma tahtsin, et see oleks just minu pea järgi.“\n\nKärolyn lubas Tuulial soengu ise teha. Tuulia pesi ja kuivatas juukseid, tegi lokid ja kinnitas need nõeltega. Lõpuks asetas ta tiaara ettevaatlikult juustele. Salme vaatas peeglisse ja plaksutas käsi. „Aitäh, neiuke! Ma näen välja nagu keegi vanast filmist.“\n\nPäeva lõpus tuli salongi vanem mees, kes soovis habet ajada. Kärolyn vaatas Tuuliat ja noogutas. Tuulia pani mehele näole sooja rätiku, kattis habeme vahuga ja võttis habemenoa. Käsi oli rahulik, liigutused lühikesed – täpselt nagu õhupalli peal. Mees silitas pärast oma sileda lõuga ja ütles, et nii hästi pole tema habet ammu aetud.\n\nEsmaspäeval tuli Salme uuesti. Ta tõi Tuuliale foto maskeraadilt, kus ta seisis tiaaraga tantsusaali keskel.\n\nKüsimused:\nMida saab Kärolyni ilusalongis teha?\nSeal saab lõigata juukseid, värvida kulme, teha maniküüri ja lasta habet ajada.\nKuidas harjutas Tuulia habemenoaga?\nTa harjutas vahuga kaetud õhupalli peal.\nMiks olid vanaproua juuksed nässus?\nTa oli tulnud tuulise ilmaga mööda mereäärset promenaadi.\nMiks oli Salme nägu pruun?\nTa oli kogu suve aias töötanud ja päevitunud.\nKuhu kavatses Salme laupäeval minna?\nTa kavatses minna kultuurimajja maskeraadile.\nKes valmistas tiaara?\nTiaara valmistas eritellimusel üks Haapsalu kullassepp."
+    },
+    {
+      "title": "Õpilasfirma sallid",
+      "summary": "Two Pärnu sixth-formers run a student company that imports hand-printed scarves from India, sell shares to their families, track monthly costs and learn what trading really is.",
+      "newWords": [
+        "etteotsa",
+        "otsustaja",
+        "osak",
+        "ruupia",
+        "transportimine",
+        "väljaminek",
+        "igakuine",
+        "nõrgendama",
+        "kauplemine"
+      ],
+      "text": "Pärnu gümnaasiumis peavad kõik 11. klassi õpilased majandustunnis üheks aastaks looma õpilasfirma. Merlyni rühm otsustas müüa käsitsi trükitud puuvillaseid salle. Rühm pani Merlyni firma etteotsa, sest tal oli kõige rohkem kannatust. Firma etteotsa saamine tähendas, et Merlyn oli viimane otsustaja. Õpetaja ütles talle: „Hea otsustaja kuulab enne teisi ja otsustab alles siis.“\n\nAlguses oli vaja raha. Selleks müüsid õpilased osakuid. Üks osak maksis kümme eurot ja osakuid ostsid vanemad, vanavanemad ja paar naabrit. Aasta lõpus pidid osakute omanikud saama tagasi oma raha ja osa kasumist, kui kasumit tuleb.\n\nSallid tulid Indiast. Rühma teise liikme Maksimi tädi elab Jaipuris ja tunneb seal üht perekonda, kes trükib kangale mustreid puust templitega. Üks sall maksis 500 ruupiat, mis oli umbes viis eurot. Maksim pidas tädiga sidet ja arvutas iga kord, mitu ruupiat ühe euro eest saab.\n\nPeagi selgus, et kõige suurem kulu ei olnud sallid, vaid nende transportimine. Transportimine Indiast Eestisse maksis peaaegu sama palju kui kaup ise. Merlyn pidas tabelit, kuhu ta kirjutas kõik väljaminekud: sallid, saatmine, pakendid ja laadal koha rent. Iga väljaminek oli kirjas kuupäevaga.\n\nIga kuu lõpus tuli õpetajale esitada igakuine aruanne. Igakuise aruande koostamine tundus alguses tüütu, kuid Merlyn märkas, et just tänu sellele nägi ta täpselt, kuhu raha läheb.\n\nTeise tellimuse ajal oli ruupia kurss tõusnud. See nõrgendas firma kasumit ja Maksim oli mures. Pealegi jäi saadetis tollis kaks nädalat kinni. Merlyn kartis, et hilinemine nõrgendab ostjate usaldust. Ta kirjutas kõigile tellijatele ausalt, miks sallid hilinevad, ja keegi ei loobunud.\n\nDetsembris müüsid nad salle Pärnu talvelaadal. Kauplemine laadal oli külm, aga lõbus. Merlyn sai aru, et kauplemine ei ole ainult ostmine ja müümine. Tuleb inimestega rääkida, kuulata ja selgitada, kuidas sall on tehtud. Kui ostjad kuulsid templitega trükkimisest, ostsid nad meelsamini.\n\nKevadel sulgesid õpilased firma. Iga osaku eest said omanikud tagasi kaksteist eurot. Merlyn ütles lõpukoosolekul, et kõige rohkem õppis ta ühest lihtsast asjast: tuleb teada, kuhu iga euro läheb.\n\nKüsimused:\nMiks pandi Merlyn firma etteotsa?\nTal oli rühmas kõige rohkem kannatust.\nKuidas said õpilased firmale alguses raha?\nNad müüsid osakuid, millest igaüks maksis kümme eurot.\nKui palju maksis üks sall Indias?\nÜks sall maksis 500 ruupiat ehk umbes viis eurot.\nMis oli firma kõige suurem kulu?\nKõige suurem kulu oli sallide transportimine Indiast Eestisse.\nMis nõrgendas teise tellimuse ajal firma kasumit?\nRuupia kurss oli tõusnud.\nMida sai Merlyn laadal kauplemisest aru?\nKauplemine ei ole ainult ostmine ja müümine, vaid ka inimestega rääkimine ja selgitamine."
+    },
+    {
+      "title": "Kutsari kiri",
+      "summary": "A journalism student reads old volumes of a weekly paper for her term paper on headlines and finds a sensational runaway horse, a coachman's sad letter about motor cars and a two-sided debate.",
+      "newWords": [
+        "aastakäik",
+        "sensatsiooniline",
+        "kutsar",
+        "tagaplaan",
+        "jälestusväärne",
+        "kurvastus",
+        "kahepoolne",
+        "võidutsema",
+        "telekanal"
+      ],
+      "text": "Alis õpib Tartu ülikoolis ajakirjandust. Tema uurimistöö teema on, kuidas uudiste pealkirjade keel on saja aastaga muutunud. Juhendaja soovitas tal alustada vanadest ajalehtedest. Nii istus Alis kaks nädalat ülikooli raamatukogus ja luges ühe Tartu ajalehe aastakäike 1920. ja 1930. aastatest. Iga aastakäik oli köidetud paksuks raamatuks.\n\nAlis oli arvanud, et sajand tagasi kirjutati rahulikult ja kuivalt. Kuid juba esimese aastakäigu lehtedelt leidis ta pealkirja: „Sensatsiooniline juhtum Tartu turul!“ Selgus, et ühe kutsari hobune oli ehmunud auto signaalist ja jooksnud koos vankriga üle turu. Kapsaste korv läks ümber ja kapsad veeresid laiali, kuid kellelegi ei juhtunud midagi. Sensatsiooniline oli lugu ainult pealkirjas.\n\nJärgmise aastakäigu lehekülgedel leidis Alis ühe lugeja kirja. Selle oli kirjutanud vana kutsar, kes oli kolmkümmend aastat sõidutanud Tartus inimesi hobusega. Kutsar kirjutas, et autod on hobused tagaplaanile surunud. „Bensiini hais ja mootorite müra on jälestusväärne,“ seisis kirjas. Alis naeratas. Sõna „jälestusväärne“ kasutatakse tänapäeval peamiselt väga halbade tegude kohta, aga sada aastat tagasi oli see lehes palju tavalisem.\n\nKirja lõpus oli kutsari kurvastus selgelt tunda. „Suure kurvastusega pean tunnistama, et minu amet on kadumas,“ kirjutas ta. Kirja kõrval oli foto, mille tagaplaanil seisis kutsar oma hobusega, ees aga läikiv uus auto.\n\nHuvitav oli see, et toimetus ei avaldanud ainult kutsari kirja. Kirja kõrval oli ühe autojuhi vastus, kes kirjutas, et uus aeg toob uued ametid. Toimetus nimetas seda kahepoolse arutelu alguseks. Alis märkis oma märkmikku, et kahepoolne arutelu, kus mõlemad pooled saavad sõna, ei ole tänapäeva leiutis.\n\nKolm aastat hiljem oli lehe pealkiri juba teistsugune: „Auto võidutseb hobuse üle!“ Lugu kirjeldas, kuidas Tartu tänavatel oli autosid esimest korda rohkem kui hobuseid. Leht võidutses koos autodega ega meenutanud enam vana kutsarit.\n\nUurimistöö viimases osas võrdles Alis vanu pealkirju tänapäeva omadega. Ta vaatas nädal aega ühe telekanali õhtuseid uudiseid ja kirjutas üles kõik pealkirjad. Selgus, et telekanal kasutab samu võtteid nagu ajaleht sada aastat tagasi: suuri sõnu ja küsimusi, millele vastust ei oodatagi. Alis kirjutas oma töö kokkuvõttes, et sensatsiooni keel on vana. Muutunud on ainult kanal, mille kaudu see meieni jõuab.\n\nKüsimused:\nMis on Alise uurimistöö teema?\nTeema on, kuidas uudiste pealkirjade keel on saja aastaga muutunud.\nMis juhtus sensatsioonilise pealkirjaga loos?\nKutsari hobune ehmus auto signaalist ja jooksis üle Tartu turu, kuid kellelegi ei juhtunud midagi.\nMille üle kurtis vana kutsar oma kirjas?\nTa kurtis, et autod on hobused tagaplaanile surunud ja tema amet on kadumas.\nMis seisis kirja kõrval oleval fotol?\nFoto tagaplaanil seisis kutsar oma hobusega, ees aga uus auto.\nMiks oli see arutelu kahepoolne?\nKutsari kirja kõrval avaldati ka autojuhi vastus, nii et mõlemad pooled said sõna.\nMida avastas Alis, kui ta vaatas telekanali uudiseid?\nTelekanal kasutab samu võtteid nagu ajaleht sada aastat tagasi."
+    },
+    {
+      "title": "Jaanalinnud Haanjas",
+      "summary": "A woman who lived by a Helsinki metro station all her life retires to Võru County, learns to drive at sixty-six, buys a used car after a test drive and starts painting ostriches through a farm gate.",
+      "newWords": [
+        "metroojaam",
+        "autosõit",
+        "proovisõit",
+        "õhurõhk",
+        "maalimine",
+        "mäestik",
+        "jaanalind",
+        "võre",
+        "paksune"
+      ],
+      "text": "Hellika elas üle neljakümne aasta Helsingis. Tema korteri kõrval oli metroojaam ja metrooga sõitis ta tööle, poodi ja teatrisse. Metroojaamast koju oli ainult viis minutit jalgsi. Autot ei olnud Hellikal kunagi vaja olnud.\n\nPensionile jäädes otsustas Hellika kolida tagasi Eestisse, oma vanemate vanasse tallu Haanja lähedal. Võrumaa küladesse sõidab buss harva ja juba esimesel nädalal sai Hellika aru, et ilma autota siin hakkama ei saa. 66-aastaselt läks ta autokooli.\n\nSõidutunde andis rahulik noormees, kes ei tõstnud kunagi häält. Esimene autosõit kestis ainult pool tundi, kuid Hellika oli pärast seda läbimärg. Iga järgmine autosõit läks natuke lihtsamaks. Õpetaja näitas talle ka seda, mida kõik juhid ei tea: kord kuus tuleb vaadata, milline on rehvide õhurõhk. „Kui õhurõhk on liiga madal, kulub rehv kiiremini ja auto kulutab rohkem kütust,“ seletas ta. Õhurõhu kontrollimine võtab bensiinijaamas paar minutit.\n\nKui Hellikal oli juhiluba käes, läks ta Võrru kasutatud autot ostma. Müüja pakkus talle proovisõitu. Proovisõidu ajal kuulas Hellika mootorit ja proovis pidureid, täpselt nagu õpetaja oli õpetanud. Esimene auto tundus liiga suur, teine liiga vana. Alles kolmanda auto proovisõit meeldis talle ja selle auto ta ka ostis.\n\nNüüd, kui Hellikal oli auto, võis ta hakata tegelema sellega, millest ta oli ammu unistanud. Küla raamatukogus käis kord nädalas koos kunstiring ja seal õppis Hellika maalima. Maalimine nõudis kannatust, aga see rahustas teda. Varsti sai maalimisest tema kõige suurem rõõm. Kunstiringi juhendaja soovitas maalida seda, mida ta ümberringi näeb.\n\nHellika proovis maalida Haanja kõrgustikku, kuid see muutus tema lõuendil alati liiga uhkeks. Juhendaja ütles naerdes, et Haanja kõrgustik ei ole mäestik, kuigi Hellika lõuendil näeb see välja nagu Alpid. Hellika tunnistas, et ta mõtleb maalides oma noorusaja reisile Šveitsi mäestikku.\n\nÜhel päeval sõitis Hellika naaberkülla, kus üks pere kasvatab jaanalinde. Suured uudishimulikud jaanalinnud jalutasid aias. Hellika seadis molberti värava taha ja maalis linde läbi värava võre. Raua võre jäi maalile alles: peenikesed tumedad jooned jaanalindude ees. Värvi pani Hellika lõuendile paksult, kohati peaaegu sentimeetri paksuse kihina. Juhendaja hoiatas, et nii paksune kiht kuivab mitu nädalat.\n\nTalvel korraldas küla raamatukogu Hellika esimese näituse. Kõige rohkem kiitsid külalised maali, kus jaanalinnud vaatavad läbi võre. „Kas tõesti on selle maalinud linnainimene, kes elas nelikümmend aastat metroojaama kõrval?“ küsis üks naaber. Hellika naeris ja ütles, et õppida ei ole kunagi hilja.\n\nKüsimused:\nMiks ei olnud Hellikal Helsingis autot vaja?\nTema korteri kõrval oli metroojaam ja ta sõitis kõikjale metrooga.\nMida õpetas sõiduõpetaja talle rehvide kohta?\nKord kuus tuleb vaadata, milline on rehvide õhurõhk, sest kui õhurõhk on liiga madal, kulub rehv kiiremini.\nMitu proovisõitu Hellika tegi, enne kui auto ostis?\nTa tegi kolm proovisõitu ja ostis kolmanda auto.\nMida ütles juhendaja Hellika maalide kohta?\nTa ütles naerdes, et Haanja kõrgustik ei ole mäestik.\nKuidas maalis Hellika jaanalinde?\nTa maalis neid läbi värava võre ja pani värvi lõuendile paksult.\nMida ütles Hellika oma näitusel?\nTa ütles, et õppida ei ole kunagi hilja."
+    }
+  ]
+}
