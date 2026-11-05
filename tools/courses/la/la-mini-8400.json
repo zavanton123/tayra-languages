@@ -1,0 +1,204 @@
+{
+  "id": "la-mini-8400",
+  "rankUpTo": 8400,
+  "level": "C2",
+  "title": "Affectus et necessitudines",
+  "description": "Ten standalone stories about feelings and the bonds between people today: a young scientist who feels like an impostor, a granddaughter tracing her roots, a father's day with his daughter, an anniversary picnic, a first shave, an actor and his mentor, a son caring for his mother, a brother and sister reconciled, a timid rider and her pony, and a grandfather's clock.",
+  "topic": "Emotions and relationships",
+  "names": [
+    "Popillia",
+    "Patavium",
+    "Considius",
+    "Calventia",
+    "Mediolanum",
+    "Mantua",
+    "Sestullius",
+    "Gabinius",
+    "Berolinum",
+    "Vistilia",
+    "Nautia",
+    "Rosidius",
+    "Pacuvia",
+    "Florentia",
+    "Eppius",
+    "Neapolis",
+    "Bruttius",
+    "Curtilius",
+    "Bononia",
+    "Baebius",
+    "Italia",
+    "Vettenius",
+    "Roma",
+    "Tibur",
+    "Otacilia",
+    "Lusidia",
+    "Manlia",
+    "Crassicius",
+    "Labiena",
+    "Turicum",
+    "Ubia",
+    "Peducaeus",
+    "Monacum",
+    "Tarquitia"
+  ],
+  "lessons": [
+    {
+      "title": "Quasi impostor",
+      "summary": "In Padua a young biologist who has just earned her licentiate feels like an impostor among her learned colleagues, until a talk with an older biologist and a well-received lecture on sepals bring her relief.",
+      "newWords": [
+        "impostor",
+        "biologus",
+        "licentiatus",
+        "sepalum",
+        "haesito",
+        "prioritas",
+        "collocutio",
+        "gratulatio",
+        "elatio",
+        "levatio"
+      ],
+      "text": "Popillia, quae nuper Patavii licentiatum in biologia adepta est, in instituto botanico eiusdem urbis laborare coepit. Collegae eius, biologi periti, libros scripserunt, per orbem terrarum iter fecerunt, plantas raras in montibus et insulis collegerunt. Ipsa nihil adhuc scripsit nisi dissertationem de sepalis rosarum. Sepala sunt foliola viridia quae florem, dum clausus est, tegunt et tuentur; cum flos se aperit, sepala sub petalis manent, quasi custodes qui officium suum iam praestiterunt.\n\nPrimis hebdomadibus Popillia sibi impostor videtur. In conventibus, dum ceteri biologi de rebus gravibus disputant, ipsa tacet. Saepe aliquid dicere vult, sed haesitat, quia timet ne sententia sua stulta videatur; et quo diutius haesitat, eo difficilius est loqui. Vesperi domi secum cogitat: «Mox omnes intellegent me licentiatum quasi casu adeptam esse. Impostor sum, et impostorem tandem detegent.»\n\nModerator instituti hoc anno unam rem ceteris praeponit: catalogum novum plantarum horti, qui ante hiemem perficiendus est. Hanc prioritatem Considio, biologo seni, et Popilliae committit. Prima eorum collocutio brevis est et paulo frigida: Considius de catalogo loquitur, Popillia annuit et tacet.\n\nPost aliquot dies tamen, dum in horto flores examinant, Considius rogat cur in conventibus tam raro loquatur. Popillia primum haesitat, deinde fatetur se inter tot biologos doctos sibi impostorem videri. Considius benigne ridet. «Ego quoque», inquit, «cum licentiatum adeptus essem, multos annos idem sentiebam. Hoc sentit fere omnis qui aliquid novi discit. Qui se numquam impostorem putavit, fortasse numquam rem difficilem temptavit.» Haec collocutio Popilliae magnam levationem affert: intellegit se non solam ita sentire.\n\nConsidius ei suadet ut in proximo conventu de sepalis breviter disserat. Nam prioritas catalogi est ut plantae recte distinguantur, et sepala ad multas plantas distinguendas aptissima sunt. Popillia per totam hebdomadem orationem parat. In conventu primo vox eius tremit, sed cum imagines sepalorum monstrat, paulatim timoris obliviscitur. Biologi attente audiunt; nonnulli interrogant, unus fatetur se numquam sepala tam diligenter consideravisse.\n\nPost conventum moderator ipse Popilliae gratulatur, et collegae gratulationes suas addunt. Gratulatio brevis est, paucis verbis facta, sed Popillia elationem sentit qualem numquam antea senserat. Domum rediens quasi volare sibi videtur. Elatio illa post aliquot horas cedit, sed aliquid tranquillius manet: levatio animi qui pondus grave diu portaverat. Postea Popillia interdum adhuc haesitat; impostor tamen sibi non iam videtur, sed biologus iuvenis qui adhuc discit.\n\nQuaestiones:\nQuid Popillia nuper adepta est?\nLicentiatum in biologia Patavii adepta est.\nQuid sunt sepala?\nSepala sunt foliola viridia quae florem clausum tegunt et tuentur.\nCur Popillia in conventibus haesitat?\nQuia sibi impostor videtur et timet ne sententia sua stulta videatur.\nQuid Considius in collocutione fatetur?\nFatetur se quoque, cum licentiatum adeptus esset, multos annos idem sensisse.\nQuid post orationem Popilliae fit?\nModerator et collegae ei gratulantur, et Popillia elationem, deinde levationem animi sentit."
+    },
+    {
+      "title": "Arbores sempervirentes",
+      "summary": "A teacher from Milan visits the village where her grandmother was born and, with the help of the village archivist, learns that her great-grandfather was the steward of a manor that burned down long ago.",
+      "newWords": [
+        "vicanus",
+        "chartularius",
+        "pulvereus",
+        "manerium",
+        "oeconomus",
+        "arabilis",
+        "hara",
+        "conflagratio",
+        "sempervirens"
+      ],
+      "text": "Calventia, quae Mediolani in schola docet, diu fere nihil de maioribus suis sciebat. Avia eius in vico parvo prope Mantuam nata erat, sed postquam puella in urbem migravit, de vico raro loquebatur. Cum avia nonagesimum annum ageret, Calventia constituit vicum ipsa visere, ut aliquid de origine familiae cognosceret et aviae narraret.\n\nIn vico tabularium parvum est, quod chartularius senex, Sestullius nomine, solus curat. Chartularius hospitem benigne excipit et in conclave ducit ubi codices et chartae veteres in pluteis iacent. Omnia pulverea sunt: libri, mensa, plutei, etiam fenestrae, quas pulvis obscurat. «Ignosce pulveri», inquit chartularius subridens; «huc raro aliquis venit qui non ipse vicanus sit.»\n\nEx pluteo Sestullius librum rationum magnum depromit, cuius paginas pulvereas leniter excutit. Est liber manerii, villae amplae quae olim in colle super vicum stabat. Proavus Calventiae, ut liber ostendit, oeconomus manerii fuit. Oeconomus non possessor erat, sed vir cui possessor totam rem familiarem committebat: agros, horrea et operarios curabat, frumentum vendebat, rationes singulis annis reddebat. Manu eius, litteris parvis et diligentibus, singulae paginae scriptae sunt.\n\nEx libro apparet manerium plus quam trecenta iugera agri arabilis habuisse, praeterea prata, hortos et haras ubi porci alebantur. Oeconomus quotannis notabat quot iugera arabilia arata essent, quantum frumenti collectum esset, quot porci in haris viverent. Calventia, quae in urbe nata est, ridet cum legit proavum suum etiam nomina porcorum in libro scripsisse.\n\nAnno autem MDCCCXCII, ut chartularius narrat, magna conflagratio manerium et horrea consumpsit. Ignis noctu in horreo ortus est et vento celeriter per tecta se diffudit. Omnes tamen homines incolumes evaserunt, et oeconomus ipse porcos ex haris in prata egit. Post conflagrationem possessor manerium non refecit, et familia oeconomi in vicum descendit, ubi vicani eam benigne receperunt.\n\nPostridie Calventia cum chartulario collem ascendit. De manerio nihil nisi pauci muri restant. Circum locum tamen ubi domus olim stetit, arbores sempervirentes etiamnunc stant, cupressi altae et densae. Sestullius explicat proavum, ut liber narrat, has arbores sempervirentes plantavisse, ut ventum hibernum ab horreis arceret. Ita arbores sempervirentes, quae hieme non minus virides sunt quam aestate, conflagrationem et plus quam centum annos superaverunt.\n\nDescendentem eam vicani in via salutant; mulier quaedam narrat aviam suam olim cum avia Calventiae in eadem schola sedisse. Domum reversa Calventia aviae imagines cupressorum et paginarum monstrat, quas telephono cepit. Avia nomen patris sui manu oeconomi scriptum diu spectat, deinde lacrimas tergens ridet et, primum post multos annos, de vico narrare incipit.\n\nQuaestiones:\nCur Calventia vicum visere constituit?\nUt aliquid de origine familiae cognosceret et aviae narraret.\nQuale est conclave chartularii?\nOmnia ibi pulverea sunt: libri, mensa, etiam fenestrae.\nQuid faciebat oeconomus manerii?\nAgros, horrea et operarios curabat, frumentum vendebat et rationes reddebat.\nQuid manerium habebat praeter agros arabiles?\nPrata, hortos et haras ubi porci alebantur.\nQuid post conflagrationem in colle restat?\nPauci muri et arbores sempervirentes quas proavus plantaverat."
+    },
+    {
+      "title": "Dies cum filia",
+      "summary": "In Berlin a busy father takes a day off to spend with his eight-year-old daughter and her little friend at the zoo, where a two-horned rhinoceros, kangaroos, a sawfish and a sudden shower bring them closer.",
+      "newWords": [
+        "amicula",
+        "rhinoceros",
+        "bicornis",
+        "macropus",
+        "subitaneus",
+        "pristis",
+        "oecologia",
+        "volito"
+      ],
+      "text": "Gabinius Berolini in societate magna rationes curat et plerumque sero domum redit, cum filia eius Vistilia, octo annos nata, iam dormit. Saepe ei promiserat se aliquando totum diem cum ea acturum esse, sed semper aliquid intervenerat. Tandem die quodam aestivo ab officio abest et Vistiliam eiusque amiculam Nautiam in hortum zoologicum ducit. Amicula, puella vivida et loquax, ex eadem schola est, et duae puellae manibus iunctis ante patrem currunt.\n\nPrimum ad rhinocerotem eunt. Rhinoceros ingens in luto iacet, cute crassa et grisea, oculis parvis. Vistilia cornua numerat: «Duo cornua habet, pater! Estne bicornis?» Gabinius in tabella legit alios rhinocerotes unum cornu habere, alios duo; hunc esse rhinocerotem bicornem, qui in campis siccis vivat et herbis vescatur. Nautia, quae animalia bicornia omnia boves aut capras esse putabat, valde miratur.\n\nDeinde ad macropodes procedunt, qui in prato lato saliunt. Macropus, ut Gabinius explicat, est animal quod pedibus posterioribus longis salit et caudam crassam quasi tertium pedem adhibet. Duae puellae macropodes imitantur et per viam saliunt, dum pater ridet. Tum macropus parvus e sacculo matris caput extendit, et amicula Vistiliae clamorem gaudii tollit.\n\nSubito caelum obscuratur, et imber subitaneus cadit. Gabinius puellas in aquarium proximum ducit. Illic in piscina magna pristis lente natat, piscis longus cuius rostrum planum utrimque dentibus quasi serra instructum est. Custos aquarii, qui puellas pristim mirantes videt, narrat pristes hodie rarissimos esse, quia aquae ubi vivunt sordidae factae sunt.\n\n«Quid ergo faciendum est?» rogat Vistilia. Custos de oecologia loquitur: oecologiam esse scientiam quae inquirit quomodo animalia, plantae et loca inter se cohaereant; si unum mutetur, cetera quoque mutari. Vistilia diu cogitat, deinde dicit: «Ergo nos quoque oecologiam habemus. Cum pater domi est, omnia aliter sunt.» Gabinius tacet, sed manum filiae premit.\n\nImbre subitaneo finito, in domum papilionum intrant. Ibi papiliones variis coloribus circum capita eorum volitant; unus in umero Gabinii considit, alter circum Nautiam diu volitat. Puellae immotae stant, ne papiliones fugent, et Gabinius sentit se per totum diem ne semel quidem de officio cogitavisse.\n\nVesperi, dum domum redeunt, Vistilia in autocineto obdormit. Nautia, cum domum perducitur, patrem amiculae suae rogat num iterum una venturi sint. Gabinius sibi promittit se singulis mensibus talem diem cum filia acturum esse, et hoc promissum servat.\n\nQuaestiones:\nCur Gabinius filiam raro videt?\nQuia sero domum redit, cum Vistilia iam dormit.\nQuot cornua habet rhinoceros quem vident?\nDuo cornua habet; est rhinoceros bicornis.\nQuomodo macropus movetur?\nPedibus posterioribus longis salit et caudam quasi tertium pedem adhibet.\nCur pristes hodie rarissimi sunt?\nQuia aquae ubi vivunt sordidae factae sunt.\nQuid Vistilia de oecologia dicit?\nDicit se et patrem quoque oecologiam habere, quia omnia aliter sunt cum pater domi est."
+    },
+    {
+      "title": "Cena sub divo",
+      "summary": "In Florence a husband who cannot get a safe restaurant booking for his wife, who has coeliac disease, prepares an anniversary picnic himself, checking every label for gluten and additives.",
+      "newWords": [
+        "coeliacus",
+        "reservatio",
+        "additivus",
+        "perna",
+        "caseolus",
+        "melo",
+        "racemus",
+        "nivatus",
+        "cuppedium",
+        "deliciosus"
+      ],
+      "text": "Rosidius et Pacuvia, qui Florentiae habitant, mox viginti annos coniuges erunt. Rosidius diu cogitat quomodo hunc diem celebret. Primum cenam in taberna clara constituere vult, sed res non facilis est: Pacuvia enim morbo coeliaco laborat. Homines coeliaci gluten, quod in tritico et hordeo inest, ferre non possunt; etiam mica panis parva eos aegros reddit.\n\nRosidius igitur in variis tabernis reservationem quaerit. In prima taberna nulla reservatio iam patet; in altera coquus fatetur se cibos homini coeliaco tutos promittere non posse, quia in eadem culina omnia parantur. In tertia reservationem quidem accipiunt, sed Rosidius, cum indicem ciborum legit, dubitat. Tandem reservationem omittit et constituit cenam ipse parare et sub divo in colle supra urbem cum uxore cenare.\n\nPridie in macellum it et diu inter pluteos ambulat, singulas tabellas legens. Discit gluten non solum in pane latere. Multa enim cibaria additiva continent, id est substantias quae saporis aut coloris causa adduntur, et additiva saepe ex tritico fiunt. Substantia additiva, quae nomine obscuro aut numero tantum in tabella notatur, gluten celare potest. Rosidius ideo res simplices eligit, quibus nulla substantia additiva inest.\n\nPernam emit tenuiter sectam, quam lanius ipse ante oculos eius a perna integra secat, ut nihil alieni admisceatur. Deinde caseolos emit, parvos et rotundos, quos femina rustica in foro ex lacte caprino facit. Caseoli molles sunt et sale tantum et herbis conditi. Tum melonem maturum eligit, cuius odor dulcis iam per corticem sentitur, et racemos uvarum nigrarum et albarum.\n\nPostridie vesperi Rosidius et Pacuvia collem ascendunt. Rosidius stragulum in herba extendit et omnia disponit: pernam tenuem cum melone, caseolos in folio, racemos in canistro. Aquam quoque nivatam in lagoena duplici portavit, quae per totam ascensionem frigida manet. Aqua nivata cum suco citreo mixta est potio quam Pacuvia aestate maxime amat.\n\nAd finem Rosidius pyxidem parvam cuppediorum aperit. Haec ipse ex farina amygdalarum et melle coxit, nullo tritico, nulla substantia additiva. Pacuvia per tot annos in conviviis aliorum nullum cuppedium gustare audebat; nunc unum cuppedium caute sumit.\n\n«Deliciosum est», inquit, et alterum sumit. «Omnia deliciosa sunt: perna, caseoli, melo, et haec dulcia. Sed nihil tam deliciosum est quam quod tota cena tam diligenter parata est.» Rosidius ridet et confitetur se per tres dies tabellas legisse. Infra eos urbs lucere incipit, et sol post colles descendit.\n\nQuaestiones:\nCur Rosidius cenam in taberna difficile constituit?\nQuia Pacuvia morbo coeliaco laborat et coqui cibos tutos promittere non possunt.\nQuid Rosidius de substantia additiva discit?\nDiscit substantiam additivam, quae nomine obscuro aut numero notatur, gluten celare posse.\nQuales sunt caseoli quos Rosidius emit?\nParvi et rotundi sunt, molles, ex lacte caprino facti, sale et herbis conditi.\nQuid Pacuvia aestate maxime bibere amat?\nAquam nivatam cum suco citreo mixtam.\nQuid Pacuvia de cena dicit?\nDicit omnia deliciosa esse, sed nihil tam deliciosum esse quam quod tota cena tam diligenter parata est."
+    },
+    {
+      "title": "Prima rasura",
+      "summary": "In Naples a father teaches his fifteen-year-old son, who is unhappy with his changing face and voice, to shave for the first time, and they talk about growing up.",
+      "newWords": [
+        "larynx",
+        "transmuto",
+        "deformitas",
+        "temperamentum",
+        "rasorium",
+        "caesaries",
+        "frictio",
+        "halo",
+        "habilis"
+      ],
+      "text": "Eppius, qui Neapoli habitat, quindecim annos natus est, et corpus eius hoc anno celeriter transmutatur. Vox, olim clara et alta, nunc gravis fit et in media sententia frangitur. Medicus, ad quem Eppius cum matre iit, explicavit laryngem, in qua vox gignitur, in pueris crescentibus augeri; dum larynx crescit, vox incerta est, et in collo prominentia nova apparet. Hoc tamen Eppium non consolatur. Etiam facies eius transmutatur: in labro superiore et in mento pili tenues et obscuri apparent, et inter eos maculae rubrae.\n\nMane ante speculum Eppius vultum suum odit. Omnia sibi deformitas videntur: pili inaequales, maculae, collum cum prominentia nova. In schola collum vestimento tegit et raro loquitur, ne vox frangatur. Pater eius Bruttius hoc animadvertit, sed diu tacet, quia novit filium temperamento esse sensibili et superbo, qui consilia non petita aegre fert.\n\nDie quodam tamen Eppius ipse patrem rogat ut eum radere doceat. Bruttius gaudet, quamquam id non ostendit. Ex armario rasorium suum depromit, vetus sed acutissimum, quod olim a patre suo acceperat. «Hoc rasorium», inquit, «avus tuus mihi dedit, cum ego tuae aetatis essem. Tum ego quoque putabam faciem meam deformitate plenam esse. Et vide quid nunc in capite meo restet!» Ridens caput fere calvum monstrat. Eppius, qui patrem semper calvum noverat, imaginem veterem in mente videt: patrem iuvenem caesarie densa et nigra. Bruttius narrat se caesariem suam tantopere amavisse ut per horas eam pecteret; nunc, caesarie amissa, faciem suam magis quam olim amare.\n\nDeinde docet quomodo radendum sit. Primum faciem aqua calida lavari oportet; temperamentum aquae ita eligendum est ut cutis molliatur, non uratur. Tum spuma densa ponitur. «Spuma», explicat Bruttius, «frictionem minuit. Si rasorium in cute sicca ducis, frictio cutem irritat et maculas auget.» Rasorium leviter tenendum est, secundum pilos ducendum, numquam premendum.\n\nSpeculum vapore aquae calidae obscuratur. Eppius, ut cutem distendat, spiritum retinet; pater ridet. «Hala», inquit, «noli spiritum retinere. Si non halas, manus tremit.» Eppius lente halat, et manus eius tranquillior fit. Bruttius videt filium, quamquam haesitantem, manum habilem habere, sicut ipse; manus habilis, ait, non nascitur, sed cotidie fit.\n\nPostquam vultum aqua frigida lavit, Eppius in speculum spectat. Facies levis est et paulo rubra, sed deformitas quam timebat non apparet. «Maculae manent», dicit, voce iterum fracta. «Manent», respondet pater, «et abibunt, sicut vox tua mox firma fiet. Corpus tuum se transmutat, non corrumpit.» Eppius ridet, et primum post multas hebdomades vocem suam in schola non timet.\n\nQuaestiones:\nCur vox Eppii in media sententia frangitur?\nQuia larynx, in qua vox gignitur, in pueris crescentibus augetur.\nQuid Eppius mane ante speculum sentit?\nOmnia sibi deformitas videntur: pili inaequales, maculae, collum novum.\nUnde rasorium Bruttii venit?\nAvus Eppii id Bruttio dedit, cum ille eiusdem aetatis esset.\nCur spuma ponitur?\nQuia frictionem minuit; frictio in cute sicca cutem irritat.\nQuid Bruttius de manu habili dicit?\nDicit manum habilem non nasci, sed cotidie fieri."
+    },
+    {
+      "title": "Comoedus et magister",
+      "summary": "In Bologna an elderly comic actor coaches a young actor whose lines cannot be heard in the back rows, teaching him clear diphthongs with odd exercises, and gives him his patchwork costume after the first night.",
+      "newWords": [
+        "comoedus",
+        "intellegibilis",
+        "diphthongus",
+        "abnormis",
+        "creativus",
+        "cento",
+        "fidiculae",
+        "tintinnabulum"
+      ],
+      "text": "Curtilius, comoedus iuvenis, primas partes in comoedia nova Bononiae accepit. Ingenio valet, vultu et corpore spectatores facile movet, sed vox eius in theatro magno deficit. Inter probationes moderator gregis e sedibus postremis clamat verba eius non esse intellegibilia: «Rides, saltas, manus agitas, sed quid dicas nemo intellegit!»\n\nModerator igitur Curtilium ad Baebium mittit, comoedum senem qui per quinquaginta annos in omnibus fere theatris Italiae egit et nunc in domo parva prope theatrum habitat. Baebius iuvenem sedere iubet, eum versus suos recitare audit, deinde diu tacet. «Vocales bene profers», tandem inquit, «sed diphthongos devoras. Ubi duae vocales in una syllaba iunguntur, tu alteram deicis. In conclavi parvo hoc non animadvertitur; in theatro magno autem extrema pars verbi evanescit, et sententia non iam intellegibilis est.»\n\nPer proximas hebdomades Curtilius cotidie ad Baebium venit. Senex modum docendi habet abnormem, ut ipse fatetur: iuvenem iubet diphthongos in horto cantare, inter ambulandum clamare, etiam cum calculo sub lingua pronuntiare. Primo Curtilius haec exercitia abnormia ridicula putat, sed mox sentit vocem suam firmiorem fieri, et diphthongi, quos antea devorabat, clare sonant.\n\nBaebius etiam de arte comoedi loquitur. «Comoedus», ait, «non solum ridiculus esse debet, sed etiam creativus. Spectatores cotidie aliter rident; comoedus creativus id sentit et aliquid novi invenit, nec tamen verba poetae mutat.» Ut hoc ostendat, Baebius ex arca vestem veterem depromit, centonem ex centum pannis variorum colorum consutum. Hunc centonem ipse per triginta annos in scaena gessit, et singulos pannos, ut narrat, ex vestibus amicorum collegit. In centone, ait, tota vita eius in theatro quasi scripta est.\n\nDeinde fidiculas parvas sumit et canticum breve pulsat. Curtilium iubet ad numerum fidicularum versus dicere, ut ictus vocis cum sonis chordarum concordet. Ita iuvenis discit sententias non festinare, sed singula verba suo loco ponere.\n\nPrima nocte spectaculi Baebius in sede media sedet. Tintinnabulum ter sonat, signum quo spectatores ad sedes vocantur, et post ultimum sonum tintinnabuli aulaeum tollitur. Curtilius in scaenam prodit, et vox eius, clara et intellegibilis, usque ad sedes postremas pervenit. Spectatores rident, plaudunt, rursus rident. Post spectaculum Curtilius, adhuc vestitus, Baebium in turba quaerit et ei gratias agit. Senex nihil dicit, sed centonem suum, in charta involutum, iuveni in manus tradit.\n\nQuaestiones:\nQuid moderator gregis de voce Curtilii queritur?\nQueritur verba eius e sedibus postremis non esse intellegibilia.\nQuod vitium Baebius in voce Curtilii invenit?\nInvenit eum diphthongos devorare et alteram vocalem deicere.\nQualia sunt exercitia Baebii?\nAbnormia sunt: Curtilius diphthongos in horto cantat, inter ambulandum clamat, cum calculo sub lingua pronuntiat.\nQuid est cento Baebii?\nVestis vetus ex centum pannis variorum colorum consuta, quam per triginta annos in scaena gessit.\nQuid Baebius post spectaculum facit?\nCentonem suum, in charta involutum, Curtilio tradit."
+    },
+    {
+      "title": "Mater et filius",
+      "summary": "In Tivoli a son who moved close to his elderly mother drives her by a long detour to the doctor for a pain in her side, which turns out to be a small stone in the ureter, and their roles quietly change.",
+      "newWords": [
+        "proximitas",
+        "provisio",
+        "disponibilis",
+        "deviatio",
+        "pulsatio",
+        "congenitus",
+        "leucocytus",
+        "ureter"
+      ],
+      "text": "Vettenius, qui quinquaginta annos natus est, anno priore Roma Tibur migravit, ut matri suae Otaciliae propior esset. Otacilia, octoginta annos nata, sola habitat in domo ubi Vettenius puer crevit, et auxilium filii semper recusabat. Proximitas tamen multa mutavit: nunc Vettenius bis in hebdomade ad eam venit, res e macello affert, cum ea cenat. Haec proximitas ambobus grata est, quamquam neuter id dicit.\n\nMane quodam Otacilia filium telephono vocat. Dolorem acutum in latere sentit, qui ad ventrem descendit. Vettenius, qui ex provisione sua numerum medicae et indicem medicamentorum matris in telephono servavit, statim medicam Lusidiam vocat. Medica, quamquam per totum diem occupata est, eodem mane disponibilis est, nam aegrota quaedam visitationem suam distulit.\n\nVia autem quae ad oppidum medicae ducit propter opera publica clausa est. Deviatio per colles longa et tortuosa est. Dum Vettenius per deviationem lente vehitur, Otacilia, quae semper fortis videri vult, de dolore tacet, sed filius videt manum eius sedile premere. Primum post multos annos Vettenius sentit se nunc matrem curare, sicut olim illa eum curabat.\n\nLusidia matrem diligenter inspicit. Pulsationem cordis audit, et pulsatio paulo irregularis est. Otacilia statim explicat hoc vitium congenitum esse: medicos iam in pueritia eius animadvertisse cor eius ita ab ortu pulsare, neque umquam ei nocuisse. Medica in scriptis veteribus legit vitium congenitum esse et innoxium, et tranquillior fit.\n\nDeinde urinam examinat. Leucocyti, qui inflammationem indicarent, pauci sunt, et medica explicat paucitatem leucocytorum bonum signum esse. Dolor, ut putat, ex calculo parvo oritur qui in uretere haeret. Ureter est tubulus tenuis qui urinam a rene ad vesicam ducit; calculus parvus, qui per ureterem descendit, dolorem acutum facit, sed plerumque intra paucos dies sponte exit. Medica aquam multam bibere iubet et medicamentum contra dolorem praescribit.\n\nPostridie calculus exit, et dolor cessat. Vettenius matrem visit, ut videat quomodo valeat. Otacilia, iam sana, in culina eum exspectat et cenam paravit. «Bene fecisti quod numerum medicae servabas», inquit. «Tua provisio a patre tuo venit; ille quoque omnia ante providebat.» Vettenius ridet. Post cenam mater, quae numquam auxilium accipere volebat, ipsa eum rogat ut indicem medicamentorum una corrigant.\n\nQuaestiones:\nCur Vettenius Tibur migravit?\nUt matri suae Otaciliae propior esset.\nCur medica eodem mane disponibilis est?\nQuia aegrota quaedam visitationem suam distulit.\nCur Vettenius per deviationem vehitur?\nQuia via ad oppidum medicae propter opera publica clausa est.\nQuid medica de pulsatione cordis Otaciliae discit?\nDiscit pulsationem paulo irregularem esse, sed vitium congenitum et innoxium.\nQuid est ureter?\nTubulus tenuis qui urinam a rene ad vesicam ducit."
+    },
+    {
+      "title": "Frater et soror",
+      "summary": "In Milan a woman leaves her bank job to found a small magazine and, rather than take a loan at high interest, accepts her richer brother's help, which mends an old quarrel between them.",
+      "newWords": [
+        "resigno",
+        "faenus",
+        "ditis",
+        "culpatio",
+        "conciliabulum",
+        "convocatio",
+        "subscriptor",
+        "millenarius",
+        "bes"
+      ],
+      "text": "Manlia per quindecim annos Mediolani in argentaria laboravit, rationes aliorum curans. Diu tamen cupiebat commentarium periodicum de hortis urbanis edere, in quo homines narrarent quomodo in tectis et in podiis plantas colerent. Die quodam tandem munus suum resignat. Collegae mirantur quod locum tam certum resignat, sed Manlia sentit se, nisi nunc resignet, numquam id facturam esse.\n\nAd commentarium edendum pecunia opus est. Argentaria in qua laboraverat mutuum quidem offert, sed faenore gravi; Manlia, quae faenus aliorum per tot annos computaverat, scit quantum tale faenus intra paucos annos crescat. Fratrem Crassicium rogare non vult. Crassicius, qui societatem machinarum habet, multo ditior est quam ipsa; sed inter eos a pueritia vetus lis est.\n\nCum pueri essent, semper alter alterum culpabat. Culpatio illa, quae in parvis rebus incepit, in adultis non cessavit: cum parentes domum vendiderunt, uterque alterum culpavit quod res male gesta esset, et per annos pauca inter se locuti sunt. Mater, cui Manlia consilium suum narravit, rem Crassicio refert. Ille sorori epistolam brevem mittit et eam ad conciliabulum vetus invitat: scamnum sub platano in hortulo publico prope scholam, ubi pueri post lectiones convenire solebant. Hoc conciliabulum, ut scribit, adhuc stat.\n\nIbi Crassicius pecuniam mutuam offert, nullo faenore. «Ditior quidem sum», inquit, «sed non ideo melior. Satis diu nos culpavimus. Culpationes illae nobis nihil attulerunt nisi silentium.» Manlia primum haesitat, deinde accipit, ea condicione ut pecuniam intra tres annos reddat.\n\nCommentarium paulatim crescit. Manlia convocationem facit lectorum qui in hortis urbanis laborant: in convocatione illa, in bibliotheca vici habita, quadraginta homines conveniunt, experientias suas narrant, nonnulli statim subscriptores fiunt. Post convocationem subscriptores multiplicantur; alii alios adducunt. Mense undecimo, cum subscriptor millenarius nomen suum dedit, Manlia fratrem telephono vocat. «Subscriptor millenarius!» clamat. «Mille homines commentarium meum legunt!»\n\nPost primum annum Manlia bessem pecuniae mutuae iam reddidit, id est duas partes ex tribus. Crassicius, cum bessem accepit, eam iterum ad scamnum sub platano invitat. Ibi ei donum dat: arbusculam in olla, quam in tecto domus suae ipse coluit, et petit ut de ea in commentario scribat. Manlia ridet. Ex illo die frater et soror singulis mensibus in vetere conciliabulo conveniunt, non ut culpationes, sed ut plantas et consilia inter se commutent.\n\nQuaestiones:\nCur collegae Manliae mirantur?\nQuia locum tam certum in argentaria resignat.\nCur Manlia mutuum argentariae non accipit?\nQuia faenus grave est et intra paucos annos multum crescit.\nQuid erat conciliabulum fratris et sororis?\nScamnum sub platano in hortulo publico prope scholam, ubi pueri convenire solebant.\nQuid in convocatione lectorum fit?\nQuadraginta homines conveniunt, experientias narrant, et nonnulli subscriptores fiunt.\nQuantum pecuniae Manlia post primum annum reddidit?\nBessem reddidit, id est duas partes ex tribus."
+    },
+    {
+      "title": "Mannus deses",
+      "summary": "In Zurich a timid girl learns to trust a lazy, crafty pony, first by leading him about for weeks, then by riding him, and stays calm when he stumbles.",
+      "newWords": [
+        "equitatio",
+        "deses",
+        "dolosus",
+        "ductito",
+        "uncus",
+        "digitabulum",
+        "artemisia",
+        "prolabor"
+      ],
+      "text": "Labiena, decem annos nata, Turici habitat et equos valde amat, sed eos etiam timet. Cum mater eam in scholam equitationis prope silvam inscripsit, Labiena prima hebdomade ne propius quidem ad equos accedere audebat. Magistra equitationis, Ubia, mulier tranquilla et patiens, nihil urget. «Equitatio», inquit, «non incipit in equo, sed iuxta equum.»\n\nUbia ei mannum fuscum committit, qui inter omnes notus est desidia sua. Mannus deses est: libentius stat quam ambulat, libentius edit quam currit. Simul dolosus est. Saepe claustrum stabuli labiis aperit, aut, cum quis eum capere vult, lente recedit et semper eodem passu longius abest. «Dolosum mannum habes», ait Ubia, «sed dolosus non est malus. Sic tantum desidiam suam tuetur.»\n\nPer tres hebdomades Labiena mannum non ascendit, sed tantum ductitat. Cotidie eum loro per stabulum et per pratum ductitat, circa arbores, ad aquam, rursus ad stabulum. Ita discit quomodo equus caput moveat, quando auribus attendat, quando timeat. Mannus deses primo contra nititur, sed paulatim puellam sequitur.\n\nAnte quamque lectionem Labiena frenum et lorum ab uncis qui in pariete fixi sunt sumit, et post lectionem ad uncos suos reponit. Ubia enim in hac re severa est: quodque frenum suum uncum habet, nomine equi signatum. Labiena etiam digitabula accipit, e corio molli facta; nam habenae sine digitabulis manus terunt. Digitabula eius parva sunt et nova, et ea cum superbia gerit.\n\nIn prato iuxta stabulum artemisia crescit, herba alta cuius folia parte inferiore argentea sunt et odorem acrem emittunt. Mannus dolosus, quotiens potest, ad artemisiam declinat et folia carpit. Ubia ridet: artemisiam equis non nocere, si paulum edant; sed equitem discere debere equum ab artemisia ad viam revocare.\n\nHebdomade quarta Labiena tandem mannum ascendit. Ubia eum primo ductitat, dum puella in sella sedet, manibus in digitabulis nondum firmis. Deinde Ubia lorum solvit, et Labiena sola per pratum equitat. Mannus, ut solet, ad artemisiam declinat; Labiena autem habenas firmiter tenet et eum revocat. Mannus, quasi miratus, paret.\n\nPaulo post, in loco ubi pratum imbre madidum est, mannus pede anteriore prolabitur. Labiena sentit corpus equi sub se prolabi, sed, ut Ubia docuerat, recta sedet et habenas non trahit. Mannus statim se colligit et consistit; neuter laeditur. Ubia accurrit, sed Labiena iam ridet. «Prolapsus est», inquit, «sed ego non timui.» Post equitationem puella mannum ipsa ad stabulum ducit, frenum ad uncum suum reponit et digitabula in sacco condit. Mannus deses statim ad cibum suum festinat.\n\nQuaestiones:\nQuid Ubia de equitatione dicit?\nDicit equitationem non in equo, sed iuxta equum incipere.\nCur mannus dolosus dicitur?\nQuia claustrum stabuli labiis aperit et lente recedit cum quis eum capere vult.\nQuid Labiena per tres hebdomades facit?\nEquulum non ascendit, sed tantum per stabulum et pratum ductitat.\nCur Labiena digitabula gerit?\nQuia habenae sine digitabulis manus terunt.\nQuid fit cum mannus prolabitur?\nLabiena recta sedet et habenas non trahit; mannus se colligit, et neuter laeditur."
+    },
+    {
+      "title": "Horologium avi",
+      "summary": "In Munich a grandfather and his granddaughter take apart, clean and restart his old chiming clock, while he wanders off into stories and she finds a love for fine work.",
+      "newWords": [
+        "horologicus",
+        "purificatio",
+        "scalpellum",
+        "digressus",
+        "cultellus",
+        "paetus",
+        "modificatio",
+        "trinus",
+        "stupor"
+      ],
+      "text": "Peducaeus, qui Monaci habitat, per quadraginta annos artem horologicam exercuit. Nunc, septuaginta quinque annos natus, officinam non iam habet, sed in conclavi suo horologium magnum servat quod ipse iuvenis construxit. Iam per menses tamen horologium tacet, et Peducaeus, cuius manus non iam tam firmae sunt, id reficere non audet. Neptis eius Tarquitia, duodecim annos nata, cum ad avum per ferias venit, rogat ut una opus aggrediantur.\n\nPrimum avus machinationem horologicam ex arca lignea extrahit et in mensa super pannum album ponit. Rotulae, axiculi et pondera apparent, omnia oleo vetere et pulvere obducta. «Ante omnia purificatio necessaria est», explicat. «Oleum vetus, quod tot annis induruit, rotulas retinet. Sine purificatione nulla rota libere vertitur.» Singulas partes in lavacrum parvum cum liquore speciali immergunt, deinde siccant. Ubi oleum durius haeret, Peducaeus Tarquitiam scalpello uti docet: scalpellum, tenue et acutissimum, leniter per dentes rotularum ducendum est, ne quid frangatur.\n\nDum laborant, avus saepe a re digressus narrat: de magistro suo, qui ei primum cultellum dederat; de officina in qua primum horologium vendidit; de nive quae olim per totam hiemem viam obstruebat. Ab una narratione ad aliam digressus, tandem ridens ad rotulas redit. Tarquitia has narrationes amat et avum numquam interpellat.\n\nCultellum avi, parvum et plicatilem, Tarquitia mutuum accepit; eo cardines minimos aperit. Cum, oculos contrahens, rotulam minimam inspicit, avus eam «paetam meam» vocat. Paetus enim, ut explicat, dicitur qui oculis paulum distortis aspicit, et olim patres filios paetos amanter ita appellabant. «Etiam ego, cum iuvenis essem, in officina paetus eram», ait.\n\nInter partes Tarquitia rem miram invenit: malleolum alterum, qui ad machinationem primam non pertinere videtur. Peducaeus explicat modificationem esse quam ipse post nuptias fecerat. Horologium primum horas uno sono tantum indicabat; modificatione illa effecit ut singulis quadrantibus trini soni audirentur, tres campanulae diversis vocibus. Uxor eius, ait, trinos sonos amabat, et ideo modificationem fecit.\n\nPost tres dies omnia reposita sunt. Peducaeus pendulum leniter impellit, et horologium iterum tinnit, lente et constanter. Cum quadrans horae venit, trini soni conclave implent. Tarquitia stupore quodam capitur; non credebat ex illis rotulis, quas pulvereas et immotas viderat, talem sonum redire posse. Stupor in vultu eius avum delectat magis quam ipse sonus. «Hunc stuporem», inquit, «ego sensi cum primum horologium meum sonuit.»\n\nAnte discessum Tarquitia rogat num avus eam artem horologicam docere velit. Peducaeus ridens annuit et cultellum suum ei dono dat.\n\nQuaestiones:\nCur horologium avi per menses tacet?\nQuia oleum vetus induruit, et manus Peducaei non iam tam firmae sunt ut id reficiat.\nCur purificatio necessaria est?\nQuia oleum vetus rotulas retinet, et sine purificatione nulla rota libere vertitur.\nAd quid scalpellum adhibetur?\nUt oleum durius a dentibus rotularum leniter tollatur.\nCur avus Tarquitiam paetam vocat?\nQuia oculos contrahit cum rotulam minimam inspicit.\nQuam modificationem Peducaeus fecerat?\nEffecit ut singulis quadrantibus trini soni audirentur, quia uxor eius eos amabat."
+    }
+  ]
+}
