@@ -89,4 +89,5 @@ internal val zhVideos: Map<String, String> = mapOf(
     "Unpacking Python…" to "正在解压 Python…",
     "Installing speech recognition: fetching {0}…" to "正在安装语音识别：正在获取 {0}…",
     "Installing speech recognition: unpacking…" to "正在安装语音识别：正在解压…",
+    "This kind of video can't be transcribed on an iPhone." to "此类视频无法在 iPhone 上转写。",
 )

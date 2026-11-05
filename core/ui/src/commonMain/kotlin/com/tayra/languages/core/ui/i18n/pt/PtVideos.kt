@@ -89,4 +89,5 @@ internal val ptVideos: Map<String, String> = mapOf(
     "Unpacking Python…" to "Descompactando o Python…",
     "Installing speech recognition: fetching {0}…" to "Instalando o reconhecimento de fala: baixando {0}…",
     "Installing speech recognition: unpacking…" to "Instalando o reconhecimento de fala: descompactando…",
+    "This kind of video can't be transcribed on an iPhone." to "Este tipo de vídeo não pode ser transcrito no iPhone.",
 )

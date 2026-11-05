@@ -89,4 +89,5 @@ internal val ruVideos: Map<String, String> = mapOf(
     "Unpacking Python…" to "Распаковка Python…",
     "Installing speech recognition: fetching {0}…" to "Установка распознавания речи: скачивание {0}…",
     "Installing speech recognition: unpacking…" to "Установка распознавания речи: распаковка…",
+    "This kind of video can't be transcribed on an iPhone." to "Такое видео нельзя расшифровать на iPhone.",
 )

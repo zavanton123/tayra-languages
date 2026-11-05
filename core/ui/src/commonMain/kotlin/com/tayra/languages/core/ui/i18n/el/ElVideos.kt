@@ -89,4 +89,5 @@ internal val elVideos: Map<String, String> = mapOf(
     "Unpacking Python…" to "Αποσυμπίεση της Python…",
     "Installing speech recognition: fetching {0}…" to "Εγκατάσταση αναγνώρισης ομιλίας: λήψη {0}…",
     "Installing speech recognition: unpacking…" to "Εγκατάσταση αναγνώρισης ομιλίας: αποσυμπίεση…",
+    "This kind of video can't be transcribed on an iPhone." to "Αυτό το είδος βίντεο δεν μπορεί να απομαγνητοφωνηθεί σε iPhone.",
 )

@@ -1,3 +1,4 @@
+import AVFoundation
 import Foundation
 import SherpaOnnxC
 
@@ -99,6 +100,185 @@ final class SherpaSynthesizer {
             throw SpeechError("sherpa-onnx could not load \(spec.model)")
         }
         return created
+    }
+}
+
+/// The running transcription, for stopping it from another thread.
+final class TranscriptionJob {
+    private let lock = NSLock()
+    private var stopped = false
+    private var task: URLSessionTask?
+
+    var cancelled: Bool {
+        lock.lock()
+        defer { lock.unlock() }
+        return stopped
+    }
+
+    func begin() {
+        lock.lock()
+        defer { lock.unlock() }
+        stopped = false
+        task = nil
+    }
+
+    func track(_ task: URLSessionTask?) {
+        lock.lock()
+        defer { lock.unlock() }
+        self.task = task
+    }
+
+    func cancel() {
+        lock.lock()
+        defer { lock.unlock() }
+        stopped = true
+        task?.cancel()
+    }
+}
+
+/// The sound of a video as samples for Whisper. The texts are the keys of the app's translations.
+enum VideoSound {
+    static let unreadable = "The video could not be read from its address."
+    static let unsupported = "This kind of video can't be transcribed on an iPhone."
+    static let silent = "The video has no sound."
+    static let failed = "The transcription failed."
+    /// How much of the progress bar the download takes; the decoding of the file takes the rest.
+    static let downloadShare: Float = 0.8
+
+    /// Writes the sound of the media `file` into `output` as 16 kHz mono 16-bit little-endian samples.
+    static func decode(file: String, output: String, job: TranscriptionJob, progress: (Float) -> Void) async throws {
+        let asset = AVURLAsset(url: URL(fileURLWithPath: file))
+        // A container AVFoundation does not know, such as WebM or Ogg, fails here or reports itself unreadable.
+        guard let readable = try? await asset.load(.isReadable), readable, let tracks = try? await asset.loadTracks(withMediaType: .audio) else {
+            throw SpeechError(unsupported)
+        }
+        guard !tracks.isEmpty else { throw SpeechError(silent) }
+        let seconds = (try? await asset.load(.duration)).map(CMTimeGetSeconds) ?? 0
+        guard let reader = try? AVAssetReader(asset: asset) else { throw SpeechError(unsupported) }
+        let samples = AVAssetReaderAudioMixOutput(audioTracks: tracks, audioSettings: [
+            AVFormatIDKey: kAudioFormatLinearPCM,
+            AVSampleRateKey: 16_000,
+            AVNumberOfChannelsKey: 1,
+            AVLinearPCMBitDepthKey: 16,
+            AVLinearPCMIsFloatKey: false,
+            AVLinearPCMIsBigEndianKey: false,
+            AVLinearPCMIsNonInterleaved: false,
+        ])
+        guard reader.canAdd(samples) else { throw SpeechError(unsupported) }
+        reader.add(samples)
+        guard reader.startReading() else { throw SpeechError(unsupported) }
+        defer { if reader.status == .reading { reader.cancelReading() } }
+
+        guard FileManager.default.createFile(atPath: output, contents: nil), let out = FileHandle(forWritingAtPath: output) else {
+            throw SpeechError(failed)
+        }
+        defer { try? out.close() }
+        var written = 0
+        while !job.cancelled, let buffer = samples.copyNextSampleBuffer() {
+            guard let block = CMSampleBufferGetDataBuffer(buffer) else { continue }
+            let length = CMBlockBufferGetDataLength(block)
+            var data = Data(count: length)
+            let status = data.withUnsafeMutableBytes { CMBlockBufferCopyDataBytes(block, atOffset: 0, dataLength: length, destination: $0.baseAddress!) }
+            guard status == kCMBlockBufferNoErr else { throw SpeechError(failed) }
+            try out.write(contentsOf: data)
+            written += length
+            if seconds > 0 { progress(min(1, Float(Double(written) / 2 / 16_000 / seconds))) }
+        }
+        if job.cancelled { return }
+        if reader.status == .failed { throw SpeechError(unsupported) }
+        if written == 0 { throw SpeechError(silent) }
+    }
+}
+
+/// The files of one Whisper model and the voice detector, and the language to hear.
+struct WhisperSpec {
+    var encoder: String
+    var decoder: String
+    var tokens: String
+    var vad: String
+    var language: String
+}
+
+/// Whisper through sherpa-onnx's C API: Silero's voice detector cuts the samples into stretches of speech, Whisper hears each.
+enum WhisperListener {
+    private static let sampleRate: Int32 = 16_000
+    private static let chunkSamples = 16_000
+
+    /// Hears the samples in the file `pcm`, calling `heard` with begin and end in milliseconds and the text of each stretch.
+    static func listen(_ spec: WhisperSpec, pcm: String, job: TranscriptionJob, progress: (Float) -> Void, heard: (Int64, Int64, String) -> Void) throws {
+        var strings: [UnsafeMutablePointer<CChar>] = []
+        defer { strings.forEach { free($0) } }
+        func c(_ value: String) -> UnsafePointer<CChar>? {
+            guard let copy = strdup(value) else { return nil }
+            strings.append(copy)
+            return UnsafePointer(copy)
+        }
+
+        var detector = SherpaOnnxVadModelConfig()
+        detector.silero_vad.model = c(spec.vad)
+        detector.silero_vad.threshold = 0.5
+        detector.silero_vad.min_silence_duration = 0.4
+        detector.silero_vad.min_speech_duration = 0.25
+        detector.silero_vad.window_size = 512
+        detector.silero_vad.max_speech_duration = 12
+        detector.sample_rate = sampleRate
+        detector.num_threads = 1
+        detector.provider = c("cpu")
+        guard let vad = SherpaOnnxCreateVoiceActivityDetector(&detector, 60) else { throw SpeechError(VideoSound.failed) }
+        defer { SherpaOnnxDestroyVoiceActivityDetector(vad) }
+
+        var config = SherpaOnnxOfflineRecognizerConfig()
+        config.feat_config.sample_rate = sampleRate
+        config.feat_config.feature_dim = 80
+        config.model_config.whisper.encoder = c(spec.encoder)
+        config.model_config.whisper.decoder = c(spec.decoder)
+        config.model_config.whisper.language = c(spec.language)
+        config.model_config.whisper.task = c("transcribe")
+        config.model_config.tokens = c(spec.tokens)
+        config.model_config.num_threads = 4
+        config.model_config.provider = c("cpu")
+        config.model_config.model_type = c("whisper")
+        config.decoding_method = c("greedy_search")
+        guard let recognizer = SherpaOnnxCreateOfflineRecognizer(&config) else { throw SpeechError(VideoSound.failed) }
+        defer { SherpaOnnxDestroyOfflineRecognizer(recognizer) }
+
+        func drain() {
+            while !job.cancelled, SherpaOnnxVoiceActivityDetectorEmpty(vad) == 0 {
+                guard let segment = SherpaOnnxVoiceActivityDetectorFront(vad) else { break }
+                defer {
+                    SherpaOnnxDestroySpeechSegment(segment)
+                    SherpaOnnxVoiceActivityDetectorPop(vad)
+                }
+                guard let stream = SherpaOnnxCreateOfflineStream(recognizer) else { continue }
+                defer { SherpaOnnxDestroyOfflineStream(stream) }
+                SherpaOnnxAcceptWaveformOffline(stream, sampleRate, segment.pointee.samples, segment.pointee.n)
+                SherpaOnnxDecodeOfflineStream(recognizer, stream)
+                guard let result = SherpaOnnxGetOfflineStreamResult(stream) else { continue }
+                defer { SherpaOnnxDestroyOfflineRecognizerResult(result) }
+                let text = result.pointee.text.map { String(cString: $0) } ?? ""
+                let begin = Int64(segment.pointee.start) * 1000 / Int64(sampleRate)
+                heard(begin, begin + Int64(segment.pointee.n) * 1000 / Int64(sampleRate), text.trimmingCharacters(in: .whitespacesAndNewlines))
+            }
+        }
+
+        guard let input = FileHandle(forReadingAtPath: pcm) else { throw SpeechError(VideoSound.failed) }
+        defer { try? input.close() }
+        let total = max(1, (try? FileManager.default.attributesOfItem(atPath: pcm)[.size] as? Int) ?? 1)
+        var read = 0
+        var floats = [Float](repeating: 0, count: chunkSamples)
+        while !job.cancelled, let data = try input.read(upToCount: chunkSamples * 2), !data.isEmpty {
+            read += data.count
+            let count = data.count / 2
+            data.withUnsafeBytes { raw in
+                for i in 0..<count { floats[i] = Float(Int16(littleEndian: raw.loadUnaligned(fromByteOffset: i * 2, as: Int16.self))) / 32768 }
+            }
+            SherpaOnnxVoiceActivityDetectorAcceptWaveform(vad, floats, Int32(count))
+            drain()
+            progress(Float(read) / Float(total))
+        }
+        if job.cancelled { return }
+        SherpaOnnxVoiceActivityDetectorFlush(vad)
+        drain()
     }
 }
 
@@ -226,12 +406,15 @@ final class FileDownload: NSObject, URLSessionDownloadDelegate {
     }
 
     /// Starts the download; `completion` gets nil on success or an error message.
-    static func start(url: String, destination: String, progress: @escaping (Int64, Int64) -> Void, completion: @escaping (String?) -> Void) {
-        guard let address = URL(string: url) else { completion("bad address \(url)"); return }
+    @discardableResult
+    static func start(url: String, destination: String, progress: @escaping (Int64, Int64) -> Void, completion: @escaping (String?) -> Void) -> URLSessionTask? {
+        guard let address = URL(string: url) else { completion("bad address \(url)"); return nil }
         let delegate = FileDownload(destination: destination, progress: progress, completion: completion)
         let session = URLSession(configuration: .default, delegate: delegate, delegateQueue: nil)
-        session.downloadTask(with: address).resume()
+        let task = session.downloadTask(with: address)
+        task.resume()
         session.finishTasksAndInvalidate()
+        return task
     }
 
     func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didWriteData bytesWritten: Int64, totalBytesWritten: Int64, totalBytesExpectedToWrite: Int64) {

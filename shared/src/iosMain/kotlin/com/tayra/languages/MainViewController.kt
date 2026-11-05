@@ -3,6 +3,8 @@ package com.tayra.languages
 import androidx.compose.ui.window.ComposeUIViewController
 import com.tayra.languages.core.data.speech.SherpaKokoroEngine
 import com.tayra.languages.core.data.speech.SherpaPiperEngine
+import com.tayra.languages.core.data.speech.SherpaVideoTranscriber
+import com.tayra.languages.core.domain.media.VideoTranscriber
 import com.tayra.languages.core.domain.service.LocalSpeech
 import com.tayra.languages.core.data.account.GoogleOAuth
 import com.tayra.languages.core.data.network.createAccountHttpClient
@@ -10,6 +12,7 @@ import com.tayra.languages.core.domain.account.IdentitySignIn
 import com.tayra.languages.core.domain.account.StorePurchases
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.speech.IosSherpaRuntime
+import com.tayra.languages.speech.IosSherpaTranscription
 import com.tayra.languages.speech.OnDeviceSpeechBridge
 import com.tayra.languages.store.BridgedStorePurchases
 import com.tayra.languages.store.StoreKitBridge
@@ -41,6 +44,7 @@ fun MainViewController(
                         val runtime = speech?.let { IosSherpaRuntime(it) }
                         LocalSpeech(if (runtime == null) emptyList() else listOf(SherpaPiperEngine(runtime), SherpaKokoroEngine(runtime)))
                     }
+                    speech?.let { bridge -> single<VideoTranscriber> { SherpaVideoTranscriber(IosSherpaRuntime(bridge), IosSherpaTranscription(bridge)) } }
                     store?.let { bridge -> single<StorePurchases> { BridgedStorePurchases(bridge) } }
                     identity?.let { bridge -> single<IdentitySignIn> { IosIdentitySignIn(bridge, GoogleOAuth(createAccountHttpClient())) } }
                 },

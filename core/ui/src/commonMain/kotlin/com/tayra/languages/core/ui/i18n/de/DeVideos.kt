@@ -89,4 +89,5 @@ internal val deVideos: Map<String, String> = mapOf(
     "Unpacking Python…" to "Python wird entpackt…",
     "Installing speech recognition: fetching {0}…" to "Spracherkennung wird installiert: {0} wird geladen…",
     "Installing speech recognition: unpacking…" to "Spracherkennung wird installiert: wird entpackt…",
+    "This kind of video can't be transcribed on an iPhone." to "Diese Art von Video lässt sich auf dem iPhone nicht transkribieren.",
 )
