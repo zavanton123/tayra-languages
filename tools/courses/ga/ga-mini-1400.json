@@ -1,0 +1,210 @@
+{
+  "id": "ga-mini-1400",
+  "rankUpTo": 1400,
+  "level": "B1",
+  "title": "Conas a théann tú ann?",
+  "description": "Ten short stories about getting around: buses, bikes, planes, trains, country roads, maps, a community bus, a driving lesson and a trip to a summer camp.",
+  "topic": "Getting around",
+  "names": [
+    "Raghnall",
+    "Raghnaill",
+    "Alastar",
+    "Gaillimh",
+    "Domhnach",
+    "Máirt",
+    "Étaín",
+    "Dáibhí",
+    "Corcaigh",
+    "Sathairn",
+    "Brídín",
+    "Luimneach",
+    "Glaschú",
+    "hÉireann",
+    "Seathrún",
+    "Ciarraí",
+    "Ailill",
+    "Tuathla",
+    "Corca Dhuibhne",
+    "Rathnait",
+    "Dearbháil",
+    "Conamara",
+    "Aoine",
+    "hAoine",
+    "Bríona",
+    "Cearúl",
+    "Muircheartach",
+    "Mhuircheartaigh",
+    "Cabhán",
+    "Máighréad",
+    "Muirinn",
+    "Neachtan",
+    "Satharn",
+    "Ádhamh",
+    "Fáilbhe",
+    "Saibh",
+    "Muineachán",
+    "Ceanannas"
+  ],
+  "lessons": [
+    {
+      "title": "An bus soir",
+      "summary": "Raghnall has no car; on his first day the city bus east to the industrial estate is late, and his manager tells him to take an earlier one.",
+      "newWords": [
+        "eastát",
+        "tionsclaíocht",
+        "imeall",
+        "soir",
+        "gluaisteán",
+        "bainisteoir",
+        "leithscéal",
+        "uirbeach",
+        "iompaigh"
+      ],
+      "text": "Tá post nua ag Raghnall i nGaillimh. Tosóidh sé ag obair Dé Máirt le comhlacht ar eastát tionsclaíochta. Tá an t-eastát tionsclaíochta ar imeall na cathrach, 6 chiliméadar soir ón lár. Tá Raghnall ina chónaí i lár na cathrach, agus níl gluaisteán aige.\n\n“Ní gá dom gluaisteán a cheannach,” a deir sé leis féin. “Tá busanna uirbeacha maithe sa chathair seo, agus níl siad daor.”\n\nAr an Domhnach, d'fhéach sé ar shuíomh gréasáin na mbusanna uirbeacha. Téann bus uimhir 4 soir ón lár gach 20 nóiméad, agus stopann sé os comhair an eastáit. Osclaítear oifig an chomhlachta ag a 8 a chlog. Bhí plean simplí ag Raghnall: an bus a fháil ag a 8 a chlog, agus a bheith ag an obair ag 8:30.\n\nDé Máirt, bhí Raghnall ag an stad ag a 8 a chlog. Ní raibh an bus ann. Tháinig sé ag 8:15, agus bhí sé lán. Bhí trácht trom sa chathair, agus bhí an bus ag dul go mall.\n\nAg an droichead mór, d'iompaigh an bus ar dheis. Ansin d'iompaigh sé ar chlé, agus chuaigh sé soir ar bhóthar fada go dtí imeall na cathrach. Bhí páirceanna glasa le feiceáil ar gach taobh. Ag 8:45, stop an bus os comhair an eastáit tionsclaíochta.\n\nRith Raghnall isteach san oifig. Bhí an bainisteoir, Alastar, ag fanacht leis ag an doras.\n\n“Gabh mo leithscéal,” a deir Raghnall. “Tá mé déanach. Bhí an bus déanach, agus bhí an trácht trom.”\n\n“Ná bí buartha,” a deir an bainisteoir. “Ní gá duit leithscéal a ghabháil. Bíonn an trácht trom ar maidin. Faigh an bus ag 7:40 amárach. Ní bhíonn an bus sin lán, agus ní bhíonn mórán tráchta ann ag an am sin.”\n\nAn lá dar gcionn, fuair Raghnall an bus ag 7:40. Bhí suíochán aige, agus ní raibh an trácht trom. D'iompaigh an bus ag an droichead, agus chuaigh sé soir go tapa. Bhí Raghnall ag an oifig ag 8:10.\n\nBhí an bainisteoir ag teacht isteach ag an am céanna. Rinne sé gáire.\n\n“Maidin mhaith, a Raghnaill,” a deir sé. “Ní bheidh aon leithscéal ag teastáil inniu!”\n\nCeisteanna:\nCá bhfuil post nua Raghnaill?\nTá sé le comhlacht ar eastát tionsclaíochta ar imeall na cathrach.\nCén fáth a dtéann Raghnall ar an mbus?\nTéann sé ar an mbus mar níl gluaisteán aige.\nCén treo a dtéann bus uimhir 4 ón lár?\nTéann sé soir ón lár.\nCén fáth a raibh Raghnall déanach an chéad lá?\nBhí sé déanach mar bhí an bus déanach agus bhí an trácht trom.\nCad a dúirt an bainisteoir le Raghnall?\nDúirt sé leis an bus a fháil ag 7:40."
+    },
+    {
+      "title": "Rothar ar iasacht",
+      "summary": "Étaín borrows a city bike in Cork with a code, rides the river path until her thighs ache, and finds it easier the next week.",
+      "newWords": [
+        "iasacht",
+        "úsáideoir",
+        "cód",
+        "furasta",
+        "conair",
+        "láirig",
+        "tuirse",
+        "éadrom",
+        "crua"
+      ],
+      "text": "Tá Étaín ina cónaí i gCorcaigh, agus tá sí ag obair in oifig in aice leis an abhainn. Bhí rothar aici, ach tá sé briste. Ní raibh sí ag iarraidh rothar nua a cheannach go fóill.\n\n“Faigh rothar ar iasacht ón gcathair,” a dúirt a deartháir, Dáibhí. “Tá rothair ar iasacht ag stáisiúin ar fud na cathrach. Tá sé furasta. Ar dtús, caithfidh tú a bheith i d'úsáideoir ar an suíomh gréasáin. Ansin gheobhaidh tú cód.”\n\nAn oíche sin, chláraigh Étaín ar an suíomh mar úsáideoir. Bhí sé furasta, mar a dúirt Dáibhí. Fuair sí cód ar a fón: 2719. Is féidir le gach úsáideoir rothar a fháil ar iasacht ar feadh 3 uair an chloig.\n\nMaidin Dé Sathairn, chuaigh sí go dtí an stáisiún rothar in aice lena teach. Chuir sí an cód isteach, agus scaoileadh an rothar. Bhí an rothar éadrom, i bhfad níos éadroime ná a rothar féin. Ach bhí an suíochán crua.\n\n“Tá an suíochán seo chomh crua le cloch!” a deir sí léi féin.\n\nTá conair rothar ar bhruach na habhann. Chuaigh Étaín siar ar an gconair, amach as an gcathair. Bhí an ghrian ag taitneamh, agus bhí an rothar éadrom ag dul go tapa.\n\nTar éis uair an chloig, bhí pian ina láirig. Bhí an suíochán crua agus an chonair fada. Bhí tuirse uirthi freisin. Shuigh sí ar bhinse in aice leis an gconair, d'ól sí uisce, agus d'fhan sí ansin ar feadh tamaill.\n\nAnsin, chuaigh sí ar ais go mall. D'fhág sí an rothar ag an stáisiún, agus cuireadh glas air arís.\n\nSa bhaile, chuir sí glao ar Dháibhí.\n\n“Bhí sé go hiontach,” a deir sí. “Ach tá pian i mo láirig, agus tá tuirse an domhain orm.”\n\n“Beidh sé níos furasta an chéad uair eile,” a deir Dáibhí.\n\nBhí an ceart aige. An tseachtain dar gcionn, fuair Étaín rothar ar iasacht arís. Thóg sí cóta léi don suíochán crua. An uair seo, ní raibh pian ina láirig, agus ní raibh an oiread sin tuirse uirthi.\n\nCeisteanna:\nCén fáth nach raibh rothar ag Étaín?\nBhí a rothar féin briste.\nCad a fuair Étaín nuair a chláraigh sí mar úsáideoir?\nFuair sí cód ar a fón.\nConas a bhí an rothar ar iasacht?\nBhí sé éadrom, ach bhí an suíochán crua.\nCén fáth ar shuigh Étaín ar bhinse?\nShuigh sí ar bhinse mar bhí pian ina láirig agus bhí tuirse uirthi.\nAn raibh sé níos furasta an tseachtain dar gcionn?\nBhí. Ní raibh pian ina láirig, agus ní raibh an oiread sin tuirse uirthi."
+    },
+    {
+      "title": "Ag an tslándáil",
+      "summary": "Brídín, who rarely flies, has to leave a big glass bottle of oil at airport security, buys a small one inside and flies to her sister in Glasgow.",
+      "newWords": [
+        "slándáil",
+        "leacht",
+        "gloine",
+        "staighre",
+        "eachtrach",
+        "annamh",
+        "measartha",
+        "seans",
+        "tosach"
+      ],
+      "text": "Is annamh a théann Brídín ar eitleán. Tá sí ina cónaí i Luimneach, agus is fearr léi an traein nó an bus. Ach tá a deirfiúr ina cónaí i nGlaschú, agus bhí lá breithe ag teacht aici. Cheannaigh Brídín ticéad eitleáin. Bhí an ticéad measartha saor: €80.\n\nBa mhaith léi rud speisialta a thabhairt dá deirfiúr: ola ó fheirm in aice lena teach. Bhí an ola i mbuidéal mór gloine. Chuir Brídín an ola ina mála láimhe, in aice lena leabhar agus a fón.\n\nMaidin an turais, d'fhág sí an teach go luath. Ag an aerfort, chuaigh sí go dtí an tslándáil. Bhí líne fhada daoine ann. Cuireadh a mála trí mheaisín, agus stop fear na slándála é.\n\n“An bhfuil leacht ar bith sa mhála seo?” a deir sé.\n\n“Níl,” a deir Brídín. “Níl ann ach leabhar, fón agus ola.”\n\n“Is leacht í ola,” a deir sé. “Ní cheadaítear leachtanna móra sa mhála láimhe. Sin é riail na slándála. Agus tá an buidéal gloine seo an-mhór.”\n\n“Ó, gabh mo leithscéal,” a deir Brídín. “Is annamh a bhím in aerfort. An bhfuil seans ar bith go bhfaighidh mé ar ais é?”\n\n“Níl,” a deir sé. “Ach tá seans maith ann go bhfaighidh tú ola sna siopaí taobh istigh.”\n\nBhí an ceart aige. Taobh istigh, bhí siopa beag ag díol bia ó fheirmeacha na hÉireann. Díoltar ola ann i mbuidéil bheaga ghloine. Cheannaigh Brídín ola ansin, agus bhí an praghas measartha. Ansin chuaigh sí go dtí oifig airgid, agus fuair sí airgead eachtrach don turas. Bíonn airgead eachtrach de gach saghas acu ansin.\n\nAg a 10 a chlog, chuaigh na daoine amach go dtí an t-eitleán. Bhí staighre ard ann suas go doras an eitleáin. Chuaigh Brídín suas an staighre go mall. Bhí a suíochán i dtosach an eitleáin, in aice leis an bhfuinneog.\n\nNí raibh an turas fada: uair an chloig amháin. I nGlaschú, tháinig Brídín anuas an staighre ó thosach an eitleáin. Bhí a deirfiúr ag fanacht léi taobh istigh.\n\n“Ola ón mbaile!” a deir a deirfiúr. Bhí áthas an domhain uirthi.\n\nCeisteanna:\nAn dtéann Brídín ar eitleán go minic?\nNí théann. Is annamh a théann sí ar eitleán.\nCad a bhí i mála láimhe Bhrídín?\nBhí leabhar, fón agus ola i mbuidéal mór gloine ann.\nCén fáth ar stop fear na slándála an mála?\nStop sé é mar is leacht í ola, agus bhí an buidéal gloine an-mhór.\nCad a fuair Brídín san oifig airgid?\nFuair sí airgead eachtrach don turas.\nCá raibh a suíochán ar an eitleán?\nBhí a suíochán i dtosach an eitleáin, in aice leis an bhfuinneog."
+    },
+    {
+      "title": "Cloig adamhacha",
+      "summary": "On the train from Kerry to Cork, physics student Seathrún measures the train's speed and reads an article on atomic clocks by a scientist from a research institute.",
+      "newWords": [
+        "fisic",
+        "ceimic",
+        "eolaí",
+        "núicléas",
+        "adamhach",
+        "foras",
+        "airteagal",
+        "luas",
+        "tomhais"
+      ],
+      "text": "Is mac léinn é Seathrún. Tá sé ag déanamh staidéir ar fhisic agus ar cheimic in ollscoil i gCorcaigh. Is fearr leis an fhisic ná an cheimic. Tá sé ina chónaí i gCiarraí lena thuismitheoirí, agus gach Domhnach téann sé ar an traein go Corcaigh.\n\nTógann an turas 2 uair an chloig. Is maith le Seathrún an traein, mar bíonn am aige léamh agus smaoineamh. Ar an traein, tomhaiseann sé luas na traenach lena fhón. Inniu, thomhais sé an luas trí huaire: 80, 110 agus 130 ciliméadar san uair.\n\n“Is é 130 an luas is airde inniu,” a deir sé leis féin.\n\nAnsin léigh sé airteagal ar a fhón. Scríobh eolaí ó fhoras taighde i gCorcaigh an t-airteagal. Bhí an t-airteagal faoi chloig adamhacha.\n\nDe réir an airteagail, is iad na cloig adamhacha na cloig is fearr ar domhan. Tomhaiseann siad an t-am le cabhair ón adamh féin. Tá núicléas beag i lár gach adaimh, agus tá leictreoin timpeall ar an núicléas. Ní fheiceann aon duine an núicléas ná na leictreoin, ach tomhaiseann na cloig adamhacha an t-am leo.\n\nScríobh an t-eolaí freisin go bhfuil cloig adamhacha i satailítí os cionn an domhain. Insíonn na satailítí don fhón cá bhfuil sé, agus cén luas atá aige. Dá mbeadh na cloig sin mall fiú soicind amháin, ní bheadh a fhios ag an bhfón cá raibh sé.\n\n“Iontach!” a deir Seathrún. “Tá cloig adamhacha ag cabhrú le m'fhón luas na traenach a thomhas!”\n\nAg deireadh an airteagail, scríobh an t-eolaí go mbeadh caint aici san fhoras taighde Dé Máirt. Bhí spás do mhic léinn fisice agus ceimice.\n\nDé Máirt, chuaigh Seathrún go dtí an foras. D'éist sé leis an eolaí ar feadh uair an chloig. Ina dhiaidh sin, chuir sé ceist uirthi faoi luas na traenach. Rinne sí gáire.\n\n“Is fisic í sin freisin,” a deir sí.\n\nCeisteanna:\nCad atá Seathrún ag déanamh san ollscoil?\nTá sé ag déanamh staidéir ar fhisic agus ar cheimic.\nCad a thomhaiseann Seathrún ar an traein?\nTomhaiseann sé luas na traenach lena fhón.\nCé a scríobh an t-airteagal?\nScríobh eolaí ó fhoras taighde i gCorcaigh é.\nCad atá i lár gach adaimh?\nTá núicléas beag i lár gach adaimh.\nCá ndeachaigh Seathrún Dé Máirt?\nChuaigh sé go dtí an foras taighde, agus d'éist sé leis an eolaí."
+    },
+    {
+      "title": "Caoirigh ar an mbóthar",
+      "summary": "Ailill and his daughter Tuathla drive to a headland to see the waves; sheep block the road until a farmer's dog chases them into a field.",
+      "newWords": [
+        "caora",
+        "laghdaigh",
+        "ruaig",
+        "baol",
+        "dochar",
+        "ansiúd",
+        "rinn",
+        "tonn",
+        "dona"
+      ],
+      "text": "Tá Ailill agus a iníon, Tuathla, ar saoire i gCorca Dhuibhne. Bhí an aimsir go dona inné: bhí báisteach throm ann agus gaoth láidir. Inniu, tá an ghrian ag taitneamh.\n\n“Ba mhaith liom na tonnta móra a fheiceáil,” a deir Tuathla. “Bíonn na tonnta go hálainn an lá tar éis stoirme.”\n\nThiomáin siad siar go dtí rinn bheag ar imeall an chósta. Bhí an bóthar caol agus casta.\n\nTar éis 10 nóiméad, chonaic Ailill rud éigin bán ar an mbóthar. Caoirigh a bhí ann! Bhí fiche caora ar an mbóthar os a gcomhair. Laghdaigh Ailill luas an ghluaisteáin. Laghdaigh sé an luas arís, agus ansin stop sé.\n\n“An bhfuil baol ann do na caoirigh?” a d'fhiafraigh Tuathla.\n\n“Níl aon bhaol ann,” a deir a hathair. “Ní dhéanfaidh mé dochar dóibh. Fanfaimid go mbogfaidh siad.”\n\nAch níor bhog na caoirigh. D'fhan siad i lár an bhóthair, agus d'ith siad an féar ar imeall an bhóthair.\n\nAnsin tháinig feirmeoir óg agus madra dubh agus bán. Ruaig an madra na caoirigh den bhóthar isteach i bpáirc. Bhí sé tapa agus cliste, agus ní dhearna sé dochar d'aon chaora.\n\n“Gabh mo leithscéal,” a deir an feirmeoir le hAilill.\n\n“Ná bí buartha,” a deir Ailill. “Ní raibh aon dochar ann.”\n\n“Ruaigeann an madra na caoirigh gach lá,” a deir an feirmeoir, “ach bíonn siad ar ais ar an mbóthar an lá dar gcionn!”\n\nThiomáin siad ar aghaidh go dtí an rinn. D'fhág siad an gluaisteán agus shiúil siad tamall beag go dtí imeall na haille. Bhí na tonnta ollmhór. Bhuail na tonnta ar na carraigeacha faoin rinn.\n\n“Féach ansiúd!” a deir Tuathla. Chonaic sí ainmhí dubh san uisce idir na tonnta. “Rón! Agus féach ansiúd! Tá dhá rón eile ann!”\n\nD'fhan siad ar an rinn ar feadh uair an chloig. Ní raibh an aimsir go dona a thuilleadh, agus bhí áthas ar Thuathla.\n\nCeisteanna:\nConas a bhí an aimsir inné?\nBhí an aimsir go dona: bhí báisteach throm ann agus gaoth láidir.\nCad a chonaic Ailill ar an mbóthar?\nChonaic sé fiche caora ar an mbóthar.\nCad a rinne Ailill nuair a chonaic sé na caoirigh?\nLaghdaigh sé luas an ghluaisteáin, agus stop sé.\nCé a ruaig na caoirigh den bhóthar?\nRuaig madra an fheirmeora iad isteach i bpáirc.\nCad a chonaic Tuathla idir na tonnta?\nChonaic sí trí rón san uisce."
+    },
+    {
+      "title": "An bus deireanach",
+      "summary": "Rathnait and Dearbháil plan their buses so they can see a concert in Galway and still catch the last bus home to Connemara.",
+      "newWords": [
+        "ceolchoirm",
+        "guth",
+        "seinn",
+        "gile",
+        "slua",
+        "beartaigh",
+        "tosú",
+        "liath",
+        "lasmuigh"
+      ],
+      "text": "Tá Rathnait agus a cara, Dearbháil, ina gcónaí i sráidbhaile beag i gConamara. Beidh ceolchoirm mhór i nGaillimh Dé hAoine. Seinnfidh banna ceoil traidisiúnta, agus canfaidh amhránaí cáiliúil. Tá guth álainn ag an amhránaí, agus is breá le Rathnait agus Dearbháil a cuid amhrán.\n\nBeidh an cheolchoirm ag tosú ag a 8 a chlog. Ach tá fadhb ann: fágann an bus deireanach Gaillimh ag 10:30. Mura mbeidh siad ar an mbus sin, ní bheidh aon bhealach abhaile acu.\n\nBheartaigh siad an bus a fháil isteach go Gaillimh ag a 6 a chlog, ionas go mbeidís in am. Bheartaigh siad freisin go bhfágfaidís an cheolchoirm ag 10:15, dá mbeadh sí fós ar siúl.\n\nDé hAoine, bhí siad lasmuigh den halla ag a 7 a chlog. Bhí slua mór lasmuigh cheana féin. Bhí daoine óga agus daoine liatha sa slua, agus bhí gach duine ag caint faoin amhránaí.\n\nAg 7:30, osclaíodh na doirse, agus chuaigh an slua isteach. Bhí suíocháin ag Rathnait agus Dearbháil i dtosach an halla.\n\nAg a 8 a chlog, bhí an halla dorcha. Ní raibh solas ar bith sa halla ach gile na soilse ar an mbanna. Thosaigh an banna ag seinm. Ansin tháinig an t-amhránaí amach. Bean liath a bhí inti, 70 bliain d'aois, ach bhí a guth chomh láidir le guth duine óig.\n\nSheinn an banna agus chan an t-amhránaí ar feadh 2 uair an chloig. Ag 10:05, sheinn siad an t-amhrán deireanach. Ag 10:10, lasadh na soilse móra, agus bhí gile an lae sa halla arís.\n\n“Caithfimid imeacht anois!” a deir Dearbháil.\n\nChuaigh siad amach tríd an slua agus rith siad síos an tsráid go dtí an stad. Bhí an bus ann. Fuair siad suíocháin ar chúl an bhus.\n\n“Bhí sé go hiontach,” a deir Rathnait. “Bhí guth an amhránaí níos fearr fós ná mar a cheap mé.”\n\nCeisteanna:\nCén t-am a raibh an cheolchoirm ag tosú?\nBhí sí ag tosú ag a 8 a chlog.\nCén fáth ar bheartaigh siad an cheolchoirm a fhágáil ag 10:15?\nBheartaigh siad é sin ionas nach gcaillfidís an bus deireanach ag 10:30.\nCé a bhí sa slua lasmuigh den halla?\nBhí daoine óga agus daoine liatha sa slua.\nConas a bhí guth an amhránaí?\nBhí a guth chomh láidir le guth duine óig.\nAn bhfuair siad an bus?\nFuair. Bhí an bus ag an stad, agus fuair siad suíocháin ar chúl an bhus."
+    },
+    {
+      "title": "Léarscáil an bhaile",
+      "summary": "For a school project, Bríona and her grandfather Cearúl get an old map from the city council, find the old buildings of Limerick and draw a walking map.",
+      "newWords": [
+        "scála",
+        "siombail",
+        "nóta",
+        "ailtireacht",
+        "burg",
+        "samhail",
+        "aimsigh",
+        "bardas",
+        "maisigh"
+      ],
+      "text": "Tá Bríona 11 bliana d'aois, agus tá sí ag freastal ar scoil i Luimneach. Thug an múinteoir tionscadal don rang: léarscáil siúil a dhéanamh de lár an bhaile. Tá ailtireacht álainn i lár an bhaile: caisleán, droichead, tithe arda agus sráideanna caola.\n\nDé Sathairn, chuaigh Bríona agus a seanathair, Cearúl, go dtí oifig an bhardais. Thug bean san oifig léarscáil an-sean dóibh.\n\n“Rinne an bardas an léarscáil seo in 1850,” a deir sí. “Is féidir libh í a choinneáil ar feadh seachtaine.”\n\nBhí scála ag bun na léarscáile. Le cabhair an scála, thomhais Bríona fad na sráideanna. Bhí siombail ar an léarscáil do gach saghas foirgnimh: siombail amháin do theach, siombail eile do dhroichead.\n\nAnsin chuaigh siad go dtí an músaem. Bhí samhail bheag den bhaile ann, mar a bhí sé sa 13ú haois.\n\n“Bhí Luimneach ina bhurg an uair sin,” a deir Cearúl. “Baile beag a bhí ann, le balla timpeall air. Sa bhurg bhí margadh, caisleán agus cúpla céad teach.”\n\nD'fhéach Bríona ar an tsamhail ar feadh tamaill. Scríobh sí nóta ina leabhar faoin mballa agus faoin margadh.\n\nIna dhiaidh sin, shiúil siad trí lár an bhaile leis an léarscáil. Ar dtús, d'aimsigh siad an caisleán ar an léarscáil. Ansin d'aimsigh siad an caisleán féin, ar bhruach na habhann. D'aimsigh siad droichead an-sean agus teach ard ón 18ú haois freisin. Scríobh Bríona nóta faoin ailtireacht in aice le gach foirgneamh.\n\nSa bhaile, rinne Bríona a léarscáil féin. Chuir sí scála ag an mbun, agus chuir sí siombail ar an léarscáil do gach foirgneamh. Ansin mhaisigh sí an léarscáil le pictiúir bheaga agus dathanna geala. Mhaisigh Cearúl an teideal di.\n\nChuir an múinteoir an léarscáil ar an mballa sa rang. “Is léarscáil iontach í seo,” a deir sí.\n\nCeisteanna:\nCad é tionscadal an ranga?\nLéarscáil siúil a dhéanamh de lár an bhaile.\nCad a thug an bhean in oifig an bhardais dóibh?\nThug sí léarscáil an-sean dóibh ó 1850.\nCad a bhí sa mhúsaem?\nBhí samhail bheag den bhaile ann, mar a bhí sé sa 13ú haois.\nCad a bhí sa bhurg sa 13ú haois?\nBhí margadh, caisleán agus cúpla céad teach ann, le balla timpeall air.\nConas a mhaisigh Bríona a léarscáil?\nMhaisigh sí í le pictiúir bheaga agus dathanna geala."
+    },
+    {
+      "title": "Bus an chomhphobail",
+      "summary": "Retired Muircheartach drives the community bus in Cavan; one Tuesday he has a cold, and Máighréad looks after him and starts a collection for a new bus.",
+      "newWords": [
+        "comhphobal",
+        "scor",
+        "leasainm",
+        "slaghdán",
+        "easpa",
+        "bailigh",
+        "bailiú",
+        "cistin",
+        "rís"
+      ],
+      "text": "Tá Muircheartach 68 bliain d'aois, agus tá sé ar scor. Bhí sé ag tiomáint bus ar feadh 40 bliain, agus chuaigh sé ar scor 3 bliana ó shin. Anois, tá sé ina chónaí faoin tuath i gCabhán.\n\nTá easpa bus sa cheantar. Ní thagann an bus poiblí ach dhá uair sa lá. Mar sin, cheannaigh an comhphobal bus beag cúig bliana ó shin. Bíonn Muircheartach ag tiomáint bus an chomhphobail gach Máirt. Tá leasainm aige sa cheantar: “Muircheartach an Bhus”. Is maith leis an leasainm sin.\n\nGach Máirt, bailíonn Muircheartach daoine aosta óna dtithe ag a 10 a chlog. Tugann sé go dtí ionad an chomhphobail sa bhaile mór iad. Bíonn lón acu ansin. Déantar an lón i gcistin an ionaid.\n\nMáirt amháin, bhí slaghdán ar Mhuircheartach. Ach níor fhan sé sa bhaile. Bhailigh sé na daoine mar a dhéanann sé gach seachtain.\n\n“Tá slaghdán ort, a Mhuircheartaigh!” a deir Máighréad, nuair a tháinig sí isteach sa bhus. Tá sí 82 bliain d'aois.\n\n“Níl ann ach slaghdán beag,” a deir Muircheartach.\n\nAg an ionad, thug Máighréad isteach sa chistin é. Rinne sí cupán tae dó. Ansin d'ith siad lón le chéile: rís agus iasc. Is breá le Muircheartach rís.\n\n“Tá an bus sin an-sean,” a deir Máighréad. “Tá easpa airgid ar an gcomhphobal, ach ba cheart dúinn bus nua a cheannach. Ba cheart dúinn bailiú airgid a thosú!”\n\nAn tseachtain dar gcionn, chuir Máighréad bosca ar an mbord sa chistin. Rinneadh bailiú airgid gach Máirt ag am lóin. Bhailigh muintir an cheantair airgead freisin: rinne siad cácaí agus dhíol siad iad.\n\nTar éis 6 mhí, bhí go leor airgid ann. Ceannaíodh bus nua don chomhphobal. Rinne Máighréad lón speisialta: rís agus sicín. “Muircheartach an Bhus Nua” an leasainm atá air anois.\n\nCeisteanna:\nCén fáth a bhfuil bus ag an gcomhphobal?\nTá easpa bus sa cheantar, mar ní thagann an bus poiblí ach dhá uair sa lá.\nCén leasainm atá ar Muircheartach?\n“Muircheartach an Bhus” a thugann siad air.\nCad a dhéanann Muircheartach gach Máirt?\nBailíonn sé daoine aosta óna dtithe, agus tugann sé go dtí ionad an chomhphobail iad.\nCad a d'ith Muircheartach agus Máighréad sa chistin?\nD'ith siad rís agus iasc.\nCén fáth ar thosaigh Máighréad bailiú airgid?\nThosaigh sí bailiú airgid mar bhí an bus an-sean."
+    },
+    {
+      "title": "An chéad cheacht tiomána",
+      "summary": "Muirinn, who has little interest in cars, has her first driving lesson with Neachtan, takes a wrong turn and learns about the continuous white line.",
+      "newWords": [
+        "míniú",
+        "dírigh",
+        "gníomhaigh",
+        "mícheart",
+        "tagair",
+        "leanúnach",
+        "spéis",
+        "darb",
+        "arbh"
+      ],
+      "text": "Tá Muirinn 17 mbliana d'aois, agus tá sí ag foghlaim tiomána. Níl mórán spéise aici i ngluaisteáin, ach ba mhaith léi a bheith in ann dul go dtí an coláiste ina haonar. Tá an coláiste 20 ciliméadar óna teach, i mbaile darb ainm Ceanannas, agus níl bus ann.\n\nTá múinteoir tiomána aici darb ainm Neachtan. Tháinig sé go dtí an teach Dé Sathairn, i ngluaisteán beag gorm.\n\n“An é seo an chéad uair duit i suíochán an tiománaí?” a d'fhiafraigh sé.\n\n“Is ea,” a deir Muirinn.\n\n“Arbh fhearr leat tosú ar bhóthar ciúin?”\n\n“B'fhearr, cinnte!”\n\nAr dtús, thug Neachtan míniú di ar gach rud sa ghluaisteán. Bhí an míniú simplí agus soiléir. Ansin thosaigh sí ag tiomáint go mall.\n\n“Dírigh do shúile ar an mbóthar,” a deir Neachtan. “Ná féach ar do chosa.”\n\nDhírigh Muirinn a súile ar an mbóthar. Tar éis tamaill, tháinig madra amach ar an mbóthar. Ghníomhaigh Muirinn go tapa, agus stop sí an gluaisteán.\n\n“Go maith,” a deir Neachtan. “Caithfidh tú gníomhú go tapa mar sin.”\n\nAg an gcéad chúinne eile, chas Muirinn ar chlé. Ach bhí sé sin mícheart.\n\n“Ná bí buartha,” a deir Neachtan. “Ní fadhb mhór é. Is minic a bhíonn daoine mícheart sa chéad cheacht.”\n\nAr an mbóthar mór, bhí líne bhán leanúnach i lár an bhóthair. Thagair Neachtan don líne sin.\n\n“Ná téigh thar líne leanúnach riamh,” a deir sé. “Tá sé sin i leabhar rialacha an bhóthair. Tagraíonn gach múinteoir tiomána don leabhar sin.”\n\n“Arbh fhéidir liom an leabhar a fháil?”\n\n“Cinnte. Seo duit é.”\n\nAg an deireadh, bhí áthas ar Mhuirinn. Anois tá níos mó spéise aici sa tiomáint. Beidh ceacht eile aici le Neachtan an Satharn seo chugainn.\n\nCeisteanna:\nCén fáth a bhfuil Muirinn ag foghlaim tiomána?\nBa mhaith léi a bheith in ann dul go dtí an coláiste ina haonar.\nCad a thug Neachtan di ar dtús?\nThug sé míniú di ar gach rud sa ghluaisteán.\nCad a rinne Muirinn nuair a tháinig madra amach ar an mbóthar?\nGhníomhaigh sí go tapa, agus stop sí an gluaisteán.\nCad a bhí mícheart ag an gcúinne?\nChas sí ar chlé, ach bhí sé sin mícheart.\nCad a bhí i lár an bhóthair mhóir?\nBhí líne bhán leanúnach i lár an bhóthair."
+    },
+    {
+      "title": "Campa cois locha",
+      "summary": "Ádhamh and Fáilbhe travel to a summer camp by a lake in Monaghan, tie up a boat, find a beetle, write a short script and look at the universe at night.",
+      "newWords": [
+        "campa",
+        "ciaróg",
+        "babhta",
+        "píosa",
+        "bille",
+        "ceangail",
+        "script",
+        "pearsa",
+        "cruinne"
+      ],
+      "text": "Tá Ádhamh agus a chara Fáilbhe 12 bhliain d'aois. Tá siad ag dul go campa samhraidh ar feadh seachtaine. Tá an campa cois locha i Muineachán. Is í Saibh an múinteoir atá i bhfeighil an champa.\n\nChuaigh siad ar an traein agus ansin ar an mbus. Ní théann an bus go dtí an campa féin, mar sin shiúil siad píosa fada ar an mbóthar. Bhí a málaí trom.\n\nAg an gcampa, bhí bád beag ar an loch. “Ceangail an bád leis an gcé i gcónaí,” a deir Saibh. Cheangail Fáilbhe an bád go maith, agus cheangail Ádhamh an dara bád.\n\nAn lá dar gcionn, tháinig babhta báistí ag am lóin. Chuaigh gach duine isteach sa teach mór. Tar éis babhta báistí eile, tháinig an ghrian amach arís.\n\nSa teach, chonaic Fáilbhe ciaróg mhór dhubh ar an mbord. “Níl dúil agam i gciaróga!” a deir sé. Thóg Ádhamh an chiaróg go cúramach, agus chuir sé amach í ar an bhféar.\n\nAr an oíche dheireanach, bíonn seó ag an gcampa. Scríobh Ádhamh agus Fáilbhe script do dhráma beag. Tá trí phearsa sa dráma: ciaróg, bád agus caora. Is í an chiaróg an phearsa is tábhachtaí. Scríobh siad an script ar phíosa mór páipéir.\n\nAn oíche sin, chuir siad an dráma ar siúl. Rinne gach duine gáire mór nuair a tháinig an chiaróg amach.\n\nIna dhiaidh sin, chuaigh siad amach cois locha. Bhí an spéir glan, agus bhí na mílte réalta le feiceáil. “Sin é an chruinne,” a deir Saibh. “Tá an chruinne níos mó ná mar is féidir linn a shamhlú.”\n\nAr an mbealach abhaile, stop siad ag siopa. Cheannaigh gach duine uachtar reoite, agus d'íoc Saibh an bille. Bhí an bille ard, ach bhí sí sásta.\n\nCeisteanna:\nCá bhfuil an campa?\nTá an campa cois locha i Muineachán.\nCad a dúirt Saibh faoin mbád?\nDúirt sí an bád a cheangal leis an gcé i gcónaí.\nCad a chonaic Fáilbhe ar an mbord?\nChonaic sé ciaróg mhór dhubh ar an mbord.\nCé mhéad pearsa atá sa dráma?\nTá trí phearsa sa dráma: ciaróg, bád agus caora.\nCé a d'íoc an bille ag an siopa?\nD'íoc Saibh an bille."
+    }
+  ]
+}
