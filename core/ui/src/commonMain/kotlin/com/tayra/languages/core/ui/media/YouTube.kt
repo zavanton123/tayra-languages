@@ -60,7 +60,10 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
     /** Runs [script] in the page; its value as text (a JSON string for objects), or null. */
     protected abstract suspend fun evaluate(script: String): String?
 
-    private val ready = CompletableDeferred<Unit>()
+    private var ready = CompletableDeferred<Unit>()
+    /** Counts the pages this player has moved on to, so what was asked of an earlier one is asked again. */
+    private var page = 0
+    private var pendingPlay = false
     private val waiting = mutableMapOf<Int, CompletableDeferred<String?>>()
     private var nextId = 0
     private var poller: Job? = null
@@ -71,8 +74,33 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
     private var pendingSeek: Long? = null
 
     /** The page finished loading: the script that bridges it is put in. */
-    fun onPageLoaded() {
+    open fun onPageLoaded() {
         scope.launch { evaluate(YouTubeScripts.BRIDGE) }
+    }
+
+    /** YouTube won't embed this video: a platform that has another page to play it on goes there and says so. */
+    protected open fun openWatchPage(): Boolean = false
+
+    /** Loads YouTube's own page again, for a player whose subtitles need it; false where this is not that page. */
+    protected open fun reloadWatchPage(): Boolean = false
+
+    private fun startOver() {
+        page++
+        poller?.cancel()
+        ready.also { ready = CompletableDeferred() }.complete(Unit)
+        waiting.values.forEach { it.complete(null) }
+        waiting.clear()
+    }
+
+    private fun onRefused(code: Int) {
+        // The refused page says so more than once, and may still answer after the player has left it.
+        if (page > 0) return
+        if (openWatchPage()) {
+            startOver()
+        } else {
+            problem.value = youTubeProblem(code)
+            playing.value = false
+        }
     }
 
     /** A message the page posted (see [YouTubeScripts.BRIDGE]). */
@@ -81,9 +109,15 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
         when (message["type"]?.jsonPrimitive?.content) {
             "ready" -> if (ready.complete(Unit)) startPolling()
             "state" -> onState(message["state"]?.jsonPrimitive?.intOrNull ?: return)
+            "refused" -> onRefused(EMBEDDING_REFUSED)
             "error" -> {
-                problem.value = youTubeProblem(message["code"]?.jsonPrimitive?.intOrNull ?: 0)
-                playing.value = false
+                val code = message["code"]?.jsonPrimitive?.intOrNull ?: 0
+                if (code in REFUSED_CODES) {
+                    onRefused(code)
+                } else {
+                    problem.value = youTubeProblem(code)
+                    playing.value = false
+                }
             }
             "result" -> {
                 val id = message["id"]?.jsonPrimitive?.intOrNull ?: return
@@ -106,6 +140,10 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
 
     private fun startPolling() {
         pendingSeek?.let { at -> pendingSeek = null; seekTo(at) }
+        if (pendingPlay) {
+            pendingPlay = false
+            play()
+        }
         poller = scope.launch {
             while (isActive) {
                 read()
@@ -144,11 +182,13 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
         if (problem.value != null) return
         playing.value = true
         toldAt = TimeSource.Monotonic.markNow()
-        command("p.playVideo()")
+        if (!ready.isCompleted) pendingPlay = true
+        command("window.__tayraHold = false; p.playVideo(); var v = p.querySelector('video'); if (v && v.paused && p.classList.contains('ad-showing')) v.play()")
     }
 
     override fun pause() {
         playing.value = false
+        pendingPlay = false
         command("p.pauseVideo()")
         scope.launch { read() }
     }
@@ -186,13 +226,26 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
     }
 
     override suspend fun details(): YouTubeDetails? {
-        withTimeoutOrNull(READY_TIMEOUT_MS) { ready.await() } ?: return null.also { log.w { "the player never got ready" } }
-        val text = call("__tayra.details()", DETAILS_TIMEOUT_MS) ?: return null.also { log.w { "the player gave no details" } }
-        val root = runCatching { Json.parseToJsonElement(text) as? JsonObject }.getOrNull() ?: return null
-        if (root["refused"]?.jsonPrimitive?.booleanOrNull == true) {
-            problem.value = youTubeProblem(EMBEDDING_REFUSED)
-            return null
+        // A second time when the player has moved on to another page meanwhile.
+        repeat(2) {
+            val asked = page
+            withTimeoutOrNull(READY_TIMEOUT_MS) { ready.await() } ?: return null.also { log.w { "the player never got ready" } }
+            if (page != asked) return@repeat
+            val text = call("__tayra.details()", DETAILS_TIMEOUT_MS)
+            if (page != asked) return@repeat
+            if (text == null) return null.also { log.w { "the player gave no details" } }
+            val root = runCatching { Json.parseToJsonElement(text) as? JsonObject }.getOrNull() ?: return null
+            if (root["refused"]?.jsonPrimitive?.booleanOrNull == true) {
+                onRefused(EMBEDDING_REFUSED)
+                if (page != asked) return@repeat
+                return null
+            }
+            return parsedDetails(root)
         }
+        return null
+    }
+
+    private fun parsedDetails(root: JsonObject): YouTubeDetails? {
         if (root["playable"]?.jsonPrimitive?.booleanOrNull == false) return null
         val tracks = (root["tracks"] as? JsonArray).orEmpty().mapNotNull { element ->
             val o = element as? JsonObject ?: return@mapNotNull null
@@ -212,7 +265,17 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
     }
 
     override suspend fun captions(track: YouTubeTrack, translateTo: String?): Pair<String?, String?> {
-        withTimeoutOrNull(READY_TIMEOUT_MS) { ready.await() } ?: return null to null
+        val first = fetchCaptions(track, translateTo) ?: return null to null
+        if (first.first != null || !reloadWatchPage()) return first
+        // Having had its subtitles turned on, YouTube's own page asks for them by itself the next time it loads, token and all.
+        startOver()
+        return fetchCaptions(track, translateTo) ?: (null to null)
+    }
+
+    private suspend fun fetchCaptions(track: YouTubeTrack, translateTo: String?): Pair<String?, String?>? {
+        val asked = page
+        withTimeoutOrNull(READY_TIMEOUT_MS) { ready.await() } ?: return null
+        if (page != asked) return fetchCaptions(track, translateTo)
         // The player's own subtitle request carries the token YouTube asks for; it is made by turning its subtitles on.
         call("__tayra.token(${Json.encodeToString(String.serializer(), track.languageCode)})", TOKEN_TIMEOUT_MS)
         val url = Json.encodeToString(String.serializer(), track.url)
@@ -229,7 +292,8 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
         private const val READY_TIMEOUT_MS = 30_000L
         private const val DETAILS_TIMEOUT_MS = 20_000L
         private const val EMBEDDING_REFUSED = 150
-        private const val TOKEN_TIMEOUT_MS = 12_000L
+        private val REFUSED_CODES = setOf(101, 150, 152, 153)
+        private const val TOKEN_TIMEOUT_MS = 90_000L
     }
 }
 
@@ -243,8 +307,45 @@ object YouTubeScripts {
         "https://www.youtube-nocookie.com/embed/$id?controls=0&disablekb=1&playsinline=1&rel=0&iv_load_policy=3&fs=0" +
             "&enablejsapi=1&origin=${REFERRER.trimEnd('/')}" + (language?.let { "&hl=$it&cc_lang_pref=$it" } ?: "")
 
+    /** YouTube's own page of the video [id], for what it won't let the embedded player show. */
+    fun watchUrl(id: String, language: String?): String =
+        "https://www.youtube.com/watch?v=$id" + (language?.let { "&hl=$it&cc_lang_pref=$it" } ?: "")
+
     /**
-     * The bridge to the page: posts what happens (`ready`, `state`, `error`, `result`) through the
+     * Turns YouTube's own page of the video [id] into a player like the embedded one: only the player
+     * shows, filling the view, and without YouTube's controls, as the app has its own. It waits for the
+     * app's word to start, adverts too, and stays on this video when it ends. Adverts play as YouTube sends them.
+     */
+    fun watchPage(id: String): String = """
+        (function () {
+          if (window.__tayraWatch) return;
+          window.__tayraWatch = true;
+          window.__tayraHold = true;
+          var style = document.createElement('style');
+          style.textContent =
+            'html, body { overflow: hidden !important; background: #000 !important; }' +
+            '#movie_player { position: fixed !important; top: 0 !important; left: 0 !important; width: 100vw !important; height: 100vh !important; z-index: 2147483647 !important; background: #000; }' +
+            '#movie_player video { top: 0 !important; left: 0 !important; width: 100vw !important; height: 100vh !important; object-fit: contain !important; }' +
+            '#masthead-container, tp-yt-app-drawer, ytd-mini-guide-renderer, .ytp-chrome-top, .ytp-chrome-bottom, .ytp-gradient-top, .ytp-gradient-bottom, .ytp-pause-overlay, .ytp-ce-element, .ytp-endscreen-content, .ytp-autonav-endscreen-countdown-overlay, .ytp-cards-teaser, .iv-branding { display: none !important; }';
+          document.documentElement.appendChild(style);
+          setInterval(function () {
+            var p = document.getElementById('movie_player');
+            if (!p || !p.getPlayerState) return;
+            if (window.__tayraHold) {
+              if (p.getPlayerState() === 1) p.pauseVideo();
+              var video = p.querySelector('video');
+              if (video && !video.paused && p.classList.contains('ad-showing')) video.pause();
+            }
+            var cancel = document.querySelector('.ytp-autonav-endscreen-upnext-cancel-button');
+            if (cancel) cancel.click();
+            var data = p.getVideoData && p.getVideoData();
+            if (data && data.video_id && data.video_id !== '$id') p.cueVideoById('$id');
+          }, 100);
+        })()
+    """.trimIndent()
+
+    /**
+     * The bridge to the page: posts what happens (`ready`, `refused`, `state`, `error`, `result`) through the
      * platform's `TayraBridge.postMessage`, keeps the token of the player's own subtitle requests,
      * and offers `__tayra.status()`, `details()`, `token(lang)` and `track(url, tlang)`.
      */
@@ -260,9 +361,21 @@ object YouTubeScripts {
               else if (window.cefQuery) window.cefQuery({ request: text, onSuccess: function () {}, onFailure: function () {} });
             } catch (e) {}
           }
+          // The token of this video's subtitles only: an advert before it asks for its own.
           function keep(url) {
-            try { var pot = new URL(url, location.href).searchParams.get('pot'); if (pot) t.pot = pot; } catch (e) {}
+            try {
+              var asked = new URL(url, location.href).searchParams;
+              var here = new URL(location.href);
+              var video = here.searchParams.get('v') || here.pathname.split('/').pop();
+              if (asked.get('pot') && asked.get('v') === video) t.pot = asked.get('pot');
+            } catch (e) {}
           }
+          // For a request that passes the hooks below, sent with a copy of fetch the page took before they were in. Read as it is made: YouTube's page empties this record as it goes.
+          try {
+            new PerformanceObserver(function (list) {
+              list.getEntries().forEach(function (e) { if (e.name.indexOf('/api/timedtext') >= 0) keep(e.name); });
+            }).observe({ type: 'resource', buffered: true });
+          } catch (e) {}
           var open = XMLHttpRequest.prototype.open;
           XMLHttpRequest.prototype.open = function (method, url) {
             if (String(url).indexOf('/api/timedtext') >= 0) keep(String(url));
@@ -315,9 +428,34 @@ object YouTubeScripts {
           t.token = async function (lang) {
             if (t.pot) return t.pot;
             var p = t.player();
-            try { p.loadModule('captions'); p.setOption('captions', 'track', { languageCode: lang }); } catch (e) {}
-            for (var i = 0; i < 40 && !t.pot; i++) await sleep(250);
+            // On YouTube's own page the player asks for subtitles only once it plays, which is after any advert: muted, and paused again after.
+            var own = window.__tayraWatch;
+            var held = window.__tayraHold;
+            if (own) {
+              window.__tayraHold = false;
+              p.mute();
+              p.playVideo();
+              var video = p.querySelector('video');
+              if (video && video.paused) video.play().catch(function () {});
+              for (var w = 0; w < 300 && p.classList.contains('ad-showing'); w++) await sleep(250);
+            }
+            // The player's own entry for the track: a language code alone doesn't find automatic subtitles. Its list comes a moment after the module.
+            function turnOn() {
+              try {
+                p.loadModule('captions');
+                var list = p.getOption('captions', 'tracklist') || [];
+                p.setOption('captions', 'track', list.filter(function (x) { return x.languageCode === lang; })[0] || { languageCode: lang });
+              } catch (e) {}
+            }
+            // Off first: remembering subtitles as on, the player asks as the page loads, before it has a token, and gets nothing; it asks again only on a change.
+            function turnOff() { try { p.setOption('captions', 'track', {}); } catch (e) {} }
+            for (var i = 0; i < 40 && !t.pot; i++) {
+              if (own && i % 4 === 0) turnOff();
+              if (i % 4 === 1) turnOn();
+              await sleep(250);
+            }
             try { p.setOption('captions', 'track', {}); } catch (e) {}
+            if (own) { p.pauseVideo(); p.seekTo(0, true); p.unMute(); window.__tayraHold = held; }
             return t.pot;
           };
           t.track = async function (url, tlang) {
@@ -334,6 +472,10 @@ object YouTubeScripts {
               p.addEventListener('onStateChange', function (state) { post({ type: 'state', state: state }); });
               p.addEventListener('onError', function (code) { post({ type: 'error', code: code }); });
               post({ type: 'ready' });
+              (function refusedYet(looks) {
+                if (document.querySelector('.ytp-embed-error')) post({ type: 'refused' });
+                else if (looks < 120) setTimeout(function () { refusedYet(looks + 1); }, 500);
+              })(0);
             } else {
               setTimeout(wait, 200);
             }

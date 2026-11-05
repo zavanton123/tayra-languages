@@ -7,12 +7,14 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.key
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.withFrameMillis
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.awt.SwingPanel
 import co.touchlab.kermit.Logger
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.collectLatest
@@ -32,6 +34,7 @@ import org.cef.browser.CefFrame
 import org.cef.browser.CefMessageRouter
 import org.cef.browser.CefRendering
 import org.cef.callback.CefQueryCallback
+import org.cef.handler.CefLifeSpanHandlerAdapter
 import org.cef.handler.CefLoadHandlerAdapter
 import org.cef.handler.CefMessageRouterHandlerAdapter
 import org.cef.handler.CefRequestHandlerAdapter
@@ -75,7 +78,61 @@ internal object Jcef {
         }.onFailure { log.w(it) { "Chromium did not start" } }.getOrNull()
     }
 
-    fun client(): CefClient? = app?.createClient()
+    /** One client for every player, kept for the app's life, each player's browser told apart in its handlers. */
+    private val client: CefClient? by lazy { app?.createClient()?.also(::listen) }
+    private val players = ConcurrentHashMap<CefBrowser, JcefController>()
+
+    /** The videos YouTube has refused to embed, so they open on its own page at once from then on. */
+    val refused: MutableSet<String> = ConcurrentHashMap.newKeySet()
+
+    fun open(url: String, player: JcefController): CefBrowser? =
+        client?.createBrowser(url, CefRendering.DEFAULT, false)?.also { players[it] = player }
+
+    fun close(browser: CefBrowser) {
+        players.remove(browser)
+        runCatching { browser.close(true) }
+    }
+
+    private fun listen(client: CefClient) {
+        val router = CefMessageRouter.create()
+        router.addHandler(object : CefMessageRouterHandlerAdapter() {
+            override fun onQuery(browser: CefBrowser, frame: CefFrame, queryId: Long, request: String, persistent: Boolean, callback: CefQueryCallback): Boolean {
+                callback.success("")
+                players[browser]?.let { player -> java.awt.EventQueue.invokeLater { player.receive(request) } }
+                return true
+            }
+        }, true)
+        client.addMessageRouter(router)
+        // Whatever would open a window of its own (an advert's page, say) opens in the browser.
+        client.addLifeSpanHandler(object : CefLifeSpanHandlerAdapter() {
+            override fun onBeforePopup(browser: CefBrowser, frame: CefFrame, targetUrl: String?, targetFrameName: String?): Boolean {
+                targetUrl?.let { url -> runCatching { java.awt.Desktop.getDesktop().browse(java.net.URI(url)) } }
+                return true
+            }
+        })
+        client.addLoadHandler(object : CefLoadHandlerAdapter() {
+            override fun onLoadStart(browser: CefBrowser, frame: CefFrame, transitionType: CefRequest.TransitionType) {
+                if (frame.isMain) players[browser]?.onPageStarted()
+            }
+
+            override fun onLoadEnd(browser: CefBrowser, frame: CefFrame, httpStatusCode: Int) {
+                if (frame.isMain) players[browser]?.let { player -> java.awt.EventQueue.invokeLater { player.onPageLoaded() } }
+            }
+        })
+        // YouTube refuses an embedded player with no referrer ("error 153"); its page is asked for with the app's.
+        client.addRequestHandler(object : CefRequestHandlerAdapter() {
+            override fun getResourceRequestHandler(
+                browser: CefBrowser, frame: CefFrame, request: CefRequest, isNavigation: Boolean, isDownload: Boolean, requestInitiator: String?, disableDefaultHandling: BoolRef?,
+            ): CefResourceRequestHandler? = if (isNavigation) referrer else null
+        })
+    }
+
+    private val referrer = object : CefResourceRequestHandlerAdapter() {
+        override fun onBeforeResourceLoad(browser: CefBrowser, frame: CefFrame, request: CefRequest): Boolean {
+            if (request.url.startsWith("https://www.youtube-nocookie.com/embed/")) request.setReferrer(YouTubeScripts.REFERRER, CefRequest.ReferrerPolicy.REFERRER_POLICY_DEFAULT)
+            return false
+        }
+    }
 }
 
 /** A YouTube video or a video link in JetBrains Runtime's Chromium. */
@@ -91,7 +148,8 @@ internal fun JcefVideo(source: VideoSource, onController: (VideoController) -> U
         controller.playing.collectLatest { playing -> if (playing) while (isActive) withFrameMillis { controller.tick() } }
     }
     Box(modifier.background(MaterialTheme.colorScheme.inverseSurface)) {
-        controller.browser?.let { browser -> SwingPanel(factory = { browser.uiComponent }, modifier = Modifier.fillMaxSize()) }
+        // SwingPanel makes its view once: a new video's browser would never be shown, and so never start, without the key.
+        controller.browser?.let { browser -> key(browser) { SwingPanel(factory = { browser.uiComponent }, modifier = Modifier.fillMaxSize()) } }
     }
 }
 
@@ -99,49 +157,48 @@ internal fun JcefVideo(source: VideoSource, onController: (VideoController) -> U
  * The page driven as on the phones. Chromium's pages reach the app through `cefQuery`, which also
  * carries back the values of the scripts the app runs, as JCEF's own calls give none.
  */
-private class JcefController(scope: CoroutineScope, private val source: VideoSource) : WebYouTubeController(scope) {
-    private val client: CefClient? = Jcef.client()
+internal class JcefController(scope: CoroutineScope, private val source: VideoSource) : WebYouTubeController(scope) {
     private val answers = ConcurrentHashMap<Int, CompletableDeferred<String?>>()
     private val next = AtomicInteger(0)
+    private var onWatchPage = source is VideoSource.YouTube && source.id in Jcef.refused
     val browser: CefBrowser?
 
     init {
-        val router = CefMessageRouter.create()
-        router.addHandler(object : CefMessageRouterHandlerAdapter() {
-            override fun onQuery(browser: CefBrowser, frame: CefFrame, queryId: Long, request: String, persistent: Boolean, callback: CefQueryCallback): Boolean {
-                callback.success("")
-                java.awt.EventQueue.invokeLater { receive(request) }
-                return true
-            }
-        }, true)
-        client?.addMessageRouter(router)
-        client?.addLoadHandler(object : CefLoadHandlerAdapter() {
-            override fun onLoadEnd(browser: CefBrowser, frame: CefFrame, httpStatusCode: Int) {
-                if (frame.isMain) java.awt.EventQueue.invokeLater { onPageLoaded() }
-            }
-        })
-        // YouTube refuses an embedded player with no referrer ("error 153"); its page is asked for with the app's.
-        client?.addRequestHandler(object : CefRequestHandlerAdapter() {
-            override fun getResourceRequestHandler(
-                browser: CefBrowser, frame: CefFrame, request: CefRequest, isNavigation: Boolean, isDownload: Boolean, requestInitiator: String?, disableDefaultHandling: BoolRef,
-            ): CefResourceRequestHandler? = if (isNavigation) referrer else null
-        })
         val url = when (source) {
-            is VideoSource.YouTube -> YouTubeScripts.embedUrl(source.id, source.language)
+            is VideoSource.YouTube -> if (onWatchPage) YouTubeScripts.watchUrl(source.id, source.language) else YouTubeScripts.embedUrl(source.id, source.language)
             is VideoSource.Link -> linkPage(source.url).toURI().toString()
         }
-        browser = client?.createBrowser(url, CefRendering.DEFAULT, false)
+        browser = Jcef.open(url, this)
         if (browser == null) problem.value = VideoProblem.Failed("The video could not be played.")
     }
 
-    private val referrer = object : CefResourceRequestHandlerAdapter() {
-        override fun onBeforeResourceLoad(browser: CefBrowser, frame: CefFrame, request: CefRequest): Boolean {
-            if (request.url.startsWith("https://www.youtube-nocookie.com/embed/")) request.setReferrer(YouTubeScripts.REFERRER, CefRequest.ReferrerPolicy.REFERRER_POLICY_DEFAULT)
-            return false
-        }
+    override fun openWatchPage(): Boolean {
+        val video = source as? VideoSource.YouTube ?: return false
+        val page = browser ?: return false
+        if (onWatchPage) return false
+        onWatchPage = true
+        Jcef.refused += video.id
+        page.loadURL(YouTubeScripts.watchUrl(video.id, video.language))
+        return true
     }
 
-    private fun receive(text: String) {
+    override fun reloadWatchPage(): Boolean {
+        val page = browser?.takeIf { onWatchPage } ?: return false
+        page.reload()
+        return true
+    }
+
+    /** As early as can be, so YouTube's page is never seen around the player nor its video heard starting by itself. */
+    fun onPageStarted() {
+        if (onWatchPage && source is VideoSource.YouTube) browser?.executeJavaScript(YouTubeScripts.watchPage(source.id), browser.url, 0)
+    }
+
+    override fun onPageLoaded() {
+        onPageStarted()
+        super.onPageLoaded()
+    }
+
+    fun receive(text: String) {
         val message = runCatching { Json.parseToJsonElement(text) as? JsonObject }.getOrNull()
         val id = message?.get("evalId")?.jsonPrimitive?.intOrNull
         if (id == null) return onMessage(text)
@@ -182,8 +239,7 @@ private class JcefController(scope: CoroutineScope, private val source: VideoSou
     override fun release() {
         super.release()
         answers.values.forEach { it.complete(null) }
-        runCatching { browser?.close(true) }
-        runCatching { client?.dispose() }
+        browser?.let(Jcef::close)
     }
 
     private companion object {

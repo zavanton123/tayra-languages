@@ -4,6 +4,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlin.test.AfterTest
 import kotlin.test.Test
@@ -41,6 +42,70 @@ class YouTubeControllerTest {
             if (script.startsWith("window.__tayra ? __tayra.status()")) return "[12.5,1,243,1]"
             return null
         }
+    }
+
+    /** A page that refuses to embed, on a platform with YouTube's own page to go to when [movesOn]. */
+    private inner class RefusingPage(private val movesOn: Boolean) : WebYouTubeController(scope) {
+        var moves = 0
+
+        override fun openWatchPage(): Boolean {
+            if (!movesOn || moves > 0) return false
+            moves++
+            // The new page comes up a little later, while the old one may still answer.
+            scope.launch {
+                kotlinx.coroutines.delay(50)
+                onMessage("""{"type":"ready"}""")
+            }
+            return true
+        }
+
+        override suspend fun evaluate(script: String): String? {
+            val answer = Regex("""__tayra\.answer\((\d+), (.*)\)$""").find(script) ?: return null
+            val value = if (moves == 0) """{"refused":true}""" else """{"title":"Own page","author":"A","length":10,"playable":true,"tracks":[]}"""
+            onMessage("""{"type":"result","id":${answer.groupValues[1]},"value":${kotlinx.serialization.json.JsonPrimitive(value)}}""")
+            return null
+        }
+    }
+
+    @Test
+    fun aVideoThatMayNotBeEmbeddedIsAProblemWhereThereIsNoOtherPage() = runBlocking {
+        val page = RefusingPage(movesOn = false)
+        page.onMessage("""{"type":"ready"}""")
+        assertEquals(null, page.details())
+        assertEquals(VideoProblem.Failed("The owner of this video doesn't let it play outside YouTube."), page.problem.value)
+        page.release()
+    }
+
+    @Test
+    fun aVideoThatMayNotBeEmbeddedMovesOnOnceAndItsDetailsComeFromThere() = runBlocking {
+        val page = RefusingPage(movesOn = true)
+        page.onMessage("""{"type":"ready"}""")
+        val details = page.details()
+        page.onMessage("""{"type":"refused"}""")
+        assertEquals("Own page", details?.title)
+        assertEquals(1, page.moves)
+        assertEquals(null, page.problem.value)
+        page.release()
+    }
+
+    @Test
+    fun theRefusalCanArriveAsAMessageOrAnErrorCodeToo() = runBlocking {
+        val told = RefusingPage(movesOn = true)
+        told.onMessage("""{"type":"refused"}""")
+        told.onMessage("""{"type":"refused"}""")
+        assertEquals(1, told.moves)
+        assertEquals("Own page", told.details()?.title)
+        told.release()
+        val coded = RefusingPage(movesOn = true)
+        coded.onMessage("""{"type":"error","code":150}""")
+        assertEquals(1, coded.moves)
+        assertEquals(null, coded.problem.value)
+        coded.release()
+        val gone = RefusingPage(movesOn = true)
+        gone.onMessage("""{"type":"error","code":100}""")
+        assertEquals(0, gone.moves)
+        assertEquals(VideoProblem.Failed("This video is no longer on YouTube."), gone.problem.value)
+        gone.release()
     }
 
     @Test
