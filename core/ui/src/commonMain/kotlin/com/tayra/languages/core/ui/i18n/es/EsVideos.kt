@@ -90,4 +90,9 @@ internal val esVideos: Map<String, String> = mapOf(
     "Installing speech recognition: fetching {0}…" to "Instalando el reconocimiento de voz: descargando {0}…",
     "Installing speech recognition: unpacking…" to "Instalando el reconocimiento de voz: descomprimiendo…",
     "This kind of video can't be transcribed on an iPhone." to "Este tipo de vídeo no se puede transcribir en el iPhone.",
+    "Experimental features" to "Funciones experimentales",
+    "Turn on features that are still being built." to "Activa funciones que aún están en desarrollo.",
+    "Features" to "Funciones",
+    "Watch videos with their subtitles as text you can read and look up." to "Mira vídeos con los subtítulos como texto que puedes leer y consultar.",
+    "Videos aren't available on the web yet." to "Los vídeos aún no están disponibles en la web.",
 )

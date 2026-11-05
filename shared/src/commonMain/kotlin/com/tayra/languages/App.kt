@@ -8,6 +8,9 @@ import com.tayra.languages.core.ui.components.LocalTitleBarInset
 import com.tayra.languages.core.ui.components.LocalLearnedScript
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.ui.components.LocalFlashcardsDue
+import com.tayra.languages.core.ui.components.LocalVideosEnabled
+import com.tayra.languages.core.ui.isDebugBuild
+import com.tayra.languages.core.ui.media.videoSupported
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -191,7 +194,10 @@ fun App(titleBarInset: Dp = 0.dp) {
                             val due by remember(flashcards) { flashcards.observeDueCount() }.collectAsStateWithLifecycle(0)
                             val autoSync = koinInject<AutoSync>()
                             LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { autoSync.request() }
-                            CompositionLocalProvider(LocalFlashcardsDue provides due) {
+                            CompositionLocalProvider(
+                                LocalFlashcardsDue provides due,
+                                LocalVideosEnabled provides (videoSupported && isDebugBuild && settings.experimentalVideos),
+                            ) {
                                 Column {
                                     AppUpdateBanner()
                                     Box(Modifier.weight(1f)) { AppNavHost(openCourses) }

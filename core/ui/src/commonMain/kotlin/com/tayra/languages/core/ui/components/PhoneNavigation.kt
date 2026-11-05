@@ -28,7 +28,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
-import com.tayra.languages.core.ui.media.videoSupported
+import com.tayra.languages.core.ui.isDebugBuild
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppSpacing
@@ -88,11 +88,11 @@ private class MoreGroup(val title: String, val entries: List<MoreEntry>)
  * what is downloaded for use offline, and the preferences and data. The settings pages of a single
  * feature and clearing the data are found from Settings, which indexes them.
  */
-private val moreGroups = listOf(
+private fun moreGroups(videos: Boolean) = listOf(
     MoreGroup(
         "Read and listen",
         listOfNotNull(
-            MoreEntry("Videos", AppIcons.Movie, Route.Videos).takeIf { videoSupported },
+            MoreEntry("Videos", AppIcons.Movie, Route.Videos).takeIf { videos },
             MoreEntry("News", AppIcons.Newspaper, Route.News),
             MoreEntry("Playlists", AppIcons.QueueMusic, Route.Playlists),
             MoreEntry("Find books", AppIcons.Book, Route.FindBooks),
@@ -119,11 +119,12 @@ private val moreGroups = listOf(
     ),
     MoreGroup(
         "Preferences and data",
-        listOf(
+        listOfNotNull(
             MoreEntry("Settings", Icons.Default.Settings, Route.Settings),
             MoreEntry("Languages", AppIcons.Globe, Route.Languages),
             MoreEntry("Backups", AppIcons.UploadFile, Route.Backups),
             MoreEntry("About", Icons.Default.Info, Route.About),
+            MoreEntry("Experimental features", AppIcons.Lightbulb, Route.ExperimentalFeatures).takeIf { isDebugBuild },
         ),
     ),
 )
@@ -139,7 +140,7 @@ fun MoreSheet(onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
                 Text(tr("More"), Modifier.weight(1f), style = AppText.headline)
                 AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss)
             }
-            moreGroups.forEach { group ->
+            moreGroups(LocalVideosEnabled.current).forEach { group ->
                 Text(
                     tr(group.title).uppercase(),
                     Modifier.padding(top = AppSpacing.l, bottom = AppSpacing.xs),

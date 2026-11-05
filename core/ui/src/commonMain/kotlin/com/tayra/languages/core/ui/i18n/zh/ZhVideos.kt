@@ -90,4 +90,9 @@ internal val zhVideos: Map<String, String> = mapOf(
     "Installing speech recognition: fetching {0}…" to "正在安装语音识别：正在获取 {0}…",
     "Installing speech recognition: unpacking…" to "正在安装语音识别：正在解压…",
     "This kind of video can't be transcribed on an iPhone." to "此类视频无法在 iPhone 上转写。",
+    "Experimental features" to "实验性功能",
+    "Turn on features that are still being built." to "开启仍在开发中的功能。",
+    "Features" to "功能",
+    "Watch videos with their subtitles as text you can read and look up." to "观看视频，字幕以文本显示，可供阅读和查词。",
+    "Videos aren't available on the web yet." to "网页版暂不支持视频。",
 )

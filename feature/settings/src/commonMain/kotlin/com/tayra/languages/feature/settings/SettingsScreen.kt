@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.isDebugBuild
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.domain.service.TranslationEngine
@@ -230,6 +231,7 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
         SettingsPage(tr("Vocabulary"), tr("How much of the language you know already."), Route.VocabularySettings, AppIcons.Abc),
         if (compact) null else SettingsPage(tr("Keyboard shortcuts"), tr("Customise how you navigate and listen while reading."), Route.Shortcuts, AppIcons.Keyboard),
         SettingsPage(tr("About"), tr("The version of the app and where it comes from."), Route.About, Icons.Default.Info),
+        if (isDebugBuild) SettingsPage(tr("Experimental features"), tr("Turn on features that are still being built."), Route.ExperimentalFeatures, AppIcons.Lightbulb) else null,
     )
     val resources = listOf(
         SettingsPage(tr("Dictionaries"), tr("Manage offline word definitions and base-form lookup."), Route.OfflineDictionaries, AppIcons.MenuBook),
@@ -276,7 +278,7 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
 
 /** The pages the phone's More sheet lists, which a phone's settings index leaves out. */
 private val ON_MORE_SHEET = setOf<Route>(
-    Route.Languages, Route.About, Route.OfflineDictionaries, Route.Speech, Route.OfflineTranslation, Route.CoursePacks, Route.BookPacks, Route.Backups,
+    Route.Languages, Route.About, Route.ExperimentalFeatures, Route.OfflineDictionaries, Route.Speech, Route.OfflineTranslation, Route.CoursePacks, Route.BookPacks, Route.Backups,
 )
 
 /** The speech engine's short name, for the index: the system voices, Piper or Kokoro. */

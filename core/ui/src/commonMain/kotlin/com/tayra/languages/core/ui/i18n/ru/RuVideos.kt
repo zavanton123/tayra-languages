@@ -90,4 +90,9 @@ internal val ruVideos: Map<String, String> = mapOf(
     "Installing speech recognition: fetching {0}…" to "Установка распознавания речи: скачивание {0}…",
     "Installing speech recognition: unpacking…" to "Установка распознавания речи: распаковка…",
     "This kind of video can't be transcribed on an iPhone." to "Такое видео нельзя расшифровать на iPhone.",
+    "Experimental features" to "Экспериментальные функции",
+    "Turn on features that are still being built." to "Включите функции, которые ещё находятся в разработке.",
+    "Features" to "Функции",
+    "Watch videos with their subtitles as text you can read and look up." to "Смотрите видео с субтитрами в виде текста, который можно читать и переводить.",
+    "Videos aren't available on the web yet." to "Видео пока недоступны в веб-версии.",
 )

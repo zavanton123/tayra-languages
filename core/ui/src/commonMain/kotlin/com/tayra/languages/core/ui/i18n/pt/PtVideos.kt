@@ -90,4 +90,9 @@ internal val ptVideos: Map<String, String> = mapOf(
     "Installing speech recognition: fetching {0}…" to "Instalando o reconhecimento de fala: baixando {0}…",
     "Installing speech recognition: unpacking…" to "Instalando o reconhecimento de fala: descompactando…",
     "This kind of video can't be transcribed on an iPhone." to "Este tipo de vídeo não pode ser transcrito no iPhone.",
+    "Experimental features" to "Recursos experimentais",
+    "Turn on features that are still being built." to "Ative recursos que ainda estão em desenvolvimento.",
+    "Features" to "Recursos",
+    "Watch videos with their subtitles as text you can read and look up." to "Assista a vídeos com as legendas como texto que você pode ler e consultar.",
+    "Videos aren't available on the web yet." to "Os vídeos ainda não estão disponíveis na web.",
 )

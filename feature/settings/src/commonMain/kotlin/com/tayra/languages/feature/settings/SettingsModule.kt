@@ -60,4 +60,5 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
         )
     }
     composable<Route.About> { AboutScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
+    composable<Route.ExperimentalFeatures> { ExperimentalFeaturesScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
 }

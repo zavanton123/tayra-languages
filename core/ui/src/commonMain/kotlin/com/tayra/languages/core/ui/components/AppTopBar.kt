@@ -39,7 +39,7 @@ import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.ui.semantics.Role
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
-import com.tayra.languages.core.ui.media.videoSupported
+import com.tayra.languages.core.ui.isDebugBuild
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
@@ -52,17 +52,20 @@ enum class NavSection(val label: String) { HOME("Home"), COURSES("Courses"), BOO
 /** How many flashcards wait today, shown beside the Flashcards tab; provided at the root of the app. */
 val LocalFlashcardsDue = compositionLocalOf { 0 }
 
+/** Whether the menus offer videos: an experimental feature, turned on in debug builds; provided at the root of the app. */
+val LocalVideosEnabled = compositionLocalOf { false }
+
 /** [label] is English, shown through `tr`. */
 private data class MenuEntry(val label: String, val route: Route)
 
 /** [direct] groups have one destination, opened by the tab itself with no menu. */
 private data class MenuGroup(val section: NavSection, val entries: List<MenuEntry>, val direct: Boolean = false)
 
-private val menuGroups = listOfNotNull(
+private fun menuGroups(videos: Boolean) = listOfNotNull(
     MenuGroup(NavSection.HOME, listOf(MenuEntry("Home", Route.Home)), direct = true),
     MenuGroup(NavSection.COURSES, listOf(MenuEntry("Courses", Route.Courses)), direct = true),
     MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Books), MenuEntry("Create new book", Route.NewBook), MenuEntry("Find free books", Route.FindBooks), MenuEntry("Book archive", Route.ArchivedBooks))),
-    MenuGroup(NavSection.VIDEOS, listOf(MenuEntry("All videos", Route.Videos), MenuEntry("Add video", Route.NewVideo))).takeIf { videoSupported },
+    MenuGroup(NavSection.VIDEOS, listOf(MenuEntry("All videos", Route.Videos), MenuEntry("Add video", Route.NewVideo))).takeIf { videos },
     MenuGroup(NavSection.NEWS, listOf(MenuEntry("News", Route.News)), direct = true),
     MenuGroup(NavSection.PLAYLISTS, listOf(MenuEntry("Playlists", Route.Playlists)), direct = true),
     // Their settings are under Settings, with the others.
@@ -85,6 +88,7 @@ private val menuGroups = listOfNotNull(
             MenuEntry("Book packs", Route.BookPacks),
             MenuEntry("Backups", Route.Backups),
             MenuEntry("About", Route.About),
+            MenuEntry("Experimental features", Route.ExperimentalFeatures).takeIf { isDebugBuild },
         ),
     ),
 )
@@ -173,7 +177,7 @@ fun AppTopBar(
 @Composable
 private fun WideMenu(section: NavSection?, onNavigate: (Route) -> Unit) {
     Row(verticalAlignment = Alignment.CenterVertically) {
-        menuGroups.forEach { group ->
+        menuGroups(LocalVideosEnabled.current).forEach { group ->
             var open by remember { mutableStateOf(false) }
             // The dropdown anchors to its enclosing composable, so each tab gets its own Box.
             Box {

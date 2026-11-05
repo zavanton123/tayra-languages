@@ -109,6 +109,7 @@ class SettingsRepositoryImpl(
             currentLanguageId = store.getLong(Keys.CURRENT_LANGUAGE, defaults.currentLanguageId),
             themeId = store.getString(Keys.THEME, defaults.themeId),
             reduceMotion = store.getBoolean(Keys.REDUCE_MOTION, defaults.reduceMotion),
+            experimentalVideos = store.getBoolean(Keys.EXPERIMENTAL_VIDEOS, defaults.experimentalVideos),
             showLearningLevels = store.getBoolean(Keys.SHOW_LEARNING_LEVELS, defaults.showLearningLevels),
             statsSampleSize = store.getInt(Keys.STATS_SAMPLE_SIZE, defaults.statsSampleSize),
             readingFontScale = store.getFloat(Keys.FONT_SCALE, defaults.readingFontScale),
@@ -241,6 +242,7 @@ class SettingsRepositoryImpl(
         store.putLong(Keys.CURRENT_LANGUAGE, s.currentLanguageId)
         store.putString(Keys.THEME, s.themeId)
         store.putBoolean(Keys.REDUCE_MOTION, s.reduceMotion)
+        store.putBoolean(Keys.EXPERIMENTAL_VIDEOS, s.experimentalVideos)
         store.putBoolean(Keys.SHOW_LEARNING_LEVELS, s.showLearningLevels)
         store.putInt(Keys.STATS_SAMPLE_SIZE, s.statsSampleSize)
         store.putFloat(Keys.FONT_SCALE, s.readingFontScale)
@@ -328,6 +330,7 @@ class SettingsRepositoryImpl(
         const val CURRENT_LANGUAGE = "current_language_id"
         const val THEME = "current_theme"
         const val REDUCE_MOTION = "reduce_motion"
+        const val EXPERIMENTAL_VIDEOS = "experimental_videos"
         const val SHOW_LEARNING_LEVELS = "show_learning_levels"
         const val STATS_SAMPLE_SIZE = "stats_calc_sample_size"
         const val FONT_SCALE = "reading_font_scale"

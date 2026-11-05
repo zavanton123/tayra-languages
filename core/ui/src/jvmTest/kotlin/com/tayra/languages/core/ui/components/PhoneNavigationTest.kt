@@ -68,4 +68,20 @@ class PhoneNavigationTest {
         assertEquals(listOf<Route>(Route.Terms()), visited)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isEmpty() }
     }
+
+    @Test
+    fun theMoreSheetOffersVideosOnlyWhenTheyAreOn() = runDesktopComposeUiTest(width = 400, height = 900) {
+        var videos by mutableStateOf(false)
+        setContent {
+            MaterialTheme {
+                CompositionLocalProvider(LocalVideosEnabled provides videos) { MoreSheet(onNavigate = {}, onDismiss = {}) }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-News").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithTag("more-Videos").fetchSemanticsNodes().size)
+        // Tests run from the sources, which count as a debug build.
+        onNodeWithTag("more-Experimental features").assertExists()
+        videos = true
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-Videos").fetchSemanticsNodes().isNotEmpty() }
+    }
 }

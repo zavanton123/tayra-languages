@@ -90,4 +90,9 @@ internal val elVideos: Map<String, String> = mapOf(
     "Installing speech recognition: fetching {0}…" to "Εγκατάσταση αναγνώρισης ομιλίας: λήψη {0}…",
     "Installing speech recognition: unpacking…" to "Εγκατάσταση αναγνώρισης ομιλίας: αποσυμπίεση…",
     "This kind of video can't be transcribed on an iPhone." to "Αυτό το είδος βίντεο δεν μπορεί να απομαγνητοφωνηθεί σε iPhone.",
+    "Experimental features" to "Πειραματικές λειτουργίες",
+    "Turn on features that are still being built." to "Ενεργοποιήστε λειτουργίες που βρίσκονται ακόμα υπό ανάπτυξη.",
+    "Features" to "Λειτουργίες",
+    "Watch videos with their subtitles as text you can read and look up." to "Παρακολουθήστε βίντεο με τους υπότιτλους ως κείμενο που μπορείτε να διαβάζετε και να αναζητάτε.",
+    "Videos aren't available on the web yet." to "Τα βίντεο δεν είναι ακόμα διαθέσιμα στο web.",
 )
