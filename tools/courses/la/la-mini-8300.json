@@ -1,0 +1,198 @@
+{
+  "id": "la-mini-8300",
+  "rankUpTo": 8300,
+  "level": "C2",
+  "title": "Forma et artificium",
+  "description": "Ten stories and a column about design and craft: a bell for an old tower, long gloves, straw paper, a boat's rudder, a dry-stone wall, frost-proof tiles, form and use, a restored cart, willow baskets and rose water.",
+  "topic": "Design and craft",
+  "names": [
+    "Aesernia",
+    "Vorenus",
+    "Sertia",
+    "Maius",
+    "Capua",
+    "Cusinia",
+    "Tuccilla",
+    "Neapolis",
+    "Martius",
+    "Urbinum",
+    "Ocratius",
+    "Calavia",
+    "Iulius",
+    "Caieta",
+    "Fircellius",
+    "Remmius",
+    "October",
+    "Bellunum",
+    "Tampilius",
+    "Mamuria",
+    "Volcenius",
+    "Iguvium",
+    "Vibuleia",
+    "Ummia",
+    "Tarvisium",
+    "Petiedius",
+    "Gavidiena",
+    "September",
+    "Feltria",
+    "Laronilla",
+    "Mussidius",
+    "Cortona",
+    "Furfania",
+    "Rufria",
+    "Iunius",
+    "Africa",
+    "November"
+  ],
+  "lessons": [
+    {
+      "title": "Vox nova campanarii",
+      "summary": "In Aesernia a bell-founder and his daughter, an architect, make a new bell for the town's bell tower in its five-hundredth year.",
+      "newWords": [
+        "campanarium",
+        "quingentesimus",
+        "adnuntio",
+        "spectabilis",
+        "caementum",
+        "rectitudo",
+        "exsulto",
+        "perculsus",
+        "citharoedus"
+      ],
+      "text": "Aeserniae in foro veteri campanarium altum surgit, ex lapidibus quadratis aedificatum, quod incolae tamquam signum oppidi sui diligunt. Anno proximo campanarium annum quingentesimum celebrabit, nam anno 1527 aedificari coeptum est. Campana autem eius maior, quae per tot saecula horas oppido adnuntiaverat, hieme superiore rimam egit et nunc sonum asperum ac fractum reddit. Incolae igitur pecuniam contulerunt, ut nova campana fieret quae annum quingentesimum digne adnuntiaret.\n\nOpus Voreno mandatum est, qui prope oppidum officinam habet et iam quadraginta annos campanas fundit, sicut pater et avus eius ante eum fecerant. Filia eius Sertia, quae architecta est, prius campanarium ipsum inspicere voluit. «Campana nova gravior erit quam vetus», inquit. «Antequam eam suspendimus, scire debemus num turris tantum pondus ferre possit.»\n\nPer tres dies Sertia turrim cum instrumentis suis mensa est. Primum rectitudinem murorum probavit, et invenit campanarium, quamquam vetustum, mira rectitudine adhuc stare nec plus quam digitum in latus inclinari. Deinde caementum inter lapides inspexit. In parte summa caementum vetus pluviis et gelu exesum erat et inter digitos in pulverem redibat. Fabri igitur iussi sunt id eximere et rimas novo caemento explere. «Caementum turri est quod ossa corpori», dixit Sertia patri. «Si caementum firmum est, lapides alios quingentos annos manebunt.»\n\nInterim Vorenus formam campanae parabat. Primum formam ex argilla fecit, quam diu siccari passus est; deinde eam in fossam ante furnum demisit. Die constituto aes liquefactum, rubrum et fervens, in formam effusum est. Post aliquot dies, cum metallum refrixisset, formam fregit, et campana nova apparuit, fusca et nitida, floribus et litteris ornata. Res erat vere spectabilis, altior quam homo, et in margine eius inscriptum erat: «Annus quingentesimus».\n\nMense Maio campana machina magna in campanarium sublata est. Multi incolae, qui spectaculum tam spectabile videre cupiebant, in foro convenerant. Die festo, meridie, campana nova primum sonuit. Sonus eius clarus et plenus per vias oppidi ferebatur et meridiem adnuntiabat sicut olim vetus. Tum citharoedus quidam, Aeserniae natus, ante campanarium carmen vetus de oppido cecinit, et vox citharoedi cum sono citharae suaviter miscebatur. Pueri exsultabant, senes plaudebant, totum forum exsultabat. Vorenus autem tacitus stabat, perculsus. «Quadraginta annos campanas fundo», filiae dixit, «sed numquam vocem campanae meae in oppido meo audivi.» Sertia, et ipsa perculsa, patrem amplexa est.\n\nQuaestiones:\nQuem annum campanarium Aeserniae celebrabit?\nCampanarium annum quingentesimum celebrabit, quia anno 1527 aedificari coeptum est.\nCur nova campana facienda erat?\nQuia campana vetus rimam egerat et sonum asperum reddebat.\nQuid Sertia in turri probavit?\nRectitudinem murorum probavit et caementum inter lapides inspexit.\nQuomodo Vorenus campanam fecit?\nFormam ex argilla fecit et aes liquefactum in eam effudit.\nQuid citharoedus fecit?\nCitharoedus ante campanarium carmen vetus de oppido cecinit.\nCur Vorenus perculsus erat?\nQuia numquam antea vocem campanae suae in oppido suo audiverat."
+    },
+    {
+      "title": "Chirothecae longae",
+      "summary": "In Capua a young apprentice glove-maker learns to make long leather gloves that cover the forearm for a singer.",
+      "newWords": [
+        "chirotheca",
+        "lorum",
+        "antebrachium",
+        "agilis",
+        "praetexo",
+        "insertio",
+        "rudimentum",
+        "addisco"
+      ],
+      "text": "Capuae in via angusta officina parva est, in qua Cusinia iam triginta annos chirothecas ex corio conficit. Chirothecae eius non in fabrica fiunt, sed singulae manu, ad mensuram cuiusque emptoris. Superiore autumno Tuccilla, puella undeviginti annorum, ad eam venit ut artem disceret.\n\nPrimis mensibus Cusinia ei sola rudimenta tradidit: quomodo corium eligeretur, quomodo madidum extenderetur, quomodo forfice secaretur. «Rudimenta tibi tam nota esse debent quam nomen tuum», dicebat. «Qui rudimenta neglegit, numquam bonam chirothecam faciet.» Tuccilla diligenter laborabat, et digiti eius, qui primo tardi erant, paulatim agiles facti sunt.\n\nMense Martio cantatrix quaedam, quae in theatro Neapoli canit, chirothecas longas petivit, quae non solum manum, sed etiam totum antebrachium usque ad cubitum tegerent. Cusinia opus Tuccillae commisit. «Nunc aliquid novi addisces», inquit. «Chirotheca longa difficilior est quam brevis, nam antebrachium non ubique eadem latitudine est: prope manum tenue est, prope cubitum latius.» Tuccilla igitur antebrachium cantatricis pluribus locis mensa est et numeros in libello scripsit.\n\nDifficillima tamen erat insertio pollicis. Pollex enim non simpliciter ad latus chirothecae suitur, sed frustum corii singulare in foramen inseritur, ut digitus libere moveri possit. Si insertio male fit, pollex aegre movetur et corium mox rumpitur. Tuccilla insertionem ter temptavit; tertio demum digitis agilibus eam perfecit, et Cusinia, quae raro laudat, «Bene», inquit.\n\nDeinde magistra eam docuit quomodo summam chirothecam praetexeret. Margo enim, qui antebrachium amplectitur, taenia serica praetexitur, ne corium ibi asperum aut lacerum appareat. Tuccilla margines ambarum chirothecarum serico nigro praetexuit. Postremo prope manum lorum tenue addidit, ex eodem corio factum, quo chirotheca adstringi potest; lorum fibula parva argentea clauditur.\n\nCum cantatrix chirothecas induisset, bracchia lente movit et digitos flexit. «Nihil sentio», inquit, «quasi cutis mea esset.» Post eius discessum Cusinia Tuccillae locum ad mensam maiorem ostendit. «Rudimenta iam tenes», dixit. «Sed ars nostra numquam finitur: etiam ego post triginta annos cotidie aliquid addisco.»\n\nQuaestiones:\nQuid Cusinia Tuccillae primis mensibus tradidit?\nPrimis mensibus ei sola rudimenta artis tradidit.\nQuales chirothecas cantatrix petivit?\nChirothecas longas petivit, quae totum antebrachium usque ad cubitum tegerent.\nQuae pars operis difficillima erat?\nInsertio pollicis difficillima erat.\nQuomodo Tuccilla margines chirothecarum praetexuit?\nMargines serico nigro praetexuit.\nAd quid lorum prope manum servit?\nLorum servit ut chirotheca adstringi possit.\nQuid Cusinia de arte sua dixit?\nDixit se etiam post triginta annos cotidie aliquid addiscere."
+    },
+    {
+      "title": "Charta ex stramine",
+      "summary": "In Urbino a papermaker makes speckled golden paper from wheat straw and husks for a designer's invitations.",
+      "newWords": [
+        "macero",
+        "vegetalis",
+        "spica",
+        "gluma",
+        "conglobo",
+        "guttatus",
+        "affatim",
+        "redundantia"
+      ],
+      "text": "Urbini Ocratius officinam chartariam habet, in qua chartam manu facit, sicut ante sescentos annos fiebat. Sed charta eius non ex linteis veteribus, ut olim, fit, sed ex fibris vegetalibus: ex stramine, ex herbis, ex foliis. «Natura nobis fibras vegetales affatim praebet», dicere solet; «nos tantum eas colligere et intellegere debemus.»\n\nMense Iulio Calavia, quae libros et invitationes designat, ad eum venit. Chartam singularem petebat ad invitationes spectaculi picturarum. «Chartam volo quae non tam alba sit quam charta communis», inquit, «sed quasi agrum aestivum in se habeat.»\n\nOcratius eam in campum prope officinam duxit, ubi triticum iam messum erat. Stramen ibi affatim iacebat, et inter culmos multae spicae vacuae manebant. «Ex stramine et spicis chartam tuam faciemus», inquit. «Glumae, quae granum in spica tegebant, chartae colorem aureum dabunt.» Calavia et Ocratius duos saccos stramine et glumis impleverunt.\n\nIn officina Ocratius stramen in partes breves concidit et in magnis vasis aqua et calce maceravit. Per decem dies materia macerabatur, donec fibrae molles fierent. «Fibrae vegetales duriores sunt quam lintea», explicavit; «nisi stramen diu maceratur, charta aspera erit et fragilis.» Deinde fibras malleis ligneis tundebat, donec massa mollis facta est.\n\nHoc in opere periculum est ne fibrae in aqua conglobentur. Si enim fibrae conglobantur, charta nodos habet et inaequalis fit. Itaque Ocratius massam in labro magno aqua multa diluit et assidue miscet, ne quid conglobetur. Tum formam ligneam, reti tenui instructam, in labrum immergit et lente tollit, ut fibrae in reti aequaliter iaceant. Redundantia aquae per rete defluit; deinde folium inter pannos laneos premitur, ut etiam reliqua redundantia exprimatur.\n\nPost triduum Ocratius Calaviae folia siccata ostendit. Charta erat colore aureo, et ubique punctis parvis fuscis guttata: glumae enim non omnino solutae erant, sed in charta tamquam guttae manserant. «Charta guttata!» exclamavit Calavia. «Hoc est quod volebam: agrum aestivum.» Invitationes in charta guttata impressae sunt, et multi qui eas acceperunt Calaviam rogaverunt ubi talis charta inveniretur.\n\nQuaestiones:\nEx quibus rebus Ocratius chartam facit?\nEx fibris vegetalibus facit, ex stramine, ex herbis, ex foliis.\nQualem chartam Calavia petebat?\nChartam petebat quae non tam alba esset, sed quasi agrum aestivum in se haberet.\nQuid in campo affatim iacebat?\nStramen affatim iacebat, et inter culmos multae spicae vacuae manebant.\nCur stramen diu macerandum est?\nQuia fibrae vegetales durae sunt; nisi stramen diu maceratur, charta aspera fit.\nQuid fit si fibrae conglobantur?\nCharta nodos habet et inaequalis fit.\nCur charta guttata erat?\nQuia glumae in charta tamquam guttae parvae manserant."
+    },
+    {
+      "title": "Gubernum novum",
+      "summary": "In Gaeta an old boatbuilder makes a new rudder for a young fisherman, shaping it like a fish's fin while a storm keeps the boats in port.",
+      "newWords": [
+        "gubernum",
+        "scopulosus",
+        "pelagicus",
+        "ventralis",
+        "vastitas",
+        "sapienter",
+        "rabio",
+        "defessus"
+      ],
+      "text": "Caietae, in portu parvo, Fircellius naves ligneas aedificat et reficit. Septuaginta annos natus est, sed manus eius adhuc firmae sunt. Mense Octobri Remmius, piscator iuvenis, naviculam suam ad eum duxit. Gubernum eius ad saxa fractum erat, nam litus prope Caietam scopulosum est, et in vadis scopulosis navicula facile offendit.\n\nFircellius gubernum fractum diu inspexit. «Hoc gubernum vetus non reficiam», inquit, «sed novum faciam. Lignum enim ubique putre est.» Remmius autem festinabat: piscatum ire volebat, quia pisces pelagici, qui per aestatem in alto mari vagantur, eo tempore litori appropinquant. «Patientiam habe», dixit Fircellius. «Qui sapienter exspectat, saepius redit.»\n\nLignum quercus elegit et per tres dies serra et dolabra laboravit. Remmius cotidie veniebat et spectabat. Mirabatur quod Fircellius gubernum non planum, sed leniter curvatum faceret. «Formam a piscibus didici», explicavit senex. «Vide pinnas ventrales piscis: tenues sunt in margine, crassiores prope corpus, et aquam secant sine strepitu. Gubernum bonum similiter formatum est: sicut pinna ventralis piscem regit, ita gubernum naviculam.» Remmius, qui pisces cotidie capiebat, numquam pinnas ventrales tam diligenter consideraverat.\n\nInterea tempestas venit. Per duos dies ventus in alto rabiebat, et fluctus magni in saxa frangebantur. Nulla navis ex portu exibat; piscatores omnes domi manebant et retia reficiebant. «Nunc mare rabit», dixit Fircellius. «Si nunc in alto esses, gubernum fractum te non iuvaret. Sapienter igitur hic manes.»\n\nTertio die ventus cecidit. Fircellius, defessus sed laetus, gubernum novum naviculae aptavit. Remmius in mare exiit et cursum per vada scopulosa temptavit. Navicula facile et oboedienter vertebatur. Ultra saxa vastitas maris caerulei patebat, et in hac vastitate greges piscium pelagicorum argentei micabant. Vesperi Remmius cum piscibus multis in portum rediit, defessus et ipse, sed ridens, et partem piscium Fircellio dedit. «Tu sapienter exspectavisti», inquit senex, «et ego diligenter laboravi.»\n\nQuaestiones:\nCur gubernum naviculae fractum erat?\nQuia navicula ad saxa offenderat, nam litus prope Caietam scopulosum est.\nCur Remmius festinabat?\nQuia pisces pelagici eo tempore litori appropinquant.\nA quibus Fircellius formam guberni didicit?\nA piscibus didicit, praesertim a pinnis ventralibus.\nQuid per tempestatem factum est?\nVentus in alto rabiebat, et nulla navis ex portu exibat.\nQuid Remmius ultra saxa vidit?\nVastitatem maris caerulei et greges piscium pelagicorum vidit."
+    },
+    {
+      "title": "Murus siccus",
+      "summary": "Near Belluno a young mason who lifts too much by himself gets a small hernia, rests, and learns from his old master to work with a lever and with help.",
+      "newWords": [
+        "hernia",
+        "semetipsum",
+        "frustratio",
+        "langueo",
+        "reposco",
+        "benefacio",
+        "consecutivus",
+        "tetricus",
+        "iodum"
+      ],
+      "text": "Prope Bellunum, in colle, Tampilius murum siccum aedificat, id est murum ex lapidibus sine caemento compositum, qui agrum in clivo sustinet. Quattuor et viginti annos natus est. Artem a magistro sene Volcenio didicit, sed nunc primum solus opus suscepit, et omnibus ostendere volebat se iam artificem esse.\n\nItaque plus a semetipso exigebat quam corpus ferre poterat. Tres dies consecutivos ab aurora usque ad noctem laborabat, et lapides maximos sine auxilio levabat, quamquam magister eum semper monuerat ut vecte uteretur. «Nemo me adiuvare debet», dicebat secum. Quarto die, post tres dies consecutivos laboris, cum saxum ingens tolleret, dolorem acutum in imo ventre sensit.\n\nMedica Mamuria, femina tetrica sed benigna, eum inspexit. «Herniam habes», inquit voce tetrica, «parvam quidem, sed herniam. Hernia fit cum paries ventris pondere nimio cedit. Quies tibi necessaria est.» Eum ad chirurgum misit, qui herniam brevi et facili curatione sanavit; sed per sex hebdomades Tampilius nihil grave levare debebat. Manum quoque eius, cuius cutem lapides asperi abraserant, Mamuria iodo tinxit. Iodum leniter urebat, et Tampilius vultum contraxit.\n\nDomi Tampilius languebat. Corpus quidem quiescebat, sed animus eius plenus erat frustrationis. Murus dimidius in colle stabat, et pluviae autumnales imminebant. Cotidie e fenestra collem spectabat et frustrationem suam vix ferebat. «Languere non possum», matri dicebat. «Opus meum me reposcit.»\n\nTum Volcenius, cum rem audivisset, ei benefecit. Cum duobus nepotibus ad collem venit; nepotes lapides vecte et funibus movebant, Tampilius autem in sella sedens eis monstrabat ubi quisque lapis poneretur. «Lapides patientiam reposcunt, non vires solas», dixit senex. «Et qui se ab aliis adiuvari sinit, etiam sibi benefacit.»\n\nPost sex hebdomades Mamuria, voce iam minus tetrica, ei permisit ut opus resumeret. Murus mense Novembri perfectus est. Nunc Tampilius semper vecte utitur et lapides maiores cum socio levat. Didicit artificem bonum non ex eo cognosci quod omnia per semetipsum faciat, sed quod murum firmum relinquat.\n\nQuaestiones:\nQuid Tampilius aedificabat?\nMurum siccum ex lapidibus sine caemento aedificabat.\nCur Tampilius herniam habuit?\nQuia plus a semetipso exigebat et lapides maximos sine auxilio levabat.\nQualis erat medica Mamuria?\nMedica tetrica sed benigna erat.\nCur Tampilius domi languebat?\nQuia nihil grave levare debebat, et murus dimidius in colle stabat.\nQuomodo Volcenius ei benefecit?\nCum nepotibus venit, qui lapides vecte moverunt, dum Tampilius eis monstrabat."
+    },
+    {
+      "title": "Tegulae quadraticae",
+      "summary": "In Gubbio a ceramicist designs square tiles for an open terrace in the mountains that must survive frost.",
+      "newWords": [
+        "zirconium",
+        "kalium",
+        "quadraticus",
+        "congelatio",
+        "vitio",
+        "concordantia",
+        "scrupulus",
+        "visivus"
+      ],
+      "text": "Iguvii, in oppido vetere inter montes sito, Vibuleia officinam habet, in qua vasa et tegulas ex argilla facit et pingit. Hieme superiore Ummia, quae deversorium parvum in colle vicino tenet, ad eam venit. Volebat aream apertam ante deversorium tegulis quadraticis sterni, triginta fere metra quadratica, quas ipsa Vibuleia pingeret.\n\nVibuleia primum de frigore cogitavit. «Hic in montibus hiems aspera est», inquit. «Tegulae quae sub caelo aperto iacent semper periculum congelationis subeunt. Aqua enim in minima foramina argillae penetrat; cum congelatio fit, aqua in glaciem versa maius spatium occupat et tegulam findit. Sic una nocte frigida tota area vitiari potest.» Itaque argillam elegit quae in furno calidissimo coqui potest et paucissima foramina habet.\n\nSed etiam optima argilla diligenter parari debet. Vibuleia eam aqua diluit et per rete tenue colavit, ut omnes scrupulos eximeret. «Unus scrupulus parvus satis est», explicavit Ummiae, «ut tegula in furno rumpatur aut postea frigore vitietur. Scrupuli enim calore aliter se dilatant quam argilla quae eos circumdat.»\n\nDeinde de coloribus cogitavit. Ummia colores caeli et silvae volebat: caeruleum, viridem, album. Ad album Vibuleia zirconium adhibet: pulvis zirconii vitro admixtus colorem album, densum et purum dat, qui sole non mutatur. Ut vitrum autem in furno facilius fluat, kalium addit, quod in cinere lignorum invenitur. «Sine kalio», inquit, «vitrum crassum et obscurum maneret; cum kalio colores clarius lucent.»\n\nViginti tegulas quadraticas probationis causa pinxit et in pariete officinae disposuit, ut effectum visivum totius areae prius videret. «Singula tegula pulchra esse potest», dixit, «sed effectus visivus totius operis a concordantia colorum pendet. Ubi concordantia deest, oculus numquam quiescit.» Diu tegulas movebat, donec Ummia et ipsa consensit: caeruleae in medio, virides circa marginem, albae quasi lineae inter eas.\n\nVere tegulae coctae et in area dispositae sunt. Hieme sequenti multae noctes gelidae fuerunt et nix diu iacuit, sed frigus nullam tegulam vitiare potuit. Hospites deversorii, cum aream e fenestris spectarent, effectum visivum laudabant, et Ummia Vibuleiae scripsit aream mane, cum sol nivem liquefaceret, tanta concordantia colorum lucere ut etiam pulchrior esset quam aestate.\n\nQuaestiones:\nQuales tegulas Ummia volebat?\nTegulas quadraticas volebat, quas ipsa Vibuleia pingeret.\nCur congelatio tegulis periculosa est?\nQuia aqua in foraminibus in glaciem versa maius spatium occupat et tegulam findit.\nCur Vibuleia scrupulos ex argilla eximit?\nQuia unus scrupulus satis est ut tegula rumpatur aut frigore vitietur.\nAd quid Vibuleia zirconium et kalium adhibet?\nZirconium ad colorem album adhibet, kalium ut vitrum facilius fluat.\nCur tegulas probationis in pariete disposuit?\nUt effectum visivum totius areae prius videret."
+    },
+    {
+      "title": "Forma et usus",
+      "summary": "A designer's column on how form and use depend on each other, with an anecdote about a chair-maker and a plea for things that can be repaired.",
+      "newWords": [
+        "dualitas",
+        "dependentia",
+        "cosmos",
+        "aeternitas",
+        "anecdotum",
+        "promotor",
+        "proprietarius",
+        "intemperans"
+      ],
+      "text": "Cum adulescens artem designandi discerem, magister meus saepe dicebat formam et usum esse quasi duos fratres qui eandem domum habitant. Haec dualitas, quae in omni re ab homine facta apparet, mihi diu molesta videbatur. Putabam enim alterum alteri cedere debere: aut sellam pulchram esse aut commodam, aut lucernam elegantem aut utilem. Nunc autem intellego dualitatem illam non certamen esse, sed dependentiam mutuam. Forma ab usu pendet, usus a forma; et haec dependentia est quam artifex bonus manibus sentit, etiam si verbis explicare non potest.\n\nApud veteres verbum cosmos non solum mundum significabat, sed etiam ordinem et ornatum. Mihi semper placuit quod idem verbum et universum stellarum et ornamentum quod femina gerit indicabat. Cosmos enim est ordo qui simul pulcher et utilis est: stellae non temere sparsae sunt, sed suo quaeque loco moventur. Res bene facta parvus cosmos est, in quo nihil abundat et nihil deest.\n\nAnecdotum hic narrare velim quod a magistro meo audivi. Faber quidam lignarius, cum sellam emptori traderet, ab eo interrogatus est cur partem sellae inferiorem, quam nemo umquam videret, tam diligenter polivisset quam superiorem. «Tu eam non videbis», respondit faber, «sed sella sentiet.» Anecdotum breve est, sed totam artem continet: forma bona non tantum oculis placet, sed rem ipsam firmiorem et diuturniorem facit.\n\nAntiqui pontes et aquae ductus quasi pro aeternitate struebant, et multi eorum adhuc stant. Nos contra plerumque res facimus quas post paucos annos abicimus. Non contendo omnia ad aeternitatem fieri debere; aeternitas enim nimis magna mensura est pro poculo aut calceo. Sed inter aeternitatem et unum annum spatium latum est, et in hoc spatio designatores laborare debent.\n\nHodie multae machinae ex partibus proprietariis constant, quas solus fabricator vendere et mutare potest. Si una pars proprietaria frangitur, saepe tota machina abicitur, quia faber vicinus eam reficere non potest. Promotores rerum novarum nobis cotidie promittunt quamque rem novam meliorem esse quam priorem; sed promotor rem vendit, non usum. Usus intemperans rerum novarum, quas emimus et mox abicimus, terram nostram onerat.\n\nItaque iuvenibus designatoribus idem dico quod magister mihi dixit: formam et usum quasi fratres tractate. Vitate ornatum intemperantem, qui rem gravat neque iuvat, et facite res quas homines reficere possint. Sic etiam parva res, sella vel lucerna, cosmos fiet.\n\nQuaestiones:\nQuid magister de forma et usu dicebat?\nDicebat formam et usum esse quasi duos fratres qui eandem domum habitant.\nQuid auctor nunc de dualitate formae et usus intellegit?\nIntellegit dualitatem non certamen esse, sed dependentiam mutuam.\nQuid verbum cosmos apud veteres significabat?\nNon solum mundum, sed etiam ordinem et ornatum significabat.\nQuid faber in anecdoto respondit?\nRespondit emptorem partem inferiorem non visurum esse, sed sellam eam sensuram esse.\nCur partes proprietariae molestae sunt?\nQuia solus fabricator eas mutare potest, et si una frangitur, tota machina saepe abicitur."
+    },
+    {
+      "title": "Carpentum restitutum",
+      "summary": "In a museum of country life near Treviso a wheelwright restores an old two-wheeled cart, and on the museum's open day children draw lots to ride in it.",
+      "newWords": [
+        "carpentum",
+        "bura",
+        "multidentatus",
+        "iuba",
+        "sortior",
+        "semis",
+        "callis",
+        "infantulus"
+      ],
+      "text": "Tarvisii, in museo vitae rusticae, Petiedius, faber rotarum et vehiculorum, instrumenta vetera agricolarum reficit. Hoc anno carpentum vetus restituit, quod per triginta annos in horreo iacuerat. Carpentum est vehiculum leve duabus rotis, quo olim agricolae cum familia in mercatum vehebantur. Cum Petiedius id invenit, rotae fractae, axis putris, sedes lacerata erant.\n\nQuodam die Gavidiena cum infantulo suo museum visitavit. Infantulus in sacco ad pectus matris dormiebat, et mater lente per officinam ambulabat, ne eum excitaret. Petiedius tum rotam novam carpenti faciebat. «Haec rota alta est quattuor pedes et semis», explicavit, «tota ex ligno ulmi, cum radiis duodecim.» Radios serra multidentata secabat, quae avo eius fuerat. «Serra multidentata lentius secat quam machina», inquit, «sed lignum non urit.»\n\nIuxta carpentum aratrum vetus stabat. Gavidiena lignum longum et curvatum aratri monstravit. «Quid est hoc?» rogavit. «Bura est», respondit Petiedius, «lignum quod aratrum cum iugo boum coniungit. Bura bona ex uno ligno fit, quod sua sponte curvatum crevit; nam lignum vi flexum mox rumpitur. Avus meus totas silvas perambulabat ut buram idoneam inveniret.»\n\nMense Septembri carpentum perfectum est: rotae novae, sedes ex corio, colores rubri et caerulei ut olim. Ad diem festum musei equa fusca adducta est, cuius iuba longa et alba erat. Pueri iubam eius taeniis variis ornaverant. Carpentum equae iunctum est, et Petiedius ipse lora tenuit.\n\nMulti pueri in carpento vehi volebant, sed duo tantum simul sedere poterant. Itaque Petiedius eos sortiri iussit: nomina in pileo posuit, et ordo sortiendo constitutus est. Puella parva, quae primum locum sortitur, exsultat et plaudit.\n\nCarpentum per callem angustam inter agros et vineas lente procedebat. Callis inaequalis erat, sed rotae novae lapides facile superabant. Gavidiena post carpentum ambulabat; infantulus iam experrectus iubam albam equae spectabat et manum parvam ad eam tendebat. Vesperi, cum omnes pueri vecti essent, Petiedius carpentum per eandem callem in horreum reduxit, defessus et contentus.\n\nQuaestiones:\nQuid est carpentum?\nCarpentum est vehiculum leve duabus rotis, quo olim agricolae in mercatum vehebantur.\nQuam alta est rota nova?\nRota nova alta est quattuor pedes et semis.\nQuid est bura?\nBura est lignum aratri curvatum, quod aratrum cum iugo boum coniungit.\nQuomodo constitutum est quis primus veheretur?\nPetiedius pueros sortiri iussit, et ordo sortiendo constitutus est.\nQuid infantulus faciebat dum carpentum per callem procedebat?\nIubam albam equae spectabat et manum ad eam tendebat."
+    },
+    {
+      "title": "Corbes ex virgultis",
+      "summary": "Near Feltre a grandmother and her grandson cut willow shoots at dawn and weave a lidded chest, a basket for mushrooms and small baskets for a neighbour's cheese.",
+      "newWords": [
+        "virgultus",
+        "riscus",
+        "motacilla",
+        "ros",
+        "clusilis",
+        "gestabilis",
+        "boletus",
+        "coagulatio"
+      ],
+      "text": "Prope Feltriam, in valle viridi, Laronilla, femina septuaginta annorum, corbes et riscos ex virgultis salicis texit, sicut mater eius olim. Quodam mane autumnali nepos eius Mussidius cum ea ad rivum ivit ut virgulta secarent. Sol vix ortus erat, et ros multus herbam operiebat; calcei eorum mox rore madidi erant. In lapidibus rivi motacilla parva saliebat et caudam longam assidue movebat. «Motacilla semper caudam quatit», dixit Laronilla, «quasi numquam quiescere possit.» Mussidius motacillam diu spectabat, dum avia virgulta secabat.\n\nVirgulta salicis tenuia et flexilia sunt; Laronilla ea tantum secat quae unum annum creverunt. «Virgulta vetera fragilia sunt», explicavit, «nova autem se flectunt sicut fila.» Domum reversi, virgulta in fasces ligaverunt et in aqua maceraverunt, ut molliora fierent.\n\nPrimum Laronilla riscum magnum texuit, in quo lintea servarentur. Riscus clusilis esse debebat, ne pulvis aut mures intrarent; itaque operculum fecit quod duobus loris et fibula lignea clauditur. «Riscus clusilis», inquit, «domum ordinatam servat. Etiam corbes clusiles in hac valle semper amati sunt.»\n\nDeinde corbem parvum et gestabilem fecit, cum ansa curva, quem Mussidius in silvam ferre posset. Corbis gestabilis leviter in bracchio pendet, et per virgulta aer libere transit. «Boleti in sacco corrumpuntur», dixit avia, «in corbe ex virgultis recentes manent.» Postridie Mussidius cum corbe gestabili in silvam ivit et post duas horas cum boletis multis rediit; boletos in mensa disposuerunt et partem eorum in sole siccaverunt.\n\nPostremo Laronilla corbes minimos vicinae suae fecit, quae caseum mollem facit. Vicina lac tepefacit et aliquid suci acidi addit; coagulatione facta, massam albam in corbes parvos ponit, ut umor per virgulta effluat. «Coagulatio celeris est», dixit vicina, «sed sine bonis corbibus caseus noster formam non haberet.»\n\nVesperi Mussidius riscum avia adiuvante perfecit et operculum ipse aptavit. Postero mane, cum ros iterum in herba iaceret, motacilla in limine domus apparuit, quasi opus inspicere vellet.\n\nQuaestiones:\nQuid Laronilla ex virgultis texit?\nCorbes et riscos ex virgultis salicis texit.\nQuid in herba erat cum ad rivum irent?\nRos multus herbam operiebat.\nCur riscus clusilis esse debebat?\nNe pulvis aut mures intrarent.\nCur boleti in corbe gestabili recentes manent?\nQuia per virgulta aer libere transit.\nQuid post coagulationem fit?\nVicina massam albam in corbes parvos ponit, ut umor per virgulta effluat."
+    },
+    {
+      "title": "Aqua rosacea",
+      "summary": "In Cortona a perfumer shows a young cook how rose water is distilled, explains how smell shapes taste, and gives her a wooden spoon.",
+      "newWords": [
+        "destillatio",
+        "laserpicium",
+        "gustatus",
+        "affluentia",
+        "temperies"
+      ],
+      "text": "Cortonae, in colle soli aperto, Furfania hortum et officinam parvam habet, ubi aquas odoratas et unguenta conficit. Temperies huius regionis floribus apta est: hiemes mites, aestates calidae sed non aridae. «Sine hac temperie», dicere solet, «rosae meae non tam suaviter olerent.» Etiam vicini eius temperiem collis laudant, quod herbae ibi odoratae sponte crescunt.\n\nMense Iunio affluentia florum tanta est ut Furfania vix sufficiat. Mane, dum ros adhuc in foliis est, rosas carpit, nam calore diei odor evanescit. Eo anno Rufria, coqua iuvenis, quae in deversorio Cortonae dulcia parat, ad eam venit, quia aquam rosaceam ad placentas quaerebat. Cum hortum vidisset, affluentiam rosarum mirata est.\n\nFurfania ei destillationem monstravit. In vas magnum aeneum rosas et aquam posuit et ignem lenem subiecit. Vapor, qui ex aqua fervente surgebat, odorem florum secum ferebat et per tubum longum in vas alterum frigidum ducebatur, ubi in guttas redibat. «Destillatio patientiam postulat», dixit. «Si ignis nimius est, aqua odorem combustum accipit, et tota destillatio vitiatur.»\n\nDum guttae lente cadunt, Rufria quaesivit cur odor tanti momenti esset ad cibum. «Gustatus noster magna ex parte ab odoratu pendet», respondit Furfania. «Si nares clauseris, malum vix a piro distingues. Gustatus linguae dulce et salsum et amarum discernit, sed reliqua omnia nasus addit.» Rufria rem temptavit et risit: re vera, naribus clausis, gustatus eius paene caecus erat.\n\nFurfania etiam de laserpicio narravit, de quo in libris veterum legerat. Laserpicium erat sucus plantae quae olim in Africa crescebat et a coquis et medicis tanti aestimabatur ut paene pondere argenti venderetur. «Planta ipsa iam diu e terris evanuit», inquit, «neque scimus quem odorem laserpicium vere habuerit. Itaque flores nostros curare debemus, dum eos habemus.»\n\nPostremo unguentum ex oleo, cera et aqua rosacea paravit. Massam calidam cochleari ligneo diu miscebat, donec mollis et alba fieret; deinde eodem cochleari unguentum in vascula parva immisit. Rufria domum rediit cum ampulla aquae rosaceae et cochleari parvo, quam Furfania ei dono dederat ad dulcia sua miscenda.\n\nQuaestiones:\nCur temperies Cortonae floribus apta est?\nQuia hiemes mites sunt et aestates calidae sed non aridae.\nQuando Furfania rosas carpit?\nMane carpit, dum ros adhuc in foliis est.\nQuomodo destillatio fit?\nVapor ex aqua fervente per tubum in vas frigidum ducitur, ubi in guttas redit.\nQuid Furfania de gustatu dixit?\nDixit gustatum nostrum magna ex parte ab odoratu pendere.\nQuid erat laserpicium?\nLaserpicium erat sucus plantae quae olim in Africa crescebat.\nAd quid Furfania cochleari ligneo utebatur?\nCochleari ligneo unguentum miscebat et in vascula immittebat."
+    }
+  ]
+}
