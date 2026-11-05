@@ -1,0 +1,189 @@
+{
+  "id": "la-mini-2400",
+  "rankUpTo": 2400,
+  "level": "B2",
+  "title": "Scientia et technologia",
+  "description": "Ten everyday stories about science and technology: a translation program, a self-driving car, eagles and crabs, unusual materials, healing herbs, a museum internship, the sun, a modern farm and a runner's training.",
+  "topic": "Science and technology",
+  "names": [
+    "Avianius",
+    "Mindia",
+    "Bononia",
+    "Lutatia",
+    "Albius",
+    "Turicum",
+    "Matidia",
+    "Petilius",
+    "Edinburgum",
+    "Hordeonia",
+    "Caedicius",
+    "Olisipo",
+    "Rubrius",
+    "Vedia",
+    "Monacum",
+    "Cartilia",
+    "Critonia",
+    "Patavium",
+    "Novanius",
+    "Maesia",
+    "Vindobona",
+    "Volcacia",
+    "Fadius",
+    "Lugdunum",
+    "Camerius",
+    "Pollia",
+    "Verona",
+    "Vinicius",
+    "Luria",
+    "Mediolanum"
+  ],
+  "lessons": [
+    {
+      "title": "Mens artificialis",
+      "summary": "A retired Latin teacher tests his granddaughter's translation program, finds that it confuses the genitive, and helps it learn.",
+      "newWords": [
+        "artificialis",
+        "genetivus",
+        "sequentia",
+        "determino",
+        "tribuo",
+        "paradoxum",
+        "reapse",
+        "arbitrium"
+      ],
+      "text": "Avianius per quadraginta annos linguam Latinam in schola docuit; nunc senex Bononiae vivit. Mindia, filia filii eius, in societate laborat quae programma mentis artificialis facit. Hoc programma sententias ex una lingua in aliam vertit.\n\nQuodam die Mindia ad avum venit et computatrum secum attulit. «Programma nostrum etiam Latine vertere dicitur», inquit. «Visne id probare? Sententias tuo arbitrio elige, quascumque vis.»\n\nAvianius, qui machinis numquam multum credidit, libenter consensit. Primo sententiam facilem suo arbitrio elegit: «Liber Mindiae in mensa est.» Programma statim recte vertit. Deinde sententiam longiorem scripsit, in qua genetivus longe a nomine suo stabat, sicut in libris veterum saepe fit. Hic vero programma erravit: genetivum alii nomini tribuit, et sententia versa nihil significabat.\n\n«Videsne?» inquit Avianius ridens. «Mens tua artificialis genetivum non intellegit.»\n\nMindia autem explicavit quomodo programma laboraret. «Programma non sicut homo cogitat. Sequentiam verborum inspicit et, ex milibus sententiarum quas antea legit, determinat quae verba simul ire soleant. Multae linguae verba plerumque eadem sequentia ponunt; lingua Latina autem verba libere ordinat. Itaque in sententia Latina programma saepe dubitat cui nomini genetivum tribuat, et sine certa sequentia non facile determinat quid sententia significet.»\n\nAvianius diu tacuit. «Hoc est paradoxum», inquit tandem. «Machina quae reapse nihil intellegit, tamen saepe recte vertit. Ego autem, qui omnia intellego, tarde verto.»\n\n«Recte dicis», respondit Mindia. «Reapse programma non intellegit, sed numerat; numerat tamen optime. Ex exemplis discit, non ex regulis. Itaque si ei exempla bona damus, melius vertit.»\n\nTum Mindia avo consilium proposuit: Avianius sententias difficiles scriberet, in quibus genetivi aliique casus longe a nominibus suis starent, et ipse veram versionem cuiusque sententiae adderet. Ita programma ex erroribus suis discere posset. Avianius per totum mensem sententias scripsit et genetivos accurate notavit.\n\nPost mensem Mindia nuntiavit programma multo melius vertere: genetivum iam fere semper recto nomini tribuere, etiam cum verba libere posita essent.\n\n«Paradoxum manet», dixit Avianius. «Nunc ego magister mentis artificialis sum. Sed fortasse machina quoque me aliquid docuit: linguam non solum ex regulis, sed etiam ex usu discimus.»\n\nQuaestiones:\nQuid facit programma in quo Mindia laborat?\nSententias ex una lingua in aliam vertit.\nQuomodo Avianius sententias elegit?\nSententias suo arbitrio elegit.\nUbi programma erravit?\nIn sententia longa erravit, ubi genetivus longe a nomine suo stabat: genetivum alii nomini tribuit.\nQuomodo programma determinat quae verba simul eant?\nSequentiam verborum inspicit et ex milibus sententiarum determinat quae verba simul ire soleant.\nQuod paradoxum Avianius invenit?\nMachina quae reapse nihil intellegit, tamen saepe recte vertit.\nQuomodo Avianius programma adiuvit?\nSententias difficiles cum veris versionibus scripsit, ut programma ex erroribus suis disceret."
+    },
+    {
+      "title": "Vehiculum sine gubernatore",
+      "summary": "A woman in Zurich who is afraid of self-driving cars takes a test ride with an engineer friend, and her fear vanishes.",
+      "newWords": [
+        "autonomus",
+        "vehiculum",
+        "mechanicus",
+        "timor",
+        "salvus",
+        "diligenter",
+        "auxiliaris",
+        "consido",
+        "evanesco"
+      ],
+      "text": "Lutatia Turici habitat et cotidie autocineto suo ad officium it. Hoc anno in urbe nova vehicula probantur: vehicula autonoma, quae sine gubernatore per vias eunt. Multi incolae ea libenter spectant, multi etiam timent. Lutatia quoque timorem habet. «Machinae», inquit, «non credo.»\n\nAlbius, amicus eius, in societate laborat quae haec vehicula facit. Peritus est rerum mechanicarum: per totam vitam machinas mechanicas reficit. Quodam die Lutatiam invitavit ut vehiculum autonomum secum probaret.\n\n«Quomodo vehiculum sine homine salvum per urbem ire potest?» rogavit Lutatia. «Si puer subito in viam currit, quis vehiculum retinebit?»\n\nAlbius rem diligenter explicavit. «Vehiculum oculos habet artificiales: parvae machinae circa totum vehiculum vias, homines et alia vehicula semper observant. Computatrum omnia numerat et determinat quid faciendum sit. Praeterea est systema auxiliare: si primum systema errat, systema auxiliare statim vehiculum retinet. Denique homo semper adest qui, si opus est, manu vehiculum ducere potest.»\n\nLutatia, quamvis adhuc dubitaret, in vehiculum ascendit et iuxta Albium consedit. Ille quoque consedit et unum tantum verbum dixit: «Proficiscere!» Vehiculum sine ullo sono profectum est.\n\nPrimo Lutatia sellam manibus firme tenebat et oculos a via non removebat. Vehiculum autem diligenter ibat: ante puerum qui cum matre viam transibat tarde constitit; ad lumina rubra sine ira exspectavit; inter alia autocineta sine periculo se movebat. Postea, cum birota subito ante eos appareret, vehiculum velocitatem statim minuit et diligenter praeteriit.\n\nPost decem minuta timor Lutatiae paulatim evanuit. Iam non viam, sed urbem per fenestram spectabat. «Timor meus evanuit», inquit ridens. «Hoc vehiculum diligentius it quam ego ipsa!»\n\nAlbius risit. «Partes mechanicae simplices sunt», inquit; «difficile est programma. Sed etiam programma errare potest. Ideo semper probamus, ideo systema auxiliare habemus.»\n\nCum ad officium Lutatiae pervenissent, illa e vehiculo salva descendit. «Gratias tibi ago», dixit. «Salva sum, et timor meus plane evanuit. Fortasse mox ipsa vehiculum autonomum emam.»\n\nQuaestiones:\nQuid sunt vehicula autonoma?\nVehicula sunt quae sine gubernatore per vias eunt.\nCur Lutatia primo timebat?\nMachinae non credebat, et timebat ne vehiculum non salvum esset.\nQuid facit systema auxiliare?\nSi primum systema errat, systema auxiliare statim vehiculum retinet.\nUbi Lutatia in vehiculo consedit?\nIuxta Albium consedit.\nQuomodo vehiculum ibat?\nDiligenter ibat: ante puerum tarde constitit, ad lumina rubra exspectavit, birotam diligenter praeteriit.\nQuid post decem minuta factum est?\nTimor Lutatiae evanuit, et urbem per fenestram spectabat."
+    },
+    {
+      "title": "Aquila venatrix",
+      "summary": "A biologist and her assistant fit a light tracker on a young golden eagle in the northern mountains and learn where it hunts.",
+      "newWords": [
+        "aquila",
+        "venator",
+        "praeda",
+        "collum",
+        "tendo",
+        "septemtrionalis",
+        "permagnus",
+        "appeto"
+      ],
+      "text": "Matidia aves investigat in universitate Edinburgi. Iam multos annos aquilas regionis septemtrionalis observat. Haec regio septemtrionalis montes altos habet, et viae oppidaque ibi pauca sunt. Hae aquilae permagnae sunt: cum alas tendunt, plus quam duo metra patent. Alis tensis, paene sine ullo motu, per horas in caelo volare possunt.\n\nAquila venator optimus est. Oculi eius valde acres sunt: ex alto caelo animal parvum in terra videre potest. Praeda eius plerumque animalia parva sunt, interdum etiam aliae aves. Cum praedam vidit, alas contrahit et celerrime descendit. Etiam iuvenis aquila iam bonus venator est.\n\nMatidia scire vult quam longe aquilae volent ut praedam inveniant. Itaque cum Petilio, qui eam in investigatione adiuvat, parvam machinam paravit quae locum avis semper notat et nuntium per satellitem mittit. Machina valde levis est, aquila autem permagna; itaque machina circa collum avis posita aquilam in volando non impedit.\n\nQuodam die aestatis Matidia et Petilius in montes septemtrionales ascenderunt. Aquilam iuvenem prope locum ubi nata erat ceperunt. Petilius avem firme tenebat, dum Matidia machinam circa collum eius ponebat. Aquila oculis acribus eos spectabat, sed non se movebat. Post pauca minuta avem dimiserunt. Aquila alas tetendit et in caelum ascendit.\n\nPer totam aestatem machina nuntios mittebat, et Matidia cotidie in computatro videbat ubi aquila esset. Mane aquila in valles volabat, ubi praeda frequens erat. Saepe quinquaginta chiliometra uno die volabat ut praedam inveniret; nocte appetente ad montes redibat.\n\nAutumno autem, hieme appetente, aquila longius volare coepit. In montibus enim praeda rarior fiebat. Denique ad meridiem volavit, ubi hiems minus frigida erat.\n\nMatidia et Petilius contenti erant. «Nunc scimus», inquit Matidia, «quas valles aquila ad praedam quaerendam petat. Si eas valles servamus, etiam aquilas servamus.» Societas quae terram regionis septemtrionalis curat, his numeris lectis, constituit illas valles sine novis viis et aedificiis relinquere.\n\nQuaestiones:\nQuam magnae sunt aquilae quas Matidia observat?\nPermagnae sunt: cum alas tendunt, plus quam duo metra patent.\nCur aquila venator optimus est?\nOculi eius valde acres sunt, et praedam ex alto caelo videre potest.\nUbi Matidia machinam posuit?\nMachinam circa collum aquilae posuit.\nQuo aquila mane volabat?\nIn valles volabat, ubi praeda frequens erat.\nQuid aquila fecit hieme appetente?\nLongius volare coepit et denique ad meridiem volavit."
+    },
+    {
+      "title": "Cancer incognitus",
+      "summary": "A student studying crabs on the shore near Lisbon finds one with a strangely thick shell, and it turns out to be an unknown subspecies.",
+      "newWords": [
+        "cancer",
+        "subspecies",
+        "subfamilia",
+        "diversitas",
+        "designatio",
+        "celo",
+        "incognitus",
+        "crassus"
+      ],
+      "text": "Hordeonia Olisipone studet et animalia maris investigat. Hoc anno de cancris scribit qui in litore inter saxa vivunt. Cotidie, cum mare recedit, in litus descendit et sub saxis quaerit. Cancri enim lucem vitant et se sub saxis vel in harena celant; nam ita ab avibus tuti sunt.\n\nMagister eius, Caedicius, ei explicavit quanta sit diversitas cancrorum. «In mundo plus quam sex milia specierum cancrorum sunt», inquit. «Investigatores eos in familias dividunt, familias in subfamilias, subfamilias in genera, genera in species. Interdum etiam una species in subspecies dividitur, si animalia eiusdem speciei in diversis locis paulum differunt.»\n\nQuodam mane Hordeonia sub magno saxo cancrum parvum invenit, qui se in angulo obscuro celabat. Hic cancer colore rubro erat, sicut multi alii, sed testa eius mirum in modum crassa erat. Hordeonia multos cancros eiusdem speciei iam viderat, sed nullum cum testa tam crassa.\n\nCancrum in vas cum aqua maris posuit et ad universitatem tulit. Caedicius diu animal inspexit. «Fortasse testa crassa ex cibo oritur», inquit, «fortasse autem est signum subspeciei incognitae. Ut certi simus, alios cancros eodem loco quaeramus et cum cancris aliorum litorum comparemus.»\n\nPer tres menses Hordeonia viginti alios cancros cum testa crassa in eodem litore invenit; in aliis litoribus nullum. Investigatores corpora eorum cum aliis accurate comparaverunt. Denique Caedicius nuntiavit: «Hi cancri subspecies sunt adhuc incognita. Familia, subfamilia et species notae sunt; subspecies autem nova est.»\n\nSubspeciei novae designatio danda erat. Designatio est nomen Latinum quo animal ab omnibus investigatoribus in toto mundo appellatur. Caedicius Hordeoniae concessit ut designationem ipsa eligeret. Illa nomen elegit quod «testam crassam» significat.\n\n«Mirum est», inquit Hordeonia, «animal incognitum non in silva remota, sed prope urbem inveniri. Diversitas vitae etiam in litore nostro magna est, si quis accurate quaerit.»\n\nQuaestiones:\nCur cancri se sub saxis celant?\nLucem vitant, et ita ab avibus tuti sunt.\nQuomodo investigatores cancros dividunt?\nIn familias, subfamilias, genera, species et interdum in subspecies.\nQuid in cancro Hordeoniae mirum erat?\nTesta eius valde crassa erat.\nQuid Caedicius denique nuntiavit?\nNuntiavit hos cancros esse subspeciem adhuc incognitam.\nQuid est designatio?\nDesignatio est nomen Latinum quo animal ab omnibus investigatoribus appellatur.\nQuid Hordeonia de diversitate vitae dixit?\nDixit diversitatem vitae etiam in litore suo magnam esse."
+    },
+    {
+      "title": "Res inusitatae",
+      "summary": "A science teacher in Munich shows his pupils three unusual things: a metal that melts in the hand, magnets that push each other away, and spider silk.",
+      "newWords": [
+        "gallium",
+        "densitas",
+        "mixtus",
+        "repello",
+        "inusitatus",
+        "catena",
+        "tela"
+      ],
+      "text": "Rubrius physicam in schola Monaci docet. Quodam die discipulis dixit: «Hodie vobis res inusitatas ostendam. Res inusitatae nos docent mundum non semper talem esse qualem putamus.»\n\nPrimum fragmentum metalli argentei in mensa posuit. «Hoc metallum gallium appellatur», inquit. «Videtur sicut ferrum vel argentum, sed gallium aliquid inusitatum facit.» Deinde fragmentum in manum Vediae, puellae quae in primo ordine sedebat, dedit. Post pauca minuta gallium in manu Vediae molle fieri et sicut aqua argentea fluere coepit. «Gallium iam circa triginta gradus fluit», explicavit Rubrius, «itaque calor manus satis est.»\n\nDeinde vas sumpsit et aquam cum oleo miscuit. Primo aqua et oleum mixta erant, sed mox oleum supra aquam ascendit. «Cur oleum supra aquam stat?» rogavit Rubrius. «Quia oleum levius est», respondit Vedia. «Recte», inquit magister, «sed accuratius dicimus: densitas olei minor est quam densitas aquae. Densitas est quantum materiae in certo spatio sit.» Tum paulum gallii in aquam oleo mixtam misit: gallium statim ad fundum descendit, quia densitas eius multo maior est.\n\nTertio duos magnetes ostendit, id est lapides qui ferrum ad se trahunt. Cum partes eorum similes iungere conaretur, lapides se invicem repellebant; quamvis manibus premeret, iungi non poterant. «Pars septemtrionalis partem septemtrionalem repellit», explicavit, «sed partem alteram ad se trahit.» Deinde uno lapide anulos ex ferro factos tetigit: anuli alius alium tenebant et catenam longam faciebant. Discipuli catenam numeraverunt: duodecim anuli erant.\n\nPostremo Rubrius discipulos ad fenestram duxit, ubi in angulo tela parva pendebat. «Hanc telam animal parvum fecit», inquit. «Res non inusitata videtur, sed est. Si tela tam crassa esset quam catena ex ferro facta, plus ponderis ferret quam catena. Investigatores iam multos annos similem telam facere conantur, sed animal parvum adhuc melius facit quam nos.»\n\nVedia de tela, de catena anulorum, de gallio cogitabat. «Res cotidianae quoque inusitatae sunt», inquit, «si eas accurate spectamus.»\n\nQuaestiones:\nQuid gallium in manu Vediae fecit?\nMolle factum est et sicut aqua fluere coepit.\nCur oleum supra aquam stat?\nQuia densitas olei minor est quam densitas aquae.\nQuid gallium in aqua oleo mixta fecit?\nAd fundum descendit, quia densitas eius maior est.\nQuid lapides faciebant, cum partes similes iungerentur?\nSe invicem repellebant.\nQuid anuli ex ferro facti fecerunt?\nAlius alium tenebant et catenam longam faciebant.\nQuid de tela Rubrius dixit?\nSi tela tam crassa esset quam catena ex ferro facta, plus ponderis ferret quam catena."
+    },
+    {
+      "title": "Herbae quae sanant",
+      "summary": "A pharmacy student in Padua, ill with a cold, drinks her grandmother's herb drink and then reads which herbs really heal.",
+      "newWords": [
+        "herba",
+        "sano",
+        "aegrotus",
+        "infirmus",
+        "potio",
+        "validus",
+        "antiquitus",
+        "perhibeo",
+        "rosa"
+      ],
+      "text": "Cartilia Patavii artem medicamentorum studet. Hieme frigore laboravit: caput dolebat, nasus fluebat, et per tres dies tam infirma erat ut vix e lecto surgere posset.\n\nAvia eius, Critonia, statim venit. Critonia in horto suo multas herbas colit, sicut antiquitus in familia eius mos erat. Ex herbis siccis et fructibus rosarum potionem calidam paravit. «Hanc potionem bibe», inquit. «Herbae hae aegrotos sanant; ita antiquitus perhibetur, et mihi semper profuerunt.»\n\nCartilia potionem libenter bibit, nam calida et dulcis erat. Sed, ut studiosa medicinae, scire voluit an herbae reapse sanarent. Itaque, cum minus infirma esset, libros et investigationes de herbis legit.\n\nInvenit res varias. Quaedam herbae reapse validae sunt: ex eis medici antiquitus medicamenta faciebant, et etiam hodie multa medicamenta ex herbis fiunt. Fructus rosarum, exempli gratia, multa continent quae corpori aegroto prosunt. Aliae autem herbae aegrotos sanare perhibentur, sed nulla investigatio id probavit. Denique quaedam herbae periculosae sunt et aegroto nocere possunt, si quis nimium bibit.\n\nPost paucos dies Cartilia iterum valida erat. Aviae narravit quae legisset. «Potio tua bona fuit», inquit. «Potio calida et somnus longus aegroto semper prosunt, et fructus rosarum vere utiles sunt. Sed non omnes herbae quae sanare perhibentur, reapse sanant. Talem enim morbum plerumque corpus ipsum sanat: corpus validum post paucos dies se ipsum sanat.»\n\nCritonia risit. «Ergo valida sum quia herbas bibo, an herbas bibo quia valida sum?»\n\n«Fortasse utrumque», respondit Cartilia.\n\nTum constituerunt librum parvum de herbis horti scribere. Critonia scripsit quomodo quamque herbam colat et quomodo potionem paret; Cartilia addidit quae investigatores de quaque herba invenerint. Ita scientia antiqua et scientia nova in uno libro coniunctae sunt.\n\nQuaestiones:\nQuomodo Cartilia hieme se habebat?\nTam infirma erat ut vix e lecto surgere posset.\nEx quibus rebus Critonia potionem paravit?\nEx herbis siccis et fructibus rosarum.\nQuid de herbis antiquitus perhibetur?\nPerhibetur eas aegrotos sanare.\nSuntne omnes herbae utiles?\nNon: quaedam validae sunt, aliae nihil prosunt, quaedam etiam periculosae sunt.\nQuid corpus validum facit?\nPost paucos dies se ipsum sanat.\nQuid denique Critonia et Cartilia fecerunt?\nLibrum parvum de herbis horti scripserunt."
+    },
+    {
+      "title": "Tirocinium in museo",
+      "summary": "An eighteen-year-old starts an internship at a technology museum in Vienna and helps the curator repair an old tower clock with a bell.",
+      "newWords": [
+        "tirocinium",
+        "curator",
+        "contractus",
+        "acquiro",
+        "admitto",
+        "duodeviginti",
+        "neglectus",
+        "effero",
+        "campana"
+      ],
+      "text": "Novanius duodeviginti annos natus est et Vindobonae habitat. Scholam modo finivit, et antequam in universitate artem machinarum studeat, tirocinium facere vult. Itaque epistolam ad museum technologiae misit, et paucis diebus post responsum accepit: ad tirocinium admissus erat. Museum enim paucos tantum iuvenes admittit.\n\nPrima die curator musei, Maesia, eum libenter accepit et contractum tirocinii ei dedit. Contractus brevis erat: in eo scriptum erat Novanium per tres menses, quinque dies ex septem, in museo laborare et pro opere parvam pecuniam accipere. Novanius contractum diligenter legit et nomen suum in eo scripsit.\n\n«Museum nostrum nuper horologium vetus acquisivit», inquit Maesia. «Per centum annos in turri parvi oppidi stetit. Deinde, cum turris renovaretur, in cella iacuit, neglectum a cunctis. Nos id parvo pretio acquisivimus. Hoc erit primum opus tui tirocinii.»\n\nHorologium permagnum et grave erat. Novanius, Maesia et duo operarii id e vehiculo in officinam musei efferre debebant; vix tandem id extulerunt. Horologium neglectum male apparebat: rotae ex ferro factae pulvere tectae erant, et campana neglecta, quae olim horas oppido nuntiabat, muta erat.\n\nPer duos menses Novanius cum curatore horologium curavit. Quamvis tantum duodeviginti annos natus esset, multa iam de machinis sciebat. Rotas mechanicas lavit, partes malas novis mutavit. Curator multa sciebat et omnia libenter explicabat: quomodo pondus rotas moveat, quomodo rotae campanam moveant, quomodo artifices veteres sine computatro tam accurate laboraverint.\n\nDenique horologium paratum erat. Eo die museum omnes homines sine pretio admisit. Maesia horologium in media aula posuerat, et cum hora XII appeteret, multi homines campanam spectabant. Campana duodecim ictus dedit, clare et pulchre.\n\n«Hoc horologium diu neglectum erat», dixit Maesia hominibus. «Nunc, opera Novanii, iterum vivit.» Novanius contentus erat, praesertim cum Maesia diceret: «Si vis, aestate proxima novus contractus tibi paratus erit.»\n\nQuaestiones:\nQuam multos annos natus est Novanius?\nDuodeviginti annos natus est.\nQuid in contractu tirocinii scriptum erat?\nNovanium per tres menses in museo laborare et parvam pecuniam accipere.\nQuid museum nuper acquisivit?\nHorologium vetus quod per centum annos in turri steterat.\nQuomodo horologium neglectum apparebat?\nRotae pulvere tectae erant, et campana neglecta muta erat.\nQuid Novanius et operarii fecerunt?\nHorologium e vehiculo in officinam musei extulerunt.\nQuid hora XII factum est?\nCampana duodecim ictus dedit, clare et pulchre."
+    },
+    {
+      "title": "Cur sol lucem dat",
+      "summary": "A schoolgirl in Lyon prepares a talk on why the sun shines, and her father helps her with the art of speaking.",
+      "newWords": [
+        "atmosphaera",
+        "perpetuus",
+        "oratorius",
+        "sin",
+        "provenio"
+      ],
+      "text": "Volcacia quattuordecim annos nata est et Lugduni habitat. In schola eius certamen scientiae habetur: quisque discipulus de re aliqua coram discipulis et magistris loqui debet. Volcacia de sole loqui constituit: unde lux et calor solis proveniant.\n\nDiu in libris quaerebat. Didicit lucem solis ex centro eius provenire. Ibi calor maximus est, et nuclei atomorum parvorum inter se coniunguntur. Haec res reactio nuclearis appellatur, et in ea permagna energia nascitur. Haec energia nuclearis per multa milia annorum ad superficiem solis ascendit; inde lux in spatium emittitur et post octo minuta ad terram pervenit.\n\nDeinde lux per atmosphaeram transit. Atmosphaera, quae circa terram est, nos protegit: partem radiorum periculosorum retinet et calorem servat. Sine atmosphaera vita in terra esse non posset.\n\nVolcacia etiam quaesivit an sol perpetuus sit. Invenit solem quoque finem habere: sol non est perpetuus, nam materia eius finita est, sed adhuc per multa milia milium annorum lucem dabit. «Nulla res est perpetua», scripsit, «sed sol paene perpetuus nobis videtur.»\n\nRes bene noverat; de arte autem dicendi dubitabat. Pater eius, Fadius, qui saepe coram multis hominibus loquitur, artem oratoriam bene novit. «Prima regula artis oratoriae», inquit, «est tarde loqui et audientes spectare. Incipe a quaestione: cur sol lucem dat? Si audientes te bene audiunt, perge; sin minus, aliam quaestionem propone.»\n\nVolcacia per septem dies domi exercebatur, et pater eam audiebat. «Si tempus satis erit», dixit illa, «etiam de luna loquar; sin minus, de sole tantum.»\n\nDie certaminis Volcacia tarde et clare verba fecit. De reactionibus nuclearibus, de atmosphaera, de sole qui non est perpetuus narravit. Audientes bene audiebant, et tempus etiam ad lunam satis fuit. Volcacia praemium secundum accepit. «Artem oratoriam», dixit postea patri, «paene tam difficilem esse puto quam ipsam scientiam.»\n\nQuaestiones:\nDe qua re Volcacia loqui constituit?\nDe sole loqui constituit: unde lux et calor solis proveniant.\nUnde lux solis provenit?\nEx centro solis, ubi reactiones nucleares fiunt.\nQuid atmosphaera facit?\nCirca terram est, partem radiorum periculosorum retinet et calorem servat.\nEstne sol perpetuus?\nNon est perpetuus, sed adhuc per multa milia milium annorum lucem dabit.\nQuae est prima regula artis oratoriae?\nTarde loqui et audientes spectare.\nQuid Volcacia facere voluit, si tempus satis esset?\nEtiam de luna loqui voluit; sin minus, de sole tantum.\nQuid Volcacia accepit?\nPraemium secundum accepit."
+    },
+    {
+      "title": "Machinae in fundo",
+      "summary": "A farm manager near Verona works with a university on collars that warn him when a cow is about to give birth.",
+      "newWords": [
+        "taurus",
+        "partus",
+        "proles",
+        "maturitas",
+        "quietus",
+        "viso",
+        "cooperatio",
+        "procurator"
+      ],
+      "text": "Camerius procurator est magni fundi prope Veronam. Dominus fundi in urbe habitat et fundum raro visit; Camerius igitur omnia curat: boves, agros, arbores. In fundo sunt centum boves feminae et taurus unus, permagnus et quietus.\n\nPartus bovis saepe noctu fit. Plerumque bos sine auxilio parit, sed interdum partus difficilis est et homo adesse debet. Antea Camerius per multas noctes in fundo non dormiebat, ne ulli partui deesset, et mane defessus erat.\n\nHoc anno universitas Veronae cum Camerio cooperationem incepit. Investigatores circa collum cuiusque bovis machinam parvam posuerunt, quae motus animalis numerat. Bos enim plerumque quieta est: edit, stat, iacet. Sed paucis horis antequam parit, non iam quieta est: saepe surgit, saepe iacet, caudam movet. Machina hunc motum animadvertit et nuntium ad telephonum Camerii mittit: «Partus appetit.»\n\nPollia, medica animalium, quae fundum saepe visit, de cooperatione laeta erat. «Nunc, procurator, dormire potes», inquit Camerio, «donec machina te excitet.» Et ita factum est. Prima nocte machina Camerium hora tertia excitavit; ille ad boves cucurrit et partui adfuit. Bos parva sed valida mox in pedibus stabat.\n\nToto vere XXXVIII boves parvae natae sunt, et omnes salvae. Pollia, cum fundum iterum visit, prolem totius veris inspexit et dixit eam validam esse. Magna pars eius a tauro fundi orta est, cuius proles semper valida est; itaque Camerius taurum suum magni aestimat.\n\nInvestigatores autem cooperationem augere volunt. Proxima aestate parvae machinae quae per aerem volant super arbores fundi volabunt et maturitatem fructuum inspicient. Camerius ita sciet quo die maturitas optima sit et fructus colligi debeant.\n\n«Antea noctu numquam dormiebam», dicit Camerius. «Nunc machinae pro me observant, et ego quietus dormio.»\n\nQuaestiones:\nQuis est Camerius?\nProcurator est magni fundi prope Veronam.\nQuando partus bovis saepe fit?\nPartus saepe noctu fit.\nQuid machina circa collum bovis facit?\nMotus animalis numerat et nuntium mittit, cum bos non iam quieta est.\nQuis fundum saepe visit?\nPollia, medica animalium, fundum visit.\nQualis est proles tauri fundi?\nProles eius semper valida est, sicut Pollia dixit.\nQuam multae boves parvae toto vere natae sunt?\nXXXVIII boves parvae natae sunt, et omnes salvae.\nQuid machinae proxima aestate facient?\nSuper arbores volabunt et maturitatem fructuum inspicient."
+    },
+    {
+      "title": "Horologium cordis",
+      "summary": "A young runner in Milan trains too hard; a sports scientist teaches him to walk on easy days, and he runs his best race on television.",
+      "newWords": [
+        "ambulo",
+        "athleticus",
+        "virilis",
+        "frequenter",
+        "televisio",
+        "redigo"
+      ],
+      "text": "Vinicius XIX annos natus est et in societate athletica Mediolani currit. Optimus omnium in societate esse vult, et aestate proxima in certamine virili decem milium metrorum currere cupit. Hoc certamen etiam in televisione monstrabitur.\n\nVinicius frequenter currit, et semper celeriter: sex dies ex septem, et omni die quam celerrime potest. Tamen tempora eius non meliora fiunt, et saepe fessus est.\n\nLuria, quae in universitate scientiam athleticam docet, societatem athleticam adiuvat. Vinicio horologium dedit quod pulsum cordis et velocitatem numerat. Post quattuordecim dies numeros inspexit. «Frequenter curris», inquit, «sed nimis frequenter celeriter. Corpus tuum numquam se reficit. Qui optime currunt, plerumque tarde currunt, et celeriter tantum duos dies ex septem.»\n\nTum Luria novum consilium proposuit. Vinicius numerum dierum quibus celeriter curreret ad duos redigeret; ceteris diebus tarde curreret, et inter cursus ambularet. «Ambula», inquit, «cum pulsus cordis nimis celer est. Ambulare non est otiosum; ambulando corpus se reficit.»\n\nPrimo Vinicius dubitabat: ambulare ei videbatur res senum, non iuvenum qui currunt. Sed consilium Luriae secutus est. Dies quibus celeriter curreret ad duos redegit, ceteris diebus tarde cucurrit et frequenter ambulavit. Post mensem pulsus cordis eius tardior erat, et post duos menses tempora eius multo meliora erant.\n\nAestate certamen virile Mediolani habitum est. Familia Vinicii domi ante televisionem sedebat. Vinicius initio tarde cucurrit, sicut Luria eum docuerat; in fine autem, cum alii defessi essent, velocitatem auxit et tertius ad finem pervenit. Numquam antea tam bene cucurrerat.\n\nPost certamen quidam ex televisione eum rogavit quomodo tam bene cucurrisset. «Ambulando», respondit Vinicius et risit.\n\nQuaestiones:\nUbi Vinicius currit?\nIn societate athletica Mediolani currit.\nQuid Luria in numeris horologii vidit?\nVidit Vinicium nimis frequenter celeriter currere.\nAd quem numerum Vinicius dies celeres redegit?\nNumerum eorum ad duos redegit.\nQuid Vinicius faciebat, cum pulsus cordis nimis celer esset?\nAmbulabat.\nUbi familia Vinicii certamen virile spectavit?\nDomi ante televisionem spectavit.\nQuomodo Vinicius in certamine cucurrit?\nInitio tarde cucurrit, in fine velocitatem auxit et tertius pervenit."
+    }
+  ]
+}
