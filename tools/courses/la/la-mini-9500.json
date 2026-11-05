@@ -1,0 +1,202 @@
+{
+  "id": "la-mini-9500",
+  "rankUpTo": 9500,
+  "level": "C2",
+  "title": "Urbium ordinatio",
+  "description": "Ten standalone stories about town planning in everyday life: rain drains on a steep street, paths worn across a lawn, a facade colour plan, a round market square, a river given back its gravel, an old timber house, a paper mill turned into homes, a new father's walks, an allotment garden and a poem for a new square.",
+  "topic": "Urban planning",
+  "names": [
+    "Vesidia",
+    "Vatienus",
+    "Bergomum",
+    "Octobris",
+    "Calvenia",
+    "Luca",
+    "Abronia",
+    "Brixia",
+    "Italia",
+    "Cantienus",
+    "Rubrilla",
+    "Placentia",
+    "Salvienus",
+    "Pacilla",
+    "Nasidienus",
+    "Sentidia",
+    "Monacum",
+    "Bebius",
+    "Isara",
+    "Iunius",
+    "Octavienus",
+    "Argentoratum",
+    "Hirtilla",
+    "Fabrianum",
+    "Iulienus",
+    "Tarsidia",
+    "Martius",
+    "September",
+    "Quinctienus",
+    "Vindobona",
+    "Vettina",
+    "Caninilla",
+    "Laberilla",
+    "Berolinum",
+    "Fufienus",
+    "Plotienus",
+    "Ravenna",
+    "Nonnilla"
+  ],
+  "lessons": [
+    {
+      "title": "Aqua pluvialis",
+      "summary": "In Bergamo a drainage engineer takes her new assistant up the steep streets of the upper town before a heavy rain to clear the leaf-choked drains, and explains where the dirty street water goes.",
+      "newWords": [
+        "coadiutor",
+        "pluvialis",
+        "declivitas",
+        "infundibulum",
+        "petiolus",
+        "adhaeresco",
+        "pedetemptim",
+        "impurus"
+      ],
+      "text": "Vesidia, quae in officio aquarum Bergomi iam viginti annos laborat, mense Octobri novum coadiutorem accipit, iuvenem nomine Vatienum, qui nuper studia sua absolvit. Primo die eum non in sedem officii ducit, sed in urbem superiorem, ubi viae angustae per declivitatem collis descendunt. Meteorologi enim imbrem gravem in noctem proximam praedixerunt, et Vesidia vult omnes canales aquae pluvialis ante vesperum explorare.\n\n«Vide quanta sit declivitas huius viae», inquit Vesidia. «Hic aqua pluvialis non lente fluit, sed currit. Si canales obstructi sunt, aqua in vestibula domorum et in cellas intrat.»\n\nIn margine viae, inter lapides, clathri ferrei positi sunt. Sub quoque clathro infundibulum latum aquam excipit et in tubum angustum ducit. Vatienus rogat cur canalis hanc formam habeat. «Infundibulum aquam ex spatio lato colligit», respondet Vesidia, «et in tubum angustum cogit. Ita aqua celerius fluit et harenam secum aufert. Sed si os infundibuli clausum est, nihil prodest.»\n\nHoc autem tempore anni platani, quae vias urbis superioris ornant, folia sua deponunt. Vesidia folium humi iacens tollit et coadiutori ostendit. «Folia ipsa non timeo», inquit, «sed petiolos. Petioli enim longi et duri sunt; inter clathros adhaerescunt, et folia quae postea veniunt petiolis adhaerescunt. Ita brevi tempore totus clathrus clauditur.»\n\nItaque per viam pedetemptim descendunt, quia lapides umidi et lubrici sunt. Ad quemque clathrum Vatienus genua flectit, folia manu removet, clathrum tollit et unco ferreo infundibulum purgat. In quodam infundibulo non solum folia et petiolos invenit, sed etiam harenam multam et lagoenam plasticam.\n\nDum laborant, Vesidia explicat aquam pluvialem viarum impuram esse. «Aqua quae de tectis cadit satis pura est», inquit. «Aqua autem quae per vias currit oleum autocinetorum, pulverem rotarum et sordes omnis generis secum fert. Itaque haec aqua impura non statim in flumen it, sed prius in lacum magnum sub campo urbis, ubi sordes in fundum sidunt. Aquam vero tectorum quidam cives in vasis magnis colligunt et hortos suos ea rigant.»\n\nVesperi triginta clathros purgaverunt. Vatienus fessus est, sed laetus. Nocte imber gravis cadit, sicut meteorologi praedixerant. Mane Vesidia et coadiutor eius iterum per viam pedetemptim descendunt. Lapides madent, sed vestibula sicca sunt; aqua pluvialis per infundibula murmurans in tubos fluit. «Bene laboravisti», inquit Vesidia. «Proximo autumno hanc viam solus purgabis.»\n\nQuaestiones:\nQuis est Vatienus?\nVatienus est novus coadiutor Vesidiae, iuvenis qui nuper studia sua absolvit.\nCur Vesidia canales ante vesperum explorare vult?\nQuia meteorologi imbrem gravem in noctem proximam praedixerunt.\nCur aqua pluvialis in hac via currit?\nQuia declivitas viae magna est.\nCur Vesidia petiolos timet?\nQuia petioli inter clathros adhaerescunt, et folia quae postea veniunt petiolis adhaerescunt.\nQuo it aqua impura viarum?\nPrius in lacum magnum sub campo urbis it, ubi sordes in fundum sidunt.\nQuomodo mane per viam descendunt?\nPedetemptim descendunt, et vident vestibula sicca esse."
+    },
+    {
+      "title": "Semitae quas pedes faciunt",
+      "summary": "In Lucca a park planner watches for a week where people really walk across a worn lawn, feeds their routes into a calculating program, and lays the new paths along them instead of putting up a fence.",
+      "newWords": [
+        "inspecto",
+        "habitualis",
+        "quaerito",
+        "solivagus",
+        "suesco",
+        "calculatorius",
+        "trivialis",
+        "semitalis"
+      ],
+      "text": "Calvenia in officio hortorum publicorum Lucae laborat. Vere ei mandatur ut pratum magnum, quod prope moenia urbis iacet, novo modo ordinet. Nam in eo prato herba multis locis trita est, et per viride lineae fuscae terrae nudae currunt, quas cives pedibus suis fecerunt. Collega quidam saepem humilem circa pratum ponere vult, ut homines in semitis veteribus maneant. Calvenia autem prius scire vult cur homines semitas veteres relinquant.\n\nItaque per septem dies, mane, meridie et vesperi, in scamno prope pratum sedet et transeuntes inspectat. In libello omnia itinera notat: unde homines veniant, quo eant, quam saepe. Mox intellegit itinera eorum non fortuita sed habitualia esse. Qui ex statione tramitum ad scholam properant, semper eandem lineam obliquam sequuntur; qui ex foro ad pontem eunt, alteram. Etiam canes, quos domini mane educunt, itinera habitualia habent.\n\nCalvenia etiam transeuntes interrogat, et cotidie quaeritat cur viam stratam relinquant. Mulier cum vehiculo infantis respondet viam stratam magnum circuitum facere. Puer cum birota dicit se ita ire, quia omnes ita eant. Senex quidam solivagus, qui sine comite cotidie pratum transit, ridens ait: «Ab adulescentia hac via eo. Pedes mei hanc viam sciunt; caput meum non interrogant.»\n\n«Homines suescunt», cogitat Calvenia. «Qui semel breviorem viam invenit, ei viae suescit, et ceteri, qui eum vident, eandem sequuntur.» Senem solivagum etiam postridie inspectat: eadem hora venit, eandem lineam calcat, eodem loco consistit ut caelum spectet. Calvenia quaeritat num aliquid in eo loco sit, sed nihil invenit nisi prospectum pulchrum in colles.\n\nDomi numeros suos in programma calculatorium computatri sui inserit. Programma calculatorium omnia itinera in tabula urbis pingit, et ubi multa itinera coeunt, lineae crassiores fiunt. Res, ut ipsa fatetur, trivialis est: homines viam brevissimam quaerunt. Sed haec veritas trivialis saepe neglegitur ab iis qui semitas ad normam et circinum ducunt, non ad pedes hominum.\n\nProximo mense Calvenia collegis suis consilium novum ostendit: nullam saepem, sed ordinem semitalem novum, qui lineas habituales ipsas sequitur. Ubi homines herbam triverant, nunc semitae glarea stratae ponentur; in loco ubi senex consistit, scamnum novum stabit; reliquum pratum herba nova seretur. Collega dubitat, sed tabulam programmatis calculatorii diu inspectat et tandem assentitur.\n\nAestate ordo semitalis perfectus est. Herba inter semitas viret, et nemo eam calcat, quia semitae ipsae eo ducunt quo homines ire volunt. Senex solivagus in scamno novo sedet et Calveniam praetereuntem salutat. «Novam viam meam fecistis», inquit. «Non novam», respondet Calvenia, «sed tuam.»\n\nQuaestiones:\nQuid in prato prope moenia videtur?\nLineae fuscae terrae nudae, quas cives pedibus suis fecerunt.\nQuid Calvenia per septem dies facit?\nIn scamno sedet, transeuntes inspectat et omnia itinera in libello notat.\nQuid Calvenia cotidie quaeritat?\nQuaeritat cur transeuntes viam stratam relinquant.\nQuid senex solivagus de via sua dicit?\nDicit pedes suos hanc viam scire, caput suum non interrogare.\nQuid de hominibus Calvenia cogitat?\nCogitat homines suescere et viam breviorem sequi; res trivialis est.\nQuid programma calculatorium facit?\nOmnia itinera in tabula urbis pingit, et ubi multa coeunt, lineae crassiores fiunt.\nQualis est ordo semitalis novus?\nLineas habituales ipsas sequitur, et semitae glarea stratae sunt.\nCur in prato novo nemo herbam calcat?\nQuia semitae ipsae eo ducunt quo homines ire volunt."
+    },
+    {
+      "title": "Colores parietum",
+      "summary": "In Brescia a woman who has bought an old house wants a bright orange facade; a long-haired painter and an obliging official at the old-town office show her the colour plan, and she chooses a soft orange that the office approves.",
+      "newWords": [
+        "aurantiacus",
+        "comatus",
+        "alteratio",
+        "obsequiosus",
+        "austerus",
+        "versicolor",
+        "mediocritas",
+        "invidiosus",
+        "homologo"
+      ],
+      "text": "Abronia Brixiae domum veterem in media urbe emit. Paries domus, qui in viam spectat, olim albus fuit, nunc autem sordidus et cinereus est, et tectorium multis locis deciduum est. Abronia, quae iter per Italiam meridianam fecit et ibi domos laetis coloribus pictas vidit, parietem suum colore aurantiaco vivido pingere vult.\n\nPictor, quem conducit, iuvenis comatus est nomine Cantienus; capillos longos in nodum ligat, ne colore maculentur. Primo die parietem diu spectat, deinde ait: «Antequam penicillum sumam, scire debemus num haec alteratio licita sit. In media urbe nulla alteratio parietis, qui in viam spectat, sine licentia officii urbis veteris fieri potest.»\n\nItaque Abronia et pictor comatus in officium eunt. Ibi Rubrilla, quae ordinem colorum urbis veteris curat, eos benigne excipit. Rubrilla obsequiosa est erga cives: libenter audit, multa explicat, tabulas omnes ostendit, nec umquam impatiens fit. In tabula magna urbis veteris quaeque via suos colores habet: colores austeros terrae et lapidis, ochram pallidam, harenam, cinereum lene, rubrum fractum.\n\n«In via tua color aurantiacus permittitur», inquit Rubrilla, «sed pallidus, non vividus. Et parietes versicolores, qui variis coloribus quasi vestis histrionis pinguntur, nusquam in urbe vetere permittuntur.»\n\nAbronia paulum dolet. «Nonne colores austeri tristes sunt?» rogat. Rubrilla ridet. «Austerum non idem est ac triste», respondet. «Haec urbs mediocritatem amat. Nulla domus maiore voce clamare debet quam vicinae. Si una domus inter austeras colore vivido aut versicolor fulget, omnium oculos ad se trahit, et res invidiosa fit: vicini queruntur, alii idem facere volunt, et post paucos annos via quasi forum nundinarum videtur. Mediocritas autem efficit ut tota via pulchra sit, non una domus.»\n\nCantienus, qui multas domus in urbe vetere pinxit, assentitur. «Etiam color pallidus sole matutino calidus videtur», inquit. «Ostendam tibi.» Postridie in pariete quattuor quadrata parva pingit, a pallidissimo usque ad paulo vividius. Abronia ea per totum diem spectat: mane, meridie, vesperi. Tandem tertium eligit, colorem aurantiacum lenem, cum fenestris albis.\n\nRubrilla alterationem intra septem dies homologat. Litteris, quibus eam homologat, parvam chartam adiungit: «Gratias tibi ago quod prius interrogavisti.» Nam multi cives, ut ipsa dicit, prius pingunt et postea interrogant; quibus quoque obsequiosa est, sed eos parietem iterum pingere iubet.\n\nMense proximo Cantienus parietem pingit. Capilli eius, quamquam ligati, paulum aurantiaci fiunt, et Abronia ridens dicit pictorem comatum iam partem domus esse. Vicini, qui primo timebant ne domus invidiosa fieret, nunc parietem laudant. Domus Abroniae non clamat, sed sole vespertino lucet.\n\nQuaestiones:\nQuo colore Abronia parietem primo pingere vult?\nColore aurantiaco vivido pingere vult.\nQuis est Cantienus?\nCantienus est pictor comatus, qui capillos longos in nodum ligat.\nCur Rubrilla obsequiosa dicitur?\nQuia libenter audit, multa explicat et tabulas omnes civibus ostendit.\nCur parietes versicolores in urbe vetere non permittuntur?\nQuia haec urbs mediocritatem amat, et domus versicolor omnium oculos ad se traheret, ita ut res invidiosa fieret.\nQuid Rubrilla intra septem dies facit?\nAlterationem homologat et litteris parvam chartam adiungit."
+    },
+    {
+      "title": "Forum orbiculatum",
+      "summary": "In Piacenza an architect who must clear cars from the round market square spends a market day there, sees how people walk, and sets the stalls of the bacon seller, the potter and the rest in a ring under muslin awnings.",
+      "newWords": [
+        "orbiculatus",
+        "propola",
+        "baco",
+        "sartago",
+        "testum",
+        "negotiosus",
+        "sindon",
+        "delectabilis",
+        "dulcedo"
+      ],
+      "text": "Placentiae est forum quod non quadratum est sed orbiculatum: domus veteres in circulo stant, et in medio fons parvus aquam emittit. Ter in hebdomade ibi mercatus habetur. Usque ad hunc annum tabernae propolarum sine ordine per forum sparsae erant, et inter eas autocineta stabant. Nunc Salvienus, architectus officii urbani, forum novo modo ordinare debet, ut autocineta exeant et cives libentius ambulent.\n\nPropolae autem timent. Pacilla, quae iam triginta annos baconem in sartagine magna frigit et cum pane vendit, Salvienum ad tabernam suam vocat. «Hic sto ab adulescentia», inquit, sartaginem agitans. «Odor baconis homines ex omnibus viis ad me trahit. Si me in angulum mittis, nemo me inveniet.» Nasidienus, propola senex qui vasa fictilia vendit, eadem dicit: «Testum bonum, sub quo panis inter cineres coquitur, nemo ex interrete emit. Homines id manibus tangere et pondus eius sentire volunt.»\n\nSalvienus propolas non contemnit. Proximo die mercatus prima luce in forum venit et per totum diem ibi manet. Videt forum maxime negotiosum esse inter horam nonam et undecimam, cum matres et senes emunt. Videt etiam homines, qui per forum ambulant, semper in circulum ire, quamquam id ipsi nesciunt, quia forma orbiculata fori eos circum fontem ducit. Tabernae maxime negotiosae non in medio sunt, sed in margine, ubi homines transeunt.\n\nDomi consilium novum delineat. Tabernae propolarum non iam sparsae erunt, sed in circulo stabunt, secundum formam orbiculatam fori ipsius, quaeque sub tegmine e sindone alba, quae solem lenit sed lucem transmittit. Medium forum liberum erit: fons, scamna, arbores paucae. Taberna Pacillae ad ostium viae principalis stabit, unde odor baconis homines in forum trahet; Nasidienus prope fontem, ubi homines consistunt et testum manibus tangere possunt.\n\nCum propolis consilium ostendit, Pacilla diu tacet; deinde sartaginem suam tollit. «Si odor baconis viam principalem implebit», inquit, «assentior.» Nasidienus de tegmine dubitat: «Sindon nimis tenuis est; vento movebitur, et vasa mea frangentur.» Salvienus ei sindonem duplicem et funes firmos promittit.\n\nAestate proxima forum novum aperitur. Mane forum negotiosum est: propolae clamant, sartago Pacillae crepitat, sindones albae lucem lenem in vasa Nasidieni demittunt. Vesperi autem, cum propolae abierunt, forum orbiculatum quietum et delectabile fit. Cives in scamnis circa fontem sedent et crustula mellita edunt, quorum dulcedo cum dulcedine aeris vespertini miscetur. Salvienus quoque ibi sedet. Pacilla, quae ultima abit, ei frustum baconis in pane dat. «Hoc forum delectabile fecisti», inquit. «Sed baco meus id delectabilius facit.»\n\nQuaestiones:\nQualem formam habet forum Placentiae?\nForum non quadratum est sed orbiculatum.\nQuid Pacilla vendit?\nBaconem in sartagine magna frigit et cum pane vendit.\nQuid Nasidienus de testo dicit?\nDicit neminem testum bonum ex interrete emere, quia homines id manibus tangere volunt.\nQuando forum maxime negotiosum est?\nInter horam nonam et undecimam, cum matres et senes emunt.\nUbi tabernae in foro novo stant?\nIn circulo, secundum formam orbiculatam fori, quaeque sub tegmine e sindone alba.\nQuale est forum vesperi?\nQuietum et delectabile; cives circa fontem sedent et dulcedinem aeris vespertini sentiunt."
+    },
+    {
+      "title": "Flumen quod spatium suum recepit",
+      "summary": "In Munich a water biologist and an old boatman go down the river in a small boat, steering round the new gravel bars where trout spawn, and see the old irrigation of an island's gardens and a horse collar from the towing days.",
+      "newWords": [
+        "lembus",
+        "syrtis",
+        "tructa",
+        "ingestio",
+        "sanabilis",
+        "circumfinio",
+        "irrigatio",
+        "helcium",
+        "lupinus"
+      ],
+      "text": "Sentidia, quae Monaci in instituto aquarum laborat, mense Iunio cum Bebio, nauta seniore, flumine Isara lembo descendit. Lembus parvus et levis est, ita ut etiam ubi aqua vadosa est navigare possit. Bebius, qui ab adulescentia in hoc flumine navigat, lembum pertica longa regit.\n\n«Cum puer essem», inquit Bebius, «Isara per urbem quasi in canali fluebat: parietes recti ex caemento, fundus planus, nullae syrtes. Aqua celeriter currebat, et pisces paene nulli erant.» Ante viginti annos autem urbs flumini spatium suum reddere constituit. Parietes recti remoti sunt, ripae leniter descendentes factae sunt, et flumen iterum glaream suam et harenam secum ferre et deponere coepit.\n\nNunc ubique syrtes videntur, quae post quemque imbrem formam mutant. Bebius lembum circa syrtes ducit; semel lembus in syrtem harenosam incurrit, et ambo ridentes descendunt ut eum in aquam altiorem trahant. «Syrtes mihi labores faciunt», inquit Bebius, «sed tructis domum dant.» Nam tructae in glarea syrtium ova sua ponunt, et aqua inter lapides frigida et pura manet.\n\nSentidia propter tructas venit. Reti parvo nonnullas capit, metitur, in vase aquae ponit, deinde liberat. In laboratorio eius collegae ingestionem particularum plasticarum explorant, quas tructae cum cibo devorant. «Ante decem annos ingestio harum particularum magna erat», explicat Sentidia. «Nunc minor est, quia aqua urbis melius purgatur. Morbus fluminis sanabilis erat; non subito, sed pedetemptim sanatur.»\n\nPaulo infra urbem flumen in duas partes dividitur et insulam longam circumfinit. Insulam, quam flumen undique circumfinit, horti parvi tegunt; per eos fossae angustae currunt, quibus aqua fluminis in hortos ducitur. Haec irrigatio antiquissima est: iam abhinc trecentos annos hortulani ita hortos suos rigabant. Hodie autem irrigatio horis certis regitur, ne flumen aestate nimium aquae amittat.\n\nIn ripa insulae casa parva est, quae museum parvum continet. Ibi Bebius Sentidiae helcium vetus ostendit, collare crassum e corio et ligno factum. «Olim equi lembos et rates adverso flumine trahebant», inquit. «Helcium equo circa collum ponebatur, ut totis viribus trahere posset nec collum laederet. Hoc helcium ultimus equus huius ripae gerebat.»\n\nDum ad urbem redeunt, Sentidia in ripa glareosa flores caeruleos et purpureos videt. Sunt lupini, qui in glarea sicca libenter crescunt, quia radices eorum terram pauperem ipsae alunt. «Ubi caementum erat, nunc lupini florent», inquit Bebius. «Etiam ripa sanabilis erat.»\n\nQuaestiones:\nQualis erat Isara, cum Bebius puer esset?\nQuasi in canali fluebat, inter parietes rectos ex caemento, sine syrtibus.\nCur syrtes tructis utiles sunt?\nQuia tructae in glarea syrtium ova sua ponunt.\nQuid collegae Sentidiae explorant?\nIngestionem particularum plasticarum, quas tructae cum cibo devorant.\nQuid Sentidia de morbo fluminis dicit?\nDicit morbum fluminis sanabilem fuisse.\nQuid flumen paulo infra urbem facit?\nIn duas partes dividitur et insulam longam circumfinit.\nQuomodo aqua in hortos insulae ducitur?\nPer fossas angustas; haec irrigatio antiquissima est.\nQuid est helcium?\nCollare crassum e corio et ligno, quod equo circa collum ponebatur ut lembos traheret.\nUbi lupini florent?\nIn ripa glareosa, ubi olim caementum erat."
+    },
+    {
+      "title": "Trabeculae veteres",
+      "summary": "In Strasbourg a carpenter whose great-great-grandfather bought their timber house learns from a scientist, who dates its small beams by carbon isotopes and tree rings, that the house stood untouched through the great fire of 1686.",
+      "newWords": [
+        "atavus",
+        "trabecula",
+        "carbonicus",
+        "isotopium",
+        "conflagro",
+        "inconcussus",
+        "parvitas",
+        "notesco"
+      ],
+      "text": "Octavienus faber lignarius est et Argentorati in vico antiquo habitat, in domo contignata, cuius parietes trabibus ligneis et luto constant. Hanc domum atavus eius anno 1820 emit, et ex eo tempore familia eius in ea habitat. Nemo tamen scit quando domus aedificata sit: atavus eam iam veterem emit, et tabulae veteres urbis nihil de ea narrant.\n\nHoc anno officium urbis veteris domos antiquissimas vici notare vult. Itaque Hirtilla, quae in universitate aetates lignorum investigat, ad Octavienum venit. In tabulatum sub tecto ascendit, ubi trabeculae parvae tectum et fenestras minimas sustinent, et ex tribus trabeculis frusta minima terebra excidit.\n\n«Arbor viva», explicat Hirtilla, «dioxidum carbonicum ex aere sumit et carbonem in ligno suo servat. Inter atomos carbonis paucissimi sunt alius generis: isotopium quod lente mutatur. Postquam arbor caesa est, hoc isotopium non iam renovatur, sed pedetemptim minuitur. Quantum isotopii in trabecula restet metimur, et ita cognoscimus quando arbor caesa sit.» Addit se etiam anulos ligni numerare, quia anuli, qui singulis annis crescunt, aetatem accuratius ostendunt quam isotopium solum.\n\nOctavienus de magno incendio cogitat, de quo omnes in vico narrant. Anno 1686 ignis, vento validissimo auctus, per vicum cucurrit, et magna pars vici conflagravit: domus ligneae una post aliam conflagraverunt. «Si trabeculae nostrae ante annum 1686 caesae sunt», inquit Octavienus, «domus nostra inter flammas inconcussa stetit.»\n\nPost mensem Hirtilla redit. Arbores, ex quibus trabeculae factae sunt, hieme anni 1592 caesae sunt: et isotopium et anuli idem ostendunt. Domus igitur paene centum annos ante incendium aedificata est, et inconcussa stetit, cum circa eam multae domus conflagrarent. Hirtilla in tabulis urbis invenit cur: ventus eo die ab altera parte flabat, et domus vicina parietem lapideum habebat, qui flammas retinuit. Post incendium urbs constituit ut viae latiores fierent et domus novae parietibus lapideis inter se separarentur.\n\nNunc Octavienus etiam parvitatem conclavium intellegit, de qua uxor eius semper querebatur. Saeculo XVI lignum carum erat, et trabeculae breves; itaque conclavia parva et humilia fiebant. «Parvitatem odi», inquit uxor ridens, «sed hanc parvitatem nunc amabo, quia tam antiqua est.»\n\nRes mox per totum vicum notescit. Vicini veniunt ut trabeculas videant, et diurnarium urbis brevem relationem edit. Officium urbis veteris tabellam aeneam ad ianuam affigit: «Haec domus anno 1592 aedificata est.» Ita aetas domus, quae per tot saecula ignota fuerat, tandem notescit; et Octavienus, qui ipse faber lignarius est, trabeculas veteres oleo lini curat, ut alia quattuor saecula inconcussae stent.\n\nQuaestiones:\nQuando atavus Octavieni domum emit?\nAtavus eius domum anno 1820 emit.\nQuid Hirtilla ex trabeculis excidit?\nEx tribus trabeculis frusta minima terebra excidit.\nQuid arbor viva ex aere sumit?\nDioxidum carbonicum sumit et carbonem in ligno suo servat.\nQuid accidit anno 1686?\nIgnis per vicum cucurrit, et magna pars vici conflagravit.\nCur domus Octavieni inconcussa stetit?\nQuia ventus ab altera parte flabat, et domus vicina parietem lapideum habebat.\nQuid mox per totum vicum notescit?\nAetas domus per totum vicum notescit.\nCur conclavia domus tam parva sunt?\nQuia saeculo XVI lignum carum erat et trabeculae breves; inde parvitas conclavium."
+    },
+    {
+      "title": "Officina chartaria",
+      "summary": "In Fabriano an architect and the secretary of a future residents' association turn an old paper mill into homes with shops and workshops below, reuse its steam pipes, and get past a half-year delay caused by two contradictory rules.",
+      "newWords": [
+        "chartarius",
+        "residentia",
+        "secretariatus",
+        "promiscuus",
+        "multiplus",
+        "vaporarium",
+        "contradictorius",
+        "repugnantia",
+        "retardatio"
+      ],
+      "text": "Fabriani officina chartaria magna per duo saecula chartam fecit; ante viginti annos clausa est, et aedificium longum ad flumen vacuum stabat. Nunc consociatio civium id emit, ut in eo novam residentiam faciat. Iulienus architectus consilium delineat; Tarsidia secretariatum consociationis regit: in secretariatu epistolas scribit, rationes servat, conventus parat.\n\nIn hac residentia non solum habitabitur. Iulienus usum promiscuum aedificio dare vult: in tabulato inferiore, quod ad viam spectat, tabernae et officinae erunt, in superioribus habitationes. «Via in qua nihil est nisi habitationes interdiu vacua et silens est», inquit. «Usus promiscuus efficit ut homines omni hora veniant et abeant: mane pistor, meridie artifices, vesperi incolae.» Etiam chartarius senex, qui olim in officina laborabat, parvam officinam chartariam in tabulato inferiore aperire vult, ubi chartam manu more antiquo faciet et discipulos docebit.\n\nAedificium vetus multipla dona habet. Muri crassi aestate frigus, hieme calorem servant; fenestrae altae lucem multam admittunt; et sub pavimentis vaporaria vetera iacent, tubi ferrei per quos olim vapor calidus ex fornace in conclavia ducebatur, ubi folia chartae siccabantur. Iulienus haec vaporaria non removet: purgata et machinae novae iuncta aquam calidam per totam residentiam ducent. «Multiplus est fructus», inquit, «si vetera non delemus sed adhibemus.»\n\nSed mense Martio opus subito sistitur. Officium urbanum duo praecepta invenit quae inter se contradictoria sunt. Primum praeceptum, quod ad omnes vias urbis veteris pertinet, iubet tabulatum inferius ad viam tabernas aut officinas habere. Alterum, quod ad residentias pertinet, vetat officinas sonoras sub habitationibus esse. Officina autem chartaria, quae malleis et prelo utitur, sonora est. Haec repugnantia praeceptorum retardationem sex mensium affert.\n\nTarsidia ex secretariatu multas epistolas mittit. In prima repugnantiam ipsam explicat; in altera rogat quomodo praecepta contradictoria simul servari possint; in tertia consilium Iulieni adiungit: pavimentum duplex, quod sonum retineat, et horas certas, quibus prelum moveri liceat. Interim incolae futuri, qui iam domos suas vendiderant, impatientes fiunt, et Tarsidia singulis per telephonum explicat retardationem non culpa consociationis fieri.\n\nMense Septembri officium urbanum consilium homologat. Repugnantia, ut aiunt, non tollitur, sed pavimento duplici lenitur. Retardatio finitur, et opus iterum procedit.\n\nAnno proximo residentia aperitur. Mane pistor in tabulato inferiore panem vendit; meridie chartarius senex cum discipulis suis folia nova ad siccandum suspendit; vesperi incolae ex fenestris flumen spectant, et vaporaria vetera, nunc aqua calida plena, conclavia calefaciunt. Tarsidia, quae in secretariatu tot epistolas scripsit, primum folium a chartario factum accipit, et in eo gratias agit omnibus qui patienter exspectaverunt.\n\nQuaestiones:\nQuid consociatio civium in officina chartaria vetere facere vult?\nNovam residentiam facere vult.\nQuid Tarsidia in secretariatu facit?\nEpistolas scribit, rationes servat, conventus parat.\nQuid est usus promiscuus in hoc aedificio?\nIn tabulato inferiore tabernae et officinae sunt, in superioribus habitationes.\nQuae erant vaporaria vetera?\nTubi ferrei per quos vapor calidus ex fornace in conclavia ducebatur, ubi folia chartae siccabantur.\nCur Iulienus vaporaria vetera non removet?\nQuia multiplus est fructus, si vetera non delentur sed adhibentur.\nCur opus mense Martio sistitur?\nQuia duo praecepta inter se contradictoria sunt, et haec repugnantia retardationem sex mensium affert.\nQuomodo repugnantia lenitur?\nPavimento duplici, quod sonum retinet, et horis certis quibus prelum moveri licet."
+    },
+    {
+      "title": "Pater in via",
+      "summary": "In Vienna a new father on leave pushes his baby through the district, helps an old neighbour at a crossing whose green light is too short, notes a glass wall that dazzles passers-by, and writes to the district office, which fixes both.",
+      "newWords": [
+        "paternitas",
+        "pantherinus",
+        "hallux",
+        "buto",
+        "tremebundus",
+        "anilis",
+        "occaeco",
+        "respiro"
+      ],
+      "text": "Quinctienus, qui Vindobonae in officio tabularum laborat, post natam filiam Vettinam commeatum trium mensium accipit, ut paternitati suae totos dies det. Primo putat se urbem suam bene nosse. Sed paternitas, ut mox intellegit, urbem novam ostendit, quam vir solus ambulans numquam viderat.\n\nCotidie mane Vettinam in vehiculo infantis per vicum ducit. Infans sub stragulo pantherino iacet, quod avia eius texuit: maculae fuscae in fundo flavo, quasi pellis pantherina. Vettina tibialia sua semper pedibus excutit, ita ut hallux nudus sub stragulo emineat. Quinctienus tibiale iterum induit, et post paucos passus hallux iterum apparet.\n\nCrepidines viarum altae sunt, et vehiculum infantis aegre ascendit. Ad transitum magnum, ubi via lata vicum secat, columna cum butone stat: qui transire vult, butonem premit et exspectat. Quinctienus butonem premit; signum viride tandem lucet, sed tam breve est ut ipse vix in medium viae perveniat.\n\nIbi Caninillam, anum vicinam, videt, quae baculo innixa manibus tremebundis transire conatur. Cum signum rubrum iterum lucet, illa tremebunda in medio viae stat, dum autocineta exspectant. Quinctienus eam ad crepidinem adiuvat. «Hoc signum iuvenibus factum est», inquit Caninilla voce anili, sed ridens. «Butonem premo, deinde curro, quantum anus currere potest.» Risus eius anilis est, sed oculi iuvenes.\n\nPaulo ultra aedificium novum stat, cuius paries totus e vitro factus est. Sole matutino paries lucem tam fortem in viam reicit ut transeuntes occaecet. Vettina oculos clamans claudit; etiam Quinctienus, oculis manu tectis, ab altera parte viae transit. Postea audit multos rectores autocinetorum eodem loco occaecari, cum sol humilis est.\n\nTandem in hortum publicum perveniunt. Ibi Quinctienus profunde respirat: aer frigidior et purior est, arbores fumum viae retinent, et Vettina in vehiculo tranquille respirat et dormit. Dum sedet, in libello notat omnia quae vidit: crepidines altas, butonem cuius signum nimis breve est, parietem vitreum qui transeuntes occaecat.\n\nDomi epistolam ad officium vici scribit, cum tabula parva et imaginibus. Post mensem responsum accipit: signum viride ad transitum longius fiet, duae crepidines humiliores fient, et ante parietem vitreum arbores serentur, quae lucem nimiam excipiant. Ultimo mense commeatus Quinctienus iterum butonem premit; Caninilla iuxta eum tranquille transit, nec iam currit. «Paternitas tua», inquit voce anili, «etiam mihi profuit.» Vettina sub stragulo pantherino dormit, halluce, ut solet, nudo.\n\nQuaestiones:\nCur Quinctienus commeatum accipit?\nUt post natam filiam Vettinam paternitati suae totos dies det.\nQuale stragulum Vettina habet?\nStragulum pantherinum, cum maculis fuscis in fundo flavo.\nQuid facit qui ad transitum magnum transire vult?\nButonem premit et exspectat, dum signum viride luceat.\nQuomodo Caninilla transit?\nBaculo innixa, manibus tremebundis; in medio viae tremebunda stat.\nQuid paries vitreus facit?\nSole matutino lucem tam fortem in viam reicit ut transeuntes occaecet.\nQuid Quinctienus in horto publico facit?\nProfunde respirat et omnia quae vidit in libello notat."
+    },
+    {
+      "title": "Hortulus inter tramina",
+      "summary": "In Berlin a grandmother and her grandson open the garden hut of her allotment in a colony the city keeps green, uproot weeds and a stump, lose worms to the blackbirds, sift soil, and sit tired in a drift of poplar fluff.",
+      "newWords": [
+        "casella",
+        "exstirpo",
+        "merula",
+        "praeripio",
+        "excerno",
+        "floccus",
+        "lassus"
+      ],
+      "text": "Laberilla, quae septuaginta annos nata est, Berolini hortulum habet in colonia hortorum, quae inter viam ferream et flumen iacet. Talium coloniarum Berolini multae sunt, et urbs eas in tabulis suis ut spatia viridia servat, ne aedificiis tegantur. In quoque hortulo casella lignea stat, in qua instrumenta et sellae servantur.\n\nMense Iunio nepos eius Fufienus, puer duodecim annorum, venit ut aviam adiuvet. Primum casellam aperiunt, quae per longum tempus clausa fuit. Casella odorem ligni et terrae habet; in ea rastra, ligones, cribrum, vasa seminum sunt.\n\nLaberilla Fufienum docet herbas malas non tantum carpere, sed cum radicibus exstirpare. «Si radicem relinquis», inquit, «post duas hebdomades herba redit.» Deinde truncum arboris veteris, quam ventus hieme fregit, exstirpare volunt. Diu fodiunt, radices ligone secant, et tandem truncum totum exstirpant, ita ut locus fragis pateat.\n\nInterim merulae in saepe sedent et spectant. Simul ac terra vertitur, merula descendit et vermem, quem Fufienus modo viderat, ei praeripit. Laberilla ridet. «Merulae semper nobis aliquid praeripiunt», inquit. «Aestate etiam cerasa prima mihi praeripiunt, antequam matura sunt. Sed merulam audire malo quam cerasa sola habere.» Fufienus merulam nigram rostro flavo spectat, quae vermem ad nidum suum fert.\n\nDeinde ad acervum eunt, in quo folia et herbae per totum annum in terram mollem mutatae sunt. Laberilla cribrum Fufieno dat, et terram per cribrum excernunt: lapilli et radices in cribro manent, terra mollis in carrum cadit. «Lapillos excernere debemus», explicat Laberilla, «quia semina parva inter lapillos non crescunt.» Fufienus, qui primo parum diligens fuit, mox bene excernit.\n\nDum laborant, flocci albi per aerem volant. Populi enim, quae prope flumen stant, semina sua in floccis mollibus emittunt. Flocci quasi nix in hortulum cadunt et capillis Laberillae adhaerescunt. Fufienus floccum unum digitis capit et semen minimum in eo invenit. «Tot flocci, et tam parva semina», inquit.\n\nVesperi ambo lassi sunt. Ante casellam in sellis sedent et aquam frigidam bibunt. «Lassa sum», inquit Laberilla, «sed haec lassitudo bona est.» Fufienus, qui lassus quidem sed laetus est, per hortulos spectat: trans saepes alii hortulani ante casellas suas sedent, et supra arbores merula canit. Tramen praeterit, et post tramen iterum silentium est. In media urbe magna, cogitat Fufienus, hic locus est ubi terra adhuc manibus tangi potest.\n\nQuaestiones:\nUbi Laberilla hortulum habet?\nBerolini, in colonia hortorum quae inter viam ferream et flumen iacet.\nQuid in casella servatur?\nIn casella instrumenta et sellae servantur.\nCur herbae malae cum radicibus exstirpandae sunt?\nQuia, si radix relinquitur, post duas hebdomades herba redit.\nQuid merula Fufieno praeripit?\nVermem praeripit, quem Fufienus modo viderat.\nCur lapillos excernunt?\nQuia semina parva inter lapillos non crescunt.\nUnde flocci albi veniunt?\nA populis quae prope flumen stant, quae semina sua in floccis mollibus emittunt."
+    },
+    {
+      "title": "Carmen de foro novo",
+      "summary": "In Ravenna a retired teacher writes a didactic poem explaining a new square, a friend who edits books marks his boastful lines with obeli, and at the opening a child's star-shaped balloon bursts as he recites.",
+      "newWords": [
+        "versifico",
+        "didascalicus",
+        "obelus",
+        "omnisciens",
+        "analphabetismus",
+        "helium",
+        "displodo"
+      ],
+      "text": "Plotienus, qui multos annos Ravennae litteras docuit et nunc otio fruitur, versificare amat: versus de urbe sua, de mari, de arboribus scribit. Hieme officium urbanum eum rogat ut carmen breve scribat, quod recitetur cum forum novum aperietur. Forum novum prope portum paratum est, cum bibliotheca nova, arboribus, fontibus. Officium autem non carmen laudum vult, sed carmen didascalicum, quod cives doceat quomodo forum ordinatum sit: cur arbores ibi stent, quo aqua pluvialis fluat, cur autocineta absint.\n\nPlotienus primo dubitat. «De canalibus versificare?» rogat Nonnillam, amicam suam, quae libros edit. «Poetae antiqui de agris et de apibus carmina didascalica composuerunt», respondet illa. «Canales tibi non minus digni sunt.» Itaque per totam hiemem versificat, et cotidie paucos versus Nonnillae mittit.\n\nNonnilla versus diligenter legit et, ubi versus ei dubius videtur, in margine obelum ponit, sicut grammatici antiqui in libris faciebant. «Obelus versum non reicit», inquit, «sed interrogat.» Prima pagina septem obelos habet. Plotienus rogat cur tot obeli sint. Nonnilla digitum ad primum obelum ponit. «Hic scribis architectos omnia providisse», inquit. «Hic scribis nihil umquam in hoc foro mutandum esse. Loqueris quasi omnisciens sis. Neque tu omnisciens es, neque architecti; nemo qui urbem ordinat omnisciens est. Carmen didascalicum docere debet, non omnia scire simulare.»\n\nPlotienus ridet et versus mutat. Nunc scribit architectos arbores eo posuisse ubi ventum a mari retineant, sed post decem annos cives ipsos visuros esse num recte posuerint. Obeli pauciores fiunt.\n\nDe bibliotheca diu cogitat. Avia eius saepe narrabat se puellam in agris circa Ravennam multos cognovisse qui litteras nescirent: analphabetismus tum late patebat, et qui epistolam accipiebat, ad magistrum vici eam ferebat ut legeretur. Itaque in medio carmine versus de analphabetismo ponit: ubi olim analphabetismus late patebat, nunc liberi in gradibus bibliothecae legunt. Nonnilla ad hos versus nullum obelum ponit.\n\nMense Iunio forum aperitur, et multi cives veniunt. Mercator pilas coloratas helio implet et liberis vendit: helium enim aere levius est, et pilae sursum tendunt. Puella quaedam pilam habet in forma stellae aureae; stella super caput eius in filo natat. «Cave ramos», inquit mercator, «nam pila facile disploditur.»\n\nPlotienus in gradus bibliothecae ascendit et recitare incipit. Cum ad versus de aqua pluviali pervenit, stella ramum acutum tangit et magno cum crepitu disploditur. Omnes se vertunt; puella stupet. Mercator statim aliam stellam helio implet et ei dat. Plotienus, qui interim tacuit, ridens addit: «Ne poeta quidem omnisciens est; hoc non praevideram.» Omnes rident, et ille recitare pergit.\n\nPostea Nonnilla carmen in libello parvo edit, qui primus in bibliotheca nova ponitur. Nullus obelus in eo manet.\n\nQuaestiones:\nQuale carmen officium urbanum a Plotieno vult?\nCarmen didascalicum vult, quod cives doceat quomodo forum ordinatum sit.\nQuid Nonnilla facit, ubi versus ei dubius videtur?\nIn margine obelum ponit, sicut grammatici antiqui faciebant.\nCur Nonnilla dicit Plotienum loqui quasi omnisciens sit?\nQuia scribit architectos omnia providisse et nihil umquam in foro mutandum esse.\nQuid de analphabetismo avia Plotieni narrabat?\nNarrabat analphabetismum tum late patuisse, et multos in agris litteras nescivisse.\nCur pilae sursum tendunt?\nQuia helium aere levius est.\nQuid stellae aureae accidit?\nRamum acutum tangit et magno cum crepitu disploditur."
+    }
+  ]
+}
