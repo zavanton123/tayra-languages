@@ -1,0 +1,198 @@
+{
+  "id": "la-mini-8100",
+  "rankUpTo": 8100,
+  "level": "C2",
+  "title": "Corpus humanum",
+  "description": "Ten stories and short essays about the human body: appetite, teeth, a boxing class, hair, hearing, bones, breathing on a rowing lake, the history of empirical medicine, gardening and a pony ride in winter.",
+  "topic": "The human body",
+  "names": [
+    "Granianus",
+    "Satriena",
+    "Cremona",
+    "Mediolanum",
+    "Maius",
+    "Vedianus",
+    "Vercellae",
+    "Allieniana",
+    "Arruntiana",
+    "Vindobona",
+    "Baebianus",
+    "Volteianus",
+    "Ancona",
+    "Memmiana",
+    "Roma",
+    "Roscianus",
+    "Salisburgum",
+    "Noniana",
+    "Titiniana",
+    "Arretium",
+    "Scriboniana",
+    "Sittiana",
+    "Mesciniana",
+    "Leucum",
+    "Larius",
+    "Ovinianus",
+    "Patavium",
+    "Europa",
+    "Naeviana",
+    "Luca",
+    "Umbriana",
+    "Duiliana",
+    "Eboracum",
+    "Veturiana"
+  ],
+  "lessons": [
+    {
+      "title": "Appetitus qui redit",
+      "summary": "In Cremona an old man who has lost his appetite after a long cough finds it again when his granddaughter, a cookery student, cooks the plain roasted dishes of his childhood.",
+      "newWords": [
+        "appetitus",
+        "fastidio",
+        "asso",
+        "assus",
+        "sapa",
+        "cibarius",
+        "revivo",
+        "iucundo",
+        "batis"
+      ],
+      "text": "Granianus, senex duodeoctoginta annorum, Cremonae in domo parva prope flumen habitat. Hieme gravi tussi diu laboravit, et quamquam morbus iam abiit, appetitus eius non rediit. Mane panem vix tangit, meridie cibum in patina relinquit, vesperi nihil nisi aquam bibit. «Omnia mihi eundem saporem habent», queritur, «saporem chartae madidae.» Medicus, qui eum diligenter inspexit, corpus satis firmum esse dixit; appetitus autem senum, ut aiebat, lente redit neque cogi potest.\n\nNeptis eius Satriena, quae Mediolani artem coquendi discit, vere ad avum venit. Videt eum non solum cibos lautos, sed etiam eos quos olim maxime amabat fastidire. Ius pingue fastidit, placentas dulces fastidit, etiam caseum, quem antea cotidie edebat. Satriena tamen animum non demittit. «Si stomachus cibum fastidit», secum cogitat, «fortasse memoria eum adhuc quaerit.»\n\nItaque vespere avum interrogat quid puer libentissime ederit. Granianus primum tacet, deinde subridens narrat. Matrem suam panem cibarium, fuscum et durum, coquere solitam esse, quem pueri cum oleo et sale edebant. Patrem diebus festis pullum super prunas assare solitum esse, dum tota familia circum ignem sedebat. Aestate autem se cum fratribus ad mare profectum batim collegisse, herbam salsam et viridem quae in litore inter saxa crescit.\n\nPostridie Satriena opus incipit. Mane panem cibarium ex farina crassa facit et in furno coquit; odor eius per totam domum se diffundit. Deinde pullum, quem in macello emit, sale et herbis conditum lente assat, donec cutis aurea fit et crepitat. In foro piscario batim invenit, quam piscator quidam in litore legerat, eamque breviter in aqua fervente coquit. Postremo pira assa parat, quibus sapam infundit. Sapa est sucus uvarum diu decoctus, dulcis et spissus, quem avia Satrienae olim in olla magna conficiebat.\n\nAd mensam Granianus diffidens sedet. Primum panem cibarium frangit et odorem eius haurit. Deinde carnem pulli assam gustat, tum aliquid bati. Sapor salsus bati eum ad litus pueritiae reducit. Paulatim, quasi invitus, plura edit. Neptis tacet et spectat. Post pira assa cum sapa avus patinam vacuam deponit et ridet. «Hic cibus me iucundat», inquit, «sicut olim puerum iucundabat.»\n\nPer insequentes hebdomades appetitus senis vere revivit, sicut planta arida post pluviam revivit. Satriena ei monstrat quomodo pullum ipse assare possit, et Granianus, qui numquam coquere didicerat, nunc ter in hebdomade cenam sibi parat. Medicus, cum eum mense Maio iterum inspexit, miratus est. «Appetitus tuus revivit», inquit, «et cum eo vires quoque redeunt.» Granianus respondit nihil medicinae esse in pane cibario. «Nihil medicinae», dixit Satriena, «sed multum memoriae.»\n\nQuaestiones:\nCur Granianus cibum in patina relinquit?\nQuia post morbum hiemis appetitus eius non rediit, et omnia ei eundem saporem habent.\nQuos cibos Granianus nunc fastidit?\nIus pingue, placentas dulces et etiam caseum fastidit.\nQuid pater Graniani diebus festis faciebat?\nPullum super prunas assabat, dum familia circum ignem sedebat.\nQuid est sapa?\nSapa est sucus uvarum diu decoctus, dulcis et spissus.\nQuomodo Satriena appetitum avi revocat?\nCibos pueritiae eius parat: panem cibarium, carnem pulli assam, batim et pira assa cum sapa."
+    },
+    {
+      "title": "Dentes et acetum",
+      "summary": "In Vercelli a student who drinks vinegar water all day for his health learns from a dentist that the acid is slowly wearing away his teeth, and how saliva protects them.",
+      "newWords": [
+        "posca",
+        "subedo",
+        "irrito",
+        "molesto",
+        "obex",
+        "polygonum",
+        "tergeo",
+        "consolo"
+      ],
+      "text": "Vedianus, iuvenis viginti duos annos natus, Vercellis rationes oeconomicas discit et de valetudine sua multum curat. Nuper in interrete legit poscam, potionem antiquam ex aceto et aqua mixtam, corpori saluberrimam esse: eam sitim melius quam ullam aliam potionem sedare et stomachum purgare. Ex eo tempore Vedianus lagoenam poscae semper secum portat et per totum diem bibit, inter lectiones, in bibliotheca, etiam cum vesperi currit.\n\nPost aliquot menses tamen dentes eum molestare coeperunt. Cum aquam frigidam bibit aut glaciem dulcem edit, dolor acutus dentes pervadit. Gingivae quoque rubent et facile irritantur. Haec res eum tam diu molestat ut tandem medicam dentium adeat.\n\nMedica Allieniana, femina placida et diligens, dentes eius inspicit et statim interrogat quid cotidie bibat. Cum Vedianus de posca narravit, ea subridet. «Posca tua», inquit, «dentes tuos lente subedit. Acetum enim acidum est, et acidum crustam duram quae dentes tegit paulatim subedit, sicut aqua fluminis ripam subedit.»\n\nDeinde in tabula imaginem ei monstrat, quae per microscopium facta est. In ea crusta dentis sana apparet: virgulae minimae, arte inter se coniunctae, quae ex transverso visae ut polygona apparent, sicut cellae favi. In altera imagine polygona margines suos amiserunt et quasi liquefacta videntur. «Ubi acidum crustam tangit», explicat Allieniana, «haec polygona solvuntur. Dens tamen non statim deletur; crusta solum tenuior fit, et nervi interiores facilius irritantur. Ideo frigus te tantopere molestat.»\n\nVedianus interrogat cur ceteri homines, qui citrea et poma acida edunt, non eadem patiantur. «Quia saliva obex naturalis est», respondet medica. «Saliva os lavat, acidum mitigat et crustam paulatim reficit. Sed hic obex tempore eget. Si quis semel in die acidum bibit, obex sufficit; si quis per totum diem bibit, obex numquam requiescit.»\n\nVedianus tristis fit, quod putat dentes suos iam perditos esse. Allieniana eum consolatur. «Damnum parvum est», inquit, «et si mores mutaveris, crusta non ulterius minuetur.» Tum ei praecepta dat. Poscam, si omnino bibere velit, semel tantum in die bibat, et cum cibo. Post potionem acidam os aqua pura colluat, nec statim dentes peniculo fricet, ne crustam mollitam deterat; post horam demum dentes leniter tergere debet. Gingivas, quae iam irritatae sunt, molli peniculo tergere oportet.\n\nVedianus haec omnia in telephono suo scribit. Abiens etiam medicam rogat utrum posca saltem stomacho prosit. Allieniana ridens eum iterum consolatur: «Stomachus tuus aquam puram aeque amabit.»\n\nQuaestiones:\nQuid est posca?\nPosca est potio antiqua ex aceto et aqua mixta.\nCur dentes Vediani eum molestant?\nQuia acidum poscae crustam duram dentium lente subedit, et nervi facilius irritantur.\nQuid in imagine microscopii apparet?\nCrusta dentis sana ex virgulis minimis constat, quae ex transverso visae ut polygona apparent.\nCur saliva obex naturalis dicitur?\nQuia os lavat, acidum mitigat et crustam paulatim reficit.\nQuomodo Vedianus dentes post potionem acidam curare debet?\nOs aqua pura colluere debet et post horam demum dentes leniter tergere."
+    },
+    {
+      "title": "Pugilatus post officium",
+      "summary": "In Vienna an accountant with a stiff back joins an evening boxing class for middle-aged beginners, where nobody hits anyone, and learns footwork, loose shoulders and how to rein in a punch.",
+      "newWords": [
+        "pugilatus",
+        "discursus",
+        "clamito",
+        "gradior",
+        "laxus",
+        "freno",
+        "coepto",
+        "persto",
+        "frigido"
+      ],
+      "text": "Arruntiana, quae quadraginta unum annos nata est, Vindobonae in officio rationum laborat. Octo horas cotidie ante computatrum sedet, et vesperi dorsum eius rigidum est, cervix dolet, umeri quasi lapidei videntur. Collega quaedam ei suadet ut in gymnasium vicinum eat, ubi Baebianus, olim athleta notus, cursum pugilatus pro hominibus mediae aetatis habet. «Pugilatus?» ridet Arruntiana. «Ego ne muscam quidem ferire possum.» Collega tamen affirmat in eo cursu neminem alium ferire: ictus tantum in saccos graves et in manicas magistri dari. Pugilatum enim totum corpus exercere, non solum bracchia.\n\nPrimo die Arruntiana timida gymnasium intrat. Circiter duodecim homines adsunt, plerique eiusdem aetatis, nonnulli etiam capillis albis. Baebianus, vir robustus sed comis, primum omnes iubet per conclave huc illuc currere. Hic discursus, ut explicat, sanguinem calefacit et articulos parat. Dum discursus durat, magister clamitat: «Celerius! Genua tollite! Spirate!» Arruntiana post paucas minutas vix spiritum ducit, sed in discursu perstat neque consistit.\n\nDeinde Baebianus docet quomodo athleta pugilatus gradiatur. «Numquam pedes iungite», inquit. «Pede sinistro primum gradimini, deinde dexter sequitur; semper in digitis pedum, numquam in calcibus.» Discipuli ante speculum magnum gradiuntur, et Arruntiana se ipsam ridet, quod gressus eius tam rigidus est, quasi lignea sit.\n\n«Umeri laxi!» clamitat Baebianus, dum inter discipulos ambulat. «Qui umeros contrahit, cito defatigatur. Bracchia laxa, manus firmae!» Arruntiana, quae per totum diem ad mensam umeros contrahit, subito intellegit cur cervix sua semper doleat. Umeros demittit, et primum post multos menses collum eius laxum fit.\n\nTum ad saccos procedunt. Baebianus monstrat ictum rectum: non vi bracchii solius, sed toto corpore, quod a pedibus usque ad manum se convertit. Simul docet quomodo ictus frenetur. «Vim emittere facile est», inquit, «vim frenare difficile. Qui ictum non frenat, corpus suum turbat et ex aequilibrio cadit. Ictum frenare est corpus regere.» Arruntiana saccum ferit, deinde ictum frenare temptat, et sentit quantum musculi ventris laborent.\n\nAd extremum Baebianus iubet omnes corpora lente frigidare. Lente ambulant, membra extendunt, aquam bibunt. «Corpus calefactum numquam subito relinquite», inquit. «Lente frigidate, ne postridie rigidi surgatis.»\n\nRem quam Arruntiana primo invita coeptaverat mox cupide colit, et duae collegae, eius exemplo, eundem cursum coeptant. Bis in hebdomade venit et per totam hiemem in cursu perstat, etiam cum nix in viis iacet. Post tres menses dorsum non iam dolet, et in officio recta sedet. Collegis narrat se iam esse athletam pugilatus quae numquam quemquam ferierit. «Quid novi coeptabis post pugilatum?» rogat collega. «Nihil», respondet Arruntiana. «In hoc persto.»\n\nQuaestiones:\nCur dorsum Arruntianae vesperi rigidum est?\nQuia octo horas cotidie ante computatrum sedet.\nQuid est discursus, quo cursus incipit?\nOmnes per conclave huc illuc currunt, ut sanguis calefiat et articuli parentur.\nQuomodo athleta pugilatus graditur?\nPede sinistro primum graditur, deinde dexter sequitur, semper in digitis pedum.\nCur umeri laxi esse debent?\nQuia qui umeros contrahit, cito defatigatur.\nQuid Baebianus de ictu frenando dicit?\nDicit vim emittere facile esse, vim frenare difficile, et ictum frenare esse corpus regere."
+    },
+    {
+      "title": "Caput glabrum",
+      "summary": "In Ancona a young teacher who hides his thinning hair visits a hairdresser, a weaver's daughter who braids hair as her father wove cloth, and she persuades him to shave his head.",
+      "newWords": [
+        "glaber",
+        "pallio",
+        "plecto",
+        "textor",
+        "venustus",
+        "indecorus",
+        "fidus",
+        "novellus",
+        "nobilito"
+      ],
+      "text": "Volteianus, magister triginta quinque annos natus, Anconae litteras in schola docet. Iam aliquot annos capilli in summo capite rarescunt, et cotidie mane ante speculum diu stat. Capillos qui ad latera supersunt pectine supra verticem ducit, ut locum glabrum palliet. Vento tamen flante haec ars nihil valet: capilli se attollunt, et vertex glaber apparet. Discipuli, ut ei videtur, rident, quamquam fortasse nemo ridet.\n\nDiu tonstricem eandem frequentavit, sed ea nuper Romam migravit. Collega ei commendat Memmianam, quae tabernam parvam prope portum habet. Memmiana filia est textoris. Pater eius per quadraginta annos in officina parva telas lineas texebat, et puella, dum textor ad telam sedet, fila inter digitos plectere didicit. Nunc crines puellarum et mulierum tam subtiliter plectit ut multae ex totis regionibus vicinis ad eam veniant. «Crines plectere», inquit, «idem est quod telam texere: tria fila, ordo constans, manus quieta. Pater meus textor erat; ego textrix capillorum sum.»\n\nVolteianus in sella sedet et rem explicat. Memmiana caput eius diligenter inspicit, deinde liberaliter loquitur. «Haec calvitii forma», inquit, «ex familia hereditate venit. Radices in vertice paulatim minores fiunt, et capilli novelli, qui ex eis crescunt, tenuiores sunt et breviore vita. Hoc nullum unguentum mutare potest.» Tum adicit: «Si verum vis, locum glabrum palliare indecorum est. Quod palliatur, eo magis spectatur. Caput glabrum non est indecorum; indecorum est caput quod se celare conatur.»\n\nVolteianus haesitat. Memmiana ei in telephono imagines monstrat histrionum et athletarum qui caput radunt. «Hi viri calvitium nobilitaverunt», inquit. «Antea homines caput glabrum senectutis signum putabant; nunc multi iuvenes caput radunt, quia venustum videtur. Unus histrio celeber plus valuit quam omnia unguenta: rem quae deridebatur nobilitavit.»\n\nTandem Volteianus consentit. Memmiana primum capillos forfice breviter tondet, deinde novacula caput totum radit et cutem unguento leni ungit, ne sol eam laedat. Cum Volteianus se in speculo videt, diu tacet. Facies eius aliter apparet: oculi maiores, frons firmior. «Venustus es», inquit Memmiana, «sine ulla arte.»\n\nPostridie discipuli pauca dicunt; una puella tantum eum venustum esse affirmat, deinde omnes ad grammaticam redeunt. Volteianus mane non iam ante speculum diu stat. Ex eo tempore cliens fidus Memmianae fit: singulis hebdomadibus ad tabernam eius venit, ut caput radatur, et dum ibi sedet, eam spectat crines puellarum plectentem. Memmiana eum ridens «fidum meum clientem» vocat, et ille respondet fidum clientem fidam tonstricem desiderare.\n\nQuaestiones:\nQuomodo Volteianus locum glabrum palliare solebat?\nCapillos qui ad latera supererant pectine supra verticem ducebat.\nUbi Memmiana crines plectere didicit?\nIn officina patris, qui textor erat, fila inter digitos plectere didicit.\nCur capilli novelli in vertice tenuiores sunt?\nQuia radices paulatim minores fiunt, et capilli qui ex eis crescunt tenuiores sunt et breviore vita.\nQuid Memmiana de capite glabro dicit?\nDicit caput glabrum non esse indecorum, sed indecorum esse caput quod se celare conatur.\nQuomodo histriones calvitium nobilitaverunt?\nCaput raserunt, et nunc multi iuvenes idem faciunt, quia venustum videtur."
+    },
+    {
+      "title": "Aures in silentio",
+      "summary": "In Salzburg a piano tuner who hears his notes dully learns from an audiologist that daily swimming has blocked one ear and concert noise has dulled the other, and he insulates his workshop.",
+      "newWords": [
+        "acusticus",
+        "merso",
+        "fors",
+        "laquear",
+        "insanio",
+        "secessus",
+        "insulo"
+      ],
+      "text": "Roscianus, vir quinquaginta quinque annorum, Salisburgi instrumenta musica temperat. Totam vitam sonis vacavit: cum chordam pulsat, auris eius minimam differentiam soni percipit, quam alii ne suspicantur quidem. Itaque valde turbatur cum aliquo die notae altae, quas semper clare audiebat, hebetes et quasi lana tectae videntur. Primum putat instrumentum ipsum vitiosum esse; sed idem fit in altero, in tertio. Non chordae, sed aures mutatae sunt.\n\nFors eum ad Nonianam ducit. Nam in conclavi exspectationis medici, apud quem tussim curat, libellum invenit de medicis qui auditum examinant. Noniana, una ex his medicis, primum aures eius inspicit, deinde eum in cellam parvam et quietam ducit, ubi per auriculas sonos varios audit, alios graves, alios altos, et signum dat quotiens aliquid audiat.\n\nPost examen Noniana duas causas invenit. «In aure dextra», inquit, «cera spissa canalem claudit. Natasne saepe?» Roscianus affirmat se cotidie mane in piscina natare et caput in aquam saepius mersare. «Qui caput ita mersat», explicat Noniana, «aquam in aurem infundit; cera madefacta crescit et canalem obstruit.» Ceram leniter removet, et Roscianus statim melius audit. Iubet eum, si caput mersare velit, aures tegere aut postquam natavit, eas siccare.\n\nAltera causa gravior est. In aure sinistra cellulae minimae, quae sonum in signa nervi convertunt, notas altas iam non tam bene accipiunt. Hae cellulae per nervum acusticum cerebro nuntiant quid audiatur; nervus acusticus ipse sanus est, sed cellulae defessae. Noniana interrogat num saepe magno strepitu circumdatus fuerit. Roscianus ridens confitetur se per triginta annos instrumenta in aulis concentuum temperasse, saepe dum iuvenes in proxima aula se exercent, et olim, iuvenem, ad concentus magnos ivisse, ubi turba insaniebat. «Spectatores insaniunt», inquit Noniana, «aures patiuntur. Qui cum turba insanit, auditum amissum postea non recipit.»\n\nNoniana ei consilium dat. Primum in concentibus et ubicumque magnus strepitus est aures tegat. Deinde laboret, si fieri potest, in loco quieto. Roscianus de aula magna urbis cogitat, ubi saepe laborat: sub laqueari antiquo, ex ligno facto et auro ornato, soni quasi molliuntur. Laquear illud, ut ei olim architectus explicavit, propter formam suam est quasi instrumentum acusticum: sonum frangit et per totam aulam aequaliter spargit. «Vellem domi quoque tale laquear haberem», ait.\n\nDomi autem officinam suam, quae ad viam frequentem spectat, transformat. Fenestras duplices ponit, parietes lana densa insulat, ianuam novam et gravem ponit. Faber, qui opus perficit, dicit conclave bene insulatum esse quasi secessus in media urbe. Et vere secessus fit: cum Roscianus ianuam claudit, strepitus viae evanescit, et in silentio notas suas iterum clare audit.\n\nPost mensem ad Nonianam redit. Ea dicit aurem dextram iam plane sanam esse, sinistram, si se caverit, non peiorem futuram esse. Roscianus gratias agit et dicit se fortunatum esse quod fors eum ad libellum illum duxerit. «Fors te duxit», respondet Noniana, «sed tu nunc aures tuas duces.»\n\nQuaestiones:\nQuid Roscianus aliquo die animadvertit?\nAnimadvertit notas altas hebetes et quasi lana tectas videri.\nCur cera in aure dextra canalem claudit?\nQuia Roscianus caput in aquam saepe mersat, et cera madefacta crescit.\nQuid nervus acusticus facit?\nNervus acusticus cerebro nuntiat quid audiatur.\nCur laquear aulae magnae sonos mollit?\nQuia propter formam suam sonum frangit et per totam aulam aequaliter spargit.\nQuomodo Roscianus officinam suam in secessum convertit?\nFenestras duplices ponit, parietes lana densa insulat et ianuam novam et gravem ponit."
+    },
+    {
+      "title": "Ossa et calx",
+      "summary": "In Arezzo a schoolgirl writing about bones visits an old limeworks turned museum in its hundredth year, where the archivist explains why bones and lime share a name.",
+      "newWords": [
+        "calcaria",
+        "centesimus",
+        "tabularius",
+        "copio",
+        "etymologicus",
+        "lustrum",
+        "milliarium",
+        "refectorium"
+      ],
+      "text": "Titiniana, puella duodecim annorum, Arretii scholam frequentat. Magistra discipulis mandavit ut singuli de aliqua parte corporis humani commentariolum scriberent. Titiniana ossa elegit, quia avia eius, cui medicus ossa tenuia esse dixit, nunc cotidie ambulat et lac bibit ut ossa firmet, et ipsa mirabatur quomodo os, res tam dura, cibo et motu mutari possit.\n\nMedica scholae Scriboniana, quam Titiniana in refectorio post prandium interrogat, ei explicat ossa non esse lapides, sed materiam vivam, quae numquam quiescit. «Cellulae quaedam os vetus lente removent, aliae novum aedificant», inquit. «Sic intra duo fere lustra totum corpus nostrum ossa nova habet. Quod tu nunc in bracchio portas, post lustrum alterum magna ex parte aliud erit.» Addit materiam ossium magna ex parte ex calce constare, et ideo lac et caseum, quae in refectorio cotidie dantur, ossibus prodesse.\n\nScriboniana etiam suadet ut Titiniana calcariam veterem extra urbem visitet. Ibi per multos annos homines saxum album e colle effoderant et in fornacibus ingentibus coxerant, ut calx fieret ad aedificia. Nunc calcaria museum est, et hoc ipso anno centesimum natalem celebrat. Centesimus annus, ut tabula ad portam declarat, a die quo prima fornax accensa est numeratur.\n\nAd portam calcariae milliarium antiquum stat, columna saxi albi, in qua numerus passuum ab urbe incisus est. Senex qui museum curat, tabularius olim calcariae, puellae narrat hoc milliarium ex eodem saxo factum esse quod in calcaria coquebatur. «Milliarium hoc», inquit, «per duo milia annorum viatoribus viam monstravit. Saxum calcareum firmum est, sicut ossa tua.»\n\nTabularius eam in conclave ducit, ubi libri rationum et epistolae calcariae servantur. Per septem lustra, ut ipse dicit, hos libros curavit. Ostendit ei tabulas in quibus scriptum est quot plaustra calcis singulis mensibus missa sint. Titiniana interrogat utrum aliqua ex his tabulis in commentariolo suo uti possit. Tabularius consentit, et ipsa duas tabulas manu in libellum suum diligenter copiat. Etiam imaginem fornacis copiare cupit, et tabularius ei machinam monstrat qua imagines copiantur.\n\nPostremo Titiniana senem interrogat cur calx et calcium tam similia nomina habeant. Senex ridet, quod hanc quaestionem amat. «Explicatio etymologica simplex est», inquit. «Antiqui saxum album calcem vocabant. Cum docti posteriores elementum in hoc saxo invenerunt, ei nomen calcium dederunt, a calce ductum. Idem elementum in ossibus tuis est. Ratio etymologica igitur nobis indicat ossa tua et calcariam nostram quasi cognatas esse.»\n\nDomi Titiniana commentariolum scribit. Primum explicat quomodo ossa per lustra renoventur; deinde tabulas a se copiatas inserit; postremo explicationem etymologicam tabularii narrat, et addit milliarium ad portam calcariae ex eodem saxo esse. Magistra commentariolum optimum iudicat et iubet id coram condiscipulis legi.\n\nPostridie in refectorio Titiniana lac solito libentius bibit. Condiscipula interrogat cur. «Ossa mea aedifico», respondet. «Post duo lustra nova ossa habebo.»\n\nQuaestiones:\nCur Titiniana ossa elegit?\nQuia avia eius ossa tenuia habet, et ipsa mirabatur quomodo os, res tam dura, cibo et motu mutari possit.\nQuid medica Scriboniana de ossibus dicit?\nDicit ossa esse materiam vivam, et intra duo fere lustra totum corpus ossa nova habere.\nQuid hoc anno in calcaria celebratur?\nCalcaria centesimum natalem celebrat, a die quo prima fornax accensa est.\nEx quo saxo milliarium ad portam factum est?\nEx eodem saxo quod in calcaria coquebatur.\nQuae est explicatio etymologica nominis calcii?\nAntiqui saxum album calcem vocabant, et docti elemento in hoc saxo invento nomen calcium a calce dederunt."
+    },
+    {
+      "title": "Spiritus in lacu Lario",
+      "summary": "On Lake Como a rower takes a friend out at dawn and teaches her to breathe out fully with each stroke, explaining what the air we breathe is made of.",
+      "newWords": [
+        "matutinus",
+        "sudus",
+        "remigo",
+        "vacuo",
+        "argon",
+        "orca",
+        "plumo",
+        "diverto"
+      ],
+      "text": "Sittiana, quae Leuci habitat, per decem annos in lacu Lario remigat. Paene cotidie, antequam ad officium eat, cymbam suam angustam in aquam deducit. Cursus matutinus, ut dicit, totum diem eius format: post horam in lacu corpus calidum est, mens serena. Hoc vere amicam suam Mescinianam, quae nuper Leucum migravit et sedentariam vitam agit, secum ducere statuit.\n\nDies sudus est. Caelum sudum supra montes pallescit, nulla nubes apparet, aqua quasi speculum iacet. «Talis dies sudus raro est», inquit Sittiana, dum cymbam duplicem parat. «Aer matutinus frigidus est sed purus. Hodie bene spirabis.» Mesciniana in sella anteriore considit et remos timide capit.\n\nPrimum Sittiana ei monstrat quomodo remigare oporteat. Qui remigat, pedes firmat, crura extendit, deinde corpus retro inclinat et bracchiis remum ad pectus trahit. «Non bracchiis remigamus», inquit, «sed cruribus. Bracchia tantum perficiunt quod crura incipiunt.» Mesciniana post paucos ictus anhelat. Sittiana subridet: «Spiritum tenes. Hic est error omnium qui remigare discunt.»\n\nTum ei explicat quomodo spirandum sit. Cum remus aquam trahit, pulmones vacuare debet; cum corpus redit, aerem novum haurire. «Qui pulmones non vacuat», inquit, «aerem veterem retinet, et nihil novi intrare potest. Pulmones vacuare primum est; implere postea sponte fit.» Mesciniana temptat, et post aliquot ictus ordo spiritus cum ordine remorum convenit.\n\nDum lente remigant, Mesciniana, quae multa legere amat, interrogat quid revera spiremus. Sittiana, quae in schola chemiam didicit, explicat aerem non esse unam rem. «Quattuor fere partes ex quinque nitrogenium sunt, quod corpus non adhibet. Paulo plus quam quinta pars oxygenium est, quo vivimus. Reliqua minima sunt: inter ea argon, quod vix centesimam partem aeris efficit. Argon gas iners est: nec ardet nec cum aliis rebus se coniungit. Totum per pulmones nostros intrat et iterum exit, nihil agens.» Mesciniana ridet: «Argon igitur hospes est qui numquam cenat.»\n\nSittiana deinde narrat de orcis, quas in oceano spectare olim potuit. Orca, quamvis pulmonibus spiret sicut nos, diu sub aqua manet. «Orca», inquit, «oxygenium magna ex parte non in pulmonibus, sed in sanguine et musculis servat. Itaque, cum descendit, pulmones paene vacuare potest, neque tamen ei spiritus deficit.» Mesciniana dicit se libenter orcas aliquando visuram.\n\nPrope ripam Sittiana cymbam in sinum parvum divertit, ubi cycni nidum habent. Aestate superiore, ut narrat, pulli hic nati sunt; tunc grisei et molles erant, sed per aestatem plumaverunt, et nunc albi cum parentibus natant. «Pulli cycnorum lente plumant», inquit. «Primum lanugine teguntur, deinde pennae crescunt.» Paulisper in sinu manent, tum cymbam iterum in lacum apertum divertunt et domum redeunt.\n\nIn ripa Mesciniana fessa sed laeta est. Dicit se numquam tam profunde spiravisse. Sittiana eam invitat ut cursum matutinum secum saepius faciat. «Cras?» rogat Mesciniana. «Si dies iterum sudus erit», respondet Sittiana.\n\nQuaestiones:\nCur Sittiana cursum matutinum amat?\nQuia post horam in lacu corpus calidum est et mens serena, et cursus totum diem eius format.\nQuomodo remigare oportet?\nCruribus potius quam bracchiis remigare oportet; bracchia tantum perficiunt quod crura incipiunt.\nCur pulmones vacuare primum est?\nQuia qui pulmones non vacuat aerem veterem retinet, et nihil novi intrare potest.\nQuid est argon?\nArgon est gas iners, quod vix centesimam partem aeris efficit et nihil in corpore agit.\nQuomodo orca diu sub aqua manet?\nOxygenium magna ex parte in sanguine et musculis servat, itaque cum descendit pulmones paene vacuare potest."
+    },
+    {
+      "title": "De medicina empirica",
+      "summary": "A professor in Padua writes a column on the ancient empirical doctors, who trusted only what they had seen, and on an eighteenth-century mechanical duck that seemed to digest its food.",
+      "newWords": [
+        "empirica",
+        "empirice",
+        "advoco",
+        "auxiliarius",
+        "miseror",
+        "benevolens",
+        "compaciscor",
+        "automaton"
+      ],
+      "text": "Ovinianus, qui Patavii historiam medicinae docet, hoc commentariolum ephemeridi urbanae scripsit.\n\nCum aegrotus hodie medicum advocat, exspectat ut medicus causam morbi sciat. Antiquis autem temporibus medici de hac re acriter disputabant. Alii, qui se rationales vocabant, putabant medicum primum naturam corporis interiorem intellegere debere: quomodo cibus coquatur, quomodo sanguis moveatur, unde febris oriatur. Alii, qui empirici appellabantur, hoc totum vanum esse dicebant. Causas latentes nemo videre potest, aiebant; medico satis est scire quid saepe profuerit et quid saepe nocuerit. Haec doctrina Graece empirice vocabatur, id est ars quae ex experientia sola constat.\n\nEmpirice tribus quasi columnis nitebatur. Prima erat observatio propria: medicus quod ipse saepius viderat memoria tenebat. Altera erat historia: quod alii medici viderant et scripserant, legebat. Tertia erat transitus ad simile: si remedium in uno morbo profuerat, in morbo simili temptabatur. Medicina empirica igitur non ex libris philosophorum, sed ex lecto aegroti nascebatur.\n\nMedicus empiricus, cum ad aegrotum advocabatur, saepe auxiliarios secum ducebat. Auxiliarii, plerumque iuvenes qui artem discebant, signa morbi diligenter notabant: calorem corporis, colorem cutis, somnum, appetitum. Ex his notis, per multos annos collectis, medicina empirica paulatim crescebat. Auxiliarius bonus, ut aiebant, oculos in manu habebat, id est nihil sine scriptura observabat.\n\nRatio empirica etiam mores medici formabat. Medicus enim qui aegrotum nimis miseratur facile fallitur: quod sperat, id videre se putat. Itaque empirici docebant medicum aegrotos miserari quidem debere, sed non ita ut ex misericordia iudicium amittat. Medicus benevolens, sed oculis siccis: hoc erat exemplum eorum. Benevolens enim est, qui verum dicit, non qui gratum.\n\nAlia res nobis mira videtur. Medicus et aegrotus saepe ante curationem de mercede compaciscebantur: si aegrotus convaluisset, medicus pecuniam totam acciperet; si non convaluisset, partem tantum. Hoc modo, quod hodie quoque multi laudarent, medicus non verbis, sed effectis remunerabatur. Qui ita compaciscuntur, utrique rem probare cupiunt.\n\nMultis post saeculis, saeculo duodevicesimo, artifex quidam Francogallicus automaton fecit quod omnes Europae homines admirati sunt: anatem ex aere factam, quae alas movebat, grana rostro capiebat et post breve tempus quasi digesta emittebat. Multi credebant automaton illud vere cibum coquere, et inde concludebant corpus animalium nihil esse nisi machinam. Postea tamen inventum est grana in uno vase retineri et materiam iam paratam ex altero emitti: automaton digerere non poterat, sed tantum simulabat.\n\nHoc automaton semper mihi empiricos antiquos in memoriam revocat. Illi enim monebant ne quid de corpore crederetur quod non ipsi vidissent. Qui anatem illam aperuisset, ut empirici iubebant, fraudem statim invenisset. Ita empirice, quamvis antiqua, hodie quoque viget: omnis medicus qui hodie remedium in multis aegrotis probat, priusquam id commendat, discipulus est empiricorum.\n\nQuaestiones:\nQuid empirici de causis morborum dicebant?\nDicebant causas latentes neminem videre posse, et medico satis esse scire quid saepe profuerit et quid nocuerit.\nQuibus tribus columnis empirice nitebatur?\nObservatione propria, historia et transitu ad simile.\nQuid auxiliarii medicorum faciebant?\nSigna morbi diligenter notabant: calorem corporis, colorem cutis, somnum, appetitum.\nDe qua re medicus et aegrotus saepe compaciscebantur?\nDe mercede: si aegrotus convaluisset, medicus totam pecuniam acciperet, si non, partem tantum.\nQuid automaton anatis revera faciebat?\nGrana in uno vase retinebat et materiam iam paratam ex altero emittebat; digerere non poterat."
+    },
+    {
+      "title": "Hortus pro dorso",
+      "summary": "In Lucca a retired woman whose physiotherapist prescribes gardening plants a vegetable bed from nursery seedlings, digging, manuring and sweeping with her neighbour, and learns to bend her knees, not her back.",
+      "newWords": [
+        "plantarium",
+        "planto",
+        "fosso",
+        "fimum",
+        "germen",
+        "caudex",
+        "abscindo",
+        "desido",
+        "verro"
+      ],
+      "text": "Naeviana, septuaginta annos nata, Lucae in domo cum horto parvo habitat. Totam vitam in bibliotheca laboravit, et nunc genua et dorsum eius rigida sunt. Medica quae corpus eius exercet ei non pilulas, sed laborem dedit: «Hortum cole», inquit. «Qui fodit, plantat, verrit, toto corpore laborat, sed lente et cum gaudio.» Simul eam docuit dorsum rectum tenere et genua flectere, cum aliquid ex terra tollat.\n\nHortus Naevianae diu neglectus est. In medio caudex veteris piri stat, quam pater eius olim plantavit et quae ante multos annos arida facta est. Rami sicci ex caudice adhuc prominent, et herbae altae undique crescunt. Umbriana, vicina iuvenis quae in horto suo multa olera colit, auxilium offert.\n\nPrimo die feminae ramos aridos a caudice abscindunt. Umbriana serra utitur, Naeviana forfice; virgas tenues abscindere facile est, crassas difficile. Caudicem ipsum non tollunt. «Caudex manet», dicit Naeviana. «Pater meus hanc arborem plantavit. In caudice sedebo, cum fessa ero.» Deinde herbas evellunt et terram fossare incipiunt. Naeviana lente fossat, genibus flexis, ut medica iussit, et post quemque sulcum paulisper requiescit.\n\nPostridie Umbriana fimum equinum adfert, quod a vicino agricola accepit. Fimum in terram fossatam spargunt et cum ea miscent. Odor primum ingratus est, sed Umbriana affirmat nihil melius terrae esse quam fimum bene maturum. «Fimum terram nutrit», inquit, «sicut cibus corpus.»\n\nTum ad plantarium in extrema urbe eunt, ubi plantae novellae in ollis parvis venduntur. In plantario longi ordines lactucarum, tomatarum et herbarum odoratarum stant. Hortulanus plantarii eis explicat quae plantae sole, quae umbra gaudeant. Naeviana viginti plantulas emit et domum portat.\n\nPlantas in ordinibus rectis plantant. Naeviana in genibus super pulvinum laborat, ne genua laedat. Post plantationem terram aqua rigant, et terra circum radices lente desidit. «Terra semper paulum desidit post primam aquam», explicat Umbriana. «Si desidere non posset, aer inter radices maneret et plantae siccarentur.» Ubi terra desedit, Naeviana paulum terrae novae addit.\n\nHortum post opus semper verrunt. Naeviana scopas longas emit, ut recta stans verrere possit; folia et terram ex semita in acervum verrit. Verrere, ut medica dixerat, umeros et dorsum leniter movet.\n\nPost octo dies Naeviana primum germen videt: semina herbae, quae ipsa in angulo sparserat, terram rumpunt. Germen viride et tenue est, sed firmum. Cotidie mane germina nova numerat; tandem desinit, quia tot sunt. Post duos menses genua minus dolent, et Naeviana in caudice sedens hortum viridem spectat. «Hic hortus me curat», inquit, «non ego eum.»\n\nQuaestiones:\nCur medica Naevianae hortum colere suasit?\nQuia qui hortum colit toto corpore laborat, sed lente et cum gaudio.\nCur Naeviana caudicem veteris piri non tollit?\nQuia pater eius hanc arborem plantavit, et ipsa in caudice sedere vult cum fessa erit.\nQuid feminae in terram fossatam spargunt?\nFimum equinum spargunt et cum terra miscent.\nQuid fieret, si terra post primam aquam desidere non posset?\nAer inter radices maneret, et plantae siccarentur.\nQuid Naeviana post octo dies videt?\nPrimum germen herbae videt, viride et tenue sed firmum."
+    },
+    {
+      "title": "Mannus in nive",
+      "summary": "Near York a girl with a weak back rides a pony in winter with her instructor, who leads it by the bridle along a frozen path, past a hind and a barking dog.",
+      "newWords": [
+        "mannus",
+        "frenum",
+        "hibernum",
+        "comito",
+        "cerva",
+        "herus",
+        "proximo"
+      ],
+      "text": "Duiliana, puella novem annorum, prope Eboracum cum parentibus habitat. Dorsum eius debile est, et medicus parentibus suasit ut filia equitare disceret: equitatio enim musculos dorsi et ventris firmat et corpus rectum tenere docet. Itaque singulis hebdomadibus Duiliana ad villam rusticam venit, ubi Veturiana pueros in mannis equitare docet.\n\nMannus Duilianae parvus et fuscus est, crinibus densis et oculis placidis. Iuba eius longa est, cauda paene terram tangit. Tempore hiberno, ut Veturiana explicat, manni pilos crassiores habent, qui eos contra frigus tegunt; ideo hic mannus nunc quasi ursulus lanatus videtur. Manni ex regionibus frigidis originem ducunt et frigus hibernum facilius ferunt quam equi magni.\n\nHoc mane terra nive tecta est, caelum hibernum album et quietum. Veturiana mannum ex stabulo ducit et frenum ei imponit. Duilianam docet quomodo frenum teneat: habenae inter digitos, manus quietae et humiles. «Frenum non est ut manno noceas», inquit, «sed ut cum eo loquaris. Si manus tua quieta est, mannus quoque quietus erit.»\n\nDuiliana in sellam ascendit. Veturiana eam monet ut recta sedeat, umeris demissis, calcibus deorsum versis. Deinde mannum ad semitam ducit. Primis hebdomadibus ipsa semper pedibus mannum comitavit, manu frenum tenens, et hodie quoque eum comitabit. Duo canes villae, qui equites semper comitant, post eos currunt. «Ego te comitabo», inquit Veturiana, «donec ipsa sola equitare poteris.»\n\nPer semitam inter saepes lente procedunt. Nix sub ungulis manni crepat, spiritus eorum in aere frigido quasi fumus albus surgit. Duiliana primo rigida sedet, sed mox corpus eius gressum manni sequi incipit, et dorsum sponte se erigit.\n\nIn prato ad silvam cerva stat et eos spectat. Duiliana numquam cervam tam prope viderat. Veturiana mannum consistere iubet. Cerva caput tollit, aures movet, deinde lente proximat, quasi mannum salutare velit. «Cerva mannum non timet», susurrat Veturiana, «quia mannus herbam edit sicut ipsa.» Paulo post cerva in silvam redit.\n\nPrope viam publicam canis alienus, magnus et niger, subito latrare incipit. Mannus aures retro vertit. Herus canis, senex cum baculo, eum statim revocat. Canis ad herum suum recurrit et iuxta eum considit. Herus veniam petit et dicit canem suum equos amare, sed nimis clamose eis proximare. Duiliana manus quietas tenet, ut didicit, et mannus mox iterum placidus procedit.\n\nAd stabulum reversa Duiliana frenum manno detrahit et ei malum dat. Veturiana eam laudat: hodie rectius sedit quam umquam. Domum rediens Duiliana matri narrat de cerva, de cane et hero eius, et de manno qui frigus hibernum non curat.\n\nQuaestiones:\nCur Duiliana equitare discit?\nQuia dorsum eius debile est, et equitatio musculos dorsi et ventris firmat.\nCur mannus tempore hiberno quasi ursulus lanatus videtur?\nQuia tempore hiberno manni pilos crassiores habent, qui eos contra frigus tegunt.\nQuomodo Duiliana frenum tenere debet?\nHabenas inter digitos tenere debet, manibus quietis et humilibus.\nQuid cerva facit, cum mannum videt?\nCaput tollit, aures movet et lente proximat, quasi mannum salutare velit.\nQuid herus canis facit, cum canis latrat?\nEum statim revocat, et canis ad herum suum recurrit."
+    }
+  ]
+}
