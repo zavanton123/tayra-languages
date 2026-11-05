@@ -174,7 +174,7 @@ data class Exercise(
     val sentenceTranslation: String? = null,
     /** The choices, the right one among them; empty when the answer is typed. */
     val options: List<String> = emptyList(),
-    /** The sentence's words, shuffled, to build it from; empty but for building the sentence. */
+    /** The sentence's words without the punctuation around them, shuffled, to build it from; empty but for building the sentence. */
     val tiles: List<String> = emptyList(),
     /** The right choice, or what is to be typed. */
     val answer: String,
@@ -430,8 +430,10 @@ object PracticeBuilder {
             }
             ExerciseType.BUILD -> {
                 val translation = translations[word.sentence]?.trim()?.takeIf { it.isNotEmpty() } ?: return null
-                val parts = word.sentence.trim().split(Regex("""\s+"""))
-                if (parts.size !in MIN_BUILT..MAX_BUILT) return null
+                // Without the marks around the words, as the last word's full stop would give it away. Those inside belong to the word ("segunda-feira").
+                val parts = word.sentence.trim().split(Regex("""\s+""")).map { it.replace(Regex("""^\p{P}+|\p{P}+$"""), "") }.filter { it.isNotEmpty() }
+                // Words all alike have no order to find.
+                if (parts.size !in MIN_BUILT..MAX_BUILT || parts.distinct().size < 2) return null
                 // Shuffled so they never stand in their own order already.
                 var tiles = parts.shuffled(random)
                 while (tiles == parts) tiles = parts.shuffled(random)
@@ -623,9 +625,10 @@ object PracticeChecker {
     }
 
     // An accent typed apart from its letter is joined to it; marks with no letter to join stay, to be taken off with the accents.
+    // An apostrophe counts only inside a word: around one it is a quotation mark.
     private fun normalize(text: String): String =
         Unicode.nfc(text.lowercase()).map { if (it.isLetterOrDigit() || it == '\'' || it == '’' || Unicode.combiningClass(it) != 0) it else ' ' }.joinToString("")
-            .replace('’', '\'').trim().replace(Regex("""\s+"""), " ")
+            .replace('’', '\'').trim().split(Regex("""\s+""")).map { it.trim('\'') }.filter { it.isNotEmpty() }.joinToString(" ")
 
     /** Letters whose mark is drawn through them, so no decomposition takes it off. */
     private val STROKED = mapOf('ł' to 'l', 'ø' to 'o', 'đ' to 'd', 'ħ' to 'h')

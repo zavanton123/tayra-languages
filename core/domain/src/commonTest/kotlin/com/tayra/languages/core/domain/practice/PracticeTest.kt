@@ -4,6 +4,7 @@ import com.tayra.languages.core.domain.flashcards.Cloze
 import kotlin.random.Random
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertNull
 import kotlin.test.assertTrue
 
 class PracticeTest {
@@ -151,8 +152,33 @@ class PracticeTest {
         val built = asked.single()
         assertTrue(built.wholeSentence)
         assertEquals(built.sentence, built.answer)
-        assertEquals(listOf("Brasil.", "Eu", "moro", "no"), built.tiles.sorted())
-        assertTrue(built.tiles != listOf("Eu", "moro", "no", "Brasil."))
+        assertEquals(listOf("Brasil", "Eu", "moro", "no"), built.tiles.sorted())
+        assertTrue(built.tiles != listOf("Eu", "moro", "no", "Brasil"))
+    }
+
+    /** No tile shows punctuation, least of all the last word's full stop, and a sentence built from them is right whatever marks it had. */
+    @Test
+    fun theWordsToBuildFromCarryNoPunctuation() {
+        fun tiles(sentence: String): List<String>? {
+            val word = word(Regex("""\p{L}+""").find(sentence)!!.value, "x", sentence)
+            val setup = PracticeSetup(types = setOf(ExerciseType.BUILD), responses = setOf(PracticeResponse.CHOOSE), length = null)
+            return PracticeBuilder.build(listOf(word), emptyList(), random = Random(1), setup = setup, translations = mapOf(sentence to "[x]")).singleOrNull()?.tiles?.sorted()
+        }
+        fun built(sentence: String, vararg inOrder: String) {
+            assertEquals(inOrder.sorted(), tiles(sentence), sentence)
+            assertEquals(TypedResult.CORRECT, PracticeChecker.check(sentence, inOrder.joinToString(" ")), sentence)
+        }
+
+        built("Ele era o líder do movimento.", "Ele", "era", "o", "líder", "do", "movimento")
+        built("Onde, afinal, está ela?!", "Onde", "afinal", "está", "ela")
+        built("¿Dónde está «Ana»?", "Dónde", "está", "Ana")
+        built("'Olá', disse a Ana.", "Olá", "disse", "a", "Ana")
+        built("A segunda-feira é d'água, não?", "A", "segunda-feira", "é", "d'água", "não")
+        built("E Emily não é muito forte .", "E", "Emily", "não", "é", "muito", "forte")
+        built("Ele veio — e foi embora.", "Ele", "veio", "e", "foi", "embora")
+
+        assertNull(tiles("Muito bom !"), "two words once the mark is not counted")
+        assertNull(tiles("sim, sim, sim."), "words all alike have no order to find")
     }
 
     /**
@@ -292,6 +318,8 @@ class PracticeTest {
         assertEquals(TypedResult.ALMOST, PracticeChecker.check("família", "familia"))
         assertEquals(TypedResult.ALMOST, PracticeChecker.check("irmãos", "irmaos"))
         assertEquals(TypedResult.WRONG, PracticeChecker.check("família", "famílias"))
+        assertEquals(TypedResult.CORRECT, PracticeChecker.check("'Olá', disse", "olá disse"), "quotation marks do not count")
+        assertEquals(TypedResult.TYPO, PracticeChecker.check("d'água", "dagua"), "an apostrophe inside a word does")
         assertEquals(TypedResult.WRONG, PracticeChecker.check("família", "  "))
         assertEquals(TypedResult.CORRECT, PracticeChecker.check("Eu moro no Brasil.", "eu moro no brasil"))
         assertEquals(TypedResult.CORRECT, PracticeChecker.check("d'água", "d’água"))

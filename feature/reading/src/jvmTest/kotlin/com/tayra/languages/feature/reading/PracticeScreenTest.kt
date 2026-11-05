@@ -367,8 +367,8 @@ class PracticeScreenTest {
         assertEquals("Eu moro no Brasil.", exercise.answer)
         onNodeWithText("PUT THE WORDS IN ORDER").assertExists()
         assertEquals(0, onAllNodesWithTag("practice-sentence").fetchSemanticsNodes().size, "the sentence is what is built")
-        for (part in exercise.answer.split(" ")) onNodeWithTag("practice-tile-${exercise.tiles.indexOf(part)}").performClick()
-        assertEquals(exercise.answer, viewModel.state.value.typed)
+        for (part in listOf("Eu", "moro", "no", "Brasil")) onNodeWithTag("practice-tile-${exercise.tiles.indexOf(part)}").performClick()
+        assertEquals("Eu moro no Brasil", viewModel.state.value.typed, "no tile brings its punctuation")
         shot("build")
         onNodeWithText("Check").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
