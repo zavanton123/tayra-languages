@@ -1,0 +1,197 @@
+{
+  "id": "la-mini-9700",
+  "rankUpTo": 9700,
+  "level": "C2",
+  "title": "Horti et res herbaria",
+  "description": "Nine standalone stories and one letter about gardens and botany: a botanical garden tour in Padua, pruning an apple orchard, a beekeeper's garland flowers, a hanging garden in Milan, a garden designer's rejected plan, a runaway rabbit, Latin verses in an alpine garden, a herb garden in an old Venetian customs house, a garden for blind visitors and a dentist's meadow.",
+  "topic": "Gardens and botany",
+  "names": [
+    "Lartidia",
+    "Considianus",
+    "Patavium",
+    "Europa",
+    "October",
+    "Pontidius",
+    "Fulviola",
+    "Bauzanum",
+    "Aprilis",
+    "Egilius",
+    "Caprenia",
+    "Arretium",
+    "Roma",
+    "Iulius",
+    "Oclatia",
+    "Lucilianus",
+    "Mediolanum",
+    "Vinuleia",
+    "Crispinianus",
+    "Tanusius",
+    "Tibur",
+    "Dellia",
+    "Matienus",
+    "Verona",
+    "Statianus",
+    "Orfidia",
+    "Bellunum",
+    "Iunius",
+    "Apronilla",
+    "Coccius",
+    "Venetiae",
+    "Sallia",
+    "Quintilius",
+    "Vibianus",
+    "Neapolis",
+    "Flavianus",
+    "Ulpiola",
+    "Luca"
+  ],
+  "lessons": [
+    {
+      "title": "Hortus herbarius Patavii",
+      "summary": "In Padua a botany student about to graduate guides visitors round the old garden: wheelchair paths, the cassia tree, lance-shaped leaves, coloured bracts and a palimpsest in the garden's library.",
+      "newWords": [
+        "graduatio",
+        "accessibilis",
+        "cassia",
+        "lanceolatus",
+        "bractea",
+        "dilucidus",
+        "palimpsestus",
+        "indubito"
+      ],
+      "text": "Lartidia, quae Patavii rei herbariae studet, aestate in horto herbario urbis visitatores circumducit. Hortus, saeculo XVI conditus, inter vetustissimos Europae habetur. Graduatio Lartidiae mense Octobri erit, et ante graduationem hoc munus libenter suscepit, ut plantas quas adhuc in libris tantum viderat cotidie coram inspiceret.\n\nMane quodam professor Considianus, qui dissertationem eius moderatur, cum parva caterva visitatorum ad portam advenit. Inter eos erat senex in sella cum rotis sedens. Lartidia primum semitas novas ostendit, quae anno superiore stratae sunt ut hortus omnibus accessibilis fieret. «Olim gradus et saxa multis aditum negabant», inquit. «Nunc omnes partes horti, etiam domus vitreae, sellis cum rotis accessibiles sunt.» Senex risit et dixit se primum post multos annos totum hortum sine auxilio videre posse.\n\nIn domum vitream intraverunt, ubi arbor cassiae crescit. Lartidia folium cassiae carpsit et inter digitos contrivit; odor dulcis statim aerem implevit. «Mercatores olim corticem cassiae ex terris longinquis afferebant», explicavit, «et multi emptores cassiam pro cortice cariore emebant, quia similem odorem habet et pretio minore vendebatur.»\n\nDeinde folia ipsa ostendit. «Videtis folia longa et angusta, media parte latissima, in apicem acutum desinentia. Periti talia folia lanceolata vocant. Etiam salicis et oleae folia lanceolata sunt.» Visitatores folia lanceolata cum foliis rotundis vicinae plantae comparabant.\n\nIn angulo domus vitreae frutex floribus purpureis fulgebat. Mulier quaedam colorem florum laudavit, sed Lartidia dilucide explicavit colorem illum non esse florum, sed bractearum. «Bracteae sunt folia mutata, quae flores parvos et pallidos cingunt et insecta alliciunt. Nomen a bractea ductum est, id est a lamina aurea tenuissima, quam artifices olim in tabulas pictas et libros inducebant; nam bracteae plantarum saepe tenues et nitidae sunt.» Considianus adnuit; tam dilucidam explicationem raro audiverat.\n\nPostremo Lartidia visitatores in bibliothecam horti duxit, ubi sub vitro codex vetus iacet. «Hic liber palimpsestus est», inquit. «Indubitatum est librarium quendam saeculo XV verba vetustiora delevisse et in eadem membrana iterum de herbis scripsisse; nunc, luce singulari adhibita, utraque scriptura legi potest.» Tum Considianus addidit totum hortum quasi palimpsestum esse: per quinque saecula areae mutatae et semitae novae stratae sunt, sed forma prima, circulus muro cinctus, sub omnibus mutationibus adhuc apparet.\n\n«Indubitatum est», inquit senex, «me hodie plura didicisse quam ex multis libris.» Considianus quoque Lartidiae dixit se indubitate credere eam post graduationem optimam magistram futuram esse.\n\nQuaestiones:\nCur Lartidia visitatores per hortum ducit?\nQuia ante graduationem plantas quas in libris tantum viderat coram inspicere vult.\nCur semitae novae stratae sunt?\nStratae sunt ut hortus omnibus, etiam sellis cum rotis, accessibilis fieret.\nQuid Lartidia dilucide explicat de frutice purpureo?\nExplicat colorem illum non esse florum, sed bractearum.\nQualia sunt folia lanceolata?\nLonga et angusta sunt, media parte latissima, in apicem acutum desinentia.\nUnde nomen bracteae ductum est?\nA lamina aurea tenuissima ductum est, quam artifices olim in tabulas et libros inducebant.\nCur Considianus hortum palimpsestum esse dicit?\nQuia per quinque saecula multa mutata sunt, sed forma prima adhuc apparet."
+    },
+    {
+      "title": "Inter arbores pomorum",
+      "summary": "Near Bolzano an old apple grower with a bad knee teaches his granddaughter to sharpen tools, cut out cankered branches and prune young trees, and they save the blossom from a night frost.",
+      "newWords": [
+        "claudico",
+        "expolio",
+        "ulcerosus",
+        "enodo",
+        "attollo",
+        "laboriosus",
+        "tarditas",
+        "denigro"
+      ],
+      "text": "Pontidius, qui prope Bauzanum magnum hortum pomorum habet, iam septuaginta annos natus est. Ab hieme superiore paulum claudicat, quia genu dextrum ei dolet, neque scalas iam facile ascendit. Itaque neptis eius Fulviola, quae rei agrariae studet, mense Aprili domum rediit ut avum in arboribus curandis adiuvaret.\n\nAntequam opus incipiunt, Pontidius in horreo cultellum curvum et serram parvam cote expolit, donec utriusque acies nitet. «Ferrum bene expolitum», inquit, «ramum secat neque lacerat, et arbor vulnus leve facile sanat.» Fulviola ipsa alterum cultellum expolire conatur, sed avus, aciem digito temptans, eam diutius laborare iubet.\n\nPrima luce in hortum exeunt. Pontidius claudicans inter ordines arborum ambulat, baculo innixus, et Fulviola scalas portat. «Noli putare me claudicare quia senex sum», inquit avus ridens. «Claudico quia quinquaginta annos in his scalis steti.»\n\nPrimum ad arborem veterem veniunt, cuius cortex multis locis ulcerosus est: maculae fuscae et fissae truncum et ramos maiores tegunt. «Haec arbor ulcerosa est», inquit Pontidius. «Fungus minutus per parvam rimam in corticem intravit, et nunc ramus ulcerosus totus siccatur.» Fulviola ramos ulcerosos serra abscindit et procul ab aliis arboribus comburit, ne fungus latius diffundatur.\n\nDeinde ad arbores iuvenes transeunt. Avus nepti ostendit quomodo arbor enodanda sit: ramuli parvi, qui ex trunco erumpunt, ita abscinduntur ut nullus nodus maneat. «Arborem enodare», inquit, «est viam lucis aperire; fructus enim in umbra non maturescit.» Fulviola scalas attollit et ad truncum applicat; tum oculos ad cacumen attollit et ramos numerat. Pontidius, qui ascendere non potest, baculum attollens quemque ramum monstrat: «Hunc relinque, illum abscinde.» Sic una arborem post arborem enodant.\n\nOpus laboriosum est. Post tres horas Fulviola bracchia vix sustinet. «Ars nostra laboriosa est», inquit avus, «sed olim magis laboriosa erat, cum omnes arbores altissimae erant.» Fulviola rogat quando arbores iuvenes multum fructum daturae sint. «Post quinque vel sex annos», respondet Pontidius. Fulviola, quae in universitate de machinis et seminibus novis audivit, tarditatem naturae queritur. «Noli tarditatem culpare», inquit avus. «Tarditas arboris est eius firmitas: quod lente crescit, diu durat.»\n\nVespere caelum serenum est et frigus crescit. Hoc anno ver maturum est, et primi flores iam apparent. Pontidius timet ne frigus flores denigret. «Abhinc tres annos», narrat, «una nocte frigus omnes flores denigravit; mane totus hortus quasi igni denigratus videbatur.» Itaque ante mediam noctem aquam per tubos in arbores aspergunt, quia glacies tenuis flores contra frigus maius tuetur. Mane flores incolumes sub glacie lucent, et Pontidius, paulum claudicans, neptem ad ientaculum vocat.\n\nQuaestiones:\nCur Pontidius claudicat?\nQuia genu dextrum ei dolet; ipse dicit se quinquaginta annos in scalis stetisse.\nCur ferrum expolitum melius est?\nQuia ramum secat neque lacerat, et arbor vulnus leve facile sanat.\nQualis est cortex arboris ulcerosae?\nMaculae fuscae et fissae truncum et ramos maiores tegunt.\nQuid significat arborem enodare?\nSignificat ramulos parvos ita abscindere ut nullus nodus maneat et lux ad fructus perveniat.\nQuid Pontidius de tarditate dicit?\nDicit tarditatem arboris eius firmitatem esse, quia quod lente crescit diu durat.\nQuomodo flores contra frigus servant?\nAquam per tubos in arbores aspergunt, quia glacies tenuis flores contra frigus maius tuetur."
+    },
+    {
+      "title": "Mel et flores coronarii",
+      "summary": "Near Arezzo an old beekeeper shares porridge and honey with his niece, shows her the garland flowers and scarlet poppies round the hives, explains how bees thicken nectar, and they sell jugs of honey at the summer fair.",
+      "newWords": [
+        "apiarius",
+        "aestivalis",
+        "puls",
+        "coronarius",
+        "coccineus",
+        "alteruter",
+        "condenso",
+        "urceus"
+      ],
+      "text": "Egilius, apiarius senex qui prope Arretium habitat, in colle aprico apiarium tenet, in quo viginti alvei stant. Mense Iulio Caprenia, filia fratris eius, quae Romae in officio laborat, per ferias aestivales ad eum venit, ut opus apiarii non ex libris sed manibus cognoscat. Feriae enim aestivales, ut Egilius dicit, hominibus sunt, apibus nullae.\n\nAnte solis ortum Egilius pultem ex avena coquit et cochlear mellis in pultem infundit. «Apiarii veteres», inquit, «ante opus pultem edunt, non panem: puls stomachum calefacit neque manus inficit.» Caprenia, quae numquam pultem ederat, primo dubitat, sed post primum cochlear totam pultem consumit.\n\nCirca apiarium hortus floribus plenus iacet, quem Egilius hortum coronarium vocat. Olim enim mulieres vici ibi flores coronarios carpebant, id est rosas, violas et herbas odoratas, ex quibus coronas ad festa nectebant. Nunc plantae coronariae apibus cibum per totam aestatem praebent. In medio horto papavera coccinea fulgent. «Apes colorem coccineum non vident», inquit Egilius. «Papaver coccineum eis aliter apparet, quia lucem quandam remittit quam oculi nostri non percipiunt. Nos colorem laudamus, apes lucem illam sequuntur.»\n\nInde ad duos alveos veniunt, qui in extremo ordine stant. Ante eos apes pauciores volant quam ante ceteros. «Alterutri alveo cibus deest», inquit Egilius, «sed extrinsecus dici non potest utri.» Alterutrum igitur Capreniam aperire iubet. In primo alveo omnia plena sunt; in altero cellae vacuae apparent. Egilius ex alveo validiore cratem mellis in infirmiorem transfert, et apes mox tranquillius volant.\n\nCaprenia deinde rogat cur mel tam spissum sit, cum nectar paene aquae simile sit. «Apes nectar condensant», explicat Egilius. «Noctu alis ventum in alveo faciunt, et aqua paulatim evanescit, donec nectar condensatum in mel vertatur. Mel nondum condensatum cito corrumpitur. Itaque apiarius exspectat donec apes cellas cera clauserint; tum scit mel satis condensatum esse.»\n\nPostero mane cratem cera clausam in machinam ponunt, et mel lente in magnum urceum fluit. Egilius urceum ex argilla, quem pater eius olim fecit, numquam lavat nisi aqua frigida. Ex eo urceo mel in urceos minores infundunt, quos Caprenia numerat et signat.\n\nVesperi in foro vici festum aestivale est. Caprenia coronam ex floribus coronariis nectit et capiti imponit, et ad mensam patrui sedens urceos mellis vendit. Ante solis occasum omnes urcei venduntur. «Cras», inquit Egilius ridens, «iterum pultem edemus et ad apes redibimus.»\n\nQuaestiones:\nCur Caprenia ad Egilium venit?\nVenit ut opus apiarii non ex libris sed manibus cognoscat.\nCur apiarii veteres pultem edunt?\nQuia puls stomachum calefacit neque manus inficit.\nCur hortus coronarius vocatur?\nQuia olim mulieres vici ibi flores coronarios ad coronas nectendas carpebant.\nQuid apes de colore coccineo sentiunt?\nColorem coccineum non vident, sed lucem quandam sequuntur quam oculi nostri non percipiunt.\nQuomodo apes nectar condensant?\nNoctu alis ventum in alveo faciunt, et aqua paulatim evanescit.\nQuid Caprenia in festo aestivali vendit?\nUrceos mellis vendit, et omnes ante solis occasum venduntur."
+    },
+    {
+      "title": "Hortus pensilis",
+      "summary": "In Milan a woman on the twelfth floor wants a garden on her terrace; an engineer checks the floor tiles, chooses a light granular soil and durable pots, and installs an inner water line with a small pneumatic pump.",
+      "newWords": [
+        "pensilis",
+        "bipedale",
+        "granulosus",
+        "durabilis",
+        "ductio",
+        "internalis",
+        "installo",
+        "pneumaticus"
+      ],
+      "text": "Oclatia, quae Mediolani duodecimo tabulato altissimi aedificii habitat, ampla area ante fenestras gaudet, sed in tota area ne una quidem herba crescit. Iam diu hortum cupiebat. Cum olim in commentario de hortis pensilibus legisset, qui in tectis et areis supra vias urbis virent, statuit hortum pensilem sibi facere. Itaque Lucilianum arcessivit, machinatorem qui multos hortos pensiles in hac urbe instituit.\n\nLucilianus primum pavimentum inspexit, quod lapidibus magnis stratum erat. «Haec bipedalia vocantur», inquit, «quia unumquodque duos pedes longum est. Sub bipedalibus membrana aquam arcet. Si unum bipedale moverimus, aqua in tabulatum inferius penetrabit. Bipedalia igitur non tangemus, sed vasa super ea collocabimus.»\n\nDeinde de pondere locutus est. «Terra vera, quae in campis iacet, madida gravissima est; tanta massa pavimento nocere potest. Itaque terram granulosam adhibebimus.» Saccum aperuit et Oclatiae grana parva et fusca monstravit, ex argilla igne cocta. «Terra granulosa multo levior est; aquam in granis retinet, et inter grana radices aerem inveniunt.» Oclatia manum in saccum inseruit et mirata est quam leve esset genus illud terrae granulosae.\n\nDe vasis quoque diu disputaverunt. Oclatia vasa lignea malebat, quae pulchriora videbantur. «Lignum pulchrum est, sed in tanta altitudine non durabile», inquit Lucilianus. «Ventus et sol omnia consumunt. Materia durabilis nobis opus est.» Tandem vasa ex metallo durabili elegerunt, colore fusco, quae lignum paene imitantur.\n\nDifficillima autem erat aquae ductio. In area nullus fons erat, et Oclatia nolebat tubos per fenestras et parietes pendere. Itaque Lucilianus ductionem novam a culina excogitavit, quae per parietem transiret. «Haec ductio internalis erit», inquit, «ita ut nemo tubos videat. Etiam vasa partem internalem habent, ubi aqua servatur; radices inde aquam sumunt, cum sitiunt.»\n\nPostero mense operarii venerunt. Lucilianus tubos per parietem duxit et sub vasis parvum horologium installavit, quod aquam horis certis emittit. Cum tamen vasa summa, quae in muro pendent, aquam parum acciperent, machinam pneumaticam quoque installavit. Haec machina pneumatica aere compresso aquam sursum pellit, tam leniter ut sonus eius vix audiatur. «Multae domus in hac urbe», inquit, «instrumenta pneumatica adhibent, sed pauci ea intellegunt.»\n\nPostquam Lucilianus omnia installavit, Oclatia hederas, rosmarinum et parvas arbores in vasis posuit. Primo hortus pensilis pauper videbatur. Post annum tamen hedera muros tegebat, et aves ex vicinis arboribus advolabant. Vespere Oclatia inter folia sedet et strepitum viae, duodecim tabulatis inferiorem, vix audit.\n\nQuaestiones:\nQuid Oclatia sibi facere statuit?\nStatuit hortum pensilem in area ante fenestras facere.\nCur bipedalia non moventur?\nQuia sub bipedalibus membrana aquam arcet, et aqua in tabulatum inferius penetraret.\nCur terram granulosam adhibent?\nQuia terra granulosa multo levior est et aquam in granis retinet.\nCur Lucilianus vasa lignea non probat?\nQuia lignum in tanta altitudine non durabile est; ventus et sol omnia consumunt.\nQualis est ductio aquae quam Lucilianus excogitavit?\nDuctio internalis est, quae a culina per parietem transit, ita ut nemo tubos videat.\nQuid facit machina pneumatica?\nAere compresso aquam leniter sursum ad vasa summa pellit."
+    },
+    {
+      "title": "Tabula repudiata",
+      "summary": "In Tivoli a garden designer's plan full of asterisks is rejected; without excuses she studies the old garden, guesses where its paths ran, leaves a part undecided for the owner and adds a sculptor's sundial.",
+      "newWords": [
+        "asteriscus",
+        "repudiatio",
+        "excusatio",
+        "coniectio",
+        "indeterminatus",
+        "statuarius",
+        "axon"
+      ],
+      "text": "Vinuleia Tiburi hortorum artifex est. Crispinianus, qui villam veterem cum horto neglecto nuper emit, eam rogavit ut hortum novum excogitaret. Verba eius tamen indeterminata erant: «Aliquid pulchrum volo», inquit, «neque nimis magnum, neque nimis parvum.» Vinuleia, quae a multis dominis talia verba indeterminata iam audiverat, risit et ad opus se contulit.\n\nPer duas hebdomadas tabulam magnam delineavit. Ubi arbor ponenda erat, asteriscum scripsit: asteriscus ruber pirum significabat, asteriscus viridis cupressum, asteriscus caeruleus laurum. Tabula tandem plus quam centum asteriscos habebat. Cum eam Crispiniano ostendisset, ille asteriscos digito numeravit et vultum contraxit. Postridie epistolam brevem misit: tabulam sibi non placere, et de novo cogitandum esse.\n\nVinuleia hanc repudiationem aegre tulit. Tanusius, statuarius qui prope officinam eius laborat, eam tristem vidit et interrogavit quid accidisset. Cum repudiationem audivisset, «Excusationem», inquit, «ad eum mitte: dic te eius voluntatem ignorasse, quia ipse nihil certi dixit.» Sed Vinuleia caput movit. «Nullam excusationem mittam. Artifex qui dominum non intellexit excusatione non eget, sed labore. Excusatio nulli arbori prodest.»\n\nItaque in hortum neglectum rediit et totum diem ibi ambulavit, nec iam in tabula, sed in ipsa terra. Inter herbas altas lapides quosdam ordine positos invenit, et sub rubis semitam veterem esse suspicata est. Haec mera coniectio erat, sed Crispinianus, cum eam coniectionem audivisset, primum attentus factus est. Una cum Vinuleia herbas removit, et coniectio vera apparuit: duae semitae veteres per mediam aream se secabant. Crispinianus laetissimus erat. Tum dixit id quod antea verbis exprimere non potuerat: nolebat hortum novum, sed veterem sibi reddi.\n\nPost illam repudiationem Vinuleia tabulam secundam delineavit cum paucis asteriscis, et semitas veteres servavit. Partem horti consulto indeterminatam reliquit. «Hanc partem», inquit, «tu ipse determinabis, cum in hoc horto per aliquot annos ambulaveris.» Dominus delectatus est.\n\nIn loco ubi semitae se secant, Crispinianus horologium solare habere voluit. Tanusius, qui artem statuariam in officina patris didicerat, id ex marmore fecit, et in medio lapide axonem ex aere posuit. «Axon non est mera virga», explicavit Tanusius. «Axon ad polum spectare debet; nisi axon recte directus est, umbra horas falsas ostendit.» Una axonem exacte direxerunt, et postero die umbra axonis horam meridianam recte indicavit. Crispinianus laetus Tanusio statuario et Vinuleiae gratias egit.\n\nQuaestiones:\nQualia erant verba Crispiniani?\nIndeterminata erant: aliquid pulchrum volebat, neque nimis magnum, neque nimis parvum.\nQuid asterisci in tabula significabant?\nSignificabant ubi arbores ponendae essent, et color genus arboris ostendebat.\nCur Vinuleia excusationem non misit?\nQuia, ut ipsa ait, artifex qui dominum non intellexit labore, non excusatione, eget.\nQuae coniectio vera apparuit?\nConiectio de semita vetere vera apparuit: duae semitae veteres per mediam aream se secabant.\nCur Vinuleia partem horti indeterminatam reliquit?\nUt Crispinianus ipse eam determinaret, cum per aliquot annos in horto ambulavisset.\nCur axon recte dirigendus est?\nQuia, nisi axon ad polum spectat, umbra horas falsas ostendit."
+    },
+    {
+      "title": "Cuniculus qui exfugit",
+      "summary": "In Verona a boy's rabbit gets out of its hutch; his grandmother scolds a cheeky blackbird, calms the boy when a spider frightens him in the garden hut, sings him a little song and catches the rabbit by a clever trick.",
+      "newWords": [
+        "exfugio",
+        "procax",
+        "increpo",
+        "tugurium",
+        "extimesco",
+        "chelicera",
+        "canticulum",
+        "astutia"
+      ],
+      "text": "Dellia, quae prope Veronam parvum hortum habet, per ferias nepotem suum Matienum, octo annos natum, apud se tenet. Primo mane Matienus cuniculo qui in cavea sub piro habitat folia dare solet. Hodie autem caveam apertam invenit. «Avia, cuniculus exfugit!» clamat. «Ostiolum heri male clausi, et cuniculus exfugit!»\n\nDellia pedes lente in calceos inserit et in hortum exit. In semita merula sedet, quae cerasa e mensa rapuit et iam tertium in rostro tenet. Haec merula tam procax est ut ne Delliam quidem timeat. «Abi, avis procax!» eam increpat Dellia, manus quatiens. Merula paulum avolat, sed mox redit. Dellia iterum eam increpat, tum ridens addit: «Te procacem quidem increpare possum, sed non corrigere. Ad cuniculum redeamus.»\n\nPrimo sub fruticibus, deinde inter lactucas quaerunt. Lactucae duae iam arrosae sunt; cuniculus igitur procul non abest. «Fortasse in tugurio latet», inquit Dellia. In extremo horto tugurium ligneum stat, ubi instrumenta et vasa servantur. Tugurium obscurum est et odorem terrae siccae habet. Matienus primus intrat, sed subito ante faciem aranea magna in filo descendit. Puer extimescit et retro ad aviam fugit.\n\n«Noli extimescere», inquit Dellia, et eum amplectitur. «Ego quoque, cum eram parva, araneas extimui, donec eas inspexi.» In tugurio vitrum grande sumit, quo litteras minutas legere solet, et araneam in folio caute ponit. Matienus per vitrum duas parvas cheliceras videt. «Hae sunt chelicerae», explicat avia. «Cheliceris muscas capit, non pueros. Tu ei nimis magnus es.» Matienus cheliceras diu spectat et iam non tremit. Araneam ipse in murum ponit.\n\nQuia tamen adhuc paulum sollicitus est, Dellia canticulum cantare incipit, quod mater sua olim cantabat, de cuniculo qui hortum ludendo perambulat. Canticulum breve est et simplex; Matienus, iterum audito canticulo, cum avia canit.\n\nTum Dellia astutiam adhibet. «Currendo eum numquam capiemus», inquit. «Astutia opus est.» Caveam in media semita ponit, ostiolo aperto, et intus carotam recentem collocat. Deinde cum nepote post pirum sedet et rursus canticulum submissa voce cantat. Mox cuniculus e fruticibus prodit, nasum movet, circumspicit, et in caveam intrat. Matienus cito ostiolum claudit. Matienus aviam laudat. «Astutiam», inquit illa ridens, «a vulpibus didici.» Eo die Matienus ostiolum bis probat, et merula procax sola de mensa cerasa rapit.\n\nQuaestiones:\nCur Matienus clamat?\nQuia cuniculus exfugit: ostiolum caveae male clauserat.\nQuomodo Dellia merulam tractat?\nMerulam procacem increpat et manus quatit, sed merula mox redit.\nCur Matienus in tugurio extimescit?\nQuia aranea magna subito ante faciem eius in filo descendit.\nQuid chelicerae faciunt?\nCheliceris aranea muscas capit, non pueros.\nQuale est canticulum aviae?\nBreve et simplex est, et de cuniculo narrat qui hortum perambulat.\nQuam astutiam Dellia adhibet?\nCaveam apertam in semita ponit et intus carotam recentem collocat."
+    },
+    {
+      "title": "Versus inter saxa",
+      "summary": "In an alpine garden above Belluno a retired Latin teacher writes verse labels for native plants that hug the rock under the snow, and explains the optative and deponent verbs to the botanist who runs the garden.",
+      "newWords": [
+        "autochthonus",
+        "nivosus",
+        "procumbo",
+        "depasco",
+        "percontor",
+        "deponens",
+        "versificatio",
+        "optativus"
+      ],
+      "text": "Supra Bellunum, in monte cuius cacumina usque ad mensem Iunium nivosa manent, parvus hortus plantas montanas servat. Orfidia, quae hortum administrat, solam floram autochthonam colit, id est plantas quae sua sponte in his montibus nascuntur. Plantam alienam in hortum non admittit. «Flora autochthona», inquit, «ad hunc aerem et has hiemes nivosas per milia annorum se accommodavit.»\n\nStatianus, magister litterarum Latinarum qui munere iam abiit, aestate in horto gratis adiuvat. Mane per areas ambulat, herbas alienas evellit, et visitatoribus respondet. Multi enim ab eo percontantur cur salix in his saxis non altior sit quam digitus. «Haec salix procumbit», respondet percontanti cuidam. «In locis nivosis arbor quae erecta stat vento et nive frangitur; quae procumbit, sub nive tuta dormit.» Tum ostendit quomodo rami per saxa procumbant, et quomodo etiam rhododendra et iuniperi in iugo summo procumbant.\n\nExtra hortum oves pascuntur, et aliquando per sepem fractam intrant. Una ovis, ut Orfidia queritur, totam aream gentianarum uno mane depascere potest. Itaque sepes semper reficitur. «Oves prata montana depascunt», inquit, «et bene est, nam sine eis prata in silvam redirent. Hortum tamen meum depascere non debent.»\n\nOrfidia nuper Statianum rogavit ut titulos novos scriberet. Ille, qui versus amat, de flora autochthona parvos versus Latinos scribere coepit. Orfidia primum dubitavit, sed cum visitatores versus libenter legerent, versificationem eius probavit. Statianus vespere ad focum refugii sedet et de versificatione cogitat; «Versificatio», inquit, «est ars parva, sed plantam memoriae infigit.»\n\nQuodam vespere versum suum recitavit: «Floreat in saxis humilis sine frigore planta.»\n\n«Cur floreat dicis, non floret?» percontata est Orfidia. «Quia optatum est, non res», respondit ille. «Graeci modum proprium habebant, qui optativus vocatur, ut quod volumus exprimerent. Latini optativum non habent, sed coniunctivo idem efficiunt: floreat, utinam floreat. Modus optativus Latinis deest, sed optare non desinimus.» Orfidia ridens rogavit an alia quoque grammaticae secreta in titulis suis laterent.\n\n«Plurima», inquit Statianus. «Tu modo percontata es. Percontor autem verbum deponens est: forma passiva, sensu activo. Nascor quoque, quo tu de plantis tuis uteris, verbum deponens est. Discipuli mei verba deponentia oderant; at tu plantas tuas in titulis nasci dicis, et nemo queritur.» Orfidia risit et versum in titulo scribi iussit, et postridie visitatores ante salicem humilem versum legebant.\n\nQuaestiones:\nQuales plantas Orfidia colit?\nSolam floram autochthonam colit, id est plantas quae sua sponte in his montibus nascuntur.\nCur salix in locis nivosis procumbit?\nQuia arbor quae erecta stat vento et nive frangitur; quae procumbit, sub nive tuta dormit.\nQuid oves facere possunt, si in hortum intrant?\nUna ovis totam aream gentianarum uno mane depascere potest.\nCur Orfidia versificationem Statiani probavit?\nQuia visitatores versus libenter legebant.\nQuid de modo optativo Statianus dicit?\nDicit Graecos modum optativum habuisse, Latinos autem coniunctivo idem efficere.\nQuale verbum est percontor?\nVerbum deponens est: forma passiva, sensu activo."
+    },
+    {
+      "title": "Hortus in telonio",
+      "summary": "In Venice a guide shows a herb garden in the courtyard of an old customs house, telling of shipowners, the pepper monopoly and its unfairness, while a fisherman brings the fish sauce that the herbs once seasoned.",
+      "newWords": [
+        "telonium",
+        "navicularius",
+        "monopolium",
+        "iniustitia",
+        "potenter",
+        "piscatio",
+        "allec",
+        "subductio"
+      ],
+      "text": "Venetiis, ubi canalis magnus in mare exit, telonium vetus stat, in quo olim omnes merces inspiciebantur. Nunc in atrio telonii parvus hortus herbarum colitur, et Apronilla, quae eum curat, visitatores per areolas ducit. Omnes herbae, ut narrat, eae sunt quas mercatores olim per hoc telonium ferebant, aut quae cum mercibus eorum commiscebantur.\n\n«Navicularii», inquit, «haec herbarum genera ex longinquis terris portabant. Quisquis navicularius in portum intrabat, primum ad telonium venire debebat, ubi merces ponderabantur. Ibi scribae vectigal computabant: subductione facta, ex pretio mercium partem certam detrahebant et in libros referebant. Haec subductio saepe rixas movebat, quia navicularii numeros scribarum non credebant.»\n\nMonstravit deinde piper in vase crescens. «Haec parva planta olim divitias urbis fecit. Per multos annos mercatores huius urbis monopolium piperis fere tenebant: nemo in his regionibus piper emere poterat nisi ab eis. Monopolium semper pretia auget. Pauperes piper numquam gustabant, et de hac iniustitia multi querebantur. Fuit sane iniustitia, sed eo monopolio urbs tota potenter crevit.» Visitator quidam rogavit an vere iniustitia fuerit, cum piper non esset res necessaria. Apronilla respondit de tali iniustitia hodie quoque disputari; de pretio enim medicinarum non minus disputari quam olim de pretio piperis.\n\nSol iam potenter lucebat, et odor salviae et rutae per atrium diffundebatur. Tum Coccius intravit, senex piscator qui prope telonium habitat et Apronillam cotidie invisit. Piscatio, ut solet dicere, vita eius est: iam a puero in lacuna piscatur. «Piscatio hodie mala fuit», inquit, «sed hoc tibi attuli.» Vasculum parvum protulit, in quo erat allec, liquor fuscus ex pisciculis sale conditis factus. Coccius ipse allec coquit ex pisciculis quos piscatione capit et qui vendi non possunt.\n\nApronilla visitatoribus explicavit veteres cum allece herbas horti miscere solitos esse. Vasculum aperuit, et allecis odor primo multos retro pepulit. Deinde ex hoc allece paulum cum oleo et ruta et aceto miscuit et in panem infudit. Primus Coccius gustavit, deinde audacior visitator, tum omnes. Potenter sapit, sed non ingrate.\n\nPostremo Apronilla eos ad fenestram duxit, unde ripa conspicitur. Ibi piscatores naviculas suas ad vesperum in terram trahebant. «Videtis subductionem alteram», inquit ridens. «Antea numeri in telonio subducebantur, nunc naviculae in ripa. Haec subductio minus rixarum movet.»\n\nQuaestiones:\nQuid nunc in atrio telonii colitur?\nParvus hortus herbarum colitur, quem Apronilla curat.\nQuid navicularii in telonio facere debebant?\nAd telonium venire debebant, ubi merces ponderabantur et vectigal computabatur.\nQuid est monopolium piperis?\nNemo piper emere poterat nisi a mercatoribus huius urbis, itaque pretia alta erant.\nQuam iniustitiam Apronilla narrat?\nPauperes piper numquam gustabant, quia monopolium pretia augebat.\nQuid Coccius attulit?\nAttulit allec, liquorem fuscum ex pisciculis sale conditis factum.\nQuam subductionem Apronilla postremo monstrat?\nMonstrat piscatores naviculas suas in terram ad vesperum trahentes."
+    },
+    {
+      "title": "Hortus sensuum",
+      "summary": "In Naples a garden for blind visitors opens: a blind man who helped plan it gives his view, the director makes a short speech, a baritone sings a plain melody, a stilt walker delights the children and volunteers help everyone along.",
+      "newWords": [
+        "caecitas",
+        "adiuto",
+        "allocutio",
+        "cohortor",
+        "barytonus",
+        "diatonicus",
+        "grallator"
+      ],
+      "text": "Neapoli, in colle supra portum, hortus novus aperitur, qui hortus sensuum vocatur. Non tam oculis quam naso et manibus et auribus visitatur: herbae odoratae in vasis altis crescunt, ut manu tangi possint; rivulus per lapides sonat; litterae in tabulis eminent. Sallia, quae hortum administrat, eum quinque annos paravit una cum Quintilio, viro sexaginta annos nato, qui a puero caecitate laborat.\n\nQuintilius multa de caecitate docuit quae Sallia ignorabat. «Caecitas non est tenebrae», ei dixerat, cum olim in campo vacuo ambularent. «Ego mundum audio et olfacio. Da mihi semitam cuius margo pede sentiatur, et herbam quam digitis noscere possim, et non indigebo manu aliena.» Ita ex caecitate eius consilium horti natum est. Margines semitarum lapide aspero facti sunt, et in singulis angulis alia herba alium odorem emittit.\n\nEo die quo hortus aperitur multi conveniunt. Iuvenes voluntarii ad portam stant, qui visitatores adiutant: alii senes ad sellas ducunt, alii parentes cum infantibus adiutant, alii eos qui oculis non vident per primas semitas adiutant, donec semitam ipsi noverint. Sallia allocutionem brevem habet. In hac allocutione non de se, sed de Quintilio loquitur. «Hunc hortum non ego feci, sed vir qui oculis non videt et tamen plura videt quam ego. Cohortor vos omnes», inquit, «ut hodie oculos claudatis et unam saltem semitam sine oculis ambuletis. Cohortor parentes ut idem cum liberis faciant.» Post allocutionem multi Salliae parent et, cum risu, manibus herbas quaerunt.\n\nSub pergula Vibianus, barytonus notissimus qui in theatro urbis canit, gratis cantat. Non opus grave elegit, sed cantilenam popularem, quam pueri in scholis discunt. Vibianus explicat cur hanc elegerit: melodia diatonica est, id est per gradus simplices scalae diatonicae procedit, ita ut quivis eam semel auditam repetere possit. Et vere mox omnes cum barytono canunt, etiam Quintilius, qui ipse barytonus non est, sed melodiam diatonicam voce tenui libenter sequitur.\n\nPueris autem maxime placet grallator, qui longis lignis inter arbores ambulat et de ramis poma decerpit. Quintilius, qui eum videre non potest, rogat cur pueri rideant. Sallia eum ad grallatorem ducit, et grallator e lignis descendit, ut Quintilius ligna longa manu tangat. «Nunc te quoque video», inquit Quintilius. Grallator iterum ascendit et ex ramo summo pomum ei decerpit.\n\nVesperi, cum visitatores abeunt, Quintilius in semita sua solus ambulat, digitis rosmarinum tangens. Sallia eum spectat et non adiutat, quia adiutari non eget.\n\nQuaestiones:\nCur hortus sensuum vocatur?\nQuia non tam oculis quam naso et manibus et auribus visitatur.\nQuid Quintilius de caecitate dicit?\nDicit caecitatem non esse tenebras, quia ipse mundum audit et olfacit.\nQuid iuvenes voluntarii faciunt?\nVisitatores adiutant: senes ad sellas ducunt et eos qui non vident per semitas adiutant.\nAd quid Sallia visitatores cohortatur?\nEos cohortatur ut oculos claudant et per unam semitam clausis oculis ambulent.\nCur barytonus cantilenam popularem elegit?\nQuia melodia diatonica est, ita ut quivis eam semel auditam repetere possit.\nQuomodo Quintilius grallatorem cognoscit?\nGrallator descendit, ut Quintilius ligna longa manu tangat."
+    },
+    {
+      "title": "Epistola de prato",
+      "summary": "In a letter a retired dentist from Lucca tells a friend how, weary of cutting a sick lawn, he overfed it, then sowed mixed seed, let creeping plants come and got bees and butterflies back.",
+      "newWords": [
+        "dentarius",
+        "pertaesus",
+        "deficientia",
+        "inconsultus",
+        "effrenatio",
+        "miscellus",
+        "serpo"
+      ],
+      "text": "Flavianus Ulpiolae salutem dicit.\n\nQuaeris, Ulpiola, cur, postquam artem dentariam reliqui, non iter longum fecerim, sed totum annum in horto consumpserim. Respondebo. Per quadraginta annos Lucae in officina dentaria dentes hominum curavi, et domi, requiei causa, herbam ante domum falce secabam. Herba mea, sicut dentes aegrotorum, semper aliquid requirebat. Tandem huius operis pertaesus sum.\n\nScis quam flava herba mea facta sit. Vir quidam peritus dixit ferri deficientiam causam esse; alius salis cuiusdam deficientiam culpavit; tertius aquae. Ego, qui medicus dentarius fui et omnibus vitiis remedium quaerere soleo, pulverem et aquam large addidi, ut omnem deficientiam emendarem. Hoc consilium prorsus inconsultum fuit. Tantum enim pulveris addidi ut herba primo laeta fieret, deinde radicibus adustis flavesceret. Illa effrenatio curandi, quam in aegrotis meis semper reprehendebam, qui dentes nimis dure purgant, in horto me ipsum cepit: plus dabam quam opus erat. Cuius effrenationis nunc me paenitet. Omnium pulverum pertaesus, virum peritum tertio consului, qui risit et dixit herbam meam non deficientia laborare, sed nimia cura.\n\nVere igitur totam aream aravi et semina miscella sparsi, ex prato vicino collecta: herbas variorum generum et flores miscellos, quales avia mea in campis carpebat. Semina tamen primo nimis densa sparsi, quod quoque inconsultum fuit. Vicini, homines ordinis amantes, hortum meum neglectum dicebant et sermonis de eo mox pertaesi sunt. Ego exspectabam.\n\nPrimo anno nihil magni accidit. Secundo anno thymum serpere coepit: inter lapides lente serpit, et iam ad ipsum limen domus serpsit. Aliae quoque herbae humiles, quae per solum serpunt, terram umidam servant, ita ut aquam nullam addam. In prato miscello nulla iam deficientia apparet, quia plantae aliae alias adiuvant. Nunc apes veniunt, et papiliones qui hic numquam antea visi erant.\n\nEffrenationem meam non omnino exui, id fateor: cotidie inter flores ambulo et numero quid creverit. Sed herbam bis tantum in anno falce seco, non vicies, et quod reliquum temporis est sub arbore lego. Cum ad me veneris, vicinos quoque invitabimus, et eis ostendam hunc hortum nihil iam requirere nisi oculos.\n\nVale.\n\nQuaestiones:\nQuid Flavianus antea faciebat?\nMedicus dentarius erat, et per quadraginta annos Lucae in officina dentaria dentes hominum curabat.\nCuius operis Flavianus pertaesus est?\nPertaesus est herbam ante domum secandi, quia herba semper aliquid requirebat.\nQuas deficientias viri periti culpaverunt?\nAlius ferri, alius salis cuiusdam, tertius aquae deficientiam culpavit.\nCur consilium eius inconsultum fuit?\nQuia tantum pulveris addidit ut herba, radicibus adustis, flavesceret.\nQualia semina sparsit?\nSemina miscella sparsit, ex prato vicino collecta.\nQuid thymum facit?\nInter lapides lente serpit, et iam ad ipsum limen domus serpsit."
+    }
+  ]
+}
