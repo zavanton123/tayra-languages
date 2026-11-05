@@ -1,0 +1,184 @@
+{
+  "id": "la-mini-5000",
+  "rankUpTo": 5000,
+  "level": "C1",
+  "title": "Brevia scripta",
+  "description": "Ten short essays and pieces: a case for slow spring walks in Lyon, a column on wild boars in Rome, a teacher on boredom in Ravenna, a review of a mushroom guide, a portrait of a Florence furniture restorer, an interview with a maze designer near Padua, a doctor's reply to a weak patient in Modena, a father on praise and scolding at a swimming meet in Ancona, a letter about coming home to Naples from Prague and a report on fish sauce makers near Salerno.",
+  "topic": "Short essays",
+  "names": [
+    "Anchiria",
+    "Lugdunum",
+    "Castricius",
+    "Roma",
+    "Antestius",
+    "Ravenna",
+    "Attidia",
+    "Cingonius",
+    "Granonius",
+    "Florentia",
+    "Bellenia",
+    "Patavium",
+    "Pulfennia",
+    "Cestilius",
+    "Mutina",
+    "Poetelius",
+    "Tedia",
+    "Ancona",
+    "Pontidia",
+    "Remmia",
+    "Passienus",
+    "Neapolis",
+    "Praga",
+    "Pantuleius",
+    "Sentilia",
+    "Salernum"
+  ],
+  "lessons": [
+    {
+      "title": "De ambulatione verna",
+      "summary": "A woman in Lyon explains why in spring she now strolls slowly instead of running: a slow walk shows how spring arrives little by little, even on misty and rainy mornings.",
+      "newWords": [
+        "ver",
+        "imber",
+        "nebulosus",
+        "sensim",
+        "vigor",
+        "spatio",
+        "persaepe",
+        "quiesco"
+      ],
+      "text": "Anchiria, quae Lugduni habitat, hoc breve scriptum de ambulatione verna composuit.\n\nCum ver redit, multi vicini mei vestes ad currendum aptas induunt et per ripas fluminis currunt. Horologium in bracchio gerunt, quod passus et tempus numerat. Ego quoque olim persaepe currebam. Nunc autem lente spatior, et hoc scriptum ideo scribo, ut explicem cur spatiari malim quam currere.\n\nPrimum fateor cursum multa bona habere. Qui currit, corpus exercet, cor confirmat et post hiemem longam vigorem celerius recuperat. Vigor enim, quem hiems minuit, motu redit; et vicini mei, cum e cursu redeunt, sane plus vigoris habere videntur quam ego. Praeterea qui currit, brevi tempore multum facit, quod homini occupato magni momenti est.\n\nSed qui currit, ver non videt. Oculos in via aut in horologio tenet; praeter arbores et flores currit nec eos animadvertit. Per totam hiemem natura quiescit: arbores nudae stant, herba non crescit, terra dura et frigida est. Ego quoque per hiemem plerumque domi quiesco. Ver autem naturam non uno die excitat, sed sensim: primum aves canere incipiunt, deinde gemmae in ramis apparent, tandem flores aperiuntur. Haec mutatio sensim fit, et sensim tantum percipi potest. Qui spatiatur, eam videt; qui currit, solum finem eius videt, cum subito omnia viridia sunt.\n\nLugduni ver persaepe nebulosum est. Mane nebula super flumina iacet, et pontes e nebula quasi ex nihilo surgunt. Vicini mei mane nebuloso domi quiescere malunt, quia in nebula currere molestum est. Ego autem tali mane libentissime spatior. Nebula enim res longinquas tegit et oculos ad res proximas convertit: ad guttas in foliis, ad muscum in muro, ad primos flores in ripa.\n\nEtiam imber mihi non est causa domi manendi. Imber vernus brevis est et persaepe redit: post imbrem sol lucet, deinde alius imber venit. Post imbrem herba nitet, et aer odorem terrae umidae habet. Plantae tum tanto vigore crescunt ut eas paene crescere videas. Hunc vigorem naturae cum aspicio, aliquid eius etiam in me redire sentio.\n\nNon dico cursum malum esse, neque omnes spatiari debere. Sed vicinis meis hoc suadeo: semel in hebdomade horologium domi relinquite et lente per ripam spatiamini, etiam sub caelo nebuloso. Ver semel tantum in anno venit: nolite totum currendo praeterire.\n\nQuaestiones:\nQuid vicini Anchiriae faciunt, cum ver redit?\nPer ripas fluminis currunt et horologium in bracchio gerunt.\nQuae bona cursus habet?\nQui currit, corpus exercet, cor confirmat et vigorem celerius recuperat.\nQuid natura per hiemem facit?\nPer hiemem natura quiescit: arbores nudae stant et herba non crescit.\nCur Anchiria spatiari mavult quam currere?\nQuia ver sensim venit, et qui spatiatur hanc mutationem videt, qui autem currit eam non videt.\nQuid nebula facit?\nNebula res longinquas tegit et oculos ad res proximas convertit.\nQuid Anchiria vicinis suis suadet?\nSuadet ut semel in hebdomade horologium domi relinquant et lente per ripam spatientur."
+    },
+    {
+      "title": "Sues in urbe",
+      "summary": "A Rome resident weighs his neighbours' fears about the wild boars that now roam their streets at night against the view that the town's own rubbish has invited them in.",
+      "newWords": [
+        "verres",
+        "devoro",
+        "infestus",
+        "saevus",
+        "minae",
+        "inhabito",
+        "temere",
+        "absconditus"
+      ],
+      "text": "Castricius, qui Romae prope magnum hortum publicum habitat, hoc scriptum de suibus feris ad libellum vici sui misit.\n\nAbhinc viginti annos nemo credidisset sues feros per vias Romae ambulaturos esse. Hodie tamen multi silvas et campos circa urbem inhabitant, et nonnulli etiam hortos publicos in ipsa urbe inhabitant. Vespere e silvis exeunt et cibum quaerunt. Plerumque matres cum porcellis veniunt; verres autem, id est mas, saepius solus vagatur. Verris quem nuper prope domum meam vidi diu non obliviscar: maior erat quam canis maximus, et dentes longi ex ore eminebant.\n\nQuid in urbe quaerunt? Responsum facile est: reliquias nostras. Sues omnia fere devorant: panem, poma, holera, etiam chartam quae cibum olet. Saccos quos homines vespere ante portas ponunt nocte rumpunt, et quidquid intus est devorant. Mane cives vias sordidas inveniunt, et ira magna est.\n\nMulti vicini mei sues hortis infestos esse dicunt, nec falso: una nocte hortum vicinae meae ita foderunt ut nullus flos maneret. Sunt etiam qui sues viis infestos esse dicant, nam nocte subito ante autocineta viam transeunt. Alii maiores minas timent. «Quid si verres saevus puero nocet?» rogant. «Quid si cani nostro?» Has minas non contemno. Sus ferus animal magnum et validum est, et mater porcellos suos acriter tuetur.\n\nSed ii qui haec animalia bene noverunt aliter loquuntur. Sues feros natura non esse saevos dicunt: hominem plerumque timent et fugiunt. Saevos fieri solum si quis ad eos temere accedat, praesertim ad matrem cuius porcelli in herba alta absconditi iaceant. Porcelli enim absconditi parvi et taciti sunt, et qui temere per herbam altam ambulat, eos facile non videt. Tum mater, quae prope stat, irascitur.\n\nQuid igitur faciendum est? Alii volunt sues capi et in silvas longinquas transferri. Hoc fieri potest, sed nisi causam sustulerimus, alii sues mox venient. Causa autem nos sumus. Dum cibus in viis iacet, sues in urbem venient, sicut quisque nostrum ad mensam paratam venit. Si reliquias in vasis firmis et clausis servabimus, sues nihil quod devorent invenient et sensim in silvas redibunt.\n\nItaque vicinis meis haec suadeo. Nolite temere ad sues accedere, etiam si placidi videntur, nec canes vestros ad eos currere sinite. Saccos vespere non ante portas ponite, sed in vasis clausis servate. Sues non sunt infesti quia mali sunt, sed quia esuriunt. Urbem nostram non inhabitant quia eam amant, sed quia eam mensam apertam fecimus.\n\nQuaestiones:\nUbi sues feri hodie habitant?\nSilvas et campos circa urbem inhabitant, et nonnulli etiam hortos publicos in ipsa urbe.\nQuid est verres?\nVerres est mas; saepius solus vagatur.\nQuid sues in urbe devorant?\nPanem, poma, holera et quidquid in saccis invenitur devorant.\nQuas minas vicini Castricii timent?\nTiment ne verres saevus puero aut cani noceat.\nQuando sues saevos fieri dicunt ii qui haec animalia bene noverunt?\nSaevos fieri dicunt, si quis ad eos temere accedat, praesertim ad matrem cuius porcelli absconditi iaceant.\nQuid Castricius vicinis suadet?\nSuadet ne temere ad sues accedant et ut reliquias in vasis clausis servent."
+    },
+    {
+      "title": "De taedio",
+      "summary": "A teacher in Ravenna asks whether boredom only makes people sluggish, or whether a pause without screens also gives the mind room to think, and tells of a small experiment in his class.",
+      "newWords": [
+        "taedium",
+        "segnis",
+        "intermissio",
+        "atqui",
+        "siquidem",
+        "nisus",
+        "adagium",
+        "autumo"
+      ],
+      "text": "Antestius, magister qui Ravennae in schola media docet, hoc commentariolum de taedio scripsit.\n\nVetus adagium autumat taedium esse matrem pigritiae: qui taedio afficitur, mox segnis fit et nihil agit. Hoc adagium avia mea persaepe repetebat, cum ego puer in lecto iacerem et de taedio quererer. «Qui queritur se nihil habere quod agat», inquiebat, «segnis est, non miser.» Deinde mihi scopas dabat.\n\nHodie paucissimi pueri taedium noverunt, siquidem telephonum semper in manu habent. Numquam sine ludo, sine pellicula, sine nuntio sunt. Dum tramen exspectant, dum cenam exspectant, digitos per vitrum movent. Nullam intermissionem habent: ab una re ad aliam sine intermissione transeunt.\n\nMulti parentes hoc bonum esse autumant, siquidem pueri semper occupati segnes fieri non possunt. Atqui res aliter se habere videtur. In schola mea video discipulos qui sine intermissione spectant non acriores fieri, sed magis segnes. Cum librum legere debent, post paucas paginas taedio afficiuntur, siquidem liber non tam celeriter mutatur quam machina. Nisus quem lectio postulat eis nimis gravis videtur.\n\nQuidam docti autumant taedium non malum sed utile esse. Cum enim nihil est quod animum occupet, animus ipse opus suum incipit: cogitat, recordatur, fingit. Multae res novae in tali intermissione inventae sunt. Atqui hoc sine nisu non fit: primum taedium ferendum est, quod molestum est; tum demum animus ad res novas se convertit. Hic nisus parvus est, sed necessarius.\n\nItaque in schola mea parvum experimentum feci. Semel in hebdomade discipulos per decem minuta sine telephono, sine libro, sine ullo opere sedere iussi. Primo querebantur et taedium suum magna voce declarabant. Atqui post aliquot hebdomades nonnulli ipsi hanc intermissionem exspectabant. Una discipula mihi dixit se in his decem minutis carmina brevia componere; alius se de problemate mathematico cogitare, quod in libro solvere non potuerat.\n\nNon autumo taedium semper bonum esse. Est taedium quod hominem segnem reddit et vires frangit: qui per totum diem nihil agit nisi queritur, nihil discit. Sed est etiam taedium ex quo nisus novus nascitur, quod animum ad opus excitat. Fortasse adagium aviae meae dimidia tantum ex parte verum est. Taedium mater pigritiae esse potest; potest etiam mater cogitationum esse. Utrum fiat, a nobis pendet.\n\nQuaestiones:\nQuid vetus adagium de taedio autumat?\nAutumat taedium esse matrem pigritiae.\nQuid avia Antestii faciebat, cum ille de taedio quereretur?\nEi scopas dabat.\nCur pueri hodie raro taedium noverunt?\nQuia telephonum semper in manu habent et sine intermissione ab una re ad aliam transeunt.\nQuid Antestius in schola sua fecit?\nSemel in hebdomade discipulos per decem minuta sine telephono et sine ullo opere sedere iussit.\nQuid una discipula in his decem minutis facit?\nCarmina brevia componit.\nPutatne Antestius taedium semper malum esse?\nNon putat: taedium hominem segnem reddere potest, sed ex eo etiam nisus novus nasci potest."
+    },
+    {
+      "title": "Enchiridion fungorum",
+      "summary": "A reviewer praises a witty pocket guide to mushrooms that names every species, shows exactly how to tell the poisonous ones from the edible and sets firm rules for beginners.",
+      "newWords": [
+        "enchiridion",
+        "venenosus",
+        "praescribo",
+        "adamussim",
+        "nominatim",
+        "facetus",
+        "fortunatus",
+        "neve"
+      ],
+      "text": "Attidia, quae in libello menstruo libros de natura recenset, de novo enchiridio fungorum scribit.\n\nAutumno multi homines silvas petunt ut fungos colligant. Quidam hanc artem a parentibus didicerunt et silvam suam tamquam hortum domesticum noverunt. Alii primum eunt, cum corbe vacua et magna spe sed parva scientia. His maxime scriptum est novum enchiridion quod Cingonius, medicus qui per triginta annos fungis studuit, nuper edidit.\n\nEnchiridion parvum est, ita ut in sacculo vestis portari possit, sed plenum. Centum et quinquaginta fungos nominatim describit: singulos nominatim affert, et nomine docto et nomine vulgari, cum imagine clara. De singulis adamussim dicit quo loco crescant, quo tempore anni appareant, quali colore, odore, forma sint. Rarum est enchiridion tam parvum quod tam multa tam adamussim doceat.\n\nMaxima pars libri fungis venenosis dedicata est. Cingonius enim, ut medicus, bene scit quam gravis error in silva esse possit. Fungi venenosi saepe fungis qui edi possunt simillimi sunt; quidam fungus venenosus etiam pulchrior videtur quam ille cui similis est. Itaque auctor binas imagines iuxta ponit, fungum bonum et fungum venenosum qui ei similis est, et adamussim ostendit quibus signis distinguantur. Hoc caput legere debet quisquis corbem in silvam portat.\n\nIn initio libri auctor regulas paucas sed firmas praescribit. Praescribit ne quis fungum edat quem non certissime noverit, neve fungos dubios cum ceteris in eadem corbe misceat. Praescribit etiam ut fungi ante cenam peritis ostendantur, quod in multis oppidis gratis fieri potest, neve pueri soli fungos colligant. Hae regulae severae videntur, sed Cingonius non sine causa eas praescribit: in nosocomio, ubi diu laboravit, multos vidit qui eas neglexerant et post cenam male se habebant.\n\nLiber tamen non severus est, nam auctor homo facetus est. Facetis verbis de erroribus suis narrat: quomodo iuvenis corbem plenam fungorum domum attulerit, quos avia eius statim omnes in hortum abiecerit. «Fungus qui in silva pulcherrimus est», scribit, «in olla saepe pessimus est.» Talibus dictis facetis lector ridet et simul discit.\n\nFortunati sunt qui avum aut aviam habent qui eos in silvam ducat et fungos nominatim ostendat. Ceteri hoc enchiridion habent, quod fortasse optimus magister post avum est. Ego me fortunatam puto, quod id ante autumnum inveni. Enchiridion in sacculo meo iam est; corbis parata est.\n\nQuaestiones:\nQuis enchiridion fungorum scripsit?\nCingonius, medicus qui per triginta annos fungis studuit, id scripsit.\nQuot fungos enchiridion nominatim describit?\nCentum et quinquaginta fungos nominatim describit.\nQuomodo auctor fungos bonos a fungis venenosis distinguere docet?\nBinas imagines iuxta ponit et adamussim ostendit quibus signis distinguantur.\nQuas regulas Cingonius praescribit?\nPraescribit ne quis fungum edat quem non certissime noverit, neve pueri soli fungos colligant.\nCur liber non severus est?\nQuia auctor homo facetus est et facetis verbis de erroribus suis narrat.\nQuos Attidia fortunatos esse dicit?\nFortunatos esse dicit eos qui avum aut aviam habent qui eos in silvam ducat."
+    },
+    {
+      "title": "Sella effectoris",
+      "summary": "A portrait of a furniture restorer in Florence who takes the old glue out of a hundred-year-old chair, fits wooden pegs, stains the new wood and touches up the painted flowers without wiping out the maker's hand.",
+      "newWords": [
+        "gluten",
+        "dentatus",
+        "cubitum",
+        "decoro",
+        "pango",
+        "tinctura",
+        "eximo",
+        "effector"
+      ],
+      "text": "In via angusta Florentiae, non procul a flumine, est officina parva cuius ianua semper aperta stat. Intus Granonius, vir sexaginta annos natus, sellas et mensas veteres reficit. Hoc opus iam quadraginta annos facit, et pater eius ante eum idem faciebat.\n\nCum officinam intravimus, Granonius sellam veterem in mensa tenebat. Sella, quae ante centum fere annos facta erat, iam non firma stabat, quia gluten vetus aruerat. «Primum gluten vetus eximendum est», inquit. «Si novum gluten supra vetus pono, numquam tenebit.» Itaque partes sellae lente et caute separat, deinde cultro parvo gluten vetus eximit, frustum post frustum. Hoc opus multas horas postulat.\n\nGluten quo Granonius utitur non in taberna emitur. Ex ossibus animalium fit et calidum adhibetur, sicut in officinis antiquis. «Hoc gluten», inquit, «aqua calida iterum solvi potest. Ita qui post centum annos hanc sellam reficiet, gluten meum facile eximet, sicut ego nunc gluten effectoris eximo.»\n\nDe effectore sellae Granonius saepe loquitur. «Effectorem huius sellae numquam vidi», inquit, «sed eum bene novi. Video quomodo lignum secuerit, quomodo partes coniunxerit, ubi festinaverit. Officium meum est opus effectoris servare, non meum pro eo ponere.»\n\nIn pariete serrae dentatae omnis magnitudinis pendent, quarum quaedam patris eius fuerunt. Serra dentata subtilissima utitur ut lignum novum ad formam veterem secet; dentes eius tam parvi sunt ut vix videantur. Pro clavis ferreis Granonius clavos ligneos pangit, ut effector ipse fecerat. Clavos in foramina lente pangit, malleo ligneo leviter pulsans. «Clavum ligneum pangere facile videtur», inquit, «sed si nimis fortiter pulsas, lignum finditur.»\n\nCubitum dextrum eius saepe dolet, nam per quadraginta annos eosdem motus fecit. «Cubitum meum plus laboravit quam ego», inquit ridens. Cum subtiliter laborat, cubito in mensa nititur, ut manus firma maneat.\n\nCum partes iterum coniunctae sunt, lignum novum cum vetere non congruit: clarius est. Itaque Granonius tincturam ex corticibus nucum parat. Tincturam penicillo leviter imponit, deinde exspectat et iterum imponit, donec color novi ligni colori veteris similis est. «Tinctura paulatim adhibenda est», inquit. «Tinctura nimia numquam tolli potest.»\n\nPostremo sellam decorat. Effector eam floribus pictis decoraverat, sed flores paene evanuerant. Granonius non novos flores pingit, sed tantum ubi color deest, eum leviter reficit. «Effector sellam decoravit», inquit. «Ego eam non iterum decoro; servo tantum quod ille fecit.»\n\nQuaestiones:\nQuid Granonius Florentiae facit?\nSellas et mensas veteres reficit, sicut pater eius faciebat.\nCur gluten vetus primum eximendum est?\nQuia novum gluten supra vetus positum numquam tenet.\nCur Granonius gluten ex ossibus factum adhibet?\nQuia aqua calida iterum solvi potest, ita ut qui post eum sellam reficiet, id facile eximat.\nQua serra Granonius lignum novum secat?\nSerra dentata subtilissima lignum novum secat.\nCur cubitum eius saepe dolet?\nQuia per quadraginta annos eosdem motus fecit.\nQuid Granonius cum tinctura facit?\nTincturam ex corticibus nucum paratam paulatim imponit, donec color novi ligni colori veteris similis est."
+    },
+    {
+      "title": "Colloquium de labyrinthis",
+      "summary": "An interview with a garden designer near Padua who plans hedge mazes with geometry, on why always turning right does not always get you out, how long visitors stay lost and what a maze looks like from above.",
+      "newWords": [
+        "geometria",
+        "labyrinthus",
+        "dextrorsus",
+        "quocumque",
+        "ubicumque",
+        "vicies",
+        "superus",
+        "quamdiu"
+      ],
+      "text": "Bellenia prope Patavium in villa vetere habitat, cuius hortus labyrinthum magnum ex saepibus habet. Ipsa labyrinthos hortorum designat et iam plus quam viginti in variis regionibus fecit. Eam in horto suo visitavimus.\n\n«Quomodo labyrinthum designas?»\n\n«Primum in charta, cum geometria. Multi putant labyrinthum esse rem fortuitam, viam quae sine ordine flectitur. Atqui labyrinthus bonus totus ex geometria constat: lineae rectae, anguli, circuli. Sine geometria labyrinthus aut nimis facilis aut nimis difficilis fit. Labyrinthus bonus talis esse debet ut, quocumque eas, aliquid novum videas.»\n\n«Didicistine geometriam in schola?»\n\n«Didici, sed tum eam oderam. Numeri et figurae mihi aridi videbantur. Tum demum, cum primum labyrinthum vidi, intellexi quid geometria facere possit. Nunc geometria mihi est sicut lingua qua hortus loquitur.»\n\n«Verumne est eum qui semper dextrorsum flectit exitum semper invenire?»\n\n«Saepe verum est, sed non semper. Si manum dextram semper in saepe tenes et quocumque via ducit sequeris, ex multis labyrinthis exibis. In labyrintho meo autem hoc consilium non semper prodest. In medio enim insulas saepium pono, quae cum ceteris saepibus non cohaerent. Qui semper dextrorsum flectit, circa talem insulam in orbem it et ad eundem locum redit. Quocumque se vertit, eundem fontem iterum videt.»\n\n«Quamdiu homines in labyrintho tuo errant?»\n\n«Id ab ipsis pendet. Pueri plerumque celerrime exeunt, quia currunt nec errare timent. Adulti diutius manent, quia cogitant. Plerique circiter viginti minuta errant. Quidam iam vicies in eodem labyrintho fuerunt et adhuc gaudent. Vicinus meus vicies ingressus est et vicies alia via exiit.»\n\n«Quamdiu saepes crescere debent, antequam labyrinthus aperitur?»\n\n«Quinque aut sex annos. Saepes lente crescunt; quamdiu parvae sunt, homines super eas spectant, et ludus nullus est.»\n\n«Nonne homines timent ne exitum non inveniant?»\n\n«Interdum timent. Itaque ubicumque in labyrintho es, aliquid vides quod te adiuvat: turrim parvam in medio horto. Ubicumque stas, turris supra saepes apparet, et ita scis ubi medium sit. Praeterea custos, qui in partem superam turris ascendit, omnes videt et errantibus viam monstrat.»\n\n«Quid ex turri videtur?»\n\n«Tota forma labyrinthi. Qui in partem superam turris ascendit, labyrinthum non iam confusum videt, sed pulchrum, sicut figuram in libro geometriae. Etiam ex fenestris superis villae meae eum cotidie aspicio. Saepe dico: qui in labyrintho est, viam non videt; qui locum superum tenet, viam videt, sed in labyrintho non est. Hoc mihi de vita quoque verum videtur.»\n\nQuaestiones:\nUbi Bellenia habitat?\nPrope Patavium in villa vetere habitat, cuius hortus labyrinthum magnum habet.\nQuomodo Bellenia labyrinthum designat?\nPrimum in charta, cum geometria.\nCur consilium semper dextrorsum vertendi in labyrintho eius non semper prodest?\nQuia insulas saepium in medio ponit, circa quas qui semper dextrorsum flectit in orbem it.\nQuamdiu plerique in labyrintho errant?\nPlerique circiter viginti minuta errant.\nQuoties vicinus Belleniae in labyrintho fuit?\nVicies in eo fuit et vicies alia via exiit.\nQuid homines adiuvat, ubicumque in labyrintho sunt?\nTurris parva in medio horto, quae supra saepes apparet."
+    },
+    {
+      "title": "Epistula ad medicam",
+      "summary": "A reader in Modena who still feels weak days after a stomach bug writes to a doctor's column, and she answers with plain advice on fluids, food, sleep, work and patience.",
+      "newWords": [
+        "debilitas",
+        "intestinum",
+        "insufficientia",
+        "obsequor",
+        "liquidus",
+        "saepenumero",
+        "excuso"
+      ],
+      "text": "In hoc libello medica Pulfennia epistulis lectorum respondet. Hac hebdomade Cestilius, qui Mutinae habitat, ei scripsit.\n\n«Salve, medica. Ante decem dies morbo intestini correptus sum, et per duos dies nullum cibum tenere poteram. Nunc morbus abiit, sed debilitas manet. Mane vix e lecto surgo, scalas lente ascendo, et post horam laboris fessus sum. Iam bis me apud collegas excusavi et domi mansi, et collegae comiter id acceperunt; sed me pudet tertio me excusare. Num haec debilitas signum morbi gravioris est? Quid faciam?»\n\nMedica sic respondet:\n\n«Care Cestili, quod narras saepenumero accidit, nec est cur timeas. Cum intestinum aegrotat, corpus non solum cibum amittit, sed etiam aquam et sales. Haec insufficientia aquae et salium debilitatem facit, quae saepenumero diutius manet quam ipse morbus. Intestinum quoque, quod per aliquot dies vexatum est, tempus postulat antequam iterum bene laboret.\n\nPrimum igitur bibe, sed paulatim et saepe: aquam, theam, sucum holerum. Etiam cibos liquidos tibi commendo, nam et aquam reddunt et intestino parcunt. Sorbitionem liquidam ex holeribus coctam ter in die sume; nullus cibus liquidus intestino lenior est. Lac et cibos pingues per aliquot dies vita.\n\nDeinde cibos simplices ede: oryzam, panem tostum, poma cocta. Paulatim ad cibos solitos redi. Si intestinum aliquid nondum fert, id per paucos dies omitte et postea iterum tempta.\n\nTertio de somno cogita. Insufficientia somni debilitatem auget, et qui post morbum parum dormit, saepenumero diutius debilis manet. Dormi quantum corpus postulat, etiam interdiu, si opus est.\n\nQuod ad laborem attinet, noli vereri iterum te excusare. Melius est per duos dies te excusare quam per duas hebdomades aegrotare. Collegae tui, ut scribis, comiter acceperunt; et qui aegrotus laborat, nec bene laborat nec cito sanatur.\n\nMulti aegroti consiliis medici obsequuntur dum aegrotant, sed simul ac morbus abiit, ad vitam pristinam redeunt. Te rogo ut his consiliis per alteram hebdomadem obsequaris. Corpori tuo obsequere: si fessum est, quiesce. Si post duas hebdomades debilitas non minuitur, aut si febris redit, medicum tuum adi, qui te inspiciat. Sed plerumque tempus et patientia satis sunt.\n\nBene vale, et scribe mihi quomodo te habeas.\n\nPulfennia»\n\nQuaestiones:\nQuid Cestilio ante decem dies accidit?\nMorbo intestini correptus est et per duos dies nullum cibum tenere poterat.\nQuid Cestilium nunc vexat?\nDebilitas eum vexat: vix e lecto surgit et post horam laboris fessus est.\nUnde haec debilitas venit?\nEx insufficientia aquae et salium, quos corpus in morbo amisit.\nCur medica Cestilio cibos liquidos commendat?\nQuia et aquam reddunt et intestino parcunt.\nQuid medica de labore dicit?\nDicit melius esse per duos dies se excusare quam per duas hebdomades aegrotare.\nQuamdiu Cestilius consiliis medicae obsequi debet?\nPer alteram hebdomadem eis obsequi debet."
+    },
+    {
+      "title": "Laudare an castigare?",
+      "summary": "A father in Ancona, watching his daughter's first swimming competition, compares the parents who urge their children on or scold them from the stands with a coach who praises a steady rhythm of training.",
+      "newWords": [
+        "instigo",
+        "castigo",
+        "certatio",
+        "propello",
+        "mutuo",
+        "tenor",
+        "agitatio"
+      ],
+      "text": "Poetelius, cuius filia Tedia decem annos nata est, hoc scriptum post certationem natandi composuit.\n\nNuper Anconae, in piscina publica, certatio natandi puerorum facta est. Tedia tum primum in certatione natabat. Ego cum ceteris parentibus in gradibus sedebam, et quod ibi vidi me diu cogitare coegit.\n\nAgitatio parentum maior erat quam puerorum. Cum pueri in aquam saliebant, parentes surgebant, clamabant, bracchia iactabant. Alii liberos suos instigabant: «Celerius! Celerius!» Alii, cum filius aut filia lentius natabat, eum castigabant: «Cur tam lente? Quid facis?» Ego quoque, fateor, agitationem illam sensi et ipse clamare coepi.\n\nSed Tedia, ut postea mihi dixit, nihil audiebat. In aqua enim nihil auditur nisi sonus aquae. Clamores nostri igitur non liberis, sed nobis ipsis prodesse videbantur: agitationem nostram minuebant, non celeritatem eorum augebant.\n\nMagister autem Tediae aliter agebat. Neque instigabat neque castigabat. Post singulos cursus cum pueris breviter loquebatur. «Pedibus bene te propellebas», dixit uni. «Bracchia tua te fortius propellent, si ea longius extendes», dixit alteri. Neminem castigavit, ne eum quidem qui ultimus pervenerat.\n\nPostea cum eo locutus sum. «Pueros», inquit, «non clamor propellit, sed tenor. Qui per totum annum tenorem aequalem servat, bis in hebdomade sine intermissione exercitatus, melius natat quam qui semel magno studio laborat, deinde mensem quiescit. Hunc tenorem servare difficillimum est. Parentes, qui agitatione certationis moventur, eum saepe frangunt: hodie instigant, postridie castigant, deinde obliviscuntur.»\n\nAddidit aliud quod in certatione non videtur. «In exercitatione cotidiana pueri mutuo se adiuvant. Qui celerius natant, lentiores docent; lentiores celeriores ad laborem instigant. Etiam parentes et magistri mutuo confidere debent: ego in aqua laboro, vos domi. Si mutuo confidimus, pueri tranquilli sunt.»\n\nNon dico parentes numquam instigare aut castigare debere. Puer qui nihil facit interdum instigandus est, et qui alios vexat recte castigatur. Sed in certatione ipsa, cum puer omnes vires adhibet, clamor noster nihil addit. Proxima certatione in gradibus tacebo, et post cursum filiam rogabo quid ipsa senserit.\n\nQuaestiones:\nUbi certatio natandi facta est?\nAnconae, in piscina publica, facta est.\nQuid parentes in gradibus faciebant?\nAlii liberos suos instigabant, alii eos castigabant, cum lentius natabant.\nCur clamores parentum nihil proderant?\nQuia in aqua nihil auditur nisi sonus aquae.\nQuid magister Tediae post singulos cursus faciebat?\nCum pueris breviter loquebatur et dicebat quomodo se propellerent.\nQuid magister de tenore dicit?\nDicit pueros non clamorem propellere, sed tenorem, et eum qui tenorem aequalem servat melius natare.\nQuid Poetelius proxima certatione faciet?\nIn gradibus tacebit et post cursum filiam rogabit quid ipsa senserit."
+    },
+    {
+      "title": "Neapolim redux",
+      "summary": "In a letter to a friend, a young woman who has come back to Naples after three years in Prague describes leaving Prague, the noise of her home street, the voices she can hear again from far off and the party her brother had prepared in secret.",
+      "newWords": [
+        "discessus",
+        "redux",
+        "linquo",
+        "triennium",
+        "strepitus",
+        "exaudio",
+        "occulte",
+        "genuinus"
+      ],
+      "text": "Pontidia Remmiae salutem dicit.\n\nNeapolim redux sum, carissima Remmia, et prima epistula quam domi scribo tibi scribitur. Triennium Pragae vixi, ut scis. Cum discederem, triennium longum mihi videbatur; nunc, redux, breve fuisse sentio.\n\nDiscessus semper aliquid nobis aufert, et discessus meus a Praga facilis non fuit. Urbem pulchram linquere, et amicos quos ibi habebam, et bibliothecam in qua per triennium laboraveram, me tristem faciebat. Ultimo vespere cum collegis cenavi, et discessum meum tam laete celebraverunt ut paene manere vellem. Sed quae domum desiderat, etiam urbem pulcherrimam linquit.\n\nCum Neapolim pervenissem, primum me strepitus percussit. Pragae enim, praesertim in vico ubi habitabam, vesperi omnia tacebant. Hic autem strepitus numquam desinit: autocineta et birotae, voces vicinorum, musica e fenestris, canes in viis. Prima nocte dormire non potui. Sed mane, cum fenestram aperui, sensi strepitum illum non iam molestum esse, sed dulcem: erat sonus domus.\n\nNunc iterum voces exaudio quas per triennium non audiveram. Ex fenestra mea mercatorem in foro exaudio, qui poma sua magna voce laudat. Etiam ex cubiculo meo vocem matris exaudio, quae in culina cantat dum cenam parat. Pragae vocem eius per telephonum quidem audiebam, sed numquam eam ex alio cubiculo exaudiebam.\n\nPrimo vespere frater meus Passienus convivium occulte paraverat. Per hebdomadem cum amicis nostris occulte scripserat, et matrem rogaverat ut taceret. Rem tam occulte gesserat ut nihil suspicarer. Cum domum intravi, omnes e culina exierunt et clamaverunt, et ego lacrimas tenere non potui.\n\nMater placentam genuinam paraverat, qualem Pragae numquam inveneram. Pragae enim multae tabernae talem placentam vendebant, sed nulla genuina erat. Nec cibus solus genuinus erat: gaudium amicorum quoque genuinum erat, nec ullum verbum fictum.\n\nTe quoque, carissima, mox videre cupio. Veni ad nos quam primum, et ego tibi monstrabo quomodo redux urbem meam novis oculis videam. Vale.\n\nQuaestiones:\nQuamdiu Pontidia Pragae vixit?\nTriennium Pragae vixit.\nCur discessus eius facilis non fuit?\nQuia urbem pulchram, amicos et bibliothecam in qua laboraverat linquere eam tristem faciebat.\nQuid Pontidiam Neapoli primum percussit?\nStrepitus eam primum percussit, qui numquam desinit.\nQuas voces Pontidia nunc exaudit?\nMercatorem in foro et vocem matris in culina cantantis exaudit.\nQuid Passienus occulte fecit?\nConvivium occulte paravit et matrem rogavit ut taceret.\nQuid mater Pontidiae paraverat?\nPlacentam genuinam paraverat, qualem Pontidia Pragae numquam invenerat."
+    },
+    {
+      "title": "Garum hodiernum",
+      "summary": "A report from a fishing village near Salerno where a small cooperative still makes fish sauce the old way; a bank lends part of the money for new barrels, a local patroness supplies the rest, and the cooperative's internal quarrels are settled.",
+      "newWords": [
+        "garum",
+        "sector",
+        "commodo",
+        "suppleo",
+        "patrona",
+        "intestinus"
+      ],
+      "text": "In oppido parvo ad mare, non procul a Salerno, piscatores etiam hodie liquamen piscium faciunt quod antiqui garum appellabant. Modus faciendi paene idem est ac olim: pisces parvi cum multo sale in vasis ligneis per menses ponuntur, et liquor qui ex eis sensim fluit colligitur. Hic liquor, colore aureo et odore forti, garum est.\n\nPantuleius, qui societati parvae piscatorum praeest, nobis officinam ostendit. «Garum nostrum», inquit, «non est cibus omnibus aptus. Sed qui semel garum genuinum gustavit, numquam obliviscitur.» Guttam gari in pane nobis dedit: sapor tam fortis erat ut diu maneret.\n\nPer multos annos sector piscatorius in his oris laborabat: piscatores pauciores erant, pretia piscium minora. Sed sector cibarius, qui res singulares et antiquas quaerit, garum invenit. Nunc coqui per totum orbem garum ab hoc oppido petunt. Itaque societas, quae olim tantum in sectore piscatorio laborabat, nunc etiam ad sectorem cibarium pertinet.\n\nCum garum magis peteretur, vasis novis opus erat. Societas autem pecuniam non habebat. Argentaria oppidi partem pecuniae commodavit, sed non totam; argentariae enim pecuniam libenter non commodant nisi certum est eam redditum iri. Pantuleius ad alias argentarias quoque iit, sed nulla plus commodare voluit.\n\nTum Sentilia auxilium tulit. Ipsa in hoc oppido nata est, olim piscatrix fuit et postea tabernam magnam Neapoli habuit. Nunc patrona societatis est. Ut patrona, pecuniam quae deerat supplevit, nec quidquam pro ea petivit nisi ut garum more antiquo fieret. «Patrona non sum quia dives sum», inquit, «sed quia avus meus hic garum faciebat.» Etiam piscatores, cum vasa nova primum implenda erant, pisces supra numerum solitum attulerunt, ut quod deerat supplerent.\n\nNon omnia tamen facilia erant. In ipsa societate discordiae intestinae ortae sunt: iuvenes machinas novas volebant, ut plus gari celerius fieret; senes modum antiquum servare volebant. Has res intestinas Pantuleius diu componere non potuit. Tandem Sentilia omnes in officinam vocavit et consilium proposuit: machinae ad pisces lavandos adhiberentur, garum autem ipsum more antiquo fieret. Ita discordiae intestinae sedatae sunt.\n\nHodie in officina iuvenes et senes una laborant. «Garum», inquit Pantuleius, «tempus postulat, sicut societas nostra.»\n\nQuaestiones:\nQuomodo garum fit?\nPisces parvi cum multo sale in vasis ligneis per menses ponuntur, et liquor qui ex eis fluit colligitur.\nQuid sectori piscatorio per multos annos accidit?\nPiscatores pauciores erant et pretia piscium minora.\nQuid argentaria oppidi fecit?\nPartem pecuniae commodavit, sed non totam.\nQuis pecuniam quae deerat supplevit?\nSentilia, patrona societatis, eam supplevit.\nQuae discordiae intestinae in societate ortae sunt?\nIuvenes machinas novas volebant, senes modum antiquum servare volebant.\nQuomodo Sentilia eas sedavit?\nProposuit ut machinae ad pisces lavandos adhiberentur, garum autem ipsum more antiquo fieret."
+    }
+  ]
+}
