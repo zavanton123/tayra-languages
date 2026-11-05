@@ -83,6 +83,7 @@ data class TranscriptionPick(
     val running: Boolean = false,
     val stage: TranscriptionStage? = null,
     val fraction: Float? = null,
+    val error: String? = null,
 ) {
     val ready: Boolean get() = models.any { it.installed }
 }
@@ -246,14 +247,14 @@ class AddVideoViewModel(
 
     fun installModel(model: TranscriptionModel) {
         val t = transcriber ?: return
-        _state.update { it.copy(transcription = it.transcription.copy(installing = model.id), error = null) }
+        _state.update { it.copy(transcription = it.transcription.copy(installing = model.id, error = null)) }
         viewModelScope.launch {
             try {
                 t.install(model)
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
-                _state.update { it.copy(error = "The model could not be downloaded.") }
+                _state.update { it.copy(transcription = it.transcription.copy(error = "The model could not be downloaded.")) }
             } finally {
                 _state.update { it.copy(transcription = it.transcription.copy(installing = null)) }
                 loadModels()
@@ -275,23 +276,23 @@ class AddVideoViewModel(
         val url = state.value.link.url ?: return
         val language = state.value.languageCode ?: return
         if (transcription?.isActive == true) return
-        _state.update { it.copy(transcription = it.transcription.copy(running = true, stage = TranscriptionStage.AUDIO, fraction = null), error = null) }
+        _state.update { it.copy(transcription = it.transcription.copy(running = true, stage = TranscriptionStage.AUDIO, fraction = null, error = null)) }
         transcription = viewModelScope.launch {
             try {
                 val cues = t.transcribe(url, language) { stage, fraction ->
                     _state.update { it.copy(transcription = it.transcription.copy(stage = stage, fraction = fraction)) }
                 }
                 _state.update {
-                    if (cues.isEmpty()) it.copy(error = "Whisper heard no speech in this video.")
+                    if (cues.isEmpty()) it.copy(transcription = it.transcription.copy(error = "Whisper heard no speech in this video."))
                     else it.copy(link = it.link.copy(subtitles = PickedSubtitles("Whisper", cues, SubtitleKind.TRANSCRIBED)))
                 }
             } catch (e: CancellationException) {
                 throw e
             } catch (e: TranscriptionException) {
-                _state.update { it.copy(error = e.message) }
+                _state.update { it.copy(transcription = it.transcription.copy(error = e.message)) }
             } catch (e: Exception) {
                 Logger.w(e) { "transcription failed" }
-                _state.update { it.copy(error = "The transcription failed.") }
+                _state.update { it.copy(transcription = it.transcription.copy(error = "The transcription failed.")) }
             } finally {
                 _state.update { it.copy(transcription = it.transcription.copy(running = false, stage = null, fraction = null)) }
             }

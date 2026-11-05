@@ -250,7 +250,7 @@ private fun WhisperSection(state: AddVideoUiState, actions: AddVideoActions) {
                 QuietButton(tr("Cancel"), onClick = actions.onCancelTranscription, modifier = Modifier.testTag("cancel-transcription"))
             }
         }
-        t.ready -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        t.ready -> Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             SecondaryButton(
                 tr("Transcribe with Whisper"),
                 onClick = actions.onTranscribe,
@@ -259,8 +259,10 @@ private fun WhisperSection(state: AddVideoUiState, actions: AddVideoActions) {
                 modifier = Modifier.testTag("transcribe"),
             )
             t.models.firstOrNull { it.installed }?.let { model ->
-                Text(model.name, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f, fill = false))
-                QuietButton(tr("Remove"), onClick = { actions.onRemoveModel(model) }, modifier = Modifier.testTag("remove-${model.id}"))
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    Text(model.name, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                    QuietButton(tr("Remove"), onClick = { actions.onRemoveModel(model) }, modifier = Modifier.testTag("remove-${model.id}"))
+                }
             }
         }
         else -> Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
@@ -288,6 +290,8 @@ private fun WhisperSection(state: AddVideoUiState, actions: AddVideoActions) {
             t.installProgress?.takeIf { t.installing != null }?.let { Text(trProgress(it), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
         }
     }
+    // Here and not with the form's other errors: those sit below the fold, where a failed tap on Transcribe would look like nothing.
+    t.error?.let { Notice(tr(it), tint = colors.error, modifier = Modifier.testTag("transcription-error")) }
 }
 
 @OptIn(ExperimentalLayoutApi::class)

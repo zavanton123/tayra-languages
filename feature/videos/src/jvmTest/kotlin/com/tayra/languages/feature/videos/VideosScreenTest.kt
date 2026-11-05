@@ -229,13 +229,14 @@ class VideosScreenTest {
         add.setOrigin(VideoOrigin.LINK)
         add.setLinkInput("https://videos.example/silent.mp4")
         add.transcribe()
-        waitFor { add.state.value.error != null }
-        assertEquals("The video has no sound.", add.state.value.error)
+        waitFor { add.state.value.transcription.error != null }
+        assertEquals("The video has no sound.", add.state.value.transcription.error)
         add.setLinkInput("https://videos.example/Coelho.mp4")
         add.transcribe()
         waitFor { add.state.value.link.subtitles != null && !add.state.value.transcription.running }
         assertEquals(listOf(com.tayra.languages.core.domain.media.TranscriptionStage.AUDIO, com.tayra.languages.core.domain.media.TranscriptionStage.SPEECH), whisper.stages)
         assertEquals("Whisper", add.state.value.link.subtitles?.name)
+        assertEquals(null, add.state.value.transcription.error)
         add.add()
         val id = assertIs<AddVideoEvent.Added>(add.events.flow.first()).bookId
         assertEquals(com.tayra.languages.core.domain.media.SubtitleKind.TRANSCRIBED, videos.video(id)!!.subtitleKind)
@@ -259,6 +260,12 @@ class VideosScreenTest {
         onNodeWithText("486.0 MB · Quicker").assertExists()
         onNodeWithTag("install-small").performClick()
         state = state.copy(transcription = state.transcription.copy(models = listOf(model.copy(installed = true))))
+        waitForIdle()
+        onNodeWithTag("transcription-error").assertDoesNotExist()
+        state = state.copy(transcription = state.transcription.copy(error = "The video has no sound."))
+        waitForIdle()
+        onNodeWithTag("transcription-error").assertExists()
+        state = state.copy(transcription = state.transcription.copy(error = null))
         waitForIdle()
         onNodeWithTag("transcribe").performClick()
         state = state.copy(transcription = state.transcription.copy(running = true, stage = com.tayra.languages.core.domain.media.TranscriptionStage.SPEECH, fraction = 0.42f))
