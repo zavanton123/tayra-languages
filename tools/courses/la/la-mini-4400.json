@@ -1,0 +1,191 @@
+{
+  "id": "la-mini-4400",
+  "rankUpTo": 4400,
+  "level": "C1",
+  "title": "Chartae et negotia cotidiana",
+  "description": "Ten pieces about everyday paperwork: a tenant's letter about the new rent in Lucca, the sale of an old purple car in Padua, an interview with a tax helper in Bologna, two cousins sorting their grandmother's papers in Verona, a column on official forms in Milan, a town garden lease in Ravenna, a water-damage claim in Piacenza, the permits behind a new pastry shop in Naples, an astronomy club becoming an association in Tivoli and a cave guide's licence near Trieste.",
+  "topic": "Everyday paperwork",
+  "names": [
+    "Laetilla",
+    "Plancianus",
+    "Luca",
+    "Iulius",
+    "October",
+    "Annianus",
+    "Calvia",
+    "Patavium",
+    "Italia",
+    "Petronilla",
+    "Bononia",
+    "Maius",
+    "Iunius",
+    "Domitilla",
+    "Quintilla",
+    "Albucilla",
+    "Verona",
+    "Cassianus",
+    "Mediolanum",
+    "Vibiana",
+    "Ravenna",
+    "Catius",
+    "Seius",
+    "Placentia",
+    "November",
+    "Antonina",
+    "Neapolis",
+    "Nigrina",
+    "Marcianus",
+    "Tibur",
+    "Sabinilla",
+    "Pupienus",
+    "Tergeste",
+    "Aprilis"
+  ],
+  "lessons": [
+    {
+      "title": "Epistola de pensione",
+      "summary": "In Lucca a tenant writes a letter to her landlord about the higher rent, the summer heat, the bathroom, the shaking washing machine and the bicycles on the stairs, and he answers kindly.",
+      "newWords": [
+        "pensio",
+        "aestus",
+        "balneum",
+        "coquina",
+        "edico",
+        "vibro",
+        "amoveo"
+      ],
+      "text": "Laetilla Planciano salutem dicit.\n\nIam tres annos Lucae in diaeta tua habito, et pensionem semper primo die mensis solvi. Mense priore administrator aedificii, cui tu curam domus mandavisti, edixit pensionem a mense Octobri decima parte maiorem fore. Non queror quod pensio crescit: hodie omnia carius emuntur, et scio tributa tua quoque crevisse. Sed antequam pensionem novam solvo, te rogare velim ut quaedam in diaeta reficiantur. Quattuor res breviter tibi exponam.\n\nPrimum de aestu. Mense Iulio aestus in cubiculo meo tantus erat ut noctu vix dormire possem. Fenestrae enim ad meridiem spectant, neque ullum velum est quod solem arceat. Vicini dicunt aestum in summa parte aedificii semper maiorem esse quam in ceteris, quia tectum calorem diu retinet. Si fenestris vela externa adderentur, aestus aestate proxima multo minor esset.\n\nDeinde de balneo. In balneo aqua calida saepe deficit, praesertim mane, cum omnes vicini se lavant. Praeterea in angulo balnei murus umidus est, et color eius iam niger fit. Balneum parvum est, nec novum balneum postulo; rogo tantum ut artifex tubos inspiciat et murum siccet.\n\nTertio de coquina. Coquina mihi valde placet: lucida est et satis ampla, et in ea amicos ad cenam libenter accipio. Sed machina quae vestes lavat, in coquina posita, tam vehementer vibrat ut pocula in mensa tremant et vicini infra habitantes de strepitu querantur. Artifex quem ipsa vocavi dixit machinam non aequo loco stare et ideo vibrare. Si machina vibrare desinet, et ego et vicini quietius vivemus.\n\nPostremo de iussu administratoris. Edixit enim ut omnes qui in aedificio habitant birotas suas e scalis amoveant. Libenter birotam meam amovebo, sed nescio ubi eam ponam: cella sub terra clausa est, neque clavem habeo. Si mihi clavem cellae dabis, birotam statim amovebo.\n\nHaec omnia non scribo ut querar, sed quia diaetam tuam amo et in ea diu manere volo. Spero te ante finem huius mensis responsurum esse. Vale.\n\nPost decem dies epistola Planciani advenit.\n\nPlancianus Laetillae salutem dicit. Gratias ago pro epistola tam diligenti. Artifex proxima hebdomade veniet: tubos balnei inspiciet, murum siccabit, machinam in coquina aequo loco ponet, ne amplius vibret. Ante aestatem vela fenestris addentur, ut aestus minor sit. Clavem cellae cum hac epistola mitto: ibi birotam pone. Pensio, ut administrator edixit, crescet, sed nemo libentius pensionem accipit quam ego a te. Vale.\n\nQuaestiones:\nCur Laetilla Planciano scribit?\nQuia administrator edixit pensionem maiorem fore, et Laetilla rogat ut quaedam in diaeta reficiantur.\nCur aestus in cubiculo eius tantus est?\nQuia fenestrae ad meridiem spectant, neque ullum velum est quod solem arceat.\nQuid in balneo saepe deficit?\nAqua calida in balneo saepe deficit, praesertim mane.\nCur machina in coquina vibrat?\nMachina vibrat quia non aequo loco stat.\nQuomodo Laetilla birotam e scalis amovere potest?\nPlancianus ei clavem cellae mittit, ut birotam in cella ponat."
+    },
+    {
+      "title": "Autocinetum purpureum",
+      "summary": "In Padua an old man sells his purple car to a hesitant student; at the public office the sale is written down and he hands over the papers and the keys.",
+      "newWords": [
+        "venditio",
+        "vilis",
+        "velox",
+        "avidus",
+        "anceps",
+        "purpureus",
+        "porrigo",
+        "ascribo"
+      ],
+      "text": "Annianus Patavii habitat et iam septuaginta annos natus est. Ante viginti annos autocinetum purpureum emit, et omnes in vico eius autocinetum purpureum noverunt, quia color tam rarus est. Sed Annianus nunc raro vehitur: ad mercatum ambulat, ad filium tramine it. Autocinetum diu in via stat et pulvere tegitur. Itaque Annianus constituit id vendere.\n\nVenditio autocineti veteris maiorem curam postulat quam putaverat. Primum filius eum monet: «Autocinetum viginti annorum vile est, pater. Noli magnum pretium sperare.» Annianus subridet. Fortasse autocinetum mercatoribus vile est, sed ei carum, quia in eo cum uxore per totam Italiam iter fecit. Tandem pretium modicum constituit et in interrete nuntium ponit cum imagine autocineti purpurei.\n\nPostridie Calvia telephono loquitur. Viginti annos nata est et in vico prope Patavium habitat; sine autocineto ad universitatem cotidie venire difficile est. Cum autocinetum videt, avidis oculis id circumspicit. Avida est primi sui autocineti, et color purpureus ei statim placet. Sed animo anceps est. Pater eam monuit ne primum autocinetum quod videret emeret, et ipsa dubitat num autocinetum tam vetus satis velox sit. «Estne velox?» rogat. «In via magna enim cotidie vehor, inter autocineta velocia.»\n\nAnnianus ingenue respondet: «Velox non est, sed certum. Numquam me in via deseruit.» Una paulisper vehuntur. Autocinetum non velox est, sed lene et quietum, et Calvia gaudet. Tamen adhuc anceps est. Annianus id intellegit. «Consilium anceps non est malum consilium», inquit. «Domum redi et cum patre cogita. Emptor nimis avidus saepe male emit.»\n\nPost tres dies Calvia cum patre redit. Pater autocinetum diligenter inspicit et pretium vile esse fatetur. Tum omnes tres ad officium publicum eunt, ubi venditio scribitur. Venditio enim autocineti non solum pecunia et clavibus, sed etiam chartis fit. Annianus officiali chartas autocineti porrigit, et officialis nomen Calviae in tabulas publicas ascribit. Deinde Calvia rogat ut Annianus in contractu ascribat rotas anno priore novas emptas esse. Annianus libenter id manu sua ascribit et chartam ei porrigit.\n\nAd extremum Annianus claves porrigit. «Bene id cura», inquit. «Celere non est, sed fidum.» Calvia pecuniam ei porrigit et ridens abit. Annianus ex fenestra spectat autocinetum purpureum lente per viam abire, et laetus est quod venditio tam bene facta est.\n\nQuaestiones:\nCur Annianus autocinetum vendere constituit?\nQuia nunc raro vehitur, et autocinetum diu in via stat.\nQuid filius Annianum monet?\nFilius dicit autocinetum viginti annorum vile esse, neque magnum pretium sperandum esse.\nCur Calvia primo anceps est?\nQuia pater eam monuit ne primum autocinetum emeret, et ipsa dubitat num autocinetum satis velox sit.\nQuid officialis in tabulas publicas ascribit?\nOfficialis nomen Calviae in tabulas publicas ascribit.\nQuid Annianus ad extremum Calviae porrigit?\nClaves autocineti ei porrigit, et Calvia ei pecuniam porrigit."
+    },
+    {
+      "title": "Mense Maio apud Petronillam",
+      "summary": "An interview with a woman in Bologna who helps people with their tax papers: scattered receipts, long nights of work, anxious clients and her wish for simpler forms.",
+      "newWords": [
+        "lucubratio",
+        "calleo",
+        "simplicitas",
+        "ignorantia",
+        "anxietas",
+        "consolatio",
+        "accumulo",
+        "dispergo"
+      ],
+      "text": "Petronilla Bononiae parvum officium habet, ubi hominibus auxilium fert in chartis tributorum parandis. Mense Maio, cum omnes rationes tributorum reddere debent, officium eius plenum est. Inter duos clientes cum ea locuti sumus.\n\n«Quid est opus tuum?»\n\n«Homines ad me veniunt cum chartis quas ipsi intellegere non possunt. Ego praecepta tributorum calleo, ut medicus corpus humanum callet. Nihil magnum facio: chartas lego, numeros computo, formulas impleo.»\n\n«Qui ad te veniunt?»\n\n«Omnes: senes et iuvenes, artifices et magistri. Multi ignorantiam suam confitentur et paene erubescere videntur. Sed ignorantia in hac re non est culpa. Praecepta tributorum quotannis mutantur; ne ego quidem omnia callerem, nisi cotidie legerem. Ignorantiam non reprehendo, sed eam paulatim minuere conor.»\n\n«Quo modo homines chartas suas afferunt?»\n\nPetronilla ridet. «Raro ordine. Plerique chartas per totum annum in arca accumulant, et mense Maio totum cumulum in mensam meam ponunt. Accepta, rationes argentariae, epistolae officii publici: omnia simul accumulant, nullo ordine. Alii chartas per totam domum dispergunt. Una femina mihi narravit se chartas suas per tres domos dispersisse: aliquas apud se, aliquas apud matrem, aliquas apud filiam. Primum opus meum est colligere quod homines disperserunt, et in ordinem redigere.»\n\n«Mense Maio multum laboras?»\n\n«Mense Maio vita mea est una longa lucubratio. Die clientes accipio, noctu sub lumine parvo computo. Has lucubrationes non odi: nocte silentium est, et telephonum non sonat. Sed post mensem lucubrationum labore confecta sum, et mense Iunio diu dormio.»\n\n«Quid est difficillimum?»\n\n«Non numeri, sed anxietas hominum. Multi cum anxietate magna veniunt: timent ne erraverint, timent ne pecuniam debeant quam solvere non possunt. Anxietas eorum saepe maior est quam res ipsa. Itaque prima pars operis mei est consolatio. Dico eis: \"Sedete; chartas una legemus.\" Haec simplex consolatio saepe plus valet quam omnis computatio. Cum numeros vident, anxietas plerumque abit.»\n\n«Quid optas?»\n\n«Simplicitatem. Si praecepta tributorum maiore simplicitate scriberentur, homines minus anxietatis haberent, et ego minus lucubrationis. Simplicitas autem difficillima res est: facile est multa scribere, difficile pauca et clara. Sed fortasse, si tanta esset simplicitas, me nemo requireret!»\n\nPost colloquium senex iam ad ianuam exspectat, magnam arcam chartarum tenens. Petronilla ridens eum intrare iubet.\n\nQuaestiones:\nQuid Petronilla Bononiae facit?\nHominibus auxilium fert in chartis tributorum parandis.\nCur ignorantia hominum non est culpa?\nQuia praecepta tributorum quotannis mutantur.\nQuo modo plerique chartas suas afferunt?\nChartas per totum annum accumulant aut per domum dispergunt, et mense Maio omnes simul afferunt.\nCur Petronilla lucubrationes non odit?\nQuia nocte silentium est, et telephonum non sonat.\nQuae est prima pars operis eius?\nPrima pars operis eius est consolatio, quia multi cum anxietate magna veniunt."
+    },
+    {
+      "title": "Chartae aviae",
+      "summary": "Two cousins in Verona sort their grandmother's papers before she moves, quarrel over what to keep, and make peace over an old letter from a relative by marriage.",
+      "newWords": [
+        "consobrina",
+        "affinis",
+        "amabilis",
+        "iurgium",
+        "reconcilio",
+        "maestus",
+        "risus",
+        "mentum",
+        "indulgeo"
+      ],
+      "text": "Domitilla et Quintilla consobrinae sunt: matres earum sorores sunt. Ambae Veronae habitant, sed raro se vident, quia Domitilla medica est et Quintilla magistra. Hoc autumno tamen per tres dies una laborant. Avia earum, Albucilla, octoginta annos nata, e domo magna in parvam diaetam migrat, et consobrinae ei promiserunt se chartas eius in ordinem redacturas esse.\n\nAlbucilla femina amabilis est. Omnes vicini eam amant, et nepotes quoque, quia eis semper indulsit: dulcia dabat, sero cubare sinebat. Sed in chartis servandis nimis sibi indulsit. In arcis et cistis chartae quinquaginta annorum servatae sunt: rationes argentariae, accepta pensionum solutarum, epistolae amicorum et affinium.\n\nPrimo die consobrinae bene laborant. Sed altero die iurgium oritur. Domitilla vult omnes rationes veteres abicere; Quintilla vult omnia servare, etiam accepta pensionum quae ante quadraginta annos solutae sunt. «Haec sunt historia familiae!» clamat Quintilla. «Haec sunt chartae sine usu», respondet Domitilla. Iurgium crescit, et utraque vocem tollit. Tandem Domitilla irata domum abit.\n\nAlbucilla, quae ex alio conclavi iurgium audivit, maesta est. Non chartas, sed consobrinas amat. Diu maesta sedet, mentum in manu ponens, et cogitat quo modo eas reconciliet.\n\nVespere Albucilla, amabilis ut semper, ambas consobrinas ad cenam vocat. «Indulgete mihi», inquit, «et hodie mecum cenate.» Post cenam eis epistolas veteres affinium ostendit. «Affines meos semper dilexi», inquit. «Familia enim non solum genere, sed etiam amicitia iungitur.» Unam epistolam legit, quam soror mariti sui, affinis amabilis, ante quinquaginta annos ei scripserat. In ea affinis narrat se et Albucillam de re minima iurgium habuisse, de colore cuiusdam vestis, et postridie se reconciliavisse.\n\nConsobrinae, cum epistolam audiunt, risum tenere non possunt. Risus earum per totam domum sonat, et Albucilla, mento in manu posito, ridens eas spectat. «Videtisne?» inquit. «Iurgium de veste aut de chartis non est magnum. Sed nimis diu irasci magnum est. Ubi risus est, iurgium diu manere non potest; risus enim optima consolatio est.»\n\nDomitilla mentum tollit et consobrinam aspicit. «Ignosce mihi», inquit. «Accepta vetera servemus, si tibi placet.» Quintilla respondet: «Et rationes argentarias abiciamus.» Ita consobrinae reconciliantur, et Albucilla laeta est quod eas reconciliavit. Postridie una laborant sine iurgio: epistolas servant, rationes veteres abiciunt, et singulas res cum risu narrant. Albucilla, quae paulo ante maesta erat, iam non maesta est.\n\nQuaestiones:\nCur consobrinae per tres dies una laborant?\nQuia avia earum in parvam diaetam migrat, et chartas eius in ordinem redigere promiserunt.\nQuid est causa iurgii?\nDomitilla rationes veteres abicere vult, Quintilla omnia servare.\nCur Albucilla maesta est?\nQuia consobrinas amat et iurgium earum audivit.\nQuid affinis in epistola vetere narrat?\nNarrat se et Albucillam de re minima iurgium habuisse et postridie se reconciliavisse.\nQuo modo consobrinae tandem reconciliantur?\nDomitilla accepta vetera servare consentit, et Quintilla rationes argentarias abicere."
+    },
+    {
+      "title": "De formulis",
+      "summary": "A columnist in Milan reflects on official forms: their neat boxes, their either-or questions, the useful fiction behind them, and how forms should serve people.",
+      "newWords": [
+        "alternativus",
+        "geometricus",
+        "interpono",
+        "supprimo",
+        "mutabilis",
+        "articulo",
+        "fictio",
+        "inservio"
+      ],
+      "text": "Cassianus Mediolani in diario urbis commentariolos scribit. Hoc mense de re scripsit quam omnes noverunt et pauci amant: de formulis.\n\n«Formulas implere numquam didici, et puto neminem id umquam discere. Quotiens formulam publicam aspicio, primum figuras geometricas video: quadrata parva, in quibus singulae litterae scribendae sunt, lineas rectas, circulos quos implere debeo. Ordo geometricus pulcher est, sed vita mea non est geometrica. Nomen meum longius est quam ordo quadratorum, et numerus domus meae littera finitur, quae in nullum quadratum convenit.\n\nDeinde sunt quaestiones alternativae. Formula me rogat: \"Laborasne an studes?\" Ego autem et laboro et studeo; utrumque verum est. Sed formula duas tantum responsiones alternativas mihi dat, et nulla est responsio alternativa quae vitam meam vere describat, nisi quadratum \"aliud\", quod semper nimis parvum est.\n\nNuper ad officium publicum ivi ut formulam traderem. Cum officiali nomen meum dictarem, ille saepe se interposuit et rogavit: \"Quo modo scribitur?\" Itaque nomen meum littera post litteram articulare debui. Lente et clare articulavi, ut magister in schola; ille tamen iterum quaestionem interposuit. Iram suppressi, et etiam risum suppressi, cum post nomen meum tertio articulatum ille rogavit: \"Estne hoc nomen tuum?\"\n\nDomi tamen, cum iram omnino suppressissem, de formulis cogitavi. Formula fictione quadam nititur: fingit omnes homines simili modo vivere, eandem domum, idem opus, eundem annum habere. Haec fictio non mala est. Sine ea officium publicum milia hominum audire et intellegere non posset. Fictio enim formulae nobis inservit, dum eam fictionem esse meminimus.\n\nPraeterea praecepta mutabilia sunt. Quod anno priore verum erat, hodie falsum est, et formula quotannis mutatur. Vita autem nostra etiam magis mutabilis est quam praecepta. Bona formula igitur ea est quae intellegit homines mutabiles esse, et quaestionibus suis spatium aliquod relinquit.\n\nItaque formulas odisse nolo. Formulae enim, si bene scriptae sunt, hominibus inserviunt: efficiunt ut omnes eodem modo audiantur. Sed meliores formulas postulare licet: formulas quae hominibus inserviant, non homines qui formulis inserviant. Et officialibus, qui tota die nomina audiunt, patientiam meam praestabo: proximo anno nomen meum iterum libenter articulabo.»\n\nQuaestiones:\nQuid Cassianus in formulis publicis primum videt?\nFiguras geometricas videt: quadrata parva, lineas rectas, circulos.\nCur quaestiones alternativae ei non placent?\nQuia duas tantum responsiones alternativas dant, et nulla vitam eius vere describit.\nQuid officialis saepe facit, cum Cassianus nomen suum dictat?\nOfficialis se interponit et rogat quo modo nomen scribatur.\nQua fictione formula nititur?\nFingit omnes homines simili modo vivere.\nQuales formulas Cassianus postulat?\nFormulas quae hominibus inserviant, non homines qui formulis inserviant."
+    },
+    {
+      "title": "Hortus prope stagnum",
+      "summary": "In Ravenna a woman rents a small town garden by a pond, signs the rules about foreign plants, keeps blackbirds off her grapes and shares her first harvest.",
+      "newWords": [
+        "stagnum",
+        "alienigenus",
+        "nux",
+        "uva",
+        "persicum",
+        "rostrum",
+        "expulso",
+        "proventus"
+      ],
+      "text": "Vibiana Ravennae in diaeta sine horto habitat, sed semper hortum habere cupivit. Hoc vere consociatio quae hortos urbanos administrat ei parvam aream locat in campo prope stagnum magnum, ubi aves aquaticae natant. Antequam aream accipit, Vibiana contractum legere et subscribere debet, et contractus multa praecepta continet.\n\nPrimum praeceptum est de pensione: pro area quotannis pensio parva solvitur, quae ad aquam et ad saepta adhibetur. Secundum praeceptum est de herbis alienigenis. Officialis consociationis explicat: «Herbae alienigenae, quae ex aliis terris veniunt, interdum tam celeriter crescunt ut herbas nostras opprimant. Una herba alienigena, quae flores purpureos habet, iam magnam partem ripae stagni tegit.» Itaque in areis nulla herba alienigena seri potest. Tertium praeceptum est de stagno: aqua stagni ad hortos sumi potest, sed nihil in stagnum mitti licet, ne avibus et piscibus noceatur.\n\nVibiana contractum subscribit et aream suam videt. Iam ibi stant arbor nucis vetus, ordo vitium et arbor persici iuvenis. Vibiana gaudet: numquam arborem nucis habuit, et persicum e sua arbore numquam edit. Per totum ver herbas malas extrahit, terram vertit, semina serit, et aquam e stagno portat.\n\nAestate uvae maturae fiunt, et cum uvis veniunt aves parvae. Aves uvas rostris suis carpunt, et rostra earum etiam in fructibus persicorum signa relinquunt. Vibiana primo aves clamore et manibus expulsat, sed mox redeunt. Vicina, quae aream proximam colit, ridet: «Aves expulsare frustra conaris», inquit. «Rete super vites pone. Rostrum avis per rete non transit.» Vibiana rete ponit, et aves, quas iam non expulsat, in arbore nucis sedent et cantant.\n\nAutumno proventus colligitur. Proventus primi anni non magnus est: pauca holera, duae arcae uvarum, paucorum persicorum fructus. Sed Vibiana laeta est. Primum persicum quod in arbore sua maturum fit statim edit: persicum parvum, sed suavissimum. Mense Octobri nuces ex arbore cadunt, et Vibiana nuces singulas colligit. Postea dicit nucem e sua arbore dulciorem sibi videri quam omnes nuces quas umquam emit.\n\nPartem proventus vicinae dat, quae eam de rete monuit, partem officiali consociationis. «Proventus bonus», inquit officialis, «et nulla herba alienigena!» Vibiana ridet: anno proximo plures arbores persici serere vult, si contractus sinit.\n\nQuaestiones:\nUbi est area Vibianae?\nArea eius est in campo prope stagnum magnum, ubi aves aquaticae natant.\nCur herbae alienigenae seri non possunt?\nQuia interdum tam celeriter crescunt ut herbas nostras opprimant.\nQuae arbores in area stant?\nArbor nucis vetus, ordo vitium et arbor persici iuvenis.\nQuo modo Vibiana tandem uvas ab avibus servat?\nRete super vites ponit, quia rostrum avis per rete non transit.\nQuid Vibiana cum proventu facit?\nPartem proventus vicinae dat, partem officiali consociationis."
+    },
+    {
+      "title": "Aqua per tectum",
+      "summary": "In Piacenza water from a burst pipe upstairs reaches a retired teacher's books; he and his neighbour handle the damage report, and the assessor pays fairly.",
+      "newWords": [
+        "confluo",
+        "laedo",
+        "solidus",
+        "vectis",
+        "descensus",
+        "involvo",
+        "diminuo",
+        "aequitas"
+      ],
+      "text": "Catius, magister qui iam non docet, Placentiae in diaeta antiqua habitat cum mille fere libris. Mense Novembri, dum Catius apud filiam est, in diaeta superiore, ubi Seius habitat, tubus in balneo rumpitur. Aqua ex balneo et ex coquina Seii in unum confluit et per pavimentum in diaetam Catii descendit. Descensus aquae lentus est, sed per totam noctem non desinit.\n\nCum Catius domum redit, aqua in pavimento stat, et libri in pluteis inferioribus aqua laesi sunt. Catius statim Seium vocat, qui eadem hora domum redierat et in balneo suo idem damnum invenit. Mox etiam alii vicini in scalis confluunt, et unus eorum in cellam descendit ut aquam totius aedificii claudat. Descensus in cellam per scalas angustas difficilis est, sed vicinus aquam claudit, et nihil amplius per tectum fluit. Hoc modo vicinus damnum multum diminuit.\n\nPrimo Catius libros servare conatur. Singulos libros laesos charta sicca involvit, ut charta aquam bibat, et cum charta aqua plena est, librum nova charta involvit. Seius eum adiuvat et quemque librum involutum in mensa ponit. «Libri tui per me laesi sunt», inquit Seius maestus. «Non per te», respondet Catius, «sed per tubum veterem. Neminem laedere voluisti.»\n\nSeius pecuniam quotannis societati cuidam solvit, quae damna aquae reddit. Postridie vir ab hac societate venit ut damnum aestimet. Pavimentum ligneum diligenter inspicit et vecte tabulam unam tollit, ut videat num tabulae inferiores solidae maneant. Deinde altera tabula vecte sublata, «Tabulae inferiores solidae sunt», inquit, «et murus quoque solidus. Damnum minus est quam timuistis.» Machinam ponit quae aerem siccat et aquam in conclavi paulatim diminuit.\n\nDe libris autem diu loquuntur. Catius timet ne societas libros veteres parvi aestimet. Sed vir aequitate utitur: libros singulos aspicit, pretia quaerit, et etiam libros quorum pretium parvum est, sed qui Catio cari sunt, in rationem ascribit. «Aequitas postulat», inquit, «ut non solum pretium, sed etiam usus libri aestimetur.» Catius aequitatem eius laudat.\n\nPost mensem damnum valde diminutum est. Pavimentum siccum est, et plerique libri, charta sicca servati, iterum legi possunt. Societas pecuniam pro libris amissis reddit. Seius autem ipse Catio pluteum novum donat. «Hic pluteus solidus est», inquit, «et in eo libri tui semper sicci erunt.»\n\nQuaestiones:\nQuo modo aqua in diaetam Catii venit?\nAqua ex balneo et coquina Seii in unum confluit, et descensus eius per pavimentum totam noctem durat.\nQuid vicinus in cella facit?\nIn cellam descendit et aquam totius aedificii claudit.\nQuo modo Catius libros laesos servare conatur?\nLibros singulos charta sicca involvit, ut charta umorem bibat.\nCur vir societatis tabulam vecte tollit?\nUt videat num tabulae inferiores solidae maneant.\nQuo modo vir aequitate utitur?\nEtiam libros qui Catio cari sunt in rationem ascribit, non solum pretium aestimans."
+    },
+    {
+      "title": "Taberna Antoninae",
+      "summary": "A portrait of a young pastry cook in Naples who opens her own shop after a long fight with permits and rules, and of the cheerful opening day.",
+      "newWords": [
+        "saccharum",
+        "festivitas",
+        "erumpo",
+        "aemulor",
+        "mundialis",
+        "dito",
+        "obsequium",
+        "radio"
+      ],
+      "text": "Antonina triginta annos nata est et Neapoli dulcia coquit. Artem ab avo didicit, qui per quadraginta annos in via angusta prope portum tabernam dulciariam habebat. Avus iam non laborat, sed cotidie in tabernam neptis venit ut dulcia gustet. Antonina avum non solum amat, sed etiam aemulatur: eadem diligentia, eadem patientia laborare vult. «Non eum superare volo», inquit. «Eum aemulari volo, quod difficilius est.» Multi iuvenes magistros suos imitantur; pauci eos vere aemulantur.\n\nAntequam tabernam aperire potuit, per decem menses in chartis laboravit. Societatem in tabulas publicas inscribere debuit, coquinam ab officio sanitatis inspiciendam curare, rationes argentarias aperire, contractum cum domino aedificii subscribere. Officium sanitatis multa praecepta habet, et Antonina eis summo obsequio paret: manus lavat, cibos frigidos servat, singulos dies et horas scribit. «Obsequium meum non est timor», inquit, «sed reverentia erga clientes. Qui dulcia mea edit, mihi credit.»\n\nEtiam pretium sacchari ei curae fuit. Saccharum, sine quo nulla dulcia fiunt, in mercatu mundiali hoc anno carius factum est, quia in multis terris messis parva fuit. Antonina igitur saccharum minus adhibere didicit et fructibus dulcedinem dare. «Pretia mundialia ego mutare non possum», inquit, «sed mea dulcia mutare possum.» Clientes dicunt dulcia eius minus sacchari habere, sed non minus saporis.\n\nAntonina non ut se ditet tabernam aperuit. «Haec taberna me non ditabit», inquit, «sed viam nostram ditabit.» Et vere: vicini dicunt tabernam totam viam ditare, quia homines ex aliis partibus urbis veniunt, et aliae tabernae quoque plures emptores habent.\n\nDies quo taberna aperta est plenus festivitatis fuit. Sol per fenestras novas radiabat, et vitra dulcibus plena in sole radiabant. Iam mane turba ante ianuam exspectabat, et cum Antonina ianuam aperuit, homines in tabernam eruperunt. Avus in sella prope fenestram sedebat, et facies eius gaudio radiabat. Cum primus cliens dixit dulcia neptis meliora esse quam avi, risus omnium erupit, et avus ipse maxime risit.\n\nFestivitas illius diei non solum in musica et in floribus fuit, sed in animis hominum. Vespere Antonina, fessa sed laeta, tabernam clausit. Saccharum in mensa effusum erat, et chartae officii in armario dormiebant. Antonina avum domum duxit, et ille dixit: «Hodie me vere aemulata es.»\n\nQuaestiones:\nA quo Antonina artem suam didicit?\nAb avo didicit, qui per quadraginta annos tabernam dulciariam habebat.\nCur Antonina praeceptis officii sanitatis summo obsequio paret?\nQuia obsequium eius est reverentia erga clientes, qui ei credunt.\nCur saccharum hoc anno carius est?\nQuia in mercatu mundiali carius factum est, cum in multis terris messis parva fuerit.\nQuo modo taberna viam ditat?\nHomines ex aliis partibus urbis veniunt, et aliae tabernae plures emptores habent.\nUbi fuit festivitas illius diei?\nNon solum in musica et in floribus fuit, sed in animis hominum.\nQuid accidit cum primus cliens dulcia neptis laudavit?\nRisus omnium erupit, et avus ipse maxime risit."
+    },
+    {
+      "title": "Sodalitas astrorum",
+      "summary": "In Tivoli the secretary of an amateur astronomy group turns it into a registered association so that it can rent an old observatory with a cone-shaped roof.",
+      "newWords": [
+        "astrum",
+        "cosmicus",
+        "nominalis",
+        "conus",
+        "plasticus",
+        "maioritas"
+      ],
+      "text": "Nigrina Tiburi habitat et in schola mathematicam docet. Iam decem annos singulis mensibus cum amicis in colle supra urbem astra spectat. Amici initio quinque erant; nunc sunt fere sexaginta, et maioritas eorum discipuli sunt, qui cum parentibus veniunt. Hi astrorum studiosi se sodalitatem appellant, sed sodalitas eorum hactenus nominalis tantum est: nullam chartam, nullas rationes, nullum locum habent.\n\nHoc anno tamen res mutanda est. In summo colle stat vetus specula astrorum, aedificium rotundum, cuius tectum formam coni habet. Urbs eam speculam sodalitati locare vult, sed tantum sodalitati verae, quae in tabulis publicis inscripta est. Nomen sodalitatis nominale non sufficit. Itaque Nigrina, quae scriba sodalitatis est, chartas parat.\n\nPrimum statuta scribit: quid sodalitas faciat, quis rationes curet, quo modo sodales novi accipiantur. Deinde pretium constituit, quod sodales quotannis solvunt. Pretium nominale est, unus nummus, quia maioritas sodalium discipuli sunt, qui pecuniam non habent; sed sine pretio sodalitas in tabulas publicas inscribi non potest. Denique nomina omnium sodalium in indicem ascribit.\n\nMarcianus, amicus eius, qui primus sodalis fuit, eam adiuvat. Ille de spatio cosmico omnia scit: de radiis cosmicis, de pulvere cosmico, de distantiis astrorum. Sed in chartis componendis minus callet. «Spatium cosmicum facilius intellego quam has formulas», inquit ridens. Nigrina respondet: «Astra sine chartis non spectabimus.»\n\nMense Iunio sodalitas inscripta est, et urbs speculam locat. Prima nocte omnes in collem ascendunt. Ut iter per tenebras tutum sit, Marcianus conos plasticos rubros in via ponit, quorum quisque parvam lucem habet. Discipuli secundum conos ascendunt et prope speculam consistunt. Multi telescopia plastica secum ferunt, quae parentes eis donaverunt; telescopium plasticum leve est, et per id luna clare videtur.\n\nIntus Marcianus tectum aperit: pars coni movetur, et per rimam caelum apparet. Discipuli per telescopium magnum astra spectant et nomina eorum discunt. Nigrina in ianua stat et sodales novos in indicem ascribit. Maioritas eorum, ut semper, discipuli sunt. Sed haec sodalitas iam non est nominalis: locum, rationes et caelum habet.\n\nQuaestiones:\nQuot sodales sodalitas nunc habet?\nFere sexaginta habet, et maioritas eorum discipuli sunt.\nCur sodalitas hactenus nominalis tantum est?\nQuia nullam chartam, nullas rationes, nullum locum habet.\nQuam formam habet tectum speculae?\nTectum speculae formam coni habet.\nCur pretium sodalium nominale est?\nQuia maioritas sodalium discipuli sunt, qui pecuniam non habent.\nCur Marcianus conos plasticos in via ponit?\nUt iter per tenebras tutum sit."
+    },
+    {
+      "title": "Dux in specu",
+      "summary": "Near Trieste a woman who guides visitors through a great cave tells how she got her licence: the oral exam, lessons with a speaking coach, and the yearly safety inspection.",
+      "newWords": [
+        "specus",
+        "poto",
+        "rhetor",
+        "fultus",
+        "inspectio"
+      ],
+      "text": "Sabinilla prope Tergeste habitat et peregrinatores per specum magnum ducit. Specus ille sub colle iacet et tam altus est ut aedificium magnum in eo stare possit. Tectum specus non solum saxo ipso, sed etiam columnis lapideis fultum est, quas aqua per milia annorum aedificavit. Sabinilla iam quinque annos dux est, et de opere suo libenter narrat.\n\n«Ut dux fierem, multas chartas parare debui», inquit. «Primum chartam medici, quae me sanam esse ostendit; deinde testimonium cursus de auxilio primo; postremo examen apud officium publicum. Examen duas partes habet. In prima parte de specu interrogamur: quam altus sit, quomodo factus sit, quae animalia in eo vivant. In altera parte oportet coram peregrinatoribus loqui, et ea pars mihi difficillima fuit. Timida enim eram, et voce parva loquebar.»\n\nItaque Sabinilla rhetorem quaesivit. Pupienus rhetor, qui Tergeste homines publice loqui docet, per tres menses eam exercuit. «Rhetor ille me multa docuit», inquit. «Docuit me spiritum ducere, lente loqui, peregrinatores aspicere, non pavimentum. Hodie, cum loquor, saepe verba rhetoris mei audio: \"Ne vocem tuam timeas; vox tua quoque in specu sonat.\"»\n\nPeregrinatoribus semper eadem praecepta dat. Primum de aqua. Aqua quae in specu de tecto cadit pura videtur, sed potare eam non licet. «Si sitis», dicit, «aquam vestram potate, non aquam specus.» Itaque omnes ante descensum aquam secum ferre iubet, et in medio itinere, ubi pons ligneus trabibus fultus super rivum subterraneum transit, paulisper consistunt ut aquam potent.\n\nDeinde de saxis. Saxa non tangenda sunt. Columnae enim, quibus tectum fultum est, lentissime crescunt: centum annis vix digitum crescunt. Manus hominum eas obscurat et incrementum earum impedit.\n\nSingulis annis, priusquam peregrinatores mense Aprili veniunt, inspectio fit. Artifices cum officialibus per totum specum eunt et pontes, scalas, lumina diligenter inspiciunt. Haec inspectio duos dies durat, et Sabinilla semper adest. «Inspectio me non terret», inquit. «Immo me tranquillat: post inspectionem scio omnia tuta esse.» Inspectionis acta, chartis subscriptis, in officio servantur.\n\nHodie Sabinilla sine timore loquitur. Cum peregrinatores in specum descendunt et columnas lumine illustratas aspiciunt, silentium fit. Tunc Sabinilla, ut rhetor eam docuit, paulisper exspectat, deinde clara voce narrare incipit.\n\nQuaestiones:\nQuibus rebus tectum specus fultum est?\nTectum specus non solum saxo, sed etiam columnis lapideis fultum est.\nQuae pars examinis Sabinillae difficillima fuit?\nPars in qua oportet coram peregrinatoribus loqui.\nQuid rhetor Pupienus eam docuit?\nRhetor eam docuit spiritum ducere, lente loqui, peregrinatores aspicere.\nCur peregrinatores aquam secum ferre debent?\nQuia aquam specus potare non licet.\nQuid in inspectione fit?\nArtifices cum officialibus pontes, scalas, lumina diligenter inspiciunt."
+    }
+  ]
+}
