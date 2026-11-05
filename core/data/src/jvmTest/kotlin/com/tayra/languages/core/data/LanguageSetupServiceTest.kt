@@ -269,9 +269,9 @@ class LanguageSetupServiceTest {
 
     @Test
     fun aLanguageWithNothingLeftShowsWhatItHasAndWhatDoesNotExist() = runBlocking {
-        dictionaryStore.installed += DictionaryId("is", "en")
-        val icelandic = languages.save(Language(name = "Icelandic"))
-        val overview = setup.overview(icelandic)
+        dictionaryStore.installed += DictionaryId("eu", "en")
+        val basque = languages.save(Language(name = "Basque"))
+        val overview = setup.overview(basque)
         assertEquals(
             listOf(
                 SetupKind.COURSES to SetupStatus.UNAVAILABLE,
@@ -281,7 +281,7 @@ class LanguageSetupServiceTest {
             ),
             overview.map { it.kind to it.status },
         )
-        assertEquals(emptyList(), setup.missing(icelandic))
+        assertEquals(emptyList(), setup.missing(basque))
     }
 
     /** Switching between languages that have what they need offers nothing, however often; one that lacks something offers only that. */
