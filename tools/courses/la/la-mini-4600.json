@@ -1,0 +1,197 @@
+{
+  "id": "la-mini-4600",
+  "rankUpTo": 4600,
+  "level": "C1",
+  "title": "Investigatio et inventa",
+  "description": "Ten pieces about research and discovery: a buried drain pipe behind a flooding cellar in Piacenza, an interview with an astronomer who found a bent galaxy arc, weak young swans on Lake Maggiore, a mosaic floor under an apple tree in Cirencester, a drought-hardy wheat in Apulia, a column on a landlord's unfair algorithm, a night in a sleep laboratory, a choir in a breathing study, a ride over the Splügen pass and a review of a retired chemist's novella.",
+  "topic": "Research and discovery",
+  "names": [
+    "Placentia",
+    "Padus",
+    "Lambertus",
+    "Plautilla",
+    "Marcellina",
+    "Chilia",
+    "Bergomum",
+    "Italia",
+    "Europa",
+    "Arnoldus",
+    "Haraldus",
+    "Verbanus",
+    "Corinium",
+    "Britannia",
+    "Leopoldus",
+    "Catharina",
+    "Martius",
+    "Iunius",
+    "Sigrid",
+    "Rudolfus",
+    "Apulia",
+    "Africa",
+    "Maius",
+    "Natalia",
+    "Monica",
+    "Francofurtum",
+    "Turicum",
+    "Isabella",
+    "Rosalia",
+    "Tobias",
+    "Brixia",
+    "Raimundus",
+    "Gisela",
+    "Clavenna",
+    "Splugia",
+    "Rhenus",
+    "Iulius",
+    "Edmundus",
+    "Cantabrigia",
+    "Iohanna",
+    "Londinium"
+  ],
+  "lessons": [
+    {
+      "title": "Aqua quae ex solo surgit",
+      "summary": "In Piacenza a hydrologist finds why a bookseller's cellar floods every autumn: an old buried drain pipe under the street is blocked.",
+      "newWords": [
+        "inundatio",
+        "appropinquatio",
+        "irrumpo",
+        "fistula",
+        "subter",
+        "operio",
+        "funditus",
+        "posticum",
+        "tenus"
+      ],
+      "text": "Placentiae, in vico angusto prope Padum, Lambertus tabernam librariam habet. Domus eius antiqua est, et subter tabernam cella profunda iacet, ubi Lambertus libros raros servat. Sed quotannis, cum autumnus appropinquat, idem accidit: post pluvias graves aqua in cellam irrumpit, et Lambertus libros celeriter in tabernam superiorem portare cogitur. Res mira videtur, nam flumen satis procul abest, et vicini cellas siccas habent.\n\nHoc anno Lambertus, qui inundationes iam ferre non potest, Plautillam vocavit, quae in universitate de aquis quae sub terra fluunt investigat. Plautilla primum cellam diligenter inspicit. Muri umidi sunt, et in lapidibus signa veterum inundationum videt, lineas fuscas alias super alias.\n\n«Quam alta fuit aqua proxima inundatione?» rogat.\n\n«Genibus tenus», respondet Lambertus. «Hic, ubi nunc stamus, aqua genibus tenus stabat, et omnes libri qui in solo iacebant aqua corrupti sunt.»\n\nLambertus putat aquam per posticum irrumpere. Posticum enim cellae in aream parvam post domum aperitur, et in area post pluvias lacus magnus fieri solet. Itaque quotannis, cum appropinquatio pluviarum nuntiatur, posticum tabulis et harena claudit. «Sed aqua tamen intrat», inquit, «quasi me rideat.»\n\nPlautilla posticum examinat, deinde murum, deinde solum. Instrumenta parva ponit quae aquam in muris et in solo metiuntur, et per duas hebdomades numeros notat. Res mox clara est: aqua non per posticum irrumpit, sed ex terra surgit, quae subter cellam iacet.\n\nTum Plautilla in archivum urbis it, ubi chartae veteres servantur. In charta saeculi XVII lineam tenuem invenit quae sub vico Lamberti currit: fistulam veterem, quae olim aquam pluviae ex foro ad Padum ducebat. Postea, cum via lapidibus strata est, operarii fistulam terra operuerunt, et omnes eam obliti sunt. Plautilla suspicatur fistulam clausam esse: aqua in ea colligitur nec exire potest, et per terram in cellas proximas premitur.\n\nOperarii urbis viam aperiunt. Subter lapides, duobus metris sub solo, fistulam vetustam inveniunt, e lateribus factam, limo et radicibus plenam. Per decem dies eam funditus purgant et cum fistulis novis urbis coniungunt. Deinde viam rursus lapidibus operiunt, ita ut nemo transiens sciat quid subter iaceat.\n\nAutumno proximo Lambertus appropinquationem pluviarum non sine metu exspectat. Tres dies continuos pluvia cadit. Quarto die Lambertus in cellam descendit: solum siccum est, muri sicci. Tabulas a postico removet, libros in locum suum reponit et Plautillae epistolam gratiarum plenam scribit.\n\nQuaestiones:\nUbi Lambertus libros raros servat?\nIn cella profunda servat, quae subter tabernam iacet.\nQuam alta fuit aqua proxima inundatione?\nAqua genibus tenus stabat.\nQuid Lambertus facit, cum appropinquatio pluviarum nuntiatur?\nPosticum tabulis et harena claudit.\nPer quid Lambertus aquam irrumpere putabat?\nPer posticum putabat, quod in aream parvam post domum aperitur.\nQuid Plautilla in charta veteri invenit?\nFistulam veterem invenit, quae olim aquam pluviae ex foro ad Padum ducebat.\nQuid operarii fecerunt?\nFistulam funditus purgaverunt, cum fistulis novis coniunxerunt et viam rursus lapidibus operuerunt."
+    },
+    {
+      "title": "Lux quae flectitur",
+      "summary": "An interview with a young astronomer from Bergamo who works in Chile and found, by chance, a distant galaxy whose light is bent into an arc.",
+      "newWords": [
+        "galacticus",
+        "relativitas",
+        "curvus",
+        "hemisphaerium",
+        "cooperor",
+        "elementaris",
+        "merus",
+        "haudquaquam"
+      ],
+      "text": "Marcellina triginta quinque annos nata est et in specula astronomica alta in montibus Chiliae laborat, ubi caelum hemisphaerii australis observat. Cum Bergomum ad parentes visendos rediisset, cum ea de opere suo locuti sumus.\n\n«Quando primum de stellis cogitare coepisti?»\n\n«In schola elementari», respondet Marcellina. «Magistra nostra quadam nocte hiemali telescopium parvum in aream scholae portavit, et lunam vidimus. Septem annos nata eram. Ex illa nocte numquam desii sursum spectare. Omnia quae hodie scio in schola elementari incepta sunt, etiam si tum id nesciebam.»\n\n«Cur in altero hemisphaerio laboras, tam procul a domo?»\n\n«Quia caelum hemisphaerii australis partes habet quas ex Italia numquam videmus. Centrum galacticum, id est media pars galaxiae nostrae, ibi alte supra caput stat. Praeterea aer in montibus illis siccissimus et purissimus est.»\n\n«Quid in specula investigas?»\n\n«Lucem quae flectitur. Theoria relativitatis docet magnas massas spatium ipsum flectere. Itaque lux, quae ex galaxia remota venit et prope aliam galaxiam transit, non recta via ad nos pervenit, sed via curva. Interdum imago galaxiae remotae in arcum curvum extenditur, quasi per vitrum spectetur. Ex forma arcus computare possumus quanta sit massa galaxiae quae lucem flectit. Ita relativitas, quam multi olim meram theoriam putabant, nunc nobis instrumentum cotidianum est.»\n\n«Arcum novum ipsa invenisti. Quomodo?»\n\n«Mero casu. Sed merus casus nihil prodest, nisi oculus paratus est. Imagines quasdam propter rem omnino aliam examinabam, cum in angulo imaginis lineam tenuem et curvam vidi. Primo putavi vitium esse instrumenti. Sed postridie eandem lineam in alia imagine vidi, eodem loco. Erat arcus galacticus, lux galaxiae longe remotae, quae via curva ad nos venerat.»\n\n«Estne opus astronomi solitarium?»\n\n«Haudquaquam. Nemo solus caelum totum observare potest. Speculae in utroque hemisphaerio cooperantur: cum apud nos dies est, collegae in Europa observant, et contra. Ut arcus meus confirmaretur, astronomi in tribus terris mecum cooperabantur. Sine eis inventum meum mera suspicio mansisset.»\n\n«Quid iuvenibus dicis qui astronomi fieri volunt?»\n\n«Haudquaquam necesse est ingenium singulare habere. Patientia necessaria est, et cupiditas sciendi. Et, si fieri potest, magistra in schola elementari quae telescopium in aream portat.»\n\nQuaestiones:\nUbi Marcellina laborat?\nIn specula astronomica in montibus Chiliae laborat, ubi caelum hemisphaerii australis observat.\nUbi Marcellina primum lunam per telescopium vidit?\nIn schola elementari vidit, cum magistra telescopium parvum in aream scholae portavisset.\nQuid docet theoria relativitatis?\nDocet magnas massas spatium ipsum flectere, itaque lux via curva ad nos pervenit.\nQuomodo Marcellina arcum novum invenit?\nMero casu invenit, cum imagines propter rem aliam examinaret.\nEstne opus astronomi solitarium?\nHaudquaquam; speculae in utroque hemisphaerio cooperantur.\nCur Marcellina in altero hemisphaerio laborat?\nQuia caelum australe partes habet quas ex Italia non videmus, et centrum galacticum ibi alte supra caput stat."
+    },
+    {
+      "title": "Cycni sinus parvi",
+      "summary": "On Lake Maggiore a biologist and an old fisherman find out why the young swans of one small bay are too weak to fly: parasites from the bread people throw them.",
+      "newWords": [
+        "cycnus",
+        "brunus",
+        "parasitus",
+        "piscatorius",
+        "volatus",
+        "prehendo",
+        "debilito",
+        "concurro"
+      ],
+      "text": "Arnoldus biologus est et vitam avium aquaticarum investigat. Hac aestate ad lacum Verbanum venit, quod piscatores de cycnis iuvenibus queruntur. In sinu quodam parvo prope oppidum cycni iuvenes, qui autumno volare debent, debiles sunt et vix ab aqua surgere possunt.\n\nHaraldus, piscator senex, Arnoldum in navicula sua piscatoria per sinum vehit. Inter retia et alia instrumenta piscatoria Arnoldus sedet et cycnos diu observat. Cycni adulti candidi sunt, sed iuvenes plumas brunas habent. «Hoc naturale est», explicat Arnoldus. «Primo anno cycni bruni sunt, et tantum altero anno candidi fiunt. Color brunus non est signum morbi.»\n\nSed cycni iuvenes huius sinus aliter se gerunt. Volatus eorum brevis et gravis est: alas movent, per aquam currunt, sed post paucos passus deficiunt. Cycni eiusdem aetatis, qui in altera parte lacus vivunt, iam volatus longos super aquam faciunt.\n\nArnoldus statuit unum cycnum iuvenem prehendere ut eum examinet. Res non facilis est: cycnus, etiam debilis, fortis est et alis magnis fugere conatur. Haraldus naviculam lente propius agit, et Arnoldus avem reti molli prehendit. Dum Haraldus cycnum tenet, Arnoldus plumas brunas inspicit, avem ponderat et exempla parva sumit. Deinde cycnum in aquam remittit, qui statim ad fratres suos natat.\n\nIn laboratorio Arnoldus in exemplis ova parasitorum invenit. Parasiti sunt vermes minimi, qui in intestinis avium vivunt et partem cibi earum sibi sumunt. Ita aves paulatim debilitant, ut vires ad volatum non habeant.\n\nUnde parasiti veniunt? Arnoldus et Haraldus ripam sinus observant. Cotidie homines panem in aquam iaciunt, et statim omnes cycni et anates eo concurrunt. Ibi aqua non alta est, et in limo cochleae parvae vivunt, quae parasitos portant. Dum aves ad panem concurrunt, cochleas cum limo devorant. Panis ipse quoque aves debilitat, quia cibus naturalis earum non est.\n\nArnoldus et Haraldus tabulas in ripa ponunt: «Nolite cycnis panem dare! Cibum suum in lacu inveniunt.» Plerique homines libenter parent. Paucis hebdomadibus aves ad ripam non iam concurrunt, sed plantas in aqua pura quaerunt, et parasiti minuuntur.\n\nVere proximo Haraldus, e navicula piscatoria spectans, cycnos sinus parvi videt, iam partim brunos, partim candidos, qui alis magnis per totum lacum volant.\n\nQuaestiones:\nQuis Arnoldum per sinum vehit?\nHaraldus, piscator senex, eum in navicula sua piscatoria vehit.\nCur cycni iuvenes bruni sunt?\nPrimo anno cycni naturaliter bruni sunt, et tantum altero anno candidi fiunt.\nQualis est volatus cycnorum huius sinus?\nVolatus eorum brevis et gravis est, quia parasiti eos debilitant.\nQuomodo Arnoldus cycnum prehendit?\nHaraldus naviculam lente propius agit, et Arnoldus avem reti molli prehendit.\nCur aves ad ripam concurrunt?\nConcurrunt quia homines panem in aquam iaciunt."
+    },
+    {
+      "title": "Pavimentum sub malo",
+      "summary": "A report from Cirencester: a retired man planting an apple tree finds small coloured stones, and his granddaughter's discovery ends in a museum exhibition of a mosaic floor.",
+      "newWords": [
+        "tessello",
+        "detraho",
+        "exhibitio",
+        "abicio",
+        "lepidus",
+        "primitus",
+        "lima"
+      ],
+      "text": "Corinii, in oppido Britanniae parvo, Leopoldus, vir septuaginta annorum, mense Martio in horto suo foveam facit, quod malum novum serere vult. Paulo sub herba lapides parvos invenit, quadratos, alios rubros, alios albos, alios caeruleos. Primo putat esse reliquias viae veteris et eos in cumulum abicit. Iam etiam plures abicere parat, cum neptis eius, Catharina, quae archaeologiam in universitate discit, ex domo exit.\n\nCatharina lapides parvos ex cumulo sumit et diu spectat. «Noli plures abicere!» inquit. «Hae tesserae sunt. Fortasse sub horto tuo pavimentum tessellatum iacet.»\n\nPostridie investigatores musei oppidi veniunt. Non effodiunt, sed terram lente et diligenter detrahunt: primum herbam, deinde terram nigram, denique terram flavam, strato post stratum. Instrumentis parvis pulverem a lapidibus detrahunt. Post tres hebdomades solum magnum apparet, octo metra longum, sex latum.\n\nPavimentum primitus solum aulae magnae fuit in villa, quae saeculo IV hic stabat. Villa ipsa tota periit; tantum pavimentum tessellatum sub terra mansit. In medio piscis magnus est, circum eum aves, flores, rami et folia. Imagines lepidae sunt: avis una caput vertit et ad piscem spectat, quasi eum rideat; alia avis ramum in rostro tenet. «Artifex hic lepidus et laetus fuit», dicit Catharina. «Non solum diligenter laboravit, sed etiam cum lapidibus ludebat.»\n\nInvestigatores explicant quomodo tale solum factum sit. Artifices tesseras ex lapidibus maioribus secabant, deinde margines lima terebant, ut tesserae inter se arte iungerentur. Lima ferrea, similis limis quae hodie fabri adhibent, prope solum inventa est. Fortasse artifex ipse eam amisit, cum pavimentum faceret.\n\nPavimentum non in horto relinqui potest. Investigatores id in partes dividunt et in museum portant, ubi exhibitio nova paratur. Mense Iunio exhibitio aperitur: «Pavimentum sub malo». In media aula pavimentum tessellatum iacet, et iuxta illud lima ferrea et cumulus lapidum parvorum, quos Leopoldus paene abiecit. Liberi qui exhibitionem visitant lapides ipsi lima terere et parva sola tessellata facere possunt.\n\nLeopoldus ad exhibitionem cum Catharina venit. Solum vetus spectat et ridet. «Numquam iterum lapides abiciam», inquit, «antequam neptim meam interrogavero.» Malum novum autem in altera parte horti serit.\n\nQuaestiones:\nQuid Leopoldus in horto facere volebat?\nFoveam faciebat, quod malum novum serere volebat.\nCur Catharina avum lapides abicere vetat?\nQuia lapides tesserae sunt, et fortasse sub horto pavimentum tessellatum iacet.\nQuomodo investigatores terram detrahunt?\nLente et diligenter detrahunt, strato post stratum, instrumentis parvis.\nQuid pavimentum primitus fuit?\nPrimitus solum aulae magnae fuit in villa saeculi IV.\nQuales sunt imagines pavimenti?\nLepidae sunt: avis una ad piscem spectat, quasi eum rideat, alia ramum in rostro tenet.\nAd quid artifices lima utebantur?\nLima margines tesserarum terebant, ut tesserae inter se arte iungerentur."
+    },
+    {
+      "title": "Frumentum quod solem fert",
+      "summary": "In a letter an agronomist in Apulia tells her former teacher how a drought-hardy wheat survived a burning summer and helped indebted farmers.",
+      "newWords": [
+        "meto",
+        "uro",
+        "robustus",
+        "expers",
+        "corroboro",
+        "sublevo",
+        "metuo",
+        "usura"
+      ],
+      "text": "Sigrid Rudolfo, magistro suo, salutem dicit.\n\nGratias tibi ago pro epistola tua, quae me in agris Apuliae invenit. Quaeris quomodo res nostrae se habeant. Narrabo tibi breviter, quia hodie primum post multas hebdomades tempus liberum habeo: frumentum enim nuper messuimus, et campi nunc vacui et quieti sunt.\n\nScis me tres annos novum frumenti genus examinare, quod in universitate nostra ex seminibus veteribus Apuliae et Africae ortum est. Spem habebamus hoc genus robustum esse et aestatem siccam melius laturum quam frumentum quod agricolae hic serere solent: radices longiores habet, folia minora, et minus aquae bibit. Sed spes non est scientia, ut tu nos semper docebas.\n\nHaec aestas nobis experimentum durum dedit. A mense Maio pluvia fere nulla cecidit. Sol campos per dies continuos urebat, et ventus calidus ex meridie herbam ipsam urebat. Agricolae vicini per agros ambulabant et frumentum suum spectabant, quod paulatim flavum et siccum fiebat. Multi eorum pecuniam mutuam acceperunt, ut semina et machinas emerent, et nunc usuram altam solvere debent. Metuebant ne messis tota periret et usuram solvere non possent. Ego quoque metuebam, non solum pro frumento meo, sed pro eis.\n\nFrumentum vetus in plurimis agris sol ussit. Sed in campis ubi nostrum genus sevimus, plantae robustae, quamvis siccae, stabant et grana formabant. Non omnino mali expertes erant; grana minora fuerunt quam annis prioribus. Sed cum metere coepimus, numeri clari erant: ex nostro genere bis tantum frumenti messuimus quam ex vetere.\n\nHi numeri id corroborant quod duobus annis prioribus tantum suspicabamur. Aestas tam dura experimentum nostrum magis corroboravit quam ullus annus facilior: nemo iam haec eventa neglegere potest. Etiam agricolae vicini, qui antea dubitabant, nunc semina nostra petunt. Uni eorum, cuius agri iuxta nostros sunt, partem messis nostrae dedimus, ut usuram solveret; ita eum saltem hoc anno sublevare potuimus. Speramus genus nostrum multos agricolas sublevare posse, cum aestates in dies calidiores fiant.\n\nTu me olim docuisti agricolam scientiae expertem esse non debere, nec scientiam agricolarum expertem. Hoc anno tandem intellexi quid diceres.\n\nCum frumentum proximo anno metemus, veni, quaeso, et vide ipse.\n\nVale.\n\nQuaestiones:\nQuid Sigrid in agris Apuliae examinat?\nNovum frumenti genus examinat, quod robustum esse videtur et minus aquae bibit.\nQualis fuit haec aestas?\nPluvia fere nulla cecidit, et sol campos per dies continuos urebat.\nCur agricolae metuebant?\nMetuebant ne messis periret et usuram pecuniae mutuae solvere non possent.\nQuid numeri messis corroborant?\nCorroborant genus novum robustum esse; ex eo bis tantum frumenti messuerunt.\nQuomodo Sigrid agricolam vicinum sublevavit?\nPartem messis ei dedit, ut usuram solveret."
+    },
+    {
+      "title": "Quis domum accipiat?",
+      "summary": "A newspaper column from Frankfurt weighs the fairness of the algorithm a housing company uses to choose tenants, after an error in its data is found.",
+      "newWords": [
+        "algorithmus",
+        "iniquitas",
+        "erratum",
+        "refuto",
+        "absurdus",
+        "conductor",
+        "digno"
+      ],
+      "text": "Commentariolus Nataliae\n\nAmica mea Monica, quae in valetudinario nostro medica est, mense priore domum quaerebat. Societas magna, quae Francofurti multa milia domorum locat, eam ter reiecit, numquam explicans cur. Monica stipendium bonum habet, pecuniam semper suo tempore solvit, et cum vicinis semper bene vixit. Tandem cognovit societatem conductores non per homines eligere, sed per algorithmum, id est programma quod nomina, numeros et loca petentium examinat et unicuique numerum dat. Qui numerum parvum accipit, domum non accipit.\n\nMonica societati epistolam scripsit. Societas respondere vix dignavit; post mensem tres versus misit: «Algorithmus noster obiectivus est et errare non potest.» Haec sententia mihi absurda videtur. Omne programma ab hominibus scribitur, et homines errant. Dicere machinam errare non posse non minus absurdum est quam dicere librum nullum erratum continere.\n\nRes tamen non tam simplex est quam primo videtur, et utramque partem considerare volo.\n\nPro algorithmo multa dici possunt. Homines qui conductores eligunt saepe non aequi sunt: alius petentes iuvenes non amat, alius nomina peregrina, alius liberos. Algorithmus, si bene scribitur, omnes eodem modo examinat. Celeriter etiam laborat, ubi milia petentium sunt. Itaque fieri potest ut algorithmus minorem iniquitatem afferat quam homo fessus et iratus.\n\nSed «si bene scribitur» magnum est. Algorithmus ex numeris praeteritis discit, et si in illis numeris iam iniquitas latet, algorithmus eam discit et repetit, immo auget. Hoc in casu Monicae accidit. Investigator quidam universitatis, cui Monica rem narravit, petivit ut sibi numeros societatis examinare liceret. Societas primo eum responso dignari noluit, sed tandem consensit. Investigator erratum grave invenit: algorithmus omnes qui in quadam regione urbis antea habitaverant pro conductoribus periculosis habebat, quia ante viginti annos ibi multi pecuniam non solverant. Monica in illa regione nata est. Ita algorithmus de ea iudicabat non ex vita eius, sed ex vicinis quos numquam noverat.\n\nHoc inventum sententiam societatis plane refutat. Algorithmus errare potest, et erravit. Societas nunc erratum corrigit, et Monica domum accepit.\n\nQuid ergo? Non dico algorithmos abiciendos esse; hoc quoque absurdum esset. Dico eos examinandos esse, sicut omnia opera humana. Qui affirmat machinam suam iniquitatis expertem esse, demonstrare debet. Si non potest, alius eum refutabit. Et societas quae homines per numeros eligit saltem eos responso dignari debet.\n\nQuaestiones:\nCur Monica domum non accipiebat?\nAlgorithmus societatis ei numerum parvum dabat, et societas eam ter reiecit.\nQuid societas primo respondit?\nRespondit algorithmum suum obiectivum esse et errare non posse.\nQuid pro algorithmo dici potest?\nOmnes eodem modo examinat et celeriter laborat, itaque fortasse minorem iniquitatem affert quam homo fessus.\nQuod erratum investigator invenit?\nAlgorithmus omnes qui in quadam regione urbis habitaverant pro conductoribus periculosis habebat.\nQuid hoc inventum refutat?\nRefutat sententiam societatis algorithmum errare non posse."
+    },
+    {
+      "title": "Nox in laboratorio somni",
+      "summary": "A man with years of insomnia spends a night in a sleep laboratory in Zurich, where a doctor finds that his breathing stops and the oxygen in his blood falls.",
+      "newWords": [
+        "insomnia",
+        "cubo",
+        "oxygenium",
+        "quandoque",
+        "torqueo",
+        "circulo",
+        "corripio"
+      ],
+      "text": "Iam septem annos insomnia laboro. Non quod dormire nequeam: vespere somnus me facile corripit, saepe in sella ante televisionem. Sed nocte quandoque, quater quinquies, subito excitor, et cor celeriter pulsat, nec scio cur. Deinde in lecto cubo et me huc et illuc torqueo, dum lux redit. Mane debilior surgo quam cum in lectum ivi.\n\nMedicus meus me tandem Turicum misit, in laboratorium somni universitatis. Ibi Isabella, medica quae somnum investigat, me vespere accepit et cubiculum mihi monstravit: lectum simplicem, lucem obscuram, cameram parvam in angulo. «Hic cubabis sicut domi», inquit. «Nos te tantum observabimus.»\n\nSed cubare sicut domi non facile erat. Isabella in capite meo et in pectore instrumenta parva posuit, quae motus cerebri et cordis metiuntur, et in digito instrumentum quod lucem rubram emittit. «Hoc instrumentum», explicavit, «metitur quantum oxygenii in sanguine tuo sit. Sanguis per totum corpus circulat et oxygenium a pulmonibus ad cerebrum fert. Si oxygenium minuitur, cerebrum id statim sentit.» Fila multa circa me iacebant, et primo putavi me numquam dormire posse.\n\nTamen somnus me mox corripuit, ut solet. Quid nocte accidisset, nesciebam. Isabella mihi mane narravit et numeros et imagines in computatro ostendit.\n\n«Quandoque spiritum non trahis», inquit. «Dum dormis, musculi colli remittuntur, et via aeris clauditur. Per viginti, interdum triginta secundas aer non circulat. Vide: hic oxygenium in sanguine cadit, et hic cerebrum tuum te excitat ut spiritum trahas. Hoc accidit plus centum vicibus hac nocte. Tu ipse quater tantum excitatus es, sed cerebrum tuum plus centum vicibus excitatum est. Non mirum est quod mane debilis es. Insomnia tua non est morbus ipse, sed signum morbi.»\n\nIsabella mihi instrumentum dedit quod nocte aerem leniter in nasum premit, ut via aeris aperta maneat. Primas noctes non amavi: tubus circa caput meum se torquebat, et sonus machinae me excitabat. Sed post hebdomadem consuevi.\n\nNunc, post tres menses, nocte fere numquam excitor. Cum in lecto cubo, somnus me statim corripit, et mane surgo vere quietus. Quandoque etiam ante septimam horam surgo, quod per septem annos numquam feci. Insomnia, quam putabam partem vitae meae esse, abiit.\n\nQuaestiones:\nQuam diu narrator insomnia laborabat?\nSeptem annos insomnia laborabat.\nQuid narrator nocte faciebat cum excitatus erat?\nIn lecto cubabat et se huc et illuc torquebat, dum lux redibat.\nQuid instrumentum in digito metitur?\nMetitur quantum oxygenii in sanguine sit.\nQuid nocte accidebat?\nVia aeris claudebatur, aer non circulabat, et oxygenium in sanguine cadebat.\nQuomodo nunc dormit narrator?\nCum in lecto cubat, somnus eum statim corripit, et nocte fere numquam excitatur."
+    },
+    {
+      "title": "Chorus qui spirat",
+      "summary": "A portrait of the seventy-year-old leader of a choir in Brescia, whose singers take part in a researcher's study of how choral singing steadies breathing.",
+      "newWords": [
+        "choralis",
+        "plausus",
+        "conviva",
+        "apparo",
+        "incurro",
+        "benigne",
+        "stabilio"
+      ],
+      "text": "Rosalia septuaginta annos nata est, sed nemo id credit qui eam in scaena videt. Triginta annos chorum Brixiae ducit, societatem choralem in qua quinquaginta homines canunt: magistri, medici, discipuli, opifices, avi et nepotes. Bis in hebdomade in aula scholae vetustae conveniunt, et Rosalia, recta stans, manibus leviter motis, eos ducit.\n\nHoc anno chorus eius insolitum quoddam opus suscepit. Tobias, iuvenis medicus qui pulmones et spiritum investigat, quadam die post concentum in Rosaliam incurrit, cum ex aula exiret. Diu iam de cantu in choro cogitaverat: num cantus choralis spiritum hominum stabiliat? Num animum quoque stabiliat? Rosaliam benigne interrogavit an chorus eius se adiuvare vellet. Rosalia benigne et statim consensit. «Cantores mei», inquit, «semper dicunt se post cantum melius spirare. Nunc tandem sciemus an verum sit.»\n\nPer sex menses Tobias singulis cantoribus ante et post exercitationes spiritum metitur. In multas difficultates incurrit: alii cantores tarde veniunt, alii instrumenta oblivisciuntur, et semel tota machina eius in pluvia madida facta est. Sed Rosalia eum benigne adiuvat et cantores admonet.\n\nEventa clara sunt. Post annum cantus choralis spiritus cantorum lentior et profundior factus est. Etiam cor eorum, cum quiescunt, lentius pulsat. Et, quod Tobias non exspectaverat, cantores dicunt animum suum stabilitum esse: minus irascuntur, melius dormiunt. «Cantus», explicat Tobias, «spiritum stabilit, et spiritus stabilis animum stabilit.»\n\nRosalia rem simplicius dicit. «Cantor non potest solus spirare», inquit. «Chorus una spirat, sicut unum corpus.»\n\nIn fine anni chorus concentum magnum apparat. Per hebdomades Rosalia cantores exercet, et omnes pro concentu vestes, programmata et scaenam apparant. Aula plena est. Cum ultimus cantus finitur, plausus longus et vehemens surgit, et plausus non cessat, donec chorus iterum canit.\n\nPost concentum Rosalia cenam in domo sua apparat. Convivae multi sunt: cantores, familiae eorum, et Tobias ipse. Inter convivas Tobias eventa sua breviter narrat, et convivae iterum plaudunt, hoc tempore pro Tobia. Plausus ille, inquit Tobias postea, sibi gratior fuit quam omnes plausus in conventibus doctorum.\n\nRosalia, convivis dimissis, sola in culina sedet et cantum veterem leniter canit. Spiritus eius, ut semper, tranquillus est.\n\nQuaestiones:\nQuis est Rosalia?\nRosalia, septuaginta annos nata, triginta annos chorum Brixiae ducit.\nQuomodo Tobias Rosaliam cognovit?\nPost concentum in Rosaliam incurrit, cum ex aula exiret.\nQuid Tobias investigare voluit?\nVoluit scire num cantus choralis spiritum et animum hominum stabiliat.\nQuid eventa monstrant?\nSpiritus cantorum lentior et profundior factus est, et animus eorum stabilitus est.\nQui fuerunt convivae in cena Rosaliae?\nConvivae fuerunt cantores, familiae eorum et Tobias ipse."
+    },
+    {
+      "title": "Per montes equitantes",
+      "summary": "Two historians on horseback test how long the old mail riders and coach drivers needed to cross the Splügen pass from Chiavenna.",
+      "newWords": [
+        "equito",
+        "traiectus",
+        "transgredior",
+        "auriga",
+        "moror",
+        "exhaustus",
+        "secedo"
+      ],
+      "text": "Raimundus et Gisela historici sunt, sed non solum in bibliothecis laborant. Hoc anno quaestionem simplicem investigare volunt: quam diu nuntii saeculi XVIII ex Clavenna per montem Splugiam in vallem Rheni equitabant? In libris tabellariorum veterum legerant nuntios traiectum totum uno die equitando facere solere, aurigas autem, qui raedas graves ducebant, duos dies consumere. Sed libri vetusti non semper vera dicunt. Itaque Raimundus et Gisela iter ipsi facere statuunt.\n\nMense Iulio Clavennam veniunt, ubi duos equos fortes conducunt. Neuter eorum antea bene equitabat, itaque per mensem cotidie equitare didicerunt. Prima luce proficiscuntur, viam veterem sequentes, quae per silvas et deinde per saxa nuda ascendit.\n\nPrimae horae faciles sunt. Sed via mox angusta et curva fit, et equi lente ascendunt. In loco quodam lapides magni de monte ceciderunt et viam claudunt; Raimundus et Gisela per horam morantur dum semitam aliam inveniunt. Deinde nubes subito descendunt, et pluvia frigida cadit. Iterum morari coguntur sub saxo magno.\n\nPost meridiem equi exhausti sunt, et Raimundus Giselaque ipsi non minus exhausti. Gisela in libello notat: «Nuntii veteres equos in stationibus mutabant. Nos non possumus. Sine equis recentibus traiectus uno die fieri non potest.» Itaque in tabernam parvam, quae prope summum montem sita est, secedunt ut equi quiescant. Hospes, vir senex, eis narrat avum suum aurigam fuisse, qui raedam publicam per hunc montem ducebat. «Aurigae», inquit, «in hanc tabernam semper secedebant, aestate et hieme. Nemo hunc montem uno die transgredi poterat cum raeda.»\n\nPostridie, caelo sereno, Raimundus et Gisela montem transgrediuntur. In summo iugo ex equis descendunt, equos frenis ducunt et vallem Rheni infra spectant. Descensus longus est sed facilis, et vespere ad oppidum in valle perveniunt.\n\nDomi Raimundus et Gisela notas suas cum libris veteribus comparant. Nuntius equitans, qui equos recentes in stationibus accipiebat, traiectum uno die facere poterat; libri vera dicebant. Aurigae autem, ut hospes narraverat, in tabernam secedere debebant. Ex itinere suo Raimundus et Gisela didicerunt quod nullus liber docet: quam longus sit mons, cum equus exhaustus est et pluvia cadit.\n\nQuaestiones:\nQuid Raimundus et Gisela investigare volunt?\nVolunt scire quam diu nuntii saeculi XVIII per montem Splugiam equitabant.\nCur in itinere morantur?\nMorantur quia lapides viam claudunt et deinde pluvia frigida cadit.\nCur in tabernam secedunt?\nSecedunt quia equi exhausti sunt et traiectus uno die fieri non potest.\nQuid hospes de avo suo narrat?\nAvus eius auriga fuit, qui raedam publicam per hunc montem ducebat.\nQuid Raimundus et Gisela tandem cognoscunt?\nCognoscunt nuntios equitando traiectum uno die facere potuisse, aurigas autem in tabernam secedere debuisse."
+    },
+    {
+      "title": "Novella chemici",
+      "summary": "A review of a novella by a retired chemist about a young woman's discovery in a nineteenth-century laboratory, which publishers refused three times.",
+      "newWords": [
+        "novella",
+        "sententiola",
+        "ignosco",
+        "insania",
+        "litteratus",
+        "abnuo"
+      ],
+      "text": "Edmundus quadraginta annos chemicus fuit, primum in universitate Cantabrigiae, deinde in officina quae medicamenta parat. Cum a labore cessasset, novellam scribere coepit. Nunc, septuaginta quinque annos natus, novellam suam primam edidit, «Vitrum caeruleum». Eam legi, et libenter de ea scribo.\n\nNovella brevis est, centum quinquaginta paginarum, et uno vespere legi potest. Narrat de Iohanna, iuvene femina quae anno 1890 in laboratorio parvo Londinii laborat. Iohanna, quamquam feminae tunc raro scientiae studebant, colorem novum quaerit, caeruleum qui in luce solis non pallescat. Collegae eius rem insaniam putant. «Insania est», dicit unus eorum, «colorem quaerere quem tot viri docti frustra quaesiverunt.» Iohanna tamen per duos annos experimenta facit, saepe nocte, sola. Tandem, mero casu, vitrum caeruleum in fundo vasis invenit, et inventum eius totam officinam mutat.\n\nRes ipsa simplex est, sed Edmundus eam bene narrat. Quod chemicus est, laboratorium verissime describit: odores, vasa, ignem, patientiam. Lector sentit auctorem ipsum per tot annos in tali loco stetisse.\n\nEdmundus non est vir litteratus, et ipse hoc fatetur. In praefatione narrat tres editores novellam abnuisse. Primus abnuit quia liber «nimis brevis» erat, secundus quia «nimis scientificus», tertius nullam causam dedit. Quartus editor, parva officina libraria Cantabrigiae, librum accepit. Fortasse primi tres editores, viri litterati, putaverunt chemicum novellam scribere non posse. Erraverunt.\n\nEst aliquid in stilo eius quod viri litterati fortasse non amabunt: initio cuiusque capituli sententiolam brevem ponit, quasi e libello laboratorii sumptam. «Vitrum non mentitur.» «Ignis patientiam docet.» «Error quoque est eventum.» Primo hae sententiolae mihi nimis simplices videbantur. Sed paulatim eas amavi; nam tota novella in his sententiolis quasi in semine latet.\n\nSunt etiam vitia. Personae praeter Iohannam tenues sunt, et finis nimis celeriter venit. Sed his vitiis facile ignoscitur. Ignosce, lector, chemico qui primum librum scribit; ignosce etiam mihi, qui tam diu chemicos litteratos esse non posse putavi.\n\nIn fine novellae Iohanna ipsa collegis suis ignoscit, qui eam deriserant. Haec mihi pars pulcherrima libri videtur.\n\nQuaestiones:\nQuis est Edmundus?\nEdmundus chemicus fuit quadraginta annos et, postquam a labore cessavit, novellam scripsit.\nQuid Iohanna in novella quaerit?\nColorem caeruleum quaerit qui in luce solis non pallescat.\nQuid collegae de opere eius putant?\nRem insaniam putant.\nQuot editores novellam abnuerunt?\nTres editores novellam abnuerunt.\nQuid Edmundus initio cuiusque capituli ponit?\nSententiolam brevem ponit, quasi e libello laboratorii sumptam."
+    }
+  ]
+}
