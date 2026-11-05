@@ -1,0 +1,197 @@
+{
+  "id": "la-mini-7000",
+  "rankUpTo": 7000,
+  "level": "C1",
+  "title": "Commentarioli de itineribus",
+  "description": "Ten travel columns: spring in the hills near Florence, a weekly commute between Milan and Zurich, a morning with a fisherman near Lisbon, a train stuck in the snow, the zinc roofs of Lyon, a pregnant traveller in Edinburgh, a comet over the Spanish mountains, a ride on horseback in the Alps, the art of packing light and a greenhouse in Iceland.",
+  "topic": "Travel columns",
+  "names": [
+    "Pupiana",
+    "Laelianus",
+    "Florentia",
+    "Martius",
+    "November",
+    "Mediolanum",
+    "Turicum",
+    "Fadiana",
+    "Comum",
+    "Bononia",
+    "Plautiana",
+    "Rabirianus",
+    "Olisipo",
+    "Maius",
+    "Furnius",
+    "Mamilianus",
+    "Monacum",
+    "Verona",
+    "Ianuarius",
+    "Oviniana",
+    "Gavianus",
+    "Lugdunum",
+    "Lolliana",
+    "Fulviana",
+    "Edinburgum",
+    "Italia",
+    "Herennianus",
+    "Rosciana",
+    "Hispania",
+    "Europa",
+    "October",
+    "Pinariana",
+    "Plaetorius",
+    "Alpes",
+    "Rubelliana",
+    "Hostiliana",
+    "Vindobona",
+    "Fabriciana",
+    "Vettiolanus",
+    "Islandia",
+    "December"
+  ],
+  "lessons": [
+    {
+      "title": "Colles vernantes",
+      "summary": "A travel writer spends three days in March in the hills near Florence: frost in the morning, warm stones at noon, an old farmer's sprouting wheat, wild brome grass and a hedge whose berries will ripen in summer.",
+      "newWords": [
+        "vernus",
+        "verno",
+        "gelu",
+        "caleo",
+        "germino",
+        "bromus",
+        "baca",
+        "maturo"
+      ],
+      "text": "Pupiana, quae commentarios de itineribus pro ephemeride scribit, nullum tempus anni magis amat quam primum ver in collibus prope Florentiam. Mense Martio, cum peregrinatores nondum advenerint, viae rusticae paene vacuae sunt, et colles lente vernare incipiunt. Hoc anno Pupiana tres dies in villa rustica mansit, ut lectoribus suis narraret quomodo ver in his collibus veniat.\n\nPrimo mane, cum e villa exiret, gelu adhuc in pratis iacebat. Herbae albae erant, quasi sale aspersae, et frigus digitos eius mordebat. Sed sol vernus celeriter ascendit, et hora decima iam saxa viae calebant. Talis est natura temporis verni in his collibus: noctes frigidae, quibus gelu agros tegit, et dies sereni, quibus terra calet et omnia crescere incipiunt.\n\nIn via Pupiana Laelianum convenit, agricolam senem cuius agri prope villam iacent. Laelianus eam libenter ad agrum suum duxit. «Vide», inquit, «frumentum iam germinat. Seminibus quae mense Novembri sevi gelu non nocuit, quia sub terra latebant. Nunc, cum terra caleat, omnia simul germinant.» Pupiana lineas tenues et virides vidit, quae per agrum fuscum rectae currebant.\n\nIn margine agri herba alta et levis crescebat, quam Pupiana pro frumento habuit. Laelianus risit. «Non est frumentum», dixit, «sed bromus, herba agrestis. Bromus ubique crescit ubi terra non colitur. Pecudes bromum libenter edunt, sed agricolae eum non amant, quia in agros frumenti intrat.» Postea Pupiana bromum ubique cognoscebat: in margine viarum, inter saxa, etiam in muris veteribus.\n\nDeinde secundum saepem ambulaverunt, quae tota floribus parvis albis tegebatur. «Aestate hic bacae nigrae pendent», dixit Laelianus, «sed nunc tantum flores videntur. Sol aestivus bacas maturat; media aestate maturae sunt, et pueri e vico veniunt ut eas carpant. Si aestas pluviosa est, bacae acerbae manent, quia sol eas non satis maturavit.»\n\nVespere, cum aer iterum frigidus fieret, Pupiana in villa ad ignem sedit et commentarium suum scripsit. Lectoribus haec suasit: si colles vernare videre vultis, mense Martio venite, et duo genera vestimentorum ferte: calida propter gelu matutinum, levia propter solem meridianum. Bacas ne exspectaveritis: eas sol non ante aestatem maturat. Sed frumentum germinans videbitis, bromum vento motum, et colles qui de die in diem magis vernant.\n\nQuaestiones:\nCur Pupiana mense Martio in colles venit?\nQuia tum viae rusticae paene vacuae sunt et colles vernare incipiunt.\nQuale est tempus vernum in his collibus?\nNoctes frigidae sunt, quibus gelu agros tegit, sed dies sereni, quibus terra calet.\nQuid in agro Laeliani germinat?\nFrumentum germinat, quod Laelianus mense Novembri sevit.\nQuid est bromus, et cur agricolae eum non amant?\nBromus est herba agrestis; agricolae eum non amant, quia in agros frumenti intrat.\nQuando bacae maturae sunt?\nMedia aestate maturae sunt, si sol eas satis maturavit."
+    },
+    {
+      "title": "Inter duas urbes",
+      "summary": "An engineer who has commuted between Milan and Zurich for ten years writes about the train, the friends he has made on it, what he has learned in passing, and the stops in the mountains.",
+      "newWords": [
+        "commeo",
+        "pridem",
+        "posteaquam",
+        "quibuscum",
+        "aliunde",
+        "obiter",
+        "alicubi",
+        "subsequenter"
+      ],
+      "text": "Iam pridem inter Mediolanum et Turicum commeo: decem fere annos. Uxor mea et liberi Mediolani habitant; societas autem, apud quam machinator sum, sedem Turici habet. Itaque omni hebdomade iter facio: primo mane Turicum proficiscor, et posteaquam quattuor dies ibi laboravi, vespere domum redeo. Lectores huius ephemeridis me rogaverunt ut de hac vita scriberem, quam multi miram putant. Ecce igitur commentarius hominis qui commeat.\n\nTramen hora sexta e statione Mediolani discedit. Iter tres horas et paulo amplius durat: per campos, deinde praeter lacum longum, denique per montes. Initio has horas perditas esse putabam. Nunc aliter sentio: tramen mihi quasi altera domus factum est.\n\nNon enim solus commeo. Multi viri et feminae eodem tramine eadem hora vehuntur, quibuscum iam pridem amicitiam iunxi. Fere omnes aliunde veniunt: Fadiana, medica quae in valetudinario Turici laborat, e vico parvo prope Comum; alii ex oppidis circa Mediolanum; unus etiam e Bononia, qui duas horas iter facit priusquam ad nos pervenit. Hi sunt socii quibuscum de rebus cotidianis colloquor: de liberis, de libris, de cibo.\n\nObiter multa didici. Linguam quam Turici loquuntur obiter didici, non ex libris sed audiendo. Nomina montium et lacuum obiter cognovi, quia Fadiana ea mihi per fenestram ostendit. Etiam coquere obiter didici: Fadiana enim de cenis suis narrare solet, et ego, cum domum redeo, eas imitor.\n\nIter tamen non semper facile est. Saepe tramen alicubi in montibus consistit, et nemo scit cur. Tum nuntios aliunde quaerimus: alius telephonum suum inspicit, alius eum qui tesseras inspicit interrogat. Primum dicitur viam nive impediri; subsequenter dicitur arborem in via iacere; denique tramen sine causa clara iterum procedit. Hora perditur, sed nemo queritur, nam alicubi in curru semper est aliquis qui panem aut poma cum ceteris partitur.\n\nPosteaquam Turicum advenimus, in diversas partes abimus, et subsequenter, per quattuor dies, raro inter nos videmur. Sed vespere ultimi diei iterum in eodem tramine sedemus, defessi sed laeti, et posteaquam lacum praeterivimus, aliquis semper dicit: «Mox domi erimus.»\n\nNuper societas mea mihi permisit ut unum diem domi laborarem. Gavisus sum, sed amicos meos non deserui: eadem hora proficiscor, eodem tramine commeo, et socii, quibuscum tot horas transegi, me in eadem parte traminis exspectant.\n\nQuaestiones:\nQuam diu hic machinator inter Mediolanum et Turicum commeat?\nIam pridem commeat: decem fere annos.\nUnde veniunt socii quibuscum iter facit?\nFere omnes aliunde veniunt, e vicis et oppidis circa Mediolanum, unus etiam e Bononia.\nQuid obiter didicit?\nLinguam quam Turici loquuntur, nomina montium et lacuum, etiam coquere obiter didicit.\nQuid fit cum tramen alicubi in montibus consistit?\nVectores nuntios aliunde quaerunt, et aliquis panem aut poma cum ceteris partitur.\nQuid dicit aliquis posteaquam lacum praeterierunt?\nDicit: «Mox domi erimus.»"
+    },
+    {
+      "title": "Cum piscatore sene",
+      "summary": "Near Lisbon a travel writer goes out at dawn with an old fisherman who fishes with hooks; when gusts of wind start to stir up the sea, he brings the groaning old boat safely back to harbour, and they eat the fish on the shore.",
+      "newWords": [
+        "gemo",
+        "promo",
+        "hamus",
+        "alternus",
+        "flatus",
+        "cieo",
+        "impingo"
+      ],
+      "text": "Plautiana, quae de itineribus scribit, mense Maio in vicum piscatorium prope Olisiponem venit. Lectoribus suis narrare volebat non de litoribus pulchris, quae omnes norunt, sed de labore eorum qui ibi vivunt. Itaque Rabirianum, piscatorem senem, rogavit ut eam secum in mare duceret. Rabirianus primo dubitavit, deinde annuit. «Veni hora quarta», inquit. «Sed si ventus surgit, statim redibimus.»\n\nHora quarta, cum adhuc nox esset, Plautiana in portum descendit. Rabirianus iam in navicula sua stabat, quae vetus est sed bene curata. Cum navis per undas moveretur, ligna eius gemebant. «Noli timere», dixit Rabirianus ridens. «Navis mea semper gemit, sicut ego, cum mane surgo. Quadraginta annos gemit, neque umquam me deseruit.»\n\nRabirianus non retibus sed hamis piscatur. E capsula lignea lineam longam promit, ex qua centum hami pendent, et in unumquemque hamum frustum parvum piscis figit. Plautiana eum adiuvare voluit, sed Rabirianus ei hamum unum tantum dedit. «Hami acuti sunt», inquit, «et digitos novos amant.» Deinde lineam cum hamis in mare demisit, et signum rubrum supra aquam reliquit, ut locum postea inveniret.\n\nDum exspectant, Rabirianus de mari narravit. «Mare hic numquam quietum est. Aestus alterni veniunt et abeunt: sex horas aqua crescit, sex horas decrescit. Ego et frater meus, cum iuvenes essemus, alterni navem patris gubernabamus: uno die ego, altero ille. Ita uterque artem didicit.»\n\nSole orto Rabirianus lineam retraxit. In hamis pendebant pisces argentei, et Plautiana eos numerabat dum Rabirianus singulos in capsulam ponit. Paulo post flatus venti a septentrionibus venire coeperunt, primum leves, deinde fortiores. Rabirianus caelum diu spectavit. «Ventus mare ciet», dixit. «Si flatus tales durant, fluctus in scopulos portus impingent, et introitus difficilis erit. Redeamus.»\n\nNavem vertit, et lente ad portum navigaverunt. Flatus venti fluctus magis magisque ciebant, et ventus aquam salsam in vultum Plautianae impingebat, sed Rabirianus navem tranquille inter scopulos duxit. Navis gemebat, sed tuta in portum intravit.\n\nIn litore Rabirianus pisces e capsula promit et super ignem coquit. Plautiana numquam pisces meliores ederat. Postea in commentario suo scripsit: «Litora huius regionis pulchra sunt; sed pulchrior est senex qui ventum et fluctus legere scit, et navis eius, quae gemit sed numquam deficit.»\n\nQuaestiones:\nCur Plautiana cum Rabiriano in mare exiit?\nQuia lectoribus narrare volebat de labore eorum qui ibi vivunt.\nQuomodo Rabirianus piscatur?\nNon retibus sed hamis piscatur: lineam longam promit, ex qua centum hami pendent.\nQuomodo Rabirianus et frater navem patris gubernabant?\nAlterni eam gubernabant: uno die Rabirianus, altero frater eius.\nCur Rabirianus ad portum redire voluit?\nQuia flatus venti mare ciebant, et fluctus in scopulos portus impingere poterant.\nQuid in litore fecerunt?\nRabirianus pisces e capsula promit et super ignem coquit, et Plautiana eos edit."
+    },
+    {
+      "title": "Tramen in nive",
+      "summary": "A train from Munich to Verona is held up for two hours at a small mountain station; the passengers grow angry until a young man on a bench plays the harmonica and makes them laugh, and at the end everyone applauds.",
+      "newWords": [
+        "tardo",
+        "subsellium",
+        "irascor",
+        "harmonica",
+        "lenio",
+        "offensa",
+        "iocor",
+        "facete",
+        "plaudo"
+      ],
+      "text": "Furnius, qui de itineribus scribit, mense Ianuario tramine e Monaco Veronam iter faciebat. In montibus multa nix ceciderat, et tramen lente procedebat. Tandem in parva statione montana omnino constitit. Paulo post vox per stationem sonuit: arbores nive gravatas viam impedire, et tramen duas horas tardari.\n\nVectores e tramine descenderunt et in atrio stationis frigido convenerunt. Pauca ibi subsellia lignea erant; senes et matres cum infantibus in subselliis sederunt, ceteri stabant. Multi irascebantur. Vir quidam elegans clamabat se propter tramen tardatum ad conventum gravem sero venturum esse, et omnibus irascebatur: nivi, frigori, etiam arboribus. Femina iuxta eum telephono loquebatur tam irata ut infans eius fleret.\n\nTum iuvenis quidam, Mamilianus nomine, qui in subsellio in angulo sedebat, harmonica parva canere coepit. Primo leniter canebat, quasi sibi ipsi; deinde carmina nota, quae omnes noverant. Furnius vidit quam celeriter musica iram vectorum leniret. Infans flere desiit; senes pedibus tempus notabant; femina telephonum deposuit.\n\nSolus vir elegans adhuc irascebatur. «Iuvenis», inquit, «sine offensa dico, sed hic laboro», et computatrum ostendit. Mamilianus, ne cui offensam daret, statim harmonica tacuit. «Nulla offensa», respondit. «Sed scisne quid de hoc tramine iocari soleant qui in his montibus habitant?» Vir negavit. «Dicunt tramen numquam tardari», inquit Mamilianus facete. «Montes enim tam pulchri sunt ut tramen ipsum consistere velit, quo vectores eos diutius spectent.»\n\nOmnes riserunt, etiam vir elegans. Deinde ipse iocatus est: «Si ita est, tramen hodie montes nimis amat.» Mamilianus facete respondit se arboribus gratias agere, quia sine eis nemo eum audivisset. Tum vir computatrum clausit et rogavit ut Mamilianus carmen aliquod de montibus caneret.\n\nPer horam Mamilianus harmonica canebat, et vectores alii alia carmina rogabant. Furnius, qui saepe in itineribus vectores iratos viderat, numquam viderat iram tam facile leniri. Cum tandem vox nuntiavit viam liberam esse, omnes Mamiliano plauserunt. Etiam in tramine, dum per montes descendebant, vectores plaudebant cum ille in curru suo iterum canere incepit.\n\nIn commentario suo Furnius postea scripsit: «Tramen nostrum duas horas tardatum est, sed hae duae horae pars itineris optima erant. Discite a Mamiliano: iram non clamore lenire possumus, sed carmine et ioco.»\n\nQuaestiones:\nCur tramen in statione montana constitit?\nQuia arbores nive gravatae viam impediebant, et tramen duas horas tardabatur.\nUbi sederunt senes et matres?\nIn subselliis ligneis atrii sederunt.\nQuid fecit Mamilianus, cum vectores irascerentur?\nHarmonica canere coepit, et musica iram eorum lenivit.\nQuid Mamilianus facete de tramine dixit?\nDixit tramen numquam tardari, sed consistere quia montes tam pulchri sunt.\nQuid fecerunt vectores cum via libera nuntiata est?\nOmnes Mamiliano plauserunt."
+    },
+    {
+      "title": "Tecta Lugduni",
+      "summary": "In Lyon a travel writer spends a day on the grey zinc roofs with an old roofer, who explains how the sheets are joined, why no nails go through them, and how an old emblem was saved from a building before its demolition.",
+      "newWords": [
+        "zincum",
+        "ordinatim",
+        "compingo",
+        "clavus",
+        "demolitio",
+        "emblema",
+        "polio"
+      ],
+      "text": "Oviniana, quae commentarios de itineribus scribit, urbes non semper ex viis spectat, sed interdum etiam e tectis. Nuper Lugduni diem totum cum Gaviano egit, tectore seni qui iam quadraginta annos tecta urbis reficit. Fune bene firmata per fenestram in tectum ascendit, et urbem vidit quam pauci vident.\n\nTecta veteris partis urbis fere omnia zinco teguntur. Zincum est metallum colore cinereo, quod sole splendet et pluvia obscurius fit. Ex alto tecta ordinatim iacent, alia post alia, sicut fluctus maris cinerei. Inter ea fumaria ordinatim stant, et columbae in eis sedent. «Tecta e zinco facta», dixit Gavianus, «centum annos durare possunt, si bene curantur.»\n\nDeinde Oviniana vidit quomodo Gavianus opus faciat. Laminas zinci longas et tenues inter se compingit, non glutine, sed margines earum flectendo, ita ut lamina laminam teneat. «Laminas sic compingimus», inquit, «ut aqua inter eas intrare non possit.» Oviniana rogavit cur clavos non adhiberet. «Clavum per zincum numquam figimus», respondit Gavianus. «Sole enim zincum crescit, frigore decrescit. Si clavos per laminas figeremus, laminae circa clavos rumperentur, et pluvia intraret. Clavi sub laminis latent, in lignis tecti, et laminas parvis uncis tenent.»\n\nPost meridiem ad aedificium vetus in vicino vico ierunt, cuius demolitio iam coepta erat. Aedificium nimis infirmum erat ut refici posset, et urbs demolitionem permiserat. Sed antequam demolitio inciperet, Gavianus et socii eius emblema magnum e muro aedificii servaverant: tabulam aeneam, in qua leo et nomen tabernae veteris expressa erant. Hoc emblema per centum annos supra ianuam pendebat.\n\nIn officina Gaviani emblema in mensa iacebat. Vetus erat et viride, sed Gavianus id cotidie paulum polit. «Aes politum lucet sicut aurum», dixit, et Ovinianae ostendit partem quam iam polivit, quae vere splendebat. «Cum totum emblema polivero, in aedificio novo, quod hic aedificabitur, supra ianuam ponetur. Ita aedificium novum memoriam veteris servabit.»\n\nVespere Oviniana iterum in tectum ascendit ut solem occidentem videret. Tecta ordinatim iacentia rubra fiebant, deinde purpurea, denique cinerea. In commentario suo scripsit: «Qui Lugdunum visitat, tecta spectet. Zincum non est metallum pretiosum, sed hominum labor, qui laminas compingit, emblemata servat et aes polit, id pretiosum facit.»\n\nQuaestiones:\nQuibus tecta veteris partis Lugduni teguntur?\nFere omnia zinco teguntur.\nQuomodo Gavianus laminas zinci compingit?\nNon glutine, sed margines earum flectendo, ita ut lamina laminam teneat.\nCur clavos per zincum non figit?\nQuia zincum sole crescit et frigore decrescit, et laminae circa clavos rumperentur.\nQuid ex aedificio vetere ante demolitionem servatum est?\nEmblema aeneum, in quo leo et nomen tabernae veteris expressa erant.\nQuid fiet cum Gavianus emblema totum polivit?\nIn aedificio novo supra ianuam ponetur."
+    },
+    {
+      "title": "Iter cum infante nondum nato",
+      "summary": "Six months pregnant, a woman flies to Edinburgh to see her sister; her ankles swell, a calm midwife examines her, tells her the baby is well, and gives her simple advice for the rest of the trip.",
+      "newWords": [
+        "uterum",
+        "oedema",
+        "obstetrix",
+        "confidenter",
+        "mollio",
+        "caute",
+        "temptatio"
+      ],
+      "text": "Lolliana, quae commentarios de itineribus scribit, hoc anno iter fecit quale numquam antea fecerat. Sextum enim mensem gravida erat, et ex Italia Edinburgum volavit ut sororem suam viseret. Medicus eius dixerat iter tutum esse, dummodo prudenter ageret. Nunc Lolliana lectoribus suis narrat quid in hoc itinere didicerit.\n\nVolatus tres horas duravit. Lolliana per totum iter sedebat, quia sedes angusta erat et vectores multi. Cum Edinburgum advenisset et e sede surgeret, talos suos vix agnovit: tumidi erant et graves, et calcei eam premebant. Soror eius, quae eam exspectabat, perturbata est et statim obstetricem vocavit quam bene noverat.\n\nObstetrix, Fulviana nomine, postridie ad domum sororis venit. Femina tranquilla erat, quae iam triginta annos matres in partu adiuvabat. Talos Lollianae diligenter inspexit et dixit: «Hoc est oedema, quod feminae gravidae saepe habent, praesertim post longum iter sedendo factum. Aqua in pedibus consistit, quia corpus diu immotum fuit. Oedema tale non est periculosum, sed te monet ut corpus tuum cures.»\n\nDeinde Fulviana instrumentum parvum in ventre eius posuit, et ambae cor infantis audiverunt, celeriter et firmiter pulsans. «Infans in utero bene se habet», dixit obstetrix confidenter. «Audisne quam fortiter cor eius pulset? Nihil timendum est.» Lolliana, quae per noctem vix dormiverat, his verbis valde recreata est: obstetrix tam confidenter loquebatur ut omnis timor abiret.\n\nTum Fulviana ei consilia simplicia dedit. «Per diem pedes saepe tolle, et aquam multam bibe. Vespere pedes in aqua calida pone: aqua calida cutem mollit et dolorem lenit. Calceos novos, qui duri sunt, domi prius gerendo molli. In via caute ambula, nam lapides huius urbis pluvia lubrici fiunt. Et cave temptationem.»\n\n«Quam temptationem?» rogavit Lolliana.\n\n«Temptationem omnia uno die videndi», respondit Fulviana ridens. «Peregrinatores qui primum Edinburgum veniunt castellum, colles, museum, vias veteres simul videre volunt. Haec temptatio magna est; sed tibi et infanti in utero quies melior est quam festinatio.»\n\nLolliana consilia eius secuta est. Cotidie unam tantum rem visitabat, caute per vias ambulabat, et vespere pedes in aqua calida ponebat. Calceos novos per duos dies domi gerebat, donec eos satis mollivit. Post tres dies oedema paene evanuerat, et talos suos iterum agnoscebat.\n\nIn fine commentarii sui Lolliana lectoribus suis gravidis haec scripsit: «Iter cum infante in utero facere licet, sed aliter iter facies ac solebas. Caute ambula, temptationi omnia videndi resiste, et si quid te turbat, obstetricem roga. Ego Edinburgum minus vidi quam volebam, sed plus quieti inveni quam sperabam. Et cum domum redii, confidenter dicere potui: infans meus iam primum iter fecit.»\n\nQuaestiones:\nCur Lolliana Edinburgum volavit?\nVolavit ut sororem suam viseret, cum sextum mensem gravida esset.\nQuid erat oedema quod in talis eius apparuit?\nAqua in pedibus consistebat, quia corpus eius diu immotum fuerat.\nQuid obstetrix confidenter dixit?\nDixit infantem in utero bene se habere et nihil timendum esse.\nQuomodo aqua calida pedes adiuvat?\nAqua calida cutem mollit et dolorem lenit.\nQuam temptationem Lolliana cavere debebat?\nTemptationem omnia uno die videndi."
+    },
+    {
+      "title": "Cometes super montes",
+      "summary": "A travel writer goes to a remote mountain village in Spain to see a comet: he wanders among red rocks coloured by ochre, the guide asks everyone to switch off their car lights, and the whole group stands amazed under the starry sky.",
+      "newWords": [
+        "vagor",
+        "miltos",
+        "rubor",
+        "caeco",
+        "stello",
+        "cometes",
+        "stupeo"
+      ],
+      "text": "Herennianus, qui commentarios de itineribus scribit, mense Octobri in vicum remotum montium Hispaniae iter fecit. Ephemerides enim nuntiaverant cometem novum his noctibus sine telescopio videri posse, et vicus ille notus est quia caelum eius nocte tam obscurum est quam in paucis Europae locis.\n\nPost meridiem, dum nox exspectatur, Herennianus per colles circa vicum vagabatur. Saxa ibi miro colore sunt: rubra, quasi sole ardente tincta. Senex quidam, quem in via convenit, ei explicavit hunc colorem a milto venire, terra rubra quae in his collibus abundat. «Olim», inquit, «homines huius vici miltos effodiebant et cum aqua miscebant, ut muros domuum pingerent. Ideo etiam nunc domus nostrae rubrae sunt.» Herennianus diu inter saxa vagatus est, et manus eius milto rubrae factae sunt.\n\nSole occidente totus collis rubore flagrabat. Rubor saxorum et rubor caeli inter se miscebantur, ut Herennianus nesciret ubi terra finiret et caelum inciperet. Deinde rubor lente evanuit, et omnia cinerea, denique nigra facta sunt.\n\nHora nona Rosciana, quae peregrinatores nocte in montes ducit, parvum gregem in planitiem supra vicum duxit. Multi autocinetis advenerant, et lumina eorum oculos caecabant. «Lumina exstinguite, quaeso», rogavit Rosciana. «Lumina enim oculos caecant, et oculus caecatus semihoram requirit priusquam stellas minores iterum videat.» Omnes paruerunt, et per aliquot minuta in tenebris stabant, nihil videntes.\n\nPaulatim autem caelum stellatum apparuit: primum stellae clarissimae, deinde centum, denique milia, et via lactea quasi nubes alba per medium caelum. «Numquam caelum tam stellatum vidi», dixit femina iuxta Herennianum. Omnes stupebant.\n\nTum Rosciana digitum ad occidentem tetendit. Ibi, humilis super montes, cometes lucebat: caput clarum et cauda longa et tenuis, quae a sole aversa est. «Cometes est quasi viator caeli», dixit Rosciana. «Per spatia vagatur, et post multa milia annorum fortasse redibit.» Grex diu tacitus stabat. Etiam pueri, qui antea clamaverant, stupebant et nihil dicebant.\n\nHora media noctis Herennianus ad deversorium rediit. In commentario suo scripsit: «Lectores, si cometem videre vultis, locum petite ubi nulla lumina oculos caecant. Ibi sub caelo stellato stupebitis sicut ego stupui. Et post meridiem inter saxa vagamini: rubor eorum, quem miltos facit, vos ad noctem praeparabit.»\n\nQuaestiones:\nCur Herennianus in hunc vicum iter fecit?\nQuia cometes novus sine telescopio videri poterat, et caelum vici nocte valde obscurum est.\nUnde venit color ruber saxorum?\nA milto venit, terra rubra quae in his collibus abundat.\nCur Rosciana rogavit ut lumina exstinguerentur?\nQuia lumina oculos caecant, et oculus caecatus stellas minores non videt.\nQuale caelum paulatim apparuit?\nCaelum stellatum apparuit, cum milibus stellarum et via lactea.\nQuid fecerunt omnes cum cometem viderunt?\nOmnes stupebant et diu taciti stabant."
+    },
+    {
+      "title": "Iter equestre",
+      "summary": "A writer who has never ridden goes on a two-day horse trek in the Alps; the guide teaches her to hold the reins loosely, the mare treads the path with care, an apple coaxes her down a dreadful slope, and the view and the hut make the rider happy.",
+      "newWords": [
+        "habena",
+        "pugnus",
+        "calco",
+        "horrendus",
+        "illicio",
+        "beo"
+      ],
+      "text": "Pinariana, quae de itineribus scribit, numquam antea equo vecta erat. Hac aestate tamen iter equestre duorum dierum in Alpibus fecit, ut lectoribus suis narraret quid novus eques sentiat. Dux itineris erat Plaetorius, vir quinquaginta annos natus, qui ab adulescentia equos alit et peregrinatores per montes ducit.\n\nPrimo mane Plaetorius ei equam fuscam et placidam dedit, et ostendit quomodo habenas teneret. Pinariana, quae timebat, habenas tam fortiter prehendit ut manus eius pugni fierent. Plaetorius risit. «Aperi pugnos», inquit. «Habenae non sunt funes quibus equam trahis, sed quasi verba quibus cum ea loqueris. Si pugnum stringis, equa te timidam esse sentit.» Pinariana manus laxavit, et habenas leviter inter digitos tenuit. Statim equa tranquillior facta est.\n\nIter per prata et silvas ascendebat. Equa viam caute calcabat, pedem post pedem, quasi lapides numeraret. «Equa melius quam tu scit ubi pedem ponat», dixit Plaetorius. «Hanc semitam iam centies calcavit. Tu tantum quiesce et eam ire sine.»\n\nPost meridiem ad locum venerunt ubi semita in vallem descendit. Descensus horrendus erat: semita angusta inter saxa, et a latere vallis profunda. Pinariana de equa descendere voluit, sed Plaetorius dixit equam tutiorem esse quam pedes eius. Equa tamen ipsa ante descensum horrendum constitit et procedere noluit. Plaetorius non clamavit. Pomum e sacco prompsit et ante os eius tenuit, paulum infra in semita. Odor pomi equam illexit, et lente descendere coepit. Plaetorius pomum semper paulo ulterius tenebat, et ita equam per totum descensum illiciebat. «Pomum plus valet quam clamor», dixit, cum in valle tandem stetissent.\n\nVespere ad casam pastorum pervenerunt, ubi pernoctaverunt. Conspectus montium, qui sole occidente rubebant, Pinarianam beavit; cena simplex, caseus et panis et lac calidum, eam magis beavit quam cenae lautissimae urbis. «Quid te magis beat», rogavit Plaetorius, «montes an cena?» «Ambo», respondit Pinariana, «sed maxime quod post illum descensum horrendum tuta hic sedeo.»\n\nPostridie domum redierunt, et Pinariana iam sine timore equitabat, habenas leviter tenens. In commentario suo scripsit: «Qui equo vehi discere vult, primum pugnos aperire discat. Equa viam calcat, homo tantum quiescit; et si equa timet, eam pomo illice, non clamore.»\n\nQuaestiones:\nCur manus Pinarianae pugni factae sunt?\nQuia timebat et habenas nimis fortiter prehendit.\nQuid Plaetorius de habenis dixit?\nDixit habenas non esse funes, sed quasi verba quibus cum equa loquimur.\nQuomodo equa semitam calcabat?\nCaute calcabat, pedem post pedem, quasi lapides numeraret.\nQuomodo Plaetorius equam per descensum horrendum illexit?\nPomum ante os eius tenuit, paulum infra in semita, et odor pomi eam illexit.\nQuid Pinarianam vespere beavit?\nConspectus montium et cena simplex in casa pastorum eam beaverunt."
+    },
+    {
+      "title": "Ars leviter iter faciendi",
+      "summary": "A columnist explains why she has completely changed the way she packs: she used to carry everything in vain, now she folds a few clothes tightly into one small bag, and she always brings just one long book, an epic poem.",
+      "newWords": [
+        "totaliter",
+        "vane",
+        "nedum",
+        "plico",
+        "quandoquidem",
+        "dubitanter",
+        "essentialiter",
+        "epos"
+      ],
+      "text": "Rubelliana iam viginti annos de itineribus scribit, et lectores eam saepe rogant quid in itinere secum ferat. Hodie respondet, et fatetur se rationem suam totaliter mutavisse.\n\nOlim enim, cum iuvenis esset, omnia secum ferebat: decem tunicas, quinque calceos, tres libros, umbellam, medicamenta contra omnes morbos. Plerasque res vane ferebat, nam numquam eis utebatur. Per totum iter tantum pondus trahebat, ut post primum diem defessa esset, nedum post decimum. In tramine vix sedem invenire poterat, nedum locum ubi tantas res poneret.\n\nMutationem amicae suae Hostilianae debet. Cum ante decem annos simul Vindobonam iter facerent, Hostiliana cum sacco parvo tantum advenit. Rubelliana eam dubitanter rogavit: «Ubi sunt ceterae res tuae?» Hostiliana risit: «Omnia hic sunt. Quandoquidem vestes in deversorio lavari possunt, cur decem tunicas feram?» Deinde ei ostendit quomodo vestes arte plicaret et convolveret, ita ut minimum spatii occuparent et rugas non facerent. Rubelliana primo dubitanter imitata est; post iter totaliter persuasa erat.\n\nNunc Rubelliana unum saccum parvum fert, quem in tramine supra sedem ponere potest. Tres tunicas fert, unas bracas, unos calceos praeter eos quos gerit, et vestem calidam. Omnia sic plicat ut sacculus dimidia parte vacuus maneat, quandoquidem in itinere semper aliquid emitur quod domum ferendum est. «Quid essentialiter opus est viatori?» scribit. «Essentialiter tria: vestes paucae et mundae, calcei boni, et animus apertus. Cetera vane feruntur.»\n\nUnam tamen rem numquam omittit: librum unum longum. Diu multos libros ferebat, quorum nullum perlegebat. Nunc unum tantum epos fert, poema longum quod poeta nostrae aetatis de itinere per deserta scripsit. Quandoquidem epos tam longum est, per totum iter durat; quandoquidem versibus scriptum est, eum lente legere cogit, paucos versus cotidie. «Epos est comes itineris optimus», scribit. «Non pondus magnum habet, sed tempus multum continet.»\n\nLectores qui dubitanter rogant num ipsi hanc rationem sequi possint, Rubelliana monet ut parvis gradibus incipiant. «Ne totaliter statim mutetis. Primo itinere unam tunicam omittite, secundo alteram. Discite vestes plicare. Et cum domum redieritis, numerate res quas vane tulistis: numerus vos docebit.»\n\nQuaestiones:\nQuid Rubelliana olim secum ferebat?\nOmnia ferebat: decem tunicas, quinque calceos, tres libros, umbellam et medicamenta.\nCur res plerasque vane ferebat?\nQuia numquam eis utebatur.\nQuid Hostiliana eam docuit?\nDocuit eam vestes ita plicare ut minimum spatii occuparent.\nQuid viatori essentialiter opus est, ut Rubelliana putat?\nVestes paucae et mundae, calcei boni, et animus apertus.\nCur epos comes itineris optimus est?\nQuia tam longum est ut per totum iter duret, et eam lente legere cogit."
+    },
+    {
+      "title": "Horti vitrei sub nive",
+      "summary": "In Iceland a travel writer visits a farmer whose greenhouses are heated by bubbling hot springs and lit through the dark winter by krypton lamps; tomatoes grow there in abundance, and the farmer feeds his guest generously.",
+      "newWords": [
+        "iugerum",
+        "bullo",
+        "crypton",
+        "copiose",
+        "saturo",
+        "dubie",
+        "ample"
+      ],
+      "text": "Fabriciana, quae commentarios de itineribus scribit, mense Decembri in Islandiam iter fecit, ubi hieme sol paucas tantum horas lucet. Audiverat ibi, in insula frigida et obscura, hortos esse in quibus per totam hiemem poma et holera crescunt. Hos hortos videre voluit, et ad villam Vettiolani, agricolae qui hortos vitreos colit, profecta est.\n\nVilla Vettiolani in valle iacet ubi terra calida est. Ex terra fontes calidi oriuntur, et aqua eorum bullat et vaporem in aerem frigidum emittit. Prope villam Fabriciana stagnum parvum vidit, cuius aqua sine igne bullabat. «Haec aqua ex alto venit, ubi terra ardet», dixit Vettiolanus. «Tota vallis bullat, et ideo hic hortos habere possumus.»\n\nVettiolanus decem iugera hortorum vitreorum habet. Unumquodque iugerum tegitur domibus vitreis longis, quarum tubi aquam calidam e fontibus ducunt. Intus aer calidus et umidus erat, vapore saturatus, ut Fabriciana vestem calidam statim deponeret. Terra quoque umida erat, et plantae virides usque ad tectum crescebant.\n\nSed sol hieme deest. Itaque Vettiolanus supra plantas lampades multas suspendit, quae per sedecim horas cotidie lucent. «In his lampadibus est crypton», explicavit, «gas rarum quod lumen clarum et album dat. Crypton carum est, sed lampades eo plenae diutius durant quam ceterae.» Fabriciana suspexit: sub lumine lampadum, quod crypton tam clarum facit, hortus sicut dies aestivus videbatur, cum foris nox obscura esset.\n\nIn his hortis poma rubra copiose crescunt. Vettiolanus Fabricianae ostendit plantas pomis tam copiose onustas ut rami fulciendi essent. «Haud dubie mirum est», dixit, «in insula glaciei poma copiose crescere. Sed ignis terrae et lumen lampadum faciunt quod sol facere non potest.» Haud dubie, scripsit postea Fabriciana, numquam poma tam dulcia ederat, et ea in media hieme.\n\nVespere Vettiolanus et uxor eius Fabricianam ample acceperunt. Cenam e pomis et holeribus hortorum suorum paraverunt, et panem calidum, piscem, caseum apposuerunt. Ample cibum ponebant, et cum cibus Fabricianam iam saturavisset, uxor iterum holera apponebat. «Hospitem ample alere mos est huius insulae», dixit Vettiolanus. «Hiems longa est; hospites raro veniunt.»\n\nIn commentario suo Fabriciana scripsit: «Hic aqua bullat, crypton lucet, poma copiose crescunt, et hospes ample alitur. Si quis putat Islandiam hieme tantum frigidam et obscuram esse, veniat et hortos Vettiolani videat.»\n\nQuaestiones:\nCur Fabriciana ad villam Vettiolani profecta est?\nQuia hortos videre voluit in quibus per totam hiemem poma et holera crescunt.\nCur aqua prope villam bullat?\nQuia ex alto venit, ubi terra ardet.\nQuot iugera hortorum vitreorum Vettiolanus habet?\nDecem iugera habet.\nCur lampades in hortis lucent, et quid in eis est?\nLucent quia sol hieme deest; in eis est crypton, quod lumen clarum et album dat.\nQuomodo Vettiolanus et uxor Fabricianam acceperunt?\nEam ample acceperunt, et cena eam tam ample saturavit ut plus edere non posset."
+    }
+  ]
+}

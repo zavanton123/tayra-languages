@@ -1,0 +1,195 @@
+{
+  "id": "la-mini-7100",
+  "rankUpTo": 7100,
+  "level": "C1",
+  "title": "Salus publica",
+  "description": "Ten stories about the health of a whole community: vaccines kept cold through a power cut, a polluted river brought back to life, handwashing at school, noise and sleep in the city, a walking group's shoes, a heart check in the market, an old botanical garden, bird flu on a farm, a leaflet against health rumours and a lecture on how epidemics grow.",
+  "topic": "Public health",
+  "names": [
+    "Gavillianus",
+    "Baebiana",
+    "Seiana",
+    "Tridentum",
+    "Sarnus",
+    "Campania",
+    "Pompeii",
+    "Italia",
+    "Dasumianus",
+    "Laberiana",
+    "Bononia",
+    "Raeciana",
+    "Pacuviana",
+    "Fonteianus",
+    "Mediolanum",
+    "Insteianus",
+    "Egnatiana",
+    "Sirmio",
+    "Lartidianus",
+    "Grattiana",
+    "Florentia",
+    "October",
+    "Obulcianus",
+    "Matiniana",
+    "Arnus",
+    "Patavium",
+    "Europa",
+    "Satriana",
+    "Rubrianus",
+    "Pisae",
+    "Vediana",
+    "Veturianus",
+    "Ducciana",
+    "Ravenna",
+    "Flaminiana",
+    "Iuventiana",
+    "Hirtuleianus",
+    "Trebatianus",
+    "Ferraria",
+    "Vibulliana",
+    "Tampiana"
+  ],
+  "lessons": [
+    {
+      "title": "Ampullae frigidae",
+      "summary": "In a mountain valley above Trento a power cut threatens the vaccine vials for the next day's children; the organiser and the doctor keep them cold through the night with snow, and in the morning a shy girl becomes the valley's nine-hundredth vaccinated child.",
+      "newWords": [
+        "ampulla",
+        "refrigeratio",
+        "ordinator",
+        "pervigilium",
+        "impatiens",
+        "blanditia",
+        "subrideo",
+        "nongentesimus"
+      ],
+      "text": "Gavillianus, vir quinquaginta annos natus, in valle quae supra Tridentum iacet ordinator est officii sanitatis. Ipse aegrotos non curat; munus eius est omnia ita disponere ut medici suo loco suoque tempore laborare possint. Hoc autumno, ut quotannis, pueri totius vallis vaccino contra influentiam muniuntur, et ordinator dies, nomina puerorum, numerum ampullarum in tabulis suis diligenter notat.\n\nVaccinum in ampullis parvis vitreis e Tridento affertur. Res tamen fragilis est: nisi ampullae inter secundum et octavum gradum caloris servantur, vaccinum vim suam amittit. Itaque Gavillianus de nulla re saepius cogitat quam de refrigeratione. In domuncula medica pagi, ubi Baebiana medica pueros excipit, armarium frigidum stat, quod refrigerationem constantem praebet, dum electricitas adest.\n\nPridie eius diei quo pueri pagi superioris venire debebant, sexaginta ampullae allatae et in armario collocatae sunt. Vespere autem tempestas e montibus descendit; nix cum vento cecidit, et circa horam nonam lux in toto pago exstincta est. Armarium subito tacuit.\n\nGavillianus statim ad domunculam properavit, ubi Baebiana iam cum lucerna exspectabat. «Sine electricitate armarium frigus paucas tantum horas servabit», inquit medica. «Si refrigeratio deficit, ampullae perditae sunt, et pueri frustra venient.»\n\nOrdinator capsam magnam ex autocineto suo attulit, quae ad res frigidas portandas facta erat, eamque nive e vestibulo collecta implevit. Ampullas in medio posuerunt, thermometrum inter eas. Deinde pervigilium egerunt: per totam noctem sedebant, alter post alterum thermometrum inspiciens, et quotiens calor ad sextum gradum ascendebat, nivem recentem addebant. Pervigilium longum erat, sed non triste: Baebiana de primis annis suis in valle narrabat, Gavillianus theam calidam fundebat.\n\nPrima luce electricitas rediit, et armarium iterum sonare coepit. Calor numquam supra septimum gradum ascenderat; ampullae salvae erant.\n\nHora octava parentes cum liberis advenerunt. Inter primos Seiana erat, puella sex annos nata, quae acum valde timebat. Avia eius multis blanditiis eam lenire conabatur, sed blanditiae aviae nihil proficiebant. Post eas puer impatiens stabat, qui pedibus terram pulsabat et identidem rogabat quando tandem intrare liceret. Mater pueri impatientis rubebat.\n\nBaebiana puellae subrisit. «Oculos claude», inquit, «et numera usque ad quinque.» Seiana oculos clausit; ad tertium numerum iam omnia facta erant. Tum ipsa quoque subrisit.\n\nGavillianus tabulas suas inspexit. «Scisne, Seiana», inquit, «te nongentesimam esse puellam huius vallis quae hoc autumno vaccinum acceperit? Nongentesimae insigne debetur.» Et ei insigne parvum dedit, in quo ampulla picta erat.\n\nQuaestiones:\nQuid est munus Gavilliani?\nOrdinator est; omnia ita disponit ut medici suo loco suoque tempore laborare possint.\nCur refrigeratio ampullarum tam magni momenti est?\nNisi ampullae inter secundum et octavum gradum servantur, vaccinum vim suam amittit.\nQuomodo ampullas sine electricitate servaverunt?\nIn capsa nive plena eas posuerunt et per pervigilium nivem recentem addebant.\nQuid avia Seianae faciebat?\nMultis blanditiis puellam lenire conabatur, sed blanditiae nihil proficiebant.\nQuid fecit Baebiana, cum Seiana acum timeret?\nPuellae subrisit et eam oculos claudere iussit.\nQuid puer impatiens faciebat?\nPedibus terram pulsabat et rogabat quando intrare liceret.\nCur Seiana insigne accepit?\nNongentesima puella vallis erat quae hoc autumno vaccinum accepit."
+    },
+    {
+      "title": "Flumen quod revixit",
+      "summary": "Near Pompeii a chemist of the water agency shows an old man how the river Sarno, polluted for decades by factories and sewage, comes back to life after the completion of new treatment works, even after heavy rain.",
+      "newWords": [
+        "polluo",
+        "noxius",
+        "diluo",
+        "revivisco",
+        "interfluo",
+        "transfluo",
+        "praecipitatio",
+        "consummatio"
+      ],
+      "text": "Sarnus flumen breve est, quod e montibus Campaniae ortum agros fertiles interfluit et prope Pompeios in mare effluit. Olim aqua eius tam pura erat ut pueri in ea natarent et piscatores pisces multos caperent. Saeculo autem vicesimo officinae, quae coria parabant et poma in vasis condebant, aquas suas sordidas in flumen effundebant, et cloacae oppidorum quae Sarnus transfluit omnia quae acceperant in idem flumen ferebant. Ita Sarnus inter flumina Italiae maxime pollutus factus est.\n\nDasumianus, vir octoginta annos natus, in ripa Sarni habitat. Puer in flumine natabat; postea per quadraginta annos aquam fuscam et odorem foedum videbat et sentiebat. «Flumen pollutum», solebat dicere, «est sicut amicus aegrotus quem cotidie vides nec iuvare potes.»\n\nHoc vere Laberiana, chemica officii aquarum, ad domum eius venit. Per decem annos novae aquarum purgationes aedificabantur, et nunc tandem consummatio operis adest. «Consummationem operis tibi ostendere volo», inquit, «nam tu flumen melius nosti quam quisquam nostrum.»\n\nAd ripam descenderunt. Laberiana vas vitreum aqua implevit et instrumentum parvum in eo immersit. «Hic videre possumus quantum materiarum noxiarum in aqua sit», explicavit. «Ante decem annos aqua tot res noxias continebat ut nullus piscis in ea vivere posset. Nunc metalla et alia noxia paene evanuerunt.»\n\nDasumianus dubitabat. «Sed quid fit cum pluit? Olim, post magnam praecipitationem, cloacae superfluebant et flumen etiam peius olebat.»\n\n«Recte dicis», respondit chemica. «Nam magna praecipitatio sordes cloacarum quidem diluit, sed non tollit: quod dilutum est, nihilominus pollutum est. Itaque piscinas magnas fecimus quae aquam pluviae primam excipiunt et retinent, donec purgari possit. Praecipitationes huius hiemis graves fuerunt, et tamen flumen non iterum pollutum est.»\n\nDum loquuntur, Dasumianus aliquid in aqua movere vidit. Pisces parvi et argentei inter lapides natabant, et in altera ripa ardea alba stabat, pisces exspectans. In ripis herbae virides, quae diu aruerant, revixerant.\n\n«Flumen revixit», dixit senex lente, «sicut arbor quae post longam hiemem reviviscit. Nunc iterum vivum agros nostros interfluit.» Laberiana subrisit. «Flumina facile polluuntur, sed etiam reviviscere possunt, si homines desinunt ea polluere.»\n\nQuaestiones:\nQuid olim in Sarno faciebant pueri et piscatores?\nPueri natabant et piscatores pisces multos capiebant.\nQuomodo Sarnus pollutus est?\nOfficinae aquas sordidas effundebant, et cloacae oppidorum quae Sarnus transfluit omnia in flumen ferebant.\nQuos agros Sarnus interfluit?\nSarnus agros fertiles Campaniae interfluit.\nCur Laberiana ad Dasumianum venit?\nConsummationem novarum purgationum ei ostendere volebat.\nQuid facit magna praecipitatio sordibus cloacarum?\nEas diluit, sed non tollit; quod dilutum est, nihilominus pollutum est.\nQuid Dasumianus in flumine vidit?\nPisces parvos inter lapides et ardeam in ripa vidit, et herbas quae revixerant."
+    },
+    {
+      "title": "Simia quae manus lavat",
+      "summary": "In a Bologna primary school a health visitor uses a monkey puppet to teach six-year-olds to wash their hands before their afternoon snack and to brush their front teeth, and the children copy it eagerly.",
+      "newWords": [
+        "epitonium",
+        "imitator",
+        "merenda",
+        "simia",
+        "condylus",
+        "ilico",
+        "ardenter",
+        "primoris"
+      ],
+      "text": "Raeciana in officio sanitatis Bononiae laborat et per scholas oppidi it ut pueros parvos doceat quomodo valetudinem suam curent. Hodie classem primam scholae prope portam meridianam visitat, ubi Pacuviana magistra viginti discipulos sex annos natos habet.\n\nRaeciana non sola venit: in manu dextra simiam laneam gerit, quae caput movere et digitos aperire potest. Pueri ilico clamant et ridentes simiam salutant. «Haec simia», inquit Raeciana, «valde gulosa est. Cotidie, cum hora merendae venit, statim ad mensam currit. Sed quid prius facere debet?»\n\n«Manus lavare!» respondent pueri ardenter.\n\nRaeciana simiam ad epitonium classis ducit. «Primum epitonium aperit et manus aqua tepida madefacit. Deinde saponem sumit et diu manus fricat: palmas, dorsum manuum, inter digitos, et praesertim condylos, ubi sordes se celant. Numerat usque ad viginti. Tandem manus aqua abluit, epitonium claudit et manus linteo siccat.»\n\nSimiae enim, ut omnes sciunt, imitatores sunt optimi; at hodie pueri ipsi imitatores fiunt. Ilico ad duo epitonia classis currunt et ordine stant. Ardenter manus fricant, condylos ostendunt, voce clara usque ad viginti numerant. Fonteianus, puer parvus et vivax, condylos suos tam ardenter fricat ut spuma usque ad cubitum perveniat.\n\nTum Pacuviana merendam distribuit: poma et panem cum caseo. Simia quoque merendam suam accipit, sed Raeciana eam vetat edere antequam iterum ad epitonium ierit. Pueri rident et clamant: «Iam lavit! Iam lavit!»\n\nPost merendam Raeciana peniculum magnum dentarium promit. «Simia nostra etiam dentes curat», inquit, «praesertim dentes primores, quos omnes videre possunt cum ridet.» Dentes primores simiae diu purgat, et pueri, imitatores fideles, cum peniculis suis idem faciunt. Fonteianus, cui unus e dentibus primoribus nuper cecidit, lacunam libenter ostendit. «Novus dens crescet», dicit Raeciana, «et eum quoque bene curare debebis.»\n\nIn fine Pacuviana simiam laneam super epitonium in pariete collocat. «Hic manebit», inquit, «ut quotiens merenda venit nos admoneat.»\n\nQuaestiones:\nQuid in manu dextra gerit Raeciana?\nSimiam laneam gerit, quae caput movere et digitos aperire potest.\nQuid simia ante merendam facere debet?\nManus lavare debet, praesertim inter digitos et circa condylos.\nCur pueri imitatores fiunt?\nSimiam ilico imitantur et ad epitonia currunt ut manus ardenter lavent.\nQuid Pacuviana in merenda distribuit?\nPoma et panem cum caseo distribuit.\nQuid Fonteianus de dentibus primoribus ostendit?\nLacunam ostendit, nam unus e dentibus primoribus ei nuper cecidit.\nUbi simia lanea manebit?\nSuper epitonium in pariete manebit."
+    },
+    {
+      "title": "Nox sine strepitu",
+      "summary": "In Milan a sleep researcher helps a baker who cannot sleep in his flat on a noisy street: they record his nights in a notebook, find the sound reflected off the walls and the street light, and he moves his mattress to the dark inner room.",
+      "newWords": [
+        "repercussus",
+        "extrinsecus",
+        "parietalis",
+        "obscuritas",
+        "pugillares",
+        "dilemma",
+        "culcita"
+      ],
+      "text": "Insteianus pistor est Mediolani; quia panem ante lucem coquere debet, hora octava vespertina cubitum ire solet. Domus eius in via angusta sita est, per quam tramina et autocineta usque ad mediam noctem transeunt. Iam per menses male dormit: saepe expergiscitur, et mane fessus ad furnum it.\n\nMedicus eum ad Egnatianam misit, quae in universitate de somno et de strepitu urbano investigat. Egnatiana primum pugillares ei dedit. «In his pugillaribus», inquit, «per duas hebdomadas scribe quando cubitum ieris, quotiens expergefactus sis, quid audiveris.» Simul instrumentum parvum in cubiculo eius posuit, quod strepitum noctis metitur.\n\nPost duas hebdomadas pugillares et instrumentum inter se comparaverunt. Res clara erat: Insteianus fere semper expergiscebatur cum tramen transibat. «Strepitus non solum extrinsecus per fenestram intrat», explicavit Egnatiana. «Via angusta est, et parietes domorum alti et nudi sunt. Sonus repercussus a pariete ad parietem saltat, sicut pila, et ita multo diutius sonat quam sonus simplex.»\n\nDeinde de lumine locuta est. «Lucerna viae ante fenestram tuam tota nocte ardet. Corpus autem obscuritatem desiderat; in obscuritate facilius dormimus et altius. Cubiculum tuum numquam vere obscurum est.»\n\nInsteianus suspiravit. «Hoc est dilemma meum. Si aestate fenestram claudo, strepitus minor est, sed calor ingens. Si aperio, aer recens intrat, sed cum eo omnis strepitus viae.»\n\n«Dilemma tuum solvere possumus», respondit Egnatiana, «si cubiculum mutas.» Domum eius inspexit. A tergo erat cubiculum parvum, quod in aulam interiorem spectabat, ubi tantum arbor una stabat. Ibi sonus extrinsecus vix audiebatur, et nulla lucerna obscuritatem turbabat.\n\nInsteianus culcitam suam in cubiculum interius transtulit. Egnatiana etiam suasit ut tegumentum parietale e lana crassa in muro poneret, quod sonum repercussum minueret. Pistor tegumentum parietale emit, cuius colores eum delectabant, et culcitam sub eo collocavit.\n\nPer alteras duas hebdomadas iterum in pugillaribus scripsit. Nunc paucissima notare debebat: obscuritas plena erat, fenestra aperta, et culcita in silentio iacebat. «Pugillares meos tibi reddo», dixit Egnatianae laetus. «Paene vacui sunt, quia nihil iam audio.»\n\nQuaestiones:\nCur Insteianus tam mane cubitum ire solet?\nPistor est et panem ante lucem coquere debet.\nQuid in pugillaribus scribere debebat?\nQuando cubitum iret, quotiens expergefactus esset, quid audiret.\nQuid facit sonus repercussus in via angusta?\nA pariete ad parietem saltat et diutius sonat quam sonus simplex.\nQuod erat dilemma Insteiani?\nSi fenestram claudebat, calor ingens erat; si aperiebat, strepitus extrinsecus intrabat.\nCur in cubiculo interiore melius dormit?\nIbi sonus extrinsecus vix auditur et obscuritas plena est.\nQuid in muro posuit?\nTegumentum parietale e lana crassa posuit, quod sonum repercussum minuit."
+    },
+    {
+      "title": "Calcei novi",
+      "summary": "In Sirmione a foot specialist finds that the misshapen old shoes of the leader of a seniors' walking group are hurting his foot; a cobbler sews him arch supports, and the group walks across the narrow neck of land to watch the sun set on the horizon.",
+      "newWords": [
+        "tarsus",
+        "deformis",
+        "firmamentum",
+        "consuo",
+        "finitor",
+        "isthmus",
+        "laudabilis"
+      ],
+      "text": "Lartidianus, vir septuaginta duos annos natus, in oppido Sirmione habitat, quod in paeninsula longa et angusta in lacu situm est. Cum terra continente nihil nisi isthmo angusto coniungitur, per quem via una et semita ducunt. Lartidianus coetum senum regit qui ter in hebdomade simul ambulant, et quaque vespera aestiva per isthmum ad portum vetustum procedunt.\n\nMedici oppidi coetum laudant. «Opus laudabile facis», dicunt Lartidiano, «nam qui cotidie ambulant diutius sani manent.» Sed nuper ipse dolorem in pede dextro sentiebat, prope tarsum, et post longam ambulationem vix domum redire poterat.\n\nGrattiana, quae in domo sanitatis pedes aegrotorum curat, pedem eius inspexit, deinde calceos. Calcei vetusti erant et tam deformes ut paene suam formam amisissent: corium latus et molle, solea ab una parte attrita. «Hi calcei deformes tibi nocent», inquit. «Tarsus enim, id est ossa media pedis, firmamentum desiderat. In calceo deformi pes in latus cadit, et ossa tarsi cotidie premuntur.»\n\nGrattiana duas res suasit. Primum, calceos novos emere; deinde, in eos firmamentum ponere quod arcum pedis sustineret. Lartidianum ad sutorem senem in vico proximo misit, qui adhuc arte antiqua laborabat. Sutor pedem eius in charta delineavit, corium et suber elegit et firmamentum ad mensuram eius consuit. Diu consuebat, lente et diligenter, et Lartidianus intra officinam sedens eum spectabat. «Machinae celerius consuunt», inquit sutor, «sed manus melius.»\n\nPost hebdomadam Lartidianus calceos novos cum firmamento consuto induit. Primo die pes paulum mirabatur; tertio die dolor tarsi evanuerat.\n\nEa vespera coetus per isthmum ambulavit. Lartidianus primus ibat, gradu firmo. In fine isthmi omnes ad ripam consederunt et solem spectaverunt, qui lente ad finitorem descendebat. Ubi caelum et aqua coniunguntur, finitor rubebat, deinde aureus fiebat.\n\n«Calcei tui laudabiles sunt», dixit una ex sociis, quae calceos eius admirabatur. «Laudabilis est sutor», respondit Lartidianus. «Ego tantum pedes habeo.» Et omnes riserunt, dum sol sub finitorem evanescebat.\n\nQuaestiones:\nUbi situm est oppidum Sirmio?\nIn paeninsula longa et angusta in lacu situm est, cum terra isthmo angusto coniunctum.\nCur medici opus Lartidiani laudabile esse dicunt?\nQuia qui cotidie ambulant diutius sani manent.\nCur calcei veteres Lartidiano nocebant?\nTam deformes erant ut pes in latus caderet et ossa tarsi premerentur.\nQuid sutor ei consuit?\nFirmamentum ad mensuram eius consuit, quod arcum pedis sustineret.\nQuid coetus ea vespera spectavit?\nSolem spectavit, qui ad finitorem descendebat."
+    },
+    {
+      "title": "Arteriae et caseus",
+      "summary": "At a free heart check in a Florence market square a cardiologist finds a cheesemaker's blood pressure too high, explains hardening of the arteries and fatty deposits, and he changes his diet with fermented foods and a mixture of grains; three months later his pressure is lower.",
+      "newWords": [
+        "sclerosis",
+        "depositio",
+        "pressura",
+        "abdomen",
+        "fermentatio",
+        "permixtio"
+      ],
+      "text": "Quotannis mense Octobri officium sanitatis Florentiae in foro mercatus tabernaculum album ponit, ubi quivis gratis cor et arterias suas inspici iubere potest. Matiniana, medica cordis, ibi per totum diem sedet et cives qui transeunt excipit.\n\nInter eos venit Obulcianus, vir sexaginta annos natus, qui in eodem foro caseos vendit. Diu dubitaverat, sed uxor eum hortata erat. Matiniana primum pressuram sanguinis eius mensa est. «Pressura nimis alta est», inquit. «Centum sexaginta supra nonaginta. Optima pressura circa centum viginti esset.» Deinde circuitum abdominis taenia metiebatur. «Abdomen quoque latius est quam cor amat.»\n\nObulcianus risit. «Abdomen meum caseis meis debeo. Sed quid hoc ad cor pertinet?»\n\nMedica chartam sumpsit et arteriam delineavit. «Arteriae iuvenum molles sunt et flexibiles. Per annos autem in parietibus earum depositio adipis et calcis fieri potest. Haec depositio arterias angustiores et duriores facit; quod medici sclerosim arteriarum vocant. Sclerosis lente et sine dolore crescit, et pressura alta eam adiuvat, sicut ipsa pressuram auget. Ideo pressuram et abdomen simul curare debemus.»\n\n«Debeone ergo caseum relinquere?» rogavit Obulcianus anxius.\n\n«Minime», respondit Matiniana subridens. «Caseus enim fermentatione fit, et cibi fermentatione facti, ut lac fermentatum aut brassica acida, intestinis prosunt. Sed caseus tuus multum salis et adipis continet; parum ede, non multum. Salem minue, nam sal pressuram auget. Et cotidie permixtionem granorum et leguminum ede: avenam, hordeum, lentes, nuces. Talis permixtio cor iuvat et diu satiat.»\n\nObulcianus domum rediit et uxori omnia narravit. Ea, quae libenter coquebat, ilico novam permixtionem paravit: avenam cum nucibus et pomis siccis, quam mane cum lacte fermentato edebant. Ipse quoque in taberna sua novum caseum fecit, minus salsum, cuius fermentationem diutius curabat. Vesperi cum uxore per ripam Arni ambulabat, non iam in sella sedebat.\n\nPost tres menses ad Matinianam rediit. Pressura nunc centum quadraginta supra octoginta erat, et abdomen tribus digitis minus. «Sclerosim non omnino delere possumus», dixit medica, «sed depositionem novam impedire. Perge sic.»\n\nObulcianus ei caseum novum dono dedit. «Minus salsum est», inquit, «sicut medica iussit.»\n\nQuaestiones:\nUbi Matiniana cives excipit?\nIn tabernaculo albo in foro mercatus Florentiae.\nQualis erat pressura sanguinis Obulciani?\nNimis alta erat: centum sexaginta supra nonaginta.\nQuid est sclerosis arteriarum?\nDepositio adipis et calcis arterias angustiores et duriores facit.\nCur caseus et lac fermentatum intestinis prosunt?\nQuia fermentatione fiunt.\nQuam permixtionem uxor eius paravit?\nAvenam cum nucibus et pomis siccis paravit, quam cum lacte fermentato edebant.\nQuid post tres menses Matiniana invenit?\nPressura minor erat et abdomen tribus digitis minus."
+    },
+    {
+      "title": "Hortus medicus",
+      "summary": "In Padua's old botanical garden an ornamental gardener shows a historian of medicine the beds of healing herbs, the rue once thought to keep asps away, the dwarf trees, the sunny pergola, a fallow bed and the fleshy-leaved plants.",
+      "newWords": [
+        "ruta",
+        "topiarius",
+        "pumilus",
+        "apricus",
+        "pergula",
+        "novalis",
+        "carnosus",
+        "aspis"
+      ],
+      "text": "Hortus plantarum Patavii inter vetustissimos Europae est; saeculo sexto decimo conditus est ut studiosi medicinae herbas quibus medici utebantur oculis suis viderent. Satriana, quae historiam medicinae docet, librum de herbis medicis scribit et hodie hortum visitat cum Rubriano, qui per triginta annos ibi topiarius laborat.\n\nRubrianus non tantum herbas curat: ars topiaria eius est saepes et arbores parvas in formas pulchras secare. Prope portam saepes virides in formam globorum et pyramidum sectae stant. «Haec ars topiaria vetustissima est», explicat topiarius, «iam medici veteres eam in hortis suis amabant.»\n\nDeinde Satrianam ad areas herbarum medicarum ducit. Primum rutam ostendit, herbam humilem cum foliis caeruleis et odore acri. «Ruta olim inter herbas maxime utiles habebatur», dicit Satriana, pugillares aperiens. «Medici veteres credebant rutam oculos acuere et etiam aspides arcere. Rustici rutam circa domos serebant, ne aspides intrarent.»\n\n«In hoc horto nulla aspis umquam visa est», respondit Rubrianus ridens. «Fortasse ruta efficax est.» Satriana tamen admonet hodie rutam caute tangi debere, nam sucus eius cutem in sole laedere potest.\n\nInde ad locum apricum transeunt, ubi murus vetus solem meridianum excipit. In hoc loco aprico arbores pumilae crescunt: mali et cerasi pumili, quorum rami vix ad caput hominis perveniunt. «Arbores pumilas amo», inquit topiarius, «quia poma eorum etiam pueri carpere possunt.»\n\nSuper semitam pergula longa ducit, rosis tecta. Sub pergula aegroti valetudinarii vicini saepe sedent, nam medici eos in hortum mittunt ut aerem recentem et umbram habeant. «Pergula», dicit Satriana, «aeque medicina est ac herbae.»\n\nRubrianus etiam aream nudam ostendit. «Haec area novalis est: hoc anno quiescit, ut terra vires recipiat. Proximo anno herbas medicas iterum accipiet, et alia area novalis erit.»\n\nPostremo ad domum vitream veniunt, ubi plantae carnosae e regionibus siccis servantur. Aloe folia crassa et carnosa habet, plena suci frigidi. Rubrianus folium carnosum frangit et sucum in manu Satrianae ponit. «Hic sucus cutem quam sol nimius laesit lenit», inquit. Satriana omnia in pugillaribus suis notat: rutam, arbores pumilas, pergulam, aream novalem, plantas carnosas.\n\nQuaestiones:\nQuid est ars topiaria Rubriani?\nSaepes et arbores parvas in formas pulchras secare.\nQuid medici veteres de ruta credebant?\nCredebant rutam oculos acuere et aspides arcere.\nQuae arbores in loco aprico crescunt?\nMali et cerasi pumili ibi crescunt.\nCur aegroti sub pergula sedent?\nUt aerem recentem et umbram habeant.\nQuid est area novalis?\nArea quae hoc anno quiescit, ut terra vires recipiat.\nQuales plantae in domo vitrea servantur?\nPlantae carnosae e regionibus siccis, ut aloe cum foliis carnosis."
+    },
+    {
+      "title": "Aves inclusae",
+      "summary": "Near Pisa, when bird flu is found among wild birds, a vet tells a partridge breeder to keep his birds indoors; he builds a spacious shed and cleans it daily with a pitchfork, while his neighbour, a falconer who keeps birds off the airport, also keeps her falcon in.",
+      "newWords": [
+        "falco",
+        "perdix",
+        "inclusio",
+        "feritas",
+        "spatiosus",
+        "furca"
+      ],
+      "text": "Veturianus in agris prope Pisas perdices alit. Perdices aves parvae sunt et facile terrentur; quae plerumque in campis apertis inter herbas vivunt; Veturianus eas in saeptis magnis sub caelo aperto tenet, et aestate multas in campos vicinos emittit, ut ibi libere vivant.\n\nHoc autumno Vediana, medica animalium officii sanitatis, ad villam eius venit. «In paludibus prope mare», inquit, «aves silvestres morbo avium, quem influentiam avium vocant, aegrotant. Hic morbus celeriter ab avibus silvestribus ad domesticas transit. Ideo per totam provinciam inclusio avium iubetur: omnes aves domesticae sub tecto manere debent, donec periculum transierit.»\n\nVeturianus perturbatus est. «Perdices meae numquam sub tecto vixerunt. Si eas in stabulum angustum includo, timore et calore aegrotabunt.»\n\n«Inclusio non idem est ac stabulum parvum», respondit Vediana. «Locum spatiosum para, cum multa luce et aere, ubi perdices currere et se celare possint.»\n\nVeturianus horreum vetus, quod diu vacuum erat, purgavit. Horreum spatiosum erat et altum; fenestras reticulis texit, ut aer intraret neque aves silvestres. In pavimento stramen et ramos posuit, ut perdices inter ea se celarent. Cotidie mane furca stramen sordidum tollebat et recens inferebat; furca etiam stramen ad acervum stercoris extra horreum ferebat, quem Vediana procul ab horreo poni iusserat.\n\nVicina eius, Ducciana, falcones alit. Cum falcone suo in campo aeroplanorum laborat: falco super campum volat, et columbae ac sturni, qui aeroplanis periculosi sunt, eum timent et fugiunt. Falco eas non capit, sed fugat. Nunc Ducciana quoque falconem domi tenere debet, nam falcones ab avibus aegrotis morbum facillime accipiunt.\n\n«Difficile est», inquit Ducciana, cum Veturianum visitat. «Feritas falconis mei inclusionem non amat. Etiam post decem annos falco non domesticus est, sed silvestris; feritas eius pars naturae eius est.» Falconem in cavea spatiosa tenet et cotidie ei cibum recentem dat, ne feritas in iram vertatur.\n\nPost duos menses Vediana nuntiavit periculum transisse et inclusionem iam non necessariam esse. Veturianus horreum aperuit, et perdices in campum cucurrerunt. Eodem die Ducciana falconem suum super campum aeroplanorum iterum emisit, et feritas eius in caelo aperto quievit.\n\nQuaestiones:\nQuas aves Veturianus alit?\nPerdices alit, aves parvas quae facile terrentur.\nCur inclusio avium iubetur?\nQuia aves silvestres prope mare morbo avium aegrotant.\nQuomodo Veturianus horreum paravit?\nHorreum spatiosum purgavit, fenestras reticulis texit et stramen posuit.\nAd quid furca utebatur?\nCotidie stramen sordidum furca tollebat et recens inferebat.\nQuid falco Duccianae in campo aeroplanorum facit?\nColumbas et alias aves fugat, sed non capit.\nQuid Ducciana de feritate falconis dicit?\nFeritas eius pars naturae eius est, et inclusionem non amat."
+    },
+    {
+      "title": "Libellus contra rumores",
+      "summary": "In Ravenna a pharmacist facing a new rival pharmacy writes a leaflet for credulous customers who believe online health rumours; a poet adds a verse with a well-known allusion, a proofreader catches a dosage error, and the rival asks to hand out the leaflet too.",
+      "newWords": [
+        "credulus",
+        "corrector",
+        "allusio",
+        "poetria",
+        "obtendo",
+        "aemulator",
+        "concurrentia"
+      ],
+      "text": "Flaminiana pharmacopolium parvum Ravennae habet, in via quae ad portum ducit. Per viginti annos sola in vico fuit; nunc autem aemulator potens advenit: societas magna pharmacopolium novum et ingens in foro aperuit, ubi medicamenta vilius veneunt. Concurrentia acris est, et Flaminiana timet ne emptores sui abeant.\n\nCotidie tamen aliud quoque eam sollicitat. Multi emptores, praesertim senes, credulos se praebent rumoribus quos in interreti legunt: alius pulverem ex herbis emit qui omnes morbos sanare dicitur; alia medicamenta a medico praescripta relinquit, quia in pellicula brevi audivit ea noxia esse. «Credulis non irascor», dicit Flaminiana, «sed eos adiuvare volo.»\n\nItaque libellum scribere constituit, brevem et clarum, de rumoribus falsis et de modo verum a falso discernendi. Amicam suam Iuventianam, poetriam notam oppidi, rogavit ut versus paucos adderet, quos emptores facile meminissent. Iuventiana primum occupationes suas obtendit: librum novum perficere debebat. Sed postea, cum Flaminiana non desisteret, iam nullam excusationem obtendit et carmen breve scripsit.\n\nCarmen poetriae allusionem continebat ad proverbium vetus: non omne quod nitet aurum est. «Allusio», explicavit Iuventiana, «plus valet quam praeceptum. Lector proverbium agnoscit et ipse intellegit.» Flaminianae allusio placuit.\n\nAntequam libellus imprimeretur, Flaminiana eum Hirtuleiano dedit, correctori qui in typographia vicina laborat. Corrector omnia diligenter legit et, praeter mendas parvas, errorem gravem invenit: in una sententia «quinquaginta» pro «quinque» scriptum erat, de mensura medicamenti. «Bonus corrector», inquit Hirtuleianus, «non solum litteras corrigit, sed etiam numeros.»\n\nLibellus impressus est, et emptores eum libenter sumebant. Post hebdomadam vir ignotus in pharmacopolium intravit: Trebatianus, pharmacopola pharmacopolii novi. Flaminiana aemulatorem suum suspiciose spectavit. «Libellum tuum legi», inquit Trebatianus. «Etiam emptores mei rumoribus nimis credunt. Licetne mihi eum in taberna mea distribuere?»\n\nFlaminiana subrisit. «Concurrentia pretiorum inter nos manebit», respondit, «sed in hac re aemulatores non sumus.» Et Iuventiana, cum hoc audivit, versum novum de duobus pharmacopolis composuit.\n\nQuaestiones:\nQuis est aemulator Flaminianae?\nPharmacopolium novum et ingens societatis magnae in foro.\nCur concurrentia Flaminianam terret?\nTimet ne emptores sui ad pharmacopolium novum abeant.\nQuid credulos emptores sollicitat?\nRumoribus falsis credunt quos in interreti legunt.\nQuid Iuventiana primum obtendit?\nOccupationes suas obtendit, nam librum novum perficere debebat.\nQuam allusionem carmen poetriae continebat?\nAllusionem ad proverbium: non omne quod nitet aurum est.\nQuem errorem corrector invenit?\nIn una sententia quinquaginta pro quinque scriptum erat.\nQuid Trebatianus rogavit?\nRogavit num libellum in taberna sua distribuere sibi liceret."
+    },
+    {
+      "title": "Morbus in numeris",
+      "summary": "In Ferrara, at the three-hundredth anniversary of the old hospital building, a professor gives a public lecture on how epidemics grow exponentially and how dynamic models sort cases into classes and subclasses, framed by the rector's farewell and a student playing the clavichord.",
+      "newWords": [
+        "exponentialis",
+        "dynamicus",
+        "rectoratus",
+        "trecentesimus",
+        "frontispicium",
+        "clavichordium",
+        "subclassis"
+      ],
+      "text": "Valetudinarium vetus Ferrariae anno 1726 conditum est. Hodie aegroti in novo valetudinario extra muros curantur, sed aedificium vetus universitati datum est, quae ibi scholam salutis publicae habet. Hoc anno aedificium annum trecentesimum celebrat. Frontispicium eius, e lapide albo factum, cum columnis et horologio magno, nuper purgatum est et rursus splendet; sub frontispicio vexilla pendent quae annum trecentesimum nuntiant.\n\nAd celebrationem rector universitatis cives in aulam magnam invitavit. Rectoratus eius hoc anno finitur, et haec est postrema celebratio rectoratus sui. Brevi oratione rector gratias egit omnibus qui per rectoratum suum scholam adiuverunt.\n\nDeinde Vibulliana, discipula musicae, in clavichordio cecinit. Clavichordium instrumentum vetus et tenue est; sonus eius tam lenis est ut tota aula taceret ut eum audiret. Hoc ipsum clavichordium, ut dicitur, iam saeculo duodevicesimo in valetudinario fuerat, ubi medicus quidam aegrotis vesperi canebat.\n\nPostea Tampiana, professor rationis morborum, orationem habuit. «Cum morbus qui facile transit in oppido spargitur», incepit, «homines saepe putant eum lente et aequaliter crescere: hodie decem aegroti, postridie viginti, tertio die triginta. Sed incrementum verum exponentiale est. Si unusquisque aegrotus duos alios inficit, hodie decem sunt, mox viginti, deinde quadraginta, octoginta, centum sexaginta. Incrementum exponentiale initio parvum videtur, deinde subito ingens.»\n\nTabulam in pariete ostendit, in qua linea primum humilis, deinde paene recta ad caelum ascendebat. «Ideo ope exemplarium dynamicorum utimur», perrexit. «Vis exemplarium dynamicorum in eo est quod non tantum numerum hodiernum ostendunt, sed etiam quomodo numerus mutetur, si homines aliter agunt: si manus lavant, si domi manent cum aegroti sunt, si vaccino muniuntur. Etiam parva mutatio incrementum exponentiale frangere potest.»\n\nTandem explicavit quomodo aegroti in exemplari dividantur: in classes secundum aetatem, et singulae classes in subclasses, secundum locum ubi habitant aut opus quod faciunt. «Sine subclassibus», inquit, «exemplar nimis simplex est; nam pueri scholae et senes domi non eodem modo morbum accipiunt.»\n\nPost orationem cives ad frontispicium exierunt, ubi horologium vetus horam septimam pulsabat, et Vibulliana iterum in clavichordio, quod in porticum portatum erat, carmen breve cecinit.\n\nQuaestiones:\nQuem annum aedificium vetus celebrat?\nAnnum trecentesimum celebrat, nam anno 1726 conditum est.\nQuale est frontispicium aedificii?\nE lapide albo factum est, cum columnis et horologio magno.\nCur haec celebratio rectori postrema est?\nRectoratus eius hoc anno finitur.\nQualis est sonus clavichordii?\nTam lenis est ut tota aula taceret ut eum audiret.\nQuale est incrementum exponentiale?\nInitio parvum videtur, deinde subito ingens fit.\nQuid ostendit ratio exemplarium dynamicorum?\nQuomodo numerus aegrotorum mutetur, si homines aliter agunt.\nCur Tampiana subclasses adhibet?\nQuia pueri scholae et senes domi non eodem modo morbum accipiunt."
+    }
+  ]
+}
