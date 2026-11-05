@@ -1,0 +1,192 @@
+{
+  "id": "la-mini-6300",
+  "rankUpTo": 6300,
+  "level": "C1",
+  "title": "Victus et valetudo",
+  "description": "Ten stories about food and health: an olive harvest, a community garden, grilling fish, a heart check-up, cooking with fractions, translating a cookbook, a baking contest, an old bathhouse, a food bank and a walk to a river confluence.",
+  "topic": "Food and health",
+  "names": [
+    "Ennius",
+    "Iulitta",
+    "Butuntum",
+    "Mediolanum",
+    "November",
+    "Elsa",
+    "Vigornia",
+    "Wilhelmina",
+    "Paulina",
+    "Savo",
+    "Leontius",
+    "Theodericus",
+    "Sarisburia",
+    "Leonilla",
+    "Frida",
+    "Adolphus",
+    "Wormatia",
+    "Ludovica",
+    "Alfredus",
+    "Ragusium",
+    "Greta",
+    "Oscarus",
+    "Eburodunum",
+    "Amalia",
+    "Wintonia",
+    "Hermannus",
+    "Susanna",
+    "Duacum",
+    "Valerianus",
+    "Edwinus",
+    "Gabriela",
+    "Cameracum"
+  ],
+  "lessons": [
+    {
+      "title": "Oleum novum",
+      "summary": "Near Bitonto an old olive grower and his granddaughter pick olives in the mud, take them to the mill to be pressed the same day, learn how the sediment settles and set a fair price for the oil they will sell.",
+      "newWords": [
+        "oliva",
+        "presso",
+        "faex",
+        "ubertus",
+        "venalis",
+        "lutum",
+        "taxo",
+        "tegimen"
+      ],
+      "text": "Ennius, agricola septuaginta annos natus, prope Butuntum oliveta habet quae iam avus eius coluerat. Mense Novembri neptis eius Iulitta, quae Mediolani medicinae studet, ad eum venit ut eum in olivis legendis adiuvet. Iulitta oleum semper in lagoena e taberna emerat; numquam viderat quomodo ex olivis fieret.\n\nMane, caelo sereno, sub arboribus retia expandunt. Pluvia noctis terram molliverat, et mox calcei amborum luto pleni sunt. «Lutum ne timueris», inquit Ennius ridens. «Lutum significat terram bibisse, et terra quae bibit olivas bonas dat.» Iulitta ramos pertica leviter quatit, et olivae, aliae virides, aliae nigrae, in retia cadunt.\n\nEnnius ei explicat cur retia tanti momenti sint. Non solum olivas colligunt, sed etiam tegimen sunt contra terram umidam: oliva quae diu in luto iacet saporem malum accipit. Post meridiem saccos plenos in carrum imponunt et tegimine e linteo crasso operiunt, ne sol aut pluvia olivas laedat.\n\nVesperi olivas ad officinam vehunt ubi oleum fit. Ibi olivae eodem die pressantur, quia oliva quae diu exspectat acida fit. Faber olivas primum lavat, deinde machina eas conterit et pressat. Iulitta stupet cum sucum viridem et turbidum fluere videt. «Hocne est oleum?» rogat. «Hoc est oleum novum», respondet Ennius. «Nondum purum est. Faex quae in eo natat paulatim in fundum vasis descendet. Post aliquot hebdomades oleum clarum supra faecem stabit, et nos id caute in alia vasa transfundemus, faece relicta.»\n\nFaber oleum metitur et quantitatem taxat. «Hoc anno ubertas magna fuit», inquit. «Arbores tuae, Enni, plus olei dederunt quam anno priore.» Ennius gaudet et ubertatem deberi putat et terrae bonae et pluviis autumni.\n\nDomi Ennius partem olei in lagoenas fundit. Hae lagoenae venales erunt in mercatu oppidi; reliquum oleum familia per annum consumet. Iulitta rogat quanti oleum venale sit. Ennius pretium non temere taxat: considerat quantum laboris olivae postulaverint et quantum alii agricolae petant. «Oleum bonum non est vile», inquit, «sed nolo pretium tam altum ut vicini id emere non possint.»\n\nUltimo Ennius panem calidum secat et oleum novum superfundit. Iulitta gustat: sapor est amarus et acer, quasi herbae recentis. «Hoc sanum est», inquit Ennius. «Medici dicunt oleum olivarum cordi prodesse. Tu medicinae studes, ego nihil de medicina scio; scio tamen hunc panem optimum esse.» Iulitta ridet et alteram partem panis petit. Proximo anno, inquit, iterum veniet, ut olivas non solum legat, sed etiam ipsa pressare discat.\n\nQuaestiones:\nCur Iulitta mense Novembri ad avum venit?\nVenit ut eum in olivis legendis adiuvet.\nQuid Ennius de luto dicit?\nDicit lutum significare terram bibisse, et terram quae bibit olivas bonas dare.\nCur olivae eodem die pressantur?\nQuia oliva quae diu exspectat acida fit.\nQuid Ennius de faece olei novi explicat?\nFaex paulatim in fundum vasis descendit; deinde oleum clarum supra faecem stat et in alia vasa transfunditur.\nQuomodo Ennius pretium olei venalis taxat?\nConsiderat quantum laboris olivae postulaverint et quantum alii agricolae petant.\nCui rei Ennius ubertatem anni deberi putat?\nPutat eam deberi et terrae bonae et pluviis autumni."
+    },
+    {
+      "title": "Hortus communis",
+      "summary": "In Worcester a woman writes in her neighbourhood paper about the community garden behind the school: the seed inventory, purple potatoes, a giant pumpkin, pea pods, daffodils and violets, and what the garden does for body and mind.",
+      "newWords": [
+        "holus",
+        "tuber",
+        "cucurbita",
+        "folliculus",
+        "narcissus",
+        "viola",
+        "inventarium",
+        "ianthinus"
+      ],
+      "text": "Elsa Vigorniae in vico septentrionali habitat et singulis mensibus commentariolum in ephemeride vici scribit. Hoc mense de horto communi scribit, quem vicini ante tres annos in area deserta post scholam instituerunt.\n\n«Cum primum in hortum nostrum veni, de holeribus nihil sciebam. Holera emebam in macello, lota et in sacculis inclusa, et putabam holus quasi rem factam esse, non natam. Nunc scio quantum laboris, patientiae, aquae unumquodque holus postulet.\n\nPrimo vere Wilhelmina, quae hortum nostrum curat, inventarium seminum conficit. In inventario scribit quae semina habeamus, quot sacculos, quo anno empta sint. Hoc inventarium non est res otiosa: semina vetera saepe non germinant, et qui inventarium non habet, eadem semina bis emit, alia omnino obliviscitur.\n\nDeinde tubera serimus. Tuber, ut Wilhelmina nos docuit, non est radix, sed pars caulis sub terra crassa facta, in qua planta cibum in annum sequentem servat. Hoc anno Wilhelmina etiam tubera ianthina attulit, colore violae similia. Liberi vici primo ea gustare nolebant, quia cibum ianthinum numquam viderant; postquam autem Wilhelmina ex eis cremam ianthinam fecit, omnes plus petiverunt.\n\nAestate cucurbitae totum hortum quasi suum faciunt. Una sola cucurbita tot ramos per terram extendit ut dimidiam partem areae tegat. Autumno cucurbitas maximas legimus et in scholam portamus, ubi pueri ex eis iusculum coquunt.\n\nEodem fere tempore pisa matura sunt. Pueris nihil gratius est quam folliculos aperire et pisa cruda statim edere. Folliculi vacui in acervum quisquiliarum proiciuntur, ubi paulatim terra fiunt quae holeribus anni proximi cibum dat.\n\nNeque flores neglegimus. Secundum saepem Wilhelmina narcissos plantavit, qui primi omnium florum vere aperiuntur; sub arboribus, in umbra, violae crescunt. Narcissi oculos delectant, sed edi non debent; violae autem edi possunt, et flores earum in acetaria interdum ponimus. Flores praeterea apes alliciunt, sine quibus nec cucurbitae nec multa alia holera fructum ferunt.\n\nHortus noster corpori prodest, quia in eo movemur, terram fodimus, aerem purum spiramus. Animo quoque prodest, quia vicini qui antea ne nomina quidem inter se sciebant nunc una laborant et colloquuntur. Ego certe plus holerum edo quam umquam, et quae edo meliora mihi videntur, quia scio unde veniant.»\n\nQuaestiones:\nUbi est hortus communis?\nEst in area quae antea deserta erat, post scholam vici.\nCur Wilhelmina inventarium seminum conficit?\nQuia semina vetera saepe non germinant, et qui inventarium non habet, eadem semina bis emit.\nQuid est tuber, ut Wilhelmina docuit?\nTuber est pars caulis sub terra crassa facta, in qua planta cibum servat.\nCur liberi tubera ianthina primo gustare nolebant?\nQuia cibum ianthinum numquam viderant.\nQuid pueri cum folliculis pisorum faciunt?\nFolliculos aperiunt et pisa cruda statim edunt; folliculi vacui in acervum proiciuntur.\nQui flores edi possunt, narcissi an violae?\nViolae edi possunt; narcissi edi non debent."
+    },
+    {
+      "title": "Piscis in crate",
+      "summary": "In Savona a retired cook shows his young neighbour how to choose fresh fish by its eyes and scales, scale it, grill it on an iron rack with only a knife and a box of salt, and serve it with three simple seasonings on a clean tablecloth.",
+      "newWords": [
+        "squama",
+        "cratio",
+        "mappa",
+        "gallinaceus",
+        "elido",
+        "pyxis",
+        "machinamentum",
+        "trias"
+      ],
+      "text": "Paulina, quae Savone in parvo conclavi habitat, a medico audivit se plus piscium edere debere. Sed piscem coquere timet: semper aut crudus remanet aut aridus fit, et tota domus diu olet. Vicinus eius Leontius, qui per triginta annos in caupona portus coquus fuerat, eam invitat ut una cenam piscium parent.\n\nPrimum ad forum piscarium eunt. Leontius piscem non e pretio eligit, sed ex oculis et squamis. «Oculi clari esse debent, non turbidi», inquit, «et squamae splendere quasi argentum. Si squamae facile cadunt dum piscem tangis, piscis non est recens.» Duos pisces mediocres emunt, et piscator eis citrum gratis addit.\n\nIn culina Paulinae Leontius ridet. Ubique machinamenta stant: machina quae ova verberat, machina quae panem torret, machina quae sucum e fructibus elidit. «Quot ex his machinamentis cotidie adhibes?» rogat. Paulina fatetur se fere nullo uti. Leontius nihil poscit nisi cultrum et pyxidem salis; cratis ferrea, quam ipse e domo sua attulit, ei sufficit.\n\nSquamas sub aqua fluenti detrahit, cultro contra ordinem squamarum ducto, ne squamae per totam culinam volent. Deinde piscem intus lavat, sale ex pyxide aspergit et herbas in ventrem ponit. «Cratis calida esse debet antequam piscem imponis», inquit, «aliter caro ferro haeret.» Cratis super ignem diu calefit; Leontius eam oleo leviter ungit et pisces in crate ponit. Paulina vult eos statim vertere, sed Leontius eam prohibet: piscis in crate tranquille iacere debet, donec ipse se a ferro solvat.\n\nInterim Leontius triadem condimentorum parat, qua in omni cena piscium utitur: oleum, citrum, sal. «Haec trias sufficit», inquit. «Piscis bonus non eget multis condimentis.» Citrum manu premit et sucum in parvum vas elidit; Paulina machinam suam offert, sed ille negat ullum machinamentum suo pollice melius elidere. Quasi quartum membrum triadis liquamen ex ovo gallinaceo et oleo addit, sed Paulinam monet ut ova gallinacea semper recentia emat.\n\nDum pisces coquuntur, Paulina mensam sternit et mappam albam explicat, quam mater sua ei dederat; numquam antea ea usa est. Leontius dicit cenam bonam non solum in patina esse, sed etiam in mensa: mappa munda, lumen leve, tempus sine festinatione.\n\nPisces perfecti sunt, foris crispi, intus molles. Paulina gustat et miratur quam simplex res sit. Post cenam mappam diligenter complicat et pyxidem salis, quam Leontius ei dono relinquit, in mensa ponit, ut eam semper videat.\n\nQuaestiones:\nCur Paulina piscem coquere timebat?\nQuia piscis eius semper aut crudus remanebat aut aridus fiebat, et domus diu olebat.\nQuomodo Leontius piscem recentem cognoscit?\nEx oculis claris et squamis quae splendent quasi argentum.\nQuibus instrumentis Leontius in culina utitur?\nCultro, pyxide salis et crate ferrea utitur.\nCur piscis in crate statim verti non debet?\nQuia tranquille iacere debet donec ipse se a ferro solvat.\nQuae est trias condimentorum Leontii?\nTrias est oleum, citrum, sal.\nQuid Paulina in mensa explicat?\nMappam albam explicat, quam mater sua ei dederat."
+    },
+    {
+      "title": "Cor tranquillum",
+      "summary": "In Salisbury an office worker whose heart raced on the stairs has a check-up; the doctor finds his heart and organs healthy, explains the atrioventricular node, blames coffee and an argument, and prescribes walks and calm.",
+      "newWords": [
+        "atrioventricularis",
+        "viscus",
+        "physicalis",
+        "commotio",
+        "supercilium",
+        "credibilis",
+        "tranquillitas"
+      ],
+      "text": "Theodericus, quinquaginta quinque annos natus, Sarisburiae in officio rationum laborat. Nuper, dum scalas ad tertiam contignationem ascendit, cor tam celeriter pulsare sensit ut consistere deberet. Uxor eum ad medicam familiae, Leonillam, misit.\n\nLeonilla eum diligenter interrogat. Theodericus omnia levia esse dicit: se nimium cafeae bibere, parum dormire, totum diem in sella sedere. «Quot pocula cafeae?» rogat medica. «Ante meridiem tria, post meridiem duo», respondet ille. Leonilla supercilia tollit nec quidquam dicit; supercilia eius satis dicunt.\n\nDeinde eum inspicit. Cor eius auscultat, pulsum metitur, ventrem manibus tangit ut viscera exploret: iecur, stomachum, intestina. «Viscera tua sana videntur», inquit. Tum machinam affert quae motus cordis in charta describit, et lineas diu considerat.\n\n«Cor quattuor cavas habet», explicat. «Duae superiores atria appellantur, duae inferiores ventriculi. Inter atria et ventriculos est nodus atrioventricularis, parvus cellularum acervus, qui signum ab atriis acceptum paulisper retinet et deinde ventriculis tradit. Ibidem sunt valvae atrioventriculares, quae se ordine aperiunt et claudunt. Si nodus atrioventricularis bene laborat, cor ordine pulsat. Tuus bene laborat.»\n\nTheodericus quaerit unde ergo pulsus ille celer venerit. Leonilla rogat num eo die aliquid eum commoverit. Ille meminit se paulo ante cum praeposito disputavisse. «Ecce», inquit medica, «commotio animi cor movet. Cafea et commotio simul cor impellunt, quasi duo equi currum. Non est morbus, sed signum.»\n\nConsilium ei dat: minus cafeae, plus exercitationis physicalis. «Non opus est ut in palaestra sudes», inquit. «Satis est si cotidie dimidiam horam ambulas et scalas sine festinatione ascendis. Condicio tua physicalis paulatim crescet.» Theodericus dubitat. «Credibilene est tam parvam rem cor iuvare?» «Non solum credibile», respondet Leonilla, «sed probatum. Magis tamen credibile tibi fiet cum ipse senseris.»\n\nUltimo de tranquillitate loquitur. «Tranquillitatem animi non in pharmacopolio emes. Quaere cotidie horam sine telephono, sine litteris electronicis, sine praeposito. Haec tranquillitas cordi tuo plus prodest quam ulla medicina.»\n\nPost duos menses Theodericus ad medicam redit. Cotidie vesperi in ripa fluminis ambulat, duo tantum pocula cafeae bibit, et cum praepositus eum vexat, commotionem lente spirando lenit. Cor eius tranquille pulsat, et Leonilla, cum audit, supercilia non iam tollit, sed ridet.\n\nQuaestiones:\nCur Theodericus ad medicam it?\nQuia, dum scalas ascendebat, cor tam celeriter pulsavit ut consistere deberet.\nQuid Leonilla facit cum audit quot pocula cafeae Theodericus bibat?\nSupercilia tollit nec quidquam dicit.\nQuid nodus atrioventricularis facit?\nSignum ab atriis acceptum paulisper retinet et deinde ventriculis tradit.\nUnde pulsus ille celer venerat?\nEx commotione animi et ex nimia cafea.\nQuod consilium Leonilla de exercitatione physicali dat?\nSatis est si cotidie dimidiam horam ambulat et scalas sine festinatione ascendit.\nQuomodo Theodericus tranquillitatem quaerit?\nCotidie vesperi in ripa fluminis ambulat, sine telephono et sine praeposito."
+    },
+    {
+      "title": "Fractiones in culina",
+      "summary": "In Worms a nutrition student gets her flatmate, a physics student who forgets to eat, to cook lentil soup with her; he scales the recipe with fractions and decimals, and she explains why counting calories is not everything.",
+      "newWords": [
+        "baccalaureus",
+        "magisterium",
+        "computus",
+        "decimalis",
+        "denominator",
+        "relativisticus",
+        "commentor",
+        "adeptio"
+      ],
+      "text": "Wormatiae Frida et Adolphus conclave commune habitant. Ambo in universitate studiis dediti sunt, sed modo diverso. Adolphus, qui iam baccalaureus physicae est, nunc ad magisterium studet: de physica relativistica commentatur, de luce, de tempore quod iis qui celerrime moventur tardius fluit. Frida, quae et ipsa baccalaureus est, magisterium in scientia nutritionis petit.\n\nAdolphus, dum de spatio et tempore commentatur, cibi obliviscitur. Cena eius saepe est panis cum caseo, quem ante computatrum raptim edit. Frida aliquando ei dicit: «Corpus tuum non est particula relativistica quae sine cibo per spatium volat. Etiam physicus edere debet.»\n\nQuodam vespere eum in culinam vocat. In libro coquinario formula iusculi lentium pro quattuor hominibus scripta est; illi autem tres sunt, nam vicina quoque cenabit. Adolphus statim computum suscipit: omnia per tres quartas multiplicanda sunt. «Fractio est», inquit, «tres supra, quattuor infra. Quattuor est denominator: dicit in quot partes totum dividatur.» Frida ridet: hoc etiam ipsa scit, sed eum libenter computare sinit, quia tum saltem coquit.\n\nFormula sescenta grammata lentium postulat. Adolphus sescenta per denominatorem dividit et per tres multiplicat: quadringenta quinquaginta. Deinde oleum: formula cochlear unum et dimidium postulat, id est 1,5. «Numerus decimalis», inquit, «mihi facilior est quam fractio», et 1,5 per 0,75 multiplicat: 1,125. Frida dicit nullum coquum cochlear in mille partes dividere; satis est cochlear unum et paulum.\n\nDum lentes coquuntur, Frida ei de suis studiis narrat. Ipsa quoque computis utitur: quot calorias, quantum fibrarum homo cotidie edat. Sed computus, ut dicit, non est totum. Numeri decimales in charta pulchri sunt, corpus autem non est machina quae ad tertium numerum decimalem exacte respondeat. Adolphus haec non sine admiratione audit, quia in sua physica computus exactus omnia est.\n\nIusculum bonum est. Adolphus fatetur se melius cogitare post cenam calidam quam post panem siccum. Frida respondet hoc non esse rem novam: mens quoque cibo eget.\n\nDeinde de adeptione magisterii loquuntur. Adolphus putabat adeptionem tituli solum a studio pendere; nunc intellegit etiam a somno, a cibo, ab ambulationibus pendere. Constituunt ut bis in hebdomade una coquant: Frida formulam eligit, Adolphus computum facit, vicina panem affert.\n\nQuaestiones:\nDe qua re Adolphus commentatur?\nDe physica relativistica commentatur, de luce et de tempore.\nCur Frida dicit Adolphum non esse particulam relativisticam?\nQuia ille cibi obliviscitur, sed etiam physicus edere debet.\nQuid est denominator, ut Adolphus explicat?\nDenominator dicit in quot partes totum dividatur.\nCur Adolphus numerum decimalem fractioni praefert?\nQuia numerus decimalis ei facilior est quam fractio.\nQuid Frida de computis cibi dicit?\nDicit computum non esse totum, quia corpus non est machina quae ad tertium numerum decimalem respondeat.\nA quibus rebus adeptio magisterii pendet, ut Adolphus nunc intellegit?\nNon solum a studio, sed etiam a somno, a cibo, ab ambulationibus pendet."
+    },
+    {
+      "title": "Epistula translatricis",
+      "summary": "In Dubrovnik a translator writes to her editor about a famous chef's cookbook: his verbless syntax, his descriptive passages, the couplets that open each chapter, the rare spices she will not omit and the consistency of her terms.",
+      "newWords": [
+        "translator",
+        "syntaxis",
+        "descriptivus",
+        "distichon",
+        "praetermitto",
+        "convenientia",
+        "exquiro",
+        "inclitus"
+      ],
+      "text": "Ludovica Ragusii libros convertit. Nunc librum coquinarium coqui cuiusdam incliti convertit, et editori suo Alfredo epistulam scribit.\n\nLudovica Alfredo salutem dicit.\n\nGaudeo quod librum coqui illius incliti mihi convertendum dedisti; laborem iam ad dimidiam partem perduxi. Antequam pergam, de quibusdam rebus te certiorem facere volo, ne postea mireris cur conversio mea aliquando a textu primo discedat.\n\nPrimum de syntaxi. Coquus noster, ut scis, sententiis brevissimis scribit, saepe sine verbo: «Cepae. Oleum. Ignis lenis. Patientia.» In lingua eius haec syntaxis vivida est, et quasi coquum ipsum in culina loquentem audimus; in lingua nostra, si eam servo, lector putat typographum verba omisisse. Itaque syntaxim paulum muto: sententias breves servo, sed verbum addo. Translator, ut opinor, non verba numerare debet, sed sensum et sonum reddere.\n\nDeinde de partibus quae descriptivae sunt. Ante quamque formulam coquus verba descriptiva scribit, in quibus narrat ubi cibum primum gustaverit, quis eum coxerit, quid tum senserit. Hae partes descriptivae mihi pulcherrimae videntur, sed difficillimae: verba de odoribus et saporibus in nostra lingua pauciora sunt. Multos dies in lexicis verba exquiro quae odorem cepae in butyro tostae reddant; aliquando nulla invenio et circumlocutione utor.\n\nTertio de distichis. Initio cuiusque capitis coquus distichon ponit quod ipse composuit, saepe iocosum. Distichon in aliam linguam convertere est quasi ovum crudum per manus tradere: facile frangitur. Tibi propono ut disticha in lingua prima servemus et conversionem simplicem in margine addamus.\n\nQuarto: rogasti num nomina quorundam condimentorum praetermittere possim, quae apud nos rara sunt. Nolim ea praetermittere. Lector curiosus ea exquiret, et si ea praetermittimus, formula falsa fit. Melius est, ut opinor, brevem notam addere ubi condimentum emi possit aut quo mutari.\n\nUltimo de convenientia verborum. In toto libro idem verbum eandem rem significare debet: si in primo capite «lente coquere» scripsi, in decimo non possum de eadem re «paulatim fervefacere» scribere. Ad hanc convenientiam servandam indicem verborum confeci, quem tibi mitto. Convenientia verborum lectori fidem facit, et translatrix quae eam neglegit lectorem confundit.\n\nSpero haec tibi placitura esse. Coquus ille inclitus, cum ei de his rebus scripsissem, respondit se gaudere quod quis tam diligenter de verbis suis cogitet. Opus intra duos menses perficiam.\n\nVale.\n\nQuaestiones:\nCur Ludovica syntaxim coqui paulum mutat?\nQuia in lingua nostra lector, si sententias sine verbo legit, putat verba omissa esse.\nCur partes descriptivae difficillimae sunt?\nQuia verba de odoribus et saporibus in nostra lingua pauciora sunt.\nQuid Ludovica de distichis proponit?\nProponit ut disticha in lingua prima serventur et conversio simplex in margine addatur.\nCur Ludovica nomina condimentorum rarorum praetermittere non vult?\nQuia lector curiosus ea exquiret, et formula sine eis falsa fit.\nQuomodo Ludovica convenientiam verborum servat?\nIndicem verborum confecit, ut idem verbum semper eandem rem significet.\nQuid coquus inclitus Ludovicae respondit?\nRespondit se gaudere quod quis tam diligenter de verbis suis cogitet."
+    },
+    {
+      "title": "Placenta sine saccharo",
+      "summary": "In Yverdon a baker who once saw her cake collapse in front of the tasters enters a contest for cakes without added sugar against her friendly rival, wins the prize for excellence with a lively fig cake, and both are rewarded.",
+      "newWords": [
+        "competitio",
+        "rivalis",
+        "excellentia",
+        "remunero",
+        "compensatio",
+        "ignominia",
+        "vivacitas",
+        "spontaneus"
+      ],
+      "text": "Eburoduni, in ripa lacus, quotannis autumno competitio pistorum fit. Hoc anno competitio condicionem novam habet: pistores placentas sine saccharo addito coquere debent, ut ostendatur saporem dulcem etiam e fructibus venire posse.\n\nGreta, quae parvam tabernam in foro habet, ubi panem coquit et vendit, iam ter competitioni interfuit, sed numquam primum praemium tulit. Rivalis eius vetus est Oscarus, pistor eiusdem fori, qui praemium bis tulit. Rivales sunt, non adversarii: mane se salutant, et cum Gretae farina deest, Oscarus ei saccum commodat. In competitione tamen uterque primus esse vult.\n\nGreta etiam ignominiam anni prioris meminit. Tum opus eius male coctum erat, et cum arbitri id secuerunt, media pars liquida erat. Totum forum risisse putabat, quamquam nemo riserat. Ignominia illa diu eam vexabat, sed etiam eam docuit: hoc anno opus suum decies domi probat antequam id ad competitionem affert.\n\nPlacentam ex ficis aridis, nucibus et farina integra parat, quam soli fici dulcem faciunt. Fici tamen gravem saporem habent, et Greta diu quaerit quomodo operi suo vivacitatem det. Tandem corticem citri minutim concisum addit, et cum gustat, intellegit se invenisse quod quaerebat: sapor non iam gravis est, sed vivus et clarus.\n\nDies competitionis venit. Duodecim pistores mensas in foro ponunt. Qui competitionem instituunt singulis pistoribus pecuniam dant pro impensis. «Haec est compensatio», inquit unus ex eis, «non praemium: nemo propter competitionem nostram pauperior domum redire debet.» Greta compensationem libenter accipit, quia fici aridi cari sunt.\n\nTres arbitri, inter quos medica quae de cibo sano scribit, singula opera gustant. Oscarus placentam ex cucurbita et malis fecerat, quam arbitri valde laudant. Deinde opus Gretae gustant. «Sapor ficorum gravis esse solet», inquit medica, «sed cortex citri ei vivacitatem dat quam in nullo alio opere invenimus.»\n\nVesperi praemia nuntiantur. Praemium excellentiae Gretae datur, Oscaro praemium secundum. Plausus spontaneus totum forum implet, et Oscarus primus omnium spontanee manum Gretae prehendit. Qui competitionem instituunt victricem non solum pecunia remunerant, sed etiam libro coquinario et tabula in qua scriptum est: «Pro excellentia».\n\nPostea, dum mensas auferunt, Greta Oscaro dicit ignominiam anni prioris sibi nunc utilem videri: sine illa numquam tam diligenter coxisset. Oscarus ridet. «Labor bonus se ipse remunerat», inquit. «Praemium tantum additur.»\n\nQuaestiones:\nQuam condicionem novam competitio hoc anno habet?\nPistores placentas sine saccharo addito coquere debent.\nQuis est Oscarus?\nOscarus est pistor eiusdem fori et rivalis vetus Gretae.\nQuam ignominiam Greta meminit?\nAnno priore opus eius male coctum erat, et media pars liquida erat.\nQuomodo Greta placentae vivacitatem dat?\nCorticem citri minutim concisum addit.\nQuid est compensatio quam pistores accipiunt?\nEst pecunia pro impensis, non praemium.\nQuomodo Greta pro excellentia remuneratur?\nPecunia, libro coquinario et tabula in qua scriptum est «Pro excellentia»."
+    },
+    {
+      "title": "Lavatio publica",
+      "summary": "In Winchester an eighty-year-old woman swims three times a week in the restored Victorian bathhouse, with its mosaic floor, curved glass roof and friendly doorkeeper, and the doctor's advice has become her favourite pleasure.",
+      "newWords": [
+        "lavatio",
+        "ianitor",
+        "stola",
+        "oblectamentum",
+        "curvatura",
+        "musivum",
+        "monumentalis",
+        "promineo"
+      ],
+      "text": "Amalia, octoginta annos nata, Wintoniae habitat. Medicus ei suasit ut nataret, quia natare articulis prodest nec eos onerat. Itaque ter in hebdomade ad balneum publicum it, aedificium monumentale saeculo XIX exstructum, quod nuper renovatum est.\n\nIam e via aedificium monumentale apparet: frons alta e lateribus rubris, turris parva quae super tectum prominet, horologium magnum supra portam. Supra portam adhuc legitur inscriptio vetus «LAVATIO PUBLICA». Olim enim multi homines domi balneum non habebant et huc veniebant ut se lavarent; lavatio publica tum res necessaria erat, non oblectamentum.\n\nIntus columnae ferreae tectum vitreum sustinent, cuius curvatura caelum quasi arcus imitatur. Pavimentum aulae musivo ornatum est: musivum ex parvis lapidibus caeruleis et albis undas et pisces ostendit. Opifices qui balneum renovaverunt singulos lapides musivi purgaverunt et eos qui deerant novis substituerunt.\n\nAd portam sedet Hermannus, ianitor balnei, qui omnes qui natant nomine salutat. Ianitor non solum tesseras inspicit: scit quis aquam magis calidam malit, quis libenter colloquatur, quis tacere velit. Amaliae semper linteum siccum servat, quia illa suum saepe obliviscitur.\n\nAntequam in piscinam descendit, Amalia sub aqua fluenti se lavat; haec lavatio brevis omnibus praecepta est, ut aqua piscinae munda maneat. Deinde lente ab uno fine piscinae ad alterum natat. Alter finis in curvaturam desinit, et ibi aqua minus alta est; e muro gradus lapideus prominet, in quo Amalia sedens paulum quiescit et aquam spectat.\n\nCum e piscina exit, stolam mollem, quam neptis ei texuit, circa umeros ponit, ut calida maneat. Hermannus, cum stolam videt, semper dicit colorem eius cum musivo pavimenti convenire. Amalia ridet; stolam neptis suae magni aestimat.\n\nPostquam natavit, in sella prope fenestram sedet et theam calidam bibit, quam ianitor ei praebet. Natare, quod primo nihil nisi consilium medici erat, nunc oblectamentum eius maximum est. «Senectus pauca oblectamenta habet», inquit Hermanno, «sed bona: aquam, theam, sermonem.» Hermannus consentit et ei diem proximum in tabula notat.\n\nQuaestiones:\nCur Amalia ter in hebdomade ad balneum it?\nQuia medicus ei suasit ut nataret, nam natare articulis prodest.\nQuid supra portam balnei legitur?\nInscriptio vetus «LAVATIO PUBLICA» legitur.\nQuid musivum pavimenti ostendit?\nMusivum ex parvis lapidibus caeruleis et albis undas et pisces ostendit.\nQuid Hermannus ianitor de iis qui natant scit?\nScit quis aquam magis calidam malit, quis libenter colloquatur, quis tacere velit.\nUbi Amalia in piscina quiescit?\nIn gradu lapideo qui e muro prominet, ubi piscina in curvaturam desinit.\nQuid nunc est Amaliae natare?\nNatare nunc oblectamentum eius maximum est."
+    },
+    {
+      "title": "Cibus omnibus",
+      "summary": "In Douai the woman who runs a food bank receives a builders' company's generous offer of a cold room, deliberates with her volunteers on how best to use it, waits out a delay, and starts giving families fresh vegetables that truly nourish.",
+      "newWords": [
+        "largitio",
+        "corporatio",
+        "destinatio",
+        "dilatio",
+        "deliberatio",
+        "competentia",
+        "aedificator",
+        "nutrio"
+      ],
+      "text": "Susanna Duaci promptuarium cibi curat, ubi familiae quae parum pecuniae habent singulis hebdomadibus cibum gratis accipiunt. Cibus ex tabernis et ex civibus venit: farina, oryza, lentes in vasis, raro aliquid recens. Susanna saepe dolet quod cibum tam siccum dare cogitur, nam scit liberos non pane solo, sed etiam holeribus et fructibus nutriri.\n\nQuodam die vir quidam, Valerianus nomine, ad promptuarium venit. Aedificator est, et corporationi aedificatorum oppidi praeest. Corporatio, ut narrat, hoc anno magnum lucrum fecit, et aedificatores constituerunt partem lucri pro bono communi dare. «Non pecuniam tantum dare volumus», inquit, «sed id quod optime scimus: aedificare.» Proponit ut aedificatores corporationis in promptuario cellam frigidam exstruant, in qua cibus recens servari possit.\n\nSusanna gaudet, sed tantam largitionem non statim accipit. Prius cum adiutoribus suis deliberat. Deliberatio longa est: alii timent ne cella frigida nimium electricitatis consumat; alii quaerunt unde cibus recens veniat, si cella parata sit. Tandem in deliberatione consilium capiunt: agricolae vicini, qui holera paulum laesa vendere non possunt, ea promptuario dabunt, et cella frigida ea per dies servabit.\n\nSusanna etiam cogitat de competentia adiutorum. Cibum recentem servare non est res facilis: qui eum tractant scire debent quam diu quidque servari possit et quomodo. Itaque adiutrix quaedam, quae coqua fuit, ceteros docet; competentiam eius omnes mirantur.\n\nOpus mense primo incipit, sed mox dilatio fit: machina frigoris, quae ex alia regione venit, non advenit. Vehiculum quod eam portabat ad destinationem falsam missum est, ad oppidum eiusdem nominis in alia parte terrae. Susanna aegre fert dilationem, quia familiae iam rogant quando holera recentia accipient. Valerianus tamen eam consolatur: aedificator, ut ait, dilationes ferre discit sicut agricola pluviam.\n\nPost tres hebdomades machina tandem ad veram destinationem pervenit, et aedificatores cellam una die perficiunt. Prima hebdomade familiae non solum farinam et lentes, sed etiam carotas, mala, holera viridia accipiunt. Mater quaedam Susannae dicit liberos suos numquam tot holera edisse.\n\nSusanna Valeriano gratias agit. Ille respondet largitionem non esse donum unius diei: corporatio cellam etiam postea curabit. «Aedificamus domos ut homines habitent», inquit. «Nunc aedificavimus ut homines nutriantur.»\n\nQuaestiones:\nCur Susanna dolet quod cibum siccum dare cogitur?\nQuia scit liberos non pane solo, sed etiam holeribus et fructibus nutriri.\nQuid corporatio aedificatorum proponit?\nProponit ut aedificatores in promptuario cellam frigidam exstruant.\nQuid in deliberatione constituunt?\nAgricolae vicini holera paulum laesa promptuario dabunt, et cella frigida ea servabit.\nCur competentia adiutorum necessaria est?\nQuia qui cibum recentem tractant scire debent quam diu quidque servari possit.\nUnde dilatio facta est?\nVehiculum quod machinam portabat ad destinationem falsam missum est.\nQuid Valerianus de largitione dicit?\nDicit largitionem non esse donum unius diei, quia corporatio cellam etiam postea curabit."
+    },
+    {
+      "title": "Ad confluentiam",
+      "summary": "Near Cambrai two friends walk to the place where two rivers meet, carrying bananas and a trail mix; a strap seam gives way and is sewn, a dry fennel stalk becomes a walking stick, and they rest on the sandy inner bank of a bend.",
+      "newWords": [
+        "banana",
+        "farrago",
+        "confluentia",
+        "convexus",
+        "sutura",
+        "ferula",
+        "indigeo"
+      ],
+      "text": "Edwinus et Gabriela, qui Cameraci habitant, quodam die vere ambulant ad confluentiam duorum fluminum, quae duodecim milia passuum ab oppido abest. Gabriela, quae se ad cursum longum exercet, cibum itineris diligenter eligit. In saccum aquam, bananas, farraginem ponit.\n\n«Quid est ista farrago?» rogat Edwinus. «Nuces, uvae passae, grana, paulum mellis», respondet Gabriela. Edwinus, qui linguam Latinam docet, narrat farraginem olim cibum pecudum fuisse, ex variis granis mixtum; nunc de quavis re mixta dici. «Haec farrago non pecudibus, sed nobis parata est», inquit Gabriela ridens.\n\nBananas Gabriela libenter portat, quia cortex earum tegimen naturale est: neque sacculo neque vase indigent. Praeterea banana cito vires reddit, cum corpus fatigatum est, et facile editur, etiam ambulando.\n\nIter per prata secundum flumen ducit. In ripa ferulae altae crescunt, quarum flores flavi super herbas eminent. Edwinus caulem ferulae siccum invenit et eo quasi baculo utitur. «Ferula», inquit, «tam levis est ut eam vix sentiam, sed satis firma ut me sustineat.»\n\nPost duas horas fascia sacci Gabrielae solvitur: sutura quae fasciam cum sacco iungebat soluta est. Gabriela non perturbatur. E sacco acum et filum crassum educit, quae semper secum portat, et suturam novam punctis densis facit. «Sutura nova firmior erit quam vetus», inquit, et recte dicit: fascia per totum iter tenet.\n\nPaulo ante confluentiam flumen flectitur. In parte interiore flexus ripa convexa est, et ibi aqua lente fluens harenam deposuit; in altera parte ripa alta et praeceps est, quia aqua celerior terram aufert. Edwinus explicat in omni flexu fluminis ripam convexam crescere, alteram autem paulatim recedere.\n\nMeridie ad confluentiam perveniunt. Ibi duo flumina conveniunt: alterum clarum et viride, alterum luto obscurum. Aquae diu una fluunt nec statim miscentur; linea inter eas aliquamdiu manet. Edwinus narrat confluentias semper hominibus gratas fuisse, propter aquam, pisces, vias fluminum; ad confluentiam multa oppida orta esse.\n\nIn ripa convexa, in harena calida, consident et cenant: bananas, farraginem, panem. Gabriela multum aquae bibit et dicit corpus in itinere longo aqua magis quam cibo indigere. «Non multis rebus indigemus», inquit Edwinus, «ut beati simus: aqua, cibo simplici, sole.» Domum redeunt fatigati sed laeti, Edwinus ferulam suam, Gabriela saccum cum sutura nova portans.\n\nQuaestiones:\nQuid Gabriela in saccum ponit?\nAquam, bananas, farraginem ponit.\nQuid olim erat farrago, ut Edwinus narrat?\nFarrago olim cibus pecudum erat, ex variis granis mixtus.\nCur Gabriela bananas libenter portat?\nQuia cortex earum tegimen naturale est, et banana cito vires reddit.\nQuomodo Edwinus ferula utitur?\nCaule ferulae sicco quasi baculo utitur.\nQuid Gabriela facit cum sutura rumpitur?\nAcum et filum educit et suturam novam punctis densis facit.\nUbi ripa convexa est?\nIn parte interiore flexus fluminis, ubi aqua lente fluens harenam deposuit."
+    }
+  ]
+}
