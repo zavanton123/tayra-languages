@@ -1,0 +1,194 @@
+{
+  "id": "la-mini-6800",
+  "rankUpTo": 6800,
+  "level": "C1",
+  "title": "Litterae Latinae",
+  "description": "Ten stories about books and the people who make, read and look after them: an old bookshop, a Greek summer course, a translator, a doctoral thesis on old farming books, a picture book, flood-damaged books, a sick novelist, a grandmother's cookbook, a poetry evening and a reading circle.",
+  "topic": "Latin literature",
+  "names": [
+    "Ventidianus",
+    "Fulcinianus",
+    "Patavium",
+    "Numisiana",
+    "Hosidianus",
+    "Turicum",
+    "Calpurnilla",
+    "Larcianus",
+    "Olisipo",
+    "Tagus",
+    "Vettiana",
+    "Ofellianus",
+    "Verona",
+    "Caesenniana",
+    "Coelius",
+    "Pisae",
+    "Arruntianus",
+    "Salvidiena",
+    "Venetiae",
+    "November",
+    "Sulpicilla",
+    "Statilianus",
+    "Bononia",
+    "Gelliana",
+    "Volteiana",
+    "Novellianus",
+    "Neapolis",
+    "Vibidianus",
+    "Canuleiana",
+    "Mediolanum",
+    "Aufidiana",
+    "Popilianus",
+    "Minucianus",
+    "Ravenna",
+    "Italia"
+  ],
+  "lessons": [
+    {
+      "title": "Scrinium novum",
+      "summary": "In Padua an old bookseller whose shop is overflowing has a carpenter build a large new bookcase, with a closed compartment at the top for his tiny rare books.",
+      "newWords": [
+        "bibliopola",
+        "scrinium",
+        "tignarius",
+        "chartaceus",
+        "recondo",
+        "perparvus",
+        "qualiscumque",
+        "plenitudo"
+      ],
+      "text": "Ventidianus, bibliopola septuaginta annos natus, tabernam librorum veterum Patavii habet, in via angusta prope universitatem. Taberna parva est, sed libris tam plena ut emptores vix inter mensas ambulare possint. Libri in mensis iacent, in sellis, etiam in pavimento; nam scrinium vetus, quod pater eius olim emerat, iam diu omnes capere non potest.\n\nQuodam mane Ventidianus Fulcinianum, fabrum tignarium qui in eodem vico officinam habet, in tabernam vocavit. «Scrinium novum mihi opus est», inquit, «altum et firmum, quod libros cuiusque generis capiat: magnos et graves, parvos et leves, libros chartaceos qui paucis nummis veneunt, et libros pretiosos corio vestitos.»\n\nFaber tignarius circumspexit et risit. «Libros qualescumque in eo collocare poteris», respondit, «dummodo scias ubi quisque sit. Quot libros habes?»\n\n«Nescio», fassus est bibliopola. «Fortasse decem milia. Sed numerus non refert. Plenitudo tabernae me delectat: emptor qui intrat statim sentit hic aliquid inveniri posse quod alibi frustra quaerat.»\n\nFulcinianus parietem diligenter mensus est et per duas hebdomadas in officina sua laboravit. Scrinium e ligno quercus fecit, cum duodecim pluteis, tam firmis ut etiam libros maxime graves ferre possent. In summo scrinio partem parvam fecit, ostio ligneo clausam. «Hic», inquit, «libros recondere poteris quos emptores manibus non tangere debent.»\n\nVentidianus gaudio commotus est, nam diu locum quaerebat ubi libros suos perparvos reconderet. Has res raras per quadraginta annos collegerat: libros perparvos quos typographi saeculo undevicesimo imprimebant, quorum nonnulli minores sunt quam digitus. Fulciniano unum ostendit, lexicon perparvum quod in nummo paene iacere poterat. Faber tignarius id cum magna cura in palma tenuit. «Litterae tam parvae sunt ut eas legere non possim», dixit. «Quis talem librum legit?»\n\n«Nemo fere», respondit bibliopola ridens. «Sed omnes eum spectare volunt.»\n\nPostridie ambo libros e pavimento sustulerunt et in pluteos novos collocaverunt: infra libros graves, in medio libros chartaceos, qui facile flectuntur, supra libros pretiosos. Ventidianus libros perparvos in parte clausa recondidit, ne pulvis aut sol eos laederet. Pavimentum rursus apparuit, et emptores iterum libere ambulare poterant.\n\nPlenitudo tamen, quae Ventidiano tam cara est, non diu abfuit. Post mensem Ventidianus bibliothecam totam cuiusdam professoris emerat, et libri iterum in mensis iacebant. Fulcinianus, cum tabernam intravit, caput movit. «Aliud scrinium tibi faciam», inquit. «Sed hoc tibi dico: libros qualescumque emas, scrinium meum non crescet.»\n\nQuaestiones:\nQuid scrinium novum capere debebat?\nLibros qualescumque capere debebat: graves et leves, chartaceos et pretiosos.\nQuis est Ventidianus?\nVentidianus est bibliopola septuaginta annos natus, qui tabernam librorum veterum Patavii habet.\nCur scrinium novum ei opus erat?\nScrinium vetus omnes libros capere non poterat, itaque libri in mensis et in pavimento iacebant.\nQuid Ventidianum in taberna sua delectat?\nPlenitudo tabernae eum delectat, quia emptor statim sentit ibi aliquid inveniri posse.\nQuid Fulcinianus in summo scrinio fecit?\nPartem parvam fecit, ostio ligneo clausam, ubi bibliopola libros recondere posset.\nQuales sunt libri perparvi Ventidiani?\nSaeculo undevicesimo impressi sunt, et nonnulli minores sunt quam digitus.\nQuid post mensem accidit?\nVentidianus bibliothecam cuiusdam professoris emerat, et libri iterum in mensis iacebant."
+    },
+    {
+      "title": "Aoristus sine formidine",
+      "summary": "In Zurich a retired engineer who has always feared Greek grammar joins a summer course where the teacher's speaking method takes the dread out of the aorist.",
+      "newWords": [
+        "aoristus",
+        "communicativus",
+        "simplificor",
+        "crebritas",
+        "formido",
+        "mitigo",
+        "pausa",
+        "complexio"
+      ],
+      "text": "Hosidianus, ingeniarius qui nuper ab opere cessavit, linguam Graecam antiquam semper discere voluit. In schola Latinam didicerat, sed grammaticam Graecam magna formidine timebat: amici enim ei dixerant formas verborum Graecorum infinitas esse. Aestate tamen, cum tempus tandem haberet, se in cursum aestivum Turici inscripsit.\n\nMagistra cursus, Numisiana, methodo communicativa utitur. Discipuli a primo die Graece loquuntur: salutant, de tempestate narrant, panem et caseum emunt. Regulae grammaticae non statim totae docentur, sed simplificantur, ut discipuli primo tantum ea discant quae ad loquendum necessaria sunt. «Methodus communicativa», inquit Numisiana, «linguam non ut machinam explicat, sed ut rem vivam tradit.»\n\nTertio die tamen venit res quam Hosidianus maxime timebat: aoristus. Numisiana in tabula formas aoristi scripsit, et Hosidianus, cum tantam complexionem litterarum videret, paene cursum reliquit. Hic regulae non simplificabantur: formae enim aliae ex aliis fiunt, et complexio earum primo aspectu nullum ordinem habere videtur.\n\nMagistra formidinem eius animadvertit et mitigare conata est. «Aoristus», inquit, «non est monstrum. Rem semel factam narrat, ut perfectum Latinum: vidit, dixit, venit. Latine iam aoristo uteris, etiam si nomen eius ignoras.» Haec verba formidinem eius aliquantum mitigaverunt.\n\nDeinde Numisiana rem ostendit quam ingeniarius statim intellexit. Brevem narrationem Graecam discipulis dedit et rogavit ut crebritatem singularum formarum numerarent. Hosidianus, more ingeniarii, tabulam fecit. Crebritas formarum valde dispar erat: paucae formae saepissime redibant, plurimae vix semel apparebant. «Si has decem formas didiceris», dixit magistra, «maiorem partem omnium narrationum intelleges. Ceterae postea venient.»\n\nInter lectiones pausa erat dimidiae horae. In pausa discipuli caffeum bibebant et, ut Numisiana iusserat, etiam tum Graece loquebantur, de rebus minimis: de potione calida, de sole, de tramine quod sero venerat. Hosidianus mox animadvertit se in pausa plus discere quam in ipsa lectione, quia nemo eum corrigebat et formidinem errorum non sentiebat.\n\nUltimo die cursus quisque discipulus brevem narrationem de vita sua Graece dicere debebat. Hosidianus narravit quomodo pontem in montibus aedificaverit, et aoristis plurimis usus est, nonnullis falsis, plerisque rectis. Collegae eum laudaverunt. Numisiana ei librum Graecum donavit, cum his verbis: «Formidinem tuam mitigavisti; complexio manet, sed iam eam non times.»\n\nQuaestiones:\nCur Hosidianus grammaticam Graecam timebat?\nAmici ei dixerant formas verborum Graecorum infinitas esse.\nQua methodo Numisiana utitur?\nMethodo communicativa utitur: discipuli a primo die Graece loquuntur et regulae grammaticae simplificantur.\nQuomodo magistra formidinem eius mitigavit?\nDixit aoristum rem semel factam narrare, ut perfectum Latinum.\nQuid crebritas formarum ostendit?\nPaucae formae saepissime redibant, plurimae vix semel apparebant.\nCur Hosidianus in pausa plus discebat?\nQuia nemo eum corrigebat et formidinem errorum non sentiebat."
+    },
+    {
+      "title": "Turris et memoria",
+      "summary": "In Lisbon a translator works on an Italian version of an old writer's long novel, keeps his allegories and digressions against the publisher's wish, and keeps her promise to finish by December.",
+      "newWords": [
+        "traductio",
+        "allegoria",
+        "deverticulum",
+        "zelus",
+        "contemplo",
+        "repentinus",
+        "exsolvo",
+        "inceptio"
+      ],
+      "text": "Calpurnilla Olisipone habitat et libros ex lingua Lusitana in Italicam vertit. Hoc anno traductionem magni operis suscepit: fabulam longam Larciani, scriptoris octoginta annorum, quae de familia piscatorum ad ripam Tagi narrat. Editori Italico promiserat: «Traductionem ante finem anni perficiam.»\n\nInceptio laboris valde difficilis fuit. Prima pagina fabulae turrim describit, quae nocte navibus lumen dat, et Calpurnilla mox intellexit hanc turrim non solum turrim esse. Est allegoria memoriae: sicut turris navibus in tenebris viam monstrat, ita memoria familiam per annos difficiles ducit. Si allegoriam male verteret, totus liber lectoribus Italicis obscurus maneret. Itaque per tres hebdomadas in inceptione haerebat, et paucas tantum paginas vertit.\n\nFabula praeterea plena est deverticulorum. Saepe Larcianus narrationem relinquit ut aliud describat: historiam traminum urbis, modum quo avia placentas coquebat, colores fluminis vespere. Editor Calpurnillae scripsit: «Haec deverticula lectores nostros taedio afficient. Nonne ea in traductione omittere potes?»\n\nCalpurnilla tamen magno zelo deverticula defendebat. «Deverticula non sunt errores», editori respondit, «sed ipsa vita libri. In eis Larcianus urbem suam ostendit. Si ea omittam, traductio brevior erit, sed non eadem fabula.» Zelus eius editori tandem persuasit, et Calpurnilla eodem zelo opus continuavit.\n\nSaepe, cum verbum aptum non inveniret, Calpurnilla ad ripam Tagi descendebat et flumen diu contemplabatur. Quadam die, dum aquam quae sole lucet contemplatur, imber repentinus venit. In tabernam proximam confugit, et ibi, dum pluviam per fenestram spectat, cogitatio repentina ei venit: verbum quod per totam hebdomadem frustra quaesiverat. In charta mensae statim scripsit.\n\nMense Novembri Larcianum ipsum visitavit, ut de allegoriis eum interrogaret. Senex libenter respondit. «Turris est memoria, ut recte intellexisti», inquit. «Sed etiam turris est. Lector qui allegoriam non videt, fabulam tamen intellegere debet.» Calpurnilla haec verba in traductione sua secuta est: turrim ita vertit ut et res et allegoria simul apparerent.\n\nAnte finem anni promissum suum exsolvit et traductionem editori misit. Editor mercedem statim exsolvit, et in epistola addidit deverticula sibi tandem placuisse. Calpurnilla primum exemplar libri Larciano misit. Ille, quamquam Italice non legit, librum diu manibus tenuit et contemplatus est.\n\nQuaestiones:\nQuam traductionem Calpurnilla suscepit?\nFabulam longam Larciani, quae de familia piscatorum ad ripam Tagi narrat, in linguam Italicam vertit.\nCur inceptio laboris tam difficilis fuit?\nTurris primae paginae est allegoria memoriae, et si eam male verteret, totus liber obscurus maneret.\nQuid editor de deverticulis putabat?\nPutabat deverticula lectores taedio afficere et ea omitti posse.\nQuid accidit cum imber repentinus venit?\nCalpurnilla in tabernam confugit, et ibi cogitatio repentina ei verbum aptum dedit.\nQuomodo Calpurnilla promissum suum exsolvit?\nAnte finem anni traductionem editori misit."
+    },
+    {
+      "title": "Liber veterum agricolarum",
+      "summary": "Near Verona a doctoral student who studies old farming manuals tests one of their pieces of advice with a vineyard owner whose hillside soil suffers from drought.",
+      "newWords": [
+        "doctoralis",
+        "sativus",
+        "vinetum",
+        "declive",
+        "siccitas",
+        "sterilis",
+        "accresco",
+        "frequentatio"
+      ],
+      "text": "Vettiana dissertationem doctoralem in universitate Veronae scribit. Argumentum eius non est poema aut oratio, sed libri veterum de agricultura scriptorum: quomodo agros colebant, quas herbas serebant, quomodo terram contra siccitatem servabant. Per duos annos bibliothecam urbis tam crebro frequentavit ut bibliothecarii eam iam nomine salutarent. Haec frequentatio, quae multis taedio fuisset, non frustra fuit: in libris antiquis multa invenit quae hodie quoque utilia videntur.\n\nIn colle supra urbem Ofellianus vinetum habet, quod avus eius in declivi posuerat. Declive tam arduum est ut ordines uvarum quasi gradus scalarum ascendant. Superioribus aestatibus siccitas gravis fuit: pluvia per menses defuit, et terra in declivi tam arida facta est ut paene sterilis videretur. Imbres rari, cum tandem venirent, terram siccam non intrabant, sed per declive deorsum fluebant et humum secum auferebant.\n\nVettiana de hac re in diurno legerat et Ofellianum visitavit. «In libris veterum», inquit, «saepe legitur inter ordines vineti herbas sativas seri debere, ne terra nuda soli pateat. Radices herbarum humum tenent, et folia terram ab aestu tegunt. Hoc in dissertatione mea doctorali examinare velim, si mihi partem vineti tui concedas.»\n\nOfellianus primo dubitabat; avus enim eius inter ordines omnem herbam tollere solebat. Tamen ei partem vineti concessit. Autumno Vettiana inter ordines semina herbarum sativarum sparsit, quas veteres commendant. Partem alteram vineti, ut comparare posset, nudam reliquit.\n\nPer totum annum frequentatio eius in colle non minor fuit quam antea in bibliotheca. Singulis mensibus humum metiebatur et quantum aquae terra teneret notabat. Herbae lente accreverunt, et radices earum terram inter ordines densis filis texuerunt.\n\nAestate proxima siccitas rursus venit. In parte nuda terra iterum aruit et rimas egit; in parte herbis tecta terra aquam servavit. Cum imber subitus venisset, aqua in parte nuda per declive defluxit, in altera autem terram intravit. Etiam humus ipsa accrevit, quia folia vetera herbarum in terram cadebant et eam alebant. Terra quae sterilis videbatur rursus vivere coepit.\n\nOfellianus, cum rem oculis suis vidisset, toto vineto herbas sativas seri iussit. Vettiana dissertationi doctorali caput novum addidit, cui hunc titulum dedit: «Quid veteres nos de siccitate docere possint».\n\nQuaestiones:\nQuod argumentum dissertatio doctoralis Vettianae habet?\nLibros veterum de agricultura scriptorum examinat.\nCur terra in vineto Ofelliani paene sterilis videbatur?\nSiccitas gravis fuit, et imbres per declive deorsum fluebant et humum auferebant.\nQuid veteres de herbis sativis commendant?\nCommendant herbas sativas inter ordines vineti seri, ne terra nuda soli pateat.\nQuid Vettiana per totum annum faciebat?\nSingulis mensibus humum metiebatur et quantum aquae terra teneret notabat.\nCur bibliothecarii Vettianam nomine salutabant?\nQuia per duos annos bibliothecam tam crebro frequentabat; haec frequentatio eam omnibus notam fecit.\nQuid aestate proxima in parte herbis tecta accidit?\nTerra aquam servavit, imber eam intravit, et humus ipsa accrevit."
+    },
+    {
+      "title": "Liber de animalibus horti",
+      "summary": "In Pisa a grandmother who illustrates books makes a picture book of the small animals in her garden for her five-year-old grandson.",
+      "newWords": [
+        "scarabaeus",
+        "amphibius",
+        "bisulcus",
+        "auricula",
+        "ploro",
+        "spira",
+        "prominentia",
+        "parasiticus"
+      ],
+      "text": "Caesenniana Pisis habitat et libros pictos pro pueris facit. Hoc anno librum novum parat pro Coelio, nepote quinque annorum, qui omnes aestates apud eam agit. Argumentum libri ipse Coelius elegit: animalia parva horti aviae.\n\nPrimum animal est scarabaeus, qui inter rosas vivit. Dorsum eius viride est et ut metallum lucet. Quodam mane Coelius scarabaeum in via horti invenit, qui in dorso iacebat et pedes frustra movebat. Puer plorare coepit, quia scarabaeum in periculo esse putabat. Caesenniana eum confirmavit: «Noli plorare. Scarabaeus solum surgere non potest; adiuva eum.» Folium ei porrexerunt, scarabaeus pedibus folium cepit, surrexit et volans abiit. Coelius statim plorare desiit. Caesenniana in libro scarabaeum pinxit et puerum qui folium tenet.\n\nSecundum animal est rana, quae in parvo stagno horti habitat. Caesenniana Coelio explicavit ranam animal amphibium esse: et in aqua et in terra vivere potest. Puer verbum novum amavit et totum diem omnia animalia amphibia vocabat: anatem, canem qui in stagnum saluerat, etiam se ipsum post balneum. In pictura oculi ranae magni sunt; prominentiam eorum Caesenniana diligenter pinxit, quia Coelius dixerat oculos ranae quasi duas bullas e capite eminere.\n\nTertium animal est cochlea, quae domum suam secum portat. Testa eius spiram facit, quae a margine ad medium in se ipsam volvitur. Coelius digito spiram sequi conatus est, et Caesenniana spiras multas in margine paginae pinxit, ut puer eas digito legere posset. Cornua quoque cochleae pinxit, duas prominentias molles quae e capite eminent.\n\nIn pagina proxima est cuculus. Caesenniana narravit cuculum avem parasiticam esse: ova sua in nidis aliarum avium ponit, quae pullum alienum nutriunt. Coelius rem iniustam putavit, sed avia explicavit avem parasiticam nihil mali cogitare; ita natura eam fecit.\n\nUltimum animal non in horto, sed apud vicinum habitat: capella alba. Coelius pedes eius spectavit et miratus est. «Pedes eius divisi sunt!» clamavit. Caesenniana ei verbum docuit: capella animal bisulcum est, ut vacca et ovis, quae quoque bisulcae sunt; ungula eius in duas partes dividitur. In pictura etiam auriculas capellae pinxit, longas et molles, et Coelius auriculas suas tetigit ut eas cum auriculis capellae compararet.\n\nCum liber perfectus esset et Coelius ultimam paginam vertisset, iterum plorare coepit, quia liber finitus erat. Caesenniana ridens promisit se proxima aestate volumen alterum facere.\n\nQuaestiones:\nPro quo Caesenniana librum novum parat?\nPro Coelio, nepote quinque annorum.\nCur Coelius primo ploravit?\nScarabaeum, qui in dorso iacebat, in periculo esse putabat.\nQuid significat ranam animal amphibium esse?\nRana et in aqua et in terra vivere potest.\nQuid facit spira in testa cochleae?\nSpira a margine ad medium in se ipsam volvitur.\nQuas prominentias Caesenniana in cochlea pinxit?\nCornua cochleae pinxit, duas prominentias molles quae e capite eminent.\nCur cuculus avis parasitica vocatur?\nOva sua in nidis aliarum avium ponit, quae pullum alienum nutriunt.\nQuid significat capellam animal bisulcum esse?\nUngula eius in duas partes dividitur, ut ungula vaccae et ovis."
+    },
+    {
+      "title": "Libri post aquam altam",
+      "summary": "In Venice an old book restorer and his apprentice spend the winter repairing the books of a small library that were soaked in a November flood.",
+      "newWords": [
+        "reparatio",
+        "alluvio",
+        "permisceo",
+        "contero",
+        "manubrium",
+        "rigor",
+        "atramentum",
+        "excavo"
+      ],
+      "text": "Mense Novembri aqua alta Venetias rursus inundavit. Haec alluvio maior fuit quam solet, et in bibliotheca parva cuiusdam vici aqua per ianuam intravit et infimos pluteos implevit. Ducenti libri umidi facti sunt. Bibliothecarius eos Arruntiano, artifici qui libros veteres reficit, statim portavit.\n\nArruntianus officinam in vico tranquillo habet, et hoc anno discipulam habet, Salvidienam, puellam viginti annorum. «Reparatio librorum post alluvionem», inquit ei, «non uno die fit. Patientia magis quam celeritate opus est. Si reparationem festinamus, libros iterum perdimus.»\n\nPrimum libros siccare debebant. Paginas singulas chartis siccis separaverunt, ne inter se cohaererent, et libros in cubiculo frigido posuerunt, ubi aer lente movebatur. Post tres hebdomades paginae siccae erant, sed rigor earum Salvidienam terruit: paginae quae antea molles fuerant nunc durae erant, quasi folia arida. Arruntianus eam confirmavit. «Rigor non perpetuus est», inquit. «Paginas sub ponderibus premamus, et paulatim rigorem amittent et rursus molles fient.»\n\nTum ad dorsa librorum venerunt. Glutinum vetus aqua solutum erat, et multi libri in partes ceciderant. Arruntianus Salvidienam docuit quomodo glutinum novum faceret: farinam cum aqua permiscere et lente coquere, dum crassum fiat. «Diu permisce», inquit, «nam si male permiscueris, glutinum non bene haerebit.» Salvidiena aliquot horas permiscebat, donec glutinum molle et purum esset.\n\nIn uno libro, qui saeculo duodevicesimo scriptus erat, atramentum aqua partim deletum erat. Arruntianus noluit verba antiqua ipse rescribere, sed solum partes marginum quae deerant complere. Itaque atramentum simile fecit: carbonem in vase lapideo contrivit et pulverem cum aqua et gummi permiscuit. Salvidiena carbonem diu conterere debuit, donec pulvis tenuissimus fieret. Novum atramentum colore paene idem erat ac vetus.\n\nTegumenta lignea quorundam librorum veterum iam ante alluvionem infirma erant: vermes ea per annos excavaverant, et parvi cuniculi per lignum ibant. Arruntianus loca quae vermes excavaverant cera et pulvere ligni complevit, ut tegumenta rursus firma essent.\n\nInstrumentum quo maxime utebantur erat lamina ex osse facta, qua paginae complicantur. Manubrium eius, ab avo Arruntiani factum, tot annorum usu nigrum et molle factum erat. Cum Salvidiena primum librum totum ipsa refecisset, Arruntianus ei instrumentum simile dedit, cuius manubrium adhuc album erat. «Post multos annos», inquit, «manubrium tuum quoque nigrum erit.»\n\nReparatio per totam hiemem duravit. Vere libri in bibliothecam redierunt, iam non in infimis pluteis, sed altius positi.\n\nQuaestiones:\nQuid alluvio mense Novembri in bibliotheca fecit?\nAqua per ianuam intravit et infimos pluteos implevit, ita ut ducenti libri umidi fierent.\nQuid Salvidienam terruit cum paginae siccae essent?\nRigor paginarum eam terruit, quae durae factae erant.\nQuomodo glutinum novum fit?\nFarina cum aqua permiscetur et lente coquitur, dum crassum fiat.\nQuomodo Arruntianus atramentum simile fecit?\nCarbonem in vase lapideo contrivit et pulverem cum aqua et gummi permiscuit.\nQuid vermes tegumentis ligneis fecerant?\nEa excavaverant, ita ut parvi cuniculi per lignum irent.\nQuamdiu reparatio duravit?\nReparatio per totam hiemem duravit, et vere libri in bibliothecam redierunt."
+    },
+    {
+      "title": "Praescriptio medici",
+      "summary": "In Bologna a novelist with a deadline catches a stomach bug; the doctor prescribes a week of rest with a strict timetable, she pleads to keep writing, and the forced rest gives her the ending of her book.",
+      "newWords": [
+        "aegrotatio",
+        "stomachus",
+        "intestinalis",
+        "abdominalis",
+        "praescriptio",
+        "sudor",
+        "horarium",
+        "deprecor"
+      ],
+      "text": "Sulpicilla, quae fabulas de vita urbana scribit, Bononiae habitat. Editor eius librum novum ante finem mensis exspectabat, et Sulpicilla, cum ultima capita nondum scripsisset, cotidie ad multam noctem laborabat. Quodam vespere stomachus eam dolere coepit. Primo dolorem neglexit, sed nocte febris accessit, et mane frons eius sudore umida erat.\n\nMedicus Statilianus domum eius venit. Ventrem eius diligenter tetigit et quaestiones posuit: quid edisset, quando dolor coepisset, an alii in domo aegrotarent. «Dolor abdominalis», inquit tandem, «a morbo intestinali venit, qui his diebus multos in urbe afficit. Morbus intestinalis non gravis est, sed corpus fatigatum diutius vexat. Sudor febrem ostendit; corpus tuum quiete eget.»\n\nDeinde praescriptionem scripsit. Praescriptio non solum medicinas continebat, sed etiam horarium totius hebdomadis: hora septima et hora undevicesima medicinam sumere debebat; aquam saepe bibere; cibum levem edere, oryzam et panem siccum; diu dormire. Ultima linea praescriptionis haec erat: «Nullus labor per septem dies.»\n\nSulpicilla, cum hoc legisset, deprecari coepit. «Medice, hoc deprecor», inquit. «Editor librum exspectat. Saltem horam in die scribere sinas!» Statilianus caput movit. «Stomachus tuus non legit quae editor tuus scribit», respondit. «Si nunc quiescis, post hebdomadem sana eris. Si laboras, aegrotatio per mensem durabit. Legere tamen licet, si libri leves sunt.»\n\nItaque Sulpicilla horarium medici fideliter secuta est. Medicinas horis praescriptis sumebat, oryzam edebat, multum dormiebat. Inter somnum et cibum libros legebat quos puella amaverat, quos diu non aperuerat. Dolor abdominalis paulatim cessit; sudor nocturnus quarto die desiit, et stomachus cibum iterum libenter recepit.\n\nAegrotatio tamen aliquid novum ei dedit. Dum in lecto iacet et libros veteres legit, de fine libri sui lente et tranquille cogitabat. Sexto die finem invenit quem per totum mensem frustra quaesiverat. Eum tamen non scripsit, quia medicus laborem vetuerat, sed memoriae mandavit.\n\nOctavo die, sana iam, ultima capita tribus diebus scripsit. Editor librum paucis diebus post tempus constitutum accepit, nec questus est. In praefatione Sulpicilla lectorum veniam deprecatur pro erroribus qui in libro remanserint, et Statiliano medico gratias agit, cuius praescriptio, ut scribit, librum perfecit.\n\nQuaestiones:\nCur Sulpicilla ad multam noctem laborabat?\nEditor librum novum ante finem mensis exspectabat, et ultima capita nondum scripta erant.\nUnde dolor abdominalis venit?\nA morbo intestinali venit, qui multos in urbe afficiebat.\nQuid praescriptio medici continebat?\nMedicinas et horarium totius hebdomadis continebat, et laborem per septem dies vetabat.\nQuid Sulpicilla a medico deprecabatur?\nDeprecabatur ne sibi omnino scribere vetaretur, et saltem horam in die scribere voluit.\nQuid aegrotatio ei dedit?\nDum in lecto iacebat, finem libri sui lente et tranquille invenit."
+    },
+    {
+      "title": "Liber coquinarius aviae",
+      "summary": "In Naples a young woman finds her grandmother's handwritten cookbook and bakes its cherry cake, a recipe in equal weights, for her grandparents' fiftieth wedding anniversary.",
+      "newWords": [
+        "furnus",
+        "lanx",
+        "cerasus",
+        "repleo",
+        "coniugalis",
+        "forfex",
+        "praeparatio",
+        "paritas"
+      ],
+      "text": "Gelliana, cum in domo parentum Neapoli arcam veterem purgaret, librum parvum invenit, cuius tegumentum vetus et sordidum erat. Erat liber coquinarius aviae suae Volteianae, quem illa iuvenis manu sua scripserat. Paginae plenae erant cibis quos Gelliana puella gustaverat: panis domesticus, iura, placentae multae.\n\nMense proximo avi Gellianae, Volteiana et Novellianus, quinquagesimum annum vitae coniugalis celebrare volebant. Gelliana statim cogitavit placentam ex libro aviae coquere, sine eius scientia. Paginam elegit cui avia titulum dederat «Placenta cerasorum pro diebus festis».\n\nPraescriptum breve erat, sicut omnia quae avia scribebat. Primo legebatur: «Ova, farina, saccharum, butyrum: paritate ponderis.» Gelliana diu cogitavit quid haec verba significarent, donec intellexit: quattuor res eodem pondere sumi debebant. Haec paritas ponderum praescriptum facile facit: qui pondus ovorum novit, iam scit quantum farinae, sacchari, butyri sumere debeat. Gelliana pondus quattuor ovorum mensa est; ducenta et quadraginta grammata erant. Ita paritate servata etiam cetera eodem pondere sumpsit.\n\nPraeparatio placentae non longa erat, sed diligentiam postulabat. Butyrum cum saccharo diu verberari debebat, dum candidum fieret; deinde ova singula addi debebant, postremo farina. In margine avia de praeparatione addiderat: «Ne festines; praeparatio bona dimidium operis est.» Cerasos, quos mane in foro emerat, lavit et nucleos eorum exemit. Forfice chartam secuit, ut fundum formae contegeret, et forfice etiam margines chartae aequavit; avia enim in margine scripserat: «Sine charta placenta formae adhaeret.»\n\nTum formam massa replevit et cerasos supra disposuit. Forma tam plena erat ut massa paene marginem excederet, sed avia in margine addiderat: «Ne timeas; cerasi descendunt.» Furnus parentum, ut omnes furni veteres, calorem non aequaliter dabat; itaque Gelliana per vitrum furni saepe aspiciebat et formam semel vertit. Post quinquaginta minutas placenta aurea erat, et cerasi, ut avia promiserat, in massam descenderant.\n\nDie festo Gelliana placentam in magna lance argentea posuit, quam mater ei commodaverat, et cerasis recentibus lancem circum placentam replevit. Cum lancem in mensam posuisset, Volteiana placentam inspexit et risit. «Hanc placentam novi», inquit. «Primum eam coxi anno quo Novelliano nupsi.» Novellianus autem dixit nullum festum coniugale sine hac placenta perfectum esse.\n\nPost cenam Volteiana librum coquinarium a nepte accepit, aliquot paginas legit, et deinde eum Gellianae reddidit. «Tibi eum do», inquit. «Iam scis quid paritas ponderis significet.»\n\nQuaestiones:\nQuid Gelliana in arca vetere invenit?\nLibrum coquinarium aviae suae Volteianae invenit, quem illa manu sua scripserat.\nQuid avi eius celebrare volebant?\nQuinquagesimum annum vitae coniugalis celebrare volebant.\nQuid significat paritas ponderis?\nOva, farina, saccharum et butyrum eodem pondere sumi debent.\nCur Gelliana forfice chartam secuit?\nChartam secuit ut fundum formae contegeret, ne placenta formae adhaereret.\nQuomodo Gelliana lancem ornavit?\nCerasis recentibus lancem circum placentam replevit."
+    },
+    {
+      "title": "Versus et praeludia",
+      "summary": "In Milan a versatile piano student from the conservatory plays short preludes between a poet's readings at a library evening, and she teaches him how breathing shapes a line of verse.",
+      "newWords": [
+        "conservatorium",
+        "praeludium",
+        "spiro",
+        "intensitas",
+        "versatilis",
+        "vestiarius",
+        "minax"
+      ],
+      "text": "Vibidianus in conservatorio Mediolani clavile discit. Inter discipulos conservatorii notus est quod musicam cuiusque generis libenter canit: mane opera veterum magistrorum exercet, vespere in taberna parva modos novos et liberos. Magistri eum musicum versatilem vocant, et ipse hoc nomine gaudet.\n\nQuodam die Canuleiana, poeta quae libellum novum versuum ediderat, conservatorium adiit. In bibliotheca urbis vesperum lectionis parabat et musicum quaerebat qui inter carmina sua praeludia breviora caneret. Magister Vibidianum commendavit: «Discipulus noster versatilis est; praeludia ex tempore facere scit.»\n\nPrimo conventu Canuleiana carmina sua recitavit, et Vibidianus diligenter audivit. Deinde Canuleiana ei aliquid dixit quod ipse numquam animadverterat. «Versus spirant», inquit. «Qui recitat, ibi spirat ubi sensus quiescit, non ubi linea finitur. Si praeludia tua ita facis ut cum spiritu carminis spirent, auditores musicam et verba quasi unam rem audient.» Vibidianus libellum domum tulit et versus legebat, dum digitis in mensa spiritum eorum sequitur.\n\nPraeludia quae composuit brevia erant, nullum longius una minuta. Unumquodque intensitatem carminis quod sequebatur praeparabat: ante carmen triste de urbe vacua modi molles et rari; ante carmen laetum de foro matutino intensitas maior et modi celeres. «Intensitas praeludii», dixit Canuleiana, «auditores ad carmen ducere debet, non ab eo abducere.»\n\nDie lectionis caelum mane serenum fuit, sed post meridiem nubes minaces super urbem convenerunt. Vespere, cum auditores venire inciperent, imber vehemens cadebat. Vestiarium bibliothecae mox plenum erat palliis et vestibus umidis; custos vestiarius, homo senex, tot vestes numquam viderat et etiam sellas vestiarii usurpare debuit.\n\nCanuleiana ante lectionem timebat ne pauci propter caelum minax venirent. Sed bibliotheca plena erat. Vibidianus primum praeludium cecinit, dum auditores consident, et mox silentium factum est. Inter carmina tonitrus quoque audiebatur, et Vibidianus, ut erat versatilis, sonum tonitrus in praeludium proximum recepit: modos graves et minaces, qui deinde paulatim molles facti sunt.\n\nPost lectionem multi auditores libellum Canuleianae emerunt, et nonnulli Vibidianum rogaverunt ubi praeludia eius audiri possent. In vestiario, dum vestes recipiunt, adhuc de vespere loquebantur. Canuleiana conservatorio epistolam scripsit qua gratias egit, et proximo anno Vibidianum iterum invitavit.\n\nQuaestiones:\nCur magistri Vibidianum musicum versatilem vocant?\nQuia musicam cuiusque generis libenter canit, et veterum magistrorum opera et modos novos.\nQuid Canuleiana in conservatorio quaerebat?\nMusicum quaerebat qui inter carmina sua praeludia caneret.\nUbi spirat qui versus recitat?\nIbi spirat ubi sensus quiescit, non ubi linea finitur.\nQuomodo intensitas praeludiorum mutabatur?\nAnte carmen triste modi molles et rari erant, ante carmen laetum intensitas maior.\nCur vestiarium bibliothecae plenum erat?\nPropter nubes minaces imber vehemens cadebat, et auditores pallia et vestes umidas attulerant."
+    },
+    {
+      "title": "Circulus itinerum",
+      "summary": "In Ravenna a seniors' reading circle spends a year on travel books, from a lone round-the-world voyage to a journey into a volcano and a rocket to the moon, and becomes part of the town library with new young members.",
+      "newWords": [
+        "rocheta",
+        "circumnavigo",
+        "ignivomus",
+        "computatorius",
+        "integratio",
+        "incorporatio"
+      ],
+      "text": "Aufidiana, quae olim magistra fuit, Ravennae circulum lectorum regit. Circulus duodecim fere sodales habet, plerosque senes, qui semel in mense in conclavi parvo conveniunt et de libro quem omnes legerunt disputant. Hoc anno Aufidiana argumentum proposuit quod omnibus placuit: itinera.\n\nPrimus liber erat narratio viri qui solus navi parva orbem terrarum circumnavigaverat. Per decem menses mare non reliquerat, tempestates et tranquillitates longas pertulerat. Popilianus, sodalis octoginta annorum, librum diligentissime legerat; ipse enim iuvenis nauta fuerat et in nave mercatoria orbem bis circumnavigaverat. «Sed numquam solus», inquit. «Circumnavigare cum triginta sociis est iter; circumnavigare solus est aliquid aliud.»\n\nSecundus liber erat fabula vetus de itinere quorundam virorum in montem ignivomum, qui per cavernas eius ad media terrae penetrant. Sodales disputabant utrum talia fieri possent. Aufidiana tabulas montium ignivomorum attulit, et omnes viderunt quam multi montes ignivomi in Italia ipsa sint.\n\nTertius liber de rocheta erat quae homines ad lunam portat. Liber ante centum fere annos scriptus erat, cum nulla rocheta adhuc volavisset. Sodales mirabantur quam multa scriptor recte praedixisset, et quam multa errasset: rocheta eius ex uno tubo ingenti emittebatur, non sua vi ascendebat.\n\nEodem anno circulus mutationem maiorem subiit. Conclave ubi conveniebant clausum est, et bibliotheca urbis circulum invitavit ut in ipsa bibliotheca conveniret. Haec incorporatio multa commoda attulit: libri non iam emendi erant, sed a bibliotheca commodabantur. Ad incorporationem tamen pertinebat etiam programma computatorium bibliothecae, quo sodales libros sibi servare debebant. Pauci sodales programma computatorium umquam adhibuerant, et primo mense multi querebantur.\n\nTum Minucianus, discipulus septendecim annorum qui in bibliotheca libros digerere solebat, se obtulit ut senes doceret. Singulis conventibus post disputationem dimidiam horam cum eis ad machinas sedebat. Mox ipse libros circuli legere coepit et in disputationibus loqui; deinde duas amicas e schola secum adduxit. Aufidiana hanc integrationem iuvenum maximi aestimabat: senes iuvenibus de itineribus suis narrabant, iuvenes senes machinas docebant.\n\nIntegratio non semper facilis erat, quia iuvenes celerius loquebantur et senes lentius legebant. Sed in fine anni circulus sedecim sodales habebat. Popilianus ultimum conventum ita clausit: «Hoc anno multa itinera legimus. Iter tamen maximum fuit a conclavi nostro ad bibliothecam.»\n\nQuaestiones:\nQuid Aufidiana hoc anno proposuit?\nProposuit ut sodales libros de itineribus legerent.\nQuid Popilianus iuvenis fecerat?\nIn nave mercatoria orbem terrarum bis circumnavigaverat, sed numquam solus.\nDe quo secundus liber narrat?\nNarrat de itinere quorundam virorum in montem ignivomum.\nQuid scriptor tertii libri erravit?\nRocheta eius ex uno tubo ingenti emittebatur, non sua vi ascendebat.\nQuid incorporatio circuli in bibliothecam attulit?\nLibri a bibliotheca commodabantur, sed sodales programmate computatorio uti debebant.\nQuomodo Minucianus integrationem iuvenum adiuvit?\nSenes machinas docebat et deinde duas amicas e schola in circulum adduxit."
+    }
+  ]
+}
