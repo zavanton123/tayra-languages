@@ -1,0 +1,181 @@
+{
+  "id": "la-mini-9100",
+  "rankUpTo": 9100,
+  "level": "C2",
+  "title": "Chemia et materiae",
+  "description": "Nine standalone stories and one letter about chemistry and materials in everyday life: cheese curd, chimney soot, wool and flax, samarium magnets, lavender oil, a lagoon's eels, hotel bedbugs, spider silk, a school lab report and a cushion foam.",
+  "topic": "Chemistry and materials",
+  "names": [
+    "Durmia",
+    "Vibennius",
+    "Mutina",
+    "Bononia",
+    "Betuleia",
+    "Petreius",
+    "Faventia",
+    "Livineia",
+    "Granilla",
+    "Perusia",
+    "Naevilla",
+    "Coelianus",
+    "Ticinum",
+    "Fabullia",
+    "Blattius",
+    "Genava",
+    "Iulius",
+    "Orfitiana",
+    "Iturius",
+    "Aquileia",
+    "Mettiana",
+    "Aufidienus",
+    "Hafnia",
+    "Arrecina",
+    "Pacciana",
+    "Tolosa",
+    "Tadiena",
+    "Ulpiana",
+    "Livienus",
+    "Nervilla",
+    "Ariminum",
+    "Europa"
+  ],
+  "lessons": [
+    {
+      "title": "Lac quod coagulatur",
+      "summary": "Near Modena an old cheesemaker shows her grandson, a chemistry student, how fodder, copper pans and patience turn milk into curd that settles at the bottom of the vat.",
+      "newWords": [
+        "pabulum",
+        "nonnisi",
+        "utensilia",
+        "coagulo",
+        "properanter",
+        "sido",
+        "perraro"
+      ],
+      "text": "Durmia, quae prope Mutinam in villa parva habitat, iam quadraginta annos caseum facit. Nepos eius Vibennius, qui Bononiae chemiae studet, aestate ad eam venit, ut artem aviae non solum manibus sed etiam ratione cognoscat.\n\nPrima luce in stabulum descendunt, ubi vaccae pabulum suum lente mandunt. «Ex pabulo incipit caseus», inquit Durmia. «Vaccae meae nonnisi herbam siccam et herbam recentem edunt. Si aliud pabulum acciperent, lac aliter saperet, et caseus, cum senesceret, vitia sua ostenderet.» Vibennius explicat in pabulo umido bacteria quaedam vivere, quae in lac transeant et caseum maturescentem inflent; itaque intellegit cur avia nonnisi pabulum siccum et purum probet.\n\nDeinde in officinam transeunt, ubi utensilia vetera nitent: vas magnum ex aere, cochlearia lignea, lintea, formae rotundae. «Haec utensilia avus tuus emit», inquit Durmia. «Utensilia ex aere calorem aequaliter per totum lac diffundunt, nec ulla pars lactis citius quam ceterae calescit.»\n\nCum lac tepidum factum est, Durmia paulum coaguli addit. Vibennius explicat in coagulo esse enzymum, quod moleculas quasdam lactis, quae antea libere in eo natabant, inter se coniungi cogat; ita totum lac quasi in gelu molle coagulatur. Post semihoram lac coagulatum est: Durmia digitum in massam albam inserit, et massa munde, sicut gelu, finditur. «Nunc bene coagulatum est», inquit.\n\nTum avia instrumento quodam, quod ipsa citharam vocat, massam in grana minima dividit et ignem auget. «Hic nemo properanter agere debet», inquit. «Qui properanter calefacit, grana dura reddit; qui properanter movet, grana frangit.» Vibennius horologium inspicit et notat aviam per mediam horam lente, sed sine intermissione, grana movere.\n\nUbi Durmia motum sistit, grana, quae iam graviora facta sunt, in fundum vasis sidunt et ibi in unam massam coalescunt. Liquor flavus, qui supra manet, sole lucet. «Vide quam tranquille sidant», inquit Durmia. «Si grana non sidunt, aliquid erravi; quod tamen perraro accidit.» Vibennius rogat quotiens caseus ei non successerit. «Perraro», respondet avia. «Fortasse bis in decem annis, et utroque tempore propter pabulum malum.»\n\nPostremo massam linteo extrahunt et in formam ponunt. Vibennius in libello suo omnia scribit quae vidit: pabulum, calorem, tempus, motum. «Chemia tua omnia nominat», inquit Durmia ridens, «sed manus mea iam sciebat.»\n\nQuaestiones:\nCur Vibennius ad aviam suam venit?\nVenit ut artem caseum faciendi non solum manibus sed etiam ratione cognoscat.\nQuid vaccae Durmiae edunt?\nNonnisi herbam siccam et herbam recentem edunt.\nCur Durmia utensilia ex aere amat?\nQuia utensilia ex aere calorem aequaliter per totum lac diffundunt.\nQuid enzymum in coagulo facit?\nMoleculas quasdam lactis inter se coniungi cogit, ita ut totum lac coaguletur.\nCur nemo properanter agere debet?\nQuia qui properanter calefacit grana dura reddit, et qui properanter movet grana frangit.\nQuotiens caseus Durmiae non successit?\nPerraro: fortasse bis in decem annis."
+    },
+    {
+      "title": "Fuligo in caminata",
+      "summary": "In Faenza a chimney sweep who once studied chemistry finds why a teacher's fireplace room fills with smoke: soot, damp wood under a vaulted cellar roof, and a chimney that ends below the ridge.",
+      "newWords": [
+        "caminata",
+        "iampridem",
+        "fuligo",
+        "vivaciter",
+        "camero",
+        "porus",
+        "sitio",
+        "columen"
+      ],
+      "text": "Betuleia, quae Faventiae in schola docet, domum veterem extra oppidum emit, cuius pars optima est caminata ampla, ubi focus magnus muro innititur. Prima hieme, cum ignem accendit, fumus non per caminum ascendit, sed in caminatam redit, et parietes, qui albi erant, paulatim nigri fiunt. Itaque Petreium arcessit, qui caminos purgat et olim in universitate chemiae studuit.\n\nPetreius primum focum inspicit, deinde lampadem in tubum camini demittit. «Iampridem hic caminus non purgatus est», inquit. «Fuligo crassa tubum paene claudit.» Explicat fuliginem nihil aliud esse quam carbonem minimum, qui ex ligno quod non plene arsit oritur et cum vapore et resina in parietibus tubi haeret. «Ignis qui vivaciter ardet», inquit, «paulum fuliginis relinquit; ignis qui languet et fumat, multum.»\n\nBetuleia rogat cur ignis suus langueat. Petreius in cellam descendit, ubi ligna eius servantur. Cella sub caminata iacet; faber quidam eam ante duo saecula lapidibus cameravit, et sub tecto camerato aer semper frigidus et umidus manet. Petreius lignum frangit et ostendit intus umidum esse. «Lignum habet poros innumeros», inquit, «per quos olim sucus arboris fluebat. Hi pori aquam facile accipiunt et diu retinent. Lignum quod sub tecto camerato in cella umida iacet semper sitit et semper bibit.»\n\nDeinde rem chemice explicat. «Si lignum aquam continet, calor ignis primum aquam in vaporem vertere debet. Dum hoc facit, flamma frigidior est, carbo non perficitur, et fuligo nascitur. Lignum siccum, cuius pori aerem tantum continent, vivaciter ardet.»\n\nRestat altera causa. Petreius in tectum ascendit et Betuleiam vocat. «Vide», inquit. «Caminus tuus infra columen tecti desinit. Ventus, qui super columen transit, fumum in tubum deprimit, et fumus in caminatam redit. Caminus semper altior quam columen esse debet.»\n\nBetuleia fatetur se iampridem de fumo queri, sed numquam causam quaesivisse. Statim fabrum arcessit, qui caminum duobus pedibus supra columen extollit. Ligna in casam siccam et apertam transferunt, ubi ventus per ea flat et pori eorum aquam reddunt, non bibunt. Petreius fuliginem e tubo removet et Betuleiam monet ne lignum recens, quod adhuc sitit, umquam in focum ponat.\n\nPost mensem Betuleia rursus ignem accendit. Ligna sicca vivaciter ardent, fumus recta per caminum ascendit, et parietes caminatae albi manent.\n\nQuaestiones:\nQuamdiu caminus Betuleiae non purgatus erat?\nIampridem non purgatus erat, et fuligo crassa tubum paene claudebat.\nQuid in caminata Betuleiae accidit, cum ignem accendit?\nFumus in caminatam redit, et parietes paulatim nigri fiunt.\nQuid est fuligo?\nFuligo est carbo minimus, qui ex ligno quod non plene arsit oritur.\nCur ligna Betuleiae umida erant?\nQuia in cella frigida et umida sub tecto camerato iacebant, et pori ligni aquam accipiunt.\nQuod vitium Petreius in tecto invenit?\nCaminus infra columen tecti desinebat, itaque ventus fumum in tubum deprimebat.\nQuomodo ignis tandem vivaciter ardet?\nLigna sicca sunt, et caminus nunc supra columen ascendit."
+    },
+    {
+      "title": "Lana et linum",
+      "summary": "In Perugia an old weaver shows her granddaughter, who is writing a school project, how wool and flax differ: sheaves of flax stalks in the attic, a burning test, and the hair on the girl's own forehead.",
+      "newWords": [
+        "merges",
+        "cauliculus",
+        "lanatus",
+        "antiae",
+        "adumbratim",
+        "articulatim"
+      ],
+      "text": "Livineia, quae Perusiae in schola media discit, de fibris naturalibus commentarium scribere debet. Itaque aviam suam Granillam adit, quae per totam vitam lanam et linum texuit.\n\nGranilla eam in tabulatum summum ducit, ubi mergites lini, funibus ligatae, ad parietem stant. «Has mergites ipsa in agro meo collegi», inquit. «Linum non metitur, sed cum radicibus evellitur; deinde mergites in sole siccantur.» Ex una merge cauliculum longum et tenuem extrahit. «In hoc cauliculo fibrae latent», inquit, «sed non statim apparent.»\n\nLivineia primo adumbratim in libello suo scribit quae avia dicit, quasi lineas tantum operis futuri ducens. Granilla autem rem articulatim explicat, ut neptis singula intellegat. «Primum cauliculi in aqua iacent per aliquot septimanas, donec pars eorum mollis putrescat. Deinde siccantur. Tertio franguntur, ut lignum interius a fibris separetur. Quarto fibrae pectine purgantur. Postremo neuntur.» Livineia, quae iam non adumbratim, sed articulatim scribit, singulos gradus numeris notat.\n\n«Quid autem est in fibra?» rogat Livineia. Granilla, quae olim cum chemico quodam laboravit, respondet fibras lini ex cellulosa constare, ex eadem materia, ex qua charta et lignum fiunt. «Lana autem», inquit, «alia res est.» E cista vellus ovis lanatae promit, quam vicinus eius in montibus pascit. «Hae oves lanatae in frigore vivunt, et lana earum ex eadem materia constat ex qua capilli tui.» Tum manu antias neptis, quae in oculos eius cadunt, a fronte removet. «Antiae tuae et vellus ovis fratres sunt.»\n\nUt hoc probet, Granilla fila duo in patella ponit, alterum lineum, alterum laneum, et utrumque flamma tangit. Filum lineum celeriter ardet et odorem chartae combustae emittit et cineres molles relinquit. Filum laneum lente ardet, flammam fugere videtur, et odorem capillorum adustorum emittit. Livineia ridet, quia olim antias suas ad candelam paulum ussit et hunc ipsum odorem meminit.\n\nDomi Livineia commentarium perficit. Primum adumbratim, deinde articulatim scribit, quomodo e cauliculis lini et e vellere ovium lanatarum fila fiant. In fine imaginem ponit: mergitem lini et ovem lanatam, et inter eas puellam cuius antiae in frontem cadunt.\n\nQuaestiones:\nCur Livineia aviam suam adit?\nQuia de fibris naturalibus commentarium scribere debet, et avia per totam vitam lanam et linum texuit.\nQuid in tabulato summo stat?\nMergites lini ad parietem stant.\nUbi latent fibrae lini?\nFibrae in cauliculis lini latent.\nQuomodo Livineia primum scribit, et quomodo deinde?\nPrimum adumbratim scribit, deinde articulatim, ut singulos gradus notet.\nQuid Granilla dicit de antiis Livineiae?\nDicit antias eius et vellus ovis lanatae ex eadem materia constare.\nQuid accidit, cum filum laneum flamma tangitur?\nLente ardet et odorem capillorum adustorum emittit."
+    },
+    {
+      "title": "Magnetes ex samario",
+      "summary": "In Pavia an engineering student spends a week in a small workshop that makes samarium-cobalt magnets for hot motors, and learns why every temperature, size and direction is fixed in advance and kept exactly.",
+      "newWords": [
+        "samarium",
+        "praestituo",
+        "praefinio",
+        "amussis",
+        "presse",
+        "perpendiculum",
+        "perpendiculariter"
+      ],
+      "text": "Naevilla, quae Ticini machinationi studet, septimanam in officina parva Coeliani agit, qui corpora magnetica ad machinas speciales facit. Primo die Coelianus ei fragmentum metalli obscuri et gravis ostendit. «Hoc est samarium», inquit, «elementum quod inter terras raras numeratur. Si samarium cum alio metallo, quod cobaltum vocatur, miscetur, corpus magneticum fit quod vim suam etiam in magno calore servat.»\n\nNaevilla rogat cur hoc tanti sit. Coelianus explicat corpora magnetica communia, cum calida fiant, vim suam paulatim amittere. «Machinae autem, quas emptores mei aedificant, intus valde calent. Corpus ex samario factum ibi fortem vim magneticam servat, ubi alia debilia fiunt.»\n\nDeinde Naevillae ostendit quomodo laborent. Emptor quidam iam magnitudinem et formam singulorum corporum praestituit: longitudinem, latitudinem, crassitudinem, et quantam vim habere debeant. «Quae emptor praestituit, nos non mutamus», inquit Coelianus. «Nostrum est efficere ut omnia ad amussim respondeant.»\n\nPulvis metallicus in formam funditur et premitur; deinde in furnum ponitur, cuius calorem et tempus Coelianus ipse praefinivit. «Calorem praefinio», inquit, «quia si furnus paulum calidior fit, grana metalli crescunt et vis magnetica debilior evadit. Si tempus praefinitum non servatur, totum opus perit.» Naevilla in tabula scribit quem calorem et quot horas Coelianus praefiniat.\n\nPostea Coelianus prelum ostendit, quod corpori directionem dat. Corpus enim non quolibet modo, sed perpendiculariter ad faciem suam vim magneticam accipere debet. Ut prelum recte stet, Coelianus perpendiculum ex filo et pondere suspendit. «Perpendiculum numquam mentitur», inquit. «Si prelum non perpendiculariter stat, vis magnetica oblique currit.» Naevilla ipsa perpendiculum tenet, dum Coelianus prelum ad amussim dirigit.\n\nUltimo die Coelianus eam iubet relationem de septimana scribere, sed presse. «Ne multa verba facias», inquit. «Dic presse quid feceris, quibus numeris, quo ordine.» Naevilla primo longam relationem componit, deinde eam iterum presse scribit, ita ut una tantum pagina restet. Coelianus legit et adnuit. «Haec relatio est sicut corpus nostrum ex samario», inquit: «parva, sed fortis, et ad amussim facta.»\n\nQuaestiones:\nQuid est samarium?\nSamarium est elementum quod inter terras raras numeratur.\nCur corpora magnetica ex samario facta utilia sunt?\nQuia vim suam etiam in magno calore servant.\nQuid emptor praestituit?\nMagnitudinem et formam singulorum corporum et quantam vim habere debeant praestituit.\nCur Coelianus calorem furni praefinit?\nQuia si furnus calidior fit, grana metalli crescunt et vis magnetica debilior evadit.\nAd quid Coelianus perpendiculum adhibet?\nPerpendiculo utitur ut prelum perpendiculariter et ad amussim stet.\nQuomodo Naevilla relationem scribere debet?\nPresse scribere debet, ita ut una tantum pagina restet."
+    },
+    {
+      "title": "Oleum lavandulae",
+      "summary": "In Geneva a perfumer teaches her apprentice to distil lavender oil a second time over a water bath, and at his earnest request she writes down the method she used to keep secret.",
+      "newWords": [
+        "lavacrum",
+        "rectificatio",
+        "consequenter",
+        "incomparabilis",
+        "quonam",
+        "enixe",
+        "secrete"
+      ],
+      "text": "Fabullia Genavae officinam odorum habet, ubi olea florum ipsa destillat. Mense Iulio Blattius, qui apud eam discit, saccos lavandulae recentis ex agris affert, et prima destillatio incipit. Vapor aquae per flores transit, oleum secum aufert, et in vase frigido oleum supra aquam natat.\n\nBlattius oleum olfacit et frontem contrahit. Odor bonus est, sed aliquid acre et herbaceum in eo inest. «Hoc oleum nondum perfectum est», inquit Fabullia. «Nunc rectificatio necessaria est.» Explicat rectificationem esse destillationem iteratam, qua partes olei, quae leviores aut graviores sunt, ab ea parte separantur quae odorem optimum habet.\n\n«Quonam modo hoc fit», rogat Blattius, «si ignis tam fortis est ut oleum coquatur?» Fabullia vas vitreum non in ignem, sed in lavacrum aquae calidae ponit. «Lavacrum calorem lenem et aequalem dat», inquit. «Aqua numquam calidior fit quam cum fervet; consequenter oleum in lavacro numquam nimis calefit.» Tum thermometrum in lavacrum immergit et Blattium iubet calorem diligenter custodire.\n\nPer rectificationem guttae primae, quae odorem acrem habent, in vasculum separatum cadunt; deinde guttae mediae, clarae et dulces, quas Fabullia sola servat; postremo guttae graves, quae fundum vasis tenent. «Quonam haec prima pars ibit?» rogat Blattius. «In saponem», respondet Fabullia. «Nihil perdimus.»\n\nCum guttas medias olfacit, Blattius obstupescit. Odor est incomparabilis: purus, dulcis, quasi ager lavandulae post pluviam. «Hic odor vere incomparabilis est», inquit. Fabullia ridet. «Incomparabilis non est, sed bonus. Magistra mea oleum etiam melius faciebat.»\n\nBlattius rogat quomodo magistra eius laboraverit. Fabullia narrat magistram rationem suam secrete servavisse: numquam scripsit, numquam explicavit, tantum secrete in officina sua sola laboravit. «Consequenter multa scio quae ipsa diu quaerere debui», inquit. Tum Blattius eam enixe rogat ut omnia quae scit scribat. «Te enixe oro», inquit, «ne ars tua secrete pereat, sicut ars magistrae tuae paene periit.»\n\nFabullia diu cogitat, deinde libellum novum aperit. Primam paginam inscribit: «De rectificatione olei lavandulae», et sub titulo: «Blattio, qui me enixe rogavit.»\n\nQuaestiones:\nCur prima destillatio non satis est?\nQuia oleum aliquid acre et herbaceum continet et nondum perfectum est.\nQuid est rectificatio?\nRectificatio est destillatio iterata, qua partes olei separantur.\nCur Fabullia vas in lavacrum aquae ponit?\nQuia lavacrum calorem lenem et aequalem dat, et consequenter oleum numquam nimis calefit.\nQuonam prima pars olei it?\nIn saponem it.\nQuid Blattius dicit de odore guttarum mediarum?\nDicit eum incomparabilem esse.\nQuid Blattius Fabulliam enixe rogat?\nEnixe eam rogat ut omnia quae scit scribat, ne ars eius secrete pereat."
+    },
+    {
+      "title": "Anguillae in stagno",
+      "summary": "At the lagoon near Aquileia a water chemist and a fisherwoman find that fertiliser from the surrounding fields feeds the algae that sink and rob the bottom of oxygen, and they ask the farmers to fertilise less.",
+      "newWords": [
+        "anguilla",
+        "ubivis",
+        "circumiaceo",
+        "fecundo",
+        "iuxtim",
+        "pessum",
+        "concieo"
+      ],
+      "text": "Orfitiana prope Aquileiam in stagno magno, quod mari coniungitur, pisces capit, sicut pater eius et avus. Anguillas praecipue capit, quae in fundo stagni, limo pleno, vivunt. Hoc anno tamen retia eius saepe vacua redeunt, et Orfitiana Iturium, qui aquas regionis chemice explorat, rogat ut stagnum secum inspiciat.\n\nIn navicula Iturius explicat anguillas animalia valde patientia esse. «Anguilla ubivis fere vivere potest», inquit: «in flumine, in stagno, in mari, etiam in fossa angusta. Si igitur anguillae ubivis vivere possunt et hic tamen rariores fiunt, aliquid in aqua mutatum est.»\n\nIturius aquam e variis locis haurit, saepe iuxtim, ita ut ampullae binae ex locis vicinis sumantur. Quae iuxtim sumpsit, inter se comparat. In aqua prope ripam multum salium invenit qui plantas nutriunt, in aqua media minus. «Hi sales ex agris veniunt», inquit, «qui stagnum circumiacent.» Orfitiana ad agros qui stagnum circumiacent spectat: ibi agricolae terram fimo et sale chemico fecundant. «Agricolae agros fecundant ut frumentum crescat», inquit Iturius, «sed pluvia partem eius rei, qua fecundant, in stagnum defert.»\n\nTum fundum stagni inspiciunt. Algae virides, quas hi sales nutriunt, supra aquam crescunt; cum autem senescunt, pessum eunt et in fundo iacent. Ibi bacteria eas consumunt et oxygenium aquae in fundo absumunt. «Algae pessum eunt», inquit Iturius, «et oxygenium secum quasi pessum trahunt. Anguillae, quae in fundo cibum quaerunt, locum relinquunt.»\n\nNavicula prope ripam per aquam humilem movetur, et remi limum concient. Aqua statim nigra fit et odorem gravem emittit. «Vides», inquit Iturius, «limus, quem remi concient, nullum oxygenium habet.»\n\nPostero die Orfitiana et Iturius agricolas, qui agros circumiacentes colunt, in scholam vici convocant. Iturius numeros suos ostendit et rogat ut agros paulo minus fecundent et ripas herbis et arboribus tegant, quae pluviam retineant. Plerique agricolae consentiunt; nam et ipsi pecuniam servant si minus fimi emunt.\n\nPost duos annos Orfitiana retia sua iterum plena extrahit. Anguillae, quae ubivis vivere possunt, nunc etiam hic libenter habitant.\n\nQuaestiones:\nCur Orfitiana Iturium rogat ut stagnum inspiciat?\nQuia retia eius saepe vacua redeunt.\nUbi anguillae vivere possunt?\nAnguillae ubivis fere vivere possunt: in flumine, in stagno, in mari, in fossa.\nCur Iturius aquam iuxtim haurit?\nUt aquam ex locis vicinis inter se comparet.\nUnde sales qui algas nutriunt in stagnum veniunt?\nEx agris qui stagnum circumiacent, quos agricolae fecundant.\nQuid algae faciunt cum senescunt?\nPessum eunt et in fundo iacent, ubi bacteria oxygenium absumunt.\nQuid agricolae facere consentiunt?\nAgros paulo minus fecundare et ripas herbis et arboribus tegere."
+    },
+    {
+      "title": "Cimices in deversorio",
+      "summary": "In Copenhagen a hotel owner calls a pest expert after a frightened guest finds bedbugs; instead of poison he uses heat and a fine mineral powder, seals badly joined boards, and the hotel is free of them.",
+      "newWords": [
+        "perterreo",
+        "cimex",
+        "quousque",
+        "nobiscum",
+        "praeterhac",
+        "tantundem",
+        "vitiose"
+      ],
+      "text": "Mettiana Hafniae deversorium parvum prope portum tenet. Mane quodam hospes, qui in cubiculo septimo dormivit, perterritus ad mensam eius descendit et ampullam vitream ostendit, in qua animalcula fusca et plana sedent. «Haec in lecto meo inveni», inquit. «Cimices sunt!» Mettiana ipsa perterretur, nam audiverat cimices, si semel in domum venerint, aegre expelli. Hospiti pecuniam reddit et cubiculum aliud dat; deinde Aufidienum vocat, qui de insectis domesticis multa scit.\n\nAufidienus cubiculum septimum diligenter inspicit et cimices in rimis lecti et post tabulas parietis invenit. «Quousque hi cimices nobiscum habitabunt?» rogat Mettiana. «Non diu», respondet Aufidienus, «si recte agimus. Sed noli putare hospitem tuum culpam habere. Cimices nobiscum iter faciunt, in vestibus et in saccis, et ex uno deversorio in aliud transeunt, quamvis munda sint.»\n\nMettiana rogat num venenum adhibiturus sit. Aufidienus negat. «Multi cimices iam venena ferre didicerunt», inquit. «Calorem autem ferre non possunt. Si aer cubiculi per aliquot horas ad quinquaginta gradus calet, nullus cimex superest, neque ova eorum.» Itaque machinas calefacientes in cubiculum portat et fenestras claudit.\n\nPraeterhac pulverem album adhibet, qui ex conchis minimis algarum antiquarum constat. «Hic pulvis vitro similis est», explicat. «Cimex qui per eum ambulat ceram tenuem amittit, qua corpus eius tegitur, et sic paulatim siccescit. Nullum venenum inest; homines et feles nihil timere debent.» In singulas rimas tantundem pulveris inspergit: non plus, quia pulvis nimius cimices fugat potius quam tenet, nec minus. In cubiculis vicinis tantundem ponit, ne cimices eo fugiant.\n\nPraeterhac Aufidienus causam monstrat cur cimices hic tam bene habitaverint. Tabulae parietis vitiose iunctae sunt, et inter eas rimae latae patent. «Qui has tabulas tam vitiose iunxit», inquit, «cimicibus domum paravit.» Mettiana fabrum arcessit, qui rimas omnes claudit.\n\nPost duas septimanas Aufidienus redit et cubiculum iterum inspicit. Nullum cimicem invenit. Mettiana hospiti illi, qui tam perterritus fuerat, epistolam scribit et noctem gratis offert. Ille respondet se libenter rediturum esse, nec iam perterreri, quia scit Mettianam rem tam diligenter curavisse.\n\nQuaestiones:\nQuid hospes in lecto suo invenit?\nCimices in lecto suo invenit.\nQuid Mettiana rogat, cum Aufidienus cubiculum inspicit?\nRogat: «Quousque hi cimices nobiscum habitabunt?»\nQuomodo cimices ex uno deversorio in aliud transeunt?\nNobiscum iter faciunt, in vestibus et in saccis.\nCur Aufidienus venenum non adhibet?\nQuia multi cimices iam venena ferre didicerunt, calorem autem ferre non possunt.\nQuid praeterhac adhibet?\nPraeterhac pulverem album adhibet, qui ex conchis minimis algarum antiquarum constat.\nCur cimices tam bene in cubiculo habitaverant?\nQuia tabulae parietis vitiose iunctae erant, et inter eas rimae latae patebant."
+    },
+    {
+      "title": "Filum lyci",
+      "summary": "In Toulouse a doctoral student who studies wolf spiders keeps each in a little box, lets them cross a small gap to collect their safety threads, and shows her doubtful professor how far the thread stretches before it breaks.",
+      "newWords": [
+        "lycos",
+        "arcula",
+        "chasma",
+        "labo",
+        "mordicus",
+        "etiamtunc"
+      ],
+      "text": "Arrecina Tolosae in universitate de materiis naturalibus investigat. Professor eius Pacciana telis aranearum diu studuit, sed Arrecina aliud animal elegit: lycon, araneum qui telas non texit, sed in terra currit et praedam suam cursu capit. «Lycos telam non facit», inquit Pacciana, «sed filum tamen emittit. Quid in eo invenire speras?»\n\nArrecina explicat lycon, quocumque currit, filum tenue post se trahere, quo quasi fune securitatis utitur, si de lapide aut muro cadit. «Hoc filum», inquit, «numquam ab ullo diligenter mensum est.» Pacciana dubitat, sed Arrecina consilium suum mordicus tenet.\n\nIn horto universitatis murus vetus est, in cuius rimis multi lyci habitant. Arrecina eos vespere colligit et singulos in arcula vitrea ponit, in qua terra paulum umida et lapillus iacent. In mensa laboratorii decem arculae in ordine stant, et in operculo cuiusque arculae nomen breve scriptum est.\n\nUt filum colligat, Arrecina duos lapides in mensa ponit, inter quos parvum chasma patet, latitudine unius digiti. Lycon ex arcula educit et in altero lapide ponit. Lycos ad marginem currit, ante chasma consistit, deinde transilit, et filum post se in aere relinquit. Arrecina filum, quod super chasma pendet, in parvam tabellam ex charta colligit.\n\nPostea filum in machinam ponit, quae id lente extendit. Primum filum in aere labat, quia aura ex fenestra aperta id movet; itaque Arrecina fenestram claudit, et filum non iam labat. Machina filum extendit, et numeri in computatro crescunt. Filum longius fit, deinde etiam longius. Arrecina putat id statim rumpi debere, sed etiamtunc integrum est. Postremo, cum quarta parte longius factum est quam initio, rumpitur.\n\nArrecina Paccianam vocat et ei numeros ostendit. Pacciana diu tacet. «Hoc filum, quamvis tenuissimum, plus extenditur quam filum sericum», inquit tandem. «Etiamtunc, cum lycos chasma transiluit, hoc filum totum corpus eius portare potuit, si cecidisset.» Arrecina, quae consilium suum mordicus tenuit, nunc ridet.\n\nPost experimenta Arrecina omnes lycos in hortum reportat et ad murum veterem eos dimittit, ubi statim in rimas currunt.\n\nQuaestiones:\nQuid est lycos?\nLycos est araneus qui telas non texit, sed in terra currit et praedam cursu capit.\nUbi Arrecina lycos servat?\nSingulos in arcula vitrea servat, in qua terra umida et lapillus iacent.\nQuomodo Arrecina filum colligit?\nLycos chasma inter duos lapides transilit et filum in aere relinquit, quod Arrecina in tabellam colligit.\nCur Arrecina fenestram claudit?\nQuia filum in aere labat, cum aura ex fenestra id movet.\nQuid accidit, cum machina filum extendit?\nFilum longius fit, et etiamtunc integrum est, donec quarta parte longius quam initio factum rumpitur."
+    },
+    {
+      "title": "Epistula de relationibus",
+      "summary": "In Bordeaux a language teacher writes to a chemistry colleague about her pupils' reports on growing alum crystals: their punctuation, the plain statements a report needs, and a discussion that must not just echo the method.",
+      "newWords": [
+        "litterator",
+        "punctuatio",
+        "declarativus",
+        "discussio",
+        "echo",
+        "annon"
+      ],
+      "text": "Tadiena Ulpianae salutem dicit.\n\nRelationes discipulorum tuorum, quas mihi legendas misisti, libenter perlegi. De crystallis ex alumine crescentibus scripserunt, et multa bene observaverunt. Tu me rogasti ut sermonem eorum, non chemiam, iudicarem; nam scis me nihil aliud esse quam litteratorem. Magister meus, litterator senex et severus, dicere solebat relationem bonam esse sicut fenestram puram: qui legit, non vitrum, sed rem ipsam videre debet. Hoc praeceptum etiam nunc sequor.\n\nPrimum de punctuatione. Multi discipuli punctuationem neglegunt, quasi signa inter verba nihil valeant. Unus totam methodum una sententia scripsit, in qua decem actiones nullo puncto separantur; alter post singula verba commata ponit. Punctuatio autem lectorem regit: ubi consistat, ubi spiritum ducat, quid cum quo coniungat. Rogo ut eos doceas sententias breviores scribere, quarum quaeque unam rem dicat et puncto finiatur.\n\nDeinde de sententiis ipsis. In relatione chemica sententiae declarativae praecipue requiruntur: quae dicunt quid factum sit, quid observatum, quid inventum. Quidam tamen discipuli pro sententia declarativa quaestionem ponunt, ut «Quis crederet crystalla tam pulchra fieri?». Haec admiratio in epistula ad amicum grata est, in relatione non. Sententia declarativa simpliciter dicit: «Crystalla post tres dies longitudinem quinque millimetrorum habebant.»\n\nTertio de ea parte quae discussio inscribitur. Haec pars, ut tu me docuisti, explicare debet cur res ita evenerint, et quid ex eis concludi possit. In plerisque relationibus discussio nihil aliud est quam echo methodi: eadem verba, idem ordo, quasi discipulus iterum narraret quid fecerit. Discussio autem non debet esse echo, sed responsio. Optima, quam legi, quaerit utrum crystalla maiora in aqua frigidiore crevissent annon, et rationem chemicam proponit. Nonnulli discipuli scribunt «Nescio si crystalla crevissent»; doce eos, quaeso, dicere «utrum crevissent annon».\n\nCeterum relationes eorum multo meliores sunt quam meae, cum eiusdem aetatis essem. Si vis, aliquando in classem tuam veniam et de punctuatione et de sententiis declarativis horam unam loquar. Ego litterator sum, tu chemica: fortasse una plus efficiemus quam singulae.\n\nVale.\n\nQuaestiones:\nQuid Ulpiana a Tadiena petivit?\nPetivit ut sermonem relationum, non chemiam, iudicaret.\nQuid litterator senex de relatione bona dicere solebat?\nDicebat relationem bonam esse sicut fenestram puram.\nQuid Tadiena de punctuatione discipulorum dicit?\nDicit multos discipulos punctuationem neglegere.\nQuae sententiae in relatione chemica requiruntur?\nSententiae declarativae requiruntur, quae dicunt quid factum, observatum, inventum sit.\nQuid est discussio in plerisque relationibus?\nNihil aliud est quam echo methodi.\nQuid quaerit optima discussio?\nQuaerit utrum crystalla maiora in aqua frigidiore crevissent annon."
+    },
+    {
+      "title": "Pulvinus novus",
+      "summary": "In Rimini a materials engineer comes home to help his adoptive mother, whose psoas aches in her hard chair, and tests slow-returning foams on it while her lazy cat watches from a wicker basket.",
+      "newWords": [
+        "vio",
+        "adoptaticius",
+        "psoas",
+        "afflicto",
+        "aero",
+        "piger"
+      ],
+      "text": "Livienus, filius adoptaticius Nervillae, in societate quadam materias novas probat et propter opus suum per totam Europam viat. Hoc anno tamen, cum mater ei telephono narrasset dolorem acrem se afflictare, Ariminum ad eam viavit et aliquot dies apud eam manet.\n\nNervilla, quae per multos annos vestes suit, cotidie multas horas in sella vetere lignea sedet. Medicus ei dixit musculum, qui psoas vocatur, nimis contractum esse. Psoas enim a parte inferiore dorsi ad femur pertinet et, si quis diu in sella dura sedet, brevior fit et dolet. «Sella mea me afflictat», inquit Nervilla. «Quo diutius sedeo, eo magis dolor me afflictat.»\n\nIn angulo conclavis aero ex virgis textus stat, in quo feles pigra Nervillae dormit. Feles caput tollit, cum Livienus intrat, sed statim iterum dormit. «Haec feles tam pigra est», inquit Nervilla, «ut ne cibum quidem petat, nisi aero eius ad mensam portatur.»\n\nLivienus ex sacco suo frusta varia spumae promit. «Has materias probare soleo», inquit. «Vide hanc: spuma pigra vocatur.» Digitum in eam premit, et forma digiti diu manet, deinde lente evanescit. «Haec spuma ex moleculis longis constat, quae calore corporis molliuntur et lente ad formam priorem redeunt. Ideo pigra dicitur. Pondus corporis per totam superficiem dividit, ne una pars nimis prematur.»\n\nLivienus pulvinum ex spuma pigra et tela lanea conficit et sellae aptat. Praeterea sellam paulo altiorem reddit, ut genua Nervillae infra coxas sint; sic psoas non tam contrahitur. Nervilla sedet, surgit, iterum sedet. «Sella eadem est», inquit, «sed non iam me afflictat.»\n\nUltimo die Livienus matri praecipit ut singulis horis surgat et per conclave ambulet, quia nullus pulvinus psoas tam bene curat quam motus. Nervilla promittit. Tum ridens addit: «Et felem pigram mecum ambulare cogam.» Feles in aerone suo dormit nec oculos aperit.\n\nPostridie Livienus iterum viare debet. Nervilla ad stationem eum comitatur et gaudet quod filius adoptaticius tam bene matrem suam curat.\n\nQuaestiones:\nQuis est Livienus?\nLivienus est filius adoptaticius Nervillae.\nCur Livienus Ariminum viavit?\nQuia mater ei narravit dolorem acrem se afflictare.\nQuid medicus Nervillae dixit?\nDixit musculum, qui psoas vocatur, nimis contractum esse.\nUbi feles Nervillae dormit?\nIn aerone ex virgis texto dormit.\nCur spuma pigra vocatur?\nQuia lente ad formam priorem redit.\nQuid Livienus facit ut sella Nervillam non iam afflictet?\nPulvinum ex spuma pigra conficit et sellam paulo altiorem reddit."
+    }
+  ]
+}
