@@ -1,0 +1,194 @@
+{
+  "id": "la-mini-6100",
+  "rankUpTo": 6100,
+  "level": "C1",
+  "title": "Universum et stellae",
+  "description": "Ten stories about the night sky in everyday life: a city blackout, an amateur's small planet, a meteorite on the beach, an ancient star machine, a planetarium, a forest observatory, a farm calendar, space medicine, a Latin essay and an adoptive mother's answer.",
+  "topic": "The universe and the stars",
+  "names": [
+    "Sabidiana",
+    "Pinarianus",
+    "Bononia",
+    "November",
+    "Gavidianus",
+    "Turicum",
+    "Cominianus",
+    "Lartianus",
+    "Ariminum",
+    "October",
+    "Anticythera",
+    "Italia",
+    "Opimianus",
+    "Athenae",
+    "Avidiana",
+    "Mediolanum",
+    "Ianuarius",
+    "Cluviana",
+    "Ummidianus",
+    "Vicetia",
+    "Iulius",
+    "Rubellianus",
+    "Herennilla",
+    "Mantua",
+    "Padus",
+    "September",
+    "Velleiana",
+    "Tolosa",
+    "Tettulla",
+    "Fadianus",
+    "Verona",
+    "Februarius",
+    "Maius",
+    "Albucianus",
+    "Tergeste"
+  ],
+  "lessons": [
+    {
+      "title": "Nox sine lumine",
+      "summary": "In Bologna the power fails one November evening; a retired teacher and the boy next door light candles, then go up on the roof and see the Milky Way until the lights come back.",
+      "newWords": [
+        "extinguo",
+        "cereus",
+        "infortunium",
+        "dispareo",
+        "officio",
+        "apporto",
+        "spissus",
+        "retardo"
+      ],
+      "text": "Sabidiana, magistra quae iam ab opere cessavit, in summo tabulato domus veteris Bononiae habitat. Quodam vespere mense Novembri, dum cenam parat, lumen culinae subito extinctum est, et cum eo lumina scalarum, immo etiam lumina viae sub fenestra. Electricitas in toto vico defecerat.\n\nPrimo Sabidiana rem merum infortunium putavit. Cena in foco electrico nondum cocta erat, frigus in cubiculis paulatim crescebat, telephonum eius paene nihil virium habebat. In via sub fenestra etiam lumen quod autocinetis signa dare solet extinctum erat; itaque omnes rectores cursum retardabant et lentissime per tenebras procedebant. Etiam tramen electricum in via proxima primum se retardavit, deinde omnino constitit.\n\nPaulo post Pinarianus, puer duodecim annorum qui in eodem tabulato cum matre habitat, ad ianuam pulsavit. Tres cereos e cista matris apportaverat. «Mater putat te fortasse cereos non habere», inquit. Sabidiana ei gratias egit et unum cereum in mensa accendit. Flamma cerei cubiculum lumine molli implevit, et infortunium iam minus triste videbatur.\n\n«Quid nunc faciamus?» rogavit puer. «Sine lumine nec legere nec ludere possumus.»\n\n«Immo aliquid videre possumus quod Bononiae raro videtur», respondit Sabidiana. «Ascendamus in tectum.»\n\nCereis in manibus per scalas obscuras ascenderunt. In tecto plano, ubi vicini lintea siccare solent, cereos extinxerunt, ne lux eorum oculis officeret. Tum Pinarianus caput sustulit et diu tacuit. Caelum, quod colore sordido et aurantio esse solet, nunc nigrum erat et stellis plenum. Ab una parte ad alteram stellae tam spissae erant ut quasi nubem lucidam facerent.\n\n«Haec est Via Lactea», dixit Sabidiana. «Semper ibi est, etiam cum eam non videmus. Lumina urbis stellis officiunt: tantum lucis in caelum mittunt ut stellae minores dispareant. Hac nocte, quia omne lumen extinctum est, nihil eis officit.»\n\nPinarianus stellas numerare coepit, sed mox desiit: nimis multae erant.\n\nHora fere post lumina subito redierunt. Fenestrae vicinorum rursus fulserunt, tramen in via proxima iterum profectum est, caelum rursus aurantium factum est. Stellae paulatim disparuerunt, primum minores, deinde Via Lactea ipsa, denique paene omnes. Paucae tantum clarissimae manserunt. Ubi stellae modo tam spissae fuerant, nunc caelum vacuum videbatur.\n\n«Infortunium finitum est», dixit puer, et paene dolere videbatur.\n\nPostea, quotiens caelum serenum est, Pinarianus cereum apportat, ambo in tectum ascendunt et lumina scalarum extinguunt. Paucas tantum stellas vident, quia lux urbis eis semper officit. Sed Pinarianus Viam Lacteam per tenebras spissas illius noctis semel vidit, et eam non obliviscitur.\n\nQuaestiones:\nQuid accidit quodam vespere mense Novembri?\nOmne lumen vici subito extinctum est, quia electricitas defecerat.\nCur rectores autocinetorum cursum retardabant?\nRetardabant quia lumen quod autocinetis signa dare solet extinctum erat.\nQuid Pinarianus apportavit?\nTres cereos e cista matris apportavit.\nCur cereos in tecto extinxerunt?\nCereos extinxerunt ne lux eorum oculis officeret.\nCur stellae minores in urbe plerumque disparent?\nDisparent quia lumina urbis tantum lucis in caelum mittunt ut stellis officiant."
+    },
+    {
+      "title": "Planeta ratiocinatoris",
+      "summary": "In Zurich a retired bank accountant spends four years measuring a small planet and works out its path around the sun; the professionals confirm his calculation.",
+      "newWords": [
+        "ratiocinator",
+        "traiectoria",
+        "revolvo",
+        "deductio",
+        "aequivaleo",
+        "quadriennium",
+        "instabilis",
+        "transitorius"
+      ],
+      "text": "Gavidianus per quadraginta annos ratiocinator in argentaria Turici fuit. Totum diem numeros in tabulis scribebat, rationes conferebat, errores parvos quaerebat. Collegae dicebant eum ratiocinatorem patientissimum totius urbis esse: nullum numerum neglegebat, nullam summam nisi bis computatam probabat.\n\nCum ab opere cessisset, filia ei telescopium donavit. «Pater», inquit, «per totam vitam numeros spectavisti; nunc stellas specta.» Gavidianus primo dubitabat, sed mox intellexit caelum quoque plenum esse numerorum. Nam astra non casu moventur, sed ordine certo, quem numeri describere possunt.\n\nQuadam nocte in imaginibus suis punctum parvum vidit quod inter stellas lente progrediebatur. Non erat stella, sed planeta minor: saxum ingens quod circa solem revolvitur. In catalogis astronomorum eum non inveniebat. Itaque per quadriennium, quotiens caelum serenum erat, positionem eius notabat: diem, horam, locum inter stellas. Quadriennium longum erat; amici eum ridebant, quod tot noctes frigidas in horto suo agebat.\n\nEx his positionibus Gavidianus per deductionem traiectoriam planetae computavit. Deductio non difficilis erat homini qui per quadraginta annos rationes argentariae confecerat: si planeta hoc die hic erat et post mensem illic, certa via esse debebat quae utrumque locum iungit. Traiectoria quam invenit non circulus erat, sed orbis paulo longior. Planeta circa solem semel quinque annis revolvitur: unus igitur annus eius quinque annis nostris aequivalet. Gavidianus filiae ridens explicavit: «Si planeta meus diem natalem haberet, eum quinto quoque anno tantum celebraret.»\n\nSed deductio etiam aliquid minus laetum ostendit. Traiectoria planetae instabilis est, quia per aliquot menses prope planetam ingentem transit, cuius vis eum de via paulum trahit. Haec propinquitas transitoria est: post paucos menses planeta minor iterum longe abest. Tamen quotiens redit, traiectoria eius paulum mutatur. «Ut in argentaria, ita in caelo», Gavidianus filiae dixit: «res transitoria saepe vestigia diuturna relinquit.» Ipse, ut bonus ratiocinator, hanc quoque mutationem in rationes suas recepit, et effectum eius per quadriennium proximum computavit.\n\nTandem omnes numeros ad societatem astronomorum misit, quae planetas minores recenset. Ibi viri docti rationes eius examinaverunt et post duos menses rescripserunt traiectoriam recte computatam esse et planetam vere novum esse. Errorem nullum invenerant, ne parvum quidem. «Calculos tuos legimus», scripsit unus eorum, «et statim apparet te ratiocinatorem esse.»\n\nGavidianus epistolam filiae legit. Illa ridens dixit: «Per quadraginta annos pecuniam aliorum numerabas; nunc viam planetae tui computavisti.» Planeta, quamquam traiectoria eius instabilis est, adhuc circa solem revolvitur, et Gavidianus eum quaerit quotiens potest.\n\nQuaestiones:\nQuid Gavidianus per quadraginta annos fuit?\nRatiocinator in argentaria Turici fuit.\nQuamdiu positionem planetae notabat?\nPer quadriennium positionem eius notabat, quotiens caelum serenum erat.\nQuomodo traiectoriam planetae invenit?\nEx positionibus quas notaverat traiectoriam per deductionem computavit.\nQuot annis nostris unus annus planetae aequivalet?\nUnus annus planetae quinque annis nostris aequivalet.\nCur traiectoria planetae instabilis est?\nInstabilis est quia planeta prope planetam ingentem transit, cuius vis eum de via trahit; haec propinquitas tamen transitoria est."
+    },
+    {
+      "title": "Lapis in harena",
+      "summary": "After a bright fireball over the sea near Rimini, a grandfather and his small grandson search the sandy beach and find a little meteorite, which a scientist splits open.",
+      "newWords": [
+        "harenosus",
+        "concha",
+        "glaucus",
+        "gramma",
+        "diffindo",
+        "exardeo",
+        "madefacio",
+        "pupus"
+      ],
+      "text": "Cominianus, avus septuaginta annorum, Arimini prope mare habitat. Mense Octobri nepos eius Lartianus, pupus septem annorum, aliquot dies apud eum manebat. Vespere quodam, dum in podio sedent, ingens lux subito super mare exarsit. Globus igneus per caelum volavit, colore viridi et albo exardens, et post paucas secundas super undas disparuit.\n\n«Quid erat illud?» clamavit pupus.\n\n«Lapis de caelo», respondit Cominianus. «Cum talis lapis in aerem nostrum magna celeritate intrat, exardet et lucet. Plerumque totus consumitur; interdum tamen fragmenta parva ad terram cadunt.»\n\nPostridie mane ad litus descenderunt. Litus Arimini longum et harenosum est; tempestas noctis multa in harenam eiecerat: ligna, herbas marinas, innumerabiles conchas. Mare adhuc glaucum et turbidum erat. Lartianus conchas colligere coepit, albas, roseas, glaucas, et eas in cistam parvam ponebat. Avus autem lapides spectabat.\n\nDiu per litus harenosum ambulaverunt nec quicquam invenerunt. Undae pedes eorum madefaciebant, ventus frigidus erat, et pupus iam queri incipiebat. Tum inter conchas lapidem parvum et nigrum vidit, qui ab omnibus aliis lapidibus litoris differebat. Superficies eius quasi cortice tenui et nigro tecta erat. Cominianus lapidem in manum sumpsit: pro magnitudine sua gravissimus erat. Undae eum madefecerant, sed etiam madefactus non nitebat, ut lapides litoris solent.\n\nDomi lapidem in libra posuerunt: triginta tria grammata pendebat. «Lapis litoris eiusdem magnitudinis vix viginti grammata haberet», dixit avus. «Hic lapis ferrum continet.»\n\nProxima septimana lapidem ad universitatem studiorum Bononiae tulerunt. Femina docta, quae lapides de caelo lapsos investigat, eum diu inspexit. Deinde rogavit num eum diffindere liceret. Lartianus primo noluit, sed avus ei explicavit intus plus videri posse quam extra. Itaque femina lapidem machina subtili in duas partes diffidit.\n\nIntus lapis non niger erat, sed glaucus, et plenus granis minimis metalli quae ad lumen fulgebant. «Ecce», dixit femina, «hoc ferrum est cum alio metallo mixtum. Talia grana in lapidibus terrae non inveniuntur. Hic lapis vere de caelo venit, et fortasse antiquior est quam terra ipsa.»\n\nUnam partem lapidis universitas ad investigandum retinuit; alteram Lartianus domum tulit. Nunc in cista eius iacet inter conchas litoris harenosi: vix sedecim grammata, sed pro pupo maximus thesaurus.\n\nQuaestiones:\nQuid Cominianus et Lartianus vespere viderunt?\nViderunt ingentem lucem quae super mare exardebat.\nQuid in litore harenoso iacebat post tempestatem?\nLigna, herbae marinae et innumerabiles conchae ibi iacebant.\nQuot grammata lapis pendebat?\nLapis triginta tria grammata pendebat.\nQuid femina docta cum lapide fecit?\nLapidem machina subtili in duas partes diffidit.\nQualis lapis intus erat?\nIntus glaucus erat et plenus granis metalli."
+    },
+    {
+      "title": "Machina ex naufragio",
+      "summary": "In Athens a coppersmith spends years making a bronze copy of the ancient calculating machine found in a shipwreck, and the museum puts it beside the original fragments.",
+      "newWords": [
+        "naufragium",
+        "aerarius",
+        "effingo",
+        "transmarinus",
+        "negotior",
+        "figuratus",
+        "coaevus"
+      ],
+      "text": "Anno 1901 piscatores, qui prope insulam Anticytheram spongias sub aqua quaerebant, in fundo maris reliquias navis antiquae invenerunt. Naufragium ante duo milia annorum fere factum erat. Navis, ut videtur, magna et onusta erat; mercatores in ea merces transmarinas ex oppidis orientis in Italiam vehebant, et cum portubus transmarinis negotiabantur. E naufragio statuae, vasa et nummi extracti sunt, et inter haec etiam fragmenta aeris viridia et rupta, quae primo nemo intellegebat.\n\nPost multos annos viri docti cognoverunt fragmenta reliquias machinae esse: intus erant rotae dentatae minimae, in facie orbes litteris et notis figurati. Machina, manubrio versata, motus solis et lunae ostendebat, et dies praedicebat quibus sol aut luna deficeret. Nulla machina coaeva similis nobis nota est; machinae coaevae, quas scriptores antiqui memorant, omnes perierunt. Itaque haec machina ex naufragio unica est.\n\nOpimianus, faber aerarius, Athenis officinam aerariam habet, quam pater eius condidit. Puer cum patre in museum ierat et fragmenta viridia diu spectaverat. Postea ipse, ut pater, vasa et campanas ex aere fecit et cum mercatoribus negotiatus est. Sed fragmenta naufragii ei numquam ex animo exierunt.\n\nCum quinquaginta annos natus esset, constituit machinam totam effingere. Non satis erat formam eius effingere; volebat machinam quae vere moveretur. Per sex annos vesperi in officina aeraria laborabat. Libros virorum doctorum legebat, imagines fragmentorum metiebatur, rotas dentatas ex lamina aerea secabat. Saepe rota, quam per totam hebdomadem fecerat, non recte movebatur, et Opimianus eam iterum effingebat.\n\nDifficillimae erant facies figuratae. Antiquus faber litteras et notas minimas in aere inciderat; Opimianus easdem, tam parvas ut vix legi possent, manu sua incidit. Uxor eius, cum faciem figuratam primum vidit, dixit eam pulchriorem esse quam omnia vasa quae maritus umquam vendidisset.\n\nMachinam perfectam Opimianus non vendidit, nec de ea negotiari voluit, quamquam homines multi eam emere cupiebant. Eam museo donavit. Nunc in museo prope fragmenta antiqua stat, ut omnes videant quomodo machina olim fuerit. Pueri manubrium versant, et orbes figurati lente moventur: sol et luna per caelum aereum procedunt.\n\nOpimianus saepe in museum it et pueros spectat. «Mercatores in illa navi», inquit, «cum terris transmarinis negotiabantur, nec sciebant quid secum veherent. Ego faber aerarius sum, non vir doctus. Sed nunc scio quantum ille faber antiquus sciverit.»\n\nQuaestiones:\nUbi naufragium inventum est?\nPrope insulam Anticytheram in fundo maris inventum est.\nQuid mercatores in navi faciebant?\nMerces transmarinas vehebant et cum portubus transmarinis negotiabantur.\nCur machina ex naufragio unica est?\nUnica est quia nulla machina coaeva similis nobis nota est.\nQuid Opimianus, faber aerarius, constituit?\nConstituit machinam totam ex aere effingere, ita ut vere moveretur.\nQuid Opimianus cum machina perfecta fecit?\nDe ea negotiari noluit, sed eam museo donavit."
+    },
+    {
+      "title": "Saltatio sub tholo",
+      "summary": "In Milan a planetarium guide is asked to prepare a show in which dancers move under the projected stars; the dome's acoustics are a problem, and her wit wins over a restless class.",
+      "newWords": [
+        "acustica",
+        "suggestum",
+        "saltatorius",
+        "fascino",
+        "lepos",
+        "sublimus",
+        "resideo",
+        "deputo"
+      ],
+      "text": "Avidiana in planetario Mediolani laborat. Cotidie classes discipulorum sub tholo sublimi excipit, in quo machina mille stellas proicit. Ipsa in suggesto parvo prope machinam stat et caelum explicat, dum discipuli in sellis resident et sursum spectant.\n\nMense Ianuario moderator planetarii Avidianam deputavit ut novum spectaculum pararet: spectaculum saltatorium sub stellis. Societas saltatoria iuvenum, quae in eadem urbe exercetur, motus solis, terrae et lunae corporibus effingere volebat. Avidiana, quae numquam saltaverat, primo dubitabat cur moderator eam potissimum deputavisset. «Quia tu caelum melius quam quisquam alius explicas», respondit ille.\n\nPrimum problema erat acustica. Tholus enim sublimis omnem sonum mirum in modum reddit: verbum leviter in suggesto dictum in ultima sella clare auditur, sed musica fortis sub tholo quasi in caverna resonat. Avidiana et saltatores acusticam per multos dies temptaverunt. Tandem musicam lenem elegerunt, et saltatores calceos molles induerunt, ne pedes eorum sonarent.\n\nAd primum spectaculum classis puerorum undecim annorum venit, admodum turbulenta. Pueri residere nolebant: alius surgebat, alius clamabat, alius vicinum trudebat. Avidiana non irata est. In suggesto stans, magno cum lepore dixit: «Qui residet, stellas videt. Qui stat, tantum tergum vicini videt. Eligite.» Pueri riserunt et omnes resederunt.\n\nTum lumen extinctum est et stellae in tholo sublimi apparuerunt. Saltator vestibus aureis indutus in medio stetit: sol erat. Saltatrix vestibus caeruleis induta circa eum lente movebatur, et ipsa in se convertebatur: terra erat. Puella minima, vestibus argenteis induta, circa terram celerius revolvebatur: luna erat. Acustica, quae antea problema fuerat, nunc auxilio erat: musica lenis totum tholum implebat, et pueri etiam spiritum saltatorum audiebant.\n\nSpectaculum pueros fascinavit. Nemo surrexit, nemo clamavit. Avidiana in suggesto breviter explicabat quae saltatores ostenderent: cur dies et nox sint, cur luna formam mutet. Lepos eius pueros non minus fascinabat quam ipsa saltatio.\n\nPost spectaculum puer qui antea maxime clamaverat ad suggestum accessit. «Possumne», rogavit, «iterum venire cum parentibus?» Avidiana ridens respondit planetarium non solum discipulis, sed omnibus patere.\n\nModerator, qui in ultima sella sederat, nihil dixit nisi unum: «Spectaculum saltatorium singulis mensibus erit, et te iterum deputo ut id agas.»\n\nQuaestiones:\nUbi Avidiana stat dum caelum explicat?\nIn suggesto parvo prope machinam stat.\nAd quid moderator Avidianam deputavit?\nEam deputavit ut spectaculum saltatorium sub stellis pararet.\nQuale problema acustica tholi sublimis faciebat?\nMusica fortis sub tholo quasi in caverna resonabat.\nQuomodo Avidiana effecit ut pueri residerent?\nCum lepore dixit eos qui resident stellas videre; pueri riserunt et resederunt.\nQuid pueros fascinavit?\nSpectaculum saltatorium et lepos Avidianae pueros fascinaverunt."
+    },
+    {
+      "title": "Saltuarius et astronoma",
+      "summary": "In the mountain forest above Vicenza a forester helps a young astronomer through her summer nights of observation, soothing her insect bites and teaching her the night life of the woods.",
+      "newWords": [
+        "saltuarius",
+        "pungo",
+        "medeor",
+        "pluma",
+        "refreno",
+        "illicitus",
+        "effloresco"
+      ],
+      "text": "In montibus super Vicetiam, in silvis densis, stat specula astronomica parva. Cluviana, astronoma iuvenis, mense Iulio illuc venit ut per triginta noctes stellas variabiles observaret. Prima nocte ad speculam ambulavit cum lumine portatili tam forti ut tota silva illuminaretur.\n\nIn via vir canem ducens ei obviam venit. Ummidianus erat, saltuarius qui silvas circa speculam custodit. «Lumen tuum extingue, quaeso», inquit. «Hic noctu ignes et lumina fortia illicita sunt. Animalia silvae terrentur, et ipsi astronomi caelum obscurum desiderant.» Cluviana, rubore suffusa, lumen extinxit. Saltuarius ei lumen rubrum et debile dedit, quod oculis non nocet.\n\nProximis noctibus Cluviana didicit silvam noctu non quietam esse. Insecta minima circa caput eius volabant et manus eius pungebant; cum telescopium dirigebat, nihil facere poterat nisi se pungi sinere. Mane manus eius tumidae erant. Saltuarius, cum eas vidit, unguentum ex herbis silvae factum ei dedit. «Avia mea hoc unguentum faciebat», inquit. «Omnibus punctis medetur.» Et vere unguentum medebatur: post unum diem manus iam non dolebant.\n\nUmmidianus saepe noctu ad speculam veniebat. Canem suum, qui ad omnem sonum latrare volebat, voce refrenabat, et Cluvianae animalia nocturna monstrabat: cervos in prato, vulpem inter arbores, avem magnam quae sine ullo sono volabat. «Plumae eius tam molles sunt ut aerem non audiamus», explicavit. Quodam mane ante speculam plumam ingentem et mollem invenerunt, quam avis amiserat.\n\nOstendit ei etiam florem pallidum qui noctu tantum efflorescit. Interdiu clausus est; vespere, cum sol occidit, lente efflorescit, et insecta nocturna odore suo allicit. Cluviana florem carpere voluit, sed saltuarius eam monuit hoc quoque illicitum esse. Illa, quae stellas tam bene noverat, has res silvae numquam viderat.\n\nSaepe tamen media nocte nubes venerunt, et Cluviana, quae observationes perficere cupiebat, impatientiam suam vix refrenare poterat. «Caelum est ut flos», dixit saltuarius. «Non efflorescit quia tu id vis. Exspecta.» Illa iram refrenavit et exspectavit.\n\nUltima nocte mensis caelum serenissimum fuit. Cluviana observationes perfecit, et circa mediam noctem multae stellae cadentes caelum transcurrerunt. Mane Ummidiano imaginem caeli stellis cadentibus pleni dedit. Ille ei plumam avis nocturnae dedit, quam diligenter servaverat.\n\nQuaestiones:\nQuis est Ummidianus?\nSaltuarius est qui silvas circa speculam custodit.\nCur Ummidianus Cluvianam lumen extinguere iussit?\nQuia noctu ignes et lumina fortia illicita sunt in silva.\nQuid manus Cluvianae pungebat?\nInsecta minima manus eius pungebant.\nCui rei unguentum aviae medetur?\nUnguentum omnibus punctis medetur.\nQuando flos pallidus efflorescit?\nVespere, cum sol occidit, efflorescit, nec nisi noctu apertus est.\nQuid Ummidianus Cluvianae ultima nocte dedit?\nEi plumam avis nocturnae dedit."
+    },
+    {
+      "title": "Vilicus et stellae",
+      "summary": "On a farm near Mantua a vet comes at night to help a cow give birth; afterwards the old farm manager shows her the stars by which his grandfather timed the sowing.",
+      "newWords": [
+        "vilicus",
+        "frumentarius",
+        "fecunditas",
+        "bulbus",
+        "calcar",
+        "gregalis",
+        "veterinarius",
+        "plexus"
+      ],
+      "text": "Rubellianus iam triginta annos vilicus est in praedio magno prope Mantuam, in campis Padi. Dominus praedii in urbe habitat; vilicus autem omnia curat: agros frumentarios, horrea, boves, homines qui in agris laborant. Agri illi fecunditate clari sunt, nam limus fluminis per saecula terram pinguem fecit.\n\nNocte quadam mense Septembri vacca partum difficilem habebat, et Rubellianus medicam veterinariam vocavit. Herennilla, medica veterinaria iuvenis, post mediam noctem advenit. Cetera animalia in stabulo turbata erant; boves enim, ut omnia animalia gregalia, statim sentiunt si una ex eis laborat. Post horam bos parvus sanus natus est, et mater mox eum lambebat.\n\nFessi ambo ex stabulo exierunt et in scamno sederunt. Ad murum domus pendebant bulbi, in longos funes plexi, et corbes e salice plexae. In muro super scamnum etiam calcar vetus pendebat. «Avi mei erat», dixit Rubellianus. «Ille quoque vilicus fuit, sed equo vehebatur, non autocineto. Calcari tamen raro utebatur; dicebat equum bonum calcari non egere.»\n\nHerennilla sursum spectavit. Caelum serenum erat et stellis plenum, quia longe a lumine urbium aberant. «Nescio nomina stellarum», dixit. «In urbe numquam eas video.»\n\nRubellianus manum tetendit. «Videsne illum parvum gregem stellarum, quae inter se proximae sunt, quasi pecora in prato? Avus meus eas stellas gregales vocabat. Cum mane ante solem in oriente primum apparent, tempus est in agris frumentariis metere. Cum mane ante solem in occidente descendunt, tempus est arare et serere.» Explicavit avum suum nullo calendario usum esse, sed stellis, et fecunditatem agrorum non casu factam esse, sed quia omnia suo tempore fiebant.\n\n«Et bulbi?» rogavit Herennilla, bulbos plexos spectans.\n\n«Bulbos autumno in terram ponimus, cum illae stellae tota nocte lucent», respondit vilicus. «Hieme sub terra dormiunt. Vere, cum stellae gregales vesperi in occidente descendunt, folia viridia ex bulbis exeunt.»\n\nHerennilla diu tacuit. Ipsa animalia curat, non agros, sed intellexit vilicum et medicam veterinariam simile opus facere: ambo naturam observant et tempus suum exspectant.\n\nAntequam discessit, Rubellianus ei funem bulborum plexum dedit. «Pro bove parvo», inquit. «Et cum proxime venies, tibi alias stellas monstrabo.»\n\nQuaestiones:\nQuid Rubellianus in praedio prope Mantuam facit?\nVilicus est: agros frumentarios, horrea et boves curat.\nCur agri illi fecunditate clari sunt?\nQuia limus fluminis per saecula terram pinguem fecit.\nCur Rubellianus medicam veterinariam vocavit?\nVocavit quia vacca partum difficilem habebat.\nQuid in muro super scamnum pendebat?\nCalcar vetus avi pendebat.\nQuid avus Rubelliani faciebat cum stellae gregales mane apparebant?\nTum in agris frumentariis metebat."
+    },
+    {
+      "title": "Colloquium cum medica spatii",
+      "summary": "An interview in Toulouse with a doctor who looks after the crew of the space station: breathing, fluids in the body, food, hard training and a surgical kit that is almost never used.",
+      "newWords": [
+        "respiratorius",
+        "compressio",
+        "inhumanus",
+        "chirurgicus",
+        "alimentarius",
+        "infundo",
+        "fluidus",
+        "effectivus",
+        "fatigo"
+      ],
+      "text": "Velleiana Tolosae medica est eorum qui in statione spatiali circa terram vivunt. Antequam hoc officium suscepit, medica chirurgica in valetudinario fuit. Cum ea de corpore humano in spatio collocuti sumus.\n\nQuid accidit corpori humano cum in spatium venit?\nMulta mutantur. In terra gravitas fluida corporis, sanguinem et cetera, deorsum trahit. In spatio haec vis deest, et fluida corporis ad caput ascendunt. Itaque viatores spatii primis diebus faciem tumidam habent et caput eis dolet. Corpus tamen post paucos dies se accommodat.\n\nQuid de systemate respiratorio?\nIn statione aer purus servari debet, nam in loco tam parvo omnis pulvis et omnis vapor diu in aere manet. Systema respiratorium igitur diligenter observamus, nam morbi respiratorii in loco tam clauso celeriter ab uno ad omnes transeunt. Machinae aerem purgant et oxygenium reddunt; nos singulis hebdomadibus cum viatoribus loquimur et quaerimus num tussiant aut difficilius spirent.\n\nExercitationes viatorum inhumanae esse dicuntur. Verumne est?\nDura sunt, non inhumana. Inhumanum potius esset eos sine exercitationibus in spatio relinquere. Sine gravitate musculi et ossa cotidie debiliora fiunt. Itaque viatores duas horas cotidie se exercent, vinculis elasticis ad machinam alligati, quae compressionem corporis efficit quasi in terra. Haec compressio ossibus necessaria est. Exercitationes eos valde fatigant, praesertim primis mensibus, sed sine eis, cum in terram redeunt, vix ambulare possunt. Antequam proficiscuntur, in terra quoque per multos menses exercentur, et hae exercitationes eos interdum magis fatigant quam ipsum iter.\n\nEstne ratio effectiva?\nSatis effectiva est, quamquam non perfecta. Post sex menses viatores aliquid ossis amittunt, sed multo minus quam olim. Alias rationes effectivas quaerimus: cibos certos, medicamenta, alias machinas.\n\nQuid in statione edunt?\nRes alimentariae ab societatibus alimentariis peculiaribus parantur et ita servantur ut per multos menses bonae maneant. Ratio alimentaria diligenter computatur, ut singulis diebus satis virium habeant. Multi cibi sicci sunt. Aquam calidam in saccum cibi infundunt et exspectant. Aquam in poculum infundere non possunt: sine gravitate aqua non cadit, sed in globos fluidos se colligit et per stationem volat. Itaque omnia fluida e saccis bibuntur.\n\nQuid fit si quis graviter aegrotat?\nHoc timemus magis quam cetera. In statione arca chirurgica est cum instrumentis chirurgicis, et unus ex viatoribus semper rudimenta medicinae didicit. Opus chirurgicum magnum in statione fieri non potest: si opus est, viator in terram redit. Adhuc, quod bene accidit, arcam chirurgicam paene numquam aperuimus.\n\nQuid in opere tuo maxime amas?\nViatores ex statione terram videre dicunt quasi globum glaucum et fragilem. Eos audire, cum hoc narrant, me non fatigat.\n\nQuaestiones:\nQuid Velleiana fuit antequam medica viatorum spatii facta est?\nMedica chirurgica in valetudinario fuit.\nQuo fluida corporis in spatio ascendunt?\nAd caput ascendunt, quia gravitas deest.\nCur viatores machina compressionem corporis efficiente utuntur?\nQuia compressio ossibus necessaria est, quae sine gravitate debiliora fiunt.\nCur aquam in poculum infundere non possunt?\nQuia sine gravitate aqua non cadit, sed in globos fluidos se colligit.\nQuid fit si opus chirurgicum magnum necessarium est?\nViator in terram redit, quia tale opus in statione fieri non potest."
+    },
+    {
+      "title": "Gerundivum",
+      "summary": "In Verona a schoolgirl writes a Latin essay about the night sky for a competition; her teacher helps her with gerundives and with the accents of star names, and she has to shorten the text.",
+      "newWords": [
+        "gerundivum",
+        "diacriticus",
+        "excido",
+        "deterior",
+        "certitudo",
+        "modicum",
+        "reductio"
+      ],
+      "text": "Tettulla, discipula septendecim annos nata, Veronae in schola studet. Mense Februario magister eius Fadianus ei certamen Latinum commendavit: discipuli ex tota Italia commentationem Latinam de caelo nocturno scribere debebant, non plus quadringentis verbis. Tettulla, quae stellas amat, statim consensit.\n\nPrima commentatio longa et laeta erat. Tettulla de stellis scripsit quas ex fenestra sua videt, de luna, de planetis, de nominibus stellarum. Sed cum Fadiano commentationem ostendit, ille plurima gerundiva correxit. «Scripsisti \"ad stellas observandum\"», inquit. «Hic gerundivum debes: \"ad stellas observandas\". Gerundivum cum nomine congruit, ut adiectivum.» Tettulla regulam bene noverat, sed scribendo regula ei ex animo exciderat.\n\nDeinde de nominibus stellarum locuti sunt. Multae stellae nomina ex lingua Arabica habent, quae in libris recentibus cum signis diacriticis scribuntur: lineolis super litteras, punctis sub litteris. Tettulla haec signa diacritica omnia diligenter exscripserat. «In textu Latino», dixit Fadianus, «signa diacritica omittimus. Latine scribimus ut scriptores antiqui, sine notis super litteras.» Itaque omnia signa diacritica delevit.\n\nErat etiam problema maius: commentatio sexcenta verba habebat, non quadringenta. Reductio necessaria erat. Tettulla primo totas sententias delevit, sed secunda commentatio deterior erat quam prima: sine illis sententiis argumentum non iam clarum erat. Fadianus ei consilium dedit: «Reductio non est sententias delere, sed verba superflua. Pro tribus adiectivis scribe unum, sed bonum.» Itaque Tettulla omnem sententiam iterum legit et ex singulis modicum verborum demebat. Tertia commentatio brevior erat neque deterior; immo melior.\n\nPridie quam commentationem mittere debebat, Tettulla certitudinem amisit. Gerundivane nunc recta erant? Excideratne ei aliqua regula? Fadianus ei modicum temporis dedit ut omnia iterum legeret. «Certitudinem perfectam numquam habebis», dixit. «Sed satis bene laboravisti.» Illa legit; nulla regula ei exciderat, sed unum gerundivum etiam correxit. Deinde commentationem misit.\n\nMense Maio litterae venerunt: Tettulla secundum locum in certamine obtinuerat. Qui commentationes legerant eius textum clarum et purum laudaverant, praesertim gerundiva.\n\nQuaestiones:\nQuid discipuli in certamine scribere debebant?\nCommentationem Latinam de caelo nocturno scribere debebant, non plus quadringentis verbis.\nQuid Fadianus in prima commentatione correxit?\nPlurima gerundiva correxit, quae Tettullae scribendo ex animo exciderant.\nQuid Tettulla cum signis diacriticis fecit?\nOmnia signa diacritica delevit, quia in textu Latino omittuntur.\nCur secunda commentatio deterior erat quam prima?\nQuia Tettulla totas sententias deleverat et argumentum non iam clarum erat.\nQuomodo reductio tandem bene facta est?\nTettulla ex singulis sententiis modicum verborum superfluorum demebat.\nQuid Fadianus de certitudine dixit?\nDixit certitudinem perfectam numquam haberi posse, sed Tettullam satis bene laboravisse."
+    },
+    {
+      "title": "Consanguinei stellarum",
+      "summary": "A column from Trieste by an adoptive mother whose ten-year-old son asked who his blood relatives were; under the stars she answered him with what astronomy teaches.",
+      "newWords": [
+        "adoptivus",
+        "consanguineus",
+        "transcendo",
+        "segrego",
+        "cunctor",
+        "revereor",
+        "redintegro"
+      ],
+      "text": "Filius meus Albucianus decem annos natus est. Eum ante octo annos adoptavimus, cum duos annos natus esset; ego mater adoptiva sum, maritus meus pater adoptivus. Hoc ei semper aperte diximus, nec umquam celavimus.\n\nAestate proxima, cum vespere in litore prope Tergeste sederemus, Albucianus subito rogavit: «Mater, quis est consanguineus meus? Habeone fratres, quos numquam vidi?»\n\nDiu cunctabar. Non quia responsum nesciebam, sed quia verba quaerebam quae ei non dolerent. Scio multos parentes adoptivos in tali re cunctari: alii nimium dicunt, alii nihil. Dum ego cunctor, Albucianus caelum spectabat, quod iam stellis plenum erat.\n\nTum responsum inveni, et ei de stellis narravi. Omnia fere elementa corporis nostri, ferrum in sanguine, calcem in ossibus, olim in stellis antiquis nata sunt, quae diu ante solem nostrum exarserunt et disparuerunt. Ex earum reliquiis terra facta est, et ex terra nos omnes. «Sic», dixi, «omnes homines quodam modo consanguinei sunt: sanguis noster ex eisdem stellis venit.»\n\nAlbucianus risit. «Ergo tu quoque consanguinea mea es.»\n\n«Quodam modo, ita», respondi. «Sed familia nostra non e sanguine solo facta est. Amor sanguinem transcendit, sicut lux stellarum spatium immensum transcendit.»\n\nHoc vere credo: amor qui sanguinem transcendit non minor est quam amor sanguinis, sed fortasse maior, quia electus est.\n\nTum ei verum etiam dixi: matrem eius, quae eum genuit, vivere, et eum, cum adulescens esset, eam quaerere posse, si vellet. Ego illam mulierem revereor. Vitam filio meo dedit, et eum aliis dare constituit, quia ipsa ei consulere non poterat. Hoc consilium difficillimum fuisse puto. Volo Albucianum quoque eam revereri, non timere neque odisse.\n\nScribo haec quia multi etiam nunc liberos adoptivos ab aliis segregant, quasi minus filii sint. Nonnulli eos ne interrogare quidem sinunt, nec historiam eorum narrant. Hoc errorem esse puto. Puer qui veritatem suam ignorat, a ceteris segregatum se sentit. Puer qui eam novit, se partem familiae et mundi sentit.\n\nIlla nocte in litore aliquid inter nos redintegratum est. Albucianus, qui per aliquot menses taciturnior fuerat, iterum loquax factus est. Postea etiam ipse librum de stellis legere coepit, et familiam nostram fiduciam redintegrasse puto. Nunc quotiens noctu in litore sedemus, ille stellam aliquam monstrat et dicit: «Ecce, alter consanguineus noster.»\n\nQuaestiones:\nQuot annos natus erat Albucianus cum eum adoptaverunt?\nDuos annos natus erat.\nQuid Albucianus in litore rogavit?\nRogavit quis consanguineus suus esset et num fratres haberet.\nCur mater cunctabatur?\nCunctabatur quia verba quaerebat quae ei non dolerent.\nQuomodo omnes homines consanguinei sunt?\nElementa corporis nostri ex eisdem stellis antiquis venerunt.\nCur mater mulierem quae Albucianum genuit reveretur?\nQuia ei vitam dedit et consilium difficillimum cepit.\nQuid multi etiam nunc cum liberis adoptivis faciunt, ut mater scribit?\nEos ab aliis segregant, quasi minus filii sint.\nQuid illa nocte in litore redintegratum est?\nAliquid inter matrem et filium redintegratum est, et Albucianus iterum loquax factus est."
+    }
+  ]
+}
