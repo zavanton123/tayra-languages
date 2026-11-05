@@ -1,0 +1,200 @@
+{
+  "id": "la-mini-7800",
+  "rankUpTo": 7800,
+  "level": "C1",
+  "title": "Officia publica",
+  "description": "Ten everyday stories about public services: a library, health centres, a registry, a language course, the tax office, a botanical garden, a day centre, a harbour office, a science museum and a swimming pool.",
+  "topic": "Public services",
+  "names": [
+    "Verona",
+    "Betuciana",
+    "Vesnianus",
+    "Patavium",
+    "Oppiana",
+    "Papirianus",
+    "Italia",
+    "Tarentum",
+    "Rabiriana",
+    "Volusianus",
+    "Nasidiana",
+    "Bononia",
+    "Statiliana",
+    "Sentianus",
+    "Mediolanum",
+    "Mummianus",
+    "Cestiana",
+    "Pisae",
+    "Europa",
+    "Egnatianus",
+    "Epidiana",
+    "Comum",
+    "Aquiliana",
+    "Tettianus",
+    "Ravenna",
+    "Afranianus",
+    "Cuspiana",
+    "Monacum",
+    "Ofiliana",
+    "Decriana",
+    "Vindobona",
+    "Umbreniana",
+    "Herminianus"
+  ],
+  "lessons": [
+    {
+      "title": "Hetaeria lectorum",
+      "summary": "A forgetful old reader joins the reading club of the public library in Verona.",
+      "newWords": [
+        "hetaeria",
+        "confabulatio",
+        "fabulor",
+        "interdictio",
+        "immemor",
+        "portabilis",
+        "membranaceus",
+        "perspicuitas",
+        "tribalis"
+      ],
+      "text": "Veronae bibliotheca publica in aedificio veteri prope flumen sita est. Betuciana, quae ibi bibliothecaria est, semel in mense hetaeriam lectorum convocat. Haec hetaeria parva societas civium est qui libros amant: in aula superiore conveniunt et de libro quem omnes legerunt inter se fabulantur.\n\nHoc autumno Vesnianus, senex septuaginta annos natus, primum in hetaeriam venit. Vir comis et urbanus est, sed valde immemor: libros saepe in tramine relinquit, et diem quo reddendi sunt facile obliviscitur. Betuciana igitur ei non librum chartaceum, sed lectorium portabile commodavit, quod multos libros forma digitali continet. «Hoc instrumentum portabile leve est et in sacculo facile fertur», inquit. «Praeterea ipsum te monebit, cum tempus legendi finietur. Ita ne lector quidem immemor librum sero reddet.»\n\nAntequam hetaeria convenit, Betuciana senem per bibliothecam duxit et regulas explicavit. «Duae sunt interdictiones in bibliotheca nostra», inquit. «Prima: in conclavi legendi nec cibus nec potio admittitur, quia libri facile maculantur. Altera: ibi nemo clara voce loquitur. Haec altera interdictio in aula non valet; ibi confabulatio libera est, et fabulari, ridere, etiam disputare licet.»\n\nIn conclavi legendi armarium vitreum stabat, in quo codex membranaceus apertus iacebat. «Hic codex ante sescentos fere annos scriptus est», dixit Betuciana. «Membranae ex pellibus ovium factae sunt et diutius quam charta durant; ideo codices membranacei tot saecula superaverunt.» Vesnianus litteras diu spectavit et perspicuitatem earum miratus est. «Post sescentos annos», inquit, «haec scriptura eadem perspicuitate legitur qua libri hodierni.»\n\nIn aula imagines artis tribalis pendebant, quas bibliotheca eo mense ostendebat: textilia multis coloribus picta, vasa fictilia, ornamenta e conchis facta. Liber enim quem hetaeria legerat de muliere erat quae multos annos inter gentes tribales in silvis magnis vixerat et artem earum diligenter descripserat.\n\nConfabulatio diu et laete processit. Alii perspicuitatem scriptricis laudabant, alii dicebant eam de vita tribali nimis breviter narrare. Vesnianus primo tacebat; deinde fassus est se nomen ipsius libri oblitum esse, quamquam totum eum legisset. Omnes riserunt, et Betuciana ei in lectorio portabili nomen libri monstravit, quod in prima pagina scriptum erat.\n\nCum hetaeria discederet, Vesnianus promisit se mense proximo rediturum esse. «Nisi immemor fuero», addidit ridens.\n\nQuaestiones:\nQuid est hetaeria lectorum?\nEst parva societas civium qui libros amant et de libro quem omnes legerunt inter se fabulantur.\nCur Betuciana Vesniano lectorium portabile commodavit?\nQuia Vesnianus valde immemor est et libros saepe relinquit aut sero reddit.\nQuae sunt duae interdictiones bibliothecae?\nIn conclavi legendi nec cibus nec potio admittitur, et ibi nemo clara voce loquitur.\nCur codices membranacei tot saecula superaverunt?\nQuia membranae ex pellibus ovium factae diutius quam charta durant.\nQuas imagines bibliotheca in aula ostendebat?\nImagines artis tribalis ostendebat: textilia picta, vasa fictilia, ornamenta e conchis facta.\nQuid Vesnianus in confabulatione fassus est?\nSe nomen ipsius libri oblitum esse, quamquam totum eum legisset."
+    },
+    {
+      "title": "Consilium ante iter",
+      "summary": "Before working abroad, an engineer gets advice on malaria at a public health centre near Padua.",
+      "newWords": [
+        "sanatorius",
+        "aestuosus",
+        "umiditas",
+        "malaria",
+        "exhortor",
+        "flabellum",
+        "sequela",
+        "medicamentarius"
+      ],
+      "text": "Prope Patavium in colle viridi aedificium album et longum stat, quod saeculo XIX sanatorium erat. In domo sanatoria aegroti olim per multos menses aerem purum spirabant et in porticibus sub sole quiescebant. Hodie in eodem sanatorio est valetudinarium publicum, in quo medici etiam peregrinatoribus consilium dant, priusquam in terras longinquas proficiscuntur.\n\nOppiana, quae puteos aedificat, mense proximo in regionem aestuosam et longinquam proficiscetur, ubi tres menses laborabit. Cum Papirianum medicum convenisset, statim ab eo quaesivit quid sibi timendum esset. «Illa regio non solum aestuosa, sed etiam umida est», respondit Papirianus. «Umiditas aeris ibi multo maior est quam in Italia. In tanta umiditate et calore culices innumerabiles nascuntur, et quidam ex iis malariam ab homine ad hominem transferunt.»\n\nMedicus explicavit malariam morbum esse qui febres graves afferret, sed facile vitari, si quis prudens esset. «Te igitur exhortor ut tria facias», inquit. «Primum, vesperi et noctu vestes longas geras et cutem unguento contra culices tegas. Deinde sub reti tenui dormias. Tertium, tabellas contra malariam cotidie sumas, etiam per quattuor hebdomades postquam domum redieris. Hoc tertium maxime te exhortor ne obliviscaris.»\n\n«Etiam flabellum electricum utile est», addidit. «Ventus flabelli culices, qui leves sunt et male volant, fugat, et in aere aestuoso somnum adiuvat.» Oppiana risit et dixit se flabellum parvum iam emisse, quod secum ferre posset.\n\nDeinde de tabellis quaesivit. «Habentne hae tabellae sequelas?» «Plerumque nullas», respondit Papirianus. «Interdum tamen sequelae leves apparent, ut dolor capitis aut stomachus turbatus. Si qua sequela tibi molesta erit, medicum loci adi.» Postea chartulam scripsit et Oppianae dedit. «Hanc chartulam in taberna medicamentaria trade. Medicamentarius tibi tabellas dabit et iterum explicabit quomodo eas sumere debeas.»\n\nEodem die Oppiana in tabernam medicamentariam oppidi intravit. Medicamentarius, vir senex et patiens, tabellas in pyxide posuit et eam quoque exhortatus est ut eas semper post cenam sumeret, ne stomachus turbaretur. Praeterea ei unguentum contra culices vendidit, quod etiam in umiditate magna non cito evanescit.\n\nDomi Oppiana omnia ad iter paravit: tabellas, unguentum, rete tenue, flabellum. Nunc iter non iam timebat.\n\nQuaestiones:\nQuid olim erat aedificium album prope Patavium?\nSanatorium erat, in quo aegroti per multos menses aerem purum spirabant.\nQualis est regio in quam Oppiana proficiscetur?\nAestuosa et umida est.\nCur umiditas et calor periculosa sunt?\nQuia in iis culices innumerabiles nascuntur, quorum quidam malariam transferunt.\nAd quae tria Papirianus Oppianam exhortatus est?\nUt vestes longas gereret et cutem unguento tegeret, ut sub reti dormiret, ut tabellas cotidie sumeret.\nQuid flabellum electricum facit?\nCulices fugat et in aere aestuoso somnum adiuvat.\nQuas sequelas tabellae interdum habent?\nSequelas leves, ut dolorem capitis aut stomachum turbatum."
+    },
+    {
+      "title": "Nomen infantis",
+      "summary": "At the public health centre in Taranto, a couple waiting for a baby finally choose its name.",
+      "newWords": [
+        "praerogativus",
+        "cifra",
+        "uterinus",
+        "renuntiatio",
+        "praemitto",
+        "nominatio",
+        "defugio",
+        "consono",
+        "hilaritas"
+      ],
+      "text": "Tarenti valetudinarium publicum etiam matribus futuris servit: obstetrices ibi feminas gravidas per omnes menses graviditatis inspiciunt et consilio adiuvant. Rabiriana, quae iam octavum mensem gravida est, cum Volusiano marito ad ultimam inspectionem venit.\n\nIn atrio multi homines ordine exspectabant. Feminae gravidae tamen praerogativam habent: tesseram praerogativam accipiunt et ante ceteros vocantur. Volusianus tesseram uxoris spectavit. «Ante cifras littera P scripta est», inquit, «quae praerogativam significat. Ceterorum tesserae solis cifris notantur.» Paulo post eaedem cifrae in tabula electrica apparuerunt, et coniuges in conclave obstetricis intraverunt.\n\nObstetrix, femina comis et tranquilla, infantem in monitorio ostendit, quem machina sonis non auditis depingebat. «Haec est vita uterina infantis vestri», inquit. «In vita uterina infans iam multa discit: sonos audit, praesertim vocem matris, et bracchia cruraque movet. Videte: nunc manum ad os admovet.» Deinde magnitudinem capitis et corporis notavit et omnia in computatro scripsit.\n\n«Omnia bene se habent», dixit. «Renuntiationem huius inspectionis ad medicum vestrum praemittam, ut ante partum omnia sciat. Eandem renuntiationem etiam ad nosocomium praemittam, ubi infans nascetur. Ita, cum eo veneritis, nullam chartam afferre debebitis.»\n\nDeinde quaesivit num iam nomen elegissent. «Post partum enim infans intra decem dies in tabulario oppidi declarandus est», explicavit. «Ibi nominatio fit: pater aut mater nomen infantis profitetur, et scriba id in tabulas publicas refert. Post nominationem nomen mutare difficile est.» Rabiriana et Volusianus inter se aspexerunt. Per multos menses hanc quaestionem defugerant, quia numquam consentiebant. «Quotiens de nomine loqui coepimus», fassus est Volusianus, «alteruter rem defugit et de alia re loqui incipit.»\n\nVolusianus nomen longum aviae suae proponebat; Rabiriana autem dicebat id cum cognomine non bene consonare. «Nomen et cognomen consonare debent», inquit, «nam infans ea per totam vitam simul audiet.» Obstetrix suasit ut nomina clara voce cum cognomine dicerent: quod optime consonaret, id eligerent.\n\nConiuges igitur nomina alia post alia clara voce dixerunt. Quaedam tam longa erant ut vix uno spiritu pronuntiari possent, quaedam tam brevia ut cum cognomine nullo modo consonarent. Hilaritas mox totum conclave implevit, et ipsa obstetrix cum iis risit. Tandem Rabiriana dixit «Nasidiana», et ambo statim consenserunt: hoc nomen et breve et sonorum erat et cum cognomine optime consonabat.\n\nPleni hilaritate domum redierunt. Nominationem iam non defugiebant, sed exspectabant.\n\nQuaestiones:\nCur Rabiriana ante ceteros vocata est?\nQuia feminae gravidae praerogativam habent et tesseram praerogativam accipiunt.\nQuid infans in vita uterina iam facit?\nSonos audit, praesertim vocem matris, et bracchia cruraque movet.\nQuo obstetrix renuntiationem praemittet?\nAd medicum coniugum et ad nosocomium, ubi infans nascetur.\nQuid fit in tabulario oppidi?\nIbi nominatio fit: pater aut mater nomen infantis profitetur, et scriba id in tabulas publicas refert.\nCur coniuges quaestionem de nomine defugerant?\nQuia numquam consentiebant.\nQuid obstetrix eis suasit?\nUt nomina clara voce cum cognomine dicerent et id eligerent quod optime consonaret."
+    },
+    {
+      "title": "Schola linguae",
+      "summary": "In a free public language course in Bologna, a homesick cook learns the predicative adjective and gets his qualification recognised.",
+      "newWords": [
+        "tertiarius",
+        "qualificatio",
+        "melancholicus",
+        "compatriota",
+        "praedicativus",
+        "reprehensio",
+        "contristo",
+        "confutatio"
+      ],
+      "text": "Bononiae centrum publicum hominibus qui ex terris longinquis in urbem venerunt scholas linguae gratis praebet. Statiliana ibi vesperi docet. In classe eius quindecim discipuli adulti sunt, coqui, nutrices, operarii, qui interdiu laborant et post laborem ad scholam veniunt.\n\nSentianus, coquus quadraginta annos natus, in patria sua multos annos in deversorio magno coxerat et diploma coqui habebat. Hic tamen eius qualificatio nondum agnita erat. In officio laboris ei dictum erat qualificationem eius tum demum agnitum iri, cum linguam urbis bene loqueretur. «Plerique advenae in sectore tertiario laborant», explicaverat scriba: «in cauponis, deversoriis, tabernis. Sector tertiarius homines quaerit qui cum hospitibus loqui possint.»\n\nPrimis hebdomadibus Sentianus melancholicus erat. Uxorem et liberos, qui adhuc in patria manebant, valde desiderabat, et vesperi in parvo cubiculo solus sedebat. Duo tamen compatriotae, qui in eadem classe erant, eum adiuvabant. In intervallo scholae cum compatriotis lingua sua loquebatur, et post scholam una cenabant. Ita animus eius paulatim minus melancholicus factus est.\n\nQuodam vespere Statiliana de adiectivo praedicativo docuit. In tabula scripsit: «Sentianus laetus domum redit.» «Hic ‹laetus› adiectivum praedicativum est», explicavit. «Non solum dicit qualis sit Sentianus, sed qualis sit dum domum redit. Adiectivum praedicativum ad subiectum pertinet, sed simul cum verbo coniungitur.» Deinde quisque discipulus sententiam cum adiectivo praedicativo scribere debuit.\n\nSentianus scripsit: «Ego fessa ad scholam venio.» Statiliana errorem benigne notavit: vir enim «fessus» dicere debet, non «fessa». Haec reprehensio tamen Sentianum contristavit. Post scholam magistrae dixit se, quadraginta annos natum, novam linguam discere non iam posse; omnem reprehensionem se contristare, quia sibi videretur nihil profecisse.\n\nStatiliana non contradixit verbis, sed rebus. Ex armario chartam protulit quam Sentianus primo die scripserat: tres tantum sententias, plenas errorum. Iuxta eam posuit chartam huius vesperi: decem sententias, in quibus unus solus error erat. «Haec est confutatio sententiae tuae», inquit. «Non ego te refuto, sed tu ipse. Confutatio melior quam haec non est. Et reprehensio mea non contristare te debet: est enim auxilium, non poena.»\n\nPost quinque menses Sentianus examen linguae superavit, et officium laboris qualificationem eius agnovit. Nunc in caupona prope forum coquit. Ultimo die scholae Statilianae chartulam dedit, in qua scriptum erat: «Sentianus laetus laborat.» Infra manu sua addiderat: «Adiectivum praedicativum!»\n\nQuaestiones:\nQuibus hominibus centrum publicum scholas linguae praebet?\nHominibus qui ex terris longinquis in urbem venerunt.\nCur qualificatio Sentiani nondum agnita erat?\nQuia linguam urbis nondum bene loquebatur.\nQuis Sentianum melancholicum adiuvabat?\nDuo compatriotae, qui in eadem classe erant.\nQuid est adiectivum praedicativum?\nAdiectivum quod ad subiectum pertinet, sed simul cum verbo coniungitur.\nCur reprehensio magistrae Sentianum contristavit?\nQuia sibi videbatur nihil profecisse.\nQuomodo Statiliana sententiam Sentiani refutavit?\nChartam primi diei cum charta huius vesperi comparavit; haec erat confutatio sententiae eius."
+    },
+    {
+      "title": "Epistola inexspectata",
+      "summary": "A calm retired businessman in Milan goes to the tax office about a wrong bill for his car.",
+      "newWords": [
+        "temperans",
+        "inexspectatus",
+        "autoraeda",
+        "fabricatorius",
+        "querimonia",
+        "exactor",
+        "quantitativus",
+        "promissio",
+        "devincio"
+      ],
+      "text": "Mummianus, senex qui Mediolani habitat, vir temperans et diligens est. Per triginta annos parvam societatem fabricatoriam administravit, quae mensas et sellas ex ligno faciebat; rationes semper accurate servabat et vectigalia tempore solvebat. Itaque valde miratus est cum epistolam inexspectatam accepit: officium vectigalium ab eo pro autoraeda sua vectigal duplex poscebat.\n\nHomo minus temperans statim iratus fuisset. Mummianus autem epistolam inexspectatam bis legit, deinde querimoniam brevem et urbanam scripsit. Querimoniam tamen non per cursum publicum misit, sed postridie ipse ad officium vectigalium iit.\n\nIn atrio officii tabula erat: «Querimoniae». Ibi Cestiana, scriba iuvenis, eum benigne excepit. «Olim», dixit Mummianus ridens, «exactores domos civium circumibant et vectigalia manu colligebant. Exactor saltem audiebat quod civis diceret; computatrum nihil audit.» «Exactores iam nulli sunt», respondit Cestiana, «sed ego te audiam. Ostende mihi epistolam.»\n\nCestiana explicavit computatrum vectigal autoraedae ex rationibus quantitativis computare: ex pondere autoraedae, ex vi machinae, ex quantitate fumi quem emittit. «Hae rationes quantitativae pro omnibus eaedem sunt», inquit. «Si tamen data falsa sunt, etiam vectigal falsum fit.» Deinde data in computatro inspexit et causam erroris invenit: autoraeda Mummiani adhuc ut vehiculum societatis fabricatoriae scripta erat, non ut vehiculum privatum. Societatibus autem fabricatoriis vectigal duplex imponitur.\n\n«Societatem meam ante duos annos vendidi», dixit Mummianus. «Autoraedam tamen retinui.» Cestiana errorem statim correxit. «Tibi promitto», inquit, «intra triginta dies novam epistolam te accepturum esse, et pecuniam quam nimis solveris tibi redditum iri.» Mummianus, ut homo diligens, rogavit num hanc promissionem etiam scripto dare posset. Cestiana promissionem brevem in charta scripsit et sigillo officii notavit.\n\nMummianus comitate scribae devinctus est. «Saepe homines de officiis publicis queruntur», dixit. «Ego posthac narrabo quomodo hic exceptus sim.» Etiam Cestianam vir temperans sibi devinxit. «Raro querimoniam tam urbanam audio», respondit.\n\nPost tres hebdomades epistola nova advenit; haec iam non inexspectata erat. Cestiana promissionem servaverat: vectigal correctum erat, et pecunia reddita. Mummianus Cestianae chartulam gratiarum misit, in qua scripsit se exactoribus antiquis officium modernum praeferre.\n\nQuaestiones:\nQualis vir est Mummianus?\nVir temperans et diligens est.\nQuid in epistola inexspectata scriptum erat?\nOfficium vectigalium pro autoraeda eius vectigal duplex poscebat.\nEx quibus rationibus quantitativis vectigal autoraedae computatur?\nEx pondere autoraedae, ex vi machinae, ex quantitate fumi quem emittit.\nQuae erat causa erroris?\nAutoraeda adhuc ut vehiculum societatis fabricatoriae scripta erat.\nQuid Cestiana promisit?\nIntra triginta dies novam epistolam venturam et pecuniam redditum iri.\nQuid Mummianus postea Cestianae misit?\nChartulam gratiarum, in qua scripsit se exactoribus antiquis officium modernum praeferre."
+    },
+    {
+      "title": "Hortus muratus",
+      "summary": "A gardener shows a boy round the walled public botanical garden in Pisa.",
+      "newWords": [
+        "muratus",
+        "officinalis",
+        "olivarius",
+        "quincunx",
+        "fibrosus",
+        "structilis",
+        "carnivorus",
+        "gryllus"
+      ],
+      "text": "Pisis hortus botanicus publicus est, qui inter vetustissimos Europae numeratur. Totus muris altis cingitur; hortus muratus enim plantas a ventis frigidis tuetur et calorem solis diutius servat. Egnatianus, puer undecim annos natus, opus scholae de plantis utilibus parabat, et Epidiana, quae in horto murato hortulana est, eum per hortum duxit.\n\nPrimum ad areas herbarum officinalium venerunt. «Herbae officinales dicuntur», explicavit Epidiana, «quia olim in officinis medicamentariorum parabantur et ad morbos sanandos adhibebantur. Haec salvia officinalis est, illa menta; utraque etiam hodie in multis medicamentis invenitur.» Egnatianus folia salviae officinalis tetigit et odorem eorum diu in digitis servavit.\n\nPrope murum molam olivariam veterem viderunt, magnum lapidem rotundum in alveo lapideo. «Hac mola olivaria olim olivae terebantur», dixit Epidiana. «Ex olivis tritis oleum premebatur.» Post molam olivariam arbores olivae stabant, in quincunce positae. «Quid est quincunx?» quaesivit Egnatianus. Epidiana eum ad angulum duxit. «Quinque arbores sic ponuntur ut quattuor in angulis quadrati sint, quinta in medio, sicut quinque puncta in tessera. Si multae arbores in quincunce ponuntur, ordines recti apparent, quamcumque in partem spectas.» Egnatianus de angulo in angulum ambulavit et vidit ordines arborum semper rectos esse.\n\nDeinde plantas fibrosas ostendit. Folia agaves longa et dura erant. «Haec folia fibrosa sunt», inquit Epidiana. «Ex fibris eorum olim funes et sacci fiebant. Etiam radices graminis fibrosae sunt: multas tenues radices habent, non unam crassam.»\n\nPostremo in tepidarium structile intraverunt, quod saeculo XIX ex lateribus et vitro aedificatum erat. Muri structiles calorem diei servant et noctu reddunt. Ibi plantae carnivorae crescebant. Aliae folia habebant quae sicut ora parva se claudebant, aliae vascula umida in quae insecta labuntur. «Plantae carnivorae in terra pauperi crescunt», explicavit Epidiana, «et quod terra eis non dat, ex insectis capiunt. Muscas et formicas plerumque capiunt.»\n\n«Capiuntne etiam gryllos?» quaesivit Egnatianus. «Raro», respondit hortulana. «Grylli plerumque nimis magni et fortes sunt. Sed vesperi audies gryllos in gramine horti cantare. Mares alas inter se fricant, et ita sonus ille oritur.»\n\nVesperi Egnatianus in gramine iuxta murum sedit et gryllos diu audivit. Domi in opere suo scripsit hortum muratum non solum plantis, sed etiam gryllis domum esse.\n\nQuaestiones:\nCur hortus muratus plantis utilis est?\nQuia plantas a ventis frigidis tuetur et calorem solis diutius servat.\nCur herbae officinales sic dicuntur?\nQuia olim in officinis medicamentariorum parabantur.\nQuid olim mola olivaria faciebat?\nOlivas terebat, ut ex iis oleum premeretur.\nQuomodo arbores in quincunce ponuntur?\nQuattuor in angulis quadrati, quinta in medio, sicut quinque puncta in tessera.\nQuid ex foliis fibrosis agaves olim fiebat?\nFunes et sacci fiebant.\nQuid plantae carnivorae capiunt?\nMuscas et formicas plerumque capiunt, gryllos raro."
+    },
+    {
+      "title": "Prandium senum",
+      "summary": "The cook of a day centre for old people in Como makes cabbage and carrot soup, and a barber comes after lunch.",
+      "newWords": [
+        "olla",
+        "brassica",
+        "daucum",
+        "sorbitium",
+        "mucidus",
+        "triticeus",
+        "accumbo",
+        "tonsura",
+        "respecto"
+      ],
+      "text": "Comi centrum diurnum senum est, ubi homines aetate provecti, qui soli habitant, cotidie una prandent et tempus in societate agunt. Aquiliana ibi coqua est. Mane ad culinam venit, ollam magnam in foco ponit et sorbitiones coquit; nam multi senes cibos duros non iam bene mandunt, sed sorbitiones calidas amant.\n\nHodie sorbitio ex brassica et dauco parabatur. Brassicam in frusta secuit, daucum in orbiculos, et utrumque cum cepa et oleo in ollam misit. «Brassica stomacho prodest», dicere solet, «daucum oculis.» Tettianus, senex octoginta annos natus, qui olim pistor fuerat, saepe ante prandium in culinam intrabat ut coquam adiuvaret. Hodie dauci frusta ei porrexit, et Aquiliana ea in ollam addidit.\n\nTum panis a pistrino allatus est. Aquiliana saccum aperuit et statim frontem contraxit: panis mucidus erat, maculis viridibus et albis tectus. «Panem mucidum dare non possumus», inquit. «Etiam si maculam mucidam abscideris, mucor in toto pane latet.» Tettianus subrisit. «Farinam triticeam habesne? Panes planos parare possumus; non diu coquuntur.» Aquiliana farinam triticeam, aquam, salem et paulum olei protulit, et senex pastam manibus peritis subegit. Paulo post panes plani et tepidi in mensa erant, quorum odor farinae triticeae totam culinam implebat.\n\nMeridie senes ad mensas longas accubuerunt. Qui difficilius ambulabant, eos Aquiliana ad sellas duxit et accumbere adiuvit. Sorbitio ex olla calida in pateras infundebatur, et omnes sorbitionis brassicae et dauci saporem laudaverunt. Panes triticeos Tettiani etiam magis laudaverunt.\n\nPost prandium tonsor publicus advenit, qui semel in mense in centrum venit et senibus tonsuram gratis praebet. Tonsura in angulo atrii fit, ubi sella alta et speculum stant. Tettianus primus sedit. Tonsorem rogavit ut capillos albos tonderet, sed non nimis breves. Tonsor diligenter laboravit, et tonsura brevi tempore finita est.\n\nCum Tettianus discederet, in speculum etiam atque etiam respectabat. «Quid respectas?» quaesivit Aquiliana ridens. «Tonsuram novam», respondit senex. «Post talem tonsuram decem annis iunior videor.» Etiam in limine se vertit et respectavit, deinde laetus domum ambulavit.\n\nQuaestiones:\nCur multi senes in centro sorbitiones amant?\nQuia cibos duros non iam bene mandunt.\nEx quibus rebus hodie sorbitio parabatur?\nEx brassica et dauco, cum cepa et oleo.\nCur panis a pistrino allatus dari non potuit?\nQuia mucidus erat, maculis viridibus et albis tectus.\nQuid Tettianus ex farina triticea fecit?\nPanes planos fecit, qui non diu coquuntur.\nQuid tonsor publicus semel in mense facit?\nIn centrum venit et senibus tonsuram gratis praebet.\nCur Tettianus in speculum respectabat?\nQuia tonsuram novam spectabat et sibi iunior videbatur."
+    },
+    {
+      "title": "Officium portus",
+      "summary": "A young man in Ravenna learns at the harbour office how to sail his small boat along the canal to the sea.",
+      "newWords": [
+        "velifer",
+        "navigabilis",
+        "signale",
+        "ancora",
+        "ligatio",
+        "seges",
+        "inno",
+        "effusio",
+        "sordes"
+      ],
+      "text": "Ravennae fossa longa ab urbe ad mare ducit. Afranianus, iuvenis viginti annos natus, naviculam veliferam ab avunculo emerat et per fossam ad mare navigare volebat. Antequam primum navigaret, ad officium portus iit, ubi Cuspiana, quae ibi navigationem fossae curat, eum benigne excepit.\n\n«Estne tota fossa navigabilis?» quaesivit Afranianus. «Navigabilis est naviculis parvis», respondit Cuspiana, «sed non ubique eodem modo. Prope urbem fossa angusta est, et naves magnae onerariae ibi navigant; navicula velifera eas semper praeterire sinere debet. Pars autem quae iuxta oram est navigabilis est etiam navigiis maioribus.»\n\nDeinde ei tabulam signalium ostendit. «In ponte mobili tria signalia lucent», explicavit. «Signale rubrum significat: siste. Signale viride: transi. Si signale flavum lucet, pons mox aperietur, et exspectare debes.» Afranianus signalia diligenter in libello scripsit.\n\n«Possumne ancoram in fossa iacere, si fessus ero?» «In media fossa ancoram iacere non licet», dixit Cuspiana, «quia naves aliae transire debent. In locis ad hoc factis aut navem ad anulos ligare aut ancoram iacere potes.» Tum ei funem dedit et ligationem nautarum docuit, nodum firmum qui tamen facile solvitur. Afranianus ligationem ter fecit, donec sine errore eam faceret.\n\nPostridie mane Afranianus a portu urbis profectus est. Ventus levis velum implebat. Ab utraque parte fossae segetes flavae patebant, in quibus triticum iam maturum erat, et inter segetes villae rusticae apparebant. Anates tranquille aquae innabant, et navicula ipsa tam leviter fluctibus innabat ut vix moveri videretur.\n\nPrope pontem signale rubrum lucebat. Afranianus velum demisit et ancoram in loco ad hoc facto iecit. Dum exspectat, in aqua maculam olei vidit, quae ex navi quadam magna effluxerat. Statim officium portus per telephonum certiorem fecit. Paulo post navicula officii advenit, et nautae effusionem olei saepibus fluitantibus circumdederunt, ne longius per aquam diffunderetur. Etiam sordes alias e fossa sustulerunt: lagoenas, saccos, ramos. «Gratias tibi ago», dixit Cuspiana per telephonum. «Si quis effusionem tam cito nuntiat, sordes facile removentur.»\n\nCum signale viride luceret, Afranianus ancoram sustulit et ad mare pervenit. Vespere naviculam ad anulum in portu ligavit, ligatione quam Cuspiana docuerat.\n\nQuaestiones:\nQuid Afranianus ab avunculo emerat?\nNaviculam veliferam emerat.\nEstne tota fossa navigabilis?\nNavigabilis est naviculis parvis, sed prope urbem angusta est.\nQuid significant signalia in ponte mobili?\nSignale rubrum significat siste, viride transi, flavum pontem mox aperiri.\nUbi ancoram iacere non licet?\nIn media fossa, quia naves aliae transire debent.\nQuid Afranianus inter segetes et in aqua vidit?\nVillas rusticas vidit, et anates quae aquae innabant.\nQuid nautae officii cum effusione olei fecerunt?\nEam saepibus fluitantibus circumdederunt et sordes alias e fossa sustulerunt."
+    },
+    {
+      "title": "Domus scientiarum",
+      "summary": "A guide at a public science museum in Munich shows a girl the planetarium and the earthquake hall.",
+      "newWords": [
+        "aluminium",
+        "volubilis",
+        "repercutio",
+        "interstellaris",
+        "prodigiosus",
+        "ovalis",
+        "tectonicus",
+        "sensorium"
+      ],
+      "text": "Monaci museum scientiarum publicum est, quod quotannis multa milia visitatorum accipit. Ofiliana, puella duodecim annos nata, cum classe sua illuc venerat, et Decriana, quae in museo dux est, discipulos primum in planetarium duxit.\n\nTectum planetarii est tholus magnus ex aluminio factus. «Aluminium leve est et robiginem non contrahit», explicavit Decriana. «Ideo tholus ex aluminio tam magnus esse potest, quamquam nulla columna eum sustinet.» Intus sellae volubiles in circulo positae erant. Cum discipuli sederent, Decriana eos sellas volubiles vertere iussit, ut totum caelum circum se spectare possent.\n\nTum lumina exstincta sunt, et machina in medio stellas in tholum misit. «Machina lucem in tholum album mittit», dixit dux, «et tholus lucem ad oculos vestros repercutit. Sine tholo albo, qui lucem bene repercutit, nihil videretis.» Ofiliana in sella volubili se vertit et stellas undique fulgere vidit.\n\nDeinde Decriana de spatio interstellari narravit. «Spatium interstellare est spatium inter stellas», inquit. «Paene vacuum est, sed non omnino: pulvis tenuissimus et vapores tenues per eum fluunt. Distantiae interstellares prodigiosae sunt. Lux, quae celerrime omnium rerum movetur, plus quattuor annos ad stellam proximam iter facit.» Discipuli de distantiis tam prodigiosis mirati sunt. Ofiliana quaesivit num aliquando homines spatium interstellare transire possent. «Fortasse», respondit Decriana, «sed nondum. Navis quae hodie celerrima est multa milia annorum in itinere esset.»\n\nPostea dux in tholo orbitas cometarum ostendit. «Planetae circa solem fere in circulis moventur», dixit, «cometae autem in orbitis ovalibus. Cometa in orbita ovali modo prope solem venit, modo longissime ab eo abit.»\n\nEx planetario in aulam terrae transierunt. Ibi exemplar magnum terrae erat, in quo laminae tectonicae coloribus variis pictae erant. «Crusta terrae non est una», explicavit Decriana, «sed ex laminis tectonicis composita, quae lentissime moventur. Ubi laminae tectonicae inter se terunt, terra interdum tremit.» In pavimento aulae sensorium erat, quod etiam motus minimos sentit et in tabula monstrat. «Saltate!» dixit dux. Discipuli simul saltaverunt, et sensorium lineam altam in tabula pinxit. «Sensoria similia in montibus et sub mari posita sunt», addidit, «et motus terrae multo ante sentiunt quam homines.»\n\nDomi Ofiliana patri narravit se in sella volubili per spatium interstellare iter fecisse.\n\nQuaestiones:\nCur tholus planetarii ex aluminio factus est?\nQuia aluminium leve est et robiginem non contrahit.\nCur discipuli sellas volubiles vertere debebant?\nUt totum caelum circum se spectare possent.\nQuid tholus albus facit?\nLucem machinae ad oculos visitatorum repercutit.\nQuid est spatium interstellare?\nSpatium inter stellas, quod paene vacuum est.\nQuomodo cometae circa solem moventur?\nIn orbitis ovalibus moventur.\nQuid sensorium in pavimento aulae facit?\nEtiam motus minimos sentit et in tabula monstrat."
+    },
+    {
+      "title": "In piscina publica",
+      "summary": "A young swimmer at the public pool in Vienna gets a splinter in her thumb and an eyelash in her eye before a race.",
+      "newWords": [
+        "agonista",
+        "assula",
+        "pollex",
+        "unctio",
+        "cilium",
+        "corneus",
+        "defensivus",
+        "confisco"
+      ],
+      "text": "Vindobonae piscina publica magna est, in qua mane cives natant et post meridiem iuvenes ad certamina se exercent. Umbreniana, puella quattuordecim annos nata, in grege agonistarum iuvenum oppidi natat. Proximo mense cum agonistis aliarum urbium certabit, itaque cotidie post scholam duas horas natat. Herminianus, qui in piscina custos est, etiam agonistis iuvenibus magister est.\n\nQuodam die Umbreniana ante exercitationem in scamno ligneo veteri iuxta piscinam sedit, et assula parva in pollicem eius penetravit. Pollex statim doluit. Herminianus eam in cubiculum medicinae duxit et assulam volsella diligenter extraxit. «Assula parva est», inquit, «sed si in pollice mansisset, pollex intumuisset.» Deinde unguentum lene protulit. «Nunc unctionem faciam», dixit, et pollicem puellae leniter unxit. «Unctio cutem lenit et puram servat. Hanc unctionem vesperi domi iterum fac.» Postea scamnum vetus removit, ne quis alius assulam in digito aut pollice acciperet.\n\nPaulo post Umbreniana in aquam descendit. Cum tertium spatium nataret, aliquid in oculo sensit et ad marginem natavit. Oculum fricare coepit, sed Herminianus manum eius retinuit. «Noli fricare!» inquit. «Cilium tantum est, quod in oculum tuum incidit. Si fricaveris, tunicam corneam laedere potes. Tunica cornea, quae pupillam tegit, tenuis et pellucida est, quasi fenestra oculi.» Oculum aqua pura lavit, et cilium mox cum aqua effluxit. «Ecce cilium», dixit custos, et in digito ostendit.\n\nIn reliqua exercitatione Herminianus versiones eius ad murum piscinae observavit. «Nimis tarde te vertis», inquit. Umbreniana voce defensiva respondit se bene vertere et semper ita fecisse. «Noli tam defensiva esse», dixit Herminianus placide. «Responsum defensivum te non adiuvat. Si tantum audieris, citius natabis.» Umbreniana tacuit et iterum temptavit. Tertio vidit eum recte dixisse.\n\nInterea iuvenis quidam cum lagoena vitrea ad marginem piscinae ambulavit. Herminianus eum benigne retinuit. «Vitrum iuxta piscinam vetitum est, quia, si frangitur, fragmenta acuta in pavimento latent», inquit. «Lagoenam igitur confisco, sed cum discesseris, eam tibi reddam.» Eodem modo etiam telephonum puellae cuiusdam confiscavit, quod in margine madido iacebat, et in armario sicco posuit.\n\nPost exercitationem Umbreniana capillos madidos pectine corneo pectivit, quem ab avia acceperat. «Pecten corneus capillos non frangit», dicere solet avia. Pollex iam non dolebat, et oculus clarus erat.\n\nMense proximo Umbreniana cum ceteris agonistis certavit et secunda ad finem pervenit. Herminianus eam laudavit: versiones eius nunc celerrimae fuerant.\n\nQuaestiones:\nQuis est Umbreniana?\nPuella quattuordecim annos nata, quae in grege agonistarum iuvenum oppidi natat.\nQuid in pollicem Umbrenianae penetravit?\nAssula parva ex scamno ligneo veteri.\nCur Herminianus unctionem fecit?\nQuia unctio cutem lenit et puram servat.\nCur Umbreniana oculum fricare non debuit?\nQuia tunicam corneam laedere poterat, quae tenuis et pellucida est.\nQuid Herminianus de responso defensivo dixit?\nResponsum defensivum eam non adiuvare; si tantum audiret, citius nataturam esse.\nCur Herminianus lagoenam vitream confiscavit?\nQuia vitrum iuxta piscinam vetitum est."
+    }
+  ]
+}
