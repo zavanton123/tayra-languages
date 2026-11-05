@@ -81,4 +81,12 @@ internal val elVideos: Map<String, String> = mapOf(
     "The transcription failed." to "Η μεταγραφή απέτυχε.",
     "Whisper heard no speech in this video." to "Το Whisper δεν άκουσε ομιλία σε αυτό το βίντεο.",
     "The model could not be downloaded." to "Το μοντέλο δεν κατέβηκε.",
+    "Downloading the voice detector…" to "Λήψη του ανιχνευτή φωνής…",
+    "Downloading Whisper ({0} of {1} MB)…" to "Λήψη του Whisper ({0} από {1} MB)…",
+    "Unpacking Whisper…" to "Αποσυμπίεση του Whisper…",
+    "Downloading the recognition model ({0} of {1} MB)…" to "Λήψη του μοντέλου αναγνώρισης ({0} από {1} MB)…",
+    "Downloading Python ({0} of {1} MB)…" to "Λήψη της Python ({0} από {1} MB)…",
+    "Unpacking Python…" to "Αποσυμπίεση της Python…",
+    "Installing speech recognition: fetching {0}…" to "Εγκατάσταση αναγνώρισης ομιλίας: λήψη {0}…",
+    "Installing speech recognition: unpacking…" to "Εγκατάσταση αναγνώρισης ομιλίας: αποσυμπίεση…",
 )

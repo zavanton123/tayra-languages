@@ -81,4 +81,12 @@ internal val deVideos: Map<String, String> = mapOf(
     "The transcription failed." to "Die Transkription ist fehlgeschlagen.",
     "Whisper heard no speech in this video." to "Whisper hat in diesem Video keine Sprache gehört.",
     "The model could not be downloaded." to "Das Modell konnte nicht heruntergeladen werden.",
+    "Downloading the voice detector…" to "Sprachdetektor wird heruntergeladen…",
+    "Downloading Whisper ({0} of {1} MB)…" to "Whisper wird heruntergeladen ({0} von {1} MB)…",
+    "Unpacking Whisper…" to "Whisper wird entpackt…",
+    "Downloading the recognition model ({0} of {1} MB)…" to "Erkennungsmodell wird heruntergeladen ({0} von {1} MB)…",
+    "Downloading Python ({0} of {1} MB)…" to "Python wird heruntergeladen ({0} von {1} MB)…",
+    "Unpacking Python…" to "Python wird entpackt…",
+    "Installing speech recognition: fetching {0}…" to "Spracherkennung wird installiert: {0} wird geladen…",
+    "Installing speech recognition: unpacking…" to "Spracherkennung wird installiert: wird entpackt…",
 )

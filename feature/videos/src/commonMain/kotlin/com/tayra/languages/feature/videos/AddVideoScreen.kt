@@ -35,6 +35,7 @@ import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SelectableChip
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trProgress
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
@@ -284,7 +285,7 @@ private fun WhisperSection(state: AddVideoUiState, actions: AddVideoActions) {
                     )
                 }
             }
-            t.installProgress?.takeIf { t.installing != null }?.let { Text(tr(it), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
+            t.installProgress?.takeIf { t.installing != null }?.let { Text(trProgress(it), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
         }
     }
 }

@@ -43,6 +43,20 @@ class TranslationsTest {
     }
 
     @Test
+    fun progressLinesFindTheirTranslationsWithTheirNumbersAndNames() {
+        UiLanguage.set("de")
+        assertEquals("Whisper wird heruntergeladen (12 von 208 MB)…", trProgress("Downloading Whisper (12 of 208 MB)…"))
+        assertEquals("Spracherkennung wird installiert: ctranslate2 (90 MB) wird geladen…", trProgress("Installing speech recognition: fetching ctranslate2 (90 MB)…"))
+        assertEquals("Whisper wird entpackt…", trProgress("Unpacking Whisper…"))
+        val lines = listOf(
+            "Downloading the voice detector…", "Downloading Whisper ({0} of {1} MB)…", "Unpacking Whisper…",
+            "Downloading the recognition model ({0} of {1} MB)…", "Downloading Python ({0} of {1} MB)…", "Unpacking Python…",
+            "Installing speech recognition: fetching {0}…", "Installing speech recognition: unpacking…",
+        )
+        for (code in parts.keys) for (line in lines) assertTrue(translationOf(code)!!.containsKey(line), "$code lacks \"$line\"")
+    }
+
+    @Test
     fun everyTextHasItsTranslations() {
         val problems = mutableListOf<String>()
         val missing = mutableMapOf<String, MutableSet<String>>()

@@ -81,4 +81,12 @@ internal val ruVideos: Map<String, String> = mapOf(
     "The transcription failed." to "Расшифровка не удалась.",
     "Whisper heard no speech in this video." to "Whisper не услышал речи в этом видео.",
     "The model could not be downloaded." to "Не удалось скачать модель.",
+    "Downloading the voice detector…" to "Скачивание детектора голоса…",
+    "Downloading Whisper ({0} of {1} MB)…" to "Скачивание Whisper ({0} из {1} МБ)…",
+    "Unpacking Whisper…" to "Распаковка Whisper…",
+    "Downloading the recognition model ({0} of {1} MB)…" to "Скачивание модели распознавания ({0} из {1} МБ)…",
+    "Downloading Python ({0} of {1} MB)…" to "Скачивание Python ({0} из {1} МБ)…",
+    "Unpacking Python…" to "Распаковка Python…",
+    "Installing speech recognition: fetching {0}…" to "Установка распознавания речи: скачивание {0}…",
+    "Installing speech recognition: unpacking…" to "Установка распознавания речи: распаковка…",
 )

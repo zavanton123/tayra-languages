@@ -52,6 +52,25 @@ internal fun translationOf(code: String): Map<String, String>? = when (code) {
 fun tr(english: String, vararg args: Any?): String = format(translationOf(UiLanguage.code)?.get(english) ?: english, args)
 
 /**
+ * A line of download or install progress, which arrives as finished English with its sizes or a package's
+ * name inside: the translation's key has them as `{0}` and `{1}`.
+ */
+fun trProgress(text: String): String {
+    PROGRESS_SIZES.find(text)?.let { sizes ->
+        val key = text.replace(sizes.value, "({0} of {1} MB)")
+        return tr(key, sizes.groupValues[1], sizes.groupValues[2])
+    }
+    PROGRESS_FETCHING.find(text)?.let { fetching ->
+        val key = text.replace(fetching.value, ": fetching {0}\u2026")
+        return tr(key, fetching.groupValues[1])
+    }
+    return tr(text)
+}
+
+private val PROGRESS_SIZES = Regex("""\((\d+) of (\d+) MB\)""")
+private val PROGRESS_FETCHING = Regex(""": fetching (.+)\u2026$""")
+
+/**
  * A text that depends on [count], written in English as its [one] and [other] forms with `{0}`
  * for the count and `{1}`… for [args]. A translation, keyed by [other], gives the forms its
  * language has, separated by `|`, in the order [pluralIndex] numbers them.

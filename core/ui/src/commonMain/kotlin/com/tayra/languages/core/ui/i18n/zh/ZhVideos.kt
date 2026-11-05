@@ -81,4 +81,12 @@ internal val zhVideos: Map<String, String> = mapOf(
     "The transcription failed." to "转写失败。",
     "Whisper heard no speech in this video." to "Whisper 在这个视频里没有听到说话。",
     "The model could not be downloaded." to "无法下载该模型。",
+    "Downloading the voice detector…" to "正在下载语音检测器…",
+    "Downloading Whisper ({0} of {1} MB)…" to "正在下载 Whisper（{0} / {1} MB）…",
+    "Unpacking Whisper…" to "正在解压 Whisper…",
+    "Downloading the recognition model ({0} of {1} MB)…" to "正在下载识别模型（{0} / {1} MB）…",
+    "Downloading Python ({0} of {1} MB)…" to "正在下载 Python（{0} / {1} MB）…",
+    "Unpacking Python…" to "正在解压 Python…",
+    "Installing speech recognition: fetching {0}…" to "正在安装语音识别：正在获取 {0}…",
+    "Installing speech recognition: unpacking…" to "正在安装语音识别：正在解压…",
 )

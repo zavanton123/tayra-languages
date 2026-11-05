@@ -81,4 +81,12 @@ internal val ptVideos: Map<String, String> = mapOf(
     "The transcription failed." to "A transcrição falhou.",
     "Whisper heard no speech in this video." to "O Whisper não ouviu fala neste vídeo.",
     "The model could not be downloaded." to "Não foi possível baixar o modelo.",
+    "Downloading the voice detector…" to "Baixando o detector de voz…",
+    "Downloading Whisper ({0} of {1} MB)…" to "Baixando o Whisper ({0} de {1} MB)…",
+    "Unpacking Whisper…" to "Descompactando o Whisper…",
+    "Downloading the recognition model ({0} of {1} MB)…" to "Baixando o modelo de reconhecimento ({0} de {1} MB)…",
+    "Downloading Python ({0} of {1} MB)…" to "Baixando o Python ({0} de {1} MB)…",
+    "Unpacking Python…" to "Descompactando o Python…",
+    "Installing speech recognition: fetching {0}…" to "Instalando o reconhecimento de fala: baixando {0}…",
+    "Installing speech recognition: unpacking…" to "Instalando o reconhecimento de fala: descompactando…",
 )

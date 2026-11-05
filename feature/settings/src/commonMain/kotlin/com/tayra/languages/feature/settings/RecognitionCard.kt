@@ -31,6 +31,7 @@ import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trProgress
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
@@ -77,7 +78,7 @@ internal fun RecognitionCard(viewModel: SpeechViewModel) {
         }
         if (busy != null) {
             Spacer(Modifier.height(AppSpacing.m))
-            Text(progress?.let { tr(it) } ?: tr("Installing speech recognition…"), style = MaterialTheme.typography.bodySmall)
+            Text(progress?.let { trProgress(it) } ?: tr("Installing speech recognition…"), style = MaterialTheme.typography.bodySmall)
             AppProgressBar(null, Modifier.padding(top = AppSpacing.xs))
         }
         error?.let {
