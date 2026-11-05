@@ -107,7 +107,6 @@ compose.desktop {
 tasks.withType<JavaExec>().matching { it.name == "run" }.configureEach {
     // A run from the sources has no bundled `tayra`; Settings > Command-line tool puts the one :cli builds on the PATH instead.
     dependsOn(":cli:installDist")
-    jbrJava?.let { setExecutable(it.absolutePath) }
     val windowsHost = System.getProperty("os.name").lowercase().contains("win")
     systemProperty("tayra.cliLauncher", rootDir.resolve("cli/build/install/tayra/bin/" + if (windowsHost) "tayra.bat" else "tayra").absolutePath)
     val projectRoot = rootDir.absolutePath + File.separator
@@ -120,6 +119,17 @@ tasks.withType<JavaExec>().matching { it.name == "run" }.configureEach {
             if (!file.isFile || !file.absolutePath.startsWith(projectRoot)) file
             else copies.resolve("$i-${file.name}").also { file.copyTo(it) }
         })
+    }
+}
+
+// The Compose plugin gives the run task its own Java when it registers the task, which happens after this file is read.
+// A toolchain launcher and an executable may not disagree, so the launcher goes.
+jbrJava?.let { java ->
+    afterEvaluate {
+        tasks.named<JavaExec>("run").configure {
+            javaLauncher.set(null as JavaLauncher?)
+            setExecutable(java.absolutePath)
+        }
     }
 }
 

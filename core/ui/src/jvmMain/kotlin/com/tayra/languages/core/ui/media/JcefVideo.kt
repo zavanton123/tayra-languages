@@ -45,12 +45,10 @@ import java.util.concurrent.atomic.AtomicInteger
 
 /**
  * Chromium as JetBrains Runtime carries it (its jcef module): the desktop app's player of YouTube
- * videos and video links. On any other Java runtime there is none, and videos are watched in the browser.
+ * videos and video links. Only touched once [JcefRuntime.available] says it is there.
  */
 internal object Jcef {
     private val log = Logger.withTag("Chromium")
-
-    val available: Boolean by lazy { runCatching { Class.forName("com.jetbrains.cef.JCefAppConfig") }.isSuccess }
 
     /** Started once, the first time a video is opened. */
     private val app: CefApp? by lazy {
@@ -65,7 +63,15 @@ internal object Jcef {
             settings.windowless_rendering_enabled = false
             settings.cache_path = File(System.getProperty("java.io.tmpdir"), "tayra-chromium").absolutePath
             CefApp.startup(args)
-            CefApp.getInstance(args, settings)
+            // JetBrains Runtime 25 added the path of an out-of-process Chromium server (null: its own) to the call 21 has.
+            val start = CefApp::class.java.methods.filter { it.name == "getInstance" }
+            val two = start.firstOrNull { it.parameterTypes.contentEquals(arrayOf(Array<String>::class.java, CefSettings::class.java)) }
+            val three = start.firstOrNull { it.parameterTypes.contentEquals(arrayOf(Array<String>::class.java, CefSettings::class.java, File::class.java)) }
+            when {
+                two != null -> two.invoke(null, args, settings)
+                three != null -> three.invoke(null, args, settings, null)
+                else -> error("this JetBrains Runtime starts Chromium in a way the app does not know")
+            } as CefApp
         }.onFailure { log.w(it) { "Chromium did not start" } }.getOrNull()
     }
 
