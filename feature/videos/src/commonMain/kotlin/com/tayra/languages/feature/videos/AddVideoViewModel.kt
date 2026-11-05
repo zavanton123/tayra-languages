@@ -2,6 +2,7 @@ package com.tayra.languages.feature.videos
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import co.touchlab.kermit.Logger
 import com.tayra.languages.core.data.media.SubtitleDownloader
 import com.tayra.languages.core.data.media.SubtitleFiles
 import com.tayra.languages.core.domain.language.LanguageCodes
@@ -289,6 +290,7 @@ class AddVideoViewModel(
             } catch (e: TranscriptionException) {
                 _state.update { it.copy(error = e.message) }
             } catch (e: Exception) {
+                Logger.w(e) { "transcription failed" }
                 _state.update { it.copy(error = "The transcription failed.") }
             } finally {
                 _state.update { it.copy(transcription = it.transcription.copy(running = false, stage = null, fraction = null)) }

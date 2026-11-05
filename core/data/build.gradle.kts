@@ -105,6 +105,9 @@ kotlin {
             implementation(libs.ktor.client.okhttp)
             implementation(libs.mlkit.translate)
             implementation("k2-fsa:sherpa-onnx:1.13.8@aar")
+            // Reads a video link's sound for Whisper; HLS streams through the HLS module.
+            implementation(libs.androidx.media3.transformer)
+            implementation(libs.androidx.media3.exoplayer.hls)
             implementation(libs.commons.compress)
             implementation(libs.pdfbox.android)
             implementation(libs.mlkit.text.latin)

@@ -13,6 +13,9 @@ import com.tayra.languages.core.data.ocr.TesseractTextRecognizer
 import com.tayra.languages.core.data.settings.AndroidSecureStore
 import com.tayra.languages.core.data.settings.SecureStore
 import com.tayra.languages.core.data.speech.AndroidSherpaRuntime
+import com.tayra.languages.core.data.speech.AndroidSherpaTranscription
+import com.tayra.languages.core.data.speech.SherpaVideoTranscriber
+import com.tayra.languages.core.domain.media.VideoTranscriber
 import com.tayra.languages.core.data.speech.AndroidSpeechRecognition
 import com.tayra.languages.core.domain.practice.SpeechRecognition
 import com.tayra.languages.core.data.speech.FileSpeechAudioCache
@@ -30,6 +33,7 @@ import org.koin.dsl.module
 actual val platformDataModule: Module = module {
     single { LocalTranslation(MlKitSentenceTranslator(get())) }
     single { AndroidSherpaRuntime(get<Context>()) }
+    single<VideoTranscriber> { SherpaVideoTranscriber(get<AndroidSherpaRuntime>(), AndroidSherpaTranscription(get<Context>())) }
     single { LocalSpeech(listOf(SherpaPiperEngine(get<AndroidSherpaRuntime>()), SherpaKokoroEngine(get<AndroidSherpaRuntime>()))) }
     single<SpeechRecognition> { AndroidSpeechRecognition(get<Context>()) }
     single { DatabaseDriverFactory(get<Context>()) }
