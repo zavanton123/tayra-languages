@@ -1,0 +1,183 @@
+{
+  "id": "ga-mini-3600",
+  "rankUpTo": 3600,
+  "level": "B2",
+  "title": "Aibhneacha, lochanna agus an fharraige",
+  "description": "Ten stories and columns about streams, lakes, harbours and the sea: walks, swimming, research, boats, a lighthouse, a ferry, diving and the words of the sea.",
+  "topic": "Rivers, lakes and the sea",
+  "names": [
+    "Éadaoin",
+    "Odhrán",
+    "Odhráin",
+    "Ultán",
+    "Caoilinn",
+    "Mairéad",
+    "Seosamh",
+    "Fionnuala",
+    "Sinéad",
+    "Caitríona",
+    "Muiris",
+    "Bairbre",
+    "Mercator",
+    "Graonlainn",
+    "Afraic",
+    "Corcaigh",
+    "Ciarraí",
+    "Conamara",
+    "Gaillimh",
+    "Bealtaine",
+    "Gaeilge",
+    "Éireann"
+  ],
+  "lessons": [
+    {
+      "title": "Cois an tsrutháin san fhómhar",
+      "summary": "A walker follows a small stream through the fields in autumn, past alders, ripe sloes, rabbits and a standing stone.",
+      "newWords": [
+        "sruthán",
+        "clais",
+        "fearn",
+        "airne",
+        "aibí",
+        "bos",
+        "torthúil",
+        "flúirse",
+        "coinín",
+        "gallán"
+      ],
+      "text": "Tá sruthán beag ag rith trí na páirceanna taobh thiar de mo theach. Níl ainm air ar an léarscáil, agus is ar éigean a d'fheicfeá é ón mbóthar, ach is é an sruthán sin an áit is fearr liom ar domhan. Gach deireadh seachtaine san fhómhar, siúlaim ar a bhruach ar feadh uair an chloig nó mar sin.\n\nTéann an cosán ar dtús trí chlais dhomhain idir dhá pháirc. San earrach, bíonn uisce sa chlais agus bíonn sé deacair siúl inti. Faoin bhfómhar, áfach, bíonn an chlais tirim, agus fásann féar ard ar an dá thaobh di.\n\nAnsin tagaim chomh fada leis na crainn fhearna. Is maith leis an bhfearn talamh fliuch, agus mar sin fásann sí go nádúrtha ar bhruach srutháin agus abhann. Coinníonn an fhearn a duilleoga glasa i bhfad isteach san fhómhar, nuair a bhíonn crainn eile an ghleanna buí agus donn cheana féin.\n\nFaoi na crainn fhearna, tá sceacha ar an mbruach, agus faoi dheireadh an fhómhair bíonn na hairní aibí orthu. Caora beaga gorma is ea na hairní, agus iad beagnach dubh, le púdar bán ar a gcraiceann. Bainim lán mo bhoise díobh, agus coinním i mo bhos iad ar feadh tamaill. Ní féidir airní a ithe díreach ón sceach, áfach, fiú nuair a bhíonn siad aibí: tá siad an-ghéar ar fad. Déanann mo dheirfiúr subh astu le húlla agus siúcra.\n\nIs gleann torthúil é seo. Deir na feirmeoirí go bhfuil an talamh torthúil mar gheall ar an sruthán, a thugann uisce do na páirceanna i rith an tsamhraidh. Bíonn flúirse sméar dubh ar na sceacha ag deireadh an tsamhraidh, agus bíonn flúirse úll ar na seanchrainn in aice le seanteach feirme ag bun an ghleanna.\n\nFeicim coiníní go minic freisin. Bíonn siad ag ithe an fhéir ar imeall na páirce, ach nuair a chloiseann siad mé, ritheann siad isteach sa chlais. Uaireanta seasaim gan bogadh ar feadh cúpla nóiméad, agus tagann coinín amháin amach arís, go cúramach, chun féachaint orm.\n\nI lár na páirce deireanaí, tá gallán ard liath. Cloch fhada atá ann, níos airde ná fear, a chuir daoine ina seasamh ansin na mílte bliain ó shin. Níl a fhios ag aon duine cén fáth ar tógadh an gallán. B'fhéidir gur comhartha a bhí ann do dhaoine a bhí ag taisteal tríd an ngleann. Suím ar an bhféar in aice leis an ngallán, ithim úll, agus éistim leis an sruthán.\n\nCeisteanna:\nCá bhfuil an sruthán?\nTá an sruthán ag rith trí na páirceanna taobh thiar de theach an scríbhneora.\nCén fáth a bhfásann an fhearn ar bhruach an tsrutháin?\nFásann an fhearn ann mar is maith léi talamh fliuch.\nCén dath a bhíonn ar na hairní nuair a bhíonn siad aibí?\nBíonn siad gorm, beagnach dubh, le púdar bán ar a gcraiceann.\nCén fáth a bhfuil an talamh torthúil sa ghleann?\nTá an talamh torthúil mar gheall ar an sruthán, a thugann uisce do na páirceanna.\nCad a dhéanann na coiníní nuair a chloiseann siad an scríbhneoir?\nRitheann siad isteach sa chlais.\nCad a dhéanann an scríbhneoir in aice leis an ngallán?\nSuíonn an scríbhneoir ar an bhféar, itheann sé úll, agus éisteann sé leis an sruthán."
+    },
+    {
+      "title": "An snámh a d'fhóir uirthi",
+      "summary": "A surgeon tells a girl with scoliosis to swim; years later, when the pools close in the pandemic, she starts swimming in the sea with a group of women.",
+      "newWords": [
+        "scolóis",
+        "máinlia",
+        "fóir",
+        "paindéim",
+        "spontáineach",
+        "láithreacht",
+        "léine",
+        "maos"
+      ],
+      "text": "Nuair a bhí Éadaoin dhá bhliain déag d'aois, thug a múinteoir faoi deara go raibh a droim ag casadh beagáinín ar thaobh amháin. Chuaigh sí chuig an dochtúir lena máthair, agus dúirt an dochtúir go raibh scolóis uirthi. Ní raibh pian ar bith uirthi, ach bhí imní an domhain ar a máthair.\n\nCúpla seachtain ina dhiaidh sin, bhuail siad le máinlia in ospidéal i gCorcaigh. Fear ard ciúin a bhí sa mháinlia. Scrúdaigh sé a droim go cúramach agus d'fhéach sé ar na pictiúir dá cnámha. Ansin labhair sé go cineálta léi.\n\n“Tá an scolóis éadrom go leor, a Éadaoin,” a dúirt an máinlia. “Ní bheidh obráid ag teastáil. Ach ba mhaith liom go ndéanfá rud amháin: snámh. Fóireann an snámh ar go leor daoine a bhfuil scolóis orthu, mar neartaíonn sé na matáin ar an dá thaobh den droim.”\n\nThosaigh Éadaoin ag snámh sa linn snámha gach seachtain. D'fhóir an snámh uirthi, díreach mar a dúirt an máinlia. Níor imigh an scolóis, ach níor chuaigh sí in olcas ach oiread, agus d'fhás Éadaoin láidir.\n\nFiche bliain ina dhiaidh sin, bhí sí ina cónaí i mbaile beag cois farraige i gCiarraí. Ansin tháinig an phaindéim. Le linn na paindéime, dúnadh na linnte snámha go léir ar feadh míonna. Bhí Éadaoin buartha: níor chaill sí seachtain snámha ó bhí sí ina cailín.\n\nMaidin amháin, go spontáineach, shiúil sí síos chuig an trá agus chuaigh sí isteach san fharraige. Bhí an t-uisce chomh fuar sin gur bhain sé an anáil di, ach nuair a tháinig sí amach, bhí sí lán d'fhuinneamh. Cinneadh spontáineach a bhí ann, ach rinne sí arís é an lá dár gcionn, agus an lá ina dhiaidh sin.\n\nFaoi cheann míosa, bhí grúpa beag ban ag snámh in éineacht léi gach maidin. Ar na maidineacha fuara, nuair nár theastaigh uaithi dul isteach, chabhraigh láithreacht na mban eile go mór léi. Bhí siad ag fanacht léi ar an trá, agus níor theastaigh uaithi iad a ligean síos. Ní raibh gá le caint: ba leor a láithreacht.\n\nLá amháin, d'fhág Éadaoin a cuid éadaigh ar charraig ar an trá. Tháinig tonn mhór isteach agus, nuair a tháinig sí amach as an uisce, bhí a léine ar maos. Bhí a tuáille ar maos freisin. Thug bean de na mná eile léine olla di as a mála féin. Chaith Éadaoin an léine mhór sin abhaile, agus í ag gáire.\n\nTá an phaindéim thart anois, agus tá na linnte snámha ar oscailt arís. Ach téann Éadaoin agus a cairde chuig an trá gach maidin fós.\n\nCeisteanna:\nCad a dúirt an dochtúir le hÉadaoin nuair a bhí sí dhá bhliain déag d'aois?\nDúirt an dochtúir go raibh scolóis uirthi.\nCén fáth ar mhol an máinlia di snámh?\nMhol sé snámh di mar fóireann an snámh ar dhaoine a bhfuil scolóis orthu.\nCad a tharla do na linnte snámha le linn na paindéime?\nDúnadh na linnte snámha go léir ar feadh míonna.\nConas a chabhraigh láithreacht na mban eile le hÉadaoin?\nBhí siad ag fanacht léi ar an trá, agus níor theastaigh uaithi iad a ligean síos.\nCén fáth a raibh a léine ar maos?\nBhí a léine ar maos mar tháinig tonn mhór isteach ar an gcarraig a raibh a cuid éadaigh uirthi."
+    },
+    {
+      "title": "Loch a bhfuil tinneas air",
+      "summary": "A postgraduate student studies a small lake in Conamara to find out why it turns green every summer.",
+      "newWords": [
+        "iarchéim",
+        "éagobhsaí",
+        "tiomsú",
+        "fosfar",
+        "faillí",
+        "lagú",
+        "meatán",
+        "ionghabh",
+        "staitistic"
+      ],
+      "text": "Tá Odhrán ag déanamh iarchéime san ollscoil i nGaillimh. Ábhar a chuid taighde is ea loch beag i gConamara, áit a mbíodh a sheanathair ag iascaireacht nuair a bhí sé óg. Le roinnt blianta anuas, éiríonn an t-uisce sa loch glas agus tiubh gach samhradh, agus tá níos lú éisc ann ná mar a bhíodh. Ba mhaith le hOdhrán a fháil amach cén fáth. Sin é croí na hiarchéime.\n\nGach seachtain, téann sé amach ar an loch i mbád beag rubair. Is bád éagobhsaí é: nuair a sheasann Odhrán suas ann, bogann sé ó thaobh go taobh, agus caithfidh sé a bheith an-chúramach. Nuair a bhíonn an aimsir éagobhsaí agus an ghaoth láidir, fanann sé ar an mbruach.\n\nTógann sé samplaí uisce ó dheich n-áit éagsúla ar an loch, agus tugann sé ar ais go dtí an tsaotharlann iad. Tá an obair sin tábhachtach, ach is é tiomsú na sonraí an chuid is faide den obair. Tá tiomsú sonraí ar siúl aige anois le dhá bhliain, agus tá na mílte uimhreacha ina ríomhaire aige.\n\nLéiríonn na sonraí go bhfuil an iomarca fosfair san uisce. Tagann an fosfar ó leasú na bpáirceanna timpeall an locha, agus ó sheanchórais séarachais na dtithe. Rinneadh faillí sna córais sin le blianta fada: níor dheisigh aon duine iad, agus sileann fosfar uathu isteach sna srutháin. Nuair a bhíonn flúirse fosfair san uisce, fásann algaí go tiubh.\n\nAg deireadh an tsamhraidh, titeann na halgaí go grinneall an locha agus lobhann siad. Úsáideann sé sin an ocsaigin. Bíonn lagú ar leibhéal na hocsaigine san uisce, agus is é an lagú sin is mó a chuireann isteach ar na héisc. Ina theannta sin, éiríonn meatán ón láib ar an ngrinneall. Is gás é an meatán nach bhfuil dath ná boladh air, ach feiceann Odhrán boilgeoga meatáin ag teacht aníos tríd an uisce ciúin.\n\nTá rud eile ag cur imní air: plaisteach. Ionghabhann na héisc beaga píosaí bídeacha plaisteach in éineacht lena gcuid bia. Ansin ionghabhann na héisc mhóra na héisc bheaga.\n\nI mí na Bealtaine, thug Odhrán léacht do mhuintir na háite. Thaispeáin sé staitistic amháin a chuir iontas ar gach duine: tagann leath an fhosfair sa loch ó dheich dteach amháin. Bhí na staitisticí soiléir. Sa samhradh, dheisigh an chomhairle na córais séarachais, agus d'athraigh na feirmeoirí an leasú a chuireann siad ar na páirceanna. Níl an loch slán fós, ach bhí an t-uisce níos glaine i mbliana.\n\nCeisteanna:\nCad é ábhar thaighde Odhráin?\nIs é loch beag i gConamara ábhar a chuid taighde.\nCén fáth a bhfanann Odhrán ar an mbruach uaireanta?\nFanann sé ar an mbruach nuair a bhíonn an aimsir éagobhsaí agus an ghaoth láidir.\nCad is mó a thógann am san obair?\nIs é tiomsú na sonraí an chuid is faide den obair.\nCá as a dtagann an fosfar?\nTagann sé ó leasú na bpáirceanna agus ó sheanchórais séarachais a ndearnadh faillí iontu.\nCad a tharla tar éis léacht Odhráin?\nDheisigh an chomhairle na córais séarachais, agus d'athraigh na feirmeoirí an leasú a chuireann siad ar na páirceanna."
+    },
+    {
+      "title": "Rang san uisceadán",
+      "summary": "A marine biologist shows a class of children round an aquarium: vertebrates, skeletons, naming fish and the basking shark.",
+      "newWords": [
+        "oide",
+        "tacsanomaíocht",
+        "veirteabrach",
+        "cnámharlach",
+        "sainaithin",
+        "ceintiméadar",
+        "cearn",
+        "tonna"
+      ],
+      "text": "Is bitheolaí mara é Ultán, agus oibríonn sé in uisceadán mór cois farraige. Maidin amháin sa samhradh, tháinig Caoilinn, oide ó scoil an bhaile, ar cuairt le rang scoláirí a bhí deich mbliana d'aois. Bhí an t-oide ag múineadh faoi ainmhithe na mara dóibh le seachtain, agus theastaigh uaithi go bhfeicfidís na hainmhithe féin.\n\nThosaigh Ultán leis an tacsanomaíocht. “Is í an tacsanomaíocht an eolaíocht a chuireann ord ar na hainmhithe agus ar na plandaí,” a dúirt sé. “Cuireann an tacsanomaíocht gach speiceas i ngrúpa, agus gach grúpa i ngrúpa níos mó. An bhfuil a fhios agaibh cén grúpa mór ina bhfuil na héisc?”\n\nNí raibh a fhios acu. “Is veirteabraigh iad,” arsa Ultán. “Is ainmhí veirteabrach é ainmhí a bhfuil cnámh droma aige. Is veirteabraigh iad na héisc, na héin, na madraí agus sibhse freisin. Tá cnámharlach istigh i ngach ainmhí veirteabrach, agus coinníonn an cnámharlach sin an corp ina sheasamh.”\n\nAnsin, thaispeáin sé umar mór dóibh. Bhí siorc beag ag snámh ann go mall, 80 ceintiméadar ar fad. “Is iasc é an siorc seo freisin,” a dúirt Ultán, “ach níl a chnámharlach déanta de chnámh. Tá cnámharlach an tsiorca déanta d'ábhar bog, an t-ábhar céanna atá i bhur gcluasa.” Leag cailín amháin a méar ar a cluas, agus rinne sí gáire.\n\nThug Ultán cárta do gach páiste, le pictiúir d'éisc an chuain air. Bhí orthu na héisc san umar a shainaithint. Ní raibh sé éasca. Bhí dhá iasc ann a bhí an-chosúil le chéile, ach shainaithin buachaill amháin iad ón dath a bhí ar a n-eití. Mhol Ultán é. “Sin é an chéad rud a dhéanann eolaí,” a dúirt sé. “Sainaithníonn sé an t-ainmhí sula ndéanann sé aon rud eile.”\n\nAg deireadh na cuairte, d'inis Ultán dóibh faoin liamhán gréine, an t-iasc is mó a fheictear timpeall chósta na hÉireann. Bíonn sé suas le 10 méadar ar fad, agus bíonn sé níos mó ná 5 thonna meáchain. Téann na mílte tonna uisce trína bhéal gach lá. “Ach ná bíodh eagla oraibh roimhe,” a dúirt Ultán. “Níl a chuid fiacla níos mó ná ceintiméadar ar fad, agus ní itheann sé ach ainmhithe bídeacha san uisce.” Tagann eolaithe ó gach cearn den domhan go cósta na hÉireann chun é a fheiceáil.\n\nNuair a bhí an rang ag imeacht, bhí cearn amháin den uisceadán nach bhfaca siad fós. “An féidir linn teacht ar ais?” a d'fhiafraigh an buachaill. Gheall an t-oide go dtiocfaidís ar ais roimh dheireadh na bliana.\n\nCeisteanna:\nCé hí Caoilinn?\nIs oide í ó scoil an bhaile.\nCad is tacsanomaíocht ann?\nIs í an tacsanomaíocht an eolaíocht a chuireann ord ar na hainmhithe agus ar na plandaí.\nCad is ainmhí veirteabrach ann?\nIs ainmhí é a bhfuil cnámh droma aige.\nCén difríocht atá idir cnámharlach an tsiorca agus cnámharlach éisc eile?\nNíl cnámharlach an tsiorca déanta de chnámh, ach d'ábhar bog.\nCé chomh mór is a bhíonn an liamhán gréine?\nBíonn sé suas le 10 méadar ar fad agus níos mó ná 5 thonna meáchain."
+    },
+    {
+      "title": "An bád adhmaid",
+      "summary": "A woman bargains with an old boatbuilder for a small wooden boat and checks it on the water before she buys it.",
+      "newWords": [
+        "tógálaí",
+        "creat",
+        "idirbheartaíocht",
+        "pingin",
+        "baileach",
+        "ráthaigh",
+        "seiceáil",
+        "áisiúil"
+      ],
+      "text": "Bhí Mairéad ag iarraidh bád beag adhmaid a cheannach le fada. Bhí bád ag a hathair nuair a bhí sí óg, agus is iomaí tráthnóna samhraidh a chaith siad le chéile ar an gcuan. An t-earrach seo caite, chuala sí go raibh tógálaí bád ina chónaí i mbaile beag i gCiarraí.\n\nSeosamh ab ainm don tógálaí. Bhí sé ag tógáil bád le daichead bliain, agus a athair roimhe. Nuair a tháinig Mairéad isteach ina cheardlann, bhí creat bád nua ina sheasamh i lár an urláir. Ní raibh ann ach an creat: píosaí fada cuartha adhmaid, cosúil le cnámharlach éisc mhóir.\n\n“Sin é an chéad rud a dhéanaim,” a dúirt Seosamh. “Má bhíonn an creat ceart, beidh an bád ceart.”\n\nBhí bád beag gorm críochnaithe sa chlós, 5 mhéadar ar fad. Thit Mairéad i ngrá leis láithreach. Bhí cófra beag faoin suíochán deiridh. “Tá sé an-áisiúil,” a dúirt Seosamh. “Is féidir leat do lón agus do chóta báistí a choinneáil ann.” Bhí rópa áisiúil ar an dá thaobh freisin, chun an bád a tharraingt suas ar an trá.\n\n“Cé mhéad atá air?” a d'fhiafraigh Mairéad.\n\n“€6,000,” arsa Seosamh.\n\nBhí Mairéad réidh le haghaidh idirbheartaíochta. Thairg sí €5,000. Rinne Seosamh gáire. “Ní hé seo an chéad idirbheartaíocht agam, a Mhairéad,” a dúirt sé. Tar éis leathuair an chloig cainte agus dhá chupán tae, shocraigh siad ar €5,500. “Agus ní pingin níos lú,” arsa Seosamh. D'aontaigh Mairéad. Bhí sí sásta gach pingin a íoc ar bhád chomh hálainn sin.\n\nSula dtabharfadh sí an t-airgead dó, áfach, theastaigh uaithi an bád a sheiceáil san uisce. Chuaigh siad síos chuig an gcéibh. Sheiceáil sí nach raibh uisce ag teacht isteach in áit ar bith. Sheiceáil sí na maidí rámha agus an seol beag. Bhí gach rud i gceart.\n\n“Ráthaím gach bád a thógaim ar feadh deich mbliana,” a dúirt Seosamh. “Má bhíonn fadhb ar bith leis, tabhair ar ais chugam é.” Thug sé páipéar di a dúirt go raibh an bád ráthaithe aige.\n\n“Cathain go baileach is féidir liom é a thabhairt abhaile?” a d'fhiafraigh Mairéad.\n\n“Níl a fhios agam go baileach,” arsa Seosamh. “Seachtain, b'fhéidir. Ba mhaith liom dath eile péinte a chur air ar dtús.”\n\nSeacht lá ina dhiaidh sin, bhí an bád gorm ar an gcuan, agus Mairéad ag rámhaíocht go sona ann.\n\nCeisteanna:\nCén fáth ar theastaigh bád adhmaid ó Mhairéad?\nBhí bád ag a hathair nuair a bhí sí óg, agus chaith siad go leor tráthnónta le chéile ar an gcuan.\nCad a bhí i lár urlár na ceardlainne?\nBhí creat bád nua ina sheasamh ann.\nCén fáth a raibh an cófra faoin suíochán áisiúil?\nIs féidir lón agus cóta báistí a choinneáil ann.\nCén praghas ar shocraigh siad air tar éis na hidirbheartaíochta?\nShocraigh siad ar €5,500.\nCad a ráthaíonn Seosamh?\nRáthaíonn sé gach bád a thógann sé ar feadh deich mbliana."
+    },
+    {
+      "title": "Sliochtach an choimeádaí",
+      "summary": "The descendant of an old lighthouse keeper finds his sealed box of notebooks in the county archive and helps write new signs for the pier.",
+      "newWords": [
+        "foirceann",
+        "sliochtach",
+        "cuardaigh",
+        "séala",
+        "bonnán",
+        "márach",
+        "lonrach",
+        "comharthaíocht"
+      ],
+      "text": "Tá teach solais beag ar fhoirceann na céibhe sa bhaile ina bhfuil mé i mo chónaí. Céibh fhada chloiche atá ann, agus ar a foirceann tá túr bán leis an solas ar a bharr. Níl duine ar bith ina chónaí sa teach solais anois: oibríonn an solas leis féin le daichead bliain. Ach céad bliain ó shin, bhí coimeádaí ann, agus is sliochtach de chuid an choimeádaí sin mé. Ba é athair mo sheanmháthar é.\n\nAnuraidh, theastaigh uaim níos mó a fhoghlaim faoi. Chuardaigh mé a ainm ar an idirlíon, ach ní bhfuair mé mórán. Ansin chuaigh mé go dtí cartlann an chontae, agus chuardaigh mé sna seanpháipéir ansin ar feadh seachtaine. Ar deireadh, thug bean na cartlainne bosca adhmaid dom. Bhí séala dearg céarach ar an mbosca, agus ainm an choimeádaí scríofa faoin séala. Níor osclaíodh an bosca le céad bliain. Bhris mé an séala go cúramach.\n\nIstigh sa bhosca, bhí trí leabhar nótaí. Scríobh an coimeádaí iontu gach oíche faoin aimsir, faoin bhfarraige agus faoin solas. Nuair a thagadh ceo trom, bhíodh air an bonnán ceo a shéideadh gach dhá nóiméad go maidin. Uaireanta, bhíodh an bonnán ag séideadh ar feadh na hoíche ar fad, agus lá arna mhárach bhíodh an coimeádaí chomh tuirseach sin nach mbíodh sé in ann a ainm a scríobh i gceart. Bhí a chuid scríbhneoireachta an-lag ar na leathanaigh sin.\n\nScríobh sé faoi oíche amháin i lár an tsamhraidh nuair a bhí an fharraige féin lonrach. Bhí solas glas ag lasadh sna tonnta, agus faoi bhád gach iascaire. Tá a fhios againn anois gur ainmhithe beaga bídeacha san uisce a dhéanann an solas lonrach sin. Ní raibh a fhios sin ag an gcoimeádaí, ach scríobh sé gurbh é an radharc ab áille a chonaic sé riamh. Lá arna mhárach, d'inis sé an scéal do gach duine sa bhaile.\n\nNuair a d'inis mé an scéal seo do mhuintir an bhaile, shocraigh an cumann staire comharthaíocht nua a chur ar an gcéibh. Tá an chomharthaíocht ann anois, as Gaeilge agus as Béarla: deich gclár beaga ó thús na céibhe go dtí a foirceann, a insíonn stair an tí solais. Chabhraigh mé le scríobh na comharthaíochta, agus tá abairt as leabhar an choimeádaí ar an gclár deireanach.\n\nAnois, nuair a bhíonn ceo ann, cloisim an bonnán nua leictreach ag foirceann na céibhe, agus smaoiním ar an bhfear tuirseach sin a bhí ag séideadh an tseanbhonnáin fadó.\n\nCeisteanna:\nCá bhfuil an teach solais?\nTá sé ar fhoirceann na céibhe.\nCad é an gaol idir an scríbhneoir agus an coimeádaí?\nIs sliochtach de chuid an choimeádaí é an scríbhneoir.\nCad a bhí ar an mbosca adhmaid sa chartlann?\nBhí séala dearg céarach air, agus ainm an choimeádaí scríofa faoin séala.\nCad a bhíodh ar an gcoimeádaí a dhéanamh nuair a thagadh ceo trom?\nBhíodh air an bonnán ceo a shéideadh gach dhá nóiméad go maidin.\nCad as a dtagann an solas lonrach san fharraige?\nTagann sé ó ainmhithe beaga bídeacha san uisce.\nCad a insíonn an chomharthaíocht nua ar an gcéibh?\nInsíonn sí stair an tí solais."
+    },
+    {
+      "title": "An cluiche leathcheannais",
+      "summary": "An island camogie team crosses a rough sea to play a semi-final on the mainland, broadcast on local radio.",
+      "newWords": [
+        "camógaíocht",
+        "leathcheannas",
+        "gráin",
+        "milleán",
+        "éad",
+        "proifisiúnta",
+        "craobhscaoil",
+        "taobhaigh"
+      ],
+      "text": "Is í Fionnuala captaen fhoireann camógaíochta an oileáin. Níl ach dhá chéad duine ina gcónaí ar an oileán, ach tá an-tóir ar an gcamógaíocht ann. I mbliana, den chéad uair riamh, bhain an fhoireann áit amach sa leathcheannas. Bhí an cluiche leathcheannais le himirt ar an mórthír, i gcoinne fhoireann an bhaile mhóir.\n\nMaidin an chluiche, bhí an fharraige garbh. Tá gráin ag Fionnuala ar an mbád farantóireachta nuair a bhíonn na tonnta ard. Bíonn sí tinn i gcónaí. Ach ní raibh rogha aici. Shuigh sí i lár an bháid, a súile dúnta, agus í ag smaoineamh ar an gcluiche.\n\nBhí imreoir amháin, Sinéad, déanach don bhád. Bhí uirthi a deartháir beag a fhágáil ag teach a seanmháthar ar dtús. D'fhan an bád léi cúig nóiméad, agus níor chuir aon duine an milleán uirthi. “Ní ortsa atá an milleán, a Shinéad,” a dúirt Fionnuala. “Is í an fharraige atá ag cur moille orainn inniu.”\n\nNuair a shroich siad an pháirc, bhí éad ar chuid de na cailíní. Bhí páirc nua ag foireann an bhaile mhóir, seomraí feistis te agus traenálaí proifisiúnta ó Bhaile Átha Cliath. Ní raibh ag foireann an oileáin ach páirc chlochach ar imeall na trá, agus múinteoir scoile mar thraenálaí. “Ná bíodh éad oraibh,” a dúirt Fionnuala leis an bhfoireann. “Ní imreoirí proifisiúnta iad siúd ach oiread. Is daltaí scoile agus mná a bhíonn ag obair iad, díreach cosúil libhse.”\n\nChraobhscaoil an stáisiún raidió áitiúil an cluiche beo. Bhí muintir an oileáin ar fad ag éisteacht sa bhaile. Thaobhaigh lucht féachana an bhaile mhóir lena bhfoireann féin, ar ndóigh, agus bhí siad glórach. Ach níor thaobhaigh an réiteoir le foireann ar bith: bhí sí cothrom ó thús deireadh.\n\nBhí an cluiche an-ghar. Ag an nóiméad deireanach, bhí na foirne cothrom. Ansin fuair Sinéad an sliotar, rith sí suas an pháirc, agus bhuail sí thar an trasnán é. Pointe amháin a bhí eatarthu ag deireadh an chluiche.\n\nCraobhscaoileadh agallamh le Fionnuala ar an raidió an tráthnóna sin. Ar an mbealach abhaile, bhí an fharraige garbh arís, ach den chéad uair riamh, ní raibh gráin ar bith ag Fionnuala ar an mbád.\n\nCeisteanna:\nCén áit a raibh an cluiche leathcheannais le himirt?\nBhí sé le himirt ar an mórthír, i gcoinne fhoireann an bhaile mhóir.\nCén fáth a bhfuil gráin ag Fionnuala ar an mbád farantóireachta?\nBíonn sí tinn i gcónaí nuair a bhíonn na tonnta ard.\nAr chuir duine ar bith an milleán ar Shinéad nuair a bhí sí déanach?\nNíor chuir. Dúirt Fionnuala gurbh í an fharraige a bhí ag cur moille orthu.\nCén fáth a raibh éad ar chuid de na cailíní?\nBhí páirc nua, seomraí feistis te agus traenálaí proifisiúnta ag foireann an bhaile mhóir.\nConas a d'éist muintir an oileáin leis an gcluiche?\nChraobhscaoil an stáisiún raidió áitiúil an cluiche beo, agus d'éist siad leis sa bhaile."
+    },
+    {
+      "title": "Colún: An chéibh agus an baile",
+      "summary": "A newspaper column on a public meeting about the old pier, where a company's chief executive sets up an advisory committee of local people.",
+      "newWords": [
+        "sócmhainn",
+        "bonneagar",
+        "príomhfheidhmeannach",
+        "ídigh",
+        "comhairleach",
+        "príomhpháirt",
+        "fíneáil"
+      ],
+      "text": "Is é an cuan an tsócmhainn is mó atá ag ár mbaile. Tá sé níos luachmhaire ná an trá féin, dar liom. Tagann na báid iascaigh isteach ann gach maidin, tagann na turasóirí chuige gach samhradh, agus foghlaimíonn ár bpáistí snámh agus seoltóireacht ann. Ach ní mhaireann sócmhainn ar bith go deo gan aire.\n\nTá bonneagar an chuain ag titim as a chéile. Tá an chéibh briste in áiteanna, tá na soilse ag a barr dorcha le bliain, agus níl áit pháirceála ar bith ann do na carranna. Is bonneagar é a tógadh do bhaile beag iascaireachta céad bliain ó shin, ní do bhaile a bhfuil na mílte cuairteoirí ag teacht chuige gach bliain.\n\nAn tseachtain seo caite, bhí cruinniú poiblí sa halla. Tháinig príomhfheidhmeannach an chomhlachta atá i bhfeighil an chuain chun labhairt linn. Bean óg ghnóthach atá inti, agus í díreach tar éis an post a fháil. Ba é an chéad rud a dúirt an príomhfheidhmeannach ná nach raibh sí ag iarraidh airgead a ídiú ar phleananna nach dteastaíonn ó mhuintir na háite. Rinneadh é sin roimhe seo: ídíodh go leor airgid ar oifig nua nach n-úsáideann aon duine. Ídíonn drochphlean am chomh maith le hairgead.\n\nDá bhrí sin, beidh coiste comhairleach ann. Beidh 10 nduine ar an gcoiste comhairleach: iascairí, lucht gnó, an club seoltóireachta agus beirt ón scoil. Ní bheidh sé in ann aon rud a chinneadh: is coiste comhairleach é, ar ndóigh, a thabharfaidh comhairle don chomhlacht. Ach gheall an príomhfheidhmeannach go n-éistfeadh an comhlacht leis.\n\nBeidh príomhpháirt ag na hiascairí sa choiste. Is cóir sin, mar is iad na hiascairí a úsáideann an chéibh gach lá den bhliain. Bhí príomhpháirt ag seaniascaire amháin sa phlé an oíche sin freisin. Labhair sé go ciúin ar feadh 10 nóiméad, agus d'éist an halla ar fad leis.\n\nAr ndóigh, ní raibh gach duine sásta. Bhí roinnt daoine crosta faoin bhfíneáil nua: gearrfar fíneáil €80 ar thiománaithe a pháirceálann ar an gcéibh féin. Dúirt fear amháin nach bhfaca sé fíneáil chomh mór sin riamh. Ach cuireann na carranna sin bac ar na hiascairí, agus beidh áit pháirceála nua ar fáil taobh thiar den halla faoi cheann bliana. Is fiú é, dar liom, céibh a bheith saor do na báid.\n\nNí dhéanann cruinniú amháin cuan nua. Mar sin féin, shiúil mé abhaile an oíche sin ar an gcéibh bhriste, agus bhí dóchas orm den chéad uair le fada.\n\nCeisteanna:\nCén fáth a bhfuil an cuan chomh luachmhar sin don bhaile, dar leis an scríbhneoir?\nTagann na báid iascaigh agus na turasóirí ann, agus foghlaimíonn na páistí snámh agus seoltóireacht ann.\nCad atá cearr le bonneagar an chuain?\nTá an chéibh briste in áiteanna, tá na soilse dorcha, agus níl áit pháirceála ann.\nCad a dúirt an príomhfheidhmeannach ar dtús?\nDúirt sí nach raibh sí ag iarraidh airgead a ídiú ar phleananna nach dteastaíonn ó mhuintir na háite.\nCé a bheidh ar an gcoiste comhairleach?\nBeidh iascairí, lucht gnó, an club seoltóireachta agus beirt ón scoil air.\nCé mhéad a bheidh ar an bhfíneáil nua?\nGearrfar fíneáil €80 ar thiománaithe a pháirceálann ar an gcéibh."
+    },
+    {
+      "title": "Faoin uisce ag béal na habhann",
+      "summary": "An electronics engineer learns to dive so that she can install a fish counter at the mouth of a river.",
+      "newWords": [
+        "leictreonaic",
+        "capsúl",
+        "líneáil",
+        "suiteáil",
+        "comhbhrúigh",
+        "píobán"
+      ],
+      "text": "Is innealtóir í Caitríona, agus is í an leictreonaic a ceird. Tá leictreonaic sa chuid is mó de na rudaí a úsáidimid gach lá, ach is annamh a théann leictreonaic faoin uisce. Anuraidh, áfach, tháinig cumann iascairí chuici le hiarratas neamhghnách. Theastaigh uathu na héisc a chomhaireamh ag béal na habhann, go háirithe na bradáin óga. Tagann bradán óg ar ais ón bhfarraige tar éis geimhridh amháin. Bhí imní ar na hiascairí go raibh níos lú bradán óg ag teacht ar ais gach bliain.\n\nRinne Caitríona gléas beag chun an obair a dhéanamh. Ní réitíonn uisce agus leictreonaic le chéile, áfach, agus mar sin chuir sí an gléas i gcapsúl cruach, chomh mór le buidéal. Líneáil sí an capsúl le rubar, lena lámha féin, ionas nach dtiocfadh braon uisce isteach. Bhí an capsúl líneáilte go han-chúramach aici.\n\nBhí an capsúl le suiteáil ar ghrinneall na habhann, 6 mhéadar faoin uisce. D'fhéadfadh tumadóir ón gclub áitiúil an tsuiteáil a dhéanamh, ach bhí Caitríona ag iarraidh í a dhéanamh í féin. Mar sin, rinne sí cúrsa le Muiris, teagascóir sa chlub.\n\n“Féach ar an sorcóir seo,” a dúirt Muiris léi an chéad lá. “Tá aer comhbhrúite ann. Comhbhrúitear an t-aer ionas go mbeidh go leor ann d'uair an chloig faoin uisce. Tagann an t-aer comhbhrúite chugat tríd an bpíobán seo. Seiceáil an píobán gach uair sula dtéann tú isteach, gan eisceacht.”\n\nChleacht sí sa linn snámha ar feadh míosa, ansin sa chuan. Bhí eagla uirthi ar dtús, ach de réir a chéile d'éirigh sí compordach leis an bpíobán ina béal agus an sorcóir ar a droim.\n\nMaidin chiúin i ndeireadh an earraigh, chuaigh siad amach i mbád beag. Sheiceáil Muiris an píobán agus sheiceáil Caitríona an capsúl. Ansin chuaigh siad síos. Bhí an t-uisce glas dorcha, agus ní raibh le cloisteáil ach fuaim a hanála féin. Shuiteáil sí an capsúl ar sheastán cruach le dhá bholta. Thóg an tsuiteáil 20 nóiméad. Díreach nuair a bhí sí críochnaithe, chonaic sí scata bradán óg ag snámh thairsti go tapa i dtreo na habhann, gan suim dá laghad acu inti.\n\nAn oíche sin, shuigh sí os comhair an ríomhaire. Tháinig na chéad uimhreacha isteach ón gcapsúl: 23 bhradán óg i rith an tráthnóna. Chuir sí glao ar na hiascairí láithreach.\n\nCeisteanna:\nCad is ceird do Chaitríona?\nIs innealtóir í, agus is í an leictreonaic a ceird.\nCathain a thagann bradán óg ar ais ón bhfarraige?\nTagann bradán óg ar ais tar éis geimhridh amháin.\nCén fáth ar líneáil sí an capsúl le rubar?\nLíneáil sí é ionas nach dtiocfadh braon uisce isteach.\nCad atá sa sorcóir, dar le Muiris?\nTá aer comhbhrúite ann, a thagann chuig an tumadóir tríd an bpíobán.\nCad a chonaic Caitríona nuair a bhí an tsuiteáil críochnaithe?\nChonaic sí scata bradán óg ag snámh thairsti go tapa i dtreo na habhann."
+    },
+    {
+      "title": "Foclóir na farraige",
+      "summary": "A columnist expects a dull library talk by a lexicographer, but hears about maps, the white horses of the waves and the symphony of the sea.",
+      "newWords": [
+        "tur",
+        "foclóirí",
+        "teilgean",
+        "meánchiorcal",
+        "meafar",
+        "gramadúil",
+        "siansa"
+      ],
+      "text": "Chuaigh mé chuig léacht sa leabharlann aréir. Caithfidh mé a admháil gur shíl mé go mbeadh sí tur. Cad a d'fhéadfadh a bheith níos tura ná liostaí focal? Ach bhí an oíche fliuch, agus bhí mo chara ag dul ann.\n\nFoclóirí is ea Bairbre, an bhean a thug an léacht, agus tá sí ag obair le 15 bliain ar fhoclóir d'fhocail na farraige. “Deir gach duine gur obair thur í an obair atá ag foclóirí,” a dúirt sí, ag gáire. “Ná creidigí iad.”\n\nNíor thosaigh sí le focail ar chor ar bith, ach le léarscáil an domhain. Bhí teilgean pictiúr ar an mballa taobh thiar di. “Teilgean Mercator atá anseo,” a dúirt sí. “Sin bealach chun an domhan cruinn a chur ar pháipéar cothrom. Féachaigí ar an meánchiorcal, an líne seo trí lár na léarscáile. Dá fhaide a bhíonn tír ón meánchiorcal, is ea is mó a fheictear í ar an teilgean seo. Tá an Ghraonlainn anseo chomh mór leis an Afraic, cé go bhfuil an Afraic 14 oiread níos mó ná í.”\n\nAnsin d'fhéach sí orainn go léir. “Is léarscáil é foclóir freisin,” ar sise. “Meafar é sin, ar ndóigh, ach is meafar fíor é. Ní féidir teanga iomlán a chur ar pháipéar gan rud éigin a athrú.”\n\nBhailigh sí a cuid focal ó iascairí agus ó mhairnéalaigh a sheol thar an meánchiorcal agus a tháinig abhaile. Is breá léi na meafair a bhíonn acu. Nuair a bhíonn an fharraige garbh, tugann siad capaill bhána ar na tonnta. “Is meafar é a thuigeann páiste,” a dúirt sí.\n\nNíorbh iad na focail féin an chuid ba dheacra, a dúirt sí, ach na ceisteanna gramadúla. An fireann nó baininscneach atá focal áirithe? Cad é a iolra? Bíonn freagraí difriúla ag iascairí ó bhailte difriúla, agus ní féidir a rá gur earráid ghramadúil atá i bhfreagra ar bith acu. Scríobhann sí síos iad go léir.\n\nAg an deireadh, léigh sí líne as dán inar thug file “siansa na farraige” ar fhuaim na dtonn. “Ní sheinneann ceolfhoireann ar bith an siansa sin,” a dúirt sí, “ach chuala gach duine a shiúil ar thrá é.”\n\nShiúil mé abhaile cois farraige, in ainneoin na báistí. D'éist mé leis an siansa, agus d'fhéach mé ar na capaill bhána. Ní déarfaidh mé arís go bhfuil foclóir tur.\n\nCeisteanna:\nCad a shíl an scríbhneoir faoin léacht roimh ré?\nShíl an scríbhneoir go mbeadh an léacht tur.\nCad atá á dhéanamh ag Bairbre le 15 bliain?\nTá sí ag obair ar fhoclóir d'fhocail na farraige, mar is foclóirí í.\nCad a tharlaíonn do thír ar theilgean Mercator nuair a bhíonn sí i bhfad ón meánchiorcal?\nIs mó a fheictear í ar an léarscáil ná mar atá sí i ndáiríre.\nCén meafar a bhíonn ag iascairí do na tonnta?\nTugann siad capaill bhána ar na tonnta.\nCad a thug an file ar fhuaim na dtonn?\nThug an file “siansa na farraige” uirthi."
+    }
+  ]
+}
