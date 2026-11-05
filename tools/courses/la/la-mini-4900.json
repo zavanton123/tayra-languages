@@ -1,0 +1,194 @@
+{
+  "id": "la-mini-4900",
+  "rankUpTo": 4900,
+  "level": "C1",
+  "title": "Ludi et societas",
+  "description": "Ten pieces about sport and society: old round dances for children in Florence, a column on Brescia's new stadium and its sold name, a portrait of a wheelchair engineer in Zurich, an interview with a wrestling referee in Bologna, the eightieth rowing race on Lake Como, a fishing contest in Brindisi, a trail race with a dog near Verona, a cyclist's back cure in Padua, a statistics talk on a football club in Pavia and a charity run in togas in Tivoli.",
+  "topic": "Sport and society",
+  "names": [
+    "Gavinia",
+    "Florentia",
+    "Opsilia",
+    "September",
+    "Maius",
+    "Paconianus",
+    "Brixia",
+    "Mediolanum",
+    "Mustius",
+    "Turicum",
+    "Venidia",
+    "October",
+    "Sabidius",
+    "Bononia",
+    "Larius",
+    "Iunius",
+    "Avillius",
+    "Tutilius",
+    "Pinnia",
+    "Brundisium",
+    "Helvenia",
+    "Verona",
+    "Aeficia",
+    "Patavium",
+    "Petillius",
+    "Februarius",
+    "November",
+    "Larcia",
+    "Ticinum",
+    "Tibur",
+    "Firmilla",
+    "Aprilis"
+  ],
+  "lessons": [
+    {
+      "title": "Chorea in vico",
+      "summary": "In Florence a woman teaches old round dances to the children of her neighbourhood; a shy girl with long hair first only watches, then joins the circle and dances at the street festival in May.",
+      "newWords": [
+        "chorea",
+        "tralaticius",
+        "crinis",
+        "intueor",
+        "fascinatio",
+        "insolens",
+        "petalum"
+      ],
+      "text": "Gavinia Florentiae in vico vetere habitat et ter in hebdomade post meridiem in aula scholae choreas tralaticias docet. Choreae quas docet antiquae sunt: avi et aviae eas olim in agris et in foris saltabant, cum messis finita erat. Hodie paucae puellae et pauciores pueri eas sciunt. Gavinia tamen putat choream tralaticiam non minus quam pilam vel cursum corpori et animo prodesse. «In chorea», inquit, «nemo primus est et nemo ultimus: omnes manibus iuncti in orbem eunt.»\n\nMense Septembri nova discipula in aulam venit, Opsilia, puella novem annos nata, cuius crines longi et nigri ad medium tergum pertinent. Mater eam ad ianuam ducit et abit. Opsilia autem non saltat, sed in angulo sedet et ceteros intuetur. Diu intuetur pedes saltantium, qui ad sonum tibiae simul moventur, et manus quae in orbe iunctae sunt. Gavinia eam non cogit, nam scit timidos primum intueri, deinde imitari. In oculis puellae fascinationem videt quam ipsa olim senserat, cum parva choream in foro primum vidisset. Talis fascinatio, ut Gavinia putat, verbis doceri non potest.\n\nMulta in chorea Opsiliae insolentia videntur. Insolens ei videtur quod pueri et puellae, iuvenes et senes manus iungunt, quod in schola numquam fit. Insolentes sunt etiam vestes: puellae longas vestes coloratas induunt et flores in crinibus gerunt. Gavinia monet ne flores nimis teneros eligant, nam in chorea celeri petala decidunt. Post exercitationem pavimentum petalis rubris et albis saepe tegitur, et pueri petala ridentes colligunt.\n\nTertio die Opsilia in orbem intrat. Primo pedes eius errant et crines in oculos cadunt. Gavinia crines eius taenia ligat, ut melius videat, et docet quomodo pedes ad sonum tibiae moveat. Post paucas hebdomadas Opsilia iam non intuetur, sed cum ceteris saltat.\n\nMense Maio vicus festum habet, et grex Gaviniae in foro saltat. Opsilia in medio orbe saltat; crines eius floribus ornati sunt, et petala circa eam volant. Post choream multi spectatores, inter quos senes qui has choreas pueri didicerant, Gaviniam laudant. Senex quidam dicit: «Putabam choream tralaticiam una cum nobis senibus abituram esse. Nunc video eam vivere.» Opsilia matri dicit se anno proximo iterum saltare velle. Gavinia ridet: fascinatio, quae in angulo coepit, iam in orbe saltat.\n\nQuaestiones:\nQuid Gavinia docet?\nGavinia choreas tralaticias docet, quas avi et aviae olim in agris et in foris saltabant.\nQuid Opsilia primo in aula facit?\nPrimo in angulo sedet et ceteros saltantes intuetur.\nCur Gavinia eam non cogit?\nQuia scit timidos primum intueri, deinde imitari.\nQuid Opsiliae insolens videtur?\nInsolens ei videtur quod pueri et puellae, iuvenes et senes manus iungunt.\nCur Gavinia monet ne flores nimis teneros eligant?\nQuia in chorea celeri petala decidunt.\nQuid senex post choream dicit?\nDicit se putavisse choream tralaticiam cum senibus abituram esse, sed nunc eam vivere videre."
+    },
+    {
+      "title": "De nomine stadii novi",
+      "summary": "A columnist in Brescia weighs the town's plan to pull down the old stadium, build a new one on the edge of town and sell its name to a company: the savings and the roads on one side, the lost name and the irony on the other.",
+      "newWords": [
+        "nuncupatio",
+        "infrastructura",
+        "suburbanus",
+        "destructio",
+        "comparabilis",
+        "ironia",
+        "potentialis",
+        "totalis",
+        "compendium"
+      ],
+      "text": "Paconianus civibus Brixiae.\n\nConsilium urbis iam publice notum est. Stadium vetus, quod in media urbe stat, anno proximo destruetur, et in agro suburbano, prope viam quae ad Mediolanum ducit, stadium novum aedificabitur. Simul stadium novum nomen novum accipiet: societas quaedam quae pecuniam mutuam dat magnam summam solvet, ut stadium per decem annos nomine suo appelletur. Talis nuncupatio hodie in multis urbibus usitata est. Hac in columna rationes utriusque partis considerare volo.\n\nPrimum de destructione. Stadium vetus fere centum annos natum est; gradus eius rimas habent, tecta pluviam non arcent, loca ad lavandum pauca et vetera sunt. Destructio eius dolorem multis civibus afferet, sed sumptus reficiendi tam magni sunt ut aedificatio nova vix pluris constare videatur. Periti qui aedificium inspexerunt dicunt sumptum totalem reficiendi paene parem esse sumptui totali novi stadii.\n\nDeinde de agro suburbano. Qui stadium suburbanum laudant, dicunt ibi spatium esse et pretia agrorum minora. Sed stadium suburbanum infrastructuram postulat quam urbs adhuc non habet: vias latas, tramen frequens, areas ubi autocineta stent. Sine tali infrastructura spectatores qui nunc pedibus ad stadium eunt in autocinetis sedebunt, et viae suburbanae ante omne certamen autocinetis plenae erunt. Societas numerum magnum spectatorum potentialium promittit; sed spectator potentialis non venit, si via deest. Haec infrastructura, ut solet, plus constabit quam consilium nunc dicit.\n\nTum de nuncupatione. Societas quae nomen emit compendium urbi promittit: pecunia nuncupationis magnam partem sumptus totalis solvet, et hoc compendium cives in tributis sentient. Hoc concedo. Sed stadium vetus nomen athletae huius urbis gerit, qui ante septuaginta annos in hoc ipso stadio cucurrit. Nomen illud non est mercis titulus, sed memoria civium.\n\nIronia rei non latet: urbs quae nomen athletae sui dimittit ut compendium faciat, idem nomen in libris scholarum et in tabulis viarum servat. Nec minor est ironia quod societas nomen emit ut cives eam ament, cum cives fortasse eam ob hanc ipsam nuncupationem minus amabunt.\n\nQuid igitur? Urbes comparabiles, quae stadia sua similiter nominaverunt, varia experimenta praebent; Brixia enim cum eis comparabilis est et magnitudine et pecunia. In aliis cives nomen novum mox acceperunt; in aliis nomen vetus in ore populi per multos annos mansit. Utilitas potentialis consilii magna est, sed et damnum potentiale non parvum. Censeo consilium probandum esse, si duae condiciones servantur: ut infrastructura ante stadium paretur, et ut nomen athletae in porta stadii novi maneat, ut in nonnullis urbibus comparabilibus iam factum est. Sic et compendium et memoria servari possunt.\n\nQuaestiones:\nQuid urbs Brixia cum stadio vetere facere vult?\nUrbs stadium vetus destruere et in agro suburbano stadium novum aedificare vult.\nCur destructio stadii veteris necessaria videtur?\nQuia sumptus totalis reficiendi paene par est sumptui totali novi stadii.\nQuam infrastructuram stadium suburbanum postulat?\nPostulat vias latas, tramen frequens et areas ubi autocineta stent.\nQuod compendium societas urbi promittit?\nPecunia nuncupationis magnam partem sumptus totalis solvet, et cives compendium in tributis sentient.\nQuae est ironia rei?\nUrbs nomen athletae sui dimittit, sed idem nomen in libris scholarum et in tabulis viarum servat.\nQuibus condicionibus Paconianus consilium probat?\nSi infrastructura ante stadium paratur et nomen athletae in porta stadii novi manet."
+    },
+    {
+      "title": "Machinator rotarum",
+      "summary": "A portrait of an engineer in Zurich who once designed racing cars and now builds racing wheelchairs; he and a young racer test a new steel frame, inflate the tyres and celebrate her first finish in a marathon.",
+      "newWords": [
+        "ingeniarius",
+        "repertor",
+        "machinator",
+        "chalybs",
+        "electromagneticus",
+        "inflo",
+        "effectio",
+        "assisto"
+      ],
+      "text": "Mustius, ingeniarius quinquaginta annos natus, Turici parvam officinam habet in qua sellae rotales ad certamina fiunt. Viginti annos machinator autocinetorum velocium fuit: rotas, axes et motores designabat, et multas noctes in officina societatis magnae egit. «Machinator», inquit, «semper aliquid melius quaerit. Sed in autocinetis velocibus nihil iam mihi novum videbatur.»\n\nTum casu Venidiam cognovit, iuvenem athletam quae ab infantia crura movere non potest. Venidia sella rotali ad certamina utebatur, sed sella eius gravis erat et vetus. Mustius eam aspexit et statim ut ingeniarius cogitare coepit: quomodo pondus minui posset, quomodo rotae celerius volverentur. Ex illo tempore machinator autocinetorum machinator sellarum factus est.\n\nSellam novam ex chalybe fecit. Multi putant aluminium leviorem materiam esse, sed Mustius chalybem tenuem et firmum elegit, quia chalybs minus vibrat et diutius durat. In bracchiis sellae instrumentum electromagneticum posuit, quod omni motu rotarum signum electromagneticum emittit; sic computatrum celeritatem Venidiae et vim bracchiorum eius metitur. Mustius non vult se repertorem magnum vocari. «Repertor non sum», inquit. «Repertores res novas inveniunt; ego res antiquas paulo melius facio.» Venidia tamen eum repertorem appellat, et ille ridens non contradicit.\n\nAnte omne certamen Mustius athletae assistit. Rotas inflat, pressionem aeris metitur, iterum inflat. «Si rota parum inflatur», explicat, «velocitatem perdit; si nimis inflatur, in via aspera saltat.» Venidia interim bracchia exercet, et Mustius ei tacitus assistit, ut ingeniarius qui nihil praeter machinam suam videre videtur.\n\nMense Octobri Venidia primum cursum longum, quadraginta duo chiliometra, in sella nova perfecit. Non prima advenit, sed undecima, et tempus eius erat brevius quam ullum tempus anterius. Postea in officina sedentes de effectione illa loquebantur. Venidia dicit effectionem non suam solam esse, sed etiam ingeniarii. Mustius negat: «Sella non currit. Effectio tua est; ego tibi tantum assisto.» Deinde sellam inspicit et iam de rotis anni proximi cogitat.\n\nQuaestiones:\nQuid Mustius antea faciebat?\nViginti annos machinator autocinetorum velocium fuit.\nCur Mustius sellam ex chalybe fecit?\nQuia chalybs minus vibrat et diutius durat.\nQuid instrumentum electromagneticum facit?\nSignum electromagneticum emittit, ut computatrum celeritatem Venidiae et vim bracchiorum eius metiatur.\nCur Mustius rotas tam diligenter inflat?\nQuia rota quae parum inflatur velocitatem perdit, et rota quae nimis inflatur in via aspera saltat.\nCuius effectio est cursus longus, ut Mustius dicit?\nMustius dicit effectionem esse Venidiae, se ei tantum assistere."
+    },
+    {
+      "title": "Arbiter luctationis",
+      "summary": "An interview with a wrestling referee in Bologna about warnings, oil on the skin, objective rules and his own judgement, and why the referee should be the person nobody remembers.",
+      "newWords": [
+        "luctatio",
+        "admonitio",
+        "arbitrarius",
+        "obiectivus",
+        "deprehendo",
+        "deterreo",
+        "ratiocinor",
+        "competo",
+        "unguentum"
+      ],
+      "text": "Sabidius Bononiae magister mathematicae est, sed per triginta annos etiam arbiter luctationis fuit. Hoc anno ultimum certamen iudicabit. Cum eo in aula gymnasii locuti sumus, dum iuvenes in tapete luctabantur.\n\n«Quomodo ad luctationem venisti?»\n\n«Puer ipse luctabar, sed non bene. Magister meus mihi dixit: ‹Corpus tuum luctationi non competit, sed oculi tui competunt.› Itaque arbiter factus sum.»\n\n«Quid arbiter in luctatione facit?»\n\n«Primum curat ne quis laedatur. Deinde puncta dat et culpas notat. Si athleta praecepta neglegit, admonitionem accipit; post tres admonitiones certamen amittit. Admonitio non est poena, sed signum: athletam monet, ceteros deterret.»\n\n«Quas culpas saepissime deprehendis?»\n\n«Multi tempus trahunt aut manus adversarii fugiunt. Has culpas facile deprehendo. Difficilius est deprehendere unguentum. Praecepta vetant athletam cutem unguento aut oleo tegere, quia corpus unctum manibus elabitur. Ante certamen igitur cutem omnium tango. Semel iuvenem deprehendi qui unguentum contra dolorem musculorum adhibuerat; non fallere volebat, sed unguentum erat. Eum ad lavandum misi, et deinde luctatus est.»\n\n«Nonne admonitiones interdum arbitrariae videntur?»\n\n«Spectatoribus saepe arbitrariae videntur, quia non omnia vident. Praecepta nostra quam maxime obiectiva sunt: tempus, puncta, culpae scripto definitae. Sed nullum praeceptum omnes casus comprehendit. Ubi praeceptum deficit, arbiter ratiocinari debet: quid fieri debuit, quid athleta voluit, quid uterque vidit. Iudicium non arbitrarium est, si ratio eius explicari potest. Arbitrarium esset, si alteri athletae faverem.»\n\n«Potestne arbiter plane obiectivus esse?»\n\n«Nemo plane obiectivus est. Sed arbiter qui cotidie ratiocinatur, qui se interrogat cur ita iudicaverit, obiectivus fieri discit. Mathematica me hoc docuit: ratiocinari est ab eo quod certum est ad id quod nondum certum est procedere.»\n\n«Quid iuvenibus arbitris dicis?»\n\n«Ne timeant. Multi clamores parentum eos deterrent. Non deterreri debent, sed quiete et clare iudicare. Optimus arbiter est is quem post certamen nemo meminit.»\n\nQuaestiones:\nCur Sabidius arbiter factus est?\nQuia magister eius dixit corpus eius luctationi non competere, sed oculos competere.\nQuid est admonitio?\nAdmonitio est signum quod athletam monet et ceteros deterret.\nCur praecepta unguentum vetant?\nQuia corpus unctum manibus adversarii elabitur.\nQuando iudicium arbitrarium esset, ut Sabidius dicit?\nIudicium arbitrarium esset, si arbiter alteri athletae faveret.\nQuid est ratiocinari, ut mathematica Sabidium docuit?\nRatiocinari est ab eo quod certum est ad id quod nondum certum est procedere."
+    },
+    {
+      "title": "Certamen octogesimum",
+      "summary": "On a lake below the Alps an old rower takes part in the eightieth edition of a traditional race in a boat of three, with his first-born son and his grandson, against a cold north wind.",
+      "newWords": [
+        "octogesimus",
+        "vetustas",
+        "ternus",
+        "primogenitus",
+        "rhythmus",
+        "boreus",
+        "glaciarium",
+        "anas",
+        "stipes"
+      ],
+      "text": "In ripa lacus Larii parvum oppidum est, ubi quotannis mense Iunio certamen scapharum fit. Hoc anno certamen octogesimum est, et oppidum totum festum agit. In singulis scaphis terni homines remis navigant, et scaphae ternae simul ex portu proficiscuntur. Nemo scit quare terni homines et ternae scaphae; ita semper factum est.\n\nAvillius septuaginta quinque annos natus est et iam plus quam quinquaginta annos in hoc certamine remis navigavit. In certamine octogesimo cum filio suo primogenito et cum nepote, primogenito filii, navigare vult. Sic tres aetates in una scapha sedebunt. Scapha eorum magna vetustate est: avus Avillii eam fecit, et lignum eius colore fusco splendet. Iuvenes ex aliis oppidis scaphas novas et leves habent, sed Avillius vetustatem scaphae suae amat. «Vetustas», inquit, «scapham non debilitat, sed firmat. Haec scapha plura certamina vidit quam omnes illae novae.»\n\nMane caelum serenum est, sed ventus boreus a montibus descendit. In montibus super lacum glaciarium magnum lucet, et ventus boreus, qui per glaciarium transit, frigidus est. Qui in ripa exspectant, vestes calidas induunt. Avillius nepoti explicat ventum boreum hoc mense saepe mane flare et post meridiem cadere. «Aer glaciarii», inquit ridens, «optimus est ad remos agendos.»\n\nIn scapha omnia a rhythmo pendent. Filius primogenitus Avillii, qui in prima sede sedet, rhythmum dat: «Unum, duo; unum, duo.» Nepos, qui in media sede sedet, primo remum nimis celeriter movet, sed paulatim rhythmum patris et avi capit. Avillius, in ultima sede, rhythmum non audit sed sentit.\n\nPrope ripam multae anates natant. Cum scaphae appropinquant, anates cum clamore in aerem surgunt. Paulo post filius stipitem videt, qui in aqua natat; post pluviam noctis stipes e flumine in lacum delatus est. «Stipes ante nos!» clamat. Scapha ad dextram flectitur et stipitem vitat, sed rhythmus paulum turbatur, et alia scapha eos praeterit.\n\nTres tamen rhythmum recipiunt et secundi ad finem perveniunt. In ripa uxor Avillii eos exspectat cum cibo calido. Ventus boreus iam cadit, sol lacum illustrat, et anates in aquam tranquillam redeunt. Nepos dicit se proximo anno in prima sede sedere et rhythmum dare velle. Avillius respondet scapham, quamvis vetustate magna sit, etiam post certamen octogesimum multis certaminibus paratam fore.\n\nQuaestiones:\nQuot homines in singulis scaphis sedent?\nIn singulis scaphis terni homines sedent.\nCum quibus Avillius hoc anno remigat?\nCum filio suo primogenito et cum nepote, primogenito filii.\nCur Avillius scapham suam veterem amat?\nQuia putat vetustatem scapham non debilitare, sed firmare, et scapha plura certamina vidit quam scaphae novae.\nCur ventus boreus frigidus est?\nQuia per glaciarium magnum in montibus transit.\nQuis in scapha rhythmum dat?\nFilius primogenitus Avillii, qui in prima sede sedet, rhythmum dat.\nQuid filius in aqua videt?\nStipitem in aqua videt, et scapha ad dextram flectitur ut stipitem vitet."
+    },
+    {
+      "title": "Certamen piscatorum",
+      "summary": "At a catch-and-release sea fishing contest in Brindisi a father and his daughter wait through a cold wet morning, keep going after the rain eases, and land a moray eel that they measure and let go.",
+      "newWords": [
+        "vermis",
+        "murena",
+        "extractio",
+        "miseria",
+        "remissio",
+        "prosequor",
+        "immisceo",
+        "grossus"
+      ],
+      "text": "Tutilius et filia eius Pinnia Brundisii habitant et pisces capere amant. Hoc autumno primum in certamen piscatorum descendunt, quod societas piscatorum in molibus portus quotannis instituit. Praecepta certaminis simplicia sunt: iudices omnem piscem captum metiuntur, in tabula notant, et statim in mare reddunt. Longitudines omnium piscium quos quisque cepit adduntur, et qui summam maximam habet, praemium accipit.\n\nPridie Tutilius cibum piscium parat. In arca terra umida plena vermes servat, quos ipse in horto collegit. Pinnia vermes primum tangere non vult, sed pater ridet: «Vermis piscatori amicus est.» Deinde panem et caseum minutum aquae maris immiscet, quia pisces odore casei alliciuntur. Hanc massam in mare iaciet, ut pisces ad lineas vocet; vermes ipsos in ferris parvis et curvis figet.\n\nMane caelum nubibus obscurum est, et mox pluvia cadere incipit. Tutilius et Pinnia in mole sedent, pluvia umidi, et nihil capiunt. Miseria eorum magna est: manus frigidae fiunt, ventus per vestes transit, et vermes in arca non iam moventur. Pinnia dicit se domum ire velle. Pater respondet: «Haec miseria pars huius ludi est. Prosequamur paulum; post pluviam pisces melius edunt.»\n\nItaque pater per pluviam patienter prosequitur, et Pinnia, quamvis invita, cum eo manet. Circa horam decimam venit remissio pluviae et venti. Mare quietius fit, et sol per nubes apparet. In hac remissione pisces cibum quaerere incipiunt. Pinnia primum piscem parvum capit, deinde alterum. Pater eam laudat, et ambo laborem prosequuntur.\n\nPost meridiem linea Pinniae subito vehementer trahitur. Pater ei lineam grossam dederat, quia in hoc portu interdum magni pisces latent. Pinnia diu trahit, et tandem murena longa et fusca ex aqua apparet. Murena non facile se capi patitur, sed linea grossa non frangitur. Extractio ferri ex ore murenae difficilis est, quia murena dentes longos et validos habet. Tutilius instrumento longo utitur, et extractio celeriter et sine damno fit. Iudices murenam metiuntur: longior est quam bracchium Pinniae. Deinde Pinnia eam in mare reddit, et murena inter saxa evanescit.\n\nVespere societas praemia dat. Pinnia secunda est, et praemium eius est arca nova cum lineis grossis. Domum rediens patri dicit miseriam primarum horarum iam sibi non videri tam magnam. Tutilius respondet piscatorem patientia praeter omnia egere.\n\nQuaestiones:\nQuid iudices cum omni pisce capto faciunt?\nIudices omnem piscem captum metiuntur, in tabula notant et statim in mare reddunt.\nQuid Tutilius aquae maris immiscet?\nPanem et caseum minutum aquae maris immiscet, quia pisces odore casei alliciuntur.\nCur miseria eorum mane magna est?\nQuia pluvia cadit, manus frigidae fiunt, ventus per vestes transit, et nihil capiunt.\nQuid post remissionem pluviae fit?\nMare quietius fit, et pisces cibum quaerere incipiunt.\nCur extractio ferri difficilis est?\nQuia murena dentes longos et validos habet.\nQuid Pinnia cum murena facit?\nPostquam iudices murenam metiuntur, Pinnia eam in mare reddit."
+    },
+    {
+      "title": "Cursus per colles",
+      "summary": "A woman near Verona runs an autumn trail race with her mixed-breed dog, starting under the stars, past fertile vineyards, flint paths, falling maple seeds, a fallen-in hut and a wild boar.",
+      "newWords": [
+        "hybrida",
+        "sideralis",
+        "fecundus",
+        "silex",
+        "samara",
+        "aper",
+        "corruo",
+        "phantasticus"
+      ],
+      "text": "Helvenia prope Veronam habitat et cum cane suo per colles currere solet. Canis eius hybrida est: mater eius canis pastoralis erat, pater canis parvus et velox ex urbe, et ab utroque aliquid accepit, a matre patientiam, a patre nasum curiosum. Helvenia saepe dicit hybridam meliorem comitem esse quam canem nobilem, quia nihil timet et omnia olfacit.\n\nMense Octobri certamen fit in quo homines cum canibus suis per colles currunt, triginta chiliometra. Cursores hora quinta mane proficiscuntur, cum caelum adhuc obscurum est. Lumen siderale tam clarum est ut via sine lucernis videri possit. Helvenia caelum aspicit: tempus siderale, ut astronomi dicunt, paulo aliud est quam tempus horologii, sed cursori sufficit scire quot horae ante solem restent.\n\nPrimo via per vallem fecundam ducit, ubi vites et oleae crescunt. Ager hic tam fecundus est ut agricolae bis in anno metant. Prima luce Helvenia vindemiatores videt qui uvas ultimas colligunt. Deinde via in collem ascendit, et terra non iam fecunda est, sed dura et lapidosa. Semita silice tegitur, et silices acuti et lubrici sunt. Helvenia lente currit, ne pedes inter silices labantur; canis autem leviter per silicem saltat.\n\nIn silva acerum ventus folia et samaras movet. Samarae, quae alas tenues habent, circum se volvuntur dum cadunt, et canis eas in aere capere conatur. Helvenia ridet: centum samaras persequitur, nullam capit.\n\nPaulo post ad casam veterem veniunt, cuius tectum corruit. Tabula indicat casam ante viginti annos corruisse et nemini nunc periculo esse, sed monet ne cursores iuxta muros eius currant. Helvenia monitum sequitur.\n\nSubito canis consistit et latrat. Helvenia nihil videt et putat periculum phantasticum esse, ut saepe fit cum canis umbras vel ventum latrat. Sed hoc periculum non est phantasticum: aper magnus ex silva prodit, viam transit et in dumeta evanescit. Helvenia et canis immobiles stant dum aper abit; deinde quiete pergunt.\n\nPost quattuor horas ad finem perveniunt. Helvenia non prima est, sed contenta. Canis aquam bibit et in herba iacet. Helvenia amicis narrat de lumine siderali, de silicibus, de samaris volantibus et de apro qui non phantasticus erat.\n\nQuaestiones:\nCur canis Helveniae hybrida est?\nQuia mater eius canis pastoralis erat, pater canis parvus et velox ex urbe.\nCur via mane sine lucernis videri potest?\nQuia lumen siderale tam clarum est.\nQuomodo terra in valle et in colle differt?\nIn valle terra fecunda est, in colle dura et lapidosa et silice tecta.\nQuid canis in silva acerum facere conatur?\nSamaras volantes in aere capere conatur.\nQuid de casa veteri tabula indicat?\nTabula indicat casam ante viginti annos corruisse, et monet ne cursores iuxta muros eius currant.\nCur Helvenia primo periculum phantasticum esse putat?\nQuia canis saepe umbras vel ventum latrat."
+    },
+    {
+      "title": "Dorsum Petillii",
+      "summary": "In Padua a physiotherapist treats a retired amateur cyclist's back pain with exercises instead of more pills, and over two months his sleep, appetite and good mood come back.",
+      "newWords": [
+        "sanatio",
+        "pharmacum",
+        "vertebralis",
+        "corporalis",
+        "appetitio",
+        "duratio",
+        "destitutus"
+      ],
+      "text": "Aeficia Patavii physiotherapeutria est. Ad eam mense Februario venit Petillius, vir sexaginta octo annos natus, qui per totam vitam birota in montes ascendit. Iam a mense Novembri dolore tergi laborat. Medicus ei pharmaca contra dolorem dederat, et Petillius cotidie duo pharmaca sumit, sed dolor non cedit.\n\nAeficia eum diligenter interrogat. Petillius narrat se noctu male dormire et mane somno destitutum surgere. Dicit etiam se appetitionem cibi amisisse: cibum quem antea cupide edebat, nunc vix tangit. Appetitio, ut Aeficia explicat, saepe cum dolore abit et cum sanatione redit. «Sanatio», inquit, «non a pharmacis solis venit. Pharmacum dolorem minuit, sed causam non tollit.»\n\nDeinde columnam vertebralem eius inspicit. Musculi circa columnam vertebralem rigidi sunt, quia Petillius, cum dolorem sentiret, se movere desierat. Aeficia explicat columnam vertebralem quiete non sanari, sed motu moderato. Exercitationes corporales ei monstrat: in tapete iacens genua ad pectus trahere, tergum lente flectere, cum baculo ambulare. «Exercitatio corporalis», inquit, «pharmacum optimum est, quod nihil constat.»\n\nPetillius de duratione sanationis quaerit. Aeficia respondet durationem non certam esse, sed plerumque sex vel octo hebdomadas esse, si exercitationes cotidie fiunt. Petillius, qui patientia destitutus esse solet, gemit; sed promittit se omnia facturum esse.\n\nPost duas hebdomadas dolor paulum minor est. Petillius iam unum pharmacum sumit, non duo. Post quattuor hebdomadas noctu melius dormit et mane non iam somno destitutus surgit. Uxor eius gaudet, quia appetitio mariti rediit: ad cenam bis cibum petit. Post octo hebdomadas Aeficia columnam vertebralem iterum inspicit et dicit musculos iam molles et firmos esse.\n\nPetillius rogat num birota iterum uti possit. Aeficia permittit, sed monet ut primo breves vias faciat et exercitationes corporales numquam omittat. Mense Maio Petillius, pharmacis non iam egens, in collem prope urbem birota ascendit. In summo colle consistit et Aeficiae nuntium mittit: «Sanatio perfecta est. Tergum valet, et appetitio mea maior est quam umquam.»\n\nQuaestiones:\nQuare Petillius ad Aeficiam venit?\nQuia iam a mense Novembri dolore tergi laborat, et pharmaca dolorem non tollunt.\nQuid Aeficia de pharmacis dicit?\nDicit pharmacum dolorem minuere, sed causam non tollere.\nQuomodo columna vertebralis sanatur, ut Aeficia explicat?\nColumna vertebralis non quiete sanatur, sed motu moderato et exercitationibus corporalibus.\nQuae est duratio sanationis?\nPlerumque sex vel octo hebdomadae, si exercitationes cotidie fiunt.\nQuomodo uxor Petillii scit eum melius valere?\nQuia appetitio mariti rediit et ad cenam bis cibum petit.\nQuid Petillius mense Maio facit?\nBirota in collem prope urbem ascendit et Aeficiae nuntium mittit."
+    },
+    {
+      "title": "Praesentatio Larciae",
+      "summary": "In Pavia a statistics student presents her study of a local football league, using unpublished club data, a cubic polynomial and glosses for hard terms, and answers a question about how points are assigned.",
+      "newWords": [
+        "praesentatio",
+        "polynomium",
+        "indefinitus",
+        "attributio",
+        "cubicus",
+        "glossa",
+        "ineditus"
+      ],
+      "text": "Larcia Ticini studiis mathematicae dat operam. Hoc anno praesentationem de pediludio parare debet coram professoribus et sociis studiorum. Thema sibi elegit quod amat: turmam pediludii oppidi sui, quae in gradu inferiore ludit.\n\nCurator turmae ei numeros ineditos dedit: tabulas viginti annorum, in quibus scriptum est quotiens pila in quoque ludo in portam intraverit, quot spectatores venerint, quanta pluvia ceciderit. Hi numeri inediti numquam antea publice tractati sunt, et Larcia gaudet quod primum de eis disserere potest. Promisit autem curatori se nomina lusorum in praesentatione non dicturam esse.\n\nIn praesentatione Larcia primum quaestionem ponit: an numerus spectatorum ex successu turmae praedici possit. Deinde curvam in tabula ostendit. «Hanc curvam», inquit, «polynomio cubico descripsi. Polynomium cubicum est polynomium cuius gradus summus est tertius. Polynomium simplicius curvam non bene sequebatur, polynomium altius nimis.» In margine tabulae glossas brevibus verbis scripsit, ut socii qui mathematicam minus noverunt verba difficilia intellegant. Una glossa explicat quid sit «gradus polynomii», altera quid sit «error».\n\nProfessor quidam de attributione punctorum quaerit. Larcia explicat in attributione punctorum huius ordinis tria puncta pro victoria dari, unum pro pari exitu; ante annum 1995 autem attributionem aliam fuisse, duo puncta pro victoria. «Ideo», inquit, «numeros annorum veterum ad attributionem novam converti, ut comparari possent.» Professor eam laudat; talem attributionem multi neglegunt.\n\nSocia quaedam studiorum de numero indefinito spectatorum rogat. Larcia fatetur in tabulis quorundam ludorum numerum spectatorum indefinitum esse: scriptum est «multi» vel «plurimi», non numerus certus. «Numeros indefinitos», inquit, «non adhibui. Melius est paucis numeris certis uti quam multis indefinitis.»\n\nPostremo Larcia concludit successum turmae spectatores allicere, sed pluviam fere aeque eos deterrere. Polynomium cubicum hoc clare ostendit. Praesentatio plausu finitur. Larcia curatori turmae exemplar mittit, cum glossis omnibus, ut et ipse intellegat quid numeri sui inediti doceant.\n\nQuaestiones:\nQuod thema Larcia elegit?\nTurmam pediludii oppidi sui, quae in gradu inferiore ludit.\nUnde Larcia numeros ineditos accepit?\nCurator turmae ei numeros ineditos viginti annorum dedit.\nCur Larcia polynomio cubico usa est?\nQuia polynomium simplicius curvam non bene sequebatur, polynomium altius nimis.\nCur glossas in margine scripsit?\nUt socii qui mathematicam minus noverunt verba difficilia intellegant.\nQuomodo Larcia attributionem punctorum veterem tractavit?\nNumeros annorum veterum ad attributionem novam convertit, ut comparari possent.\nCur numeros indefinitos non adhibuit?\nQuia melius putat paucis numeris certis uti quam multis indefinitis."
+    },
+    {
+      "title": "Cursus togatorum",
+      "summary": "In Tivoli two running clubs that have just merged hold a charity run in togas for a new playground, announced at a press conference and ending with candles on the marble steps of the town hall.",
+      "newWords": [
+        "fusio",
+        "conferentia",
+        "toga",
+        "marmoreus",
+        "candela",
+        "granatus",
+        "luxuriosus",
+        "necessitudo"
+      ],
+      "text": "Tiburi duae societates cursorum diu inter se certabant. Anno priore tamen, quia utraque paucos socios habebat, se in unam societatem coniunxerunt. Fusio non facilis fuit: socii veteres nomina, colores et consuetudines suas amabant. Firmilla, quae societati novae praeest, consilium cepit ut fusionem opere communi celebraret: cursum togatorum, cuius pecunia in aream ludorum novam pro pueris oppidi impenderetur.\n\nMense Aprili in aula oppidi conferentia habita est, ad quam diurnarii et multi cives venerunt. In conferentia Firmilla explicavit cursores non vestibus solitis cursuros esse, sed togis albis, quas ex pannis veteribus ipsi conficere possent. «Toga», inquit, «antiqua vestis huius terrae est, et omnes, divites et pauperes, eadem toga aequales fiunt.» Diurnarius quidam quaesivit num in toga curri posset. Firmilla ridens respondit se ipsam in toga sua per tres hebdomadas cucurrisse.\n\nDie cursus plus quam quadringenti cursores, senes et iuvenes, parentes cum liberis, in toga ad portam oppidi convenerunt. Togae non semper bene haerebant: aliae in umeris labebantur, aliae ad pedes pendebant. Multi ridebant, et pueri togas parentum tenebant ne caderent. Cursus per vias veteres et per pontem ad forum ducebat.\n\nFinis erat ad gradus marmoreos aedis oppidi. Cum vesper adveniret, voluntarii in gradibus marmoreis centenas candelas posuerunt. Lumen candelarum in marmore albo micabat, et cursores in togis, cum per gradus ascenderent, quasi in scaena antiqua apparebant. In summis gradibus quisque poculum suci malorum granatorum accepit, quem agricola quidam e malis granatis suis donaverat. Sucus ruber et dulcis erat, et multi alterum poculum petebant.\n\nPraemia non magna sed iucunda erant. Praemium primum noctem in deversorio luxurioso prope villas antiquas praebebat. Firmilla tamen dixit praemium luxuriosum minus esse quam pecuniam collectam: plus quam viginti milia nummorum pro area ludorum.\n\nPostea, inter candelas, socii veteres utriusque societatis una sedebant et ridebant. Firmilla diurnario dixit necessitudinem inter socios, non pecuniam, fructum maximum cursus esse. Fusio, quae in chartis facta erat, iam in necessitudine hominum facta est. Candelis paulatim exstinctis, cursores in togis domum redierunt.\n\nQuaestiones:\nCur duae societates cursorum se in unam coniunxerunt?\nQuia utraque paucos socios habebat.\nQuid Firmilla in conferentia explicavit?\nExplicavit cursores togis albis cursuros esse, quas ex pannis veteribus conficere possent.\nUbi erat finis cursus?\nFinis erat ad gradus marmoreos aedis oppidi.\nQuid cursores in summis gradibus acceperunt?\nQuisque poculum suci malorum granatorum accepit, quem agricola e malis granatis suis donaverat.\nQuod erat praemium primum?\nNoctem in deversorio luxurioso prope villas antiquas.\nQuid Firmilla fructum maximum cursus esse dixit?\nNecessitudinem inter socios, non pecuniam."
+    }
+  ]
+}
