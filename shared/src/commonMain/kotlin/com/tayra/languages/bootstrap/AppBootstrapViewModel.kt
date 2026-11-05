@@ -3,6 +3,7 @@ package com.tayra.languages.bootstrap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import co.touchlab.kermit.Logger
+import com.tayra.languages.core.domain.flashcards.CardSentences
 import com.tayra.languages.core.domain.service.ChineseScriptService
 import com.tayra.languages.core.domain.service.CutWordsMigration
 import com.tayra.languages.core.domain.service.BookStatsService
@@ -30,8 +31,8 @@ sealed interface BootstrapState {
 
 /**
  * Opens the database and makes sure the catalog languages exist, with demo data on first start,
- * then keeps saved translations in the native language, gives words being learned a translation,
- * and syncs with the account, for as long as the app runs.
+ * then keeps saved translations in the native language, gives words being learned a translation
+ * and flashcards a sentence, and syncs with the account, for as long as the app runs.
  */
 class AppBootstrapViewModel(
     private val demoData: DemoDataService,
@@ -40,6 +41,7 @@ class AppBootstrapViewModel(
     private val translationLanguages: TranslationLanguageKeeper,
     private val learningTranslations: LearningTranslations,
     private val practiceExamples: PracticeExampleStore,
+    private val cardSentences: CardSentences,
     private val learningLanguage: LearningLanguageService,
     private val courses: CourseService,
     private val coursePacks: CoursePackService,
@@ -75,6 +77,7 @@ class AppBootstrapViewModel(
                 translationLanguages.start(viewModelScope)
                 learningTranslations.start(viewModelScope)
                 practiceExamples.start(viewModelScope)
+                cardSentences.start(viewModelScope)
                 autoSync?.start(viewModelScope)
             } catch (e: Exception) {
                 Logger.e(e) { "Bootstrap failed" }

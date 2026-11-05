@@ -84,6 +84,12 @@ interface TermRepository {
     /** Ids of the terms being learned (statuses 1 to 4) that have no translation. */
     suspend fun learningWithoutTranslation(): List<Long>
 
+    /** Stores [sentence] for a term that has none, and the [form] of the word it holds if that is another. Returns whether it was stored. */
+    suspend fun fillSentence(termId: Long, sentence: String, translation: String?, form: String?): Boolean
+
+    /** Ids of the terms a flashcard needs a sentence for: they have a card or are to have one, but no sentence. */
+    suspend fun needingSentence(): List<Long>
+
     /** Records [language] for translations whose language was never recorded. */
     suspend fun markTranslationLanguage(termIds: Collection<Long>, language: String)
 

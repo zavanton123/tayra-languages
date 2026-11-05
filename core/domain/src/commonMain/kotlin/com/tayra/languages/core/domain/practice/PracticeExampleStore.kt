@@ -84,6 +84,11 @@ class PracticeExampleStore(
         return found.size.coerceAtMost(KEEP - have.size)
     }
 
+    /** The sentences kept for [term], whatever its status, or looked up when none are; the word's own form first. */
+    suspend fun examplesFor(term: Term, language: Language): List<StoredExample> =
+        repository.examples(listOf(term.id))[term.id].orEmpty().ifEmpty { find(term, language, emptySet()) }
+            .sortedBy { !it.form.equals(term.displayText, ignoreCase = true) }
+
     private suspend fun find(term: Term, language: Language, known: Set<String>): List<StoredExample> {
         val native = settings.current.nativeLanguage.ifBlank { "en" }
         val wordForms = forms.of(term.displayText, language)

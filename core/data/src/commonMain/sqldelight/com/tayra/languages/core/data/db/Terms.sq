@@ -128,6 +128,18 @@ WHERE id = :id AND (translation IS NULL OR trim(translation) = '');
 selectLearningWithoutTranslation:
 SELECT id FROM terms WHERE status BETWEEN 1 AND 4 AND (translation IS NULL OR trim(translation) = '');
 
+-- Gives a term with no sentence one; the card hides [form] in it where that is not the word as saved.
+fillSentence:
+UPDATE terms SET sentence = :sentence, sentence_translation = :translation, card_form = coalesce(card_form, :form)
+WHERE id = :id AND (sentence IS NULL OR trim(sentence) = '');
+
+-- The terms a card needs a sentence for: those with a card, and those being learned that are to have one.
+selectNeedingSentence:
+SELECT t.id FROM terms t
+WHERE (t.sentence IS NULL OR trim(t.sentence) = '')
+  AND (t.id IN (SELECT term_id FROM flashcards)
+    OR (t.status BETWEEN 1 AND 4 AND t.id NOT IN (SELECT tp.term_id FROM term_parents tp INNER JOIN terms p ON p.id = tp.parent_id WHERE p.status BETWEEN 1 AND 4)));
+
 markTranslationLanguage:
 UPDATE terms SET translation_language = :language WHERE id IN :ids AND translation_language IS NULL;
 

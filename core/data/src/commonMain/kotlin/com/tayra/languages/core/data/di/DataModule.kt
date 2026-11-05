@@ -137,6 +137,7 @@ import com.tayra.languages.core.domain.service.DemoDataService
 import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.service.ExampleRecordings
 import com.tayra.languages.core.domain.courses.CourseExamplesProvider
+import com.tayra.languages.core.domain.flashcards.CardSentences
 import com.tayra.languages.core.domain.service.CorpusWords
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.GoogleTranslation
@@ -258,7 +259,8 @@ val dataModule: Module = module {
     single<PracticeProgressRepository> { PracticeProgressRepositoryImpl(get()) }
     single { WordForms(getOrNull(), get()) }
     single { PracticeExampleStore(get(), get(), get(), get(), get(), get(), get()) }
-    single { TermService(get(), get(), translationsWanted = get<LearningTranslations>()::request, chineseTables = getOrNull(), learningStarted = { get<PracticeExampleStore>().request(it) }) }
+    single { TermService(get(), get(), translationsWanted = get<LearningTranslations>()::request, chineseTables = getOrNull(), learningStarted = { get<PracticeExampleStore>().request(it); get<CardSentences>().request(it) }) }
+    single { CardSentences(get(), get(), get(), get()) }
     single { ExampleRecordings(KtorRecordingFetcher(get()), get()) }
     single { WordRecordings(CommonsRecordingSource(get())) }
     // In a browser the requests go without the app's User-Agent, which would need a preflight WiktApi refuses.
