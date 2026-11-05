@@ -1,0 +1,198 @@
+{
+  "id": "la-mini-2900",
+  "rankUpTo": 2900,
+  "level": "B2",
+  "title": "Societas et vita communis",
+  "description": "Ten everyday stories about living together: a residents' meeting in Terracina, a shared garden in Velletri, a bird count at a Swiss lake, a young carpenter finding his place in a mountain village, a volunteer walking with an elderly woman, a children's maths club, the fishermen of Elba, a small town museum reopening, a goat farm in the hills and a street association that finds a new purpose.",
+  "topic": "Society and living together",
+  "names": [
+    "Septicia",
+    "Cremutius",
+    "Tarracina",
+    "Betitia",
+    "Asconius",
+    "Velitrae",
+    "October",
+    "Aprilis",
+    "Peticius",
+    "Coruncania",
+    "Aventicum",
+    "Sentidius",
+    "Caristanius",
+    "Neapolis",
+    "Aesernia",
+    "Vibiena",
+    "Attius",
+    "Formiae",
+    "Mediolanum",
+    "Iunius",
+    "Cosinia",
+    "Tuscenia",
+    "Novaesium",
+    "Ilva",
+    "Corsica",
+    "Italia",
+    "Obsidia",
+    "Florentia",
+    "Herennuleius",
+    "Anagnia",
+    "Curiatia",
+    "Gavillia",
+    "Carsidia",
+    "Petiedia",
+    "Aletrium",
+    "Roma",
+    "Venusia",
+    "Allidia",
+    "Ofonius",
+    "Vargunteia"
+  ],
+  "lessons": [
+    {
+      "title": "Conventus incolarum",
+      "summary": "In a block of flats in Terracina an elderly woman chairs the residents' meeting, settles a quarrel about things left on the stairs and gets the owner's permission for a shed.",
+      "newWords": [
+        "praesideo",
+        "discordia",
+        "rumor",
+        "exceptio",
+        "licentia",
+        "impedimentum",
+        "posthac",
+        "modestus"
+      ],
+      "text": "Septicia, femina septuaginta annos nata, Tarracinae in magno aedificio habitat, ubi viginti familiae habitationes suas habent. Quia ipsa iam triginta annos ibi vivit et omnes incolae eam bene noverunt, conventibus incolarum semper praesidet. Conventus semel in mense in atrio aedificii habetur.\n\nHoc mense tamen conventus facilis non erat. Nam inter incolas discordia orta erat. Multi enim res suas in scalis atque in atrio relinquebant: vehicula infantium, vasa florum, arcas veteres. Haec omnia magno impedimento erant eis qui per scalas ascendere vel descendere volebant. Praeterea rumor per aedificium currebat: dominus aedificii mercedem habitationum augere velle dicebatur. Propter hunc rumorem discordia etiam maior facta erat.\n\nSepticia, ut solet, conventui praesedit. «Primum de rumore loquamur», inquit. «Ego ipsa dominum aedificii interrogavi. Rumor falsus est: merces non augebitur.» Incolae laeti erant, et discordia statim minor facta est.\n\nDeinde de impedimentis in scalis disputaverunt. Cremutius, pater iuvenis qui in summo aedificio habitat, homo modestus est et in conventibus raro loquitur. Tum tamen surrexit. «Ego quoque vehiculum filiae meae in atrio relinquo», dixit modesta voce. «Scio id aliis impedimento esse. Sed per scalas id cotidie portare non possum.»\n\nSepticia regulam proposuit: posthac nemo res suas in scalis relinquet. Unam tamen exceptionem fecit: vehicula infantium in angulo atrii stare licebit. Omnes huic exceptioni consenserunt. Quaedam femina addidit vasa florum atrium pulchrius facere. «Etiam haec exceptio esse potest», respondit Septicia, «si vasa in angulo stant nec cuiquam impedimento sunt.»\n\nUna res restabat. Incolae enim locum in area post aedificium habere volebant, ubi arcas et alias res servare possent. Ad casam autem ibi aedificandam licentia domini necessaria erat. Septicia, quamquam modesta femina est, dixit se ipsam licentiam a domino petere velle. Paucis diebus post dominus licentiam dedit, et incolae casam ligneam in area aedificaverunt.\n\nNunc scalae liberae sunt et posthac liberae manebunt, et inter incolas iterum concordia est. «Bene conventui praesedisti», dixit Cremutius Septiciae. Septicia risit: «Omnes bene egistis. Ego tantum audivi.»\n\nQuaestiones:\nCur Septicia conventibus incolarum praesidet?\nQuia iam triginta annos in aedificio vivit et omnes incolae eam bene noverunt.\nQuae res in scalis impedimento erant?\nVehicula infantium, vasa florum et arcae veteres impedimento erant.\nQuis rumor per aedificium currebat?\nDominus aedificii mercedem habitationum augere velle dicebatur.\nQuam exceptionem Septicia fecit?\nVehicula infantium in angulo atrii stare licebit, et vasa florum quoque, si nemini impedimento sunt.\nQuid incolae a domino petiverunt?\nLicentiam petiverunt ut casam ligneam in area aedificarent."
+    },
+    {
+      "title": "Hortus communis",
+      "summary": "A retired teacher in Velletri and the boy next door turn an empty plot behind their building into a garden of myrtles and wild flowers that comes back to life in spring.",
+      "newWords": [
+        "excolo",
+        "spargo",
+        "renascor",
+        "myrtus",
+        "pelvis",
+        "assidue",
+        "silvester",
+        "intus"
+      ],
+      "text": "Post aedificium in quo Betitia Velitris habitat area vacua iacebat, plena lapidum et herbarum malarum. Multos annos nemo eam colebat. Betitia, quae olim in schola docebat et nunc otio fruitur, aliquando vicinis dixit: «Cur hanc aream non excolimus? Hortum communem omnibus incolis facere possumus.» Vicini consenserunt, et Asconius, puer duodecim annorum qui in proxima habitatione habitat, statim auxilium suum promisit.\n\nMense Octobri aream excolere coeperunt. Primum lapides sustulerunt et terram paraverunt. Deinde Betitia et Asconius iuxta murum myrtos posuerunt. «Myrtus planta antiqua est», explicavit Betitia. «Folia eius bene olent et per totam hiemem viridia manent.» In media area semina florum silvestrium sparserunt. «Cur flores silvestres, non flores ex taberna?» rogavit Asconius. «Quia flores silvestres apes et papiliones ad se vocant et aquam paucam desiderant», respondit Betitia.\n\nPrope murum vicini casam parvam ligneam aedificaverunt. Intus instrumenta horti servantur, et intus etiam mensa est ubi homines sub tecto sedere possunt cum pluit. Ante casam Asconius pelvem magnam posuit et aqua implevit. «Haec pelvis avibus est», inquit. «Aves enim bibere et se lavare volunt.» Asconius pelvem assidue curabat: cotidie post scholam aquam novam in pelvem ferebat.\n\nHieme hortus tristis et vacuus videbatur. Flores silvestres nondum apparebant, et solae myrti virides erant. Asconius saepe rogabat: «Num semina frustra sparsimus?» «Exspecta», dicebat Betitia. «Cum tempus calidum redierit, hortus renascetur.»\n\nMense Aprili hortus re vera renatus est. Herbae virides renascebantur, et inter eas flores silvestres omnium colorum apparebant: rubri, flavi, caerulei. Apes circum flores volabant, et aves ad pelvem veniebant. Vicini, qui antea vix inter se loquebantur, nunc in horto conveniebant. Alii terram assidue excolebant, alii semina nova spargebant, alii intus in casa sedebant et de rebus cotidianis loquebantur.\n\n«Non solum hortus renatus est», dixit Betitia, «sed etiam vita communis nostri aedificii.»\n\nQuaestiones:\nQualis erat area post aedificium?\nArea vacua erat, plena lapidum et herbarum malarum.\nQuid Betitia et Asconius iuxta murum posuerunt?\nMyrtos posuerunt, quae per totam hiemem virides manent.\nCur semina florum silvestrium sparserunt?\nQuia flores silvestres apes et papiliones ad se vocant et aquam paucam desiderant.\nQuid intus in casa est?\nIntus instrumenta horti servantur, et ibi etiam mensa est.\nQuid Asconius assidue faciebat?\nCotidie post scholam aquam novam in pelvem ferebat.\nQuid mense Aprili accidit?\nHortus renatus est, et vicini in horto convenire coeperunt."
+    },
+    {
+      "title": "Aves ad lacum",
+      "summary": "A newcomer to Avenches joins a bird-watching club on its autumn count of migrating birds at the lake and helps fill the club's catalogue with seventeen species.",
+      "newWords": [
+        "migratio",
+        "occasus",
+        "aspicio",
+        "celer",
+        "lentus",
+        "catalogus",
+        "recenseo",
+        "septendecim"
+      ],
+      "text": "Peticius, vir sexaginta annos natus, nuper Aventicum venerat ut ibi habitaret. In oppido novo neminem noverat. Itaque, cum in tabula bibliothecae nuntium de societate avium observandarum legisset, statim ad eam accessit.\n\nCoruncania, quae societati praeest, ei libenter explicavit quid sodales facerent. «Omni autumno aves in ripa lacus recensemus», inquit. «Hoc enim tempore migratio avium fit: multa milia avium ex terris septentrionalibus in meridiem volant et apud lacum nostrum quiescunt. Aves quas videmus recensemus et in catalogum nostrum referimus. Hic catalogus iam quinquaginta annos servatur.»\n\nProximo die Peticius cum sodalibus prima luce ad lacum venit. Omnes in ripa silentio sedebant. Coruncania ei instrumentum dedit quo res procul positae prope videntur. «Aspice illam avem!» inquit. «Celerrime volat; ex celeritate eam cognoscere potes.» Aliae aves celeres super aquam volabant, aliae lentae et graves in aqua natabant. Peticius primo omnes aves similes esse putabat. Sed Coruncania eum docuit eas diligenter aspicere: colorem, formam capitis, modum volandi. «Quaedam aves lentae videntur», inquit, «sed in migratione longissima itinera faciunt.»\n\nPer totum diem sodales aves recensebant. Peticius singulas species in libellum scribebat. Cum occasus solis appropinquaret, Coruncania libellum aspexit. «Septendecim species hodie vidimus», inquit. «Optimus dies huius migrationis!» Occasus lacum rubrum faciebat, et magni greges avium celeres supra aquam volabant ut in ripa noctem agerent.\n\nDomi Peticius septendecim species in catalogum societatis rettulit. Coruncania gaudebat: «Nunc etiam nomen tuum in catalogo nostro est.» Peticius, qui paucis ante diebus neminem in oppido noverat, iam multos amicos habebat. Proximo quoque autumno aves cum eis recensere constituit.\n\nQuaestiones:\nQuid sodales societatis omni autumno faciunt?\nAves in ripa lacus recensent et in catalogum referunt.\nCur autumno tot aves ad lacum veniunt?\nQuia hoc tempore migratio avium fit, et aves apud lacum quiescunt.\nQuomodo Peticius aves cognoscere didicit?\nCoruncania eum docuit aves diligenter aspicere: colorem, formam capitis, modum volandi.\nQuot species sodales eo die viderunt?\nSeptendecim species viderunt.\nQuid Peticius domi fecit?\nSeptendecim species in catalogum societatis rettulit."
+    },
+    {
+      "title": "Apud patruum",
+      "summary": "A young man from Naples goes to learn carpentry from his uncle in a village near Isernia, makes a long table for the village feast and wins the villagers' admiration.",
+      "newWords": [
+        "patruus",
+        "finitimus",
+        "integro",
+        "proverbium",
+        "hortor",
+        "sollertia",
+        "admiratio",
+        "mirus"
+      ],
+      "text": "Sentidius, iuvenis undeviginti annorum, Neapoli natus est et semper in urbe magna vixerat. Scholam iam absolverat, sed nondum sciebat quam artem discere vellet. Patruus eius Caristanius, frater patris, in parvo vico prope Aeserniam faber est et mensas sellasque ex ligno facit. Caristanius fratris filium hortabatur ut per annum apud se habitaret et artem fabri disceret.\n\nPrimis mensibus Sentidius laetus non erat. In vico pauci iuvenes erant, et omnes inter se a pueritia noverant. Sentidius se in vitam vici integrare non poterat. Vesperi solus in cubiculo sedebat. Patruus id animadvertit et ei proverbium vici narravit: «Qui bonam mensam facit, mox multos amicos circum eam videt.» Sentidius risit, sed proverbium non intellexit.\n\nCaristanius autem nepotem cotidie hortabatur ut in opere diligens esset. Sentidius in officina laborabat et lignum secare et iungere discebat. Patruus miram patientiam habebat, et mox Sentidius magnam sollertiam ostendit. «Sollertia tua mihi placet», dixit patruus. «Manus tuae celeriter discunt.»\n\nAestate in vico festum magnum parabatur, ad quod etiam incolae vicorum finitimorum venire solebant. Ad cenam communem mensa longa necessaria erat. Patruus Sentidium hortabatur ut ipse eam faceret. Sentidius per tres hebdomades laboravit et mensam miram fecit: longam, firmam, ornamentis ligneis ornatam.\n\nDie festi omnes, et incolae vici et hospites ex oppido finitimo, mensam magna admiratione aspiciebant. «Quis hanc mensam miram fecit?» rogabant. Patruus admirationem eorum laetus audiebat et nepotem ostendebat. Senes iuvenem laudaverunt, iuvenes eum ad se vocaverunt, et puellae cum eo saltaverunt. Vir quidam ex vico finitimo statim novam mensam a Sentidio petivit.\n\nEo vespere Sentidius ad mensam suam sedebat, circum quam multi novi amici sedebant. Tum proverbium patrui intellexit. «Nunc in vitam vici integratus sum», dixit patruo. Caristanius risit: «Proverbium nostrum verum est, nonne? Sed sine tua sollertia mensa tam mira non esset.»\n\nQuaestiones:\nQuis est Caristanius?\nCaristanius est patruus Sentidii, frater patris eius, et faber in parvo vico prope Aeserniam.\nCur Sentidius primis mensibus laetus non erat?\nQuia in vico pauci iuvenes erant, et se in vitam vici integrare non poterat.\nQuod proverbium patruus narravit?\n«Qui bonam mensam facit, mox multos amicos circum eam videt.»\nQuid Sentidius ad festum fecit?\nMensam miram fecit: longam, firmam, ornamentis ligneis ornatam.\nQuomodo homines mensam aspiciebant?\nMagna admiratione eam aspiciebant et rogabant quis eam fecisset."
+    },
+    {
+      "title": "Ambulatio cum Vibiena",
+      "summary": "While her daughter works far away, a student volunteer in Formia walks twice a week with an 84-year-old woman whose balance therapy starts to work.",
+      "newWords": [
+        "senectus",
+        "absentia",
+        "sustento",
+        "therapia",
+        "admoneo",
+        "efficax",
+        "aequilibrium",
+        "remitto"
+      ],
+      "text": "Vibiena octoginta quattuor annos nata est et sola Formiis habitat. Filia eius Mediolani laborat et matrem raro visitare potest. In absentia filiae Attius, studiosus qui in consociatione iuvenum qui senes adiuvant operam dat, bis in hebdomade Vibienam visitat.\n\nVibiena, quamquam senectutem bene fert, unam rem difficilem habet: aequilibrium eius non iam firmum est. Medicus ei dixit hoc in senectute saepe accidere et therapiam suasit. Itaque Vibiena semel in hebdomade ad valetudinarium it, ubi therapia aequilibrii fit. Ibi cum aliis senibus exercitationes simplices facit: in uno pede stat, lente per lineam ambulat, oculis clausis immota manet.\n\nAttius cum Vibiena in hortum publicum ambulare solet. In semita eam sustentat: bracchium eius tenet, ne cadat. «Sine te domi manerem», dicit Vibiena. «Cum tu me sustentas, sine timore ambulo.»\n\nAttius etiam eam admonet ut exercitationes therapiae domi faciat. «Memento, Vibiena», inquit, «cotidie decem minutas exercere debes.» Vibiena ridet: «Etiam filia mea me per telephonum de his rebus admonet. Duos custodes habeo!»\n\nVibiena libros amat. Bibliotheca oppidi ei libros per cursum publicum mittit, et Vibiena eos legit et remittit. Attius eam in hac re adiuvat: libros lectos in fasciculum ponit et ad bibliothecam remittit. Vibiena in fasciculo semper epistolam brevem addit, qua bibliothecariis gratias agit.\n\nPost tres menses therapia efficax esse apparuit. Vibiena melius ambulabat, et aequilibrium eius multo melius erat. Medicus exercitationes efficaces fuisse dixit et Vibienam laudavit. Attius tamen eam etiam nunc sustentat cum per gradus descendunt. «Cautio quoque efficax est», inquit.\n\nMense Iunio filia Vibienae Formias venit. Cum audivisset quomodo Attius in absentia sua matrem adiuvisset, ei gratias egit. «Senectus non semper facilis est», dixit Vibiena, «sed cum bonis amicis facilior est.»\n\nQuaestiones:\nQuis Vibienam in absentia filiae visitat?\nAttius, studiosus qui in consociatione iuvenum qui senes adiuvant operam dat, eam visitat.\nCur medicus therapiam suasit?\nQuia aequilibrium Vibienae non iam firmum est, quod in senectute saepe accidit.\nQuomodo Attius Vibienam in semita sustentat?\nBracchium eius tenet, ne cadat.\nDe qua re Attius Vibienam admonet?\nEam admonet ut cotidie exercitationes therapiae domi faciat.\nQuid Attius cum libris lectis facit?\nEos in fasciculum ponit et ad bibliothecam remittit.\nFuitne therapia efficax?\nIta vero: post tres menses Vibiena melius ambulabat, et aequilibrium eius melius erat."
+    },
+    {
+      "title": "Circulus mathematicus",
+      "summary": "A retired engineer runs a weekly maths club in the library of Neuss, where an eleven-year-old girl learns a multiplication trick, a theorem about triangles and that progress depends on practice.",
+      "newWords": [
+        "theorema",
+        "theoreticus",
+        "multiplico",
+        "corrigo",
+        "deminutio",
+        "decresco",
+        "proficio",
+        "dependeo"
+      ],
+      "text": "Cosinia quadraginta annos in magna officina laboravit, ubi machinas novas excogitabat. Nunc, otio fruens, semel in hebdomade in bibliotheca Novaesii circulum mathematicum habet, ad quem pueri puellaeque ex toto oppido gratis veniunt. Tuscenia, puella undecim annorum, nullum conventum circuli omittit.\n\nHodie Cosinia primum ludum proposuit. «Quis celerrime undecim per tredecim multiplicare potest?» rogavit. Pueri diu computabant. Tuscenia autem statim respondit: «Centum quadraginta tres!» «Recte», dixit Cosinia. «Quomodo tam celeriter multiplicavisti?» Tuscenia explicavit: «Cum numerum ex duabus notis per undecim multiplico, duas notas addo et summam inter eas pono. Unum et tres sunt quattuor; itaque centum quadraginta tres.»\n\nDeinde Cosinia alium ludum proposuit. «Incipite a numero 640 et semper per duo dividite.» Pueri scribebant: 320, 160, 80, 40, 20, 10, 5. «Numeri celeriter decrescunt!» dixit puer quidam. «Ita est», respondit Cosinia. «Etiam in vita cotidiana numeri decrescunt. In taberna, exempli gratia, pretia saepe minuuntur. Si liber viginti nummis constat et deminutio quinta pars pretii est, quanti liber constat?» Puer quidam «Quindecim», inquit. Cosinia errorem eius corrigere noluit, sed eum rogavit ut ipse iterum computaret. Puer mox errorem suum correxit: «Quinta pars viginti nummorum est quattuor; post deminutionem liber sedecim nummis constat.» «Optime», dixit Cosinia. «Errare non malum est, dummodo errores corrigatis.»\n\nTum Cosinia in tabula theorema scripsit: «In omni triangulo summa trium angulorum est centum octoginta graduum.» «Theorema est sententia quam demonstrare possumus», explicavit. «Multi putant theoremata res theoreticas tantum esse, quae in vita nihil prosunt. Sed videte.» Pueri triangula ex charta fecerunt, tres angulos manibus abruperunt et iuxta posuerunt. Tres anguli lineam rectam fecerunt. «Ecce», dixit Cosinia, «hoc theorema non solum theoreticum est: id oculis videre potestis. Fabri et architecti eo cotidie utuntur.»\n\nIn fine Tuscenia rogavit quomodo tam bene computare posset quam Cosinia. «Quantum proficias ex exercitatione dependet», respondit Cosinia. «Qui cotidie paulum exercet, multum proficit.» Postea mater Tusceniae, quae filiam exspectabat, Cosiniae narravit filiam suam in schola multum profecisse. «Id non a me dependet», respondit Cosinia, «sed ab ipsa Tuscenia, quae numquam deest.»\n\nQuaestiones:\nUbi Cosinia circulum mathematicum habet?\nIn bibliotheca Novaesii semel in hebdomade circulum habet.\nQuomodo Tuscenia numerum per undecim multiplicat?\nDuas notas numeri addit et summam inter eas ponit.\nQuanti liber post deminutionem constat?\nPost deminutionem liber sedecim nummis constat.\nQuid Cosinia de erroribus dixit?\nDixit errare non malum esse, dummodo errores corrigantur.\nQuomodo pueri theorema oculis viderunt?\nTres angulos trianguli abruperunt et iuxta posuerunt, et anguli lineam rectam fecerunt.\nEx qua re dependet quantum pueri proficiant?\nEx exercitatione dependet: qui cotidie paulum exercet, multum proficit."
+    },
+    {
+      "title": "Piscatores Ilvae",
+      "summary": "A young woman returns to her native island of Elba, learns fishing from an old fisherman and helps the island's fishermen sell their catch online.",
+      "newWords": [
+        "piscator",
+        "archipelagus",
+        "conecto",
+        "professio",
+        "prosperus",
+        "ferme"
+      ],
+      "text": "Ilva maxima est insula archipelagi qui inter Corsicam et Italiam iacet. Hic archipelagus septem insulas maiores et multas minores habet. Navis cotidie Ilvam cum continente conectit, et aestate multi hospites per eam in insulam veniunt.\n\nObsidia in Ilva nata est, sed Florentiae studuerat et per quinque annos in officio laboraverat. Vita urbana ei non placebat; mare et insulam suam desiderabat. Itaque domum rediit, quod piscatrix fieri volebat. Herennuleius, piscator senex et amicus patris eius, eam in navem suam accepit.\n\n«Professio piscatoris dura est», ei dixit primo die. «Ante lucem surgimus, in frigore et vento laboramus, et mare non semper pisces dat.» Obsidia tamen non timebat. Cotidie cum Herennuleio ad mare exibat et retia iacere et trahere discebat. Post paucos menses ferme tot pisces capiebat quot ipse Herennuleius.\n\nPaulatim autem Obsidia intellexit cur tam pauci iuvenes hanc professionem eligerent. Olim in Ilva multi piscatores erant, et vita eorum prospera erat. Nunc ferme omnes piscatores insulae senes erant, et pisces quos capiebant parvo pretio vendebant. Mercatores enim e continente pisces emebant et in urbibus multo carius vendebant.\n\nObsidia, quae in urbe cum computatris laborare didicerat, consilium cepit. Paginam in interrete fecit, quae piscatores insulae cum cauponis et familiis in continente conectit. Mane piscatores in pagina scribunt quos pisces ceperint, et emptores statim eos emere possunt. Navis quae insulam cum continente conectit pisces eodem die transportat.\n\nPost annum res piscatorum multo meliores erant. Pisces suos maiore pretio vendebant, et duo iuvenes insulae, qui antea in continentem abire volebant, piscatores fieri constituerunt. Herennuleius gaudebat. «Professio nostra iterum prospera est», dixit, «et hunc annum prosperum tibi debemus.» Obsidia risit: «Ego tantum paginam feci, quae nos cum emptoribus conectit. Pisces vos capitis.»\n\nQuaestiones:\nUbi Ilva iacet?\nIlva est maxima insula archipelagi qui inter Corsicam et Italiam iacet.\nQuid navis cotidie facit?\nNavis Ilvam cum continente conectit.\nCur Obsidia in insulam rediit?\nQuia vita urbana ei non placebat et piscatrix fieri volebat.\nCur tam pauci iuvenes professionem piscatoris eligebant?\nQuia professio dura est, et piscatores pisces parvo pretio vendebant.\nQuomodo Obsidia piscatores adiuvit?\nPaginam in interrete fecit, quae piscatores cum cauponis et familiis in continente conectit."
+    },
+    {
+      "title": "Museum renovatum",
+      "summary": "After a long renovation the small museum of Anagni reopens with a larger hall, sculptures long kept in storage and the town's old chronicle, and an advertisement brings in the visitors.",
+      "newWords": [
+        "renovatio",
+        "sculptura",
+        "chronicon",
+        "amplus",
+        "manifesto",
+        "occulto",
+        "attraho",
+        "praeconium"
+      ],
+      "text": "Museum Anagniae parvum quidem est, sed antiquum. Diu tamen pauci visitatores eo veniebant. Conclavia enim angusta et obscura erant, et multae res pulchrae in cellis sub terra occultabantur, quia locus deerat ubi eas ostenderent.\n\nCuriatia igitur, quae museo praeest, renovationem aedificii ab oppido petivit. Renovatio duos annos duravit. Fabri muros quosdam sustulerunt, ita ut ex tribus parvis conclavibus unum conclave amplum fieret. Fenestras quoque maiores fecerunt, ut lux solis in conclave amplum intraret.\n\nIn hoc amplo conclavi Curiatia sculpturas posuit quae multos annos in cellis occultabantur: sculpturas ligneas et lapideas, quas artifices oppidi per saecula fecerant. Inter eas est sculptura pueri cum cane, quam omnes visitatores maxime amant. «Tam pulchras sculpturas occultare nobis molestum erat», dixit Curiatia. «Nunc tandem omnibus patent.»\n\nIn media aula chronicon oppidi iacet. Hoc chronicon per trecentos annos a scribis oppidi scriptum est. In eo leguntur pretia panis, nives magnae, aedificia nova, festa et nuptiae. Chronicon manifestat quomodo homines olim in oppido vixerint: quid ederint, quanti panem emerint, quando nives magnae ceciderint. Curiatia singulis diebus aliam paginam chronici aperit.\n\nAnte finem renovationis Curiatia de praeconio cogitabat. «Museum renovatum nihil prodest, si nemo id visitat», dixit. Gavillia, studiosa quae per aestatem in museo laborabat, praeconium fecit: tabulas magnas in viis oppidi et brevem pelliculam in interrete. In praeconio erat imago sculpturae pueri cum cane et haec verba: «Veni et vide quae diu occultabamus!»\n\nPraeconium multos visitatores attraxit. Primo mense plus quam mille homines museum visitaverunt, ferme tot quot antea toto anno. Sculpturae maxime familias cum liberis attrahebant, chronicon autem senes, qui nomina avorum suorum in eo quaerebant.\n\n«Res pulchrae semper hic erant», dixit Curiatia Gavilliae. «Renovatio tantum manifestavit quod antea occultabatur, et praeconium tuum homines attraxit.»\n\nQuaestiones:\nCur antea pauci visitatores in museum veniebant?\nQuia conclavia angusta et obscura erant, et multae res in cellis occultabantur.\nQuid fabri in renovatione fecerunt?\nMuros quosdam sustulerunt, ita ut ex tribus parvis conclavibus unum conclave amplum fieret.\nQuam sculpturam visitatores maxime amant?\nSculpturam pueri cum cane maxime amant.\nQuid chronicon oppidi manifestat?\nManifestat quomodo homines olim in oppido vixerint.\nQuid Gavillia fecit?\nPraeconium fecit, quod multos visitatores attraxit."
+    },
+    {
+      "title": "Caprae in montibus",
+      "summary": "A student from Rome spends two weeks on a goat farm in the hills near Alatri, climbs the steep path with the mule, collects milk and watches cheese being made.",
+      "newWords": [
+        "capra",
+        "mulus",
+        "vestitus",
+        "inclinatio",
+        "expleo",
+        "liquor",
+        "profundo",
+        "almus"
+      ],
+      "text": "Carsidia, studiosa quae Romae habitat, aestate per duas hebdomades in villa rustica in montibus prope Aletrium laboravit. Villam tenet Petiedia, quae cum familia sua quadraginta capras alit et caseum facit. Carsidia antea numquam capram e propinquo viderat.\n\nPrimo mane Petiedia ei vestes veteres et calceos firmos dedit. «Vestitus urbanus hic aptus non est», inquit. Carsidia, vestibus veteribus vestita, cum Petiedia in montem ascendit, ubi caprae herbam edebant. Semita magna inclinatione per latus montis ascendebat, et Carsidia aegre ascendebat. Mulus autem, qui vasa lactis vacua portabat, sine labore ascendebat. «Mulus hanc inclinationem non timet», ridens dixit Petiedia. «Muli montes amant.»\n\nIn monte caprae libere errabant. Petiedia lac caprarum in pelves colligebat, et Carsidia pelves tenebat. Mox Petiedia omnes pelves lacte explevit. Tum Petiedia lac e pelvibus in magna vasa profudit, quae mulus in villam portavit. Carsidia ipsa quoque unam pelvem in vas profudit, sed paulum lactis in vestitum suum cecidit. Petiedia risit: «Ideo vestes veteres tibi dedi.»\n\nIn villa Petiedia lac calefecit et aliquid parvum addidit. Paulatim lac mutabatur: pars mollis fiebat, et liquor flavus separabatur. Petiedia partem mollem in formas posuit, et liquorem in alia vasa profudit. «Hic liquor non abicitur», explicavit. «Ex eo alium caseum facimus, et reliquum porcis damus.» Carsidia formas explevit et diligenter pressit.\n\nVesperi in sede ante villam sedebant et montes aspiciebant. Sol in valles descendebat, et caprae ad villam redibant. «Haec terra alma est», dixit Petiedia. «Nos et capras alit, et nihil plus desideramus.» Carsidia, quae in urbe semper festinabat, intellexit cur Petiedia terram almam vocaret.\n\nUltimo die Carsidia caseum, quem ipsa fecerat, Romam secum portavit. Petiediae promisit se proxima aestate iterum venire velle.\n\nQuaestiones:\nQuid Petiedia in villa sua facit?\nQuadraginta capras alit et caseum facit.\nCur Petiedia Carsidiae vestes veteres dedit?\nQuia vestitus urbanus in villa aptus non est.\nQuomodo mulus semitam ascendebat?\nMulus sine labore ascendebat, quia magnam inclinationem non timet.\nQuid Petiedia cum lacte e pelvibus fecit?\nLac e pelvibus in magna vasa profudit, quae mulus in villam portavit.\nQuid ex liquore flavo fit?\nEx eo alius caseus fit, et reliquum porcis datur.\nQuid Petiedia de terra dixit?\nDixit terram almam esse, quae homines et capras alit."
+    },
+    {
+      "title": "Societas viae",
+      "summary": "When the old chair of a street association in Venosa steps down and neither candidate will take over, a neighbour saves the association from closing with a plan for shared solar panels.",
+      "newWords": [
+        "carbonium",
+        "dissolvo",
+        "impetro",
+        "assero",
+        "neuter",
+        "dimissio"
+      ],
+      "text": "In via quadam Venusiae iam quadraginta annos societas vicinorum est, quae festa viae parat et senes viae adiuvat. Allidia, quae societati triginta annos praefuit, nunc octoginta annos nata est. In conventu sodalium dimissionem petivit. «Iam vires mihi desunt», inquit. «Alius societatem ducere debet.» Sodales dimissionem eius tristes acceperunt.\n\nTum quaerebant quis Allidiae succederet. Duo sodales proponebantur, Ofonius et Vargunteia. Sed neuter munus accipere volebat. Ofonius asseruit se nimis multum laborare; Vargunteia asseruit se tres liberos parvos habere. Cum neuter consentiret, quidam sodalis dixit: «Si neuter societatem ducere vult, eam dissolvamus. Iam pauci iuvenes in societate sunt, et festa viae semper eadem sunt.» Multi sodales consentire videbantur, et Allidia tristis erat, quia societatem dissolvi nolebat.\n\nTum autem Vargunteia surrexit. «Societatem non dissolvamus», inquit, «sed ei novum propositum demus.» Asseruit vicinos simul tabulas solares in tectis domuum ponere posse. «Si multae familiae simul tabulas emunt, pretium minus est. Praeterea energiam ipsi faciemus, et domus nostrae multo minus carbonii in aerem emittent.» Explicavit carbonium in aere caelum calidius facere, et quamque familiam aliquid contra hoc facere posse.\n\nOfonius dubitabat. «Tabulae solares carae sunt», asserebat. «Unde pecuniam habebimus?» Vargunteia respondit oppidum familiis quae tabulas solares ponunt pecuniam dare. «Hanc pecuniam impetrare possumus, si omnes simul petimus.»\n\nSodales consenserunt. Vargunteia et Ofonius una ad officium oppidi ierunt et litteras omnium familiarum attulerunt. Post duos menses pecuniam impetraverunt: oppidum tertiam partem pretii solvit. Sequenti aestate in tectis viginti domuum tabulae solares positae sunt, et domus viae multo minus carbonii emittebant.\n\nSocietas igitur non dissoluta est, sed nova facta est. Multi iuvenes nunc sodales sunt. Vargunteia et Ofonius, quorum neuter antea munus accipere volebat, nunc societatem una ducunt. Allidia gaudet: «Dimissionem petivi, sed societatem meliorem relinquo.»\n\nQuaestiones:\nCur Allidia dimissionem petivit?\nQuia octoginta annos nata est et vires ei desunt.\nCur quidam sodalis societatem dissolvere voluit?\nQuia neuter sodalis munus accipere volebat, et pauci iuvenes in societate erant.\nQuid Vargunteia asseruit?\nAsseruit vicinos simul tabulas solares in tectis ponere posse et sic minus carbonii emittere.\nQuid sodales ab oppido impetraverunt?\nPecuniam impetraverunt: oppidum tertiam partem pretii solvit.\nQuis nunc societatem ducit?\nVargunteia et Ofonius nunc societatem una ducunt."
+    }
+  ]
+}
