@@ -1,0 +1,180 @@
+{
+  "id": "la-mini-4100",
+  "rankUpTo": 4100,
+  "level": "C1",
+  "title": "Corpus et animus cotidie",
+  "description": "Ten pieces about body and mind in everyday life: a first iron-cabled mountain climb, a stiff neck and a new pillow, a grandfather amazed in a planetarium, a portrait of a baker who sleeps by the clock, an islander after a storm, a proofreader's habits, a column on music and study, a letter about cycling to work, an interview with a translator who walked out of low spirits, and a nanny's frosty morning in the park.",
+  "topic": "Body and mind in daily life",
+  "names": [
+    "Olivia",
+    "Nonius",
+    "Vipitenum",
+    "Ludovicus",
+    "Alexandra",
+    "Tarvisium",
+    "Leonardus",
+    "Lydia",
+    "Aquincum",
+    "Petronius",
+    "Meranum",
+    "Annius",
+    "Igilium",
+    "Mathilda",
+    "Caesarodunum",
+    "Rutilius",
+    "Pedius",
+    "Dorothea",
+    "Mechlinia",
+    "Philippa",
+    "Martinus",
+    "Celeia"
+  ],
+  "lessons": [
+    {
+      "title": "Via ferrata",
+      "summary": "A woman who sits at a computer all week climbs an iron-cabled mountain route with her brother, learns to clip herself in, to climb with her legs and to look only at the next step, and comes home wanting more.",
+      "newWords": [
+        "ferratus",
+        "montuosus",
+        "praeceps",
+        "robur",
+        "alligo",
+        "affigo",
+        "aestivus",
+        "evito"
+      ],
+      "text": "Olivia, femina triginta annos nata, in urbe magna habitat et totam hebdomadem ante computatrum sedet. Cum feriae aestivae appropinquarent, frater eius Nonius, qui Vipiteni in regione montuosa vivit, eam invitavit ut secum viam ferratam ascenderet. Via ferrata est semita per rupem praecipitem ducta, cui catena ferrea et gradus ferrei affixi sunt, ut etiam ii qui artem in rupibus ascendendi non didicerunt in summum montem tuto pervenire possint.\n\nOlivia primo dubitavit. Loca praecipitia semper timuerat, et robur corporis sui, post tot menses in sella actos, parvum esse putabat. Sed tandem fratri consensit, quia diu nihil novi se expertam esse sentiebat.\n\nMane, cum caelum aestivum serenum esset, profecti sunt. Nonius sorori calceos firmos, galeam et zonam dedit, a qua duae catenae breves pendebant. «His duabus catenis», inquit, «te ad catenam ferream alligabis, quae rupi affixa est. Numquam ambas simul solves: dum alteram transfers, altera te tenet.» Olivia hanc regulam aliquoties repetivit, donec eam memoria teneret.\n\nInitio semita facilis erat: per silvam ascendebant, deinde per prata montuosa, ubi vaccae pascebantur. Ad pedem rupis Nonius constitit. Rupes alta et praeceps erat, sed gradus ferrei, rupi affixi, quasi scalam per eam faciebant. Nonius prior ascendit; Olivia sequebatur, se diligenter alligans et iterum alligans, ut frater docuerat. Mox sensit robur non in bracchiis solis esse, sed maxime in cruribus. «Crura te ferunt, non bracchia», dicebat Nonius. «Bracchiis te tantum tene, cruribus ascende.»\n\nIn media rupe Olivia deorsum spectavit et vallem procul infra vidit. Cor eius celeriter pulsabat. «Noli deorsum spectare», inquit Nonius, «sed gradum proximum. Loca praecipitia hic evitare non potes, sed timorem evitare potes, si oculos in manibus tuis tenes.» Olivia spiritum lente duxit, gradum proximum spectavit, deinde alterum. Timor paulatim cessit.\n\nPost tres horas in summum montem pervenerunt. Tota vallis sub eis patebat: villae parvae, flumen, silvae, alii montes. Quamquam bracchia eius dolebant, Olivia numquam se tam vivam senserat. Panem et caseum ederunt et diu tacebant.\n\nDomum regressa Olivia statuit corpus suum non iam totam hebdomadem in sella relinquere. Nunc bis in hebdomade in gymnasio muros artificiales ascendit, ut robur bracchiorum et crurum augeat, et proximis feriis aestivis cum fratre aliam viam ferratam, etiam altiorem, ascendere vult. Loca praecipitia non iam evitat; ea quaerit.\n\nQuaestiones:\nCur Olivia primo dubitavit?\nLoca praecipitia timebat et robur corporis sui parvum esse putabat.\nQuid est via ferrata?\nEst semita per rupem praecipitem ducta, cui catena ferrea et gradus ferrei affixi sunt.\nQuomodo Olivia tuta manebat?\nDuabus catenis brevibus se ad catenam ferream alligabat, neque umquam ambas simul solvebat.\nQuid Nonius de cruribus dixit?\nDixit crura eam ferre, non bracchia.\nQuid Olivia fecit, cum in media rupe timeret?\nSpiritum lente duxit et gradum proximum spectavit.\nQuid nunc Olivia facit?\nBis in hebdomade muros artificiales ascendit et aliam viam ferratam ascendere vult."
+    },
+    {
+      "title": "Cervicale novum",
+      "summary": "An overworked accountant in Treviso with a stiff neck learns from a physiotherapist that his pillow, his posture and his breathing are to blame, follows her advice and gets his sleep back.",
+      "newWords": [
+        "obruo",
+        "vesper",
+        "cervicalis",
+        "praecipio",
+        "extensio",
+        "inspiratio",
+        "meditor",
+        "recipero"
+      ],
+      "text": "Ludovicus, vir quadraginta duos annos natus, Tarvisii in societate magna rationes curat. Hoc anno negotiis obrutus est: mane primus in officium venit, vespere ultimus discedit, et domi quoque epistulas electronicas legit. Per aliquot hebdomades collum eius dolebat, praesertim mane, cum e lecto surgeret; caput vix vertere poterat.\n\nTandem medicum adiit, qui eum ad Alexandram misit, quae aegros motibus et exercitationibus curat. Alexandra eum diu interrogavit: quomodo sederet, quomodo dormiret, quot horas ante computatrum ageret. Deinde collum eius manibus tetigit.\n\n«Vertebrae tuae cervicales sanae sunt», inquit. «Musculi autem colli duri sunt et contracti, quia toto die caput ante computatrum inclinas. Praeterea cervicale tuum, ut opinor, aptum non est.» Ludovicus rogavit quid cervicale cum dolore suo commune haberet. Alexandra explicavit: si cervicale nimis altum aut nimis humile est, collum tota nocte flexum manet, et musculi mane dolent. Itaque praecepit ut cervicale humilius et firmius emeret, quod caput eodem modo sustineret quo collum id sustinet, cum stamus.\n\nDeinde ei extensiones quasdam ostendit. «Hae extensiones simplices sunt», inquit, «sed cotidie faciendae. Caput lente ad dextram inclina, deinde ad sinistram; singulas extensiones tene, dum decem spiritus lente ducis.» Praecepit etiam ut singulis horis a computatro surgeret et paulum ambularet.\n\nPostremo de spiritu locuta est. «Homines negotiis obruti», inquit, «breviter et celeriter spiritum ducunt, quasi semper currant. Vespere, antequam dormis, decem minuta sume. In lecto iace, oculos claude et meditare: nihil aliud cogita nisi spiritum tuum. Inspiratio sit lenta et longa; deinde spiritum etiam lentius emitte. Post quamque inspirationem collum magis quiescit.»\n\nLudovicus primo dubitabat; tam simplicia remedia sibi profutura esse non credebat. Sed praeceptis Alexandrae obsecutus est. Cervicale novum emit, extensiones mane et vespere faciebat, singulis horis surgebat ut aquam biberet. Vespere in lecto iacebat et, ut Alexandra praeceperat, meditabatur: lentam inspirationem observabat neque de negotiis cogitabat.\n\nPost tres hebdomades Ludovicus valetudinem colli paene totam reciperaverat: mane sine dolore surgebat et caput facile vertebat. Neque valetudinem colli solam reciperaverat, sed etiam somnum, nam nunc totas noctes dormit. Negotia non minora sunt quam antea, sed iis non iam obruitur. Vespere computatrum claudit et paulum tranquille meditatur, antequam dormitum it.\n\nQuaestiones:\nQuid Ludovico dolebat?\nCollum eius dolebat, praesertim mane.\nQuid Alexandra de cervicali dixit?\nDixit cervicale eius aptum non esse et praecepit ut humilius et firmius emeret.\nQuomodo extensiones faciendae sunt?\nCaput lente inclinatur, et singulae extensiones tenentur, dum decem spiritus lente ducuntur.\nQuid Alexandra vespere facere praecepit?\nPraecepit ut in lecto iaceret, oculos clauderet et meditaretur, lentam inspirationem observans.\nQuid Ludovicus post tres hebdomades reciperaverat?\nValetudinem colli et somnum bonum reciperaverat."
+    },
+    {
+      "title": "Sub caelo artificiali",
+      "summary": "A grey-haired grandfather takes his granddaughter to the planetarium in Budapest, where a bearded young guide shows them the atomic clock and a sky full of stars, and the old man finds he can still be amazed.",
+      "newWords": [
+        "canus",
+        "planetarium",
+        "atomicus",
+        "barbatus",
+        "innumerus",
+        "exclamo",
+        "extollo",
+        "inopinatus"
+      ],
+      "text": "Leonardus, senex septuaginta annos natus, capillis canis et barba cana, neptem suam Lydiam, puellam novem annorum, Aquinci in planetarium duxit. Lydia numquam in planetario fuerat. Leonardus ipse semel, cum puer esset, planetarium viderat, et eius diei libenter meminerat.\n\nPlanetarium est aedificium rotundum, cuius tectum intus quasi caelum nocturnum est: machina stellas et planetas in tecto ostendit, ita ut spectatores sub caelo sereno sedere videantur, etiam media die.\n\nIn aula prima planetarii horologium atomicum stabat. Tabula docebat horologium atomicum tempus tam accurate metiri ut vix uno momento in multis milibus annorum erret. Lydia horologium diu spectabat. «Quid est atomicum, ave?» rogavit. Leonardus explicavit omnia ex atomis constare, particulis minimis, et horologium atomicum non rotis, ut horologium eius vetus, sed motu atomorum tempus numerare. Lydia non omnia intellexit, sed verbum novum, atomicum, aliquoties repetivit.\n\nDeinde in aulam rotundam intraverunt et in sellis consederunt. Iuvenis barbatus, qui spectatores ducebat, eos salutavit. Lumina paulatim exstincta sunt, et supra eos stellae innumerae apparuerunt. Lydia exclamavit: «Quam multae sunt!» Alii quoque pueri exclamaverunt.\n\nIuvenis barbatus explicavit: «In urbe stellas paucas videmus, quia lumina urbis caelum clarum faciunt. In loco obscuro autem, procul ab urbibus, stellae paene innumerae apparent: oculis plus quam duo milia una nocte videri possunt.» Deinde caelum lente moveri coepit, et spectatores per stellas volare videbantur, ad lunam, deinde ad planetam magnum, anulis cinctum. Lydia iterum exclamavit et avi manum tenuit.\n\nLeonardus quoque oculos ad tectum extollebat. Gaudium inopinatum sentiebat. Putaverat se, senem, nihil iam mirari posse; nunc autem, sicut puer, sub caelo artificiali stupebat. Medici dicunt animum senum, si cotidie aliquid novi discit aut miratur, diutius vigere. Leonardus id nunc corpore ipso sentiebat.\n\nPost spectaculum Lydia iuvenem barbatum quaestione inopinata adiit: «Suntne stellae plures quam homines?» Ille, ridens, respondit stellas multo plures esse, et puellam laudavit quod tam bene interrogaret. Lydia gaudebat, et Leonardus neptem coram omnibus laudibus extollebat.\n\nDomum redeuntes de stellis innumeris loquebantur. Lydia avum rogavit ut proxima aestate secum in montes iret, ut caelum verum procul ab urbe videret. Leonardus libenter consensit.\n\nQuaestiones:\nQuis est Leonardus?\nSenex est septuaginta annos natus, capillis canis et barba cana.\nQuid est planetarium?\nAedificium rotundum est, cuius tectum intus quasi caelum nocturnum est.\nQuomodo horologium atomicum tempus numerat?\nNon rotis, sed motu atomorum tempus numerat.\nQuid Leonardus sub caelo artificiali sentiebat?\nGaudium inopinatum sentiebat, quia sicut puer iterum mirabatur.\nQuid Lydia iuvenem barbatum rogavit?\nRogavit num stellae plures essent quam homines.\nQuid Leonardus post quaestionem Lydiae fecit?\nNeptem coram omnibus laudibus extollebat."
+    },
+    {
+      "title": "Pistor qui nocte vigilat",
+      "summary": "A portrait of a baker in Merano who has kept his small bakery for twenty years: how he trained his body to sleep early, why sleep comes first, and why he never wanted to get rich in the city.",
+      "newWords": [
+        "pistor",
+        "limen",
+        "antepono",
+        "acerbus",
+        "opportunitas",
+        "locuples",
+        "superbus",
+        "fortuitus"
+      ],
+      "text": "Dum plerique homines dormiunt, Petronius laborat. Pistor est Merani, in oppido parvo inter montes, et pistrinum suum iam viginti annos tenet. Hora secunda post mediam noctem surgit, hora tertia limen pistrini transit, et usque ad meridiem panem coquit et vendit. Amici eum saepe rogant quomodo talem vitam ferat. Ipse respondet corpus omnia discere posse, si ei tempus et ordo dentur.\n\nAd artem suam via fortuita pervenit. Cum puer quindecim annorum esset, aestate in pistrino avunculi laborabat, non quia pistor fieri volebat, sed quia pecuniam quaerebat. Fortuitus ille labor vitam eius mutavit: odorem panis calidi prima luce amare coepit, neque postea ullum alium laborem anteposuit.\n\nInitio tamen non facile fuit. Somnus eum semper deficiebat; per diem vix oculos apertos tenere poterat. Tum avunculus, pistor senex, ei unam regulam praecepit: «Idem tempus somni cotidie serva, etiam diebus festis.» Petronius regulam secutus est. Hora octava vespere dormitum it, etiam aestate, cum vicini in hortis cenant et rident. Fenestras cubiculi pannis crassis tegit, ut nulla lux intret. «Somnum ceteris rebus antepono», inquit. «Pistor qui somnum non anteponit mox neque bonum panem neque bonum animum habet.»\n\nLabor ipse corpus exercet. Saccos farinae, quorum quisque viginti quinque chiliogrammatum est, portat; massam manibus multas horas versat. Petronius dicit se gymnasium numquam adiisse neque eo egere: pistrinum est gymnasium suum. Dorsum tamen curat: saccos semper genibus flexis tollit, non dorso inclinato, ut medicus eum docuit.\n\nCum hiems acerba est et ventus acerbus a montibus descendit, pistrinum locus calidissimus oppidi est. Prima luce senes et operarii in limine stant et panem calidum exspectant. Petronius singulos nomine salutat et in limine cum eis paulum loquitur.\n\nLocuples non est. Panis non magno pretio venditur, et pistrinum parvum est. Saepe ei opportunitas data est pistrinum maius in urbe aperire, ubi plus pecuniae facere posset. Sed has opportunitates semper recusavit. «Locuples fieri possem», inquit, «sed tum in officio sederem et rationes computarem, non panem coquerem.»\n\nSuperbus est, sed non pecunia. Superbus est pane suo, quem ex farina agricolae vicini facit, et emptoribus suis, quorum multos a pueritia novit. «Labor noctu acerbus videri potest», inquit, «sed mihi acerbus non est. Cum primum emptorem in limine video, scio cur surrexerim.»\n\nQuaestiones:\nQuando Petronius surgit?\nHora secunda post mediam noctem surgit.\nQuomodo ad artem suam pervenit?\nVia fortuita, cum puer aestate in pistrino avunculi laboraret.\nQuam regulam avunculus ei praecepit?\nIdem tempus somni cotidie servare, etiam diebus festis.\nCur Petronius gymnasium non adit?\nQuia labor ipse corpus exercet: pistrinum est gymnasium suum.\nCur opportunitatem pistrini maioris recusavit?\nQuia tum in officio sederet et rationes computaret, non panem coqueret.\nQua re Petronius superbus est?\nPane suo et emptoribus suis, quorum multos a pueritia novit."
+    },
+    {
+      "title": "Post procellam",
+      "summary": "After a night storm on the island of Giglio, an islander finds his garden wall down, his cellar full of mud and the drains blocked, and calmly digs, rebuilds and waits for the ferry like everyone else.",
+      "newWords": [
+        "insulanus",
+        "insularis",
+        "procella",
+        "percurro",
+        "collabor",
+        "limus",
+        "cloaca",
+        "effodio"
+      ],
+      "text": "Annius insulanus est: in insula Igilio natus est et ibi semper vixit, praeter quinque annos quibus in continenti studuit. Insula parva est; hieme vix octingenti homines ibi habitant, aestate multo plures. Insulani vitam insularem amant, quamquam non facilem: navis bis in die ex continenti venit, et cum mare saevit, nulla venit.\n\nExeunte autumno procella magna insulam percussit. Tota nocte ventus fremebat et pluvia in tecta cadebat. Annius parum dormivit, sed domi tutus erat.\n\nPrima luce domum et hortum percurrit, ut damna inspiceret. Tectum integrum erat. Murus autem horti, ex lapidibus sine calce exstructus, partim collapsus erat, et cella sub domo limo plena erat. Pluvia enim limum de monte in vias tulerat, et cloacae, quae aquam pluviam ad mare ducere solent, limo obstructae erant.\n\nAnnius non irascebatur. Insulani procellas bene norunt: quaque hieme una aut altera venit. Pala sumpta limum e cella effodere coepit. Vicinus eius, senex insulanus, cum altera pala venit, et ambo totum mane limum effodiebant et in hortum portabant. Interea operarii oppidi cloacas aperiebant, ut aqua iterum ad mare flueret. Una cloaca post alteram purgata est, et viae paulatim siccae fiebant.\n\nPost meridiem Annius murum collapsum inspexit. Lapides in limo iacebant. Eos e limo effodit et unum post alterum reposuit, sicut pater eius docuerat. Murus talis, sine calce, facile collabitur, sed etiam facile reficitur. «Murus qui numquam collabitur», dicebat pater, «rarus est in insula; murus qui reficitur, semper.»\n\nDuobus diebus nulla navis venit, quia mare etiam post procellam saeviebat. In continenti, ut Annius scit, homines irascuntur si tramen decem minutis tardius venit. Insulani aliter vivunt. Animus insularis patiens est: insulani, quod mutari non potest, exspectant, et interea faciunt quod facere possunt. Annius hanc patientiam non natura habere se putat, sed vita insulari didicisse.\n\nTertio die navis venit. Annius ad portum percurrit, ubi omnes insulani panem novum et epistulas exspectabant. In portu de procella loquebantur, ut post quamque procellam solent, et de muris collapsis, de limo, de cloacis. Nemo querebatur. Vespere Annius in horto sedebat, murum refectum et mare iam tranquillum spectans.\n\nQuaestiones:\nQuid est Annius?\nInsulanus est, in insula Igilio natus.\nQuae damna Annius post procellam invenit?\nMurus horti partim collapsus erat, et cella limo plena erat.\nCur cloacae aquam non ducebant?\nQuia limo obstructae erant.\nQuis Annium adiuvit limum effodere?\nVicinus eius, senex insulanus, eum adiuvit.\nQualis est animus insularis?\nPatiens est: insulani, quod mutari non potest, exspectant.\nQuid Annius tertio die fecit?\nAd portum percurrit, ubi navis venerat."
+    },
+    {
+      "title": "Correctrix",
+      "summary": "A proofreader in Tours checks a large dictionary before publication, notes her corrections in the margin, argues about colons, and keeps her eyes and back fresh with fixed habits.",
+      "newWords": [
+        "correctio",
+        "typographus",
+        "publicatio",
+        "lemma",
+        "phrasis",
+        "annotatio",
+        "colon",
+        "transcribo"
+      ],
+      "text": "Mathilda correctionibus vivit. In officina libraria Caesaroduni libros, antequam typis imprimuntur, legit et errores corrigit. Typographi enim, qui libros componunt et imprimunt, textum ab ea correctum exspectant; nihil typographo molestius est quam error post publicationem inventus.\n\nHoc mense dictionarium magnum corrigit, quod ad publicationem paratur. Singula lemmata legit. Lemma est verbum quod in capite cuiusque articuli stat; post lemma sequuntur significationes, exempla, phrases. In unaquaque pagina sunt fere triginta lemmata, et in toto dictionario plus quam quadraginta milia.\n\nCorrectio non est lectio. Qui legit, sensum quaerit et errores parvos non videt, quia animus eos corrigit antequam oculus eos notat. Mathilda igitur lente legit, verbum post verbum, et phrases longas interdum etiam clara voce legit, ut aures errores audiant quos oculi praetereunt.\n\nMathilda non omnia ipsa mutat. In margine annotationes scribit, quas auctor deinde legit et aut probat aut reicit. Annotatio brevis et clara esse debet: «Hic deest verbum», «Haec phrasis bis scripta est», «Ordo lemmatum hic non rectus est». Hodie multas annotationes de signis scripsit. Auctor enim colon amat et ubique ponit; Mathilda colon ante explicationem aut enumerationem tantum ponendum esse putat. De hoc signo saepe cum auctore disputat, sed amice.\n\nAuctor praeterea, homo senex, additamenta manu scribit, quae Mathilda in computatrum transcribit. Litteras eius legere non semper facile est. Cum aliquid transcribit, singula verba bis legit, ne errorem novum in textum inferat dum veterem tollit.\n\nHaec omnia corpus fatigant non minus quam animum. Mathilda autem certos mores servat. Post singulas horas surgit et ad fenestram it, ut oculi aliquid procul spectent, arbores aut tecta; nam oculi qui toto die prope spectant duri fiunt. Sella eius alta est, ut dorsum rectum maneat, et paginas in plano inclinato ponit, ne collum flectat. Meridie ambulat, etiam si pluit.\n\n«Correctio», inquit, «patientiam docet. Nemo omnes errores invenit; sed qui lente et attente legit, plurimos invenit.» Publicatio dictionarii proximo anno exspectatur. Tum Mathilda librum manibus tenebit et, ut solet, primo die errorem unum saltem inveniet.\n\nQuaestiones:\nQuid Mathilda facit?\nLibros legit, antequam typis imprimuntur, et errores corrigit.\nQuid est lemma?\nVerbum est quod in capite cuiusque articuli stat.\nCur Mathilda phrases longas clara voce legit?\nUt aures errores audiant quos oculi praetereunt.\nUbi Mathilda ponendum esse colon putat?\nAnte explicationem aut enumerationem tantum.\nQuid facit, cum additamenta auctoris transcribit?\nSingula verba bis legit, ne errorem novum inferat.\nCur post singulas horas ad fenestram it?\nUt oculi aliquid procul spectent."
+    },
+    {
+      "title": "Musica et studium",
+      "summary": "A columnist weighs whether music helps students study: comparing studies on instrumental music and songs with words, the old link between rhythm and memory, and his own teenage habits.",
+      "newWords": [
+        "indagatio",
+        "instrumentalis",
+        "collatio",
+        "cognatio",
+        "symphoniacus",
+        "hexameter",
+        "ode",
+        "iuvenilis"
+      ],
+      "text": "Filius meus, qui examinibus se parat, cotidie cum musica in auribus studet. Cum eum rogo quomodo sic aliquid discere possit, respondet se sine musica ne una quidem hora studere posse. Ego contra, cum iuvenis essem, silentium quaerebam. Uter recte facit? De hac re pauca hic scribam.\n\nIndagationes, quae de hac quaestione factae sunt, non omnes idem docent. Collatio tamen multarum indagationum aliquid certum ostendit. Musica cum verbis, praesertim si verba nota sunt, lectionem impedit: animus enim verba carminis sequitur et verba libri amittit. Musica instrumentalis autem, sine verbis, lenta et non nimis alta, quibusdam discipulis prodest, aliis nocet. Qui facile turbantur, etiam musica instrumentali impediuntur; qui facile taedio afficiuntur, ea iuvantur, quia animum vigilantem servat.\n\nCollatio etiam aliud ostendit: discipuli qui cum musica student saepe se plus didicisse putant quam re vera didicerunt. Musica enim laborem iucundiorem reddit, non semper efficaciorem.\n\nEst tamen inter musicam et memoriam cognatio antiqua. Olim pueri in scholis carmina longa memoria tenebant, versus hexametros et odas, quia numerus versuum memoriam adiuvat. Qui hexametrum semel didicit, eius sonum non obliviscitur. Etiam hodie multi verba linguae novae facilius cum carmine discunt quam ex tabula. Haec cognatio numeri et memoriae non casu est: corpus ipsum numerum sentit, et quod corpus sentit, animus facilius retinet.\n\nMusici symphoniaci, quos in theatro audivi, hanc rem optime noverunt. Opera longa memoria tenent, non singulas notas, sed totas phrases, sicut nos odam totam aut hexametros multos. Unus ex eis mihi dixit se partes difficiles cotidie in silentio legere, antequam eas canat; musicam igitur in silentio discit, non cum musica.\n\nQuid igitur de filio meo dicam? Musica eius, ut audio, plerumque instrumentalis est; studia eius bona sunt. Animus iuvenilis, ut videtur, plura simul facere potest quam animus meus. Fortasse, quod animus meus iam non iuvenilis est, rem aliter sentio. Hoc unum ei suadebo: verba nova et versus memoria tenendos cum musica discat, si vult, sed difficilia, sicut musici symphoniaci, in silentio.\n\nQuaestiones:\nQuomodo filius scriptoris studet?\nCotidie cum musica in auribus studet.\nQuid collatio indagationum de musica cum verbis ostendit?\nMusica cum verbis lectionem impedit, quia animus verba carminis sequitur.\nQuibus discipulis musica instrumentalis prodest?\nIis qui facile taedio afficiuntur, quia animum vigilantem servat.\nQuae cognatio est inter musicam et memoriam?\nNumerus versuum memoriam adiuvat, ut in hexametris et odis.\nQuomodo musicus symphoniacus partes difficiles discit?\nEas cotidie in silentio legit, antequam canat."
+    },
+    {
+      "title": "Epistula de birota",
+      "summary": "In a letter, a man who switched from car to bicycle answers a friend's questions: the shortcuts, the mutual respect of riders and drivers, the rain, and how cycling slipped exercise into his day.",
+      "newWords": [
+        "birota",
+        "pertracto",
+        "compendiarius",
+        "desperatus",
+        "mutuus",
+        "competitor",
+        "indignus",
+        "incorporo"
+      ],
+      "text": "Rutilius Pedio suo salutem dicit.\n\nScribis te dubitare utrum autocinetum vendas et birota ad officium vehi incipias, et rogas quid ego, qui hoc ante duos annos feci, de re sentiam. Libenter tibi respondeo, quia hanc quaestionem ipse diu cum animo meo pertractavi, antequam autocinetum vendidi.\n\nPrimum de tempore. Putabam iter birota longius fore quam autocineto. In urbe nostra autem, mane, contrarium verum est. Autocineta in viis consistunt, dum birota vias compendiarias sequitur: per hortos publicos, per vias angustas, iuxta flumen, ubi autocinetis iter non est. Via mea compendiaria ad officium viginti minuta postulat; autocineto, cum viae plenae essent, quadraginta aut plura postulabat. Memini me olim in autocineto sedisse, cum res desperata videretur, et horologium identidem spectavisse. Nunc non iam desperatus, sed animo tranquillo pervenio.\n\nDeinde de periculo, de quo maxime dubitas. Verum est birotam minus tutam esse quam autocinetum. Sed in urbe nostra viae birotis propriae multae sunt, et gubernatores et ei qui birota vehuntur fidem mutuam paulatim didicerunt. Ego signa servo, manum extendo antequam me verto, noctu lumine utor; gubernatores mihi spatium dant. Huius fidei mutuae fructum omnes capiunt.\n\nQuidam, ut audio, birotam quasi certamen agunt, et alios qui birota vehuntur quasi competitores habent, quos ad quodque signum praeterire volunt. Ego nullos competitores habeo. Lente vehor, et ita ad officium pervenio ut vestis mea sicca maneat, quod collegae mei probant.\n\nScribis etiam aliquos tibi dixisse birotam homine gravi indignam esse. Hoc, amice, risu dignum est, non responso. Medicus meus, homo gravissimus, birota ad valetudinarium vehitur. Nihil indignum est in eo quod corpori prodest.\n\nHoc denique maximum est. Antea nullum tempus ad corpus exercendum habebam; gymnasium semper in diem proximum differebam. Nunc motum in vitam cotidianam incorporavi, neque de eo cogitare debeo: bis in die vehor, et hoc satis est. Corpus meum robur, quod iuvenis habebam, aliqua ex parte reciperavit, et animus quoque laetior est, cum ad officium venio. Qui motum in vitam cotidianam incorporat, eum numquam differt.\n\nPluvia, confiteor, mihi non grata est. Sed vestem idoneam emi, et cum pluvia vehemens est, tramine utor. Nemo me cogit omnibus diebus birota vehi.\n\nSi vis, proximo die festo veni ad me; tibi birotam meam dabo, et viam compendiariam iuxta flumen tibi ostendam. Tum rem ipse pertractare poteris. Vale.\n\nQuaestiones:\nQuid Pedius Rutilium rogavit?\nRogavit quid de birota ad officium sentiret.\nCur Rutilius birota celerius pervenit?\nQuia birota vias compendiarias sequitur, dum autocineta in viis consistunt.\nQuam fidem mutuam Rutilius describit?\nGubernatores et ii qui birota vehuntur fidem mutuam didicerunt, cuius fructum omnes capiunt.\nHabetne Rutilius competitores?\nNon habet; lente vehitur, ut vestis eius sicca maneat.\nQuid Rutilius respondet iis qui birotam homine gravi indignam esse dicunt?\nNihil indignum esse in eo quod corpori prodest.\nQuid maximum esse putat?\nSe motum in vitam cotidianam incorporavisse."
+    },
+    {
+      "title": "Colloquium cum interprete",
+      "summary": "An interview with a translator in Mechelen who admits she fell into low spirits after a winter alone at her desk, and how walks among the old houses, a camera and her online followers brought her out.",
+      "newWords": [
+        "traduco",
+        "profiteor",
+        "aegritudo",
+        "architectonicus",
+        "assector",
+        "fabulosus"
+      ],
+      "text": "Dorothea, femina quinquaginta annos nata, libros e variis linguis in linguam suam traducit. Mechliniae habitat, in domo vetere prope forum. Nuper in interrete nota facta est propter imagines photographicas aedificiorum urbis suae, quas cotidie ostendit. Cum ea de labore et de animo locuti sumus.\n\nQuid cotidie agis?\nMane et post meridiem libros traduco. Plerumque fabulas longas traduco, interdum etiam libros de arte aut de historia. Labor quietus est: domi sedeo, verbum post verbum, phrasim post phrasim.\n\nHoc vitae genus tibi placet?\nPlacet, sed periculum habet. Profiteor, et libenter profiteor, quia multi idem patiuntur: ante tres annos aegritudine animi laboravi. Hieme illa librum longissimum traducebam. Per menses vix domo exibam. Paulatim tristis facta sum, sine causa clara; nihil me delectabat, neque labor neque amici.\n\nQuid fecisti?\nPrimo nihil, quia aegritudinem meam non agnoscebam. Deinde soror mea me ad medicum duxit. Medicus multa interrogavit, deinde praecepit ut cotidie una hora foris ambularem, luce diurna, quodcumque tempus esset. Hoc remedium mihi nimis simplex videbatur, sed parui.\n\nEt ambulatio adiuvit?\nValde. Initio per urbem sine consilio ambulabam. Mox autem singula aedificia spectare coepi: portas, fenestras, tecta. Mechlinia plena est domorum veterum, quarum multae quasi fabulosae videntur, cum turribus parvis et tectis altis. Coepi ornamenta architectonica photographare, et de singulis in libris quaerere: quis domum aedificavit, quo saeculo, cur ita.\n\nEt imagines in interrete ostendisti?\nIta. Initio pro me solum. Sed brevi tempore assectatores venerunt, primo pauci, deinde plures; nunc multa milia sunt. Assectatores mihi scribunt, interrogant, interdum domos fabulosas in urbibus suis mihi ostendunt. Haec colloquia me iuvant, quia sola non iam sum.\n\nQuid nunc aliis dicis qui similia patiuntur?\nProfiteri non est turpe. Aegritudo animi morbus est sicut alii, et curari potest. Et cotidie foras exite, etiam si nihil vos delectat. Ego in ornamentis architectonicis delectationem novam inveni; alii aliam invenient.\n\nQuaestiones:\nQuid Dorothea cotidie facit?\nLibros e variis linguis in linguam suam traducit.\nQuid Dorothea libenter profitetur?\nSe ante tres annos aegritudine animi laboravisse.\nQuid medicus praecepit?\nUt cotidie una hora foris ambularet, luce diurna.\nQuae Dorothea ambulans spectare coepit?\nAedificia urbis et ornamenta architectonica.\nQui sunt assectatores eius?\nHomines qui imagines eius in interrete spectant et ei scribunt."
+    },
+    {
+      "title": "Nutrix et anseres",
+      "summary": "On a frosty morning in Celje a nanny takes a four-year-old boy to the park, where he jumps on frozen puddles, studies ice crystals and feeds grain to the geese, and back home they draw the outlines of their bodies.",
+      "newWords": [
+        "nutrix",
+        "crystallum",
+        "salio",
+        "bursa",
+        "anser",
+        "circumscriptio"
+      ],
+      "text": "Philippa nutrix est. Celeiae puerum quattuor annorum, Martinum, curat, dum parentes eius laborant. Philippa iam multos pueros curavit, et unam rem certam esse putat: corpus et animus pueri simul crescunt. Puer qui currit, salit, tangit, etiam cogitare discit.\n\nMane hiberno, caelo sereno sed frigido, nutrix et puer in hortum publicum exeunt. Herba alba est pruina. Martinus prope stagnum parvum consistit et folium aspicit, quod crystallis tenuibus tectum est. Philippa ei explicat haec crystalla ex aqua facta esse, quae nocte gelavit. «Specta», inquit, «singula crystalla sex partes habent.» Martinus crystalla diu spectat et digito tangit, donec in digito liquescunt.\n\nDeinde ad lacunas in via currit. Lacunae glacie tenui tectae sunt. Martinus in eas salit, et glacies frangitur. Iterum et iterum salit, et ridet. Philippa eum salire sinit; calcei enim eius firmi sunt et aquam non admittunt. Nutrix scit puerum qui salit corpus suum regere discere: crura, aequilibrium, vim.\n\nIn stagno anseres natant. Martinus anseres timet, quia magni sunt et clamant. Philippa e sacco bursam parvam sumit, in qua grana frumenti sunt. Panem anseribus non dat, quia scit panem eis non prodesse. Martino aliquot grana in manu dat. Primo puer grana procul iacit; deinde, cum anser lente appropinquat, propius. Tandem anser grana prope pedes eius edit. Martinus non iam timet. «Anseres mei amici sunt!» clamat, et bursam vacuam nutrici reddit.\n\nDomi, postquam calidi facti sunt, Philippa chartam magnam in pavimento ponit. Martinus in charta iacet, et nutrix circumscriptionem corporis eius stilo crasso facit. Deinde Martinus circumscriptionem nutricis facere vult, sed Philippa maior est quam charta, et duae chartae necessariae sunt. Ambo rident. In utraque circumscriptione Martinus partes corporis pingit, quas Philippa nominat: caput, oculos, manus, crura. Pedibus, qui tam alte salire possunt, magnos calceos pingit; et prope circumscriptionem suam anserem parvum.\n\nQuaestiones:\nQuid Philippa putat?\nCorpus et animus pueri simul crescere.\nEx qua re crystalla in folio facta sunt?\nEx aqua quae nocte gelavit.\nCur Philippa Martinum in lacunas salire sinit?\nQuia calcei eius firmi sunt, et puer qui salit corpus suum regere discit.\nQuid in bursa Philippae erat?\nGrana frumenti, quae anseribus dabant.\nQuid Martinus de anseribus clamat?\nAnseres suos amicos esse.\nQuid domi in charta faciunt?\nCircumscriptiones corporum faciunt, et Martinus partes corporis pingit."
+    }
+  ]
+}
