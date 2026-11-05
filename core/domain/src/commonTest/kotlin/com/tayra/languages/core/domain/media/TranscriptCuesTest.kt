@@ -41,6 +41,19 @@ class TranscriptCuesTest {
     }
 
     @Test
+    fun withoutWordTimesALongSentenceIsCutAtCommasAndWhereItMust() {
+        val text = (1..12).joinToString(", ") { "as mulheres que cantam na rua" } + " e " + List(40) { "palavra" }.joinToString(" ") + "."
+        val cues = TranscriptCues.of(listOf(HeardSegment(5_000, 65_000, text)))
+        assertTrue(cues.size > 3, "still long: $cues")
+        cues.forEach { assertTrue(it.durationMs <= TranscriptCues.LONGEST_MS, "too long: $it") }
+        assertTrue(cues.first().text.endsWith(","), "not at a comma: ${cues.first().text}")
+        assertEquals(text, cues.joinToString(" ") { it.text })
+        assertEquals(5_000L, cues.first().beginMs)
+        assertEquals(65_000L, cues.last().endMs)
+        cues.zipWithNext().forEach { (a, b) -> assertEquals(a.endMs, b.beginMs) }
+    }
+
+    @Test
     fun withoutWordTimesASegmentIsSplitAtItsSentencesByLength() {
         val cues = TranscriptCues.of(listOf(HeardSegment(10_000, 13_000, "Bom dia. Tudo bem com você?")))
         assertEquals(listOf("Bom dia.", "Tudo bem com você?"), cues.map { it.text })

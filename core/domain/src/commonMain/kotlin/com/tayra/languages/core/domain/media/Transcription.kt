@@ -65,7 +65,7 @@ data class HeardSegment(val beginMs: Long, val endMs: Long, val text: String, va
 /**
  * Subtitle lines out of what Whisper heard. Its segments run from one to thirty seconds and often hold
  * several sentences: where the words carry times, a line ends with a sentence, at a pause, or once it is
- * long enough at a comma; a segment without word times is split at its sentences, its time shared by length.
+ * long enough at a comma; a segment without word times is split the same way by its sentences and commas, its time shared by length.
  */
 object TranscriptCues {
     const val SENTENCE_MIN_MS = 1_200L
@@ -104,16 +104,39 @@ object TranscriptCues {
 
     private fun bySentences(segment: HeardSegment): List<Cue> {
         val sentences = Regex("""[^.!?…。！？]+[.!?…。！？]*["»”')\]]*\s*""").findAll(segment.text.trim()).map { it.value.trim() }.filter { it.isNotEmpty() }.toList()
-        if (sentences.size <= 1) return listOf(Cue(segment.beginMs, segment.endMs, segment.text.trim()))
-        val total = sentences.sumOf { it.length }.toDouble()
         val span = segment.endMs - segment.beginMs
+        val msPerChar = span.toDouble() / sentences.sumOf { it.length }.coerceAtLeast(1)
+        val lines = sentences.flatMap { shortLines(it, msPerChar) }
+        if (lines.size <= 1) return listOf(Cue(segment.beginMs, segment.endMs, segment.text.trim()))
         var at = segment.beginMs
         var done = 0
-        return sentences.mapIndexed { i, sentence ->
-            done += sentence.length
-            val end = if (i == sentences.lastIndex) segment.endMs else segment.beginMs + (span * done / total).toLong()
-            Cue(at, end, sentence).also { at = end }
+        return lines.mapIndexed { i, line ->
+            done += line.length
+            val end = if (i == lines.lastIndex) segment.endMs else segment.beginMs + (done * msPerChar).toLong()
+            Cue(at, end, line).also { at = end }
         }
+    }
+
+    /** A [sentence] too long to read in one go, cut as [byWords] cuts: at a comma once long enough, else where it must be. */
+    private fun shortLines(sentence: String, msPerChar: Double): List<String> {
+        if (sentence.length * msPerChar <= LONGEST_MS) return listOf(sentence)
+        val lines = mutableListOf<String>()
+        var line = ""
+        for (word in sentence.split(' ')) {
+            val longer = if (line.isEmpty()) word else "$line $word"
+            if (line.isNotEmpty() && longer.length * msPerChar > LONGEST_MS) {
+                lines += line
+                line = word
+            } else {
+                line = longer
+            }
+            if (word.endsWithAny(CLAUSE_ENDS) && line.length * msPerChar >= COMMA_AFTER_MS) {
+                lines += line
+                line = ""
+            }
+        }
+        if (line.isNotEmpty()) lines += line
+        return lines
     }
 
     private fun String.endsWithAny(ends: String) = isNotEmpty() && last() in ends
