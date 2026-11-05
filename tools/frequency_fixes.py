@@ -2117,6 +2117,33 @@ OVERRIDES["lt"].update({
                                   "nedidelių", "nedideliame", "nedidelėje", "nedideliu", "nedidele", "nedideliems")},
     "nerija": ["nerija"], "nerijos": ["nerija"], "nerijoje": ["nerija"], "tarpusavyje": ["tarpusavyje"],
 })
+# Lithuanian, checked after that pass: bus and nebus are būti's alone (busti "wake" has the same future); abi is abu's
+# feminine; tiktai "only" and išties "indeed" are words, not tikti's and ištiesti's; verte is vertė's, pažįstame pažinti's;
+# karta "generation" is a word of its own, no karti's form (kartos its genitive more than kartoti's future); iškyla is
+# iškilti's present as much as the noun "outing", pastovi pastovus's feminine as much as pastovėti's present; jauku and
+# gardu are jaukus's and gardus's; netikėtas "unexpected" a word, not tikėti's; vyruti "dude" vyrukas's (simplemma makes
+# vyresniųjų and vyraus of a vyrus); apvirto, apvirtus apvirsti's; salotos "salad" a word (salotas its accusative, no word);
+# kabinos kabina's; patikimas "reliable" a word, not patikėti's; netekimas "loss" netekti's noun, not tekėti's; nevertas
+# "unworthy" a word, not a verb neverti (neverk is verkti's); būt is būti clipped, as daryt is daryti.
+OVERRIDES["lt"].update({
+    "bus": ["būti"], "nebus": ["būti"], "abi": ["abu"], "tiktai": ["tiktai"], "išties": ["išties"], "verte": ["vertė"],
+    "pažįstame": ["pažinti"], "iškyla": ["iškilti", "iškyla"], "pastovi": ["pastovus", "pastovėti"], "jauku": ["jaukus"],
+    "gardu": ["gardus"],
+    **{f: ["karta"] for f in ("karta", "kartos", "kartoje", "kartoms", "kartomis", "kartose")},
+    **{f: ["netikėtas"] for f in ("netikėtas", "netikėta", "netikėtą", "netikėtų", "netikėto", "netikėtos", "netikėtu",
+                                  "netikėtais", "netikėtus", "netikėtomis", "netikėtiems", "netikėtai", "netikėtam")},
+    "vyruti": ["vyrukas"], "vyraus": ["vyrauti"],
+    **{f: ["vyresnis"] for f in ("vyresniųjų", "vyresnieji", "vyresniaisiais", "vyresniesiems", "vyresniąja", "vyresnėmis",
+                                 "vyresnėms")},
+    **{f: ["apvirsti"] for f in ("apvirto", "apvirtus", "apvirtas", "apvirtų")},
+    **{f: ["salotos"] for f in ("salotos", "salotų", "salotas", "salotomis", "salotoms", "salotose")},
+    "kabinos": ["kabina"],
+    **{f: ["patikimas"] for f in ("patikimas", "patikima", "patikimi", "patikimų", "patikimą", "patikimai", "patikimo",
+                                  "patikimos", "patikimu", "patikimiems", "patikimais", "patikimus", "patikimam")},
+    **{f: ["netekimas"] for f in ("netekimas", "netekimo", "netekimą", "netekimu", "netekimų", "netekimai")},
+    **{f: ["nevertas"] for f in ("nevertas", "neverta", "neverti", "nevertos", "nevertą", "neverto", "nevertų", "nevertam")},
+    "neverk": ["verkti"], "neversiu": ["versti"], "būt": ["būti"],
+})
 # Names and abbreviations: Druskininkai (filed under druskininkas), Jonas, Ghana (gana), "lady" (under ledas), val., min.,
 # mlrd., prof., angl., nuotr. and the like; būti, dėti, ką, čia, dėl written without their accented letters (and žinoti
 # without its ž); and the archaic

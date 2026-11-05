@@ -1731,6 +1731,13 @@ LITHUANIAN_UNSEEN_VERB = 1e-6
 LITHUANIAN_PARTICIPLE_SHARE = 0.1
 # The words lithuanian_more_packs added.
 LITHUANIAN_ADDED = set()
+# Such a word is the one a case form goes to by its endings only when it is this common beside the form: the packs have rare
+# words spelled like other words' forms (laimas of laimi, patas of patiems, kokas of kokiems).
+LITHUANIAN_ADDED_SHARE = 0.05
+# A form in -a or -ė whose stem the counts give the case endings of a noun (paklausos, siuntoje, išvykoje, kartomis) is the
+# noun, no verb's present or past, when they are this common beside it.
+LITHUANIAN_NOUN_CASES = {"a": ("ą", "os", "oje", "omis", "oms", "ose"), "ė": ("ės", "ėje", "ėmis", "ėms", "ėse")}
+LITHUANIAN_NOUN_SHARE = 0.2
 LITHUANIAN_GENITIVES = ("ų", "os", "ės", "io", "o", "ui", "ą", "ę", "į", "oje", "ėje", "yje", "uose", "ose", "ėse")
 
 
@@ -1802,12 +1809,13 @@ LITHUANIAN_VERB_ENDINGS = [
     (("k", "kite", "kit", "kim", "kime"), ("ti",)),
     (("davo", "davau", "davai", "davome", "davom", "davote"), ("ti",)),
     (("us", "ęs", "usi", "usios", "usių", "usį", "usiam", "usią", "ę", "usieji", "usias", "usia", "usiai", "usiomis",
-      "usioje", "usiame", "usio", "usiu", "usius"), ("ti",)),
+      "usioje", "usiame", "usio", "usiu", "usius", "usiose", "usiuose", "usiems"), ("ti",)),
     (("damas", "dama", "dami", "damos"), ("ti",)),
     (("tas", "ta", "tą", "to", "tos", "tų", "tam", "tame", "tai", "tus", "tomis", "toje", "tiems", "tieji"), ("ti",)),
 ]
 LITHUANIAN_PASSIVE = ("mas", "ma", "mi", "mos", "mą", "mo", "mų", "miems", "mus")
 LITHUANIAN_PRESENT = ("a", "ia", "o", "i", "uoja", "auja", "oja", "sta")
+LITHUANIAN_FUTURE = ("s", "siu", "si", "sime", "sim", "site", "sit")
 LITHUANIAN_REFLEXIVE = [("iesi", "i"), ("uosi", "u"), ("osi", "o"), ("asi", "a"), ("isi", "i"), ("ėsi", "ė"), ("ausi", "au"),
                         ("kis", "k"), ("kitės", "kite"), ("amės", "ame"), ("omės", "ome"), ("ėmės", "ėme"), ("imės", "ime"),
                         ("atės", "ate"), ("otės", "ote"), ("ėtės", "ėte"), ("itės", "ite"), ("damasis", "damas")]
@@ -1840,6 +1848,9 @@ def lithuanian_infinitives(form, present_only=False):
                     # A stem in t or d takes -sti (ved-ė, paliet-ė of vesti, paliesti).
                     if infinitive == "ti" and st[-1] in "td":
                         out.append(st[:-1] + "sti")
+                    # So does the future's stem in s (leis, leisiu of leisti).
+                    if infinitive == "ti" and ending in LITHUANIAN_FUTURE:
+                        out.append(st + "sti")
     if not present_only:
         for ending in LITHUANIAN_PASSIVE:
             if form.endswith(ending) and len(form) - len(ending) > 3:
@@ -1877,11 +1888,14 @@ LITHUANIAN_CASE_ENDINGS = [
     ("iams", ["ys", "is", "ias", "ius"]), ("iais", ["ys", "is", "ias", "ius"]), ("iuose", ["ys", "is", "ias", "ius"]),
     ("iai", ["ys", "is", "ias", "ius"]), ("ių", ["ys", "is", "ias", "ius", "ė"]), ("ius", ["ys", "is", "ias"]),
     ("iui", ["ys", "is", "ias", "ius"]), ("iu", ["ys", "is", "ias"]), ("io", ["ys", "is", "ias"]),
-    ("ams", ["as"]), ("ais", ["as"]), ("uose", ["as"]), ("ai", ["as"]), ("ui", ["as", "us"]), ("ų", ["as", "a", "ė", "us"]),
+    ("ams", ["as"]), ("ais", ["as"]), ("uose", ["as"]), ("ai", ["as", "a"]), ("ui", ["as", "us"]), ("ų", ["as", "a", "ė", "us"]),
     ("us", ["as"]), ("ą", ["as", "a"]), ("o", ["as"]), ("e", ["as", "ė"]), ("u", ["as"]),
     ("oms", ["a"]), ("omis", ["a"]), ("ose", ["a"]), ("oje", ["a"]), ("os", ["a"]), ("as", ["a"]),
     ("ėms", ["ė"]), ("ėmis", ["ė"]), ("ėse", ["ė"]), ("ėje", ["ė"]), ("ės", ["ė"]), ("ei", ["ė"]), ("es", ["ė"]), ("ę", ["ė", "ęs"]),
     ("iems", ["as", "is", "us"]), ("i", ["as", "is", "us"]),
+    # An -us adjective's soft endings (virtualios, stambių, gražią of virtualus, stambus, gražus).
+    ("ių", ["us"]), ("ios", ["us"]), ("ioje", ["us"]), ("iomis", ["us"]), ("ioms", ["us"]), ("iose", ["us"]), ("ią", ["us"]),
+    ("ias", ["us"]), ("iu", ["us"]), ("ius", ["us"]),
 ]
 
 
@@ -2470,11 +2484,15 @@ def load_dictionary(language):
         lithuanian_more_packs(pos, lemmas, common)
         # A verbal noun is no form of its verb (gydymas, gydymo of gydyti; pirkimo of pirkti; planavimo of planuoti), as the
         # pack's tables make it, but a noun of its own.
+        nouns = {w for w, kinds in pos.items() if "noun" in kinds}
         for form_lc, of in lemmas.items():
             for i, lemma in enumerate(of):
                 if lemma.endswith(("ti", "tis")) and lemma != form_lc:
                     for noun in lithuanian_verbal_nouns(lemma.removesuffix("s") if lemma.endswith("tis") else lemma):
-                        if form_lc.startswith(noun[:-2]) and form_lc[len(noun) - 2:] in LITHUANIAN_MAS_ENDINGS:
+                        # Not a first person plural spelled as the locative of an -imas noun no pack has (rasime, leisime,
+                        # tikime; susirinkime is susirinkimas's).
+                        if form_lc.startswith(noun[:-2]) and form_lc[len(noun) - 2:] in LITHUANIAN_MAS_ENDINGS and not (
+                                noun.endswith("imas") and form_lc.endswith("ime") and noun not in nouns):
                             of[i] = noun
                             pos[noun].add("noun")
                             common.setdefault(noun, noun)
@@ -3002,7 +3020,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             for st in stems:
                 for base in bases:
                     word = st + base
-                    if word != form and word in common and pos.get(word, set()) & {"noun", "adj"} and word not in excluded:
+                    if word != form and word in common and pos.get(word, set()) & {"noun", "adj"} and word not in excluded and (
+                            word not in LITHUANIAN_ADDED or count(word) >= LITHUANIAN_ADDED_SHARE * count(form)):
                         found.append(word)
         return max(found, key=count) if found else None
 
@@ -3077,6 +3096,12 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
 
     def lithuanian_verb(form):
         """The commonest verb a Lithuanian form the packs lack is a form of, by its endings, or None."""
+        cases = LITHUANIAN_NOUN_CASES.get(form[-1:], ())
+        # Not a passive participle's feminine, which declines so too (vykdoma, grąžinta of vykdyti, grąžinti).
+        if form.endswith("ma") or form.endswith("ta") and count(form[:-1] + "i") >= count(form):
+            cases = ()
+        if cases and sum(count(form[:-1] + c) for c in cases) >= LITHUANIAN_NOUN_SHARE * count(form):
+            return None
         found = [v for v in dict.fromkeys(lithuanian_infinitives_of(form)) if v != form and count(v) and lithuanian_is_verb(v)]
         return max(found, key=lambda v: (v in common, count(v))) if found else None
 
@@ -3091,6 +3116,15 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         its verb's (liepė, pamiršau, sakoma, tikimasi), a case form a word of no pack's (vietinių of vietinis), and the form
         itself if the news write it in lower case (netoli, nepaisant, šįkart).
         """
+        # A negated adjective or participle the packs or simplemma know (netikėta of netikėtas, nemokamų of nemokamas) is a
+        # word of its own, as the pack's nesvarbus and nemažas are: only verb forms go to the positive verb.
+        if form.startswith("ne"):
+            negated = lithuanian_nominal(form) or guess(form)
+            # Not a rare one spelled like a verb's form (negausus of negausi, gauti's future).
+            if negated and negated != form and negated.startswith("ne") and not negated.endswith(("ti", "tis")) and (
+                    count(negated) >= LITHUANIAN_PARTICIPLE_SHARE * count(form)):
+                guessed.setdefault(negated, negated)
+                return {negated: 1.0}
         for prefix in ("nebe", "ne"):
             rest = form[len(prefix):]
             if not form.startswith(prefix) or len(rest) < 3:
@@ -3112,13 +3146,13 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         if form.endswith(("ti", "tis")) and lithuanian_is_verb(form):
             guessed.setdefault(form, form)
             return {form: 1.0}
+        # A case form's word (guess weighs it against simplemma's: laimi is laimėti's, not laimas's; bandai bandyti's).
         nominal = lithuanian_nominal(form)
-        if nominal:
-            return {nominal: 1.0}
-        # An adverb the packs lack is its adjective's (aktyviai of aktyvus, atvirai of atviras), as the pack files ramiai.
+        # An adverb the packs lack is its adjective's (aktyviai of aktyvus, atvirai of atviras), as the pack files ramiai; a
+        # feminine dative is its noun's (veiklai of veikla, not veiklus).
         for ending, adjectives in (("iai", ("us", "is")), ("ai", ("as", "us"))):
             stem = form[:-len(ending)]
-            if form.endswith(ending) and len(stem) > 2:
+            if not nominal and form.endswith(ending) and len(stem) > 2:
                 found = [stem + a for a in adjectives if "adj" in pos.get(stem + a, set()) and stem + a in common
                          or stem + a in lithuanian_bases]
                 if found:
@@ -3126,18 +3160,32 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                     guessed.setdefault(adjective, adjective)
                     return {adjective: 1.0}
         word = guess(form)
+        # guess does not weigh it for a form in -ti (kieti is kietas's, not simplemma's kietis).
+        if nominal and (word is None or word not in pos and count(nominal) > count(word)):
+            return {nominal: 1.0}
         # simplemma's form for itself is a word, unless it is a verb's form by its endings (trūko of trūkti), the verb not much
         # rarer than it (vis is no form of viti).
         if word == form and form not in pos:
             verb = lithuanian_verb(form)
             # Or a case form of a word of no pack (tėčio of tėtis), unless it may be a dictionary form (būtinas, atsargus).
             base = lithuanian_nominal_base(form) if not form.endswith(LITHUANIAN_HEADS) else None
-            word = verb if verb and count(verb) >= LITHUANIAN_PARTICIPLE_SHARE * count(form) else base or form
+            # A case form of the pack's words is theirs (paprasti, plati of paprastas, platus) unless the verb is the commoner.
+            if nominal and (not verb or count(nominal) >= count(verb)):
+                verb = None
+            word = verb if verb and count(verb) >= LITHUANIAN_PARTICIPLE_SHARE * count(form) else nominal or base or form
             guessed.setdefault(word, word)
         if word and word not in pos:
-            if word.endswith(("ti", "tis")) and word not in lithuanian_infinitives_of(form) and not lithuanian_case_of(form, word):
-                # simplemma's verb for a form its endings cannot be of (vėliau of velti, atliekų of atlikti).
-                word = None
+            if word.endswith(("ti", "tis")) and (word.endswith("ti") or lithuanian_is_verb(word)):
+                # simplemma's verb of no pack for a form its endings cannot be of: the verb the endings give (privertė of
+                # priversti, not priverti), none for a case form (atliekų of atlikti), else simplemma's, as the endings do
+                # not know every verb's stems (prasideda of prasidėti, ėmėsi of imtis). Where they can be of it, a commoner
+                # verb of the packs they give too (palies of paliesti, not palieti). A noun in -tis keeps its forms (tėtį).
+                fits = word in lithuanian_infinitives_of(form) or lithuanian_case_of(form, word)
+                verb = lithuanian_verb(form)
+                if verb and (not fits or verb in common and count(verb) > count(word)):
+                    word = verb
+                elif not fits and form.endswith(LITHUANIAN_OBLIQUE):
+                    word = None
             elif word.endswith(("tas", "us", "ęs", "mas", "antis", "intis", "damas")):
                 # A participle simplemma gives as the word (pamirštas, verkus, paveikus, patyrus) is its verb's form.
                 verb = lithuanian_verb(word)
