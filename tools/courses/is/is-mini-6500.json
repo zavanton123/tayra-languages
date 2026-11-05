@@ -1,0 +1,194 @@
+{
+  "id": "is-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Verkfræði",
+  "description": "Ten standalone stories, columns and interviews about engineering in everyday Iceland: a matchstick bridge contest, a ferry's engineer, lime in hot-water pipes, a footbridge over a rift, a programmer working from home, a home-built telescope, a greenhouse without poison, a shoulder rig for a film camera, a storm-proof umbrella and an old house with lead pipes.",
+  "topic": "Engineering",
+  "names": [
+    "Arnfinna",
+    "Aðalráði",
+    "Aðalráður",
+    "Breiðafjörð",
+    "Bótólfur",
+    "Dagbjörg",
+    "Flúðum",
+    "Hafnarfirði",
+    "Hróðgeir",
+    "Kaupmannahafnar",
+    "Keflavíkur",
+    "Kristmey",
+    "Kristmeyjar",
+    "Mývatnssveit",
+    "Njörður",
+    "Norðurlandi",
+    "Reykjanesskaga",
+    "Reykjavík",
+    "Reykjavíkur",
+    "Sigríki",
+    "Sigríks",
+    "Sigríkur",
+    "Snæfellsnesi",
+    "Stykkishólmi",
+    "Stykkishólms",
+    "Sveinrún",
+    "Vigný",
+    "Vignýjar",
+    "Vignýju",
+    "Vébrand",
+    "Vébrandur",
+    "Ísafirði",
+    "Ísól",
+    "Þórgný",
+    "Þórgnýr"
+  ],
+  "lessons": [
+    {
+      "title": "Brú úr eldspýtum",
+      "summary": "Vigný, a first-year engineering student, builds a matchstick bridge with Sigríkur for the student association's contest; they draw every match first, and the bridge holds 23 kilos.",
+      "newWords": [
+        "grunnnám",
+        "nemendafélag",
+        "eldspýta",
+        "hópa",
+        "blýantur",
+        "lóðréttur",
+        "allnokkur",
+        "orðlaus"
+      ],
+      "text": "Vigný er tvítug og á fyrsta ári í grunnnámi í verkfræði við háskólann í Reykjavík. Á hverju hausti heldur nemendafélagið keppni sem allir í deildinni þekkja. Nemendur hópast saman þrír eða fjórir, og hver hópur smíðar brú úr eldspýtum og lími. Brúin á að ná yfir hálfs metra bil og má ekki vega meira en 300 grömm. Sú brú sem ber mesta þyngd áður en hún brotnar vinnur.\n\nVigný hafði aldrei smíðað neitt áður. Hún lenti í hópi með Sigríki, sem er á öðru ári í grunnnáminu og tók þátt í keppninni í fyrra. „Brúin okkar í fyrra var falleg,“ sagði hann, „en hún brotnaði strax. Við byrjuðum að líma áður en við höfðum hugsað.“ Í þetta sinn ákváðu þau að byrja á blaði. Þau sátu heilt kvöld á bókasafninu með blýant og reglustiku og teiknuðu hverja eldspýtu fyrir sig.\n\nSigríkur útskýrði fyrir henni hvernig kraftarnir dreifast. Brúin er gerð úr þríhyrningum, því að þríhyrningur heldur lögun sinni þegar þrýst er á hann. Lóðréttu stoðirnar bera þungann niður í undirstöðurnar, en skástoðirnar dreifa honum til hliðanna. „Ef stoðirnar eru ekki alveg lóðréttar fer öll brúin að hallast,“ sagði hann. Vigný strokaði út og teiknaði upp á nýtt með blýantinum þangað til teikningin var rétt.\n\nSíðan tók vinnan við. Þau notuðu allnokkur hundruð eldspýtna, og eftir tvær vikur voru fingurnir á Vignýju þaktir lími. Allnokkrir aðrir hópar unnu í sömu stofu, og stundum hópuðust nemendur í kringum borð hver annars til að sjá hvernig hinum gekk.\n\nÁ keppnisdaginn var salurinn fullur. Brýrnar voru settar ein af annarri á milli tveggja borða og fata hengd neðan í miðjuna. Svo var sandi hellt í fötuna, smátt og smátt. Flestar brýrnar brotnuðu við fimm eða sex kíló. Brú Vignýjar og Sigríks stóð enn við tíu kíló, svo fimmtán, svo tuttugu. Salurinn varð hljóður. Við 23 kíló brast hún loksins með háum smelli.\n\nVigný var orðlaus. Hún hafði ekki trúað því að nokkur hundruð eldspýtur gætu borið svona mikið. Sigríkur var líka orðlaus í smástund, en svo hló hann. „Þetta kemur af því að teikna fyrst,“ sagði hann. Nemendafélagið gaf þeim lítinn bikar, og hann var að sjálfsögðu úr eldspýtum.\n\nSpurningar:\nHvað heldur nemendafélagið á hverju hausti?\nÞað heldur keppni þar sem hver hópur smíðar brú úr eldspýtum og lími.\nHvar teiknuðu Vigný og Sigríkur brúna?\nÞau teiknuðu hana á bókasafninu með blýanti og reglustiku.\nAf hverju eiga stoðirnar að vera lóðréttar?\nAf því að annars fer öll brúin að hallast.\nHvað gerðu nemendurnir stundum í stofunni?\nÞeir hópuðust í kringum borð hver annars til að sjá hvernig hinum gekk.\nHve mikla þyngd bar brúin?\nHún bar 23 kíló áður en hún brotnaði, og Vigný var orðlaus."
+    },
+    {
+      "title": "Vélstjórinn á ferjunni",
+      "summary": "Bótólfur, the calm engineer of a ferry on Breiðafjörður, hears a new sound in a pump during a run of winter storms, gets a spare part sent by van overnight, and keeps the ferry on time.",
+      "newWords": [
+        "vélstjóri",
+        "afslappaður",
+        "mánaðarlega",
+        "hrina",
+        "varahlutur",
+        "sendibíll",
+        "stafn",
+        "dyggur"
+      ],
+      "text": "Bótólfur er 52 ára og hefur í tuttugu ár verið vélstjóri á ferjunni sem siglir yfir Breiðafjörð. Á meðan skipstjórinn stýrir skipinu sér Bótólfur um allt sem gerist niðri í vélarrúminu: aðalvélina, dælurnar og rafmagnið. „Farþegarnir sjá vélstjórann sjaldan,“ segir hann. „En ef ég geri ekki mitt verk kemst ferjan hvergi.“\n\nBótólfur er afslappaður maður. Hann talar hægt og brosir oft, og samstarfsmenn hans segja að hann missi aldrei þolinmæðina. En hann er ekki afslappaður þegar kemur að viðhaldi. Mánaðarlega fer hann yfir hverja vél eftir löngum lista, og mánaðarlega sendir hann skýrslu til útgerðarinnar. Á hverjum morgni hlustar hann á vélina áður en lagt er úr höfn. „Vél talar,“ segir hann. „Ef hljóðið breytist er eitthvað að.“\n\nSíðasta vetur gekk hrina af stormum yfir landið. Í þrjár vikur kom hver lægðin á fætur annarri, og ferjan sigldi aðeins þá daga sem veðrið leyfði. Í miðri hrinunni heyrði Bótólfur nýtt hljóð úr einni dælunni. Hann opnaði hana og sá að einn hlutur í henni var farinn að slitna. Ferjan gat ekki siglt fyrr en búið væri að skipta um hann.\n\nVarahluturinn var ekki til um borð. Bótólfur hringdi suður í fyrirtækið sem selur varahluti í dælurnar, og þar var einn til á lager. Sendibíll var sendur af stað frá Reykjavík sama dag. Bílstjóri sendibílsins ók í gegnum rok og slyddu og kom að höfninni í Stykkishólmi seint um kvöldið. Bótólfur beið eftir honum á bryggjunni með vasaljós.\n\nHann vann alla nóttina. Um morguninn var nýi varahluturinn kominn á sinn stað og dælan gekk hljóðlaust. Ferjan lagði úr höfn á réttum tíma.\n\nBótólfur á sér uppáhaldsstað um borð: fremst í stafninum. Þegar ferjan er komin út á fjörðinn og allt gengur eins og það á að ganga fer hann stundum upp á þilfar og stendur í stafninum í nokkrar mínútur. Þaðan sér hann eyjarnar, fuglana og fjöllin á Snæfellsnesi. „Þetta eru launin mín,“ segir hann.\n\nFerjan á sér dygga farþega sem hafa siglt með henni árum saman, og sumir þeirra hafa lært að heilsa manninum í bláa vinnugallanum. Bótólfur er sjálfur dyggur ferjunni. „Mér hafa boðist störf á stærri skipum,“ segir hann. „En hér þekki ég hvert hljóð.“\n\nSpurningar:\nHvað gerir Bótólfur á ferjunni?\nHann er vélstjóri og sér um allt sem gerist niðri í vélarrúminu.\nHvað gerir hann mánaðarlega?\nHann fer yfir hverja vél eftir löngum lista og sendir skýrslu til útgerðarinnar.\nHvað gerðist í miðri hrinunni síðasta vetur?\nBótólfur heyrði nýtt hljóð úr einni dælunni og sá að hlutur í henni var farinn að slitna.\nHvernig kom varahluturinn til Stykkishólms?\nSendibíll ók með hann frá Reykjavík sama dag.\nHvar stendur Bótólfur stundum þegar allt gengur vel?\nHann stendur fremst í stafninum og horfir á eyjarnar, fuglana og fjöllin."
+    },
+    {
+      "title": "Kalk í rörunum",
+      "summary": "Njörður, an engineer at a small town's hot-water utility, finds that lime has narrowed the pipes, works out why the flow fell so much, and has a settling tank built to stop new lime.",
+      "newWords": [
+        "kalk",
+        "þrengja",
+        "umræddur",
+        "radíus",
+        "rúmmál",
+        "úrræði",
+        "sporna",
+        "ker"
+      ],
+      "text": "Njörður er verkfræðingur hjá hitaveitunni í litlum bæ á Norðurlandi. Heita vatnið kemur upp úr jörðinni skammt frá bænum og rennur eftir löngu röri inn í húsin. Í fyrravetur fóru íbúar í nokkrum götum að kvarta. Vatnið var ekki nógu heitt, og stundum kom aðeins lítil buna úr krönunum.\n\nNjörður vissi strax hvað líklegast væri að. Í heitu vatni úr jörðinni er mikið af uppleystum efnum, meðal annars kalki. Þegar vatnið kólnar eða þrýstingurinn breytist fellur kalkið út og sest innan á rörin eins og hvít skán. Með árunum þrengir kalkið rörin smátt og smátt, rétt eins og fita þrengir æðar í fólki.\n\nHann lét skera bút úr umræddu röri. Rörið hafði upphaflega verið tíu sentímetrar í þvermál, en kalklagið var orðið svo þykkt að opið var aðeins sex sentímetrar. „Það hljómar ekki mikið,“ segir Njörður, „en það skiptir öllu máli. Rúmmálið sem rennur í gegnum rör fer eftir flatarmáli opsins, og flatarmálið fer eftir radíusnum í öðru veldi. Þegar radíusinn minnkar úr fimm sentímetrum í þrjá minnkar flatarmálið um nærri tvo þriðju. Þá kemst miklu minna rúmmál af vatni í gegn á hverri mínútu.“\n\nHann skoðaði þrjú úrræði. Fyrsta úrræðið var að skipta um rörin, en það var dýrt og hefði þýtt að grafa upp heilar götur. Annað úrræðið var að hreinsa rörin að innan. Þriðja úrræðið var að sporna við því að kalkið félli út yfirleitt.\n\nHitaveitan valdi að gera tvennt: hreinsa umrædd rör strax og sporna síðan við nýju kalki. Við upptökin var reist lítið hús með stóru keri úr stáli. Rúmmál kersins er um 40 rúmmetrar. Í kerinu stendur vatnið í nokkrar mínútur á meðan þrýstingurinn jafnast, og þar fellur mestur hluti kalksins út áður en vatnið fer inn í kerfið. Einu sinni á ári er kerið tæmt og kalkið mokað út.\n\nÍ vetur hafa engar kvartanir borist. „Fólk tekur heita vatninu sem sjálfsögðum hlut,“ segir Njörður. „Það er gott. Það er merki þess að við sinnum starfinu vel.“\n\nSpurningar:\nHvað var að vatninu í nokkrum götum?\nÞað var ekki nógu heitt og stundum kom aðeins lítil buna úr krönunum.\nHvað gerir kalkið við rörin?\nÞað sest innan á þau og þrengir þau smátt og smátt.\nAf hverju skiptir lítil breyting á radíusnum svona miklu máli?\nAf því að flatarmál opsins fer eftir radíusnum í öðru veldi, og þá kemst miklu minna rúmmál í gegn.\nHvaða þrjú úrræði skoðaði Njörður?\nAð skipta um rörin, að hreinsa þau og að sporna við því að kalkið félli út.\nTil hvers er kerið?\nÍ því fellur mestur hluti kalksins út áður en vatnið fer inn í kerfið."
+    },
+    {
+      "title": "Brú yfir gjána",
+      "summary": "Þórgnýr spends most of a summer building a footbridge over a rift on the western Reykjanes peninsula, taming spring meltwater, sparing the nesting birds and the look of the land.",
+      "newWords": [
+        "mestallur",
+        "vestanverður",
+        "gjá",
+        "hemja",
+        "ásýnd",
+        "stórfenglegur",
+        "dýralíf",
+        "framvinda"
+      ],
+      "text": "Þórgnýr er verkfræðingur á lítilli verkfræðistofu í Hafnarfirði. Síðasta sumar var hann mestallan tímann á vestanverðum Reykjanesskaga, þar sem hann stjórnaði gerð göngubrúar yfir djúpa gjá.\n\nGjáin myndaðist þar sem landið rifnar hægt í sundur. Hún er um tuttugu metrar á breidd og víða meira en tíu metrar á dýpt. Ferðamenn höfðu lengi gengið meðfram henni eftir mjóum stíg, en á vorin rann leysingavatn yfir stíginn og hann varð að einu drullusvaði.\n\nVerkið hafði tvö markmið. Í fyrsta lagi átti að hemja vatnið, svo að það rynni ekki lengur yfir stíginn heldur ofan í gjána. Í öðru lagi átti að reisa brú svo að fólk gæti gengið yfir gjána og horft niður í hana.\n\n„Erfiðasti hlutinn var ekki brúin sjálf,“ segir Þórgnýr. „Það var að breyta ásýnd landsins sem minnst. Fólk kemur hingað til að sjá stórfenglegt landslag, ekki steypu.“ Brúin er því úr dökku stáli og timbri, og hún hvílir á fáum undirstöðum. Til að hemja vatnið var grafinn grunnur skurður og fóðraður með grjóti úr næsta nágrenni, svo að hann líkist læk sem hefur alltaf verið þarna. Ásýnd svæðisins er nánast óbreytt.\n\nDýralífið skipti líka máli. Á vestanverðu svæðinu verpa margir fuglar, og Þórgnýr fékk líffræðing til að skoða dýralífið áður en verkið hófst. Ákveðið var að engar stórar vélar yrðu á svæðinu á meðan fuglarnir sætu á eggjum, og því var mestallt verkið unnið síðsumars.\n\nFramvinda verksins var skráð vikulega. Á hverjum föstudegi sendi Þórgnýr bænum stutta skýrslu um framvinduna og birti myndir á netinu svo að almenningur gæti fylgst með. Þegar fyrsti hluti brúarinnar var kominn á sinn stað fylltist vefsíðan af kveðjum frá fólki sem hlakkaði til.\n\nBrúin var opnuð í september. Fyrstu helgina gengu mörg hundruð manns yfir hana. Margir stoppuðu á miðri brúnni og horfðu niður í gjána, þar sem tært vatn glitraði á botninum. „Þetta er stórfenglegt,“ sagði eldri kona við Þórgný. Hann þakkaði henni fyrir og hugsaði með sér að það hefði verið þess virði að bíða eftir fuglunum.\n\nSpurningar:\nHvar var Þórgnýr mestallt síðasta sumar?\nHann var á vestanverðum Reykjanesskaga, þar sem hann stjórnaði gerð brúar yfir gjá.\nHvað gerðist á stígnum á vorin?\nLeysingavatn rann yfir hann og hann varð að drullusvaði.\nAf hverju er brúin úr dökku stáli og timbri?\nAf því að Þórgnýr vildi breyta ásýnd landsins sem minnst.\nHvernig var tekið tillit til dýralífsins?\nEngar stórar vélar voru á svæðinu á meðan fuglarnir sátu á eggjum.\nHvernig gat almenningur fylgst með framvindunni?\nÞórgnýr birti myndir og stutta skýrslu á hverjum föstudegi."
+    },
+    {
+      "title": "Pistill: Forritari við eldhúsborðið",
+      "summary": "In a column, Arnfinna, a programmer who writes software for traffic lights, tells how working from home turned lonely in the dark winter, and how a shared office table brought back the laughter of colleagues.",
+      "newWords": [
+        "forritari",
+        "tíður",
+        "niðurdrepandi",
+        "vanlíðan",
+        "einmanalegur",
+        "kollegi",
+        "skopskyn",
+        "orlof"
+      ],
+      "text": "Ég heiti Arnfinna og er forritari. Ég skrifa hugbúnað sem stýrir umferðarljósum í borginni. Fyrir þremur árum ákvað fyrirtækið mitt að við forritararnir ynnum að mestu heima. Skrifstofunni var lokað, og hver okkar fékk tölvu, skjá og góðan stól heim til sín.\n\nFyrst var þetta dásamlegt. Ég sparaði mér klukkutíma í umferðinni á hverjum degi, gat unnið í náttfötunum og drakk kaffið úr mínum eigin bolla. Fundir urðu tíðari en áður, en þeir voru stuttir og fóru fram á skjánum.\n\nSvo kom fyrsti veturinn. Í desember birtir varla í Reykjavík fyrr en um ellefu, og það dimmir aftur um fjögur. Ég sat við eldhúsborðið frá morgni til kvölds og talaði ekki við nokkurn mann nema á skjánum. Mér fannst það niðurdrepandi. Dagarnir runnu saman í einn. Ég fann fyrir vanlíðan sem ég kunni ekki að nefna: ekki veikindum, heldur einhvers konar þyngslum. Vinnan var einmanaleg á þann hátt sem ég hafði ekki búist við.\n\nMest saknaði ég kollega minna. Ekki fundanna, heldur alls þess sem gerist á milli þeirra: spjallsins við kaffivélina, brandaranna, þess að geta snúið sér að næsta kollega og spurt: „Sérðu villuna í þessum kóða?“ Á skrifstofunni hló ég á hverjum degi. Við vorum öll með gott skopskyn. Á skjánum hverfur skopskynið einhvern veginn; brandararnir verða að skilaboðum sem enginn svarar.\n\nÍ vor ákvað ég að gera eitthvað í málinu. Ég tók mér tveggja vikna orlof og gekk úti á hverjum degi, hvernig sem viðraði. Eftir orlofið leigði ég mér borð í sameiginlegu vinnurými niðri í bæ, þar sem forritarar, hönnuðir og þýðendur frá ólíkum fyrirtækjum sitja saman. Þar eru engir kollegar mínir, en þar er fólk. Við borðum hádegismat saman og hlæjum. Fundirnir eru jafn tíðir og áður, en nú sit ég ekki ein þegar þeim lýkur.\n\nÉg segi ekki að heimavinna sé slæm. Margir kollegar mínir eru ánægðir heima. En ég held að við forritarar eigum það til að gleyma því að við erum ekki tölvur. Ef vinnan verður einmanaleg og veturinn niðurdrepandi er það ekki veikleiki að viðurkenna vanlíðan sína. Það er skynsamlegt.\n\nSpurningar:\nHvað gerir Arnfinna?\nHún er forritari og skrifar hugbúnað sem stýrir umferðarljósum.\nHvað breyttist þegar skrifstofunni var lokað?\nHver forritari fékk tölvu, skjá og stól heim, og fundir urðu tíðari en áður.\nAf hverju fannst henni veturinn niðurdrepandi?\nAf því að það var dimmt og hún talaði ekki við nokkurn mann nema á skjánum.\nHvers saknaði hún mest?\nHún saknaði kollega sinna og skopskynsins á skrifstofunni.\nHvað gerði hún eftir orlofið?\nHún leigði sér borð í sameiginlegu vinnurými niðri í bæ."
+    },
+    {
+      "title": "Sjónauki í hlöðunni",
+      "summary": "Hróðgeir, a retired engineer near Mývatn, shows his granddaughter Ísól the pale moon and another galaxy through the telescope he built, and the northern lights begin to glow.",
+      "newWords": [
+        "kreik",
+        "telpa",
+        "fölur",
+        "vetrarbraut",
+        "jarðarbúi",
+        "glóa",
+        "meinlaus",
+        "lífstíð"
+      ],
+      "text": "Hróðgeir er verkfræðingur sem hætti að vinna fyrir tveimur árum. Hann býr á bæ í Mývatnssveit, og í gamalli hlöðu við bæinn hefur hann smíðað sér sjónauka. Hann gerði spegilinn sjálfur, smíðaði grindina úr áli og forritaði litla vél sem lætur sjónaukann fylgja himninum eftir á meðan jörðin snýst.\n\nVerkið var ekki alltaf auðvelt. Þegar kólnar á haustin fara mýs á kreik og leita inn í hlýjuna, og fyrsta haustið nöguðu þær sundur leiðslu. Nú liggja allar leiðslur í hlöðunni í rörum úr stáli.\n\nÁ veturna kemur barnabarn hans, Ísól, oft í heimsókn. Hún er níu ára, lítil og ljóshærð telpa sem spyr meira en flestir fullorðnir. Eitt kvöld í nóvember var himinninn heiður og kyrrt í veðri. Hróðgeir opnaði þakið á hlöðunni og beindi sjónaukanum upp í himininn.\n\nFyrst sýndi hann telpunni tunglið. Það var fölt og kalt, og í sjónaukanum sáust gígarnir eins og grunnar skálar. Svo sneri hann sjónaukanum að litlum, fölum bletti lágt á himninum. „Þetta er önnur vetrarbraut,“ sagði hann. „Hún er svo langt í burtu að ljósið sem þú sérð lagði af stað fyrir meira en tveimur milljónum ára.“\n\nÍsól horfði lengi. „Búa jarðarbúar þar?“ spurði hún.\n\n„Nei,“ sagði afi hennar og brosti. „Jarðarbúar búa bara hér, á jörðinni. En í þeirri vetrarbraut eru fleiri stjörnur en nokkur getur talið. Kannski býr einhver þar sem horfir hingað núna.“\n\nÞá fór himinninn allt í einu að glóa. Grænar rendur liðuðust yfir fjöllin í norðri, glóðu skærar og hurfu svo aftur. Þetta voru norðurljós. Ísól greip í handlegg afa síns. „Eru þau hættuleg?“ spurði hún.\n\n„Nei, þau eru alveg meinlaus,“ sagði Hróðgeir. „Þau verða til hátt fyrir ofan okkur, þar sem agnir frá sólinni rekast á loftið. Þau eru jafn meinlaus og regnboginn.“\n\nÞau stóðu lengi úti og horfðu. Úti í myrkrinu var refur á kreiki; þau heyrðu í honum einhvers staðar niðri við vatnið. „Þegar ég var á þínum aldri sá ég norðurljós í fyrsta sinn,“ sagði Hróðgeir. „Þá eignaðist ég áhugamál fyrir lífstíð.“ Ísól hugsaði sig um. „Þá hef ég kannski líka eignast áhugamál fyrir lífstíð,“ sagði hún.\n\nSpurningar:\nHvað hefur Hróðgeir smíðað í hlöðunni?\nHann hefur smíðað sér sjónauka með spegli, grind úr áli og lítilli vél.\nAf hverju liggja leiðslurnar í rörum úr stáli?\nAf því að mýs fara á kreik á haustin og nöguðu einu sinni sundur leiðslu.\nHvernig var tunglið í sjónaukanum?\nÞað var fölt og kalt, og gígarnir sáust eins og grunnar skálar.\nHvað spurði Ísól um hina vetrarbrautina?\nHún spurði hvort jarðarbúar byggju þar.\nHvað eignaðist Hróðgeir þegar hann sá norðurljós í fyrsta sinn?\nHann eignaðist áhugamál fyrir lífstíð."
+    },
+    {
+      "title": "Lýs á paprikunum",
+      "summary": "Sveinrún, an electrical engineer who runs a greenhouse at Flúðir, lowers the heat at night, waits and counts when aphids appear, and lets hungry larvae clean her pepper plants instead of spraying.",
+      "newWords": [
+        "paprika",
+        "lækkun",
+        "lús",
+        "aðhafast",
+        "gráðugur",
+        "farga",
+        "fjóla",
+        "matreiðsla"
+      ],
+      "text": "Sveinrún lærði rafmagnsverkfræði en tók við gróðurhúsi foreldra sinna á Flúðum fyrir átta árum. Þar ræktar hún paprikur, rauðar, gular og grænar, allt árið. Á sumrin skín sólin nánast allan sólarhringinn, en á veturna kemur birtan frá þúsundum lampa og hitinn úr heitu vatni úr jörðinni. Sveinrún hefur sjálf forritað kerfið sem stýrir lömpunum, hitanum og rakanum.\n\nKerfið lækkar hitann á nóttunni. Lækkunin er ekki mikil, aðeins nokkrar gráður, en hún skiptir máli. Paprikurnar þroskast betur þegar munur er á hita dags og nætur, og rafmagnsreikningurinn verður lægri. Sveinrún fylgist með hverri lækkun í tölvunni og skráir hvernig plönturnar bregðast við.\n\nÍ fyrravor tók hún eftir litlum grænum dýrum á neðri hlið laufanna. Þetta var lús. Lýsnar sjúga safann úr plöntunum, og ef ekkert er gert fjölgar þeim hratt. Margir myndu úða sterkum efnum á plönturnar strax, en Sveinrún vildi ekki gera það við mat.\n\nFyrst ákvað hún að aðhafast ekkert annað en að telja. Í tvo daga taldi hún lýsnar á tuttugu plöntum, morgun og kvöld, til að sjá hve hratt þeim fjölgaði. Svo pantaði hún kassa af smáum skordýrum sem lifa á lús. Lirfur þeirra eru gráðugar; hver lirfa getur étið tugi lúsa á dag. Hún sleppti þeim inn í gróðurhúsið, og á þremur vikum hreinsuðu gráðugu lirfurnar paprikurnar.\n\nNokkrum plöntum var þó ekki hægt að bjarga. Sveinrún fargaði þeim strax, svo að lúsin bærist ekki í hinar. Hún fargaði líka gömlum bökkum sem lýsnar gátu falið sig í.\n\nÍ einu horni gróðurhússins ræktar Sveinrún fjólur. Þær eru ætar, og kokkar á veitingahúsum í Reykjavík nota þær í matreiðslu, aðallega til skrauts á eftirrétti og salöt. Lúsin komst aldrei í fjólurnar. Sjálf hefur Sveinrún lítinn áhuga á matreiðslu; hún borðar paprikurnar hráar, eins og epli.\n\n„Stundum er best að aðhafast ekkert fyrr en maður veit hvað er að gerast,“ segir hún. „Það á jafnt við um gróðurhús og tölvukerfi.“\n\nSpurningar:\nHvað ræktar Sveinrún á Flúðum?\nHún ræktar paprikur allt árið og fjólur í einu horni gróðurhússins.\nAf hverju lækkar kerfið hitann á nóttunni?\nAf því að paprikurnar þroskast betur þegar munur er á hita dags og nætur, og reikningurinn verður lægri.\nHvað gerði Sveinrún fyrst þegar hún fann lúsina?\nHún aðhafðist ekkert annað en að telja lýsnar í tvo daga.\nHvernig hreinsuðust paprikurnar?\nGráðugar lirfur átu lýsnar á þremur vikum.\nTil hvers nota kokkar fjólurnar?\nÞeir nota þær í matreiðslu, aðallega til skrauts á eftirrétti og salöt."
+    },
+    {
+      "title": "Tökuvél á herðunum",
+      "summary": "Vébrandur, an engineer, designs a shoulder rig so that a camera can follow singing actors through the streets in a remake of an old musical film.",
+      "newWords": [
+        "endurgerð",
+        "uppistaða",
+        "sönglag",
+        "tökuvél",
+        "herðar",
+        "lipur",
+        "þjálfaður",
+        "hárkolla"
+      ],
+      "text": "Vébrandur er verkfræðingur sem hannar búnað fyrir kvikmyndagerð. Í fyrra fékk hann óvenjulegt verkefni. Leikstjóri var að gera endurgerð af gömlum íslenskum söngleik sem var kvikmyndaður árið 1962. Uppistaðan í myndinni eru tíu sönglög sem leikararnir syngja á meðan þeir ganga um götur Reykjavíkur.\n\nLeikstjórinn vildi að tökuvélin fylgdi leikurunum fast eftir, upp tröppur og inn um þröngar dyr, án þess að myndin titraði. Stórar tökuvélar á sporum komust ekki þangað. Hann bað Vébrand að hanna grind sem sá sem stjórnar tökuvélinni gæti borið á herðunum.\n\n„Vandinn er þyngdin,“ segir Vébrandur. „Góð tökuvél með linsu vegur tíu til fimmtán kíló. Ef allur þunginn hvílir á herðunum verður maður úrvinda eftir hálftíma.“ Lausnin var vesti sem dreifir þunganum frá herðunum niður á mjaðmirnar, og armur með fjöðrum sem tekur við hreyfingum líkamans, svo að tökuvélin svífur nánast kyrr þótt gengið sé með hana.\n\nFyrsta gerðin var of þung. Vébrandur skipti þá stálinu út fyrir ál og trefjar, og önnur gerðin var létt og lipur. Konan sem bar vélina er þjálfaður dansari, og með grindina á herðunum var hún jafn lipur og leikararnir. „Án þjálfaðs fólks væri grindin gagnslaus,“ segir Vébrandur. „Búnaðurinn gerir ekki meira en sá sem ber hann.“\n\nVið tökur kom upp vandi sem Vébrandur hafði ekki séð fyrir. Leikkonan í aðalhlutverkinu bar stóra, rauða hárkollu, því að persónan hennar var með sítt rautt hár. Í einu sönglaginu dansaði hún svo nálægt tökuvélinni að hárkollan festist í fjöðrunum. Hárkollan slapp heil, en Vébrandur setti hlíf yfir fjaðrirnar strax um kvöldið.\n\nMyndin var sýnd í vor. Gagnrýnendur hrósuðu sönglögunum og leikurunum, en sumir þeirra nefndu líka myndavélina, sem virtist dansa með fólkinu. Vébrandur hefur síðan selt grindina til tveggja erlendra fyrirtækja í kvikmyndagerð. Hann segir að endurgerð gamallar myndar sé gott verkefni fyrir verkfræðing: „Sagan er þekkt. Spurningin er bara hvernig maður segir hana á nýjan hátt.“\n\nSpurningar:\nHver er uppistaðan í myndinni?\nUppistaðan í myndinni eru tíu sönglög sem leikararnir syngja á götum Reykjavíkur.\nHvað bað leikstjórinn Vébrand að hanna?\nHann bað hann að hanna grind sem hægt væri að bera á herðunum með tökuvélinni.\nHvernig leysti Vébrandur vandann með þyngdina?\nHann hannaði vesti sem dreifir þunganum frá herðunum niður á mjaðmirnar og arm með fjöðrum.\nAf hverju var konan jafn lipur og leikararnir með grindina á herðunum?\nAf því að hún er þjálfaður dansari og önnur gerðin af grindinni var létt.\nHvað gerðist með hárkolluna?\nHún festist í fjöðrunum, og Vébrandur setti hlíf yfir þær um kvöldið."
+    },
+    {
+      "title": "Viðtal: Regnhlíf sem þolir rokið",
+      "summary": "In an interview, Kristmey explains why most umbrellas fail in Icelandic wind, how she designed one that folds back safely, and why a small firm lives on its reputation, before flying to Copenhagen to speak.",
+      "newWords": [
+        "regnhlíf",
+        "óhæfur",
+        "mannorð",
+        "ræðumaður",
+        "ferðataska",
+        "hraðferð"
+      ],
+      "text": "Kristmey er verkfræðingur og hönnuður. Fyrir fimm árum stofnaði hún lítið fyrirtæki í Reykjavík sem framleiðir aðeins eina vöru: regnhlíf. Við hittum hana á verkstæðinu sama morgun og hún flaug til Kaupmannahafnar, þar sem hún var einn af ræðumönnunum á stórri ráðstefnu um hönnun.\n\n„Ég fékk hugmyndina á strætóstöð,“ segir hún. „Það var rok og rigning, og í ruslatunnunni við hliðina á mér lágu fjórar brotnar regnhlífar. Flestar regnhlífar eru hannaðar fyrir borgir þar sem rignir beint niður. Í íslensku roki rignir á ská, stundum upp á við, og venjuleg regnhlíf er einfaldlega óhæf við slíkar aðstæður. Hún snýst við og brotnar.“\n\nKristmey ákvað ekki að gera regnhlíf sem gæti ekki snúist við. Hún ákvað að gera regnhlíf sem mætti snúast við. Teinarnir eru úr sveigjanlegum trefjum í stað málms. Þegar vindhviða snýr regnhlífinni við beygjast teinarnir en brotna ekki, og með einu handtaki smellur hún aftur í rétta stöðu. „Ég prófaði yfir tvö hundruð gerðir,“ segir hún. „Margar þeirra voru alveg óhæfar. Sumar brotnuðu strax í fyrstu hviðunni.“\n\nRegnhlífar Kristmeyjar eru dýrar, en hún veitir fimm ára ábyrgð. Hún segir að lítið fyrirtæki lifi á mannorði sínu. „Stórt fyrirtæki getur selt slæma vöru í eitt ár og samt komist af. Við getum það ekki. Ef ein regnhlíf brotnar og eigandinn segir frá því á netinu getur mannorð okkar skaðast á einum degi. Þess vegna skiptum við strax um hverja regnhlíf sem bilar, án spurninga.“\n\nHún hefur oft verið beðin um að tala um hönnun, en hún segist ekki vera fæddur ræðumaður. „Ég er verkfræðingur. Mér líður betur á verkstæðinu en á sviðinu. En ég hef lært að segja einfalda sögu: rokið, brotnu regnhlífarnar í tunnunni og lausnina.“\n\nÁ leiðinni út sýndi hún okkur ferðatöskuna sína. Í henni voru ekki föt, heldur tuttugu regnhlífar. „Fötin eru í bakpokanum,“ sagði hún og hló. „Ég ætla að gefa hverjum ræðumanni eina regnhlíf.“ Svo dró hún ferðatöskuna út á stöðina og tók hraðferð út á flugvöll. Hraðferðin ekur beint til Keflavíkur án þess að stoppa á leiðinni, og hún var komin þangað á innan við klukkutíma.\n\nSpurningar:\nHvar fékk Kristmey hugmyndina að regnhlífinni?\nHún fékk hana á strætóstöð í roki og rigningu, þar sem fjórar brotnar regnhlífar lágu í tunnunni.\nAf hverju er venjuleg regnhlíf óhæf í íslensku roki?\nAf því að þar rignir á ská og regnhlífin snýst við og brotnar.\nHvernig er regnhlíf Kristmeyjar öðruvísi?\nTeinarnir beygjast en brotna ekki, og hún smellur aftur í rétta stöðu.\nAf hverju skiptir mannorðið svona miklu máli?\nAf því að lítið fyrirtæki lifir á mannorði sínu og getur skaðast á einum degi.\nHvað var í ferðatöskunni hennar?\nÍ henni voru tuttugu regnhlífar sem hún ætlaði að gefa hinum ræðumönnunum."
+    },
+    {
+      "title": "Gamla húsið á Ísafirði",
+      "summary": "Aðalráður buys the old wooden house of his teenage years in Ísafjörður; his sister-in-law Dagbjörg, a structural engineer, finds old lead pipes, and an annoyed neighbour ends up helping.",
+      "newWords": [
+        "unglingsár",
+        "mágkona",
+        "blý",
+        "læknisfræðilegur",
+        "sag",
+        "granni",
+        "lá"
+      ],
+      "text": "Aðalráður bjó á unglingsárum sínum í gömlu timburhúsi á Ísafirði. Foreldrar hans seldu húsið þegar hann fór suður í nám, og síðan hafa liðið þrjátíu ár. Í fyrra sá hann að húsið var aftur til sölu. Hann keypti það og ákvað að gera það upp sjálfur.\n\nHann vissi að hann þyrfti hjálp. Mágkona hans, Dagbjörg, er byggingarverkfræðingur og hefur unnið við viðgerðir á gömlum húsum í mörg ár. Hún kom vestur í eina viku í sumarfríinu sínu. „Fyrst skoðum við allt,“ sagði mágkona hans. „Svo gerum við áætlun. Síðast byrjum við að rífa.“\n\nDagbjörg fann ýmislegt. Grindin var að mestu heil, en neðstu bitarnir voru blautir í einu horninu. Og þegar hún opnaði vegginn inni á baði sá hún gömul rör úr blýi. „Svona rör voru algeng fyrir hundrað árum,“ sagði hún. „En blý getur borist úr rörunum í vatnið. Læknisfræðilegar rannsóknir hafa sýnt að blý safnast fyrir í líkamanum, einkum hjá börnum. Það þarf að skipta um öll þessi rör.“ Aðalráður hugsaði um unglingsár sín í húsinu og allt vatnið sem hann hafði drukkið. Dagbjörg sagði honum að hann þyrfti ekki að hafa áhyggjur af því nú, en að hann gæti spurt lækni ef hann vildi læknisfræðilegt álit.\n\nNæstu vikur sagaði Aðalráður og smíðaði frá morgni til kvölds. Sagið var yfir öllu, á gólfinu, í hárinu á honum og jafnvel í kaffibollanum. Einn daginn bankaði granni hans, gamall maður sem býr í næsta húsi, upp á. Vindurinn hafði borið sag yfir í garðinn hans og ofan í blómin.\n\n„Ég lái honum það ekki,“ sagði Aðalráður við mágkonu sína í síma um kvöldið. „Ég myndi líka kvarta.“ Daginn eftir setti hann upp tjald yfir sögina svo að sagið fyki ekki lengur. Og hann bauð grannanum í kaffi.\n\nÍ ljós kom að granninn hafði verið smiður og þekkti húsið vel. Hann hafði hjálpað fyrri eigendum að skipta um glugga fyrir fjörutíu árum. Eftir það kom hann á hverjum morgni og gaf ráð. Enginn gat láð honum þótt hann segði stundum að unga fólkið kynni ekkert. Hann hafði oftast rétt fyrir sér.\n\nÍ haust var húsið tilbúið. Ný rör eru í öllum veggjum, og blýinu hefur verið fargað á réttan hátt. Aðalráður sefur í herberginu sem hann svaf í á unglingsárunum.\n\nSpurningar:\nHvar bjó Aðalráður á unglingsárum sínum?\nHann bjó í gömlu timburhúsi á Ísafirði.\nHver er Dagbjörg?\nHún er mágkona hans og byggingarverkfræðingur.\nHvað fann Dagbjörg inni á baði?\nHún fann gömul rör úr blýi, sem þurfti að skipta um.\nAf hverju kvartaði granninn?\nAf því að vindurinn hafði borið sag yfir í garðinn hans.\nHvernig hjálpaði granninn Aðalráði?\nHann hafði verið smiður, þekkti húsið vel og gaf ráð á hverjum morgni."
+    }
+  ]
+}
