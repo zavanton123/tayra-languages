@@ -189,6 +189,10 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
         withTimeoutOrNull(READY_TIMEOUT_MS) { ready.await() } ?: return null.also { log.w { "the player never got ready" } }
         val text = call("__tayra.details()", DETAILS_TIMEOUT_MS) ?: return null.also { log.w { "the player gave no details" } }
         val root = runCatching { Json.parseToJsonElement(text) as? JsonObject }.getOrNull() ?: return null
+        if (root["refused"]?.jsonPrimitive?.booleanOrNull == true) {
+            problem.value = youTubeProblem(EMBEDDING_REFUSED)
+            return null
+        }
         if (root["playable"]?.jsonPrimitive?.booleanOrNull == false) return null
         val tracks = (root["tracks"] as? JsonArray).orEmpty().mapNotNull { element ->
             val o = element as? JsonObject ?: return@mapNotNull null
@@ -224,6 +228,7 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
         private const val CALL_TIMEOUT_MS = 20_000L
         private const val READY_TIMEOUT_MS = 30_000L
         private const val DETAILS_TIMEOUT_MS = 20_000L
+        private const val EMBEDDING_REFUSED = 150
         private const val TOKEN_TIMEOUT_MS = 12_000L
     }
 }
@@ -287,6 +292,8 @@ object YouTubeScripts {
           t.details = async function () {
             var r = response();
             for (var i = 0; i < 40 && (!r || !r.videoDetails); i++) {
+              // A video that may not be embedded gets this screen, with no error event and no details.
+              if (document.querySelector('.ytp-embed-error')) return JSON.stringify({ refused: true });
               // The embedded player learns about its video only once it is asked to play; muted, and paused again at once.
               var p = t.player();
               if (i === 0 && p && p.mute) { p.mute(); p.playVideo(); }

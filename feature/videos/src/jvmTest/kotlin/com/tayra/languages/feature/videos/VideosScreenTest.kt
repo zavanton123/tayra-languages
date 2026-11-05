@@ -244,6 +244,30 @@ class VideosScreenTest {
     }
 
     @Test
+    fun aVideoYouTubeRefusesToEmbedSaysWhyAndOffersTheBrowser() = runDesktopComposeUiTest(width = 1000, height = 1400) {
+        val opened = mutableListOf<String>()
+        val links = object : androidx.compose.ui.platform.UriHandler {
+            override fun openUri(uri: String) { opened += uri }
+        }
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    androidx.compose.runtime.CompositionLocalProvider(androidx.compose.ui.platform.LocalUriHandler provides links) {
+                        AddVideoContent(
+                            AddVideoUiState(youtube = YouTubePick(input = "z4Ur8yTwQ6I", id = "z4Ur8yTwQ6I", refused = "The owner of this video doesn't let it play outside YouTube.")),
+                            AddVideoActions(),
+                        )
+                    }
+                }
+            }
+        }
+        onNodeWithText("The owner of this video doesn't let it play outside YouTube.").assertExists()
+        onNodeWithTag("youtube-open-elsewhere").performClick()
+        waitForIdle()
+        assertEquals(listOf("https://www.youtube.com/watch?v=z4Ur8yTwQ6I"), opened)
+    }
+
+    @Test
     fun theWhisperSectionOffersADownloadThenTheTranscriptionAndItsProgress() = runDesktopComposeUiTest(width = 1000, height = 1400) {
         val model = com.tayra.languages.core.domain.media.TranscriptionModel("small", "Whisper small", 486_000_000, installed = false, note = "Quicker")
         var state by androidx.compose.runtime.mutableStateOf(

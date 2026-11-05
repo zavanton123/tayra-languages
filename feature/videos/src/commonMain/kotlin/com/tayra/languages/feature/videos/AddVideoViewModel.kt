@@ -25,6 +25,7 @@ import com.tayra.languages.core.domain.media.YouTubeIds
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.media.VideoController
+import com.tayra.languages.core.ui.media.VideoProblem
 import com.tayra.languages.core.ui.media.YouTubeCaptions
 import com.tayra.languages.core.ui.media.YouTubeDetails
 import com.tayra.languages.core.ui.media.YouTubeTrack
@@ -56,6 +57,8 @@ data class YouTubePick(
     val translate: Boolean = true,
     /** The player here can't hand over subtitles (no YouTube player on this device yet). */
     val unsupported: Boolean = false,
+    /** Why YouTube won't play this video here, when it said so. */
+    val refused: String? = null,
 )
 
 /** A video from its own address on the internet, with subtitles from a file or from their own address. */
@@ -172,7 +175,11 @@ class AddVideoViewModel(
             if (state.value.youtube.id != id) return@launch
             _state.update { s ->
                 if (details == null) {
-                    s.copy(youtube = s.youtube.copy(loading = false), error = "YouTube did not give this video's details.")
+                    val refused = (controller.problem.value as? VideoProblem.Failed)?.message
+                    s.copy(
+                        youtube = s.youtube.copy(loading = false, refused = refused),
+                        error = if (refused == null) "YouTube did not give this video's details." else null,
+                    )
                 } else {
                     s.copy(
                         youtube = s.youtube.copy(loading = false, details = details, track = bestTrack(details.tracks, s.languageCode)),
