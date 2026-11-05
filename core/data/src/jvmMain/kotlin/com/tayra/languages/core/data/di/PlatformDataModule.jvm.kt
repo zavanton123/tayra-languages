@@ -25,6 +25,8 @@ import com.tayra.languages.core.data.speech.KokoroSpeechEngine
 import com.tayra.languages.core.data.speech.PiperSpeechEngine
 import com.tayra.languages.core.data.speech.TtsWorker
 import com.tayra.languages.core.data.speech.DesktopSpeechRecognition
+import com.tayra.languages.core.data.speech.DesktopVideoTranscriber
+import com.tayra.languages.core.domain.media.VideoTranscriber
 import com.tayra.languages.core.domain.practice.SpeechRecognition
 import com.tayra.languages.core.domain.practice.SpeechRecognitionSetup
 import org.koin.dsl.binds
@@ -48,6 +50,7 @@ actual val platformDataModule: Module = module {
     single { LocalTranslation(ArgosSentenceTranslator(get(), get())) }
     single { TtsWorker(get()) }
     single { DesktopSpeechRecognition(get(), get(), get()) } binds arrayOf(SpeechRecognition::class, SpeechRecognitionSetup::class)
+    single<VideoTranscriber> { DesktopVideoTranscriber(get(), get()) }
     single { LocalSpeech(listOf(PiperSpeechEngine(get(), get()), KokoroSpeechEngine(get(), get()))) }
     single { DatabaseDriverFactory() }
     single<IdentitySignIn> { DesktopIdentitySignIn(GoogleOAuth(createAccountHttpClient())) }

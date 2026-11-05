@@ -10,6 +10,10 @@ Kokoro's status also lists the languages whose readers fail to load: {"id": 4, .
   {"id": 5, "cmd": "prepare", "engine": "whisper", "model": "small", "models": "/path/whisper"}  -> {"model": "small"}
   {"id": 6, "cmd": "transcribe", "engine": "whisper", "model": "small", "models": "/path/whisper", "lang": "pt",
    "audio": "/tmp/x.wav", "prompt": "the sentence expected"}  -> {"text": "..."}
+  {"id": 7, "cmd": "transcribe_media", "engine": "whisper", "model": "small", "models": "/path/whisper", "lang": "pt",
+   "media": "https://.../video.mp4", "progress": "/tmp/p"}  -> {"segments": [{"start": 0, "end": 1500, "text": "...",
+   "words": [[0, 400, " O"], ...]}, ...]} (milliseconds). While it works, the file "progress" holds "audio 0.42" or
+   "speech 0.42"; a file named like it with ".cancel" added stops it.
 Any failure replies {"id": ..., "error": "..."}. Loaded models are kept for the next request.
 """
 import importlib.util
@@ -84,6 +88,73 @@ def transcribe(req):
 
 
 PROMPT_SHARE = 0.8
+
+
+class Cancelled(Exception):
+    pass
+
+
+def transcribe_media(req):
+    progress = req["progress"]
+
+    def report(stage, fraction):
+        partial = progress + ".part"
+        with open(partial, "w") as f:
+            f.write(f"{stage} {max(0.0, min(1.0, fraction)):.3f}")
+        os.replace(partial, progress)
+
+    def check():
+        if os.path.exists(progress + ".cancel"):
+            raise Cancelled("cancelled")
+
+    audio = media_audio(req["media"], report, check)
+    if len(audio) == 0:
+        return {"segments": []}
+    seconds = len(audio) / 16000.0
+    report("speech", 0.0)
+    # The voice detector skips music and silence, where Whisper otherwise makes up words; nothing carries over
+    # between segments, which can set it repeating a line for minutes.
+    segments, _ = whisper(req).transcribe(audio, language=req["lang"], beam_size=5, vad_filter=True, word_timestamps=True,
+                                          condition_on_previous_text=False)
+    heard = []
+    for segment in segments:
+        check()
+        report("speech", segment.end / seconds)
+        heard.append({
+            "start": round(segment.start * 1000), "end": round(segment.end * 1000), "text": segment.text.strip(),
+            "words": [[round(w.start * 1000), round(w.end * 1000), w.word] for w in (segment.words or [])],
+        })
+    return {"segments": heard}
+
+
+def media_audio(url, report, check):
+    """The sound of the media at [url] (a web address or a file) as 16 kHz mono samples, read by PyAV as it comes."""
+    import av
+    import numpy
+    chunks = []
+    try:
+        container = av.open(url, timeout=30)
+    except Exception as e:  # noqa: BLE001
+        raise RuntimeError(f"the video could not be opened: {e}") from e
+    with container:
+        stream = next((s for s in container.streams if s.type == "audio"), None)
+        if stream is None:
+            raise RuntimeError("the video has no sound")
+        stream.thread_type = "AUTO"
+        seconds = container.duration / 1_000_000 if container.duration else 0
+        resampler = av.AudioResampler(format="s16", layout="mono", rate=16000)
+        for i, frame in enumerate(container.decode(stream)):
+            for out in resampler.resample(frame):
+                chunks.append(out.to_ndarray().reshape(-1).copy())
+            if i % 100 == 0:
+                check()
+                if seconds and frame.time is not None:
+                    report("audio", frame.time / seconds)
+        for out in resampler.resample(None):
+            chunks.append(out.to_ndarray().reshape(-1).copy())
+    if not chunks:
+        return numpy.zeros(0, dtype=numpy.float32)
+    return numpy.concatenate(chunks).astype(numpy.float32) / 32768.0
 
 
 def share(text, expected):
@@ -178,6 +249,8 @@ def handle(req):
         return {"model": req["model"]}
     if cmd == "transcribe":
         return transcribe(req)
+    if cmd == "transcribe_media":
+        return transcribe_media(req)
     raise RuntimeError(f"unknown command {cmd!r}")
 
 

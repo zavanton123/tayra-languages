@@ -10,12 +10,16 @@ import com.tayra.languages.core.domain.media.SubtitleFormat
 import com.tayra.languages.core.domain.media.SubtitleFormats
 import com.tayra.languages.core.domain.media.SubtitleKind
 import com.tayra.languages.core.domain.media.SubtitleTrack
+import com.tayra.languages.core.domain.media.TranscriptionException
+import com.tayra.languages.core.domain.media.TranscriptionModel
+import com.tayra.languages.core.domain.media.TranscriptionStage
 import com.tayra.languages.core.domain.media.TranslationSource
 import com.tayra.languages.core.domain.media.VideoImport
 import com.tayra.languages.core.domain.media.VideoImportException
 import com.tayra.languages.core.domain.media.VideoKind
 import com.tayra.languages.core.domain.media.VideoRepository
 import com.tayra.languages.core.domain.media.VideoService
+import com.tayra.languages.core.domain.media.VideoTranscriber
 import com.tayra.languages.core.domain.media.YouTubeIds
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -25,14 +29,15 @@ import com.tayra.languages.core.ui.media.YouTubeDetails
 import com.tayra.languages.core.ui.media.YouTubeTrack
 import com.tayra.languages.core.ui.state.UiEvents
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
-/** A subtitle file read for a new video. */
-data class PickedSubtitles(val name: String, val cues: List<Cue>) {
+/** Subtitles read for a new video, from a file or written down by Whisper. */
+data class PickedSubtitles(val name: String, val cues: List<Cue>, val kind: SubtitleKind = SubtitleKind.FILE) {
     val lastMs: Long get() = cues.maxOfOrNull { it.endMs } ?: 0
 }
 
@@ -65,10 +70,27 @@ data class LinkPick(
     val fetching: Boolean = false,
 )
 
+/**
+ * Whisper writing down a video link's subtitles: offered where this device has a transcriber for the
+ * language; its [models], the one being downloaded, and the stage of a transcription under way.
+ */
+data class TranscriptionPick(
+    val offered: Boolean = false,
+    val models: List<TranscriptionModel> = emptyList(),
+    val installing: String? = null,
+    val installProgress: String? = null,
+    val running: Boolean = false,
+    val stage: TranscriptionStage? = null,
+    val fraction: Float? = null,
+) {
+    val ready: Boolean get() = models.any { it.installed }
+}
+
 data class AddVideoUiState(
     val origin: VideoOrigin = VideoOrigin.YOUTUBE,
     val youtube: YouTubePick = YouTubePick(),
     val link: LinkPick = LinkPick(),
+    val transcription: TranscriptionPick = TranscriptionPick(),
     val languageCode: String? = null,
     val nativeCode: String = "en",
     val title: String = "",
@@ -77,7 +99,7 @@ data class AddVideoUiState(
     val saving: Boolean = false,
 ) {
     val canAdd: Boolean
-        get() = !saving && title.isNotBlank() && when (origin) {
+        get() = !saving && !transcription.running && title.isNotBlank() && when (origin) {
             VideoOrigin.YOUTUBE -> youtube.id != null && youtube.track != null
             VideoOrigin.LINK -> link.url != null && link.subtitles != null
         }
@@ -93,6 +115,7 @@ class AddVideoViewModel(
     private val settings: SettingsRepository,
     private val languages: LanguageRepository,
     private val downloader: SubtitleDownloader,
+    private val transcriber: VideoTranscriber? = null,
 ) : ViewModel() {
     private val _state = MutableStateFlow(AddVideoUiState())
     val state: StateFlow<AddVideoUiState> = _state.asStateFlow()
@@ -101,10 +124,20 @@ class AddVideoViewModel(
     /** The player of the YouTube video being added, which hands over its subtitles. */
     private var player: YouTubeCaptions? = null
 
+    private var transcription: Job? = null
+
     init {
         viewModelScope.launch {
             val language = languages.getById(settings.current.currentLanguageId)
-            _state.update { it.copy(languageCode = language?.let { l -> LanguageCodes.codeFor(l.name) }, nativeCode = settings.current.nativeLanguage) }
+            val code = language?.let { l -> LanguageCodes.codeFor(l.name) }
+            _state.update { it.copy(languageCode = code, nativeCode = settings.current.nativeLanguage) }
+            if (transcriber != null && code != null && transcriber.supports(code)) {
+                _state.update { it.copy(transcription = it.transcription.copy(offered = true)) }
+                loadModels()
+            }
+        }
+        transcriber?.let { t ->
+            viewModelScope.launch { t.installProgress.collect { text -> _state.update { it.copy(transcription = it.transcription.copy(installProgress = text)) } } }
         }
     }
 
@@ -203,6 +236,70 @@ class AddVideoViewModel(
         }
     }
 
+    // ---- Whisper
+
+    private suspend fun loadModels() {
+        val models = transcriber?.models() ?: return
+        _state.update { it.copy(transcription = it.transcription.copy(models = models)) }
+    }
+
+    fun installModel(model: TranscriptionModel) {
+        val t = transcriber ?: return
+        _state.update { it.copy(transcription = it.transcription.copy(installing = model.id), error = null) }
+        viewModelScope.launch {
+            try {
+                t.install(model)
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                _state.update { it.copy(error = "The model could not be downloaded.") }
+            } finally {
+                _state.update { it.copy(transcription = it.transcription.copy(installing = null)) }
+                loadModels()
+            }
+        }
+    }
+
+    fun removeModel(model: TranscriptionModel) {
+        val t = transcriber ?: return
+        viewModelScope.launch {
+            t.remove(model)
+            loadModels()
+        }
+    }
+
+    /** Whisper writes down what is said in the linked video; its lines become the subtitles. */
+    fun transcribe() {
+        val t = transcriber ?: return
+        val url = state.value.link.url ?: return
+        val language = state.value.languageCode ?: return
+        if (transcription?.isActive == true) return
+        _state.update { it.copy(transcription = it.transcription.copy(running = true, stage = TranscriptionStage.AUDIO, fraction = null), error = null) }
+        transcription = viewModelScope.launch {
+            try {
+                val cues = t.transcribe(url, language) { stage, fraction ->
+                    _state.update { it.copy(transcription = it.transcription.copy(stage = stage, fraction = fraction)) }
+                }
+                _state.update {
+                    if (cues.isEmpty()) it.copy(error = "Whisper heard no speech in this video.")
+                    else it.copy(link = it.link.copy(subtitles = PickedSubtitles("Whisper", cues, SubtitleKind.TRANSCRIBED)))
+                }
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: TranscriptionException) {
+                _state.update { it.copy(error = e.message) }
+            } catch (e: Exception) {
+                _state.update { it.copy(error = "The transcription failed.") }
+            } finally {
+                _state.update { it.copy(transcription = it.transcription.copy(running = false, stage = null, fraction = null)) }
+            }
+        }
+    }
+
+    fun cancelTranscription() {
+        transcription?.cancel()
+    }
+
     // ---- Adding
 
     fun add() {
@@ -237,7 +334,7 @@ class AddVideoViewModel(
                 title = s.title,
                 kind = VideoKind.LINK,
                 media = url,
-                subtitles = SubtitleTrack(subtitles.cues, SubtitleKind.FILE),
+                subtitles = SubtitleTrack(subtitles.cues, subtitles.kind, s.languageCode.takeIf { subtitles.kind == SubtitleKind.TRANSCRIBED }),
                 translation = s.link.translation?.cues,
                 translationSource = s.link.translation?.let { TranslationSource.FILE },
             ),

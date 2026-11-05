@@ -3,6 +3,7 @@ package com.tayra.languages.core.data.speech
 import co.touchlab.kermit.Logger
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.runtime.ManagedPython
+import com.tayra.languages.core.domain.media.WhisperLanguages
 import com.tayra.languages.core.domain.practice.Heard
 import com.tayra.languages.core.domain.practice.SpeechRecognition
 import com.tayra.languages.core.domain.practice.SpeechRecognitionSetup
@@ -172,6 +173,9 @@ class DesktopSpeechRecognition(
         }
     }
 
+    /** The faster-whisper name of the model that hears (see [downloadedModel]), and the folder of the models, for the video transcriber. */
+    internal suspend fun hearingModel(): Pair<String, File>? = downloadedModel()?.let { it.model to models }
+
     private fun model(whisper: Whisper) = arrayOf("engine" to ENGINE, "model" to whisper.model, "models" to models.absolutePath)
 
     private fun downloaded(whisper: Whisper): Boolean = models.walkTopDown().any { it.name == "model.bin" && whisper.repo in it.path }
@@ -210,15 +214,6 @@ class DesktopSpeechRecognition(
         const val DOWNLOAD_TIMEOUT_MS = 3_600_000L
         const val PROGRESS_EVERY_MS = 500L
 
-        /** The languages Whisper writes down, by the app's codes; Norwegian Bokmål is Whisper's "no". */
-        val LANGUAGES = setOf(
-            "af", "am", "ar", "as", "az", "ba", "be", "bg", "bn", "bo", "br", "bs", "ca", "cs", "cy", "da", "de", "el", "en", "es", "et", "eu",
-            "fa", "fi", "fo", "fr", "gl", "gu", "ha", "he", "hi", "hr", "ht", "hu", "hy", "id", "is", "it", "ja", "jw", "ka", "kk", "km", "kn",
-            "ko", "la", "lb", "ln", "lo", "lt", "lv", "mg", "mi", "mk", "ml", "mn", "mr", "ms", "mt", "my", "ne", "nl", "nn", "no", "oc", "pa",
-            "pl", "ps", "pt", "ro", "ru", "sa", "sd", "si", "sk", "sl", "sn", "so", "sq", "sr", "su", "sv", "sw", "ta", "te", "tg", "th", "tk",
-            "tl", "tr", "tt", "uk", "ur", "uz", "vi", "yi", "yo", "zh", "yue",
-        )
-
-        fun whisperCode(code: String): String? = (if (code == "nb") "no" else code).takeIf { it in LANGUAGES }
+        fun whisperCode(code: String): String? = WhisperLanguages.code(code)
     }
 }

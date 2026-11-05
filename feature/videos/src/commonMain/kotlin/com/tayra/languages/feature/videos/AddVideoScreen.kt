@@ -43,7 +43,11 @@ import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.runtime.remember
 import androidx.compose.ui.draw.clip
 import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.domain.media.TranscriptionModel
+import com.tayra.languages.core.domain.media.TranscriptionStage
+import com.tayra.languages.core.ui.components.AppProgressBar
 import com.tayra.languages.core.ui.components.AppSpinner
+import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.components.Segment
 import com.tayra.languages.core.ui.components.SegmentedToggle
 import com.tayra.languages.core.ui.components.SpinnerSize
@@ -96,6 +100,10 @@ fun AddVideoScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onAdded: (Lo
                 onTranslationUrl = viewModel::setTranslationUrl,
                 onFetch = viewModel::fetchSubtitles,
                 onClearTranslation = viewModel::clearTranslation,
+                onInstallModel = viewModel::installModel,
+                onRemoveModel = viewModel::removeModel,
+                onTranscribe = viewModel::transcribe,
+                onCancelTranscription = viewModel::cancelTranscription,
                 onTitle = viewModel::setTitle,
                 onAdd = viewModel::add,
             ),
@@ -117,6 +125,10 @@ internal class AddVideoActions(
     val onTranslationUrl: (String) -> Unit = {},
     val onFetch: (asTranslation: Boolean) -> Unit = {},
     val onClearTranslation: () -> Unit = {},
+    val onInstallModel: (TranscriptionModel) -> Unit = {},
+    val onRemoveModel: (TranscriptionModel) -> Unit = {},
+    val onTranscribe: () -> Unit = {},
+    val onCancelTranscription: () -> Unit = {},
     val onTitle: (String) -> Unit = {},
     val onAdd: () -> Unit = {},
 )
@@ -167,6 +179,7 @@ private fun LinkForm(state: AddVideoUiState, actions: AddVideoActions) {
         onPick = actions.onPickSubtitles,
         onUrl = actions.onSubtitlesUrl,
         onFetch = { actions.onFetch(false) },
+        extra = if (state.transcription.offered) ({ WhisperSection(state, actions) }) else null,
     )
     SubtitlesCard(
         title = tr("Translation (optional)"),
@@ -194,6 +207,7 @@ private fun SubtitlesCard(
     onUrl: (String) -> Unit,
     onFetch: () -> Unit,
     onClear: (() -> Unit)? = null,
+    extra: (@Composable () -> Unit)? = null,
 ) {
     val colors = MaterialTheme.colorScheme
     AppCard(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -209,6 +223,68 @@ private fun SubtitlesCard(
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             AppTextField(url, onUrl, Modifier.weight(1f).testTag("$tag-url"), singleLine = true, placeholder = { Text("https://…/subtitles.vtt") })
             SecondaryButton(tr("Fetch"), onClick = onFetch, enabled = url.isNotBlank() && !fetching, loading = fetching, modifier = Modifier.testTag("fetch-$tag"))
+        }
+        extra?.invoke()
+    }
+}
+
+/** Whisper, offered for a link without subtitles: a model to download first, then the transcription and its progress. */
+@Composable
+private fun WhisperSection(state: AddVideoUiState, actions: AddVideoActions) {
+    val colors = MaterialTheme.colorScheme
+    val t = state.transcription
+    Text(tr("Or let Whisper write them down"), style = AppText.label, modifier = Modifier.padding(top = AppSpacing.s))
+    Text(
+        tr("Whisper listens to the video on this device and writes down what is said. A long video takes a while."),
+        style = MaterialTheme.typography.bodySmall,
+        color = colors.onSurfaceVariant,
+    )
+    when {
+        t.running -> Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s), modifier = Modifier.testTag("transcription-progress")) {
+            AppProgressBar(t.fraction)
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                val stage = if (t.stage == TranscriptionStage.SPEECH) tr("Writing down what is said…") else tr("Reading the video's sound…")
+                val percent = t.fraction?.let { " ${(it * 100).toInt()}%" }.orEmpty()
+                Text(stage + percent, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f))
+                QuietButton(tr("Cancel"), onClick = actions.onCancelTranscription, modifier = Modifier.testTag("cancel-transcription"))
+            }
+        }
+        t.ready -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            SecondaryButton(
+                tr("Transcribe with Whisper"),
+                onClick = actions.onTranscribe,
+                enabled = state.link.url != null,
+                icon = AppIcons.Mic,
+                modifier = Modifier.testTag("transcribe"),
+            )
+            t.models.firstOrNull { it.installed }?.let { model ->
+                Text(model.name, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f, fill = false))
+                QuietButton(tr("Remove"), onClick = { actions.onRemoveModel(model) }, modifier = Modifier.testTag("remove-${model.id}"))
+            }
+        }
+        else -> Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            Text(tr("Download a Whisper model first; it stays on this device."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            t.models.forEach { model ->
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    Column(Modifier.weight(1f)) {
+                        Text(model.name, style = MaterialTheme.typography.bodyMedium)
+                        Text(
+                            listOfNotNull(formatSize(model.downloadSize), model.note.takeIf { it.isNotBlank() }?.let { tr(it) }).joinToString(" · "),
+                            style = MaterialTheme.typography.bodySmall,
+                            color = colors.onSurfaceVariant,
+                        )
+                    }
+                    SecondaryButton(
+                        tr("Download"),
+                        onClick = { actions.onInstallModel(model) },
+                        enabled = t.installing == null,
+                        loading = t.installing == model.id,
+                        icon = AppIcons.Download,
+                        modifier = Modifier.testTag("install-${model.id}"),
+                    )
+                }
+            }
+            t.installProgress?.takeIf { t.installing != null }?.let { Text(tr(it), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
         }
     }
 }

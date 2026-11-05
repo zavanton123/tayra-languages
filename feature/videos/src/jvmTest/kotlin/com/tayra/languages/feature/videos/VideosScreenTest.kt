@@ -48,6 +48,9 @@ import kotlin.test.assertEquals
 import kotlin.test.assertIs
 import kotlin.test.assertNotNull
 import kotlin.test.assertTrue
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.test.assertIsNotEnabled
 
 @OptIn(ExperimentalTestApi::class)
 class VideosScreenTest {
@@ -190,6 +193,80 @@ class VideosScreenTest {
         add.fetchSubtitles(asTranslation = true)
         while (add.state.value.error == null && System.currentTimeMillis() - start < 10_000) Thread.sleep(20)
         assertEquals("The subtitles could not be fetched.", add.state.value.error)
+    }
+
+    /** Whisper as a test sees it: one model to download, and the lines it "hears" in any video. */
+    private class FakeTranscriber : com.tayra.languages.core.domain.media.VideoTranscriber {
+        var installed = false
+        val stages = mutableListOf<com.tayra.languages.core.domain.media.TranscriptionStage>()
+        override val installProgress = kotlinx.coroutines.flow.MutableStateFlow<String?>(null)
+        override suspend fun models() = listOf(com.tayra.languages.core.domain.media.TranscriptionModel("small", "Whisper small", 486_000_000, installed, "Quicker"))
+        override suspend fun install(model: com.tayra.languages.core.domain.media.TranscriptionModel) { installed = true }
+        override suspend fun remove(model: com.tayra.languages.core.domain.media.TranscriptionModel) { installed = false }
+        override suspend fun transcribe(url: String, languageCode: String, onProgress: (com.tayra.languages.core.domain.media.TranscriptionStage, Float?) -> Unit): List<com.tayra.languages.core.domain.media.Cue> {
+            if (url.endsWith("silent.mp4")) throw com.tayra.languages.core.domain.media.TranscriptionException("The video has no sound.")
+            onProgress(com.tayra.languages.core.domain.media.TranscriptionStage.AUDIO, 0.5f).also { stages += com.tayra.languages.core.domain.media.TranscriptionStage.AUDIO }
+            onProgress(com.tayra.languages.core.domain.media.TranscriptionStage.SPEECH, 1f).also { stages += com.tayra.languages.core.domain.media.TranscriptionStage.SPEECH }
+            return listOf(com.tayra.languages.core.domain.media.Cue(500, 2_000, "O coelho acorda."), com.tayra.languages.core.domain.media.Cue(2_300, 4_000, "Ele vê uma borboleta."))
+        }
+    }
+
+    private fun waitFor(timeoutMs: Long = 5_000, done: () -> Boolean) {
+        val start = System.currentTimeMillis()
+        while (!done() && System.currentTimeMillis() - start < timeoutMs) Thread.sleep(20)
+    }
+
+    @Test
+    fun whisperWritesDownALinksSubtitlesOnceAModelIsDownloaded() = runBlocking {
+        val whisper = FakeTranscriber()
+        val web = io.ktor.client.HttpClient(io.ktor.client.engine.mock.MockEngine { respond("", io.ktor.http.HttpStatusCode.NotFound) })
+        val add = AddVideoViewModel(service, videos, settings, languages, com.tayra.languages.core.data.media.SubtitleDownloader(web), whisper)
+        waitFor { add.state.value.transcription.models.isNotEmpty() }
+        assertTrue(add.state.value.transcription.offered)
+        assertTrue(!add.state.value.transcription.ready)
+        add.installModel(add.state.value.transcription.models.single())
+        waitFor { add.state.value.transcription.ready }
+        add.setOrigin(VideoOrigin.LINK)
+        add.setLinkInput("https://videos.example/silent.mp4")
+        add.transcribe()
+        waitFor { add.state.value.error != null }
+        assertEquals("The video has no sound.", add.state.value.error)
+        add.setLinkInput("https://videos.example/Coelho.mp4")
+        add.transcribe()
+        waitFor { add.state.value.link.subtitles != null && !add.state.value.transcription.running }
+        assertEquals(listOf(com.tayra.languages.core.domain.media.TranscriptionStage.AUDIO, com.tayra.languages.core.domain.media.TranscriptionStage.SPEECH), whisper.stages)
+        assertEquals("Whisper", add.state.value.link.subtitles?.name)
+        add.add()
+        val id = assertIs<AddVideoEvent.Added>(add.events.flow.first()).bookId
+        assertEquals(com.tayra.languages.core.domain.media.SubtitleKind.TRANSCRIBED, videos.video(id)!!.subtitleKind)
+        assertEquals("O coelho acorda.", videos.cues(id).first().cue.text)
+    }
+
+    @Test
+    fun theWhisperSectionOffersADownloadThenTheTranscriptionAndItsProgress() = runDesktopComposeUiTest(width = 1000, height = 1400) {
+        val model = com.tayra.languages.core.domain.media.TranscriptionModel("small", "Whisper small", 486_000_000, installed = false, note = "Quicker")
+        var state by androidx.compose.runtime.mutableStateOf(
+            AddVideoUiState(origin = VideoOrigin.LINK, link = LinkPick(input = "https://v.example/a.mp4", url = "https://v.example/a.mp4"), transcription = TranscriptionPick(offered = true, models = listOf(model))),
+        )
+        val asked = mutableListOf<String>()
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    AddVideoContent(state, AddVideoActions(onInstallModel = { asked += "install ${it.id}" }, onTranscribe = { asked += "transcribe" }, onCancelTranscription = { asked += "cancel" }))
+                }
+            }
+        }
+        onNodeWithText("486.0 MB · Quicker").assertExists()
+        onNodeWithTag("install-small").performClick()
+        state = state.copy(transcription = state.transcription.copy(models = listOf(model.copy(installed = true))))
+        waitForIdle()
+        onNodeWithTag("transcribe").performClick()
+        state = state.copy(transcription = state.transcription.copy(running = true, stage = com.tayra.languages.core.domain.media.TranscriptionStage.SPEECH, fraction = 0.42f))
+        waitForIdle()
+        onNodeWithText("Writing down what is said… 42%").assertExists()
+        onNodeWithTag("add-video-confirm").assertIsNotEnabled()
+        onNodeWithTag("cancel-transcription").performClick()
+        assertEquals(listOf("install small", "transcribe", "cancel"), asked)
     }
 
     @Test

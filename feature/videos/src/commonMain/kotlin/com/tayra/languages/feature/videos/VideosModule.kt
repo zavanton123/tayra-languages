@@ -11,7 +11,7 @@ import org.koin.dsl.module
 
 val videosModule = module {
     viewModel { VideosViewModel(get(), get(), get(), get()) }
-    viewModel { AddVideoViewModel(get(), get(), get(), get(), SubtitleDownloader(get())) }
+    viewModel { AddVideoViewModel(get(), get(), get(), get(), SubtitleDownloader(get()), getOrNull()) }
     viewModel { (bookId: Long) -> WatchViewModel(bookId, get(), get(), get(), get(), get(), get(), get()) }
 }
 
