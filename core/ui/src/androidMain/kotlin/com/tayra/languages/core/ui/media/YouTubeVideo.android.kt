@@ -29,7 +29,7 @@ import kotlinx.serialization.json.JsonNull
 import kotlinx.serialization.json.JsonPrimitive
 import kotlin.coroutines.resume
 
-/** A YouTube video in YouTube's embedded player, in a web view. */
+/** A YouTube video in a web view: in YouTube's embedded player, or on its own page where it refuses that. */
 @Composable
 internal fun YouTubeVideo(source: VideoSource.YouTube, onController: (VideoController) -> Unit, modifier: Modifier) {
     val context = LocalContext.current

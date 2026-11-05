@@ -40,15 +40,22 @@ import platform.Foundation.NSMutableURLRequest
 import platform.Foundation.NSNotificationCenter
 import platform.Foundation.NSOperationQueue
 import platform.Foundation.NSURL
+import platform.Foundation.NSURLRequest
 import platform.Foundation.setValue
+import platform.UIKit.UIApplication
 import platform.WebKit.WKAudiovisualMediaTypeNone
+import platform.WebKit.WKNavigationAction
+import platform.WebKit.WKNavigationActionPolicy
+import platform.WebKit.WKNavigationDelegateProtocol
 import platform.WebKit.WKScriptMessage
 import platform.WebKit.WKScriptMessageHandlerProtocol
+import platform.WebKit.WKUIDelegateProtocol
 import platform.WebKit.WKUserContentController
 import platform.WebKit.WKUserScript
 import platform.WebKit.WKUserScriptInjectionTime
 import platform.WebKit.WKWebView
 import platform.WebKit.WKWebViewConfiguration
+import platform.WebKit.WKWindowFeatures
 import platform.darwin.NSObject
 import platform.darwin.NSObjectProtocol
 import kotlin.coroutines.resume
@@ -142,7 +149,7 @@ private class AvVideoController(address: String) : VideoController {
     }
 }
 
-/** A YouTube video in YouTube's embedded player, in a web view. */
+/** A YouTube video in a web view: in YouTube's embedded player, or on its own page where it refuses that. */
 @OptIn(ExperimentalForeignApi::class)
 @Composable
 private fun YouTubeVideo(source: VideoSource.YouTube, onController: (VideoController) -> Unit, modifier: Modifier) {
@@ -167,9 +174,42 @@ private class PageMessages(private val onText: (String) -> Unit) : NSObject(), W
     }
 }
 
+/** An advert's links go to the browser, or they would take the player's place. */
+private class PageLinks : NSObject(), WKNavigationDelegateProtocol, WKUIDelegateProtocol {
+    private fun leaves(url: NSURL?) = url != null && !YouTubeScripts.staysInPlayer(url.host, url.path)
+
+    private fun openInBrowser(url: NSURL?) {
+        url?.let { UIApplication.sharedApplication.openURL(it, options = emptyMap<Any?, Any>(), completionHandler = null) }
+    }
+
+    override fun webView(webView: WKWebView, decidePolicyForNavigationAction: WKNavigationAction, decisionHandler: (WKNavigationActionPolicy) -> Unit) {
+        val url = decidePolicyForNavigationAction.request.URL
+        val mainFrame = decidePolicyForNavigationAction.targetFrame?.mainFrame == true
+        if (mainFrame && leaves(url)) {
+            openInBrowser(url)
+            decisionHandler(WKNavigationActionPolicy.WKNavigationActionPolicyCancel)
+        } else {
+            decisionHandler(WKNavigationActionPolicy.WKNavigationActionPolicyAllow)
+        }
+    }
+
+    /** A link that asks for a window of its own. */
+    override fun webView(
+        webView: WKWebView,
+        createWebViewWithConfiguration: WKWebViewConfiguration,
+        forNavigationAction: WKNavigationAction,
+        windowFeatures: WKWindowFeatures,
+    ): WKWebView? {
+        openInBrowser(forNavigationAction.request.URL)
+        return null
+    }
+}
+
 @OptIn(ExperimentalForeignApi::class)
-private class WebKitYouTubeController(scope: CoroutineScope, source: VideoSource.YouTube) : WebYouTubeController(scope) {
+private class WebKitYouTubeController(scope: CoroutineScope, private val source: VideoSource.YouTube) : WebYouTubeController(scope) {
     private val messages = PageMessages { onMessage(it) }
+    private val links = PageLinks()
+    private var onWatchPage = source.id in embedRefused
 
     val web: WKWebView = run {
         val config = WKWebViewConfiguration()
@@ -184,9 +224,38 @@ private class WebKitYouTubeController(scope: CoroutineScope, source: VideoSource
     }
 
     init {
-        val request = NSMutableURLRequest.requestWithURL(NSURL(string = YouTubeScripts.embedUrl(source.id, source.language)))
-        request.setValue(YouTubeScripts.REFERRER, forHTTPHeaderField = "Referer")
-        web.loadRequest(request)
+        web.navigationDelegate = links
+        web.UIDelegate = links
+        if (onWatchPage) {
+            loadWatchPage()
+        } else {
+            val request = NSMutableURLRequest.requestWithURL(NSURL(string = YouTubeScripts.embedUrl(source.id, source.language)))
+            request.setValue(YouTubeScripts.REFERRER, forHTTPHeaderField = "Referer")
+            web.loadRequest(request)
+        }
+    }
+
+    override fun openWatchPage(): Boolean {
+        if (onWatchPage) return false
+        onWatchPage = true
+        embedRefused += source.id
+        loadWatchPage()
+        return true
+    }
+
+    override fun reloadWatchPage(): Boolean {
+        if (!onWatchPage) return false
+        web.reload()
+        return true
+    }
+
+    /** As a computer: YouTube's mobile site covers its player with a dialog about its app. */
+    private fun loadWatchPage() {
+        web.configuration.userContentController.addUserScript(
+            WKUserScript(source = YouTubeScripts.watchPage(source.id), injectionTime = WKUserScriptInjectionTime.WKUserScriptInjectionTimeAtDocumentStart, forMainFrameOnly = true),
+        )
+        web.customUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15"
+        web.loadRequest(NSURLRequest.requestWithURL(NSURL(string = YouTubeScripts.watchUrl(source.id, source.language))))
     }
 
     override suspend fun evaluate(script: String): String? = suspendCancellableCoroutine { done ->

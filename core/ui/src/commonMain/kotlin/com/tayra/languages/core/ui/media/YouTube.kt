@@ -333,6 +333,12 @@ object YouTubeScripts {
           if (window.__tayraWatch) return;
           window.__tayraWatch = true;
           window.__tayraHold = true;
+          // An iPhone takes a video to its own full screen when it starts, unless told otherwise; this page doesn't.
+          var play = HTMLMediaElement.prototype.play;
+          HTMLMediaElement.prototype.play = function () {
+            this.setAttribute('playsinline', '');
+            return play.apply(this, arguments);
+          };
           var style = document.createElement('style');
           style.textContent =
             'html, body { overflow: hidden !important; background: #000 !important; }' +
