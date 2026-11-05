@@ -64,7 +64,7 @@ class PersonalSchedulingTest {
         val random = Random(seed)
         val fsrs = Fsrs(truth)
         return (0 until count).map { n ->
-            val termId = terms.save(Term(languageId = languageId, text = "w$n", textLc = "w$n", status = TermStatus.NEW_1))
+            val termId = terms.save(Term(languageId = languageId, text = "w$n", textLc = "w$n", status = TermStatus.NEW_1, sentence = "Uma frase com w$n."))
             cards.reconcile(clock.now())
             val reviews = mutableListOf<FlashcardReview>()
             var day = random.nextInt(days / 3)

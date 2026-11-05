@@ -408,7 +408,7 @@ class FlashcardsScreenTest {
         show(moreTerms = { id ->
             val now = Clock.System.now()
             repeat(31) { n ->
-                val word = terms.save(Term(languageId = id, text = "palavra$n", textLc = "palavra$n", status = TermStatus.NEW_2, translation = "слово"))
+                val word = terms.save(Term(languageId = id, text = "palavra$n", textLc = "palavra$n", status = TermStatus.NEW_2, translation = "слово", sentence = "Uma frase com palavra$n."))
                 repository.reconcile(now)
                 val card = repository.get(word)!!
                 repository.save(card.copy(schedule = CardSchedule(CardState.REVIEW, now - 2.days, MemoryState(3.0 + n, 5.0), 3, 0, 2, 0, now - 5.days)))

@@ -61,7 +61,7 @@ class BackupTest {
     fun aBackupCarriesTheFlashcardsAndTheirSettings() = runBlocking<Unit> {
         val env = Env()
         val language = env.languages.save(Language(name = "Portuguese"))
-        val lobo = env.terms.save(Term(languageId = language, text = "lobo", textLc = "lobo", status = TermStatus.NEW_1, translation = "wolf"))
+        val lobo = env.terms.save(Term(languageId = language, text = "lobo", textLc = "lobo", status = TermStatus.NEW_1, translation = "wolf", sentence = "Uma frase com lobo."))
         val flashcards = FlashcardService(FlashcardRepositoryImpl(env.provider), env.terms, env.settings)
         env.settings.update { it.copy(flashcardNewPerDay = 7, flashcardLearnSteps = "5m") }
         flashcards.answer(flashcards.next(language).card!!, Rating.EASY)

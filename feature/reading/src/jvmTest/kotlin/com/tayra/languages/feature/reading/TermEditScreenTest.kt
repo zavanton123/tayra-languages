@@ -145,7 +145,7 @@ class TermEditScreenTest {
         val terms = TermRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
         val languageId = runBlocking { languages.save(Language(name = "Portuguese")) }
-        val termId = runBlocking { terms.save(Term(languageId = languageId, text = word, textLc = word, status = TermStatus.NEW_1, translation = "week")) }
+        val termId = runBlocking { terms.save(Term(languageId = languageId, text = word, textLc = word, status = TermStatus.NEW_1, translation = "week", sentence = "Uma frase com $word.")) }
         val examples = listOf(
             ExampleSentence(text = "Quantas vezes por semana tu te banhas?", translation = null),
             ExampleSentence(text = "Tom lê vários livros por semana.", translation = null),

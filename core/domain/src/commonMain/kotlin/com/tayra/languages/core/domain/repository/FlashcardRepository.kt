@@ -10,11 +10,14 @@ import kotlin.time.Instant
 
 interface FlashcardRepository {
     /**
-     * Brings the cards in line with the terms: every term at status 1 to 4 has a card, which then
+     * Brings the cards in line with the terms: every term at status 1 to 4 with a sentence has a card, which then
      * stays whatever status is set by hand and goes only with its term. Writes only when something
      * is out of line.
      */
     suspend fun reconcile(now: Instant)
+
+    /** The terms whose cards have no sentence to ask their word in. */
+    suspend fun wordOnly(): Set<Long>
 
     suspend fun get(termId: Long): Flashcard?
 

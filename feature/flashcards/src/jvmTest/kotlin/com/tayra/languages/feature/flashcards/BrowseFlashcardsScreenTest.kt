@@ -117,8 +117,8 @@ class BrowseFlashcardsScreenTest {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id, nativeLanguage = "ru") }
             comprar = terms.save(Term(languageId = id, text = "comprar", textLc = "comprar", status = TermStatus.NEW_1, translation = "купить", sentence = "Vou comprar pão."))
-            casa = terms.save(Term(languageId = id, text = "casa", textLc = "casa", status = TermStatus.NEW_1, translation = "дом"))
-            livro = terms.save(Term(languageId = id, text = "livro", textLc = "livro", status = TermStatus.NEW_1, translation = "книга"))
+            casa = terms.save(Term(languageId = id, text = "casa", textLc = "casa", status = TermStatus.NEW_1, translation = "дом", sentence = "Uma frase com casa."))
+            livro = terms.save(Term(languageId = id, text = "livro", textLc = "livro", status = TermStatus.NEW_1, translation = "книга", sentence = "Uma frase com livro."))
             service.answer(service.next(id, prefer = casa).card!!, Rating.EASY, AnswerMode.TYPE)
             service.setSuspended(livro, true)
             id
@@ -395,7 +395,7 @@ class BrowseFlashcardsScreenTest {
     /** The sentence the card is built on can be changed in the card info, in place. */
     @Test
     fun theSentenceIsEditedInTheCardInfo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = show()
+        val viewModel = show(before = { runBlocking { terms.updateSentence(casa, null) } })
         onNodeWithTag("browse-row-$casa").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("sentence-edit").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Add a sentence").performClick()
@@ -433,7 +433,7 @@ class BrowseFlashcardsScreenTest {
         val viewModel = show(before = {
             runBlocking {
                 val id = settings.current.currentLanguageId
-                (1..30).forEach { n -> terms.save(Term(languageId = id, text = "palavra$n", textLc = "palavra$n", status = TermStatus.NEW_1, translation = "слово")) }
+                (1..30).forEach { n -> terms.save(Term(languageId = id, text = "palavra$n", textLc = "palavra$n", status = TermStatus.NEW_1, translation = "слово", sentence = "Uma frase com palavra$n.")) }
             }
             // The cards of the new words are made when the browser loads.
         })

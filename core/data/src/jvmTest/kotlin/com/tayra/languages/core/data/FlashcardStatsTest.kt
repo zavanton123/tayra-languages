@@ -50,7 +50,7 @@ class FlashcardStatsTest {
     private fun at(daysAgo: Int, hour: Int, minute: Int = 0) = Instant.parse("2026-10-20T00:00:00Z") - daysAgo.days + hour.hours + minute.minutes
 
     private suspend fun card(languageId: Long, text: String, schedule: CardSchedule?, suspended: Boolean = false): Long {
-        val id = terms.save(Term(languageId = languageId, text = text, textLc = text, status = TermStatus.NEW_1))
+        val id = terms.save(Term(languageId = languageId, text = text, textLc = text, status = TermStatus.NEW_1, sentence = "Uma frase com $text."))
         cards.reconcile(now)
         val card = cards.get(id)!!
         cards.save(card.copy(schedule = schedule ?: card.schedule, suspended = suspended))

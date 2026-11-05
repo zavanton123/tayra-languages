@@ -127,7 +127,7 @@ class AnkiImportServiceTest {
     @Test
     fun savedWordsTakeAnkisScheduleAndKeepWhatTheyAre() = runTest {
         val pt = portuguese()
-        val lobo = terms.save(Term(languageId = pt, text = "lobo", textLc = "lobo", status = TermStatus.NEW_1))
+        val lobo = terms.save(Term(languageId = pt, text = "lobo", textLc = "lobo", status = TermStatus.NEW_1, sentence = "Uma frase com lobo."))
         val casa = terms.save(Term(languageId = pt, text = "casa", textLc = "casa", status = TermStatus.WELL_KNOWN))
         val gato = terms.save(Term(languageId = pt, text = "gato", textLc = "gato", status = TermStatus.UNKNOWN))
         // Lobo has a card answered here, which keeps the day it was made and its answer.

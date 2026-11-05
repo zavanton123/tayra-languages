@@ -150,7 +150,7 @@ SELECT
     (SELECT count(*) FROM flashcards f WHERE NOT EXISTS (SELECT 1 FROM terms t WHERE t.id = f.term_id))
     + (SELECT count(*) FROM flashcard_reviews r WHERE NOT EXISTS (SELECT 1 FROM terms t WHERE t.id = r.term_id))
     + (SELECT count(*) FROM flashcards f INNER JOIN terms t ON t.id = f.term_id WHERE t.status != f.seen_status)
-    + (SELECT count(*) FROM terms t WHERE t.status IN (1, 2, 3, 4) AND NOT EXISTS (SELECT 1 FROM flashcards f WHERE f.term_id = t.id)
+    + (SELECT count(*) FROM terms t WHERE t.status IN (1, 2, 3, 4) AND t.sentence IS NOT NULL AND trim(t.sentence) != '' AND NOT EXISTS (SELECT 1 FROM flashcards f WHERE f.term_id = t.id)
         AND t.id NOT IN (SELECT tp.term_id FROM term_parents tp INNER JOIN terms p ON p.id = tp.parent_id WHERE p.status IN (1, 2, 3, 4)))
     + (SELECT count(*) FROM flashcards f WHERE f.term_id IN (SELECT tp.term_id FROM term_parents tp INNER JOIN terms p ON p.id = tp.parent_id WHERE p.status IN (1, 2, 3, 4))
         AND NOT EXISTS (SELECT 1 FROM flashcard_reviews r WHERE r.term_id = f.term_id));
@@ -169,12 +169,12 @@ WHERE EXISTS (SELECT 1 FROM terms t WHERE t.id = flashcards.term_id AND t.status
 
 -- New cards queue in the order their terms were added. A card is made when the word is next looked at, so it
 -- dates from the word's move to learning. A form whose parent is being learned too is learned with the parent's
--- card and gets none of its own.
+-- card and gets none of its own. A card asks its word in a sentence, so a word without one waits for one.
 createMissing:
 INSERT INTO flashcards(term_id, state, due, seen_status, created_at)
 SELECT t.id, 0, t.created_at, t.status, t.status_changed_at
 FROM terms t
-WHERE t.status IN (1, 2, 3, 4) AND t.id NOT IN (SELECT term_id FROM flashcards)
+WHERE t.status IN (1, 2, 3, 4) AND t.sentence IS NOT NULL AND trim(t.sentence) != '' AND t.id NOT IN (SELECT term_id FROM flashcards)
     AND t.id NOT IN (SELECT tp.term_id FROM term_parents tp INNER JOIN terms p ON p.id = tp.parent_id WHERE p.status IN (1, 2, 3, 4));
 
 -- A form's own card made before its parent was being learned goes once the parent is, unless it was ever
@@ -182,6 +182,10 @@ WHERE t.status IN (1, 2, 3, 4) AND t.id NOT IN (SELECT term_id FROM flashcards)
 retireFamilyCards:
 DELETE FROM flashcards WHERE term_id IN (SELECT tp.term_id FROM term_parents tp INNER JOIN terms p ON p.id = tp.parent_id WHERE p.status IN (1, 2, 3, 4))
     AND NOT EXISTS (SELECT 1 FROM flashcard_reviews r WHERE r.term_id = flashcards.term_id);
+
+-- The cards whose words have no sentence to be asked in; left out until they have one.
+wordOnly:
+SELECT f.term_id FROM flashcards f INNER JOIN terms t ON t.id = f.term_id WHERE t.sentence IS NULL OR trim(t.sentence) = '';
 
 -- Changes whenever terms, cards or reviews are written; observed to refresh what is due.
 changeMarker:

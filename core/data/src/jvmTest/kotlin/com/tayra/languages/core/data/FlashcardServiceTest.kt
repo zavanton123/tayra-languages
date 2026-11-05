@@ -63,7 +63,7 @@ class FlashcardServiceTest {
 
     private suspend fun term(languageId: Long, text: String, status: TermStatus = TermStatus.NEW_1): Long {
         clock.advance(1.minutes)
-        return terms.save(Term(languageId = languageId, text = text, textLc = text, status = status, translation = "<$text>"))
+        return terms.save(Term(languageId = languageId, text = text, textLc = text, status = status, translation = "<$text>", sentence = "Uma frase com $text."))
     }
 
     private suspend fun status(id: Long) = terms.getById(id)!!.status
@@ -727,5 +727,46 @@ class FlashcardServiceTest {
         settings.update { it.copy(flashcardMaxInterval = 2) }
         val outcomes = service.next(id).outcomes
         assertTrue(outcomes.values.all { it.intervalDays <= 2 })
+    }
+
+    @Test
+    fun aWordWithoutASentenceHasNoCardUntilItHasOne() = runTest {
+        val language = languages.save(Language(name = "Portuguese"))
+        val lobo = terms.save(Term(languageId = language, text = "lobo", textLc = "lobo", status = TermStatus.NEW_1))
+
+        assertNull(service.next(language).card)
+        assertNull(cards.get(lobo))
+
+        terms.fillSentence(lobo, "O lobo dorme.", null, null)
+        assertEquals(lobo, service.next(language).card?.termId)
+    }
+
+    @Test
+    fun aCardWithoutASentenceIsLeftOutUntilItHasOne() = runTest {
+        val language = languages.save(Language(name = "Portuguese"))
+        val lobo = term(language, "lobo")
+        assertEquals(lobo, service.next(language).card?.termId)
+        terms.updateSentence(lobo, null)
+
+        assertNull(service.next(language).card, "no card asks a word alone")
+        assertEquals(0, service.counts(language).total)
+        assertEquals(emptyList(), service.sessionTerms(language).map { it.id })
+        assertEquals(emptyList(), service.extraCards(language, ExtraStudy.Ahead(1)))
+        assertEquals(listOf(lobo), service.browse(language).cards.map { it.card.termId }, "still listed, to give it a sentence by hand")
+
+        terms.fillSentence(lobo, "O lobo dorme.", null, null)
+        assertEquals(lobo, service.next(language).card?.termId)
+    }
+
+    @Test
+    fun aWordMarkedKnownByHandKeepsTheSentenceItsCardAsksIn() = runTest {
+        val language = languages.save(Language(name = "Portuguese"))
+        val lobo = term(language, "lobo")
+        assertEquals(lobo, service.next(language).card?.termId)
+
+        termService.setStatus(listOf(lobo), TermStatus.WELL_KNOWN)
+
+        assertEquals("Uma frase com lobo.", terms.getById(lobo)?.sentence)
+        assertEquals(lobo, service.next(language).card?.termId)
     }
 }

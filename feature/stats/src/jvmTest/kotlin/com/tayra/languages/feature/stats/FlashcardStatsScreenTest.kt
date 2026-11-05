@@ -64,7 +64,7 @@ class FlashcardStatsScreenTest {
         val cards = FlashcardRepositoryImpl(provider)
         val random = Random(9)
         repeat(60) { n ->
-            val term = terms.save(Term(languageId = id, text = "palavra$n", textLc = "palavra$n", status = TermStatus.NEW_2))
+            val term = terms.save(Term(languageId = id, text = "palavra$n", textLc = "palavra$n", status = TermStatus.NEW_2, sentence = "Uma frase com palavra$n."))
             cards.reconcile(now)
             var day = random.nextInt(120)
             val reviews = mutableListOf(FlashcardReview(termId = term, at = now - day.days - 2.hours, rating = Rating.GOOD, stateBefore = CardState.NEW, intervalDays = 0, elapsedDays = 0, answerTime = 8.seconds))

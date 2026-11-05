@@ -33,6 +33,9 @@ import kotlin.time.Instant
  *
  * A status set by hand leaves the card as it is: a term marked known is still reviewed, as in
  * Anki, and its card goes only with the term.
+ *
+ * A card asks its word in a sentence: a word without one has no card yet, and a card that has
+ * lost its sentence is left out until [CardSentences] or the browser gives it one.
  */
 class FlashcardService(
     private val cards: FlashcardRepository,
@@ -124,7 +127,8 @@ class FlashcardService(
     }
 
     /** The terms whose cards were skipped until the next study day. */
-    private fun skipped(now: Instant, config: SchedulerConfig): Set<Long> = Skipped.of(settings.current.flashcardSkipped, scheduler.day(now, config))
+    private suspend fun skipped(now: Instant, config: SchedulerConfig): Set<Long> =
+        Skipped.of(settings.current.flashcardSkipped, scheduler.day(now, config)) + cards.wordOnly()
 
     /** Leaves the cards of [termIds] out until the next study day, their schedules as they are, as Anki buries a card. */
     suspend fun skip(termIds: Collection<Long>) {
@@ -146,7 +150,8 @@ class FlashcardService(
         cards.reconcile(now)
         val config = config()
         val today = scheduler.day(now, config)
-        val active = cards.list(languageId).filter { !it.suspended }
+        val wordOnly = cards.wordOnly()
+        val active = cards.list(languageId).filter { !it.suspended && it.termId !in wordOnly }
         return when (study) {
             is ExtraStudy.Ahead -> {
                 val by = scheduler.dayStart(today + study.days + 1, config)

@@ -71,7 +71,7 @@ class RetentionAdvisorTest {
     fun everyRetentionIsSimulatedAndTheMostEfficientSuggested() = runTest {
         val pt = languages.save(Language(name = "Portuguese"))
         repeat(80) { n ->
-            val id = terms.save(Term(languageId = pt, text = "w$n", textLc = "w$n", status = TermStatus.NEW_2))
+            val id = terms.save(Term(languageId = pt, text = "w$n", textLc = "w$n", status = TermStatus.NEW_2, sentence = "Uma frase com w$n."))
             cards.reconcile(now)
             val card = cards.get(id)!!
             cards.save(card.copy(schedule = CardSchedule(CardState.REVIEW, now + (n % 20).days, MemoryState(5.0 + n, 5.0), 5 + n % 20, 0, 4, 0, now - 3.days)))

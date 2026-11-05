@@ -70,7 +70,7 @@ class SessionSpeechTest {
         val id = languages.save(Language(name = "Portuguese"))
         settings.update { it.copy(currentLanguageId = id, speechEngine = SpeechEngine.PIPER) }
         terms.save(Term(languageId = id, text = "comprar", textLc = "comprar", status = TermStatus.NEW_1, sentence = "Vou comprar pão."))
-        terms.save(Term(languageId = id, text = "casa", textLc = "casa", status = TermStatus.NEW_1))
+        terms.save(Term(languageId = id, text = "casa", textLc = "casa", status = TermStatus.NEW_1, sentence = "Uma frase com casa."))
         return model()
     }
 
@@ -119,7 +119,7 @@ class SessionSpeechTest {
         val id = languages.save(Language(name = "Portuguese"))
         settings.update { it.copy(currentLanguageId = id, speechEngine = SpeechEngine.PIPER) }
         terms.save(Term(languageId = id, text = "comprar", textLc = "comprar", status = TermStatus.NEW_1, sentence = "Vou comprar pão."))
-        terms.save(Term(languageId = id, text = "casa", textLc = "casa", status = TermStatus.NEW_1))
+        terms.save(Term(languageId = id, text = "casa", textLc = "casa", status = TermStatus.NEW_1, sentence = "Uma frase com casa."))
         audio.audioFor("Vou comprar pão.", "pt")
         takes = 300
         val viewModel = model()
@@ -145,7 +145,7 @@ class SessionSpeechTest {
         takes = 100
         val viewModel = session()
         val id = settings.current.currentLanguageId
-        for (word in listOf("mesa", "porta", "janela", "livro")) terms.save(Term(languageId = id, text = word, textLc = word, status = TermStatus.NEW_1))
+        for (word in listOf("mesa", "porta", "janela", "livro")) terms.save(Term(languageId = id, text = word, textLc = word, status = TermStatus.NEW_1, sentence = "Uma frase com $word."))
         val busy = model()
         waitFor("the session to start") { !busy.state.value.preparingAudio }
         val before = made.size
@@ -159,11 +159,11 @@ class SessionSpeechTest {
         val viewModel = session()
 
         val deadline = System.currentTimeMillis() + 5_000
-        while (made.size < 3 && System.currentTimeMillis() < deadline) Thread.sleep(20)
-        // The sentence read when the first card's answer is shown, the second card's word (it has no sentence), then the first's word.
-        assertEquals(listOf("Vou comprar pão.", "casa", "comprar"), made.toList())
+        while (made.size < 4 && System.currentTimeMillis() < deadline) Thread.sleep(20)
+        // The sentence read when each card's answer is shown, then each one's word.
+        assertEquals(listOf("Vou comprar pão.", "Uma frase com casa.", "comprar", "casa"), made.toList())
         assertTrue(!viewModel.state.value.revealed, "no answer was shown")
         assertEquals("pt:Vou comprar pão.", audio.audioFor("Vou comprar pão.", "pt")?.decodeToString(), "the speaker finds it ready")
-        assertEquals(3, made.size, "found ready, not made again")
+        assertEquals(4, made.size, "found ready, not made again")
     }
 }

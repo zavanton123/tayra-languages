@@ -35,9 +35,9 @@ class ReadingWordsTest {
     @Test
     fun theWordsOnThePagesAheadInTheTextReadLast() = runTest {
         val pt = languages.save(Language(name = "Portuguese"))
-        val ids = pageWords.associateWith { terms.save(Term(languageId = pt, text = it, textLc = it, status = TermStatus.NEW_1)) }
+        val ids = pageWords.associateWith { terms.save(Term(languageId = pt, text = it, textLc = it, status = TermStatus.NEW_1, sentence = "Uma frase com $it.")) }
         // "gatos" is learned with "gato"'s card.
-        val gatos = terms.save(Term(languageId = pt, text = "gatos", textLc = "gatos", status = TermStatus.NEW_1))
+        val gatos = terms.save(Term(languageId = pt, text = "gatos", textLc = "gatos", status = TermStatus.NEW_1, sentence = "Uma frase com gatos."))
         terms.setParents(gatos, listOf(ids.getValue("gato")))
         cards.reconcile(Instant.parse("2026-10-01T10:00:00Z"))
 

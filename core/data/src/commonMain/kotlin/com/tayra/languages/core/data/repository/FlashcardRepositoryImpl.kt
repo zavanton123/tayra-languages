@@ -41,6 +41,10 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
         }
     }
 
+    override suspend fun wordOnly(): Set<Long> = withContext(databaseDispatcher) {
+        queries().wordOnly().awaitAsList().toSet()
+    }
+
     override suspend fun get(termId: Long): Flashcard? = withContext(databaseDispatcher) {
         queries().selectByTerm(termId).awaitAsOneOrNull()?.toFlashcard()
     }
