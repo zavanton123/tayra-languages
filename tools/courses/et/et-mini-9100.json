@@ -1,0 +1,199 @@
+{
+  "id": "et-mini-9100",
+  "rankUpTo": 9100,
+  "level": "C2",
+  "title": "Keemia ja materjalid",
+  "description": "Ten standalone stories about the chemistry of everyday materials: wood and tar, baking, plastics, fertiliser, textiles, soap and silver.",
+  "topic": "Chemistry and materials",
+  "names": [
+    "Saaremaa",
+    "Andres",
+    "Liis",
+    "Tartu",
+    "Hendrik",
+    "Pärnu",
+    "Tiiu",
+    "Indrek",
+    "Maarja",
+    "Peeter",
+    "Viljandi",
+    "Sandra",
+    "Tallinn",
+    "Narva",
+    "Martin",
+    "Võru",
+    "Helen",
+    "Liina",
+    "Priit",
+    "Priidu",
+    "Margus",
+    "Stockholm",
+    "Kertu",
+    "Haapsalu",
+    "Tiit",
+    "Erik",
+    "Eva",
+    "Iris",
+    "Laura",
+    "Otepää",
+    "Paul"
+  ],
+  "lessons": [
+    {
+      "title": "Tuuleveski ärkab",
+      "summary": "A master carpenter and a chemistry student restore an old windmill on Saaremaa with linseed oil, flax tow and a new oak threshold, and the sails turn again.",
+      "newWords": [
+        "tuuleveski",
+        "ennistama",
+        "konarlik",
+        "kõlbmatu",
+        "ukselävi",
+        "takk",
+        "kaalutlema",
+        "tõrges",
+        "õitseng"
+      ],
+      "text": "Saaremaal, ühe väikese küla serval, seisab vana tuuleveski. Sada aastat tagasi jahvatas see tuuleveski kogu küla vilja, kuid viimased viiskümmend aastat on ta seisnud tühjana. Möödunud kevadel otsustas küla selts tuuleveski ennistada. Tööd juhatama kutsuti meister Andres, kes on terve elu vanu puidust maju parandanud. Talle tuli appi Liis, kes õpib Tartus keemiat ja uurib, kuidas puit vananeb.\n\nEsimesel päeval käisid nad aeglaselt ümber veski. Seinad olid tumedad ja konarlikud, sest vihm, päike ja tuul olid puidu pinda aastakümneid kulutanud. Liis silitas konarlikku palki ja küsis, kas sellist puitu saab üldse ennistada. „Konarlik pind ei ole probleem,“ vastas Andres. „Palkide sees on puit terve. Aga mõni palk on kindlasti kõlbmatu ja selle peame välja vahetama.“\n\nKõige halvemas seisus oli ukselävi. Selle peal olid inimesed sada aastat seisnud, sinna oli kogunenud vett ja lund ning puit oli pehme nagu käsn. Andres surus kruvikeeraja ukseläve sisse ja see läks kergesti sügavale. „See ukselävi on täiesti kõlbmatu,“ ütles ta. „Siia tuleb uus lävi tammest.“\n\nLiis tahtis teada, miks üks palk mädaneb ja teine mitte. Andres selgitas, et puit mädaneb seente tõttu ja seened vajavad niiskust. Seepärast määriti vanasti palke õliga, mis pressiti lina seemnetest. See õli ei kuiva nagu vesi: ta võtab õhust hapnikku ja muutub kõvaks, nii et vesi ei pääse puidu sisse. Palkide vahele topiti takku – lühikest ja karedat lina kiudu, mis täidab praod ja hoiab tuule väljas. Ka takk kasteti enne õli sisse. „Kui takk kuivab ja pudeneb välja, hakkab tuul veskis vilistama,“ naeris Andres.\n\nLiis hakkas kaalutlema, kas kasutada vana õli või poest ostetud tänapäeva värvi. Ta luges palju artikleid, kaalutledes mõlema võimaluse häid ja halbu külgi. Värv katab puidu nagu kile ja jätab niiskuse palgi sisse kinni. Õli laseb puidul hingata ja niiskus pääseb välja. Lõpuks otsustasid nad koos, et kõige paremini kaalutletud valik on õli, nagu sada aastat tagasi.\n\nMuret tegi ka veski uks. See oli tõrges: kui Andres seda tõmbas, liikus uks vaid paar sentimeetrit ja jäi siis kinni. Ukse raudsed osad olid roostes. Liis selgitas, et niiskuse käes on raud kiiresti roostes, sest raud ja hapnik ühinevad ja moodustavad uue ühendi. Nad puhastasid raudsed osad harjaga ja määrisid need õliga. Tõrges uks hakkas jälle liikuma.\n\nÕhtuti luges Liis küla raamatukogus vanu kirjutisi. Veskite õitseng oli 19. sajandil, kui Saaremaal oli sadu tuuleveskeid ja peaaegu igal suuremal talul oli oma veski. Õitsengu lõpetasid 20. sajandil veskid, mis töötasid elektriga ega vajanud tuult.\n\nSeptembri lõpus oli töö tehtud. Uus ukselävi oli hele ja lõhnas õli järele, palkide vahel oli värske takk ja uks avanes kergelt. Ühel tuulisel pühapäeval tulid küla inimesed veski juurde ja vaatasid, kuidas suured tiivad jälle aeglaselt pöörlema hakkasid.\n\nKüsimused:\nKes kutsuti tuuleveskit ennistama?\nTööd juhatama kutsuti meister Andres ja talle tuli appi Liis, kes õpib keemiat.\nMiks oli vana ukselävi kõlbmatu?\nSinna oli kogunenud vett ja lund ning puit oli pehme nagu käsn.\nMilleks topiti palkide vahele takku?\nTakk täidab praod ja hoiab tuule väljas.\nMiks valiti värvi asemel õli?\nÕli laseb puidul hingata ja niiskus pääseb välja.\nMiks oli veski uks tõrges?\nUkse raudsed osad olid roostes, sest niiskuse käes moodustasid raud ja hapnik uue ühendi.\nMillal oli veskite õitseng?\nVeskite õitseng oli 19. sajandil."
+    },
+    {
+      "title": "Vanaema köök",
+      "summary": "A boy on holiday in Pärnu bakes almond biscuits with his grandmother, a retired chemistry teacher, who explains blanching, baking soda and browning.",
+      "newWords": [
+        "jõnglane",
+        "meisterdama",
+        "mandel",
+        "naljatilk",
+        "vaesekene",
+        "käterätt",
+        "lapsemäng",
+        "pikisilmi",
+        "märgatavalt"
+      ],
+      "text": "Hendrik on kaheksane jõnglane, kes veedab vaheaja Pärnus vanaema Tiiu juures. Vanaema Tiiu oli kolmkümmend aastat keemia õpetaja ja tema köök meenutab tänaseni väikest laborit: riiulil seisavad klaasist purgid ja kaal ning iga purgi peal on silt.\n\nÜhel vihmasel hommikul tahtis Hendrik midagi meisterdada. Eile oli ta meisterdanud papist laeva, aga täna tahtis ta teha midagi, mida saab pärast ära süüa. Vanaema pakkus, et nad küpsetavad koos küpsiseid mandlitega.\n\nKõigepealt tuli mandlid koorida. Vanaema valas kaussi kuuma vett, pani mandlid sinna ja ootas paar minutit. Siis võis pruuni koore sõrmedega kergelt maha lükata. Hendrik pigistas üht mandlit nii kõvasti, et see lendas üle köögi ja kukkus kassi kõrvale. Kass hüppas kiiresti toolile. „Vaesekene,“ ütles vanaema kassile. Siis vaatas ta Hendrikut. „Oled sa alles naljatilk,“ ütles ta naerdes ja ulatas talle käteräti, et ta saaks märjad sõrmed kuivaks pühkida.\n\nKooritud mandlid pandi puhta käteräti peale kuivama. Seejärel segasid nad kausis jahu, suhkru, või ja muna. Vanaema selgitas, et küpsetamine on päris keemia. „Me paneme taina sisse natuke soodat ja hapu piima,“ ütles ta. „Kui sooda ja hape kokku saavad, tekib gaas. Selle mullid jäävad taina sisse ja teevad taina kohevaks.“\n\nTa valas klaasi veidi äädikat ja lasi Hendrikul sinna lusika soodat panna. Klaasis tekkisid kohe mullid. „See on ju lapsemäng!“ hüüdis Hendrik. „Ei ole,“ vastas vanaema. „Kui soodat on liiga palju, maitseb iga küpsis nagu seep. Küpsetamine ei ole lapsemäng, vaid täpne töö.“\n\nKüpsiseid pandi ahju. Hendrik istus ahju ees põrandal ja ootas pikisilmi. Ta vaatas läbi ahju ukse klaasi, kuidas tainas märgatavalt kerkis ja servadest pruuniks läks. Vanaema selgitas, et kui suhkur ja muna kuumenevad, tekivad uued ained, mis annavad värvi ja lõhna. Samal põhjusel lõhnavad röstitud mandlid märgatavalt tugevamalt kui toored.\n\nKümne minuti pärast ütles Hendrik, et tal on kõht tühi. „Vaesekesel on kõht tühi,“ naeris vanaema ja andis talle klaasi piima ja peotäie mandleid. Hendrik sõi need ära ja ootas edasi pikisilmi.\n\nLõpuks oli iga küpsis valmis: pruun ja ümmargune ning keskel üks mandel. Hendrik pani kuus küpsist kaussi ja viis need naabrile. „Ise meisterdasin,“ ütles jõnglane uhkelt. „Vanaema aitas natuke keemiaga.“ Naaber naeris: „Üks naljatilk peaks olema igas majas.“\n\nKüsimused:\nKus veedab Hendrik vaheaja?\nTa veedab selle Pärnus vanaema Tiiu juures.\nKuidas said nad mandlitelt koore maha?\nNad panid mandlid kuuma vette ja lükkasid siis pruuni koore sõrmedega maha.\nMiks andis vanaema Hendrikule käteräti?\nTa andis selle, et Hendrik saaks märjad sõrmed kuivaks pühkida.\nMis juhtub, kui sooda ja hape kokku saavad?\nTekib gaas, mille mullid teevad taina kohevaks.\nMiks ei ole küpsetamine vanaema arvates lapsemäng?\nKui soodat on liiga palju, maitseb küpsis nagu seep.\nKellele viis Hendrik küpsiseid?\nTa viis kuus küpsist naabrile ja ütles, et meisterdas need ise."
+    },
+    {
+      "title": "Molekulid ekraanil",
+      "summary": "A programmer spends his Saturdays writing a program for his chemist sister that shows water molecules in slow motion, with velocity vectors, the angle of the molecule and the order of ice.",
+      "newWords": [
+        "programmeerija",
+        "laupäeviti",
+        "kujuteldamatu",
+        "aegluup",
+        "vektor",
+        "beeta",
+        "paigutus",
+        "ringlema",
+        "sumin"
+      ],
+      "text": "Indrek on programmeerija. Ta töötab Tartus väikeses firmas, mis teeb pankadele telefoni jaoks programme. Laupäeviti aga istub ta oma õe Maarja köögis laua taga ja kirjutab hoopis teistsugust programmi. Maarja on keemik ja õpetab ülikoolis esimese kursuse tudengeid. Ta tahab, et tudengid näeksid oma silmaga, kuidas vee molekulid liiguvad.\n\n„Molekulid liiguvad kujuteldamatult kiiresti,“ selgitas Maarja esimesel laupäeval. „Toa temperatuuril lendab üks vee molekul sekundis umbes 600 meetrit. Silm ei näe seda kunagi. Ma tahan, et sinu programm näitaks seda aegluubis.“\n\nIndrek mõtles kaua, kuidas nii kujuteldamatut liikumist ekraanile tuua. Programmi jaoks on iga molekul lihtsalt punkt, millel on asukoht ja kiirus. Kiirus on vektor: sellel on suurus ja suund. Iga sammu järel arvutab programm kõigi vektorite uued väärtused, sest molekulid põrkuvad kokku ja muudavad suunda. Ekraanil on iga vektor väike nool, mis näitab, kuhu ja kui kiiresti molekul lendab.\n\nMaarja aitas tal ka molekuli kuju õigeks saada. Vee molekuli moodustavad üks hapniku aatom ja kaks vesiniku aatomit ning nende vahel on nurk, umbes 104 kraadi. Keemikud tähistavad nurki sageli tähtedega alfa ja beeta. Programmis oli selle nurga nimi beeta. Kord oli Indrek beeta valesti arvutanud ja kõik molekulid nägid ekraanil välja nagu sirged pulgad. Maarja naeris ja parandas vea.\n\nKõige raskem oli molekulide paigutus jääs. Vedelas vees liiguvad molekulid vabalt, aga jääs on nende paigutus korrapärane: iga molekuli kõrval on neli naabrit ja koos moodustavad nad kuue nurgaga ringe. Seepärast on jää kergem kui vesi ja ujub pinnal. Indrek joonistas paigutuse mitu korda ümber, kuni Maarja oli rahul.\n\nProgrammi viimane osa näitas soojust. Kui klaasi alumist osa soojendada, hakkavad molekulid klaasis ringlema: soe vesi tõuseb üles, jahtub pinnal ja vajub jälle alla. Tudengid said ise temperatuuri muuta ja vaadata, kui kiiresti vesi ringleb.\n\nIndreki vana sülearvuti ei olnud nii raskeks tööks loodud. Kui programm käis, oli köögis kuulda ventilaatori valju suminat, nagu elaks laual mesilaste pere. Maarja naeris, et sumin on parem kui kell: kui sumin vaikib, on programm valmis.\n\nKuu aja pärast näitas Maarja programmi tudengitele. Ekraanil liikusid väikesed molekulid aegluubis ja nende vektorid muutsid pidevalt suunda. Tudengid kogunesid ekraani ümber ja esitasid rohkem küsimusi kui terve semestri jooksul. Indrek aga istub laupäeviti ikka õe köögis: nüüd tahab Maarja näha, kuidas sool vees kaob, ja programmeerija on jälle nõus.\n\nKüsimused:\nMida teeb Indrek laupäeviti?\nLaupäeviti kirjutab ta oma õe Maarja köögis programmi, mis näitab vee molekule.\nMiks pidi programm molekule aegluubis näitama?\nMolekulid liiguvad kujuteldamatult kiiresti ja silm ei näe seda.\nMis on vektor?\nVektor on näiteks molekuli kiirus: sellel on suurus ja suund.\nMis oli programmis beeta?\nBeeta oli nurk vee molekuli kahe vesiniku aatomi vahel.\nKuidas erineb molekulide paigutus jääs ja vees?\nVees liiguvad molekulid vabalt, aga jääs on nende paigutus korrapärane.\nMida Maarja nüüd näha tahab?\nTa tahab näha, kuidas sool vees kaob."
+    },
+    {
+      "title": "Plaadid ja lindid",
+      "summary": "A record collector from Viljandi explains on a radio talk show how vinyl records and videotape age, and how a failed record became a collectors' sensation.",
+      "newWords": [
+        "kollektsionäär",
+        "jutusaade",
+        "videolint",
+        "tühipaljas",
+        "plaadifirma",
+        "fiasko",
+        "sensatsioon",
+        "ennenägematu",
+        "šanss"
+      ],
+      "text": "Peeter on kollektsionäär. Tema korteris Viljandis on üle kolme tuhande plaadi ja umbes sada vana kassetti. Ühel novembri õhtul kutsus raadio ajakirjanik Sandra ta oma jutusaatesse, mis on eetris igal neljapäeval. Jutusaate teema oli lihtne: kui kaua elavad asjad, millele inimesed oma muusika ja mälestused salvestavad?\n\nSandra alustas küsimusega, miks kollektsionäär üldse materjali pärast muretseb. „Paljud arvavad, et plaat on tühipaljas plastiku tükk,“ vastas Peeter. „Aga plaadi heli sõltub otseselt sellest, millest see on tehtud.“ Ta selgitas, et plaat tehakse plastikust, mida tuleb soojendada, kuni see läheb pehmeks, ja siis pressida. Kui plastiku sees on tolmu või vanade plaatide tükke, on plaadil kuulda müra.\n\nSiis rääkis ta loo, mida ta igas jutusaates räägib. 1990-ndate alguses andis üks väike Tallinna plaadifirma välja noore bändi esimese plaadi. Raha oli vähe ja plaadifirma ostis odavat plastikut, mis oli tehtud vanadest plaatidest. Tulemus oli fiasko: plaadil oli nii palju müra, et poed saatsid suurema osa tagasi ja plaadifirma pidi uksed sulgema. 20 aastat hiljem sai bänd kuulsaks ja just see halb plaat muutus kollektsionääride seas sensatsiooniks. „Fiaskost sai sensatsioon,“ naeris Peeter. „Ühe plaadi eest maksti ennenägematut hinda.“\n\nSandra küsis ka videolindi kohta. Peeter selgitas, et videolint on õhuke plastikust lint, mille pinnale on liimiga kinnitatud väga väikesed raua ja hapniku ühendi tükid. Liim võtab aastatega õhust niiskust ja hakkab kleepuma. Kui sellist videolinti mängida, jääb liim masina külge ja lint võib katki minna.\n\n„Kas sellisel lindil on veel šanss?“ küsis Sandra. „On küll,“ vastas Peeter. „Kui linti mõni tund madalal temperatuuril küpsetada, kuivab liim ja lindil on jälle šanss. Siis tuleb see kohe arvutisse salvestada, sest teist šanssi tavaliselt ei tule.“ Peeter rääkis, et nii on vanadelt lintidelt leitud ennenägematuid kontserte, mida keegi pole kolmkümmend aastat näinud.\n\nJutusaate lõpus helistas saatesse üks kuulaja Narvast, kelle keldris oli kast vanu kassette ja üks videolint tema vanemate pulmast. Peeter lubas teda aidata. „Iga lint on kellegi mälestus,“ ütles ta. „See ei ole tühipaljas plastiku tükk.“\n\nKüsimused:\nKuhu kutsus Sandra Peetri?\nTa kutsus Peetri oma jutusaatesse, mis on eetris igal neljapäeval.\nMillal on plaadil kuulda müra?\nPlaadil on kuulda müra, kui plastiku sees on tolmu või vanade plaatide tükke.\nMiks oli väikese plaadifirma plaat fiasko?\nPlaadifirma ostis odavat plastikut ja plaadil oli nii palju müra, et poed saatsid selle tagasi.\nKuidas sai fiaskost sensatsioon?\nBänd sai kuulsaks ja kollektsionäärid maksid halva plaadi eest ennenägematut hinda.\nMis juhtub vana videolindi liimiga?\nSee võtab õhust niiskust ja hakkab kleepuma.\nKas vanal lindil on veel šanss?\nOn küll: linti tuleb mõni tund madalal temperatuuril küpsetada ja see kohe arvutisse salvestada."
+    },
+    {
+      "title": "Väetid taimed",
+      "summary": "A man in Võru sows tomatoes far too early; his neighbour, an agronomist, explains light after the solstice, plant nutrients and dormant seeds, and gives him free compost.",
+      "newWords": [
+        "kihk",
+        "väeti",
+        "nurisema",
+        "näljutama",
+        "pööripäev",
+        "tulutu",
+        "uinuv",
+        "prii",
+        "kiuste"
+      ],
+      "text": "Martin elab Võrus väikeses majas, mille taga on kasvuhoone. Igal aastal kasvatab ta seemnetest tomateid. Sel talvel on tal tugev kihk alustada varem kui kunagi enne. See kihk on nii suur, et juba jaanuari alguses külvab ta seemned väikestesse pottidesse ja paneb need köögis aknalaua peale.\n\nSeemned tärkavad kiiresti, aga taimed on väetid: pikad, peenikesed ja kahvatud. Kui Martin neid kastab, vajuvad väetid varred pikali. Martin hakkab nurisema. Ta nuriseb poe üle, kust ta seemned ostis, ja ilma üle, mis on terve kuu hall. Lõpuks kutsub ta appi naabri Heleni, kes on agronoom.\n\nHelen vaatab taimi ja raputab pead. „Sa näljutad neid,“ ütleb ta. „Taimed vajavad valgust ja toitaineid. Jaanuaris on päev siin vaid seitse tundi pikk ja aknast tuleb väga vähe valgust. Pealegi kastad sa neid puhta veega ja turbas ei ole peaaegu mingeid toitaineid.“ Martin ei taha uskuda, et ta oma taimi näljutab, sest ta kastab neid iga päev.\n\nHelen selgitab, et talve pööripäev on detsembris. Pärast pööripäeva hakkavad päevad pikenema, aga jaanuaris on valgust ikka liiga vähe. Tema külvab tomatid alles märtsis, kui pööripäevast on möödunud kolm kuud ja päev on juba üle kümne tunni pikk. „Jaanuaris külvata on tulutu,“ ütleb ta. „Taim kasvab pikaks, aga mitte tugevaks.“\n\nSiis räägib Helen toitainetest. Taim vajab kolme peamist ainet: lämmastikku, fosforit ja kaaliumi. Lämmastik aitab kasvatada rohelisi lehti, fosfor juuri ja kaalium vilju. Kui lämmastikku on vähe, muutuvad alumised lehed kollaseks. Aga ka liiga palju toitaineid on halb: sool tõmbab juurtest vee välja ja taim närbub.\n\nMartinil on kapis veel pakk seemneid. Helen ütleb, et seemnes on uinuv taim. Kuivas ja jahedas kohas võib uinuv seeme oodata aastaid. Ta ärkab alles siis, kui saab vett, sooja ja õhku.\n\nHelen pakub Martinile ka komposti oma aiast. „See on prii,“ ütleb ta. „Mul on seda rohkem, kui mul vaja on.“ Kompostis on kõik toitained koos ja see ei põleta juuri. Martin on tänulik, sest prii kompost on parem kui ükski pood.\n\nMartin mõistab, et tema töö jaanuaris oli tulutu, ja viib väetid taimed komposti hulka. Märtsis külvab ta uued seemned ja seekord kasvavad taimed tugevaks. Mai on külm ja vihmane, aga ilma kiuste kasvavad tomatid kasvuhoones hästi. Juuli lõpus korjab Martin esimesed punased tomatid ja viib korvi tomateid Helenile. Selle aasta kevad oli kõigi Martini ootuste kiuste hea.\n\nKüsimused:\nMiks olid Martini taimed väetid?\nJaanuaris oli valgust liiga vähe ja Martin kastis neid puhta veega, kus toitaineid ei olnud.\nMida tähendab, et Martin näljutab oma taimi?\nSee tähendab, et taimed ei saa piisavalt valgust ega toitaineid.\nMillal on talve pööripäev?\nTalve pööripäev on detsembris.\nMilleks taim lämmastikku vajab?\nLämmastik aitab kasvatada rohelisi lehti.\nMis on uinuv seeme?\nSee on seeme, mis ootab kuivas ja jahedas kohas, kuni saab vett, sooja ja õhku.\nMida saab Martin Helenilt?\nTa saab Helenilt komposti, mis on prii."
+    },
+    {
+      "title": "Vanaisa tuulelohe",
+      "summary": "A girl who wants to join a kite club in Pärnu builds a kite with her grandfather, a retired aircraft engineer, from carbon rods and nylon, and learns to steer it.",
+      "newWords": [
+        "liitumine",
+        "tuulelohe",
+        "elutee",
+        "lennumasin",
+        "kukkur",
+        "müksama",
+        "tähendusrikas",
+        "suunamine",
+        "konkureerima"
+      ],
+      "text": "Liina on 11-aastane ja elab Pärnus. Sel kevadel tahtis ta liituda klubiga, mille liikmed lasevad igal pühapäeval rannas tuulelohesid. Liitumine oli lihtne: tuli täita leht ja tuua kaasa oma tuulelohe. Aga Liinal ei olnud tuulelohet. Et liitumine õnnestuks, läks ta vanaisa Priidu juurde, sest vanaisa oskab teha peaaegu kõike.\n\nVanaisa Priidu elutee on olnud seotud lennukitega. Poisina unistas ta, et ehitab kunagi oma lennumasina. Lennumasinat ta ei ehitanud, aga temast sai insener, kes kontrollis nelikümmend aastat lennukite materjale. Nüüd on ta pensionil ja tal on aega.\n\nVanaisa võttis riiulilt vana nahast kukru, kus ta hoiab nööri, nuge ja muid pisiasju. Kukrust tuli välja ka kollane paber, millele ta oli poisina joonistanud oma esimese lennumasina.\n\nVanasti tehti tuulelohe raam puust ja selle peale pandi paber, rääkis vanaisa. Paber on kerge, aga see rebeneb kergesti ja kardab vihma. Nüüd kasutatakse süsinikust varrast ja plastikust riiet, mida nimetatakse nailoniks. Süsinikust varras on palju kergem kui teras, aga peaaegu sama tugev. Nailon on plastik, mis ei lase vett läbi ja on väga sitke.\n\nNad töötasid kolm õhtut. Vanaisa lõikas vardad õige pikkusega ja Liina õmbles riide servad kokku. Kui tuulelohe oli valmis, müksas Liina vanaisa õlga ja ütles: „Sinu lennumasin on lõpuks valmis!“ Vanaisa naeratas tähendusrikkalt, aga ei öelnud midagi.\n\nKlubis õppis Liina tuulelohe suunamist. Lohel on kaks nööri, üks kummaski käes. Kui tõmmata paremat nööri, pöörab lohe paremale, ja kui vasakut, siis vasakule. Suunamine nõuab tunnet, mitte jõudu. Esimesel päeval kukkus lohe mitu korda liiva sisse, sest tuul müksas seda ootamatult küljelt. Klubi juhendaja ütles, et suunamiseks peab tuult tundma nagu sõpra.\n\nJuunis toimus rannas võistlus, kus said konkureerida kõik klubi noored. Liina ei tahtnud alguses teistega konkureerida, aga vanaisa ütles, et see on parim viis õppida. Võistluse päeval tõusis Liina lohe kõrgele ja püsis seal rahulikult, kuigi tuul oli tugev. Liina ei võitnud, aga kohtunikud andsid talle auhinna kõige paremini ehitatud lohe eest.\n\nÕhtul ütles vanaisa, et see päev oli tema jaoks tähendusrikas. Pikal eluteel oli ta näinud palju lennukeid, aga nüüd lendas lõpuks ometi midagi, mille ta oli ise oma kätega teinud.\n\nKüsimused:\nMiks läks Liina vanaisa juurde?\nTa tahtis liituda klubiga, kus lastakse tuulelohesid, aga tal ei olnud tuulelohet.\nMillest unistas vanaisa poisina?\nTa unistas, et ehitab kunagi oma lennumasina.\nMida hoiab vanaisa oma kukrus?\nTa hoiab seal nööri, nuge ja muid pisiasju.\nMiks on nailon tuulelohe jaoks hea?\nNailon on kerge, ei lase vett läbi ja on väga sitke.\nKuidas käib tuulelohe suunamine?\nLohel on kaks nööri ja kui tõmmata paremat nööri, pöörab lohe paremale.\nMiks oli võistluse päev vanaisa jaoks tähendusrikas?\nLõpuks lendas midagi, mille ta oli ise oma kätega teinud."
+    },
+    {
+      "title": "Ettekanne Stockholmis",
+      "summary": "A chemist from Tallinn, nervous before his first big talk, gets through a traffic jam and the airport security check and presents a packaging film made from cellulose.",
+      "newWords": [
+        "äratuskell",
+        "pabin",
+        "liiklusummik",
+        "turvakontroll",
+        "tutvustamine",
+        "kontseptsioon",
+        "seevastu",
+        "vaatepunkt",
+        "kaastööline"
+      ],
+      "text": "Margus on keemik, kes uurib Tallinnas uusi pakkematerjale. Tema rühm on välja töötanud kile, mis on tehtud põhust ja puidujäätmetest. Septembris kutsuti ta Stockholmi suurele konverentsile, kus ta pidi tutvustama rühma kontseptsiooni: pakend, mis kaob looduses sama kiiresti nagu kukkunud leht.\n\nÄratuskell helises kell neli hommikul. Margus oli öösel halvasti maganud, sest ta oli pabinas. Ta ei olnud kunagi suure publiku ees inglise keeles esinenud. Ta pani äratuskella vaikseks, jõi tassi kohvi ja kontrollis veel kord, kas sülearvuti ja proovid on kotis.\n\nTeel lennujaama jäi takso liiklusummikusse. Tartu maanteel tehti teetöid ja autod seisid pikas reas. Margus vaatas iga minuti järel kella ja pabin kasvas. Liiklusummik kestis kakskümmend minutit, aga lennujaama jõudis ta siiski õigel ajal.\n\nLennujaamas ootas teda turvakontroll. Margus pani koti lindile ja turvakontrolli töötaja küsis, mis on kotis olevad läbipaistvad lehed. „See on uus pakkematerjal,“ selgitas Margus. „Ma räägin sellest konverentsil.“ Töötaja vaatas kilet huviga, keeras seda käes ja ütles, et pole sellist materjali varem näinud. Turvakontrollist sai Margus läbi viie minutiga.\n\nLennukis harjutas ta veel kord oma ettekannet. Kontseptsiooni tutvustamiseks oli tal ainult viisteist minutit, nii et iga lause pidi olema täpne. Ta otsustas alustada tutvustamist ühe lihtsa pildiga: rannal lebav plastikust kott ja selle kõrval kukkunud leht.\n\nKonverentsil selgitas Margus, et tavaline kile tehakse plastikust, mida saadakse naftast. Plastiku molekulid on pikad ahelad, mida bakterid ei suuda lõhkuda, ja seepärast püsib plastikust kott looduses sadu aastaid. Tema rühma kile on seevastu tehtud tselluloosist, mis on taimede peamine ehitusmaterjal. Bakterid ja seened oskavad tselluloosi lagundada, nii et kile kaob mullas mõne kuuga. Plastikust kile on odav, uus kile on seevastu veel kallis.\n\nPärast ettekannet tuli tema juurde ühe suure poeketi esindaja. Tema vaatepunkt oli teistsugune: teda huvitas, kas kile hoiab leiba värskena. Margus tunnistas, et keemiku vaatepunktist on kile peaaegu valmis, aga poe vaatepunkti arvestades on veel palju teha. Nad leppisid kokku, et proovivad kilet sügisel ühes poes.\n\nPeale uurimistöö on Margus ka ühe ajakirja kaastööline: ta kirjutab igas numbris lühikese loo keemiast. Õhtul hotellis kirjutas ta ajakirja jaoks loo konverentsist. Toimetaja on öelnud, et kaastöölised võivad kirjutada vabalt, ja Margus kirjutas ausalt ka sellest, kui pabinas ta oli.\n\nKodus pani Margus äratuskella helisema alles kell seitse. Pabinas ei olnud ta enam.\n\nKüsimused:\nMiks oli Margus öösel halvasti maganud?\nTa oli pabinas, sest ta polnud kunagi suure publiku ees inglise keeles esinenud.\nMiks jäi takso liiklusummikusse?\nTartu maanteel tehti teetöid ja autod seisid pikas reas.\nMida küsis turvakontrolli töötaja?\nTa küsis, mis on kotis olevad läbipaistvad lehed.\nMille poolest erineb Marguse kile tavalisest kilest?\nTavaline kile tehakse naftast, Marguse kile on seevastu tehtud tselluloosist, mis kaob mullas mõne kuuga.\nMilline oli poeketi esindaja vaatepunkt?\nTeda huvitas, kas kile hoiab leiba värskena.\nMillise ajakirja kaastööline on Margus?\nTa on ühe ajakirja kaastööline ja kirjutab igas numbris lühikese loo keemiast."
+    },
+    {
+      "title": "Seebikoda",
+      "summary": "A woman who makes soap by hand in Haapsalu explains lye safely, checks a delivery of oils, struggles with bookkeeping and late payments, and answers an unfair online comment calmly.",
+      "newWords": [
+        "naljaasi",
+        "veos",
+        "arvepidamine",
+        "laekuma",
+        "väärtpaber",
+        "arulage",
+        "jaburus",
+        "ülekohtune",
+        "sobivus"
+      ],
+      "text": "Kertu on kaks aastat pidanud Haapsalus väikest seebikoda. Ta teeb seepi käsitsi oliiviõlist, kookosõlist ja ürtidest ning müüb seda kohalikes poodides ja internetis.\n\nSeebi tegemine on keemia. Kui õli segada leelisega, tekib seep. Kertu kasutab tugevat leelist, mida nimetatakse naatriumhüdroksiidiks. Ta ütleb igale külalisele, et leelis ei ole naljaasi: see võib nahka põletada, nii et kindad ja prillid on tal alati ees. Kui seep on neli nädalat seisnud, on kogu leelis õliga reageerinud ja seebis seda enam ei ole.\n\nEsmaspäeval saabus Tallinnast suur veos: kakskümmend kanistrit oliiviõli ja kümme kasti kookosõli. Kertu kontrollis veose hoolikalt üle, sest eelmise veosega oli tulnud üks katkine kanister ja pool õli oli kasti põhja voolanud. Seekord oli kõik korras.\n\nKõige vähem meeldib Kertule arvepidamine. Õhtuti istub ta köögis laua taga ja võrdleb arveid sellega, mis on pangas. Arvepidamises on tal üks suur mure: poodidest laekub raha hilja. Mõni pood maksab alles kolme kuu pärast. Eelmisel kuul laekus nii vähe raha, et Kertu pidi õli eest hiljem maksma. Oma firma pidamine ei ole naljaasi.\n\nKertu onu Tiit, kes töötab pangas, soovitas tal osta väärtpabereid. „Väärtpaberid kasvatavad raha,“ ütles onu. Kertu arvas, et see mõte on arulage: tal ei ole raha, mida niipea vaja ei lähe, ja väärtpaberites hoitakse just sellist raha. Onu naeris ja ütles, et tema soovitused ei ole alati arulagedad, aga selle kohta oli Kertul õigus.\n\nÜhel päeval leidis Kertu internetist kommentaari, kus keegi kirjutas, et käsitsi tehtud seep on mürgine, sest selles on leelist. See oli jaburus. Kertu tundis, et kommentaar on ülekohtune, sest ta kontrollib iga seebi hoolikalt üle. Ta ei vastanud vihaselt. Selle asemel kirjutas ta rahulikult, et leelis muutub koos õliga seebiks ja glütserooliks ning valmis seebis teda enam ei ole. Paljud inimesed lugesid seda selgitust ja ülekohtuse kommentaari kirjutaja vabandas. Kertu oli rahul, et jaburust enam ei korratud.\n\nViimasel ajal katsetab Kertu uut seepi tundlikule nahale. Seebi sobivuse kontrollimiseks andis ta kümnele tuttavale väikese tüki ja palus neil kuu aega oma nahka jälgida. Üheksa inimest olid seebiga rahul. Kertu ütleb, et sobivusest räägib ta poodidele alles siis, kui ka kümnes inimene on rahul.\n\nKüsimused:\nMiks ei ole leelis Kertu arvates naljaasi?\nLeelis võib nahka põletada, nii et kindad ja prillid on tal alati ees.\nMis oli eelmise veosega valesti?\nÜks kanister oli katki ja pool õli oli kasti põhja voolanud.\nMilline mure on Kertul arvepidamises?\nPoodidest laekub raha hilja ja mõni pood maksab alles kolme kuu pärast.\nMiks oli onu mõte väärtpaberite kohta arulage?\nKertul ei ole raha, mida niipea vaja ei lähe.\nMiks oli kommentaar ülekohtune?\nValmis seebis ei ole leelist ja Kertu kontrollib iga seebi hoolikalt üle.\nMida tegi Kertu seebi sobivuse kontrollimiseks?\nTa andis kümnele tuttavale väikese tüki ja palus neil kuu aega oma nahka jälgida."
+    },
+    {
+      "title": "Kingad, matid ja tutid",
+      "summary": "A school class comes by school bus to a university lab where a cheerful materials engineer shows a ballerina's shoes, a wrestlers' mat and cheerleaders' stretchy outfits.",
+      "newWords": [
+        "koolibuss",
+        "peavärav",
+        "huumorisoon",
+        "baleriin",
+        "maadleja",
+        "üheksakümmend",
+        "ergutustüdruk",
+        "lõdvestama"
+      ],
+      "text": "Ühel oktoobri hommikul peatus Tallinnas ülikooli peavärava ees kollane koolibuss. Koolibussist tulid välja kaheksanda klassi õpilased ja nende õpetaja Erik. Peavärava juures ootas neid insener Eva, kes uurib, millest tehakse asju, mida spordis kasutatakse.\n\nÕpetaja Erik oli õpilastele öelnud, et Eval on hea huumorisoon, ja see oli kohe näha. „Siin laboris ei ole midagi plahvatanud juba kolm nädalat,“ ütles Eva tõsise näoga. Õpilased naersid ja kartsid teda kohe vähem. Õpetaja Erik ütles hiljem, et teaduses on huumorisoont sama palju vaja kui teadmisi.\n\nEsimesena näitas Eva baleriini kingi. Baleriin tantsib varvaste otstel ja king peab teda kandma. Kinga nina on tehtud mitmest kihist riidest, paberist ja liimist, mis kuivab kõvaks. Laval lähevad baleriini jalad soojaks ja niiskeks, liim läheb pehmeks ja king kaotab oma kuju. „Tuntud baleriin võib ühe etendusega kulutada ära terve paari kingi,“ ütles Eva. Seepärast otsivad teadlased liimi, mis niiskust ei karda.\n\nSeejärel näitas Eva matti, mille peal maadleja treenib. Kui maadleja kukub, peab matt kukkumise jõu vastu võtma. Matt on tehtud vahust, kus on miljoneid väikesi mulle, mis on täis õhku. Kui maadleja kukub, surutakse mullid kokku ja need võtavad kukkumise jõu enda peale. Hea matt võtab vastu umbes üheksakümmend protsenti jõust. Eva lasi ühel poisil matile hüpata ja kõik nägid, kuidas matt aeglaselt oma kuju tagasi võttis.\n\nKolmandaks olid laual ergutustüdrukute riided ja tutid. Ergutustüdrukud hüppavad, jooksevad ja tõstavad üksteist õhku, nii et nende riided peavad venima. Riides on elastaan – kiud, mida saab venitada mitu korda pikemaks ja mis tõmbub siis tagasi. Ühes ergutustüdruku särgis oli üheksakümmend protsenti puuvilla ja ainult kümme protsenti elastaani, aga sellest piisab.\n\nEva võrdles elastaani lihasega. Ta palus õpilastel käsivarre lihast pingutada ja siis lõdvestada. „Lihas pingutab ja lõdvestab,“ ütles ta. „Elastaan teeb sama: venib ja tuleb tagasi.“ Siis palus ta kõigil sügavalt hingata. „Lõdvestage õlad,“ ütles ta naerdes, „keemia ei ole nii hirmus.“\n\nKell kaksteist sõitsid õpilased koolibussiga tagasi kooli. Koolibussis arutasid nad, kas baleriin või ergutustüdruk on tugevam, ja ei jõudnud kokkuleppele.\n\nKüsimused:\nKus ootas Eva õpilasi?\nEva ootas õpilasi ülikooli peavärava juures.\nMiks kaotab baleriini king oma kuju?\nJalad lähevad soojaks ja niiskeks, liim läheb pehmeks ja king kaotab oma kuju.\nMillest on tehtud maadleja matt?\nMatt on tehtud vahust, kus on miljoneid väikesi mulle, mis on täis õhku.\nKui palju jõust võtab hea matt vastu?\nHea matt võtab vastu umbes üheksakümmend protsenti jõust.\nMiks peavad ergutustüdrukute riided venima?\nErgutustüdrukud hüppavad, jooksevad ja tõstavad üksteist õhku.\nMillega võrdles Eva elastaani?\nTa võrdles elastaani lihasega, mis pingutab ja lõdvestab."
+    },
+    {
+      "title": "Hõbelusikad",
+      "summary": "A nurse orders engraved silver spoons with a peacock pattern for her sister's wedding party, and the silversmith explains why silver darkens and how to clean it with soda and foil.",
+      "newWords": [
+        "psühhiaatriline",
+        "pulmapidu",
+        "graveerima",
+        "paabulind",
+        "kolesterool",
+        "pääste"
+      ],
+      "text": "Iris töötab Tartus psühhiaatrilise kliiniku vastuvõtus. Kui tema noorem õde Laura teatas, et ta abiellub augustis, tahtis Iris kinkida midagi, mis kestab kaua. Raha kingi jaoks panid kokku ka psühhiaatrilise kliiniku õed, kes Laurat hästi tunnevad, sest Laura käis seal sageli Irisele lõunat toomas. Pulmapidu pidi toimuma Laura vanemate talus Otepää lähedal.\n\nIris läks hõbesepp Pauli juurde, kelle väike töökoda asub vanalinnas. Paul soovitas kahte hõbelusikat, millele on graveeritud pruudi ja peigmehe nimed ning pulmapeo kuupäev. „Graveeritud nimi jääb alles ka saja aasta pärast,“ ütles ta.\n\nIris tahtis lusika varrele ka pilti. Paul näitas talle vanade mustritega raamatut ja Iris valis paabulinnu, sest Laura armastab paabulinde. Paul rääkis, et paabulinnu suled ei ole tegelikult sinised ega rohelised. Sulgedes ei ole sinist värvi, vaid väga õhukesed kihid, mis peegeldavad valgust nii, et silm näeb sinist ja rohelist. „Sama asja näed seebimullil,“ ütles Paul. „Värvi ei ole, aga valgus mängib.“\n\nPaul näitas Irisele ka, kuidas graveerida. Terava tööriistaga lõigatakse hõbedasse peen joon ja siis teine, kuni tekib täht või lind. Ühe paabulinnu graveerimiseks kulus tal terve päev.\n\nKui lusikad olid valmis, hoiatas Paul, et hõbe läheb aja jooksul tumedaks. See ei ole mustus, vaid hõbeda ja väävli ühend. Väävlit on õhus ja paljudes toitudes, eriti munades. Iris naeris, et Laura isa sööb iga hommik kaks muna, kuigi arst on soovitanud tal kolesterooli pärast mune vähem süüa. „Kolesterool on arsti mure,“ ütles Paul naeratades, „väävel on minu mure.“\n\nTumedaks läinud lusika jaoks on üks lihtne pääste. Kaussi pannakse alumiiniumfoolium, selle peale lusikas, peale puistatakse söögisoodat ja valatakse kuuma vett. Väävel liigub hõbedalt alumiiniumile ja lusikas läheb jälle heledaks. „See on paljude perenaiste pääste,“ ütles Paul. „Ja hõbe jääb terveks.“\n\nPulmapidu peeti augusti keskel. Pulmapeol avas Laura karbi, nägi graveeritud nimesid ja paabulindu ning hoidis lusikaid kaua käes. Iris kirjutas karbi sisse ka paberi, kuidas lusikaid puhastada. Pulmapeo järel tegid Laura ja tema mees lusikatest pildi ja saatsid selle psühhiaatrilise kliiniku õdedele.\n\nKüsimused:\nKus Iris töötab?\nTa töötab Tartus psühhiaatrilise kliiniku vastuvõtus.\nMida soovitas Paul pulmapeoks kinkida?\nTa soovitas kahte hõbelusikat, millele on graveeritud nimed ja pulmapeo kuupäev.\nMiks on paabulinnu suled sinised ja rohelised?\nSulgedes on väga õhukesed kihid, mis peegeldavad valgust nii, et silm näeb sinist ja rohelist.\nMiks läheb hõbe tumedaks?\nÕhus ja toitudes olev väävel moodustab hõbedaga ühendi.\nMis on tumedaks läinud lusika pääste?\nLusikas pannakse kaussi alumiiniumfooliumile, peale puistatakse soodat ja valatakse kuuma vett.\nMida tegid Laura ja tema mees pärast pulmapidu?\nNad tegid lusikatest pildi ja saatsid selle psühhiaatrilise kliiniku õdedele."
+    }
+  ]
+}
