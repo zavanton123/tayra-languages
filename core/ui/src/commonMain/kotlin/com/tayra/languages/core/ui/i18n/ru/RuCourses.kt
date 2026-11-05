@@ -227,9 +227,6 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Choose another example" to "Выбрать другой пример",
     "Choose from examples" to "Выбрать из примеров",
     "Preparing the audio" to "Подготовка озвучки",
-    "The sound of every card is made before the session starts, so no card waits for it." to "Озвучка всех карточек создаётся до начала сессии, чтобы ни одной карточке не пришлось её ждать.",
-    "{0} of {1} sounds ready" to "Готово звуков: {0} из {1}",
-    "Checking the audio…" to "Проверка озвучки…",
     "Start now" to "Начать сейчас",
     "No translation available" to "Перевод недоступен",
     "Created" to "Создана",
@@ -368,4 +365,5 @@ internal val ruCourses: Map<String, String> = mapOf(
     "In Anki, open the file with File › Import and tick “Import any learning progress”, or the cards come in as new." to "В Anki откройте файл через Файл › Импортировать и отметьте «Импортировать прогресс обучения», иначе карточки придут как новые.",
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Отметьте и «Импортировать конфигурации колод», чтобы колода сохранила эти настройки карточек.",
     "Something went wrong while making the deck." to "При создании колоды что-то пошло не так.",
+    "Making the first card's sound. The others are made in the background while you review." to "Создаётся звук первой карточки. Остальные создаются в фоне, пока вы повторяете.",
 )

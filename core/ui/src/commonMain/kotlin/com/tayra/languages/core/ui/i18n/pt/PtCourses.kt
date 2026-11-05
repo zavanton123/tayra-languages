@@ -227,9 +227,6 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Choose another example" to "Escolher outro exemplo",
     "Choose from examples" to "Escolher dos exemplos",
     "Preparing the audio" to "Preparando o áudio",
-    "The sound of every card is made before the session starts, so no card waits for it." to "O som de cada cartão é feito antes de a sessão começar, para que nenhum cartão espere por ele.",
-    "{0} of {1} sounds ready" to "{0} de {1} sons prontos",
-    "Checking the audio…" to "Verificando o áudio…",
     "Start now" to "Começar agora",
     "No translation available" to "Tradução indisponível",
     "Created" to "Criado",
@@ -368,4 +365,5 @@ internal val ptCourses: Map<String, String> = mapOf(
     "In Anki, open the file with File › Import and tick “Import any learning progress”, or the cards come in as new." to "No Anki, abra o arquivo em Arquivo › Importar e marque “Importar também qualquer progresso de aprendizagem”, senão os cartões entram como novos.",
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Marque também “Importar qualquer configuração de baralho” para o baralho manter estas configurações de cartões.",
     "Something went wrong while making the deck." to "Algo deu errado ao criar o baralho.",
+    "Making the first card's sound. The others are made in the background while you review." to "Criando o som do primeiro cartão. Os outros são criados em segundo plano enquanto você revisa.",
 )

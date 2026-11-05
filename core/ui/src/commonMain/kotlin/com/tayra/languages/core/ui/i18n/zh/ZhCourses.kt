@@ -227,9 +227,6 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Choose another example" to "选择其他例句",
     "Choose from examples" to "从例句中选择",
     "Preparing the audio" to "正在准备音频",
-    "The sound of every card is made before the session starts, so no card waits for it." to "每张卡片的声音都会在复习开始前生成，这样就不用等待。",
-    "{0} of {1} sounds ready" to "已准备 {0}/{1} 个声音",
-    "Checking the audio…" to "正在检查音频…",
     "Start now" to "立即开始",
     "No translation available" to "暂无翻译",
     "Created" to "创建时间",
@@ -368,4 +365,5 @@ internal val zhCourses: Map<String, String> = mapOf(
     "In Anki, open the file with File › Import and tick “Import any learning progress”, or the cards come in as new." to "在 Anki 中，通过“文件 › 导入”打开此文件，并勾选“导入所有学习进度信息”，否则卡片会作为新卡片导入。",
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "同时勾选“导入所有牌组预设配置”，牌组即可保留这些卡片设置。",
     "Something went wrong while making the deck." to "创建牌组时出错。",
+    "Making the first card's sound. The others are made in the background while you review." to "正在生成第一张卡片的声音。其余声音会在你复习时在后台生成。",
 )

@@ -517,13 +517,13 @@ class FlashcardsScreenTest {
         }
     }
 
-    /** Before the first card the screen shows the session's speech being made, and Start now begins at once. */
+    /** Before the first card's sound is made the screen says so, and Start now begins at once. */
     @Test
     fun theSessionWaitsForItsSpeechUnlessStartedNow() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER) } }
         show(audio = SentenceAudio(LocalSpeech(listOf(SlowSpeech())), settings, MemorySpeechAudioCache()), waitForCard = false)
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("0 of 2 sounds ready").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(0, onAllNodesWithTag("flashcard").fetchSemanticsNodes().size, "no card while the speech is made")
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Making the first card's sound. The others are made in the background while you review.").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithTag("flashcard").fetchSemanticsNodes().size, "no card before its sound is made")
         save("FLASHCARD_PREPARING_SCREENSHOT")
         onNodeWithTag("start-without-waiting").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard").fetchSemanticsNodes().isNotEmpty() }

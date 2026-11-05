@@ -43,6 +43,7 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlin.coroutines.cancellation.CancellationException
 import kotlin.time.Duration.Companion.seconds
@@ -95,7 +96,7 @@ data class FlashcardsUiState(
     /** With no card to show: the text read last and not finished, a book or a lesson, to go back to. */
     val reading: ReadingToContinue? = null,
     /** The session's speech still being made before its first card, so that no card waits for its sound; null once it may start. */
-    val preparingAudio: AudioPreparation? = null,
+    val preparingAudio: Boolean = false,
     /** How cards are answered, as the settings ask. */
     val answerMode: AnswerMode = AnswerMode.SHOW,
     /** The ways of answering this device offers: speaking where it can hear speech at all. */
@@ -142,10 +143,10 @@ data class FlashcardsUiState(
         }
 
     /** The card's word is to be said and has not been yet. */
-    val speaking: Boolean get() = cardMode == AnswerMode.SPEAK && !revealed && card != null && preparingAudio == null
+    val speaking: Boolean get() = cardMode == AnswerMode.SPEAK && !revealed && card != null && !preparingAudio
 
     /** The hidden word is being typed: the keys are the field's. */
-    val typing: Boolean get() = cardMode == AnswerMode.TYPE && !revealed && card != null && preparingAudio == null
+    val typing: Boolean get() = cardMode == AnswerMode.TYPE && !revealed && card != null && !preparingAudio
 }
 
 /** A card that just became a leech: its word, the times it was forgotten, and whether it was suspended for it. */
@@ -155,9 +156,6 @@ data class LeechNote(val word: String, val lapses: Int, val suspended: Boolean)
 data class ExtraPass(val study: ExtraStudy, val termIds: List<Long>, val done: Int = 0) {
     val current: Long? get() = termIds.getOrNull(done)
 }
-
-/** How much of the speech the session waits for is made: [ready] of [total], which is 0 while that is still being found out. */
-data class AudioPreparation(val ready: Int, val total: Int)
 
 /** A text to go back to after the cards, by its id. */
 data class ReadingToContinue(val bookId: Long)
@@ -220,7 +218,7 @@ class FlashcardsViewModel(
 
     init {
         // Until it is known whether any speech is missing, no card shows, so none flashes up before the wait.
-        if (audio != null) _state.update { it.copy(preparingAudio = AudioPreparation(0, 0)) }
+        if (audio != null) _state.update { it.copy(preparingAudio = true) }
         if (speech != null) _state.update { it.copy(modes = AnswerMode.entries) }
         load()
         prepareSpeech()
@@ -229,7 +227,7 @@ class FlashcardsViewModel(
             settings.settings.map { it.currentLanguageId }.distinctUntilChanged().drop(1).collect {
                 answers.clear()
                 pass = null
-                _state.update { it.copy(canUndo = false, preparingAudio = if (audio != null) AudioPreparation(0, 0) else null) }
+                _state.update { it.copy(canUndo = false, preparingAudio = audio != null) }
                 load()
                 prepareSpeech()
             }
@@ -239,9 +237,9 @@ class FlashcardsViewModel(
     /**
      * Has the local speech engine make the audio of every card in the session, one after another in
      * the order they come up: the sentences read when an answer is shown first, then the words. The
-     * session waits for what is not made yet, with its progress shown, so that no card waits for its
-     * sound; [startWithoutWaiting] lets it start sooner, the rest made while the cards are reviewed.
-     * Nothing is made for the system voice.
+     * session waits only for the first of them, the first card's sound, and the rest are made while
+     * the cards are reviewed; a card reached before its sound is made has it made next, as the
+     * engine takes its requests in turn. Nothing is made for the system voice.
      */
     private fun prepareSpeech() {
         val audio = audio ?: return
@@ -254,26 +252,25 @@ class FlashcardsViewModel(
                 code to spoken + group.map { it.displayText }
             }
             val missing = groups.flatMap { (code, texts) -> audio.missing(texts, code) }.toSet()
-            _state.update { it.copy(preparingAudio = if (missing.isEmpty()) null else AudioPreparation(0, missing.size)) }
-            val progress = launch {
-                audio.states.collect { states ->
-                    val ready = missing.count { states[it] == SentenceAudioState.READY }
-                    _state.update { s -> s.preparingAudio?.let { s.copy(preparingAudio = it.copy(ready = ready)) } ?: s }
-                }
+            if (groups.firstOrNull()?.second?.firstOrNull() !in missing) startWithoutWaiting()
+            val firstReady = launch {
+                audio.states.first { states -> missing.any { states[it] == SentenceAudioState.READY } }
+                startWithoutWaiting()
             }
             try {
                 groups.forEach { (code, texts) -> audio.prepare(texts, code) }
             } finally {
-                progress.cancel()
-                _state.update { it.copy(preparingAudio = null) }
-                scheduleAuto()
+                firstReady.cancel()
+                // Replaced by another language's speech, the wait is that one's to end.
+                if (isActive) startWithoutWaiting()
             }
         }
     }
 
-    /** Starts the session before its speech is all made; the rest is made while the cards are reviewed. */
+    /** Starts the session, if it is still waiting; the speech goes on being made while the cards are reviewed. */
     fun startWithoutWaiting() {
-        _state.update { it.copy(preparingAudio = null) }
+        if (!_state.value.preparingAudio) return
+        _state.update { it.copy(preparingAudio = false) }
         scheduleAuto()
     }
 
@@ -286,7 +283,7 @@ class FlashcardsViewModel(
         val s = settings.current
         val state = _state.value
         val termId = state.card?.termId ?: return
-        if (autoPaused || state.preparingAudio != null) return
+        if (autoPaused || state.preparingAudio) return
         val seconds = if (state.revealed) s.flashcardAutoAnswer else s.flashcardAutoReveal.takeIf { state.cardMode == AnswerMode.SHOW } ?: 0
         if (seconds <= 0) return
         autoJob = viewModelScope.launch {

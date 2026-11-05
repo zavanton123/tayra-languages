@@ -95,35 +95,63 @@ class SessionSpeechTest {
         }
     }
 
-    /** The first card waits for the session's speech, its progress counted, and comes up once it is all made. */
+    /** The session waits for the first card's sound only; the rest is made while the cards are reviewed. */
     @Test
-    fun theSessionWaitsForItsSpeech() = runBlocking {
-        takes = 150
+    fun theSessionStartsOnceTheFirstSoundIsReady() = runBlocking {
+        takes = 300
         val viewModel = session()
-        waitFor("the count") { (viewModel.state.value.preparingAudio?.total ?: 0) > 0 }
-        assertEquals(3, viewModel.state.value.preparingAudio!!.total)
-        waitFor("a sound made") { (viewModel.state.value.preparingAudio?.ready ?: 0) >= 1 }
-        waitFor("the session to start") { viewModel.state.value.preparingAudio == null }
-        assertEquals(3, made.size, "everything made before the first card")
+        assertTrue(viewModel.state.value.preparingAudio, "no card before the first sound")
+        waitFor("the session to start") { !viewModel.state.value.preparingAudio }
+        assertEquals(listOf("Vou comprar pão."), made.toList(), "only the first sound was waited for")
+        waitFor("the rest made") { made.size == 3 }
+        assertTrue(!viewModel.state.value.preparingAudio, "the wait does not come back")
         assertTrue(viewModel.state.value.card != null)
 
         // Opened again, everything is ready: no wait, and nothing made again.
         val again = model()
-        waitFor("the check") { again.state.value.preparingAudio == null && !again.state.value.loading }
+        waitFor("the check") { !again.state.value.preparingAudio && !again.state.value.loading }
         assertEquals(3, made.size)
     }
 
-    /** Start now lets the cards come before the speech is all made; the rest is still made meanwhile. */
+    /** With the first card's sound already made there is nothing to wait for, whatever else is missing. */
+    @Test
+    fun aFirstSoundMadeBeforeMeansNoWait() = runBlocking {
+        val id = languages.save(Language(name = "Portuguese"))
+        settings.update { it.copy(currentLanguageId = id, speechEngine = SpeechEngine.PIPER) }
+        terms.save(Term(languageId = id, text = "comprar", textLc = "comprar", status = TermStatus.NEW_1, sentence = "Vou comprar pão."))
+        terms.save(Term(languageId = id, text = "casa", textLc = "casa", status = TermStatus.NEW_1))
+        audio.audioFor("Vou comprar pão.", "pt")
+        takes = 300
+        val viewModel = model()
+        waitFor("the session to start") { !viewModel.state.value.preparingAudio }
+        assertEquals(1, made.size, "started before making anything else")
+        waitFor("the rest made") { made.size == 3 }
+    }
+
+    /** Start now lets the cards come before even the first sound is made; the speech is still made meanwhile. */
     @Test
     fun startNowSkipsTheWait() = runBlocking {
         takes = 300
         val viewModel = session()
-        waitFor("the count") { (viewModel.state.value.preparingAudio?.total ?: 0) > 0 }
         viewModel.startWithoutWaiting()
-        assertEquals(null, viewModel.state.value.preparingAudio)
-        assertTrue(made.size < 3)
+        assertTrue(!viewModel.state.value.preparingAudio)
+        assertTrue(made.isEmpty())
         waitFor("the rest made") { made.size == 3 }
-        assertEquals(null, viewModel.state.value.preparingAudio, "the wait does not come back")
+    }
+
+    /** A card reached before its sound is made does not wait behind the whole session: it is made next. */
+    @Test
+    fun aSoundAskedForIsMadeNextAmongTheRest() = runBlocking {
+        takes = 100
+        val viewModel = session()
+        val id = settings.current.currentLanguageId
+        for (word in listOf("mesa", "porta", "janela", "livro")) terms.save(Term(languageId = id, text = word, textLc = word, status = TermStatus.NEW_1))
+        val busy = model()
+        waitFor("the session to start") { !busy.state.value.preparingAudio }
+        val before = made.size
+        audio.audioFor("comprar", "pt")
+        assertTrue(made.indexOf("comprar") <= before + 1, "made next, not last: $made")
+        assertTrue(viewModel.state.value.card != null)
     }
 
     @Test

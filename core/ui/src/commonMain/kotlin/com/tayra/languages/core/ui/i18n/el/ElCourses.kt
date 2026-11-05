@@ -227,9 +227,6 @@ internal val elCourses: Map<String, String> = mapOf(
     "Choose another example" to "Επιλέξτε άλλο παράδειγμα",
     "Choose from examples" to "Επιλογή από παραδείγματα",
     "Preparing the audio" to "Προετοιμασία του ήχου",
-    "The sound of every card is made before the session starts, so no card waits for it." to "Ο ήχος κάθε κάρτας δημιουργείται πριν ξεκινήσει η συνεδρία, ώστε καμία κάρτα να μην τον περιμένει.",
-    "{0} of {1} sounds ready" to "Έτοιμοι ήχοι: {0} από {1}",
-    "Checking the audio…" to "Έλεγχος του ήχου…",
     "Start now" to "Έναρξη τώρα",
     "No translation available" to "Δεν υπάρχει μετάφραση",
     "Created" to "Δημιουργήθηκε",
@@ -368,4 +365,5 @@ internal val elCourses: Map<String, String> = mapOf(
     "In Anki, open the file with File › Import and tick “Import any learning progress”, or the cards come in as new." to "Στο Anki, ανοίξτε το αρχείο από Αρχείο › Εισαγωγή και επιλέξτε «Εισαγωγή προόδου εκμάθησης», αλλιώς οι κάρτες θα εισαχθούν ως νέες.",
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Επιλέξτε επίσης «Εισαγωγή προεπιλογών τραπουλών», ώστε η τράπουλα να κρατήσει αυτές τις ρυθμίσεις καρτών.",
     "Something went wrong while making the deck." to "Κάτι πήγε στραβά κατά τη δημιουργία της τράπουλας.",
+    "Making the first card's sound. The others are made in the background while you review." to "Δημιουργείται ο ήχος της πρώτης κάρτας. Οι υπόλοιποι δημιουργούνται στο παρασκήνιο όσο κάνετε επανάληψη.",
 )

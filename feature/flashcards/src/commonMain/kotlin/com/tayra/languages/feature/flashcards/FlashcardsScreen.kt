@@ -318,8 +318,8 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         actions.onBrowse()
                         return@onPreviewKeyEvent true
                     }
-                    // Nothing is answered while the session's speech is being made.
-                    if (state.card == null || state.preparingAudio != null) return@onPreviewKeyEvent false
+                    // Nothing is answered until the first card's sound is made.
+                    if (state.card == null || state.preparingAudio) return@onPreviewKeyEvent false
                     when {
                         isKey(HotkeyAction.FLASHCARDS_PREVIOUS, HotkeyAction.FLASHCARDS_PREVIOUS_ARROW) -> if (state.canUndo) actions.onUndo()
                         isKey(HotkeyAction.FLASHCARDS_LISTEN) && speaker != null -> state.card?.let { speaker.toggle(it.spoken, it.languageCode) }
@@ -346,7 +346,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
             if (compact) {
                 PhoneReview(state, speaker, actions)
             } else {
-                val reviewing = state.card != null && state.preparingAudio == null
+                val reviewing = state.card != null && !state.preparingAudio
                 Column(
                     // The card takes the height between the progress and the answers at the foot; with no card, the page scrolls.
                     Modifier.widthIn(max = REVIEW_WIDTH).fillMaxWidth().then(if (reviewing) Modifier.fillMaxHeight() else Modifier.verticalScroll(scroll))
@@ -363,9 +363,8 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                     }
                     Progress(state, compact, onEndPass = actions.onEndPass)
                     val card = state.card
-                    val preparing = state.preparingAudio
-                    if (preparing != null) {
-                        PreparingAudio(preparing, actions.onStartWithoutWaiting, compact = false)
+                    if (state.preparingAudio) {
+                        PreparingAudio(actions.onStartWithoutWaiting, compact = false)
                     } else if (card == null) {
                         Finished(state, actions)
                     } else {
@@ -413,12 +412,11 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             }
             Progress(state, compact = true, onEndPass = actions.onEndPass)
             val card = state.card
-            val preparing = state.preparingAudio
-            if (preparing != null) PreparingAudio(preparing, actions.onStartWithoutWaiting, compact = true)
+            if (state.preparingAudio) PreparingAudio(actions.onStartWithoutWaiting, compact = true)
             else if (card == null) Finished(state, actions)
             else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, onChooseExample = { actions.onChooseExample(card) }, timer = { AnswerTimer(state) }) { AnswerGiven(state, actions, compact = true) } } }
         }
-        val card = state.card?.takeIf { state.preparingAudio == null } ?: return@Column
+        val card = state.card?.takeIf { !state.preparingAudio } ?: return@Column
         Column(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             // Show answer and the answers share one slot, so the thumb finds them in the same place.
             if (state.revealed) {
@@ -914,7 +912,6 @@ private val REVIEW_WIDTH = 1048.dp
 private val ANSWER_SLOT = 76.dp
 private val ANSWER_SLOT_COMPACT = 76.dp
 private val FINISHED_ICON_TILE = 64.dp
-private val PREPARING_BAR_WIDTH = 420.dp
 private val ANSWER_FIELD_WIDTH = 420.dp
 
 /**
@@ -1030,9 +1027,8 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
  * sound: how much is ready, and the way to start at once.
  */
 @Composable
-private fun PreparingAudio(preparation: AudioPreparation, onStart: () -> Unit, compact: Boolean) {
+private fun PreparingAudio(onStart: () -> Unit, compact: Boolean) {
     val colors = MaterialTheme.colorScheme
-    val total = preparation.total
     Column(
         Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(if (compact) AppSpacing.xl else AppSpacing.huge).testTag("preparing-audio"),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -1043,24 +1039,12 @@ private fun PreparingAudio(preparation: AudioPreparation, onStart: () -> Unit, c
         }
         Text(tr("Preparing the audio"), style = AppText.headline, textAlign = TextAlign.Center)
         Text(
-            tr("The sound of every card is made before the session starts, so no card waits for it."),
+            tr("Making the first card's sound. The others are made in the background while you review."),
             style = MaterialTheme.typography.bodyLarge,
             color = colors.onSurfaceVariant,
             textAlign = TextAlign.Center,
         )
-        ProgressTrack(
-            if (total > 0) preparation.ready.toFloat() / total else 0f,
-            AppAccents.blue,
-            Modifier.padding(top = AppSpacing.s).widthIn(max = PREPARING_BAR_WIDTH).fillMaxWidth(),
-            height = 10.dp,
-            trackColor = colors.onSurface.copy(alpha = AppAlpha.tint),
-        )
-        Text(
-            if (total > 0) tr("{0} of {1} sounds ready", preparation.ready, total) else tr("Checking the audio…"),
-            style = MaterialTheme.typography.bodyMedium,
-            color = colors.onSurfaceVariant,
-            modifier = Modifier.testTag("preparing-audio-progress"),
-        )
+        LoadingIndicator(Modifier.padding(top = AppSpacing.s).testTag("preparing-audio-progress"))
         SecondaryButton(tr("Start now"), onClick = onStart, modifier = NoFocus.padding(top = AppSpacing.s).testTag("start-without-waiting"))
     }
 }
