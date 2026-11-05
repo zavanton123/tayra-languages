@@ -1,0 +1,206 @@
+{
+  "id": "ga-mini-0200",
+  "rankUpTo": 200,
+  "level": "A1",
+  "title": "Gnáthlá",
+  "description": "Ten short, simple stories about ordinary days at work, at school, at home and in town in Irish-speaking Ireland and Sydney.",
+  "topic": "Everyday life",
+  "names": [
+    "Peadar",
+    "Pheadair",
+    "Laoise",
+    "Corcaigh",
+    "Chorcaigh",
+    "Aoife",
+    "Nuala",
+    "Luimneach",
+    "Gaeilge",
+    "Ghaeilge",
+    "Tadhg",
+    "Conamara",
+    "Orlaith",
+    "Gaillimh",
+    "Ghaillimh",
+    "Dáithí",
+    "Seán",
+    "Aoine",
+    "Éamonn",
+    "Dearbhla",
+    "Lorcán",
+    "Lorcáin",
+    "Cathal",
+    "Chathail",
+    "Árainn",
+    "Conall",
+    "Sinéad",
+    "Pól",
+    "Ciarán",
+    "Chiaráin",
+    "Máiréad",
+    "Sydney"
+  ],
+  "lessons": [
+    {
+      "title": "Lá oibre Pheadair",
+      "summary": "Peadar gets up at seven, drives an hour to work in Cork and drives home again.",
+      "newWords": [
+        "éirigh",
+        "clog",
+        "uair",
+        "inniu",
+        "ansin",
+        "freisin",
+        "isteach",
+        "carr",
+        "cén",
+        "arís"
+      ],
+      "text": "Inniu, d'éirigh Peadar ag a 7 a chlog. Éiríonn sé ag a 7 a chlog gach lá. Tá Peadar ina chónaí i mbaile beag, ach tá a obair i gCorcaigh, sa chathair.\n\nAg a 8 a chlog, chuaigh Peadar amach go dtí an carr. Chuaigh sé isteach sa charr, agus ansin chuaigh sé go Corcaigh. Bhí sé uair an chloig sa charr.\n\nAg a 9 a chlog, chuaigh sé isteach ag obair. Tháinig Laoise isteach freisin. Bíonn Laoise ag obair ann freisin.\n\n“An bhfuil tú go maith, a Pheadair?” a deir Laoise.\n\n“Tá mé go maith,” a deir Peadar. “Ach d'éirigh mé ag a 7 a chlog, agus bhí mé uair an chloig sa charr.”\n\n“Cén uair a d'éirigh tusa?” a deir Peadar.\n\n“D'éirigh mé ag a 8 a chlog,” a deir Laoise. “Tá mo theach sa chathair.”\n\nBhí Peadar agus Laoise ag obair go dtí a 5 a chlog. Ansin, chuaigh Peadar amach go dtí an carr arís. Bhí sé uair an chloig sa charr arís. Chuaigh sé isteach ina theach ag a 6 a chlog.\n\nCeisteanna:\nCén uair a d'éirigh Peadar inniu?\nD'éirigh Peadar ag a 7 a chlog inniu.\nCá bhfuil obair Pheadair?\nTá a obair i gCorcaigh.\nCén fad a bhí sé sa charr?\nBhí sé uair an chloig sa charr.\nCén uair a d'éirigh Laoise?\nD'éirigh Laoise ag a 8 a chlog."
+    },
+    {
+      "title": "Focail nua",
+      "summary": "Aoife learns new words at her Irish school in Limerick and uses them at home with her mother.",
+      "newWords": [
+        "scoil",
+        "cailín",
+        "ceacht",
+        "ceist",
+        "focal",
+        "foghlaim",
+        "tosaigh",
+        "ábhar",
+        "nua",
+        "labhair",
+        "labhairt"
+      ],
+      "text": "Is cailín 8 mbliana d'aois í Aoife. Tá sí ar scoil i Luimneach. Is scoil Ghaeilge í, agus labhraíonn gach duine Gaeilge ar an scoil.\n\nTosaíonn an scoil ag a 9 a chlog gach lá. Is é an chéad cheacht ceacht Gaeilge. Is maith le hAoife an t-ábhar sin. Foghlaimíonn sí focail nua sa cheacht.\n\nInniu, tá trí fhocal nua sa leabhar. Foghlaimíonn Aoife na focail. Ansin, tá ceist aici.\n\n“Tá ceist agam,” a deir Aoife leis an múinteoir. “An féidir liom na focail nua a úsáid sa bhaile?”\n\n“Is féidir,” a deir an múinteoir. “Is ceist mhaith í sin. Labhair Gaeilge sa bhaile, agus úsáid na focail nua.”\n\nAnsin tosaíonn ceacht eile. Is cailín maith í Aoife, agus is maith léi gach ábhar ar an scoil.\n\nAg a 3 a chlog, téann Aoife abhaile. Tá sí ag labhairt le Nuala, a máthair.\n\n“D'fhoghlaim mé trí fhocal nua inniu,” a deir Aoife. Labhraíonn Aoife agus Nuala Gaeilge, agus úsáideann Aoife na focail nua. Is maith le Nuala a bheith ag labhairt le hAoife faoin scoil.\n\nCeisteanna:\nCén uair a thosaíonn an scoil?\nTosaíonn an scoil ag a 9 a chlog.\nCad é an chéad cheacht?\nIs é an chéad cheacht ceacht Gaeilge.\nAn bhfoghlaimíonn Aoife focail nua?\nFoghlaimíonn. Foghlaimíonn sí focail nua sa cheacht.\nCé leis a labhraíonn Aoife Gaeilge sa bhaile?\nLabhraíonn sí Gaeilge le Nuala, a máthair."
+    },
+    {
+      "title": "An madra agus an loch",
+      "summary": "Tadhg and his big dog run down to the lake, where the dog drinks and eats.",
+      "newWords": [
+        "madra",
+        "rith",
+        "uisce",
+        "ól",
+        "taobh",
+        "thar",
+        "síos",
+        "talamh",
+        "fada",
+        "ithe"
+      ],
+      "text": "Tá Tadhg ina chónaí i gConamara. Tá madra mór aige. Is madra maith é.\n\nTá loch ar an taobh eile den bhaile. Gach lá, téann Tadhg agus an madra síos go dtí an t-uisce.\n\nInniu, téann siad amach ag a 10 a chlog. Ritheann an madra síos go dtí an loch. Ritheann Tadhg freisin, ach ní féidir leis rith chomh maith leis an madra. Feiceann siad fear agus bean. Ritheann an madra thar an bhfear agus thar an mbean. Ritheann sé síos go dtí an t-uisce.\n\nAg an loch, ólann an madra uisce. Ólann Tadhg uisce freisin. Ansin tugann Tadhg bia don mhadra. Tá an madra ag ithe ar an talamh. Is maith leis a bheith ag ithe!\n\nAnsin, tá an madra ar an talamh ar thaobh an uisce. Tá Tadhg ann freisin.\n\nAg a 12 a chlog, téann siad go dtí an teach arís. Is lá fada é. Bhí lá fada maith ag Tadhg agus ag an madra.\n\nCeisteanna:\nCá bhfuil an loch?\nTá an loch ar an taobh eile den bhaile.\nCé a ritheann thar an bhfear agus thar an mbean?\nRitheann an madra thar an bhfear agus thar an mbean.\nCad a ólann an madra ag an loch?\nÓlann an madra uisce ag an loch.\nCá bhfuil an madra ag ithe?\nTá an madra ag ithe ar an talamh."
+    },
+    {
+      "title": "Leabhar nua d'Orlaith",
+      "summary": "Orlaith goes into Galway to buy a book and finds the one she wants in the second shop.",
+      "newWords": [
+        "ceannaigh",
+        "airgead",
+        "roinnt",
+        "amháin",
+        "éigin",
+        "cineál",
+        "glac",
+        "bord",
+        "dara",
+        "lán"
+      ],
+      "text": "Tá Orlaith ina cónaí i nGaillimh. Is maith léi leabhair. Inniu, téann sí isteach sa chathair. Ba mhaith léi leabhar nua a cheannach. Tá €30 airgid aici.\n\nTéann sí isteach i siopa amháin. Níl ach cineál amháin leabhar sa siopa: leabhair faoi charranna. Ní maith le hOrlaith an cineál sin.\n\nTéann sí isteach sa dara siopa. Tá an dara siopa lán de leabhair, agus lán de dhaoine freisin. Tá roinnt leabhar nua ar bhord mór. Feiceann Orlaith leabhar maith ar an mbord: leabhar Gaeilge faoi Chonamara.\n\n“Ba mhaith liom an leabhar seo a cheannach,” a deir sí.\n\n“Tá sé €20,” a deir bean an tsiopa.\n\nTugann Orlaith an t-airgead don bhean, agus glacann an bhean an t-airgead. Ceannaíonn Orlaith an leabhar. Ansin ceannaíonn sí rud éigin eile freisin: leabhar beag. Is leabhar beag é, ach is maith léi é. Glacann an bhean €2 eile.\n\nTéann Orlaith go dtí a teach. Cuireann sí an leabhar nua ar an mbord. Tá roinnt airgid aici anois: €8.\n\nCeisteanna:\nCad ba mhaith le hOrlaith a cheannach?\nBa mhaith léi leabhar nua a cheannach.\nCén cineál leabhar atá sa chéad siopa?\nTá leabhair faoi charranna sa chéad siopa.\nCá bhfeiceann sí an leabhar maith?\nFeiceann sí é ar bhord sa dara siopa.\nAn gceannaíonn sí rud éigin eile?\nCeannaíonn. Ceannaíonn sí leabhar beag.\nCé a ghlacann an t-airgead?\nGlacann bean an tsiopa an t-airgead."
+    },
+    {
+      "title": "An dinnéar",
+      "summary": "Dáithí often makes the same dinner with his father Seán, and they check that everything is right.",
+      "newWords": [
+        "athair",
+        "á",
+        "barr",
+        "ceart",
+        "leor",
+        "lena",
+        "céanna",
+        "minic"
+      ],
+      "text": "Tá Dáithí 10 mbliana d'aois. Is minic a dhéanann sé an dinnéar lena athair, Seán. Is fear mór é a athair, agus tá Dáithí mór freisin.\n\nInniu, tá an dinnéar á dhéanamh acu arís. Déanann siad an dinnéar céanna gach uair. Is maith le Dáithí an dinnéar sin.\n\n“An bhfuil go leor uisce ann?” a deir a athair.\n\n“Tá go leor ann,” a deir Dáithí.\n\n“Ceart go leor,” a deir Seán.\n\nTá an dinnéar á dhéanamh ag Seán anois. Tá uisce á chur ar an mbord ag Dáithí. Cuireann sé an t-uisce ar bharr an bhoird. Ansin cuireann sé an dinnéar ar bharr an bhoird freisin.\n\n“An bhfuil sé seo ceart?” a deir Dáithí lena athair.\n\n“Tá sé ceart,” a deir Seán. “Rinne tú go maith é.”\n\nAnsin, bíonn Dáithí agus a athair ag ithe le chéile. Is maith le Dáithí a bheith ag obair lena athair.\n\nCeisteanna:\nCé leis a ndéanann Dáithí an dinnéar?\nDéanann sé an dinnéar lena athair, Seán.\nAn minic a dhéanann siad an dinnéar le chéile?\nIs minic.\nCad a dhéanann siad gach uair?\nDéanann siad an dinnéar céanna.\nCá gcuireann Dáithí an t-uisce?\nCuireann sé an t-uisce ar bharr an bhoird.\nAn raibh gach rud ceart?\nBhí. Bhí gach rud ceart."
+    },
+    {
+      "title": "An ríomhaire nua",
+      "summary": "Éamonn unpacks his new computer and spends an hour getting the new system onto it.",
+      "newWords": [
+        "ríomhaire",
+        "feidhm",
+        "córas",
+        "fáil",
+        "iarraidh",
+        "tóg",
+        "caith",
+        "bain",
+        "baint",
+        "ceap"
+      ],
+      "text": "Fuair Éamonn ríomhaire nua inniu. Bhí an ríomhaire i mbosca mór ar an talamh.\n\nBhí Éamonn ag baint an ríomhaire as an mbosca ag a 10 a chlog. Bhain sé an ríomhaire as, agus thóg sé an bosca amach as an teach. Ansin thóg sé an ríomhaire go dtí an bord.\n\nCheap Éamonn gur ríomhaire maith é. Bhí go leor feidhmeanna nua air. Ach ní raibh an córas ceart air. Tá baint ag an gcóras le gach feidhm ar ríomhaire. Bhí Éamonn ag iarraidh an córas nua a fháil.\n\nChaith sé uair an chloig ag obair leis an ríomhaire. Ansin, fuair sé an córas nua. Bhí an ríomhaire ag obair go maith ansin.\n\n“Tá feidhm nua anseo,” a deir sé. “Ceapaim gur feidhm mhaith í.”\n\nChaith Éamonn an lá ag foghlaim faoi na feidhmeanna nua. Is maith leis an córas nua.\n\nCeisteanna:\nCad a fuair Éamonn inniu?\nFuair sé ríomhaire nua inniu.\nCad a bhain Éamonn as an mbosca?\nBhain sé an ríomhaire nua as an mbosca.\nCad a bhí Éamonn ag iarraidh a fháil?\nBhí sé ag iarraidh an córas nua a fháil.\nCén fad a chaith sé ag obair leis an ríomhaire?\nChaith sé uair an chloig ag obair leis an ríomhaire."
+    },
+    {
+      "title": "An cuireadh",
+      "summary": "Dearbhla writes invitations to her ninth birthday, and her friends all come.",
+      "newWords": [
+        "cuireadh",
+        "chuig",
+        "mí",
+        "tús",
+        "teacht",
+        "fios",
+        "bith",
+        "éis",
+        "léir",
+        "aghaidh",
+        "roimh"
+      ],
+      "text": "Beidh Dearbhla 9 mbliana d'aois ag tús na míosa seo chugainn.\n\nTar éis na scoile inniu, scríobhann sí cuireadh chuig a cairde go léir. Scríobhann sí 8 gcuireadh, le haghaidh an lae mhóir.\n\nAr gach cuireadh, scríobhann sí: “Tar chuig mo theach ar an 1ú lá den mhí, ag a 3 a chlog. Beidh mé 9 mbliana d'aois!”\n\nTugann sí cuireadh do gach cara ar scoil. Roimh an lá mór, deir a cairde go léir go bhfuil siad ag teacht.\n\n“An bhfuil tú ag teacht, a Lorcáin?” a deir Dearbhla.\n\n“Tá mé ag teacht, gan cheist ar bith,” a deir Lorcán. “Tá a fhios agam cá bhfuil do theach.”\n\nAr an 1ú lá den mhí, tagann a cairde go léir chuig an teach. Tagann siad isteach ag a 3 a chlog.\n\n“Tá fáilte romhaibh!” a deir Dearbhla. “Ar aghaidh libh isteach!”\n\nTá a fhios ag Dearbhla go mbeidh lá maith acu. Níl fadhb ar bith ann.\n\nTar éis an lae, deir Dearbhla: “Bhí lá mór agam!”\n\nCeisteanna:\nCad a scríobhann Dearbhla tar éis na scoile?\nScríobhann sí cuireadh chuig a cairde go léir.\nCén uair a bheidh Dearbhla 9 mbliana d'aois?\nBeidh sí 9 mbliana d'aois ag tús na míosa.\nCén uair a thagann a cairde chuig an teach?\nTagann siad ar an 1ú lá den mhí, ag a 3 a chlog.\nAn bhfuil a fhios ag Lorcán cá bhfuil an teach?\nTá. Tá a fhios aige cá bhfuil an teach."
+    },
+    {
+      "title": "Saol ar an oileán",
+      "summary": "Cathal shows his friend Conall from Galway his island, where people speak Irish and work the land in autumn.",
+      "newWords": [
+        "oileán",
+        "ceantar",
+        "suite",
+        "saol",
+        "fómhar",
+        "measc",
+        "áirithe",
+        "leith",
+        "lucht"
+      ],
+      "text": "Tá Cathal ina chónaí ar oileán. Árainn is ainm don oileán. Tá teach Chathail suite ar thaobh an oileáin, in aice leis an uisce.\n\nIs ceantar beag é an t-oileán. Labhraíonn lucht an oileáin Gaeilge. I measc na ndaoine ar an oileán, labhraíonn gach duine Gaeilge gach lá.\n\nSan fhómhar, tagann Conall, cara Chathail, ó Ghaillimh go dtí an t-oileán. Is maith le Conall an t-oileán, go háirithe san fhómhar.\n\n“Is áit ar leith í seo,” a deir Conall.\n\n“Is áit ar leith í,” a deir Cathal. “Is maith liom an saol anseo.”\n\nSan fhómhar, bíonn lucht an oileáin ag obair ar an talamh. Bíonn Cathal ag obair i measc na ndaoine. Bíonn Conall ag obair leo freisin, go háirithe ar an talamh in aice leis an teach.\n\nAg deireadh an lae, labhraíonn Cathal agus Conall faoin saol ar an oileán agus faoin saol sa chathair. Is maith le Conall an ceantar, agus is maith leis an saol ar an oileán.\n\nCeisteanna:\nCá bhfuil teach Chathail suite?\nTá teach Chathail suite ar thaobh an oileáin.\nCén teanga a labhraíonn lucht an oileáin?\nLabhraíonn lucht an oileáin Gaeilge.\nCén uair a thagann Conall go dtí an t-oileán?\nTagann Conall go dtí an t-oileán san fhómhar.\nCad a dhéanann lucht an oileáin san fhómhar?\nBíonn siad ag obair ar an talamh."
+    },
+    {
+      "title": "An club scéalta",
+      "summary": "Sinéad founded a story club in Cork, and this year the club publishes a book of its members' stories.",
+      "newWords": [
+        "scéal",
+        "foilsigh",
+        "bunaigh",
+        "ball",
+        "réir",
+        "sampla",
+        "déag",
+        "beir"
+      ],
+      "text": "Tá Sinéad ina cónaí i gCorcaigh. Is maith léi scéalta. In 2022, bhunaigh sí club scéalta sa chathair. Bhunaigh sí an club le Pól, a fear céile.\n\nTá trí bhall déag sa chlub anois. Scríobhann gach ball scéal gach mí. Mar shampla, scríobh Pól scéal faoi mhadra, agus scríobh bean eile scéal faoi oileán. Ach ní scríobhann gach ball scéal gach mí.\n\nDe réir a chéile, scríobhann na baill scéalta níos faide. Is maith le Sinéad na scéalta go léir.\n\nI mbliana, d'fhoilsigh an club leabhar. Tá trí scéal déag sa leabhar: scéal amháin ó gach ball.\n\nNuair a tháinig an leabhar, rug Sinéad ar an gcéad leabhar. Rug gach ball eile ar leabhar freisin.\n\n“D'fhoilsigh an club leabhar!” a deir Pól. “Ba mhór an obair é.”\n\n“Ba mhór,” a deir Sinéad. “Ach is leabhar maith é. Mar shampla, is maith liom do scéal faoin madra.”\n\nCeisteanna:\nCé a bhunaigh an club scéalta?\nBhunaigh Sinéad agus Pól an club.\nAn scríobhann na baill scéalta níos faide anois?\nScríobhann. De réir a chéile, scríobhann siad scéalta níos faide.\nCad a d'fhoilsigh an club i mbliana?\nD'fhoilsigh an club leabhar.\nCad atá sa leabhar?\nTá trí scéal déag sa leabhar."
+    },
+    {
+      "title": "Ar an taobh eile den domhan",
+      "summary": "Ciarán lives in Sydney and often talks to his mother Máiréad in Cork on the computer.",
+      "newWords": [
+        "domhan",
+        "grá",
+        "cosúil",
+        "áfach",
+        "béarla"
+      ],
+      "text": "Tá Ciarán ina chónaí in Sydney. Tá Sydney ar an taobh eile den domhan ó Chorcaigh. Tá Máiréad, a mháthair, ina cónaí i gCorcaigh.\n\nIs minic a labhraíonn Ciarán le Máiréad ar an ríomhaire. Labhraíonn siad go minic: trí uair gach mí.\n\nLabhraíonn Ciarán Béarla ag an obair in Sydney. Ach labhraíonn sé Gaeilge le Máiréad. Ní labhraíonn siad Béarla le chéile.\n\nInniu, labhraíonn siad arís. Nuair a éiríonn Máiréad ag a 8 a chlog, tá sé 7 a chlog in Sydney, agus tá deireadh le lá oibre Chiaráin.\n\n“An bhfuil an saol go maith in Sydney?” a deir Máiréad.\n\n“Tá an saol go maith,” a deir Ciarán. “Tá grá agam don chathair. Is cathair mhór í Sydney. Níl sí cosúil le Corcaigh, áfach.”\n\n“An bhfuil sí cosúil le Gaillimh?” a deir Máiréad.\n\n“Níl,” a deir Ciarán. “Níl sí cosúil le cathair ar bith eile. Is maith liom Corcaigh freisin, áfach.”\n\n“Is mór an domhan,” a deir Máiréad. “Tá grá agam duit, a Chiaráin.”\n\n“Tá grá agam duit freisin,” a deir Ciarán. “Beidh mé i gCorcaigh san fhómhar.”\n\nCeisteanna:\nCá bhfuil Ciarán ina chónaí?\nTá sé ina chónaí in Sydney.\nAn minic a labhraíonn Ciarán agus Máiréad?\nIs minic. Labhraíonn siad trí uair gach mí.\nAn bhfuil Sydney cosúil le Corcaigh?\nNíl. Níl sí cosúil le Corcaigh.\nCén uair a bheidh Ciarán i gCorcaigh?\nBeidh sé i gCorcaigh san fhómhar."
+    }
+  ]
+}
