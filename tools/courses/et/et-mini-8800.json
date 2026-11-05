@@ -1,0 +1,198 @@
+{
+  "id": "et-mini-8800",
+  "rankUpTo": 8800,
+  "level": "C2",
+  "title": "Eesti toidukultuur",
+  "description": "Ten standalone stories about Estonian food culture: mushroom picking, family meals, old recipes, bread, fish and holiday tables.",
+  "topic": "Food culture in Estonia",
+  "names": [
+    "Heimar",
+    "Lahemaa",
+    "Helje",
+    "Ilvar",
+    "Miina",
+    "Tartu",
+    "Võru",
+    "Eesti",
+    "Aneta",
+    "Endro",
+    "Viljandi",
+    "Mulgimaa",
+    "Elinor",
+    "Margareeta",
+    "Siber",
+    "Tallinn",
+    "Hellin",
+    "Alvo",
+    "Paide",
+    "Järvamaa",
+    "Juhanna",
+    "Keiri",
+    "Ennar",
+    "Saaremaa",
+    "Kuressaare",
+    "Kretti",
+    "Indoneesia",
+    "Hiiumaa",
+    "Mikkel",
+    "Pärje",
+    "Joosu",
+    "Getri",
+    "London",
+    "Inglismaa",
+    "Tom",
+    "Nelo",
+    "Rauni",
+    "Rakvere",
+    "Velly",
+    "Liilu"
+  ],
+  "lessons": [
+    {
+      "title": "Tatikad okastraadi taga",
+      "summary": "A narrator goes mushroom picking with an old uncle, who shows his tricks and leaves old mushrooms to spread their spores.",
+      "newWords": [
+        "tatikas",
+        "silmama",
+        "okastraat",
+        "nõks",
+        "eos",
+        "põrnikas",
+        "suuvärk",
+        "limane",
+        "närbuma"
+      ],
+      "text": "Minu onu Heimar on korjanud seeni üle viiekümne aasta. Ta elab Lahemaa servas väikeses talus ja ütleb, et sügisel on mets tema sahver. Eelmise aasta septembris kutsus ta mind külla, sest tema sõnul olid tatikad lõpuks välja tulnud.\n\nMe läksime metsa varahommikul, kui rohi oli veel märg. Onu kõndis kiiresti ja vaatas maha nagu inimene, kes otsib kaotatud võtmeid. Mina ei näinud esimese poole tunni jooksul midagi peale lehtede ja kuuse okaste. Siis silmasin ma rohus pruuni kübarat, mis meenutas värsket saia. „Tatikas!“ hüüdsin ma. Onu naeratas. Ta oli selle tatika juba ammu silmanud, aga tahtis, et esimese leiaksin mina.\n\nMetsa serval jooksis vana roostes okastraat. Kunagi hoidis see talu lehmi metsast eemal, nüüd aga oli talu ammu tühi ja okastraat vajus puude vahel maa poole. Onu surus traadi saapaga alla ja mina astusin ettevaatlikult üle. „Okastraadi taga on alati rohkem seeni,“ ütles ta. „Linna inimesed ei viitsi siia ronida.“ Okastraadi taga kasvasid tõesti tatikad, kümme tükki koos nagu väike pere.\n\nOnul on üks nõks, mille ta õppis oma emalt. Ta ei kisu seent maast välja, vaid lõikab jala noaga läbi ja katab koha okaste ja lehtedega. „Seen, mida me sööme, on ainult vili,“ seletas ta. „Seen ise elab maa all. Kui maa jääb terveks, kasvab siia järgmisel aastal uus.“ Teine nõks oli jätta vanad tatikad metsa. Onu võttis ühe vana seene, murdis kübara pooleks ja raputas seda kännu kohal. Kübara alt tuli peent pruuni tolmu. „Need on eosed,“ ütles ta. „Iga eos võib saada uueks seeneks. Tuul kannab eosed laiali ja mets külvab ennast ise.“\n\nSeened meeldivad ka teistele. Ühe tatika kübaral istus läikiv must põrnikas ja näris seda oma väikese suuvärgiga. Onu lasi mul põrnikat lähemalt vaadata. Suuvärk liikus kiiresti nagu kaks pisikest nuga. „Põrnikas teab, mis on hea,“ naeris onu, ja seda seent me ei võtnud.\n\nPärastlõunal leidsime ka mõned kollased seened, mille kübar oli limane ja kleepus sõrmede külge. Onu näitas, kuidas limane nahk kübaralt maha koorida, sest limase nahaga seen läheb pannil libedaks.\n\nKoju jõudes olid mõned seened korvis juba närbunud. „Tatikad närbuvad soojas kiiresti,“ ütles onu, ja seepärast puhastasime need kohe trepil. Õhtul praadisime seeni sibula ja koorega ning sõime neid noorte kartulitega. Ma ei ole kunagi söönud paremat õhtusööki.\n\nKüsimused:\nKus elab onu Heimar?\nTa elab Lahemaa servas väikeses talus.\nKes oli esimese tatika enne silmanud?\nOnu oli selle juba ammu silmanud, aga ta tahtis, et tema külaline leiaks selle ise.\nMiks on okastraadi taga rohkem seeni?\nOnu sõnul ei viitsi linna inimesed üle okastraadi ronida.\nMis on onu esimene nõks?\nTa lõikab seene jala noaga läbi ja katab koha okaste ja lehtedega.\nMis on eosed?\nEosed on peen tolm kübara all, ja iga eos võib saada uueks seeneks.\nMiks puhastati seened kohe?\nTatikad närbuvad soojas kiiresti."
+    },
+    {
+      "title": "Vanaema nädal",
+      "summary": "A grandmother comes to stay for a week after her grandchild's birth and cooks mashed potatoes for the tired young mother.",
+      "newWords": [
+        "vastsündinu",
+        "külalistetuba",
+        "kartulipuder",
+        "günekoloog",
+        "süsivesik",
+        "kaiss",
+        "uinutama",
+        "mõneti"
+      ],
+      "text": "Helje ja Ilvar said oktoobri alguses lapse. Nende tütar sündis Tartus ja kaalus veidi üle kolme kilo. Kui pere haiglast koju jõudis, sõitis Helje ema Miina Võrust appi. Tal oli kaasas kohver ja kaks suurt kotti toitu, ja ta seadis end nädalaks sisse külalistetoas, kus muidu seisis ainult Ilvari jalgratas.\n\nEestis on vana komme viia vastsündinu perele süüa. Vanasti tõid naabri naised noorele emale putru, leiba ja võid, et tal oleks jõudu last toita ja et ta ei peaks esimestel nädalatel pliidi ääres seisma. Miina pidas seda kommet tähtsaks. „Vastsündinuga ei jõua keegi süüa teha,“ ütles ta. „Aga ema peab sööma korralikult ja soojalt.“\n\nEsimesel õhtul tegi Miina kartulipudru. Ta keetis kartulid pehmeks, valas vee ära, lisas sooja piima ja tüki võid ning segas, kuni kartulipuder oli sile ja ilma tükkideta, täpselt nii, nagu tema enda ema oli seda teinud. Kartulipudru kõrvale praadis ta sealiha ja tegi pruuni kastme.\n\nHelje oli raseduse ajal palju lugenud, mida noor ema peaks sööma. Tema günekoloog oli talle öelnud, et keha vajab pärast sünnitust palju jõudu ja et süsivesikuid ei tasu karta. „Süsivesikud on teie keha kütus,“ oli günekoloog naeratades öelnud. „Teie keha teeb praegu rasket tööd.“ Nüüd meenusid need sõnad Heljele, kui ta tõstis endale teist korda kartuliputru. Kartulis on palju süsivesikuid, ja Miina arvas, et just seda vajab väsinud ema.\n\nVastsündinu ärkas iga kolme tunni järel. Öösel võttis Helje tütre enda kõrvale kaissu ja toitis teda. Päeval oli aga Miina see, kes last uinutas. Ta kõndis väikese tüdrukuga külalistetoas edasi-tagasi ja laulis vanu laule, mida ta oli kunagi laulnud Heljele. Laul uinutas lapse alati kiiresti. Mõnikord uinutas see ka vanaema enda, ja Ilvar leidis nad mõlemad tugitoolist magamas.\n\nNädala lõpus hakkas Miina koju sõitma. Ta jättis külmkappi poti suppi ja kolm karpi kartuliputru. Helje kallistas ema ja ütles, et esimene nädal oli olnud mõneti raskem, kui ta oli arvanud, aga mõneti ka ilusam. Ilvar võttis tütre kaissu ja lehvitas tema väikese käega vanaemale järele.\n\nKüsimused:\nMiks sõitis Miina Võrust Tartusse?\nTema tütar Helje sai lapse ja Miina tuli appi.\nMilline vana komme on Eestis vastsündinuga seotud?\nVastsündinu perele viiakse süüa, et noor ema ei peaks esimestel nädalatel ise süüa tegema.\nKuidas tegi Miina kartulipudru?\nTa keetis kartulid pehmeks, lisas sooja piima ja võid ning segas, kuni puder oli sile.\nMida oli günekoloog süsivesikute kohta öelnud?\nTa oli öelnud, et süsivesikuid ei tasu karta, sest keha vajab pärast sünnitust palju jõudu.\nKes uinutas last päeval?\nPäeval uinutas last vanaema Miina, kes kõndis temaga külalistetoas ja laulis."
+    },
+    {
+      "title": "Kibe õli",
+      "summary": "A shopkeeper in Viljandi gets a harsh review of her local rapeseed oil and finds that a broken seal, not a rival, is to blame.",
+      "newWords": [
+        "oliiviõli",
+        "etikett",
+        "standardne",
+        "hologramm",
+        "pahatahtlik",
+        "sihilik",
+        "tihend",
+        "infoallikas"
+      ],
+      "text": "Aneta peab Viljandis väikest toidupoodi, kus müüakse peamiselt kohalikku toitu: leiba, kama, mett, kala ja õli ühest Mulgimaa talust. Kõrval on riiul oliiviõliga, sest paljud ostjad küsivad seda. Aneta teab, et vanas Eesti köögis kasutati praadimiseks sea rasva ja võid ning et oliiviõli jõudis siinsetesse köökidesse alles viimase 30 aasta jooksul. Nüüd seisavad oliiviõli ja talu õli tema riiulil kõrvuti nagu kaks naabrit.\n\nIgal pudelil on etikett. Oliiviõli pudelid on standardse kujuga, ja nende etiketti kaunistab väike hõbedane hologramm. Hologramm näitab, et õli tuleb kindlast piirkonnast ja on läbinud kontrolli. Talu õli pudelid ei ole standardse kujuga ja neil hologrammi ei ole. Nende etiketti joonistas Aneta õde ise: kollane õis ja talu nimi.\n\nÜhel hommikul leidis Aneta poe kodulehelt halva arvustuse. Keegi kirjutas, et talu õli maitses kibedalt ja et pood müüb vana õli uue nime all.\n\nArvustus tundus Anetale pahatahtlik. Esimese hooga mõtles ta, et selle kirjutas mõni konkurent ja et see oli sihilik katse tema poele halba nime teha. Ta oli juba hakanud teravat vastust kirjutama, kuid jättis selle pooleli. Tema isa oli talle kunagi öelnud: „Enne kui arvad, et keegi on pahatahtlik, vaata oma riiulit.“\n\nAneta võttis riiulilt kõik talu õli pudelid ja vaatas need läbi. Kolmel pudelil oli kork veidi lahti. Kui ta korgi maha keeras, nägi ta, et kummist tihend oli katki. Läbi katkise tihendi oli pudelisse pääsenud õhk ja õli oli muutunud kibedaks. Keegi ei olnud pahatahtlik ja midagi ei olnud tehtud sihilikult. Põhjus oli väike tihend, mis maksab paar senti.\n\nTa helistas talunikule, kes saatis uue partii, millel olid uued tihendid. Seejärel kirjutas Aneta arvustuse alla viisaka vastuse. Ta tänas ostjat, palus vabandust ja kutsus teda poodi uue pudeli järele.\n\nMõne päeva pärast tuli poodi noor mees nimega Endro. Tema oligi arvustuse kirjutanud. Ta ütles, et ei tahtnud kedagi solvata, ta oli lihtsalt pettunud. Endro rääkis, et tema kõige tähtsam infoallikas toidu kohta on internet. Aneta naeris ja ütles, et parem infoallikas on etikett ning veel parem on müüja, kes oma kaupa tunneb.\n\nEndro lahkus pudeli talu õli ja pudeli oliiviõliga ning muutis oma arvustust: nüüd oli see sõbralik.\n\nKüsimused:\nMida müüb Aneta oma poes?\nTa müüb kohalikku toitu, näiteks leiba, kama, mett, kala ja talu õli, ning ka oliiviõli.\nMille poolest erinevad oliiviõli ja talu õli pudelid?\nOliiviõli pudelid on standardse kujuga ja nende etiketti kaunistab hologramm, talu õli pudelitel hologrammi ei ole.\nMiks arvas Aneta alguses, et arvustus oli pahatahtlik?\nTa arvas, et keegi tahtis sihilikult tema poele halba nime teha.\nMis oli õli kibeda maitse tegelik põhjus?\nKummist tihend oli katki ja pudelisse oli pääsenud õhk.\nMis on Aneta arvates parem infoallikas kui internet?\nEtikett ja müüja, kes oma kaupa tunneb."
+    },
+    {
+      "title": "Märkmik kaugest asundusest",
+      "summary": "A food historian reads an old notebook from an Estonian settlement in Siberia and brings its recipes back to life at a café evening in Tartu.",
+      "newWords": [
+        "asundus",
+        "põhjaosa",
+        "kopikas",
+        "ilming",
+        "mõeldamatu",
+        "edasiminek",
+        "taaselustama",
+        "lõppkokkuvõte"
+      ],
+      "text": "Elinor uurib Tartu ülikoolis toidu ajalugu. Mullu sai ta kirja ühelt vanemalt proualt, kes oli leidnud pööningult oma vanaema ema märkmiku. Märkmik oli kirjutatud 1910. aastatel Siberis, ühes eesti asunduses.\n\n19. sajandi lõpus ja 20. sajandi alguses kolisid tuhanded Eesti talupojad kaugele itta, sest seal sai odavalt maad. Nad ehitasid metsade ja jõgede äärde külasid, ja nii tekkis Siberisse mitu eesti asundust. Märkmiku kirjutaja Margareeta elas asunduse põhjaosas, jõe ääres. Asunduse põhjaosas oli ka küla veski, ja Margareeta mees töötas seal.\n\nMärkmikus oli retsepte, aga ka hindu. Nael suhkrut maksis mitu kopikat, karp tikke aga ainult ühe kopika. Leiva kohta polnud ühtegi hinda, sest leiba ei ostetud: seda küpsetati kodus. Elinor kirjutas kõik hinnad tabelisse, sest kopikates hinnad näitavad, mis oli asunduse peredele kallis ja mis odav. Suhkur oli kallis, seepärast pandi kookidesse suhkru asemel mett ja mustikaid.\n\nKõige rohkem huvitas Elinori see, kuidas eesti köök uues kohas muutus. Märkmikus olid kõrvuti kama ja pelmeenid, mida asunduse naised olid õppinud oma naabritelt. Pelmeenide tainas tehti aga pooleldi sellest jahust, millest küpsetati musta leiba. Elinori meelest on see ilming, mida võib näha igas köögis, mis on koos inimestega uude kohta rännanud: uus toit võetakse vastu, aga see tehakse oma käe järgi. Teine ilming oli leib. Elada ilma musta leivata oli Margareeta perele mõeldamatu, ja nii külvasid nad esimesel kevadel just seda vilja, millest musta leiba tehakse, isegi siis, kui nisu oleks paremini kasvanud. Elinor ütles oma kolleegidele naerdes, et see oli sama mõeldamatu kui elada ilma saunata.\n\nKäekirja lugemine oli aeglane. Esimesel kuul oli edasiminek vaevu märgatav, sest paljud sõnad olid kirjutatud nii, nagu neid sada aastat tagasi kirjutati. Siis aitas Elinori üks vanem kolleeg, kes oskas vana käekirja lugeda, ja edasiminek muutus kiiremaks. Kevadeks oli kogu märkmik ümber kirjutatud.\n\nMais otsustas Elinor retseptid taaselustada. Ta korraldas Tartus väikeses kohvikus õhtu, kus valmistati Margareeta pelmeene ja küpsetati mustikatega kooki. Taaselustatud toidud meeldisid külalistele väga. Õhtule tuli ka märkmiku omanik. Ta ütles, et oli lapsena kuulnud, kuidas vanaema neist toitudest rääkis, kuid polnud neid kunagi maitsnud. „Te olete taaselustanud minu vanaema köögi,“ ütles ta Elinorile.\n\nÕhtu lõpus pidas Elinor lühikese kõne. „Lõppkokkuvõttes ei ole toit ainult söök,“ ütles ta. „See on mälu, mis on kirja pandud.“ Külalised olid nõus ja lisasid, et lõppkokkuvõttes oli ka mustikatega kook väga hea.\n\nKüsimused:\nMis oli kirjutatud vanasse märkmikku?\nMärkmikus olid retseptid ja hinnad ühest eesti asundusest Siberis.\nKus elas Margareeta?\nTa elas asunduse põhjaosas, jõe ääres, kus oli ka küla veski.\nMida näitavad kopikates hinnad?\nNeed näitavad, mis oli asunduse peredele kallis ja mis odav.\nMis oli Margareeta perele mõeldamatu?\nNeile oli mõeldamatu elada ilma musta leivata.\nMiks oli edasiminek alguses aeglane?\nPaljud sõnad olid kirjutatud nii, nagu sada aastat tagasi, ja käekirja oli raske lugeda.\nKuidas taaselustas Elinor vanad retseptid?\nTa korraldas Tartus kohvikus õhtu, kus küpsetati märkmiku toite."
+    },
+    {
+      "title": "Leivapäev lõpuklassiga",
+      "summary": "A teacher takes her final-year class to a farm where a baking instructor shows them how to bake rye bread and sweet buns.",
+      "newWords": [
+        "kooliõpetaja",
+        "lõpuklass",
+        "instruktor",
+        "plastiline",
+        "minutiline",
+        "tõmbamine",
+        "rullima",
+        "pööramine",
+        "jurakas"
+      ],
+      "text": "Hellin on kooliõpetaja Paides. Ta õpetab ajalugu ja juhatab tänavu lõpuklassi. Sel kevadel tahtis tema lõpuklass enne eksameid midagi koos teha, ja Hellin pakkus välja sõita ühte Järvamaa tallu, kus küpsetatakse leiba vanas ahjus.\n\nTalus ootas neid instruktor Alvo, pikk mees, kelle põll oli jahune. Ta oli varem töötanud pagarina Tallinnas, nüüd aga õpetab ta inimesi leiba tegema. „Eesti leib on hapu ja must,“ ütles instruktor. „Leiva tainas ei ole plastiline nagu saia tainas. See on kleepuv ja raske, ja sellega tuleb töötada märgade kätega.“\n\nKõigepealt näitas Alvo, kuidas tainas oli eelmisel õhtul jahust, veest ja eelmise leiva tükist kokku segatud. Siis töötasid noored taina kätega läbi. Pärast seda tuli minutiline paus: instruktor käskis kõigil käed tainast välja võtta ja üks minut oodata. „Minutilise puhkuse ajal tainas puhkab,“ seletas ta. Seda minutilist pausi kordasid nad mitu korda.\n\nKui leivad olid ahjus, tegi Alvo saia taina, et lõpuklass saaks teha magusaid saiu. See tainas oli hoopis teistsugune: pehme, sile ja plastiline. „Plastilist tainast võib venitada nagu kummi,“ ütles instruktor. Ta näitas, kuidas taina tõmbamine teeb saia kohevaks. Tõmbamise ajal tuleb tainast õrnalt hoida, et see ei rebeneks.\n\nSiis pidi iga õpilane laual pika taina pulga rullima. Hellin proovis ka ise rullida, ja tema pulk tuli kõige pikem. Alvo kiitis kooliõpetajat ja ütles, et head kooliõpetajad on alati kannatlikud. Seejärel keerati rullitud taina pulgad sõlme ja saiad pandi ahju.\n\nKõige raskem oli leiva pööramine. Kui must leib oli peaaegu valmis, tuli see ahjus labidaga ümber pöörata, et koorik küpseks igalt poolt. Pööramine nõuab julgust, sest ahi on kuum ja leib raske. Ainult kaks õpilast julgesid seda teha, ja instruktor seisis kogu aeg nende kõrval.\n\nÕhtul lõikas Alvo igale õpilasele suure juraka sooja leiba. Jurakas oli nii suur, et see ei mahtunud kotti. Noored sõid leiba võiga ja saiu teega ning ütlesid, et see oli nende kõige parem koolipäev. Hellin viis koju ka ühe juraka ja jagas seda naabritega.\n\nKüsimused:\nKes on Hellin?\nHellin on kooliõpetaja Paides ja ta juhatab lõpuklassi.\nMiks ei ole leiva tainas plastiline?\nSee on kleepuv ja raske ning sellega tuleb töötada märgade kätega.\nMis oli minutiline paus?\nInstruktor käskis kõigil käed tainast välja võtta ja üks minut oodata.\nMiks on taina tõmbamine tähtis?\nTaina tõmbamine teeb saia kohevaks.\nMiks on leiva pööramine raske?\nAhi on kuum ja leib raske, nii et pööramine nõuab julgust.\nMida sai iga õpilane õhtul?\nIga õpilane sai suure juraka sooja leiba."
+    },
+    {
+      "title": "Aukülaline Saaremaal",
+      "summary": "A Saaremaa village invites the elderly author of a local cookbook as guest of honour to its autumn dinner.",
+      "newWords": [
+        "aukülaline",
+        "hekk",
+        "triibuline",
+        "hääletoon",
+        "koduabiline",
+        "nimepidi",
+        "edevus",
+        "lummus"
+      ],
+      "text": "Ühes väikeses Saaremaa külas korraldavad naised igal sügisel ühise õhtusöögi. Sel aastal otsustati kutsuda aukülaliseks Juhanna, kes kirjutas üle neljakümne aasta tagasi raamatu Saaremaa toitudest. Juhanna on nüüd 86-aastane ja elab Kuressaares.\n\nÕhtusöök toimus Keiri talus. Talu õue ümbritses kõrge hekk, mida Keiri ja tema mees Ennar olid terve nädala lõiganud. Hekk oli nii sirge ja korras, et Juhanna jäi autost välja astudes seda imetlema. „Sellist hekki ei ole ma ammu näinud,“ ütles ta.\n\nLaud oli kaetud vana triibulise riidega, mille Keiri vanaema oli kunagi ise kudunud. Triibuline riie meenutas saarte naiste vana triibulist seelikut, mida kanti pidudel. Laual olid kõik Saaremaa toidud: must leib, kala, kama, kartulid ja hapukoor. Aukülalise jaoks olid naised küpsetanud koogi tema enda raamatu järgi.\n\nJuhanna istus laua otsas. Ta rääkis vaikse ja rahuliku hääletooniga, kuid kõik kuulasid teda. Ta jutustas, et oli 16-aastaselt läinud Tallinna ja olnud seal koduabiline ühes suures peres. Selle pere vanalt kokalt õppis ta kõik, mida ta oskas. „Koduabiline pidi oskama kõike,“ ütles ta. „Ja kui sa oskad kõike, siis kirjutad lõpuks raamatu.“ Koduabilise elu oli raske, aga Juhanna rääkis sellest naerdes.\n\nKõige rohkem üllatas Keirit, et Juhanna mäletas kõiki küla naisi nimepidi, kuigi ta polnud mõnda neist kolmkümmend aastat näinud. Ta pöördus iga külalise poole nimepidi ja küsis tema vanemate ja laste kohta.\n\nKui Ennar kiitis Juhanna raamatut, raputas aukülaline pead. „Köök ei vaja edevust,“ ütles ta. „Toit ei pea olema ilus, vaid hea. Edevus teeb koogi kuivaks.“ Kõik naersid, sest see lause oli ka tema raamatus. Juhanna hääletoon oli soe, aga selles oli midagi, mis ei lubanud vaielda.\n\nÕhtu lõpus istusid külalised veel kaua laua taga. Juhanna lugude lummus oli nii suur, et keegi ei tahtnud koju minna. Keiri ütles hiljem, et see lummus kestis mitu päeva, ja paljud küla naised võtsid oma riiulilt Juhanna raamatu uuesti välja.\n\nKüsimused:\nKes oli õhtusöögi aukülaline?\nAukülaline oli Juhanna, kes kirjutas raamatu Saaremaa toitudest.\nMillega oli laud kaetud?\nLaud oli kaetud vana triibulise riidega, mille Keiri vanaema oli kudunud.\nKus Juhanna noorena töötas?\nTa oli koduabiline ühes suures Tallinna peres.\nMis üllatas Keirit?\nJuhanna mäletas kõiki küla naisi nimepidi.\nMida ütleb Juhanna edevuse kohta?\nTema arvates ei vaja köök edevust, sest toit peab olema hea, mitte ilus."
+    },
+    {
+      "title": "Korallrahust lestani",
+      "summary": "After five years as a diving guide in Indonesia, a woman goes out with her father in his boat off Hiiumaa to bring in the flounder nets.",
+      "newWords": [
+        "korallrahu",
+        "malaaria",
+        "alumiinium",
+        "nõrgenema",
+        "meelevald",
+        "hulpima",
+        "randuma",
+        "tänuväärt"
+      ],
+      "text": "Kretti töötas viis aastat Indoneesias giidina. Ta viis turiste sukeldudes korallrahule ja näitas neile vee all värvilisi kalu. Enne Indoneesiasse sõitu pidi ta käima arsti juures, sest mõnel sealsel saarel esineb malaaria. Arst andis talle malaaria vastu tabletid ja soovitas magada öösel võrgu all. Kretti ei jäänud kordagi haigeks.\n\nMöödunud kevadel tuli ta tagasi Hiiumaale. Kretti isa on kalur ja püüab kevadel lesta. Ühel hommikul läks Kretti temaga merele. Isa paat oli vana ja kerge, alumiiniumist. „Alumiinium ei lähe roostesse,“ ütles isa, „ja sellise paadi jaksan ma ise kaldale tõmmata.“ Alumiiniumi ainus viga on see, et päikese käes läheb paat kuumaks.\n\nÖösel oli puhunud tugev tuul, aga hommikuks oli see nõrgenenud. „Kalur on alati ilma meelevallas,“ ütles isa. „Kui tuul nõrgeneb, saab merele minna. Kui mitte, jäävad võrgud merre ja kala läheb raisku.“ Kretti mäletas, et ka Indoneesias olid paadid ilma meelevallas: kui tuli torm, jäid kõik kaldale. Sel hommikul meri siiski rahunes ja nad said välja sõita.\n\nVõrgu kohal hulpis vee peal punane poi. Isa haaras sellest kinni ja hakkas võrku üles tõmbama. Võrgus oli palju kala, enamasti lestad. Paadi ümber hulpis vee peal kajakaid, kes ootasid oma osa, ja isa viskas neile mõne väikese kala.\n\nKretti rääkis isale korallrahu ilust. Korallrahul on vesi soe ja selge ning kalad on punased, sinised ja kollased. „Seal on nagu suures akvaariumis,“ ütles ta. „Aga korallrahul ei tohi midagi kaasa võtta, sest see on kaitse all.“ Siin, Hiiumaa ranna ääres, on meri hall ja külm ning lest on samuti hall. „Aga lest suitsus on maitsvam kui ükski kala korallrahul,“ naeris isa.\n\nLõuna paiku randusid nad väikeses sadamas. Peaaegu samal ajal randus ka naabri paat. Kaldal ootas Kretti ema, kes oli juba ahju kütnud. Lestad puhastati, pandi soola ja seejärel suitsu. Tunni pärast olid need kuldsed.\n\nÕhtul ütles Kretti, et kalapüük on raske, aga tänuväärt töö. Indoneesias näitas ta turistidele ilu, kodus aga toob ta lauale toitu. „Mõlemad on tänuväärt,“ ütles isa, „aga lest lõhnab paremini.“\n\nKüsimused:\nMida tegi Kretti Indoneesias?\nTa oli giid ja viis turiste korallrahule.\nMiks pidi Kretti enne sõitu arsti juures käima?\nMõnel sealsel saarel esineb malaaria ja ta vajas tablette.\nMillest on isa paat tehtud?\nIsa paat on tehtud alumiiniumist.\nMiks on kalur ilma meelevallas?\nTa saab merele minna alles siis, kui tuul nõrgeneb.\nKus nad randusid?\nNad randusid lõuna paiku väikeses sadamas.\nMida arvab Kretti kalapüügist?\nTema arvates on kalapüük raske, aga tänuväärt töö."
+    },
+    {
+      "title": "Supp vanas agulis",
+      "summary": "A father from a new suburb takes his sick son to his grandmother's wooden house, where she cooks a soup from a beef leg bone.",
+      "newWords": [
+        "eeslinn",
+        "kolonn",
+        "agul",
+        "ajend",
+        "jalaluu",
+        "tervendama",
+        "ajendama"
+      ],
+      "text": "Mikkel elab koos naise ja kahe lapsega uues eeslinnas Tartu lähedal. Igal hommikul sõidab ta tööle kesklinna. Eeslinnast linna viival teel liigub autode kolonn nii aeglaselt, et ta jõuaks vahepeal raamatu läbi lugeda. Kolonnis seistes mõtleb Mikkel sageli oma vanaemale Pärjele, kes elab linna teises servas, vanas agulis.\n\nAgul on vana linnaosa, kus on puust majad. Sinna ehitasid 19. sajandil oma maju töölised ja meistrid. Kunagi peeti agulit vaeseks ja mustaks, tänapäeval on aga aguli kitsad tänavad ja rohelised hoovid väga populaarsed. Pärje on elanud samas majas kogu oma elu. Tema köögis on vana pliit ja aknal kasvavad lilled.\n\nNovembris jäi Mikkeli poeg Joosu haigeks. Poiss oli väsinud, ei tahtnud süüa ja köhis öösel. Just see oli ajend, miks Mikkel vanaemale helistas. Pärje kuulas ja ütles ainult: „Tooge poiss minu juurde. Ma keedan suppi.“\n\nKui nad kohale jõudsid, oli Pärje juba turult toonud veise jalaluu. Ta pani jalaluu suurde potti, valas peale külma vett ja lasi sellel madalal tulel mitu tundi keeda. Siis lisas ta porgandit ja sibulat. Kogu maja lõhnas supi järele. „Jalaluu annab supile jõudu,“ ütles ta. „Kui jalaluud ei ole, on see lihtsalt vesi.“\n\nPärje usub, et kuum supp tervendab. Tema ema keetis sama suppi, kui keegi peres haigeks jäi, ja tema vanaema samuti. Mikkel ei teadnud, kas supp tõesti tervendab või aitab lihtsalt soojus ja hool. Arst oleks öelnud, et laps vajab puhkust ja palju juua. Aga Joosu sõi kaks kaussi suppi ja jäi vanaema diivanil rahulikult magama. Kolme päeva pärast oli ta jälle terve.\n\nMis ajendas Mikkelit ise suppi keetma õppima? Ta ütles hiljem, et teda ajendas vanaema köögi rahu. Eeslinnas on kõik uus ja kiire, aguli majas aga seisab aeg justkui paigal. Teine ajend oli see, et Pärje on juba 84-aastane ja Mikkel ei tahtnud, et tema retsept kaoks.\n\nJärgmisel pühapäeval ostis Mikkel ise turult jalaluu ja keetis eeslinna köögis oma esimese supi. Ta helistas kaks korda vanaemale ja küsis nõu. Supp tuli veidi hägune, aga lapsed sõid selle ära ja küsisid veel.\n\nKüsimused:\nKus elab Mikkel?\nTa elab uues eeslinnas Tartu lähedal.\nMiks mõtleb Mikkel vanaemale just autos?\nAutode kolonn liigub nii aeglaselt, et tal on aega mõelda.\nMis on agul?\nAgul on vana linnaosa, kus on puust majad ja kuhu ehitasid maju töölised ja meistrid.\nMis oli Mikkeli kõne ajend?\nTema poeg Joosu jäi haigeks.\nMillest keetis Pärje supi?\nTa keetis selle veise jalaluuga, porgandi ja sibulaga.\nMis ajendas Mikkelit suppi keetma õppima?\nTeda ajendas vanaema köögi rahu ja soov, et retsept ei kaoks."
+    },
+    {
+      "title": "Kama Londonis",
+      "summary": "An Estonian woman runs a small café in London that sells rye bread and kama, and one day a food critic visits under a false name.",
+      "newWords": [
+        "niiöelda",
+        "valuuta",
+        "penn",
+        "pedaal",
+        "funktsioneerima",
+        "valenimi"
+      ],
+      "text": "Getri kolis kümme aastat tagasi Londonisse. Alguses töötas ta kontoris, kuid tal oli puudu kodusest toidust: hapust mustast leivast, kamast ja soolastest kurkidest. Viis aastat tagasi avas ta Londoni idas väikese kohviku, mida tema sõbrad kutsuvad niiöelda väikeseks Eestiks. Seal müüakse musta leiba, kama, mustikatega kooki ja soolaseid kurke.\n\nEsimesel aastal oli Getril raskusi rahaga. Ta arvutas alguses kõik hinnad eurodesse ümber, sest kohalik valuuta oli talle võõras. Ta mõtles naelades ja pennides, aga tundis eurodes. Kui klient maksis sularahas, jäi kassasse palju väikseid münte, ja pennid kogunesid purki leti all. „Iga penn loeb,“ ütles Getri endale. Ka jahu ostis ta alguses Eestist, ja iga kord tuli valuutat vahetada. Hiljem leidis ta Inglismaalt veski, kus jahvatatakse head jahu musta leiva jaoks.\n\nIgal hommikul sõidab Getri turule suure rattaga, mille ees on kast. Ratas on raske, eriti kui kastis on kakskümmend leiba, ja Getri peab pedaale kõvasti vajutama. Mäest üles minnes tõuseb ta püsti ja surub jalad kogu jõuga pedaalidele. Ta ütleb, et see on parem kui ükski trenn.\n\nKohviku vana kohvi masin funktsioneerib ainult siis, kui seda enne tööle panemist natuke koputada. Getri ütleb, et masin funktsioneerib nagu vana traktor: aeglaselt, aga kindlalt. Uut masinat ta osta ei taha, sest vanaga on tal niiöelda sõprus.\n\nMöödunud talvel tuli kohvikusse vaikne mees, kes tellis kama ja leiba võiga. Ta ütles oma nimeks Tom ja küsis palju küsimusi. Kuu aega hiljem ilmus ajalehes artikkel Getri kohvikust. Selgus, et mees oli tuntud toidu kriitik, kes käib restoranides alati valenimega, et teda ära ei tuntaks. Valenimi on kriitikute vana nõks: nii kohtlevad kohvikud teda nagu iga teist klienti.\n\nArtikkel oli soe. Kriitik kirjutas, et kama on Eesti hommikusöögi saladus ja et Getri leib on parim, mida ta Londonis söönud on. Pärast artiklit tuli kohvikusse nii palju inimesi, et leib sai juba lõunaks otsa. Getri riputas artikli seinale ja kirjutas alla: „Siin sõi Tom, kelle valenime me ei tundnud.“\n\nKüsimused:\nMida müüakse Getri kohvikus?\nSeal müüakse musta leiba, kama, mustikatega kooki ja soolaseid kurke.\nMiks oli Getril alguses raske?\nKohalik valuuta oli talle võõras ja ta arvutas kõik hinnad eurodesse ümber.\nKuidas Getri turule sõidab?\nTa sõidab suure rattaga ja peab pedaale kõvasti vajutama.\nMillal kohvi masin funktsioneerib?\nMasin funktsioneerib ainult siis, kui seda enne tööle panemist natuke koputada.\nMiks kasutas kriitik valenime?\nTa ei tahtnud, et teda ära tuntaks, sest siis kohtlevad kohvikud teda nagu iga teist klienti."
+    },
+    {
+      "title": "Aastavahetus kaamera ees",
+      "summary": "A film director records a Rakvere family's New Year's Eve table, with a horse-shaped cake for the youngest and fireworks at midnight.",
+      "newWords": [
+        "režissöör",
+        "fotograafia",
+        "vertikaalne",
+        "lärmama",
+        "tulevärk"
+      ],
+      "text": "Režissöör Nelo teeb filmi sellest, mida Eesti pered vana aasta viimasel õhtul söövad. Enne filmide tegemist õppis ta fotograafiat ja pildistas aastaid toitu ajakirjadele. Fotograafia õpetas teda vaatama, kuidas valgus taldrikule langeb. Nüüd tahab ta näidata, et toit ei täida ainult kõhtu, vaid toob kokku ka pere.\n\nRauni pere Rakveres lubas režissööril filmida oma aastavahetuse õhtut. Kell kuus on laud valmis. Laual on hapu kapsas, sealiha, ahjus küpsetatud kartulid, salat ja must leib. Rauni ema Velly on toonud kaasa oma kuulsa koogi. Kook näeb välja nagu hobune: valge koor, pruunid kõrvad ja pikk lakk kõigis vikerkaare värvides. Rauni tütar Liilu armastab hobuseid, ja tema toas on hobuseid igal riiulil.\n\nNelo filmib suure kaameraga, kuid tema abiline filmib kõike ka telefoniga. „Tänapäeval vaatavad inimesed filme telefonist,“ seletab režissöör, „ja telefon on vertikaalne. Seepärast vajame me ka vertikaalset pilti.“ Fotograafia reeglid kehtivad ka vertikaalse pildi puhul: valgus peab tulema küljelt ja laud ei tohi olla liiga täis.\n\nÕhtu edenedes muutub laud valjemaks. Lapsed lärmavad, onud räägivad korraga ja keegi naerab kõva häälega. Rauni palub lastel vaiksemalt olla, aga Nelo raputab pead. „Las lärmavad,“ ütleb ta. „Ilma selleta ei ole see päris õhtu.“ Liilu lärmab kõige rohkem, sest tema tahab, et hobune juba lõigataks.\n\nKell üksteist lõikab vanaema koogi. Liilu saab esimese tüki, selle, kus on hobuse pea. Nelo filmib, kuidas tüdruk šokolaadist silma hoolikalt taldriku servale tõstab ja selle viimaseks jätab.\n\nKesköö paiku lähevad kõik õue. Linna kohal algab tulevärk. Taevas läheb punaseks, roheliseks ja kuldseks. Liilu kardab paukusid ja istub vanaema süles, aga silmad on tal lahti. Nelo filmib tulevärki ja pere nägusid, mida tulevärgi valgus valgustab.\n\nPärast keskööd joovad kõik kuuma teed ja söövad koogi viimased tükid. Režissöör ütleb, et see on filmi kõige parem osa: mitte toit ise, vaid inimesed selle ümber.\n\nKüsimused:\nMillest teeb režissöör Nelo filmi?\nTa teeb filmi sellest, mida Eesti pered vana aasta viimasel õhtul söövad.\nMida õppis Nelo enne filmide tegemist?\nTa õppis fotograafiat ja pildistas toitu ajakirjadele.\nMilline kook oli laual?\nLaual oli kook, mis nägi välja nagu hobune.\nMiks filmib abiline ka telefoniga?\nInimesed vaatavad filme telefonist ja telefon on vertikaalne.\nMiks ei taha Nelo, et lapsed vaikselt oleksid?\nTema arvates ei ole ilma lärmata päris õhtut.\nMida tehakse kesköö paiku?\nKõik lähevad õue ja vaatavad tulevärki."
+    }
+  ]
+}
