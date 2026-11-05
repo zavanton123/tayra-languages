@@ -43,6 +43,8 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
+import androidx.compose.runtime.collectAsState
+import androidx.compose.ui.test.onAllNodesWithText
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertIs
@@ -350,5 +352,46 @@ class VideosScreenTest {
         assertEquals(1, gato.firstLine)
         assertEquals("gato", vm.state.value.lines[1].items[gato.firstItem].renderText)
         assertEquals(words.sortedBy { it.textLc }, videoWords(vm.state.value.lines, WordOrder.ALPHABETICAL))
+    }
+
+    /** A YouTube player whose subtitles wait until the test lets them come. */
+    private class WaitingPlayer : com.tayra.languages.core.ui.media.VideoController, com.tayra.languages.core.ui.media.YouTubeCaptions {
+        override val position = kotlinx.coroutines.flow.MutableStateFlow(0L)
+        override val playing = kotlinx.coroutines.flow.MutableStateFlow(false)
+        override val durationMs = kotlinx.coroutines.flow.MutableStateFlow(0L)
+        override val rate = kotlinx.coroutines.flow.MutableStateFlow(1f)
+        override val problem = kotlinx.coroutines.flow.MutableStateFlow<com.tayra.languages.core.ui.media.VideoProblem?>(null)
+        override val advertShowing = kotlinx.coroutines.flow.MutableStateFlow(false)
+        val subtitles = kotlinx.coroutines.CompletableDeferred<String?>()
+        override fun play() {}
+        override fun pause() {}
+        override fun seekTo(ms: Long) {}
+        override fun setRate(rate: Float) {}
+        override suspend fun details() = com.tayra.languages.core.ui.media.YouTubeDetails(
+            "Aula", "Canal", 60_000, listOf(com.tayra.languages.core.ui.media.YouTubeTrack("pt", false, "Portuguese", "/api/timedtext")),
+        )
+        override suspend fun captions(track: com.tayra.languages.core.ui.media.YouTubeTrack, translateTo: String?) = subtitles.await() to null
+    }
+
+    @Test
+    fun addingAVideoSaysWhenItWaitsForAnAdvert() = runDesktopComposeUiTest(width = 1000, height = 1400) {
+        val add = AddVideoViewModel(service, videos, settings, languages, com.tayra.languages.core.data.media.SubtitleDownloader(io.ktor.client.HttpClient(io.ktor.client.engine.mock.MockEngine { respond("") })))
+        val player = WaitingPlayer()
+        add.setYouTubeInput("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+        add.onYouTubePlayer(player)
+        setContent { TayraTheme { ProvideWindowWidth { AddVideoContent(add.state.collectAsState().value, AddVideoActions()) } } }
+        waitUntil(timeoutMillis = 5_000) { add.state.value.youtube.track != null }
+        assertEquals(0, onAllNodesWithTag("add-video-progress").fetchSemanticsNodes().size)
+
+        add.add()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Getting the subtitles\u2026").fetchSemanticsNodes().isNotEmpty() }
+        player.advertShowing.value = true
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("YouTube is showing an advert. The subtitles come right after it.").fetchSemanticsNodes().isNotEmpty() }
+        player.advertShowing.value = false
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Getting the subtitles\u2026").fetchSemanticsNodes().isNotEmpty() }
+
+        player.subtitles.complete(null)
+        waitUntil(timeoutMillis = 5_000) { !add.state.value.saving }
+        assertEquals(0, onAllNodesWithTag("add-video-progress").fetchSemanticsNodes().size)
     }
 }

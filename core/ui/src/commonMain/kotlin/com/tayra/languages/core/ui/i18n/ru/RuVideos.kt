@@ -36,7 +36,6 @@ internal val ruVideos: Map<String, String> = mapOf(
     "Reading the video…" to "Загружаем сведения о видео…",
     "Automatic subtitles have no punctuation; their pieces are joined into lines." to "В автоматических субтитрах нет пунктуации; их фрагменты объединяются в реплики.",
     "YouTube's translation" to "Перевод YouTube",
-    "Show YouTube's translation of each line into your language." to "Показывать перевод каждой реплики на ваш язык от YouTube.",
     "{0} (automatic)" to "{0} (автоматические)",
     "YouTube did not give this video's details." to "YouTube не передал сведения об этом видео.",
     "This video has no subtitles." to "У этого видео нет субтитров.",
@@ -95,4 +94,7 @@ internal val ruVideos: Map<String, String> = mapOf(
     "Features" to "Функции",
     "Watch videos with their subtitles as text you can read and look up." to "Смотрите видео с субтитрами в виде текста, который можно читать и переводить.",
     "Videos aren't available on the web yet." to "Видео пока недоступны в веб-версии.",
+    "YouTube is showing an advert. The subtitles come right after it." to "YouTube показывает рекламу. Субтитры появятся сразу после неё.",
+    "Getting the subtitles…" to "Получение субтитров…",
+    "Ask YouTube to translate each line into your language. YouTube often refuses; lines are then translated as you watch." to "Попросить YouTube перевести каждую строку на ваш язык. YouTube часто отказывает; тогда строки переводятся во время просмотра.",
 )

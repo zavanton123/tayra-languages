@@ -36,7 +36,6 @@ internal val zhVideos: Map<String, String> = mapOf(
     "Reading the video…" to "正在读取视频…",
     "Automatic subtitles have no punctuation; their pieces are joined into lines." to "自动字幕没有标点，片段会被合并成句。",
     "YouTube's translation" to "YouTube 翻译",
-    "Show YouTube's translation of each line into your language." to "显示 YouTube 将每句翻译成你的语言的译文。",
     "{0} (automatic)" to "{0}（自动）",
     "YouTube did not give this video's details." to "YouTube 未提供此视频的信息。",
     "This video has no subtitles." to "此视频没有字幕。",
@@ -95,4 +94,7 @@ internal val zhVideos: Map<String, String> = mapOf(
     "Features" to "功能",
     "Watch videos with their subtitles as text you can read and look up." to "观看视频，字幕以文本显示，可供阅读和查词。",
     "Videos aren't available on the web yet." to "网页版暂不支持视频。",
+    "YouTube is showing an advert. The subtitles come right after it." to "YouTube 正在播放广告，字幕会在广告结束后获取。",
+    "Getting the subtitles…" to "正在获取字幕…",
+    "Ask YouTube to translate each line into your language. YouTube often refuses; lines are then translated as you watch." to "请 YouTube 将每行翻译成你的语言。YouTube 经常拒绝，此时会在观看时翻译各行。",
 )

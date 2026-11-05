@@ -158,6 +158,14 @@ internal fun AddVideoContent(state: AddVideoUiState, actions: AddVideoActions, m
             AppTextField(state.title, actions.onTitle, Modifier.fillMaxWidth().testTag("video-title"), singleLine = true)
         }
         state.error?.let { Notice(tr(it), tint = colors.error) }
+        if (state.saving && state.origin == VideoOrigin.YOUTUBE) {
+            Text(
+                if (state.waitingForAdvert) tr("YouTube is showing an advert. The subtitles come right after it.") else tr("Getting the subtitles…"),
+                style = MaterialTheme.typography.bodySmall,
+                color = colors.onSurfaceVariant,
+                modifier = Modifier.testTag("add-video-progress"),
+            )
+        }
         PrimaryButton(tr("Add video"), onClick = actions.onAdd, enabled = state.canAdd, loading = state.saving, icon = AppIcons.Movie, modifier = Modifier.testTag("add-video-confirm"))
     }
 }
@@ -359,7 +367,7 @@ private fun YouTubeForm(state: AddVideoUiState, actions: AddVideoActions) {
                 }
                 SwitchSetting(
                     tr("YouTube's translation"),
-                    tr("Show YouTube's translation of each line into your language."),
+                    tr("Ask YouTube to translate each line into your language. YouTube often refuses; lines are then translated as you watch."),
                     checked = pick.translate,
                     onChange = actions.onTranslate,
                 )

@@ -36,7 +36,6 @@ internal val elVideos: Map<String, String> = mapOf(
     "Reading the video…" to "Ανάγνωση του βίντεο…",
     "Automatic subtitles have no punctuation; their pieces are joined into lines." to "Οι αυτόματοι υπότιτλοι δεν έχουν στίξη· τα κομμάτια τους ενώνονται σε γραμμές.",
     "YouTube's translation" to "Μετάφραση του YouTube",
-    "Show YouTube's translation of each line into your language." to "Εμφάνιση της μετάφρασης κάθε γραμμής από το YouTube στη γλώσσα σας.",
     "{0} (automatic)" to "{0} (αυτόματοι)",
     "YouTube did not give this video's details." to "Το YouTube δεν έδωσε τα στοιχεία αυτού του βίντεο.",
     "This video has no subtitles." to "Αυτό το βίντεο δεν έχει υπότιτλους.",
@@ -95,4 +94,7 @@ internal val elVideos: Map<String, String> = mapOf(
     "Features" to "Λειτουργίες",
     "Watch videos with their subtitles as text you can read and look up." to "Παρακολουθήστε βίντεο με τους υπότιτλους ως κείμενο που μπορείτε να διαβάζετε και να αναζητάτε.",
     "Videos aren't available on the web yet." to "Τα βίντεο δεν είναι ακόμα διαθέσιμα στο web.",
+    "YouTube is showing an advert. The subtitles come right after it." to "Το YouTube δείχνει μια διαφήμιση. Οι υπότιτλοι έρχονται αμέσως μετά.",
+    "Getting the subtitles…" to "Λήψη υποτίτλων…",
+    "Ask YouTube to translate each line into your language. YouTube often refuses; lines are then translated as you watch." to "Ζητήστε από το YouTube να μεταφράσει κάθε γραμμή στη γλώσσα σας. Το YouTube συχνά αρνείται· τότε οι γραμμές μεταφράζονται καθώς παρακολουθείτε.",
 )

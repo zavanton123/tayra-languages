@@ -6,6 +6,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withTimeoutOrNull
@@ -34,6 +35,9 @@ interface YouTubeCaptions {
 
     /** The [track] and, with [translateTo], YouTube's translation of it into that language; null for any that can't be had. */
     suspend fun captions(track: YouTubeTrack, translateTo: String?): Pair<String?, String?>
+
+    /** Whether YouTube is showing an advert before the video, which the subtitles have to wait for. */
+    val advertShowing: StateFlow<Boolean>
 }
 
 /** Why YouTube's player refused a video, by its error code. */
@@ -55,6 +59,7 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
     override val durationMs = MutableStateFlow(0L)
     override val rate = MutableStateFlow(1f)
     override val problem = MutableStateFlow<VideoProblem?>(null)
+    override val advertShowing = MutableStateFlow(false)
     override val latencyMs: Long get() = 60
 
     /** Runs [script] in the page; its value as text (a JSON string for objects), or null. */
@@ -133,6 +138,7 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
     }
 
     private fun onState(state: Int) {
+        if (advertShowing.value) return
         // 1 plays, 3 buffers on the way to playing, 2 pauses, 0 ends, 5 is cued.
         playing.value = state == 1 || state == 3
         if (state == 0) position.value = durationMs.value
@@ -157,6 +163,13 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
         val values = runCatching { Json.parseToJsonElement(text) as? JsonArray }.getOrNull() ?: return
         val seconds = values.getOrNull(0)?.jsonPrimitive?.doubleOrNull ?: return
         val state = values.getOrNull(1)?.jsonPrimitive?.intOrNull ?: return
+        // An advert's own time and length say nothing about the video, and its player state stays "not started" while it runs.
+        val advert = values.getOrNull(4)?.jsonPrimitive?.intOrNull ?: ADVERT_NONE
+        advertShowing.value = advert != ADVERT_NONE
+        if (advertShowing.value) {
+            playing.value = advert == ADVERT_PLAYING
+            return
+        }
         val length = values.getOrNull(2)?.jsonPrimitive?.doubleOrNull ?: 0.0
         values.getOrNull(3)?.jsonPrimitive?.doubleOrNull?.let { rate.value = it.toFloat() }
         if (length > 0) durationMs.value = (length * 1000).toLong()
@@ -168,7 +181,7 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
 
     /** Counts the place on from the player's last answer, as the screen draws a frame. */
     fun tick() {
-        if (!playing.value) return
+        if (!playing.value || advertShowing.value) return
         val counted = told + (toldAt.elapsedNow().inWholeMilliseconds * rate.value).toLong()
         val end = durationMs.value
         position.value = if (end > 0) counted.coerceAtMost(end) else counted
@@ -189,7 +202,7 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
     override fun pause() {
         playing.value = false
         pendingPlay = false
-        command("p.pauseVideo()")
+        command("p.pauseVideo(); var v = p.querySelector('video'); if (v && p.classList.contains('ad-showing')) v.pause()")
         scope.launch { read() }
     }
 
@@ -292,6 +305,8 @@ abstract class WebYouTubeController(private val scope: CoroutineScope) : VideoCo
         private const val READY_TIMEOUT_MS = 30_000L
         private const val DETAILS_TIMEOUT_MS = 20_000L
         private const val EMBEDDING_REFUSED = 150
+        private const val ADVERT_NONE = 0
+        private const val ADVERT_PLAYING = 2
         private val REFUSED_CODES = setOf(101, 150, 152, 153)
         private const val TOKEN_TIMEOUT_MS = 90_000L
     }
@@ -415,7 +430,9 @@ object YouTubeScripts {
           t.status = function () {
             var p = t.player();
             if (!p || !p.getCurrentTime) return null;
-            return JSON.stringify([p.getCurrentTime(), p.getPlayerState(), p.getDuration(), p.getPlaybackRate ? p.getPlaybackRate() : 1]);
+            var video = p.querySelector('video');
+            var advert = !p.classList.contains('ad-showing') ? 0 : video && !video.paused ? 2 : 1;
+            return JSON.stringify([p.getCurrentTime(), p.getPlayerState(), p.getDuration(), p.getPlaybackRate ? p.getPlaybackRate() : 1, advert]);
           };
           t.answer = function (id, promise) {
             Promise.resolve(promise).then(function (value) { post({ type: 'result', id: id, value: value }); },

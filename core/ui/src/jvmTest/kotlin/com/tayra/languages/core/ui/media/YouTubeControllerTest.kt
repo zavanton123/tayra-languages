@@ -8,6 +8,8 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlin.test.AfterTest
 import kotlin.test.Test
+import kotlinx.coroutines.withTimeout
+import kotlinx.coroutines.delay
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse
 import kotlin.test.assertIs
@@ -24,6 +26,7 @@ class YouTubeControllerTest {
     /** A page that answers as YouTube's would, and remembers what it was asked. */
     private inner class FakePage(private val details: String?, private val tracks: Map<String, String?> = emptyMap()) : WebYouTubeController(scope) {
         val asked = mutableListOf<String>()
+        @Volatile var status = "[12.5,1,243,1]"
 
         override suspend fun evaluate(script: String): String? {
             asked += script
@@ -40,7 +43,7 @@ class YouTubeControllerTest {
                 val json = if (value == null) "null" else kotlinx.serialization.json.JsonPrimitive(value).toString()
                 onMessage("""{"type":"result","id":$id,"value":$json}""")
             }
-            if (script.startsWith("window.__tayra ? __tayra.status()")) return "[12.5,1,243,1]"
+            if (script.startsWith("window.__tayra ? __tayra.status()")) return status
             return null
         }
     }
@@ -197,5 +200,37 @@ class YouTubeControllerTest {
         assertFalse(YouTubeScripts.staysInPlayer("charisma-r.riseguide.com", "/"))
         assertFalse(YouTubeScripts.staysInPlayer("notyoutube.com", "/watch"))
         assertFalse(YouTubeScripts.staysInPlayer(null, null))
+    }
+
+    @Test
+    fun anAdvertShowsAsPlayingButLeavesTheVideosPlaceAlone() = runBlocking {
+        val page = FakePage("{}")
+        page.status = "[3.0,-1,30,1,2]"
+        page.onMessage("""{"type":"ready"}""")
+        withTimeout(5_000) { while (!page.advertShowing.value) delay(10) }
+        assertTrue(page.playing.value)
+        assertEquals(0L, page.position.value)
+        assertEquals(0L, page.durationMs.value)
+        page.tick()
+        assertEquals(0L, page.position.value)
+
+        // Paused by the app, it is shown as paused; its state events change nothing.
+        page.status = "[3.0,-1,30,1,1]"
+        withTimeout(5_000) { while (page.playing.value) delay(10) }
+        page.onMessage("""{"type":"state","state":1}""")
+        assertFalse(page.playing.value)
+
+        page.status = "[12.5,1,243,1,0]"
+        withTimeout(5_000) { while (page.advertShowing.value) delay(10) }
+        withTimeout(5_000) { while (page.position.value < 12_500L) delay(10) }
+        assertEquals(243_000L, page.durationMs.value)
+        assertTrue(page.playing.value)
+    }
+
+    @Test
+    fun pausingAlsoPausesAnAdvert() = runBlocking {
+        val page = FakePage("{}")
+        page.pause()
+        withTimeout(5_000) { while (page.asked.none { it.contains("ad-showing") && it.contains("v.pause()") }) delay(10) }
     }
 }

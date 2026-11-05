@@ -36,7 +36,6 @@ internal val ptVideos: Map<String, String> = mapOf(
     "Reading the video…" to "Lendo o vídeo…",
     "Automatic subtitles have no punctuation; their pieces are joined into lines." to "Legendas automáticas não têm pontuação; os trechos são unidos em linhas.",
     "YouTube's translation" to "Tradução do YouTube",
-    "Show YouTube's translation of each line into your language." to "Mostrar a tradução do YouTube de cada linha para o seu idioma.",
     "{0} (automatic)" to "{0} (automáticas)",
     "YouTube did not give this video's details." to "O YouTube não informou os detalhes deste vídeo.",
     "This video has no subtitles." to "Este vídeo não tem legendas.",
@@ -95,4 +94,7 @@ internal val ptVideos: Map<String, String> = mapOf(
     "Features" to "Recursos",
     "Watch videos with their subtitles as text you can read and look up." to "Assista a vídeos com as legendas como texto que você pode ler e consultar.",
     "Videos aren't available on the web yet." to "Os vídeos ainda não estão disponíveis na web.",
+    "YouTube is showing an advert. The subtitles come right after it." to "O YouTube está exibindo um anúncio. As legendas vêm logo depois.",
+    "Getting the subtitles…" to "Obtendo as legendas…",
+    "Ask YouTube to translate each line into your language. YouTube often refuses; lines are then translated as you watch." to "Peça ao YouTube que traduza cada linha para o seu idioma. O YouTube costuma recusar; as linhas são então traduzidas enquanto você assiste.",
 )

@@ -102,6 +102,8 @@ data class AddVideoUiState(
     /** What went wrong, in English, to show through `tr`. */
     val error: String? = null,
     val saving: Boolean = false,
+    /** Adding a YouTube video is waiting for the advert YouTube shows before it. */
+    val waitingForAdvert: Boolean = false,
 ) {
     val canAdd: Boolean
         get() = !saving && !transcription.running && title.isNotBlank() && when (origin) {
@@ -358,7 +360,13 @@ class AddVideoViewModel(
         val language = settings.current.currentLanguageId
         videos.findByMedia(VideoKind.YOUTUBE, id, language)?.let { return it }
         val translateTo = s.nativeCode.takeIf { s.youtube.translate && it != track.languageCode.substringBefore('-') }
-        val (original, translated) = captions.captions(track, translateTo)
+        val advert = viewModelScope.launch { captions.advertShowing.collect { showing -> _state.update { it.copy(waitingForAdvert = showing) } } }
+        val (original, translated) = try {
+            captions.captions(track, translateTo)
+        } finally {
+            advert.cancel()
+            _state.update { it.copy(waitingForAdvert = false) }
+        }
         val cues = original?.let { SubtitleFormats.parse(it, SubtitleFormat.YOUTUBE_JSON) }.orEmpty()
         if (cues.isEmpty()) {
             _state.update { it.copy(error = "YouTube did not give the subtitles.") }

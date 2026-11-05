@@ -36,7 +36,6 @@ internal val deVideos: Map<String, String> = mapOf(
     "Reading the video…" to "Video wird gelesen…",
     "Automatic subtitles have no punctuation; their pieces are joined into lines." to "Automatische Untertitel haben keine Satzzeichen; ihre Stücke werden zu Zeilen verbunden.",
     "YouTube's translation" to "Übersetzung von YouTube",
-    "Show YouTube's translation of each line into your language." to "Die Übersetzung jeder Zeile in deine Sprache von YouTube zeigen.",
     "{0} (automatic)" to "{0} (automatisch)",
     "YouTube did not give this video's details." to "YouTube hat die Angaben zu diesem Video nicht geliefert.",
     "This video has no subtitles." to "Dieses Video hat keine Untertitel.",
@@ -95,4 +94,7 @@ internal val deVideos: Map<String, String> = mapOf(
     "Features" to "Funktionen",
     "Watch videos with their subtitles as text you can read and look up." to "Sieh Videos mit Untertiteln als Text, den du lesen und nachschlagen kannst.",
     "Videos aren't available on the web yet." to "Videos sind im Web noch nicht verfügbar.",
+    "YouTube is showing an advert. The subtitles come right after it." to "YouTube zeigt gerade Werbung. Die Untertitel kommen direkt danach.",
+    "Getting the subtitles…" to "Untertitel werden geholt…",
+    "Ask YouTube to translate each line into your language. YouTube often refuses; lines are then translated as you watch." to "YouTube bitten, jede Zeile in deine Sprache zu übersetzen. YouTube lehnt das oft ab; die Zeilen werden dann beim Ansehen übersetzt.",
 )
