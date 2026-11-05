@@ -1710,7 +1710,7 @@ class ReadingHoverTest {
         assertEquals(TermStatus.UNKNOWN, lobo() ?: TermStatus.UNKNOWN)
     }
 
-    /** A word that starts being learned keeps the sentence it was read in, until it is known, ignored or unknown again. */
+    /** A word that starts being learned keeps the sentence it was read in, for its card, whatever status it goes to. */
     @Test
     fun aWordStartingToBeLearnedKeepsItsSentence() = runBlocking {
         val vm = reader()
@@ -1726,13 +1726,13 @@ class ReadingHoverTest {
         assertEquals("O lobo dorme na floresta.", lobo()?.sentence, "kept while the word goes on being learned")
         vm.setStatus(TermStatus.WELL_KNOWN)
         await(TermStatus.WELL_KNOWN)
-        assertNull(lobo()?.sentence, "cleared once the word is known")
+        assertEquals("O lobo dorme na floresta.", lobo()?.sentence, "kept once the word is known")
         vm.markToLearn(vm.index("lobo"))
         await(TermStatus.NEW_1)
         assertEquals("O lobo dorme na floresta.", lobo()?.sentence)
         vm.setStatus(TermStatus.UNKNOWN)
         await(TermStatus.UNKNOWN)
-        assertNull(lobo()?.sentence, "cleared once the word is unknown again")
+        assertEquals("O lobo dorme na floresta.", lobo()?.sentence, "kept once the word is unknown again")
     }
 
     /** A status set on another screen (the examples, say) shows once the reader comes back to the front. */

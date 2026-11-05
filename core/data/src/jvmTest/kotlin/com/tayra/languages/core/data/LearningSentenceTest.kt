@@ -16,7 +16,7 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 
-/** A term keeps the sentence it was being read in while it is being learned (statuses 1 to 4). */
+/** A term keeps the sentence it was first read in: its card asks the word in it, whatever status the word goes to. */
 class LearningSentenceTest {
 
     private class Env {
@@ -43,17 +43,20 @@ class LearningSentenceTest {
         env.service.setStatus(listOf(id), TermStatus.NEW_1, mapOf(id to "Outro lobo."))
         assertEquals("O lobo dorme.", lobo().sentence, "the first sentence stays")
         env.service.setStatus(listOf(id), TermStatus.WELL_KNOWN)
-        assertNull(lobo().sentence, "cleared once the word is known")
+        assertEquals("O lobo dorme.", lobo().sentence, "kept once the word is known, for its card")
+        env.service.setStatus(listOf(id), TermStatus.LEARNING_3)
+        assertEquals("O lobo dorme.", lobo().sentence, "kept when learning starts again away from a text")
+        env.service.setStatus(listOf(id), TermStatus.WELL_KNOWN)
         env.service.setStatus(listOf(id), TermStatus.LEARNING_3, mapOf(id to "Outro lobo."))
-        assertEquals("Outro lobo.", lobo().sentence, "stored again when learning starts again")
+        assertEquals("Outro lobo.", lobo().sentence, "the one it is read in when learning starts again")
         env.service.setStatus(listOf(id), TermStatus.IGNORED)
-        assertNull(lobo().sentence, "cleared once the word is ignored")
-        env.service.save(env.service.draftOf(lobo()).copy(status = TermStatus.NEW_1, statusExplicitlySet = true))
-        assertNull(lobo().sentence, "nothing to store when the word is not read in a text")
-        env.service.save(env.service.draftOf(lobo()), sentence = "Lobo mau.")
-        assertEquals("Lobo mau.", lobo().sentence, "a learning word without a sentence takes the one it is read in")
+        assertEquals("Outro lobo.", lobo().sentence, "kept once the word is ignored")
         env.service.setStatus(listOf(id), TermStatus.UNKNOWN)
-        assertNull(lobo().sentence, "cleared once the word is unknown again")
+        assertEquals("Outro lobo.", lobo().sentence, "kept once the word is unknown again")
+        val gato = env.service.save(env.service.findOrNew(language, "gato").copy(status = TermStatus.NEW_1, statusExplicitlySet = true))
+        assertNull(env.terms.getById(gato)?.sentence, "nothing to store when the word is not read in a text")
+        env.service.save(env.service.draftOf(env.terms.getById(gato)!!), sentence = "O gato mia.")
+        assertEquals("O gato mia.", env.terms.getById(gato)?.sentence, "a learning word without a sentence takes the one it is read in")
     }
 
     @Test
@@ -68,8 +71,8 @@ class LearningSentenceTest {
 
         env.service.setStatus(listOf(child), TermStatus.WELL_KNOWN)
         assertEquals(TermStatus.WELL_KNOWN, env.terms.getById(parent.id)?.status)
-        assertNull(env.terms.getById(parent.id)?.sentence)
-        assertNull(env.terms.getById(child)?.sentence)
+        assertEquals("Os lobos dormem.", env.terms.getById(parent.id)?.sentence)
+        assertEquals("Os lobos dormem.", env.terms.getById(child)?.sentence)
     }
 
     @Test
@@ -84,8 +87,8 @@ class LearningSentenceTest {
         assertEquals("O lobo dorme.", env.terms.getById(lobo)?.sentence)
         assertEquals("O tempo anda depressa.", env.terms.getById(phrase)?.sentence, "a term already being learned keeps its sentence")
         env.service.applyBulkUpdate(BulkTermUpdate(listOf(lobo, phrase), status = TermStatus.WELL_KNOWN), sentences)
-        assertNull(env.terms.getById(lobo)?.sentence)
-        assertNull(env.terms.getById(phrase)?.sentence)
+        assertEquals("O lobo dorme.", env.terms.getById(lobo)?.sentence)
+        assertEquals("O tempo anda depressa.", env.terms.getById(phrase)?.sentence)
     }
 
     @Test

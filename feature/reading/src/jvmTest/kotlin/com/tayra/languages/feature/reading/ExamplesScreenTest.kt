@@ -185,7 +185,7 @@ class ExamplesScreenTest {
 
         rule.onAllNodes(hasText(sentence))[0].performMouseInput { rightClick(at(sentence, "voa")) }
         rule.waitUntil(5_000) { savedTerm("voa")?.status == TermStatus.WELL_KNOWN }
-        assertNull(savedTerm("voa")?.sentence)
+        assertEquals(sentence, savedTerm("voa")?.sentence)
         rule.waitUntil(5_000) { backgroundOf(sentence, "voa") == null }
     }
 

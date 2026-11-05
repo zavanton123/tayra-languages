@@ -87,7 +87,7 @@ class TermService(
      */
     /**
      * Saves [draft]. [sentence] is the sentence the term is being read in, if any: it is stored
-     * with the term while the term is being learned (see [sentenceAt]).
+     * with the term when it starts being learned (see [sentenceAt]).
      */
     suspend fun save(draft: TermDraft, sentence: String? = null): Long {
         if (draft.text.isBlank()) throw TermValidationException("Term text is required")
@@ -148,13 +148,13 @@ class TermService(
 
     /**
      * The sentence stored with this term once its status is [status]: the one it is being read
-     * in ([provided]) when it starts being learned, the one it already has while it goes on
-     * being learned, and none once it is known, ignored or unknown again.
+     * in ([provided]) when it starts being learned, and the one it already has otherwise: a word
+     * that leaves learning keeps it, as its card goes on being reviewed.
      */
     private fun Term?.sentenceAt(status: TermStatus, provided: String?): String? = when {
-        !status.isLearning -> null
+        !status.isLearning -> this?.sentence
         this?.status?.isLearning == true -> sentence ?: provided
-        else -> provided
+        else -> provided ?: this?.sentence
     }
 
     /** Sets the status of [targets], storing or clearing their sentences as [sentenceAt] says. */
