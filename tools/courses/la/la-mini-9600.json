@@ -1,0 +1,199 @@
+{
+  "id": "la-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "Physica cotidiana",
+  "description": "Nine standalone stories and one weekly column about the physics of everyday life: a prism in a window, a hill town's water tower, an old steelyard, keeping warm in winter, a mandolin's strings, breathing and the heart, a horse-drawn harrow, a planetarium lecture, a kitchen and a cuckoo clock, and a school science fair.",
+  "topic": "Everyday physics",
+  "names": [
+    "Nymphidius",
+    "Tettiena",
+    "Arretium",
+    "Salvidienus",
+    "Minucilla",
+    "Spoletium",
+    "Sentilla",
+    "Nicandra",
+    "Athenae",
+    "Vibidia",
+    "Opsius",
+    "Tridentum",
+    "Ianuarius",
+    "Carvilia",
+    "Numisius",
+    "Neapolis",
+    "Ancharia",
+    "Lollianus",
+    "Placentia",
+    "Allienus",
+    "Visellia",
+    "Luceria",
+    "Peducaea",
+    "Caesetius",
+    "Patavium",
+    "Voconia",
+    "Tadius",
+    "Comum",
+    "Sicinia",
+    "Mamilius",
+    "Caninia",
+    "Brixia",
+    "Roma"
+  ],
+  "lessons": [
+    {
+      "title": "Prisma in fenestra",
+      "summary": "In Arezzo a retired optician hangs an old glass prism in the window for his granddaughter and shows her how white sunlight splits into colours that cannot be counted, many of them nameless, and why old window glass bends the street.",
+      "newWords": [
+        "prisma",
+        "theca",
+        "inornatus",
+        "subdivido",
+        "perspicax",
+        "numerabilis",
+        "innominatus",
+        "emanatio",
+        "depravatio"
+      ],
+      "text": "Nymphidius, qui multos annos Arretii officinam opticam exercuit, nunc senex in domo parva prope forum habitat. Neptis eius Tettiena, puella decem annos nata, singulis aestatibus ad eum venit, et avus semper aliquid parat quod ei ostendat. Hoc anno e capsa vetere thecam ligneam promit, quam ipse olim fecerat. In theca, panno molli involutum, iacet prisma vitreum: corpus breve et inornatum, tribus faciebus planis, sine ullo ornamento.\n\n«Hoc prisma inornatum videtur», inquit Nymphidius, «sed plus in se habet quam multa vasa ornata. Exspectemus solem.»\n\nPaulo ante meridiem sol per fenestram in cubiculum cadit. Avus prisma filo suspendit, et statim in pariete albo taenia colorum apparet: ruber, flavus, viridis, caeruleus, violaceus. Tettiena clamat se arcum caelestem in cubiculo videre.\n\nNymphidius explicat lucem solis, quae alba videtur, ex multis coloribus mixtis constare. Prisma eam subdividit: vitrum enim radios diversi coloris aliter atque aliter flectit, rubros minime, violaceos maxime. «Lux in prismate subdividitur», inquit, «sicut flumen quod in campo in multos rivos subdividitur.»\n\nTettiena, quae puella perspicax est, digito singulas partes taeniae tangit et colores numerat. Primo sex numerat, deinde septem, deinde dubitat. «Hi colores numerabiles non sunt», inquit Nymphidius. «Inter rubrum et flavum innumeri colores latent, qui sensim alius in alium transeunt. Plurimi innominati sunt: nulla lingua tot nomina habet quot oculus colores discernit.» Tettiena ridens respondet se colori cuidam innominato, qui inter viridem et caeruleum lucet, nomen suum dare.\n\nDeinde avus de luce ipsa loquitur. «Omnis lux emanatio quaedam est», inquit. «Ex sole, ex lucerna, ex igne radii in omnes partes emanant.» Tettiena, semper perspicax, rogat num etiam luna emanationem lucis suae habeat. Nymphidius negat: lunam nullam lucem suam habere, sed lucem solis reddere, sicut paries albus; veram igitur emanationem solis esse, non lunae.\n\nPostremo eam ad aliam fenestram ducit, cuius vitrum antiquum est, inaequale et paulum undatum. Per id via et domus vicinae curvae videntur, quasi in aqua tremerent. «Haec est depravatio imaginis», inquit Nymphidius. «Vitrum non ubique eiusdem crassitudinis est; itaque radios non aequaliter flectit.» Narrat se in officina sua lentes fecisse quae depravationem oculorum corrigerent. «Oculus quoque interdum ut vetus vitrum est», inquit, «et lens bona eius depravationem tollit.»\n\nVesperi Tettiena prisma ipsa in thecam reponit. Rogat num thecam in scholam ferre possit, ut condiscipulis colores numerabiles et innominatos ostendat. Avus libenter consentit.\n\nQuaestiones:\nQuid in theca lignea iacet?\nIn theca iacet prisma vitreum, breve et inornatum.\nQuid prisma luci solis facit?\nPrisma lucem albam in multos colores subdividit, quia radios diversi coloris aliter atque aliter flectit.\nCur colores, quos Tettiena videt, numerabiles non sunt?\nQuia inter singulos colores innumeri alii latent, quorum plurimi innominati sunt.\nQuid puella perspicax digito facit?\nSingulas partes taeniae tangit et colores numerat.\nHabetne luna emanationem lucis suae?\nNon habet; luna lucem solis reddit, sicut paries albus.\nQuid est depravatio imaginis in vetere fenestra?\nVitrum inaequale radios non aequaliter flectit, itaque via et domus curvae videntur."
+    },
+    {
+      "title": "Castellum aquae",
+      "summary": "In hilly Spoleto a schoolgirl reads a notice that the water will be off, visits the keeper of the water tower on the day it is emptied for cleaning, and learns that the height of the water pushes it into every house.",
+      "newWords": [
+        "tumulosus",
+        "denuntiatio",
+        "castellarius",
+        "adimpleo",
+        "gravesco",
+        "coartatio",
+        "summitto",
+        "accessibilitas"
+      ],
+      "text": "Spoletium oppidum tumulosum est: viae ascendunt et descendunt, et domus aliae super alias in clivis stant. Minucilla, quae in schola media physicae studet, in tabula, quae in foro pendet, denuntiationem legit: postridie mane aqua per tres horas non fluet, quia castellum aquae in summo colle purgabitur. Magister physicae discipulis mandaverat ut aliquid de aqua in oppido scriberent; Minucilla igitur denuntiationem in libello suo describit et ad castellum ascendit.\n\nIbi castellarius, Salvidienus nomine, eam benigne excipit. «Castellarius sum iam viginti annos», inquit. «Denuntiationem legisti? Hodie castellum evacuamus, ut fundum eius purgemus.»\n\nMinucilla rogat cur castellum in summo colle stet. Salvidienus explicat in oppido tam tumuloso aquam non machinis in singulas domos trudi, sed pondere suo descendere. «Noctu antliae aquam ex fonte in castellum tollunt et id adimplent. Interdiu castellum adimpletum aquam per fistulas in totum oppidum emittit. Quo altius aqua stat, eo fortius in fistulis premit; itaque etiam in summa contignatione domus quae in clivo inferiore stat aqua fluit.»\n\nDeinde ostendit quomodo aqua, cum castellum adimpletur, gravescat. «Singulis horis plus aquae accedit; columna aquae gravescit, et pressio in fundo crescit. Cum castellum plenum est, fundum pondus plus quam mille tonnarum sustinet.»\n\nMinucilla, quae de aere compresso in schola didicit, rogat num etiam aqua comprimi possit. «Aqua coartationem fere nullam patitur», respondet castellarius. «Aer facile coartationem patitur, aqua non. Si aquam in fistula clausa premis, non minuitur, sed vim tuam statim ad alterum fistulae caput transmittit.» Tum vas ferreum ostendit, quod fistulae magnae adiunctum aeris plenum est. «Cum fistula subito clauditur, aqua velociter currens fistulam quatere potest; aer autem in hoc vase coartationem patitur et ictum mollit.»\n\nPostea Salvidienus fune pondus plumbeum in castellum summittit, ut altitudinem aquae metiatur. Funis notis signatus est. Cum pondus fundum tangit, Minucilla notam legit: aqua iam tantum duo metra alta est. Paulo post castellarius instrumentum quod calorem aquae metitur in eandem aquam summittit, et Minucilla numeros scribit.\n\n«Olim ad castellum nisi per scalas angustas ascendi non poterat», inquit Salvidienus, dum descendunt. «Nunc oppidum accessibilitatem eius auxit: via plana et cella scansoria additae sunt, ut etiam qui in sella rotali sedent castellum visere possint. Accessibilitas enim ad omnes homines pertinet.»\n\nDomi Minucilla relationem suam scribit. Initio denuntiationem ponit, deinde explicat cur aqua in oppido tumuloso ab alto descendat, cur columna aquae gravescat, cur aqua coartationem non patiatur. Postremo addit accessibilitatem castelli ad omnes homines pertinere.\n\nQuaestiones:\nQuid denuntiatio in foro dicit?\nDicit postridie mane per tres horas aquam non fore, quia castellum purgetur.\nCur castellum in summo colle stat?\nQuia in oppido tumuloso aqua pondere suo ab alto in domos descendit.\nQuid fit cum castellum adimpletur?\nColumna aquae gravescit, et pressio in fundo crescit.\nPatiturne aqua coartationem?\nAqua coartationem fere nullam patitur, aer autem facile.\nCur castellarius pondus in castellum summittit?\nSummittit ut altitudinem aquae metiatur.\nQuomodo oppidum accessibilitatem castelli auxit?\nVia plana et cella scansoria additae sunt."
+    },
+    {
+      "title": "Statera in agora",
+      "summary": "In Athens a Latin teacher on holiday walks through the ancient agora and then watches a seller of dried fruit prove to a doubting critic, by sliding the weight along the arm, that her old steelyard weighs correctly.",
+      "newWords": [
+        "agora",
+        "statera",
+        "amygdalinus",
+        "ribes",
+        "reprehensor",
+        "erroneus",
+        "pauxillus",
+        "transpono"
+      ],
+      "text": "Sentilla, magistra linguae Latinae, ferias Athenis agit. Mane agoram antiquam visit, ubi olim mercatores et cives conveniebant. Inter columnas fractas et fundamenta aedificiorum ambulans cogitat agoram non solum locum mercatus, sed etiam locum sermonum fuisse, ubi homines de omnibus rebus disputabant.\n\nPost meridiem ad mercatum novum descendit, qui non procul ab agora antiqua est. Ibi mulier quaedam, Nicandra nomine, fructus siccos et dulcia vendit: ficus, nuces, dulcia amygdalina, conditum ex ribe nigro. Nicandra mercem non trutina electronica, sed statera vetere ponderat. Statera est virga ferrea, quae prope alterum caput ex unco pendet; ab hoc capite lanx pendet, per longiorem autem virgae partem pondus parvum moveri potest.\n\nDum Sentilla spectat, vir quidam accedit qui se reprehensorem omnium rerum veterum esse profitetur. «Haec statera erronea est», inquit. «Pondus tuum minimum est, merces magna. Quomodo pondus tam parvum tantum aequare potest? Certe erronee ponderas.»\n\nNicandra non irascitur. Pauxillum conditi ex ribe in lancem ponit et pondus prope uncum collocat: virga statim ad lancem inclinatur. Deinde pondus longius ab unco transponit, et virga paulatim surgit. Iterum pondus transponit, donec virga recta et quieta stet. «Vide», inquit. «Pondus parvum, si longe ab unco pendet, tantum valet quantum pondus magnum prope uncum. Quo longius pondus transpono, eo plus mercis aequat. Hoc non est erroneum; hoc est natura virgae.»\n\nReprehensor tamen non cedit. Tum Nicandra capsam dulcium amygdalinorum sumit, in qua officina ipsa scripsit eam unum chiliogrammum pendere. Capsam in lancem ponit, pondus ad notam unius chiliogrammi transponit, et virga recta stat. «Num etiam officina erronea est?» rogat ridens.\n\nReprehensor tandem ridet. «Statera tua erronea non est», inquit; «ego erronee iudicavi.» Deinde pauxillum dulcium amygdalinorum emit, ut Nicandra eum non solum reprehensorem, sed etiam emptorem cognoscat.\n\nSentilla, quae omnia spectavit, et ipsa ad mensam accedit. Nicandra ei narrat stateram a patre suo acceptam esse, qui eam ab avo acceperat. «Trutinae novae saepe franguntur», inquit, «statera numquam.» Sentilla vitrum conditi ex ribe et pauxillum dulcium amygdalinorum emit. Vesperi, in deversorio, ipsa cum cochleari et filo parvam stateram facit, ut discipulis suis Latine explicare possit quomodo pondus parvum magnum aequet.\n\nQuaestiones:\nQuid Sentilla mane Athenis visit?\nAgoram antiquam visit, ubi olim mercatores et cives conveniebant.\nQuid Nicandra vendit?\nFructus siccos, dulcia amygdalina et conditum ex ribe nigro vendit.\nCur reprehensor stateram erroneam esse putat?\nQuia pondus minimum est et merces magna.\nQuomodo Nicandra virgam rectam facit?\nPondus longius ab unco transponit, donec virga recta stet.\nQuid reprehensor tandem dicit?\nDicit stateram erroneam non esse, sed se erronee iudicavisse."
+    },
+    {
+      "title": "Hiems in valle silvosa",
+      "summary": "Near Trento a naturalist takes her grandson to the family's summer hut in January, reads an old mercury thermometer and shows him how hibernating animals, a predatory otter, goldfinches and centipedes get through the cold.",
+      "newWords": [
+        "silvosus",
+        "aestivo",
+        "hydrargyrus",
+        "hiberno",
+        "lutra",
+        "praedatorius",
+        "necopinans",
+        "carduelis",
+        "chilopodus"
+      ],
+      "text": "Vibidia, quae animalibus silvestribus studet, mense Ianuario cum nepote suo Opsio in vallem silvosam prope Tridentum ascendit. Ibi casa lignea est in qua familia eius aestivare solet: cum enim in urbe aestate nimius calor est, omnes in valle silvosa aestivant. Nunc casa vacua est et nive operta.\n\nAnte ianuam thermometrum vetus pendet, in quo hydrargyrus in tubo vitreo stat. «Hydrargyrus metallum est quod etiam in frigore liquidum manet», inquit Vibidia. «Cum calescit, extenditur et in tubo ascendit; cum friget, contrahitur et descendit.» Opsius legit hydrargyrum ad decem gradus infra punctum glaciei descendisse. Vibidia addit thermometra nova sine hydrargyro fieri, quia hydrargyrus valetudini nocet; hoc vetus tamen servat, quia avus eius id in casa suspendit.\n\nPer silvam deinde ambulant. «Multa animalia nunc hibernant», inquit Vibidia. «Glis in arbore cava dormit, et cor eius lentissime pulsat. Animal quod hibernat calorem corporis paene ad frigus aeris demittit; ita viribus suis parcit, quas aliter contra frigus impendere deberet.» Opsius rogat cur non omnia animalia hibernent.\n\nResponsum ad rivum invenit. Ibi lutra necopinans in aqua gelida natat et piscem capit. «Lutra non hibernat», inquit Vibidia, «quia animalia praedatoria, quae etiam hieme cibum invenire possunt, somno non egent. Natura lutrae praedatoria magnum calorem postulat, sed pellis eius densissima est et multas bullas aeris tenet. Aer calorem male transmittit; itaque aqua frigida cutem lutrae vix tangit.» Lutra, adhuc necopinans, in ripa sedet et pellem suam dentibus purgat, ut aer inter pilos maneat.\n\nIn marginibus silvae cardueles in carduis siccis sedent et semina carpunt. Plumas inflant, ita ut rotundae videantur. «Etiam cardueles aere se tegunt», inquit Vibidia. «Inter plumas inflatas stratum aeris manet, quod calorem corporis servat.» Cardueles necopinantes tam prope ad eos accedunt ut Opsius colores rubros in capitibus earum discernat.\n\nPostremo Opsius lapidem sub nive tollit. Sub eo, inter folia humida, chilopoda pauca lente se movent. «Chilopoda non hibernant sicut glis», inquit Vibidia, «sed sub foliis et nive torpent. Nix multum aeris continet, itaque terram tegit sicut stragulum. Supra nivem frigus acre est; sub ea terra paene ad punctum glaciei manet.» Opsius lapidem caute reponit, ut chilopoda in tepore suo maneant.\n\nIn casa ignem accendunt. Paulo post Opsius thermometrum, quod intus suspenderunt, inspicit: hydrargyrus iam ascendit. «Aestate hic iterum aestivabimus», inquit Vibidia, «sed hieme vallis silvosa plura docet.»\n\nQuaestiones:\nUbi familia Vibidiae aestivare solet?\nIn casa lignea in valle silvosa prope Tridentum aestivare solet.\nQuid hydrargyrus facit cum calescit?\nExtenditur et in tubo ascendit.\nQuid facit animal quod hibernat?\nCalorem corporis paene ad frigus aeris demittit et ita viribus suis parcit.\nCur lutra in aqua gelida non friget?\nQuia pellis eius densissima multas bullas aeris tenet, et aer calorem male transmittit.\nCur animalia praedatoria sicut lutra non hibernant?\nQuia etiam hieme cibum invenire possunt.\nCur terra sub nive non tam frigida est?\nQuia nix multum aeris continet et terram tegit sicut stragulum."
+    },
+    {
+      "title": "Chordae citharae parvae",
+      "summary": "In Naples a mandolin teacher who once studied physics shows her keen pupil how the plectrum's stroke becomes a shaking of the air, why a bookcase hums at one note and how sound comes back from the stairwell walls.",
+      "newWords": [
+        "enthusiasmus",
+        "plectrum",
+        "concussio",
+        "pegma",
+        "interludo",
+        "sarcasmus",
+        "mimicus",
+        "resulto"
+      ],
+      "text": "Numisius, adulescens sedecim annorum, Neapoli apud magistram Carviliam citharam parvam pulsare discit, quam mandolinum vocant. Magno enthusiasmo venit, et enthusiasmus eius tantus est ut saepe nimis celeriter pulset. Carvilia, quae olim physicae studuerat antequam se musicae daret, eum non solum digitos movere, sed etiam sonum intellegere vult.\n\nPrimo plectrum ei ostendit, laminam parvam et tenuem. «Plectro chordam percutis», inquit. «Chorda tremit, et concussio chordae in lignum transit; lignum aerem movet, et concussio aeris ad aures nostras pervenit. Sonus nihil aliud est quam concussio aeris.» Numisius plectrum leviter et graviter adhibet et animadvertit sonum fortiorem fieri, cum plectro chordam fortius percutiat.\n\nIn angulo cubiculi pegma stat, libris plenum. Cum Numisius notam quandam gravem pulsat, pegma subito strepit, quasi ipsum caneret. «Tabulae pegmatis sonum suum proprium habent», explicat Carvilia. «Cum nota tua eundem sonum habet, concussio aeris tabulas pegmatis movet, sicut puer in oscillo, si quis eum recto tempore impellit.» Numisius notam iterum pulsat, et pegma iterum strepit.\n\nDeinde melodiam simplicem ludere incipit, sed inter singulos versus sonos breves et celeres addit. «Cur semper interludis?» rogat Carvilia. «Cum inter versus interludis, auditor melodiam amittit. Si minus interludes, melodia clarior erit.»\n\nNumisius, enthusiasmo elatus, celerius etiam pulsat. «Optime», inquit Carvilia cum sarcasmo, «si paulo celerius pulsaveris, tramen Romam ante te perveniet.» Numisius sarcasmum intellegit et ridet; sarcasmus magistrae numquam acerbus est, sed eum ad mensuram revocat.\n\nNumisius etiam sonos mimicos amat: cantum avium, sibilum navis in portu, strepitum traminis imitatur. Carvilia sonos mimicos non vetat, sed explicat: «Etiam soni mimici physicam habent. Sibilum navis gravem facis, quia chordam longam pulsas; cantum avis acutum, quia chordam breviorem.»\n\nPostremo eum in scalas domus ducit, quae altae et e lapide factae sunt. «Hic pulsa», inquit. Numisius notam pulsat, et sonus a parietibus resultat et diu manet. «Parietes duri et leves sonum reddunt», inquit Carvilia, «itaque sonus ab eis resultat. In cubiculo autem vela et libri sonum bibunt.» Numisius iterum pulsat et audit quam diu sonus in scalis resultet.\n\nCum ad cubiculum redeunt, melodiam lente, sine sonis mimicis, ludit. Nec inter versus interludit...\n\nQuaestiones:\nQuid est sonus secundum Carviliam?\nSonus nihil aliud est quam concussio aeris.\nCur pegma strepit?\nQuia tabulae pegmatis eundem sonum habent quem nota Numisii.\nQuid Carvilia de sonis brevibus inter versus dicit?\nDicit auditorem melodiam amittere, si discipulus inter versus sonos breves addat.\nCur sibilus navis gravis est?\nQuia Numisius chordam longam pulsat.\nCur sonus in scalis resultat?\nQuia parietes duri et leves sonum reddunt."
+    },
+    {
+      "title": "Spiritus cursoris",
+      "summary": "In Piacenza an office worker training for a long race has a check-up with a sports doctor, who shows him with a bottle and a balloon how the diaphragm draws air in and explains his heart, an occasional skipped beat and a full stomach.",
+      "newWords": [
+        "bipes",
+        "diaphragma",
+        "flaccidus",
+        "exspiratio",
+        "aspiro",
+        "suspirium",
+        "myocardium",
+        "palpitatio",
+        "gaster"
+      ],
+      "text": "Lollianus, homo triginta annorum, qui Placentiae in officio laborat, cursui longo se parat. Antequam spatia longiora currat, ad medicam Anchariam it, quae cursores examinat, ut valetudinem suam probet.\n\nAncharia primum eum in taeniam cursoriam mittit et spectat quomodo currat. «Homo bipes est», inquit, «et cursus bipedis est quasi casus semper interruptus: corpus in priorem partem inclinatur, et pes semper tempore idoneo sub eo ponitur.» Lollianus ridet, cum audit se currendo semper paene cadere.\n\nDeinde medica lagoenam vitream promit, cuius fundum membrana tenera clausum est. Intus follis parvus pendet, flaccidus et rugosus. «Membrana est diaphragma tuum», inquit, «follis pulmo.» Membranam deorsum trahit, et follis flaccidus subito inflatur. «Cum diaphragma descendit, spatium in pectore crescit, et pressio aeris intus minuitur. Aer igitur extrinsecus intrat.» Membranam dimittit, et follis rursus flaccidus fit.\n\n«Exspiratio quieta nullum laborem postulat», pergit Ancharia. «Diaphragma enim solum laxatur, et pulmo sicut follis se contrahit. Sed in cursu exspiratio fortior fit, cum musculi ventris aerem expellunt.» Lollianum iubet in speculum frigidum aspirare. Ubi aspirat, speculum nebula tegitur. «Spiritus tuus calidus et umidus est», inquit, «et cum vitrum frigidum tangit, umor in guttas minimas cogitur. Aspira iterum et vide quam celeriter nebula evanescat.»\n\nLollianus, dum nebulam spectat, longum suspirium ducit. Ancharia ridet: «Suspirium non semper tristitiae signum est. Homines plerumque semel aut bis in hora suspirant, nec sentiunt; suspirium enim pulmonis partes minimas, quae paulatim clauduntur, rursus aperit.»\n\nTum cor eius examinat. In tabula lineae undatae apparent. «Myocardium tuum firmum est», inquit. «Myocardium est musculus cordis, qui sanguinem sicut antlia per corpus pellit.» Lollianus fatetur se interdum, post multum coffeae, palpitationem quandam sentire, quasi cor semel saltaret. Ancharia explicat talem palpitationem plerumque innoxiam esse: myocardium interdum ictum unum citius dat, deinde paulum quiescit. «Si palpitatio saepe redit aut cum dolore venit, iterum veni», inquit; «aliter minus coffeae bibe.»\n\nPostremo de cibo loquitur. «Ante cursum longum ne multum edas», inquit. «Gaster plenus diaphragma sursum premit, et spiritus brevior fit. Gaster vacuus autem vires non dat. Duabus horis ante cursum cibum levem sume.»\n\nLollianus domum redit et in libello scribit: diaphragma, exspiratio, myocardium, gaster. Iuxta haec verba figuram parvam pingit: bipedem paene cadentem.\n\nQuaestiones:\nQuid Ancharia de cursu bipedis dicit?\nDicit cursum bipedis esse quasi casum semper interruptum.\nQuid fit cum diaphragma descendit?\nSpatium in pectore crescit, pressio aeris minuitur, et aer intrat.\nCur speculum nebula tegitur cum Lollianus aspirat?\nQuia spiritus calidus et umidus est, et umor in vitro frigido in guttas cogitur.\nEstne palpitatio Lolliani periculosa?\nPlerumque innoxia est; myocardium interdum ictum unum citius dat.\nCur ante cursum gaster plenus non prodest?\nQuia gaster plenus diaphragma sursum premit et spiritus brevior fit."
+    },
+    {
+      "title": "Occa et equus badius",
+      "summary": "Near Lucera a horse trainer visits an old farmer who still harrows his sloping field with a bay horse, and he shows her what weight, friction, wind and shade do on a small farm.",
+      "newWords": [
+        "rusticanus",
+        "occo",
+        "badius",
+        "domitor",
+        "lira",
+        "corylus",
+        "defugo",
+        "thymbra",
+        "trichila"
+      ],
+      "text": "Allienus, agricola septuaginta annos natus, prope Luceriam agrum parvum in clivo colit. Vita eius rusticana est et paene antiqua: quamquam vicini machinis utuntur, ipse agrum equo occat. Equus badius est, colore castaneae maturae. Allienus eum a Visellia emit, quae in valle vicina equos domat: domitor enim fuit pater eius, et ipsa domitrix facta est. Hodie ad agrum venit, ut videat quomodo equus badius laboret.\n\n«Cur non machina occas?» rogat Visellia. «Machina vicini mei», respondet Allienus, «multa milia chiliogrammatum pendet. Pondus eius alte in terram penetrat; terra densata aquam non bibit, nec radices spatium habent. Equus badius multo levior est, neque ager tam parvus plus postulat.»\n\nVisellia dentes occae inspicit et animadvertit terram hodie siccam esse. Allienus explicat se non quolibet die occare: cum terra sicca sit, dentes facile per eam currere; cum umida, terram dentibus haerere, ita ut equus multo fortius trahere debeat. «Etiam domitor hoc scit», inquit Visellia. «Equum doceo ut lente et aequaliter trahat. Qui subito trahit, vim perdit; qui aequaliter, totum diem laborare potest.»\n\nDeinde Allienus liras ostendit, quae transversae per clivum currunt. «Si lirae a summo ad imum currerent», inquit, «pluvia statim descenderet et terram secum ferret. Cum autem transversae sunt, unaquaeque lira aquam retinet, ut lente in terram descendat.» Visellia inter liras ambulat et videt terram post liram umidiorem esse.\n\nIn margine agri coryli densae stant. «Has corylos pater meus posuit, ne ventus terram auferret», inquit Allienus. «Ventus qui per ramos coryli transit vim amittit; itaque post corylos terra non tam cito siccatur.» Inter corylos et agrum perticae stant, ex quibus taeniae nitidae pendent. Vento moventur et lumen solis in omnes partes reddunt; hoc lumine Allienus aves a seminibus defugat. «Taeniae melius aves defugant quam ego clamando», inquit, «nec umquam fatigantur.»\n\nMeridie equus badius quiescit, et ambo per semitam ascendunt, ubi thymbra inter lapides crescit. Odor thymbrae tam acer est ut Visellia eum ante herbam ipsam sentiat. «Sol oleum thymbrae in aerem mittit», inquit Allienus; «itaque meridie thymbram longe olfacis, vesperi vix.»\n\nPostremo sub trichilam sedent, quam hedera tegit, et panem cum caseo edunt. Multo frigidius hic est quam in agro. Allienus dicit trichilam non solum umbram praebere: folia enim umorem in aerem emittere, quae res calorem auferat, sicut sudor cutem refrigerat. Visellia ridens fatetur se in schola physicam male didicisse, in hac autem trichila rusticana facile discere.\n\nQuaestiones:\nQualis est vita Allieni?\nVita eius rusticana est et paene antiqua.\nQuomodo Allienus agrum occat?\nAgrum equo badio occat, quem a Visellia emit.\nCur Allienus machinam non adhibet?\nQuia pondus machinae alte in terram penetrat, et terra densata aquam non bibit.\nCur lirae transversae per clivum currunt?\nQuia unaquaeque lira aquam retinet, ut lente in terram descendat.\nQuid coryli in margine agri faciunt?\nVentum frangunt, itaque post corylos terra non tam cito siccatur.\nQuomodo Allienus aves defugat?\nTaeniis nitidis, quae vento moventur et lumen solis reddunt, aves defugat.\nCur sub trichila frigidius est?\nQuia trichila umbram praebet, et folia umorem in aerem emittunt."
+    },
+    {
+      "title": "Oratio aditialis",
+      "summary": "In Padua a new professor gives her inaugural lecture under a planetarium dome, asks why the night sky is dark, shows how the moon hiding a star can reveal a double star, and politely answers an old engineer who scorns cosmology.",
+      "newWords": [
+        "aditialis",
+        "hemisphaericus",
+        "patronatus",
+        "antepaenultimus",
+        "contemptor",
+        "cosmologia",
+        "occultatio",
+        "septingentesimus",
+        "anomalos"
+      ],
+      "text": "Peducaea, quae nuper professor physicae Patavii facta est, hodie oratio aditialis ab ea habetur. Mos est ut quisque novus professor oratione aditiali officium suum incipiat. Non in aula vetere loquitur, sed in planetario novo, cuius tectum hemisphaericum est. Aedificium patronatu familiae cuiusdam mercatorum exstructum est, et tabula in vestibulo posita hunc patronatum commemorat; sine tali patronatu universitas tantam testudinem hemisphaericam numquam habuisset.\n\nCaesetius, discipulus physicae, in ordine antepaenultimo sedet. Iuxta eum senex quidam, machinator olim, sedet, qui se ei statim contemptorem omnium rerum nimis remotarum esse dicit. «Cosmologia pulchra est», inquit, «sed quid utilitatis habet?»\n\nLumina minuuntur, et supra capita eorum stellae apparent. «Cosmologia est scientia totius mundi», incipit Peducaea, «quomodo ortus sit, quomodo crescat. Multi putant cosmologiam longe a vita cotidiana abesse. Ego autem a quaestione incipio quam quivis puer rogat: cur noctu caelum obscurum est? Si enim stellae innumerae essent et mundus aeternus, quocumque oculos verteremus, stellam aliquam videremus, et nox tam clara esset quam dies.» Cosmologia respondet mundum non esse aeternum: lucem stellarum longinquarum nondum ad nos pervenisse, et aliarum, cum mundus crescat, ita extendi ut oculus eam non iam videat.\n\nDeinde de opere suo loquitur. «Cum luna stellam tegit, id occultationem vocamus. Luna aerem non habet; itaque stella in occultatione non paulatim, sed subito evanescit. Observatorium nostrum nuper septingentesimam occultationem notavit, et discipuli mei septingentesimam ipsi mensi sunt.» Lineam in testudine ostendit, quae lumen stellae significat et uno momento cadit. Tum aliam lineam ostendit, quae duobus gradibus cadit. «Haec mensura anomala est. Discipulus eam primo delere voluit, sed mensuras anomalas numquam delemus. Stella enim non una erat, sed duae, tam propinquae ut nullum telescopium eas separaret: luna alteram post alteram texit.»\n\nIn tabula antepaenultima numeros omnium occultationum ostendit, in ultima gratias patronis agit. Finita oratione aditiali, senex ex ordine antepaenultimo surgit. «Ego contemptor cosmologiae sum», inquit. «Quid mihi prodest scire mundum crescere?»\n\nPeducaea non offenditur. «Contemptores semper audio libenter», inquit. «Scis telephonum tuum ex satellitibus intellegere ubi sis. Horologia in satellitibus aliter currunt quam in terra, quia physica quae mundum totum describit etiam tempus mutat. Nisi machinatores hoc corrigerent, telephonum te chiliometris multis a via tua abesse diceret.» Senex ridet et telephonum suum inspicit. Caesetio, dum exeunt, dicit se hodie paulo minorem contemptorem factum esse, et viam domum telephono quaerit.\n\nQuaestiones:\nUbi oratio aditialis habetur?\nIn planetario novo habetur, cuius tectum hemisphaericum est.\nQuomodo aedificium exstructum est?\nPatronatu familiae cuiusdam mercatorum exstructum est.\nQuam quaestionem Peducaea primo rogat?\nRogat cur noctu caelum obscurum sit.\nQuid est occultatio?\nOccultatio fit cum luna stellam tegit, et stella subito evanescit.\nQuam occultationem observatorium nuper notavit?\nSeptingentesimam occultationem notavit.\nQuid mensura anomala ostendit?\nOstendit stellam non unam fuisse, sed duas.\nQuomodo Peducaea contemptori respondet?\nDicit telephonum ex satellitibus intellegere ubi homo sit, et physicam mundi tempus in horologiis mutare."
+    },
+    {
+      "title": "Ovum et cuculus",
+      "summary": "Near Como a retired physics teacher helps her grandson cook supper: eggs sink or float, yolks stay soft, warm myrrh fills the kitchen with scent, the cat knocks things down, and a shorter pendulum puts the cuckoo clock right.",
+      "newWords": [
+        "ipsemet",
+        "vitellus",
+        "concitatio",
+        "murrum",
+        "nequitia",
+        "incapax",
+        "spadix",
+        "cuculus"
+      ],
+      "text": "Voconia, quae multos annos physicam docuit, nunc prope Comum in domo parva habitat. Nepos eius Tadius, duodecim annos natus, apud eam ferias agit. Hodie vesperi Tadius «Ipsemet», inquit, «cenam parabo.» Voconia ridens respondet: «Ipsamet nihil faciam, nisi me rogaveris.»\n\nPrimo ova inspicit. Voconia vas aqua plenum dat. «Ovum recens in fundum descendit», inquit; «vetus natat, quia intus aer paulatim crescit.» Tadius ipsemet singula ova in aquam ponit: quinque descendunt, unum natat, quod Voconia seponit.\n\nDeinde aquam calefacit. «Quid est calor?» rogat avia. Tadius nescit. «Calor nihil aliud est quam concitatio particularum minimarum. Cum aqua fervet, concitatio tanta est ut particulae in aerem evolent.» Tadius ova in aquam ferventem demittit et horologium inspicit. Voconia explicat album ovi citius coire quam vitellum. «Si ova sex minuta coquis, album durum est, vitellus mollis; si decem, etiam vitellus durescit.» Tadius sex minuta exspectat, et cum primum ovum aperit, vitellus mollis et flavus lente fluit.\n\nIn fenestra patella parva iacet cum frustis resinae: myrrha est, quam Voconia propter odorem amat. Frigida myrrha vix olet. Sed cum Tadius patellam prope furnum ponit, paulo post odor per totam culinam currit. «Vides?» inquit Voconia. «Eadem concitatio. In calore particulae e myrrha celerius exeunt et per aerem sparguntur, etiam si aer ipse quietus est.»\n\nInterea feles Voconiae in mensam salit. Haec feles magnae nequitiae est, et quietis omnino incapax. Cochlear pede ad marginem mensae lente trudit, donec cadat; deinde Tadium aspicit. «Nequitia eius mihi cotidie gravitatem demonstrat», inquit Voconia. «Nihil in margine manet quod feles invenerit; ipsa enim rei quietae relinquendae incapax est.» Tadius cochlear tollit, et feles ad novam nequitiam transit: in angulo spadix palmae pendet cum dactylis, quem soror Voconiae misit. Feles spadicem pede pulsat, et spadix diu huc illuc movetur.\n\n«Observa», inquit Voconia. «Spadix longus lente movetur. Nunc vide horologium.» In pariete enim horologium ligneum pendet, ex quo singulis horis cuculus prosilit et canit. Hic cuculus iam aliquot dies sero canit. Sub horologio pendulum breve huc illuc it. «Pendulum, quo brevius est, eo celerius movetur», inquit avia. Tadius ipsemet pondus penduli paulum sursum movet, et pendulum celerius ire incipit.\n\nCum cena parata est, ova et panem et dactylos in mensam ponunt. Paulo post cuculus prosilit et horam recte canit, et feles, ut semper curiosa, cuculum diu spectat.\n\nQuaestiones:\nQuid Tadius ipsemet facere vult?\nIpsemet cenam parare vult.\nQuomodo Tadius ova vetera invenit?\nOva in aquam ponit: recens in fundum descendit, vetus natat.\nQuid est calor secundum Voconiam?\nCalor nihil aliud est quam concitatio particularum minimarum.\nQualis est feles Voconiae?\nMagnae nequitiae est, et quietis omnino incapax.\nCur vitellus post sex minuta mollis est?\nQuia album ovi citius coit quam vitellus.\nCur odor prope furnum per culinam currit?\nQuia in calore particulae e myrrha celerius exeunt et per aerem sparguntur.\nCur cuculus sero canit, et quid Tadius facit?\nPendulum nimis lente movetur; Tadius pondus sursum movet, et pendulum celerius it."
+    },
+    {
+      "title": "Dies physicae",
+      "summary": "In a column for a Brescia weekly a physics teacher describes her school's science day: topics drawn by lot, a bicycle dynamo charging a battery held up by grimy terminals, thrown balls filmed in flight, and parents strolling between the tables.",
+      "newWords": [
+        "hebdomadarius",
+        "sortitio",
+        "accumulator",
+        "conexivus",
+        "contaminatio",
+        "iaculatio",
+        "deambulo"
+      ],
+      "text": "Lectores huius hebdomadarii saepe me rogant, ex quo in his paginis de physica scribo, quid discipuli nostri re vera discant. Respondebo narrando diem physicae, quem in schola nostra Brixiae proxime egimus. Quae hic in hebdomadario breviter refero, vos ipsi anno proximo videre poteritis.\n\nQuinque greges discipulorum habui et quinque argumenta. Ne quis de argumentis contenderet, sortitionem feci: tabellas cum argumentis in urnam coniecimus, et singuli greges unam extraxerunt. Hac sortitione Mamilius et Caninia accumulatorem acceperunt, argumentum quod initio neuter volebat. Sed sortitio saepe melius consulit quam voluntas nostra.\n\nAccumulator, ut scitis, vim electricam non facit, sed servat. Mamilius et Caninia birotam veterem in fulcro statuerunt, cuius rota dynamum movebat; fila conexiva dynamum cum accumulatore iungebant, alia fila conexiva accumulatorem cum lucerna. Qui pedibus rotam agebat, accumulatorem implebat; cum cessaret, lucerna tamen lucebat. Primo tamen nihil accidit. Lucerna obscura manebat, quamvis Mamilius sudaret. Caninia, re diu considerata, capita accumulatoris inspexit et ea sordibus et oxido tecta invenit. Haec contaminatio fluxum electricum impediebat. Contaminatio charta aspera sublata est, fila conexiva iterum firmata sunt, et lucerna statim luxit. Numquam, credo, hi duo oblivisci poterunt quantum parva contaminatio valeat.\n\nAlter grex de iaculatione laboravit. Pilas parvas instrumento quodam proiciebant, sub variis angulis, et iaculationem telephono excipiebant, ut viam pilae in tabula postea describerent. Omnes putaverant iaculationem, quo altior esset, eo longiorem fore; invenerunt autem pilam longissime ire, cum sub angulo fere quadraginta quinque graduum proiciatur, et in aere via curva semper eodem modo descendere. Hanc viam discipuli in tabula delineaverunt, quam parvuli fratres eorum digitis sequebantur.\n\nPost meridiem parentes inter mensas deambulare coeperunt. Dum deambulant, interrogabant, numeros inspiciebant, rotam ipsi agebant. Una mater, cum diu deambulavisset, ad me venit et rogavit cur ipsa physicam in schola tam molestam putavisset. Respondi eam fortasse numquam pilam proiecisse neque capita accumulatoris purgavisse.\n\nQuisquis vestrum filium aut filiam in schola nostra habet, proximo anno veniat: inter mensas deambulabit, nec paenitebit. In hebdomadario proximo de iaculatione pluribus scribam.\n\nSicinia\n\nQuaestiones:\nUbi Sicinia de die physicae scribit?\nIn hebdomadario scribit, cuius lectores saepe eam de physica rogant.\nCur Sicinia sortitionem fecit?\nFecit ne quis de argumentis contenderet.\nQuid accumulator facit?\nVim electricam non facit, sed servat.\nCur lucerna primo obscura manebat?\nQuia contaminatio in capitibus accumulatoris fluxum electricum impediebat.\nQuid alter grex de iaculatione invenit?\nInvenit pilam longissime ire, cum sub angulo fere quadraginta quinque graduum proiciatur.\nQuid parentes post meridiem fecerunt?\nInter mensas deambulaverunt et numeros inspexerunt."
+    }
+  ]
+}
