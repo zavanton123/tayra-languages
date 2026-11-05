@@ -1,0 +1,187 @@
+{
+  "id": "la-mini-6000",
+  "rankUpTo": 6000,
+  "level": "C1",
+  "title": "Commentarii de vita",
+  "description": "Ten short memoirs in which people look back on a summer, a teacher, a first job or a family member who shaped their lives.",
+  "topic": "Memoirs",
+  "names": [
+    "Sabinianus",
+    "Plancilla",
+    "Narnia",
+    "Cluentia",
+    "Arulenus",
+    "Clagenfurtum",
+    "Vettiena",
+    "Galvia",
+    "Hostilianus",
+    "Vallisoletum",
+    "Marcina",
+    "Caesennianus",
+    "Passavium",
+    "Domitius",
+    "Ovidia",
+    "Nuceria",
+    "Coponianus",
+    "Solodurum",
+    "Fabricianus",
+    "Tettiana",
+    "Venafrum",
+    "Herenniana",
+    "Volumnianus",
+    "Revalia",
+    "Statiena",
+    "Lartilla",
+    "Canusium"
+  ],
+  "lessons": [
+    {
+      "title": "Aestates apud materteram",
+      "summary": "An old man from near Narni recalls the summers of his childhood with his hospitable aunt, her plum trees, her greedy dog and the evenings by the river.",
+      "newWords": [
+        "matertera",
+        "recordor",
+        "recordatio",
+        "prunus",
+        "hospitalis",
+        "voro",
+        "niveus",
+        "aurantius",
+        "iaculor"
+      ],
+      "text": "Sabinianus, senex octoginta annorum, commentarios de vita sua scribit. Hoc capite recordatur aestates quas puer apud materteram suam egit.\n\n«Mater mea sororem natu maiorem habebat, Plancillam nomine. Ea erat matertera mea, et post matrem nullam feminam magis amavi. Matertera in parva villa prope Narniam habitabat, in colle supra flumen. Cum scholae aestate clausae essent, parentes me tramine ad eam mittebant, et duos menses apud eam manebam.\n\nPrima recordatio mea est de prunis. Post domum hortus erat in quo viginti pruni stabant. Matertera eas ipsa severat cum iuvenis esset, et eas tamquam liberos curabat. Exeunte aestate rami prunorum fructibus caeruleis tam graves erant ut paene frangerentur. Ego in maxima pruno sedebam et fructus edebam donec venter doleret.\n\nMatertera mea tam hospitalis erat quam nemo alius quem umquam novi. Ianua eius numquam claudebatur. Vicini, viatores, etiam homines ignoti ad mensam eius sedebant, neque quisquam domum abibat nisi bene pastus. «Domus quae hospites non accipit», dicebat, «non est domus, sed horreum vacuum.» Neque solum erga homines hospitalis erat, sed etiam erga animalia: feles alebat, gallinas, canem magnum.\n\nCanis ille semper fame laborabat. Omnia vorabat quae in terram cadebant: panem, caseum, etiam fructus quos ventus de prunis deiecerat. Semel totam placentam voravit quam matertera in fenestra posuerat ut refrigeraretur. Matertera irasci non potuit; risit tantum et alteram placentam coxit.\n\nIam tum matertera capillos niveos habebat, quos panno aurantio tegebat; mensam autem semper linteo niveo sternebat. Tota die in horto laborabat, et procul pannum aurantium inter arbores videbam, ut semper scirem ubi esset.\n\nVesperi ad flumen descendebamus. Ibi lapides planos in aquam iaculabamur, ut per summam aquam salirent. Matertera, quamquam iam sexaginta annos nata erat, melius quam ego iaculabatur: lapides eius saepe septies saliebant, mei vix bis. Interea sol occidebat, et caelum supra colles primo aurantium, deinde purpureum fiebat.\n\nHaec omnia clare recordor, quamquam multa alia oblitus sum. Recordor etiam vocem eius, cum me vesperi domum vocabat, et odorem panis quem mane coquebat. Recordatio odoris saepe fortior est quam recordatio imaginis. Recordationes pueritiae mihi carissimae sunt: cum oculos claudo, rursus fructus prunorum gusto et capillos niveos materterae video. Hodie in horto meo duae pruni stant, quas ex nucleis prunorum materterae sevi. Hospites qui ad me veniunt fructus earum laudant, et ego eis de matertera mea narro.»\n\nQuaestiones:\nQuis erat Plancilla?\nPlancilla erat matertera Sabiniani, soror natu maior matris eius.\nQuid post domum materterae stabat?\nPost domum hortus erat, in quo viginti pruni stabant.\nQuomodo matertera hospitalis erat?\nIanua eius numquam claudebatur, et vicini, viatores, etiam homines ignoti ad mensam eius sedebant.\nQuid canis vorabat?\nOmnia vorabat quae in terram cadebant, et semel totam placentam voravit.\nQuid vesperi ad flumen faciebant?\nLapides planos in aquam iaculabantur, ut per summam aquam salirent.\nQuid hodie in horto Sabiniani stat?\nDuae pruni stant, quas Sabinianus ex nucleis prunorum materterae sevit."
+    },
+    {
+      "title": "Telescopium patris",
+      "summary": "An astronomer from a border village near Klagenfurt recalls the small telescope her father built, its equatorial mount, the nights on the hill and the comet that decided her career.",
+      "newWords": [
+        "limitaneus",
+        "octuplus",
+        "aspectabilis",
+        "aequatorialis",
+        "subsequor",
+        "horizon",
+        "sexagesimus",
+        "apsis"
+      ],
+      "text": "Cluentia per quadraginta annos in specula astronomica laboravit. Nunc, otio fruens, commentarios de vita sua scribit. Hoc capite narrat quomodo amor caeli in ea ortus sit.\n\n«Nata sum in vico limitaneo prope Clagenfurtum, ubi tres terrae inter se contingunt. In vico limitaneo homines tribus linguis loquebantur, et nos liberi verba ex omnibus discebamus. Sed non de linguis scribere volo, sed de stellis.\n\nPater meus, Arulenus, magister mathematicae erat. Cum duodecim annos nata essem, telescopium ipse fecit: tubum ex lamina ferrea, duas lentes quas in urbe emerat. Telescopium patris res tantum octuplo maiores ostendebat quam oculi nudi; sed etiam magnitudo octupla satis erat ut montes lunae et valles aspectabiles fierent. Numquam oblita sum primam illam noctem, cum luna, quam antea planam putaveram, subito plena montium apparuit.\n\nMox autem pater intellexit telescopium sine basi bona parum valere. Terra enim volvitur, itaque stellae lente per caelum procedunt et brevi tempore ex conspectu telescopii exeunt. Pater igitur basim aequatorialem construxit. Basis aequatorialis axem habet qui ad polum caeli spectat; si telescopium circum hunc axem lente vertitur, stellam subsequitur, quasi manu ducatur. «Basis aequatorialis», dicebat pater, «motum terrae imitatur, sed contrario cursu.»\n\nPost vicum collis erat, unde horizon totus patebat: ad meridiem montes, ad septentriones planities usque ad horizontem. Illuc vesperi ascendebamus, cum caelum serenum esset. Pater me docuit circulum horizontis in gradus dividere, et unumquemque gradum in sexaginta partes. Sexagesima pars gradus «minutum» appellatur, et sexagesima pars minuti «secundum».\n\nHieme eius anni quo tredecim annos nata eram cometa apparuit, qui per plures hebdomades oculis nudis aspectabilis erat. Pater explicavit orbitam cometae longam esse et duas apsides habere: alteram soli proximam, alteram longissime remotam. «Cometa», inquit, «nobis aspectabilis fit tantum cum prope apsidem soli proximam venit; deinde ad alteram apsidem redit, ubi frigidus et obscurus multos annos manet.»\n\nEx illa hieme nihil aliud volui nisi caelum observare. Proximis annis mathematicam et physicam studui, deinde in specula laboravi. Saepe, cum magnis instrumentis uterer, telescopium patris recordabar. Hoc anno sexagesimus annus est ex quo primum lunam per tubum eius vidi. Telescopium ipsum etiam nunc in conclavi meo stat, et basis eius aequatorialis etiam nunc stellas subsequitur.»\n\nQuaestiones:\nUbi nata est Cluentia?\nIn vico limitaneo prope Clagenfurtum nata est, ubi tres terrae inter se contingunt.\nQuanto maiores res ostendebat telescopium patris?\nRes octuplo maiores ostendebat quam oculi nudi.\nCur pater basim aequatorialem construxit?\nQuia terra volvitur et stellae ex conspectu telescopii exeunt; basis aequatorialis stellam subsequitur.\nQuid est sexagesima pars gradus?\nSexagesima pars gradus «minutum» appellatur.\nQuot apsides habet orbita cometae?\nDuas apsides habet: alteram soli proximam, alteram longissime remotam.\nUbi nunc est telescopium patris?\nIn conclavi Cluentiae stat, et etiam nunc stellas subsequitur."
+    },
+    {
+      "title": "Aestas in aestuario",
+      "summary": "A biologist recalls her first summer of fieldwork on an estuary near Galway, when she filled small jars with mud and water, learned what the rust-coloured layer means and got used to the changeable weather.",
+      "newWords": [
+        "baccalaureatus",
+        "biologia",
+        "aestuarium",
+        "oecosystema",
+        "copiosus",
+        "vasculum",
+        "oxidum",
+        "inconstans",
+        "prosterno"
+      ],
+      "text": "Vettiena biologiam diu in universitate docuit. In commentariis suis aestatem describit quae vitam eius mutavit.\n\n«Cum baccalaureatum in biologia adepta essem, viginti duos annos nata, nesciebam quid facerem. Biologiam amabam, sed in laboratorio sedere nolebam. Tum professor quidam, qui me in cursu baccalaureatus docuerat, me rogavit num aestatem cum eo prope Galviam agere vellem. Aestuarium ibi investigabat, et adiutore ei opus erat.\n\nAestuarium est locus ubi flumen in mare influit. Ibi aqua dulcis cum aqua salsa miscetur, et bis in die aestus accedit et recedit. Professor dicebat aestuarium esse oecosystema inter omnia maxime fertile. In hoc oecosystemate vermes et conchae in limo vivunt, pisces parvi inter herbas latent, aves vermibus et piscibus vescuntur. Cibus tam copiosus est ut aves etiam ex terris longinquis eo veniant. Numquam antea tam copiosam avium multitudinem videram.\n\nOpus meum simplex erat. Cotidie, cum aestus recessisset, cum vasculis per limum ambulabam. In unumquodque vasculum aquam aut limum ponebam, et in vasculo horam et locum scribebam. Vesperi vascula in parvo laboratorio numerabamus: interdum plus quam centum vascula una die collegeram.\n\nPrimo limum non intellegebam. Sub superficie grisea stratum rubrum inveni, et sub eo stratum nigrum. Professor explicavit colorem rubrum ex oxido ferri fieri: ferrum enim, quod in aqua est, cum aere coniungitur, et oxidum ferri limum rubrum facit, sicut ferrum vetus rubrum fit. Ubi autem aer deest, oxidum non fit, et limus niger manet. «Sic», inquit, «colores limi narrant ubi aer sit et ubi non sit.» Ex illo die limum numquam sordidum putavi, sed librum quem legere discebam.\n\nCaelum ibi inconstans est. Mane sol lucebat, meridie pluebat, post meridiem ventus nubes pellebat, vesperi sol iterum apparebat. Primo hoc caelum inconstans me vexabat; postea didici vestem contra pluviam semper ferre. Una nocte ventus tam vehemens fuit ut tabernaculum nostrum, in quo instrumenta servabamus, prosterneret. Eadem nocte ventus etiam herbas altas circa aestuarium prostravit, ita ut mane humi iacerent, quasi ingens animal per eas ambulavisset. Instrumenta tamen omnia integra invenimus.\n\nExeunte aestate scivi quid facere vellem. Postea dissertationem de aestuariis scripsi et per triginta annos biologiam docui. Sed nullum oecosystema tam amavi quam illud aestuarium sub caelo inconstanti, ubi primum limum legere didici.»\n\nQuaestiones:\nQuid Vettiena adepta erat cum ad aestuarium iret?\nBaccalaureatum in biologia adepta erat.\nQuid est aestuarium?\nAestuarium est locus ubi flumen in mare influit et aqua dulcis cum aqua salsa miscetur.\nCur aves ex terris longinquis ad aestuarium veniunt?\nQuia cibus in eo oecosystemate tam copiosus est.\nQuid Vettiena in vasculis ponebat?\nIn unumquodque vasculum aquam aut limum ponebat et horam et locum scribebat.\nUnde est color ruber limi?\nColor ruber ex oxido ferri fit, cum ferrum cum aere coniungitur.\nQuid ventus una nocte fecit?\nTabernaculum prostravit et herbas altas circa aestuarium prostravit."
+    },
+    {
+      "title": "Campio iuvenum",
+      "summary": "A draughts player from Valladolid recalls the youth tournament in which, at fourteen, he nearly gave up in despair, found a hidden combination and became junior champion, and what his opponent taught him.",
+      "newWords": [
+        "fanaticus",
+        "diagonalis",
+        "intermedius",
+        "combinatio",
+        "desperatio",
+        "campio",
+        "acceptio"
+      ],
+      "text": "Hostilianus, qui nunc quinquaginta annos natus est, in commentariis suis primum certamen magnum recordatur.\n\n«Pater meus fanaticus ludi calculorum erat. Libros de hoc ludo emebat, certamina in televisione spectabat, etiam inter cenam de calculis loquebatur. Mater ridebat et dicebat: «Pater tuus non lusor est, sed fanaticus.» Ego ab eo ludum didici cum septem annos natus essem, et mox ipse quoque fanaticus factus sum.\n\nIn hoc ludo calculi tantum per lineas diagonales moventur, numquam recta via. Tota tabula igitur rete est linearum diagonalium, et qui bene ludit non quadrata videt, sed lineas diagonales quae per tabulam currunt. Hoc pater me primum docuit.\n\nCum quattuordecim annos natus essem, pater me Vallisoletum ad certamen iuvenum duxit. Nondum in gradu superiore ludebam, sed in gradu intermedio, inter pueros eiusdem aetatis. Sex ludos vici; septimus et ultimus contra puerum erat qui ceteros omnes vicerat. Qui hunc ludum vinceret, campio iuvenum futurus erat.\n\nIam initio calculum unum stulte amisi. Adversarius meus calculos suos lente et certe promovebat, et ego desperatione capiebar. Manus meae tremebant. Patrem in ultimo ordine spectatorum sedentem videbam, et desperatio mea crescebat, quia putabam eum de me desperare.\n\nTum aliquid memini quod pater saepe dixerat: «Cum omnia perdita videntur, quaere combinationem.» Combinatio est series motuum in qua lusor unum aut duos calculos adversario dat, ut postea plures capiat. Diu tabulam spectavi. Subito combinationem vidi: si calculum meum in lineam diagonalem longam promoverem, adversarius eum capere deberet; tum, motu intermedio, alterum calculum ita ponerem ut tres eius calculos uno saltu caperem. Combinatio periculosa erat, sed desperatio me audacem fecerat. Combinationem feci, et post decem motus ludus finitus est. Campio iuvenum factus sum.\n\nSed quod maxime recordor non est victoria mea, sed acceptio adversarii. Cum ludus finitus esset, ille surrexit, manum mihi porrexit et dixit: «Pulchra erat combinatio tua.» Nihil querebatur, nullas lacrimas ostendebat. Haec acceptio me plus docuit quam omnes ludi quos vici. Postea pluries campio factus sum, sed etiam multos ludos perdidi; et quotiens perdidi, conatus sum eadem acceptione uti qua ille puer usus erat.»\n\nQuaestiones:\nQuis erat fanaticus ludi calculorum?\nPater Hostiliani fanaticus ludi calculorum erat.\nQuomodo calculi in hoc ludo moventur?\nCalculi tantum per lineas diagonales moventur, numquam recta via.\nIn quo gradu Hostilianus ludebat?\nIn gradu intermedio ludebat, inter pueros eiusdem aetatis.\nQuid est combinatio?\nCombinatio est series motuum in qua lusor unum aut duos calculos dat ut postea plures capiat.\nQuid Hostilianum desperatione liberavit?\nCombinatio quam subito vidit, cum memoria verborum patris.\nQuid Hostilianus maxime recordatur?\nAcceptionem adversarii recordatur, qui sine querela manum ei porrexit et combinationem eius laudavit."
+    },
+    {
+      "title": "Fornax avi",
+      "summary": "An architect from Passau recalls her grandfather the stove builder: the stone house, the small bricks, the wedges for splitting logs, the iron stick, the old pump in the yard and the art of regulating heat.",
+      "newWords": [
+        "saxeus",
+        "laterculus",
+        "trudo",
+        "calefactio",
+        "temperatio",
+        "cuneus",
+        "fustis",
+        "embolus"
+      ],
+      "text": "Marcina, quae Passavii habitat, in commentariis suis de avo suo scribit, qui fornaces aedificabat.\n\n«Avus meus, Caesennianus, fornaces aedificabat, quales in domibus antiquis huius regionis inveniuntur: magnas, e laterculis factas, quae totam domum calefaciunt. Ego, cum puella essem, eum singulis aestatibus in officina adiuvabam.\n\nDomus avi ipsa antiqua erat, cum muris saxeis et pavimento saxeo in culina. Murus saxeus tam crassus erat ut aestate frigus, hieme calorem servaret. In medio conclavi magna fornax stabat, quam avus iuvenis aedificaverat.\n\nAvus me docuit fornacem e laterculis aedificare. Laterculi sunt parvi, e terra cocta facti, tenues, ut calorem bene accipiant et diu reddant. Singulos laterculos in lutum ponebat, deinde manu leviter trudebat donec recte iacerent. «Ne nimis truseris», dicebat, «laterculus enim non est clavus.»\n\nCalefactio domus ex fornace non tam celeris est quam ex machinis novis. Ignis per unam horam ardet, laterculi calorem accipiunt, deinde per totum diem lente reddunt. Avus dicebat hanc calefactionem maxime salubrem esse, quia aerem non siccat.\n\nTemperatio autem caloris ars est. In fornace avi erat ianua parva ferrea, qua aer intrabat, et in tubo fumi lamina quam claudere et aperire licebat. Hac temperatione avus ignem moderabatur. «Bona temperatio», inquit, «plus valet quam multa ligna.»\n\nLigna ipse findebat. Truncos crassos cuneis ferreis findebat: cuneum in rimam ponebat, deinde malleo pulsabat donec truncus in duas partes divideretur. Ego cuneos ei ferebam et eum laborantem admirabar.\n\nAvus etiam fustem longum habebat, quo ligna ardentia in fornace trudebat et cinerem miscebat. Fustis ille ex ligno duro factus erat, et pars eius extrema ex igne nigra erat. Etiam nunc fustem eius in domo mea servo.\n\nIn area post domum antlia vetus stabat, qua aquam e puteo hauriebamus. Cum embolum antliae deprimerem et tollerem, aqua frigida ex ore antliae fluebat. Avus mihi explicavit quomodo embolus in tubo aerem expellat et aquam sursum trahat. Tum primum intellexi machinas non esse res obscuras, sed simplices, si quis eas diligenter spectat.\n\nNunc ipsa architecta sum et domos novas designo. Sed in domo mea fornacem e laterculis habeo, quam ipsa aedificavi, sicut avus me docuit.»\n\nQuaestiones:\nQuid faciebat Caesennianus?\nFornaces e laterculis aedificabat, quae totam domum calefaciunt.\nCur murus saxeus domus avi tam utilis erat?\nQuia tam crassus erat ut aestate frigus, hieme calorem servaret.\nCur avus calefactionem ex fornace salubrem putabat?\nQuia aerem non siccat.\nQuomodo avus truncos findebat?\nCuneum in rimam ponebat, deinde malleo pulsabat donec truncus divideretur.\nAd quid avus fustem adhibebat?\nFuste ligna ardentia in fornace trudebat et cinerem miscebat.\nQuid embolus antliae facit?\nEmbolus in tubo aerem expellit et aquam sursum trahit."
+    },
+    {
+      "title": "Medicus in valle",
+      "summary": "A retired doctor recalls his first years in a valley near Nocera: consultations in an old school, farmers with sore shoulders and backs, winter coughs, and a schoolgirl with epilepsy whom he helped to live a normal life.",
+      "newWords": [
+        "consultatio",
+        "venosus",
+        "umerus",
+        "spinalis",
+        "pulmonalis",
+        "epilepsia",
+        "tolerantia",
+        "succurro"
+      ],
+      "text": "Domitius medicus per triginta quinque annos in valle prope Nuceriam laboravit. In commentariis suis primos annos recordatur.\n\n«Cum in vallem venissem, triginta annos natus, nullum ibi valetudinarium erat. Consultationes in vetere schola habebam, ter in hebdomade. Ante consultationem agricolae in porticu exspectabant, saepe cum ovis aut caseo, quae mihi pro gratia dabant.\n\nPlurimi agricolae de umeris et de tergo querebantur, quia tota vita saccos graves portaverant. Recordor senem quendam, cuius manus venosae et durae erant, qui umerum dextrum vix tollere poterat. Manus eius venosas spectans cogitabam quot saccos illae manus portavissent. «Columna tua spinalis», ei dixi, «et umeri fessi sunt, non aegri. Quiete et motu leni melior fies.» Eum exercitationes simplices docui, quas cotidie faciebat. Post duos menses umerum rursus tollere poterat, et columna spinalis minus dolebat.\n\nEtiam morbi pulmonales frequentes erant. Hieme multi tussiebant, quia domus frigidae et umidae erant. Examen pulmonale in illa schola parva difficile erat, sed fiebat: aure ad pectus admota respirationem audiebam. Plerosque morbos pulmonales medicamentis et quiete sanavimus.\n\nMaxime autem recordor puellam nomine Ovidiam, decem annos natam. Mater eam ad consultationem duxit, quia in schola ter subito ceciderat et paulisper toto corpore tremuerat. Morbus erat epilepsia. Mater perterrita erat; in valle enim multi epilepsiam rem obscuram et pudendam putabant.\n\nEgo matri explicavi epilepsiam esse morbum cerebri, non culpam, et medicamentis plerumque bene coerceri. Ovidia medicamentum cotidie sumere coepit. Primo tolerantia corporis eius parva erat, et dolorem capitis et somnum gravem patiebatur. Paulatim autem tolerantia crevit, et accessus rariores facti sunt.\n\nDeinde in scholam ivi et magistros docui quomodo puellae succurrerent si accessus rursus veniret: eam in latus ponere, caput eius protegere, nihil in os eius inserere, tranquillos manere. Etiam pueros docui. Nam tolerantia non solum corporis est, sed etiam animorum: liberi qui intellegunt minus timent et minus irrident.\n\nPost annum Ovidia sine accessibus vivebat. Multis annis post epistolam ab ea accepi: magistra facta erat, et ipsa discipulos suos docebat quomodo condiscipulo succurrerent. Nullam epistolam carius servo.»\n\nQuaestiones:\nUbi Domitius consultationes habebat?\nIn vetere schola consultationes habebat, ter in hebdomade.\nQuales manus habebat senex agricola, et quid ei Domitius dixit?\nManus venosas et duras habebat; Domitius ei dixit columnam eius spinalem et umeros fessos esse, non aegros.\nCur multi hieme tussiebant?\nQuia domus frigidae et umidae erant, et morbi pulmonales frequentes erant.\nQuid Domitius matri Ovidiae de epilepsia explicavit?\nExplicavit epilepsiam esse morbum cerebri, non culpam, et medicamentis plerumque coerceri.\nQuid magistri facere debebant ut Ovidiae succurrerent?\nEam in latus ponere, caput eius protegere, nihil in os inserere, tranquillos manere.\nQuid Ovidia postea facta est?\nMagistra facta est."
+    },
+    {
+      "title": "Sella deversorii",
+      "summary": "A furniture designer from Solothurn recalls his first big commission, chairs for a luxury hotel: a handsome first design that nobody could sit on, then a flexible back, an added cushion and a fair fee.",
+      "newWords": [
+        "designator",
+        "analogicus",
+        "luxus",
+        "remuneratio",
+        "speciosus",
+        "flexibilis",
+        "torus",
+        "additamentum"
+      ],
+      "text": "Coponianus, designator sellarum, iam senex Soloduri habitat. In commentariis suis primum opus magnum recordatur.\n\n«Viginti sex annos natus eram, designator iuvenis et pauper. In parva officina sub tecto laborabam, ubi omnia manu delineabam. Tum computatra rara erant; ego delineationes analogicas plumbo in charta faciebam, et opera mea machina photographica analogica capiebam. Etiam hodie rationem analogicam amo: manus enim aliter cogitat quam computatrum.\n\nQuadam die epistola venit a domino deversorii magni luxus, quod in ripa lacus aedificabatur. Sellas novas volebat pro conclavi ubi hospites cenarent: centum viginti sellas, quae luxum deversorii ostenderent. Remunerationem obtulit quantam numquam acceperam. De remuneratione diu non cogitavi; statim consensi.\n\nPrimam sellam speciosam feci, ex ligno nigro, cum tergo alto et recto. Omnes qui eam viderunt laudaverunt: «Quam speciosa!» Sed cum dominus in ea sedisset, post decem minuta surrexit. «Speciosa est», inquit, «sed in ea cenare non possum. Hospites luxum quaerunt, non poenam.»\n\nDiu cogitavi. Intellexi sellam non solum oculis, sed etiam corpori placere debere. Tergum igitur flexibile feci, ex tenuibus laminis ligni, quae cum corpore sedentis paulum cedunt. Tergum flexibile cum homine movetur, ita ut is diu sedere possit neque defatigetur. Designator, ut tum didici, non solum formam pulchram quaerit, sed etiam hominem qui re utetur.\n\nDeinde torum addidi, tenuem et mollem, e lana confectum, qui in sede sellae iaceret. Torus colore viridi erat, sicut aqua lacus. Hoc additamentum dominus primo recusavit, quia pretium augebat. Sed cum in sella nova cum toro sedisset et tota cena non surrexisset, additamentum libenter solvit, et etiam remunerationem meam auxit.\n\nSellae illae per quadraginta annos in deversorio manserunt. Ante paucos annos eo redii. Sellae veteres erant, tori novi, sed terga flexibilia adhuc bene cedebant. In una sella sedi et cenavi, et nemo sciebat designatorem ipsum ibi sedere.»\n\nQuaestiones:\nQuomodo Coponianus iuvenis delineabat?\nDelineationes analogicas plumbo in charta faciebat.\nQuid dominus deversorii volebat?\nCentum viginti sellas volebat, quae luxum deversorii ostenderent.\nCur dominus primam sellam non probavit?\nQuia speciosa erat, sed dura, et in ea cenare non poterat.\nQuale tergum Coponianus deinde fecit?\nTergum flexibile ex tenuibus laminis ligni fecit, quae cum corpore sedentis cedunt.\nQuod additamentum dominus primo recusavit?\nTorum mollem e lana recusavit, quia pretium augebat.\nQuid Coponianus ante paucos annos fecit?\nIn deversorium rediit et in una e sellis suis cenavit."
+    },
+    {
+      "title": "Discipula quae dubitabat",
+      "summary": "A retired teacher from Venafro recalls a pupil who questioned everything, their lessons on affirmation and negation, generality and induction, and the clever false proof she wrote to test him.",
+      "newWords": [
+        "affirmatio",
+        "negatio",
+        "generalitas",
+        "inductio",
+        "subtilitas",
+        "commentum",
+        "perlego"
+      ],
+      "text": "Fabricianus per triginta annos philosophiam et logicam Venafri docuit. In commentariis suis de discipula quadam scribit quam numquam oblitus est.\n\n«Discipula erat sedecim annorum, Tettiana nomine, quae de omnibus dubitabat. Si quid dicebam, statim rogabat: «Unde id scis?» Primo me vexabat; postea intellexi eam optimam discipulam esse quam umquam habueram.\n\nPrimam lectionem de affirmatione et negatione habuimus. Affirmatio dicit aliquid esse; negatio dicit id non esse. «Omnes feles caudam habent» affirmatio est; «Non omnes feles caudam habent» negatio eius est. Explicavi affirmationem et negationem eius non posse simul veras esse. Tettiana diu cogitavit, deinde dixit: «Ergo si negationem probare possum, affirmationem refutavi.» Recte dixerat.\n\nDeinde de generalitate locuti sumus. Sententia quae de omnibus rebus unius generis loquitur magnam generalitatem habet; quo maior generalitas, eo facilius sententia refutatur. Una enim feles sine cauda satis est ad sententiam «Omnes feles caudam habent» refutandam.\n\nTum de inductione. Inductio est via ab exemplis singulis ad regulam generalem: centum cygnos albos vidi, ergo omnes cygni albi sunt. Inductio utilis est, sed numquam certa; sunt enim etiam cygni nigri. Tettiana hanc rem amavit, et per totam hebdomadem exempla inductionis falsae colligebat.\n\nQuadam die mihi chartam dedit, in qua argumentum longum scripserat quod demonstrare videbatur pisces volare. Argumentum tanta subtilitate scriptum erat ut errorem diu non invenirem. Tandem vidi: verbum unum duobus sensibus adhibuerat. «Commentum est», dixit ridens. «Volebam videre num subtilitatem eius perspiceres.» Hoc commentum etiam nunc servo.\n\nSubtilitas eius me delectabat, sed eam docui subtilitatem sine veritate nihil valere: commentum ingeniosum non est argumentum verum.\n\nExeunte anno librum logicae, quem ceteri discipuli vix aperuerant, totum perlegerat, etiam notas in margine. Postea etiam libros perlegit quos ego ipse numquam perlegeram. Hodie ipsa logicam in universitate docet, et discipulos suos, ut mihi scripsit, eadem quaestione vexat: «Unde id scis?»»\n\nQuaestiones:\nQuid Tettiana semper rogabat?\nRogabat: «Unde id scis?»\nQuid est negatio?\nNegatio dicit id non esse quod affirmatio dicit esse.\nCur sententia magnae generalitatis facile refutatur?\nQuia unum exemplum contrarium satis est ad eam refutandam.\nCur inductio numquam certa est?\nQuia ab exemplis singulis ad regulam generalem procedit, et exemplum contrarium semper inveniri potest.\nQuid Tettiana in charta scripserat?\nCommentum scripserat, argumentum quod demonstrare videbatur pisces volare.\nQuid Tettiana exeunte anno fecerat?\nLibrum logicae totum perlegerat, etiam notas in margine."
+    },
+    {
+      "title": "Hortus communitarius",
+      "summary": "A woman from Tallinn recalls how she and her neighbours turned an empty lot into a community garden despite a ban on digging, thanks to an old neighbour's intervention, large clay urns and careful naming of the wild plants.",
+      "newWords": [
+        "communitarius",
+        "directorium",
+        "prohibitio",
+        "intercessio",
+        "urna",
+        "identificatio",
+        "observantia"
+      ],
+      "text": "Herenniana Revaliae habitat, in parte urbis ubi domus altae sunt et horti pauci. In commentariis suis narrat quomodo hortus communitarius in vico eius ortus sit.\n\n«Prope domum nostram area vacua erat, plena herbarum et lapidum. Quodam vere ego et tres vicini constituimus ibi hortum communitarium facere, id est hortum qui non uni homini esset, sed toti vico.\n\nPrimum dominum areae invenire debebamus. In directorio urbis, quod in bibliotheca publica servabatur, nomina dominorum omnium arearum scripta erant. Per duas horas in directorio quaerebamus; tandem invenimus aream ad urbem ipsam pertinere.\n\nSed in officio urbis prohibitio nos exspectabat. Sub area enim magni tubi aquae iacebant, et ideo prohibitum erat ibi aliquid aedificare aut terram fodere. Sine fossione autem nullus hortus esse potest. Prohibitionem legimus et domum tristes rediimus.\n\nTum vicinus noster senex, Volumnianus, qui olim in officio urbis laboraverat, nobis succurrit. Eius intercessio omnia mutavit. Ad officium ivit et cum veteribus collegis locutus est. Intercessione eius consilium inventum est: si plantas non in terra, sed in urnis et arcis poneremus, prohibitio servaretur et hortus tamen esset.\n\nItaque urnas magnas e terra cocta collegimus: alias emimus, alias vicini donaverunt, unam etiam in via relictam invenimus. In singulis urnis holera et flores posuimus. Urnae hoc quoque commodum habent, quod moveri possunt, si sol locum mutat aut si tubi reficiendi sunt.\n\nIn area autem iam plantae silvestres crescebant, quas nemo nostrum noverat. Vicina quaedam, magistra biologiae, identificationem plantarum suscepit: singulas plantas cum libro comparabat et nomen in tabella scribebat. Post identificationem multas plantas servavimus quas antea herbas malas putaveramus, inter eas herbas quae in culina utiles sunt.\n\nHortus communitarius observantiam postulat: observantiam regularum, quas omnes una scripsimus, et observantiam aliorum. Nemo fructus alienos carpit; qui urnam suam neglegit, ab aliis comiter admonetur. Haec observantia, ut puto, hortum per viginti quinque annos servavit. Nunc liberi eorum qui primas urnas posuerunt suas urnas curant.»\n\nQuaestiones:\nQuid est hortus communitarius?\nHortus communitarius est hortus qui non uni homini est, sed toti vico.\nUbi nomina dominorum arearum inveniebant?\nIn directorio urbis, quod in bibliotheca publica servabatur.\nQuae prohibitio vicinos exspectabat?\nProhibitum erat in area aliquid aedificare aut terram fodere, quia sub ea tubi aquae iacebant.\nQuid intercessio Volumniani effecit?\nConsilium inventum est, ut plantae in urnis et arcis ponerentur.\nQuis identificationem plantarum suscepit?\nVicina quaedam, magistra biologiae, identificationem suscepit.\nQuid hortum per tot annos servavit?\nObservantia regularum et observantia aliorum hortum servavit."
+    },
+    {
+      "title": "Epilogus",
+      "summary": "A grandmother in Canosa writes the epilogue of her memoirs: she opens an old box of letters, watches her granddaughter read, and tells her readers how quickly the years slip away.",
+      "newWords": [
+        "alloquor",
+        "consummo",
+        "umbilicus",
+        "recludo",
+        "elabor",
+        "labium",
+        "epilogus"
+      ],
+      "text": "Statiena Canusii habitat. Per tres annos commentarios de vita sua scripsit; hodie epilogum scribit.\n\n«Hodie, lector, te iterum alloquor, ut in principio libri feci. Opus quod ante tres annos incepi nunc consummo. Antiqui, cum librum perfecissent, dicebant se «ad umbilicum» pervenisse. Umbilicus enim erat bacillum circa quod charta voluminis volvebatur; qui ad umbilicum pervenerat, librum totum legerat aut scripserat. Ego quoque ad umbilicum perveni.\n\nAntequam epilogum scriberem, arcam veterem reclusi, quam per quadraginta annos non aperueram. In ea epistolae erant quas mater mea et amicae ad me miserant. Cum arcam reclusissem, odor chartae veteris me statim in iuventutem reduxit. Ex una epistola folium parvum elapsum est et in pavimentum cecidit: photographia, in qua ego, duodecim annos nata, cum matre in litore maris sto.\n\nQuam celeriter anni elabuntur! Cum puella essem, una aestas aeternitas mihi videbatur; nunc anni tamquam aqua inter digitos elabuntur. Fortasse hanc ob causam commentarios scripsi: ut aliquid tenerem quod aliter elaberetur.\n\nNeptis mea, Lartilla, quindecim annos nata, omnia capita priora legit. Dum legit, labia movet, ut liberi solent; et cum aliquid triste legit, labium inferius mordet. Saepe eam spectavi dum legebat, et ex labiis eius intellegebam quae pars libri eam moveret. Lartilla me hortata est ut opus consummarem, cum ego opus relinquere vellem.\n\nNunc ultimum te alloquor, lector, et te quoque, Lartilla, quae hunc librum prima leges. Quod scripsi non est historia magna, sed vita una, cum aestatibus et hiemibus, cum gaudiis et curis. Si quid tibi suadere possum, hoc est: noli exspectare donec senex sis ut arcam tuam recludas. Scribe hodie quod hodie vides, quia cras id iam elapsum erit.\n\nHic igitur epilogus finis est. Librum ad umbilicum adduxi, opus consummavi, et arcam epistolarum non claudam, sed Lartillae dabo.»\n\nQuaestiones:\nQuos Statiena in epilogo alloquitur?\nLectorem alloquitur, et etiam Lartillam, neptem suam.\nQuid significabat «ad umbilicum pervenire»?\nSignificabat librum totum legisse aut scripsisse, quia umbilicus erat bacillum circa quod charta voluminis volvebatur.\nQuid Statiena in arca invenit cum eam reclusisset?\nEpistolas matris et amicarum invenit, et ex una epistola folium parvum elapsum est.\nQuid Lartilla facit dum legit?\nLabia movet, et cum aliquid triste legit, labium inferius mordet.\nQuid Statiena lectori suadet?\nSuadet ut hodie scribat quod hodie videt, nec exspectet donec senex sit.\nCui Statiena arcam epistolarum dabit?\nArcam epistolarum Lartillae, nepti suae, dabit."
+    }
+  ]
+}
