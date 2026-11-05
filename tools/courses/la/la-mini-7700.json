@@ -1,0 +1,205 @@
+{
+  "id": "la-mini-7700",
+  "rankUpTo": 7700,
+  "level": "C1",
+  "title": "Inventa et inventores",
+  "description": "Ten stories of inventions and inventors: a snow store in the Alps, the history of the match, an old projector in an attic, the stethoscope, a camera trap for lynxes, a bicycle butter churn, a storm-proof tent, bamboo bicycles, a gentle alarm clock and paper microscopes.",
+  "topic": "Inventions and inventors",
+  "names": [
+    "Sedunum",
+    "Caesellius",
+    "Helvidiana",
+    "Turicum",
+    "Iulius",
+    "Londinium",
+    "Volcacius",
+    "Larciana",
+    "Britannia",
+    "Lugdunum",
+    "Rasinius",
+    "Insteiana",
+    "Patavium",
+    "Aquiliana",
+    "Cossutianus",
+    "Matrinius",
+    "Vesontio",
+    "Rutiliana",
+    "Iura",
+    "Decrianus",
+    "November",
+    "Anniana",
+    "Pacuvianus",
+    "Faventia",
+    "Bononia",
+    "Augustus",
+    "Bauzanum",
+    "Murciana",
+    "Monacum",
+    "Fannianus",
+    "Ticinum",
+    "Ticinus",
+    "Iuventianus",
+    "Egnatianus",
+    "Brixia",
+    "Gargonius",
+    "Sulpiciana",
+    "Minuciana",
+    "Tarentum",
+    "Aufidiena",
+    "Cluentiana"
+  ],
+  "lessons": [
+    {
+      "title": "Cella nivaria",
+      "summary": "In a mountain village near Sion an old mechanic and his granddaughter, an engineering student, store the winter snow in a turf-covered pit in the limestone, so that its meltwater, running through a filter into a cistern, lasts through the dry summer.",
+      "newWords": [
+        "nivarius",
+        "liquefacio",
+        "cisterna",
+        "perfluo",
+        "filtrum",
+        "superpono",
+        "caespes",
+        "calcareus",
+        "cylindricus"
+      ],
+      "text": "In valle alta prope Sedunum vicus parvus iacet, cuius incolae aquam ex uno fonte hauriunt. Aestate tamen, cum diu non pluit, fons paene siccatur, et agricolae caelum sollicite spectant. Caesellius, faber senex qui per quadraginta annos machinas agricolarum refecit, hanc rem diu secum volvebat. Aestate proxima neptis eius Helvidiana, quae Turici machinationem discit, ad eum venit, et una consilium ceperunt.\n\n«Hieme nix abundat», dixit Caesellius, «aestate aqua deest. Si nivem hiemis usque ad aestatem servare possemus, aqua nobis numquam deesset.» Helvidiana in libro vetere legerat maiores in montibus cellas nivarias habuisse: foveas profundas, in quas hieme nix congerebatur, ut aestate cibus frigidus servaretur. «Cella nivaria nostra non cibum, sed aquam servabit», inquit.\n\nLocum elegerunt in latere septentrionali montis, quo sol raro pervenit. Ibi saxum calcareum est, album et molle, quod facile foditur. In saxo calcareo foveam latam et profundam fodere coeperunt; vicini quoque, qui rem audiverant, cum ligonibus venerunt.\n\nSub fovea cisternam posuerunt, vas magnum et cylindricum ex materia firma factum. Inter foveam et cisternam Helvidiana filtrum collocavit: stratum harenae et carbonis, per quod aqua, cum nix liquefieret, perfluere debebat. «Filtrum terram et folia retinebit», explicavit, «ut aqua pura in cisternam perveniat.»\n\nHieme, cum nix alta cecidisset, incolae nivem in foveam congesserunt et pedibus calcaverunt, donec fovea plena fuit. Deinde, ut nix diutius maneret, Caesellius nivi strata varia superposuit: primum ramos abietis, deinde paleas, postremo caespites. Caespites, quos in prato proximo secuerant, ordine densissimo superposuit, et tectum crassum et viride factum est. «Caespes frigus intus tenet et calorem solis arcet», dixit senex.\n\nVere et aestate nix sub caespitibus lente liquefiebat. Aqua per filtrum tarde perfluebat et in cisterna cylindrica colligebatur. Mense Iulio, cum fons vici iterum paene siccus esset, cisterna aquae plena erat. Incolae aquam frigidam et puram hauriebant et hortos suos rigabant.\n\nHelvidiana omnia diligenter in libello scripsit: quantum nivis singulis hebdomadibus liquefactum esset, quantum aquae per filtrum perflueret. Autumno Turici de cella nivaria disputationem scripsit, quam professores laudaverunt. Caesellius autem ridens dicebat se nihil novi invenisse. «Maiores nostri hoc iam sciebant», inquit. «Nos tantum cisternam et filtrum addidimus.»\n\nQuaestiones:\nCur agricolae vici aestate caelum sollicite spectant?\nQuia fons vici, cum diu non pluit, paene siccatur.\nUbi Caesellius et Helvidiana foveam foderunt?\nIn latere septentrionali montis, in saxo calcareo, quod facile foditur.\nQuid inter foveam et cisternam collocatum est?\nFiltrum ex harena et carbone, per quod aqua nivis perfluit.\nQuae strata Caesellius nivi superposuit?\nPrimum ramos abietis, deinde paleas, postremo caespites nivi superposuit.\nQuid mense Iulio in cisterna cylindrica erat?\nAqua frigida et pura, quae ex nive lente liquefacta per filtrum perfluxerat."
+    },
+    {
+      "title": "Scintillae et sulphur",
+      "summary": "In a London school a chemistry teacher tells his pupils how the match was invented, strikes sparks from flint and steel to light an old oil lamp, and lets them strike safety matches with great care.",
+      "newWords": [
+        "sulphur",
+        "scintilla",
+        "scintillo",
+        "lampas",
+        "praefor",
+        "emphasis",
+        "emphaticus",
+        "innoxius",
+        "accuratio"
+      ],
+      "text": "Volcacius, qui Londinii in schola chemiam docet, hodie discipulis suis de inventione parva sed utilissima loqui constituit: de virgula sulphurata, qua ignem cotidie accendimus. Antequam lectionem inciperet, pauca praefatus est. «Hodie cum igne laborabimus», inquit voce emphatica. «Nemo quicquam faciet nisi ego iussero. Capilli longi ligandi sunt, et vitra ante oculos ponenda.» Discipuli, cum magistrum tanta emphasi loquentem audivissent, statim paruerunt.\n\nPrimum lampadem veterem ex armario protulit, quam avia eius olim in villa rustica habuerat. «Ante annum 1830», dixit, «qui lampadem accendere volebat, ignem sine virgula sulphurata facere debebat. Quomodo id fiebat?» Tum silicem et ferrum discipulis ostendit. Cum ferrum in silicem impegisset, scintillae multae emicuerunt. Scintillae in fomitem siccum ceciderunt, qui paulatim fumare et scintillare coepit. Volcacius leniter in fomitem flavit, donec flamma parva apparuit, et ea lampadem accendit.\n\nDeinde de sulphure narravit. «Sulphur est materia flava, quae facile ardet et odorem acrem emittit. Iam antiquitus homines ligna tenuia in sulphur liquefactum mergebant. Talia ligna per se non ardebant, sed scintillam celeriter capiebant. Anno autem 1826 pharmacopola quidam in Britannia, dum mixturas varias temptat, lignum cuius caput mixtura sicca obductum erat forte super lapidem asperum traxit, et caput statim exarsit. Sic nata est virgula quae fricando accenditur.»\n\n«Primae tamen virgulae periculosae erant», perrexit Volcacius. «Interdum caput scintillans in vestem cadebat. Materia praeterea quae in capitibus erat iis qui virgulas fabricabant valde nocebat. Postea homines virgulas innoxias invenerunt, quae non nisi in latere capsae accenduntur. His virgulis innoxiis nos hodie utimur.» Hoc ultimum iterum cum emphasi dixit, ut omnes intellegerent quanti momenti haec inventio fuisset.\n\nTum discipuli ipsi rem temptaverunt. Volcacius ab eis summam accurationem postulavit: virgulam a corpore avertendam, lente et firmiter trahendam, statim post usum in vas aquae mittendam. Larciana, discipula diligens, tanta accuratione laboravit ut virgulam primo conatu accenderet. Flamma parva scintillavit et deinde quiete arsit. Ceteri plauserunt, et Volcacius accurationem eius laudavit.\n\nLectione finita, magister lampadem operculo exstinxit. «Ignis nobis lucem et calorem dat», inquit voce iterum emphatica, «sed accurationem semper postulat.»\n\nQuaestiones:\nQuid Volcacius praefatus est antequam lectionem inciperet?\nPraefatus est neminem quicquam facturum esse nisi ipse iussisset, et capillos longos ligandos esse.\nQuomodo homines ante annum 1830 lampadem accendebant?\nFerrum in silicem impingebant, et scintillae in fomitem siccum cadebant.\nCur primae virgulae periculosae erant?\nQuia caput scintillans interdum in vestem cadebat, et materia capitum fabricantibus nocebat.\nQuibus virgulis hodie utimur?\nVirgulis innoxiis utimur, quae non nisi in latere capsae accenduntur.\nQuomodo Larciana laboravit?\nTanta accuratione laboravit ut virgulam primo conatu accenderet."
+    },
+    {
+      "title": "Cinemateum in cenaculo",
+      "summary": "In Lyon an old projectionist and his granddaughter, a physics student, repair the projector he keeps in his attic, steady it on the creaking floor, damp the echo with blankets and show the neighbours an old film of their village.",
+      "newWords": [
+        "cinemateum",
+        "cenaculum",
+        "contabulatio",
+        "refercio",
+        "resonantia",
+        "immotus",
+        "sollicitudo"
+      ],
+      "text": "Rasinius, senex qui Lugduni habitat, per triginta annos in parvo cinemateo vici sui machinam regebat quae pelliculas in linteum album proicit. Cum id cinemateum ante decem annos clausum esset, Rasinius machinam veterem parvo pretio emit et in cenaculum domus suae portavit. Ibi diu immota iacebat, linteo tecta, inter arcas et sellas fractas.\n\nAestate proxima neptis eius Insteiana, quae physicam studet, in cenaculum ascendit ut libros veteres quaereret, et machinam invenit. «Potestne haec machina adhuc pelliculas monstrare?» rogavit. «Fortasse», respondit avus, «sed tot annos immota fuit. Oleo et lampade nova ei opus est.»\n\nDum machinam purgant, Rasinius nepti narravit quomodo inventa esset. «In hac ipsa urbe», inquit, «fratres duo ante annos plus quam centum machinam excogitaverunt quae imagines moventes ostenderet. Res autem mira est: nulla imago in pellicula movetur. Singulae imagines immotae sunt, sed sedecim aut plures singulis secundis in linteo sequuntur. Oculus noster tam celerem seriem distinguere non potest, et motum videre sibi videtur.» Insteiana, quae de oculis in universitate didicerat, rem intellexit et gavisa est.\n\nTum de loco cogitaverunt. Contabulatio cenaculi ex tabulis veteribus facta erat, quae sub pedibus crepabant. Cum Insteiana ambularet, machina in mensa tremebat, et imago in linteo saltabat. Itaque tabulam crassam in contabulatione posuerunt et mensam super eam collocaverunt. Machina iam non tremebat.\n\nAltera difficultas erat resonantia. Cenaculum altum et vacuum erat, et omnis vox a parietibus redibat. Cum Insteiana musicam in telephono suo incepisset, soni confusi et duri per cenaculum resonabant. Rasinius stragula vetera ad parietes suspendit, quae resonantiam minuerunt. Postea musica clara et mollis sonabat.\n\nRasinius tamen sollicitudine non carebat. Pellicula quam monstrare volebat, ab ipso ante quadraginta annos in vico facta, iam vetus et fragilis erat. «Si scinditur, numquam iterum videbitur», dicebat. Insteiana sollicitudinem eius levare conata est: pelliculam ante spectaculum lente inspexit et partes debiles glutine refecit.\n\nVespere constituto cenaculum vicinis refertum erat. Alii in sellis sedebant, alii in contabulatione, pueri in pulvinis. Rasinius machinam accendit; lampas lucem in linteum misit, et pellicula vetus currere coepit: vicus ante quadraginta annos, fons in foro, pueri ludentes, inter quos ipse Rasinius iuvenis. Vicini clamaverunt et riserunt, cum se ipsos tam iuvenes viderent. Pellicula integra mansit.\n\nPostea, cum cenaculum iam non refertum, sed vacuum esset, Rasinius neptem amplexus est. «Sollicitudo mea vana fuit», inquit. «Cinemateum nostrum iterum apertum est, etiam si sub tecto.»\n\nQuaestiones:\nQuid Rasinius in cinemateo vici sui faciebat?\nPer triginta annos machinam regebat quae pelliculas in linteum proicit.\nUbi machina vetus diu iacebat?\nIn cenaculo domus eius, immota et linteo tecta.\nCur imagines in linteo moveri videntur?\nQuia imagines immotae tam celeriter sequuntur ut oculus seriem distinguere non possit.\nQuid fecerunt ne machina in contabulatione veteri tremeret?\nTabulam crassam in contabulatione posuerunt et mensam super eam collocaverunt.\nQuomodo resonantia cenaculi minuta est?\nRasinius stragula vetera ad parietes suspendit.\nQuibus cenaculum vespere constituto refertum erat?\nCenaculum vicinis refertum erat."
+    },
+    {
+      "title": "Cylindrus chartaceus",
+      "summary": "In Padua a medical student going on home visits with an older doctor hears how the stethoscope began as a rolled-up sheet of paper, then learns with him to question and listen before judging, and they trace a carpenter's cough to the dust in his workshop.",
+      "newWords": [
+        "pleura",
+        "percontatio",
+        "causalis",
+        "determinatio",
+        "salubritas",
+        "praesumptio",
+        "retentio",
+        "consensio"
+      ],
+      "text": "Aquiliana, quae Patavii medicinae studet, per mensem Cossutianum, medicum seniorem, comitatur, dum is aegrotos domi visitat. Primo die medicus ei instrumentum suum ostendit, quo sonos cordis et pulmonum audit. «Scisne quomodo hoc inventum sit?» rogavit. «Ante annos fere ducentos medicus quidam iuvenis puellam aegram visitabat. Eo tempore medici aurem ipsam pectori aegroti admovebant, sed puella verecunda erat, et medicus id facere dubitabat. Tum meminit se pueros in horto vidisse qui per lignum longum sonos lenes inter se mitterent. Itaque chartam in cylindrum convolvit, alteram partem pectori puellae, alteram auri suae admovit, et sonos cordis clarius quam umquam audivit. Ex illo cylindro chartaceo hoc instrumentum natum est.»\n\nEodem die Matrinium visitaverunt, fabrum lignarium qui iam tres hebdomadas tussi laborabat. Aquiliana statim putavit eum gravedine laborare. Cossutianus autem, cum hoc ex vultu eius intellexisset, ei leniter dixit: «Cave praesumptionem. Praesumptio medico periculosa est, quia oculos claudit. Primum interroga, deinde ausculta, postremo iudica.»\n\nItaque longa percontatione incepit. Matrinium rogavit quando tussis coepisset, utrum mane an vespere gravior esset, quid in officina faceret. Ex percontatione cognoverunt Matrinium per totum mensem in officina sua mensas magnas polivisse, et pulverem ligni subtilissimum in aere fuisse. Tussim etiam diebus festis, cum domi maneret, fere cessare.\n\nDeinde Cossutianus instrumentum pectori Matrinii admovit et eum spiritum alte ducere iussit. Post singulas inspirationes brevem spiritus retentionem postulavit, quia in ipsa retentione cor clarius auditur. Aquiliana quoque auscultavit. «Audisne aliquid asperum?» rogavit medicus. «Si pleura, membrana tenuis quae pulmones circumdat, inflammata esset, sonum asperum audiremus, quasi duo coria inter se fricarentur. Nunc pleura quieta est, et pulmones clari sunt.»\n\nTum de causa locuti sunt. «Nexus causalis inter pulverem et tussim mihi videtur manifestus», dixit Cossutianus. «Diebus festis tussis cessat, in officina redit. Talis nexus causalis tamen probandus est, non tantum suspicandus.» Aquiliana annuit; determinatio causae ei iam non difficilis videbatur, cum omnia signa in eandem partem ducerent. Haec determinatio etiam remedium indicavit.\n\nMedicus Matrinio suasit ut in officina fenestras aperiret et velum ante os et nares gereret. «Salubritas aeris», inquit, «tibi plus proderit quam ulla medicina.» Matrinius consilium libenter accepit. Consensio medici et aegroti, ut Cossutianus dicere solet, dimidium sanationis est, et hoc die consensio facilis fuit.\n\nPost duas hebdomadas, cum iterum venissent, tussis fere evanuerat, et Matrinius laetus nuntiavit salubritatem officinae nunc multo maiorem esse. Aquiliana in libello scripsit: «Primum percontatio, deinde auscultatio, numquam praesumptio.»\n\nQuaestiones:\nQuomodo instrumentum medici inventum est?\nMedicus quidam chartam in cylindrum convolvit et sonos cordis puellae per eum audivit.\nCur Cossutianus Aquilianam monuit ut praesumptionem caveret?\nQuia praesumptio medico periculosa est et oculos claudit.\nQuid ex percontatione cognoverunt?\nMatrinium in officina mensas polivisse, et pulverem ligni in aere fuisse.\nQuid de pleura Matrinii dixit Cossutianus?\nPleuram quietam esse, quia nullum sonum asperum audiebant.\nQuid est consensio medici et aegroti secundum Cossutianum?\nDimidium sanationis est."
+    },
+    {
+      "title": "Machina quae lyncem exspectat",
+      "summary": "In Besançon a zoology student builds a cheap camera trap, tests it in the zoo on gazelles, a peacock and a curious llama, and then photographs a lynx in the Jura forest, where the pictures help researchers tell the few related lynxes apart.",
+      "newWords": [
+        "zoologia",
+        "biodiversitas",
+        "lynx",
+        "gazella",
+        "pavo",
+        "lama",
+        "horridus",
+        "excitatio",
+        "consanguinitas"
+      ],
+      "text": "Rutiliana, quae Vesontione zoologiam studet, lynces in silvis Iurae observare cupit. Lynces tamen timidae sunt et noctu errant, et homo eas raro videt. Machinae quae ipsae imagines capiunt, cum animal praeterit, iam exstant, sed magno pretio veneunt. Rutiliana igitur, quae non solum zoologiae sed etiam machinarum perita est, machinam vilem ipsa construere constituit.\n\nMachina eius simplex est: capsa parva, in qua sunt oculus telephoni veteris et sensorium quod calorem corporum sentit. Cum animal calidum praeterit, excitatio sensorii telephonum movet, quod statim imaginem capit. «Sine excitatione nulla imago fit», explicat Rutiliana, «et machina interim dormit, ut vim servet.»\n\nPrius quam machinam in silvam ferret, eam in horto zoologico urbis probavit, ubi Decrianus, custos animalium, ei favit. Primum machinam prope gazellas posuit. Gazellae autem tam saepe et celeriter currebant ut uno die mille fere imagines caperentur, quarum plurimae nihil nisi crura gazellarum ostendebant. Itaque Rutiliana sensorium ita mutavit ut non nisi excitatio longior machinam moveret.\n\nDeinde machinam iuxta pavonem posuit, qui caudam pulcherrimam explicavit, quasi sciret se spectari. Imagines pavonis optimae fuerunt. Postremo machinam in saepto lamae collocavit. Lama, animal curiosum, ad capsam accessit, eam diu olfecit et vitrum lingua lambit, ita ut imagines umidae et obscurae essent. Decrianus risit: «Lama nostra omnia nova lingua probat.»\n\nMense Novembri Rutiliana tres machinas in silva horrida montium posuit, ubi saxa et arbores eversae iter difficile reddunt. Per sex hebdomadas machinae cervos, vulpes, meles, aves rapaces et multa animalia parva photographaverunt. Professor eius, cum imagines vidisset, dixit eas biodiversitatem silvae melius ostendere quam multos libros. «Biodiversitas huius regionis maior est quam putabamus», inquit.\n\nTandem nocte quadam lynx ante machinam stetit. In imagine clare apparebant aures penicillatae et pilus hibernus, densus et horridus, maculis obscuris notatus. Rutiliana gaudio exsiluit.\n\nProfessor tamen explicavit imaginem non solum pulchram, sed etiam utilem esse. Lynces in his montibus paucae sunt, et omnes a paucis animalibus ortae, quae ante annos quinquaginta in silvas missae sunt. Itaque inter eas consanguinitas magna est. Consanguinitas nimia animalia debiliora reddit, et zoologi scire volunt quot lynces sint et quae inter se cognatae sint. Maculae autem in pelle cuiusque lyncis diversae sunt, ita ut ex imaginibus singulae cognosci possint. Ab eo die machinae Rutilianae in multis locis Iurae lynces exspectant.\n\nQuaestiones:\nCur Rutiliana machinam ipsa construere constituit?\nQuia machinae quae ipsae imagines capiunt magno pretio veneunt.\nQuid fit, cum animal calidum machinam praeterit?\nExcitatio sensorii telephonum movet, quod imaginem capit.\nQuid lama in horto zoologico fecit?\nAd capsam accessit et vitrum lingua lambit, ita ut imagines umidae essent.\nQuomodo pilus lyncis in imagine apparebat?\nPilus hibernus densus et horridus erat, maculis obscuris notatus.\nCur consanguinitas inter lynces Iurae magna est?\nQuia omnes a paucis animalibus ortae sunt, quae ante annos quinquaginta in silvas missae sunt."
+    },
+    {
+      "title": "Machina butyri",
+      "summary": "On a small farm near Faenza an engineering student builds his grandmother a bicycle-powered butter churn; the first try sprays cream everywhere, but after a summer of patient work it makes butter while he pedals and reads.",
+      "newWords": [
+        "butyrum",
+        "casula",
+        "cydonius",
+        "callosus",
+        "dictito",
+        "exprobro",
+        "peioro",
+        "lucta",
+        "insons"
+      ],
+      "text": "Anniana, avia Pacuviani, in casula prope Faventiam habitat, ubi duas vaccas et hortum magnum habet. Omni hebdomade ex lacte vaccarum butyrum facit, sicut mater eius faciebat: lac pingue in vas ligneum infundit et pertica brevi diu agitat, donec butyrum fit. Labor est longus et durus, et manus eius, quae per sexaginta annos hoc fecerunt, callosae sunt. «Butyrum bonum patientiam postulat», dictitat, et idem mater eius dictitabat.\n\nPacuvianus, qui Bononiae machinationem studet, aestate ad aviam venit. Cum manus eius callosas videret, machinam excogitare constituit quae aviae laborem levaret. In casula birotam veterem invenit, quam in stativo posuit, ita ut rota posterior libere volveretur. Rotam fune cum pertica vasis coniunxit, ut, dum quis pedibus calcaret, pertica in vase sursum deorsum moveretur.\n\nPrimum experimentum rem non emendavit, sed peioravit. Pacuvianus tam celeriter calcavit ut lac ex vase saliret et parietes casulae, mensam, etiam vestem aviae aspergeret. Anniana, lac ex capillis tergens, nepotem exprobravit: «Hoc est quod semper dictito: butyrum patientiam postulat, non celeritatem!»\n\nPacuvianus, cum felem aviae lac in pavimento lambentem videret, clamavit: «Ecce, feles quoque rem peiorat!» Sed avia eum iterum exprobravit: «Feles insons est. Non ipsa lac effudit, sed machina tua. Noli culpam in animal insons conferre.» Pacuvianus erubuit et fateri debuit felem omnino insontem esse.\n\nPer totam aestatem lucta inter Pacuvianum et machinam duravit. Interdum funis rumpebatur, interdum rota haerebat, interdum lac numquam spissum fiebat. Neque tamen haec lucta animum eius fregit. Celeritatem rotae minuit, operculum vasi addidit, et rationem quandam excogitavit qua pertica lente et aequaliter moveretur.\n\nMense Augusto machina denique bene laboravit. Pacuvianus tranquille calcabat, librum legens, et post semihoram butyrum flavum et solidum in vase erat. Anniana, manibus callosis in gremio quiescentibus, admirata est. «Numquam putavi machinam patientiam habere posse», dixit.\n\nVespere in mensa casulae panem recentem cum butyro novo et conditura ex malis cydoniis ederunt, quam Anniana autumno priore paraverat. Mala cydonia, quae cruda dura et acerba sunt, cocta dulcia et odorata fiunt. «Sicut mala cydonia», risit avia, «etiam machina tua tempore et patientia dulcis facta est.»\n\nQuaestiones:\nCur manus Annianae callosae sunt?\nQuia per sexaginta annos butyrum manu fecit.\nQuid Anniana semper dictitat?\nDictitat butyrum bonum patientiam postulare.\nQuomodo primum experimentum rem peioravit?\nPacuvianus tam celeriter calcavit ut lac ex vase saliret et casulam aspergeret.\nCur avia dixit felem insontem esse?\nQuia non feles lac effuderat, sed machina Pacuviani.\nQuid vespere in mensa casulae ederunt?\nPanem recentem cum butyro novo et conditura ex malis cydoniis ederunt."
+    },
+    {
+      "title": "Tentorium quod vento obsistit",
+      "summary": "In Bolzano a young designer tests a tent whose flexible poles bend in a gale without losing their shape, writes her patent application, and finds the old official in Munich kind rather than prejudiced; he shows her the register with the names of the pioneers before her.",
+      "newWords": [
+        "obsisto",
+        "deformatio",
+        "conscriptio",
+        "exscribo",
+        "matricula",
+        "hierarchicus",
+        "praeiudicium",
+        "antesignanus"
+      ],
+      "text": "Murciana, quae Bauzani officinam parvam habet, tentoria facit quibus homines in montibus utuntur. Saepe audiverat tentoria vulgaria in procellis frangi: virgae curvantur, tela scinditur, et viatores nocte madidi et frigidi sedent. Tres annos igitur tentorium novum excogitabat quod vento obsisteret.\n\nVirgae eius ex materia flexibili factae sunt, quae vento cedunt et deinde in formam pristinam redeunt. Tela duplex est, ut ventus per rimas inter duo tegimina effugere possit. Itaque tentorium non tantum vento obsistit, sed etiam nulla deformatione laborat. «Virga rigida, si ventus fortior est, frangitur», explicat Murciana. «Virga flexibilis cedit, sed non frangitur.»\n\nIn officina eius machina ventum fortissimum facit. Murciana tentorium vulgare et suum ante eam posuit. Virgae tentorii vulgaris statim deformationem gravem passae sunt, et tela eius in latus cecidit. Tentorium Murcianae vento obstitit; virgae flectebantur, sed post procellam rectae et integrae erant.\n\nNunc inventum suum diplomate tueri voluit. Conscriptio petitionis longior fuit quam putaverat. Describenda erant omnia: forma virgarum, materia, modus quo tela duplex ventum emittit. Murciana noctes multas in conscriptione consumpsit, et descriptionem ter exscripsit, quia semper aliquid emendandum inveniebat. Delineationes quoque manu diligenter exscripsit, ut lineae clarae essent.\n\nPetitionem Monacum tulit, ad officium quod diplomata inventorum dat. Ab amicis audiverat hoc officium structuram valde hierarchicam habere, et officiales praeiudicium habere contra inventores parvos, qui sine societate magna veniunt. Hoc praeiudicium tamen falsum fuit. Fannianus, officialis senex, eam benigne excepit. Structuram hierarchicam officii ei explicavit: primum examinator unus petitionem legit, deinde examinator senior, postremo collegium trium. «Nihil timendum est», inquit. «Nos non societates, sed inventa examinamus.»\n\nTum ei matriculam ostendit, librum ingentem in quo omnia inventa ab anno 1877 inscripta sunt. In matricula Murciana nomina antesignanorum invenit qui primi tentoria cum virgis flexibilibus excogitaverant. «Hi antesignani tibi viam paraverunt», inquit Fannianus, «sicut tu aliis parabis.»\n\nPost sex menses epistola advenit: inventum Murcianae in matriculam relatum erat. Eodem die ventus fortis per montes flabat. Murciana tentorium suum in prato alto posuit et noctem in eo quiete egit, dum ventus circum tela sonabat.\n\nQuaestiones:\nCur tentorium Murcianae vento obsistit?\nQuia virgae eius flexibiles sunt et tela duplex ventum emittit.\nQuid in officina accidit tentorio vulgari?\nVirgae eius deformationem gravem passae sunt, et tela in latus cecidit.\nCur Murciana descriptionem ter exscripsit?\nQuia in conscriptione semper aliquid emendandum inveniebat.\nQuod praeiudicium Murciana timebat?\nTimebat ne officiales praeiudicium contra inventores parvos haberent.\nQuid in matricula invenit?\nNomina antesignanorum qui primi tentoria cum virgis flexibilibus excogitaverant."
+    },
+    {
+      "title": "Birotae ex arundine",
+      "summary": "In Pavia a young craftsman builds bicycle frames from bamboo grown on his uncle's plantation by the river, choosing whole, same-aged canes, joining them with flax and resin, and trying a rare square-stemmed kind.",
+      "newWords": [
+        "internodium",
+        "plantatio",
+        "regeneratio",
+        "indivisus",
+        "aequaevus",
+        "aduno",
+        "quadrangularis",
+        "smaragdus"
+      ],
+      "text": "Iuventianus, qui Ticini officinam parvam habet, birotas facit quarum compages non ex ferro, sed ex arundine Indica constant. Arundinem ipse non emit, sed ex plantatione avunculi sui Egnatiani accipit, quae prope ripam Ticini sita est. Post pluviam folia plantationis tam viridia lucent ut Egnatianus ea smaragdos suos appellet. «Alii smaragdos in anulis gerunt», ridet, «ego meos in ripa habeo.»\n\nArundo Indica mira planta est. Calamus eius cavus est, sed nodis firmis in partes dividitur; spatium inter duos nodos internodium vocatur. Nodi calamum firmum reddunt, internodia levem. Hac de causa compages ex arundine et levis et firma est, et motus viae melius quam ferrum mollit.\n\nArundo etiam celerrime crescit. Cum Egnatianus calamos secat, radices manent, et proximo vere novi calami ex terra surgunt. Haec regeneratio tam celeris est ut plantatio numquam deleatur, etiam si quotannis metitur. «Regeneratio arundinis», dicit Egnatianus, «me divitem facit sine labore.»\n\nIuventianus calamos diligenter eligit. Calamum indivisum tantum adhibet, numquam fissum, quia calamus indivisus multo firmior est, et calami indivisi pondus maius ferunt. Praeterea calamos aequaevos quaerit. Calami enim aequaevi, eodem anno nati, eandem duritiam habent; si calamus iuvenis cum vetere iungitur, compages inaequalis fit. Itaque Egnatianus in plantatione signa ponit, quae annum cuiusque calami indicant.\n\nDeinde calami siccantur et igne leni calefiunt, ne corrumpantur. Tum Iuventianus eos in officina adunat. Iuncturas ferreas non adhibet, sed fibras lini, quas resina madefacit et circum iuncturas volvit. Resina siccata fibrae calamos tam firmiter adunant ut iunctura fortior sit quam ipse calamus.\n\nAliquando Egnatianus nepoti genus rarum calamorum ostendit, quorum forma non rotunda, sed quadrangularis est. «Quid de his calamis quadrangularibus putas?» rogavit. Iuventianus calamos quadrangulares diu inspexit et laetus dixit eos sellae et manubrio aptos esse, quia manus et sella in superficie plana firmius haerent.\n\nHodie birotae Iuventiani per totam regionem currunt. Qui eam emit, ad plantationem invitatur, ut calamos videat ex quibus birota sua facta est.\n\nQuaestiones:\nUnde Iuventianus arundinem accipit?\nEx plantatione avunculi sui Egnatiani, quae prope ripam Ticini sita est.\nCur Egnatianus folia plantationis smaragdos suos appellat?\nQuia post pluviam tam viridia lucent quam smaragdi.\nQuid est internodium?\nSpatium inter duos nodos calami.\nCur Iuventianus calamos aequaevos quaerit?\nQuia calami aequaevi eandem duritiam habent, et compages aequalis fit.\nQuomodo Iuventianus calamos adunat?\nFibris lini, quas resina madefacit et circum iuncturas volvit."
+    },
+    {
+      "title": "Horologium canorum",
+      "summary": "In Brescia a retired watchmaker builds his wife an alarm clock that wakes her with growing light, birdsong and her own recited verses instead of a harsh bell; a neighbour who threatened to complain about the test ringing ends up wanting one too.",
+      "newWords": [
+        "expergefacio",
+        "cantatio",
+        "comminor",
+        "perduro",
+        "beneficus",
+        "suppressio",
+        "mutabilitas",
+        "elegi"
+      ],
+      "text": "Gargonius, qui per quinquaginta annos Brixiae horologia reficiebat, nunc otio fruitur. Uxor eius Sulpiciana tamen cotidie querebatur: horologium vetus, quod in mensula prope lectum stat, eam omni mane sono acerrimo expergefacit. «Hoc horologium iam quadraginta annos perdurat», dicebat, «sed patientia mea non diutius perdurabit.»\n\nItaque Gargonius horologium novum excogitare constituit, quod uxorem leniter expergefaceret. Primum lucem adhibuit. Dimidia hora ante tempus surgendi lampas parva paulatim lucere incipit, sicut aurora, ita ut oculi lucem sentiant antequam homo expergefiat. Lux enim matutina in corpus beneficum effectum habet: animum serenum reddit et somnum leniter finit.\n\nDeinde sonum mutavit. Pro tinnitu duro horologium cantationem avium edit, quam Gargonius ipse vere in horto suo exceperat: merulas, passeres, lusciniam. Cantatio primo vix auditur, deinde paulatim crescit.\n\nGargonius etiam mutabilitatem anni respexit. Sol enim hieme sero, aestate mane oritur, et haec mutabilitas lucis homines afficit. Horologium igitur lucem suam singulis mensibus tempori solis accommodat.\n\nDum experimenta faciebat, tamen difficultatem habuit. Horologium in officina sua noctu saepe probabat, et sonus acutus per parietem in domum vicinae Minucianae penetrabat. Una nocte Minuciana ad ianuam venit et irata comminari coepit se querelam ad administratorem domus delaturam esse. Gargonius veniam petivit et rem emendavit: officinam stragulis texit, ut suppressio soni perfecta esset. Ab eo tempore suppressio tam bona fuit ut Minuciana nihil amplius audiret.\n\nPostremo Sulpiciana ipsa aliquid addidit. Iam diu elegos scribit, versus breves de rebus cotidianis, et nonnullos de mane composuerat. Elegos suos voce sua recitavit, et Gargonius eos in horologium immisit. Nunc, post cantationem avium, uxor vocem suam elegos de aurora recitantem audit.\n\nPrimo mane Sulpiciana sine ullo terrore e somno surrexit. Lux mollis cubiculum implebat, aves canebant, et vox elegos recitabat. «Hoc horologium certe diu perdurabit», risit, «quia numquam illud abicere volam.» Paucis post diebus Minuciana, quae antea comminabatur, Gargonium rogavit ut sibi quoque tale horologium faceret.\n\nQuaestiones:\nCur Sulpiciana cotidie querebatur?\nQuia horologium vetus eam omni mane sono acerrimo expergefaciebat.\nQuomodo lux horologii novi effectum beneficum habet?\nPaulatim lucet sicut aurora, animum serenum reddit et somnum leniter finit.\nQuam cantationem horologium edit?\nCantationem avium, quam Gargonius in horto suo exceperat.\nQuid Minuciana comminari coepit?\nComminabatur se querelam ad administratorem domus delaturam esse.\nQuos elegos horologium recitat?\nElegos de aurora, quos Sulpiciana ipsa composuit et recitavit."
+    },
+    {
+      "title": "Microscopium chartaceum",
+      "summary": "In a village school near Taranto a teacher gives her pupils folding paper microscopes, invented to be sent cheaply all over the world; the children see amoebas in pond water, a girl's lost front tooth, and hear how a mould was seen to stop bacteria growing.",
+      "newWords": [
+        "amoeba",
+        "globalizatio",
+        "gaza",
+        "incisor",
+        "pollutio",
+        "inhibitio",
+        "dispersio"
+      ],
+      "text": "Aufidiena, magistra in schola vici prope Tarentum, hodie discipulis suis capsam plenam schedarum chartacearum attulit. Ex singulis schedis, si recte plicantur, microscopium parvum fit, quod lentem minimam habet et rem multo maiorem ostendit. Physicus quidam iuvenis hoc instrumentum excogitavit, ut pueri in omnibus terris, etiam pauperrimis, microscopio uti possent. Pretium eius tam parvum est ut singula microscopia paucis tantum nummis constent.\n\n«Hoc inventum ad globalizationem nostram pertinet», explicavit Aufidiena. «Propter globalizationem lentes minimae in una terra fiunt, charta in alia, et instrumentum ipsum per totum orbem mittitur. Haec dispersio microscopiorum incredibiliter celeris fuit: intra paucos annos pueri plus quam centum terrarum eis utuntur.» Discipuli in mappa locos huius dispersionis signis rubris notaverunt.\n\nDeinde ad stagnum post scholam iverunt et guttas aquae collegerunt. Sub lente in gutta mundus totus apparuit. Cluentiana primum amoebam vidit: animal minimum, sine forma certa, quod corpus suum lente extendebat et contrahebat. «Amoeba ambulat sine pedibus!» clamavit. Omnes amoebam spectare voluerunt.\n\nAufidiena explicavit tales guttas veras gazas esse. «Gazae non solum aurum et gemmae sunt», inquit. «In una gutta aquae gazas vitae invenimus.» Simul autem docuit stagnum aliquando pollutione laborare, cum pluvia fimum ex agris proximis in aquam ferret. «Ubi pollutio magna est, pauca animalia vivunt, et aqua viridis et turbida fit. Nostra aqua hodie munda est, quia tot animalia videmus.»\n\nPostero die Cluentiana dentem suum attulit, qui ei pridie ceciderat: incisorem lacteum, parvum et album. Sub microscopio incisor non levis, sed asper et plenus linearum apparuit. Aufidiena docuit incisores dentes anteriores esse, quibus cibum secamus, et post incisorem lacteum novum et firmiorem crescere.\n\nPostremo magistra de inventione quadam narravit quae casu facta est. Ante annos fere centum medicus quidam in laboratorio suo vasa bacteriis plena reliquerat. Cum rediit, in uno vase mucorem viridem invenit, circum quem bacteria non crescebant. Haec inhibitio eum movit ut rem diligenter examinaret, et ex ea inhibitione postea medicina nata est quae multos aegros sanavit.\n\nQuaestiones:\nQuid Aufidiena discipulis attulit?\nCapsam plenam schedarum chartacearum, ex quibus microscopia parva fiunt.\nQuomodo globalizatio ad hoc inventum pertinet?\nLentes in una terra, charta in alia fiunt, et instrumentum per totum orbem mittitur.\nQuid Cluentiana in gutta aquae vidit?\nAmoebam vidit, quae corpus suum lente extendebat et contrahebat.\nQuando stagnum pollutione laborat?\nCum pluvia fimum ex agris proximis in aquam fert.\nQuid de incisore lacteo Cluentianae apparuit?\nSub microscopio non levis, sed asper et plenus linearum apparuit."
+    }
+  ]
+}
