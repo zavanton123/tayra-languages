@@ -1,0 +1,202 @@
+{
+  "id": "la-mini-8000",
+  "rankUpTo": 8000,
+  "level": "C1",
+  "title": "Commentarioli de familia",
+  "description": "Ten family columns: a sister's engagement party, the olive harvest at a grandfather's grove, an uneven old flat, quarrelling twins, a night in a mountain hut, an old coin under the roof, a five-yearly school quiz, a grandmother's new bedroom, an autumn garden and a mother's cheese dairy.",
+  "topic": "Family columns",
+  "names": [
+    "Hanna",
+    "Samuel",
+    "Verona",
+    "Maius",
+    "Tibur",
+    "November",
+    "Nina",
+    "Bononia",
+    "Aquilius",
+    "Timotheus",
+    "Editha",
+    "Monacum",
+    "Ianuarius",
+    "Wanda",
+    "Sonia",
+    "Bauzanum",
+    "Iulius",
+    "Simon",
+    "Patavium",
+    "October",
+    "Inga",
+    "Turicum",
+    "Dora",
+    "Florentia",
+    "September",
+    "December",
+    "Eva",
+    "Bergomum",
+    "Tridentum",
+    "Anteius"
+  ],
+  "lessons": [
+    {
+      "title": "Sponsalia sororis",
+      "summary": "A columnist in Verona describes his sister Hanna's engagement party on her thirtieth birthday: their father, a born host, cooks lasagne and a lemon cake, the women come dressed in purple, the father and the fiancé stand up to speak, and the children's dance gladdens the grandmother.",
+      "newWords": [
+        "sponsalia",
+        "convivator",
+        "laganum",
+        "limon",
+        "tripudium",
+        "laetifico",
+        "tricensimus",
+        "assurgo",
+        "clangor",
+        "purpuratus"
+      ],
+      "text": "Soror mea Hanna mense Maio annum tricensimum explevit. Paucis ante diebus nobis nuntiaverat se Samueli, quem iam quinque annos amat, mox nubere velle. Itaque pater noster constituit natalem eius tricensimum una cum sponsalibus celebrare. Pater enim convivator est qualem raro invenias: cum hospites domum vocat, nihil emit quod ipse coquere possit, neque quemquam in culinam admittit.\n\nPer totam hebdomadem de cena cogitabat. Tandem laganum elegit, quod Hanna iam parva puella amabat: lagana tenuia, inter quae caro, lac coctum et caseus ponuntur. Deinde limones emit, nam post cenam placentam limonis dare volebat. «Laganum cibus gravis est», inquit, «sed limon post laganum stomachum recreat.» Pridie sponsalium e culina usque ad mediam noctem clangor ollarum audiebatur. Mater ridebat: «Hic clangor in hac domo semper festum significat.»\n\nSponsalia in horto nostro Veronae celebravimus. Hanna purpurata venit, nam color purpureus ei semper placuit. Etiam mater et avia, ut ei gratum facerent, purpuratae venerunt, et Samuel, cum tres mulieres purpuratas vidisset, risit et dixit se in hortum violis plenum intrare.\n\nViginti hospites ad mensam longam sub arbore sedebant. Pater, ut bonus convivator, ipse cibum ministrabat. Cum laganum fumans in mensam posuisset, omnes plauserunt. Tum assurrexit et pauca dixit: se gaudere quod Hanna tam bonum virum invenisset, et Samuelem iam sibi filium esse. Deinde Samuel quoque assurrexit, patri gratias egit et promisit se, quotiens laganum coqueretur, ad cenam venturum esse. Postremo etiam avia, quamquam aegre surgit, assurgere voluit, ut Hannam et Samuelem amplecteretur.\n\nPost placentam limonis liberi cognatorum tripudium in herba coeperunt. Manibus iunctis in orbem saltabant et cantabant, et mox Hanna quoque cum eis saltabat. Nihil aviam magis laetificat quam liberi laeti; tripudium illud eam tam laetificavit ut se iterum puellam esse diceret. «Talis dies», inquit, «etiam animum senis laetificat.»\n\nSaepe de sponsalibus cogito. Anuli, vestes et cibi pulchri sunt, sed non sunt res maximi momenti. Res maximi momenti est mensa longa ad quam tota familia sedet: pater convivator, mater ridens, avia laeta, liberi in tripudio. Hanna dicit se nuptias quoque in horto nostro celebrare velle. Pater iam de cena cogitat, et ego clangorem ollarum exspecto.\n\nQuaestiones:\nQuot annos Hanna mense Maio explevit?\nHanna annum tricensimum explevit.\nQuid pater pro sponsalibus coxit?\nLaganum coxit, et post cenam placentam limonis dedit.\nCur mater et avia purpuratae venerunt?\nUt Hannae gratum facerent, nam color purpureus ei semper placuit.\nQuid pater dixit cum assurrexisset?\nDixit se gaudere quod Hanna tam bonum virum invenisset, et Samuelem iam sibi filium esse.\nQuid aviam maxime laetificavit?\nTripudium liberorum in herba eam maxime laetificavit."
+    },
+    {
+      "title": "Olivetum avi",
+      "summary": "A woman remembers the olive harvest at her grandfather's grove near Tivoli: only sound olives make good oil, spring water waits in an old two-handled jug, the grandfather tends his bees in a protective suit, the birds are left in peace, and on the last day they gather firewood together.",
+      "newWords": [
+        "olivetum",
+        "mellitus",
+        "defensorius",
+        "lignor",
+        "cantharus",
+        "incorruptus",
+        "conterminus",
+        "lympha",
+        "ales"
+      ],
+      "text": "Avus meus, qui iam septuaginta quinque annos natus est, prope Tibur olivetum parvum colit, quod ab avo suo accepit. Olivetum in clivo situm est: ab una parte conterminum est silvae quercuum, ab altera agro vicini, qui vineas colit. Avus et vicinus, ut homines contermini, saepe ad saepem consistunt et de pluvia et de pretio olei colloquuntur.\n\nCum parva essem, omnes ferias aestivas apud avum agebam. Nunc, cum in urbe laborem, saltem mense Novembri ad eum redeo, cum olivae leguntur. Hoc commentariolum de illis diebus scribo.\n\nPrima luce in olivetum ascendimus. Retia sub arboribus extendimus et ramos baculis leniter percutimus, ut olivae in retia cadant. Avus olivas eodem die ad molam vehi iubet, nam solae olivae incorruptae oleum bonum dant; quae diu in saccis iacent, corrumpuntur. «Oleum ex olivis incorruptis», inquit, «tamquam lux viridis est.»\n\nIn medio oliveto fons parvus est, cuius lympha frigida et pura e saxo fluit. Avus mane cantharum fictilem, quem a patre suo accepit, lympha implet et in umbra ponit. Cantharus ille magnus est et duas ansas habet; cum aquam desideramus, e cantharo bibimus, et lympha etiam meridie frigida manet.\n\nAvus non solum olivas, sed etiam apes curat. Alvearia in margine oliveti stant, prope fontem. Cum ad apes accedit, veste defensoria induitur et caput velo defensorio tegit; mihi quoque vestem et velum dat. «Vestis defensoria», inquit, «non propter apes, sed propter nos necessaria est: apes enim sentiunt si timemus.» Meridie sub olea sedemus et panem mellitum edimus; avia nobis etiam crustula mellita mittit. Avus dicit mel, si bene servatur, per multos annos incorruptum manere.\n\nMultae alites in oleis habitant. Avus eas numquam fugat, quia alites, ut dicit, insecta comedunt quae olivas laedunt. Vespere, cum laborem finimus, alites in ramis canunt, et nos tacemus ut eas audiamus.\n\nUltimo die ramos aridos, quos avus vere amputavit, in acervos colligimus; avus hoc «lignatum ire» appellat. Olim, dum lignamur, me rogavit cur tam libenter ad se venirem. Respondi me in urbe multa habere, sed hic omnia simplicia esse: lympha in cantharo, panis mellitus, cantus avium. Avus risit et dixit se idem sentire, sed lignatum ire iam sibi difficile esse. Itaque nunc ego ligna porto, et avus ignem accendit.\n\nQuaestiones:\nUbi olivetum avi situm est?\nPrope Tibur in clivo situm est, conterminum silvae quercuum et agro vicini.\nCur avus olivas eodem die ad molam vehi iubet?\nQuia solae olivae incorruptae oleum bonum dant.\nQuid avus in cantharo portat?\nLympham frigidam e fonte oliveti portat.\nCur avus veste defensoria induitur?\nQuia apes sentiunt si timemus, et vestis defensoria nos tegit.\nCur avus alites numquam fugat?\nQuia alites insecta comedunt quae olivas laedunt."
+    },
+    {
+      "title": "Domus inaequalis",
+      "summary": "A man and his wife buy an old flat in Bologna; the surveyor measures every wall twice, finds an uneven floor and a kitchen shaped like a scalene triangle, and a carpenter combines kitchen and living room with cupboards made to measure, since no standard ones fit.",
+      "newWords": [
+        "mensor",
+        "commetior",
+        "inaequalis",
+        "inaequalitas",
+        "scalenus",
+        "coarto",
+        "enormis",
+        "combino",
+        "conventionalis"
+      ],
+      "text": "Uxor mea Nina et ego anno priore domicilium vetus in media Bononia emimus. Aedificium plus quam trecentos annos natum est, et muri eius, ut iam primo die vidimus, angulos rectos fere nusquam habent. Commentariolum hodiernum de hac domo scribo, quia multi lectores mihi de domibus suis antiquis scripserunt.\n\nAntequam culinam novam emeremus, mensorem vocavimus. Aquilius mensor, vir diligens et patiens, cum instrumentis suis venit et omnia conclavia commensus est. «In domibus novis», inquit, «satis est muros semel commetiri. In domibus antiquis singulos muros bis commetior, nam nihil rectum est.»\n\nPrimum pavimentum inaequale invenit: ab una parte conclavis duobus digitis altius erat quam ab altera. Pila parva, quam mensor in pavimento posuit, sola ad murum volvebatur. Nina risit: «Domus nostra cum pila ludit.» Aquilius inaequalitatem pavimenti in charta notavit et dixit talem inaequalitatem in aedificiis eius aetatis frequentem esse. Etiam muri inaequales erant: alter in summo crassior, alter in imo.\n\nDeinde culinam commensus est. Culina nostra non quadrata est, sed triangulum scalenum facit: nullum latus alteri aequale est. «Triangulum scalenum», inquit mensor, «in libris geometriae pulchrum est, in culina molestum.» Officinae enim armaria conventionalis magnitudinis faciunt, quae angulis rectis egent. Si armaria quae mensuras conventionales habent in angulos tam angustos poneremus, culina etiam magis coartaretur, et inter armaria et murum spatia vacua manerent.\n\nInter culinam et conclave murus enormis stabat, crassus fere unum metrum. Hic murus enormis spatium utriusque conclavis coartabat, sed, ut mensor nobis affirmavit, tectum non sustinebat. Itaque Nina proposuit ut culinam et conclave combinaremus. Muro sublato duo conclavia parva in unum magnum combinavimus, et lux e duabus fenestris nunc per totum spatium fluit.\n\nArmaria tandem a fabro lignario facta sunt, qui ex mensuris Aquilii singula commensus est. Nullum armarium conventionalis formae est; quodque inaequalitatem sui muri sequitur. Faber dixit se numquam culinam scalenam vidisse, sed opus libenter fecisse.\n\nNunc, cum in culina nostra cenamus, saepe de familiis cogito. Familia quoque nostra non conventionalis est: alii mature surgunt, alii sero; alii multum loquuntur, alii tacent. Sicut faber lignarius armaria cum muris inaequalibus combinavit, ita nos mores varios combinare discimus. Domus inaequalis nos non coartat; immo docet spatium unicuique dare.\n\nQuaestiones:\nCur Nina et maritus eius mensorem vocaverunt?\nAntequam culinam novam emerent, omnia conclavia commetiri volebant.\nQuid mensor de pavimento invenit?\nPavimentum inaequale invenit, ab una parte duobus digitis altius quam ab altera.\nQuam formam culina habet?\nCulina triangulum scalenum facit, cuius nullum latus alteri aequale est.\nQuid factum est cum muro enormi?\nMurus sublatus est, et Nina maritusque culinam et conclave in unum spatium combinaverunt.\nCur armaria conventionalis magnitudinis culinae non conveniunt?\nQuia armaria conventionalis magnitudinis angulis rectis egent, et culina eos non habet."
+    },
+    {
+      "title": "Gemini litigantes",
+      "summary": "A mother in Munich writes about her ten-year-old twins, who quarrel about everything: when she divides the chores, the cheeky son rejects her list and the crafty daughter secretly changes it, but once each is asked what he or she prefers, they agree and write a new list while joking together.",
+      "newWords": [
+        "litigo",
+        "discordo",
+        "obiurgo",
+        "protervus",
+        "versutus",
+        "nugor",
+        "praeopto",
+        "discribo",
+        "reprobo",
+        "derogo"
+      ],
+      "text": "Gemini mei, Timotheus et Editha, decem annos nati sunt, et vix ullus dies transit quo non litigent. Litigant de sedibus in autocineto, de ultima parte placentae, de eo qui primus in balneum intret. Amicae mihi dicunt omnes geminos ita facere; ego tamen, quae Monaci in parva domo cum eis habito, interdum defessa sum.\n\nMense Ianuario officia domestica inter eos discribere constitui, et rem diligenter paravi. In charta magna officia septem scripsi: patinas lavare, mensam ponere, canem educere, cubiculum purgare, et cetera. Deinde officia ita discripsi ut uterque idem fere laboris haberet. Chartam in ianua culinae fixi et liberos vocavi.\n\nTimotheus, puer protervus, chartam statim reprobavit. «Hoc consilium reprobo», inquit, «quia canem educere mihi dedisti, et canis Editham magis amat quam me.» Responsum protervum erat, sed non stultum. Editha autem, quae multo versutior est, nihil dixit. Postridie tamen, dum ego aberam, nomina in charta mutavit, ita ut patinae fratri, canis sibi contingeret. Quam versuta puella!\n\nCum rem animadvertissem, ambos obiurgavi: Editham quod chartam clam mutavisset, Timotheum quod consilium meum tam proterve reprobavisset. Obiurgare liberos non amo, sed eo die necesse erat. Ambo tacebant, et inter se ne verbum quidem dicebant.\n\nVespere eos ad mensam vocavi et rogavi quid quisque praeoptaret. Timotheus dixit se patinas lavare praeoptare, quia aquam calidam amat; Editha dixit se canem educere praeoptare, quia sic amicas in via convenit. Ita factum est ut iidem liberi, qui de omnibus rebus discordant, de officiis non discordarent. Neuter id quod alter praeoptabat volebat. Si statim rogavissem, nihil litigavissent.\n\nNovam chartam ipsi scripserunt, et ego eam non reprobavi. Dum scribebant, nugabantur et ridebant: Timotheus canem «amicum Edithae» appellabat, Editha fratrem «magistrum patinarum». Postea, dum cenam parabam, eos audiebam in cubiculo nugari et ridere, quasi numquam litigavissent.\n\nSaepe me rogant num tot contentiones me tristem faciant. Respondeo me non tristem esse. Gemini mei de sedibus et placentis discordant, sed alter alteri statim auxilio venit si quis ex amicis eos vexat. Contentiones eorum nihil de amore derogant; immo, ut mihi videtur, ipsae contentiones nihil derogant de gaudio quod in domo nostra habemus. Versuta filia et protervus filius, qui hodie litigant, cras iterum una nugabuntur.\n\nQuaestiones:\nDe quibus rebus gemini litigant?\nDe sedibus in autocineto, de ultima parte placentae et de eo qui primus in balneum intret.\nQuomodo mater officia inter liberos discripsit?\nIn charta magna septem officia scripsit et ita discripsit ut uterque idem fere laboris haberet.\nQuid Editha versuta fecit?\nDum mater aberat, nomina in charta mutavit, ut patinae fratri, canis sibi contingeret.\nCur mater ambos liberos obiurgavit?\nEditham quod chartam clam mutavisset, Timotheum quod consilium proterve reprobavisset.\nQuid quisque praeoptabat?\nTimotheus patinas lavare praeoptabat, Editha canem educere.\nQuid mater de contentionibus geminorum putat?\nPutat eas nihil de amore geminorum derogare."
+    },
+    {
+      "title": "Nox in casa montana",
+      "summary": "A father takes his wife and eight-year-old daughter to spend a night in a mountain hut above Bolzano: on the winding path they see marmots dive into their burrows and a fallow deer, a terrifying thunderstorm soaks them just before the hut, and they dry their clothes by the fire before sleeping in wooden bunks.",
+      "newWords": [
+        "pernocto",
+        "marmotus",
+        "sinuosus",
+        "desilio",
+        "latebra",
+        "terrificus",
+        "madidus",
+        "absorbeo",
+        "damma",
+        "cubile"
+      ],
+      "text": "Filia nostra Wanda, quae octo annos nata est, diu rogabat ut aliquando in monte pernoctaremus. Mense Iulio tandem uxor mea Sonia et ego cum ea in casam montanam supra Bauzanum ascendimus. Hoc commentariolum lectoribus scribo qui cum liberis parvis primum in monte pernoctare cogitant.\n\nSemita ad casam sinuosa est. Primum per silvam abietum ascendit, deinde per prata aperta, flexum post flexum, sicut serpens. Wanda in initio rogabat cur semita tam sinuosa esset; explicavi viam rectam nimis arduam fore. Postea ipsa vidit semitam sinuosam pedibus minus arduam esse.\n\nIn prato alto marmotas vidimus. Una ante latebram suam erecta sedebat et acriter clamabat; statim ceterae marmotae in latebras sub saxis fugerunt. Wanda vix credere poterat animal tam parvum tam magnum sonum edere. Explicavi marmotas hieme in cubilibus sub terra dormire, donec nix vere abeat, et latebras earum longas et profundas esse.\n\nPaulo post, in margine silvae, dammam conspeximus, quae cum pullo pascebatur. Wanda tacuit et manum meam tenuit. Damma caput sustulit, nos aspexit, deinde lente in silvam rediit. Numquam antea Wanda dammam tam prope viderat.\n\nIuxta semitam saxa magna iacebant. Wanda in unum ascendit et inde in herbam desiluit; deinde iterum ascendit et iterum desiluit. Sonia eam leniter obiurgavit: «Noli de saxis altis desilire; in monte pes facile labitur.» Wanda paruit, sed ridens.\n\nCum casa iam in conspectu esset, nubes atrae a septentrionibus venerunt. Tonitrus terrificus per valles sonuit, et pluvia subito cecidit. Wanda tonitrum terrificum non timuit, sed manum matris arripuit. Quinque minutis post ad casam pervenimus, tuti sed omnino madidi. Calcei mei tantum aquae absorbuerant quantum lana, et vestes nostrae madidae corporibus haerebant.\n\nCustos casae nos benigne accepit. Vestes madidas prope focum suspendimus, et Wanda calceos chartis veteribus implevit, quae aquam absorbent. Cenam calidam edimus, dum pluvia in tectum pulsat.\n\nIn casa cubilia lignea erant, alterum super alterum posita. Wanda superius cubile elegit, unde per fenestram montes videre poterat. Ante somnum me rogavit num marmotae quoque in cubilibus suis tonitrum terrificum audivissent. Respondi eas in latebris profundis tutas esse.\n\nMane caelum serenum erat. Wanda dixit se iterum in monte pernoctare velle, et mox quidem.\n\nQuaestiones:\nCur semita ad casam sinuosa est?\nQuia via recta nimis ardua esset, et semita sinuosa pedibus minus ardua est.\nQuid marmotae fecerunt cum una clamavisset?\nCeterae marmotae in latebras sub saxis fugerunt.\nQuid Sonia Wandae dixit?\nDixit eam de saxis altis desilire non debere, quia in monte pes facile labitur.\nQuomodo familia ad casam pervenit?\nPost tonitrum terrificum et pluviam tuti, sed omnino madidi pervenerunt.\nQuantum aquae calcei patris absorbuerant?\nTantum aquae absorbuerant quantum lana.\nQuod cubile Wanda elegit?\nCubile superius elegit, unde per fenestram montes videre poterat."
+    },
+    {
+      "title": "Nummus in arca",
+      "summary": "A woman spends an afternoon with her grandfather searching the space under the roof of his farmhouse near Padua; in a small box they find an ancient silver coin, a victoriatus, which he turned up as a young man while ploughing with the red tractor he had long wished for and on whose seat he carved his name.",
+      "newWords": [
+        "victoriatus",
+        "perscrutor",
+        "tractorius",
+        "adulescentulus",
+        "indistinctus",
+        "scalpo",
+        "exopto",
+        "vocito",
+        "momentarius"
+      ],
+      "text": "Avus meus Simon prope Patavium in villa habitat, ubi per quinquaginta annos agrum coluit. Mense Octobri eum visitavi, quia avia mihi dixerat sub tecto arcas veteres esse, plenas epistolarum et imaginum familiae. Diu exoptaveram eas videre.\n\nPer totum post meridiem avus et ego spatium sub tecto perscrutabamur. Saccos, arcas, libros veteres perscrutabamur, et pulvis in lumine fenestrae saltabat. Avus, qui omnia lente perscrutari solet, singulas epistolas legebat et mihi narrabat quis eas scripsisset.\n\nTandem in arca parva nummos veteres panno involutos invenimus. Plerique aenei et vulgares erant, sed unus argenteus erat et parvus. Figurae in eo indistinctae erant, et litterae vix legi poterant. «Hunc nummum antiquarii victoriatum vocitant», inquit avus. «Victoriatus nummus argenteus est, plus quam bis mille annos natus.»\n\nDeinde narravit quomodo eum invenisset. Cum adulescentulus esset, pater eius agrum adhuc equis arabat. Avus autem machinam tractoriam diu exoptabat, et per tres annos pecuniam servabat. Tandem machinam tractoriam rubram emit, quam «equum rubrum» vocitabat. Primo vere quo ea machina tractoria aravit, in sulco aliquid lucere vidit. Desiluit, terram digitis removit et nummum invenit. Tum adulescentulus nesciebat quid esset; postea peritus in museo urbis eum victoriatum verum esse affirmavit.\n\nEx fenestra lux solis in nummum cecidit, et fulgor momentarius in argento apparuit, deinde evanuit. «Talis fulgor momentarius», inquit avus, «me tum quoque in sulco vocavit.»\n\nPostea in horreum descendimus, ubi machina illa tractoria adhuc stat, quamquam iam diu non arat. In sella ferrea avus adulescentulus nomen suum cultello scalpsit. Litterae quas tum scalpsit nunc indistinctae sunt, sed digitis adhuc sentiri possunt. Avus mihi cultellum dedit et iussit me quoque nomen meum iuxta suum scalpere. Ita feci, et nunc duo nomina in sella sunt.\n\nVictoriatum avus mihi donare voluit, sed recusavi; dixi eum melius in arca sua iacere, ubi tot annos iacuit. Laetitia illius diei non momentaria fuit. Etiam nunc, cum de avo cogito, sellam machinae tractoriae video et duo nomina, alterum vetus et indistinctum, alterum novum.\n\nQuaestiones:\nCur auctrix avum mense Octobri visitavit?\nArcas veteres sub tecto videre diu exoptaverat.\nQuid avus et neptis sub tecto invenerunt?\nIn arca parva nummos veteres invenerunt, inter quos victoriatum argenteum.\nQuomodo avus victoriatum invenit?\nCum adulescentulus machina tractoria araret, in sulco aliquid lucere vidit.\nQuomodo avus machinam tractoriam vocitabat?\nEam «equum rubrum» vocitabat.\nQuid avus in sella machinae scalpsit?\nNomen suum cultello in sella ferrea scalpsit.\nCur neptis victoriatum non accepit?\nQuia eum melius in arca avi iacere putabat, ubi tot annos iacuerat."
+    },
+    {
+      "title": "Certamen quinquennale",
+      "summary": "A mother in Zurich writes about the quiz her school holds every five years, in which she once competed herself: her daughter's young team fears its inexperience, trains on similar problems, wins the geometry and current-affairs rounds, and the playful contest keeps the school's tradition alive.",
+      "newWords": [
+        "thematicus",
+        "victoriosus",
+        "praecello",
+        "imperitia",
+        "quinquennalis",
+        "analogus",
+        "continuitas",
+        "actualis",
+        "ludicer"
+      ],
+      "text": "Turici schola in qua filia mea Inga discit certamen quinquennale habet: quinto quoque anno turmae discipulorum de variis rebus coram parentibus certant. Ego ipsa ante viginti quinque annos in eodem certamine quinquennali certavi, in eadem aula, sub eodem horologio. Hoc anno Inga, quattuordecim annos nata, in turma sua certavit.\n\nCertamen in partes thematicas dividitur: geometria, historia naturalis, musica, res actuales. In singulis partibus thematicis quinque quaestiones proponuntur, et turma quae plurimas recte solvit victoriosa illius partis est. Pars de rebus actualibus nova est; cum ego discipula essem, nemo de rebus actualibus quaerebat.\n\nTurma Ingae ex discipulis natu minoribus constabat, et ipsi imperitiam suam timebant. «Ceterae turmae ex discipulis maioribus constant», inquit Inga, «nos nihil tale umquam fecimus.» Magister mathematicae eis respondit imperitiam exercitatione superari posse. Per sex hebdomades eis post scholam problemata analoga dabat, id est similia eis quae in certamine proponi solent. «Si problema analogum decies solvistis», inquit, «verum non timebitis.»\n\nInga in geometria praecellit, sicut ego olim in musica praecellebam. Amicus eius in historia naturali praecellit, et puella alia, quae omni mane diurna legit, res actuales optime novit. Ita turma, quamquam imperitiam suam timebat, in singulis partibus aliquem habebat qui praecelleret.\n\nCertamen ipsum non grave sed ludicrum est. Post singulas partes discipuli canunt, et parentes clamant et plaudunt. Magistri quoque vestes ludicras gerunt: unus petasum altum, alius nasum rubrum. Ludicra illa res est, sed discipuli summo studio certant.\n\nTurma Ingae in parte geometriae prima fuit: problema enim analogum illis quae exercuerant proponebatur. Etiam in parte de rebus actualibus victoriosa fuit. In musica autem et in historia naturali discipuli maiores meliores erant. Tandem turma Ingae secunda facta est, sed in duabus partibus victoriosa.\n\nPost certamen directrix scholae de continuitate loquebatur. Certamen quinquennale, inquit, centum annos durat, et haec continuitas scholam coniungit: avi, parentes et liberi eadem certamina noverunt. Cum ego eam audirem, Ingam aspexi, quae eodem loco stabat quo ego olim steteram. Talis continuitas mihi pulcherrima videtur.\n\nQuaestiones:\nQuotiens schola Ingae certamen habet?\nQuinto quoque anno certamen quinquennale habet.\nIn quas partes certamen dividitur?\nIn partes thematicas: geometriam, historiam naturalem, musicam et res actuales.\nQuomodo magister turmam contra imperitiam paravit?\nPer sex hebdomades eis problemata analoga dabat, similia eis quae proponi solent.\nIn quibus partibus turma Ingae victoriosa fuit?\nIn parte geometriae et in parte de rebus actualibus victoriosa fuit.\nDe qua re directrix post certamen loquebatur?\nDe continuitate quae scholam per centum annos coniungit."
+    },
+    {
+      "title": "Thalamus aviae",
+      "summary": "A woman in Florence writes about her grandmother, whose eyesight is failing and whose cough comes back every winter: the family moves her bedroom down to a quiet room off the garden, she is anxious at first and disturbed by the street, but with closed shutters and chamber music on the radio she slowly grows used to it.",
+      "newWords": [
+        "recidivus",
+        "angor",
+        "degeneratio",
+        "thalamus",
+        "secludo",
+        "occludo",
+        "disturbo",
+        "cameralis",
+        "insuesco"
+      ],
+      "text": "Avia mea Dora, quae octoginta septem annos nata est, Florentiae in domo nostra habitat. Per triginta annos thalamus eius in summa domo erat, cuius fenestrae ad tecta et colles spectant. Avia eum thalamum amabat: ibi mane legebat, ibi vespere musicam audiebat.\n\nOculi tamen eius iam aliquot annos debilitantur. Medicus de degeneratione maculae loquitur, quae in senibus frequens est. Haec degeneratio lente procedit: avia nunc colores et lucem videt, sed gradus scalarum male discernit. Praeterea tussis eius recidiva est: omni hieme redit, et quamquam numquam gravis est, aviam fatigat. Medicus dixit tussim recidivam in eius aetate non esse rem novam, sed eam scalas cotidie ascendere non debere.\n\nItaque mense Septembri constituimus thalamum eius in imam domum transferre. Ibi conclave est quod a ceteris conclavibus seclusum est: post culinam situm est et ad hortum spectat. Paries crassus id a via secludit, et fenestra eius in hortum aperitur.\n\nCum avia hoc audivisset, angore affecta est. Non de lecto aut de armario timebat, sed de vita sua: «Si thalamum meum relinquo», inquit, «partem mei relinquo.» Angor eius nobis gravis erat. Pater diu cum ea loquebatur, et ego ei promisi libros, imagines et armarium eodem ordine fore quo in thalamo vetere fuerant.\n\nPrimis noctibus avia male dormiebat. Quamquam conclave seclusum est, sonitus autocinetorum ab angulo viae eam disturbabat, et mane vicini qui canem educebant eam e somno excitabant. «Omnia me disturbant», querebatur, «etiam silentium novum.» Itaque fenestras noctu occludere coepimus, et faber lignarius tabulas ligneas fenestris aptavit quae, cum occluduntur, nec lucem nec sonitum admittunt. Postea etiam ianuam conclavis occludere solebat, ut sonitus culinae eam non disturbaret.\n\nDeinde ego radiophonum parvum in mensa iuxta lectum posui. Avia enim musicam cameralem semper amavit: pauca instrumenta, nihil magnum aut sonorum. Omni vespere nunc musicam cameralem audit, et dicit hanc musicam in conclavi parvo melius sonare quam in magno. «Musica cameralis», inquit, «pro conclavibus parvis facta est, sicut hoc meum.»\n\nPaulatim novo thalamo insuevit. Primum hortum per fenestram audire didicit: aves mane, pluviam in foliis. Deinde insuevit sine scalis vivere, et mox gaudebat quod mane statim in hortum exire poterat. Mense Decembri, cum tussis recidiva rediret, gravis non fuit, quia avia non iam scalas ascendebat. Angor eius evanuit.\n\nNuper me rogavit cur tam diu thalamum suum veterem retinere voluisset. «Homines senes», inquit, «difficile rebus novis insuescunt, sed cum insueverunt, eas non relinquunt.» Nunc thalamus in ima domo vere eius est: libri eius in pariete, imagines nostrae in mensa, musica cameralis vespere. Et oculi eius, quamquam degeneratio procedit, hortum suum adhuc vident.\n\nQuaestiones:\nCur avia scalas cotidie ascendere non debet?\nQuia degeneratio maculae oculos eius debilitat et tussis eius recidiva est.\nUbi conclave novum situm est?\nIn ima domo post culinam, seclusum a ceteris conclavibus, ad hortum spectans.\nCur avia angore affecta est?\nQuia putabat se, si thalamum suum relinqueret, partem sui relinquere.\nQuid aviam primis noctibus disturbabat?\nSonitus autocinetorum et vicini qui mane canem educebant eam disturbabant.\nQuomodo avia novo thalamo insuevit?\nCum fenestras noctu occluderemus et ipsa musicam cameralem audiret, paulatim insuevit, et mox gaudebat quod statim in hortum exire poterat."
+    },
+    {
+      "title": "Hortus autumnalis",
+      "summary": "A father in Bergamo and his twelve-year-old daughter spend an October day in their small garden: they pull the brambles that are choking the old pear tree, count the cabbages the snails have ravaged, tie up the twisted vine by its tendrils, and watch the wind strip the trees and whirl the leaves.",
+      "newWords": [
+        "populo",
+        "denudo",
+        "contorqueo",
+        "cirrus",
+        "mucro",
+        "collido",
+        "gyro",
+        "aliquantulus"
+      ],
+      "text": "Hortus noster Bergomi parvus est, vix maior quam conclave magnum, sed filia mea Eva et ego omni autumno in eo laboramus. Eva duodecim annos nata est et hortum magis amat quam ego. Hoc commentariolum de uno die autumni scribo.\n\nPrimum pirum veterem in angulo horti inspeximus. Rubi, qui iuxta murum crescunt, iam truncum eius ascenderant. «Rubi arborem suffocant», inquit Eva. Recte dixit: rubi, si diu crescunt, ramos arboris tam arte complectuntur ut arborem suffocent. Itaque rubos a trunco removimus. Opus difficile erat, nam rubi ramos suos circum truncum contorserant, et singuli contorquendi erant ut solverentur.\n\nDeinde brassicas nostras numeravimus. Per aestatem cochleae eas populabantur: noctu e terra veniebant et folia tenera edebant. Ex viginti brassicis vix octo integrae erant. «Cochleae hortum populant sicut grex parvus ovium pratum», inquit Eva. Ego explicavi nos cinerem circum brassicas spargere velle, quem cochleae transire nolunt. Ita proximo anno brassicas minus populabuntur.\n\nPost meridiem ventus ortus est. Ventus autumni arbores foliis denudat: sub oculis nostris tilia vicini paulatim denudabatur, et folia flava in aere gyrabant. Eva in medio horto stabat et cum foliis gyrabat, bracchiis apertis. Rami piri et tiliae vento inter se collidebant, et sonus quasi duorum baculorum audiebatur. «Cur rami inter se collidunt?» rogavit Eva. Respondi ventum eos movere, sicut duas manus quae plaudunt.\n\nIn pergula vitis vetus crescit. Truncus eius contortus est, quasi aliquis eum manibus contorsisset. Vitis per cirros suos pergulam tenet: cirri tenues sunt et circum quodque lignum se contorquent. Eva cirros diu spectabat. «Cirri sunt tamquam digiti vitis», inquit. Ramos qui de pergula pendebant ad lignum alligavimus, ne ventus eos frangeret; ad hoc aliquantulo filo opus erat.\n\nUltimo cultrum hortensem in mensa purgavimus. Mucro eius iam hebes erat, et Eva eum lapide acuit, donec mucro acutus rursus fieret. «Bene», inquam, «nam culter cuius mucro hebes est ramos non secat; culter cuius mucro acutus est eos facile secat.» Eva cultrum caute in arca posuit.\n\nVespere, cum aliquantulo frigore in domum rediremus, hortus nudus et quietus erat: pirus sine rubis, vitis ad lignum ligata, brassicae cinere cinctae. Eva dixit hortum autumno non tristem esse, sed tamquam dormire. Aliquantulum labore confectus eram, sed laetus: hortus parvus, ut familia, aliquantulam curam omni tempore postulat.\n\nQuaestiones:\nQuid rubi pirum facere dicuntur?\nRubi, si diu crescunt, arborem suffocant.\nCur rubi difficile removebantur?\nQuia rubi ramos suos circum truncum contorserant et singuli contorquendi erant.\nQuid cochleae per aestatem fecerunt?\nBrassicas populabantur: noctu folia tenera edebant.\nQuid ventus autumni arboribus facit?\nVentus arbores foliis denudat, et folia in aere gyrant.\nCur rami piri et tiliae inter se collidebant?\nQuia ventus eos movebat, sicut duas manus quae plaudunt.\nQuid vitis per cirros suos facit?\nVitis per cirros suos pergulam tenet."
+    },
+    {
+      "title": "Officina matris",
+      "summary": "A daughter writes about her mother, who has taken over a small cheese dairy in a valley near Trento from its old cheesemaker: at first she is perplexed by his old ways, he shows her how much rennet the milk needs, her attractive new labels astonish the customers, and when summer gets busy she calls him back and they agree on a monthly visit.",
+      "newWords": [
+        "decessor",
+        "coagulum",
+        "perplexus",
+        "revocatio",
+        "attractivus",
+        "obstupefacio",
+        "condico"
+      ],
+      "text": "Mater mea anno priore officinam parvam, in qua caseus fit, in valle prope Tridentum suscepit. Decessor eius, Anteius, quadraginta annos ibi caseum fecerat; cum septuaginta annos natus esset, laborem relinquere voluit, et matrem meam, quae diu in officina eius adiuverat, sibi successorem elegit. Hoc commentariolum de primo anno matris scribo.\n\nPrimis mensibus mater saepe perplexa erat. Anteius enim nihil in charta scripserat: omnia in capite habebat. Quantum lactis, quantum salis, quot horas caseus in cella manere deberet, haec omnia decessor ex usu sciebat, sed numquam notaverat. Mater, quae ratione uti solet, perplexa ad eum telephono vocabat. «Quomodo hoc facis?» rogabat. «Ut semper», respondebat Anteius, quod eam magis perplexam faciebat.\n\nItaque Anteius per unam hebdomadem in officinam rediit et ei omnia ostendit. Primum coagulum ei ostendit. Coagulum est id quod lac in caseum mutat: cum coagulum lacti calido additur, lac spissum fit. «Si coaguli nimis addis», inquit, «caseus amarus fit; si parum, mollis manet.» Mater omnia diligenter notavit: quantum coaguli, quanto calore, quanto tempore.\n\nDeinde mater ipsa aliquid novum fecit. Casei Anteii optimi erant, sed in chartis vulgaribus et sine coloribus vendebantur. Mater titulos attractivos finxit: in singulis imago vallis, colores laeti, nomen officinae litteris pulchris. Etiam cistas ligneas attractivas pro donis paravit. «Caseus bonus», inquit, «etiam oculis placere debet.»\n\nEmptores obstupefecit. In foro Tridenti multi ad mensam eius accedebant, et qui caseum Anteii iam per viginti annos emebant, dicebant se mercem veterem in veste nova vix agnoscere. Etiam ipsum Anteium obstupefecit: cum primam cistam attractivam vidisset, diu tacuit, deinde risit.\n\nAestate autem tantum laboris erat ut mater sola non sufficeret. Itaque decessorem suum rogavit ut per duos menses rediret. Haec revocatio Anteio valde grata fuit; dixit sibi domi otioso dies nimis longos videri. Revocatio, ut aiebat, eum iterum iuvenem fecit. Cum mense Septembri laborem iterum relinqueret, mater et ipse condixerunt ut semel in mense in officinam veniret, caseos gustaret et consilium daret. Ita condictum est, et omni mense, ut condixerant, Anteius venit.\n\nMe, quae haec scribo, saepe obstupefacit quam bene mater et decessor eius inter se conveniant. Ille scientiam veterem habet, haec consilia nova; officina sine ambobus tam bene non floreret.\n\nQuaestiones:\nQuis erat decessor matris?\nAnteius, qui quadraginta annos in officina caseum fecerat.\nCur mater primis mensibus perplexa erat?\nQuia Anteius nihil in charta scripserat et omnia ex usu sciebat.\nQuid est coagulum?\nCoagulum est id quod lac in caseum mutat.\nQuid Anteius de revocatione sua dixit?\nDixit revocationem se iterum iuvenem fecisse.\nQuid mater novi fecit?\nTitulos et cistas attractivas pro caseis finxit.\nQuid mater et Anteius mense Septembri condixerunt?\nCondixerunt ut Anteius semel in mense in officinam veniret, caseos gustaret et consilium daret."
+    }
+  ]
+}
