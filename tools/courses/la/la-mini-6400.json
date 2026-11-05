@@ -1,0 +1,196 @@
+{
+  "id": "la-mini-6400",
+  "rankUpTo": 6400,
+  "level": "C1",
+  "title": "Theatrum et scaena",
+  "description": "Ten stories from the theatre: a first rehearsal, a set designer, stage fright, a critic, a school play, a touring company, a flooded stage, an old stage custom, a quiet play and an actor preparing a role.",
+  "topic": "Theatre and stage",
+  "names": [
+    "Marcella",
+    "Anselmus",
+    "Arturus",
+    "Florentia",
+    "Guido",
+    "Lucilia",
+    "Mediolanum",
+    "Elisa",
+    "Martha",
+    "Vindobona",
+    "Cornelius",
+    "Aemiliana",
+    "Londinium",
+    "Gerlinda",
+    "Bruno",
+    "Leonia",
+    "Bononia",
+    "Aurelius",
+    "Albertina",
+    "Mantua",
+    "Valentinus",
+    "Octaviana",
+    "Venetiae",
+    "Aloisius",
+    "Silvius",
+    "Neapolis",
+    "Matthaeus",
+    "Camillus",
+    "Rosvitha",
+    "Turicum",
+    "Antonius",
+    "Terentius",
+    "Patavium",
+    "Europa"
+  ],
+  "lessons": [
+    {
+      "title": "Prima repetitio",
+      "summary": "In Florence a young actress meets an old schoolmate at the first rehearsal of a comedy, where the director starts with breathing, clear speech and the voice, and warns against declaiming.",
+      "newWords": [
+        "repetitio",
+        "condiscipulus",
+        "praeliminaris",
+        "praeparatorius",
+        "aspiratio",
+        "enuntiatio",
+        "modulor",
+        "declamatio"
+      ],
+      "text": "Marcella, histrio quattuor et viginti annos nata, hoc mane primum in theatrum parvum Florentiae intrat, ubi per totam hiemem in comoedia nova partes aget. In conclavi ubi repetitiones habentur, sellae in circulo positae sunt. In una ex sellis iuvenem videt quem statim agnoscit: Arturus est, condiscipulus eius e schola, quem novem annos non viderat. «Arture!» inquit. «Numquam putavi condiscipulum meum in eadem scaena mecum staturum esse.» Arturus ridet et se quoque mirari dicit.\n\nDeinde Anselmus, qui fabulam moderatur, intrat et omnes salutat. Antequam repetitio incipiat, sermonem praeliminarem habet. «Hodie fabulam non agemus», inquit. «Haec est repetitio praeliminaris: textum una legemus, et ego vobis explicabo quomodo per sex hebdomadas laboraturi simus. Prima hebdomas tota praeparatoria erit. Antequam verba in scaena dicatis, corpus et vocem parare debetis.»\n\nExercitationes praeparatorias ab aspiratione incipit. Omnes surgere iubet, manus ventri imponere, lente spiritum ducere. «Aspiratio est fundamentum vocis», inquit. «Qui male spiritum ducit, in medio versu deficit. Aspiratio profunda vocem sustinet, etiam in theatro magno.» Marcella sentit ventrem sub manibus lente surgere et descendere.\n\nDeinde de enuntiatione loquitur. Unumquemque iubet sententiam difficilem ter dicere, primum lente, deinde celerius, postremo quam celerrime. Arturus in tertia repetitione haeret, et omnes rident, ipse quoque. «Enuntiatio clara», inquit Anselmus, «non est lingua celeris, sed lingua diligens. Spectator qui in ultimo ordine sedet omnem syllabam audire debet. Si enuntiatio deficit, etiam optima verba pereunt.»\n\nTum docet quomodo vox moduletur. «Vox quae semper eodem sono loquitur spectatores in somnum mittit», inquit. Marcella unam sententiam quinque modis dicere debet: laete, tristi animo, irate, dubitanter, summissa voce. Vocem modulatur, nunc altius, nunc gravius, et miratur eandem sententiam quinque res diversas significare. «Bene modularis», dicit Anselmus. «Qui vocem modulari scit, etiam sine gestibus multa ostendit.»\n\nPostremo de declamatione loquitur. Multi histriones iuvenes, ut ait, declamationem cum arte histrionis confundunt. «Declamatio est verba magna voce et magnis gestibus pronuntiare, quasi in foro. In comoedia nostra nemo declamat. Personae nostrae sunt homines communes qui in coquina et in tramine loquuntur. Declamationem relinquite oratoribus; vos loquimini sicut homines loquuntur.»\n\nHora sexta repetitio finitur. Marcella et Arturus una e theatro exeunt. In via de magistris suis veteribus loquuntur et de die quo in schola fabulam primum egerunt. «Tum omnes declamabamus», inquit Arturus ridens, «et putabamus nos magnos histriones esse.» «Ab hodie», respondet Marcella, «loqui discimus.»\n\nQuaestiones:\nQuem Marcella in conclavi repetitionum videt?\nArturum videt, condiscipulum suum e schola, quem novem annos non viderat.\nQuid Anselmus facit antequam repetitio incipiat?\nSermonem praeliminarem habet et explicat quomodo per sex hebdomadas laboraturi sint.\nCur aspiratio tanti momenti est?\nQuia aspiratio est fundamentum vocis: qui male spiritum ducit, in medio versu deficit.\nQuid est enuntiatio clara, ut Anselmus putat?\nNon est lingua celeris, sed lingua diligens, ita ut spectator in ultimo ordine omnem syllabam audiat.\nQuomodo Marcella vocem modulatur?\nUnam sententiam quinque modis dicit, nunc altius, nunc gravius.\nCur in hac comoedia nemo declamat?\nQuia personae sunt homines communes, qui non declamant, sed loquuntur."
+    },
+    {
+      "title": "Dispositor scaenae",
+      "summary": "In Milan an old set designer shows his student how to build a rocky shore, saw-toothed mountains and a rich hall with a glass chandelier, round lamps and ivory walls.",
+      "newWords": [
+        "dispositor",
+        "saxosus",
+        "cumulo",
+        "serratus",
+        "crystallinus",
+        "globosus",
+        "eburneus",
+        "stativus"
+      ],
+      "text": "Guido iam triginta annos dispositor scaenae est in theatro magno Mediolani. Dispositor non solum delineat quid in scaena videatur, sed etiam cum fabris aedificat quidquid delineavit. Hoc anno Lucilia, discipula academiae artium, apud eum discit, quia ipsa olim scaenas disponere vult.\n\nFabula nova in duas partes dividitur. Prima pars in litore saxoso agitur, secunda in aula magna domus divitis. «Litus saxosum in scaena facere difficile est», inquit Guido. «Saxa vera nimis gravia sunt. Ideo saxa e ligno levi et tela facimus et colore griseo pingimus.» Lucilia saxa cumulat secundum delineationem magistri: maiora in imo, minora in summo, donec cumulus tam altus est quam homo. Guido ea iterum cumulat, paulo inaequalius. «Natura numquam ordine cumulat», inquit. «Litus saxosum asperum esse debet, non sicut murus.»\n\nPost litus montes apparent. Eos Guido e tabulis secat, quarum margines serrati sunt, ut cacumina montium imitentur. «Linea serrata oculum fallit», explicat. «Spectator lineam serratam videt et montes procul sitos esse putat, quamquam tabula tantum duos passus a pariete stat.» Lucilia ipsa serra marginem serratum secat, et Guido eam laudat.\n\nSecunda pars plane aliter apparet. In aula domus divitis lumen magnum e tecto pendet, crystallinum et splendidum. Revera non est crystallinum: e vitro vili factum est, quod Guido in foro rerum veterum emit. «Sub luminibus bonis vitrum vile crystallinum videtur», inquit. Circa parietes lampades globosae stant, quarum lux mollis est. Lampades globosae lucem aequaliter spargunt, cum lampades acutae umbras duras faciant.\n\nParietes aulae colore eburneo pinguntur. Lucilia primum colorem album proponit, sed Guido caput movet. «Album sub luminibus scaenae nimis splendet et oculos spectatorum laedit. Color eburneus mollior est et calidior.» Etiam aulaeum quod scaenam claudit eburneum est.\n\nTandem de rebus stativis et mobilibus loquuntur. Litus saxosum et montes serrati per totam primam partem manent: res stativae sunt, quae numquam moventur. Aula autem inter duas partes intra tria minuta parari debet; ideo parietes eius in rotis stant. «Res stativas firmas facimus», inquit Guido, «res mobiles leves. Si eas confunderemus, aut montes in scaena vacillarent, aut fabri aulam movere non possent.» Lampades globosae quoque stativae sunt: in basi gravi stant, ne cadant.\n\nVespere Lucilia in ultimo ordine sedet et totam scaenam spectat, dum Guido lumina temperat. Sub lumine caeruleo litus saxosum frigidum videtur, et montes serrati procul in nebula stare. Deinde lumen mutatur, et aula eburnea cum lumine crystallino calida et divitiis plena apparet. Lucilia sentit se hodie plus didicisse quam toto anno in academia.\n\nQuaestiones:\nQuid facit dispositor scaenae?\nDelineat quid in scaena videatur et cum fabris aedificat quidquid delineavit.\nQuomodo Guido saxa cumulat?\nEa paulo inaequalius cumulat, quia natura numquam ordine cumulat.\nCur margines tabularum serrati sunt?\nUt cacumina montium imitentur et spectator montes procul sitos esse putet.\nEstne lumen in aula vere crystallinum?\nNon est; e vitro vili factum est, quod sub luminibus bonis crystallinum videtur.\nCur parietes aulae colore eburneo, non albo pinguntur?\nQuia album nimis splendet, color eburneus mollior est et calidior.\nQuae res in scaena stativae sunt?\nLitus saxosum, montes serrati et lampades globosae stativae sunt."
+    },
+    {
+      "title": "Horror ante aulaeum",
+      "summary": "In Vienna a young actress is gripped by stage fright before her first leading role; an older colleague gives her a honey sweet, warns her of three things, and the fear goes away after the first laugh.",
+      "newWords": [
+        "horror",
+        "congelo",
+        "sugo",
+        "suavis",
+        "praemoneo",
+        "circumspicio",
+        "arripio",
+        "abscedo"
+      ],
+      "text": "Elisa hac vespera primum in theatro magno Vindobonae partes primas agit. Hora septima, una hora antequam fabula incipiat, in conclavi histrionum sedet et horrore capitur. Manus frigidae sunt, cor celeriter pulsat, et versus quos per sex hebdomadas memoriter didicit subito ex animo fugisse videntur.\n\nMartha, histrio sexaginta annos nata, quae in eadem fabula matrem eius agit, eam videt et iuxta eam considit. «Timesne?» rogat. Elisa adnuit. «Timeo ne in scaena congelem», inquit. «Hac nocte somniavi me in media scaena stare, omnes spectatores me intueri, et me sicut aquam hieme congelare: nec loqui poteram nec moveri.»\n\nMartha benigne ridet. «Hunc horrorem bene novi», inquit. «Quadraginta annos in scaena sto, et ante omnem fabulam horror me capit. Horror non est signum te male paratam esse; est signum rem tibi curae esse.» Deinde e sacculo globulum parvum ex melle et herbis factum sumit. «Hunc suge», inquit. «Timor fauces siccat. Dum sugis, fauces umidae manent et vox suavis.» Elisa globulum sugit; dulcis est et suavis, et mel fauces lenit.\n\nTum Martha eam de tribus rebus praemonet. «Primum: lumina te caecabunt, et spectatores non videbis. Noli timere; hoc bonum est. Deinde: si verbum unum oblita eris, ne congeles. Circumspice, aspice socium qui tecum in scaena stat; ipse te adiuvabit. Postremo: post primum risum spectatorum horror abscedet. Semper abscedit.» «Unde hoc scis?» rogat Elisa. «Quia me quoque histrio vetus praemonuit, cum viginti annos nata essem.»\n\nHora octava tintinnabulum sonat. Elisa ad marginem scaenae it et post aulaeum stat. Circumspicit: fabri in umbra stant, socii tacite exspectant. Manum Marthae arripit, quae eius manum suaviter premit. Aulaeum surgit.\n\nUt Martha praemonuerat, lumina eam caecant, et ultra ea nihil nisi tenebras videt. Primam sententiam dicit, et vox, quamquam paulum tremit, clara est. In tertia scaena verbum unum obliviscitur; paene congelat, sed circumspicit et Martham videt. Martha, quae iuxta eam stat, primum verbum versus summissa voce dicit; Elisa id statim arripit et pergit, et nemo in theatro quicquam animadvertit.\n\nPaulo post spectatores primum rident. Elisa sentit horrorem abscedere, sicut Martha dixerat: manus calescunt, vox firmatur, et iam non timet, sed ludit. Usque ad finem fabulae vox eius suavis et certa manet.\n\nPost fabulam, dum spectatores plaudunt, Elisa Marthae gratias agit. «Omnia ita evenerunt ut me praemonuisti», inquit. Martha ei alterum globulum dat. «Serva eum», inquit. «Horror postridie redibit, sed iterum abscedet.»\n\nQuaestiones:\nQuid Elisa in conclavi histrionum sentit?\nHorrore capitur: manus frigidae sunt, et versus ex animo fugisse videntur.\nQuid Elisa timet?\nTimet ne in media scaena congelet et nec loqui nec moveri possit.\nCur Martha Elisam globulum sugere iubet?\nQuia dum sugit, fauces umidae manent et vox suavis.\nDe quibus rebus Martha Elisam praemonet?\nDe luminibus quae eam caecabunt, de verbo oblito, et de horrore qui post primum risum abscedet.\nQuid Elisa facit cum verbum obliviscitur?\nCircumspicit, Martham videt, et primum verbum ab ea dictum statim arripit."
+    },
+    {
+      "title": "Criticus redit",
+      "summary": "In London a theatre critic who left a small company's show at the interval receives a calm letter from its director, comes back to see the whole play, and writes a fairer review.",
+      "newWords": [
+        "percenseo",
+        "acerbitas",
+        "asperitas",
+        "rescribo",
+        "comprehensivus",
+        "blandus",
+        "denego",
+        "arrogans"
+      ],
+      "text": "Cornelius iam viginti annos fabulas percenset pro ephemeride quae Londinii editur. Omni hebdomade duas vel tres fabulas spectat, et de unaquaque commentariolum scribit quod postridie legitur. Lectores sententias eius magni aestimant, sed histriones eum timent, quia acerbitate notus est.\n\nMense proximo fabulam parvam percensuit quam societas iuvenum in theatro pauperi agebat. Commentariolum eius asperum erat: scripsit scaenam esse inopem, histriones nimis clamare, fabulam longiorem esse quam res quas narraret. Neque totam fabulam viderat: post primam partem domum redierat.\n\nPaucis diebus post epistolam accepit ab Aemiliana, quae societati praeest. Cornelius epistolam iratam exspectabat, sed epistola tranquilla erat. «Commentariolum tuum legi», scribebat Aemiliana. «Quaedam vera dixisti, et ea corrigemus. Asperitas tua nos non tantum offendit quantum hoc: fabulam non totam vidisti. Commentariolum quod post dimidiam fabulam scribitur non est comprehensivum. Rogo ut redeas et fabulam totam spectes. Non peto ut blandus sis; laudes blandas non desideramus. Peto tantum ut aequus sis.»\n\nCornelius diu cogitat. Primo putat criticum histrionibus rescribere non debere. Deinde tamen intellegit Aemilianam recte dicere, et asperitatem suam non semper iustam fuisse. Rescribit breviter: se rogationem eius non denegare et post tres dies venturum esse.\n\nAd theatrum pauper redit et hac vice usque ad finem manet. Prima pars eadem est ac prius, sed secunda pars plane alia: clamor cessat, histriones tacere discunt, et ultima scaena, in qua pater et filius post longum silentium tandem loquuntur, spectatores valde movet. Cornelius intellegit totam fabulam ad hanc scaenam tendere. Sentit se arrogantem fuisse: arrogans est criticus qui post dimidiam fabulam se omnia scire putat.\n\nDomi novum commentariolum scribit, longius et comprehensivum, quod totam fabulam complectitur. Neque blandum est neque asperum. Quae mala erant, iterum dicit, sed sine acerbitate; quae bona, laudat. Ad finem addit: «Priore commentariolo dimidiam fabulam percensui. Id facere non debui, et lectores rogo ut errori meo ignoscant.»\n\nAemiliana commentariolum novum histrionibus suis legit, qui gaudent. Deinde iterum Cornelio rescribit. «Laudem blandam nobis denegavisti», scribit, «et recte fecisti. Laudem veram dedisti, quae pluris est.» Cornelius epistolam in mensa servat. Ex eo die, quamvis acerbus esse soleat, numquam ante finem fabulae theatrum relinquit, ne iterum arrogans videatur.\n\nQuaestiones:\nCur histriones Cornelium timent?\nQuia acerbitate notus est.\nQuid Cornelius in priore commentariolo scripsit?\nScripsit scaenam esse inopem, histriones nimis clamare, fabulam nimis longam esse.\nCur Aemiliana commentariolum eius non comprehensivum esse dicit?\nQuia post dimidiam fabulam scriptum est, et Cornelius fabulam totam non vidit.\nQuid Aemiliana a Cornelio petit?\nPetit ut redeat et fabulam totam spectet; non ut blandus sit, sed ut aequus.\nCur Cornelius se arrogantem fuisse sentit?\nQuia putaverat se post dimidiam fabulam omnia scire.\nQuale est novum commentariolum?\nLongius est et comprehensivum, neque blandum neque asperum."
+    },
+    {
+      "title": "Nuptiae cameli",
+      "summary": "In Bologna a primary-school class performs its teacher's play about a camel's wedding, with howling wolves, a kicking donkey, a barrel, real cake and a noisy, happy audience.",
+      "newWords": [
+        "camelus",
+        "matrimonialis",
+        "ululo",
+        "persimilis",
+        "calcitro",
+        "cupa",
+        "placenta",
+        "tumultuosus",
+        "consurgo"
+      ],
+      "text": "In schola elementaria Bononiae Gerlinda, magistra discipulorum octo annorum, singulis annis cum classe sua fabulam parvam agit. Hoc anno fabulam ipsa scripsit, cui titulus est «Nuptiae cameli». Camelus in deserto habitat et uxorem ducere vult; ad convivium matrimoniale omnia animalia invitat.\n\nBruno, puer altus et tranquillus, camelum agit. Mater eius vestem cameli consuit, cum dorso alto e pulvinis facto. Bruno per scaenam lente et graviter incedere discit, ut camelus verus. Puella quae sponsam agit vestem cameli persimilem gerit, sed coronam florum in capite.\n\nLeonia et duae aliae puellae lupos agunt. In fabula lupi ad convivium matrimoniale veniunt et carmen ululant. Puellae per totum mensem ululare exercent, domi et in schola, ita ut vicini mirentur unde tot lupi in urbem venerint. Vestes trium luporum persimiles sunt, griseae cum auribus acutis; parentes vix agnoscunt quae sit filia sua.\n\nDuo pueri asinum agunt, unus caput, alter caudam. Asinus in fabula iratus est, quia ad convivium non invitatus est, et calcitrat. Gerlinda eos diligenter docet calcitrare: «Calcitrate in aerem, numquam in socios!» In medio scaenae cupa magna stat, e charta et ligno facta, ex qua camelus aquam bibit. Asinus calcitrans cupam evertere debet, sed lente, ne cupa in quemquam cadat.\n\nIn fine fabulae placenta matrimonialis in mensa ponitur. Vera est placenta, magna et alba, quam pistor vicinus scholae donavit. Camelus et sponsa eam una secant, et omnia animalia, etiam asinus iam placatus, ad mensam conveniunt.\n\nDie fabulae aula scholae plena et tumultuosa est: parentes, avi, fratres parvi, qui clamant et ridentes in sellis saliunt. Gerlinda timet ne discipuli in tanto strepitu verba sua obliviscantur. Sed cum aulaeum surgit et camelus lente in scaenam incedit, aula tota tacet.\n\nFabula bene procedit. Lupi tam bene ululant ut infantes in primo ordine oculos claudant. Asinus calcitrat, cupa lente cadit, et omnes rident. Camelus sponsam salutat et verba sua clare dicit, quamquam vox eius paulum tremit.\n\nAd finem camelus et sponsa placentam secant. Tum parentes omnes una consurgunt et plaudunt, et plausus tam tumultuosus est ut discipuli aures manibus tegant. Gerlinda quoque consurgit et ridet. Post fabulam omnes in aulam descendunt et placentam matrimonialem una edunt; camelus duas partes accipit, quia, ut ait, cameli diu sine cibo ambulant.\n\nQuaestiones:\nQuid camelus in fabula Gerlindae facere vult?\nUxorem ducere vult et ad convivium matrimoniale omnia animalia invitat.\nCur parentes vix agnoscunt quae sit filia sua?\nQuia vestes trium luporum persimiles sunt.\nCur asinus in fabula calcitrat?\nQuia iratus est, quod ad convivium non invitatus est.\nUnde est placenta in fine fabulae?\nPistor vicinus scholae eam donavit.\nQuid parentes faciunt in fine fabulae?\nOmnes una consurgunt et tam tumultuose plaudunt ut discipuli aures tegant."
+    },
+    {
+      "title": "Theatrum in area",
+      "summary": "Near Mantua a frugal touring company plays a farm drama in the yard of an old family farmhouse, two leagues from the crossroads, once the sun has dried the ground after rain.",
+      "newWords": [
+        "parcus",
+        "agriculturalis",
+        "compitum",
+        "leuga",
+        "colonicus",
+        "avitus",
+        "consero",
+        "exsicco"
+      ],
+      "text": "Aurelius societatem parvam histrionum moderatur, quae aestate per agros prope Mantuam iter facit. Theatrum eius non est aedificium, sed plaustrum magnum, quod in quolibet loco scaena fit. Societas pecuniae parca est: histriones ipsi vestes consuunt, ipsi plaustrum agunt, apud colonos dormiunt. Parce vivere necesse est, nam spectatores rustici non multum pecuniae habent.\n\nHac aestate fabulam agunt de vita agriculturali. Agricola senex agros a patre acceptos vendere non vult, filius autem in urbem migrare cupit. Spectatores qui in vicis agriculturalibus vivunt hanc fabulam amant, quia in ea vitam suam agnoscunt.\n\nPost meridiem plaustrum ad compitum pervenit, ubi via e Mantua in duas vias dividitur. In compito signum ligneum et vetus stat, in quo scriptum est: «Ad villam, leugae duae». Leuga est mensura vetus, paulo longior quam duo chiliometra; in hac regione senes adhuc leugis loquuntur. Aurelius viam ad dextram sumit, et post duas leugas plaustrum ad domum colonicam pervenit.\n\nDomus colonica Albertinae est, quae eam ab avo accepit. «Haec domus avita est», inquit Albertina, dum histriones salutat. «Proavus meus eam aedificavit, et quattuor aetates in ea habitaverunt.» Ante domum area lata est, ubi frumentum olim terebatur. In ea Albertina histriones fabulam agere sinit.\n\nSed mane pluit, et area umida est et lutosa. Praeterea faenum, quod Albertina in area exsiccare solet, ibi iacet. «Sol aream exsiccabit», inquit Albertina. «Faenum autem in horreum feremus, ubi melius exsiccabitur.» Histriones una cum ea faenum in horreum ferunt. Hora quinta sol aream iam exsiccavit, et plaustrum in medio consistit.\n\nCirca aream populi altae stant. «Avus meus has arbores conseruit», narrat Albertina, «cum puer esset. Agros quoque ipse frumento et fabis conseruit, sicut ego hodie consero.» Aurelius arbores spectat et statuit ut scaena inter duas populos ponatur.\n\nVespere vicini e domibus colonicis veniunt, alii pedibus, alii birotis, quidam per tres leugas. Sedent in faeno, in sellis quas secum attulerunt, in muro humili. Fabula incipit. Cum senex in scaena dicit agros avitos non pecuniam sed memoriam esse, colonus vetus in primo ordine caput movet et oculos tergit.\n\nPost fabulam spectatores non multam pecuniam dant, sed caseum, ova, panem, fabas. Aurelius, ut semper parcus, omnia grato animo accipit. «Pecunia nobis deest», inquit, «sed cibo hac aestate numquam carebimus.» Ea nocte histriones in faeno dormiunt, sub tecto horrei aviti.\n\nQuaestiones:\nCur societas Aurelii parca esse debet?\nQuia spectatores rustici non multum pecuniae habent.\nDe qua re agit fabula hac aestate?\nDe vita agriculturali: de agricola sene qui agros vendere non vult et de filio qui in urbem migrare cupit.\nQuid in signo ad compitum scriptum est?\nIn signo scriptum est: «Ad villam, leugae duae».\nCuius est domus colonica?\nAlbertinae est, quae eam ab avo accepit; domus avita est.\nQuomodo area exsiccatur?\nSol aream exsiccat, et faenum in horreum fertur.\nQuid spectatores post fabulam dant?\nNon multam pecuniam dant, sed caseum, ova, panem et fabas."
+    },
+    {
+      "title": "Aqua in theatro",
+      "summary": "In Venice a canal floods the lower floor of a small theatre after heavy rain; nobody is hurt, the costume keeper rinses the costumes in fresh water, and insurance and a benefit evening pay for the repairs.",
+      "newWords": [
+        "euripus",
+        "immodicus",
+        "inundo",
+        "immergo",
+        "demergo",
+        "assecuratio",
+        "compenso",
+        "reparo"
+      ],
+      "text": "Theatrum parvum cui Valentinus praeest Venetiis ad euripum angustum situm est. Ianua posterior in ipsum euripum aperitur, et olim vestes et ornamenta cymbis per euripum advehebantur. Valentinus theatrum amat, sed scit aquam euripi aliquando altius surgere quam tutum est.\n\nHoc anno, post pluvias immodicas et ventum vehementem, aqua in euripo una nocte subito surgit. Nemo in theatro est. Aqua per ianuam posteriorem intrat et tabulatum inferius totum inundat. Mane Valentinus intrat et aquam usque ad genua invenit. Conclave vestium inundatum est, item officina fabrorum.\n\nOctaviana, quae vestibus praeest, paulo post advenit. Cistae vestium in pavimento stabant; nunc in aqua salsa iacent, quasi aliquis eas in aquam immersit. Unam cistam, ligno gravi factam, aqua demersit, et in fundo iacet; aliae leviores fluitant. Etiam tabulae quaedam ex officina demerguntur, quia clavis ferreis graves sunt. «Quod demersum est, primum extrahamus», inquit Octaviana.\n\n«Vestes non sunt perditae», inquit Octaviana, «sed sal eas perdet, nisi statim laboramus.» Iubet omnes vestes in labra aquae dulcis immergi. Ipsa unamquamque vestem ter immergit, ut sal eluatur, deinde suspendit. Per tres dies conclave plenum est vestibus quae more lintei pendent.\n\nInterea Valentinus societati assecurationis telephonat. Homo ab assecuratione missus venit, omnia inspicit, damnum numerat. Assecuratio damnum tabulatorum et machinarum compensabit, sed non totum: vestes veteres, quas societas ante quinquaginta annos consuerat, nulla pecunia compensari possunt, et assecuratio eas tantum parvo pretio aestimat. «Damnum immodicum non est», inquit Valentinus, «sed maius quam assecuratio compensat.»\n\nFabri pavimentum reparant, parietes siccant, machinas novas ponunt. Octaviana vestes reparat: suit, quod sal laceraverat, lavat maculas, et nonnullas vestes ex duabus unam facit. Opus reparandi per duos menses durat.\n\nUt reliquum damnum compenset, Valentinus vesperam singularem parat. Histriones gratis agunt, cives pecuniam dant, et cantor notus qui in vicino habitat sine mercede cantat. Post vesperam pecunia satis est ad omnia reparanda.\n\nAd finem Valentinus ianuae posteriori portam firmam addit, quae aquam etiam immodicam arcet. Cistas vestium iam non in pavimento ponit, sed in tabulis altis. «Euripus noster pulcher est», inquit Octavianae, «sed eum non iterum in theatrum invitabimus.»\n\nQuaestiones:\nUbi situm est theatrum Valentini?\nVenetiis situm est, ad euripum angustum.\nCur aqua tabulatum inferius inundat?\nQuia post pluvias immodicas et ventum vehementem aqua in euripo subito surgit.\nQuid Octaviana cum vestibus facit?\nUnamquamque vestem ter in aquam dulcem immergit, ut sal eluatur.\nQuid assecuratio compensat?\nDamnum tabulatorum et machinarum compensat, sed non vestes veteres.\nQuomodo reliquum damnum compensatur?\nValentinus vesperam singularem parat, in qua histriones gratis agunt et cives pecuniam dant."
+    },
+    {
+      "title": "Noli sibilare in scaena",
+      "summary": "In Naples an old stagehand stops a young actor whistling on stage and explains that the old superstition has a sound reason behind it, from the days when stage crews were sailors who signalled with whistles.",
+      "newWords": [
+        "superstitio",
+        "rationalitas",
+        "imprudens",
+        "temerarius",
+        "admisceo",
+        "propagatio",
+        "increbresco",
+        "praevenio"
+      ],
+      "text": "Silvius, histrio viginti duos annos natus, primum in theatro vetere Neapoli laborat. Dum in scaena exspectat ut repetitio incipiat, carmen notum sibilat. Statim Aloisius, faber scaenae septuaginta annos natus, ex umbra prodit. «Desine!» inquit. «In scaena numquam sibilatur.»\n\nSilvius ridet. «Haec est superstitio», inquit. «Ego superstitioni non credo. Rationalitatem magni facio: quod ratione probari non potest, non sequor.» Aloisius non irascitur. «Bene», inquit. «Si rationalitatem amas, rationem tibi dabo.»\n\nNarrat olim fabros scaenae saepe nautas fuisse. In navibus nautae funes et vela signis sibilatis movebant, et cum in theatra venirent, eundem morem secum attulerunt. Unus sibilus significabat «tolle aulaeum», alter «demitte tabulam». «Si histrio imprudens in scaena sibilabat», inquit Aloisius, «fabri supra eum signum audiebant et tabulam gravem demittebant, fortasse in caput eius. Histrio imprudens non sciebat quid faceret, sed periculum erat verum.»\n\n«Nunc autem fabri signis electricis utuntur», respondet Silvius. «Ratio periit; superstitio mansit.» «Ita est», inquit Aloisius. «Sic fit plerumque. Omni superstitioni aliquid rationis admiscetur, et homines rationi aliquid superstitionis admiscent. Mos qui olim utilis erat per propagationem a magistro ad discipulum transit, et causa paulatim obliviscitur. Propagatio talium morum lenta sed firma est; in omnibus theatris Europae hic mos increbruit, etiam ubi nemo umquam nauta fuit.»\n\nPaulo post repetitio incipit. Silvius in medio scaenae stat, ubi supra eum trabs ad lumina ferenda paratur. Fabri eam funibus demittunt, et Silvius, temerarius, sub ea manet ut versus suos legat. Aloisius periculum praevenit: bracchium eius prehendit et eum duos passus retrahit, priusquam trabs descendat. Trabs lente et tuto descendit, sed eo loco ubi Silvius steterat.\n\n«Temerarius es», inquit Aloisius, «sed non stultus. Vides cur fabri senes superstitiones suas servent? Melius est periculum praevenire quam postea lugere.» Silvius gratias agit, paulo pallidior.\n\nPost repetitionem Aloisius ei alium morem ostendit: lampadem parvam, quae per totam noctem in media scaena ardet. «Etiam hoc superstitionem esse dicunt», inquit. «Sed ratio simplex est: qui nocte in theatrum obscurum intrat, sine lumine in fossam orchestrae cadere potest.» Silvius ridet. «Fortasse superstitio tua plus rationalitatis habet quam putabam.» Ex eo die in scaena numquam sibilat, et rumor in theatro increbrescit iuvenem temerarium tandem sapientem factum esse.\n\nQuaestiones:\nCur Silvius superstitioni non credit?\nQuia rationalitatem magni facit et quod ratione probari non potest non sequitur.\nQui erant olim fabri scaenae?\nSaepe erant nautae, qui funes et vela signis sibilatis movebant.\nQuid accidere poterat si histrio imprudens sibilabat?\nFabri signum audiebant et tabulam gravem in caput eius demittere poterant.\nQuomodo Aloisius periculum praevenit?\nBracchium Silvii prehendit et eum retrahit priusquam trabs descendat.\nCur lampas parva per noctem in scaena ardet?\nNe quis nocte in theatro obscuro in fossam orchestrae cadat."
+    },
+    {
+      "title": "Fabula tacita",
+      "summary": "In a letter from Zurich a playwright tells a friend about his quiet, contemplative new play: one woman, one bench, the morning light, a musical interlude, and an actress who breathes at every comma.",
+      "newWords": [
+        "contemplativus",
+        "restringo",
+        "contemplatio",
+        "permeo",
+        "interludium",
+        "sentimentum",
+        "virgula",
+        "interrogativus"
+      ],
+      "text": "Matthaeus Camillo salutem dicit.\n\nRogas, amice, qualis sit fabula nova quam hoc anno Turici agimus. Respondebo quam brevissime, sed vereor ne epistola longior fiat quam fabula ipsa.\n\nFabula est contemplativa. Scio hoc verbum multos spectatores terrere, qui in theatro res magnas et celeres videre volunt. In fabula mea fere nihil accidit. Mulier senex prima luce in horto sedet et diem venientem spectat. Nihil amplius. Consulto omnia restrinxi: scaenam ad unum scamnum et unam arborem, personas ad unam, tempus ad unam horam. Cum omnia restringuntur, res minimae magnae fiunt.\n\nFabula tota contemplatio est. Mulier non agit, sed spectat: folia, aviculas, nubes. Contemplatio autem in scaena difficilis est, quia spectator videre debet quid persona videat. Ideo lumen magnam partem agit. Initio scaena paene obscura est; deinde lux paulatim totam scaenam permeat, sicut lux matutina hortum permeat. Spectatores ipsi in contemplationem trahuntur, dum lumen crescit.\n\nIn media fabula interludium est. Mulier oculos claudit, et per decem minuta nemo loquitur; tantum citharoedus, qui in umbra sedet, cantum lenem modulatur. Primo timebam ne spectatores in interludio abirent. Sed nemo abit. Interludium, ut multi mihi postea dixerunt, est pars fabulae quam maxime memoria tenent.\n\nSentimentum vitavi. Facile est spectatores lacrimis movere, si mulier senex de iuventute amissa queritur. Sed nolui fabulam sentimento plenam. Mulier gaudet et dubitat, recordatur et obliviscitur, sed numquam se miseram vocat. Sentimentum verum, ut opinor, silentio melius quam verbis ostenditur.\n\nRosvitha, quae mulierem agit, de textu meo mirum quiddam fecit. In omni virgula spiritum ducit. «Virgulae tuae», inquit, «sunt spiritus personae: ubi virgula est, ibi mulier cogitat.» Itaque nunc virgulas meas multo diligentius pono quam olim. Praeterea fere omnes sententiae mulieris interrogativae sunt: «Unde venit haec nubes? Quis hanc arborem posuit?» Sententiis interrogativis nemo in scaena respondet. Rosvitha eas non tristi, sed curioso animo dicit, et spectatores sibi ipsi respondent.\n\nFabula hora una constat, et spectatores in silentio exeunt. Fabula contemplativa, ut nunc scio, spectatores non terret, sed quietos reddit. Hoc mihi plausu gratius est. Veni, si potes, mense proximo; theatrum parvum est, sed sedes tibi servabo.\n\nVale.\n\nQuaestiones:\nQuid accidit in fabula Matthaei?\nFere nihil: mulier senex prima luce in horto sedet et diem venientem spectat.\nQuomodo Matthaeus fabulam restrinxit?\nScaenam ad unum scamnum et unam arborem, personas ad unam, tempus ad unam horam restrinxit.\nQuid fit cum lux scaenam permeat?\nSpectatores ipsi in contemplationem trahuntur, dum lumen crescit.\nQuid fit in interludio?\nMulier oculos claudit, nemo loquitur, et citharoedus cantum lenem modulatur.\nCur Rosvitha in omni virgula spiritum ducit?\nQuia putat virgulas esse spiritus personae: ubi virgula est, ibi mulier cogitat.\nQuales sunt sententiae mulieris?\nFere omnes interrogativae sunt, et nemo in scaena eis respondet."
+    },
+    {
+      "title": "Histrio in valetudinario",
+      "summary": "In Padua an actor who will play a kidney doctor in a big new production visits a hospital, where a physician shows him the kidney ward and the pathology laboratory.",
+      "newWords": [
+        "renalis",
+        "lucrativus",
+        "octingenti",
+        "visitatio",
+        "physiologicus",
+        "pathologicus",
+        "phylum"
+      ],
+      "text": "Antonius, histrio quinquaginta annos natus, in fabula nova medicum aget qui morbos renales curat. Fabula in theatro maximo Patavii agetur, quod octingentas sedes habet, et societas eam lucrativam fore sperat: octingenti spectatores per sex hebdomadas omni vespera, id quod rarissimum est. Antonius autem non de pecunia cogitat, sed de veritate. Scire vult quomodo medicus verus loquatur et se gerat.\n\nItaque a valetudinario urbis visitationem petit. Terentius, medicus qui sectioni renali praeest, eum libenter accipit. «Visitatio tua mihi placet», inquit. «Histriones raro curant quomodo medici vere laborent.»\n\nPrima pars visitationis in sectione renali est. Terentius explicat quid renes in corpore faciant. «Renes sunt quasi purgatores corporis», inquit. «Omni die ingentem humorum copiam purgant et quod inutile est in urinam mittunt.» Antonius notas scribit. Terentius ei ostendit quomodo medicus aegrotum interroget: lente, simplicibus verbis, numquam per verba physiologica quae aegrotus non intellegit. «Ego quidem scio quid in rene physiologice fiat», inquit, «sed aegrotus scire vult tantum an sanari possit.»\n\nDeinde in laboratorium pathologicum descendunt. Ibi feminae et viri ad microscopia sedent et exempla parva examinant. Terentius explicat medicum pathologicum non aegrotos videre, sed partes corporis et humores, ut causam morbi inveniat. «Medicus pathologicus aegroto numquam occurrit», inquit, «sed sine eo nos ceteri caeci essemus.»\n\nIn uno microscopio Antonius bacteria videt, parva et rotunda. Terentius dicit bacteria in multa phyla dividi, ut animalia et plantae. «Quaedam phyla nobis nocent, multa utilia sunt; magna pars eorum in nobis ipsis habitat neque umquam nocet.» Antonius miratur verbum phylum, quod numquam audiverat, et id in notis scribit.\n\nPost visitationem in hortulo valetudinarii sedent. Terentius ridens rogat an ars histrionis lucrativa sit. «Raro», respondet Antonius. «Haec fabula fortasse lucrativa erit; plurimae non sunt.» «Ars medici», inquit Terentius, «lucrativa non est, si horas numeras.»\n\nIn repetitionibus Antonius iam non sicut medicus e televisione loquitur, sed sicut Terentius: lente et simpliciter. Ad primam fabulam Terentium invitat. Ille inter octingentos spectatores in ordine primo sedet, et post fabulam dicit se in scaena collegam vidisse.\n\nQuaestiones:\nQuem medicum Antonius in fabula nova aget?\nMedicum aget qui morbos renales curat.\nCur societas fabulam lucrativam fore sperat?\nQuia theatrum octingentas sedes habet et fabula per sex hebdomadas omni vespera agetur.\nQuid Antonius a valetudinario petit?\nVisitationem petit, ut sciat quomodo medicus verus loquatur et se gerat.\nCur Terentius verba physiologica cum aegrotis non adhibet?\nQuia aegrotus ea non intellegit et scire vult tantum an sanari possit.\nQuid facit medicus pathologicus?\nPartes corporis et humores examinat ut causam morbi inveniat.\nQuid Terentius de bacteriis dicit?\nDicit bacteria in multa phyla dividi; quaedam nocent, multa utilia sunt."
+    }
+  ]
+}
