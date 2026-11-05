@@ -1,6 +1,7 @@
 package com.tayra.languages.core.data.media
 
 import com.tayra.languages.core.data.files.TextDecoding
+import com.tayra.languages.core.data.files.pickerFiltersByExtension
 import com.tayra.languages.core.domain.media.Cue
 import com.tayra.languages.core.domain.media.SubtitleFormat
 import com.tayra.languages.core.domain.media.SubtitleFormats
@@ -34,7 +35,11 @@ object SubtitleFiles {
     /** Whether [name] looks like a subtitle file. */
     fun isSubtitleFile(name: String): Boolean = name.substringAfterLast('.', "").lowercase() in SubtitleFormat.allExtensions
 
-    val subtitleExtensions = listOf("srt", "vtt", "ass", "ssa", "json3")
+    /**
+     * The extensions to give the file picker, or null for every file: Android's picker filters by MIME type,
+     * and Android knows none for .vtt or .ass, so it greys those out.
+     */
+    val pickerExtensions: Set<String>? get() = if (pickerFiltersByExtension) setOf("srt", "vtt", "ass", "ssa", "json3") else null
 }
 
 /** Fetches a subtitle file from the internet, for a video whose subtitles are online too. */

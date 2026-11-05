@@ -71,10 +71,10 @@ fun AddVideoScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onAdded: (Lo
         }
     }
     val scope = rememberCoroutineScope()
-    val subtitlePicker = rememberFilePickerLauncher(type = FileKitType.File(SubtitleFiles.subtitleExtensions)) { file ->
+    val subtitlePicker = rememberFilePickerLauncher(type = FileKitType.File(SubtitleFiles.pickerExtensions)) { file ->
         if (file != null) scope.launch { viewModel.pickSubtitles(file.name, file.readBytes()) }
     }
-    val translationPicker = rememberFilePickerLauncher(type = FileKitType.File(SubtitleFiles.subtitleExtensions)) { file ->
+    val translationPicker = rememberFilePickerLauncher(type = FileKitType.File(SubtitleFiles.pickerExtensions)) { file ->
         if (file != null) scope.launch { viewModel.pickTranslation(file.name, file.readBytes()) }
     }
     Scaffold(
