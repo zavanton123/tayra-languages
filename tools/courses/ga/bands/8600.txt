@@ -1,0 +1,100 @@
+1	8501	taomach	taomaí thaomach
+2	8502	indibhidiúlacht	indibhidiúlachta
+3	8503	portó	bportó phortó
+4	8504	luathaigh	luathaithe luathaíodh
+5	8505	cnap	chnap chnapanna cnaipíní cnapa cnapanna
+6	8506	railí	
+7	8507	céadainm	
+8	8508	tobága	thobága
+9	8509	bánú	bhánú
+10	8510	soprán	shoprán sopráin tsopráin
+11	8511	coiscín	choiscín coiscíní gcoiscín
+12	8512	cóitseálaí	cóitseálaithe
+13	8513	cab	caib chab
+14	8514	spíonach	spíonacha
+15	8515	ceannann	ceannainn ceannanna cheannann
+16	8516	coirceog	choirceog choirceoga coirceoga coirceoige gcoirceog
+17	8517	gairmí	gairmithe ghairmithe ghairmí
+18	8518	garraíodóir	garraíodóirí gharraíodóir
+19	8519	análaigh	análaíonn análóir t-análóir
+20	8520	aoibh	aobh aoibhe
+21	8521	beannán	beannáin bheannáin
+22	8522	comhdaigh	chomhdaigh chomhdú comhdaithe comhdaíodh
+23	8523	gearg	gearga ghearg
+24	8524	giomnáisiam	ghiomnáisiam giomnáisiamaí
+25	8525	graí	ghraí
+26	8526	meidhir	meidhre mheadhra
+27	8527	meánoideachas	meánoideachais mheánoideachais
+28	8528	rothach	rothacha rothaigh
+29	8529	sóifia	shóifia
+30	8530	puinseáibis	bpuinseáibis phuinseáibis puinseáibise
+31	8531	comhshuíomh	chomhshuímh chomhshuíomh comhshuímh
+32	8532	córúil	chórúil chórúla córúla
+33	8533	falcóg	bhfalcóg falcóga falcóige fhalcóg
+34	8534	feoras	feorais fheorais
+35	8535	fíliginiteach	fíliginití
+36	8536	gearánaí	gearánaithe ghearánaí
+37	8537	glantachán	ghlantacháin glantacháin
+38	8538	gáma-gha	gáma-ghathanna
+39	8539	homalógach	homalógacha
+40	8540	iarratasóir	d'iarratasóirí hiarratasóirí iarratasóirí t-iarratasóir
+41	8541	ionstraimeach	ionstraimeacha
+42	8542	lascaine	lascainí
+43	8543	liotúirge	
+44	8544	miodóg	mhiodóg miodóga miodóige
+45	8545	méala	mhéala
+46	8546	neamhpholaitiúil	neamhpholaitiúla
+47	8547	gaibhnigh	gaibhnithe gaibhniú gaibhníonn gaibhnítear ghaibhnigh ghaibhniú ngaibhniú
+48	8548	paiteolaíocht	bpaiteolaíocht paiteolaíochta phaiteolaíocht
+49	8549	pastal	pastail
+50	8550	pictiúrtha	phictiúrtha
+51	8551	plúch	bplúchta phlúchta plúchann plúchta
+52	8552	rialaitheoir	rialaitheoirí
+53	8553	scarúnaí	scarúnaithe
+54	8554	siosma	shiosma siosmaí
+55	8555	slios	shleasa shlios sleasa
+56	8556	stiúg	stiúgadh stiúgtha
+57	8557	tachrán	dtachráin dtachrán tachráin thachrán
+58	8558	tomach	tomaí
+59	8559	trasfhoirmigh	thrasfhoirmiú trasfhoirmeoir trasfhoirmithe trasfhoirmíonn
+60	8560	tromluí	thromluí tromluithe
+61	8561	vearnais	vearnaise vearnaisí
+62	8562	úllord	húlloird úlloird
+63	8563	caoinchead	chaoinchead
+64	8564	iniúchóir	d'iniúchóirí hiniúchóirí iniúchóirí
+65	8565	ionphlandaigh	ionphlandaithe ionphlandú
+66	8566	talmhaíoch	talmhaíocha
+67	8567	raideolaíoch	raideolaíocha
+68	8568	análaitheoir	análaitheoirí hanálaitheoirí
+69	8569	batráil	batráilte mbatráil
+70	8570	potais	bpotais potaise
+71	8571	ceamach	ceamaí
+72	8572	teangaire	dteangairí teangairí theangaire
+73	8573	frithráiteach	fhrithráiteacha frithráiteacha
+74	8574	aonaránach	
+75	8575	atrua	
+76	8576	buanmhaighnéad	
+77	8577	ceathairshleasach	
+78	8578	claonán	claonáin
+79	8579	do-athraitheach	
+80	8580	dípholaraigh	dípholarú
+81	8581	forimeall	fhorimeall
+82	8582	féiníomhá	bhféiníomhá fhéiníomhá
+83	8583	idirchultúrtha	
+84	8584	ionchathair	ionchathrach
+85	8585	leictriceimiceach	
+86	8586	líomhadh	
+87	8587	marachuan	
+88	8588	seach-chonair	seach-chonaire
+89	8589	spícín	spícíní
+90	8590	spúinsiúil	
+91	8591	stocastach	
+92	8592	suanghalar	shuanghalar
+93	8593	sámhas	
+94	8594	sárobair	
+95	8595	tonnán	tonnáin
+96	8596	dea-scéala	
+97	8597	drochlá	
+98	8598	fimíneach	
+99	8599	liana	lianaí
+100	8600	neamhábaltacht	

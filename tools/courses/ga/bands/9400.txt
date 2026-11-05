@@ -1,0 +1,100 @@
+1	9301	imfhálaigh	imfhálaithe imfháluithe imfhálú
+2	9302	siopalann	shiopalann siopalanna
+3	9303	capaillín	capaillíní chapaillín chapaillíní gcapaillíní
+4	9304	cóc	chóc chóic cóic
+5	9305	salamandar	salamandair tsalamandair
+6	9306	sindeacáiteach	sindeacáitigh sindeacáitithe sindeacáitiú
+7	9307	aithreachas	aithreachais haithreachas
+8	9308	bastard	bastaird bastairt bhastard
+9	9309	biteicneolaíocht	bhiteicneolaíocht biteicneolaíochta
+10	9310	blás	bhláis
+11	9311	bróimíd	bhróimíd bróimíde mbróimíd
+12	9312	cliarlathas	chliarlathais chliarlathas cliarlathais
+13	9313	craobhóg	chraobhóga craobhóga
+14	9314	créachta	gcréachta
+15	9315	deimhniúchán	deimhniúcháin
+16	9316	déadach	dhéadach dhéadacha dhéadaigh déadacha
+17	9317	difreáil	difreáilte difreála
+18	9318	eiliminteach	eiliminteacha eilimintigh
+19	9319	eipideirm	eipideirme heipideirm heipideirme
+20	9320	finscéalaíocht	fhinscéalaíocht finscéalaíochta
+21	9321	fo-thacar	fothacar
+22	9322	gabhdán	gabhdáin ngabhdán
+23	9323	cartús	cartúis chartús gcartúis gcartús
+24	9324	grástúil	ghrástúil grástúla
+25	9325	imreas	t-imreas
+26	9326	línitheoir	línitheora
+27	9327	pacáistigh	bpacáistiú pacáistiú phacáistiú
+28	9328	seadaigh	seadaithe seadú sheadaigh
+29	9329	tathantaigh	tathant tathanta thathant thathantaigh
+30	9330	teilgcheárta	dteilgcheárta teilgcheártaí
+31	9331	tuairimeach	thuairimeach
+32	9332	tuaslagáit	tuaslagáite tuaslagáití
+33	9333	airchinneach	airchinnigh
+34	9334	crosáidire	crosáidirí
+35	9335	meimfís	mheimfís
+36	9336	polaiteicnic	bpolaiteicnic pholaiteicnic pholaiteicnice polaiteicnice
+37	9337	aicéatón	aicéatóin t-aicéatón
+38	9338	aontíos	
+39	9339	bunreachtúlacht	bhunreachtúlacht bunreachtúlachta
+40	9340	cardashoithíoch	cardashoithíocha
+41	9341	ceoltóireacht	ceoltóireachta cheoltóireacht
+42	9342	cnáib	chnáib cnáibe
+43	9343	comhfhad	chomhfhad
+44	9344	comhthoil	chomhthoil comhthola
+45	9345	cúirteoir	chúirteoir cúirteoirí
+46	9346	cúléist	cúléisteacht cúléisteachta
+47	9347	dosmálta	dhosmálta
+48	9348	dronairde	dhronairde
+49	9349	folúisín	folúisíní
+50	9350	fuarchúiseach	fhuarchúiseach fhuarchúiseacha
+51	9351	guainín	
+52	9352	oitir	hoitreacha oitreacha
+53	9353	inólta	
+54	9354	iomarcaíocht	iomarcaíochta
+55	9355	leanbaíocht	leanbaíochta
+56	9356	míchompordach	mhíchompordach
+57	9357	mórchóir	mhórchóir
+58	9358	eadarlúid	eadarlúidí n-eadarlúid
+59	9359	garsún	gharsún ngarsún
+60	9360	néarchill	néarcheall néarchealla
+61	9361	ordúil	
+62	9362	oth	
+63	9363	oíchí	
+64	9364	réadúlacht	réadúlachta
+65	9365	samhailchomhartha	samhailchomharthaí
+66	9366	saorghluaiseacht	saorghluaiseachta shaorghluaiseacht
+67	9367	scroidchuntar	scroidchuntair
+68	9368	amhra	t-amhra
+69	9369	éigeantas	éigeantais
+70	9370	seascadú	60ú
+71	9371	leabhar oiris	leabhar oiris
+72	9372	cléit	cléite
+73	9373	meandarach	
+74	9374	sioncrónach	
+75	9375	síollann	síollanna
+76	9376	foghéag	foghéaga
+77	9377	banaoire	bhanaoire
+78	9378	bangharda	banghardaí
+79	9379	bonnaonad	bhonnaonad
+80	9380	buthal	bhuthail bhuthal
+81	9381	capras	caprais chaprais
+82	9382	céadras	céadrais gcéadras
+83	9383	daingneán	daingneáin dhaingneáin
+84	9384	gloineadóir	gloineadóirí
+85	9385	idirbhealach	idirbhealaí
+86	9386	idircheapóir	idircheapóirí
+87	9387	síolach	síolacha
+88	9388	tothlaíocht	tothlaíochta
+89	9389	dola	dhola dolaidh dolaí
+90	9390	coiréal	coiréil gcoiréal
+91	9391	ospís	hospíse ospíse
+92	9392	cánóg	chánóg cánóga gcánóg
+93	9393	cainneon	cainneoin chainneoin gcainneon
+94	9394	babhtáil	babhtála babhtálacha bhabhtáil mbabhtálfaí
+95	9395	durlas	dhurlas durlais ndurlas
+96	9396	aidriad	
+97	9397	garbhánach	
+98	9398	líoma	líomaí
+99	9399	boirinn	bhoirinn
+100	9400	iomrascálach	b'iomrascálaí iomrascálaithe iomrascálaí

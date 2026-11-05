@@ -1,0 +1,100 @@
+1	1901	deichiú	10ú dheichiú ndeichiú
+2	1902	comhréir	chomhréir chomhréire comhréire comhréireanna gcomhréir gcomhréire
+3	1903	stoc	stoic
+4	1904	bogadh	bogtha
+5	1905	rás	ráis rása rásaithe rásaí
+6	1906	praghas	bpraghas bpraghsanna phraghais phraghas phraghsanna praghais praghsanna
+7	1907	éacht	d'éacht d'éachtaí héacht héachtaí n-éacht n-éachtaí t-éacht éachta éachtaí
+8	1908	gnéas	ghnéas ghnéis gnéasanna gnéis ngnéas ngnéasanna
+9	1909	seanchas	seanchais sheanchas tseanchais tseanchas
+10	1910	réabhlóideach	réabhlóideacha réabhlóidigh réabhlóidithe réabhlóidí
+11	1911	misean	mhisean mhisin misin
+12	1912	comhcheilg	chomhcheilg chomhcheilge comhchealga comhcheilge gcomhchealga gcomhcheilg
+13	1913	díoltas	dhíoltas díoltais ndíoltas
+14	1914	géarchéim	ghéarchéim ghéarchéime ghéarchéimeanna géarchéime géarchéimeanna ngéarchéim
+15	1915	drong	dhroinge dhrong dhronga droinge dronga dronganna ndrong
+16	1916	magadh	magaidh mhagadh mhagaidh
+17	1917	forghabh	bhforghabhfadh d'fhorghabh d’fhorghabh fhorghabh fhorghabháil fhorghafa forghabhadh forghabháil forghafa
+18	1918	seánra	seánraí sheánra sheánraí tseánra
+19	1919	croch	chroch chrochadh chrochann chrochfaí chrochtar chrochtaí chroich crochadh crochann crochtar croiche gcroch gcrochadh gcrochfadh gcrochfaí
+20	1920	iontráil	d'iontráil d'iontrála d’iontráil hiontrála hiontrálacha iontrála iontrálacha n-iontráil n-iontrálacha
+21	1921	fán	bhfán d'fhán d’fhán fháin fhán fá'n fáin
+22	1922	los	losa
+23	1923	éigeandáil	héigeandála héigeandálaí éigeandála éigeandálaí
+24	1924	tréig	dtréigfeadh dtréigfidh thréig thréigeadh thréigeann thréigtear tréigeadh tréigeann
+25	1925	taisce	dtaisce dtaiscí taiscí thaisce thaiscí
+26	1926	iarratas	d'iarratais d'iarratas d’iarratais d’iarratas hiarratais hiarratas iarratais n-iarratais n-iarratas t-iarratas
+27	1927	scoith	scoite scoitear scoitheadh scoitheann
+28	1928	reiligiúnach	reiligiúnacha reiligiúnaigh reiligiúnaí
+29	1929	tairbhe	dtairbhe tairbhí thairbhe thairbhí
+30	1930	úrscéalaí	b'úrscéalaí d'úrscéalaithe húrscéalaithe t-úrscéalaí úrscéalaithe
+31	1931	leac	leaca leacain leacan leic leice leicne lice
+32	1932	mealladh	mhealladh
+33	1933	baisteadh	bhaisteadh
+34	1934	comhad	chomhad chomhaid comhaid gcomhad gcomhaid
+35	1935	ceirnín	ceirníní cheirnín cheirníní gceirnín gceirníní
+36	1936	innealtóireacht	hinnealtóireacht hinnealtóireachta innealtóireachta
+37	1937	dúbailte	dhúbailte dúbalta
+38	1938	náire	náirí
+39	1939	dealramh	dealraimh dealrú dhealramh ndealramh
+40	1940	eagrú	heagrú n-eagrú
+41	1941	cothaigh	chothaigh chothaithe chothaíodh chothaíonn chothaítear chothódh cothaithe cothaíodh cothaíonn cothaítear cothófar gcothaíonn gcothaítear gcothódh gcothófaí
+42	1942	guthaigh	ghuthaigh ghuthaíonn ghuthú guthaithe guthaíonn guthú nguthú
+43	1943	cách	chách cáich
+44	1944	ficheall	bhficheall bhfichille fhicheall fhichille fichill fichille
+45	1945	tearmann	dtearmainn dtearmann tearmainn thearmainn thearmann
+46	1946	comhghuaillíocht	chomhghuaillíocht chomhghuaillíochta comhghuaillíochta comhghuaillíochtaí gcomhghuaillíocht gcomhghuaillíochtaí
+47	1947	coir	choir coireanna gcoir gcoireanna
+48	1948	clúiteach	chlúiteach chlúiteacha chlúitigh chlúití clúiteacha clúití
+49	1949	oighear	d'oighear d’oighear hoighear oighir t-oighear
+50	1950	fiáin	bhfiáin fhiáin fhiáine fiain fiáine
+51	1951	tubaiste	dtubaiste dtubaistí thubaiste thubaistí tubaistí tubáiste
+52	1952	oil	b'oilte d’oil d’oileadh hoileadh hoilte n-oileann oile oileadh oilte oiltear
+53	1953	gnáthóg	ghnáthóg ghnáthóga ghnáthóige gnáthóga gnáthóige ngnáthóg ngnáthóga ngnáthóige
+54	1954	feiniméan	bhfeiniméan bhfeiniméin d'fheiniméin feiniméin fheiniméan fheiniméin
+55	1955	mamach	maimín mamacha mamaigh mamaí mhamach mhamacha mhamaigh mhamaí
+56	1956	ramhar	raimhre ramhair ramhra
+57	1957	teangeolaí	dteangeolaithe teangeolaithe theangeolaithe theangeolaí
+58	1958	meon	meoin mheoin mheon
+59	1959	rince	rincí
+60	1960	próis	bpróis phróis próise próiseanna
+61	1961	buamáil	bhuamáil bhuamála bhuamálann buamála buamáladh mbuamáil
+62	1962	stampa	stampaí
+63	1963	tuar	dtuar dtuartha thuar thuaradh thuaraim thuarann tuair tuaradh tuaraim tuarann tuartha
+64	1964	fís	bhfís d'fhís d’fhís fhís fhíse fhíseanna físe físeanna
+65	1965	figiúr	bhfigiúirí bhfigiúr fhigiúir fhigiúirí fhigiúr figiúir figiúirí
+66	1966	léaráid	léaráide léaráidí
+67	1967	drámaíocht	dhrámaíocht dhrámaíochta drámaíochta ndrámaíocht
+68	1968	ocsaíd	d'ocsaíd hocsaíd hocsaíde hocsaídí n-ocsaídí ocsaíde ocsaídí
+69	1969	láithreoir	láithreoirí láithreora
+70	1970	léiritheoir	léiritheoirí léiritheora
+71	1971	feirmeoireacht	bhfeirmeoireacht d'fheirmeoireacht feirmeoireachta fheirmeoireacht
+72	1972	stoirm	stoirme stoirmeach stoirmeacha
+73	1973	áras	b’árais d'áras d’áras fáras hárais háras n-áras t-áras árais
+74	1974	céasadh	chéasadh chéasta céasta gcéasadh
+75	1975	úinéireacht	húinéireacht húinéireachta úinéireachta
+76	1976	comhlíonadh	chomhlíonadh gcomhlíonadh
+77	1977	maoiniú	mhaoiniú
+78	1978	léas	léasa léasacha léasadh léasair léasanna léis léise
+79	1979	caillte	chaillte
+80	1980	substaint	shubstaint shubstaintí substainte substaintí tsubstaint
+81	1981	eol	b'eol heol n-eol
+82	1982	tarrtháil	dtarrtháil dtarrthála tarrthála tarrtháladh tarrthálann tharrtháil tharrthála
+83	1983	ordaigh	d'ordaigh d'ordaíodh d’ordaigh hordaíodh n-ordaíonn n-ordaítear ordaím ordaíodh ordaíonn ordaítear ordófar
+84	1984	gort	ghoirt ghort goirt goirte ngoirt ngort
+85	1985	tréan	dtréan thréan thréine tréana tréine
+86	1986	ithir	d'ithir d'ithreacha hithir hithreach hithreacha ithreach ithreacha
+87	1987	calafort	calafoirt chalafoirt chalafort gcalafoirt gcalafort
+88	1988	cóipcheart	chóipcheart chóipchirt cóipchearta cóipchirt gcóipcheart
+89	1989	teir	their
+90	1990	mothúchán	mhothúcháin mhothúchán mothúcháin
+91	1991	sciathán	sciatháin
+92	1992	gair	gaireadh gaireann gairtear gairthe ghair ghaireadh ghaireann ghaireas ghairim ghairis ngaireadh ngairfeadh ngairfí ngairtear ngairtí
+93	1993	bialann	bhialann bhialanna bialainne bialanna mbialann mbialanna
+94	1994	oráiste	horáistí oráistí t-oráiste
+95	1995	dall	daill daille dalla dalladh dallta dhaill dhall dhalla dhalladh ndall
+96	1996	uafás	huafáis huafás n-uafás t-uafás uafáis uathbhás
+97	1997	scar	scaradar scarann scarfadh scarfaidís scartar scarúint
+98	1998	uillinn	d'uillinn huillinn huillinne huillinneacha n-uillinneacha uilinn uille uilleann uilleannacha uillinne uillinneacha
+99	1999	reifreann	reifrinn
+100	2000	seach	seacha

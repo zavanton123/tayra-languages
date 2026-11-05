@@ -1,0 +1,100 @@
+1	501	anuas	
+2	502	long	loing loinge longa luing luinge
+3	503	toisc	dtosca thosca tosca
+4	504	tógáil	dtógáil dtógála thógaint thógáil thógála tógaint tógála tógálacha
+5	505	mair	maire maireadh maireann mairfeadh mairfidh mairfimis mairfir mairidh mairimid mairimis mhair mhaireadh mhaireann mhairfeadh mhairfidh mhairidís mhartha
+6	506	íomhá	d'íomhá d'íomhánna d’íomhá d’íomhánna híomhá híomhánna n-íomhá n-íomhánna t-íomhá íomhánna
+7	507	ocras	hocras n-ocras ocrais t-ocras
+8	508	troid	dtroid dtroideann dtroideanna dtroidfeadh dtroidfidís throda throid throideadar throideadh throideamar throideann throidfeadh troda troide troideadh troideann troideanna troidfidh troidfimid troidte troidtear
+9	509	iarthar	d'iarthar d’iarthar hiarthar iarthair n-iarthar niarthar t-iarthar tiarthar
+10	510	ealaín	d'ealaín d'ealaíon d’ealaín d’ealaíon ealadha ealaíne ealaíon ealaíona healaín healaíne healaíon healaíona n-ealaín n-ealaíon n-ealaíona
+11	511	oifig	d'oifig d'oifigí d’oifig hoifig hoifige hoifigí n-oifigí oifige oifigí
+12	512	cor	choirne chor chora chorainn chorann choras choraí coir coirne cora coradh coraidh corainn corann coraí cortha corthaí gcor gcora
+13	513	cum	chum chumadh chumaidís chumfadh chumtar chumtha cumadh cumtar gcumadh gcumfadh
+14	514	snámh	shnámh shnámha shnámhann snámha snámhann tsnámha
+15	515	dar	
+16	516	filíocht	bhfilíocht d'fhilíocht d’fhilíocht fhilíocht fhilíochta filidheacht filíochta
+17	517	ceannaire	ceannairí cheannaire cheannairí chinnire chinnirí cinnire cinnirí gceannaire gceannairí gcinnirí
+18	518	imir	d'imir d'imreodh d'imríodar d'imríodh d'imrítí d’imir d’imríodar d’imríodh d’imrítí himir himríodh imreodh imreofar imreoidh imríodar imríodh imríonn imrítear n-imreodh n-imreofaí n-imríonn n-imrítear
+19	519	athraigh	athraithe athraíodh athraíonn athraítear athruigh athródh athrófar athróidh d'athraigh d'athraíodh d'athraíos d'athródh d'athrú d’athraigh d’athraíodh d’athrú hathraigh hathraithe hathraíodh hathrú n-athraigh n-athraithe n-athraíonn n-athraítear n-athródh n-athrófar n-athrófaí n-athróidh
+20	520	fuar	b'fhuar fhuair fhuaire fhuar fhuara fuaire fuara
+21	521	te	teo teocha theo
+22	522	bróg	bhróg bhróga bhróig bróga bróig bróige mbróg mbróga mbróig
+23	523	gar	gair gaire gara ghaire ghar neasa ngaire ngar
+24	524	uimhir	d'uimhir d'uimhreacha huimhir huimhreach huimhreacha n-uimhir n-uimhreach n-uimhreacha uimhreach uimhreacha
+25	525	pós	bpósadh bpósann bpósfadh bpósfaidh bpósfaí phós phósadar phósadh phósann phósfadh phósfaidh phósfaidís pósann pósfaidh
+26	526	smaoineamh	smaoinimh smaointe
+27	527	leigheas	leigheasa leigheasadh leigheasann leigheasanna leigheasfadh leigheasfaidh leigheasfar leigheasfaí leigheasta leigheastar leighis
+28	528	suntasach	shuntasach shuntasacha shuntasaí suntasacha suntasaigh suntasaí
+29	529	páirc	bpáirc bpáirce bpáirceanna pháirc pháirce pháirceanna páirce páirceanna
+30	530	ciall	chiall chéille cialla céille gciall gcéill
+31	531	nuachtán	nuachtáin
+32	532	tiarna	dtiarna dtiarnaí dtighearna thiarna thiarnaí tiarnaí tighearna tigherna
+33	533	balla	ballaí bhalla bhallaí bhfalla falla mballa mballaí
+34	534	bosca	bhosca bhoscaí boscaí mbosca mboscaí
+35	535	sóisialta	shóisialta
+36	536	fógair	bhfógair bhfógraíodh bhfógraíonn bhfógródh bhfógrófar bhfógrófaí d'fhógair d'fhógraíodh d’fhógair fhógair fhógairt fhógraíonn fhógraítear fógairt fógartha fógraím fógraímid fógraíodh fógraíonn fógraítear fógrófar fógróidh fógróirí
+37	537	réimse	réimsí
+38	538	áirigh	d'áireofaí d'áirigh d'áirítí d’áirigh d’áirítí n-áireofar n-áireofaí n-áiríodh n-áiríonn n-áirítear áireofar áirím áiríodh áiríonn áirítear áirítí
+39	539	tine	dtine dtinte teine thine thinte tineadh tinte
+40	540	bainne	bhainne mbainne
+41	541	dócha	dhócha dhóichí dóiche dóichí
+42	542	áireamh	háireamh n-áireamh t-áireamh áirimh
+43	543	sráidbhaile	shráidbhaile shráidbhailte sráidbhailte tsráidbhaile
+44	544	eolaíocht	d'eolaíocht d’eolaíocht eolaíochta eolaíochtaí heolaíocht heolaíochta heolaíochtaí n-eolaíochtaí
+45	545	ré	réanna réite
+46	546	b'fhéidir	mb'fhéidir mb’fhéidir
+47	547	sliocht	shleachta shliocht sleachta tsleachta
+48	548	fáinne	bhfáinne bhfáinní d'fháinne fháinne fháinní fáinní
+49	549	údarás	d'údaráis d'údarás d’údaráis d’údarás húdaráis húdarás n-údaráis n-údarás núdarás t-údarás túdarás udaras údaráis
+50	550	imigh	d'imeodh d'imigh d’imigh d’imíodh imeoidh imithe imíodh imíonn imís n-imeodh n-imeoidh n-imíodh n-imíonn
+51	551	eipeasóid	d'eipeasóidí eipeasóide eipeasóidí heipeasóid heipeasóide heipeasóidí n-eipeasóid n-eipeasóidí
+52	552	fill	bhfilleann bhfillfeadh bhfillfear bhfillfidh bhfillfidís bhfilltear d'fhill d'fhilleadar d'fhillfeadh d'fhillfidís d’fhill d’fhilleadar d’fhilleadh d’fhillfeadh fhill fhille fhilleadar fhilleadh fhilleann fhillfidh fhillte fhilltear fille filleann fillfidh fillte filltí till
+53	553	eagla	heagla
+54	554	leabharlann	leabharlainne leabharlanna
+55	555	canúint	canamhaint canúintí canúna canúnacha chanúint chanúintí chanúna gcanúint gcanúintí gcanúna
+56	556	craobh	chraobh chraoibhe craobha craoibh craoibhe gcraobh gcraobhacha
+57	557	maigh	magh maighe maighne mhagh mhaigh mhaighe mhá mhánna máigh mánna
+58	558	luaigh	luadar luafaidh luafar luafaí luaite luaitear luaití luann
+59	559	cló	chló clóite clónna gcló
+60	560	galar	galair galra ghalair ghalar ngalair ngalar
+61	561	glaoigh	ghlao ghlaodh ghlaofadh ghlaofaí ghlaoigh ghlaoimid ghlaoite ghlaoitear ghlaoití ghlaonn ghlaonna glao glaodh glaofar glaoimid glaoite glaoitear glaoití glaonn glaonna nglao nglaodh nglaoitear nglaoití nglaonn nglaonna
+62	562	siopa	shiopa shiopaí siopaí tsiopa
+63	563	marú	maruithe mharú
+64	564	oiread	d'oiread d’oiread hoiread n-oiread
+65	565	deisceart	deiscirt dheisceart ndeisceart ndeiscirt
+66	566	toghchán	dtoghcháin dtoghchán thoghcháin thoghchán toghcháin
+67	567	méadaigh	mhéadaigh mhéadaithe mhéadaíodar mhéadaíodh mhéadaíonn mhéadaítear mhéadódh mhéadófaí mhéadóidh mhéadú méadaithe méadaíodh méadaíonn méadaítear méaduithe méadódh méadófar méadófaí méadóidh méadú
+68	568	croí	chroí chroíthe cridhe croidhe croíthe gcroí gcroíthe
+69	569	planda	bplanda bplandaí phlanda phlandaí plandaí planta
+70	570	carachtar	carachtair charachtair charachtar gcarachtair gcarachtar
+71	571	tacaíocht	dtacaíocht dtacaíochta dtacaíochtaí tacaíochta tacaíochtaí thacaíocht thacaíochta
+72	572	leanbh	leanaí linbh
+73	573	liosta	liostaí
+74	574	saighdiúir	saighdiúirí saighdiúra shaighdiúir shaighdiúirí tsaighdiúir tsaighdiúra
+75	575	hé	
+76	576	táirgeadh	dtáirge dtáirgeadh dtáirgí tháirge tháirgeadh tháirgí táirge táirgí
+77	577	cnoc	chnoc chnoic chnuic cnoic gcnoc gcnoic
+78	578	codladh	chodladh chodlata codlata gcodladh
+79	579	ciallaigh	chiallaigh chiallaíonn chiallaíos chiallódh chiallú ciallaímid ciallaíonn ciallú gciallaíonn gciallódh gciallú
+80	580	chóir	
+81	581	scríofa	scríobhtha
+82	582	paróiste	bparóiste bparóistí paróistí pharóiste pharóistí
+83	583	aistrigh	aistreofar aistreofaí aistrithe aistrím aistríodh aistríonn aistríos aistrítear d'aistrigh d'aistríodh d’aistreofaí d’aistrigh d’aistríodar d’aistríodh haistrigh haistrithe haistríodh n-aistreodh n-aistreofar n-aistreofaí n-aistreoidh n-aistríonn n-aistrítear
+84	584	beatha	beathaidh beathaí bheatha bheathaí mbeatha mbeathaí
+85	585	ós	
+86	586	foirgneamh	bhfoirgneamh bhfoirgnimh d'fhoirgneamh d'fhoirgnimh d’fhoirgneamh d’fhoirgnimh fhoirgneamh fhoirgnimh foirgnimh
+87	587	cloch	chloch chlocha chloiche clocha cloich cloiche gcloch gclocha gcloich
+88	588	caoi	chaoi gcaoi
+89	589	bunúsach	bhunúsach bhunúsacha bhunúsaigh bhunúsaithe bhunúsaí bunúsacha bunúsaigh bunúsaithe bunúsaí mbunúsaithe
+90	590	amuigh	
+91	591	tuath	dtuaithe dtuath dtuatha thuaithe thuath thuatha tuaith tuaithe tuatha
+92	592	próiseas	bpróiseas bpróisis phróiseas phróisis próisis
+93	593	leibhéal	leibhéaladh leibhéalta leibhéil
+94	594	cead	ceada ceadanna ceid chead cheada gcead
+95	595	amhlaidh	b'amhlaidh b’amhlaidh hamhlaidh
+96	596	ceathrú	4ú ceathramha ceathrún ceathrúna cheathrú cheathrún cheathrúna gceathrú gceathrúna
+97	597	glúin	ghlúin ghlúine ghlún glúine glún glúnta nglúin nglúine nglún
+98	598	taifead	dtaifead dtaifeadadh dtaifeadfaí dtaifeadtaí dtaifid taifeada taifeadadh taifeadann taifeadta taifeadtar taifeadtaí taifid thaifead thaifeadadh thaifeadann thaifeadta thaifeadtar thaifeadtaí thaifid
+99	599	teoiric	dteoiric dteoiricí teoirice teoiricithe teoiricí theoiric theoirice theoiricí
+100	600	seoladh	seolta seoltaí sheoladh sheolta tseolta

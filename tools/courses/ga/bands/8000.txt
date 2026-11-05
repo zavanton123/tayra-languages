@@ -1,0 +1,100 @@
+1	7901	dúlaigh	dhúlaigh
+2	7902	moingfhionn	moingfhinne
+3	7903	bolla	bhollaí bollaí
+4	7904	idéalaí	idéalaithe n-idéalaí
+5	7905	imphléasc	imphléascadh
+6	7906	gaothuirlis	gaothuirlisí ghaothuirlis
+7	7907	manchúrach	manchúraigh mhanchúrach
+8	7908	foghlaíocht	bhfoghlaíocht fhoghlaíocht foghlaíochta
+9	7909	frídeoir	bhfrídeoir frídeoirí
+10	7910	gild	ghild gildeanna ngild
+11	7911	micreaphróiseálaí	mhicreaphróiseálaithe mhicreaphróiseálaí micreaphróiseálaithe
+12	7912	crómatach	
+13	7913	doléite	
+14	7914	díthiomsúchán	díthiomsúcháin
+15	7915	forchur	fhorchur
+16	7916	mallachtach	mallachtaí
+17	7917	marbhánta	mharbhánta
+18	7918	ocrach	ocracha
+19	7919	rómhall	
+20	7920	sliogánach	shliogánacha
+21	7921	trasfhreagróir	trasfhreagróirí trasfhreagróra
+22	7922	stórchiste	
+23	7923	ardtiarna	ardtiarnaí
+24	7924	athchum	athchuma athchumadh athchumann hathchumadh
+25	7925	paidreoireacht	bpaidreoireacht paidreoireachta
+26	7926	cló-aghaidh	chló-aghaidheanna cló-aghaidheanna gcló-aghaidheanna
+27	7927	comhghéilleadh	chomhghéilleadh
+28	7928	crannach	crannacha
+29	7929	fonnadóir	fhonnadóir fhonnadóirí fonnadóirí
+30	7930	gaolmhaireacht	gaolmhaireachta gaolmhaireachtaí ghaolmhaireacht ghaolmhaireachtaí
+31	7931	glantach	ghlantaigh glantaigh
+32	7932	ógchiontóir	hógchiontóirí n-ógchiontóirí ógchiontóirí
+33	7933	iomarbhá	iomarbhágh iomarbháigh iomarbhánna
+34	7934	méarlorg	mhéarloirg méarloirg
+35	7935	neamhionannas	neamhionannais
+36	7936	póit	póite
+37	7937	séad	shéad
+38	7938	ard-stiúrthóir	ard-stiúrthóra tard-stiúrthóir
+39	7939	pobalscoil	bpobalscoil phobalscoil
+40	7940	scadán	scadáin
+41	7941	gadhar	gadhair ghadhair ghadhar ngadhar
+42	7942	drochaimsir	dhrochaimsir drochaimsire ndrochaimsir
+43	7943	carrchlós	charrchlóis charrchlós gcarrchlós
+44	7944	focleolaí	fhocleolaí
+45	7945	píblíne	bpíblíne phíblíne phíblínte píblínte
+46	7946	ailceimic	ailceimice hailceimice
+47	7947	caiteoir	caiteoirí caiteora chaiteoir chaiteoirí chaiteora gcaiteoir
+48	7948	cruicéadaí	chruicéadaí
+49	7949	gníomhaíoch	ghníomhaígh ghníomhaíoch
+50	7950	láraigh	láraithe lárú
+51	7951	mósáic	mhósáic mósáice mósáicí
+52	7952	so-aitheanta	sho-aitheanta
+53	7953	caisp	chaisp
+54	7954	foiche	fhoiche foichí fothach
+55	7955	seirbheáil	seirbheáilte seirbheáiltear seirbheála sheirbheáil sheirbheáiltear
+56	7956	síciatracht	síciatrachta tsíciatracht
+57	7957	aicéiteach	aicéitigh
+58	7958	aosach	aosacha
+59	7959	compord	chompord gcompord
+60	7960	cosmeolaíocht	chosmeolaíocht cosmeolaíochta gcosmeolaíocht
+61	7961	ciúine	chiúine
+62	7962	clárúchán	chlárúcháin chlárúchán clárúcháin
+63	7963	foráiste	fhoráiste
+64	7964	clapsholas	chlapsholais chlapsholas clapsholais gclapsholas
+65	7965	glic	ghlic glice
+66	7966	ionphlasmach	ionphlasmaigh ionphlasmaí
+67	7967	leipreachán	leipreacháin
+68	7968	sleamhnaigh	shleamhnaigh shleamhnaíonn sleamhnaithe sleamhnaíodh sleamhnaíonn
+69	7969	slabhrúil	slabhrúla
+70	7970	soghluaisteacht	shoghluaisteacht soghluaisteachta tsoghluaisteacht
+71	7971	stocmhargadh	stocmhargaidh stocmhargaí
+72	7972	aorta	t-aorta
+73	7973	oismiam	hoismiam t-oismiam
+74	7974	talamhiata	thalamhiata
+75	7975	triúcha	
+76	7976	greas	dreas dreasa
+77	7977	crúcach	crúcacha
+78	7978	naprún	aprún naprúin
+79	7979	cumhal	cumhail gcumhal
+80	7980	meaitseáil	meaitseála mheaitseáil mheaitseálann
+81	7981	aeráil	aerála
+82	7982	ceirtleán	ceirtleáin
+83	7983	ceantrach	cheantracha
+84	7984	clólann	chlólann gclólann
+85	7985	cáilitheoir	cháilitheoir cáilitheoirí
+86	7986	drochthoradh	drochthorthaí
+87	7987	hipí	hipithe
+88	7988	mangaireacht	mhangaireacht
+89	7989	mogalra	mhogalra
+90	7990	muise	muis
+91	7991	mífholláin	mhífholláin mífholláine
+92	7992	mígréin	mhígréin mígréine
+93	7993	míshocair	
+94	7994	neamhghlórach	neamhghlóraigh
+95	7995	nithiúil	nithiúla
+96	7996	saormhargadh	saormhargaidh saormhargaí tsaormhargaidh
+97	7997	suiríoch	suirígh
+98	7998	tuarthóir	thuarthóir thuarthóirí tuarthóirí
+99	7999	trambhealach	thrambhealach trambhealaigh
+100	8000	tranglam	thranglam

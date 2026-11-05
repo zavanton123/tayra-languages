@@ -1,0 +1,100 @@
+1	7201	ráithín	ráithíní
+2	7202	ailíniú	t-ailíniú
+3	7203	ateangaire	ateangairí hateangaire t-ateangaire
+4	7204	ducht	dhuchtanna duchtanna nduchtanna
+5	7205	strainséir	strainséirí stróinséir
+6	7206	trasatlantach	thrasatlantach trasatlantacha
+7	7207	éiclipteach	t-éiclipteach éicliptigh
+8	7208	iarlacht	d'iarlacht hiarlacht hiarlachta
+9	7209	bligh	bleán
+10	7210	tibir	tibire
+11	7211	crúca	chrúcaí crúcaí
+12	7212	dlúthcheangal	dlúthcheangail ndlúthcheangal
+13	7213	neamhbhásmhaireacht	neamhbhásmhaireachta
+14	7214	saincheap	saincheaptha shaincheapadh
+15	7215	scarlóideach	scarlóideacha
+16	7216	aidréineach	aidréineacha aidréiní
+17	7217	murúch	mhurúch mhurúcha muruach murúcha
+18	7218	túsphointe	thúsphointe túsphointí
+19	7219	meann	mheann minn
+20	7220	dícheallach	
+21	7221	itéirbiam	t-itéirbiam
+22	7222	láidrigh	láidreofaí láidriú
+23	7223	reoigh	reoitear reonn
+24	7224	scéalaigh	scéalaithe
+25	7225	míchuma	mhíchuma míchumaí
+26	7226	deascán	deascáin ndeascáin
+27	7227	soiscéalaigh	soiscéalaithe soiscéalú
+28	7228	bollán	bholláin bhollán bolláin
+29	7229	breochloch	bhreochloiche breochlocha breochloiche
+30	7230	fabhalscéal	fabhalscéalta fhabhalscéil
+31	7231	inteachán	hinteacháin inteacháin t-inteachán
+32	7232	luadrach	luadracha
+33	7233	raiméis	raiméise ráiméis ráiméise
+34	7234	scálach	scálacha scálaigh scálaithe scálú
+35	7235	brocailí	
+36	7236	foinsigh	bhfoinsiú fhoinsigh fhoinsiú
+37	7237	floscdhlús	
+38	7238	inarb	
+39	7239	lagmheasartha	
+40	7240	murdaróir	murdaróirí
+41	7241	ainimh	ainimhe
+42	7242	armadailín	t-armadailín
+43	7243	síochánachas	síochánachais tsíochánachais
+44	7244	transam	transaim
+45	7245	aerchór	aerchóir
+46	7246	comhainmneach	chomhainmneach gcomhainmnigh
+47	7247	íle	
+48	7248	ardmhaor	ardmhéara
+49	7249	monaróir	mhonaróir mhonaróirí monaróirí
+50	7250	aiteach	aiteacha aitigh aití
+51	7251	rámhaíocht	rámhaíochta
+52	7252	éimear	eimear
+53	7253	móinéar	mhóinéir móinéir
+54	7254	spor	spoir spur
+55	7255	aerloingseoireacht	aerloingseoireachta haerloingseoireachta
+56	7256	athartha	
+57	7257	géinitic	ghéinitic géinitice ngéinitic
+58	7258	móinteach	mhóinteach mhóinteacha móintigh
+59	7259	éagobhsaíocht	d'éagobhsaíocht héagobhsaíocht héagobhsaíochta éagobhsaíochta
+60	7260	cuarán	chuarán cuaráin
+61	7261	tóraigh	thóraigh tóraithe
+62	7262	créacht	chréacht créachtaí gcréacht gcréachtaí
+63	7263	gaois	gaoise ghaois ngaois
+64	7264	scamhógach	scamhógacha
+65	7265	séiplíneach	shéiplíneach
+66	7266	saingeal	saingil tsaingil
+67	7267	éilligh	héilliú éillithe
+68	7268	míorúilteach	mhíorúilteach mhíorúilteacha míorbhúilteach míorúilteacha míorúiltí
+69	7269	coirm	choirme coirme coirmeacha gcoirmeacha
+70	7270	bricín	bhricín
+71	7271	claonroinnt	chlaonroinnt claonroinnte
+72	7272	hailíd	hailíde hailídí
+73	7273	innéacsaigh	innéacsaithe innéacsaítear innéacsú
+74	7274	néata	
+75	7275	radathonn	radathonnta
+76	7276	taifeach	dtaifeach thaifeach
+77	7277	órchloch	
+78	7278	iomad	hiomad
+79	7279	miach	
+80	7280	mílítheach	mhílítheach mílítheacha
+81	7281	brabach	bhrabach
+82	7282	closamharc	chlosamhairc closamhairc
+83	7283	easpónantúil	heaspónantúil
+84	7284	síog	shíoga síge síoga tsíog
+85	7285	síscéal	shíscéal shíscéalta síscéalta
+86	7286	treoirleabhar	threoirleabhar treoirleabhair
+87	7287	air	airid airidh airsean
+88	7288	ceanndána	cheanndána
+89	7289	ciondáil	chiondáil ciondála ciondálacha gciondáil
+90	7290	analach	
+91	7291	nimhiúlacht	
+92	7292	fisicí	bhfisicí fisicithe
+93	7293	caogadú	50ú chaogadú
+94	7294	athscríbhinn	athscríbhinne
+95	7295	liathróidín	liathróidíní
+96	7296	iarfhocal	hiarfhocal n-iarfhocal
+97	7297	pluiméir	phluiméir pluiméirí
+98	7298	picnic	bpicnic phicnic picnice
+99	7299	barócach	barócacha bharócach
+100	7300	smionagar	smionagair

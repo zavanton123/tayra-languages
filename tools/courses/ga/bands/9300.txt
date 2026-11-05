@@ -1,0 +1,100 @@
+1	9201	buircíne	bhuircíne mbuircíne
+2	9202	caolán	caoláin chaoláin gcaolán
+3	9203	geoiteirmeach	geoiteirmeacha gheoiteirmeach gheoiteirmeacha
+4	9204	tumoideachas	thumoideachas tumoideachais
+5	9205	scuid	scuide scuideanna
+6	9206	siúlóir	shiúlóir shiúlóirí siúlóirí
+7	9207	fo-ilchríoch	bhfo-ilchríoch fho-ilchríoch fo-ilchríche
+8	9208	cineamatagrafaíocht	chineamatagrafaíocht chineamatagrafaíochta cineamatagrafaíochta gcineamatagrafaíocht
+9	9209	aimhleas	aimhleasa n-aimhleas
+10	9210	ceirt	ceirteacha cheirt gceirteacha
+11	9211	monarcach	monarcacha monarcaigh
+12	9212	táirgiúil	tháirgiúil tháirgiúla táirgiúla
+13	9213	brod	broda
+14	9214	crobh	croibh croibhe
+15	9215	láma	lámaí
+16	9216	meirvínseach	meirvínsigh
+17	9217	nua-chaladóin	nua-chaladóine
+18	9218	príomh-aoire	phríomh-aoire
+19	9219	rabhartach	rabhartaigh
+20	9220	scot	scoit
+21	9221	táidsícis	táidsícise
+22	9222	ursain	hursain ursa
+23	9223	ainneonach	ainneonacha
+24	9224	aiseach	aiseacha
+25	9225	anghrách	anghrácha
+26	9226	aonadach	aonadacha
+27	9227	fuascailteoir	bhfuascailteoirí fhuascailteora
+28	9228	bunchnoc	bhunchnoc bhunchnoic bunchnoic
+29	9229	blasta	bhlasta
+30	9230	carcanaigin	carcanaiginí
+31	9231	cillbhalla	cillbhallaí
+32	9232	críochnaitheach	chríochnaitheach críochnaitheacha
+33	9233	cíotóisín	chíotóisín
+34	9234	cóimhéid	chóimhéid
+35	9235	dearbhchló	dearbhchlónna dhearbhchló
+36	9236	dobharshaothrú	dobharshaothraithe
+37	9237	eascaine	eascainí
+38	9238	faraing	bhfaraing farainge fharaing
+39	9239	firéad	firéid
+40	9240	gaschill	gascheall gaschealla gaschille
+41	9241	clóca	chlóca gclócaí
+42	9242	coirloscadh	coirloiscthe gcoirloscadh
+43	9243	gealtacht	gealtachta ghealtacht ghealtachta ngealtacht
+44	9244	aralt	arailt haralt
+45	9245	iathchloch	d'iathchloch hiathchlocha hiathchloiche iathchloiche
+46	9246	infeireas	hinfeiris infeiris
+47	9247	leama	leamaí
+48	9248	leictridhiúltacht	leictridhiúltachta
+49	9249	lindéar	lindéir
+50	9250	bithlonracht	bhithlonracht mbithlonracht
+51	9251	modhnóir	mhodhnóir modhnóirí
+52	9252	monacrómatach	monacrómatacha
+53	9253	neamhrialtacht	neamhrialtachtaí
+54	9254	ocsaigéad	ocsaigéid
+55	9255	oighrigh	oighrithe
+56	9256	pearóid	pearóidí phearóidí
+57	9257	puth	phuth
+58	9258	pionna	phionnaí pionnaí
+59	9259	ropaire	rapaire ropairí
+60	9260	réalaí	réalaithe
+61	9261	réamhscoil	réamhscoile
+62	9262	róbó	róbónna
+63	9263	róst	róstadh
+64	9264	sainchúram	sainchúraim shainchúram
+65	9265	scáthlán	scáthláin
+66	9266	seafóideach	seafóideacha
+67	9267	seanchaite	sheanchaite
+68	9268	seasc	
+69	9269	simplíocht	shimplíocht simplíochta tsimplíocht
+70	9270	spraeáil	spraeála spraeáladh
+71	9271	tnáith	thnáitheadh tnáite tnáitheadh
+72	9272	topagrafach	thopagrafach topagrafacha
+73	9273	triológ	thriológ
+74	9274	uiscedhíonach	uiscedhíonacha
+75	9275	veicteoireach	veicteoireacha
+76	9276	áith	háithe áitheanna
+77	9277	éastraigin	héastraigin éastraigine
+78	9278	ógfhear	
+79	9279	neamhéifeachtach	neamhéifeachtacha
+80	9280	soláthróir	soláthróirí soláthróra
+81	9281	urdais	
+82	9282	fochra	fochraí
+83	9283	athráiteach	athráiteacha
+84	9284	claontuairim	chlaontuairimí claontuairimí
+85	9285	náireach	náireacha náirí
+86	9286	fionnghlas	fhionnghlais fhionnghlaise fhionnghlas
+87	9287	spéaclaí	
+88	9288	beochantóir	beochantóirí
+89	9289	lonrachas	lonrachais
+90	9290	gad	gada ghad
+91	9291	haemaglóibin	haemaglóibine
+92	9292	fáinneach	fháinneach fáinneacha
+93	9293	daonnachas	daonnachais dhaonnachas
+94	9294	aispeist	aispeiste haispeist
+95	9295	dúbailt	dhúbailt
+96	9296	tráthúil	thráthúil tráthúla
+97	9297	deargaistriú	deargaistrithe dheargaistriú ndeargaistriú
+98	9298	crosóg	chrosóg crosóga gcrosóg
+99	9299	dé-óid	dé-óide dé-óideanna
+100	9300	arcán	arcáin earcáin t-arcán

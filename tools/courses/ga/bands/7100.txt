@@ -1,0 +1,100 @@
+1	7001	asp	
+2	7002	réiltín	
+3	7003	callas	challas
+4	7004	feolmhar	feolmhara
+5	7005	fiús-sceall	fhiús-scealla
+6	7006	foighneach	foighdeach
+7	7007	támhnéal	thámhnéal támhnéil
+8	7008	umhlaíocht	umhlaíochta
+9	7009	haicléir	haicléara
+10	7010	sreabhach	shreabhach
+11	7011	fótaileictreach	fhótaileictreach fótaileictreacha
+12	7012	comhdhearcadh	chomhdhearcadh gcomhdhearcadh
+13	7013	liús	liúis
+14	7014	íbis	híbisí íbisí
+15	7015	cruinneog	chruinneog cruinneoga gcruinneog gcruinneoige
+16	7016	grean	ghrean greantar grin
+17	7017	tírghráthóir	dtírghráthóirí thírghráthóir thírghráthóirí tírghráthóirí tírghráthóra
+18	7018	gunnadóir	ghunnadóir ghunnadóirí ghunnadóra gunnadóirí ngunnadóir
+19	7019	athimir	athimeartha athimirt
+20	7020	cartúnach	cartúnaithe cartúnaí chartúnaí gcartúnaí
+21	7021	ailpín	hailpín
+22	7022	inslin	hinslin hinsline insline
+23	7023	toirchiú	thoirchiú
+24	7024	caomhach	caomhaigh
+25	7025	tochmharc	thochmharc tochmhairc
+26	7026	foraoiseacht	bhforaoiseacht fhoraoiseacht foraoiseachta
+27	7027	frithsheasmhacht	fhrithsheasmhacht frithsheasmhachta
+28	7028	mistéir	mhistéir mhistéire mistéire mistéirí
+29	7029	sead	seadadh seadta shead tsead
+30	7030	cornach	chornach cornacha
+31	7031	uilechoiteann	
+32	7032	dífhoraoisigh	dífhoraoisithe dífhoraoisiú
+33	7033	neamhthorthúil	neamhthorthúla
+34	7034	uairibh	
+35	7035	íocónach	íocónacha íocónaí
+36	7036	úiréadra	
+37	7037	anfa	anfaí
+38	7038	athghair	athghaireadh athghairm athghairme d'athghairm hathghairme n-athghairfidís
+39	7039	dlúthchuid	dhlúthchuid ndlúthchuid
+40	7040	grádán	ghrádán grádáin ngrádán
+41	7041	caipitleach	caipitleacha caipitlithe caipitliú caipitlí chaipitligh chaipitlithe chaipitlí gcaipitlí
+42	7042	toipeolaíocht	toipeolaíochta toipeolaíochtaí
+43	7043	ardchúirt	ardchúirteanna hardchúirt
+44	7044	bioscáin	bhioscáin bioscáine
+45	7045	folmhaigh	bhfolmhaíodh fholmhaíonn fholmhú folmhaithe folmhaíonn folmhú
+46	7046	ainrialachas	ainrialachais t-ainrialachas
+47	7047	gníomhas	ghníomhais ghníomhas gníomhais ngníomhas
+48	7048	uasteorainn	huasteorainneacha uasteorainneacha
+49	7049	leabharliosta	leabharliostaí
+50	7050	míshásaigh	mhíshásaimh mhíshásamh míshásaimh míshásamh
+51	7051	blogh	bhlogh bhloghanna bloghadh bloghanna mbloghadh mbloghanna
+52	7052	maoithneach	maoithneacha mhaoithneach mhaoithneacha
+53	7053	bliainiris	bhliainiris
+54	7054	impriseanaíoch	
+55	7055	inchosanta	
+56	7056	liog	lioganna
+57	7057	smear	smeartha
+58	7058	spreoid	spreoide
+59	7059	scroid	
+60	7060	fannlag	fannlaige fhannlaige
+61	7061	glónraigh	glónraithe glónrú
+62	7062	gál	gáil
+63	7063	éascaíocht	héascaíocht
+64	7064	míosachán	mhíosachán
+65	7065	rollóir	rollóirí
+66	7066	sceimhligh	sceimhlithe sceimhliú
+67	7067	smután	smutáin
+68	7068	teagmhaigh	teagmhaíonn theagmhaigh theagmhaíonn
+69	7069	lánchumhachtach	lánchumhachtacha lánchumhachtaigh
+70	7070	tréach	thréigh tréigh
+71	7071	diall	dhiall diallta dialltaí ndiall
+72	7072	dianmhachnamh	dhianmhachnamh dianmhachnaimh
+73	7073	teorannaigh	dteorannódh teorannaíodh teorannaíonn theorannaigh theorannaíonn theorannóidh
+74	7074	eadóirsigh	eadóirsithe headóirsiú n-eadóirsiú
+75	7075	dáiríreacht	dháiríreacht dáiríreachta
+76	7076	ardmholadh	
+77	7077	gáiriteach	gháiriteach gháiritigh gáiriteacha
+78	7078	sceireach	sceirí
+79	7079	néareolaí	néareolaithe
+80	7080	cleiteach	chleiteach cleiteacha cleitigh cleitíonn
+81	7081	díosal	dhíosal díosail
+82	7082	coca	choca
+83	7083	manchúir	manchúire mhanchúir
+84	7084	aitheantóir	aitheantóirí haitheantóirí
+85	7085	faill	bhfaill faille failleanna fhaill
+86	7086	tarchuradóir	tarchuradóirí tarchuradóra
+87	7087	ársaitheoir	t-ársaitheoir ársaitheoirí
+88	7088	corb	chorb corbadh
+89	7089	fidléir	bhfidléir fhidléir fidiléir fidléirí
+90	7090	spáslong	spásloinge spáslonga
+91	7091	deighil	deighiltear deighleadh deighleann deighltear dheighil dheighleann ndeighleann
+92	7092	micreathonn	mhicreathonnta micreathoinne micreathonnta
+93	7093	tuairimigh	thuairimigh thuairimiú tuairimiú tuairimíodh tuairimíonn tuairimítear
+94	7094	fíbín	
+95	7095	altán	altan
+96	7096	cúthail	chúthail
+97	7097	eastóscadh	eastósctha
+98	7098	ionadú	t-ionadú
+99	7099	liriciúil	liriciúla
+100	7100	misniúil	mhisniúla misniúla

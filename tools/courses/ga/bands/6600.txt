@@ -1,0 +1,100 @@
+1	6501	céadrogha	
+2	6502	glasán	glasáin nglasán
+3	6503	scothaosta	
+4	6504	duibheagán	duibheagáin dúchan nduibheagán
+5	6505	truailleán	dtruailleán thruailleáin thruailleán truailleáin
+6	6506	maoirsigh	maoirsiú mhaoirsigh mhaoirsiú
+7	6507	meigiliteach	meigiliteacha meigilitigh mheigiliteach
+8	6508	muiceoil	mhuiceoil muiceola
+9	6509	seict	seicte seicteanna sheict sheicteanna tseict
+10	6510	nuachtlitir	nuachtlitreacha
+11	6511	trasnaíocht	thrasnaíocht trasnaíochta
+12	6512	cigireacht	chigireacht cigireachta cigireachtaí gcigireacht
+13	6513	ainriail	ainrialach ainrialacha hainrialach n-ainrialach
+14	6514	tionóntán	dtionóntáin dtionóntán thionóntáin thionóntán tionóntáin
+15	6515	deascabháil	deascabhála
+16	6516	príomhghné	phríomhghné phríomhghnéithe príomhghnéithe
+17	6517	tíreolaíoch	thíreolaíoch thíreolaíocha tíreolaíocha
+18	6518	creidiúnaithe	
+19	6519	dóire	dóirí ndóire
+20	6520	neamhchinnteacht	neamhchinnteachta
+21	6521	olltáirg	olltáirgeadh olltáirgthe
+22	6522	bunchéim	bhunchéim
+23	6523	caolú	chaolú
+24	6524	siansach	shiansach shiansaigh siansacha
+25	6525	soighe	shoighe
+26	6526	tonúil	thonúil tonúla
+27	6527	tuisceanach	tuisceanaí
+28	6528	purgaigh	bpurgú phurgaigh phurgaithe phurgú purgú
+29	6529	mullóg	mhullóg mullóga mullóige
+30	6530	sibhéid	
+31	6531	spallaíocht	spallaíochta
+32	6532	sióg	shióga sióga sióige tsióg
+33	6533	ala	
+34	6534	eagna	eagnaí heagna
+35	6535	craobh-abhainn	chraobh-abhainn gcraobh-abhainn
+36	6536	aiféala	t-aiféala
+37	6537	contrártha	chontrártha
+38	6538	bodhar	bhodhaire bhodhar bodhaire bodhra mbodhar
+39	6539	slánaitheoir	shlánaitheoir slánaitheora tslánaitheora
+40	6540	nod	noda noid
+41	6541	ascalaigh	ascalaithe ascalaíonn ascaluithe ascalú hascaluithe n-ascalaíonn
+42	6542	siorc	siorca siorcanna tsiorc
+43	6543	airtríteas	airtrítis hairtríteas t-airtríteas
+44	6544	béaloideasaí	
+45	6545	dathúil	dathúla
+46	6546	dusta	
+47	6547	milliméadar	mhilliméadar
+48	6548	comhchéim	chomhchéim comhchéime
+49	6549	eiseachaid	d'eiseachaid eiseachadadh eiseachadta n-eiseachadfaí
+50	6550	rúitín	rúitíní
+51	6551	tréithchineál	thréithchineál tréithchineálacha
+52	6552	sicileach	shiciligh sicileacha siciligh
+53	6553	braoinín	braoiníní
+54	6554	loine	loiní
+55	6555	aontaobhach	aontaobhacha haontaobhach
+56	6556	ciontacht	chiontacht ciontachta
+57	6557	codánach	chodánach codánacha
+58	6558	aipindic	aipindice haipindice
+59	6559	uraiceacht	huraiceacht uraiceachta
+60	6560	sraithmharfóir	shraithmharfóirí sraithmharfóirí sraithmharfóra tsraithmharfóra
+61	6561	bánbhuí	
+62	6562	diomaite	
+63	6563	inléite	
+64	6564	inscríobh	inscríobhadh inscríofa
+65	6565	sobhriste	
+66	6566	stil	stile stileanna
+67	6567	aitriam	aitriamaí haitriamaí n-aitriam t-aitriam
+68	6568	curaíocht	churaíocht curaíochta
+69	6569	athchur	athchuir athchuireadh d'athchuir
+70	6570	spól	smóil spóil spóla spóladh spólaí
+71	6571	bailé	bailéanna bhailé mbailé
+72	6572	císte	chíste chístí cístí gcíste
+73	6573	dochreidte	dhochreidte
+74	6574	faiseanta	fhaiseanta
+75	6575	ríomheolaíocht	ríomheolaíochta
+76	6576	bís	bhís bíse bíseanna mbís
+77	6577	alltacht	alltachta
+78	6578	diftéire	dhiftéire
+79	6579	seanmóir	seanmóin sheanmóir tseanmóir
+80	6580	fionnuar	fhionnuar fhionnuara fionnuaire fionnuara
+81	6581	cearnógach	cearnógacha chearnógach chearnógacha
+82	6582	lódáil	lódála lódálann
+83	6583	comhthogh	comhthofa comhthoghadh comhthoghtar
+84	6584	ballach	ballaigh bhallach bhallaigh
+85	6585	prótasón	phrótasóin prótasóin
+86	6586	ailgéabrach	ailgéabracha hailgéabrach
+87	6587	fuisce	fhuisce fuiscí
+88	6588	dé-adamhach	dhé-adamhach dé-adamhacha
+89	6589	aerthrácht	aerthráchta
+90	6590	barbartha	bharbartha
+91	6591	comha	chomha gcomha
+92	6592	míostraigh	míostraithe
+93	6593	ronnach	
+94	6594	séiléir	séiléirí
+95	6595	uallach	uallaigh
+96	6596	ardaitheoir	ardaitheoirí hardaitheoirí
+97	6597	brughaidh	bhrughadh bhrughaidh mbrughaidh
+98	6598	ceannbhrat	ceannbhrait cheannbhrait cheannbhrat gceannbhrat
+99	6599	eitleog	eitleoga eitleoige
+100	6600	géim	ghéim géime géimneach

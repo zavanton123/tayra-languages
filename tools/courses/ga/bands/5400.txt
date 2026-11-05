@@ -1,0 +1,100 @@
+1	5301	aibíocht	aibíochta haibíochta n-aibíocht
+2	5302	cúigeach	chúigeach chúigeacha chúigigh cúigeacha
+3	5303	príomhábhar	bpríomhábhar phríomhábhar príomhábhair
+4	5304	iniompartha	
+5	5305	lián	liáin
+6	5306	algartam	algartaim halgartaim n-algartam t-algartam
+7	5307	bolscaire	bholscaire bolscairí mbolscaire mbolscairí
+8	5308	foclaíocht	bhfoclaíocht fhoclaíocht foclaíochta
+9	5309	sméar	sméara sméire
+10	5310	cabhsa	cabhsaí chabhsa gcabhsa
+11	5311	lantanam	lantanaim
+12	5312	sásaigh	shásaigh shásaíodh shásaíonn shásódh sásaíonn sásófaí
+13	5313	clúmhill	chlúmhilleadh chlúmhillte clúmhilleadh clúmhillte gclúmhilleadh
+14	5314	infreastruchtúr	d'infreastruchtúr hinfreastruchtúr infreastruchtúir t-infreastruchtúr
+15	5315	lofa	
+16	5316	reitine	reitiní
+17	5317	ionchas	hionchais ionchais ionchaise t-ionchas
+18	5318	ionchorpraigh	ionchorpraithe ionchorpraíodh ionchorpraíonn ionchorpraítear ionchorprú n-ionchorpraítear
+19	5319	eintiteas	eintitis heintitis n-eintiteas
+20	5320	slachtmhar	shlachtmhar slachtmhaire slachtmhara
+21	5321	piseog	bpiseog phiseog phiseoga piseoga pisreog
+22	5322	meánaicmeach	meánaicmeacha mheánaicmeach
+23	5323	déantán	dhéantáin déantáin ndéantán
+24	5324	rapcheol	rapcheoil
+25	5325	salachar	salachair shalachar tsalachair
+26	5326	liotúirgeach	liotúirgeacha
+27	5327	saighid	saighdeadh shaighdeadh shaighid
+28	5328	ceirmeach	ceirmeacha cheirmeach cheirmeacha
+29	5329	stoth	stagh staghanna stoith stoitheadh
+30	5330	doingean	
+31	5331	banimpire	banimpirí bhanimpire mbanimpire
+32	5332	leoraí	leoraithe
+33	5333	cnag	chnag chnaga chnagadh chnagann cnagadh cnagtha gcnag
+34	5334	bíthin	bhíthin
+35	5335	feoiliteach	feoiliteacha feoilitigh
+36	5336	praiseach	bpraiseach phraiseach
+37	5337	cognaíoch	chognaíoch chognaíocha cognaíocha
+38	5338	ráchairt	ráchairte
+39	5339	fíréan	bhfíréan fhíréan fíréin
+40	5340	fótagrafach	fhótagrafach fhótagrafacha fhótagrafaigh fótagrafacha
+41	5341	idirghníomhaíocht	hidirghníomhaíochta idirghníomhaíochta
+42	5342	leantach	leantacha
+43	5343	éilliú	t-éilliú
+44	5344	maithiúnas	maithiúnachas mhaithiúnais mhaithiúnas
+45	5345	cnámhach	chnámhach chnámhacha cnámhacha cnámhaí
+46	5346	lipid	lipide lipidí
+47	5347	doir	dhoir doireann dor
+48	5348	imeasc	imeascadh imeasctha t-imeascadh
+49	5349	cruinneachán	chruinneacháin chruinneachán gcruinneachán
+50	5350	tréimhseachán	dtréimhseacháin dtréimhseachán thréimhseacháin thréimhseachán tréimhseacháin
+51	5351	oibiacht	hoibiachta hoibiachtaí oibiachtaí
+52	5352	cearmansaíocht	cearmansaíochta
+53	5353	sparr	sparra sparraí
+54	5354	fiaclóir	bhfiaclóir d'fhiaclóir fhiaclóir fiaclóirí
+55	5355	peilbheach	peilbheacha peilbhí pheilbheach pheilbheacha pheilbhigh
+56	5356	fabhtach	fabhtacha fabhtaí fhabhtach
+57	5357	pianbhreith	bpianbhreith bpianbhreitheanna phianbhreith phianbhreitheanna pianbhreithe pianbhreitheanna
+58	5358	tiomanta	thiomanta
+59	5359	flaith	bhflaith bhflatha fhlatha flatha
+60	5360	comhéifeacht	chomhéifeacht comhéifeachta comhéifeachtaí
+61	5361	eangach	eangacha eangaigh eangaí eangú heangaí
+62	5362	armlón	armlóin d’armlón harmlón n-armlón t-armlón
+63	5363	guaillí	ghuaillí guaillithe
+64	5364	meadaracht	meadarachta meadarachtaí mheadaracht mheadarachta mheadarachtaí
+65	5365	steall	stealladh steallann
+66	5366	treoluas	threoluas threoluasanna treoluais treoluasanna
+67	5367	seastán	seastáin sheastáin sheastán
+68	5368	cóiste	chóiste chóistí cóistí gcóiste
+69	5369	meallán	mealláin mhealláin
+70	5370	dátaigh	dhátaigh dátaithe dátaíodh dátaíonn
+71	5371	gean	geana ghean ngean
+72	5372	salm	sailm
+73	5373	canbhás	canbháis chanbháis chanbhás
+74	5374	sluachampa	shluachampaí sluachampaí tsluachampa
+75	5375	trasraitheoir	dtrasraitheoirí trasraitheoirí trasraitheora
+76	5376	urra	n-urra urraí
+77	5377	comhairliúchán	chomhairliúcháin chomhairliúchán comhairliúcháin
+78	5378	monaplacht	mhonaplacht mhonaplachtaí monaplachta monaplachtaí
+79	5379	déthoiseach	dhéthoiseach déthoiseacha
+80	5380	bunleabhar	bhunleabhair bhunleabhar
+81	5381	móidigh	mhóidigh mhóidithe mhóidiú móidí
+82	5382	farantóireacht	farantóireachta fharantóireachta
+83	5383	giorria	ghiorria giorriacha ngiorria
+84	5384	caismír	caismíre chaismír gcaismír
+85	5385	feidhmíocht	bhfeidhmíocht feidhmíochta fheidhmíocht
+86	5386	ilnáisiúnta	hilnáisiúnta
+87	5387	gabhrán	gabhráin
+88	5388	meanma	meanmain meanman mheanma mheanman
+89	5389	ionrach	d'ionraigh ionracha ionraigh
+90	5390	garrán	garráin gharráin gharrán ngarrán
+91	5391	impiriúlachas	himpiriúlachas impiriúlachais t-impiriúlachas
+92	5392	pluid	plaid pluide pluideanna
+93	5393	athfhillteach	athfhillteacha
+94	5394	seanchara	seanchairde sheanchairde sheanchara sheancharad
+95	5395	eachtardhomhanda	
+96	5396	imthosca	himthosca n-imthosca
+97	5397	lánscor	lánscoir lánscoireadh
+98	5398	mód	mhód
+99	5399	eiriceacht	eiriceachta eiriceachtaí heiriceacht heiriceachta
+100	5400	idir-réaltach	idir-réaltacha idir-réaltaigh

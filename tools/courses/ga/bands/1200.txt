@@ -1,0 +1,100 @@
+1	1101	éist	d'éist d'éisteadh d’éist n-éisteann n-éistear n-éistfeadh éisteadh éisteann éistear éistfidh éistigí
+2	1102	cinneadh	chinneadh chinnidh cinnidh cinntí gcinneadh
+3	1103	tomhas	dtoise dtoisí dtomhas thoise thoisí thomhas toise toisí tos tosa
+4	1104	iarrthóir	b'iarrthóir d'iarrthóir d'iarrthóirí d’iarrthóir d’iarrthóirí hiarrthóir hiarrthóirí iarrthóirí iarrthóra n-iarrthóir n-iarrthóirí t-iarrthóir
+5	1105	séasúr	shéasúir shéasúr séasúir tséasúir tséasúr
+6	1106	vótáil	vótála vótáladh vótálann vótálfadh vótálfaidh vótálfaidís vótálfaí
+7	1107	tionscal	dtionscail dtionscal thionscail thionscal tionscail
+8	1108	pláinéad	bpláinéad bpláinéid phláinéad phláinéid pláinéid
+9	1109	comhartha	chomhartha gcomhartha gcomharthaí
+10	1110	béaloideas	bhéaloideas bhéaloidis béaloideasa béaloidis mbéaloideas mbéaloidis
+11	1111	eitleán	b'eitleán d'eitleáin d'eitleán eitleáin heitleáin heitleán n-eitleáin n-eitleán t-eitleán
+12	1112	darbh	
+13	1113	dearmad	dearmadann dearmadta dearmaid dearúd dhearmad dhearmaid ndearmad
+14	1114	sainmhínigh	sainmhínithe sainmhíniú sainmhíníodh sainmhíníonn sainmhínítear shainmhínigh shainmhínithe shainmhíniú shainmhíníonn shainmhínítear shainmhínítí tsainmhínithe
+15	1115	teagasc	dteagasc dteagasctar teagaisc teagasca teagascadh teagascann teagasctar teagasg theagaisc theagasc theagascadh theagascann theagascfaidís
+16	1116	iseatóp	d'iseatóip d'iseatóp hiseatóip hiseatóp iseatóip n-iseatóp t-iseatóp
+17	1117	cáithnín	cainín cháithnín cháithníní cáithníní gcáithnín gcáithníní
+18	1118	cóip	chóip chóipeanna cóipe cóipeanna gcóip gcóipeanna
+19	1119	moill	mhoill mhoille moille moilleanna
+20	1120	ceathrar	ceathrair cheathrair cheathrar gceathrar
+21	1121	giolla	ghiolla ghiollaí ghoile giollaí goile goilí ngoile ngoilí
+22	1122	hata	hataí
+23	1123	druga	dhruga dhrugaí drugaí ndruga ndrugaí
+24	1124	othar	d'othair d'othar d’othair d’othar hothair hothar n-othar othair t-othar
+25	1125	ára	árann
+26	1126	aeráid	aeráide aeráidí d'aeráid d'aeráidí d’aeráid haeráid haeráide haeráidí n-aeráid
+27	1127	ticéad	dticéad dticéid thicéad thicéid ticéid
+28	1128	iarnród	d'iarnród d’iarnród d’iarnróid hiarnród hiarnróid iarnróid n-iarnród t-iarnród
+29	1129	raon	raoin raonaid raonta sraonadh
+30	1130	saothraigh	saothraithe saothraíodh saothraíonn saothraítear saothródh saothrófaí shaothraigh shaothraithe shaothraíodh shaothraíonn shaothraítear shaothraítí shaothródh tsaothraithe
+31	1131	grianghraf	ghrianghraf ghrianghraif grianghraif ngrianghraf ngrianghraif
+32	1132	sean	seana shean tsean
+33	1133	banríon	banríona banríonacha bhanríon bhanríona mbanríon mbanríona
+34	1134	timpeallacht	dtimpeallacht dtimpeallachta dtimpeallachtaí thimpeallacht thimpeallachta thimpeallachtaí timpeallachta timpeallachtaí
+35	1135	imní	himní n-imní
+36	1136	cumannach	chumannach chumannacha chumannaigh chumannaithe cumannacha cumannaigh cumannaithe cumannaí gcumannach gcumannaithe gcumannaí
+37	1137	riocht	riochtaí
+38	1138	cruth	chruth chrutha chruthanna chrú crutha cruthanna crú gcruth gcruthanna
+39	1139	lear	lir lire
+40	1140	cathartha	chathartha
+41	1141	príobháideach	phríobháideach phríobháideacha phríobháidigh príobháideacha príobháidiú príobháidí
+42	1142	séipéal	shéipéal séipéil tséipéal tséipéil
+43	1143	ua	hua
+44	1144	fanacht	fanachta fhanacht fhanachta
+45	1145	cothrom	chothroim chothroime chothrom chothroma cothroime cothroma cothromach gcothrom
+46	1146	tuairisc	dtuairisc dtuairiscí thuairisc thuairisce thuairiscí tuairisce tuairiscí
+47	1147	páirteach	pháirteach pháirteacha páirteacha
+48	1148	garda	gardaí gharda ghardaí gárda ngarda ngardaí
+49	1149	tiobraid	dtiobraid thiobraid thiobraide tiobraide tiobratan
+50	1150	dual	dhuail dhual duail duala ndual
+51	1151	comparáid	chomparáid chomparáidí comparáide comparáidí gcomparáid
+52	1152	colainn	cholainn cholainne cholainneacha cholla colainne colainneacha colla gcolainn gcolainne gcolainneacha gcolann
+53	1153	tom	dtoim dtom thoim thom thomais toim toma tomacha
+54	1154	póilín	bpóilíní phóilín phóilíní póilíní
+55	1155	fealsúnacht	bhfealsúnacht bhfealsúnachtaí d'fhealsúnacht d’fhealsúnacht fealsúnachta fealsúnachtaí fhealsúnacht fhealsúnachta
+56	1156	earra	d'earraí d’earraí earraí hearra hearraí n-earraí t-earra
+57	1157	comhaontú	chomhaontuithe chomhaontú comhaontuithe gcomhaontuithe gcomhaontú
+58	1158	máistir	maighistir maistir mháistir mháistrí máistrí
+59	1159	cuideachta	chuideachta chuideachtaí cuideachtaí cuileachta gcuideachta gcuideachtaí
+60	1160	fos	bhfos fhois fhos fois
+61	1161	maol	maoil maoile maola mhaoil mhaoile mhaol mhaola
+62	1162	craiceann	chraiceann chraicinn craicinn craicne gcraiceann gcraicne
+63	1163	halla	hallaí
+64	1164	meisce	
+65	1165	fisiceoir	b'fhisiceoir bhfisiceoir bhfisiceoirí d'fhisiceoirí fhisiceoir fhisiceoirí fhisiceora fisiceoirí
+66	1166	tionscadal	dtionscadail dtionscadal thionscadail thionscadal tionscadail
+67	1167	saoire	saoirí shaoire tsaoire
+68	1168	carbón	carbóin charbóin charbón gcarbón
+69	1169	coiteann	choiteann choiteanna choitinn coiteanna coitinn coitinne gcoiteann gcoitinn gcoitinne
+70	1170	coimeád	choimeád choimeádann choimeádfadh choimeádta choimeádtar coimeádadh coimeádann coimeádfaidh coimeádta coimeádtar coimhead gcoimeád gcoimeádann gcoimeádfadh gcoimeádfaidís gcoimeádfar gcoimeádfaí gcoimeádtar
+71	1171	uachtar	d'uachtar huachtar t-uachtar uachtair
+72	1172	comhdhéan	chomhdhéanann comhdhéanann comhdhéanta gcomhdhéanann
+73	1173	scór	scóir scóradh scórtaí scórtha sgór
+74	1174	bruach	bhruach bhruacha bhruaigh bruacha mbruach mbruacha
+75	1175	traein	dtraein dtraenach dtraenacha thraein thraenach thraenacha traenach traenacha
+76	1176	leathnaigh	leathnaithe leathnaíodh leathnaíonn leathnaítear leathnódh leathnófar leathnófaí leathnóidh leathnú
+77	1177	botún	bhotúin bhotún botúin mbotún
+78	1178	tuirseach	thuirseach
+79	1179	duilleog	billeog dhuilleog dhuilleoga duilleoga duilleoige nduilleog nduilleoga
+80	1180	freastal	fhreastal
+81	1181	cumadóir	chumadóir chumadóirí chumadóra cumadóirí gcumadóir gcumadóirí
+82	1182	cuidigh	chuideodh chuideoidh chuidigh chuidíodh chuidíonn cuideoidh cuidí cuidíodh cuidíonn gcuideodh gcuideoidh gcuidíonn
+83	1183	athbheochan	athbheo athbheochain athbheochaint athbheochana d'athbheochan d’athbheochan hathbheochan hathbheochana n-athbheochan nathbheochan
+84	1184	sir	shir shire sire sireadh
+85	1185	áitigh	d'áitigh d'áitíodh d’áitigh háitiú n-áitiú n-áitíonn áitithe áitiú áitíodh áitíonn áitítear
+86	1186	seanad	seanaid sheanad sheanaid tseanad tseanaid
+87	1187	tráchtáil	dtráchtáil thráchtáil thráchtála tráchtála
+88	1188	an-chuid	d'an-chuid han-chuid
+89	1189	geal	geala gealadh gheal gheala ghealfadh ghil gil ngeal
+90	1190	baictéar	baictéir bhaictéar bhaictéir mbaictéar mbaictéir
+91	1191	cumarsáid	chumarsáid chumarsáide cumarsáide cumarsáidí gcumarsáid
+92	1192	tóir	dtóir dtóra thóir tóra
+93	1193	úr	húire húr úir úire úra
+94	1194	tobac	tabac thobac tobaca
+95	1195	treoir	dtreoir dtreoracha threoir threorach threoracha threoraí treorach treoracha treoraí
+96	1196	meánaois	meánaoise meánaoiseanna mheánaois mheánaoise mheánaoiseanna
+97	1197	tirim	thirim thirime tirime tirm trim
+98	1198	acadamh	acadaimh d'acadamh d’acadamh hacadaimh hacadamh nacadamh t-acadamh tacadamh
+99	1199	gnóthach	ghnóthach ghnóthaí gnóthacha gnóthaí
+100	1200	traochta	

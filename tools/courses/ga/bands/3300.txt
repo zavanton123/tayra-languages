@@ -1,0 +1,100 @@
+1	3201	spré	
+2	3202	dlínse	dhlínse dhlínsí dlínsí ndlínse ndlínsí
+3	3203	taisme	dtaisme taismí thaisme
+4	3204	fliú	bhfliú fhliú
+5	3205	astú	astuithe n-astú t-astú
+6	3206	foghlaigh	fhoghlú foghlaithe foghlú
+7	3207	gonta	ghonta
+8	3208	murascaill	mhurascaill mhurascaille murascaille
+9	3209	iontaise	d'iontaisí hiontaisí iontaisí n-iontaisí
+10	3210	cairéal	cairéil cairéile chairéal chairéil gcairéal gcairéil
+11	3211	rannpháirtíocht	rannpháirtíochta
+12	3212	cóngar	chóngar cóngair gcóngar
+13	3213	rannpháirteach	rannpháirteacha
+14	3214	caillteanas	caillteanais chaillteanais chaillteanas gcaillteanais gcaillteanas
+15	3215	lóistín	lóistíní
+16	3216	éagóir	héagóir héagóra héagóracha éagóra éagóracha
+17	3217	tuarastal	dtuarastail dtuarastal thuarastail thuarastal tuarastail
+18	3218	téip	dtéip théip théipe théipeanna téipe téipeanna
+19	3219	eipiciúil	eipiciúla
+20	3220	mionsamhail	mhionsamhail mhionsamhlacha mionsamhla mionsamhlacha
+21	3221	naitsíoch	naitsíche naitsíocha
+22	3222	lacha	lach lachain lachan
+23	3223	crochta	chrochta crochtaí gcrochta
+24	3224	campas	campais champais champas gcampas
+25	3225	príosúnacht	bpríosúnacht phríosúnacht phríosúnachta príosúnachta
+26	3226	caipiteal	caipitil chaipiteal chaipitil gcaipiteal
+27	3227	nimhiúil	nimhiúla
+28	3228	hidreacarbón	hidreacarbóin
+29	3229	teagmhas	dteagmhais dteagmhas teagmhais theagmhais theagmhas
+30	3230	impleacht	himpleachtaí impleachtaí
+31	3231	iolar	fiolar hiolair hiolar iolair t-iolar tiolar
+32	3232	eanach	anach d'eanach eanaigh heanaigh
+33	3233	áilleacht	d'áilleacht háilleacht háilleachta n-áilleacht n-áilleachta áilleachta
+34	3234	ceannasaíocht	ceannasaíochta cheannasaíocht cheannasaíochta gceannasaíocht gceannasaíochta
+35	3235	easnamh	easnaimh heasnaimh heasnamh t-easnamh
+36	3236	fadtéarmach	fadtéarmacha fhadtéarmach fhadtéarmacha
+37	3237	miocrorgánach	mhiocrorgánach mhiocrorgánaigh miocrorgánaigh
+38	3238	raidhfil	raidhfilí
+39	3239	brollach	bhrollach bhrollaigh brollaigh mbrollach
+40	3240	comhchaint	chomhchaint chomhchainteanna comhchainteanna gcomhchainteanna
+41	3241	coisc	choisc choisceadh choisceann choiscfeadh coisceadh coisceann coiscfí gcoisceann
+42	3242	easaontas	easaontais heasaontais heasaontas n-easaontas t-easaontas
+43	3243	ula	hula ulaidh
+44	3244	scamhóga	
+45	3245	airigh	aireofar airithe airím airíodh airíonn airítear d'airigh d'airítí d’airigh hairithe n-aireoidh n-airíonn n-airítear
+46	3246	iascaire	b'iascaire d'iascairí d’iascairí hiascairí iascairí n-iascairí t-iascaire
+47	3247	turgnamhach	thurgnamhach thurgnamhaigh turgnamhacha turgnamhaí
+48	3248	héiliam	
+49	3249	mearbhall	mearbhaill mhearbhaill mhearbhall
+50	3250	comhthreomhar	chomhthreomhair chomhthreomhar chomhthreomhara comhthreomhara
+51	3251	peiteal	bpeiteal peitil pheiteal pheitil
+52	3252	croinic	chroinic chroinicí croinice croinicí gcroinic gcroinicí
+53	3253	bothán	bhotháin bhothán botháin mbotháin mbothán
+54	3254	téacsleabhar	dtéacsleabhair dtéacsleabhar théacsleabhair théacsleabhar téacsleabhair
+55	3255	deimhneach	deimhneacha dheimhneach dheimhneacha
+56	3256	béarlagair	bhéarlagair béarlagar mbéarlagair
+57	3257	aontacht	aontachta d'aontacht d’aontacht haontacht haontachta n-aontacht
+58	3258	ilchríochach	ilchríochacha ilchríochaigh ilchríochaí
+59	3259	tionlacan	dtionlacan thionlacan tionlacain
+60	3260	critic	chritic chritice critice criticí gcritic gcriticí
+61	3261	aom	aomadh aomann aomtar aomtha t-aomadh
+62	3262	breithiúnach	bhreithiúnach bhreithiúnacha bhreithiúnaigh breithiúnacha
+63	3263	ús	d'ús hús t-ús úis
+64	3264	domlas	domlais
+65	3265	normal	
+66	3266	stua	stuanna
+67	3267	athchruthaigh	athchruthaithe athchruthaíodh athchruthaíonn athchruthaítear athchruthú d'athchruthaigh d'athchruthú hathchruthú n-athchruthaíonn
+68	3268	gránna	ghránna
+69	3269	tosaíocht	dtosaíochtaí thosaíocht thosaíochtaí tosaíochta tosaíochtaí
+70	3270	coire	choire coirí gcoire
+71	3271	tóiceo	dtóiceo thóiceo
+72	3272	smál	smáil smóil
+73	3273	leachtach	leachtacha leachtaigh leachtaithe leachtaí
+74	3274	árachas	t-árachas árachais
+75	3275	fuilteach	b’fhuilteach fhuilteach fhuiltigh fhuiltí fuilteacha fuiltí
+76	3276	amharclannaíocht	amharclannaíochta hamharclannaíocht hamharclannaíochta
+77	3277	simpligh	shimpligh shimplithe shimpliú shimplítear simplithe simpliú simplíodh simplíonn simplítear
+78	3278	scagadh	scagtha
+79	3279	sclábhaíocht	sclábhaíochta
+80	3280	greannán	ghreannáin ghreannán greannáin ngreannáin ngreannán
+81	3281	ind-eorpach	ind-eorpacha ind-eorpaigh ind-eorpaí
+82	3282	príomhcharachtar	príomhcharachtair
+83	3283	céimí	chéimithe chéimí céimithe gcéimithe
+84	3284	doirt	dhoirt dhoirteadh doirte doirteadh doirteann doirtear dort dortadh ndoirtfeadh ndoirtfí
+85	3285	aicmigh	aicmithe aicmíodh aicmítear d'aicmigh haicmithe haicmiú n-aicmítear
+86	3286	sáil	sháil shála sál sála tsáil
+87	3287	eitic	eitice heitic heitice
+88	3288	ceardaí	ceardaithe cheardaithe cheardaí gceardaithe
+89	3289	gabha	gaibhne ghabha ghaibhne ngabha ngaibhne
+90	3290	formáid	bhformáid bhformáidí d'fhormáidí fhormáid formáide formáidí
+91	3291	dleathach	dhleathach dhleathacha dhleathaigh dleathacha
+92	3292	slad	shlad slada sladanna tslad tslada
+93	3293	coimeádaí	choimeádaithe choimeádaí coimeádaithe gcoimeádaithe gcoimeádaí
+94	3294	treascair	dtreascairt threascair threascairt threascairtí threascartha treascairt treascairtí treascartha treascraíodh
+95	3295	fail	fhail
+96	3296	imdhíonach	imdhíonacha imdhíonaigh imdhíonaí
+97	3297	foghrúpa	bhfoghrúpa bhfoghrúpaí fhoghrúpa fo-ghrúpaí foghrúpaí
+98	3298	taoide	dtaoide dtaoidí taoidí taoille thaoide thaoidí
+99	3299	fleá	bhfleánna fhleá fhleánna fleadh fleánna
+100	3300	iomadúil	hiomadúil iomadúla

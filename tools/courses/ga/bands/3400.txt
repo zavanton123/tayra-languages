@@ -1,0 +1,100 @@
+1	3301	damba	dambaí dhamba ndamba
+2	3302	cumraíocht	chumraíocht chumraíochtaí cumraíochta cumraíochtaí gcumraíocht gcumraíochtaí
+3	3303	achtaigh	achtaithe achtaíodh achtaítear d'achtaigh d’achtaigh hachtaíodh hachtú n-achtófaí
+4	3304	íobairt	d'íobairt híobairt híobairtí híobartha n-íobairt íobairtí íobartha
+5	3305	inghlactha	
+6	3306	oidhreachtúil	oidhreachtúla
+7	3307	cré-umha	chré-umha gcré-umha
+8	3308	damhsóir	damhsóirí dhamhsóir dhamhsóirí ndamhsóirí
+9	3309	spota	spot spotaí
+10	3310	modhnaigh	mhodhnaithe mhodhnaíonn mhodhnaítear mhodhnuithe mhodhnú modhnaithe modhnaíodh modhnaíonn modhnaítear modhnuithe modhnú
+11	3311	ceartú	cheartú gceartú
+12	3312	treisiú	threisithe threisiú treisithe
+13	3313	mótar	mhótair mhótar mótair
+14	3314	srón	shrón sróin sróine tsrón
+15	3315	bríomhar	bhríomhair bhríomhar bhríomhara bríomhair bríomhaire bríomhara
+16	3316	feidhmeannach	bhfeidhmeannach b’fheidhmeannaigh d'fheidhmeannaigh feidhmeannacha feidhmeannaigh fheidhmeannach fheidhmeannaigh
+17	3317	ionsaitheoir	hionsaitheoirí ionsaitheoirí ionsaitheora n-ionsaitheoirí t-ionsaitheoir
+18	3318	comhfhiúsach	chomhfhiúsach chomhfhiúsacha chomhfhiúsaigh comhfhiúsacha
+19	3319	fomhuireán	bhfomhuireán d'fhomhuireáin d'fhomhuireán fhomhuireáin fhomhuireán fomhuireáin
+20	3320	riasc	riasca riascacha riascaí réisc
+21	3321	míchumas	mhíchumais mhíchumas míchumais
+22	3322	torc	dtorc thorc toirc
+23	3323	urlabhra	hurlabhra
+24	3324	máthairtheanga	mháthairtheanga máthairtheangacha
+25	3325	ocsaídigh	n-ocsaídiú n-ocsaídítear ocsaídeofar ocsaídithe ocsaídiú ocsaídíodh ocsaídíonn ocsaídítear
+26	3326	fógraíocht	bhfógraíocht fhógraíocht fhógraíochta fógraíochta
+27	3327	custam	chustaim chustam custaim gcustam
+28	3328	líníocht	líníochta líníochtaí
+29	3329	athaontaigh	athaontaithe athaontaíodh athaontú d'athaontaigh hathaontú n-athaontaigh n-athaontófaí t-athaontú
+30	3330	polach	pholach pholacha pholaigh polacha polaí
+31	3331	neamhfhoirmiúil	neamhfhoirmiúla
+32	3332	curach	churach churacha curacha curaigh currach gcurach gcuracha
+33	3333	trócaire	thrócaire
+34	3334	comhlachas	chomhlachais chomhlachas comhlachais gcomhlachais gcomhlachas
+35	3335	seanduine	sean-duine seandaoine sheandaoine sheanduine tseanduine
+36	3336	múnlach	mhúnlaigh múnlaigh múnlaithe
+37	3337	snáthaid	shnáthaid shnáthaide shnáthaidí snáthaide snáthaidí tsnáthaid
+38	3338	collaí	chollaí
+39	3339	dúch	dhúch dúigh ndúch
+40	3340	olann	holann holla olainn olla
+41	3341	croith	chroith chroitheadh chroithfinn craith croite croitheadh croitheann croití gcroitheadh
+42	3342	catalóg	catalóga catalóige chatalóg gcatalóg gcatalóga
+43	3343	móid	mhóid mhóideanna móideanna
+44	3344	tua	dtua thua thuadh tuaigh tuaighe tuanna
+45	3345	moltóir	mholtóir mholtóirí moltóirí
+46	3346	taispeánadh	thaispeánadh
+47	3347	tráchtaire	dtráchtairí thráchtaire thráchtairí tráchtairí
+48	3348	leictreamaighnéadach	leictreamaighnéadacha leictreamaighnéadaigh leictreamaighnéadaí
+49	3349	slánaigh	shlánaigh shlánaithe slánaithe slánóidís tslánaithe
+50	3350	scuad	
+51	3351	áiseach	d’áisigh áiseacha áisigh
+52	3352	clárú	chlárú gclárú
+53	3353	éigse	héigse n-éigse éigsí
+54	3354	daonnacht	daonnachta daonnachtaí dhaonnacht ndaonnacht ndaonnachtaí
+55	3355	vítneamach	vítneamacha vítneamaigh
+56	3356	sá	shá sáthadh
+57	3357	oibreán	hoibreáin hoibreán n-oibreán oibreáin t-oibreán
+58	3358	dordghiotár	dhordghiotáir dhordghiotár dordghiotáir ndordghiotár
+59	3359	ubhchruthach	ubhchruthacha
+60	3360	miotalach	mhiotalach mhiotalacha mhiotalaigh miotalacha
+61	3361	teiripe	dteiripe teiripí theiripe theiripí
+62	3362	iaidín	d'iaidín hiaidín t-iaidín
+63	3363	frása	bhfrása bhfrásaí fhrása frásaí
+64	3364	iompraíocht	hiompraíocht hiompraíochta iompraíochta iompraíochtaí n-iompraíocht
+65	3365	brúidiúil	bhrúidiúil bhrúidiúla brúidiúla
+66	3366	abhac	abhaic habhaic n-abhac t-abhac
+67	3367	féideartha	fhéideartha
+68	3368	úráiniam	d'úráiniam húráiniam t-úráiniam
+69	3369	ionsaitheach	hionsaitheach ionsaitheacha ionsaithigh ionsaithí
+70	3370	díoltóir	dhíoltóir dhíoltóirí díoltóirí díoltóra ndíoltóirí
+71	3371	sintéiseach	shintéiseach shintéiseacha sintéiseacha
+72	3372	inceach	hincigh inceacha incigh ninceach
+73	3373	cabhail	cabhlacha chabhail gcabhail
+74	3374	marcas	marcais mharcais mharcas
+75	3375	sliogán	shliogáin shliogán sliogáin tsliogáin
+76	3376	baininscneach	baininscneacha bhaininscneach bhaininscneacha bhaininscnigh
+77	3377	aiséirí	d'aiséirí haiséirí
+78	3378	oibleagáid	d'oibleagáid hoibleagáidí n-oibleagáidí oibleagáide oibleagáidí
+79	3379	rilíf	rilífe rilífí
+80	3380	ong	hong ongtha
+81	3381	grinneall	ghrinneall ghrinnill grinnill ngrinneall
+82	3382	cré-umhaois	chré-umhaois cré-umhaoise gcré-umhaois gcré-umhaoise
+83	3383	achoimre	achoimrí athchoimre hachoimre hachoimrí
+84	3384	fónamh	bhfónamh
+85	3385	urú	d'urú huruithe hurú t-urú uruithe
+86	3386	cruálach	chruálach chruálacha chruálaí cruálacha cruálaí
+87	3387	feith	feitheamh feithimh
+88	3388	cailciam	chailciam gcailciam
+89	3389	dos	dois dosanna
+90	3390	díograiseach	dhíograiseach dhíograisí diograiseach díoghraiseach díograiseacha díograsach
+91	3391	rubar	rubair
+92	3392	blais	bhlais bhlaiseadh bhlaiseann bhlaisfeadh blaise blaiseadh blaiste
+93	3393	amhrasach	amhrasacha amhrasaí amhrasta hamhrasach
+94	3394	dáileog	dháileog dáileoga dáileoige ndáileoga
+95	3395	uchtaigh	d'uchtaigh d’uchtaigh d’uchtaíodh n-uchtú t-uchtú uchtaithe uchtaíodh uchtaíonn uchtú
+96	3396	ainmní	d'ainmní hainmní t-ainmní
+97	3397	canónach	canónaigh canónaíodh canónú chanónach chanónaigh chanónú gcanónach gcanónú
+98	3398	codán	chodáin chodán codáin gcodáin gcodán
+99	3399	ciallmhar	chiallmhaire chiallmhar ciallmhaire ciallmhara
+100	3400	loisc	loisceadh loisceann loisctear loiscthe loscadh

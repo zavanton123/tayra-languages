@@ -1,0 +1,100 @@
+1	3801	malaeisia	mhalaeisia
+2	3802	dúnfort	dhúnfoirt dhúnfort dúnfoirt
+3	3803	donas	donais ndonas
+4	3804	neamhrialta	
+5	3805	síntiús	shíntiúis shíntiús síntiúis
+6	3806	eaglaiseach	eaglaiseacha eaglaisigh eaglasach heaglaisigh n-eaglaiseach t-eaglaiseach
+7	3807	ultraivialait	ultraivialaite
+8	3808	buirgéiseach	bhuirgéiseach bhuirgéisigh buirgéiseacha buirgéisigh mbuirgéiseach
+9	3809	cuimse	chuimse cuimsí
+10	3810	leifteanant	leifteanaint
+11	3811	mám	mhám mháma máma mámanna
+12	3812	tréigthe	thréigthe
+13	3813	fuaraigh	d'fhuaraigh d’fhuaraigh fhuaraíonn fhuaraítear fuaraithe fuaraíonn fuaraítear
+14	3814	nuálaíocht	nuálaíochta nuálaíochtaí
+15	3815	fonnmhar	b'fhonnmhaire fonnmhaire
+16	3816	compás	chompáis chompás compáis gcompás
+17	3817	murach	
+18	3818	easna	d’easna d’easnacha easnacha heasnacha n-easna n-easnacha
+19	3819	cuimil	chuimil chuimilt chuimlítear cuimilt cuimilte cuimlíodh cuimlíonn cuimlítear cumail
+20	3820	pasáiste	bpasáiste pasáistí phasáiste phasáistí
+21	3821	innéacs	d'innéacs hinnéacs hinnéacsanna innéacsanna t-innéacs
+22	3822	diaga	dhiaga diadha
+23	3823	síothlaigh	shíothlaigh síothlaithe síothlaíonn síothlú
+24	3824	sláintiúil	shláintiúil shláintiúla sláintiúla
+25	3825	paráid	bparáid bparáidí paráide paráidí pharáid pharáidí
+26	3826	foréigneach	fhoréigneach foréigneacha
+27	3827	uireasa	d'uireasa d’uireasa huireasa n-uireasa
+28	3828	duanaire	dhuanaire duanairí nduanaire nduanairí
+29	3829	príomhchúis	bpríomhchúis phríomhchúis phríomhchúiseanna príomhchúiseanna
+30	3830	siméadracht	shiméadracht siméadrachta tsiméadracht
+31	3831	síceapaite	tsíceapaite
+32	3832	scamhóg	scamhóige
+33	3833	féidearthacht	bhféidearthacht bhféidearthachtaí fhéidearthacht fhéidearthachtaí féidearthachta féidearthachtaí
+34	3834	uileloscadh	d'uileloscadh t-uileloscadh uileloiscthe
+35	3835	potaisiam	bpotaisiam photaisiam
+36	3836	dumhach	dhumhach dhumhcha duimhche dumhaigh dumhcha ndumhach ndumhcha
+37	3837	tuata	dtuataí thuata thuataí tuataí
+38	3838	neadaigh	neadaithe neadaíonn neadú
+39	3839	feodach	feodacha feodaí fheodach fheodacha fheodaigh
+40	3840	comaoin	chomaoin chomaoineach comaoine comaoineach gcomaoin gcomaoineach
+41	3841	sorcóireach	shorcóireach shorcóireacha sorcóireacha sorcóirí
+42	3842	ubhán	hubháin t-ubhán ubháin
+43	3843	foraoisí	fhoraoisithe fhoraoisí
+44	3844	eitil	d'eitil d’eitil eitile eitlíodh eitlíonn eitlítear n-eitleoidís
+45	3845	comhordanáid	chomhordanáid chomhordanáide chomhordanáidí comhordanáide comhordanáidí gcomhordanáidí
+46	3846	leathchéad	leathchéid
+47	3847	consal	chonsail chonsal consail gconsail gconsal
+48	3848	siocair	shiocair siocracha tsiocair
+49	3849	fidsí	bhfidsí fhidsí
+50	3850	teirmeach	teirmeacha teirmí theirmeach theirmeacha theirmigh
+51	3851	spréigh	spréadh spréann spréite spréitear
+52	3852	urnaí	hurnaithe hurnaí n-urnaí urnaithe
+53	3853	trédhearcach	thrédhearcach thrédhearcacha trédhearcacha trédhearcaí
+54	3854	drochshaol	drochshaoil
+55	3855	ardchaighdeán	d'ardchaighdeán hardchaighdeáin
+56	3856	sobaldráma	shobaldráma sobaldrámaí
+57	3857	mótarbhealach	mhótarbhealach mhótarbhealaigh mhótarbhealaí mótarbhealaigh mótarbhealaí
+58	3858	luibheolaí	luibheolaithe
+59	3859	maoracht	maorachta mhaoracht
+60	3860	loingeas	loingis luingeas
+61	3861	caipín	caipíní chaipín
+62	3862	lárphointe	lárphointí
+63	3863	fo-bhaile	fho-bhaile fo-bhailte fobhaile fobhailte
+64	3864	sálaigh	sálaí
+65	3865	ofráil	d'ofráil d’ofráil d’ofráiltí hofráil n-ofrálann ofrála ofrálacha ofráladh ofrálann
+66	3866	iolraigh	hiolrú iolraithe iolraíonn iolraítear iolrú
+67	3867	cúinne	chúinne chúinní cúinní gcúinne
+68	3868	bainis	bainise bainiseacha banais bhainis bhainiseacha mbainis
+69	3869	éiceolaíocht	d'éiceolaíocht héiceolaíocht héiceolaíochta éiceolaíochta
+70	3870	póraigh	bpóraíonn phóraithe phóraíonn phóraítear phóraítí póraithe póraíodh póraíonn póraítear
+71	3871	diamant	dhiamaint dhiamant diamaint ndiamant
+72	3872	spór	spóir
+73	3873	nodaireacht	nodaireachta nodaireachtaí
+74	3874	tiarach	dtiarach thiaracha thiaraí tiaracha
+75	3875	méadaíocht	mhéadaíocht méadaíochta
+76	3876	haca	
+77	3877	spiaire	spiairí
+78	3878	cromán	chromáin chromán cromáin gcromán
+79	3879	teorannú	teorannaithe theorannú
+80	3880	frithchaith	bhfrithchaitear bhfrithchaitheann fhrithchaite fhrithchaitear fhrithchaitheann frithchaite frithchaitear frithchaitheann
+81	3881	príomh-bhreitheamh	bpríomh-bhreitheamh phríomh-bhreitheamh phríomh-bhreithimh
+82	3882	broc	bhroc bhroic broca broic mbroc
+83	3883	sintéisigh	shintéisigh shintéisithe shintéisiú shintéisítear sintéiseodh sintéisithe sintéisiú sintéisíodh sintéisíonn sintéisítear
+84	3884	sárshaothar	shárshaothair shárshaothar sárshaothair
+85	3885	cic	chic chiceanna ciceanna gciceanna
+86	3886	díleá	dhíleá ndíleá
+87	3887	lámhleabhar	lámhleabhair
+88	3888	sluaíocht	shluaíocht sluaíochta sluaíochtaí tsluaíocht
+89	3889	sioc	seaca sheaca shioc shioctar shioctha siocadh siocann siocfadh sioctha tseaca
+90	3890	rachmas	rachmais
+91	3891	sainordú	sainordaithe shainordú tsainordaithe
+92	3892	seaimpín	seaimpíní sheaimpín tseaimpín
+93	3893	siomptóm	siomptóim
+94	3894	feimineach	feimineacha feiminigh fheimineach fheiminigh
+95	3895	bábhún	bhábhúin bhábhún bábhúin bádhún mbábhún
+96	3896	ilghnéitheach	hilghnéitheach ilghnéitheacha ilghnéithí
+97	3897	fánaíocht	bhfánaíocht fhánaíocht fhánaíochta fánaíochta
+98	3898	cúngach	chúngach chúngaigh chúngú cúnguithe cúngú
+99	3899	imoibriúchán	imoibriúcháin t-imoibriúchán
+100	3900	dífhostaíocht	dhífhostaíocht dífhostaíochta

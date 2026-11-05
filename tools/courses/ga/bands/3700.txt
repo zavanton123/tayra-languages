@@ -1,0 +1,100 @@
+1	3601	tionóntaí	thionóntaí tionóntaithe
+2	3602	cúb	cúba gcúba
+3	3603	galf	gailf ghailf ghalf ngalf
+4	3604	cillín	chillín cillíní gcillín gcillíní
+5	3605	ait	aite b'ait b’ait hait
+6	3606	trodach	throdach trodacha trodaithe trodaí
+7	3607	fiseolaíocht	bhfiseolaíocht fhiseolaíocht fiseolaíochta
+8	3608	comhpháirtíocht	chomhpháirtíocht chomhpháirtíochtaí comhpháirtíochta comhpháirtíochtaí gcomhpháirtíocht
+9	3609	dúnmharfóir	dhúnmharfóir dhúnmharfóirí dúnmharfóirí dúnmharfóra ndúnmharfóirí
+10	3610	breasal	bhreasail bhreasal breasail
+11	3611	brionglóid	bhrionglóid bhrionglóidí brionglóide brionglóidí mbrionglóid mbrionglóidí
+12	3612	cultas	chultais chultas cultais gcultas
+13	3613	torrach	tarrach tarracha torracha
+14	3614	sac	sacadh sacfaí saic shac shacadh
+15	3615	clis	chlis chliseann chlisimid chlistí cliseann gclisfeadh gclisfidh gclisfí
+16	3616	marcshlua	marcshluaite mharcshlua
+17	3617	giotán	ghiotáin ghiotán giotáin ngiotán
+18	3618	drumadóir	dhrumadóir drumadóirí drumadóra ndrumadóir
+19	3619	cumhra	chumhra
+20	3620	aintín	aintíní haintín
+21	3621	bealaigh	bealaithe bealaítear bhealaigh bhealaithe bhealaíonn bhealú mbealaigh
+22	3622	polaiméir	bpolaiméirí pholaiméir pholaiméire pholaiméirí polaiméire polaiméirí
+23	3623	uaillmhianach	huaillmhianach uaillmhianacha uaillmhianaigh uaillmhianaí
+24	3624	oileánach	hoileánaigh n-oileánach oileánacha oileánaigh oileánaí
+25	3625	ailtéarnach	ailtéarnacha ailtéarnaigh hailtéarnach
+26	3626	mairtíreach	mairtírigh mhairtíreach mhairtírigh
+27	3627	siondróm	shiondróim shiondróm siondróim tsiondróim
+28	3628	barda	bardaí bharda bhardaí mbarda mbardaí
+29	3629	maolán	maoláin mhaoláin mhaolán
+30	3630	siúlóid	shiúlóid shiúlóidí siúlóide siúlóidí tsiúlóid
+31	3631	reachtúil	reachtúla
+32	3632	raithneach	raithnigh raithní
+33	3633	fair	
+34	3634	baincéireacht	baincéireachta bhaincéireacht bhaincéireachta mbaincéireacht
+35	3635	lasrach	lasracha
+36	3636	teagascóir	teagascóirí theagascóir theagascóirí
+37	3637	dainséarach	dainséaracha dainséaraí dhainséarach dhainséaracha dhainséaraigh dhainséaraí
+38	3638	coimpléascach	choimpléascach choimpléascacha choimpléascaí coimpléascacha coimpléascaí
+39	3639	eagras	d'eagrais eagrais heagrais t-eagras
+40	3640	oirneach	d'oirnigh oirnigh oirnithe oirniú oirní oirníodh
+41	3641	fomhórach	bhfomhórach fhomhórach fomhóraigh
+42	3642	comhaontaigh	chomhaontaigh chomhaontaithe chomhaontaíonn chomhaontaítear comhaontaithe comhaontaíodh gcomhaontódh
+43	3643	clasaic	chlasaic clasaicí gclasaicí
+44	3644	pribhléid	bpribhléidí phribhléid phribhléidí pribhléide pribhléidí
+45	3645	flosc	bhflosc bhfloscfaí bhflosctar fhlosc fhlosca fhlosctha floscadh flosctha
+46	3646	teibí	theibí
+47	3647	íogair	b'íogaire híogair íogaire
+48	3648	cabáiste	cabáistí chabáiste gcabáistí
+49	3649	carraigeach	carraigeacha carraigí charraigeach charraigeacha gcarraigeach
+50	3650	sádach	shádach shádaí sádaí
+51	3651	réadlann	réadlainne réadlanna
+52	3652	creidmheas	chreidmheas chreidmheasa chreidmheasanna creidmheasa creidmheasanna gcreidmheas gcreidmheasanna
+53	3653	spailpín	spailpíní
+54	3654	dháréag	dáréag
+55	3655	meil	meal meile meileann meilir meilt meilte meiltear mheileann mheilt mheiltear
+56	3656	feadóg	bhfeadóg feadóga feadóige fheadóg
+57	3657	mallacht	mallachta mhallacht
+58	3658	duillsilteach	dhuillsilteach dhuillsilteacha duillsilteacha
+59	3659	síceolaíoch	shíceolaíoch shíceolaíocha síceolaíche síceolaíocha
+60	3660	cónaitheach	chónaitheach chónaitheacha chónaithigh cónaitheacha
+61	3661	ding	dhingeacha dhingfinn dinge dingeacha dingtear dingthe ging nding
+62	3662	odhar	huidhre uidhir uidhre
+63	3663	síceolaí	shíceolaithe shíceolaí síceolaithe
+64	3664	sceall	scealla sceallaí
+65	3665	ardoideachas	ardoideachais d'ardoideachas hardoideachais n-ardoideachas t-ardoideachas
+66	3666	biúró	bhiúró mbiúró
+67	3667	infhill	infhilleadh infhillte infhillteacha infhilltear n-infhilleadh t-infhilleadh
+68	3668	staidreamh	staidrimh
+69	3669	forásach	bhforásach fhorásach fhorásacha fhorásaigh fhorásaí forásacha forásaigh forásaí
+70	3670	litriúil	litriúla
+71	3671	sealgaire	sealgairí shealgaire shealgairí tsealgaire
+72	3672	contúirteach	chontúirteach chontúirteacha
+73	3673	fiúntach	fhiúntach fhiúntacha fhiúntaí fiúntacha fiúntaí
+74	3674	sceimheal	sceimhle sceimhleacha
+75	3675	dinimiciúil	dhinimiciúil dhinimiciúla dinimiciúla
+76	3676	fonnadóireacht	fhonnadóireacht fonnadóireachta
+77	3677	ambasáid	ambasáide ambasáidí d'ambasáid d'ambasáidí hambasáid hambasáide hambasáidí n-ambasáid
+78	3678	toircheas	dtoircheas thoircheas thoirchis toirchis
+79	3679	faisisteach	bhfaisistithe faisisteacha faisistigh faisistithe faisistí fhaisisteach fhaisistigh fhaisistí
+80	3680	firinscneach	fhirinscneach fhirinscneacha firinscneacha firinscnigh
+81	3681	alcalóideach	alcalóideacha alcalóidigh halcalóidigh n-alcalóideach t-alcalóideach
+82	3682	gearmáinic	gearmáinice ghearmáinic ghearmáinice ngearmáinic
+83	3683	slám	slam
+84	3684	coimpléasc	choimpléasc choimpléisc coimpléisc gcoimpléasc gcoimpléisc
+85	3685	cláirseach	chláirseach chláirsí cláirseacha cláirsigh cláirsí gcláirseach
+86	3686	feisteas	bhfeisteas feistis fheisteas
+87	3687	fótón	bhfótón fhótóin fhótón fótóin
+88	3688	sintéis	shintéis shintéisí sintéise sintéisí tsintéis
+89	3689	margaíocht	margaíochta mhargaíocht mhargaíochta
+90	3690	coinscríobh	choinscríobh choinscríofa coinscríobhadh coinscríofa gcoinscríobh
+91	3691	buitléir	bhuitléara bhuitléir buitléirí
+92	3692	comharchumann	chomharchumainn chomharchumann comharchumainn gcomharchumann
+93	3693	saoráid	saoráide saoráidí shaoráidí tsaoráid
+94	3694	sanasaíocht	sanasaíochta shanasaíocht tsanasaíocht
+95	3695	frithbheathach	bhfrithbheathach fhrithbheathach fhrithbheathaigh frithbheathaigh
+96	3696	beairic	beairice beairicí bheairic bheairice bheairicí mbeairic mbeairicí
+97	3697	vitimín	vitimíní
+98	3698	ábhartha	
+99	3699	feiceálach	feiceálacha fheiceálach fheiceálacha
+100	3700	fidil	bhfidil fhidil fidle

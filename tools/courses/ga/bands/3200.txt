@@ -1,0 +1,100 @@
+1	3101	rós	róis rósanna rósta
+2	3102	iomaire	d'iomaire hiomaire hiomairí iomaireacha iomairí n-iomaire t-iomaire
+3	3103	ionsúigh	hionsú ionsú ionsúite ionsúitear ionsúnn n-ionsú n-ionsúnn
+4	3104	seachain	seachnaíodh seachnaíonn seachnaítear seachnódh seachnófaí sheachain sheachanta sheachnaíodh sheachnaíonn sheachnaítear sheachnaítí
+5	3105	fuadaigh	bhfuadófaí bhfuadóidís d'fhuadaigh d’fhuadaigh fhuadaigh fhuadaithe fhuadaíonn fhuadaítear fuadaithe fuadaíodh fuadaíonn
+6	3106	fia	bhfia bhfianna fhia
+7	3107	caladh	cala calaidh calaí chala chaladh chalaidh chalaí gcaladh gcalaí
+8	3108	státseirbhíseach	státseirbhísigh
+9	3109	athróg	athróga athróige d'athróg d'athróga hathróg hathróga hathróige n-athróg
+10	3110	comhla	chomhla chomhlaí comhlaí gcomhla gcomhlaí
+11	3111	géanóm	ghéanóim ghéanóm géanóim ngéanóim ngéanóm
+12	3112	leithligh	
+13	3113	féinmharú	bhféinmharú fhéinmharaithe fhéinmharú féinmharaithe féinmharuithe
+14	3114	idirghabháil	hidirghabháil idirghabhála
+15	3115	grafach	ghrafach ghrafacha ghrafaigh grafacha grafaigh
+16	3116	bostún	bhostúin bhostún bostúin mbostún
+17	3117	ciníochas	chiníochais chiníochas ciníochais gciníochas
+18	3118	eala	ealaí heala healaí n-ealaí
+19	3119	pinsean	bpinsean phinsean phinsin pinsin
+20	3120	clós	chlóis chlós gclós
+21	3121	sciobtha	scioptha
+22	3122	ríthábhachtach	ríthábhachtacha ríthábhachtaigh
+23	3123	ionchúisigh	hionchúisíodh ionchúiseamh ionchúisimh ionchúisithe ionchúisíodh n-ionchúiseamh t-ionchúiseamh
+24	3124	graf	ghraf ghraif grafanna grafáin grafán graif ngraf
+25	3125	rómánsúil	rómánsúla
+26	3126	arbhar	arbha arbhair d'arbhar d’arbhar harbhar t-arbhar
+27	3127	cuileann	chuileann chuilinn cuilinn gcuileann gcuilinn
+28	3128	rianaigh	rianaithe rianaíodh rianaíonn rianaítear rianú
+29	3129	gaireas	gairis ngaireas
+30	3130	moilligh	mhoilligh mhoillithe mhoilliú mhoillíonn moillithe moilliú moillíonn moillítear
+31	3131	maoirseacht	maoirseachta mhaoirseacht mhaoirseachta
+32	3132	insealbhaigh	d'insealbhaigh hinsealbhú insealbhaithe insealbhaí insealbhaíodh insealbhaítear insealbhuithe insealbhú
+33	3133	barrach	barracha barraigh bharrach bharraigh mbarrach mbarraigh
+34	3134	aturnae	aturnaetha b'aturnae d'aturnae d’aturnae haturnae t-aturnae
+35	3135	cealaigh	cealaithe cealaíodh cealaíonn cealú chealaigh chealaíonn chealódh chealú gcealófaí
+36	3136	díolachán	dhíolacháin dhíolachán díolacháin ndíolacháin ndíolachán
+37	3137	bándearg	bhándearg bhándearga bándearga
+38	3138	ceannaí	ceannaidhe cheannaí gceannaithe
+39	3139	cuardach	chuardach gcuardach
+40	3140	glaoch	ghlaoch nglaoch
+41	3141	cíoch	chích chíche chíoch chíocha cíche cíocha gcíoch gcíocha
+42	3142	brathadóir	bhrathadóir bhrathadóirí bhrathadóra brathadóirí mbrathadóir mbrathadóirí
+43	3143	ceansaigh	ceansaithe ceansaíodh ceansú cheansaigh cheansaithe cheansú
+44	3144	airtléire	hairtléire
+45	3145	bréifin	bhréifne bréifne mbréifne
+46	3146	baintreach	baintreacha baintrí bhaintreach bhaintreacha mbaintreach mbaintreacha
+47	3147	tabhaigh	dtabhódh thabhaigh thabhaítear thabhódh thabhú
+48	3148	neamhní	
+49	3149	cráifeach	chráifeach chráifeacha chráifigh chráifí cráifeacha cráifí
+50	3150	ponc	bponc bponcanna phonc phoncanna poncanna
+51	3151	naonúr	naonúir
+52	3152	eacnamaí	b'eacnamaí d'eacnamaí eacnamaithe heacnamaithe heacnamaí n-eacnamaithe t-eacnamaí
+53	3153	atáirgeadh	t-atáirgeadh
+54	3154	fathach	bhfathach d’fhathaigh fathaigh fhathach fhathaigh
+55	3155	dlúthdhiosca	dhlúthdhiosca dhlúthdhioscaí dlúthdhioscaí ndlúthdhiosca
+56	3156	teileafón	teileafóin theileafóin
+57	3157	fealsúnach	fealsúnacha fealsúnaí fhealsúnach fhealsúnacha fhealsúnaí
+58	3158	freastalaí	bhfreastalaithe bhfreastalaí fhreastalaithe fhreastalaí freastalaithe
+59	3159	cíl	chíle cíle cílí gcíle
+60	3160	cart	carta cartadh cartar chart chartaí gcartar gcartfadh scartáil scartáilte scartála scartáladh
+61	3161	fíric	bhfíric bhfíricí d’fhíricí fhíric fhíricí fírice fíricí
+62	3162	comhchoiteann	chomhchoiteann chomhchoitinn comhchoiteanna comhchoitianta gcomhchoiteann
+63	3163	ginideach	ghinideach ghinidigh ginidigh ginidiú nginideach
+64	3164	sinsearacht	shinsearacht shinsearachta sinsearachta tsinsearacht
+65	3165	cónasc	chónaisc chónasc chónascadh chónasctha cónaisc cónascadh cónasctha gcónascadh
+66	3166	halaigin	halaigine halaiginí
+67	3167	uisceach	uisceacha uisciúil uisciúla
+68	3168	foghraíocht	bhfoghraíocht fhoghraíocht fhoghraíochta foghraíochta
+69	3169	anailíseach	anailíseacha anailísí hanailíseach hanailísí n-anailísí
+70	3170	aireacht	aireachta aireachtaí haireacht haireachta haireachtaí
+71	3171	urlabhraí	hurlabhraithe hurlabhraí t-urlabhraí urlabhraithe
+72	3172	véarsa	véarsaí
+73	3173	págánach	bpágánach phágánach phágánacha phágánaigh págánacha págánaigh
+74	3174	léirscrios	léirscriosa léirscriosta
+75	3175	braighdeanas	bhraighdeanais bhraighdeanas braighdeanais mbraighdeanas
+76	3176	cumhdaigh	chumhdaigh chumhdaithe chumhdaíonn chumhdaítear cumhdaithe cumhdaíodh cumhdaíonn cumhdaítear
+77	3177	cúlú	chúlú gcúlú
+78	3178	geis	geasa geise gheas gheasa gheis gheise
+79	3179	taiscéalaíocht	taiscéalaíochta thaiscéalaíocht
+80	3180	cábla	chábla cháblaí cáblaí gcábla gcáblaí
+81	3181	líonmhar	líonmhaire líonmhara
+82	3182	fosaigh	bhfosuithe bhfosú fhosaithe fhosuithe fhosú fosaithe fosaíodh fosuithe fosú
+83	3183	leictreoid	leictreoide leictreoidí
+84	3184	arracht	arrachta arrachtach arrachtaigh arrachtaí harrachtaí n-arrachtaí t-arracht
+85	3185	fraoch	fhraoch fhraoich fhraoigh fraoich fraoigh
+86	3186	aerárthach	aerárthaigh aerárthaí d'aerárthaigh haerárthaigh n-aerárthach t-aerárthach
+87	3187	ceolfhoireann	ceolfhoirne cheolfhoireann gceolfhoireann gceolfhoirne
+88	3188	éascaigh	d'éascaigh d’éascaigh héascú n-éascaíonn n-éascófaí éascaíodh éascaíonn éascú
+89	3189	urraíocht	hurraíocht urraíochta
+90	3190	cuimhneamh	chuimhneamh cuimhniú
+91	3191	dramhaíl	dhramhaíl dramhaíola ndramhaíl
+92	3192	móide	
+93	3193	ciclipéid	chiclipéid chiclipéide ciclipéide ciclipéidí gciclipéid gciclipéidí
+94	3194	sciar	
+95	3195	ministir	mhinistir mhinistrí ministrí
+96	3196	goill	ghoill ghoilleann ghoillfeadh goilleadh goilleann goilliúint ngoilleann ngoillfeadh
+97	3197	ógánach	d'ógánaigh d’ógánaigh hógánach hógánaigh n-ógánach t-ógánach ógánaigh
+98	3198	stéig	stéige stéigeacha stéigeanna
+99	3199	fostóir	bhfostóir bhfostóirí d'fhostóirí d’fhostóirí fhostóir fhostóirí fhostóra fostóirí
+100	3200	coigistigh	choigistigh choigistiú coigistithe coigistiú coigistíodh

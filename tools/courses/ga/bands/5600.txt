@@ -1,0 +1,100 @@
+1	5501	ceannlitir	ceannlitreacha cheannlitir cheannlitreacha gceannlitreacha
+2	5502	druileáil	dhruileáil dhruileála druileála ndruileáil
+3	5503	feadánach	feadánacha feadánaí fheadánach fheadánacha
+4	5504	toirmisc	dtoirmisctear thoirmisc thoirmiscthe toirmisceadh toirmiscthe
+5	5505	rógaire	ruagaire ruagairí rógairí
+6	5506	cruas	chruas cruais gcruas
+7	5507	foirfeacht	fhoirfeacht foirfeachta
+8	5508	léirmheastóireacht	léirmheastóireachta
+9	5509	uain	d'uain m’uain
+10	5510	meamram	meamraim mheamraim mheamram
+11	5511	dorú	darú drae
+12	5512	neodrónréalta	neodrónréaltaí
+13	5513	sníomh	shníomh sníofa sníomha sníomhann
+14	5514	sprid	spride sprideanna spriod
+15	5515	dlúthaigh	dhlúthaigh dhlúthú dlúite dlúthú
+16	5516	milleánaigh	mhilleánú milleánú
+17	5517	tuismíocht	dtuismíocht tuismíochta
+18	5518	monagram	mhonagraim mhonagram
+19	5519	leantóir	leantóirí leantóra
+20	5520	ráschúrsa	ráschúrsaí
+21	5521	mosc	mhosc moisc moscanna
+22	5522	calaois	calaoise chalaois gcalaois
+23	5523	saolré	saolréanna shaolré
+24	5524	meabhairshláinte	mheabhairshláinte
+25	5525	athinis	athinsint athinsintí hathinsint
+26	5526	ionadaigh	d'ionadaigh d'ionadaithe d’ionadaithe hionadaithe ionadaíodh ionadaíonn ionadaítear n-ionadaithe
+27	5527	leasaitheoir	leasaitheoirí leasaitheora
+28	5528	absalóideach	absalóideacha absalóidigh absalóidí t-absalóideach
+29	5529	tó	thó
+30	5530	caitian	caitiain
+31	5531	innealra	hinnealra t-innealra
+32	5532	millteach	mhillteach mhillteacha mhilltigh millteacha
+33	5533	fiaile	fhiaile fhiailí fiailí
+34	5534	urraitheoir	d'urraitheoirí n-urraitheoirí t-urraitheoir urraitheoirí
+35	5535	muirín	mhuirín mhuiríne muiríne muiríní
+36	5536	fíodóir	bhfíodóirí fhíodóir fhíodóra fíodóirí fíodóra
+37	5537	aithrí	haithrí
+38	5538	míntíreachas	mhíntíreachais míntíreachais
+39	5539	eibleacht	eibleachta eibleachtaí heibleacht heibleachtaí
+40	5540	eitleoireacht	eitleoireachta heitleoireacht heitleoireachta
+41	5541	múrmhaisiú	mhúrmhaisithe mhúrmhaisiú múrmhaisithe
+42	5542	optach	optacha optaigh optaí
+43	5543	ciotach	chiotach chiotaigh chiotaí ciotacha
+44	5544	piorra	bpiorraí phiorra piorraí
+45	5545	príomhordúil	phríomhordúil phríomhordúla príomhordúla
+46	5546	reiptíl	reiptíle reiptílí
+47	5547	iomaíoch	hiomaíoch iomaíche iomaíocha
+48	5548	taibhse	dtaibhsí taibhsí thaibhse thaibhsí
+49	5549	inveirteabrach	d'inveirteabraigh hinveirteabraigh inveirteabracha inveirteabraigh n-inveirteabrach
+50	5550	ionraic	hionraic ionraice
+51	5551	tuilleamh	dtuilleamh thuilleamh tuillimh
+52	5552	aol	aoil haol
+53	5553	raibí	raibithe
+54	5554	réaltach	réaltacha
+55	5555	lamhnán	lamhnáin
+56	5556	hibrid	hibride hibridí
+57	5557	radacachas	radacachais
+58	5558	fosfáit	fhosfáit fosfáite fosfáití
+59	5559	fo-abhainn	fho-abhainn fo-aibhneacha
+60	5560	moll	mholl mollta
+61	5561	béas	bhéas bhéasa
+62	5562	gátar	ghátair ngátar
+63	5563	tonnach	thonnach thonnacha tonnacha tonnaigh
+64	5564	otharcharr	hotharcharranna n-otharcharranna otharchairr otharcharranna t-otharcharr
+65	5565	cluimhreach	chluimhreach gcluimhreach
+66	5566	sceitimíní	
+67	5567	athdhear	athdhearadh athdheartha
+68	5568	greannaigh	ghreannú greannaithe greannaíonn greannú
+69	5569	feidhmitheach	feidhmithí fheidhmitheach
+70	5570	céimnigh	chéimnigh chéimniú céimnithe céimniú
+71	5571	beothach	beothaigh bheothach bheothaigh
+72	5572	túrtheach	túrthí
+73	5573	lúibín	lúibíní
+74	5574	cruicéad	chruicéad chruicéid cruicéid gcruicéad
+75	5575	gána	ghána ngána
+76	5576	daoirse	dhaoirse ndaoirse
+77	5577	duga	dhuga dhugaí dugaí nduga ndugaí
+78	5578	ubhagán	d'ubhagán hubhagáin n-ubhagán t-ubhagán ubhagáin
+79	5579	téagartha	théagartha
+80	5580	ónar	
+81	5581	buaf	bhuaf buafa buaife mbuaf
+82	5582	fíorbheagán	d'fhíorbheagán fhíorbheagán
+83	5583	stiúrthóireacht	stiúrthóireachta stiúrthóireachtaí
+84	5584	póstaer	phóstaeir phóstaer póstaeir
+85	5585	statach	statacha stataigh stataí
+86	5586	glúón	glúóin
+87	5587	nótáil	nótáilte
+88	5588	pasaireach	pasairigh
+89	5589	coraintín	choraintín gcoraintín
+90	5590	forás	bhforás d'fhorás fhorás foráis
+91	5591	ógra	
+92	5592	eotanáis	eotanáise heotanáise
+93	5593	zombaí	zombaithe
+94	5594	ceatsuais	ceatsuaise cheatsuais gceatsuais
+95	5595	dílsigh	dhílsigh dhílsithe dhílsiú dílsithe dílsíodh dílsítear
+96	5596	ólachán	ólacháin
+97	5597	radaigh	radaithe radaí radaíodh radaíonn radaítear radú
+98	5598	anás	
+99	5599	staraíocht	staraíochta
+100	5600	altaech	altaecha

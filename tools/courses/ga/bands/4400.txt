@@ -1,0 +1,100 @@
+1	4301	céinia	chéinia gcéinia
+2	4302	craoltóireacht	chraoltóireacht chraoltóireachta craoltóireachta gcraoltóireacht
+3	4303	comrádaí	chomrádaithe chomrádaí comrádaithe gcomrádaithe gcomrádaí
+4	4304	carthanas	carthanais charthanais charthanas gcarthanas
+5	4305	forbróir	bhforbróirí d'fhorbróirí fhorbróir fhorbróra forbróirí forbróra
+6	4306	ganntanas	ghanntanais ghanntanas nganntanas
+7	4307	éiceachóras	d'éiceachórais héiceachórais n-éiceachóras t-éiceachóras éiceachórais
+8	4308	deannach	deannaigh dheannach dheannaigh
+9	4309	síor	shíor shír
+10	4310	osnádúrtha	
+11	4311	seirfeach	seirfigh sheirfeach
+12	4312	bíog	bhíog bíge bíoga bíogtha mbíog víog
+13	4313	forainm	bhforainmneacha d'fhorainmneacha fhorainm fhorainmneacha
+14	4314	ruire	ruireach ruireacha
+15	4315	paitinn	bpaitinní paitinne paitinní phaitinn phaitinne phaitinní
+16	4316	slánuimhir	shlánuimhir shlánuimhreach shlánuimhreacha slánuimhreach slánuimhreacha tslánuimhir
+17	4317	geoiméadracht	geoiméadrachta gheoiméadracht ngeoiméadracht
+18	4318	maothán	maotháin mhaothán
+19	4319	diúcacht	dhiúcacht diúcachta diúcachtaí ndiúcacht
+20	4320	buidéal	bhuidéal bhuidéil buidéil mbuidéal mbuidéil
+21	4321	iomarcach	hiomarcach iomarcacha iomarcaigh
+22	4322	eipic	b'eipic eipice eipicí heipic heipice heipicí
+23	4323	bisiúil	bhisiúil bhisiúla bisiúla
+24	4324	leatrom	leatroim leatroma
+25	4325	bacán	bacáin bhacáin bhacán
+26	4326	sop	shop soip tsop
+27	4327	timire	dtimirí thimire timirí
+28	4328	pórú	bpórú phórú
+29	4329	tráthrialta	thráthrialta
+30	4330	dóchúil	dhóchúil dhóchúla dóchúla
+31	4331	dainséar	dainséir ndainséar
+32	4332	marcra	marcraí mharcra
+33	4333	neamhbhuan	neamhbhuaine neamhbhuana
+34	4334	tionónta	dtionóntaí thionónta
+35	4335	treas	threas threasa treasa
+36	4336	bogach	bhogach bhogaigh bogaigh mbogach mbogaigh
+37	4337	ríomhphost	ríomhphoist
+38	4338	coicís	choicís coicíos coicíse gcoicís
+39	4339	gus	dus
+40	4340	anall	
+41	4341	stiúraigh	stiúraithe stiúraíodh stiúraíonn stiúraítear stiúrú
+42	4342	tuathánach	dtuathánach thuathánach thuathánaigh tuathánaigh
+43	4343	leochaileach	leochaileacha leochailí
+44	4344	tabharthach	tabharthaigh thabharthach
+45	4345	constaic	chonstaic chonstaicí constaicí gconstaic gconstaicí
+46	4346	sicilis	sicilise tsicilis
+47	4347	greanta	ghreanta
+48	4348	toirmeasc	thoirmeasc
+49	4349	putóg	bputóg phutóg phutóga phutóige putóga putóige
+50	4350	dabht	
+51	4351	faighin	bhfaighin bhfaighneacha faighean faighne fhaighin fhaighne
+52	4352	móitíf	mhóitíf mhóitífeanna móitífe móitífeanna
+53	4353	éide	n-éide éidí
+54	4354	mórscála	mhórscála
+55	4355	greamú	ghreamú
+56	4356	teanntán	dteanntán teanntáin theanntán
+57	4357	mún	mhún mhúna mhúnann múin múna múnadh múnta
+58	4358	geiteo	geiteonna gheiteo gheiteonna ngeiteo ngeiteonna
+59	4359	rialóir	rialóirí
+60	4360	bior	bear beara bheara bhioranna bioranna mbior
+61	4361	daonlathaigh	daonlathaithe daonlathaí daonlathú dhaonlathaithe dhaonlathaí ndaonlathaithe
+62	4362	réaltnéal	réaltnéalta réaltnéil
+63	4363	fuaimrian	bhfuaimrian d'fhuaimrian fhuaimriain fhuaimrian fuaimriain fuaimrianta
+64	4364	ainsealach	ainsealacha ainsealaí
+65	4365	plasma	bplasma bplasmaí phlasma plasmaí
+66	4366	cothaitheach	chothaitheach chothaitheacha chothaithigh cothaitheacha cothaithigh gcothaitheach gcothaithigh
+67	4367	mongán	mongáin
+68	4368	prionta	bprionta priontaí
+69	4369	rómánach	rómánacha rómánaigh
+70	4370	foclóireacht	bhfoclóireacht fhoclóireacht fhoclóireachta foclóireachta
+71	4371	glórach	ghlórach ghlóracha ghlóraí ghlórú glóracha glóraí
+72	4372	comhriachtain	chomhriachtain chomhriachtana comhriachtana gcomhriachtain
+73	4373	collaíocht	chollaíocht collaíochta gcollaíocht
+74	4374	sealgaireacht	sealgaireachta shealgaireacht tsealgaireacht
+75	4375	déantúsán	dhéantúsáin dhéantúsán déantúsáin ndéantúsán
+76	4376	gríofa	ghríofa
+77	4377	giúistís	ghiúistís ghiúistísí giúistísí ngiúistís ngiúistísí
+78	4378	faoileán	bhfaoileán d'fhaoileán faoileáin fhaoileáin fhaoileán
+79	4379	idéalach	hidéalach idéalacha idéalaigh idéalaíonn
+80	4380	réamhstair	réamhstaire
+81	4381	croíleacán	chroíleacáin chroíleacán croíleacáin gcroíleacáin gcroíleacán
+82	4382	boc	bhoc bhoic boic mboc
+83	4383	comhchosúil	chomhchosúil chomhchosúla comhchosúla
+84	4384	collach	chollaigh cullach
+85	4385	éadóchas	héadóchas t-éadóchas éadóchais
+86	4386	mapáil	mapáilte mapála mhapáil mhapála mhapálann
+87	4387	pacáil	pacáilte pacála phacáil phacáiltear
+88	4388	naíonra	naíonraí
+89	4389	toirchigh	dtoirchítear thoirchithe thoirchítear toirchithe
+90	4390	éirimiúil	héirimiúil éirimiúla
+91	4391	fócasach	bhfócasú fhócasú fócasacha fócasú
+92	4392	1ú	
+93	4393	liopa	liopaí
+94	4394	teachtaire	teachtairí theachtaire theachtairí
+95	4395	tais	taisí thais thaisí
+96	4396	dímhorfach	dhímhorfach dhímhorfacha dímhorfacha
+97	4397	uiscigh	huisciú uiscithe uisciú
+98	4398	lúthchleasaíocht	lúthchleasaíochta
+99	4399	loc	locadh loctar loic
+100	4400	tréas	dtréas thréas tréasa

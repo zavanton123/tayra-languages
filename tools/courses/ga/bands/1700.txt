@@ -1,0 +1,100 @@
+1	1601	cosúlacht	chosúlacht chosúlachta chosúlachtaí cosúlachta cosúlachtaí gcosúlacht gcosúlachtaí
+2	1602	naíonán	naíonáin
+3	1603	óstán	hóstáin hóstán n-óstán t-óstán óstáin
+4	1604	tugtha	
+5	1605	garbh	gairbh gairbhe garbha ghairbh ghairbhe gharbh gharbha
+6	1606	ciste	chiste chistí cistí gciste gcistí
+7	1607	tuairiscigh	dtuairisciú dtuairiscíonn dtuairiscítear thuairiscigh thuairisciú thuairiscíodh thuairiscíonn thuairiscítear tuairiscithe tuairisciú tuairiscíodh tuairiscíonn tuairiscítear
+8	1608	barúil	barúla barúlacha bharúil mbarúil mbarúlacha
+9	1609	géilleadh	ghéilleadh ngéilleadh
+10	1610	gáire	gháire gáirí ngáirí
+11	1611	iarmhairt	d'iarmhairt hiarmhairt hiarmhairtí hiarmharta iarmhairtí n-iarmhairtí
+12	1612	séadchomhartha	shéadchomhartha shéadchomharthaí séadchomharthaí tséadchomhartha
+13	1613	dlíthiúil	dhlíthiúil dhlíthiúla dlíthiúla
+14	1614	tacht	dtachta dtachtadh dtachtfaidh dtachtfar tachta tachtadh tachtaimis tachtfar thacht thachta thachtadh thachtfadh thachtfaidh
+15	1615	ócáid	b'ócáid hócáid hócáide hócáidí n-ócáidí ócáide ócáidí
+16	1616	col	choil chol chola cholaim coil coladh colanna gcol gcolanna
+17	1617	rathúil	rathúla
+18	1618	giall	ghiall ghialla gialla ngiall ngialla
+19	1619	toghcheantar	dtoghcheantair dtoghcheantar thoghcheantair thoghcheantar toghcheantair
+20	1620	óráid	d'óráid d'óráidí hóráid hóráide hóráidithe hóráidí óráide óráidí
+21	1621	ardeaglais	ardeaglaise ardeaglaisí d'ardeaglais hardeaglais hardeaglaise hardeaglaisí
+22	1622	bratach	bhratach bhratacha bratacha brataí mbratach mbratacha
+23	1623	leaba	leabaidh leapa leapacha
+24	1624	gas	gais ghais ghas ngais ngas
+25	1625	brainse	bhrainse bhrainsí brainsí mbrainse mbrainsí
+26	1626	srianta	shrianta
+27	1627	iascaireacht	d'iascaireacht hiascaireacht hiascaireachta iascaireachta iascaireachtaí
+28	1628	crios	chreasa chrios chriosanna creasa criosa criosanna cris gcreasa gcrios gcriosanna
+29	1629	dlíodóir	dhlíodóir dhlíodóirí dlíodóirí dlíodóra ndlíodóirí
+30	1630	aistí	
+31	1631	teangach	teangaí theangacha theangaigh theangaí
+32	1632	aimsiú	
+33	1633	bainistíocht	bainistíochta bhainistíocht bhainistíochta mbainistíocht
+34	1634	pláta	bpláta bplátaí phláta phlátaí plátaí
+35	1635	damhsa	damhsaí dhamhsa dhamhsaí ndamhsa ndamhsaí
+36	1636	coiscéim	choiscéim coiscéimeanna coisméig gcoiscéim
+37	1637	éagsúlacht	d'éagsúlacht héagsúlacht héagsúlachta héagsúlachtaí n-éagsúlacht n-éagsúlachtaí éagsúlachta éagsúlachtaí
+38	1638	núicléach	núicléacha núicléiche
+39	1639	patrún	bpatrúin bpatrún patrúin phatrúin phatrún
+40	1640	sealbhóir	sealbhóirí shealbhóir shealbhóirí tsealbhóra
+41	1641	fíochán	bhfíocháin bhfíochán d'fhíocháin d'fhíochán fhíocháin fhíochán fíocháin
+42	1642	coilíneach	choilíneach choilíneacha choilínigh choilínithe choilíniú coilíneacha coilínigh coilínithe coilíniú coilíní coilíníodh coilíníonn cóilíneach gcoilíneach gcoilínigh gcoilínithe gcoilíniú
+43	1643	diúc	dhiúc dhiúca dhiúic diúic ndiúc
+44	1644	léargas	léargais
+45	1645	saoránach	saoránaigh shaoránach shaoránaigh tsaoránaigh
+46	1646	straitéis	straitéise straitéisí
+47	1647	ceannasaí	ceannasaithe cheannasaithe cheannasaí gceannasaithe gceannasaí
+48	1648	úinéir	b'úinéir d'úinéir d'úinéirí d’úinéirí húinéir húinéirí n-úinéirí t-úinéir úinéara úinéirí
+49	1649	bolg	bhoilg bholg bholga bholgann boilg bolga bolgadh bolgtha mboilg mbolg
+50	1650	saorstát	saorstáit shaorstáit shaorstát tsaorstáit tsaorstát
+51	1651	dearfach	dearfacha dearfaigh dearfaí dhearfach dhearfacha dhearfaigh
+52	1652	tuarascáil	dtuarascáil dtuarascálacha thuarascáil thuarascálacha tuarascála tuarascálacha
+53	1653	cóisir	chóisir chóisirí cóisire cóisirí gcóisir
+54	1654	tóin	dtóin thóin tón tóna
+55	1655	euro	
+56	1656	dearbhaigh	dearbhaithe dearbhaím dearbhaímid dearbhaíodh dearbhaíonn dearbhaítear dhearbhaigh dhearbhaithe dhearbhaíodar dhearbhaíonn dhearbhódh ndearbhaíonn ndearbhaítear ndearbhódh
+57	1657	géiniteach	ghéiniteach ghéiniteacha ghéinitigh géiniteacha géinití
+58	1658	praiticiúil	phraiticiúil phraiticiúla praiticiúla
+59	1659	cúiteamh	chúiteamh chúitimh cúitimh gcúiteamh
+60	1660	diúltach	dhiúltach dhiúltacha diúltacha diúltaí
+61	1661	dóthain	daochaint dhóthain ndóthain
+62	1662	fí	fhite fhí fite
+63	1663	treabh	dtreabh dtreabhann dtreibheanna threabh threabhadar threabhadh threabhann threabhtar treabha treabhadh treabhainn treabhair treabhann treafa treibhe treibheanna
+64	1664	oirdheisceart	d'oirdheisceart hoirdheisceart n-oirdheisceart oirdheiscirt
+65	1665	oibríocht	d'oibríocht d'oibríochtaí d’oibríochtaí hoibríocht hoibríochta hoibríochtaí n-oibríochtaí oibríochta oibríochtaí
+66	1666	cupán	chupán cupáin gcupáin gcupán
+67	1667	cruinnigh	chruinnigh chruinníodh chruinníonn chruinnítear cruinneofar cruinnithe cruinníodh cruinníonn cruinnítear gcruinníonn
+68	1668	eascair	d'eascair eascairt eascraíonn n-eascraíonn
+69	1669	ga	gae gath gathanna gha ghathanna nga ngathanna
+70	1670	liathróid	liathróide liathróidí
+71	1671	nocht	nochta nochtaidh nochtann nochtar nochtaí nochtfadh nochtfaidh nochtfar nochtfaí noichte
+72	1672	cóir	chóra córa córacha gcóir gcóracha
+73	1673	códaigh	chódaithe chódaíonn chódaítear chódú códaithe códaí códaíodh códaíonn códaítear códú gcódú
+74	1674	leictreonach	leictreonacha leictreonaigh leictreonaí
+75	1675	teampall	dteampaill dteampall teampaill theampaill theampall
+76	1676	tástáil	dtástáil dtástálacha thástáil thástálacha tástáilte tástála tástálacha tástáladh tástálann
+77	1677	iondúil	b'iondúil hiondúil
+78	1678	ceannairc	ceannairce ceannaircí cheannairc cheannaircí gceannairc
+79	1679	madadh	mada madaidh mhadadh mhadaidh
+80	1680	maighnéadach	maighnéadacha maighnéadaithe maighnéadaí mhaighnéadach mhaighnéadacha mhaighnéadaigh
+81	1681	poblachtánach	bpoblachtánach phoblachtánach phoblachtánacha phoblachtánaigh poblachtánacha poblachtánaigh poblachtánaí
+82	1682	cláraigh	chláraigh chláraithe chláraíodh chláraíonn cláraithe cláraíodh cláraíonn cláraítear
+83	1683	aithris	aithrise aithriste aithrisí aithrisíodh aithrisíonn aithrisítear d'aithris d’aithris haithris haithrise haithrisí
+84	1684	sreang	shreang shreanga sreanga sreangaithe sreanganna sreinge tsreang
+85	1685	ridire	ridirí
+86	1686	cosain	chosain chosnaíodar chosnaíodh chosnaíonn chosnaítear chosnaítí chosnódh chosnóidh chosnóidís cosnaíodh cosnaíonn cosnaítear cosnóidh gcosnaíonn gcosnódh gcosnófar gcosnófaí gcosnóidh
+87	1687	deacracht	deacrachta deacrachtaí dheacracht dheacrachtaí ndeacrachtaí
+88	1688	buille	bhuille bhuillí buillí mbuille mbuillí
+89	1689	caibidil	caibidle caibidlí chaibidil chaibidlí gcaibidil gcaibidlí
+90	1690	aisling	aislinge aislingí d'aislingí haisling haislinge haislingí n-aislingí
+91	1691	gaolmhar	gaolmhaire gaolmhara ghaolmhair ghaolmhaire ghaolmhar ghaolmhara
+92	1692	díospóireacht	dhíospóireacht dhíospóireachta dhíospóireachtaí díospóireachta díospóireachtaí ndíospóireacht ndíospóireachtaí
+93	1693	beartas	beartais mbeartais mbeartas
+94	1694	foilseachán	bhfoilseacháin bhfoilseachán d'fhoilseacháin fhoilseacháin fhoilseachán foilseacháin
+95	1695	spraoi	
+96	1696	radacach	radacacha radacaigh radacaí
+97	1697	sligeach	shligeach shligigh sligigh
+98	1698	lámhach	lámhachadh lámhachainn lámhachta lámhaigh
+99	1699	cléireach	chléireach chléirigh cléirigh gcléireach gcléirigh
+100	1700	ciseal	chiseal chisil cisil gciseal gcisil

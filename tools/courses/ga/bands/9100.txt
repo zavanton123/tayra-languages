@@ -1,0 +1,100 @@
+1	9001	prión	prióin
+2	9002	puipéadóir	
+3	9003	pábháil	phábháil phábháilte phábhálacha pábháilte pábhála
+4	9004	scim	scime
+5	9005	scothdhonn	scothdhonna
+6	9006	scórálaí	scórálaithe
+7	9007	socach	shocaigh shocaí
+8	9008	subh	suibhe
+9	9009	éigiontaigh	d'éigiontaigh héigiontaíodh t-éigiontú éigiontaíodh éigiontóidh éigiontú
+10	9010	timpeallán	
+11	9011	tiompán	tiompáin
+12	9012	tíofóideach	
+13	9013	éiteas	t-éiteas
+14	9014	íonacht	híonacht híonachta íonachta
+15	9015	óipiam	t-óipiam
+16	9016	útarach	útaracha
+17	9017	acaech	
+18	9018	deann	
+19	9019	sairdis	
+20	9020	tim	thime
+21	9021	buaibheach	bhuaibheach
+22	9022	comhfhuaim	chomhfhuaim
+23	9023	céadghin	chéadghin céadghine
+24	9024	grod	
+25	9025	haisis	
+26	9026	hamaidriad	hamaidriada
+27	9027	léiritheacht	
+28	9028	roghnaíocht	roghnaíochta
+29	9029	siosc	sioscadh
+30	9030	stádar	
+31	9031	síolaigh	síolú
+32	9032	tathag	
+33	9033	dórtúr	dórtúir
+34	9034	conlach	chonlach
+35	9035	rúrach	rúraí
+36	9036	agnóiseachas	agnóiseachais
+37	9037	andraigíneach	andraigínigh
+38	9038	athnasc	athnascadh t-athnascadh
+39	9039	beithsine	mbeithsine
+40	9040	fáibhile	bhfáibhilí
+41	9041	ceannbheart	cheannbheart
+42	9042	croíúlacht	gcroíúlacht
+43	9043	fodhearg	fhodhearg
+44	9044	fótatrófach	fótatrófaigh
+45	9045	galldachas	galldachais ghalldachais
+46	9046	gnásúil	ghnásúil ghnásúla
+47	9047	leaistiméir	leaistiméire leaistiméirí
+48	9048	míbhuíochas	mhíbhuíochais míbhuíochais
+49	9049	oirbheart	oirbhearta
+50	9050	príomhchuimhne	phríomhchuimhne
+51	9051	promóisean	promóisin
+52	9052	sainchomhairle	shainchomhairlí
+53	9053	taispeántach	taispeántacha thaispeántaí
+54	9054	tarchéimnigh	tharchéimneodh tharchéimniú tharchéimníonn
+55	9055	tuil	thuil thuileadh thuileann tuileadh tuileann
+56	9056	onnmhairigh	d'onnmhairítí onnmhairithe onnmhairiú onnmhairíodh onnmhairíonn
+57	9057	mámh	mháimh mhámh máimh máite
+58	9058	máta	mháta
+59	9059	araid	araide araidí
+60	9060	eindéimeach	eindéimeacha
+61	9061	comhréireacht	chomhréireacht chomhréireachta comhréireachta
+62	9062	bailéarach	bailéaracha bhailéarach bhailéaracha
+63	9063	mairteoil	mairteola mairtfheóil mhairteoil
+64	9064	iontaobhach	hiontaobhaithe hiontaobhaí iontaobhaithe iontaobhaí n-iontaobhaithe
+65	9065	pláitín	bpláitíní phláitín phláitíní pláitíní
+66	9066	logh	logha loghadh loghanna loghtha
+67	9067	fearsaid	fearsad fearsaide fearsaidí fhearsaid
+68	9068	polaimiailíteas	pholaimiailíteas pholaimiailítis polaimiailítis
+69	9069	éaneolaí	héaneolaithe t-éaneolaí éaneolaithe
+70	9070	deilí	ndeilí
+71	9071	drochúsáid	dhrochúsáid drochúsáide ndrochúsáid
+72	9072	ailb	ailbe
+73	9073	cis	cise
+74	9074	muirn	mhuirne muirne
+75	9075	paitríoch	bpaitríoch paitrígh paitríocha phaitrígh
+76	9076	seansaireacht	seansaireachta
+77	9077	siún	
+78	9078	tul	tula
+79	9079	aerga	
+80	9080	agó	
+81	9081	ban-ab	ban-aba ban-abaí banab banaba bhan-ab bhan-abaí
+82	9082	bláthóg	bláthóga
+83	9083	cartlannaigh	cartlannaithe cartlannaí chartlannaí chartlannú
+84	9084	comhlánaigh	chomhlánaíonn chomhlánú comhlánú
+85	9085	craos	chraos gcraois
+86	9086	deargéadan	deargéadain
+87	9087	donnrua	
+88	9088	eadránach	eadránaí headránaí n-eadránaithe t-eadránaí
+89	9089	easláinte	
+90	9090	falacail	bhfalacailí falacailí fhalacail
+91	9091	fo-aonad	fho-aonad fho-aonaid fo-aonaid foaonaid
+92	9092	foracha	fhoracha forachain
+93	9093	gasail	gasaile ghasail
+94	9094	garraíodóireacht	garraíodóireachta gharraíodóireacht
+95	9095	iosta	iostaí
+96	9096	logartam	logartaim
+97	9097	luaíocht	luaíochta luaíochtaí
+98	9098	minc	mhinc minceanna
+99	9099	mionaoiseach	mhionaoiseach mhionaoisigh mionaoisigh
+100	9100	glasach	ghlasach ghlasaigh nglasach

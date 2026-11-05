@@ -1,0 +1,100 @@
+1	9701	léibheann	léibhinn
+2	9702	meitifisiciúil	meitifisiciúla
+3	9703	mífhoighneach	
+4	9704	móideim	
+5	9705	mórchomórtas	mórchomórtais
+6	9706	neastachán	neastacháin
+7	9707	póraitheoir	phóraitheoir póraitheoirí
+8	9708	polagán	pholagán polagáin
+9	9709	righneas	
+10	9710	roinnteoir	roinnteoirí
+11	9711	rop	ropadh roptha
+12	9712	rómánsaí	rómánsaithe
+13	9713	rúcach	rúcaigh
+14	9714	sceachaill	sceachaillí
+15	9715	seamaí	seamaithe
+16	9716	snáth	snátha
+17	9717	suaitheanta	
+18	9718	suiméiris	suiméirise tsuiméiris
+19	9719	trasghnéasach	trasghnéasacha
+20	9720	trípháirteach	trípháirteacha
+21	9721	uaisligh	n-uaisleofaí uaislithe uaisliú uaislí uaislíodh
+22	9722	voltach	voltaí
+23	9723	éagnairc	éagnairce
+24	9724	éanúil	
+25	9725	ógbhean	ógbhan
+26	9726	isiméireach	isiméireacha isiméirí
+27	9727	astralaí	astralaithe hastralaithe
+28	9728	ilstórach	hilstóraigh ilstóracha ilstóraigh
+29	9729	athfhriotal	athfhriotail
+30	9730	mairg	mairge mhairg
+31	9731	frithpháirteach	fhrithpháirteach fhrithpháirteacha fhrithpháirtigh fhrithpháirtí frithpháirteacha
+32	9732	búir	bhúir bhúireadh búireadh búireanna
+33	9733	comhbhrón	chomhbhróin chomhbhrón comhbhróin gcomhbhrón
+34	9734	breisigh	breisithe
+35	9735	sliotar	
+36	9736	domhainspéire	
+37	9737	crean	
+38	9738	veidhleadóir	
+39	9739	seachránach	seachránaí
+40	9740	díomhaoin	díomhaoine
+41	9741	scléaróis	scléaróise
+42	9742	xiléim	xiléime
+43	9743	sluma	slumaí
+44	9744	trosc	dtrosc
+45	9745	seachbhóthar	seachbhóithre sheachbhóthar
+46	9746	leamhán	leamháin
+47	9747	liopard	liopaird
+48	9748	toirtmheasc	toirtmheascadh toirtmheasctha
+49	9749	camóg	camóga camóige chamóg chamóige
+50	9750	tabhartas	tabhartais thabhartais thabhartas
+51	9751	ruaimneach	ruaimnigh ruaimnithe ruaimniú ruaimnítear
+52	9752	feannóg	feannóige fheannóg fionnóg
+53	9753	aighne	
+54	9754	céiliach	
+55	9755	dallóg	dallóga
+56	9756	géagán	ghéagáin géagáin
+57	9757	indiach-mheiriceánach	
+58	9758	macra	mhacra
+59	9759	malaech	malaeigh mhalaech mhalaecha
+60	9760	meirgire	mheirgire
+61	9761	mianán	mianáin
+62	9762	rannchuidigh	rannchuidiú rannchuidíonn
+63	9763	sacs-bhéarla	
+64	9764	siúnta	siúntaí
+65	9765	ailm	ailme
+66	9766	amaidí	hamaidí
+67	9767	amfaiteireach	amfaiteireacha
+68	9768	ardaitheach	
+69	9769	athshondach	athshondacha
+70	9770	bruachbhailteach	bhruachbhailteach bruachbhailteacha bruachbhailtí
+71	9771	bladhaire	bhladhairí bladhairí
+72	9772	buaircín	buaircíní
+73	9773	carrbhealach	carrbhealaí
+74	9774	cnáimhseachas	chnáimhseachais cnáimhseachais
+75	9775	coibhín	choibhín choibhíní coibhíní
+76	9776	cioglatrón	
+77	9777	coigilteas	choigiltis coigiltis
+78	9778	coinsíneacht	coinsíneachtaí
+79	9779	coirpeacht	coirpeachta gcoirpeacht
+80	9780	comhchuid	comhchodanna
+81	9781	coróinín	
+82	9782	cúirtéiseach	chúirtéisigh
+83	9783	deá	dheá
+84	9784	déach	dhéach déigh
+85	9785	dlaoi	dlaoithe
+86	9786	drochbhéasach	drochbhéasacha
+87	9787	eicléictiúil	eicléictiúla
+88	9788	eipitéiliach	eipitéiliacha
+89	9789	faisnéiseoir	faisnéiseoirí fhaisnéiseoir
+90	9790	aithinne	bhfaithní faithní
+91	9791	forghéill	fhorghéilleadh forghéilleadh forghéillte
+92	9792	foscúil	fhoscúil fhoscúla foscúla
+93	9793	figín	
+94	9794	frithocsaídeoir	frithocsaídeoirí
+95	9795	fíréanta	
+96	9796	ciotóg	chiotóg gciotóg
+97	9797	gairmiúlacht	gairmiúlachta ghairmiúlacht
+98	9798	gnóisíochas	ghnóisíochais ghnóisíochas ngnóisíochas
+99	9799	glé	
+100	9800	gnáthleibhéal	ghnáthleibhéil gnáthleibhéil ngnáthleibhéal

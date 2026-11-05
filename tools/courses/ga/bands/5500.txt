@@ -1,0 +1,100 @@
+1	5401	poncaíocht	phoncaíocht poncaíochta
+2	5402	stíligh	stílithe stíliú stílí
+3	5403	cairilínseach	cairilínseacha cairilínsigh cairilínsí chairilínseach gcairilínseach
+4	5404	íosmhéid	t-íosmhéid íosmhéide
+5	5405	coidéacs	choidéacs coidéacsanna gcoidéacs
+6	5406	míoltóg	mhíoltóg mhíoltóga míoltóga míoltóige
+7	5407	adhaltranas	adhaltranais
+8	5408	dlíthíocht	dhlíthíocht dlíthíochta ndlíthíocht
+9	5409	abhacréalta	abhacréaltaí habhacréalta habhacréaltaí
+10	5410	goimh	ghoimh ngoimh
+11	5411	sceach	sceacha sceiche
+12	5412	tóchar	dtóchar thóchar tóchair
+13	5413	easpórtáil	d'easpórtálacha easpórtáiltear easpórtála easpórtálacha easpórtáladh easpórtálann heaspórtáil n-easpórtáil n-easpórtálacha
+14	5414	maisitheoir	maisitheoirí mhaisitheoir
+15	5415	teicteonach	teicteonacha theicteonach theicteonacha
+16	5416	aimhréidh	aimhréidhe haimhréidhe
+17	5417	ancaire	ancairí hancaire hancairí t-ancaire
+18	5418	éarlamh	
+19	5419	liagchiorcal	liagchiorcail
+20	5420	brónach	bhrónach bhrónaí brónacha brónaigh
+21	5421	siamsa	shiamsa siamsaí
+22	5422	salamanca	
+23	5423	dallamullóg	
+24	5424	eadráin	eadrána headráin
+25	5425	daol	daoil ndaol
+26	5426	pápach	phápach phápacha phápaigh pápacha pápaigh
+27	5427	athbheoigh	athbheodh athbheoite athbheonn d'athbheoigh
+28	5428	cainníochtúil	cainníochtúla chainníochtúil chainníochtúla
+29	5429	súlach	shúlach súlaigh
+30	5430	díolmhaigh	dhíolmhú díolmhaithe díolmhaí díolmhaíodh díolmhú
+31	5431	saothróg	saothróga saothróige
+32	5432	amharcléiriú	amharcléirithe
+33	5433	marcmheáchan	marcmheáchain
+34	5434	míosúil	mhíosúil mhíosúla míosúla
+35	5435	éigniú	n-éigniú
+36	5436	maignéisiam	mhaignéisiam
+37	5437	coróinvíreas	choróinvíreas coróinvíris gcoróinvíreas
+38	5438	núicléitíd	núicléitíde núicléitídí
+39	5439	neamhbhalbh	neamhbhailbhe
+40	5440	cathach	cathacha cathaigh cathaitheach chathach chathacha
+41	5441	leictrealaigh	leictrealaithe leictrealú
+42	5442	bréagnaigh	bhréagnaigh bhréagnaíodh bhréagnaíonn bhréagnódh bréagnaithe bréagnaíodh bréagnaíonn bréagnaítear mbréagnaídís mbréagnaíonn
+43	5443	asma	hasma t-asma
+44	5444	gluaisteach	ghluaisteach ghluaisteacha gluaisteacha
+45	5445	piostal	bpiostal phiostail phiostal piostail
+46	5446	véarsaíocht	véarsaíochta
+47	5447	míthrócaireach	mhíthrócaireach míthrócaireacha
+48	5448	sconna	sconnaí
+49	5449	aor	aora aoradh aortha haor
+50	5450	ex	
+51	5451	cruidín	chruidín cruidíní gcruidín
+52	5452	traic	traiceanna
+53	5453	mól	mhóil mhól móil
+54	5454	coisric	choisric choisricthe coisriceadh coisricthe
+55	5455	eacuadór	heacuadór
+56	5456	mairíne	
+57	5457	aireagóir	aireagóra t-aireagóir
+58	5458	sealúchas	sealúchais shealúchais shealúchas tsealúchais
+59	5459	bairéad	bairéid bhairéad bhairéid
+60	5460	tóiriam	
+61	5461	úrnua	
+62	5462	téis	théis téiseanna
+63	5463	aonteangach	aonteangacha aonteangaigh aonteangaí
+64	5464	atheagrú	t-atheagrú
+65	5465	ardchathair	ardchathrach ardchathracha b'ardchathair hardchathrach
+66	5466	séalaigh	shéalaigh shéalaithe shéalaítear shéalú séalaithe séalaíodh
+67	5467	scóp	scóip scóipe
+68	5468	speisialtóireacht	speisialtóireachta
+69	5469	conraitheoir	chonraitheoir chonraitheoirí conraitheoirí gconraitheoirí
+70	5470	dúshaothrú	dhúshaothrú dúshaothraithe
+71	5471	nua-aoiseachas	nua-aoiseachais
+72	5472	monaraigh	mhonaraigh mhonaraithe mhonaraítear mhonarú monaraithe monarú
+73	5473	ordlathas	ordlathais t-ordlathas
+74	5474	fáistine	fháistine fáistiní
+75	5475	basalt	basailt bhasalt mbasalt
+76	5476	dlí-eolaíocht	dlí-eolaíochta
+77	5477	teirmidinimice	
+78	5478	geaifil	gheaifil
+79	5479	athsheinn	athsheanma athsheinm athsheinnte athsheinntear
+80	5480	ardléann	ardléinn
+81	5481	sailéad	sailéid
+82	5482	ur	hur ura
+83	5483	eibhear	d'eibhear eibhir heibhear t-eibhear
+84	5484	hiodrocsaíd	hiodrocsaíde hiodrocsaídí
+85	5485	dlí-eolaí	dhlí-eolaí dlí-eolaithe ndlí-eolaithe
+86	5486	teoirim	teoirime teoirimí theoirim
+87	5487	coirce	choirce
+88	5488	aitheasc	aithisc haitheasc haithisc t-aitheasc
+89	5489	alcólach	alcólacha alcólaigh d'alcólach halcólaigh
+90	5490	sceideal	sceidil
+91	5491	bródúil	bródúla
+92	5492	fortacht	bhfortacht fortachta
+93	5493	ráithe	
+94	5494	mandairínis	mandairínise mhandairínis
+95	5495	bithiúnach	bhithiúnach bhithiúnaigh bithiúnaigh mbithiúnach
+96	5496	uaillmhian	huaillmhian huaillmhianta uaillmhianta
+97	5497	athlonnaigh	athlonnaithe athlonnaíodh athlonnú d'athlonnaigh n-athlonnaithe n-athlonnódh n-athlonnófaí
+98	5498	piara	bpiaraí phiara phiaraí piaraí
+99	5499	liútar	liútair
+100	5500	crosbhóthar	chrosbhóthair chrosbhóthar crosbhóithre crosbhóthair gcrosbhóthar

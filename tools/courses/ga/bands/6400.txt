@@ -1,0 +1,100 @@
+1	6301	roghnúchán	roghnúcháin
+2	6302	teicneolaíoch	teicneolaíocha theicneolaíoch
+3	6303	ceannródaíocht	ceannródaíochta cheannródaíocht cheannródaíochta
+4	6304	ionfhabhtaíoch	ionfhabhtaíocha
+5	6305	gread	ghread ghreadadh ghreadtar greadadh greadta
+6	6306	saibhrigh	saibhrithe saibhriú saibhríonn saibhrítear shaibhrigh shaibhriú shaibhríonn
+7	6307	aintiún	aintiúin
+8	6308	athcheangail	athcheangal
+9	6309	peiptídeach	peiptídí
+10	6310	criméach	chriméach chriméacha chriméigh
+11	6311	feann	d’fheann feannadh feannta fheannadh
+12	6312	tathagach	tathagacha thathagach
+13	6313	vicí	
+14	6314	loingseoir	loingseoirí
+15	6315	sorcha	shorcha
+16	6316	comhchuingeach	chomhchuingeacha comhchuingeacha
+17	6317	cróinéir	chróinéara chróinéir cróinéara gcróinéir
+18	6318	loit	loite loiteadh loiteann loitear
+19	6319	fial	fhial fhéil fiala féil
+20	6320	candam	candaim chandaim chandam gcandam
+21	6321	díláraigh	dhíláraithe dhílárú díláraithe dílárú
+22	6322	déirc	dhéirc déirce
+23	6323	paiteolaí	phaiteolaí
+24	6324	alfa-cháithnín	alfa-cháithníní halfa-cháithníní t-alfa-cháithnín
+25	6325	leathchúpla	leathchúplaí
+26	6326	paca	bpaca bpacaí pacaí phaca phacaí
+27	6327	spreagúil	spreagúla
+28	6328	sólás	shólás sóláis
+29	6329	dintiúr	dhintiúir dhintiúr dintiúir ndintiúr
+30	6330	contráilte	chontráilte
+31	6331	comhleanúnach	chomhleanúnach chomhleanúnacha comhleanúnacha
+32	6332	cniotáil	chniotáil cniotáilte cniotála
+33	6333	saváí	shaváí tsaváí
+34	6334	tiúb	tiúibe
+35	6335	eirbiam	t-eirbiam
+36	6336	blúirín	bhlúirín blúiríní mblúirín
+37	6337	bunaonad	bhunaonad bhunaonaid bunaonaid mbunaonad
+38	6338	dochrach	dhochracha dochracha
+39	6339	míorúilt	mhíorúilt mhíorúiltí míorúilte
+40	6340	naomhóg	naomhóga naomhóige
+41	6341	drochamhras	dhrochamhras drochamhrais ndrochamhras
+42	6342	ráthaíocht	ráthaíochta ráthaíochtaí
+43	6343	luchóg	luchóga luchóige
+44	6344	breall	bhreall breille brille mbreall
+45	6345	leictreondís	leictreondíse leictreondíseanna
+46	6346	meánleibhéal	meánleibhéil mheánleibhéal mheánleibhéil
+47	6347	seicin	seicne seicní sheicin tseicin
+48	6348	eachtránaí	eachtránaithe t-eachtránaí
+49	6349	pléaráca	bpléaráca phléaráca
+50	6350	siléis	siléise tsiléis
+51	6351	seafóid	seafóide tseafóid
+52	6352	follas	b'fhollas
+53	6353	coinsiasach	choinsiasach coinsiasacha
+54	6354	rúnscríbhinn	rúnscríbhinní
+55	6355	bruíonachas	bruíonachais mbruíonachas
+56	6356	garr	gairr
+57	6357	rúta	rútaí
+58	6358	athrígh	athrí athríodh athríonn athrítear
+59	6359	ballra	bhallra mballra
+60	6360	daonscoil	daonscoileanna dhaonscoil
+61	6361	tréigtheoir	thréigtheoirí tréigtheoirí tréigtheora
+62	6362	ail	ailche hail
+63	6363	forbraíocht	fhorbraíocht fhorbraíochtaí forbraíochta
+64	6364	déghnéasach	dhéghnéasach dhéghnéasacha déghnéasacha
+65	6365	micribhitheolaí	micribhitheolaithe
+66	6366	carrach	carracha carraigh charrach charraigh charraí
+67	6367	spealán	spealáin
+68	6368	inmharthana	
+69	6369	ísealchríoch	hísealchríocha ísealchríche ísealchríocha
+70	6370	comhordaitheoir	chomhordaitheoir comhordaitheoirí
+71	6371	fioscach	fhioscach fioscacha
+72	6372	díthreabhach	dhíthreabhach dhíthreabhaigh díthreabhaigh
+73	6373	ionchoisne	hionchoisne ionchoisní t-ionchoisne
+74	6374	mianrach	mhianrach mhianracha mianracha
+75	6375	saincheadúnas	saincheadúnais shaincheadúnas
+76	6376	smuigleáil	smuigleáilte smuigleáiltear smuigleála
+77	6377	lóistíocht	lóistíochta
+78	6378	misteachas	mhisteachais mhisteachas
+79	6379	trínar	
+80	6380	fiseolaíoch	fiseolaíocha
+81	6381	gleacaíocht	ghleacaíocht ghleacaíochta gleacaíochta
+82	6382	cuirtín	chuirtín cuirtíní
+83	6383	tíolacadh	thíolacadh tíolactha tíolacthaí tíolaiceadh
+84	6384	gróintín	ghróintín gróintíní
+85	6385	ribeadán	ribeadáin
+86	6386	scód	scóid scóide
+87	6387	busáras	bhusárais bhusáras
+88	6388	sunda	shunda
+89	6389	dosheachanta	dhosheachanta
+90	6390	misinéireacht	mhisinéireachta misinéireachta
+91	6391	slaodach	shlaodach shlaodacha shlaodaigh slaodaí
+92	6392	athscríobh	athscríobhadh athscríobhtar athscríofa d'athscríobh hathscríobh hathscríobhadh n-athscríobh
+93	6393	piteog	
+94	6394	criostalach	chriostalaigh criostalú
+95	6395	bairiam	bhairiam mbairiam
+96	6396	frithsheasmhach	fhrithsheasmhach fhrithsheasmhacha frithsheasmhacha frithsheasmhaí
+97	6397	rómhór	
+98	6398	seadánach	seadánacha sheadánach sheadánacha
+99	6399	smideadh	smididh
+100	6400	ard-diúc	ard-diúic d'ard-diúc

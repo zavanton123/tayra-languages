@@ -1,0 +1,100 @@
+1	1201	cuidiú	chuidithe chuidiú cuidithe gcuidiú
+2	1202	seachtú	7ú sheachtú tseachtú
+3	1203	múin	mhúin mhúine mhúineadh mhúineann mhúinfeadh mhúinidís mhúintear múineann múinfidh múinfí múinidh múintear
+4	1204	dornálaí	dhornálaithe dhornálaí dornálaithe
+5	1205	oiliúint	b’oiliúint d'oiliúint hoiliúint hoiliúna n-oiliúint oiliúna
+6	1206	radharc	radhairc
+7	1207	rialaigh	rialaithe rialaíodh rialaíonn rialaítear rialódh rialófar rialófaí
+8	1208	foilsiú	bhfoilsiú fhoilsiú
+9	1209	cliste	chliste
+10	1210	beith	beithe beitheanna bheith bheithe bheitheanna mbeith
+11	1211	iarsma	d'iarsmaí d’iarsmaí hiarsma hiarsmaí iarsmaí n-iarsmaí
+12	1212	sáraigh	sháraigh sháraíodar sháraíodh sháraíonn sháraítear sháruithe shárú sáraithe sáraí sáraíodh sáraíonn sáraítear sáruithe sáródh sárófaí sáróidh sárú
+13	1213	ceangailte	cheangailte
+14	1214	geimhreadh	geamhradh geimhridh gheimhreadh gheimhridh ngeimhreadh
+15	1215	caomhnaigh	caomhnaithe caomhnaíodh caomhnaíonn caomhnaítear caomhnóir chaomhnaigh chaomhnaithe chaomhnaíodh chaomhnaíonn chaomhnaítear chaomhnódh chaomhnóir gcaomhnaí gcaomhnaíonn gcaomhnaítear gcaomhnófar gcaomhnóidh
+16	1216	caighdeánach	caighdeánacha caighdeánaithe caighdeánaí chaighdeánach chaighdeánacha chaighdeánaigh
+17	1217	ionradh	d'ionradh d’ionradh hionradh hionraí ionraidh ionraí n-ionraidh t-ionradh
+18	1218	fiann	bhfiann d'fhiann d'fhianna d’fhianna fhiann fhéinne fian fianna féinne
+19	1219	iarann	d'iarann d’iarann hiarann iarainn n-iarann t-iarann
+20	1220	ceamara	ceamaraí cheamara cheamaraí gceamara gceamaraí
+21	1221	acmhainn	acmhainne acmhainní b'acmhainn d'acmhainn d'acmhainní d’acmhainn d’acmhainní hacmhainn hacmhainne hacmhainní n-acmhainn n-acmhainní
+22	1222	cúnamh	chúnaimh chúnamh chúnta cúnaimh cúnta gcúnamh
+23	1223	sórt	seort shórt sóirt tsórt
+24	1224	ola	d'ola d'olaí hola holaí olaí
+25	1225	bunscoil	bhunscoil bhunscoile bhunscoileanna bunscoile bunscoileanna mbunscoil mbunscoileanna
+26	1226	téama	dtéamaí théama théamaí téamaí
+27	1227	meascán	meascáin mheascáin mheascán
+28	1228	ochtú	8ú hochtú n-ochtú ochtmhadh
+29	1229	prionsabal	bprionsabail bprionsabal phrionsabail phrionsabal prionsabail
+30	1230	iontas	d'iontais hiontais hiontas iontais n-iontais n-iontas t-iontas íontas
+31	1231	dúchas	dhúchas dúthchas ndúchas
+32	1232	réimeas	réimis
+33	1233	stiúir	stiúr stiúrach stiúracha stiúrainn stiúrann stiúrtar stiúrtaí
+34	1234	lárionad	lárionaid
+35	1235	réad	réada
+36	1236	fairsing	b'fhairsinge bhfairsinge d'fhairsinge fairsinge fhairsing fhairsinge
+37	1237	laghdú	laghduithe
+38	1238	clúdach	chlúdach clúdú gclúdach
+39	1239	ársa	
+40	1240	reilig	reilige reiligí
+41	1241	foréigean	bhforéigean d'fhoréigean d’fhoréigean fhoréigean fhoréigin foréigin
+42	1242	tolg	dtolgadh dtolgfaidh tholg tholgadh tholgann tholgtar tolgadh tolgann tolgtar tolgtha
+43	1243	méadar	mhéadair mhéadar méadair
+44	1244	tréith	dtréith dtréithe thréith thréithe tréithe
+45	1245	atmaisféar	atmaisféir d'atmaisféar hatmaisféar hatmaisféir n-atmaisféar n-atmaisféir t-atmaisféar
+46	1246	comhar	chomhar gcomhar
+47	1247	éifeachtach	b'éifeachtaí héifeachtach éifeachtacha éifeachtaí
+48	1248	aidhm	aidhme aidhmeanna b’aidhm d'aidhm d’aidhm haidhm haidhme haidhmeanna n-aidhm n-aidhmeanna
+49	1249	músaem	mhúsaeim mhúsaem músaeim
+50	1250	sealadach	sealadacha sealadaigh shealadach shealadacha shealadaigh
+51	1251	ginearál	ghinearáil ghinearál ginearáil nginearáil nginearál
+52	1252	aitheanta	n-aitheanta
+53	1253	saineolach	saineolacha saineolaithe saineolaí shaineolach shaineolacha shaineolaithe shaineolaí tsaineolaí
+54	1254	bád	bhád bháid báid mbád mbáid
+55	1255	géin	ghéin ghéine ghéinte géine géinte ngéin ngéine ngéinte
+56	1256	talmhaíocht	dtalmhaíocht dtalmhaíochta talmhaíochta thalmhaíocht thalmhaíochta
+57	1257	ollmhór	b'ollmhór ollmhó ollmhóir ollmhóire ollmhóra
+58	1258	mais	maise maiseanna mhais mhaise mhaiseanna
+59	1259	toirt	dtoirt dtoirteanna thoirt thoirteanna toirte toirteanna
+60	1260	táirg	dtáirgeann dtáirgfidh dtáirgtear dtáirgthe tháirg tháirgeann tháirgfeadh tháirgfeá tháirgfidh tháirgtear tháirgthe tháirgtí táirgeann táirgtear táirgthe
+61	1261	léitheoir	léightheoir léitheoirí léitheora
+62	1262	las	lasadh lasann lasfadh lasfaidh lasta lastar
+63	1263	comhalta	chomhalta chomhaltaí comhaltaí gcomhalta gcomhaltaí
+64	1264	athchóirigh	athchóirithe athchóiriú athchóiríodh d'athchóirigh d'athchóiriú hathchóirithe hathchóiriú n-athchóirithe t-athchóiriú
+65	1265	coilíneacht	choilíneacht choilíneachta choilíneachtaí coilíneachta coilíneachtaí gcoilíneacht gcoilíneachtaí
+66	1266	scoilt	scoilte scoilteacha scoilteadar scoilteadh scoilteann scoilteanna scoiltear scoiltfidh scoiltigh scoiltí
+67	1267	rúnaí	rúnaithe
+68	1268	dlús	dhlúis dhlús dlúis ndlúis ndlús
+69	1269	cré	chré chréanna criadh créanna gcré
+70	1270	dlúth	dhlúithe dhlúth dhlútha dlúith dlúithe dlútha dlúthach ndlúithe
+71	1271	comhaimseartha	chomhaimseartha
+72	1272	claonadh	chlaonadh chlaonta claonta claontaí gclaonadh gclaontaí
+73	1273	pleanáil	bpleanáil phleanáil phleanáilte phleanála phleanálann pleanáilte pleanála pleanáladh
+74	1274	iomarca	
+75	1275	freagairt	bhfreagairt bhfreagairtí fhreagairt fhreagairtí freagairtí freagartha
+76	1276	ficsean	bhficsean d'fhicsean fhicsean fhicsin ficsin
+77	1277	macha	mhacha
+78	1278	righ	rochtain rochtana ráinig rímid ríos
+79	1279	eochair	eochrach eochracha eochraí heochair heochracha n-eochracha
+80	1280	colm	choilm cholm coilm colum gcolm
+81	1281	titim	dtitim thitim thitime titime tuitim
+82	1282	nuacht	nuachta nuaíochta
+83	1283	briathar	bhriathair bhriathar bhriathra briathair briathra mbriathar mbriathra
+84	1284	séú	6ú shéú tséú
+85	1285	deara	
+86	1286	éadaí	
+87	1287	seal	seala sealanna sheal sheala shealanna tseala
+88	1288	beann	beanna bheann binne mbeann
+89	1289	réigiúnach	réigiúnacha réigiúnaigh réigiúnaí
+90	1290	miotaseolaíocht	mhiotaseolaíocht mhiotaseolaíochta miotaseolaíochta
+91	1291	reáchtáil	reachtáil reáchtáilte reáchtáiltear reáchtáiltí reáchtála reáchtáladh reáchtálann reáchtálfar reáchtálfaí
+92	1292	geilleagar	geilleagair gheilleagair gheilleagar ngeilleagar
+93	1293	inneall	d'inneall d'innill hinneall hinnill innill n-inneall t-inneall
+94	1294	trioblóid	dtrioblóid dtrioblóidí thrioblóid trioblóide trioblóidí
+95	1295	beart	bearta beartanna beartaí bheart bhearta bheartais bheartas bhirt birt mbeart mbearta
+96	1296	feirm	bhfeirm bhfeirmeacha d'fheirm d'fheirmeacha d’fheirm d’fheirmeacha feilm feirme feirmeacha fheirm fheirme fheirmeacha
+97	1297	ailse	aillse ailseach ailseacha ailsí d'ailse d'ailsí d’ailse hailse hailsí
+98	1298	réasúnta	
+99	1299	réaltbhuíon	réaltbhuíne réaltbhuíonta
+100	1300	feidhmiú	bhfeidhmiú fheidhmiú

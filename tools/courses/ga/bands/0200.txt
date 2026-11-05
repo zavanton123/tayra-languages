@@ -1,0 +1,100 @@
+1	101	cén	
+2	102	scoil	scoile scoileanna sgoil sgoile
+3	103	fios	bhfios feasa fheasa fhios
+4	104	amháin	hamháin
+5	105	fáil	bhfáil d'fháil d’fháil fháil fála
+6	106	aghaidh	aghaidhe aghaidheanna d'aghaidh d’aghaidh haghaidh haghaidhe haghaidheanna n-aghaidh n-aghaidhe n-aghaidheanna
+7	107	nua	nuadh nuaidh nuaí
+8	108	iarraidh	d'iarraidh hiarraidh hiarrata hiarrataí iarrata iarrataí n-iarraidh
+9	109	isteach	asteach steach
+10	110	freisin	feisin féisin
+11	111	beir	beireadh beireann beirid beirtear beirthe bheir bheireadh bheireann bheirtí bhéarfadh bhéarfaidh bhéarfainn béarfaidh mbeire mbeireann mbeirtear mbéarfadh mbéarfaí rug rugadar rugadh
+12	112	réir	
+13	113	rí	rígh ríogh ríoghaibh ríthe
+14	114	uair	d'uair d'uaireanta d’uair d’uaireanta huair huaire huaireanta n-uair n-uaire n-uaireanta uaire uaireannta uaireanta
+15	115	éirigh	d'éireodh d'éirigh d'éirídís d'éiríodar d'éiríodh d’éireodh d’éirigh d’éiríodar d’éirítí héirithe héiríodh n-éireodh n-éireofaí n-éireoidh n-éireoidís n-éirigh n-éirí n-éiríodh n-éiríonn éireodh éireoidh éirithe éirídís éirígí éirímis éirínn éiríodh éiríomar éiríonn éiríos
+16	116	stát	stáit
+17	117	suite	shuite
+18	118	taobh	dtaobh dtaobhanna dtaoibh taobhanna taoibh thaobh thaobhanna thaoibh
+19	119	cogadh	chogadh chogaidh chogaí cogaidh cogaí cogaíocha gcogadh gcogaí
+20	120	bunaigh	bhunaigh bhunaithe bhunaíodar bhunaíodh bhunaíonn bhunaítear bhunódh bhunófaí bunaithe bunaíodh bunaíonn bunaítear mbunaithe mbunaíodh mbunaíonn mbunaítear mbunódh mbunófar mbunófaí mbunóidís
+21	121	domhan	dhoimhne dhoimhneacha dhomhain dhomhan doimhne domhain ndomhain ndomhan
+22	122	éis	
+23	123	roimh	roimhe roimhesean roimis roimpi roimpise romhaibh romhainn romham romhamsa romhat rompu
+24	124	ansin	annsin ansan
+25	125	bain	baine baineadh bainfear bainfidh bainigí bainim bainimid bainte baintear baintí bhain bhaineadar bhaineadh bhaineas bhainfeadh bhainfear bhainfeá bhainfidh bhainfidís bhainfí bhainidís bhaintear bhaintí mbain mbaine mbaineadh mbainfeadh mbainfear mbainfidh mbainfidís mbainfí mbainimid mbaintear mbaintí
+26	126	á	agá
+27	127	cuireadh	chuireadh chuirí cuiridh curtha gcuireadh
+28	128	tosaigh	dtosaíonn dtosaítear dtosódh dtosófaí dtosóidh thosaigh thosaithe thosaíodar thosaíodh thosaíonn thosaíos thosaítear thosnaigh thosódh thosóidh toisigh toisíodh tosaithe tosaímis tosaíodh tosaíonn tosaítear tosófar tosóidh
+29	129	focal	bhfocail bhfocal d'fhocail d'fhocal d’fhocail d’fhocal fhocail fhocal focail focla m'fhocal
+30	130	inniu	aniú indiu inniubh inniú
+31	131	scéal	scéala scéalta scéil sgeul sgeulta sgéal sgéalta
+32	132	leor	leoir
+33	133	ceart	cearta cheart chearta chirt chirte cirt cirte gceart gcearta
+34	134	ríomhaire	ríomhairí
+35	135	lena	
+36	136	mí	mhí mhíonna mhíosa midhe míonna míosa
+37	137	saol	saoghal saoghalta saoil saolta shaoil shaol shaolta tsaoghal tsaoil tsaol
+38	138	tús	dtúis dtús thús túis túise
+39	139	roinnt	roinnte
+40	140	teacht	dteacht dteachta dteachtaí teachta teachtaí theacht theachta theachtaí tíocht
+41	141	baint	bainte bhaint bhainte mbaint mbainte
+42	142	bith	bhith
+43	143	fada	b'fhada b'fhaide b’fhada faide fhada fhaide fuide
+44	144	cailín	cailíní chailín chailíní gcailín gcailíní
+45	145	thar	thairis thairsti tharam tharat tharstu
+46	146	áirithe	háirid háirithe áirid áithrid áithride
+47	147	rith	reatha rite ritear rithe ritheadh ritheann rithfeadh rithfear rithfeá rithfidh rithfí rithim rithime rithimí rití
+48	148	céanna	chéanna gcéanna
+49	149	ceist	ceast ceiste ceisteanna cheist cheisteanna gceist gceisteanna
+50	150	minic	mhinic mhinice minice
+51	151	madra	madair madraí mhadra
+52	152	béarla	bhéarla béarlaí mbéarla
+53	153	chuig	chucu chugaibh chugainn chugainne chugam chugamsa chugat chuici chuige
+54	154	athair	aithreacha athar b'athair d'aithreacha d'athair d’aithreacha d’athair haithreacha hathair hathar m'aithreacha m'athair m’athair n-aithreacha n-athair n-athar nathar t-athair tathair
+55	155	uisce	d'uisce d'uiscí d’uisce huisce huiscí n-uisce n-uiscí t-uisce uiscí
+56	156	aontaithe	
+57	157	bord	bhoird bhord boird borda bórd mbord
+58	158	ábhar	abhar adhbhar b'ábhar b’ábhar d'ábhair d'ábhar d’ábhair d’ábhar hábhair hábhar n-ábhair n-ábhar t-ábhar ábhair ádhbhar
+59	159	leith	leitha leithe leitheanna
+60	160	ball	baill bhaill bhall mbaill mball
+61	161	foghlaim	bhfoghlaim bhfoghlaimeodh bhfoghlaimeofar bhfoghlaimeoidh bhfoghlaimeoidís bhfoghlaimíonn bhfoghlaimítear d'fhoghlaim d'fhoghlaimeodh d’fhoghlaim d’fhoghlaimíodar fhoghlaim fhoghlaimeoidh fhoghlaimíonn fhoghlaimítear fhoghlama foghlaimeoidh foghlaimíodh foghlaimíonn foghlaimítear foghlam foghlama foghlamtha
+62	162	éigin	b'éigin b’éigin eicínt inteacht éicint ínteacht
+63	163	clog	chlog chloig cloig gclog gcloig
+64	164	áth	d'áth háth háthanna t-áth átha áthanna
+65	165	cineál	chineáil chineál cineáil cineálacha cinéal gcineáil gcineál gcineálacha
+66	166	caith	caitear caitheadh caitheann caithfeadh caithfear caithfimid caithfir caithfí caithid caithidís caithigí caithim caithimid chaitear chaith chaitheadar chaitheadh chaitheann chaitheas chaithfeadh chaithfear chaithfeá chaithfidís chaithfinn chaithfí chaithidís chaití gcaitear gcaitheadh gcaitheann gcaithfeadh gcaithfear gcaithfeá gcaithfidís gcaithfimid gcaithfí gcaithidís gcaithimid gcaití
+67	167	fómhar	bhfómhair bhfómhar fhómhair fhómhar fómhair
+68	168	léir	léar léire
+69	169	labhairt	labhartha
+70	170	déag	deug dhéag déaga ndéag ndéaga
+71	171	cosúil	chosúil chosúla cosamhail cosúla
+72	172	dara	darna dhara ndara tarna
+73	173	talamh	dtailte dtalamh tailte talaimh talmhan talúin talún thailte thalaimh thalamh thalún
+74	174	measc	measca meascadh meascann measctar measctha mheasc mheascadh mheascann mheascfar mheasctar mheasctaí mheasctha
+75	175	áfach	ámh
+76	176	sampla	samplaí shampla shamplaí tsampla
+77	177	arís	aríst
+78	178	oileán	b'oileán d'oileáin d'oileán d’oileáin d’oileán hoileáin hoileán n-oileáin n-oileán noileáin noileán oileáin t-oileán toileán
+79	179	labhair	labhartar labhradh labhraid labhraidh labhraigí labhraim labhrainn labhrais labhrann labhras labhraídís labhraím labhraínn labhraíodh labhraíonn labhraíos labhraítear labhraítí labhródh labhrófaí labhróidh labhróidís
+80	180	lán	láin láine lána lánaí
+81	181	rialtas	rialtais
+82	182	airgead	airgeadaí airgid d'airgead d'airgid d’airgead hairgead n-airgead t-airgead
+83	183	foilsigh	bhfoilseodh bhfoilseofar bhfoilseofaí bhfoilsithe bhfoilsíonn bhfoilsítear d'fhoilseodh d'fhoilseofaí d'fhoilsigh d'fhoilsiú d'fhoilsíodar d'fhoilsíodh d'fhoilsítí d’fhoilsigh d’fhoilsíodh d’fhoilsítí fhoilseodh fhoilseofaí fhoilsigh fhoilsithe fhoilsíodh fhoilsíonn fhoilsítear foilseofar foilseoidh foilsithe foilsíodh foilsíonn foilsítear
+84	184	lucht	luchd luchta luchtanna
+85	185	ceap	ceapadh ceapaim ceapann ceapfar ceaptar ceaptha cheap cheapadar cheapadh cheapamar cheapann cheapas cheapfadh cheapfainn cheapfar cheapfaí cheapfá cheaptaí cheaptha chip cip gceap gceapa gceapadh gceapann gceapfadh gceapfaidh gceapfar gceapfaí gceapfá
+86	186	grá	ghrá ngrá
+87	187	barr	bairr barra barraí barrtar barrtha bhairr bharr bharra bharraí bharrtha bárr mbarr mbarra mbarraí
+88	188	ceannaigh	ceannacht ceannaithe ceannaígí ceannaímid ceannaíodh ceannaíonn ceannaítear ceannóidh cheannacht cheannaigh cheannaíodar cheannaíodh cheannaíonn cheannaítear cheannódh cheannóidh cheannóinn gceannaíonn gceannaítear gceannódh gceannóidh
+89	189	feidhm	bhfeidhm bhfeidhmeanna d'fheidhm d'fheidhmeanna feidhme feidhmeanna fheidhm fheidhme fheidhmeanna
+90	190	cill	ceall cealla cheall chealla chill chille cilla cille gceall gcealla gcill gcille
+91	191	tóg	dtógadh dtógaidís dtógann dtógfadh dtógfaidh dtógfaidís dtógfar dtógfaí dtógtaí thóg thógadar thógadh thógaidís thógamar thógann thógfadh thógfaidh thógfar thógfaí thógfá thógtaí thógtha tóga tógadh tógaimid tógaimis tógann tógfaidh tógfar tógtar tógtha
+92	192	glac	ghlac ghlaca ghlacadar ghlacaidís ghlacaimid ghlacann ghlacfadh ghlacfaidh ghlacfar ghlacfaí ghlactar ghlactaí ghlactha ghlaice glacadar glacaim glacaimid glacann glacfad glacfaidh glacfar glactar glactha glaic glaice nglac nglacadh nglacann nglacfadh nglacfaidh nglacfaidís nglacfar nglacfaí nglactar
+93	193	ithe	hithe n-ithe
+94	194	córas	chórais chóras córais gcórais gcóras
+95	195	ceantar	ceantair ceantracha cheantair cheantar gceantair gceantar gceantracha
+96	196	cliath	chliath chliatha chléithe cliatha cléithe gcliath
+97	197	síos	
+98	198	carr	cairr carranna chairr charr charranna gcarr gcarranna
+99	199	ceacht	ceachtanna cheacht cheachtanna gceachtanna
+100	200	ól	d'ól d'óladh d'ólfadh hól hólta n-ól n-ólann n-ólfadh t-ól óil ólaim ólainn ólann ólfaidh ólta óltar

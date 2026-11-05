@@ -1,0 +1,100 @@
+1	7601	caolchúis	caolchúise chaolchúis
+2	7602	spladhsáil	spladhsáiltear
+3	7603	dífhostaithe	dhífhostaithe
+4	7604	maothal	maothail maothaile
+5	7605	diaibéiteas	diaibéitis ndiaibéiteas
+6	7606	vicipéideoir	vicipéideoirí vicipéideora
+7	7607	fearthainn	bhfearthainn fearthainne fhearthainn
+8	7608	frithchuimilt	bhfrithchuimilt fhrithchuimilt frithchuimilte
+9	7609	seodra	
+10	7610	trasphlandaigh	trasphlandaithe trasphlandú
+11	7611	éimíríocht	héimíríochtaí néimíríochtaí
+12	7612	boireann	bhoireann bhoirne boirne
+13	7613	inchreidte	
+14	7614	gealóg	gealóga gealóige ghealóg ngealóg
+15	7615	tíotáiniam	
+16	7616	éigríochta	
+17	7617	basc	basctar bhascais
+18	7618	cúlaí	chúlaí
+19	7619	eire	eirí
+20	7620	máistreás	mháistreás máistreása
+21	7621	oideachasúil	oideachasúla
+22	7622	réise	réisí
+23	7623	scioból	sciobóil
+24	7624	dlúthchaidreamh	dhlúthchaidreamh dhlúthchaidrimh dlúthchaidrimh ndlúthchaidreamh
+25	7625	milse	mhilse
+26	7626	ámharach	hámharach ádhmharach ámharacha ámharaí
+27	7627	grianspota	ghrianspotaí grianspotaí ngrianspotaí
+28	7628	ceardscoil	cheardscoil gceardscoil
+29	7629	cumhachtaigh	chumhachtaigh chumhachtú cumhachtaithe cumhachtú
+30	7630	feileonacht	bhfeileonacht feileonachta feileonachtaí fheileonacht
+31	7631	oiris	airis
+32	7632	ceimiteiripe	cheimiteiripe
+33	7633	consól	chonsóil chonsól consóil gconsól
+34	7634	céiriúil	
+35	7635	drochthionchar	
+36	7636	dísreach	
+37	7637	gráinnín	ghráinníní gráinníní
+38	7638	idirleathadh	t-idirleathadh
+39	7639	ilchultúrtha	
+40	7640	iontaofacht	iontaofachta
+41	7641	luiteamas	
+42	7642	mioscais	mhioscais mioscaise
+43	7643	réadóir	réadóirí
+44	7644	ábaltacht	n-ábaltacht
+45	7645	ómra	
+46	7646	armchúirt	armchúirte d'armchúirt
+47	7647	cúisín	chúisín cúisíní
+48	7648	brídeog	bhrídeog brídeoga brídeoige mbrídeog
+49	7649	cumhach	chumhach chumhaigh cumhaigh
+50	7650	athneartaigh	athneartaithe athneartaíonn
+51	7651	bunscolaíocht	bhunscolaíocht bunscolaíochta mbunscolaíocht
+52	7652	giar	ghiar giaranna ngiar
+53	7653	greamán	greamáin ngreamán
+54	7654	oscartha	hoscartha
+55	7655	éighnéasach	héighnéasach
+56	7656	macrascópach	macrascópacha mhacrascópacha
+57	7657	neasach	neasacha neasaigh neasú
+58	7658	stáir	stáire
+59	7659	cosmas	chosmais chosmas gcosmas
+60	7660	déimeagrafach	dhéimeagrafach déimeagrafacha
+61	7661	doicheallach	doicheallacha
+62	7662	oscailteacht	hoscailteachta oscailteachta
+63	7663	tanaigh	tanaithe tanú thanaigh thanú
+64	7664	fuaidire	fhuaidire fuaidirí
+65	7665	imoibreán	himoibreáin imoibreáin n-imoibreán
+66	7666	rabharta	
+67	7667	liú	liúnna
+68	7668	éigrit	héigrití éigrite éigrití
+69	7669	príomh-oifig	bpríomh-oifig phríomh-oifig príomh-oifige
+70	7670	príomhroinn	príomhranna príomhroinne
+71	7671	ailigéadar	ailigéadair hailigéadair t-ailigéadar
+72	7672	bairneach	bairnigh bhairneach mbairneach
+73	7673	creidmheach	chreidmheach chreidmheacha chreidmhigh creidmhigh gcreidmheach
+74	7674	droch-cháil	
+75	7675	eimpíreach	eimpíreacha heimpíreach
+76	7676	fasach	bhfasach fasaigh fhasach fhasaigh
+77	7677	gainmheach	gainmheacha ghainmheach ghainmheacha
+78	7678	gramadóir	ghramadóir gramadóirí
+79	7679	ildánach	
+80	7680	liriceoir	liriceoirí
+81	7681	paiseanta	phaiseanta
+82	7682	siblín	siblíní
+83	7683	tuiste	tuistí
+84	7684	polainéiseach	bpolainéiseach pholainéiseach pholainéiseacha polainéiseacha polainéisigh
+85	7685	cúipéir	chúipéara cúipéirí
+86	7686	eascra	eascraí t-eascra
+87	7687	ceannlíne	ceannlínte cheannlíne cheannlínte gceannlíne
+88	7688	oinniún	hoinniúin oinniúin
+89	7689	logánú	logánaithe
+90	7690	tréadlitir	thréadlitir tréadlitreach
+91	7691	cosair	chosair cosrach gcosair
+92	7692	oideolaíocht	hoideolaíocht oideolaíochta
+93	7693	bagáiste	bhagáiste mbagáiste
+94	7694	cruaidh	chruaidh
+95	7695	criadóireacht	chriadóireacht chriadóireachta criadóireachta
+96	7696	grinnigh	ghrinniú grinnithe grinniú ngrinniú
+97	7697	moinsíneoir	
+98	7698	borrach	bhorraigh
+99	7699	diamhasla	
+100	7700	dúisitheach	dúisitheacha

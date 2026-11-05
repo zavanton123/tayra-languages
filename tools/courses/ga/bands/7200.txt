@@ -1,0 +1,100 @@
+1	7101	planctón	bplanctón phlanctóin phlanctón planctóin
+2	7102	seanmóireacht	seanmóireachta sheanmóireacht
+3	7103	stumpa	stumpaí
+4	7104	tiubhaithe	
+5	7105	athbhliain	hathbhliana
+6	7106	foshraith	bhfoshraith fhoshraith foshraithe foshraitheanna
+7	7107	bunbhrí	bhunbhrí
+8	7108	ceadmhach	cheadmhach
+9	7109	caiféin	caiféine chaiféin gcaiféin
+10	7110	coimeádachas	choimeádachais choimeádachas coimeádachais gcoimeádachas
+11	7111	croiniceoir	croiniceoirí
+12	7112	fuadar	bhfuadair bhfuadar d'fhuadar fhuadar
+13	7113	fóineolaíocht	bhfóineolaíocht fhóineolaíocht fóineolaíochta
+14	7114	nasctheanga	nasctheangacha
+15	7115	príomhoifig	phríomhoifig phríomhoifigí príomhoifigí
+16	7116	sifilis	sifilise tsifilis
+17	7117	carúl	carúil charúl
+18	7118	fuadaitheoir	bhfuadaitheoirí fuadaitheoirí
+19	7119	steiriligh	steirilithe steiriliú steirilítear
+20	7120	teannán	dteannán teannáin
+21	7121	gealbhan	gealbhain ghealbhain ghealbhan
+22	7122	slonn	shlonn sloinn sloinntear
+23	7123	áirithigh	áirithiú áirithíonn áirithítear
+24	7124	díothach	dhíothaigh dhíothú
+25	7125	athrach	t-athrach
+26	7126	dealraitheacht	dealraitheachta
+27	7127	ródaire	ródairí
+28	7128	caimbriach	chaimbriach
+29	7129	iarúibis	
+30	7130	samúraí	samúraithe
+31	7131	alfa-uimhriúil	alfa-uimhriúla
+32	7132	breabhsánta	
+33	7133	logartamach	
+34	7134	lánmhéid	lánmhéide
+35	7135	vata	
+36	7136	airil	airile airilí hairil
+37	7137	copail	chopail gcopail
+38	7138	cianrialú	chianrialú cianrialaithe
+39	7139	feiminí	fheiminí
+40	7140	áisiúlacht	háisiúlacht áisiúlachta
+41	7141	oibríoch	oibríocha
+42	7142	smol	smal smola
+43	7143	uisge	
+44	7144	dairbhre	dairbhreach dhairbhre dhairbhreach ndairbhre
+45	7145	aeigéach	aeigéiche aeigéigh
+46	7146	bácáil	bhácáil bhácáiltear bácáiltear bácála mbácáil
+47	7147	diagnóisigh	diagnóisithe diagnóisiú diagnóisíodh diagnóisítear
+48	7148	dlisteanacht	dhlisteanacht dlisteanachta ndlisteanacht
+49	7149	hidrileictreach	hidrileictreacha hidrileictrí
+50	7150	luibheach	luibheacha
+51	7151	práinneach	phráinneach práinneacha práinní
+52	7152	conarthach	chonarthach chonarthaí conarthacha
+53	7153	gáirsiúil	gháirsiúil gháirsiúla gáirsiúla
+54	7154	beartaíocht	beartaíochta bheartaíocht bheartaíochta mbeartaíocht
+55	7155	gearrshaolach	ghearrshaolach ghearrshaolacha
+56	7156	acáidis	acáidise hacáidise
+57	7157	caithne	
+58	7158	póló	bpóló
+59	7159	adhaint	adhainte
+60	7160	cairdín	chairdín gcairdín
+61	7161	draig	
+62	7162	úrail	húraile
+63	7163	lócas	lócais
+64	7164	moirféim	moirféime moirféimí
+65	7165	neamhchinnte	
+66	7166	rúndacht	rúndachta
+67	7167	smúit	smúid smúite
+68	7168	teasaí	theasaí
+69	7169	gormghlas	ghormghlais ghormghlas gormghlasa
+70	7170	méan	mhéan
+71	7171	seamair	seamar seamra seimre tseamair
+72	7172	aiseolas	aiseolais
+73	7173	buncháithnín	buncháithníní
+74	7174	cruinneogach	cruinneogacha
+75	7175	tíl	dtíle dtíleanna tíle tíleanna
+76	7176	feodachas	bhfeodachas fheodachais fheodachas
+77	7177	gnáthaigh	ghnáthaigh ghnáthaí ghnáthaíodh ghnáthú gnáthaithe gnáthaíonn gnáthú ngnáthaíodh ngnáthaíonn
+78	7178	snámhach	shnámhaí snámhacha snámhaithe snámhaí
+79	7179	vinil	vinile
+80	7180	friotachas	
+81	7181	hipearnasc	
+82	7182	inteannta	
+83	7183	intomhaiste	
+84	7184	mírialtacht	mírialtachtaí
+85	7185	neamhchoinníollach	
+86	7186	comhghnásach	chomhghnásach comhghnásacha comhghnásaí
+87	7187	truflais	dtruflais thruflais truflaise
+88	7188	beaignit	beaignití bheaignit
+89	7189	daonnachtúil	dhaonnachtúil
+90	7190	feabhsaitheoir	feabhsaitheoirí fheabhsaitheoir
+91	7191	geanmnaíocht	geanmaíocht geanmnaíochta gheanmnaíochta
+92	7192	iarnua-aoiseach	iar-nua-aoiseach iar-nua-aoisí iarnua-aoiseacha
+93	7193	leascheannaire	
+94	7194	maolaitheach	maolaitheacha mhaolaitheach mhaolaithigh
+95	7195	aireagal	aireagail t-aireagal
+96	7196	cuáit	chuáit gcuáit
+97	7197	siarra	shiarra
+98	7198	fochuideachta	fhochuideachta fochuideachtaí
+99	7199	sileadh	shileadh silidh
+100	7200	cianach	chianach cianaigh cianaí

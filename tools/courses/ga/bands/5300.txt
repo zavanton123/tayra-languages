@@ -1,0 +1,100 @@
+1	5201	ceilte	cheilte
+2	5202	ollúnacht	hollúnacht ollúnachtaí
+3	5203	blár	bhláir bhlár mblár
+4	5204	caidéal	caidéil chaidéal chaidéil gcaidéal
+5	5205	longbhriseadh	longbhriseachta longbhriste
+6	5206	doicheall	dhoicheall doichill
+7	5207	seirbea-chróitis	seirbea-chróitise sheirbea-chróitise tseirbea-chróitis
+8	5208	fírinneach	fhírinneach fírinneacha
+9	5209	gliaire	ghliairí gliairí ngliaire ngliairí
+10	5210	saoirseacht	saoirseachta shaoirseacht tsaoirseacht
+11	5211	amstardam	hamstardam
+12	5212	snúcar	snúcair
+13	5213	meá	mheá
+14	5214	leithreas	leithris
+15	5215	bolgach	bholgach bolgacha bolgaí mbolgach
+16	5216	cuntaois	chuntaois cuntaoise gcuntaois
+17	5217	soiscéalach	shoiscéalach shoiscéalaí soiscéalacha soiscéalaí tsoiscéalaí
+18	5218	reathach	reathaithe reathaí
+19	5219	ardmheas	t-ardmheas
+20	5220	nialas	nialais
+21	5221	athshondas	athshondais hathshondas
+22	5222	neamhshuim	neamhshuime
+23	5223	clogad	chlogad chlogaid clogaid gclogaid
+24	5224	coiriúlacht	choiriúlacht choiriúlachta coiriúlachta gcoiriúlacht
+25	5225	breoite	bhreoite
+26	5226	inaitheanta	
+27	5227	bólacht	bhólacht bhólachta bólachta
+28	5228	ceannáras	cheannáras gceannáras
+29	5229	fadtréimhseach	fadtréimhseacha fadtréimhsí fhadtréimhseach fhadtréimhseacha
+30	5230	dílleachta	dhílleachta dhílleachtaí dílleachtaí ndílleachtaí
+31	5231	bladhm	bhladhm bladhma bladhmanna mbladhm mbladhmanna
+32	5232	scaird	scairde scairdeadh scairdeann scairdeanna
+33	5233	camán	camáin chamáin chamán gcamán
+34	5234	meathlú	mheathlú
+35	5235	comhshuigh	chomhshuite comhshuite
+36	5236	duairc	dhuairc duairce
+37	5237	gabhdóir	gabhdóirí gabhdóra ghabhdóir ghabhdóirí ngabhdóir
+38	5238	ollchumhacht	hollchumhachtaí
+39	5239	poiblíocht	bpoiblíocht phoiblíocht phoiblíochta poiblíochta
+40	5240	príomhoifigeach	phríomhoifigeach
+41	5241	feighil	bhfeighil fheighil
+42	5242	mainéar	mainéir mhainéar mhainéir
+43	5243	meabhair	mheabhair
+44	5244	crústach	chrústach chrústaigh crústaigh crústaíodh
+45	5245	foirnéis	bhfoirnéis bhfoirnéisí fhoirnéis foirnéise foirnéisí
+46	5246	snáithíneach	shnáithíneach shnáithíneacha shnáithínigh snáithíneacha
+47	5247	badhbh	badhbha baidhbhe mbadhbh
+48	5248	féasta	bhféasta fhéasta féastaí
+49	5249	luaithreach	luaithrigh
+50	5250	beangál	bheangál mbeangál
+51	5251	glóthach	ghlóthach ghlóthacha glóthaí nglóthach
+52	5252	maslach	maslacha mhaslach
+53	5253	tungstan	tungstain
+54	5254	maighnéad	maighnéid mhaighnéad mhaighnéid
+55	5255	barón	baróin
+56	5256	vasáilleach	vasáilleacha vasáilligh
+57	5257	carnán	charnáin charnán gcarnán
+58	5258	fotha	d'fhotha fhotha fothaí
+59	5259	dé-mhonarcacht	dhé-mhonarcacht dé-mhonarcachta démhonarcacht démhonarcachta
+60	5260	siomtóm	shiomtóim siomtóim
+61	5261	clóis	gclóis
+62	5262	aoibhinn	aoibhne b'aoibhinn haoibhinn
+63	5263	maig	maige
+64	5264	dreoilín	dreoilíní
+65	5265	cliabhrach	chliabhrach chliabhraigh cliabhraigh gcliabhrach
+66	5266	meantán	meantáin mheantáin mheantán
+67	5267	mias	mhias mhiasa miasa méise
+68	5268	muireann	
+69	5269	tamaillín	
+70	5270	fothrópaiceach	fhothrópaiceach fhothrópaiceacha fo-thrópaiceach fothrópaiceacha fothrópaicí
+71	5271	néarógach	néarógacha néarógaigh néarógaí
+72	5272	veain	veaineanna
+73	5273	mailí	mhailí
+74	5274	ceiliúr	cheiliúr gceiliúr
+75	5275	dianghlasáil	dianghlasála
+76	5276	buafhocal	bhuafhocail bhuafhocal buafhocail mbuafhocal
+77	5277	insligh	inslithe insliú t-insliú
+78	5278	marbhán	marbháin mharbháin mharbhán
+79	5279	diamhair	dhiamhair diamhaire diamhra
+80	5280	plandúil	phlandúil phlandúla plandúla
+81	5281	téisclim	téisclime
+82	5282	piúratánach	bpiúratánaigh phiúratánach piúratánacha piúratánaigh
+83	5283	fuin	bhfuintear fhuineadh fhuintear fuine fuineadh fuineann fuinte fuintear
+84	5284	leathbhliain	leathbhliana
+85	5285	fásteanga	fhásteanga fásteangacha
+86	5286	fiodh	bhfeá bhfiodh feaga feá feánna fheá fhiodh
+87	5287	fostaí	bhfostaithe bhfostaí fhostaí
+88	5288	ciorrú	chiorruithe chiorrú ciorruithe
+89	5289	néarón	néaróin
+90	5290	crosaire	chrosaire crosairí gcrosaire
+91	5291	biseach	bhiseach
+92	5292	trucail	dtrucail thrucail thrucailí trucaile trucailí
+93	5293	casúr	casúir chasúir chasúr
+94	5294	balún	balúin bhalún mbalúin mbalún
+95	5295	urlacan	hurlacan urlacain
+96	5296	ríora	ríoraí
+97	5297	aisghairm	aisghairme haisghairm haisghairme
+98	5298	creagán	chreagáin chreagán creagáin
+99	5299	antraipeolaí	antraipeolaithe hantraipeolaithe t-antraipeolaí
+100	5300	flaithiúil	fhlaithiúil fhlaithiúla flaithiúla

@@ -1,0 +1,100 @@
+1	8901	amasán	amasáin
+2	8902	piseogach	piseogacha
+3	8903	foshuíomh	bhfoshuíomh fhoshuímh foshuímh
+4	8904	séanmhar	shéanmhar séanmhara
+5	8905	tuathalach	thuathalach tuathalacha tuathalaigh
+6	8906	aisfhreagair	d'aisfhreagair
+7	8907	gaibhleann	
+8	8908	lochach	lochaigh
+9	8909	meán-iarthar	mheán-iarthair
+10	8910	aindiach	
+11	8911	ard-dílseacht	ard-dílseachta
+12	8912	croinicigh	croinicithe
+13	8913	cruadhiosca	cruadhioscaí
+14	8914	deasbhord	
+15	8915	dúdhearg	
+16	8916	forrán	forráin
+17	8917	leathscór	
+18	8918	mothálach	
+19	8919	deabhadh	ndeabhaidh
+20	8920	pulcadh	pulctha
+21	8921	raca	
+22	8922	siarghabhálach	
+23	8923	sleamhnóg	shleamhnóg sleamhnóga
+24	8924	tomhaltachas	tomhaltachais
+25	8925	tralaí	
+26	8926	ármhá	
+27	8927	eitneachas	eitneachais
+28	8928	saileachán	
+29	8929	gaosán	ghaosán
+30	8930	baineanda	bhaineanda
+31	8931	breisluach	bhreisluacha
+32	8932	cianaosta	chianaosta
+33	8933	cianfhoghlaim	cianfhoghlama
+34	8934	críochadóireacht	críochadóireachta
+35	8935	domhnán	dhomhnán
+36	8936	dédhualach	dhédhualacha
+37	8937	eoró	eorónna
+38	8938	fochlásal	fhochlásail fochlásail
+39	8939	iltascáil	iltascála
+40	8940	imscríobh	imscríofa
+41	8941	radaimhinicíocht	radaimhinicíochta radaimhinicíochtaí
+42	8942	traslitrigh	thraslitriú traslitrithe traslitriú
+43	8943	alúin	alúine
+44	8944	srathach	srathacha
+45	8945	gríos	ghrís
+46	8946	rómainis	rómainise
+47	8947	súileach	súilí tsúileach
+48	8948	trasteorann	thrasteorann
+49	8949	marmaisín	marmaisíní
+50	8950	bagún	bagúin
+51	8951	so-ghalaithe	sho-ghalaithe
+52	8952	máine	mháine
+53	8953	cúrsaíocht	chúrsaíocht cúrsaíochta gcúrsaíocht
+54	8954	fo-rúnaí	bhfo-rúnaí fho-rúnaí
+55	8955	crómatagrafaíocht	chrómatagrafaíocht crómatagrafaíochta gcrómatagrafaíocht
+56	8956	ógh	hóighe óigh óighe
+57	8957	dordveidhil	dhordveidhil dordveidhilí dordveidhle
+58	8958	ardoifig	d'ardoifig
+59	8959	lóchrann	lóchrainn
+60	8960	athléirigh	athléiriú t-athléiriú
+61	8961	clóscríobhán	chlóscríobháin chlóscríobhán clóscríobháin
+62	8962	dobharchú	dobharchúnna
+63	8963	fonóta	bhfonóta fonótaí
+64	8964	gnáthrud	ghnáthrud ghnáthrudaí gnáthrudaí ngnáthrud
+65	8965	idirphlé	t-idirphlé
+66	8966	lobh	lobhair lobhann
+67	8967	meicnigh	meicnithe meicniú meicníodh mheicniú
+68	8968	morgáiste	mhorgáiste morgáistí
+69	8969	míghnaoi	mhíghnaoi
+70	8970	péac	bpéice phéacann péacadh péacann péice
+71	8971	scriú	scriúnna
+72	8972	seamlas	seamlais sheamlas
+73	8973	storc	stoirc
+74	8974	tatú	tatúnna
+75	8975	teannóg	dteannóga teannóga theannóg
+76	8976	tionsclaigh	thionsclú tionsclaithe tionsclú
+77	8977	óm	t-óm óim
+78	8978	cairmilíteach	cairmilítigh chairmilíteach
+79	8979	daoi	daoithe
+80	8980	lile	lilí
+81	8981	moldáiv	mholdáiv moldáive
+82	8982	pilibín	philibín pilibíní
+83	8983	sura	shura tsura
+84	8984	abhaill	abhall abhla habhla
+85	8985	athshealbhaigh	athshealbhaithe athshealbhú
+86	8986	pailliún	bpailliún phailliúin phailliún
+87	8987	cóngaracht	chóngaracht gcóngaracht
+88	8988	clogás	chlogás clogáis
+89	8989	earótach	earótacha
+90	8990	fotháirge	fhotháirge fotháirgí
+91	8991	forchéimnitheach	fhorchéimnitheach forchéimnitheacha
+92	8992	fálaigh	fálaithe
+93	8993	glárach	ghlárach gláracha
+94	8994	leadránach	
+95	8995	liúntas	liúntais
+96	8996	lámhaigh	láimhsigh láimhsiú lámhaíodh
+97	8997	léicean	léicin
+98	8998	maistín	maistíní mhaistíní
+99	8999	moirfín	
+100	9000	méasón	méasóin

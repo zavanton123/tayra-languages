@@ -1,0 +1,100 @@
+1	4901	cillscannán	cillscannáin
+2	4902	ráfla	ráflaí
+3	4903	plúr	bplúr phlúir phlúr plúir
+4	4904	teascán	dteascáin teascáin theascáin theascán
+5	4905	macalla	macallaí mhacalla
+6	4906	eorna	heorna
+7	4907	alpach	alpacha alpaigh alpaí
+8	4908	aonocsaíd	aonocsaíde d'aonocsaíde haonocsaíd
+9	4909	cac	caca chac chaca chacfadh gcac
+10	4910	murar	marar munar
+11	4911	críochach	chríochach chríochacha críochacha críochaí
+12	4912	gairmeach	gairmeacha ghairmeach ghairmeacha
+13	4913	feidhmghrúpa	feidhmghrúpaí
+14	4914	foriomlán	fhoriomlán foriomlána
+15	4915	forainmneach	forainmneacha
+16	4916	incháilithe	
+17	4917	taibhreamh	dtaibhreamh taibhrimh thaibhreamh thaibhrimh
+18	4918	madagascar	mhadagascar
+19	4919	ciúbach	chiúbach chiúbacha chiúbaigh chiúbaithe ciúbacha ciúbaithe ciúbaí
+20	4920	eisiaigh	d'eisiaigh eisiaimh eisiamh eisiata eisiatar heisiamh
+21	4921	sceilg	scealg sceilge
+22	4922	coimhdeacht	choimhdeacht choimhdeachta coimhdeachta
+23	4923	beár	beáir bheár mbeáir mbeár
+24	4924	tras-scríobh	thras-scríobh tras-scríofa
+25	4925	iolrach	iolracha t-iolrach
+26	4926	prás	bprás phráis phrás práis
+27	4927	ceolmhar	ceolmhaire ceolmhara cheolmhar
+28	4928	fiántas	bhfiántas d’fhiántas fhiántais fhiántas fiántais
+29	4929	eipidéim	eipidéime eipidéimí heipidéim
+30	4930	seirbhíseach	seirbhísigh seirbhísithe sheirbhíseach sheirbhísigh sheirbhísiú
+31	4931	ríog	ríg ríge
+32	4932	seachrán	seachráin sheachrán
+33	4933	luainíocht	luainíochta
+34	4934	míchuí	mhíchuí
+35	4935	tráchtearra	dtráchtearraí thráchtearra thráchtearraí tráchtearraí
+36	4936	rómánsachas	rómánsachais
+37	4937	seandacht	seandachta seandachtaí sheandachtaí tseandacht
+38	4938	céimseata	chéimseata céimseatan gcéimseata
+39	4939	mionúr	mhionúir mhionúr mionúir mionúra
+40	4940	sia	shia
+41	4941	luasghéaraigh	luasghéaraithe luasghéaraíonn luasghéaraítear luasghéarú
+42	4942	cúlóg	chúlóg chúlóige cúlóige
+43	4943	diagnóis	dhiagnóis diagnóise
+44	4944	beithíoch	beithígh bheithígh mbeithígh mbeithíoch
+45	4945	cith	ceatha ceathanna chith gcith
+46	4946	reibiliún	reibiliúin
+47	4947	stocaireacht	stocaireachta
+48	4948	caithréim	caithréime caithréimeanna chaithréim chaithréime gcaithréim
+49	4949	iniúch	d'iniúch d'iniúchadh hiniúchadh iniúchaimid iniúchann iniúchta iniúchtar n-iniúchadh t-iniúchadh
+50	4950	aosaigh	aosaithe aosaítear aosú d'aosaigh haosaigh haosú
+51	4951	sága	ságaí tsága
+52	4952	táirgeoir	tháirgeoir tháirgeoirí táirgeoirí
+53	4953	íoslódáil	híoslódáil n-íoslódáil íoslódáilte íoslódála íoslódáladh
+54	4954	cuallacht	chuallacht chuallachta chuallachtaí cuallachta cuallachtaí
+55	4955	andraiméid	andraiméide
+56	4956	frithghníomhach	fhrithghníomhach fhrithghníomhaí fhrithghníomhú frithghníomhacha frithghníomhaigh frithghníomhaithe frithghníomhaí frithghníomhuithe frithghníomhú
+57	4957	cónra	chónra comhra cónraí gcónra
+58	4958	corraí	chorraí
+59	4959	fleasc	fhleasc fleasg fleisce
+60	4960	seit	seiteanna sheit tseit
+61	4961	galraigh	galraithe galrú ghalraithe ghalraítear ghalrú
+62	4962	seandálaíoch	seandálaíche seandálaíocha sheandálaíoch sheandálaíocha
+63	4963	bolcánachas	bholcánachais bholcánachas bolcánachais mbolcánachas
+64	4964	teallach	dteallach teallaigh theallach
+65	4965	char	
+66	4966	ógán	hógáin ógáin
+67	4967	tamhnach	tamhnacha tamhnaí thamhnach
+68	4968	anoir	
+69	4969	armúrtha	
+70	4970	leasrí	leasríthe
+71	4971	coiscthe	choiscthe coiscithe
+72	4972	crua-earra	chrua-earraí crua-earraí
+73	4973	neamhfhicsean	neamhfhicsin
+74	4974	analógach	analógacha analógaigh
+75	4975	fealltóir	bhfealltóir bhfealltóirí fealltóirí fhealltóir fhealltóra
+76	4976	corpartha	chorpartha corportha
+77	4977	ainrialaí	ainrialaithe d'ainrialaithe hainrialaithe n-ainrialaithe t-ainrialaí
+78	4978	infinideach	hinfinideach infinideacha infinidigh t-infinideach
+79	4979	luamhán	luamháin
+80	4980	cneasaigh	chneasaigh chneasaithe chneasaíonn chneasú cneasaithe cneasaíonn cneasú
+81	4981	duánach	dhuánach dhuánaigh
+82	4982	fiosraigh	bhfiosrófaí d'fhiosraigh d’fhiosraigh fhiosraigh fhiosraithe fhiosraíonn fiosraithe fiosraíodh fiosraíonn fiosraítear fiosróidh
+83	4983	seangán	seangáin sheangáin tseangáin
+84	4984	bang	banga bhang mbang
+85	4985	céir	chéarach chéir céarach céaracha
+86	4986	fiúntas	bhfiúntas fhiúntais fhiúntas fiúntais
+87	4987	dianscaoil	dhianscaoil dhianscaoileadh dianscaoileadh dianscaoileann dianscaoilte ndianscaoileadh ndianscaoileann ndianscaoilfidh
+88	4988	sin-seanathair	shin-seanathair
+89	4989	míshuaimhneas	mhíshuaimhneas mhíshuaimhnis míshuaimhnis
+90	4990	scol	
+91	4991	athsholáthraigh	athsholáthair athsholáthar athsholáthraithe
+92	4992	domhanfhad	dhomhanfhad dhomhanfhaid domhanfhaid ndomhanfhad
+93	4993	dátheangachas	dátheangachais
+94	4994	samhailteach	samhailteacha shamhailteach
+95	4995	comhfhreagair	chomhfhreagair chomhfhreagraíonn chomhfhreagródh comhfhreagairt comhfhreagraíonn gcomhfhreagraíonn
+96	4996	coinníollach	choinníollach choinníollaigh
+97	4997	táirgiúlacht	tháirgiúlacht táirgiúlachta
+98	4998	aeróg	aeróga aeróige haeróg haeróga haeróige
+99	4999	máilín	mháilín
+100	5000	aimínaigéad	aimínaigéid d’aimínaigéid haimínaigéid n-aimínaigéad

@@ -1,0 +1,100 @@
+1	7401	ceirmeacht	ceirmeachta cheirmeacht gceirmeacht
+2	7402	croíúil	chroíúil croíúla
+3	7403	gráigh	ghrádh ghráigh grádh grádha gráinn gránn
+4	7404	maorlathas	maorlathais mhaorlathais mhaorlathas
+5	7405	maróg	maróga maróige mharóg
+6	7406	míleatachas	mhíleatachais mhíleatachas míleatachais
+7	7407	monatóir	mhonatóir mhonatóirí mhonatóra monatóirí
+8	7408	murdar	mhurdair mhurdar murdair
+9	7409	príomhsheicheamh	phríomhsheicheamh phríomhsheichimh príomhsheichimh
+10	7410	stáca	stácaí
+11	7411	urghaire	urghairí
+12	7412	salaigh	salaithe salóidh shalódh shalú
+13	7413	babarúsa	
+14	7414	claonfort	
+15	7415	criosta	criostaí
+16	7416	marmat	
+17	7417	méaldráma	
+18	7418	aondiachas	aondiachais haondiachas t-aondiachas
+19	7419	ardtiarnas	hardtiarnas
+20	7420	athcheartaigh	athcheartaithe athcheartaíodh
+21	7421	bunúil	bunúla
+22	7422	criathar	chriathar
+23	7423	eiseamláireach	eiseamláireacha
+24	7424	tonnbhráid	thonnbhráid tonnbhráide
+25	7425	meánluach	mheánluachanna
+26	7426	siosach	siosaigh tsiosach
+27	7427	tuireann	
+28	7428	ródháileog	ródháileoga
+29	7429	giobráltar	ghiobráltar ngiobráltar
+30	7430	pleibeach	bpleibeach phleibeach phleibeacha phleibigh pleibigh
+31	7431	cruachán	chruacháin cruacháin
+32	7432	antamón	antamóin t-antamón
+33	7433	canna	cannaí channa channaí gcanna gcannaí
+34	7434	coinséartó	choinséartó choinséartónna coinséartónna gcoinséartó gcoinséartónna
+35	7435	dil	dhil
+36	7436	faoistin	faoiste faoistine fhaoistin
+37	7437	iaguar	hiaguair iaguair n-iaguar t-iaguar
+38	7438	maighnéadas	mhaighnéadais mhaighnéadas
+39	7439	bál	bhál mbál
+40	7440	cuarbhóthar	chuarbhóthair chuarbhóthar gcuarbhóthar
+41	7441	hiondúchas	hiondúchais
+42	7442	lombaird	lombairde
+43	7443	iontaisigh	iontaisithe iontaisíodh
+44	7444	líofacht	líofachta
+45	7445	tíopa	thíopa thíopaí tíopaí
+46	7446	gabhlach	gabhlacha gabhlaigh gabhlaithe gabhlaíonn ghabhlacha ghabhlaíonn
+47	7447	guala	
+48	7448	micrinéis	mhicrinéis micrinéise
+49	7449	coilleadh	choilleadh gcoilleadh
+50	7450	coimirceas	choimirceas choimircis
+51	7451	comaitéireacht	chomaitéireacht comaitéireachta
+52	7452	círéibeoir	círéibeoirí
+53	7453	frithshóisialta	
+54	7454	guaireach	ghuaireach guaireacha
+55	7455	homainid	homainide homainidí
+56	7456	líonmhaireacht	líonmhaireachta
+57	7457	míotar	
+58	7458	peiriad	bpeiriad peiriaid pheiriaid
+59	7459	starrfhiacail	starrfhiacla
+60	7460	ábhairín	
+61	7461	slinn	slinne slinnte
+62	7462	busta	bustaí
+63	7463	néandartálach	néandartálaigh
+64	7464	taosc	taoscadh taoscann taosctha thaoscadh thaoscann
+65	7465	tuathach	tuathaigh tuathaithe tuathú
+66	7466	beannach	beannaí bheannach
+67	7467	bréagnú	bhréagnú
+68	7468	cadhnra	cadhnraí chadhnra chadhnraí gcadhnraí
+69	7469	díchuir	dhíchuir dhíchuirtear dhíchur díchuireadh díchur
+70	7470	gnáthphobal	ghnáthphobail ghnáthphobal ngnáthphobal
+71	7471	úrscéalaíocht	húrscéalaíochta úrscéalaíochta
+72	7472	luacháil	luachála luacháladh
+73	7473	maorlathach	maorlathacha maorlathaigh mhaorlathach mhaorlathacha mhaorlathaigh
+74	7474	máchail	mháchail máchailí
+75	7475	neamhdhlíthiúil	neamhdhlíthiúla
+76	7476	paranóia	pharanóia
+77	7477	scláta	sclátaí
+78	7478	searrach	searraigh shearrach
+79	7479	zón	zóin
+80	7480	caeisiam	chaeisiam gcaeisiam
+81	7481	annalach	annalacha
+82	7482	mearchuimhne	
+83	7483	scagach	
+84	7484	siabhránach	
+85	7485	sómach	sómacha
+86	7486	fothoradh	fothorthaí
+87	7487	siosmaideach	siosmaidí
+88	7488	cúistiúnach	cúistiúnacha cúistiúnaí
+89	7489	slacaí	shlacaithe shlacaí tslacaí
+90	7490	spreagthach	spreagthacha spreagthaigh spreagthaí
+91	7491	riach	
+92	7492	abtheach	b'abtheach
+93	7493	punc	phunc
+94	7494	coincréit	choincréit choincréite coincréite
+95	7495	calcúta	chalcúta gcalcúta
+96	7496	abhus	
+97	7497	frithdhúnadh	bhfrithdhúnadh fhrithdhúnadh fhrithdhúnta
+98	7498	homaighnéasacht	homaighnéasachta
+99	7499	iarmhar	iarmhair t-iarmhar
+100	7500	lastoir	

@@ -1,0 +1,100 @@
+1	5901	comhbheartas	chomhbheartais chomhbheartas comhbheartais gcomhbheartas
+2	5902	forlíon	bhforlíonadh bhforlíonta fhorlíonadh forlíonadh forlíonann forlíonta forlíontar
+3	5903	gluaisrothar	ghluaisrothair ghluaisrothar gluaisrothair ngluaisrothar
+4	5904	sáirsint	sháirsint tsáirsint
+5	5905	folt	bhfolt fholt
+6	5906	alfa	
+7	5907	míchruinn	mhíchruinn
+8	5908	príomhbhealach	bpríomhbhealach phríomhbhealach príomhbhealaigh príomhbhealaí
+9	5909	steip	steipe steipeanna
+10	5910	céide	chéide
+11	5911	grús	ghrúis ghrús grúis
+12	5912	sáinn	sháinn tsáinn
+13	5913	dícheann	dhícheann dhícheannadh dhícheanntar dícheannadh
+14	5914	ealta	ealtaí healta healtaí n-ealtaí
+15	5915	leictreastatach	leictreastatacha leictreastataigh
+16	5916	neamhrialtasach	neamhrialtasacha
+17	5917	nua-aois	nua-aoise
+18	5918	uaisleacht	d'uaisleacht huaisleacht huaisleachta uaisleachta
+19	5919	posatrón	bposatrón phosatróin phosatrón posatróin
+20	5920	gearrthéarmach	gearrthéarmacha ghearrthéarmach ghearrthéarmaigh
+21	5921	nimhneach	nimhneacha nimhní
+22	5922	hiodrálach	hiodrálacha
+23	5923	toit	thoit thoite toite
+24	5924	racht	rachtanna
+25	5925	creabhar	creabhair gcreabhair gcreabhar
+26	5926	flanndearg	flanndearga
+27	5927	ceardchumannaí	ceardchumannach ceardchumannaigh ceardchumannaithe cheardchumannaí gceardchumannaithe
+28	5928	cruthúnas	chruthúnais chruthúnas cruthúnais gcruthúnas
+29	5929	éagmais	n-éagmais éagmaise
+30	5930	cól	cóil
+31	5931	cúr	chúir chúr cubhar cúir cúrfá gcúr
+32	5932	gasóg	gasóga ghasóg ngasóg
+33	5933	neimheadh	neimhidh
+34	5934	ceoldrámaíocht	ceoldrámaíochta gceoldrámaíocht
+35	5935	ródach	ródaigh ródaithe ródaí
+36	5936	frustrachas	bhfrustrachas fhrustrachais fhrustrachas frustrachais
+37	5937	gariníon	gariníonacha ghariníon
+38	5938	poitigéir	bpoitigéirí phoitigéir poitigéara poitigéirí
+39	5939	féinriail	bhféinriail fhéinriail féinrialach
+40	5940	braiteoir	bhraiteoir bhraiteoirí bhraiteora braiteoirí braiteora mbraiteoir mbraiteoirí
+41	5941	gruagach	ghruagach gruagacha ngruagach
+42	5942	rialúchán	rialúcháin
+43	5943	sceallóg	sceallóga
+44	5944	imoibríoch	himoibríoch imoibríche imoibríocha
+45	5945	ceant	ceantanna cheant gceant
+46	5946	páis	pháis pháise páise
+47	5947	buaircíneach	bhuaircíneach bhuaircíneacha buaircíneacha buaircínigh mbuaircíneach
+48	5948	fiús	bhfiúis bhfiús fhiúis fhiús fiúsanna
+49	5949	contrárthacht	chontrárthacht gcontrárthacht
+50	5950	mailíseach	mailíseacha mhailíseach
+51	5951	sciorr	sciorradh sciorrann sciorrtha sciorrthaí
+52	5952	sleamhnán	shleamhnáin shleamhnán sleamhnáin
+53	5953	tointe	dtointe thointe tointí
+54	5954	feithidicíd	feithidicídí fheithidicíd
+55	5955	léirsitheoir	léirsitheoirí
+56	5956	seipeal	seipil
+57	5957	mórgacht	mhórgacht mhórgachta mórgachta
+58	5958	oibreachas	oibreachais
+59	5959	ind-eorpais	hind-eorpaise ind-eorpaise
+60	5960	giobach	ghiobach
+61	5961	muirear	mhuirear mhuirir muirir
+62	5962	pointeáil	phointeáil phointeáiltear phointeálaimid pointeáilte pointeála
+63	5963	traigéide	traigéidí
+64	5964	aithnid	aithnide
+65	5965	fiuch	bhfiuchann fhiuchann fhiuchtar fiuchta fiuchtar
+66	5966	easlán	easláin easlána heasláin n-easlán
+67	5967	uige	d'uigí huige n-uige uigí
+68	5968	bréagadóir	bhréagadóir bhréagadóra bréagadóirí
+69	5969	príomhalt	príomhailt
+70	5970	deisceabal	deisceabail dheisceabail dheisceabal ndeisceabal
+71	5971	sahára	tsahára
+72	5972	tóraí	dtóraithe thóraí
+73	5973	ionadaíoch	ionadaíocha
+74	5974	tumadóir	thumadóirí tumadóirí tumadóra
+75	5975	leispiach	leispiacha
+76	5976	buíoch	bhuíoch
+77	5977	béic	bhéic béice béiceadh mbéice
+78	5978	piréiní	bpiréiní
+79	5979	leordhóthanach	leordhóthanacha
+80	5980	túiliam	thúiliam
+81	5981	grásta	ghrásta ngrást ngrásta
+82	5982	próiseálaí	bpróiseálaithe bpróiseálaí phróiseálaí próiseálaithe
+83	5983	dírbheathaisnéiseach	dhírbheathaisnéiseach dírbheathaisnéiseacha
+84	5984	méadailín	mhéadailín méadailíní
+85	5985	titimeas	titimis
+86	5986	trasdul	thrasdul trasdula
+87	5987	urchóideach	urchóideacha urchóidigh
+88	5988	bunsraith	bhunsraith bunsraithe bunsraitheanna mbunsraith
+89	5989	aicsean	aicsin t-aicsean
+90	5990	léarscáiligh	léarscáilithe léarscáiliú léarscáilí
+91	5991	créfort	chréfort créfoirt gcréfort
+92	5992	fann	fainne fanna
+93	5993	téatar	dtéatar théatar téatair
+94	5994	sciáil	sciála
+95	5995	galfaire	galfairí ghalfaire ghalfairí ngalfairí
+96	5996	priacal	bpriacal phriacail phriacal priacail
+97	5997	impí	
+98	5998	léachtóireacht	léachtóireachta
+99	5999	bandiúc	bhandiúc bhandiúic
+100	6000	dreap	dhreap dhreapadar dhreapann dhreaptar dreapann ndreapann

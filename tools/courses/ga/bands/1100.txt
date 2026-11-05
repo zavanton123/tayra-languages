@@ -1,0 +1,100 @@
+1	1001	eacnamaíocht	d'eacnamaíocht d’eacnamaíocht eacnamaíochta heacnamaíocht heacnamaíochta n-eacnamaíocht
+2	1002	blas	bhlas bhlasanna blais blasanna mblas mblasanna
+3	1003	clúdaigh	chlúdaigh chlúdaínn chlúdaíonn chlúdaítear chlúdódh chlúdófaí clúdaithe clúdaíodh clúdaíonn clúdaítear clúdóidh gclúdaigh gclúdaíonn gclúdaítear
+4	1004	sinsearach	shinsearach shinsearacha shinsearaigh shinsearaí sinsearacha sinsearaigh sinsearaí
+5	1005	siúcra	shiúcra siúcraí tsiúcra
+6	1006	staraí	stairí staraithe
+7	1007	eagraigh	d'eagraigh d'eagraídís d'eagraíodh d'eagraítí d’eagraigh d’eagraíodar d’eagraíodh eagraithe eagraíodh eagraíonn eagraítear eagródh eagróidh heagraithe heagraíodh n-eagraíonn n-eagraítear
+8	1008	ae	d'ae hae t-ae
+9	1009	muc	mhuc mhuca mhuice muca muic muice
+10	1010	poll	bpoill bpoll bpolla bpollfar phoill pholl pholladh phollann phollta poill polla polladh pollaidh pollann pollta
+11	1011	speisialta	speisealta spesialta
+12	1012	breitheamh	bhreitheamh bhreithimh bhreithiúna breithimh breithiúna mbreitheamh mbreithiúna
+13	1013	gléas	ghléas ghléasadh ghléasanna ghléasta ghléastar ghléis gléasa gléasadh gléasann gléasanna gléasta gléis ngléas ngléasanna ngléastar
+14	1014	dáta	dháta dhátaí dátaí ndáta ndátaí
+15	1015	gramadach	ghramadach ghramadaí gramadaigh gramadaí ngramadach
+16	1016	sínigh	shínigh shínithe shíní shíníodh shíníonn síneodh síneofar síneofaí síneoidh sínithe síní síníodh síníonn sínítear tsínithe
+17	1017	réiteach	réitigh
+18	1018	meath	meata meatha meathadh meathann mheata mheath mheatha mheathann mheathfadh
+19	1019	spreag	spreagann spreagfadh spreagfaidh spreagfar spreagfaí spreagtar
+20	1020	beagán	beagáin bheagáin bheagán mbeagán
+21	1021	catagóir	catagóire catagóirí chatagóir chatagóirí gcatagóir gcatagóirí
+22	1022	fichiú	20ú bhfichiú fhichiú
+23	1023	feidhmigh	bhfeidhmeodh bhfeidhmeofar bhfeidhmeoidh bhfeidhmithe bhfeidhmíonn bhfeidhmítear d'fheidhmeodh d'fheidhmigh d'fheidhmiú d'fheidhmíodh d’fheidhmigh d’fheidhmiú feidhmeoidh feidhmithe feidhmí feidhmíodh feidhmíonn feidhmítear fheidhmeodh fheidhmeoidh fheidhmigh fheidhmithe fheidhmíonn fheidhmítear
+24	1024	deimhin	
+25	1025	cnuasaigh	chnuasach chnuasaigh cnuasach cnuasaithe gcnuasach gcnuasaigh
+26	1026	diúltaigh	dhiúltaigh dhiúltaithe dhiúltaíodh dhiúltaíonn dhiúltaítear dhiúltódh diúltaithe diúltaíodh diúltaíonn diúltaítear diúltóir ndiúltaíonn ndiúltaítear ndiúltódh ndiúltófaí ndiúltóidh ndiúltóidís
+27	1027	gúna	ghúna gúnaí ngúna ngúnaí
+28	1028	daingean	daingin daingne dhaingean dhaingin dhaingne ndaingean ndaingin
+29	1029	éalaigh	d'éalaigh d’éalaigh d’éalaíodh héalaigh héalaithe héaluithe héalú n-éalaíonn n-éalódh n-éalóidh n-éalú t-éalú éalaithe éalaí éalaíonn éaluithe éaló éalóidís éalú
+30	1030	ciliméadar	chiliméadair chiliméadar ciliméadair gciliméadair gciliméadar
+31	1031	coincheap	choincheap choincheapa coincheapa coincheaptha gcoincheap gcoincheapa gcoincheaptar
+32	1032	sruth	shruth shruthanna srutha sruthanna tsruth tsrutha
+33	1033	láithreach	láithreacha láithrigh láithriú láithrí
+34	1034	iarla	d'iarla d'iarlaí d’iarla d’iarlaí hiarla hiarlaí iarlaí n-iarlaí niarlaí t-iarla tiarla
+35	1035	dalta	daltaí dhalta dhaltaí ndaltaí
+36	1036	trá	dtrá dtránna thrá thránna tra tránna
+37	1037	intinn	d'intinn d’intinn hintinn hintinne intinne intinní m'intinn m’intinn n-intinn
+38	1038	cúram	chúraim chúraimí chúram cúraim cúraimí gcúraimí gcúram
+39	1039	anocht	
+40	1040	aréir	a-réir
+41	1041	luaidhe	
+42	1042	fód	bhfód fhód fhóid fóid
+43	1043	uachtarach	uachtaracha uachtaraigh uachtaraí
+44	1044	banc	bainc baince bancanna bhainc bhanc mbainc mbanc
+45	1045	carraig	carraic carraige carraigeacha charraig charraige gcarraig gcarraigeacha
+46	1046	coill	choill choille choillte choilltear coille coillidh coillte gcoill gcoille gcoillte
+47	1047	múineadh	mhúinte múinte
+48	1048	cluain	chluain chluainte chluana cluainte cluana gcluain
+49	1049	airgeadas	airgeadais hairgeadais hairgeadas
+50	1050	sibhialta	shibhialta
+51	1051	lón	lóin lónta
+52	1052	stad	stadadh stadaidh stadair stadais stadann stadanna stadas stadfadh stadfaidh stadta stadtar
+53	1053	ainneoin	aindeoin d’ainneoin n-ainneoin
+54	1054	draíocht	dhraíocht dhraíochta draoidheacht draoidheachta draíochta ndraíocht
+55	1055	cos	choise chos chosa cosa gcos gcosa
+56	1056	cruinn	chruinn
+57	1057	sroich	shroich shroicheadar shroicheadh shroicheann shroichfeadh shroichfidh shroichfinn shroichfí shroichtear sroicheadh sroicheann sroichfeadh sroichfear sroichfidh sroichfí sroichte sroichtear
+58	1058	sóisialach	shóisialach shóisialacha shóisialaigh shóisialaithe shóisialaí shóisialú sóisialacha sóisialaigh sóisialaithe sóisialaí sóisialú tsóisialaí
+59	1059	sona	shona
+60	1060	spéir	spéartha spéire
+61	1061	gunna	ghunna ghunnaí gunnaí ngunna ngunnaí
+62	1062	malairt	malairte malairtí mhalairt mhalairte
+63	1063	sách	shách sáigh
+64	1064	níorbh	
+65	1065	rian	riain rianta
+66	1066	uirlis	d'uirlisí d’uirlisí huirlis huirlise huirlisí n-uirlisí uirlise uirlisí uirnis
+67	1067	ordú	d'orduithe d'ordú d’orduithe horduithe hordú n-orduithe ordaithe orduithe t-ordú
+68	1068	clasaiceach	chlasaiceach chlasaiceacha chlasaicigh chlasaicí clasaiceacha clasaicigh gclasaiceach
+69	1069	amharc	amhairc amharcann amharctar d'amharc d’amharc hamharc
+70	1070	impire	d'impire d'impirí himpire himpirí impirí n-impirí t-impire
+71	1071	ban-aisteoir	ban-aisteoirí banaisteoir bhan-aisteoir bhanaisteoir bhanaisteora
+72	1072	plé	bplé phlé
+73	1073	gairid	gairide ghairid ghairide goirid
+74	1074	rath	ratha
+75	1075	cúigiú	5ú chúigiú gcúigiú
+76	1076	iarr	d'iarr d'iarradh d’iarr d’iarradh d’iarrfadh hiarradh iarradh iarraim iarraimid iarraimis iarrainn iarrann iarrfar iarrtar iarrtha n-iarrann n-iarrfadh n-iarrfaidh n-iarrfaí
+77	1077	dian	dhian dhiana dhéin dhéine diana déine ndéine
+78	1078	freagrach	fhreagrach freagarthach freagracha
+79	1079	seol	seoil seola seoladar seolaidh seolaidís seolann seolfadh seolfaidh seolfar seolfaí seoltar seoltaí sheol sheola sheoladar sheolann sheolas sheolfadh sheolfaidh sheolfaimis sheolfar sheolfaí sheoltar tseoil
+80	1080	ceadaigh	ceadaithe ceadaíodh ceadaíonn ceadaítear ceadófar cheadaigh cheadaithe cheadaím cheadaíodh cheadaíonn cheadaítear cheadaítí cheadódh cheadófar cheadófaí cheadóidís gceadaíonn gceadaítear gceadódh gceadófar gceadófaí gceadóidh
+81	1081	tráthnóna	thráthnóna tráthnónta
+82	1082	gairdín	gairdíní ghairdín ghairdíní ngairdín ngairdíní
+83	1083	ian	hiain hian iain iana éine
+84	1084	móilín	mhóilín mhóilíní móilíní
+85	1085	cluas	chluais chluaise chluas chluasa cluais cluaise cluasa gcluas gcluasa
+86	1086	gníomhach	ghníomhach ghníomhacha gníomhacha gníomhaigh
+87	1087	arna	
+88	1088	éirinn	d'éirinn héirinn néirinn
+89	1089	ráth	rátha ráthanna
+90	1090	gearrscéal	gearrscéalta gearrscéil ghearrscéal ghearrscéalta ghearrscéil ngearrscéal ngearrscéalta
+91	1091	achar	achair d'achar d’achar hachair hachar n-achar t-achar
+92	1092	olltoghchán	d'olltoghchán holltoghcháin holltoghchán olltoghcháin t-olltoghchán
+93	1093	easpag	d'easpag d’easpag easpaig epscop heaspag heaspaig n-easpag neaspag t-easpag teaspag
+94	1094	teas	dteas teasa
+95	1095	ráta	rátaí
+96	1096	forbair	bhforbraíodh bhforbraíonn bhforbraítear bhforbródh bhforbrófaí bhforbróidh d'fhorbair d'fhorbraíodh fhorbair fhorbraíodh fhorbraíonn forbraíodh forbraíonn forbraítear forbróidh
+97	1097	bunadh	bhunadh bhunaidh bunaidh mbunadh
+98	1098	tuill	dtuilleadh dtuilleann dtuillfidh thuill thuilleadar thuilleann thuillfeadh thuillis thuilltear tuille tuilleann tuillte
+99	1099	inmheánach	hinmheánach inmheánacha inmheánaigh inmheánaithe inmheánaí inmheánú
+100	1100	amhail	

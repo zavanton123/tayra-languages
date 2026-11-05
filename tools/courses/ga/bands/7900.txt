@@ -1,0 +1,100 @@
+1	7801	fraochmhá	bhfraochmhánna fhraochmhá fraochmhánna
+2	7802	bithóipse	bithóipsí mbithóipse
+3	7803	comhlárnach	chomhlárnach chomhlárnacha comhlárnacha
+4	7804	bíol	mbíol
+5	7805	meaisínteanga	mheaisínteanga
+6	7806	drogallach	
+7	7807	eilifint	eilifinte eilifintí heilifint heilifinte heilifintí
+8	7808	bricfeasta	bhricfeasta bricfeastaí
+9	7809	baoi	mbaoi
+10	7810	cuire	cuirí gcuire
+11	7811	sabhána	sabhánaí
+12	7812	síth	síthe
+13	7813	tíreolaí	thíreolaí tíreolaithe
+14	7814	altaigh	altaithe altaím
+15	7815	faróch	bhfaróch faróigh
+16	7816	maidéara	mhaidéara
+17	7817	báirse	bháirse bháirsí báirsí mbáirse
+18	7818	clúmhach	clúmhacha
+19	7819	dinimic	dhinimic dhinimice dinimice
+20	7820	fóirdheontas	bhfóirdheontas fhóirdheontais fhóirdheontas fóirdheontais
+21	7821	grámhar	ghrámhar grámhara
+22	7822	imchoimeád	imchoimeádta
+23	7823	maisíocht	maisíochta maisíochtaí mhaisíocht
+24	7824	measúil	measúla mheasúil mheasúla
+25	7825	sofheicthe	shofheicthe
+26	7826	gruaim	ghruaim
+27	7827	náid	
+28	7828	uileghabhálach	huileghabhálach uileghabhálacha uileghabhálaí
+29	7829	aral	arail t-aral
+30	7830	fionnbheannach	fionnbheannaigh
+31	7831	leiveaint	
+32	7832	ruis	
+33	7833	achtainiam	t-achtainiam
+34	7834	aelus	aelusanna haelusanna
+35	7835	athbhríoch	athbhríocha
+36	7836	béasa	
+37	7837	each-chumhacht	each-chumhachta
+38	7838	firinscne	fhirinscne
+39	7839	fochultúr	fhochultúir fhochultúr
+40	7840	glámh	gláimhe
+41	7841	inlasta	
+42	7842	inseolta	
+43	7843	maigeanta	
+44	7844	mogall	mhogaill mhogall mogaill
+45	7845	nádúraíoch	nádúraíocha
+46	7846	pupa	phupa pupaí
+47	7847	réasúnaigh	réasúnaithe
+48	7848	seanuncail	sheanuncail
+49	7849	taghdach	thaghdach
+50	7850	óid	hóideanna óideanna
+51	7851	íonaigh	íonaithe íonú
+52	7852	útaras	hútaras t-útaras
+53	7853	siompóisiam	siompóisiamaí tsiompóisiam
+54	7854	stuara	stuaraí
+55	7855	béasach	bhéasaí béasaí
+56	7856	comhlán	chomhlán
+57	7857	plátáil	phlátáilte plátáilte plátáiltear plátála
+58	7858	seansaighdiúir	seansaighdiúirí seansaighdiúra sheansaighdiúir sheansaighdiúirí
+59	7859	ardnósach	ardnósacha
+60	7860	blaistigh	bhlaistiú blaistithe blaistiú
+61	7861	cliamhain	chliamhain
+62	7862	cómhalartach	cómhalartacha
+63	7863	drandal	dhrandal drandail
+64	7864	dúidéineam	dúidéinim
+65	7865	eitneolaíocht	eitneolaíochta heitneolaíochta
+66	7866	grúdaireacht	grúdaireachta ngrúdaireacht
+67	7867	homafóbach	homafóbacha homafóbaí
+68	7868	inneoin	inneonach
+69	7869	marsúipiach	marsúipiacha marsúipiaigh
+70	7870	pionósach	phionósach pionósacha
+71	7871	ré-uimhir	ré-uimhreacha
+72	7872	scairdsruth	scairdsruthanna
+73	7873	teagmhasach	theagmhasach
+74	7874	talmhaigh	talmhaithe talmhú thalmhaigh thalmhaithe thalmhaítear thalmhú
+75	7875	imleacán	imleacáin
+76	7876	miondealaigh	mhiondealú miondealaithe miondealú
+77	7877	othrasaigh	othrasaithe othrasú
+78	7878	diongbháilteacht	dhiongbháilteacht diongbháilteachta
+79	7879	scanraigh	scanraíonn scanraítear scanródh scanróidh scanrú
+80	7880	cócaon	chócaoin chócaon cócaoin gcócaon
+81	7881	clinic	chlinic chlinicí clinicí gclinic
+82	7882	léasar	
+83	7883	mullán	mhulláin mulláin
+84	7884	píodmant	bpíodmant phíodmant
+85	7885	athmhúnlaigh	athmhúnlaíodh athmhúnlú
+86	7886	cláraitheoir	chláraitheoir chláraitheora cláraitheoirí
+87	7887	débhríoch	débhríocha
+88	7888	foirgníocht	fhoirgníocht foirgníochta
+89	7889	cóma	chóma gcóma
+90	7890	imníoch	imníocha
+91	7891	inrochtana	
+92	7892	nóinín	nóiníní
+93	7893	riabh	
+94	7894	suipéar	shuipéar tsuipéir
+95	7895	uan	n-uan tuan
+96	7896	aeróbach	aeróbacha aeróbaí
+97	7897	cangarú	cangarúnna changarú
+98	7898	carbadóir	carbadóirí charbadóir
+99	7899	fiuchadh	fhiuchadh
+100	7900	geamaireacht	geamaireachtaí gheamaireacht ngeamaireachtaí

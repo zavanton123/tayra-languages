@@ -1,0 +1,100 @@
+1	2501	aoir	aoire aoirí aortha b'aoir d'aoir haoire n-aoirí t-aoire taoire
+2	2502	urraim	hurraim hurraime n-urraim urraime urram
+3	2503	nigh	nite nitear nífeadh nígí níodh níonn nír nís
+4	2504	cladach	chladach chladaigh chladaí cladaigh cladaí gcladach gcladaí
+5	2505	comharsanacht	chomharsanacht chomharsanachta chomharsanachtaí comharsanachta comharsanachtaí gcomharsanacht gcomharsanachta gcomharsanachtaí
+6	2506	franc	bhfranc fhranc frainc franca francanna
+7	2507	míol	mhíl mhíol mhíolta míl míola míolta
+8	2508	spásárthach	spásárthaigh spásárthaí
+9	2509	iniúchadh	iniúchtaí
+10	2510	cór	chór gcór
+11	2511	oirthearach	oirthearacha oirthearaigh oirthearaí
+12	2512	gléasra	ghléasra ghléasraí gléasraí ngléasra ngléasraí
+13	2513	beacht	beachta bheacht bheachta
+14	2514	bran	bhrain bhran brain
+15	2515	bainistiú	bhainistiú mbainistiú
+16	2516	giorrúchán	ghiorrúcháin ghiorrúchán giorrúcháin ngiorrúcháin ngiorrúchán
+17	2517	scrúdaigh	scrúdaithe scrúdaíodh scrúdaíonn scrúdaítear scrúdódh scrúdóidh scrúdóir
+18	2518	bard	baird bhaird bhard mbaird mbard
+19	2519	seachaid	seachadadh seachadfaí seachadta seachadtar seachadtaí sheachadadh sheachadann sheachadtar sheachadtaí sheachaid
+20	2520	plaisteach	bplaisteach bplaistigh phlaisteach phlaisteacha phlaistigh plaisteacha plaistigh
+21	2521	tánaisteach	thánaisteach thánaisteacha tánaisteacha
+22	2522	sibhialtach	shibhialtach shibhialtacha shibhialtaigh sibhialtacha sibhialtaigh
+23	2523	caoin	caoineann caointe chaoin chaoineann chaointe gcaoin gcaoineadh gcaointe
+24	2524	beochan	beochana bheochan bheochana mbeochan
+25	2525	práta	bpráta bprátaí fata fataí phráta phrátaí prátaí
+26	2526	bogearraí	mbogearraí
+27	2527	crómasóm	chrómasóim chrómasóm crómasóim gcrómasóim gcrómasóm
+28	2528	bráithreachas	bhráithreachais bhráithreachas bráithreachais mbráithreachas
+29	2529	pearsantacht	bpearsantacht pearsantachta pearsantachtaí phearsantacht phearsantachta
+30	2530	aistear	aistir haistear haistir n-aistear n-aistir t-aistear
+31	2531	portráid	bportráidí phortráid phortráidí portráide portráidithe portráidí
+32	2532	boladh	bholadh bholaidh bolaidh mboladh
+33	2533	eisiúint	eisiúintí eisiúna heisiúint heisiúintí n-eisiúint
+34	2534	docht	dhocht dhochta dhoichte dochta doichte thochtaí tocht tochta tochtaí
+35	2535	nia	nianna
+36	2536	gabhar	gabhair gabhra ghabhair ghabhar ngabhar
+37	2537	ardscoil	ardscoile ardscoileanna hardscoil hardscoile hardscoileanna
+38	2538	seandálaí	seandálaithe sheandálaithe sheandálaí tseandálaí
+39	2539	seansailéir	seansailéara seansailéirí sheansailéir tseansailéara tseansailéir
+40	2540	monarcacht	mhonarcacht mhonarcachtaí monarcachta monarcachtaí
+41	2541	corcra	chorcra
+42	2542	altram	altrama
+43	2543	tál	dtáil dtál dtála dtálann dtáltar tháil thál thálann tháltar táil tálann tálta táltar
+44	2544	nathair	nathrach nathracha
+45	2545	téarmaíocht	dtéarmaíocht théarmaíocht théarmaíochta téarmaíochta
+46	2546	cúinse	chúinse chúinsí cúinsí gcúinse gcúinsí
+47	2547	tor	dtoir dtor thor toir
+48	2548	araile	araill aroile
+49	2549	criostal	chriostail chriostal criostail gcriostail gcriostal
+50	2550	vacsaín	vacsaíne vacsaíní
+51	2551	mórchuid	mhórchuid
+52	2552	réalteolaíocht	réalteolaíochta
+53	2553	alcól	alcóil halcóil halcól t-alcól
+54	2554	arc	airc airce d'arc d’arc hoirc oirc orc
+55	2555	múr	mhúir mhúr mhúrtha múir múradh múrtha
+56	2556	gabhlóg	gabhlóga gabhlóige ghabhlóg ghabhlóga
+57	2557	ilbhliantúil	ilbhliantúla
+58	2558	tátal	thátail thátal tátail
+59	2559	gaineamh	gainimh ghaineamh ghainimh ngaineamh
+60	2560	íochtar	híochtair híochtar íochtair
+61	2561	íocaíocht	d'íocaíocht d'íocaíochtaí híocaíocht híocaíochta híocaíochtaí n-íocaíochtaí íocaíochta íocaíochtaí
+62	2562	ríomh	ríofa ríomha ríomhadh ríomhann ríomhanna ríomhtar
+63	2563	fócas	bhfócas fhócais fhócas fócais
+64	2564	itheachán	itheacháin
+65	2565	órga	órdha
+66	2566	anonn	
+67	2567	strus	struis
+68	2568	tiarnaigh	thiarnaigh tighearnaigh
+69	2569	cainéal	cainéil chainéal chainéil gcainéal gcainéil
+70	2570	taidhleoir	dtaidhleoirí taidhleoirí taidhleora thaidhleoir thaidhleoirí
+71	2571	ochtó	hochtó hochtóidí n-ochtóidí ochtóidí
+72	2572	suntas	shuntas suntais
+73	2573	sóisear	shóisear shóisir sóisir
+74	2574	caolas	caolais chaolais chaolas gcaolas
+75	2575	sparán	sparáin
+76	2576	imeartas	d'imeartas imeartais t-imeartas
+77	2577	cumasach	chumasach chumasacha chumasaí chumasú cumasacha cumasaí
+78	2578	múnla	mhúnla mhúnlaí múnlaí
+79	2579	cothromaíocht	chothromaíocht chothromaíochta cothromaíochta cothromaíochtaí gcothromaíocht
+80	2580	cuairteoir	chuairteoir chuairteoirí chuairteora cuairteoirí gcuairteoir gcuairteoirí
+81	2581	óstach	d'óstach d'óstaigh d’óstaigh hóstach hóstaigh n-óstach n-óstaigh t-óstach óstaigh
+82	2582	trian	dtrian thriain thrian treana trianta
+83	2583	dair	darach daracha dhair dharach
+84	2584	céatadán	chéatadáin chéatadán céatadáin gcéatadán
+85	2585	athuair	
+86	2586	liric	liricí
+87	2587	gaisce	gaiscí ghaisce ghaiscí ngaisce ngaiscí
+88	2588	iomáint	hiomáint hiomána
+89	2589	féinrialaitheach	fhéinrialaitheach fhéinrialaitheacha fhéinrialaithigh féinrialaitheacha féinrialaithí
+90	2590	friotaíocht	bhfriotaíocht fhriotaíocht friotaíochta friotaíochtaí
+91	2591	aoine	haoine
+92	2592	máguaird	mháguaird
+93	2593	irisleabhar	hirisleabhair irisleabhair t-irisleabhar
+94	2594	oiriúnaigh	d'oiriúnaigh d’oiriúnaigh hoiriúnuithe hoiriúnú n-oiriúnaíonn oiriúnaithe oiriúnaíodh oiriúnaíonn oiriúnuithe oiriúnú t-oiriúnú
+95	2595	aicmiú	n-aicmiú t-aicmiú
+96	2596	pátrún	bpátrúin bpátrún phátrúin phátrún pátrúin
+97	2597	giorraigh	ghiorraigh ghiorraithe ghiorraítear giorraithe giorraíodh giorraítear giorruithe giorrú ngiorraíonn
+98	2598	reibiliúnach	reibiliúnacha reibiliúnaigh reibiliúnaithe reibiliúnaí
+99	2599	oiriúint	oiriúintí
+100	2600	cosacach	chosacach chosacacha chosacaigh cosacacha cosacaigh gcosacach

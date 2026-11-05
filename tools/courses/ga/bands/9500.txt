@@ -1,0 +1,100 @@
+1	9401	sacsafón	sacsafóin tsacsafóin
+2	9402	romainis	romainise
+3	9403	tuircméanastáin	tuircméanastáine
+4	9404	comhréidh	comhréidhe
+5	9405	scaglann	scaglanna
+6	9406	uimhríocht	huimhríochta uimhríochta
+7	9407	túirín	dtúirín túiríní
+8	9408	patrarc	bpatrarc patrarcaí phatrarc
+9	9409	sian	sianta séine
+10	9410	néareolaíoch	néareolaíocha
+11	9411	pluma	plumaí
+12	9412	aibhléis	aibhléise
+13	9413	staimín	staimíní
+14	9414	iall	hiall héille éille
+15	9415	crogall	chrogaill crogaill
+16	9416	cinnteoireacht	chinnteoireacht chinnteoireachta cinnteoireachta gcinnteoireacht
+17	9417	scrúdaitheoir	scrúdaitheoirí scrúdaitheora
+18	9418	aithriseoir	aithriseoirí haithriseoirí t-aithriseoir
+19	9419	braillín	braillíní bráillín mbraillín
+20	9420	cnáimhseach	chnáimhsí cnáimhsí
+21	9421	criostalagrafaíocht	chriostalagrafaíocht criostalagrafaíochta gcriostalagrafaíocht
+22	9422	deabhóid	deabhóide
+23	9423	greamachán	ghreamacháin ghreamachán greamacháin
+24	9424	lagmhisneach	lagmhisnigh
+25	9425	staireolaíocht	staireolaíochta
+26	9426	tucaid	thucaidí tucaidí
+27	9427	craoibhín	chraoibhín gcraoibhín
+28	9428	hurá	
+29	9429	imbolc	
+30	9430	meadar	mheadar
+31	9431	nítriglicrín	
+32	9432	rámhlong	rámhlonga
+33	9433	scigire	scigirí
+34	9434	siosúr	siosúir
+35	9435	uathlathaí	
+36	9436	airgeadúil	airgeadúla
+37	9437	aisiompú	
+38	9438	athbhreith	athbhreithe
+39	9439	banfhlaith	banfhlatha bhanfhlaith
+40	9440	bascadh	basctha bhascadh mbascadh
+41	9441	bunchúis	bhunchúis bunchúiseanna
+42	9442	punta	bpuntaí
+43	9443	púitse	bpúitse púitsí
+44	9444	broigheall	bhroigheall broighill
+45	9445	bráth	brátha
+46	9446	bumaile	bhumaile
+47	9447	cartagrafaíocht	cartagrafaíochta chartagrafaíocht gcartagrafaíocht
+48	9448	caimileon	chaimileoin chaimileon gcaimileon
+49	9449	corpoideachas	chorpoideachas corpoideachais
+50	9450	cianreathaí	
+51	9451	comhchoirigh	chomhchoirithe chomhchoirí comhchoirithe comhchoirí
+52	9452	comhoiriúnach	comhoiriúnacha
+53	9453	crómasómach	chrómasómach crómasómacha
+54	9454	cuisnigh	cuisnithe cuisniú cuisnítear
+55	9455	ionsáigh	d'ionsáigh hionsá ionsáite ionsánna
+56	9456	dea-thoil	dea-thola dhea-thoil
+57	9457	dearbhnialas	
+58	9458	dineamó	dhineamó
+59	9459	doinsiún	doinsiúin ndoinsiúin ndoinsiún
+60	9460	drámh	dhrámh dráimh dráite
+61	9461	dícheangail	dhícheangail dhícheangal dícheangailte dícheangal dícheanglaíonn
+62	9462	eitneolaí	eitneolaithe
+63	9463	fiord	fhiord fiordanna
+64	9464	fliuchras	fhliuchras fliuchrais
+65	9465	féasógach	fhéasógach
+66	9466	créamatóiriam	chréamatóiriam créamatóiriamaí gcréamatóiriam gcréamatóiriamaí
+67	9467	gardáil	gardála ghardáil
+68	9468	ianú	
+69	9469	idirlíne	hidirlíne
+70	9470	ionchlannaigh	ionchlannaítear ionchlannú
+71	9471	isiméireacht	isiméireachta
+72	9472	labhra	labhraí
+73	9473	lagar	lagair
+74	9474	lastuas	
+75	9475	loiceadh	
+76	9476	lánchúlaí	
+77	9477	margáil	margála
+78	9478	meathán	meatháin miothán
+79	9479	mórchríoch	mhórchríoch
+80	9480	mórbhóthar	mhórbhóthar mórbhóithre
+81	9481	neamhchothrom	neamhchothroma
+82	9482	neamhfheiceálach	
+83	9483	neamhlíneach	neamhlíneacha
+84	9484	giorracht	ghiorracht ngiorracht
+85	9485	pleanálaí	pleanálaithe
+86	9486	rosta	
+87	9487	ruabhreac	ruabhric
+88	9488	sainleas	sainleasa shainleas
+89	9489	scriosán	scriosáin
+90	9490	seanaimseartha	sheanaimseartha
+91	9491	smuigléireacht	
+92	9492	spotsolas	
+93	9493	spriocdháta	spriocdhátaí
+94	9494	spórtúil	spórtúla
+95	9495	stéigeach	stéigigh stéigí
+96	9496	síocóis	tsíocóis
+97	9497	athraitheas	athraithis t-athraitheas
+98	9498	ianaisféar	ianaisféir t-ianaisféar
+99	9499	tarmlig	tarmligeadh tarmligthe
+100	9500	tras-scríbhinn	tras-scríbhinne tras-scríbhinní

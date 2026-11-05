@@ -1,0 +1,100 @@
+1	1301	staighre	staighrí
+2	1302	leanúnach	leanúnacha leanúnaigh leanúnaithe leanúnaí
+3	1303	comhphobal	chomhphobail chomhphobal comhphobail gcomhphobail gcomhphobal
+4	1304	pósta	bpósta phósta
+5	1305	iasacht	d'iasacht d'iasachtaí d’iasachtaí hiasacht hiasachtaí iasachtaithe iasachtaí n-iasachtaí t-iasachtaí
+6	1306	leithscéal	leithscéalta leithscéil
+7	1307	pearsa	bpearsa bpearsan bpearsana pearsain pearsan pearsana phearsa phearsan phearsana
+8	1308	measartha	mheasartha
+9	1309	guth	ghuth ghutha ghuthanna gutha guthanna nguth ngutha nguthanna
+10	1310	arbh	
+11	1311	seans	seansanna sheans sheansanna tseans
+12	1312	fisic	bhfisic d’fhisic fhisic fhisice fisice
+13	1313	luas	luais luasanna
+14	1314	píosa	bpíosa bpíosaí phíosa phíosaí píosaí
+15	1315	spéis	spéise spéiseanna
+16	1316	imeall	d'imeall d'imill d’imill himeall himill imill iomall n-imeall n-imill t-imeall
+17	1317	bailigh	baileoidh bailithe bailíodh bailíonn bailítear bhailigh bhailithe bhailíodar bhailíodh bhailíonn bhailís bhailítear bhailítí mbaileodh mbailíonn mbailítear
+18	1318	rinn	reann reanna
+19	1319	samhail	samhla samhlacha shamhail shamhlacha tsamhail
+20	1320	easpa	d'easpa d’easpa easpaí heaspa heaspaí n-easpa
+21	1321	gloine	ghloine ghloiní gloiní ngloine ngloiní
+22	1322	ceolchoirm	ceolchoirme ceolchoirmeacha cheolchoirm cheolchoirme cheolchoirmeacha gceolchoirm gceolchoirmeacha
+23	1323	núicléas	núicléis
+24	1324	bailiú	bailithe bhailiú mbailiú
+25	1325	slua	shlua shluaite sluagh sluaite tslua
+26	1326	caora	caoirigh caorach caoraigh chaoirigh chaora chaorach gcaoirigh gcaora gcaorach
+27	1327	coimeádach	choimeádach choimeádacha choimeádaigh coimeádacha coimeádaigh gcoimeádach
+28	1328	art	airt d'art d’art
+29	1329	trúpa	dtrúpaí thrúpa thrúpaí trúpaí
+30	1330	baol	baoil bhaoil bhaol mbaol
+31	1331	cruinne	chruinne cruinní gcruinne
+32	1332	eolaí	b'eolaí d'eolaithe d’eolaithe eolaithe heolaithe heolaí n-eolaithe t-eolaí teolaí
+33	1333	dochar	dhochar dochair
+34	1334	dírigh	dhíreodh dhírigh dhírithe dhíríodh dhíríonn dhírítear díreofar díreoidh díreoimid dírithe dírí díríodh díríonn dírítear ndíreodh ndíreofar ndíreoidís ndíríonn ndírítear
+35	1335	beartaigh	beartaithe beartaíodh beartaíonn beartaítear beartú bheartaigh bheartaithe bheartaíodar bheartaíonn bheartaítear bheartú mbeartaítear mbeartú
+36	1336	tosú	dtosú thosú tosnú
+37	1337	burg	bhuirg bhuirge bhuirgí buirg buirge buirgí mbuirg mbuirgí
+38	1338	ceimic	ceimice cheimic cheimice gceimic
+39	1339	namhaid	naimhde namhad námhad námhaid
+40	1340	adamhach	adamhacha adamhaigh adamhaí
+41	1341	bille	bhille bhillí billí mbille mbillí
+42	1342	comhraic	chomhrac chomhraic comhrac comhraiceoir comhraiceoirí gcomhrac gcomhraic
+43	1343	gile	ghile ngile
+44	1344	úsáideoir	d'úsáideoir d'úsáideoirí d’úsáideoir d’úsáideoirí húsáideoir húsáideoirí n-úsáideoirí t-úsáideoir úsáideoirí úsáideora
+45	1345	ruaig	ruaige ruaigeadh ruaigeann ruaigeanna ruaigfeadh ruaigfí ruaigtear ruaigthe
+46	1346	dona	
+47	1347	conair	chonair chonaire chonairí conaire conairí gconair gconairí
+48	1348	liath	liatha léith léithe
+49	1349	eastát	d'eastát d’eastát eastáit heastáit heastát n-eastát t-eastát
+50	1350	soir	
+51	1351	scor	scair scaireanna scoir scoradh scortha
+52	1352	airteagal	airteagail d'airteagal d’airteagal hairteagail hairteagal n-airteagal nairteagal t-airteagal tairteagal
+53	1353	slaghdán	shlaghdán slaghdáin
+54	1354	annamh	annaimhe annamha b'annaimhe b'annamh b’annamh hannamh
+55	1355	seinn	seinneadh seinneann seinnfeadh seinnfidh seinnte seinntear sheinn sheinneadar sheinneadh sheinneann sheinnfeadh sheinntear sheinntí
+56	1356	manach	manaigh mhanach mhanaigh
+57	1357	leacht	leachta leachtanna
+58	1358	míniú	mhíniú míniughadh
+59	1359	slándáil	shlándáil shlándála slándála tslándáil
+60	1360	siombail	shiombail shiombaile shiombailí siombaile siombailí tsiombail
+61	1361	furasta	b'fhurasta b'fhusa b’fhurasta b’fhusa fhurasta fhusa fuirist furast fusa uras
+62	1362	gníomhaigh	ghníomhachtaí ghníomhaigh ghníomhaithe ghníomhaíodh ghníomhaíonn ghníomhóidh ghníomhú gníomhaithe gníomhaíonn gníomhaítear gníomhóidh gníomhú ngníomhaithe ngníomhaíonn ngníomhódh ngníomhóidh ngníomhóidís ngníomhú
+63	1363	gluaisteán	ghluaisteáin ghluaisteán gluaisteáin ngluaisteáin ngluaisteán
+64	1364	ailtireacht	ailtireachta d'ailtireacht d’ailtireacht hailtireacht hailtireachta
+65	1365	scála	scálaí
+66	1366	laghdaigh	laghdaithe laghdaíodh laghdaíonn laghdaítear laghdódh laghdófar laghdófaí laghdóidh laghdóidís
+67	1367	darb	
+68	1368	nóta	nótaí
+69	1369	ciaróg	chiaróg chiaróga ciaróga ciaróige gciaróg
+70	1370	tagair	dtagraíonn dtagraítear dtagrófar tagraíodh tagraíonn tagraítear thagair thagraíonn thagraítear thagraítí thagródh
+71	1371	lasmuigh	
+72	1372	rís	ríse
+73	1373	tosach	dtosach thoisigh thosach toiseach
+74	1374	tuirse	thuirse
+75	1375	script	scripte scripteanna
+76	1376	foras	bhforais bhforas d'fhorais d'fhoras fhorais fhoras forais
+77	1377	cabhlach	cabhlacha cabhlaigh chabhlach chabhlaigh gcabhlach gcabhlaigh
+78	1378	cros	chroise chros chrosa chrosadh chrosta crois croise crosa crosadh crosta gcros
+79	1379	maisigh	maisithe maisiú maisíodh maisítear mhaisigh mhaisithe mhaisiú mhaisítí
+80	1380	leasainm	leas-ainm leasainmneacha
+81	1381	aimsigh	aimsithe aimsíodh aimsíonn aimsítear amasú d'aimsigh d'aimsiú d'aimsíodh d’aimsigh d’aimsíodh haimsiú haimsíodh haimsítear n-aimseodh n-aimseofar n-aimseoidh n-aimsíodh n-aimsíonn n-aimsítear
+82	1382	ceangail	ceanglaíodh ceanglaíonn ceanglaítear ceanglóir cheangail cheanglaíodh cheanglaíonn cheanglaítear cheanglaítí cheanglódh cheanglófaí cheanglóidh cheanglóir gceangail gceanglaíonn gceanglaítear gceanglódh gceanglófaí gceanglóidh
+83	1383	pionós	bpionós phionóis phionós pionóis píonós
+84	1384	cistin	chistin cisteanaí cistine cistineacha gcistin gcistineacha
+85	1385	bainisteoir	bainisteoirí bainisteora bhainisteoir bhainisteoirí bhainisteora mbainisteoir
+86	1386	crua	chrua chruachan cruachan gcruachan
+87	1387	tonn	dtonn dtonnta thoinn thonn thonnta toinn toinne tonnadh tonnta
+88	1388	láirig	láirge
+89	1389	babhta	babhtaí bhabhta bhabhtaí mbabhta mbabhtaí
+90	1390	eachtrach	eachtracha eachtraigh
+91	1391	tomhais	dtomhais dtomhaiseann dtomhaisfeadh dtomhaistear thomhais thomhaiseadh thomhaiseann thomhaisfeadh thomhaiste thomhaistear tomhaiseadh tomhaiseann tomhaiste tomhaistear
+92	1392	iompaigh	d'iompaigh d'iompaíodh d'iompaítí d'iompódh d’iompaigh hiompaíodh iompaithe iompaíodh iompaíonn iompaítear iompódh iompóidh iompóir n-iompaíodh n-iompaíonn n-iompódh n-iompóidh
+93	1393	ansiúd	
+94	1394	campa	campaí champa champaí gcampa gcampaí
+95	1395	cód	chód chóid cóid gcód
+96	1396	éadrom	héadrom éadroim éadroime éadroma
+97	1397	mícheart	mhícheart mhíchearta míchearta míchirt míchirte
+98	1398	bardas	bardais bhardais bhardas mbardais mbardas
+99	1399	uirbeach	uirbeacha uirbigh uirbí
+100	1400	tionsclaíocht	dtionsclaíocht thionsclaíocht thionsclaíochta tionsclaíochta

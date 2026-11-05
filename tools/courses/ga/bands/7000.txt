@@ -1,0 +1,100 @@
+1	6901	gnáthshaighdiúir	gnáthshaighdiúirí
+2	6902	homafóibe	
+3	6903	micriríomhaire	micriríomhairí
+4	6904	máthairchlár	
+5	6905	tiúnadh	dtiúnadh thiúnadh
+6	6906	sutha	tsutha
+7	6907	éagsúlach	t-éagsúlú éagsúlú
+8	6908	aiféaltas	aiféaltais
+9	6909	seanrá	seanráite sheanrá
+10	6910	plúirín	bplúirín phlúirín
+11	6911	corpacmhainn	corpacmhainne gcorpacmhainn
+12	6912	caipitiúil	caipitiúla chaipitiúil chaipitiúla
+13	6913	coirneach	cairneach coirní gcoirneach
+14	6914	drón	dhrón dróin ndrón
+15	6915	func	
+16	6916	arann	arainn
+17	6917	duilleoigín	dhuilleoigín duilleoigíní nduilleoigíní
+18	6918	meice	mheice
+19	6919	agairt	agartha
+20	6920	fionnó	fhionnó fhionnóí
+21	6921	lítear	lítir
+22	6922	teirminéal	teirminéil theirminéal theirminéil
+23	6923	mósaimbíc	mhósaimbíc
+24	6924	róibín	
+25	6925	ceirbreach	ceirbreacha ceirbrí cheirbreach cheirbreacha
+26	6926	glórmhar	ghlórmhar glórmhaire glórmhara
+27	6927	rinceoir	rinceoirí rinceora
+28	6928	uasta	
+29	6929	antaigin	antaiginí hantaigin hantaigine hantaiginí
+30	6930	drochmheas	drochmheasa
+31	6931	ianaigh	ianaithe ianaíonn ianaítear
+32	6932	leasachán	leasacháin
+33	6933	dlíodóireacht	dlíodóireachta
+34	6934	leathbhádóir	leathbhádóirí
+35	6935	tionlaic	thionlacann thionlactha thionlaic tionlacann tionlactha
+36	6936	baoth	baoith baoithe bhaoth bhaotha
+37	6937	fonsa	fhonsa fhonsaí fonsaí
+38	6938	gearrthóg	gearrthóga ghearrthóg ghearrthóga ngearrthóg
+39	6939	iompairc	iompairce
+40	6940	meánfhad	mheánfhad
+41	6941	neamhnigh	neamhnithe neamhniú neamhníodh
+42	6942	armlann	armlanna harmlainne n-armlann
+43	6943	grósaeir	ghrósaeir grósaeirí grósaera
+44	6944	peinteagán	peinteagáin pheinteagáin pheinteagán
+45	6945	alafatach	alafatacha
+46	6946	heirts	
+47	6947	réasúnú	
+48	6948	uileláithreach	
+49	6949	athbhrí	
+50	6950	hibridiú	
+51	6951	suthain	
+52	6952	diansmacht	dhiansmacht diansmachta
+53	6953	seachantach	seachantaí
+54	6954	seangaigh	seangú sheangaigh
+55	6955	formhuinigh	fhormhuiniú formhuinithe formhuiniú
+56	6956	dánacht	dhánacht dánachta
+57	6957	spadán	spadáin
+58	6958	crúiscín	chrúiscín gcrúiscín
+59	6959	céalacant	céalacaint
+60	6960	gastrach	gastracha ghastraigh
+61	6961	pluiméireacht	pluiméireachta
+62	6962	oibilisc	hoibiliscí
+63	6963	guthach	ghuthach ghuthaí guthacha guthaí
+64	6964	tobchum	thobchumadh thobchumtha tobchumadh tobchumtha
+65	6965	molt	mhoilt molta
+66	6966	rubha	
+67	6967	gleanntán	ghleanntáin ghleanntán gleanntáin ngleanntán
+68	6968	pairilis	phairilis
+69	6969	olltáirgeacht	d'olltáirgeacht d’olltáirgeacht holltáirgeacht
+70	6970	seanadh	seanaidh
+71	6971	ultais	hultaise ultaise
+72	6972	artrapód	artrapóid hartrapóid
+73	6973	cruit	chruit cruite gcruit
+74	6974	curfá	churfá
+75	6975	dreancaid	dhreancaidí dreancaidí ndreancaidí
+76	6976	fotheideal	fhotheideal fhotheidil fotheidil
+77	6977	banana	bananaí bhananaí mbananaí
+78	6978	pacastánach	pacastánacha pacastánaigh
+79	6979	craic	chraic craice gcraic
+80	6980	incheaptha	
+81	6981	puipéad	phuipéad phuipéid puipéid
+82	6982	spúinse	spúinsí
+83	6983	giobún	ghiobúin giobúin
+84	6984	achtú	t-achtú
+85	6985	cist	chist cisteanna
+86	6986	coimhthíos	choimhthíos gcoimhthíos
+87	6987	digit	dhigit digití ndigit
+88	6988	rosc	roisc
+89	6989	túslitir	thúslitreacha túslitreacha
+90	6990	deisbhéalach	deisbhéalaí dheisbhéalach dheisbhéalaí
+91	6991	meánchiorclach	meánchiorclacha mheánchiorclach mheánchiorclacha
+92	6992	mínealaíona	mínealaíon
+93	6993	corruair	chorruair
+94	6994	guairneán	guairneáin nguairneán
+95	6995	príomhpháirtí	bpríomhpháirtí phríomhpháirtí príomhpháirtithe
+96	6996	searg	seargadh seargtha shearg sirg
+97	6997	diagaigh	diagaí
+98	6998	ortagrafaíocht	
+99	6999	stuimine	
+100	7000	taoidmhear	taoidmheara thaoidmhear

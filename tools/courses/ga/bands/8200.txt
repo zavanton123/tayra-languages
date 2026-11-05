@@ -1,0 +1,100 @@
+1	8101	malgam	malgaim
+2	8102	mífhoighne	mhífhoighne
+3	8103	míshuaimhneach	míshuaimhní
+4	8104	néarghás	néargháis
+5	8105	ollfhathach	t-ollfhathach
+6	8106	teasdíon	teasdíonadh teasdíonta theasdíonta
+7	8107	teibíocht	teibíochta teibíochtaí
+8	8108	eilíseach	eilíseacha
+9	8109	eipeagram	eipeagraim heipeagraim
+10	8110	gearrán	ghearrán
+11	8111	lochtán	lochtáin
+12	8112	polaiméireach	polaiméireacha
+13	8113	sorbais	tsorbais
+14	8114	easáitigh	easáitithe easáitiú easáitítear
+15	8115	miontuairiscí	mhiontuairiscí
+16	8116	beartach	beartaí bheartacha bheartaí
+17	8117	dáileachán	dáileacháin
+18	8118	iónach	iónacha iónaigh iónaí
+19	8119	eiscir	eascrach eascracha heascrach heascracha
+20	8120	ispín	hispíní ispíní
+21	8121	sorcas	shorcas sorcais tsorcais
+22	8122	calbhach	calbhaigh chalbhaigh
+23	8123	coite	choite choití
+24	8124	lusca	
+25	8125	montsarat	mhontsarat
+26	8126	ombudsman	
+27	8127	bracht	brachtanna mbracht
+28	8128	caipitlíoch	caipitlíche chaipitlíoch
+29	8129	catach	chatach
+30	8130	deilgneach	deilgneacha deilgní dheilgneach dheilgnigh
+31	8131	trédhearcacht	dtrédhearcacht thrédhearcacht trédhearcachta
+32	8132	eisimirceach	eisimirceacha eisimircigh heisimircigh
+33	8133	fungasach	fhungasach fhungasacha fungasacha
+34	8134	fótaisintéiseach	fhótaisintéiseacha fótaisintéiseacha fótaisintéisiú
+35	8135	cainche	cainchí chainche gcainche
+36	8136	gála	ghála gálaí ngála
+37	8137	lug	luga
+38	8138	meánraon	meánraoin
+39	8139	meánscolaíocht	meánscolaíochta mheánscolaíocht
+40	8140	miocrób	miocróib
+41	8141	idirbheart	hidirbhearta idirbhearta n-idirbheart t-idirbheart
+42	8142	printíseacht	phrintíseacht printíseachta printíseachtaí
+43	8143	scamallach	scamallacha
+44	8144	stroighin	stroighne
+45	8145	stéaróideach	stéaróidigh
+46	8146	só	
+47	8147	tvuít	tvuíteanna
+48	8148	breacán	bhreacáin breacáin
+49	8149	siogót	shiogót siogóit
+50	8150	athfhoilsigh	athfhoilsithe athfhoilsiú athfhoilsíodh
+51	8151	croíchruthach	croíchruthacha
+52	8152	díspeag	dhíspeagadh dhíspeagtha díspeagadh
+53	8153	glasáil	ghlasáil ghlasáilte ghlasála glasáilte glasála glasáladh
+54	8154	hipirtheannas	hipirtheannais
+55	8155	áisíneacht	háisíneachtaí áisíneachtaí
+56	8156	athréimniú	athréimnithe
+57	8157	bíogúil	bhíogúil bhíogúla
+58	8158	candamaigh	candamaithe chandamaithe
+59	8159	léanmhar	léanmhara
+60	8160	réasúnachas	réasúnachais
+61	8161	sreangshiopa	sreangshiopaí
+62	8162	fortheilgean	fhortheilgean
+63	8163	fáschoill	bhfáschoill d'fháschoillte fháschoillte fáschoillte
+64	8164	pumpáil	phumpáil pumpáiltear pumpála
+65	8165	toice	thoicí toicí
+66	8166	aerphost	aerphoist
+67	8167	aidiúnach	
+68	8168	andúchasach	andúchasacha
+69	8169	baictéarafagach	baictéarafagaigh bhaictéarafagaigh
+70	8170	cúlriasc	cúlriasca
+71	8171	díocasach	
+72	8172	eadarnaíoch	eadarnaíocha
+73	8173	faol	faoil
+74	8174	fearúil	fearúla
+75	8175	annálaí	annálaithe hannálaithe
+76	8176	ádhúil	hádhúil
+77	8177	laistíos	
+78	8178	luasmhoilligh	luasmhoilliú
+79	8179	nóidín	nóidíní
+80	8180	poibligh	phoibligh phoibliú
+81	8181	réamhbheartaigh	réamhbheartaithe
+82	8182	scoilbhliain	scoilbhliana
+83	8183	seanfhaiseanta	sheanfhaiseanta
+84	8184	seanfhondúir	seanfhondúirí sheanfhondúirí
+85	8185	teidealach	
+86	8186	cneasta	
+87	8187	toirbhir	thoirbhir toirbhearta toirbhirt
+88	8188	brionn	bhrionna brionna
+89	8189	céimiúil	céimiúla
+90	8190	eiscimeach	eiscimeacha eiscimigh
+91	8191	faon	faona
+92	8192	cosmeolaíoch	chosmeolaíoch cosmeolaíocha
+93	8193	cocún	chocúin chocún gcocún
+94	8194	foirmiúlachas	fhoirmiúlachais fhoirmiúlachas foirmiúlachais
+95	8195	iomlaoid	hiomlaoide iomlaoide iomlaoidí n-iomlaoidí
+96	8196	margaigh	margaíodh margaítear margú mhargú
+97	8197	minseach	minseacha
+98	8198	neirbhíseach	neirbhísigh
+99	8199	tacsanomaí	tacsanomaithe
+100	8200	tréadúil	tréadúla

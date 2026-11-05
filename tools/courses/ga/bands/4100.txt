@@ -1,0 +1,100 @@
+1	4001	nimhiú	
+2	4002	cuileog	chuileog chuileoga cuileoga cuileoige gcuileog
+3	4003	príomhshráid	bpríomhshráid phríomhshráid príomhshráide príomhshráideanna
+4	4004	adhair	adhartar adhartha adhrann adhrtar d'adhair
+5	4005	solúbtha	sholúbtha
+6	4006	maratón	maratóin mharatóin mharatón
+7	4007	oilithreacht	hoilithreacht hoilithreachta hoilithreachtaí oilithreachta oilithreachtaí
+8	4008	earc	earca eirc hearca t-earc
+9	4009	ollphéist	d'ollphéist hollphéist hollphéiste ollphéiste ollphéisteanna
+10	4010	mala	malaí mhala mhalaí
+11	4011	mapa	maipíní mapaí mhapa mhapaí
+12	4012	pornagrafaíocht	bpornagrafaíocht phornagrafaíocht phornagrafaíochta pornagrafaíochta
+13	4013	foscadh	bhfoscadh foscaidh
+14	4014	coimeádán	choimeádáin choimeádán coimeádáin gcoimeádáin gcoimeádán
+15	4015	neodracht	neodrachta
+16	4016	búistéir	bhúistéara bhúistéir bhúistéirí búistéara búistéirí mbúistéir mbúistéirí
+17	4017	cosmach	chosmach chosmaigh chosmaí cosmacha cosmaí
+18	4018	caibidlíocht	caibidlíochta chaibidlíocht gcaibidlíocht
+19	4019	inmhe	
+20	4020	míthuiscint	mhíthuiscint míthuisceana míthuiscintí
+21	4021	nádúraí	nádúraithe
+22	4022	gualainn	ghualainn guailleacha gualainne gualann nguaillí ngualainn
+23	4023	cadás	cadáis chadáis chadás
+24	4024	feis	bhfeis feise feiseanna fheis
+25	4025	seoigh	seoighe
+26	4026	bagair	bagraíodh bagraíonn bhagair bhagraíodh bhagraíonn bhagródh
+27	4027	farasbarr	bhfarasbarr farasbairr fharasbairr fharasbarr
+28	4028	bianna	bhianna
+29	4029	páirtaimseartha	pháirtaimseartha
+30	4030	cnaipe	chnaipe chnaipí cnaipí cnaipíní gcnaipe
+31	4031	foirfe	fhoirfe
+32	4032	caireo	chaireo gcaireo
+33	4033	háig	háige
+34	4034	fual	bhfual fhuail fhual fuail
+35	4035	ansa	hansa hansaí
+36	4036	móiminteam	mhóiminteam mhóimintim móimintim
+37	4037	aigéanach	aigéanacha aigéanaigh aigéanaí
+38	4038	compántas	chompántais chompántas compántais gcompántas
+39	4039	scriúta	scriútaí
+40	4040	fiadhúlra	bhfiadhúlra fhiadhúlra
+41	4041	crimé	chrimé gcrimé
+42	4042	comh-aireacht	chomh-aireacht chomh-aireachta comh-aireachta gcomh-aireacht
+43	4043	fiannaíocht	bhfiannaíocht fhiannaíocht fiannaíochta
+44	4044	eiseamláir	b'eiseamláir eiseamláire eiseamláirí heiseamláir heiseamláire heiseamláirí
+45	4045	deatach	deataigh deataithe deataítear deatú dheataigh dheatú ndeatach
+46	4046	grúdlann	ghrúdlann grúdlainne grúdlanna ngrúdlann
+47	4047	deoraí	deoraithe dheoraí ndeoraithe
+48	4048	cothromaigh	chothromaigh chothromaithe chothromaíonn chothromú cothromaithe cothromaí cothromaíonn cothromú
+49	4049	fuascail	bhfuasclaítear d'fhuascail d'fhuasclaítí d’fhuascail fhuasclaíonn fhuasclaítear fuascladh fuasclaíodh fuasclaíonn fuasclaítear
+50	4050	suarach	shuarach shuaracha shuaraí suaracha suaraí
+51	4051	dátú	dhátú ndátú
+52	4052	smior	smeara
+53	4053	sanscrait	sanscraite shanscrait tsanscrait
+54	4054	teileachumarsáid	dteileachumarsáid teileachumarsáide theileachumarsáid theileachumarsáide
+55	4055	orlach	horlaí n-orlach n-orlaí orlaigh orlaí
+56	4056	féith	bhféith bhféitheacha fhéith fhéitheacha féithe
+57	4057	caor	caoire chaor gcaor
+58	4058	taistealaí	dtaistealaithe taistealach taistealaithe thaistealaithe thaistealaí
+59	4059	lógó	lógónna
+60	4060	masla	maslaí mhasla mhaslaí
+61	4061	peirspictíocht	bpeirspictíocht peirspictíochta peirspictíochtaí pheirspictíocht pheirspictíochtaí
+62	4062	bréagán	bhréagáin bhréagán bréagáin mbréagán
+63	4063	fiannas	bhfiannas fhiannais fiannais
+64	4064	cleith	chleith chleithe cleath cleithe gcleith
+65	4065	móramh	mhóraimh mhóramh móraimh
+66	4066	eachach	eachaigh
+67	4067	rómhath	rómhaith
+68	4068	túinéis	dtúinéis túinéise
+69	4069	seasmhach	seasmhacha seasmhaí sheasmhach sheasmhacha sheasmhaí
+70	4070	pirimid	bpirimid bpirimidí phirimid phirimide pirimide pirimidí
+71	4071	rím	ríme rímeanna
+72	4072	colúnaí	cholúnaí colúnaithe gcolúnaithe
+73	4073	toghthóir	dtoghthóir dtoghthóirí thoghthóirí toghthóirí toghthóra
+74	4074	grádaigh	ghrádaigh ghrádaithe ghrádú grádaithe grádaíodh grádaítear grádú ngrádaíonn
+75	4075	aibigh	aibithe aibiú aibíonn n-aibíodh n-aibíonn
+76	4076	léaslíne	léaslínte
+77	4077	baincéir	baincéirí bhaincéir bhaincéirí mbaincéirí
+78	4078	radacarbón	radacarbóin
+79	4079	ascaill	ascail ascaillí ascall hascaill hascaillí
+80	4080	tairngreacht	dtairngreacht dtairngreachtaí tairngreachta tairngreachtaí thairngreacht thairngreachtaí
+81	4081	snigh	shnigh shní shníonn sní snífidh sníodh sníonn
+82	4082	meitheal	meithle meithleacha mheitheal
+83	4083	bogha	bhogha boghanna mbogha
+84	4084	giota	ghiota ghiotaí giotaí ngiota
+85	4085	claí	chlaí chlaíocha clathacha claíocha gclaí gclaíocha
+86	4086	soghluaiste	shoghluaiste
+87	4087	drioglann	dhrioglann dhrioglanna drioglainne drioglanna ndrioglann
+88	4088	réimnigh	réimneofar réimnithe réimniú réimníodh réimnítear
+89	4089	normálta	
+90	4090	gathach	gathacha ghathach ghathacha
+91	4091	cóiméad	chóiméad chóiméid cóiméid gcóiméad
+92	4092	dornálaíocht	dhornálaíochta dornálaíochta ndornálaíocht
+93	4093	ana	hana
+94	4094	marascal	marascail mharascail mharascal
+95	4095	draenáil	dhraenáil dhraenála dhraenálann draenáilte draenála draenáladh draenálann
+96	4096	soláthrach	sholáthraigh sholáthraithe sholáthraí soláthraithe soláthraí
+97	4097	grianán	ghrianáin ghrianán grianáin ngrianán
+98	4098	imlíne	d'imlíne himlíne himlínte imlínte
+99	4099	snaidhm	shnaidhme shnaidhmeadh shnaidhmeanna snaidhme snaidhmeadh snaidhmeann snaidhmeanna snaidhmthe tsnaidhm
+100	4100	scothaicme	scothaicmí

@@ -1,0 +1,100 @@
+1	801	seilbh	sealbh sealbha seilbhe shealbh shealbha sheilbh tseilbh
+2	802	aigéan	aigéin haigéan haigéin n-aigéan naigéan t-aigéan taigéan
+3	803	pictiúr	bpictiúir bpictiúr peictiúir phictiúir phictiúr pictiúir pioctúir
+4	804	vóta	vótaí
+5	805	caol	caoil caoile caola caolaigh caológa chaoil chaoile chaol chaola chaológ gcaol
+6	806	freastail	bhfreastail bhfreastalaíodh bhfreastalaíonn bhfreastalaítear bhfreastalódh d'fhreastail d'fhreastalaíodh d'fhreastalóidís d’fhreastail d’fhreastalaíodh fhreastail fhreastalaíodh fhreastalaíonn fhreastalóidh freastalaíodh freastalaíonn freastalódh freastalóidh
+7	807	coimisiún	choimisiúin choimisiún coimisiúin gcoimisiúin gcoimisiún
+8	808	binse	bhinse bhinsí binsí bínse mbinse
+9	809	lonnaithe	
+10	810	pearsanta	phearsanta
+11	811	sagart	sagairt shagairt shagart tsagairt
+12	812	aill	aille aillte aillteacha all d'aillte haill haille haillte n-aillte
+13	813	sneachta	shneachta tsneachta
+14	814	ros	rois rosa
+15	815	sula	sara sul
+16	816	clé	chlé chlí clí gclé
+17	817	laistigh	
+18	818	réabhlóid	réabhlóide réabhlóidithe réabhlóidí
+19	819	inar	
+20	820	déanach	dhéanach dhéanacha dhéanaigh déanacha déanaigh
+21	821	leictreon	leictreoin
+22	822	cabhair	cabhartha cabhrach cabhracha cabhradh cabhraítear chabhair chabhrach chabhracha gcabhair
+23	823	luach	luacha luachanna
+24	824	leas	leasa leasanna
+25	825	náisiún	náisiúin
+26	826	ospidéal	d'ospidéal d'ospidéil d’ospidéal d’ospidéil hospidéal hospidéil n-ospidéal ospidéil t-ospidéal
+27	827	locht	lochta lochtanna
+28	828	ceimiceach	ceimiceacha ceimicigh ceimicí cheimiceach cheimiceacha cheimicigh cheimicí
+29	829	bus	bhus bhusanna busanna mbus mbusanna
+30	830	té	
+31	831	cruinniú	chruinnithe chruinniú gcruinnithe gcruinniú
+32	832	sonraí	shonraí
+33	833	smacht	smachta
+34	834	suim	shuim shuimeanna suime suimeanna tsuim
+35	835	fuil	d'fhuil d’fhuil fhola fhuil fola
+36	836	clú	chlú cliú gclú
+37	837	corn	choirn chorn chorna chornais chornaí coirn corna cornaigh cornann cornaí corntha gcoirn gcorn gcorna gcornaí
+38	838	pápa	bpápa bpápaí phápa phápaí pápaí
+39	839	spás	spáis spásanna
+40	840	institiúid	d'institiúid d'institiúidí hinstitiúid hinstitiúide hinstitiúidí institiúide institiúidí n-institiúidí
+41	841	póca	bpóca bpócaí phóca pócaí
+42	842	acht	achta achtanna d'acht d'achtanna d’acht d’achtanna hacht hachta hachtanna n-acht n-achtanna nacht nachtanna t-acht
+43	843	comhdháil	chomhdháil chomhdhála chomhdhálacha comhdhála comhdhálacha gcomhdháil gcomhdhála gcomhdhálacha
+44	844	leadóg	leadóige
+45	845	droichead	dhroichead dhroichid droichid ndroichead
+46	846	tábhacht	dtábhacht thábhacht tábhachta
+47	847	caite	chaite gcaite
+48	848	brón	bhróin bhrón bróin bróna mbrón
+49	849	taisteal	dtaisteal dtaistealaíonn taistealaíonn taistil thaisteal thaistealaíodh thaistealaíonn
+50	850	leictreach	leictreacha leictrigh leictrithe leictriú leictrí leictríodh
+51	851	maireachtáil	maireachtaint maireachtála mhaireachtáil mhaireachtála
+52	852	mall	malla mhall mhalla
+53	853	rialta	
+54	854	cathain	
+55	855	daonlathach	daonlathacha daonlathaigh daonlathaí dhaonlathach dhaonlathacha dhaonlathaigh dhaonlathaithe dhaonlathaí ndaonlathach ndaonlathaithe
+56	856	coinnigh	choinneodh choinneofar choinnigh choinnídís choinníodar choinníodh choinníonn choinnítear choinnítí coinneodh coinneoidh coinnithe coinním coinnímid coinnímis coinníodh coinníonn coinnítear gcoinneodh gcoinneofar gcoinneofaí gcoinneoidh gcoinneoidís gcoinníonn gcoinnítear gcoinnítí
+57	857	tacaigh	dtacaigh dtacaithe dtacaí dtacaíonn dtacódh dtacóidh dtacóidís dtacú tacaithe tacaím tacaíodh tacaíonn tacaítear tacú thacaigh thacaithe thacaíonn thacódh thacú
+58	858	ríoga	
+59	859	bunús	bhunúis bhunús bunúis mbunúis mbunús
+60	860	scaip	scaipeadh scaipeann scaipeas scaipfeadh scaipfear scaipfidh scaipfí scaipidís scaiptear scaipthe scaiptí scap
+61	861	cuairt	chuairt chuairte chuairteanna chuarda cuaird cuairte cuairteanna cuarta gcuairt gcuairte gcuairteanna
+62	862	cuimhne	chuimhne chuimhní cuimhní gcuimhne gcuimhní
+63	863	sular	sarar
+64	864	páipéar	bpáipéar bpáipéir pháipéar pháipéir páipéir
+65	865	braith	bhraite bhraitear bhraith bhraitheadar bhraitheadh bhraitheann bhraithfeadh bhraithfidh braite braitear braithe braitheadh braitheann braithfidh braithim braití mbraitear mbraitheann mbraithfeadh mbraithfidís mbraithfí mbraithimid
+66	866	thíos	
+67	867	olc	b'olc d'olc holc oilc olca olcais olcas t-olc ulc
+68	868	aontaigh	aontaím aontaíodh aontaíonn aontaítear aontódh d'aontaigh d'aontaíodh d'aontódh d'aontófaí d'aontóinn d’aontaigh d’aontaíodh d’aontódh haontaíodh haontú n-aontaíonn n-aontaítear n-aontódh n-aontófar n-aontófaí t-aontú
+69	869	club	chlub chlubanna clubanna gclub gclubanna
+70	870	áthas	d'áthas háthas áthais
+71	871	staid	staide staideanna
+72	872	eo	b'eo b’eo
+73	873	ealaíontóir	b'ealaíontóir d'ealaíontóir d'ealaíontóirí d’ealaíontóir d’ealaíontóirí ealaíontóirí ealaíontóra healaíontóir healaíontóirí n-ealaíontóirí t-ealaíontóir
+74	874	tríocha	dtríocha dtríochaidí thríocha tríochad tríochaidí
+75	875	cultúrtha	chultúrtha
+76	876	rún	rúin
+77	877	eite	eití heite heití n-eití
+78	878	laoch	laocha laochra laochraí laoich
+79	879	díriú	dhíriú dírithe ndíriú
+80	880	fuaim	bhfuaim bhfuaimeanna d'fhuaim d'fhuaimeanna dtuaim dtuamanna d’fhuaim d’fhuaimeanna fhuaim fhuaime fhuaimeanna fuaime fuaimeanna thuaim tuaim tuamanna
+81	881	craoladh	chraoladh chraolta chraoltaí craolta craoltaí gcraoladh
+82	882	cas	cais caisí casa casann casfaidh castar chais chas chasadar chasadh chasann chasfar chasfaí chastar gcais gcas gcasann gcasfadh gcasfaidh gcasfar gcasfaí gcastar
+83	883	príomh-aire	bpríomh-aire bpríomh-airí phríomh-aire phríomh-airí príomh-airí príomhaire príomhairí
+84	884	gníomh	ghnímh ghníomh ghníomhartha gnímh gníomhartha ngníomh ngníomhartha
+85	885	feirste	fheirste
+86	886	réim	réime réimeanna
+87	887	stop	stopadar stopadh stopann stopfadh stopfaidh stopfaí stoptar stoptha
+88	888	briseadh	bhriste bhristeacha bristeacha mbriseadh
+89	889	marbh	mairbh mairbhe marbha marbhadh marfa mhairbh mharbh mharbha mharfa
+90	890	raidió	raidiónna
+91	891	aigéad	aigéid d'aigéad d'aigéid d’aigéad d’aigéid haigéad haigéid n-aigéad n-aigéid t-aigéad
+92	892	trom	throim throime throm throma troim troime troma truim
+93	893	rialú	rialuithe
+94	894	adhmad	adhmaid d'adhmad d'adhmaid d’adhmad hadhmad hadhmaid n-adhmad t-adhmad
+95	895	corcach	chorcach chorcaí corcacha corcaí gcorcacha
+96	896	bocht	bhocht bhochta bhoicht bhoichte bochta boicht boichte mbocht mboicht
+97	897	leon	leoin leona leonadh leonta leontaí
+98	898	géineas	ghéineas ghéinis géinis ngéineas ngéinis
+99	899	éag	d'éag d’éag héag n-éagaimis n-éagfadh t-éag éaga éagann éagtha
+100	900	buíochas	bhuíochais bhuíochas buíochais mbuíochas

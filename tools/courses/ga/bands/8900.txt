@@ -1,0 +1,100 @@
+1	8801	méadracht	mhéadracht
+2	8802	príomhphointe	
+3	8803	príomhsmaoineamh	
+4	8804	púcán	púcáin
+5	8805	sobal	sobail
+6	8806	tineghealánach	
+7	8807	tíosach	
+8	8808	bunlíne	
+9	8809	fearbán	
+10	8810	leathbhord	
+11	8811	sceiptiúil	
+12	8812	fol	foladh foltar
+13	8813	formósach	formósacha
+14	8814	hibridigh	hibridithe hibridíonn
+15	8815	lánúnas	lánúnais
+16	8816	sáiste	saistí
+17	8817	anlathach	anlathacha anlathaigh
+18	8818	caolsráid	caolsráideanna gcaolsráideanna
+19	8819	comharthóir	comharthóirí
+20	8820	deachair	dheachair
+21	8821	díbholaíoch	dhíbholaíoch díbholaíocha
+22	8822	díobhach	dhíobhach díobhaí
+23	8823	foghach	foghacha
+24	8824	luslann	luslainne luslanna
+25	8825	maistíneacht	mhaistíneacht
+26	8826	míghníomh	mhíghnímh míghníomhartha
+27	8827	míchothromaíocht	míchothromaíochtaí
+28	8828	sainmharc	sainmharcanna shainmharc
+29	8829	éadáil	éadála éadálacha
+30	8830	gaorthadh	ghaorthaidh
+31	8831	suais	shuais
+32	8832	tíomór	dtíomór thíomór
+33	8833	piotútach	phiotútach phiotútacha piotútaí
+34	8834	paraisiút	paraisiúit pharaisiúit pharaisiút
+35	8835	clónáil	chlónáil chlónáilte clónála gclónáil
+36	8836	séis	shéis shéise séise séiseanna tséis
+37	8837	punann	bpunann phunann punainne
+38	8838	cumhrán	chumhrán cumhráin gcumhráin gcumhrán
+39	8839	teirmiméadar	teirmiméadair
+40	8840	teaghrán	dteaghrán teaghráin
+41	8841	fionnán	fhionnáin fhionnán fionnáin
+42	8842	síntiúsóir	shíntiúsóirí síntiúsóirí
+43	8843	gamal	amal gamail ghamal
+44	8844	colgán	cholgáin colgáin
+45	8845	buadán	bhuadáin buadáin
+46	8846	comhghaol	comhghaoil comhghaolta
+47	8847	eachtarcheallach	eachtarcheallacha
+48	8848	consairtín	chonsairtín gconsairtín
+49	8849	grua	ghrua gruanna ngrua
+50	8850	nósmhaireacht	nósmhaireachta
+51	8851	ollstailc	hollstailce
+52	8852	cochlán	chochláin cochláin
+53	8853	mainile	mhainile
+54	8854	tamailis	
+55	8855	trádainm	trádainmneacha
+56	8856	igín	uiginn uigín
+57	8857	aigéadacht	aigéadachta haigéadachta
+58	8858	ailcil	ailcile
+59	8859	aimplitiúid	aimplitiúide aimplitiúidí haimplitiúide
+60	8860	aoileach	aoiligh
+61	8861	athdháil	athdháileadh athdháilte hathdháileadh t-athdháileadh
+62	8862	bomaite	bhomaite mbomaite
+63	8863	caimiléir	caimiléirí chaimiléirí
+64	8864	ceilvin	
+65	8865	carnabhal	carnabhail charnabhail charnabhal
+66	8866	cladhaire	chladhaire cladhairí
+67	8867	cogaint	chogaint coganta
+68	8868	crotal	chrotal crotail
+69	8869	cág	cága
+70	8870	doiciméadach	dhoiciméadach dhoiciméadaigh
+71	8871	diallait	dhiallait dhiallaite diallaite
+72	8872	feighlí	bhfeighlí feighlithe fheighlí
+73	8873	fíneálta	fhíneálta
+74	8874	cantainis	cantainise chantainis gcantainis
+75	8875	glaoire	glaoirí
+76	8876	idirdhealaitheach	idirdhealaitheacha
+77	8877	ilchreidmheach	ilchreidmheacha
+78	8878	imlitir	himlitir imlitreacha
+79	8879	inacmhainne	
+80	8880	innilt	innilte
+81	8881	leabhal	leabhail
+82	8882	leaid	leaideanna
+83	8883	liacht	liachta
+84	8884	lomra	
+85	8885	neodrú	
+86	8886	nua-aimsearthacht	nua-aimsearthachta
+87	8887	nuachlasaiceach	
+88	8888	ornáid	hornáidí ornáidí
+89	8889	párpháipéar	phárpháipéar phárpháipéir párpháipéir
+90	8890	rapáil	rapála rapálann
+91	8891	sciorta	sciortaí
+92	8892	sinseartha	shinseartha
+93	8893	spréach	spréacha spréachta
+94	8894	teiripeach	teiripeacha theiripeach
+95	8895	tréithrigh	thréithriú tréithrithe tréithriú
+96	8896	tuairisciúil	thuairisciúil tuairisciúla
+97	8897	tánaisteacht	tánaisteachta
+98	8898	éifeachtacht	héifeachtacht
+99	8899	íoslach	
+100	8900	défhoghar	dhéfhoghar défhoghair ndéfhoghar

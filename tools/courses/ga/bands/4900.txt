@@ -1,0 +1,100 @@
+1	4801	réalachas	réalachais
+2	4802	prióireacht	bprióireacht phrióireacht prióireachta prióireachtaí
+3	4803	víreasach	víreasacha víreasaigh
+4	4804	piasún	bpiasún phiasúin piasúin
+5	4805	comhfhreagras	chomhfhreagrais chomhfhreagras comhfhreagrais gcomhfhreagras
+6	4806	constábla	chonstábla chonstáblaí constáblaí gconstáblaí
+7	4807	reic	
+8	4808	ballóid	ballóide ballóidí bhallóid bhallóide
+9	4809	rídhamhna	rídhamhnaí
+10	4810	cionsiocair	chionsiocair
+11	4811	buntéacs	bhuntéacs mbuntéacs
+12	4812	oirbheartaíocht	oirbheartaíochta
+13	4813	láraonad	láraonaid
+14	4814	fótaisféar	bhfótaisféar fhótaisféar fhótaisféir
+15	4815	luachair	luachra luchra
+16	4816	feidhmchlár	bhfeidhmchláir bhfeidhmchlár d'fheidhmchláir feidhmchláir fheidhmchláir fheidhmchlár
+17	4817	créatúr	chréatúir chréatúr créatúir gcréatúir gcréatúr
+18	4818	leabhrán	leabhráin
+19	4819	calcalas	calcalais chalcalais chalcalas gcalcalas
+20	4820	dromchlach	dhromchlach dhromchlacha dhromchlaigh dromchlacha
+21	4821	srac	shracadh sracadh sracaidh sractha
+22	4822	dréim	
+23	4823	séimhiú	shéimhiú
+24	4824	aircheadal	fhoirceadail fhoirceadal foirceadail foirceadal
+25	4825	indóite	
+26	4826	sabhan	sabhna
+27	4827	heicteár	heicteáir
+28	4828	pascal	
+29	4829	spairn	spairne spairneadh
+30	4830	daonchara	dhaonchara
+31	4831	comhscór	chomhscór comhscóir gcomhscór
+32	4832	bodach	bhodach bhodaigh bodaigh mbodach
+33	4833	gnaoi	ghnaoi ngnaoi
+34	4834	scairbh	scairbhe scairbheacha sgarbh
+35	4835	seanfhear	seanfhir sheanfhear tseanfhear tseanfhir
+36	4836	trófaí	thrófaí trófaithe
+37	4837	adhmadach	adhmadacha
+38	4838	boghta	bhoghta boghtaí mboghtaí
+39	4839	dréimire	dhréimire dréimirí
+40	4840	máithreachas	mháithreachais mháithreachas máithreachais
+41	4841	sabhdán	shabhdán tsabhdáin
+42	4842	grideall	ghreille ghrideall greille gridille ngrideall
+43	4843	gaileon	gaileoin ghaileoin ghaileon ngaileon
+44	4844	anóid	anóidí hanóid hanóide
+45	4845	catóid	catóide chatóid chatóide gcatóid
+46	4846	antashubstaint	antashubstainte antashubstaintí hantashubstaintí
+47	4847	feart	bhfeart fearta fheart fhearta
+48	4848	comhbhunaitheoir	chomhbhunaitheoir comhbhunaitheoirí
+49	4849	rae	
+50	4850	suranam	shuranam
+51	4851	neamhorgánach	neamhorgánacha
+52	4852	staitistiúil	staitistiúla
+53	4853	péindlí	bpéindlíthe phéindlíthe péindlíthe
+54	4854	sceir	sceire sceireacha
+55	4855	imeaglú	n-imeaglú
+56	4856	claon	chlaoin chlaon chlaonann chlaontar claona claonann claontar
+57	4857	spíon	spíonadh spíonfaidh spíonta
+58	4858	bultúr	bhultúr bultúir
+59	4859	ciumhais	chiumhais ciumhaise ciumhaiseanna ciúmhais gciumhais
+60	4860	ceartlitriú	ceartlitrithe cheartlitrithe cheartlitriú gceartlitriú
+61	4861	girseach	ghirseach ghirsí girseacha girsí ngirseach
+62	4862	ruán	ruadhán ruáin
+63	4863	ruc	
+64	4864	ionchúisitheoir	hionchúisitheoir hionchúisitheoirí ionchúisitheoirí ionchúisitheora n-ionchúisitheoirí t-ionchúisitheoir
+65	4865	triall	dtriall thriall thriallainn trialladh
+66	4866	scan	scanadh scanann scanta scantar
+67	4867	fiuchphointe	fhiuchphointe
+68	4868	ortha	hortha horthaí n-orthaí orthaí órtha
+69	4869	sraithscéal	shraithscéal sraithscéalta sraithscéil
+70	4870	folcadh	bhfolcadh bhfolcthaí fholcadh folctha folcthaí
+71	4871	míleatach	mhíleatach mhíleataí míleatacha míleataigh míleataí
+72	4872	pléascán	bpléascán phléascáin pléascáin
+73	4873	ollmhargadh	b'ollmhargadh hollmhargaí n-ollmhargaí ollmhargaidh ollmhargaí
+74	4874	seile	seilí sheile
+75	4875	casacht	casachta chasacht
+76	4876	laochas	laochais
+77	4877	spioradáltacht	spioradáltachta
+78	4878	scliúchas	scliúchais
+79	4879	guma	ghuma gumaí nguma
+80	4880	sorcóir	shorcóir shorcóirí sorcóra
+81	4881	gairneoireacht	gairneoireachta ghairneoireacht ghairneoireachta
+82	4882	camall	camaill chamaill chamall gcamall
+83	4883	dímheasúil	
+84	4884	carbónach	carbónacha carbónaithe charbónaigh
+85	4885	toghlach	dtoghlach dtoghlaigh thoghlach thoghlaigh toghlaigh
+86	4886	ifreann	hifreann ifrinn t-ifreann
+87	4887	torann	thorann torainn
+88	4888	corrach	chorrach chorracha corracha
+89	4889	roghnach	roghnacha
+90	4890	feidhmiúil	feidhmiúla fheidhmiúil fheidhmiúla
+91	4891	réalaíoch	réalaíche réalaíocha
+92	4892	máisiún	mháisiúin mháisiún máisiúin
+93	4893	aramatach	aramatacha
+94	4894	comhchruinniú	chomhchruinniú comhchruinnithe
+95	4895	trasnán	thrasnán trasnáin
+96	4896	iomchuí	
+97	4897	dogma	dhogma dogmaí ndogmaí
+98	4898	digitiú	dhigitithe dhigitiú digitithe ndigitiú
+99	4899	athnuaigh	athnua athnuadh athnuaite athnuaitear d'athnuachan d'athnuaigh hathnuachan
+100	4900	sofaisticiúil	shofaisticiúil sofaisticiúla

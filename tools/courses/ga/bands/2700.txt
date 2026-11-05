@@ -1,0 +1,100 @@
+1	2601	traenálaí	thraenálaithe thraenálaí traenálaithe
+2	2602	toghroinn	dtoghranna dtoghroinn thoghroinn toghranna
+3	2603	reacht	reachta reachtanna
+4	2604	síceolaíocht	shíceolaíocht síceolaíochta tsíceolaíocht
+5	2605	grianchóras	ghrianchórais ghrianchóras grianchórais ngrianchórais ngrianchóras
+6	2606	iompú	hiompú iompó n-iompú
+7	2607	coirnéal	choirnéal choirnéil coirnéil cornal gcoirnéal
+8	2608	adharc	adhairce adharca d'adharc hadharca n-adharc
+9	2609	feiste	bhfeiste bhfeistí feistí fheiste fheistí
+10	2610	rabhadh	rabhaidh
+11	2611	scáthán	scathán scáthan scátháin sgáthán
+12	2612	daonnúil	daonnúla dhaonnúil dhaonnúla
+13	2613	toiligh	dtoiliú dtoilíonn thoiligh thoilithe thoiliú toilithe toiliú toilíonn
+14	2614	maighdean	maighdeana maighdine mhaighdean mhaighdeana mhaighdeog
+15	2615	rón	róin róine rónta
+16	2616	lann	lainn lainne lanna
+17	2617	buaic	bhuaic bhuaice buaice buaiceanna mbuaic mbuaiceanna
+18	2618	infheicthe	
+19	2619	maoinigh	maoineodh maoinithe maoiníodh maoiníonn maoinítear mhaoineodh mhaoineoidís mhaoinigh mhaoinithe mhaoiníonn mhaoinítear
+20	2620	cuas	chuais chuas cuasa gcuais gcuas gcuasa
+21	2621	coileán	choileáin choileán coileáin gcoileán
+22	2622	sóisialachas	shóisialachas sóisialachais tsóisialachais
+23	2623	paisinéir	bpaisinéir bpaisinéirí paisinéara paisinéirí phaisinéara phaisinéir phaisinéirí
+24	2624	bochtaineacht	bhochtaineacht bhochtaineachta bochtaineachta bochtanais bochtanas mbochtaineacht
+25	2625	ara	hara nara tara
+26	2626	cluin	chluin chluineadh chluineas chluinfeá chluinstin chluintear chualamar chualathas cluineadh cluinim cluinstin cluinte cluintear gcluine gcluineadh gcluinfeá gcluintear gcuala
+27	2627	craol	chraol chraolann chraolfadh chraolfaí chraoltar craolann craolfaidh craolfar craoltar gcraolfaí gcraolta
+28	2628	idirmheánach	idirmheánacha idirmheánaigh idirmheánaí
+29	2629	tiomnaigh	thiomnaigh thiomnaithe tiomnaithe tiomnaíodh tiomnaíonn
+30	2630	malartach	malartacha malartaí mhalartach mhalartacha mhalartaí
+31	2631	gúm	ghúim ghúm ngúm
+32	2632	cimigh	chimeodh chimeofaí chimigh chimiú cimithe cimiú cimíodh gcimithe
+33	2633	sóisearach	shóisearach shóisearacha shóisearaigh sóisearacha sóisearaigh sóisearaí
+34	2634	seic	seice seiceanna sheic tseic
+35	2635	sciath	sciata sciataí sciatha sciathadh scéith scéithe sgiath
+36	2636	glasra	ghlasra ghlasraí glasraí nglasraí
+37	2637	lánaimseartha	
+38	2638	comhlathas	chomhlathais chomhlathas comhlathais gcomhlathas
+39	2639	lom	loime loma lomadh lomas
+40	2640	maisiúchán	maisiúcháin mhaisiúcháin mhaisiúchán
+41	2641	gaiscíoch	gaiscígh ghaiscígh ghaiscíoch ngaiscíoch
+42	2642	fóilió	bhfóilió bhfóiliónna fhóilió fóiliónna
+43	2643	spioradálta	
+44	2644	stróic	stróc strócanna stróiceacha stróiceadh stróiceann stróicfidh stróictear stróicthe
+45	2645	il	hil ile
+46	2646	colscaradh	cholscaradh cholscartha colscartha gcolscaradh
+47	2647	ceimiceán	ceimiceáin cheimiceáin cheimiceán gceimiceáin gceimiceán
+48	2648	muineál	mhuineál mhuiníl muinéal muiníl
+49	2649	uathoibríoch	huathoibríoch uathoibríche uathoibríocha
+50	2650	pioc	bpiocfaidh phioc phioca phiocadh phiocann phioctar pioca piocadh piocann pioctar pioctha
+51	2651	atáirg	atáirgeann atáirgtear atáirgthe d'atáirgeadh hatáirgeadh n-atáirgeann
+52	2652	dearthóir	dearthóirí dearthóra dhearthóir dhearthóirí ndearthóirí
+53	2653	gual	ghuail ghual guail ngual
+54	2654	rialtóir	rialtóirí rialtóra
+55	2655	cumasc	chumaisc chumasc chumascadh cumaisc cumaiscthe cumascadh cumascann cumasctar gcumasc
+56	2656	faireog	bhfaireog bhfaireoga faireoga faireoige fhaireog fhaireoga
+57	2657	crap	chrap chrapadh chrapann chraptha crapadh crapann crapfaidh craptha gcrapann gcrapfadh
+58	2658	craobhach	chraobhach chraobhacha chraobhaigh chraobhaí craobhacha craobhaí
+59	2659	faisean	bhfaisean faisin faisiún fhaisean fhaisin
+60	2660	soilsiú	shoilsiú soilsithe tsoilsithe tsoilsiú
+61	2661	seicheamh	seichimh sheicheamh sheichimh
+62	2662	prótacal	bprótacail bprótacal phrótacail phrótacal prótacail
+63	2663	athbhreithniú	n-athbhreithniú t-athbhreithniú
+64	2664	guaire	ghuaire guairí nguaire nguairí
+65	2665	uafásach	b'uafásach b’uafásaí huafásach uafásacha uafásaigh uafásaí uathbhásach
+66	2666	riabhach	riabhacha riabhaigh riabhaí
+67	2667	impiriúil	impiriúla
+68	2668	carbhat	carbhait
+69	2669	deontas	deontais dheontais dheontas ndeontas
+70	2670	roll	rolladh rollaigh rollann rollta rolltar rolláil rollála
+71	2671	sea	seadh shea
+72	2672	dílseoir	dhílseoirí dílseoirí dílseora ndílseoirí
+73	2673	broinn	bhroinn mbroinn
+74	2674	call	chall gcall
+75	2675	sceith	sceite sceitear sceitheadh sceitheann sceitheanna sceithfeadh sceithfí
+76	2676	fóram	bhfóraim bhfóram d'fhóram fhóraim fhóram fóraim
+77	2677	cothrománach	chothrománach chothrománacha chothrománaigh cothrománacha cothrománaigh cothrománaí
+78	2678	teimpléad	dteimpléid teimpléid theimpléad
+79	2679	mórthimpeall	mhórthimpeall
+80	2680	íospartach	d'íospartach d'íospartaigh d’íospartaigh híospartach híospartaigh n-íospartach n-íospartaigh t-íospartach íospartaigh
+81	2681	mairnéalach	mairnéalaigh mhairnéalach mhairnéalaigh
+82	2682	dóchas	dhóchais dhóchas dóchais ndóchas
+83	2683	coibhneasacht	choibhneasacht choibhneasachta coibhneasachta gcoibhneasacht
+84	2684	inimirceach	d'inimircigh hinimircigh inimirceacha inimircigh n-inimirceach n-inimircigh t-inimirceach
+85	2685	liostaigh	liostaithe liostaíodh liostaíonn liostaítear liostú
+86	2686	iomrá	hiomrá t-iomrá
+87	2687	fiafraigh	d'fhiafraigh d’fhiafraigh fhiafraigh fhiafraí fiafraí fiafraíodh fiafraíonn fiafraítear
+88	2688	clochar	chlochair chlochar clochair gclochar
+89	2689	comhábhar	chomhábhair chomhábhar comhábhair gcomhábhair gcomhábhar
+90	2690	teaspach	teaspaigh theaspach
+91	2691	gé	ghé ghéanna géanna ngé ngéanna
+92	2692	múscail	mhuscail mhúscail mhúscailt mhúsclaíonn mhúsclódh múscailt múscailte músclaíodh músclaíonn músclódh músclóidh músclóir músclóra
+93	2693	srath	shrath sratha tsrath tsratha
+94	2694	grád	ghrád ghráid gráid ngrád
+95	2695	cailliúint	cailliúintí cailliúna chailliúint chailliúna gcailliúint
+96	2696	argóint	argóinte argóintí d'argóintí hargóint hargóinte hargóintí n-argóintí
+97	2697	inniúlacht	hinniúlacht hinniúlachta hinniúlachtaí inniúlachta inniúlachtaí n-inniúlacht n-inniúlachta n-inniúlachtaí
+98	2698	tréigean	thréigean
+99	2699	maolaigh	maolaithe maolaíodh maolaíonn maolaítear maolófar maolófaí maolóidh mhaolaigh mhaolaithe mhaolaíonn mhaolódh
+100	2700	haigh	

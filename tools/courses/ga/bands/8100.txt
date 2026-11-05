@@ -1,0 +1,100 @@
+1	8001	trasnánach	thrasnánach
+2	8002	scairdeán	
+3	8003	máithreánach	mháithreánach mháithreánaigh
+4	8004	píobaigh	phíobaí píobaithe píobaí
+5	8005	aláram	aláraim
+6	8006	baois	baoise
+7	8007	brabhsáil	bhrabhsáil brabhsála
+8	8008	béalóg	bhéalóg
+9	8009	círín	chírín círíní
+10	8010	diatonach	dhiatonach dhiatonaigh diatonacha
+11	8011	diabhlaíocht	diabhlaíochta
+12	8012	diagnóiseach	dhiagnóiseach diagnóiseacha
+13	8013	easpagóideacht	easpagóideachta heaspagóideacht
+14	8014	jóc	jócanna
+15	8015	lingeán	lingeáin
+16	8016	naíonacht	naíonachta
+17	8017	neamart	neamairt
+18	8018	prólatáireach	phrólatáireach phrólatáireacha prólatáireacha prólatáirigh
+19	8019	réamhábhar	réamhábhair
+20	8020	tonúlacht	tonúlachta
+21	8021	tuáille	tuáillí
+22	8022	leabhróg	leabhróga
+23	8023	molaibdéineam	mholaibdéineam molaibdéinim
+24	8024	sámh	shámh sáimhe
+25	8025	airmheán	airmheáin hairmheán t-airmheán
+26	8026	athdhearbhaigh	athdhearbhaíodh athdhearbhú d'athdhearbhaigh
+27	8027	códón	códóin
+28	8028	foshuiteach	fhoshuiteach fhoshuitigh
+29	8029	gliceas	ghliceas ngliceas
+30	8030	muicí	mhuicí muicithe
+31	8031	treá	threá
+32	8032	cineálta	chineálta
+33	8033	rómhánúil	rómhánúla
+34	8034	geolbhach	geolbhaigh gheolbhach gheolbhaigh ngeolbhach
+35	8035	muinteartha	
+36	8036	víosa	víosaí
+37	8037	róba	róbaí
+38	8038	réileán	réileáin
+39	8039	borb	bhoirbe bhorb boirbe borba
+40	8040	clampar	chlampair clampair gclampar
+41	8041	ionúiteach	hionúitigh ionúiteacha ionúitigh ionúití nionúiteach
+42	8042	antalóp	antalóip hantalóip t-antalóp
+43	8043	ardchríoch	ardchríocha hardchríocha
+44	8044	balcóin	balcóine balcóiní bhalcóin mbalcóin
+45	8045	bláfar	bláfara
+46	8046	bábóg	bhábóg bábóga bábóige mbábóg
+47	8047	carbhán	carbháin charbháin charbhán
+48	8048	comhairleoireacht	chomhairleoireacht chomhairleoireachta comhairleoireachta
+49	8049	dobharcheantar	dhobharcheantar dobharcheantair ndobharcheantar
+50	8050	tascfhórsa	tascfhórsaí thascfhórsa thascfhórsaí
+51	8051	maoirseoir	maoirseoirí mhaoirseoir
+52	8052	príomhlíne	bpríomhlíne phríomhlíne phríomhlínte príomhlínte
+53	8053	slacht	shlacht thlachta tlachta tslacht
+54	8054	bainseo	bainseó bainseónna
+55	8055	cnota	chnota gcnota gcnotaí
+56	8056	imchlúdaigh	imchlúdach imchlúdaithe imchlúdaíonn t-imchlúdach
+57	8057	milseog	mhilseog milseoga
+58	8058	peilbheas	pheilbheas pheilbhis
+59	8059	scuaine	scuainí
+60	8060	speisialtacht	speisialtachta
+61	8061	síofra	shíofra síofraí tsíofra
+62	8062	teagmhálach	teagmhálacha theagmhálacha
+63	8063	íoth	íotha íth
+64	8064	buach	bhuach buacha
+65	8065	comhoideachas	chomhoideachais comhoideachais
+66	8066	leaschathaoirleach	
+67	8067	lodar	lodair
+68	8068	mathshlua	mathshluaite mhathshlua
+69	8069	clochach	chlochach chlochacha clochacha clochaigh
+70	8070	coigeartaigh	choigeartú coigeartaithe coigeartaítear coigeartú gcoigeartú
+71	8071	iomadaigh	iomadú
+72	8072	réaltfhisic	réaltfhisice
+73	8073	andúileach	andúileacha andúiligh handúiligh t-andúileach
+74	8074	iompaitheach	hiompaithigh iompaithigh t-iompaitheach
+75	8075	achoimriú	
+76	8076	aeriompartha	
+77	8077	athbhaist	athbhaisteadh
+78	8078	códainm	
+79	8079	dolúbtha	
+80	8080	dásachtach	dhásachtach
+81	8081	falsa	
+82	8082	giúmaráil	ghiúmaráil
+83	8083	leamhsháinn	leamhsháinne
+84	8084	mioneolas	mioneolais
+85	8085	oighreata	
+86	8086	preasáil	phreasáil preasála preasáladh
+87	8087	samhnas	tsamhnais
+88	8088	scáineach	scáineacha
+89	8089	corrmhíol	corrmhíolta
+90	8090	bardach	bardaigh bhardach
+91	8091	darwineachas	darwineachais
+92	8092	tuismeadh	tuismidh
+93	8093	amharclannach	amharclannacha amharclannaí
+94	8094	caolchúiseach	caolchúiseacha caolchúisí chaolchúisí
+95	8095	camscéim	camscéimeanna chamscéim chamscéimeanna
+96	8096	cnaígh	chnaí cnaí cnaíte
+97	8097	comhsheasmhacht	chomhsheasmhacht
+98	8098	cuasár	chuasáir cuasáir
+99	8099	idirbheartaí	idirbheartaithe
+100	8100	lotnaidicíd	lotnaidicídí

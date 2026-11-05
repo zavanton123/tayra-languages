@@ -1,0 +1,100 @@
+1	5801	méadaitheach	mhéadaitheach mhéadaitheacha
+2	5802	tuilí	thuilithe
+3	5803	diúilicín	diúilicíní
+4	5804	páil	bpáil pháil páile
+5	5805	tintreach	thintreach thintrí tintrí
+6	5806	iostanbúl	
+7	5807	cairbreach	cairbreacha cairbrigh chairbreach
+8	5808	fealltach	fealltacha fhealltach
+9	5809	stocmhalartán	stocmhalartáin
+10	5810	deamhan	deamhain dheamhain dheamhan ndeamhan
+11	5811	lagán	lagáin
+12	5812	clódóir	chlódóir chlódóra clódóirí gclódóirí
+13	5813	preab	bpreabadh bpreabann bpreabfaidh phreab phreabadh phreabann preabadh preibe
+14	5814	dliteanas	dhliteanais dhliteanas dliteanais
+15	5815	rangabháil	rangabhála rangabhálacha
+16	5816	clódóireacht	chlódóireacht chlódóireachta clódóireachta gclódóireacht
+17	5817	tírghrá	thírghrá
+18	5818	altramas	altramacht altramais
+19	5819	seanteach	seantithe tseantí
+20	5820	tráma	thráma
+21	5821	frithghiniúint	fhrithghiniúint fhrithghiniúna frithghiniúna
+22	5822	marthanach	marthanacha marthanaí mharthanach
+23	5823	idirlinn	idirlinne
+24	5824	seanlitriú	seanlitrithe tseanlitrithe
+25	5825	diúl	dhiúl diúil diúla diúlann
+26	5826	lómhar	lómhair lómhara
+27	5827	díluchtaigh	dhíluchtú díluchtaithe díluchtaítear díluchtú
+28	5828	svahaílis	svahaílise
+29	5829	ullamh	
+30	5830	atha	hatha
+31	5831	smig	smeach smeachtar smige smigead
+32	5832	ribín	ribíní
+33	5833	spástointeálaí	spástointeálaithe
+34	5834	neamh-chomhfhios	
+35	5835	imoibríocht	himoibríocht n-imoibríocht
+36	5836	corraíl	chorraíl corraíola gcorraíl
+37	5837	modúl	mhodúil mhodúl modúil
+38	5838	móimint	mhóimint móiminte móimintí
+39	5839	mínormálta	mhínormálta
+40	5840	ráille	ráillí
+41	5841	trúig	thrúig
+42	5842	cailceach	cailceacha cailcigh cailcithe cailcí chailceach chailcigh chailcithe
+43	5843	leacach	leacacha leacaigh leacaithe
+44	5844	fliúit	bhfliúit fhliúit fliúite fliúiteanna
+45	5845	seirfeachas	tseirfeachais
+46	5846	cannabas	cannabais channabais channabas gcannabas
+47	5847	nuashonrú	nuashonruithe
+48	5848	murlach	mhurlach mhurlaigh murlaigh
+49	5849	geit	gheit ngeit
+50	5850	misteach	mhisteach misteacha
+51	5851	mistéireach	mhistéireach mistéireacha
+52	5852	sciúr	sciúradh sciúrtha
+53	5853	citreas	citris
+54	5854	méóis	mhéóis méóise
+55	5855	saorálach	saorálaithe saorálaí
+56	5856	cloigín	chloigín cloigíní
+57	5857	comhroinn	chomhroinn comhroinne comhroinneann gcomhroinn
+58	5858	céimseach	
+59	5859	smólach	smaolach smóil smólaigh
+60	5860	scairp	scairpe scairpeanna
+61	5861	athchúrsáil	athchúrsáilte athchúrsáiltear athchúrsála athchúrsáladh hathchúrsáil
+62	5862	gáinneáil	gháinneáil gáinneála ngáinneáil
+63	5863	gaineamhlach	gaineamhlaigh ghaineamhlach ghaineamhlaigh ngaineamhlach ngaineamhlaigh
+64	5864	ilcheallach	ilcheallacha
+65	5865	guí	ghuí guibhe nguí
+66	5866	scréachóg	scréachóga
+67	5867	leabaigh	leabaithe leabú
+68	5868	aoisghrúpa	haoisghrúpaí
+69	5869	mionteanga	mhionteanga mhionteangacha mionteangacha
+70	5870	reo	
+71	5871	sionagóg	shionagóg sionagóige tsionagóg
+72	5872	astralaíocht	astralaíochta hastralaíochta
+73	5873	bunphrionsabal	bhunphrionsabail bhunphrionsabal bunphrionsabail mbunphrionsabail mbunphrionsabal
+74	5874	clubtheach	chlubtheach gclubtheach
+75	5875	faicsean	bhfaicsean fhaicsean
+76	5876	neamhdhlisteanach	neamhdhlisteanacha neamhdhlisteanaí
+77	5877	teorannach	teorannacha theorannacha
+78	5878	beinséin	beinséine bheinséin mbeinséin
+79	5879	príomhchuspóir	phríomhchuspóir phríomhchuspóirí príomhchuspóirí
+80	5880	méadrach	mhéadracha méadracha méadraithe
+81	5881	neamhfhorleathan	neamhfhorleathana
+82	5882	féinchosaint	féinchosanta
+83	5883	tríochadú	30ú
+84	5884	pailéad	bpailéad pailéid phailéad
+85	5885	giúróir	giúróirí ngiúróirí
+86	5886	cinnteacht	chinnteacht cinnteachta
+87	5887	comhfhiosach	comhfhiosacha
+88	5888	teimhneach	teimhneacha teimhní
+89	5889	inn	ín
+90	5890	súnámaí	shúnámaithe shúnámaí súnámaithe tsúnámaí
+91	5891	taraif	dtaraifí taraife taraifí tharaifí
+92	5892	iarbhall	hiarbhaill iarbhaill
+93	5893	pléadáil	bpléadálacha phléadáil pléadála pléadálacha pléadálfadh
+94	5894	cócó	chócó
+95	5895	ríomhchlárúchán	ríomhchlárúcháin
+96	5896	iomramh	iomraimh
+97	5897	tonga	dtonga thonga
+98	5898	bile	bhile bilí
+99	5899	conallach	chonallach chonallaigh conallaigh gconallach
+100	5900	cuing	chuing cuinge gcuing

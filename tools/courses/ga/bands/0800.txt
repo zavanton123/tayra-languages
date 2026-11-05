@@ -1,0 +1,100 @@
+1	701	mainistir	mainisdear mainistreach mainistreacha mhainistir mhainistreach mhainistreacha
+2	702	bac	baca bacadh bacainn bacainne bacainní bacann bacanna bactar bactha baic baice bhac bhacadh bhacainn bhacainne bhacainní bhacann bhacas bhacfadh bhacfaidís bhacfainn bhaic mbac mbacainn mbacann mbacfadh mbactar
+3	703	nádúrtha	
+4	704	dúchais	dhúchais ndúchais
+5	705	dráma	dhráma dhrámaí drama dramaí drámaí ndráma ndrámaí
+6	706	saibhir	saibhre shaibhir shaibhre
+7	707	caife	caifí chaife gcaife gcaifí
+8	708	traidisiúnta	thraidisiúnta
+9	709	cinnte	chinnte
+10	710	cinn	chinn chinneadar chinneann chinnfeadh chinnfidh chinnireacht chinntear chinntí cinne cinneann cinnfear cinnfidh cinnireacht cinntear gcinn gcinneann gcinnfeadh gcinnfidh gcinntear gcinntí
+11	711	at	ata atann atas d'at hat n-atann n-atfaidh t-at
+12	712	úll	húill húll húlla n-úll t-úll ubhal úill úlla
+13	713	triail	dtriail dtriailfeadh dtrialacha thriail thriaileann thriailfí thrialach thrialacha triaileadh trialach trialacha trialaigh trialaí
+14	714	ainmnigh	ainmneofar ainmneoidh ainmnithe ainmníodh ainmníonn ainmnítear d'ainmnigh d'ainmnithe d'ainmníodh d'ainmnítí d’ainmnigh d’ainmníodh hainmniú hainmníodh n-ainmneodh n-ainmneofaí n-ainmníonn n-ainmnítear
+15	715	bog	bhog bhoga bhogadar bhogadh bhogann bhogas bhogtar bhogtha bhoig boga bogaidh bogann bogfaidh bogtar boige mbogadh mbogann mbogfadh mbogfaidh mbogfaí
+16	716	peil	bpeil peile pheil pheile
+17	717	éigean	b'éigean b’éigean héigean
+18	718	bisigh	bhisigh bhisithe bhisiú bisithe bisiú
+19	719	beagnach	
+20	720	aistriúchán	aistriúcháin b'aistriúcháin d'aistriúcháin d'aistriúchán d’aistriúchán haistriúcháin haistriúchán n-aistriúchán t-aistriúchán
+21	721	éasca	b'éasca b’éasca héasca
+22	722	lámhscríbhinn	lámhscríbhinne lámhscríbhinní
+23	723	dáil	dháil dháileadh dháileann dháilte dháiltear dháiltí dáileadh dáilte dáiltear dáiltí ndáil ndáileadh ndáilfí ndáiltear ndálaí
+24	724	breith	bhreith bhreithe bhreitheanna breath breithe breitheanna mbreith mbreithe mbreitheanna
+25	725	síocháin	shíocháin shíochána síochán síochána síothcháin tsíocháin
+26	726	faoina	
+27	727	tráth	dtráth dtrátha thráth trátha tráthanna
+28	728	cáiliúil	cháiliúil cháiliúla cáiliúla
+29	729	réalta	réalt réaltaí
+30	730	ceoltóir	ceoltóirí ceoltóra cheoltóir cheoltóirí cheoltóra gceoltóir gceoltóirí
+31	731	aer	aeir aera d'aer d’aer haer t-aer
+32	732	annáil	annála d'annála hannála n-annála
+33	733	laghad	
+34	734	riail	rial rialach rialacha rialadh rialann rialtaí rialtá
+35	735	liteartha	
+36	736	feachtas	bhfeachtais bhfeachtas d'fheachtais d'fheachtas d’fheachtas feachtais fheachtais fheachtas
+37	737	dromchla	dhromchla dhromchlaí dromchlaí ndromchla ndromchlaí
+38	738	áis	d'áiseanna háis háise háiseanna n-áiseanna áise áiseanna
+39	739	iriseoir	b'iriseoir b’iriseoir d'iriseoir d'iriseoirí d’iriseoirí hiriseoir hiriseoirí iriseoirí iriseora n-iriseoirí t-iriseoir
+40	740	formhór	bhformhór d'fhormhór fhormhóir fhormhór
+41	741	géar	ghéar ghéara ghéir ghéire géara géire ngéire
+42	742	maidin	maidean maidine maidineacha maidne mhaidin mhaidine
+43	743	scoláire	scoláirí
+44	744	léiriú	
+45	745	cúramach	chúramach cúramacha cúramaí
+46	746	éisteacht	d'éisteacht héisteacht héisteachta héisteachtaí n-éisteacht éisteach éisteachta éisteachtaí éistigh
+47	747	creideamh	chreideamh chreidimh creidimh gcreideamh gcreidimh
+48	748	cú	chon chuáin chú chúnna coin con cuán cúnna gcon gcú gcúnna
+49	749	fáilte	bhfáilte fháilte fáiltí
+50	750	droim	dhroim dhroma drom droma dromanna druim ndroim ndromanna
+51	751	dream	dhream dhreamanna dreama dreamanna ndream ndreamanna
+52	752	éineacht	
+53	753	scríbhneoireacht	scríbhneoireachta
+54	754	difriúil	dhifriúil dhifriúla difriúla
+55	755	stíl	stíle stíleanna stíleas stílis
+56	756	saoirse	saoirsí shaoirse shaoirsí tsaoirse
+57	757	ord	b'ord d'oird d'ord d’oird d’ord hoird hord n-oird n-ord nord oird ordan t-ord tord órd
+58	758	bunú	bhunú mbunú
+59	759	neamhspleáchas	neamhspleáchais
+60	760	riarachán	riaracháin
+61	761	óige	b'óige b’óige d'óige d’óige hóige m'óige n-óige
+62	762	ionas	
+63	763	abairt	abairte abairtí d'abairt d'abairtí d’abairtí habairte habairtí n-abairtí
+64	764	doire	dhoire dhoirí doirí ndoire ndoirí
+65	765	suíochán	shuíocháin shuíochán suíocháin tsuíocháin tsuíochán
+66	766	fóill	
+67	767	cloígh	chloí chloífidís chloífí chloígh chloíodh chloíonn chloíte cloí cloíodh cloíonn cloíte cloítear gcloí gcloífeadh gcloífidh gcloífí gcloíodh gcloíonn gcloítear
+68	768	port	bport phoirt phort poirt
+69	769	caidreamh	caidrimh chaidreamh chaidrimh gcaidreamh gcaidrimh
+70	770	gall	gaill gaille gallaibh ghaill ghall ngaill ngall
+71	771	can	cana canaigí canainn canann canfaidh canfar cantar chan chana chanainn chanann gcanann gcanfadh
+72	772	féachaint	fhéachaint fhéachana féachana
+73	773	deis	deise deiseanna dheis dheise dheiseanna ndeis ndeiseanna
+74	774	stiúrthóir	stiúrthóirí stiúrthóra
+75	775	gabháil	gabhála gabhálacha ghabháil ghabhála goil ngabháil ngabhálacha
+76	776	samhradh	samhraidh samhraí shamhradh tsamhradh tsamhraidh
+77	777	caighdeán	caighdeáin chaighdeáin chaighdeán gcaighdeáin gcaighdeán
+78	778	corp	choirp chorp coirp gcoirp gcorp
+79	779	fréamh	bhfréamh bhfréamhacha fhréamh fhréamhacha fréamha fréamhacha fréimhe
+80	780	feoil	bhfeoil feola feolta fheoil
+81	781	seas	seasadh seasaidh seasaidís seasaigí seasaimid seasaimis seasann seasfadh seasfaidh seasfaidís seasfaimid seasfaí seasta sheas sheasadh sheasaidís sheasann sheasas sheasfadh sheasfaidh sheasta
+82	782	gás	gháis ghás gáis ngáis ngás
+83	783	fonn	bhfoinn bhfonn d’fhoinn d’fhonn fhoinn fhonn foinn
+84	784	aonad	aonaid b'aonad d'aonad d'aonaid d’aonad d’aonaid haonad haonaid n-aonad n-aonaid naonad t-aonad taonad
+85	785	bláth	bhláth bhlátha bhláthanna blátha bláthanna mbláth mbláthanna
+86	786	miotal	mhiotail mhiotal miotail
+87	787	coiste	choiste choistí coisde coistí gcoiste gcoistí
+88	788	naoú	9ú naeú naomhadh
+89	789	cuimsigh	chuimseodh chuimsigh chuimsiú chuimsíodh chuimsíonn chuimsítear cuimsithe cuimsiú cuimsíodh cuimsíonn cuimsítear gcuimseoidh gcuimsíonn gcuimsítear
+90	790	neart	nirt
+91	791	cúl	chúil chúl chúla cúil cúla cúlacha gcúil gcúl
+92	792	bua	bhua buaidh buaidhe mbua mbuanna
+93	793	plean	bplean bpleananna phlean phleananna pleananna
+94	794	tamall	tamaill thamall
+95	795	scrios	scriosa scriosadar scriosadh scriosaidh scriosann scriosfadh scriosfaidh scriosfar scriosfaí scriosta scriostar
+96	796	roghnaigh	roghnaithe roghnaíodar roghnaíodh roghnaíonn roghnaítear roghnaítí roghnódh roghnófar roghnófaí roghnóidh roghnóir roghnóirí
+97	797	tuismitheoir	dtuismitheoirí thuismitheoir thuismitheoirí thuismitheora tuismitheoirí tuismitheora
+98	798	ollamh	b'ollamh hollaimh hollamh hollúna n-ollamh n-ollúna ollaimh ollúna t-ollamh tollamh
+99	799	rúise	
+100	800	socraigh	shocraigh shocraithe shocraíodar shocraíodh shocraíomar shocraíonn shocraítear shocraítí shocródh shocrófaí shocróidh socraithe socraí socraíodh socraíonn socraítear socródh socrófar socrófaí tsocraithe

@@ -1,0 +1,100 @@
+1	4101	mionsonra	mhionsonra mhionsonraí mionsonraí
+2	4102	oileánra	hoileánraí oileánraí t-oileánra
+3	4103	príomhamhránaí	bpríomhamhránaí phríomhamhránaithe phríomhamhránaí príomhamhránaithe
+4	4104	dord	dhord doird
+5	4105	bíseach	bhíseach bhíseacha bhísí bíseacha
+6	4106	alla	allar
+7	4107	ciap	chiapadh chiapann chiapas ciapadh ciapann ciaptha gciapadh
+8	4108	ionramháil	hionramháil ionramháilte ionramhála ionramhálann n-ionramháil
+9	4109	antoisceach	antoisceacha antoiscigh antoiscí hantoiscigh
+10	4110	ceardaíocht	ceardaíochta cheardaíocht cheardaíochta gceardaíocht
+11	4111	féatas	bhféatas fhéatais fhéatas féatais
+12	4112	maintlín	mhaintlín
+13	4113	spás-am	spás-ama
+14	4114	íorónta	híorónta
+15	4115	scigaithris	scigaithrise
+16	4116	miste	mhiste
+17	4117	curadóireacht	churadóireacht churadóireachta curadóireachta gcuradóireacht
+18	4118	seilide	seilidí seilmide sheilide sheilidí tseilide
+19	4119	oibriúchán	oibriúcháin
+20	4120	spiaireacht	spiaireachta
+21	4121	árthach	d’árthaí hárthaigh hárthaí t-árthach árthaigh árthrach
+22	4122	cadhnaíocht	cadhnaíochta
+23	4123	raidiseatóp	raidiseatóip
+24	4124	próifíl	bpróifíl phróifíl phróifíle próifílí
+25	4125	feamainn	bhfeamainn feamainne fheamainn
+26	4126	leathar	leathair
+27	4127	lastuaidh	
+28	4128	seabhac	seabhaic sheabhac sheabhaic tseabhaic
+29	4129	státseirbhís	státseirbhíse
+30	4130	dodhéanta	
+31	4131	athmhuintearas	athmhuintearais hathmhuintearas t-athmhuintearas
+32	4132	bunchloch	bhunchloch bhunchlocha bunchlocha bunchloiche
+33	4133	comhéadan	chomhéadain chomhéadan comhéadain gcomhéadan
+34	4134	dorn	dhorn doirn doirne ndoirn
+35	4135	radaighníomhaíocht	radaighníomhaíochta
+36	4136	drochshláinte	dhrochshláinte ndrochshláinte
+37	4137	comhfhios	chomhfheasa chomhfhios comhfheasa gcomhfhios
+38	4138	séimeantach	shéimeantach shéimeantacha séimeantacha
+39	4139	geansaí	geansaithe gheansaí ngeansaithe ngeansaí
+40	4140	geolaíocht	geolaíochta gheolaíocht gheolaíochta ngeolaíocht
+41	4141	monatóireacht	mhonatóireacht mhonatóireachta monatóireachta
+42	4142	rannpháirtí	rannpháirtithe
+43	4143	creachadóir	chreachadóir chreachadóirí chreachadóra creachadóirí creachadóra creachairí gcreachadóir gcreachadóirí
+44	4144	cáinte	cháinte cáintí gcáinte
+45	4145	asal	aisle asail hasail hasal m'asal t-asal
+46	4146	leáphointe	leáphointí
+47	4147	iomlánach	iomlánacha iomlánaigh iomlánaithe iomlánú
+48	4148	gnáthshaol	ghnáthshaoil ghnáthshaol ngnáthshaol
+49	4149	mata	mataí mhata
+50	4150	canónta	chanónta
+51	4151	aschuir	
+52	4152	faró	bhfaró bhfarónna farónna fharó
+53	4153	caiteachas	caiteachais chaiteachais chaiteachas gcaiteachas
+54	4154	onórach	honórach onóraí
+55	4155	paraimíleatach	bparaimíleatach paraimíleatacha paraimíleataigh paraimíleataí pharaimíleatach pharaimíleatacha pharaimíleataigh
+56	4156	gearrliosta	ghearrliosta ngearrliosta
+57	4157	gnás	ghnáis ghnás ghnásanna gnáis gnása gnásanna ngnás ngnásanna
+58	4158	leid	leide leideanna
+59	4159	bé	bhé béithe
+60	4160	frae	fri fria froinn frois fré
+61	4161	paidrín	bpaidrín bpaidríní phaidrín
+62	4162	tocsaineach	thocsaineach thocsaineacha thocsainigh tocsaineacha
+63	4163	litisféar	litisféir
+64	4164	paicéad	bpaicéad paicéid phaicéad phaicéid
+65	4165	insíothlaigh	d'insíothlaigh hinsíothlú insíothlaithe insíothlú
+66	4166	frídín	bhfrídín bhfrídíní fhrídín fhrídíní frídíní
+67	4167	coipeadh	choipeadh coipthe gcoipeadh
+68	4168	acrainm	acrainmneacha d'acrainmneacha hacrainm hacrainmneacha t-acrainm
+69	4169	iata	
+70	4170	infheisteoir	hinfheisteoirí infheisteoirí n-infheisteoirí
+71	4171	ceartingearach	ceartingearacha cheartingearach cheartingearacha cheartingearaigh
+72	4172	núicléasach	núicléasacha núicléasaigh
+73	4173	paireacht	paireachta phaireacht phaireachta
+74	4174	inbhuanaithe	
+75	4175	coiméide	choiméide coiméidí gcoiméide
+76	4176	óstáil	d'óstáil hóstáil óstáilte óstáiltear óstála óstáladh óstálann
+77	4177	naimhdeach	naimhdeacha naimhdí
+78	4178	amóinia	hamóinia
+79	4179	pis	bpis bpiseanna phis phiseanna pisa pise piseanna
+80	4180	forleath	bhforleathann fhorleata fhorleathadh fhorleathann forleata forleathadh forleathann
+81	4181	ciainíd	chiainíd chiainíde ciainíde gciainíd
+82	4182	cónaitheoir	chónaitheoirí cónaitheoirí gcónaitheoirí
+83	4183	aschur	aschurtha d'aschur d’aschur haschur n-aschur t-aschur
+84	4184	treis	dtreis
+85	4185	treibheach	threibheacha treibheacha treibhí
+86	4186	séid	shéid shéideadh shéideann shéidte shéidtear séideann séidfidh séidte séidtear
+87	4187	fiontrach	bhfiontraithe fhiontraí fiontraithe fiontraí
+88	4188	feadhain	feadhna fheadhain
+89	4189	dronuilleogach	dhronuilleogach dhronuilleogacha dronuilleogacha
+90	4190	turlach	dturlach dturlaigh thurlach turlaigh
+91	4191	micreascóp	mhicreascóip mhicreascóp micreascóip
+92	4192	tadhaill	dtadhall tadhall thadhall
+93	4193	saineolas	saineolais shaineolas tsaineolais
+94	4194	cúpláil	chúpláil chúplála chúplálann cúpláilte cúplála cúplálann gcúpláil
+95	4195	lasc	lasca lascadh lascann lasctar lasctha
+96	4196	aireagán	aireagáin haireagáin haireagán t-aireagán
+97	4197	guais	ghuais guaise nguais nguaiseacha
+98	4198	giofóg	ghiofóga giofóga giofóige ngiofóg
+99	4199	seiléiniam	sheiléiniam tseiléiniam
+100	4200	tiúin	dtiúin thiúin thiúnta thiúntar tiúnta

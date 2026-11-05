@@ -1,0 +1,100 @@
+1	4701	aonrú	
+2	4702	soc	shoc shoic soic
+3	4703	mílíste	mhílíste mílístí
+4	4704	ceithearnach	ceithearnaigh cheithearnach cheithearnaigh gceithearnach
+5	4705	duille	dhuillí duillí nduillí
+6	4706	feallmharfóir	bhfeallmharfóirí feallmharfóirí fheallmharfóir fheallmharfóirí
+7	4707	cliathán	chliatháin chliathán cliatháin gcliatháin gcliathán
+8	4708	caidéalaigh	caidéalaithe caidéalaítear caidéalú chaidéalaíonn chaidéalaítear chaidéalú gcaidéalaíonn
+9	4709	ionanálaigh	ionanálaithe ionanálú
+10	4710	gnóthas	ghnóthais gnóthais ngnóthas
+11	4711	ciseán	chiseáin chiseán ciseáin gciseáin
+12	4712	téacsach	théacsaí téacsaí
+13	4713	caifé	caiféanna chaifé gcaifé gcaiféanna
+14	4714	péint	bpéinteanna phéint péinte péinteanna
+15	4715	réadmhaoin	réadmhaoine
+16	4716	paraiméadar	bparaiméadar paraiméadair pharaiméadair pharaiméadar
+17	4717	torthúlacht	dtorthúlacht thorthúlacht thorthúlachta torthúlachta
+18	4718	treallchogaíocht	threallchogaíocht treallchogaíochta
+19	4719	dofheicthe	dhofheicthe
+20	4720	agaistíneach	agaistíneacha agaistínigh hagaistínigh nagaistíneach
+21	4721	físchluiche	bhfíschluichí fhíschluiche fhíschluichí físchluichí
+22	4722	céadfach	chéadfach chéadfacha céadfacha
+23	4723	táscaire	tháscaire tháscairí táscairí
+24	4724	macánta	mhacánta
+25	4725	imshuigh	d'imshuigh imshuite imshuí t-imshuí
+26	4726	céadfa	chéadfa chéadfaí céadfaí gcéadfaí
+27	4727	feimineachas	bhfeimineachas feimineachais fheimineachais fheimineachas
+28	4728	scagaire	scagairí
+29	4729	siúinéir	shiúinéir siúinéara siúinéirí tsiúinéara
+30	4730	bréagstair	bhréagstair bréagstaire mbréagstartha
+31	4731	rabh	rabha
+32	4732	taibheoir	taibheoirí
+33	4733	rialáil	rialáilte rialála
+34	4734	cineálach	chineálach chineálacha cineálaí
+35	4735	veidhlín	veidhlíní
+36	4736	taiscumar	dtaiscumar taiscumair thaiscumar
+37	4737	eathach	neathach
+38	4738	tuaslagóir	dtuaslagóir dtuaslagóirí thuaslagóir thuaslagóirí tuaslagóirí tuaslagóra
+39	4739	dúlagar	dhúlagar dúlagair ndúlagar
+40	4740	meánmhéid	meánmhéide mheánmhéid mheánmhéide
+41	4741	alp	ailp alpa alpadh hailp hailpe n-alpadh nalp
+42	4742	smaointeoir	smaointeoirí
+43	4743	smaointeachas	smaointeachais
+44	4744	feargach	feargacha feargaí fheargach
+45	4745	glacadóir	ghlacadóir ghlacadóirí ghlacadóra glacadóirí glacadóra nglacadóir
+46	4746	ardcheannas	ardcheannais d'ardcheannas
+47	4747	breiseán	bhreiseáin bhreiseán breiseáin mbreiseáin
+48	4748	castacht	castachta castachtaí chastacht gcastacht
+49	4749	substaintiúil	shubstaintiúil shubstaintiúla substaintiúla
+50	4750	catar	chatar gcatar
+51	4751	feall	bhfeall d'fheall fealladh feallta fheall
+52	4752	bithéagsúlacht	bhithéagsúlacht bithéagsúlachta mbithéagsúlacht
+53	4753	cnaguirlis	cnaguirlisí
+54	4754	díospóid	dhíospóid dhíospóidí díospóide díospóidí ndíospóid ndíospóidí
+55	4755	suaith	shuaite shuaitear shuaith suaite suaitheann tsuaite
+56	4756	scál	scáil scáile scáileanna
+57	4757	bunleagan	bhunleagan bhunleaganacha bunleaganacha mbunleagan
+58	4758	crannóg	chrannóg chrannóga crannóga crannóige gcrannóg
+59	4759	suaimhneas	shuaimhneas suaimhnis tsuaimhnis
+60	4760	miondíol	mhiondíol mhiondíola miondíola
+61	4761	triathghás	triathgháis
+62	4762	veirteabra	veirteabraí
+63	4763	cinedheighilt	chinedheighilt cinedheighilte gcinedheighilt
+64	4764	deic	deice deiceanna dheic dheiceanna
+65	4765	maisiúil	maisiúla mhaisiúil mhaisiúla
+66	4766	roc	roca rocas roctha roic
+67	4767	geoiméadrach	geoiméadracha geoiméadraí gheoiméadrach gheoiméadracha
+68	4768	aithneach	aithneacha aithnigh aithnithe d'aithnigh
+69	4769	astralaíoch	astralaíocha
+70	4770	réadúil	réadúla
+71	4771	bólaí	bhólaí mbólaí
+72	4772	nuachóirigh	nuachóirithe nuachóiriú nuachóiríodh
+73	4773	duillín	dhuillín duillíní nduillín
+74	4774	radón	radóin
+75	4775	cantún	cantúin chantúin chantún gcantún
+76	4776	dílseach	dhílseacha dílseacha
+77	4777	damh	daimh dhamh ndamh
+78	4778	maitheas	maitheasa mhaitheas mhaitheasa
+79	4779	tionscain	thionscain tionscanta tionscnaíodh tionscnaíonn
+80	4780	baghcat	baghcait bhaghcait bhaghcat mbaghcat
+81	4781	biorach	bhiorach bhioracha bhioraigh bhioraithe bioracha
+82	4782	barróg	bharróg mbarróg
+83	4783	cúnant	chúnaint chúnant cúnaint gcúnant
+84	4784	traipisí	dtraipisí
+85	4785	díle	díleann dílí ndíle
+86	4786	bráca	bhráca mbráca
+87	4787	iomrall	hiomraill hiomrall iomraill t-iomrall
+88	4788	imtharraingteach	imtharraingteacha
+89	4789	bearradh	bearrtha bhearradh mbearradh
+90	4790	meabhraigh	meabhraíonn meabhraítear meabhrú mheabhraigh mheabhraítear mheabhródh mheabhrú
+91	4791	dúthracht	dhúthracht dúthrachta ndúthracht
+92	4792	seanbhean	seanbhan seanmhná sheanbhean tseanbhean
+93	4793	ilchineálach	ilchineálacha ilchineálaigh ilchineálaí
+94	4794	fuílleach	bhfuílleach fhuílleach fuílligh
+95	4795	réasúnach	réasúnacha réasúnaigh
+96	4796	réasúnaíocht	réasúnaíochta
+97	4797	friotaigh	bhfriotóir fhriotóir fhriotóra friotóir friotóirí friotóra
+98	4798	deisitheoir	
+99	4799	fiseolaí	fiseolaithe
+100	4800	tuí	dtuí

@@ -1,0 +1,100 @@
+1	7701	giniúnach	ghiniúnach giniúnacha giniúnaí
+2	7702	leictridhiúltach	leictridhiúltacha leictridhiúltaí
+3	7703	mallaibh	
+4	7704	mang	mainge mhanga
+5	7705	rabhchán	rabhcháin
+6	7706	uath-imdhíonachta	
+7	7707	donnbhuí	
+8	7708	gí	
+9	7709	jin	
+10	7710	saonta	shaonta
+11	7711	fo-aicme	fho-aicme
+12	7712	fáilteachas	fáilteachais
+13	7713	aimeiriciam	t-aimeiriciam
+14	7714	aiséirigh	aiséirithe d'aiséirigh d'aiséiríodh
+15	7715	ardtréas	ardtréasa d’ardtréas
+16	7716	bruith	bhruith bruitear mbruitear
+17	7717	comhbhrúiteoir	chomhbhrúiteoir chomhbhrúiteora gcomhbhrúiteoir
+18	7718	duáilce	dhuáilcí duáilcí
+19	7719	diúnas	diúnais ndiúnas
+20	7720	hidríd	hidríde hidrídí
+21	7721	imdhíonadh	t-imdhíonadh
+22	7722	lomaistriúchán	lomaistriúcháin
+23	7723	neamhaistreach	neamhaistreacha neamhaistrigh
+24	7724	síocanailís	síocanailíse tsíocanailís
+25	7725	tiomántán	tiomántáin
+26	7726	vacsaínigh	vacsaíneofaí vacsaínithe
+27	7727	braonach	bhraonacha braonacha
+28	7728	iáva	
+29	7729	sip	ship
+30	7730	brocaire	bhrocaire bhrocairí brocairí
+31	7731	sraithchomórtas	shraithchomórtas tsraithchomórtais
+32	7732	dílleachtlann	dhílleachtlann dílleachtlainne dílleachtlanna ndílleachtlann ndílleachtlanna
+33	7733	dúghlas	dhúghlais dúghlaise dúghlasa
+34	7734	mionghné	mionghnéithe
+35	7735	rúisc	ruisc
+36	7736	cairpéad	cairpéid chairpéid gcairpéad
+37	7737	cruimh	chruimh cruimhe cruimheanna
+38	7738	daoránach	daoránaigh dhaoránaigh ndaoránach
+39	7739	fíonchaor	bhfíonchaor fhíonchaor fíonchaora
+40	7740	gairbhéal	gairbhéil ghairbhéal ghairbhéil ngairbhéal
+41	7741	eadra	eadradh eatramh heatraimh
+42	7742	oighreach	oighreacha
+43	7743	siopadóir	shiopadóir siopadóirí siopadóra tsiopadóra
+44	7744	soithíoch	shoithíoch soithíocha
+45	7745	síocanailísí	shíocanailísí
+46	7746	carón	charóin charón
+47	7747	labradar	
+48	7748	sítheach	shítheacha síthigh
+49	7749	alcán	alcáin
+50	7750	amlíne	
+51	7751	bunoscionn	
+52	7752	callaire	callairí challaire challairí gcallairí
+53	7753	críochnúil	chríochnúil críochnúla
+54	7754	dreige	dhreige dreigí ndreigí
+55	7755	graosta	ghraosta
+56	7756	leasríocht	leasríochta
+57	7757	micreafón	mhicreafón micreafóin
+58	7758	ruacan	ruacain
+59	7759	samairiam	shamairiam
+60	7760	scátáil	scátála
+61	7761	umhal	humhal umhail
+62	7762	faltanas	faltanais
+63	7763	géinitíopa	géinitíopaí
+64	7764	indibhidiúil	indibhidiúla
+65	7765	smearadh	smearaidh
+66	7766	conlán	chonláin chonlán gconlán
+67	7767	cumhachtroinnt	cumhachtroinnte
+68	7768	figh	bhfí d'fhigh fhitear fhíonn fitear fíodh
+69	7769	sraothartach	shraothartach
+70	7770	tríchorda	tríchordaí
+71	7771	teamplóir	dteamplóirí teamplóirí
+72	7772	foisceacht	bhfoisceacht
+73	7773	coscaire	coscairí
+74	7774	círéibeach	chíréibí círéibigh círéibí
+75	7775	cóitseáil	cóitseála
+76	7776	dúmhál	dhúmhál dúmháil dúmhála
+77	7777	fótagrafaíocht	bhfótagrafaíocht fótagrafaíochta
+78	7778	gearrthéarma	ghearrthéarma
+79	7779	scáin	scáinte scáintí
+80	7780	siombalaigh	shiombalaithe siombalaithe siombalaíonn siombalú
+81	7781	séiseach	shéiseach shéiseacha séiseacha
+82	7782	marla	mharla mharlaí
+83	7783	athlastach	athlastacha
+84	7784	ilteangachas	ilteangachais t-ilteangachas
+85	7785	mamó	mhamó
+86	7786	trasnáil	thrasnáil trasnála
+87	7787	aildéad	aildéid haildéid n-aildéad
+88	7788	aischothú	aischothaithe
+89	7789	comhcheol	chomhcheol gcomhcheol
+90	7790	eipistéimeolaíocht	eipistéimeolaíochta heipistéimeolaíochta
+91	7791	héiliciúil	héiliciúla
+92	7792	ingearán	ingearáin
+93	7793	iontaiseach	iontaiseacha
+94	7794	íol	n-íol íl
+95	7795	stampáil	stampáilte stampála
+96	7796	garchabhair	garchabhrach gharchabhrach
+97	7797	leadhb	leadhbairt
+98	7798	radaiteileascóp	radaiteileascóip
+99	7799	pantar	bpantar phantair
+100	7800	flaithiúlacht	bhflaithiúlacht fhlaithiúlacht flaithiúlachta

@@ -1,0 +1,100 @@
+1	4201	spéirling	speirling spéirlinge spéirlingí
+2	4202	tram	dtramanna thram thramanna tramanna
+3	4203	spidéal	spidéil
+4	4204	carbad	carbaid charbad charbaid gcarbad gcarbaid
+5	4205	braisle	bhraisle bhraislí braislí mbraisle mbraislí
+6	4206	cloigtheach	chloigtheach chloigthithe chloigthí cloigthithe cloigthí gcloigtheach
+7	4207	peitreal	bpeitreal peitril pheitreal pheitril
+8	4208	toghchánaíocht	thoghchánaíochta toghchánaíochta
+9	4209	idirghabhálach	d'idirghabhálaithe hidirghabhálaithe hidirghabhálaí idirghabhálacha idirghabhálaithe idirghabhálaí
+10	4210	cliant	chliaint chliant cliaint gcliaint gcliant
+11	4211	ainghníomh	ainghnímh ainghníomhartha d'ainghníomhartha hainghníomhartha n-ainghníomhartha t-ainghníomh
+12	4212	feillbheart	bhfeillbheart d'fheillbheart feillbhirt fheillbheart
+13	4213	séimhigh	shéimheofar shéimheoidh shéimhithe shéimhítear séimheofar séimheoidh séimhithe séimhíonn séimhítear tséimhithe
+14	4214	sail	saile saileanna sal salaigh shail tsail
+15	4215	cairib	chairib gcairib
+16	4216	cosaiv	chosaiv chosaive cosaive gcosaiv
+17	4217	scéalaí	
+18	4218	uaigneas	d'uaigneas huaigneas t-uaigneas uaignis
+19	4219	mire	mhire
+20	4220	easaontach	d'easaontaigh easaontacha easaontaigh easaontaithe easaontaí easaontaíonn easaontú n-easaontú
+21	4221	feasacht	feasachta fheasacht
+22	4222	canárach	canáraí chanárach chanáracha
+23	4223	dealg	dealga deilge dhealg dheilge
+24	4224	údarach	d'údaraigh údaraigh údaraithe údaraíodh údaraíonn údarú
+25	4225	caipitleachas	caipitleachais chaipitleachais chaipitleachas gcaipitleachas
+26	4226	creath	chreatha chreathadh chreathaidh crath creataí creatha creathadh creathann
+27	4227	sonas	shonas sonais tsonais
+28	4228	infheistigh	d'infheistigh infheistithe infheistiú infheistíodh infheistíonn
+29	4229	buanaigh	bhuanaigh bhuanú buanaíodh buanaítear buanú
+30	4230	stíobhard	stíobhaird
+31	4231	lao	laogh laonna
+32	4232	liag	liaga léige
+33	4233	smaointeoireacht	smaointeoireachta
+34	4234	seanmháthair	seanmháthar sheanmháthair tseanmháthair
+35	4235	maidhc	
+36	4236	dhea	
+37	4237	treoirlíne	dtreoirlínte threoirlínte treoirlínte
+38	4238	bacach	bacacha bacaigh bacaí bhacach bhacaigh bhacaí
+39	4239	criostalta	chriostalta
+40	4240	gailísis	gailísise ghailísis ngailísis
+41	4241	ornáideach	hornáideach ornáideacha
+42	4242	searbhónta	searbhóntaí shearbhónta shearbhóntaí
+43	4243	aicíd	aicíde aicídeacha aicídí haicíde haicídí
+44	4244	galrach	galracha galraí ghalrach ghalracha
+45	4245	neamhurchóideach	neamhurchóideacha
+46	4246	réamhaisnéis	réamhaisnéise réamhaisnéisí
+47	4247	inaistrithe	
+48	4248	gallúnach	gallúnacha gallúnaí ghallúnach ngallúnach
+49	4249	treoshuíomh	dtreoshuíomh threoshuíomh treoshuímh
+50	4250	mainicín	mainicíní mhainicín mhainicíní
+51	4251	liostáil	liostáilte liostáiltear liostála liostáladh liostálann
+52	4252	scairt	scairte scairteacha scairteadh scairteann scairtear scairtfidh scairtimid
+53	4253	coinneal	choinneal choinnle coinnle gcoinneal gcoinnle
+54	4254	íon	íne íona
+55	4255	páirtigh	bpáirtithe
+56	4256	suaitheadh	shuaitheadh
+57	4257	uilleach	uilleacha uilligh
+58	4258	meitibileacht	meitibileachta mheitibileacht mheitibileachta
+59	4259	spéisiúil	spéisiúla
+60	4260	eiseamal	eiseamail heiseamail
+61	4261	flannbhuí	bhflannbhuí fhlannbhuí
+62	4262	mona	mhona monaí
+63	4263	foghlach	bhfoghlaithe bhfoghlaí d'fhoghlaithe fhoghlaithe fhoghlaí foghlacha foghlaí
+64	4264	folláine	bhfolláine d’fholláine fholláine
+65	4265	compánach	chompánach chompánaigh compánaigh
+66	4266	spíce	spící
+67	4267	conclúid	chonclúid chonclúidí conclúidí gconclúid
+68	4268	comhuaineach	chomhuaineach chomhuaineacha chomhuainigh comhuaineacha
+69	4269	coibhéiseach	choibhéiseach choibhéiseacha coibhéiseacha
+70	4270	ardchaighdeáin	
+71	4271	tíorántacht	thíorántacht tíorántachta
+72	4272	maracó	mharacó
+73	4273	lorga	lorgain lorgan lorgaí lurga
+74	4274	cartún	cartúin chartúin chartún gcartúin gcartún
+75	4275	coillearnach	choillearnach choillearnacha choillearnaí coillearnacha coillearnaí gcoillearnach gcoillearnacha
+76	4276	státchiste	
+77	4277	caimiléireacht	caimiléireachta chaimiléireacht chaimiléireachta gcaimiléireacht
+78	4278	turtar	thurtair turtair
+79	4279	speal	spealadh spealaidh spealta speile
+80	4280	fuacht	bhfuacht fhuacht fhuachta fuachta
+81	4281	tarraingteach	tarraingteacha tharraingteach
+82	4282	alltar	alltair t-alltar
+83	4283	aspal	aspail haspail n-aspal naspal taspal
+84	4284	bantiarna	bhantiarna mbantiarna
+85	4285	coireacht	choireacht coireachta
+86	4286	urchomhaireach	hurchomhaireach urchomhaireacha
+87	4287	dídeanaí	dhídeanaithe dhídeanaí dídeanaithe ndídeanaithe ndídeanaí
+88	4288	lot	lotann
+89	4289	córasach	chórasach córasacha córasaí
+90	4290	dioplóma	dioplómaí
+91	4291	briosc	bhriosc bhriosca briosca brioscaí brisce mbrioscaí
+92	4292	léigiún	léigiúin
+93	4293	bruscar	bhruscair bhruscar bruscair brúscar mbruscar
+94	4294	éabhlóideach	éabhlóideacha éabhlóidigh éabhlóidithe éabhlóidiú éabhlóidí éabhlóidíonn
+95	4295	ailgéabar	ailgéabair d'ailgéabair hailgéabar t-ailgéabar
+96	4296	pailm	pailme pailmeacha phailm phailme
+97	4297	téacht	dtéachtadh théachtadh théachtann théachtaí téachta téachtadh téachtann téachtar
+98	4298	saorthrádáil	saorthrádála shaorthrádáil tsaorthrádáil
+99	4299	cuingrigh	chuingrigh chuingriú chuingríonn cuingrithe cuingriú cuingríonn cuingrítear gcuingriú gcuingríonn
+100	4300	slánú	shlánú

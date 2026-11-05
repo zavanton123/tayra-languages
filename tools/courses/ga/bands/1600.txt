@@ -1,0 +1,100 @@
+1	1501	naitsí	naitsithe
+2	1502	nádúr	nádúir
+3	1503	imirce	d'imirce d’imircí himirce himircí imircí n-imirce n-imircí
+4	1504	comhoibriú	
+5	1505	bliantúil	bhliantúil bhliantúla bliantúla mbliantúil
+6	1506	cónaidhm	chónaidhm chónaidhme chónaidhmeanna cónaidhme cónaidhmeanna gcónaidhm gcónaidhmeanna
+7	1507	dúlra	dhúlra ndúlra
+8	1508	tiomáin	comáin dtiomáineann thiomáin thiomáineadar thiomáineann thiomáintear tiomáineadh tiomáineann tiomáinte tiomáintear
+9	1509	tromlach	dtromlach thromlach thromlaigh tromlaigh
+10	1510	logainm	logainmneacha
+11	1511	caomhnú	chaomhnú gcaomhnuithe gcaomhnú
+12	1512	coim	choim chom coime com gcoim gcom
+13	1513	díon	dhíon dhíonadh dhíonta dín díneacha díonadh díonta ndíon ndíonta
+14	1514	scrúdú	scrúduithe
+15	1515	feidearálach	feidearálacha feidearálaigh feidearálaí fheidearálach fheidearálacha fheidearálaigh
+16	1516	polannach	bpolannach bpolannaigh pholannach pholannacha pholannaigh polannacha polannaigh polannaí
+17	1517	feabhas	bhfeabhas feabhais fheabhas
+18	1518	iarthuaisceart	d'iarthuaisceart d’iarthuaisceart hiarthuaisceart iarthuaiscirt n-iarthuaisceart
+19	1519	sos	shos shosanna sosa sosanna tsos tsosa
+20	1520	teachtaireacht	dteachtaireacht dteachtaireachtaí teachtaireachta teachtaireachtaí theachtaireacht theachtaireachtaí
+21	1521	cion	ceana chion chionta ciona cionta gceana gcion gcionta
+22	1522	bunaitheoir	bhunaitheoir bhunaitheoirí bhunaitheora bunaitheoirí bunaitheora mbunaitheoir mbunaitheoirí
+23	1523	ailtire	ailtirí b'ailtire d'ailtirí d’ailtirí hailtirí n-ailtirí t-ailtire
+24	1524	fón	bhfón fhóin fhón fóin fónta
+25	1525	pian	bpian bpéine phian phianta phéin phéine piana pianta péin péine pín
+26	1526	reachtaíocht	reachtaíochta
+27	1527	agóid	agóide agóidithe agóidí b'agóid d'agóidí d’agóid d’agóidí hagóid hagóide hagóidí n-agóid n-agóidí
+28	1528	ísle	b'ísle
+29	1529	bríd	bhríd bhríde brighid bríde
+30	1530	gasúr	gasúir gasúraí ghasúir ghasúr ngasúir ngasúr
+31	1531	poblachtach	bpoblachtach phoblachtach phoblachtacha phoblachtaigh phoblachtaí poblachtacha poblachtaigh poblachtaí
+32	1532	hidrigin	hidrigine
+33	1533	taispeáint	dtaispeáint taispeáintí teaspáint thaispeáint
+34	1534	ceal	cheal
+35	1535	tithíocht	dtithíocht thithíocht thithíochta tithíochta
+36	1536	uachtaránacht	d'uachtaránacht huachtaránacht huachtaránachta uachtaránachta
+37	1537	seanathair	seanaithreacha seanathar sheanathair sheanathar
+38	1538	inchinn	hinchinn hinchinne inchinne inchinní
+39	1539	arb	
+40	1540	géag	ghéag ghéaga géaga géige ngéag ngéaga
+41	1541	singil	shingil shingile singile singlí tsingil
+42	1542	stiúradh	stiúrtha
+43	1543	dúnmharú	dhúnmharuithe dhúnmharú dúnmharuithe ndúnmharuithe ndúnmharú
+44	1544	saolaigh	saolaithe saolaíodh saolaítear saolaítí saolófar saolófaí saolú shaolaigh shaolaítear shaolú
+45	1545	uncail	huncail m'uncail m’uncail n-uncail onncail t-uncail uncailí
+46	1546	siúil	shiúil shiúladar shiúladh shiúlann siubhail siúlaim siúlann siúlfadh
+47	1547	seanadóir	seanadóirí seanadóra sheanadóir sheanadóirí sheanadóra tseanadóir tseanadóra
+48	1548	caiseal	caisil chaiseal chaisil gcaiseal gcaisil
+49	1549	fealsamh	b'fhealsamh bhfealsamh bhfealsúna d'fhealsúna fealsaimh fealsúna fhealsaimh fhealsamh fhealsúna
+50	1550	peileadóir	bpeileadóir bpeileadóirí peileadóirí peileadóra pheileadóir pheileadóirí
+51	1551	riachtanach	riachtanacha riachtanaí
+52	1552	muinín	mhuinín muiníne
+53	1553	muileann	mhuileann mhuilinn mhuilte muilinn muilte
+54	1554	cumhachtach	chumhachtach chumhachtacha chumhachtaí cumhachtacha cumhachtaí
+55	1555	teoranta	theoranta
+56	1556	monarcha	mhonarcha mhonarchan mhonarchana monarchan monarchana
+57	1557	daonlathas	daonlathais dhaonlathas ndaonlathas
+58	1558	breathnú	bhreathnú mbreathnú
+59	1559	fisiciúil	fhisiciúil fhisiciúla fisiciúla
+60	1560	creach	chreach chreacha chreachadh chreachann chreachta chreiche creacha creachadh creachann creachta creachtaí creiche gcreach gcreacha gcreachadh
+61	1561	cobhsaí	chobhsaí
+62	1562	cóireáil	chóireáil chóireála chóireálacha cóireáilte cóireála cóireálacha gcóireáil gcóireálacha
+63	1563	guta	ghuta ghutaí ghúta gutaí gúta nguta ngutaí ngúta
+64	1564	íochtarach	íochtaracha íochtaraigh íochtaraí
+65	1565	daor	daoir daoire daora daoradh daorann daortar daortha dhaoire dhaor dhaora dhaoradh dhaortar dhaortha ndaor
+66	1566	físeán	bhfíseáin bhfíseán fhíseáin fhíseán físeáin
+67	1567	ginealach	ghinealach ghinealaigh ginealaigh nginealach nginealaigh
+68	1568	crom	chroim chrom chromadar chromadh chromann chromfaidh chromtha croime croma cromadh cromann cromtha gcrom gcromadh gcromfaidh gcromfaidís
+69	1569	comóir	chomóra chomóradh chomórtha comóradh comórann comórtar comórtha gcomóradh
+70	1570	damhna	damhnaí dhamhna dhamhnaí ndamhna ndamhnaí
+71	1571	cearnóg	cearnóga cearnóige chearnóg chearnóga gcearnóg gcearnóga gcearnóige
+72	1572	géill	ghéill ghéilleadar ghéilleann ghéillfeadh ghéillfear ghéillfidís ghéillte géilleann géillfidh géillte ngéille ngéilleann ngéillfeadh ngéillfidh ngéillfidís ngéillfí ngéilltear
+73	1573	onóir	honóir honóra honóracha n-onóir n-onóracha onóra onóracha onóraigh
+74	1574	cúlra	chúlra chúlraí cúlraí gcúlra
+75	1575	feirmeoir	b'fheirmeoir b'fheirmeoirí bhfeirmeoir bhfeirmeoirí d'fheirmeoirí d’fheirmeoir d’fheirmeoirí feilméaraí feirmeoirí feirmeora fheirmeoir fheirmeoirí fheirmeora
+76	1576	eitneach	eitneacha eitnigh
+77	1577	sainiúil	sainiúla shainiúil shainiúla
+78	1578	anailís	anailíse anailísí d'anailís hanailís hanailíse hanailísí n-anailís n-anailísí
+79	1579	réalteolaí	réalteolaithe
+80	1580	radaighníomhach	radaighníomhacha radaighníomhaigh radaighníomhaí
+81	1581	prionsa	bprionsa bprionsaí phrionsa phrionsaí prionsaí
+82	1582	seilg	seilge seilgeadh seilgeann sheilg sheilge sheilgeann tseilg
+83	1583	taithí	dtaithí thaithí
+84	1584	uíbh	d'uíbh huíbh nuíbh
+85	1585	fiach	bhfiach bhfiacha d'fhiach d’fhiacha fhiach fhiacha fhiachais fhiachas fhiaigh fhéich fiacha fiachaidh fiaigh féich
+86	1586	grinn	ghrinn ghrinne grinne
+87	1587	taca	dtaca dtacaí tacaí thaca thacaí
+88	1588	dáilcheantar	dháilcheantair dháilcheantar dáilcheantair ndáilcheantar
+89	1589	canáil	canála canálacha chanáil chanálacha gcanáil gcanálacha
+90	1590	bagairt	bagairtí bagartha bhagairt bhagairtí bhagartha mbagairt mbagairtí
+91	1591	goid	ghada ghoid ghoideadh ghoideann ghoidte ghoidtear goideadh goideann goidte goidtear guid ngoidfeadh
+92	1592	reiligiún	reiligiúin
+93	1593	colún	cholúin cholún colúin gcolúin gcolún
+94	1594	líonra	líonraí
+95	1595	lonnaíocht	lonnaíochta lonnaíochtaí
+96	1596	dealraigh	dealraíodh dealraíonn dealraítear dhealraigh dhealraíonn dhealródh dhealrófá dhealróidh ndealraíonn
+97	1597	éiligh	d'éileodh d'éiligh d'éilíodh d’éileodh d’éiligh héilíodh n-éileodh n-éileofaí n-éilíonn éileofar éileoidh éilithe éilí éilím éilímid éilíodh éilíonn éilís éilítear
+98	1598	dualgas	dhualgais dhualgas dualgais ndualgais ndualgas
+99	1599	teicneolaíocht	dteicneolaíocht dteicneolaíochtaí teicneolaíochtaí theicneolaíocht theicneolaíochtaí
+100	1600	comhshaol	chomhshaoil chomhshaol comhshaoil gcomhshaoil gcomhshaol

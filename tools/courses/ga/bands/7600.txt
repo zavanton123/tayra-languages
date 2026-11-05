@@ -1,0 +1,100 @@
+1	7501	luasaire	luasairí
+2	7502	sealaíocht	sealaíochta
+3	7503	síleáil	síleálacha tsíleáil
+4	7504	eirleach	d'eirleach eirligh t-eirleach
+5	7505	idéalachas	idéalachais t-idéalachas
+6	7506	ceastóireacht	ceastóireachta cheastóireacht gceastóireacht
+7	7507	treáigh	dtreánn threáfadh threánn treádh treáite treánn
+8	7508	dórach	dhórach dóraigh dóraí
+9	7509	aile	haile
+10	7510	astaitín	d'astaitín
+11	7511	boghdóir	bhoghdóirí boghdóirí mboghdóir
+12	7512	glanmheabhair	ghlanmheabhair
+13	7513	guaiseach	ghuaiseacha guaiseacha
+14	7514	mam	mham
+15	7515	múchadh	
+16	7516	nára	
+17	7517	radharcach	radharcaí
+18	7518	seilf	seilfeanna tseilf
+19	7519	soineanta	shoineanta
+20	7520	sairdínis	shairdínis tsairdínis
+21	7521	tantalam	tantalaim
+22	7522	tinreamh	tinrimh
+23	7523	treallach	treallacha
+24	7524	ceithearn	ceithirn cheithearn
+25	7525	luibhghairdín	luibhghairdíní
+26	7526	tóracs	
+27	7527	comharthaigh	chomharthaigh chomharthaíonn chomharthaítear chomharthú comharthaíonn comharthaítear
+28	7528	bambú	bhambú
+29	7529	clón	chlóin chlón clóin
+30	7530	dearcán	dearcáin
+31	7531	dópáil	dhópáil dhópáiltear dópála ndópáil
+32	7532	fóiréinseach	fhóiréinseach fóiréinseacha
+33	7533	foghal	fhoghlacha foghail foghla
+34	7534	fístéip	fhístéip fístéipe fístéipeanna
+35	7535	míthaitneamhach	mhíthaitneamhach míthaitneamhacha
+36	7536	tóracsach	thóracsach thóracsacha thóracsaigh tóracsacha
+37	7537	ránaí	ránaithe
+38	7538	sáible	
+39	7539	deighleán	deighleáin ndeighleáin
+40	7540	eisileadh	t-eisileadh
+41	7541	greannach	ghreannach
+42	7542	mama	maimín mamaí mhamaí
+43	7543	stoidiaca	
+44	7544	luamh	luaimh
+45	7545	oidhe	oidheadh
+46	7546	stailceoir	stailceoirí
+47	7547	bachall	bachaille bachalla bhachall
+48	7548	carraigín	charraigín
+49	7549	ceinteár	ceinteáir cheinteáir cheinteár gceinteár
+50	7550	fochéim	fhochéime fochéime fochéimeanna
+51	7551	lomnocht	lomnochta
+52	7552	slis	shlis slise sliseanna tslis
+53	7553	tancaer	tancaeir thancaeir thancaer
+54	7554	anaclann	
+55	7555	comhaltacht	chomhaltacht comhaltachta
+56	7556	fuiseog	fhuiseog fuiseoige
+57	7557	dí-armáil	dhí-armáil dí-armála
+58	7558	fothain	fathain fhothain fothana
+59	7559	leathdheartháir	leathdheartháireacha
+60	7560	masmas	
+61	7561	plúchadh	phlúchadh
+62	7562	sollúnta	shollúnta
+63	7563	uathoibriú	uathoibrithe
+64	7564	oigheann	hoigheann oighinn
+65	7565	coiléar	choiléar coiléir
+66	7566	cogúil	chogúil cogúla
+67	7567	siollabas	shiollabas siollabais
+68	7568	sás	sásanna
+69	7569	toghairm	thoghairm
+70	7570	fardal	bhfardal fardail fhardal
+71	7571	idirmhalartaigh	hidirmhalartaithe hidirmhalartú idirmhalartaithe idirmhalartú
+72	7572	seantalamh	seantailte
+73	7573	sliotán	shliotáin sliotáin
+74	7574	easair	easrach
+75	7575	coisctheach	choisctheach coisctheacha
+76	7576	dearóil	dearóile dhearóil
+77	7577	náiriú	
+78	7578	príomhshrutha	
+79	7579	suaithinseach	suaithinseacha
+80	7580	saobh	saobhadh shaobh
+81	7581	aibítreach	aibítreacha haibítreach
+82	7582	bainisteoireacht	bainisteoireachta bhainisteoireacht bhainisteoireachta
+83	7583	braiteog	bhraiteog bhraiteoga braiteoga
+84	7584	brataigh	brataithe bratú mbrataigh
+85	7585	inneach	d'inneach innigh t-inneach
+86	7586	déshúileach	dhéshúiligh déshúiligh
+87	7587	faireachán	faireacháin fhaireachán
+88	7588	galtán	galtáin ghaltáin ghaltán ngaltán
+89	7589	leiceann	leicinn
+90	7590	muscaed	mhuscaed mhuscaeid muscaeid
+91	7591	poileistear	phoileistear poileistir
+92	7592	sothuigthe	shothuigthe
+93	7593	súnás	shúnás
+94	7594	spideog	spideoga spideoige
+95	7595	tairbheach	thairbheach thairbheacha
+96	7596	spochadh	spochta
+97	7597	plódú	phlódaithe phlódú
+98	7598	mionchion	
+99	7599	rífeáil	rífeála
+100	7600	aonraic	haonraic

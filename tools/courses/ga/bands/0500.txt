@@ -1,0 +1,100 @@
+1	401	gnó	ghnó gnótha gnóthaí graithe ngnó
+2	402	cúpla	chúpla chúplaí cupla cúplaí gcúpla
+3	403	idirnáisiúnta	hidirnáisiúnta
+4	404	alt	ailt allt alta altair altann altanna altar altas altaí d'ailt d'alt d’ailt d’alt hailt halt haltanna n-ailt n-alt n-altanna nalt t-alt áilte
+5	405	beo	beó bheo bhreo breo mbeo
+6	406	gorm	ghoirm ghorm ghorma goirme gorma ngorm
+7	407	gluaiseacht	ghluaiseacht ghluaiseachta ghluaiseachtaí gluaiseachta gluaiseachtaí ngluaiseacht ngluaiseachtaí
+8	408	míle	mhíle mhílte mílte
+9	409	buail	bhuail bhuaileadar bhuaileadh bhuaileamar bhuaileann bhuaileas bhuailfeadh bhuailfeá bhuailfidh bhuailidís bhuailtí buaileadh buaileann buailfidh buailimid buailtear buailtí mbuaileadh mbuaileann mbuailfeadh mbuailfear mbuailfidh mbuailfí mbuailimid
+10	410	poblacht	bpoblacht bpoblachta bpoblachtaí phoblacht phoblachta poblachta
+11	411	teideal	dteideal dteidil teidil theideal theidil
+12	412	polaitiúil	pholaitiúil pholaitiúla polaitiúla
+13	413	aire	aireach airigh airí airíonna b'aire d'aire d'airí d'airíonna d’aire d’airí d’airíonna haire hairí hairíonna m'aire m’aire n-aire n-airí n-airíonna t-aire t-airí taire
+14	414	siar	
+15	415	oibrigh	d'oibreodh d'oibrigh d'oibrithe d'oibriú d'oibrídís d'oibríodh d’oibrigh d’oibrithe d’oibriú d’oibrídís d’oibríodh hoibriú n-oibreodh n-oibreoidh n-oibrigh n-oibrithe n-oibriú n-oibríonn n-oibrítí oibreodh oibreoidh oibreoir oibreoirí oibrithe oibriú oibríodh oibríonn oibrítear t-oibriú
+16	416	domhanda	dhomhanda
+17	417	seirbhís	seirbhíse seirbhísí sheirbhís sheirbhíse sheirbhísí tseirbhís
+18	418	dáiríre	dháiríre dáiríribh ndáiríre
+19	419	leathanach	lch leathanaigh
+20	420	críochnaigh	chríochnaigh chríochnaithe chríochnaíodh chríochnaíonn chríochnódh chríochnófar chríochnófaí chríochnóidh chríochnú críochnaithe críochnaíodh críochnaíonn críochnaítear críochnófar críochnóidh críochnú gcríochnaíodh gcríochnaíonn gcríochnaítear gcríochnódh gcríochnófar gcríochnófaí gcríochnóidh
+21	421	tionchar	dtionchair dtionchar thionchair thionchar tionchair
+22	422	teaghlach	dteaghlach dteaghlaigh teaghlaigh theaghlach theaghlaigh
+23	423	nasc	naisc nasca nascadar nascadh nascann nascfadh nascfaidh nascfaí nasctar nasctha
+24	424	iasc	d'iasc d'iascaigh d’iasc hiasc hiascach hiascaigh héisc iascach iascaigh iascaí n-iasc t-iasc éisc
+25	425	urlár	d'urlár hurláir hurlár m’urlár n-urlár t-urlár urláir
+26	426	gá	ghá ngá
+27	427	thart	
+28	428	cúirt	chúirt chúirte chúirteanna cúirte cúirteanna gcúirt gcúirteanna
+29	429	deirfiúr	deirfiúracha deirféar dheirfiúr dheirfiúracha dheirféar ndeirfiúr ndeirfiúracha
+30	430	gurb	
+31	431	arán	aráin d'arán harán n-arán t-arán
+32	432	bóthar	bhóithre bhóthair bhóthar bóithre bóithrí bóthair mbóithre mbóthar
+33	433	cheana	
+34	434	creid	chreid chreideadar chreideadh chreideann chreidfeadh chreidfeá chreidfidh chreidfinn chreidtear chreidtí creideadh creideann creidim creidimid creidtear creidtí gcreideann gcreidfeadh gcreidfeá gcreidfidís gcreidtear gcreidtí
+35	435	leithéid	leithéide leithéidí
+36	436	coitianta	choitianta coitcheannta coiteanta gcoitianta
+37	437	bris	bhris bhriseadar bhriseadh bhriseamar bhriseann bhrisfeadh bhrisfear bhrisfí bhrisinn bhristí brise briseann brisfimid brisid brisim brisimid bristear bristí mbris mbrise mbriseann mbrisfeadh mbrisfidh mbrisfidís mbrisfí
+38	438	fiú	b'fhiú bhfiú b’fhiú fhiú
+39	439	cúige	chúige chúigí cúigí gcúige gcúigí
+40	440	milliún	mhilliúin mhilliún milliúin
+41	441	fiche	bhfichid bhfichidí d'fhiche d’fhiche fhiche fhichead fhichid fhichidí fichead fichid fichidí
+42	442	glacadh	ghlacadh glactha
+43	443	bronn	bhronn bhronnadar bhronnadh bhronnann bhronnfadh bhronnfaí bhronnta bhronntar bhronntaí bronnadh bronnann bronnfar bronnta bronntar mbronnadh mbronnfadh mbronnfaidh mbronnfar mbronnfaí mbronntar
+44	444	réidh	réidhe
+45	445	tit	dtiteann dtitear dtitfeadh dtitfidh dtitfidís dtitinn thit thiteadar thiteadh thiteann thitfeadh thitfidh thuit tite titeadh titeann titfidh titigí titinn tuite
+46	446	tuilleadh	thuilleadh tilleadh
+47	447	cócaireacht	chócaireacht chócaireachta cócaireachta gcócaireacht
+48	448	caitheamh	caithimh chaitheamh chaithimh gcaitheamh
+49	449	insint	hinsint hinsinte inseacht insinte insintí n-insint
+50	450	deireanach	deireanacha deireanaigh deireanaí deireannach dheireanach dheireanacha dheireanaigh dheireanaí
+51	451	ceannach	cheannach cheannaithe gceannach
+52	452	toghadh	dtoghadh thofa thoghadh tofa
+53	453	foirm	bhfoirm bhfoirmeacha d'fhoirm d'fhoirmeacha d’fhoirmeacha fhoirm fhoirmeacha foirme foirmeacha
+54	454	aimsir	aimsire aimsirí d'aimsir d'aimsirí haimsir haimsire haimsirí n-aimsirí
+55	455	naoi	
+56	456	más	mháis mhása má's máis mása
+57	457	eagraíocht	d'eagraíocht d'eagraíochtaí d’eagraíocht d’eagraíochtaí eagraíochta eagraíochtaí heagraíocht heagraíochta heagraíochtaí n-eagraíocht n-eagraíochtaí
+58	458	líon	laín laíon lín líonadh líonaigí líonann líonfadh líonfaidh líonfar líonta líontar líontaí
+59	459	duais	dhuais dhuaiseanna duaise duaiseanna nduais nduaiseanna
+60	460	ocht	d'ocht d’ocht hocht n-ocht
+61	461	caisleán	caisleáin chaisleáin chaisleán gcaisleáin gcaisleán
+62	462	litríocht	litríochta litríochtaí
+63	463	tuairim	dtuairim dtuairimí thuairim thuairimí tuairime tuairimí
+64	464	oideachas	d'oideachas d’oideachais d’oideachas hoideachas n-oideachais oideachais t-oideachas
+65	465	foinse	bhfoinse bhfoinsí d'fhoinse d'fhoinsí fhoinse fhoinsí foinsí
+66	466	um	mun uime uimpi umpu
+67	467	sráid	shráid shráide shráideanna sráide sráideanna tsráid
+68	468	brí	bhrí bhríonna bríonna mbrí mbríonna
+69	469	seachtain	seachtaine seachtainí sheachtain sheachtaine sheachtainí tseachtain
+70	470	grian	ghrian ghréine griain gréin gréine ngrian ngréin ngréine
+71	471	parlaimint	bparlaimint bparlaimintí parlaiminte parlaimintí pharlaimint pharlaiminte pharlaimintí
+72	472	éan	d'éan d'éin d’éan d’éin euna héin n-éan n-éin t-éan éanacha éin
+73	473	istigh	astoigh stig
+74	474	comhlacht	chomhlacht chomhlachta chomhlachtaí comhlachta comhlachtaí gcomhlacht gcomhlachta gcomhlachtaí
+75	475	bonn	bhoinn bhonn boinn mboinn mbonn
+76	476	leath	leata leatar leatha leathad leathadar leathadh leathainn leathann leathfaidh leathfar leithe
+77	477	aithin	aithint aithinte aithneodh aithneofar aithneofá aithneoidh aithniú aithním aithníodh aithníonn aithnítear aithnítí d'aithin d'aithneodh d'aithneofaí d'aithneofá d'aithníodh d'aithnítí d’aithin d’aithneodh haithint haithníodh haithnítear n-aithint n-aithneodh n-aithneofar n-aithneofaí n-aithneofá n-aithneoidh n-aithneoidís n-aithníodh n-aithníonn
+78	478	teorainn	dteorainn dteorainneacha dteorann teora teorainneacha teorann teoranna theorainn theorainneacha theorann
+79	479	poiblí	phoiblí
+80	480	aice	aicí haice n-aice
+81	481	gabh	gabhadar gabhadh gabhaid gabhaigí gabhaim gabhann gabhfaidh gabhtar gabhtha gafa gaibhte ghabh ghabhadar ghabhadh ghabhann ghabhas ghabhfadh ghabhfaidís ghabhtar ghabhtaí ghafa ghaibh ngabhann ngabhfadh ngabhfaidh ngabhfaidís ngabhfar ngabhfaí ngabhtar
+82	482	glas	ghlais ghlaise ghlas ghlasa ghlasair glais glaise glasa glasaigh glasta nglais nglas
+83	483	suí	shuidhe shuí suidhe tsuí
+84	484	fírinne	bhfírinne fhírinne fhírinní fírinní
+85	485	rua	ruadh ruaidhe
+86	486	son	shon
+87	487	sín	shín shíneann shínfeadh shínis shínte shíntear shíntí síne síneacha síneann sínfeadh sínfidh sínte síntear síntí tsín
+88	488	breis	bhreis bhreise breise breiseanna mbreis
+89	489	imirt	d'imirt himeartha himirt imeartha n-imirt
+90	490	iris	d'iris d'irisí d’irisí hiris hirise hirisí irise irisí n-iris n-irisí
+91	491	fine	bhfine bhfinte d'fhine d'fhinte d’fhine fhine fhinte finte
+92	492	comhair	chomhair chomhaire chomhairfí chomhairtear comhaireadh comhairthe gcomhair
+93	493	amhránaí	amhránaithe b'amhránaithe b'amhránaí b’amhránaí d'amhránaithe d'amhránaí d’amhránaithe d’amhránaí hamhránaithe hamhránaí n-amhránaithe t-amhránaí
+94	494	taighde	dtaighde thaighde
+95	495	coinneáil	choinneáil choinneála coinneála gcoinneáil
+96	496	stáisiún	stáisiúin
+97	497	síl	shíl shíleadar shíleadh shíleann shílfeá shíltear shíltí síle síleadh síleann sílfeadh sílfeá sílim sílimid síltear síltí
+98	498	céard	
+99	499	cultúr	chultúir chultúr cultúir gcultúir gcultúr
+100	500	comórtas	chomórtais chomórtas comortas comórtais gcomórtais gcomórtas

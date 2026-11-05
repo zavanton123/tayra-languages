@@ -1,0 +1,100 @@
+1	8401	cónascach	chónascach chónascacha chónascaigh cónascacha
+2	8402	cóimeáil	chóimeáil cóimeáilte cóimeála
+3	8403	trúbadóir	dtrúbadóirí thrúbadóirí trúbadóirí
+4	8404	mistiúil	mhistiúla mistiúla
+5	8405	piliúr	philiúir piliúir
+6	8406	sócúlach	shócúlach sócúlacha
+7	8407	fógrán	d'fhógráin fógráin
+8	8408	canúnach	canúnacha canúnaí chanúnach chanúnacha
+9	8409	poitín	phoitín
+10	8410	vótóir	vótóirí
+11	8411	cánachas	chánachas cánachais gcánachas
+12	8412	vacsaíniú	
+13	8413	fabhcún	bhfabhcún fabhcúin fhabhcún
+14	8414	sufraigéid	sufraigéidí
+15	8415	gliomach	ghliomaigh giomach gliomaigh
+16	8416	samplach	samplacha shamplach shamplacha
+17	8417	marmar	marmair mharmair mharmar
+18	8418	lamháltas	lamháltais
+19	8419	néarach	néaracha
+20	8420	mí-iompar	mhí-iompar mí-iompair
+21	8421	ardchros	ardchrosa
+22	8422	débhliantúil	dhébhliantúil débhliantúla
+23	8423	toirneach	dtoirneach toirneacha toirní tóirneach
+24	8424	cíobhaí	chíobhaí cíbhí gcíobhaí
+25	8425	baisteach	baistigh bhaisteach mbaisteach
+26	8426	doláimhsithe	dholáimhsithe
+27	8427	leasaitheach	leasaitheacha leasaithigh
+28	8428	lobhar	
+29	8429	maicín	mhaicín
+30	8430	anaeróbach	anaeróbacha
+31	8431	caoláire	
+32	8432	cruthanta	chruthanta
+33	8433	adharcán	adharcáin hadharcáin hadharcán
+34	8434	lipéadaigh	lipéadaithe lipéadaí lipéadaítear lipéadú
+35	8435	neamhchlaonta	
+36	8436	nochtach	nochtaigh
+37	8437	píotsa	bpíotsa phíotsa
+38	8438	scótar	scótair
+39	8439	surfáil	surfála
+40	8440	teiripeoir	teiripeoirí theiripeoir
+41	8441	urghnách	urghnácha
+42	8442	beithil	beithile bheithil mbeithil
+43	8443	muintearas	mhuintearais mhuintearas muintearais
+44	8444	caislín	caislíní
+45	8445	clóscríobh	chlóscríobh clóscríobhann clóscríofa
+46	8446	coirpín	choirpín coirpíní gcoirpíní
+47	8447	drúchtín	drúchtíní ndrúchtíní
+48	8448	beinin	bheinin mbeinin
+49	8449	moirtéal	mhoirtéal mhoirtéil moirtéil
+50	8450	reicteam	reictim
+51	8451	saighdiúireacht	saighdiúireachta tsaighdiúireacht
+52	8452	tréadach	thréadach tréadacha
+53	8453	tábhairneoir	thábhairneoir tábhairneora
+54	8454	féinsmacht	fhéinsmachta féinsmachta
+55	8455	aclaigh	aclú
+56	8456	aisíocaíocht	aisíocaíochta
+57	8457	ardchéimiúil	ardchéimiúla
+58	8458	bandach	bhandach
+59	8459	dathmhaisigh	dathmhaisithe
+60	8460	dearscnaitheach	dhearscnaitheach
+61	8461	foréignigh	fhoréigní foréigní
+62	8462	gontacht	ghontacht
+63	8463	iarchoilíneach	
+64	8464	inbhainte	
+65	8465	indeagó	
+66	8466	leathantas	
+67	8467	meabhraíocht	mheabhraíocht
+68	8468	mionstaidéar	
+69	8469	neamhchónaitheach	neamhchónaitheacha
+70	8470	nihilí	nihilithe
+71	8471	oileáinín	
+72	8472	oilghníomh	
+73	8473	ointeolaíocht	
+74	8474	ordaitheach	
+75	8475	saorbhriathar	
+76	8476	scigiúil	scigiúla
+77	8477	scothdhubh	
+78	8478	sochorraithe	
+79	8479	spadhar	spadhartha
+80	8480	spionáiste	
+81	8481	tóras	
+82	8482	gaelsaoire	
+83	8483	páistiúil	
+84	8484	riaráiste	
+85	8485	labradór	labradóir
+86	8486	peasair	bpeasaire peasaire pheasair
+87	8487	pollán	bpollán
+88	8488	batailit	batailití
+89	8489	cruinneán	chruinneagán cruinneagán
+90	8490	cistigh	cistithe cistiú
+91	8491	doimhnigh	dhoimhnigh dhoimhniú doimhniú
+92	8492	forchlóigh	forchlódh forchlóite
+93	8493	olagarcacht	holagarcachta
+94	8494	imdhíon	imdhíonta imdhíontar
+95	8495	gealtlann	ngealtlann ngealtlanna
+96	8496	prognóis	phrognóis
+97	8497	réadaigh	réadaíonn réadófar réadú
+98	8498	saoltacht	saoltachta tsaoltacht
+99	8499	sprochaille	sprochaillí
+100	8500	stánaigh	stánaithe stánú

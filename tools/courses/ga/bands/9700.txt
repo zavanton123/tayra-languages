@@ -1,0 +1,100 @@
+1	9601	geir	geire geireacha gheire
+2	9602	géarghá	
+3	9603	ainéime	
+4	9604	fadraon	fadraoin
+5	9605	r-phost	r-phoist
+6	9606	faoinar	conditional
+7	9607	maindilín	maindilíní
+8	9608	idirthaoideach	idirthaoideacha
+9	9609	atreoraigh	atreoraithe atreoruithe atreorú
+10	9610	cruitire	chruitire gcruitirí
+11	9611	iomrascáil	iomrascála
+12	9612	fuirseoireacht	fhuirseoireachta fuirseoireachta
+13	9613	décharbónáit	dhécharbónáit décharbónáite
+14	9614	piongain	bpiongainí phiongain piongainí
+15	9615	amfaibiach	amfaibiaigh hamfaibiaigh
+16	9616	cilldeighilt	chilldeighilt cilldeighilte gcilldeighilt
+17	9617	seagal	seagail tseagail
+18	9618	íosta	b’íosta
+19	9619	sultán	tsultáin
+20	9620	tochas	thochas tochais
+21	9621	cnagaire	chnagaire cnagairí
+22	9622	cairp	chairp
+23	9623	gráinneog	ghráinneog gráinneoga
+24	9624	glantóir	ghlantóir glantóirí nglantóirí
+25	9625	laidinis	laidinise
+26	9626	peileacán	bpeileacán peileacáin
+27	9627	príomhdhath	phríomhdhath príomhdhathanna
+28	9628	stail	staileanna
+29	9629	féinchinntiúchán	bhféinchinntiúchán fhéinchinntiúchán féinchinntiúcháin
+30	9630	brach	bhracha bhrachadh bracha
+31	9631	burla	burlaí mburlaí
+32	9632	báicéir	báicéara báicéirí
+33	9633	córlann	chórlann córlainne
+34	9634	coillteach	choillteacha coillteacha
+35	9635	creathach	chreathach chreathaigh
+36	9636	dréachtóir	dhréachtóir dréachtóirí ndréachtóirí
+37	9637	drochrud	dhrochrudaí drochrudaí
+38	9638	déimeagrafaíocht	dhéimeagrafaíocht déimeagrafaíochta
+39	9639	earcach	n-earcach
+40	9640	earr	n-earr
+41	9641	fabhra	b'fhabhraí fabhraí
+42	9642	feileastram	feileastraim
+43	9643	fíneog	fhíneog fíneoga
+44	9644	gunail	ghunail gunaile gunailí ngunail
+45	9645	úfó	húfónna n-úfónna úfónna
+46	9646	indiam	t-indiam
+47	9647	mícéiliam	mícéiliamaí
+48	9648	sailpítear	sailpítir
+49	9649	sainiúlacht	sainiúlachta tsainiúlacht
+50	9650	soilsigh	shoilsigh shoilsítear soilsíodh soilsíonn
+51	9651	eisilteach	d'eisilteach eisiltigh t-eisilteach
+52	9652	tacair	dtacair tacartha thacair
+53	9653	teirmidinimiciúil	teirmidinimiciúla theirmidinimiciúil
+54	9654	tríchosach	tríchosacha tríchosaigh
+55	9655	seanaimsir	seanaimsire tseanaimsir
+56	9656	téamach	théamach théamacha téamacha
+57	9657	éinstéiniam	t-éinstéiniam
+58	9658	ailiúit	
+59	9659	aragóinis	
+60	9660	astúiris	
+61	9661	luimníoch	
+62	9662	macht	
+63	9663	méicéineach	
+64	9664	praghsáil	phraghsála praghsála
+65	9665	págánta	phágánta
+66	9666	achtúire	achtúirí
+67	9667	aife	aithe
+68	9668	aimsitheoir	t-aimsitheoir
+69	9669	amchrios	amchriosanna t-amchrios
+70	9670	anasach	anasacha
+71	9671	araltas	araltais
+72	9672	atheagar	
+73	9673	fóirsteanach	b'fhóirsteanaí
+74	9674	banoidhre	bhanoidhre
+75	9675	buair	bhuair bhuairfeadh
+76	9676	blaincéad	blaincéid mblaincéad
+77	9677	cailcreach	cailcreacha
+78	9678	coigilteach	choigilteach coigiltí
+79	9679	críochphointe	
+80	9680	dearcach	dearcaí dhearcaí
+81	9681	dialachtaic	dhialachtaic dialachtaice
+82	9682	dingchruthach	dhingchruthach dingchruthacha
+83	9683	dragún	dhragún dragúin
+84	9684	dáileoir	dáileoirí
+85	9685	feoilséantóir	feoilséantóirí
+86	9686	for-rochtain	for-rochtana
+87	9687	féimheach	fhéimheach
+88	9688	gairleog	gairleoige
+89	9689	glasóg	ghlasóg glasóga
+90	9690	gleasnast	
+91	9691	éigríoch	héigríche héigríoch
+92	9692	idir-ilchríochach	idir-ilchríochacha
+93	9693	idé-eolaí	hidé-eolaithe hidé-eolaí idé-eolaithe
+94	9694	ilghnéitheacht	
+95	9695	ionduchtach	hionduchtach
+96	9696	leite	leitean
+97	9697	leochaileacht	leochaileachta
+98	9698	logainmníocht	logainmníochta
+99	9699	lámhdhéanamh	lámhdhéanta
+100	9700	lántosaí	

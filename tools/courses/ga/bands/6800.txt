@@ -1,0 +1,100 @@
+1	6701	bósón	bhósóin bhósón bósóin mbósón
+2	6702	ceárta	ceártan ceártaí cheárta gceárta gceártaí
+3	6703	dreapadóir	dhreapadóirí dreapadóirí dreapaire dreapairí
+4	6704	fo-ord	bhfo-ord fho-oird fho-ord
+5	6705	ardcheannasaí	t-ardcheannasaí
+6	6706	caiséad	caiséid chaiséad chaiséid gcaiséad
+7	6707	trastíre	
+8	6708	gobán	ghobáin ghobán gobáin
+9	6709	pailniú	pailnithe phailniú
+10	6710	d'fhiacha	d'fhiachaibh
+11	6711	leasdeartháir	leasdearthár
+12	6712	maothánach	maothánacha
+13	6713	simléar	shimléar shimléir simléir
+14	6714	smugairle	smugairlí
+15	6715	aontachas	aontachais
+16	6716	dreapadóireacht	dhreapadóireacht dreapadóireachta
+17	6717	siorcóiniam	tsiorcóiniam
+18	6718	spásúil	spásúla
+19	6719	suirí	suirghe
+20	6720	teirmidinimic	theirmidinimic
+21	6721	beirbeireach	beirbeireacha beirbeirigh bheirbeirigh mbeirbeireach
+22	6722	galldaigh	galldaithe galldaíodh galldú ghalldaithe ghalldú
+23	6723	brostaigh	bhrostaigh bhrostaithe bhrostú brostaíonn brostú
+24	6724	coirbéal	coirbéaladh coirbéalta coirbéil
+25	6725	eisfhear	eisfhearadh eisfhearann eisfheartar eisfheartha heisfhearadh
+26	6726	frigéad	bhfrigéad fhrigéad fhrigéid frigéid
+27	6727	graifít	ghraifít graifíte ngraifít
+28	6728	mí-ámharach	mhí-ámharach mhí-ámharaí mí-ámharacha
+29	6729	slisne	shlisne shlisní slisní tslisne
+30	6730	deilbh	deilbhe deilbheacha dheilbh dheilbheacha ndeilbh
+31	6731	beathach	beitheach beithigh bheathach
+32	6732	gasra	gasraí ghasra
+33	6733	mórtheanga	mhórtheanga mhórtheangacha mórtheangacha
+34	6734	pinc	phinc
+35	6735	seun	sein
+36	6736	críonnacht	chríonnacht
+37	6737	eacnamúil	eacnamúla
+38	6738	millín	mhillíní millíní
+39	6739	speictreascópach	speictreascópacha
+40	6740	taitneamhacht	taitneamhachta taitneamhachtaí thaitneamhachtaí
+41	6741	ribíneach	ribíneacha
+42	6742	fige	fhige figí
+43	6743	spreagthóir	spreagthóirí spreagthóra
+44	6744	cúitigh	chúiteofaí chúitigh chúitíonn cúitithe cúitíodh
+45	6745	príomhdhuais	phríomhdhuais príomhdhuaiseanna
+46	6746	péacán	phéacáin phéacán péacáin
+47	6747	dólás	dóláis ndólás
+48	6748	gealacán	gealacáin ghealacáin
+49	6749	cruthaíocht	chruthaíocht chruthaíochta cruthaíochta gcruthaíocht
+50	6750	díochlaon	dhíochlaonta dhíochlaontar díochlaonta díochlaontar
+51	6751	deachúil	deachúla deachúlacha dheachúil
+52	6752	héileacaptar	héileacaptair
+53	6753	baisleac	baisleaca baislice bhaisleac mbaisleac
+54	6754	coilíneachas	choilíneachais choilíneachas coilíneachais gcoilíneachas
+55	6755	criól	chriól crióil gcriól
+56	6756	plás	bplás phlás
+57	6757	cliceáil	chliceáil chliceáiltear chliceálann
+58	6758	dénártha	dhénártha
+59	6759	leathuair	leath-uair leathuaire
+60	6760	pic	phic pice
+61	6761	cianoirthear	chianoirthear chianoirthir gcianoirthear
+62	6762	ruanaidh	ruanadha
+63	6763	aimín	aimíní haimíní
+64	6764	athstruchtúraigh	athstruchtúraithe athstruchtúraíodh athstruchtúrú hathstruchtúrú
+65	6765	loiscneach	loiscneacha
+66	6766	núicléón	núicléóin
+67	6767	ród	róid
+68	6768	uasalaicme	
+69	6769	dobhrán	dhobhráin dobhráin
+70	6770	seanda	sheanda
+71	6771	frioch	bhfriochadh fhriochadh fhriochta fhriochtar friochadh friochta friochtar
+72	6772	callán	calláin challáin challán
+73	6773	laitéis	laitéise
+74	6774	milseán	milseáin
+75	6775	seanársa	sheanársa
+76	6776	spásteileascóp	spásteileascóip
+77	6777	easóg	easóga heasóga
+78	6778	marthanóir	marthanóirí mharthanóir mharthanóirí
+79	6779	meiningíteas	meiningítis mheiningíteas mheiningítis
+80	6780	piollaire	bpiollaire bpiollairí phiollaire phiollairí piollairí
+81	6781	iarchéimí	iarchéimithe
+82	6782	leathshúil	leathshúile
+83	6783	greidimín	greidimíní
+84	6784	srathaigh	srathaithe srathú
+85	6785	téirimeach	
+86	6786	uchtbhalla	
+87	6787	frainciseoir	bhfrainciseoirí fhrainciseoirí frainciseoirí
+88	6788	gléib	ghléib gléibe
+89	6789	callánach	callánacha callánaí challánach
+90	6790	ceard	cheard gceard
+91	6791	fíorasc	bhfíorasc fhíorasc
+92	6792	míréasúnta	mhíréasúnta
+93	6793	plódaithe	phlódaithe
+94	6794	lastas	lastais
+95	6795	bainistigh	bainistithe bainistíonn bhainistigh bhainistíonn
+96	6796	cumha	chumha gcumha
+97	6797	ollnóva	hollnóva hollnóvaí n-ollnóvaí ollnóvaí t-ollnóva
+98	6798	seanaois	seanaoise seanaoiseanna sheanaois tseanaois
+99	6799	carbaihiodráit	carbaihiodráite carbaihiodráití charbaihiodráit charbaihiodráití gcarbaihiodráití
+100	6800	scéinséir	scéinséara scéinséirí

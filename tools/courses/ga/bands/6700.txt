@@ -1,0 +1,100 @@
+1	6601	micreascópacht	mhicreascópacht micreascópachta
+2	6602	marthanas	marthanais mharthanas
+3	6603	áiritheoir	háiritheoir t-áiritheoir áiritheoirí áiritheora
+4	6604	cruálacht	chruálacht gcruálacht
+5	6605	cúrsóir	chúrsóirí chúrsóra
+6	6606	crosbhealach	chrosbhealach crosbhealaí
+7	6607	comaitéir	chomaitéirí comaitéara comaitéirí
+8	6608	comhfhocal	chomhfhocal comhfhocail gcomhfhocal
+9	6609	pearsantaigh	pearsantaithe pearsantú phearsantú
+10	6610	soilíosach	shoilíosaigh
+11	6611	iseabar	hiseabair iseabair
+12	6612	camarún	chamarún gcamarún
+13	6613	coptach	choptach coptacha coptaigh coptaí
+14	6614	anabaí	hanabaí
+15	6615	taos	dtaos taois thaos
+16	6616	urrús	d'urrúis hurrúis urrúis
+17	6617	ceannfhocal	ceannfhocail cheannfhocail
+18	6618	ilchodach	ilchodacha
+19	6619	imtheorannaigh	d'imtheorannaigh himtheorannaíodh imtheorannaithe imtheorannaíodh
+20	6620	áiléar	áiléir
+21	6621	comhdhlúite	chomhdhlúite
+22	6622	malartán	malartáin mhalartáin mhalartán
+23	6623	bórón	bhóróin bóróin mbórón
+24	6624	ridireacht	ridireachta
+25	6625	tiomsaitheoir	thiomsaitheoir tiomsaitheoirí tiomsaitheora
+26	6626	scanradh	
+27	6627	smidiríní	
+28	6628	tréshoilseach	thréshoilseacha tréshoilseacha
+29	6629	ard-deoise	hard-deoise
+30	6630	deisigh	deisithe deisíodh deisíonn dheisigh dheisíonn ndeiseofaí ndeisítear
+31	6631	ríceach	rícigh
+32	6632	neamhchosúil	neamhchosúla
+33	6633	réinfhia	réinfhianna
+34	6634	súmhar	súmhara
+35	6635	bíobalta	bhíobalta
+36	6636	nualitríocht	nualitríochta
+37	6637	smut	smuit smuta
+38	6638	ísleán	hísleáin ísleáin
+39	6639	fioghual	fhioghual fioghuail
+40	6640	fiosrach	fhiosrach
+41	6641	inmholta	
+42	6642	gannchuid	ghannchuid ngannchuid
+43	6643	radar	radair
+44	6644	airdeall	airdill
+45	6645	fraochán	bhfraochán fhraocháin fraocháin
+46	6646	colg	coilg
+47	6647	áibhéalach	áibhéalacha áibhéileach
+48	6648	ochtapas	d'ochtapas hochtapas ochtapais t-ochtapas
+49	6649	fochéimí	bhfochéimithe fhochéimithe fhochéimí fochéimithe
+50	6650	cúlaitheach	chúlaitheach chúlaitheacha cúlaitheacha
+51	6651	formheas	d'fhormheas fhormheas formheasa formheasadh formheasta
+52	6652	sábh	shábh sábha sáibh
+53	6653	so-adhainte	
+54	6654	spairt	pairt
+55	6655	caingean	caingne chaingean chaingne gcaingean gcaingne
+56	6656	caorthann	caorthainn chaorthainn chaorthann gcaorthann
+57	6657	gaiméit	gaiméite gaiméití
+58	6658	geabhróg	geabhróga gheabhróg gheabhróga
+59	6659	taibhiú	taibhithe
+60	6660	glúcós	ghlúcóis glúcóis nglúcós
+61	6661	príomhaisteoir	bpríomhaisteoir phríomhaisteoir phríomhaisteoirí príomhaisteoirí
+62	6662	dabhach	dabhaich dabhaigh dabhcha daibhche dhabhcha ndabhach ndabhcha
+63	6663	oiríon	hoiríon
+64	6664	nuálach	
+65	6665	togha	thogha
+66	6666	aga	agaí hagaí t-aga
+67	6667	ríomhchlárú	ríomhchláraithe
+68	6668	freascó	bhfreascónna fhreascó fhreascónna freascónna
+69	6669	cuntasaíocht	chuntasaíocht cuntasaíochta gcuntasaíocht
+70	6670	inniúil	inniúla
+71	6671	luascadán	luascadáin
+72	6672	ollscolaíocht	hollscolaíochta ollscolaíochta
+73	6673	trilliún	thrilliún trilliúin
+74	6674	péineas	bpéineas phéineas phéinis
+75	6675	rathúnas	rathúnais
+76	6676	góilín	gabhailín ghabhailín ghóilín góilíní
+77	6677	nuashonraigh	nuashonraithe nuashonraíodh nuashonraíonn nuashonraítear
+78	6678	díscaoil	dhíscaoil dhíscaoileann díscaoileann díscaoilte ndíscaoileann ndíscaoilte
+79	6679	inchomórtais	
+80	6680	sainráite	
+81	6681	tearcfhorbartha	
+82	6682	collaigin	collaigine
+83	6683	cos-slua	chos-slua gcos-slua
+84	6684	eiseachas	eiseachais
+85	6685	míosta	mhíosta
+86	6686	nimhigh	nimhithe nimhíodh
+87	6687	comhchoiste	chomhchoiste gcomhchoiste
+88	6688	éaradh	éartha
+89	6689	éagumas	héagumas t-éagumas
+90	6690	coptais	choptais coptaise
+91	6691	aineolach	haineolach
+92	6692	miteacoindre	miteacoindrí
+93	6693	neamhréir	neamhréireanna
+94	6694	carthanach	carthanacha charthanach charthanacha
+95	6695	mainnigh	mainneachtain mainneachtana mhainneachtain mhainnigh mhainníonn
+96	6696	sár-ríomhaire	sár-ríomhairí
+97	6697	áthán	d'átháin t-áthán átháin
+98	6698	príomhról	bpríomhróil bpríomhról phríomhróil phríomhról príomhróil
+99	6699	patról	bpatról patróil phatróil phatról
+100	6700	antuairp	hantuairp

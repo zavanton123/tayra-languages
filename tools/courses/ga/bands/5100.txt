@@ -1,0 +1,100 @@
+1	5001	uaslódáil	d'uaslódáil d'uaslódáladh huaslódáil uaslódáilte uaslódála uaslódáladh uaslódálann
+2	5002	féineachas	bhféineachas fhéineachais fhéineachas féineachais
+3	5003	abhantrach	abhantracha abhantraí d'abhantrach habhantrach n-abhantrach
+4	5004	ulchabhán	d'ulchabháin hulchabháin n-ulchabhán t-ulchabhán ulchabháin
+5	5005	iompórtáil	d'iompórtáil d'iompórtálacha hiompórtáil iompórtáilte iompórtáiltear iompórtála iompórtálacha iompórtáladh iompórtálann n-iompórtáil
+6	5006	eascann	eascainne eascanna heascann n-eascann
+7	5007	cúlchiste	chúlchiste chúlchistí cúlchistí gcúlchiste gcúlchistí
+8	5008	geoladh	geolaithe geolaí gheolaí ngeolaithe
+9	5009	foluain	foluana
+10	5010	driog	dhriogadh dhriogtar dhriogtha driogadh driogtha
+11	5011	grafaic	grafaice grafaicí ngrafaicí
+12	5012	scanraithe	
+13	5013	faighteoir	bhfaighteoir faighteoirí faighteora fhaighteoir fhaighteoirí fhaighteora
+14	5014	comhréireach	chomhréireach chomhréireacha chomhréirigh comhréireacha
+15	5015	cothromas	chothromas cothromais
+16	5016	fairsingeach	fhairsingigh fhairsingiú
+17	5017	isiméir	hisiméirí isiméirí n-isiméir n-isiméirí
+18	5018	greanadh	ghreanadh ghreanta ghreantaí greantaí
+19	5019	rothaíocht	rothaíochta
+20	5020	bogearra	bhogearra bhogearraí mbogearra
+21	5021	iamáice	hiamáice
+22	5022	feidhmeach	feidhmeacha fheidhmeach
+23	5023	coscair	choscairt coscartha cosgair
+24	5024	peata	bpeataí peataí pheata pheataí
+25	5025	réiteoir	réiteoirí réiteora
+26	5026	amóiniam	
+27	5027	míshástacht	mhíshástacht míshástachta
+28	5028	neon	neoin
+29	5029	scíth	scíthe
+30	5030	sulfáit	shulfáit sulfáite sulfáití tsulfáit
+31	5031	amh	aimhe amha
+32	5032	fithisigh	d'fhithisigh fhithisigh fhithisiú fhithisíonn fithisithe fithisiú fithisíonn
+33	5033	mionchuntas	mhionchuntas
+34	5034	seoltacht	seoltachta sheoltacht tseoltacht
+35	5035	dínit	dhínit dínite ndínit
+36	5036	cugais	chugais
+37	5037	speirm	speirme speirmeacha
+38	5038	sínitheoir	shínitheoir shínitheoirí sínitheoirí
+39	5039	othras	hothrais hothras othrais
+40	5040	athrá	athráite hathrá
+41	5041	singilteacht	singilteachta tsingilteacht
+42	5042	críochfort	chríochfoirt chríochfort críochfoirt gcríochfort
+43	5043	blag	bhlag bhlaganna blaganna mblag
+44	5044	fuinseog	bhfuinseog fhuinseog fhuinseoige fuinse fuinseann fuinseoige
+45	5045	ceistiú	cheistiú gceistiú
+46	5046	homaighnéasach	homaighnéasacha homaighnéasaigh
+47	5047	suaimhneach	shuaimhneach shuaimhniú suaimhneacha suaimhní
+48	5048	cearrbhach	gcearrbhach
+49	5049	sainchomhartha	sainchomharthaí shainchomhartha shainchomharthaí
+50	5050	triomach	thriomach triomacht
+51	5051	ceartaigh	ceartaithe ceartaíodh ceartaíonn ceartaítear ceartóidh cheartaigh cheartaithe cheartaíonn gceartaím gceartófar gceartóidh
+52	5052	ionróir	hionróirí ionróirí ionróra n-ionróirí
+53	5053	brúidiúlacht	bhrúidiúlacht brúidiúlachta mbrúidiúlacht
+54	5054	príomhscannán	bpríomhscannán phríomhscannán príomhscannáin
+55	5055	réadach	réadacha réadaigh réadaí
+56	5056	frithchaitheamh	bhfrithchaitheamh fhrithchaitheamh fhrithchaithimh frithchaithimh
+57	5057	cérbh	
+58	5058	reitric	reitrice
+59	5059	éirim	d'éirim héirim éirime
+60	5060	comhshamhlaigh	chomhshamhlaithe chomhshamhlú comhshamhlaithe comhshamhlaíodh comhshamhlófar comhshamhlú
+61	5061	teilg	dteilgtear teilgeadh teilgtear teilgthe theilg theilgeadh theilgeann theilgtear theilgthe
+62	5062	tosaí	thosaí
+63	5063	easaontóir	d'easaontóirí easaontóirí easaontóra heasaontóirí n-easaontóirí
+64	5064	reoite	
+65	5065	aigéadach	aigéadacha aigéadaí
+66	5066	acomhal	acomhail hacomhail hacomhal t-acomhal
+67	5067	triarach	thriarach thriaracha
+68	5068	aslonnaigh	aslonnaithe aslonnaí aslonnaíodh aslonnú haslonnaithe t-aslonnú
+69	5069	dóchán	dócháin
+70	5070	údarásach	údarásacha údarásaí
+71	5071	gealt	gealta geilt geilte ghealt ngealt
+72	5072	tráigh	dtránn thráfaidh thráigh thráite thránn trágha tráite tránn
+73	5073	bithcheimic	bhithcheimic bithcheimice mbithcheimic
+74	5074	seicteachas	seicteachais sheicteachas tseicteachais
+75	5075	faolchú	bhfaolchú faolchoin faolchon faolchúnna fhaolchú
+76	5076	troscadh	throscadh troscaidh
+77	5077	asarlaíocht	asarlaíochta hasarlaíocht hasarlaíochta
+78	5078	mórthaibhseach	mhórthaibhseach mhórthaibhsigh mórthaibhseacha mórthaibhsí
+79	5079	earcaíocht	earcaíochta hearcaíocht hearcaíochta
+80	5080	stríocach	stríocacha stríocaí
+81	5081	seimineár	seimineáir sheimineáir sheimineár tseimineáir
+82	5082	nicitín	
+83	5083	fruiligh	bhfruiliú d'fhruiligh fhruiliú fruiliú fruilíodh
+84	5084	athsheol	athsheoladh athsheolta d'athsheol
+85	5085	taibhdhearc	dtaibhdhearc taibhdheirce thaibhdhearc
+86	5086	mionsonraithe	mhionsonraithe
+87	5087	ein	
+88	5088	déréalta	dhéréalta dhéréaltaí déréaltaí ndéréalta ndéréaltaí
+89	5089	comhlach	chomhlach comhlacha
+90	5090	doiciméadaigh	dhoiciméadú doiciméadaithe doiciméadaíodh doiciméadú
+91	5091	marfóir	marfóirí mharfóir mharfóirí mharfóra
+92	5092	miotalóireacht	mhiotalóireacht mhiotalóireachta miotalóireachta
+93	5093	seithe	seiche seithí sheithe tseithe
+94	5094	gaineamhchloch	gaineamhchlocha gaineamhchloiche ghaineamhchloch ngaineamhchloch
+95	5095	crógacht	chrógacht chrógachta crógachta gcrógacht gcrógachta
+96	5096	míbhuntáiste	mhíbhuntáiste mhíbhuntáistí míbhuntáistí
+97	5097	barraíocht	
+98	5098	dúrud	
+99	5099	bunata	bhunata
+100	5100	dreach	dhreach dreacha dreich

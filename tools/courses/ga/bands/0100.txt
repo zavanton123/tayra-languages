@@ -1,0 +1,100 @@
+1	1	an	anfaid anta aʼ a’ na
+2	2	bí	atá beidh beimid beinn bheadh bheas bheith bhfuil bhfuilim bhfuilimid bhfuiltear bhí bhídís bhíodar bhíodh bhíomar bhíos bhíothas bhítear bhítí bímis bíodh bíonn bítear mbeadh mbeidís mbeifí mbíodh níl nílim nílimid níltear rabhadar rabhthas raibh tá táim táimid táthar
+3	3	a	ha n-a
+4	4	i	ann in innte innti ins insa insan insna inti inár ionaibh ionainn ionam ionamsa ionat iontu iontusan sa san shan sna
+5	5	ar	air b'ar d'ar hair har n-ar nar oraibh orainn orainne orm ormsa ort orthu orthusan ortsa uirthi uirthise
+6	6	is	ab ba mba
+7	7	ag	a'm acu acusan agaibh agaibhse againn againne agam agamsa agat agatsa age aici aige aigesan aigesean
+8	8	agus	a's a’s
+9	9	le	leasracha leat leatsa led leis leis-sean leise leisean lem len lenár leo leosan let leó libh libhse linn linne linnte liom liomsa léi
+10	10	é	eisean éard
+11	11	go	gos
+12	12	sé	se seisean shé shéanna séanna
+13	13	de	dae daofa de'n ded dem den desna det dhe dhi dhíbh dhíobh dhíom dhíot dhó dhóibh dhóite dise dár díbh díbhinn díbhinní dínn díobh díobhadh díobhaidh díobhsan díofa díom díot dó dóite dónna dósan ndó
+14	14	ó	b'ó d'uí d'ó d’ó huama huí hó uaibh uaidh uaidhsean uaim uaimse uainn uait uaithi uaitse uam uama uamadh uamanna uathu uathusan uí ó'n ód ón óna ónár ósna
+15	15	mé	mise
+16	16	do	ad daoibh daoibhse dhom dhomsa dhuit dhó dhóite dhúinn di dise dom domh domsa dosna dot duit duitse dó dóibh dóibhsean dóite dónna dósan dúinn dúinne d’ ndó
+17	17	seo	s'acusan s'againne s'agatsa s'aicise so s’acusan s’againne
+18	18	ní	cha n'fheadar nighe nithe níor
+19	19	sin	shin tsin
+20	20	mar	
+21	21	bliain	bhliain bhlian bhliana bhlianta bliadhain blian bliana blianta mbliain mbliana mblianta
+22	22	ina	
+23	23	maith	b'fhearr b'fhearrde b’fhearr fearr fhearr maite maithe mhaith mhaithe mhaitheamh
+24	24	mór	mhó mhóir mhóire mhór mhóra mhóradh mhórann mó móir móire móra móradh mórainn mórann
+25	25	tú	tusa
+26	26	duine	daoine dhaoine dhuine ndaoine nduine éinne
+27	27	ach	
+28	28	tabhair	bheirtear dtabharfadh dtabharfaidh dtabharfaidís dtabharfar dtabharfaí dtug dtuga dtugadh dtugaimid dtugann dtugtar dtugtaí tabhairt tabharfaidh tabharfaimid tabharfar tabhartha thabhairt thabharfadh thabharfaidh thabharfaidís thabharfar thabharfaí thug thugadar thugadh thugaidís thugaim thugamar thugann thugas thugtar thugtaí tug tugadh tugaid tugaimid tugann tugtar tugtaí
+29	29	cuid	choda chodanna chuid coda codanna gcoda gcodanna gcuid
+30	30	í	hí ise
+31	31	as	aisti as-san asa asainn asam asat astu has hasa
+32	32	sí	shí sidhe sise síodh tsí
+33	33	nó	
+34	34	faoi	faoin faoinár fá fám fé fén fó fúinn fúinne fúithi fúm fút fúthu fútsa
+35	35	déan	deineadh dhearna dhearnadh dhein dheineadh dhéan dhéanadh dhéanann dhéanas dhéanfadh dhéanfaidh dhéanfaidís dhéanfainn dhéanfar dhéanfaí dhéantar dhéantaí déanadh déanaim déanaimid déanann déanfaidh déanfaimid déanfainn déanfar déantar déin ndearna ndearnadh ndéanadh ndéanann ndéanfadh ndéanfaidh ndéanfaidís ndéanfar ndéanfaí ndéantar ndéantaí rinne rinneadar rinneadh rinneamar
+36	36	tar	dtaga dtagadh dtagainn dtagann dtagtar dtig dtiocfadh dtiocfaidh dtiocfaidís dtiocfaimis dtiocfaí dtiocfá dtáinig tagadh tagaigí tagaim tagaimid tagann tagtar tagtha taraigí thagadh thagaidís thagann thagtar thair thig thiocfadh thiocfaidh thiocfaidís thiocfas thiocfá tháinig tháinigh thánadar thánag thángadar thángamar thángthas tig tige tiocfaidh tiocfaimid tiocfainn
+37	37	leabhar	leabhair leabhartha leabhra leabhraíonn
+38	38	féin	fhéin féinig phéin péin
+39	39	chun	dochum
+40	40	ná	
+41	41	dá	dhá
+42	42	eile	
+43	43	siad	shiad siada siadaí siadsan tsiada
+44	44	mo	
+45	45	cuir	chuir chuireadar chuireamar chuireann chuireas chuirfeadh chuirfear chuirfeá chuirfidh chuirfidís chuirfinn chuirfí chuiridís chuirimid chuirinn chuirtí cuireann cuirfead cuirfeadh cuirfear cuirfidh cuirfimid cuirfí cuirid cuirigí cuirim cuirimid cuirtear curtha gcuir gcuireann gcuirfeadh gcuirfear gcuirfeá gcuirfidh gcuirfidís gcuirfí gcuiridís gcuirtí
+46	46	aon	aen aoin d'aon d’aon haon n-aon t-aon
+47	47	nach	nách
+48	48	iad	hiad iadsan
+49	49	baile	bailte bailteacha bailtí bhaile bhailte mbaile mbailte
+50	50	féidir	bhféidir b’fhéidir fhéidir m’fhéidir
+51	51	rud	ruda rudaí
+52	52	gur	
+53	53	ea	eadh hea
+54	54	ceann	ceanna cheann cheanna chionn cinn cionn gceann gceanna gcionn
+55	55	don	dhon do'n
+56	56	nuair	
+57	57	céad	chéad chéadta chéid céadta céid gcéad gcéadta gcéid
+58	58	cur	chur churtha gcur gcurtha
+59	59	déanamh	dhéanamh ndéanamh
+60	60	níos	
+61	61	lá	lae laetha laethanta laethe ló
+62	62	téigh	chuadar chuaidh chuaigh chuamar chuathas dheachaigh dté dtéadh dtéann dtéitear dulta ndeachaigh rachadh rachaidh rachaidís rachaimid rachainn rachfar rachfaí raghad théadh théamh théann théid théidís théifeadh théifear théifidh théigh théitear téadh téamh téann téid téigí téim téimis téir téite téitear
+63	63	trí	dtrí dtríonna faoide fhríd fríd fríde thrí tré tréanna tríd trína trínne tríothu tríthi
+64	64	amach	
+65	65	mac	maca macaibh meic mhac mhaca mhic mic
+66	66	faigh	bhfaighe bhfaigheadh bhfaigheann bhfaighfear bhfaighfeá bhfaighfí bhfaighidh bhfaighidís bhfaighinn bhfaightear bhfuair bhfuaireadar bhfuarthas d'fhaigheadh d'fhaightí d’fhaigheadh faigheadh faigheann faighimid faightear fhaigheann fhaighimid fhaightear frítheadh fuair fuaireadar fuaireamar fuarthas gheibh gheibheann gheibhtí gheobhadh gheobhaidh gheobhaidís gheobhaimid gheobhair gheofar gheofaí gheofá
+67	67	fear	b'fhear b'fhir bhfear bhfearainn bhfearann bhfir b’fhear d'fhear d'fhearann d'fhir d’fhear d’fhearann d’fhir fearadh fearaibh fearaimid fearainn fearann fhear fheara fhearadh fhearainn fhearais fhearann fhearas fhir fior fir m'fhear
+68	68	gach	ngach
+69	69	cé	ché chéibh cia cidh céibh gcé gcéibh gidh
+70	70	beag	beaga bheag bheaga bhig big bige lú lúide mbeag
+71	71	úsáid	b'úsáidí d'úsáid d'úsáideadh d'úsáidfeadh d'úsáidfí d'úsáidtí d'úsáidí d’úsáid d’úsáideadh d’úsáidfeadh d’úsáidfí d’úsáidtí húsáid húsáide húsáideadh húsáidtear húsáidí n-úsáid n-úsáide n-úsáideadh n-úsáideann n-úsáidfeadh n-úsáidfear n-úsáidfidh n-úsáidfí n-úsáidtear n-úsáidtí n-úsáidí úsáide úsáideadh úsáideamar úsáideann úsáidfear úsáidfidh úsáidim úsáidimid úsáidte úsáidtear úsáidtí úsáidí
+72	72	contae	chondae chontae chontaetha condae contaetha gcontae gcontaetha
+73	73	obair	d'obair d'oibreacha d’obair hobair hoibre hoibreacha m'obair n-obair n-oibreacha oibre oibreacha
+74	74	cad	god
+75	75	teanga	dteanga dteangacha teangacha teangaidh teangain teangan theanga
+76	76	dul	dhul dula goil gul ndul
+77	77	ainm	ainmneacha b'ainm b’ainm d'ainm d'ainmneacha d’ainm d’ainmneacha hainm hainmneacha m'ainm m’ainm n-ainm n-ainmneacha t-ainm
+78	78	idir	eadair eadar eadrainn eatarthu eatorra
+79	79	cónaí	chónaithe chónaí cónaithe gcónaí
+80	80	bean	ban beainín bhan bhean mban mbean mhnaoi mhná mnaoi mná mnáibh
+81	81	dtí	
+82	82	chomh	co comh
+83	83	céile	chéile gcéile
+84	84	tír	dtíortha dtír dtíre thíortha thír thíre tíortha tíre
+85	85	aois	aoise aoiseanna d'aois d’aois d’aoiseanna haois haoise haoiseanna n-aois n-aoise n-aoiseanna naois naoise
+86	86	abair	abraimis abraítear adeir deir deire deireann deiridís deirim deirimid deirtear deirtí dheir dheire dheirtear déarfadh déarfaidh déarfaimid déarfainn déarfaí déarfá dúirt dúradar dúradh dúramar dúras dúrt habair n-abraim ndeir ndeireann ndeirtear ndeirtí ndéarfadh ndéarfaí ndéarfá ndúirt ndúradh ráite
+87	87	cathair	caithreacha cathrach cathracha cathraigh chathair chathrach chathracha gcathair gcathrach gcathracha gcathraigh
+88	88	áit	b'áit b’áit d'áit d'áiteanna d’áit d’áiteanna háit háite háiteanna n-áit n-áiteanna áite áiteacha áiteanna
+89	89	cá	
+90	90	feic	bhfaca bhfacadar bhfeiceann bhfeicfeadh bhfeicfeá bhfeicfidh bhfeicfí bhfeicimis bhfeictear chonacthas chonaic chonaiceamar chonnaic chífeadh chífidh cífidh d'fheicfeá d'fheicfimis feiceadh feiceann feicfear feicfidh feicfimid feicim feicimid feictear feicthe feiscint fhaca fheiceann fheicfeadh fheicfear fheicfeá fheicfidh fheicim fheicimid fheictear tchí tchíonn tífeas tím títí
+91	91	anseo	annseo annso anso
+92	92	teach	dteach dtigh dtithe theach thigh thithe thí tigh tighe tithe toigh tí
+93	93	deireadh	deire deiridh deirí dheireadh ndeireadh
+94	94	bás	bháis bhás bhásanna báis básanna mbás mbásanna
+95	95	am	ama amanna amanta d'am d’am ham hama hamanna n-am t-am
+96	96	anois	anos
+97	97	scríobh	scríobha scríobhadar scríobhadh scríobhaim scríobhaimid scríobhaimis scríobhamar scríobhann scríobhfadh scríobhfaidh scríobhfaidís scríobhfar scríobhfaí scríobhtar scríobhtaí sgríobh
+98	98	diaidh	dhiaidh ndiaidh
+99	99	gan	
+100	100	fad	bhfad bhfaid d'fhad d'fhaid d’fhad faid fhad fhaid fud

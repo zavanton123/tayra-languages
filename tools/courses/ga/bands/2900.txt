@@ -1,0 +1,100 @@
+1	2801	cinntigh	chinnteodh chinnteoirí chinntigh chinntíonn cinnteoidh cinntithe cinntíodh cinntíonn gcinnteodh gcinnteofar
+2	2802	staidiúir	staidiúire staidiúirí
+3	2803	mear	meara mearaí mhear mheara mir
+4	2804	inimirce	hinimirce
+5	2805	rásaíocht	rásaíochta
+6	2806	leáigh	leádh leáfadh leáfar leáfaí leáite leáitear leánn
+7	2807	díobháil	dhíobháil díobhála díobhálacha
+8	2808	criticiúil	chriticiúil chriticiúla criticiúla
+9	2809	eoraifís	eoraifíse heoraifíse
+10	2810	táille	dtáillí tháille tháillí táillí
+11	2811	maor	maghair maoir mhaghair mhaoir mhaor
+12	2812	cruithneach	chruithneach chruithneacha chruithnigh cruithneacha cruithnigh gcruithneach
+13	2813	ríomhchlár	ríomhchláir
+14	2814	clóirín	chlóirín gclóirín
+15	2815	aduaidh	
+16	2816	meabhrach	meabhracha meabhraí mheabhrach mheabhracha
+17	2817	intuigthe	b’intuigthe hintuigthe
+18	2818	líomhain	líomhaintí líomhanta líomhnaíodh líomhnaíonn líomhnaítear
+19	2819	lus	lusanna
+20	2820	taise	dtaisí taisí thaise thaisí
+21	2821	streachailt	streachailte
+22	2822	dollar	dhollar dollair ndollar
+23	2823	cathlán	cathláin chathláin chathlán gcathláin gcathlán
+24	2824	méith	mhéith mhéithe méithe
+25	2825	cunta	chunta cuntaí gcunta gcuntaí
+26	2826	eitinn	d'eitinn eitinne heitinn heitinne
+27	2827	bata	bataí bhata mbata
+28	2828	fliuch	fhliche fhliuch fhliucha fhliuchadh fhliuchtar fliche fliucha fliuchadh
+29	2829	tiús	dtiús thiúis thiús tiúis
+30	2830	córan	chóran gcóran
+31	2831	tuathal	thuathal tuathail
+32	2832	cíor	chíor chíoradh chíortar cíora cíoradh cíorann cíortha cír círe gcíor gcíoradh gcíortaí
+33	2833	leataobh	leataoibh
+34	2834	forlámhas	bhforlámhas d'fhorlámhas fhorlámhais fhorlámhas forlámhais
+35	2835	ionchur	hionchur ionchuir ionchuirtear ionchurtha t-ionchur
+36	2836	máille	mháille
+37	2837	móta	mhóta mhótaí mótaí
+38	2838	oidhre	d'oidhre eighre hoidhre n-oidhrí oidhrí oighre t-oidhre
+39	2839	athraitheach	athraitheacha athraithigh athraithí athraíoch
+40	2840	suimiúil	shuimiúil shuimiúla suimiúla
+41	2841	aguisín	aguisíní haguisín
+42	2842	mil	meala mheala mhil
+43	2843	tuirlingt	dtuirlingt thuirlingt thuirlingthe tuirlingthe tuirlingtí
+44	2844	coirpeach	choirpeach choirpigh coirpigh gcoirpeach
+45	2845	aonarach	aonaracha haonarach
+46	2846	tuaslaig	dtuaslagann dtuaslagtar thuaslagann thuaslagfar thuaslagtar thuaslagtha tuaslagadh tuaslagann tuaslagfaidh tuaslagtar tuaslagtha
+47	2847	urchar	hurchair hurchar n-urchar t-urchar urchair urchur
+48	2848	garraí	garadh garradh garraithe garrdha gharraithe gharraí gharrdha gárradh ngarraithe ngarraí
+49	2849	baitsiléir	baitsiléara bhaitsiléara bhaitsiléir bhaitsiléirí
+50	2850	póilíneacht	bpóilíneacht phóilíneacht phóilíneachta póilíneachta
+51	2851	dírbheathaisnéis	dhírbheathaisnéis dírbheathaisnéise ndírbheathaisnéis
+52	2852	iomaitheoir	hiomaitheoir hiomaitheoirí iomaitheoirí iomaitheora n-iomaitheoir n-iomaitheoirí t-iomaitheoir
+53	2853	cinsireacht	chinsireacht chinsireachta cinsireachta gcinsireacht
+54	2854	comhtháthaigh	chomhtháthaigh chomhtháthaithe chomhtháthaíonn chomhtháthú comhtháthaithe comhtháthaíonn comhtháthú gcomhtháthaíonn gcomhtháthóidh
+55	2855	searmanas	searmanais shearmanais shearmanas tsearmanais
+56	2856	folach	bhfolach falach fholach
+57	2857	fionraí	fhionraí
+58	2858	laoi	laoidh laoithe
+59	2859	príomh	bpríomh phríomh
+60	2860	meánach	meánacha mheánach mheánacha mheánaigh
+61	2861	tríthoiseach	thríthoiseach thríthoiseacha thríthoisigh tríthoiseacha
+62	2862	copar	chopair chopar copair gcopar
+63	2863	fondúireacht	bhfondúireacht fhondúireacht fhondúireachta fondúireachta fondúireachtaí
+64	2864	ucht	hucht uchta
+65	2865	lochlainn	lochlainne
+66	2866	idé-eolaíocht	d'idé-eolaíocht hidé-eolaíocht hidé-eolaíochta idé-eolaíochta n-idé-eolaíocht
+67	2867	céilí	chéilí céilithe gcéilí
+68	2868	comhthionól	chomhthionóil chomhthionól comhthiolán comhthionóil gcomhthionól
+69	2869	suaitheantas	shuaitheantais shuaitheantas suaitheantais tsuaitheantais
+70	2870	áitritheoir	d'áitritheoirí háitritheoirí n-áitritheoirí áitritheoirí áitritheora
+71	2871	troscán	dtroscán throscán troscáin
+72	2872	log	loga logaí loig
+73	2873	screamh	screamha screimhe
+74	2874	ionadh	b'ionadh hionadh ionaidh ionaí iongnaidh
+75	2875	tiomna	dtiomna thiomna
+76	2876	jab	jabanna
+77	2877	pianó	bpianó phianó pianónna
+78	2878	prág	bprág phrág
+79	2879	sionnach	shionnaigh sionnaigh tsionnach tsionnaigh
+80	2880	teannas	dteannas teannais
+81	2881	mórshiúl	mhórshiúil mhórshiúl mhórshiúlta mórshiúil mórshiúlta
+82	2882	uatha	uathaí
+83	2883	milis	mhilis
+84	2884	gabháltas	gabháltais ghabháltais ghabháltas ngabháltais ngabháltas
+85	2885	péintéireacht	bpéintéireacht phéintéireacht phéintéireachta péintéireachta
+86	2886	comhdhéanamh	chomhdhéanaimh chomhdhéanamh chomhdhéanta comhdhéanaimh gcomhdhéanamh
+87	2887	fuaigh	d'fhuaigh fhuaigh fuadh fuaite fuaitear
+88	2888	príomhoide	bpríomhoide phríomhoide
+89	2889	lonnaitheoir	lonnaitheoirí
+90	2890	bréige	bhréige
+91	2891	críochdheighilt	chríochdheighilt críochdheighilte críochdheighiltí gcríochdheighilt
+92	2892	uilíoch	huilíoch uilíche uilíocha
+93	2893	ianach	ianacha ianaí
+94	2894	múinteoireacht	mhúinteoireacht mhúinteoireachta múinteoireachta
+95	2895	athlasadh	athlasta t-athlasadh
+96	2896	trua	thrua truagh truaighe
+97	2897	rómánsach	rómánsacha rómánsaigh
+98	2898	teastas	teastais theastais theastas
+99	2899	cailleach	cailleacha cailligh caillí chailleach chaillí gcailleach
+100	2900	plá	bplá phlá pláigh pláighe plánna

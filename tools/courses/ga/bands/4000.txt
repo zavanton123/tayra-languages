@@ -1,0 +1,100 @@
+1	3901	dúisigh	dhúiseoidh dhúisigh dhúisíonn dúiseofar dúisithe dúisíodh dúisíonn dúisítear
+2	3902	cnocán	chnocáin chnocán cnocáin gcnocán
+3	3903	brúcht	bhrúcht bhrúchta bhrúchtadh bhrúchtann brúchta brúchtadh brúchtann brúchtanna brúchtaí mbrúchtadh mbrúchtann
+4	3904	fothoghchán	bhfothoghchán fhothoghcháin fhothoghchán fothoghcháin
+5	3905	bardasacht	bardasachtaí bhardasacht bhardasachtaí mbardasacht
+6	3906	mianadóir	mhianadóir mhianadóirí mhianadóra mianadóirí
+7	3907	tapúil	tapúla thapúla
+8	3908	pardún	pardúin phardún
+9	3909	uasaicme	huasaicme huasaicmí n-uasaicmí uasaicmí
+10	3910	tacadóir	tacadóirí thacadóir thacadóirí
+11	3911	súigh	shúigh shúnn súdh súfaidh súid súite súitear súnn
+12	3912	féitheach	fhéitheach féitheacha
+13	3913	dathaigh	dathaithe dathú dhathaigh dhathú ndathú
+14	3914	dligh	dhligh dlite dlíodh
+15	3915	éadar	éadair
+16	3916	aerlíne	aerlínte b'aerlíne haerlíne haerlínte n-aerlínte
+17	3917	dreapadh	dhreapadh dreaptha
+18	3918	féileacán	bhféileacán fhéileacáin fhéileacán féileacáin
+19	3919	bairille	bairillí bhairille bhairillí mbairille mbairillí
+20	3920	leathsheoltóir	leathsheoltóirí leathsheoltóra
+21	3921	áirse	háirse háirsí áirsí
+22	3922	cruatan	chruatain chruatan cruadhtan cruatain gcruatan
+23	3923	fadaigh	d'fhadaigh fadaithe fadaíodh fadaíonn fhadaithe
+24	3924	príomhaidhm	phríomhaidhm príomhaidhmeanna
+25	3925	deachú	deachmhadh deachún deachúna dheachú dheachúna ndeachún ndeachúna
+26	3926	astaróideach	astaróidigh hastaróideach hastaróidigh n-astaróideach t-astaróideach
+27	3927	costasach	chostasach chostasacha chostasaigh chostasaí costasacha costasaí
+28	3928	comhbhall	chomhbhaill chomhbhall comhbhaill gcomhbhaill gcomhbhall
+29	3929	ciontóir	chiontóir chiontóirí chiontóra ciontóirí gciontóir gciontóirí
+30	3930	aisghabháil	aisghabhála d'aisghabháil haisghabháil
+31	3931	bagrach	bagarthach bagracha bagraí bhagrach bhagracha
+32	3932	targaid	dtargaidí targaide targaidí thargaid thargaidí
+33	3933	baolach	baolacha baolaí bhaolach bhaolacha
+34	3934	éiginnteacht	héiginnteacht héiginnteachta éiginnteachta éiginnteachtaí
+35	3935	sprioctheanga	
+36	3936	leacán	leacáin
+37	3937	neamhaird	neamhairde
+38	3938	corparáid	chorparáid chorparáide chorparáidí corparáide corparáidí gcorparáid gcorparáidí
+39	3939	comhchiallach	chomhchiallach comhchiallacha comhchiallaigh
+40	3940	cóipeáil	chóipeáil chóipeáiltear chóipeála chóipeáladh cóipeáiltear cóipeála cóipeáladh gcóipeáil
+41	3941	gríosach	ghríosaigh gríosú ngríosach
+42	3942	complacht	chomplacht chomplachta complachta complachtaí gcomplacht
+43	3943	reachtas	reachtais
+44	3944	uimhriúil	huimhriúil uimhriúla
+45	3945	cóiríocht	chóiríocht chóiríochta cóiríochta gcóiríocht
+46	3946	trom-mheáchan	throm-mheáchan trom-mheáchain
+47	3947	aontachtaí	aontachtaithe d'aontachtaithe d’aontachtaithe haontachtaithe haontachtaí n-aontachtaithe naontachtaithe t-aontachtaí
+48	3948	beoigh	beoite bheoite bheos
+49	3949	seanchaí	seanchaithe sheanchaithe sheanchaí tseanchaí
+50	3950	fearas	bhfearas fearais
+51	3951	treasach	threasach threasacha threasaigh treasacha treasaigh
+52	3952	fuíoll	bhfuíoll d'fhuíoll fhuíoll fuíll
+53	3953	lotnaid	lotnaide lotnaidí
+54	3954	matánach	matánacha matánaí mhatánach mhatánacha mhatánaigh
+55	3955	cuibheasach	cuíosach
+56	3956	ainmneach	t-ainmneach
+57	3957	alga	algaí halga halgaí n-algaí t-alga
+58	3958	flórans	bhflórans fhlórans
+59	3959	athghabh	athghabhadh athghabháil athghabhála athghafa d'athghabh d'athghabháil hathghabhála
+60	3960	braonán	bhraonáin braonáin
+61	3961	breithlá	bhreithlá breithlae mbreithlá
+62	3962	beannacht	beannachta bheannacht mbeannacht mbeannachtaí
+63	3963	cearrbhachas	cearrbhachais chearrbhachais chearrbhachas gcearrbhachas
+64	3964	leá	
+65	3965	loinnir	
+66	3966	domhantarraingt	dhomhantarraingt domhantarraingthe
+67	3967	aonán	aonáin d'aonáin d'aonán haonáin haonán n-aonán t-aonán
+68	3968	cín	chín cíne cíona gcín
+69	3969	difear	dhifear difir
+70	3970	canóin	canóna canónacha chanóin chanónacha gcanóin
+71	3971	argón	argóin hargón t-argón
+72	3972	ciníoch	chiníoch chiníocha
+73	3973	custaiméir	chustaiméara chustaiméir chustaiméirí custaiméara custaiméirí gcustaiméir gcustaiméirí
+74	3974	féarach	bhféarach fhéarach fhéaraigh féaraigh
+75	3975	toscaire	dtoscairí thoscaire thoscairí toscairí
+76	3976	aosta	haosta
+77	3977	íomháú	híomháú t-íomháú íomháithe
+78	3978	díog	dhíog dhíoga díg díge díoga díogtha ndíog
+79	3979	deifnídeach	deifnídeacha dheifnídeach
+80	3980	ríogach	ríogaigh ríogaithe ríogaí
+81	3981	maslaigh	maslaithe maslaíodh maslódh maslóir maslú mhaslaigh mhaslú
+82	3982	fiar	fhiaradh fhiartha fiaradh fiaraidh fiartha
+83	3983	sulfar	shulfair shulfar sulfair tsulfair
+84	3984	athúsáid	athúsáide athúsáideadh athúsáidfear hathúsáid n-athúsáid
+85	3985	léan	léin
+86	3986	náisiúntacht	náisiúntachta náisiúntachtaí
+87	3987	táirgeacht	dtáirgeacht tháirgeacht tháirgeachta táirgeachta
+88	3988	plaic	phlaic plaice plaiceanna
+89	3989	bod	bhod bhoid boid mbod
+90	3990	cón	chóin chón cóin gcón
+91	3991	aiceanta	
+92	3992	ginealas	ghinealais ghinealas ginealais nginealas
+93	3993	bataire	batairí bhataire bhatairí mbataire
+94	3994	lon	loin lonta luin
+95	3995	marcach	marcaigh marcaithe marcaí mharcach mharcaigh mharcaí
+96	3996	comhroinnt	chomhroinnt chomhroinnte comhroinnte
+97	3997	dragan	dhragan dragain ndragan
+98	3998	reachtaire	reachtairí
+99	3999	anatamaíocht	anatamaíochta d'anatamaíocht hanatamaíocht hanatamaíochta
+100	4000	cumhdach	chumhdach gcumhdach

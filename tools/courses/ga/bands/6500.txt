@@ -1,0 +1,100 @@
+1	6401	moirfeolaíocht	mhoirfeolaíocht moirfeolaíochta
+2	6402	parlaiminteoir	bparlaiminteoirí parlaiminteoirí pharlaiminteoir
+3	6403	miotaseolaíoch	mhiotaseolaíoch mhiotaseolaíocha miotaseolaíocha
+4	6404	scaoll	scaoill
+5	6405	toirtiúil	thoirtiúil thoirtiúla toirtiúla
+6	6406	tragóideach	thragóideach tragóideacha
+7	6407	vailintín	
+8	6408	aicéatáit	aicéatáite
+9	6409	amhas	amhais
+10	6410	déiríocht	dhéiríochta déiríochta
+11	6411	leithdháil	leithdháileadh leithdháileann leithdháilte leithdháiltear
+12	6412	fead	bhfead bhfeadfadh d'fheadfaí d’fheadfadh d’fheadfaí feada feide fheadamar fid
+13	6413	comhdhlúthaigh	chomhdhlúthaigh chomhdhlúthaithe chomhdhlúthaíonn comhdhlúthaithe comhdhlúthaíodh comhdhlúthaíonn comhdhlúthaítear gcomhdhlúthaíonn
+14	6414	breisoideachas	bhreisoideachais breisoideachais
+15	6415	ailínigh	ailínithe ailíníonn n-ailíníonn n-ailínítear
+16	6416	branar	branair
+17	6417	ceiriam	cheiriam gceiriam
+18	6418	cógaseolaí	chógaseolaí
+19	6419	itriam	t-itriam
+20	6420	peiptíd	peiptíde
+21	6421	traíoch	dtraíoch thraíocha traígh
+22	6422	bánaigh	bhánaigh bánaithe bánaíodh
+23	6423	monaifíléiteach	monaifíléiteacha
+24	6424	págántacht	bpágántacht phágántacht págántachta
+25	6425	sciliúil	sciliúla
+26	6426	páirtíocht	bpáirtíocht pháirtíocht páirtíochta
+27	6427	rigín	rigíní
+28	6428	caibinéad	caibinéid chaibinéad chaibinéid gcaibinéad gcaibinéid
+29	6429	aisfhreagra	haisfhreagra t-aisfhreagra
+30	6430	greamaitheach	ghreamaitheach greamaitheacha
+31	6431	meicneoir	meicneoirí mheicneoir
+32	6432	sorn	soirn sornóga sornóige tsoirn
+33	6433	truaill	dtruaill thruaill thruaillí truaille truaillí
+34	6434	uaireadóir	huaireadóirí uaireadóirí
+35	6435	ionar	ionair
+36	6436	clóchur	chlóchur clóchuir
+37	6437	saorthoilteanach	saorthoilteanacha shaorthoilteanach shaorthoilteanacha
+38	6438	polaip	bpolaip pholaip polaipí
+39	6439	aigéine	haigéine
+40	6440	rátáil	rátáilte rátála
+41	6441	geografaíocht	gheografaíocht gheografaíochta
+42	6442	cailís	cailíse cailísí chailís gcailís
+43	6443	eatramhach	eatramhacha
+44	6444	páirceáil	pháirceáil pháirceála páirceáilte páirceála
+45	6445	trumpa	thrumpa trumpaí
+46	6446	éagothrom	éagothroime éagothroma
+47	6447	crannchur	chrannchuir chrannchur crannchuir gcrannchur
+48	6448	buinne	bhuinne boinne buinní mbuinne
+49	6449	buicéad	bhuicéad bhuicéid buicéid mbuicéad
+50	6450	iarmharach	iarmharacha iarmharaigh
+51	6451	meaisínghunna	meaisínghunnaí mheaisínghunna
+52	6452	tarra	dtarra tharra
+53	6453	mangainéis	mangainéise mhangainéis mhangainéise
+54	6454	spáráil	spáráilte spáráladh spárálann
+55	6455	triomú	thriomú
+56	6456	cathaigh	cathughadh cathuithe cathú chathú gcathú
+57	6457	ciúnas	chiúnais chiúnas ciúineas ciúinis ciúnais gciúnas
+58	6458	fuarán	bhfuaráin bhfuarán fhuaráin fhuarán fuaráin
+59	6459	inslitheoir	hinslitheoir inslitheoirí inslitheora t-inslitheoir
+60	6460	institiúideach	institiúideacha
+61	6461	limfeach	limfeacha
+62	6462	magairlín	magairlíní mhagairlín mhagairlíní
+63	6463	muirmhíle	mhuirmhíle mhuirmhílte muirmhílte
+64	6464	pit	phit phiteanna pita pite
+65	6465	sileacáit	sileacáite sileacáití
+66	6466	scread	screadach screadadh screadann screadanna screadta
+67	6467	impriseanachas	impriseanachais
+68	6468	cócaráil	chócaráil chócaráiltear cócaráilte cócaráiltear
+69	6469	mímhuinín	mímhuiníne
+70	6470	náir	
+71	6471	parúl	parúil pharúil pharúl
+72	6472	saicín	saicíní
+73	6473	scriptscríbhneoir	
+74	6474	sármhaith	sármhaithe
+75	6475	lastall	
+76	6476	plandóir	bplandóirí phlandóirí plandóirí
+77	6477	bombardaigh	bhombardaigh bhombardú bombardú mbombardú
+78	6478	coimpeart	choimpeart coimpeartha
+79	6479	sabaitéireacht	sabaitéireachta
+80	6480	scéilín	scéilíní
+81	6481	triúracht	triúrachta
+82	6482	aicmeach	aicmeacha
+83	6483	riascánta	riascach riascaigh
+84	6484	stuaic	stuaice stuaiceanna
+85	6485	foighne	fhoighne foighidne
+86	6486	spéirbhean	spéirmhná
+87	6487	guairneach	ghuairneach ghuairní guairneacha guairní
+88	6488	fóinéim	bhfóinéimí d'fhóinéimí fhóinéim fhóinéimí fóinéime fóinéimí
+89	6489	lánré	
+90	6490	nascáil	
+91	6491	mainicéasaíocht	mainicéasaíochta mhainicéasaíocht
+92	6492	saíceach	saícigh
+93	6493	pataigineach	pataigineacha pataiginí phataigineach phataigineacha
+94	6494	ceis	ceise cheis gceis
+95	6495	péacóg	phéacóg phéacóige péacóga péacóige
+96	6496	síonchaith	shíonchaite shíonchaitheamh síonchaite síonchaitheamh síonchaithimh
+97	6497	cultúrlann	chultúrlann cultúrlainne gcultúrlann
+98	6498	tuairt	dtuairt thuairt tuairte tuairteanna
+99	6499	eagraí	heagraí
+100	6500	críonna	chríonna

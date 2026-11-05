@@ -1,0 +1,100 @@
+1	1801	meánaoiseach	meánaoiseacha meánaoisigh meánaoisí mheánaoiseach mheánaoiseacha mheánaoisigh
+2	1802	soiscéal	shoiscéal shoiscéil soiscéil tsoiscéil
+3	1803	gleic	ghleic gleice ngleic
+4	1804	snámhóir	shnámhóir snámhóirí
+5	1805	sábháilteacht	shábháilteacht shábháilteachta sábháilteachta tsábháilteacht
+6	1806	curadh	churadh churaidh curaidh gcuradh
+7	1807	scil	scile scileanna
+8	1808	fógra	bhfógra bhfógraí d'fhógraí fhógra fhógraí fógraí
+9	1809	fuirseoir	b'fhuirseoir bhfuirseoir d'fhuirseoirí fhuirseoir fhuirseoirí fhuirseora fuirseoirí
+10	1810	leithinis	leathinis leithinse leithinsí
+11	1811	comharba	chomharba chomharbaí comharbaí gcomharba gcomharbaí
+12	1812	cailc	cailce cailceanna chailc chailce
+13	1813	seandálaíocht	seandálaíochta sheandálaíocht sheandálaíochta tseandálaíocht
+14	1814	tacsaí	dtacsaí tacsaithe
+15	1815	ubh	d'uibheacha hubh huibhe huibheacha n-ubh n-uibheacha t-ubh ubha uibh uibhe uibheacha
+16	1816	cúigear	chúigear chúigir cúigir gcúigear
+17	1817	rítheaghlach	rítheaghlaigh
+18	1818	gorta	ghorta gortaí ngorta
+19	1819	stóráil	stóráilte stóráiltear stórála stóráladh stórálann
+20	1820	drochuair	
+21	1821	bráthair	bhráithre bhráthair bhráthar bráithre bráthar mbráithre mbráthair mbráthar
+22	1822	tnúth	
+23	1823	dóiteán	dhóiteáin dhóiteán dóiteáin ndóiteán
+24	1824	deonach	deonacha deonaigh deonaithe deonaí deonaíodh deonaíonn deonaítear deonú dheonach dheonacha dheonaigh dheonaíodh dheonaíonn dheonaítear dheonú ndeonaíonn ndeonaítear
+25	1825	uaine	huaine huaithne uaithne
+26	1826	leictreachas	leictreachais
+27	1827	barúntacht	barúntachta barúntachtaí bharúntacht mbarúntacht mbarúntachtaí
+28	1828	trastomhas	thrastomhais thrastomhas trastomhais
+29	1829	seimeastar	seimeastair
+30	1830	seó	seónna sheó sheónna tseó
+31	1831	stór	stóir stórtha
+32	1832	comhtharlaigh	chomhtharlú comhtharlaíonn comhtharluithe comhtharlú
+33	1833	feadán	bhfeadáin bhfeadán d'fheadáin feadáin fheadáin fheadán
+34	1834	cairt	cairte cairteach cairteacha chairt chairte chairteach chairteacha gcairt gcairteacha
+35	1835	ciorcal	chiorcail chiorcal ciorcail gciorcail gciorcal
+36	1836	foirmiúil	b'fhoirmiúla fhoirmiúil fhoirmiúla foirmiúla
+37	1837	míshásta	mhíshásta mí-shásta
+38	1838	comharbas	chomharbais chomharbas comharbais gcomharbas
+39	1839	gasta	gaiste gaistí gasda ghaistí ghasta ngaiste ngaistí
+40	1840	trasnach	dtrasnaíonn dtrasnódh dtrasnófá dtrasnóidh dtrasnú thrasnach thrasnaigh thrasnaithe thrasnaíonn thrasnódh thrasnóidh thrasnú trasnacha trasnaigh trasnaithe trasnaíonn trasnuithe trasnú
+41	1841	codail	chodail chodlaíonn codlaíonn gcodlaíonn
+42	1842	náisiúnaigh	náisiúnaithe náisiúnaíodh náisiúnú
+43	1843	riar	riaradh riaraigh riarann riarfadh riarfaidh riartar riartha
+44	1844	anam	anama anamacha anmain d'anam d’anam hanam hanama hanamacha m’anam n-anam n-anamacha t-anam
+45	1845	aigne	d'aigne haigne m'aigne n-aigne
+46	1846	díorthach	dhíorthach dhíorthacha dhíorthaigh dhíorthaithe dhíorthaíonn dhíorthaítear dhíorthú díorthacha díorthaigh díorthaithe díorthaíodh díorthaíonn díorthaítear díorthuithe díorthú ndíorthaíonn ndíorthaítear
+47	1847	fadó	bhfadú fadú fhadú
+48	1848	anuraidh	
+49	1849	ceallach	ceallacha ceallaigh ceallaí cheallach cheallacha gceallach
+50	1850	fithis	bhfithis bhfithisí d'fhithis d'fhithisí fhithis fhithise fhithisí fithise fithiseacha fithisí
+51	1851	faighte	fachta faghta fhaighte
+52	1852	nochtadh	
+53	1853	gnéasach	ghnéasach ghnéasacha ghnéasaigh gnéasacha gnéasaí
+54	1854	seinm	seanma sheinm
+55	1855	cleite	chleite chleití cleití gcleití
+56	1856	earnáil	d'earnáil earnála earnálacha hearnáil hearnála hearnálacha n-earnálacha
+57	1857	iardheisceart	d'iardheisceart hiardheisceart iardheiscirt n-iardheisceart
+58	1858	colmán	cholmáin cholmán colmáin gcolmán
+59	1859	cáineadh	cháineadh cháinte gcáineadh
+60	1860	ceird	ceirde ceirdeanna cheird cheirde cheirdeanna gceird gceirde gceirdeanna
+61	1861	dílis	dhílis dhílse dílse
+62	1862	tairg	dtairgfeadh tairgeadh tairgeann tairgfear tairgtear tairgthe thairg thairgeadh thairgeann thairgtear
+63	1863	mas	
+64	1864	freagair	bhfreagraíonn bhfreagródh bhfreagróidh d'fhreagair d’fhreagair fhreagair fhreagraíonn fhreagróirí freagraíodh freagraíonn freagraítear freagróir freagróirí freagróra
+65	1865	spúnóg	spúnóga spúnóige
+66	1866	seanscéal	seanscéalta seanscéil sheanscéal sheanscéalta tseanscéal tseanscéil
+67	1867	séan	shéan shéanadh shéanann shéanta séanadh séanann séanfadh séanta séantar séin tséanta tséin
+68	1868	géibheann	ghéibheann ghéibhinn géibhinn ngéibheann ngéibhinn
+69	1869	foraois	bhforaois bhforaoisí d'fhoraois d'fhoraoisí d’fhoraois fhoraois fhoraoise foraoise foraoiseacha
+70	1870	meall	mealla meallach meallaigh meallann meallfadh meallfaidh meallfaí meallta mealltar mheall mhealladar mheallann mheallas mheallfadh mhealltar
+71	1871	eireaball	d'eireabaill drioball eireabaill heireabaill heireaball iorball n-eireabaill rioball ruball t-eireaball
+72	1872	choíche	
+73	1873	péire	bpéire bpéirí phéire phéirí péirí
+74	1874	méar	mhéar mhéire méaracha méire
+75	1875	tuiseal	dtuiseal thuiseal thuisil tuisil tuisle
+76	1876	gluais	ghluais ghluaiseadar ghluaiseadh ghluaiseann ghluaiseanna ghluaiste gluaise gluaiseadh gluaiseann gluaiseanna gluaiste gluaistear ngluais ngluaiseann ngluaiseanna
+77	1877	riachtanas	riachtanais
+78	1878	coimirce	choimirce choimircí coimircí comhraí comraí gcoimirce
+79	1879	ruathar	ruathair
+80	1880	gníomhaireacht	ghníomhaireacht ghníomhaireachtaí gníomhaireachta gníomhaireachtaí ngníomhaireacht
+81	1881	consan	chonsain chonsan consain gconsain gconsan
+82	1882	fíon	bhfíon d'fhíon fhíon fhíona fíona fíonta
+83	1883	lios	liosanna
+84	1884	borradh	bhorradh bhorrtha borrtha borrthaí mborradh
+85	1885	nead	neada neadacha neide nid
+86	1886	adhlacadh	adhlactha adhlacthaí d'adhlacadh hadhlacadh hadhlacthaí n-adhlacadh
+87	1887	murab	
+88	1888	lúidín	
+89	1889	suigh	shuigh shuitear shuíodar shuíodh shuíonn shuíonna suidh suitear suífeadh suífidh suíodh suíonn
+90	1890	beach	beacha beich beiche bheach bheacha bheiche mbeach mbeacha
+91	1891	báigh	bhádar bhádh bháigh bháite bháitear bhánn bádh báite báitear bánn mbáfaidh mbáfaí mbáitear
+92	1892	ceadúnas	ceadúnais cheadúnais cheadúnas gceadúnas
+93	1893	sonrach	shonrach shonracha sonracha
+94	1894	slabhra	shlabhra shlabhraí slabhraí tslabhra
+95	1895	sábháilte	shábháilte
+96	1896	inbhear	d'inbhear d'inbhir hinbhear hinbhir inbhir n-inbhear t-inbhear
+97	1897	fiabhras	bhfiabhras fhiabhrais fhiabhras fiabhrais
+98	1898	mionlach	mhionlach mhionlaigh mionlaigh
+99	1899	cuimsitheach	chuimsitheach chuimsithigh chuimsithí cuimsitheacha cuimsithí
+100	1900	gob	ghob ghoba ghobann ghoib goba gobadh gobann goib ngob ngoba ngobann

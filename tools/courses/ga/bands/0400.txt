@@ -1,0 +1,100 @@
+1	301	tábhachtach	thábhachtach thábhachtacha thábhachtaigh thábhachtaí tábhachtacha tábhachtaí
+2	302	peann	bpeann pheann phinn pinn
+3	303	fás	bhfás bhfásann bhfásfadh bhfásfaidh bhfástar d'fhás d'fhástaí d’fhás d’fhásfadh fháis fhás fhásann fhásfadh fhásfaidh fhásta fhástar fáis fásadh fásann fásfaidh fástar
+4	304	arm	airm arma d'airm d'arm d’airm d’arm hairm harm n-airm n-arm nairm narm t-arm tarm
+5	305	féach	bhféachann bhféachfadh bhféachfaidh bhféachfaí bhféachtaí d'fhéach d'fhéachadh d'fhéachfadh d’fhéach d’fhéachfaí fhéach fhéachaimid fhéachann fhéachas féachadh féachaigí féachann féachfaidh féachtar
+6	306	cúig	chúig gcúig
+7	307	cath	catha cathanna chath chatha chathanna gcath gcatha gcathanna
+8	308	file	b'fhile bhfile bhfilí b’fhile d'fhilí d’fhilí fhile fhilí filidh filí
+9	309	foireann	bhfoireann bhfoirne d'fhoireann d'fhoirne d’fhoireann d’fhoirne fhoireann fhoirne foirne
+10	310	téarma	dtéarma dtéarmaí théarma théarmaí téarmaí
+11	311	tuaisceart	dtuaisceart thuaisceart thuaiscirt tuaiscirt
+12	312	caill	cailleadh cailleann caillfear caillfidh cailltear chaill chailleadar chailleadh chailleann chaillfeadh chaillfidh chaillfí chaillinn chailltear gcailleadh gcailleann gcaillfeadh gcaillfear gcaillfeá gcaillfidh gcaillfidís gcaillfí gcailltear gcailltí
+13	313	stair	staire startha
+14	314	muid	muide muidne
+15	315	loch	locha lochanna
+16	316	gnáth	ghnáth ngnáth
+17	317	coinne	choinne coinní gcoinne gcoinní
+18	318	cúrsa	chúrsa chúrsaí cúrsaí gcúrsa gcúrsaí
+19	319	réigiún	réigiúin
+20	320	luath	luaith luaithe luatha
+21	321	beirt	beirte beirteanna bheirt bheirte mbeirt mbeirteanna
+22	322	deich	deicheanna dheich ndeich
+23	323	os	d’os hois hos huis n-os ois osa
+24	324	cás	chás chásanna cásanna gcás gcásanna
+25	325	láthair	
+26	326	clann	chlainn chlainne chlann chlanna chloinne clainne clanna cloinne gclainne gclann gclanna
+27	327	crann	chrainn chrann crainn croinn gcrainn gcrann
+28	328	úrscéal	b'úrscéal b’úrscéal d'úrscéal d'úrscéalta d’úrscéal d’úrscéalta húrscéal húrscéalta n-úrscéal n-úrscéalta t-úrscéal úrscéalta úrscéil
+29	329	buí	bhuidhe bhuí buidhe buíonna mbuí
+30	330	uachtarán	b'uachtarán d'uachtarán d’uachtarán huachtaráin huachtarán m’uachtarán n-uachtarán nuachtaráin nuachtarán t-uachtarán tuachtarán uachtaráin
+31	331	caithfidh	chaithfidh gcaithfidh
+32	332	amhrán	abhráin amhráin b’amhrán d'amhráin d'amhrán d’amhrán hamhráin hamhrán n-amhráin n-amhrán namhrán t-amhrán tamhrán
+33	333	cumhacht	chumhacht chumhachta cumhachta cumhachtaí gcumhacht gcumhachta gcumhachtaí
+34	334	ceannas	ceannais cheannais cheannas gceannas
+35	335	conradh	chonartha chonradh conartha conarthaí connradh gconartha gconarthaí gconradh
+36	336	theas	
+37	337	dath	dataí datha dathanna dhath dhathanna ndath ndathanna
+38	338	ainmhí	ainmhithe b'ainmhí d'ainmhithe d'ainmhí d’ainmhí hainmhithe hainmhí n-ainmhithe n-ainmhí t-ainmhí
+39	339	siúl	shiúl siubhal siúil siúlta tsiúil tsiúl
+40	340	gurbh	
+41	341	suíomh	shuímh shuíomh suímh suíomhanna tsuímh tsuíomh
+42	342	ceithre	cheithre gceithre
+43	343	tréimhse	dtréimhse dtréimhsí thréimhse thréimhsí tréimhsí tréimse
+44	344	thiar	
+45	345	teilifís	dteilifís teilifíse theilifís theilifíse
+46	346	ionad	b'ionad b’ionad d'ionad d'ionaid d’ionad d’ionaid hionad hionaid ionaid n-ionad n-ionaid nionad t-ionad tionad
+47	347	eaglais	d'eaglais d'eaglaisí d’eaglais eaglaise eaglaisí heaglais heaglaise heaglaisí n-eaglais n-eaglaisí
+48	348	dubh	dhubh dhubha dhuibh dubha duibh ndubh
+49	349	coláiste	choláiste choláistí coláistí gcoláiste gcoláistí
+50	350	dán	dhán dhánta dáin dánta ndán ndánta
+51	351	ár	d’ár n-ár t-ár áir
+52	352	déanaí	dhéanaí
+53	353	sliabh	shliabh shléibhe shléibhte sléibh sléibhe sléibhte tsliabh tsléibhe
+54	354	aisteoir	aisteoirí aisteora b'aisteoir b’aisteoir d'aisteoirí d’aisteoirí haisteoir haisteoirí n-aisteoirí t-aisteoir
+55	355	bealach	bealaigh bealaí bealtaí bhealach mbealach
+56	356	mála	mhála mhálaí málaí
+57	357	cumann	chumainn chumann cumainn gcumainn gcumann
+58	358	méid	mhéid mhéide mhéideanna méide méideanna
+59	359	déanta	dhéanta ndéanta
+60	360	seomra	seomraí sheomra sheomraí tseomra
+61	361	díol	dhíol dhíoladh dhíolaidís dhíolann dhíolfadh dhíolfaí dhíolta dhíoltar dhíoltaí díola díoladh díolaim díolann díolfaidh díolta díoltar ndíol ndíolann ndíolfadh ndíolfaidís ndíolfaí ndíoltar ndíoltaí
+62	362	láidir	láidre
+63	363	seacht	sheacht
+64	364	cosaint	chosaint chosaintí chosanta cosaintí cosanta cosnamh gcosaint gcosanta
+65	365	iníon	b'iníon b’iníon d'iníon d’iníon hiníne hiníon hiníonacha inghean inghinidhe inín iníne iníonacha m'iníon m’iníon n-iníne n-iníon n-iníonacha nighean nín níon
+66	366	fadhb	bhfadhb bhfadhbanna d'fhadhb d'fhadhbanna d’fhadhb d’fhadhbanna fadhbanna faidhbe fhadhb fhadhbanna
+67	367	críoch	chrích chríche chríoch chríocha chríochaigh chríochta crích críche críocha críochta gcrích gcríche gcríoch gcríocha
+68	368	oifigiúil	hoifigiúil oifigiúla
+69	369	roinn	rainn rann ranna rannta roinne roinneadar roinneadh roinneann roinnfeadh roinnfear roinnfidh roinnfí roinnidh roinntear roinntí
+70	370	líne	línte
+71	371	fórsa	bhfórsa bhfórsaí d'fhórsa d'fhórsaí d’fhórsa d’fhórsaí fhórsa fhórsaí fórsaí
+72	372	mórán	mhóráin mhórán móráin
+73	373	athrú	athruithe d'athruithe hathruithe n-athruithe n-athrú t-athrú
+74	374	cuma	chuma cumaí gcuma
+75	375	siúd	súd
+76	376	gearr	gearra gearradh gearraidh gearrann gearraí gearrfaidh gearrfar gearrfaí gearrtar gearrtha gearrthacha geárr ghearr ghearra ghearradh ghearrann ghearrfadh ghearrfaidh ghearrfaí ghearrtaí ghearrtha ghearrthacha ghiorra giorra ngearr ngearradh ngearrann ngearrfadh ngearrfaidh ngearrfar ngearrfaí ngearrtar
+77	377	úd	n-úd t-úd ud udaí údaí úid
+78	378	príomhbhaile	bpríomhbhaile phríomhbhaile príomhbhailte
+79	379	léirigh	léireodh léireofar léireofaí léireoidh léirithe léiríodar léiríodh léiríonn léiríos léirítear léirítí
+80	380	sásta	shásta
+81	381	tríú	3ú dtríú thríú
+82	382	breá	bhreá bhreátha breagh breátha breáthacht mbreá
+83	383	áitiúil	háitiúil áitiúla
+84	384	páirt	bpáirt bpáirteanna pháirt pháirte pháirteanna páirte páirteanna
+85	385	solas	shoilse sholas soilse soilsí solais tsolais tsolas
+86	386	speiceas	speicis
+87	387	mura	muna
+88	388	bhur	mur
+89	389	aontas	aontais d'aontas d’aontas haontas n-aontas naontas t-aontas taontas
+90	390	éirí	d'éirí d’éirí héirí t-éirí éirghe
+91	391	fuinneog	bhfuinneog bhfuinneoga d'fhuinneog d'fhuinneoga d’fhuinneog fhuinneog fhuinneoga fhuinneoig fuinneoga fuinneoig fuinneoige
+92	392	céim	chéim chéime chéimeanna céime céimeanna gcéim gcéimeanna
+93	393	saor	saoir saora saoradh saorfaidh saorfar saorfaí saortar saortha shaoir shaor shaora shaoradh shaorfadh shaorfaí shaortha tsaoir tsaor
+94	394	iontach	b'iontach b’iontach hiontach iontacha iontaigh iontaí
+95	395	príomhchathair	bpríomhchathair bpríomhchathrach bpríomhchathracha phríomhchathair phríomhchathrach phríomhchathracha príomhchathrach príomhchathracha
+96	396	ionann	b'ionann b’ionann hionann mb'ionann
+97	397	cathaoir	cathaoireach cathaoireacha chathaoir chathaoireach chathaoireacha gcathaoir gcathaoireacha
+98	398	oíche	d'oíche d’oíche hoíche hoícheanta n-oíche oidhche oícheanna oícheanta
+99	399	capall	caiple capaill chapaill chapall gcapaill gcapall
+100	400	imreoir	b'imreoir d'imreoir d'imreoirí d’imreoir d’imreoirí himreoir himreoirí imreoirí imreora n-imreoir n-imreoirí t-imreoir

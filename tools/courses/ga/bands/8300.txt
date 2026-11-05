@@ -1,0 +1,100 @@
+1	8201	uchtach	uchtacha uchtaí
+2	8202	ómósach	hómósach ómósaí
+3	8203	corpraigh	chorpraithe chorprú corpraithe corpraíodh corprú
+4	8204	staic	staiceanna
+5	8205	réamhscéal	réamhscéalta réamhscéil
+6	8206	fithiseach	fhithiseach fhithiseacha
+7	8207	príomhphearsa	príomhphearsan príomhphearsana
+8	8208	ceadúnach	ceadúnaigh ceadúnaithe ceadúnú cheadúnaithe cheadúnú
+9	8209	osló	
+10	8210	bónas	bhónais bhónas bónais
+11	8211	biatas	bhiatais bhiatas biatais
+12	8212	buatais	bhuatais buataise buataisí
+13	8213	aireamh	airimh
+14	8214	liach	léiche
+15	8215	athfhorbair	athfhorbairt athfhorbartha
+16	8216	closleabhar	chlosleabhair chlosleabhar closleabhair
+17	8217	céannacht	chéannacht céannachta
+18	8218	iútlainn	hiútlainn hiútlainne iútlainne
+19	8219	búda	bhúda búdaí
+20	8220	báille	báillí
+21	8221	dioscúrsa	dhioscúrsa
+22	8222	neasoirthear	neasoirthir
+23	8223	propast	phropaist phropast
+24	8224	umha	
+25	8225	athdhírigh	athdhírithe athdhíriú athdhíríodh
+26	8226	amaideach	b'amaideach hamaideach
+27	8227	paistis	bpaistis paistise phaistis
+28	8228	bearnach	bearnaithe bhearnach bhearnaigh
+29	8229	cobra	
+30	8230	críon	chrín chríon chríonadh críona
+31	8231	cógaslann	chógaslann cógaslanna gcógaslann
+32	8232	dúnghaois	dhúnghaois
+33	8233	fíoruisce	bhfíoruisce fhíoruisce
+34	8234	aerbhealach	aerbhealaigh aerbhealaí haerbhealaí n-aerbhealaí t-aerbhealach
+35	8235	inbhraite	
+36	8236	longchlós	longchlóis
+37	8237	línéar	línéir
+38	8238	lúcháir	lúcháire
+39	8239	móinteán	mhóinteáin móinteáin
+40	8240	neachtar	neachtair
+41	8241	rige	
+42	8242	róbheag	
+43	8243	scaindiam	
+44	8244	scairdeitleán	scairdeitleáin
+45	8245	sceartán	sceartáin
+46	8246	seileach	seileacha sheileach
+47	8247	seismeach	seismeacha sheismeach
+48	8248	topagrafaíocht	thopagrafaíocht topagrafaíochta
+49	8249	vialait	vialaite
+50	8250	éasafagas	t-éasafagas éasafagais
+51	8251	paitinnigh	paitinnithe paitinníodh phaitinnigh
+52	8252	baisc	bhaisc mbaisc
+53	8253	crapthach	chrapthach chrapthacha crapthacha crapthaí
+54	8254	asamatach	asamataí
+55	8255	beaichte	
+56	8256	cuirín	chuirín cuiríní
+57	8257	fiarthrasna	
+58	8258	ideapatach	
+59	8259	incheallach	incheallacha
+60	8260	líomatáiste	
+61	8261	meadhrán	
+62	8262	míofar	mhíofar
+63	8263	oirfideach	
+64	8264	pocán	bpocán phocáin
+65	8265	riastradh	
+66	8266	scafall	scafaill
+67	8267	téitheoir	théitheoirí téitheoirí
+68	8268	tíoránta	
+69	8269	urrann	urranna
+70	8270	leoga	
+71	8271	mídhaonna	
+72	8272	buinneán	bhuinneán buinneáin
+73	8273	oidhreachtúlacht	hoidhreachtúlacht hoidhreachtúlachta
+74	8274	beantach	beantacha
+75	8275	fosadh	fhosadh fhosaidh
+76	8276	gnáthchúrsa	ghnáthchúrsaí gnáthchúrsaí
+77	8277	graibheatón	graibheatóin
+78	8278	inchreidteacht	hinchreidteachta inchreidteachta
+79	8279	roghchlár	roghchláir
+80	8280	socrúchán	shocrúcháin socrúcháin
+81	8281	síceach	sící
+82	8282	tíriúil	thíriúil thíriúla
+83	8283	táiplis	táiplise
+84	8284	airneán	airneáin
+85	8285	baininscne	bhaininscne
+86	8286	buanseasmhach	buanseasmhacha buanseasmhaí
+87	8287	comhchuibhiú	chomhchuibhiú comhchuibhithe
+88	8288	fo-éadaí	fho-éadaí
+89	8289	hormónach	hormónacha
+90	8290	intriacht	intriachtaí
+91	8291	leathlámh	leathláimh leathláimhe
+92	8292	nóva	nóvaí
+93	8293	seachphósta	sheachphósta
+94	8294	sástacht	sástachta
+95	8295	uachtarlann	uachtarlanna
+96	8296	folaíocht	bhfolaíocht d'fholaíocht folaíochta
+97	8297	breathnaitheach	bhreathnaitheach breathnaitheacha breathnaithí
+98	8298	bithgheografaíocht	bhithgheografaíocht bithgheografaíochta
+99	8299	bolaigh	bolaithe bolú
+100	8300	ciúnaigh	chiúnaigh chiúnaíonn ciúnaithe ciúnú

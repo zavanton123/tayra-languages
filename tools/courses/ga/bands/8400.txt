@@ -1,0 +1,100 @@
+1	8301	cnagaosta	chnagaosta
+2	8302	ionraon	t-ionraon
+3	8303	tionsclach	thionsclaithe tionsclaí
+4	8304	feiliúnach	feiliúnaí fheiliúnach fheiliúnaí
+5	8305	clóraifill	chlóraifill clóraifille
+6	8306	ceirbheacs	cheirbheacs cheirbhics gceirbheacs
+7	8307	cinsealacht	chinsealacht cinsealachta gcinsealacht
+8	8308	dí-ocsaídigh	dhí-ocsaídithe dhí-ocsaídiú dhí-ocsaídítear dí-ocsaídithe dí-ocsaídiú dí-ocsaídíodh dí-ocsaídítear ndí-ocsaídeofar ndí-ocsaídítear
+9	8309	scuaid	
+10	8310	spéicéir	spéicéara
+11	8311	bláthnaid	bhláthnaid
+12	8312	tréadaí	thréadaí tréadaithe
+13	8313	tumadóireacht	tumadóireachta
+14	8314	comair	choimre chomair coimre
+15	8315	brosna	bhrosna brosnaí
+16	8316	cógaseolaíocht	chógaseolaíocht cógaseolaíochta
+17	8317	dronnach	dhronnacha dronnacha
+18	8318	leomh	leofa leomhfadh
+19	8319	alúm	alúim halúm
+20	8320	péarla	bpéarlaí phéarla péarlaí
+21	8321	canta	chanta chantaí
+22	8322	cineáltas	chineáltais chineáltas cineáltacht gcineáltas
+23	8323	corcán	chorcán corcáin gcorcán
+24	8324	formhéadaigh	fhormhéadaithe fhormhéadú formhéadaithe formhéadú
+25	8325	comóntach	comóntaigh gcomóntach
+26	8326	giúl	ghiúil giúil
+27	8327	imeallbhord	imeallbhoird
+28	8328	jib	jiba jibe
+29	8329	macramóilín	macramóilíní
+30	8330	meirge	meirgí mheirge
+31	8331	meisciúil	meisciúla mheisciúil
+32	8332	naíolann	naíolanna
+33	8333	pancóg	bpancóg pancóga pancóige
+34	8334	réamhshampla	réamhshamplaí
+35	8335	tréaniarracht	tréaniarrachtaí
+36	8336	éitheach	éithigh
+37	8337	conga	
+38	8338	futa	
+39	8339	ind-sín	hind-síne
+40	8340	maoilín	
+41	8341	tile	
+42	8342	adhairt	adhairteanna hadhairt
+43	8343	ateangaireacht	ateangaireachta
+44	8344	coincheapúil	choincheapúil coincheapúla
+45	8345	feiceálaí	fheiceálaí
+46	8346	frasaíocht	fhrasaíocht frasaíochta
+47	8347	féimheacht	bhféimheacht fhéimheacht féimheachta
+48	8348	gnáth-theanga	ghnáth-theanga
+49	8349	inmhianaithe	
+50	8350	leictrilít	leictrilíte leictrilítí
+51	8351	oideoir	d’oideoirí oideoirí
+52	8352	scothbhuí	
+53	8353	uabhar	uabhair
+54	8354	manchúiris	manchúirise mhanchúiris
+55	8355	móhácach	móhácaigh
+56	8356	amscaí	
+57	8357	barrchaol	
+58	8358	ceilp	ceilpe
+59	8359	céas	chéas
+60	8360	do-ghlactha	
+61	8361	eallóg	eallóige
+62	8362	finideach	fhinideach finideacha
+63	8363	garal	
+64	8364	meargánta	
+65	8365	rúndiamhracht	rúndiamhrachta
+66	8366	seiftiúil	
+67	8367	veigeatóir	veigeatóirí
+68	8368	éileapsóideach	
+69	8369	cáith	cáite cáitheadh
+70	8370	ardchumhacht	ardchumhachta
+71	8371	boilgeog	bhoilgeog boilgeoga mboilgeog mboilgeoga
+72	8372	cabhóg	chabhóg
+73	8373	callagrafaíocht	callagrafaíochta challagrafaíocht gcallagrafaíocht
+74	8374	eacstais	d'eacstais eacstaise heacstais
+75	8375	eiriciúil	eiriciúla
+76	8376	frithbheart	fhrithbheart frithbhearta
+77	8377	iomalartaigh	iomalartaíodh iomalartuithe iomalartú
+78	8378	maolaire	mhaolaire
+79	8379	proinnteach	phroinnteach phroinntithe phroinntí proinntithe
+80	8380	riandúil	riandúile
+81	8381	scolaíoch	scolaíocha
+82	8382	scí	scíonna
+83	8383	stóma	stómaí
+84	8384	anlathas	t-anlathas
+85	8385	buanchónaí	bhuanchónaí buanchónaithe
+86	8386	ciotógach	ciotógacha
+87	8387	draíochtach	draíochtacha
+88	8388	bárc	mbárc
+89	8389	milleasoicind	mhilleasoicind
+90	8390	gág	gága ngága
+91	8391	plainc	phlainc planc
+92	8392	sceirdiúil	sceirdiúla
+93	8393	uireasach	uireasacha
+94	8394	cupa	chupa cupaí
+95	8395	clúid	clúide clúideacha gclúid gclúideacha
+96	8396	athchuingrigh	athchuingrithe athchuingriú
+97	8397	plódcheantar	bplódcheantar plódcheantair
+98	8398	canablach	canablaigh chanablaigh
+99	8399	carnach	carnaí charnach charnacha
+100	8400	ceistiúchán	ceistiúcháin cheistiúcháin cheistiúchán

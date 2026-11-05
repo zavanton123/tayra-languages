@@ -1,0 +1,100 @@
+1	201	páiste	bpáiste bpáistí pháiste pháistí páistí
+2	202	deartháir	dearthair deartháireacha dearthár deartháracha dheartháir dheartháireacha dhearthár ndeartháir ndeartháireacha ndearthár
+3	203	timpeall	dtimpeall thimpeall timcheall timpill tímpeall
+4	204	pobal	bpobail bpobal phobail phobal pobail
+5	205	bun	bhuin bhun bhunanna buin bunanna mbun mbunanna
+6	206	páirtí	bpáirtí pháirtithe pháirtí páirtithe
+7	207	dún	dhúin dhún dhúnadh dhúnann dhúnas dhúnta dúin dúna dúnadh dúnaid dúnaidh dúnann dúnfaidh dúnfar dúnfaí dúnta dúntar ndún ndúnadh ndúnann ndúnfadh ndúnfaidh ndúnfaí
+8	208	meán	meadhan meáin mheáin mheán
+9	209	cruthaigh	chruthaigh chruthaithe chruthaíodar chruthaíodh chruthaíonn chruthaítear chruthódh chruthófar chruthófaí chruthóidh chruthóidís chruthú cruthaithe cruthaíodh cruthaíonn cruthaítear cruthófar cruthóidh cruthú gcruthaíonn gcruthaítear gcruthaítí gcruthódh gcruthófar gcruthófaí gcruthóidh gcruthú
+10	210	ceol	ceoil ceolainne ceolann ceolta ceól cheoil cheol cheolta gceol gceolta
+11	211	cat	cait cata chait chat cuit cut gcait gcat
+12	212	éagsúil	héagsúil éagsúla
+13	213	dlí	dhlí dhlíthe dlithe dlíthe ndlithe ndlí ndlíthe
+14	214	aithne	aithint aithinte haitheanta haithint haithne n-aitheanta n-aithint n-aithne naithne
+15	215	fós	
+16	216	bán	bháin bhán bhána báin báine bána bánaigh bánta mbán
+17	217	tarlaigh	dtarlaíonn dtarlódh dtarlófaí dtarlóidh tarla tarlaithe tarlaíodh tarlaíonn tarlóidh tharla tharlaigh tharlaíodh tharlaíonn tharlaíos tharlódh tharlóidh
+18	218	fág	bhfágann bhfágfadh bhfágfaidh bhfágfaidís bhfágfar bhfágfaí bhfágtar bhfágtaí d'fhág d'fhágadar d'fhágadh d'fhágfadh d'fhágfainn d'fhágfaí d'fhágtaí d’fhág d’fhágadar d’fhágadh d’fhágfadh d’fhágfaí d’fhágtaí fhág fhága fhágadh fhágaimid fhágann fhágfadh fhágfaidh fhágfar fhágfaí fhágtar fágadh fágaigí fágaim fágaimid fágann fágfaidh fágfar fágtar
+19	219	léigh	lé léadh léamair léamar léann léifeadh léifear léifeá léifidh léifí léighinn léimid léinn léite léitear léití
+20	220	ith	d'ith d'itheadar d'itheadh d'ithidís d'ití d'íosfadh duas d’ith d’itheadh d’ithidís d’ití hite ite itear itheadh itheann ithim ithimid ithinn n-itheadh n-itheann n-íosfadh n-íosfaidh íosfadh íosfaidh íosfar
+21	221	cara	cairde carad caraid chairde chara charad charaid cháirde gcairde gcara gcarad
+22	222	baineann	baineanna baininne bhaineann bhaineanna bhaininn mbaineann
+23	223	caint	cainnt cainte cainteanna chaint chainte chainteanna gcaint gcainteanna
+24	224	dia	dhia dhé dhéithe dé déithe ndia ndé ndéithe
+25	225	má	
+26	226	saothar	saothair shaothair shaothar tsaothair tsaothar
+27	227	scannán	scannáin
+28	228	doras	dhoirse dhoras doirse dorais dorus ndoirse ndoras
+29	229	ard	aird arad arda d'aird d'ard d'arda d’ard haird hard harda n-aird nard t-ard tard áird
+30	230	rá	rádh ráite
+31	231	conas	cionnas conus
+32	232	sraith	shraith shraithe shraitheanna sraithe sraitheanna sreath tsraith
+33	233	toradh	dtoradh dtoraidh dtorthaí thoradh thorthaí toraidh torthaí
+34	234	riamh	ariamh
+35	235	lámh	láimh láimhe lámha lámhaibh
+36	236	lean	leana leanadar leanadh leanaimid leanainn leanann leanas leanfadh leanfaidh leanfaidís leanfar leanfaí leanfá leanta leantar leantaí leanúint leanúna
+37	237	fan	bhfana bhfanadh bhfanann bhfanfadh bhfanfaidh bhfanfaidís d'fhan d'fhanadar d'fhanadh d'fhanfadh d'fhanfaidís d’fhan d’fhanadar d’fhanfadh fana fanaigí fanann fanfaidh fanta fhan fhanadar fhanann fhanfadh fhanfaidh
+38	238	mian	mhian mhianta miana mianta
+39	239	béal	bhéal bhéala bhéil béala béil mbéal mbéala mbéil
+40	240	múinteoir	mhúinteoir mhúinteoirí mhúinteora múinteoirí múinteora
+41	241	comhairle	chomhairle chomhairlí comhairleacha comhairlí cómhairle gcomhairle gcomhairlí
+42	242	sibh	sibhse
+43	243	imeacht	d'imeacht d'imeachtaí d’imeacht d’imeachtaí himeacht himeachta himeachtaí imeachta imeachtaí imtheacht n-imeacht n-imeachtaí t-imeacht timeacht
+44	244	airde	airdí b'airde b’airde d'airde d’airde hairde hairdí n-airde áirde
+45	245	polaiteoir	bpolaiteoir bpolaiteoirí pholaiteoir pholaiteoirí pholaiteora polaiteoirí polaiteora
+46	246	féad	bhféadann bhféadfadh bhféadfaidh bhféadfaidís bhféadfaimid bhféadfaimis bhféadfainn bhféadfar bhféadfaí bhféadfá bhféadtar d'fhéad d'fhéadadh d'fhéadfadh d'fhéadfaidís d'fhéadfainn d'fhéadfaí d'fhéadfá d’fhéad d’fhéadfadh d’fhéadfaidís d’fhéadfainn d’fhéadfaí d’fhéadfá fhéad fhéadadh fhéadann fhéadfadh fhéadfaidh fhéadfaidís fhéadfainn fhéadfar fhéadfaí fhéadfá féadaim féadann féadfadh féadfaidh féadfar féadtar
+47	247	dearg	dearga deargadh deargann deargtha deirg deirge dhearg dhearga dheirg dheirge ndearg
+48	248	bia	bhia biadh bídh mbia mbianna
+49	249	deas	deasa dheas dheasa
+50	250	fáth	bhfáth fháth fátha fáthanna
+51	251	scríbhneoir	scríbhneoirí scríbhneora
+52	252	iomlán	d'iomlán hiomláin hiomláine hiomlán iomláin iomláine iomlána n-iomláine n-iomlán t-iomlán
+53	253	amárach	amáireach
+54	254	clár	chláir chlár cláir cláracha gcláir gclár
+55	255	leagan	leagain leaganacha leagtha
+56	256	máthair	mháithreacha mháthair mháthar máithreacha máthar
+57	257	ollscoil	d'ollscoil d'ollscoileanna d’ollscoil d’ollscoileanna hollscoil hollscoile hollscoileanna n-ollscoil n-ollscoileanna nollscoil ollscoile ollscoileanna
+58	258	suas	
+59	259	litir	litre litreach litreacha
+60	260	nós	nóis nósanna
+61	261	dóigh	dhódh dhófaí dhóigh dhóigheanna dhóite dhóitear dhóití dhónn dhónna dódh dóigheanna dóinn dóite dóitear dónn ndódh ndófadh ndófaí ndóigh ndóighe ndóitear ndónn
+62	262	ríocht	ríochta ríochtaí ríoghacht
+63	263	lár	láir lárach láracha
+64	264	toil	dtoil dtola thoil thola toile tola
+65	265	eolas	d'eolais d'eolas d’eolas eolais heolais heolas n-eolais n-eolas t-eolas
+66	266	maidir	
+67	267	muintir	mhuintir mhuintire mhuintireacha muinntear muinntir muintire muintireacha
+68	268	óg	hóg hóga hóig n-óg n-óga nóg t-óg óga óig
+69	269	buachaill	bhuachaill bhuachaillí bhuachalla buachaillí buachalla mbuachaill mbuachaillí
+70	270	abhainn	abha abhann aibhne aibhneacha d'abhainn d'abhann d'aibhneacha d’abhainn d’aibhneacha habhainn habhann haibhne haibhneacha n-abhainn n-abhann n-aibhneacha nabhainn nabhann
+71	271	feadh	bhfeá feadha feaga feá feánna fheadh fheadha fheá
+72	272	ais	aise aiseanna hais haise haiseanna n-ais n-aiseanna
+73	273	grúpa	ghrúpa ghrúpaí grúpaí ngrúpa ngrúpaí
+74	274	meas	measa measadh measaid measaim measann measfadh measfar measfaí measta meastar mheas mheasa mheasadar mheasadh mheasaimid mheasann mheasas mheasfadh mheasfar mheasfaí mheasta mheastar mheastaí
+75	275	uasal	b'uaisle d'uaisle d’uaisle huaisle huasail huasal n-uaisle n-uasal nuaisle nuasal t-uasal tuasal uaisle uasail
+76	276	nár	nárbh
+77	277	teastaigh	dteastaíonn dteastódh dteastóidh teastaíodh teastaíonn teastáil theastaigh theastaíonn theastaíos theastáil theastódh theastóidh
+78	278	abhaile	
+79	279	cluiche	chluiche chluichí cluichí gcluiche gcluichí
+80	280	inné	
+81	281	maraigh	maraithe maraíodh maraíonn maraítear maródh marófar marófaí maróidh mharaigh mharaithe mharaíodar mharaíodh mharaíonn mharaítear mharaítí mharódh mharófaí mharóidh
+82	282	daonra	daonraí dhaonra dhaonraí ndaonra ndaonraí
+83	283	buaigh	bhuachan bhuadar bhuadh bhuafadh bhuaigh bhuais bhuaite bhuamar bhuann buachan buadh buaidh buaidhe buaite buaitear buann mbuafadh mbuafaidh mbuafaidís mbuafaí mbuaigh mbuaitear mbuann
+84	284	cúis	chúis chúiseanna cúise cúiseanna gcúis gcúise gcúiseanna
+85	285	naomh	naofa naoimh naomha naomhtha
+86	286	forbairt	bhforbairt bhforbairtí bhforbartha d'fhorbairt d'fhorbairtí d’fhorbairt d’fhorbairtí fhorbairt fhorbairtí fhorbartha forbairtí forbartha
+87	287	náisiúnta	
+88	288	thú	thusa
+89	289	iarracht	b'iarracht d'iarracht d'iarrachtaí d’iarracht d’iarrachtaí hiarracht hiarrachta hiarrachtaí iarrachta iarrachtaí n-iarracht n-iarrachtaí
+90	290	súil	shúil shúile shúl súile súl tsúil
+91	291	álainn	háille hálainn áille
+92	292	inis	d'inis d'insíodh d’inis d’insíodh hinis hinsíodh innis inseoidh inste insím insíodh insíonn insítear n-inis n-inseodh n-inseofaí n-inseoidh n-insíonn n-insítear neosainn ninis
+93	293	léamh	léamha léimh
+94	294	post	bpoist bpost bpostanna phoist phost phosta poist posta postanna postaí
+95	295	thuaidh	
+96	296	tuig	dtuigeann dtuigfeadh dtuigfidh dtuigfidís dtuigfí dtuigimid thuig thuigeadar thuigeamar thuigeann thuigfeadh thuigfeá thuigfidh thuigfidís thuigfí thuigimid thuigtí tuigeadh tuigeann tuigfidh tuigim tuigimid tuigtear tuigthe
+97	297	geall	gealladh geallaim geallaimid geallaimis geallann geallta gealltar geallúint gheall ghealladh gheallamar gheallann gheallta ghill gill ngeall ngeallann ngeallfaimis ngealltaí
+98	298	staidéar	staidéir stáidéar
+99	299	feiceáil	bhfeiceáil faicsin feiceál feiceála fheiceáil
+100	300	díreach	dhíreach dhíreacha díreacha dírigh

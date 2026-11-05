@@ -1,0 +1,100 @@
+1	5601	peannaireacht	bpeannaireacht peannaireachta pheannaireacht
+2	5602	clóire	clóirí gclóirí
+3	5603	éirne	héirne
+4	5604	cistéirseach	chistéirseach cistéirseacha cistéirsigh gcistéirseach
+5	5605	duan	duain nduan
+6	5606	anbhás	anbháis
+7	5607	mórbhealach	mhórbhealach mhórbhealaigh mhórbhealaí mórbhealaigh mórbhealaí
+8	5608	saltair	satailt tsaltair tsatailt
+9	5609	intuaslagtha	hintuaslagtha
+10	5610	luasc	luascadh luascann luasctha
+11	5611	níochán	níocháin
+12	5612	cneá	chneá chneácha cneácha gcneá gcneácha
+13	5613	feistigh	bhfeistiú d'fheistigh feistiú feistíodh feistítear fheistiú fheistítear
+14	5614	magma	mhagma
+15	5615	áil	b'áil b’áil
+16	5616	óráidíocht	hóráidíochta óráidíochta
+17	5617	píolótach	phíolótach phíolótaigh
+18	5618	deora	
+19	5619	aíocht	aíochta
+20	5620	gruama	ghruama
+21	5621	trírín	thríríní tríríní
+22	5622	ris	rise
+23	5623	nuallán	nualláin
+24	5624	buinneach	bhuinneach mbuinneach
+25	5625	comhdhlúthú	chomhdhlúthú gcomhdhlúthú
+26	5626	grianstad	ghrianstad grianstadanna ngrianstad
+27	5627	sulfarach	shulfaraigh sulfaracha sulfaraigh
+28	5628	bruadar	bhruadair bruadair
+29	5629	uaigneach	huaigneach uaigneacha uaigní
+30	5630	beola	bheola
+31	5631	eisimirce	heisimirce
+32	5632	abú	
+33	5633	eimhear	eimhir
+34	5634	achomair	hachomair
+35	5635	postáil	bpostáil phostáil postála postálacha
+36	5636	tostach	thostacha thostaigh tochtach tostacha
+37	5637	feil	bhfeil bhfeileann d'fheil d'fheilfeadh d’fheil d’fheilfeadh feile feileann feilte fheil fheile fheileann
+38	5638	cartagach	cartagacha cartagaigh gcartagach
+39	5639	aisíoc	aisíocadh haisíoc
+40	5640	tomhaltas	thomhaltas tomhaltais
+41	5641	guaráinis	ghuaráinis ghuaráinise guaráinise nguaráinis
+42	5642	eiticiúil	eiticiúla heiticiúil
+43	5643	bunsmaoineamh	bhunsmaoineamh bunsmaointe mbunsmaoineamh
+44	5644	eantrópacht	eantrópachta heantrópachta
+45	5645	tiúbar	dtiúbair dtiúbar tiúbair
+46	5646	tréitheach	thréithí tréitheacha tréithí
+47	5647	plásóg	bplásóg bplásóga phlásóg plásóga
+48	5648	oibiachtúil	hoibiachtúil oibiachtúla
+49	5649	scragall	scragaill
+50	5650	bunúsaíoch	bhunúsaíoch bunúsaíocha
+51	5651	tuir	tuire tuireadh
+52	5652	seoltóireacht	seoltóireachta tseoltóireacht
+53	5653	éindí	
+54	5654	altra	altraí b’altra haltraí n-altra n-altraí t-altra
+55	5655	fuarú	bhfuarú fhuarú
+56	5656	uiscebhealach	d'uiscebhealach huiscebhealaí n-uiscebhealaí t-uiscebhealach uiscebhealaigh uiscebhealaí
+57	5657	clárach	chlárach chláracha
+58	5658	súmaire	shúmairí súmairí tsúmaire
+59	5659	trádmharc	dtrádmharc thrádmhairc thrádmharc thrádmharcanna trádmhairc trádmharcanna
+60	5660	naíscoil	naíscoile naíscoileanna
+61	5661	gineadóir	ghineadóir ghineadóirí gineadóirí gineadóra ngineadóir ngineadóirí
+62	5662	macasamhlaigh	macasamhlaithe macasamhlaíonn macasamhlaítear macasamhlú mhacasamhlú
+63	5663	mórchumhacht	mhórchumhacht mhórchumhachtaí mórchumhachta mórchumhachtaí
+64	5664	ápa	hápaí n-ápaí ápaí
+65	5665	scairshealbhóir	scairshealbhóirí
+66	5666	teotanach	dteotanach teotanacha teotanaigh
+67	5667	dumpáil	dhumpáil dumpála dumpáladh
+68	5668	eiriceach	eiriceacha eiricigh eiricí heiricigh n-eiriceach
+69	5669	filiméad	fhiliméad fhiliméid filiméid
+70	5670	snoíodóireacht	shnoíodóireacht snoíodóireachta tsnoíodóireacht
+71	5671	cinsire	chinsire chinsirí cinsirí gcinsire gcinsirí
+72	5672	citseap	chitseap
+73	5673	geodasach	geodasaigh gheodasach ngeodasach
+74	5674	coimeasár	choimeasáir choimeasár coimeasáir gcoimeasár
+75	5675	aoidh	aoidhe
+76	5676	fiaclach	fhiaclach fhiaclacha fiaclacha
+77	5677	clib	chlib clibeanna cliobóg
+78	5678	féiníceach	bhféiníceach bhféinícigh fhéiníceach féiníceacha féinícigh féinící
+79	5679	lóiste	lóistí
+80	5680	hibrideach	hibrideacha
+81	5681	sicín	sicíní
+82	5682	trasinscneach	thrasinscnigh trasinscneacha trasinscnigh
+83	5683	ráthach	
+84	5684	broim	bram broma
+85	5685	ionduchtaigh	d'ionduchtaigh ionduchtaithe ionduchtaíodh ionduchtaíonn ionduchtaítear ionduchtú n-ionduchtaítear
+86	5686	nicil	nicile
+87	5687	scothdhearg	scothdhearga
+88	5688	laisteas	
+89	5689	cócaire	chócaire cócairí
+90	5690	diaspóra	dhiaspóra
+91	5691	biocáire	bhiocáire
+92	5692	imreasc	imrisc
+93	5693	teilgeoir	teilgeoirí teilgeora theilgeoir
+94	5694	calc	calcadh calcann calctha chalcadh chalctar
+95	5695	béite	bhéite
+96	5696	hidreaclórach	hidreaclóraigh
+97	5697	dúthrachtach	dhúthrachtaí dúthrachtacha
+98	5698	teicneoir	teicneoirí theicneoir theicneoirí
+99	5699	tagálaigis	tagálaigise
+100	5700	bunoideachas	bhunoideachas bunoideachais mbunoideachas

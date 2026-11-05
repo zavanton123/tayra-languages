@@ -1,0 +1,100 @@
+1	3401	triomaigh	dtriomaíonn dtriomaítear dtriomódh dtriomóidh thriomaigh thriomaithe thriomaíonn thriomaítear triomaithe triomaíodh triomaíonn triomaítear
+2	3402	fluairín	bhfluairín fhluairín
+3	3403	sféar	sféir
+4	3404	socheolaíocht	shocheolaíocht socheolaíochta tsocheolaíocht
+5	3405	corónaigh	chorónaigh chorónaithe chorónaíodh chorónú corónaithe corónaíodh corónú gcorónófaí gcorónú
+6	3406	príomhbharr	pa
+7	3407	íobartach	d'íobartaigh d’íobartaigh híobartaigh n-íobartach t-íobartach íobartacha íobartaigh
+8	3408	ladar	ladair
+9	3409	lainseáil	lainseáilte lainseáiltear lainseála lainseálacha lainseáladh
+10	3410	iargúlta	hiargúlta
+11	3411	cobhsaíocht	chobhsaíocht chobhsaíochta cobhsaíochta gcobhsaíocht
+12	3412	cruithneacht	chruithneacht chruithneachta cruithneachta gcruithneacht
+13	3413	carthanacht	carthanachta carthanachtaí carthannachta charthanacht charthanachta gcarthanacht
+14	3414	clóiríd	chlóiríd chlóiríde clóiríde clóirídí gclóiríd
+15	3415	réamhstairiúil	réamhstairiúla
+16	3416	drochíde	dhrochíde
+17	3417	toscaireacht	dtoscaireacht thoscaireacht thoscaireachtaí toscaireachta toscaireachtaí
+18	3418	tuairimíocht	thuairimíocht tuairimíochta
+19	3419	infridhearg	infridhearga infridheirg infridheirge
+20	3420	páirteagal	bpáirteagal pháirteagail pháirteagal páirteagail
+21	3421	feidhmeannas	bhfeidhmeannas d'fheidhmeannas feidhmeannais fheidhmeannais fheidhmeannas
+22	3422	léirsigh	léirsithe léirsiú
+23	3423	bochtán	bhochtáin bochtáin mbochtán
+24	3424	fileata	fhileata
+25	3425	bachlóg	bachla bachlóga bhachlóg bhachlóga mbachlóga
+26	3426	idé	hidé hidéanna idéanna n-idéanna
+27	3427	curiarracht	churiarracht churiarrachtaí curiarrachta curiarrachtaí gcuriarracht gcuriarrachtaí
+28	3428	meánoirthear	mheánoirthear mheánoirthir
+29	3429	clóchomhar	chlóchomhar gclóchomhar
+30	3430	muin	mhuin mhuine muine
+31	3431	ualach	d'ualach hualach hualaí t-ualach ualaigh ualaí
+32	3432	scuab	scuaba scuabadh scuabtar scuabtha scuaibe
+33	3433	dearc	dearcann dearctar dearctha dhearc dhearcann dhearcas dhearctar ndearcann ndearctar ndearctaí
+34	3434	reachtaigh	reachtaithe reachtaíodh reachtaíonn reachtaítear reachtú
+35	3435	amas	amais hamas n-amas t-amas
+36	3436	deichniúr	deichniúir dheichniúir dheichniúr
+37	3437	teifeach	dteifeach dteifigh teifigh theifeach theifigh
+38	3438	bídeach	bhídeach bhídeacha bídeacha
+39	3439	sil	shil shileann shilte shiltear sile sileann silfidh silte
+40	3440	oir	d'oir d'oirfeadh d’oir d’oireadh d’oirfeadh n-oireann oireadh oireann oirfeadh oiridh
+41	3441	coibhneas	choibhneas choibhneasa coibhneasa coibhnis gcoibhneas
+42	3442	lasair	
+43	3443	seadán	seadáin sheadáin sheadán tseadáin
+44	3444	faiche	bhfaiche faichí fhaiche fhaichí
+45	3445	tollán	dtolláin dtollán tholláin thollán tolláin
+46	3446	ullmhúchán	hullmhúcháin n-ullmhúchán t-ullmhúchán ullmhúcháin
+47	3447	sáinnigh	sháinnigh sháinnithe sháinniú sháinnítear sáinnithe sáinniú sáinní sáinníodh sáinníonn sáinnítear
+48	3448	armas	armais d'armas harmas n-armas t-armas
+49	3449	gnáthdhuine	ghnáthdhaoine ghnáthdhuine gnáthdhaoine ngnáthdhaoine ngnáthdhuine
+50	3450	dríodar	dhríodair dhríodar dríodair ndríodair ndríodar
+51	3451	treise	dtreise threise
+52	3452	banda	bandaí bhanda bhandaí mbanda mbandaí
+53	3453	comhfhreagrach	chomhfhreagrach chomhfhreagracha chomhfhreagraigh chomhfhreagraithe chomhfhreagraí comhfhreagracha comhfhreagraí
+54	3454	loingseoireacht	loingseoireachta
+55	3455	bileog	bhileog bhileoga bileoga bileoige mbileog
+56	3456	socair	shocair shocra socra
+57	3457	geolaíoch	geolaíocha gheolaíoch gheolaíocha
+58	3458	domhandaigh	dhomhandú domhandaithe domhandú
+59	3459	ochtar	d'ochtar d’ochtar hochtar ochtair t-ochtar
+60	3460	coimisiúnaigh	choimisiúnaigh choimisiúnaithe choimisiúnú coimisiúnaithe coimisiúnaíodh coimisiúnú
+61	3461	amaitéarach	amaitéaracha amaitéaraigh amaitéaraí hamaitéaraigh n-amaitéarach
+62	3462	éadach	d'éadach d'éadaí d’éadaí héadach héadaigh héadaí n-éadach n-éadaí t-éadach
+63	3463	podchraol	bpodchraoladh bpodchraoltaí phodchraoladh phodchraolta phodchraoltaí podchraoladh podchraolta podchraoltaí
+64	3464	gor	ghoir ghor ghoradh ghorann ghortaí goir goire gora goradh gorann gortar ngoradh ngorann
+65	3465	lenar	
+66	3466	géaraigh	ghéaraigh ghéaraíonn ghéarú géaraithe géaraíodh géaraíonn géarú
+67	3467	frithbheartaíocht	frithbheartaíochta frithbheartaíochtaí
+68	3468	léirmhínigh	léirmhínithe léirmhíniú léirmhíníodh léirmhínítear
+69	3469	suth	shuth shuthanna suthanna
+70	3470	línéadach	línéadaigh
+71	3471	réamhfhocal	réamhfhocail
+72	3472	naíon	naoidhean
+73	3473	tánaiste	thánaiste tánaistí
+74	3474	coll	choll
+75	3475	seoltóir	seoltóirí seoltóra sheoltóir sheoltóirí tseoltóra
+76	3476	soiléirigh	shoiléirigh shoiléiriú shoiléiríonn soiléireoidh soiléirithe soiléiriú soiléiríodh soiléiríonn
+77	3477	stóras	stórais
+78	3478	aithnidiúil	aithnidiúla
+79	3479	branda	bhranda bhrandaí brandaí mbranda mbrandaí
+80	3480	snagcheol	shnagcheoil shnagcheol snagcheoil tsnagcheoil
+81	3481	sreabhann	shreabhann
+82	3482	beathaisnéisí	beathaisnéisithe bheathaisnéisí mbeathaisnéisí
+83	3483	roicéad	roicéid
+84	3484	ráig	ráige ráigeanna
+85	3485	guthán	ghutháin ghuthán gutháin ngutháin nguthán
+86	3486	stríoc	stríoca stríoctha
+87	3487	leann	leanna leannta leinn
+88	3488	atlas	atlais hatlas t-atlas
+89	3489	smaoinigh	smaoin smaoineodh smaoiním smaoiníodh smaoiníonn smaoinítear
+90	3490	giotáraí	ghiotáraithe ghiotáraí giotáraithe ngiotáraí
+91	3491	bitheolaí	bhitheolaí bitheolaithe mbitheolaí
+92	3492	éigipteach	héigiptigh néigipteach téigipteach éigipteacha éigiptigh éigiptí
+93	3493	spásaire	spásairí
+94	3494	sairdín	sairdíne sairdíní tsairdín
+95	3495	slóg	shlóg shlógadh shlógaidh shlógfaí shlógtha slóga slógadh slógaidh slógaí slógtha
+96	3496	tóraíocht	dtóraíocht thóraíocht tóraíochta tóruigheacht
+97	3497	tomhaltóir	dtomhaltóirí thomhaltóir thomhaltóirí tomhaltóirí tomhaltóra
+98	3498	neamhoifigiúil	neamhoifigiúla
+99	3499	drogall	
+100	3500	suimigh	shuimiú shuimíonn shuimítear suimithe suimiú suimíonn suimítear

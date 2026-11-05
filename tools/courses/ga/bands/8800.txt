@@ -1,0 +1,100 @@
+1	8701	siorcón	siorcóin
+2	8702	stiallghreannán	stiallghreannáin
+3	8703	ábharthacht	
+4	8704	iatóir	
+5	8705	cairdiúlacht	chairdiúlacht
+6	8706	slaivis	slaivise tslaivis
+7	8707	sóiteán	sóiteáin
+8	8708	calabraigh	calabraithe chalabrú
+9	8709	comhshíneas	chomhshíneas chomhshínis
+10	8710	comhthoradh	chomhthoradh
+11	8711	céadrata	chéadrata
+12	8712	comhchruthach	comhchruthacha
+13	8713	dachtal	dachtail
+14	8714	dúbail	dhúblaítear dúblaíonn dúblaítear
+15	8715	tuilemhá	dtuilemhánna tuilemhánna
+16	8716	gang	ganganna ghanganna ngang
+17	8717	imeallchríoch	himeallchríoch imeallchríocha
+18	8718	imigéiniúil	imigéiniúla
+19	8719	lámhcheird	lámhcheirdeanna
+20	8720	neamhthábhachtach	neamhthábhachtacha neamhthábhachtaí
+21	8721	paistéar	paistéaradh paistéartha
+22	8722	píoráid	phíoráid píoráidí
+23	8723	suanlios	suanleasa suanliosanna
+24	8724	taisc-chill	taisc-chille
+25	8725	teasfhulangach	theasfhulangacha
+26	8726	proibhinse	bproibhinse bproibhinsí phroibhinse proibhinsí
+27	8727	carbocsaileach	carbocsaileacha
+28	8728	corradh	chorradh
+29	8729	gleacach	ghleacaí gleacaithe gleacaí
+30	8730	banlaoch	banlaochra bhanlaoch mbanlaoch
+31	8731	paisean	bpaisean paisin phaisean phaisin
+32	8732	lonn	loinn loinne
+33	8733	meabhairghalar	meabhairghalair mheabhairghalar
+34	8734	paincréas	bpaincréas phaincréas phaincréis
+35	8735	catalaíoch	catalaígh catalaíocha chatalaígh chatalaíoch
+36	8736	gaeloideachas	ghaeloideachais ghaeloideachas
+37	8737	suilfíd	shuilfíd suilfídí
+38	8738	sonáid	shonáid sonáide sonáidí
+39	8739	airdhirc	oirirc oirirce
+40	8740	asarlaí	asarlaithe hasarlaithe t-asarlaí
+41	8741	graonlainnis	ghraonlainnis graonlainnise
+42	8742	meitidisteach	meitidistigh mheitidisteach
+43	8743	aicsím	aicsímí haicsímí
+44	8744	aspairín	haspairín t-aspairín
+45	8745	athshonadóir	athshonadóirí athshonadóra hathshonadóir hathshonadóirí
+46	8746	bradaíl	bradaíola mbradaíl
+47	8747	breithnigh	bhreithnigh bhreithnithe breithneoidh breithnithe breithníodh breithníonn
+48	8748	calma	calm chalma
+49	8749	cordach	cordacha cordaigh cordaithe
+50	8750	faicseanaíocht	bhfaicseanaíocht faicseanaíochta fhaicseanaíocht
+51	8751	féichiúnaigh	bhféichiúnaithe fhéichiúnaí féichiúnaithe féichiúnaí
+52	8752	marbhna	marbhnaí mharbhna
+53	8753	mórcheannas	mhórcheannais mhórcheannas mórcheannais
+54	8754	ráib	ráibe
+55	8755	aindiachas	t-aindiachas
+56	8756	toirtís	toirtíse toirtísí
+57	8757	leifteanantchoirnéal	leifteanantchoirnéil
+58	8758	moráiv	mhoráiv moráive
+59	8759	mágach	
+60	8760	ascar	nascar
+61	8761	siséal	siséil tsiséil
+62	8762	aiméibe	aiméibí haiméibe
+63	8763	aonchineálach	haonchineálach
+64	8764	aorthóir	t-aorthóir
+65	8765	barrúil	barrúla bharrúil
+66	8766	beiril	beirile bheiril
+67	8767	breabaireacht	bhreabaireacht breabaireachta mbreabaireacht
+68	8768	búbónach	bhúbónach búbónaí
+69	8769	crábhadh	chrábhaidh crábhaidh
+70	8770	dearthóireacht	dearthóireachta
+71	8771	débhlaoscach	dhébhlaoscacha débhlaoscaigh
+72	8772	gó	ghó ngó
+73	8773	intreach	hintreach intreacha
+74	8774	leasmhar	leasmhara
+75	8775	lonracht	lonrachta
+76	8776	lárchóras	lárchórais
+77	8777	nanaitheicneolaíocht	nanaitheicneolaíochta
+78	8778	greanadóir	ghreanadóra ngreanadóir
+79	8779	nóisean	nóisin
+80	8780	pí	phí
+81	8781	réamh-mheastachán	réamh-mheastacháin
+82	8782	troitheán	dtroitheán troitheáin
+83	8783	trombóis	thrombóis trombóise
+84	8784	éigiptis	héigiptise éigiptise
+85	8785	ceannoifig	
+86	8786	oirear	oirir
+87	8787	aontoilíocht	aontoilíochta
+88	8788	bolta	boltaí
+89	8789	brilsce	
+90	8790	bárcadh	
+91	8791	caisligh	caisliú
+92	8792	cineghlanadh	
+93	8793	comhghaolmhar	comhghaolmhara
+94	8794	drochmhúinte	
+95	8795	easonóir	
+96	8796	fiacháil	féacháil
+97	8797	holagram	
+98	8798	éigiall	héigéille
+99	8799	ináitrithe	
+100	8800	liosachán	

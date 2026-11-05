@@ -1,0 +1,100 @@
+1	9901	brachán	bhrachán
+2	9902	brainseach	brainseacha
+3	9903	cailliúnach	cailliúnaithe cailliúnaí
+4	9904	caithréimeach	
+5	9905	casmhóimint	chasmhóimint
+6	9906	ceamaradóir	cheamaradóir gceamaradóir
+7	9907	coigeal	choigeal gcoigeal
+8	9908	cúlrach	chúlrach
+9	9909	claibín	chlaibín
+10	9910	cluasach	chluasacha
+11	9911	codlaidíneach	codlaidínigh
+12	9912	coiméideach	coiméideacha
+13	9913	comhshocrú	chomhshocrú comhshocraithe gcomhshocrú
+14	9914	créachtaigh	créachtaithe
+15	9915	cuartaíocht	cuartaíochta
+16	9916	daonnaigh	daonnaithe daonnaí ndaonnaí
+17	9917	deargnamhaid	deargnaimhde
+18	9918	drúis	drúise
+19	9919	débheathach	dhébheathacha débheathaigh
+20	9920	díthreabh	díthreibhe ndíthreabh
+21	9921	eischósta	
+22	9922	eitiléin	eitiléine
+23	9923	fo-rang	fho-rang fo-ranganna
+24	9924	formaildéad	fhormaildéid
+25	9925	frithchuarc	frithchuairc
+26	9926	fáilteach	
+27	9927	geallghlacadóir	geallghlacadóirí geallghlacadóra
+28	9928	gearrscéalaíocht	gearrscéalaíochta
+29	9929	gráinneach	ghráinneach ghráinneacha
+30	9930	gríobh	ghríobháin gríbhe gríobha
+31	9931	grúdaigh	ghrúdú grúdaithe grúdú
+32	9932	earráideach	earráideacha hearráideach
+33	9933	iarscoláire	iarscoláirí
+34	9934	idirchreidmheach	idirchreidmheacha
+35	9935	infhaighteacht	
+36	9936	inrochtaineacht	inrochtaineachta
+37	9937	iomaíochas	iomaíochais
+38	9938	ionúin	
+39	9939	labhandar	labhandair
+40	9940	luaidreán	luaidreáin
+41	9941	lóg	
+42	9942	lúbthacht	lúbthachta
+43	9943	lúfar	
+44	9944	meánlíne	mheánlíne
+45	9945	modúlach	mhodúlach modúlacha
+46	9946	moltóireacht	moltóireachta
+47	9947	innill	inleadh innealta n-inleadh n-innill
+48	9948	dugaire	dhugaire dugairí ndugairí
+49	9949	neamhchiontacht	neamhchiontachta
+50	9950	neamhdhíreach	neamhdhíreacha
+51	9951	neamhláithreacht	neamhláithreachta
+52	9952	neamhphósta	
+53	9953	neamhúdaraithe	
+54	9954	nua-stair	
+55	9955	onchú	
+56	9956	otair	otra
+57	9957	paipír	paipíre paipírí
+58	9958	polaraíocht	pholaraíocht polaraíochta
+59	9959	rásúr	rásúir
+60	9960	scriosach	scriosacha scriosaigh
+61	9961	scáfar	scáfara
+62	9962	seiftigh	seiftithe sheiftithe
+63	9963	smachtín	smachtíní
+64	9964	soinneán	soinneáin
+65	9965	speisialach	speisialaigh speisialú
+66	9966	spriocdhírigh	spriocdhírithe
+67	9967	stuáil	stuáilte
+68	9968	suimeálach	suimeálaí
+69	9969	sáraíocht	sáraíochta
+70	9970	síoróip	tsíoróip
+71	9971	súiteoir	súiteoirí
+72	9972	uaslathas	t-uaslathas uaslathais
+73	9973	áitreabhach	t-áitreabhach
+74	9974	taobhshlabhra	taobhshlabhraí
+75	9975	teiscinn	dteiscinn
+76	9976	tréscaoilteacht	thréscaoilteacht
+77	9977	triantánacht	triantánachta
+78	9978	triúraí	triúraithe
+79	9979	tímeas	tímis
+80	9980	éadrom-mheáchan	éadrom-mheáchain
+81	9981	íocshláinte	
+82	9982	tráchtálach	thráchtálaí tráchtálacha tráchtálaí
+83	9983	drochnós	drochnósanna
+84	9984	gaimbín	ghaimbín
+85	9985	paraisít	bparaisít bparaisítí paraisítí
+86	9986	teascóg	dteascóg teascóige theascóg
+87	9987	eachtraigh	eachtraithe eachtraíonn n-eachtraí
+88	9988	lachtadh	lachtaí
+89	9989	teanglann	
+90	9990	deais	
+91	9991	broghach	
+92	9992	ruaille	
+93	9993	orgánaí	
+94	9994	morsach	
+95	9995	rábach	
+96	9996	déliopach	
+97	9997	géineolaí	géineolaithe
+98	9998	báidín	bháidín
+99	9999	dearfa	dearbhtha
+100	10000	baictéareolaí	bhaictéareolaí mbaictéareolaí

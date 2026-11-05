@@ -1,0 +1,100 @@
+1	6801	tundra	dtundra thundra
+2	6802	blocáil	bhlocáil blocáilte blocála
+3	6803	spuaic	spuaice spuaiceanna
+4	6804	astraláise	hastraláise
+5	6805	damasc	damaisc
+6	6806	aimpéar	aimpéir t-aimpéar
+7	6807	scothghlas	scothghlasa
+8	6808	stang	stangadh
+9	6809	árd	
+10	6810	fallaing	bhfallaing fallainge fhallaing
+11	6811	comhthuiscint	chomhthuiscint comhthuisceana gcomhthuiscint
+12	6812	easnamhach	easnamhaigh heasnamhach
+13	6813	suirbhéir	shuirbhéir suirbhéirí
+14	6814	dochloíte	dhochloíte
+15	6815	íocón	híocóin íocóin
+16	6816	breab	bhreabadh breabadh breabanna breabtha breibe mbreabtha
+17	6817	aontreoch	
+18	6818	croíbhriste	
+19	6819	daid	dhaid
+20	6820	tácla	thácla táclaí
+21	6821	bunainm	bunainmneacha mbunainm
+22	6822	ochslaíoch	ochslaígh t-ochslaíoch
+23	6823	féinmhuinín	bhféinmhuinín féinmhuiníne
+24	6824	meáchanlár	mheáchanláir mheáchanlár
+25	6825	micriméadar	mhicriméadair mhicriméadar
+26	6826	toilleoir	toilleoirí toilleora
+27	6827	maorlathaí	maorlathaithe mhaorlathaí
+28	6828	siúlán	shiúlán siúláin
+29	6829	teaglaim	theaglaim
+30	6830	teochrios	teochreasa
+31	6831	ainnise	hainnise n-ainnise
+32	6832	measúnacht	measúnachta measúnachtaí mheasúnacht
+33	6833	drongadóir	dhrongadóirí drongadóirí drongadóra ndrongadóirí
+34	6834	bruitíneach	bhruitíneach bruitíní mbruitíneach
+35	6835	gabhlán	gabhláin ghabhláin ngabhlán
+36	6836	claonpháirteachas	chlaonpháirteachais chlaonpháirteachas claonpháirteachais gclaonpháirteachas
+37	6837	dubáil	dubáilte dubála
+38	6838	oideachasóir	b'oideachasóir n-oideachasóirí oideachasóirí
+39	6839	biosmat	bhiosmait bhiosmat biosmait
+40	6840	bailchríoch	bhailchríoch
+41	6841	ceathracha	cheathracha
+42	6842	deilt	dheilt ndeilt ndeilte
+43	6843	aeistéitic	aeistéitice
+44	6844	ascain	ascnamh ascnaíonn n-ascnamh n-ascnaíonn
+45	6845	fulangach	fhulangach fhulangacha fhulangaí fulangaithe fulangaí
+46	6846	guigh	ghuigh guitear guím guímid
+47	6847	tosaitheoir	thosaitheoir thosaitheoirí tosaitheoirí
+48	6848	cóbalt	chóbailt chóbalt cóbailt gcóbalt
+49	6849	buacach	bhuacach bhuacacha buacaí
+50	6850	daoineach	daoiní
+51	6851	miondifríocht	miondifríochtaí
+52	6852	neamhghníomhach	
+53	6853	neamhsháithithe	
+54	6854	nideog	nideoga nideoige
+55	6855	deil	deila deilte
+56	6856	ráithiúil	ráithiúla
+57	6857	aerasól	aerasóil
+58	6858	casachtach	casachtaí chasachtach
+59	6859	comhfhiontar	comhfhiontair
+60	6860	fardoras	bhfardoras fardorais
+61	6861	glár	ghlár gláir
+62	6862	iontaoibh	hiontaoibh
+63	6863	neamhriachtanach	neamhriachtanacha
+64	6864	dísle	dhísle díslí ndísle
+65	6865	buaireamh	bhuaireamh buairimh
+66	6866	léasaigh	léasaithe léasú
+67	6867	beannú	bheannaithe bheannú mbeannú
+68	6868	falscaí	bhfalscaithe falscaithe
+69	6869	tuairín	
+70	6870	allta	
+71	6871	speisialtóir	speisialtóirí speisialtóra
+72	6872	tuairteáil	thuairteáil
+73	6873	uiscedhath	huiscedhathanna uiscedhatha uiscedhathanna
+74	6874	anraith	anraithí t-anraith
+75	6875	antraipeolaíocht	antraipeolaíochta hantraipeolaíochta
+76	6876	fabht	fabhta fabhtanna fhabht
+77	6877	deoir	deoire deor dheoir ndeor
+78	6878	príomhach	bpríomhach phríomhaigh príomhacha príomhaigh
+79	6879	meirleach	meirligh mheirleach mheirligh
+80	6880	conablach	chonablach conablaigh
+81	6881	crioptón	chrioptóin crioptóin
+82	6882	cuspóireach	gcuspóireach
+83	6883	garáiste	garáistí gharáiste ngaráiste ngaráistí
+84	6884	pinniúr	bpinniúr phinniúr pinniúir
+85	6885	traonach	traona traonaigh
+86	6886	ballnasc	ballnaisc bhallnaisc bhallnasc
+87	6887	dícháiligh	dícháilithe dícháiliú dícháilíodh
+88	6888	teist	dteist teiste theist
+89	6889	iath	iaith
+90	6890	armóin	armóiní harmóin harmóine
+91	6891	beirilliam	bheirilliam mbeirilliam
+92	6892	cnapán	chnapáin chnapán cnapáin gcnapáin gcnapán
+93	6893	cosantach	chosantach cosantacha cosantaí
+94	6894	crúbach	chrúbach chrúbacha crúbaigh
+95	6895	anatamaí	anatamaithe
+96	6896	dúnorgain	dhúnorgain dúnoircne ndúnorgain
+97	6897	tiomnú	thiomnú
+98	6898	buaiteach	bhuaiteach
+99	6899	crosach	
+100	6900	feinitíopa	feinitíopaí

@@ -1,0 +1,100 @@
+1	5101	gnúis	ghnúis gnúise ngnúis
+2	5102	fuiligh	fhuiliú fuilithe fuiliú
+3	5103	fabhrach	fabhracha fhabhrach fhabhracha fábhrach
+4	5104	aclaíocht	aclaíochta haclaíocht haclaíochta
+5	5105	giolcach	ghiolcach ghiolcaí giolcacha giolcaigh giolcaí ngiolcach
+6	5106	cógaisíocht	chógaisíochta cógaisíochta gcógaisíocht
+7	5107	struchtúrach	struchtúracha
+8	5108	fluairíd	bhfluairíd fhluairíd fhluairíde fluairíde
+9	5109	ceartúchán	ceartúcháin cheartúcháin cheartúchán
+10	5110	eitlíocht	eitlíochta heitlíochta
+11	5111	poblachtachas	bpoblachtachas phoblachtachais phoblachtachas poblachtachais poblachtánachais poblachtánachas
+12	5112	aindiachaí	aindiachaithe haindiachaithe n-aindiachaithe t-aindiachaí
+13	5113	eabhair	
+14	5114	gnéasacht	ghnéasacht gnéasachta ngnéasacht
+15	5115	bleachtaireacht	bhleachtaireachta bleachtaireachta
+16	5116	gnáthamh	ghnáthaimh ghnáthamh gnáthaimh ngnáthamh
+17	5117	santach	santacha santaigh santú shantaigh
+18	5118	raidhse	
+19	5119	athdhéanamh	athdhéanta
+20	5120	dothuigthe	dhothuigthe
+21	5121	fiachas	bhfiachas fiachais
+22	5122	leithleach	leithleacha leithleasach
+23	5123	uraigh	n-uraítear uraithe uraí uraíodh uraíonn uraítear
+24	5124	ionchollaigh	d'ionchollaigh ionchollaithe ionchollú n-ionchollaítear
+25	5125	meánmheáchan	meánmheáchain mheánmheáchain
+26	5126	gram	ghraim ghram graim ngraim ngram
+27	5127	srí	shrí tsrí
+28	5128	cuach	chuach cuacha cuachann cuachta cuaich cuaiche gcuach
+29	5129	monacó	mhonacó
+30	5130	ainmníocht	ainmníochta d'ainmníocht hainmníocht hainmníochta
+31	5131	aneas	andeas
+32	5132	optaic	hoptaic hoptaice optaice
+33	5133	clúmh	chlúmh clúimh gclúmh
+34	5134	eachtraíocht	eachtraíochta heachtraíochta
+35	5135	próstatach	phróstatach phróstataigh próstatacha próstataigh próstataí
+36	5136	trasghearradh	dtrasghearradh thrasghearradh trasghearrtha trasghearrthacha
+37	5137	comhcheangailte	chomhcheangailte
+38	5138	grán	ghrán ngrán
+39	5139	laistiar	
+40	5140	giúis	ghiúis ghiúise giúise
+41	5141	ollphléasc	hollphléisce
+42	5142	clochaois	chlochaois clochaoise gclochaois
+43	5143	plútóiniam	bplútóiniam phlútóiniam
+44	5144	stáitsigh	stáitsithe stáitsiú stáitsíodh stáitsítear
+45	5145	aspalda	
+46	5146	clóigh	chlódh chlóigh chlóite chlónna clódh clóite clóitear gclónna
+47	5147	idirchontae	
+48	5148	sobalchlár	sobalchláir
+49	5149	béising	bhéising mbéising
+50	5150	easpach	easpacha easpaigh heaspach
+51	5151	séasúrach	shéasúrach séasúracha
+52	5152	seascann	seascainn seisceann
+53	5153	bolgán	bholgáin bholgán bolgáin mbolgáin mbolgán
+54	5154	láib	láibe
+55	5155	feachtasóir	feachtasóirí fheachtasóir fheachtasóirí
+56	5156	díograiseoir	dhíograiseoir dhíograiseoirí díograiseoirí díograiseora ndíograiseoirí
+57	5157	beocht	beochta bheocht mbeocht
+58	5158	anallód	
+59	5159	drochbhail	
+60	5160	striapachas	striapachais
+61	5161	mí-ádh	mhí-ádh mhí-áidh
+62	5162	promhadh	phromhadh profa profaí promhaidh
+63	5163	nítreach	nítrigh
+64	5164	tabhall	tabhaill thabhaill thabhall
+65	5165	neamhchruinn	neamhchruinne
+66	5166	fódaigh	bhfódú fhódú fódú
+67	5167	gráinseach	ghráinseach gráinsí ngráinseach ngráinsí
+68	5168	baictéarach	baictéaracha bhaictéarach bhaictéaracha bhaictéaraigh
+69	5169	critéar	chritéar chritéir critéir gcritéar gcritéir
+70	5170	éilipseach	héilipseach éilipseacha
+71	5171	leithcheal	leithcheala
+72	5172	litiam	
+73	5173	foirmíocht	bhfoirmíocht bhfoirmíochtaí d'fhoirmíochtaí fhoirmíocht fhoirmíochtaí foirmíochta foirmíochtaí
+74	5174	rúidbhealach	rúidbhealaigh rúidbhealaí
+75	5175	cisteoir	chisteoir chisteora gcisteoir
+76	5176	gleoite	ghleoite
+77	5177	ultrafhuaim	hultrafhuaim ultrafhuaime
+78	5178	corraitheach	chorraitheach chorraithigh corraitheacha corraithí
+79	5179	sailleach	sailleacha saillí shailleacha shailligh
+80	5180	blascaodaí	mblascaodaí
+81	5181	breoiteacht	bhreoiteacht bhreoiteachta breoiteachta breoiteachtaí
+82	5182	sáithithe	sháithithe
+83	5183	mionnach	mhionnaigh mhionnú mionnaí
+84	5184	rúnseirbhís	rúnseirbhíse rúnseirbhísí
+85	5185	scanrúil	scanraitheach scanrúla
+86	5186	píce	phíce phící pící
+87	5187	measúnaigh	measúnaithe measúnaíodh mheasúnaigh mheasúnaithe mheasúnaítear
+88	5188	frithionsaí	bhfrithionsaí fhrithionsaithe fhrithionsaí
+89	5189	foinseach	fhoinseach
+90	5190	moileasc	moilisc
+91	5191	fíorúil	fhíorúil fhíorúla fíorúla
+92	5192	corparáideach	chorparáideach chorparáideacha chorparáidigh corparáideacha
+93	5193	crúb	chrúb chrúba crúba crúibe gcrúb gcrúba
+94	5194	cráigh	chrádh chráigh chráite chránn crádh cráite
+95	5195	impigh	d'impigh d’impigh impím impímid impíodar impíonn impítear
+96	5196	poc	bpoc phoc phoic
+97	5197	treallchogaí	dtreallchogaithe threallchogaithe threallchogaí treallchogaithe
+98	5198	sceitse	sceitsí
+99	5199	raic	raice
+100	5200	táinsigh	dtáinseofaí tháinseamh tháinsigh tháinsimh tháinsíodh táinseamh táinsimh táinsíodh

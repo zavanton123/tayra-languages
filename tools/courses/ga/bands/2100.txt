@@ -1,0 +1,100 @@
+1	2001	próiseáil	bpróiseáil bpróiseáiltear phróiseáil phróiseáilte phróiseála phróiseálann próiseáilte próiseála próiseálann
+2	2002	tionsclaíoch	thionsclaíoch thionsclaíocha tionsclaíche tionsclaíocha
+3	2003	buntáiste	bhuntáiste bhuntáistí buntáistí mbuntáiste mbuntáistí
+4	2004	prótón	bprótón phrótóin phrótón prótóin
+5	2005	nimh	nimhe nimheanna
+6	2006	aisce	
+7	2007	dobhar	dhobhair dhobhar dobhair ndobhar
+8	2008	cinniúint	chinniúint chinniúintí chinniúna cinneamhain cinniúintí cinniúna gcinniúint gcinniúintí gcinniúna
+9	2009	mínigh	mhíneodh mhíneoidh mhínigh mhínithe mhíníodh mhíníonn mhínítear mínithe míníodar míníodh míníonn mínítear mínítí
+10	2010	imoibriú	t-imoibriú
+11	2011	bandia	bandé bandéithe bhandia bhandé bhandéithe mbandia
+12	2012	sreabh	shreabh shreabhadh sreabha sreabhadh sreafa sreafaí tsreabh tsreafa
+13	2013	náisiúnachas	náisiúnachais
+14	2014	aontú	n-aontú
+15	2015	coimhthíoch	choimhthígh choimhthíoch choimhthíocha coimhthigheach coimhthígh coimhthíocha
+16	2016	pálás	bpálás pháláis phálás páláis
+17	2017	matamaiticeoir	matamaiticeoirí mhatamaiticeoir mhatamaiticeoirí mhatamaiticeora
+18	2018	aiste	d'aistí d’aiste d’aistí haiste haistí n-aiste n-aistí t-aiste
+19	2019	rannán	rannáin
+20	2020	tábhairne	dtábhairne dtábhairní tabhairne tabháirne thábhairne tábhairní
+21	2021	cinntiú	chinntiú
+22	2022	dúpholl	dhúphoill dhúpholl dúphoill ndúphoill ndúpholl
+23	2023	bréag	bhréag bhréaga bhréagadh bréaga mbréag mbréaga
+24	2024	coinbhinsiún	choinbhinsiúin choinbhinsiún coinbhinsiúin gcoinbhinsiún
+25	2025	luch	lucha luiche
+26	2026	fuascailt	bhfuascailt bhfuascailte d'fhuascailt fhuascailt fhuascailte fuascailte fuascailtí
+27	2027	crith	chreathanna chrith chritheann creathanna critheann gcreathanna gcrith gcritheann
+28	2028	éabhlóid	d'éabhlóid d’éabhlóid héabhlóid héabhlóide n-éabhlóid éabhlóide
+29	2029	tipiciúil	thipiciúil tipiciúla
+30	2030	sealbhach	sealbhacha sealbhaigh sealbhódh shealbhach shealbhaigh
+31	2031	turasóir	dturasóirí thurasóir thurasóirí turasóirí
+32	2032	ceardchumann	ceardchumainn cheardchumainn cheardchumann gceardchumainn gceardchumann
+33	2033	cosantóir	chosantóir chosantóirí chosantóra cosantóirí cosantóra gcosantóir gcosantóirí
+34	2034	craoltóir	chraoltóir chraoltóirí chraoltóra craoltóirí gcraoltóir gcraoltóirí
+35	2035	bealadh	bealaidh bhealadh bhealaidh bhealaí mbealaí
+36	2036	comhaontas	chomhaontais chomhaontas comhaontais gcomhaontas
+37	2037	bruachbhaile	bhruachbhaile bhruachbhailte bruachbhailte mbruachbhaile mbruachbhailte
+38	2038	cáis	cháis cháise cáise cáiseanna gcáis
+39	2039	sealbhú	sealbhaithe shealbhú
+40	2040	buaiteoir	bhuaiteoir bhuaiteoirí bhuaiteora buaiteoirí mbuaiteoir mbuaiteoirí
+41	2041	iomráiteach	b'iomráití iomráiteacha iomráitigh iomráití
+42	2042	breathnaigh	bhreathnaigh bhreathnaithe bhreathnaíonn bhreathnaítear bhreathnaítí bhreathnódh breathnaithe breathnaíd breathnaím breathnaíodh breathnaíonn breathnaítear breathnóidh mbreathnaíonn mbreathnaítear mbreathnódh mbreathnófaí
+43	2043	eolaíoch	eolaíche eolaíocha heolaíoch
+44	2044	malartaigh	malartaithe malartaíodh malartaíonn malartaítear malartú mhalartaigh mhalartaithe mhalartaíodh mhalartaíonn mhalartaítear mhalartú
+45	2045	saibhreas	saibhris shaibhreas tsaibhreas tsaibhris
+46	2046	cileagram	chileagraim chileagram cileagraim kg
+47	2047	aonach	aonaigh aontaí haonach haontaí t-aonach
+48	2048	bainteach	bainteacha bhainteach
+49	2049	tiománaí	dtiománaithe dtiománaí thiománaithe thiománaí tiománaithe
+50	2050	finscéal	bhfinscéal bhfinscéalta d'fhinscéalta d’fhinscéalta fhinscéal fhinscéalta fhinscéil finscéalta finscéil
+51	2051	tráchtas	dtráchtais dtráchtas tráchtais
+52	2052	deachtaigh	deachtaithe deachtóir deachtóra dheachtaigh
+53	2053	ádh	d’ádh t-ádh áidh
+54	2054	airgeadra	airgeadraí d'airgeadra d’airgeadraí hairgeadra hairgeadraí n-airgeadraí t-airgeadra
+55	2055	ochtach	ochtaigh t-ochtú
+56	2056	druid	dhruid dhruideadh dhruideann dhruidte druideadh druideann druideanna druidim druidte ndruideann ndruideanna ndruidfí
+57	2057	doiciméad	dhoiciméad dhoiciméid doiciméid ndoiciméad ndoiciméid
+58	2058	ionfhabhtaigh	d'ionfhabhtú d’ionfhabhtú hionfhabhtú ionfhabhtaithe ionfhabhtaíodh ionfhabhtaíonn ionfhabhtaítear n-ionfhabhtaíonn
+59	2059	saintréith	saintréithe shaintréith shaintréithe tsaintréith
+60	2060	comónta	chomónta
+61	2061	meaisín	maisín meaisíní mheaisín mheaisíní
+62	2062	cáiligh	cháiligh cháilithe cháiliú cháilíonn cáilithe cáiliú cáilíodh cáilíonn gcáileoidís
+63	2063	án	háine hán áin áine
+64	2064	síneadh	shíneadh
+65	2065	rugbaí	
+66	2066	deighilt	deighilte deighiltí dheighilt dheighilte dheighiltí ndeighilt
+67	2067	drámadóir	dhrámadóir dhrámadóirí drámadóirí drámadóra ndrámadóir ndrámadóirí
+68	2068	fireann	fhireann fhireanna fhirinn fireanna firinne
+69	2069	srian	shrian shrianadh sriain srianadh sriantaí tsriain tsrian
+70	2070	banaltra	banaltraí bhanaltra bhanaltraí
+71	2071	timpeallaigh	dtimpeallaíonn dtimpeallú thimpeallaigh thimpeallaíonn thimpeallú timpeallaithe timpeallaíodh timpeallaíonn timpeallú
+72	2072	ríshliocht	ríshleachta
+73	2073	each	eacha eich n-each t-each
+74	2074	saotharlann	saotharlainne saotharlanna shaotharlann shaotharlanna tsaotharlann
+75	2075	laidineach	laidineacha laidinigh laidiní
+76	2076	salann	salainn shalann tsalainn
+77	2077	ocsaídiúchán	ocsaídiúcháin
+78	2078	inse	d'inse d’inse hinse innse insí n-inse ninse
+79	2079	corr	choirre chorr chorra coirre corra gcorr gcorra
+80	2080	mór-roinn	mhór-ranna mhór-roinn mhór-roinne mór-ranna mór-roinne mórroinn
+81	2081	aingeal	aingil aingle haingeal haingil n-aingeal t-aingeal
+82	2082	fráma	bhfráma bhfrámaí fhráma fhrámaí frámaí
+83	2083	salach	saileach sailí salacha salaigh salaí shaileach shailí shalach tsaileach tsalach
+84	2084	amú	
+85	2085	minicíocht	mhinicíocht mhinicíochta mhinicíochtaí minicíochta minicíochtaí
+86	2086	sáigh	sháigh sháite sháitear shánn sádh sáimis sáite sáitear sánn tsá
+87	2087	seisear	seisir sheisear sheisir tseisear tseisir
+88	2088	mí-úsáid	mhí-úsáid mí-úsáide
+89	2089	fostaithe	bhfostaithe fhostaithe
+90	2090	togh	dtoghann dtoghfar dtoghfaí dtoghtar thogh thoghadar thoghann thoghfar thoghfaí thoghtar thoghtaí toghann toghfar toghtar toghtaí
+91	2091	buile	bhuile
+92	2092	daichead	dachad daichid daichidí dhaichead dhaichidí ndaichead ndaichidí
+93	2093	fál	bhfál bhfálta fhál fhálta fálta
+94	2094	ioncam	d'ioncam d’ioncam hioncaim hioncam ioncaim n-ioncam t-ioncam
+95	2095	básaigh	bhásaigh bhásaíonn bhásaítear básaíodh básaíonn mbásódh
+96	2096	treibh	dtreibh threibh threibheanna
+97	2097	bunreachtúil	bhunreachtúil bhunreachtúla bunreachtúla
+98	2098	trádálach	dtrádálaithe thrádálach thrádálacha thrádálaigh thrádálaithe thrádálaí trádálacha trádálaithe trádálaí
+99	2099	ardrí	airdrí ardríthe d'ardrí hardrí hardríthe n-ardríthe t-ardrí
+100	2100	fuaimniú	bhfuaimniú fhuaimniú

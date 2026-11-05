@@ -1,0 +1,100 @@
+1	2101	ceoldráma	ceoldrámaí cheoldráma cheoldrámaí gceoldráma gceoldrámaí
+2	2102	stán	staon staonadh stáin stánadh
+3	2103	claíomh	chlaimhte chlaímh chlaíomh claidheamh claimhte claímh gclaimhte gclaíomh
+4	2104	cothromóid	chothromóid chothromóidí cothromóide cothromóidí gcothromóid gcothromóidí
+5	2105	mín	mhín mhíne míne
+6	2106	bolscaireacht	bholscaireacht bholscaireachta bolscaireachta mbolscaireacht
+7	2107	fachtóir	bhfachtóir bhfachtóirí d'fhachtóir fachtóirí fhachtóir fhachtóirí
+8	2108	ceanncheathrú	ceanncheathrún ceanncheathrúna cheanncheathrú cheanncheathrúna gceanncheathrú
+9	2109	mothaigh	mhothaigh mhothaithe mhothaíonn mhothaítear mhothóidh mhothú mothaithe mothaídís mothaím mothaíodh mothaíonn mothaítear mothódh mothóidh mothú
+10	2110	eilimint	d'eilimintí eiliminte eilimintí heilimintí n-eilimintí
+11	2111	pé	
+12	2112	tochail	dtochailt dtochailtí dtochlaíonn thochail thochailt thochailte thochailtí thochlaíonn tochailt tochailte tochailtí tochlaíodh tochlaíonn tochlaítear
+13	2113	admhaigh	admhaithe admhaí admhaím admhaímid admhaíodh admhaíonn admhaítear d'admhaigh d'admhaíodar d'admhaíomar d’admhaigh n-admhaíonn n-admhaítear n-admhódh
+14	2114	inscne	hinscne hinscní inscní n-inscne
+15	2115	feithicil	bhfeithicil bhfeithiclí d'fheithiclí d’fheithiclí feithicle feithiclí fheithicil fheithiclí
+16	2116	féar	bhféar d'fhéar d’fhéar fhéar fhéir féara féir
+17	2117	cóngarach	chóngarach chóngaracha chóngaraí cóngaracha cóngaraí
+18	2118	taiscéalaí	dtaiscéalaí taiscéalaithe thaiscéalaithe thaiscéalaí
+19	2119	roth	rotha rothaithe rothaí
+20	2120	diúltú	dhiúltú ndiúltú
+21	2121	tairiscint	dtairiscint tairisceana tairiscintí thairiscint thairiscintí
+22	2122	áitreabh	b’áitreabh d'áitreabh d'áitribh d’áitribh háitreabh háitribh n-áitreabh t-áitreabh áitribh áitríonn
+23	2123	ullmhú	d'ullmhú hullmhú n-ullmhú ullmhuithe
+24	2124	neartaigh	neartaithe neartaíodh neartaíonn neartaítear neartódh neartófar neartófaí neartú
+25	2125	deasghnáth	deasghnátha dheasghnáth dheasghnátha ndeasghnáth ndeasghnátha
+26	2126	bloc	bhloc bhloic bloic mbloc mbloic
+27	2127	stiúideo	stiúideonna
+28	2128	solad	sholad sholaid solaid tsolaid
+29	2129	bearna	bearnan bearnaí bhearna bhearnaí mbearna mbearnaí
+30	2130	mill	meille mhill mhilleadh mhilleann mhillfeadh mhillfidh mhillte mhilltear milla mille milleadh milleann millfeadh millfear millim millte milltear milltí
+31	2131	fuaimnigh	bhfuaimneofaí bhfuaimníodh bhfuaimníonn bhfuaimnítear d'fhuaimneodh d'fhuaimnigh d'fhuaimniú d'fhuaimnítí fhuaimnithe fhuaimníonn fhuaimnítear fuaimnithe fuaimníodh fuaimníonn fuaimnítear
+32	2132	trealamh	dtrealamh threalaimh threalamh trealaimh
+33	2133	eaglasta	
+34	2134	maill	maille
+35	2135	dátheangach	dhátheangach dhátheangacha dhátheangaigh dátheangacha dátheangaigh
+36	2136	cime	chime chimí cimí gcimí
+37	2137	dias	deus dhias dhéise diasa déas déis déise ndéise
+38	2138	gnólacht	ghnólacht ghnólachta ghnólachtaí gnólachta gnólachtaí ngnólacht ngnólachtaí
+39	2139	aistritheoir	aistritheoirí aistritheora d’aistritheoirí haistritheoir haistritheoirí n-aistritheoirí t-aistritheoir
+40	2140	forógra	bhforógra bhforógraí d'fhorógra fhorógra forógraí
+41	2141	íde	híde m'íde íd
+42	2142	eachtrannach	eachtrannacha eachtrannaigh heachtrannach heachtrannaigh t-eachtrannach
+43	2143	ór	d'ór d’ór hóir hór t-ór
+44	2144	comhluadar	chomhluadair chomhluadar comhluadair gcomhluadar
+45	2145	oirthuaisceart	d'oirthuaisceart n-oirthuaisceart oirthuaiscirt t-oirthuaisceart
+46	2146	comhrialtas	chomhrialtais chomhrialtas comhrialtais gcomhrialtais gcomhrialtas
+47	2147	anáil	anála análacha d’anáil hanáil hanála n-anáil
+48	2148	breathnóir	bhreathnóir bhreathnóirí bhreathnóra breathnadóir breathnaitheoir breathnóirí breathnóra mbreathnóir mbreathnóirí
+49	2149	ballraíocht	ballraíochta bhallraíocht bhallraíochta mballraíocht
+50	2150	feasta	
+51	2151	lia	lianna
+52	2152	leathré	leathréanna
+53	2153	scoth	scotha scothanna
+54	2154	stuaim	stuaime
+55	2155	earrach	earraigh hearrach t-earrach
+56	2156	muirí	mhuirí muirithe
+57	2157	ingearach	hingearach ingearacha ingearaí
+58	2158	cartlann	cartlainne cartlanna chartlainne chartlann chartlanna gcartlann gcartlanna
+59	2159	troigh	dtroigh dtroithe throigh throithe troighe troithe
+60	2160	ionstraim	hionstraim hionstraime hionstraimí ionstraime ionstraimí n-ionstraimí
+61	2161	masc	maisc masca mhaisc mhasc
+62	2162	scannánaíocht	scannánaíochta
+63	2163	aidiacht	aidiachta aidiachtaí haidiacht haidiachta haidiachtaí n-aidiacht n-aidiachtaí
+64	2164	foilsitheoir	bhfoilsitheoir bhfoilsitheoirí d'fhoilsitheoirí fhoilsitheoir fhoilsitheoirí fhoilsitheora foilsitheoirí foilsitheora
+65	2165	feidhmiúchán	feidhmiúcháin fheidhmiúcháin fheidhmiúchán
+66	2166	dearbhú	dearbhuithe dhearbhuithe dhearbhú ndearbhuithe ndearbhú
+67	2167	fionnachtain	bhfionnachtain bhfionnachtana d'fhionnachtain d'fhionnachtana fhionnachtain fhionnachtana fionnachtana
+68	2168	lonnaigh	lonnaíodh lonnaíonn lonnaítear lonnódh lonnófar lonnófaí lonnóidh lonnú
+69	2169	iolra	hiolraí iolraí t-iolra
+70	2170	baineannach	baineannacha baineannaigh bhaineannach bhaineannacha bhaineannaigh mbaineannach
+71	2171	greamaigh	ghreamaigh ghreamaithe ghreamaíodh ghreamaíonn ghreamaítear ghreamófaí ghreamóidh greamaithe greamaíonn greamaítear ngreamaíonn ngreamaítear
+72	2172	pór	bpóireanna bpór phóir phóireanna phór póir póireanna pórtha
+73	2173	iriseoireacht	d'iriseoireacht hiriseoireacht hiriseoireachta iriseoireachta
+74	2174	tonnfhad	dtonnfhad dtonnfhaid thonnfhad thonnfhaid tonnfhaid
+75	2175	sábháil	shábháil shábhálann shábhálfadh shábhálfá sábháilt sábháiltear sábhála sábháladh sábhálann sábhálfaidh sábhálfar sábhálfaí
+76	2176	bob	bab bhob bobanna
+77	2177	beathaisnéis	beathaisnéise bheathaisnéis bheathaisnéise mbeathaisnéis
+78	2178	seift	seifteanna sheift sheifteanna tseift
+79	2179	greann	ghreann ghrinn ngreann
+80	2180	fostaigh	bhfostú d'fhostaigh d'fhostaithe d’fhostaigh d’fhostaithe d’fhostaíodh fhostaigh fhostaíonn fhostaítear fhostú fostaíodh fostaíonn fostaítear fostú
+81	2181	síneas	shíneas sínis tsínis
+82	2182	fiosrúchán	bhfiosrúcháin bhfiosrúchán d'fhiosrúchán d’fhiosrúchán fhiosrúcháin fhiosrúchán fiosrúcháin
+83	2183	rangaigh	rangaithe rangaíodh rangaíonn rangaítear rangófaí
+84	2184	taighdeoir	dtaighdeoirí taighdeoirí taighdeora thaighdeoir thaighdeoirí
+85	2185	neamhghnách	neamhghnácha neamhghnáiche
+86	2186	dealaigh	dealaithe dealaíodh dealaíonn dealaítear dealú dhealaigh dhealaíonn dhealaítear dhealú
+87	2187	neach	neacha
+88	2188	fáisc	bhfáisctear d'fháisc d'fháiscfeadh d’fháiscfeadh fháisc fháisceadh fháisctear fháscadh fáisceadh fáisceann fáisctear fáiscthe fáscadh
+89	2189	cearr	cearra chearr chearra gcearr
+90	2190	léacht	léachta léachtaí
+91	2191	iúr	d'iúr iúir t-iúr
+92	2192	ceannaireacht	ceannaireachta cheannaireacht cheannaireachta gceannaireacht
+93	2193	tarlú	dtarluithe tarluithe tharlú
+94	2194	garmhac	garmhic gharmhac gharmhic ngarmhac
+95	2195	marthain	mharthain mharthana
+96	2196	intíre	hintíre
+97	2197	fostaíocht	bhfostaíocht fhostaíocht fhostaíochta fostaíochta
+98	2198	sainigh	sainithe sainiú sainíodh sainíonn sainítear shainigh shainithe shainiú shainíonn shainítear
+99	2199	dochtúireacht	dhochtúireacht dhochtúireachta dhochtúireachtaí dochtúireachta dochtúireachtaí
+100	2200	tuaslagán	dtuaslagáin dtuaslagán thuaslagáin thuaslagán tuaslagáin

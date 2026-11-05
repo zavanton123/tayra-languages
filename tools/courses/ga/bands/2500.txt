@@ -1,0 +1,100 @@
+1	2401	fabhar	bhfabhar fabhair fabhracha fhabhar
+2	2402	gadaí	gadaithe ghadaithe ghadaí ngadaí
+3	2403	ríogacht	ríogachta
+4	2404	corda	chorda cordaí gcorda gcordaí
+5	2405	comhairligh	chomhairligh chomhairliú chomhairlítí comhairliú comhairlím comhairlíodh comhairlíonn
+6	2406	cosmhuintir	chosmhuintir cosmhuintire gcosmhuintir
+7	2407	inite	
+8	2408	matamaiticiúil	matamaiticiúla mhatamaiticiúil mhatamaiticiúla
+9	2409	cliabhán	chliabháin chliabhán cliabháin gcliabháin gcliabhán
+10	2410	teangeolaíocht	dteangeolaíocht teangeolaíochta theangeolaíocht theangeolaíochta
+11	2411	toll	dtoll dtolla thoill tholl tholla tholladh toille toilleadh tolladh tollta
+12	2412	creidiúint	chreidiúint chreidiúna creidiúintí creidiúna gcreidiúintí
+13	2413	imtharraingt	himtharraingt himtharraingthe imtharraingthe
+14	2414	cumannachas	chumannachais chumannachas cumannachais gcumannachas
+15	2415	sinc	shinc since tsinc
+16	2416	sár	shár sáir tsáir tsár
+17	2417	fionnuisce	bhfionnuisce d'fhionnuisce fhionnuisce
+18	2418	teith	dteitheann teite teitheann theith theitheadar theitheann
+19	2419	teicniúil	teicniúla theicniúil theicniúla
+20	2420	ciorclach	chiorclach chiorclacha ciorclacha
+21	2421	cliseadh	chliseadh chliste gcliseadh
+22	2422	gal	gail gaile gala ghail ghaile ghal ngal ngala
+23	2423	fothrach	bhfothrach bhfothracha bhfothraigh d'fhothrach d'fhothraigh fhothrach fhothracha fhothraigh fothracha fothraigh
+24	2424	tanaí	tana thanaí
+25	2425	cadhan	cadhain caidhne chadhain
+26	2426	camchuairt	camchuairte camchuairteanna chamchuairt chamchuairteanna gcamchuairt
+27	2427	punt	bpunt phuint phunt puint
+28	2428	éideann	
+29	2429	seachtar	seachtair sheachtar tseachtair tseachtar
+30	2430	réamhrá	réamhráite
+31	2431	púdar	bpúdar phúdair phúdar púdair
+32	2432	lánúin	lánú lánúine lánúineacha lánúnacha
+33	2433	brabús	bhrabúis bhrabús brabúis mbrabús
+34	2434	both	bhoth bhotha botha bothanna mboth mbothanna
+35	2435	satailít	satailíte satailítí shatailít shatailítí tsatailít
+36	2436	aonú	aonaithe haonú n-aonú t-aonú
+37	2437	scata	scaifte scataí scota
+38	2438	re	ria rianna ribh riot riú
+39	2439	mianach	mhianach mhianaigh mianaigh mianaí
+40	2440	buiséad	bhuiséad bhuiséid buiséid mbuiséad
+41	2441	tíreolaíocht	dtíreolaíocht thíreolaíocht thíreolaíochta tíreolaíochta
+42	2442	tiontaigh	dtiontaítear thiontaigh thiontaithe thiontaíonn thiontaítear thiontóidh tiontaithe tiontaíodh tiontaíonn tiontaítear
+43	2443	seachtainiúil	seachtainiúla sheachtainiúil sheachtainiúla
+44	2444	foilsitheoireacht	bhfoilsitheoireacht fhoilsitheoireacht fhoilsitheoireachta foilsitheoireachta
+45	2445	nítrigin	nítrigine
+46	2446	nath	natha nathanna
+47	2447	comharsa	chomharsa chomharsan chomharsana comharsan comharsana gcomharsa gcomharsan gcomharsana
+48	2448	machnamh	machnaimh mhachnaimh mhachnamh
+49	2449	iománaíocht	hiománaíochta iománaíochta
+50	2450	ísligh	d'ísligh d’ísligh hísliú n-ísleodh n-ísleofaí n-íslítear t-ísliú íslithe ísliú íslíodh íslíonn íslítear
+51	2451	tréad	dtréad dtréada thréad thréada tréada
+52	2452	corónach	chorónach corónacha corónaigh corónaí gcorónach
+53	2453	rac-cheol	rac-cheoil
+54	2454	léitheoireacht	léitheoireachta
+55	2455	foláir	fholáir foráil foráiltear
+56	2456	uathúil	huathúil uathúla
+57	2457	fulaingt	bhfulaingt d'fhulaingt d’fhulaingt fhulaingt fulaingthe fulang
+58	2458	dornán	dhornán dornáin
+59	2459	ainmniúchán	ainmniúcháin d'ainmniúchán d’ainmniúcháin d’ainmniúchán hainmniúcháin hainmniúchán n-ainmniúchán t-ainmniúchán
+60	2460	cúntóir	chúntóir chúntóirí cúntóirí gcúntóir gcúntóirí
+61	2461	corrán	chorráin chorrán corráin gcorráin gcorrán
+62	2462	teileascóp	dteileascóip dteileascóp teileascóip theileascóip theileascóp
+63	2463	rialachán	rialacháin
+64	2464	leasaigh	leasaithe leasaíodh leasaíonn leasaítear
+65	2465	anlann	anlainn d'anlainn hanlann t-anlann
+66	2466	comhoibrigh	chomhoibrigh chomhoibrithe chomhoibriú chomhoibrí chomhoibríonn comhoibrithe comhoibrí comhoibríonn gcomhoibreodh gcomhoibreoidís gcomhoibriú
+67	2467	ceannródaí	ceannródaithe cheannródaithe cheannródaí gceannródaithe gceannródaí
+68	2468	déantóir	dhéantóir dhéantóirí déantasóir déantóirí déantóra déantúsóir déantúsóirí ndéantóirí
+69	2469	brúigh	bhrúdh bhrúfaidh bhrúid bhrúigh bhrúis bhrúitear bhrúnn bhrúnna brúdh brúfar brúitear brúnn mbrúfadh mbrúfar mbrúfaí mbrúitear mbrúnn mbrúnna
+70	2470	neacht	neachtanna
+71	2471	barún	barúin bharúin bharún mbarúin mbarún
+72	2472	roisín	roisíní róisín
+73	2473	eagarthóireacht	eagarthóireachta heagarthóireacht heagarthóireachta
+74	2474	tíogar	dtíogair dtíogar thíogair thíogar tíogair
+75	2475	voltas	voltais
+76	2476	scamall	scamaill
+77	2477	lionsa	lionsaí
+78	2478	contúirt	chontúirt chontúirtí contúirte contúirteacha contúirtí gcontúirt
+79	2479	plána	bplána bplánaí phlána phlánaí plánaí
+80	2480	fásra	bhfásra d'fhásra fhásra
+81	2481	stoca	stocaí
+82	2482	anaithnid	anaithnide
+83	2483	láimhseáil	láimhseáiltear láimhseála láimhseáladh láimhseálann láimhseálfaidh
+84	2484	goin	ghoin goineadh gona gonadh
+85	2485	saint	sainte shaint tsaint
+86	2486	éadaigh	
+87	2487	cleas	chleas chleasa cleasa cleasanna gcleas gcleasa
+88	2488	maide	maidí mhaide mhaidí
+89	2489	bradán	bhradáin bhradán bradáin mbradán
+90	2490	alúmanam	alúmanaim halúmanam t-alúmanam
+91	2491	craiceáilte	chraiceáilte
+92	2492	náisiúnach	náisiúnacha
+93	2493	mionn	mhionn mhionna mionna mionnaí
+94	2494	concas	choncais choncas concais gconcas
+95	2495	fisiceach	fhisiceach fhisiceacha fhisicigh fisiceacha
+96	2496	aos	aosa d'aos haos t-aos
+97	2497	optúil	hoptúil optúla
+98	2498	cairdiúil	cairdiúla chairdiúil chairdiúla
+99	2499	gormach	ghormaigh gormacha gormaigh ngormach ngormacha
+100	2500	imdhíonacht	himdhíonacht himdhíonachta imdhíonachta n-imdhíonacht

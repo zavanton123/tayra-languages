@@ -1,0 +1,100 @@
+1	2301	fiacail	bhfiacail bhfiacla d'fhiacla fhiacail fhiacla fiacaile fiacal fiacla
+2	2302	teicníocht	dteicníochtaí teicníochta teicníochtaí theicníocht theicníochtaí
+3	2303	fulaing	bhfulaingeodh bhfulaingeoidh bhfulaingíonn d'fhulaing d’fhulaing fhulaing fhulaingíonn fhulaingítear fulaingíodh fulaingíonn
+4	2304	comhionann	chomhionainn chomhionann chomhionanna comhionanna
+5	2305	folamh	falamh fholaimh fholamh fholmha folmha
+6	2306	lochtach	lochtacha lochtaigh lochtaithe lochtaíodh lochtaíonn lochtú
+7	2307	draoi	dhraoi dhraoithe draoithe ndraoi ndraoithe
+8	2308	tarchur	dtarchur tarchurtha tharchur
+9	2309	litrigh	litreofaí litreoir litrithe litrí litríodh litríonn litrítear litrítí
+10	2310	craobhchomórtas	chraobhchomórtais chraobhchomórtas craobhchomórtais gcraobhchomórtais gcraobhchomórtas
+11	2311	dé-ocsaíd	dhé-ocsaíd dé-ocsaíde déocsaíd ndé-ocsaíd
+12	2312	diosca	dhiosca dhioscaí dioscaí ndiosca ndioscaí
+13	2313	sceimhlitheoir	sceimhlitheoirí sceimhlitheora
+14	2314	achadh	achaidh d'achadh t-achadh
+15	2315	siolla	shiolla shiollaí siollaí tsiolla
+16	2316	compordach	compordacha compordaí compórdach
+17	2317	tírdhreach	dtírdhreach dtírdhreacha thírdhreach thírdhreacha tírdhreacha
+18	2318	treoraigh	threoraigh threoraithe threoraíonn threoraítí threorú treoraithe treoraíodh treoraíonn treoraítear treorú
+19	2319	cruthaitheach	chruthaitheach chruthaitheacha chruthaithigh cruthaitheacha cruthaithí
+20	2320	cuimhin	chuimhin
+21	2321	soladach	sholadach sholadacha sholadaigh soladacha soladaí
+22	2322	dialann	dhialann dhialanna dialainne dialanna ndialann ndialanna
+23	2323	bitheolaíoch	bhitheolaíoch bhitheolaíocha bitheolaíche bitheolaíocha
+24	2324	léig	léigeanna
+25	2325	infheistíocht	d'infheistíocht hinfheistíocht hinfheistíochta hinfheistíochtaí infheistíochta infheistíochtaí n-infheistíocht
+26	2326	bitheolaíocht	bhitheolaíocht bhitheolaíochta bitheolaíochta mbitheolaíocht
+27	2327	achomharc	achomhairc d’achomhairc d’achomharc hachomhairc hachomharc n-achomharc t-achomharc
+28	2328	taistil	taistilíonn thaistil
+29	2329	scéalaíocht	scéalaíochta
+30	2330	cairdeas	cairdis chairdeas chairdis gcairdeas
+31	2331	foghlaimeoir	bhfoghlaimeoir bhfoghlaimeoirí d'fhoghlaimeoirí d’fhoghlaimeoirí fhoghlaimeoir fhoghlaimeoirí fhoghlaimeora foghlaimeoirí
+32	2332	cardáil	chardáil chardálann gcardáil
+33	2333	eithne	d'eithne eithní heithne
+34	2334	hipitéis	hipitéise hipitéisí
+35	2335	léannta	
+36	2336	marfach	marfacha marfaí mharfach mharfacha mharfaigh mharfaí
+37	2337	fréamhaigh	bhfréamhódh d'fhréamhaigh fhréamhaithe fhréamhaí fhréamhú fréamhaithe fréamhaítear fréamhú
+38	2338	fána	bhfána bhfánaithe d'fhána d'fhánaithe fhána fhánaithe fhánaí fánaithe fánaí
+39	2339	cosán	casán chosáin chosán cosáin gcosáin gcosán
+40	2340	dúnmharaigh	dhúnmharaigh dhúnmharaithe dhúnmharaíodh dúnmharaithe dúnmharaíodh dúnmharaíonn dúnmharaítear ndúnmharófaí
+41	2341	neodrach	neodracha neodraigh neodraí
+42	2342	cuimhnigh	chuimhneodh chuimhneofar chuimhnigh chuimhnímid chuimhníonn chuimhnítear cuimhneofar cuimhneoidh cuimhnithe cuimhním cuimhnímis cuimhníodh cuimhníonn cuimhnítear gcuimhneodh gcuimhneofaí gcuimhníonn gcuimhnítear
+43	2343	aniar	
+44	2344	comhaireamh	chomhaireamh chomhairimh comhairimh cómhaireamh gcomhaireamh
+45	2345	díorma	dhíorma dhíormaí díormaí ndíormaí
+46	2346	tuile	dtuile dtuilte thuile thuilte tuilte
+47	2347	síolraigh	shíolraigh shíolraíonn shíolrú síolraithe síolraíodh síolraíonn síolraítear síolrú
+48	2348	gearán	gearáin ghearáin ghearán ghéaráin géaráin ngearáin ngearán
+49	2349	luibh	luibhe luibheanna luig
+50	2350	coinsias	choinsias choinsiasa coinsiasa gcoinsias gcoinsiasa
+51	2351	táin	dtáin dtáinte tháin táinte tána
+52	2352	bráid	bhrád bhráid brád mbráid
+53	2353	ceannasach	ceannasacha cheannasach cheannasacha cheannasaigh gceannasach
+54	2354	scóráil	scóráilte scóráiltear scórála scóráladh scórálann scórálfaidh
+55	2355	dada	tada
+56	2356	tost	dtost thost tosta
+57	2357	faic	
+58	2358	dídean	dhídean dhídine dídin dídine ndídean
+59	2359	ciorcad	chiorcad chiorcaid ciorcaid gciorcad gciorcaid
+60	2360	creig	chreaga chreig chreige craig creag creaga creige gcreig screig screige
+61	2361	fáiltigh	bhfáilteodh bhfáiltiú bhfáiltíonn d'fháiltigh d'fháiltíodh d’fháiltigh fháiltigh fháiltiú fháiltíonn fáiltithe fáiltiú fáiltíodh fáiltíonn
+62	2362	reachtach	reachtacha reachtaigh
+63	2363	conspóideach	chonspóideach chonspóideacha chonspóidigh conspóideacha
+64	2364	slat	shlaite shlat shlata slaite slata tslat
+65	2365	longfort	longfoirt longphort
+66	2366	barúlach	barúlacha bharúlacha
+67	2367	baist	baistear baistí bhaist bhaistear bhaistí
+68	2368	idirghníomhach	hidirghníomhú idirghníomhacha idirghníomhaigh idirghníomhaithe idirghníomhaíonn idirghníomhú n-idirghníomhú t-idirghníomhú
+69	2369	tasc	dtasc tascanna teasc teasca teascadh teasctha thasc thascanna
+70	2370	eisceacht	eisceachtaí heisceacht heisceachtaí
+71	2371	sceimhlitheoireacht	sceimhlitheoireachta
+72	2372	ardeaspag	ardeaspaig hardeaspag hardeaspaig t-ardeaspag
+73	2373	neamhord	neamhoird
+74	2374	inscríbhinn	d'inscríbhinní hinscríbhinn hinscríbhinne hinscríbhinní inscríbhinne inscríbhinní n-inscríbhinn n-inscríbhinní
+75	2375	buíon	bhuíne bhuíon bhuíonta buain buidhean buíne buíonta mbuíon mbuíonta
+76	2376	foirmigh	bhfoirmiú bhfoirmíonn bhfoirmítear fhoirmithe fhoirmiú fhoirmíonn fhoirmítear foirmithe foirmiú foirmíodh foirmíonn foirmítear
+77	2377	doiligh	dhoiligh doilí
+78	2378	matán	matáin mhatáin mhatán
+79	2379	cam	caim cama camadh camann camfair camfar camtha chaim cham chama chamadh gcam
+80	2380	móilíneach	mhóilíneach mhóilíneacha mhóilínigh móilíneacha
+81	2381	féiniúlacht	bhféiniúlacht bhféiniúlachtaí d'fhéiniúlacht fhéiniúlacht fhéiniúlachtaí féiniúlachta féiniúlachtaí
+82	2382	luan	luain
+83	2383	cleachtas	cleachtais gcleachtais gcleachtas
+84	2384	cóimheas	chóimheas chóimheasa chóimheasta cóimheasa cóimheasta gcóimheas
+85	2385	dáimh	dháimh dhámhachtain dhámhachtainí dáimhe dámh dámhachtain dámhachtainí dámhachtana ndámhachtainí
+86	2386	iarmhír	hiarmhíre hiarmhíreanna iarmhíreanna n-iarmhíreanna
+87	2387	scannal	scannail
+88	2388	misneach	mhisneach mhisnigh misnigh
+89	2389	pá	bpá phá
+90	2390	tarbh	dtarbh tairbh tharbh
+91	2391	géarleanúint	ghéarleanúint ghéarleanúna géarleanúintí géarleanúna ngéarleanúint ngéarleanúintí
+92	2392	scáth	scátha scáthanna
+93	2393	mana	manaí mhana
+94	2394	déileáil	dhéileáil dhéileáiltear dhéileálann déileáiltear déileálacha déileáladh déileálann déileálfar ndéileáiltear ndéileálann
+95	2395	bunáit	bhunáit bhunáite bhunáiteanna bunáite bunáiteanna mbunáit mbunáite mbunáiteanna
+96	2396	arg	argain argana argas d'argadar hargana orgain
+97	2397	tulach	dtulach dtulaigh tealach thulach thulaigh tulacha tulaigh tulaí
+98	2398	croílár	chroíláir chroílár gcroílár
+99	2399	aighneas	aighnis d'aighneas haighneas haighnis n-aighneas t-aighneas
+100	2400	spiorad	spioraid

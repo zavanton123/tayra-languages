@@ -1,0 +1,100 @@
+1	4601	gearmáiniam	ghearmáiniam ngearmáiniam
+2	4602	péireáil	phéireáil phéireáilte phéireálann péireáilte péireáiltear péireála péireálann
+3	4603	iarannaois	hiarannaoise iarannaoise
+4	4604	ceapach	ceapacha ceapaigh ceapaithe ceapaí cheapach gceapach
+5	4605	píb	bpíb bpíob phíb phíob phíoba píbe píob píoba
+6	4606	coinbhleacht	choinbhleacht choinbhleachta choinbhleachtaí coinbhleachta coinbhleachtaí gcoinbhleacht gcoinbhleachtaí
+7	4607	beathaigh	beathaíodh beathaíonn beathaítear beathú bheathaíonn bheathú mbeathaíonn mbeathú
+8	4608	ózón	t-ózón ózóin
+9	4609	urraigh	hurraithe n-urraithe urraithe
+10	4610	eapainmneach	eapainmneacha heapainmneach
+11	4611	poitéinseal	phoitéinseal phoitéinsil poitéinsil
+12	4612	fáclainn	bhfáclainn fháclainn fháclainne
+13	4613	creimire	chreimirí creimirí gcreimirí
+14	4614	aonfhoirmeach	aonfhoirmeacha aonfhoirmigh aonfhoirmí haonfhoirmeach
+15	4615	céimíocht	chéimíocht chéimíochta céimíochta gcéimíocht
+16	4616	díleáigh	dhíleáite dhíleánn díleáite díleáitear díleánn
+17	4617	indibhid	d'indibhid hindibhide hindibhidí indibhidí n-indibhid
+18	4618	cruthaitheoir	chruthaitheoir chruthaitheoirí chruthaitheora cruthaitheoirí gcruthaitheoir
+19	4619	moch	mhoch mhoiche mocha moiche
+20	4620	armáid	armáidí harmáid harmáide
+21	4621	platanam	bplatanam phlatanaim phlatanam platanaim
+22	4622	bailecheantar	bhailecheantar mbailecheantar
+23	4623	púca	bpúca bpúcaí phúca phúcaí púcaí
+24	4624	snasta	shnasta
+25	4625	banbh	bainbh banbha bhainbh bhanbh
+26	4626	scrioptúr	scrioptúir
+27	4627	fíleam	bhfíleam bhfílim fhíleam fhílim fílim
+28	4628	táibléad	tháibléad tháibléid táibléid
+29	4629	cuasach	chuasach chuasacha chuasaigh cuasacha
+30	4630	cinéiteach	chinéiteach chinéitigh
+31	4631	otharlann	d'otharlanna hotharlainne hotharlanna otharlainne otharlanna
+32	4632	teallúiriam	theallúiriam
+33	4633	míniúchán	mhíniúcháin mhíniúchán míniúcháin
+34	4634	mangaire	mangairí mhangaire mhangairí
+35	4635	veicteoir	veicteoirí veicteora
+36	4636	támh	dtáimhe dtámh tháimh thámh thámha táimhe
+37	4637	insínte	
+38	4638	ardteicneolaíocht	ardteicneolaíochta ardteicneolaíochtaí hardteicneolaíochta hardteicneolaíochtaí
+39	4639	ciar	chiar chiara chéire ciara
+40	4640	facthas	bhfacthas fhacthas
+41	4641	fuileadán	bhfuileadáin bhfuileadán d'fhuileadáin fhuileadáin fhuileadán fuileadáin
+42	4642	carbónáit	carbónáite carbónáití charbónáit gcarbónáit gcarbónáití
+43	4643	artaire	artairí hartairí n-artairí t-artaire
+44	4644	céachta	chéachta céacht céachtaí
+45	4645	ildaite	
+46	4646	rúndiamhair	rúndiamhra
+47	4647	leasc	leisc leisce
+48	4648	pátrúnacht	bpátrúnacht phátrúnacht pátrúnachta
+49	4649	barbarach	barbaracha barbaraigh bharbarach bharbaraigh mbarbarach
+50	4650	dímheas	dhímheas dímheasa dímheasta
+51	4651	pléisiúr	phléisiúir phléisiúr pléisiúir
+52	4652	taisc	taisceadh taiscthe thaisc thaisceadh thaisctear
+53	4653	athleag	athleagain athleagan athleaganacha hathleaganacha t-athleagan
+54	4654	séimh	shéimh shéimhe séimhe tséimh
+55	4655	oilithreach	d'oilithrigh hoilithrigh n-oilithreach oilithrigh
+56	4656	neamhdhleathach	neamhdhleathacha
+57	4657	taiscéal	dtaiscéaladh taiscéaladh taiscéalann taiscéalta thaiscéal thaiscéaladh
+58	4658	bail	abhail bhail mbail
+59	4659	cliathánach	chliathánach chliathánacha chliathánaí cliathánacha cliathánaí
+60	4660	díshealbhaigh	dhíshealbhaigh dhíshealbhú díshealbhaithe díshealbhaíodh díshealbhuithe díshealbhú ndíshealbhaithe ndíshealbhú
+61	4661	micreascópach	mhicreascópach mhicreascópacha micreascópacha micreascópaí
+62	4662	dúnán	dúnáin
+63	4663	gásach	ghásach ghásacha gásacha gásaí
+64	4664	sintéiseoir	shintéiseoir shintéiseoirí sintéiseoirí
+65	4665	paradacsa	bparadacsa paradacsaí pharadacsa pharadacsaí
+66	4666	deontóir	deontóirí deontóra dheontóir dheontóirí ndeontóirí
+67	4667	topaic	dtopaicí thopaic thopaicí topaice topaicí
+68	4668	dóchasach	dóchasaí
+69	4669	siúráilte	
+70	4670	féachadóir	bhféachadóir bhféachadóirí fhéachadóir fhéachadóra féachadóirí
+71	4671	tragóid	dtragóid thragóid tragóide tragóidí
+72	4672	díobhálach	dhíobhálach dhíobhálacha díobhálacha díobhálaí
+73	4673	hap	hop
+74	4674	pacáiste	bpacáiste bpacáistí pacáistí phacáiste
+75	4675	spíosra	spíosraí
+76	4676	sárimreoir	shárimreoir shárimreoirí sárimreoirí
+77	4677	crobhaing	chrobhaing crobhaingí gcrobhaingí
+78	4678	báúil	bháúla báúla
+79	4679	abar	
+80	4680	mearbhia	mhearbhia
+81	4681	idéal	d’idéil hidéil idéil t-idéal
+82	4682	scoir	scoireadh scoireann scoirfidh scoirtear scortha
+83	4683	turcaí	turcach turcaithe
+84	4684	cléir	chléir gcléir
+85	4685	tuairisceoir	dtuairisceoir dtuairisceoirí thuairisceoir thuairisceoirí tuairisceoirí
+86	4686	dánlann	dhánlann dánlanna ndánlann
+87	4687	dúiseacht	dhúiseacht dúiseachta ndúiseacht
+88	4688	cuasán	chuasáin chuasán cuasáin gcuasán
+89	4689	geilleagrach	geilleagracha gheilleagrach gheilleagracha gheilleagraigh
+90	4690	briathartha	bhriathartha
+91	4691	scilling	scillinge scillingí
+92	4692	boilsciú	bhoilsciú mboilsciú
+93	4693	athghin	athghiniúint athghiniúna athghinte athghintear hathghiniúint hathghiniúna
+94	4694	focleolaíocht	bhfocleolaíocht fhocleolaíocht focleolaíochta
+95	4695	básaithe	bhásaithe
+96	4696	papua	phapua
+97	4697	foláireamh	bhfoláireamh fholáirimh foláirimh
+98	4698	sanas	sanais shanais shanas
+99	4699	ribe	ribí
+100	4700	comhleáigh	chomhleá chomhleáite chomhleáitear comhleá comhleádh comhleáite gcomhleá gcomhleáitear

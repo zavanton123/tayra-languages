@@ -1,0 +1,100 @@
+1	1701	foirmle	bhfoirmle bhfoirmlí d'fhoirmlí fhoirmle fhoirmlí foirmlí
+2	1702	meánscoil	meánscoile meánscoileanna mheánscoil mheánscoile mheánscoileanna
+3	1703	freasúra	bhfreasúra fhreasúra
+4	1704	mullach	mhullach mhullaigh mhullaí mullaigh mullaí
+5	1705	gobharnóir	ghobharnóir ghobharnóirí ghobharnóra gobharnóirí gobharnóra ngobharnóir ngobharnóirí
+6	1706	dúiche	dhúiche dhúichí dúichí dúthaigh dúthaí ndúiche ndúichí
+7	1707	daingnigh	daingnithe daingniú daingníodh daingníonn dhaingnigh dhaingnithe dhaingniú dhaingníonn ndaingnithe
+8	1708	ardán	ardáin d'ardáin hardáin hardán n-ardáin n-ardán t-ardán
+9	1709	úsáideach	húsáideach úsáideacha
+10	1710	ceimiceoir	ceimiceoirí cheimiceoir cheimiceoirí cheimiceora gceimiceoir gceimiceoirí
+11	1711	litriú	
+12	1712	ríomhaireacht	ríomhaireachta ríomhaireachtaí
+13	1713	nua-aoiseach	nua-aoiseacha nua-aoisigh nua-aoisithe nua-aoisí
+14	1714	léigear	léigir
+15	1715	billiún	bhilliún billiúin mbilliún
+16	1716	coimisinéir	choimisinéara choimisinéir choimisinéirí coimisinéirí gcoimisinéir gcoimisinéirí
+17	1717	freagracht	bhfreagracht bhfreagrachtaí fhreagracht fhreagrachtaí freagrachta freagrachtaí
+18	1718	cáipéis	cháipéis cháipéisí cáipéise cáipéisí gcáipéis gcáipéisí
+19	1719	buairt	bhuairt bhuartha buartha buarthaí mbuairt
+20	1720	achrann	achrainn eachrann hachrainn hachrann n-achrann t-achrann
+21	1721	deifir	dheifir
+22	1722	saorga	shaorga
+23	1723	réaltra	réaltraí
+24	1724	im	him ime t-im
+25	1725	ionfhabhtú	hionfhabhtuithe ionfhabhtuithe n-ionfhabhtuithe t-ionfhabhtú
+26	1726	faire	bhfaire fhaire
+27	1727	tobar	dtobar dtoibreacha thobar thoibreacha tobair toibreacha
+28	1728	méara	mhéara mhéaraí méaraí
+29	1729	geata	geataí gheata gheataí ngeata ngeataí
+30	1730	maolú	maoluithe mhaolú
+31	1731	ráiteas	ráitis
+32	1732	ionadaíocht	hionadaíocht hionadaíochta ionadaíochta n-ionadaíochta
+33	1733	seasca	seascaidí sheasca sheascaidí
+34	1734	seachtó	seachtód seachtóidí sheachtó sheachtóidí tseachtóid
+35	1735	rúnda	
+36	1736	machaire	machairí mhachaire mhachairí
+37	1737	ciontach	chiontach chiontaí ciontaí
+38	1738	tuama	dtuama dtuamaí thuama thuamaí tomba tuamaí tumba
+39	1739	pósadh	bpóstaí phósta phóstaí póstaí
+40	1740	ainmfhocal	ainmfhocail d'ainmfhocail hainmfhocail hainmfhocal n-ainmfhocail n-ainmfhocal t-ainmfhocal
+41	1741	coiriúil	choiriúil choiriúla coiriúla
+42	1742	oiriúnach	b'oiriúnaí b’oiriúnaí hoiriúnach leamhnach oiliúnaithe oiliúnaí oiriúnacha oiriúnaí
+43	1743	ceil	ceileadh ceileann ceilidh ceilt ceiltear ceiltí cheil cheile cheileann cheilt gceilfeadh
+44	1744	meáchan	meáchain mheáchain mheáchan
+45	1745	léirmheastóir	léirmheastóirí léirmheastóra
+46	1746	dúshlán	dhúshláin dhúshlán dúshláin ndúshláin ndúshlán
+47	1747	gin	ghin ghineadh ghineann ghinfeadh ghinfear ghinte ghintear gina gine gineadh gineann ginte gintear ngineadh ngineann nginfeadh nginfidh ngintear nginí
+48	1748	tinteán	dtinteán thinteán tinteáin
+49	1749	sprioc	sprice spriocanna
+50	1750	timpiste	dtimpiste dtimpistí thimpiste thimpistí timpistí
+51	1751	pol	bpoil bpol phoil phol poil
+52	1752	nóiméad	neomat nóiméid
+53	1753	dealbh	dealbha dhealbh dhealbha ndealbh ndealbha
+54	1754	cuar	chuair chuaire chuar chuara chuaradh chuarann chuartha cuair cuaire cuara cuartha gcuar
+55	1755	gníomhaire	ghníomhaire ghníomhairí gníomhairí ngníomhaire ngníomhairí
+56	1756	innealtóir	b'innealtóir d’innealtóirí hinnealtóirí innealtóirí innealtóra n-innealtóirí t-innealtóir
+57	1757	deimhnigh	deimhnithe deimhniú deimhnímid deimhníodh deimhníonn deimhnítear dheimhneodh dheimhnigh dheimhnithe dheimhniú dheimhníonn dheimhnítear ndeimhnithe ndeimhniú ndeimhníonn ndeimhnítear
+58	1758	maoin	maoine mhaoin mhaoine
+59	1759	buama	bhuama bhuamaí bomba buamaí mbuama mbuamaí
+60	1760	seacláid	seacláide seacláidí tseacláid
+61	1761	soitheach	shoitheach shoithí soithigh soithí tsoitheach tsoithigh
+62	1762	cuí	chuí
+63	1763	seamróg	seamróga seamróige sheamróg tseamróg
+64	1764	ilchríoch	d'ilchríoch d'ilchríocha hilchríche hilchríoch hilchríocha ilchríche ilchríocha n-ilchríoch
+65	1765	uaigh	huaigh huaighe huaigheanna n-uaigh n-uaigheanna uaighe uaigheanna
+66	1766	comhrá	chomhrá chomhráite comhráite gcomhrá gcomhráite
+67	1767	dál	
+68	1768	stáitse	stáitsí
+69	1769	túisce	thúisce
+70	1770	damáiste	damáistí dhamáiste dhamáistí ndamáistí
+71	1771	ardaigh	ardach ardaithe ardaíodh ardaíonn ardaítear ardófar ardóidh ardóimid d'ardaigh d'ardaíodh d'ardú d’ardaigh d’ardódh d’ardófaí d’ardú hardaíodh hardú n-ardaíonn n-ardódh n-ardófar n-ardófaí n-ardóidh
+72	1772	orgán	d'orgáin d'orgán d’orgáin horgáin horgán n-orgán orgáin t-orgán
+73	1773	lua	
+74	1774	cleachtadh	chleachtaidh cleachtaidh cleachtaí gcleachtadh gcleachtaí
+75	1775	todhchaí	dtodhchaí thodhchaí
+76	1776	taispeántas	dtaispeántais dtaispeántas taispeántais thaispeántais thaispeántas
+77	1777	cuimhneachán	chuimhneacháin chuimhneachán cuimhneacháin gcuimhneachán
+78	1778	teicneolaíochta	theicneolaíochta
+79	1779	aníos	
+80	1780	roghnú	
+81	1781	neamh	neimhe
+82	1782	coileach	choiligh coiligh gcoileach
+83	1783	faraor	faraoir
+84	1784	cáca	cháca chácaí cácaí
+85	1785	comhthéacs	chomhthéacs chomhthéacsanna comhthéacsanna gcomhthéacs gcomhthéacsanna
+86	1786	imoibrigh	d'imoibrigh d'imoibrithe d'imoibriú himoibrithe himoibriú imoibreoidh imoibrithe imoibrí imoibríonn n-imoibreodh n-imoibrithe n-imoibríonn
+87	1787	éifeacht	d'éifeacht d'éifeachtaí d’éifeacht d’éifeachtaí héifeacht héifeachta héifeachtaí n-éifeacht n-éifeachtaí éifeachta
+88	1788	feithid	bhfeithid bhfeithidí d'fheithidí feithide feithidí fheithid fheithide fheithidí
+89	1789	iartharach	hiartharach hiartharaigh iartharacha iartharaigh iartharaí n-iartharach
+90	1790	aisteach	aisteacha aistigh haisteach
+91	1791	amadán	amadáin hamadáin hamadán namadán t-amadán tamadán
+92	1792	digiteach	dhigiteach dhigiteacha dhigitigh digiteacha digitigh
+93	1793	ómós	hómós omós t-ómós tómas ómóis
+94	1794	truailligh	dtruailleofaí dtruaillítear thruailligh thruaillithe thruailliú thruaillíonn truaillithe truailliú truaillíodh truaillíonn
+95	1795	mion	mhin mhion min mine miona
+96	1796	giotár	ghiotáir ghiotár giotáir ngiotár
+97	1797	candamach	candamacha candamaí chandamach chandamacha chandamaigh
+98	1798	réitigh	réiteodh réiteofar réiteoidh réiteoimis réitithe réitíodh réitíonn réitítear réitítí
+99	1799	cruach	chruach chruacha chruachadh chruachas chruaiche cruacha cruachta cruaiche gcruach gcruacha
+100	1800	acadúil	acadúla hacadúil

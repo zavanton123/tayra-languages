@@ -1,0 +1,100 @@
+1	6001	crónán	chrónáin crónáin
+2	6002	measpatáim	measpatáime mheaspatáim
+3	6003	spleáchas	spleáchais
+4	6004	bulaíocht	bhulaíocht bulaíochta
+5	6005	ál	hál n-ál t-ál álta
+6	6006	atmaisféarach	atmaisféaracha atmaisféaraigh
+7	6007	idé-eolaíoch	idé-eolaíocha
+8	6008	atosaigh	atosaithe atosaíodh atosaíonn atosú d'atosaigh
+9	6009	babhla	babhlaí bhabhla mbabhla
+10	6010	éignigh	d'éignigh d’éignigh héigneoirí héigniú éigneoir éigneoirí éignithe éigníodh
+11	6011	cairdiach	cairdiacha chairdiach
+12	6012	comhlántach	chomhlántach chomhlántacha comhlántacha
+13	6013	leithlisigh	leithlisithe leithlisiú
+14	6014	róbat	róbait
+15	6015	siamsóir	shiamsóirí siamsóirí
+16	6016	soinéad	shoinéad soinéid
+17	6017	áibhéil	háibhéil áibhéile
+18	6018	coinnealbháigh	choinnealbhá choinnealbháigh coinnealbhá coinnealbhádh coinnealbháite
+19	6019	anailísigh	anailíseoir anailíseoirí anailísithe anailísíonn anailísítear hanailísithe hanailísiú
+20	6020	dronuillinn	dhronuillinn dronuillinne dronuillinneacha
+21	6021	sláinteachas	shláinteachas sláinteachais tsláinteachais
+22	6022	ciúb	chiúb ciúbanna ciúib
+23	6023	miondíoltóir	mhiondíoltóir miondíoltóirí
+24	6024	gáifeach	gháifeach gáifeacha
+25	6025	mustairt	mustaird
+26	6026	deoin	dheoin ndeoin
+27	6027	ársaíocht	hársaíocht ársaíochta
+28	6028	adharcach	adharcacha adharcaigh
+29	6029	orgánaid	orgánaidí
+30	6030	siollach	shiollach siollacha
+31	6031	ailceimiceoir	ailceimiceoirí ailceimiceora ailceimicí hailceimiceoir hailceimiceoirí t-ailceimiceoir
+32	6032	agnóisí	agnóisithe
+33	6033	léana	léanta
+34	6034	brabhsálaí	bhrabhsálaithe bhrabhsálaí brabhsálaithe mbrabhsálaithe mbrabhsálaí
+35	6035	mor	
+36	6036	néaltrú	néaltraithe
+37	6037	sláintíocht	shláintíocht sláintíochta tsláintíocht
+38	6038	créit	chréit créite gcréit
+39	6039	fuinnmhigh	bhfuinnmhiú fhuinnmhiú fhuinnmhíonn fuinnmhithe fuinnmhiú fuinnmhíodh
+40	6040	tíoróideach	thíoróideach thíoróidigh tíoróideacha tíoróidigh tíoróidí
+41	6041	comhiompar	chomhiompair chomhiompar comhiompair
+42	6042	gailliam	ghailliam ngailliam
+43	6043	ológ	hológa holóige ológa olóige
+44	6044	scairdinneall	scairdinnill
+45	6045	imtheorannú	t-imtheorannú
+46	6046	litearthacht	litearthachta
+47	6047	ainéistéiseach	ainéistéisigh ainéistéisí t-ainéistéiseach t-ainéistéisiú
+48	6048	breithniú	bhreithniú
+49	6049	ceangailteach	ceangailteacha cheangailteach
+50	6050	cuntasóir	chuntasóir cuntasaí cuntasóirí
+51	6051	poitéinsiúil	phoitéinsiúil poitéinsiúla
+52	6052	reacaire	reacairí
+53	6053	ríomhchláraitheoir	ríomhchláraitheoirí ríomhchláraitheora
+54	6054	fosceall	bhfosceall bhfosceallaí fhosceall foscealla fosceallaí
+55	6055	iaidíd	iaidíde
+56	6056	comhoibritheach	chomhoibritheach chomhoibrithigh comhoibritheacha
+57	6057	criathraigh	chriathraigh criathraithe criathraíodh criathrú
+58	6058	dobhriathar	dhobhriathra dobhriathair dobhriathra
+59	6059	siabhrán	shiabhrán siabhráin
+60	6060	sreangán	shreangáin sreangáin
+61	6061	íonghlan	íonghlanadh íonghlanta
+62	6062	coimín	choimín gcoimín
+63	6063	dumha	dhumha dumhaí ndumha
+64	6064	peitriliam	bpeitriliam pheitriliam
+65	6065	gormán	ghormáin gormáin ngormán
+66	6066	scolaí	
+67	6067	toitín	dtoitín dtoitíní thoitín toitíní
+68	6068	iarbháis	
+69	6069	caomhantas	caomhantais chaomhantais
+70	6070	fóillíocht	fóillíochta
+71	6071	orla	horla
+72	6072	deilbhín	deilbhíní dheilbhín dheilbhíní
+73	6073	hearóin	hearóine
+74	6074	státrúnaí	státrúnaithe
+75	6075	dúshlánach	dhúshlánach dhúshlánacha dhúshlánaí dúshlánacha dúshlánaí
+76	6076	teilifíseán	dteilifíseán teilifíseáin theilifíseán
+77	6077	imchuach	imchuacha t-imchuach
+78	6078	taismeach	dtaismeach taismigh
+79	6079	ardmháistir	ardmháistrí nardmháistrí tardmháistir
+80	6080	dleacht	dhleacht dhleachta dhleachtanna dleachta dleachtanna
+81	6081	tatairis	dtatairis
+82	6082	lomán	lomáin
+83	6083	láidreacht	láidreachtaí
+84	6084	áiféiseach	háiféiseach áiféiseacha áiféisí
+85	6085	goll	gholl
+86	6086	peiriúch	peiriúigh pheiriúch
+87	6087	cathairstát	cathairstáit
+88	6088	créamadh	créamtha
+89	6089	idirthréimhseach	idirthréimhseacha
+90	6090	sampláil	samplála sampláladh shampláil shamplála tsampláil
+91	6091	gnóthachan	ghnóthachain ghnóthachan gnóthachain gnóthachtáil gnóthachtála gnóthachtálacha
+92	6092	fara	bhfara bhfaraí fairis farae faram fhara fharaí
+93	6093	ildathach	ildathacha
+94	6094	fáltas	fháltais fháltas fáltais
+95	6095	fichillín	fhichillín fichillíní
+96	6096	íoróin	híoróine íoróine
+97	6097	príomhchúram	phríomhchúram príomhchúraimí
+98	6098	suibiacht	suibiachta tsuibiacht
+99	6099	heipitíteas	heipitítis
+100	6100	agóideoir	agóideoirí hagóideoirí n-agóideoirí

@@ -1,0 +1,100 @@
+1	6201	róiste	róistí
+2	6202	ceolaire	ceolairí
+3	6203	forfheidhmigh	bhforfheidhmiú fhorfheidhmiú forfheidhmithe forfheidhmiú
+4	6204	sruthach	shruthaíonn shruthú sruthaigh sruthaithe sruthaí sruthaíonn sruthú
+5	6205	muiscít	mhuiscít mhuiscítí muiscíte muiscítí
+6	6206	sirriam	shirriam tsirriam
+7	6207	faireachas	faireachais
+8	6208	maitrís	maitríse maitrísí mhaitrís
+9	6209	sealad	sealaid tsealaid
+10	6210	siméadrach	shiméadrach shiméadracha siméadracha
+11	6211	coscrach	choscrach choscraigh coscarach coscarthach coscracha coscraigh cosgrach
+12	6212	fótaisintéis	bhfótaisintéis fhótaisintéis fótaisintéise
+13	6213	bunábhar	bhunábhair bhunábhar bunábhair mbunábhar
+14	6214	campáil	campáilte campála champáil champála
+15	6215	carráiste	carráistí charráiste charráistí gcarráiste
+16	6216	coirtéis	choirtéis coirtéise gcoirtéis
+17	6217	fiaclóireacht	bhfiaclóireacht fhiaclóireacht fhiaclóireachta fiaclóireachta
+18	6218	aistarraingt	aistarraingthe
+19	6219	bruite	bhruite
+20	6220	eisreachtaigh	eisreachtaithe eisreachtaí eisreachtaíodh eisreachtú heisreachtaithe
+21	6221	maorga	mhaorga
+22	6222	naomhsheanchas	naomhsheanchais
+23	6223	logán	logáin
+24	6224	aorach	aoracha
+25	6225	ceannaitheoir	ceannaitheoirí cheannaitheoir cheannaitheoirí cheannaitheora gceannaitheoir
+26	6226	feasach	feasacha fheasach fheasaigh fiosach
+27	6227	forghníomhaigh	fhorghníomhú forghníomhaithe forghníomhú
+28	6228	lámhainn	lámhainní
+29	6229	múcasach	mhúcasach mhúcasacha múcasacha
+30	6230	nimfeach	nimfeacha nimfí
+31	6231	sainchreideamh	sainchreidimh shainchreideamh shainchreidimh
+32	6232	urdhún	hurdhúnta urdhúin urdhúnta
+33	6233	cuingir	chuingir cuingealach cuingreacha
+34	6234	teileagraf	teileagraif theileagraf theileagraif
+35	6235	feothanach	bhfeothanach feothanaí fheothanach
+36	6236	taifeadán	dtaifeadáin dtaifeadán taifeadáin thaifeadán
+37	6237	ilmheáin	hilmheáin ilmheán
+38	6238	léimneach	léimneacha léimnigh léimní
+39	6239	idirleath	idirleathann
+40	6240	caithreachas	caithreachais chaithreachais chaithreachas
+41	6241	magúil	magúla mhagúil
+42	6242	suibiachtúil	shuibiachtúil suibiachtúla
+43	6243	catalónach	catalónacha catalónaigh chatalónach gcatalónach
+44	6244	cliabh	chliabh chléibh cléibh
+45	6245	ríon	ríona
+46	6246	cónocht	chónocht chónochta cónochta cónochtaí gcónocht
+47	6247	splanc	splaince splancacha splanctha
+48	6248	scáthach	scáthaí
+49	6249	éisteoir	héisteoirí n-éisteoirí éisteoirí éisteora
+50	6250	ardbhrú	
+51	6251	scrobarnach	scrobarnaí
+52	6252	allatróp	allatróip hallatróip hallatróp t-allatróp
+53	6253	éilitheoir	héilitheoir t-éilitheoir éilitheoirí
+54	6254	imrothlaigh	himrothlaithe imrothlaithe imrothlaíonn imrothlú t-imrothlú
+55	6255	laitís	laitíse laitísí
+56	6256	stócach	stócaigh
+57	6257	silín	shilíní silíní
+58	6258	eitigh	d'eitigh d’eitigh eiteach eiteacha eitíodh t-eiteach
+59	6259	forimeallach	fhorimeallach fhorimeallacha forimeallacha forimeallaigh forimeallaí
+60	6260	caismirt	caismirte caismirtí chaismirt gcaismirtí
+61	6261	céaduair	chéaduair gcéaduair
+62	6262	comhbhá	chomhbhá
+63	6263	grianghaoth	ghrianghaoth grianghaoithe ngrianghaoth
+64	6264	ionsúchán	ionsúcháin
+65	6265	leathmhilliún	
+66	6266	leathmhíle	
+67	6267	crón	chróin chróine cróin cróine gcrón
+68	6268	almóinn	almóinne almóinní halmóinní
+69	6269	déthaobhach	dhéthaobhach déthaobhacha
+70	6270	gastraistéigeach	gastraistéigí ghastraistéigeach ghastraistéigeacha
+71	6271	postas	bpostas phostas postais
+72	6272	sleamhnú	shleamhnú
+73	6273	steiréitíopa	steiréitíopaí
+74	6274	modheolaíocht	mhodheolaíocht mhodheolaíochta mhodheolaíochtaí modheolaíochta modheolaíochtaí
+75	6275	ionracas	hionracas ionracais n-ionracas t-ionracas
+76	6276	neamhdhíobhálach	neamhdhíobhálacha
+77	6277	coinicéar	coinigéar
+78	6278	hífe	hífí
+79	6279	crosfhocal	chrosfhocal crosfhocail
+80	6280	idirchéim	d'idirchéimeanna hidirchéim hidirchéimeanna idirchéimeanna n-idirchéimeanna
+81	6281	mionnscríbhinn	mhionnscríbhinn mionnscríbhinne mionnscríbhinní
+82	6282	monadh	mhonadh
+83	6283	cioclón	chioclón cioclóin gcioclón
+84	6284	géineolaíocht	ghéineolaíocht géineolaíochta ngéineolaíocht
+85	6285	leabharlannaí	leabharlannaithe
+86	6286	buamadóir	bhuamadóir bhuamadóirí buamadóirí
+87	6287	meafarach	meafaracha mheafarach
+88	6288	cábán	chábáin chábán cábáin gcábán
+89	6289	damnaigh	damn damnaithe damnú dhamnaigh dhamnú ndamnódh
+90	6290	cróimiam	chróimiam gcróimiam
+91	6291	préachán	bpréachán phréacháin phréachán préacháin
+92	6292	dallán	dalláin dhalláin dhallán
+93	6293	iodálaigh	d'iodálaigh hiodálaigh hiodálaithe
+94	6294	anord	anoird
+95	6295	neamhbhailigh	neamhbhailí
+96	6296	norm	noirm
+97	6297	uilechumhachtach	uilechumhachtaigh
+98	6298	braistint	bhraistint braistintí mbraistint
+99	6299	fréamhshamhail	fhréamhshamhail fréamhshamhlacha
+100	6300	foghar	fhoghar foghair

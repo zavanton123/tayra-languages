@@ -1,0 +1,100 @@
+1	9101	príomhghrúpa	príomhghrúpaí
+2	9102	próca	bprócaí phróca phrócaí
+3	9103	réamhdhéanamh	réamhdhéanta
+4	9104	ríomhaireachtúil	ríomhaireachtúla
+5	9105	suncáil	shuncáil
+6	9106	spáseitilt	spáseitilte
+7	9107	tóireadóir	tóireadóirí
+8	9108	uiliteoir	uiliteoirí
+9	9109	vaigín	vaigíní
+10	9110	vodca	
+11	9111	doirb	doirbeacha doirbh
+12	9112	déiseach	dhéiseach dhéisigh déisigh
+13	9113	freaslainnis	fhreaslainnis freaslainnise
+14	9114	galfchúrsa	ghalfchúrsa ngalfchúrsa
+15	9115	hunach	hunaigh
+16	9116	lúbach	lúbacha lúbaigh
+17	9117	miúil	mhiúil
+18	9118	nua-ealaín	nua-ealaíne
+19	9119	purgadóir	bpurgadóir phurgadóir purgadóra
+20	9120	acústach	acústacha
+21	9121	aibhsigh	aibhsithe aibhsiú aibhsíonn aibhsítear d'aibhsigh taibhsigh
+22	9122	ainnis	hainnis
+23	9123	athmhachnamh	athmhachnaimh
+24	9124	banseanchas	banseanchais bhanseanchas
+25	9125	forghabhálach	bhforghabhálaithe fhorghabhálaithe fhorghabhálaí forghabhálaithe forghabhálaí
+26	9126	bruithnigh	bhruithnigh bhruithniú bruithnithe bruithniú mbruithniú
+27	9127	cachtas	cachtais chachtais
+28	9128	cuirfiú	chuirfiú
+29	9129	dathdhall	dathdhaille dhathdhaille
+30	9130	dea-shampla	dea-shamplaí dhea-shampla
+31	9131	forlíontach	fhorlíontacha forlíontacha forlíontaigh forlíontaí
+32	9132	frithcháithnín	frithcháithníní
+33	9133	aintillí	haintillí
+34	9134	iarbhunscoil	d'iarbhunscoil hiarbhunscoile iarbhunscoile iarbhunscoileanna
+35	9135	leathchiorclach	leathchiorclacha
+36	9136	bádóir	bhádóir bádóirí mbádóirí
+37	9137	meacan	meacain
+38	9138	mór-ráchairt	mhór-ráchairte mór-ráchairte
+39	9139	oiriúnacht	hoiriúnacht hoiriúnachta oiriúnachta
+40	9140	rísín	rísíní
+41	9141	soiléireacht	shoiléireacht
+42	9142	sonraíocht	shonraíocht sonraíochta sonraíochtaí
+43	9143	súgach	súgaí
+44	9144	súgán	súgáin tsúgáin
+45	9145	ubhsceith	t-ubhsceitheadh ubhsceite ubhsceitheadh
+46	9146	teiteanas	teiteanais
+47	9147	téachtán	téachtáin
+48	9148	brus	bhruis bruise
+49	9149	teorantach	teorantacha theorantach theorantacha
+50	9150	fíniúin	fhíniúin fíniúna fíniúnacha
+51	9151	nóchadú	90ú
+52	9152	biafra	bhiafra
+53	9153	ainbheithíoch	ainbheithígh
+54	9154	cistiúchán	cistiúcháin
+55	9155	déscaradh	
+56	9156	fordhaonna	fhordhaonna
+57	9157	liréan	
+58	9158	marsantas	
+59	9159	meastóir	
+60	9160	micreacnamaíocht	
+61	9161	iontrálaí	n-iontrálaí
+62	9162	pleidhcíocht	phleidhcíocht
+63	9163	comhthiarnas	
+64	9164	uilebhith	
+65	9165	ceolscoil	cheolscoil gceolscoil
+66	9166	cling	chling chlingeadh clingtear
+67	9167	diminsean	diminsin
+68	9168	foirgnigh	foirgnithe foirgnítear
+69	9169	poimpé	bpoimpé
+70	9170	aerlitir	aerlitreacha
+71	9171	boicín	bhoicín boicíní
+72	9172	príomhshuim	bpríomhshuim phríomhshuim príomhshuime
+73	9173	buntomhas	buntomhais
+74	9174	caoladóireacht	caoladóireachta chaoladóireacht
+75	9175	carnabhóir	carnabhóirí gcarnabhóirí
+76	9176	greantacht	ghreantacht
+77	9177	giarsa	giarsaí ngiarsaí
+78	9178	hidrigineach	hidrigineacha
+79	9179	leathdhuine	leathdhaoine
+80	9180	uachais	n-uachaisí
+81	9181	normatach	normatacha
+82	9182	palaidín	palaidíní
+83	9183	samhnasach	shamhnasacha
+84	9184	stáiseanóireacht	stáiseanóireachta
+85	9185	trasfheisteoir	trasfheisteoirí
+86	9186	turcaid	turcaide
+87	9187	gabhálach	gabhálacha gabhálaithe gabhálaí ghabhálach ghabhálacha
+88	9188	dromainn	dromainne
+89	9189	neamhshiméadrach	neamhshiméadracha
+90	9190	beacán	beacáin bheacáin mbeacán
+91	9191	éar	éarainn éarann éartar
+92	9192	loingeán	loingeáin
+93	9193	casla	chasla gcasla
+94	9194	comhchaidreamh	chomhchaidreamh chomhchaidrimh comhchaidrimh gcomhchaidreamh
+95	9195	iairiglif	hiairiglifí iairiglifí n-iairiglifí
+96	9196	fearacht	
+97	9197	dinnireacht	dinnireachta
+98	9198	súdaire	tsúdaire
+99	9199	ollscriosadh	ollscriosta t-ollscriosadh
+100	9200	hipitéiseach	hipitéiseacha

@@ -1,0 +1,100 @@
+1	2701	prioc	phriocadh phriocfadh priocadh
+2	2702	araí	
+3	2703	togra	dtogra dtograí thogra thograí tograí
+4	2704	astaigh	astaithe astaíodh astaíonn astaítear astódh astóidh b'astú d'astaigh d'astaithe d'astódh d'astú hastaíodh hastú n-astaíonn n-astaítear n-astódh
+5	2705	fantaisíocht	bhfantaisíocht fantaisíochta fhantaisíocht fhantaisíochta
+6	2706	tarchuir	dtarchuireann dtarchuirfí dtarchuirtear tarchuireadh tarchuireann tarchuirtear tharchuir tharchuireann tharchuirtear tharchurtha
+7	2707	caoineadh	chaoineadh
+8	2708	dréachtaigh	dhréachtaigh dhréachtaíodh dhréachtú dréachtaithe dréachtaíodh dréachtaíonn dréachtú ndréachtú
+9	2709	millteanach	mhillteanach mhillteanacha mhillteanaigh millteanacha millteanaí
+10	2710	ceachtar	cheachtar gceachtar
+11	2711	téad	dtéad dtéada théad théada téada téide
+12	2712	rolla	rollaí
+13	2713	forc	farc foirc
+14	2714	teitheadh	dteitheadh teicheadh theitheadh
+15	2715	comhcheangal	chomhcheangail chomhcheangal chomhcheanglaíonn chomhcheanglaítear comhcheangail comhcheanglaíodh comhcheanglaíonn gcomhcheangal gcomhcheanglaíonn
+16	2716	tairseach	tairseacha tairsigh tairsí thairseach
+17	2717	teileagram	dteileagram teileagraim theileagram
+18	2718	atogh	atofa atoghadh n-atoghfar n-atoghfaí
+19	2719	scríob	scríb scríbe scríoba scríobadh scríobann scríobtar scríobtha
+20	2720	soicind	shoicind soicindí tsoicind
+21	2721	comhghleacaí	chomhghleacaithe chomhghleacaí comhghleacaithe gcomhghleacaithe gcomhghleacaí
+22	2722	eas	d’easanna easa easanna heasa heasanna n-eas t-eas
+23	2723	luachmhar	luachmhair luachmhaire luachmhara
+24	2724	cuarc	chuairc chuarc cuairc gcuairc gcuarc
+25	2725	cairdinéal	cairdinéil chairdinéal chairdinéil gcairdinéal gcairdinéil
+26	2726	náisiúnaíoch	náisiúnaíche náisiúnaíocha
+27	2727	gnáthchaint	ghnáthchaint ghnáthchainte gnáthchainte ngnáthchaint
+28	2728	líreacán	
+29	2729	tásc	thásc thásca táisc tásca
+30	2730	meicníocht	meicníochta meicníochtaí mheicníocht mheicníochtaí
+31	2731	comhordaigh	chomhordaigh chomhordaithe chomhordaíonn chomhordú comhordaithe comhordaíonn comhordóidh comhordú gcomhordú
+32	2732	tiontú	dtiontuithe dtiontú iontú thiontú tiontuithe
+33	2733	déantús	dhéanmhais dhéanmhas dhéantús déanmhas déantúis ndéantús
+34	2734	prós	bprós phrós
+35	2735	fásach	bhfásach bhfásaigh bhfásaithe fhásach fhásaigh fásaigh fásaíodh fású ásaigh
+36	2736	imirceach	d'imircigh himircigh imirceacha imircigh n-imirceach t-imirceach
+37	2737	fungas	bhfungais bhfungas d'fhungais d'fhungas d’fhungais fhungais fhungas fungais
+38	2738	brat	bhrait bhrat bhrot brait mbrait mbrat
+39	2739	scaití	
+40	2740	sochraid	shochraid shochraide shochraidí sochraide sochraidí tsochraid
+41	2741	comhpháirteach	chomhpháirteach chomhpháirteacha chomhpháirtigh chomhpháirtithe chomhpháirtí comhpháirteacha comhpháirtithe comhpháirtí gcomhpháirtithe gcomhpháirtí
+42	2742	ullmhaigh	d'ullmhaigh d'ullmhaítí d’ullmhaigh hullmhóidí ullmhaithe ullmhaíodh ullmhaíonn ullmhaítear ullmhóid ullmhóidí
+43	2743	áirithint	háirithintí n-áirithintí áirithinte áirithintí
+44	2744	cloigeann	chloigeann chloiginn chloigne claigeann cloiginn cloigne gcloigeann gcloigne
+45	2745	tuaisceartach	thuaisceartach thuaisceartacha thuaisceartaigh tuaisceartacha tuaisceartaigh tuaisceartaí
+46	2746	finné	bhfinné bhfinnéithe d'fhinné d'fhinnéithe fhinné fhinnéithe finnéithe
+47	2747	scolaíocht	scolaíochta
+48	2748	dóú	2ú
+49	2749	admháil	admhálacha d'admháil d’admháil hadmháil n-admháil
+50	2750	gailís	gailíse ghailís ngailís
+51	2751	gluaisne	ghluaisne ngluaisne
+52	2752	sleá	shleá sleánna tsleá
+53	2753	ciméarach	chiméaraigh ciméaracha ciméaraigh gciméarach
+54	2754	riosca	rioscaí
+55	2755	doimhneacht	dhoimhneacht doimhneachta doimhneachtaí ndoimhneacht ndoimhneachtaí
+56	2756	marcáil	marcáilte marcáiltear marcála marcáladh marcálann mharcáil mharcáiltear mharcála mharcálann
+57	2757	angla-éireannach	angla-éireannacha angla-éireannaigh angla-éireannaí hangla-éireannaigh nangla-éireannach
+58	2758	feadraís	fheadar
+59	2759	tvuíteáil	
+60	2760	míochaine	mhíochaine
+61	2761	preas	bpreas phreas phreasa preasa
+62	2762	constáblacht	chonstáblacht constáblachta gconstáblacht
+63	2763	oisín	d'oisín hoisín
+64	2764	speictream	speictrim
+65	2765	comhpháirt	chomhpháirt chomhpháirteanna comhpháirte comhpháirteanna gcomhpháirt gcomhpháirteanna
+66	2766	cógas	chógais chógas cógais cóngais gcógais gcógas
+67	2767	ialtóg	hialtóga ialtóga n-ialtóg
+68	2768	leannán	leannáin
+69	2769	iorras	d'iorras hiorras iorrais
+70	2770	gann	gainne gainní ganna ghainne ghann ghanna ngainne
+71	2771	disciplín	dhisciplín dhisciplíní disciplíní ndisciplín ndisciplíní
+72	2772	cothabháil	chothabháil chothabhála cothabhála gcothabháil
+73	2773	sóidiam	shóidiam tsóidiam
+74	2774	rangú	
+75	2775	meicnic	meicnice mheicnic
+76	2776	saincheist	saincheisteanna shaincheist shaincheisteanna tsaincheist
+77	2777	indéanta	
+78	2778	bómánta	
+79	2779	íota	
+80	2780	palaistíneach	bpalaistíneach palaistíneacha palaistínigh phalaistíneach phalaistíneacha phalaistínigh
+81	2781	círéib	chíréib chíréibeacha círéibe círéibeacha gcíréib gcíréibeacha
+82	2782	mathúin	mathghamhain mathúna mhathúna
+83	2783	scannánaigh	scannánaithe scannánaíodh scannánaítear scannánóir scannánóirí scannánú
+84	2784	deisceartach	deisceartacha deisceartaigh deisceartaí dheisceartach dheisceartacha dheisceartaigh ndeisceartach
+85	2785	náisiúnaí	
+86	2786	tairiseach	tairiseacha tairisigh thairiseach thairisigh
+87	2787	máistreacht	mháistreacht mháistreachta máistreachta
+88	2788	umar	amar humair omar t-umar umair
+89	2789	ceartchreidmheach	ceartchreidmheacha ceartchreidmhigh ceartchreidmhí cheartchreidmheach cheartchreidmheacha cheartchreidmhigh
+90	2790	diabhal	dhiabhal diabhail ndiabhal
+91	2791	grianghrafadóireacht	ghrianghrafadóireacht ghrianghrafadóireachta grianghrafadóireachta ngrianghrafadóireacht ngrianghrafadóireachta
+92	2792	cumtha	chumtha
+93	2793	mórthír	mhórthír mórthíortha mórthíre
+94	2794	snáithín	shnáithín shnáithíní snáithíní
+95	2795	dréacht	dhréacht dhréachtaí dréachta ndréacht ndréachtaí
+96	2796	taidhleoireacht	taidhleoireachta thaidhleoireachta
+97	2797	coibhneasta	choibhneasta
+98	2798	dóchúlacht	dhóchúlacht dóchúlachta dóchúlachtaí ndóchúlachta
+99	2799	sochar	shochair shochar sochair
+100	2800	athainmnigh	athainmneoidh athainmnithe athainmniú athainmníodh d'athainmnigh d'athainmníodh hathainmníodh n-athainmneofar

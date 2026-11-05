@@ -1,0 +1,100 @@
+1	6101	bunaíocht	bhunaíocht bunaíochta bunaíochtaí mbunaíocht
+2	6102	giosta	ghiosta giostaí
+3	6103	arsanaic	arsanaice harsanaic harsanaice
+4	6104	gadaíocht	gadaíochta ghadaíocht ghadaíochta
+5	6105	suan	shuain shuan suain tsuain
+6	6106	tórramh	dtórramh thórraimh thórramh tórraimh
+7	6107	bailíocht	bailíochta bhailíocht bhailíochta
+8	6108	leictreamaighnéadas	leictreamaighnéadais
+9	6109	dolmain	dolmainí ndolmain
+10	6110	deiseal	deisil
+11	6111	eoraipiam	t-eoraipiam
+12	6112	francbhéarla	fhrancbhéarla
+13	6113	solúbthacht	sholúbthacht solúbthachta
+14	6114	ceannteideal	ceannteidil cheannteideal gceannteideal
+15	6115	cuisle	chuisle cuislí gcuisle
+16	6116	míchothrom	mhíchothrom míchothroime
+17	6117	príomhshruth	bpríomhshruth phríomhshruth phríomhshrutha
+18	6118	sistéamach	shistéamach sistéamaí
+19	6119	athshlánaigh	athshlánaithe athshlánaíodh athshlánú
+20	6120	úsc	t-úsc t-úscadh úisc úscadh úscann úsctar
+21	6121	antrasc	antraisc hantrasc t-antrasc
+22	6122	claonchló	chlaonchló claonchlónna gclaonchló gclaonchlónna
+23	6123	liathdhonn	
+24	6124	frithne	bhfrithne bhfrithní fhrithne
+25	6125	fóntas	bhfóntas fhóntais fóntais
+26	6126	carball	charbaill charball gcarball
+27	6127	ansmacht	ansmachta d'ansmacht hansmacht
+28	6128	cúilín	chúilín cúilíní gcúilín
+29	6129	anas	anais t-anas
+30	6130	acadóir	acadóirí
+31	6131	éiginnte	héiginnte
+32	6132	aimiréal	aimiréil t-aimiréal
+33	6133	téarnaigh	théarnaigh théarnaimh théarnamh téarnaimh téarnamh
+34	6134	folláin	fholláin
+35	6135	séideadh	
+36	6136	éiceolaíoch	éiceolaíche éiceolaíocha
+37	6137	maorghinearál	mhaorghinearáil mhaorghinearál
+38	6138	seanbhaile	seanbhailte
+39	6139	áineas	áineasa
+40	6140	calar	calair chalair chalar gcalar
+41	6141	puball	bpubaill bpuball phubaill phuball pubaill
+42	6142	ranníocaíocht	ranníocaíochta ranníocaíochtaí
+43	6143	cláirseoir	chláirseoir chláirseoirí chláirseora cláirseoirí gcláirseoir gcláirseoirí
+44	6144	abhcóideacht	abhcóideachta
+45	6145	coirneog	choirneog coirneoga coirneoige
+46	6146	paiteanta	phaiteanta
+47	6147	boilscigh	bhoilscithe boilscithe
+48	6148	mórshaothar	mórshaothair
+49	6149	uainíocht	uainíochta
+50	6150	balbh	bailbhe bhailbh bhalbh
+51	6151	doirnín	dhoirnín
+52	6152	seanascal	sheanascal tseanascail
+53	6153	drámata	dhrámata
+54	6154	fuilaistriú	bhfuilaistriú fhuilaistriú fuilaistrithe
+55	6155	éalang	héalanga éalanga
+56	6156	armónach	armónacha armónaigh harmónach harmónaigh n-armónach t-armónach
+57	6157	foraithne	bhforaitheanta bhforaithne fhoraitheanta fhoraithne foraitheanta
+58	6158	iargúltacht	
+59	6159	faoileoir	bhfaoileoir faoileoirí fhaoileoir fhaoileoirí
+60	6160	leitheadúlacht	leitheadúlachta
+61	6161	linseáil	linseála linseáladh
+62	6162	cúlaistín	chúlaistíní cúlaistíní
+63	6163	doleigheasta	dholeigheasta
+64	6164	measarthacht	measarthachta mheasarthacht
+65	6165	néalaigh	néalaithe néalaíonn néalóidh néalú
+66	6166	díomua	dhíomua
+67	6167	codach	chodach chodaigh codaigh gcodach
+68	6168	osréalach	hosréalaithe osréalacha
+69	6169	tacartheoiric	dtacartheoiric tacartheoirice thacartheoiric
+70	6170	scrín	scríne scrínte
+71	6171	ard-oifig	d'ard-oifig hard-oifig
+72	6172	reithe	
+73	6173	hairicín	hairicíní
+74	6174	printéir	phrintéara phrintéir printéara printéirí
+75	6175	cogar	chogar cogair gcogar
+76	6176	uisceadóir	tuisceadóir uisceadóra
+77	6177	drólann	drólainne
+78	6178	grianchloch	ghrianchloch ghrianchloiche grianchloiche
+79	6179	snag	snaga snaganna
+80	6180	éigh	héite t-éitear éamh éamha éite éitear éitir
+81	6181	coitiantacht	choitiantacht coitiantachta gcoitiantacht
+82	6182	gotha	ghotha ghothaí gothaí ngotha ngothaí
+83	6183	fuáil	fhuáil fuála
+84	6184	náirigh	náirithe náiríodh náirítear
+85	6185	saíocht	saíochta shaíocht
+86	6186	priosma	bpriosma phriosma phriosmaí priosmaí
+87	6187	graiméar	ghraiméar ghraiméir graiméir
+88	6188	forleathnaigh	bhforleathnú fhorleathnú forleathnaithe forleathnú
+89	6189	leaisteach	leaisteacha leaistigh
+90	6190	gréasaí	ghréasaí gréasaithe ngréasaí
+91	6191	curadhmhír	churadhmhír curadhmhíre gcuradhmhír
+92	6192	poirceallán	phoircealláin phoirceallán poircealláin
+93	6193	débhéascna	
+94	6194	ainriocht	hainriochtaí
+95	6195	taobhlíne	taobhlínte thaobhlíne
+96	6196	rúnach	rúnacha
+97	6197	cúlchríoch	chúlchríoch chúlchríocha gcúlchríoch
+98	6198	siúlscéalaí	siúlscéalaithe
+99	6199	suvaisis	suvaisise tsuvaisis
+100	6200	iaigh	ia iair ias

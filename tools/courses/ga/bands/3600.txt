@@ -1,0 +1,100 @@
+1	3501	meatán	meatáin mheatáin mheatán
+2	3502	maos	maois maoise maothas mhaois mhaoise
+3	3503	aibí	b'aibí
+4	3504	pingin	bpingin bpingine bpinginí phingin pingine pinginí pingne
+5	3505	séala	shéala shéalaí séalaí tséala
+6	3506	gramadúil	ghramadúil ghramadúla gramadúla
+7	3507	cuardaigh	chuardaigh chuardaíonn chuardódh cuardaithe cuardaíodh cuardaíonn cuardaítear gcuardaigh
+8	3508	príomhfheidhmeannach	phríomhfheidhmeannach phríomhfheidhmeannaigh príomhfheidhmeannaigh
+9	3509	milleán	mhilleáin mhilleán milleáin
+10	3510	siúr	shiúracha siúir siúrach siúracha tsiúr
+11	3511	teilgean	dteilgean teilgin theilgean theilgin
+12	3512	sruthán	shrutháin shruthán srutháin tsrutháin tsruthán
+13	3513	fóir	bhfóire d'fhóir fhóirithint fhóirithinte fóireann fóirithin fóirithint fóirithinte
+14	3514	tanc	dtanc dtancanna tancanna thanc thancanna
+15	3515	tall	dtallann talla tallainne tallann tallanna talltar thallann
+16	3516	buanna	bhuanna
+17	3517	gallda	ghallda
+18	3518	pobalbhreith	bpobalbhreith bpobalbhreitheanna phobalbhreith pobalbhreithe pobalbhreitheanna
+19	3519	éad	héad éada
+20	3520	bruíon	bhruíon bruidhean bruidhne bruíne mbruíne mbruíon
+21	3521	camógaíocht	camógaíochta chamógaíocht chamógaíochta gcamógaíocht
+22	3522	ginmhilleadh	ghinmhilleadh ghinmhillte ginmhillte ginmhilltí nginmhilleadh
+23	3523	foirceann	bhfoircinn fhoirceann fhoirceannadh fhoirceannta fhoircinn foirceannadh foirceannta foirceanta foircinn
+24	3524	neamhchiontach	neamhchionntach neamhchiontacha neamhchiontaí
+25	3525	sliochtach	shliochtach shliochtaigh sliochtaigh sliochtaí
+26	3526	comharthaíocht	chomharthaíocht chomharthaíochta comharthaíochta gcomharthaíocht
+27	3527	fíneáil	bhfíneálacha d'fhíneáil fhíneáil fíneáilte fíneála fíneálacha fíneáladh
+28	3528	clais	chlais chlaiseanna claise claiseanna gclais gclaiseanna
+29	3529	hiondúch	hiondúcha hiondúiche hiondúigh
+30	3530	cnámharlach	chnámharlach chnámharlaigh cnámharlaigh gcnámharlach gcnámharlaigh
+31	3531	meafar	meafair mheafar
+32	3532	leathcheannas	leathcheannais
+33	3533	staitistic	staitistice staitisticí
+34	3534	áisiúil	b'áisiúil háisiúil áisiúla
+35	3535	tacsanomaíocht	dtacsanomaíocht tacsanomaíochta thacsanomaíocht
+36	3536	striapach	striapacha striapaigh striapaí
+37	3537	proifisiúnta	phroifisiúnta
+38	3538	bonneagar	bhonneagair bhonneagar bonneagair mbonneagair mbonneagar
+39	3539	léine	léinte léinteacha
+40	3540	ionghabh	d'ionghabh hionghabháil ionghabhadh ionghabhann ionghabhtar ionghabháil ionghafa n-ionghabhtar
+41	3541	fosfar	bhfosfar fhosfair fhosfar fosfair
+42	3542	suiteáil	shuiteáil shuiteálfaidh suiteáilte suiteáiltear suiteála suiteálacha suiteáladh
+43	3543	lonrach	lonracha lonraigh lonraí lonraíonn
+44	3544	tiomsú	thiomsú
+45	3545	márach	mhárach
+46	3546	veirteabrach	veirteabracha veirteabraigh
+47	3547	seicslóvaic	seicslóvaice tseicslóvaic
+48	3548	fearn	bhfearna fearna fhearna fhearnaí
+49	3549	comhairleach	chomhairleach
+50	3550	gráin	ghráin ghránaigh gránach gránacha gránaigh
+51	3551	faillí	bhfaillí fhaillí
+52	3552	caistíl	caistíle chaistíl chaistíle gcaistíl
+53	3553	craobhscaoil	chraobhscaoil chraobhscaoileadh chraobhscaoileann chraobhscaoilfeadh chraobhscaoilte craobhscaoileadh craobhscaoilte gcraobhscaoileadh
+54	3554	gallán	galláin ghallán
+55	3555	sainaithin	sainaitheanta sainaithint sainaithníodh sainaithníonn sainaithnítear shainaithin shainaithint shainaithníonn shainaithnítear
+56	3556	tógálaí	dtógálaithe thógálaithe thógálaí tógálaithe
+57	3557	spontáineach	spontáineacha
+58	3558	éagobhsaí	héagobhsaí
+59	3559	capsúl	capsúil chapsúl gcapsúl
+60	3560	paindéim	bpaindéim paindéime paindéimí phaindéim
+61	3561	príomhpháirt	bpríomhpháirt bpríomhpháirteanna phríomhpháirt phríomhpháirteanna príomhpháirteanna
+62	3562	cearn	cearna cearnaí chearn chearna gcearn
+63	3563	meánchiorcal	meánchiorcail mheánchiorcail mheánchiorcal
+64	3564	sócmhainn	shócmhainn shócmhainní sócmhainní tsócmhainn
+65	3565	taobhaigh	dtaobhódh dtaobhú taobhaithe taobhaíonn taobhú thaobhaigh thaobhaíonn thaobhódh thaobhú
+66	3566	diagaire	dhiagaire dhiagairí diagairí ndiagairí
+67	3567	líneáil	líneáilte líneála líneálann
+68	3568	neas	nis
+69	3569	tonna	dtonna thonna tonnaí
+70	3570	foclóirí	fhoclóirí foclóirithe
+71	3571	baileach	bailí bhailí
+72	3572	creat	chreat chreata chreataí creata creataí gcreat
+73	3573	iarchéim	iarchéime iarchéimeanna
+74	3574	iaránach	hiaránaigh iaránacha iaránaigh niaránach
+75	3575	bonnán	bhonnáin bhonnán bonnáin mbonnán
+76	3576	paidir	bpaidir bpaidreacha paidre paidreacha phaidir phaidreacha
+77	3577	bóramha	bóirmhe
+78	3578	hart	hairt
+79	3579	liathán	liatháin
+80	3580	misinéir	mhisinéir mhisinéirí misinéirí
+81	3581	coinín	choinín choiníní coiníní gcoinín gcoiníní
+82	3582	bos	bhois bhos bois boise bosa mbos
+83	3583	flúirse	bhflúirse fhlúirse flúirsí
+84	3584	torthúil	thorthúil thorthúla torthúla
+85	3585	seiceáil	seiceáilte seiceála seiceálacha seiceáladh seiceálann seiceálfaidh sheiceáil sheiceála sheiceálacha
+86	3586	píobán	bpíobán phíobáin phíobán píobáin
+87	3587	tur	thur thura tuire tura
+88	3588	airne	airní hairní n-airne n-airní áirne
+89	3589	oide	oidí t-oide
+90	3590	siansa	shiansa shiansaí siansaí
+91	3591	lagú	lagaithe
+92	3592	comhbhrúigh	chomhbhrú chomhbhrúite comhbhrú comhbhrúite comhbhrúitear
+93	3593	scolóis	scolóise
+94	3594	leictreonaic	leictreonaice
+95	3595	láithreacht	láithreachta
+96	3596	idirbheartaíocht	d'idirbheartaíocht hidirbheartaíocht hidirbheartaíochta idirbheartaíochta
+97	3597	máinlia	mháinlia máinlianna
+98	3598	ídigh	hídiú n-ídeodh n-ídithe n-ídíonn ídithe ídiú ídí ídíodh ídíonn ídítear
+99	3599	ceintiméadar	ceintiméadair cheintiméadair cheintiméadar gceintiméadar
+100	3600	ráthaigh	ráthaithe ráthaíodh ráthaíonn ráthaítear ráthóir ráthóirí

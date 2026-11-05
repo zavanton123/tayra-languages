@@ -1,0 +1,100 @@
+1	9801	gnáthnós	gnáthnósanna
+2	9802	gíreascóp	ghíreascóip ghíreascóp gíreascóip
+3	9803	oraimis	horaimise
+4	9804	ainhidríd	hainhidrídí
+5	9805	inmhalartaithe	hinmhalartaithe
+6	9806	hiodrocsail	hiodrocsaile
+7	9807	ísealaicme	hísealaicme hísealaicmí
+8	9808	idirchathrach	idirchathracha
+9	9809	imbhalla	
+10	9810	iolrachas	iolrachais
+11	9811	lagbhrú	lagbhrúnna
+12	9812	línigh	línithe líní
+13	9813	meáneasna	meáneasnacha mheáneasna
+14	9814	milliúnaí	mhilliúnaí
+15	9815	mionsaothraigh	mhionsaothraithe mhionsaothrú mionsaothraithe
+16	9816	miotalóideach	miotalóidigh
+17	9817	mismín	mismíní
+18	9818	monagraf	mhonagraf
+19	9819	muiléad	muiléid
+20	9820	mírialta	mhírialta
+21	9821	neamhfhabhrach	neamhfhabhracha
+22	9822	neamhghaolmhar	neamhghaolmhara
+23	9823	gréas	ghréas gréasa ngréas
+24	9824	oibritheoir	
+25	9825	oibríochtúil	oibríochtúla
+26	9826	príomhchara	phríomhchairde phríomhchara
+27	9827	poileitiléin	poileitiléine
+28	9828	portmanta	
+29	9829	prótachtainiam	
+30	9830	scirmis	scirmise scirmisí
+31	9831	scriostóir	scriostóirí
+32	9832	sonra	shonra
+33	9833	speir	speire
+34	9834	spíosrach	
+35	9835	strapa	strap strapaí
+36	9836	suaimhneasán	shuaimhneasáin shuaimhneasán suaimhneasáin
+37	9837	taibhsiúil	taibhsiúla thaibhsiúil thaibhsiúla
+38	9838	taibhrigh	taibhrithe taibhríodh taibhríonn thaibhrigh
+39	9839	tuathghríosóir	thuathghríosóir thuathghríosóirí tuathghríosóirí tuathghríosóra
+40	9840	tiarnúil	thiarnúil tiarnúla
+41	9841	tiontaire	tiontairí
+42	9842	saobhdhiallas	saobhdhiallais tsaobhdhiallais
+43	9843	éadulaingt	éadulaingthe
+44	9844	éigeas	éigis
+45	9845	éiritheach	éiritheacha éirithigh
+46	9846	cáiníocóir	cháiníocóirí cáiníocóirí gcáiníocóir
+47	9847	siléar	shiléar siléir
+48	9848	suthach	shuthach suthacha
+49	9849	borr	bhorr bhorrtha borra borrann borrtha
+50	9850	riosóm	riosóim
+51	9851	leitheadach	leitheadacha leitheadú
+52	9852	spleodrach	spleodracha spleodraí
+53	9853	pailnigh	bpailníonn pailneoirí pailníonn pailnítear phailníonn phailnítear
+54	9854	muirís	mhuirís
+55	9855	buaille	
+56	9856	cóiréagrafaí	
+57	9857	gulba	gulban
+58	9858	péarlach	
+59	9859	arú	
+60	9860	lionn	lionnta
+61	9861	tritiam	thritiam
+62	9862	concar	choncair
+63	9863	asóir	hasóir nasór
+64	9864	éadóchasach	héadóchasach éadóchasacha
+65	9865	breogán	bhreogáin bhreogán
+66	9866	ceoláras	cheolárais cheoláras gceoláras
+67	9867	táilliúir	tháilliúra táilliúirí táilliúr táilliúra
+68	9868	iarnóin	iarnóna
+69	9869	féinics	fhéinics
+70	9870	beangáilis	beangáilise bheangáilis mbeangáilis
+71	9871	forbhalla	forbhallaí
+72	9872	caochán	caocháin chaocháin
+73	9873	púicín	bpúicín púicíní
+74	9874	aisiompaigh	aisiompaithe aisiompaíodh aisiompaíonn d'aisiompaigh d’aisiompaigh haisiompú
+75	9875	smaragaid	smaragaide smaragaidí
+76	9876	gealán	dealán gealáin ghealáin ngealán
+77	9877	clúidín	chlúidín clúidíní gclúidíní
+78	9878	scéin	sceon scéine
+79	9879	ardcheannasach	
+80	9880	boilsc	bhoilsc boilsce
+81	9881	bronntóir	bhronntóir mbronntóirí
+82	9882	cabrach	cabraí
+83	9883	connall	chonnaill connaill
+84	9884	deilbhíocht	
+85	9885	draíodóireacht	draíodóireachta
+86	9886	filipínis	fhilipínis
+87	9887	gintlí	gintlithe ngintlithe
+88	9888	ind-iaránach	ind-iaránacha
+89	9889	lónadóireacht	lónadóireachta
+90	9890	mordóiv	mhordóiv mordóive
+91	9891	másailéam	mhásailéam
+92	9892	tóstal	tóstail
+93	9893	aitheach	aithigh haithigh n-aitheach
+94	9894	amhantraíocht	
+95	9895	antasubstaint	antasubstainte
+96	9896	athroinn	athroinnt
+97	9897	babún	babúin bhabúin bhabún
+98	9898	baratón	baratóin bharatón
+99	9899	beireatas	beireatais
+100	9900	bithleigheas	bhithleighis bithleighis

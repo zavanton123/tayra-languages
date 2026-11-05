@@ -1,0 +1,100 @@
+1	901	cáin	cháin cháineann cháintear cháintí chána chánach chánacha cáineann cáintear cána cánach cánacha gcáin gcánach gcánacha
+2	902	cuntas	chuntais chuntas cuntais cúntas gcuntais gcuntas
+3	903	traidisiún	dtraidisiúin dtraidisiún thraidisiúin thraidisiún traidisiúin
+4	904	tinneas	dtinneas thinneas thinnis tinnis
+5	905	leasú	leasuithe
+6	906	trádáil	dtrádáil dtrádáiltear dtrádálann thrádáil thrádáiltear thrádála thrádálann trádáilte trádáiltear trádála
+7	907	ciúin	chiúin
+8	908	príosún	bpríosúin bpríosún phríosúin phríosún príosúin
+9	909	stádas	stádais
+10	910	soiléir	shoiléir shoiléire soiléire soléir tsoiléire
+11	911	taispeáin	dtaispeánann dtaispeánfadh dtaispeánfaidh dtaispeánfaí dtaispeántar spáin taispeána taispeánann taispeánfaidh taispeánfar taispeánta taispeántar thaispeáin thaispeánann thaispeánas thaispeánfadh thaispeánfaidh thaispeánfar thaispeánta thaispeántar
+12	912	fágáil	bhfágáil fhágaint fhágáil fágaint fágála
+13	913	sochaí	shochaithe shochaí sochaidhe sochaithe tsochaí
+14	914	dearadh	dearaidh dearaí deartha dhearadh dhearaí ndearadh ndearaí
+15	915	spreagadh	spreagtha spreagthaí
+16	916	spórt	spóirt spórtanna
+17	917	saghas	saghais saghsanna shaghas shaghsanna tsaghais tsaghas
+18	918	dorcha	dhorcha doirche
+19	919	scaradh	scartha
+20	920	oifigeach	b’oifigigh d'oifigeach d'oifigigh d’oifigeach d’oifigigh hoifigeach hoifigigh n-oifigeach n-oifigigh oifigigh t-oifigeach
+21	921	tapa	tapaidh thapa
+22	922	aitheantas	aitheantais haitheantas n-aitheantais n-aitheantas t-aitheantas
+23	923	cainteoir	cainteoirí cainteora chainteoir chainteoirí chainteora gcainteoir gcainteoirí
+24	924	fearg	bhfearg feirg feirge fhearg
+25	925	gnách	ghnách ghnáthach gnáiche gnáthach ngnách
+26	926	bundúchasach	bhundúchasach bhundúchasacha bhundúchasaigh bundúchasacha bundúchasaigh mbundúchasach mbundúchasaigh
+27	927	síol	shíol shíolta síolta síoltaí tsíl tsíol tsíolta
+28	928	íseal	híseal ísil
+29	929	greim	ghreama ghreamanna ghreim greama greamanna ngreamanna ngreim
+30	930	éileamh	d'éileamh d'éilimh d’éileamh d’éilimh héileamh héilimh n-éileamh n-éilimh t-éileamh éilimh
+31	931	deasc	deasca deascadh deascann deascfaidh deasctar deasctha deisce dheasc dheasca dheascadh dheascann
+32	932	rothar	rothair
+33	933	tábla	dtábla dtáblaí thábla tháblaí táblaí
+34	934	príomha	phríomha
+35	935	gaoth	gaoith gaoithe gaotha ghaoith ghaoithe ghaoth ghaotha ngaoth
+36	936	coróin	choróin chorónacha coróine coróineach corónacha corónaigh gcoróin
+37	937	dearcadh	dearcaidh dearcthaí dhearcadh dhearcaidh ndearcadh
+38	938	tarraingt	dtarraingt tarrac tarraingthe tarraingtí tharrac tharraingt tharraingthe tharraingtí
+39	939	ionsaigh	d'ionsaigh d'ionsaíodh d’ionsaigh d’ionsaíodh d’ionsódh hionsaithe hionsaíodh ionsaithe ionsaíodh ionsaíonn ionsaítear ionsódh ionsóidh n-ionsaíodh n-ionsaíonn n-ionsódh n-ionsófaí n-ionsóidh t-ionsú
+40	940	bó	bhó buaibh mbó
+41	941	lárnach	lárnacha lárnaigh lárnaí
+42	942	báisteach	bháisteach bháistí báistí báistíodh mbáisteach
+43	943	ainmniú	ainmnithe n-ainmniú t-ainmniú
+44	944	íoc	d'íoc d'íocadh d'íocaidís d'íocfadh d'íocfainn d'íocfá d'íoctaí d’íoc d’íocadh d’íocfadh d’íocfaí híoc híocadh n-íoc n-íoca n-íocadh n-íocaidís n-íocann n-íocfadh n-íocfaidh n-íocfaidís n-íocfar n-íocfaí n-íoctar íce ící íoca íocadh íocann íocfadh íocfaidh íocfaidís íocfaí íoctar íoctaí íoctha
+45	945	leag	leagadar leagadh leagamar leagann leagas leagfadh leagfaidh leagfar leagfaí leagtar leagtaí leagtha
+46	946	trasna	tarsna thrasna treasna
+47	947	taitneamh	taitnimh thaitneamh
+48	948	eisigh	d'eisigh d'eisídís d'eisíodar d'eisíodh d’eisigh d’eisíodh eiseofar eisithe eisí eisíodh eisíonn eisítear heisíodh n-eiseofar n-eiseofaí n-eiseoidh n-eiseoidís n-eisíonn
+49	949	tionól	dtionóil dtionól thionóil thionól thionóladh thionóltar tionóil tionóladh tionóltar
+50	950	teip	dteip dteipeann dteipeanna dteipfeadh dteipfidh teipe teipeadh teipeann teipeanna teipthe theip theipeadh theipeann theipeanna theipfeadh
+51	951	maígh	maí maíodh maíonn maíte maítear mhaí mhaífeadh mhaígh mhaíodar mhaíodh mhaíonn mhaíos mhaíte mhaítear
+52	952	breac	bhreac bhreaca bhreacadh bhreacaidh bhreacann bhreactaí bhric breaca breacadh breacann breactha bric brice mbreac mbreacann
+53	953	faisnéis	bhfaisnéis d’fhaisnéis faisnéise faisnéisí fhaisnéis fhaisnéise
+54	954	teocht	dteocht dteochtaí teochta teochtaí theocht theochtaí
+55	955	eagarthóir	d'eagarthóir d'eagarthóirí d’eagarthóirí eagarthóirí eagarthóra heagarthóir heagarthóirí heagarthóra n-eagarthóirí t-eagarthóir
+56	956	cine	chine ciníocha gcine gciníocha
+57	957	scian	sceana sciana scine scion
+58	958	óglach	d'óglaigh d’óglaigh hóglaigh n-óglach n-óglaigh nóglach nóglaigh t-óglach tóglach óglaigh óglách
+59	959	sinsear	shinsear shinsir sinsir tsinsir
+60	960	léarscáil	léarscáile léarscáileanna
+61	961	rang	ranga ranganna
+62	962	éadan	d'éadan d’éadan héadain héadan n-éadan t-éadan éadain
+63	963	oidhreacht	d'oidhreacht d’oidhreacht hoidhreacht hoidhreachta hoidhreachtaí n-oidhreacht oidhreachta oidhreachtaí
+64	964	béim	bhéim béime béimeanna mbéim
+65	965	eagar	d'eagar eagair heagair heagar n-eagar t-eagar
+66	966	saothrú	shaothrú
+67	967	nua-aimseartha	
+68	968	beoir	beorach bheoir bheorach mbeoir
+69	969	trácht	dtrácht thrácht thráchta thráchtais thráchtann thráchtar thráchtas thráchtfaí tráchta tráchtadh tráchtann tráchtanna
+70	970	canadh	chanadh gcanadh
+71	971	taoiseach	dtaoiseach dtaoisigh taoisigh thaoiseach thaoisigh
+72	972	iompair	d'iompair d'iompraíodh d'iompraítí d'iompródh d’iompair d’iompródh hiompair iompraíodh iompraíonn iompraítear iompróidh n-iompair n-iompraíonn n-iompraítear n-iompródh n-iomprófar
+73	973	comhdhúil	chomhdhúil chomhdhúile comhdhúile comhdhúl gcomhdhúil gcomhdhúile gcomhdhúl
+74	974	gníomhaíocht	ghníomhaíocht ghníomhaíochta ghníomhaíochtaí gníomhaíochta gníomhaíochtaí ngníomhaíocht ngníomhaíochtaí
+75	975	orgánach	b'orgánaí d'orgánach d'orgánaigh d’orgánach d’orgánaigh horgánach horgánaigh n-orgánach orgánacha orgánaigh t-orgánach
+76	976	gairm	gairme gairmeadh gairmthe ghairm ghairme ngairm ngairme ngairmeacha
+77	977	bailiúchán	bailiúcháin bhailiúcháin bhailiúchán mbailiúcháin mbailiúchán
+78	978	teagmháil	dteagmháil dteagmhálacha teagmhála theagmháil theagmhála
+79	979	aicme	aicmí d'aicme d'aicmí d’aicme haicme haicmí n-aicme n-aicmí
+80	980	brath	bhrath
+81	981	fuath	b'fhuath bhfuath b’fhuath fhuath fhuatha fuatha
+82	982	cathaoirleach	cathaoirligh chathaoirleach chathaoirligh gcathaoirleach
+83	983	simplí	shimplí
+84	984	araon	
+85	985	gealach	gealacha gealaigh gealaí ghealach ghealacha ghealaí ngealach ngealaí
+86	986	bualadh	bhualadh mbualadh
+87	987	polasaí	bpolasaithe bpolasaí pholasaithe pholasaí polasaithe
+88	988	scéim	scéime scéimeanna
+89	989	léim	léime léimeadh léimeann léimeanna léimfeadh léimfidh léimigí léimt
+90	990	dála	dhála ndála
+91	991	socrú	shocruithe shocrú socruithe tsocrú
+92	992	cuspóir	chuspóir chuspóirí chuspóra cuspóirí cuspóra gcuspóir gcuspóirí
+93	993	margadh	margaidh margaí mhargadh mhargaidh mhargaí
+94	994	cárta	chárta chártaí cáirt cártaí gcárta gcártaí
+95	995	casta	chasta
+96	996	gréasán	ghréasáin ghréasán gréasáin ngréasán
+97	997	aistriú	d'aistriú d’aistriú haistriú n-aistriú t-aistriú
+98	998	deoch	deocha deochanna dheoch dheochanna dhí dí ndeoch ndeochanna
+99	999	amhras	aimhreas amhrais hamhras n-amhras t-amhras
+100	1000	sinn	shinn sinne

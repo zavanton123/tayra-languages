@@ -1,0 +1,100 @@
+1	3001	gearrscannán	gearrscannáin ghearrscannáin ghearrscannán ngearrscannáin ngearrscannán
+2	3002	mianadóireacht	mhianadóireacht mhianadóireachta mianadóireachta
+3	3003	nócha	nóchaidí
+4	3004	seanbhunaithe	sheanbhunaithe
+5	3005	peaca	bpeaca bpeacaí peacaí pheaca pheacaí
+6	3006	críochantacht	
+7	3007	grianghrafadóir	ghrianghrafadóir ghrianghrafadóirí ghrianghrafadóra grianghrafadóirí grianghrafadóra ngrianghrafadóir ngrianghrafadóirí
+8	3008	popcheol	bpopcheol phopcheoil phopcheol popcheoil
+9	3009	greannmhar	ghreannmhar ghreannmhara greannmhaire greannmhara
+10	3010	corpán	chorpáin chorpán corpáin gcorpáin gcorpán
+11	3011	aoi	aíonna b'aoi haoi haíonna n-aíonna t-aoi
+12	3012	ard-chúirt	ard-chúirte d'ard-chúirt hard-chúirte
+13	3013	gotach	ghotach ghotacha ghotaigh gotacha gotaigh gotaí ngotach
+14	3014	coisí	choisithe choisí coisithe gcoisithe gcoisí
+15	3015	píolóta	bpíolóta phíolóta phíolótaí píolótaí
+16	3016	maidrid	mhaidrid
+17	3017	árasán	d'árasáin d’árasán hárasáin hárasán n-árasán t-árasán árasáin
+18	3018	suirbhéireacht	shuirbhéireacht shuirbhéireachta suirbhéireachta suirbhéireachtaí tsuirbhéireacht
+19	3019	síoraí	shíoraí
+20	3020	portach	bportach bportaigh phortach phortaigh portaigh
+21	3021	astaíocht	astaíochta astaíochtaí d'astaíochtaí d’astaíochta d’astaíochtaí hastaíocht hastaíochta hastaíochtaí n-astaíocht n-astaíochtaí
+22	3022	meastachán	meastacháin mheastacháin mheastachán
+23	3023	inspioráid	hinspioráid inspioráide inspioráidí n-inspioráid
+24	3024	einsím	d'einsímí einsíme einsímí heinsím heinsíme heinsímí n-einsímí
+25	3025	bréagach	bhréagach bhréagacha bhréagaigh bréagacha bréagaí
+26	3026	baiste	bhaiste
+27	3027	comhréiteach	chomhréiteach chomhréitigh comhréitigh comhréitithe gcomhréiteach
+28	3028	beagáinín	bheagáinín
+29	3029	indíreach	hindíreach indíreacha indírí
+30	3030	tráchtaireacht	thráchtaireacht tráchtaireachta tráchtaireachtaí
+31	3031	dréachtach	dréachtaí
+32	3032	ambasadóir	ambasadóirí ambasadóra d'ambasadóir hambasadóir hambasadóirí t-ambasadóir
+33	3033	fiontar	bhfiontair bhfiontar fhiontair fhiontar fiontair
+34	3034	criú	chriú criúnna gcriú
+35	3035	blaosc	bhlaosc bhlaoscanna blaoisce blaoscanna mblaosc mblaoscanna
+36	3036	común	chomúin chomún comúin gcomún
+37	3037	acra	acar acraí hacraí n-acra t-acra
+38	3038	painéal	bpainéal bpainéil painéil phainéal phainéil
+39	3039	ceapachán	ceapacháin cheapacháin cheapachán gceapachán
+40	3040	tiubhaigh	dtiúchan thiubhaíonn thiúchan tiubhaíonn tiúchan tiúchana
+41	3041	léiriúchán	léiriúcháin
+42	3042	saill	saille sailleadh saillte shaill shailleadh shaillte tsaill
+43	3043	priontáil	bpriontáil phriontáil phriontáilte phriontála phriontáladh phriontálann priontáilte priontáiltear priontála priontáladh
+44	3044	bodhrán	bhodhráin bhodhrán bodhráin mbodhrán
+45	3045	domhanleithead	dhomhanleithead dhomhanleithid domhanleithid ndomhanleithead
+46	3046	moráltacht	mhoráltacht mhoráltachta moráltachta
+47	3047	ríchathaoir	ríchathaoireach ríchathaoireacha
+48	3048	banphrionsa	banphrionsaí bhanphrionsa mbanphrionsa
+49	3049	aileach	ailigh
+50	3050	gallach	gallacha gallaigh gallaí ghallach ghallaigh ngallach
+51	3051	braon	bhraoin bhraon bhraonta braoin braonacha braonta mbraon
+52	3052	obráid	hobráid hobráide hobráidí n-obráidí obráide obráidí
+53	3053	cumadóireacht	chumadóireacht chumadóireachta cumadóireachta gcumadóireacht
+54	3054	paiste	bpaistí paistí phaiste phaistí
+55	3055	eis	eiseadh eisidh eistear eistir
+56	3056	iomann	d'iomainn d’iomainn hiomainn hiomann iomainn n-iomann t-iomann
+57	3057	miotasach	mhiotasach mhiotasaigh miotasacha
+58	3058	beannaithe	bheannaithe
+59	3059	aisteoireacht	aisteoireachta haisteoireacht haisteoireachta
+60	3060	saoránacht	saoránachta shaoránacht tsaoránacht
+61	3061	claochlaigh	chlaochlaigh chlaochlaithe chlaochlaíodh chlaochlaíonn chlaochluithe chlaochlú claochlaithe claochlaíodh claochlaíonn claochluithe claochlú gclaochlaíonn gclaochluithe gclaochlóidh gclaochlú
+62	3062	geografach	geografacha geografaí gheografach gheografacha gheografaigh gheografaí
+63	3063	smaointeach	smaointí
+64	3064	cúiseach	chúiseach chúisigh chúisí cúiseacha cúisí cúisíodh gcúisí
+65	3065	moncaí	mhoncaithe mhoncaí moncaithe
+66	3066	briogáid	bhriogáid bhriogáide briogáide briogáidí mbriogáid mbriogáidí
+67	3067	cuaille	chuaille chuaillí cuaillí gcuaille gcuaillí
+68	3068	clóbhuail	chlóbhuail chlóbhuailte chlóbhuailtear chlóbhuailtí chlóbhualadh clóbhuaileadh clóbhuailte clóbhuailtear clóbhualadh
+69	3069	creim	chreimeadh chreimeann chreimthe creimeadh creimeann creimthe gcreimeadh gcreimeann
+70	3070	tuige	tuigí
+71	3071	flaithbheartach	flaithbheartaigh
+72	3072	lúthchleasaí	lúthchleasaithe
+73	3073	siamsaíocht	shiamsaíocht shiamsaíochta siamsaíochta tsiamsaíocht
+74	3074	saoi	saoithe shaoi tsaoi
+75	3075	aondachtóir	aontachtóirí haontachtóirí
+76	3076	d'ainneoin	
+77	3077	cruachás	chruachás cruacháis gcruacháis gcruachás
+78	3078	éanlaith	d'éanlaith d’éanlaith héanlaith héanlaithe n-éanlaith éanlaithe
+79	3079	cinedhíothú	chinedhíothaithe chinedhíothú cinedhíothaithe gcinedhíothú
+80	3080	siopadóireacht	siopadóireachta tsiopadóireacht
+81	3081	dlúthbhaint	
+82	3082	cleamhnas	chleamhnais chleamhnas cleamhnais gcleamhnas
+83	3083	blúire	bhlúire bhlúirí blúirí mblúire mblúirí
+84	3084	leitir	leitreach
+85	3085	fíochmhar	b'fhíochmhaire fhíochmhaire fhíochmhar fhíochmhara fíochmhaire fíochmhara
+86	3086	criticeoir	chriticeoir chriticeoirí criticeoirí gcriticeoir gcriticeoirí
+87	3087	luchtaigh	luchtaithe luchtaítear luchtú
+88	3088	cró	chró cróite gcró
+89	3089	ceardlann	ceardlainne ceardlanna cheardlann cheardlanna gceardlann gceardlanna
+90	3090	fithiseán	fithiseáin
+91	3091	máinliacht	mháinliacht mháinliachta máinliachta
+92	3092	ceapadóir	ceapadóirí ceapadóra cheapadóir cheapadóra
+93	3093	duán	dhuáin dhuán dubhán duáin nduán
+94	3094	macasamhail	macasamhla macasamhlacha mhacasamhail
+95	3095	gealltanas	gealltanais ghealltanais ghealltanas ngealltanais ngealltanas
+96	3096	imbhualadh	d'imbhualadh himbhuailte himbhuailtí himbhualadh imbhuailte imbhuailtí n-imbhuailte n-imbhuailtí t-imbhualadh
+97	3097	ultach	hultaigh n-ultach nultach tultach ultacha ultaigh
+98	3098	dinnseanchas	dhinnseanchas dinnseanchais
+99	3099	sann	sannadh sannann sannfaí sannta sanntar shann shannadh shannann shanntar
+100	3100	réasún	réasúin

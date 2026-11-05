@@ -1,0 +1,100 @@
+1	4501	luibheolaíocht	luibheolaíochta
+2	4502	iora	feirí hiora hioraí ioraí n-ioraí t-iora
+3	4503	bulla	bhulla bhullaí bullaí mbulla
+4	4504	fuinniúil	fhuinniúil fhuinniúla fuinniúla
+5	4505	gallóglach	gallóglaigh ghallóglach ghallóglaigh ngallóglach
+6	4506	bláthach	bhláthach bhláthaigh bláthacha bláthú
+7	4507	pota	bpota bpotaí phota photaí potaí
+8	4508	seansaol	sheansaol tseansaoil
+9	4509	leanúnachas	leanúnachais
+10	4510	taitneamhach	taithneamhach taitneamhacha taitneamhaí thaitneamhach
+11	4511	fabhraigh	fabhraithe fabhraíonn fabhraítear fabhrú fhabhraigh
+12	4512	fáistineach	bhfáistineach fháistineach fháistinigh fáisteanach fáistineacha
+13	4513	suáilce	shuáilcí suáilcí tsuáilce
+14	4514	ear	
+15	4515	leasuachtarán	leasuachtaráin
+16	4516	mogh	mhogh mhogha mogha
+17	4517	diongbháilte	dhiongbháilte
+18	4518	iompróir	hiompróir hiompróirí iompróirí iompróra n-iompróirí t-iompróir
+19	4519	solasbhliain	sholasbhliain solasbhliana solasbhlianta
+20	4520	díograis	dhíograis dhíograise díograise ndíograis
+21	4521	brugh	brugha bruigh
+22	4522	ainian	ainiain hainiain hainian t-ainian
+23	4523	alcaileach	alcaileacha alcailigh
+24	4524	díláithrigh	dhíláithrigh dhíláithriú dhíláithríonn díláithrithe díláithriú díláithríonn ndíláithrithe
+25	4525	seanfhocal	seanfhocail sheanfhocail sheanfhocal
+26	4526	speictreach	speictreacha
+27	4527	ard-chomhairle	d'ard-chomhairle hard-chomhairle
+28	4528	fuaimiúil	fhuaimiúil fhuaimiúla fuaimiúla
+29	4529	clásal	chlásail chlásal clásail gclásail gclásal
+30	4530	breathnóireacht	bhreathnóireacht bhreathnóireachta breathnadóireachta breathnóireachta mbreathnóireacht
+31	4531	snas	shnasú shnoí snasadh snasanna snoí tsnasa
+32	4532	tógálach	thógálach thógálacha thógálaigh tógálacha
+33	4533	tuirling	thuirling thuirlingeodh thuirlingíonn tuirlingeoidh tuirlingeoir tuirlingíonn
+34	4534	balcán	balcáin bhalcáin mbalcán
+35	4535	díscaoileadh	dhíscaoileadh
+36	4536	adhradh	d'adhradh n-adhradh t-adhradh
+37	4537	deilf	deilfe deilfeanna dheilfe dheilfeanna
+38	4538	súgradh	shúgartha shúgradh súgartha
+39	4539	turraing	thurraing thurrainge turrainge turraingí
+40	4540	éadomhain	éadoimhne
+41	4541	sásúil	shásúil sásúla
+42	4542	liobrálachas	liobrálachais
+43	4543	múrach	mhúrach mhúraigh múracha múraigh
+44	4544	tacsanomaíoch	tacsanomaíocha
+45	4545	friotal	bhfriotal fhriotal friotail
+46	4546	scuadrún	scuadrúin
+47	4547	ionga	d'ingne hingne ingne
+48	4548	iarbhír	hiarbhír
+49	4549	maisuimhir	maisuimhreach maisuimhreacha
+50	4550	dide	did
+51	4551	pluais	bpluais bpluaiseanna phluais phluaise phluaiseanna pluaise pluaiseanna
+52	4552	múch	mhúch mhúchadh mhúchann mhúchta mhúchtar múchann múchfar múchfaí múchta múchtar múiche
+53	4553	anailísiú	n-anailísiú
+54	4554	leamhan	leamhain
+55	4555	smachtbhanna	smachtbhannaí
+56	4556	guairne	ghuairne nguairne
+57	4557	cigire	chigire chigirí cigirí gcigire
+58	4558	imoibreoir	d'imoibreoirí himoibreoirí imoibreoirí imoibreora n-imoibreoirí t-imoibreoir
+59	4559	naimhdeas	naimhdis
+60	4560	triantánach	thriantánach thriantánacha triantánacha
+61	4561	coibhéis	choibhéis coibhéise gcoibhéis
+62	4562	eisceachtúil	eisceachtúla heisceachtúil
+63	4563	frog	bhfrog fhrog fhroganna froganna froig
+64	4564	féasóg	fhéasóg fhéasóige féasóga féasóige
+65	4565	tacsón	tacsóin
+66	4566	treisigh	dtreiseodh threisigh threisíonn treisíodh treisíonn treisítear
+67	4567	tocsain	dtocsainí thocsain thocsainí tocsaine tocsainí
+68	4568	amhábhar	amhábhair hamhábhair t-amhábhar
+69	4569	dúshraith	dhúshraith
+70	4570	duibhe	dhuibhe
+71	4571	briostó	bhriostó mbriostó
+72	4572	bród	bhród bhróid bróid mbród
+73	4573	síorghlas	shíorghlas shíorghlasa síorghlasa
+74	4574	gráig	ghráig gráige gráigeanna ngráig ngráigeanna
+75	4575	biotáille	bhiotáille biotáillí mbiotáille
+76	4576	fo-adamhach	fo-adamhacha
+77	4577	righin	righne
+78	4578	ortadocsach	ortadocsacha ortadocsaigh ortadocsaí
+79	4579	neamhiomlán	neamhiomlána
+80	4580	imeallach	imeallacha imeallaigh imeallaithe
+81	4581	polaraigh	bpolaraigh pholaraithe pholaraíonn pholarú polaraithe polarú
+82	4582	ró	rónna
+83	4583	bréagriocht	bhréagriocht bréagriochtaí mbréagriocht
+84	4584	marana	mharana
+85	4585	peig	pheig
+86	4586	snáithe	shnáithe shnáitheanna snáitheanna snáithí tsnáithe
+87	4587	aoncheallach	aoncheallacha aoncheallaigh
+88	4588	póg	bpóg phóg phógadh phógann phógfadh pógadh pógann pógtha póige
+89	4589	starr	starrtha
+90	4590	traí	
+91	4591	faisisteachas	bhfaisisteachas fhaisisteachais fhaisisteachas
+92	4592	dreigít	dhreigítí dreigíte dreigítí ndreigítí
+93	4593	tréimhsiúil	thréimhsiúil tréimhsiúla
+94	4594	uimhrigh	huimhriú uimhrithe uimhriú uimhrítear
+95	4595	ardleibhéil	
+96	4596	tír-raon	dtír-raon thír-raon tír-raoin tír-raonta
+97	4597	seanmóirí	seanmóirithe sheanmóirí
+98	4598	deireanas	deireanais
+99	4599	íogaireacht	híogaireacht híogaireachta íogaireachta
+100	4600	daorbhroid	daorbhroide ndaorbhroid

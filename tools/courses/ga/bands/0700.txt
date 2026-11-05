@@ -1,0 +1,100 @@
+1	601	eagrán	d'eagráin d'eagrán eagráin heagráin heagrán n-eagrán t-eagrán
+2	602	ábalta	b'ábalta hábalta
+3	603	ceathair	cheathair
+4	604	modh	mhodh mhodha mhodhanna modha modhanna
+5	605	sacar	sacair shacair shacar tsacair tsacar
+6	606	dochtúir	dhochtúir dhochtúirí dhochtúra dochtúirí dochtúra ndochtúir ndochtúirí
+7	607	banna	bannaí bhanna bhannaí mbanna mbannaí
+8	608	pointe	bpointe bpointí phointe phointí pointí
+9	609	sóivéadach	shóivéadach shóivéadacha shóivéadaigh sóivéadacha sóivéadaigh sóivéadaí
+10	610	féilire	bhféilire fhéilire féilirí
+11	611	daonáireamh	daonáirimh dhaonáireamh dhaonáirimh ndaonáireamh
+12	612	uile	huile uileag uilig
+13	613	míleata	mhíleata
+14	614	cosc	chosc coisc coscann coscanna gcosc
+15	615	taitin	dtaitneodh dtaitneoidh dtaitníonn taitníonn thaitin thaitníodh thaitníonn
+16	616	tiomáint	dtiomáint thiomáint thiomáintí tiomána
+17	617	struchtúr	struchtúir
+18	618	farraige	bhfarraige bhfarraigí d'fharraige d’fharraige fairge fairrge farraigí fharraige fharraigí
+19	619	dúil	dhúil dhúile dúile dúl ndúil ndúile ndúl
+20	620	clois	chloiseadh chloiseann chloisfeadh chloisfeá chloistear chloisteáil chloisteála chloistí chlos chuala chualaidh cloiseadh cloiseann cloisfear cloisfidh cloisimid cloisint cloiste cloistear cloisteáil cloisteála clos cuala gcloiseann gcloisfeadh gcloisfeá gcloisfí gcloistear gcloisteáil
+21	621	leathan	leathain leathana leithne
+22	622	fionn	bhfionn bhfionnadh bhfionnaidh d'fhionn d'fhionnadh d’fhionn d’fhionnadh fhinn fhinne fhionn fhionnabhair fhionnadh fhionnaidh fhionnainn fhionnfar finn finne fionna fionnadh fionnaidh fionnta
+23	623	údar	b'údar b’údar d'údair d'údar d’údair d’údar húdair húdar n-údair n-údar t-údar údair
+24	624	mol	mhoil mhol mholadar mholainn mholann mholfadh mholfainn mholta mholtar mholtaí moil mola moladar molaidh molaim molaimid molann molfar molta moltar
+25	625	difríocht	dhifríocht dhifríochtaí difríochta difríochtaí ndifríochtaí
+26	626	téacs	dtéacs dtéacsanna théacs théacsanna téacsa téacsanna
+27	627	triúr	dtriúir dtriúr thriúr triúir
+28	628	seachas	
+29	629	lig	leig lige ligeadar ligeadh ligeann ligfeadh ligfear ligfeá ligfidh ligfidís ligfí ligimid ligtear ligthe ligtí
+30	630	cáil	cháil cháile cáile gcáil
+31	631	ginearálta	ghinearálta
+32	632	muir	mara mhara mhuir
+33	633	aonar	aonair d'aonar haonair haonar m’aonar n-aonar t-aonar
+34	634	treo	dtreo dtreonna threo threonna treonna
+35	635	luí	luighe
+36	636	moladh	mholadh molta moltaí
+37	637	daonna	dhaonna
+38	638	glan	ghlain ghlan ghlana ghlanadh ghlanann ghlanfaidís ghlanfá ghlanta ghlantar glaine glana glanadh glanann glanta glantar nglanadh nglanfadh nglanfaidh nglantar
+39	639	cearnach	cearnacha cearnaigh cearnaithe cearnú chearnach chearnacha chearnaigh gcearnaigh
+40	640	albam	albaim d'albam d’albaim d’albam halbaim halbam n-albaim n-albam t-albam
+41	641	gortaigh	ghortaigh ghortaithe ghortaíodh ghortaíonn ghortaítear ghortuithe ghortú gortaithe gortaíodh gortaíonn gortaítear gortuithe gortú ngortaíodh ngortuithe ngortú
+42	642	tagairt	dtagairt dtagairtí tagairtí tagartha thagairt thagairtí thagartha
+43	643	soláthar	sholáthairtí sholáthar solar soláthair soláthairtí soláthraíonn tsoláthair
+44	644	fosta	
+45	645	oirthear	d'oirthear d’oirthear hoirthear hoirthir n-oirthear noirthear noirthir oirthir t-oirthear toirthear
+46	646	thoir	
+47	647	tinn	teinn thinn tinne
+48	648	polaitíocht	bpolaitíocht pholaitíocht pholaitíochta polaitíochta
+49	649	iomaí	b'iomaí b’iomaí iomadh iomdha
+50	650	scaoil	scaoileadar scaoileadh scaoileann scaoilfeadh scaoilfear scaoilfidh scaoilfidís scaoilfimis scaoilfí scaoilte scaoiltear scaoiltí
+51	651	oscail	b'oscailte d'oscail d'osclaíodh d'osclaíomar d'osclaítí d'osclódh d'osclóidís d'osclóinn d’oscail d’osclaíodar d’osclaíodh hoscail hosclaíodh n-osclaíonn n-osclaítear n-osclódh n-osclófar n-osclófaí n-osclóidh osclaíd osclaídh osclaím osclaíodh osclaíonn osclaíos osclaír osclaítear osclód osclófar osclóid osclóidh osclóir
+52	652	francach	bhfrancach fhrancach fhrancacha fhrancaigh francacha francaigh francaí
+53	653	cósta	chósta chóstaí cóstaí gcósta gcóstaí
+54	654	sláinte	shláinte tsláinte
+55	655	cois	chois coise gcois
+56	656	lorg	loirg lorgaíodh lorgaíonn lorgaítear lorgtha lorgódh lorgóidh
+57	657	méad	mhéad
+58	658	donn	dhoinn dhonn dhonna dhronn dhuinn doinn doinne donna donnadh dronn duinn duinne
+59	659	limistéar	limistéir
+60	660	brú	bhrú bhrúite brúite brúnna mbrú
+61	661	tae	dtae thae
+62	662	aodh	aodha d'aodh d’aodh haodh n-aodh
+63	663	adamh	adaimh d'adaimh d'adamh d’adaimh d’adamh hadaimh hadamh n-adaimh n-adamh t-adamh
+64	664	slí	shlite shlí slighe slite tslí
+65	665	oscailt	d'oscailt d'oscailte hoscailt hoscailte hoscailtí n-oscailt oscailte oscailtí
+66	666	cabhraigh	cabhraithe cabhraíonn cabhróidh cabhróimid cabhrú chabhraigh chabhraídís chabhraíodar chabhraíodh chabhraíonn chabhródh chabhróidh chabhrú gcabhraíonn gcabhródh gcabhrófaí gcabhróidh
+67	667	turas	dturais dturas dturasanna thurais thuras thurasanna turais turasanna
+68	668	cóta	chuóta chóta cuóta cuótaí cótaí gcuóta gcóta
+69	669	eachtra	b'eachtra d'eachtra d'eachtraí eachtraí heachtra heachtraí n-eachtraí t-eachtra
+70	670	gleann	ghleann ghleanna ghlinn ghlinne gleanna gleannta glinn glinne glinnte ngleann ngleanna ngleannta nglinne
+71	671	fíor	b'fhíor bhfíor bhfíoracha b’fhíor fhíor fhíora fhíorach fhíoracha fhíortha fhíorú fíora fíorach fíoracha fíortha fír fíre hír ír
+72	672	deacair	deacra dheacair dheacra
+73	673	cumas	chumais chumas cumais gcumais gcumas
+74	674	tarraing	dtarraingeodh dtarraingeofaí dtarraingeoidh dtarraingeoidís dtarraingíodh dtarraingíonn dtarraingítear tarraingeoidh tarraingeoir tarraingíodh tarraingíonn tarraingítear tarraingítí tharraing tharraingeodh tharraingeofaí tharraingeoidh tharraingeoidís tharraingídís tharraingíodh tharraingíonn tharraingítear tharraingítí
+75	675	stairiúil	stairiúla
+76	676	gradam	ghradaim ghradam gradaim ngradaim ngradam
+77	677	gaol	gaoil gaolta ghaoil ghaol ghaolta ngaoil ngaol ngaolta
+78	678	teann	dteann dteanna dteannta teanna teannadh teannann teannta teinn teinne theann theannadh theannais theannas theannfar theannfaí theannta theanntar
+79	679	tuiscint	dtuisceana dtuiscint dtuiscintí thuisceana thuiscint thuiscintí tuigbheáil tuigsint tuisceana tuiscintí
+80	680	ról	róil
+81	681	sine	shine siní tsine
+82	682	iúl	
+83	683	bunreacht	bhunreacht bhunreachta bunreachta bunreachtanna mbunreacht mbunreachta
+84	684	fágtha	
+85	685	féile	bhféile bhféilte d'fhéile d’fhéile fhéile fhéilte féilte
+86	686	seasamh	seasaimh seasta sheasamh
+87	687	impireacht	d'impireacht d'impireachtaí d’impireacht himpireacht himpireachta himpireachtaí impireachta impireachtaí n-impireacht n-impireachta n-impireachtaí
+88	688	fianaise	bhfianaise bhfianaisí d'fhianaise d’fhianaise fhianaise fhianaisí fianaisí
+89	689	óir	
+90	690	fuinneamh	bhfuinneamh d'fhuinneamh d’fhuinneamh fhuinneamh fhuinnimh fuinnimh
+91	691	neamhspleách	neamhspleácha neamhspleáiche
+92	692	slán	shláine shlán sláine slána slánadh
+93	693	dúchasach	dhúchasach dhúchasacha dhúchasaigh dúchasacha dúchasaigh dúchasaí ndúchasach
+94	694	foclóir	b'fhoclóirí bhfoclóir bhfoclóirí d'fhoclóir d’fhoclóir fhoclóir fhoclóra foclóra
+95	695	ionsaí	d'ionsaithe d'ionsaí d’ionsaithe d’ionsaí hionsaí n-ionsaithe n-ionsaí t-ionsaí
+96	696	gné	ghné ghnéithe gnéithe ngné ngnéithe
+97	697	iompar	d'iompar d’iompar hiompar iompartha n-iompar t-iompar
+98	698	rogha	roghanna
+99	699	freagra	bhfreagra bhfreagraí fhreagra fhreagraí freagracha freagraí
+100	700	forleathan	b'fhorleithne fhorleathain fhorleathan fhorleathana fhorleithne forleathain forleathana forleithne

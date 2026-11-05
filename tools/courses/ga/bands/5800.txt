@@ -1,0 +1,100 @@
+1	5701	scannánach	scannánacha scannánaí
+2	5702	tuin	thuin tuine tuineacha
+3	5703	vaimpír	vaimpíre vaimpírí
+4	5704	háilléar	
+5	5705	car	caradh caraid caraidh carann charaid charainn chartha
+6	5706	díseart	dhíseart dísirt ndíseart
+7	5707	níotráit	níotráite níotráití
+8	5708	camas	chamais chamas gcamas
+9	5709	daorchluiche	
+10	5710	athraon	athraonadh athraonann athraonta athraontar hathraonadh n-athraontar
+11	5711	eagnaíocht	eagnaíochta heagnaíocht heagnaíochta
+12	5712	cliarscoil	chliarscoil cliarscoile cliarscoileanna gcliarscoil
+13	5713	bailéad	bailéid bhailéad bhailéid mbailéad
+14	5714	mál	mháil mhál máil
+15	5715	sionad	shionad sionaid
+16	5716	faobhar	bhfaobhair bhfaobhar faobhair fhaobhar gaobhair ghaobhair ghaobhar ngaobhar
+17	5717	saighdeoir	tsaighdeora
+18	5718	laghairt	laghairte laghairteanna
+19	5719	treocht	threocht threochtaí treochta treochtaí
+20	5720	lapaire	lapairí
+21	5721	éifeachtúlacht	héifeachtúlacht héifeachtúlachta éifeachtúlachta
+22	5722	fíorthábhachtach	fhíorthábhachtach fhíorthábhachtacha fhíorthábhachtaigh fíorthábhachtacha
+23	5723	armáil	armáilte armála armálacha harmála harmálacha n-armáil n-armálacha
+24	5724	brách	bráthach
+25	5725	confadh	chonfadh chonfaidh confaidh gconfadh
+26	5726	réaduimhir	réaduimhreach réaduimhreacha
+27	5727	tairne	dtairní tairní thairne
+28	5728	pailin	pailine phailin phailine
+29	5729	réamhshocraigh	réamhshocraithe réamhshocrú
+30	5730	fíoras	bhfíoras fhíorais fhíoras fíorais
+31	5731	srónach	shrónacha shrónaigh srónacha srónaigh
+32	5732	tráicia	dtráicia
+33	5733	fogha	fhogha
+34	5734	cleachtach	chleachtaigh cleachtacha cleachtaigh
+35	5735	grúpáil	ghrúpáil ghrúpáiltear grúpáilte grúpáiltear grúpálacha ngrúpáiltear ngrúpálann
+36	5736	polóiniam	bpolóiniam pholóiniam
+37	5737	maláire	mhaláire
+38	5738	gearrscéalaí	gearrscéalaithe ghearrscéalaithe ghearrscéalaí
+39	5739	stró	
+40	5740	sciob	sciobadh sciobann sciobfadh sciobtaí
+41	5741	socheolaí	shocheolaí socheolaithe tsocheolaí
+42	5742	ardchlár	ardchláir d'ardchlár hardchlár t-ardchlár
+43	5743	pianmhar	pianmhara
+44	5744	piobar	phiobair piobair
+45	5745	ainmniúil	ainmniúla hainmniúil
+46	5746	cruthaitheacht	chruthaitheacht chruthaitheachta cruthaitheachta gcruthaitheacht
+47	5747	rópa	rópaí
+48	5748	rúnaíocht	rúnaíochta
+49	5749	teachín	dteachín teachíní
+50	5750	gáir	gháir ghártha gártha
+51	5751	folcadán	bhfolcadán fholcadáin fholcadán folcadáin
+52	5752	ladhar	ladhracha
+53	5753	lása	lásaí
+54	5754	éagórach	héagórach
+55	5755	pápacht	bpápacht phápacht phápachta pápachta
+56	5756	lóchán	lócháin
+57	5757	tílicín	tílicíní
+58	5758	aeistéitiúil	aeistéitiúla
+59	5759	ochtréad	ochtréid
+60	5760	coscán	choscáin choscán coscáin
+61	5761	intleachtach	hintleachtach intleachtacha intleachtaigh
+62	5762	caolaigh	caolaithe caolaíonn caolaítear caolófar caolóidh chaolaigh chaolaithe chaolaíonn chaolaítear gcaolaítear
+63	5763	ginearálú	ghinearálaithe ghinearálú ginearálaithe
+64	5764	neamhghnéasach	neamhghnéasaigh
+65	5765	dufair	dhufaire dufaire dufairí ndufairí
+66	5766	íoschuarc	t-íoschuarc íoschuairc
+67	5767	crotach	chrotach chrotaigh crotaigh gcrotach
+68	5768	altranas	altranais
+69	5769	arsa	
+70	5770	cuntar	chondair chuntar condair condar gcondar gcuntar
+71	5771	neoidríonó	neoidríonónna
+72	5772	cóbanhávan	chóbanhávan gcóbanhávan
+73	5773	uasmhéid	huasmhéid huasmhéideanna t-uasmhéid uasmhéideanna
+74	5774	díraon	dhíraonadh díraona díraonadh díraonta
+75	5775	líontán	líontáin
+76	5776	logánta	
+77	5777	faróis	bhfaróis faróise fharóis
+78	5778	táidsíceastáin	táidsíceastáine
+79	5779	bradach	bhradach bradacha bradaí
+80	5780	loitiméireacht	loitiméireachta
+81	5781	pláinéadach	phláinéadach pláinéadacha
+82	5782	ruaigh	ruaim ruaime ruaimeanna
+83	5783	réamhtheachtaire	réamhtheachtairí
+84	5784	géillsine	ghéillsine ngéillsine
+85	5785	teanór	teanóir theanóir theanór
+86	5786	réab	réabann réabfar réabtar
+87	5787	araicis	haraicis m'araicis
+88	5788	achrannach	achrannacha
+89	5789	cionmhar	chionmhaire chionmhar cionmhaire
+90	5790	mí-oiriúnach	mhí-oiriúnach mí-oiriúnacha
+91	5791	ocsaídeoir	ocsaídeoirí ocsaídeora
+92	5792	beannachtach	beannachtaí bheannachtaí
+93	5793	araiciseach	haraiciseach
+94	5794	comhsheasmhach	chomhsheasmhach comhsheasmhaí
+95	5795	caidmiam	chaidmiam gcaidmiam
+96	5796	muiníneach	muiníneacha muiníní
+97	5797	plánach	phlánach phlánacha plánacha
+98	5798	adhain	adhantar adhna adhnadh d'adhain d’adhain
+99	5799	cleasaíocht	chleasaíocht cleasaíochta
+100	5800	mí-ord	mhí-oird mí-oird

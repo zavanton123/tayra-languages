@@ -1,0 +1,100 @@
+1	1401	garma	garman garmana garmna gharman ngarmana
+2	1402	buan	bhuan bhuana buain buaine buana mbuaine
+3	1403	idirdhealaigh	hidirdhealú idirdhealaithe idirdhealaíonn idirdhealaítear idirdhealuithe idirdhealú t-idirdhealú
+4	1404	ardú	arduithe harduithe n-arduithe n-ardú t-ardú
+5	1405	aibítir	aibítre aibítrí d'aibítir haibítir haibítre haibítrí n-aibítir
+6	1406	seachaint	seachanta seachnadh sheachaint
+7	1407	feabhsaigh	bhfeabhsaíonn bhfeabhsaítear bhfeabhsódh bhfeabhsóidh d'fheabhsaigh feabhsaithe feabhsaí feabhsaíodh feabhsaíonn feabhsuithe feabhsú fheabhsaigh fheabhsaithe fheabhsaíonn fheabhsuithe fheabhsú
+8	1408	eang	ang eag feaga ig ing
+9	1409	connacht	chonnacht gconnacht
+10	1410	tionscnamh	dtionscnaimh dtionscnamh thionscnaimh thionscnamh tionscnaimh
+11	1411	príomhtheanga	bpríomhtheanga phríomhtheanga
+12	1412	sonraigh	shonraigh shonraithe shonraínn shonraíodh shonraíonn shonraítear shonrú sonraithe sonraíodh sonraíonn sonraítear sonruithe sonrú
+13	1413	comharthaí	chomharthaí
+14	1414	gol	ghol
+15	1415	carn	cairn carna carnadh carnann carnfaidh carntha chairn charn charna charnadh charnann cárn gcairn gcarn gcarna gcarnadh gcarnann gcarnfaí gcarntar
+16	1416	láithreán	láithreáin
+17	1417	pléigh	bpléann bpléifeadh bpléitear phléadh phléann phléigh phléite phléitear pléadh pléann pléifear pléifidh pléifimid pléite pléitear pléití
+18	1418	radaíocht	radaíochta radaíochtaí
+19	1419	seachtrach	seachtracha seachtraí sheachtrach sheachtracha sheachtraigh
+20	1420	dinnéar	dhinnéar dinnéir
+21	1421	bá	bhá bánna báthadh mbá
+22	1422	ceangal	cheangal gceangal
+23	1423	líofa	
+24	1424	eitilt	d'eitilt d'eitiltí d’eitilt eitilte eitiltí heitilt heitilte heitiltí n-eitilt n-eitiltí
+25	1425	dear	dearann dearfadh deartar dhear dheara dhearann dhearfadh dhearfá dheartar dheartha ndear ndeara
+26	1426	amharclann	amharclainn amharclainne amharclanna d'amharclann d’amharclann hamharclainne hamharclann hamharclanna n-amharclann
+27	1427	tart	dtart tarta
+28	1428	ceapaire	ceapairí gceapairí
+29	1429	turasóireacht	dturasóireacht thurasóireacht thurasóireachta turasóireachta
+30	1430	díbir	dhíbir dhíbirt dhíbreofaí dhíbríodh díbeartha díbirt díbríodh díbríonn díbrítear ndíbreodh ndíbreofar ndíbreofaí ndíbrítear
+31	1431	gnóthaigh	ghnóthaigh ghnóthaíonn ghnóthú gnóthaithe gnóthaíodh gnóthaíonn gnóthaítear gnóthóidh gnóthú ngnóthaí
+32	1432	fásta	
+33	1433	iasachta	hiasachta
+34	1434	ligean	ligint ligthe
+35	1435	ocsaigin	d'ocsaigin d’ocsaigin hocsaigin hocsaigine ocsaigine
+36	1436	feisire	b'fheisire bhfeisire bhfeisirí b’fheisire d'fheisire d'fheisirí d’fheisirí feisirí fheisire fheisirí
+37	1437	cónaigh	chónaigh chónaíodh chónaíonn chónóidh cónaíonn gcónaíonn
+38	1438	tríonóid	dtríonóid thríonóid tríonóide
+39	1439	breithiúnas	bhreithiúnais bhreithiúnas breitheamhnas breithiúnais mbreithiúnas
+40	1440	captaen	caiptín captaein chaptaein chaptaen gcaptaein gcaptaen
+41	1441	cothú	chothuithe chothú cothuithe gcothuithe gcothú
+42	1442	túr	dtúir dtúr thúir thúr túir
+43	1443	príosúnach	bpríosúnach bpríosúnaigh phríosúnach phríosúnaigh phríosúnú príosúnaigh príosúnaithe príosúnaí príosúnaíodh príosúnú
+44	1444	próitéin	bpróitéin bpróitéiní phróitéin phróitéine phróitéiní próitéine próitéiní
+45	1445	cuan	chuain chuan chuanta cuain cuana cuanta gcuan gcuanta
+46	1446	eacnamaíoch	eacnamaíche eacnamaíocha heacnamaíoch
+47	1447	sclábhaí	sclábhaithe
+48	1448	ísiltír	hísiltíortha hísiltír hísiltíre nísiltír nísiltíre
+49	1449	víreas	víris
+50	1450	thuas	
+51	1451	comhghuaillí	chomhghuaillithe chomhghuaillí comhghuaillithe gcomhghuaillithe gcomhghuaillí
+52	1452	bar	bhar mbar
+53	1453	pléasc	bpléasc bpléasca bpléascadh bpléascann bpléascanna bpléascfadh bpléascfaí phléasc phléascadar phléascadh phléascann phléascanna phléascfadh phléasctha pléasca pléascadh pléascann pléascanna pléasctha pléisce
+54	1454	deo	
+55	1455	sibhialtacht	shibhialtacht si sibhialtachta sibhialtachtaí tsibhialtacht
+56	1456	imleabhar	himleabhair himleabhar imleabhair n-imleabhar t-imleabhar
+57	1457	cibé	
+58	1458	samhlaigh	samhlaithe samhlaímis samhlaíodh samhlaíonn samhlaítear samhlódh samhlófá samhlóimid samhlú shamhlaigh shamhlaithe shamhlaímid shamhlaíodh shamhlaíonn shamhlaítear shamhlaítí shamhlófaí shamhlófá shamhlóidh shamhlú
+59	1459	ionadaí	b'ionadaí d'ionadaí hionadaí ionadaithe t-ionadaí
+60	1460	bronntanas	bhronntanais bhronntanas bronntanais mbronntanas
+61	1461	laethúil	laethúla
+62	1462	ballstát	ballstáit bhallstáit bhallstát mballstáit mballstát
+63	1463	ceiliúradh	ceiliúrtha cheiliúradh cheiliúrtha gceiliúradh gceiliúrtha
+64	1464	pas	bpas bpasanna pasanna phas phasanna
+65	1465	lag	laga lagaidh lagaigh lagaíonn lagtha laig laige laigeacht laigí
+66	1466	matamaitic	matamaitice mhatamaitic mhatamaitice
+67	1467	díth	dhíothú dhíth díoth díthe
+68	1468	sloinne	shloinne shloinnte sloinnte tsloinne
+69	1469	leithead	leithid
+70	1470	cnámh	chnáimhe chnámh chnámha cnáimh cnáimhe cnámha gcnámh gcnámha
+71	1471	casadh	casaidh castaí castáil chastaí gcasadh
+72	1472	iomáin	iomána
+73	1473	cleacht	chleacht chleachta chleachtadh chleachtais chleachtann chleachtar chleachtas chleachtaí chleachtfadh cleachta cleachtann cleachtar cleachtaí gcleachta gcleachtann
+74	1474	gairmiúil	gairmiúla ghairmiúil ghairmiúla
+75	1475	briste	bhriste
+76	1476	coimhlint	choimhlint choimhlinte choimhlintí coimhlinte coimhlintí gcoimhlint gcoimhlintí
+77	1477	oireachtas	d'oireachtas hoireachtas oireachtais t-oireachtas toireachtas
+78	1478	cogaíocht	chogaíocht chogaíochta cogaíochta gcogaíocht
+79	1479	mír	mhír mhíreanna míre míreanna
+80	1480	caoga	caogaidí chaoga chaogad chaogaidí gcaoga gcaogaidí
+81	1481	filleadh	bhfilleadh fillteacha
+82	1482	coinníoll	choingheall choinníoll choinníollacha coinníollacha gcoinníoll gcoinníollacha
+83	1483	gníomhaí	ghníomhaí ngníomhaí
+84	1484	scríbhinn	scríbhinne scríbhinní
+85	1485	conspóid	chonspóid chonspóide chonspóidí conspóide conspóideadh conspóidí gconspóid gconspóidí
+86	1486	costas	chostais chostas costais gcostais gcostas
+87	1487	iománaí	b'iománaithe b'iománaí hiománaithe iománaithe t-iománaí
+88	1488	aerfort	aerfoirt aerphort d'aerfort d’aerfort haerfoirt haerfort t-aerfort
+89	1489	cian	chiain chian chiana chéin ciana cianta céin gcian gcianta gcéin
+90	1490	amhránaíocht	amhránaíochta d’amhránaíocht hamhránaíocht hamhránaíochta
+91	1491	thall	
+92	1492	binn	bheanna bhinn bhinne binne mbeanna mbinn mbinne
+93	1493	péintéir	bpéintéir bpéintéirí phéintéara phéintéir phéintéirí péintéara péintéirí
+94	1494	péinteáil	bpéinteáil phéinteáil phéinteáilte phéinteáiltear phéinteáladh péinteáilte péinteáiltear péinteála péinteáladh péinteálaid péinteálann péinteálfaidh
+95	1495	lasta	last lastaí
+96	1496	báire	bháire báirí mbáire mbáirí
+97	1497	agallamh	agallaimh d'agallaimh d'agallamh d’agallaimh hagallaimh hagallamh n-agallamh t-agallamh
+98	1498	comhairleoir	chomhairleoir chomhairleoirí chomhairleora comhairleoirí comhairleora gcomhairleoir gcomhairleoirí
+99	1499	iomaíocht	hiomaíocht hiomaíochta iomaíochta n-iomaíocht
+100	1500	liobrálach	liobrálacha liobrálaigh liobrálaithe liobrálaí

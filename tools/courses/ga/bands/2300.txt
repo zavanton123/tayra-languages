@@ -1,0 +1,100 @@
+1	2201	sléacht	shléacht shléachtanna sléachta sléachtadh sléachtanna tsléachta
+2	2202	déagóir	dhéagóir dhéagóirí déagóirí déagóra ndéagóirí
+3	2203	rannóg	rannóga rannóige
+4	2204	giniúint	ghiniúint ghiniúna giniúna nginiúint
+5	2205	tuilleamaí	dtuilleamaí
+6	2206	ciontaigh	chiontaigh chiontaithe chiontaíodh chiontaítear chiontódh chiontú ciontaithe ciontaíodh ciontuithe ciontú gciontófaí gciontú
+7	2207	neodrón	neodróin
+8	2208	mianra	mhianra mhianraí mianraí
+9	2209	síniú	shíniú
+10	2210	móin	mhóin mhóna móna mónaidh
+11	2211	gruaig	ghruaig ghruaige gruaige ngruaig
+12	2212	trópaiceach	thrópaiceach thrópaiceacha thrópaicigh trópaiceacha
+13	2213	sean-nós	sean-nóis sean-nósanna seannóis seannós shean-nóis shean-nós tsean-nóis
+14	2214	turgnamh	dturgnaimh dturgnamh thurgnaimh thurgnamh turgnaimh
+15	2215	tiubh	thiubh thiubha tibhe tiubha
+16	2216	buaile	bhuaile bhuailte buailte mbuaile mbuailte
+17	2217	léachtóir	léachtóirí léachtóra
+18	2218	ollannach	hollannaigh nollannach ollannacha ollannaigh tollannach
+19	2219	plandáil	bplandáil bplandálacha phlandáil phlandála phlandálacha plandáilte plandála plandálacha plandáladh
+20	2220	codarsnacht	chodarsnacht codarsnachta codarsnachtaí gcodarsnacht
+21	2221	diagacht	dhiagacht dhiagachta diagachta ndiagacht
+22	2222	meáigh	meádar meáite meánn meánna mheáigh mheáite mheánn
+23	2223	glór	ghleoir ghlóir ghlór ghlórtha gleoire glóir glóire glórtha nglóir nglór nglórtha
+24	2224	deoise	deoisí dheoise dheoisí ndeoise ndeoisí
+25	2225	marc	marcanna mhairc mharc mharcanna
+26	2226	scoláireacht	scoláireachta scoláireachtaí
+27	2227	flann	fhlainn fhlann flainn
+28	2228	traenáil	dtraenáil thraenáil thraenála traenála traenáladh
+29	2229	teicníc	dteicnící teicníce teicnící theicníc theicnící
+30	2230	doiléir	dhoiléir dhoiléire doiléire
+31	2231	culaith	chulaith chultacha culaidh culaithe cultacha gculaith gcultacha
+32	2232	gráinne	ghráinne ghráinní gráinní ngráinní
+33	2233	gaelscoil	gaelscoile gaelscoileanna ghaelscoil ghaelscoileanna ngaelscoil ngaelscoileanna
+34	2234	lipéad	lipéid
+35	2235	luigh	laigh luite luífeadh luífidh luím luíodh luíonn luís
+36	2236	iliomad	d'iliomad hiliomad n-iliomad
+37	2237	imscrúdaigh	d'imscrúduithe himscrúduithe himscrúdú imscrúdaithe imscrúdaíodh imscrúdaíonn imscrúduithe imscrúdú n-imscrúdú t-imscrúdú
+38	2238	teoiriciúil	teoiriciúla theoiriciúil theoiriciúla
+39	2239	corpas	chorpais chorpas corpais gcorpas
+40	2240	faitíos	faitís fhaitíos fhaitís
+41	2241	leathsféar	leathsféir
+42	2242	lí	líocha
+43	2243	léirmheas	léirmheasa léirmheasanna
+44	2244	cóirigh	chóirigh chóirithe chóiriú chóiríodh chóiríonn cóirithe cóiriú cóirí cóiríodh cóirítear gcóirithe gcóiriú
+45	2245	fánach	bhfánaithe d'fhánaithe fhánach fhánacha fhánaithe fhánaí fánacha fánaithe fánaí
+46	2246	zú	zúnna
+47	2247	aontachtach	aontachtacha aontachtaigh
+48	2248	oscar	d'oscar hoscair oscair
+49	2249	scáileán	scáileáin
+50	2250	reisimint	reisiminte reisimintí
+51	2251	suirbhé	shuirbhé shuirbhéanna suirbhéanna tsuirbhé
+52	2252	néaróg	néaróga néaróige
+53	2253	sú	shú súnna sútha tsú
+54	2254	maíomh	mhaímh mhaíomh
+55	2255	miotas	mhiotais mhiotas miotais
+56	2256	cáilíocht	cháilíocht cháilíochta cháilíochtaí cáilíochta cáilíochtaí gcáilíocht gcáilíochtaí
+57	2257	fiosrú	bhfiosrú fhiosruithe fhiosrú fiosruithe
+58	2258	lúthchleas	lúthchleasa
+59	2259	fireannach	bhfireannach bhfireannaigh fhireannach fhireannacha fhireannaigh fireannacha fireannaigh
+60	2260	dálach	dhálach dhálaigh dhálaí dálaigh dálaí
+61	2261	scríobhaí	scríobhaithe
+62	2262	meicniúil	meicniúla mheicniúil mheicniúla
+63	2263	lúb	lúba lúbadh lúbann lúbfaidh lúbtar lúbtha lúibe
+64	2264	daite	dhaite
+65	2265	oibrí	b'oibrí hoibrithe hoibrí t-oibrí
+66	2266	earcaigh	d'earcaigh d'earcaítí d’earcaigh earcaithe earcaíodh earcaíonn earcaítear earcú hearcaigh hearcaíodh hearcú n-earcú
+67	2267	ogham	oghaim
+68	2268	druma	dhruma dhrumaí drumaí ndrumaí
+69	2269	bolcán	bholcáin bholcán bolcáin mbolcán
+70	2270	líneach	líneacha línigh
+71	2271	deoraíocht	deoraidheacht deoraíochta dheoraíocht dheoraíochta ndeoraíocht
+72	2272	follasach	b'fhollasach fhollasach follasacha follasaí
+73	2273	uaimh	d’uaimheanna huaimh huaimhe huaimheanna uaimhe uaimheanna uamh uamha
+74	2274	tacar	dtacar tacair thacar
+75	2275	scológ	scológa scolóige
+76	2276	abhcóide	abhcóidí b'abhcóide habhcóide habhcóidí n-abhcóidí t-abhcóide
+77	2277	sreabhán	shreabháin shreabhán sreabháin tsreabháin
+78	2278	triantán	dtriantán thriantáin thriantán triantáin
+79	2279	ordóg	hordóg hordóga hordóige ordóga ordóige
+80	2280	damhán	damháin dhamháin dhamhán ndamhán
+81	2281	dílseacht	dhílseacht dhílseachta dílseachta ndílseacht
+82	2282	breosla	bhreosla bhreoslaí breoslaí mbreosla mbreoslaí
+83	2283	tobann	oban thobann thobanna tobainn tobainne tobanna
+84	2284	sáile	sháile tsáile
+85	2285	bunachar	bhunachair bhunachar bunachair mbunachair mbunachar
+86	2286	péist	bpéist bpéisteanna phéist phéiste phéisteanna piast péiste péisteanna péistí
+87	2287	mearcair	mhearcair
+88	2288	athbhreithnigh	athbhreithnithe athbhreithníodh athbhreithnítear d'athbhreithnigh d'athbhreithniú d’athbhreithnigh hathbhreithnithe hathbhreithniú n-athbhreithnithe
+89	2289	rothlach	rothlacha rothlaigh rothlaí rothluithe rothlú
+90	2290	crá	chrá gcrá
+91	2291	tromchúiseach	thromchúiseach thromchúiseacha thromchúisí tromchúiseacha tromchúisí
+92	2292	cíos	chíos chíosa chíosanna cíosa cíosanna gcíos gcíosanna
+93	2293	feallmharaigh	bhfeallmharú d'fheallmharaigh d'fheallmharaíodh feallmharaithe feallmharaíodh feallmharfa feallmharóidh feallmharú fheallmharaigh fheallmharú
+94	2294	cipín	chipín chipíní cipíní gcipín
+95	2295	ceiliúir	ceiliúrann ceiliúrtar cheiliúir cheiliúradar cheiliúrann cheiliúrtar cheiliúrtaí gceiliúrann gceiliúrtar
+96	2296	cuil	chuil chuile cuile cuileanna gcuil gcuileanna
+97	2297	stailc	stailce stailceanna
+98	2298	atóg	atógadh atógtha atógáil atógála d'atóg d’atóg hatógadh hatógáil hatógála
+99	2299	timthriall	dtimthriall thimthriall thimthriallta timthrialla timthriallta
+100	2300	iarsmalann	d’iarsmalann hiarsmalainne hiarsmalann hiarsmalanna iarsmalainn iarsmalainne iarsmalanna n-iarsmalann n-iarsmalanna

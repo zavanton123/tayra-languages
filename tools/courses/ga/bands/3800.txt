@@ -1,0 +1,100 @@
+1	3701	fadsaolach	fadsaolacha fadsaolaí fhadsaolach fhadsaolaí
+2	3702	teicstíl	dteicstílí teicstíle teicstílí theicstílí
+3	3703	réamhinis	réamhinsint réamhinsinte réamhinsintí réamhinste réamhinsíodh réamhinsíonn réamhinsítear
+4	3704	bas	basa bhas bhasa mbas
+5	3705	fuadach	bhfuadach fhuadach
+6	3706	ceannródaíoch	ceannródaíche ceannródaíocha cheannródaíche cheannródaíoch cheannródaíocha
+7	3707	giúiré	ghiúiré ghiúiréithe giúiréithe ngiúiré ngiúiréithe
+8	3708	dromlach	dhromlach dhromlaigh dromlaigh ndromlach
+9	3709	cóimhiotal	chóimhiotail chóimhiotal cóimhiotail gcóimhiotail gcóimhiotal
+10	3710	dealbhóireacht	dealbhóireachta dhealbhóireacht dhealbhóireachta ndealbhóireacht
+11	3711	galánta	ghalánta
+12	3712	athnuachan	athnuachaint athnuachana
+13	3713	feistithe	fheistithe
+14	3714	dealraitheach	dealraitheacha dealraithí dhealraitheach
+15	3715	féinrialtas	bhféinrialtas fhéinrialtais fhéinrialtas féinrialtais
+16	3716	dua	dhua duagh
+17	3717	díomá	dhíomá
+18	3718	curaclam	churaclaim churaclam curaclaim gcuraclaim gcuraclam
+19	3719	insteall	hinstealladh instealladh insteallann insteallta instealltar instealltaí n-instealltar
+20	3720	slog	shlog shlogadh shlogann shlogfadh shlogtar sloga slogadh slogann slogfaidh slogtar slogtha
+21	3721	eispéireas	b'eispéireas eispéiris heispéiris n-eispéireas t-eispéireas
+22	3722	rámh	rámha rámhaithe rámhaí
+23	3723	aireachtáil	aireachtála haireachtáil haireachtála
+24	3724	seanóir	seanóirí sheanóir sheanóirí tseanóra
+25	3725	samhlaíocht	samhlaíochta shamhlaíocht shamhlaíochta tsamhlaíocht
+26	3726	randamach	randamacha randamaí
+27	3727	anchor	
+28	3728	daon-phoblacht	daonphoblacht daonphoblachta daonphoblachtaí dhaon-phoblacht dhaonphoblacht ndaon-phoblacht ndaonphoblacht
+29	3729	cúiseamh	chúiseamh chúisimh cúisimh gcúiseamh
+30	3730	aolchloch	aolchlocha aolchloiche d'aolchloch d’aolchloch haolchloch haolchlocha
+31	3731	luíochán	luíocháin
+32	3732	néarchóras	néarchórais
+33	3733	prionsacht	bprionsacht bprionsachtaí phrionsacht phrionsachta phrionsachtaí prionsachta prionsachtaí
+34	3734	sléibhtiúil	shléibhtiúil shléibhtiúla sléibhtiúla
+35	3735	géillsineach	ghéillsineach ghéillsinigh géillsinigh ngéillsineach ngéillsinigh
+36	3736	larbha	larbhaí
+37	3737	seinnteoir	seinnteoirí sheinnteoir sheinnteoirí tseinnteora
+38	3738	ósta	hóstaí óstaí
+39	3739	píobaire	bpíobaire bpíobairí phíobaire phíobairí phíopaire píobairí
+40	3740	eisiach	eisiacha heisiach
+41	3741	iallach	d'iallach d’iallach
+42	3742	tubaisteach	thubaisteach thubaisteacha tubaisteacha
+43	3743	ealaíonta	healaíonta
+44	3744	loighic	loighce
+45	3745	eitleoir	eitleoirí eitleora heitleoirí t-eitleoir
+46	3746	plota	bplota phlota plotaí
+47	3747	allas	allais hallas t-allas
+48	3748	pléascach	phléascach phléascacha phléascaigh pléascacha pléascaigh pléascaí
+49	3749	athoscail	athoscailt athoscailte athosclaíodh athosclódh d'athoscail
+50	3750	printíseach	bprintíseach phrintíseach phrintísigh printísigh
+51	3751	stiall	stiallacha stialladh stéille
+52	3752	beoga	bheoga
+53	3753	síciatrach	shíciatrach shíciatracha shíciatraí síciatracha síciatraithe síciatraí tsíciatraí
+54	3754	cinniúnach	chinniúnach chinniúnacha chinniúnaigh chinniúnaí cinniúnacha cinniúnaí
+55	3755	seicteach	seicteacha sheicteach sheicteacha sheictigh
+56	3756	buaicphointe	bhuaicphointe bhuaicphointí buaicphointí mbuaicphointe
+57	3757	saighead	saighde saigheada shaighead shaigheada tsaighead
+58	3758	bolcánach	bholcánach bholcánacha bholcánaigh bolcánacha bolcánaí
+59	3759	tapaigh	dtapaíonn dtapódh tapaí tapaíonn tapú thapaigh thapaíonn thapú
+60	3760	síceapatach	síceapatacha síceapataigh tsíceapatach tsíceapataigh
+61	3761	cearc	cearca chearc chearca chirce circ circe gcearc gcearca
+62	3762	measúnú	measúnuithe mheasúnú
+63	3763	bréan	bhréan bhréanainn bréana bréanainn
+64	3764	mionathraigh	mhionathraigh mhionathraíodh mhionathraíonn mhionathrú mionathraithe mionathraíodh mionathraíonn mionathruithe mionathrú
+65	3765	cróga	chróga
+66	3766	uacht	huacht huachta uachta uachtanna
+67	3767	ceistigh	ceistithe ceistíodh ceistíonn cheisteodh cheistigh cheistíodh cheistíonn gceistítear
+68	3768	bardasach	bardasacha bhardasach bhardasacha bhardasaigh
+69	3769	athchlóigh	athchló athchlódh athchlóite athchlónna
+70	3770	cúltaca	chúltaca cúltacaí gcúltaca
+71	3771	tum	dtuma thum thumadh thumann thumtar thumtha tumadh tumann tumtar tumtha
+72	3772	snoigh	shnoigh shnoite shnoití shnoífí snoite snoitear snoíodh
+73	3773	scornach	scornacha scornaigh scornaí
+74	3774	tamhan	dtamhain dtamhan tamhain thamhain thamhan
+75	3775	antaibheathach	antaibheathaigh hantaibheathaigh n-antaibheathach t-antaibheathach
+76	3776	sóchán	shócháin shóchán sócháin
+77	3777	béile	bhéile bhéilí béilí mbéile
+78	3778	seoid	seod seoda seoide sheod sheoda sheoid tseoid
+79	3779	ceannairceach	ceannairceacha ceannaircigh cheannairceach cheannairceacha cheannaircigh gceannairceach
+80	3780	aonraigh	aonraithe aonraíodh aonraítear d'aonraigh haonraíodh haonrú n-aonrófar
+81	3781	baicle	baiclí bhaicle mbaicle mbaiclí
+82	3782	pónaire	bpónairí phónaire phónairí pónairí
+83	3783	tearc	tearca teirce thearc theirce
+84	3784	comparáideach	chomparáideach comparáideacha
+85	3785	mothúchánach	mhothúchánach mhothúchánacha mothúchánacha
+86	3786	paor	
+87	3787	ton	thoin thon toin
+88	3788	peirseach	bpeirseach peirseacha peirsigh peirsí pheirseach pheirsigh
+89	3789	dlisteanach	dhlisteanach dhlisteanacha dhlisteanaigh dlisteanacha dlisteanaigh dlisteanaí
+90	3790	cliniciúil	chliniciúil chliniciúla cliniciúla
+91	3791	séarachas	shéarachais séarachais tséarachais
+92	3792	inbhéartach	hinbhéartach inbhéartaigh inbhéartaithe inbhéartú
+93	3793	fospeiceas	fospeicis
+94	3794	aerfhórsa	aerfhórsaí d'aerfhórsa d'aerfhórsaí haerfhórsa t-aerfhórsa
+95	3795	coigríoch	choigríche choigríoch coigríche gcoigríoch
+96	3796	comhlíon	chomhlíon chomhlíonadar chomhlíonann chomhlíonfadh comhlíonann comhlíonta gcomhlíonann gcomhlíonfadh gcomhlíonfaidh gcomhlíonfaidís gcomhlíonfaimid gcomhlíonfaí gcomhlíontar
+97	3797	mart	mairt
+98	3798	cúlaigh	chúlaigh chúlaithe chúlaíonn cúlaithe cúlaíonn cúlaítear gcúlaithe gcúlódh
+99	3799	comhtháite	chomhtháite
+100	3800	meánaicme	meánaicmí mheánaicme
