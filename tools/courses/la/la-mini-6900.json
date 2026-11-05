@@ -1,0 +1,195 @@
+{
+  "id": "la-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Numeri et ratiocinatio",
+  "description": "Ten standalone stories about people today who count, measure, compute and reason their way through everyday problems.",
+  "topic": "Numbers and reasoning",
+  "names": [
+    "Ernestus",
+    "Gilberta",
+    "Berolinum",
+    "Mesopotamia",
+    "Leopoldina",
+    "Thiemo",
+    "Hadwiga",
+    "Verona",
+    "Ingolfus",
+    "Gundula",
+    "Patavium",
+    "Reinholdus",
+    "Lambertina",
+    "Genava",
+    "Londinium",
+    "Sigfridus",
+    "Gerhildis",
+    "Radulfus",
+    "Vindobona",
+    "Eberhardus",
+    "Adelaida",
+    "Bauzanum",
+    "Gisberta",
+    "Gerwinus",
+    "Ilva",
+    "Cuniberta",
+    "Wigbertus",
+    "Bononia",
+    "Arnulfus",
+    "Tassilo",
+    "Comum",
+    "Richardis",
+    "Leonilda",
+    "Emerentia",
+    "Monacum"
+  ],
+  "lessons": [
+    {
+      "title": "Numeri in argilla",
+      "summary": "In a Berlin museum a retired accountant learns from a guide how cuneiform tablets count in sixties, and sees an embossed silver bowl and an oil jar with its capacity painted on it.",
+      "newWords": [
+        "cuneiformis",
+        "primordialis",
+        "sciscitor",
+        "adnoto",
+        "perpauci",
+        "toreuma",
+        "amphora",
+        "posteri"
+      ],
+      "text": "Ernestus, qui per quadraginta annos rationes magnae societatis Berolini confecerat, nunc otio fruitur et singulis mensibus aliquod museum visitat. Hoc mane in aulam intrat ubi tabulae ex argilla factae servantur, quae ex antiqua Mesopotamia Berolinum allatae sunt. Gilberta, quae visitatores per museum ducit, eum ad tabulas sub vitro iacentes adducit.\n\n«Hae tabulae», inquit, «litteris cuneiformibus scriptae sunt. Litterae cuneiformes ita appellantur, quia scribae calamo signa in argillam mollem imprimebant quae cuneis similia sunt.»\n\nErnestus, qui omnia accurate scire solet, sciscitatur quid in tabulis scriptum sit. «Non carmina», respondet Gilberta, «sed rationes: quot oves pastor quisque haberet, quantum hordei in horrea allatum esset, quantum mercedis operariis deberetur.» Ernestus ridet. «Ergo collegae mei erant illi scribae», inquit.\n\nDeinde Gilberta explicat quomodo numeri cuneiformes scribantur. Unus cuneus erectus unum significat, cuneus iacens decem. Numeri autem non per decem crescunt, ut apud nos, sed per sexaginta. «Inde est», inquit, «quod hora nostra sexaginta minuta habet et minutum sexaginta secunda. Hic modus numerandi primordialis est: rationem illam primordialem, quam illi homines ante quattuor milia annorum invenerunt, nos posteri cotidie in horologio legimus.»\n\nErnestus libellum e sinu promit et adnotat: «Cuneus erectus: unum. Iacens: decem. Post quinquaginta novem iterum unus cuneus, sed loco altiore.» Gilberta miratur. «Perpauci visitatores adnotant quae dico», inquit. «Et perpauci hodie has litteras legere possunt: in tota urbe fortasse decem homines.» Ernestus sciscitatur num ipsa una ex illis sit. Gilberta ridet et respondet se numeros quidem legere posse, verba vix.\n\nIn proxima aula toreuma argenteum ostendit, pateram latam cuius margo figuris ex argento expressis ornatur. In hoc toreumate homines saccos portant, et alii eos numerant digitis sublatis. «Ne toreuma quidem», inquit Gilberta, «sine numeris est.»\n\nIuxta toreuma stat amphora magna, in cuius collo numerus pictus est: quantum olei amphora capiat. Ernestus statim sciscitatur num numerus verus sit. «Docti viri amphoram aqua impleverunt», respondet Gilberta, «et invenerunt eam paulo minus capere quam scriptum est.» «Mercator ille cautus erat», inquit Ernestus, «vel callidus.» Hoc quoque adnotat.\n\nAntequam exeat, Ernestus ante tabulas cuneiformes iterum consistit. Cogitat quid posteri de nostris rationibus putaturi sint, cum post quattuor milia annorum computatra nostra in museis inveniant. Fortasse et posteri mirabuntur quod homines tam diligenter numerabant. Laetus domum redit, libello pleno.\n\nQuaestiones:\nQuid Ernestus per quadraginta annos fecit?\nRationes magnae societatis Berolini confecit.\nCur litterae cuneiformes ita appellantur?\nQuia signa quae scribae in argillam imprimebant cuneis similia sunt.\nQuid in tabulis plerumque scriptum est?\nRationes: quot oves pastores haberent, quantum hordei allatum esset, quantum mercedis deberetur.\nQuomodo numeri cuneiformes crescunt?\nNon per decem, sed per sexaginta, et ideo hora nostra sexaginta minuta habet.\nQuid in toreumate videtur?\nHomines qui saccos portant et alii qui eos numerant.\nQuid docti viri de amphora invenerunt?\nInvenerunt eam paulo minus capere quam numerus in collo pictus dicit."
+    },
+    {
+      "title": "Rectangulum maximum",
+      "summary": "In Verona a mathematics teacher draws pupils by lot to the board, and through a fence problem and substitution they find that the parabola peaks at a square.",
+      "newWords": [
+        "rectangulum",
+        "parabola",
+        "dissipo",
+        "sortitus",
+        "substitutio",
+        "defectivus",
+        "hebes",
+        "hilariter"
+      ],
+      "text": "Leopoldina in gymnasio Veronae mathematicam docet. Hodie discipulis parabolam explicare vult, sed non a formula incipit, sed a quaestione. In tabula rectangulum magnum pingit et dicit: «Agricola quadraginta metra retis habet, quo agrum rectangulum circumdare vult. Quale rectangulum eligere debet, ut ager quam maximus fiat?»\n\nDiscipuli tacent. Leopoldina scit tempus facile dissipari, si omnes exspectant dum aliquis manum tollat. Itaque nomina omnium in chartulis scripsit et in capsam coniecit. Chartulam extrahit: Thiemo sortito ad tabulam vocatur.\n\nThiemo primum rectangulum longum et angustum temptat: quindecim metra longum, quinque latum. «Area est septuaginta quinque metra quadrata», inquit. Deinde aliud rectangulum temptat, duodecim et octo: nonaginta sex. Leopoldina eum laudat, sed monet: «Si omnia rectangula singula temptas, totum diem dissipabis. Quaeramus regulam.»\n\nTum rem explicat. Si unum latus rectanguli x vocamus, alterum latus est viginti minus x, quia dimidium retis duo latera diversa circumdat. Area igitur est x multiplicatum per viginti minus x. «Nunc substitutione utemur», inquit. «Pro x numeros ponimus, unum post alterum, et areas notamus. Substitutio nihil aliud est quam numerum in locum litterae ponere.»\n\nThiemo computatrum suum parvum promit, sed mox queritur: computatrum defectivum est, nam numerum septem non ostendit. Leopoldina ridet. «Computatrum tuum defectivum est, sicut verba defectiva de quibus magister linguae Latinae vobis narrat: formae quaedam desunt. Calcula mente: nihil difficile est.»\n\nAltera chartula extrahitur: Hadwiga sortito vocatur, ut puncta in tabula notet. Creta eius tam hebes est ut lineae vix videantur. Dum aliam cretam quaerit, ceteri substitutiones perficiunt: x unum dat undeviginti, x quinque dat septuaginta quinque, x decem dat centum, x quindecim iterum septuaginta quinque. Hadwiga puncta notat et arcum per ea ducit. Linea quae ita oritur parabola est: primo ascendit, in medio summa est, deinde eodem modo descendit.\n\n«Ubi parabola summa est?» rogat Leopoldina. «Ubi x decem est», respondet Hadwiga. «Tum utrumque latus decem metra longum est.» Rectangulum igitur optimum est quadratum. Discipuli hilariter rident, quod tanta opera ad formam omnium simplicissimam pervenerunt. Leopoldina quoque hilariter ridet et dicit quadratum esse rectangulum quod modestiam amat.\n\nAd finem horae unicuique discipulo quaestionem sortitam dat, domi solvendam. Thiemo promittit se proximo die computatrum non defectivum allaturum esse. Hadwiga autem cretam hebetem in capsam reponit et dicit se in posterum stilo acuto domi scripturam esse, non creta hebeti.\n\nQuaestiones:\nQuid agricola in quaestione Leopoldinae habet?\nQuadraginta metra retis habet, quo agrum rectangulum circumdare vult.\nQuomodo Leopoldina discipulos ad tabulam vocat?\nNomina in chartulis scripsit et discipulos sortito vocat, ne tempus dissipetur.\nQuid est substitutio?\nSubstitutio est numerum in locum litterae ponere.\nCur Thiemo mente calculare debet?\nQuia computatrum eius defectivum est et numerum septem non ostendit.\nQuae linea ex punctis Hadwigae oritur?\nParabola oritur, quae primo ascendit, deinde descendit.\nQuod rectangulum optimum est?\nQuadratum, cuius utrumque latus decem metra longum est."
+    },
+    {
+      "title": "Herba sicca et praedictio",
+      "summary": "Near Padua a farmer doubts his daughter's changing rain forecast, but her reasoning about likely losses persuades him to cover his haystacks by the hedge before a hailstorm.",
+      "newWords": [
+        "strues",
+        "saepes",
+        "praedictio",
+        "fluctuo",
+        "praevideo",
+        "formidulosus",
+        "infligo",
+        "damnosus"
+      ],
+      "text": "Ingolfus prope Patavium agrum colit et singulis aestatibus herbam siccam pro bubus suis parat. Iam tres dies herba secta in prato iacet, ut sole siccetur. Hodie Ingolfus herbam siccam in strues magnas congerere vult, quae iuxta saepem altam stabunt, quae pratum a via separat. Filia eius Gundula, quae in officio laborat ubi tempestates praedicuntur, eum hodie visitat.\n\n«Quid dicit praedictio vestra?» rogat Ingolfus. «Pluetne hodie?»\n\nGundula telephonum inspicit. «Praedictio dicit pluviam septuaginta partibus ex centum probabilem esse, post meridiem.»\n\nIngolfus caput quassat. «Pridie praedictio vestra quadraginta dicebat, hodie mane quinquaginta, nunc septuaginta. Cur numeri vestri tantopere fluctuant? Aut pluet aut non pluet.»\n\n«Numeri fluctuant», respondet Gundula, «quia aer ipse fluctuat. Nemo tempestatem certo praevidere potest. Computatra nostra eandem tempestatem centies simulant, quaque vice paulo aliter. Si in septuaginta ex centum simulationibus pluit, dicimus pluviam septuaginta partibus probabilem esse. Praedictio non est promissum, sed ratio de rebus quas nemo plane praevidet.»\n\nIngolfus tempestatis formidulosae meminit quae anno superiore venerat. Caelum subito nigrum factum erat, ventus vehemens arbores flexerat, globuli glaciei magni e caelo ceciderant. Tempestas illa formidulosa segeti eius grave damnum inflixerat, et herba quae in prato iacebat tota corrupta erat. Nulla tempestas umquam ei tam damnosa fuerat.\n\n«Ratiocinemur», inquit Gundula. «Si strues tegis, duas horas laboris perdis. Si non tegis et pluit, damnum quod pluvia herbae infligit multo maius est: totius aestatis laborem. Cum pluvia septuaginta partibus probabilis sit, non tegere multo magis damnosum est quam tegere. Etiam si praedictio decem tantum diceret, fortasse tegere deberes.»\n\nIngolfus non diu cogitat. Pater et filia herbam celeriter congerunt et strues tegumentis crassis tegunt, quae lapidibus ad terram figunt. Strues prope saepem ponunt, quia saepes densa ventum frangit.\n\nPost meridiem caelum obscuratur. Tempestas venit, minus formidulosa quam illa anni superioris, sed satis vehemens. Glacies breviter cadit et folia saepis lacerat, sed strues tectae sunt et saepes ventum retinet. Post horam sol iterum lucet. Tempestas nullum fere damnum infligere potuit, nisi saepi.\n\nVespere Ingolfus tegumenta tollit et herbam siccam invenit. «Numeros tuos fluctuantes non amo», inquit, «sed rationem tuam amo. Proxima aestate te prius consulam.» Gundula ridet. «Ego nihil praevidi, pater. Numeri praeviderunt, et tu eis credidisti.»\n\nQuaestiones:\nUbi Ingolfus strues facere vult?\nIuxta saepem altam, quae pratum a via separat.\nCur numeri praedictionis fluctuant?\nQuia aer ipse fluctuat et nemo tempestatem certo praevidere potest.\nQuid tempestas anni superioris Ingolfo fecit?\nGrave damnum segeti eius inflixit, et herba tota corrupta est.\nCur Gundula dicit tegere melius esse quam non tegere?\nQuia non tegere multo magis damnosum est: si pluit, damnum totius aestatis laborem aufert.\nCur strues prope saepem ponunt?\nQuia saepes densa ventum frangit.\nQuid Ingolfus vespere invenit?\nHerbam siccam invenit, quia strues tectae fuerant."
+    },
+    {
+      "title": "Ubi haeret opus?",
+      "summary": "In Geneva a watch-factory owner wants to blame his workers for late deliveries, but his secretary counts the work at every bench and finds the bottleneck at one old testing machine.",
+      "newWords": [
+        "movimentum",
+        "reclamatio",
+        "imputo",
+        "amanuensis",
+        "productivitas",
+        "obstructio",
+        "productivus",
+        "accio"
+      ],
+      "text": "Reinholdus parvam officinam Genavae regit, ubi horologia manualia fiunt. Viginti operarii ibi laborant, et quisque partem aliquam movimenti conficit. Movimentum est machinatio parva quae intra horologium rotulas et indices movet; sine movimento horologium nihil est nisi capsa pulchra. Abhinc annum officina quadraginta movimenta cotidie perficiebat; nunc vix duodetriginta.\n\nCotidie litterae reclamationis adveniunt. Tabernae queruntur horologia sero mitti, et una taberna Londinii scribit se alias officinas quaesituram esse. Reinholdus omnes reclamationes in mensa sua cumulat et cogitat quid faciendum sit. Primum operariis moram imputare vult: fortasse lentius laborant quam antea.\n\nSed Lambertina, amanuensis eius, quae per quindecim annos rationes officinae tenet, eum monet. «Antequam cuiquam moram imputes», inquit, «numeremus. Productivitas non est opinio, sed numerus.» Reinholdus, qui amanuensi suae saepe plus credit quam sibi ipsi, consentit.\n\nPer tres dies Lambertina ad singulas mensas adit et adnotat quot movimenta quisque per horam perficiat et quot in mensa eius exspectent. Deinde tabulam conficit. Numeri clari sunt: ad omnes mensas movimenta sine mora transeunt, praeter unam. Ad mensam ubi movimenta probantur, triginta movimenta exspectant. Ibi est obstructio. Una tantum machina movimenta probat, vetus et lenta, quae singula per viginti minuta tenet.\n\n«Ergo operarii non sunt minus productivi quam antea?» rogat Reinholdus. «Immo magis productivi sunt», respondet Lambertina. «Sed quidquid ante obstructionem perficitur, ibi exspectat. Cogita de lagoena aquae: quamvis celeriter eam vertas, aqua tantum per collum angustum effluit. Productivitas totius officinae non maior est quam productivitas loci angustissimi.»\n\nReinholdus artificem peritum ex officina vicina accit. Artifex accitus machinam diligenter inspicit et dicit eam reparari posse, sed novam machinam bis celeriorem esse. Nova machina duodecim milia nummorum constat, et Reinholdus sumptum timet. Lambertina rursus computat: si cotidie duodecim movimenta plura vendi possunt, machina intra tres menses pretium suum reddet. «Sumptus machinae rationibus huius anni imputabitur», inquit, «sed lucrum per multos annos veniet.»\n\nMachina nova emitur. Post mensem officina quadraginta unum movimenta cotidie perficit, et obstructio evanuit. Reclamationes rarae fiunt, deinde nullae. Lambertina ultimam litteram reclamationis in scrinio deponit et ridet.\n\nReinholdus operarios convocat et eis gratias agit, quod tam productivi fuerunt etiam cum machina eos retineret. Postea amanuensi dicit: «Numquam iterum cuiquam moram imputabo antequam numeraverimus.» «Et si iterum aliquid haeret», respondet Lambertina, «artificem statim acciemus.»\n\nQuaestiones:\nQuid est movimentum?\nMachinatio parva quae intra horologium rotulas et indices movet.\nCur litterae reclamationis adveniunt?\nQuia tabernae queruntur horologia sero mitti.\nCur Lambertina Reinholdum monet?\nNe operariis moram imputet antequam numeraverint.\nUbi Lambertina obstructionem invenit?\nAd mensam ubi movimenta probantur, ubi una tantum machina vetus et lenta est.\nQuid artifex accitus dicit?\nMachinam veterem reparari posse, sed novam bis celeriorem esse.\nQuot movimenta officina post mensem cotidie perficit?\nQuadraginta unum movimenta cotidie perficit."
+    },
+    {
+      "title": "Tres capsae",
+      "summary": "In Vienna a retired mathematics teacher and his son-in-law quarrel over a puzzle with three boxes, until his daughter settles it with an experiment and plain logic.",
+      "newWords": [
+        "socer",
+        "concors",
+        "iurgo",
+        "dialectica",
+        "obsecro",
+        "dirimo",
+        "permoveo",
+        "comitas"
+      ],
+      "text": "Sigfridus, vir septuaginta annos natus, qui olim mathematicam in gymnasio docebat, singulis mensibus Vindobonae apud filiam Gerhildem et generum Radulfum cenat. Socer et gener plerumque concordes sunt: ambo libros amant, ambo eandem musicam audiunt, ambo de rebus difficilibus libenter disputant. Hoc vespere tamen, post cenam, de quaestione quadam iurgare incipiunt.\n\nRadulfus quaestionem in libello legerat. Tres capsae clausae in mensa sunt; in una est donum, ceterae vacuae. Tu unam capsam eligis. Tum amicus, qui scit ubi donum sit, unam ex duabus ceteris aperit, quae vacua est. Deinde te rogat num capsam mutare velis.\n\n«Mutare semper melius est», dicit Radulfus. «Obsecro, socer, cogita paulisper.» «Si mutas, donum bis ex ter invenis.»\n\n«Nugae», respondet socer. «Duae capsae restant. Donum aut in hac est aut in illa. Utraque pars dimidia est. Mutare nihil prodest.»\n\nRadulfus contradicit, socer contradicit, et mox ambo voce magna iurgant. Radulfus manus iactat, Sigfridus digito mensam pulsat. Tandem Gerhildis, quae in universitate dialecticam didicit et nunc ipsa eam docet, surgit. «Obsecro vos», inquit, «desinite iurgare! Controversiam vestram dirimam, sed non clamore: primum experimento, deinde dialectica.»\n\nTres capsulas in mensa ponit et anulum sub una abscondit. Sigfridus rem sexagies temptat: tricies capsulam primam retinet, tricies mutat. Radulfus numeros adnotat. Cum capsulam retinet, Sigfridus anulum undecies invenit; cum mutat, undevicies. Sigfridus tacet et oculos in numeros figit.\n\n«Nunc dialectica», inquit Gerhildis. «Cum primum eligis, capsam rectam semel ex ter eligis, perperam bis ex ter. Amicus, qui scit ubi donum sit, semper vacuam aperit: hoc nihil mutat de electione tua prima. Si igitur primo perperam elegisti, quod bis ex ter accidit, altera capsa quae restat donum certo continet. Mutando bis ex ter donum invenis, retinendo semel tantum. Error est putare duas capsas reliquas aequales esse: amicus enim non sorte, sed sciens aperuit.»\n\nSigfridus diu tacet. Deinde ridet. «Quadraginta annos mathematicam docui», inquit, «et nunc gener meus me docet.» Radulfus autem non gloriatur. «Ego quoque, cum primum legi, idem putavi quod tu», inquit. «Per totam hebdomadam cum libello iurgavi.»\n\nHaec verba socerum magis permovent quam ipsa ratio. «Comitas tua, Radulfe, me plus permovet quam numeri filiae meae», dicit. «Multi enim, cum recte sentiunt, sine ulla comitate loquuntur.» Gerhildis theam calidam affert, et tota familia rursus concors est.\n\nAntequam Sigfridus domum redeat, Radulfus ei libellum dat. «Proximo mense», inquit, «aliam quaestionem tibi proponam.» «Propone», respondet socer hilariter, «sed si iterum iurgabimus, filia mea controversiam dirimet, nec sine dialectica.»\n\nQuaestiones:\nQuid Sigfridus olim faciebat?\nMathematicam in gymnasio docebat.\nQuid Radulfus de capsa mutanda putat?\nPutat mutare semper melius esse, quia donum bis ex ter invenitur.\nQuomodo Gerhildis controversiam dirimit?\nPrimum experimento cum tribus capsulis, deinde dialectica.\nQuotiens Sigfridus anulum invenit cum mutavit?\nUndevicies ex triginta invenit.\nCur duae capsae reliquae non aequales sunt?\nQuia amicus non sorte, sed sciens capsam vacuam aperuit.\nQuid Sigfridum maxime permovet?\nComitas Radulfi, qui non gloriatur, sed dicit se idem putavisse."
+    },
+    {
+      "title": "Via solis inter stellas",
+      "summary": "Near Bolzano an amateur astronomer climbs a hill at night with his granddaughter, who works out her weight on the Moon, learns what the ecliptic is and sees the impact craters of the Moon.",
+      "newWords": [
+        "scando",
+        "pulvinus",
+        "amictus",
+        "gravitudo",
+        "procurro",
+        "ecliptica",
+        "aberro",
+        "impactus"
+      ],
+      "text": "Eberhardus, qui per totam vitam stellas observavit, vespere aestivo neptem suam Adelaidam, duodecim annos natam, ad collem prope Bauzanum ducit. Hac nocte quinque planetae simul in caelo videri possunt, quod raro accidit. Collem lente scandunt per semitam angustam. Eberhardus telescopium portat, Adelaida sarcinam in qua duo pulvini et duo amictus calidi sunt, nam noctes in montibus frigidae sunt, etiam aestate.\n\nDum scandunt, Adelaida de gravitudine sarcinae queritur. «Gravitudo sarcinae tuae», inquit avus, «in Luna sexta tantum pars esset. Quanti ponderis es ipsa?» «Triginta sex chiliogrammatum», respondet Adelaida. «In Luna igitur pondus tuum sex tantum chiliogrammata esset, et collem hunc saliens scanderes.» Adelaida statim computat quanta gravitudo sua in planeta Marte esset: paulo plus quam tertia pars, id est fere tredecim chiliogrammata.\n\nPost dimidiam horam ad locum perveniunt ubi saxum latum super vallem procurrit, sicut podium. Ex hoc saxo procurrente totum caelum meridianum videtur. Pulvinos in saxo ponunt, amictibus se involvunt et exspectant dum caelum nigrescat.\n\nTum Eberhardus manu lineam per caelum ducit. «Vides quomodo planetae omnes in una fere linea stent? Haec linea ecliptica appellatur. Ecliptica est via quam sol per annum inter stellas facere videtur. Planetae numquam longe ab ecliptica aberrant, quia omnes circum solem in eodem fere plano currunt.» «Cur ecliptica appellatur?» rogat Adelaida. «Quia defectus solis et lunae solum fieri possunt cum luna in ipsa ecliptica est. Orbis lunae quinque fere gradus ab ecliptica inclinatur; ideo non singulis mensibus fit defectus, sed raro.»\n\nAdelaida rogat cur planetae olim errantes appellati sint. «Quia inter stellas fixas aberrare videbantur», respondet avus, «nunc huc, nunc illuc. Sed etiam cum aberrant, legem servant: viam suam numquam relinquunt.»\n\nSubito stella cadens per caelum volat. Eberhardus explicat lapides parvos in aere ardere antequam ad terram perveniant. Deinde telescopium ad lunam vertit, et Adelaida crateres innumeros videt. «Hi crateres impactu lapidum magnorum facti sunt», inquit avus. «Impactus tam vehemens erat quia lapides celerrime volabant, saepe viginti chiliometra singulis secundis. Luna aerem non habet qui lapides retineat; ideo omnis impactus vestigium relinquit.»\n\nMedia nocte Adelaida defessa est. Pulvinos et amictus in sarcinam reponunt et collem descendunt. «Descendere facilius est quam scandere», inquit Adelaida, «sed sarcina eadem gravitudine est.» Avus ridet et sarcinam ipse portat.\n\nQuaestiones:\nCur Eberhardus et Adelaida collem hac nocte scandunt?\nQuia quinque planetae simul in caelo videri possunt.\nQuantum pondus Adelaidae in Luna esset?\nSex tantum chiliogrammata, sexta pars gravitudinis suae.\nUbi considunt?\nIn saxo lato quod super vallem procurrit.\nQuid est ecliptica?\nVia quam sol per annum inter stellas facere videtur.\nCur planetae numquam longe ab ecliptica aberrant?\nQuia omnes circum solem in eodem fere plano currunt.\nQuomodo crateres lunae facti sunt?\nImpactu lapidum magnorum, qui celerrime volabant."
+    },
+    {
+      "title": "Animalia numerantur",
+      "summary": "On Elba a biologist and an old fisherman estimate the whales from tail photos, count migrating hawks, travel through the island with two mules collecting pollen, and weigh a shepherd's fleeces.",
+      "newWords": [
+        "peragro",
+        "cetus",
+        "accipiter",
+        "iumentum",
+        "pollen",
+        "vellus",
+        "odoratus"
+      ],
+      "text": "Gisberta biologa est et pro societate quadam laborat quae animalia insulae Ilvae numerat. Singulis annis per hebdomadam insulam peragrat et aestimat quot animalia cuiusque generis ibi vivant. Hoc anno Gerwinus, piscator senex qui omnia litora novit, eam adiuvat.\n\nPrimo die navicula Gerwini in altum vehuntur, ubi ceti aestate cibum quaerunt. Post duas horas primum cetum vident: dorsum ingens et columnam aquae altam. Gisberta imaginem caudae ceti capit. «Cauda cuiusque ceti propria est», explicat, «sicut facies hominis. Hoc anno quadraginta cetos imagine cepi. Ex his duodecim iam anno superiore ceperam, cum triginta omnino cepissem.» Gerwinus rogat quid inde sequatur. «Triginta multiplicata per quadraginta, divisa per duodecim, centum faciunt. Ceti igitur in his aquis fere centum sunt.» Gerwinus numerum admiratur, quem nemo piscatorum umquam scivit.\n\nSecundo die in monte summo sedent, ubi accipitres vere et autumno transvolant. Gisberta instrumentum parvum tenet et, quotiens accipiter transvolat, premit. Ante meridiem centum viginti accipitres numerat. «Accipitres», inquit, «optimi testes sunt: si accipitres multi sunt, mures et aves parvae quoque multae sunt, quibus accipitres vescuntur.»\n\nTertio die insulam interiorem peragrant. Instrumenta gravia duo iumenta portant, quae Gerwinus a cognato conduxit. Iumenta lente sed certo per semitas saxosas eunt, ubi nullum autocinetum ire potest. Dum peragrant, Gisberta instrumenta parva inter flores ponit, quae pollen colligunt. «Ex copia pollinis», inquit, «scimus quot flores sint et quantum cibi apes inveniant.»\n\nVespere ad villam pastoris veniunt, qui eo die oves tonderi iussit. Pastor singula vellera pendit, et Gisberta numeros adnotat: vellus medium duorum fere chiliogrammatum est. Pastor queritur vellera minora esse quam olim. Gisberta computat: si vellus medium duo chiliogrammata pendit et pastor ducentas oves habet, quadringenta chiliogrammata lanae habet. «Olim», inquit pastor, «quodque vellus tria pendebat.» Gisberta hoc quoque adnotat, nam calor aestatum vellera minuere potest.\n\nInterea ventus unum ex instrumentis pollinis in frutices deiecit. Canis pastoris, cuius odoratus acerrimus est, id statim invenit. «Odoratus canis», ait Gisberta, «decies milies acrior esse dicitur quam odoratus hominis.» Gerwinus ridet: «Ergo canis melior biologus est quam nos.»\n\nUltimo vespere Gisberta relationem scribit: centum fere ceti, centum viginti accipitres uno mane, duo chiliogrammata in quoque vellere. Gerwino gratias agit. Ille dicit se putavisse se insulam suam bene nosse; nunc etiam numeros eius novit, et in posterum iumenta cognati libenter iterum conducet.\n\nQuaestiones:\nQuomodo Gisberta cetos agnoscit?\nEx cauda, quae cuiusque ceti propria est, sicut facies hominis.\nQuot ceti in illis aquis esse aestimantur?\nFere centum ceti.\nCur accipitres optimi testes sunt?\nQuia si accipitres multi sunt, mures et aves parvae quoque multae sunt.\nQuid duo iumenta faciunt?\nInstrumenta gravia per semitas saxosas portant, dum insulam peragrant.\nQuantum vellus medium pendit?\nDuo fere chiliogrammata pendit.\nQuis instrumentum a vento deiectum invenit?\nCanis pastoris, cuius odoratus acerrimus est."
+    },
+    {
+      "title": "In taberna medicamentorum",
+      "summary": "In Bologna a pharmacist works out a child's cough-syrup dose by weight, gives a tired surgeon eye drops and an ointment to rub in, and explains twelve hours of fasting before a blood test.",
+      "newWords": [
+        "pharmacopola",
+        "tussis",
+        "chirurgus",
+        "secretio",
+        "frico",
+        "ieiunium"
+      ],
+      "text": "Cuniberta pharmacopola est Bononiae. Taberna eius parva est, sed vicini eam amant, quia Cuniberta non solum medicamenta vendit, sed etiam rationem eorum explicat. Hodie, ut saepe, plus computat quam vendit.\n\nPrima venit mater cum filiola, quae iam tres dies tussi sicca vexatur. Medicus medicamentum liquidum contra tussim praescripsit: dimidiam partem cochlearis parvi pro quoque chiliogrammate corporis, sed non plus quam decem cochlearia ter in die. Cuniberta rogat quanti ponderis filiola sit. «Octodecim chiliogrammatum», respondet mater. «Ergo novem cochlearia parva, ter in die», inquit pharmacopola, et numerum in lagoena scribit. «Si tussis post quinque dies non cessat, ad medicum redi.»\n\nSecundus venit Wigbertus, vir quinquaginta annos natus, chirurgus in valetudinario vicino et amicus Cunibertae ex schola. Oculi eius rubent. «Sex horas in operatione steti», inquit, «et deinde quattuor horas ad computatrum scripsi.» Cuniberta explicat: cum homo intente spectat, oculos rarius claudit, non quindecies in minuto, sed quinquies tantum. Secretio lacrimarum tum non sufficit, et oculi sicci fiunt. «Haec secretio», inquit, «oculum tegit sicut aqua vitrum. Guttae oculares te adiuvabunt. Si post hebdomadam oculi adhuc rubent, medicum ocularem adi.»\n\nWigbertus etiam de umero queritur, qui post longas operationes dolet. Cuniberta ei unguentum dat. «Umerum hoc unguento ter in die frica, lente, per duo minuta. Si fortius fricas, nihil prodest.» Wigbertus ridet. «Chirurgus sum, et pharmacopola me docet quomodo umerum fricem.» «Chirurgi alios curant», respondet Cuniberta, «se ipsos raro.»\n\nTertius venit senex quidam qui proximo mane sanguinem ad probationem dare debet. Medicus ei ieiunium duodecim horarum iussit, sed senex nescit quid hoc significet. Cuniberta computat: «Probatio hora octava mane fit. Ergo ultimum cibum hora octava vespere sumere debes. Ieiunium cibum vetat, non aquam: aquam bibere licet.» Senex rogat num ieiunium etiam theam calidam mane vetet. «Etiam», respondet Cuniberta. «Post probationem tamen ientaculum bonum tibi debes.»\n\nVespere Cuniberta tabernam claudit et numerat: triginta quinque homines hodie venerunt, et plus quam dimidia pars non medicamenta sola, sed rationes quaesivit. Hoc ei maxime placet, quia pharmacopola bonus, ut putat, numeros non minus curat quam medicamenta.\n\nQuaestiones:\nQuantum medicamenti filiola ter in die sumere debet?\nNovem cochlearia parva, quia octodecim chiliogrammatum est.\nCur oculi Wigberti rubent?\nQuia diu intente spectavit, oculos rarius clausit, et secretio lacrimarum non sufficit.\nQuid Cuniberta Wigberto dat?\nGuttas oculares et unguentum quo umerum fricet.\nQuomodo Wigbertus umerum fricare debet?\nTer in die, lente, per duo minuta.\nQuid est ieiunium duodecim horarum, ut Cuniberta explicat?\nUltimum cibum hora octava vespere sumere, sed aquam bibere licet.\nQuot homines hodie in tabernam venerunt?\nTriginta quinque homines venerunt."
+    },
+    {
+      "title": "Armarium aviae",
+      "summary": "In Como a carpenter and his teenage nephew take apart and restore an old cupboard, check its corners with diagonals and the 3-4-5 rule, and work out that it will pass through a narrow door.",
+      "newWords": [
+        "armarium",
+        "disiungo",
+        "cardo",
+        "confringo",
+        "ferramentum",
+        "rado",
+        "perforo",
+        "purgatio"
+      ],
+      "text": "Arnulfus faber lignarius Comi officinam parvam habet. Hodie nepos eius Tassilo, quindecim annos natus, eum adiuvat. Armarium vetus matris Arnulfi, aviae Tassilonis, reficere debent, quod quinquaginta annos in culina eius stetit. Avia mox in domum minorem migrabit et armarium secum ferre vult.\n\nPrimum ianuas ab armario disiungunt. Ianuae cardinibus ferreis pendent, vetustate fuscis. Arnulfus cochleas solvit, Tassilo ianuam tenet. Cum autem Tassilo cardinem ultimum nimis vehementer flectit, cardo confringitur. Tassilo erubescit, sed Arnulfus ridet. «Nihil mali», inquit. «Ferrum vetus facile confringitur. Omnes cardines novos ponemus, nam veteres aut iam confracti sunt aut mox confringentur.» Etiam tabulas armarii inter se disiungunt, ut singulae purgari possint.\n\nDeinde Arnulfus ex arca ferramenta sua promit: serram, malleum, regulam, cultrum latum. «Ferramenta bona dimidium operis sunt», inquit. «Ferramenta mala totum opus corrumpunt.» Tassilo cultro lato colorem veterem ab ianuis radit, lente et diligenter, donec lignum nudum appareat. «Ne nimis radas», monet Arnulfus. «Colorem radere volumus, non lignum.»\n\nPost rasuram sequitur purgatio. Ligno aqua et sapone lavato, Arnulfus explicat purgationem lenem esse debere, nam lignum aquam bibit. Dum lignum siccatur, Arnulfus nepoti rationem ostendit. Armarii corpus rectangulum esse debet. Duas diagonales metitur: una 1,52 metra habet, altera 1,56. «Si diagonales aequales sunt», inquit, «forma vere rectangulum est. Si non sunt, armarium oblique stat.» Corpus armarii leniter premunt, donec utraque diagonalis 1,54 metra habeat.\n\nDeinde Tassilo regulam antiquam discit: si ab angulo 0,30 metra in unam partem et 0,40 in alteram metiris, linea inter puncta 0,50 metra longa esse debet, si angulus rectus est. Tassilo metitur, et numeri conveniunt.\n\nNunc cardines novi ponendi sunt. Arnulfus loca stilo notat, et Tassilo lignum instrumento electrico perforat, octo foramina in quaque ianua. «Perfora recte, non oblique», inquit Arnulfus, «alioquin ianua numquam bene claudetur.» Ianuae novis cardinibus iterum armario iunguntur et sine sono moventur.\n\nRestat una quaestio. Ianua domus novae aviae 0,80 metra lata est, armarium 1,20. Tassilo timet ne armarium transire non possit. Arnulfus ridet: «Ratiocinare. Armarium 0,55 metra profundum est. Si latus angustum praecedit, per ianuam facile transit.»\n\nAd finem diei purgatio officinae sequitur: ramenta verruntur, ferramenta in arcam reponuntur. Avia venit, armarium videt et tam laeta est ut Tassilonem amplectatur, cardinis confracti ignara.\n\nQuaestiones:\nCur Arnulfus et Tassilo armarium reficiunt?\nQuia avia in domum minorem migrabit et armarium secum ferre vult.\nQuid accidit cum Tassilo cardinem ultimum flectit?\nCardo vetus confringitur.\nQuomodo Tassilo colorem veterem removet?\nCultro lato colorem lente radit, donec lignum nudum appareat.\nQuomodo Arnulfus probat num armarium rectangulum sit?\nDuas diagonales metitur, quae aequales esse debent.\nQuot foramina Tassilo in quaque ianua perforat?\nOcto foramina perforat.\nCur armarium per ianuam angustam transire potest?\nQuia 0,55 metra tantum profundum est et latus angustum praecedere potest."
+    },
+    {
+      "title": "Octoginta anni",
+      "summary": "In Munich a granddaughter plans her grandmother's eightieth birthday by the numbers: scaling a lemon cake for thirty-six guests, two candles instead of eighty, and a mime for the children by the lotus pond.",
+      "newWords": [
+        "concelebro",
+        "tonstrix",
+        "torta",
+        "citrus",
+        "flagro",
+        "lotus",
+        "mima",
+        "consessus",
+        "impudens"
+      ],
+      "text": "Richardis Monaci habitat et hoc mense octoginta annos nata est. Tota familia diem natalem eius concelebrare vult: filii, nepotes et parvuli nepotum, triginta sex homines. Leonilda, neptis eius, festum parat, quia rationes amat et nihil temere facit. In horto magno cauponae prope stagnum, in quo loti florent, mensas longas conduxit.\n\nMane Richardis ad tonstricem suam it, Emerentiam, quae capillos eius per triginta annos secat. Emerentia, dum secat, computat: duodecies in anno per triginta annos, trecenties sexagies. «Nulla tonstrix», inquit, «capillos tuos melius novit quam ego.» Tonsor qui iuxta laborat ridet et dicit se numquam tam fidelem habuisse clientem. Richardis tonstrici gratias agit et pulchra domum redit.\n\nInterea Leonilda tortam citream coquit, quam avia amat. Praeceptum aviae ad octo homines scriptum est: quattuor ova, ducenta grammata sacchari, ducenta quinquaginta farinae, sucus duorum citrorum. Triginta sex autem homines venient. Leonilda dividit: triginta sex per octo faciunt quattuor et dimidium. Ergo duodeviginti ova, nongenta grammata sacchari, mille centum viginti quinque farinae, sucus novem citrorum. Citros diligenter eligit, flavos et graves, nam citrus levis parum suci habet. Quia furnus tantam tortam non capit, tres tortas minores coquit.\n\nRestat quaestio candelarum. Octoginta candelae in torta locum non habent, et tot candelae simul accensae tortam totam flagrare facerent. Leonilda igitur duas tantum candelas emit, formam numerorum octo et nihil habentes. «Duae candelae octoginta annos dicunt», inquit, «nec quicquam flagrabit nisi ipsae.»\n\nPost meridiem familia in horto convenit. Mensae iuxta stagnum stant, et parvuli loti flores numerant: viginti tres. Mima quam Leonilda conduxit parvulis sine verbis fabulam agit: tortam magnam coquere simulat, ova frangit quae non sunt, farinam spargit quae non est. Totus consessus ridet, parvuli clamant. Postea mima unumquemque parvulum docet quomodo sine verbis «gratias» dicat.\n\nTum tortae afferuntur. Candelae duae flagrant, et Richardis eas uno spiritu exstinguit. Totus consessus plaudit et cantat. Dum omnes tortam laudant, passer impudens in mensam salit et micam magnam rapit. Parvuli eum impudentem vocant, sed Richardis dicit etiam passerem impudentem hodie diem natalem suum concelebrare posse.\n\nVespere, cum consessus discedit, Leonilda numerat: triginta sex homines, tres tortae, duae candelae, nulla mica relicta. Richardis eam amplectitur. «Numeros tuos amo», inquit, «sed te magis.»\n\nQuaestiones:\nQuot homines diem natalem Richardis concelebrant?\nTriginta sex homines concelebrant.\nQuotiens Emerentia capillos Richardis secuit?\nTrecenties sexagies, duodecies in anno per triginta annos.\nQuot ova Leonilda pro triginta sex hominibus sumit?\nDuodeviginti ova, quia praeceptum ad octo homines quater et dimidium multiplicat.\nCur Leonilda duas tantum candelas emit?\nQuia octoginta candelae locum non haberent et tortam totam flagrare facerent.\nQuid mima parvulis agit?\nSine verbis tortam magnam coquere simulat.\nQuid passer impudens facit?\nIn mensam salit et micam magnam rapit."
+    }
+  ]
+}
