@@ -1,0 +1,179 @@
+{
+  "id": "ga-mini-3500",
+  "rankUpTo": 3500,
+  "level": "B2",
+  "title": "Teicneolaíocht agus sochaí",
+  "description": "Ten short columns on technology in everyday life and in society: a rocket launch, a podcast, an old telephone, a food bank, drinking water, a school incubator, a road tunnel, geocaching, a grammar app and a sociology book.",
+  "topic": "Technology and society",
+  "names": [
+    "Gaeilge",
+    "Conamara",
+    "Sydney",
+    "Aibreáin",
+    "Mheithimh",
+    "Domhnaigh",
+    "Domhnach",
+    "Satharn",
+    "Máirt",
+    "Déardaoin",
+    "Fraincis"
+  ],
+  "lessons": [
+    {
+      "title": "Lainseáil an roicéid",
+      "summary": "A columnist gets up at four in the morning with her daughter to watch a rocket launch live, hears about the long preparation, infrared cameras and the rocket's stability, and sees the Earth as a blue sphere.",
+      "newWords": [
+        "roicéad",
+        "spásaire",
+        "lainseáil",
+        "ullmhúchán",
+        "infridhearg",
+        "cobhsaíocht",
+        "sféar",
+        "curiarracht",
+        "páirteagal"
+      ],
+      "text": "Níor shíl mé riamh go mbeinn i mo shuí ag a 4 a chlog ar maidin ag féachaint ar roicéad. Ach d'iarr m'iníon orm é, agus is deacair diúltú do pháiste a bhfuil an spás ina croí aici. Bhí lainseáil mhór ar siúl ar an taobh eile den domhan an oíche sin. Bhí ceathrar spásairí ag dul suas go dtí an stáisiún spáis, agus bhí an lainseáil le feiceáil beo ar an ríomhaire.\n\nShuíomar sa chistin le cupán tae agus blaincéad. Ar an scáileán, bhí an roicéad ina sheasamh go hard, bán agus ciúin, ag fanacht. Bhí an t-ullmhúchán ar siúl le seachtainí. Mhínigh bean ar an scáileán go bhfuil an t-ullmhúchán chomh tábhachtach leis an lainseáil féin: scrúdaítear gach píosa den roicéad agus gach sreang, arís agus arís eile. Bíonn ullmhúchán fada ag na spásairí freisin: blianta traenála.\n\nAnsin thaispeáin siad pictiúr den roicéad ó cheamara infridhearg. I bpictiúr infridhearg, feictear an teas in áit an tsolais. Bhí na codanna te den roicéad geal agus na codanna fuara dorcha. Dúirt m'iníon liom go mbíonn ceamaraí infridhearga ar an stáisiún spáis freisin.\n\nThosaigh an comhaireamh: deich, naoi, ocht... Ag an deireadh, d'éirigh an roicéad den talamh i scamall mór tine. Bhí sé mall ar dtús, ansin níos tapúla agus níos tapúla fós. Bhí m'iníon ina seasamh ar a cathaoir le háthas.\n\nLabhair innealtóir faoi chobhsaíocht an roicéid agus é ag eitilt. Is é an rud is deacra, a dúirt sé, an chobhsaíocht a choinneáil nuair atá an roicéad ag dul tríd an aer ar luas chomh mór sin. Coinníonn ríomhairí an roicéad díreach. Gan an chobhsaíocht sin, ní rachadh roicéad ar bith i bhfad.\n\nTar éis ocht nóiméad, bhí na spásairí sa spás. Thaispeáin ceamara an domhan dúinn: sféar mór gorm agus bán, agus scamaill ag casadh air go mall. Is aisteach an rud é, ach ní fheiceann tú gur sféar é an domhan agus tú i do sheasamh air. Ó thuas, áfach, tá an sféar le feiceáil go soiléir.\n\nDúirt an tráchtaire gur bhris an lainseáil curiarracht: níor fhéach an oiread sin daoine riamh ar lainseáil ar líne. Bhí curiarracht eile ann freisin. Bhí an spásaire ba shine ar an turas 70 bliain d'aois, agus ní dheachaigh aon duine níos sine ná í go dtí an stáisiún riamh. Beidh sí ag déanamh staidéir ar pháirteagail bheaga a thagann ón spás. Mhínigh m'iníon dom gur páirteagail chomh beag sin iad nach féidir iad a fheiceáil leis an tsúil.\n\nChuamar a chodladh ag a 5 a chlog, tuirseach ach sásta. Ar maidin, bhí m'iníon ag tarraingt pictiúir de roicéad ina leabhar scoile.\n\nCeisteanna:\nCén fáth a raibh an t-údar ina suí ag a 4 a chlog ar maidin?\nBhí sí ag féachaint ar lainseáil roicéid lena hiníon.\nCad a dhéantar le linn an ullmhúcháin?\nScrúdaítear gach píosa den roicéad agus gach sreang, arís agus arís eile.\nCad a fheictear i bpictiúr infridhearg?\nFeictear an teas in áit an tsolais.\nCén fáth a bhfuil cobhsaíocht an roicéid tábhachtach?\nGan í, ní rachadh roicéad ar bith i bhfad.\nCén chuma a bhí ar an domhan ón spás?\nBhí sé ina sféar mór gorm agus bán.\nCén churiarracht a bhris an lainseáil?\nNíor fhéach an oiread sin daoine riamh ar lainseáil ar líne."
+    },
+    {
+      "title": "Podchraoladh an tsnagcheoil",
+      "summary": "A columnist's retired neighbour makes an amateur jazz podcast in his sitting room, clears his computer's full storage and has a young guitarist from the town as his first guest.",
+      "newWords": [
+        "podchraol",
+        "snagcheol",
+        "amaitéarach",
+        "beathaisnéisí",
+        "fileata",
+        "stóras",
+        "giotáraí",
+        "aithnidiúil"
+      ],
+      "text": "Tá podchraoladh ag mo chomharsa béal dorais. Ní craoltóir gairmiúil é ar chor ar bith. Múinteoir mata a bhí ann go dtí go ndeachaigh sé ar scor, agus is é an snagcheol an grá mór atá aige ó bhí sé ina dhéagóir. Gach Déardaoin, taifeadann sé clár nua ina sheomra suí, le micreafón beag ar an mbord agus blaincéad crochta ar an doras chun an fhuaim a choinneáil glan.\n\nPodchraoladh amaitéarach é, agus níl náire ar bith air faoi sin. “Is amaitéarach mé,” a deir sé, “agus is é is brí leis an bhfocal sin ná duine a dhéanann rud ar son an ghrá agus ní ar son airgid.” Bíonn botúin bheaga sa chlár uaireanta, agus cloistear an madra sa chúlra, ach is cuid den spórt é sin.\n\nGach seachtain, labhraíonn sé faoi cheoltóir snagcheoil amháin. Ar dtús, insíonn sé scéal a shaoil: cár rugadh an ceoltóir, cá raibh sé ina chónaí, cé leis a raibh sé ag seinm. Scríobh beathaisnéisí leabhar faoi gach ceoltóir mór, agus tá seilf lán de na leabhair sin aige. Uaireanta, ní aontaíonn beathaisnéisí amháin le beathaisnéisí eile faoi dháta nó faoi scéal, agus deir sé é sin go hoscailte. Ansin seinneann sé ceithre nó cúig phíosa ceoil, agus labhraíonn sé fúthu go fileata. “Tá an píosa seo cosúil le báisteach ar dhíon stáin,” a dúirt sé uair amháin. Ní hé gach duine a labhródh mar sin, ach is breá liom a chaint fhileata.\n\nLe déanaí, tháinig fadhb chun cinn. Bhí stóras a ríomhaire lán. Bhí na céadta comhad fuaime ann, agus ní raibh spás ann d'aon chlár eile. Chaith sé deireadh seachtaine ag glanadh an stórais. Anois, coinníonn sé na seanchláir ar stóras ar líne, agus tá an ríomhaire ag obair go tapa arís.\n\nAn tseachtain seo caite, bhí aoi ar an gclár den chéad uair: giotáraí óg as an mbaile mór seo againne. Seinneann an giotáraí snagcheol i mbialann ar an bpríomhshráid gach Aoine. Thug sé a ghiotár leis, agus sheinn sé trí phíosa beo sa seomra suí. Ansin labhair an bheirt acu faoi na giotáraithe ba mhó a raibh tionchar acu air.\n\nNí bheadh súil agat go n-éistfeadh mórán daoine le clár mar seo. Ach tá lucht éisteachta beag dílis ag mo chomharsa, i bhfad níos mó ná mar a shíl sé. Nuair a shiúlann sé síos an tsráid anois, aithníonn daoine a ghuth. Is guth aithnidiúil é sa bhaile mór. Agus tá aghaidh an ghiotáraí óig aithnidiúil do dhaoine freisin anois: bíonn níos mó daoine sa bhialann gach Aoine.\n\nCeisteanna:\nCá dtaifeadann an chomharsa a chlár?\nTaifeadann sé é ina sheomra suí, le micreafón beag ar an mbord.\nCad is brí le hamaitéarach, dar leis an gcomharsa?\nDuine a dhéanann rud ar son an ghrá agus ní ar son airgid.\nCá bhfaigheann an chomharsa an t-eolas faoi na ceoltóirí?\nFaigheann sé é ó leabhair a scríobh beathaisnéisithe.\nCén fhadhb a bhí ag an ríomhaire?\nBhí stóras an ríomhaire lán de chomhaid fuaime.\nCé a bhí ina aoi ar an gclár?\nGiotáraí óg as an mbaile mór a sheinneann snagcheol i mbialann.\nCén fáth a n-aithníonn daoine an chomharsa ar an tsráid?\nIs guth aithnidiúil é a ghuth sa bhaile mór anois."
+    },
+    {
+      "title": "An guthán sa halla",
+      "summary": "A columnist remembers the one telephone in the hall of a remote house where a family of eight lived, and the snowy night it brought a doctor's advice.",
+      "newWords": [
+        "guthán",
+        "ochtar",
+        "smaoinigh",
+        "iargúlta",
+        "bileog",
+        "oir",
+        "drochíde",
+        "drogall",
+        "sáinnigh",
+        "lasair"
+      ],
+      "text": "Nuair a bhí mé óg, bhí guthán amháin sa teach againn. Bhí sé ar bhord beag sa halla, in aice leis an doras, agus cathaoir chrua lena thaobh. Bhí ochtar againn sa teach: mo thuismitheoirí, mo sheanmháthair agus cúigear páistí. Ochtar daoine agus guthán amháin. Smaoinigh air sin!\n\nBhí an teach iargúlta. Bhí sé ag deireadh bóthair fhada, trí mhíle ón siopa ba ghaire. Sa cheantar iargúlta sin, ba é an guthán an ceangal a bhí againn leis an saol mór. Bhí bileog chrochta ar an mballa os cionn an ghutháin, agus uimhreacha tábhachtacha scríofa uirthi: an dochtúir, an scoil, an siopa agus ár ngaolta thar lear. Nuair a fuair duine uimhir nua, scríobhadh ar an mbileog í.\n\nNíor oir an guthán do dhéagóirí. Ní raibh rún ar bith slán sa halla sin. Dá mbeinn ag caint le cara, bheadh duine éigin ag siúl tríd an halla gach dara nóiméad. D'oir sé go breá do mo sheanmháthair, áfach. Ghlaoigh sí ar a deirfiúr gach Domhnach, agus labhair siad ar feadh uair an chloig.\n\nThugamar drochíde don ghuthán sin, mar a thugann páistí do gach rud. Thit sé ar an urlár níos minice ná mar is cuimhin liom, agus bhí a shreang casta i gcónaí. Mar sin féin, níor bhris an drochíde sin riamh é.\n\nBhí drogall ar m'athair an guthán a úsáid. Bhí glaonna costasach, go háirithe glaonna fada. Nuair a ghlaoigh duine air, labhair sé go hard agus go tapa, amhail is go raibh an t-airgead ag rith amach. Fiú inniu, agus fón póca ina phóca aige, bíonn drogall air glaoch fada a dhéanamh.\n\nIs cuimhin liom oíche amháin sa gheimhreadh go háirithe. Thit sneachta trom ar feadh dhá lá, agus bhíomar sáinnithe sa teach. Ní raibh carr ar bith in ann an bóthar a dhreapadh. Ansin, chuaigh an leictreachas as. Las mo mháthair coinneal mhór, agus shuíomar timpeall an bhoird ag féachaint ar an lasair. Bhog an lasair gach uair a d'oscail duine an doras.\n\nBhí mo dheartháir beag tinn, le fiabhras ard. Bhí imní ar mo mháthair. Ach bhí an guthán fós ag obair, cé nach raibh solas ar bith againn. Ghlaoigh sí ar an dochtúir, agus thug sé comhairle di ar an nguthán: uisce, codladh, agus leigheas ón gcófra. Faoi mhaidin, bhí an fiabhras imithe.\n\nSmaoiním ar an oíche sin go minic. Bhíomar sáinnithe, ach ní rabhamar inár n-aonar. Bhí guth an dochtúra ann, agus lasair bheag ar an mbord.\n\nCeisteanna:\nCá raibh an guthán sa teach?\nBhí sé ar bhord beag sa halla, in aice leis an doras.\nCé mhéad duine a bhí ina gcónaí sa teach?\nBhí ochtar ina gcónaí sa teach.\nCad a bhí scríofa ar an mbileog?\nBhí uimhreacha tábhachtacha scríofa uirthi: an dochtúir, an scoil agus an siopa.\nCén fáth a raibh drogall ar an athair an guthán a úsáid?\nBhí glaonna costasach, go háirithe glaonna fada.\nCad a tharla nuair a thit an sneachta trom?\nBhí an teaghlach sáinnithe sa teach, agus chuaigh an leictreachas as.\nConas a fuair an mháthair cabhair don pháiste tinn?\nGhlaoigh sí ar an dochtúir ar an nguthán, agus thug sé comhairle di."
+    },
+    {
+      "title": "An banc bia",
+      "summary": "A columnist spends a Saturday volunteering at a food bank run by a small charity, carries heavy loads, serves soup with a ladle and adds up the week's donations.",
+      "newWords": [
+        "carthanacht",
+        "deichniúr",
+        "feidhmeannas",
+        "bochtán",
+        "ualach",
+        "sairdín",
+        "ladar",
+        "suimigh"
+      ],
+      "text": "Tá banc bia sa bhaile mór seo againne le cúig bliana anuas. Is carthanacht bheag áitiúil a reáchtálann é, i seanfhoirgneamh taobh thiar den stáisiún traenach. Gach Satharn, tagann deichniúr oibrithe deonacha le chéile ann. An Satharn seo caite, bhí mise ar dhuine den deichniúr sin den chéad uair.\n\nTá feidhmeannas beag i gceannas ar an gcarthanacht: triúr a bhuaileann le chéile gach Luan chun an obair a phleanáil. Bean a bhí ina banaltra go dtí go ndeachaigh sí ar scor atá i gceannas ar an bhfeidhmeannas. Chuir sí fáilte romham ag a 9 a chlog, agus mhínigh sí an lá dom.\n\nNí raibh a fhios agam cad a bheadh romham. Bhí pictiúr i m'intinn de bhochtáin i seanleabhar, ina seasamh sa bháisteach ag doras. Ach ní hamhlaidh atá. Tháinig máithreacha le páistí beaga, seanóirí ar phinsean, agus fear óg a chaill a phost le gairid. “Ní bochtáin iad,” a dúirt bean an fheidhmeannais. “Is comharsana iad a bhfuil seachtain dheacair acu.”\n\nTháinig leoraí ag a 10 a chlog le hualach mór bia ó na siopaí móra. Bhí orainn an t-ualach a iompar isteach, bosca ar bhosca. Ualach trom a bhí ann, agus bhí mo dhroim tinn faoi am lóin. Bhí na céadta stán sna boscaí: pónairí, anraith, piseanna agus sairdíní. Is breá le daoine na sairdíní, a dúirt bean an fheidhmeannais, mar go bhfuil siad saor agus sláintiúil, agus go maireann siad i bhfad sa chófra.\n\nAg am lóin, rinneamar anraith mór glasraí sa chistin bheag. Tugadh ladar mór dom, agus chuir mé anraith i mbabhla gach duine leis an ladar. Bhí fear amháin ag tabhairt comhairle dom faoin anraith: níos mó salainn, níos mó piobair. Thug mé an ladar dó, agus rinne sé féin an obair ar feadh tamaill. Bhí an ceart aige faoin salann.\n\nAg deireadh an lae, shuimigh mé na síntiúis airgid a fuair an charthanacht i rith na seachtaine. Shuimigh mé dhá uair iad, le bheith cinnte: €640. Shuimigh duine eile den deichniúr na boscaí bia a tugadh amach: 210 bosca. Is mór an t-ualach é ar theaghlach bia a cheannach nuair a bhíonn na praghsanna ag ardú, ach is lú an t-ualach sin nuair a iompraíonn a lán daoine é le chéile.\n\nRachaidh mé ar ais an Satharn seo chugainn. Tá ladar ann a bhfuil m'ainm air anois.\n\nCeisteanna:\nCé a reáchtálann an banc bia?\nIs carthanacht bheag áitiúil a reáchtálann é.\nCé mhéad oibrí deonach a thagann gach Satharn?\nTagann deichniúr oibrithe deonacha gach Satharn.\nCad a dhéanann an feidhmeannas?\nBuaileann an triúr le chéile gach Luan chun an obair a phleanáil.\nCén fáth ar maith le daoine na sairdíní?\nTá siad saor agus sláintiúil, agus maireann siad i bhfad sa chófra.\nCad a rinne an t-údar leis an ladar?\nChuir sé anraith i mbabhla gach duine leis an ladar.\nCé mhéad airgid a shuimigh an t-údar?\nShuimigh sé €640."
+    },
+    {
+      "title": "An t-uisce sa sconna",
+      "summary": "A columnist with a dripping tap visits the county water plant, where a biologist explains the rock the water runs through, sediment, membrane filters, parasites, fluorine and chloride, and shows that salty water conducts electricity.",
+      "newWords": [
+        "sil",
+        "bitheolaí",
+        "geolaíoch",
+        "dríodar",
+        "sreabhann",
+        "seadán",
+        "fluairín",
+        "clóiríd",
+        "seoltóir"
+      ],
+      "text": "Shil an sconna sa chistin ar feadh seachtaine. Gach oíche, chuala mé é ón leaba: braon, braon, braon. Nuair a tháinig an pluiméir faoi dheireadh, d'fhiafraigh mé de cé mhéad uisce a chailltear nuair a shileann sconna. “Na mílte lítear sa bhliain,” a dúirt sé. Chuir sé sin ag smaoineamh mé. Cá as a dtagann an t-uisce sin ar fad?\n\nAn mhí seo caite, bhí lá oscailte ag ionad uisce an chontae, agus chuaigh mé ann. Bitheolaí atá ag obair san ionad le 20 bliain a bhí mar threoraí againn. Dúirt an bitheolaí go mbíonn sí ag tástáil an uisce gach lá, ó mhaidin go tráthnóna.\n\nAr dtús, thaispeáin sí léarscáil gheolaíoch den cheantar dúinn. Tagann an t-uisce ó loch sna sléibhte, agus ritheann sé trí aolchloch ar a bhealach anuas. Is é sin an fáth a bhfuil an t-uisce crua sa cheantar seo. Bíonn uisce bog i gceantair eile, áit a bhfuil struchtúr geolaíoch difriúil.\n\nIs é an chéad chéim sa chóireáil ná an dríodar a bhaint. Fágtar an t-uisce in umair mhóra ar feadh tamaill, agus titeann an dríodar go dtí an t-íochtar: gaineamh, cré agus píosaí beaga duilleog. Glantar an dríodar as na humair gach seachtain.\n\nAnsin, téann an t-uisce trí scagairí le sreabhann an-tanaí. Tá na poill sa sreabhann i bhfad níos lú ná ribe gruaige. Stopann an sreabhann gach rud nach uisce é, nach mór, agus stopann sé seadáin freisin. Is ainmhithe beaga iad seadáin a mhaireann i gcorp ainmhí eile. Dá n-ólfadh duine seadáin áirithe, bheadh sé tinn ar feadh seachtaine.\n\nIna dhiaidh sin, cuirtear beagán clóirín leis an uisce, agus beagán fluairín, chun fiacla daoine a chosaint. Tomhaiseann an bitheolaí an fluairín gach maidin, mar nach mór an méid a bheith ceart. Tomhaiseann sí an clóiríd freisin. Tá clóiríd san uisce go nádúrtha: is clóiríd é an salann féin.\n\nAnsin rinne sí turgnamh beag dúinn. Ní seoltóir maith leictreachais é uisce glan. Nuair a chuir sí dhá shreang i ngloine uisce ghlain, níor las an solas beag. Ach nuair a chuir sí spúnóg salainn ann, las an solas láithreach. Is seoltóir maith é uisce le salann ann.\n\nNuair a tháinig mé abhaile, d'fhéach mé ar an sconna. Ní shileann sé níos mó, agus ní chuirim an t-uisce amú mar a rinne mé roimhe.\n\nCeisteanna:\nCén fhadhb a bhí ag an údar sa chistin?\nShil an sconna ar feadh seachtaine.\nCé a bhí mar threoraí san ionad uisce?\nBitheolaí atá ag obair san ionad le 20 bliain.\nCad a thaispeáin an bitheolaí ar dtús?\nThaispeáin sí léarscáil gheolaíoch den cheantar.\nCén fáth a bhfuil an t-uisce crua sa cheantar?\nRitheann sé trí aolchloch ar a bhealach anuas.\nCad a tharlaíonn don dríodar sna humair?\nTiteann an dríodar go dtí an t-íochtar.\nCad a stopann an sreabhann?\nStopann sé gach rud nach uisce é, agus seadáin freisin.\nCén fáth ar las an solas beag?\nChuir sí salann san uisce, agus is seoltóir maith é uisce le salann ann."
+    },
+    {
+      "title": "Uibheacha sa seomra ranga",
+      "summary": "A class hatches hen eggs in a small incubator; the teacher shows the embryo with a lamp, the children stay calm, and the tiny wet chicks dry off and live in a box lined with linen.",
+      "newWords": [
+        "gor",
+        "suth",
+        "socair",
+        "bídeach",
+        "triomaigh",
+        "éadach",
+        "línéadach",
+        "scuab"
+      ],
+      "text": "Tháinig mo mhac abhaile ón scoil i mí Aibreáin le scéal mór. Bhí dosaen uibheacha sa seomra ranga, i meaisín beag goir. Fuair an múinteoir na huibheacha ó fheirm in aice leis an mbaile. Bheidís ag gor ar feadh trí seachtaine.\n\nMhínigh an múinteoir do na páistí cad is gor ann. Ar an bhfeirm, suíonn an chearc ar na huibheacha agus coinníonn sí te iad. Sa seomra ranga, déanann an meaisín an gor: coinníonn sé na huibheacha ag 37.5 céim, agus casann sé iad go mall gach cúpla uair an chloig.\n\nTar éis seachtaine, thaispeáin an múinteoir don rang cad a bhí ag tarlú taobh istigh. Dhún sí na dallóga, agus chuir sí ubh os comhair lampa láidir. Thaispeáin an solas an suth taobh istigh den bhlaosc: scáth beag dorcha, agus féitheacha tanaí dearga timpeall air. “Seo é an suth,” a dúirt sí. “Is é an suth an sicín sula dtagann sé amach.” Bhí an suth ag bogadh. Bhí na páistí ciúin, rud nach dtarlaíonn go minic.\n\nDúirt an múinteoir leo fanacht socair in aice leis an meaisín, gan é a bhualadh ná a oscailt. Ní maith le suth athrú teasa. D'fhan na páistí socair, agus d'fhéach siad ar na huibheacha gach maidin.\n\nAr an 21ú lá, chuala siad fuaim bhídeach ón meaisín. Bhí poll bídeach i mblaosc amháin, agus gob bídeach le feiceáil ann. Faoi am lóin, bhí seacht sicín amuigh. Ní raibh cuma álainn orthu ar dtús: bhí siad fliuch agus tanaí. Ach thriomaigh siad sa mheaisín te i gceann cúpla uair an chloig, agus ansin bhí siad buí agus bog. Nuair a bhí gach sicín triomaithe, bhog an múinteoir go bosca mór iad.\n\nBhí éadach línéadaigh ar urlár an bhosca. Is maith le sicíní éadach línéadaigh, a dúirt sí, mar nach sciorrann a gcosa air. Gach maidin, bhí ar bheirt pháistí an bosca a ghlanadh. Scuab siad an brus le scuab bheag, agus nigh siad an t-éadach. Dé Máirt, bhí sé de chúram ar mo mhac an bosca a scuabadh, agus bhí sé an-bhródúil as.\n\nTar éis coicíse, chuaigh na sicíní ar ais go dtí an fheirm. Bhí na páistí brónach, ach thug an feirmeoir cuireadh don rang teacht ar cuairt i mí an Mheithimh.\n\nCeisteanna:\nCá raibh na huibheacha sa seomra ranga?\nBhí siad i meaisín beag goir.\nConas a dhéanann an meaisín an gor?\nCoinníonn sé na huibheacha te agus casann sé iad go mall.\nCad a thaispeáin an solas taobh istigh den ubh?\nThaispeáin sé an suth: scáth beag dorcha le féitheacha tanaí timpeall air.\nCén fáth ar fhan na páistí socair?\nNí maith le suth athrú teasa.\nCén chuma a bhí ar na sicíní nuair a tháinig siad amach?\nBhí siad fliuch agus tanaí, ach thriomaigh siad i gceann cúpla uair an chloig.\nCén fáth a raibh éadach línéadaigh sa bhosca?\nNí sciorrann cosa na sicíní air."
+    },
+    {
+      "title": "An tollán faoin gcnoc",
+      "summary": "Digging a new road tunnel turns up a prehistoric site with burnt wheat grains; tests clarify the date, an archaeologist shows a visiting delegation an atlas, and the council commissions an artwork with the county coat of arms.",
+      "newWords": [
+        "tollán",
+        "réamhstairiúil",
+        "cruithneacht",
+        "soiléirigh",
+        "léirmhínigh",
+        "toscaireacht",
+        "atlas",
+        "coimisiúnaigh",
+        "armas"
+      ],
+      "text": "Le dhá bhliain anuas, tá tollán nua á thochailt faoin gcnoc ar an taobh thoir den bhaile. Nuair a bheidh an tollán réidh, ní bheidh ar leoraithe dul trí lár an bhaile níos mó. Beidh na sráideanna níos ciúine, agus an t-aer níos glaine.\n\nAnuraidh, rinne na hoibrithe fionnachtain spéisiúil. Ag béal an tolláin, faoi mhéadar cré, fuair siad clocha dubha ó sheantine agus píosaí de sheanphotaí. Tháinig seandálaithe ón ollscoil, agus dúirt siad gur láthair réamhstairiúil a bhí ann. Bhí daoine ina gcónaí ar an gcnoc sin cúig mhíle bliain ó shin, i bhfad sula raibh baile ar bith ann.\n\nBhí rud amháin ann a chuir iontas ar gach duine: gráinní cruithneachta, dóite ag an tine. Ciallaíonn sé sin go raibh na daoine réamhstairiúla ag fás cruithneachta agus ag déanamh aráin, díreach mar a dhéanaimid inniu. Is é an chruithneacht sin an chruithneacht is sine a fuarthas sa chontae riamh.\n\nNíor shoiléirigh na gráinní gach rud láithreach. Thóg sé míonna ar na seandálaithe an scéal a shoiléiriú. Rinne siad tástálacha i saotharlann, agus ar deireadh, shoiléirigh na tástálacha an dáta. Fiú ansin, bhí léirmhíniú amháin ag seandálaí amháin agus léirmhíniú eile ag seandálaí eile. An teach a bhí ann, nó áit a ndearnadh arán do phobal iomlán?\n\nAn mhí seo caite, tháinig toscaireacht ó chomhairle contae eile ar cuairt, mar go bhfuil tollán á thógáil acu féin. Bhí ochtar sa toscaireacht: innealtóirí, oifigigh agus seandálaí. Thaispeáin an seandálaí áitiúil an láthair don toscaireacht, agus léirmhínigh sí na fionnachtana dóibh. Bhí atlas mór ar an mbord aici, atlas de na láithreacha réamhstairiúla ar fad sa tír. Thaispeáin sí ar an atlas go bhfuil láithreacha cosúla le chéile ar thrí chnoc eile sa cheantar.\n\nChoimisiúnaigh an chomhairle saothar ealaíne do bhéal an tolláin freisin. Is ealaíontóir áitiúil a dhéanfaidh é, as cré-umha. Tá armas an chontae ar gach bus agus ar gach comhartha sa chontae, agus beidh an t-armas i lár an tsaothair nua, le gráinní cruithneachta timpeall air. Tá áthas orm gur coimisiúnaíodh an saothar sin. Nuair a rachaidh daoine tríd an tollán, cuimhneoidh siad ar na daoine a bhí ann rompu.\n\nCeisteanna:\nCén fáth a bhfuil an tollán á thochailt?\nIonas nach mbeidh ar leoraithe dul trí lár an bhaile.\nCad a fuair na hoibrithe ag béal an tolláin?\nFuair siad clocha dubha ó sheantine, píosaí de sheanphotaí agus gráinní cruithneachta.\nCad a shoiléirigh na tástálacha?\nShoiléirigh siad dáta na láithreach.\nCé mhéad duine a bhí sa toscaireacht?\nBhí ochtar sa toscaireacht.\nCad a thaispeáin an seandálaí ar an atlas?\nGo bhfuil láithreacha cosúla le chéile ar thrí chnoc eile sa cheantar.\nCad a bheidh i lár an tsaothair nua?\nBeidh armas an chontae ann, le gráinní cruithneachta timpeall air."
+    },
+    {
+      "title": "Tóraíocht ar an bhfaiche",
+      "summary": "A columnist goes geocaching with her brother and his baby, follows the phone's navigation across the striped town green and finds a small box under a hazel tree.",
+      "newWords": [
+        "tóraíocht",
+        "muin",
+        "loingseoireacht",
+        "faiche",
+        "stríoc",
+        "coll",
+        "bachlóg",
+        "banda"
+      ],
+      "text": "Chuala mé faoin gcluiche seo ó mo dheartháir. Tóraíocht taisce atá ann, ach le fón póca. Cuireann daoine boscaí beaga i bhfolach in áiteanna ar fud an domhain, agus cuireann siad suíomh gach bosca ar aip. Ansin, téann daoine eile ar thóraíocht na mboscaí.\n\nLá breá Domhnaigh i mí Aibreáin, chuamar ar thóraíocht le chéile: mise, mo dheartháir agus a iníon, naíonán sé mhí. Bhí an naíonán ar a mhuin i mála iompair. Is breá leis an naíonán a bheith ar mhuin a hathar, mar go bhfeiceann sí gach rud ó thuas.\n\nBa í ár n-aidhm trí bhosca a aimsiú roimh am lóin. Ní raibh orainn léarscáil a léamh. Rinne loingseoireacht an fhóin an obair: líne ghorm ar an scáileán, agus an fad a bhí fágtha i méadair. Is iontach an rud í an loingseoireacht shatailíte. Fadó, bhí ar mhairnéalaigh loingseoireacht a dhéanamh leis na réaltaí.\n\nBhí an chéad bhosca ar fhaiche an bhaile, in aice leis an leabharlann. Bhí an fhaiche díreach tar éis a bheith gearrtha, agus bhí stríoca dorcha agus geala ar an bhféar. Shiúlamar trasna na stríoc, agus an fón ag rá linn dul ar aghaidh, ar aghaidh.\n\nBhí trí chrann ar imeall na faiche: dair, crann fuinseoige agus coll. Dúirt an aip go raibh an bosca “faoin gcrann is lú”. Ba é an coll an crann ba lú. Bhí bachlóga beaga glasa air, agus an t-earrach ag teacht. Stop mo dheartháir chun na bachlóga a thaispeáint don naíonán. Bhí an bosca faoin gcoll, i measc na bhfréamhacha, faoi chloch.\n\nBosca beag plaisteach a bhí ann, le banda rubair timpeall air. Bhain mé an banda de go cúramach. Istigh ann, bhí leabhar beag agus peann. Scríobhamar ár n-ainmneacha agus an dáta sa leabhar, agus chuir mé an banda ar ais air.\n\nFuaireamar an dara bosca ar an droichead, agus an tríú bosca sa pháirc. D'éirigh linn ár n-aidhm a bhaint amach díreach roimh am lóin. Bhí an naíonán ina codladh ar mhuin a hathar faoin am sin.\n\nSular fhágamar an fhaiche, chuireamar bosca nua dár gcuid féin i bhfolach faoin gcoll. Anois, rachaidh daoine eile ar thóraíocht ár mbosca féin.\n\nCeisteanna:\nCén sórt cluiche é seo?\nTóraíocht taisce atá ann, le fón póca.\nCá raibh an naíonán le linn na tóraíochta?\nBhí sí ar mhuin a hathar i mála iompair.\nCén aidhm a bhí acu?\nTrí bhosca a aimsiú roimh am lóin.\nCad a bhí ar fhéar na faiche?\nBhí stríoca dorcha agus geala ar an bhféar.\nCá raibh an chéad bhosca?\nBhí sé faoin gcoll, i measc na bhfréamhacha.\nCad a bhí timpeall ar an mbosca?\nBhí banda rubair timpeall air."
+    },
+    {
+      "title": "Na réamhfhocail agus an aip",
+      "summary": "A columnist who learned Irish at school uses an unofficial grammar app and learns that an Irish preposition seldom has one corresponding English word.",
+      "newWords": [
+        "réamhfhocal",
+        "lenar",
+        "neamhoifigiúil",
+        "dearc",
+        "idé",
+        "comhfhreagrach",
+        "coibhneas"
+      ],
+      "text": "Is í an Ghaeilge mo dhara teanga. D'fhoghlaim mé í ar scoil, agus anois, i mo dhaichidí, tá mé ag iarraidh í a scríobh níos fearr. Is iad na réamhfhocail an chuid is deacra dom: ar, ag, le, do, de, faoi, as. Is focail bheaga iad, ach bíonn réamhfhocal i ngach abairt, nach mór.\n\nLe déanaí, fuair mé aip lenar féidir liom mo chuid scríbhneoireachta a sheiceáil. Aip neamhoifigiúil atá inti. Rinne mac léinn ollscoile í ina am saor, agus níl baint ar bith aici le haon eagraíocht oifigiúil. Ach, cé gur aip neamhoifigiúil í, tá sí níos fearr ná aon aip eile lenar oibrigh mé.\n\nScríobhaim abairt, agus dearcann an aip ar gach focal. Nuair a bhíonn botún ann, cuireann sí líne dhearg faoi. Dhearc mé ar an scáileán an chéad lá, agus bhí línte dearga i ngach abairt.\n\nBhí idé agam, nuair a thosaigh mé, go raibh focal comhfhreagrach sa Bhéarla ag gach réamhfhocal Gaeilge. Ba idé mhícheart í sin. Níl aon fhocal comhfhreagrach i gcónaí. Deirimid “tá ocras orm”, ach níl an t-ocras “ar” dhuine sa Bhéarla. Deirimid “is maith liom”, agus “tá Fraincis agam”. Níl aon choibhneas simplí idir na réamhfhocail sa dá theanga.\n\nMíníonn an aip an coibhneas idir an réamhfhocal agus an briathar. “Éist le”, mar shampla, ach “féach ar”. “Bain úsáid as”, ach “tabhair aire do”. Dearc ar na samplaí sin: ní féidir iad a aistriú focal ar fhocal. Caithfidh tú iad a fhoghlaim mar phéirí.\n\nBhí idé eile ag an mac léinn a rinne an aip. Is féidir leat abairt a roghnú, agus taispeánann an aip abairtí comhfhreagracha ó leabhair agus ó nuachtáin. Feicim mar sin conas a úsáideann scríbhneoirí maithe an réamhfhocal céanna.\n\nTá níos lú línte dearga i mo chuid scríbhneoireachta anois. Ní foirfe í an aip, agus déanann sí botúin uaireanta. Ach is í an aip lenar fhoghlaim mé an rud is tábhachtaí: ní mór réamhfhocal a fhoghlaim i gcoibhneas leis na focail timpeall air.\n\nCeisteanna:\nCad é an chuid is deacra den Ghaeilge don údar?\nIs iad na réamhfhocail an chuid is deacra dó.\nCé a rinne an aip neamhoifigiúil?\nMac léinn ollscoile a rinne í ina am saor.\nCad a dhéanann an aip nuair a bhíonn botún ann?\nCuireann sí líne dhearg faoin bhfocal.\nCén idé mhícheart a bhí ag an údar?\nShíl sé go raibh focal comhfhreagrach sa Bhéarla ag gach réamhfhocal Gaeilge.\nCén fáth nach féidir “éist le” a aistriú focal ar fhocal?\nNíl aon choibhneas simplí idir na réamhfhocail sa dá theanga.\nCad a thaispeánann an aip nuair a roghnaíonn tú abairt?\nTaispeánann sí abairtí comhfhreagracha ó leabhair agus ó nuachtáin."
+    },
+    {
+      "title": "Socheolaíocht an fhóin phóca",
+      "summary": "A columnist reads a sociology book about smartphones: ordinary lives globalised, the consumer and global brands, speculation that spreads like a flu outbreak, and parents' growing pushback.",
+      "newWords": [
+        "socheolaíocht",
+        "gnáthdhuine",
+        "domhandaigh",
+        "tomhaltóir",
+        "branda",
+        "tuairimíocht",
+        "ráig",
+        "géaraigh",
+        "frithbheartaíocht",
+        "treise"
+      ],
+      "text": "Léigh mé leabhar spéisiúil le déanaí, leabhar socheolaíochta faoin bhfón póca. Is í an tsocheolaíocht an eolaíocht a dhéanann staidéar ar an tsochaí: ar an gcaoi a mairimid le chéile, a n-oibrímid agus a labhraímid lena chéile. Níl an leabhar faoi theicneolaíocht an fhóin, áfach. Tá sé faoin ngnáthdhuine, agus faoin gcaoi ar athraigh an fón saol an ghnáthdhuine.\n\nDar leis an údar, tá saol an ghnáthdhuine domhandaithe anois. Breathnaíonn déagóir i gConamara ar na físeáin chéanna le déagóir i Sydney, agus éisteann siad leis an gceol céanna. Ní rud nua é an domhandú, ach tá an domhandú níos tapúla anois ná riamh, mar go bhfuil an domhan ar fad i do phóca.\n\nTá an tomhaltóir i lár an scéil, a deir an t-údar. Is tomhaltóirí sinn ar fad, fiú nuair nach bhfuilimid ag ceannach rud ar bith. Feiceann an fón cad a léimid agus cad a thaitníonn linn, agus díoltar an t-eolas sin. Ní fheiceann an tomhaltóir an margadh sin, ach tá sé ann. Ceannaíonn an tomhaltóir branda anois, agus ní bróg nó geansaí amháin: tá an branda céanna ar bhróga déagóirí ar fud an domhain, agus aithníonn páiste beag an branda sula mbíonn sé in ann léamh.\n\nBhí caibidil an-mhaith sa leabhar faoi thuairimíocht. Scaipeann tuairimíocht ar na meáin shóisialta cosúil le ráig fliú: ó dhuine go duine, níos tapúla ná an fhírinne. Chonaic mé féin é sin anuraidh. Bhí ráig fliú sa bhaile, agus taobh istigh de lá bhí tuairimíocht ar fud an bhaile go raibh na scoileanna ar fad le dúnadh. Ní raibh sé fíor, ach bhí an tuairimíocht ag scaipeadh fós seachtain ina dhiaidh sin.\n\nGhéaraigh an díospóireacht faoi fhóin chliste agus páistí le blianta beaga anuas. Tá sí ag géarú fós. Tá frithbheartaíocht ag fás freisin. Tá tuismitheoirí ag teacht le chéile chun fóin chliste a choinneáil ó pháistí go dtí go mbeidh siad 14 bliana d'aois. Tá an fhrithbheartaíocht sin ag dul i dtreise in aghaidh na bliana, dar leis an údar. Bhí treise ar leith ag an bhfrithbheartaíocht i measc tuismitheoirí sna bailte beaga.\n\nChuir an leabhar ag smaoineamh mé. Tar éis é a léamh, d'fhág mé an fón sa chistin oíche amháin, agus léigh mé leabhar páipéir sa leaba. Gnáthdhuine mé, agus rud beag é sin. Ach is le rudaí beaga mar sin, a dhéanann gnáthdhaoine, a athraítear an tsochaí.\n\nCeisteanna:\nCad a dhéanann an tsocheolaíocht?\nDéanann sí staidéar ar an tsochaí agus ar an gcaoi a mairimid le chéile.\nCad atá i lár an leabhair, dar leis an údar?\nTá an gnáthdhuine agus an tomhaltóir i lár an scéil.\nCén fáth a bhfuil an domhandú níos tapúla anois?\nTá an domhan ar fad i do phóca.\nConas a scaipeann tuairimíocht ar na meáin shóisialta?\nScaipeann sí cosúil le ráig fliú, ó dhuine go duine.\nCad atá ag dul i dtreise in aghaidh na bliana?\nTá frithbheartaíocht na dtuismitheoirí ag dul i dtreise.\nCad a rinne an t-údar tar éis an leabhar a léamh?\nD'fhág sé an fón sa chistin agus léigh sé leabhar páipéir sa leaba."
+    }
+  ]
+}
