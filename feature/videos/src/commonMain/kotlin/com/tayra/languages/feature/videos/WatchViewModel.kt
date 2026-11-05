@@ -263,15 +263,6 @@ class WatchViewModel(
         }
     }
 
-    /** The video file was chosen again, where it now is; the player opens it from there. */
-    fun relink(address: String) {
-        viewModelScope.launch {
-            videos.setMedia(bookId, address)
-            _problem.value = null
-            _state.update { it.copy(video = it.video?.copy(media = address)) }
-        }
-    }
-
     fun setAutoPause(mode: AutoPause) {
         autoPause = mode
         _playback.value?.setAutoPause(mode)
@@ -341,13 +332,6 @@ class WatchViewModel(
     }
 
     fun closeTerm() = _state.update { it.copy(picked = null, term = null) }
-
-    /** A word was saved from the pane: the line it was picked in is kept with it, for its card's sound and picture. */
-    fun onTermSaved(termId: Long, close: Boolean) {
-        val line = state.value.picked?.line?.let { state.value.lines.getOrNull(it) }
-        if (line != null) viewModelScope.launch { runCatching { videos.keepTermSource(termId, bookId, line.cue.beginMs, line.cue.endMs) } }
-        onTermChanged(close)
-    }
 
     /** A term was saved or deleted in the pane: the words take their new colours. */
     fun onTermChanged(close: Boolean) {

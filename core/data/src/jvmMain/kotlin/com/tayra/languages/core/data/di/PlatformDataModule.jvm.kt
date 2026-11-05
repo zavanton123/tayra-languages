@@ -1,7 +1,5 @@
 package com.tayra.languages.core.data.di
 
-import com.tayra.languages.core.data.media.VlcVideoClips
-import com.tayra.languages.core.domain.media.VideoClips
 import com.russhwolf.settings.PreferencesSettings
 import com.russhwolf.settings.Settings
 import com.tayra.languages.core.data.backup.BackupFiles
@@ -47,7 +45,6 @@ import org.koin.dsl.module
 
 actual val platformDataModule: Module = module {
     single { ManagedPython() }
-    single<VideoClips> { VlcVideoClips() }
     single { LocalTranslation(ArgosSentenceTranslator(get(), get())) }
     single { TtsWorker(get()) }
     single { DesktopSpeechRecognition(get(), get(), get()) } binds arrayOf(SpeechRecognition::class, SpeechRecognitionSetup::class)

@@ -29,7 +29,7 @@ import kotlin.test.assertEquals
 import kotlin.test.assertNull
 import kotlin.test.assertTrue
 
-/** Videos through the account: a video added on one device arrives with its lines; a file is asked for again there. */
+/** Videos through the account: a video added on one device arrives with its lines and plays there from the same address. */
 class VideoSyncTest {
 
     private class Account : SyncTransport {
@@ -108,22 +108,18 @@ class VideoSyncTest {
     }
 
     @Test
-    fun aFileVideoArrivesAsItsTranscriptAndAsksForTheFile() = runBlocking<Unit> {
+    fun aLinkedVideoArrivesWholeAndPlaysFromTheSameAddress() = runBlocking<Unit> {
         desktop.portuguese()
-        phone.service.import(VideoImport(phone.portuguese(), "Aula", VideoKind.FILE, "content://media/aula.mp4", SubtitleTrack(lines)))
+        phone.service.import(VideoImport(phone.portuguese(), "Aula", VideoKind.LINK, "https://videos.example/aula.m3u8", SubtitleTrack(lines)))
         syncBoth()
         val copy = desktop.videos.observeVideos().first().single().video
-        assertEquals(VideoKind.FILE, copy.kind)
-        assertEquals("", copy.media, "a file is named only; this device has to be shown where it is")
+        assertEquals(VideoKind.LINK, copy.kind)
+        assertEquals("https://videos.example/aula.m3u8", copy.media)
         assertEquals(2, desktop.videos.cues(copy.bookId).size)
 
-        // Chosen here, the file stays where it is here when the phone changes the video again.
-        desktop.videos.setMedia(copy.bookId, "/Users/me/Movies/aula.mp4")
         val phoneId = phone.videos.observeVideos().first().single().video.bookId
         phone.videos.setPosition(phoneId, 4000, final = true)
         syncBoth()
-        val again = desktop.videos.video(copy.bookId)!!
-        assertEquals("/Users/me/Movies/aula.mp4", again.media)
-        assertEquals(4000, again.positionMs)
+        assertEquals(4000, desktop.videos.video(copy.bookId)!!.positionMs)
     }
 }

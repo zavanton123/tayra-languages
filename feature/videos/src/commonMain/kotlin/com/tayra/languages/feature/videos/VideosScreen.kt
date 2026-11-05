@@ -101,7 +101,7 @@ internal fun VideosContent(
             EmptyState(
                 AppIcons.Movie,
                 tr("No videos yet"),
-                message = tr("Add a video file with its subtitles, or a YouTube link."),
+                message = tr("Add a YouTube video, or a video on the internet with its subtitles."),
                 action = {
                     Spacer(Modifier.height(AppSpacing.s))
                     PrimaryButton(tr("Add video"), onClick = { onNavigate(Route.NewVideo) }, icon = Icons.Default.Add, modifier = Modifier.testTag("add-video"))
@@ -150,7 +150,7 @@ private fun VideoCard(item: VideoListItem, onOpen: () -> Unit, onDelete: () -> U
             Text(video.title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
             Text(
                 listOfNotNull(
-                    if (video.kind == VideoKind.YOUTUBE) "YouTube" else tr("Video file"),
+                    if (video.kind == VideoKind.YOUTUBE) "YouTube" else tr("Video link"),
                     video.channel,
                     video.durationMs.takeIf { it > 0 }?.let { formatClock(it) },
                     item.knownPercent?.let { tr("{0}% known", it) },

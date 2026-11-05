@@ -1,0 +1,4 @@
+-- Videos are watched from the internet only: video files on a device, and the card sounds cut from them, are gone.
+DROP TABLE IF EXISTS term_video_sources;
+
+DELETE FROM books WHERE id IN (SELECT book_id FROM videos WHERE kind = 'FILE');

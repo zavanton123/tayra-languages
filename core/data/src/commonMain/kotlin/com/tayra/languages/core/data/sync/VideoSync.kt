@@ -19,8 +19,7 @@ import kotlinx.serialization.json.longOrNull
 import kotlinx.serialization.json.put
 
 // Videos: a video goes with its transcript's text (a BOOK and its PAGEs) as one VIDEO record of the
-// same key, with its player and its timed lines. A YouTube video plays the same anywhere; a file is
-// named only, since where it lies means nothing on another device, which asks for it again.
+// same key, with its address and its timed lines; being on the internet, it plays the same anywhere.
 
 /** This device's video as a record, or null for one of a text no other device can know. */
 internal suspend fun videoRecord(db: TayraDatabase, row: ChangedVideos, device: String): SyncRecord? {
@@ -28,7 +27,7 @@ internal suspend fun videoRecord(db: TayraDatabase, row: ChangedVideos, device: 
     val cues = db.videosQueries.cues(row.book_id).awaitAsList()
     return SyncRecord(SyncKinds.VIDEO, key, row.updated_at, data = buildJsonObject {
         put("kind", row.kind)
-        if (row.kind == "YOUTUBE") put("media", row.media) else put("file", row.media.substringAfterLast('/').substringAfterLast('\\'))
+        put("media", row.media)
         row.channel?.let { put("channel", it) }
         row.thumbnail?.let { put("thumbnail", it) }
         put("duration", row.duration_ms)
@@ -67,8 +66,7 @@ internal suspend fun applyVideo(db: TayraDatabase, remote: SyncRecord, bookId: L
     if (merged.deleted) return true
     val d = merged.data ?: return true
     val kind = d.string("kind") ?: return true
-    // A file stays where this device has it; one first known from another device is not here until chosen.
-    val media = if (kind == "YOUTUBE") d.string("media").orEmpty() else row?.media.orEmpty()
+    val media = d.string("media") ?: return true
     q.putVideo(
         bookId = bookId,
         kind = kind,

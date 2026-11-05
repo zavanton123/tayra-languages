@@ -23,16 +23,10 @@ kotlin {
             implementation(libs.androidx.activity.compose)
             implementation(libs.androidx.media3.exoplayer)
             implementation(libs.androidx.media3.ui)
+            implementation(libs.androidx.media3.exoplayer.hls)
         }
         jvmMain.dependencies {
             implementation(libs.jlayer)
-            // vlcj brings JNA again as the jpms jars; the project's own JNA serves it.
-            implementation(libs.vlcj.get().toString()) {
-                exclude(group = "net.java.dev.jna", module = "jna-jpms")
-                exclude(group = "net.java.dev.jna", module = "jna-platform-jpms")
-            }
-            implementation(libs.jna)
-            implementation(libs.jna.platform)
             implementation(libs.compose.ui.backhandler)
         }
         jvmTest.dependencies {

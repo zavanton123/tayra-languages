@@ -8,7 +8,6 @@ import java.sql.Connection
  * libraries older than 28, which never had it, so the migration can add it again; so are later migrations' additions.
  */
 internal fun Connection.pretendVersion(version: Int) {
-    if (version <= 36) createStatement().execute("DROP TABLE IF EXISTS term_video_sources")
     if (version <= 35) {
         createStatement().execute("DROP TRIGGER IF EXISTS sync_videos_insert")
         createStatement().execute("DROP TRIGGER IF EXISTS sync_videos_update")

@@ -58,15 +58,15 @@ actual val videoSupported: Boolean = true
 @Composable
 actual fun VideoPlayer(source: VideoSource, onController: (VideoController) -> Unit, modifier: Modifier) {
     when (source) {
-        is VideoSource.File -> FileVideo(source.uri, onController, modifier)
+        is VideoSource.Link -> LinkVideo(source.url, onController, modifier)
         is VideoSource.YouTube -> YouTubeVideo(source, onController, modifier)
     }
 }
 
 @OptIn(ExperimentalForeignApi::class)
 @Composable
-private fun FileVideo(address: String, onController: (VideoController) -> Unit, modifier: Modifier) {
-    val controller = remember(address) { AvVideoController(videoPath(address)) }
+private fun LinkVideo(address: String, onController: (VideoController) -> Unit, modifier: Modifier) {
+    val controller = remember(address) { AvVideoController(address) }
     DisposableEffect(controller) {
         onController(controller)
         onDispose { controller.release() }
@@ -87,14 +87,15 @@ private fun FileVideo(address: String, onController: (VideoController) -> Unit, 
 }
 
 @OptIn(ExperimentalForeignApi::class)
-private class AvVideoController(path: String) : VideoController {
-    val player = AVPlayer(playerItem = AVPlayerItem(uRL = NSURL.fileURLWithPath(path)))
+private class AvVideoController(address: String) : VideoController {
+    private val url = NSURL.URLWithString(address)
+    val player = AVPlayer(playerItem = url?.let { AVPlayerItem(uRL = it) })
 
     override val position = MutableStateFlow(0L)
     override val playing = MutableStateFlow(false)
     override val durationMs = MutableStateFlow(0L)
     override val rate = MutableStateFlow(1f)
-    override val problem = MutableStateFlow<VideoProblem?>(if (videoFileExists(path)) null else VideoProblem.FileMissing)
+    override val problem = MutableStateFlow<VideoProblem?>(if (url == null) VideoProblem.Failed("The video could not be played.") else null)
 
     private val ended: NSObjectProtocol = NSNotificationCenter.defaultCenter.addObserverForName(
         AVPlayerItemDidPlayToEndTimeNotification, player.currentItem, NSOperationQueue.mainQueue,
@@ -107,7 +108,7 @@ private class AvVideoController(path: String) : VideoController {
         val length = CMTimeGetSeconds(item.duration)
         if (!length.isNaN() && length > 0) durationMs.value = (length * 1000).toLong()
         if (item.status == AVPlayerItemStatusFailed) {
-            problem.value = VideoProblem.Failed(item.error?.localizedDescription ?: "The video could not be played.")
+            problem.value = VideoProblem.Failed("The video could not be played.")
         }
         if (player.timeControlStatus == AVPlayerTimeControlStatusPaused) playing.value = false
     }

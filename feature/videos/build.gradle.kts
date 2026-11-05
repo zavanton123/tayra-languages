@@ -10,6 +10,7 @@ kotlin {
         }
         jvmTest.dependencies {
             implementation(libs.kotlinx.coroutines.test)
+            implementation(libs.ktor.client.mock)
             implementation(libs.multiplatform.settings)
             implementation(libs.multiplatform.settings.test)
             implementation(libs.sqldelight.sqlite.driver)

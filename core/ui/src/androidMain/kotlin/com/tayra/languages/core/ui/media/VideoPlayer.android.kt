@@ -24,21 +24,20 @@ import androidx.media3.ui.PlayerView
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.isActive
-import java.io.File
 
 actual val videoSupported: Boolean = true
 
 @Composable
 actual fun VideoPlayer(source: VideoSource, onController: (VideoController) -> Unit, modifier: Modifier) {
     when (source) {
-        is VideoSource.File -> FileVideo(source.uri, onController, modifier)
+        is VideoSource.Link -> LinkVideo(source.url, onController, modifier)
         is VideoSource.YouTube -> YouTubeVideo(source, onController, modifier)
     }
 }
 
 @OptIn(UnstableApi::class)
 @Composable
-private fun FileVideo(address: String, onController: (VideoController) -> Unit, modifier: Modifier) {
+private fun LinkVideo(address: String, onController: (VideoController) -> Unit, modifier: Modifier) {
     val context = LocalContext.current
     val controller = remember(address) { ExoVideoController(context, address) }
     DisposableEffect(controller) {
@@ -60,7 +59,7 @@ private fun FileVideo(address: String, onController: (VideoController) -> Unit, 
     )
 }
 
-/** ExoPlayer as a [VideoController]: its place, whether it plays and how long the video is, as flows. */
+/** ExoPlayer, playing a video from the internet, as a [VideoController]: its place, whether it plays and how long the video is, as flows. */
 private class ExoVideoController(context: Context, address: String) : VideoController {
     val player: ExoPlayer = ExoPlayer.Builder(context).build()
 
@@ -85,16 +84,16 @@ private class ExoVideoController(context: Context, address: String) : VideoContr
 
             override fun onPlayerError(error: PlaybackException) {
                 problem.value = when (error.errorCode) {
-                    PlaybackException.ERROR_CODE_IO_FILE_NOT_FOUND, PlaybackException.ERROR_CODE_IO_NO_PERMISSION -> VideoProblem.FileMissing
                     PlaybackException.ERROR_CODE_DECODING_FORMAT_UNSUPPORTED, PlaybackException.ERROR_CODE_PARSING_CONTAINER_UNSUPPORTED,
                     PlaybackException.ERROR_CODE_DECODER_INIT_FAILED -> VideoProblem.Unsupported
-                    else -> VideoProblem.Failed(error.message ?: error.errorCodeName)
+                    PlaybackException.ERROR_CODE_IO_BAD_HTTP_STATUS, PlaybackException.ERROR_CODE_IO_FILE_NOT_FOUND -> VideoProblem.Failed("The video is no longer at its address.")
+                    PlaybackException.ERROR_CODE_IO_NETWORK_CONNECTION_FAILED, PlaybackException.ERROR_CODE_IO_NETWORK_CONNECTION_TIMEOUT -> VideoProblem.Failed("The video could not be loaded. Check the connection.")
+                    else -> VideoProblem.Failed("The video could not be played.")
                 }
                 playing.value = false
             }
         })
-        val uri = if (address.contains("://")) Uri.parse(address) else Uri.fromFile(File(address))
-        player.setMediaItem(MediaItem.fromUri(uri))
+        player.setMediaItem(MediaItem.fromUri(Uri.parse(address)))
         player.prepare()
     }
 

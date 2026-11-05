@@ -26,6 +26,7 @@ import com.tayra.languages.core.domain.media.TranslationSource
 import com.tayra.languages.core.domain.media.VideoImport
 import com.tayra.languages.core.domain.media.VideoKind
 import com.tayra.languages.core.domain.media.VideoBlur
+import io.ktor.client.engine.mock.respond
 import com.tayra.languages.core.domain.media.VideoService
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.service.BookStatsService
@@ -74,8 +75,8 @@ class VideosScreenTest {
             VideoImport(
                 languageId = portuguese,
                 title = "O gato",
-                kind = VideoKind.FILE,
-                media = "/videos/gato.mp4",
+                kind = VideoKind.LINK,
+                media = "https://videos.example/gato.mp4",
                 subtitles = SubtitleTrack(listOf(Cue(500, 2000, "Olá, tudo bem?"), Cue(2000, 4000, "O gato dorme na casa."), Cue(4000, 6000, "E o cão?"))),
                 translation = listOf(Cue(500, 2000, "Hello, how are you?")),
                 translationSource = TranslationSource.FILE,
@@ -160,23 +161,35 @@ class VideosScreenTest {
     }
 
     @Test
-    fun addingAFileFindsItsSubtitlesBesideItAndOpensTheNewVideo() = runBlocking {
-        val add = AddVideoViewModel(service, videos, settings, languages)
-        val srt = "1\n00:00:01,000 --> 00:00:02,000\nBom dia.\n\n2\n00:00:02,500 --> 00:00:04,000\nComo vai?\n".encodeToByteArray()
-        val english = "1\n00:00:01,000 --> 00:00:02,000\nGood morning.\n".encodeToByteArray()
-        add.pickMedia("Aula 1.mp4", "/videos/Aula 1.mp4", listOf("Aula 1.en.srt" to english, "Aula 1.srt" to srt))
-        val picked = assertNotNull(add.state.value.subtitles)
-        assertEquals("Aula 1.srt", picked.name, "the subtitles named like the video are taken first")
-        assertEquals("Aula 1", add.state.value.title)
-        add.pickSidecar("Aula 1.en.srt", asTranslation = true)
-        assertEquals(1, add.state.value.translation?.cues?.size)
+    fun aVideoLinkIsAddedWithSubtitlesFetchedFromTheirAddress() = runBlocking {
+        val srt = "1\n00:00:01,000 --> 00:00:02,000\nBom dia.\n\n2\n00:00:02,500 --> 00:00:04,000\nComo vai?\n"
+        val web = io.ktor.client.HttpClient(io.ktor.client.engine.mock.MockEngine { request ->
+            when (request.url.encodedPath) {
+                "/aula.pt.srt" -> respond(srt)
+                else -> respond("", io.ktor.http.HttpStatusCode.NotFound)
+            }
+        })
+        val add = AddVideoViewModel(service, videos, settings, languages, com.tayra.languages.core.data.media.SubtitleDownloader(web))
+        add.setOrigin(VideoOrigin.LINK)
+        add.setLinkInput("ftp://nope")
+        assertEquals(null, add.state.value.link.url)
+        add.setLinkInput("https://videos.example/Aula_1.mp4")
+        assertEquals("Aula 1", add.state.value.title, "the file's name is the first title")
+        add.setSubtitlesUrl("https://videos.example/aula.pt.srt")
+        add.fetchSubtitles(asTranslation = false)
+        val start = System.currentTimeMillis()
+        while (add.state.value.link.subtitles == null && System.currentTimeMillis() - start < 5_000) Thread.sleep(20)
+        assertEquals(2, add.state.value.link.subtitles?.cues?.size)
+        add.pickTranslation("aula.en.srt", "1\n00:00:01,000 --> 00:00:02,000\nGood morning.\n".encodeToByteArray())
         add.add()
-        val event = add.events.flow.first()
-        val id = assertIs<AddVideoEvent.Added>(event).bookId
-        assertEquals(listOf("Bom dia.", "Como vai?"), videos.cues(id).map { it.cue.text })
+        val id = assertIs<AddVideoEvent.Added>(add.events.flow.first()).bookId
+        assertEquals(VideoKind.LINK, videos.video(id)!!.kind)
+        assertEquals("https://videos.example/Aula_1.mp4", videos.video(id)!!.media)
         assertEquals("Good morning.", videos.cues(id).first().cue.translation)
-        add.pickSubtitles("broken.srt", "not subtitles".encodeToByteArray())
-        assertEquals("No subtitles were found in this file.", add.state.value.error)
+        add.setTranslationUrl("https://videos.example/missing.srt")
+        add.fetchSubtitles(asTranslation = true)
+        while (add.state.value.error == null && System.currentTimeMillis() - start < 10_000) Thread.sleep(20)
+        assertEquals("The subtitles could not be fetched.", add.state.value.error)
     }
 
     @Test

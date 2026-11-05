@@ -14,8 +14,8 @@ import kotlin.time.TimeSource
 
 /** What a video player plays. */
 sealed interface VideoSource {
-    /** A file on this device, by its path or (on Android) its content address. */
-    data class File(val uri: String) : VideoSource
+    /** A video file or stream on the internet (MP4, WebM, HLS…), by its address. */
+    data class Link(val url: String) : VideoSource
 
     /** A YouTube video; [language] is the one its subtitles are wanted in. */
     data class YouTube(val id: String, val language: String? = null) : VideoSource
@@ -31,18 +31,12 @@ interface VideoController : MediaClock {
 
 /** Why a video does not play. */
 sealed interface VideoProblem {
-    /** The file is not where it was; it can be chosen again. */
-    data object FileMissing : VideoProblem
-
-    /** The player can't open this kind of file; on the desktop installing VLC helps. */
+    /** The player can't play this kind of video. */
     data object Unsupported : VideoProblem
-
-    /** The player needs a download before it can play anything. */
-    data class NeedsEngine(val name: String) : VideoProblem
 
     data class Failed(val message: String) : VideoProblem
 
-    /** This device can't play it, but [url] opens it where it can (a YouTube video on the desktop). */
+    /** This device can't play it, but [url] opens it in the browser. */
     data class Elsewhere(val url: String) : VideoProblem
 }
 

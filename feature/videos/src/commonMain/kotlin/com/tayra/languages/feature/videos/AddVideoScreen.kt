@@ -36,8 +36,6 @@ import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SelectableChip
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
-import com.tayra.languages.core.ui.media.sidecarSubtitleFiles
-import com.tayra.languages.core.ui.media.videoAddress
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import androidx.compose.foundation.layout.Box
@@ -73,13 +71,6 @@ fun AddVideoScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onAdded: (Lo
         }
     }
     val scope = rememberCoroutineScope()
-    val mediaPicker = rememberFilePickerLauncher(type = FileKitType.File(SubtitleFiles.mediaExtensions)) { file ->
-        if (file != null) scope.launch {
-            val address = file.videoAddress()
-            val sidecars = sidecarSubtitleFiles(address, SubtitleFiles.subtitleExtensions).map { it.name to it.readBytes() }
-            viewModel.pickMedia(file.name, address, sidecars)
-        }
-    }
     val subtitlePicker = rememberFilePickerLauncher(type = FileKitType.File(SubtitleFiles.subtitleExtensions)) { file ->
         if (file != null) scope.launch { viewModel.pickSubtitles(file.name, file.readBytes()) }
     }
@@ -98,10 +89,12 @@ fun AddVideoScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onAdded: (Lo
                 onYouTubePlayer = viewModel::onYouTubePlayer,
                 onTrack = viewModel::chooseTrack,
                 onTranslate = viewModel::setTranslate,
-                onPickMedia = { mediaPicker.launch() },
+                onLinkInput = viewModel::setLinkInput,
                 onPickSubtitles = { subtitlePicker.launch() },
                 onPickTranslation = { translationPicker.launch() },
-                onSidecar = viewModel::pickSidecar,
+                onSubtitlesUrl = viewModel::setSubtitlesUrl,
+                onTranslationUrl = viewModel::setTranslationUrl,
+                onFetch = viewModel::fetchSubtitles,
                 onClearTranslation = viewModel::clearTranslation,
                 onTitle = viewModel::setTitle,
                 onAdd = viewModel::add,
@@ -117,13 +110,15 @@ internal class AddVideoActions(
     val onYouTubePlayer: (VideoController) -> Unit = {},
     val onTrack: (YouTubeTrack) -> Unit = {},
     val onTranslate: (Boolean) -> Unit = {},
-    val onPickMedia: () -> Unit,
-    val onPickSubtitles: () -> Unit,
-    val onPickTranslation: () -> Unit,
-    val onSidecar: (name: String, asTranslation: Boolean) -> Unit,
-    val onClearTranslation: () -> Unit,
-    val onTitle: (String) -> Unit,
-    val onAdd: () -> Unit,
+    val onLinkInput: (String) -> Unit = {},
+    val onPickSubtitles: () -> Unit = {},
+    val onPickTranslation: () -> Unit = {},
+    val onSubtitlesUrl: (String) -> Unit = {},
+    val onTranslationUrl: (String) -> Unit = {},
+    val onFetch: (asTranslation: Boolean) -> Unit = {},
+    val onClearTranslation: () -> Unit = {},
+    val onTitle: (String) -> Unit = {},
+    val onAdd: () -> Unit = {},
 )
 
 @OptIn(ExperimentalLayoutApi::class)
@@ -136,17 +131,13 @@ internal fun AddVideoContent(state: AddVideoUiState, actions: AddVideoActions, m
         contentModifier = Modifier.padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl).widthIn(max = FORM_WIDTH),
         verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
     ) {
-        ScreenHeader(tr("Add video"), tr("A video file with its subtitles, or a YouTube video."))
+        ScreenHeader(tr("Add video"), tr("A YouTube video, or a video on the internet with its subtitles."))
         SegmentedToggle(
-            listOf(Segment(VideoOrigin.FILE, AppIcons.Movie, tr("Video file"), testTag = "origin-file"), Segment(VideoOrigin.YOUTUBE, AppIcons.Link, "YouTube", testTag = "origin-youtube")),
+            listOf(Segment(VideoOrigin.YOUTUBE, AppIcons.Movie, "YouTube", testTag = "origin-youtube"), Segment(VideoOrigin.LINK, AppIcons.Link, tr("Video link"), testTag = "origin-link")),
             selected = state.origin,
             onSelect = actions.onOrigin,
         )
-        if (state.origin == VideoOrigin.YOUTUBE) {
-            YouTubeForm(state, actions)
-        } else {
-            FileForm(state, actions)
-        }
+        if (state.origin == VideoOrigin.YOUTUBE) YouTubeForm(state, actions) else LinkForm(state, actions)
         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             Text(tr("Title"), style = AppText.label)
             AppTextField(state.title, actions.onTitle, Modifier.fillMaxWidth().testTag("video-title"), singleLine = true)
@@ -156,51 +147,70 @@ internal fun AddVideoContent(state: AddVideoUiState, actions: AddVideoActions, m
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun FileForm(state: AddVideoUiState, actions: AddVideoActions) {
+private fun LinkForm(state: AddVideoUiState, actions: AddVideoActions) {
     val colors = MaterialTheme.colorScheme
-        AppCard(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            Text(tr("Video file"), style = AppText.itemTitle)
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                SecondaryButton(tr("Choose file"), onClick = actions.onPickMedia, icon = AppIcons.Movie, modifier = Modifier.testTag("pick-media"))
-                Text(state.mediaName ?: tr("No file chosen"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f, fill = false))
+    val link = state.link
+    AppCard(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        Text(tr("Video link"), style = AppText.itemTitle)
+        Text(tr("The address of a video file or stream (MP4, WebM, HLS)."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+        AppTextField(link.input, actions.onLinkInput, Modifier.fillMaxWidth().testTag("video-link"), singleLine = true, placeholder = { Text("https://…/video.mp4") })
+        if (link.input.isNotBlank() && link.url == null) Text(tr("This is not a web address."), style = MaterialTheme.typography.bodySmall, color = colors.error)
+    }
+    SubtitlesCard(
+        title = tr("Subtitles"),
+        note = tr("SRT, WebVTT or ASS, in the language of the video: a file, or its address."),
+        picked = link.subtitles,
+        url = link.subtitlesUrl,
+        fetching = link.fetching,
+        tag = "subtitles",
+        onPick = actions.onPickSubtitles,
+        onUrl = actions.onSubtitlesUrl,
+        onFetch = { actions.onFetch(false) },
+    )
+    SubtitlesCard(
+        title = tr("Translation (optional)"),
+        note = tr("Subtitles in your language, shown under each line. Without them, lines are translated as you watch."),
+        picked = link.translation,
+        url = link.translationUrl,
+        fetching = link.fetching,
+        tag = "translation",
+        onPick = actions.onPickTranslation,
+        onUrl = actions.onTranslationUrl,
+        onFetch = { actions.onFetch(true) },
+        onClear = actions.onClearTranslation,
+    )
+}
+
+@Composable
+private fun SubtitlesCard(
+    title: String,
+    note: String,
+    picked: PickedSubtitles?,
+    url: String,
+    fetching: Boolean,
+    tag: String,
+    onPick: () -> Unit,
+    onUrl: (String) -> Unit,
+    onFetch: () -> Unit,
+    onClear: (() -> Unit)? = null,
+) {
+    val colors = MaterialTheme.colorScheme
+    AppCard(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        Text(title, style = AppText.itemTitle)
+        Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            SecondaryButton(tr("Choose file"), onClick = onPick, icon = AppIcons.Subtitles, modifier = Modifier.testTag("pick-$tag"))
+            picked?.let {
+                Text(describe(it), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f, fill = false).testTag("$tag-picked"))
+                onClear?.let { clear -> QuietButton(tr("Remove"), onClick = clear) }
             }
         }
-        AppCard(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            Text(tr("Subtitles"), style = AppText.itemTitle)
-            Text(tr("SRT, WebVTT or ASS, in the language of the video."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                SecondaryButton(tr("Choose subtitles"), onClick = actions.onPickSubtitles, icon = AppIcons.Subtitles, modifier = Modifier.testTag("pick-subtitles"))
-                state.subtitles?.let { Text(describe(it), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f, fill = false).testTag("subtitles-picked")) }
-            }
-            if (state.sidecars.isNotEmpty()) {
-                Text(tr("Found beside the video"), style = AppText.label)
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                    state.sidecars.forEach { name ->
-                        SelectableChip(name, selected = state.subtitles?.name == name, onClick = { actions.onSidecar(name, false) })
-                    }
-                }
-            }
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            AppTextField(url, onUrl, Modifier.weight(1f).testTag("$tag-url"), singleLine = true, placeholder = { Text("https://…/subtitles.vtt") })
+            SecondaryButton(tr("Fetch"), onClick = onFetch, enabled = url.isNotBlank() && !fetching, loading = fetching, modifier = Modifier.testTag("fetch-$tag"))
         }
-        AppCard(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            Text(tr("Translation (optional)"), style = AppText.itemTitle)
-            Text(tr("Subtitles in your language, shown under each line. Without them, lines are translated as you watch."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                SecondaryButton(tr("Choose translation"), onClick = actions.onPickTranslation, icon = AppIcons.Translate, modifier = Modifier.testTag("pick-translation"))
-                state.translation?.let {
-                    Text(describe(it), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f, fill = false))
-                    QuietButton(tr("Remove"), onClick = actions.onClearTranslation, modifier = Modifier.testTag("remove-translation"))
-                }
-            }
-            if (state.sidecars.size > 1) {
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                    state.sidecars.filter { it != state.subtitles?.name }.forEach { name ->
-                        SelectableChip(name, selected = state.translation?.name == name, onClick = { actions.onSidecar(name, true) })
-                    }
-                }
-            }
-        }
+    }
 }
 
 @OptIn(ExperimentalLayoutApi::class)

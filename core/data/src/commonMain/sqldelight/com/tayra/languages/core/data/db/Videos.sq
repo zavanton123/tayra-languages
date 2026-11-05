@@ -3,9 +3,9 @@
 -- each line is spoken.
 CREATE TABLE videos (
     book_id INTEGER NOT NULL PRIMARY KEY REFERENCES books(id) ON DELETE CASCADE,
-    -- 'FILE' or 'YOUTUBE'.
+    -- 'LINK' or 'YOUTUBE'.
     kind TEXT NOT NULL,
-    -- The file's address on this device, or the YouTube video id.
+    -- The video's internet address, or the YouTube video id.
     media TEXT NOT NULL,
     channel TEXT,
     thumbnail TEXT,
@@ -34,15 +34,6 @@ CREATE TABLE video_cues (
 );
 
 CREATE INDEX video_cues_time ON video_cues(book_id, begin_ms);
-
--- The video line a word was saved from, for its card's sound and picture. Kept on this device only:
--- the sound is cut from a file, which only this device knows where to find.
-CREATE TABLE term_video_sources (
-    term_id INTEGER NOT NULL PRIMARY KEY REFERENCES terms(id) ON DELETE CASCADE,
-    book_id INTEGER NOT NULL REFERENCES books(id) ON DELETE CASCADE,
-    begin_ms INTEGER NOT NULL,
-    end_ms INTEGER NOT NULL
-);
 
 -- Sync stamps a video when it is made or changed. Where watching got to changes every few seconds;
 -- it is stamped only by [touch], when the video is left, so the cues are not sent again and again.
@@ -156,15 +147,3 @@ WHERE v.book_id = :bookId;
 putVideo:
 INSERT OR REPLACE INTO videos(book_id, kind, media, channel, thumbnail, duration_ms, position_ms, subtitle_kind, created_at, updated_at)
 VALUES (:bookId, :kind, :media, :channel, :thumbnail, :durationMs, :positionMs, :subtitleKind, :createdAt, :updatedAt);
-
--- Where words were saved from
-
-keepTermSource:
-INSERT OR IGNORE INTO term_video_sources(term_id, book_id, begin_ms, end_ms) VALUES (:termId, :bookId, :beginMs, :endMs);
-
-termSource:
-SELECT s.book_id, s.begin_ms, s.end_ms, v.kind, v.media, b.title
-FROM term_video_sources s
-JOIN videos v ON v.book_id = s.book_id
-JOIN books b ON b.id = s.book_id
-WHERE s.term_id = :termId;

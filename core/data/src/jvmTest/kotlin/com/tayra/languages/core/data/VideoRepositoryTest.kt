@@ -60,8 +60,8 @@ class VideoRepositoryTest {
             VideoImport(
                 languageId = language,
                 title = " O gato ",
-                kind = VideoKind.FILE,
-                media = "/videos/gato.mp4",
+                kind = VideoKind.LINK,
+                media = "https://videos.example/gato.mp4",
                 subtitles = SubtitleTrack(SubtitleFormats.parse(srt)),
                 translation = translation,
                 translationSource = TranslationSource.FILE,
@@ -70,7 +70,7 @@ class VideoRepositoryTest {
         )
         val video = assertNotNull(videos.video(id))
         assertEquals("O gato", video.title)
-        assertEquals(VideoKind.FILE, video.kind)
+        assertEquals(VideoKind.LINK, video.kind)
         assertEquals(8000, video.durationMs)
 
         val cues = videos.cues(id)
@@ -84,14 +84,14 @@ class VideoRepositoryTest {
         assertTrue(books.observeBooks(archived = false).first().none { it.id == id }, "videos are not listed with the books")
         assertEquals(listOf(id), videos.observeVideos().first().map { it.video.bookId })
         assertTrue(videos.isVideo(id))
-        assertEquals(id, videos.findByMedia(VideoKind.FILE, "/videos/gato.mp4", language))
+        assertEquals(id, videos.findByMedia(VideoKind.LINK, "https://videos.example/gato.mp4", language))
     }
 
     @Test
     fun aLongVideoIsCutIntoPagesAtLineBoundaries() = runTest {
         val language = portuguese()
         val lines = List(VideoService.LINES_PER_PAGE + 5) { Cue(it * 1000L, it * 1000L + 900, "Linha número $it.") }
-        val id = service.import(VideoImport(language, "Longo", VideoKind.FILE, "/a.mkv", SubtitleTrack(lines)))
+        val id = service.import(VideoImport(language, "Longo", VideoKind.LINK, "https://videos.example/a.webm", SubtitleTrack(lines)))
         assertEquals(2, books.pageCount(id))
         val last = videos.cues(id).last()
         assertEquals(2 to 4, last.pageOrder to last.lineIndex)
@@ -111,7 +111,7 @@ class VideoRepositoryTest {
     @Test
     fun subtitlesCanBeReplacedShiftedAndGivenATranslationLater() = runTest {
         val language = portuguese()
-        val id = service.import(VideoImport(language, "O gato", VideoKind.FILE, "/g.mp4", SubtitleTrack(SubtitleFormats.parse(srt))))
+        val id = service.import(VideoImport(language, "O gato", VideoKind.LINK, "https://videos.example/g.mp4", SubtitleTrack(SubtitleFormats.parse(srt))))
         service.shift(id, -1500)
         assertEquals(listOf(0L to 1000L, 3500L to 5500L), videos.cues(id).map { it.cue.beginMs to it.cue.endMs })
 
@@ -131,13 +131,13 @@ class VideoRepositoryTest {
     @Test
     fun watchingPlaceIsKeptAndDeletingTheBookDeletesTheVideo() = runTest {
         val language = portuguese()
-        val id = service.import(VideoImport(language, "O gato", VideoKind.FILE, "/g.mp4", SubtitleTrack(SubtitleFormats.parse(srt))))
+        val id = service.import(VideoImport(language, "O gato", VideoKind.LINK, "https://videos.example/g.mp4", SubtitleTrack(SubtitleFormats.parse(srt))))
         videos.setPosition(id, 4200, final = false)
         videos.setDuration(id, 9000)
-        videos.setMedia(id, "/moved/g.mp4")
+        videos.setMedia(id, "https://cdn.example/g.mp4")
         val video = videos.video(id)!!
         assertEquals(4200L to 9000L, video.positionMs to video.durationMs)
-        assertEquals("/moved/g.mp4", video.media)
+        assertEquals("https://cdn.example/g.mp4", video.media)
         books.deleteBook(id)
         assertNull(videos.video(id))
         assertEquals(emptyList(), videos.cues(id))
@@ -146,8 +146,8 @@ class VideoRepositoryTest {
     @Test
     fun subtitlesWithoutLinesOrATitleAreRefused() = runTest {
         val language = portuguese()
-        assertFailsWith<VideoImportException> { service.import(VideoImport(language, "Vazio", VideoKind.FILE, "/v.mp4", SubtitleTrack(listOf(Cue(0, 1, "[Música]"))))) }
-        assertFailsWith<VideoImportException> { service.import(VideoImport(language, " ", VideoKind.FILE, "/v.mp4", SubtitleTrack(SubtitleFormats.parse(srt)))) }
+        assertFailsWith<VideoImportException> { service.import(VideoImport(language, "Vazio", VideoKind.LINK, "https://videos.example/v.mp4", SubtitleTrack(listOf(Cue(0, 1, "[Música]"))))) }
+        assertFailsWith<VideoImportException> { service.import(VideoImport(language, " ", VideoKind.LINK, "https://videos.example/v.mp4", SubtitleTrack(SubtitleFormats.parse(srt)))) }
     }
 
     @Test
@@ -157,7 +157,23 @@ class VideoRepositoryTest {
         val reopened = DatabaseProvider(DatabaseDriverFactory(file)).also { it.database() }
         val again = VideoService(VideoRepositoryImpl(reopened), LanguageRepositoryImpl(reopened))
         val language = LanguageRepositoryImpl(reopened).findByName("Portuguese")!!.id
-        val id = again.import(VideoImport(language, "Depois", VideoKind.FILE, "/d.mp4", SubtitleTrack(SubtitleFormats.parse(srt))))
+        val id = again.import(VideoImport(language, "Depois", VideoKind.LINK, "https://videos.example/d.mp4", SubtitleTrack(SubtitleFormats.parse(srt))))
         assertEquals(2, VideoRepositoryImpl(reopened).cues(id).size)
+    }
+
+    @Test
+    fun videoFilesOfOlderLibrariesAreRemoved() = runTest {
+        val language = portuguese()
+        val link = service.import(VideoImport(language, "Na rede", VideoKind.LINK, "https://videos.example/n.mp4", SubtitleTrack(SubtitleFormats.parse(srt))))
+        val onDisk = service.import(VideoImport(language, "No disco", VideoKind.LINK, "/Users/me/aula.mp4", SubtitleTrack(SubtitleFormats.parse(srt))))
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use {
+            it.createStatement().execute("UPDATE videos SET kind = 'FILE' WHERE book_id = $onDisk")
+            it.pretendVersion(37)
+        }
+        val reopened = DatabaseProvider(DatabaseDriverFactory(file)).also { it.database() }
+        val again = VideoRepositoryImpl(reopened)
+        assertNotNull(again.video(link))
+        assertNull(again.video(onDisk))
+        assertNull(BookRepositoryImpl(reopened).getBook(onDisk), "its transcript goes with it")
     }
 }

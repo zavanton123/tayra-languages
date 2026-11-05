@@ -48,7 +48,6 @@ bytedeco-javacpp = { module = "org.bytedeco:javacpp", version.ref = "bytedeco-ja
 bytedeco-leptonica = { module = "org.bytedeco:leptonica", version.ref = "bytedeco-leptonica" }
 bytedeco-tesseract = { module = "org.bytedeco:tesseract", version.ref = "bytedeco-tesseract" }
 jna = { module = "net.java.dev.jna:jna", version = "5.19.1" }
-vlcj = { module = "uk.co.caprica:vlcj", version = "4.8.3" }
 jna-platform = { module = "net.java.dev.jna:jna-platform", version = "5.19.1" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
 android-billing-ktx = { module = "com.android.billingclient:billing-ktx", version.ref = "android-billing" }
@@ -58,6 +57,7 @@ googleid = { module = "com.google.android.libraries.identity.googleid:googleid",
 androidx-media3-session = { module = "androidx.media3:media3-session", version.ref = "androidx-media3" }
 androidx-media3-exoplayer = { module = "androidx.media3:media3-exoplayer", version.ref = "androidx-media3" }
 androidx-media3-ui = { module = "androidx.media3:media3-ui", version.ref = "androidx-media3" }
+androidx-media3-exoplayer-hls = { module = "androidx.media3:media3-exoplayer-hls", version.ref = "androidx-media3" }
 kotlinx-browser = { module = "org.jetbrains.kotlinx:kotlinx-browser", version = "0.5.0" }
 compose-components-resources = { module = "org.jetbrains.compose.components:components-resources", version.ref = "compose-multiplatform" }
 compose-foundation = { module = "org.jetbrains.compose.foundation:foundation", version.ref = "compose-multiplatform" }

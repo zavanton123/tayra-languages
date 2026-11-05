@@ -1,7 +1,5 @@
 package com.tayra.languages.core.data.di
 
-import com.tayra.languages.core.data.media.AndroidVideoClips
-import com.tayra.languages.core.domain.media.VideoClips
 import android.content.Context
 import com.russhwolf.settings.Settings
 import com.russhwolf.settings.SharedPreferencesSettings
@@ -35,7 +33,6 @@ actual val platformDataModule: Module = module {
     single { LocalSpeech(listOf(SherpaPiperEngine(get<AndroidSherpaRuntime>()), SherpaKokoroEngine(get<AndroidSherpaRuntime>()))) }
     single<SpeechRecognition> { AndroidSpeechRecognition(get<Context>()) }
     single { DatabaseDriverFactory(get<Context>()) }
-    single<VideoClips> { AndroidVideoClips(get<Context>()) }
     single { BackupFiles(get<Context>()) }
     single<SpeechAudioCache> { FileSpeechAudioCache(File(get<Context>().cacheDir, "speech-cache")) }
     single { DictionaryPackStorage(get<Context>(), get()) }

@@ -4,13 +4,14 @@ import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import androidx.navigation.toRoute
+import com.tayra.languages.core.data.media.SubtitleDownloader
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val videosModule = module {
     viewModel { VideosViewModel(get(), get(), get(), get()) }
-    viewModel { AddVideoViewModel(get(), get(), get(), get()) }
+    viewModel { AddVideoViewModel(get(), get(), get(), get(), SubtitleDownloader(get())) }
     viewModel { (bookId: Long) -> WatchViewModel(bookId, get(), get(), get(), get(), get(), get(), get()) }
 }
 

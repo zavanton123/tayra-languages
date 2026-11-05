@@ -94,15 +94,9 @@ import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.feature.terms.form.TermFormEvent
 import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormViewModel
-import androidx.compose.runtime.rememberCoroutineScope
-import com.tayra.languages.core.data.media.SubtitleFiles
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.media.VideoProblem
-import com.tayra.languages.core.ui.media.videoAddress
-import io.github.vinceglb.filekit.dialogs.FileKitType
-import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
-import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import kotlin.random.Random
@@ -138,17 +132,13 @@ private fun WatchContent(state: WatchUiState, playback: CuePlayback?, viewModel:
     val focus = remember { FocusRequester() }
     LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
     val languageCode = state.language?.let { LanguageCodes.codeFor(it.name) }
-    val source = remember(video.media, video.kind, languageCode) { if (video.kind == VideoKind.YOUTUBE) VideoSource.YouTube(video.media, languageCode) else VideoSource.File(video.media) }
+    val source = remember(video.media, video.kind, languageCode) { if (video.kind == VideoKind.YOUTUBE) VideoSource.YouTube(video.media, languageCode) else VideoSource.Link(video.media) }
     val current = playback?.current?.collectAsState()?.value
     val problem by viewModel.problem.collectAsStateWithLifecycle()
-    val scope = rememberCoroutineScope()
-    val relink = rememberFilePickerLauncher(type = FileKitType.File(SubtitleFiles.mediaExtensions)) { file ->
-        if (file != null) scope.launch { viewModel.relink(file.videoAddress()) }
-    }
     val player: @Composable (Modifier) -> Unit = { m ->
         Box(m.fillMaxWidth().aspectRatio(VIDEO_RATIO).clip(AppShapes.small)) {
             playerSlot(source, viewModel::attach, Modifier.fillMaxSize())
-            problem?.let { VideoProblemNotice(it, onChooseFile = { relink.launch() }, Modifier.align(Alignment.Center).padding(AppSpacing.l)) }
+            problem?.let { VideoProblemNotice(it, Modifier.align(Alignment.Center).padding(AppSpacing.l)) }
         }
     }
     Box(
@@ -183,31 +173,25 @@ private fun WatchContent(state: WatchUiState, playback: CuePlayback?, viewModel:
 }
 
 @Composable
-private fun VideoProblemNotice(problem: VideoProblem, onChooseFile: () -> Unit, modifier: Modifier) {
+private fun VideoProblemNotice(problem: VideoProblem, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     Column(modifier.cardSurface().padding(AppSpacing.l), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         Text(
             when (problem) {
-                VideoProblem.FileMissing -> tr("The video file is not where it was.")
                 VideoProblem.Unsupported -> tr("This kind of video can't be played here.")
-                is VideoProblem.NeedsEngine -> tr("{0} is needed to play videos.", problem.name)
                 is VideoProblem.Failed -> tr("The video could not be played.")
-                is VideoProblem.Elsewhere -> tr("YouTube videos play in the phone and tablet apps.")
+                is VideoProblem.Elsewhere -> tr("Videos play in the phone and tablet apps.")
             },
             style = AppText.itemTitle,
             textAlign = TextAlign.Center,
         )
-        if (problem is VideoProblem.Failed) Text(tr(problem.message), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
-        if (problem == VideoProblem.FileMissing || problem == VideoProblem.Unsupported) {
-            SecondaryButton(tr("Choose the file"), onClick = onChooseFile, icon = AppIcons.Movie, modifier = Modifier.testTag("relink-video"))
-        }
+        if (problem is VideoProblem.Failed && problem.message != "The video could not be played.") Text(tr(problem.message), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
         val links = LocalUriHandler.current
         when (problem) {
             is VideoProblem.Elsewhere -> {
                 Text(tr("Its lines can still be read and looked up here."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
-                SecondaryButton(tr("Watch on YouTube"), onClick = { runCatching { links.openUri(problem.url) } }, icon = AppIcons.Link, modifier = Modifier.testTag("watch-elsewhere"))
+                SecondaryButton(tr("Open in the browser"), onClick = { runCatching { links.openUri(problem.url) } }, icon = AppIcons.Link, modifier = Modifier.testTag("watch-elsewhere"))
             }
-            is VideoProblem.NeedsEngine -> SecondaryButton(tr("Get VLC"), onClick = { runCatching { links.openUri(VLC_SITE) } }, icon = AppIcons.Link)
             else -> Unit
         }
     }
@@ -460,7 +444,7 @@ private fun TermPane(state: WatchUiState, viewModel: WatchViewModel, onNavigate:
     val form = koinViewModel<TermFormViewModel>(key = "watch-term-${state.termKey}-$opening") { parametersOf(key) }
     CollectEvents(form.events) { event ->
         when (event) {
-            is TermFormEvent.Saved -> viewModel.onTermSaved(event.termId, close = !event.keepOpen)
+            is TermFormEvent.Saved -> viewModel.onTermChanged(close = !event.keepOpen)
             TermFormEvent.Deleted -> viewModel.onTermChanged(close = true)
             is TermFormEvent.OpenParent -> viewModel.openTerm(event.languageId, event.text, key.sentence)
             is TermFormEvent.OpenTerm -> viewModel.openTerm(event.languageId, event.text, event.sentence)
@@ -495,7 +479,6 @@ private const val RATE_STEP = 0.1f
 private const val MIN_RATE = 0.5f
 private const val MAX_RATE = 2f
 private val HIDE_BLUR = 8.dp
-private const val VLC_SITE = "https://www.videolan.org/vlc/"
 private const val VIDEO_WEIGHT = 0.56f
 private const val TRANSCRIPT_WEIGHT = 0.44f
 private const val SHEET_HEIGHT = 0.7f

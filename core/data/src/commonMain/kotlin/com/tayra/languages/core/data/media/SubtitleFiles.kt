@@ -4,6 +4,11 @@ import com.tayra.languages.core.data.files.TextDecoding
 import com.tayra.languages.core.domain.media.Cue
 import com.tayra.languages.core.domain.media.SubtitleFormat
 import com.tayra.languages.core.domain.media.SubtitleFormats
+import io.ktor.client.HttpClient
+import io.ktor.client.request.get
+import io.ktor.client.statement.readRawBytes
+import io.ktor.http.isSuccess
+import kotlinx.coroutines.CancellationException
 
 /** Subtitle files as people have them: any of the common formats, in UTF-8 or an older code page. */
 object SubtitleFiles {
@@ -29,8 +34,19 @@ object SubtitleFiles {
     /** Whether [name] looks like a subtitle file. */
     fun isSubtitleFile(name: String): Boolean = name.substringAfterLast('.', "").lowercase() in SubtitleFormat.allExtensions
 
-    /** Extensions of the video and audio files the players open, for the file picker. */
-    val mediaExtensions = listOf("mp4", "m4v", "mov", "webm", "mkv", "avi", "ogv", "mp3", "m4a", "aac", "wav", "ogg", "opus", "flac")
-
     val subtitleExtensions = listOf("srt", "vtt", "ass", "ssa", "json3")
+}
+
+/** Fetches a subtitle file from the internet, for a video whose subtitles are online too. */
+class SubtitleDownloader(private val client: HttpClient) {
+    /** The file's name and its bytes, or null when the address gives nothing. */
+    suspend fun download(url: String): Pair<String, ByteArray>? = try {
+        val response = client.get(url)
+        if (!response.status.isSuccess()) null
+        else url.substringBefore('?').substringBefore('#').substringAfterLast('/').ifBlank { "subtitles" } to response.readRawBytes()
+    } catch (e: CancellationException) {
+        throw e
+    } catch (e: Exception) {
+        null
+    }
 }

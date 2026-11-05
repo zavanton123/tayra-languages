@@ -13,7 +13,6 @@ import com.tayra.languages.core.domain.media.Cue
 import com.tayra.languages.core.domain.media.NewVideo
 import com.tayra.languages.core.domain.media.StoredCue
 import com.tayra.languages.core.domain.media.SubtitleKind
-import com.tayra.languages.core.domain.media.TermVideoSource
 import com.tayra.languages.core.domain.media.TranslationSource
 import com.tayra.languages.core.domain.media.Video
 import com.tayra.languages.core.domain.media.VideoKind
@@ -180,16 +179,6 @@ class VideoRepositoryImpl(private val provider: DatabaseProvider) : VideoReposit
         withContext(databaseDispatcher) { db().videosQueries.setMedia(media, bookId) }
     }
 
-    override suspend fun keepTermSource(termId: Long, bookId: Long, beginMs: Long, endMs: Long) {
-        withContext(databaseDispatcher) { db().videosQueries.keepTermSource(termId, bookId, beginMs, endMs) }
-    }
-
-    override suspend fun termSource(termId: Long): TermVideoSource? = withContext(databaseDispatcher) {
-        db().videosQueries.termSource(termId).awaitAsOneOrNull()?.let {
-            TermVideoSource(it.book_id, it.title, kindOf(it.kind), it.media, it.begin_ms, it.end_ms)
-        }
-    }
-
     private suspend fun insertCues(database: TayraDatabase, bookId: Long, transcript: VideoTranscript) {
         for (stored in transcript.cues) {
             database.videosQueries.insertCue(
@@ -215,10 +204,10 @@ class VideoRepositoryImpl(private val provider: DatabaseProvider) : VideoReposit
     )
 
     companion object {
-        fun kindOf(name: String): VideoKind = VideoKind.entries.firstOrNull { it.name == name } ?: VideoKind.FILE
+        fun kindOf(name: String): VideoKind = VideoKind.entries.firstOrNull { it.name == name } ?: VideoKind.LINK
         fun subtitleKindOf(name: String): SubtitleKind = SubtitleKind.entries.firstOrNull { it.name == name } ?: SubtitleKind.FILE
 
-        /** YouTube videos are known by their id; a file has no address that means anything on another device. */
-        private fun NewVideo.sourceUri(): String? = if (kind == VideoKind.YOUTUBE) "youtube:$media" else null
+        /** The video's address, as the book's source: YouTube videos by their id, links as they are. */
+        private fun NewVideo.sourceUri(): String = if (kind == VideoKind.YOUTUBE) "youtube:$media" else media
     }
 }

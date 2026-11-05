@@ -1,8 +1,5 @@
 package com.tayra.languages.core.domain.export
 
-import com.tayra.languages.core.domain.media.VideoClips
-import com.tayra.languages.core.domain.media.VideoKind
-import com.tayra.languages.core.domain.media.VideoRepository
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
@@ -41,9 +38,6 @@ class AnkiExportService(
     private val packager: AnkiPackager,
     private val clock: Clock = Clock.System,
     private val timeZone: () -> TimeZone = { TimeZone.currentSystemDefault() },
-    /** Where words saved from videos came from, and what cuts their line's sound and picture. */
-    private val videos: VideoRepository? = null,
-    private val clips: VideoClips? = null,
 ) {
     /**
      * The package, the ids of the terms in it (several may share a note), how many notes it
@@ -114,26 +108,10 @@ class AnkiExportService(
         val partOfSpeech = lookup?.entries?.firstOrNull()?.pos?.replaceFirstChar { it.uppercase() }.orEmpty()
         val translation = sentence?.let { attempt { translator.translate(it, language) } }.orEmpty()
         val spoken = sentence ?: word
-        val source = attempt { videos?.termSource(term.id) }
-        // A word saved from a video file has its line's own sound and a picture of it; anything else is read aloud.
-        val fromFile = source?.takeIf { it.kind == VideoKind.FILE && it.media.isNotEmpty() }
-        val videoSound = fromFile?.let { s -> attempt { clips?.sound(s.media, (s.beginMs - CLIP_PADDING_MS).coerceAtLeast(0), s.endMs + CLIP_PADDING_MS) } }
-        val clip = if (videoSound != null) {
-            val (bytes, extension) = videoSound
-            val name = "tayra-video-${Sha1.hex("${fromFile.bookId}|${fromFile.beginMs}".encodeToByteArray()).take(16)}.$extension"
-            media.getOrPut(name) { AnkiMedia(name, bytes) }
+        val clip = attempt { audio.audioFor(spoken, code) }?.let { wav ->
+            val name = "tayra-${Sha1.hex("$code|$spoken".encodeToByteArray()).take(16)}.wav"
+            media.getOrPut(name) { AnkiMedia(name, wav) }
             "[sound:$name]"
-        } else {
-            attempt { audio.audioFor(spoken, code) }?.let { wav ->
-                val name = "tayra-${Sha1.hex("$code|$spoken".encodeToByteArray()).take(16)}.wav"
-                media.getOrPut(name) { AnkiMedia(name, wav) }
-                "[sound:$name]"
-            }.orEmpty()
-        }
-        val picture = fromFile?.let { s -> attempt { clips?.picture(s.media, (s.beginMs + s.endMs) / 2) } }?.let { jpeg ->
-            val name = "tayra-video-${Sha1.hex("${fromFile.bookId}|${fromFile.beginMs}|picture".encodeToByteArray()).take(16)}.jpg"
-            media.getOrPut(name) { AnkiMedia(name, jpeg) }
-            "<img src=\"$name\">"
         }.orEmpty()
         val cloze = sentence?.let { cloze(it, Cloze.cardRange(it, term, terms), word) } ?: "{{c1::$word}}"
         val fields = listOf(
@@ -153,12 +131,12 @@ class AnkiExportService(
             "",
             "",
             "",
-            source?.title.orEmpty(),
+            "",
             stamp(term.createdAt ?: now, pretty = true),
             stamp(now, pretty = true),
             sentence.orEmpty(),
             translation,
-            picture,
+            "",
             "",
             clip,
         )
@@ -167,7 +145,7 @@ class AnkiExportService(
             guid = Sha1.hex("tayra|$code|$cloze".encodeToByteArray()).take(16),
             deck = "Tayra Languages::${language.name}",
             fields = fields,
-            tags = listOf("Tayra_Languages::lang::$code", if (source != null) "Tayra_Languages::source::video" else "Tayra_Languages::source::reading"),
+            tags = listOf("Tayra_Languages::lang::$code", "Tayra_Languages::source::reading"),
         )
     }
 
@@ -201,9 +179,6 @@ class AnkiExportService(
     companion object {
         const val SOURCE = "Tayra Languages"
 
-        /** How much sound a video line's clip keeps before and after the line, so no word is cut off. */
-        const val CLIP_PADDING_MS = 250L
-
         val FIELDS = listOf(
             "Cloze", "Item Key", "Subtitle", "Translation", "Word", "Lemma", "Part of Speech", "Color", "Word Definition", "Source",
             "Language", "Translation Language", "Word Transliteration", "Phrase Transliteration", "Subtitle Index", "Item ID", "Item Title",
@@ -232,7 +207,6 @@ class AnkiExportService(
             <div class="tl-sentence" lang="{{Language}}">{{cloze:Cloze}}</div>
             {{#Translation}}<div class="tl-translation" lang="{{Translation Language}}">{{Translation}}</div>{{/Translation}}
         </div>
-        {{#Prev Image}}<div class="tl-picture">{{Prev Image}}</div>{{/Prev Image}}
         <div class="tl-bottom">
             <div class="tl-word-row">
                 <span class="tl-word" lang="{{Language}}">{{Word}}</span>
@@ -303,11 +277,6 @@ html, body {
 .cloze {
     color: #ffd166;
     font-weight: 600;
-}
-.tl-picture img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 .tl-translation {
     font-size: 22px;
