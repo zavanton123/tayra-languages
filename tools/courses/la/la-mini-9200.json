@@ -1,0 +1,189 @@
+{
+  "id": "la-mini-9200",
+  "rankUpTo": 9200,
+  "level": "C2",
+  "title": "Tabulae geographicae et via invenienda",
+  "description": "Nine standalone stories and one column about maps and finding the way: a mountain path with a mule, the walls of Lucca, a chart of the seabed, copying an old map, a school orienteering day, place names, a botanical garden plan, a mountain hut, a band's parade route and a bike ride along the Po.",
+  "topic": "Maps and finding the way",
+  "names": [
+    "Aburia",
+    "Decidius",
+    "Mediolanum",
+    "Tridentum",
+    "Appuleius",
+    "Laetoria",
+    "Luca",
+    "Vescia",
+    "Obellius",
+    "Brundisium",
+    "Marcilius",
+    "Terentilla",
+    "Venetiae",
+    "Maius",
+    "Sicinius",
+    "Valgius",
+    "Nonia",
+    "Bononia",
+    "Messia",
+    "Neapolis",
+    "Roma",
+    "Athenae",
+    "Pisae",
+    "Thebae",
+    "Italia",
+    "Baebia",
+    "Calidius",
+    "Patavium",
+    "September",
+    "Oppius",
+    "Didia",
+    "Bellunum",
+    "Tadia",
+    "Egnatius",
+    "Perusia",
+    "Cestius",
+    "Acilius",
+    "Cremona",
+    "Placentia",
+    "Padus"
+  ],
+  "lessons": [
+    {
+      "title": "Burdo in semita",
+      "summary": "A hiker hires a farmer's mule for a mountain path, gets felt socks for her sore feet, rescues a lost kid goat and reaches the hut before the afternoon storm.",
+      "newWords": [
+        "burdo",
+        "udo",
+        "minutatim",
+        "gravate",
+        "haedulus",
+        "pomeridianus",
+        "lodix"
+      ],
+      "text": "Aburia, quae Mediolani in officio laborat, aestate per montes supra Tridentum ambulare constituit. Tabulam geographicam emit, in qua semitae lineis variis notatae sunt, et impedimenta paravit. Impedimenta autem tam gravia erant ut ipsa ea vix tolleret. Itaque in vico parvo sub montibus Decidium adiit, agricolam qui peregrinatoribus burdonem locare solet.\n\nBurdo, ut Decidius explicavit, ex equo et asina natus est; minor est quam mulus, sed pede certo et animo patienti, et per semitas angustas ac saxosas melius quam equus ascendit. «Burdo meus has semitas iam centies ascendit», inquit Decidius, «et viam saepe melius novit quam tabula tua.» Promisit etiam se ipsum ducem fore, si Aburia vellet.\n\nPrima luce profecti sunt. Burdo onus portabat, Decidius frenum tenebat, Aburia tabulam inspiciebat. Semita minutatim ascendebat, primum per prata, deinde per silvam pinorum, postremo inter saxa nuda. Nebula quoque, quae mane valles tegebat, minutatim discedebat et cacumina montium ostendebat.\n\nPost duas horas Aburia lentius ambulare coepit. Calcei eius novi erant et pedes terebant. Decidius e sacculo duos udones protulit, tibialia crassa ex lana coacta, quae pastores in montibus gerere solent. «Udo pedem fovet et calceum durum mollit», inquit. Aburia udones primo gravate induit, quia ei deformes videbantur; sed mox fatebatur se numquam commodius ambulavisse.\n\nAd rivum pervenerunt, quem ponticulus ligneus transibat. Burdo subito constitit nec progredi volebat. Decidius placide loquebatur et frenum leniter trahebat, et burdo tandem ponticulum gravate transiit, aures demittens. «Burdones aquam sonantem non amant», explicavit Decidius ridens.\n\nPaulo post haedulus in media semita apparuit, qui a grege suo aberraverat et voce tenui clamabat. Aburia haedulum in bracchia sustulit. Non longe aberat casa pastoris, ubi grex caprarum pascebatur, et pastor haedulum laetus recepit.\n\nDecidius iam caelum spectabat. «In his montibus», inquit, «nubes pomeridianae saepe tonitrua afferunt. Horis pomeridianis prudens viator sub tecto est.» Itaque gradum acceleraverunt, et paulo post meridiem ad refugium pervenerunt. Vix intraverant, cum pluvia cecidit.\n\nIn refugio lodices laneae in lectulis iacebant. Aburia, quae ex itinere frigus sentiebat, lodicem circa umeros posuit et ad fenestram sedit. Tempestate pomeridiana transacta, tabulam aperuit et cum Decidio semitam quam ambulaverant cum semita in tabula descripta comparavit. In duobus locis linea a vera via discrepabat; Aburia ibi notas parvas scripsit, ut aliis viatoribus prodessent. Vespere sub lodice dormivit, udonibus adhuc indutis.\n\nQuaestiones:\nCur Aburia burdonem locavit?\nQuia impedimenta tam gravia erant ut ipsa ea vix tolleret.\nQuid sunt udones?\nUdones sunt tibialia crassa ex lana coacta, quae pastores in montibus gerunt.\nQuomodo burdo ponticulum transiit?\nBurdo ponticulum gravate transiit, quia aquam sonantem non amat.\nQuid Aburia et Decidius in semita invenerunt?\nHaedulum invenerunt, qui a grege suo aberraverat.\nQuomodo semita ascendebat?\nSemita minutatim ascendebat, primum per prata, deinde per silvam, postremo inter saxa.\nCur gradum acceleraverunt?\nQuia nubes pomeridianae in his montibus saepe tonitrua afferunt.\nQuid Aburia in refugio fecit?\nLodicem circa umeros posuit et notas in tabula scripsit, ubi linea a vera via discrepabat."
+    },
+    {
+      "title": "Moenia Lucae",
+      "summary": "A town map-maker visits the stonecutter repairing the walls of Lucca and learns about mortar, small roof beams and the empty strip along the walls.",
+      "newWords": [
+        "lapicida",
+        "coagmentatio",
+        "tigillum",
+        "cis",
+        "populosus",
+        "pomerium",
+        "medietas"
+      ],
+      "text": "Laetoria in officio urbis Lucae laborat, ubi tabulas urbis peregrinatoribus componit. Hoc anno novam tabulam moenium parare debet, quia magna pars murorum reficitur. Moenia Lucae, quae totam urbem veterem cingunt, lata sunt et arboribus consita, et incolae in eis ambulant, currunt, birotis vehuntur.\n\nUt tabulam recte describeret, Laetoria Appuleium adiit, lapicidam qui opus refectionis curat. Appuleius iam triginta annos lapicida est, et pater eius quoque lapicida fuit. Laetoria eum in summo muro invenit, ubi cum sociis lapides veteres examinabat.\n\n«Quid vos, lapicidae, hic agitis?» rogavit Laetoria.\n\n«Lapides, quos gelu et radices arborum fregerunt, eximimus et novos inserimus», respondit Appuleius. «Sed difficillima pars operis est coagmentatio. Si lapides novi calce dura coniunguntur, murus vetus, qui per aestatem et hiemem paululum movetur, rumpitur. Coagmentatio igitur ex calce molli fieri debet, sicut maiores nostri faciebant.» Laetoriae lapidem ostendit, in quo coagmentatio antiqua post trecentos annos adhuc integra erat.\n\nDeinde ad portam veterem descenderunt, cuius tectum reficiebatur. Sub tegulis tigilla quercea iacebant, quae fabri ordine posuerant. «Haec tigilla», inquit Appuleius, «tegulas sustinent. Vetera tigilla umore corrupta erant; nova ex quercu secta sunt, et quodque tigillum eadem mensura est qua vetus erat.»\n\nLaetoria tabulam veterem secum attulerat, saeculo XVIII pictam. In ea urbs cis muros domibus densa et populosa apparebat, cum extra muros nihil nisi agri et horti essent. Cis muros vici angusti et populosi, trans muros prata. Inter muros et primas domos autem spatium vacuum relinquebatur. «Hoc spatium», explicavit Appuleius, «antiqui pomerium appellabant: solum iuxta muros, ubi aedificare non licebat. Etiam hodie pomerium Lucae fere vacuum est; ibi nunc horti publici et semitae sunt.»\n\nLaetoria intellexit tabulam novam hoc quoque ostendere debere. Lineis viridibus pomerium notavit, ut peregrinatores scirent ubi inter muros et urbem populosam quiete ambulare possent.\n\n«Quanta pars operis iam perfecta est?» rogavit.\n\n«Medietas fere», respondit Appuleius. «Medietas murorum quae ad orientem spectat iam refecta est; altera medietas proximo anno reficietur.» Laetoria igitur in tabula medietatem orientalem colore claro, alteram obscuro pinxit, et notam addidit: hic lapicidae laborant, semita cis portam occidentalem paulisper clausa est.\n\nMense post tabula nova in officio peregrinatorum prostabat. Appuleius exemplar accepit et lapicidis suis ostendit, qui gaudebant quod opus suum etiam in tabula notatum esset.\n\nQuaestiones:\nQuid Laetoria in officio urbis facit?\nTabulas urbis peregrinatoribus componit.\nQuae est difficillima pars operis lapicidarum?\nDifficillima pars est coagmentatio, quae ex calce molli fieri debet.\nQuid tigilla in porta faciunt?\nTigilla tegulas sustinent.\nQuid erat pomerium?\nPomerium erat solum iuxta muros, ubi aedificare non licebat.\nQuomodo urbs in tabula vetere apparebat?\nCis muros densa et populosa apparebat, extra muros erant agri et horti.\nQuanta pars murorum iam refecta est?\nMedietas fere murorum iam refecta est."
+    },
+    {
+      "title": "Pinae sub fluctibus",
+      "summary": "A marine biologist and an old fisherman chart where sea pens grow on the seabed near Brindisi, wait out a strong wind and keep anchors away from them.",
+      "newWords": [
+        "pina",
+        "subtus",
+        "detectio",
+        "reformido",
+        "impune",
+        "parumper",
+        "violenter"
+      ],
+      "text": "Vescia, quae animalia marina investigat, hac aestate fundum maris prope Brundisium describere constituit. Ibi enim in limo et harena pinae crescunt, animalia mira quae pennam avis imitantur. Pina e fundo recta surgit et bracchiis tenuissimis minimas cibi particulas ex aqua capit. In tabulis nauticis pinae nondum notatae sunt, et Vescia tabulam facere vult quae ostendat ubi pinae vivant.\n\nObellius, piscator senex, navem suam ei locavit et ipse gubernat. Superficiem maris optime novit, sed quid subtus lateat, ut ipse confitetur, ignorat. «Fluctus per totam vitam vidi», inquit; «quid subtus sit, tu mihi ostendes.»\n\nNavi instrumentum detectionis affixum est, quod sonos in fundum mittit et ex eorum reditu formam fundi computat. In computatro Vescia lineas videt quae fundum planum aut saxosum significant. Haec tamen detectio pinas, quae tenues et molles sunt, non semper agnoscit. Itaque post detectionem per machinam Vescia ipsa sub aquam descendit, ut oculis confirmet quod machina tantum suspicatur.\n\nOlim, cum discipula esset, aquas profundas et obscuras reformidabat, nec sine magistro descendere audebat. Nunc tranquilla descendit. Obellius autem, quamquam tota vita navigavit, altum mare etiamnunc reformidat, et numquam longius quam tria milia passuum a litore navigat.\n\nQuodam mane Vescia locum invenit ubi centenae pinae in fundo stabant, quasi silva parva. Obellius ancoram iacere volebat, sed Vescia eum prohibuit. «Hic ancoram impune iacere non possumus», inquit; «ancora, quae per fundum trahitur, pinas frangit, et pina fracta non renascitur.» Itaque Obellius navem machina parumper tenuit, dum Vescia locum notabat.\n\nTertio die ventus a septentrionibus violenter flare coepit, et fluctus violenter in moles portus incidebant. Obellius navem in portu retinuit. «Per talem ventum nemo impune navigat», inquit. Vescia parumper exspectare constituit et interea in taberna portus notas suas in tabulam transcripsit. Post duos dies ventus cessavit, et mare iterum tranquillum erat.\n\nFine aestatis tabula perfecta erat. Puncta rubra ostendunt ubi pinae crescunt, lineae caeruleae ubi fundus saxosus est. Vescia exemplar piscatoribus portus dedit, ut scirent ubi ancoram iacere non deberent. Obellius ultimo die per vas vitreum subtus aquam parumper spectavit et pinas suis oculis vidit. «Sexaginta annos super eas navigavi», inquit, «nec umquam eas vidi.»\n\nQuaestiones:\nQuid sunt pinae?\nPinae sunt animalia marina quae pennam avis imitantur et e fundo maris surgunt.\nCur Vescia post detectionem ipsa sub aquam descendit?\nQuia detectio per machinam pinas tenues et molles non semper agnoscit.\nCur Obellius ancoram iacere non debuit?\nQuia ancora, quae per fundum trahitur, pinas frangit.\nQuid Obellius fecit, cum ventus violenter flaret?\nNavem in portu retinuit, quia per talem ventum nemo impune navigat.\nQuid Obellius etiamnunc reformidat?\nAltum mare reformidat, quamquam tota vita navigavit.\nQuid Obellius ultimo die vidit?\nPer vas vitreum subtus aquam spectavit et pinas suis oculis vidit."
+    },
+    {
+      "title": "Colores tabulae veteris",
+      "summary": "An old map restorer in Venice and his apprentice copy a valuable sixteenth-century map square by square, grinding yellow ochre and working in turns.",
+      "newWords": [
+        "aestimabilis",
+        "quadratura",
+        "rubeus",
+        "sil",
+        "modice",
+        "alternatim",
+        "permaxime"
+      ],
+      "text": "Marcilius Venetiis officinam parvam habet, in qua tabulas geographicas veteres reficit et describit. Mense Maio bibliotheca urbis ei tabulam aestimabilem commisit, saeculo XVI pictam, quae lacunam et insulas circa urbem ostendit. Tabula tam aestimabilis et tam fragilis est ut bibliotheca eam spectatoribus ostendere non audeat. Exemplar igitur fidele postulat, quod in aula pendeat, dum ipsa tabula in arca obscura servatur.\n\nTerentilla, quae apud Marcilium artem discit, primum rogavit quomodo tam magnam tabulam sine errore transcriberent. Marcilius ei quadraturam explicavit. Super tabulam veterem folium tenue et pellucidum ponitur, in quo lineae subtiles quadrata aequalia faciunt; idem rete lineis levissimis in charta nova ducitur; deinde pictor quadratum post quadratum transcribit, nec umquam totam tabulam simul spectat. «Quadratura manum non cogit, sed dirigit», inquit Marcilius. «Sine quadratura insulae paulatim migrant, et post decem horas lacuna alia est.»\n\nDeinde de coloribus loquebantur. In tabula vetere tres colores praecipue apparent: caeruleus pro aqua, rubeus pro viis et pontibus, flavus pro harenis et litoribus. Lineae rubeae per insulas currunt; litora flava lacunam cingunt. Flavum colorem pictor antiquus ex sile fecerat, terra flava quam iam veteres pictores noverant. Marcilius sil in mortario marmoreo terit et cum vitello ovi miscet. «Sil modice aqua diluendum est», monet; «si nimium aquae additur, sil pallidum fit.» Rubeum colorem ex terra rubra eodem modo parat.\n\nAlternatim laborant: dum Marcilius pingit, Terentilla oculos quiete reficit, et contra; nam oculi qui sine intermissione minima quadrata spectant cito fatigantur. Alternatim etiam colores ponunt: primo die caeruleum, altero rubeum, tertio flavum, ut quisque color siccari possit antequam alius iuxta eum ponatur.\n\nTerentilla primo penicillum nimis premebat, et lineae crassae fiebant. Marcilius eam monuit ut modice premeret, et ipse manum eius parumper direxit. Mox lineae eius tenues et aequales erant.\n\nPost sex hebdomades exemplar perfectum erat. Custos bibliothecae ad officinam venit et exemplar cum ipsa tabula comparavit. Permaxime ei placuit quod colores, praesertim sil et rubeus, veris coloribus permaxime similes erant. «Permaxime gaudeo», inquit, «quod tabulam tam aestimabilem omnibus ostendere possumus, nec ipsam periculo committimus.»\n\nQuaestiones:\nCur bibliotheca exemplar tabulae postulat?\nQuia tabula tam aestimabilis et fragilis est ut eam spectatoribus ostendere non audeat.\nQuid est quadratura?\nQuadratura est rete quadratorum aequalium, per quod pictor quadratum post quadratum transcribit.\nEx qua re flavus color factus est?\nFlavus color ex sile factus est, terra flava.\nCur Marcilius et Terentilla alternatim laborant?\nQuia oculi qui sine intermissione minima quadrata spectant cito fatigantur.\nQuomodo Terentilla penicillum premere debuit?\nModice premere debuit, ne lineae crassae fierent."
+    },
+    {
+      "title": "Signa in silva",
+      "summary": "On a school orienteering day near Bologna a boastful boy keeps his map in his bag and gets lost for a while, while a quiet girl reads hers and finds every marker.",
+      "newWords": [
+        "viritim",
+        "iniussu",
+        "singulatim",
+        "iactanter",
+        "tacite",
+        "reciperatio",
+        "perseverantia"
+      ],
+      "text": "Sicinius, magister in schola quadam Bononiae, discipulos suos quotannis in colles prope urbem ducit, ut viam per tabulam geographicam invenire discant. Ludus simplex est: in silva decem signa rubea ad arbores affixa sunt, et quisque discipulus omnia invenire debet, tabula et acu magnetica utens.\n\nAnte initium Sicinius tabulas viritim distribuit et cuique discipulo acum magneticam dedit. Viritim quoque nomina scripsit et horam qua quisque profectus est. Deinde praecepta dedit: «Nemo iniussu meo semitas relinquat quae in tabula notatae sunt. Nemo iniussu meo rivum transeat. Si quis viam amiserit, maneat ubi est et fistula sonet.»\n\nDiscipuli non simul, sed singulatim proficiscebantur, alter post alterum, binis minutis interpositis, ne alius alium sequeretur. Singulatim enim quisque cogitare debet, non turbam sequi.\n\nValgius primus profectus est. Iam ante initium iactanter dixerat se tabula non egere: hos colles se ex itineribus cum patre factis bene novisse. Tabulam quidem accepit, sed in sacculum condidit. Nonia, quae post eum profecta est, nihil dixit. Tabulam tacite aperuit, acum magneticam tacite inspexit, et ad primum signum recta perrexit.\n\nValgius tria signa celeriter invenit. Deinde, cum semitam notatam relinquere vellet ut tempus lucraretur, praeceptum magistri meminit et constitit. Tabulam tandem e sacculo protulit et diu inspexit; tum intellexit se in valle esse quam numquam viderat. Interea acus magnetica e sacculo exciderat. Valgius eam inter folia quaesivit; reciperatio acus longa fuit, sed felix.\n\nNonia quoque difficultates habuit: signum septimum in valle densa latebat, et ter frustra inter frutices quaesivit. Non tamen desiit; quarto tandem invenit.\n\nAd finem omnes defessi pervenerunt. Sicinius aquam et mala dedit, et post reciperationem virium discipulos convocavit. Nonia omnia decem signa invenerat, Valgius octo. «Perseverantia Noniae», inquit magister, «plus valuit quam omnis scientia collium. Perseverantia est tabulam iterum aperire, cum signum non statim apparet.» Valgius ridens fassus est se iactanter locutum esse, et promisit se proximo anno tabulam statim aperturum esse.\n\nQuaestiones:\nQuomodo Sicinius tabulas distribuit?\nTabulas viritim distribuit et cuique discipulo acum magneticam dedit.\nQuid nemo iniussu magistri facere debebat?\nNemo iniussu magistri semitas relinquere aut rivum transire debebat.\nCur discipuli singulatim proficiscebantur?\nNe alius alium sequeretur, sed quisque ipse cogitaret.\nQuid Valgius ante initium iactanter dixit?\nDixit se tabula non egere, quia colles bene novisset.\nQualis fuit reciperatio acus magneticae?\nReciperatio acus longa fuit, sed felix.\nQuomodo Nonia tabulam legebat?\nTabulam tacite aperuit et acum magneticam tacite inspexit.\nQuid magister de perseverantia Noniae dixit?\nDixit perseverantiam Noniae plus valuisse quam omnem scientiam collium."
+    },
+    {
+      "title": "De nominibus in tabula",
+      "summary": "A Latin teacher's column on what the old map of Italy on her classroom wall teaches: plural town names, names that record history, and anaphora in old travel books.",
+      "newWords": [
+        "iamdudum",
+        "pluraliter",
+        "postilla",
+        "testificor",
+        "etiamtum",
+        "anaphora",
+        "ceu"
+      ],
+      "text": "Ego, Messia, linguam Latinam in schola Neapoli doceo. In muro conclavis mei tabula geographica Italiae iamdudum pendet, saeculo XIX picta, et discipuli mei saepe rogant cur quaedam nomina in ea tam mira sint. Hodie de tribus rebus scribam quas ex illa tabula didici.\n\nPrimum: multa nomina urbium pluraliter dicuntur. Athenae, Venetiae, Pisae, Thebae numero plurali utuntur, quamquam singulae urbes sunt. Grammatici putant haec nomina olim non unam urbem significavisse, sed plures vicos qui postea in unam urbem coaluerunt, aut incolas ipsos, quorum nomen pluraliter loco datum est. Itaque Venetiis habitamus, non Venetia; Athenas imus, non Athenam. Discipuli primo rident, sed postilla regulam facile tenent: nomen quod pluraliter dicitur, pluraliter etiam declinatur.\n\nSecundum: nomina ipsa historiam testificantur. Ubi nomen oppidi verbum pontis aut vadi continet, nomen testificatur ibi olim flumen transiri potuisse. Ubi nomen verbum fori continet, testificatur mercatum ibi habitum esse, etiamtum cum nullum oppidum circa esset. Multa oppida iamdudum maiora facta sunt quam pons aut forum unde nomen acceperunt, sed nomen memoriam servat.\n\nEtiam tabula mea aetatem suam testificatur. Cum picta esset, ferrovia inter Neapolim et Romam etiamtum nondum perfecta erat; itaque in tabula via vetus tantum apparet, nulla linea ferri. Etiamtum enim viatores per eam viam curribus vehebantur, et iter multos dies durabat. Quod postilla mutatum est, tabula nova ostendit, et discipuli in ea quaerunt quantum mutatum sit.\n\nTertium: in libris veteribus peregrinationum, quos antiquarii nunc vendunt, descriptiones urbium saepe anaphora ornantur. Scriptor quidam saeculi XIX de urbe nostra sic scripsit: «Hic portus, hic mons ardens, hic mare caeruleum, hic vita quae numquam quiescit.» Vocabulum hic quater in initio repetitur: haec est anaphora. Anaphora lectorem quasi per manum ducit, ceu dux qui digito loca singula monstrat.\n\nNomina in tabula mea, parvis litteris scripta, ceu stellae per campos et montes sparsa sunt, et flumina ceu fila caerulea per valles currunt. Qui ea legere scit, non solum viam invenit, sed etiam historiam et linguam. Sic tabula quae iamdudum in muro pendet mihi cotidie aliquid novi docet.\n\nQuaestiones:\nQuae nomina urbium pluraliter dicuntur?\nAthenae, Venetiae, Pisae et Thebae pluraliter dicuntur.\nCur haec nomina pluraliter dicuntur?\nQuia olim plures vicos aut incolas ipsos significabant.\nQuid nomen quod verbum pontis continet testificatur?\nTestificatur ibi olim flumen transiri potuisse.\nQuid discipuli de nominibus pluralibus faciunt?\nPrimo rident, sed postilla regulam facile tenent.\nQuid est anaphora?\nAnaphora est cum vocabulum idem in initio sententiarum repetitur, ut hic in descriptione urbis.\nQuid tabula Messiae docet?\nDocet non solum viam, sed etiam historiam et linguam."
+    },
+    {
+      "title": "In horto botanico",
+      "summary": "A gardener drawing the new plan of Padua's botanical garden shows a visitor how to tell marsh mallow from common mallow and points out next year's catkins.",
+      "newWords": [
+        "althaea",
+        "dinosco",
+        "superne",
+        "calyx",
+        "iulus",
+        "praeterquam",
+        "derepente"
+      ],
+      "text": "Baebia in horto botanico Patavii hortulana est. Hortus antiquissimus est, saeculo XVI conditus, et hoc anno Baebia tabulam eius novam parat, quia multae areae mutatae sunt. Mense Septembri, cum per hortum cum charta et stilo ambularet, Calidius, qui ex alia urbe venerat, eam rogavit ubi althaeam inveniret. In libro de herbis legerat althaeam radice sua olim tussim lenivisse, et eam ipse videre volebat.\n\nBaebia eum ad aream umidam prope fontem duxit. Ibi althaea alta crescebat, foliis mollibus et floribus pallide roseis; iuxta eam malva vulgaris stabat. Calidius primo althaeam a malva dinoscere non poterat, nam flores utriusque similes erant.\n\n«Duobus modis eas dinoscimus», explicavit Baebia. «Primum folia tange. Folia althaeae superne et subtus mollia et cana sunt, quasi lana tecta; folia malvae superne viridia et levia sunt.» Calidius folia tetigit et differentiam statim sensit.\n\n«Deinde calycem inspice», perrexit Baebia. «Calyx est corona viridis sub flore, quae florem clausum tegebat. Sub calyce althaeae alter calyx minor est, novem partibus divisus; malva calycem minorem tribus tantum partibus habet. Etiam post florem calyx manet et semina tegit.» Calidius calycem utriusque herbae numeravit et rem dinoscere didicit.\n\nDum loquuntur, derepente nubes solem texit et pluere coepit. Sub porticum confugerunt, ubi Baebia tabulam suam ostendit. In ea omnes areae notatae erant, praeterquam paucae quas nondum descripserat. «Areas novas iam pinxi, praeterquam eam ubi althaea crescit», inquit ridens. «Hodie igitur eam, te monente, pingam.»\n\nPrope porticum corylus stabat. Calidius in ramis eius parvos cylindros clausos vidit. «Hi sunt iuli», explicavit Baebia. «Iuli iam aestate exeunte formantur, per totam hiemem clausi manent, et vere demum aperiuntur, cum pulvis eorum flavus vento fertur. Qui iulos mense Septembri videt, ver proximum iam videt.»\n\nDerepente pluvia cessavit, et sol iterum apparuit. Baebia in tabula aream althaeae pinxit, et prope portam parvam imaginem coryli cum iulis addidit. Calidius in turrem horti ascendit, unde hortus superne totus apparet, et areas cum tabula comparavit.\n\nQuaestiones:\nCur Calidius althaeam videre volebat?\nQuia in libro legerat althaeam radice sua olim tussim lenivisse.\nQuomodo folia althaeae a foliis malvae dinoscuntur?\nFolia althaeae superne et subtus mollia et cana sunt, folia malvae superne viridia et levia.\nQuid est calyx?\nCalyx est corona viridis sub flore, quae florem clausum tegebat.\nQuid derepente factum est, dum loquuntur?\nDerepente nubes solem texit et pluere coepit.\nQuae areae in tabula Baebiae nondum notatae erant?\nOmnes areae notatae erant, praeterquam paucae, inter quas area althaeae.\nQuando iuli aperiuntur?\nIuli vere demum aperiuntur, cum pulvis eorum vento fertur."
+    },
+    {
+      "title": "Focarius in refugio",
+      "summary": "A tired hiker who lost the path in fog reaches a mountain hut, where the cook relieves her of her pack, feeds her lentil stew and sourdough bread and shows her the right path on the wall map.",
+      "newWords": [
+        "focarius",
+        "provisor",
+        "relevo",
+        "pulmentum",
+        "fermentum",
+        "demagis"
+      ],
+      "text": "Oppius per aestatem in refugio montano supra Bellunum focarius est. Refugium alte inter saxa situm est; nulla via autocinetis eo ducit, et omnia quibus culina eget fune ferreo e valle sursum vehuntur. Oppius igitur non solum focarius, sed etiam provisor est: singulis hebdomadibus computat quantum farinae, lentium, casei et olei opus sit, et res e valle petit antequam desint. «Bonus provisor», ut ipse dicit, «tempestatem non exspectat, sed praevidet.»\n\nQuodam vespere Didia ad refugium pervenit, fessa et madida. In nebula semitam amiserat et duas horas per saxa erraverat. Sacculus eius magnus et gravis erat. Oppius statim ad ianuam venit, sacculum ab umeris eius sublatum in sella posuit, et hoc modo umeros eius statim relevavit.\n\n«Sede», inquit focarius, «pulmentum calidum fatigationem relevat.» Ex olla magna pulmentum lentium cum cepis et herbis montanis hausit et Didiae apposuit. Pulmentum Didiae demagis placuit; numquam, ut dixit, cibum tam simplicem tam libenter ederat.\n\nCum pulmento panem attulit, quem ipse coxerat. Panis acidus et odoratus erat. «Panem fermento vetere facio», explicavit Oppius. «Fermentum, quod in vase servo, iam decem annos vivit; cotidie farina et aqua alitur, et per totam hiemem in valle apud me manet.» Didia de fermento multa rogavit, et Oppius parvam fermenti partem in vasculo ei dedit, ut domi quoque panem tali modo coqueret.\n\nPost cenam Oppius eam ad tabulam magnam duxit, quae in muro refugii pendebat. Digito semitam ostendit qua Didia venire debuisset, et locum ubi eam amiserat: ubi semita in duas partes dividitur, signum album et rubeum a nive pridem deletum erat. «Hoc signum cras renovabo», inquit Oppius, «nam provisor non solum de cibo, sed etiam de viatoribus cogitat.» Didiae etiam semitam brevem et tutam ostendit, qua mane in vallem descendere posset.\n\nDidia, sub lodice in lectulo iacens, demagis gaudebat quod tam bonum refugium invenisset. Oppius quoque demagis contentus erat, quod viatrix fessa iterum ridebat. Postero mane, umeris relevatis et pane in sacculo, per semitam ab Oppio ostensam descendit.\n\nQuaestiones:\nCur Oppius etiam provisor est?\nQuia computat quantum cibi opus sit et res e valle petit antequam desint.\nQuid Oppius fecit cum Didia pervenisset?\nSacculum ab umeris eius sublatum in sella posuit, ut umeri eius relevarentur, et pulmentum calidum ei apposuit.\nQuid erat pulmentum?\nPulmentum erat ex lentibus cum cepis et herbis montanis.\nQuomodo Oppius fermentum servat?\nFermentum in vase servat, et cotidie farina et aqua alitur.\nCur Didia semitam amiserat?\nQuia in nebula erraverat et signum ubi semita dividitur a nive deletum erat."
+    },
+    {
+      "title": "Pompa per vias Perusiae",
+      "summary": "A band leader in Perugia plans her band's parade route on the town map, from the square to the theatre, while her cymbal player fusses over his hair pomade.",
+      "newWords": [
+        "charisma",
+        "inclaresco",
+        "cymbalum",
+        "capillare",
+        "solemniter",
+        "exodium",
+        "beatitas"
+      ],
+      "text": "Tadia catervam musicorum Perusiae ducit, quae per triginta annos in festis oppidi canit. Tadia magistra musicae est, et charisma eius tantum est ut musici eam libenter sequantur, etiam cum per vias ascendentes et calore aestatis incedunt. Charisma, ut ipsa ridens dicit, nihil aliud est quam gaudium quod alios afficit. Caterva paulatim per totam regionem inclaruit, et postquam anno praeterito in televisione apparuit, etiam extra Italiam inclarescere coepit.\n\nHoc anno caterva in festo musicae, quod quotannis aestate fit, pompam ducere debet, a foro maximo usque ad theatrum, ubi vespere comoedia agitur. Tadia tabulam oppidi in mensa explicavit et iter cum Egnatio, qui cymbala pulsat, deliberavit. Perusia enim in colle sita est, et viae eius saepe arduae sunt. «Cymbala gravia sunt», monuit Egnatius, «nec per gradus ascendere possum dum ea pulso.» Itaque Tadia iter longius sed planius elegit, quod gradus vitat, et in tabula linea viridi notavit.\n\nEgnatius in caterva clarus est non solum propter cymbala, sed etiam propter capillos. Ante omnem pompam capillare adhibet, ut capilli eius etiam in vento nitidi maneant. Hoc anno tam multum capillare adhibuit ut, cum sub sole staret, caput eius ceu speculum fulgeret. Tadia ridens monuit ut capillare modice adhiberet, ne cymbala manibus unctis elaberentur.\n\nHora sexta caterva in foro convenit. Tadia baculum solemniter sustulit, et musici solemniter incedere coeperunt. Tubae canebant, tympana sonabant, cymbalum Egnatii singulis cantibus finem clarum dabat. Spectatores in fenestris et per vias stabant, et pueri post catervam saltabant. Beatitas in vultibus omnium apparebat; beatitas, ut Tadia postea dixit, est praemium maius quam ullus plausus.\n\nAd theatrum pervenerunt paulo ante comoediam. Post comoediam exodium breve et iocosum agi solet, in quo actores populum ridere faciunt. Hoc anno actores catervam rogaverant ut in exodio canerent; itaque Egnatius in scaena cymbala tam fortiter pulsavit ut totum theatrum risu et plausu sonaret. Exodium sine cymbalo, ut actores dixerunt, iam cogitari non potest.\n\nQuaestiones:\nCur musici Tadiam libenter sequuntur?\nQuia charisma eius magnum est, quod est gaudium quod alios afficit.\nCur Tadia iter longius sed planius elegit?\nQuia cymbala gravia sunt et Egnatius per gradus ea pulsans ascendere non potest.\nCur Egnatius capillare adhibet?\nUt capilli eius etiam in vento nitidi maneant.\nQuomodo caterva inclaruit?\nPer totam regionem paulatim inclaruit, et postquam in televisione apparuit, etiam extra Italiam inclarescere coepit.\nQuomodo pompa incepit?\nTadia baculum solemniter sustulit, et musici solemniter incedere coeperunt.\nQuid in vultibus spectatorum apparebat?\nBeatitas in vultibus omnium apparebat.\nQuid est exodium?\nExodium est fabula brevis et iocosa quae post comoediam agitur."
+    },
+    {
+      "title": "Duae tabulae in ripa Padi",
+      "summary": "Two friends cycle along the Po from Cremona to Piacenza, one trusting a spotless paper map and the other his phone, and settle on using both.",
+      "newWords": [
+        "immaculatus",
+        "quadragies",
+        "sexagies",
+        "somniculosus",
+        "conciliatio"
+      ],
+      "text": "Cestius et Acilius, amici veteres, birotis a Cremona Placentiam per ripam Padi iter facere constituerunt. Cestius tabulam chartaceam novam emerat, immaculatam, quam diligenter plicatam in sacculo portabat; Acilius in telephono tabulam habebat quae locum eorum per satellites computat. Uterque suam tabulam meliorem esse putabat.\n\nMane per aggerem fluminis vehebantur. Acilius telephonum identidem inspiciebat; Cestius computavit eum ante meridiem telephonum quadragies inspexisse. «Quadragies iam inspexisti», inquit, «et flumen tamen semper ad sinistram est.» Acilius respondit telephonum locum eorum sexagies in hora renovare, et eum scire velle quot chiliometra iam confecissent.\n\nFlumen latum et tranquillum ad sinistram fluebat; ad dextram campi frumenti et longi ordines arborum se extendebant. Aves albae in ripa stabant et, cum birotae appropinquabant, lente avolabant. Cestius saepe constitit ut tabulam explicaret et nomina vicorum cum signis viae compararet; Acilius autem sine mora pergere volebat et telephono tantum credebat.\n\nCirca meridiem ad vicum parvum et somniculosum pervenerunt, ubi canis vetus in umbra dormiebat et nemo per vias ambulabat. In taberna sola prandium sumpserunt, et post prandium ipsi quoque somniculosi erant. Parumper in umbra sederunt.\n\nDeinde ad bivium pervenerunt. Telephonum viam rectam per agros monstrabat, quae brevior erat; tabula Cestii semitam per aggerem ostendebat, longiorem sed sine autocinetis. Acilius dixit telephonum sexagies in hora rem computare, tabulam chartaceam numquam. Cestius respondit tabulam viam totam simul ostendere, telephonum tantum parvam partem. Paulisper disputabant.\n\nTandem conciliatio facta est. Acilius in tabula Cestii vidit viam per agros a vehiculis magnis frequentari, quod telephonum non dicebat; Cestius in telephono Acilii vidit quot chiliometra adhuc deessent, quod tabula sola non facile monstrabat. Conciliatio simplex erat: tabula chartacea ad iter eligendum, telephonum ad locum certum inveniendum. Haec conciliatio utrique placuit, et per aggerem Placentiam pervenerunt.\n\nVespere, in hospitio, Cestius tabulam explicavit. Iam non immaculata erat: pulvere et sudore notata, ad plicas detrita, et in ea Acilius ipse stilo iter totum signaverat. Cestius dixit tabulam immaculatam se minus delectare quam hanc, quae iter eorum testificaretur.\n\nQuaestiones:\nQuam tabulam Cestius emerat?\nTabulam chartaceam novam et immaculatam emerat.\nQuotiens Acilius ante meridiem telephonum inspexit?\nQuadragies telephonum inspexit.\nQuotiens telephonum Acilii locum eorum renovat?\nSexagies in hora locum renovat.\nQualis erat vicus ubi prandium sumpserunt?\nVicus parvus et somniculosus erat, ubi canis vetus in umbra dormiebat.\nQuae conciliatio inter amicos facta est?\nTabula chartacea ad iter eligendum, telephonum ad locum certum inveniendum adhibebatur.\nCur tabula vespere non iam immaculata erat?\nQuia pulvere et sudore notata et ad plicas detrita erat."
+    }
+  ]
+}
