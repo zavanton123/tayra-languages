@@ -1,0 +1,206 @@
+{
+  "id": "tl-mini-9100",
+  "rankUpTo": 9100,
+  "level": "C2",
+  "title": "Kimika at mga materyales",
+  "description": "Ten stories and columns about the chemistry of everyday materials: onions, zinc on a pier, a gecko's foot, self-healing concrete, cacao tablets, organ pipes, mercury, lemongrass oil, ceramic tiles and fire.",
+  "topic": "Chemistry and materials",
+  "names": [
+    "Sabado",
+    "Bernarda",
+    "Tagbilaran",
+    "Ildefonso",
+    "Sumalpong",
+    "Marso",
+    "Hunyo",
+    "Dumaguete",
+    "Ursula",
+    "Magbanua",
+    "Althea",
+    "Los Baños",
+    "Dr. Quintos",
+    "Quintos",
+    "Iloilo",
+    "Marilou",
+    "Gumban",
+    "Jayson",
+    "Eulogia",
+    "Batangas",
+    "Czarina",
+    "Maynila",
+    "Europa",
+    "Dr. Madrigal",
+    "Placido",
+    "Madrigal",
+    "Consorcia",
+    "Jennylyn",
+    "Mindoro",
+    "Martes",
+    "Lorelie",
+    "Maybelle",
+    "Camiguin",
+    "Bukidnon",
+    "Primitivo",
+    "Sumagaysay",
+    "Clarisse",
+    "Bacolod",
+    "Visayas",
+    "Cebu",
+    "Singapore",
+    "Danica",
+    "Davao",
+    "Dr. Quisumbing",
+    "Verna",
+    "Quisumbing"
+  ],
+  "lessons": [
+    {
+      "title": "Bakit tayo naluluha sa sibuyas",
+      "summary": "A retired chemistry teacher explains in a newspaper column why onions bring tears and which two simple tricks really help.",
+      "newWords": [
+        "maluha",
+        "mumunti",
+        "kisapmata",
+        "mailantad",
+        "damahin",
+        "pandamdam",
+        "kisap",
+        "lahatin"
+      ],
+      "text": "Tuwing Sabado, ako ang nagluluto sa aming bahay, at tuwing Sabado rin ay naluluha ako sa harap ng sangkalan. Walang masamang balita; sibuyas lamang ang dahilan. Bilang dating guro ng kimika, matagal ko nang alam ang paliwanag, ngunit natutuwa pa rin ako tuwing naiisip ko ito, kaya ibabahagi ko sa kolum na ito.\n\nAng sibuyas ay binubuo ng libo-libong mumunting selula. Sa loob ng mga mumunting silid na ito, magkahiwalay na nakatago ang 2 bagay: isang sangkap na may asupre at isang uri ng protina na nagpapabilis ng reaksiyon. Hangga't buo ang sibuyas, hindi sila nagtatagpo. Ngunit pagdampi ng kutsilyo, nasisira ang mga selula at naghahalo ang dalawa. Sa isang kisapmata, nabubuo ang isang bagong kemikal na madaling maging gas. Kailangan lamang itong mailantad sa hangin, at lumulutang na ito pataas, diretso sa ating mukha.\n\nSubukan ninyong damhin ang kasunod sa susunod ninyong paghiwa. Una, may bahagyang hapdi. Napakatalas ng pandamdam sa ibabaw ng mata, at kaunting gas lamang ang kailangan upang magpadala ito ng babala sa utak. Sa isa pang kisapmata, bumibilis ang pagkisap ng mga talukap. Bawat kisap ay parang pampunas sa salamin ng kotse. Kapag hindi pa ito sapat, naglalabas ang katawan ng luha, at doon na ako tuluyang naluluha. Hindi ito damdamin kundi depensa. Ang pandamdam ng mata ang nagbabantay, at ang luha ang naghuhugas.\n\nHuwag naman nating lahatin ang mga sibuyas. May matatamis na uri na kaunti ang asupre, at halos hindi ka maluluha sa mga ito. Huwag din nating lahatin ang mga payong naririnig natin. Sabi ng kapitbahay kong si Aling Bernarda, kumagat daw ng tinapay habang humihiwa. Natutuwa ako sa payong iyan, pero wala akong makitang dahilan kung bakit titigil ang gas dahil sa tinapay.\n\nMay 2 simpleng paraan na may paliwanag sa kimika. Una, palamigin ang sibuyas nang 30 minuto bago hiwain: sa lamig, mas mabagal ang reaksiyon, at kahit mailantad sa hangin ang hiniwang sibuyas, kaunti lamang ang gas. Ikalawa, gumamit ng matalas na kutsilyo: hinahati nito ang mga selula sa halip na dinudurog, kaya mas kaunti ang nasisira.\n\nSinubukan ko ang dalawa noong nakaraang Sabado. Malamig ang sibuyas at bagong hasa ang kutsilyo. Sinubukan kong damhin ang dating hapdi, ngunit halos wala na ito, at hindi ako naluha. Nang ikuwento ko ito kay Aling Bernarda, tumawa siya at sinabing tinapay pa rin ang kakagatin niya. Sige. Masarap din naman ang tinapay.\n\nMga tanong:\nGaano kabilis nabubuo ang bagong kemikal?\nNabubuo ito sa isang kisapmata, pagkahalo ng 2 bagay sa loob ng selula.\nAno ang 2 bagay na magkahiwalay sa loob ng mga selula ng sibuyas?\nIsang sangkap na may asupre at isang uri ng protina ang magkahiwalay sa loob ng mga mumunting selula.\nAno ang nangyayari sa bagong kemikal kapag nailantad ito sa hangin?\nNagiging gas ito at lumulutang pataas, diretso sa ating mukha.\nAno ang dapat damhin ng mambabasa sa susunod na paghiwa?\nDapat niyang damhin ang bahagyang hapdi, ang mabilis na pagkisap ng mata at ang pagdating ng luha.\nBakit hindi dapat lahatin ang mga sibuyas?\nDahil may matatamis na uri na kaunti ang asupre, at halos hindi ka maluluha sa mga ito.\nAnong 2 paraan ang may paliwanag sa kimika?\nPalamigin ang sibuyas bago hiwain at gumamit ng matalas na kutsilyo."
+    },
+    {
+      "title": "Ang sink sa paa ng piyer",
+      "summary": "An engineer in Tagbilaran doubts a new lot of imported zinc blocks that protect a pier's steel posts, has one tested in Dumaguete and gets the lot replaced.",
+      "newWords": [
+        "piyer",
+        "luwas",
+        "kasiraan",
+        "episyente",
+        "pag-angkat",
+        "partida",
+        "kaduda-duda",
+        "bitbitin"
+      ],
+      "text": "Sa dulo ng mahabang piyer ng Tagbilaran, daan-daang posteng bakal ang nakababad sa dagat. Dito dumaraan ang luwas ng buong lalawigan: mangga, basket, mga sako ng asin at mga kahon ng isda. Kapag nagkaroon ng kasiraan ang piyer, titigil ang luwas, at mararamdaman ito ng bawat magsasaka at mangingisda sa isla. Kaya mabigat ang tungkulin ni Ildefonso Sumalpong, ang inhinyerong nangangalaga sa mga poste.\n\nAlam ni Ildefonso ang kimika ng kalawang. Sa tubig-alat, madaling nawawalan ng elektron ang bakal, at iyon ang simula ng kasiraan. Ngunit may paraan upang maprotektahan ito. Sa bawat poste, nagkakabit siya ng makapal na bloke ng sink. Mas madaling bumitiw ng elektron ang sink kaysa sa bakal, kaya ang sink ang unti-unting nauubos sa halip na ang poste. Kapag episyente ang sink, ilang taon itong tumatagal, at halos walang kalawang ang bakal.\n\nWalang gumagawa ng ganitong bloke sa kanilang isla, kaya umaasa sila sa pag-angkat. Noong Marso, dumating mula sa isang bagong tagapagtustos ang isang partida ng 200 bloke na mas mura nang kaunti kaysa sa dati. Ikinabit ang buong partida bago sumapit ang Hunyo.\n\nPagkaraan ng 6 na buwan, lumusong ang isang maninisid upang tingnan ang mga ito. Mukhang maganda ang balita: halos buo pa ang mga bloke. Ngunit para kay Ildefonso, kaduda-duda ang ganitong kabutihan. Ang sink na hindi nauubos ay sink na hindi nagtatrabaho. Bukod dito, may puting balat ang bawat bloke, at may mga bagong mantsa ng kalawang sa mga poste.\n\nIpinaiahon niya ang isang bloke at pinutol ito. “Bitbitin ko na lang ang isang piraso,” sabi niya. Binitbit niya ito sa kaniyang bag, at sumakay siya ng barko patungong Dumaguete, kung saan may laboratoryo ang isang unibersidad. Sinuri ito ng kimikong si Ursula Magbanua. Sa loob ng 2 araw, may sagot na siya: halos 10 ulit na mas marami kaysa sa dapat ang bakal na nakahalo sa sink.\n\n“Kaduda-duda nga ang partidang ito,” sabi ni Ursula. “Dahil sa bakal, nabubuo ang puting balat na tumatakip sa sink. Hindi na makalabas ang mga elektron, kaya hindi na ito episyente.”\n\nIpinakita ni Ildefonso ang ulat sa tagapagtustos, at pumayag itong palitan ang buong partida. Mula noon, sa bawat pag-angkat, isang piraso ang binibitbit niya sa laboratoryo bago ikabit ang mga bloke. Hindi ito mabigat na bitbitin. Mas mabigat ang kasiraan ng isang buong piyer.\n\nPagkaraan ng 1 taon, lumusong muli ang maninisid. Bahagyang nauubos na ang mga bagong bloke, at malinis ang mga poste. Sa itaas nila, patuloy ang pagkarga ng luwas sa mga barko.\n\nMga tanong:\nBakit mahalaga ang piyer sa mga tao ng isla?\nDahil dito dumaraan ang luwas ng lalawigan, at titigil ito kapag may kasiraan ang piyer.\nBakit nagkakabit si Ildefonso ng sink sa mga poste?\nDahil mas madaling bumitiw ng elektron ang sink, kaya ito ang nauubos sa halip na ang bakal.\nBakit kaduda-duda para kay Ildefonso ang mga blokeng halos buo pa?\nDahil ang sink na hindi nauubos ay sink na hindi nagtatrabaho.\nAno ang nakita ni Ursula sa piraso ng sink?\nNakita niyang halos 10 ulit na mas marami kaysa sa dapat ang bakal na nakahalo rito, kaya hindi na episyente ang sink.\nAno ang ginagawa ni Ildefonso ngayon sa bawat pag-angkat?\nIsang piraso ang binibitbit niya sa laboratoryo bago ikabit ang mga bloke."
+    },
+    {
+      "title": "Ang paa ng tuko",
+      "summary": "A materials student in Los Baños copies a gecko's foot in rubber for her thesis and learns to defend her results calmly before a sharp-tongued professor.",
+      "newWords": [
+        "tuko",
+        "matrikula",
+        "sapantaha",
+        "hawla",
+        "magpatulong",
+        "depensahan",
+        "depensibo"
+      ],
+      "text": "May tuko sa kisame ng inuupahang kuwarto ni Althea sa Los Baños, at gabi-gabi niya itong pinagmamasdan habang nag-aaral. Nasa huling taon siya ng kurso tungkol sa mga materyales. Nagtuturo siya ng kimika sa mga bata tuwing Sabado upang mabayaran ang kaniyang matrikula, at kapag hindi niya matapos ang tesis ngayong semestre, isa pang matrikula ang kailangan niyang hanapin. Isang gabi, naitanong niya sa sarili: paano nakakapit ang tuko sa kisame nang walang anumang pandikit?\n\nAyon sa mga pag-aaral, milyon-milyong mumunting buhok ang nasa paa nito. Napakaliit ng dulo ng bawat buhok, kaya halos nagtatagpo ang mga molekula nito at ang mga molekula ng pader. Mahina ang hilahan ng isang pares ng molekula, ngunit malakas kapag milyon-milyon. Dito nagmula ang sapantaha ni Althea: kung gagawa siya ng goma na may mumunting haligi, kakapit ito sa salamin nang walang pandikit, at mas lalakas ang kapit kung mas maliit ang mga haligi.\n\nUpang masukat ang kapit ng tunay na paa, humuli siya ng isang tuko at inilagay ito sa isang maliit na hawla na may sanga at mga kulisap. Sa loob ng 2 linggo, inilalabas niya ito mula sa hawla at sinusukat kung gaano kabigat ang kaya nitong hawakan sa salamin. Pagkatapos ng huling sukat, binuksan niya ang hawla sa may bintana, at umakyat ang tuko pabalik sa kisame.\n\nHindi niya kayang gumawa ng napakaliit na hulma nang mag-isa. Nahihiya siyang magpatulong, pero sa huli, nagpatulong siya sa isang teknisyan na gumagawa ng pustiso, dahil sanay ito sa pinong hulma. “Walang masama sa magpatulong,” sabi ng teknisyan.\n\nDumating ang araw na dedepensahan niya ang tesis. Nasa harap niya si Dr. Quintos, na kilala sa buong kolehiyo bilang mahigpit. Mahigpit siyang magtanong: walang ngiti at walang paligoy.\n\n“Sa 3 sukat mo, 2 lang ang sumusuporta sa iyong sapantaha,” sabi nito. “Bakit ko paniniwalaan ito?”\n\nNaging depensibo agad si Althea. “Tama po ang mga sukat ko!” sagot niya. Pagkatapos ay huminto siya. Naalala niya ang payo ng kaniyang guro: kapag depensibo ka, hindi ka pinakikinggan, kahit tama ka. Huminga siya nang malalim.\n\n“May punto po kayo. Sa pinakamaliit na haligi, humina ang kapit, taliwas sa aking sapantaha. Sa palagay ko, nagdikit-dikit ang mga haligi kapag masyadong maliit. Heto po ang mga litrato.”\n\nDinepensahan niya ang kaniyang konklusyon sa pamamagitan ng mga datos, hindi ng mas malakas na boses. Tumango ang mahigpit na propesor. “Iyan ang gusto kong marinig,” sabi nito. Nang gabing iyon, mahaba ang tulog ni Althea, at naroon pa rin ang tuko sa kisame.\n\nMga tanong:\nPaano binabayaran ni Althea ang kaniyang matrikula?\nNagtuturo siya ng kimika sa mga bata tuwing Sabado.\nAno ang sapantaha ni Althea?\nNa kakapit sa salamin ang goma na may mumunting haligi, at mas lalakas ang kapit kung mas maliit ang mga haligi.\nBakit inilagay niya sa hawla ang tuko?\nUpang masukat niya ang kapit ng tunay na paa.\nKanino siya nagpatulong, at bakit?\nNagpatulong siya sa isang teknisyan na gumagawa ng pustiso, dahil sanay ito sa pinong hulma.\nPaano niya dinepensahan ang kaniyang konklusyon matapos maging depensibo?\nInamin niyang may punto ang propesor at ipinakita niya ang mga litrato at datos."
+    },
+    {
+      "title": "Ang bitak na naghihilom",
+      "summary": "An engineer in Iloilo mixes hollow clay beads with sleeping bacteria into concrete, so that small cracks close by themselves when water enters.",
+      "newWords": [
+        "giba",
+        "samot-sari",
+        "dakot",
+        "lalang",
+        "maghilom",
+        "hungkag",
+        "maglahok",
+        "makapagpaparami"
+      ],
+      "text": "Sa likod ng isang lumang palengke sa Iloilo, nakatambak ang giba ng isang gusaling 60 taong gulang. Samot-sari ang laman ng tambak: mga tipak ng semento, sirang ladrilyo, kalawanging bakal at mga piraso ng bintana. Dumampot si Inhinyera Marilou Gumban ng isang dakot ng durog na semento at pinagmasdan ito sa kaniyang palad.\n\n“Hindi malakas na lindol ang dahilan kung bakit naging giba ang gusaling ito,” sabi niya sa kaniyang estudyanteng si Jayson. “Maliliit na bitak lang. Pumasok ang tubig, kinalawang ang bakal sa loob, at humina ang lahat.”\n\nAng semento ay lalang ng tao. Hindi ito tulad ng balat o ng buto, na kusang gumagaling. Ngunit paano kung matutong maghilom ang isang bagay na lalang ng tao? Iyan ang proyekto ni Marilou sa unibersidad.\n\nSa kaniyang laboratoryo, may garapon siya ng maliliit na butil ng luwad. Hungkag ang bawat butil. Sa hungkag na puwang sa loob, may 2 bagay: tulog na bakterya, na kayang manatiling buhay nang maraming taon, at pagkain nito, isang asin na may kalsiyum. Samot-saring bakterya ang sinubukan niya bago niya napili ang uring kayang mabuhay sa semento. Naglalahok siya ng isang dakot ng mga butil sa bawat timba ng basang semento. Madali ang paglalahok, ngunit kailangan ang tamang dami: kapag sobra ang butil, humihina ang semento.\n\nHabang tuyo at buo ang semento, walang nangyayari. Ngunit kapag nagkaroon ng bitak, nababasag din ang mga butil na nadaanan nito. Pumapasok ang tubig, at nagigising ang bakterya. Kumakain ito, nakapagpaparami, at naglalabas ng gas na humahalo sa kalsiyum. Ang resulta ay apog, ang puting bato na makikita rin sa mga kabibe. Unti-unting tumutubo ang mga kristal ng apog sa loob ng bitak hanggang sa magsara ito. Kapag wala nang tubig na pumapasok, hindi na makapagpaparami ang bakterya, at muli itong natutulog. Kaya kusang humihinto ang paghilom kapag tapos na ang trabaho.\n\nSinubukan nila ito ni Jayson sa 30 bloke. Sa kalahati, naglahok sila ng mga butil, at sa kalahati ay wala. Binitak nila nang bahagya ang lahat ng bloke at dinaluyan ng tubig. Sa unang araw, tumagos ang tubig sa lahat. Pagkaraan ng 4 na linggo, patuloy na tumatagos ang tubig sa mga blokeng walang butil, samantalang halos tuyo na ang ilalim ng mga blokeng may butil. Sa ilalim ng mikroskopyo, puno ng puting kristal ang kanilang mga bitak.\n\nHindi lahat ay kayang maghilom. Maliliit na bitak lamang ang nasasarhan, at mas mahal ang ganitong semento. Kaya sinabi ni Marilou na mga bahagi lamang na mahirap abutin ang dapat lagyan nito, gaya ng ilalim ng tulay.\n\nBumalik sila sa tambak bago umuwi. Kumuha muli si Marilou ng isang dakot. “Kung may ganitong butil lang ang gusaling ito,” sabi niya, “baka nakatayo pa ito ngayon.”\n\nMga tanong:\nBakit hindi kusang gumagaling ang semento?\nDahil lalang ito ng tao, hindi tulad ng balat o ng buto.\nBakit naging giba ang lumang gusali?\nDahil pumasok ang tubig sa maliliit na bitak, kinalawang ang bakal sa loob, at humina ang lahat.\nAno ang nasa loob ng mga hungkag na butil ng luwad?\nTulog na bakterya at ang pagkain nito, isang asin na may kalsiyum. Samot-saring bakterya ang sinubukan niya bago niya napili ang uring kayang mabuhay sa semento.\nAno ang ginagawa ng bakterya kapag pumasok ang tubig?\nKumakain ito, nakapagpaparami, at naglalabas ng gas na bumubuo ng apog sa loob ng bitak.\nBakit kusang humihinto ang paghilom?\nDahil kapag wala nang tubig, hindi na makapagpaparami ang bakterya at muli itong natutulog."
+    },
+    {
+      "title": "Ang puting patong sa tabliya",
+      "summary": "A grandmother in Batangas nearly loses a basket of cacao tablets to a white film until her granddaughter shows it is only cocoa fat, and the neighbours taste the proof.",
+      "newWords": [
+        "tabliya",
+        "pingga",
+        "bakol",
+        "pangaralan",
+        "sulitin",
+        "makasalang",
+        "magyaya",
+        "paupuin"
+      ],
+      "text": "Mahigit 50 taon nang gumagawa ng tabliya si Lola Eulogia sa isang bayan sa Batangas. Inihahaw niya ang mga buto ng kakaw, ginigiling ang mga ito, hinuhubog na maliliit na bilog, at pinatutuyo. Noong kabataan niya, naglalakad siya papunta sa palengke nang may pingga sa balikat, at sa bawat dulo ng pingga ay may nakabiting bakol na puno ng tabliya. Hanggang ngayon, ganoon pa rin siya magdala, kahit mas mabagal na ang kaniyang lakad.\n\nIsang tag-init, umuwi siya mula sa palengke na halos puno pa ang bakol. May puting patong na parang abo ang kaniyang mga tabliya. “Inaamag daw,” sabi niya sa kaniyang apo na si Czarina. “Walang bumili.”\n\nNagbabakasyon noon si Czarina, na nag-aaral ng agham ng pagkain sa Maynila. Tiningnan niya ang laman ng bakol. “Baka nga po amag, Lola. Itapon na lang po natin.”\n\nPinangaralan siya ng matanda. “Alam mo ba kung gaano katagal bago mamunga ang kakaw? Kung ilang araw ang ginugol ko sa pag-ihaw at paggiling? Hindi itinatapon ang pagkain nang hindi tinitingnan. Dapat sulitin ang bawat buto.” Hindi sumagot si Czarina. Tuwing pinangangaralan siya ng kaniyang lola, alam niyang tama ito.\n\nDinala niya ang isang tabliya sa kaniyang mesa at tiningnan sa maliit na mikroskopyo na dala niya mula sa paaralan. Walang sinulid ng amag. Ang nakita niya ay mga pinong kristal. Naalala niya ang aralin: halos kalahati ng buto ng kakaw ay taba. Kapag mainit ang panahon, natutunaw ang taba at umaakyat sa ibabaw ng tabliya. Kapag lumamig, namumuo itong muli bilang mga kristal na mukhang pulbos. Hindi ito sira. Taba lang ito na nag-iba ng puwesto.\n\n“Patunayan mo,” sabi ni Lola Eulogia.\n\nNagpakulo sila ng tubig. Habang nakasalang ang palayok, inilagay ni Czarina ang 5 tabliya at hinalo ang mga ito. Nawala ang puting patong. Lumapot ang tsokolate at bumango ang buong kusina. Nakasalang pa ang palayok nang lumabas ang matanda upang magyaya ng mga kapitbahay.\n\n“Paupuin mo sila sa mahabang bangko,” bilin niya kay Czarina. Nagyaya siya ng mga suki mula sa palengke, kasama ang nagsabing inaamag ang kaniyang tabliya, at ito ang pinaupo niya sa kaniyang tabi. Pinaupo ni Czarina ang iba, binigyan sila ng tasa, at ipinaliwanag niya ang tungkol sa taba at sa mga kristal. Tinikman nila ang tsokolate at humingi pa ang lahat. Kinabukasan, naubos ang laman ng bakol.\n\nMula noon, hindi na iniiwan sa araw ang tabliya. Itinatago ito ni Lola Eulogia sa malamig na tapayan, at sa umaga lamang inilalagay sa bakol, na may takip na dahon ng saging. Bago bumalik sa Maynila, sinulit ni Czarina ang huling linggo niya: natuto siyang gumawa ng tabliya mula sa simula. “Hindi na kita kailangang pangaralan,” sabi ng matanda.\n\nMga tanong:\nPaano dinadala ni Lola Eulogia ang tabliya sa palengke?\nDinadala niya ito sa bakol na nakabitin sa bawat dulo ng pingga sa kaniyang balikat.\nBakit pinangaralan ni Lola Eulogia si Czarina?\nDahil gusto nitong itapon ang tabliya nang hindi tinitingnan, at dapat sulitin ang bawat buto.\nAno ang puting patong sa tabliya?\nTaba ito ng kakaw na umakyat sa ibabaw at namuong muli bilang mga kristal.\nPaano napatunayan ni Czarina na hindi sira ang tabliya?\nTinunaw niya ito sa palayok na nakasalang, at nawala ang puting patong.\nSino ang nagyaya ng mga kapitbahay?\nSi Lola Eulogia ang nagyaya sa kanila upang tikman ang tsokolate.\nSaan na itinatago ang tabliya ngayon?\nSa malamig na tapayan, at sa umaga lamang ito inilalagay sa bakol."
+    },
+    {
+      "title": "Pagbabalik-tanaw ng isang organista",
+      "summary": "A retired organist recalls how new wooden cabinets made an old organ's pipes hoarse, how a chemist found the cause, and the concert that followed.",
+      "newWords": [
+        "pagbabalik-tanaw",
+        "organista",
+        "ikalabingwalo",
+        "osilasyon",
+        "magambala",
+        "lumbay",
+        "imbitado",
+        "masigabo"
+      ],
+      "text": "Nang magretiro ako noong nakaraang taon, hiniling ng konserbatoryo na sumulat ako ng maikling pagbabalik-tanaw tungkol sa aking 40 taon bilang organista. Inaasahan nilang musika ang laman nito. Ngunit sa aking pagbabalik-tanaw, isang pangyayari ang una kong naaalala, at tungkol ito sa kimika.\n\nAng organo ng aming konserbatoryo ay mula sa ikalabingwalong siglo. Binili ito sa isang kolektor sa Europa at inilagay sa aming bulwagan sa Maynila. Bihira ang organong mula sa ikalabingwalong siglo na tumutunog pa, kaya ipinagmamalaki ito ng bawat organista na nakatugtog dito. May 800 tubo ito na yari sa halo ng lata at tingga. Madalas kong ipaliwanag sa mga estudyante kung paano ito tumutunog: pumapasok ang hangin sa bibig ng tubo, at nagkakaroon ng osilasyon ang haligi ng hangin sa loob. Mabilis na osilasyon ang mataas na nota, at mabagal ang mababa. Kapag nagbago kahit kaunti ang hugis ng bibig ng tubo, nag-iiba ang osilasyon, at nag-iiba rin ang tunog.\n\nIsang taon, pinalitan ang mga lumang kabinet sa tabi ng organo ng mga bago, gawa sa sariwang kahoy na maganda at mabango. Makalipas ang ilang buwan, habang nag-eensayo, may narinig akong bagong tunog, parang boses na paos. Nagambala ako. Sinubukan kong huwag itong pansinin, ngunit nagambala ang bawat nota. Nang umakyat ako sa loob ng organo, nakita ko ang puting pulbos sa bibig ng mga tubo.\n\nIsinara namin ang organo nang ilang buwan. Hindi ko malilimutan ang lumbay ng mga buwang iyon. Pumupunta pa rin ako sa bulwagan tuwing umaga, umuupo sa harap ng mga teklado, at walang ginagawa. Kakaiba ang lumbay na iyon: parang may kaibigang hindi na sumasagot.\n\nTinawag namin si Dr. Placido Madrigal, isang kimiko sa kalapit na unibersidad. Pumasok siya sa silid at inamoy ang hangin. “Suka,” sabi niya, at akala ko ay nagbibiro siya. Hindi pala. Naglalabas ang sariwang kahoy ng kaunting asido, ang asido ring nasa suka. Sa saradong silid, unti-unti nitong kinakain ang tingga at ginagawang puting pulbos. Hindi namin ito naamoy dahil araw-araw kaming naroon.\n\nInalis namin ang mga kabinet at nagpasok ng sariwang hangin sa silid. Isa-isang nilinis ng mga bihasang manggagawa ang bawat tubo. Inabot ito ng halos isang taon, at sinikap naming hindi sila magambala.\n\nPagkatapos, nagdaos kami ng konsiyerto. Imbitado ang mga estudyante, ang mga manggagawa at ang mga kapitbahay. Imbitado rin si Dr. Madrigal, na noon lamang nakarinig ng organo nang ganoon kalapit. Nang matapos ang huling nota, sinundan ito ng masigabong palakpakan. Ngunit hindi ang masigabong palakpakan ang pinakanagpasaya sa akin. Sa buong konsiyerto, wala ni isang paos na tubo.\n\nMga tanong:\nAno ang hiniling ng konserbatoryo sa organista?\nHiniling nito na sumulat siya ng maikling pagbabalik-tanaw tungkol sa kaniyang 40 taon bilang organista.\nMula sa anong siglo ang organo?\nMula ito sa ikalabingwalong siglo.\nPaano tumutunog ang tubo ng organo?\nPumapasok ang hangin sa bibig ng tubo, at nagkakaroon ng osilasyon ang haligi ng hangin sa loob.\nAno ang naramdaman ng organista habang sarado ang organo?\nLumbay ang naramdaman niya, na parang may kaibigang hindi na sumasagot.\nBakit nagkaroon ng puting pulbos ang mga tubo?\nDahil naglabas ang sariwang kahoy ng asido na kumain sa tingga.\nSino ang imbitado sa konsiyerto?\nImbitado ang mga estudyante, ang mga manggagawa, ang mga kapitbahay at si Dr. Madrigal, at masigabong palakpakan ang ibinigay nila."
+    },
+    {
+      "title": "Ang mga butil ng asoge",
+      "summary": "When an old mercury thermometer breaks at a health centre in Mindoro, a midwife calmly clears the room, gathers the beads and starts a collection for the whole village.",
+      "newWords": [
+        "komadrona",
+        "sakitin",
+        "asoge",
+        "mag-iwas",
+        "maglikas",
+        "basyo",
+        "kubeta",
+        "magpaskil"
+      ],
+      "text": "Mahigit 30 taon nang komadrona si Aling Consorcia sa isang sentrong pangkalusugan sa Mindoro. Tuwing Martes, tinitimbang niya ang mga sanggol at tinitingnan ang mga sakiting bata ng barangay. Sa kaniyang aparador, nakatago pa ang isang lumang termometro na may asoge, regalo ng komadrona na nagturo sa kaniya.\n\nIsang Martes, kinuha ito ni Jennylyn, ang bagong katulong, upang linisin. Nadulas ito sa kaniyang kamay at nabasag sa sahig. Kumalat ang asoge sa mga mumunting butil na makintab at mabilis gumulong. Namula si Jennylyn at nag-iwas ng tingin.\n\n“Huwag kang mag-iwas ng tingin,” sabi ni Aling Consorcia nang mahinahon. “Kailangan ko ang mga mata mo. Bantayan mo kung saan gumulong ang mga butil.”\n\nPagkatapos ay humarap siya sa mga nakaupo sa silid: 2 ina na may mga sanggol, at isang lolo na may kasamang sakiting apo. “Lilipat po muna tayo sa kabilang silid,” sabi niya. Mabilis at walang gulo ang paglilikas. Naglikas muna sila ng mga sanggol, saka ng iba pa. Binuksan din nila ang mga bintana. Ipinaliwanag ni Aling Consorcia kay Jennylyn ang dahilan. Ang asoge lamang ang metal na likido sa karaniwang init ng silid. Dahan-dahan itong nagiging singaw na hindi nakikita at walang amoy, at mapanganib ang singaw na iyon sa mga ugat, lalo na ng mga sanggol at ng mga batang sakitin. Kaya ang unang gawain ay pag-iiwas: ilayo muna ang mga tao, saka maglinis.\n\nHindi siya gumamit ng walis, dahil lalo lamang nitong pinaghihiwa-hiwalay ang mga butil. Hindi rin niya hinawakan ang mga ito. Sa halip, nagsuot siya ng guwantes at gumamit ng 2 piraso ng karton upang pagsamahin ang mga butil. Kumuha si Jennylyn ng basyong garapon ng kape na may mahigpit na takip, at nilagyan ito ng kaunting tubig. Dumikit naman sa teyp ang pinakamaliliit na butil, at inilagay rin ang teyp sa basyo. Nag-iiwas pa rin ng tingin si Jennylyn nang isara niya ang takip, ngunit ngumiti sa kaniya ang komadrona.\n\n“Sa kubeta na lang po ba natin ito itatapon?” tanong ni Jennylyn.\n\n“Huwag sa kubeta,” sagot ng komadrona. “Ang itinatapon sa kubeta ay napupunta sa lupa at sa dagat, at doon naiipon sa katawan ng mga isda. Dadalhin natin ito sa munisipyo, na may lugar para sa ganitong basura.”\n\nNang gabing iyon, naisip niya na marami pa sigurong ganitong termometro sa mga bahay. Kinabukasan, nagpaskil sila sa pinto ng sentro ng isang malinaw na paalala: ano ang gagawin kapag may nabasag, at saan ito dadalhin. Nagpaskil din sila sa palengke at sa paaralan. Sa loob ng isang buwan, 37 lumang termometro ang dinala ng mga kapitbahay, marami sa loob ng basyong bote. Tumanggap sila ng mga bagong termometro na walang asoge, at si Jennylyn ang nagtala ng bawat isa.\n\nMga tanong:\nAno ang nabasag ni Jennylyn?\nNabasag niya ang lumang termometro na may asoge.\nBakit naglikas muna ng mga tao si Aling Consorcia?\nDahil mapanganib ang singaw ng asoge, lalo na sa mga sanggol at sa mga batang sakitin.\nAno ang unang gawain, ayon sa komadrona?\nPag-iiwas ang unang gawain: ilayo muna ang mga tao, saka maglinis.\nSaan nila inilagay ang mga butil ng asoge?\nInilagay nila ang mga ito sa basyong garapon ng kape na may mahigpit na takip.\nBakit sila nagpaskil sa pinto ng sentro?\nNagpaskil sila upang malaman ng mga tao ang gagawin kapag may nabasag, at kung saan ito dadalhin.\nBakit hindi ito dapat itapon sa kubeta?\nDahil napupunta ito sa lupa at sa dagat, at naiipon sa katawan ng mga isda."
+    },
+    {
+      "title": "Ang langis ng tanglad",
+      "summary": "Two sisters who run a hot-spring resort in Camiguin distil their own lemongrass oil for massages and steam, using a simple copper still.",
+      "newWords": [
+        "liwaliwan",
+        "maghaplos",
+        "tanglad",
+        "magkumpleto",
+        "tuod",
+        "talukbong",
+        "himbing"
+      ],
+      "text": "Sa paanan ng isang bulkan sa Camiguin, may maliit na liwaliwan ang magkapatid na Lorelie at Maybelle. Mainit na bukal ang pangunahing dahilan kung bakit dumarating ang mga bisita sa liwaliwan: maliit na palanguyan ito na may tubig na galing sa ilalim ng lupa. Sa tabi nito, may kubo si Maybelle, na naghahaplos ng likod at balikat ng mga bisitang pagod sa biyahe. Para sa paghaplos, gumagamit siya ng langis ng niyog na may kaunting langis ng tanglad.\n\nMahal ang langis ng tanglad na binibili nila sa Bukidnon, samantalang tumutubo ang mismong tanglad sa buong bakuran. “Bakit hindi tayo gumawa?” tanong ni Lorelie, na nagtapos ng kimika. Sa loob ng isang buwan, nagkumpleto sila ng mga kagamitan: malaking kaldero na may takip, mahabang tubong tanso, batya ng malamig na tubig at maliliit na boteng madilim ang kulay. Hindi madali ang pagkukumpleto, dahil kailangang ipagawa sa Maynila ang tubo. Itinayo nila ang kalan sa tabi ng isang malaking tuod ng mangga, at ginawa nilang mesa ang tuod na iyon.\n\nIsang umaga, nagputol sila ng tanglad at pinunit ang mga dahon. Inilagay nila ang mga ito sa ibabaw ng rehas sa loob ng kaldero, at sa ilalim ay may tubig. Habang kumukulo ang tubig, dumaraan ang singaw sa mga dahon at dinadala nito ang mga mabangong molekula. Dumadaloy ang singaw sa tubong tanso na nakababad sa malamig na tubig, at muli itong nagiging likido. Sa bote sa ibabaw ng tuod, makikita ang 2 patong: tubig sa ilalim, at sa ibabaw ang manipis at madilaw na langis, dahil hindi naghahalo ang langis at ang tubig at mas magaan ang langis.\n\nMaliit ang nakuha nila. Mula sa 100 kilo ng tanglad, wala pang kalahating litro ng langis ang lumabas. “Kaya pala mahal,” sabi ni Maybelle. Malakas din ang langis na ito, kaya kailangang ihalo muna sa langis ng niyog bago ipahid sa balat. Ipinaliwanag ito ni Lorelie sa isang maliit na karatula sa kubo.\n\nNakahanap din sila ng bagong gamit para rito. Kapag may bisitang barado ang ilong, naglalagay si Maybelle ng isang patak sa palangganang may mainit na tubig. Yumuyuko ang bisita sa ibabaw nito, na may talukbong na tuwalya sa ulo, upang hindi agad mawala ang singaw. Sa ilalim ng talukbong, ilang minuto lamang ay gumiginhawa na ang paghinga.\n\nAng paborito ng mga bisita sa liwaliwan ay ang gabi. Naliligo sila sa bukal, saka naghahaplos si Maybelle ng langis sa kanilang likod, at natutulog sila nang matagal. Marami ang nagsasabi sa umaga na ngayon lamang sila nakaranas ng ganoong himbing. Hindi alam ni Lorelie kung ang langis ba, ang mainit na tubig, o ang katahimikan ng bundok ang dahilan ng himbing na iyon. Sinabi niya ito nang tapat sa kanila, at bumili pa rin sila ng maliliit na bote.\n\nMga tanong:\nAno ang ginagawa ni Maybelle sa kubo?\nNaghahaplos siya ng likod at balikat ng mga bisita, gamit ang langis ng niyog na may langis ng tanglad.\nBakit naisip ni Lorelie na gumawa ng sariling langis?\nDahil mahal ang binibili nila, samantalang tumutubo ang tanglad sa buong bakuran.\nAno ang ginawa nila sa tuod ng mangga?\nGinawa nila itong mesa sa tabi ng kalan.\nGaano katagal sila nagkumpleto ng mga kagamitan?\nNagkumpleto sila sa loob ng isang buwan.\nAno ang sinasabi ng mga bisita sa umaga?\nSinasabi nila na ngayon lamang sila nakaranas ng ganoong himbing.\nBakit may talukbong na tuwalya ang bisitang barado ang ilong?\nUpang hindi agad mawala ang singaw."
+    },
+    {
+      "title": "Ang muling pagbangon ng pabrika ng baldosa",
+      "summary": "A short report on a family tile factory in Bacolod that slumps against imports, reorganises under a chemical engineer and wins back its customers with a faster kiln.",
+      "newWords": [
+        "baldosa",
+        "industriyalista",
+        "malugmok",
+        "kaagaw",
+        "magtunggali",
+        "komentador",
+        "tanggi",
+        "reorganisasyon",
+        "puwersahan"
+      ],
+      "text": "Noong 1974, nagtayo ang industriyalistang si Primitivo Sumagaysay ng pabrika ng baldosa sa Bacolod. Kilala siya bilang industriyalista na may alam sa luwad. Sa loob ng 30 taon, halos lahat ng bagong kusina sa Visayas ay may baldosa niya. Ang resipe ay simple: luwad, kaunting pinong buhangin, at isang manipis na patong ng salamin na natutunaw sa pugon at nagbibigay ng kintab. Mabagal ang lumang pugon: umaabot sa 2 araw ang pagluluto ng isang kargada.\n\nPagkatapos ng taong 2010, nagsimulang malugmok ang pabrika. May 2 pangunahing kaagaw ito. Ang una ay ang murang baldosa mula sa ibang bansa. Ang ikalawa ay isang bagong pabrika sa Cebu, at sa loob ng ilang taon, tumindi ang pagtutunggali ng dalawa sa presyo hanggang sa halos wala nang kita. Nang tuluyang nalugmok ang benta, sinabi ng isang kilalang komentador sa radyo na magsasara na ang pabrika bago matapos ang taon. Mabilis ang tanggi ng pamilya: walang magsasara, wala ring problema. Ngunit lalong nag-alala ang mga tao dahil sa pagtatanggi na iyon, at lalong nabawasan ang mga bumibili.\n\nNoong 2016, umuwi mula sa Singapore ang apo ng nagtatag na si Clarisse Sumagaysay, isang inhinyerong kemikal. Hindi siya nagsalita sa radyo. Sa halip, sinimulan niya ang isang reorganisasyon. Sa ilalim ng reorganisasyon, pinagsama ang mga opisinang magkakahiwalay, at naglagay ng maliit na laboratoryo sa gitna ng pabrika, upang masuri ang bawat kargada ng luwad bago ito gamitin.\n\nSunod niyang hinarap ang pugon. Sa lumang pugon, dahan-dahang umaakyat ang mainit na hangin at hindi pantay ang init, kaya maraming baldosa ang nababaluktot. Nagpakabit siya ng mga bentilador na puwersahang nagpapaikot sa mainit na hangin. Dahil sa puwersahang daloy, pantay ang init sa lahat ng bahagi. Mula 2 araw, naging 40 minuto ang pagluluto, at halos kalahati ang natipid sa gas. Ang mga basag na baldosa naman ay dinudurog at inihahalo sa bagong luwad, sa halip na itapon.\n\nHindi naging madali ang lahat. Sa unang taon, marami ang walang kintab, dahil kailangang baguhin ang manipis na patong para sa mabilis na pagluluto. Ilang buwan itong sinubukan ng laboratoryo bago nakuha ang tamang halo.\n\nNgayon, hindi na mas mura ang baldosa ng pamilya kaysa sa mga kaagaw nito, ngunit mas pantay at mas matibay ito, at maaari ring magpagawa ng kulay na hindi kayang gawin ng malalaking pabrika. Hindi na kailangang magtunggali ang Bacolod at ang Cebu sa presyo lamang. Patuloy ang pagtutunggali nila, ngunit sa kalidad na. Noong nakaraang taon, bumisita sa pabrika ang parehong komentador. Sinabi niya sa kaniyang programa na nagkamali siya. Tumawa lamang si Clarisse at binigyan siya ng isang kahon ng baldosa para sa kaniyang kusina.\n\nMga tanong:\nSino ang nagtayo ng pabrika, at kailan?\nItinayo ito ng industriyalistang si Primitivo Sumagaysay noong 1974.\nBakit nagsimulang malugmok ang pabrika?\nDahil sa 2 kaagaw nito: ang murang baldosa mula sa ibang bansa at ang pabrika sa Cebu.\nAno ang sinabi ng komentador sa radyo?\nSinabi niya na magsasara na ang pabrika bago matapos ang taon.\nAno ang epekto ng pagtatanggi ng pamilya?\nLalong nag-alala ang mga tao at lalong nabawasan ang mga bumibili.\nAno ang ginawa ni Clarisse sa ilalim ng reorganisasyon?\nPinagsama niya ang mga opisina at naglagay ng maliit na laboratoryo sa gitna ng pabrika.\nPaano naging pantay ang init ng pugon?\nNagpakabit siya ng mga bentilador na puwersahang nagpapaikot sa mainit na hangin."
+    },
+    {
+      "title": "Ang tatlong kailangan ng apoy",
+      "summary": "After a small kitchen fire, a psychologist helps a frightened girl in Davao by writing a story with her and showing with a candle and a tin what a flame needs.",
+      "newWords": [
+        "sikolohista",
+        "maapula",
+        "aratiles",
+        "kumatha",
+        "lamon",
+        "pagilid",
+        "nakakatanggal"
+      ],
+      "text": "Si Danica ay 7 taong gulang nang magkaroon ng maliit na sunog sa kanilang kusina sa Davao. Nag-apoy ang mantika sa kawali habang nagpiprito ang kaniyang ina. Agad itong tinakpan ng kaniyang ina ng malaking takip, at naapula ang apoy sa loob ng ilang segundo. Walang nasaktan, at bahagya lamang umitim ang pader. Ngunit mula noon, ayaw nang pumasok ni Danica sa kusina, at umiiyak siya kapag may nakitang kandila.\n\nDinala siya ng kaniyang ina kay Dr. Verna Quisumbing, ang sikolohista ng kanilang paaralan. Hindi tinanong ng sikolohista si Danica tungkol sa sunog. Sa halip, inaya niya itong umupo sa ilalim ng puno ng aratiles sa bakuran ng paaralan. Pumitas sila ng aratiles. Inubos ni Danica ang matatamis na bunga, at naging malagkit sa katas ang kaniyang mga daliri.\n\n“Mahilig ka ba sa kuwento?” tanong ng sikolohista. Sa loob ng 3 linggo, kumatha sila ng isang maikling kuwento tungkol sa 3 magkakaibigan: si Gatong, si Init at si Hangin. Kapag magkakasama ang tatlo, sumasayaw sila at nagiging apoy. Kapag umalis ang isa, tapos ang sayaw. Si Danica ang pumipili ng mga salita. Naniniwala si Dr. Quisumbing na sa pagkatha, nagiging maliit ang malaking takot, dahil ang bata na ang may hawak ng kuwento.\n\nPagkatapos, ipinakita nila ito sa totoong apoy, kasama ang ina ni Danica. Sa isang malaking lata sa gitna ng bakuran, sinindihan nila ang isang tuyong sanga ng aratiles at isang papel. Pinanood nila ang apoy na gumagapang sa pagilid ng papel. Mula sa pagilid, unti-unti itong umabot sa gitna. “Tingnan mo ang pagilid,” sabi ng sikolohista. “Doon nagsisimula ang apoy, at doon ito unang kumakain. Iyan ang tinatawag ng matatanda na lamon ng apoy. Mukhang gutom na hayop, pero isa lang itong reaksiyon: nagiging abo, gas at init ang kahoy at ang oksiheno. Humihinto ang lamon kapag naubos ang kahit isa sa kanila.”\n\nNagsindi sila ng kandila at tinakpan ito ng baso. Unti-unting lumiit ang liyab, at naapula ito nang walang humipan. “Ang baso ay nakakatanggal ng hangin,” sabi ni Danica, na alam na ang kuwento. Inilayo nila ang natitirang mga sanga mula sa lata. “Ang paglalayo ay nakakatanggal ng gatong.” Nagbuhos sila ng tubig sa lata. “At ang tubig ay nakakatanggal ng init.”\n\nNagdagdag ang kaniyang ina ng isang bilin: sa mantikang nag-aapoy, huwag kailanman magbuhos ng tubig, dahil tumatalsik ang mantika. Takip lamang. Doon naintindihan ni Danica ang nangyari sa kanilang kusina: inalis ng kaniyang ina si Hangin, at natapos ang sayaw.\n\nMakalipas ang isang buwan, pumasok muli si Danica sa kusina. Umupo siya sa mesa at binantayan ang kaniyang ina na nagluluto. Alam niya kung saan nakasabit ang malaking takip. Nakakatanggal din pala ng takot ang pag-unawa.\n\nMga tanong:\nPaano naapula ng ina ni Danica ang apoy sa kawali?\nTinakpan niya ito ng malaking takip.\nAno ang ginawa ni Danica sa ilalim ng puno ng aratiles?\nInubos niya ang matatamis na bunga, at naging malagkit sa katas ang kaniyang mga daliri.\nKailan humihinto ang lamon ng apoy?\nHumihinto ito kapag naubos ang gatong, ang init o ang hangin.\nTungkol saan ang kuwento?\nTungkol ito sa 3 magkakaibigan, sina Gatong, Init at Hangin, na nagiging apoy kapag magkakasama.\nBakit naapula ang kandila sa ilalim ng baso?\nDahil ang baso ay nakakatanggal ng hangin.\nBakit hindi dapat buhusan ng tubig ang mantikang nag-aapoy?\nDahil tumatalsik ang mantika, kaya takip lamang ang dapat gamitin."
+    }
+  ]
+}
