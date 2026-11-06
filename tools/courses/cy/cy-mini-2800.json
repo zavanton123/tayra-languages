@@ -1,0 +1,211 @@
+{
+  "id": "cy-mini-2800",
+  "rankUpTo": 2800,
+  "level": "B2",
+  "title": "Cerddoriaeth",
+  "description": "Ten short stories about music in Welsh life: choirs, repairers, composers, a new concert hall and a charity show.",
+  "topic": "Music",
+  "names": [
+    "Elfryn",
+    "Mared",
+    "Caernarfon",
+    "Cadfael",
+    "Mairwen",
+    "Llanelli",
+    "Mawrth",
+    "Heulfryn",
+    "Lliwen",
+    "Caerdydd",
+    "Dilwen",
+    "Aberystwyth",
+    "Cefin",
+    "Hafwen",
+    "Machynlleth",
+    "Sadwrn",
+    "Awst",
+    "Einwen",
+    "Dolgellau",
+    "Ilar",
+    "Gwenda",
+    "Pwllheli",
+    "Llun",
+    "Mercher",
+    "Iau",
+    "Mehefin",
+    "Gwynfa",
+    "Tudful",
+    "Aberteifi",
+    "Rhonwen",
+    "Nedw",
+    "Abertawe",
+    "Hafina",
+    "Gethin",
+    "Nonwen",
+    "Bangor",
+    "Patagonia",
+    "Gaiman",
+    "Cymraeg"
+  ],
+  "lessons": [
+    {
+      "title": "Y piano ar y pedwerydd llawr",
+      "summary": "Elfryn, a piano repairer in Caernarfon, mends a broken hammer in Mared's piano in her fourth-floor flat.",
+      "newWords": [
+        "morthwyl",
+        "atgyweirio",
+        "gwasgu",
+        "gorchudd",
+        "lifft",
+        "rhent",
+        "meindio",
+        "cyfamser",
+        "effeithlon"
+      ],
+      "text": "Mae Elfryn yn atgyweirio pianos yng Nghaernarfon. Mae e wedi gwneud y gwaith ers 30 mlynedd, ac mae pawb yn y dref yn gwybod ei fod e'n weithiwr effeithlon: mae e'n cyrraedd ar amser, mae e'n dod â'r offer iawn, a dydy e byth yn gwastraffu amser ei gwsmeriaid.\n\nUn bore, ffoniodd merch ifanc o'r enw Mared. Roedd hi newydd symud i fflat ar y 4ydd llawr. Roedd y rhent yn uchel, felly roedd hi'n ofalus gyda'i harian, ond roedd ei modryb wedi rhoi hen biano iddi hi.\n\n“Pan rydw i'n gwasgu un o'r nodau, does dim sain o gwbl,” meddai Mared. “Allwch chi atgyweirio'r piano? Ar ôl talu'r rhent, does gen i ddim llawer o arian ar ôl.”\n\n“Peidiwch â phoeni,” meddai Elfryn. “Rhaid i mi weld y piano yn gyntaf.”\n\nDaeth e y prynhawn hwnnw gyda bag o offer. Roedd y bag yn rhy drwm i'r grisiau, felly aeth e i fyny yn y lifft. Lifft bach ac araf oedd e, ond roedd hynny'n well na 4 llawr o risiau.\n\nRoedd gorchudd mawr o frethyn coch dros y piano.\n\n“Fyddech chi'n meindio tynnu'r gorchudd?” gofynnodd Elfryn.\n\n“Dim o gwbl,” meddai Mared, a rhoddodd hi'r gorchudd ar gadair.\n\n“Fyddech chi'n meindio agor y ffenest hefyd? Mae hi'n boeth yma.”\n\nGwasgodd Elfryn y nodau un ar ôl y llall, gan wrando'n ofalus ar bob un. Yna agorodd e'r piano a dangos y tu mewn i Mared.\n\n“Mae morthwyl bach yma ar gyfer pob nodyn,” meddai. “Pan rydych chi'n gwasgu nodyn, mae'r morthwyl yn taro'r llinyn, a dyna'r sain. Edrychwch. Mae'r morthwyl yma wedi torri, a dyna'r cwbl.”\n\nBu Elfryn yn gweithio am awr, yn dawel ac yn effeithlon. Yn y cyfamser, gwnaeth Mared baned o de. Rhoddodd e forthwyl newydd yn lle'r hen un, ac yn y cyfamser gofynnodd hi sut roedd ganddo fe gymaint o amynedd.\n\n“Dyfal donc a dyr y garreg,” meddai Elfryn. “Hen ddihareb yw hi. Hynny yw, os ydych chi'n taro carreg dro ar ôl tro, bydd hi'n torri yn y diwedd. Mae'r un peth yn wir am atgyweirio piano, ac am ddysgu ei ganu hefyd.”\n\nGwasgodd Mared y nodyn, a daeth sain glir ohono. Doedd y bil ddim yn uchel, felly doedd dim rhaid iddi hi boeni am y rhent. Y noson honno, ar ôl i Elfryn fynd i lawr yn y lifft, canodd hi'r piano am awr.\n\nCwestiynau:\nPam mae pobl yn dweud bod Elfryn yn weithiwr effeithlon?\nMae pobl yn dweud hynny achos mae e'n cyrraedd ar amser ac yn dod â'r offer iawn.\nSut aeth Elfryn i fyny i'r fflat?\nAeth e i fyny yn y lifft.\nBeth oedd yn bod ar y piano?\nRoedd un morthwyl wedi torri.\nBeth wnaeth Mared yn y cyfamser?\nGwnaeth hi baned o de.\nBeth mae'r ddihareb yn ei olygu?\nOs ydych chi'n taro carreg dro ar ôl tro, bydd hi'n torri yn y diwedd."
+    },
+    {
+      "title": "Nos Fawrth heb Cadfael",
+      "summary": "Mairwen, a choir's assistant conductor, leads the eighteen singers for the first time, causes some confusion and sorts it out.",
+      "newWords": [
+        "deunaw",
+        "carfan",
+        "ymgynnull",
+        "cynhesu",
+        "arafu",
+        "cynorthwyydd",
+        "cynorthwyol",
+        "dryswch",
+        "trawiad"
+      ],
+      "text": "Mae côr bach yn Llanelli sy'n cyfarfod bob nos Fawrth. Bob wythnos, mae deunaw o gantorion yn ymgynnull yn neuadd yr ysgol am 7. Deunaw yn union: 9 menyw a 9 dyn. Eu harweinydd yw Cadfael, dyn sydd wedi arwain corau ers blynyddoedd. Mairwen yw'r arweinydd cynorthwyol. Yn ystod y dydd, mae hi'n gynorthwyydd mewn ysgol gynradd, ac yn y côr hefyd mae hi'n gynorthwyydd da: mae hi'n dod â'r copïau, yn cyfrif y cantorion ac yn helpu carfan y dynion gyda'u nodau.\n\nUn wythnos, aeth Cadfael ar ei wyliau.\n\n“Ti fydd yn arwain nos Fawrth,” meddai wrth Mairwen. “Rhaid i arweinydd cynorthwyol arwain weithiau.”\n\nRoedd Mairwen yn nerfus iawn. Am 7, ymgynullodd y deunaw yn y neuadd fel arfer.\n\n“Yn gyntaf, rhaid cynhesu'r lleisiau,” meddai hi. “Mae llais oer fel car oer: dydy e ddim yn hoffi mynd yn gyflym.”\n\nBuon nhw'n cynhesu eu lleisiau am 10 munud. Wedyn, canon nhw'r gân newydd, ond roedd hi'n rhy gyflym, felly roedd rhaid arafu.\n\n“Mae 4 trawiad ym mhob bar,” meddai Mairwen. “Gadewch i ni arafu, a chyfrifwch y trawiadau gyda fi.”\n\nFodd bynnag, roedd hi mor nerfus nes iddi hi ddechrau dangos 3 trawiad yn lle 4. Aeth carfan y menywod yn ei blaen ar 3, ac arhosodd carfan y dynion ar 4. Roedd dryswch mawr. Stopiodd pawb, a dechreuodd rhai chwerthin.\n\n“Fi sy'n gyfrifol am y dryswch,” meddai Mairwen.\n\nYna, cofiodd hi beth roedd Cadfael yn ei ddweud bob amser: “A fo ben, bid bont.” Hen ddihareb yw hon. Hynny yw, rhaid i arweinydd fod yn bont i'w bobl. Felly, yn lle dweud wrth y cantorion beth oedd yn anghywir, gofynnodd hi iddyn nhw helpu. Gofynnodd hi i garfan y dynion gyfrif yn uchel. Arafodd hi'r gân eto, a daeth y ddwy garfan at ei gilydd. Erbyn 9, doedd dim dryswch o gwbl.\n\nY nos Fawrth wedyn, daeth Cadfael yn ôl. Canodd y deunaw y gân newydd iddo fe, a phob trawiad yn glir.\n\n“Da iawn,” meddai Cadfael wrth ei arweinydd cynorthwyol. “Nawr rydw i'n gwybod y galla i fynd ar wyliau eto.”\n\nCwestiynau:\nFaint o gantorion sy'n ymgynnull bob nos Fawrth?\nMae deunaw o gantorion yn ymgynnull bob nos Fawrth.\nBeth mae Mairwen yn ei wneud yn ystod y dydd?\nMae hi'n gynorthwyydd mewn ysgol gynradd.\nPam roedd rhaid cynhesu'r lleisiau?\nRoedd rhaid eu cynhesu achos dydy llais oer ddim yn hoffi mynd yn gyflym.\nPam roedd dryswch yn y neuadd?\nRoedd dryswch achos dangosodd Mairwen 3 trawiad yn lle 4.\nBeth mae'r ddihareb yn ei ddweud am arweinydd?\nMae'n dweud bod rhaid i arweinydd fod yn bont i'w bobl.\nSut gwnaeth Mairwen ddatrys y broblem?\nGofynnodd hi i garfan y dynion gyfrif yn uchel, ac arafodd hi'r gân eto."
+    },
+    {
+      "title": "Y frân a'r fuwch",
+      "summary": "Heulfryn composes the music for Lliwen's short animated film about a naughty crow and an innocent cow.",
+      "newWords": [
+        "animeiddio",
+        "brân",
+        "buwch",
+        "direidus",
+        "cylchdroi",
+        "dychmygu",
+        "smotyn",
+        "diniwed",
+        "cicio"
+      ],
+      "text": "Cyfansoddwr ifanc yng Nghaerdydd yw Heulfryn. Fel arfer, mae e'n ysgrifennu caneuon i gorau bach. Eleni, fodd bynnag, gofynnodd ei ffrind Lliwen iddo fe ysgrifennu cerddoriaeth ar gyfer ffilm fer. Mae Lliwen yn gweithio ym myd animeiddio. Hynny yw, mae hi'n gwneud lluniau sy'n symud. Gwaith araf yw animeiddio: mae angen llawer o luniau ar gyfer pob eiliad o ffilm.\n\nFfilm i blant yw hi, am frân ddireidus a buwch ddiniwed. Mae'r frân yn ddireidus iawn: mae hi'n cuddio het y ffermwr ac yn tynnu cynffon y ci. Ar y llaw arall, mae'r fuwch yn ddiniwed. Buwch wen â smotiau du yw hi, ac mae hi'n credu popeth mae'r frân yn ei ddweud.\n\nMae'r stori'n syml. Un diwrnod, mae'r frân yn dweud wrth y fuwch: “Os byddi di'n rhedeg, bydd pob smotyn yn disgyn oddi ar dy gefn di.” Mae'r fuwch ddiniwed yn sefyll yn llonydd drwy'r dydd, ac mae'r frân yn chwerthin ar ben melin wynt. Yna, mae pêl yn glanio wrth draed y fuwch. Mae hi'n cicio'r bêl, ac mae'r bêl yn taro'r felin. Mae'r felin yn dechrau cylchdroi, ac mae'r frân yn cylchdroi gyda hi, rownd a rownd. Mae'r fuwch yn cicio'r bêl eto, ac mae pob smotyn yn dal yn ei le.\n\nAeth Heulfryn adref, a cheisiodd e ddychmygu'r gerddoriaeth.\n\n“Alla i ddim dychmygu'r sain heb weld y lluniau,” meddai ar y ffôn.\n\nFelly, anfonodd Lliwen y lluniau ato fe. Wedyn, roedd hi'n haws dychmygu sŵn pob anifail. Dewisodd e ffliwt gyflym ar gyfer y frân, a drwm mawr, araf ar gyfer y fuwch. Pan mae'r felin yn cylchdroi, mae'r un 4 nodyn yn dod dro ar ôl tro, yn gyflymach bob tro.\n\nDangoswyd y ffilm mewn ysgol yng Nghaerdydd, a chwarddodd y plant yn uchel. Roedd mam Heulfryn yno hefyd.\n\n“Dyna'r gerddoriaeth orau rydw i erioed wedi'i chlywed!” meddai hi.\n\nGwenodd Lliwen. “Gwyn y gwêl y frân ei chyw,” meddai. “Hynny yw, mae pob mam yn meddwl bod ei phlentyn yn berffaith. Serch hynny, mae'r plant yn hoffi'r gerddoriaeth hefyd.”\n\nCwestiynau:\nBeth yw gwaith Lliwen?\nMae hi'n gweithio ym myd animeiddio.\nSut un yw'r frân?\nMae'r frân yn ddireidus iawn.\nSut un yw'r fuwch?\nMae'r fuwch yn ddiniwed, ac mae ganddi hi smotiau du.\nPam mae'r felin yn dechrau cylchdroi?\nMae'r felin yn dechrau cylchdroi achos mae'r fuwch yn cicio'r bêl, ac mae'r bêl yn ei tharo hi.\nPam na allai Heulfryn ddychmygu'r gerddoriaeth ar y dechrau?\nDoedd e ddim wedi gweld y lluniau.\nPa offerynnau ddewisodd Heulfryn?\nDewisodd e ffliwt gyflym ar gyfer y frân a drwm mawr ar gyfer y fuwch."
+    },
+    {
+      "title": "Algebra gyda'r nos",
+      "summary": "A maths lecturer who plays experimental music answers a clever student's questions about logic, talent and discipline.",
+      "newWords": [
+        "darlithydd",
+        "algebra",
+        "rhesymeg",
+        "cwmpasu",
+        "arbrofol",
+        "confensiynol",
+        "deallus",
+        "cwestiynu",
+        "cynhenid",
+        "disgyblaeth"
+      ],
+      "text": "Darlithydd mathemateg ydw i yn Aberystwyth. Mae fy nghwrs yn cwmpasu algebra a rhesymeg, ac mae'n cwmpasu ychydig o hanes mathemateg hefyd.\n\nGyda'r nos, rydw i'n canu'r piano mewn grŵp bach sy'n chwarae cerddoriaeth arbrofol. Mae cerddoriaeth arbrofol yn wahanol i'r gerddoriaeth gonfensiynol rydych chi'n ei chlywed mewn cyngerdd arferol. Mewn darn confensiynol, mae'r gwrandawyr yn gwybod, fwy neu lai, beth sy'n dod nesaf. Mewn darn arbrofol, does neb yn gwybod, ac weithiau dydy'r cerddorion eu hunain ddim yn gwybod chwaith.\n\nY llynedd, daeth un o'm myfyrwyr, merch ddeallus o'r enw Dilwen, i un o'n cyngherddau. Y bore wedyn, ar ôl y ddarlith, daeth hi i siarad â mi. Mae Dilwen'n hoffi cwestiynu popeth, ac mae hynny'n beth da mewn myfyriwr.\n\n“Rydych chi'n dysgu algebra yn y bore ac yn chwarae cerddoriaeth arbrofol gyda'r nos,” meddai hi. “Beth sy'n gyffredin rhwng y ddau?”\n\nAtebais i fod y ddau'n dibynnu ar resymeg. Mae patrymau mewn algebra, ac mae patrymau mewn cerddoriaeth. Mae hyd yn oed ein darnau mwyaf arbrofol yn dilyn rhesymeg, er nad yw'r gwrandawr bob amser yn ei chlywed hi.\n\nWedyn, cwestiynodd Dilwen rywbeth arall. “Ydy dawn gerddorol yn gynhenid?” gofynnodd hi. “Rydw i wedi cael gwersi piano ers 10 mlynedd, ond rydw i'n dal i wneud camgymeriadau. Efallai nad oes gen i ddawn gynhenid.”\n\nMeddyliais i am y peth yn ofalus. Mae rhai pobl yn cael eu geni â chlust dda, ac mae'r ddawn honno'n gynhenid, mae'n siŵr. Fodd bynnag, mae disgyblaeth yr un mor bwysig. Rydw i wedi gweld myfyrwyr deallus yn methu algebra am nad oedd ganddyn nhw'r ddisgyblaeth i ymarfer bob dydd. Ar y llaw arall, rydw i wedi gweld myfyrwyr cyffredin yn llwyddo oherwydd eu disgyblaeth. Mae'r un peth yn wir am y piano.\n\nErbyn hyn, mae Dilwen'n ymarfer am hanner awr bob bore, ac mae hi'n dal i gwestiynu popeth. Y mis diwethaf, daeth hi â darn o gerddoriaeth ata i, darn roedd hi wedi'i gyfansoddi ar sail algebra. Doedd e ddim yn gonfensiynol o gwbl, ond roedd e'n llawn rhesymeg. A'r peth gorau amdano oedd ei fod e'n hyfryd i wrando arno.\n\nCwestiynau:\nBeth mae cwrs y darlithydd yn ei gwmpasu?\nMae ei gwrs yn cwmpasu algebra a rhesymeg.\nSut mae cerddoriaeth arbrofol yn wahanol i gerddoriaeth gonfensiynol?\nMewn darn confensiynol, mae'r gwrandawyr yn gwybod beth sy'n dod nesaf, ond mewn darn arbrofol, does neb yn gwybod.\nPwy yw Dilwen?\nMerch ddeallus yw hi, ac un o fyfyrwyr y darlithydd.\nBeth sy'n gyffredin rhwng algebra a cherddoriaeth?\nMae'r ddau'n dibynnu ar resymeg ac ar batrymau.\nBeth sydd yr un mor bwysig â dawn gynhenid?\nMae disgyblaeth yr un mor bwysig.\nBeth wnaeth Dilwen y mis diwethaf?\nDaeth hi â darn roedd hi wedi'i gyfansoddi at y darlithydd."
+    },
+    {
+      "title": "Cyngerdd yn yr ardd",
+      "summary": "Cefin, a gardener near Machynlleth who breeds bees and plays the harp, holds a concert in his garden with his wife Hafwen.",
+      "newWords": [
+        "garddwr",
+        "coediog",
+        "ffrwythlon",
+        "toreithiog",
+        "wenyn",
+        "bridio",
+        "ffynnu",
+        "clwyd",
+        "rhisgl"
+      ],
+      "text": "Garddwr yw Cefin, ac mae e'n byw ger Machynlleth. Mae e'n gofalu am ardd fawr mewn ardal goediog, ac mae'r tir yno'n ffrwythlon iawn. Ar ôl haf da, mae'r coed afalau'n rhoi cnwd toreithiog, a chymaint o ffrwythau nes bod rhaid i Cefin roi rhai i'r cymdogion.\n\nMae gan y garddwr ddau ddiddordeb arall: mae e'n bridio gwenyn, ac mae e'n canu'r delyn. Mae e wedi bridio gwenyn ers 20 mlynedd, oherwydd mae e'n gwybod na fyddai'r tir ffrwythlon yn rhoi llawer o ffrwythau heb wenyn. Fel pob garddwr da, mae e'n gwybod bod popeth yn yr ardd yn ffynnu gyda'i gilydd: y blodau, y coed a'r gwenyn. Pan mae'r gwenyn yn ffynnu, mae'r cnwd yn doreithiog.\n\nBob noson braf, mae Cefin yn eistedd wrth y cychod gwenyn ac yn chwarae alawon ar y delyn. Mae e'n dweud bod y gwenyn yn hoffi'r gerddoriaeth.\n\n“Dydw i ddim yn credu bod gwenyn yn gallu clywed telyn,” meddai ei wraig, Hafwen, gan chwerthin.\n\nY llynedd, yn gynnar yn y flwyddyn, cafodd Hafwen syniad. Pam na allai pobl eraill glywed y delyn hefyd? Felly, penderfynon nhw gynnal cyngerdd yn yr ardd ar nos Sadwrn ym mis Awst.\n\nYn ystod y gwanwyn, gwnaeth Cefin rywbeth arbennig i'r plant. Torrodd e ganghennau o goeden helyg, a thynnu'r rhisgl yn ofalus. O bob darn o risgl, gwnaeth e chwiban fach syml. Dysgodd ei dad hyn iddo fe pan oedd e'n fachgen.\n\nClwyd bren sydd ar ben y lôn i'r ardd. Agorodd Hafwen y glwyd am 6, a safodd hi wrth y glwyd i groesawu pawb. Erbyn 7, roedd 50 o bobl wedi dod drwyddi hi.\n\nCanodd Cefin y delyn o dan y coed afalau, a chwythodd y plant eu chwibanau o risgl gydag e. Roedd pawb yn hapus, ac erbyn diwedd y noson, doedd dim un afal ar ôl ar y bwrdd.\n\n“Wel?” gofynnodd Cefin i Hafwen, ar ôl iddi hi gau'r glwyd. “Oedd y gwenyn yn hoffi'r gerddoriaeth?”\n\n“Does gen i ddim syniad,” meddai hi. “Ond roedd y bobl yn ei hoffi. Os bydd y cnwd yn doreithiog eto, gwnawn ni'r un peth y flwyddyn nesaf.”\n\nCwestiynau:\nBle mae gardd Cefin?\nMae ei ardd mewn ardal goediog ger Machynlleth.\nPam mae Cefin yn bridio gwenyn?\nMae e'n eu bridio achos na fyddai'r tir ffrwythlon yn rhoi llawer o ffrwythau heb wenyn.\nBeth mae Cefin yn ei wneud bob noson braf?\nMae e'n eistedd wrth y cychod gwenyn ac yn chwarae'r delyn.\nBeth wnaeth e o'r rhisgl helyg?\nGwnaeth e chwibanau bach i'r plant.\nPwy agorodd y glwyd?\nHafwen agorodd y glwyd, am 6.\nBeth bydd Cefin a Hafwen yn ei wneud os bydd y cnwd yn doreithiog eto?\nByddan nhw'n gwneud yr un peth y flwyddyn nesaf."
+    },
+    {
+      "title": "Wythnos heb lais",
+      "summary": "Einwen, a young singer from Dolgellau, loses her voice to a virus a week before a contest and follows the doctor's orders.",
+      "newWords": [
+        "firws",
+        "llid",
+        "tafod",
+        "cwsg",
+        "amhosibl",
+        "sebon",
+        "plaen",
+        "cwyno",
+        "rhywsut"
+      ],
+      "text": "Cantores o Ddolgellau yw Einwen. Mae hi'n 24 oed, ac eleni roedd hi'n mynd i ganu mewn eisteddfod fawr am y tro cyntaf. Wythnos cyn y gystadleuaeth, deffrodd hi un bore heb lais. Roedd ei gwddf hi'n boenus, ac roedd hi'n amhosibl siarad, heb sôn am ganu.\n\nDydy Einwen ddim yn un i gwyno, felly ysgrifennodd hi nodyn at ei mam, “Annwyd bach, dyna'r cwbl,” a mynd i weld y meddyg.\n\n“Agorwch eich ceg a dangoswch eich tafod,” meddai'r meddyg. Edrychodd e ar ei thafod hi ac ar ei gwddf. “Firws sydd gennych chi. Mae'r firws wedi achosi llid yn eich gwddf, a dyna pam mae eich llais wedi mynd. Bydd y llid yn gwella os byddwch chi'n gorffwys.”\n\nYsgrifennodd Einwen ar ddarn o bapur: “Ond mae'r gystadleuaeth mewn wythnos. Mae'n amhosibl!”\n\n“Dydy e ddim yn amhosibl,” meddai'r meddyg. “Mae angen tri pheth arnoch chi: cwsg, bwyd plaen a thawelwch. Cwsg yw'r peth pwysicaf. Bwytwch fwyd plaen, fel cawl a bara, ac yfwch ddigon o ddŵr. Golchwch eich dwylo â sebon yn aml, fel na fydd eich teulu'n cael y firws. A pheidiwch â siarad am 3 diwrnod. Rydych chi'n gwybod yr hen ddihareb: da yw dant i atal tafod. Hynny yw, weithiau mae'n well cau'r geg.”\n\nGwnaeth Einwen bopeth roedd y meddyg wedi'i ddweud. Cafodd hi 10 awr o gwsg bob nos. Bwytodd hi fwyd plaen, a golchodd hi ei dwylo â sebon bob tro y cerddodd hi drwy'r gegin. Roedd y dyddiau'n hir, ond wnaeth hi ddim cwyno unwaith. Ei brawd oedd yn cwyno.\n\n“Mae hi'n rhy dawel yn y tŷ yma,” meddai fe.\n\nErbyn y 6ed diwrnod, roedd y llid wedi mynd, ond roedd ei llais yn dal yn wan. Serch hynny, aeth hi i'r gystadleuaeth. Safodd hi ar y llwyfan o flaen cynulleidfa fawr, ac anadlodd hi'n ddwfn. Rhywsut, daeth y llais. Rhywsut, cyrhaeddodd hi hyd yn oed y nodyn uchaf. Daeth hi'n ail.\n\n“Rydw i'n fodlon iawn ar hynny,” meddai Einwen wrth ei brawd ar y ffordd adref. “Y tro nesaf, bydda i'n cael rhagor o gwsg cyn y gystadleuaeth, a dim firws.”\n\nCwestiynau:\nBeth ddigwyddodd i Einwen wythnos cyn y gystadleuaeth?\nDeffrodd hi un bore heb lais.\nBeth ofynnodd y meddyg iddi hi ei ddangos?\nGofynnodd e iddi hi ddangos ei thafod.\nBeth oedd wedi achosi'r llid yn ei gwddf?\nY firws oedd wedi achosi'r llid.\nPa dri pheth roedd eu hangen arni hi?\nRoedd angen cwsg, bwyd plaen a thawelwch arni hi.\nPam roedd rhaid iddi hi olchi ei dwylo â sebon?\nRoedd rhaid iddi hi wneud hynny fel na fyddai ei theulu'n cael y firws.\nPwy oedd yn cwyno yn y tŷ?\nEi brawd oedd yn cwyno, achos roedd hi'n rhy dawel."
+    },
+    {
+      "title": "Y degfed esgus",
+      "summary": "Ilar, a ten-year-old learning the horn in Pwllheli, has an excuse every day until his mother finds a way to get him started.",
+      "newWords": [
+        "neilltuo",
+        "esgus",
+        "hosan",
+        "pwdin",
+        "tamaid",
+        "anwybyddu",
+        "degfed",
+        "trwodd",
+        "llawen"
+      ],
+      "text": "Mae Ilar yn 10 oed ac yn byw ym Mhwllheli gyda'i fam, Gwenda. Y tymor yma, mae e'n dysgu canu'r corn yn yr ysgol. Dywedodd ei athro fod rhaid iddo fe neilltuo hanner awr bob dydd i ymarfer, achos bydd noson lawen yn yr ysgol ar y degfed o Fehefin.\n\n“Dyna ni, felly,” meddai Gwenda. “Byddwn ni'n neilltuo'r hanner awr ar ôl te.”\n\nOnd mae gan Ilar esgus bob dydd. Ddydd Llun, yr esgus oedd hosan. “Alla i ddim ymarfer,” meddai fe. “Dim ond un hosan sydd gen i, ac mae fy nhroed i'n oer.” Aeth ei fam i chwilio am yr hosan arall, ac erbyn iddi hi ddod o hyd iddi, roedd yr hanner awr wedi mynd.\n\nDdydd Mawrth, roedd gormod o bwdin yn ei fol. “Allwn i ddim chwythu ar ôl y pwdin yna,” meddai fe. Ddydd Mercher, roedd y corn yn rhy drwm. Ddydd Iau, roedd y ci yn cysgu. Anwybyddodd Gwenda bob un, ond ddaeth y corn ddim allan o'i focs.\n\nBythefnos yn ddiweddarach, roedd Gwenda yn y gegin pan ddaeth Ilar drwodd o'r ystafell fyw.\n\n“Alla i ddim ymarfer heddiw,” meddai fe. “Mae gen i ddolur ar fy mys.”\n\n“Dyna'r degfed esgus,” meddai Gwenda. “Rydw i wedi'u cyfrif nhw, ac rydw i'n mynd i anwybyddu hwn hefyd. Eistedda am funud. Wyt ti'n gwybod beth roedd dy daid yn ei ddweud? Deuparth gwaith yw ei ddechrau. Hynny yw, y rhan anoddaf o unrhyw waith yw ei ddechrau. Felly, dim hanner awr heddiw: dim ond 5 munud. Wedyn, cei di damaid o bwdin. Dim ond tamaid, cofia.”\n\nAeth Ilar drwodd i'r ystafell fyw gyda'r corn. Daeth y sŵn drwodd i'r gegin: nodyn hir, wedyn un arall, ac yna alaw fach. Ar ôl 5 munud, ddaeth e ddim yn ôl. Ar ôl 30 munud, aeth Gwenda â thamaid o bwdin ato fe.\n\n“Dydw i ddim wedi gorffen,” meddai Ilar.\n\nO hynny ymlaen, doedd dim rhaid iddi hi ddweud dim. Ar y degfed o Fehefin, safodd Ilar ar y llwyfan, gyda dwy hosan am ei draed, a chanodd e'r corn yn y noson lawen. Roedd gan ei fam wyneb llawen yn y gynulleidfa, ac aeth y ddau adref yn llawen i gael pwdin mawr.\n\nCwestiynau:\nFaint o amser roedd rhaid i Ilar ei neilltuo bob dydd?\nRoedd rhaid iddo fe neilltuo hanner awr bob dydd.\nBeth oedd ei esgus ddydd Llun?\nDim ond un hosan oedd ganddo fe.\nBeth wnaeth Gwenda gyda'r esgusion?\nAnwybyddodd hi bob un.\nBeth oedd y degfed esgus?\nDolur ar ei fys oedd y degfed esgus.\nBeth yw ystyr y ddihareb “Deuparth gwaith yw ei ddechrau”?\nY rhan anoddaf o unrhyw waith yw ei ddechrau.\nBeth ddigwyddodd ar y degfed o Fehefin?\nCanodd Ilar y corn yn y noson lawen."
+    },
+    {
+      "title": "Y neuadd newydd",
+      "summary": "Gwynfa, an architect from Aberteifi, designs a bright new concert hall and solves a problem with the sound before its opening night.",
+      "newWords": [
+        "pensaer",
+        "caeedig",
+        "tryloyw",
+        "islaw",
+        "poptu",
+        "peintiad",
+        "ymledu",
+        "agoriad",
+        "uchafbwynt"
+      ],
+      "text": "Pensaer o Aberteifi yw Gwynfa. Ers 3 blynedd, mae hi wedi bod yn gweithio ar neuadd gyngerdd newydd i'r dref. Roedd yr hen neuadd yn dywyll, gyda drysau caeedig a ffenestri bach.\n\n“Mae neuadd gaeedig yn teimlo fel bocs,” meddai Gwynfa wrth y pwyllgor. “Rydw i eisiau i bobl weld y gerddoriaeth o'r stryd.”\n\nFelly, cynlluniodd y pensaer neuadd ar lan yr afon, gyda tho tryloyw a wal dryloyw ar yr ochr sy'n wynebu'r dŵr. O'r caffi ar y llawr uchaf, gallwch chi weld yr afon islaw. Islaw'r llwyfan, mae ystafelloedd i'r cerddorion ymarfer ynddyn nhw. O boptu'r llwyfan, mae peintiad mawr o'r môr, gwaith artist o'r dref o'r enw Tudful. Mae un peintiad yn dangos y môr yn y bore, a'r llall yn dangos y môr gyda'r nos.\n\nYmledodd y newyddion am y neuadd drwy'r dref, ac roedd pawb yn siarad am yr agoriad. Fodd bynnag, wythnos cyn yr agoriad, cafodd y pensaer broblem. Daeth côr ysgol i ganu er mwyn profi'r neuadd. Roedd y sain yn glir yn y seddi blaen, ond yn y seddi cefn roedd hi'n wan. Mewn neuadd dda, rhaid i'r sain ymledu i bob sedd yn yr un ffordd, ac yma doedd hi ddim yn ymledu'n iawn.\n\nGallai Gwynfa fod wedi dweud bod hynny'n ddigon da, ond mae ganddi hi hoff ddihareb: nid da lle gellir gwell. Hynny yw, os gellir gwneud rhywbeth yn well, dydy e ddim yn ddigon da eto. Treuliodd hi 3 diwrnod yn y neuadd gyda pheiriannwr sain. Yn y diwedd, rhoddon nhw baneli pren o boptu'r seddi cefn, a daeth y sain yn gryfach.\n\nNoson yr agoriad oedd uchafbwynt y flwyddyn yn Aberteifi. Roedd y drysau'n agored, a golau'r neuadd yn disgleirio drwy'r wal dryloyw ar y dŵr. Canodd y côr ysgol, a chwaraeodd cerddorfa'r dref. Uchafbwynt y noson i Gwynfa oedd eistedd yn y sedd olaf, yn y rhes gefn, a chlywed pob nodyn yn berffaith.\n\nCwestiynau:\nSut un oedd yr hen neuadd?\nRoedd hi'n dywyll, gyda drysau caeedig a ffenestri bach.\nBeth sy'n dryloyw yn y neuadd newydd?\nMae'r to a'r wal sy'n wynebu'r dŵr yn dryloyw.\nBeth sydd islaw'r llwyfan?\nMae ystafelloedd i'r cerddorion islaw'r llwyfan.\nBeth mae'r ddau beintiad yn ei ddangos?\nMaen nhw'n dangos y môr yn y bore a gyda'r nos.\nBeth oedd y broblem wythnos cyn yr agoriad?\nDoedd y sain ddim yn ymledu'n iawn i'r seddi cefn.\nBeth oedd uchafbwynt y noson i Gwynfa?\nEistedd yn y rhes gefn a chlywed pob nodyn yn berffaith oedd yr uchafbwynt iddi hi."
+    },
+    {
+      "title": "Cerddoriaeth y dŵr",
+      "summary": "Rhonwen, a composer in Abertawe, finds inspiration at a waterfall and at sea with her friend Nedw, a marine biologist.",
+      "newWords": [
+        "ysbrydoliaeth",
+        "rhaeadr",
+        "morol",
+        "cerrynt",
+        "parchu",
+        "mynegiant",
+        "adolygu",
+        "trefniant"
+      ],
+      "text": "Gofynnodd cerddorfa ieuenctid yn Abertawe i Rhonwen gyfansoddi darn am ddŵr. Roedd hi wrth ei bodd, ond ar ôl pythefnos, doedd dim byd ar y papur. Doedd ganddi hi ddim ysbrydoliaeth. Mae rhai cyfansoddwyr yn eistedd wrth y piano yn aros am ysbrydoliaeth, ond mae Rhonwen yn credu bod rhaid mynd i chwilio amdani hi.\n\nFelly, aeth hi i weld rhaeadr uchel yn y bryniau uwchben y ddinas. Eisteddodd hi wrth y rhaeadr am awr gyda'i llygaid ar gau. Clywodd hi sŵn isel, cryf y dŵr yn disgyn, a sŵn uchel, ysgafn y dŵr yn taro'r cerrig. Dyna ddechrau'r darn: y rhaeadr oedd ei hysbrydoliaeth gyntaf.\n\nFodd bynnag, roedd rhaid i'r darn fynd ymlaen i'r môr. Mae ganddi hi ffrind, Nedw, sy'n fiolegydd morol. Mae e'n astudio bywyd morol yn y bae, ac aeth e â hi allan yn ei gwch. Dangosodd e iddi hi sut mae'r cerrynt yn symud o gwmpas y graig.\n\n“Mae'r cerrynt yn gryf yma,” meddai Nedw. “Mae pob anifail morol yn gwybod hynny, ac rydw i wedi dysgu ei barchu hefyd. Rhaid parchu'r môr bob amser.”\n\nYn y cwch, ysgrifennodd Rhonwen alaw hir a oedd yn symud fel y cerrynt, weithiau'n dawel, weithiau'n gryf.\n\nYn ôl adref, adolygodd hi'r darn 3 gwaith. Yn yr adolygiad olaf, canolbwyntiodd hi ar y mynegiant. Mae nodau'n bwysig, ond y mynegiant sy'n rhoi bywyd iddyn nhw. Ar ôl adolygu'r darn, roedd hi'n fodlon. Gwnaeth hi drefniant arbennig hefyd i'r chwaraewyr ieuengaf, gyda nodau haws. Roedd hi'n parchu pob un o'r plant, ac roedd hi eisiau i bawb allu chwarae gyda'r un mynegiant. Diolch i'r trefniant hwnnw, gallai 40 o blant chwarae yn y gerddorfa.\n\nRoedd y neuadd yn llawn ar noson y cyngerdd. Yn y bore, adolygodd newyddiadurwr y darn yn y papur lleol. “Gallwch chi glywed y rhaeadr a'r môr yn y gerddoriaeth,” ysgrifennodd e. Roedd Nedw yn y gynulleidfa hefyd. “Nid gwyddonydd ydw i heno,” meddai fe wrth Rhonwen, “ond gwrandawr.”\n\nCwestiynau:\nBeth oedd y broblem ar y dechrau?\nDoedd gan Rhonwen ddim ysbrydoliaeth.\nBle aeth hi i chwilio am ysbrydoliaeth?\nAeth hi i weld rhaeadr uchel yn y bryniau.\nBeth mae Nedw yn ei astudio?\nMae e'n astudio bywyd morol yn y bae.\nPam mae'n rhaid parchu'r môr?\nRhaid ei barchu achos mae'r cerrynt yn gryf.\nBeth mae mynegiant yn ei wneud?\nMae mynegiant yn rhoi bywyd i'r nodau.\nPam gwnaeth Rhonwen drefniant arbennig?\nGwnaeth hi drefniant achos roedd hi eisiau i'r chwaraewyr ieuengaf allu chwarae."
+    },
+    {
+      "title": "Sioe i dalu'r rhent",
+      "summary": "When the rent of a small music school in Bangor goes up, a playwright writes a charity musical to keep the fees low.",
+      "newWords": [
+        "elusennol",
+        "darpariaeth",
+        "ffi",
+        "codiad",
+        "dramodydd",
+        "plot",
+        "acen",
+        "sillaf",
+        "rhediad"
+      ],
+      "text": "Mae Hafina yn rhedeg ysgol gerdd fach ym Mangor. Corff elusennol yw'r ysgol, ac mae ei gwaith elusennol yn bwysig i'r ardal. Mae'r ddarpariaeth yn cynnwys gwersi canu, gwersi telyn a gwersi piano i blant o deuluoedd heb lawer o arian. Dim ond £2 y wers yw'r ffi, a dydy rhai teuluoedd ddim yn talu ffi o gwbl.\n\nY gwanwyn diwethaf, daeth llythyr gan berchennog yr adeilad: roedd codiad yn y rhent, o £100 y mis. Doedd Hafina ddim eisiau codiad yn y ffi, oherwydd byddai rhai plant yn gorfod gadael. Ar y llaw arall, doedd hi ddim eisiau torri'r ddarpariaeth chwaith.\n\nClywodd Gethin am y broblem. Dramodydd wedi ymddeol yw e, ac mae ei wyres yn dysgu'r delyn yn yr ysgol.\n\n“Beth am sioe gerdd elusennol?” meddai'r dramodydd. “Galla i ysgrifennu'r geiriau, a gall y plant ganu.”\n\nMae plot y sioe yn syml. Mae merch o Batagonia yn dod i Fangor i chwilio am hen gân ei thaid. Does neb yn deall ei hacen ar y dechrau, ond mae hi'n gwneud ffrindiau, ac maen nhw'n dod o hyd i'r gân. Roedd y plant yn hoffi'r plot, ac roedden nhw'n hoffi'r acen hyd yn oed yn fwy. Dysgodd Nonwen, y ferch oedd yn chwarae'r brif ran, acen Patagonia gan fenyw o'r Gaiman ar y ffôn.\n\nRoedd un broblem. Yn yr ymarfer cyntaf, roedd y plant yn canu rhai geiriau'n rhyfedd.\n\n“Yn Gymraeg, mae'r acen fel arfer ar y sillaf olaf ond un,” meddai Gethin. “Ond yn y gân yma, mae'r nodyn hir ar y sillaf olaf.”\n\nNewidiodd e ambell air, fel bod y nodyn hir yn disgyn ar y sillaf iawn, ac yna roedd popeth yn swnio'n naturiol.\n\nRhediad o 3 noson oedd gan y sioe yn neuadd y dref. Roedd y noson gyntaf yn hanner llawn, ond ymledodd y newyddion, ac erbyn diwedd y rhediad, doedd dim sedd ar ôl. Fel y dywedodd Hafina, roedd y plant wedi talu eu ffordd eu hunain. Talodd yr arian am y codiad yn y rhent am 2 flynedd, a does dim newid wedi bod yn y ffi.\n\nCwestiynau:\nPa ddarpariaeth sydd gan yr ysgol?\nMae'r ddarpariaeth yn cynnwys gwersi canu, gwersi telyn a gwersi piano.\nPam doedd Hafina ddim eisiau codiad yn y ffi?\nByddai rhai plant yn gorfod gadael.\nPwy yw Gethin?\nDramodydd wedi ymddeol yw Gethin.\nBeth yw plot y sioe?\nMae merch o Batagonia yn dod i Fangor i chwilio am hen gân ei thaid.\nBle mae'r acen fel arfer yn Gymraeg?\nMae'r acen fel arfer ar y sillaf olaf ond un.\nPa mor hir oedd rhediad y sioe?\nRhediad o 3 noson oedd gan y sioe."
+    }
+  ]
+}
