@@ -21,6 +21,8 @@ class DeviceSpeechOutput(private val system: SpeechSynthesizer, private val play
         system.speak(text, languageCode, onDone, rate, onWord)
     }
 
+    override suspend fun hasVoice(languageCode: String?): Boolean = system.hasVoice(languageCode)
+
     override fun pause(): Boolean = when (sounding) {
         Output.PLAYER -> player.pause()
         Output.SYSTEM -> system.pause()

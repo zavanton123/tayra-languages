@@ -61,6 +61,9 @@ class PlaylistPlayerTest {
         @Volatile var paused = false
         @Volatile var rate = 1f
         @Volatile var played = 1f
+        @Volatile var voiced = true
+
+        override suspend fun hasVoice(languageCode: String?): Boolean = voiced
 
         override fun play(wav: ByteArray, speed: Float, onDone: () -> Unit) {
             heard += "wav:" + wav.decodeToString().substringAfter("|")
@@ -299,6 +302,34 @@ class PlaylistPlayerTest {
         hear("Sete oito.")
         hear("Um dois.")
         assertTrue(third > 0)
+    }
+
+    /** Sentences said by no voice would pass at once, and the whole playlist with them: the player stops and says why. */
+    @Test
+    fun withoutASystemVoiceThePlayerStopsAndDoesNotRaceThrough() {
+        val setup = setUp()
+        output.voiced = false
+        player.play(setup.playlist)
+        until("the problem") { player.state.value.status == PlayerStatus.BLOCKED }
+        assertEquals(PlaybackProblem.NoVoice("", setup.language, "Portuguese", systemVoice = false), player.state.value.problem)
+        assertEquals(0, player.state.value.sentence)
+        assertTrue(output.heard.isEmpty())
+
+        player.skip()
+        until("the next text, still without a voice") { player.state.value.item?.title == "Segundo" && player.state.value.status == PlayerStatus.BLOCKED }
+        assertTrue(output.heard.isEmpty())
+    }
+
+    /** A local engine without the language can't hand it to a system voice that has none either. */
+    @Test
+    fun withoutAnyVoiceTheSystemVoiceIsNotOffered() {
+        val setup = setUp()
+        piper.installed = false
+        output.voiced = false
+        runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER) } }
+        player.play(setup.playlist)
+        until("the problem") { player.state.value.status == PlayerStatus.BLOCKED }
+        assertEquals(PlaybackProblem.NoVoice("Piper", setup.language, "Portuguese", systemVoice = false), player.state.value.problem)
     }
 
     @Test

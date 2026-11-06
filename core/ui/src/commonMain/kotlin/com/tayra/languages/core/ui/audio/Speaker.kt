@@ -1,6 +1,8 @@
 package com.tayra.languages.core.ui.audio
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import co.touchlab.kermit.Logger
@@ -53,6 +55,19 @@ class Speaker(
     private var output: Output? = null
 
     private enum class Output { PLAYER, SYSTEM }
+
+    /** Whether [languageCode] has a voice here, of the engine chosen or the system's. */
+    suspend fun canSpeak(languageCode: String?): Boolean {
+        if (system.hasVoice(languageCode)) return true
+        val engine = local.find(settings.current.speechEngine) ?: return false
+        return try {
+            languageCode != null && engine.isReady() && engine.voices(languageCode).isNotEmpty()
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            false
+        }
+    }
 
     /** Stops [text] when it is the one playing, resumes it when it is held, and otherwise starts it. */
     fun toggle(text: String, languageCode: String?) {
@@ -151,6 +166,14 @@ class Speaker(
         player.stop()
         system.stop()
     }
+}
+
+/** Whether reading [languageCode] aloud can start. Only Cantonese has to be asked, and is not started before the answer. */
+@Composable
+fun rememberCanSpeak(speaker: Speaker, languageCode: String?): Boolean {
+    if (!CantoneseVoices.isCantonese(languageCode)) return true
+    val answer by produceState(false, speaker, languageCode) { value = speaker.canSpeak(languageCode) }
+    return answer
 }
 
 /** A speaker scoped to the composition; [local] and [settings] come from dependency injection. */

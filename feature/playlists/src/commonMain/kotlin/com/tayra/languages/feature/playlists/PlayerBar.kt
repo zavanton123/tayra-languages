@@ -320,7 +320,9 @@ internal fun ProblemDialog(
                     }
                 }
                 val actions: List<@Composable (Modifier) -> Unit> = when (problem) {
-                    is PlaybackProblem.NoVoice -> listOf(
+                    is PlaybackProblem.NoVoice -> if (!problem.systemVoice) listOf(
+                        { m -> QuietButton(tr("Skip text"), onClick = onSkip, modifier = m.widthIn(min = SKIP_WIDTH).testTag("skip-text")) },
+                    ) else listOf(
                         { m -> PrimaryButton(tr("Download voice"), onClick = onDownload, modifier = m.testTag("download-voice")) },
                         { m -> SecondaryButton(tr("Use system voice"), onClick = onSystemVoice, modifier = m.testTag("system-voice")) },
                         { m -> QuietButton(tr("Skip text"), onClick = onSkip, modifier = m.widthIn(min = SKIP_WIDTH).testTag("skip-text")) },

@@ -42,6 +42,9 @@ interface SpeechOutput {
      */
     fun speak(text: String, languageCode: String?, rate: Float, onWord: (IntRange) -> Unit, onDone: () -> Unit)
 
+    /** False when the system's voice would say nothing in this language, so sentences would pass in silence. */
+    suspend fun hasVoice(languageCode: String?): Boolean = true
+
     /** Holds the sound where it is, without ending it; false when it cannot be held. */
     fun pause(): Boolean
     fun resume()
@@ -68,8 +71,11 @@ enum class RepeatMode { OFF, ALL, ONE }
 
 /** Why a text cannot be played. */
 sealed interface PlaybackProblem {
-    /** The speech engine chosen in the settings has no voice for the playlist's language on this device. */
-    data class NoVoice(val engineName: String, val languageId: Long, val languageName: String) : PlaybackProblem
+    /**
+     * The speech engine chosen in the settings has no voice for the playlist's language on this device;
+     * nor has the system, when not [systemVoice]. Without an engine chosen, [engineName] is empty.
+     */
+    data class NoVoice(val engineName: String, val languageId: Long, val languageName: String, val systemVoice: Boolean = true) : PlaybackProblem
 
     /** The text has nothing to read aloud: no page, or only empty ones. */
     data class NoText(val title: String) : PlaybackProblem
@@ -461,17 +467,18 @@ class PlaylistPlayer(
 
     /** Why the playlist's language cannot be spoken now, or null when it can. */
     private suspend fun problemFor(languageId: Long, code: String?): PlaybackProblem? {
-        val engine = engineInUse() ?: return null
         if (code == null) return null
+        val engine = engineInUse()
+        val system = output.hasVoice(code)
         val speaks = try {
-            engine.isReady() && engine.voices(code).isNotEmpty()
+            if (engine == null) system else engine.isReady() && engine.voices(code).isNotEmpty()
         } catch (e: CancellationException) {
             throw e
         } catch (e: Exception) {
             false
         }
         if (speaks) return null
-        return PlaybackProblem.NoVoice(engine.displayName, languageId, languages.getById(languageId)?.name.orEmpty())
+        return PlaybackProblem.NoVoice(engine?.displayName.orEmpty(), languageId, languages.getById(languageId)?.name.orEmpty(), system)
     }
 
     private fun engineInUse(): LocalSpeechEngine? = local.find(settings.current.speechEngine)
