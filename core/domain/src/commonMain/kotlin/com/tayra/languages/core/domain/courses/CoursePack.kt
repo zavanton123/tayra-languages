@@ -249,7 +249,7 @@ object CoursePacks {
             title = "Macedonian",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-mk.sqlite.gzip",
-            downloadSize = 1_358_469,
+            downloadSize = 1_353_799,
         ),
         CoursePack(
             id = "courses-hr",
@@ -265,7 +265,7 @@ object CoursePacks {
             title = "Bulgarian",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-bg.sqlite.gzip",
-            downloadSize = 1_423_721,
+            downloadSize = 1_423_473,
         ),
         CoursePack(
             id = "courses-bs",
@@ -354,6 +354,14 @@ object CoursePacks {
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-cy.sqlite.gzip",
             downloadSize = 1_092_492,
+        ),
+        CoursePack(
+            id = "courses-yue",
+            languageCode = "yue",
+            title = "Cantonese",
+            summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, in everyday written Cantonese.",
+            url = "$BASE_URL/courses-yue.sqlite.gzip",
+            downloadSize = 1_180_182,
         ),
     )
 
