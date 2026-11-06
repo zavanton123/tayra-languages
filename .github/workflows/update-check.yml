@@ -184,6 +184,6 @@ jobs:
           cfg=$(rpm -ql tayra-languages | grep '/lib/app/.*\.cfg$' | grep -v '/tayra\.cfg$' | head -n 1)
           grep "tayra.version=$OLD" "$cfg"
           # The app runs this under pkexec, which asks for the password.
-          rpm -U --replacepkgs ./rpms/new.rpm
+          rpm -U --replacepkgs --nosignature ./rpms/new.rpm
           grep "tayra.version=$NEW" "$cfg"
           rpm -q tayra-languages

@@ -152,8 +152,11 @@ and checks it against the SHA-256 GitHub records for each asset. Installing: on 
 from the tarball a script started before the app quits waits for its process to end, replaces the
 app (the DMG's bundle copied with `ditto` beside the old one, which is removed only once the new
 one is in place; `msiexec /passive` upgrading through the MSIs' shared upgrade code; the tarball's
-folder swapped in) and opens it again; DEB and RPM are installed with `pkexec dpkg -i` or `rpm -U`
-while the app still runs, and the new version is started after. The scripts log to
+folder swapped in) and opens it again; DEB and RPM are installed with `pkexec dpkg -i` or
+`rpm -U --replacepkgs --nosignature` while the app still runs, and the new version is started
+after. The RPMs are unsigned, and from Fedora 45 on rpm refuses that by default
+(`%_pkgverify_level all`) unless told not to look for a signature; the SHA-256 check above vouches
+for the download, and rpm still checks the package's own digests. The scripts log to
 `update.log` beside the download. An Intel Mac (no DMG of its own), or an app in a folder it
 cannot write to, is offered the release page instead.
 

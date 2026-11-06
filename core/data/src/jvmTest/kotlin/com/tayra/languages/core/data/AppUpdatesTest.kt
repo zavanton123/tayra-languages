@@ -161,6 +161,22 @@ class AppUpdatesTest {
         assertTrue(exited)
     }
 
+    @Test
+    fun anRpmPackageIsUpgradedWithoutAskingForASignature() = runTest {
+        val opt = File(dir, "opt")
+        val launcher = File(opt, "tayra-languages/bin/tayra-languages").apply { parentFile.mkdirs(); writeText("") }
+        val updater = DesktopAppUpdater(
+            client(), "0.5.0", launcher, "https://api.example/repos/x/releases", "linux", "amd64", File(dir, "work"), packagesRoot = opt.absolutePath + "/",
+            debianPackage = { false }, start = { command, _ -> started += command }, run = { command, _ -> started += command; 0 }, exit = { exited = true },
+        )
+        assertEquals(Installation.LINUX_RPM, updater.installation)
+
+        updater.installAndRestart(File(dir, "new.rpm").absolutePath)
+        // .github/workflows/update-check.yml upgrades with this same command in a Fedora container.
+        assertEquals(listOf(listOf("pkexec", "rpm", "-U", "--replacepkgs", "--nosignature", File(dir, "new.rpm").absolutePath), listOf(launcher.absolutePath)), started)
+        assertTrue(exited)
+    }
+
     /** A process that has already ended, for the scripts to wait on. */
     private fun endedProcess(): String = ProcessBuilder("true").start().apply { waitFor() }.pid().toString()
 

@@ -190,7 +190,8 @@ class DesktopAppUpdater(
                 start(windowsCommand(script.absolutePath, pid, file.absolutePath, appLauncher!!.absolutePath), log)
             }
             Installation.LINUX_DEB, Installation.LINUX_RPM -> {
-                val install = if (kind == Installation.LINUX_DEB) listOf("dpkg", "-i") else listOf("rpm", "-U", "--replacepkgs")
+                // The RPMs are unsigned, which rpm refuses by default from Fedora 45 on; download() checked the SHA-256 and rpm still checks the package's digests.
+                val install = if (kind == Installation.LINUX_DEB) listOf("dpkg", "-i") else listOf("rpm", "-U", "--replacepkgs", "--nosignature")
                 val code = run(listOf("pkexec") + install + file.absolutePath, log)
                 if (code != 0) throw IllegalStateException("The package was not installed (${if (code == 126 || code == 127) "the password was not given" else "exit code $code"})")
                 file.delete()
