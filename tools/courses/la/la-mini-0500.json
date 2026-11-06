@@ -86,18 +86,17 @@
     },
     {
       "title": "Classis in numeris",
-      "summary": "Before their classroom gets new furniture, Statilius's class in Arezzo measures it, and Gellia writes down the data and adds up the sides.",
+      "summary": "Before their classroom gets new furniture, Statilius's class in Arezzo measures it, and Gellia writes down the numbers and adds up the sides.",
       "newWords": [
         "metrum",
         "spatium",
         "altus",
         "summa",
         "addo",
-        "datum",
         "mutatio",
         "naturalis"
       ],
-      "text": "Statilius scientiam naturalem et numeros in schola Arretii docet. Mox in classe eius mutatio erit: classis novas sedes et novam tabulam accipiet. Sed ante mutationem magister data de classe habere vult.\n\n«Hodie spatium classis nostrae metiemur», dicit magister.\n\nGellia lineam longam habet, in qua signa metrorum sunt. Primum Gellia et magister classem metiuntur.\n\n«Classis 8 metra longa est», dicit Gellia. «Et 6 metra lata.»\n\n«Bene», dicit magister. «Quam alta est?»\n\n«Classis 4 metra alta est», dicit Gellia. Gellia omnia data in tabula scribit: longa 8 metra, lata 6 metra, alta 4 metra.\n\n«Nunc numeros addite», dicit magister. «Quae est summa omnium laterum classis?»\n\nGellia numeros addit: 8 et 6 et 8 et 6. «Summa est 28 metra», dicit Gellia.\n\n«Bene», dicit magister. «In scientia naturali data magni momenti sunt. Sine datis nihil scimus.»\n\nStatilius data, quae Gellia scripsit, viro dat, qui sedes et tabulam novam facit. Post mutationem spatium classis idem est, sed classis nova videtur. Spatium inter sedes maius est, et tabula nova maior est.\n\nQuaestiones:\nQuid Statilius docet?\nStatilius scientiam naturalem et numeros docet.\nQuae mutatio mox in classe erit?\nClassis novas sedes et novas tabulas accipiet.\nQuam alta est classis?\nClassis 4 metra alta est.\nQuid Gellia in tabula scribit?\nGellia omnia data in tabula scribit.\nQuae est summa omnium laterum?\nGellia numeros addit. Summa est 28 metra."
+      "text": "Statilius scientiam naturalem et numeros in schola Arretii docet. Mox in classe eius mutatio erit: classis novas sedes et novam tabulam accipiet. Sed ante mutationem magister numeros classis habere vult.\n\n«Hodie spatium classis nostrae metiemur», dicit magister.\n\nGellia lineam longam habet, in qua signa metrorum sunt. Primum Gellia et magister classem metiuntur.\n\n«Classis 8 metra longa est», dicit Gellia. «Et 6 metra lata.»\n\n«Bene», dicit magister. «Quam alta est?»\n\n«Classis 4 metra alta est», dicit Gellia. Gellia omnes numeros in tabula scribit: longa 8 metra, lata 6 metra, alta 4 metra.\n\n«Nunc numeros addite», dicit magister. «Quae est summa omnium laterum classis?»\n\nGellia numeros addit: 8 et 6 et 8 et 6. «Summa est 28 metra», dicit Gellia.\n\n«Bene», dicit magister. «In scientia naturali numeri magni momenti sunt. Sine numeris nihil scimus.»\n\nStatilius numeros, quos Gellia scripsit, viro dat, qui sedes et tabulam novam facit. Post mutationem spatium classis idem est, sed classis nova videtur. Spatium inter sedes maius est, et tabula nova maior est.\n\nQuaestiones:\nQuid Statilius docet?\nStatilius scientiam naturalem et numeros docet.\nQuae mutatio mox in classe erit?\nClassis novas sedes et novas tabulas accipiet.\nQuam alta est classis?\nClassis 4 metra alta est.\nQuid Gellia in tabula scribit?\nGellia omnes numeros in tabula scribit.\nQuae est summa omnium laterum?\nGellia numeros addit. Summa est 28 metra."
     },
     {
       "title": "Castellum in valle",
