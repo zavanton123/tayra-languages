@@ -1,0 +1,200 @@
+{
+  "id": "gd-mini-0200",
+  "rankUpTo": 200,
+  "level": "A1",
+  "title": "Latha àbhaisteach",
+  "description": "Ten short, simple stories about ordinary days in Gaelic-speaking Scotland: walking the dog, a new school, bread for the family, an old song, a hill walk, work at sea, student life, a kind old man, two sisters and a busy shop.",
+  "topic": "Everyday life",
+  "names": [
+    "Pàdraig",
+    "Eimhir",
+    "Artair",
+    "Ùna",
+    "Dùghall",
+    "Ciorstaidh",
+    "Daibhidh",
+    "Ailean",
+    "Sìleas",
+    "Beasag",
+    "Raibeart",
+    "Muile",
+    "Canada",
+    "Giorsal",
+    "Tòmas",
+    "Peadar",
+    "Màiri",
+    "Ailis",
+    "Eàirdsidh",
+    "Catrìona"
+  ],
+  "lessons": [
+    {
+      "title": "An cù air an rathad",
+      "summary": "On a cold day Pàdraig takes his dog out, the dog runs off along the road, and Pàdraig catches it.",
+      "newWords": [
+        "cù",
+        "a-mach",
+        "a-steach",
+        "a-nis",
+        "fuar",
+        "rathad",
+        "càite",
+        "fhathast",
+        "beir",
+        "gaol",
+        "sgìth",
+        "iarraidh"
+      ],
+      "text": "Tha cù aig Pàdraig. Tha gaol mòr aig Pàdraig air a' chù.\n\nA h-uile latha, bidh Pàdraig a' dol a-mach leis a' chù. An-diugh tha an latha fuar, agus tha Pàdraig sgìth. Tha e ag iarraidh fuireach anns an taigh, ach tha an cù ag iarraidh a dhol a-mach.\n\nChaidh iad a-mach. Bha an rathad fuar. Chaidh an cù air an rathad, agus dh'fhalbh e.\n\n“Càite a bheil an cù?” thuirt Pàdraig.\n\nChan fhaca e an cù. Chaidh Pàdraig air an rathad cuideachd. An dèidh uair, chunnaic e an cù. Bha an cù fhathast air an rathad, faisg air an uisge. Rug Pàdraig air a' chù.\n\n“A-nis tha sinn a' dol a-steach,” thuirt Pàdraig.\n\nChaidh iad a-steach. A-nis tha an cù anns an taigh, agus tha e sgìth cuideachd. Tha Pàdraig fhathast fuar, ach tha an cù aige.\n\nCeistean:\nA bheil gaol aig Pàdraig air a' chù?\nTha. Tha gaol mòr aig Pàdraig air a' chù.\nDè tha an cù ag iarraidh?\nTha an cù ag iarraidh a dhol a-mach.\nA bheil an latha fuar?\nTha. Tha an latha fuar an-diugh.\nCàite an robh an cù?\nBha an cù air an rathad, faisg air an uisge.\nCò rug air a' chù?\nRug Pàdraig air a' chù.\nCàite a bheil an cù a-nis?\nTha an cù anns an taigh a-nis."
+    },
+    {
+      "title": "An sgoil ùr",
+      "summary": "Eimhir starts at a new school, learns many new words and makes a new friend.",
+      "newWords": [
+        "sgoil",
+        "ùr",
+        "nighean",
+        "caraid",
+        "ionnsachadh",
+        "facal",
+        "toilichte",
+        "tòisich",
+        "mòran",
+        "rud"
+      ],
+      "text": "Tha nighean aig Artair. 'S e Eimhir an t-ainm aice. Tha taigh ùr aca a-nis, agus tha sgoil ùr aig Eimhir.\n\nAn-diugh thòisich Eimhir anns an sgoil ùr. Chan eil caraid aice anns an sgoil fhathast. Tha a h-uile rud ùr. Tha mòran rudan ann, agus tha mòran dhaoine ann.\n\nThòisich an obair. Tha Eimhir ag ionnsachadh mòran fhaclan ùra. Sgrìobh i a h-uile facal ùr anns an leabhar aice. 'S e rud math a th' ann an ionnsachadh.\n\nAn dèidh sin, thàinig nighean eile thuice.\n\n“Dè an t-ainm a th' ort?” thuirt an nighean.\n\n“'S e Eimhir a th' orm,” thuirt Eimhir. “Tha mi ùr an seo.”\n\n“'S e Ùna a th' orm. Thòisich mise an-dè! Tha mi ùr cuideachd,” thuirt Ùna.\n\nAig an taigh, thuirt Eimhir ri Artair: “Tha mi toilichte! Tha sgoil ùr agam, agus tha caraid ùr agam.”\n\nBha Artair toilichte cuideachd.\n\nCeistean:\nCò an nighean aig Artair?\n'S e Eimhir an nighean aig Artair.\nCàite an do thòisich Eimhir an-diugh?\nThòisich i anns an sgoil ùr.\nDè tha Eimhir ag ionnsachadh?\nTha i ag ionnsachadh mòran fhaclan ùra.\nCò an caraid ùr aig Eimhir?\n'S e Ùna an caraid ùr aice.\nA bheil Eimhir toilichte?\nTha. Tha Eimhir toilichte."
+    },
+    {
+      "title": "Gu leòr arain",
+      "summary": "Dùghall shares out the bread for his family and his son's friends, finds it is not enough and goes out to buy more.",
+      "newWords": [
+        "aran",
+        "biadh",
+        "ceannach",
+        "gach",
+        "roinn",
+        "teaghlach",
+        "leòr",
+        "beagan",
+        "barrachd",
+        "mac"
+      ],
+      "text": "Tha Dùghall a' fuireach ann an taigh mòr le a theaghlach. Tha dà mhac agus nighean aige. Gach latha, bidh e a' ceannach arain agus bìdh eile airson an teaghlaich.\n\nAn-diugh cheannaich Dùghall aran agus beagan bìdh, mar a h-uile latha. Nuair a chaidh e a-steach, bha dà charaid aig a mhac anns an taigh. Bha mòran dhaoine anns an taigh a-nis.\n\nRoinn Dùghall an t-aran. Roinn e am biadh cuideachd. Fhuair gach duine beagan arain agus beagan bìdh, ach cha robh gu leòr ann.\n\n“A bheil barrachd arain ann?” thuirt a mhac.\n\n“Chan eil,” thuirt Dùghall.\n\nChaidh Dùghall a-mach. Cheannaich e barrachd arain agus barrachd bìdh. Roinn e am biadh aig an taigh. An dèidh sin, fhuair gach duine gu leòr, agus bha an teaghlach toilichte.\n\nCeistean:\nDè a bhios Dùghall a' ceannach gach latha?\nBidh e a' ceannach arain agus bìdh eile.\nCò bha aig a mhac anns an taigh?\nBha dà charaid aig a mhac anns an taigh.\nCò roinn an t-aran?\nRoinn Dùghall an t-aran.\nAn robh gu leòr ann?\nCha robh. Cha robh gu leòr ann.\nDè a cheannaich Dùghall an dèidh sin?\nCheannaich e barrachd arain agus barrachd bìdh."
+    },
+    {
+      "title": "An seann òran",
+      "summary": "Ciorstaidh cannot remember the words of a famous old song, so her friend Daibhidh says them for her.",
+      "newWords": [
+        "ceòl",
+        "òran",
+        "toigh",
+        "can",
+        "ainmeil",
+        "cuimhne",
+        "sean",
+        "a-rithist",
+        "idir",
+        "linn"
+      ],
+      "text": "Is toigh le Ciorstaidh ceòl. Is toigh leatha òrain cuideachd.\n\nAn-dè chuala i seann òran. 'S e òran ainmeil a th' ann, bho sheann linn. Tha e fhathast ainmeil anns an linn seo. Bha an t-òran math, ach cha robh cuimhne aice air na faclan idir.\n\nTha caraid aig Ciorstaidh, Daibhidh. Is toigh leis-san ceòl cuideachd. Chaidh i gu taigh Dhaibhidh.\n\n“A bheil cuimhne agad air an t-seann òran seo?” thuirt Ciorstaidh.\n\n“Tha,” thuirt Daibhidh. “Tha cuimhne agam air gu math. Is toigh leam e.”\n\n“Chan eil cuimhne agam air na faclan idir,” thuirt Ciorstaidh. “Can na faclan, mas e do thoil e.”\n\nThuirt Daibhidh na faclan.\n\n“Can iad a-rithist!” thuirt Ciorstaidh.\n\nThuirt e na faclan a-rithist, agus sgrìobh Ciorstaidh iad. Sheinn Ciorstaidh an t-òran. A-nis tha cuimhne aice air an òran.\n\nCeistean:\nAn toigh le Ciorstaidh ceòl?\n'S toigh. Is toigh le Ciorstaidh ceòl.\nA bheil an t-òran ainmeil?\nTha. 'S e òran ainmeil a th' ann.\nAn robh cuimhne aig Ciorstaidh air na faclan?\nCha robh. Cha robh cuimhne aice air na faclan idir.\nCò aig an robh cuimhne air an òran?\nBha cuimhne aig Daibhidh air an òran.\nDè a sgrìobh Ciorstaidh?\nSgrìobh Ciorstaidh na faclan."
+    },
+    {
+      "title": "A' bheinn agus an loch",
+      "summary": "Ailean and Sìleas walk through the town and spend the whole day on a mountain to the north.",
+      "newWords": [
+        "beinn",
+        "àirde",
+        "loch",
+        "fada",
+        "fad",
+        "tuath",
+        "deas",
+        "tro",
+        "àite",
+        "còmhla"
+      ],
+      "text": "Tha Ailean agus Sìleas nan caraidean. Tha iad ag iarraidh a dhol gu àite ùr còmhla. Tha beinn gu tuath air a' bhaile aca, agus tha loch gu deas air.\n\n“A bheil thu ag iarraidh a dhol gu tuath no gu deas?” thuirt Sìleas.\n\n“Gu tuath,” thuirt Ailean. “Tha mi ag iarraidh a dhol air a' bheinn.”\n\nChaidh iad còmhla tron bhaile. Bha an rathad tron bhaile fada. An dèidh sin, bha iad air a' bheinn. Tha àirde mhòr anns a' bheinn seo, agus tha i fada bhon bhaile.\n\nBha iad air a' bheinn fad an latha. Aig àirde mhòr, chunnaic iad an loch fada gu deas.\n\n“'S e seo an t-àite as fheàrr!” thuirt Sìleas.\n\nBha an latha fada, ach bha Ailean agus Sìleas toilichte. Thàinig iad còmhla tron bhaile a-rithist.\n\nCeistean:\nCàite a bheil a' bheinn?\nTha a' bheinn gu tuath air a' bhaile.\nCàite a bheil an loch?\nTha an loch gu deas air a' bhaile.\nA bheil àirde mhòr anns a' bheinn?\nTha. Tha àirde mhòr anns a' bheinn.\nDè a chunnaic iad bhon bheinn?\nChunnaic iad an loch.\nAn robh iad air a' bheinn fad an latha?\nBha. Bha iad air a' bheinn fad an latha."
+    },
+    {
+      "title": "Thar na mara",
+      "summary": "Raibeart works at sea, sees many countries and writes often to Beasag, and now he is coming home to Mull.",
+      "newWords": [
+        "muir",
+        "thar",
+        "thall",
+        "cànan",
+        "saoghal",
+        "iomadh",
+        "tric",
+        "aois",
+        "prìomh-bhaile",
+        "tighinn"
+      ],
+      "text": "Tha mac aig Beasag. 'S e Raibeart an t-ainm aige, agus tha e 30 bliadhna a dh'aois. Tha Beasag a' fuireach ann am Muile.\n\nTha Raibeart ag obair air muir. Thòisich e aig aois 20. Bidh e a' falbh thar na mara gu iomadh dùthaich. Chunnaic e iomadh prìomh-bhaile agus mòran den t-saoghal. Tha iomadh cànan anns an t-saoghal, agus tha Raibeart ag ionnsachadh facal no dhà anns gach cànan.\n\nBidh e a' sgrìobhadh gu tric gu Beasag. An-dè fhuair i litir bhuaithe.\n\n“Tha mi thall ann an Canada a-nis,” sgrìobh Raibeart. “Chunnaic mi am prìomh-bhaile. Tha mi a' tighinn thar na mara gu Muile.”\n\nBha Beasag toilichte. Bidh i a' sgrìobhadh gu tric thuige, ach a-nis tha a mac fhèin a' tighinn.\n\nCeistean:\nDè an aois a tha Raibeart?\nTha e 30 bliadhna a dh'aois.\nCàite a bheil Raibeart ag obair?\nTha e ag obair air muir.\nAm faca Raibeart mòran den t-saoghal?\nChunnaic. Chunnaic e mòran den t-saoghal.\nA bheil e a' sgrìobhadh gu tric?\nTha. Bidh e a' sgrìobhadh gu tric gu Beasag.\nCàite a bheil Raibeart a-nis?\nTha e thall ann an Canada.\nA bheil e a' tighinn gu Muile?\nTha. Tha e a' tighinn thar na mara gu Muile."
+    },
+    {
+      "title": "An deagh oileanach",
+      "summary": "Giorsal, a student, does one part of a big piece of work each day and finishes it at the end of the year.",
+      "newWords": [
+        "oileanach",
+        "àm",
+        "ìre",
+        "deireadh",
+        "crìoch",
+        "pàirt",
+        "deagh",
+        "gus",
+        "cleachdadh",
+        "cùm"
+      ],
+      "text": "Tha Giorsal anns a' bhaile gus ionnsachadh. 'S e deagh oileanach a th' innte. A-nis tha i aig ìre ùr, agus tha an obair aig an ìre seo mòr.\n\nAig an àm seo den bhliadhna, tha obair mhòr aig gach oileanach. Tha trì pàirtean anns an obair aig Giorsal. Tha i a' cleachdadh mòran leabhraichean gus an obair a dhèanamh. Chùm i na leabhraichean anns an taigh.\n\nBidh i a' dèanamh aon phàirt gach latha. 'S e deagh chleachdadh a th' ann. Rinn i a' chiad phàirt, agus chùm i oirre. Rinn i pàirt eile, agus chùm i oirre a-rithist.\n\nThàinig an t-àm. Aig deireadh na bliadhna, chuir Giorsal crìoch air an obair. An dèidh sin, bha i sgìth, ach bha i toilichte.\n\n“Rinn thu deagh obair!” thuirt caraid rithe.\n\nCeistean:\nAn e oileanach a th' ann an Giorsal?\n'S e. 'S e deagh oileanach a th' innte.\nA bheil trì pàirtean anns an obair?\nTha. Tha trì pàirtean anns an obair.\nDè a bhios i a' dèanamh gach latha?\nBidh i a' dèanamh aon phàirt gach latha.\nDè tha i a' cleachdadh gus an obair a dhèanamh?\nTha i a' cleachdadh mòran leabhraichean.\nCuin a chuir i crìoch air an obair?\nChuir i crìoch air an obair aig deireadh na bliadhna."
+    },
+    {
+      "title": "An duine còir",
+      "summary": "Tòmas, new to the district, meets a kind old man who tells him the way to the school where he starts work tomorrow.",
+      "newWords": [
+        "sgìre",
+        "tachair",
+        "còir",
+        "cinnteach",
+        "faod",
+        "ciamar",
+        "ged",
+        "dìreach",
+        "ro",
+        "a-màireach"
+      ],
+      "text": "Tha Tòmas ùr anns an sgìre. A-màireach tha obair ùr aige anns an sgoil, ach chan eil e cinnteach càite a bheil i.\n\nAn-diugh chaidh e a-mach air an rathad. Thachair e ri seann duine còir.\n\n“Ciamar a tha sibh?” thuirt Tòmas.\n\n“Tha gu math,” thuirt an duine. “Ciamar a tha sibh fhèin?”\n\n“Tha gu math. Am faod mi bruidhinn ribh?” thuirt Tòmas.\n\n“Faodaidh,” thuirt an duine.\n\n“Tha mi ùr anns an sgìre. Ciamar a gheibh mi don sgoil?” thuirt Tòmas.\n\n“Chan eil an sgoil ro fhada,” thuirt an duine. “Ged a tha an rathad fada, tha e dìreach. Rachaibh dìreach air an rathad seo.”\n\n“A bheil sibh cinnteach?” thuirt Tòmas.\n\n“Tha mi cinnteach. Ged a tha mi sean, tha cuimhne agam air gach rathad anns an sgìre,” thuirt an duine còir.\n\nA-màireach, bidh Tòmas a' dol dìreach don sgoil. A-nis tha e cinnteach, agus tha e toilichte.\n\nCeistean:\nCò ris a thachair Tòmas?\nThachair e ri seann duine còir.\nDè tha aig Tòmas a-màireach?\nTha obair ùr aige a-màireach.\nA bheil an sgoil ro fhada?\nChan eil. Chan eil an sgoil ro fhada.\nA bheil an rathad dìreach?\nTha. Ged a tha e fada, tha e dìreach.\nA bheil Tòmas cinnteach a-nis?\nTha. Tha e cinnteach a-nis."
+    },
+    {
+      "title": "Coltach ri chèile",
+      "summary": "A man in a shop keeps mixing up the sisters Màiri and Ailis, who look very alike, and in the end he does not mind.",
+      "newWords": [
+        "coltach",
+        "cèile",
+        "aghaidh",
+        "ur",
+        "ceart",
+        "uabhasach",
+        "coma",
+        "an-dràsta"
+      ],
+      "text": "Tha dà nighean aig Peadar: Màiri agus Ailis. Tha iad uabhasach coltach ri chèile. Tha an aon aghaidh aca.\n\nTha Ailis ag obair ann am bùth. An-diugh thàinig fear a-steach.\n\n“A bheil thu ag obair an seo an-dràsta, a Mhàiri?” thuirt e.\n\n“Chan eil sin ceart,” thuirt i. “'S e Ailis a th' orm. Chan eil Màiri an seo an-dràsta.”\n\n“Ailis! Tha thu ceart,” thuirt am fear. “Tha sibh uabhasach coltach ri chèile.”\n\nAn dèidh sin, thàinig Màiri a-steach. A-nis chunnaic am fear an dà nighean còmhla.\n\n“Tha ur n-aghaidh uabhasach coltach ri chèile,” thuirt e. “A bheil ur taigh faisg air a' bhùth?”\n\n“Tha,” thuirt Màiri. “Ach cò mise? Màiri no Ailis?”\n\n“Chan eil fhios agam,” thuirt am fear, “ach tha mi coma. Tha sibh le chèile glè mhath.”\n\nTha Màiri agus Ailis coma cuideachd.\n\nCeistean:\nA bheil Màiri agus Ailis coltach ri chèile?\nTha. Tha iad uabhasach coltach ri chèile.\nA bheil an aon aghaidh aca?\nTha. Tha an aon aghaidh aca.\nCò tha ag obair anns a' bhùth?\nTha Ailis ag obair anns a' bhùth.\nCò thàinig a-steach an dèidh sin?\nThàinig Màiri a-steach an dèidh sin.\nA bheil am fear coma?\nTha. Tha am fear coma."
+    },
+    {
+      "title": "Bùth Eàirdsidh",
+      "summary": "Eàirdsidh's little shop is busy all day; he keeps a book Catrìona left behind and lets her dog come in.",
+      "newWords": [
+        "òl",
+        "toirt",
+        "fàg",
+        "leig",
+        "rèir",
+        "nì",
+        "os",
+        "trang"
+      ],
+      "text": "Tha bùth bheag aig Eàirdsidh. Tha e a' fuireach os cionn na bùtha. A rèir a h-uile duine anns a' bhaile, 's e àite math a th' ann.\n\nTha a' bhùth trang a h-uile latha. Bidh Eàirdsidh a' toirt bìdh agus tì do dhaoine, agus bidh daoine ag òl tì anns a' bhùth. Tha a h-uile nì aige ùr agus math.\n\nAn-diugh bha Eàirdsidh trang fad an latha. Thàinig Catrìona a-steach le a cù.\n\n“Am faod an cù tighinn a-steach?” thuirt i.\n\n“Faodaidh,” thuirt Eàirdsidh. Leig e leis a' chù tighinn a-steach.\n\nDh'òl Catrìona tì. An dèidh sin, dh'fhalbh i, ach dh'fhàg i a leabhar anns a' bhùth. Chùm Eàirdsidh an leabhar.\n\nAn ceann uair, thàinig i a-steach a-rithist. “Dh'fhàg mi nì an seo!” thuirt i. Thug Eàirdsidh an leabhar dhi. A rèir Chatrìona, 's e duine còir a th' ann.\n\nCeistean:\nCàite a bheil Eàirdsidh a' fuireach?\nTha e a' fuireach os cionn na bùtha.\nA bheil a' bhùth trang?\nTha. Tha a' bhùth trang a h-uile latha.\nDè tha Eàirdsidh a' toirt do dhaoine?\nTha e a' toirt bìdh agus tì do dhaoine.\nAn do leig Eàirdsidh leis a' chù tighinn a-steach?\nLeig. Leig e leis a' chù tighinn a-steach.\nDè a dh'òl Catrìona?\nDh'òl Catrìona tì.\nDè a dh'fhàg Catrìona anns a' bhùth?\nDh'fhàg i a leabhar anns a' bhùth."
+    }
+  ]
+}

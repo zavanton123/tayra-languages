@@ -1,0 +1,98 @@
+{
+  "id": "gd-mini-0300",
+  "rankUpTo": 300,
+  "level": "A1",
+  "title": "Biadh agus bùithtean",
+  "description": "Ten short, simple stories about food, meals, shops and shopping in Gaelic-speaking Scotland.",
+  "topic": "Food and shopping",
+  "names": [
+    "Ùisdean",
+    "Ùisdein",
+    "Liùsaidh",
+    "Griogair",
+    "Somhairle",
+    "Lileas",
+    "Nansaidh",
+    "Eairdsidh",
+    "Steòrnabhagh",
+    "Frangag",
+    "Anndra",
+    "Dolag",
+    "Gilleasbaig",
+    "Fionnghal",
+    "Fearghas",
+    "Glaschu",
+    "Leòdhas",
+    "Canada",
+    "Mata",
+    "Teasag",
+    "Pòl",
+    "Tiriodh",
+    "Eanraig",
+    "Màili",
+    "Cèitidh",
+    "Ìle"
+  ],
+  "lessons": [
+    {
+      "title": "Tha an t-acras air Ùisdean",
+      "summary": "A hungry boy comes home from school and eats bread at the table with his parents.",
+      "newWords": ["balach", "màthair", "athair", "acras", "ith", "bòrd", "tì", "ma", "carson", "oir"],
+      "text": "'S e balach a th' ann an Ùisdean. Tha e a' fuireach ann an taigh beag còmhla ri a mhàthair agus a athair.\n\nAn-diugh thàinig am balach bhon sgoil. Bha e sgìth agus bha an t-acras air. Bha a mhàthair anns an taigh. Bha aran agus tì air a' bhòrd.\n\n“Carson a tha thu cho sgìth, Ùisdein?” thuirt a mhàthair.\n\n“Tha mi sgìth oir tha an t-acras orm,” thuirt am balach.\n\n“Ma tha an t-acras ort, tha aran air a' bhòrd,” thuirt a mhàthair.\n\nDh'ith Ùisdean aran aig a' bhòrd agus dh'òl e tì. Bha e toilichte.\n\nAn dèidh sin thàinig a athair bhon obair, agus dh'ith e aran aig a' bhòrd cuideachd.\n\n“Carson a tha thu ag ithe a-nis?” thuirt Ùisdean.\n\n“Tha mi ag ithe oir tha an t-acras orm fhìn cuideachd,” thuirt a athair. “Ma tha tì ann, tha mi ag iarraidh tì cuideachd.”\n\nDh'òl am balach, a mhàthair agus a athair tì còmhla.\n\nCeistean:\nCò às a thàinig am balach?\nThàinig am balach bhon sgoil.\nCarson a bha Ùisdean sgìth?\nBha e sgìth oir bha an t-acras air.\nDè a bha air a' bhòrd?\nBha aran agus tì air a' bhòrd.\nDè a dh'ith Ùisdean?\nDh'ith Ùisdean aran.\nCò thàinig bhon obair?\nThàinig athair Ùisdein bhon obair."
+    },
+    {
+      "title": "A' bhùth aig Liùsaidh",
+      "summary": "Liùsaidh has founded a bread shop in the middle of town, and Griogair buys her special dark bread.",
+      "newWords": ["stèidhich", "meadhan", "taghadh", "seòrsa", "còig", "sònraichte", "dubh", "fàilte", "beatha", "dùin"],
+      "text": "Stèidhich Liùsaidh bùth ann am meadhan a' bhaile. 'S e bùth arain a th' ann. Stèidhich i a' bhùth oir tha gaol aice air aran.\n\nTha taghadh mòr anns a' bhùth. Tha còig seòrsaichean arain ann, agus tha aon seòrsa sònraichte ann: aran dubh. Chan eil aran dubh ann an àite eile anns a' bhaile. Tha fàilte air a h-uile duine an seo.\n\nAn-diugh thàinig Griogair a-steach.\n\n“Fàilte oirbh!” thuirt Liùsaidh.\n\n“Tha taghadh mòr agaibh,” thuirt Griogair. “Dè an seòrsa arain a tha sònraichte?”\n\n“Tha an t-aran dubh sònraichte,” thuirt Liùsaidh.\n\nCheannaich Griogair aran dubh.\n\n“Tapadh leibh,” thuirt e.\n\n“'S e ur beatha,” thuirt Liùsaidh.\n\n'S e a' bhùth a beatha a-nis. Bidh i ag obair an sin a h-uile latha. An-diugh dhùin i a' bhùth aig còig uairean, agus chaidh i gu a taigh fhèin.\n\nCeistean:\nCò a stèidhich a' bhùth?\nStèidhich Liùsaidh a' bhùth.\nCàit a bheil a' bhùth?\nTha i ann am meadhan a' bhaile.\nA bheil còig seòrsaichean arain aig Liùsaidh?\nTha. Tha còig seòrsaichean arain aice.\nDè an seòrsa arain a tha sònraichte?\nTha an t-aran dubh sònraichte.\nDè thuirt Liùsaidh nuair a thàinig Griogair a-steach?\nThuirt i: Fàilte oirbh!\nAn do dhùin Liùsaidh a' bhùth aig còig uairean?\nDhùin. Dhùin i a' bhùth aig còig uairean."
+    },
+    {
+      "title": "Thuit an t-airgead",
+      "summary": "Somhairle drops his money on the way to the shop, and his friend Lileas spots it on the road.",
+      "newWords": ["làmh", "tuit", "càil", "caill", "lorg", "nochd", "rudeigin", "siud", "creid", "iongnadh"],
+      "text": "Chaidh Somhairle don bhùth. Bha e airson aran a cheannach. Bha £10 aige na làimh.\n\nAir an rathad, thuit an t-airgead às a làimh. Chan fhaca Somhairle e.\n\nAig a' bhùth, cha robh càil na làimh.\n\n“Chaill mi an t-airgead agam!” thuirt e.\n\nDh'fhalbh e bhon bhùth. Bha e a' lorg an airgid air an rathad, ach cha do lorg e càil.\n\nAn dèidh sin nochd Lileas air an rathad. 'S e caraid a th' innte.\n\n“Dè tha thu a' lorg?” thuirt Lileas.\n\n“Chaill mi £10,” thuirt Somhairle. “Thuit e às mo làimh.”\n\nBha rudeigin air taobh an rathaid.\n\n“Dè tha siud?” thuirt Lileas. “Tha rudeigin an siud. 'S e £10 a th' ann!”\n\n“Cha chreid mi e!” thuirt Somhairle.\n\nNochd Lileas an t-airgead dha, agus chreid e i. Bha iongnadh mòr air.\n\n“Tha iongnadh orm!” thuirt e. “Tapadh leat, a Lileas!”\n\nChaidh Somhairle don bhùth agus cheannaich e aran.\n\nCeistean:\nDè a bha aig Somhairle na làimh?\nBha £10 aige na làimh.\nDè a chaill Somhairle?\nChaill e an t-airgead aige.\nCò a nochd air an rathad?\nNochd Lileas air an rathad.\nDè a chunnaic Lileas an siud?\nChunnaic i £10.\nAn robh iongnadh air Somhairle?\nBha. Bha iongnadh mòr air."
+    },
+    {
+      "title": "Turas anns a' chàr",
+      "summary": "Nansaidh drives her old car a long way to the big shop in bad weather and gets home safely.",
+      "newWords": ["càr", "turas", "cor", "droch", "aimsir", "fliuch", "mìle", "dragh", "luath", "till"],
+      "text": "Tha Nansaidh a' fuireach ann am baile beag. Tha a' bhùth mhòr ann an Steòrnabhagh, 30 mìle bhon taigh aice. Cha robh mòran bìdh aice, agus an-diugh chaidh i ann anns a' chàr.\n\nTha an càr sean agus tha e ann an droch chor. Bha droch aimsir ann cuideachd. Bha an latha fliuch agus fuar, agus bha an rathad fliuch.\n\nBha dragh air Nansaidh. Cha deach an càr luath. Chaidh i mìle an dèidh mìle. Bha an turas fada.\n\nAnn an Steòrnabhagh cheannaich i aran, tì agus iasg. An dèidh sin thill i gu a taigh fhèin. A-nis bha an aimsir math, agus cha robh dragh oirre. Bha an càr luath gu leòr.\n\nNuair a thill i, chunnaic i Eairdsidh faisg air an taigh.\n\n“Ciamar a bha an turas?” thuirt Eairdsidh.\n\n“Bha e fada,” thuirt Nansaidh, “ach tha an càr ann an cor math fhathast.”\n\nCeistean:\nCàit a bheil a' bhùth mhòr?\nTha a' bhùth mhòr ann an Steòrnabhagh.\nA bheil Steòrnabhagh 30 mìle bhon taigh aice?\nTha. Tha e 30 mìle bhon taigh aice.\nCiamar a bha an aimsir?\nBha droch aimsir ann.\nCarson a bha dragh air Nansaidh?\nBha dragh oirre oir bha an càr ann an droch chor agus bha an rathad fliuch.\nDè a cheannaich i?\nCheannaich i aran, tì agus iasg.\nAn do thill i?\nThill. Thill i gu a taigh fhèin."
+    },
+    {
+      "title": "Biadh a-nochd",
+      "summary": "Frangag's two young children play with a ball, hear her singing, come in to eat and sing with her.",
+      "newWords": ["dithis", "clann", "òg", "àbhaist", "cluich", "ball", "seinn", "cluinn", "a-nochd", "leth"],
+      "text": "Tha dithis chloinne aig Frangag. 'S e Anndra agus Dolag an t-ainm a th' orra. Tha a' chlann òg: tha Anndra 6 bliadhna a dh'aois agus tha Dolag 8.\n\nMar as àbhaist, bidh an dithis a' cluich le ball faisg air an taigh an dèidh na sgoile. Mar as àbhaist, bidh Frangag a' seinn nuair a bhios i ag obair.\n\nAn-diugh bha a' chlann a' cluich leis a' bhall. Bha Frangag anns an taigh, agus bha i a' seinn. Chuala a' chlann i a' seinn. Thàinig iad a-steach.\n\n“Dè tha sinn ag ithe a-nochd?” thuirt Dolag.\n\n“Tha iasg againn a-nochd,” thuirt Frangag, “agus tha aran ann cuideachd.”\n\nBha aon phìos mòr arain air a' bhòrd. Thug Frangag leth do dh'Anndra agus leth do Dholag.\n\nAn dèidh a' bhìdh, sheinn an dithis òran còmhla ri am màthair.\n\n“Chuala mi sibh a' seinn a-nochd,” thuirt Frangag. “Tha clann òg math agam.”\n\nCeistean:\nCò a' chlann aig Frangag?\n'S e Anndra agus Dolag a' chlann aig Frangag.\nA bheil a' chlann òg?\nTha. Tha a' chlann òg.\nDè a bhios an dithis a' dèanamh mar as àbhaist?\nBidh iad a' cluich le ball.\nDè a chuala a' chlann?\nChuala iad Frangag a' seinn.\nDè a tha aca a-nochd?\nTha iasg agus aran aca a-nochd.\nDè a thug Frangag do dh'Anndra?\nThug i leth an arain do dh'Anndra."
+    },
+    {
+      "title": "An t-each dubh",
+      "summary": "Gilleasbaig lifts potatoes in his west field, and his black horse comes from the east field and follows him.",
+      "newWords": ["achadh", "iar", "ear", "fàs", "each", "gràdh", "togail", "feadh", "lean", "tog"],
+      "text": "Tha dà achadh aig Gilleasbaig. Tha aon achadh air taobh an iar an taighe, agus tha an t-achadh eile air taobh an ear.\n\nAnns an achadh an iar tha buntàta a' fàs. Bidh mòran bìdh a' fàs an sin. Anns an achadh an ear tha each dubh. Tha gràdh mòr aig Gilleasbaig air an each.\n\nAn-diugh tha Gilleasbaig a' togail buntàta. Tha e ag obair air feadh an achaidh an iar. Thàinig an t-each bhon achadh an ear, agus lean e Gilleasbaig. Bha e a' leantainn Ghilleasbaig air feadh an achaidh.\n\n“Tha an t-acras ort, a ghràidh,” thuirt Gilleasbaig ris an each.\n\nBha aran aig Gilleasbaig. Thog e pìos arain agus thug e don each e. Dh'ith an t-each an t-aran. Thill an t-each don achadh an ear, agus lean Gilleasbaig e.\n\nAn dèidh sin bha Gilleasbaig a' togail buntàta a-rithist. Thog e mòran buntàta an-diugh.\n\nCeistean:\nDè a tha a' fàs anns an achadh an iar?\nTha buntàta a' fàs anns an achadh an iar.\nCàit a bheil an t-each?\nTha an t-each anns an achadh an ear.\nA bheil gràdh aig Gilleasbaig air an each?\nTha. Tha gràdh mòr aige air an each.\nDè a tha Gilleasbaig a' dèanamh an-diugh?\nTha e a' togail buntàta.\nDè a rinn an t-each?\nLean e Gilleasbaig air feadh an achaidh."
+    },
+    {
+      "title": "Facal anns an leabhar",
+      "summary": "Fionnghal, a university student who researches bread, asks her friend what an old word means.",
+      "newWords": ["oilthigh", "foghlam", "cudromach", "rannsaich", "leugh", "dòigh", "buaidh", "tuigsinn", "ceist", "ciallachadh"],
+      "text": "'S e oileanach a th' ann am Fionnghal. Tha i aig an oilthigh ann an Glaschu. Tha foghlam cudromach dhi, agus tha biadh cudromach dhi cuideachd.\n\nTha Fionnghal a' rannsachadh arain. Bidh i a' leughadh mòran leabhraichean mu aran. Anns gach dùthaich tha dòigh eile ann air aran a dhèanamh. Rannsaich i aon dòigh ann an Leòdhas agus dòigh eile ann an Canada. Tha buaidh mhòr aig biadh air daoine, agus tha buaidh mhòr aig an obair seo air Fionnghal.\n\nAn-dè leugh i seann leabhar. Bha aon fhacal anns an leabhar, agus cha robh i a' tuigsinn an fhacail. Chuir i ceist air a caraid, Fearghas.\n\n“Dè tha am facal seo a' ciallachadh?” thuirt Fionnghal.\n\n“Tha e a' ciallachadh aran beag,” thuirt Fearghas.\n\n“A-nis tha mi a' tuigsinn,” thuirt Fionnghal. “'S e ceist an dòigh as fheàrr air ionnsachadh. Tha foghlam math aig an oilthigh.”\n\nCeistean:\nCàit a bheil Fionnghal?\nTha i aig an oilthigh ann an Glaschu.\nDè a tha Fionnghal a' rannsachadh?\nTha i a' rannsachadh arain.\nA bheil buaidh aig biadh air daoine?\nTha. Tha buaidh mhòr aig biadh air daoine.\nDè a leugh i an-dè?\nLeugh i seann leabhar.\nCò air an do chuir i ceist?\nChuir i ceist air Fearghas.\nDè tha am facal a' ciallachadh?\nTha e a' ciallachadh aran beag."
+    },
+    {
+      "title": "Biadh airson a' phòsaidh",
+      "summary": "Mata and Teasag order food for their wedding from a cook she knows, and everyone eats well.",
+      "newWords": ["pòs", "aithne", "a-riamh", "ar", "dòcha", "deug", "urra", "bean"],
+      "text": "Tha Mata agus Teasag a' dol a phòsadh. Tha iad ag iarraidh biadh math airson an latha sin.\n\n“Is aithne dhomh còcaire math,” thuirt Teasag. “'S e Pòl an t-ainm a th' air.”\n\n“An do dh'ith thu a-riamh am biadh aige?” thuirt Mata.\n\n“Dh'ith,” thuirt Teasag. “Cha do dh'ith mi a-riamh biadh cho math.”\n\nChaidh iad gu Pòl.\n\n“Tha sinn a' dol a phòsadh,” thuirt Mata. “Bidh ar teaghlach agus ar caraidean ann. Bidh 50 duine ann, no 's dòcha 60.”\n\n“Tha am biadh agam còig notaichean deug an urra,” thuirt Pòl.\n\n“'S dòcha gu bheil sin mòran airgid,” thuirt Teasag ri Mata, “ach 's e ar latha fhèin a th' ann.”\n\n“Còig notaichean deug an urra. Glè mhath,” thuirt Mata.\n\nPhòs Mata agus Teasag ann an Tiriodh. Dh'ith a h-uile duine gu math. An dèidh a' bhìdh, thuirt Mata ri Pòl: “Tha mi fhìn agus mo bhean toilichte. Cha do dh'ith ar teaghlach a-riamh biadh cho math.”\n\nCeistean:\nDè a tha Mata agus Teasag a' dol a dhèanamh?\nTha iad a' dol a phòsadh.\nCò as aithne do Theasag?\nIs aithne do Theasag Pòl, còcaire math.\nAn do dh'ith Teasag a-riamh am biadh aig Pòl?\nDh'ith. Dh'ith i am biadh aige.\nA bheil am biadh còig notaichean deug an urra?\nTha. Tha e còig notaichean deug an urra.\nCàit an do phòs iad?\nPhòs iad ann an Tiriodh.\nCò bean Mhata a-nis?\n'S i Teasag bean Mhata a-nis."
+    },
+    {
+      "title": "An litir",
+      "summary": "Eanraig writes an angry letter about wet bread; Màili finds the reason and brings him a new loaf.",
+      "newWords": ["seachad", "fearg", "litir", "ràdh", "ud", "adhbhar", "sgàth", "ruige"],
+      "text": "Bidh Eanraig a' dol seachad air a' bhùth aig Màili a h-uile latha. An-dè chaidh e a-steach agus cheannaich e aran. Aig an taigh, bha an t-aran fliuch. Bha fearg air Eanraig.\n\nSgrìobh e litir gu Màili: “Bha an t-aran agaibh fliuch. Tha fearg orm.”\n\nFhuair Màili an litir, agus leugh i an litir còmhla ri a mac.\n\n“Dè tha an litir ag ràdh?” thuirt a mac.\n\n“Tha i ag ràdh gu bheil an t-aran fliuch,” thuirt Màili. “Tha fearg air an fhear ud aig ceann an rathaid.”\n\n“Dè an t-adhbhar?” thuirt a mac.\n\n“Tha fios agam dè an t-adhbhar,” thuirt Màili. “Bha an t-aran faisg air an doras, agus thàinig an t-uisge a-steach. Bha an t-aran fliuch air sgàth an uisge.”\n\nChaidh Màili gu ruige an taigh ud aig ceann an rathaid. Thug i aran ùr seachad do dh'Eanraig.\n\n“Bha an t-aran fliuch air sgàth an uisge,” thuirt i. “Seo aran ùr dhuibh.”\n\nChaidh an fhearg seachad, agus bha Eanraig toilichte.\n\nCeistean:\nCarson a bha fearg air Eanraig?\nBha fearg air oir bha an t-aran fliuch.\nDè a sgrìobh e gu Màili?\nSgrìobh e litir gu Màili.\nDè a tha an litir ag ràdh?\nTha i ag ràdh gu bheil an t-aran fliuch.\nDè an t-adhbhar?\nBha an t-aran fliuch air sgàth an uisge.\nCàit an deach Màili?\nChaidh i gu ruige taigh Eanraig."
+    },
+    {
+      "title": "An duais",
+      "summary": "Cèitidh creates a new apple bread with her father's help and wins the town's prize.",
+      "newWords": ["dòchas", "beachd", "cruthaich", "cuidich", "dàrna", "suas", "ceithir", "buannaich"],
+      "text": "Tha Cèitidh a' fuireach ann an Ìle. Tha duais anns a' bhaile aice airson an arain as fheàrr. Tha dòchas mòr aice.\n\nBha beachd aice: aran ùr le ubhal ann. Chruthaich i an t-aran ùr anns an taigh, agus chuidich a h-athair i.\n\nBha a' chiad aran fliuch agus trom.\n\n“Dè do bheachd?” thuirt i ri a h-athair.\n\n“Chan eil e math,” thuirt a h-athair.\n\nRinn iad aran eile. Chuidich a h-athair i a-rithist. Bha an dàrna aran glè mhath.\n\n“Dè do bheachd air an dàrna aran?” thuirt Cèitidh.\n\n“Tha e glè mhath,” thuirt a h-athair.\n\n“Tha mi an dòchas gu bheil,” thuirt i.\n\nRinn iad ceithir pìosan arain. Chaidh iad suas an rathad gu meadhan a' bhaile. Dh'ith ceithir daoine an t-aran. Bhuannaich Cèitidh an duais! Thog i an duais suas, agus bha i toilichte.\n\n“Bhuannaich mi oir chuidich thu mi,” thuirt i ri a h-athair.\n\nCeistean:\nDè a chruthaich Cèitidh?\nChruthaich i aran ùr le ubhal ann.\nCò a chuidich i?\nChuidich a h-athair i.\nAn robh an dàrna aran math?\nBha. Bha an dàrna aran glè mhath.\nCò a dh'ith an t-aran?\nDh'ith ceithir daoine an t-aran.\nCò a bhuannaich an duais?\nBhuannaich Cèitidh an duais."
+    }
+  ]
+}
