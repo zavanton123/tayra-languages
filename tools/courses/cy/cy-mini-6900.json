@@ -1,0 +1,188 @@
+{
+  "id": "cy-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Rhifau a rhesymu",
+  "description": "Ten stories and columns about people who count, measure and reason their way to an answer in everyday life, from a pendulum in a basement to the accounts of a village pantomime.",
+  "topic": "Numbers and reasoning",
+  "names": [
+    "Efan",
+    "Malen",
+    "Dolgellau",
+    "Sadwrn",
+    "Dyddgu",
+    "Aberteifi",
+    "Elystan",
+    "Beryl",
+    "Llandeilo",
+    "Crisiant",
+    "Llangefni",
+    "Aneirin",
+    "Machynlleth",
+    "Ceren",
+    "Idwal",
+    "Wrecsam",
+    "Pwllheli",
+    "Bangor",
+    "Seisyll",
+    "Talwyn",
+    "Gwener",
+    "Annes",
+    "Llanelli",
+    "Florida",
+    "Ewrop",
+    "Caerfyrddin",
+    "Cymraeg",
+    "Teleri",
+    "Heilyn",
+    "Branwen",
+    "Llydaw"
+  ],
+  "lessons": [
+    {
+      "title": "Y pendil yn yr islawr",
+      "summary": "A retired physics teacher and his granddaughter use a pendulum in the basement to test what makes it swing faster.",
+      "newWords": [
+        "pendil",
+        "islawr",
+        "cort",
+        "datod",
+        "sythu",
+        "metelaidd",
+        "magnet",
+        "eiledol"
+      ],
+      "text": "Efan ydw i, ac am 35 mlynedd roeddwn i'n dysgu ffiseg mewn ysgol uwchradd yn Nolgellau. Nawr, a minnau wedi ymddeol, mae gen i bendil yn islawr y tŷ, ac mae fy wyres Malen, sy'n 12 oed, yn dod ata i bob dydd Sadwrn i wneud arbrofion.\n\nPeth syml iawn yw pendil: bachyn yn y nenfwd, cortyn, a phwysau ar ben y cortyn. Dewisais i'r islawr achos does dim gwynt yno, a does neb yn agor drws yn sydyn. Ein pwysau ni yw pelen fetelaidd, tua maint oren, ac mae'r cortyn yn 1 metr o hyd.\n\nY cwestiwn cyntaf a ofynnais i Malen oedd hwn: os byddwn ni'n rhoi pelen ddwywaith yn drymach ar y cortyn, fydd y pendil yn siglo'n gyflymach?\n\n“Bydd, wrth gwrs,” meddai hi. “Mae pethau trwm yn gryfach.”\n\nWnes i ddim dadlau â hi. Mewn rhesymu, mae un arbrawf yn werth mwy na 100 o ddadleuon. Felly dechreuodd hi ddatod y cortyn. Roedd y cwlwm yn dynn, a chymerodd datod y cwlwm bron i 10 munud. Clymodd hi'r belen drymach yn ei lle, ac wedyn roedd rhaid sythu'r cortyn rhwng ei bysedd, achos mae tro yn y cortyn yn newid ei hyd, ac os bydd yr hyd yn anghywir, bydd pob rhif yn anghywir.\n\nCyfrifon ni 20 symudiad gyda'r cloc, a rhannu'r cyfanswm â 20. Yr ateb oedd 2 eiliad bob tro, yn union fel o'r blaen. Edrychodd Malen arna i'n syn.\n\n“Rhaid bod y cloc yn anghywir,” meddai hi.\n\nDyna ymateb gwyddonydd da, felly gwnaethon ni'r arbrawf eto, a chael yr un ateb. Wedyn dechreuodd hi ddatod y cortyn unwaith eto, a'i wneud yn 25 centimetr: chwarter yr hyd. Y tro hwn, newidiodd y rhif: 1 eiliad. Chwarter yr hyd, hanner yr amser. Ysgrifennodd hi'r rheol ar y wal: hyd y cortyn sy'n bwysig, nid pwysau'r belen.\n\nYr wythnos nesaf, daeth hi â magnet o'i hysgol, a'i roi ar y llawr o dan y belen fetelaidd. Dyma'r pendil yn cyflymu: tua 1.8 eiliad. Roedd rhaid i ni feddwl am hynny. Mae pelen drymach yn cael ei thynnu'n gryfach gan y ddaear, ond mae hi hefyd yn anoddach ei symud, ac mae'r ddau beth yn canslo ei gilydd. Mae magnet yn wahanol: mae'n tynnu'r belen fetelaidd yn gryfach heb ei gwneud hi'n drymach.\n\nCyn iddi hi fynd adref, gwyliodd hi'r pendil am dipyn heb gyfrif. I'r chwith, i'r dde, i'r chwith: symudiad eiledol yw hwn. Dywedais i wrthi hi fod y trydan yn y wal yn eiledol hefyd, ond bod y cerrynt eiledol hwnnw'n newid cyfeiriad 100 gwaith bob eiliad. Bydd hi'n anghofio rhai o'r rhifau, mae'n siŵr. Ond rydw i'n gobeithio y bydd hi'n cofio'r arfer: gofyn, dyfalu, mesur, a chredu'r mesur.\n\nCwestiynau:\nPam dewisodd Efan yr islawr ar gyfer y pendil?\nDewisodd e'r islawr achos does dim gwynt yno, a does neb yn agor drws yn sydyn.\nBeth roedd rhaid i Malen ei wneud cyn rhoi'r belen drymach ar y cortyn?\nRoedd rhaid iddi hi ddatod y cwlwm.\nPam mae'n bwysig sythu'r cortyn?\nMae'n bwysig sythu'r cortyn achos mae tro ynddo fe yn newid ei hyd.\nBeth ddigwyddodd pan oedd y cortyn yn 25 centimetr?\nNewidiodd y rhif: 1 eiliad yn lle 2.\nPam roedd y pendil yn gyflymach gyda'r magnet?\nRoedd y magnet yn tynnu'r belen fetelaidd yn gryfach heb ei gwneud hi'n drymach."
+    },
+    {
+      "title": "Afalau a gwenyn",
+      "summary": "An apple grower near Aberteifi covers some branches with a net and counts the fruit to find out whether her hives are worth their cost.",
+      "newWords": [
+        "gwenynen",
+        "ffrwythloni",
+        "blodeuol",
+        "chwarterol",
+        "anhepgor",
+        "cynhesrwydd",
+        "prysurdeb",
+        "clodwiw"
+      ],
+      "text": "Mae gan Dyddgu berllan afalau ar y bryn uwchben Aberteifi. Mae hi'n aelod o gwmni cydweithredol i dyfwyr ffrwythau, ac mae'r cwmni'n gofyn am adroddiad chwarterol gan bob aelod: 4 gwaith y flwyddyn, rhaid iddi hi restru'r gwaith, y costau a'r cnwd.\n\nY llynedd, roedd cwestiwn arbennig yn yr adroddiad chwarterol: ydy'r cychod gwenyn yn werth eu cost? Mae gan Dyddgu 4 cwch, ac mae pob un yn costio tua £60 y flwyddyn. Dywedodd ei chymydog y byddai gwenyn gwyllt yn gwneud y gwaith am ddim. Doedd Dyddgu ddim yn gwybod, felly penderfynodd hi gyfrif.\n\nPan ddechreuodd y cyfnod blodeuol, dewisodd hi 10 coeden. Ar bob coeden, rhoddodd hi rwyd fain dros un gangen, fel na allai'r un wenynen fynd ati hi, a gadawodd hi gangen arall heb rwyd. Cyfrifodd hi 200 o flodau ar bob cangen.\n\nMae'r rheswm dros yr arbrawf yn syml. Dydy blodyn afal ddim yn gallu ffrwythloni ei hun. Rhaid i baill o goeden arall ffrwythloni'r blodyn, a rhaid i rywbeth gario'r paill. Yn y cyfnod blodeuol, felly, mae gwenynen yn anhepgor i'r berllan. Mae un wenynen yn gallu ymweld â thua 1,000 o flodau mewn diwrnod. Bob bore, roedd y cwch fel tref ar ddiwrnod marchnad, a miloedd o wenyn yn mynd a dod yng nghanol y prysurdeb. Ond mae'r prysurdeb hwnnw'n dibynnu ar y tywydd, achos mae angen cynhesrwydd ar wenynen: o dan tua 10 gradd, dydy hi ddim yn hedfan.\n\nAm 5 bore braf, eisteddodd Dyddgu wrth un goeden am 10 munud, a nodi pob gwenynen a welodd hi. Roedd 8 o bob 10 yn wenyn mêl o'i chychod hi, a 2 yn wenyn gwyllt. Felly dim ond rhan fach o'r gwaith roedd y gwenyn gwyllt yn ei wneud, er gwaethaf geiriau ei chymydog.\n\nYn yr hydref, cyfrifodd hi'r afalau. Ar y canghennau o dan y rhwyd, roedd 6 afal i bob 200 o flodau. Ar y canghennau agored, roedd 44. Dyna 38 afal yn fwy ar un gangen yn unig. Wedi iddi hi luosi hynny â nifer y canghennau yn y berllan, roedd y gwahaniaeth yn werth tua £2,000 y flwyddyn, a dim ond £240 oedd cost y cychod. Roedd y gwenyn yn anhepgor, a doedd dim amheuaeth am hynny bellach.\n\nYsgrifennodd hi'r cyfan yn ei hadroddiad chwarterol nesaf. Dywedodd ysgrifennydd y cwmni fod y gwaith yn glodwiw, a gofynnodd am gael ei rannu â'r aelodau eraill. Atebodd Dyddgu mai'r gwenyn sy'n glodwiw, nid hi. Yn y gaeaf, pan fydd y berllan yn dawel, mae hi'n hoffi rhoi ei llaw ar y cwch, a theimlo'r cynhesrwydd sy'n dod o'r gwenyn y tu mewn.\n\nCwestiynau:\nPam mae'n rhaid i Dyddgu ysgrifennu adroddiad chwarterol?\nAchos mae'r cwmni'n gofyn am adroddiad gan bob aelod 4 gwaith y flwyddyn.\nBeth wnaeth hi yn y cyfnod blodeuol?\nRhoddodd hi rwyd dros un gangen ar 10 coeden, a gadael cangen arall heb rwyd.\nPam mae gwenynen yn anhepgor i'r berllan?\nAchos dydy blodyn afal ddim yn gallu ffrwythloni ei hun, ac mae'r wenynen yn cario'r paill.\nPam mae prysurdeb y cwch yn dibynnu ar y tywydd?\nAchos mae angen cynhesrwydd ar wenynen: o dan tua 10 gradd, dydy hi ddim yn hedfan.\nFaint o afalau oedd ar y canghennau agored?\nRoedd 44 afal i bob 200 o flodau ar y canghennau agored.\nBeth ddywedodd Dyddgu pan glywodd hi fod y gwaith yn glodwiw?\nAtebodd hi mai'r gwenyn sy'n glodwiw, nid hi."
+    },
+    {
+      "title": "Cyfrif cyn trin",
+      "summary": "A vet persuades a farmer to count worm eggs before treating her animals, and the numbers show that only one field needs medicine.",
+      "newWords": [
+        "bugeilio",
+        "bustach",
+        "ebol",
+        "myn",
+        "llyngren",
+        "diagnostig",
+        "ïodin"
+      ],
+      "text": "Milfeddyg ger Llandeilo yw Elystan, ac mae e'n hoffi dweud mai cyfrif yw hanner ei waith. Un bore yn y gwanwyn, ffoniodd Beryl, ffermwraig o'r ardal. Mae Beryl yn bugeilio 300 o ddefaid ar y bryn a'r caeau isaf, ac mae ganddi hi hefyd 12 bustach, gafr â 2 fyn, a chaseg ag ebol newydd.\n\n“Mae rhai o fy nefaid i'n colli pwysau,” meddai hi. “Rydw i'n siŵr mai llyngyr sydd arnyn nhw. Hoffwn i roi moddion i bob anifail ar y fferm heddiw.”\n\n“Arhoswch,” meddai Elystan. “Gadewch i ni gyfrif yn gyntaf.”\n\nEsboniodd e'r rheswm pan gyrhaeddodd e'r fferm. Os bydd pob anifail yn cael moddion bob tro, bydd ambell lyngren yn byw drwy'r cyfan, a bydd ei hwyau hi'n rhoi llyngyr na fydd y moddion yn cael effaith arnyn nhw. Ar ôl rhai blynyddoedd, fydd y moddion ddim yn gweithio o gwbl. Felly dim ond yr anifeiliaid sydd â digon o lyngyr ddylai gael moddion.\n\nY ffordd o ddarganfod hynny yw prawf diagnostig syml. Casglodd Elystan sampl o dail ffres o bob cae: gan 10 dafad ar y bryn, gan 10 ar y cae isaf, a chan y 12 bustach yn y ddôl. Yn y car, rhoddodd e ychydig o bob sampl o dan y microsgop, a chyfrif yr wyau. Mae un llyngren yn gallu dodwy miloedd o wyau bob dydd, felly mae'r nifer yn dweud llawer. Yn ôl ei lyfr, o dan 200 o wyau mewn gram, does dim angen moddion; dros 500, mae angen moddion ar unwaith.\n\nDyma'r rhifau a ddangosodd y prawf diagnostig: 80 ar y bryn, 900 ar y cae isaf, a 40 gan y bustych.\n\n“Felly dim ond y cae isaf,” meddai Beryl yn syn. Roedd hi wedi bwriadu trin yr holl fferm, ac roedd 1 cae o 3 yn arbed tua £400 iddi hi, a dim ond £30 oedd cost y prawf.\n\nRoedd rheswm arall dros y rhifau. Mae'r cae isaf yn wlyb, ac mae llyngyr yn hoffi lleithder. Felly ar ôl trin y defaid, symudodd Beryl nhw i dir sych. Dyna hanner gwaith bugeilio da, meddai Elystan: dydy bugeilio ddim yn golygu dibynnu ar botel.\n\nCyn gadael, aeth e i weld yr ebol a'r mynnod yn y sied. Roedd Beryl wedi rhoi ïodin ar fogail pob un y diwrnod y cawson nhw eu geni, i gadw'r lle hwnnw'n lân.\n\n“Da iawn,” meddai e. “Does dim angen prawf i wybod bod ïodin yn werth ei gost. Mae potel yn llai na £5.”\n\nEdrychodd e'n ofalus ar yr ebol, a oedd yn rhedeg o gwmpas ei fam, ac ar y mynnod, a oedd yn neidio ar ben bocs. Doedd dim byd yn bod arnyn nhw. Os bydd yr ebol neu'r mynnod yn colli pwysau yn yr haf, meddai e, byddan nhw'n cyfrif eto. Bellach, mae gan Beryl lyfr bach ar y silff yn y sied, gyda cholofn i bob cae.\n\nCwestiynau:\nPa anifeiliaid sydd gan Beryl?\nMae ganddi hi 300 o ddefaid, 12 bustach, gafr â 2 fyn, a chaseg ag ebol newydd.\nPam na ddylai pob anifail gael moddion bob tro?\nAchos ar ôl rhai blynyddoedd, fydd y moddion ddim yn gweithio ar y llyngyr.\nBeth wnaeth Elystan yn y prawf diagnostig?\nRhoddodd e sampl o bob cae o dan y microsgop, a chyfrif yr wyau.\nBle roedd y rhif uchaf?\nRoedd y rhif uchaf ar y cae isaf: 900 o wyau mewn gram.\nPam roedd llyngyr ar y cae hwnnw?\nMae'r cae isaf yn wlyb, ac mae llyngyr yn hoffi lleithder.\nPam rhoddodd Beryl ïodin ar yr ebol a'r mynnod?\nRhoddodd hi ïodin arnyn nhw i gadw'r lle yn lân."
+    },
+    {
+      "title": "Rhifau'r gegin",
+      "summary": "A caterer on Anglesey explains why a wedding is half arithmetic: scaling recipes, wide saucepans, children's crisps and a warehouse.",
+      "newWords": [
+        "arlwyo",
+        "sosban",
+        "creisionen",
+        "stordy",
+        "twb",
+        "rhifyddol",
+        "modurdy",
+        "helaethu"
+      ],
+      "text": "Crisiant ydw i, ac rydw i wedi bod yn arlwyo priodasau a phartïon o gwmpas Llangefni ers 20 mlynedd. Mae pobl yn credu mai coginio yw arlwyo. Coginio yw hanner y gwaith; rhifau yw'r hanner arall.\n\nDechreuais i yn fy modurdy, gyda 2 oergell a bwrdd hir. Roedd y wers gyntaf yn wers am halen. Roedd gen i rysáit cawl ar gyfer 8 o bobl, a 200 o westeion mewn priodas. Mae 200 wedi ei rannu ag 8 yn 25, felly lluosais i bopeth â 25. Dyna fy ngwall rhifyddol cyntaf: roedd y cawl yn hallt ofnadwy, achos dydy halen ddim yn cynyddu yn yr un ffordd â thatws.\n\nWedyn daeth gwers y sosban. Mae sosban 2 waith yn lletach yn dal 4 gwaith cymaint o gawl, ond dydy hi ddim yn cael 4 gwaith cymaint o wres o'r stôf. Felly mae'r un cawl yn cymryd llawer mwy o amser i ferwi. Erbyn hyn, rydw i'n defnyddio 4 sosban ganolig yn lle 1 sosban enfawr.\n\nMewn parti plant, mae'r rhifau'n wahanol eto. Mae plant yn bwyta creision cyn popeth arall, ac yn gadael y brechdanau. Cyfrifais i unwaith: 30 plentyn, 30 bag o greision, ac ar ddiwedd y parti doedd dim un greisionen ar ôl, ond roedd 40 o frechdanau ar y bwrdd o hyd. Bellach, rydw i'n rhoi 1 bag i bob 2 blentyn, ac mae'r brechdanau'n diflannu. Dydy bag o greision ddim yn costio llawer, ond mae e'n gallu newid parti cyfan.\n\nFy ail wall rhifyddol oedd y menyn. Mae 1 twb mawr yn ddigon i 90 o frechdanau. Un tro, wrth lenwi'r ffurflen ar gyfer priodas fawr, archebais i 40 twb yn lle 4, achos rhoddais i'r rhif yn y golofn anghywir. Daeth y lori, a llenwi'r modurdy â menyn. Am 3 mis, roedd fy holl deulu'n cael twb o fenyn yn anrheg.\n\nY camgymeriad hwnnw a wnaeth i mi feddwl am stordy. Os oeddwn i eisiau helaethu'r busnes, roedd angen lle oer llawer mwy na modurdy. Mae stordy ar stad ddiwydiannol yn costio tua £500 y mis. Gwnes i'r symiau yn ofalus cyn helaethu. Roeddwn i'n gwneud tua £400 o elw ar bob priodas, felly roedd angen 2 briodas arall bob mis i dalu am y stordy. Ond mewn stordy oer, roeddwn i'n gallu prynu llawer ar y tro, ac roedd hynny'n arbed tua £200 y mis ar ei ben ei hun. Roedd yr ateb yn glir, a llofnodais i'r cytundeb.\n\nRoedd hynny 10 mlynedd yn ôl. Mae'r stordy'n llawn, ac mae car yn y modurdy unwaith eto. Cyn pob arlwyo mawr, rydw i'n dal i wneud y symiau ar gefn amlen, a'u gwneud nhw ddwywaith. Dydy gwall rhifyddol ddim yn costio llawer ar bapur, ond mae'n costio'n ddrud mewn sosban.\n\nCwestiynau:\nBle dechreuodd Crisiant ei busnes arlwyo?\nDechreuodd hi yn ei modurdy, gyda 2 oergell a bwrdd hir.\nBeth oedd ei gwall rhifyddol cyntaf?\nLluosodd hi'r halen â 25, ac roedd y cawl yn hallt ofnadwy.\nPam mae hi'n defnyddio 4 sosban yn lle 1 sosban enfawr?\nAchos mae sosban lydan yn cymryd llawer mwy o amser i ferwi.\nBeth mae plant yn ei fwyta yn gyntaf mewn parti?\nMaen nhw'n bwyta creision cyn popeth arall.\nSut archebodd hi 40 twb o fenyn?\nRhoddodd hi'r rhif yn y golofn anghywir ar y ffurflen.\nBeth wnaeth Crisiant cyn helaethu'r busnes?\nGwnaeth hi'r symiau yn ofalus, i weld a fyddai stordy yn werth y gost."
+    },
+    {
+      "title": "Llyfrau'r dollborth",
+      "summary": "A local historian reads a tollgate's account books from the 1820s and reasons from the numbers to a new lane round the gate.",
+      "newWords": [
+        "tollborth",
+        "clud",
+        "maenordy",
+        "diwydiannwr",
+        "llofnodwr",
+        "deiliadaeth",
+        "dargyfeiriad",
+        "culhau"
+      ],
+      "text": "Mae Aneirin yn ysgrifennydd cymdeithas hanes leol ym Machynlleth. Y llynedd, gofynnodd perchennog hen faenordy ger y dref iddo fe ddod i weld blwch yn yr atig. Yn y blwch yn atig y maenordy roedd 3 llyfr cyfrifon o'r 1820au, wedi eu hysgrifennu'n daclus â phen ac inc.\n\nLlyfrau tollborth oedden nhw. 200 mlynedd yn ôl, roedd rhaid talu i deithio ar y ffyrdd gorau, ac wrth bob tollborth roedd ceidwad yn casglu'r arian. Roedd y dollborth hon mewn lle da, achos mae'r dyffryn yn culhau yno rhwng 2 graig, a doedd dim modd i gert fynd heibio iddi hi heb stopio.\n\nDoedd y ceidwad ddim yn cael cyflog. Bob blwyddyn, roedd deiliadaeth y dollborth yn mynd i'r sawl a oedd yn cynnig y swm mwyaf, ac unrhyw arian dros y swm hwnnw oedd ei elw. Yn 1826, talodd y ceidwad £180 am ddeiliadaeth y flwyddyn. Ar waelod y cytundeb roedd enwau 3 llofnodwr, ac un o'r llofnodwyr oedd diwydiannwr lleol a oedd yn berchen ar chwarel lechi.\n\nRoedd y llyfr yn nodi pob clud a aeth drwy'r dollborth: clud o lechi, 6 ceiniog; clud o galch, 4 ceiniog; clud o wair, 2 geiniog. Aeth Aneirin ati i wneud y symiau. Yn 1826, roedd tua 30 clud o lechi bob dydd. Yn y gwanwyn nesaf, gostyngodd yr incwm o draean, a doedd y llyfr ddim yn dweud pam.\n\nRhesymodd Aneirin fel hyn. Ai'r tywydd oedd ar fai? Nage, achos roedd nifer y cludau o wair a chalch yr un fath. Ai'r chwarel oedd yn gweithio llai? Nage, achos roedd llythyrau'r diwydiannwr yn y blwch yn sôn am fwy o lechi nag erioed. Felly roedd mwy o lechi'n cael eu gwerthu, ond llai ohonyn nhw'n talu wrth y dollborth. Rhaid bod y llechi'n mynd ar hyd ffordd arall.\n\nAeth e i edrych ar hen fap yn y llyfrgell. Ar y map, gwelodd e lôn newydd ar dir y diwydiannwr: dargyfeiriad 2 filltir o hyd a oedd yn mynd o gwmpas y graig. Roedd y dargyfeiriad yn hirach, ond ar 20 clud bob dydd, roedd y diwydiannwr yn arbed 120 ceiniog y dydd. Doedd e ddim wedi torri unrhyw reol: ei dir e oedd e.\n\nMae'r llyfr olaf yn dangos y canlyniad. Erbyn 1828, roedd pris deiliadaeth y dollborth wedi gostwng i £120, ac roedd y ceidwad newydd yn codi llai am bob clud, er mwyn denu'r certi yn ôl. Felly, heb i neb ei fwriadu, cafodd pawb ar y ffordd honno bris is.\n\nMae'r dyffryn yn dal i gulhau yno, a gallwch chi gerdded ar hyd y dargyfeiriad heddiw: llwybr tawel drwy'r coed yw e. Dydy'r llyfrau ddim yn dweud gair amdano fe. Ond, meddai Aneirin, mae'r rhifau'n dweud y cyfan.\n\nCwestiynau:\nBle daeth Aneirin o hyd i'r llyfrau?\nDaeth e o hyd iddyn nhw mewn blwch yn atig hen faenordy ger Machynlleth.\nPam roedd y dollborth mewn lle da?\nAchos mae'r dyffryn yn culhau yno rhwng 2 graig.\nSut roedd y ceidwad yn cael ei arian?\nRoedd e'n talu am ddeiliadaeth y dollborth, a'r arian dros y swm hwnnw oedd ei elw.\nPwy oedd un o'r llofnodwyr?\nDiwydiannwr lleol a oedd yn berchen ar chwarel lechi oedd un o'r llofnodwyr.\nPam nad y tywydd oedd yn gyfrifol am yr incwm isel?\nAchos roedd nifer y cludau o wair a chalch yr un fath.\nBeth welodd Aneirin ar yr hen fap?\nGwelodd e ddargyfeiriad 2 filltir o hyd ar dir y diwydiannwr."
+    },
+    {
+      "title": "Un peth ar y tro",
+      "summary": "A programmer finds out by elimination why a 3D printer nozzle keeps jamming while she makes a prototype bicycle light.",
+      "newWords": [
+        "rhaglennwr",
+        "ffroenell",
+        "jamio",
+        "aliniad",
+        "cynddelw",
+        "diwifr",
+        "strwythuredig",
+        "crefftus"
+      ],
+      "text": "Rhaglennwr yw Ceren, ac mae hi'n gweithio i gwmni bach yn Wrecsam sy'n gwneud offer i feiciau. Cod yw ei gwaith bob dydd, ond y mis diwethaf gofynnodd ei phennaeth, Idwal, iddi hi wneud cynddelw o olau beic newydd. Cynddelw yw'r model cyntaf o rywbeth, sy'n dangos a yw syniad yn gweithio cyn i'r cwmni wario arian mawr.\n\nMae gan y cwmni argraffydd 3D. Mae'r argraffydd yn derbyn y cynllun o'r cyfrifiadur drwy gysylltiad diwifr, ac wedyn mae'n toddi plastig ac yn ei wthio drwy ffroenell fach, haen ar ôl haen. Dim ond 0.4 milimetr o led yw'r twll yn y ffroenell.\n\nAr y cynnig cyntaf, dechreuodd y ffroenell jamio ar ôl 20 munud. Digwyddodd yr un peth ar yr ail gynnig.\n\n“Rhaid newid popeth,” meddai Idwal. “Plastig newydd, cod newydd, popeth.”\n\n“Os byddwn ni'n newid popeth, fyddwn ni ddim yn gwybod beth oedd yn anghywir,” meddai Ceren.\n\nFel pob rhaglennwr, roedd hi wedi hen arfer â chwilio am wallau mewn cod, ac roedd ganddi hi ddull strwythuredig: rhestr o'r achosion posibl, a newid un peth ar y tro. Mae dull strwythuredig yn teimlo'n araf ar y dechrau, ond dydy e ddim yn gwastraffu dim.\n\nY cysylltiad diwifr oedd y cyntaf ar y rhestr. Anfonodd hi'r cynllun ar gerdyn cof yn lle hynny. Dechreuodd y peiriant jamio eto, felly nid y rhwydwaith diwifr oedd yr achos. Wedyn, rhoddodd hi blastig newydd i mewn. Digwyddodd yr un peth ar ôl 20 munud, felly doedd dim bai ar y plastig. Yna cododd hi'r gwres 5 gradd, a pharodd y peiriant am 30 munud cyn jamio. Roedd hynny'n awgrym: roedd rhywbeth yn gwasgu'r plastig yn ôl i'r ffroenell.\n\nPam? Mesurodd hi aliniad y ffroenell a'r plât o dani. Cymerodd y mesur 1 awr. Roedd un gornel o'r plât 0.2 milimetr yn rhy uchel, sef hanner lled y twll. Oherwydd yr aliniad gwael hwnnw, roedd y ffroenell yn pwyso ar yr haen oddi tani bob tro roedd hi'n cyrraedd y gornel, a doedd gan y plastig ddim lle i ddod allan. Cywirodd hi'r aliniad, a phwysodd hi'r botwm. 3 awr yn ddiweddarach, roedd y cynddelw ar y bwrdd.\n\n“Sut roeddet ti'n gwybod?” gofynnodd Idwal.\n\n“Doeddwn i ddim,” meddai Ceren. “Dim ond croesi'r atebion anghywir oddi ar y rhestr wnes i.”\n\nSaer crefftus oedd ei thad-cu ym Mhwllheli, ac roedd e'n arfer dweud na fyddai saer crefftus byth yn beio ei bren cyn mesur ei waith ei hun. Mae Ceren'n meddwl bod ei waith e a'i gwaith hi yn debyg iawn. Dydy dwylo crefftus ddim yn bell o ben strwythuredig.\n\nCwestiynau:\nBeth yw gwaith Ceren bob dydd?\nRhaglennwr yw hi, a chod yw ei gwaith bob dydd.\nBeth yw cynddelw?\nCynddelw yw'r model cyntaf o rywbeth, sy'n dangos a yw syniad yn gweithio.\nSut mae'r argraffydd yn gwneud y golau beic?\nMae'n toddi plastig ac yn ei wthio drwy ffroenell fach, haen ar ôl haen.\nPam nad oedd Ceren eisiau newid popeth?\nAchos fyddai hi ddim yn gwybod wedyn beth oedd yn anghywir.\nSut gwyddai hi nad y cysylltiad diwifr oedd yr achos?\nAnfonodd hi'r cynllun ar gerdyn cof, a dechreuodd y peiriant jamio eto.\nBeth oedd yn bod ar yr aliniad?\nRoedd un gornel o'r plât 0.2 milimetr yn rhy uchel.\nBeth oedd yn debyg rhwng Ceren a'i thad-cu?\nRoedd y ddau'n mesur eu gwaith eu hunain yn ofalus cyn beio dim byd arall."
+    },
+    {
+      "title": "Awyr rudd gyda'r nos",
+      "summary": "A walking club secretary keeps records for three years to test an old saying about a red evening sky.",
+      "newWords": [
+        "rhudd",
+        "heicwr",
+        "sgiwr",
+        "sandal",
+        "petrus",
+        "canlyniadol",
+        "addasrwydd",
+        "anfri"
+      ],
+      "text": "Mae gan ein clwb cerdded ni ym Mangor hen ddywediad: awyr rudd gyda'r nos, diwrnod teg i ddilyn. Rydw i wedi clywed pob heicwr yn y clwb yn ei ddweud, a dywedais i fe fy hun yn aml.\n\n3 blynedd yn ôl, roedd machlud rhudd dros y môr ar nos Wener. Dywedodd un heicwr ifanc y byddai hi'n braf drannoeth, a daeth e i'r mynydd mewn sandalau. Erbyn 10 o'r gloch, roedd hi'n bwrw glaw, a phob sandal yn llawn dŵr. Yn y caffi ar ôl y daith, syrthiodd y dywediad i anfri. Dywedodd pawb nad oedd dim gwir ynddo fe.\n\nSeisyll ydw i, ysgrifennydd y clwb, ac rydw i'n hoff o rifau. Gofynnais i gwestiwn syml: pa mor aml mae'r dywediad yn iawn? Am 3 blynedd, cadwais i gofnod syml mewn llyfr nodiadau: lliw'r awyr bob nos, a'r tywydd y diwrnod wedyn.\n\nY mis diwethaf, cyflwynais i'r rhifau i'r clwb, yn betrus braidd, achos mae pobl yn hoff o'u dywediadau. Mewn 3 blynedd, roedd awyr rudd ar 150 o nosweithiau. O'r 150 hynny, roedd 96 diwrnod teg yn dilyn: 64%. Roedd hynny'n swnio'n dda, ond rhaid cael rhif i'w gymharu ag e. Dros yr holl flynyddoedd, roedd 50% o'r diwrnodau'n deg beth bynnag.\n\nDyna'r pwynt sy'n bwysig. Mae awyr rudd yn codi'r siawns o 50% i 64%. Dydy hynny ddim yn sicrwydd, felly dydy'r dywediad ddim yn haeddu ein ffydd i gyd. Ond dydy e ddim yn ddiwerth chwaith, felly dydy e ddim yn haeddu anfri. Cododd yr heicwr ifanc ei law, yn betrus iawn.\n\n“Felly 1 tro o bob 3, bydd fy sandalau'n wlyb?” gofynnodd e.\n\n“Bron,” meddwn i. “Felly gwisga esgidiau.”\n\nWedyn dechreuodd aelod arall, Talwyn, sy'n sgiwr profiadol, ofyn cwestiwn gwahanol. Dydy sgiwr ddim yn gofyn a fydd hi'n braf, meddai hi, ond a fydd hi'n rhewi. Mae awyr glir gyda'r nos yn golygu noson oer, ac mae sgiwr yn hapus â hynny. Roedd hi'n iawn: mae addasrwydd diwrnod yn dibynnu ar bwy sy'n gofyn. Mae addasrwydd diwrnod i heicwr mewn sandalau yn wahanol iawn i'w addasrwydd i sgiwr ar y copa.\n\nBellach, mae'r clwb yn edrych ar y rhagolygon ac ar yr awyr, nid ar yr awyr yn unig. Y newid canlyniadol yw ein bod ni'n canslo llai o deithiau: 3 y llynedd, yn lle 8. Roedd budd canlyniadol hefyd: mae pobl yn dod â chot bob tro. Yr unig beth sy'n aros yr un fath yw'r dywediad ei hun. Pan fydd y machlud yn rhudd, mae rhywun yn dal i'w ddweud, ond mae e'n ychwanegu'n dawel: 64%.\n\nCwestiynau:\nBeth yw hen ddywediad y clwb?\nAwyr rudd gyda'r nos, diwrnod teg i ddilyn.\nPam syrthiodd y dywediad i anfri?\nAchos daeth heicwr ifanc i'r mynydd mewn sandalau, a bwriodd hi law.\nAm faint o amser cadwodd yr ysgrifennydd gofnod?\nCadwodd e gofnod am 3 blynedd.\nPam roedd e'n betrus wrth gyflwyno'r rhifau?\nAchos mae pobl yn hoff o'u dywediadau.\nPam mae'r rhif 50% yn bwysig?\nAchos mae 50% o'r diwrnodau'n deg beth bynnag, felly mae 64% yn welliant bach yn unig.\nPa gwestiwn mae sgiwr yn ei ofyn?\nMae sgiwr yn gofyn a fydd hi'n rhewi.\nBeth oedd y newid canlyniadol yn y clwb?\nMae'r clwb yn canslo llai o deithiau, ac mae pobl yn dod â chot bob tro."
+    },
+    {
+      "title": "Cyfrif pethau sy'n neidio",
+      "summary": "An interview with a biologist near Llanelli about counting frogs by marking some, ducks on a restored pond, and manatees in Florida.",
+      "newWords": [
+        "ailgyflwyno",
+        "poblogi",
+        "broga",
+        "lleygwr",
+        "corhwyaden",
+        "amlgellog",
+        "morfuwch",
+        "newydd-ddyfodiad"
+      ],
+      "text": "Mae Annes yn fiolegydd mewn gwarchodfa natur ger Llanelli. Aeth ein papur lleol i'w holi hi am ei gwaith, sef cyfrif pethau sy'n anodd eu cyfrif.\n\n“Beth rydych chi'n ei gyfrif y dyddiau hyn?”\n\n“Brogaod, yn bennaf. Roedd y pwll mawr wedi sychu am flynyddoedd, a doedd dim un broga ar ôl. Felly 6 mlynedd yn ôl penderfynon ni ailgyflwyno'r broga. Ystyr ailgyflwyno yw dod â rhywogaeth yn ôl i le roedd hi'n arfer byw ynddo. Daethon ni ag wyau o bwll arall, a'u cadw nhw mewn twb nes eu bod nhw'n barod. Roedd poblogi'r pwll yn waith araf: am 3 gwanwyn, gwnaethon ni'r un peth. Wedyn, dechreuodd y pwll boblogi ei hun.”\n\n“Ond sut gallwch chi gyfrif brogaod? Maen nhw'n neidio i bob cyfeiriad.”\n\n“Dyna'r rhan rydw i'n ei hoffi. Rydyn ni'n dal 40 broga, yn rhoi marc bach ar bob un, ac yn eu gollwng nhw'n ôl. Wythnos wedyn, rydyn ni'n dal 50 broga, ac mae 10 ohonyn nhw'n cario'r marc. Felly mae 1 o bob 5 broga wedi ei farcio. Os 40 yw 1 rhan o 5, rhaid bod tua 200 o frogaod yn y pwll. Dydy'r ateb ddim yn union, ond mae'n llawer gwell na dyfalu.”\n\n“Oes rhaid bod yn wyddonydd i wneud hyn?”\n\n“Nac oes. Mae'r symiau'n ddigon syml i unrhyw leygwr. Lleygwyr o'r dref sy'n dal y rhan fwyaf o'r brogaod bob gwanwyn. Mae lleygwr yn gallu gwneud y gwaith yr un mor ofalus â gwyddonydd, os yw e'n cael rheolau clir.”\n\n“Ydych chi'n cyfrif adar hefyd?”\n\n“Ydyn. Rydw i'n arbennig o hoff o'r gorhwyaden, yr hwyaden leiaf yn Ewrop. Newydd-ddyfodiad yw hi yma. 3 gaeaf yn ôl, doedd dim un gorhwyaden ar y pwll. Eleni, cyfrifais i 30 corhwyaden. Mae pob newydd-ddyfodiad yn dweud rhywbeth wrthyn ni am y dŵr.”\n\n“Ble dysgoch chi'r dull o farcio a chyfrif?”\n\n“Yn Florida, pan oeddwn i'n ifanc. Roeddwn i'n helpu i gyfrif y morfuchod yno. Anifail mawr tawel yw morfuwch, sy'n byw yn y môr ac yn bwyta planhigion. Mae gan bob morfuwch batrwm ar ei chefn, felly does dim angen marc. Dyna'r unig wahaniaeth: yr un symiau sydd i'r broga ac i'r forfuwch.”\n\n“Ydy'r ddau mor wahanol â hynny?”\n\n“Mewn maint, ydyn. Mae morfuwch yn pwyso tua 500 cilogram, a broga tua 50 gram: 10,000 gwaith yn llai. Ond anifeiliaid amlgellog yw'r ddau, ac mae'r celloedd bron yr un faint. Dydy morfuwch ddim wedi ei gwneud o gelloedd mwy, ond o fwy o gelloedd. Mae bron popeth byw y gallwch chi ei weld â'ch llygaid yn amlgellog, o'r broga i chi a fi.”\n\n“A beth yw eich nod chi nawr?”\n\n“Peidio â gorfod ailgyflwyno dim byd arall. Pan fydd pwll yn gallu poblogi ei hun, a'r rhifau'n aros yn gyson am 10 mlynedd, bydda i'n hapus.”\n\nCwestiynau:\nPam roedd rhaid ailgyflwyno'r broga i'r pwll?\nRoedd y pwll wedi sychu am flynyddoedd, a doedd dim un broga ar ôl.\nSut mae Annes yn cyfrif y brogaod?\nMae hi'n marcio 40 broga, ac yn cyfrif faint o'r 50 nesaf sy'n cario'r marc.\nPam mae hi'n hoff o'r gorhwyaden?\nHi yw'r hwyaden leiaf yn Ewrop, ac mae hi'n newydd-ddyfodiad ar y pwll.\nBeth sy'n debyg rhwng y broga a'r forfuwch?\nAnifeiliaid amlgellog yw'r ddau.\nSut mae morfuwch yn wahanol i froga o ran celloedd?\nMae hi wedi ei gwneud o fwy o gelloedd, nid o gelloedd mwy."
+    },
+    {
+      "title": "Geiriau bach y llythyrau",
+      "summary": "A retired Welsh teacher indexes her grandmother's letters, counts the prepositions and thinks about what numbers can say about learning a language.",
+      "newWords": [
+        "arddodiad",
+        "mynegeio",
+        "ymaflyd",
+        "ailafael",
+        "cymhwysedd"
+      ],
+      "text": "Athrawes Gymraeg oeddwn i yng Nghaerfyrddin am flynyddoedd lawer. Pan ymddeolais i, roeddwn i eisiau ailafael mewn 2 beth roeddwn i wedi eu gadael ers amser: rhifau, a oedd yn bleser i mi yn yr ysgol, a llythyrau fy mam-gu. Roedd hi wedi gadael 400 o lythyrau mewn blwch. Gofynnodd y llyfrgell leol i mi eu mynegeio nhw cyn iddyn nhw fynd ar y silff. Ystyr mynegeio yw gwneud rhestr o'r enwau a'r lleoedd, gyda rhif y llythyr wrth bob un, er mwyn i ddarllenwyr ddod o hyd iddyn nhw.\n\nWrth fynegeio, sylwais i ar rywbeth. Fyddai neb byth yn chwilio am eiriau bach fel “ar”, “o” a “gyda”, ond roedden nhw ym mhob brawddeg. Arddodiad yw pob un ohonyn nhw: gair bach sy'n dangos lle pethau, neu'r berthynas rhyngddyn nhw. Penderfynais i ymaflyd yn y cwestiwn: faint o waith mae arddodiad yn ei wneud mewn brawddeg Gymraeg?\n\nCopïais i 50 llythyr i'r cyfrifiadur, tua 20,000 o eiriau, a gofyn i raglen fach eu cyfrif nhw. Roedd yr atebion yn syndod i mi. Ar gyfartaledd, roedd 1 arddodiad ym mhob 7 gair. Roedd y 100 gair mwyaf cyffredin yn gwneud tua hanner yr holl destun. Ar y pen arall, roedd bron hanner y geiriau gwahanol yn ymddangos unwaith yn unig. Dechreuais i feddwl am iaith fel tref: ychydig o ffyrdd mawr y mae pawb yn teithio arnyn nhw, a channoedd o lonydd bach.\n\nDros y gaeaf, dechreuais i ailafael mewn hen arfer arall: dysgu. Mae gen i ddosbarth nos i oedolion nawr, ac maen nhw'n ymaflyd â'r arddodiaid bob wythnos, achos mae arddodiad Cymraeg yn newid gyda phob person: arna i, arnat ti, arni hi. Dangosais i fy rhifau iddyn nhw, a gofynnodd un dyn cwestiwn da: “Os ydw i'n dysgu'r 100 gair yna, fydda i'n deall hanner popeth?”\n\nDyna lle mae rhaid rhesymu'n ofalus. Na fyddwch, meddwn i. Byddwch chi'n adnabod hanner y geiriau, ond geiriau sy'n dal brawddeg at ei gilydd ydyn nhw. Y geiriau prin sy'n dweud beth sy'n digwydd. Mae pobl yn sôn am gymhwysedd iaith fel petai'n sgôr ar bapur, ond mae cymhwysedd yn golygu gallu gwneud rhywbeth â'r iaith: archebu bwyd, cysuro ffrind, deall llythyr hen fenyw. Dydy cyfrif geiriau ddim yn mesur cymhwysedd.\n\nOnd mae'r rhifau'n gallu dweud ble i ddechrau. Felly, yn fy nosbarth i, rydyn ni'n dechrau pob noson â 5 munud o arddodiaid. Ac ar ôl gorffen mynegeio, rhoddais i'r llythyrau i'r llyfrgell. Mae hanes fy mam-gu ar y silff nawr, a phob 7fed gair yn dal i fod yn arddodiad.\n\nCwestiynau:\nBeth roedd yr awdur eisiau ailafael ynddo ar ôl ymddeol?\nRoedd hi eisiau ailafael mewn rhifau a llythyrau ei mam-gu.\nBeth ofynnodd y llyfrgell i'r awdur ei wneud?\nGofynnodd y llyfrgell iddi hi fynegeio llythyrau ei mam-gu.\nBeth yw arddodiad?\nGair bach sy'n dangos lle pethau, neu'r berthynas rhyngddyn nhw, yw arddodiad.\nFaint o'r testun oedd y 100 gair mwyaf cyffredin?\nRoedden nhw'n gwneud tua hanner yr holl destun.\nPam mae'r dysgwyr yn ymaflyd â'r arddodiaid?\nAchos mae arddodiad Cymraeg yn newid gyda phob person.\nPam dydy cyfrif geiriau ddim yn mesur cymhwysedd?\nAchos mae cymhwysedd yn golygu gallu gwneud rhywbeth â'r iaith."
+    },
+    {
+      "title": "Cyfrifon y pantomeim",
+      "summary": "The treasurer of a drama society in Pwllheli works out how to pay for a new curtain and a twinning visit without raising ticket prices.",
+      "newWords": [
+        "gefeillio",
+        "pantomeim",
+        "cyrten",
+        "hwla",
+        "dewiswr",
+        "cofrestriad",
+        "achwynydd"
+      ],
+      "text": "Heilyn yw trysorydd cymdeithas ddrama Pwllheli. Bob blwyddyn, mae'r gymdeithas yn perfformio pantomeim yn neuadd y dref, ac eleni roedd angen mwy o arian nag arfer am 2 reswm. Yn gyntaf, mae cyrten y llwyfan yn 40 oed ac yn llawn tyllau, a bydd cyrten newydd yn costio £900. Yn ail, mae Pwllheli newydd benderfynu gefeillio â thref fach yn Llydaw, ac mae'r gymdeithas eisiau talu i 10 o blant y dref honno ddod i weld y pantomeim. Bydd y rhan honno o'r gefeillio yn costio £600.\n\nEisteddodd Heilyn wrth fwrdd y gegin gyda'r cyfrifon. Mae 180 o seddi yn y neuadd, a 3 pherfformiad: 540 o seddi i gyd. Y llynedd, gwerthodd y gymdeithas 324 ohonyn nhw, am £8 yr un: tua £2,600. Ar ôl talu am y neuadd a'r gwisgoedd, sef £1,600, roedd £1,000 ar ôl. Eleni, roedd rhaid cael £1,500.\n\nYr ateb amlwg oedd codi pris y tocyn i £10. Ond meddyliodd Heilyn am yr achwynydd mwyaf yn y dref, dyn sy'n ysgrifennu i'r papur lleol am bob pris newydd. Nid yr achwynydd ei hun oedd yn ei boeni, ond y teuluoedd sy'n meddwl yr un peth ac yn dweud dim. Os bydd 1 o bob 5 yn aros gartref, gwerthu 259 tocyn fydd y gymdeithas, a bydd y cyfanswm yr un fath â'r llynedd.\n\nFelly gofynnodd e gwestiwn arall: pwy sy'n prynu tocynnau? Aeth e drwy'r llyfr cofrestriad, lle mae enw pob plentyn sy'n cymryd rhan. Y llynedd, ar gyfartaledd, prynodd teulu pob plentyn 4 tocyn. Dyna'r rhif pwysig.\n\nAeth e i weld Branwen, sef y dewiswr sy'n penderfynu pwy sy'n cael rhan. Roedd hi'n bwriadu cael dawns hwla yn yr ail act, gydag 8 plentyn gorau'r dref.\n\n“Beth am 32?” gofynnodd Heilyn.\n\n“Mae dewiswr da yn dewis y gorau,” meddai Branwen.\n\n“Mae 24 plentyn arall yn golygu 96 tocyn arall,” meddai e. “Mae hynny'n £768. Dyna'r arian sydd ei angen, a mwy.”\n\nMeddyliodd hi am y peth. Dydy dawns hwla ddim yn gofyn am lawer: cylch, cerddoriaeth, a digon o le. Fel dewiswr, doedd hi ddim yn hoffi'r syniad, ond fel aelod o'r gymdeithas roedd hi'n gallu gwneud y symiau. Agorodd hi'r cofrestriad i bawb, am £2 y plentyn, ac erbyn diwedd yr wythnos roedd 32 enw yn y llyfr.\n\nGwerthodd y gymdeithas 426 o docynnau, a chafodd y plant o Lydaw eistedd yn y rhes flaen. Agorodd y cyrten newydd yn esmwyth bob nos. Ar y noson olaf, roedd yr achwynydd yno hefyd, gyda 2 wyres yn y ddawns hwla. Ysgrifennodd e ddim i'r papur y mis hwnnw.\n\nCwestiynau:\nBle mae'r gymdeithas yn perfformio'r pantomeim?\nMae hi'n perfformio'r pantomeim yn neuadd y dref.\nPam roedd angen mwy o arian eleni?\nRoedd angen cyrten newydd, ac arian ar gyfer y gefeillio â thref yn Llydaw.\nPam nad oedd Heilyn eisiau codi pris y tocyn?\nOs bydd 1 o bob 5 yn aros gartref, bydd y cyfanswm yr un fath â'r llynedd.\nBeth welodd e yn y llyfr cofrestriad?\nGwelodd e fod teulu pob plentyn yn prynu 4 tocyn ar gyfartaledd.\nBeth oedd Branwen yn ei wneud yn y gymdeithas?\nHi oedd y dewiswr sy'n penderfynu pwy sy'n cael rhan.\nFaint o blant oedd yn y ddawns hwla yn y diwedd?\nRoedd 32 o blant yn y ddawns hwla."
+    }
+  ]
+}
