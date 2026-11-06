@@ -60,16 +60,25 @@ actual class SpeechSynthesizer {
         utterance.rate = (AVSpeechUtteranceDefaultSpeechRate * rate).coerceIn(AVSpeechUtteranceMinimumSpeechRate, AVSpeechUtteranceMaximumSpeechRate)
         languageCode?.let { code ->
             // Voices are keyed by full tags such as de-DE, so pick the first voice for the language.
-            val voice = AVSpeechSynthesisVoice.speechVoices()
-                .filterIsInstance<AVSpeechSynthesisVoice>()
-                .firstOrNull { it.language.startsWith(code, ignoreCase = true) }
-            if (voice != null) utterance.voice = voice
+            val voice = if (CantoneseVoices.isCantonese(code)) cantoneseVoice() else voices().firstOrNull { it.language.startsWith(code, ignoreCase = true) }
+            if (voice != null) {
+                utterance.voice = voice
+            } else if (CantoneseVoices.isCantonese(code)) {
+                onDone()
+                return
+            }
         }
         current = utterance
         done = onDone
         word = onWord
         synthesizer.speakUtterance(utterance)
     }
+
+    actual suspend fun hasVoice(languageCode: String?): Boolean = !CantoneseVoices.isCantonese(languageCode) || cantoneseVoice() != null
+
+    private fun voices() = AVSpeechSynthesisVoice.speechVoices().filterIsInstance<AVSpeechSynthesisVoice>()
+
+    private fun cantoneseVoice() = voices().firstOrNull { CantoneseVoices.matches(it.language) }
 
     actual fun pause(): Boolean = current != null && synthesizer.pauseSpeakingAtBoundary(AVSpeechBoundary.AVSpeechBoundaryImmediate)
 

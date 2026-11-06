@@ -19,9 +19,14 @@ expect class SpeechSynthesizer {
      * Speaks [text] in the language with the given ISO 639-1 [languageCode], interrupting any earlier
      * speech. [onDone] runs once when the speech ends, is stopped or fails, possibly on another thread.
      * [rate] is the speed, 1 for the voice's own; where the platform's voice tells, [onWord] gets the
-     * characters of each word as it is reached, also possibly on another thread.
+     * characters of each word as it is reached, also possibly on another thread. Cantonese is said
+     * only by a Cantonese voice: without one nothing is said and [onDone] runs at once, so whatever
+     * reads on from sentence to sentence asks [hasVoice] first.
      */
     fun speak(text: String, languageCode: String?, onDone: () -> Unit = {}, rate: Float = 1f, onWord: ((IntRange) -> Unit)? = null)
+
+    /** False when nothing would be said for [languageCode]: Cantonese without a Cantonese voice. */
+    suspend fun hasVoice(languageCode: String?): Boolean
 
     /** Holds speech where it is, without calling onDone; false when this platform's voice cannot. */
     fun pause(): Boolean

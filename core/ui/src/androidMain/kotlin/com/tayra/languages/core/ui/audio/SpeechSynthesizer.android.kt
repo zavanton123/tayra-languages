@@ -3,6 +3,7 @@ package com.tayra.languages.core.ui.audio
 import android.content.Context
 import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
+import android.speech.tts.Voice
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.remember
@@ -11,6 +12,7 @@ import co.touchlab.kermit.Logger
 import java.util.Locale
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.atomic.AtomicLong
+import kotlinx.coroutines.CompletableDeferred
 
 actual class SpeechSynthesizer(context: Context) {
     private var ready = false
@@ -25,8 +27,11 @@ actual class SpeechSynthesizer(context: Context) {
 
     private class Request(val text: String, val languageCode: String?, val onDone: () -> Unit, val rate: Float, val onWord: ((IntRange) -> Unit)?)
 
+    private val initialised = CompletableDeferred<Unit>()
+
     private val tts = TextToSpeech(context.applicationContext) { status ->
         ready = status == TextToSpeech.SUCCESS
+        initialised.complete(Unit)
         if (!ready) Logger.w { "Text-to-speech engine unavailable ($status)" }
         pending?.let { if (ready) speak(it.text, it.languageCode, it.onDone, it.rate, it.onWord) else it.onDone() }
         pending = null
@@ -57,12 +62,34 @@ actual class SpeechSynthesizer(context: Context) {
             pending = Request(text, languageCode, onDone, rate, onWord)
             return
         }
-        languageCode?.let { tts.setLanguage(Locale.forLanguageTag(it)) }
+        if (CantoneseVoices.isCantonese(languageCode)) {
+            val voice = cantoneseVoice()
+            if (voice == null || tts.setVoice(voice) != TextToSpeech.SUCCESS) {
+                onDone()
+                return
+            }
+        } else {
+            languageCode?.let { tts.setLanguage(Locale.forLanguageTag(it)) }
+        }
         tts.setSpeechRate(rate)
         val id = "tayra-${ids.incrementAndGet()}"
         callbacks[id] = onDone
         if (onWord != null) words[id] = onWord
         if (tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, id) != TextToSpeech.SUCCESS) finish(id)
+    }
+
+    /**
+     * An installed Cantonese voice, one that works offline first. By its voices, since setLanguage
+     * accepts zh-HK for an engine with only Mandarin, and a refused language leaves the last voice on.
+     */
+    private fun cantoneseVoice(): Voice? = tts.voices.orEmpty()
+        .filter { CantoneseVoices.matches(it.locale.toLanguageTag()) && TextToSpeech.Engine.KEY_FEATURE_NOT_INSTALLED !in it.features.orEmpty() }
+        .minByOrNull { it.isNetworkConnectionRequired }
+
+    actual suspend fun hasVoice(languageCode: String?): Boolean {
+        if (!CantoneseVoices.isCantonese(languageCode)) return true
+        initialised.await()
+        return ready && cantoneseVoice() != null
     }
 
     /** Android's text-to-speech can only stop, so a pause starts the sentence over. */
