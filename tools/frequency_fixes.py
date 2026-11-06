@@ -2226,3 +2226,54 @@ EXCLUDE["lt"] = EXCLUDE.get("lt", set()) | {"druskininkų", "druskininkuose", "d
                                              "jonas", "jono", "jonui", "joną", "jonu", "jone", "ganos", "ganoje", "ganą",
                                              "ledi", "val", "ganietis", "buti", "deti", "ka", "cia", "del", "min", "angl",
                                              "mlrd", "prof", "vyr", "tel", "tšk", "vnt", "aut", "nuotr", "der", "esti", "inoti"}
+
+# Scottish Gaelic, after the builder's pass over the pack's links (gaelic_relink). The prepositional pronouns are their
+# prepositions', as Irish has them, and the emphatic pronouns their pronouns'; bi's paradigm is bi's, not the copula's or nach's.
+_GAELIC_PREPOSITIONS = {
+    "aig": "agam agad aige aice againn agaibh aca agamsa agadsa aigesan aicese againne agaibhse acasan",
+    "air": "orm ort oirre oirnn oirbh orra ormsa ortsa airsan oirrese oirnne oirbhse orrasan",
+    "le": "leam leat leis leatha leinn leibh leotha leamsa leatsa leis-san leathase leinne leibhse leothasan",
+    "ri": "rium riut ris rithe ruinn ribh riutha riumsa riutsa ris-san rithese ruinne ribhse riuthasan",
+    "do": "dhomh dhut dha dhi dhuinn dhuibh dhaibh dhòmhsa dhomhsa dhutsa dhàsan dhìse dhuinne dhuibhse dhaibhsan dhan don",
+    "de": "dhìom dhìot dheth dhith dhinn dhibh dhiubh dhen",
+    "bho": "bhuam bhuat bhuaithe bhuaipe bhuainn bhuaibh bhuapa bhuamsa bhuatsa o",
+    "à": "asam asad às aiste asainn asaibh asta",
+    "ann": "annam annad innte annainn annaibh annta annamsa annadsa annsan inntese annainne annaibhse anntasan nad nar nur "
+           "'nad 'nar 'nur 'nam 'na 'nan",
+    "anns": "sa san sna 'sa 'san 'sna",
+    "mu": "umam umad uime uimpe umainn umaibh umpa",
+    "gu": "thugam thugad thuige thuice thugainn thugaibh thuca chun",
+    "ro": "romham romhad roimhe roimhpe romhainn romhaibh romhpa",
+    "tro": "tromham tromhad troimhe troimhpe tromhainn tromhaibh tromhpa tron",
+    "fo": "fodham fodhad fodha foidhpe fodhainn fodhaibh fodhpa fon",
+    "thar": "tharam tharad thairis thairte tharainn tharaibh tharta",
+    "eadar": "eadarainn eadaraibh eatarra",
+    "ag": "gam gad ga gar gan 'gam 'gad 'ga 'gar 'gur 'gan",
+    "mi": "mise", "thu": "thusa tusa tu", "e": "esan", "i": "ise", "sinn": "sinne", "sibh": "sibhse", "iad": "iadsan",
+    "bi": "tha bha bheil eil robh bidh bith bhith bhi bhios bhiodh biodh bithidh bhitheadh bhiomaid bhithinn bhitheas thathar thatar "
+          "thathas bhathar bhatar bhathas bithear th' bh'",
+    "is": "'s b' bu",
+    "cha": "chan",
+    "gun": "gum",
+    "dà": "dhà",
+    "dèan": "rinn rinneadh dhèan",
+    "thoir": "toir thug tug thugadh tugadh bheir bheirear bheireadh bheireas bheirinn toireadh thoirear",
+    "dol": "dhol", "cur": "chur", "dèanamh": "dhèanamh deànamh", "tighinn": "thighinn", "faicinn": "fhaicinn",
+    "faighinn": "fhaighinn faotainn fhaotainn", "gabhail": "ghabhail", "togail": "thogail", "toirt": "thoirt",
+    "a-mach": "mach", "cuimhne": "cuimhn", "latha": "lath", "còir": "choir", "rèir": "a-rèir a-réir", "tì": "teatha",
+}
+OVERRIDES["gd"] = {form: [head] for head, forms in _GAELIC_PREPOSITIONS.items() for form in forms.split()}
+# a' is both the article (a' bhean) and ag before a consonant (a' dol); the words of their own the pack files under another.
+OVERRIDES["gd"].update({
+    "a'": ["ag", "an"], "'n": ["an"], "m'": ["mo"], "d'": ["do"], "bi": ["bi"], "is": ["is"], "i": ["i"], "ann": ["ann"], "tha": ["bi"],
+    "ceud": ["ceud"], "dùin": ["dùin"], "gràdh": ["gràdh"], "ghràdh": ["gràdh"], "ghràidh": ["gràdh"], "no": ["no"], "neo": ["no"],
+    "rèir": ["rèir"], "ruinn": ["ri"], "acrach": ["acrach"], "mill": ["mill"], "cinnte": ["cinnte"], "buin": ["buin"],
+    "beir": ["beir"], "rug": ["beir"], "rugadh": ["beir"],
+    "gur": ["gur"], "tiugainn": ["tiugainn"],
+    "garadh": ["garadh"], "gharadh": ["garadh"], "garaidhean": ["garadh"], "gharaidhean": ["garadh"], "garam": [], "gadaibh": [], "gadan": [],
+})
+# English, which the articles quote, and the pages' own words for their links and notes; the pack has otherwise under gus.
+EXCLUDE["gd"] = EXCLUDE.get("gd", set()) | {
+    "or", "not", "at", "la", "so", "me", "td", "being", "bot", "com", "bar", "ad", "otherwise", "the", "of", "and", "in", "to",
+    "iomradh", "iomraidhean", "ceanglaiche", "ceanglaichean", "faidhle", "duf", "duilleag-mhòr",
+}

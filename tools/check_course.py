@@ -125,6 +125,9 @@ def fold(code, word):
     # So may the Welsh (mae'n, i'r).
     if code == "cy":
         return word.replace("’", "'").replace("ʼ", "'")
+    # And the Gaelic (a', b', dh'fhàg).
+    if code == "gd":
+        return word.replace("’", "'").replace("ʼ", "'").replace("‘", "'")
     return word
 
 
@@ -374,6 +377,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return irish_tokens(text, ranks, names)
     if code == "cy":
         return welsh_tokens(text, ranks, names)
+    if code == "gd":
+        return gaelic_tokens(text, ranks, names)
     if code in FINNIC:
         return finnic_tokens(text, code)
     out = []
@@ -1764,6 +1769,63 @@ def welsh_tokens(text, ranks, names=frozenset()):
     return out
 
 
+# Scottish Gaelic writes a dropped sound with an apostrophe at a word's edge (a' dol, b' urrainn, 's e, m' athair, th' agam),
+# which the list has as forms; any other apostrophe at an edge is a quotation mark. It lenites (mhòr of mòr, bhean of bean),
+# puts h- or t- before a vowel or s (a h-uile, an t-uisge, an t-sràid, na h-òrain) and dh', b', m', d' before a vowel or fh
+# (dh'fhàg of fàg, b'urrainn of urrainn, m'athair of athair): a form the list lacks counts as the word it mutates.
+GAELIC_WORD = re.compile(r"(?<![^\W\d_])'?[^\W\d_]+(?:['-][^\W\d_]+)*'?", re.UNICODE)
+GAELIC_ELIDED_END = {"a", "b", "m", "d", "th", "bh", "dh", "de", "fo", "o"}
+GAELIC_ELIDED_START = {"s", "n", "m", "ga", "gam", "gad", "gan", "gar", "gur", "na", "nam", "nad", "nan", "nar", "nur", "san", "sa", "sna"}
+
+
+def gaelic_bases(word):
+    """The unmutated words a lowercased Gaelic word may be, the likeliest first."""
+    out = []
+    for prefix in ("dh'", "b'", "m'", "d'", "t-", "h-", "n-"):
+        if word.startswith(prefix) and len(word) > len(prefix):
+            rest = word[len(prefix):]
+            return [rest] + gaelic_bases(rest)
+    if len(word) > 2 and word[1] == "h" and word[0] in "bcdfgmpst":
+        out.append(word[0] + word[2:])
+    return out
+
+
+def gaelic_word(word, ranks, names=frozenset()):
+    """The list word or name a Gaelic word is: itself if listed, else the word it mutates."""
+    word = word.lower()
+    if word in ranks or word in names:
+        return word
+    return next((b for b in gaelic_bases(word) if b in ranks or b in names), word)
+
+
+def gaelic_tokens(text, ranks, names=frozenset()):
+    ranks = ranks or {}
+    out = []
+    text = text.replace("’", "'").replace("ʼ", "'").replace("‘", "'")
+    for match in GAELIC_WORD.finditer(text):
+        if match.start() > 0 and text[match.start() - 1].isdigit():
+            continue
+        word = match.group(0)
+        key = word.lower()
+        if key.startswith("'") and key[1:] not in GAELIC_ELIDED_START:
+            word = word[1:]
+        if word.endswith("'") and word[:-1].lower() not in GAELIC_ELIDED_END:
+            word = word[:-1]
+        whole = gaelic_word(word, ranks, names)
+        if "-" not in word or whole in ranks or whole in names:
+            out.append(whole)
+            continue
+        out.extend(gaelic_word(part, ranks, names) for part in word.split("-") if part)
+    return out
+
+
+def gaelic_name_pattern(name):
+    """A name of several words as the text writes it, also mutated (Eilean Sgitheanach, an Gleann Comhann, à Ghleann Comhann, na h-Alba)."""
+    first, rest = name[0], name[1:]
+    lenited = "h?" if first.lower() in "bcdfgmpst" else ""
+    return re.compile(r"(?<![^\W\d_])(?:[thn]-)?" + re.escape(first) + lenited + re.escape(rest) + r"(?![^\W\d_])")
+
+
 def welsh_name_pattern(name):
     """A name of several words as the text writes it, also mutated (Bae Colwyn, ym Mae Colwyn, o Fae Colwyn)."""
     first, rest = name[0].lower(), name[1:]
@@ -1946,6 +2008,8 @@ def check(path, brief=False):
     if code == "ga":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     # So does a Welsh one (Bae Colwyn, ym Mae Colwyn, Ynys Môn).
+    if code == "gd":
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     if code == "cy":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     # Hungarian names take their endings unmarked (Annának, Budapestre): each part of a name counts, with its endings.
@@ -1979,6 +2043,11 @@ def check(path, brief=False):
                 continue
             if code == "ga":
                 pattern = irish_name_pattern(name)
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(" ", text)
+                continue
+            if code == "gd":
+                pattern = gaelic_name_pattern(name)
                 whole_names += len(pattern.findall(text))
                 text = pattern.sub(" ", text)
                 continue
@@ -2053,6 +2122,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Mga tanong:", "", text)
         if code == "ga":
             text = re.sub(r"(?m)^Ceisteanna:", "", text)
+        if code == "gd":
+            text = re.sub(r"(?m)^Ceistean:", "", text)
         if code == "cy":
             text = re.sub(r"(?m)^Cwestiynau:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)

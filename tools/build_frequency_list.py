@@ -2359,6 +2359,232 @@ def simplemma_for(language):
         return None
 
 
+# Scottish Gaelic. Its only text is its Wikipedia: mostly stubs made to a pattern (towns, years, chemists) and lists of links,
+# whose words (iomradh, ceanglaiche, cilemeatair, ceimigear) ranked above tapadh (2808) and orm (3120). Three things mend that.
+# Of the Wikipedia only articles count, without their headings and list lines, each sentence once, numbers and names aside,
+# and without capitalised words inside a sentence, which are pieces of names (Baile Àtha Cliath, Rìgh na h-Alba).
+# And the everyday sentences that exist are blended in at half the weight: Tatoeba's (1,059 sentences, 6,900 words) and the
+# examples in the dictionary pack (Common Voice has no Gaelic). So few words at half the blend make a word they have 5 times
+# about the 500th and one they have 3 times about the 1500th.
+# What Wikipedia has only in lists and names (GAELIC_REST) just fills the end of the list.
+SOURCE_ORDER["gd"] = ["gaelic_wikipedia", "gaelic_everyday", "gaelic_rest"]
+BLEND.add("gd")
+SOURCE_WEIGHTS["gd"] = {"gaelic_wikipedia": 0.495, "gaelic_everyday": 0.495, "gaelic_rest": 0.01}
+SOURCE_LICENCES["gaelic_wikipedia"] = SOURCE_LICENCES["wikipedia"]
+SOURCE_LICENCES["gaelic_rest"] = SOURCE_LICENCES["wikipedia"]
+GAELIC_REST = {}
+SOURCE_LICENCES["gaelic_everyday"] = "Tatoeba CC BY 2.0 FR, Wiktionary CC BY-SA 4.0"
+# Gaelic writes a dropped sound with an apostrophe at a word's edge: these are words, as the reader keeps them (a' dol, b' urrainn,
+# 's e, m' athair, th' agam). Any other apostrophe at an edge is a quotation mark.
+GAELIC_ELIDED_END = {"a", "b", "m", "d", "th", "bh", "dh", "de", "fo", "o"}
+GAELIC_ELIDED_START = {"s", "n", "m", "ga", "gam", "gad", "gan", "gar", "gur", "na", "nam", "nad", "nan", "nar", "nur", "san", "sa", "sna"}
+GAELIC_WORD = re.compile(r"(?<![^\W\d_])'?[^\W\d_]+(?:['-][^\W\d_]+)*'?")
+GAELIC_SENTENCE = re.compile(r"(?<=[.!?…:;])\s+|\n+")
+GAELIC_ACUTE = str.maketrans("áéíóú", "àèìòù")
+GAELIC_MARKS = str.maketrans("àèìòùáéíóú", "aeiouaeiou")
+GAELIC_VOWELS = "aeiouàèìòùáéíóú"
+GAELIC_FORM_GLOSS = re.compile(
+    r"^\s*(?:(?:first|second|third)-person|singular|plural|masculine|feminine|emphatic|independent|dependent|relative|present|"
+    r"past|future|conditional|imperative|habitual|interrogative|negative|vocative|genitive|dative|nominative|lenited|slender|"
+    r"broad|(?:[htn]|dh)-prothesi[sz]ed|(?:comparative|superlative)(?: degree)?|alternative|obsolete|dated|nonstandard|"
+    r"superseded|archaic|misspelling|spelling|form|forms|degree|and|or|[\s,/;])+of ([^\W\d_][\w'-]*)", re.I)
+
+
+def gaelic_words(text):
+    """The words of a Gaelic text with each one's place in its sentence, the edge apostrophes kept only on elided words."""
+    out = []
+    for word in GAELIC_WORD.findall(text):
+        key = word.lower()
+        if key.startswith("'") and key[1:] not in GAELIC_ELIDED_START:
+            word = word[1:]
+        if word.endswith("'") and word[:-1].lower() not in GAELIC_ELIDED_END:
+            word = word[:-1]
+        if word and word != "'":
+            out.append(word)
+    return out
+
+
+def gaelic_counts(sentences, counts, capital, plain, rest=None):
+    """Adds each sentence's words to [counts]: a capitalised word inside a sentence is a piece of a name and counts for none."""
+    for sentence in sentences:
+        for i, word in enumerate(gaelic_words(sentence)):
+            key = word.lower()
+            if word.lstrip("'")[:1] != key.lstrip("'")[:1]:
+                if i:
+                    capital.add(key)
+                    if rest is not None:
+                        rest[key] += 1
+                    continue
+            else:
+                plain.add(key)
+            counts[key] += 1
+
+
+def gaelic_wikipedia_counts(language, limit):
+    """The Gaelic Wikipedia's articles, as the block above says."""
+    import bz2
+    path = download("https://dumps.wikimedia.org/gdwiki/latest/gdwiki-latest-pages-articles.xml.bz2", "wikipedia-gd.xml.bz2")
+    if path is None:
+        return None
+    seen, counts, capital, plain, rest = set(), defaultdict(int), set(), set(), defaultdict(int)
+    page, in_text, namespace = [], False, None
+    with bz2.open(path, "rt", encoding="utf-8") as f:
+        for line in f:
+            if "<ns>" in line:
+                namespace = line.strip()
+            if "<text" in line:
+                in_text = True
+                line = line[line.index(">", line.index("<text")) + 1:]
+            if not in_text:
+                continue
+            end = line.find("</text>")
+            page.append(line if end < 0 else line[:end])
+            if end < 0:
+                continue
+            in_text = False
+            text, page = "".join(page), []
+            if namespace != "<ns>0</ns>" or text.lstrip().lower().startswith("#redirect"):
+                continue
+            text = html.unescape(strip_templates(WIKI_HEADING.sub(" ", text)))
+            for noise in WIKI_NOISE:
+                text = noise.sub(" ", text)
+            text = WIKI_LINK.sub(r"\1", text)
+            text = re.sub(r"'{2,}", " ", text.replace("’", "'").replace("ʼ", "'"))
+            listed = re.findall(r"(?m)^[*#:;|!].*$", text)
+            gaelic_counts(listed, rest, capital, plain)
+            text = re.sub(r"(?m)^[*#:;|!].*$", " ", text)
+            sentences = []
+            for sentence in GAELIC_SENTENCE.split(text):
+                shape = re.sub(r"\d+", "0", " ".join("X" if w[:1] != w[:1].lower() else w for w in sentence.split()))
+                if shape not in seen:
+                    seen.add(shape)
+                    sentences.append(sentence)
+            gaelic_counts(sentences, counts, capital, plain, rest)
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "gd-en.sqlite"))
+    entries = {w for (w, kind) in db.execute("SELECT word, pos FROM entries") if kind in WORD_POS and w == w.lower()}
+    GAELIC_REST.update({w: c for w, c in rest.items() if w in plain or w in entries})
+    top = sorted(((w, c) for w, c in counts.items() if w in plain), key=lambda kv: -kv[1])[:limit]
+    return dict(top), "gd.wikipedia.org articles"
+
+
+def gaelic_rest_counts(language, limit):
+    """What gaelic_wikipedia_counts, which must run first, left out as lists and names: no sentences, but the words are real."""
+    return dict(GAELIC_REST), "its lists and names"
+
+
+def gaelic_examples():
+    """The dictionary pack's example sentences in plain Gaelic."""
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "gd-en.sqlite"))
+    out = {}
+    for (senses,) in db.execute("SELECT senses FROM entries"):
+        for sense in json.loads(senses):
+            for example in sense.get("examples", []):
+                text = example.get("text", "").strip().strip('"“”')
+                if text and not re.search(r"[\d→+=()“”]|\b(?:the|of|and|in|is a|Library)\b", text):
+                    out.setdefault(text.replace("’", "'"), None)
+    return out
+
+
+def gaelic_everyday_counts(language, limit):
+    """Everyday sentences, each once; a word they have only once is no evidence (EVERYDAY_DISCOUNT), nor one only capitalised."""
+    import bz2
+    os.makedirs(os.path.join(CACHE, "tatoeba-gla"), exist_ok=True)
+    path = download("https://downloads.tatoeba.org/exports/per_language/gla/gla_sentences.tsv.bz2",
+                    os.path.join("tatoeba-gla", "gla_sentences.tsv.bz2"))
+    sentences = gaelic_examples()
+    if path:
+        with bz2.open(path, "rt", encoding="utf-8") as f:
+            for line in f:
+                text = line.rstrip("\n").split("\t")[-1].strip()
+                if text:
+                    sentences.setdefault(text.replace("’", "'"), None)
+    counts, capital, plain = defaultdict(int), set(), set()
+    gaelic_counts(sentences, counts, capital, plain)
+    kept = {w: n - EVERYDAY_DISCOUNT for w, n in counts.items() if n > EVERYDAY_DISCOUNT and w in plain}
+    return dict(sorted(kept.items(), key=lambda kv: -kv[1])[:limit]), ("Tatoeba gla and the dictionary pack's examples" if path else "the dictionary pack's examples")
+
+
+SOURCES["gaelic_wikipedia"] = gaelic_wikipedia_counts
+SOURCES["gaelic_everyday"] = gaelic_everyday_counts
+SOURCES["gaelic_rest"] = gaelic_rest_counts
+
+
+def gaelic_unmutated(form):
+    """The spellings a form may be of a word with an initial mutation: mhòr of mòr, t-uisge of uisge, dh'fhàg of fàg, m'athair of athair."""
+    out = set()
+    rest = form
+    for prefix in ("dh'", "b'", "m'", "d'", "t-", "h-", "n-"):
+        if form.startswith(prefix) and len(form) > len(prefix):
+            rest = form[len(prefix):]
+            out.add(rest)
+            break
+    for word in {form, rest}:
+        if len(word) > 2 and word[1] == "h" and word[0] in "bcdfgmpst":
+            out.add(word[0] + word[2:])
+    return out - {form}
+
+
+def gaelic_relink(freq, pos, lemmas, common, overrides, excluded, guessed, lemmatizer, is_word, count):
+    """
+    Mends the Gaelic pack's links before they are followed. An entry glossed only as another word's form is that word's form
+    (agam of aig, bhiodh of bi). A word with a sense of its own is no other's form unless it is that word mutated, or glossed so,
+    or simplemma says so: gràdh is no form of ràdh, dùin none of dùn, ruinn none of rinn. A spelling with an acute accent is the
+    word with the grave, and one without its accent the word with it (mór, ard, steidhich), unless it has a sense of its own (bata
+    "stick", bàta "boat"). A form that is no word goes to simplemma's word, or the word it is a mutation of.
+    """
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "gd-en.sqlite"))
+    forms_of, own = defaultdict(set), set()
+    for word_lc, p, senses in db.execute("SELECT word_lc, pos, senses FROM entries"):
+        if p not in WORD_POS:
+            continue
+        for gloss in (g for s in json.loads(senses) for g in s.get("glosses", [])):
+            form_of = GAELIC_FORM_GLOSS.match(gloss)
+            if form_of and form_of.group(1).lower() != word_lc:
+                forms_of[word_lc].add(form_of.group(1).lower())
+            else:
+                own.add(word_lc)
+    for word, targets in forms_of.items():
+        if word not in own:
+            common.pop(word, None)
+            lemmas[word] = sorted(targets)
+    pos["i"].add("pron")
+    common["i"] = "i"
+    # A form is no form of a spelling sent elsewhere by hand (garadh of gar, which is ag's), unless it is that spelling mutated.
+    for form, of in list(lemmas.items()):
+        if form not in overrides:
+            lemmas[form] = [l for l in of if overrides.get(l, [l]) == [l] or l in gaelic_unmutated(form)]
+    for form, of in list(lemmas.items()):
+        if any("/" in l or " " in l for l in of):
+            lemmas[form] = [l for l in of if "/" not in l and " " not in l]
+    bare = defaultdict(list)
+    for word in common:
+        if word.translate(GAELIC_MARKS) != word:
+            bare[word.translate(GAELIC_MARKS)].append(word)
+    for form in list(freq):
+        if form in overrides or form in excluded or form in forms_of and form not in own:
+            continue
+        spelled = form.translate(GAELIC_ACUTE)
+        if spelled != form and (spelled in pos or spelled in lemmas):
+            common.pop(form, None)
+            lemmas[form] = [spelled]
+            continue
+        links = [l for l in dict.fromkeys(lemmas.get(form, [])) if l != form]
+        bases = gaelic_unmutated(form)
+        lemma = lemmatizer.lemmatize(form).lower() if lemmatizer and lemmatizer.is_known(form) else form
+        if is_word(form):
+            lemmas[form] = [l for l in links if l in bases or l in forms_of.get(form, ()) or l == lemma]
+            continue
+        accented = [w for b in bases | {form} for w in bare.get(b, ()) if is_word(w) and count(w) >= count(form)]
+        if form.translate(GAELIC_MARKS) == form and accented:
+            lemmas[form] = [max(accented, key=count)]
+        elif lemma != form and is_word(lemma):
+            lemmas[form] = [lemma]
+        elif not links:
+            words = [b for b in bases if is_word(b)]
+            if words:
+                lemmas[form] = [max(words, key=count)]
+
+
 def load_dictionary(language):
     path = os.path.join(DICTIONARIES, f"{DICTIONARY_SOURCES.get(language, language)}-{DICTIONARY_TARGETS.get(language, 'en')}.sqlite")
     if not os.path.exists(path):
@@ -4103,6 +4329,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
 
     scores = defaultdict(float)
     forms = defaultdict(dict)
+    if language == "gd":
+        gaelic_relink(freq, pos, lemmas, common, overrides, excluded, guessed, lemmatizer, is_word, count)
     for form, share in list(freq.items()):
         if form in excluded:
             continue
