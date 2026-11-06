@@ -1,0 +1,214 @@
+{
+ "id": "cy-mini-2200",
+ "rankUpTo": 2200,
+ "level": "B2",
+ "title": "Y corff a'r meddwl",
+ "description": "Ten short stories about people in Wales looking after their bodies and their minds.",
+ "topic": "Body and mind",
+ "names": [
+  "Gwenifer",
+  "Caernarfon",
+  "Mercher",
+  "Beryl",
+  "Saesneg",
+  "Cymraeg",
+  "Morlais",
+  "Llundain",
+  "Aberystwyth",
+  "Tachwedd",
+  "Cemlyn",
+  "Caerfyrddin",
+  "Aelwen",
+  "Dwysan",
+  "Abertawe",
+  "Sadwrn",
+  "Tanwen",
+  "Dolgellau",
+  "Cymru",
+  "Ebrill",
+  "Euros",
+  "Caerdydd",
+  "Prydwen",
+  "Eiddwen",
+  "Ewrop",
+  "Pwllheli",
+  "Delwyn",
+  "Wrecsam",
+  "Dinbych",
+  "Garmon",
+  "Elenid",
+  "Aberteifi",
+  "Llanelli",
+  "Medi",
+  "Llywela",
+  "Gwener",
+  "Myrddin",
+  "Machynlleth",
+  "Tecwen",
+  "Gwenonwy",
+  "Eban",
+  "Ceredigion",
+  "Lerpwl",
+  "Gaiman"
+ ],
+ "lessons": [
+  {
+   "title": "Anadl Gwenifer",
+   "summary": "A translator who sits at her desk all day learns from a doctor and a yoga class to breathe slowly and rest at the weekend.",
+   "newWords": [
+    "cyfieithydd",
+    "desg",
+    "anadl",
+    "bas",
+    "ocsigen",
+    "cyhyr",
+    "lles",
+    "dinesig",
+    "mat",
+    "penwythnos"
+   ],
+   "text": "Cyfieithydd yw Gwenifer. Mae hi'n byw yng Nghaernarfon ac yn gweithio gartref, wrth ddesg fach yn ei hystafell wely. Bob dydd mae hi'n troi dogfennau o'r Saesneg i'r Gymraeg, ac yn aml mae hi'n eistedd wrth y ddesg am 10 awr heb godi. Roedd hi'n hoffi bod yn gyfieithydd, ond erbyn diwedd y gaeaf roedd hi'n flinedig drwy'r amser, ac roedd ei chefn a'i hysgwyddau'n brifo.\n\nAeth hi at y meddyg, a dywedodd y meddyg nad oedd dim byd mawr yn bod arni.\n\n“Ond mae gennych chi anadl bas iawn,” meddai'r meddyg. “Pan fydd rhywun yn eistedd wrth ddesg drwy'r dydd, mae'r anadl yn mynd yn fas, ac o ganlyniad mae llai o ocsigen yn cyrraedd y corff. Mae'r cyhyrau'n mynd yn dynn hefyd. Rhaid i chi feddwl am eich lles eich hun.”\n\nDywedodd y meddyg fod dosbarth ioga yn y ganolfan ddinesig bob nos Fercher, ac y byddai'r dosbarth yn gwneud lles iddi.\n\nPrynodd Gwenifer fat glas, ac ar y nos Fercher nesaf aeth hi i'r ganolfan ddinesig. Roedd 12 o bobl yno, pob un ar ei fat ei hun. Beryl oedd enw'r athrawes.\n\n“Gorweddwch ar eich mat,” meddai Beryl. “Anadlwch i mewn yn araf wrth gyfrif i 4, ac anadlwch allan wrth gyfrif i 6. Gwrandewch ar eich anadl. Bydd mwy o ocsigen yn cyrraedd y corff, a bydd y cyhyrau'n gallu gorffwys. Peidiwch â meddwl am y gwaith.”\n\nI ddechrau, roedd hyn yn anodd i Gwenifer, oherwydd roedd hi'n meddwl am ei desg ac am ei dogfennau. Ond yn araf, dechreuodd ei chyhyrau ymlacio, ac roedd ei hanadl yn llai bas.\n\nAr ôl y dosbarth, dywedodd Beryl y byddai 10 munud bob bore yn ddigon. Felly nawr, cyn iddi eistedd wrth y ddesg, mae Gwenifer yn rhoi'r mat ar y llawr ac yn anadlu'n araf. Ar y penwythnos mae hi'n cau drws yr ystafell wely ac yn mynd am dro ar lan y môr. Dydy hi byth yn gweithio ar y penwythnos erbyn hyn. Ar ôl 2 fis, mae hi'n teimlo'n llawer gwell o ran ei chorff a'i meddwl. Mae'r dosbarth wedi gwneud lles iddi, ac mae ei gwaith yn well hefyd.\n\nCwestiynau:\nBeth yw gwaith Gwenifer?\nCyfieithydd yw Gwenifer, ac mae hi'n gweithio gartref wrth ddesg fach.\nBeth ddywedodd y meddyg am ei hanadl hi?\nDywedodd y meddyg fod ganddi anadl bas iawn.\nPam mae anadl bas yn ddrwg i'r corff?\nAchos mae llai o ocsigen yn cyrraedd y corff, ac mae'r cyhyrau'n mynd yn dynn.\nBle mae'r dosbarth ioga?\nMae'r dosbarth ioga yn y ganolfan ddinesig.\nBeth mae Gwenifer yn ei wneud bob bore nawr?\nMae hi'n rhoi'r mat ar y llawr ac yn anadlu'n araf am 10 munud.\nBeth mae hi'n ei wneud ar y penwythnos?\nMae hi'n mynd am dro ar lan y môr, a dydy hi ddim yn gweithio."
+  },
+  {
+   "title": "Taid ar y rhodfa",
+   "summary": "A woman tells how her grandfather slips on the wet promenade in Aberystwyth, how a young cyclist helps him, and what he promises afterwards.",
+   "newWords": [
+    "taid",
+    "llygredd",
+    "rhodfa",
+    "llithro",
+    "modfedd",
+    "beiciwr",
+    "elin",
+    "trannoeth",
+    "addo"
+   ],
+   "text": "Mae fy nhaid, Morlais, yn 81 oed. Am 40 mlynedd roedd e'n byw yn Llundain, lle roedd y llygredd yn ddrwg i'w frest. Pan orffennodd e weithio, dywedodd ei feddyg y byddai awyr y môr yn well iddo na llygredd y ddinas, felly symudodd Taid i Aberystwyth, lle rydw i'n byw hefyd.\n\nBob bore mae e'n cerdded ar hyd y rhodfa, o un pen i'r llall ac yn ôl. Mae'r rhodfa'n hir, mae'r awyr yn lân, ac mae'r môr yn agos. Yn ôl Taid, y rhodfa yw'r meddyg gorau yn y dref.\n\nUn bore ym mis Tachwedd, roedd hi wedi bwrw glaw drwy'r nos, ac roedd y rhodfa'n wlyb iawn. Yn sydyn, llithrodd troed Taid ar garreg wlyb, a chwympodd e ar ei ochr. Roedd ei ben o fewn modfedd i'r wal isel ar ymyl y rhodfa. Dim ond un fodfedd!\n\nDaeth beiciwr ifanc heibio, a stopiodd e ar unwaith. Helpodd y beiciwr Taid i godi ac i eistedd ar fainc, ac wedyn ffoniodd e fi. Cyrhaeddais i mewn 10 munud. Roedd elin dde Taid yn brifo, felly aethon ni at y meddyg. Edrychodd y meddyg ar yr elin yn ofalus, a dywedodd nad oedd dim wedi torri.\n\nTrannoeth, roedd elin Taid yn dal i frifo, ac roedd e'n anhapus oherwydd na allai fynd am dro. Ond y prynhawn hwnnw daeth y beiciwr i'r tŷ gyda bocs o gacennau, achos roedd e wedi gofyn i mi am y cyfeiriad. Cawson ni i gyd baned yn y gegin.\n\n“Rydych chi'n cerdded yn gyflym iawn am ddyn 81 oed,” meddai'r beiciwr, “ond mae'r esgidiau yna'n hen. Maen nhw'n llithro ar y garreg.”\n\n“Rydych chi'n iawn,” meddai Taid. “Rydw i'n addo prynu rhai newydd.”\n\nAddawodd e hefyd y byddai'n aros gartref pan fyddai'r rhodfa'n wlyb iawn. Trannoeth, aethon ni i'r siop, a phrynodd e esgidiau cerdded da. Erbyn hyn, mae ei elin yn iawn, ac mae Taid yn ôl ar y rhodfa bob bore. Weithiau, mae'r beiciwr yn stopio i gael sgwrs gydag e.\n\nCwestiynau:\nPam symudodd Morlais i Aberystwyth?\nSymudodd e i Aberystwyth achos dywedodd ei feddyg y byddai awyr y môr yn well iddo na llygredd y ddinas.\nBeth ddigwyddodd ar y rhodfa un bore ym mis Tachwedd?\nLlithrodd troed Morlais ar garreg wlyb, a chwympodd e.\nPa mor agos oedd ei ben at y wal?\nRoedd ei ben o fewn modfedd i'r wal.\nPwy helpodd Morlais i godi?\nY beiciwr ifanc helpodd Morlais i godi.\nBeth ddigwyddodd trannoeth?\nRoedd ei elin yn dal i frifo, a daeth y beiciwr i'r tŷ gyda bocs o gacennau.\nBeth addawodd Morlais?\nAddawodd e brynu esgidiau newydd ac aros gartref pan fyddai'r rhodfa'n wlyb iawn."
+  },
+  {
+   "title": "Y wên a'r ên",
+   "summary": "A man with an aching jaw learns that he clenches his teeth under stress, uses notes and a candle to relax, and gets his smile back.",
+   "newWords": [
+    "gên",
+    "gwên",
+    "ymwybodol",
+    "arbenigol",
+    "nodyn",
+    "atgoffa",
+    "silff",
+    "cannwyll"
+   ],
+   "text": "Mae Cemlyn yn 46 oed ac yn gweithio mewn banc yng Nghaerfyrddin. Y llynedd roedd ei waith yn anodd iawn, ac roedd e'n mynd i'r gwely'n hwyr bob nos gyda'i ffôn yn ei law. Bob bore, pan oedd e'n deffro, roedd ei ên yn brifo. Weithiau roedd hi'n anodd iddo agor ei geg i fwyta brecwast. Sylwodd ei ferch, Aelwen, ar rywbeth arall hefyd.\n\n“Ble mae dy wên di wedi mynd, Dad?” meddai hi. “Roedd gen ti wên fawr o'r blaen.”\n\nAeth Cemlyn at y deintydd. Edrychodd y deintydd, Dwysan, ar ei ddannedd ac ar ei ên, a gofynnodd hi a oedd e'n gwasgu ei ddannedd yn y nos.\n\n“Dydw i ddim yn gwybod,” meddai Cemlyn. “Pan fydda i'n cysgu, dydw i ddim yn ymwybodol o ddim byd.”\n\nDywedodd Dwysan fod llawer o bobl yn gwneud hyn heb fod yn ymwybodol o'r peth, yn enwedig pan fyddan nhw o dan straen. Anfonodd hi Cemlyn i glinig arbenigol yn Abertawe.\n\nYn y clinig arbenigol, dywedodd y meddyg nad oedd yr ên ei hun yn sâl, ond bod y cyhyrau'n dynn iawn. Dangosodd hi ymarferion arbenigol iddo.\n\n“Rhaid i chi fod yn ymwybodol o'ch gên yn ystod y dydd hefyd,” meddai hi. “Ysgrifennwch nodyn i'ch atgoffa chi, a rhowch y nodyn rywle lle byddwch chi'n ei weld e.”\n\nYsgrifennodd Cemlyn nodyn bach, “Ydy dy ên di'n rhydd?”, a'i roi ar y silff uwchben ei ddesg. Rhoddodd e nodyn arall ar y silff yn yr ystafell ymolchi. Bob tro roedd e'n gweld nodyn, roedd hwnnw'n ei atgoffa i agor ei geg ychydig ac i anadlu'n araf.\n\nDywedodd y meddyg wrtho hefyd am beidio ag edrych ar ei ffôn yn y gwely, felly gadawodd e'r ffôn yn y gegin. Yn lle hynny, roedd e'n rhoi cannwyll ar y silff ger y gwely ac yn darllen am hanner awr. Roedd golau'r gannwyll yn ei atgoffa o dŷ ei fam pan oedd e'n blentyn. Cyn cysgu, roedd e'n chwythu'r gannwyll allan.\n\nAr ôl 6 wythnos, doedd ei ên ddim yn brifo yn y bore. Un dydd Sadwrn daeth Aelwen i'r gegin, ac edrychodd hi ar ei thad.\n\n“Dyna hi!” meddai hi. “Dyna dy wên di!”\n\nCwestiynau:\nBeth oedd yn brifo bob bore?\nRoedd gên Cemlyn yn brifo bob bore.\nBeth ofynnodd y deintydd iddo?\nGofynnodd hi a oedd e'n gwasgu ei ddannedd yn y nos.\nPam doedd Cemlyn ddim yn gwybod?\nAchos dydy e ddim yn ymwybodol o ddim byd pan fydd e'n cysgu.\nI ble anfonodd y deintydd Cemlyn?\nAnfonodd hi Cemlyn i glinig arbenigol yn Abertawe.\nBle rhoddodd Cemlyn y nodyn?\nRhoddodd e'r nodyn ar y silff uwchben ei ddesg.\nBeth oedd yn ei atgoffa o dŷ ei fam?\nRoedd golau'r gannwyll yn ei atgoffa o dŷ ei fam."
+  },
+  {
+   "title": "Gwers y tu allan",
+   "summary": "A geography teacher in Dolgellau takes her tired pupils out on the mountain once a month, and they feel better for it.",
+   "newWords": [
+    "daearyddiaeth",
+    "gogledd-orllewin",
+    "cyfandir",
+    "cwricwlwm",
+    "cychwynnol",
+    "daearyddol",
+    "ffrwd",
+    "cwmwl",
+    "derw",
+    "nythu"
+   ],
+   "text": "Mae Tanwen yn dysgu daearyddiaeth mewn ysgol uwchradd yn Nolgellau, yng ngogledd-orllewin Cymru. Y llynedd sylwodd hi fod ei disgyblion yn flinedig ac yn poeni am bopeth. Roedden nhw'n gallu enwi pob cyfandir ar y map, ac roedden nhw'n gwybod faint o bobl oedd yn byw ar bob cyfandir, ond ychydig ohonyn nhw oedd wedi cerdded ar y mynydd y tu ôl i'r ysgol.\n\nDarllenodd Tanwen y cwricwlwm newydd yn ofalus. Yn ôl y cwricwlwm, mae iechyd corff a meddwl y disgyblion yr un mor bwysig â'u gwaith. Felly aeth hi at y pennaeth gyda syniad.\n\n“Hoffwn i ddysgu un wers daearyddiaeth bob mis y tu allan,” meddai hi. “Cynllun cychwynnol yn unig yw hwn, am 3 mis.”\n\nDywedodd y pennaeth y byddai'r cynllun cychwynnol yn iawn, os byddai'r gwaith yn dilyn y cwricwlwm.\n\nAr fore braf ym mis Ebrill, aeth Tanwen ag 20 o ddisgyblion i fyny'r mynydd. Mae gogledd-orllewin Cymru'n llawn nodweddion daearyddol, fel mynyddoedd, dyffrynnoedd ac afonydd, felly doedd dim rhaid iddi fynd yn bell i ddangos nodweddion daearyddol iddyn nhw.\n\nYn gyntaf, dilynon nhw ffrwd fach a oedd yn rhedeg i lawr rhwng y creigiau. Gofynnodd Tanwen o ble roedd dŵr y ffrwd wedi dod, ac i ble roedd y ffrwd yn mynd. Wedyn, gorweddodd pawb ar y gwair ac edrych i fyny. Roedd cwmwl mawr yn dod dros y mynydd o'r gorllewin.\n\n“Mae'r cwmwl yna wedi croesi'r môr,” meddai Tanwen. “Efallai fod ei ddŵr wedi dod o gyfandir arall. Yfory, efallai y bydd yr un dŵr yn y ffrwd.”\n\nAr y ffordd yn ôl, cerddon nhw drwy goed derw. Mae'r coed derw yno'n hen iawn, ac mae llawer o adar bach yn nythu ynddyn nhw yn y gwanwyn. Dywedodd Tanwen na ddylai neb fynd yn agos at aderyn sy'n nythu. Felly eisteddon nhw'n dawel o dan y derw am 10 munud, a gwylio'r adar yn nythu.\n\nAr ôl 3 mis, gofynnodd Tanwen i'r disgyblion sut roedden nhw'n teimlo. Dywedodd y rhan fwyaf eu bod nhw'n cysgu'n well, a bod y gwersi y tu allan yn eu helpu nhw i feddwl yn gliriach. Dim ond cynllun cychwynnol oedd e, ond cytunodd y pennaeth y byddai'n parhau. Erbyn hyn, daearyddiaeth yw un o hoff bynciau'r ysgol.\n\nCwestiynau:\nBle mae Tanwen yn dysgu?\nMae hi'n dysgu daearyddiaeth mewn ysgol uwchradd yn Nolgellau, yng ngogledd-orllewin Cymru.\nBeth oedd y disgyblion yn gallu ei wneud ar y map?\nRoedden nhw'n gallu enwi pob cyfandir ar y map.\nBeth sy'n bwysig, yn ôl y cwricwlwm?\nYn ôl y cwricwlwm, mae iechyd corff a meddwl y disgyblion yr un mor bwysig â'u gwaith.\nBeth welon nhw pan orweddon nhw ar y gwair?\nGwelon nhw gwmwl mawr yn dod dros y mynydd o'r gorllewin.\nBeth oedd yr adar yn ei wneud yn y coed derw?\nRoedd yr adar yn nythu yn y coed derw.\nSut roedd y disgyblion yn teimlo ar ôl 3 mis?\nRoedden nhw'n cysgu'n well ac yn meddwl yn gliriach."
+  },
+  {
+   "title": "Bol Euros",
+   "summary": "A medical student with stomach aches before exams learns from the campus doctor that his worry causes real pain, and he changes how he talks to himself.",
+   "newWords": [
+    "meddygaeth",
+    "campws",
+    "organ",
+    "bol",
+    "trachefn",
+    "gwirioneddol",
+    "prosesu",
+    "esiampl",
+    "beirniadol"
+   ],
+   "text": "Mae Euros yn astudio meddygaeth yng Nghaerdydd. Mae e'n byw ar y campws, mewn ystafell fach ger y llyfrgell. Mae meddygaeth yn bwnc anodd: rhaid iddo ddysgu enw pob organ a phob cyhyr yn y corff.\n\nCyn ei arholiadau cyntaf, dechreuodd ei fol frifo. Aeth y boen i ffwrdd ar ôl yr arholiad, ond cyn yr arholiad nesaf daeth hi'n ôl drachefn. Darllenodd Euros am bob organ yn y bol, drachefn a thrachefn, ac roedd e'n siŵr fod rhywbeth mawr yn bod arno. O'r diwedd, aeth e i weld meddyg y campws, Prydwen.\n\nArchwiliodd Prydwen ei fol yn ofalus, a gofynnodd hi lawer o gwestiynau.\n\n“Mae pob organ yn iawn,” meddai hi. “Ond dydych chi ddim yn dychmygu'r boen. Mae hi'n boen wirioneddol, er nad oes dim byd yn bod ar eich bol.”\n\n“Sut gall poen fod yn wirioneddol heb reswm?” gofynnodd Euros.\n\n“Dyma esiampl,” meddai Prydwen. “Mae'r ymennydd yn prosesu ofn yn gyflym iawn. Pan fydd yr ymennydd yn prosesu ofn, mae'n anfon neges at y bol, ac mae'r bol yn prosesu bwyd yn arafach. O ganlyniad, rydych chi'n teimlo poen.”\n\nYna gofynnodd hi beth roedd e'n ei ddweud wrtho'i hun cyn arholiad. Dywedodd Euros ei fod yn dweud nad oedd e'n ddigon da, ac y byddai pawb arall yn gwneud yn well.\n\n“Rydych chi'n rhy feirniadol ohonoch chi'ch hun,” meddai Prydwen. “Mae meddwl beirniadol yn beth da wrth ddarllen erthygl, ond nid wrth siarad â chi'ch hun. Dyma esiampl arall. Petai ffrind yn poeni am arholiad, fyddech chi'n dweud wrtho nad yw e'n ddigon da?”\n\n“Na fyddwn,” meddai Euros.\n\nAr ôl hynny, dechreuodd Euros fwyta ar amserau rheolaidd, a cherdded o gwmpas y campws cyn pob arholiad, gan anadlu'n araf. Dywedodd e wrtho'i hun ei fod wedi gweithio'n galed. Daeth y boen yn ôl drachefn unwaith neu ddwy, ond roedd hi'n llai. Pasiodd e bob arholiad y flwyddyn honno, ac mae'n dweud y bydd e'n rhoi'r un esiampl i'w gleifion ei hun ryw ddydd.\n\nCwestiynau:\nBeth mae Euros yn ei astudio?\nMae e'n astudio meddygaeth yng Nghaerdydd.\nPryd roedd ei fol yn brifo?\nRoedd ei fol yn brifo cyn pob arholiad.\nBeth ddywedodd Prydwen am y boen?\nDywedodd hi fod y boen yn wirioneddol, ond bod pob organ yn iawn.\nBeth mae'r ymennydd yn ei brosesu yn gyflym?\nMae'r ymennydd yn prosesu ofn yn gyflym iawn.\nPam dywedodd Prydwen fod Euros yn rhy feirniadol?\nAchos roedd e'n dweud wrtho'i hun nad oedd e'n ddigon da.\nBeth wnaeth Euros cyn pob arholiad wedyn?\nCerddodd e o gwmpas y campws gan anadlu'n araf."
+  },
+  {
+   "title": "Trwydded Eiddwen",
+   "summary": "A tired airline pilot fails her medical, goes to the company's headquarters, chooses three months of rest and gets her licence back.",
+   "newWords": [
+    "peilot",
+    "meddu",
+    "trwydded",
+    "dibynadwy",
+    "pencadlys",
+    "tanddaearol",
+    "opsiwn",
+    "apelio",
+    "hawlio"
+   ],
+   "text": "Mae Eiddwen yn beilot. Mae hi'n hedfan awyrennau mawr o Gaerdydd i bob rhan o Ewrop. Rhaid i bob peilot feddu ar drwydded, a rhaid i bob un sy'n meddu ar drwydded basio prawf meddygol bob blwyddyn. Roedd Eiddwen wedi pasio'r prawf am 15 mlynedd, ac roedd pawb yn y cwmni'n dweud ei bod hi'n beilot dibynadwy.\n\nOnd y gwanwyn diwethaf, oherwydd yr oriau hir, roedd hi'n cysgu'n wael. Yn y prawf, dywedodd y meddyg fod ei chalon yn curo'n rhy gyflym a'i bod hi'n rhy flinedig.\n\n“Alla i ddim adnewyddu eich trwydded chi nes byddwch chi wedi gorffwys,” meddai'r meddyg. “Mae cwmni'n dibynnu ar beilot dibynadwy, a dydy peilot blinedig ddim yn ddibynadwy.”\n\nRoedd Eiddwen yn ofni colli ei thrwydded am byth. Aeth hi i bencadlys y cwmni yn Llundain i siarad â'r rheolwr. Cymerodd hi'r trên tanddaearol o'r orsaf. Roedd hi'n boeth ar y trên tanddaearol, ac roedd pob sedd yn llawn. Wrth gerdded allan o'r orsaf danddaearol, teimlodd hi ei chalon yn curo'n gyflym eto.\n\nYn y pencadlys, dywedodd y rheolwr fod 2 opsiwn ganddi. Yr opsiwn cyntaf oedd swydd mewn swyddfa yn y pencadlys am flwyddyn. Doedd hynny ddim yn apelio ati o gwbl, oherwydd roedd hi'n caru'r awyr, ac nid Llundain. Yr ail opsiwn oedd 3 mis o orffwys gartref. Dywedodd y rheolwr y gallai hi hawlio ei chyflog llawn yn ystod y 3 mis, ac y gallai hi hawlio cost y daith i Lundain hefyd. Apeliodd yr ail opsiwn ati ar unwaith.\n\nAeth Eiddwen adref i Bwllheli at ei chwaer. Bob dydd roedd hi'n cerdded ar y traeth, yn bwyta'n dda ac yn cysgu am 8 awr. Yn araf, dechreuodd hi deimlo'n well.\n\nAr ôl 3 mis, aeth hi'n ôl at y meddyg. Y tro hwn roedd ei chalon yn curo'n dawel ac yn araf. Adnewyddodd y meddyg ei thrwydded, ac o fewn wythnos roedd hi'n ôl yn yr awyr. Erbyn hyn mae hi'n cymryd pob diwrnod gorffwys, a hi yw un o'r peilotiaid mwyaf dibynadwy yn y cwmni.\n\nCwestiynau:\nBeth mae'n rhaid i bob peilot feddu arno?\nRhaid i bob peilot feddu ar drwydded.\nPam na wnaeth y meddyg adnewyddu trwydded Eiddwen?\nAchos roedd ei chalon yn curo'n rhy gyflym ac roedd hi'n rhy flinedig.\nSut aeth Eiddwen i'r pencadlys?\nAeth hi ar y trên tanddaearol.\nPam nad oedd yr opsiwn cyntaf yn apelio ati?\nAchos roedd hi'n caru'r awyr, ac nid Llundain.\nBeth gallai hi ei hawlio yn ystod y 3 mis?\nGallai hi hawlio ei chyflog llawn.\nBeth wnaeth hi ym Mhwllheli?\nCerddodd hi ar y traeth, bwytaodd hi'n dda a chysgodd hi am 8 awr."
+  },
+  {
+   "title": "Yr hen dŷ a'i simnai",
+   "summary": "A man who has lost his job and his spirits buys a ruined house, rebuilds it by hand and finds that the work has changed him too.",
+   "newWords": [
+    "asiant",
+    "ailadeiladu",
+    "eiddew",
+    "simnai",
+    "iard",
+    "brics",
+    "ffos",
+    "addurno",
+    "trawsnewid"
+   ],
+   "text": "Collodd Delwyn ei swydd pan gaeodd y ffatri yn Wrecsam. Roedd e'n 52 oed. Am fisoedd roedd e'n eistedd gartref, heb eisiau gweld neb, ac roedd pob diwrnod yr un fath â'r diwrnod cynt. Un bore, gan feddwl am yr arian a gafodd gan y ffatri, ffoniodd e asiant tai.\n\n“Mae gen i un tŷ rhad iawn ger Dinbych,” meddai'r asiant, Garmon. “Ond rhaid i mi fod yn onest. Bydd rhaid ei ailadeiladu bron i gyd.”\n\nAeth y ddau i weld y tŷ. Roedd eiddew yn tyfu dros y waliau i gyd, a hyd yn oed dros y simnai. Roedd y simnai'n gam, ac roedd hanner ei brics wedi cwympo i'r iard. Roedd y ffos ar ochr y ffordd yn llawn dail, ac o ganlyniad roedd dŵr yn dod i mewn i'r iard bob tro roedd hi'n bwrw glaw. Dywedodd yr asiant y byddai'r gwaith yn cymryd 2 flynedd o leiaf. Prynodd Delwyn y tŷ er hynny.\n\nDechreuodd e gyda'r eiddew. Torrodd e'r eiddew oddi ar y waliau, ond gadawodd e ychydig ar wal yr iard i'r adar. Wedyn cliriodd e'r ffos, ac aeth yr iard yn sych. Glanhaodd e'r hen frics yn yr iard, un ar y tro, ac yn yr haf dechreuodd e ailadeiladu'r simnai gyda'r un brics. Roedd pob cyhyr yn brifo bob nos, ond roedd e'n cysgu'n dda ac yn deffro'n fodlon. Am y tro cyntaf ers misoedd, roedd e eisiau codi yn y bore.\n\nFesul tipyn, roedd y gwaith yn trawsnewid y lle. Erbyn yr ail haf, roedd y waliau'n gryf, ac roedd Delwyn yn gallu dechrau addurno. Addurnodd e'r ystafelloedd mewn melyn a gwyn, ac addurnodd e wal y gegin gyda'r brics gorau. Daeth ei gymdogion i weld y tŷ, ac aeth e i'w gweld nhw.\n\nPan orffennodd e ailadeiladu'r tŷ, daeth Garmon yn ôl i weld y lle.\n\n“Rydych chi wedi trawsnewid y tŷ yma,” meddai'r asiant.\n\n“Nid y tŷ yn unig,” meddai Delwyn, gan wenu. “Mae'r gwaith wedi fy nhrawsnewid i hefyd.”\n\nCwestiynau:\nPam roedd Delwyn yn eistedd gartref?\nAchos collodd e ei swydd pan gaeodd y ffatri.\nPwy yw Garmon?\nGarmon yw'r asiant tai.\nBeth oedd yn tyfu dros y waliau?\nRoedd eiddew yn tyfu dros y waliau i gyd.\nPam roedd dŵr yn dod i mewn i'r iard?\nAchos roedd y ffos yn llawn dail.\nBeth wnaeth Delwyn gyda'r hen frics?\nGlanhaodd e nhw, ac ailadeiladodd e'r simnai gyda nhw.\nSut newidiodd y gwaith Delwyn?\nRoedd e'n cysgu'n dda ac yn deffro'n fodlon, ac roedd e eisiau codi yn y bore."
+  },
+  {
+   "title": "Noswaith yn y sinema",
+   "summary": "A lonely newcomer to Llanelli accepts her neighbour's invitation to a cartoon evening at the cinema and gets past her fear at the door.",
+   "newWords": [
+    "dieithr",
+    "gyferbyn",
+    "gwahoddiad",
+    "sinema",
+    "noswaith",
+    "cartŵn",
+    "mynedfa",
+    "wylo"
+   ],
+   "text": "Symudodd Elenid o Aberteifi i Lanelli ym mis Medi, i weithio mewn swyddfa. Doedd hi ddim yn adnabod neb yn y dref. Roedd pob stryd yn ddieithr ac roedd pob wyneb yn ddieithr. Ar ôl gwaith, roedd hi'n aros yn ei fflat ar ei phen ei hun, ac ar ôl rhai wythnosau dechreuodd hi ofni mynd i lefydd llawn pobl.\n\nYn y tŷ gyferbyn roedd gwraig o'r enw Llywela yn byw. Bob bore, roedd Llywela yn codi ei llaw o'r ffenest gyferbyn. Un noswaith, daeth hi draw gyda cherdyn yn ei llaw.\n\n“Noswaith dda,” meddai hi. “Dyma wahoddiad i chi. Mae sinema'r dref yn 100 oed eleni, ac mae noswaith arbennig nos Wener. Bydd y sinema'n dangos hen gartŵn i bawb, a bydd cacennau wedyn.”\n\nDiolchodd Elenid am y gwahoddiad. Doedd hi ddim eisiau mynd, ond roedd hi'n gwybod bod rhaid iddi wneud rhywbeth.\n\nNos Wener, cerddodd y ddwy i'r sinema gyda'i gilydd. Wrth y fynedfa roedd llawer o bobl yn siarad ac yn chwerthin. Stopiodd Elenid. Roedd ei chalon yn curo'n gyflym.\n\n“Alla i ddim,” meddai hi. “Mae gormod o bobl ddieithr yma. Mae'n ddrwg gen i.”\n\n“Peidiwch â phoeni,” meddai Llywela. “Dim ond pobl y stryd yw'r rhain. Gallwn ni aros yma wrth y fynedfa nes byddwch chi'n barod.”\n\nSafon nhw wrth y fynedfa am 5 munud, ac anadlodd Elenid yn araf. Wedyn aethon nhw i mewn. Roedd y cartŵn yn sôn am gi bach a oedd wedi mynd ar goll mewn dinas fawr. Ar y diwedd, pan ddaeth y ci bach o hyd i'w gartref, roedd plant ac oedolion yn wylo o hapusrwydd. Wylodd Elenid hefyd, ac wedyn chwarddodd hi am ei bod hi'n wylo am gartŵn.\n\n“Mae wylo'n gwneud lles,” meddai Llywela.\n\nAr ôl y ffilm, cyflwynodd Llywela hi i'w chymdogion, a chafodd pawb gacen. Erbyn hyn mae Elenid yn mynd i'r sinema gyda Llywela bob mis, a dydy'r dref ddim yn ddieithr iddi o gwbl.\n\nCwestiynau:\nSut roedd Llanelli yn teimlo i Elenid ar y dechrau?\nRoedd pob stryd a phob wyneb yn ddieithr iddi.\nBle mae Llywela yn byw?\nMae Llywela yn byw yn y tŷ gyferbyn.\nBeth roedd Llywela yn ei gario yn ei llaw?\nRoedd hi'n cario cerdyn, sef gwahoddiad i'r sinema.\nPam stopiodd Elenid wrth y fynedfa?\nAchos roedd gormod o bobl ddieithr yno, ac roedd ei chalon yn curo'n gyflym.\nAm beth roedd y cartŵn yn sôn?\nRoedd y cartŵn yn sôn am gi bach a oedd wedi mynd ar goll.\nPam wylodd Elenid?\nWylodd hi o hapusrwydd pan ddaeth y ci bach o hyd i'w gartref."
+  },
+  {
+   "title": "Y twrnamaint cerdded",
+   "summary": "A 67-year-old with a sore knee joins a walking football club and plays in his first tournament, which they do not win but enjoy.",
+   "newWords": [
+    "diogelu",
+    "twrnamaint",
+    "lwc",
+    "ffyrnig",
+    "mo",
+    "arbed",
+    "adio"
+   ],
+   "text": "Mae Myrddin yn 67 oed ac yn byw ym Machynlleth. Roedd e'n arfer chwarae pêl-droed, ond dywedodd ei feddyg na ddylai redeg oherwydd ei ben-glin. Felly, am flwyddyn, wnaeth e ddim byd ond gwylio'r teledu, ac roedd e'n ddigalon.\n\nUn diwrnod, soniodd ei gymdoges, Tecwen, am glwb pêl-droed cerdded yn y dref.\n\n“Does neb yn cael rhedeg,” meddai hi. “Mae hynny'n diogelu'r pengliniau, ac mae'r clwb yn diogelu'r meddwl hefyd, achos rwyt ti'n gweld ffrindiau bob wythnos.”\n\nYmunodd Myrddin â'r clwb. Yn yr haf, cafodd y clwb le mewn twrnamaint yn Aberystwyth, gyda 6 thîm. Tecwen oedd yn y gôl. Ar fore'r twrnamaint, ffoniodd wyres Myrddin i ddweud, “Pob lwc, Taid!”\n\nPwllheli oedd y tîm cyntaf yn y twrnamaint. Roedd chwaraewyr Pwllheli yn ffyrnig: roedden nhw'n cerdded yn gyflym iawn ac yn gweiddi drwy'r amser. Welodd Myrddin mo'r bêl am hanner y gêm, ac enillon nhw mo'r gêm chwaith. Y sgôr oedd 3 i 0.\n\n“Pob lwc y tro nesaf,” meddai un o chwaraewyr ffyrnig Pwllheli, gan chwerthin.\n\nYn yr ail gêm, roedd pethau'n well. Arbedodd Tecwen gynnig ar ôl cynnig. Arbedodd hi'r bêl â'i dwylo, â'i thraed a hyd yn oed â'i phen. Enillon nhw 1 i 0. Yn y drydedd gêm, cawson nhw dipyn o lwc: tarodd y bêl goes Myrddin ac aeth hi i mewn i'r gôl. Doedd Myrddin ddim wedi ei gweld hi, ond chwarddodd pawb a dweud bod lwc yn cyfrif hefyd.\n\nAr ddiwedd y dydd, eisteddodd pawb ar y gwair. Tynnodd Myrddin ddarn o bapur o'i boced a dechrau adio'r pwyntiau: 3 am bob gêm wedi ei hennill, 1 am bob gêm gyfartal. Adiodd e nhw ddwywaith, ac adiodd Tecwen nhw hefyd. Roedd eu clwb yn drydydd.\n\nChawson nhw mo'r cwpan, ond roedd Myrddin yn hapusach nag yr oedd e wedi bod ers blynyddoedd. Ar ôl y twrnamaint, prynodd chwaraewyr Pwllheli baned i bawb. Y tu allan i'r cae, doedden nhw ddim yn ffyrnig o gwbl.\n\nCwestiynau:\nPam na ddylai Myrddin redeg?\nDywedodd ei feddyg na ddylai redeg oherwydd ei ben-glin.\nBeth sy'n diogelu'r pengliniau mewn pêl-droed cerdded?\nMae'r rheol nad oes neb yn cael rhedeg yn diogelu'r pengliniau.\nBle roedd y twrnamaint?\nRoedd y twrnamaint yn Aberystwyth.\nSut roedd chwaraewyr Pwllheli yn chwarae?\nRoedden nhw'n ffyrnig: roedden nhw'n cerdded yn gyflym iawn ac yn gweiddi.\nBeth wnaeth Tecwen yn yr ail gêm?\nArbedodd hi'r bêl dro ar ôl tro.\nBeth wnaeth Myrddin gyda'r darn o bapur?\nDechreuodd e adio'r pwyntiau."
+  },
+  {
+   "title": "Rhyddiaith i ddarllenwyr cyffredin",
+   "summary": "A retired historian, low in spirits, takes her doctor's advice to write plain prose about a merchant ancestor, and the small book cheers her and helps a charity.",
+   "newWords": [
+    "hanesydd",
+    "rhyddiaith",
+    "darllenwr",
+    "meddiant",
+    "masnachwr",
+    "genedigaeth",
+    "bond",
+    "gwerthiant",
+    "cyfran"
+   ],
+   "text": "Gwenonwy ydw i. Hanesydd oeddwn i am 35 mlynedd. Ysgrifennais i lyfrau trwm i haneswyr eraill, gyda digon o nodiadau ar waelod pob tudalen. Pan orffennais i yn y brifysgol yn Aberystwyth, roeddwn i'n drist, ac weithiau doedd dim rheswm i godi yn y bore.\n\nAwgrymodd fy meddyg y dylwn i ysgrifennu rhywbeth i mi fy hun.\n\n“Rhowch gynnig ar ryddiaith syml,” meddai hi. “Stori, nid astudiaeth. Ysgrifennwch i ddarllenwr cyffredin, nid i hanesydd arall.”\n\nYn fy meddiant roedd bocs derw yn llawn hen bapurau am fy hen daid, Eban, masnachwr o Aberteifi. Roedd y masnachwr hwnnw'n prynu gwlân yng Ngheredigion a'i werthu yn Lerpwl. Roedd y bocs wedi bod yn fy meddiant ers 20 mlynedd, a doeddwn i erioed wedi darllen y papurau i gyd. Ynddo roedd llythyrau, papur yn nodi genedigaeth ei ferch, a bond a brynodd y masnachwr ar enedigaeth y ferch honno. Roedd y bond yn werth £50, sef arian mawr bryd hynny.\n\nBob bore, ysgrifennais i un dudalen o ryddiaith. I ddechrau, roedd fy rhyddiaith yn drwm, fel llyfr i haneswyr. Ond bob dydd roeddwn i'n dychmygu fy narllenwr: rhywun ar y bws, heb ddim amser. Wrth ysgrifennu am y masnachwr yn cerdded adref o'r banc gyda'r bond yn ei boced, teimlais i fy meddwl yn deffro. Roeddwn i'n codi'n gynnar, roeddwn i'n cerdded i'r llyfrgell, ac roeddwn i'n siarad â phobl unwaith eto.\n\nAr ôl blwyddyn, cyhoeddodd cwmni bach yn Aberystwyth y llyfr. Doedd y gwerthiant ddim yn fawr: tua 400 copi. Ond doedd y gwerthiant ddim yn bwysig i mi. Penderfynais i y byddai cyfran o arian y gwerthiant yn mynd at elusen iechyd meddwl, ac mae'r elusen yn cael y gyfran honno bob blwyddyn.\n\nYsgrifennodd sawl darllenwr ata i. Dywedodd un darllenwr o Gaiman fod ei deulu e'n dod o Aberteifi hefyd, a bod masnachwr yn eu hanes nhw hefyd. Rydw i'n cadw ei lythyr yn y bocs derw, gyda'r bond. Nawr rydw i'n ysgrifennu ail lyfr, a fydd dim un nodyn ynddo.\n\nCwestiynau:\nBeth oedd gwaith Gwenonwy am 35 mlynedd?\nHanesydd oedd hi am 35 mlynedd.\nBeth awgrymodd ei meddyg?\nAwgrymodd ei meddyg y dylai hi ysgrifennu rhyddiaith syml i ddarllenwr cyffredin.\nBeth oedd yn ei meddiant hi?\nRoedd bocs derw yn llawn hen bapurau yn ei meddiant hi.\nPwy oedd Eban?\nMasnachwr o Aberteifi oedd Eban, a oedd yn prynu ac yn gwerthu gwlân.\nPryd prynodd Eban y bond?\nPrynodd e'r bond ar enedigaeth ei ferch.\nBeth wnaeth hi gyda chyfran o arian y gwerthiant?\nRhoddodd hi gyfran o arian y gwerthiant i elusen iechyd meddwl."
+  }
+ ]
+}
