@@ -1,0 +1,209 @@
+{
+  "id": "cy-mini-2700",
+  "rankUpTo": 2700,
+  "level": "B2",
+  "title": "Cenedlaethau",
+  "description": "Ten standalone stories of grandparents, parents and children in Wales learning from one another.",
+  "topic": "Generations",
+  "names": [
+    "Catrin",
+    "Alis",
+    "Aberystwyth",
+    "Mercher",
+    "Marian",
+    "Lisa",
+    "Owen",
+    "Dolgellau",
+    "Meirion",
+    "Dyfan",
+    "Machynlleth",
+    "Caerdydd",
+    "Mehefin",
+    "Affrica",
+    "Elis",
+    "Martha",
+    "Môn",
+    "Llangefni",
+    "Awst",
+    "Sadwrn",
+    "Harri",
+    "Eirwen",
+    "Llanelli",
+    "Mot",
+    "Elan",
+    "Ceridwen",
+    "Caernarfon",
+    "Bangor",
+    "Geraint",
+    "Iestyn",
+    "Ionawr",
+    "Fflur",
+    "Aled",
+    "Pwllheli",
+    "Gwyneth",
+    "Pedr",
+    "Wrecsam",
+    "Mari",
+    "Islwyn",
+    "Chwefror",
+    "Ebrill",
+    "Cymraeg"
+  ],
+  "lessons": [
+    {
+      "title": "Nain yn dysgu rhaglennu",
+      "summary": "A retired maths teacher in Aberystwyth learns to program with her granddaughter, and a spelling mistake teaches them both to keep trying.",
+      "newWords": [
+        "sgwrsio",
+        "rhaglennu",
+        "llawlyfr",
+        "newidyn",
+        "polygon",
+        "gwall",
+        "datrysiad",
+        "sillafu"
+      ],
+      "text": "Athrawes fathemateg oedd Catrin cyn iddi ymddeol. Erbyn hyn mae hi'n 71 oed ac yn byw yn Aberystwyth, ac mae ei hwyres Alis, sy'n 12 oed, yn dod ati bob dydd Mercher ar ôl ysgol. Fel arfer maen nhw'n sgwrsio wrth fwrdd y gegin am ffrindiau Alis a'i gwaith ysgol. Un dydd Mercher, fodd bynnag, roedd Alis eisiau sgwrsio am rywbeth arall.\n\n“Rydyn ni'n dysgu rhaglennu yn yr ysgol,” meddai hi. “Wyt ti eisiau dysgu rhaglennu hefyd, Nain?”\n\nDoedd Catrin ddim yn siŵr. Roedd hi'n meddwl mai gwaith i bobl ifanc oedd rhaglennu. Serch hynny, prynodd hi lawlyfr i ddechreuwyr, a darllenodd hi'r llawlyfr bob nos am wythnos.\n\nYr wythnos wedyn, eisteddodd y ddwy o flaen y cyfrifiadur. Esboniodd Alis beth yw newidyn. “Blwch bach gydag enw arno yw newidyn,” meddai hi, “hynny yw, lle i gadw rhif.” Gwenodd Catrin. Yn ei gwersi mathemateg, roedd hi wedi defnyddio'r llythyren x fel newidyn ers 40 mlynedd.\n\nEu nod oedd ysgrifennu rhaglen a fyddai'n tynnu polygon ar y sgrin. Siâp gydag ochrau syth yw polygon, fel triongl neu sgwâr. Gwnaeth Catrin newidyn o'r enw “ochrau”, a rhoddodd hi'r rhif 6 ynddo fe. Ond pan bwysodd hi'r botwm, ddigwyddodd dim byd. Ymddangosodd neges goch ar y sgrin: roedd gwall yn y rhaglen.\n\nChwiliodd y ddwy am y gwall am hanner awr. Roedd Catrin yn dechrau blino, ond doedd hi ddim eisiau rhoi'r gorau iddi.\n\n“Dyfal donc a dyr y garreg,” meddai hi. “Hen ddywediad yw hwnna. Hynny yw, os wyt ti'n taro carreg dro ar ôl tro, bydd hi'n torri yn y diwedd. Rhaid bod datrysiad syml.”\n\nAgorodd hi'r llawlyfr ar y dudalen am wallau. Yn ôl y llawlyfr, gwall sillafu yw'r gwall mwyaf cyffredin: rhaid sillafu enw newidyn yn union yr un fath bob tro. Edrychodd Alis ar y sgrin yn ofalus, a dechrau chwerthin. Roedd ei nain wedi sillafu'r gair yn iawn yn y llinell gyntaf, ond yn yr ail linell roedd un llythyren ar goll. Dyna'r datrysiad! Ychwanegodd Catrin y llythyren, pwysodd hi'r botwm eto, ac ymddangosodd polygon glas gyda 6 ochr ar y sgrin.\n\nNawr, bob dydd Mercher, mae'r ddwy yn dal i sgwrsio wrth fwrdd y gegin. Ar ôl hynny, maen nhw'n rhaglennu gyda'i gilydd. Catrin sy'n darllen y llawlyfr, ac Alis sy'n chwilio am y gwallau.\n\nCwestiynau:\nPwy yw Alis?\nWyres Catrin yw Alis, ac mae hi'n 12 oed.\nBeth brynodd Catrin?\nPrynodd hi lawlyfr i ddechreuwyr.\nBeth yw newidyn, yn ôl Alis?\nYn ôl Alis, blwch bach gydag enw arno yw newidyn.\nBeth oedd y gwall yn y rhaglen?\nGwall sillafu oedd e: roedd un llythyren ar goll yn yr ail linell.\nSut daethon nhw o hyd i'r datrysiad?\nDarllenodd Catrin y llawlyfr, ac edrychodd Alis ar y sgrin yn ofalus.\nBeth maen nhw'n ei wneud bob dydd Mercher nawr?\nMaen nhw'n sgwrsio wrth fwrdd y gegin, ac wedyn maen nhw'n rhaglennu gyda'i gilydd."
+    },
+    {
+      "title": "Llofnod fy hen-nain",
+      "summary": "A woman doubts what an old book says about her great-grandmother, finds the school registers in the archive at Dolgellau and writes a booklet for her grandchildren.",
+      "newWords": [
+        "amau",
+        "eilaidd",
+        "sicrwydd",
+        "archif",
+        "cofrestr",
+        "llofnodi",
+        "cynt",
+        "cyfatebol",
+        "rhagymadrodd",
+        "atodiad"
+      ],
+      "text": "Marian ydw i, ac rydw i'n 70 oed. Y llynedd penderfynais i ysgrifennu llyfryn bach am hanes fy nheulu, er mwyn i fy wyrion ei ddarllen pan fyddan nhw'n hŷn. Roeddwn i eisiau sôn yn arbennig am fy hen-nain, Lisa Owen. Yn ôl hen lyfr am dref Dolgellau, roedd hi'n athrawes yno yn 1895, pan oedd hi'n 15 oed.\n\nDechreuais i amau'r hanes. Sut gallai merch 15 oed fod yn athrawes? Ffynhonnell eilaidd yw llyfr fel hwnnw, hynny yw, mae'r awdur yn ailadrodd yr hyn a ddarllenodd mewn llyfrau eraill. Dydy ffynhonnell eilaidd ddim yn rhoi sicrwydd i chi. Roeddwn i eisiau sicrwydd, felly es i i'r archif yn Nolgellau.\n\nAdeilad tawel yw'r archif, ac mae hen ddogfennau'r ardal i gyd yno. Dywedodd y ferch wrth y ddesg y byddai cofrestr yr ysgol yn lle da i ddechrau. Daeth hi â'r gofrestr ata i, llyfr mawr trwm o 1895. Yn y gofrestr roedd enw pob plentyn, gyda'i oedran a'r dyddiad y daeth i'r ysgol. Ar ddiwedd y flwyddyn, roedd yr athrawon wedi llofnodi'r gofrestr ar y dudalen olaf. Roedd 3 ohonyn nhw wedi llofnodi, a'r enw olaf oedd “Lisa Owen”.\n\nSerch hynny, roeddwn i'n dal i amau. Gofynnais i am gofrestr y flwyddyn cynt, ac agorais i hi ar y dudalen gyfatebol. Yno roedd enw Lisa gyda'r plant, nid gyda'r athrawon. Wedyn edrychais i ar y dudalen gyfatebol yng nghofrestr 1896, ac roedd hi wedi llofnodi eto. Esboniodd y ferch yn yr archif fod plant da yn yr oes honno yn aros yn yr ysgol ar ôl 13 oed. Roedden nhw'n dysgu'r plant iau, ac ar yr un pryd roedden nhw'n cael eu gwersi eu hunain. Y flwyddyn cynt, felly, disgybl yn unig oedd Lisa, ac yn 1895 roedd hi'n ddisgybl ac yn athrawes.\n\nO'r diwedd roedd gen i sicrwydd. Gartref, ysgrifennais i'r llyfryn. Yn y rhagymadrodd esboniais i pam roeddwn i wedi amau'r hen lyfr. Mae rhagymadrodd byr yn helpu pawb i ddeall pwrpas y llyfryn. Ar y diwedd mae atodiad, ac yn yr atodiad mae llun o'r gofrestr a rhestr o'r dogfennau a welais i yn yr archif. Mae fy wyrion yn hoffi'r atodiad yn fwy na dim, oherwydd y llun. Pan roddais i gopi i bob un ohonyn nhw, llofnodais i bob copi, yn union fel y gwnaeth Lisa.\n\nCwestiynau:\nPam dechreuodd Marian amau'r hen lyfr?\nRoedd hi'n amau'r hen lyfr achos doedd hi ddim yn deall sut gallai merch 15 oed fod yn athrawes.\nBeth yw ffynhonnell eilaidd?\nLlyfr lle mae'r awdur yn ailadrodd yr hyn a ddarllenodd mewn llyfrau eraill yw ffynhonnell eilaidd.\nBle roedd cofrestr yr ysgol?\nRoedd cofrestr yr ysgol yn yr archif yn Nolgellau.\nBeth oedd ar y dudalen gyfatebol yng nghofrestr y flwyddyn cynt?\nRoedd enw Lisa yno gyda'r plant, nid gyda'r athrawon.\nBeth sydd yn yr atodiad?\nMae llun o'r gofrestr a rhestr o'r dogfennau yn yr atodiad.\nBeth esboniodd Marian yn y rhagymadrodd?\nEsboniodd hi pam roedd hi wedi amau'r hen lyfr."
+    },
+    {
+      "title": "Gwawr yn y warchodfa",
+      "summary": "A grandfather near Machynlleth takes his grandson to a nature reserve at dawn to hear the cuckoo and see a flycatcher.",
+      "newWords": [
+        "mynyddig",
+        "gwarchodfa",
+        "llain",
+        "cadwraeth",
+        "gwawr",
+        "gwrych",
+        "cog",
+        "ffens",
+        "gweithgarwch",
+        "gwybedog",
+        "eithin"
+      ],
+      "text": "Mae Meirion yn 68 oed ac yn byw mewn ardal fynyddig ger Machynlleth. Mae'r ardal yn rhy fynyddig i dyfu llawer, ond mae hi'n berffaith i adar. Wrth ymyl ei dŷ mae gwarchodfa natur fach, ac mae Meirion yn helpu yno bob wythnos. Flynyddoedd yn ôl, tir fferm oedd y warchodfa. Rhoddodd ei dad lain hir o dir i'r warchodfa, oherwydd ei fod e'n credu bod cadwraeth yn bwysicach nag arian.\n\nYm mis Mehefin daeth ei ŵyr Dyfan, sy'n 10 oed, o Gaerdydd i aros gydag e. Doedd Dyfan erioed wedi gweld gwarchodfa natur.\n\n“Rydyn ni'n codi cyn y wawr yfory,” meddai Meirion. “Y wawr yw'r amser gorau i glywed yr adar.”\n\nAm 4 y bore, cerddodd y ddau i fyny'r llwybr. Roedd gwrych tywyll ar bob ochr, a doedd dim sŵn o gwbl. Yna, wrth i'r wawr ddod dros y mynydd, dechreuodd yr adar ganu yn y gwrych, un ar ôl y llall. O bell, clywodd y ddau'r gog.\n\n“Y gog yw honna,” meddai Meirion. “Mae'r gog yn treulio'r gaeaf yn Affrica, ac mae hi'n dod yn ôl aton ni bob blwyddyn.”\n\nDaethon nhw at y llain a roddodd tad Meirion. O gwmpas y llain roedd ffens uchel, a gofynnodd Dyfan pam roedd angen ffens yno.\n\n“Mae'r ffens yn cadw'r defaid allan,” meddai Meirion, “achos mae defaid yn bwyta'r coed ifanc. Dyna waith cadwraeth: gwarchod y coed, a chadw gweithgarwch pobl mor isel â phosibl. Does dim peiriannau yma, na chŵn. Yr unig weithgarwch yw gweithgarwch yr adar.”\n\nYn y coed ifanc gwelon nhw aderyn bach du a gwyn. “Gwybedog yw hwnna,” meddai Meirion yn dawel. “Mae'r gwybedog yn dal pryfed yn yr awyr.” Gwyliodd Dyfan y gwybedog yn hedfan o'r gangen ac yn ôl. Ar ben y llain roedd eithin yn disgleirio yng ngolau'r haul.\n\n“Edrych, Taid! Mae e fel aur!” meddai Dyfan.\n\nChwarddodd Meirion. “Eithin yw e,” meddai. “Nid aur yw popeth melyn. Dyna hen ddywediad, hynny yw, dydy rhywbeth hardd ddim bob amser yn werthfawr. Ar y llaw arall, mae'r eithin hwn yn werthfawr iawn i'r adar, achos maen nhw'n ddiogel yn yr eithin.”\n\nErbyn 7 roedden nhw gartref yn cael brecwast. Erbyn diwedd yr wythnos roedd Dyfan wedi gweld y gwybedog 5 gwaith, a dywedodd e y byddai e'n dod yn ôl y flwyddyn nesaf i helpu gyda'r gwaith cadwraeth.\n\nCwestiynau:\nBle mae Meirion yn byw?\nMae Meirion yn byw mewn ardal fynyddig ger Machynlleth.\nPam roedd y ddau'n codi cyn y wawr?\nRoedden nhw'n codi cyn y wawr achos dyna'r amser gorau i glywed yr adar.\nPam mae ffens o gwmpas y llain?\nMae'r ffens yn cadw'r defaid allan, achos mae defaid yn bwyta'r coed ifanc.\nBle mae'r gog yn treulio'r gaeaf?\nMae'r gog yn treulio'r gaeaf yn Affrica.\nBeth mae'r gwybedog yn ei wneud?\nMae'r gwybedog yn dal pryfed yn yr awyr.\nBle dechreuodd yr adar ganu?\nDechreuodd yr adar ganu yn y gwrych."
+    },
+    {
+      "title": "Gwenith ar y fferm",
+      "summary": "A young baker on Anglesey, soon to be a mother, brings wheat back to her grandfather's clay fields with the help of the old muck heap and the farmers' co-operative.",
+      "newWords": [
+        "talwm",
+        "gwenith",
+        "clai",
+        "ffafriol",
+        "tomen",
+        "cyw",
+        "cydweithredol",
+        "lori",
+        "beichiog"
+      ],
+      "text": "Mae fferm Elis ar Ynys Môn, ger Llangefni. Mae e'n 80 oed, ac mae ei wyres Martha yn pobi bara yn y dref. Pan oedd hi'n blentyn, roedd hi'n dilyn ei thaid o gwmpas y fferm fel cyw yn dilyn iâr.\n\nErs talwm, roedd teulu Elis yn tyfu gwenith ar y fferm. Nawr dim ond defaid sydd yno, ac mae Martha yn prynu ei blawd gan ffatri fawr.\n\n“Hoffwn i dyfu gwenith yma eto, Taid,” meddai hi un diwrnod. “Bara o wenith y fferm!”\n\n“Mae'r tir yma'n llawn clai,” meddai Elis. “Mae clai yn drwm ac yn wlyb, a dydy tir fel hwnnw ddim yn ffafriol i wenith heb lawer o waith. Ers talwm roedden ni'n cario'r domen i'r caeau bob gaeaf.”\n\nRoedd y domen yn dal i fod y tu ôl i'r sied: tomen fawr o wellt a thail o'r 10 mlynedd diwethaf. Trwy'r gaeaf, bob dydd Sadwrn, cariodd hi'r domen i'r cae, llwyth ar ôl llwyth, ac aeth y clai yn ysgafnach. Yn y gwanwyn plannodd hi'r gwenith, ac roedd y tywydd yn ffafriol yr haf hwnnw: digon o haul a dim ond ychydig o law.\n\nFodd bynnag, roedd un broblem ar ôl. Doedd gan Martha ddim peiriant i dorri'r gwenith, na lori i'w gario fe i'r felin. Ond mae cymdeithas gydweithredol yn yr ardal, hynny yw, mae'r ffermwyr yn rhannu'r peiriannau ac yn rhannu'r elw. Roedd Elis wedi bod yn aelod o'r gymdeithas gydweithredol ers 50 mlynedd. Ym mis Awst daeth peiriant y gymdeithas i'r cae, a daeth lori fawr ar ei ôl. Aeth y lori â'r gwenith i'r felin.\n\nYr wythnos wedyn, daeth hi at ei thaid gyda thorth o fara cynnes. Bwytodd Elis ddarn gyda menyn, ac roedd e'n dawel am funud.\n\n“Dyna'r bara gorau yn y byd,” meddai.\n\n“Rwyt ti'n dweud hynny achos mai fi wnaeth e,” meddai Martha.\n\n“Efallai wir,” meddai Elis. “Gwyn y gwêl y frân ei chyw. Hynny yw, mae pob rhiant yn meddwl bod ei blentyn ei hun yn berffaith. Ac mae pob taid yn waeth!”\n\n“Mae gen i newyddion hefyd,” meddai Martha. “Rydw i'n feichiog. Y flwyddyn nesaf, bydd cyw bach arall yn dilyn ei hen-daid o gwmpas y fferm.”\n\nCwestiynau:\nSut roedd y tywydd yr haf hwnnw?\nRoedd y tywydd yn ffafriol yr haf hwnnw.\nBeth oedd teulu Elis yn ei dyfu ers talwm?\nErs talwm, roedd y teulu'n tyfu gwenith ar y fferm.\nPam roedd y tir yn anodd?\nRoedd y tir yn llawn clai, ac mae clai yn drwm ac yn wlyb.\nBeth wnaeth Martha trwy'r gaeaf?\nCariodd hi'r domen i'r cae bob dydd Sadwrn.\nBeth yw cymdeithas gydweithredol?\nCymdeithas lle mae'r ffermwyr yn rhannu'r peiriannau a'r elw yw cymdeithas gydweithredol.\nSut aeth y gwenith i'r felin?\nAeth y gwenith i'r felin mewn lori fawr.\nPa newyddion oedd gan Martha i'w thaid?\nRoedd Martha yn feichiog."
+    },
+    {
+      "title": "Madarch Mam-gu",
+      "summary": "A boy in Llanelli secretly feeds his grandmother's mushrooms to the dog, is found out when the dog sneezes, owns up and cooks with her instead.",
+      "newWords": [
+        "madarch",
+        "saws",
+        "salad",
+        "neis",
+        "cnoi",
+        "tisian",
+        "gwadu",
+        "cywilydd",
+        "cyfaddef"
+      ],
+      "text": "Bob dydd Sadwrn mae Harri, sy'n 9 oed, yn cael cinio gyda'i fam-gu, Eirwen, yn Llanelli. Yr un yw'r cinio bob tro: cyw iâr gyda saws madarch, a salad gwyrdd. Mae Eirwen yn dweud bod ei saws madarch hi'n neis iawn. Dydy Harri ddim yn cytuno. Mae'r cyw iâr yn neis, ac mae'r salad yn iawn, ond mae'n gas ganddo fe fadarch. Maen nhw'n feddal, meddai, ac mae'n rhaid eu cnoi am amser hir.\n\nUn dydd Sadwrn, pan aeth ei fam-gu i'r gegin i nôl y salad, rhoddodd Harri y madarch i gyd i Mot, y ci a oedd yn gorwedd o dan y bwrdd. Bwytodd y ci nhw heb eu cnoi o gwbl. Pan ddaeth Eirwen yn ôl, roedd y plât yn lân.\n\n“Wyt ti wedi bwyta'r madarch i gyd?” gofynnodd hi.\n\n“Ydw,” meddai Harri. “Roedden nhw'n neis.”\n\nAr hynny, dechreuodd y ci disian o dan y bwrdd, achos roedd llawer o bupur yn y saws. Tisiodd e unwaith, ac yna tisiodd e eto. Edrychodd Eirwen o dan y bwrdd. Roedd saws ar drwyn y ci.\n\n“Wyt ti wedi rhoi dy fadarch i Mot?”\n\n“Nac ydw,” meddai Harri. Ond roedd e'n gwadu rhywbeth amlwg, ac roedd e'n gwybod hynny.\n\n“Does dim pwynt gwadu, Harri,” meddai hi.\n\nAeth ei wyneb yn goch. Teimlodd e gywilydd mawr, ac ar ôl munud cyfaddefodd e'r cyfan.\n\n“Mae'n ddrwg gen i, Mam-gu. Mae cywilydd arna i. Dydw i ddim yn hoffi madarch, ond doeddwn i ddim eisiau dweud, achos rwyt ti'n gweithio mor galed.”\n\nEisteddodd Eirwen wrth y bwrdd. “Diolch am gyfaddef,” meddai hi. “Rhaid i mi gyfaddef rhywbeth hefyd: pan oeddwn i'n 9 oed, roeddwn i'n rhoi fy mresych i'r gath, ac roeddwn i'n gwadu hynny bob tro. Nawr, gad i ni gnoi cil ar y broblem. Mae buwch yn cnoi cil drwy'r dydd, felly ystyr cnoi cil yw meddwl yn hir am rywbeth.”\n\nY dydd Sadwrn nesaf, coginiodd y ddau gyda'i gilydd. Torrodd Harri y madarch yn ddarnau bach iawn, fel nad oedd angen eu cnoi bron, a rhoddodd e lai o bupur yn y saws. Gwnaeth e'r salad hefyd. Erbyn hyn mae e'n bwyta'r saws bob dydd Sadwrn, ac mae e'n cyfaddef ei fod e braidd yn neis. Mot yw'r unig un sy'n siomedig.\n\nCwestiynau:\nBeth mae Harri yn ei gael bob dydd Sadwrn?\nMae e'n cael cyw iâr gyda saws madarch, a salad gwyrdd.\nPam dydy Harri ddim yn hoffi madarch?\nMae madarch yn feddal, ac mae'n rhaid eu cnoi am amser hir.\nBeth wnaeth Harri â'r madarch?\nRhoddodd e'r madarch i Mot, y ci.\nPam dechreuodd y ci disian?\nDechreuodd y ci disian achos roedd llawer o bupur yn y saws.\nBeth deimlodd Harri cyn cyfaddef?\nTeimlodd e gywilydd mawr.\nBeth yw ystyr cnoi cil?\nYstyr cnoi cil yw meddwl yn hir am rywbeth.\nSut newidiodd Harri y saws?\nTorrodd e'r madarch yn ddarnau bach iawn, a rhoddodd e lai o bupur ynddo fe."
+    },
+    {
+      "title": "Sgert sidan Nain",
+      "summary": "A girl in Caernarfon who only wears jumpers borrows her grandmother's silk skirt for the school party and wears the two together.",
+      "newWords": [
+        "siwmper",
+        "sgert",
+        "sidan",
+        "bonheddig",
+        "sownd",
+        "personoliaeth",
+        "eithriad"
+      ],
+      "text": "Mae Elan yn 17 oed ac yn byw yng Nghaernarfon, ac mae hi bob amser yn gwisgo jîns a siwmper fawr. Mae ganddi hi siwmper ar gyfer pob diwrnod o'r wythnos. Ym mis Mehefin, fodd bynnag, roedd parti mawr ar ddiwedd ei blwyddyn olaf yn yr ysgol, ac roedd y merched eraill i gyd wedi prynu ffrogiau hir. Doedd gan Elan ddim byd addas, felly aeth hi i weld ei nain, Ceridwen.\n\nAgorodd Ceridwen hen fag ar y gwely. Y tu mewn, mewn papur gwyn, roedd sgert las, a honno'n disgleirio fel dŵr.\n\n“Sidan go iawn yw hi,” meddai Ceridwen. “Ces i'r sidan gan fy modryb, a gwnes i'r sgert fy hun. Gwisgais i'r sgert hon i ddawns ym Mangor yn 1970, y noson y cwrddais i â dy daid. Roedd e'n ŵr bonheddig: daeth e â chadair i mi, ac agorodd e'r drws. Hyd heddiw, mae e'n ŵr bonheddig.”\n\nRhoddodd Elan y sgert amdani. Roedd y sidan yn oer ac yn feddal ar ei chroen. Ond pan geisiodd hi gau'r sip ar yr ochr, aeth y sip yn sownd hanner ffordd. Tynnodd hi'n galed, ond roedd e'n dal yn sownd.\n\n“Paid â thynnu!” meddai Ceridwen. “Bydd y sidan yn torri.” Rhwbiodd hi ychydig o sebon ar y sip yn ofalus, ac ymhen munud doedd e ddim yn sownd.\n\nEdrychodd Elan yn y drych. Roedd y sgert yn hardd, ond doedd hi ddim yn hapus.\n\n“Dydw i ddim yn edrych fel fi fy hun,” meddai hi.\n\n“Mae gan ddillad eu personoliaeth eu hunain,” meddai Ceridwen, “ac mae gen ti dy bersonoliaeth di. Dydyn nhw ddim yn gorfod bod yr un fath. Beth am wisgo'r sgert gyda dy siwmper orau?”\n\nChwarddodd Elan, a mynd i nôl ei siwmper werdd. Sgert sidan a siwmper wlân! Roedd y ddwy'n edrych yn dda gyda'i gilydd, ac roedd hi'n teimlo'n well yn syth.\n\nNoson y parti, roedd pob merch yn gwisgo ffrog hir, gydag un eithriad. Elan oedd yr eithriad. Dywedodd ei ffrindiau fod y dillad yn dangos ei phersonoliaeth yn berffaith, a gofynnodd dwy ohonyn nhw ble roedd hi wedi prynu'r sgert.\n\nY diwrnod wedyn, aeth hi â llun at ei nain. Edrychodd Ceridwen ar y llun am amser hir.\n\n“Roeddwn i'n eithriad hefyd yn 1970,” meddai hi. “Doedd neb arall wedi gwneud ei sgert ei hun.”\n\nCwestiynau:\nBeth mae Elan yn ei wisgo bob amser?\nMae hi'n gwisgo jîns a siwmper fawr.\nBeth oedd yn y bag ar y gwely?\nRoedd sgert sidan las yn y bag.\nPwy oedd y gŵr bonheddig?\nTaid Elan oedd y gŵr bonheddig.\nBeth ddigwyddodd i'r sip?\nAeth y sip yn sownd hanner ffordd.\nBeth ddywedodd Ceridwen am y siwmper?\nDywedodd hi y dylai Elan wisgo'r sgert gyda'i siwmper orau.\nPam roedd Elan yn eithriad yn y parti?\nRoedd hi'n eithriad achos roedd pob merch arall yn gwisgo ffrog hir."
+    },
+    {
+      "title": "Dewrder ar yr iâ",
+      "summary": "At a birthday party on the ice in Cardiff, a boy has a fright and will not skate again, so his grandfather, who has never skated, goes first.",
+      "newWords": [
+        "twr",
+        "sglefrio",
+        "braw",
+        "dolur",
+        "sioc",
+        "dewr",
+        "cydbwysedd",
+        "poenus",
+        "dewrder"
+      ],
+      "text": "Mae Geraint yn 72 oed ac yn byw yng Nghaerdydd. Doedd e erioed wedi sglefrio ar iâ yn ei fywyd. Ond ym mis Ionawr roedd ei ŵyr Iestyn yn cael ei ben-blwydd yn 8 oed, ac roedd y parti pen-blwydd mewn canolfan sglefrio yn y ddinas. Daeth twr o blant o'r ysgol, a rhedodd y twr i gyd at yr iâ. Eisteddodd Geraint ar fainc i wylio.\n\nCyn pen 5 munud, syrthiodd Iestyn yn galed, a chafodd e fraw. Dim ond dolur bach ar ei ben-glin oedd ganddo fe, ond roedd y sioc yn waeth na'r dolur. Daeth e at y fainc ac eistedd wrth ochr ei daid.\n\n“Dydw i ddim eisiau sglefrio eto, Taid,” meddai. “Ces i fraw.”\n\nEdrychodd Geraint ar yr iâ. Roedd e'n ofni hefyd. Yn 72 oed, doedd e ddim eisiau syrthio o flaen pawb. Serch hynny, aeth e i logi pâr o esgidiau.\n\n“Os wyt ti'n ddigon dewr i geisio unwaith eto,” meddai, “bydda i'n ddigon dewr i geisio am y tro cyntaf.”\n\nAeth y ddau ar yr iâ yn araf, law yn llaw. Daeth merch ifanc o'r ganolfan atyn nhw, a dweud mai cydbwysedd oedd y peth pwysicaf. “Plygwch eich coesau, a chadwch eich cydbwysedd,” meddai hi. Collodd Geraint ei gydbwysedd dro ar ôl tro, a syrthiodd e unwaith ar ei ochr. Cafodd pawb sioc. Roedd ei glun yn boenus am funud, ond cododd e gan chwerthin. Daeth y twr o blant ato fe, a phawb yn clapio.\n\n“Daw eto haul ar fryn,” meddai Geraint wrth Iestyn. “Hen ddywediad yw hwnna. Hynny yw, ar ôl amser caled daw amser gwell.”\n\nErbyn diwedd y parti, roedd Iestyn yn sglefrio ar ei ben ei hun, ac roedd y braw wedi mynd. Eisteddodd Geraint ar y fainc eto, a'i glun braidd yn boenus. Daeth Iestyn ato fe.\n\n“Rwyt ti'n ddewr iawn, Taid,” meddai. “Doeddet ti ddim yn ofni o gwbl.”\n\n“Roeddwn i'n ofni'n fawr,” meddai Geraint. “Nid peidio ag ofni yw dewrder. Mynd ymlaen er bod ofn arnat ti, dyna yw dewrder.”\n\nY bore wedyn roedd dolur ar ei glun o hyd, ac roedd cerdded yn boenus. Fodd bynnag, pan ofynnodd Iestyn a allen nhw fynd i sglefrio eto, dywedodd Geraint y bydden nhw'n mynd y mis nesaf.\n\nCwestiynau:\nBle roedd parti pen-blwydd Iestyn?\nRoedd y parti mewn canolfan sglefrio yng Nghaerdydd.\nPam roedd Iestyn eisiau eistedd ar y fainc?\nRoedd e wedi syrthio'n galed, ac wedi cael braw.\nBeth oedd yn waeth na'r dolur?\nRoedd y sioc yn waeth na'r dolur.\nBeth oedd y peth pwysicaf, yn ôl y ferch ifanc?\nCydbwysedd oedd y peth pwysicaf, yn ôl y ferch ifanc.\nBeth ddigwyddodd i Geraint ar yr iâ?\nCollodd e ei gydbwysedd, a syrthiodd e ar ei ochr.\nBeth yw dewrder, yn ôl Geraint?\nMynd ymlaen er bod ofn arnat ti yw dewrder, yn ôl Geraint."
+    },
+    {
+      "title": "Deuawd i ddwy genhedlaeth",
+      "summary": "A grandfather in Pwllheli whose poetic inspiration has gone writes new words for a duet with his granddaughter, and the guest judge finds merit in it.",
+      "newWords": [
+        "deuawd",
+        "cystadleuwr",
+        "awen",
+        "cerddorfa",
+        "gwadd",
+        "teilyngdod",
+        "act"
+      ],
+      "text": "Bob blwyddyn mae eisteddfod fach ym Mhwllheli. Eleni roedd cystadleuaeth newydd ar y rhaglen: deuawd i ddwy genhedlaeth. Rhaid i un canwr fod dros 60 oed a'r llall o dan 20. Darllenodd Fflur, sy'n 14 oed, am y gystadleuaeth, ac aeth hi'n syth at ei thaid, Aled.\n\n“Rydw i eisiau canu deuawd gyda ti, Taid,” meddai hi. “Ond rhaid i ni gael geiriau newydd, a ti yw'r bardd.”\n\nYsgydwodd Aled ei ben. Roedd e wedi ysgrifennu cerddi pan oedd e'n ifanc, ond ers 10 mlynedd doedd ganddo fe ddim awen, meddai; hynny yw, doedd y syniadau ddim yn dod. “Mae'r awen wedi mynd,” meddai.\n\nSerch hynny, eisteddodd e wrth y bwrdd bob nos am wythnos, heb ysgrifennu gair. Mae Fflur yn canu'r ffidil yng ngherddorfa'r ysgol, a noson ar ôl noson roedd hi'n ymarfer yn yr ystafell nesaf. Un noson, wrth wrando ar sŵn ei ffidil, daeth llinell i'w ben, ac wedyn llinell arall. Roedd yr awen wedi dod yn ôl. Erbyn y bore roedd ganddo fe 3 phennill am y môr.\n\nAr ddiwrnod yr eisteddfod roedd 12 pâr yn y gystadleuaeth, hynny yw, 24 o gystadleuwyr. Fflur oedd y cystadleuwr ieuengaf, ac Aled oedd y cystadleuwr hynaf. Y beirniad oedd arweinydd cerddorfa o Gaerdydd, beirniad gwadd a ddaeth yno'n arbennig. Canodd y ddau'n dawel ac yn glir, heb edrych ar neb ond ei gilydd.\n\nAr y diwedd cododd y beirniad gwadd ar ei thraed. Weithiau, mewn eisteddfod, mae beirniad yn dweud nad oes teilyngdod, hynny yw, nad oes neb yn ddigon da i ennill y wobr. Ond eleni roedd digon o deilyngdod, meddai hi. Fflur ac Aled enillodd y wobr gyntaf.\n\nY noson honno, roedd grŵp drama lleol yn perfformio drama mewn 3 act yn y neuadd. Gofynnodd y trefnydd i'r ddau ganu'r ddeuawd eto rhwng yr act gyntaf a'r ail act, a dyna a wnaethon nhw.\n\nWrth adael, siaradodd y beirniad â nhw eto. Hoffai hi eu cael nhw yng Nghaerdydd y flwyddyn nesaf fel cantorion gwadd gyda'i cherddorfa ieuenctid.\n\n“Gorau chwarae, cyd-chwarae,” meddai Aled wrth Fflur ar y ffordd adref. “Hen ddywediad yw hwnna: mae pawb yn well gyda'i gilydd.”\n\nCwestiynau:\nPa gystadleuaeth newydd oedd yn yr eisteddfod?\nRoedd deuawd i ddwy genhedlaeth yn yr eisteddfod.\nPam doedd Aled ddim yn ysgrifennu cerddi?\nDoedd ganddo fe ddim awen ers 10 mlynedd.\nSut daeth yr awen yn ôl?\nDaeth yr awen yn ôl wrth iddo fe wrando ar ffidil Fflur.\nPwy oedd y beirniad?\nArweinydd cerddorfa o Gaerdydd oedd y beirniad, beirniad gwadd.\nBeth ddywedodd y beirniad am y gystadleuaeth?\nDywedodd hi fod digon o deilyngdod eleni.\nPryd canodd y ddau eto?\nCanodd y ddau eto rhwng yr act gyntaf a'r ail act.\nBeth mae'r beirniad eisiau iddyn nhw ei wneud?\nMae hi eisiau iddyn nhw ganu fel cantorion gwadd gyda'i cherddorfa ieuenctid."
+    },
+    {
+      "title": "Gwyddoniaeth wrth fwrdd y gegin",
+      "summary": "A girl in Wrexham who dislikes chemistry gets help from her grandfather, who uses a measuring cylinder, some oil and a lemon to explain mass, properties and glands.",
+      "newWords": [
+        "cemeg",
+        "gorfodol",
+        "silindr",
+        "màs",
+        "priodwedd",
+        "organeb",
+        "meinwe",
+        "chwarren"
+      ],
+      "text": "Mae Gwyneth yn 15 oed ac yn byw yn Wrecsam. Dydy hi ddim yn hoffi cemeg, ond mae gwyddoniaeth yn orfodol yn ei hysgol hi. Hynny yw, rhaid i bawb ei hastudio nes eu bod nhw'n 16 oed.\n\n“Mae'n gas gen i bynciau gorfodol,” meddai hi wrth ei thaid, Pedr. Roedd Pedr wedi gweithio mewn ffatri gemeg am 40 mlynedd, a nawr mae e wedi ymddeol. Gofynnodd e beth oedd y broblem. Doedd Gwyneth ddim yn deall màs.\n\nY dydd Sadwrn wedyn, daeth e i'r tŷ gyda bag bach. O'r bag tynnodd e silindr gwydr tal, a llinellau a rhifau ar ei ochr. Silindr mesur oedd e, un o'r hen silindrau o'r ffatri.\n\n“Mae màs rhywbeth yn dweud faint o ddefnydd sydd ynddo fe,” meddai. Rhoddodd e'r silindr ar y bwrdd, a phwyso 100 gram o ddŵr a 100 gram o olew. Arllwysodd Gwyneth y dŵr i'r silindr, ac wedyn yr olew. “Yr un màs sydd gan y ddau,” meddai Pedr, “ond edrych: mae'r olew yn cymryd mwy o le. Mae e'n aros ar ben y dŵr hefyd. Dyna i ti briodwedd, hynny yw, rhywbeth sy'n perthyn i ddefnydd, fel ei liw neu ei flas. Priodwedd olew yw ei fod e'n ysgafnach na dŵr.”\n\nAm y tro cyntaf, roedd cemeg yn gwneud synnwyr i Gwyneth. Felly y dydd Sadwrn wedyn gofynnodd hi am help gyda bioleg. Organeb yw unrhyw beth byw: cath, coeden, neu berson. Mae organeb wedi'i gwneud o gelloedd, ac mae celloedd tebyg gyda'i gilydd yn gwneud meinwe. Roedd y geiriau'n anodd, felly aeth Pedr i'r gegin a dod yn ôl â lemwn.\n\n“Meddylia am gnoi'r lemwn yma,” meddai.\n\n“Mae fy ngheg i'n llawn dŵr!” meddai Gwyneth.\n\n“Chwarren sy'n gwneud hynny,” meddai Pedr. “Meinwe arbennig yw chwarren, ac mae hi'n gwneud hylif. Mae chwarren o dan dy glust, ac mae hi'n gweithio nawr am dy fod ti'n meddwl am y lemwn. Mae dy gorff di'n organeb dda iawn.”\n\nAr ddiwedd y flwyddyn cafodd Gwyneth farciau da. Erbyn hyn dydy cemeg ddim yn orfodol iddi hi, ond mae hi wedi dewis ei hastudio am 2 flynedd arall. Mae'r hen silindr ar y silff yn ei hystafell wely.\n\nCwestiynau:\nPam mae Gwyneth yn astudio gwyddoniaeth?\nMae gwyddoniaeth yn orfodol yn ei hysgol hi.\nBle roedd Pedr wedi gweithio?\nRoedd e wedi gweithio mewn ffatri gemeg am 40 mlynedd.\nBeth roedd e'n ei gario yn y bag bach?\nRoedd e'n cario silindr gwydr tal yn y bag bach.\nBeth yw priodwedd olew?\nPriodwedd olew yw ei fod e'n ysgafnach na dŵr.\nPam daeth Pedr â lemwn?\nDaeth e â lemwn er mwyn dangos sut mae chwarren yn gweithio.\nBeth yw chwarren?\nMeinwe arbennig sy'n gwneud hylif yw chwarren.\nBeth mae Gwyneth wedi'i ddewis erbyn hyn?\nMae hi wedi dewis astudio cemeg am 2 flynedd arall."
+    },
+    {
+      "title": "Y llefarydd newydd",
+      "summary": "A woman in Bangor is offered a promotion as her water company's spokesperson, worries about leaving her old father alone, and he helps her to say yes.",
+      "newWords": [
+        "dyrchafiad",
+        "llefarydd",
+        "croyw",
+        "moesol",
+        "cefnogol",
+        "awgrym",
+        "digonol"
+      ],
+      "text": "Mae Mari wedi gweithio i gwmni dŵr ym Mangor ers 20 mlynedd. Mae ei thad, Islwyn, sy'n 79 oed, yn byw gyda hi a'i theulu. Ym mis Chwefror cynigiodd y cwmni ddyrchafiad iddi. Roedd y cwmni'n chwilio am lefarydd newydd, hynny yw, y person sy'n siarad ar ran y cwmni ar y radio a'r teledu.\n\n“Mae gennych chi Gymraeg croyw,” meddai ei rheolwr. “Mae pawb yn eich deall chi. Rydyn ni'n cyflenwi dŵr croyw i'r ardal, ac rydyn ni eisiau llefarydd sy'n siarad yn groyw hefyd.”\n\nDylai Mari fod wedi bod yn hapus, ac mae'n wir fod dyrchafiad yn golygu mwy o arian. Serch hynny, roedd rhaid i'r llefarydd deithio i Gaerdydd ddwywaith yr wythnos. Pwy fyddai'n gofalu am Islwyn? Roedd hi'n teimlo bod ganddi ddyletswydd foesol tuag at ei thad. Ar y llaw arall, roedd ganddi ddyletswydd foesol tuag at ei phlant hefyd, a byddai'r arian ychwanegol yn help i'r ddau ohonyn nhw fynd i'r coleg.\n\nY noson honno, dywedodd hi'r hanes wrth Islwyn. Mae e wedi bod yn dad cefnogol erioed. Pan oedd hi'n ferch fach, fe oedd yn darllen gyda hi bob nos, nes bod ei Chymraeg hi'n groyw. Pan aeth hi i'r coleg, roedd e'n gefnogol er nad oedd llawer o arian yn y tŷ.\n\n“Pam rwyt ti'n poeni amdana i?” gofynnodd e.\n\n“Dydw i ddim yn siŵr fod fy amser yn ddigonol,” meddai hi. “Fydd e ddim yn ddigonol i wneud y swydd ac i ofalu amdanat ti.”\n\n“Mae gen i awgrym,” meddai Islwyn. “Dim ond awgrym yw e. Mae'r clwb henoed yn y dref ar agor bob dydd, ac mae bws yn mynd yno o ben y stryd. Bydda i yno gyda fy ffrindiau ar y ddau ddiwrnod rwyt ti yng Nghaerdydd. Mae hynny'n ddigonol i mi. Rydw i wedi magu merch i siarad yn glir, a nawr rydw i eisiau ei chlywed hi ar y radio.”\n\nRoedd yn awgrym da, a derbyniodd hi'r dyrchafiad. Ym mis Ebrill, siaradodd Mari ar y radio am y tro cyntaf, a chlywodd pawb yn y clwb hi. Roedd Islwyn yn eistedd wrth y radio gyda chwpan o de.\n\n“Fy merch i yw'r llefarydd,” meddai wrth bawb. “Mae hi wedi mynd â'r maen i'r wal, hynny yw, mae hi wedi llwyddo.”\n\nCwestiynau:\nPa ddyrchafiad gafodd Mari?\nCafodd hi gynnig bod yn llefarydd newydd y cwmni dŵr.\nBeth yw gwaith llefarydd?\nMae llefarydd yn siarad ar ran y cwmni ar y radio a'r teledu.\nPam roedd Mari yn poeni?\nRoedd hi'n poeni achos roedd hi'n meddwl bod ganddi ddyletswydd foesol tuag at ei thad.\nSut dad yw Islwyn?\nMae e'n dad cefnogol.\nPwy oedd yn darllen gyda hi pan oedd hi'n ferch fach?\nEi thad, Islwyn, oedd yn darllen gyda hi bob nos.\nBeth oedd awgrym Islwyn?\nEi awgrym oedd mynd i'r clwb henoed yn y dref ar y ddau ddiwrnod.\nBeth mae mynd â'r maen i'r wal yn ei olygu?\nMae'n golygu llwyddo."
+    }
+  ]
+}
