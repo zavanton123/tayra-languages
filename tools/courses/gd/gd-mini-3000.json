@@ -1,0 +1,188 @@
+{
+  "id": "gd-mini-3000",
+  "rankUpTo": 3000,
+  "level": "B2",
+  "title": "Colbhan beaga",
+  "description": "Ten small newspaper columns on everyday life: a first grey hair, a fisherman's legend, a village cinema, a week's diary, the rocks of Mull, a neighbour's bees, an old way of crofting, a smithy, wintering geese and a school helper's last day.",
+  "topic": "Small columns",
+  "names": [
+    "Pàdair",
+    "Seoirdsidh",
+    "Coiseam",
+    "Sìomon",
+    "Glaschu",
+    "Iapan",
+    "Cristina",
+    "MacFhionghain",
+    "Diluain",
+    "Dimàirt",
+    "Diciadain",
+    "Diardaoin",
+    "Dihaoine",
+    "Disathairne",
+    "Muile",
+    "Niocol",
+    "Tiriodh",
+    "Eumann",
+    "Caitir",
+    "Dàmhair",
+    "Graonlainne",
+    "Ìle",
+    "Alba",
+    "Cormag",
+    "Beasaidh"
+  ],
+  "lessons": [
+    {
+      "title": "An ribe liath",
+      "summary": "A columnist about to turn forty finds his first grey hair, asks his barber to cut it and learns to laugh about it.",
+      "newWords": [
+        "ribe",
+        "beàrr",
+        "ceathrad",
+        "trithead",
+        "faoin",
+        "eagnaidh",
+        "leth-aon",
+        "gràdhach",
+        "meal"
+      ],
+      "text": "An-dè, agus mi a' bearradh m' fheusaige ron sgàthan, chunnaic mi rud nach fhaca mi a-riamh roimhe: ribe liath. Cha robh ann ach aon ribe, os cionn mo chluaise chlì. Bidh mi ceathrad bliadhna a dh'aois an ath sheachdain, agus tha e coltach gun robh an ribe seo a' feitheamh ris an latha sin.\n\nIs cuimhne leam a bhith trithead bliadhna a dh'aois. Aig trithead, cha robh ùidh sam bith agam ann am falt. Bha e ann, agus sin a bh' ann. Aig ceathrad, tha mi a' coimhead air gach ribe mar gum b' e seann charaid a bh' ann.\n\nTha fios agam gu bheil seo faoin. Cha do rinn falt liath cron air duine a-riamh. A dh'aindeoin sin, chaidh mi sìos gu bùth Phàdair, a tha air daoine a' bhaile a bhearradh fad trithead bliadhna.\n\n“Am beàrr thu an ribe seo dhomh, a Phàdair?” thuirt mi.\n\n“Is e rud faoin a tha sin,” thuirt e. “Ma bheir mi air falbh e, fàsaidh e a-rithist, agus bidh caraid no dhà còmhla ris. Agus carson a bhiodh tu ga iarraidh air falbh? Tha ribe liath a' toirt coltas eagnaidh air duine.”\n\n“A bheil mi a' coimhead eagnaidh, ma-thà?”\n\n“Chan eil fhathast,” thuirt Pàdair. “Thig air ais nuair a bhios ceud dhiubh agad.”\n\nAir an t-slighe dhachaigh, chuir mi fòn gu Seoirdsidh, mo leth-aon. Rugadh sinn deich mionaidean bho chèile, agus mar as trice, ma tha rud agamsa, tha e aig mo leth-aon cuideachd.\n\n“A bheil ribe liath agad?” thuirt mi.\n\n“Tha dhà agam bho chionn bliadhna,” thuirt Seoirdsidh. “Cha do dh'innis mi dhut, oir bha nàire orm.”\n\nFeasgar, dh'innis mi an sgeulachd do mo bhean ghràdhach.\n\n“Bhiodh tu a cheart cho gràdhach leam ged a bhiodh d' fhalt uile liath,” thuirt i. “Meal do naidheachd: tha thu ceathrad, agus tha thu slàn. Na bi cho faoin.”\n\nMar sin, tha an ribe liath fhathast ann. Cha tig an aois leatha fhèin, mar a tha an seanfhacal ag ràdh. Ge-tà, tha mi a' dol a mhealtainn mo latha-breith, agus na tha romham.\n\nCeistean:\nDè chunnaic an sgrìobhadair os cionn a chluaise?\nChunnaic e ribe liath os cionn a chluaise.\nDè an aois a bhios e an ath sheachdain?\nBidh e ceathrad bliadhna a dh'aois.\nCarson nach do bheàrr Pàdair an ribe?\nCha do bheàrr e an ribe oir fàsaidh e a-rithist, agus tha ribe liath a' toirt coltas eagnaidh air duine.\nCò e Seoirdsidh?\n'S e Seoirdsidh leth-aon an sgrìobhadair.\nDè thuirt a bhean ris?\nThuirt i gum biodh e a cheart cho gràdhach leatha ged a bhiodh a fhalt uile liath."
+    },
+    {
+      "title": "An adag mhiotasach",
+      "summary": "A columnist goes out with an old fisherman to look for the giant haddock of local legend, catches a tiny one and eats smoked haddock instead.",
+      "newWords": [
+        "adag",
+        "miotas",
+        "miotasach",
+        "snaidhm",
+        "fìrinneach",
+        "euchd",
+        "bìodach",
+        "deataich",
+        "truinnsear"
+      ],
+      "text": "Tha miotas aig gach baile-iasgaich, agus tha am miotas againne a' fuireach fon mhuir faisg air a' chidhe. 'S e adag mhòr a th' ann, cho fada ri ràmh. Is e Coiseam, an t-iasgair as sine anns a' bhaile, a dh'innis dhuinn mu deidhinn.\n\nChan fhaca duine ach Coiseam an adag mhiotasach seo. Tha e ag ràdh gun do rug e oirre trì tursan, agus gun do dh'fhuasgail i an snaidhm air an loidhne aige a h-uile turas. Bidh daoine a' gàireachdainn, ach chan eil Coiseam a' gàireachdainn idir. “Is e sgeulachd fhìrinneach a th' ann,” tha e ag ràdh.\n\nAn samhradh seo chaidh, dh'iarr mi air mo thoirt a-mach anns an eathar aige. An toiseach, sheall e dhomh mar a nì mi snaidhm ceart.\n\n“Gun snaidhm math, chan eil iasgair math ann,” thuirt e.\n\nCha robh ùine mhòr ann gus an d' fhuair mi adag air an loidhne. Bha mi cho toilichte 's gun robh mi a' smaoineachadh gur e euchd a bh' ann. An uair sin thog mi an t-iasg às an uisge, agus chunnaic mi gun robh e bìodach. Cha robh e nas motha na mo làmh. Chuir Coiseam an t-iasg bìodach air ais anns a' mhuir gu socair.\n\nRo mheadhan-latha, bha sia adagan againn, agus iad uile de mheud àbhaisteach. Cha robh sgeul air an adaig mhiotasaich.\n\nTha bothan beag air cùl an taighe aig Coiseam, far am bi e a' deatachadh èisg os cionn teine bhig. Dheataich e na h-adagan againn fad na h-oidhche. An ath fheasgar, chuir e adag air gach truinnsear, le ìm agus buntàta. Cha do bhlais mi rud cho math a-riamh, agus ghlan mi an truinnsear gu lèir.\n\n“Agus an adag mhiotasach?” thuirt mi.\n\nThog e a shùilean bhon truinnsear. “Tha i fhathast ann,” thuirt e. “Is e euchd a bhios ann nuair a gheibh mi grèim oirre.”\n\nA bheil an sgeulachd fìrinneach? Is dòcha nach eil. Ge-tà, tha baile gun mhiotas na bhaile bochd, agus tha mi toilichte gu bheil am miotas seo againn.\n\nCeistean:\nDè am miotas a th' aig a' bhaile?\nTha adag mhòr fon mhuir, cho fada ri ràmh.\nDè tha Coiseam ag ràdh mun adaig mhiotasaich?\nTha e ag ràdh gun do dh'fhuasgail i an snaidhm air an loidhne aige trì tursan.\nCarson a chuir Coiseam an t-iasg air ais anns a' mhuir?\nChuir e air ais e oir bha an t-iasg bìodach.\nDè rinn Coiseam leis na h-adagan anns a' bhothan?\nDheataich e iad os cionn teine bhig.\nDè bh' air gach truinnsear an ath fheasgar?\nBha adag air gach truinnsear, le ìm agus buntàta."
+    },
+    {
+      "title": "Taigh-dhealbh anns an talla",
+      "summary": "A village hall becomes a cinema once a month, run by the postman, and a strange film loses its subtitles halfway through.",
+      "newWords": [
+        "soirbh",
+        "posta",
+        "tilgeir",
+        "ceadachas",
+        "sgrìn",
+        "fo-thiotal",
+        "os-fhìreach",
+        "buaireas"
+      ],
+      "text": "Chan eil e soirbh taigh-dhealbh a ruith ann am baile beag. Tha fios agam air sin, oir tha mi air a' chomataidh. Aon oidhche anns a' mhìos, bidh talla a' bhaile na thaigh-dhealbh, agus is e am posta, Sìomon, a bhios os a chionn.\n\nTha am posta eòlach air a h-uile duine anns a' bhaile, agus tha fios aige dè na filmichean as fheàrr leotha. Tha e math air innealan cuideachd. Cheannaich e seann tilgeir bho sgoil ann an Glaschu, agus chuir e an tilgeir sin ceart e fhèin.\n\nA' chiad rud a dh'fheumas tu, is e ceadachas. Às aonais ceadachais, chan fhaod thu film a shealltainn don phoball. Cha robh e soirbh an ceadachas fhaighinn, oir bha foirmean gu leòr ann, ach mu dheireadh ràinig e anns a' phost, agus is e am posta fhèin a thug don talla e.\n\nAn uair sin, feumaidh tu sgrìn. Tha an sgrìn againne air a dèanamh de sheann sheòl geal, ceangailte ris a' bhalla. Bidh an tilgeir air bòrd ann am meadhan an talla, agus ma thèid duine sam bith seachad air, nochdaidh a cheann mòr dubh air an sgrìn.\n\nA' mhìos seo chaidh, sheall sinn film à Iapan, le fo-thiotalan. Bha e os-fhìreach bhon chiad mhionaid: bha cat a' stiùireadh bus, agus bha fear a' bruidhinn ris a' ghealaich. Bha a h-uile duine a' leughadh nam fo-thiotalan gu sàmhach, agus iad a' feuchainn ris an sgeulachd os-fhìreach seo a thuigsinn.\n\nAn dèidh leth-uair a thìde, stad na fo-thiotalan. Lean am film air adhart, ach cha do thuig duine facal. Thòisich buaireas. Bha cuid ag èigheachd ris a' phosta, agus bha cuid eile a' gàireachdainn cho àrd 's nach robh guth an fhilm ri chluinntinn. Chuir Sìomon an solas air, agus lorg e am pìos ceàrr anns an tilgeir. Nuair a thill na fo-thiotalan, stad am buaireas.\n\nAig deireadh na h-oidhche, thuirt Cristina, seann bhoireannach às a' bhaile, gur e seo an oidhche a b' fheàrr a bh' aice fad na bliadhna. Mar sin, chan eil e soirbh, ach is fhiach e.\n\nCeistean:\nCò a bhios os cionn nam filmichean anns an talla?\nIs e am posta, Sìomon, a bhios os a chionn.\nCarson a tha feum air ceadachas?\nÀs aonais ceadachais, chan fhaod thu film a shealltainn don phoball.\nDè a th' anns an sgrìn?\nIs e seann seòl geal a th' innte.\nCarson a bha am film os-fhìreach?\nBha cat a' stiùireadh bus, agus bha fear a' bruidhinn ris a' ghealaich.\nCarson a thòisich am buaireas?\nThòisich am buaireas oir stad na fo-thiotalan agus cha do thuig duine facal."
+    },
+    {
+      "title": "Às mo leabhar-latha",
+      "summary": "A week of a columnist's diary: a biting wind, a fever, a gentle doctor who explains the virus, and a warm jumper.",
+      "newWords": [
+        "leabhar-latha",
+        "sgaiteach",
+        "geansaidh",
+        "fiabhras",
+        "fèith",
+        "macanta",
+        "cìoch-shlugain",
+        "bhìoras"
+      ],
+      "text": "Bidh mi a' cumail leabhar-latha. Mar as trice, chan eil ann ach an aimsir agus na tha agam ri dhèanamh. An t-seachdain seo, ge-tà, tha rudeigin eile anns an leabhar-latha agam, agus seo e dhuibh.\n\nDiluain. Gaoth sgaiteach bhon taobh tuath. Chaidh mi sìos chun a' chidhe às aonais geansaidh, oir bha a' ghrian a-muigh. Rud faoin! Bha a' ghaoth cho sgaiteach 's gun deach i tromham.\n\nDimàirt. Dhùisg mi le fiabhras. Tha cràdh anns gach fèith, nam dhruim agus nam chasan. Cha robh fios agam gun robh uimhir de dh'fhèithean agam. Tha mi teth agus fuar aig an aon àm, agus chan urrainn dhomh ach an leabhar-latha seo a sgrìobhadh anns an leabaidh.\n\nDiciadain. Thàinig an Dotair MacFhionghain. Tha e na dhuine macanta, ciùin, le guth ìosal. Choimhead e nam amhaich le solas beag.\n\n“Tha a' chìoch-shlugain agad dearg,” thuirt e.\n\n“Dè th' ann an cìoch-shlugain?” thuirt mi.\n\n“Am pìos beag a tha an crochadh ann an cùl do bheòil. Tha i dearg air sgàth a' bhìorais. Chan eil leigheas ann airson a' bhìorais seo ach fois agus deoch theth. Falbhaidh am fiabhras leis fhèin.”\n\n“An e a' ghaoth sgaiteach a thug seo dhomh?”\n\n“Chan e,” thuirt e gu macanta. “Fhuair thu am bhìoras bho chuideigin eile. Ach cuir ort geansaidh co-dhiù.”\n\nDiardaoin. Thàinig mo phiuthar le brot agus geansaidh mòr clòimhe a rinn i fhèin. Thàinig an cù aice còmhla rithe. Tha e cho macanta ri uan, agus laigh e aig bonn na leapa. Feasgar, bha am fiabhras na b' ìsle.\n\nDihaoine. Tha am fiabhras air falbh. Tha gach fèith fhathast lag, ach dh'ith mi bracaist agus choisich mi chun an dorais. Chan eil a' chìoch-shlugain gam ghoirteachadh tuilleadh. Rud a dh'ionnsaich mi: chan eil bhìoras a' coimhead air an leabhar-latha agad mus tig e. An ath thuras a bhios gaoth ann, ge-tà, bidh geansaidh orm.\n\nCeistean:\nCarson a chaidh an sgrìobhadair a-mach às aonais geansaidh?\nChaidh e a-mach às aonais geansaidh oir bha a' ghrian a-muigh.\nDè bha ceàrr air an sgrìobhadair Dimàirt?\nBha fiabhras air, agus bha cràdh anns gach fèith.\nCiamar a tha an Dotair MacFhionghain?\nTha e na dhuine macanta, ciùin, le guth ìosal.\nDè th' ann an cìoch-shlugain?\nAm pìos beag a tha an crochadh ann an cùl a' bheòil.\nAn e a' ghaoth sgaiteach a thug am bhìoras dha?\nChan e. Fhuair e am bhìoras bho chuideigin eile.\nDè thug a phiuthar dha?\nThug i brot agus geansaidh mòr clòimhe dha."
+    },
+    {
+      "title": "Làbha air Muile",
+      "summary": "On a walk on Mull in changeable weather, a friend who knows rocks explains lava, sulphur and the glaciers that cut the glens.",
+      "newWords": [
+        "caochlaideach",
+        "grianach",
+        "làbha",
+        "teinnteach",
+        "àiteigin",
+        "sulfar",
+        "eigh-shruth",
+        "fiaclach"
+      ],
+      "text": "Tha an aimsir ann am Muile caochlaideach, mar a tha fios aig gach neach a chaidh ann. Madainn Disathairne bha i grianach, agus cha robh sgòth anns an speur. Mu mheadhan-latha bha ceò ann, an dèidh sin uisge, agus mu thrì uairean bha i grianach a-rithist.\n\nBha mi a' coiseachd còmhla ri caraid dhomh a tha na h-eòlaiche air creagan. Tha mi air a bhith a' dol a Mhuile bho bha mi nam bhalach, ach cha do choimhead mi a-riamh air na creagan fhèin. Stad mo charaid ri taobh creige duibhe, agus chuir i a làmh oirre.\n\n“Seo làbha,” thuirt i. “Bho chionn 60 millean bliadhna, bha beinn-theine mhòr an seo. Ruith an làbha sìos thar an fhearainn, agus nuair a dh'fhuaraich i, rinn i na creagan seo. Canar creag theinnteach rithe, oir thàinig i bhon teine.”\n\nChoimhead mi air a' chreig theinntich, agus cha mhòr nach robh mi ga faireachdainn teth.\n\n“An àiteigin air an t-saoghal, tha làbha a' ruith an-diugh fhèin,” thuirt mo charaid, “agus tha fàileadh sulfair ann, mar uighean dona. Bhiodh am fàileadh sulfair sin air feadh an eilein seo aig an àm ud.”\n\nThug i mi gu ceann a' ghlinne. “Rinn an làbha na creagan,” thuirt i, “ach cò rinn an gleann? Eigh-shruth. Fada an dèidh na beinne-teine, thàinig an deigh. Bha eigh-shruth mòr a' gluasad gu slaodach sìos gach gleann, agus gheàrr e a' chreag mar sgian. An àiteigin fon fheur, tha clachan ann a thug na h-eigh-shruthan an seo.”\n\nSheall i dhomh mullach os ar cionn. Cha do ràinig na h-eigh-shruthan an sin, agus mar sin tha am mullach fiaclach, mar bheul làn fhiaclan. Chunnaic mi am mullach fiaclach sin ceud uair, agus cha do dh'fhaighnich mi a-riamh carson.\n\nAir an t-slighe air ais, thill an t-uisge. Bidh sinn tric a' gearan mun aimsir chaochlaideach. A dh'aindeoin sin, nuair a smaoinicheas tu air làbha agus eigh-shruth anns an aon àite, chan eil beagan uisge air feasgar grianach a' coimhead cho dona.\n\nCeistean:\nCiamar a bha an aimsir ann am Muile?\nBha i caochlaideach: grianach, an uair sin ceò agus uisge, agus grianach a-rithist.\nDè rinn an làbha nuair a dh'fhuaraich i?\nRinn i na creagan, agus canar creag theinnteach rithe.\nDè am fàileadh a tha ann far a bheil làbha a' ruith?\nTha fàileadh sulfair ann, mar uighean dona.\nCiamar a rinneadh an gleann?\nRinn eigh-shruth mòr e, a' gluasad gu slaodach agus a' gearradh na creige.\nCarson a tha am mullach fiaclach?\nTha e fiaclach oir cha do ràinig na h-eigh-shruthan e."
+    },
+    {
+      "title": "An sgeap air taobh eile na callaide",
+      "summary": "A fallen hedge brings a columnist to his neighbour's straw beehive, and he learns how much his peas and garden depend on her bees.",
+      "newWords": [
+        "callaid",
+        "sgeap",
+        "togair",
+        "àl",
+        "innleachdail",
+        "daolag",
+        "peasair",
+        "eisimeil"
+      ],
+      "text": "Tha callaid àrd eadar mo ghàrradh-sa agus an gàrradh aig mo nàbaidh, seann bhoireannach. Fad bhliadhnaichean, cha robh mi a' faicinn ach an sgeap aice thar na callaide. Is e seann sgeap connlaich a th' innte, agus bha beagan eagail orm roimhpe.\n\nAn t-earrach seo, thuit pìos den challaid anns a' ghaoith, agus bha sinn an sin, a' coimhead air a chèile tron bheàrn.\n\n“Ma thogras tu, thig a-null agus chì thu an sgeap,” thuirt mo nàbaidh.\n\n“Chan eil mi cinnteach,” thuirt mi.\n\n“Mar a thogras tu,” thuirt i. “Chan ith iad thu.”\n\nChaidh mi a-null. Thug i aodach dìon dhomh, agus dh'fhosgail i an sgeap gu socair. Anns na ceallan bha àl ùr de sheilleanan, bìodach agus bàn. Chuir an t-àl sin iongnadh orm: cho beag 's a bha iad, agus cho trang 's a bhiodh iad ann an seachdain no dhà.\n\n“Tha iad innleachdail,” thuirt mo nàbaidh. “Cò dh'ionnsaich dhaibh ceallan a dhèanamh le sia taobhan? Chan eil cumadh ann a chumas barrachd meala.”\n\nTha mo nàbaidh fhèin innleachdail cuideachd. Rinn i mullach beag airson na sgeip à seann phreas, gus an t-uisge a chumail bhuaipe.\n\nLorg mi daolag mhòr dhubh air an talamh ri taobh na sgeip.\n\n“An cuir thu an daolag sin air falbh?” thuirt mi.\n\n“Cha chuir!” thuirt i. “Tha an daolag ag ithe nan seilcheag. 'S e caraid dhuinn a th' innte.”\n\nBha a' pheasair agam a' fàs gu math am-bliadhna, agus bha mi moiteil aiste. Bha mi a' smaoineachadh gur mi fhìn a rinn sin uile. Dh'innis mi sin do mo nàbaidh, agus rinn i gàire.\n\n“Tha a' pheasair agad làn de na seilleanan agamsa,” thuirt i. “Tha do ghàrradh an eisimeil na sgeip seo.”\n\nSin agad e, ma-thà. Tha mi an eisimeil seillean nach fhaca mi a-riamh, agus tha na seilleanan an eisimeil nam flùraichean agamsa. Tha sinn uile an eisimeil a chèile, ged nach eil sinn ga fhaicinn tro challaid.\n\nChuir sinn a' challaid ceart còmhla, ach dh'fhàg sinn geata beag innte. A-nis, bheir mo nàbaidh mil dhomh, agus bheir mise peasair dhi.\n\nCeistean:\nDè bha aig an nàbaidh air taobh eile na callaide?\nBha seann sgeap connlaich aice.\nDè bha anns na ceallan?\nBha àl ùr de sheilleanan anns na ceallan.\nCarson a thuirt an nàbaidh gu bheil na seilleanan innleachdail?\nThuirt i sin oir tha iad a' dèanamh cheallan le sia taobhan.\nCarson nach cuir an nàbaidh an daolag air falbh?\nCha chuir i air falbh i oir tha an daolag ag ithe nan seilcheag.\nDè tha an gàrradh an eisimeil?\nTha an gàrradh an eisimeil na sgeip.\nDè rinn iad leis a' challaid?\nChuir iad ceart i, agus dh'fhàg iad geata beag innte."
+    },
+    {
+      "title": "Facal ùr air seann rud",
+      "summary": "A young crofter comes home full of talk about sustainability, fails with wheat, and learns that his grandmother's seaweed and lime were the same idea.",
+      "newWords": [
+        "dùthchas",
+        "seasmhachd",
+        "stèidh",
+        "cruithneachd",
+        "aol",
+        "stamh",
+        "gnàthaich",
+        "mart"
+      ],
+      "text": "Tha seanfhacal ann: brisidh an dùthchas tro shùilean a' chait. Is e sin ri ràdh, nochdaidh na tha annad bho do theaghlach, ge bith dè nì thu. Smaoinich mi air an t-seanfhacal seo am-bliadhna, agus mi a' coimhead air Niocol, an nàbaidh agam air Tiriodh.\n\nThàinig Niocol dhachaigh às a' cholaisde ann an Glaschu, gu croit a sheanmhar. Bha e làn de bheachdan mu sheasmhachd. Is e seasmhachd am facal as fheàrr leis. Tha e ag ràdh gur e seasmhachd stèidh gach croite anns an àm ri teachd.\n\nAnns a' chiad bhliadhna, chuir e cruithneachd. Choimhead a sheanmhair air a' phàirc, agus chrath i a ceann.\n\n“Cha chinn cruithneachd an seo, a bhalaich,” thuirt i.\n\nBha i ceart. Chaidh a' chruithneachd a leagail le gaoth na mara, agus chan fhaca Niocol ach beagan dhith. A dh'aindeoin sin, cha do chuir sin stad air na beachdan aige.\n\nAnns an fhoghar, sheall a sheanmhair dha mar a bhiodh a màthair fhèin ag obair. “Tha an talamh seo searbh,” thuirt i, “agus mar sin, feumaidh tu aol a chur air. Gun aol, chan fhàs feur math.” Anns a' gheamhradh, an dèidh gach stoirm, thigeadh an stamh gu tìr air a' chladach. Chuireadh iad an stamh air an talamh, agus bheireadh an talamh feur don mhart. Bheireadh am mart bainne don teaghlach, agus bhiodh an todhar aige a' dol air ais don talamh.\n\n“Sin an dòigh ghnàthaichte,” thuirt a sheanmhair. “Ghnàthaich mo mhàthair i, agus a màthair fhèin roimhpe.”\n\nSheas Niocol gu sàmhach ri taobh a' mhairt. “Ach is e sin seasmhachd!” thuirt e.\n\n“Chan eil fhios agam dè th' ann an sin,” thuirt a sheanmhair, “ach is e sin an stèidh a th' aig a' chroit.”\n\nAm-bliadhna, tha Niocol air stamh a ghiùlan on chladach, agus tha aol air na pàircean aige. Tha e air an dòigh sin a ghnàthachadh mar a rinn a shinnsearan. Bidh e fhathast a' bruidhinn air seasmhachd, ach bidh mi a' smaoineachadh air an fhacal eile: dùthchas.\n\nCeistean:\nDè tha an seanfhacal ag ràdh?\nTha e ag ràdh gum brisidh an dùthchas tro shùilean a' chait.\nDè am facal as fheàrr le Niocol?\nIs e seasmhachd am facal as fheàrr leis.\nCarson nach d' fhuair e mòran cruithneachd?\nChaidh a' chruithneachd a leagail le gaoth na mara.\nCarson a tha feum air aol?\nTha feum air aol oir tha an talamh searbh.\nDè bha an teaghlach a' dèanamh leis an stamh?\nBhiodh iad a' cur an staimh air an talamh, agus bheireadh an talamh feur don mhart."
+    },
+    {
+      "title": "A' cheàrdach",
+      "summary": "A columnist visits a smithy where a young woman who studied mechanics is doing an apprenticeship with an old smith.",
+      "newWords": [
+        "ceàrdach",
+        "preantasachd",
+        "meacanaigs",
+        "uaireadair",
+        "lasair",
+        "mion",
+        "dìol",
+        "a-chaoidh"
+      ],
+      "text": "Tha ceàrdach fhathast anns a' bhaile againn, ged a dhùin a' chuid as motha de cheàrdaichean bho chionn fhada. Tha Eumann, an gobha, air a bhith ag obair anns a' cheàrdaich fad ceathrad bliadhna. An-uiridh, thàinig Caitir thuige.\n\nRinn Caitir meacanaigs aig a' cholaisde ann an Glaschu, agus bha obair mhath aice an sin ann an oifis. Ach bha i ag iarraidh a làmhan a chleachdadh, agus mar sin thòisich i air preantasachd còmhla ri Eumann. Bheir a' phreantasachd ceithir bliadhna.\n\nChaidh mi a chèilidh orra, gus sgrìobhadh mun deidhinn anns a' cholbh seo. Bha an teine àrd, agus bha an dithis aca trang le geata.\n\n“Tha meacanaigs aice na ceann,” thuirt Eumann. “Tha sin math, ach chan eil an t-iarann a' leughadh leabhraichean.”\n\n“Tha meacanaigs ag innse carson a tha an t-iarann a' lùbadh,” thuirt Caitir. “Tha thusa ag innse cuin.”\n\nTha e coltach gu bheil an dithis aca ag ionnsachadh. Anns a' chiad mhìos, bhiodh Caitir a' coimhead air an uaireadair aice fad na h-ùine. Thug Eumann sùil air an uaireadair sin, agus shìn e a chorrag ris an teine.\n\n“Cuir an t-uaireadair nad phòcaid,” thuirt e. “Seall air an lasair. Innsidh dath na lasrach dhut a bheil an teine teth gu leòr, agus innsidh dath an iarainn dhut an còrr.”\n\nIs e obair mhion a th' ann, ged a tha i trom. Choimhead mi oirre gu mion, agus chunnaic mi i a' tionndadh an iarainn anns an lasair, a' feitheamh, agus ga bhualadh aig an dearbh àm. Chan eil òrd mòr gu leòr: feumaidh tu a h-uile rud mion fhaicinn.\n\nChan eil i beartach. Tha a dìol obrach aice, ach chan eil am pàigheadh mòr, agus an-uiridh is gann gun do dhìol i am màl.\n\n“Cha bhi mi beartach a-chaoidh,” thuirt i, agus i a' gàireachdainn. “Ach cha till mi a dh'oifis a-chaoidh.”\n\nNuair a bha mi a' falbh, bha Eumann a' coimhead air a' gheata aice, gu sàmhach, gu mion.\n\n“Cha dèan inneal a-chaoidh sin,” thuirt e. Bho Eumann, tha sin na mholadh mòr.\n\nCeistean:\nDè rinn Caitir aig a' cholaisde?\nRinn i meacanaigs aig a' cholaisde.\nDè cho fada 's a bheir a' phreantasachd?\nBheir i ceithir bliadhna.\nCarson a dh'iarr Eumann oirre an t-uaireadair a chur na pòcaid?\nDh'iarr e sin oirre oir innsidh dath na lasrach dhi a bheil an teine teth gu leòr.\nDè seòrsa obrach a th' anns a' cheàrdaich?\nIs e obair mhion a th' ann, ged a tha i trom.\nDè thuirt Caitir mu oifis?\nThuirt i nach tilleadh i a dh'oifis a-chaoidh."
+    },
+    {
+      "title": "Na cathain",
+      "summary": "A volunteer at a bird observatory on Islay counts barnacle geese for a database and answers a boy's question about wolves.",
+      "newWords": [
+        "cathan",
+        "amharc-lann",
+        "stòr-dàta",
+        "triantanaich",
+        "madadh-allaidh",
+        "coimheach"
+      ],
+      "text": "Gach bliadhna anns an Dàmhair, bidh na cathain a' tighinn. Bidh iad a' fàgail na Graonlainne agus a' tighinn thar a' chuain gu Ìle, anns na mìltean. Is e geòidh bheaga a th' anns na cathain, dubh is geal, agus cluinnidh tu iad mus fhaic thu iad.\n\nTha amharc-lann bheag air a' chladach, agus bidh mi ag obair innte gach geamhradh gun phàigheadh. Chan eil innte ach bothan fiodha le uinneag fhada, ach bidh daoine a' tighinn don amharc-lainn seo à iomadh dùthaich. Is e a' phrìomh obair againn na cathain a chunntadh.\n\nBidh sinn a' cur nan àireamhan anns an stòr-dàta, agus tha an stòr-dàta seo a' dol air ais fad trithead bliadhna. Faodaidh neach sam bith a leughadh, agus chì thu gu bheil barrachd chathan againn na bha.\n\nTha e duilich fios a bhith agad càite a bheil treud mòr air na pàircean. Mar sin, bidh triùir againn aig trì àiteachan, agus triantanaichidh sinn an treud. Bidh gach neach ag innse dè an taobh air am faic e na cathain, agus bidh an t-àite triantanaichte air a' mhapa.\n\nAn t-seachdain seo chaidh, thàinig clas sgoile thugainn anns an amharc-lainn. Sheall mi na cathain do bhalach beag, Cormag, agus chuir e ceist orm.\n\n“A bheil madadh-allaidh air an eilean?”\n\n“Chan eil,” thuirt mi. “Chan eil madadh-allaidh ann an Alba a-nis. Ach tha cuid de dhaoine ag iarraidh am madadh-allaidh a thoirt air ais do na beanntan.”\n\n“Am biodh e coimheach an seo?” thuirt Cormag.\n\nSmaoinich mi air sin. Tha cuid de lusan coimheach anns na gàrraidhean againn, a thàinig à dùthchannan fad às. Ach cha bhiodh am madadh-allaidh coimheach: bha e an seo fada romhainn.\n\n“Agus na cathain?” thuirt e.\n\n“Bidh iad a' tilleadh a-chaoidh, a h-uile bliadhna,” thuirt mi. “Chan eil iad coimheach idir. Is dòcha gur e sinne a tha coimheach dhaibhsan.”\n\nRinn e gàire, agus choimhead e a-rithist tron uinneig.\n\nCeistean:\nCuin a bhios na cathain a' tighinn gu Ìle?\nBidh iad a' tighinn anns an Dàmhair gach bliadhna.\nCiamar a tha an amharc-lann a' coimhead?\nChan eil innte ach bothan fiodha le uinneag fhada.\nDè bhios iad a' cur anns an stòr-dàta?\nBidh iad a' cur nan àireamhan anns an stòr-dàta.\nCiamar a lorgas iad treud mòr?\nBidh triùir aig trì àiteachan, agus triantanaichidh iad an treud.\nDè dh'fhaighnich Cormag mun mhadadh-allaidh?\nDh'fhaighnich e am biodh am madadh-allaidh coimheach air an eilean."
+    },
+    {
+      "title": "An clag mu dheireadh",
+      "summary": "A columnist's tribute to a school helper retiring after forty years, who swept the floors, rang the bell and helped an inspector understand how children learn a language.",
+      "newWords": [
+        "artagal",
+        "saoghalta",
+        "sguabadh",
+        "clag",
+        "crè",
+        "àigh",
+        "sgrùdair",
+        "sealbhachadh",
+        "dìmeas"
+      ],
+      "text": "Mar as trice, tha an t-artagal seo mu rudan beaga. An t-seachdain seo, tha an t-artagal agam mu Bheasaidh, a tha air a bhith ag obair ann an sgoil a' bhaile fad ceathrad bliadhna, agus a bhios a' leigeil dhith a dreuchd Dihaoine.\n\nCha b' e tidsear a bh' innte. Is ise a rinn na gnothaichean saoghalta a chumas sgoil fosgailte: an sguabadh, am biadh, na brògan fliuch, agus an clag. Chan eil gnothaichean saoghalta mar seo a' faighinn mòran urraim, ach às an aonais chan eil sgoil ann. Aig 9 gach madainn, bhiodh i a' bualadh a' chluig anns an doras, agus cha robh leanabh anns a' bhaile nach aithnicheadh fuaim a' chluig sin.\n\nNuair a bhiodh leanabh brònach, bheireadh i pìos crè dha. Shuidheadh an leanabh aig bòrd beag ri taobh a' phreasa, a' dèanamh cù no bàta de chrè, agus i fhèin a' sguabadh timcheall air. Tha truinnsear crè anns an taigh aig leth nan teaghlaichean anns a' bhaile.\n\nAon bhliadhna, thàinig sgrùdair chun na sgoile le pasgan mòr. Bha an sgrùdair a' sgrìobhadh rudeigin mu shealbhachadh cànain na cloinne. Chunnaic Beasaidh na faclan sin thar a ghualainn.\n\n“Dè tha sin a' ciallachadh, sealbhachadh?” thuirt i.\n\n“Mar a tha clann ag ionnsachadh cànain,” thuirt an sgrùdair.\n\n“Thig a-steach don chidsin, ma-thà, nuair a bhios mi a' sguabadh. Tha iad a' bruidhinn rium fad an latha,” thuirt Beasaidh.\n\nChaidh e ann. Cha robh dìmeas aice air duine le faclan mòra, agus cha robh dìmeas sam bith aigesan air boireannach leis a' bhruis. Sgrìobh e gun robh pàirt mhòr de shealbhachadh cànain na cloinne a' tachairt ri taobh Bheasaidh, agus chan fhaca mi dìmeas air obair sam bith anns an sgoil sin bhon uair sin.\n\nThig seann sgoilearan thugam gu tric, agus tha iad uile ag ràdh gur e làithean àigh a bh' ann. Dihaoine, buailidh Beasaidh an clag mu dheireadh. Làithean àigh romhad, a Bheasaidh.\n\nCeistean:\nDè a tha anns an artagal an t-seachdain seo?\nTha an t-artagal mu Bheasaidh, a tha a' leigeil dhith a dreuchd.\nDè na gnothaichean saoghalta a rinn i?\nRinn i an sguabadh, am biadh agus an clag.\nDè bheireadh i do leanabh brònach?\nBheireadh i pìos crè dha.\nDè bha an sgrùdair a' sgrìobhadh?\nBha e a' sgrìobhadh mu shealbhachadh cànain na cloinne.\nDè their seann sgoilearan mu na làithean sin?\nTha iad ag ràdh gur e làithean àigh a bh' ann."
+    }
+  ]
+}
