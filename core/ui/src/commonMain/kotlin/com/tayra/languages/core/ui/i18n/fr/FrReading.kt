@@ -149,6 +149,8 @@ internal val frReading: Map<String, String> = mapOf(
     "The words you are learning on page {0}." to "Les mots que vous apprenez à la page {0}.",
     "The words you are learning on page {0} of {1}." to "Les mots que vous apprenez à la page {0} de « {1} ».",
     "Question {0} of {1}" to "Question {0} sur {1}",
+    "Previous question" to "Question précédente",
+    "Next question" to "Question suivante",
     "{0} right" to "{0} bonnes réponses",
     "Choose the missing word" to "Choisissez le mot manquant",
     "Type the missing word" to "Tapez le mot manquant",

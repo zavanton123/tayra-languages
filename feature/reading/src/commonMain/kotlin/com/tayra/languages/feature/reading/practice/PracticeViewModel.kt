@@ -46,6 +46,15 @@ import com.tayra.languages.core.domain.practice.SpeechRecognition
 /** How a question was answered. */
 enum class PracticeResult { CORRECT, ALMOST, TYPO, WRONG }
 
+/** What was done on a question left for another, found as it was on coming back to it. */
+data class QuestionAnswer(
+    val typed: String = "",
+    val chosen: String? = null,
+    val result: PracticeResult? = null,
+    val matched: Set<String> = emptySet(),
+    val wrongPairs: Int = 0,
+)
+
 data class PracticeUiState(
     val loading: Boolean = true,
     val bookTitle: String = "",
@@ -59,6 +68,8 @@ data class PracticeUiState(
     val rightToLeft: Boolean = false,
     val exercises: List<Exercise> = emptyList(),
     val index: Int = 0,
+    /** The questions left for another, by their place; the one on show keeps its own in the fields below. */
+    val left: Map<Int, QuestionAnswer> = emptyMap(),
     val typed: String = "",
     val chosen: String? = null,
     /** Null until the question on show is answered. */
@@ -89,6 +100,15 @@ data class PracticeUiState(
     val current: Exercise? get() = if (finished) null else exercises.getOrNull(index)
     val answered: Boolean get() = result != null
     val fromVocabulary: Boolean get() = pageNumber == null && !wholeBook
+
+    /** The first question other than the one on show still to be answered. */
+    val openElsewhere: Int? get() = exercises.indices.firstOrNull { it != index && left[it]?.result == null }
+    val answeredCount: Int get() = exercises.indices.count { if (it == index) answered else left[it]?.result != null }
+    val canGoBack: Boolean get() = index > 0
+    val canGoForward: Boolean get() = index + 1 < exercises.size || answered || openElsewhere != null
+
+    /** Moving on from the question on show leads to the result, once it is answered. */
+    val endsTheRound: Boolean get() = index + 1 >= exercises.size && openElsewhere == null
 }
 
 /**
@@ -308,7 +328,7 @@ class PracticeViewModel(
         s.copy(
             listening = false,
             speakingRefused = true,
-            exercises = s.exercises.mapIndexed { i, e -> if (i >= s.index && e.response == PracticeResponse.SPEAK) e.copy(response = PracticeResponse.TYPE) else e },
+            exercises = s.exercises.mapIndexed { i, e -> if ((i == s.index || s.left[i]?.result == null) && e.response == PracticeResponse.SPEAK) e.copy(response = PracticeResponse.TYPE) else e },
         )
     }
 
@@ -389,35 +409,59 @@ class PracticeViewModel(
 
     /**
      * The term's translation was put right while practising: the questions on it show the new one,
-     * and one that asks for its meaning, the one just answered too, takes it as its answer among
-     * its choices; an answer that chose the old one stays chosen as the new one.
+     * and one that asks for its meaning, answered or not, takes it as its answer among its choices;
+     * an answer that chose the old one stays chosen as the new one.
      */
     fun translationFixed(termId: Long, translation: String) {
         val meaning = translation.trim().takeIf { it.isNotEmpty() } ?: return
         _state.update { s ->
-            val current = s.exercises.getOrNull(s.index)
-            val old = current?.wordTranslation?.takeIf { current.termId == termId && current.answer == it }
+            fun oldAt(i: Int) = s.exercises[i].wordTranslation?.takeIf { s.exercises[i].termId == termId && s.exercises[i].answer == it }
             s.copy(
                 exercises = s.exercises.mapIndexed { i, e ->
                     if (e.termId != termId) return@mapIndexed e
-                    val previous = e.wordTranslation
                     val fixed = e.copy(wordTranslation = meaning)
-                    if (i >= s.index && previous != null && e.answer == previous) fixed.copy(answer = meaning, options = e.options.map { if (it == previous) meaning else it }) else fixed
+                    val old = oldAt(i)
+                    if (old != null) fixed.copy(answer = meaning, options = e.options.map { if (it == old) meaning else it }) else fixed
                 },
-                chosen = if (old != null && s.chosen == old) meaning else s.chosen,
+                chosen = if (s.chosen != null && s.exercises.getOrNull(s.index) != null && s.chosen == oldAt(s.index)) meaning else s.chosen,
+                left = s.left.mapValues { (i, answer) -> if (answer.chosen != null && answer.chosen == oldAt(i)) answer.copy(chosen = meaning) else answer },
             )
         }
     }
 
-    /** Moves on from an answered question. */
+    /**
+     * Moves on, a question not answered waiting for its turn: past the last, to the first still to
+     * be answered, and with none left, to the result.
+     */
     fun next() {
         val s = _state.value
-        if (!s.answered) return
-        if (s.index + 1 >= s.exercises.size) {
-            _state.update { it.copy(finished = true, result = null, chosen = null, typed = "", retry = null) }
-            return
+        if (s.current == null) return
+        val target = if (s.index + 1 < s.exercises.size) s.index + 1 else s.openElsewhere
+        when {
+            target != null -> goTo(target)
+            s.answered -> _state.update { it.copy(finished = true, result = null, chosen = null, typed = "", retry = null) }
         }
-        _state.update { it.copy(index = it.index + 1, result = null, chosen = null, typed = "", sentenceTranslation = null, matched = emptySet(), wrongPairs = 0, retry = null) }
+    }
+
+    /** Goes back a question, to find it as it was left; an answer given stays given. */
+    fun previous() {
+        val s = _state.value
+        if (s.current != null && s.canGoBack) goTo(s.index - 1)
+    }
+
+    private fun goTo(target: Int) {
+        if (_state.value.listening) {
+            listenJob?.cancel()
+            speech?.stop()
+        }
+        _state.update { s ->
+            val left = s.left + (s.index to QuestionAnswer(s.typed, s.chosen, s.result, s.matched, s.wrongPairs))
+            val found = left[target] ?: QuestionAnswer()
+            s.copy(
+                index = target, left = left, typed = found.typed, chosen = found.chosen, result = found.result, matched = found.matched, wrongPairs = found.wrongPairs,
+                sentenceTranslation = null, listening = false, recognising = false, retry = null,
+            )
+        }
         loadTranslation()
     }
 

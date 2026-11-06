@@ -149,6 +149,8 @@ internal val deReading: Map<String, String> = mapOf(
     "The words you are learning on page {0}." to "Die Wörter, die du auf Seite {0} lernst.",
     "The words you are learning on page {0} of {1}." to "Die Wörter, die du auf Seite {0} von „{1}“ lernst.",
     "Question {0} of {1}" to "Frage {0} von {1}",
+    "Previous question" to "Vorherige Frage",
+    "Next question" to "Nächste Frage",
     "{0} right" to "{0} richtig",
     "Choose the missing word" to "Wähle das fehlende Wort",
     "Type the missing word" to "Schreib das fehlende Wort",

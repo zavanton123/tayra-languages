@@ -23,6 +23,8 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.Icon
@@ -171,6 +173,7 @@ fun PracticeScreen(
                 onSubmit = viewModel::submit,
                 onSkip = viewModel::skip,
                 onNext = { speaker.stop(); viewModel.next() },
+                onPrevious = { speaker.stop(); viewModel.previous() },
                 onRestart = { if (onPractiseAgain != null) onPractiseAgain() else settingUp = true },
                 onRestartMissed = viewModel::startMissed,
                 onBack = onBack,
@@ -234,6 +237,7 @@ internal class PracticeActions(
     val onSubmit: () -> Unit = {},
     val onSkip: () -> Unit = {},
     val onNext: () -> Unit = {},
+    val onPrevious: () -> Unit = {},
     val onRestart: () -> Unit = {},
     val onRestartMissed: () -> Unit = {},
     val onBack: () -> Unit = {},
@@ -273,7 +277,11 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
                 .onPreviewKeyEvent { event ->
                     if (event.type != KeyEventType.KeyDown || exercise == null || event.isCtrlPressed || event.isMetaPressed) return@onPreviewKeyEvent false
                     val enter = event.key == Key.Enter || event.key == Key.NumPadEnter
+                    // In a field being typed in, the arrows move along what is typed.
+                    val typing = !state.answered && !exercise.isChoice && exercise.tiles.isEmpty() && exercise.type != ExerciseType.MATCHING && exercise.response != PracticeResponse.SPEAK
                     when {
+                        event.key == Key.DirectionLeft && !typing -> if (state.canGoBack) actions.onPrevious()
+                        event.key == Key.DirectionRight && !typing -> if (state.canGoForward) actions.onNext()
                         state.answered && enter -> actions.onNext()
                         state.answered -> return@onPreviewKeyEvent false
                         exercise.response == PracticeResponse.SPEAK -> return@onPreviewKeyEvent false
@@ -325,7 +333,7 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
                     state.exercises.isEmpty() -> Empty(state, actions)
                     exercise == null -> Finished(state, actions)
                     else -> {
-                        ProgressStrip(state)
+                        ProgressStrip(state, actions)
                         if (state.speakingRefused) {
                             Notice(tr("The microphone could not be used"), Modifier.testTag("practice-speaking-refused"), message = tr("Type the answers instead."), icon = AppIcons.Mic)
                         }
@@ -339,16 +347,20 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
 }
 
 @Composable
-private fun ProgressStrip(state: PracticeUiState) {
+private fun ProgressStrip(state: PracticeUiState, actions: PracticeActions) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().cardSurface(AppShapes.card).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l),
+        Modifier.fillMaxWidth().cardSurface(AppShapes.card).padding(horizontal = AppSpacing.l, vertical = AppSpacing.s),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
-        Text(tr("Question {0} of {1}", state.index + 1, state.exercises.size), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
-        // Filled to the questions answered, the current one counting once it is answered.
-        ProgressTrack((state.index + if (state.answered) 1f else 0f) / state.exercises.size, colors.primary, Modifier.weight(1f), height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
+        val faded = colors.onSurface.copy(alpha = AppAlpha.disabled)
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous question"), onClick = actions.onPrevious, enabled = state.canGoBack, tint = faded.takeUnless { state.canGoBack }, modifier = Modifier.testTag("practice-previous"))
+            Text(tr("Question {0} of {1}", state.index + 1, state.exercises.size), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
+            AppIconButton(Icons.AutoMirrored.Filled.ArrowForward, tr("Next question"), onClick = actions.onNext, enabled = state.canGoForward, tint = faded.takeUnless { state.canGoForward }, modifier = Modifier.testTag("practice-next"))
+        }
+        ProgressTrack(state.answeredCount.toFloat() / state.exercises.size, colors.primary, Modifier.weight(1f), height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
         Text(tr("{0} right", state.correct), style = AppText.emphasis, color = AppAccents.green, softWrap = false)
     }
 }
@@ -386,7 +398,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                 if (!answered) QuietButton(tr("Show the answer"), onClick = actions.onSkip)
                 Spacer(Modifier.weight(1f))
-                if (answered) PrimaryButton(if (state.index + 1 >= state.exercises.size) tr("See the result") else tr("Continue"), onClick = actions.onNext, size = ButtonSize.Large)
+                if (answered) PrimaryButton(if (state.endsTheRound) tr("See the result") else tr("Continue"), onClick = actions.onNext, size = ButtonSize.Large)
             }
             return@Column
         }
@@ -491,7 +503,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             if (!answered) QuietButton(tr("Show the answer"), onClick = actions.onSkip)
             Spacer(Modifier.weight(1f))
             when {
-                answered -> PrimaryButton(if (state.index + 1 >= state.exercises.size) tr("See the result") else tr("Continue"), onClick = actions.onNext, size = ButtonSize.Large)
+                answered -> PrimaryButton(if (state.endsTheRound) tr("See the result") else tr("Continue"), onClick = actions.onNext, size = ButtonSize.Large)
                 !exercise.isChoice && exercise.response != PracticeResponse.SPEAK -> PrimaryButton(tr("Check"), onClick = actions.onSubmit, enabled = state.typed.isNotBlank(), size = ButtonSize.Large)
             }
         }
@@ -594,7 +606,8 @@ private fun Matching(state: PracticeUiState, exercise: Exercise, actions: Practi
 @Composable
 private fun TilesAnswer(state: PracticeUiState, exercise: Exercise, actions: PracticeActions) {
     val colors = MaterialTheme.colorScheme
-    var used by remember(state.index) { mutableStateOf(emptyList<Int>()) }
+    // Back on a question being built, the words already taken are taken still.
+    var used by remember(state.index) { mutableStateOf(tilesIn(state.typed, exercise.tiles)) }
     val build: (List<Int>) -> Unit = { picked -> used = picked; actions.onTyped(picked.joinToString(" ") { exercise.tiles[it] }) }
     Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         Box(
@@ -623,6 +636,13 @@ private fun TilesAnswer(state: PracticeUiState, exercise: Exercise, actions: Pra
             AppIconButton(AppIcons.ArrowLeft, tr("Remove the last word"), onClick = { build(used.dropLast(1)) }, enabled = used.isNotEmpty() && !state.answered, modifier = Modifier.testTag("practice-tile-back"))
         }
     }
+}
+
+/** Which of [tiles] make up [typed], each used once. */
+private fun tilesIn(typed: String, tiles: List<String>): List<Int> {
+    val used = mutableListOf<Int>()
+    typed.split(" ").forEach { word -> tiles.indices.firstOrNull { it !in used && tiles[it] == word }?.let(used::add) }
+    return used
 }
 
 @Composable

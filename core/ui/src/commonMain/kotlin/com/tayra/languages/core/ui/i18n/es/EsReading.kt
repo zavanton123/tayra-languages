@@ -149,6 +149,8 @@ internal val esReading: Map<String, String> = mapOf(
     "The words you are learning on page {0}." to "Las palabras que estás aprendiendo en la página {0}.",
     "The words you are learning on page {0} of {1}." to "Las palabras que estás aprendiendo en la página {0} de «{1}».",
     "Question {0} of {1}" to "Pregunta {0} de {1}",
+    "Previous question" to "Pregunta anterior",
+    "Next question" to "Pregunta siguiente",
     "{0} right" to "Aciertos: {0}",
     "Choose the missing word" to "Elige la palabra que falta",
     "Type the missing word" to "Escribe la palabra que falta",

@@ -1,5 +1,12 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.ui.test.assertIsEnabled
+import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.test.performKeyInput
+import androidx.compose.ui.test.pressKey
+import androidx.compose.ui.input.key.Key
+import kotlin.test.assertNull
+import kotlin.test.assertFalse
 import androidx.compose.ui.test.performScrollTo
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.feature.reading.practice.PracticeDialog
@@ -162,7 +169,7 @@ class PracticeScreenTest {
                                 state,
                                 PracticeActions(
                                     onChoose = viewModel::choose, onMatch = viewModel::match, onTyped = viewModel::setTyped, onSubmit = viewModel::submit, onSkip = viewModel::skip,
-                                    onNext = viewModel::next, onRestart = viewModel::start, onRestartMissed = viewModel::startMissed, onSpeak = { spoken += it },
+                                    onNext = viewModel::next, onPrevious = viewModel::previous, onRestart = viewModel::start, onRestartMissed = viewModel::startMissed, onSpeak = { spoken += it },
                                     onListen = viewModel::listen, onStopListening = viewModel::stopListening, onTypeInstead = viewModel::typeInstead,
                                     onReadAloud = { readAloud = it },
                                     onFixTranslation = { fixing += it },
@@ -404,6 +411,89 @@ class PracticeScreenTest {
         val termIds = exercises.mapNotNull { it.termId }.toSet()
         waitUntil(timeoutMillis = 5_000) { runBlocking { progress.progress(termIds).values.sumOf { it.asked } } == exercises.size }
         assertEquals(setOf(1), runBlocking { progress.progress(termIds) }.values.map { it.level }.toSet())
+    }
+
+    @Test
+    fun aQuestionGoneBackToStaysAsItWasAnswered() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.MEANING), length = null, adaptive = true))
+        val first = viewModel.state.value.current!!
+        val wrong = first.options.first { it != first.answer }
+        onNodeWithTag("practice-previous").assertIsNotEnabled()
+        viewModel.choose(wrong)
+        waitForIdle()
+        onNodeWithTag("practice-next").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.index == 1 }
+        assertNull(viewModel.state.value.result, "the next question is not answered")
+        onNodeWithTag("practice-previous").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.index == 0 }
+
+        viewModel.choose(first.answer)
+        val back = viewModel.state.value
+        assertEquals(wrong, back.chosen)
+        assertEquals(PracticeResult.WRONG, back.result)
+        assertEquals(0, back.correct, "an answer given stays given")
+        assertEquals(1, back.answeredCount)
+        val termId = first.termId!!
+        waitUntil(timeoutMillis = 5_000) { runBlocking { progress.progress(listOf(termId)) }[termId]?.asked == 1 }
+    }
+
+    @Test
+    fun aQuestionPassedByComesBackBeforeTheResult() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.MEANING), length = null, adaptive = true))
+        val exercises = viewModel.state.value.exercises
+        onNodeWithTag("practice-question").performKeyInput { pressKey(Key.DirectionRight) }
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.index == 1 }
+        exercises.drop(1).forEach { e ->
+            viewModel.choose(e.answer)
+            if (e !== exercises.last()) viewModel.next()
+        }
+        waitForIdle()
+        onNodeWithText("Continue").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.index == 0 }
+        assertFalse(viewModel.state.value.finished)
+        assertEquals(exercises.size - 1, viewModel.state.value.answeredCount)
+        viewModel.next()
+        waitForIdle()
+        assertEquals(1, viewModel.state.value.index, "questions answered can be gone through again")
+        viewModel.previous()
+        viewModel.choose(exercises[0].answer)
+        repeat(exercises.size - 1) { viewModel.next() }
+        waitForIdle()
+        onNodeWithText("See the result").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.finished }
+        assertEquals(exercises.size, viewModel.state.value.correct)
+    }
+
+    @Test
+    fun aSentenceBeingBuiltStaysBuiltWhileAwayFromIt() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.BUILD, ExerciseType.GAP), length = null, adaptive = false))
+        val exercises = viewModel.state.value.exercises
+        val at = exercises.indexOfFirst { it.tiles.isNotEmpty() }
+        assertTrue(at >= 0 && exercises.size > 1)
+        repeat(at) { viewModel.next() }
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.index == at }
+        val tile = exercises[at].tiles[0]
+        onNodeWithTag("practice-tile-0").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.typed == tile }
+        shot("question-navigation")
+        if (at > 0) viewModel.previous() else viewModel.next()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.index != at }
+        assertEquals("", viewModel.state.value.typed)
+        if (at > 0) viewModel.next() else viewModel.previous()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.typed == tile }
+        waitForIdle()
+        onNodeWithTag("practice-tile-0").assertIsNotEnabled()
+        onNodeWithTag("practice-tile-back").assertIsEnabled()
+    }
+
+    @Test
+    fun aPhoneHasTheWayBetweenQuestionsToo() = runDesktopComposeUiTest(width = 375, height = 800) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.MEANING), length = null, adaptive = true))
+        shot("question-navigation-phone")
+        onNodeWithTag("practice-next").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.index == 1 }
+        onNodeWithTag("practice-previous").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.index == 0 }
     }
 
     @Test

@@ -149,6 +149,8 @@ internal val plReading: Map<String, String> = mapOf(
     "The words you are learning on page {0}." to "Słowa w nauce ze strony {0}.",
     "The words you are learning on page {0} of {1}." to "Słowa w nauce ze strony {0} z „{1}”.",
     "Question {0} of {1}" to "Pytanie {0} z {1}",
+    "Previous question" to "Poprzednie pytanie",
+    "Next question" to "Następne pytanie",
     "{0} right" to "Dobrze: {0}",
     "Choose the missing word" to "Wybierz brakujące słowo",
     "Type the missing word" to "Wpisz brakujące słowo",

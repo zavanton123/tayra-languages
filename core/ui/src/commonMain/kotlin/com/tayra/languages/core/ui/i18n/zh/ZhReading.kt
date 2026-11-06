@@ -149,6 +149,8 @@ internal val zhReading: Map<String, String> = mapOf(
     "The words you are learning on page {0}." to "第 {0} 页上你正在学习的单词。",
     "The words you are learning on page {0} of {1}." to "“{1}”第 {0} 页上你正在学习的单词。",
     "Question {0} of {1}" to "第 {0} 题，共 {1} 题",
+    "Previous question" to "上一题",
+    "Next question" to "下一题",
     "{0} right" to "答对 {0}",
     "Choose the missing word" to "选出缺少的单词",
     "Type the missing word" to "输入缺少的单词",

@@ -149,6 +149,8 @@ internal val elReading: Map<String, String> = mapOf(
     "The words you are learning on page {0}." to "Οι λέξεις που μαθαίνετε στη σελίδα {0}.",
     "The words you are learning on page {0} of {1}." to "Οι λέξεις που μαθαίνετε στη σελίδα {0} του «{1}».",
     "Question {0} of {1}" to "Ερώτηση {0} από {1}",
+    "Previous question" to "Προηγούμενη ερώτηση",
+    "Next question" to "Επόμενη ερώτηση",
     "{0} right" to "Σωστές: {0}",
     "Choose the missing word" to "Επιλέξτε τη λέξη που λείπει",
     "Type the missing word" to "Γράψτε τη λέξη που λείπει",

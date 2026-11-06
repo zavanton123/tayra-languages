@@ -149,6 +149,8 @@ internal val ptReading: Map<String, String> = mapOf(
     "The words you are learning on page {0}." to "As palavras que você está aprendendo na página {0}.",
     "The words you are learning on page {0} of {1}." to "As palavras que você está aprendendo na página {0} de “{1}”.",
     "Question {0} of {1}" to "Pergunta {0} de {1}",
+    "Previous question" to "Pergunta anterior",
+    "Next question" to "Próxima pergunta",
     "{0} right" to "{0} certas",
     "Choose the missing word" to "Escolha a palavra que falta",
     "Type the missing word" to "Digite a palavra que falta",

@@ -149,6 +149,8 @@ internal val ruReading: Map<String, String> = mapOf(
     "The words you are learning on page {0}." to "Изучаемые слова со страницы {0}.",
     "The words you are learning on page {0} of {1}." to "Изучаемые слова со страницы {0} из «{1}».",
     "Question {0} of {1}" to "Вопрос {0} из {1}",
+    "Previous question" to "Предыдущий вопрос",
+    "Next question" to "Следующий вопрос",
     "{0} right" to "Верно: {0}",
     "Choose the missing word" to "Выберите пропущенное слово",
     "Type the missing word" to "Впишите пропущенное слово",
