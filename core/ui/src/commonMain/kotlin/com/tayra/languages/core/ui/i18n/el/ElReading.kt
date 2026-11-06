@@ -93,6 +93,7 @@ internal val elReading: Map<String, String> = mapOf(
     "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word." to "Το Ctrl (⌘ σε Mac) με τα βέλη μετακινεί ανάμεσα στις λέξεις και αλλάζει την κατάσταση μιας λέξης· τα K και U χρειάζονται επιλεγμένη λέξη.",
     "Pause reading" to "Παύση ανάγνωσης",
     "Read the page" to "Ανάγνωση της σελίδας",
+    "No {0} voice on this device" to "Καμία φωνή για τη γλώσσα {0} σε αυτή τη συσκευή",
     "Auto-pause on" to "Αυτόματη παύση ενεργή",
     "Auto-pause off" to "Αυτόματη παύση ανενεργή",
     "Pause after each sentence" to "Παύση μετά από κάθε πρόταση",

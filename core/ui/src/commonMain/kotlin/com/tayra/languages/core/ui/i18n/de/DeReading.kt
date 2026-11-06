@@ -93,6 +93,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word." to "Ctrl (⌘ auf einem Mac) mit den Pfeiltasten springt zwischen Wörtern und ändert den Status eines Worts; K und U brauchen ein ausgewähltes Wort.",
     "Pause reading" to "Vorlesen pausieren",
     "Read the page" to "Seite vorlesen",
+    "No {0} voice on this device" to "Keine Stimme für {0} auf diesem Gerät",
     "Auto-pause on" to "Autopause an",
     "Auto-pause off" to "Autopause aus",
     "Pause after each sentence" to "Nach jedem Satz pausieren",

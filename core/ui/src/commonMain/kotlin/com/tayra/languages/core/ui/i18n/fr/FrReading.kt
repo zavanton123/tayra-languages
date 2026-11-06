@@ -93,6 +93,7 @@ internal val frReading: Map<String, String> = mapOf(
     "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word." to "Ctrl (⌘ sur Mac) avec les flèches permet de passer d’un mot à l’autre et de changer le statut d’un mot ; K et U nécessitent un mot sélectionné.",
     "Pause reading" to "Mettre la lecture en pause",
     "Read the page" to "Lire la page à voix haute",
+    "No {0} voice on this device" to "Aucune voix pour « {0} » sur cet appareil",
     "Auto-pause on" to "Pause auto activée",
     "Auto-pause off" to "Pause auto désactivée",
     "Pause after each sentence" to "Pause après chaque phrase",

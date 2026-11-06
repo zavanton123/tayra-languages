@@ -93,6 +93,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word." to "Ctrl（Mac 上为 ⌘）加方向键可在单词间移动并更改单词状态；K 和 U 需要先选中单词。",
     "Pause reading" to "暂停朗读",
     "Read the page" to "朗读本页",
+    "No {0} voice on this device" to "此设备上没有{0}语音",
     "Auto-pause on" to "自动暂停已开启",
     "Auto-pause off" to "自动暂停已关闭",
     "Pause after each sentence" to "每句之后暂停",

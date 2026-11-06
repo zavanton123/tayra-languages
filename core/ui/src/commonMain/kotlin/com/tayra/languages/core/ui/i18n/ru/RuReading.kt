@@ -93,6 +93,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word." to "Ctrl (⌘ на Mac) со стрелками переходит между словами и меняет статус слова; для K и U нужно выбрать слово.",
     "Pause reading" to "Приостановить чтение",
     "Read the page" to "Читать страницу вслух",
+    "No {0} voice on this device" to "На этом устройстве нет голоса для языка «{0}»",
     "Auto-pause on" to "Автопауза включена",
     "Auto-pause off" to "Автопауза выключена",
     "Pause after each sentence" to "Пауза после каждого предложения",

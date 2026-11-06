@@ -35,6 +35,9 @@ import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.ui.audio.Speaker
+import com.tayra.languages.core.ui.audio.SpeechSynthesizer
+import com.tayra.languages.core.ui.audio.WavPlayer
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.runBlocking
 import org.junit.After
@@ -67,6 +70,33 @@ class ContinuousReadingTest {
     @After
     fun tearDown() {
         stopKoin()
+    }
+
+    /** Without a voice nothing starts, by any control: a sentence said by none would end at once, and the pages turn on their own. */
+    @Test
+    fun withoutAVoiceReadingDoesNotStartOrTurnThePage() {
+        lateinit var scope: kotlinx.coroutines.CoroutineScope
+        rule.setContent { scope = androidx.compose.runtime.rememberCoroutineScope() }
+        rule.waitForIdle()
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val speaker = Speaker(SpeechSynthesizer(), WavPlayer(), LocalSpeech(emptyList()), settings, scope)
+        val reading = ContinuousReading(speaker)
+        var turned = 0
+        reading.turnPage = { turned++; true }
+        reading.canSpeak = false
+        reading.setPage(listOf("佢搭𨋢。", "我哋上去。"), "yue")
+
+        reading.play()
+        reading.toggle()
+        reading.next()
+        reading.previous()
+        reading.repeat()
+        reading.sentenceClicked(1)
+
+        assertEquals(false, reading.active)
+        assertEquals(null, reading.currentIndex)
+        assertEquals(null, speaker.playing.value)
+        assertEquals(0, turned)
     }
 
     @Test

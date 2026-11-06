@@ -123,6 +123,7 @@ import com.tayra.languages.core.domain.service.LocalTranslationProblem
 import androidx.compose.runtime.collectAsState
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
+import com.tayra.languages.core.ui.audio.rememberCanSpeak
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.domain.service.SentenceAudioState
 import com.tayra.languages.core.domain.service.SentenceAudio
@@ -676,6 +677,8 @@ private fun ReadingBody(
     // The callbacks are built once, so they read the state through this rather than the value of the first frame.
     val current by rememberUpdatedState(state)
     val pageSentences = remember(state.page) { state.page.spokenSentences() }
+    val canSpeak = rememberCanSpeak(speaker, speechLanguage)
+    SideEffect { continuous.canSpeak = canSpeak }
     LaunchedEffect(pageSentences, speechLanguage) { continuous.setPage(pageSentences, speechLanguage) }
     LaunchedEffect(continuous) { speaker.playing.collect(continuous::speakerTaken) }
     // The reader's own reading aloud and a playlist's would talk over each other: the reader's takes over. A reader
@@ -807,7 +810,7 @@ private fun ReadingBody(
                 practice = state.settings.practiceTranslation,
                 revealed = revealed,
                 onRevealed = { no, shown -> revealed = if (shown) revealed + no else revealed - no },
-                onSpeakSentence = if (state.settings.showSentencePlay) speakSentence else null,
+                onSpeakSentence = if (state.settings.showSentencePlay && canSpeak) speakSentence else null,
                 playingSentence = playingPlace,
                 preparingSentences = preparingSentences,
                 // A sentence played on its own is highlighted while heard; continuous reading's place stays marked when paused.
@@ -835,11 +838,13 @@ private fun ReadingBody(
         MobileReaderActions(
             onSettings = onMenu,
             onPreviousSentence = continuous::previous,
-            previousEnabled = continuous.currentIndex != null && continuous.currentIndex!! > 0,
+            previousEnabled = canSpeak && continuous.currentIndex != null && continuous.currentIndex!! > 0,
             onPlay = continuous::toggle,
+            playEnabled = canSpeak,
+            playDisabledReason = noVoiceReason(state),
             playing = continuous.active,
             onNextSentence = continuous::next,
-            nextEnabled = continuous.currentIndex != pageSentences.lastIndex,
+            nextEnabled = canSpeak && continuous.currentIndex != pageSentences.lastIndex,
             modifier = Modifier.align(Alignment.BottomCenter),
         )
     }
@@ -864,12 +869,18 @@ private fun ReadingBody(
             autoPause = state.settings.autoPause,
             hotkeys = state.settings.hotkeys.takeUnless { LocalWindowWidth.current.isCompact },
             onPlay = continuous::toggle,
+            playEnabled = canSpeak,
+            playDisabledReason = noVoiceReason(state),
             onAutoPause = viewModel::toggleAutoPause,
             modifier = Modifier.align(Alignment.BottomEnd).padding(AppSpacing.xxl),
         )
     }
     }
 }
+
+/** What the play control says when there is no voice to read with. */
+@Composable
+private fun noVoiceReason(state: ReadingUiState): String = tr("No {0} voice on this device", tr(state.language?.name.orEmpty()))
 
 /** Phone controls stay in one place above the safe bottom while the page scrolls behind them. */
 @Composable
@@ -878,6 +889,8 @@ private fun MobileReaderActions(
     onPreviousSentence: () -> Unit,
     previousEnabled: Boolean,
     onPlay: () -> Unit,
+    playEnabled: Boolean,
+    playDisabledReason: String,
     playing: Boolean,
     onNextSentence: () -> Unit,
     nextEnabled: Boolean,
@@ -900,8 +913,9 @@ private fun MobileReaderActions(
         MobileActionSlot {
             MobileReaderButton(
                 if (playing) AppIcons.Pause else AppIcons.PlayArrow,
-                if (playing) tr("Pause reading") else tr("Read the page"),
+                if (!playEnabled) playDisabledReason else if (playing) tr("Pause reading") else tr("Read the page"),
                 onPlay,
+                enabled = playEnabled,
                 primary = true,
                 size = MOBILE_PLAY_SIZE,
             )
@@ -929,7 +943,7 @@ private fun MobileReaderButton(
     size: Dp = MOBILE_ACTION_SIZE,
 ) {
     val colors = MaterialTheme.colorScheme
-    val background = if (primary) colors.primary else Color.Transparent
+    val background = if (primary && enabled) colors.primary else Color.Transparent
     val foreground = when {
         !enabled -> colors.onSurface.copy(alpha = AppAlpha.disabled)
         primary -> colors.onPrimary
@@ -1052,13 +1066,15 @@ private fun ContinuousControls(
     autoPause: Boolean,
     hotkeys: Map<HotkeyAction, Hotkey?>?,
     onPlay: () -> Unit,
+    playEnabled: Boolean,
+    playDisabledReason: String,
     onAutoPause: () -> Unit,
     modifier: Modifier,
 ) {
     val colors = MaterialTheme.colorScheme
     var showShortcuts by remember { mutableStateOf(false) }
     val shortcutsDescription = tr("Keyboard shortcuts")
-    val playDescription = if (playing) tr("Pause reading") else tr("Read the page")
+    val playDescription = if (!playEnabled) playDisabledReason else if (playing) tr("Pause reading") else tr("Read the page")
     val autoPauseDescription = if (autoPause) tr("Auto-pause on") else tr("Auto-pause off")
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         if (hotkeys != null) {
@@ -1083,12 +1099,18 @@ private fun ContinuousControls(
         }
         AppTooltip(playDescription) {
             Box(
-                Modifier.size(PLAY_CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.primary)
-                    .clickable(onClick = onPlay)
+                Modifier.size(PLAY_CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle)
+                    .background(if (playEnabled) colors.primary else colors.surfaceVariant)
+                    .clickable(enabled = playEnabled, onClick = onPlay)
                     .semantics { contentDescription = playDescription },
                 contentAlignment = Alignment.Center,
             ) {
-                Icon(if (playing) AppIcons.Pause else AppIcons.PlayArrow, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(AppSizes.iconXLarge))
+                Icon(
+                    if (playing) AppIcons.Pause else AppIcons.PlayArrow,
+                    contentDescription = null,
+                    tint = if (playEnabled) colors.onPrimary else colors.onSurface.copy(alpha = AppAlpha.disabled),
+                    modifier = Modifier.size(AppSizes.iconXLarge),
+                )
             }
         }
         AppTooltip(tr("Pause after each sentence")) {

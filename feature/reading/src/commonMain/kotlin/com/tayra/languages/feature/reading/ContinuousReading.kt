@@ -31,6 +31,9 @@ class ContinuousReading(private val speaker: Speaker, initialIndex: Int? = null)
 
     var autoPause: Boolean = false
 
+    /** False without a voice for the language: a sentence said by none ends at once, so reading would run through the text. */
+    var canSpeak: Boolean = true
+
     /** Turns to the next page; false on the last page. */
     var turnPage: () -> Boolean = { false }
 
@@ -77,6 +80,7 @@ class ContinuousReading(private val speaker: Speaker, initialIndex: Int? = null)
     fun toggle() = if (active) pause() else play()
 
     fun play() {
+        if (!canSpeak) return
         // A sentence paused part-way goes on from where it was held.
         val held = current
         if (held != null && speaker.paused.value == held && speaker.resume()) {
@@ -136,7 +140,7 @@ class ContinuousReading(private val speaker: Speaker, initialIndex: Int? = null)
      * reads it again if it was stopped, or the one after it once it was heard to the end.
      */
     fun sentenceClicked(index: Int) {
-        if (index !in sentences.indices) return
+        if (!canSpeak || index !in sentences.indices) return
         val sentence = sentences[index]
         if (active) {
             if (index == currentIndex) pause() else read(index)
@@ -171,6 +175,10 @@ class ContinuousReading(private val speaker: Speaker, initialIndex: Int? = null)
     }
 
     private fun read(index: Int) {
+        if (!canSpeak) {
+            stopReading()
+            return
+        }
         moveOnPlay = false
         active = true
         currentIndex = index
@@ -196,7 +204,7 @@ class ContinuousReading(private val speaker: Speaker, initialIndex: Int? = null)
     }
 
     private fun nextPage() {
-        if (turnPage()) {
+        if (canSpeak && turnPage()) {
             active = true
             readNewPage = true
         } else {
