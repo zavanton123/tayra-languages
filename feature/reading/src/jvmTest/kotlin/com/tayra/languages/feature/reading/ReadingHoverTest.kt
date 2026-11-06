@@ -1617,7 +1617,7 @@ class ReadingHoverTest {
         assertEquals(TermStatus.NEW_2, status(), "the open pane must not restore the old status")
     }
 
-    /** An unknown word opens with U selected; a translation typed in starts it at 1, and U puts it back. */
+    /** An unknown word opens with U selected and keeps it when given a translation, as the rest of the page's unknown words are marked known with it. */
     @Test
     fun unknownWordsShowAndKeepTheUnknownStatus() {
         val vm = runBlocking { reader(mainIsDefault = false) }
@@ -1632,12 +1632,20 @@ class ReadingHoverTest {
         assertEquals(TermStatus.UNKNOWN, status())
 
         rule.onNode(androidx.compose.ui.test.hasSetTextAction() and androidx.compose.ui.test.hasText("Translation")).performTextInput("lobo em russo")
-        rule.waitUntil(5_000) { status() == TermStatus.NEW_1 }
-        rule.waitUntil(5_000) { selected("1") }
+        fun translation() = runBlocking { termRepository.findByTextLc(languageId, "lobo")?.translation }
+        rule.waitUntil(5_000) { translation().orEmpty().startsWith("lobo em russo") }
+        rule.waitForIdle()
+        assertEquals(TermStatus.UNKNOWN, status())
+        assertTrue(selected("U"))
 
+        rule.onNode(androidx.compose.ui.test.hasText("1") and androidx.compose.ui.test.hasClickAction()).performClick()
+        rule.waitUntil(5_000) { status() == TermStatus.NEW_1 }
         rule.onNode(androidx.compose.ui.test.hasText("U") and androidx.compose.ui.test.hasClickAction()).performClick()
         rule.waitUntil(5_000) { status() == TermStatus.UNKNOWN }
-        rule.waitUntil(5_000) { selected("U") }
+
+        vm.markPageRead(true, 0)
+        rule.waitUntil(5_000) { status() == TermStatus.WELL_KNOWN }
+        assertTrue(translation().orEmpty().startsWith("lobo em russo"))
     }
 
     /** Ctrl+Shift with the arrows jumps between coloured words, skipping known and ignored ones. */

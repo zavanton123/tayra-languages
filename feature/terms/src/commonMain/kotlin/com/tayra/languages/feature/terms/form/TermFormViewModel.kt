@@ -244,7 +244,6 @@ class TermFormViewModel(
         val languageList = languages.getAll()
         val draft = try {
             when (key) {
-                // An unknown word shows as Unknown; saving it with other edits starts it at 1 (see toSave).
                 is TermFormKey.ById -> termService.load(key.termId)
                 is TermFormKey.ByText -> if (key.text.isBlank()) emptyDraft(key.languageId) else termService.findOrNew(key.languageId, key.text)
                 TermFormKey.New -> {
@@ -604,7 +603,7 @@ class TermFormViewModel(
         entryJob?.cancel()
         stopExamples()
         if (before.dirty && before.draft.text.isNotBlank()) {
-            val pending = toSave(before.draft)
+            val pending = before.draft
             val sentence = sentenceFor(before.draft)
             viewModelScope.launch {
                 val id = runCatching { saveLock.withLock { termService.save(pending, sentence) } }.getOrNull() ?: return@launch
@@ -685,7 +684,7 @@ class TermFormViewModel(
         // The form can disappear with unsaved edits (panel closed, navigation); persist them.
         val state = _state.value
         if (state.dirty && !state.loading && state.draft.languageId != 0L && state.draft.text.isNotBlank()) {
-            GlobalScope.launch { runCatching { saveLock.withLock { termService.save(toSave(_state.value.draft), sentenceFor(_state.value.draft)) } } }
+            GlobalScope.launch { runCatching { saveLock.withLock { termService.save(_state.value.draft, sentenceFor(_state.value.draft)) } } }
         }
     }
 
@@ -762,17 +761,10 @@ class TermFormViewModel(
         }
     }
 
-    /**
-     * What is stored for [draft]: an unknown word given a translation or other edits starts at
-     * status 1, as when learning a new word, unless Unknown was picked on purpose.
-     */
-    private fun toSave(draft: TermDraft): TermDraft =
-        if (draft.status == TermStatus.UNKNOWN && !draft.statusExplicitlySet) draft.copy(status = TermStatus.NEW_1) else draft
-
     private suspend fun doSave(): Long? = saveLock.withLock { saveDraft() }
 
     private suspend fun saveDraft(): Long? {
-        val draft = toSave(_state.value.draft)
+        val draft = _state.value.draft
         if (draft.languageId == 0L) {
             _state.update { it.copy(error = tr("Please select a language")) }
             return null
@@ -780,11 +772,7 @@ class TermFormViewModel(
         _state.update { it.copy(saving = true, error = null) }
         return try {
             val id = termService.save(draft, sentenceFor(draft))
-            _state.update {
-                // The stored status shows from now on: 1 for a word just started.
-                val shown = if (it.draft.status == TermStatus.UNKNOWN && !it.draft.statusExplicitlySet) it.draft.copy(status = draft.status) else it.draft
-                it.copy(saving = false, dirty = toSave(shown) != draft, saved = true, draft = shown.copy(id = id, originalText = draft.text))
-            }
+            _state.update { it.copy(saving = false, dirty = it.draft != draft, saved = true, draft = it.draft.copy(id = id, originalText = draft.text)) }
             // A new status may have given the term a card, or taken it away.
             refreshFlashcard(id)
             id
