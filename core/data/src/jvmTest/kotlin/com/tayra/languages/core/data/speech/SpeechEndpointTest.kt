@@ -5,8 +5,9 @@ import kotlin.math.sin
 import kotlin.random.Random
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
-/** A recording of an answer ends after a pause once something was said, after a long silence, or at once on a muted microphone. */
+/** A recording of an answer goes on through any silence: only a muted microphone or the limit ends it. */
 class SpeechEndpointTest {
     private val random = Random(1)
 
@@ -29,33 +30,15 @@ class SpeechEndpointTest {
     private fun SpeechEndpoint.feed(chunks: List<ByteArray>) = chunks.map { add(it, it.size) }
 
     @Test
-    fun aPauseAfterSpeakingEndsIt() {
-        val endpoint = SpeechEndpoint()
-        val states = endpoint.feed(List(5) { chunk(30) } + List(15) { chunk(4_000) } + List(12) { chunk(30) })
-        assertEquals(SpeechEndpoint.State.SAID, states.last())
-        assertEquals(SpeechEndpoint.State.LISTENING, states[states.size - 2], "a pause of 1.1 s is not yet the end")
-        assertEquals(true, endpoint.spoke)
+    fun aLongPauseAfterSpeakingDoesNotEndIt() {
+        val states = SpeechEndpoint().feed(List(15) { chunk(4_000) } + List(300) { chunk(30) } + List(15) { chunk(4_000) })
+        assertTrue(states.all { it == SpeechEndpoint.State.LISTENING })
     }
 
     @Test
-    fun aSentenceReadAloudWaitsOutALongerPause() {
-        val endpoint = SpeechEndpoint(longPauses = true)
-        val states = endpoint.feed(List(15) { chunk(4_000) } + List(20) { chunk(30) } + List(10) { chunk(4_000) } + List(23) { chunk(30) })
-        assertEquals(SpeechEndpoint.State.LISTENING, states[34], "a pause of two seconds within the sentence")
-        assertEquals(SpeechEndpoint.State.SAID, states.last())
-    }
-
-    @Test
-    fun anAnswerBegunAtOnceIsHeard() {
-        val states = SpeechEndpoint().feed(List(15) { chunk(4_000) } + List(12) { chunk(30) })
-        assertEquals(SpeechEndpoint.State.SAID, states.last())
-    }
-
-    @Test
-    fun nothingSaidEndsItAfterAWhile() {
-        val states = SpeechEndpoint().feed(List(70) { chunk(30) })
-        assertEquals(SpeechEndpoint.State.SILENT, states.last())
-        assertEquals(SpeechEndpoint.State.LISTENING, states[68])
+    fun nothingSaidDoesNotEndIt() {
+        val states = SpeechEndpoint().feed(List(600) { chunk(30) })
+        assertTrue(states.all { it == SpeechEndpoint.State.LISTENING })
     }
 
     @Test
@@ -66,9 +49,15 @@ class SpeechEndpointTest {
     }
 
     @Test
-    fun aLongAnswerIsCutAtTheLimit() {
-        val states = SpeechEndpoint().feed(List(200) { chunk(4_000) })
-        assertEquals(SpeechEndpoint.State.SAID, states.last())
-        assertEquals(SpeechEndpoint.State.LISTENING, states[198])
+    fun aMicrophoneThatGoesQuietAfterSoundIsNotMuted() {
+        val states = SpeechEndpoint().feed(List(5) { chunk(30) } + List(50) { chunk(0) })
+        assertTrue(states.all { it == SpeechEndpoint.State.LISTENING })
+    }
+
+    @Test
+    fun aForgottenStopEndsItAtTheLimit() {
+        val states = SpeechEndpoint().feed(List(1_200) { chunk(30) })
+        assertEquals(SpeechEndpoint.State.FULL, states.last())
+        assertEquals(SpeechEndpoint.State.LISTENING, states[1_198])
     }
 }

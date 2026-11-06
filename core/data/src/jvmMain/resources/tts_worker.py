@@ -169,8 +169,9 @@ def share(text, expected):
 def heard(model, audio, lang, prompt):
     # One pass, at most a long sentence's tokens: Whisper's retries at higher temperatures, set off when
     # a prompt makes its first try look repetitive, took half a minute over a single sentence.
+    # The voice detector leaves out silence, which Whisper fills with made-up words, or with the prompt's.
     segments, _ = model.transcribe(audio, language=lang, beam_size=5, condition_on_previous_text=False, initial_prompt=prompt,
-                                   temperature=0.0, max_new_tokens=128, without_timestamps=True)
+                                   temperature=0.0, max_new_tokens=128, without_timestamps=True, vad_filter=True)
     return " ".join(s.text.strip() for s in segments).strip()
 
 

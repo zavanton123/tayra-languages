@@ -95,21 +95,21 @@ class DesktopSpeechRecognition(
     override suspend fun listen(languageCode: String, hint: String?, longPauses: Boolean, onRecorded: () -> Unit): Heard = withContext(Dispatchers.IO) {
         val language = whisperCode(languageCode) ?: return@withContext Heard.Refused
         val whisper = downloadedModel() ?: return@withContext Heard.Refused
-        // The worker also reads aloud, and can be restarting or busy: worth another try, not a refusal.
-        if (!runtimeReady()) {
-            Logger.w { "speech recognition is not ready" }
-            return@withContext Heard.Failed
-        }
         stopping = false
-        when (val recording = record(longPauses)) {
+        // The microphone opens first: the worker, which also reads aloud, may be busy, and the first words must not wait for it.
+        when (val recording = record()) {
             Recording.Refused -> Heard.Refused
             Recording.Muted -> {
                 Logger.w { "the microphone gave only silence" }
                 Heard.Muted
             }
-            Recording.Silent -> Heard.Nothing
             is Recording.Said -> {
                 onRecorded()
+                // It can be restarting: worth another try, not a refusal.
+                if (!runtimeReady()) {
+                    Logger.w { "speech recognition is not ready" }
+                    return@withContext Heard.Failed
+                }
                 val wav = File.createTempFile("tayra-heard", ".wav")
                 try {
                     AudioSystem.write(AudioInputStream(ByteArrayInputStream(recording.pcm), FORMAT, recording.pcm.size / 2L), AudioFileFormat.Type.WAVE, wav)
@@ -136,12 +136,11 @@ class DesktopSpeechRecognition(
     private sealed interface Recording {
         object Refused : Recording
         object Muted : Recording
-        object Silent : Recording
         class Said(val pcm: ByteArray) : Recording
     }
 
     /** The microphone until [SpeechEndpoint] or [stop] ends it; refused when there is none to open, muted when it gives only zeros. */
-    private suspend fun record(longPauses: Boolean): Recording {
+    private suspend fun record(): Recording {
         val line = try {
             AudioSystem.getTargetDataLine(FORMAT).apply {
                 open(FORMAT)
@@ -152,7 +151,7 @@ class DesktopSpeechRecognition(
             return Recording.Refused
         }
         val pcm = ByteArrayOutputStream()
-        val endpoint = SpeechEndpoint(FORMAT.sampleRate.toInt(), longPauses)
+        val endpoint = SpeechEndpoint(FORMAT.sampleRate.toInt())
         val chunk = ByteArray(CHUNK_BYTES)
         try {
             while (true) {
@@ -163,8 +162,7 @@ class DesktopSpeechRecognition(
                 val state = endpoint.add(chunk, read)
                 when {
                     state == SpeechEndpoint.State.MUTED -> return Recording.Muted
-                    state == SpeechEndpoint.State.SAID || (stopping && endpoint.spoke) -> return Recording.Said(pcm.toByteArray())
-                    state == SpeechEndpoint.State.SILENT || stopping -> return Recording.Silent
+                    state == SpeechEndpoint.State.FULL || stopping -> return Recording.Said(pcm.toByteArray())
                 }
             }
         } finally {

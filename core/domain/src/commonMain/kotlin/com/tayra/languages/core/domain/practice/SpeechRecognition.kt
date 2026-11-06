@@ -12,11 +12,11 @@ interface SpeechRecognition {
     suspend fun isAvailable(languageCode: String): Boolean
 
     /**
-     * Listens until the learner stops speaking, or [stop] is called. [hint] is what they are expected
-     * to say, which recognisers that take one lean towards: a learner's accent is heard far better.
-     * [onRecorded] is told when the speaking is over and only the recognising is left, which can take
-     * a few seconds. [longPauses] waits out longer pauses before taking the speaking for over, as a
-     * whole sentence read aloud has.
+     * Listens until [stop] is called, or on a phone, whose system recogniser decides for itself, until
+     * the learner stops speaking. [hint] is what they are expected to say, which recognisers that take
+     * one lean towards: a learner's accent is heard far better. [onRecorded] is told when the speaking
+     * is over and only the recognising is left, which can take a few seconds. [longPauses] asks a phone
+     * to wait out longer pauses before taking the speaking for over, as a whole sentence read aloud has.
      */
     suspend fun listen(languageCode: String, hint: String? = null, longPauses: Boolean = false, onRecorded: () -> Unit = {}): Heard
 
