@@ -1,0 +1,100 @@
+1	4601	nicotîn	nicotin
+2	4602	chwareus	
+3	4603	gril	griliau
+4	4604	eog	eogiaid
+5	4605	dadansoddol	ddadansoddol
+6	4606	trefgordd	drefgordd trefgord trefgorddau trefgyrdd trevgordd
+7	4607	cylchred	cylchredau cylchredion gylchred nghylchred
+8	4608	preswylio	breswylio phreswylio preswyli preswylia preswyliadwy preswyliaf preswyliai preswyliais preswyliaist preswyliant preswyliech preswyliedig preswyliem preswylient preswylioch preswyliodd preswylir preswyliwch preswyliwn preswyliwyd
+9	4609	hudol	hudoles hudolion
+10	4610	wyres	hwyres wyresau
+11	4611	gwar	gwarrau war
+12	4612	taliesin	daliesin
+13	4613	caniatau	ganiatau
+14	4614	ofergoel	ofergoelion
+15	4615	llamu	llama llamadwy llamaf llamai llamant llamech llamedig llamem llament llamo llamoch llamodd llamwch llamwn llamwyd llemais llemaist llemi llemir llemwch
+16	4616	sgïwr	sgïwyr
+17	4617	anerchiad	anerchiadau
+18	4618	eillio	eilli eillia eilliadwy eilliaf eilliai eilliais eilliaist eilliant eilliech eilliedig eilliem eillient eillio'r eillioch eilliodd eillir eilliwch eilliwn eilliwyd
+19	4619	rhyngweithiad	rhyngweithiadau ryngweithiadau
+20	4620	mintai	fintai meintai minteiau minteioedd
+21	4621	gwialen	gwiail gwialenni gwialennod wialen
+22	4622	cyfanrif	cyfanrifau gyfanrif
+23	4623	anghenfil	angenfilod anghenfilod
+24	4624	cenhadol	genhadol
+25	4625	sgrinio	sgrini sgrinia sgriniadwy sgriniaf sgriniai sgriniais sgriniaist sgriniant sgriniech sgriniedig sgriniem sgrinient sgrinio'r sgrinioch sgriniodd sgrinir sgriniwch sgriniwn sgriniwyd
+26	4626	gwrthryfela	gwrthryfeladwy gwrthryfelaf gwrthryfelai gwrthryfelais gwrthryfelaist gwrthryfelant gwrthryfelasant gwrthryfelech gwrthryfeledig gwrthryfelem gwrthryfelent gwrthryfeli gwrthryfelir gwrthryfelo gwrthryfeloch gwrthryfelodd gwrthryfelwch gwrthryfelwn gwrthryfelwyd wrthryfela
+27	4627	meudwy	feudwy meudwy'r
+28	4628	cysglyd	chysglyd gysglyd
+29	4629	burum	berem burm burym
+30	4630	is-set	is-setiau
+31	4631	metrig	fetrig
+32	4632	gâl	galau galon ngâl âl
+33	4633	doethineb	ddoethineb
+34	4634	trobwynt	drobwynt
+35	4635	persawr	bersawr bersawrau persawrau
+36	4636	crwst	chrwst crwstyn crystau crystiau crystyn grwst
+37	4637	arswydus	
+38	4638	fodca	
+39	4639	amlinelliad	amlinelliadau
+40	4640	sgarmes	sgarmesau ysgarmes ysgarmesoedd
+41	4641	gogoniant	gogoniannau ngogoniant ogoniant
+42	4642	syrcas	syrcasau syrcws
+43	4643	rheolydd	reolydd rheolyddion
+44	4644	adrannol	
+45	4645	trwyddedig	
+46	4646	penodiad	benodiad penodiadau
+47	4647	buddiant	buddiannau fuddiannau fuddiant
+48	4648	crafu	chrafu crafa crafadwy crafaf crafai crafant crafech crafedig crafem crafent crafo crafoch crafodd crafu'r crafwch crafwn crafwyd crefais crefaist crefi crefir crefwch grafu
+49	4649	addysgwr	addysgwyr
+50	4650	pontio	bontio phontio pontio'r
+51	4651	mosg	fosg mosgau mosgiau mosgoedd
+52	4652	tirlenwi	dirlenwi
+53	4653	amlosgfa	amlosgfa'r amlosgfeydd
+54	4654	cadach	cadachau cedechyn gadach
+55	4655	gwladgarwch	wladgarwch
+56	4656	chwant	chwantau
+57	4657	bonet	boned bonetau boneti fonet monet
+58	4658	caredigrwydd	charedigrwydd garedigrwydd
+59	4659	clown	glown
+60	4660	cyfluniad	cyfluniadau gyfluniad
+61	4661	rhychwant	rychwant
+62	4662	gwyddoniadur	gwyddoniaduron wyddoniadur
+63	4663	gwladgarol	wladgarol
+64	4664	gelyniaethus	elyniaethus
+65	4665	cadeirio	cadeiri cadeiria cadeiriadwy cadeiriaf cadeiriai cadeiriais cadeiriaist cadeiriant cadeiriech cadeiriedig cadeiriem cadeirient cadeirio'r cadeirioch cadeiriodd cadeirir cadeiriwch cadeiriwn cadeiriwyd chadeirio gadeirio
+66	4666	cofiadwy	chofiadwy gofiadwy
+67	4667	gaeafu	aeafu gaeafa gaeafadwy gaeafaf gaeafai gaeafais gaeafaist gaeafant gaeafech gaeafedig gaeafem gaeafent gaeafi gaeafir gaeafo gaeafoch gaeafodd gaeafwch gaeafwn gaeafwyd
+68	4668	cromfach	cromfachau crymfach
+69	4669	ymddiddan	ymddiddana ymddiddanaf ymddiddanai ymddiddanant ymddiddanech ymddiddanem ymddiddanent ymddiddanion ymddiddano ymddiddanoch ymddiddanodd ymddiddanwch ymddiddanwn ymddiddanwyd ymddiddenais ymddiddenaist ymddiddeni ymddiddenir ymddiddenwch
+70	4670	ymgynghorol	
+71	4671	angau	angheuoedd
+72	4672	angor	anghorau angorau angorion
+73	4673	damweiniol	ddamweiniol
+74	4674	tonfedd	donfedd thonfedd tonfeddi
+75	4675	melynwyrdd	felynwyrdd melenwerdd melynwerdd melynwyrddach melynwyrddaf melynwyrddion
+76	4676	crefftwr	chrefftwr crefftwyr grefftwr
+77	4677	cyfathrach	chyfathrach cyfathrachau cyfathrachon gyfathrach
+78	4678	gwrychog	wrychog
+79	4679	sefydliadol	
+80	4680	trionglog	drionglog
+81	4681	pib	bib phib pibau
+82	4682	cytser	cytserau
+83	4683	crynoddisg	cd crynoddisgiau grynoddisg
+84	4684	derwydd	derwyddon
+85	4685	marwnad	farwnad marwnadau
+86	4686	trigo	drigo trig triga trigadwy trigaf trigai trigais trigaist trigant trigasant trigech trigedig trigem trigent trigi trigir trigo'n trigoch trigodd trigwch trigwn trigwyd
+87	4687	anghyson	
+88	4688	ffont	ffontiau
+89	4689	lolfa	lolfeydd
+90	4690	gwlanog	gwlanocach gwlanocaf gwlanogion wlanog
+91	4691	cymylog	gymylog
+92	4692	hidlo	hidla hidladwy hidlaf hidlai hidlais hidlaist hidlant hidlech hidledig hidlem hidlent hidli hidlir hidlo'r hidloch hidlodd hidlwch hidlwn hidlwyd
+93	4693	ymwelydd	ymwelyddes ymwelyddion
+94	4694	allforyn	allforion
+95	4695	dirwy	ddirwy dirwyau dirwyon
+96	4696	paffio	baffio paffia paffiadwy paffiaf paffiai paffiant paffiech paffiedig paffiem paffient paffio'r paffioch paffiodd paffiwch paffiwn paffiwyd peffi peffiais peffiaist peffiech peffir peffiwch
+97	4697	merlyn	ferlyn merlod merloedd
+98	4698	cyffes	chyffes cyffesion gyffes
+99	4699	byrlymus	fyrlymus
+100	4700	isteitl	is-deitl is-deitlau is-teitl isdeitl isdeitlau isteitlau

@@ -1,0 +1,100 @@
+1	8601	ansad	
+2	8602	anwesu	anwesa anwesadwy anwesaf anwesais anwesaist anwesant anwesedig anwesi anwesir anweso anwesoch anwesodd anweswch anweswyd
+3	8603	cyrcydu	
+4	8604	dichonadwy	
+5	8605	rhwymiad	rhwymiadau
+6	8606	hopys	hopysen
+7	8607	rhyg	rhygau
+8	8608	budd-daliad	budd-daliadau
+9	8609	darnio	
+10	8610	soced	socedi
+11	8611	galiwm	
+12	8612	mewnoli	
+13	8613	brac	bracach bracaf braced braciau
+14	8614	diymdrech	ddiymdrech
+15	8615	hyfywedd	
+16	8616	tiwna	tiwnaod
+17	8617	relái	
+18	8618	ynfytyn	ynfyten
+19	8619	pefrio	pefri pefria pefriadwy pefriaf pefriai pefriais pefriaist pefriant pefriech pefriedig pefriem pefrient pefrii pefriir pefrioch pefriodd pefriwch pefriwn pefriwyd
+20	8620	gorboethi	
+21	8621	dilysiad	
+22	8622	ailgyflenwi	ailgyflenwaf
+23	8623	sgrechio	sgrechiodd
+24	8624	ffacs	
+25	8625	gwelwi	gwelwir
+26	8626	dargyfeiriol	
+27	8627	anwybodus	
+28	8628	ystifflog	ystifflogau ystifflogod
+29	8629	atchweliad	atchweliadau
+30	8630	taflunio	tafluni taflunia tafluniadwy tafluniaf tafluniai tafluniais tafluniaist tafluniant tafluniech tafluniedig tafluniem taflunient taflunioch tafluniodd taflunir tafluniwch tafluniwn tafluniwyd
+31	8631	clywadwy	
+32	8632	sipian	
+33	8633	adeiniog	
+34	8634	tancer	
+35	8635	digalonni	digalonadwy digalonedig digalonna digalonnaf digalonnai digalonnais digalonnaist digalonnant digalonnech digalonnem digalonnent digalonnir digalonno digalonnoch digalonnodd digalonnwch digalonnwn digalonnwyd
+36	8636	distadl	distal
+37	8637	ymbaratoi	ymbaratoa ymbaratoaf ymbaratoai ymbaratoais ymbaratoaist ymbaratoant ymbaratoech ymbaratoedig ymbaratoem ymbaratoent ymbaratoir ymbaratosant ymbaratosoch ymbaratowch ymbaratown ymbaratowyd ymbaratô ymbaratôch ymbaratôdd ymbaratôm ymbaratônt
+38	8638	gwyrdroad	gwyrdroadau wyrdroad
+39	8639	synaptig	
+40	8640	cymdeithasegol	
+41	8641	cydfodoli	gydfodoli
+42	8642	gwydrog	
+43	8643	aflafar	
+44	8644	swatio	
+45	8645	dangosol	
+46	8646	llawchwith	
+47	8647	cronedig	
+48	8648	swta	
+49	8649	gris	ris
+50	8650	optimistiaeth	
+51	8651	brwydrwr	brwydrwyr frwydrwr
+52	8652	diriaethol	
+53	8653	ffurfweddiad	ffurfweddiadau
+54	8654	radiwm	
+55	8655	afraid	afreidiach afreidiaf afreidiau
+56	8656	carrai	careiau careion
+57	8657	dargludiad	
+58	8658	corcyn	gorcyn
+59	8659	atgyfnerthiad	atgyfnerthiadau
+60	8660	cyfamserol	gyfamserol
+61	8661	diheintio	ddiheintio
+62	8662	dyrnaid	dyrneidiau
+63	8663	stocio	
+64	8664	cyddwyso	cyddwysa cyddwysadwy cyddwysaf cyddwysais cyddwysaist cyddwysant cyddwysedig cyddwysi cyddwysir cyddwysoch cyddwysodd cyddwyswch cyddwyswyd
+65	8665	melfedaidd	
+66	8666	caboledig	
+67	8667	digynnwrf	ddigynnwrf digynnwr
+68	8668	disymud	ddisymud
+69	8669	lleidiog	
+70	8670	trydanu	trydanir
+71	8671	dilead	dileadau
+72	8672	politicaidd	
+73	8673	anwleidyddol	
+74	8674	unfryd	
+75	8675	ebill	ebillen ebilliau ebillion
+76	8676	goslef	oslef
+77	8677	trofwrdd	trofwrddoedd trofyrddau
+78	8678	ïoneiddiad	hïoneiddiad ïoneiddiadau
+79	8679	cost-effeithiol	
+80	8680	bwndelu	
+81	8681	anghildroadwy	
+82	8682	drôr	dreiriau droriau drorsys drâr drôrs
+83	8683	tanbeidrwydd	thanbeidrwydd
+84	8684	rhedwelïol	rhydwelïol
+85	8685	brag	bragau
+86	8686	pwyntydd	pwyntyddion
+87	8687	ailddarlledu	
+88	8688	ufudd-dod	
+89	8689	crynodedig	grynodedig
+90	8690	ysgafnder	ysgafnderau
+91	8691	melyster	melysterau
+92	8692	gwreichioni	gwreichion wreichioni
+93	8693	achwyn	achwyna achwynadwy achwynaf achwynai achwynais achwynaist achwynant achwynech achwynedig achwynem achwynent achwyni achwynion achwynir achwyno achwynoch achwynodd achwynwch achwynwn achwynwyd
+94	8694	hunanoldeb	
+95	8695	dianaf	ddianaf
+96	8696	deuben	deupen
+97	8697	cangarŵ	cangarŵod
+98	8698	rhagddyddio	
+99	8699	talgrynnu	
+100	8700	perifferolyn	berifferolion perifferolion

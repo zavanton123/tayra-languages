@@ -1,0 +1,100 @@
+1	4401	lluniad	lluniadau luniad
+2	4402	lifrai	lifrai'r lifreiau lifreioedd lifri
+3	4403	gludio	gludi gludia gludiadwy gludiaf gludiai gludiais gludiaist gludiant gludid gludiech gludiedig gludiem gludient gludioch gludiodd gludir gludiwch gludiwn gludiwyd gludo
+4	4404	carchardy	carchardai
+5	4405	mwynglawdd	fwynglawdd mwyngloddiau
+6	4406	dewin	ddewin dewines dewiniaid newin
+7	4407	cribog	cribiog gribog
+8	4408	côd	gôd
+9	4409	glanweithdra	lanweithdra
+10	4410	meillion	meillionen
+11	4411	ciw	ciwiau
+12	4412	ynysig	ynysigau
+13	4413	triw	driw thriw
+14	4414	brithyll	brithyllod frithyll
+15	4415	cronig	chronig gronig
+16	4416	brid	bridiau frid
+17	4417	gwinau	gwineuon winau
+18	4418	gwybyddus	wybyddus
+19	4419	caledwedd	chaledwedd galedwedd
+20	4420	cyfrifydd	cyfrifyddion gyfrifydd
+21	4421	twyn	twyni twynyn
+22	4422	cydlynu	cydlyna cydlynadwy cydlynaf cydlynai cydlynais cydlynaist cydlynant cydlynech cydlynedig cydlynem cydlynent cydlyni cydlynir cydlyno cydlynoch cydlynodd cydlynu'r cydlynwch cydlynwn cydlynwyd gydlynu
+23	4423	hoel	hoelen hoelion hoelon oel
+24	4424	ail-greu	ail-greu'r ailgrea ailgreadwy ailgreaf ailgreai ailgreais ailgreaist ailgreant ailgreech ailgreedig ailgreem ailgreent ailgrei ailgreo ailgreoch ailgreodd ailgrewch ailgrëir ailgrëwch ailgrëwn ailgrëwyd hail-greu
+25	4425	amgáu	amgae amgaea amgaeadwy amgaeaf amgaeai amgaeais amgaeaist amgaeant amgaeech amgaeem amgaeent amgaei amgaeiff amgaeir amgaeith amgaeo amgaeoch amgaeodd amgaewch amgaewn amgaewyd amgau amgáu'r hamgae hamgáu
+26	4426	llanrwst	
+27	4427	mall	fall
+28	4428	gwynnu	gwnnu gwynn gwynna gwynnai gwynnais gwynnaist gwynnant gwynnech gwynnem gwynnent gwynni gwynnir gwynno gwynnoch gwynnodd gwynnwch gwynnwn gwynnwyd wynnu
+29	4429	cyfarth	cyfartha cyfarthadwy cyfarthaf cyfarthai cyfarthant cyfarthech cyfarthedig cyfarthem cyfarthent cyfartho cyfarthoch cyfarthodd cyfarthwch cyfarthwn cyfarthwyd cyferthais cyferthaist cyferthi cyferthir cyferthwch gyfarth
+30	4430	eos	eosau eosydd
+31	4431	atodol	atddodol atodolion
+32	4432	palmwydd	balmwydd palmwydden
+33	4433	peirianyddol	beirianyddol pheirianyddol
+34	4434	gwyro	gwyra gwyradwy gwyraf gwyrai gwyrais gwyraist gwyrant gwyrech gwyredig gwyrem gwyrent gwyri gwyrir gwyro'n gwyroch gwyrodd gwyrwch gwyrwn gwyrwyd wyro
+35	4435	golygyddol	olygyddol
+36	4436	llanc	lanc llances llanciau llencyn
+37	4437	galar	alar galarau
+38	4438	galaru	alaru galara galaradwy galaraf galarai galarais galaraist galarant galarech galaredig galarem galarent galari galarir galaro galaroch galarodd galaru'r galarwch galarwn galarwyd
+39	4439	lleiafrifol	
+40	4440	swp	sypiau
+41	4441	annigonol	
+42	4442	heintus	
+43	4443	gludiog	ludiog
+44	4444	grisial	grisialau
+45	4445	esgyniad	
+46	4446	pigfain	bigfain phigfain pigfeinion
+47	4447	ceudod	ceudodau geudod ngheudod
+48	4448	cydweithiwr	chydweithiwr cyd-weithiwr cyd-weithwyr cydweithwyr gydweithiwr
+49	4449	ach	achau achoedd
+50	4450	rhos	rhosydd ros
+51	4451	sgaffald	sgaffaldau sgaffaldiau
+52	4452	treiddgar	dreiddgar threiddgar
+53	4453	godidog	odidog
+54	4454	ehangiad	eangiadau ehangiadau hehangiad
+55	4455	cyffredinoli	chyffredinoli cyffredinoli'n cyffredinoli'r cyffredinolwyd gyffredinoli
+56	4456	ffrae	ffraeau ffraeon
+57	4457	dysgl	ddysgl dysglau
+58	4458	llysgenhadaeth	llysgenadaethau lysgenhadaeth
+59	4459	corrach	corachod corechyn gorrach
+60	4460	darlleniad	darlleniadau ddarlleniad
+61	4461	symleiddio	symleiddio'n symleiddio'r symleiddiwyd
+62	4462	pigog	bigog phigog
+63	4463	lleddfu	leddfu lleddfa lleddfadwy lleddfaf lleddfai lleddfais lleddfaist lleddfant lleddfech lleddfedig lleddfem lleddfent lleddfi lleddfir lleddfo lleddfoch lleddfodd lleddfu'r lleddfwch lleddfwn lleddfwyd
+64	4464	cynsail	cynseiliau gynsail
+65	4465	arlunio	arluniodd
+66	4466	diweithdra	ddiweithdra diweithdra'n
+67	4467	cefnog	chefnog gefnog
+68	4468	gorymdeithio	gorymdeithiai gorymdeithiodd orymdeithiai orymdeithio orymdeithiodd
+69	4469	llin	lin lliniau
+70	4470	therapydd	therapyddion
+71	4471	gweithredydd	gweithredyddion weithredydd weithredyddion
+72	4472	glawiad	lawiad
+73	4473	naturiaethwr	naturiaethwyr
+74	4474	pamffled	bamffled pamffledau
+75	4475	ansefydlog	
+76	4476	offeren	offerennau
+77	4477	corun	corunau gorun
+78	4478	seiclwr	seiclwyr
+79	4479	taran	daran taranau
+80	4480	digartref	ddigartref
+81	4481	ysgyfarnog	sgwarnog sgyfarnog ysgyfarnogod
+82	4482	cywair	cyweirach cyweiraf cyweiriau cyweirion gywair
+83	4483	animeiddiad	animeiddiadau hanimeiddiad
+84	4484	siom	siomau
+85	4485	arweiniol	
+86	4486	traw	thraw traw'r trawiau
+87	4487	testunol	destunol
+88	4488	sgrechian	sgrechain sgrechiaf sgrechu ysgrechan ysgrechian ysgrechio ysgrechu
+89	4489	cydymdeimlad	chydymdeimlad cydymdeimladau gydymdeimlad
+90	4490	brau	breuach breuaf breuon frau
+91	4491	tywyn	dywyn nhywyn thywyn tywynion tywynydd
+92	4492	penddu	benddu penddu'r
+93	4493	gwern	gwernau gwernen gwernennau gwernenni gwerni gwernydd wern
+94	4494	hafalochrog	
+95	4495	litr	
+96	4496	hidlydd	hidlyddion
+97	4497	sylfaenu	sylfaeni sylfaenir sylfaenodd sylfaenu'r sylfaenwyd
+98	4498	pelydr	belydr pelydrau
+99	4499	ysgubor	sgubor ysguborau ysguboriau
+100	4500	daearol	daearolion ddaearol

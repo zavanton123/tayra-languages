@@ -1,0 +1,100 @@
+1	8701	penhwyad	penhwyaid
+2	8702	bensen	bennem bennen bennent
+3	8703	analluog	
+4	8704	adlamu	adlama adlamadwy adlamaf adlamai adlamant adlamech adlamedig adlamem adlament adlamo adlamoch adlamodd adlamwch adlamwn adlamwyd adlemais adlemaist adlemi adlemir adlemwch
+5	8705	mesuradwy	fesuradwy
+6	8706	hydoddedd	
+7	8707	isdyfiant	isdyfiannau istyfiant
+8	8708	ufudd	ufuddach ufuddaf ufuddion ufydd
+9	8709	dagreuol	ddagreuol
+10	8710	gwiddon	gwiddan gwiddanes gwiddones gwiddonod gwiddonyn gwyddanes widdon
+11	8711	ymatebwr	ymatebwyr
+12	8712	graffigyn	graffigau
+13	8713	dauddeg	dauddegau
+14	8714	adyn	adynod hadyn
+15	8715	cyflunio	gyflunio
+16	8716	arafwch	
+17	8717	cydblethu	
+18	8718	cloroffyl	
+19	8719	cwrteisi	
+20	8720	cwtsh	cwtshys
+21	8721	synaps	synapsau
+22	8722	adfywiol	
+23	8723	dargludedd	
+24	8724	ffactorio	ffactoriaf
+25	8725	integriad	integriadau
+26	8726	calonogol	galonogol
+27	8727	gwingo	gwingodd wingo
+28	8728	gwrth-ddweud	wrth-ddweud
+29	8729	ymdeithio	ymdeithiwyd
+30	8730	stôr	storau ystôr
+31	8731	graenus	
+32	8732	debyd	
+33	8733	rhwymwr	rhwymwyr
+34	8734	cythrwfl	cythrwfwl cythryflon cythryfwl gythrwfl
+35	8735	magwrfa	fagwrfa
+36	8736	gefyn	gefynnau
+37	8737	arglawdd	argloddiau
+38	8738	sfferaidd	
+39	8739	rhaeadru	
+40	8740	atgyrch	
+41	8741	gosodwr	gosodwyr
+42	8742	myrdd	
+43	8743	craffter	
+44	8744	tarth	tarthau tarthiau tarthion tarthoedd
+45	8745	antimoni	
+46	8746	detholedig	
+47	8747	ombwdsmon	ombwdsman ombwdsmyn
+48	8748	bythol	fythol
+49	8749	llesio	llesiant llesiwyd
+50	8750	gwydryn	gwydrynnau wydryn
+51	8751	graslon	graslawn raslon
+52	8752	pelydru	pelydra pelydradwy pelydraf pelydrai pelydrais pelydraist pelydrant pelydrech pelydredig pelydrem pelydrent pelydri pelydrir pelydro pelydroch pelydrodd pelydrwch pelydrwn pelydrwyd
+53	8753	atgofus	
+54	8754	rhagfur	ragfur rhagfuriau
+55	8755	cynddaredd	gynddaredd
+56	8756	arfaeth	
+57	8757	aflunio	aflunia afluniadwy afluniaf afluniai afluniais afluniaist afluniant afluniech afluniem aflunient aflunio'r aflunioch afluniodd afluniwch afluniwn afluniwyd aflunni aflunnir
+58	8758	tasel	taselau taseli tasl tosl
+59	8759	byrddio	fyrddio
+60	8760	broliant	broliannau
+61	8761	amgylchol	
+62	8762	elc	elciaid
+63	8763	melysyn	melysion
+64	8764	alon	alun
+65	8765	celli	cellïau cellïoedd gelli
+66	8766	llidiog	
+67	8767	arhosol	
+68	8768	diymdroi	ddiymdroi
+69	8769	cytew	cytewach cytewaf
+70	8770	ymlâdd	
+71	8771	adolygol	
+72	8772	ymladdgar	
+73	8773	dellten	
+74	8774	harpsicord	harpsicordiau
+75	8775	difeddiannu	ddifeddiannu
+76	8776	bync	
+77	8777	hwyhau	
+78	8778	plisgyn	
+79	8779	lluniwr	llunwyr
+80	8780	hwyrol	
+81	8781	gwanach	wanach
+82	8782	sorod	
+83	8783	dosbarthol	
+84	8784	gyrfaol	
+85	8785	ymffrostio	ymffrosti ymffrostia ymffrostiadwy ymffrostiaf ymffrostiai ymffrostiais ymffrostiaist ymffrostiant ymffrostiech ymffrostiedig ymffrostiem ymffrostient ymffrostioch ymffrostiodd ymffrostir ymffrostiwch ymffrostiwn ymffrostiwyd
+86	8786	annarllenadwy	
+87	8787	llysieuaeth	lysieuaeth
+88	8788	sgwatwr	sgwatwyr
+89	8789	cynffonnog	cynffonogion
+90	8790	anffyddlondeb	
+91	8791	seineg	
+92	8792	yswiriwr	yswirwyr
+93	8793	trideg	
+94	8794	gwallgo	wallgo
+95	8795	maesa	maesaf maesu
+96	8796	bychod	
+97	8797	crebachiad	crebachiadau crebychiad grebachiad
+98	8798	peg	pegiau
+99	8799	dirwyo	ddirwyo
+100	8800	all-lein	

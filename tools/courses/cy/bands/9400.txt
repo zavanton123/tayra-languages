@@ -1,0 +1,100 @@
+1	9301	sefydlogydd	
+2	9302	arbelydru	arbelydra arbelydradwy arbelydraf arbelydrai arbelydrais arbelydraist arbelydrant arbelydrech arbelydredig arbelydrem arbelydrent arbelydri arbelydrir arbelydro arbelydroch arbelydrodd arbelydrwch arbelydrwn arbelydrwyd
+3	9303	epidemiolegol	
+4	9304	cymysgydd	
+5	9305	project	broject
+6	9306	troednodiad	troednodiadau
+7	9307	dirprwyol	
+8	9308	addaswr	addaswyr
+9	9309	cydgysylltiedig	
+10	9310	switsio	switshi switshir switsia switsiadwy switsiaf switsiai switsiais switsiaist switsiant switsiech switsiedig switsiem switsient switsioch switsiodd switsiwch switsiwn switsiwyd
+11	9311	dyframaeth	
+12	9312	iraid	ireidiau
+13	9313	polynomaidd	
+14	9314	diogyn	diogod diogynnod
+15	9315	eliptigol	
+16	9316	syfrdan	
+17	9317	meteor	meteorau
+18	9318	anifeilaidd	
+19	9319	hanerwr	hanerwyr
+20	9320	astigmatedd	astigmateddau
+21	9321	cromiwm	
+22	9322	asgetigiaeth	
+23	9323	ebargofiant	
+24	9324	arlwywr	arlwywyr
+25	9325	telegludo	telegluda telegludadwy telegludaf telegludai telegludais telegludaist telegludant telegludech telegludedig telegludem telegludent telegludi telegludir telegludoch telegludodd telegludwch telegludwn telegludwyd
+26	9326	cronnus	
+27	9327	ecsgliwsif	
+28	9328	ffacbys	ffacbysen
+29	9329	stwrsiwn	stursiwn stwrsiynod ystwrsiwn
+30	9330	ailgartrefu	
+31	9331	catamarán	catamaranau catamaráns
+32	9332	cydletywr	
+33	9333	tyrfedd	dyrfedd
+34	9334	cuddni	
+35	9335	telegludiad	telegludiadau
+36	9336	asgetig	asgetigion
+37	9337	holltiad	holltad holltiadau
+38	9338	cysain	cyseiniau
+39	9339	ymaddasu	
+40	9340	didoliad	didoliadau
+41	9341	argoel	arcol argoelion argol
+42	9342	camsefyll	camsaf camsafa camsafadwy camsafaf camsafai camsafant camsafech camsafedig camsafem camsafent camsafo camsafoch camsafodd camsafwch camsafwn camsafwyd camsaif camsefais camsefaist camsefi camsefir camsefwch
+43	9343	rhithiol	
+44	9344	cesiwm	
+45	9345	tryledu	tryleda tryledadwy tryledaf tryledai tryledais tryledaist tryledant tryledech trylededig tryledem tryledent tryledi tryledir tryledo tryledoch tryledodd tryledwch tryledwn tryledwyd
+46	9346	stocrestr	stocrestrau
+47	9347	cywasgydd	
+48	9348	dyblygiad	
+49	9349	estynadwy	
+50	9350	cymedroldeb	
+51	9351	ocsidio	
+52	9352	fanadiwm	
+53	9353	jîp	jîps
+54	9354	osgiliadur	osgiliaduron
+55	9355	droednodiad	droednodiadau
+56	9356	heigio	
+57	9357	tarantwla	tarantwlaod
+58	9358	chwyrnu	chwrnu chwyrna chwyrnai chwyrnais chwyrnaist chwyrnant chwyrnech chwyrnedig chwyrnem chwyrnent chwyrni chwyrnir chwyrno chwyrnoch chwyrnodd chwyrnwch chwyrnwn chwyrnwyd
+59	9359	tiwba	tiwbâu
+60	9360	urddasolion	
+61	9361	sinamon	sinamwn synamon synamwn
+62	9362	nwyol	
+63	9363	cymesurol	gymesurol
+64	9364	ysgytlaeth	ysgytlaethau
+65	9365	anghredadwy	
+66	9366	ymholi	ymhola ymholadwy ymholaf ymholai ymholais ymholaist ymholant ymholech ymholedig ymholem ymholent ymholir ymholo ymholoch ymholodd ymholwch ymholwn ymholwyd
+67	9367	indiwm	
+68	9368	di-ddadl	ddi-ddadl
+69	9369	ochneidio	ochneidiodd
+70	9370	clôn	glonau
+71	9371	cread	gread
+72	9372	cyfeiliornad	cyfeiliornadau
+73	9373	amserydd	amseryddion
+74	9374	haniaeth	haniaethau
+75	9375	megaffon	fegaffon megaffonau
+76	9376	glaslanc	glaslances glaslanciau glaslencyn
+77	9377	twngsten	dwngsten
+78	9378	llabedog	labedog
+79	9379	diawl	diawliaid jawl
+80	9380	halogen	halogenau
+81	9381	cadmiwm	chadmiwm
+82	9382	plentynnaidd	blentynnaidd
+83	9383	graddiad	graddiadau
+84	9384	gwasgiad	gwasgiadau wasgiad
+85	9385	drewgi	drewgwn
+86	9386	drastig	ddrastig
+87	9387	gin	gen gennyf
+88	9388	cipiad	curiadau
+89	9389	wynwyn	nionod wynwynyn
+90	9390	adneuo	adneua adneuadwy adneuaf adneuai adneuais adneuaist adneuant adneuech adneuedig adneuem adneuent adneui adneuir adneuoch adneuodd adneuon adneuwch adneuwn adneuwyd
+91	9391	degolyn	ddegolyn degolion
+92	9392	anuniongred	
+93	9393	dihalog	ddihalog
+94	9394	glanwaith	lanwaith
+95	9395	anfoddhaol	
+96	9396	cyffroad	chyffroad cyffroadau gyffroad
+97	9397	cwmpasog	gwmpasog
+98	9398	dyngarwch	
+99	9399	hepgoriad	hepgoriadau
+100	9400	glafarganu	lafarganu

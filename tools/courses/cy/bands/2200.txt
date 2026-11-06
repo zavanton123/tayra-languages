@@ -1,0 +1,100 @@
+1	2101	ergyd	ergydion
+2	2102	noswaith	nosweithiau
+3	2103	meddu	feddu medda meddadwy meddaf meddais meddaist meddant meddasant meddech meddedig meddem medden meddent meddi meddir meddo meddoch meddodd meddu'r meddwch meddwn meddwyd
+4	2104	mo	mo'i mo'n mo'r mo'th mo'u
+5	2105	daearyddol	ddaearyddol
+6	2106	arbenigol	
+7	2107	gynnau	gynnau'n gynnau'r ynnau
+8	2108	bath	bathau baths fath
+9	2109	cwmwl	cymwl cymylau gwmwl
+10	2110	addo	addaw addawa addawadwy addawaf addawai addawant addawch addawech addawedig addawem addawent addawiff addawith addawn addawo addawoch addawodd addawsant addawsoch addawyd addewais addewaist addewch addewech addewi addewir gaddo
+11	2111	trawsnewid	drawsnewid drawsnewidodd thrawsnewid trawsnewidi trawsnewidia trawsnewidiadwy trawsnewidiaf trawsnewidiai trawsnewidiais trawsnewidiaist trawsnewidiant trawsnewidiech trawsnewidiedig trawsnewidiem trawsnewidient trawsnewidio trawsnewidioch trawsnewidiodd trawsnewidir trawsnewidiwch trawsnewidiwn trawsnewidiwyd
+12	2112	opsiwn	opsiynau
+13	2113	anadl	anadlau anadlyn anal anedl hanadl
+14	2114	gyferbyn	
+15	2115	gwahoddiad	gwahoddiadau wahoddiad
+16	2116	mynedfa	fynedfa mynedfa'r mynedfeydd
+17	2117	bol	boliau fol mol
+18	2118	asiant	asiantau asiantiaid
+19	2119	rhodfa	rhodfa'r rhodfeydd rodfa
+20	2120	cartŵn	cartwnau chartwnau gartwnau
+21	2121	meddygaeth	feddygaeth meddygaethau meddygiaeth
+22	2122	gên	genau ên
+23	2123	diogelu	ddiogelu diogela diogeladwy diogelaf diogelai diogelais diogelaist diogelant diogelech diogeledig diogelem diogelent diogeli diogelir diogelo diogeloch diogelodd diogelu'n diogelu'r diogelwn diogelwyd
+24	2124	ffos	ffosydd
+25	2125	barnwr	barnwyr farnwr
+26	2126	tanddaearol	danddaearol
+27	2127	beirniadol	feirniadol
+28	2128	llithro	lithro llithra llithradwy llithraf llithrai llithrais llithraist llithrant llithrech llithredig llithrem llithrent llithri llithrir llithro'n llithroch llithrodd llithrwch llithrwn llithrwyd
+29	2129	bond	bondiau mond
+30	2130	derw	dderw derw'n derwen
+31	2131	genedigaeth	enedigaeth genedigaethau
+32	2132	taid	daid nhaid teidiau thaid
+33	2133	daearyddiaeth	daearyddiaethau ddaearyddiaeth naearyddiaeth
+34	2134	sinema	sinema'r sinemas sinemau sinemâu
+35	2135	mat	fat matau matiau
+36	2136	neud	
+37	2137	ffrwd	ffrydiau
+38	2138	trais	drais thrais treisiau treision
+39	2139	prosesu	brosesu phrosesu phroseswyd prosesodd prosesu'n prosesu'r
+40	2140	iard	
+41	2141	trannoeth	drannoeth
+42	2142	brics	briciau bricsen frics
+43	2143	adio	adi adia adiadwy adiaf adiai adiais adiaist adiant adiech adiedig adiem adient adioch adiodd adir adiwch adiwn adiwyd ado hadio
+44	2144	cyfieithydd	chyfieithydd cyfieithwyr gyfieithydd
+45	2145	boi	bois foi moi
+46	2146	wylo	wylaf wylai wylais wylaist wylant wylech wyledig wylem wylent wyli wylir wylo'n wyloch wylodd wylwch wylwn wylwyd ŵyl
+47	2147	hanesydd	hanesyddion
+48	2148	cychwynnol	gychwynnol
+49	2149	twrnamaint	
+50	2150	cyfran	chyfran cyfrannau gyfran
+51	2151	nythu	nytha nythadwy nythaf nythai nythais nythaist nythant nythech nythedig nythem nythent nythi nythir nytho nythoch nythodd nythu'n nythu'r nythwch nythwn nythwyd
+52	2152	gwerthiant	gwerthiannau werthiant
+53	2153	lwc	
+54	2154	llygredd	llygreddau lygredd
+55	2155	hawlio	hawli hawlia hawliadwy hawliaf hawliai hawliais hawliaist hawliant hawlid hawliech hawliedig hawliem hawlient hawlio'i hawlio'r hawlio'u hawlioch hawliodd hawlir hawliwch hawliwn hawliwyd
+56	2156	campws	champws gampws nghampws
+57	2157	meddiant	feddiant meddiannau
+58	2158	rhyddiaith	ryddiaith
+59	2159	cwricwlwm	chwricwlwm gwricwlwm
+60	2160	nodyn	nodynnau
+61	2161	cannwyll	canhwyllau gannwyll
+62	2162	niwed	niwieidiau
+63	2163	elin	elinau elinoedd helin
+64	2164	silff	silffoedd
+65	2165	pregethu	bregethu phregethu pregetha pregethadwy pregethaf pregethai pregethais pregethaist pregethant pregethech pregethedig pregethem pregethent pregethi pregethir pregetho pregethoch pregethodd pregethu'n pregethu'r pregethwch pregethwn pregethwyd
+66	2166	pencadlys	bencadlys mhencadlys
+67	2167	dinesig	ddinesig
+68	2168	ymwybodol	
+69	2169	peilot	beilot peilotiaid
+70	2170	penwythnos	benwythnos penwythnosau phenwythnos
+71	2171	gwên	gwenau wên
+72	2172	ffyrnig	ffyrnicach ffyrnicaf ffyrnigion
+73	2173	arbed	arbeda arbedaf arbedai arbedais arbedaist arbedant arbedech arbededig arbedem arbedent arbedi arbedid arbedion arbedir arbedo arbedoch arbedodd arbedwch arbedwn arbedwyd harbed
+74	2174	apelio	apeliaf apelio'n apeliodd apeliwyd
+75	2175	beiciwr	beicwr beicwraig beicwyr feiciwr
+76	2176	trachefn	drachefn thrachefn
+77	2177	trwydded	drwydded thrwydded trwyddedau
+78	2178	ailadeiladu	ailadeiladodd ailadeiladu'n ailadeiladu'r ailadeiladwyd hailadeiladu
+79	2179	modfedd	fodfedd modfeddau modfeddi
+80	2180	cyhuddiad	chyhuddiad cyhuddiadau gyhuddiad
+81	2181	dibynadwy	ddibynadwy dibynadwy'r
+82	2182	masnachwr	fasnachwr fasnachwyr masnachwyr
+83	2183	ysgaru	hysgaru sgaru ysgara ysgarad ysgaradwy ysgaraf ysgarai ysgarant ysgarasant ysgarech ysgaredig ysgarem ysgarent ysgario ysgaro ysgaroch ysgarodd ysgaront ysgaru'n ysgaru'r ysgarwch ysgarwn ysgarwyd ysgerais ysgeraist ysgeri ysgerir ysgerwch
+84	2184	ocsigen	
+85	2185	darllenwr	darllenwyr ddarllenwr ddarllenwyr
+86	2186	moyn	
+87	2187	organ	horgan organau organi organs origan
+88	2188	dieithr	ddieithr ddieithriaid dieithrach dieithraf dieithriaid dieithrion dieithron
+89	2189	eiddew	
+90	2190	simnai	simneiau
+91	2191	cyfandir	chyfandir cyfandiroedd gyfandir nghyfandir
+92	2192	addurno	addurna addurnadwy addurnaf addurnai addurnais addurnaist addurnant addurnech addurnem addurnent addurni addurnid addurnir addurno'n addurno'r addurnoch addurnodd addurnwch addurnwn addurnwyd haddurno
+93	2193	bas	basach basaf basau based beision
+94	2194	esiampl	esiamplau
+95	2195	atgoffa	atgoffa'r atgoffadwy atgoffaf atgoffai atgoffais atgoffaist atgoffant atgoffech atgoffedig atgoffem atgoffent atgoffi atgoffir atgoffo atgoffoch atgoffodd atgoffwch atgoffwn atgoffwyd atgoffáu hatgoffa
+96	2196	gwirioneddol	wirioneddol
+97	2197	desg	ddesg desgiau
+98	2198	gogledd-orllewin	ngogledd-orllewin ogledd-orllewin
+99	2199	cyhyr	cehyr chyhyr cyhyrau cŷr gyhyr nghyhyr
+100	2200	lles	llesau llesoedd

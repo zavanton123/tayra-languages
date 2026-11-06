@@ -1,0 +1,100 @@
+1	2301	caffi	caffis chaffi gaffi nghaffi
+2	2302	buddsoddi	buddsodda buddsoddadwy buddsoddaf buddsoddai buddsoddais buddsoddaist buddsoddant buddsoddech buddsoddedig buddsoddem buddsoddent buddsoddi'n buddsoddi'r buddsoddir buddsoddo buddsoddoch buddsoddodd buddsoddwch buddsoddwn buddsoddwyd fuddsoddi
+3	2303	canolbwynt	canolbwyntiau ganolbwynt
+4	2304	pentwr	bentwr pentyrrau phentwr
+5	2305	nerf	nerfau
+6	2306	apêl	apeliadau hapêl
+7	2307	etholiadol	
+8	2308	amddiffynnol	
+9	2309	tanc	danc tanciau thanc
+10	2310	deddfwriaeth	ddeddfwriaeth neddfwriaethau
+11	2311	cwt	chwt cytau cytiau gwt
+12	2312	tylwyth	dylwyth thylwyth tylwythau
+13	2313	cyfarwyddo	chyfarwyddo cyfarwydda cyfarwyddadwy cyfarwyddaf cyfarwyddai cyfarwyddais cyfarwyddaist cyfarwyddant cyfarwyddech cyfarwyddedig cyfarwyddem cyfarwyddent cyfarwyddi cyfarwyddir cyfarwyddo'r cyfarwyddoch cyfarwyddodd cyfarwyddwch cyfarwyddwn cyfarwyddwyd gyfarwyddo
+14	2314	ysgwyd	hysgwyd ysgwydaf ysgydwa ysgydwaf ysgydwai ysgydwais ysgydwaist ysgydwant ysgydwch ysgydwech ysgydwedig ysgydwem ysgydwent ysgydwi ysgydwir ysgydwn ysgydwo ysgydwoch ysgydwodd ysgydwyd
+15	2315	clod	chlod clodydd glod
+16	2316	gweledigaeth	gweledigaethau weledigaeth weledigaethau
+17	2317	sanctaidd	sancteiddiach sancteiddiaf
+18	2318	perswadio	berswadio berswadiodd berswadiwyd perswadiaf perswadio'r perswadiodd perswadiwyd perswado pherswadio pherswadiodd pherswadiwyd
+19	2319	anhwylder	anhwylderau
+20	2320	argae	argaeau
+21	2321	ysgyfaint	hysgyfaint ysgyfeiniau
+22	2322	cyfansawdd	chyfansawdd cyfansawddau cyfansodd cyfansoddiau cyfansoddion gyfansawdd
+23	2323	truan	druan truain truanach truanaf
+24	2324	blodyn	flodyn
+25	2325	anelu	anela aneladwy anelaf anelai anelais anelaist anelant anelech aneledig anelem anelent aneli anelid anelir anelo aneloch anelodd anelu'r anelwch anelwn anelwyd hanelu
+26	2326	yswiriant	yswiriannau
+27	2327	partner	bartner partneriaid partners phartner
+28	2328	uchelwr	uchelwyr
+29	2329	gwirfoddol	wirfoddol
+30	2330	fformiwla	fformiwla'n fformiwla'r fformiwlâu
+31	2331	hap	hapau hapiau
+32	2332	cain	ceinaf ceinion chain gain
+33	2333	heddwas	heddweision
+34	2334	bywiog	bywiocach bywiocaf fywiog
+35	2335	stad	stadau
+36	2336	bwriadol	fwriadol
+37	2337	esgobaeth	esgobaethau
+38	2338	enwebu	enwebaf enwebir enwebodd enwebu'n enwebu'r enwebwyd henwebu
+39	2339	cynrychiolwr	chynrychiolwyr cynrychiolwyr gynrychiolwyr
+40	2340	grwpio	grwp grwpiaf grwpio'n grwpio'r
+41	2341	cnocell	cnocellau cnocellod gnocell
+42	2342	therapi	therapïau
+43	2343	siawns	siawnsiau
+44	2344	medrus	fedrus medrusach medrusaf
+45	2345	doethuriaeth	ddoethuriaeth
+46	2346	blodeuo	blodeua blodeuadwy blodeuaf blodeuai blodeuais blodeuaist blodeuant blodeuech blodeuedig blodeuem blodeuent blodeui blodeuir blodeuo'n blodeuo'r blodeuoch blodeuodd blodeuwch blodeuwn blodeuwyd flodeuo
+47	2347	taclus	daclus
+48	2348	croesawu	chroesawu chroesawyd cresawu croesafu croesawaf croesawi croesawodd croesawu'r croesawyd croesewir groesawu groesawyd nghroesawu
+49	2349	cystadleuol	chystadleuol gystadleuol
+50	2350	gwendid	gwendidau wendid wendidau
+51	2351	jac	jaciau jacs
+52	2352	helygen	helyg
+53	2353	pêl-fasged	bêl-fasged phêl-fasged
+54	2354	gwrthsefyll	gwrthsafodd gwrthsafwyd wrthsafodd wrthsefyll
+55	2355	as	asau has
+56	2356	dwysedd	ddwysedd ddwyseddau dwyseddau nwysedd
+57	2357	dig	ddig dicach dicaf diced
+58	2358	chwi	
+59	2359	cwymp	chwymp cwympau cwympiau gwymp
+60	2360	lledaenu	ledaenodd ledaenu ledaenwyd lledaenai lledaeni lledaenir lledaenodd lledaenu'i lledaenu'n lledaenu'r lledaenwyd
+61	2361	gwlân	gwlanoedd gwlenyn wlân
+62	2362	hogan	gennod hogennod
+63	2363	olrhain	holrhain olrheiniodd olrheinir
+64	2364	cyflwynydd	chyflwynydd cyflwynyddion gyflwynydd
+65	2365	cyfrinach	cyfrinachau cyfrinachoedd cyfrinachon gyfrinach
+66	2366	cyfiawnder	chyfiawnder cyfiawnderau gyfiawnder nghyfiawnder
+67	2367	cystal	gystal
+68	2368	tal	nhal talach talaf talau taliadau talion taloedd thal
+69	2369	cyfarwyddiad	cyfarwyddiadau gyfarwyddiad
+70	2370	stondin	stondinau
+71	2371	taliad	daliad daliadau taliadau taliadon thaliad
+72	2372	tiwb	diwb thiwb tiwben tiwbiau tiwbyn
+73	2373	hyder	hyderoedd
+74	2374	cysurus	gysurus
+75	2375	derbyniad	dderbyniad derbyniadau
+76	2376	dychymyg	ddychymyg nychymyg
+77	2377	llenor	lenor llenorion
+78	2378	curiad	churiad curiadau guriad
+79	2379	mymryn	fymryn mymrynnau
+80	2380	cyflenwi	chyflenwi cyflanwaf cyflenwaf cyflenwi'r cyflenwir cyflenwodd cyflenwyd gyflenwi gyflenwir gyflenwodd gyflenwyd
+81	2381	dymunol	ddymunol
+82	2382	aruthrol	
+83	2383	dathliad	dathliadau ddathliad ddathliadau nathliadau
+84	2384	anturiaeth	anturiaethau
+85	2385	hallt	halltach halltaf heilltion
+86	2386	blaenoriaeth	blaenoriaethau flaenoriaeth
+87	2387	cyffro	chyffro cyffroau gyffro
+88	2388	rhybudd	rhybuddiau rhybuddion rybudd
+89	2389	gwobrwyo	gwobrwyir gwobrwyo'r gwobrwyodd gwobrwywyd ngwobrwyo wobrwyir wobrwyo wobrwyodd wobrwywyd
+90	2390	poblogrwydd	boblogrwydd phoblogrwydd
+91	2391	poster	boster phoster posteri
+92	2392	lludw	lludu lludw'n lludw'r ludw
+93	2393	ffrwydrad	ffrwydradau ffrwydriad ffrwydriadau
+94	2394	cwr	cyrion cyrrau gwr
+95	2395	modrwy	fodrwy modrwyau
+96	2396	herian	heria herio herio'i herio'n heriodd heriwyd
+97	2397	addoli	addola addolaf addolai addolais addolaist addolant addolech addoledig addolem addolent addoli'r addolir addolo addoloch addolodd addolwch addolwn addolwyd haddoli
+98	2398	bom	bomiau fom mom
+99	2399	coridor	coridorau córidor goridor
+100	2400	gwelliant	gwelliannau welliant

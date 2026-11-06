@@ -1,0 +1,100 @@
+1	3001	troellwr	droellwr troellwyr
+2	3002	arwyddlun	arwyddluniau harwyddlun
+3	3003	paru	bari baru pari paru'n pharu
+4	3004	solid	solidau
+5	3005	gwelw	welw
+6	3006	cyfnodolyn	chyfnodolyn cyfnodolion gyfnodolyn nghyfnodolyn
+7	3007	traean	draean thraean traeanau
+8	3008	dyfodiad	ddyfodiad dyfodiadau dyfodiaid nyfodiad
+9	3009	crybwyll	chrybwyll crybwylla crybwylladwy crybwyllaf crybwyllai crybwyllais crybwyllaist crybwyllant crybwyllech crybwylledig crybwyllem crybwyllent crybwylli crybwyllion crybwyllir crybwyllo crybwylloch crybwyllodd crybwyllwch crybwyllwn crybwyllwyd grybwyll
+10	3010	lleiafrif	leiafrif leiafrifoedd lleiafrifoedd
+11	3011	newyddiaduraeth	newyddiaduriaeth
+12	3012	dychan	ddychan dychanau nychan
+13	3013	teyrnged	deyrnged teyrngedau
+14	3014	cloi	chloi cloa cloadwy cloaf cloai cloan cloant clodd cloech cloem cloen cloent cloes cloesant cloesoch cloi'r cloiach cloiaf cloiedig cloir clois cloist clou clowch clowyd cloëdig clôch clôm clônt gloi
+15	3015	grid	gridiau
+16	3016	blaengar	flaengar
+17	3017	ysgariad	hysgariad ysgariadau
+18	3018	generig	
+19	3019	llen	len llenni llèn
+20	3020	deddfwriaethol	ddeddfwriaethol
+21	3021	cydraddoldeb	chydraddoldeb gydraddoldeb
+22	3022	penderfynol	benderfynol phenderfynol
+23	3023	cymhlethdod	chymhlethdod cymhlethdodau gymhlethdod
+24	3024	inc	inciau
+25	3025	chwyddo	chwydda chwyddadwy chwyddaf chwyddai chwyddais chwyddaist chwyddant chwyddech chwyddedig chwyddem chwyddent chwyddi chwyddir chwyddo'n chwyddo'r chwyddoch chwyddodd chwyddwch chwyddwn chwyddwyd gwyddo
+26	3026	cop	copynnau copynnod gop
+27	3027	electron	electronau
+28	3028	ymfudo	ymfuda ymfudadwy ymfudaf ymfudai ymfudais ymfudaist ymfudant ymfudech ymfudedig ymfudem ymfudent ymfudi ymfudir ymfudoch ymfudodd ymfudwch ymfudwn ymfudwyd
+29	3029	mynachlog	fynachlog mynachlogydd
+30	3030	moleciwl	foleciwl moleciwlau
+31	3031	ffosil	ffosilau ffosiliau
+32	3032	aredig	ara arddadwy arddaf arddai arddant arddech arddedig arddem arddent arddo arddoch arddodd arddwn arddwyd arddyd areda aredadwy aredaf aredai aredais aredaist aredant aredech arededig aredem aredent aredi aredir aredo aredoch aredodd aredwch aredwn aredwyd erddais erddaist erddi erddir erddwch eredig haredig
+33	3033	llafariad	lafariad llafariaid
+34	3034	trefedigaeth	drefedigaeth trefedigaethau
+35	3035	trysor	drysor trysorau
+36	3036	enwebiad	enwebiadau
+37	3037	nodiant	nodiannau
+38	3038	cotwm	chotwm cotwn cotymau cwtwm cwtwn gotwm
+39	3039	disgyrchiant	ddisgyrchiant
+40	3040	gât	gatiau giât
+41	3041	strategol	
+42	3042	sgowt	sgowtiaid
+43	3043	ffitio	ffitio'n ffitio'r ffitiodd
+44	3044	anthem	anthemau hanthem
+45	3045	barwnig	farwnig
+46	3046	ystum	ystumiau
+47	3047	ffantasi	
+48	3048	galwedigaeth	alwedigaeth galwedigaethau
+49	3049	tyfiant	dyfiant thyfiant tyfiannau
+50	3050	piws	biws
+51	3051	dis	ddis disau disiau nis
+52	3052	dyfarnwr	ddyfarnwr dyfarnwyr
+53	3053	cysegru	chysegru cysegra cysegradwy cysegraf cysegrai cysegrais cysegraist cysegrant cysegrech cysegrem cysegrent cysegri cysegrir cysegro cysegroch cysegrodd cysegru'n cysegrwch cysegrwn cysegrwyd gysegru
+54	3054	duwies	dduwies duwiesau
+55	3055	adennill	adenilla adenillaf adenillai adenillais adenillaist adenillant adenillech adenilledig adenillem adenillent adenilli adenillir adenillo adenilloch adenillodd adenillwch adenillwn adenillwyd hadennill
+56	3056	tâl	dâl nhâl tala taliadau thâl
+57	3057	pnawn	bnawn
+58	3058	grymus	grymusach grymusaf grymusion rymus
+59	3059	stribed	stribedi
+60	3060	cawr	cewri chawr gawr
+61	3061	byrfyfyr	fyrfyfyr
+62	3062	rhaw	raw rhawiau rhofiau
+63	3063	creulon	chreulon creulawn greulon
+64	3064	damcaniaethol	ddamcaniaethol
+65	3065	cwpwrdd	cwpwrd cwpwrt cypyrddau gwpwrdd
+66	3066	gafr	afr geifr
+67	3067	cerfio	carfio cerfi cerfia cerfiaf cerfiai cerfiais cerfiaist cerfiant cerfiech cerfiem cerfient cerfio'r cerfioch cerfiodd cerfir cerfiwch cerfiwn cerfiwyd cherfio gerfio
+68	3068	carn	carnau charn garn
+69	3069	cyfair	cyfeiriau cyfer
+70	3070	profiadol	brofiadol
+71	3071	rhuthro	rhuthra rhuthradwy rhuthraf rhuthrai rhuthrais rhuthraist rhuthrant rhuthrech rhuthrem rhuthrent rhuthri rhuthrir rhuthroch rhuthrodd rhuthrwch rhuthrwn rhuthrwyd ruthro
+72	3072	lladrad	ladrad lladradau
+73	3073	ystadegol	
+74	3074	esblygiad	esblygiadau hesblygiad
+75	3075	rheoleiddio	reoleiddio rheoleiddio'n rheoleiddio'r
+76	3076	anrhydeddu	anrhydedda anrhydeddadwy anrhydeddaf anrhydeddai anrhydeddais anrhydeddaist anrhydeddant anrhydeddech anrhydeddedig anrhydeddem anrhydeddent anrhydeddi anrhydeddir anrhydeddo anrhydeddoch anrhydeddodd anrhydeddu'r anrhydeddwch anrhydeddwn anrhydeddwyd hanrhydeddu
+77	3077	is-lywydd	is-lywyddion islywydd
+78	3078	cylched	cylchedau gylched
+79	3079	ymgyrchydd	ymgyrchyddion
+80	3080	baw	bawach bawaf bawau bawion faw maw
+81	3081	danadl	danad danhadlen dynad dynadl
+82	3082	hunanladdiad	hunanladdiadau hunanleiddiad
+83	3083	treisgar	dreisgar threisgar
+84	3084	tiwtor	diwtor thiwtor tiwtores tiwtoriaid tiwtorion
+85	3085	siglo	sigla sigladwy siglaf siglai siglais siglaist siglant siglech siglem siglent sigli siglir siglo'n siglo'r sigloch siglodd siglwch siglwn siglwyd
+86	3086	ymgasglu	ymgasglodd ymgasglu'n
+87	3087	ceiliog	ceiliogau ceiliogod ceilog cheiliog geiliog
+88	3088	peint	beint peintiau pheint
+89	3089	atomig	
+90	3090	brethyn	brethynnau frethyn
+91	3091	moethus	foethus moethusach moethusaf moethusion
+92	3092	cyfystyr	cyfystyron gyfystyr
+93	3093	meidraidd	feidraidd
+94	3094	terfysg	derfysg terfysgoedd therfysg
+95	3095	gold	old
+96	3096	arfaethedig	
+97	3097	caethwasiaeth	caethwasaeth gaethwasiaeth
+98	3098	daearegol	ddaearegol
+99	3099	trip	drip tripiau trips
+100	3100	rhesymol	resymol

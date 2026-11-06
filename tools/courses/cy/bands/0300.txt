@@ -1,0 +1,100 @@
+1	201	môr	fôr morau moroedd
+2	202	coch	choch cochach cochaf cochion goch
+3	203	gardd	ardd gerddi ngardd
+4	204	maes	faes meysydd
+5	205	cadw	cadw'i cadw'n cadw'r cadwa cadwadwy cadwaf cadwai cadwant cadwasant cadwch cadwech cadwedig cadwem cadwent cadwn cadwo cadwoch cadwodd cadwyd cato cedwais cedwaist cedwch cedwi cedwid cedwir ceidw chadw chadwir gadw nghadw
+6	206	parhau	barhau parha parhadwy parhaech parhaem parhaent parhaf parhao parhaoch parhaodd parhasant parhau'n parhau'r parhawn parhawyd parheais parheaist parhedig parhei parheid parheir parheua parheuwch parhewch parhâi parhânt pery pharhau
+7	207	sut	siẁd
+8	208	plaid	blaid mhlaid phlaid pleidiau
+9	209	mab	fab meibion
+10	210	adeiladu	adeilada adeiladadwy adeiladaf adeiladai adeiladant adeiladech adeiladedig adeiladem adeiladent adeiladir adeilado adeiladoch adeiladodd adeiladu'n adeiladu'r adeiladwch adeiladwn adeiladwyd adeiledais adeiledaist adeiledi adeiledir adeiledwch hadeiladu
+11	211	blynedd	flynedd mlynedd
+12	212	gwisgo	gwisga gwisgadwy gwisgaf gwisgai gwisgais gwisgaist gwisgant gwisgech gwisgedig gwisgem gwisgent gwisgi gwisgir gwisgo'i gwisgo'n gwisgo'r gwisgoch gwisgodd gwisgwch gwisgwn gwisgwyd wisgo
+13	213	rhedeg	redeg rheda rhedadwy rhedaf rhedai rhedais rhedaist rhedant rhedasant rhedech rhededig rhedem rhedent rhedi rhedir rhedo rhedoch rhedodd rhedon rhedwch rhedwn rhedwyd
+14	214	ymlaen	
+15	215	ystyried	hystyried hystyrir ystyri ystyria ystyriaf ystyriai ystyriais ystyriaist ystyriant ystyrid ystyriech ystyriedig ystyriem ystyrient ystyrier ystyrio ystyrioch ystyriodd ystyrir ystyriwch ystyriwn ystyriwyd
+16	216	deg	ddeg ddeng degau deng neg
+17	217	cilydd	cilyddion gilydd
+18	218	menyw	fenyw menwod menyw'n menywod
+19	219	holl	
+20	220	ochr	hochr ochrau
+21	221	cwmni	chwmni cwmni'n cwmni'r cwmniau cwmnïau cwmnïoedd gwmni gwmniau nghwmni
+22	222	llawn	lawn llawnach llawnaf llawnion
+23	223	llun	lluniau lun
+24	224	fi	fi'n fiau
+25	225	lawr	
+26	226	cynnal	chynnal cynhalia cynhaliadwy cynhaliaf cynhaliai cynhaliant cynhaliech cynhaliedig cynhaliem cynhalient cynhalio cynhalioch cynhaliodd cynhaliwch cynhaliwn cynhaliwyd cynheli cynheliais cynheliaist cynhelid cynheliech cynhelir cynheliwch cynnail gynnal
+27	227	rhyfel	rhyfeloedd ryfel
+28	228	dysgu	ddysg ddysgu dysg dysga dysgadwy dysgaf dysgai dysgais dysgaist dysgant dysgasant dysgech dysgem dysgent dysgi dysgid dysgir dysgo dysgoch dysgodd dysgu'n dysgu'r dysgwch dysgwn dysgwyd nysgu
+29	229	derbyn	dderbyn derbynia derbyniaf derbyniai derbyniais derbyniaist derbyniant derbyniech derbyniem derbynient derbynio derbynioch derbyniodd derbyniont derbyniwch derbyniwn derbyniwyd derbynni derbynnir
+30	230	cyfrol	chyfrol cyfrolau gyfrol nghyfrol
+31	231	aros	arhosa arhosaf arhosai arhosais arhosaist arhosant arhosent arhosi arhosir arhoso arhosoch arhosodd arhoson arhoswch arhoswyd arosadwy arosasant erys
+32	232	ci	ci'n ci'r cŵn gi
+33	233	lleol	leol
+34	234	cerdded	cerdda cerddaf cerddai cerddais cerddaist cerddant cerddasom cerddech cerddedig cerddem cerddent cerddir cerddo cerddoch cerddodd cerddwch cerddwn cerddwyd cherdded gerdded
+35	235	diwrnod	ddiwrnod diwrnodau niwrnod
+36	236	swydd	swyddau swyddi
+37	237	symud	symuda symudadwy symudaf symudai symudais symudaist symudant symudasant symudech symudedig symudem symudent symudi symudid symudir symudo symudoch symudodd symudon symudont symudwch symudwn symudwyd
+38	238	bellach	
+39	239	sir	siroedd
+40	240	cartref	cartre cartrefi chartref gartre gartref nghartref
+41	241	eisiau	eisiau'r isie isio
+42	242	ymddangos	ymddangosa ymddangosadwy ymddangosaf ymddangosai ymddangosais ymddangosaist ymddangosant ymddangosasant ymddangosedig ymddangosi ymddangosir ymddangoso ymddangosoch ymddangosodd ymddangoswch ymddangoswyd ymddengys
+43	243	adeilad	adeiladau adeiliad hadeilad
+44	244	ynys	ynysen ynysoedd ynysyn
+45	245	digwydd	ddigwydd ddigwyddith digwydda digwyddadwy digwyddaf digwyddai digwyddais digwyddaist digwyddant digwyddau digwyddech digwyddedig digwyddem digwyddent digwyddi digwyddiau digwyddid digwyddir digwyddo digwyddoch digwyddodd digwyddwch digwyddwn digwyddwyd
+46	246	afon	afonydd
+47	247	lliw	liw lliw'n lliw'r lliwiau
+48	248	cyd	chyd cydiau gyd nghyd
+49	249	peth	pethau pheth
+50	250	cyrraedd	chyrraedd cyraeddadwy cyraeddasant cyraeddedig cyrhaedda cyrhaeddaf cyrhaeddai cyrhaeddais cyrhaeddaist cyrhaeddant cyrhaeddech cyrhaeddem cyrhaeddent cyrhaeddi cyrhaeddir cyrhaeddo cyrhaeddoch cyrhaeddodd cyrhaeddwch cyrhaeddwn cyrhaeddwyd cyrraidd gyrraedd
+51	251	gorau	gorau'n gorau'r goreuon orau
+52	252	tîm	dîm dîmau nhîm thîm timau timoedd
+53	253	tir	ddir dir nhir thir tiroedd
+54	254	gwreiddiol	gwreiddiolion wreiddiol
+55	255	system	sustem sustemau systemau
+56	256	tynnu	dynn dynnu nhynnu ten thynnu tyn tynadwy tynedig tynn tynna tynnach tynnaf tynnai tynnais tynnaist tynnant tynnech tynnem tynnent tynner tynni tynnir tynno tynnoch tynnodd tynnu'i tynnu'n tynnu'r tynnwch tynnwn tynnwyd tynodd tynwyd
+57	257	casgliad	casgliadau chasgliad gasgliad nghasgliad
+58	258	gogledd	gogleddach gogleddaf ngogledd ogledd
+59	259	cân	cana caneuon caniff canith chân gân nghân
+60	260	erioed	
+61	261	cerddoriaeth	cherddoriaeth gerddoriaeth ngherddoriaeth
+62	262	rhyw	rhywiau ryw
+63	263	sefydlu	sefydla sefydladwy sefydlaf sefydlai sefydlais sefydlaist sefydlant sefydlasant sefydlech sefydledig sefydlem sefydlent sefydli sefydlir sefydlo sefydloch sefydlodd sefydlont sefydlu'i sefydlu'n sefydlu'r sefydlwch sefydlwn sefydlwyd
+64	264	arian	ariannau ariannoedd harian
+65	265	pentref	bentref mhentref pentre pentrefi pentrefydd phentref
+66	266	weithiau	weithiau'n weithiau'r
+67	267	llywodraeth	llywodraethau lywodraeth
+68	268	llaw	ddwylaw deulo dwylaw dwylo law llaw'r
+69	269	cymdeithas	chymdeithas cymdeithasau gymdeithas nghymdeithas
+70	270	cyffredinol	chyffredinol gyffredinol
+71	271	canlyniad	calyniad canllyniad canlyniadau chanlyniad ganlyniad
+72	272	safle	safle'n safle'r safleoedd
+73	273	bwrdd	bwrd bwrddoedd byrdd byrddau fwrdd
+74	274	corff	chorff corph cyrff gorff nghorff
+75	275	ceisio	ceisi ceisia ceisiadwy ceisiaf ceisiai ceisiais ceisiaist ceisiant ceisiasai ceisiech ceisiedig ceisiem ceisient ceisio'i ceisio'r ceisio'u ceisioch ceisiodd ceisiont ceisir ceisiwch ceisiwn ceisiwyd cheisio geisio
+76	276	bachgen	bachgennod bechgennod bechgyn fachgen machgen
+77	277	bron	bronnau bronnydd fron mron
+78	278	awyr	awyrau awyron
+79	279	canu	cana canadwy canaf canai canais canant canech canedig canem canen canent canes canet cani canir cano canoch canodd canset canu'n canu'r canwch canwn canwyd cenais cenaist ceni cenid cenir cenwch chanu ganir ganu nghanu
+80	280	eistedd	eistedda eisteddaf eisteddai eisteddais eisteddaist eisteddant eisteddasom eisteddech eisteddedig eisteddem eisteddent eisteddi eisteddir eisteddo eisteddoch eisteddodd eisteddwch eisteddwn eisteddwyd heistedd
+81	281	troi	droi throi thrôdd tr troa troaf troan trodd troech troem troen troent troer troes troesant troesoch troesom troet trof troi'i troi'n troi'r troir trois troist trowch trown trowyd try trôch trôdd trôi trôm trônt
+82	282	ogystal	
+83	283	torri	dorri thorri toradwy torais torodd torra torraf torrai torrais torraist torran torrant torrech torrem torren torrent torres torret torri'n torri'r torriff torrir torrith torro torroch torrodd torrwch torrwn torrwyd torwyd tyr
+84	284	pawb	bawb phawb
+85	285	glas	glasach glasaf gleision las lasys
+86	286	pa	ba mha pha
+87	287	hanner	hanerau haneri
+88	288	mynydd	fynydd mynyddoedd
+89	289	ystafell	hystafell stafell stafelloedd ystafelloedd
+90	290	gwraig	gwragedd gwrageddach gwrageddos ngwraig wraig
+91	291	datblygu	datblyga datblygadwy datblygaf datblygai datblygais datblygaist datblygant datblygasant datblygech datblygedig datblygem datblygent datblygi datblygir datblygo datblygoch datblygodd datblygu'n datblygu'r datblygwch datblygwn datblygwyd ddatblygu natblygu
+92	292	oddi	
+93	293	arwain	arweddu arweini arweinia arweiniadwy arweiniaf arweiniai arweiniais arweiniaist arweiniant arweinid arweiniech arweiniedig arweiniem arweinient arweinio arweinioch arweiniodd arweinir arweiniwch arweiniwn arweiniwyd harwain
+94	294	gofyn	gofynadwy gofynedig gofynion gofynna gofynnaf gofynnai gofynnais gofynnaist gofynnant gofynnech gofynnem gofynnent gofynni gofynnir gofynno gofynnoch gofynnodd gofynnwch gofynnwn gofynnwyd ofyn
+95	295	cyfan	cyfaeon cyfain cyfanion cyfannau gyfan
+96	296	cynnig	chynnig cyniga cynigadwy cynigaf cynigai cynigais cynigaist cynigant cynigech cynigedig cynigem cynigent cynigi cynigia cynigiadwy cynigiaf cynigiai cynigiais cynigiaist cynigiant cynigid cynigiech cynigiedig cynigiem cynigient cynigio cynigioch cynigiodd cynigion cynigir cynigiwch cynigiwn cynigiwyd cynigo cynigoch cynigodd cynigwch cynigwn cynigwyd gynnig
+97	297	cyflwyno	chyflwynir chyflwyno chyflwynodd chyflwynwyd cyflwyna cyflwynaf cyflwynant cyflwynir cyflwyno'i cyflwyno'n cyflwyno'r cyflwyno'u cyflwynodd cyflwynwch cyflwynwyd gyflwynir gyflwyno gyflwynodd gyflwynwyd
+98	298	digon	ddigon ddigonedd digonedd
+99	299	cynnar	cynharach cynharaf gynnar
+100	300	arbennig	arbenigion

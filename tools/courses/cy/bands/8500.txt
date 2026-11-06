@@ -1,0 +1,100 @@
+1	8401	salon	salonau
+2	8402	iâl	
+3	8403	noethi	noether
+4	8404	drylliedig	
+5	8405	cadaranle	gadarnleoedd
+6	8406	pendefigaidd	
+7	8407	diamwnt	
+8	8408	chwechawd	chwechawdau
+9	8409	aciwt	
+10	8410	sawr	safwyr sawrau sawyr
+11	8411	sasiwn	
+12	8412	gwali	wali
+13	8413	etifeddes	etifeddesau
+14	8414	derwyddol	
+15	8415	bronlas	bronleision
+16	8416	nwydus	
+17	8417	fforchog	
+18	8418	golud	goludoedd
+19	8419	sect	sectau sectiau
+20	8420	ungellog	
+21	8421	ymddyrchafu	
+22	8422	cyfyl	gyfyl
+23	8423	actifedd	actifeddau
+24	8424	gwyneddig	gwyneddigion
+25	8425	ynydu	ynydaf
+26	8426	ig	igiau igion
+27	8427	cynganeddol	
+28	8428	cenfigennus	genfigennus
+29	8429	danto	nantes
+30	8430	llengar	
+31	8431	cellbilen	cellbilenni gellbilen
+32	8432	abl	ablach ablaf
+33	8433	awstraliad	awstraliaid
+34	8434	yd	
+35	8435	aeliog	
+36	8436	basŵn	baswnau basynau
+37	8437	cnwch	clwch
+38	8438	brynteg	
+39	8439	beddfaen	
+40	8440	hendref	hendrefi hendrefydd
+41	8441	pwno	pwna
+42	8442	cychwr	
+43	8443	cyd-dealltwriaeth	cyd-ddealltwriaeth
+44	8444	porthaethwy	
+45	8445	bethania	
+46	8446	hynafiaethwr	hynafiaethwyr
+47	8447	traenio	
+48	8448	blodiog	
+49	8449	newidiad	
+50	8450	ailgysegru	ailgysegrwyd
+51	8451	pengwern	
+52	8452	peiran	peiranau
+53	8453	stalwyn	
+54	8454	syrffedu	
+55	8455	cwcabyra	
+56	8456	dadlennol	ddadlennol
+57	8457	deheudir	neheudir
+58	8458	hydoddyn	hydoddion
+59	8459	clog	clogau glog
+60	8460	dadmer	ddadmer
+61	8461	cilogram	cilogramau cilograms
+62	8462	bethlehem	fethlehem methlehem
+63	8463	cwningar	cwningaroedd gwningar
+64	8464	canghennu	ganghen
+65	8465	brathog	brathiog frathog
+66	8466	afallen	afallennau
+67	8467	trelew	drelew
+68	8468	mwyalchen	fwyalchen
+69	8469	diryw	ddiryw
+70	8470	cardotyn	cardotddyn cardotynion cerdotyn gardotyn
+71	8471	gwyliedydd	gwyliedyddion
+72	8472	byrder	fyrder
+73	8473	cyweirio	cweirio cwiro cyweiri cyweiria cyweiriadwy cyweiriaf cyweiriai cyweiriais cyweiriaist cyweiriant cyweiriech cyweiriedig cyweiriem cyweirient cyweirio'r cyweirioch cyweiriodd cyweirir cyweiriwch cyweiriwn cyweiriwyd
+74	8474	cynganeddu	cynganeddir
+75	8475	rhefrol	refrol
+76	8476	gweithwraig	weithwraig
+77	8477	clas	clasau
+78	8478	clòs	glòs
+79	8479	crwsâd	grwsâd
+80	8480	tanchwa	danchwa
+81	8481	sbiral	sbiralau
+82	8482	totalitariaeth	thotalitariaeth
+83	8483	pi	phi
+84	8484	weindio	weindio'r
+85	8485	llanfyllin	lanfyllin
+86	8486	cocŵn	cocwnau cocynau cocŵns gocŵn
+87	8487	cyd-gymry	gyd-gymry
+88	8488	dihysbydd	ddihysbydd
+89	8489	stên	stenau ystên
+90	8490	ailargraffiad	ailargraffiadau
+91	8491	coluro	goluro
+92	8492	gwalchmai	ngwalchmai
+93	8493	consurio	gonsurio
+94	8494	cyfannedd	cyfanheddau cyfanheddion cyfanheddoedd gyfannedd
+95	8495	cyfalafwr	cyfalafwyr gyfalafwyr
+96	8496	trochydd	drochydd trochyddion
+97	8497	bochlwyd	fochlwyd
+98	8498	pigion	bigion
+99	8499	porthcawl	mhorthcawl
+100	8500	perarogl	peraroglau peraroglion

@@ -1,0 +1,100 @@
+1	6501	pioden	
+2	6502	hefin	
+3	6503	carmel	garmel
+4	6504	dwyfor	ddwyfor
+5	6505	tolch	tolchau tolchion
+6	6506	babilon	fabilon
+7	6507	dwad	ddwad
+8	6508	teyrnfradwriaeth	deyrnfradwriaeth
+9	6509	pil	phil piliau pilion
+10	6510	penllyn	phenllyn
+11	6511	ymprydio	ymprydio'n
+12	6512	twrch	dwrch tyrchod
+13	6513	twcan	twcaf twcaniaid twcio
+14	6514	twmffat	dwmffat twmffatau
+15	6515	ymhyfrydu	ymhyfrydai
+16	6516	briallen	briallu
+17	6517	tail	teiliau thail
+18	6518	dulas	ddulas duleision
+19	6519	dogni	ddogni
+20	6520	ffridd	ffriddoedd
+21	6521	morwennol	forwennol morwenoliaid môr-wennol
+22	6522	bohemia	mohemia
+23	6523	dirwestol	ddirwestol
+24	6524	moes	foes moesau
+25	6525	duges	dduges dugesau
+26	6526	corhedydd	chorhedydd corhedyddion gorhedydd
+27	6527	gordderch	gordderchadon ordderch
+28	6528	cŷn	chŷn cynion gŷn
+29	6529	clodfori	clodfora clodforadwy clodforaf clodforai clodforais clodforaist clodforant clodforech clodforedig clodforem clodforent clodforir clodforo clodforoch clodforodd clodforwch clodforwn clodforwyd glodfori
+30	6530	corryn	corynnod gorryn
+31	6531	treiglo	dreiglo treigla treigladwy treiglaf treiglai treiglais treiglaist treiglant treiglech treigledig treiglem treiglent treigli treiglio treiglir treiglo'r treigloch treiglodd treiglwch treiglwn treiglwyd
+32	6532	caethiwo	caethiwa caethiwadwy caethiwaf caethiwai caethiwais caethiwaist caethiwant caethiwch caethiwech caethiwedig caethiwem caethiwent caethiwi caethiwir caethiwoch caethiwodd caethiwwch caethiwwn caethiwwyd ceithiwaf chaethiwo gaethiwo gaethiwyd
+33	6533	cryman	chryman crymanau gryman
+34	6534	apostolaidd	apostoliaidd
+35	6535	goroesiad	oroesiad
+36	6536	geiriol	
+37	6537	anwir	anwirach anwiraf anwirion
+38	6538	strwythuro	strwythuraf
+39	6539	chweil	
+40	6540	annibynadwy	
+41	6541	llwydni	lwydni
+42	6542	is-ganghellor	is-gangellorion
+43	6543	ymfalchïo	ymfalchïai
+44	6544	bedwen	bedw
+45	6545	dallineb	ddallineb
+46	6546	peiriannol	beiriannol
+47	6547	cwd	cwdyn cydau cydyn
+48	6548	comed	comedau gomed
+49	6549	dygnu	ddygnwch dygner dygnwch
+50	6550	twnelu	dwneli thwneli
+51	6551	brecio	frecio
+52	6552	cywiriad	cywiriadau gywiriad gywiriadau
+53	6553	trawsffurfio	drawsffurfio trawsffurfio'r trawsffurfiodd trawsffurfiwyd
+54	6554	smyglo	
+55	6555	siswrn	siswrnau siswrns sisyrnau
+56	6556	ithfaen	ithfeini
+57	6557	difrïol	ddifrïol
+58	6558	awdurdodaidd	
+59	6559	anaerobig	anerobig
+60	6560	trethdalwr	drethdalwyr trethdalwyr
+61	6561	adfeiliedig	
+62	6562	addolwr	addolwyr
+63	6563	trawsblaniad	drawsblaniad trawsblaniadau
+64	6564	grymuso	grymuso'r rymuso
+65	6565	pymthegfed	bymthegfed
+66	6566	penyd	phenyd
+67	6567	cras	chras crasach crasaf
+68	6568	adweithedd	hadweithedd
+69	6569	agen	agennau hagen
+70	6570	awch	afwch awchau hawch
+71	6571	detholus	ddetholus
+72	6572	cyflenwr	cyflenwyr gyflenwyr
+73	6573	llacio	lacio llacia llaciadwy llaciaf llaciai llaciant llaciech llaciedig llaciem llacient llacio'r llacioch llaciodd llaciwch llaciwn llaciwyd lleci lleciais lleciaist lleciech llecir lleciwch
+74	6574	cofrestrydd	chofrestrydd cofrestryddion gofrestrydd
+75	6575	gwyliadwrus	wyliadwrus
+76	6576	cemegolyn	cemegolion
+77	6577	gwyrdroi	gwyrdroaf gwyrdroi'r gwyrdrôf wyrdroi
+78	6578	biwrocratiaeth	biwrocratiaethau fiwrocratiaeth
+79	6579	methan	fethan methên
+80	6580	treigl	dreigl nhreigl threigl treiglau treiglon
+81	6581	unioni	uniona unionadwy unionai unionais unionaist unionant unionech unionedig unionem unionent unioni'r unionir uniono unionoch unionodd unionwch unionwn unionwyd
+82	6582	clec	cleciau clecs glec
+83	6583	bran	fran
+84	6584	dirmyg	ddirmyg dirmygion
+85	6585	carbohydrad	carbohydradau
+86	6586	ceulo	ceula ceuladwy ceulaf ceulai ceulais ceulaist ceulant ceulech ceulem ceulent ceuli ceulir ceulo'r ceuloch ceulodd ceulwch ceulwn ceulwyd geulo
+87	6587	celu	cela celaf gelir gelwyd
+88	6588	abwyd	abwydyn
+89	6589	saernïo	saernïo'n
+90	6590	hurfilwr	hurfilwyr
+91	6591	ymrafael	amrafael ymrafaeli ymrafaelia ymrafaeliadwy ymrafaeliaf ymrafaeliai ymrafaeliais ymrafaeliaist ymrafaeliant ymrafaeliech ymrafaeliedig ymrafaeliem ymrafaelient ymrafaelio ymrafaelioch ymrafaeliodd ymrafaelion ymrafaelir ymrafaeliwch ymrafaeliwn ymrafaeliwyd
+92	6592	cyfarfyddiad	gyfarfyddiad
+93	6593	clochdy	chlochdy clochdai clychdy
+94	6594	bias	beias biasau fias
+95	6595	prysgwydden	prysgwydd
+96	6596	llencyndod	lencyndod
+97	6597	rhingyll	rhingyllod ringyll
+98	6598	diwyd	ddiwyd diwydion diwytaf
+99	6599	dirnad	ddirnad
+100	6600	hances	hancesi

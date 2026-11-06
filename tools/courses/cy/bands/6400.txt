@@ -1,0 +1,100 @@
+1	6301	cyfnither	chyfnither cyfnitheroedd cyfnitherwydd gyfnither
+2	6302	dramodwr	ddramodwyr dramodwyr
+3	6303	trawsblannu	drawsblannu trawsblanadwy trawsblanedig trawsblanna trawsblannaf trawsblannai trawsblannant trawsblannech trawsblannem trawsblannent trawsblanno trawsblannoch trawsblannodd trawsblannwch trawsblannwn trawsblannwyd trawsblennais trawsblennaist trawsblenni trawsblennir trawsblennwch
+4	6304	trafferthus	drafferthus
+5	6305	dynladdiad	ddynladdiad dynladdiadau
+6	6306	preswylydd	breswylydd preswylyddion
+7	6307	toreth	doreth toraith
+8	6308	rhifiadol	
+9	6309	goresgynnwr	goresgynwyr
+10	6310	paralel	baralel paralelau
+11	6311	fflworid	fflworidau
+12	6312	fforensig	
+13	6313	hudolus	
+14	6314	bresych	bresychen fresych
+15	6315	deffroad	ddeffroad
+16	6316	nyddu	nydda nyddadwy nyddaf nyddai nyddais nyddaist nyddant nyddech nyddedig nyddem nyddent nyddi nyddir nyddo nyddoch nyddodd nyddu'n nyddwch nyddwn nyddwyd
+17	6317	morgais	forgais
+18	6318	cnofil	cnofilod
+19	6319	pridwerth	bridwerth pridwerthi
+20	6320	crynhoad	chrynhoad crynoadau grynhoad
+21	6321	capio	gapio
+22	6322	rhagfynegiad	rhagfynegiadau
+23	6323	sgrapio	sgrapiwyd
+24	6324	rhwymyn	rhwymynnau rwymyn
+25	6325	gwacáu	gwacadwy gwacaech gwacaem gwacaent gwacao gwacaoch gwacaodd gwacawch gwacawn gwacawyd gwaceais gwaceaist gwacedig gwacei gwaceir gwacewch gwacáu'r gwacâ gwacâf gwacâi gwacânt wacáu
+26	6326	wynebddu	wynebdduon
+27	6327	wynepgoch	wynepgochion
+28	6328	llanfair	
+29	6329	hedd	
+30	6330	methodistiaeth	fethodistiaeth
+31	6331	diddanwr	ddiddanwr
+32	6332	mewnwladol	fewnwladol
+33	6333	ffwlbart	ffwlbartiaid ffwlbartod
+34	6334	deuddegfed	ddeuddegfed neuddegfed
+35	6335	deusain	ddeusain deuseiniaid
+36	6336	tafodieithol	dafodieithol thafodieithol
+37	6337	anrheithio	anrheithiaf anrheithio'r anrheithiodd anrheithiwyd
+38	6338	edifeirwch	
+39	6339	cyflyru	cyflyra cyflyradwy cyflyraf cyflyrai cyflyrais cyflyraist cyflyrant cyflyrech cyflyredig cyflyrem cyflyrent cyflyri cyflyrir cyflyro cyflyroch cyflyrodd cyflyru'r cyflyrwch cyflyrwn cyflyrwyd gyflyru
+40	6340	seler	selerau selerydd
+41	6341	cynamserol	gynamserol
+42	6342	melynwy	felynwy melynwyau
+43	6343	trofan	trofannau
+44	6344	dyfalbarhad	ddyfalbarhad
+45	6345	bratiaith	bratieithoedd fratiaith mratiaith
+46	6346	ffasgaeth	ffasgiaeth
+47	6347	pelydr-x	pelydrau-x
+48	6348	gwagio	gwagia gwagiadwy gwagiaf gwagiai gwagiant gwagiech gwagiedig gwagiem gwagient gwagio'r gwagioch gwagiodd gwagiwch gwagiwn gwagiwyd gwegi gwegiais gwegiaist gwegiech gwegir gwegiwch
+49	6349	deunawfed	ddeunawfed
+50	6350	goddrych	goddrychau
+51	6351	taenu	daenu taena taenadwy taenaf taenai taenais taenaist taenant taenech taenedig taenem taenent taeni taenir taeno taenoch taenodd taenu'r taenwch taenwn taenwyd
+52	6352	card	carden cardiau chard gard
+53	6353	deliwr	ddeliwr deiliwr delwyr
+54	6354	siasi	siasis siasïau
+55	6355	ansoddol	
+56	6356	camsyniad	camsyniadau gamsyniad
+57	6357	diarfogi	ddiarfogi diarfogi'r
+58	6358	pegynol	begynol pegwnol
+59	6359	seiciatrig	
+60	6360	iarllaeth	iarllaethau
+61	6361	amharod	amharotach amharotaf
+62	6362	lesbiaidd	
+63	6363	saithdegau	
+64	6364	anian	anianau anianoedd
+65	6365	ffiwdal	
+66	6366	ffawt	ffawtiau
+67	6367	arogli	arogla arogladwy aroglaf aroglai aroglais aroglaist aroglant aroglech arogledig aroglem aroglent arogli'r aroglir aroglo arogloch aroglodd aroglu aroglwch aroglwn aroglwyd rhoglo roglo
+68	6368	dirfawr	ddirfawr
+69	6369	dyfeisgarwch	ddyfeisgarwch
+70	6370	dechreuwr	ddechreuwyr dechreuwyr
+71	6371	dyrannu	ddyrannu dyrennir
+72	6372	cydlynol	gydlynol
+73	6373	adloniadol	
+74	6374	nid-er-elw	
+75	6375	ychwanegyn	ychwanegion
+76	6376	gwaddodol	waddodol
+77	6377	siarp	siarpach siarpaf
+78	6378	bollt	bolltau bollten bolltiau follt
+79	6379	doctor	ddoctor ddoctoriaid doctoriaid
+80	6380	chwyth	chwythau chwŷth
+81	6381	anorfod	
+82	6382	anial	anialach anialaf ynial
+83	6383	claear	glaear
+84	6384	symbylu	swmbwlio swmbwlo symbylaf symbyli symbylio symbylodd
+85	6385	llwgr	llygrau lwgr
+86	6386	mathemategwr	mathemategwyr
+87	6387	cerflunydd	cerflunwyr
+88	6388	disgyblu	ddisgyblu ddisgyblwyd disgyblaf disgyblu'r
+89	6389	rhinweddol	rinweddol
+90	6390	llongwr	llongwyr longwr
+91	6391	crëwr	creuwr crewyr grëwr
+92	6392	dâr	deri nâr
+93	6393	deuoliaeth	ddeuoliaeth ddeuoliaethau
+94	6394	cramen	cramennau gramen nghramen
+95	6395	tynhau	dynhau tynha tynhaech tynhaem tynhaent tynhaf tynhao tynhaoch tynhaodd tynhau'r tynhawn tynhawyd tynheais tynheaist tynhei tynheir tynheua tynheuwch tynhewch tynhâi tynhânt
+96	6396	pêl-foli	bêl-foli
+97	6397	symbyliad	symbyliadau
+98	6398	ceirios	ceirioes ceiriosen ceiroes ceiros
+99	6399	ester	esterau hester
+100	6400	amserol	

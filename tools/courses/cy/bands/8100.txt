@@ -1,0 +1,100 @@
+1	8001	pwca	bwca pwcaod pwci
+2	8002	anti	antis
+3	8003	cwnnu	cwn cwnadwy cwnedig cwnna cwnnaf cwnnai cwnnais cwnnaist cwnnant cwnnech cwnnem cwnnent cwnni cwnnir cwnno cwnnoch cwnnodd cwnnwch cwnnwn cwnnwyd
+4	8004	groegiaid	roegiaid
+5	8005	barcsaidd	farcsaidd
+6	8006	caniedydd	
+7	8007	euron	
+8	8008	wfftian	wfftio wfftiwyd
+9	8009	cynhebrwng	gynhebrwng
+10	8010	gwgu	gwgon gwgwyd
+11	8011	ymddieithrio	ymddieithriodd
+12	8012	bronfraith	fronfraith
+13	8013	gorllewinwr	gorllewinwyr
+14	8014	treblan	trebl treblodd
+15	8015	amanita	amanita'r
+16	8016	lludd	ludd
+17	8017	bery	bera bere beryf beryon
+18	8018	gogleisiol	ogleisiol
+19	8019	taleb	talebau
+20	8020	corgi	corgwn
+21	8021	siomedigaeth	siomedigaethau
+22	8022	llurguniad	llurguniadau
+23	8023	corunllwyd	gorunllwyd
+24	8024	dringiad	dringiadau
+25	8025	cymrodor	cymrodorion
+26	8026	wythwr	wythwyr
+27	8027	tredegar	nhredegar
+28	8028	crach	crachen crachod
+29	8029	cloff	cloffach cloffaf cloffion gloff
+30	8030	llanbrynmair	lanbrynmair
+31	8031	epoc	epocau
+32	8032	pantycelyn	mhantycelyn
+33	8033	pabi	pabïau
+34	8034	daeargi	daeargwn
+35	8035	gofalaeth	ofalaeth
+36	8036	llechfaen	lechfaen llechfeini llechwan llechwen
+37	8037	trwbadwr	drwbadwriaid trwbadwriaid
+38	8038	emiw	emiwiaid
+39	8039	ysbail	hysbail
+40	8040	ymfyddino	ymfyddino'r ymfyddinodd
+41	8041	crombil	chrombil crombiliau crombiloedd grombil nghrombil
+42	8042	diddori	ddiddori diddora diddoradwy diddoraf diddorai diddorais diddoraist diddorant diddorech diddoredig diddorem diddorent diddorir diddoro diddoroch diddorodd diddorwch diddorwn diddorwyd
+43	8043	castanwydden	gastanwydden
+44	8044	gwaredwr	waredwr
+45	8045	gweundir	gweundiroedd weundir
+46	8046	anfetel	anfetelau
+47	8047	arwerthwr	arwerthwyr
+48	8048	cyd-awdur	gyd-awdur
+49	8049	ydfran	ydfrain
+50	8050	condemniad	chondemniad condemniadau gondemniad
+51	8051	profocio	brofocio
+52	8052	trawsgludo	drawsgludir drawsgludo
+53	8053	tueddfryd	dueddfryd tueddfrydiau
+54	8054	clais	cleisau cleisiau nghlais
+55	8055	cyd-destunol	chyd-destunol gyd-destunol
+56	8056	tannu	danna
+57	8057	ail-ddefnyddio	ail-ddefnyddio'r hail-ddefnyddio
+58	8058	brynaman	frynaman mrynaman
+59	8059	llythrenw	llythrenwau lythrenwau
+60	8060	priflythyren	briflythyren phriflythyren priflythrennau priflythyrennau
+61	8061	lleddf	leddf lleddfach
+62	8062	rhywdro	rywdro
+63	8063	meistrolaeth	feistrolaeth
+64	8064	ple	mhle phle pleon
+65	8065	coleddu	colaeth coledd coledda coleddadwy coleddaf coleddai coleddais coleddaist coleddant coleddech coleddedig coleddem coleddent coleddi coleddir coleddo coleddoch coleddodd coleddwch coleddwn coleddwyd coleth goleddu
+66	8066	gofidio	gofidiai ofidio
+67	8067	hirgoes	hirgoesach hirgoesaf hirgoesau
+68	8068	gwrthdystio	gwrthdystadwy gwrthdystedig gwrthdysti gwrthdystia gwrthdystiadwy gwrthdystiaf gwrthdystiai gwrthdystiais gwrthdystiaist gwrthdystiant gwrthdystiech gwrthdystiedig gwrthdystiem gwrthdystient gwrthdystioch gwrthdystiodd gwrthdystir gwrthdystiwch gwrthdystiwn gwrthdystiwyd
+69	8069	buddugwr	buddugwyr
+70	8070	coffadwriaeth	goffadwriaeth
+71	8071	mynwes	bynwes fynwes monwes mynwesau
+72	8072	treorci	nhreorci
+73	8073	cymwynas	cymwynasau cymwynason gymwynas
+74	8074	rheibio	reibio reibiwyd rheibiwyd
+75	8075	dadlennu	dadlennaf dadlennu'r ddadlennu
+76	8076	tafell	dafell tafelli tefyll
+77	8077	rhic	hic rhicau rhiciau rhics ric
+78	8078	gorseddu	gorseddwyd orseddwyd
+79	8079	melysu	felysu melysu'n
+80	8080	cynddeiriogi	cynddeiriogi'r cynddeiriogwyd gynddeiriogi
+81	8081	dyledwr	ddyledwr dyledwyr
+82	8082	pic	picau piciau pics picys
+83	8083	bola	bola'r boliau fola mola
+84	8084	draeniad	draeniadau
+85	8085	cyllidebol	
+86	8086	colon	colonau colonnau
+87	8087	dirifedi	
+88	8088	syrthni	swrthni
+89	8089	osgled	osgledau
+90	8090	polareiddio	
+91	8091	ystyfnig	styfnig styfnigion ysdyfnig
+92	8092	acrylig	acryligau
+93	8093	anghytgord	anghytgordiau
+94	8094	graddnodi	
+95	8095	rheiddiadur	rheiddiaduron
+96	8096	teyrngarwr	teyrngarwyr
+97	8097	anfonwr	
+98	8098	rhost	rhostiau
+99	8099	perocsid	perocsidau perocsidiau
+100	8100	trwythiad	

@@ -1,0 +1,100 @@
+1	2501	awtomatig	
+2	2502	tylluan	dylluan thylluan tylluanod
+3	2503	canolig	canholig cenolig chanolig ganolig
+4	2504	clogwyn	chlogwyn clogwynau clogwyni glogwyn
+5	2505	gwirio	gwiria gwiriadwy gwiriaech gwiriaem gwiriaent gwiriaf gwiriao gwiriaoch gwiriaodd gwiriawn gwiriawyd gwirieais gwirieaist gwiriedig gwiriei gwirieir gwiriewch gwiriwch gwiriâ gwiriâf gwiriâi gwiriânt wirio wiriwyd
+6	2506	meddyliol	feddyliol
+7	2507	mwyfwy	fwyfwy
+8	2508	aneglur	
+9	2509	gwedd	gweddau gweddoedd wedd
+10	2510	copr	chopr copor gopr
+11	2511	tew	dew tewach tewaf tewion thew
+12	2512	gosodiad	gosodiadau osodiad osodiadau
+13	2513	ffrio	ffri ffria ffriadwy ffriaf ffriai ffriais ffriaist ffriant ffriech ffriedig ffriem ffrient ffrio'n ffrioch ffriodd ffrir ffriwch ffriwn ffriwyd
+14	2514	bôn	bonau bonion
+15	2515	deiliad	ddeiliad deiliaid
+16	2516	erfyn	arfau erfynia erfyniadwy erfyniaf erfyniai erfyniais erfyniaist erfyniant erfyniech erfyniedig erfyniem erfynient erfynio erfynioch erfyniodd erfynion erfyniwch erfyniwn erfyniwyd erfynnau erfynni erfynnir
+17	2517	meddiannu	feddiannu meddianadwy meddianedig meddianna meddiannaf meddiannai meddiannant meddiannech meddiannem meddiannent meddianno meddiannoch meddiannodd meddiannu'r meddiannwch meddiannwn meddiannwyd meddiennais meddiennaist meddienni meddiennir meddiennwch
+18	2518	arth	eirth
+19	2519	onid	
+20	2520	asgell	esgyll
+21	2521	mam-gu	fam-gu mam-gus mamau-cu mamguod
+22	2522	eliffant	eliffantod
+23	2523	cnau	chnau cneuaf cneuen gnau
+24	2524	gweddw	gweddw'n gweddw'r gweddwon weddw
+25	2525	corfforaeth	chorfforaeth chorfforaethau corfforaethau gorfforaeth gorfforaethau
+26	2526	fector	fectorau
+27	2527	rhyddfrydwr	rhyddfrydwyr ryddfrydwr
+28	2528	rhed	red rheda rhediff rhedion rhedith
+29	2529	diolchgar	ddiolchgar
+30	2530	mwg	fwg mygau
+31	2531	algorithm	algorithmau
+32	2532	budr	budron butrach butraf fudr
+33	2533	atom	atomau aton
+34	2534	twnnel	dwnelau dwnnel
+35	2535	llwynog	llwynogod lwynog
+36	2536	paragraff	baragraff paragraffau paragraffiau pharagraff
+37	2537	rhagflaenydd	ragflaenwyr ragflaenydd rhagflaenwyr
+38	2538	bendigedig	bendigedigion fendigedig
+39	2539	prydferthwch	brydferthwch phrydferthwch
+40	2540	geometrig	
+41	2541	geneth	eneth genethan genethod
+42	2542	llosg	losg
+43	2543	lledr	ledr lledrau
+44	2544	dryw	dryw'r drywod drywon
+45	2545	troseddol	droseddol throseddol
+46	2546	gohirio	gohiri gohiria gohiriadwy gohiriaf gohiriai gohiriais gohiriaist gohiriant gohiriech gohiriedig gohiriem gohirient gohirio'r gohirioch gohiriodd gohirir gohiriwch gohiriwn gohiriwyd ohirio
+47	2547	oen	hoen ŵyn
+48	2548	awdures	awduresau
+49	2549	priodoli	briodoli phriodoli priodola priodoladwy priodolaf priodolai priodolais priodolaist priodolant priodolech priodoledig priodolem priodolent priodoli'n priodoli'r priodolir priodolo priodoloch priodolodd priodolwch priodolwn priodolwyd
+50	2550	llorweddol	lorweddol
+51	2551	ymlacio	ymlacia ymlaciadwy ymlaciaf ymlaciai ymlaciant ymlaciech ymlaciedig ymlaciem ymlacient ymlacio'n ymlacio'r ymlacioch ymlaciodd ymlaciwch ymlaciwn ymlaciwyd ymleci ymleciais ymleciaist ymleciech ymlecir ymleciwch
+52	2552	canllaw	canllaw'r canllawiau chanllaw ganllaw nghanllaw
+53	2553	cryno	chryno gryno
+54	2554	gweinyddu	gweinyddedig gweinyddir gweinyddodd gweinyddu'r gweinyddwyd weinyddu
+55	2555	nawdd	noddau noddiau
+56	2556	difetha	ddifetha difetha'n difetha'r difethadwy difethaf difethai difethais difethaist difethant difethech difethedig difethem difethent difethi difethir difetho difethoch difethodd difethwch difethwn difethwyd
+57	2557	bord	bordau bordiau bordydd byrdydd ford
+58	2558	aseiniad	aseiniadau
+59	2559	delfrydol	ddelfrydol
+60	2560	anwes	anwesau anwesion
+61	2561	teyrnasiad	deyrnasiad theyrnasiad
+62	2562	gwerthfawrogi	gwerthfawroga gwerthfawrogadwy gwerthfawrogaf gwerthfawrogai gwerthfawrogais gwerthfawrogaist gwerthfawrogant gwerthfawrogech gwerthfawrogedig gwerthfawrogem gwerthfawrogent gwerthfawrogi'r gwerthfawrogir gwerthfawrogo gwerthfawrogoch gwerthfawrogodd gwerthfawrogwch gwerthfawrogwn gwerthfawrogwyd werthfawrogi
+63	2563	pwrpasol	bwrpasol phwrpasol
+64	2564	pwysedd	bwysedd phwysedd
+65	2565	llyfn	llefn llyfnach llyfnaf llyfnion lyfn
+66	2566	sero	sero'n sero'r seroau
+67	2567	saff	saffach saffaf sâff
+68	2568	eglwysig	
+69	2569	gronyn	gronynnau gronynnos ronyn
+70	2570	fertigol	
+71	2571	rhyddhad	rhyddhadau ryddhad
+72	2572	cydweithrediad	chydweithrediad cyd-weithrediad cydweithrediadau gydweithrediad
+73	2573	cymwys	chymwys cwmws gymwys
+74	2574	clwstwr	chlwstwr clystwr clystyrau clystyron glwstwr
+75	2575	cymdogaeth	chymdogaeth cymdogaethau cymydogaeth gymdogaeth nghymdogaeth
+76	2576	cyfenw	chyfenw cyfenw'r cyfenwau gyfenw
+77	2577	amddiffynfa	amddiffynfeydd
+78	2578	gofynnol	ofynnol
+79	2579	modryb	fodryb modrybedd
+80	2580	cynhwysfawr	chynhwysfawr gynhwysfawr
+81	2581	blaidd	bleiddiaid bleiddiau flaidd
+82	2582	cynllwyn	chynllwyn cynllwynaf cynllwynau cynllwynio cynllwynion cynllwyno gynllwyn nghynllwyn
+83	2583	ehedydd	ehedyddion hedydd uchedydd
+84	2584	twyll	dwyll thwyll twyllau
+85	2585	beicio	beici beicia beiciadwy beiciaf beiciai beiciais beiciaist beiciant beiciech beiciedig beiciem beicient beicioch beiciodd beicir beiciwch beiciwn beiciwyd feicio
+86	2586	naws	nawsau
+87	2587	cyhoeddwr	chyhoeddwr chyhoeddwyr cyhoeddwyr gyhoeddwr gyhoeddwyr
+88	2588	ffoadur	ffoaduriaid
+89	2589	ysgrifennwr	ysgrifenwyr
+90	2590	rhosyn	rhosod rhosynnau rhosys rosyn
+91	2591	cantores	cantoresau chantores gantores
+92	2592	rhagweld	ragweld ragwelodd ragwelwyd rhagwelir rhagwelodd rhagwelwyd
+93	2593	arwyddair	arwyddeiriau
+94	2594	mecanyddol	fecanyddol
+95	2595	cymedrol	gymedrol
+96	2596	gwaun	gweunydd waun
+97	2597	mwyngloddio	fwyngloddio mwyngloddia mwyngloddiadwy mwyngloddiaf mwyngloddiai mwyngloddiais mwyngloddiaist mwyngloddiant mwyngloddiech mwyngloddiedig mwyngloddiem mwyngloddient mwyngloddii mwyngloddiir mwyngloddioch mwyngloddiodd mwyngloddiwch mwyngloddiwn mwyngloddiwyd mwyngloddwyd
+98	2598	cymeradwyo	chymeradwyo cymeradwya cymeradwyadwy cymeradwyaf cymeradwyai cymeradwyais cymeradwyaist cymeradwyant cymeradwyech cymeradwyedig cymeradwyem cymeradwyent cymeradwyi cymeradwyir cymeradwyo'r cymeradwyoch cymeradwyodd cymeradwywch cymeradwywn cymeradwywyd gymeradwyo
+99	2599	calendr	calendar calendrau galendr
+100	2600	cyrch	chyrch cyrchoedd gyrch

@@ -12,8 +12,8 @@ blended, counted as whole words that are cut into a word and its particles as th
   4. the language's Wikipedia, counted from its articles dump (for languages none of the others has)
   5. for Ancient Greek, the New Testament's word forms as MorphGNT parses the SBLGNT
 
-For Irish, whose sources are all Wikipedia, everyday sentences (Tatoeba's and Common Voice's) are blended in too, weighted
-by SOURCE_WEIGHTS.
+For Irish and Welsh, whose sources are all Wikipedia, everyday sentences (Tatoeba's and Common Voice's) are blended in too,
+weighted by SOURCE_WEIGHTS.
 
 --source forces one of them. The counts are of word forms (in Arabic, of the words left by cutting off the
 letters written onto their front, as the reader cuts them); each form is credited to the dictionary
@@ -137,6 +137,13 @@ SOURCE_ORDER["ga"] = ["leipzig", "wikipedia", "everyday"]
 # about the 250th, one they have 6 times (anocht) to about the 1000th, one they have 3 times to about the 3000th, and one
 # they have once not at all (EVERYDAY_DISCOUNT), while Wikipedia's words keep three quarters of their weight.
 SOURCE_WEIGHTS = {"ga": {"leipzig": 0.375, "wikipedia": 0.375, "everyday": 0.25}}
+# Welsh has only Leipzig's sentences from its Wikipedia (ci 937, diolch 1821, coffi 2280, no dw or wyt at all, and the
+# words of its bots' species pages high: deulu'r, rhywogaeth, perthyn). Its everyday sentences are 160,000 words: at 35%
+# of the blend a word they have 10 times (coffi) comes to about the 1000th. Common Voice's covost is a million more, of
+# mixed sentences (fiction and news as well as encyclopaedic ones) that steady the words below that.
+SOURCE_ORDER["cy"] = ["leipzig", "everyday_mixed", "everyday"]
+BLEND.add("cy")
+SOURCE_WEIGHTS["cy"] = {"leipzig": 0.4, "everyday_mixed": 0.25, "everyday": 0.35}
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -158,6 +165,7 @@ SOURCE_LICENCES = {
     "frequencywords": "CC BY-SA 4.0",
     "leipzig": "terms at https://wortschatz.uni-leipzig.de/en/download",
     "everyday": "Tatoeba CC BY 2.0 FR, Common Voice CC0 1.0",
+    "everyday_mixed": "CC0 1.0",
 }
 
 # Languages that capitalise their nouns, so a capitalised entry is not taken for a name.
@@ -184,6 +192,8 @@ INFLECTED_TAKEOVER = 0.2
 MAX_LEMMAS_PER_FORM = 6
 # Forms considered per word, most common first; the app matches saved words against them.
 FORMS_PER_WORD = 40
+# Where a word has more: a Welsh word has its mutations and contractions as well (fod, mae'n, sy'n, i'r).
+FORMS_PER_WORD_OF = {"cy": 120}
 
 
 # Languages whose words are written in Chinese characters or kana.
@@ -1582,6 +1592,36 @@ def irish_unmutated(form):
     return out - {form}
 
 
+# Welsh. The pack files forms under words by their spelling alone (da under dod, dyn under bod, llyn under felly, wy under
+# hir) and has no entry for the preposition i or the article's yr. A word with a sense of its own (WELSH_OWN) is a form of
+# another only when it is that word mutated (gael of cael), glossed as its form (WELSH_FORMS_OF: iddo of i, gallai of gallu)
+# or a plural (WELSH_PLURALS: merched of merch, plant of plentyn).
+WELSH_FORM_GLOSS = re.compile(r"^\s*(?:\([^)]*\)\s*)?(?:(?:first|second|third)-person|impersonal|present|imperfect|preterite|"
+                              r"pluperfect|future|plural)\b[^:“\"]*?\bof ([^\W\d_][\w'-]*)")
+WELSH_FORMS_OF = {}
+WELSH_OWN = set()
+WELSH_PLURALS = set()
+# A word with these written onto it after an apostrophe is that word and this one (mae'n, i'r, a'i, wedi'u, i'w, a'm, o'th,
+# i'ch): the reader keeps it whole, so it stays a form of the first and adds to the second.
+WELSH_CLITICS = {"n": "yn", "r": "y", "i": "ei", "u": "eu", "w": "ei", "m": "fy", "th": "dy", "ch": "eich"}
+# The initial mutations, as (written, radical): soft, nasal and aspirate, with the g soft mutation drops.
+WELSH_MUTATIONS = (("ngh", "c"), ("mh", "p"), ("nh", "t"), ("ng", "g"), ("ph", "p"), ("th", "t"), ("ch", "c"), ("dd", "d"),
+                   ("b", "p"), ("d", "t"), ("g", "c"), ("f", "b"), ("f", "m"), ("l", "ll"), ("r", "rh"), ("m", "b"), ("n", "d"))
+WELSH_VOWELS = "aeiouwyâêîôûŵŷ"
+# How common a word in -yn or -en must be, against its plural, to head it (plentyn plant; not dilledyn dillad).
+WELSH_SINGULATIVE_SHARE = 0.1
+
+
+def welsh_unmutated(form):
+    """The spellings a form may be of a word with an initial mutation: ddefnyddio of defnyddio, wlad of gwlad, hysgol of ysgol."""
+    out = {radical + form[len(written):] for written, radical in WELSH_MUTATIONS if form.startswith(written) and len(form) > len(written)}
+    if form[:1] in WELSH_VOWELS or form[:1] in ("l", "r"):
+        out.add("g" + form)
+    if form[:1] == "h" and form[1:2] in WELSH_VOWELS and form[1:2]:
+        out.add(form[1:])
+    return out - {form}
+
+
 def icelandic_bin():
     """
     BÍN's core words, lowercase (no names), each with its kinds, its forms with their tags, and for a verb its middle
@@ -2093,7 +2133,7 @@ def leipzig_counts(language, limit):
 # Corpora counted from their sentences once each, numbers and names aside: Latin Wikipedia's has its asteroid pages' "Qua
 # epocha N per dies circa solem movebatur" 5,686 times, which put epocha, sol and moveo in the first twenty, its towns'
 # "Incolae X appellantur" over 3,000 times (incola) and its footballers' "X inter alia cum turma X lusit" 300 (turma).
-LEIPZIG_DEDUPED = {"la"}
+LEIPZIG_DEDUPED = {"la", "cy"}
 LEIPZIG_NAME = re.compile(r"[^\W\d_]+")
 
 
@@ -2225,23 +2265,30 @@ def morphgnt_counts(language, limit):
 # files, the President's speeches (uachtaran) and the Acts (achtanna) are left out: they are no everyday text, and one
 # file's set phrases (fíorchaoin fáilte, ar an bhfichiú lá) would lift its words alone.
 EVERYDAY = {
+    # Of the Welsh files, paldaruo is lists of words chosen for their sounds, teitlau_wicipedia and cwestiynau_wicipedia
+    # are names of people and pages, and singleword-benchmark is the digits; covost is EVERYDAY_MIXED's.
+    "cy": {"tatoeba": "cym", "commonvoice": ("cy", "70dde553e48d7d0da452ba4ba070c001f65db88c", [
+        "brawddegauindeg", "cwestiynau_addysg", "cwestiynau_amrywiol", "macsen", "newyddion", "sentence-collector",
+        "ymadroddion"])},
     "ga": {"tatoeba": "gle", "commonvoice": ("ga-IE", "70dde553e48d7d0da452ba4ba070c001f65db88c", [
         "aesop", "ancomhgar", "anmhathair", "ceisteanna", "freagrai", "graimear_na_gaedhilge", "minimal_pairs",
         "seananocoistin", "seanfhocail", "sentence-collector"])},
 }
+# Sentences of everyday and other text together, weighted apart from those (SOURCE_WEIGHTS).
+EVERYDAY_MIXED = {"cy": {"commonvoice": ("cy", "70dde553e48d7d0da452ba4ba070c001f65db88c", ["covost"])}}
 # What is taken off each word's count in them: a word they have once is no evidence, in so few sentences.
 EVERYDAY_DISCOUNT = 1
 
 
-def everyday_counts(language, limit):
+def everyday_counts(language, limit, sources=None):
     """
-    The word counts of a language's everyday sentences (EVERYDAY), each sentence once, or None. A word written only with
-    a capital, and with one inside a sentence (Tom, Máire), is a name and left out; a sentence's first word counts as
-    lowercase.
+    The word counts of a language's everyday sentences (EVERYDAY, or the [sources] given), each sentence once, or None. A
+    word written only with a capital, and with one inside a sentence (Tom, Máire), is a name and left out; a sentence's
+    first word counts as lowercase.
     """
-    if language not in EVERYDAY:
+    sources = sources or EVERYDAY.get(language)
+    if not sources:
         return None
-    sources = EVERYDAY[language]
     paths, used = [], []
     code = sources.get("tatoeba")
     if code:
@@ -2286,7 +2333,7 @@ def everyday_counts(language, limit):
 
 
 SOURCES = {"wordfreq": wordfreq_counts, "morphgnt": morphgnt_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts, "wikipedia": wikipedia_counts,
-           "everyday": everyday_counts}
+           "everyday": everyday_counts, "everyday_mixed": lambda language, limit: everyday_counts(language, limit, EVERYDAY_MIXED.get(language))}
 
 
 class Lemmatizer:
@@ -2325,6 +2372,10 @@ def load_dictionary(language):
     tagalog_own = set()
     # And the Irish ones.
     irish_own = set()
+    if language == "cy":
+        # The preposition i ("to") and pronoun i ("I"), which the pack has only as a letter.
+        pos["i"].update({"prep", "pron"})
+        common["i"] = "i"
     if language == "ko":
         verbs = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('verb', 'adj')")}
         KOREAN_GLOSSED.update(korean_glossed(db.execute("SELECT word_lc, pos, senses FROM entries"), verbs))
@@ -2364,6 +2415,16 @@ def load_dictionary(language):
                     irish_own.add(word_lc)
                     if p == "verb":
                         IRISH_VERBS.add(word_lc)
+        if language == "cy" and p in WORD_POS:
+            parsed = json.loads(senses)
+            for gloss in (g for s in parsed for g in s.get("glosses", [])):
+                form_of = WELSH_FORM_GLOSS.match(gloss)
+                if form_of and lower(language, form_of.group(1)) != word_lc:
+                    WELSH_FORMS_OF.setdefault(word_lc, set()).add(lower(language, form_of.group(1)))
+                else:
+                    WELSH_OWN.add(word_lc)
+            if p == "noun" and word == word_lc and parsed and all("plural" in s.get("tags", []) for s in parsed):
+                WELSH_PLURALS.add(word_lc)
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter"):
             continue
@@ -2548,6 +2609,12 @@ def load_dictionary(language):
         # An Irish entry glossed only as another word's form is that word's form (tá, bhí, beidh of bí).
         for word, targets in IRISH_FORMS_OF.items():
             if word not in irish_own:
+                common.pop(word, None)
+                lemmas[word] += sorted(t for t in targets if t not in lemmas[word])
+    if language == "cy":
+        # A Welsh entry glossed only as another word's form is that word's form (iddo of i, gallai of gallu).
+        for word, targets in WELSH_FORMS_OF.items():
+            if word not in WELSH_OWN:
                 common.pop(word, None)
                 lemmas[word] += sorted(t for t in targets if t not in lemmas[word])
     if language == "ro":
@@ -3920,6 +3987,66 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 if verb and count(verb) >= LITHUANIAN_PARTICIPLE_SHARE * count(word):
                     lithuanian_participles[word] = verb
                     guessed.setdefault(verb, verb)
+    def welsh_relink():
+        """
+        Mends the Welsh pack's links before they are followed. A word with an apostrophe (mae'n) is the word before it, and adds
+        to the word it stands for after it (yn). A plural is its singular's form, whichever texts write more
+        (plant of plentyn, though the pack has plentyn of plant), unless the singular is rare (dillad, not of dilledyn). A
+        word with a sense of its own keeps only the links that are a mutation or a glossed form of the word linked to; a
+        spelling that is no word goes to the word it is a mutation of, if the pack has it under one that is no such (dda of
+        da, not na; fwy of mwy, not mawr); and one the pack has not at all to the word it is a mutation of (ddefnyddiodd of
+        defnyddiodd, of defnyddio).
+        """
+        # The pack's phrases (iechyd da, oes yr iâ, ysgol uwchradd) take no word's forms and no count: their words are counted
+        # apart.
+        for form in [f for f in freq if " " in f]:
+            del freq[form]
+        for form, of in lemmas.items():
+            if any(" " in l for l in of):
+                lemmas[form] = [l for l in of if " " not in l]
+        for form in [f for f in freq if "'" in f]:
+            host, _, clitic = form.rpartition("'")
+            if host and clitic in WELSH_CLITICS:
+                freq[WELSH_CLITICS[clitic]] += freq[form]
+                lemmas[form] = [host]
+        singular = defaultdict(list)
+        for form, of in lemmas.items():
+            for lemma in of:
+                if lemma in WELSH_PLURALS and form.endswith(("yn", "en")) and form != lemma and form not in excluded:
+                    singular[lemma].append(form)
+        for plural in WELSH_PLURALS:
+            if plural in overrides or plural in excluded:
+                continue
+            ones = singular.get(plural)
+            if ones:
+                one = max(ones, key=count)
+                if count(one) >= WELSH_SINGULATIVE_SHARE * count(plural):
+                    for form in ones:
+                        lemmas[form] = [l for l in lemmas[form] if l != plural]
+                    lemmas[plural] = [one]
+                    common.pop(plural, None)
+                    # The pack has the plural as a word and many singulars only as its forms (plentyn, aderyn).
+                    if not is_word(one):
+                        guessed.setdefault(one, one)
+            elif any(is_word(l) and "noun" in pos.get(l, ()) for l in lemmas.get(plural, ())):
+                common.pop(plural, None)
+        for form in list(lemmas):
+            if form in overrides or form in excluded or "'" in form:
+                continue
+            radicals = welsh_unmutated(form)
+            known = [l for l in dict.fromkeys(lemmas[form]) if l != form]
+            if is_word(form):
+                lemmas[form] = [l for l in known if l in radicals or l in WELSH_FORMS_OF.get(form, ())]
+            elif not radicals & set(known):
+                words = [r for r in radicals if is_word(r)]
+                if words:
+                    lemmas[form] = [max(words, key=count)]
+        for form in list(freq):
+            if form not in pos and not lemmas.get(form) and form not in overrides and form not in excluded:
+                found = [r for r in welsh_unmutated(form) if is_word(r) or lemmas.get(r)]
+                if found:
+                    lemmas[form] = [max(found, key=count)]
+
     resolved = {}
 
     def targets_of(form, depth=0):
@@ -3947,6 +4074,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 # So does an Irish verb (chuir, cuireann of cuir, though cuir is also cur's genitive; d'fhan of fan).
                 if language == "ga" and word in IRISH_VERBS:
                     onward = None
+                # A Welsh form sent to a word by hand stays with it (meini of maen "stone", whose spelling is mostly bod's).
+                if language == "cy" and form in overrides:
+                    onward = None
                 # An Arabic word spelled as another's verb form keeps its own forms (يتكون of تكون, not of كان), and a verb
                 # spelled as another word keeps its own (لن of لان "to soften", not of لأن); but not one sent to its word by
                 # rule or by hand (تبقى to بقي), whose spellings go with it.
@@ -3968,6 +4098,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
 
     if language == "ga":
         irish_relink()
+    if language == "cy":
+        welsh_relink()
 
     scores = defaultdict(float)
     forms = defaultdict(dict)
@@ -4010,7 +4142,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # A Korean form of a word sent to another by hand (해야할 of 해야하다, 해야 하다 written as one) is listed
         # however many forms come before it: the reader finds no word of the list for it otherwise.
         everything = counted
-        counted = counted[:FORMS_PER_WORD] + [f for f in counted[FORMS_PER_WORD:] if f in required or (language == "ar" and f in ARABIC_SHARED) or (
+        cap = FORMS_PER_WORD_OF.get(language, FORMS_PER_WORD)
+        counted = counted[:cap] + [f for f in counted[cap:] if f in required or (language == "ar" and f in ARABIC_SHARED) or (
             language == "ko" and lemmas.get(f) and all(overrides.get(l, [l]) != [l] for l in lemmas[f]))]
         if language == "ar":
             # The duals and feminine plurals texts seldom write, no other word's (ARABIC_RARE).

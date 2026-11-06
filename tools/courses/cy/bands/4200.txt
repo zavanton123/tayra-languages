@@ -1,0 +1,100 @@
+1	4101	baddon	baddonau faddon
+2	4102	gordewdra	ordewdra
+3	4103	llithrig	
+4	4104	morfa	forfa morfaoedd morfeydd morfâu
+5	4105	priodasol	briodasol phriodasol
+6	4106	erydu	erydodd erydu'n erydwyd herydu
+7	4107	uniad	huniad uniadau
+8	4108	triphlyg	driphlyg
+9	4109	llabed	labed llabedau llabedi
+10	4110	episod	episodau
+11	4111	rhagdybiaeth	ragdybiaeth rhagdybiaethau
+12	4112	tyngu	dyngu thyngu twng tynga tyngadwy tyngaf tyngai tyngais tyngaist tyngant tyngech tyngedig tyngem tyngent tyngi tyngir tyngo tyngoch tyngodd tyngwch tyngwn tyngwyd
+13	4113	byngalo	byngalos bynglo
+14	4114	sosialydd	sosialwyr sosialyddion
+15	4115	pentrefwr	bentrefwyr pentrefwyr
+16	4116	brigâd	brigadau frigâd
+17	4117	llwyfandir	llwyfandiroedd lwyfandir
+18	4118	mewnforio	fewnforio mewnfori mewnforia mewnforiaf mewnforiai mewnforiais mewnforiaist mewnforiant mewnforiech mewnforiedig mewnforiem mewnforient mewnforioch mewnforiodd mewnforir mewnforiwch mewnforiwn mewnforiwyd
+19	4119	gwehydd	gwehyddion gwëydd wehydd
+20	4120	llysieuol	llyseuol lysieuol
+21	4121	cwyn	chŵyn cwyna cwynau cwynion cŵyn gŵyn
+22	4122	cilio	chilio cili cilia ciliadwy ciliaf ciliai ciliais ciliaist ciliant ciliech ciliedig ciliem cilient cilio'n cilioch ciliodd cilir ciliwch ciliwn ciliwyd gilio
+23	4123	cynfas	chynfas cynfasau gynfas
+24	4124	academydd	academyddion
+25	4125	cenedlaetholdeb	cenedlaetholdebau chenedlaetholdeb genedlaetholdeb
+26	4126	andwyol	
+27	4127	powlen	bowlen bowliau powlenni
+28	4128	foltedd	
+29	4129	hawliad	hawliadau
+30	4130	peiriannwr	peiriannwyr peirianwyr
+31	4131	syfrdanol	
+32	4132	ysbeilio	hysbeilio sbeilio sbeilo sbelio sbelo ysbeiliaf ysbeilio'r ysbeiliodd ysbeiliwyd ysbelio ysbelo
+33	4133	byddar	byddair byddarion fyddar
+34	4134	siryf	sirif sirydd siryfau siryfion
+35	4135	calch	calchoedd chalch galch
+36	4136	mamwlad	famwlad
+37	4137	oergell	oergelloedd
+38	4138	twp	dwp thwp twpach twpaf
+39	4139	rhuban	
+40	4140	brech	brechau brechod frech
+41	4141	ymryson	ymrysona ymrysonadwy ymrysonaf ymrysonai ymrysonais ymrysonaist ymrysonant ymrysonau ymrysonech ymrysonedig ymrysonem ymrysonent ymrysoni ymrysonir ymrysono ymrysonoch ymrysonodd ymrysonwch ymrysonwn ymrysonwyd
+42	4142	arlliw	arlliw'r arlliwiau
+43	4143	gwregys	gwregysau wregys
+44	4144	tenant	denant tenantiaid thenant
+45	4145	mileniwm	milenia
+46	4146	moderneiddio	foderneiddio moderneiddi moderneiddia moderneiddiadwy moderneiddiaf moderneiddiai moderneiddiais moderneiddiaist moderneiddiant moderneiddiech moderneiddiedig moderneiddiem moderneiddient moderneiddio'n moderneiddio'r moderneiddioch moderneiddiodd moderneiddir moderneiddiwn moderneiddiwyd
+47	4147	sgandal	sgandalau
+48	4148	dewiniaeth	ddewiniaeth
+49	4149	lleisio	leisio lleisi lleisia lleisiadwy lleisiaf lleisiai lleisiais lleisiaist lleisiant lleisiech lleisiedig lleisiem lleisient lleisio'r lleisioch lleisiodd lleisir lleisiwch lleisiwn lleisiwyd
+50	4150	eglurhad	eglurhadau
+51	4151	chwistrellu	chwistrellir chwistrellu'r chwistrellwyd
+52	4152	sffêr	sfferau
+53	4153	cilfach	chilfach cilfachau gilfach
+54	4154	hormon	hormonau
+55	4155	ysgogiad	ysgogiadau
+56	4156	gaeafgysgu	aeafgysgu gaeafgysga gaeafgysgadwy gaeafgysgaf gaeafgysgai gaeafgysgais gaeafgysgaist gaeafgysgant gaeafgysgech gaeafgysgedig gaeafgysgem gaeafgysgent gaeafgysgi gaeafgysgir gaeafgysgo gaeafgysgoch gaeafgysgodd gaeafgysgwch gaeafgysgwn gaeafgysgwyd
+57	4157	cwifr	gwifrau gwifren gwifryn
+58	4158	graddedigion	raddedigion
+59	4159	diweddariad	ddiweddariadau diweddariadau
+60	4160	crog	crogau grog
+61	4161	disgwyliad	ddisgwyliad disgwyliadau
+62	4162	echelin	echelinau
+63	4163	bendith	bendithiau bendithion fendith
+64	4164	meintiol	feintiol
+65	4165	goblygiad	goblygiadau oblygiad oblygiadau
+66	4166	llecyn	lecyn llecynnau
+67	4167	sylwebydd	sylwebyddion
+68	4168	siapio	siapiaf siapio'n siapio'r siapiodd siapo siapwyd
+69	4169	beddrod	beddrodau bedrod feddrod meddrod
+70	4170	sgrialu	
+71	4171	ystlum	ystlumod
+72	4172	trychinebus	drychinebus
+73	4173	tecstil	tecstilau tecstiliau
+74	4174	cadeirlan	cadeirlannau chadeirlan gadeirlan nghadeirlan
+75	4175	crochenwaith	chrochenwaith
+76	4176	llygru	llygra llygradwy llygraf llygrai llygrais llygraist llygrant llygrech llygredig llygrem llygrent llygri llygrir llygro llygroch llygrodd llygru'r llygrwch llygrwn llygrwyd lygru
+77	4177	ifori	iforïau
+78	4178	comiwnydd	comiwnyddion gomiwnydd
+79	4179	seilwaith	
+80	4180	trawst	drawst trawstiau
+81	4181	cyfarch	chyfarch cyfarcha cyfarchadwy cyfarchaf cyfarchai cyfarchant cyfarchech cyfarchedig cyfarchem cyfarchent cyfarchion cyfarcho cyfarchoch cyfarchodd cyfarchwch cyfarchwn cyfarchwyd cyferchais cyferchaist cyferchi cyferchir cyferchwch gyfarch
+82	4182	comin	chomin nghomins
+83	4183	afu	afuau
+84	4184	letys	letus letysen
+85	4185	unlle	
+86	4186	rwsiad	rwsiaid
+87	4187	tei	dei teis thei
+88	4188	ffedog	ffedogau
+89	4189	statig	
+90	4190	coco	goco
+91	4191	argyhoeddi	argyhoeddaf argyhoeddi'r argyhoeddodd argyhoeddwyd hargyhoeddi
+92	4192	mwnt	fwnt
+93	4193	adeiledd	adeileddau hadeiledd
+94	4194	anghytundeb	anghytundebau hanghytundeb
+95	4195	deilliad	ddeilliad deilliadau
+96	4196	rhwygo	rhwyga rhwygadwy rhwygaf rhwygai rhwygais rhwygaist rhwygant rhwygech rhwygedig rhwygem rhwygent rhwygi rhwygir rhwygo'n rhwygo'r rhwygoch rhwygodd rhwygwch rhwygwn rhwygwyd rwygo
+97	4197	castio	castiaf castio'r castiwyd chastio gastio
+98	4198	banadl	banhadlen
+99	4199	amryliw	amryliw'r
+100	4200	cyferbynnu	cyferbynadwy cyferbynedig cyferbynia cyferbynna cyferbynnaf cyferbynnai cyferbynnais cyferbynnaist cyferbynnant cyferbynnech cyferbynnem cyferbynnent cyferbynni cyferbynnir cyferbynno cyferbynnoch cyferbynnodd cyferbynnu'n cyferbynnu'r cyferbynnwch cyferbynnwn cyferbynnwyd gyferbynnu

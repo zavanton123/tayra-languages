@@ -1,0 +1,100 @@
+1	4501	tyllu	dyllu dyllwyd thyllu twyllu tyllaf tyllodd tyllu'r tyllwyd
+2	4502	mathemategydd	fathemategwyr
+3	4503	talfyriad	dalfyriad
+4	4504	gwerinol	werinol
+5	4505	clustog	clustogau glustog
+6	4506	anhrefnus	
+7	4507	milwriaethus	filwriaethus
+8	4508	cronni	cronna cronnaf cronni'n cronnwch gronni
+9	4509	si	su sïon
+10	4510	dysgeidiaeth	ddysgeidiaeth dysgeidiaethau
+11	4511	brad	bradau bradiau frad
+12	4512	bradychu	bradycha bradychadwy bradychaf bradychai bradychais bradychaist bradychant bradychech bradychedig bradychem bradychent bradychi bradychir bradycho bradychoch bradychodd bradychu'r bradychwch bradychwn bradychwyd bredychu brydychu fradychu
+13	4513	digywilydd	ddigywilydd digywilyddach digywilyddaf
+14	4514	cyrhaeddyd	cyrhaeddon gyrhaeddon
+15	4515	rhiw	rhiwiau riw
+16	4516	rhifo	enrhifa enrhifwch rhifa rhifaf rhifai rhifais rhifaist rhifant rhifech rhifedig rhifem rhifent rhifi rhifir rhifoch rhifodd rhifwch rhifwn rhifwyd rifo
+17	4517	ardystio	ardystio'n ardystiwyd
+18	4518	dyfrhau	ddyfrhaodd ddyfrhau dyfrhau'r
+19	4519	drygioni	ddrygioni drygioni'n drygioni'r
+20	4520	rhagori	ragori rhagora rhagoradwy rhagoraf rhagorai rhagorais rhagoraist rhagorant rhagorech rhagoredig rhagorem rhagorent rhagorir rhagoro rhagoroch rhagorodd rhagorwch rhagorwn rhagorwyd
+21	4521	cynhaeaf	cynaeafau
+22	4522	cynhaliaeth	chynhaliaeth gynhaliaeth
+23	4523	twnel	dwnel twneli
+24	4524	gwrandawr	gwrandawyr wrandawyr
+25	4525	tacl	dacl taclau
+26	4526	gwaetha	waetha
+27	4527	pallu	balli ballu palla palladwy pallaf pallai pallant pallech palledig pallem pallent pallo palloch pallodd pallwch pallwn pallwyd pellais pellaist pelli pellir pellwch
+28	4528	cytbwys	gytbwys
+29	4529	safiad	
+30	4530	preifatrwydd	breifatrwydd phreifatrwydd
+31	4531	mwnci	fwnci monci mwncis mwncwn mwncwns mwncïod mynci
+32	4532	blanced	blancedi flanced
+33	4533	strap	strapen strapiau ystrap
+34	4534	stormus	ystormus
+35	4535	atebol	
+36	4536	adroddwr	adroddwyr
+37	4537	gwenwyno	gwenino gwenwyna gwenwynadwy gwenwynaf gwenwynai gwenwynais gwenwynaist gwenwynant gwenwynech gwenwynedig gwenwynem gwenwynent gwenwyni gwenwynir gwenwyno'r gwenwynoch gwenwynodd gwenwynu gwenwynwch gwenwynwn gwenwynwyd gwnino gwnuno wenwyno
+38	4538	saethyddiaeth	
+39	4539	codio	codiant godier godio
+40	4540	cywrain	cywreinach cywreinaf cywreinion gywrain
+41	4541	deuddydd	ddeuddydd
+42	4542	gwaedu	gwaeda gwaedadwy gwaedaf gwaedai gwaedais gwaedaist gwaedant gwaedech gwaededig gwaedem gwaedent gwaedi gwaedir gwaedo gwaedoch gwaedodd gwaedu'n gwaedwch gwaedwn gwaedwyd waedu
+43	4543	mawl	fawl
+44	4544	dynwared	ddynwared dynwareda dynwaredadwy dynwaredaf dynwaredai dynwaredais dynwaredaist dynwaredant dynwaredech dynwarededig dynwaredem dynwaredent dynwaredi dynwaredir dynwaredo dynwaredoch dynwaredodd dynwaredwch dynwaredwn dynwaredwyd
+45	4545	cenedligrwydd	chenedligrwydd genedligrwydd
+46	4546	delfryd	ddelfryd delfrydau nelfryd
+47	4547	cefnwr	cefnwyr gefnwr
+48	4548	llan	llannau
+49	4549	halwyn	halwynau
+50	4550	porthiant	borthiant phorthiant porthiannau
+51	4551	anfoddog	
+52	4552	casgen	casgenni casgiau gasgen
+53	4553	dyniaeth	dyniaethau
+54	4554	bonedd	bonheddion fonedd
+55	4555	cyn-derfynol	gyn-derfynol
+56	4556	cu	chu cuach cuaf gu
+57	4557	teigr	deigr teigres teigrod
+58	4558	lwfans	lwfansau
+59	4559	craff	chraff craffach craffaf craffau creffyn
+60	4560	pwmp	bwmp pwmpau pwmpyn pympau pympiau
+61	4561	mewnosod	fewnosod mewnosoda mewnosodaf mewnosodai mewnosodais mewnosodaist mewnosodant mewnosodech mewnosodedig mewnosodem mewnosodent mewnosodi mewnosodir mewnosodo mewnosodoch mewnosododd mewnosodwch mewnosodwn mewnosodwyd
+62	4562	anfodlon	anfodlonach anfodlonaf
+63	4563	gwarthus	warthus
+64	4564	cyhyd	gyhyd
+65	4565	esgeuluso	esgeulusaf esgeuluso'i esgeuluso'r esgeulusodd esgeuluswyd hesgeuluso ysgeuluso
+66	4566	pendraw	
+67	4567	ïon	hïon ïonau
+68	4568	gwybyddol	wybyddol
+69	4569	diffynnydd	ddiffynnydd ddiffynyddion diffynyddion
+70	4570	gweddu	gweddu'n wedda weddai weddu
+71	4571	ffrwythlondeb	
+72	4572	arglwyddiaeth	arglwyddiaethau
+73	4573	teiliwr	deiliwr teiliwres teiliwryn teilwr
+74	4574	ymddiriedaeth	
+75	4575	uffern	uffar uffernau uffernoedd yffach yffarn
+76	4576	ymwrthod	ymwrthoda ymwrthodadwy ymwrthodaf ymwrthodai ymwrthodais ymwrthodaist ymwrthodant ymwrthodech ymwrthodedig ymwrthodem ymwrthodent ymwrthodi ymwrthodir ymwrthodo ymwrthodoch ymwrthododd ymwrthodwch ymwrthodwn ymwrthodwyd
+77	4577	dienw	ddienw
+78	4578	pledio	bledio pledi pledia plediadwy plediaf plediai plediais plediaist plediant plediech plediedig plediem pledient pledio'n pledio'u pledioch plediodd pledir plediwch plediwn plediwyd
+79	4579	clos	chlos claws clofs closach closaf closau closiau closydd closyn glos
+80	4580	anwybodaeth	
+81	4581	cansen	cansenni gansen
+82	4582	stôl	stolau stoliau stolion stolâu stôls ystôl
+83	4583	andras	andrasoedd andreas andro andros
+84	4584	gwresogi	gwresoga gwresogadwy gwresogaf gwresogai gwresogais gwresogaist gwresogant gwresogech gwresogedig gwresogem gwresogent gwresogi'n gwresogir gwresogo gwresogoch gwresogodd gwresogwch gwresogwn gwresogwyd wresogi
+85	4585	graffig	
+86	4586	rhifol	rhifolion
+87	4587	gorfodaeth	gorfodaethau orfodaeth
+88	4588	tagu	dagu taga tagadwy tagaf tagai tagant tagech tagedig tagem tagent tago tagoch tagodd tagwch tagwn tagwyd tegais tegaist tegi tegid tegir thagu
+89	4589	tant	tannau
+90	4590	pianydd	phianydd
+91	4591	pryderu	bryderi bryderu phryderi phryderu pryderai pryderi pryderu'r
+92	4592	benthyca	benthycaf benthycid benthycir benthyciwyd benthycodd benthycwyd fenthyca fenthycwyd
+93	4593	môr-leidr	fôr-leidr môr-ladron
+94	4594	cydymdeimlo	cydymdeimlodd gydymdeimlo
+95	4595	dwyster	ddwyster
+96	4596	soffistigedig	
+97	4597	cefnu	cefnasant cefni cefnodd cefnwyd chefnodd gefnu
+98	4598	alarch	alarchod eleirch elyrch
+99	4599	pentir	bentir pentiroedd
+100	4600	archaeolegol	

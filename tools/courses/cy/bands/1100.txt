@@ -1,0 +1,100 @@
+1	1001	uchder	huchder uchderau uwchder
+2	1002	robin	robinod
+3	1003	gwn	wn
+4	1004	cell	cellan celloedd
+5	1005	tybed	
+6	1006	bar	bariau barrau bars far mar
+7	1007	taro	darawodd daro darodd nharo tarawo tarawodd tarawyd taro'n taro'r tarodd tery tharo trawa trawadwy trawaf trawai trawant trawch trawech trawedig trawem trawent trawn trawo trawoch trawodd trawsant trawsoch trawyd trewais trewaist trewch trewi trewir
+8	1008	banc	banciau fanc manc
+9	1009	hyfforddi	hyffordd hyffordda hyfforddadwy hyfforddaf hyfforddais hyfforddaist hyfforddant hyfforddech hyfforddedig hyfforddem hyfforddent hyfforddi'n hyfforddi'r hyfforddir hyfforddo hyfforddoch hyfforddodd hyfforddwch hyfforddwn hyfforddwyd
+10	1010	gwyddonol	wyddonol
+11	1011	uniongyrchol	
+12	1012	ymosodiad	hymosodiad ymosodiadau
+13	1013	neuadd	neuaddau
+14	1014	gwyddoniaeth	gwyddoniaethau wyddoniaeth
+15	1015	mathemateg	fathemateg mathemadeg mathemategion
+16	1016	bag	bagiau fag mag
+17	1017	gwerin	gwerinoedd werin
+18	1018	cydnabod	chydnabod chydnabuwyd chydnebydd cydnabu cydnabuwyd cydnabyddaf cydnabyddion cydnabyddir gydnabod gydnabyddid gydnabyddir
+19	1019	diogel	ddiogel diogelach
+20	1020	ffotograff	ffotograffau ffotograffiau
+21	1021	gwyddor	gwyddorau ngwyddor wyddor
+22	1022	ymddeol	ymddeola ymddeoladwy ymddeolaf ymddeolai ymddeolais ymddeolaist ymddeolant ymddeolech ymddeoledig ymddeolem ymddeolent ymddeoli ymddeolir ymddeolo ymddeoloch ymddeolodd ymddeolwch ymddeolwn ymddeolwyd
+23	1023	rhestru	restrir restrodd restru restrwyd rhestrir rhestrodd rhestru'n rhestru'r rhestrwyd
+24	1024	cyfreithiol	chyfreithiol gyfreithiol
+25	1025	eisoes	
+26	1026	plwyf	blwyf mhlwyf phlwyf plwy plwyfau plwyfi plwyfydd
+27	1027	ymestyn	hymestyn ymestynadwy ymestynedig ymestynna ymestynnaf ymestynnai ymestynnais ymestynnaist ymestynnant ymestynnech ymestynnem ymestynnent ymestynni ymestynnir ymestynno ymestynnoch ymestynnodd ymestynnwch ymestynnwn ymestynnwyd
+28	1028	coll	goll
+29	1029	delwedd	ddelwedd delweddau
+30	1030	blwydd	blwyddi flwydd mlwydd
+31	1031	cytuno	chytuno cytuna cytunadwy cytunaf cytunai cytunais cytunaist cytunant cytunasant cytunech cytunedig cytunem cytunent cytuni cytunir cytuno'n cytunoch cytunodd cytunwch cytunwn cytunwyd gytuno
+32	1032	blas	blasau flas mlas
+33	1033	adolygiad	adolygiadau
+34	1034	cenhedlaeth	cenedlaethau chenhedlaeth genhedlaeth
+35	1035	ffigur	ffigurau ffigwr ffigyrau
+36	1036	arfordir	arfordiroedd
+37	1037	gwair	gweiriau wair
+38	1038	ffermwr	ffarmwr ffermwyr
+39	1039	cig	chig cigoedd gig
+40	1040	mil	fil milod miloedd milyn
+41	1041	taflu	daflu tafla tafladwy taflaf taflai taflant taflech tafledig taflem taflent taflid taflo tafloch taflodd taflu'n taflu'r taflwch taflwn taflwyd taflyd tawlu teflais teflaist tefli teflid teflir teflwch teifl thaflu towlu twlu
+42	1042	meistr	feistr meistres meistri meistriaid
+43	1043	tafarn	dafarn nhafarn tafarnau tefyrn thafarn
+44	1044	cyfieithu	chyfieithu cyfieitha cyfieithadwy cyfieithaf cyfieithai cyfieithais cyfieithaist cyfieithant cyfieithech cyfieithedig cyfieithem cyfieithent cyfieithi cyfieithir cyfieithiwyd cyfieitho cyfieithoch cyfieithodd cyfieithu'n cyfieithu'r cyfieithwch cyfieithwn cyfieithwyd gyfieithu
+45	1045	cyfrannu	chyfrannu cyfranadwy cyfranedig cyfranna cyfrannaf cyfrannai cyfrannant cyfrannech cyfrannem cyfrannent cyfranno cyfrannoch cyfrannodd cyfrannu'n cyfrannwch cyfrannwn cyfrannwyd cyfranodd cyfrennais cyfrennaist cyfrenni cyfrennir cyfrennwch gyfrannu
+46	1046	dianc	ddianc diainc diangadwy diangedig dihanga dihangaf dihangai dihangant dihangech dihangem dihangent dihango dihangoch dihangodd dihangu dihangwch dihangwn dihangwyd dihengais dihengaist dihengi dihengir dihengwch dihengyd
+47	1047	sicr	sicrach sicraf
+48	1048	diffinio	ddiffinio ddiffiniodd ddiffinir ddiffiniwyd ddiffinnir diffinio'i diffinio'n diffinio'r diffiniodd diffinir diffiniwyd diffinnir
+49	1049	statws	
+50	1050	mynegi	fynegai fynegi mynega mynegadwy mynegaf mynegai mynegai'r mynegais mynegaist mynegant mynegech mynegedig mynegeion mynegem mynegent mynegi'n mynegi'r mynegid mynegir mynego mynegoch mynegodd mynegwch mynegwn mynegwyd
+51	1051	ffactor	ffactorau
+52	1052	chwaith	ychwaith
+53	1053	pinc	binc phinc pincach pincaf pincod pincs
+54	1054	pennod	bennod mhennod penodau phennod
+55	1055	hollol	
+56	1056	cynnydd	chynnydd gynnydd
+57	1057	cangen	canghennau changen gangen nghangen
+58	1058	dwywaith	ddwywaith
+59	1059	tarddiad	darddiad tarddiadau tharddiad
+60	1060	crefydd	chrefydd crefyddau grefydd nghrefydd
+61	1061	darlledu	darlleda darlledadwy darlledaf darlledai darlledais darlledaist darlledant darlledech darllededig darlledem darlledent darlledi darlledir darlledo darlledoch darlledodd darlledu'n darlledu'r darlledwch darlledwn darlledwyd ddarlledu
+62	1062	dogfen	ddogfen dogfennau
+63	1063	terfynol	derfynol therfynol
+64	1064	cyfryngau	chyfryngau cyfryngau'n cyfryngau'r gyfryngau nghyfryngau
+65	1065	graddio	graddia graddiadwy graddiaf graddiai graddiannau graddiant graddiech graddiedig graddiem graddient graddio'n graddio'r graddioch graddiodd graddiwch graddiwn graddiwyd greddi greddiais greddiaist greddiech greddir greddiwch raddio
+66	1066	carchar	carcharau charchar garchar ngharchar
+67	1067	rheolwr	reolwr rheolwyr
+68	1068	pennaeth	bennaeth penaethau penaethiaid penaethion phennaeth
+69	1069	oren	orenau orennach orennaf orennau
+70	1070	tŵr	nhŵr thŵr tyran tyrau
+71	1071	cludo	chludo cluda cludadwy cludaf cludai cludais cludaist cludant cludasai cludech cludedig cludem cludent cludi cludir cludo'i cludo'n cludo'r cludoch cludodd cludwch cludwn cludwyd gludo
+72	1072	croesi	chroesi chroesodd croesa croesasant croesi'n croesi'r croesia croesiadwy croesiaf croesiai croesiais croesiaist croesiant croesiech croesiedig croesiem croesient croesio croesioch croesiodd croesir croesiwch croesiwn croesiwyd croesodd croeswch groesi
+73	1073	lliwgar	liwgar
+74	1074	honni	honadwy honant honir honnaf honnai honnais honnaist honnant honnech honnem honnent honni'n honni'r honnid honnir honnoch honnodd honnont honnwch honnwn honnwyd hono honodd honwyd
+75	1075	coginio	choginio coginia coginiadwy coginiaf coginiai coginiais coginiaist coginiant coginiech coginiedig coginiem coginient coginio'n coginio'r coginioch coginiodd coginion coginir coginiwch coginiwn coginiwyd coginni coginnir goginio
+76	1076	unigryw	unigryw'r
+77	1077	technoleg	dechnoleg nhechnoleg technolegau thechnoleg
+78	1078	du-a-gwyn	ddu-a-gwyn
+79	1079	nodweddiadol	
+80	1080	llysiau	llysiau'n llysiau'r llysieuyn lysiau
+81	1081	haearn	harn heyrn
+82	1082	pasio	basio pasi pasia pasiadwy pasiaf pasiai pasiais pasiaist pasiant pasiantau pasiech pasiedig pasiem pasient pasio'n pasio'r pasioch pasiodd pasir pasiwch pasiwn pasiwyd phasio
+83	1083	economi	economi'n economi'r economïau heconomi heconomïau
+84	1084	adfer	adfera adferaf adferai adferais adferaist adferan adferant adferech adferem adferen adferent adferes adferest adferet adferi adferir adfero adferoch adferodd adferon adfersen adferset adferwch adferwn adferwyd edfryd edfyr hadfer
+85	1085	achlysur	achlysuron
+86	1086	prifddinas	brifddinas mhrifddinas phrifddinas prifddinasoedd
+87	1087	benywaidd	fenywaidd
+88	1088	cofnod	chofnod cofnodion gofnod
+89	1089	dosbarthu	ddosbarthu dosbartha dosbarthadwy dosbarthaf dosbarthai dosbarthant dosbarthech dosbarthedig dosbarthem dosbarthent dosbarthir dosbartho dosbarthoch dosbarthodd dosbarthu'n dosbarthu'r dosbarthwch dosbarthwn dosbarthwyd dosberthais dosberthaist dosberthi dosberthir dosberthwch
+90	1090	cyfanswm	chyfanswm cyfansymiau gyfanswm nghyfanswm
+91	1091	ysgrif	ysgrifau
+92	1092	llywydd	llywyddion lywydd
+93	1093	hanfodol	
+94	1094	garw	arw garw'r garwach garwaf garwon geirwon
+95	1095	twll	dwll thwll tyllau
+96	1096	offeryn	offerynnau
+97	1097	cyfoethog	chyfoethog cyfoethocach cyfoethocaf cyfoethogion gyfoethog
+98	1098	capten	capteiniaid captenni chapten gapten
+99	1099	cynradd	cynraddau gynradd
+100	1100	croen	chroen crwyn groen nghroen

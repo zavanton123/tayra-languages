@@ -1,0 +1,100 @@
+1	8501	cyflaith	gyflaith
+2	8502	tryleu	dryleu
+3	8503	llygriad	lygriad
+4	8504	hau	hau'r heuwyd
+5	8505	tysteb	dysteb tystebau
+6	8506	cogyddes	cogyddesau gogyddes
+7	8507	cymreigiad	gymreigiad
+8	8508	arwerthu	arwertha arwerthadwy arwerthaf arwerthai arwerthais arwerthaist arwerthant arwerthech arwerthedig arwerthem arwerthent arwerthi arwerthir arwertho arwerthoch arwerthodd arwerthwch arwerthwn arwerthwyd harwerthu
+9	8509	cymdeithasfa	gymdeithasfa
+10	8510	corffluniwr	corfflunwyr
+11	8511	brud	brudiau
+12	8512	ymarferiad	ymarferiadau
+13	8513	arddu	harddu'r
+14	8514	cyn-aelod	gyn-aelodau
+15	8515	pensaerniaeth	bensaerniaeth
+16	8516	talsyth	dalsyth
+17	8517	pegio	began begi pecio pegi pegiaf pego
+18	8518	tinc	dinc thinc
+19	8519	cadwyno	cadwynodd cadwynwyd
+20	8520	clustnodi	clustnoda clustnodadwy clustnodaf clustnodai clustnodais clustnodaist clustnodant clustnodech clustnodedig clustnodem clustnodent clustnodir clustnodo clustnodoch clustnododd clustnodwch clustnodwn clustnodwyd glustnodi
+21	8521	procio	brocio prociaf
+22	8522	cymalwst	gymalwst
+23	8523	talysarn	nhalysarn
+24	8524	gwerinlywodraeth	gwerinlywodraethau werinlywodraeth
+25	8525	ymson	ymsonau
+26	8526	caffe	caffes
+27	8527	rhiain	rhianedd
+28	8528	ceubren	ceubrennau geubren
+29	8529	goruchafu	goruchafa goruchafadwy goruchafaf goruchafai goruchafant goruchafech goruchafedig goruchafem goruchafent goruchafo goruchafoch goruchafodd goruchafwch goruchafwn goruchafwyd goruchefais goruchefaist goruchefi goruchefir goruchefwch oruchafu
+30	8530	gwysio	gwysiodd gwysiwyd
+31	8531	mwynhad	fwynhad mwynhadau
+32	8532	dafaden	dafadennau ddafaden
+33	8533	claddfa	chladdfa claddfeydd gladdfa
+34	8534	catalogio	gatalogio
+35	8535	pwdr	bwdr podr pydrion pydron pytrach pytraf
+36	8536	cneifio	cneifadwy cneifedig cneifi cneifia cneifiadwy cneifiaf cneifiai cneifiais cneifiaist cneifiant cneifiech cneifiedig cneifiem cneifient cneifioch cneifiodd cneifir cneifiwch cneifiwn cneifiwyd gneifio
+37	8537	praff	braff praffach praffaf preiffion
+38	8538	pwrcasu	bwrcasu pwrcasu'r
+39	8539	cyfundrefnu	chyfundrefnu cyfundrefna cyfundrefnadwy cyfundrefnaf cyfundrefnai cyfundrefnais cyfundrefnaist cyfundrefnant cyfundrefnech cyfundrefnedig cyfundrefnem cyfundrefnent cyfundrefni cyfundrefnir cyfundrefno cyfundrefnoch cyfundrefnodd cyfundrefnwch cyfundrefnwn cyfundrefnwyd gyfundrefnu
+40	8540	dramateiddio	ddramateiddio
+41	8541	dugoch	ddugoch dugochach dugochaf dugochion
+42	8542	tramgwyddo	dramgwyddo tramgwydda tramgwyddadwy tramgwyddaf tramgwyddai tramgwyddais tramgwyddaist tramgwyddant tramgwyddech tramgwyddedig tramgwyddem tramgwyddent tramgwyddi tramgwyddir tramgwyddoch tramgwyddodd tramgwyddwch tramgwyddwn tramgwyddwyd
+43	8543	trawsfudiad	drawsfudiad trawsfudiadau
+44	8544	pedrochr	bedrochr pedrochrau
+45	8545	perchnogi	berchnogir perchnogir
+46	8546	llewyrchu	lewyrchu llewyrcha llewyrchadwy llewyrchaf llewyrchai llewyrchais llewyrchaist llewyrchant llewyrchech llewyrchedig llewyrchem llewyrchent llewyrchi llewyrchir llewyrcho llewyrchoch llewyrchodd llewyrchwch llewyrchwn llewyrchwyd
+47	8547	cor	chor corrod gor
+48	8548	porchell	perchyll
+49	8549	buches	buchesi fuches
+50	8550	tramwyo	dramwyo thramwyo
+51	8551	uchelder	huchelder uchelderau
+52	8552	cweryla	chweryla cweryladwy cwerylaf cwerylai cwerylais cwerylaist cwerylant cwerylech cweryledig cwerylem cwerylent cweryli cwerylir cwerylo cweryloch cwerylodd cwerylwch cwerylwn cwerylwyd gweryla
+53	8553	ponc	bonc mhonc ponciau poncydd
+54	8554	ffili	ffila ffiladwy ffilaf ffilai ffilais ffilaist ffilant ffilech ffiled ffiledig ffilem ffilent ffilir ffilo ffiloch ffilodd ffilwch ffilwn ffilwyd
+55	8555	gwrthryfelgar	wrthryfelgar
+56	8556	rhosmari	rhosmari'n rosmari
+57	8557	heddychu	heddychu'r
+58	8558	pipo	pipa pipadwy pipaf pipai pipais pipaist pipan pipant pipech pipedig pipem pipen pipent piper pipes pipet pipi pipian pipio pipir pipoch pipodd pipon pipwch pipwn pipwyd
+59	8559	cored	coredau
+60	8560	llygad-dyst	llygad-dystion lygad-dystion
+61	8561	aceniad	aceniadau
+62	8562	copïwr	chopïwr copïwyr
+63	8563	gwersyllfa	wersyllfa
+64	8564	talfyrru	dalfyrru talfyrraf talfyrrir talfyrrwyd
+65	8565	trahaus	drahaus traheusion
+66	8566	ffresgo	ffresgoau
+67	8567	ymresymiad	ymresymiadau
+68	8568	brigo	brigit brigo'r
+69	8569	crosio	chrosio grosio
+70	8570	mesuro	fesurodd fesurwyd mesurodd
+71	8571	cyfyngder	chyfyngder cyfyngderau gyfyngder
+72	8572	duo	dduo duadwy duai duais duaist duant duech duedig duem duent dui duir duoch duodd duwch duwyd düwn
+73	8573	amcanu	amcana amcanadwy amcanaf amcanai amcanant amcanech amcanedig amcanem amcanent amcanir amcano amcanoch amcanodd amcanwch amcanwn amcanwyd amcenais amcenaist amceni amcenir amcenwch
+74	8574	cibwts	cibwtsau cibwtsim cibẃts gibwts
+75	8575	bagl	baglau fagl
+76	8576	cywain	cyweiniaf cywion
+77	8577	argraffwr	argraffwyr
+78	8578	croesholi	croeshola croesholadwy croesholaf croesholai croesholais croesholaist croesholant croesholech croesholedig croesholem croesholent croesholia croesholir croesholiwch croesholo croesholoch croesholodd croesholwch croesholwn croesholwyd groesholi
+79	8579	arallgyfeirio	arallgyfeiriodd
+80	8580	drifftio	ddrifftio
+81	8581	archdeip	archdeipiau
+82	8582	ffiws	ffiwsys
+83	8583	caboli	cabola caboladwy cabolaf cabolai cabolais cabolaist cabolant cabolech cabolem cabolent caboli'r cabolir cabolo caboloch cabolodd cabolwch cabolwn cabolwyd
+84	8584	cribinio	cribinio'r
+85	8585	hollysydd	hollysyddion
+86	8586	piben	biben pibenni
+87	8587	titaniwm	thitaniwm
+88	8588	cilffordd	cilffyrdd gilffordd
+89	8589	llwfr	llwfrach llwfraf
+90	8590	bratiog	
+91	8591	rhyngosod	rhyngosoda rhyngosodaf rhyngosodai rhyngosodais rhyngosodaist rhyngosodant rhyngosodech rhyngosodedig rhyngosodem rhyngosodent rhyngosodi rhyngosodir rhyngosodo rhyngosodoch rhyngosododd rhyngosodwch rhyngosodwn rhyngosodwyd
+92	8592	canfodydd	canfodyddion
+93	8593	asbaragws	
+94	8594	cyntun	
+95	8595	aberthol	
+96	8596	ynysiad	ynysiadau
+97	8597	rhagweithiol	
+98	8598	collfarn	gollfarn
+99	8599	seinyddio	seinyddion
+100	8600	gwrthol	

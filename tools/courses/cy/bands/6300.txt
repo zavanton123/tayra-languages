@@ -1,0 +1,100 @@
+1	6201	amffibiad	amffibiaid
+2	6202	silwét	silowét silwetau
+3	6203	euogfarn	euogfarnau
+4	6204	oediad	oediadau
+5	6205	hambwrdd	hambyrddau
+6	6206	pelydriad	belydriad
+7	6207	prisio	brisio prisi prisia prisiadwy prisiaf prisiai prisiais prisiaist prisiant prisiech prisiedig prisiem prisient prisioch prisiodd prisir prisiwch prisiwn prisiwyd
+8	6208	dosrannu	ddosrannu dosrannwyd
+9	6209	arae	araeau
+10	6210	noddfa	noddfeydd
+11	6211	memorandwm	femorandwm
+12	6212	cocsen	cocos
+13	6213	lama	lamaod
+14	6214	cyffyrddus	gyffyrddus
+15	6215	edifarhau	edifarhaodd
+16	6216	gyr	gyrroedd
+17	6217	centimetr	centimetrau gentimetr gentimetrau
+18	6218	cytgord	chytgord cytgordiau gytgord
+19	6219	cydffederasiwn	cydffederasiynau gydffederasiwn nghydffederasiwn
+20	6220	bendigaid	bendigeidion fendigaid
+21	6221	perchenogaeth	berchenogaeth pherchenogaeth
+22	6222	cyfreithloni	chyfreithloni cyfreithloni'r cyfreithlonwyd gyfreithloni gyfreithlonwyd
+23	6223	beio	beio'r beiodd feio
+24	6224	cydwybod	chydwybod cydwybodau gydwybod
+25	6225	di-oed	ddi-oed
+26	6226	nitrig	
+27	6227	tiwn	tiwniau
+28	6228	rhombws	
+29	6229	taenlen	daenlen taenlenni
+30	6230	barbaraidd	farbaraidd
+31	6231	pryniant	bryniant
+32	6232	amhleidiol	
+33	6233	anorchfygol	
+34	6234	maleisus	
+35	6235	sboncen	
+36	6236	dyrchafedig	ddyrchafedig
+37	6237	syntheseiddio	
+38	6238	esgyrnog	
+39	6239	de-orllewinol	dde-orllewinol
+40	6240	cyn-fyfyriwr	cyn-fyfyrwyr
+41	6241	crisialu	grisialu
+42	6242	egino	egina eginadwy eginaf eginai eginais eginaist eginant eginech eginedig eginem eginent egini eginir eginoch eginodd eginwch eginwn eginwyd
+43	6243	cyfrifiaduro	cyfrifiadura gyfrifiadura nghyfrifiaduro
+44	6244	saim	saem seimiau sâm
+45	6245	anweddus	
+46	6246	twrnament	
+47	6247	llathen	lathenni
+48	6248	pellgyrhaeddol	bellgyrhaeddol
+49	6249	gwrthiselydd	gwrthiselyddion wrthiselydd
+50	6250	seiffr	seiffrau
+51	6251	llygredigaeth	lygredigaeth
+52	6252	diwallu	ddiwallu diwalla diwalladwy diwallaf diwallai diwallant diwallech diwalledig diwallem diwallent diwallo diwalloch diwallodd diwallu'r diwallwch diwallwn diwallwyd diwellais diwellaist diwelli diwellir diwellwch
+53	6253	boddhad	foddhad
+54	6254	meddygfa	feddygfa meddygfa'r meddygfeydd
+55	6255	ael	aeliau aeloedd
+56	6256	trigfan	drigfan trigfannau
+57	6257	cylchedd	chylchedd gylchedd
+58	6258	gorchest	gorchestion orchest
+59	6259	fferins	ffeiryn fferen
+60	6260	diwyllio	ddiwyllio
+61	6261	toddaid	
+62	6262	clên	clenach clenaf glên
+63	6263	tebygu	tebygai tebygid
+64	6264	llarwydden	
+65	6265	breuant	brefant breuannau breuantau
+66	6266	busneslyd	fusneslyd
+67	6267	byfyrwraig	fyfyrwraig
+68	6268	digymar	
+69	6269	cymuno	cymuna cymunadwy cymunaf cymunai cymunais cymunaist cymunant cymunech cymunedig cymunem cymunent cymuni cymunir cymunoch cymunodd cymunwch cymunwn cymunwyd
+70	6270	llwyf	llwyfen
+71	6271	odiaeth	
+72	6272	tangnefedd	
+73	6273	pleidio	pleidio'r pleidiodd
+74	6274	bachan	fachan
+75	6275	dwndwr	ddwndwr
+76	6276	gostegu	gostegaf ostegu
+77	6277	tafluniad	dafluniad tafluniadau
+78	6278	cyd-daro	
+79	6279	ymarferoldeb	
+80	6280	iogwrt	iogyrtiau
+81	6281	anghenraid	angenrheidiau
+82	6282	feto	
+83	6283	cywasgiad	cywasgiadau gywasgiad
+84	6284	cargo	cargo'n cargo'r gargo
+85	6285	isrannu	hisrannu isranadwy isranedig isranna isrannaf isrannai isrannant isrannech isrannem isrannent isranno isrannoch isrannodd isrannu'n isrannwch isrannwn isrannwyd isrennais isrennaist isrenni isrennir isrennwch
+86	6286	defnyddioldeb	ddefnyddioldeb
+87	6287	dyfrio	ddyfrio dyfrio'n
+88	6288	disgrifiadol	ddisgrifiadol
+89	6289	croesiad	croesiadau groesiad
+90	6290	brysiog	frysiog
+91	6291	undebol	
+92	6292	honna	honna'r
+93	6293	gwib	gwibach gwibaf gwibiau gwibion wib
+94	6294	carafan	carafanau garafan
+95	6295	archifdy	archifdai
+96	6296	nymff	nimffau nymffod
+97	6297	cafn	cafnau gafn
+98	6298	gwyddonias	wyddonias
+99	6299	sgiwen	sgiwennod
+100	6300	addoldy	addoldai

@@ -1,0 +1,100 @@
+1	9401	cosbol	gosbol
+2	9402	dolurus	ddolurus
+3	9403	ysgarthu	ysgartha ysgarthadwy ysgarthaf ysgarthai ysgarthais ysgarthaist ysgarthant ysgarthech ysgarthedig ysgarthem ysgarthent ysgarthi ysgarthir ysgartho ysgarthoch ysgarthodd ysgarthwch ysgarthwn ysgarthwyd
+4	9404	cludiad	cludiadau gludiad
+5	9405	breuddwydiol	freuddwydiol
+6	9406	cnud	chnud cnudoedd
+7	9407	anghysonder	anghysonderau
+8	9408	bachiad	
+9	9409	achwyniad	achwyniadau
+10	9410	amgaead	
+11	9411	lluwchfa	lluwchfeydd lluwchfâu
+12	9412	paradocsaidd	baradocsaidd
+13	9413	aflwydd	aflwyddau
+14	9414	addurnwr	addurnwyr
+15	9415	adarydda	adaryddadwy adaryddaf adaryddai adaryddais adaryddaist adaryddant adaryddech adaryddedig adaryddem adaryddent adaryddi adaryddir adaryddo adaryddoch adaryddodd adaryddwch adaryddwn adaryddwyd aderyddaf
+16	9416	cynefino	cynefina cynefinaf cynefinwch
+17	9417	llyfnhau	lyfnhau
+18	9418	gafl	afl gaflau
+19	9419	dyslecsia	ddyslecsia dislecsia
+20	9420	plethedig	
+21	9421	ymarweddiad	
+22	9422	cysylltydd	cysylltyddion
+23	9423	hwyrnos	hwyrnosau
+24	9424	ymbalfalu	
+25	9425	manylrwydd	fanylrwydd
+26	9426	bricyll	bricyllen pricyll
+27	9427	dueg	ddueg duegau
+28	9428	ymgolli	ymgolla ymgolladwy ymgollaf ymgollai ymgollais ymgollaist ymgollant ymgollech ymgolledig ymgollem ymgollent ymgollir ymgollo ymgolloch ymgollodd ymgollwch ymgollwn ymgollwyd
+29	9429	llysgenhadwr	lysgenhadon
+30	9430	miniogrwydd	
+31	9431	ffroeni	ffroena ffroenadwy ffroenaf ffroenai ffroenais ffroenaist ffroenant ffroenech ffroenedig ffroenem ffroenent ffroenir ffroeno ffroenoch ffroenodd ffroenwch ffroenwn ffroenwyd
+32	9432	priodoliad	priodoliadau
+33	9433	ymhél	
+34	9434	lymffatig	
+35	9435	alcan	alcanau
+36	9436	diferiad	ddiferiad diferiadau
+37	9437	diymadferthedd	
+38	9438	diboblogi	dibobloga diboblogadwy diboblogaf diboblogai diboblogais diboblogaist diboblogant diboblogech diboblogedig diboblogem diboblogent diboblogir diboblogo diboblogoch diboblogodd diboblogwch diboblogwn diboblogwyd
+39	9439	blacmelio	blacmeliaf
+40	9440	tywyswr	tywyswyr
+41	9441	cydsyniol	
+42	9442	ysgwyddo	
+43	9443	marchnerth	farchnerth
+44	9444	adferol	
+45	9445	proffwydol	
+46	9446	dosranedig	
+47	9447	e-lyfr	e-lyfrau
+48	9448	sang	sanga
+49	9449	llwydfron	llwydfronnau
+50	9450	hunandybus	
+51	9451	ceinder	geinder
+52	9452	gweinyddiad	gweinyddiadau weinyddiad
+53	9453	golwr	golwyr
+54	9454	saernïaeth	
+55	9455	rhagrithiol	
+56	9456	toesen	toesenni
+57	9457	trigonometreg	thrigonometreg trigonomeg
+58	9458	cyfanwerthu	chyfanwerthu gyfanwerthu
+59	9459	curfa	curfeydd gurfa
+60	9460	tro-ffrio	tro-ffri tro-ffria tro-ffriadwy tro-ffriaf tro-ffriai tro-ffriais tro-ffriaist tro-ffriant tro-ffriech tro-ffriedig tro-ffriem tro-ffrient tro-ffrioch tro-ffriodd tro-ffrir tro-ffriwch tro-ffriwn tro-ffriwyd
+61	9461	coconyt	coconyts
+62	9462	gwrthbwys	
+63	9463	rinsio	rinsiaf
+64	9464	myfyrgar	
+65	9465	rhyngol	
+66	9466	di-drefn	ddi-drefn
+67	9467	gwêr	
+68	9468	diweirdeb	
+69	9469	niobiwm	
+70	9470	milwriaeth	filwriaeth
+71	9471	teipiadur	deipiadur teipiaduron
+72	9472	adlewyrchydd	adlewyrchyddion
+73	9473	ffitiad	ffitiadau
+74	9474	chwarteru	
+75	9475	tremio	tremion
+76	9476	lactig	
+77	9477	gwg	gygau
+78	9478	slefren	slafren slefrod
+79	9479	positifiaeth	bositifiaeth
+80	9480	proflen	proflenni
+81	9481	chwilboeth	chwilboethach chwilboethaf
+82	9482	ffrithiol	
+83	9483	ffiwsio	
+84	9484	fwlfa	fwlfâu fylfa
+85	9485	gildio	gild gildiaf
+86	9486	enwebedig	
+87	9487	sarnu	sarna sarnadwy sarnaf sarnai sarnais sarnaist sarnant sarnech sarnedig sarnem sarnent sarni sarnio sarnir sarno sarnoch sarnodd sarnwch sarnwn sarnwyd
+88	9488	cribin	cribinau cribiniau gribin
+89	9489	anwythol	
+90	9490	mabwysiadol	
+91	9491	pothell	pothellau pothelli
+92	9492	clebran	
+93	9493	mwytho	mwyth mwytha mwythadwy mwythaf mwythai mwythais mwythaist mwythant mwythech mwythedig mwythem mwythent mwythi mwythir mwythoch mwythodd mwythwch mwythwn mwythwyd
+94	9494	chwilotwr	chwilotwyr
+95	9495	dwyffordd	ddwyffordd
+96	9496	weirio	weiran
+97	9497	bythwyrdd	fythwyrdd
+98	9498	modurwr	fodurwr
+99	9499	gwrthrychedd	
+100	9500	sbŵl	sbwliau

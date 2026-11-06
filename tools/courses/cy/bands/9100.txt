@@ -1,0 +1,100 @@
+1	9001	dyweddïad	ddyweddïad dyweddïadau
+2	9002	cweryl	cwerylau cwerylon
+3	9003	di-fwlch	ddi-fwlch
+4	9004	mynydd-dir	fynydd-dir
+5	9005	misolyn	fisolyn misolion
+6	9006	cyflun	gyflun
+7	9007	dinmael	ninmael
+8	9008	penchwiban	benchwiban
+9	9009	brawdlys	frawdlys
+10	9010	cynhorthwy	canhorthwy cynhorthwyau cynhorthwyoedd cynhorthwyon gynhorthwy
+11	9011	dichellgar	ddichellgar
+12	9012	nacáu	nacadwy nacaech nacaem nacaent nacao nacaoch nacaodd nacawch nacawn nacawyd naceais naceaist nacedig nacei naceir nacewch nacáu'r nacâ nacâf nacâi nacânt
+13	9013	tremadog	nhremadog
+14	9014	bodio	fodio fodiodd
+15	9015	rhaffu	raffu
+16	9016	cardota	cerdota gardota
+17	9017	deisyf	deisyfaf deisyfau deisyfion deisyfu deisyfyd
+18	9018	trachwant	thrachwant trachwantau
+19	9019	gafaelgar	afaelgar
+20	9020	carlam	garlam
+21	9021	betal	fetalau
+22	9022	cartrefol	gartrefol
+23	9023	pencader	bencader
+24	9024	tynu	dynu
+25	9025	gormesu	gormesa gormesadwy gormesaf gormesais gormesaist gormesant gormesedig gormesi gormesir gormeso gormesoch gormesodd gormeswch gormeswyd ormesu
+26	9026	caredigion	charedigion garedigion
+27	9027	diamynedd	ddiamynedd
+28	9028	trobwll	drobwll trobyllau
+29	9029	gogynfardd	gogynfeirdd
+30	9030	drwgweithredwr	drwgweithredwyr
+31	9031	rhin	rhiniau rin
+32	9032	bachgendod	fachgendod
+33	9033	llodi	loder lodi
+34	9034	stemar	stemars
+35	9035	archangel	archangylion
+36	9036	rhi	rhiau ri
+37	9037	tarddle	darddle
+38	9038	gramadegydd	gramadegwyr
+39	9039	tacluso	taclusa taclusadwy taclusaf taclusais taclusaist taclusant taclusedig taclusi taclusir taclusoch taclusodd taclusu tacluswch tacluswyd thacluso
+40	9040	gormeswr	gormeswyr
+41	9041	penmorfa	phenmorfa
+42	9042	cynrhonyn	cynrhon
+43	9043	doniolwch	ddoniolwch
+44	9044	mwyngloddwr	fwyngloddwyr mwyngloddwyr
+45	9045	gosteg	gostegion osteg
+46	9046	meirionydd	feirionydd
+47	9047	morddwyd	forddwyd morddwydydd
+48	9048	hapnewidyn	hapnewidynnau
+49	9049	corfan	corfannau
+50	9050	mympwy	fympwy mwmpwy mympwyon
+51	9051	godinebus	godinabus odinebus
+52	9052	cyrchnod	gyrchnod
+53	9053	pell-gyrhaeddol	bell-gyrhaeddol phell-gyrhaeddol
+54	9054	dychwelydd	ddychwelydd
+55	9055	gweddio	weddio
+56	9056	merthyru	merthyra merthyradwy merthyraf merthyrai merthyrais merthyraist merthyrant merthyrech merthyredig merthyrem merthyrent merthyri merthyrir merthyro merthyroch merthyrodd merthyrwch merthyrwn merthyrwyd
+57	9057	iwrch	iyrchod
+58	9058	mydryddu	fydryddodd fydryddu
+59	9059	cyfnerthu	cyfnerthodd gyfnerthu
+60	9060	pabyddiaeth	babyddiaeth mhabyddiaeth phabyddiaeth
+61	9061	cib	cibau cibion cibyn gib
+62	9062	gwawrio	gwawriodd wawrio
+63	9063	llidio	lidio llidio'r
+64	9064	mêt	fêt mêts
+65	9065	achres	achresau achresi
+66	9066	trafaelio	drafaeliai drafaelio trafael trafaelan trafaeliaf trafaelu
+67	9067	dirmygu	dirmyga dirmygadwy dirmygaf dirmygai dirmygais dirmygaist dirmygant dirmygech dirmygedig dirmygem dirmygent dirmygi dirmygid dirmygir dirmygo dirmygoch dirmygodd dirmygu'r dirmygwch dirmygwn dirmygwyd
+68	9068	cyffelybu	cyffelybu'r gyffelybu
+69	9069	peunes	beunes peunesau
+70	9070	modrwyo	fodrwyo modrwywyd
+71	9071	coffau	coffau'r goffau
+72	9072	ymdrinio	ymdrinient ymdriniodd ymdriniwyd
+73	9073	cipar	ciperiaid giperiaid
+74	9074	pinafal	binafal pinafalau
+75	9075	callio	callia calliadwy calliaf calliai calliant calliasai calliech calliedig calliem callient callioch calliodd calliwch calliwn calliwyd celliais celliaist celliech cellir celliwch gallii
+76	9076	croesdoriad	croesdoriadau groesdoriad
+77	9077	gwlanen	gwlanenni wlanen
+78	9078	martsio	fartsiodd martsiodd
+79	9079	pinsio	binsio phinsied pinsio'r
+80	9080	tloty	nhloty tlotai
+81	9081	llesg	llesgach llesgaf llesgon
+82	9082	ffaelu	ffaela ffaeladwy ffaelaf ffaelai ffaelais ffaelaist ffaelant ffaelech ffaelem ffaelent ffaeli ffaelir ffaelo ffaeloch ffaelodd ffaelwch ffaelwn ffaelwyd
+83	9083	tafolog	
+84	9084	aberu	
+85	9085	hed	
+86	9086	fflangellu	
+87	9087	dsc	
+88	9088	anfarwoli	anfarwolwyd
+89	9089	bolwen	folwen
+90	9090	broch	brochion brochod
+91	9091	cardiolegydd	
+92	9092	cigydd-danagr	cigydd-danagrod
+93	9093	ailddosrannu	
+94	9094	hosbis	hosbisau
+95	9095	cysylltair	cysyllteiriau
+96	9096	dadwisgo	dadwisga dadwisgaf dadwisgwch ddadwisgo
+97	9097	clegyr	clegyrau
+98	9098	casgliadol	gasgliadol
+99	9099	cwmystwyth	
+100	9100	anwaraidd	

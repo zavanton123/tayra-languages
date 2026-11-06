@@ -1,0 +1,100 @@
+1	9801	ffigys	ffigs ffigysen
+2	9802	bwrsariaeth	
+3	9803	bradychiad	bradychiadau
+4	9804	digroeso	
+5	9805	hidl	hiddl hidlau hidlon hitlach hitlaf
+6	9806	archaea	archaeon
+7	9807	angylaidd	
+8	9808	cyhwfan	
+9	9809	cyffylog	cyffylogod
+10	9810	gwamal	
+11	9811	crwt	crwtyn cryts
+12	9812	methedig	
+13	9813	bradwrus	
+14	9814	gweilgi	gweilgïoedd
+15	9815	anghrediniaeth	
+16	9816	cyd-fyfyriwr	gyd-fyfyriwr
+17	9817	diabetes	ddiabetes
+18	9818	diogi	dioga diogadwy diogai diogais diogaist diogant diogech diogedig diogem diogent diogir diogo diogoch diogodd diogwch diogwn diogwyd
+19	9819	codog	
+20	9820	cesail	ceseiliau nghesail
+21	9821	cyfeiliorni	gyfeiliorni
+22	9822	blaenlythyren	blaenlythrennau
+23	9823	fferru	
+24	9824	gwryd	gwrhyd gwrhydau
+25	9825	paladiwm	
+26	9826	tirweddol	
+27	9827	id	
+28	9828	cerwyn	cerwynau cerwyni gerwyn
+29	9829	gwyrain	
+30	9830	gwe-rwydo	gwe-rwyda gwe-rwydadwy gwe-rwydaf gwe-rwydai gwe-rwydais gwe-rwydaist gwe-rwydant gwe-rwydech gwe-rwydedig gwe-rwydem gwe-rwydent gwe-rwydi gwe-rwydir gwe-rwydoch gwe-rwydodd gwe-rwydwch gwe-rwydwn gwe-rwydwyd
+31	9831	ysgymuno	
+32	9832	efryd	efrydiau
+33	9833	wylys	wylysiau
+34	9834	dideimlad	
+35	9835	oddf	oddfau
+36	9836	ciplun	
+37	9837	ariangar	
+38	9838	andwyo	andwya andwyadwy andwyaf andwyai andwyais andwyaist andwyant andwyech andwyedig andwyem andwyent andwyi andwyir andwyoch andwyodd andwywch andwywn andwywyd
+39	9839	troedigaeth	droedigaeth
+40	9840	anhraddodiadol	
+41	9841	logarithmig	
+42	9842	dymchweliad	
+43	9843	ymfflamychu	
+44	9844	côl	colau
+45	9845	gwahanolrwydd	
+46	9846	glendid	
+47	9847	diffwdan	
+48	9848	sallwyr	sallwyrau
+49	9849	cilddant	cilddaint cilddannedd
+50	9850	serio	seria
+51	9851	cols	colsyn
+52	9852	dyrnfedd	dyrnfeddi
+53	9853	llythyrwr	llythyrwyr llythyrydd
+54	9854	allolchi	
+55	9855	cribwyn	
+56	9856	porthamel	
+57	9857	treisiwr	treiswyr
+58	9858	cyfreithwraig	cyfreithwragedd gyfreithwraig
+59	9859	caldrist	
+60	9860	biliynfed	miliynfed
+61	9861	lluest	lluestau
+62	9862	pitw	
+63	9863	queer	cwiar
+64	9864	twinc	twincod
+65	9865	cyfyrder	gyfyrder
+66	9866	ffurfdroad	ffurfdroadau
+67	9867	dilorni	ddilorni dilornaf
+68	9868	ffosileiddio	
+69	9869	cyd-wladwr	cyd-wladwyr
+70	9870	anhapusrwydd	
+71	9871	affwysol	
+72	9872	lander	landar landerau landeri landerydd
+73	9873	digolledu	
+74	9874	adfywiedig	
+75	9875	obsesiyn	obsesiynau
+76	9876	cribyn	
+77	9877	dwrdio	ddwrdio dwrdiaf
+78	9878	cathan	cathanau
+79	9879	penderyn	
+80	9880	penfelynwyrdd	
+81	9881	bamgu	famgu
+82	9882	gylfinir	gylfinirod
+83	9883	termiadur	termiaduron
+84	9884	coeglyd	
+85	9885	ymafael	
+86	9886	gwales	
+87	9887	gwenwynllyd	
+88	9888	lled-ddargludol	
+89	9889	conswliaeth	gonswliaeth
+90	9890	gwarlas	gwarleision
+91	9891	shampŵ	
+92	9892	ymroddgar	
+93	9893	bythynod	fythynod
+94	9894	periant	
+95	9895	ymgodi	
+96	9896	poti	
+97	9897	meifod	
+98	9898	demograffaidd	
+99	9899	cyd-olygydd	gyd-olygydd
+100	9900	arddweud	

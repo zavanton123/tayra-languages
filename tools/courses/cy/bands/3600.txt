@@ -1,0 +1,100 @@
+1	3501	enfys	enfysau enfysoedd
+2	3502	falle	
+3	3503	byta	
+4	3504	ella	
+5	3505	lawnt	lawntiau
+6	3506	ymchwilydd	
+7	3507	trosglwyddiad	drosglwyddiad trosglwyddiadau
+8	3508	bregus	bregusach bregusaf fregus
+9	3509	hwyluso	hwyluso'r
+10	3510	trywanu	drywanu thrywanu trywana trywanadwy trywanaf trywanai trywanant trywanech trywanedig trywanem trywanent trywano trywanoch trywanodd trywanu'r trywanwch trywanwn trywanwyd trywenais trywenaist tryweni trywenir trywenwch
+11	3511	crynodeb	chrynodeb crynodebau grynodeb
+12	3512	dewisol	ddewisol
+13	3513	cerddwr	cerddwyr gerddwr
+14	3514	colur	cholur colurau golur
+15	3515	manteisio	fanteisio manteisi manteisia manteisiadwy manteisiaf manteisiai manteisiais manteisiaist manteisiant manteisiech manteisiedig manteisiem manteisient manteisioch manteisiodd manteisir manteisiwch manteisiwn manteisiwyd
+16	3516	cydwybodol	chydwybodol gydwybodol
+17	3517	uchelgeisiol	
+18	3518	darllediad	darllediadau ddarllediad
+19	3519	ymdriniaeth	ymdriniaethau
+20	3520	seibiant	seibiannau
+21	3521	corfforaethol	gorfforaethol
+22	3522	clyw	chlyw glyw
+23	3523	bwystfil	bwystfiledd bwystfilod bwystfiloedd fwystfil
+24	3524	cymar	chymar cymheiriaid gymar
+25	3525	pasta	basta
+26	3526	bomio	bomio'r bomiwyd fomio fomiodd
+27	3527	tirlun	dirlun dirluniau nhirlun thirlun thirluniau tirluniau
+28	3528	cyfun	gyfun
+29	3529	pila	pila'r pilaon
+30	3530	wythfed	hwythfed
+31	3531	bedyddio	bedyddiodd bedyddiwyd fedyddio fedyddiwyd
+32	3532	arglwyddes	arglwyddesau harglwyddes
+33	3533	ffodus	ffodusion
+34	3534	tyddyn	dyddyn nhyddyn thyddyn tyddynnau tyddynnod
+35	3535	byrhoedlog	berhoedlog fyrhoedlog
+36	3536	telesgop	delesgop delesgopau telesgopau
+37	3537	disgynnydd	ddisgynnydd disgynyddes disgynyddion
+38	3538	bodloni	bodlona bodlonadwy bodlonai bodlonais bodlonaist bodlonant bodlonech bodlonedig bodlonem bodlonent bodloni'r bodlonir bodlono bodlonoch bodlonodd bodlonwch bodlonwn bodlonwyd fodloni
+39	3539	cyfreithlon	gyfreithlon
+40	3540	oriawr	oriorau
+41	3541	ewyn	ewynion ewynnau
+42	3542	grealaeth	realaeth
+43	3543	arnofio	arnawf arnofi arnofia arnofiadwy arnofiaf arnofiai arnofiais arnofiaist arnofiant arnofiech arnofiedig arnofiem arnofient arnofioch arnofiodd arnofir arnofiwch arnofiwn arnofiwyd
+44	3544	miniog	finiog
+45	3545	selog	selocach selocaf selogion
+46	3546	adolygydd	adolygwyr
+47	3547	cytsain	chytsain cytseiniaid gytsain
+48	3548	aileni	ailenwyd hailenwyd
+49	3549	gorgyffwrdd	gorgyffyrdda gorgyffyrddadwy gorgyffyrddaf gorgyffyrddai gorgyffyrddais gorgyffyrddaist gorgyffyrddant gorgyffyrddech gorgyffyrddedig gorgyffyrddem gorgyffyrddent gorgyffyrddi gorgyffyrddir gorgyffyrddo gorgyffyrddoch gorgyffyrddodd gorgyffyrddwch gorgyffyrddwn gorgyffyrddwyd orgyffwrdd
+50	3550	bugail	bugeiliaid fugail mugail
+51	3551	ffrwydryn	ffrwydron ffrwydrynnau
+52	3552	hollt	holltau hollten holltig holltyn hyllt
+53	3553	casglwr	casglwyr chasglwr gasglwr
+54	3554	ieithydd	ieithyddion
+55	3555	hyderus	
+56	3556	diddiwedd	ddiddiwedd
+57	3557	hollbwysig	hollbwysicach hollbwysicaf
+58	3558	dringwr	ddringwr dringwyr
+59	3559	allyriad	allyriadau
+60	3560	olewydd	olewydden
+61	3561	diweddglo	ddiweddglo diwedd-glo diweddglo'n diweddglo'r diweddgloeon
+62	3562	pinwydd	binwydd phinwydd pinwydden
+63	3563	llwm	llymach llymaf llymion
+64	3564	cranc	chranc crainc cranciau crancod granc
+65	3565	sialens	sialensau
+66	3566	mamal	famal mamaliaid
+67	3567	syched	
+68	3568	hollti	hollta holltadwy holltaf holltai holltais holltaist holltant holltech holltedig holltem holltent hollti'n hollti'r holltir hollto holltoch holltodd holltwch holltwn holltwyd
+69	3569	barddol	farddol
+70	3570	dol	ddol doliau dols nol
+71	3571	hectar	
+72	3572	sbâr	sbarion ysbâr
+73	3573	ffawd	ffodion
+74	3574	dyngarol	ddyngarol
+75	3575	ymdeimlad	hymdeimlad ymdeimladau
+76	3576	cyfadran	gyfadran
+77	3577	deniadol	ddeniadol
+78	3578	adferiad	adferiadau
+79	3579	nosi	nosa nosadwy nosaf nosais nosaist nosant nosedig nosir noso nosoch nosodd noswch noswyd
+80	3580	cilomedr	gilomedrau
+81	3581	cymhwysiad	chymhwysiad cymwysiadau gymhwysiad
+82	3582	bedyddiwr	bedyddwyr fedyddiwr fedyddwyr
+83	3583	amrwd	
+84	3584	misol	fisol
+85	3585	tost	dost tostach tostaf tostion
+86	3586	bysellfwrdd	bysellfyrddau fysellfwrdd
+87	3587	croesffordd	croesffyrdd groesffordd
+88	3588	cymesuredd	chymesuredd gymesuredd
+89	3589	wagen	gwagen wagenau wageni wagenni wagon
+90	3590	graffeg	
+91	3591	magnetig	
+92	3592	gwareiddiad	gwareiddiadau wareiddiad
+93	3593	deintydd	ddeintydd deintyddion dentydd
+94	3594	jam	jamiau
+95	3595	llechen	lechen llechan llechennau llechsen
+96	3596	coler	choler colar colerau coleri color goler
+97	3597	teils	deils teilsen teilys theils tils
+98	3598	cywydd	cywyddau gywydd
+99	3599	ystlys	ystlysau
+100	3600	ateg	ategaf ategais ategau ategion ategir ategodd ategu ategwyd hategu

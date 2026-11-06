@@ -1,0 +1,100 @@
+1	1801	taten	daten tato tatws
+2	1802	maen	faen feini meini
+3	1803	nef	nefoedd
+4	1804	amgylchynu	amgylchyna amgylchynadwy amgylchynaf amgylchynai amgylchynais amgylchynaist amgylchynant amgylchynasant amgylchynech amgylchynedig amgylchynem amgylchynent amgylchyni amgylchynir amgylchyno amgylchynoch amgylchynodd amgylchynu'n amgylchynu'r amgylchynwch amgylchynwn amgylchynwyd hamgylchynu
+5	1805	cwningen	chwningen cwningod gwningen
+6	1806	awydd	awyddau hawydd
+7	1807	synnwyr	synhwyrau
+8	1808	pwyslais	bwyslais phwyslais pwysleisiau
+9	1809	ffasiwn	ffasiynau
+10	1810	ysmygu	smygu ysmyga ysmygaf ysmygai ysmygais ysmygaist ysmygant ysmygech ysmygem ysmygent ysmygi ysmygir ysmygo ysmygoch ysmygodd ysmygon ysmygu'n ysmygwch ysmygwn ysmygwyd
+11	1811	syndod	syndodau
+12	1812	sïedn	si-edn sïednod
+13	1813	porthladd	borthladd mhorthladd phorthladd porthladdau porthladdoedd porthleddyn
+14	1814	trawiadol	drawiadol thrawiadol
+15	1815	sgript	sgriptiau
+16	1816	traffig	draffig thraffig traffic
+17	1817	gogledd-ddwyrain	ngogledd-ddwyrain ogledd-ddwyrain
+18	1818	bys	bysedd fys
+19	1819	cei	caiff cei'r ceiau gei nghei
+20	1820	pryfed	bryfed phryfed pryfedyn
+21	1821	maer	faer meiri
+22	1822	salwch	
+23	1823	ffres	ffresiach ffresiaf
+24	1824	difrodi	ddifrodi difroda difrodaf difrodai difrodais difrodaist difrodant difrodech difrodedig difrodem difrodent difrodi'n difrodi'r difrodir difrodo difrodoch difrododd difrodwch difrodwn difrodwyd dyfrodaf
+25	1825	cyfrifiadurol	chyfrifiadurol gyfrifiadurol
+26	1826	ieuanc	ieuaf ieuainc ieuangach ieuangaf
+27	1827	deugain	ddeugain
+28	1828	pryder	bryder phryder pryderau pryderon
+29	1829	adloniant	adloniannau adloniantau hadloniant
+30	1830	arweinyddiaeth	
+31	1831	electronig	
+32	1832	hoci	hoci'n hoci'r
+33	1833	cyflenwad	chyflenwad cyflenwadau gyflenwad
+34	1834	ymgyrchu	hymgyrchu ymgyrcha ymgyrchadwy ymgyrchaf ymgyrchai ymgyrchais ymgyrchaist ymgyrchant ymgyrchech ymgyrchedig ymgyrchem ymgyrchent ymgyrchi ymgyrchir ymgyrcho ymgyrchoch ymgyrchodd ymgyrchu'n ymgyrchwch ymgyrchwn ymgyrchwyd
+35	1835	cemegol	cemical chemegol gemegol
+36	1836	teuluol	deuluol theuluol
+37	1837	rhwystro	rhwystra rhwystradwy rhwystraf rhwystrai rhwystrais rhwystraist rhwystrant rhwystrech rhwystrem rhwystrent rhwystri rhwystrir rhwystro'n rhwystro'r rhwystroch rhwystrodd rhwystrwch rhwystrwn rhwystrwyd rwystro
+38	1838	ffwythiant	ffwythiannau
+39	1839	palmant	balmant paement palmantau palment palmentydd
+40	1840	del	ddel delach delaf nel
+41	1841	bae	bae'r baeau fae
+42	1842	negyddol	
+43	1843	diagram	ddiagram ddiagramau diagramau niagram
+44	1844	gyrrwr	gyrrwyr gyrwyr yrrwr yrrwyr
+45	1845	galwad	alwad galwadau
+46	1846	cyflog	chyflog cyflogau gyflog nghyflog
+47	1847	beirniadaeth	beirniadaethau feirniadaeth
+48	1848	hysbyseb	hysbysebau hysbysebion
+49	1849	dilys	ddilys dilysach dilysaf
+50	1850	cyfyngiad	chyfyngiad cyfyngiadau gyfyngiad
+51	1851	cyflogi	chyflogedig chyflogi cyfloga cyflogadwy cyflogaf cyflogais cyflogaist cyflogant cyflogech cyflogedig cyflogem cyflogent cyflogi'n cyflogi'r cyflogir cyflogo cyflogoch cyflogodd cyflogwch cyflogwn cyflogwyd gyflogedigion gyflogi
+52	1852	storio	stor storia storio'n storio'r storiwyd
+53	1853	criced	chriced griced
+54	1854	amserlen	amserlenni hamserlen
+55	1855	colled	cholled colledion golled
+56	1856	meddal	feddal meddalach meddalaf
+57	1857	tueddu	tuedda tueddadwy tueddaf tueddai tueddais tueddaist tueddant tueddech tueddedig tueddem tueddent tueddi tueddir tueddo tueddoch tueddodd tueddwch tueddwn tueddwyd
+58	1858	llythyren	llythrennau llythyrennau lythyren
+59	1859	pig	big mhig phig pigau
+60	1860	cefnogwr	cefnogwyr chefnogwr gefnogwr
+61	1861	peiriannydd	beiriannydd peiriannwyr pheiriannydd
+62	1862	gorsedd	gorseddau ngorsedd orsedd
+63	1863	sirol	
+64	1864	gwellt	wellt
+65	1865	gornest	gornestau ngornest ornest
+66	1866	tras	dras thras trasau
+67	1867	blasus	blasusach blasusaf flasus
+68	1868	bwa	bwa'n bwa'r bwâu fwa
+69	1869	cawl	cawlen cawliau chawl gawl
+70	1870	nabod	nabyddaf
+71	1871	oni	honi on'd
+72	1872	tanio	danio daniodd taniaf tanio'n tanio'r taniodd taniwyd tano tanu thanio thaniodd
+73	1873	plentyndod	blentyndod mhlentyndod phlentyndod
+74	1874	creadur	creaduriaid greadur
+75	1875	cot	chot cotiau got
+76	1876	ynad	ynadon
+77	1877	hwylio	hwyli hwylia hwyliadwy hwyliaf hwyliai hwyliais hwyliaist hwyliant hwyliech hwyliedig hwyliem hwylient hwylio'n hwylio'r hwylioch hwyliodd hwylir hwyliwch hwyliwn hwyliwyd hwylo
+78	1878	tôn	dôn thôn tonau
+79	1879	gofalu	gofala gofaladwy gofalaf gofalai gofalant gofalech gofaledig gofalem gofalo gofaloch gofalodd gofalwch gofalwn gofalwyd gofelais gofelaist gofeli gofelir gofelwch ofalu
+80	1880	ffurflen	ffurflenni
+81	1881	hamdden	
+82	1882	ynghlwm	
+83	1883	parot	barot parat parotau parotiaid parots perot
+84	1884	blawd	blodiau blodion flawd
+85	1885	sbwriel	ysbwrial ysbwriel
+86	1886	poced	boced mhoced phoced pocedi
+87	1887	amheuaeth	amheuon
+88	1888	cyfartaledd	chyfartaledd cyfartaleddau gyfartaledd
+89	1889	cynhyrchiad	chynhyrchiad chynhyrchiadau chynyrchiadau gynhyrchiad gynhyrchiadau nghynhyrchiad
+90	1890	ymddiswyddo	ymddiswydda ymddiswyddadwy ymddiswyddaf ymddiswyddai ymddiswyddais ymddiswyddaist ymddiswyddant ymddiswyddech ymddiswyddedig ymddiswyddem ymddiswyddent ymddiswyddi ymddiswyddir ymddiswyddoch ymddiswyddodd ymddiswyddwch ymddiswyddwn ymddiswyddwyd
+91	1891	canwr	canwyr chanwr ganwr
+92	1892	hybu	hyba hybadwy hybaf hybai hybais hybaist hybant hybech hybedig hybem hybent hybi hybir hybo hyboch hybodd hybu'r hybwch hybwn hybwyd
+93	1893	dylanwadu	ddylanwadu dylanwada dylanwadadwy dylanwadaf dylanwadai dylanwadais dylanwadaist dylanwadant dylanwadech dylanwadedig dylanwadem dylanwadent dylanwadi dylanwadir dylanwado dylanwadoch dylanwadodd dylanwadu'n dylanwadwch dylanwadwn dylanwadwyd dylanwedir
+94	1894	niferus	
+95	1895	cyfrifoldeb	chyfrifoldeb cyfrifoldebau gyfrifoldeb
+96	1896	dwsin	ddwsin dwsenni dwsinau
+97	1897	sgil-effaith	sgil-effeithiau
+98	1898	ffug	ffugiau ffugion
+99	1899	rhyngrwyd	rhyngrwydi ryngrwyd
+100	1900	llysenw	llysenw'r llysenwau lysenw

@@ -1,0 +1,100 @@
+1	4301	murlun	furlun murluniau
+2	4302	cythryblus	chythryblus gythryblus
+3	4303	ysbrydolrwydd	
+4	4304	asen	asennau asennod
+5	4305	ased	asedau
+6	4306	winwns	gwynwyn nionod oinion onion onionod winion winiwn winwnsyn wnion
+7	4307	arsyllfa	arsyllfaoedd arsyllfeydd
+8	4308	atgenhedlu	atgenhedla atgenhedladwy atgenhedlaf atgenhedlai atgenhedlais atgenhedlaist atgenhedlant atgenhedlech atgenhedledig atgenhedlem atgenhedlent atgenhedli atgenhedlir atgenhedlo atgenhedloch atgenhedlodd atgenhedlu'n atgenhedlwch atgenhedlwn atgenhedlwyd
+9	4309	llyw	llywiau lyw
+10	4310	ffwrn	ffyrnau
+11	4311	ffyddlondeb	
+12	4312	croth	chroth crothau groth
+13	4313	ymosodwr	hymosodwr ymosodwyr
+14	4314	brechlyn	brechlynnau frechlyn
+15	4315	rhyfelwr	rhyfelwyr ryfelwr
+16	4316	gwent	ngwent
+17	4317	bala	balaon fala mala
+18	4318	cornbig	cornbigau
+19	4319	chwistrell	
+20	4320	bargyfreithiwr	fargyfreithiwr
+21	4321	cyflawniad	cyflawniadau gyflawniad gyflawniadau
+22	4322	digrifwr	ddigrifwr digrifwyr
+23	4323	alaeth	alaethau
+24	4324	celfyddydol	chelfyddydol gelfyddydol
+25	4325	wythdegau	hwythdegau
+26	4326	sgleiniog	
+27	4327	graen	graean
+28	4328	paramedr	baramedr baramedrau paramedrau pharamedr
+29	4329	cynhyrchiant	chynhyrchiant gynhyrchiant
+30	4330	arddangosiad	arddangosiadau
+31	4331	madfall	fadfall madfallod madfeill madfeillod
+32	4332	nofiwr	nofwyr
+33	4333	cenedlaetholgar	chenedlaetholgar genedlaetholgar
+34	4334	bugunad	
+35	4335	leicio	leici leicia leiciadwy leiciaf leiciai leiciais leiciaist leician leiciant leiciech leiciedig leiciem leicient leicioch leiciodd leicir leiciwch leiciwn leiciwyd leico lico
+36	4336	ymdrochi	ymdrochodd
+37	4337	craith	chraith creithau creithiau graith
+38	4338	ambiwlans	ambiwlansiau ambiwlansys
+39	4339	analog	
+40	4340	mympwyol	fympwyol
+41	4341	morfil	forfil morfilod
+42	4342	trefedigaethol	
+43	4343	systematig	
+44	4344	tywysogaeth	dywysogaeth thywysogaeth tywysogaethau
+45	4345	gwyntog	wyntog
+46	4346	annhebygol	
+47	4347	ffŵl	ffyliaid ffylyn
+48	4348	gwaelodol	waelodol
+49	4349	lleithder	leithder
+50	4350	ceunant	ceunentydd geunant
+51	4351	capasiti	chapasiti gapasiti
+52	4352	tap	dap tapau tapiau taps tepyn
+53	4353	dioddefaint	ddioddefaint
+54	4354	sleid	sleidiau
+55	4355	gwahaniaethol	wahaniaethol
+56	4356	terfynu	derfynu terfynai terfynodd terfynwyd therfynu
+57	4357	digrif	ddigrif digrifach digrifaf digrifion
+58	4358	gemwaith	emwaith
+59	4359	rhyfela	rhyfeladwy rhyfelaf rhyfelai rhyfelais rhyfelaist rhyfelant rhyfelech rhyfeledig rhyfelem rhyfelent rhyfeli rhyfelir rhyfelo rhyfeloch rhyfelodd rhyfelwch rhyfelwn rhyfelwyd ryfela
+60	4360	clwyf	clwy clwyfau glwyf
+61	4361	diffeithwch	ddiffeithwch
+62	4362	pys	pysen
+63	4363	llech	llechau llechi
+64	4364	moleciwlaidd	foleciwlaidd
+65	4365	baich	beichiau faich
+66	4366	ffyniant	
+67	4367	arsylwad	arsylwadau
+68	4368	pengoch	bengoch pengochion
+69	4369	cyflafan	chyflafan cyflafanau gyflafan
+70	4370	haidd	heidden
+71	4371	ymgyrchwr	ymgyrchwyr
+72	4372	concwest	choncwest concwestau goncwest
+73	4373	h.y.	
+74	4374	en	eniau
+75	4375	dieflig	diaflig diawlig diefligau
+76	4376	tywynnu	tywynadwy tywynedig tywynna tywynnaf tywynnai tywynnais tywynnaist tywynnant tywynnech tywynnem tywynnent tywynni tywynnir tywynno tywynnoch tywynnodd tywynnu'n tywynnwch tywynnwn tywynnwyd
+77	4377	diog	ddiog diogach diogaf
+78	4378	emrallt	emralltiau
+79	4379	heini	heinif
+80	4380	llongddrylliad	llongddrylliadau longddrylliad
+81	4381	ymddiheuriad	ymddiheuriadau
+82	4382	corwynt	chorwynt corwyntoedd gorwynt
+83	4383	plesio	blesio phlesio phlesiwyd plesiwyd
+84	4384	amaethu	amaetha amaethadwy amaethaf amaethai amaethais amaethaist amaethant amaethech amaethedig amaethem amaethent amaethi amaethir amaetho amaethoch amaethodd amaethu'r amaethwch amaethwn amaethwyd hamaethu
+85	4385	traffordd	draffordd thraffordd traffyrdd
+86	4386	deor	ddeor dehoraf dehori dehoryd deori dyor dïor
+87	4387	creadigaeth	chreadigaeth creadigaethau greadigaeth
+88	4388	iwnifform	hiwnifform
+89	4389	geneteg	eneteg
+90	4390	gwrthsafiad	wrthsafiad
+91	4391	cart	ceirt cert certi certiau chart gart
+92	4392	ysbeidiol	
+93	4393	ffotograffig	
+94	4394	nitrogen	
+95	4395	safoni	safona safonadwy safonaf safonai safonais safonaist safonant safonech safonem safonent safoni'n safoni'r safonir safono safonoch safonodd safonwch safonwn safonwyd
+96	4396	treiddio	dreiddio treiddi treiddia treiddiadwy treiddiaf treiddiai treiddiais treiddiaist treiddiant treiddiech treiddiedig treiddiem treiddient treiddio'n treiddio'r treiddioch treiddiodd treiddir treiddiwch treiddiwn treiddiwyd
+97	4397	prentis	brentis prentisiaid
+98	4398	cyfrifiannell	cyfrifianellau cyfrifiannellau cyfrifriannellau gyfrifiannell
+99	4399	gofidus	ofidus
+100	4400	gefail	efail gefeiliau

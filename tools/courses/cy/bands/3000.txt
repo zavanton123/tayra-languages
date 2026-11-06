@@ -1,0 +1,100 @@
+1	2901	ffracsiwn	ffracsiynau
+2	2902	tanagr	tanagrod
+3	2903	brwdfrydedd	frwdfrydedd
+4	2904	traul	draul thraul treuliau treulion
+5	2905	dramatig	ddramatig
+6	2906	tlws	clws dlws nhlws thlws tlos tlysach tlysaf tlysau tlysion
+7	2907	tebygolrwydd	debygolrwydd
+8	2908	perllan	berllan perllannau
+9	2909	swnllyd	
+10	2910	ystadegau	ystadegau'n ystadegau'r
+11	2911	llythrennol	lythrennol
+12	2912	negatif	
+13	2913	teclyn	declyn teclynnau
+14	2914	gwenwynig	wenwynig
+15	2915	cyfochrog	gyfochrog
+16	2916	sawdl	sodlau
+17	2917	undod	
+18	2918	brenhiniaeth	breniniaethau frenhiniaeth
+19	2919	gweladwy	gweladwy'r ngweladwy weladwy
+20	2920	tymer	dymer nhymer thymer tymherau
+21	2921	etifeddiaeth	etifeddiaethau hetifeddiaeth
+22	2922	cleddyf	chleddyf cleddau cleddydd cleddyfau gleddyf
+23	2923	diwinyddol	ddiwinyddol
+24	2924	gwirion	wirion
+25	2925	canlyn	canlyna canlynadwy canlynaf canlynai canlynais canlynaist canlynant canlynech canlynedig canlynem canlynent canlyni canlyniau canlynir canlyno canlynoch canlynodd canlynwch canlynwn canlynwyd chanlyn ganlyn
+26	2926	gwersylla	gwersyllodd wersylla wersyllodd
+27	2927	dyfyniad	ddyfyniad ddyfyniadau dyfyniadau
+28	2928	angheuol	
+29	2929	grêt	gretach gretaf
+30	2930	arch	eirch eirchion harch
+31	2931	garej	garejis garejys ngarej
+32	2932	synthetig	
+33	2933	archwiliad	archwiliadau
+34	2934	sglodyn	sglodion sglods
+35	2935	talcen	dalcen nhalcen talcennau talcenni thalcen
+36	2936	arbenigedd	harbenigedd
+37	2937	artiffisial	
+38	2938	coesyn	choesyn coesynnau goesyn
+39	2939	gwaredu	gwaredir gwaredu'r gwaredwyd gweryd waredu
+40	2940	dychanol	ddychanol
+41	2941	haid	heidiau
+42	2942	cadfridog	chadfridogion
+43	2943	llawfeddyg	lawfeddyg llawfeddygon
+44	2944	modelu	fodelir fodelu fodelwyd modelaf modelir modelodd modelu'r modelwyd
+45	2945	merthyr	ferthyr merthyres merthyron
+46	2946	amlygu	amlyga amlygadwy amlygaf amlygai amlygais amlygaist amlygant amlygech amlygedig amlygem amlygent amlygi amlygir amlygo amlygoch amlygodd amlygu'r amlygu'u amlygwch amlygwn amlygwyd hamlygu
+47	2947	clasur	clasuron glasur
+48	2948	barf	barfau farf
+49	2949	difrif	ddifrif difrifach difrifaf
+50	2950	preswyliwr	preswylwr preswylwyr
+51	2951	ffliw	ffliw'r ffliwau ffliwen ffliwiau
+52	2952	blewyn	blew
+53	2953	siriol	siriolach siriolaf
+54	2954	maestref	faestref maestrefi
+55	2955	allforio	allfori allforia allforiaf allforiai allforiais allforiaist allforiant allforid allforiech allforiedig allforiem allforient allforio'r allforioch allforiodd allforir allforiwch allforiwn allforiwyd hallforio
+56	2956	gwaethygu	gwaethyga gwaethygodd gwaethygu'n gwaethygu'r gwaethygwyd waethygodd waethygu
+57	2957	tyner	dyner tynerion
+58	2958	amheus	
+59	2959	llongyfarchiad	llongyfarchiadau
+60	2960	storfa	storfaoedd storfeydd storfâu ystorfa
+61	2961	saeth	saethau
+62	2962	ffansi	ffansïau ffansïoedd ffansïon
+63	2963	trosi	drosi throsi trosa trosadwy trosaf trosais trosaist trosant trosedig trosi'n trosi'r trosir troso trosoch trosodd troswch troswyd
+64	2964	dychmygol	ddychmygol
+65	2965	cyfundrefn	chyfundrefn cyfundrefnau gyfundrefn nghyfundrefn
+66	2966	cosbi	chosbi cosba cosbadwy cosbaf cosbai cosbais cosbaist cosbant cosbech cosbedig cosbem cosbent cosbi'i cosbi'n cosbi'r cosbir cosbo cosboch cosbodd cosbwch cosbwn cosbwyd gosbi
+67	2967	bri	bri'r brïau fri mri
+68	2968	maneg	faneg menig
+69	2969	comisiynydd	chomisiynydd comisiynyddion gomisiynydd
+70	2970	morris	morrisiaid
+71	2971	clerc	chlerc chlercod glerc glercod
+72	2972	cyfoed	chyfoedion cyfoedion gyfoedion
+73	2973	llywodraethol	lywodraethol
+74	2974	basged	basgad basgedau basgedi fasged
+75	2975	fertig	fertigau
+76	2976	rhwydd	rhwyddach rhwyddaf rhwyddion rwydd
+77	2977	ymddiheuro	ymddiheura ymddiheuradwy ymddiheuraf ymddiheurai ymddiheurais ymddiheuraist ymddiheurant ymddiheurech ymddiheuredig ymddiheurem ymddiheurent ymddiheuri ymddiheurir ymddiheuro'n ymddiheuroch ymddiheurodd ymddiheurwch ymddiheurwn ymddiheurwyd
+78	2978	sur	surach suraf surion
+79	2979	dedfryd	ddedfryd dedfrydau
+80	2980	ystad	ystadau ystadiau
+81	2981	newyn	newynau
+82	2982	pot	bot potau potiau potyn
+83	2983	machlud	fachlud machluda machludadwy machludaf machludai machludais machludaist machludant machludau machludech machludedig machludem machludent machludi machludir machludo machludoch machludodd machludwch machludwn machludwyd
+84	2984	efengyl	efangel efangyl efengylau
+85	2985	pori	bori phori pora poradwy poraf porai porais poraist porant porech poredig porem porent pori'r porir poro poroch porodd porwch porwn porwyd
+86	2986	ymddeoliad	ymddeoliadau
+87	2987	ymgymryd	ymgymera ymgymeradwy ymgymeraf ymgymerai ymgymerais ymgymeraist ymgymerant ymgymerech ymgymeredig ymgymerem ymgymerent ymgymeri ymgymerir ymgymero ymgymeroch ymgymerodd ymgymerwch ymgymerwn ymgymerwyd ymgymeryd
+88	2988	caban	cabanau chaban gaban nghaban
+89	2989	campfa	campfaoedd campfeydd champfa gampfa
+90	2990	bioleg	fioleg
+91	2991	gwaharddiad	gwaharddiadau waharddiad
+92	2992	adalw	adalwa adalwaf adalwai adalwant adalwch adalwech adalwedig adalwem adalwent adalwn adalwo adalwoch adalwodd adalwyd adeilw adelwais adelwaist adelwch adelwi adelwir
+93	2993	blodeugerdd	flodeugerdd
+94	2994	amledd	amleddau hamledd
+95	2995	toddi	doddi tawdd thoddi todda toddadwy toddaf toddai toddais toddaist toddant toddech toddedig toddem toddent toddi'r toddion toddir toddo toddoch toddodd toddwch toddwn toddwyd
+96	2996	llafn	lafn lafnau llafnau
+97	2997	bathu	batha bathaf bathir batho bathodd bathu'r bathwch bathwyd fathodd fathu fathwyd
+98	2998	diwinyddiaeth	ddiwinyddiaeth
+99	2999	cynnil	cynilach cynilaf cynilion gynnil
+100	3000	ymdrechu	ymdrecha ymdrechadwy ymdrechaf ymdrechai ymdrechais ymdrechaist ymdrechant ymdrechasent ymdrechech ymdrechedig ymdrechem ymdrechent ymdrechi ymdrechir ymdrecho ymdrechoch ymdrechodd ymdrechu'n ymdrechwch ymdrechwn ymdrechwyd

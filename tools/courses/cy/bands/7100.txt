@@ -1,0 +1,100 @@
+1	7001	hydred	hydredau
+2	7002	clocwedd	glocwedd
+3	7003	ailgyhoeddi	ailgyhoeddwyd hailgyhoeddi
+4	7004	dirprwyo	ddirprwyo ddirprwywyd dirprwyir
+5	7005	plwyfol	blwyfol
+6	7006	gwynfyd	gwynfydau wynfyd
+7	7007	llesteirio	lesteirio llesteiri llesteiria llesteiriadwy llesteiriaf llesteiriai llesteiriais llesteiriaist llesteiriech llesteiriedig llesteiriem llesteirient llesteirioch llesteiriodd llesteirir llesteiriwch llesteiriwn llesteiriwyd
+8	7008	patriarch	batriarch padriarch patriarchiaid pedriarch phatriarch
+9	7009	hwylbren	hwylbrennau hwylbrenni
+10	7010	addurniad	addurniadau
+11	7011	slym	slymiau
+12	7012	dirywiedig	ddirywiedig
+13	7013	areithiwr	areithwyr
+14	7014	plygiant	blygiant plygian plygiannau plygiantau
+15	7015	credadun	credinwyr
+16	7016	mango	mangos
+17	7017	perchnogol	
+18	7018	diolchgarwch	ddiolchgarwch
+19	7019	cyndad	cyndeidiau
+20	7020	amgylchfyd	
+21	7021	goddefiad	
+22	7022	bwn	bynnoedd mwn
+23	7023	rhuddgoch	rhuddgochach rhuddgochaf rhuddgochion ruddgoch
+24	7024	meistrolgar	feistrolgar
+25	7025	cadarnle	cadarnle'r cadarnleoedd
+26	7026	claddgell	claddgelloedd gladdgell nghladdgell
+27	7027	ciniawa	chiniawa giniawa giniawodd
+28	7028	myfyriol	fyfyriol
+29	7029	tewhau	dewhau
+30	7030	gwylnos	wylnos
+31	7031	picell	bicell phicell picellau
+32	7032	contractio	chontractio gontractio gontractiodd
+33	7033	gran	grannau ran
+34	7034	pali	bali palïau peli
+35	7035	palmantu	balmantu phalmantu
+36	7036	clustffon	clust-ffôn clustffonau
+37	7037	nodio	nodiodd
+38	7038	gwŷdd	gwydden gwyddiau gwyddion wŷdd
+39	7039	glasfyfyriwr	glasfyfyrwraig glasfyfyrwyr
+40	7040	seiren	seirenau seirenes seireniaid seirens siren
+41	7041	arg	argiau
+42	7042	euogrwydd	
+43	7043	unlliw	
+44	7044	grealaidd	realaidd
+45	7045	condor	
+46	7046	hinsoddol	
+47	7047	llifddor	llifddorau
+48	7048	ymgyfarwyddo	ymgyfarwyddaf ymgyfarwyddo'r
+49	7049	carwriaethol	charwriaethol
+50	7050	plethwaith	phlethwaith plethweithiau
+51	7051	gwyryf	gwyrf gwyry gwyryfon wyryf
+52	7052	gwlana	gwlan gwlanadwy gwlanaf gwlanai gwlanant gwlanech gwlanedig gwlanem gwlanent gwlano gwlanoch gwlanodd gwlanwch gwlanwn gwlanwyd gwlenais gwlenaist gwleni gwlenir gwlenwch wlan
+53	7053	pydew	bydew pydewau pydewiau
+54	7054	dibrofiad	ddibrofiad
+55	7055	lladdiad	laddiad lladdiadau
+56	7056	bradwr	bradwraig bradwyr fradwr
+57	7057	bychanu	bychanaf bychanu'r fychanu
+58	7058	diflino	ddiflino diflinaf diflino'r divlina divlinadwy divlinaf divlinai divlinais divlinaist divlinant divlinech divlinedig divlinem divlinent divlini divlinir divlino divlinoch divlinodd divlinwch divlinwn divlinwyd
+59	7059	cyfanwaith	cyfanweithiau gyfanwaith
+60	7060	ailysgrifennu	hailysgrifennu
+61	7061	mercwri	fercwri
+62	7062	beichus	feichus
+63	7063	arsyllu	arsylla arsylladwy arsyllaf arsyllai arsyllais arsyllaist arsyllant arsyllech arsylledig arsyllem arsyllent arsylli arsyllir arsyllo arsylloch arsyllodd arsyllwch arsyllwn arsyllwyd
+64	7064	cysegrfa	cysegrfaoedd cysegrfeydd gysegrfa nghysegrfa
+65	7065	agorfa	agorfeydd
+66	7066	cyfleustra	gyfleustra
+67	7067	smalio	
+68	7068	ymfudiad	ymfudiadau
+69	7069	sbecian	sbeciaf sbecio ysbecian ysbecio
+70	7070	rhyddfraint	rhyddfreiniau
+71	7071	ynysol	
+72	7072	anaeddfed	
+73	7073	noethni	
+74	7074	hafn	hafnau hafnoedd
+75	7075	feirysol	firysol
+76	7076	torheulo	torheulaf
+77	7077	diarwybod	ddiarwybod
+78	7078	ganiatad	
+79	7079	pia	bia
+80	7080	ffisig	physyg
+81	7081	cyn-gristnogol	
+82	7082	pigfelyn	
+83	7083	rwden	rwdins
+84	7084	anghyfarwydd	
+85	7085	coronafeirws	coronafeirysau
+86	7086	eurben	
+87	7087	difreintiedig	
+88	7088	crocbren	crocbreniau crocbrennau crocbrenni grocbren
+89	7089	tabwrdd	tabyrddau
+90	7090	pryfyn	bryfyn
+91	7091	tagellog	dagellog
+92	7092	mynyddog	fynyddog
+93	7093	moryd	foryd
+94	7094	plat	blat
+95	7095	carthffosiaeth	garthffosiaeth
+96	7096	croesoswallt	nghroesoswallt
+97	7097	hugan	hucan huganod
+98	7098	mieri	fieri meieri merin miaren mieren mierïen
+99	7099	curad	ciwrad curedyn gurad
+100	7100	trew	drew

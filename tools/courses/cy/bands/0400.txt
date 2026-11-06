@@ -1,0 +1,100 @@
+1	301	poblogaidd	boblogaidd phoblogaidd
+2	302	cynhyrchu	chynhyrchu cynhyrch cynhyrcha cynhyrchadwy cynhyrchaf cynhyrchai cynhyrchais cynhyrchaist cynhyrchant cynhyrchech cynhyrchedig cynhyrchem cynhyrchent cynhyrchi cynhyrchid cynhyrchio cynhyrchir cynhyrcho cynhyrchoch cynhyrchodd cynhyrchu'n cynhyrchu'r cynhyrchwch cynhyrchwn cynhyrchwyd gynhyrchu
+3	303	wedyn	
+4	304	llai	lai llai'r
+5	305	darllen	darllain darlleaw darllena darllenadwy darllenaf darllenai darllenais darllenaist darllenant darllenech darllenedig darllenem darllenent darlleni darllenir darlleno darllenoch darllenodd darllenon darllenwch darllenwn darllenwyd ddarllen
+6	306	enghraifft	enghreifftiau
+7	307	geni	eni ganed ganedig ganwyd genedigol geni'n geni'r genid genir ngeni
+8	308	olaf	holaf ola
+9	309	addysg	addysgau haddysg
+10	310	gwasanaeth	gwasanaethau ngwasanaeth wasanaeth
+11	311	gwybodaeth	gwybodaethau wybodaeth
+12	312	credu	chredu creda credaf credai credais credaist credant credech crededig credem credent credes credet credi credid credir credit credo credoau credoch credodd credu'n credu'r credwch credwn credwyd creto gredu
+13	313	uchel	cyfuwch huchel uch
+14	314	papur	bapur mhapur papurau phapur
+15	315	awr	oriau
+16	316	gŵr	gwŷr ngŵr ŵr
+17	317	car	ceir char gar garrau nghar
+18	318	rhywbeth	rywbeth
+19	319	agor	agora agoradwy agoraf agorai agorais agoraist agorant agorech agoredig agorem agorent agoret agori agorir agoro agoroch agorodd agorwch agorwn agorwyd egyr hagor
+20	320	bwyta	bwyta'i bwyta'n bwyta'r bwytaech bwytaedig bwytaem bwytaent bwytais bwytaist bwytao bwytaoch bwytaodd bwytawn bwytawyd bwytaëdig bwyteais bwyteaist bwytei bwyteir bwytewch bwyti bwytoch bwytodd bwyton bwytwch bwytâ bwytâf bwytâi bwytânt fwyta
+21	321	siop	siopau
+22	322	nesaf	nesa
+23	323	clywed	chlywed clybod clywa clywaf clywai clywais clywaist clywant clywch clywech clywedig clywem clywent clywi clywid clywir clywn clywo clywoch clywodd clywsant clywsoch clywyd glywed glywes
+24	324	neb	
+25	325	cyngor	chyngor cynghorau cynghorion gyngor nghyngor
+26	326	gorsaf	gorsafoedd ngorsaf orsaf
+27	327	wyneb	gwyneb hwyneb wynebau
+28	328	chwech	chwe chwechau
+29	329	coeden	coed
+30	330	posibl	bosib bosibl phosib phosibl posib posibil
+31	331	peidio	beidio paid peidi peidiadwy peidiaf peidiai peidiais peidiaist peidiant peidiech peidiedig peidiem peidient peidioch peidiodd peidir peidiwch peidiwn peidiwyd pheidio
+32	332	clwb	chlwb clybiau glwb nghlwb
+33	333	dyna	dyna'n dyna'r
+34	334	ffurf	ffurfiau
+35	335	person	berson personau pherson
+36	336	rhaglen	raglen rhaglenni
+37	337	drws	ddrws drysau drysiau nrws
+38	338	diolch	ddiolch diolcha diolchaf diolchai diolchais diolchaist diolchant diolchech diolchem diolchent diolchi diolchiadau diolchir diolcho diolchoch diolchodd diolchwch diolchwn diolchwyd
+39	339	diweddar	ddiweddar diweddarach diweddaraf
+40	340	aderyn	adar
+41	341	llinell	linell llinellau
+42	342	marwolaeth	farwolaeth marwolaethau
+43	343	ffurfio	ffurfi ffurfia ffurfiadwy ffurfiaf ffurfiai ffurfiais ffurfiaist ffurfiant ffurfiasai ffurfiasant ffurfid ffurfiech ffurfiedig ffurfiem ffurfient ffurfio'i ffurfio'n ffurfio'r ffurfioch ffurfiodd ffurfir ffurfiwch ffurfiwn ffurfiwyd ffurfo
+44	344	nos	nosau nosweithiau
+45	345	golygu	golyga golygadwy golygaf golygai golygais golygaist golygant golygasant golygech golygedig golygem golygent golygi golygid golygir golygo golygoch golygodd golygu'n golygu'r golygwch golygwn golygwyd olygu
+46	346	gwir	gwirach gwiraf gwiriau ngwir wir
+47	347	tymor	dymor nhymor thymor tymhorau
+48	348	byth	bythoedd fyth myth
+49	349	carreg	cerrig charreg garreg
+50	350	cwmpas	chwmpas cwmpasau gwmpas
+51	351	bore	borau bore'n bore'r boreau fore more
+52	352	unwaith	
+53	353	colli	cholli colla colladwy collaf collai collais collaist collant collasant collech colledig collem collent colli'i colli'n colli'r colli'u collir collo colloch collodd collwch collwn collwyd golli gollon
+54	354	dewis	ddewis dewisa dewisadwy dewisaf dewisai dewisais dewisaist dewisant dewisedig dewisi dewisiadau dewisid dewision dewisir dewiso dewisoch dewisodd dewisont dewiswch dewiswyd newis
+55	355	digwyddiad	ddigwyddiad digwyddiadau nigwyddiad
+56	356	rhannu	rannu rhanadwy rhanedig rhanna rhannaf rhannai rhannant rhannech rhannem rhannent rhannir rhanno rhannoch rhannodd rhannu'i rhannu'n rhannu'r rhannwch rhannwn rhannwyd rhanwyd rhen rhennais rhennaist rhenni rhennid rhennir rhennwch
+57	357	wythnos	hwythnos wythnosau
+58	358	rhestr	restr rhestrau rhestri
+59	359	amlwg	amlycach amlycaf amlygion
+60	360	gwell	well
+61	361	awdur	awduron hawdur
+62	362	gosod	gesyd gosoda gosodaf gosodai gosodais gosodaist gosodant gosodech gosodem gosodent gosodi gosodid gosodir gosodo gosodoch gosododd gosodwch gosodwn gosodwyd osod
+63	363	rhain	rain rhein
+64	364	pump	bump phump pum
+65	365	cefn	cefnau cefnoedd cefnydd chefn gefn nghefn
+66	366	cyfeirio	chyfeirio cyfeiri cyfeiria cyfeiriadwy cyfeiriaf cyfeiriai cyfeiriais cyfeiriaist cyfeiriant cyfeirid cyfeiriech cyfeiriedig cyfeiriem cyfeirient cyfeirio'n cyfeirio'r cyfeirioch cyfeiriodd cyfeirion cyfeirir cyfeiriwch cyfeiriwn cyfeiriwyd gyfeirio
+67	367	cofio	chofio cofadwy cofedig cofi cofia cofiaf cofiai cofiais cofiaist cofid cofiech cofiedig cofiem cofient cofier cofio'i cofio'r cofioch cofiodd cofion cofir cofiwch cofiwn cofiwyd gofio nghofio
+68	368	dychwelyd	ddychwelyd dychwel dychwela dychweladwy dychwelaf dychwelai dychwelais dychwelaist dychwelant dychwelasant dychweld dychwelech dychweledig dychwelem dychwelent dychweli dychwelir dychwelo dychweloch dychwelodd dychwelsant dychwelwch dychwelwn dychwelwyd
+69	369	bardd	beirdd fardd
+70	370	chwaraewr	chwaraewyr
+71	371	teledu	deledu teleda teledadwy teledaf teledai teledais teledaist teledant teledau teledech teledem teledent teledi teledir teledo teledoch teledodd teledu'n teledu'r teledwch teledwn teledwyd theledu
+72	372	cerdd	cerdda cerddi cerddiff cerddith cherdd gerdd
+73	373	stryd	strydoedd
+74	374	sefydliad	sefydliadau
+75	375	rhy	ry
+76	376	ble	ble'r
+77	377	faint	
+78	378	term	derm dermau nhermau termau therm thermau
+79	379	prynu	brynu phrynu pryna prynaf prynai prynais prynaist prynant prynech prynedig prynem prynent pryni prynir pryno prynoch prynodd prynon prynu'r prynwch prynwn prynwyd prŷn
+80	380	darn	darnau darnen ddarn dernyn narn
+81	381	syniad	syniadau
+82	382	hwnnw	hwnnw'n
+83	383	rhif	rhifau rif
+84	384	nodi	noda nodaf nodai nodais nodaist nodant nodech nodem nodent noder nodi'n nodi'r nodir nodo nodoch nododd nodwch nodwn nodwyd
+85	385	honno	honno'n
+86	386	adran	adrannau hadran
+87	387	achosi	achosa achosadwy achosaf achosai achosais achosaist achosant achosasant achosedig achosi'n achosi'r achosid achosir achoso achosoch achosodd achoswch achoswyd hachosi
+88	388	adref	adra adre
+89	389	astudio	astudi astudia astudiadwy astudiaf astudiai astudiais astudiaist astudiant astudiech astudiedig astudiem astudient astudio'n astudio'r astudioch astudiodd astudir astudiwch astudiwn astudiwyd hastudio
+90	390	gwasanaethu	gwasanaetha gwasanaethadwy gwasanaethaf gwasanaethai gwasanaethais gwasanaethaist gwasanaethant gwasanaethech gwasanaethedig gwasanaethem gwasanaethent gwasanaethi gwasanaethir gwasanaetho gwasanaethoch gwasanaethodd gwasanaethu'n gwasanaethu'r gwasanaethwch gwasanaethwn gwasanaethwyd wasanaethu
+91	391	cyfarfod	chyfarfod cwarfod cyfarfodydd cyfarfu cyfarfuant cyfarfuoch cyfarfuwyd cyfarfydd cyfarfydda cyfarfyddadwy cyfarfyddaf cyfarfyddai cyfarfyddais cyfarfyddaist cyfarfyddant cyfarfyddech cyfarfyddedig cyfarfyddem cyfarfyddent cyfarfyddi cyfarfyddir cyfarfyddo cyfarfyddoch cyfarfyddodd cyfarfyddwch cyfarfyddwn cyfarfûm cyferfydd gyfarfod nghyfarfod
+92	392	byr	byrion byrrach byrraf fyr myr
+93	393	cwbl	chwbl cwbwl gwbl
+94	394	brawd	brodiau brodyr frawd mrawd
+95	395	llong	llongau long
+96	396	rhyngwladol	ryngwladol
+97	397	ger	
+98	398	nag	
+99	399	priodi	briodi briododd briodwyd phriodai phriodasant phriodi phriododd prioda priodaf priodasant priodi'n priodi'r priodir priododd priodwyd
+100	400	helpu	helpa helpadwy helpaf helpai helpais helpaist helpant helpech helpedig helpem helpent helpi helpir helpo helpoch helpodd helpon helpu'i helpu'r helpwch helpwn helpwyd

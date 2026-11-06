@@ -1,0 +1,100 @@
+1	4701	troednoeth	droednoeth
+2	4702	tactegol	dactegol
+3	4703	atgyweiriad	atgyweiriadau
+4	4704	crisial	crisialau
+5	4705	magnel	fagnel magnelau magneli mangnel
+6	4706	deon	ddeon
+7	4707	diwygiwr	ddiwygiwr ddiwygwyr diwygwyr
+8	4708	priordy	briordy priordai
+9	4709	beunydd	
+10	4710	berw	berw'r berwen berwon
+11	4711	gwinllan	gwinllannau gwinllannoedd ngwinllan winllan
+12	4712	diangen	ddiangen
+13	4713	manwerthu	fanwerthu manwerthaf mân-werthu
+14	4714	gohebiaeth	gohebiaethau ohebiaeth
+15	4715	caethiwed	chaethiwed gaethiwed
+16	4716	gwladwriaethol	wladwriaethol
+17	4717	dyledus	ddyledus
+18	4718	coets	goets
+19	4719	hyrwyddwr	hyrwyddwyr
+20	4720	cyfrin	cyfrinaf gyfrin
+21	4721	chwyrn	chwern chwyrnach chwyrnaf
+22	4722	afiach	
+23	4723	costus	chostus gostus
+24	4724	anwedd	anweddau
+25	4725	adlewyrchiad	adlewyrchiadau
+26	4726	ufuddhau	ufuddau ufuddha ufuddhadwy ufuddhaf ufuddhai ufuddhais ufuddhaist ufuddhant ufuddhaodd ufuddhech ufuddhedig ufuddhem ufuddhent ufuddhi ufuddhir ufuddho ufuddhoch ufuddhodd ufuddhwch ufuddhwn ufuddhwyd ufyddhau
+27	4727	crwydrol	grwydrol
+28	4728	cyfranogiad	chyfranogiad cyfranogiadau gyfranogiad
+29	4729	ager	agerau agerdd
+30	4730	ticed	diced ticedi
+31	4731	ustus	ustusiaid
+32	4732	trioedd	drioedd
+33	4733	llydanbig	llydanbigau
+34	4734	torchog	dorchog
+35	4735	wraniwm	
+36	4736	chwilfrydedd	
+37	4737	lagŵn	lagwnau
+38	4738	angori	angori'r hangori
+39	4739	pasbort	basbort pasbortau pasport phasbort
+40	4740	brigyn	frigyn
+41	4741	bwled	bwledi fwledi
+42	4742	offrwm	offrymau
+43	4743	llog	llogau llogydd log
+44	4744	is-gadeirydd	
+45	4745	cynnwrf	chynnwrf cynhyrfau cynhyrfoedd cynnwr gynnwrf
+46	4746	cymhwyster	chymhwyster cymwysterau gymhwyster
+47	4747	gweu	gwau gwea gweadwy gweaf gweai gweais gweaist gweant gweech gweem gweent gwei gweo gweoch gweodd gweu'r gwewch gwëir gwëwch gwëwn gwëwyd weid weu
+48	4748	cydsyniad	chydsyniad cydsyniadau gydsyniad
+49	4749	tram	tramiau
+50	4750	dugiaeth	ddugiaeth dugiaethau nugiaeth
+51	4751	rhith	rhithiau rith
+52	4752	tuduriad	tuduriaid
+53	4753	iarlles	iarllesau
+54	4754	llost	llostau lost
+55	4755	brongoch	brongochach brongochaf brongochion frongoch
+56	4756	brycheiniog	frycheiniog mrycheiniog
+57	4757	allgyrsiol	
+58	4758	mwyar	fwyar mwyaren
+59	4759	unfrydol	
+60	4760	catalydd	catalyddion chatalydd gatalydd
+61	4761	cemegyn	cemegau cemegion chemegau gemegau gemegyn
+62	4762	anaddas	
+63	4763	hebrwng	hebryngaf hebryngwyd
+64	4764	defodol	ddefodol
+65	4765	tad-cu	dad-cu tad-cus tadau-cu tadcuod thad-cu
+66	4766	tystio	dystio thystio tysti tystia tystiadwy tystiaf tystiai tystiais tystiaist tystiant tystiech tystiedig tystiem tystient tystioch tystiodd tystir tystiwch tystiwn tystiwyd
+67	4767	hawddgar	
+68	4768	pelen	belen pelennau pelenni phelen
+69	4769	lletchwith	
+70	4770	gwrthrychol	wrthrychol
+71	4771	trwyddedu	drwyddedu thrwyddedu trwyddedi trwyddedu'n
+72	4772	mandad	fandad mandadau mandat mandet mandod
+73	4773	cennad	cenhadau cenhadon gennad
+74	4774	coluddyn	coludd
+75	4775	cyfweld	chyfweld cyf-weld cyfwela cyfweladwy cyfwelaf cyfwelai cyfwelais cyfwelaist cyfwelant cyfwelech cyfweledig cyfwelem cyfwelent cyfweli cyfwelir cyfwelo cyfweloch cyfwelodd cyfwelwch cyfwelwn cyfwelwyd gyfweld
+76	4776	pac	bac mhac pacau paciau
+77	4777	cwnstabl	constabl cwnstabliaid cwnstabls cwnstebli gwnstabl
+78	4778	israniad	israniadau
+79	4779	swyddogaethol	
+80	4780	magnesiwm	fagnesiwm
+81	4781	segur	segurion
+82	4782	gonest	
+83	4783	amnewid	amnewidi amnewidia amnewidiaf amnewidiai amnewidiais amnewidiaist amnewidiant amnewidiech amnewidiem amnewidient amnewidio amnewidioch amnewidiodd amnewidir amnewidiwch amnewidiwn amnewidiwyd
+84	4784	sgriw	sgriwiau sgriws ysgriw
+85	4785	gwactod	
+86	4786	lletya	letya letyodd lletya'r
+87	4787	troseddu	droseddu throseddu trosedda troseddaf troseddai troseddais troseddaist troseddant troseddech troseddedig troseddem troseddent troseddi troseddir troseddo troseddoch troseddodd troseddwch troseddwn troseddwyd
+88	4788	ôl-raddedig	ôl-raddedigion
+89	4789	gwiced	gwicedau wiced wicedi
+90	4790	swil	
+91	4791	barddonol	farddonol
+92	4792	difa	ddifa difa'r difo
+93	4793	goruchwyliwr	goruchwylwraig goruchwylwyr oruchwyliwr
+94	4794	ymroddiad	hymroddiad ymroddiadau
+95	4795	cysgodi	chysgodi cysgoda cysgodadwy cysgodaf cysgodai cysgodais cysgodaist cysgodant cysgodech cysgodedig cysgodem cysgodent cysgodi'r cysgodir cysgodo cysgodoch cysgododd cysgodwch cysgodwn cysgodwyd gysgodi
+96	4796	terfyniad	derfyniad terfyniadau
+97	4797	gwasgod	gwasgodau wasgod
+98	4798	prifodl	brifodl prifodlau
+99	4799	sennu	senna senno
+100	4800	godre	godre'r godreon odre

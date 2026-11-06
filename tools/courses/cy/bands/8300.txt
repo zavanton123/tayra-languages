@@ -1,0 +1,100 @@
+1	8201	malwoden	falwoden
+2	8202	hirgylch	hirgylchau
+3	8203	neidiwr	neidwyr
+4	8204	tyweirch	dyweirch twyarchen tywarchen tywyrch
+5	8205	deubegwn	deubegynau
+6	8206	cwci	cwcis
+7	8207	hirgul	hirgulach hirgulaf hirgulion
+8	8208	germaniwm	
+9	8209	fflyrtio	
+10	8210	cefnen	gefnen
+11	8211	edifar	
+12	8212	genynnol	
+13	8213	malais	falais maleisiau maleision malis
+14	8214	adargi	adargwn
+15	8215	achrededig	
+16	8216	conigol	gonigol
+17	8217	cymysgfa	gymysgfa
+18	8218	ymochel	mochel ymochela ymocheladwy ymochelaf ymochelai ymochelais ymochelaist ymochelant ymochelech ymocheledig ymochelem ymochelent ymocheli ymochelir ymochelo ymocheloch ymochelodd ymochelu ymochelwch ymochelwn ymochelwyd ymochelyd ymochlyd
+19	8219	glanfa	lanfa ɡlanfeydd
+20	8220	adeileddol	
+21	8221	epistemoleg	
+22	8222	sigledig	
+23	8223	anghydweld	anghyd-weld anghydwela anghydweladwy anghydwelaf anghydwelai anghydwelais anghydwelaist anghydwelant anghydwelech anghydweledig anghydwelem anghydwelent anghydweli anghydwelir anghydwelo anghydweloch anghydwelodd anghydwelwch anghydwelwn anghydwelwyd anghydwêl
+24	8224	stŵr	styrau
+25	8225	haeriad	haeriadau
+26	8226	cydgerdded	gydgerdded
+27	8227	aml-ddefnydd	
+28	8228	anffrwythlondeb	
+29	8229	pengaled	bengaled
+30	8230	mymi	fymi mymïod
+31	8231	swynwr	swynwraig swynwyr
+32	8232	cydwedd	cydweddau cydweddion gydwedd
+33	8233	ïoneiddio	hïoneiddio ïoneidda ïoneiddadwy ïoneiddaf ïoneiddai ïoneiddais ïoneiddaist ïoneiddant ïoneiddech ïoneiddedig ïoneiddem ïoneiddent ïoneiddi ïoneiddio'r ïoneiddir ïoneiddo ïoneiddoch ïoneiddodd ïoneiddwch ïoneiddwn ïoneiddwyd
+34	8234	gwytnwch	wytnwch
+35	8235	pau	peuoedd
+36	8236	serfio	serfia serfio'r
+37	8237	diwahân	ddiwahân
+38	8238	aildyfu	aildyddu aildyfaf aildyfu'n
+39	8239	cwstard	chwstard cwstarden cwstardiau cwstards cwstart
+40	8240	tafl	dafl taflau
+41	8241	iteriad	iteriadau
+42	8242	ochenaid	ocheneidiau
+43	8243	cwter	cwteri gwter gwteri
+44	8244	ymffurfio	ymffurfiasant
+45	8245	llechwraidd	lechwraidd
+46	8246	treiddiol	dreiddiol
+47	8247	mawrygu	fawrygu mawryga mawrygadwy mawrygaf mawrygai mawrygais mawrygaist mawrygant mawrygech mawrygedig mawrygem mawrygent mawrygi mawrygid mawrygir mawrygo mawrygoch mawrygodd mawrygwch mawrygwn mawrygwyd
+48	8248	blingo	blinga blingaf blingai blingais blingaist blingant blingech blingem blingent blingi blingir blingo'r blingoch blingodd blingwch blingwn blingwyd flingo
+49	8249	cyfrifiant	cyfrifiannau gyfrifiant
+50	8250	gwrthun	wrthun
+51	8251	llysfab	llysfeibion lysfab
+52	8252	dirnadaeth	ddirnadaeth
+53	8253	chwennych	chwenychaf chwenychir chwenychu
+54	8254	catalytig	gatalytig
+55	8255	pastio	bastiwn pastia
+56	8256	ciwio	chiwio
+57	8257	cydweddu	cydwedda cydweddadwy cydweddaech cydweddaem cydweddaent cydweddaf cydweddao cydweddaoch cydweddaodd cydweddawn cydweddawyd cydweddeais cydweddeaist cydweddedig cydweddei cydweddeir cydweddewch cydweddwch cydweddâ cydweddâf cydweddâi cydweddânt gydweddi gydweddu
+58	8258	bocsiwr	bocswyr focsiwr
+59	8259	rhagddodi	ragddodi rhagddoda rhagddodadwy rhagddodaf rhagddodai rhagddodais rhagddodaist rhagddodant rhagddodech rhagddodedig rhagddodem rhagddodent rhagddodi'r rhagddodir rhagddodo rhagddodoch rhagddododd rhagddodwch rhagddodwn rhagddodwyd
+60	8260	crafiad	crafiadau
+61	8261	traddodiadwr	draddodiadwr traddodiadwyr
+62	8262	bwrn	byrn byrnau fwrn
+63	8263	gordd	gyrdd ordd
+64	8264	dadelfeniad	dadelfeniadau ddadelfeniad
+65	8265	blaendir	blaendiroedd
+66	8266	tristaf	thristaf
+67	8267	prysglwyn	prysglwyni
+68	8268	fforffedu	fforffedodd fforffedwyd
+69	8269	dwyrannu	ddwyran dwyran
+70	8270	plwmp	blwmp
+71	8271	eithafwr	eithafwyr
+72	8272	cyflymydd	cyflymyddion
+73	8273	clampio	glampio
+74	8274	moethusrwydd	foethusrwydd
+75	8275	mwynder	fwynder fwynderau mwynderau
+76	8276	motif	fotifau motifau
+77	8277	heintiad	heintiadau
+78	8278	gwyngalchu	gwyngalchwyd wyngalchu
+79	8279	cochaidd	gochaidd
+80	8280	fandaleiddio	fandaleiddiwyd
+81	8281	difodi	ddifodi difoda difodadwy difodaf difodai difodais difodaist difodant difodech difodedig difodem difodent difodir difodo difodoch difododd difodwch difodwn difodwyd
+82	8282	troseddeg	droseddeg
+83	8283	dominyddol	ddominyddol
+84	8284	gwresog	wresog
+85	8285	pinacl	pinaclau
+86	8286	murmur	furmur murmuraf murmurio murmuron murmuru mwrmwr
+87	8287	priodoldeb	briodoldeb
+88	8288	cylchfa	gylchfa gylchfaoedd nghylchfa
+89	8289	carwr	carwyr charwr
+90	8290	dibrisio	ddibrisiant dibrisiaf dibrisiant
+91	8291	ailgyfeirio	ailgyfeiri ailgyfeiria ailgyfeiriadwy ailgyfeiriaf ailgyfeiriai ailgyfeiriais ailgyfeiriaist ailgyfeiriant ailgyfeiriech ailgyfeiriedig ailgyfeiriem ailgyfeirient ailgyfeirio'r ailgyfeirioch ailgyfeiriodd ailgyfeirir ailgyfeiriwch ailgyfeiriwn ailgyfeiriwyd
+92	8292	blewiach	blewach flewiach
+93	8293	tameidiog	dameidiog
+94	8294	pared	parwydydd phared
+95	8295	gweithgor	weithgor
+96	8296	cyflafareddu	cyflafaredda cyflafareddadwy cyflafareddaf cyflafareddai cyflafareddais cyflafareddaist cyflafareddant cyflafareddech cyflafareddedig cyflafareddem cyflafareddent cyflafareddi cyflafareddir cyflafareddo cyflafareddoch cyflafareddodd cyflafareddwch cyflafareddwn cyflafareddwyd gyflafareddu
+97	8297	camddeall	chamddeall gamddeall
+98	8298	llongyfarch	llongyfarchaf longyfarch
+99	8299	mynyddwr	fynyddwyr
+100	8300	ysgrifwr	ysgrifwyr

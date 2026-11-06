@@ -1,0 +1,100 @@
+1	1	yn	ym ynddo ynddynt yng ynoch ynof ynot
+2	2	y	y'i y'r y'u y'w yr
+3	3	bod	baech baem baen baent baet baset basn baswn bawn bo bodadwy bodau bodedig boed bu bu'n bu'r buant buasai buaswn bues buest buoch buodd buom buon buont buwyd bydd bydda byddaf byddai byddan byddant byddech byddem bydden byddent byddet byddi byddid byddo byddoch byddwch byddwn bôm bônt bûm dach doedd doeddech doedden doeddet doeddwn does dw dwi dwyt dych dydan dydi dydw dydy dydych dydyn dyw faswn fod fodau fu fues fuon fydd fydda fyddaf fyddai fyddan fyddant fyddech fydden fyddent fyddet fyddi fyddwch fyddwn mae maen maent mod o'dd oedd oeddan oeddech oeddem oedden oeddent oeddet oeddwn oeddym oeddynt petai roedd roeddech roeddem roedden roeddent roeddet roeddwn roeddynt rw rwy rwy'n rwyf rwyt rydw rydych rydym rydyn sa so swn sy sydd tai taset tydy wyf wyt ydan ydi ydoedd ydw ydwyt ydy ydych ydym ydyn ydynt ydys ydyw ys yw yw'n yw'r ywen ŷch ŷm ŷn ŷnt
+4	4	i	i'ch i'm i'n i'r i'th i'w ichwi iddi iddo iddynt imi inni iti iwch
+5	5	o	ho o'ch o'i o'm o'n o'r o'th o'u ohonof ohonom ohonon ohonot ohonynt
+6	6	ei	ei'r hei
+7	7	a	a'ch a'i a'm a'n a'r a'th a'u ha
+8	8	ar	arna arnaf arnat arni arno arnoch arnom arnon arnot arnyn arnynt
+9	9	gan	chanddi ganddi ganddo ganddoch ganddon ganddyn ganddynt gen gennych gennyf gennym gennyn gennyt gynni gynno gynnon
+10	10	cael	affer ca cadd caech caed caem caet caethoch caethon caf caffael caffaeladwy caffai caffech caffel caffem caffent caffo caffoch caffwn cafodd cafon cafwyd cai caiff cawsai cawsant cawsent cawsoch cawsom cawson cefais cefaist ceid ceir ceith celai celen celet ces cest cewch chael chawson câi cânt gael gai gawson geith gâf nghael
+11	11	wedi	wedi'ch wedi'i wedi'n wedi'r wedi'u wedi'w
+12	12	ac	hac
+13	13	mewn	fewn
+14	14	am	amdan amdana amdanaf amdanat amdani amdano amdanoch amdanom amdanon amdanyn amdanynt ham
+15	15	eu	
+16	16	fel	
+17	17	gyda	gyda'ch gyda'i gyda'm gyda'n gyda'r gyda'u gydag
+18	18	un	unau
+19	19	hefyd	
+20	20	hyn	
+21	21	hi	hi'i hi'n hi'r
+22	22	dim	ddim
+23	23	â	â'ch â'i â'm â'n â'r â'u
+24	24	ond	
+25	25	dau	dau'n ddau ddwy deuoedd dwy nau
+26	26	gallu	allet alli allu gall galla galladwy gallaf gallai gallan gallant gallasai gallasant gallasent gallasid gallech galledig gallel gallem gallen gallent galles gallesid gallo galloch gallodd gallsen gallu'i gallu'r galluoedd gallwch gallwn gallwyd gallyd geill gellais gellaist gelli gellid gellir gellwch ngallu
+27	27	mynd	aech aed aem aen aent aet aeth aethai aethant aethech aethem aethent aethoch aethom aethon aethont aethpwyd aethwn af aiff awd awn cer cerwch ddos dos dosau eid eir eith elai elech elem elen elent elet elir elit elo eloch elwn es est euthum ewch fynd myned âi ân
+28	28	enw	enw'i enw'n enw'r enwau henw
+29	29	ti	chdi ddi di di'n di'r diau thi ti'n ti'r tiau
+30	30	ni	ni'n ni'r
+31	31	dod	daeth daethai daethant daethech daethem daethent daethoch daethom daethon daethont daethpwyd daethwn daw ddaw ddod dei delai delech delem delen delent deles delet deliau delo deloch delwn dere des desen deses deset dest dethen dethes dethet deuaf deuai deuant deuech deuem deuent deuet deui deuir deuthum deuwch deuwn deuwyd dewch doech doem doen doent doet doi doir dois dowch dowd down dyfod dywad dêl dôi dônt dŵad tyrd tyred
+32	32	ôl	hôl olion
+33	33	arall	eraill
+34	34	neu	neu'i neu'n neu'r neu'u
+35	35	fe	fe'ch fe'i fe'm fe'n fe'r fe'th fe'u
+36	36	at	ata ataf atat ati ato atoch aton atyn atynt hat
+37	37	nid	
+38	38	gwneud	gna gnawn gnei gnest gneud gwna gwnaech gwnaed gwnaem gwnaent gwnaeth gwnaethai gwnaethant gwnaethech gwnaethem gwnaethent gwnaethid gwnaethoch gwnaethom gwnaethon gwnaethpwyd gwnaethwn gwnaf gwnai gwnaiff gwnant gwnawd gwnawn gwnei gwneid gwneir gwnelaf gwnelai gwnelant gwnelech gwnelem gwnelent gwneli gwnelir gwnelo gwneloch gwnelwch gwnelwn gwnes gwnest gwneuthum gwneuthur gwneuthuradwy gwneuthuredig gwneuthuriedig gwnewch gwnâi gwnân gwnânt gwnêl naen naet nei neith nest ngwneud wnai wnaiff wneud
+39	39	pob	bob mhob phob
+40	40	iawn	iawnach iawnaf iawnau iawnion
+41	41	wrth	wrthat wrtho wrthoch wrthon wrthyf wrthyn wrthynt wrthyt
+42	42	gweld	gwela gwelaf gwelai gwelais gwelaist gwelant gwelech gweled gwelem gwelen gwelent gweler gweles gwelet gweli gwelid gwelir gwelo gweloch gwelodd gwelon gwelsai gwelsant gwelsen gwelsoch gwelsom gwelwch gwelwn gwelwyd gwêl gwŷl ngweld weld wele welson
+43	43	nhw	nhw'n nhw'r nhwy
+44	44	defnyddio	ddefnyddio defnyddadwy defnyddedig defnyddi defnyddia defnyddiadwy defnyddiaf defnyddiai defnyddiais defnyddiaist defnyddiant defnyddiasant defnyddid defnyddiech defnyddiem defnyddient defnyddio'i defnyddio'n defnyddio'r defnyddioch defnyddiodd defnyddir defnyddiwch defnyddiwn defnyddiwyd nefnyddio
+45	45	rhan	ran rhannau
+46	46	cynnwys	chynnwys cynhwysa cynhwysaf cynhwysai cynhwysais cynhwysaist cynhwysant cynhwysi cynhwysion cynhwysir cynhwyso cynhwysoch cynhwysodd cynhwyswch cynhwyswyd cynwysadwy cynwysedig gynnwys nghynnwys
+47	47	trwy	drwy drwy'i drwy'r drwyddynt thrwy trwoch trwof trwot trwy'r trwyddynt
+48	48	newydd	newyddach newyddaf newyddion
+49	49	cyntaf	chyntaf gyntaf nghyntaf
+50	50	rhai	rai rhai'n rhai'r
+51	51	na	na'i na'm na'n na'r na'u
+52	52	pobl	bobl phobl pobloedd pobol
+53	53	hwn	
+54	54	gwaith	gweithiau gweithion gweithoedd gweithydd ngwaith waith
+55	55	mawr	fawr mawrion morion
+56	56	fy	
+57	57	llawer	lawer llaweroedd
+58	58	dyn	ddyn dynion nyn
+59	59	chi	chi'ch chi'n chi'r
+60	60	hynny	hynny'n hynny'r
+61	61	hyd	hyd-ddynt hydoedd
+62	62	er	erddi erddynt eriau eroch erof erot
+63	63	lle	le le'n le'r lle'i lle'n lle'r llefydd lleoedd
+64	64	mwy	fwy mwy'r
+65	65	dros	ddros drosoch drosof drosom drosot drost drostynt tros
+66	66	yma	yma'n yma'r
+67	67	beth	
+68	68	nifer	niferi niferoedd
+69	69	rhoi	dyro dyry rho rhodda rhoddadwy rhoddaf rhoddai rhoddais rhoddaist rhoddant rhoddasai rhoddasant rhoddech rhoddedig rhoddem rhoddent rhoddi rhoddid rhoddir rhoddo rhoddoch rhoddodd rhoddwch rhoddwn rhoddwyd rhoech rhoed rhoem rhoent rhoes rhoesant rhoesoch rhoesom rhof rhoi'n rhoi'r rhoid rhoir rhois rhoist rhotho rhowch rhowd rhown rhowyd rhôi rhôm rhônt roddes roi
+70	70	mwyaf	fwyaf mwya
+71	71	ysgol	hysgol ysgolion ystol
+72	72	hen	henach henaf henion hynach hynaf hyned hŷn
+73	73	chwarae	chwarae'n chwarae'r chwaraea chwaraeadwy chwaraeaf chwaraeai chwaraeais chwaraeaist chwaraeant chwaraeech chwaraeedig chwaraeem chwaraeent chwaraei chwaraeid chwaraeir chwaraeo chwaraeoch chwaraeodd chwaraeon chwaraewch chwaraewn chwaraewyd chwery gwarwy gwary
+74	74	oes	hoes oesau oesoedd
+75	75	aml	amlach amlaf
+76	76	yna	hyna yna'i yna'n yna'r yna'u
+77	77	da	da'n da'r daoedd dda
+78	78	dechrau	ddechrau dechrau'n dechrau'r dechreu dechreua dechreuaf dechreuai dechreuais dechreuaist dechreuant dechreuasai dechreuasant dechreuasom dechreuech dechreuedig dechreuem dechreuent dechreui dechreuir dechreuo dechreuoch dechreuodd dechreuoedd dechreuon dechreusant dechreuwch dechreuwn dechreuwyd nechrau
+79	79	byd	bydoedd fyd myd
+80	80	pan	ban bannau phan
+81	81	rhwng	rhyngddynt rhyngoch rhyngof rhyngom rhyngot rwng
+82	82	bach	bachau bachyn fach lleied mach
+83	83	pen	ben fen mhen pennach pennaf pennau phen
+84	84	hunan	hun hunain
+85	85	prif	brif mhrif phrif prifed prifiau prifion
+86	86	mi	mi'n mi'r
+87	87	blwyddyn	blynyddau blynyddoedd flwyddyn mlwyddyn
+88	88	dyma	dyma'i dyma'n dyma'r
+89	89	merch	ferch merched
+90	90	modd	fodd moddau
+91	91	cyn	chyn gyn nghyn
+92	92	ardal	ardaloedd hardal
+93	93	rhaid	raid rheidiau
+94	94	hon	
+95	95	dweud	ddweud deud dwed dweda dwedaf dwedais dwedodd dwedon dwedwch dywed dyweda dywedadwy dywedaf dywedai dywedais dywedaist dywedant dywedasai dywedasom dywedech dywededig dywedem dywedent dyweder dywedi dywedid dywedir dywedo dywedoch dywedodd dywedont dywedwch dywedwn dywedwyd dywedyd gweud
+96	96	erbyn	erbynaf erbynia erbyniaf erbyniai erbyniais erbyniaist erbyniant erbyniech erbyniem erbynient erbynio erbynioch erbyniodd erbyniwch erbyniwn erbyniwyd erbynni erbynnir herbyn
+97	97	tri	dri tair thri tri'n
+98	98	plentyn	plant
+99	99	amser	amserau amserion amseroedd amseron hamser
+100	100	gweithio	gweithi gweithia gweithiadwy gweithiaf gweithiai gweithiais gweithiaist gweithiant gweithiech gweithiedig gweithiem gweithient gweithio'n gweithio'r gweithioch gweithiodd gweithiont gweithir gweithiwch gweithiwn gweithiwyd weithio

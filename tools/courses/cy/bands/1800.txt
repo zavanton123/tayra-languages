@@ -1,0 +1,100 @@
+1	1701	rhyfeddol	ryfeddol
+2	1702	oriel	orielau orieli orielydd
+3	1703	gweinyddiaeth	gweinyddiaethau ngweinyddiaeth weinyddiaeth
+4	1704	call	callach callaf called gall
+5	1705	dysgwr	dysgwyr
+6	1706	penrhyn	benrhyn penrhynau penrhynion
+7	1707	cyfansoddwr	chyfansoddwr chyfansoddwyr cyfansoddwyr gyfansoddwr gyfansoddwyr
+8	1708	haint	heintiau
+9	1709	gwastraff	wastraff
+10	1710	eithrio	eithraf eithri eithria eithriadwy eithriaf eithriai eithriais eithriaist eithriant eithriech eithriedig eithriem eithrient eithrio'r eithrioch eithriodd eithrir eithriwch eithriwn eithriwyd heithrio
+11	1711	ffair	ffeiriau
+12	1712	ffon	ffyn
+13	1713	reis	rheis rhis ris
+14	1714	ffermio	ffarmio ffermi ffermia ffermiadwy ffermiaf ffermiai ffermiais ffermiaist ffermiant ffermiech ffermiedig ffermiem ffermient ffermio'n ffermio'r ffermioch ffermiodd ffermir ffermiwch ffermiwn ffermiwyd
+15	1715	cefnfor	cefnforoedd gefnfor nghefnfor
+16	1716	cymal	chymal cymalau gymal nghymal
+17	1717	niwclear	
+18	1718	help	
+19	1719	difyr	ddifyr difyrion difyrrach difyrraf
+20	1720	llew	lew llew'r llewes llewod
+21	1721	argraff	argraffau argraffiadau argraffion argrafiadau
+22	1722	cryfder	chryfder cryfderau gryfder
+23	1723	pleser	bleser phleser pleserau
+24	1724	anferth	anferthach anferthaf anferthion
+25	1725	pendant	bendant phendant
+26	1726	ymchwiliad	hymchwiliad ymchwiliadau
+27	1727	plannu	blannu phlannu planadwy planedig plani planna plannaf plannai plannant plannech plannem plannent planno plannoch plannodd plannu'n plannu'r plannwch plannwn plannwyd planwyd plennais plennaist plenni plennid plennir plennwch
+28	1728	cymysgedd	chymysgedd cymysgeddau gymysgedd
+29	1729	geirfa	eirfa geirfa'r geirfaoedd geirfâu
+30	1730	ymwybyddiaeth	hymwybyddiaeth
+31	1731	chwalu	chwala chwaladwy chwalaf chwalai chwalant chwalech chwaledig chwalem chwalent chwalo chwaloch chwalodd chwalu'n chwalu'r chwalwch chwalwn chwalwyd chwelais chwelaist chweli chwelir chwelwch
+32	1732	iarll	ieirll
+33	1733	marchog	farchog marchogion
+34	1734	craidd	chraidd creiddiau graidd nghraidd
+35	1735	achlysurol	
+36	1736	gwrthwynebiad	gwrthwynebiadau wrthwynebiad
+37	1737	trwyn	drwyn thrwyn trwynau
+38	1738	peri	bair beri berodd meri pair paradwy paraf parai parant parech paredig parem parent paro paroch parodd parwch parwn parwyd perais peraist perir perwch pheri
+39	1739	rhad	rad rhadau rhatach rhataf
+40	1740	gwddf	gyddfau ngwddf wddf
+41	1741	hysbysebu	hysbyseba hysbysebadwy hysbysebaf hysbysebai hysbysebais hysbysebaist hysbysebant hysbysebech hysbysebedig hysbysebem hysbysebent hysbysebi hysbysebir hysbysebo hysbyseboch hysbysebodd hysbysebu'n hysbysebu'r hysbysebwch hysbysebwn hysbysebwyd
+42	1742	actores	actoresau
+43	1743	amaethyddiaeth	
+44	1744	cynefin	chynefin cynefinoedd gynefin
+45	1745	cofeb	chofeb cofebau cofebion gofeb
+46	1746	sychu	sycha sychadwy sychaf sychai sychais sychaist sychant sychech sychedig sychem sychent sychi sychid sychir sycho sychoch sychodd sychu'n sychu'r sychwch sychwn sychwyd
+47	1747	arbrawf	arbrofion
+48	1748	ymadael	ymadaw ymadawa ymadawadwy ymadawaf ymadawai ymadawant ymadawch ymadawech ymadawedig ymadawem ymadawent ymadawn ymadawo ymadawoch ymadawodd ymadawsant ymadawsoch ymadawyd ymadewais ymadewaist ymadewch ymadewi ymadewir ymado ymedy
+49	1749	ofni	ofna ofnaf ofnai ofnais ofnaist ofnant ofnech ofnedig ofnem ofnent ofni'r ofnir ofno ofnoch ofnodd ofnwch ofnwn ofnwyd
+50	1750	ysgwydd	hysgwydd ysgwyddau
+51	1751	baban	babanod faban
+52	1752	amgylcheddol	
+53	1753	priodol	briodol
+54	1754	llond	lloneidau lond
+55	1755	newyddiadurwr	newyddiadurwyr
+56	1756	chwythu	chwytha chwythaf chwythai chwythais chwythaist chwythant chwythech chwythedig chwythem chwythent chwythi chwythir chwytho chwythoch chwythodd chwythu'n chwythu'r chwythwch chwythwn chwythwyd
+57	1757	cyd-fynd	cydfynd gyd-fynd
+58	1758	tanwydd	danwydd tanwyddion thanwydd
+59	1759	botwm	botymau fotwm fotymau
+60	1760	ffydd	ffyddau ffyddiau
+61	1761	emyn	emynau
+62	1762	brith	braith brithion frith
+63	1763	efydd	efyddau hefydd
+64	1764	cysgod	chysgod cysgodau cysgodion gysgod nghysgod
+65	1765	preswyl	breswyl phreswyl phreswyliau preswylion
+66	1766	neidr	nadredden nadroedd
+67	1767	gelyn	celyn elyn gelynion
+68	1768	distaw	ddistaw distawach distawaf
+69	1769	ŵyr	wyrion
+70	1770	dymuno	ddymuno dymuna dymunadwy dymunaf dymunai dymunais dymunaist dymunant dymunech dymunedig dymunem dymunent dymuni dymunir dymuno'n dymunoch dymunodd dymunwch dymunwn dymunwyd
+71	1771	meithrin	feithrin meithrina meithrinadwy meithrinaf meithrinai meithrinais meithrinaist meithrinant meithrinech meithrinedig meithrinem meithrinent meithrini meithrinir meithrino meithrinoch meithrinodd meithrinwch meithrinwn meithrinwyd
+72	1772	canran	canrannau chanran ganran nghanran
+73	1773	arwyddocaol	
+74	1774	dyddiadur	ddyddiadur dyddiaduron nyddiadur
+75	1775	nyth	nythod
+76	1776	colomen	clomen colomennod golomen
+77	1777	peryglus	beryglus pheryglus
+78	1778	dolen	ddolen dolennau dolenni
+79	1779	gweinyddol	weinyddol
+80	1780	dylanwadol	ddylanwadol
+81	1781	blwch	blychau flwch
+82	1782	hiwmor	hiwmorau
+83	1783	twristiaeth	dwristiaeth thwristiaeth
+84	1784	angenrheidiol	
+85	1785	ymchwilio	hymchwilio ymchwili ymchwilia ymchwiliadwy ymchwiliaf ymchwiliai ymchwiliais ymchwiliaist ymchwiliant ymchwiliech ymchwiliedig ymchwiliem ymchwilient ymchwilio'n ymchwilioch ymchwiliodd ymchwilir ymchwiliwch ymchwiliwn ymchwiliwyd
+86	1786	porth	borth mhorth phorth porthau porthoedd pyrth
+87	1787	atyniad	atyniadau
+88	1788	pythefnos	bythefnos phythefnos pythefnosau
+89	1789	hwyaden	hwyaid
+90	1790	dinesydd	ddinasyddion ddinesydd dinasydd dinasyddion dinesyddion
+91	1791	deffro	ddeffro ddeffrodd deffra deffro'n deffro'r deffroa deffroadwy deffroaf deffroai deffrodd deffroech deffroem deffroent deffroes deffroesant deffroesoch deffroi deffroir deffrois deffroist deffrowch deffrown deffrowyd deffroëdig deffrwch deffry deffrô deffrôch deffrôdd deffrôf deffrôm deffrônt
+92	1792	morgrug	forgrug morgrugyn
+93	1793	gwyliwr	gwylwyr wyliwr wylwyr
+94	1794	llwch	llychau lwch
+95	1795	crwydro	crwydraf crwydro'n crwydro'r crwydrodd grwydro
+96	1796	llwyn	llwynau llwyni llwynyn lwyn
+97	1797	gweledol	weledol
+98	1798	llawysgrif	lawysgrif llawsgrif llawysgrifau
+99	1799	canser	canserau chanser ganser
+100	1800	pennu	bennu penadwy penedig penna pennaf pennai pennais pennaist pennant pennech pennem pennen pennent penni pennir penno pennoch pennodd pennu'r pennwch pennwn pennwyd pensen phennu

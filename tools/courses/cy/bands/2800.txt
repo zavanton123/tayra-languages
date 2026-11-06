@@ -1,0 +1,100 @@
+1	2701	disgyblaeth	ddisgyblaeth disgyblaethau nisgyblaeth
+2	2702	morthwyl	forthwyl morthwylion mwrthwyl mwthwl
+3	2703	cwestiynu	chwestiynu cwestiyna cwestiynir cwestiynodd cwestiynu'r cwestiynwyd gwestiynu gwestiynwyd
+4	2704	bridio	bridiaf bridio'n bridiwyd fridio
+5	2705	arafu	arafa arafaf arafi arafia arafiadwy arafiaf arafiai arafiant arafiech arafiedig arafiem arafient arafio arafioch arafiodd arafiwch arafiwn arafiwyd arafodd arafu'n arafu'r arafwyd arefi arefiais arefiaist arefiech arefir arefiwch
+6	2706	uchafbwynt	huchafbwynt uchafbwyntiau
+7	2707	cynorthwyol	canorthwyol gynorthwyol
+8	2708	trefniant	drefniannau drefniant threfniannau threfniant trefniannau
+9	2709	direidus	ddireidus dirieidus
+10	2710	toreithiog	doreithiog thoreithiog
+11	2711	abaty	abatai abaty'r habaty
+12	2712	rhent	rent rhenti
+13	2713	ysbrydoliaeth	hysbrydoliaeth ysbrydoliaethau
+14	2714	islaw	islaw'r
+15	2715	darlithydd	darlithwyr ddarlithydd narlithydd
+16	2716	diniwed	ddiniwed
+17	2717	barnu	barna barnadwy barnaf barnai barnant barnech barnedig barnem barnent barno barnoch barnodd barnu'r barnwch barnwn barnwyd bernais bernaist berni bernid bernir bernwch farnu
+18	2718	brân	brain frân
+19	2719	algebra	
+20	2720	codiad	chodiad codiadau cyfodiad godiad nghodiad
+21	2721	cylchdroi	chylchdroi cylchdroaf cylchdroed cylchdroi'n cylchdroi'r gylchdroi
+22	2722	dedfrydu	ddedfrydu ddedfrydwyd dedfrydodd dedfrydwyd
+23	2723	mynegiant	fynegiant mynegiannau
+24	2724	garddwr	arddwr garddwraig garddwyr
+25	2725	tamaid	damaid tameidiau tameidyn tameitiach tameityn
+26	2726	deallus	ddeallus deallusion
+27	2727	wenyn	gwenyn
+28	2728	anwybyddu	anwybydda anwybyddadwy anwybyddaf anwybyddai anwybyddais anwybyddaist anwybyddant anwybyddech anwybyddedig anwybyddem anwybyddent anwybyddi anwybyddid anwybyddir anwybyddo anwybyddoch anwybyddodd anwybyddu'r anwybyddwch anwybyddwn anwybyddwyd hanwybyddu
+29	2729	ymledu	ymledasant ymledodd ymledu'n ymledu'r
+30	2730	animeiddio	animeiddi animeiddia animeiddiadwy animeiddiaf animeiddiai animeiddiais animeiddiaist animeiddiant animeiddiech animeiddiedig animeiddiem animeiddient animeiddio'n animeiddio'r animeiddioch animeiddiodd animeiddir animeiddiwch animeiddiwn animeiddiwyd hanimeiddio
+31	2731	dienyddio	ddienyddio dienydda dienyddadwy dienyddedig dienyddi dienyddia dienyddiadwy dienyddiaf dienyddiai dienyddiais dienyddiaist dienyddiant dienyddiech dienyddiem dienyddient dienyddioch dienyddiodd dienyddir dienyddiwch dienyddiwn dienyddiwyd dienyddu dienyddwch dienyddwyd
+32	2732	tryloyw	dryloyw thryloyw tryloywach tryloywaf tryloywon
+33	2733	agoriad	agoriadau
+34	2734	hosan	hosanau sanau
+35	2735	smotyn	smotiau
+36	2736	rhaeadr	raeadr rhaeadrau rhëydr
+37	2737	firws	fira firysau
+38	2738	acen	acenion hacen
+39	2739	sebon	sebonau
+40	2740	plot	blot blotiau blotyn mhlot plotau plotiau
+41	2741	morol	forol
+42	2742	dychmygu	ddychmygu dychmyga dychmygaf dychmygai dychmygais dychmygaist dychmygant dychmygech dychmygem dychmygent dychmygi dychmygir dychmygo dychmygoch dychmygodd dychmygwch dychmygwn dychmygwyd
+43	2743	poptu	boptu
+44	2744	buwch	buchod fuwch
+45	2745	cerrynt	cerhyntau ceryntau cherrynt gerrynt
+46	2746	pensaer	bensaer penseiri phensaer
+47	2747	rhediad	rediad rhediadau
+48	2748	meindio	feindio
+49	2749	pab	bab mhab pabau phab
+50	2750	peintiad	baentiad baentiadau beintiad paentiad peintad peintiadau phaentiad pheintiad
+51	2751	alan	alannon alun
+52	2752	cynhenid	gynhenid
+53	2753	cwsg	chwsg cysgau gwsg
+54	2754	adolygu	adolyga adolygadwy adolygaf adolygai adolygais adolygaist adolygant adolygech adolygedig adolygem adolygent adolygi adolygir adolygo adolygoch adolygodd adolygu'n adolygu'r adolygwch adolygwn adolygwyd hadolygu
+55	2755	dryswch	ddryswch
+56	2756	gorchudd	gorchuddion orchudd
+57	2757	etholfraint	etholfreiniau etholfreintiau
+58	2758	esgus	esgusion esgusodion
+59	2759	trosti	drosti
+60	2760	arbrofol	
+61	2761	trwodd	drwodd
+62	2762	rhesymeg	resymeg rhesymau
+63	2763	clwyd	chlwyd clwydau clwydi glwyd nghlwyd
+64	2764	gwasgu	gwasga gwasgadwy gwasgaf gwasgai gwasgant gwasgech gwasgedig gwasgem gwasgent gwasgo gwasgoch gwasgodd gwasgu'n gwasgu'r gwasgwch gwasgwn gwasgwyd gwesgais gwesgaist gwesgi gwesgir gwesgwch wasgu
+65	2765	ymgynnull	ymgynulla ymgynulladwy ymgynullaf ymgynullai ymgynullais ymgynullaist ymgynullant ymgynullech ymgynulledig ymgynullem ymgynullent ymgynulli ymgynulliodd ymgynullir ymgynullo ymgynulloch ymgynullodd ymgynullwch ymgynullwn ymgynullwyd
+66	2766	carfan	carfanau carfannau charfan garfan ngharfan
+67	2767	degfed	ddegfed degfedau degfedi
+68	2768	atgyweirio	atgyweirio'n atgyweirio'r atgyweiriodd atgyweiriwyd hatgyweirio
+69	2769	ffi	ffiau ffioedd ffïoedd
+70	2770	clymblaid	chlymblaid clymbleidiau glymblaid
+71	2771	caeedig	gaeedig
+72	2772	cynhesu	cynesadwy cynesedig cynhesa cynhesaf cynhesai cynhesais cynhesaist cynhesant cynhesi cynhesir cynheso cynhesoch cynhesodd cynheswch cynheswyd gynhesu
+73	2773	cynorthwyydd	chynorthwyydd cynorthwy-ydd cynorthwywyr gynorthwyydd
+74	2774	parchu	barchu parcha parchadwy parchaf parchai parchant parchech parchem parchent parcho parchoch parchodd parchu'r parchwch parchwn parchwyd perchais perchaist perchi perchir perchwch pharchu
+75	2775	effeithlon	
+76	2776	sillaf	sill sillafau
+77	2777	cyfamser	cyfamserau cyfamseroedd gyfamser
+78	2778	lifft	lifftiau
+79	2779	trawiad	drawiad tarawad tarawiad thrawiad trawad trawiadau
+80	2780	confensiynol	chonfensiynol gonfensiynol
+81	2781	pwdin	bwdin phwdin pwdinau pwding pwdings
+82	2782	llid	lid llidiau
+83	2783	deunaw	ddeunaw
+84	2784	cwmpasu	chwmpasu cwmpasu'r gwmpasu
+85	2785	amhosib	amhosibil
+86	2786	cwyno	cwyna cwynaf cwynai cwynais cwynaist cwynant cwynech cwynedig cwynem cwynent cwyni cwynir cwynoch cwynodd cwynwch cwynwn cwynwyd gwyno
+87	2787	rhywsut	rywsut
+88	2788	plaen	plaenach plaenaf plaenau plaeniau
+89	2789	coediog	choediog goediog
+90	2790	amhosibl	
+91	2791	ffrwythlon	
+92	2792	dramodydd	ddramodydd
+93	2793	ffynnu	ffynio ffynn ffynna ffynnadwy ffynnaf ffynnai ffynnais ffynnaist ffynnant ffynnech ffynnedig ffynnem ffynnent ffynni ffynnir ffynno ffynnoch ffynnodd ffynnwch ffynnwn ffynnwyd
+94	2794	rhisgl	rhisglyn rhysgl risgl
+95	2795	cicio	chicio cici cicia ciciadwy ciciaf ciciai ciciais ciciaist ciciant ciciech ciciedig ciciem cicient cicio'r cicioch ciciodd cicir ciciwch ciciwn ciciwyd gicio
+96	2796	darpariaeth	darparaeth darpariaethau ddarpariaeth narpariaeth
+97	2797	elusennol	
+98	2798	neilltuo	neilltua neilltuadwy neilltuaf neilltuai neilltuais neilltuaist neilltuant neilltuech neilltuedig neilltuem neilltuent neilltui neilltuir neilltuoch neilltuodd neilltuwch neilltuwn neilltuwyd
+99	2799	tafod	dafod tafodau thafod
+100	2800	llawen	lawen llawenach llawenaf llawenion llewyn

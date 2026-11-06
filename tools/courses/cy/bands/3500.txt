@@ -1,0 +1,100 @@
+1	3401	estron	estroniaid estronion
+2	3402	prinder	brinder phrinder
+3	3403	llaith	laith lleithach lleithaf lleithion
+4	3404	ffoto	ffotos
+5	3405	figan	figaniaid
+6	3406	goruchel	goruchaf goruwch oruchel
+7	3407	bywgraffiad	fywgraffiad
+8	3408	amaethwr	amaethwyr
+9	3409	anterth	hanterth
+10	3410	bonitro	fonitro monitro
+11	3411	sigarét	sigaretau sigaréts
+12	3412	cancr	chancr gancr
+13	3413	gweinyddwr	gweinyddwyr weinyddwr
+14	3414	darlithio	darlithi darlithia darlithiadwy darlithiaf darlithiai darlithiais darlithiaist darlithiant darlithiech darlithiedig darlithiem darlithient darlithio'n darlithioch darlithiodd darlithir darlithiwch darlithiwn darlithiwyd ddarlithio
+15	3415	parhad	barhad parhâd pharhad
+16	3416	hyperbolig	
+17	3417	parsel	barsel barseli parseli parselig parselyn
+18	3418	lleisiol	leisiol
+19	3419	taldra	daldra
+20	3420	trywydd	drywydd thrywydd trywyddau trywyddion
+21	3421	cwmpawd	chwmpawd compawd compod cwmpawdau
+22	3422	sinc	sinciau
+23	3423	pwyntio	bwyntio bwyntiodd pwyntio'i pwyntio'n pwyntiodd
+24	3424	cyfnodol	gyfnodol
+25	3425	gwefr	gwefrau wefr
+26	3426	radiws	radiysau
+27	3427	beiblaidd	feiblaidd
+28	3428	gwefus	gwefusau wefus
+29	3429	tabled	dabledi tabledi
+30	3430	picnic	bicnic
+31	3431	crëyr	crehyrod crŷr
+32	3432	gwneuthuriad	ngwneuthuriad wneuthuriad
+33	3433	gwireb	gwirebau gwirebion wireb
+34	3434	gwrthdrawiad	gwrthdrawiadau wrthdrawiad
+35	3435	cynhyrchwr	chynhyrchwyr cynhyrchwyr gynhyrchwr gynhyrchwyr
+36	3436	ychwanegiad	ychwanegiadau
+37	3437	crynhoi	chrynhoi crynhoa crynhoadwy crynhoaf crynhoai crynhoais crynhoaist crynhoant crynhodd crynhoech crynhoedig crynhoem crynhoent crynhof crynhoi'r crynhoir crynhosant crynhosoch crynhowch crynhown crynhowyd crynhô crynhôch crynhôdd crynhôm crynhônt grynhodd grynhoi
+38	3438	daeareg	ddaeareg
+39	3439	cynta	cynta'n cynta'r gynta
+40	3440	erlyn	erlynaf erlynodd erlynwyd herlyn
+41	3441	draenio	ddraenio draeni draenia draeniadwy draeniaf draeniai draeniais draeniaist draeniant draeniech draeniedig draeniem draenient draenio'n draenio'r draenioch draeniodd draenir draeniwch draeniwn draeniwyd
+42	3442	gwastraffu	gwastraffa gwastraffadwy gwastraffaf gwastraffai gwastraffant gwastraffech gwastraffedig gwastraffem gwastraffent gwastraffo gwastraffoch gwastraffodd gwastraffwch gwastraffwn gwastraffwyd gwastreffais gwastreffaist gwastreffi gwastreffir gwastreffwch wastraffu
+43	3443	heintio	heinti heintia heintiadwy heintiaf heintiai heintiais heintiaist heintiant heintiech heintiedig heintiem heintient heintioch heintiodd heintir heintiwch heintiwn heintiwyd
+44	3444	petryal	betryal pedryal petryalau
+45	3445	labelu	labelir labelu'n labelwyd
+46	3446	parthu	parthed
+47	3447	symbolaidd	
+48	3448	cyfnewidfa	chyfnewidfa cyfnewidfeydd gyfnewidfa
+49	3449	bacteria	bacteria'n bacteriwm facteria
+50	3450	troseddwr	droseddwr troseddwyr
+51	3451	jyngl	jwngl jwngwl jyngls
+52	3452	lapio	lapach lapan lapia lapiadwy lapiaf lapiai lapian lapiant lapiech lapiedig lapiem lapient lapio'r lapioch lapiodd lapiwch lapiwn lapiwyd lapo lepi lepiais lepiaist lepiech lepir lepiwch
+53	3453	rhaglaw	raglaw
+54	3454	twmpath	dwmpath thwmpath twmpathau twmpethyn tympathau
+55	3455	gerbron	
+56	3456	awdl	awdlau
+57	3457	plasty	blasty phlasty plastai plasty'n plasty'r
+58	3458	anhrefn	anhrefnau
+59	3459	bywoliaeth	fywoliaeth
+60	3460	dedwydd	ddedwydd dedwyddach dedwyddaf dedwyddion
+61	3461	buddiol	fuddiol
+62	3462	banana	bananas fanana
+63	3463	tunnell	dunnell dunnelli tunelli
+64	3464	tridiau	dridiau thridiau tridiau'n
+65	3465	ategol	
+66	3466	corfflu	chorfflu corfflu'r corffluoedd gorfflu nghorfflu
+67	3467	rheidrwydd	reidrwydd
+68	3468	cyflogaeth	chyflogaeth gyflogaeth
+69	3469	llewyrchus	lewyrchus
+70	3470	sodiwm	
+71	3471	cofleidio	chofleidio cofleidiaf cofleidio'i cofleidio'n cofleidio'r cofleidiodd cofleidiwyd cowleidio gofleidio
+72	3472	teyrn	teyrnedd teyrnion
+73	3473	mewnfudo	fewnfudo mewnfuda mewnfudadwy mewnfudaf mewnfudai mewnfudais mewnfudaist mewnfudant mewnfudech mewnfudedig mewnfudem mewnfudent mewnfudi mewnfudir mewnfudo'n mewnfudoch mewnfudodd mewnfudwch mewnfudwn mewnfudwyd
+74	3474	siaradus	
+75	3475	odl	odlau
+76	3476	titw	titw'r titwod titŵod
+77	3477	golfan	golfanod
+78	3478	groegaidd	roegaidd
+79	3479	llystyfiant	lystyfiant
+80	3480	cyfartalog	chyfartalog gyfartalog
+81	3481	llw	llwon lw
+82	3482	arferiad	arferiadau
+83	3483	trwyddi	drwyddi
+84	3484	cydymffurfio	cydymffurfiodd gydymffurfio
+85	3485	gwalch	gweilch
+86	3486	hebog	hebogau heboges hebogiaid hebogion
+87	3487	reid	reiden reids
+88	3488	ymroddedig	
+89	3489	teithiol	deithiol
+90	3490	sensitif	
+91	3491	rheini	rheini'n
+92	3492	mytholeg	fytholeg
+93	3493	cydymaith	chydymaith cydymdaith cydymddaith cymdeithion gydymaith
+94	3494	cyfforddus	chyfforddus comfforddus confforddus cymfforddus gyfforddus
+95	3495	tystysgrif	dystysgrif thystysgrif tystysgrifau
+96	3496	trol	drol throl trolau trolen troliau trolig trolyn
+97	3497	brwsh	brws brwshys brwsiau brwsys frwsh
+98	3498	gwythïen	gwythen gwythiennau gwythienni wythïen
+99	3499	gêr	cêr gerau geriau gêrs
+100	3500	ffugenw	ffugenw'r ffugenwau

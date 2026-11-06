@@ -1,0 +1,100 @@
+1	5301	arwahanol	
+2	5302	bambŵ	fambŵ
+3	5303	portffolio	bortffolio bortffolios portffolios
+4	5304	cyrhaeddiad	chyrhaeddiad cyraeddiadau gyrhaeddiad
+5	5305	deiet	ddeiet
+6	5306	emeritws	
+7	5307	ffo	
+8	5308	chwipio	chwipiaf chwipiwyd
+9	5309	swyno	swyna swynadwy swynaf swynai swynais swynaist swynant swynech swynedig swynem swynent swyni swynir swyno'r swynoch swynodd swynwch swynwn swynwyd
+10	5310	corniog	gorniog
+11	5311	bachu	bacha bachadwy bachaf bachai bachant bachech bachedig bachem bachent bachio bacho bachoch bachodd bachu'r bachwch bachwn bachwyd bechais bechaist bechi bechir bechwch fachu
+12	5312	deheubarth	ddeheubarth deheubarthau neheubarth
+13	5313	cyfrannwr	chyfrannwr cyfranwyr gyfrannwr
+14	5314	caseg	cesig cesyg gaseg gesyg
+15	5315	byrbryd	byrbrydau byrbrydiau fyrbryd
+16	5316	samplu	samplo samplo'n samplwyd
+17	5317	hylendid	
+18	5318	pedwarawd	phedwarawd
+19	5319	digrifwch	ddigrifwch
+20	5320	milgi	filgi milgwn
+21	5321	coden	codennau goden
+22	5322	rhychwantu	rhychwantu'r rychwantu
+23	5323	biolegydd	biolegwyr
+24	5324	teilo	deilo deilwyd teilaf teilio
+25	5325	oedfa	oedfaon
+26	5326	bryngaer	bryngaerau bryngeyrydd fryngaer
+27	5327	chwil	chwilod
+28	5328	cyfrifiadureg	gyfrifiadureg
+29	5329	manteisiol	fanteisiol
+30	5330	sylwedydd	sylwedyddion
+31	5331	is-bwyllgor	
+32	5332	padlo	
+33	5333	ansefydlogrwydd	
+34	5334	gogwyddo	gogwydda gogwyddadwy gogwyddaf gogwyddai gogwyddais gogwyddaist gogwyddant gogwyddech gogwyddedig gogwyddem gogwyddent gogwyddi gogwyddir gogwyddoch gogwyddodd gogwyddwch gogwyddwn gogwyddwyd ogwyddo
+35	5335	blaguryn	blagur
+36	5336	dyluniwr	ddylunwyr dylunwyr
+37	5337	cronolegol	gronolegol
+38	5338	barnwrol	farnwrol
+39	5339	mordwyo	fordwyo mordwyo'r
+40	5340	setliad	setliadau
+41	5341	goddefol	oddefol
+42	5342	coeth	choeth coethach coethaf goeth
+43	5343	sarhad	sarhadau sarhâd
+44	5344	melyngoch	felyngoch melengoch melyngochach melyngochaf melyngochion
+45	5345	uniaethu	huniaethu uniaethai uniaethid uniaethir uniaethu'r uniaethwyd
+46	5346	chwys	chŵys gwys
+47	5347	banjo	banjoau banjos
+48	5348	genwair	enwair genweiriau
+49	5349	onnen	
+50	5350	llysywen	llyswennod llysywod
+51	5351	melon	felon melonau melons melwn
+52	5352	rhofio	rhawio rhofi rhofia rhofiadwy rhofiaf rhofiai rhofiais rhofiaist rhofiant rhofiech rhofiedig rhofiem rhofient rhofioch rhofiodd rhofir rhofiwch rhofiwn rhofiwyd
+53	5353	ffiaidd	
+54	5354	mudol	fudol
+55	5355	ymyriad	ymyriadau
+56	5356	cyfranddaliad	cyfranddaliadau gyfranddaliadau
+57	5357	fforio	fforiaf
+58	5358	brawychus	frawychus
+59	5359	adnod	adnodau
+60	5360	ewro	ewroau ewros
+61	5361	ymwthio	ymwthio'r
+62	5362	cabinet	gabinet nghabinet
+63	5363	trefnwr	drefnwyr threfnwr trefnwyr
+64	5364	newidiol	newidol
+65	5365	mwsogl	fwsogl mwsog mwsoglau mwsoglion mwsoglydd mwswg mwswgl
+66	5366	momentwm	fomentwm
+67	5367	gormesol	ormesol
+68	5368	cyfesuryn	cyfesurynnau gyfesuryn gyfesurynnau
+69	5369	disgo	ddisgo disgos
+70	5370	nith	nithoedd
+71	5371	tröedigaeth	dröedigaeth thröedigaeth
+72	5372	caledi	chaledi galedi
+73	5373	marciwr	farcwyr marcwyr
+74	5374	amlen	amlennau amlenni
+75	5375	genom	genomau
+76	5376	di-drais	ddi-drais
+77	5377	anghyfiawnder	anghyfiawnderau
+78	5378	sgìl	sgiliau
+79	5379	blodeuog	flodeuog
+80	5380	amlygiad	amlygiadau
+81	5381	canopi	canopïau chanopi ganopi
+82	5382	comisiynwr	comisiynwyr
+83	5383	allyrru	allyrraf
+84	5384	chwydd	chwyddau
+85	5385	cydnabyddedig	gydnabyddedig
+86	5386	dirprwyaeth	ddirprwyaeth
+87	5387	celfi	celfigyn chelfi gelfi
+88	5388	petris	partris patris pertris petrisen petrisien
+89	5389	cycyllog	gycyllog
+90	5390	caent	chaent
+91	5391	prysg	phrysg prys prysgoedd
+92	5392	cyfeirnod	cyfeirnodau gyfeirnod
+93	5393	addurniadol	
+94	5394	ocsid	ocsidau ocsidiau
+95	5395	pobman	bobman mhobman
+96	5396	cyfrannol	gyfrannol
+97	5397	ffraethineb	
+98	5398	cymedr	chymedr cymedrau gymedr
+99	5399	pwyth	bwyth pwythau
+100	5400	trugaredd	drugaredd drugareddau trugareddau

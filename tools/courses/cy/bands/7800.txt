@@ -1,0 +1,100 @@
+1	7701	arsenig	
+2	7702	asymptotig	
+3	7703	starn	starnau
+4	7704	logistaidd	
+5	7705	dadfygio	
+6	7706	amwynder	amwynderau
+7	7707	anghwrtais	
+8	7708	amffibiaidd	
+9	7709	plwtoniwm	
+10	7710	annherfynol	
+11	7711	carwsél	carwseli
+12	7712	dinodwedd	ddinodwedd
+13	7713	ymdroelli	
+14	7714	gwarged	warged
+15	7715	syntheseisydd	syntheseiddyddion
+16	7716	gorliwio	orliwio
+17	7717	waffl	wafflau waffls woffl
+18	7718	boron	foron
+19	7719	cad	cadau cadoedd caed cafwyd chad gad
+20	7720	amrywiolyn	amrywiolion amrywiolynnau amrywolyn
+21	7721	coedwigwr	coedwigwyr goedwigwr
+22	7722	gwresogydd	gwresogyddion
+23	7723	llewpard	llewpardes llewpardiaid
+24	7724	haenu	
+25	7725	angof	anghofiau
+26	7726	chwynladdwr	chwynladdwyr
+27	7727	cymwysedig	
+28	7728	gochelgar	ochelgar
+29	7729	adferf	adferfau
+30	7730	seiciatrydd	seiciatryddion
+31	7731	pryfysol	bryfysol
+32	7732	anghydnaws	
+33	7733	anniben	
+34	7734	fondi	fondiau
+35	7735	cydgysylltu	gydgysylltu
+36	7736	caci	
+37	7737	gobennydd	gobenyddiau gobenyddion
+38	7738	morthwylio	morthwyli morthwylia morthwyliadwy morthwyliaf morthwyliai morthwyliais morthwyliaist morthwyliant morthwyliech morthwyliedig morthwyliem morthwylient morthwylio'i morthwylioch morthwyliodd morthwylir morthwyliwch morthwyliwn morthwyliwyd
+39	7739	pastai	bastai pasteiod
+40	7740	cyseinio	cyseiniant gyseiniant
+41	7741	sylffwrig	sylffyrig
+42	7742	gorffwyll	gorffwyllion orffwyll
+43	7743	gwrthbwyso	gwrthbwyso'r wrthbwyso
+44	7744	mwyhadur	mwyhaduron
+45	7745	secretu	
+46	7746	amryffurfedd	
+47	7747	llifanu	lifanu
+48	7748	ril	rilen riliau rils rîl
+49	7749	matsien	matshys matsis
+50	7750	sgleinio	
+51	7751	meidrol	feidrol
+52	7752	llysysydd	llysysyddion
+53	7753	didynnu	ddidynnu
+54	7754	rhagfarnllyd	ragfarnllyd
+55	7755	hysbysfwrdd	hysbysfyrddau
+56	7756	ysgeintio	
+57	7757	llwybro	
+58	7758	logarithm	logarithmau
+59	7759	plagio	blagio plagio'r
+60	7760	llychlyd	lychlyd
+61	7761	ruban	rubanau
+62	7762	mwyhau	fwyhau mwyhaf
+63	7763	toddydd	doddyddion
+64	7764	caeëdig	
+65	7765	becws	bacws becos becwsys becysiau
+66	7766	nefol	nefolach nefolaf
+67	7767	sefydlyn	safydlyn sefydlynnau
+68	7768	asgellog	
+69	7769	cledren	gledren
+70	7770	mariwana	mariwana'r
+71	7771	annilys	
+72	7772	cardbord	gardbord
+73	7773	clerigol	glerigol
+74	7774	catod	cathod catodau
+75	7775	pennog	pendog penwaig penweigion penwyg
+76	7776	penwag	penwaig
+77	7777	cychwyniad	gychwyniad
+78	7778	sgism	schism sgismau sgisms sism
+79	7779	ordeiniad	
+80	7780	ansafonol	
+81	7781	ethan	
+82	7782	peptid	
+83	7783	mamoth	mamothiaid
+84	7784	chwaeth	chwaethau chwaethoedd
+85	7785	hunangyflogedig	
+86	7786	anod	anodau
+87	7787	cydlyniad	chydlyniad gydlyniad
+88	7788	lluosol	
+89	7789	bysell	bysellau
+90	7790	câs	casys
+91	7791	distewi	distewiaf
+92	7792	cliriad	cliriadau gliriad
+93	7793	eigen	
+94	7794	anghytbwys	
+95	7795	chwerthinllyd	
+96	7796	hapchwarae	
+97	7797	hunan-barch	
+98	7798	pilio	bilio
+99	7799	cywilyddus	gywilyddus
+100	7800	sgalar	sgalarau

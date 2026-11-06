@@ -1,0 +1,100 @@
+1	901	pwrpas	bwrpas phwrpas pwrpasau
+2	902	sail	seiliau
+3	903	triniaeth	driniaeth nhriniaeth thriniaeth triniaethau
+4	904	etholaeth	etholaethau hetholaeth
+5	905	siâp	siapiau
+6	906	seneddol	
+7	907	cyflawni	chyflawni cyflawna cyflawnadwy cyflawnaf cyflawnai cyflawnais cyflawnaist cyflawnant cyflawnech cyflawnedig cyflawnem cyflawnent cyflawni'n cyflawni'r cyflawnir cyflawno cyflawnoch cyflawnodd cyflawnwch cyflawnwn cyflawnwyd gyflawni
+8	908	priod	briod phriod priodau
+9	909	crefyddol	chrefyddol crefyddolion grefyddol
+10	910	masnach	fasnach masgnach masnachau masnachoedd
+11	911	ffrwyth	ffrwythau ffrwythydd
+12	912	dringo	ddringo dring dringa dringadwy dringaf dringai dringais dringaist dringant dringasom dringech dringedig dringem dringent dringi dringir dringo'n dringo'r dringoch dringodd dringwch dringwn dringwyd
+13	913	cyfarwyddwr	chyfarwyddwr cyfarwyddwyr gyfarwyddwr
+14	914	symudiad	symudiadau
+15	915	croes	chroes croesach croesaf croesau croesion groes
+16	916	cadair	cadeirau cadeiriau cader chadair gadair
+17	917	wy	wy'n wyau ŵy
+18	918	gormod	gormodion ormod
+19	919	gwrthrych	gwrthrychau wrthrych
+20	920	offer	hoffer offerau offeriau offrau
+21	921	copi	chopi copiau copïau gopi gopiau
+22	922	claf	chlaf clafach clafaf cleifion glaf
+23	923	anrhydedd	anrhydeddau
+24	924	diogelwch	ddiogelwch
+25	925	neges	negesau negeseuau negeseuon
+26	926	safon	safonau
+27	927	ysbryd	hysbryd ysbrydion ysbrydoedd
+28	928	gwesty	gwesty'n gwesty'r ngwesty westy
+29	929	syth	seth sythach sythaf sythion
+30	930	criw	chriw criw'n criw'r criwiau griw nghriw
+31	931	llu	llu'r lluoedd lu
+32	932	hwy	hwy'n hwy'r
+33	933	gwaelod	gwaelodion ngwaelod waelod
+34	934	asgwrn	esgyrn
+35	935	gwasg	gwasgau gwasgoedd gweisg wasg
+36	936	gwladwriaeth	gwladwriaethau ngwladwriaeth wladwriaeth
+37	937	hyrwyddo	hyrwydda hyrwyddadwy hyrwyddaf hyrwyddai hyrwyddais hyrwyddaist hyrwyddant hyrwyddech hyrwyddedig hyrwyddem hyrwyddent hyrwyddi hyrwyddir hyrwyddo'i hyrwyddo'n hyrwyddo'r hyrwyddoch hyrwyddodd hyrwyddwch hyrwyddwn hyrwyddwyd
+38	938	mynediad	fynediad mynediadau
+39	939	glo	glo'n glo'r gloeau lo
+40	940	economaidd	
+41	941	pleidlais	bleidlais phleidlais pleidleisiau
+42	942	record	recordiau
+43	943	llythyr	llythyrau llythyron lythyr
+44	944	blynyddol	flynyddol
+45	945	trosglwyddo	drosglwyddo throsglwyddo trosglwydda trosglwyddadwy trosglwyddaf trosglwyddai trosglwyddais trosglwyddaist trosglwyddant trosglwyddech trosglwyddedig trosglwyddem trosglwyddent trosglwyddi trosglwyddid trosglwyddir trosglwyddo'n trosglwyddo'r trosglwyddoch trosglwyddodd trosglwyddwch trosglwyddwn trosglwyddwyd
+46	946	ehangu	eangadwy eangedig ehanga ehangaf ehangai ehangant ehangech ehangem ehangent ehango ehangoch ehangodd ehangu'n ehangu'r ehangu'u ehangwch ehangwn ehangwyd ehengais ehengaist ehengi ehengir ehengwch hehangu
+47	947	actor	actorion
+48	948	hinsawdd	hinsodd hinsoddau
+49	949	effeithiol	
+50	950	denu	ddenai ddenodd ddenu dena denaf denodd denu'n denu'r denwch denwyd
+51	951	sylfaenol	
+52	952	siŵr	siwr
+53	953	ffynnon	ffynhonnau
+54	954	golchi	golcha golchadwy golchaf golchai golchais golchaist golchant golchech golchedig golchem golchent golchi'r golchid golchir golcho golchoch golchodd golchwch golchwn golchwyd gylch olchi
+55	955	cwpan	chwpan cwpanau gwpan nghwpan
+56	956	nac	
+57	957	coffi	choffi coffi'n goffi nghoffi
+58	958	arddangos	arddangosa arddangosadwy arddangosaf arddangosai arddangosais arddangosaist arddangosant arddangosedig arddangosi arddangosir arddangoso arddangosoch arddangosodd arddangoswch arddangoswyd arddengys harddangos
+59	959	brodorol	frodorol
+60	960	bara	bara'n fara mara
+61	961	dilyniant	ddilyniannau ddilyniant dilyniannau nilyniant
+62	962	ambell	ambellach ambellaf ambellion
+63	963	bwriad	bwriadau fwriad mwriad
+64	964	cymharol	chymharol gymharol
+65	965	pridd	bridd phridd priddau priddion priddoedd
+66	966	sengl	senglau
+67	967	dyfodol	ddyfodol
+68	968	ton	don thon tonnau tonnen
+69	969	milwr	filwr milwyr
+70	970	eisteddfod	eisteddfodau
+71	971	ofn	hofn ofnau
+72	972	disgyn	ddisgyn disgynadwy disgynasom disgynna disgynnaf disgynnai disgynnais disgynnaist disgynnant disgynnech disgynnem disgynnent disgynni disgynnir disgynno disgynnoch disgynnodd disgynnwch disgynnwn disgynnwyd disgynodd
+73	973	wrthi	wrthi'n
+74	974	bai	bai'n bai'r beiau fai
+75	975	gafael	afael gafaela gafaeladwy gafaelaf gafaelai gafaelais gafaelaist gafaelant gafaelech gafaeledig gafaelem gafaelent gafaeli gafaelion gafaelir gafaelo gafaeloch gafaelodd gafaelwch gafaelwn gafaelwyd
+76	976	ynghylch	
+77	977	gwin	gwinoedd win
+78	978	trydan	drydan thrydan
+79	979	cymhleth	chymhleth cymhlethach cymhlethaf cymhlethau cymhlethion cymhlethoedd gymhleth
+80	980	serch	serchiadau
+81	981	duw	dduw duw'r duwiau nuw
+82	982	addas	
+83	983	gweithredol	weithredol
+84	984	gwael	gwaelach gwaelaf gwaelion wael
+85	985	post	bost bostiau most postyn pyst
+86	986	dwyieithog	ddwyieithog
+87	987	gwers	gwersi wers
+88	988	gwas	gweision ngwas was
+89	989	map	fap mapiau
+90	990	cwrdd	chwrdd cwrdda cwrddadwy cwrddaf cwrddai cwrddais cwrddaist cwrddant cwrddech cwrddedig cwrddem cwrddent cwrddi cwrddir cwrddo cwrddoch cwrddodd cwrddwch cwrddwn cwrddwyd cyrddau gwrdd
+91	991	pwysau	bwysau phwysau pwysau'n pwysau'r
+92	992	model	fodel modelau
+93	993	dylunio	darlunia darluniadwy darluniaf darluniai darluniais darluniaist darluniant darluniech darluniedig darluniem darlunient darlunioch darluniodd darluniwch darluniwn darluniwyd darlunni darlunnir ddylunio ddyluniodd ddyluniwyd dyluniaf dylunio'n dylunio'r dyluniodd dyluniwyd nylunio
+94	994	cadeirydd	cadeiryddion chadeirydd gadeirydd
+95	995	unedig	
+96	996	ymweld	hymweld ymwela ymweladwy ymwelaf ymwelai ymwelais ymwelaist ymwelant ymwelasant ymwelech ymweledig ymwelem ymwelent ymweli ymwelir ymwelo ymweloch ymwelodd ymwelwch ymwelwn ymwelwyd ymwêl
+97	997	cefndir	cefndiroedd chefndir chefndiroedd gefndir gefndiroedd nghefndir
+98	998	cefnogaeth	cefnogaethau chefnogaeth gefnogaeth nghefnogaeth
+99	999	saethu	saetha saethadwy saethaf saethai saethais saethaist saethant saethech saethedig saethem saethent saethi saethir saetho saethoch saethodd saethu'n saethu'r saethwch saethwn saethwyd
+100	1000	llaeth	laeth llaethau

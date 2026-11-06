@@ -1,0 +1,210 @@
+{
+  "id": "cy-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Gartref gyda'r teulu",
+  "description": "Ten short, simple stories about home, family and everyday life in Welsh-speaking families in Wales and Patagonia.",
+  "topic": "Home and family",
+  "names": [
+    "Siân",
+    "Caerdydd",
+    "Mared",
+    "Rhys",
+    "Mair",
+    "Nia",
+    "Cerys",
+    "Bangor",
+    "Ifan",
+    "Gareth",
+    "Abertawe",
+    "Huw",
+    "Alys",
+    "Tomos",
+    "Emrys",
+    "Aberystwyth",
+    "Megan",
+    "Dafydd",
+    "Eleri",
+    "Aled",
+    "Rhian",
+    "Caernarfon",
+    "Bethan",
+    "Iolo",
+    "Wrecsam",
+    "Lowri",
+    "Patagonia",
+    "Sioned",
+    "Gethin"
+  ],
+  "lessons": [
+    {
+      "title": "Teulu Siân",
+      "summary": "Siân has two children, Mared and Rhys; her friend Mair has a girl called Nia.",
+      "newWords": [
+        "y",
+        "yn",
+        "bod",
+        "gan",
+        "dau",
+        "plentyn",
+        "merch",
+        "enw",
+        "a",
+        "ac",
+        "dyma",
+        "da",
+        "un",
+        "beth",
+        "arall",
+        "oes"
+      ],
+      "text": "Dyma Siân. Mae Siân yng Nghaerdydd. Mae gan Siân ddau blentyn, Mared a Rhys.\n\nMared yw enw un plentyn. Merch yw Mared. Rhys yw enw'r plentyn arall.\n\nMae Mared yn ferch dda. Mae Rhys yn blentyn da. Mae Rhys ac Mared yn ddau blentyn da.\n\nDyma Mair. Mae Siân a Mair yng Nghaerdydd. Mae gan Mair un plentyn. Merch yw'r plentyn. Nia yw enw'r ferch.\n\nMae Nia ac Mared yn ddwy ferch dda.\n\nCwestiynau:\nBeth yw enw'r ferch?\nMared yw enw'r ferch.\nBeth yw enw'r plentyn arall?\nRhys yw enw'r plentyn arall.\nOes plentyn gan Mair?\nOes. Mae gan Mair un plentyn.\nBeth yw enw'r plentyn?\nNia yw enw'r plentyn."
+    },
+    {
+      "title": "Ysgol newydd",
+      "summary": "Little Cerys goes to a big new school in Bangor and meets Ifan on the first day.",
+      "newWords": [
+        "ysgol",
+        "newydd",
+        "mawr",
+        "bach",
+        "mynd",
+        "i",
+        "o",
+        "ar",
+        "ond",
+        "iawn",
+        "hefyd",
+        "hi"
+      ],
+      "text": "Merch fach o Fangor yw Cerys. Mae hi'n mynd i ysgol newydd.\n\nMae'r ysgol newydd yn fawr. Mae Cerys yn fach, ond mae'r ysgol yn fawr iawn.\n\nDyma Ifan. Mae Ifan o Fangor. Plentyn bach yw Ifan. Mae Ifan yn mynd i'r ysgol newydd hefyd.\n\nMae Cerys ac Ifan yn mynd i'r ysgol ar y bws. Mae'r bws yn fawr iawn hefyd.\n\nMae Cerys yn fach, ond mae hi'n dda iawn yn yr ysgol. Mae Ifan yn fach, ond mae e'n dda iawn hefyd.\n\nCwestiynau:\nO ble mae Cerys?\nMae Cerys o Fangor.\nI ble mae Cerys yn mynd?\nMae Cerys yn mynd i ysgol newydd.\nYdy'r ysgol yn fach?\nNac ydy. Mae'r ysgol yn fawr iawn.\nYdy Ifan yn mynd i'r ysgol?\nYdy. Mae Ifan yn mynd i'r ysgol ar y bws."
+    },
+    {
+      "title": "Gwaith Gareth",
+      "summary": "Gareth works at a school in Swansea and must be there before eight every day.",
+      "newWords": [
+        "gwaith",
+        "gweithio",
+        "dyn",
+        "dechrau",
+        "cyn",
+        "amser",
+        "rhaid",
+        "ei",
+        "pob",
+        "am",
+        "gyda",
+        "mewn",
+        "dweud"
+      ],
+      "text": "Dyn o Abertawe yw Gareth. Mae Gareth yn gweithio mewn ysgol fawr. Mae ei waith yn dechrau am 8 bob dydd.\n\nRhaid i Gareth fynd i'r gwaith cyn 8. Mae Gareth yn mynd mewn car gyda dyn arall. Huw yw enw'r dyn. Mae Huw yn dweud, “Rydw i'n gweithio yn yr ysgol hefyd.” Rhaid i Huw fynd cyn 8 hefyd.\n\nMae gan Huw gar bach. Bob dydd, mae'r ddau ddyn yn mynd i'r gwaith ar amser. Mae amser gan Huw a Gareth cyn dechrau gweithio.\n\nMae Gareth yn dweud, “Mae ei gar yn fach, ond mae'n dda iawn!”\n\nCwestiynau:\nO ble mae Gareth?\nMae Gareth o Abertawe.\nPryd mae ei waith yn dechrau?\nMae ei waith yn dechrau am 8.\nGyda phwy mae Gareth yn mynd i'r gwaith?\nMae Gareth yn mynd gyda Huw.\nOes amser gan y ddau ddyn cyn dechrau gweithio?\nOes. Mae amser gan y ddau ddyn."
+    },
+    {
+      "title": "Ble mae'r bêl?",
+      "summary": "Alys and Tomos are playing and cannot see their ball until Alys finds it by the school.",
+      "newWords": [
+        "chwarae",
+        "yma",
+        "yna",
+        "dim",
+        "na",
+        "gweld",
+        "wedi",
+        "ti",
+        "wrth"
+      ],
+      "text": "Mae Alys a Tomos yn chwarae wrth yr ysgol. Mae'r bêl wedi mynd.\n\n“Wyt ti'n gweld y bêl, Tomos?” mae Alys yn dweud.\n\n“Na, dydw i ddim yn gweld y bêl yma,” mae Tomos yn dweud. “Wyt ti'n ei gweld hi yna?”\n\n“Na, dim yna. Beth wyt ti'n gweld?”\n\n“Dim. Mae hi wedi mynd.”\n\nMae Alys yn mynd wrth yr ysgol. “Tomos! Dyma hi! Mae hi yma, wrth yr ysgol! Wyt ti'n gweld?”\n\n“Ydw! Dyma ni. Da iawn ti!”\n\nMae Alys a Tomos yn chwarae yna.\n\nCwestiynau:\nBle mae Alys a Tomos yn chwarae?\nMae Alys a Tomos yn chwarae wrth yr ysgol.\nYdy Tomos yn gweld y bêl?\nNac ydy. Dydy Tomos ddim yn gweld y bêl.\nBle mae'r bêl?\nMae hi wrth yr ysgol.\nPwy sy'n ei gweld hi?\nMae Alys yn ei gweld hi."
+    },
+    {
+      "title": "Yr hen dŷ",
+      "summary": "Old Emrys lives in an old house in Aberystwyth and likes the people of his area.",
+      "newWords": [
+        "hen",
+        "lle",
+        "rhai",
+        "pobl",
+        "ardal",
+        "llawer",
+        "hyn",
+        "hwn",
+        "hon",
+        "fy"
+      ],
+      "text": "Hen ddyn yw Emrys. Mae Emrys mewn tŷ hen iawn yn Aberystwyth. Mae'r tŷ hwn mewn lle da.\n\nMae llawer o bobl yn yr ardal hon. Mae rhai pobl yn hen, a rhai pobl yn newydd yn yr ardal. Mae llawer o blant yma hefyd.\n\nMae hyn yn dda i'r plant. Mae'r ysgol yn yr ardal, ac mae lle i chwarae.\n\nMae rhai pobl yn dweud, “Mae'r tŷ hwn yn rhy hen.” Ond mae Emrys yn dweud, “Na! Dyma fy nhŷ i, a dyma fy lle i. Mae hyn yn dda iawn.”\n\nCwestiynau:\nBeth yw Emrys?\nHen ddyn yw Emrys.\nOes llawer o bobl yn yr ardal?\nOes. Mae llawer o bobl yn yr ardal hon.\nOes lle i chwarae yn yr ardal?\nOes. Mae lle i chwarae.\nBeth mae rhai pobl yn dweud?\nMae rhai pobl yn dweud, “Mae'r tŷ hwn yn rhy hen.”"
+    },
+    {
+      "title": "Y llyfr mwyaf",
+      "summary": "Megan gives Dafydd three books for the new year, and he likes the biggest one.",
+      "newWords": [
+        "blwyddyn",
+        "rhoi",
+        "mwy",
+        "mwyaf",
+        "dod",
+        "tri",
+        "erbyn"
+      ],
+      "text": "Mae'r flwyddyn newydd yn dod. Mae Megan wedi gweld tri llyfr. Erbyn y flwyddyn newydd, rhaid i Megan roi'r tri llyfr i Dafydd.\n\nMae Dafydd yn dod i'r ysgol. “Dyma ti,” mae Megan yn dweud, ac mae hi'n rhoi tri llyfr i Dafydd.\n\n“Mae un yn fach. Mae un arall yn fwy, a dyma'r un mwyaf!”\n\n“Mae'r un mwyaf yn dda iawn,” mae Dafydd yn dweud. “Dyma fy un i. Mae hwn yn fwy na fy ysgol!”\n\nMae Dafydd yn rhoi'r un bach i'r ysgol erbyn y flwyddyn newydd.\n\nCwestiynau:\nBeth mae Megan yn rhoi i Dafydd?\nMae Megan yn rhoi tri llyfr i Dafydd.\nBeth mae Dafydd yn gweld?\nMae Dafydd yn gweld yr un mwyaf.\nBeth mae Dafydd yn rhoi i'r ysgol?\nMae Dafydd yn rhoi'r un bach i'r ysgol."
+    },
+    {
+      "title": "Y gwaith cartref",
+      "summary": "Teacher Llinos tells the children they can do the work, and Aled's group finishes it together.",
+      "newWords": [
+        "ni",
+        "chi",
+        "nhw",
+        "gallu",
+        "gwneud",
+        "pan",
+        "neu",
+        "fel"
+      ],
+      "text": "Mae Eleri yn gweithio yn yr ysgol. Mae hi'n dweud wrth y plant, “Rydych chi'n gallu gwneud y gwaith hwn. Gwnewch y gwaith yn yr ysgol neu gartref, gyda Nia neu gyda'r plant eraill.”\n\nMae Aled yn dweud, “Dydyn ni ddim yn gallu gwneud y gwaith! Mae'n fawr iawn.”\n\n“Pan fyddwch chi gyda'r plant eraill, rydych chi'n gallu,” mae hi'n dweud. “Fel hyn.”\n\nMae'r plant yn gwneud y gwaith gyda'r plant eraill. Pan fydd Aled yn gweld y gwaith, mae e'n dweud, “Rydyn ni wedi gwneud y gwaith, fel plant mawr!”\n\nMae hi'n gweld y plant, ac mae hi'n dweud wrthyn nhw, “Da iawn chi!”\n\nCwestiynau:\nBeth mae Eleri yn dweud wrth y plant?\nMae hi'n dweud, “Rydych chi'n gallu gwneud y gwaith hwn.”\nYdy Aled yn gallu gwneud y gwaith?\nYdy, gyda'r plant eraill.\nBeth mae Eleri yn dweud wrthyn nhw?\nMae hi'n dweud, “Da iawn chi!”"
+    },
+    {
+      "title": "Y car cyntaf",
+      "summary": "Rhian gets her first car and uses it to go to work and to visit Bethan.",
+      "newWords": [
+        "cael",
+        "rhan",
+        "defnyddio",
+        "at",
+        "trwy",
+        "dros",
+        "cyntaf",
+        "eu"
+      ],
+      "text": "Mae Rhian wedi cael car. Dyma ei char cyntaf! Mae hi'n gweithio yng Nghaernarfon, ac mae hi'n defnyddio'r car i fynd i'r gwaith.\n\nMae hi'n mynd trwy ran o'r ardal, a dros y bont. Mae'r ffordd trwy'r ardal yn dda. Mae Rhian yn mynd at Bethan gyda'r car hefyd.\n\nMae Bethan a Rhian yn cael amser da. Cyn eu gwaith, mae'r ddwy yn defnyddio eu hamser i weld rhan arall o'r ardal.\n\n“Dyma'r tro cyntaf i mi fynd dros y bont yn y car,” mae Bethan yn dweud.\n\n“Mae'n dda cael car,” mae Rhian yn dweud. “Rydyn ni'n cael mynd at lawer o bobl.”\n\nCwestiynau:\nBeth mae Rhian wedi cael?\nMae Rhian wedi cael car.\nBeth mae Rhian yn defnyddio i fynd i'r gwaith?\nMae Rhian yn defnyddio'r car.\nAt bwy mae Rhian yn mynd?\nMae Rhian yn mynd at Bethan.\nBeth mae'r ddwy yn gweld?\nMae'r ddwy yn gweld rhan arall o'r ardal."
+    },
+    {
+      "title": "Bag Iolo",
+      "summary": "Iolo often leaves his bag on the car, and his friend Gethin finds it by the road.",
+      "newWords": [
+        "cynnwys",
+        "aml",
+        "pen",
+        "prif",
+        "hunan",
+        "rhwng",
+        "hynny"
+      ],
+      "text": "Mae Iolo yn gweithio yn Wrecsam. Yn aml, mae Iolo yn rhoi ei fag ar ben y car. Mae'n cynnwys ei brif waith.\n\n“Oes bag gen ti?” mae Gethin yn dweud yn aml.\n\n“Oes, mae ar ben y car,” mae Iolo yn dweud. “Rydw i fy hun wedi ei roi yna.”\n\nMae Iolo yn mynd i'r gwaith, ond mae'r bag wedi mynd. Mae Gethin yn mynd i weld. Erbyn hynny, mae rhwng yr ysgol a'r ffordd. Mae rhwng dwy ran o'r ardal. Mae'n cynnwys y prif waith!\n\n“Dyma fe!” mae Gethin yn dweud.\n\nYn aml, mae Iolo yn gwneud hynny. Mae Iolo ei hun yn dweud, “Fel hyn rydw i.”\n\nCwestiynau:\nBeth mae'r bag yn cynnwys?\nMae'r bag yn cynnwys ei brif waith.\nAr ben beth mae Iolo yn rhoi ei fag?\nMae Iolo yn ei roi ar ben y car.\nBle mae Gethin yn ei weld?\nMae Gethin yn ei weld rhwng yr ysgol a'r ffordd."
+    },
+    {
+      "title": "Yn ôl o Batagonia",
+      "summary": "Lowri goes to Patagonia for a year to work in a school and comes home with a gift.",
+      "newWords": [
+        "ôl",
+        "â",
+        "er",
+        "fe",
+        "mi",
+        "hyd",
+        "nifer",
+        "byd",
+        "nid"
+      ],
+      "text": "Mae Lowri wedi mynd i Batagonia am flwyddyn. Mae hi'n mynd â nifer o lyfrau i'r ysgol yna.\n\nNid Lowri yw'r ferch gyntaf o'r ardal i fynd. Nid hi yw'r olaf. Mae nifer o bobl wedi mynd ar hyd a lled y byd. Er hynny, mae Patagonia yn lle arall.\n\nEr bod y lle yn bell, mae hi'n cael amser da. Ar ôl blwyddyn, mae hi'n dod yn ôl.\n\n“Dyma ti, yn ôl o'r byd mawr!” mae Sioned yn dweud wrth Lowri. “Beth wyt ti wedi gweld?”\n\n“Mae'n dda i mi fod yn ôl,” mae Lowri yn dweud. “Rhoddodd y plant lyfr i mi. Dyma fe. Mae am ddyn o'r ardal. Fe yw'r dyn cyntaf yna. Hyd yma, dyma'r llyfr mwyaf i mi.”\n\nCwestiynau:\nI ble mae Lowri wedi mynd?\nMae Lowri wedi mynd i Batagonia.\nÂ beth mae hi'n mynd i'r ysgol?\nMae hi'n mynd â nifer o lyfrau.\nBeth rhoddodd y plant i Lowri?\nRhoddodd y plant lyfr i Lowri."
+    }
+  ]
+}

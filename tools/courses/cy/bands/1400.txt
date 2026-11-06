@@ -1,0 +1,100 @@
+1	1301	artist	
+2	1302	bwlch	bylchau fwlch
+3	1303	safbwynt	safbwyntiau
+4	1304	mân	fân manach manaf manion
+5	1305	cuddio	chuddio cudda cuddaf cuddi cuddia cuddiadwy cuddiaf cuddiai cuddiais cuddiaist cuddiant cuddiech cuddiedig cuddiem cuddient cuddio'i cuddio'r cuddioch cuddiodd cuddir cuddiwch cuddiwn cuddiwyd cuddwch guddio
+6	1306	gwleidyddiaeth	ngwleidyddiaeth wleidyddiaeth
+7	1307	teimlad	deimlad teimladau theimlad
+8	1308	helynt	helyntion helyntoedd
+9	1309	cyfraniad	chyfraniad cyfraniadau gyfraniad
+10	1310	tlawd	dlawd thlawd tlodion tlotach tlotaf
+11	1311	mantais	fantais manteisiau manteision
+12	1312	grisiau	grisiau'n grisiau'r risiau
+13	1313	dyfais	ddyfais dyfeisiau dyfáis
+14	1314	dafad	ddafad defaid
+15	1315	yntau	efyntau fothau othau yntau'n
+16	1316	cyfaill	chyfaill cyfeillion gyfaill nghyfaill
+17	1317	siart	siartiau
+18	1318	cyfuno	chyfuno cyfuna cyfunadwy cyfunaf cyfunai cyfunais cyfunaist cyfunant cyfunech cyfunedig cyfunem cyfunent cyfuni cyfunir cyfuno'r cyfunoch cyfunodd cyfunwch cyfunwn cyfunwyd gyfuno
+19	1319	hardd	harddach harddaf heirdd
+20	1320	ymddangosiad	hymddangosiad ymddangosiadau
+21	1321	cegin	ceginau ceginoedd chegin gegin
+22	1322	llynges	llyngesau lynges
+23	1323	degawd	ddegawd degawdau negawd
+24	1324	croeso	chroeso groeso
+25	1325	modur	fodur moduron
+26	1326	bro	bro'r brofydd broydd bröydd fro froydd mro
+27	1327	clust	chlust clustiau glust nghlust
+28	1328	dwfn	ddwfn dofn dyfn dyfnach dyfnaf dyfnion
+29	1329	moel	foel moelach moelaf moelion moelydd
+30	1330	dilynol	ddilynol
+31	1331	trafferth	drafferth thrafferth trafferthion
+32	1332	hufen	
+33	1333	drosodd	
+34	1334	bin	biniau bins fin
+35	1335	hynafol	
+36	1336	menter	fenter mentrau
+37	1337	e-bost	e-bostiadau e-bostiau e-byst ebost
+38	1338	sifil	
+39	1339	dyddio	ddyddio dyddi dyddia dyddiadwy dyddiaf dyddiai dyddiais dyddiaist dyddiant dyddiech dyddiem dyddient dyddio'n dyddio'r dyddioch dyddiodd dyddir dyddiwch dyddiwn dyddiwyd
+40	1340	nant	ddant nentydd
+41	1341	trist	drist thrist tristach tristion
+42	1342	eitem	eitemau
+43	1343	englyn	englynion
+44	1344	tebygol	debygol thebygol
+45	1345	braich	breichiau fraich mraich
+46	1346	dawns	dawnsiau ddawns ddawnsfeydd nawns
+47	1347	cynnes	chynnes cynhesach cynhesaf gynnes
+48	1348	gwahanu	gwahana gwahanadwy gwahanaf gwahanai gwahanant gwahanech gwahanedig gwahanem gwahanent gwahanir gwahano gwahanoch gwahanodd gwahanu'n gwahanu'r gwahanwch gwahanwn gwahanwyd gwahenais gwahenaist gwaheni gwahenir gwahenwch wahanir wahanu
+49	1349	trafodaeth	drafodaeth thrafodaeth trafodaethau
+50	1350	pwyso	bwyso phwyso pwysa pwysadwy pwysaf pwysais pwysaist pwysant pwysedig pwysir pwyso'i pwyso'n pwyso'r pwysoch pwysodd pwyswch pwyswyd
+51	1351	crwn	crynion crynnach crynnaf grwn
+52	1352	cynulliad	chynulliad cynulliadau gynulliad nghynulliad
+53	1353	cerflun	cerfluniau cherflun gerflun
+54	1354	estyn	estynedig estynna estynnaf estynnai estynnais estynnaist estynnant estynnech estynnem estynnent estynni estynnir estynno estynnoch estynnodd estynnwch estynnwn estynnwyd hestyn
+55	1355	clasurol	chlasurol glasurol
+56	1356	arwynebedd	arwynebeddau harwynebedd
+57	1357	gostwng	gostynga gostyngadwy gostyngaf gostyngai gostyngais gostyngaist gostyngant gostyngech gostyngem gostyngent gostyngi gostyngir gostyngo gostyngoch gostyngodd gostyngwch gostyngwn gostyngwyd ostwng
+58	1358	ynglŷn	
+59	1359	deuddeg	ddeuddeg
+60	1360	siambr	siambar siambrau
+61	1361	morwyn	forwyn morwynion morynion
+62	1362	wel	
+63	1363	esgid	esgidiau
+64	1364	hwnt	
+65	1365	chwyldro	chwyldro'r chwyldroadau chwyldroeon
+66	1366	stiwdio	stiwdio'n stiwdio'r stiwdioau stiwdios
+67	1367	dodiad	dodiadau nodiadau
+68	1368	mynnu	fynn fynnu mynadwy mynasant mynedig mynna mynnaf mynnai mynnais mynnaist mynnant mynnech mynnem mynnent mynni mynnid mynnir mynno mynnoch mynnodd mynnu'r mynnwch mynnwn mynnwyd
+69	1369	perygl	berygl peryg peryglon pheryg pherygl
+70	1370	gwlyb	gwleb gwlybion gwlypach gwlypaf wlyb
+71	1371	braidd	
+72	1372	argyfwng	argyfyngau hargyfwng
+73	1373	urdd	urddau
+74	1374	ymwelwr	ymwelwraig ymwelwyr
+75	1375	academaidd	
+76	1376	lein	leinau leiniau leins
+77	1377	atgof	atgofion
+78	1378	cipio	chipio cipi cipia cipiadwy cipiaf cipiai cipiais cipiaist cipiant cipiech cipiedig cipiem cipient cipio'i cipio'n cipio'r cipioch cipiodd cipir cipiwch cipiwn cipiwyd gipio
+79	1379	ar-lein	
+80	1380	metr	fetr meidr metrau
+81	1381	defnyddiwr	ddefnyddiwr defnyddwyr
+82	1382	glyn	glynnoedd lyn nglyn
+83	1383	geiriadur	eiriadur geiriaduron ngeiriadur
+84	1384	brwd	brod brydion frwd
+85	1385	amrywiad	amrywiadau
+86	1386	comisiwn	chomisiwn comisiynau gomisiwn
+87	1387	esbonio	esbonedig esbonia esboniaf esboniai esboniais esboniaist esboniant esboniech esboniem esbonient esbonio'i esbonio'n esbonio'r esbonioch esboniodd esbonir esboniwch esboniwn esboniwyd esbonni esbonnir hesbonio
+88	1388	ofnadwy	
+89	1389	rhanbarthol	ranbarthol
+90	1390	clefyd	chlefyd clefydau clefydon glefyd
+91	1391	cronfa	chronfa cronfa'r cronfeydd gronfa nghronfa
+92	1392	brecwast	brecffast brecwastau brecwest frecwast
+93	1393	rasio	rasi rasia rasiadwy rasiaf rasiai rasiais rasiaist rasiant rasiech rasiedig rasiem rasient rasio'n rasio'r rasioch rasiodd rasir rasiwch rasiwn rasiwyd
+94	1394	amaethyddol	
+95	1395	gwahaniaethu	gwahaniaetha gwahaniaethadwy gwahaniaethaf gwahaniaethai gwahaniaethais gwahaniaethaist gwahaniaethant gwahaniaethech gwahaniaethedig gwahaniaethem gwahaniaethent gwahaniaethi gwahaniaethir gwahaniaetho gwahaniaethoch gwahaniaethodd gwahaniaethu'n gwahaniaethwch gwahaniaethwn gwahaniaethwyd wahaniaethu
+96	1396	disodli	ddisodli ddisodlir ddisodlodd ddisodlwyd disodli'n disodli'r disodlodd disodlwyd
+97	1397	ynni	ynni'n ynni'r
+98	1398	glanhau	glanha glanhaech glanhaem glanhaent glanhaf glanhao glanhaoch glanhaodd glanhau'n glanhau'r glanhawn glanhawyd glanheais glanheaist glanhei glanheir glanheua glanheuwch glanhewch glanhâi glanhânt lanhau nhau
+99	1399	gweini	gweinydda gweinyddadwy gweinyddaf gweinyddai gweinyddais gweinyddaist gweinyddant gweinyddech gweinyddedig gweinyddem gweinyddent gweinyddi gweinyddir gweinyddo gweinyddoch gweinyddodd gweinyddwch gweinyddwn gweinyddwyd weini
+100	1400	arloesol	

@@ -1,0 +1,100 @@
+1	7101	tawelydd	dawelydd tawelyddion thawelydd
+2	7102	corwen	gorwen nghorwen
+3	7103	bleidd-ddyn	blaidd-ddyn blaidd-ddynion bleidd-ddynion
+4	7104	gwenallt	wenallt
+5	7105	helgi	helgwn
+6	7106	cyfundrefnol	chyfundrefnol gyfundrefnol
+7	7107	brechiad	brechiadau frechiad
+8	7108	moliant	foliant moliannau
+9	7109	cymundeb	cymundebau gymundeb gymundebau
+10	7110	diorsedd	ddiorseddwyd diorseddodd diorseddwyd
+11	7111	odi	oda odadwy odai odais odaist odant odech odedig odem odent oder odir odo odoch ododd odwch odwn odwyd
+12	7112	goddiweddyd	goddiweddaf goddiweddodd goddiweddwyd goddiwes gorddiweddu gorddiweddyd gorddiwes oddiweddyd
+13	7113	sarhau	sarha sarhadwy sarhaech sarhaem sarhaent sarhaf sarhao sarhaoch sarhaodd sarhawn sarhawyd sarheais sarheaist sarhedig sarhei sarheir sarheua sarheuwch sarhewch sarhâi sarhânt sery
+14	7114	gwadn	gwadnau wadn
+15	7115	parddu	barddu
+16	7116	ffenigl	ffanigl ffannugl ffanugl
+17	7117	cenfaint	genfaint
+18	7118	crwth	crythau grwth
+19	7119	penmaenmawr	benmaenmawr
+20	7120	cryndod	gryndod
+21	7121	gyddflas	gyddfleision yddflas
+22	7122	protestanaidd	brotestanaidd
+23	7123	dichon	ddichon
+24	7124	tad-yng-nghyfraith	dad-yng-nghyfraith
+25	7125	deryn	dderyn
+26	7126	llanfairfechan	lanfairfechan
+27	7127	lladdfa	laddfa laddfeydd lladdfa'r lladdfaoedd lladdfâu
+28	7128	torwinau	dorwinau torwinau'r torwineuon
+29	7129	calfaria	calfaria'r galfaria
+30	7130	both	bothau foth moth
+31	7131	gwayw	gwayw'r gwewyr gweywyr wayw
+32	7132	gwân	gwanaf gwanod gwanu wân
+33	7133	seleri	salari sèleri
+34	7134	microdon	micro-don microdonnau
+35	7135	cyn-fyfyrwr	gyn-fyfyrwyr
+36	7136	ymlid	
+37	7137	steroid	steroidau
+38	7138	jwg	jwgiau jygiau jẁg siwg
+39	7139	ailadroddiad	
+40	7140	echelinol	
+41	7141	ymarferydd	ymarferyddion
+42	7142	rhwystredig	
+43	7143	opteg	
+44	7144	enllib	
+45	7145	crymedd	crymeddau
+46	7146	hurio	huriodd huriwyd
+47	7147	bromid	bromidau
+48	7148	gwelltyn	welltyn
+49	7149	llesmair	lesmair llesmeiriau llesmeirion
+50	7150	rhydlyd	rydlyd
+51	7151	clorin	glorin
+52	7152	cywerth	gywerth
+53	7153	disgynnol	ddisgynnol
+54	7154	dyraniad	ddyraniadau
+55	7155	byrstio	byrstiaf bystio fyrstio fyrstiodd
+56	7156	cyplysu	chyplysu cyplysa cyplysadwy cyplysaf cyplysais cyplysaist cyplysant cyplysedig cyplysi cyplysir cyplyso cyplysoch cyplysodd cyplysu'r cyplyswch cyplyswyd
+57	7157	cysylltedd	chysylltedd cysyllteddau gysylltedd
+58	7158	mecanydd	mecanyddion
+59	7159	haneru	hanera haneradwy haneraf hanerai hanerais haneraist hanerant hanerech haneredig hanerem hanerent haneri hanerir hanero haneroch hanerodd haneru'r hanerwch hanerwn hanerwyd
+60	7160	silio	silian
+61	7161	annoeth	
+62	7162	ffiniol	
+63	7163	hisian	hisiaf hisio hiso hysan hysian hysio hyso
+64	7164	anniddorol	
+65	7165	anhunanol	
+66	7166	anwythiad	anwythiadau
+67	7167	sganiwr	sganwyr
+68	7168	didrugaredd	ddidrugaredd
+69	7169	indrawn	
+70	7170	argyhoeddiadol	
+71	7171	anghymwys	
+72	7172	morlyn	môr-lynnau môr-lynnoedd
+73	7173	dympio	
+74	7174	amlieithog	
+75	7175	ailchwarae	
+76	7176	thermomedr	
+77	7177	seidin	seidinau seidins
+78	7178	trôns	drôns
+79	7179	milain	filain milainau mileines mileiniach mileiniaf mileinion
+80	7180	cydberthyniad	gydberthyniad
+81	7181	rhyddfrydig	ryddfrydig
+82	7182	digyffro	ddigyffro digyffro'r
+83	7183	cyfryngol	gyfryngol
+84	7184	morgeisio	forgeisio morgeisi morgeisia morgeisiadwy morgeisiaf morgeisiai morgeisiais morgeisiaist morgeisiant morgeisiech morgeisiedig morgeisiem morgeisient morgeisioch morgeisiodd morgeisir morgeisiwch morgeisiwn morgeisiwyd
+85	7185	dogfennaeth	ddogfennaeth
+86	7186	awtopsi	awtopsïau
+87	7187	canabis	ganabis
+88	7188	gostyngedig	ostyngedig
+89	7189	mwsg	fwsg
+90	7190	cymeradwy	gymeradwy
+91	7191	inswleiddio	insiwleiddio insiwleiddo inswleiddiaf inswleiddio'r inswleiddo
+92	7192	cwota	chwotâu cwotâu gwota
+93	7193	rhyfeddu	rhyfedda rhyfeddadwy rhyfeddaf rhyfeddai rhyfeddais rhyfeddaist rhyfeddant rhyfeddech rhyfeddedig rhyfeddem rhyfeddent rhyfeddi rhyfeddir rhyfeddo rhyfeddoch rhyfeddodd rhyfeddwch rhyfeddwn rhyfeddwyd ryfeddu
+94	7194	toi	doi thoi toaf toer toien tois
+95	7195	heliwm	
+96	7196	gradicaliaid	radicaliaid
+97	7197	unffordd	
+98	7198	niwsans	
+99	7199	diwylliedig	
+100	7200	isfyd	isfydoedd

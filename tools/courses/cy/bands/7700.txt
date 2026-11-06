@@ -1,0 +1,100 @@
+1	7601	cynheiliad	cynheiliaid gynheiliad
+2	7602	caen	caenau celen gaen
+3	7603	terfysgu	derfysgu terfysga terfysgadwy terfysgaf terfysgai terfysgais terfysgaist terfysgant terfysgech terfysgedig terfysgem terfysgent terfysgi terfysgir terfysgo terfysgoch terfysgodd terfysgwch terfysgwn terfysgwyd
+4	7604	portmeirion	mhortmeirion
+5	7605	ail-lansio	ail-lansiwyd
+6	7606	gwargoch	gwargochion wargoch
+7	7607	giat	giatau
+8	7608	amid	amidau hamid
+9	7609	ysgithrog	sgithrog sgythrog ysgythrog
+10	7610	euro	eura euradwy euraf eurai eurais euraist eurant eurech euredig eurem eurent euri eurir euroch eurodd eurwch eurwn eurwyd eurych
+11	7611	offrymu	offryma offrymadwy offrymaf offrymai offrymais offrymaist offrymant offrymech offrymedig offrymem offryment offrymi offrymir offrymo offrymoch offrymodd offrymwch offrymwn offrymwyd
+12	7612	galanas	alanas galanasau galanasoedd
+13	7613	tor-cyfraith	dor-cyfraith
+14	7614	moresg	foresg môr-hesgen
+15	7615	trochwr	trochwyr
+16	7616	dowlais	
+17	7617	llangoed	
+18	7618	plygain	plygaint plygeinau plygeiniau pylgain pylgaint
+19	7619	brithdir	
+20	7620	cernobyl	chernobyl
+21	7621	anufudd-dod	
+22	7622	llydanddail	
+23	7623	rhelyw	rhelywiau
+24	7624	ariannog	arianogion
+25	7625	hiraethu	
+26	7626	ymserchu	
+27	7627	arolygiaeth	arolygiaethau
+28	7628	pencerdd	
+29	7629	mansh	mans
+30	7630	llyriad	
+31	7631	talwrn	
+32	7632	gwrthgymdeithasol	
+33	7633	hafalnod	
+34	7634	arianrhod	
+35	7635	trwyth	trwythau
+36	7636	og	ogan ogau ogiau
+37	7637	minws	
+38	7638	croesor	
+39	7639	sabr	sabrau
+40	7640	presenoli	presenol
+41	7641	pwff	
+42	7642	sofietiad	sofietiaid
+43	7643	je	jeau
+44	7644	benllech	
+45	7645	chwibanog	
+46	7646	ymwybod	ymwybodau ymwybyddaf
+47	7647	llawdrwm	llawdrymion
+48	7648	ffwyl	ffoel ffwylau
+49	7649	tadcu	dadcu
+50	7650	geiriadurwr	geiriadurwyr
+51	7651	cricieth	nghricieth
+52	7652	clustiog	glustiog
+53	7653	broc	froc
+54	7654	rhagrith	ragrith rhagrithiau rhagrithion
+55	7655	diguro	ddiguro
+56	7656	ystrydeb	ystrydebau
+57	7657	mwstasiog	fwstasiog mwstasog
+58	7658	bloneg	floneg
+59	7659	henaduriaeth	henaduriaethau
+60	7660	bronnoeth	fronnoeth
+61	7661	tarddiant	tarddiannau
+62	7662	eisteddfodwr	eisteddfodwyr
+63	7663	criafol	crawel criafen criafolen criawol
+64	7664	llangeitho	langeitho
+65	7665	plwyfolion	blwyfolion
+66	7666	pensaerniol	bensaerniol
+67	7667	cyfarchol	chyfarchol
+68	7668	eilio	eilian
+69	7669	pip	bip pips
+70	7670	sgwner	sgwneri
+71	7671	einioes	heinioes
+72	7672	meddwol	feddwol
+73	7673	ribosom	ribosomau
+74	7674	slaf	slafiaid slafys slâfs yslaf
+75	7675	mewnwr	fewnwr mewnwyr
+76	7676	pladur	bladur pladuriau
+77	7677	tanlinellu	tanlinella tanlinelladwy tanlinellaf tanlinellai tanlinellais tanlinellaist tanlinellant tanlinellech tanlinelledig tanlinellem tanlinellent tanlinelli tanlinellir tanlinello tanlinelloch tanlinellodd tanlinellwch tanlinellwn tanlinellwyd
+78	7678	gwae	gwae'i gwaeau wae
+79	7679	biliwnydd	filiwnydd
+80	7680	canfasio	ganfas ganfasio
+81	7681	tam	dam tamau temig
+82	7682	cefnddu	gefnddu
+83	7683	tymestl	dymestl temestl tymhestlau tymhestloedd
+84	7684	pei	bei peis
+85	7685	pardduo	bardduo parddua pardduadwy pardduaf pardduai pardduais pardduaist pardduant pardduech pardduedig pardduem pardduent parddui pardduir pardduo'r pardduoch pardduodd pardduwch pardduwn pardduwyd
+86	7686	brawd-yng-nghyfraith	frawd-yng-nghyfraith
+87	7687	llythyru	llythyru'n lythyru
+88	7688	cochni	chochni cochni'r gochni
+89	7689	gwybed	gwybedyn wybed
+90	7690	crau	chrau creuau grau
+91	7691	mabolgamp	fabolgamp mabolgampau
+92	7692	crochan	crochanau crochenyn grochan
+93	7693	taeog	daeog taeogau taeogion
+94	7694	trefriw	drefriw nhrefriw
+95	7695	magwyr	fagwyr magwyrydd
+96	7696	pwytho	bwytho pwythaf pwytho'r
+97	7697	gwledda	gwledda'n wledda
+98	7698	gwanychu	gwanycha gwanychadwy gwanychaf gwanychai gwanychais gwanychaist gwanychant gwanychech gwanychedig gwanychem gwanychent gwanychi gwanychir gwanycho gwanychoch gwanychodd gwanychu'n gwanychwch gwanychwn gwanychwyd wanychu
+99	7699	ailgodi	ailgodaf ailgodi'r ailgododd ailgodwyd ailgyfodi hailgodi
+100	7700	pantri	

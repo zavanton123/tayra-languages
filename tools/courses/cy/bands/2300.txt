@@ -1,0 +1,100 @@
+1	2201	anheddiad	aneddiadau
+2	2202	gostyngiad	gostyngiadau ostyngiad
+3	2203	llefrith	lefrith
+4	2204	wythnosol	
+5	2205	bil	biliau fil
+6	2206	ymyrryd	hymyrryd ymyrra ymyrraeth ymyrraf ymyrrai ymyrrais ymyrraist ymyrrant ymyrrech ymyrred ymyrrem ymyrrent ymyrri ymyrrir ymyrro ymyrroch ymyrrodd ymyrru ymyrrwch ymyrrwn ymyrrwyd ymyrrydaf
+7	2207	punt	bunt punnau punnoedd
+8	2208	dyled	ddyled dyledion
+9	2209	ffarm	ffermydd
+10	2210	ucheldir	ucheldiredd ucheldiroedd
+11	2211	pysgotwr	bysgotwr pysgotwraig pysgotwyr
+12	2212	taw	daw taw'r thaw
+13	2213	gwrthwynebydd	gwrthwynebwyr wrthwynebydd
+14	2214	pregethwr	bregethwr phregethwr pregethwraig pregethwres pregethwyr
+15	2215	breuddwyd	breuddwydion freuddwyd mreuddwyd
+16	2216	ansoddair	ansoddeiriau
+17	2217	fforest	fforestau fforesti fforestydd
+18	2218	dawn	ddawn deuwn doniau down
+19	2219	cyfleu	chyfleu cyfleir cyfleu'n cyfleu'r gyfleodd gyfleu
+20	2220	cnwd	cnydau gnwd
+21	2221	ariannu	ariannent ariannir ariannodd ariannu'n ariannu'r ariannwyd ariennir hariannu
+22	2222	soffa	soffas
+23	2223	economeg	
+24	2224	ffonio	ffoni ffonia ffoniadwy ffoniaf ffoniai ffoniais ffoniaist ffoniant ffoniech ffoniedig ffoniem ffonient ffonio'i ffonio'r ffonioch ffoniodd ffonion ffonir ffoniwch ffoniwn ffoniwyd
+25	2225	anabledd	anableddau hanabledd
+26	2226	paent	baent paentiau phaent
+27	2227	llofruddio	llofruddi llofruddia llofruddiaf llofruddiai llofruddiais llofruddiaist llofruddiant llofruddiasant llofruddiech llofruddiedig llofruddiem llofruddient llofruddio'n llofruddio'r llofruddioch llofruddiodd llofruddir llofruddiwch llofruddiwn llofruddiwyd lofruddio
+28	2228	llawdriniaeth	lawdriniaeth llawdriniaethau
+29	2229	rhugl	rhuclach rhuclaf rhuglion
+30	2230	llym	llem llymach llymaf llymion lym
+31	2231	llên	lên
+32	2232	anghydfod	anghydfodau
+33	2233	gwasgaru	gwasgara gwasgaradwy gwasgaraf gwasgarai gwasgarant gwasgarech gwasgaredig gwasgarem gwasgarent gwasgaro gwasgaroch gwasgarodd gwasgaru'n gwasgaru'r gwasgarwch gwasgarwn gwasgarwyd gwasgerais gwasgeraist gwasgeri gwasgerir gwasgerwch gwesgyr wasgari wasgaru
+34	2234	sgipio	sgipi sgipia sgipiadwy sgipiaf sgipiai sgipiais sgipiaist sgipiant sgipiech sgipiedig sgipiem sgipient sgipioch sgipiodd sgipir sgipiwch sgipiwn sgipiwyd
+35	2235	harbwr	harbwrs
+36	2236	ymhell	
+37	2237	portreadu	bortreadir bortreadodd bortreadu bortreadwyd phortreadir phortreadodd phortreadu portreadaf portreadi portreadir portreadodd portreadu'r portreadwyd portreiadu
+38	2238	awyrgylch	awyrgylchoedd hawyrgylch
+39	2239	siomedig	siomiedig somedig
+40	2240	barwn	barwnes barwniaid farwn marwn
+41	2241	ysgrifenedig	
+42	2242	ysgogi	hysgogi hysgogwyd sgogi ysgogaf ysgogi'r ysgogir ysgogodd ysgogwyd
+43	2243	amatur	
+44	2244	haneswr	haneswyr
+45	2245	cyllell	chyllell cyllaill cyllall cylleill cyllyll gyllell
+46	2246	plât	blât phlât platiau
+47	2247	dibynnol	ddibynnol
+48	2248	toes	toesau toesi
+49	2249	canmol	canmola canmolaf canmolai canmolais canmolaist canmolant canmolech canmoledig canmolem canmolent canmoli canmolir canmolo canmoloch canmolodd canmolwch canmolwn canmolwyd chanmol ganmol
+50	2250	mecanwaith	fecanwaith mecanweithiau
+51	2251	anhygoel	anhygoelion
+52	2252	clirio	chlirio cliri cliria cliriadwy cliriaf cliriai cliriais cliriaist cliriant cliriech cliriedig cliriem clirient clirio'r clirioch cliriodd clirir cliriwch cliriwn cliriwyd glirio
+53	2253	cyffwrdd	chyffwrdd cyffyrdda cyffyrddadwy cyffyrddaf cyffyrddai cyffyrddais cyffyrddaist cyffyrddant cyffyrddech cyffyrddedig cyffyrddem cyffyrddent cyffyrddi cyffyrddir cyffyrddo cyffyrddoch cyffyrddodd cyffyrddwch cyffyrddwn cyffyrddwyd gyffwrdd
+54	2254	contract	chontract contractau gontract
+55	2255	helmed	helmedau helmedi
+56	2256	teisen	deisen teisennau
+57	2257	asio	asia asiadwy asiaf asiai asiech asiedig asiem asient asio'n asio'r asioch asiodd asiwch asiwn asiwyd esi esiais esiaist esiech esir esiwch hasio
+58	2258	naid	neidiau
+59	2259	pla	bla phla plâu
+60	2260	camlas	camlasau camlesi camlesydd chamlas gamlas
+61	2261	ansicr	
+62	2262	ethnig	
+63	2263	oeri	hoeri oera oeradwy oeraf oerai oerais oeraist oerant oerech oeredig oerem oerent oeri'n oeri'r oerir oero oeroch oerodd oerwch oerwn oerwyd
+64	2264	cors	chors corsydd cyrs gors nghors
+65	2265	alaw	alaw'r alawau alawen alawon
+66	2266	dyrchafu	ddyrchafu dyrchafa dyrchafadwy dyrchafaf dyrchafai dyrchafant dyrchafech dyrchafem dyrchafent dyrchafo dyrchafoch dyrchafodd dyrchafu'n dyrchafu'r dyrchafwch dyrchafwn dyrchafwyd dyrchaif dyrchefais dyrchefaist dyrchefi dyrchefir dyrchefwch
+67	2267	côt	chôt cotiau gôt
+68	2268	dehongli	ddehongli ddehonglir ddehonglodd ddehonglwyd dehongla dehonglaf dehongli'n dehongli'r dehonglid dehonglir dehonglodd dehonglwyd
+69	2269	potensial	botensial photensial
+70	2270	boddi	bodda boddadwy boddaf boddai boddais boddaist boddant boddasant boddech boddedig boddem boddent boddi'r boddir boddo boddoch boddodd boddwch boddwn boddwyd foddi
+71	2271	hongian	hongiai
+72	2272	gwerthwr	gwerthwyr werthwr
+73	2273	taflen	daflen taflennau taflenni thaflen
+74	2274	trowsus	drowsus throwsus trowsusau trywsus
+75	2275	genyn	enyn genynnau
+76	2276	goleuad	goleuadau
+77	2277	pwysleisio	bwysleisio phwysleisio pwylsleisia pwylsleisiwch pwysleisi pwysleisia pwysleisiadwy pwysleisiaf pwysleisiai pwysleisiais pwysleisiaist pwysleisiant pwysleisiech pwysleisiedig pwysleisiem pwysleisient pwysleisio'r pwysleisioch pwysleisiodd pwysleisir pwysleisiwch pwysleisiwn pwysleisiwyd
+78	2278	emosiynol	
+79	2279	el	eliau
+80	2280	pensil	bensil pensel pensilau pensiliau pensilion phensil
+81	2281	angladd	angladdau hangladd
+82	2282	canslo	cansla cansladwy canslaf canslai canslant canslech cansledig canslem canslent cansloch canslodd canslwch canslwn canslwyd censlais censlaist censli censlir censlwch chanslo ganslo
+83	2283	cydnabyddiaeth	chydnabyddiaeth gydnabyddiaeth
+84	2284	annisgwyl	
+85	2285	gward	ward wardiau
+86	2286	coffáu	choffáu coffa coffadwy coffaech coffaem coffaent coffao coffaoch coffaodd coffawn coffawyd coffeais coffeaist coffedig coffei coffeir coffewch coffáu'r coffâ coffâf coffâi coffânt goffáu
+87	2287	ymgorffori	hymgorffori ymgorffora ymgorfforadwy ymgorfforaf ymgorfforai ymgorfforais ymgorfforaist ymgorfforant ymgorfforech ymgorfforedig ymgorfforem ymgorfforent ymgorffori'r ymgorfforir ymgorfforo ymgorfforoch ymgorfforodd ymgorfforwch ymgorfforwn ymgorfforwyd
+88	2288	labordy	labordai labordy'n
+89	2289	cynhyrchydd	chynhyrchydd cynyrchyddion gynhyrchydd
+90	2290	cymrawd	cymrodyr gymrawd gymrodyr
+91	2291	dyfnder	ddyfnder dyfnderau dyfnderoedd nyfnder
+92	2292	tarw	darw tarw'n teirw tharw
+93	2293	ffederasiwn	ffederasiynau
+94	2294	rhywbryd	rywbryd
+95	2295	dodwy	ddodwy dodwir
+96	2296	normal	normalau
+97	2297	tenis	denis
+98	2298	arfbais	arfbeisiau
+99	2299	llwytho	llwytha llwythadwy llwythaf llwythai llwythais llwythaist llwythant llwythech llwythedig llwythem llwythent llwythi llwythir llwytho'n llwythoch llwythodd llwythwch llwythwn llwythwyd lwytho
+100	2300	pennawd	benawdau bennawd penawdau pennawdau phenawdau

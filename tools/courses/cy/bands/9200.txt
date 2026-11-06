@@ -1,0 +1,100 @@
+1	9101	abades	abadesau
+2	9102	eigion	eigionau
+3	9103	lladinaidd	
+4	9104	cyn-chwaraewr	
+5	9105	llanrhaeadr	
+6	9106	stôn	
+7	9107	ôd	
+8	9108	masgara	
+9	9109	prancio	pranciaf
+10	9110	bwcle	
+11	9111	darfudiad	
+12	9112	diddymwr	
+13	9113	llaneilian	
+14	9114	bochgoch	bochgochion bochgochod
+15	9115	bon	fon
+16	9116	pistyll	pistyllau pistylloedd
+17	9117	canmoladwy	
+18	9118	taffi	taffen taffis
+19	9119	morwynol	
+20	9120	asbri	asbriau
+21	9121	llanddulas	
+22	9122	ciwed	ciweidiau giwed
+23	9123	siach	siachau
+24	9124	newynu	
+25	9125	gwron	
+26	9126	pencoed	
+27	9127	cloren	
+28	9128	celfyddydwaith	
+29	9129	ymbriodi	ymbriododd
+30	9130	brawdol	
+31	9131	gwaen	waen
+32	9132	llymu	llyma
+33	9133	carismatig	
+34	9134	anglican	anglicaniaid
+35	9135	ewcaryotig	
+36	9136	rhagluniaeth	
+37	9137	prifwyl	brifwyl
+38	9138	awgrymog	
+39	9139	gody	godai
+40	9140	champion	
+41	9141	cyngrair	nghyngrair
+42	9142	trefedigaethwr	trefedigaethwyr
+43	9143	hurtyn	hurtynion hurtynnod
+44	9144	arffed	arffedau
+45	9145	ais	eisen
+46	9146	tysilio	
+47	9147	dibaid	ddibaid
+48	9148	gloes	gloesau gloesiau gloesion gloesoedd gloeson gloesydd loes
+49	9149	elor	elorau gelor
+50	9150	cydnabyddio	chydnabyddir
+51	9151	alcam	
+52	9152	adfyfyrio	
+53	9153	cythreulig	
+54	9154	gwychder	gwychderau
+55	9155	fflamgoch	
+56	9156	hynaws	
+57	9157	deintbig	deintbigau
+58	9158	glanfihangel	lanfihangel
+59	9159	mallu	mallwyd
+60	9160	caio	
+61	9161	glanhawr	
+62	9162	chwilys	chwil-lys chwilysoedd
+63	9163	cydsefydlu	cydsefydlodd
+64	9164	penarlâg	
+65	9165	fictoriad	fictoriaid
+66	9166	cymynrodd	
+67	9167	helbulus	
+68	9168	dihafal	ddihafal
+69	9169	achubiaeth	achubiaethau
+70	9170	cynffonfain	
+71	9171	ffyrm	
+72	9172	lli	
+73	9173	coronafirws	coronafirysau
+74	9174	brasio	frasier
+75	9175	afonol	
+76	9176	llumanwr	
+77	9177	trefforest	
+78	9178	bryneglwys	
+79	9179	pwdu	bwda pwdaf
+80	9180	trempyn	trempen
+81	9181	trefeca	
+82	9182	llanbedrog	
+83	9183	ymryddhau	
+84	9184	ffaeledd	ffaeleddau
+85	9185	seiniol	
+86	9186	nico	nicol nicos
+87	9187	diddos	ddiddos
+88	9188	cystudd	cystuddiau cystuddion
+89	9189	cosmoleg	
+90	9190	talyllyn	
+91	9191	anghymeradwyo	
+92	9192	sbageti	
+93	9193	cudyll	cudyllod curyll
+94	9194	hydrin	
+95	9195	gemydd	gemyddion
+96	9196	anafiad	
+97	9197	enllibio	
+98	9198	cyhydnos	cyhydnosau
+99	9199	siam	siams
+100	9200	boled	

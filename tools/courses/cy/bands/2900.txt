@@ -1,0 +1,100 @@
+1	2801	cwrt	chwrt cyrtiau gwrt
+2	2802	rhaniad	raniad rhaniadau
+3	2803	herwydd	erwydd
+4	2804	erchyll	erchyllach erchyllaf erchyllion
+5	2805	clymu	chlymu clyma clymadwy clymaf clymai clymais clymaist clymant clymech clymedig clymem clyment clymi clymir clymo clymoch clymodd clymu'r clymwch clymwn clymwyd cylymu glymu
+6	2806	dyfeisio	ddyfeisio ddyfeisiodd ddyfeisir ddyfeisiwyd ddyfeiswyd dyfeisio'r dyfeiswyd
+7	2807	rhybuddio	rhybuddi rhybuddia rhybuddiadwy rhybuddiaf rhybuddiai rhybuddiais rhybuddiaist rhybuddiant rhybuddiech rhybuddiedig rhybuddiem rhybuddient rhybuddio'r rhybuddioch rhybuddiodd rhybuddir rhybuddiwch rhybuddiwn rhybuddiwyd rybuddio
+8	2808	arloeswr	arloeswyr
+9	2809	berwi	berwa berwadwy berwaf berwai berwais berwaist berwant berwch berwech berwedig berwem berwent berwi'n berwi'r berwid berwir berwn berwo berwoch berwodd berwsant berwsoch berwyd ferwi
+10	2810	siarc	siarcod
+11	2811	perfformiwr	berfformiwr perfformwyr pherfformiwr
+12	2812	cyfleus	gyfleus
+13	2813	tawelu	dawelu dawelwch tawela taweladwy tawelai tawelais tawelaist tawelant tawelech taweledig tawelem tawelent taweli tawelir tawelo taweloch tawelodd tawelu'r tawelwch tawelwn tawelwyd thawelu thawelwch
+14	2814	tensiwn	densiwn tensiynau thensiwn
+15	2815	archebu	archeba archebadwy archebaf archebai archebais archebaist archebant archebech archebedig archebem archebent archebi archebir archebo archeboch archebodd archebu'n archebwch archebwn archebwyd harchebu
+16	2816	chwarelwr	chwarelwyr
+17	2817	maeth	faeth maethau
+18	2818	nyrsio	nyrsi nyrsia nyrsiadwy nyrsiaf nyrsiai nyrsiais nyrsiaist nyrsiant nyrsiech nyrsiedig nyrsiem nyrsient nyrsioch nyrsiodd nyrsir nyrsiwch nyrsiwn nyrsiwyd
+19	2819	blinedig	blinedigion flinedig
+20	2820	ffenomen	ffenomenau
+21	2821	sudd	suddion
+22	2822	ffibr	ffibrau
+23	2823	derbynnydd	dderbynnydd derbynyddion
+24	2824	arllwys	arllwysa arllwysadwy arllwysaf arllwysais arllwysaist arllwysant arllwysedig arllwysi arllwysir arllwyso arllwysoch arllwysodd arllwyswch arllwyswyd
+25	2825	ymbelydredd	
+26	2826	rhinwedd	rhinweddau rhinweddoedd rinwedd
+27	2827	ffrwydro	ffrwydra ffrwydradwy ffrwydraf ffrwydrai ffrwydrais ffrwydraist ffrwydrant ffrwydrech ffrwydredig ffrwydrem ffrwydrent ffrwydri ffrwydrir ffrwydro'n ffrwydroch ffrwydrodd ffrwydrwch ffrwydrwn ffrwydrwyd
+28	2828	tarian	darian tarianau
+29	2829	powdr	bowdr phowdr powdrau powdriau powdrs powdwr
+30	2830	malu	falu maladwy malaf malai malant malech maledig malem malent malo maloch malodd malu'n malu'r malwch malwn malwyd melais melaist meli melir melwch mâl
+31	2831	amddiffynnwr	amddiffynnydd amddiffynwyr
+32	2832	nai	nai'r neiaint
+33	2833	llofft	lloffti llofftydd lofft
+34	2834	swigen	swigod yswigen
+35	2835	lloeren	lloerennau lloerenni loeren
+36	2836	tric	dric triciau trics
+37	2837	treial	dreial nhreial threial treialon
+38	2838	darllenydd	darllenyddes darllenyddion ddarllenydd
+39	2839	hofrennydd	hofrenyddion
+40	2840	lili	lili'r lilis lilïau
+41	2841	lloches	llochesau llochwes loches
+42	2842	cigydd	cigyddion gigydd
+43	2843	hil	hilion
+44	2844	stêm	stîm
+45	2845	niwlog	niwliog niwlocach niwlocaf niwlogion
+46	2846	pabell	babell pebyll
+47	2847	ffisegol	
+48	2848	chwip	chwipiau
+49	2849	deuol	ddeuol deuolau
+50	2850	truenus	druenus
+51	2851	serennu	serennaf serennodd serennu'r
+52	2852	arfordirol	
+53	2853	goruchwylio	gorchwylio goruchwyli goruchwylia goruchwyliadwy goruchwyliaf goruchwyliai goruchwyliais goruchwyliaist goruchwyliant goruchwyliech goruchwyliedig goruchwyliem goruchwylient goruchwylio'r goruchwylioch goruchwyliodd goruchwylir goruchwyliwch goruchwyliwn goruchwyliwyd goruwchwylio oruchwylio
+54	2854	biolegol	fiolegol
+55	2855	diagnosis	ddiagnosis
+56	2856	trwch	drwch nhrwch thrwch troch trychach trychaf trychau trychiau trychion
+57	2857	fframwaith	fframweithiau
+58	2858	hediad	ehediad ehediadau hediadau
+59	2859	draenen	ddraenen draenennau drain nraenen
+60	2860	darfod	darfodaf darfodi darfyddaf ddarfod
+61	2861	ffafr	ffafar ffafor ffafrau ffafwr ffefryn ffefrynnau
+62	2862	clo	chlo clo'r cloeau cloeon
+63	2863	dirgel	ddirgel dirgelau dirgeloedd
+64	2864	rholio	rholan rholi rholiaf rholian rholio'n rholio'r rholiodd rholo rhowlio rhowlo rolio rolir rolo rowlio rowlo
+65	2865	rhamantus	ramantus
+66	2866	dioddefwr	ddioddefwr dioddefwyr
+67	2867	lamp	lampau lampiau
+68	2868	uniaith	
+69	2869	cludiant	chludiant
+70	2870	rheiny	rheiny'n
+71	2871	mordaith	fordaith mordeithiau
+72	2872	gwylan	gwylanod wylan
+73	2873	trefniad	trefniadau
+74	2874	artistig	
+75	2875	comisiynu	chomisiynu chomisiynwyd comisiynir comisiynodd comisiynwyd gomisiynodd gomisiynu gomisiynwyd
+76	2876	ymosodol	
+77	2877	siglen	siglennau siglennod siglennydd
+78	2878	cenhadaeth	chenhadaeth genhadaeth
+79	2879	crawn	crawnau grawn
+80	2880	pilen	bilen philen pilenni
+81	2881	enwogrwydd	henwogrwydd
+82	2882	holiadur	holiaduron
+83	2883	ffa	ffeuen ffäen
+84	2884	tyrfo	dyrfa dyrfaoedd tyrfa tyrfa'n tyrfaoedd
+85	2885	glowr	glowyr lowr
+86	2886	gŵn	gynau
+87	2887	biliwn	biliwnau biliynau
+88	2888	annymunol	
+89	2889	arddel	arddela arddeladwy arddelaech arddelaem arddelaent arddelaf arddelai arddelao arddelaoch arddelaodd arddelawn arddelawyd arddeleais arddeleaist arddeledig arddelei arddeleir arddelewch arddelid arddelir arddelodd arddelu arddelwch arddelwi arddelwyd arddelâ arddelâf arddelâi arddelânt harddel
+90	2890	hawlfraint	hawlfreiniau hawlfreintiau
+91	2891	addewid	addewidion
+92	2892	stumog	stumogau
+93	2893	gwrthdroi	gwrth-droi gwrthdro gwrthdroaf gwrthdroi'r gwrthdrowyd gwrthdrôf wrthdro wrthdroeon wrthdroi
+94	2894	moron	foron moronen
+95	2895	sefydlydd	sefydlwyr sefydlyddion
+96	2896	sach	sachau sachen
+97	2897	eglur	eglurach egluraf
+98	2898	bwydlen	bwydlenni fwydlen
+99	2899	blith	blithion
+100	2900	cyllideb	chyllideb cyllidebau gyllideb nghyllideb

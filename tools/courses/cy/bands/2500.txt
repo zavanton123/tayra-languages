@@ -1,0 +1,100 @@
+1	2401	rhagorol	ragorol
+2	2402	priffordd	briffordd priffyrdd
+3	2403	gorchfygu	gorchfyga gorchfygadwy gorchfygaf gorchfygai gorchfygais gorchfygaist gorchfygant gorchfygasant gorchfygech gorchfygedig gorchfygem gorchfygent gorchfygi gorchfygir gorchfygo gorchfygoch gorchfygodd gorchfygu'r gorchfygwch gorchfygwn gorchfygwyd orchfygu
+4	2404	niwl	niwloedd
+5	2405	rhodd	rhoddion rodd
+6	2406	tomato	tomatoes tomatos
+7	2407	saer	seiri
+8	2408	crib	chrib cribau grib
+9	2409	domestig	ddomestig
+10	2410	ewyllys	ewyllysiau hewyllys
+11	2411	trofannol	drofannol
+12	2412	brodor	brodores brodorion frodor
+13	2413	peswch	beswch peswchaf pesycha pesychadwy pesychaf pesychai pesychais pesychaist pesychant pesychech pesychedig pesychem pesychent pesychi pesychir pesycho pesychoch pesychodd pesychwch pesychwn pesychwyd pheswch
+14	2414	trychineb	drychineb nhrychineb thrychineb trychinebau
+15	2415	dehongliad	ddehongliad degonglad dehongliadau
+16	2416	edau	edaf edafedd edefion edefyn edeifion
+17	2417	siocled	siocledi siocledyn
+18	2418	marchogaeth	farchogaeth marchoga marchogadwy marchogaf marchogai marchogais marchogaist marchogant marchogech marchogedig marchogem marchogent marchogi marchogir marchogo marchogoch marchogodd marchogwch marchogwn marchogwyd marchyg
+19	2419	enwad	enwadau
+20	2420	tacsi	dacsi tacsis thacsi
+21	2421	sweden	
+22	2422	gwario	gwaria gwariadwy gwariaf gwariai gwariech gwariedig gwariem gwarient gwario'i gwario'r gwarioch gwariodd gwariwch gwariwn gwariwyd gweri gweriais gweriaist gweriech gwerir gweriwch wario
+23	2423	creigiog	chreigiog greigiog
+24	2424	agoriadol	
+25	2425	cynrychiolydd	chynrychiolydd cynrychiolyddion gynrychiolydd
+26	2426	sylwedd	sylweddau
+27	2427	noeth	ddoeth noethach noethaf noethion
+28	2428	dug	ddug dugiaid
+29	2429	gwneuthurwr	gwneuthurwyr wneuthurwr wneuthurwyr
+30	2430	benyw	benywod fenyw
+31	2431	pennill	bennill mhennill penillion phennill
+32	2432	catrawd	catrodau chatrawd gatrawd gatrodau nghatrawd
+33	2433	chwiler	chwilerod chwileryn
+34	2434	olynydd	holynydd olynwyr
+35	2435	cefnder	cefndryd cefndyr chefnder gefnder
+36	2436	concro	choncrit concraf concrid concrio concrit concrodd concrwyd concwerio concwero concweru cwncwerio cwncweru goncrid goncrit goncro
+37	2437	stamp	stampiau stamps
+38	2438	diwygiedig	ddiwygiedig
+39	2439	goresgyn	goresgynadwy goresgynedig goresgynna goresgynnaf goresgynnai goresgynnais goresgynnaist goresgynnant goresgynnech goresgynnem goresgynnent goresgynni goresgynnir goresgynno goresgynnoch goresgynnodd goresgynnu goresgynnwch goresgynnwn goresgynnwyd oresgyn
+40	2440	credyd	credid credit credydau credyt gredyd
+41	2441	taleithiol	daleithiol thaleithiol
+42	2442	diben	ddiben dibenion
+43	2443	tywyllwch	dywyllwch nhywyllwch thywyllwch
+44	2444	archfarchnad	archfarchnadau archfarchnadoedd
+45	2445	gohebydd	gohebwyr ohebydd
+46	2446	organig	
+47	2447	annwyd	annwydau anwydau anwydion anwydon anwydydd
+48	2448	ditectif	dditectif ditectifs
+49	2449	cryfhau	chryfhau cryfhadwy cryfhaech cryfhaem cryfhaent cryfhao cryfhaoch cryfhaodd cryfhau'r cryfhawn cryfhawyd cryfheais cryfheaist cryfhedig cryfhei cryfheir cryfhewch cryfhâ cryfhâf cryfhâi cryfhânt gryfhau
+50	2450	llinach	linach llinachau
+51	2451	gorymdaith	gorymddaith gorymdeithau gorymdeithiaf gorymdeithiau ngorymdaith orymdaith
+52	2452	gem	em gemau gemen gemyn hem
+53	2453	cydran	chydran chydrannau cydrannau gydran gydrannau
+54	2454	awgrymiad	awgrymiadau
+55	2455	costio	costi costia costiadwy costiaf costiai costiais costiaist costiant costiech costiedig costiem costient costio'r costioch costiodd costir costiwch costiwn costiwyd gostio
+56	2456	bygwth	bygythiaf bygythiain bygythio bygythiodd bygython fygwth fygythion
+57	2457	darganfyddiad	darganfyddiadau ddarganfyddiad ddarganfyddiadau
+58	2458	crand	grand
+59	2459	estyniad	estyniadau
+60	2460	dirywio	ddirywio dirywio'n dirywiodd
+61	2461	defod	ddefod defodau
+62	2462	posibilrwydd	bosibilrwydd phosibilrwydd
+63	2463	cawod	cafod cawad cawodau cawodydd gawod
+64	2464	confensiwn	chonfensiwn confensiynau gonfensiwn gonfensiynau nghonfensiwn
+65	2465	dadansoddiad	dadansoddiadau ddadansoddiad
+66	2466	diffodd	ddiffodd diffodda diffoddadwy diffoddaf diffoddai diffoddais diffoddaist diffoddant diffoddech diffoddedig diffoddem diffoddent diffoddi diffoddir diffoddo diffoddoch diffoddodd diffoddwch diffoddwn diffoddwyd diffydd
+67	2467	steil	steiliau
+68	2468	atgyfnerthu	atgyfnertha atgyfnerthadwy atgyfnerthaf atgyfnerthai atgyfnerthais atgyfnerthaist atgyfnerthant atgyfnerthech atgyfnerthedig atgyfnerthem atgyfnerthent atgyfnerthi atgyfnerthir atgyfnertho atgyfnerthoch atgyfnerthodd atgyfnerthu'i atgyfnerthu'r atgyfnerthwch atgyfnerthwn atgyfnerthwyd hatgyfnerthu
+69	2469	ofnus	
+70	2470	aelwyd	aelwydydd haelwyd
+71	2471	angel	angylion engyl
+72	2472	dychryn	ddychryn dychryna dychrynadwy dychrynaf dychrynai dychrynais dychrynaist dychrynant dychrynech dychrynedig dychrynem dychrynent dychryni dychryniadau dychrynir dychryno dychrynoch dychrynodd dychrynu dychrynwch dychrynwn dychrynwyd nychryn
+73	2473	crogi	chrogi chrogodd chrogwyd crogi'n crogi'r crogwyd grogi grogwyd
+74	2474	olynol	
+75	2475	goleuo	goleua goleuadwy goleuai goleuais goleuaist goleuant goleuech goleuem goleuent goleui goleuir goleuo'n goleuo'r goleuoch goleuodd goleuwch goleuwn goleuwyd oleuo
+76	2476	cacen	cacennau cacs gacen
+77	2477	tuedd	duedd thuedd tueddiadau
+78	2478	hemisffer	hemisfferau
+79	2479	llety	lety llety'r lletyau
+80	2480	reit	
+81	2481	dealltwriaeth	ddealltwriaeth dealltwriaethau
+82	2482	gwennol	gwenoliaid wennol
+83	2483	disglair	ddisglair disgleiriach disgleiriaf
+84	2484	mewnfudwr	fewnfudwyr mewnfudwyr
+85	2485	masnachu	fasnachu masnacha masnachadwy masnachaf masnachai masnachais masnachaist masnachant masnachech masnachedig masnachem masnachent masnachi masnachir masnacho masnachoch masnachodd masnachu'i masnachu'n masnachwch masnachwn masnachwyd
+86	2486	prifathro	brifathro phrifathro prifathrawon prifathro'n prifathro'r
+87	2487	hydrogen	
+88	2488	teithlyfr	teithlyfrau
+89	2489	harddwch	
+90	2490	elwa	elwa'n elwadwy elwaf elwai elwais elwaist elwant elwch elwech elwedig elwem elwent elwi elwo elwoch elwodd elwsant elwsoch elwyd
+91	2491	pibell	bibell phibell pibellau pibelli
+92	2492	lwcus	lwcusach lwcusaf
+93	2493	caethwas	caethweision chaethwas gaethwas
+94	2494	cast	castau castiau cestyn chast gast nghast
+95	2495	dethol	ddethol ddetholwyd detholaf detholi detholion detholir detholwyd
+96	2496	seicolegol	
+97	2497	cwest	cwestau west
+98	2498	unman	unfan
+99	2499	trwsio	drwsio thrwsio trwsi trwsia trwsiadwy trwsiaf trwsiai trwsiais trwsiaist trwsiant trwsiech trwsiedig trwsiem trwsient trwsio'i trwsio'r trwsioch trwsiodd trwsir trwsiwch trwsiwn trwsiwyd
+100	2500	heulog	heuliog

@@ -1,0 +1,100 @@
+1	8801	gwelediad	
+2	8802	amharchu	amharcha amharchadwy amharchaf amharchai amharchant amharchech amharchedig amharchem amharchent amharcho amharchoch amharchodd amharchwch amharchwn amharchwyd amheirch amherchais amherchaist amherchi amherchir amherchwch
+3	8803	cydlifiad	cydlifiadau
+4	8804	cyfaredd	chyfaredd cyfareddau gyfaredd
+5	8805	ymatebol	
+6	8806	chwyslyd	
+7	8807	ategyn	
+8	8808	blaenoriaethu	flaenoriaethu
+9	8809	hunan-laddiad	
+10	8810	ailbeintio	ailbeinti ailbeintia ailbeintiadwy ailbeintiaf ailbeintiai ailbeintiais ailbeintiaist ailbeintiant ailbeintiech ailbeintiedig ailbeintiem ailbeintient ailbeintioch ailbeintiodd ailbeintir ailbeintiwch ailbeintiwn ailbeintiwyd hailbeintio
+11	8811	prion	
+12	8812	ffiwdaliaeth	
+13	8813	ynysydd	ynysyddion
+14	8814	traethu	traetha traethadwy traethaf traethai traethais traethaist traethant traethech traethedig traethem traethent traethi traethir traetho traethoch traethodd traethwch traethwn traethwyd
+15	8815	ymdroi	
+16	8816	iachusol	
+17	8817	canolrif	
+18	8818	cyfareddol	
+19	8819	locws	
+20	8820	goglais	gogleisiaf gogleisiau gogleisio
+21	8821	di-ffurf	ddi-ffurf
+22	8822	aneglurder	
+23	8823	cwyddo	cwydda cwyddadwy cwyddaf cwyddai cwyddais cwyddaist cwyddant cwyddech cwyddedig cwyddem cwyddent cwyddi cwyddir cwyddoch cwyddodd cwyddwch cwyddwn cwyddwyd gwydd wydd
+24	8824	ffantasï	ffantasïau
+25	8825	amrantiad	amrantiadau
+26	8826	pelawd	belawd
+27	8827	croeslinol	groeslinol
+28	8828	adfyd	adfydau
+29	8829	penglini	pengliniau
+30	8830	organyn	organynnau
+31	8831	ansoddeiriol	
+32	8832	hyfrydwch	
+33	8833	ystryw	hystryw stryw
+34	8834	cloddiwr	cloddwyr
+35	8835	anadferadwy	
+36	8836	llyfryddol	
+37	8837	gof	gofaint
+38	8838	cariwr	
+39	8839	llipryn	lliprynnau lliprynnod
+40	8840	estraddodi	
+41	8841	tramgwyddus	dramgwyddus
+42	8842	dowcio	dowci dowcia dowciadwy dowciaf dowciai dowciais dowciaist dowciant dowciech dowciedig dowciem dowcient dowcii dowciir dowcioch dowciodd dowciwch dowciwn dowciwyd towcio
+43	8843	nawdegau	
+44	8844	dynwarediad	
+45	8845	ernes	
+46	8846	breichled	
+47	8847	gorlwytho	orlwytho
+48	8848	cyferbyn	
+49	8849	berfa	barw berfâu ferfa
+50	8850	cyfriflyfr	cyfriflyfrau
+51	8851	penwn	pennon penynau
+52	8852	perlewyg	
+53	8853	amharodrwydd	
+54	8854	morgi	morgwn
+55	8855	cymhathu	chymhathu gymhathu
+56	8856	clap	clapiau claps clepyn glap
+57	8857	colfach	colfachau golfach
+58	8858	banw	beinw fanw manw
+59	8859	cwmnïaeth	chwmnïaeth cwmnïaethau gwmnïaeth
+60	8860	pranc	branc pranciau
+61	8861	isafbwynt	hisafbwynt isafbwyntiau
+62	8862	prolog	brolog phrolog prologau
+63	8863	tebot	debot tebotau tebotiau
+64	8864	crychog	crychiog grychog
+65	8865	cochi	cocha cochadwy cochai cochais cochaist cochant cochech cochedig cochem cochent cochir cocho cochoch cochodd cochsen cochwch cochwn cochwyd gochi
+66	8866	dewislen	ddewislen dewislenni
+67	8867	cnocio	cnociaf cnocio'n cnoco gnocio
+68	8868	ciwcymbr	ciwcymber ciwcymbrau giwcymbr
+69	8869	llifwaddod	lifwaddod llifwaddodion
+70	8870	gweinyddes	gweinyddesau weinyddes
+71	8871	gostyngeiddrwydd	ostyngeiddrwydd
+72	8872	trybini	thrybini
+73	8873	alldaflu	alldafla alldafladwy alldaflaf alldaflai alldaflant alldaflech alldafledig alldaflem alldaflent alldaflo alldafloch alldaflodd alldaflwch alldaflwn alldaflwyd alldeflais alldeflaist alldefli alldeflir alldeflwch alldeifl alltaflu halldaflu
+74	8874	olif	olifau olifs
+75	8875	cytseiniol	gytseiniol
+76	8876	di-lol	ddi-lol
+77	8877	meddiannol	feddiannol
+78	8878	melltigedig	felltigedig
+79	8879	llurgunio	llurgunaf lurgunio
+80	8880	digyfaddawd	ddigyfaddawd
+81	8881	dyblyg	ddyblyg
+82	8882	sianelu	sianelu'r
+83	8883	cyfeiliornus	gyfeiliornus
+84	8884	gwarediad	warediad
+85	8885	enwaedu	enwaedodd
+86	8886	cryg	crygach crygaf gryg
+87	8887	plotio	plotio'r
+88	8888	beiro	beiros
+89	8889	rhwbiad	rhwbiadau rwbiad
+90	8890	gwallgofi	wallgofwyf
+91	8891	did	ddidau didau
+92	8892	ailfeddwl	ailfeddyliodd
+93	8893	blacmel	blacmêl
+94	8894	cydosodiad	cydosodiadau
+95	8895	sgileffaith	sgileffeithiau sgîl-effaith
+96	8896	cala	cal caliau caly
+97	8897	mewnforiwr	mewnforwyr
+98	8898	gogoneddu	ogoneddu
+99	8899	pendilio	bendilio pendili pendilia pendiliadwy pendiliaf pendiliai pendiliais pendiliaist pendiliant pendiliech pendiliedig pendiliem pendilient pendilii pendiliir pendilioch pendiliodd pendiliwch pendiliwn pendiliwyd
+100	8900	llysgenhadol	lysgenhadol

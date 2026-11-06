@@ -1,0 +1,100 @@
+1	7301	brolio	broli brolia broliadwy broliaf broliai broliais broliaist brolian broliech broliedig broliem brolient brolii broliir brolioch broliodd broliwch broliwn broliwyd frolio
+2	7302	gwlychu	gwlycha gwlychadwy gwlychaf gwlychai gwlychais gwlychaist gwlychant gwlychech gwlychedig gwlychem gwlychent gwlychi gwlychir gwlycho gwlychoch gwlychodd gwlychu'r gwlychwch gwlychwn gwlychwyd wlychu
+3	7303	tyrru	dyrru tyradwy tyrai tyredig tyro tyrra tyrraf tyrrai tyrrais tyrraist tyrrant tyrrech tyrrem tyrrent tyrri tyrrir tyrro tyrroch tyrrodd tyrrwch tyrrwn tyrrwyd
+4	7304	tirio	diriant dirio'r diriodd thirio tiriaf
+5	7305	dilyniannol	ddilyniannol
+6	7306	cylchyn	cylchynau cylchynnau gylchyn
+7	7307	proffesiynoldeb	broffesiynoldeb
+8	7308	afreoleidd-dra	
+9	7309	cramennog	cramenogion
+10	7310	basgot	fasgot
+11	7311	sodro	sodr sodra sodradwy sodraf sodrai sodrais sodraist sodrant sodrech sodredig sodrem sodrent sodri sodrir sodroch sodrodd sodrwch sodrwn sodrwyd
+12	7312	castan	castanau
+13	7313	gellyg	gellygen
+14	7314	ariannaidd	
+15	7315	hoe	hoeau
+16	7316	mintys	
+17	7317	ymlynu	ymlyna ymlynadwy ymlynaf ymlynai ymlynais ymlynaist ymlynant ymlynech ymlynedig ymlynem ymlynent ymlyni ymlynir ymlyno ymlynoch ymlynodd ymlynwch ymlynwn ymlynwyd ymlŷn
+18	7318	cydymffurfiaeth	chydymffurfiaeth gydymffurfiaeth
+19	7319	gweledig	weledig
+20	7320	mellten	fellten
+21	7321	drewllyd	ddrewllyd
+22	7322	cut	cutiau gut
+23	7323	pâl	palau palod
+24	7324	pontardawe	bontardawe
+25	7325	esgair	esgeiriau esgeiriedd ysgair
+26	7326	barrug	farrug
+27	7327	dyddiedig	ddyddiedig
+28	7328	temtio	demtio
+29	7329	cynulleidfaol	gynulleidfaol
+30	7330	bronwen	bronwennod fronwen
+31	7331	breuder	freuder
+32	7332	dyneiddiwr	dyneiddwyr
+33	7333	breinlen	breinlenni freinlen
+34	7334	pentrefol	bentrefol
+35	7335	di-flewyn-ar-dafod	ddi-flewyn-ar-dafod
+36	7336	bydwraig	bydwragedd fydwraig
+37	7337	anecdot	anecdotau
+38	7338	celfydd	celfyddach celfyddaf celfyddion celfyddon gelfydd
+39	7339	teires	deires
+40	7340	rhod	rhodau rod
+41	7341	di-briod	ddi-briod
+42	7342	ce	ceau che
+43	7343	diadell	ddiadell diadellau diadelloedd
+44	7344	annwfn	annwn
+45	7345	adargraffu	adargraffa adargraffadwy adargraffaf adargraffai adargraffant adargraffech adargraffedig adargraffem adargraffent adargraffo adargraffoch adargraffodd adargraffwch adargraffwn adargraffwyd adargreffais adargreffaist adargreffi adargreffir adargreffwch hadargraffu
+46	7346	maesteg	
+47	7347	cubut	chubut
+48	7348	blanc	blainc blanciau
+49	7349	ysgallen	
+50	7350	trysorfa	drysorfa trysorfaoedd trysorfeydd
+51	7351	ffion	ffionau
+52	7352	palestina	
+53	7353	cilometrau	gilometrau
+54	7354	efrydwr	efrydwyr
+55	7355	wado	wadi
+56	7356	wici	wicis
+57	7357	minc	mincod
+58	7358	tregaron	
+59	7359	sidanaidd	
+60	7360	imiwn	
+61	7361	collen	
+62	7362	glaslyn	
+63	7363	bathdy	bathdai bathdy'r
+64	7364	cwtiar	cotiar cwtieir gwtiar
+65	7365	llindag	lindag
+66	7366	diciâu	dicáe dicáu dyciáe dyciáu dycáe dycáu
+67	7367	golygyddiaeth	olygyddiaeth
+68	7368	gwyddfid	wyddfid
+69	7369	ysguthan	ysguthanod
+70	7370	storïwr	storïwyr
+71	7371	buddug	fuddug
+72	7372	cylchlwybr	cylchlwybrau gylchlwybr
+73	7373	cynlluniwr	cynllunwyr
+74	7374	penmachno	mhenmachno
+75	7375	cetyn	getyn
+76	7376	brawdgarwch	frawdgarwch
+77	7377	cofiadur	cofiadurau cofiaduron gofiadur
+78	7378	maro	faro maros
+79	7379	croniclo	chroniclo croniclo'r
+80	7380	tryfesur	dryfesur thryfesur tryfesurau
+81	7381	cymathu	cymathu'r gymathu gymathwyd
+82	7382	buanedd	buaneddau fuanedd
+83	7383	miri	firi miri'r
+84	7384	penllanw	benllanw penllanw'r
+85	7385	cyfarwyddwraig	chyfarwyddwraig gyfarwyddwraig
+86	7386	cyfangu	cyfangwyd gyfangu
+87	7387	cannu	canna cannadwy cannai cannant cannech cannedig cannem cannent canno cannoch cannodd cannu'r cannwch cannwn cannwyd cennais cennaist cenni cennir cennwch channu gannu
+88	7388	domino	dominos
+89	7389	cyfrifiannu	gyfrifiannu
+90	7390	darfodedig	ddarfodedig
+91	7391	sebra	sebraod sebras
+92	7392	ardystiedig	
+93	7393	oferedd	ofereddau ofereddion
+94	7394	gwrol	wrol
+95	7395	cyflogai	cyflogeion
+96	7396	ecsbloetio	
+97	7397	seinio	seini seinia seiniadwy seiniaf seiniai seiniais seiniaist seiniant seiniech seiniedig seiniem seinient seinioch seiniodd seinir seiniwch seiniwn seiniwyd
+98	7398	lleuadol	
+99	7399	sil	silod
+100	7400	soddgrwth	soddgrythau

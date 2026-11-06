@@ -1,0 +1,100 @@
+1	3701	diflasu	ddiflasu diflasa diflasia diflasiadwy diflasiaf diflasiai diflasiant diflasiech diflasiedig diflasiem diflasient diflasio diflasioch diflasiodd diflasiwch diflasiwn diflasiwyd diflasu'n diflaswch diflesi diflesiais diflesiaist diflesiech diflesir diflesiwch
+2	3702	hynafiad	hynafiaid
+3	3703	tegell	degell tegellau tegelli
+4	3704	odli	odla odladwy odlaf odlai odlais odlaist odlant odlech odledig odlem odlent odlid odlir odlo odloch odlodd odlwch odlwn odlwyd
+5	3705	breuddwydio	breuddwydi breuddwydia breuddwydiadwy breuddwydiaf breuddwydiai breuddwydiais breuddwydiaist breuddwydiant breuddwydiech breuddwydiedig breuddwydiem breuddwydient breuddwydioch breuddwydiodd breuddwydir breuddwydiwch breuddwydiwn breuddwydiwyd freuddwydio
+6	3706	ymbarél	hymbarél ymbareli ymbaréls
+7	3707	boncyff	boncyffion foncyff
+8	3708	gwariant	gwariannau wariant
+9	3709	malio	
+10	3710	torth	dorth torthau
+11	3711	pwt	bwt pytach pytaf pytiau pytion
+12	3712	cip	gip
+13	3713	methodistiad	methodistiaid
+14	3714	ffwr	ffyrrau
+15	3715	afonig	afonigion
+16	3716	rhentu	rentu rhenta rhentadwy rhentaf rhentai rhentais rhentaist rhentant rhentech rhentedig rhentem rhentent rhenti rhentir rhento rhentoch rhentodd rhentu'r rhentwch rhentwn rhentwyd
+17	3717	moment	foment momentau
+18	3718	morwrol	forwrol
+19	3719	larwm	larymau
+20	3720	ymsefydlwr	ymsefydlwyr
+21	3721	cragen	chragen cregynnos crogen gragen
+22	3722	honedig	
+23	3723	urddas	
+24	3724	clicio	chlicio clici clicia cliciadwy cliciaf cliciai cliciais cliciaist cliciant cliciech clicied cliciedig cliciem clicient clicio'r clicioch cliciodd clicir cliciwch cliciwn cliciwyd glicio
+25	3725	lluosi	lluos lluosa lluosadwy lluosaf lluosais lluosaist lluosant lluosedig lluosem lluosi'r lluosir lluoso lluosoch lluosodd lluoswch lluoswyd luosi
+26	3726	addawol	
+27	3727	ymrwymiad	hymrwymiad ymrwymiadau
+28	3728	arteffact	arteffactau
+29	3729	hurt	hurtach hurtaf hurtion hurtod
+30	3730	cymhwysol	gymhwysol
+31	3731	tanfor	danfor
+32	3732	efengylaidd	efangylaidd
+33	3733	ymholiad	ymholiadau
+34	3734	tryc	dryc dryciau thryc thryciau tryciau
+35	3735	marwol	farwol
+36	3736	penglog	benglog penglogau phenglog
+37	3737	gormodol	ormodol
+38	3738	cardinal	cardinaliaid chardinal gardinal
+39	3739	goleudy	goleudai goleudy'r oleudy
+40	3740	iachus	iachusach iachusaf
+41	3741	puro	buro phuro pura puradwy puraf purai purais puraist purant purech puredig purem purent puri purir puro'r puroch purodd purwch purwn purwyd
+42	3742	tâp	dâp tapiau thâp
+43	3743	undebwr	undebwyr
+44	3744	perpendicwlar	berpendicwlar pherpendicwlar
+45	3745	eironig	
+46	3746	saethwr	saethwyr
+47	3747	plân	planau
+48	3748	dawnswr	dawnswyr ddawnswyr
+49	3749	diemwnt	ddiemwnt diemawns diemwntau diemyntau
+50	3750	triawd	driawd nhriawd thriawd triawdau
+51	3751	dalfa	dalfeydd ddalfa
+52	3752	rhwyfo	rhwyfa rhwyfadwy rhwyfaf rhwyfai rhwyfais rhwyfaist rhwyfant rhwyfech rhwyfedig rhwyfem rhwyfent rhwyfi rhwyfir rhwyfoch rhwyfodd rhwyfwch rhwyfwn rhwyfwyd rwyfo
+53	3753	cynnau	chynnau cyneua cyneuaf cyneuai cyneuais cyneuaist cyneuant cyneuech cyneuedig cyneuem cyneuent cyneui cyneuid cyneuir cyneuo cyneuoch cyneuodd cyneuwch cyneuwn cyneuwyd cynnau'r
+54	3754	hiraeth	hiraethau hiraethion
+55	3755	dawnus	ddawnus
+56	3756	fflam	fflamau
+57	3757	pen-glin	ben-glin pen-gliniau phen-glin
+58	3758	sbectrwm	sbectrymau
+59	3759	allweddell	allweddellau
+60	3760	lledu	ledu lleda lledadwy lledaf lledai lledais lledaist lledant lledech llededig lledem lledent lledi lledir lledo lledoch lledodd lledu'n lledwch lledwn lledwyd
+61	3761	petal	betalau petalau
+62	3762	ymgynghorydd	
+63	3763	dylunydd	ddylunydd
+64	3764	taflegryn	daflegryn taflegrau thaflegryn
+65	3765	pyramid	byramid mhyramid pyramidau
+66	3766	mawreddog	fawreddog
+67	3767	ymfudwr	ymfudwraig ymfudwyr
+68	3768	bawd	bodiau fawd mawd
+69	3769	condemnio	chondemnio condemni condemnia condemniaf condemniai condemniais condemniaist condemniant condemniech condemniem condemnient condemnio'r condemnioch condemniodd condemnir condemniwch condemniwn condemniwyd gondemnio
+70	3770	bedydd	bedyddau bedyddiau fedydd
+71	3771	argraffydd	argraffwyr argraffyddion
+72	3772	alwminiwm	aliwminiwm
+73	3773	anochel	
+74	3774	grant	grantiau
+75	3775	rali	rali'r ralïau
+76	3776	cynyrchiad	cynyrchiadau gynyrchiadau
+77	3777	llefain	lefain lefant lefi llef llefodd
+78	3778	bryniog	fryniog
+79	3779	canfyddiad	canfyddiadau ganfyddiad
+80	3780	cynhyrchiol	cynhyrchol gynhyrchiol
+81	3781	cenhedlu	cenhedla cenhedladwy cenhedlaf cenhedlai cenhedlais cenhedlaist cenhedlant cenhedlech cenhedledig cenhedlem cenhedlent cenhedli cenhedlir cenhedlo cenhedloch cenhedlodd cenhedlwch cenhedlwn cenhedlwyd genhedlu
+82	3782	gweriniaethwr	gweriniaethwyr
+83	3783	baglor	baglorion faglor
+84	3784	llefaru	lefaru llafaru llefair llefara llefaradwy llefaraf llefarai llefarant llefarech llefaredig llefarem llefarent llefaro llefaroch llefarodd llefaru'r llefarwch llefarwn llefarwyd lleferais lleferaist lleferi lleferir lleferwch
+85	3785	cywirdeb	chywirdeb gywirdeb
+86	3786	croesfan	croesfannau groesfan
+87	3787	cynhwysydd	chynhwysydd cynwysyddion gynhwysydd gynwysyddion
+88	3788	cyffordd	chyffordd cyffyrdd gyffordd nghyffordd
+89	3789	dacw	dacw'r doco dyco
+90	3790	canghellor	cangellorion changhellor cynghellor ganghellor
+91	3791	hwiangerdd	hwiangerddi
+92	3792	agosáu	agosadwy agosaech agosaem agosaent agosao agosaoch agosaodd agosawn agosawyd agoseais agoseaist agosedig agosei agoseir agosewch agosâ agosâf agosâi agosânt
+93	3793	dryslyd	ddryslyd dyryslyd
+94	3794	cymell	chymell cymelladwy cymelledig cymhella cymhellaf cymhellai cymhellais cymhellaist cymhellant cymhellech cymhellem cymhellent cymhelli cymhellion cymhellir cymhello cymhelloch cymhellodd cymhellwch cymhellwn cymhellwyd gymell
+95	3795	setlo	setlo'r setlodd setlwyd
+96	3796	etholwr	etholwyr hetholwr
+97	3797	twrnai	atwrnai dwrnai thwrnai twrneiod
+98	3798	imiwnedd	
+99	3799	teirgwaith	deirgwaith
+100	3800	llanastr	lanastr llanast llanestr

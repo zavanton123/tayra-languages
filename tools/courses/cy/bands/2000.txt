@@ -1,0 +1,100 @@
+1	1901	rhywle	rywle
+2	1902	llofruddiaeth	llofruddiaethau lofruddiaeth
+3	1903	brych	brychach brychaf brychau brychion frych
+4	1904	cymysgu	chymysgu cymysgir cymysgodd cymysgu'n cymysgu'r cymysgwch cymysgwyd gymysgu gymysgwyd
+5	1905	recordiad	recordiadau
+6	1906	amgen	
+7	1907	bloc	blociau blocyn floc mloc
+8	1908	darlith	darlithiau darlithoedd ddarlith
+9	1909	ailadrodd	ailadroddaf ailadroddir ailadroddodd ailadroddom ailadroddwyd hailadrodd
+10	1910	pensaernïaeth	bensaernïaeth mhensaernïaeth phensaernïaeth
+11	1911	pecyn	becyn pecynnau pecynnod phecyn
+12	1912	protest	brotest mhrotest phrotest protestadau protestiadau
+13	1913	ffrâm	fframiau
+14	1914	gell	gellach gellaf hell
+15	1915	cyfoeth	chyfoeth cyfoethau cyfoethydd cywoeth gyfoeth
+16	1916	arwyddo	arwydda arwyddaf arwyddir arwyddo'n arwyddo'r arwyddodd arwyddwyd harwyddo
+17	1917	sgïo	sgio sgïa sgïadwy sgïaf sgïai sgïais sgïaist sgïant sgïech sgïedig sgïem sgïent sgïi sgïir sgïoch sgïodd sgïwch sgïwn sgïwyd
+18	1918	garddio	arddio gardda garddia garddiadwy garddiaf garddiafaf garddiai garddiant garddiech garddiedig garddiem garddient garddioch garddiodd garddiwch garddiwn garddiwyd garddu gerddiais gerddiaist gerddiech gerddir gerddiwch
+19	1919	cyrchfan	chyrchfan cyrchfannau gyrchfan
+20	1920	ysbrydol	sbrydol
+21	1921	arswyd	arswydau
+22	1922	ffocws	ffocysau
+23	1923	ymddiriedolaeth	ymddiriedolaethau
+24	1924	peirianneg	beirianneg pheirianneg
+25	1925	budd	buddion fudd
+26	1926	eithriadol	
+27	1927	plas	mhlas phlas plasau
+28	1928	cen	cennau chen gen genod
+29	1929	lliwio	liwio lliwadwy lliwedig lliwi lliwia lliwiad lliwiadwy lliwiaf lliwiai lliwiais lliwiaist lliwiant lliwiech lliwiedig lliwiem lliwient lliwio'i lliwio'n lliwio'r lliwioch lliwiodd lliwir lliwiwch lliwiwn lliwiwyd lliwo
+30	1930	palas	balas mhalas palasau
+31	1931	offeiriad	offeiriaid
+32	1932	strategaeth	strategaethau
+33	1933	gwladol	wladol
+34	1934	carcharu	carchara carcharadwy carcharaf carcharai carcharant carcharech carcharedig carcharem carcharent carcharo carcharoch carcharodd carcharu'n carcharuaf carcharwch carcharwn carcharwyd carcherais carcheraist carcheri carcherir carcherwch charcharu garcharu
+35	1935	cyfro	chyfri chyfrwyd cyfrai cyfrais cyfred cyfri gyfra gyfri gyfrir
+36	1936	synnu	synna synnadwy synnaf synnai synnais synnaist synnant synnech synnedig synnem synnent synni synnir synno synnoch synnodd synnu'r synnwch synnwn synnwyd
+37	1937	cyfredol	gyfredol
+38	1938	signal	signalau signals
+39	1939	diwygiad	ddiwygiad diwygad diwygiadau
+40	1940	melys	felys melus melysach melysaf melysion
+41	1941	anghyffredin	
+42	1942	genws	genera
+43	1943	asesu	asesa asesadwy asesaf asesais asesaist asesant asesedig asesi asesir aseso asesoch asesodd asesu'n asesu'r aseswch aseswyd hasesu
+44	1944	serth	
+45	1945	camgymeriad	camgymeriadau chamgymeriad gamgymeriad
+46	1946	adnewyddu	adnewydda adnewyddadwy adnewyddaf adnewyddai adnewyddais adnewyddaist adnewyddant adnewyddech adnewyddedig adnewyddem adnewyddent adnewyddi adnewyddir adnewyddo adnewyddoch adnewyddodd adnewyddu'n adnewyddu'r adnewyddwch adnewyddwn adnewyddwyd hadnewyddu
+47	1947	para	para'n phara
+48	1948	diflas	ddiflas diflasach diflasaf
+49	1949	portread	bortread phortread portreadau portreiad portryad portrïad pwrtreiad
+50	1950	hunangofiant	hunangofiaint hunangofiannau
+51	1951	heneb	henebion
+52	1952	llanw	lanw llanw'n llanw'r llanwau
+53	1953	marchnata	farchnata marchnata'n marchnata'r marchnatadwy marchnataf marchnatai marchnatant marchnatech marchnatedig marchnatem marchnatent marchnatir marchnato marchnatoch marchnatodd marchnatwch marchnatwn marchnatwyd marchnatáu marchnetais marchnetaist marchneti marchnetir marchnetwch
+54	1954	mas	
+55	1955	clawdd	claw cloddiau cloddion glawdd
+56	1956	les	lesau lesoedd lês
+57	1957	llethr	lethr llethrau
+58	1958	anghytuno	anghytuna anghytunadwy anghytunaf anghytunai anghytunais anghytunaist anghytunant anghytunech anghytunedig anghytunem anghytunent anghytuni anghytunir anghytunoch anghytunodd anghytunwch anghytunwn anghytunwyd
+59	1959	anghyfreithlon	
+60	1960	draig	ddraig dreigiau
+61	1961	honiad	honiadau
+62	1962	anhysbys	
+63	1963	ymerawdwr	ymerawdwyr
+64	1964	gobaith	gobeithion obaith
+65	1965	meddalwedd	feddalwedd
+66	1966	cudd	chudd cuddach cuddiau cuddion gudd
+67	1967	tafodiaith	dafodiaith nhafodiaith tafodaeth tafodiaeth tafodieithau tafodieithoedd thafodiaith
+68	1968	caws	chaws gaws
+69	1969	ddaru	
+70	1970	hel	hala heladwy helaf helai helais helaist helant helech heledig helem helent helir heloch helodd helwch helwn hely
+71	1971	aber	aberoedd ebyr haber
+72	1972	cyngres	gyngres
+73	1973	terfyn	derfyn terfynau therfyn
+74	1974	argymell	argymhella argymhellai argymhellant argymhellir argymhellodd argymhellwyd hargymell
+75	1975	elw	elw'n elw'r elwau helw
+76	1976	ymweliad	hymweliad hymweliadau ymweliadau
+77	1977	rheng	reng rengoedd rhengoedd
+78	1978	santes	santesau
+79	1979	planed	blaned planedau
+80	1980	awyddus	awyddusion
+81	1981	streic	streiciau
+82	1982	atodi	atddodi atodaf atodi'r atodia atodiadwy atodiaf atodiai atodiais atodiaist atodiant atodiech atodiedig atodiem atodient atodii atodiir atodio atodioch atodiodd atodir atodiwch atodiwn atodiwyd atodwyd hatodi
+83	1983	euog	euocach euocaf euogion
+84	1984	enaid	eneidiau henaid
+85	1985	llogi	lloga llogaf lloger llogi'r llogwch llogwyd logi logid logo logo'r logodd logos
+86	1986	uwchlaw	uchlaw uwchlaw'r
+87	1987	main	fain meinach meinaf meinion
+88	1988	gwastad	gwastadau gwastadion gwastadoedd
+89	1989	cymydog	chymydog cymdoges cymdogion gymydog
+90	1990	hud	hudau
+91	1991	esboniad	esboniadau
+92	1992	fformat	
+93	1993	rhwystr	rhwystrau rwystr
+94	1994	anrhydeddus	
+95	1995	sampl	samplau
+96	1996	nodweddu	nodwedda nodweddai nodweddid nodweddir nodweddodd nodweddu'n nodweddu'r nodweddwyd
+97	1997	triongl	driongl thriongl trionglau
+98	1998	buddugol	fuddugol
+99	1999	gorffwys	gorffwysa gorffwysadwy gorffwysaf gorffwysais gorffwysaist gorffwysant gorffwysedig gorffwysi gorffwysion gorffwysir gorffwyso gorffwysoch gorffwysodd gorffwyswch gorffwyswyd orffwys
+100	2000	cyhuddo	chyhuddo cyhudda cyhuddadwy cyhuddaf cyhuddai cyhuddais cyhuddaist cyhuddant cyhuddech cyhuddedig cyhuddem cyhuddent cyhuddi cyhuddid cyhuddir cyhuddo'r cyhuddoch cyhuddodd cyhuddwch cyhuddwn cyhuddwyd gyhuddo nghyhuddo

@@ -1,0 +1,100 @@
+1	6901	cadeiryddiaeth	gadeiryddiaeth
+2	6902	caill	ceilliau
+3	6903	penwyn	benwyn
+4	6904	cwilt	cwiltiau
+5	6905	di-enw	ddi-enw
+6	6906	pandy	bandy pandai
+7	6907	camdrin	gamdrin
+8	6908	cownt	cowntiau cownts gownt
+9	6909	danaidd	ddanaidd
+10	6910	dyweddi	ddyweddi dyweddïau
+11	6911	gwatwar	gwatwara gwatwaradwy gwatwaraf gwatwarai gwatwarant gwatwarech gwatwaredig gwatwarem gwatwarent gwatwarion gwatwaro gwatwaroch gwatwarodd gwatwarwch gwatwarwn gwatwarwyd gwatwerais gwatweraist gwatweri gwatwerir gwatwerwch watwar
+12	6912	praidd	preiddiau
+13	6913	colofnydd	golofnydd
+14	6914	puteindy	puteindai puteindy'n
+15	6915	cadno	cadnawod cadnoaid cadnöes canddo cedny chadno gadno
+16	6916	tewychu	dewychu tewychu'n thewychu
+17	6917	gwerddon	gwerddonau ngwerddon werddon
+18	6918	mydr	fydr mydrau
+19	6919	telyneg	delyneg delynegion telynegion
+20	6920	pabydd	babydd pabyddion
+21	6921	tadogi	dadogi dadogir tadogir
+22	6922	darbwyllo	darbwyll darbwyllaf darbwyllo'i darbwyllo'r darbwyllwyd ddarbwyllo
+23	6923	llysenwi	llysenwid llysenwir llysenwyd lysenwi lysenwir lysenwyd
+24	6924	rhwydweithio	rhwydweithi rhwydweithia rhwydweithiadwy rhwydweithiaf rhwydweithiai rhwydweithiais rhwydweithiaist rhwydweithiant rhwydweithiech rhwydweithiedig rhwydweithiem rhwydweithient rhwydweithioch rhwydweithiodd rhwydweithir rhwydweithiwch rhwydweithiwn rhwydweithiwyd
+25	6925	bargeinio	bargeini bargeinia bargeiniadwy bargeiniaf bargeiniai bargeiniais bargeiniaist bargeiniant bargeiniech bargeiniedig bargeiniem bargeinient bargeinioch bargeiniodd bargeinir bargeiniwch bargeiniwn bargeiniwyd
+26	6926	diosg	
+27	6927	esgynnol	
+28	6928	sothach	
+29	6929	hogi	hogaf ogi
+30	6930	elastig	
+31	6931	areithydd	areithyddion
+32	6932	mafon	mafonen
+33	6933	amlochrog	
+34	6934	clystyru	
+35	6935	mwys	mwysach mwysaf mwysi mwysion
+36	6936	siopwr	siopwyr
+37	6937	ffroen	ffroenau
+38	6938	awyru	awyraf awyru'r
+39	6939	maswr	maeswr maswyr
+40	6940	anghysondeb	anghysondebau
+41	6941	pymtheng	bymtheng
+42	6942	cyfranddaliwr	cyfranddalwyr
+43	6943	cyhyrog	gyhyrog
+44	6944	cydnaws	gydnaws
+45	6945	gwydnwch	wydnwch
+46	6946	gorlenwi	orlenwi
+47	6947	camymddwyn	gamymddwyn
+48	6948	diamwys	ddiamwys
+49	6949	fferyllfa	fferyllfa'n fferyllfaoedd fferyllfeydd
+50	6950	pryfoclyd	bryfoclyd
+51	6951	achubwr	achubwyr
+52	6952	plwg	blwg plygiau
+53	6953	anwylyd	anwyliaid hanwyliaid
+54	6954	llyfnu	llyfni lyfnu
+55	6955	ysgar	hysgar ysgaraint ysgarion ysgaroedd ysgyrion ysgyron
+56	6956	patent	batent
+57	6957	clic	chliciau cliciau
+58	6958	eglurder	
+59	6959	orthopedig	
+60	6960	ecsentrig	
+61	6961	perffeithrwydd	berffeithrwydd
+62	6962	ether	ethera ethra
+63	6963	hysbysebwr	hysbysebwyr
+64	6964	asetig	
+65	6965	hirsefydlog	
+66	6966	malurion	
+67	6967	anlwc	
+68	6968	hoelio	hoeli hoelia hoeliadwy hoeliaf hoeliai hoeliais hoeliaist hoeliant hoeliech hoeliedig hoeliem hoelient hoelio'r hoelioch hoeliodd hoelir hoeliwch hoeliwn hoeliwyd
+69	6969	gwawdio	gwawdia gwawdiaf gwawdian gwawdii gwawdiia gwawdiiadwy gwawdiiaf gwawdiiai gwawdiiais gwawdiiaist gwawdiiant gwawdiiech gwawdiiedig gwawdiiem gwawdiient gwawdiio gwawdiioch gwawdiiodd gwawdiir gwawdiiwch gwawdiiwn gwawdiiwyd gwawdio'r gwawdiwch wawdio
+70	6970	dinoethi	ddinoethi dinoethodd
+71	6971	trylediad	drylediad thrylediad
+72	6972	tangiad	dangiad tangiadau
+73	6973	ymgilio	ymgiliai ymgiliodd
+74	6974	llywiwr	lywiwr
+75	6975	brasterog	frasterog
+76	6976	dodrefnu	ddodrefnu
+77	6977	cymedroli	chymedroli cymedrola cymedroladwy cymedrolaf cymedrolai cymedrolais cymedrolaist cymedrolant cymedrolech cymedroledig cymedrolem cymedrolent cymedroli'r cymedrolir cymedrolo cymedroloch cymedrolodd cymedrolwch cymedrolwn cymedrolwyd
+78	6978	diferu	ddiferu difera diferaf diferwch niferodd
+79	6979	adduned	addunedau
+80	6980	bagloriaeth	fagloriaeth
+81	6981	bloeddio	bloeddain bloeddiaf bloeddian bloeddiwn floeddio
+82	6982	brithwaith	frithwaith
+83	6983	octagon	
+84	6984	cofadeilad	cofadail cofadeiladau
+85	6985	recríwt	recriwtiaid ricríwt
+86	6986	streicio	streici streicia streiciadwy streiciaf streiciai streiciais streiciaist streiciant streiciech streiciedig streiciem streicient streicioch streiciodd streicir streiciwch streiciwn streiciwyd
+87	6987	anniddigrwydd	
+88	6988	ymofyn	ymofynnaf
+89	6989	atgyfodiad	atgyfodiadau
+90	6990	ffôl	ffolach ffolion
+91	6991	anlwcus	
+92	6992	amnewidiad	
+93	6993	hirfaith	hirfeithion
+94	6994	dirlawn	ddirlawn
+95	6995	paun	peunod
+96	6996	efengylwr	efangylwr efengylwyr
+97	6997	torlan	dorlan torlannau torlennydd
+98	6998	betysen	betys
+99	6999	anffurfiad	anffurfiadau
+100	7000	sbel	sbelau sbelen sbeliau

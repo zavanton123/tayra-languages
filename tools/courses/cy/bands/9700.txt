@@ -1,0 +1,100 @@
+1	9601	llengfilwr	llengfilwyr
+2	9602	creithiol	greithiol
+3	9603	talcenwen	dalcenwen
+4	9604	milimetr	
+5	9605	teori	theoriau
+6	9606	llori	lorem
+7	9607	cnoc	cnociau
+8	9608	clamp	clampiau clampyn clempyn
+9	9609	pibgorn	
+10	9610	allweddair	allweddeiriau
+11	9611	trefniadol	
+12	9612	deunant	
+13	9613	anglo-norman	anglo-normaniaid
+14	9614	crasfa	crasfeydd
+15	9615	llatai	llateion
+16	9616	gwardrob	wardrob
+17	9617	trigfa	trigfeydd
+18	9618	milwrio	
+19	9619	begera	begeraf fegera
+20	9620	clustdlys	clustdlysau
+21	9621	tra-arglwyddiaethu	dra-arglwyddiaethu
+22	9622	e-ddysgu	
+23	9623	amldduwiaeth	amldduwiaethau
+24	9624	geiriog	
+25	9625	ymddiriedol	
+26	9626	ewig	ewigod
+27	9627	delwi	delwyd
+28	9628	elain	elanedd
+29	9629	cweochrog	chweochrog
+30	9630	llinellu	linellu llinellaf
+31	9631	llysieufa	llysieufaoedd llysieufeydd
+32	9632	cydeffaith	
+33	9633	arlais	arleisiau
+34	9634	llanfair-ym-muallt	
+35	9635	crafangu	crafancu crafanga crafangadwy crafangaf crafangai crafangais crafangaist crafangant crafangech crafangedig crafangem crafangent crafangi crafangio crafangir crafango crafangoch crafangodd crafangwch crafangwn crafangwyd grafangu
+36	9636	bywydeg	
+37	9637	diamau	ddiamau
+38	9638	glostfain	lostfain
+39	9639	llorwedd	llorweddau
+40	9640	synfyfyrio	
+41	9641	sgri	sgriau
+42	9642	pedoffilydd	
+43	9643	trawsysgrifiad	
+44	9644	clofan	clofannau
+45	9645	teru	tera teradwy teraf terai terais teraist terant terech teredig terem terent teri terir tero teroch terodd terwch terwn terwyd
+46	9646	euradain	
+47	9647	nadreddu	
+48	9648	secondio	
+49	9649	aml-bwrpas	
+50	9650	trengholiad	trengholiadau
+51	9651	madyn	
+52	9652	cabl	
+53	9653	llosgwrn	
+54	9654	helyglys	
+55	9655	ailystyried	ailystyri ailystyria ailystyriaf ailystyriai ailystyriais ailystyriaist ailystyriant ailystyriech ailystyriedig ailystyriem ailystyrient ailystyrio ailystyrioch ailystyriodd ailystyrir ailystyriwch ailystyriwn ailystyriwyd
+56	9656	trostynt	
+57	9657	huddygl	huddyglen
+58	9658	cwarelyddol	chwarelyddol
+59	9659	siglad	sigladau sigliad
+60	9660	rhytgoch	rhytgochach rhytgochaf
+61	9661	arallfyd	arallfydoedd
+62	9662	allgylch	allgylchoedd
+63	9663	berfenw	berfenwau
+64	9664	ffrwydrydd	ffrwydryddion
+65	9665	milfed	
+66	9666	gwynllŵg	
+67	9667	gydd	ydd
+68	9668	tylwythen	dylwythen
+69	9669	aelddu	aeldduon
+70	9670	ailarfogi	
+71	9671	pleth	bleth plethau plethen
+72	9672	llug	lug
+73	9673	corbreblyn	corbreblynnod
+74	9674	disberod	ddisberod
+75	9675	canfyddadwy	
+76	9676	palf	palfau
+77	9677	teyrnwialen	
+78	9678	closet	cloet closetau
+79	9679	egnioli	egniol
+80	9680	gwystrysen	wystrysen
+81	9681	ymresymu	ymresymaf
+82	9682	llanilar	
+83	9683	telegraff	
+84	9684	gafrewig	gafrewigod
+85	9685	ffowlyn	ffowls
+86	9686	tystiolaethu	dystiolaethu tystiolaetha tystiolaethadwy tystiolaethaf tystiolaethai tystiolaethais tystiolaethaist tystiolaethant tystiolaethech tystiolaethedig tystiolaethem tystiolaethent tystiolaethi tystiolaethir tystiolaetho tystiolaethoch tystiolaethodd tystiolaethwch tystiolaethwn tystiolaethwyd
+87	9687	gwaltas	gwald gwaldas gwaldys gwalt gwaltasau
+88	9688	callestr	callestri cellystr
+89	9689	alimoni	alimonïau
+90	9690	cerddoleg	gerddoleg
+91	9691	nodded	
+92	9692	deiniolen	
+93	9693	cronnell	cronellau cronelli gronnell
+94	9694	glaswyrdd	glaswyrddion
+95	9695	esbonydd	
+96	9696	llanaelhaearn	
+97	9697	pen-y-graig	
+98	9698	pluo	plua pluadwy pluaf pluai pluais pluaist pluant pluech pluedig pluem pluent plufio plufo plui pluir pluoch pluodd pluwch pluwn pluwyd
+99	9699	ânt	
+100	9700	blaenbwl	

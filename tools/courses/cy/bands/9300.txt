@@ -1,0 +1,100 @@
+1	9201	bydwreigiaeth	
+2	9202	trwbadŵr	
+3	9203	gwrthiselder	
+4	9204	llinad	llinhedyn
+5	9205	ardrawiad	ardrawiadau
+6	9206	digartrefedd	
+7	9207	anghynnes	angynhesach angynhesaf
+8	9208	sychnant	sychnentydd
+9	9209	cerddediad	gerddediad
+10	9210	awgrymiadol	
+11	9211	tormaen	torfaen tormeini
+12	9212	dirwestwr	ddirwestwr
+13	9213	torllwyth	torllwythau torllwythi
+14	9214	dagr	
+15	9215	cochl	gochl
+16	9216	gobr	gobrau gobron gobrwy
+17	9217	temtiad	
+18	9218	cyfarwyddiadur	cyfarwyddiaduron
+19	9219	anghyfleus	
+20	9220	unnos	
+21	9221	urddwisg	urddwisgoedd
+22	9222	athrod	athrodion
+23	9223	penegoes	
+24	9224	glynn	
+25	9225	ymbincio	
+26	9226	cemegwr	cemegwyr
+27	9227	cawres	gawres
+28	9228	greithordy	reithordy
+29	9229	macwy	
+30	9230	tregarth	
+31	9231	sad	sadach sadaf
+32	9232	meddyglyn	meddyglynnau
+33	9233	plegid	blegid
+34	9234	achyddiaeth	
+35	9235	di-fri	difri
+36	9236	echdoriad	echdoriadau
+37	9237	bet	fet
+38	9238	cydag	chydag
+39	9239	croglith	groglith
+40	9240	nwyd	nwydau
+41	9241	ffyrf	fferf ffyrfach ffyrfaf ffyrfion
+42	9242	tomi	toma tomadwy tomaf tomai tomais tomaist tomant tomech tomedig tomem toment tomir tomo tomoch tomodd tomwch tomwn tomwyd
+43	9243	piglas	
+44	9244	gwrthweithio	
+45	9245	ymlusgo	ymlusgaf
+46	9246	di-hid	ddi-hid
+47	9247	cosyn	cosynnau
+48	9248	talgarreg	
+49	9249	adeinefydd	
+50	9250	gadel	
+51	9251	crediniaeth	
+52	9252	talog	
+53	9253	brutanaidd	
+54	9254	llithriad	
+55	9255	meryw	merywen
+56	9256	negydu	
+57	9257	alldafliad	alldafliadau
+58	9258	rhwydo	rhwyda rhwydadwy rhwydaf rhwydai rhwydais rhwydaist rhwydant rhwydech rhwydedig rhwydem rhwydent rhwydi rhwydir rhwydoch rhwydodd rhwydwch rhwydwn rhwydwyd rwydo
+59	9259	bric	briciau bricsen
+60	9260	arogleuo	arogleuaf hogleuo oglau ogleuo rhogleuo
+61	9261	lorri	lorris lorïau
+62	9262	enillwr	enillwyr henillwr
+63	9263	grut	grit grud grution
+64	9264	plymwr	blymwr plymwyr
+65	9265	plygio	plygia plygiadwy plygiaf plygiai plygiais plygiaist plygiech plygiedig plygiem plygient plygioch plygiodd plygion plygir plygiwch plygiwn plygiwyd
+66	9266	llygadu	
+67	9267	hysbysydd	
+68	9268	antelop	antelopau
+69	9269	pilipala	pili-pala pilipalas pilipalod
+70	9270	llysysor	llysysorion
+71	9271	llonyddu	llonydda llonyddadwy llonyddai llonyddais llonyddaist llonyddant llonyddech llonyddedig llonyddem llonyddent llonyddi llonyddir llonyddo llonyddoch llonyddodd llonyddwn llonyddwyd
+72	9272	anniddig	anniddicach anniddicaf
+73	9273	traethell	draethell traethellau traethelli
+74	9274	goramser	
+75	9275	petruster	
+76	9276	siaman	
+77	9277	trawsnewidydd	trawsnewidyddion
+78	9278	bolgi	bolgwn
+79	9279	oriog	
+80	9280	seleniwm	
+81	9281	diffygio	
+82	9282	cylchedwaith	cylchedweithiau
+83	9283	mandwll	mandyllau
+84	9284	goryrru	goryr goryradwy goryredig goryrra goryrraf goryrrai goryrrais goryrraist goryrrant goryrrech goryrrem goryrrent goryrri goryrrir goryrro goryrroch goryrrodd goryrrwch goryrrwn goryrrwyd
+85	9285	canoneiddio	ganoneiddio
+86	9286	amleiriog	
+87	9287	coedio	
+88	9288	glwten	glwtenau
+89	9289	chwedeg	
+90	9290	moelni	
+91	9291	symudliw	
+92	9292	pefrwydd	pefrwydden
+93	9293	castellu	
+94	9294	canoledig	
+95	9295	trotian	
+96	9296	swshi	
+97	9297	gwaddodiad	gwaddodiadau
+98	9298	fformatio	
+99	9299	staer	staerau
+100	9300	deial	

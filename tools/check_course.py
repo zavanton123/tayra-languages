@@ -122,6 +122,9 @@ def fold(code, word):
     # The Irish list writes the straight apostrophe (d'fhág, b'fhéidir) and the curly one; texts may use either.
     if code == "ga":
         return word.replace("’", "'").replace("ʼ", "'")
+    # So may the Welsh (mae'n, i'r).
+    if code == "cy":
+        return word.replace("’", "'").replace("ʼ", "'")
     return word
 
 
@@ -369,6 +372,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return tagalog_tokens(text, ranks, names)
     if code == "ga":
         return irish_tokens(text, ranks, names)
+    if code == "cy":
+        return welsh_tokens(text, ranks, names)
     if code in FINNIC:
         return finnic_tokens(text, code)
     out = []
@@ -1704,6 +1709,72 @@ def irish_name_pattern(name):
     return re.compile(r"(?<![^\W\d_])(?:bh|t-|n-|[nthmgdb])?" + re.escape(first) + lenited + re.escape(rest) + r"(?![^\W\d_])")
 
 
+# Welsh writes a short word onto the word before it with an apostrophe (mae'n, i'r, a'i, wedi'u, i'w, a'm, o'th, i'ch):
+# the two count as the two words they are. A word the list lacks counts as the word or name it mutates (ddefnyddiodd is
+# defnyddiodd, Nghaerdydd is Caerdydd, hysgol is ysgol), the commonest where it could be several.
+WELSH_WORD = re.compile(r"[^\W\d_]+(?:'[^\W\d_]+)*(?:-[^\W\d_]+(?:'[^\W\d_]+)*)*", re.UNICODE)
+WELSH_CLITICS = {"n": "yn", "r": "y", "i": "ei", "u": "eu", "w": "ei", "m": "fy", "th": "dy", "ch": "eich"}
+# The initial mutations, as (written, radical), and the same the other way for a name of several words.
+WELSH_MUTATIONS = (("ngh", "c"), ("mh", "p"), ("nh", "t"), ("ng", "g"), ("ph", "p"), ("th", "t"), ("ch", "c"), ("dd", "d"),
+                   ("b", "p"), ("d", "t"), ("g", "c"), ("f", "b"), ("f", "m"), ("l", "ll"), ("r", "rh"), ("m", "b"), ("n", "d"))
+WELSH_VOWELS = "aeiouwyâêîôûŵŷ"
+
+
+def welsh_bases(word):
+    """The radical words a lowercased Welsh word may be, by the mutations."""
+    out = [radical + word[len(written):] for written, radical in WELSH_MUTATIONS if word.startswith(written) and len(word) > len(written)]
+    if word[:1] in WELSH_VOWELS or word[:1] in ("l", "r"):
+        out.append("g" + word)
+    if word[:1] == "h" and word[1:2] and word[1:2] in WELSH_VOWELS:
+        out.append(word[1:])
+    return out
+
+
+def welsh_word(word, ranks, names=frozenset()):
+    """The list word or name a Welsh word is: itself if listed, else the word it mutates."""
+    word = word.lower()
+    if word in ranks or word in names:
+        return word
+    found = [b for b in welsh_bases(word) if b in ranks or b in names]
+    return min(found, key=lambda b: ranks.get(b, len(ranks) + 1)) if found else word
+
+
+def welsh_part(word, ranks, names):
+    host, apostrophe, clitic = word.rpartition("'")
+    if apostrophe and host and clitic.lower() in WELSH_CLITICS and word.lower() not in names:
+        return [welsh_word(host, ranks, names), WELSH_CLITICS[clitic.lower()]]
+    return [welsh_word(word, ranks, names)]
+
+
+def welsh_tokens(text, ranks, names=frozenset()):
+    ranks = ranks or {}
+    out = []
+    text = text.replace("’", "'").replace("ʼ", "'")
+    for match in WELSH_WORD.finditer(text):
+        # The letters after an ordinal's digits belong to the number (3ydd, 20fed).
+        if match.start() > 0 and text[match.start() - 1].isdigit():
+            continue
+        word = match.group(0)
+        if "-" in word and word.lower() not in ranks and word.lower() not in names and welsh_word(word, ranks, names) not in ranks:
+            for part in word.split("-"):
+                if part:
+                    out.extend(welsh_part(part, ranks, names))
+        else:
+            out.extend(welsh_part(word, ranks, names))
+    return out
+
+
+def welsh_name_pattern(name):
+    """A name of several words as the text writes it, also mutated (Bae Colwyn, ym Mae Colwyn, o Fae Colwyn)."""
+    first, rest = name[0].lower(), name[1:]
+    if name[:2].lower() in ("ll", "rh"):
+        first, rest = name[:2].lower(), name[2:]
+    spelled = [w.capitalize() + rest for w in [first] + [written for written, radical in WELSH_MUTATIONS if radical == first]]
+    if first == "g":
+        spelled.append(rest.capitalize())
+    return re.compile(r"(?<![^\W\d_])(?:" + "|".join(map(re.escape, spelled)) + r")(?![^\W\d_])")
+
+
 # The Finnic languages join case endings, possessive suffixes and clitics to a word (taloissammekin, "in our houses
 # too"), more forms than a list can hold. Their rules, per language (an Estonian entry fills in its own):
 # - questions: the header of a lesson's questions, which is layout, not a word;
@@ -1874,6 +1945,9 @@ def check(path, brief=False):
     # whole, mutated too (i mBaile Átha Cliath, ó Bhaile Átha Cliath).
     if code == "ga":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
+    # So does a Welsh one (Bae Colwyn, ym Mae Colwyn, Ynys Môn).
+    if code == "cy":
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     # Hungarian names take their endings unmarked (Annának, Budapestre): each part of a name counts, with its endings.
     if code == "hu":
         names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in n.split()}
@@ -1905,6 +1979,11 @@ def check(path, brief=False):
                 continue
             if code == "ga":
                 pattern = irish_name_pattern(name)
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(" ", text)
+                continue
+            if code == "cy":
+                pattern = welsh_name_pattern(name)
                 whole_names += len(pattern.findall(text))
                 text = pattern.sub(" ", text)
                 continue
@@ -1974,6 +2053,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Mga tanong:", "", text)
         if code == "ga":
             text = re.sub(r"(?m)^Ceisteanna:", "", text)
+        if code == "cy":
+            text = re.sub(r"(?m)^Cwestiynau:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):

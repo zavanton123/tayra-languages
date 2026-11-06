@@ -1,0 +1,100 @@
+1	101	sef	ysef
+2	102	byw	byw'n byw'r bywio bywion fyw
+3	103	gwlad	gwledydd gwleydd ngwlad wlad
+4	104	gwahanol	ngwahanol wahanol
+5	105	edrych	drycha drychwch edrycha edrychaf edrychai edrychais edrychaist edrychant edrychasant edrychech edrychedig edrychem edrychent edrychi edrychid edrychir edrycho edrychoch edrychodd edrychwch edrychwn edrychwyd
+6	106	allan	
+7	107	ffordd	ffyrdd
+8	108	llyfr	llyfrau lyfr
+9	109	angen	anghenion hangen
+10	110	perthyn	berthyn perthyna perthynadwy perthynaf perthynai perthynais perthynaist perthynant perthynech perthynedig perthynem perthynent perthyni perthynir perthyno perthynoch perthynodd perthynu perthynwch perthynwn perthynwyd pherthyn
+11	111	aelod	aelodau
+12	112	ystod	hystod ystodau
+13	113	unrhyw	
+14	114	ef	
+15	115	yno	yno'n yno'r
+16	116	os	
+17	117	de	dde de'n de'r ne
+18	118	dan	danoch danof danot danynt nan
+19	119	dal	dala dalia daliadwy daliaf daliai daliais daliant daliech daliedig daliem dalient dalier dalio dalioch daliodd daliwch daliwn daliwyd dalwch ddal deil deli deliais deliaist deliech delir deliwch nal
+20	120	math	fath mathau
+21	121	felly	felly'n felly'r
+22	122	bynnag	
+23	123	heb	hebddyn heboch hebof hebot
+24	124	meddwl	feddwl meddyli meddylia meddyliadwy meddyliaf meddyliai meddyliais meddyliaist meddyliant meddyliau meddyliech meddyliedig meddyliem meddylient meddylio meddylioch meddyliodd meddylir meddyliwch meddyliwn meddyliwyd
+25	125	pryd	bryd brydiau fryd phryd prydau prydiau
+26	126	dŵr	ddŵr dwfr dyfroedd nŵr
+27	127	galw	alw elwid elwir galw'n galw'r galw'u galwa galwadwy galwaf galwai galwant galwch galwech galwem galwent galwes galwiff galwir galwn galwo galwoch galwodd galwyd geilw gelwain gelwais gelwaist gelwch gelwi gelwid gelwir ngalw
+28	128	iaith	hiaith ieithau ieithiau ieithoedd
+29	129	ysgrifennu	hysgrifennu hysgrifenwyd sgrifennir sgrifennodd sgrifennu sgrifennu'n sgrifennwyd sgwenna sgwennai sgwennodd sgwennu sgwennu'r sgwennwyd ysgrifenadwy ysgrifenai ysgrifenasant ysgrifenna ysgrifennaf ysgrifennai ysgrifennais ysgrifennaist ysgrifennant ysgrifennech ysgrifenned ysgrifennem ysgrifennent ysgrifenni ysgrifennid ysgrifennir ysgrifenno ysgrifennoch ysgrifennodd ysgrifennu'n ysgrifennu'r ysgrifennwch ysgrifennwn ysgrifennwyd ysgrifenodd ysgrifenwyd
+30	130	eich	
+31	131	sawl	
+32	132	dydd	ddydd dyddiau
+33	133	cyfnod	chyfnod cyfnodau gyfnod nghyfnod
+34	134	rhywogaeth	rhyfogaeth rhywfogaeth rhywiogaeth rhywogaethau rhywogiaeth rywogaeth
+35	135	dy	ddy dy'r ny
+36	136	mai	mai'n mai'r
+37	137	arfer	arfera arferadwy arferaf arferai arferais arferaist arferant arferech arferedig arferem arferent arferi arferid arferion arferir arfero arferoch arferodd arferwch arferwn arferwyd harfer
+38	138	heddiw	heddi heddiw'n heddiw'r heddu heddy heddyw heiddiw
+39	139	ail	hail
+40	140	dinas	ddinas dinasoedd ninas
+41	141	teulu	deulu nheulu teulu'n teulu'r teuluoedd theulu
+42	142	newid	newidi newidia newidiadau newidiadwy newidiaf newidiai newidiais newidiaist newidiant newidiasant newidiech newidiedig newidiem newidient newidio newidioch newidiodd newidiont newidir newidiwch newidiwn newidiwyd newidwyd
+43	143	e	e'i e'n e'r he
+44	144	ennill	enill enilla enilladwy enillaf enillai enillais enillaist enillant enillasant enillech enilledig enillem enillent enilli enillion enillir enillo enilloch enillodd enillon enillont enillwch enillwn enillwyd hennill
+45	145	stori	stori'n stori'r storiau storïau straeon
+46	146	gêm	gemau gêmau ngêm êm
+47	147	gadael	adael gad gadawa gadawadwy gadawaf gadawai gadawant gadawch gadawech gadawedig gadawem gadawent gadawn gadawo gadawoch gadawodd gadawsant gadawsoch gadawsom gadawyd gadewais gadewaist gadewch gadewi gadewid gadewir gato gedy ngadael
+48	148	unig	hunig
+49	149	blaen	blaenaf blaenau flaen mlaen
+50	150	cymryd	chymer chymryd cymer cymera cymeraf cymerai cymerais cymeraist cymerant cymerasai cymerau cymerech cymered cymeredig cymerem cymerent cymeri cymerid cymerir cymero cymeroch cymerodd cymerwch cymerwn cymerwyd cymrodd gymer gymra gymrodd gymryd nghymer
+51	151	nad	
+52	152	eglwys	eglwysi eglwysydd heglwys
+53	153	tŷ	dŷ nhŷ tai thŷ tŷ'n tŷ'r
+54	154	sefyll	safa safaf safai safant safech safedig safem safent safir safo safoch safodd safwch safwn safwyd saif sefais sefaist sefi sefir sefwch
+55	155	marw	farw farwodd marw'n marw'r marwach marwaf meirw meirwon
+56	156	oed	hoed oedau
+57	157	ffilm	ffilmiau
+58	158	bywyd	bywydau bywydoedd fywyd mywyd
+59	159	creu	chreu chrewyd crea creadwy creaf creai creais creaist creant creech creed creem creent crei creir creo creoch creodd creu'n creu'r crewch crewyd crëir crëwch crëwn crëwyd greu grewyd
+60	160	grŵp	grwpiau ngrŵp rŵp
+61	161	du	ddu dduon du'n du'r duach duaf duon nu
+62	162	eto	eto'n eto'r etwaeth
+63	163	nofel	nofelau
+64	164	ifanc	ieuaf ieuengaf ifainc ifancach ifancaf ifengach ifengaf
+65	165	mis	fis misig misoedd
+66	166	ag	
+67	167	hir	hirach hiraf hirion hwyaf
+68	168	bwyd	bwydydd fwyd
+69	169	oherwydd	
+70	170	siarad	siarada siaradaf siaradai siaradais siaradant siaradech siaradem siaradent siaradir siarado siaradoch siaradodd siaradwch siaradwn siaradwyd siaredais siaredaist siaredi siaredid siaredir siaredwch sieryd
+71	171	hoffi	hoffa hoffadwy hoffaf hoffai hoffais hoffaist hoffant hoffech hoffedig hoffem hoffen hoffent hoffer hoffest hoffet hoffi'n hoffi'r hoffir hoffo hoffoch hoffodd hoffwch hoffwn hoffwyd
+72	172	tro	dro thro tro'n tro'r troau troeau troeon
+73	173	mor	
+74	174	gwyn	gwen gwynion gwynnach gwynnaf wyn
+75	175	canol	canolau chanol ganol nghanol
+76	176	mwyn	fwyn mwynach mwynaf mwynau mwynfeydd mwynon mŵn
+77	177	ers	hers
+78	178	dangos	dangosa dangosadwy dangosaf dangosai dangosais dangosaist dangosant dangosedig dangosi dangosir dangoso dangosoch dangosodd dangoswch dangoswyd ddangos dengys
+79	179	tebyg	debyg tebycach tebycaf tebygion thebyg
+80	180	hanes	hanesion
+81	181	tad	dad nhad tadau thad
+82	182	tref	dref nhref thref tre trefi trefydd trev
+83	183	cyhoeddi	chyhoeddi cyhoedda cyhoeddaf cyhoeddai cyhoeddais cyhoeddaist cyhoeddant cyhoeddech cyhoeddedig cyhoeddem cyhoeddent cyhoeddi'n cyhoeddi'r cyhoeddid cyhoeddir cyhoeddo cyhoeddoch cyhoeddodd cyhoeddwch cyhoeddwn cyhoeddwyd gyhoeddi
+84	184	codi	chodi coda codadwy codaf codai codais codaist codant codasant codd codech codedig codem codent codi'i codi'n codi'r codid codir codo codoch cododd codon codwch codwn codwyd cwyd cyfod cyfodi cyfododd cyfyd godi
+85	185	ychydig	
+86	186	tua	dua thua tua'r
+87	187	cenedlaethol	chenedlaethol genedlaethol
+88	188	mam	fam mamau
+89	189	cyfres	chyfres cyfresi gyfres nghyfres
+90	190	achos	achosau achosion hachos
+91	191	ein	
+92	192	prifysgol	brifysgol mhrifysgol phrifysgol prifysgolion
+93	193	gwybod	gw'bod gwbod gwybodadwy gwybodau gwybodedig gwybu gwybuant gwybuoch gwybuwyd gwybydd gwybyddadwy gwybyddaf gwybyddai gwybyddant gwybyddech gwybyddem gwybyddent gwybyddi gwybyddir gwybyddo gwybyddoch gwybyddwch gwybyddwn gwybûm gwyddai gwyddan gwyddant gwyddech gwyddem gwyddent gwyddiad gwyddir gwyddoch gwyddom gwyddost gwyddwn gwyddys gwypai gwypech gwypem gwypent gwypo gwypoch gwypwn gwys wybod
+94	194	diwedd	ddiwedd diweddau diweddiadau diweddion niwedd
+95	195	cyffredin	chyffredin gyffredin
+96	196	pedwar	bedwar mhedwar pedair phedwar
+97	197	gair	air geirau geiriau ngair
+98	198	tu	nhu thu
+99	199	dilyn	ddilyn dilyna dilynadwy dilynaf dilynai dilynais dilynaist dilynant dilynech dilynedig dilynem dilynent dilyni dilynir dilyno dilynoch dilynodd dilynwch dilynwn dilynwyd nilyn
+100	200	pwysig	bwysig phwysig pwysicach pwysicaf

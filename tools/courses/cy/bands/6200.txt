@@ -1,0 +1,100 @@
+1	6101	cenllif	cenlli cenllifoedd genllif
+2	6102	sbwylio	sbwyli sbwylia sbwyliadwy sbwyliaf sbwyliai sbwyliais sbwyliaist sbwyliant sbwyliech sbwyliedig sbwyliem sbwylient sbwylioch sbwyliodd sbwylir sbwyliwch sbwyliwn sbwyliwyd
+3	6103	enllyn	enllynoedd
+4	6104	drewdod	ddrewdod
+5	6105	wythnosolyn	
+6	6106	hafaledd	hafaleddau
+7	6107	rhyddfreiniwr	rhyddfreinwyr
+8	6108	cywreinrwydd	gywreinrwydd
+9	6109	llidiart	lidiart llidiad llidiard llidiartau llidiat
+10	6110	tas	teisi
+11	6111	trydanwr	trydanwyr
+12	6112	blaguro	blagura blaguradwy blaguraf blagurai blagurais blaguraist blagurant blagurech blaguredig blagurem blagurent blaguri blagurir blaguroch blagurodd blagurwch blagurwn blagurwyd flaguro
+13	6113	gwrhydri	wrhydri
+14	6114	igian	igi
+15	6115	anweddu	anwedda anweddadwy anweddaf anweddai anweddais anweddaist anweddant anweddech anweddedig anweddem anweddent anweddi anweddir anweddo anweddoch anweddodd anweddwch anweddwn anweddwyd
+16	6116	demograffig	ddemograffig
+17	6117	melan	felan
+18	6118	beit	beitiau
+19	6119	mefus	fefus meddus mefusen
+20	6120	cyfrinachedd	gyfrinachedd
+21	6121	derbyniwr	dderbyniwr derbynwyr
+22	6122	trosolwg	drosolwg throsolwg trosolygon
+23	6123	parêd	barêd paredau parêds pharêd
+24	6124	cyfwng	cyfyngau gyfwng
+25	6125	mwcws	fwcws
+26	6126	gwain	gweiniau wain
+27	6127	tyllog	dyllog twllog tylliog
+28	6128	haeru	haera haeradwy haeraf haerai haerais haeraist haerant haerech haeredig haerem haerent haeri haerir haero haeroch haerodd haerwch haerwn haerwyd
+29	6129	newyddiadur	newyddiaduron
+30	6130	bryncyn	bryncynnau fryncyn
+31	6131	eglwyswr	eglwyswyr
+32	6132	dryllio	ddryllio ddrylliodd drylliaf dryllio'r drylliwyd
+33	6133	tafarnwr	dafarnwr tafarnwyr thafarnwr
+34	6134	creawdwr	chreawdwr creawdur creawdwyr greawdwr
+35	6135	esgeulustod	
+36	6136	penfelyn	penfelen penfelynion
+37	6137	hyfyw	
+38	6138	anffyddiaeth	anffyddiaethau
+39	6139	anffafriol	anffafrol
+40	6140	deddfu	ddeddfu deddfa deddfadwy deddfaf deddfai deddfais deddfaist deddfant deddfech deddfedig deddfem deddfent deddfi deddfir deddfo deddfoch deddfodd deddfwch deddfwn deddfwyd
+41	6141	troell	droell throell troellau
+42	6142	gwaeledd	gwaeleddau waeledd
+43	6143	ymneilltuo	ymneilltuodd
+44	6144	grasus	grasusach grasusaf rasus
+45	6145	archdderwydd	archdderwyddes archdderwyddon
+46	6146	bele	belaod
+47	6147	bwncath	bwncathau bwncathod
+48	6148	bywgraffiadur	bywgraffiaduron mywgraffiadur
+49	6149	hunllef	hunllefau
+50	6150	wig	wigiau wigs
+51	6151	genefa	ngenefa
+52	6152	tryweryn	dryweryn
+53	6153	cefngoch	gefngoch
+54	6154	gïach	gïachod ïach
+55	6155	cob	chobiau cobiau
+56	6156	lawnsio	lawnsio'n lawnsio'r lawnsiwyd
+57	6157	llednant	lednentydd llednentydd
+58	6158	gwyach	gwyachod wyach
+59	6159	cymreictod	chymreictod gymreictod
+60	6160	mursen	fursen mursennod
+61	6161	lemwn	lemonau
+62	6162	lled-ddargludydd	lled-ddargludyddion
+63	6163	ailstrwythuro	ailstrwythuro'n ailstrwythuro'r ailstrwythurodd ailstrwythurwyd
+64	6164	brand	frand
+65	6165	unochrog	
+66	6166	dibriod	ddibriod
+67	6167	ymddygiadol	
+68	6168	integryn	integrynnau
+69	6169	cydradd	cydraddau gydradd
+70	6170	ymraniad	ymraniadau
+71	6171	derbynfa	dderbynfa derbynfeydd
+72	6172	rhwym	rhwymau
+73	6173	mynegiad	fynegiad managiad manegiad mynegiadau
+74	6174	edmygwr	edmygwyr
+75	6175	ailddosbarthu	ailddosbarthu'r hailddosbarthu
+76	6176	rhôl	rholiau
+77	6177	damcaniaethu	damcaniaethaf ddamcaniaethu
+78	6178	byffer	byfferau fyffer
+79	6179	atebolrwydd	
+80	6180	pysgodfa	bysgodfa pysgfa pysgodfeydd
+81	6181	tsili	jili tsilis
+82	6182	amwysedd	amwyseddau
+83	6183	amrywiant	amrywiantau anrywiannau
+84	6184	angenrheidrwydd	
+85	6185	norm	normau
+86	6186	gwrthwynebus	wrthwynebus
+87	6187	deinosor	ddeinosor deinosoriaid deinosorod
+88	6188	diraddio	ddiraddio diraddia diraddiadwy diraddiaf diraddiai diraddiant diraddiech diraddiedig diraddiem diraddient diraddioch diraddiodd diraddiwch diraddiwn diraddiwyd direddi direddiais direddiaist direddiech direddir direddiwch
+89	6189	gwymon	wymon
+90	6190	cyflwynwr	gyflwynwyr
+91	6191	epidemig	epidemigau
+92	6192	greddf	greddfau reddf
+93	6193	pelydryn	belydryn phelydryn
+94	6194	mentor	fentor mentoriaid
+95	6195	bendithio	bendigo bendithi bendithia bendithiaf bendithiai bendithiais bendithiaist bendithiant bendithiech bendithiem bendithient bendithioch bendithiodd bendithir bendithiwch bendithiwn bendithiwyd benditho fendithio
+96	6196	chwilen	chwilennod chwilod
+97	6197	lemon	lemonau
+98	6198	crud	chrud crudau crudiau grud
+99	6199	siartredig	
+100	6200	clip	clipiau glipiau

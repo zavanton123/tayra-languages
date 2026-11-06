@@ -1,0 +1,100 @@
+1	1101	nwy	nwyon
+2	1102	cystadlu	chystadlu cystadla cystadladwy cystadlaf cystadlai cystadlant cystadlech cystadledig cystadlem cystadlent cystadlir cystadlo cystadloch cystadlodd cystadlu'n cystadlwch cystadlwn cystadlwyd cystedlais cystedlaist cystedli cystedlir cystedlwch gystadlu
+3	1103	patrwm	batrwm patrwmau patrymau patrynau phatrwm
+4	1104	cyfagos	gyfagos
+5	1105	athrawes	athrawesau
+6	1106	ysgrifennydd	hysgrifennydd sgrifennydd ysgrifenyddion
+7	1107	dosbarthiad	ddosbarthiad dosbarthiadau nosbarthiad
+8	1108	diflannu	ddiflannu diflan diflanadwy diflanna diflannaf diflannai diflannant diflannech diflannem diflannent diflanno diflannoch diflannodd diflannu'n diflannu'r diflannwch diflannwn diflannwyd diflanodd diflanwyd diflennais diflennaist diflenni diflennir diflennwch
+9	1109	wynebu	gwynebu hwynebu wyneba wynebadwy wynebaf wynebai wynebais wynebaist wynebant wynebech wynebedig wynebem wynebent wynebi wynebir wynebo wyneboch wynebodd wynebu'i wynebu'n wynebu'r wynebwch wynebwn wynebwyd
+10	1110	opera	opera'n opera'r operau operâu
+11	1111	medal	fedal fedalau medalau
+12	1112	ymddygiad	hymddygiad ymddygiadau
+13	1113	diddorol	ddiddorol
+14	1114	cyffur	chyffur cyffuriau cyffurion gyffur
+15	1115	blaenorol	flaenorol
+16	1116	arlunydd	arlunwyr arlunyddion
+17	1117	sych	sychach sychaf sychion
+18	1118	polisi	bolisi bolisiau pholisi pholisiau polisi'r polisiau polisïau
+19	1119	pleidleisio	bleidleisio phleidleisio pleidleisi pleidleisia pleidleisiaf pleidleisiai pleidleisiais pleidleisiaist pleidleisiant pleidleisiech pleidleisiem pleidleisient pleidleisio'n pleidleisioch pleidleisiodd pleidleisir pleidleisiwch pleidleisiwn pleidleisiwyd
+20	1120	eleni	
+21	1121	pysgota	bysgota physgota pysgota'n pysgotadwy pysgotaf pysgotai pysgotais pysgotaist pysgotant pysgotech pysgotedig pysgotem pysgotent pysgoti pysgotir pysgoto pysgotoch pysgotodd pysgotwch pysgotwn pysgotwyd
+22	1122	sgwrs	sgyrsiau ysgwrs
+23	1123	adnodd	adnoddau hadnodd
+24	1124	allanol	
+25	1125	hysbys	
+26	1126	iâ	iâ'n iâ'r
+27	1127	hwyrach	
+28	1128	gorchuddio	gorchuddi gorchuddia gorchuddiadwy gorchuddiaf gorchuddiai gorchuddiais gorchuddiaist gorchuddiant gorchuddiech gorchuddiedig gorchuddiem gorchuddient gorchuddio'i gorchuddio'n gorchuddio'r gorchuddioch gorchuddiodd gorchuddir gorchuddiwch gorchuddiwn gorchuddiwyd orchuddio
+29	1129	osgoi	hosgoi osgoa osgoi'r osgowch osgowyd osgôf
+30	1130	datrys	datrysa datrysadwy datrysaf datrysais datrysaist datrysant datrysedig datrysi datrysir datryso datrysoch datrysodd datryswch datryswyd ddatrys detrys
+31	1131	tywod	dywod nhywod thywod tywodydd
+32	1132	adlewyrchu	adlewyrcha adlewyrchadwy adlewyrchaf adlewyrchai adlewyrchais adlewyrchaist adlewyrchant adlewyrchech adlewyrchedig adlewyrchem adlewyrchent adlewyrchi adlewyrchir adlewyrcho adlewyrchoch adlewyrchodd adlewyrchu'r adlewyrchwch adlewyrchwn adlewyrchwyd hadlewyrchu
+33	1133	rhyddid	rhyddidau ryddid
+34	1134	rhywfaint	rhywfeintiau rywfaint
+35	1135	gweddillion	gweddillyn weddillion
+36	1136	parhaol	barhaol pharhaol
+37	1137	dadl	dadleuon ddadl nadl
+38	1138	chwerthin	chwardd chwarddadwy chwarddaf chwarddai chwarddant chwarddech chwarddedig chwarddem chwarddent chwarddo chwarddoch chwarddodd chwarddwch chwarddwn chwarddwyd chwerddais chwerddaist chwerddi chwerddir chwerddwch chwertha chwerthaf chwerthina chwerthinaf chwerthinwch chwerthwch
+39	1139	ieuenctid	hieuenctid
+40	1140	cyfathrebu	chyfathrebu cyfathrebodd cyfathrebu'n cyfathrebu'r gyfathrebu gyfathrebwyd
+41	1141	parti	barti bartion mharti parti'n partion partïau partïon pharti
+42	1142	tudalen	dudalen thudalen tudalennau
+43	1143	defnyddiol	ddefnyddiol defnyddol
+44	1144	cerddorol	cherddorol gerddorol
+45	1145	coes	choes coesau coesen coesig goes nghoes
+46	1146	damwain	damweiniau ddamwain
+47	1147	ceg	cegau cheg geg ngheg
+48	1148	swyddogaeth	swyddogaethau
+49	1149	annog	anoga anogadwy anogaf anogai anogais anogaist anogant anogau anogech anogedig anogem anogent anogi anogion anogir anogo anogoch anogodd anogwch anogwn anogwyd hannog
+50	1150	pellter	bellter pellterau pellteroedd phellter
+51	1151	balch	balchach balchaf beilch beilchion falch
+52	1152	gorfodi	gorfodaf gorfodi'r gorfodir gorfododd gorfodwyd orfodi orfododd orfodwyd
+53	1153	cyfrifiadur	chyfrifiadur cyfrifiaduron gyfrifiadur nghyfrifiadur
+54	1154	ffaith	ffeithiau
+55	1155	cwm	chwm cymau cymoedd cymydd gwm gwmau gym nghwm wm
+56	1156	diwydiannol	ddiwydiannol
+57	1157	dyddiad	ddyddiad dyddiadau nyddiad
+58	1158	archwilio	archwili archwilia archwiliadwy archwiliaf archwiliai archwiliais archwiliaist archwiliant archwiliech archwiliedig archwiliem archwilient archwilio'i archwilio'n archwilio'r archwilioch archwiliodd archwilir archwiliwch archwiliwn archwiliwyd harchwilio
+59	1159	tewi	dewi tau tawa tawaf tawai tawant tawech tawedig tawem tawent tawn tawo tawoch tawodd tawsant tawsoch tawyd tewais tewaist tewch tewi'r tewir
+60	1160	anffodus	
+61	1161	nwydd	nwyddau nwyddyn
+62	1162	safonol	
+63	1163	babi	babi'n babis fabi mabi
+64	1164	arholiad	arholiadau
+65	1165	corfforol	chorfforol gorfforol
+66	1166	gwledig	wledig
+67	1167	gorchymyn	gorchmynadwy gorchmynedig gorchmynion gorchmynna gorchmynnaf gorchmynnai gorchmynnais gorchmynnaist gorchmynnant gorchmynnech gorchmynnem gorchmynnent gorchmynni gorchmynnir gorchmynno gorchmynnoch gorchmynnodd gorchmynnu gorchmynnwch gorchmynnwn gorchmynnwyd gorchmynodd gorchmynwyd orchymyn
+68	1168	uwchben	
+69	1169	gorllewinol	orllewinol
+70	1170	cornel	chornel corneli gornel nghornel
+71	1171	pencampwriaeth	bencampwriaeth mhencampwriaeth pencampwriaethau phencampwriaeth
+72	1172	glân	glanach glanaf gleinion lân
+73	1173	stopio	stopi stopia stopiaf stopiai stopiais stopiaist stopiant stopiech stopiedig stopiem stopient stopio'n stopio'r stopioch stopiodd stopir stopiwch stopiwn stopiwyd
+74	1174	oddeutu	oddeutu'r
+75	1175	staff	staffiau
+76	1176	rhwydwaith	rhwydweithiau rwydwaith
+77	1177	ymosod	hymosod ymesyd ymosoda ymosodaf ymosodai ymosodais ymosodaist ymosodant ymosodasant ymosodech ymosodedig ymosodem ymosodent ymosodi ymosodir ymosodo ymosodoch ymosododd ymosodwch ymosodwn ymosodwyd
+78	1178	cynulleidfa	chynulleidfa cynulleidfa'r cynulleidfaoedd gynulleidfa
+79	1179	llafar	lafar llafarach llafaraf
+80	1180	diwylliannol	ddiwylliannol niwylliannol
+81	1181	chwedl	chwedlau
+82	1182	academi	academi'r academïau
+83	1183	pris	bris mhris phris prisiau prisoedd
+84	1184	ffurfiol	
+85	1185	bedd	beddau fedd medd
+86	1186	te	nhe tê
+87	1187	allwedd	allweddau allweddi hallwedd
+88	1188	diod	ddiod diodydd
+89	1189	tiriogaeth	diriogaeth nhiriogaeth thiriogaeth tiriogaethau
+90	1190	gorfod	gorfodau gorfu gorfuant gorfuoch gorfuwyd gorfydd gorfydda gorfyddadwy gorfyddaf gorfyddai gorfyddais gorfyddaist gorfyddant gorfyddech gorfyddedig gorfyddem gorfyddent gorfyddi gorfyddir gorfyddo gorfyddoch gorfyddodd gorfyddwch gorfyddwn gorfûm gorod orfod
+91	1191	arf	arfau
+92	1192	cadarnhau	cadarnhadwy cadarnhaech cadarnhaem cadarnhaent cadarnhao cadarnhaoch cadarnhaodd cadarnhau'r cadarnhawn cadarnhawyd cadarnheais cadarnheaist cadarnhedig cadarnhei cadarnheir cadarnhewch cadarnhâ cadarnhâf cadarnhâi cadarnhânt chadarnhau gadarnhau
+93	1193	amcan	amcanion hamcan
+94	1194	arbenigwr	arbenigwraig arbenigwyr
+95	1195	deillio	ddeillio deilli deillia deilliadwy deilliaf deilliai deilliais deilliaist deilliant deilliech deilliedig deilliem deillient deillio'n deillioch deilliodd deillir deilliwch deilliwn deilliwyd
+96	1196	cyfrwng	chyfrwng gyfrwng
+97	1197	doniol	ddoniol doniolach doniolaf
+98	1198	asid	asidau
+99	1199	arddangosfa	arddangosfa'n arddangosfa'r arddangosfeydd harddangosfa
+100	1200	syrthio	syrth syrthi syrthia syrthiadwy syrthiaf syrthiai syrthiais syrthiaist syrthiant syrthiasant syrthiech syrthiedig syrthiem syrthient syrthio'n syrthioch syrthiodd syrthir syrthiwch syrthiwn syrthiwyd

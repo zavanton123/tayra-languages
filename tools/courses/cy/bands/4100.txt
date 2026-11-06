@@ -1,0 +1,100 @@
+1	4001	dyfeisiwr	ddyfeisiwr dyfeiswyr
+2	4002	falf	falfiau
+3	4003	cydweithredu	chydweithredu cyd-weithredu cydweithreda cydweithredadwy cydweithredaf cydweithredai cydweithredais cydweithredaist cydweithredant cydweithredech cydweithrededig cydweithredem cydweithredent cydweithredi cydweithredir cydweithredo cydweithredoch cydweithredodd cydweithredu'n cydweithredwch cydweithredwn cydweithredwyd gydweithredu
+4	4004	clwyfo	chlwyfo clwyfa clwyfadwy clwyfaf clwyfai clwyfais clwyfaist clwyfant clwyfech clwyfedig clwyfem clwyfent clwyfi clwyfir clwyfoch clwyfodd clwyfwch clwyfwn clwyfwyd glwyfo
+5	4005	siôl	siolau sioliau siols
+6	4006	cwlt	cyltiau gwlt
+7	4007	diwinydd	ddiwinydd diwinyddion
+8	4008	diplomyddol	ddiplomyddol
+9	4009	tacteg	dacteg dactegau tactegau
+10	4010	rhwyg	rhwygau rhwygiad rwyg rwygiadau
+11	4011	cymhelliant	chymhelliant gymhelliant
+12	4012	padell	badell padellau padelli pedyll phadell
+13	4013	foli	folis folïau
+14	4014	heicio	
+15	4015	uwchraddio	huwchraddio uwchraddia uwchraddiadwy uwchraddiaf uwchraddiai uwchraddiant uwchraddiech uwchraddiedig uwchraddiem uwchraddient uwchraddio'n uwchraddio'r uwchraddioch uwchraddiodd uwchraddiwch uwchraddiwn uwchraddiwyd uwchreddi uwchreddiais uwchreddiaist uwchreddiech uwchreddir uwchreddiwch
+16	4016	rheil	rheilen rheiliau rheilion rheilsen
+17	4017	planhigfa	blanhigfa planhigfeydd
+18	4018	glöwr	lowyr löwr
+19	4019	ymrannu	hymrannu ymranadwy ymranasai ymranedig ymranna ymrannaf ymrannai ymrannant ymrannech ymrannem ymrannent ymranno ymrannoch ymrannodd ymrannu'n ymrannwch ymrannwn ymrannwyd ymrennais ymrennaist ymrenni ymrennir ymrennwch
+20	4020	gloyw	gloywach gloywaf gloywon loyw
+21	4021	parchedig	
+22	4022	gweithle	gweithleoedd
+23	4023	mud	fud mudion
+24	4024	clorid	chlorid cloridau glorid
+25	4025	dôl	ddôl dolau dolydd
+26	4026	agosach	
+27	4027	sièd	sied siediau
+28	4028	slogan	sloganau
+29	4029	gwastadedd	gwastadeddau wastadedd wastadeddau
+30	4030	gweddïo	gweddiadwy gweddiedig gweddïa gweddïaf gweddïai gweddïais gweddïaist gweddïant gweddïech gweddïem gweddïent gweddïi gweddïir gweddïo'n gweddïoch gweddïodd gweddïwch gweddïwn gweddïwyd weddïo
+31	4031	cosi	cosa cosadwy cosaf cosais cosaist cosant cosedig cosir coso cosoch cosodd coswch coswyd gosi
+32	4032	gwnïo	gwinio gwnia gwniaf gwniai gwniais gwniaist gwniant gwniech gwniedig gwniem gwnient gwnii gwniir gwnio gwnioch gwniodd gwniwch gwniwn gwniwyd gwnïa gwnïaf gwnïo'r gwnïwch wnïo
+33	4033	synhwyrydd	synwyryddion
+34	4034	pererindod	bererindod bererindodau pererindodau
+35	4035	tun	dun tuniau tunnau
+36	4036	niweidiol	
+37	4037	porfa	borfa phorfa porfaoedd porfau porfeydd
+38	4038	cymeradwyaeth	chymeradwyaeth gymeradwyaeth
+39	4039	mamiaith	famiaith
+40	4040	peintiwr	beintiwr peintwyr
+41	4041	erlid	erlidi erlidia erlidiadwy erlidiaf erlidiai erlidiais erlidiaist erlidiant erlidiau erlidiech erlidiedig erlidiem erlidient erlidio erlidioch erlidiodd erlidir erlidiwch erlidiwn erlidiwyd herlid
+42	4042	ffawydden	ffawydd
+43	4043	cymanfa	cymanfaoedd cymanfeydd gymanfa
+44	4044	coblyn	coblynnod goblyn
+45	4045	tueddiad	dueddiad thueddiad tueddiadau
+46	4046	printio	brintio printa printi printia printiadwy printiaf printiai printiais printiaist printiant printiech printiedig printiem printient printioch printiodd printir printiwch printiwn printiwyd printwch
+47	4047	gwenithfaen	gwenithfeini wenithfaen
+48	4048	eiriolwr	eiriolwyr
+49	4049	hwythau	hwyntau wyntau
+50	4050	barcud	barcudiaid barcut barcutiaid
+51	4051	dicter	ddicter dicterau
+52	4052	pafiliwn	bafiliwn mhafiliwn pafiliynau
+53	4053	tywyllu	dywyllu thywyllu tywylla tywylladwy tywyllaf tywyllai tywyllais tywyllaist tywyllant tywyllech tywylledig tywyllem tywyllent tywylli tywyllir tywyllo tywylloch tywyllodd tywyllwn tywyllwyd
+54	4054	protestiwr	brotestwyr protestwyr
+55	4055	pibydd	pibyddes pibyddion
+56	4056	dodi	ddodi doda dodadwy dodaf dodai dodais dodaist dodant dodech dodedig dodem dodent dodir dodo dodoch dododd dodwch dodwn dodwyd dyd
+57	4057	mellt	fellt
+58	4058	atmosffer	atmosfferau
+59	4059	cysegredig	gysegredig
+60	4060	cyfanrwydd	chyfanrwydd gyfanrwydd
+61	4061	troad	droad throad troadau troead
+62	4062	moeseg	foeseg
+63	4063	cymesur	gymesur
+64	4064	cylchdaith	cylchdeithiau gylchdaith nghylchdaith
+65	4065	gorlifo	gorlif gorlifa gorlifadwy gorlifaf gorlifai gorlifais gorlifaist gorlifant gorlifech gorlifedig gorlifem gorlifent gorlifi gorlifir gorlifo'i gorlifo'r gorlifoch gorlifodd gorlifwch gorlifwn gorlifwyd orlifo
+66	4066	cymdeithasu	chymdeithasodd chymdeithasu cymdeithaswyd gymdeithasu
+67	4067	cynaeafu	chynaeafu cynaeafa cynaeafadwy cynaeafaf cynaeafai cynaeafant cynaeafech cynaeafedig cynaeafem cynaeafent cynaeafo cynaeafoch cynaeafodd cynaeafu'r cynaeafwch cynaeafwn cynaeafwyd cyneuefais cyneuefaist cyneuefi cyneuefir cyneuefwch gynaeafu
+68	4068	awdurdodi	awdurdoda awdurdodadwy awdurdodaf awdurdodai awdurdodais awdurdodaist awdurdodant awdurdodech awdurdodedig awdurdodem awdurdodent awdurdodir awdurdodo awdurdodoch awdurdododd awdurdodwch awdurdodwn awdurdodwyd hawdurdodi
+69	4069	anghysbell	
+70	4070	seryddwr	seryddwyr
+71	4071	epil	epilion epiloedd hepil
+72	4072	haeddu	haeddaf haeddai haeddu'r
+73	4073	orbit	horbit orbitau
+74	4074	materol	faterol materiol
+75	4075	ymdopi	ymdopa ymdopaf ymdopai ymdopais ymdopaist ymdopant ymdopech ymdopem ymdopent ymdopi'n ymdopian ymdopio ymdopir ymdopo ymdopoch ymdopodd ymdopwch ymdopwn ymdopwyd
+76	4076	calan	calannau galan
+77	4077	prifardd	brifardd prifeirdd
+78	4078	eisteddfodol	
+79	4079	streip	streipiau streips
+80	4080	diploma	ddiploma ddiplomâu diplomâu
+81	4081	iro	ira iradwy iraf irai irais iraist irant irech iredig irem irent iri irir iroch irodd irwch irwn irwyd
+82	4082	sgîl	
+83	4083	boch	bochau bochig bochyn
+84	4084	hafan	hafanau
+85	4085	rhedfa	redfa rhedfeydd
+86	4086	paill	baill peilliau peillwyr phaill
+87	4087	gwirfoddoli	gwirfoddola gwirfoddoladwy gwirfoddolaf gwirfoddolai gwirfoddolais gwirfoddolaist gwirfoddolant gwirfoddolech gwirfoddoledig gwirfoddolem gwirfoddolent gwirfoddoli'r gwirfoddolir gwirfoddolo gwirfoddoloch gwirfoddolodd gwirfoddolwch gwirfoddolwn gwirfoddolwyd wirfoddoli
+88	4088	deigryn	dagrau ddeigryn
+89	4089	gorwel	gorwelau gorwelion
+90	4090	addoliad	addoliadau haddoliad
+91	4091	pos	bos bosau phosau posau
+92	4092	egin	eginyn
+93	4093	lluniaeth	lluniaethau lluniaethoedd luniaeth
+94	4094	heriol	
+95	4095	bachog	fachog
+96	4096	chwyddiant	chwyddiannau
+97	4097	cromen	chromen cromennau cromenni cromennydd gromen
+98	4098	trysorydd	drysorydd thrysorydd
+99	4099	dwyfol	ddwyfol dwywol
+100	4100	dadeni	ddadeni

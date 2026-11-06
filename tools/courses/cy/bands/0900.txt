@@ -1,0 +1,100 @@
+1	801	cynllunio	chynllunio cynllunia cynlluniadwy cynlluniaf cynlluniai cynlluniais cynlluniaist cynlluniant cynlluniech cynlluniedig cynlluniem cynllunient cynllunio'n cynllunio'r cynllunioch cynlluniodd cynlluniont cynlluniwch cynlluniwn cynlluniwyd cynllunni cynllunnir gynllunio
+2	802	adroddiad	adroddiadau hadroddiad
+3	803	gofal	gofalon ngofal ofal
+4	804	perfformiad	berfformiad mherfformiad perfformiadau pherfformiad
+5	805	dylanwad	ddylanwad dylanwadau
+6	806	cynnyrch	chynnyrch cynhyrchion gynnyrch
+7	807	arddull	arddulliau harddull harddulliau
+8	808	pwnc	bwnc mhwnc phwnc pwng pynciau
+9	809	cwblhau	chwblhau cwblha cwblhaech cwblhaem cwblhaent cwblhaf cwblhao cwblhaoch cwblhaodd cwblhau'r cwblhawn cwblhawyd cwblheais cwblheaist cwblhei cwblheir cwblheua cwblheuwch cwblhewch cwblhâi cwblhânt cwpláu gwblhau
+10	810	sain	seiniau
+11	811	cais	ceisiadau ceisiau chais gais nghais
+12	812	cyson	chyson gyson
+13	813	cytundeb	chytundeb cytundebau gytundeb nghytundeb
+14	814	gorwedd	gorwedda gorweddadwy gorweddaf gorweddai gorweddais gorweddaist gorweddant gorweddech gorweddedig gorweddem gorweddent gorweddi gorweddir gorweddo gorweddoch gorweddodd gorweddwch gorweddwn gorweddwyd orwedd
+15	815	diwylliant	ddiwylliant diwylliannau niwylliant
+16	816	hwyl	hwyliau
+17	817	gwefan	gwefannau wefan
+18	818	braf	brafiach brafiaf
+19	819	profi	brofi phrofi profa profadwy profaf profai profais profaist profant profech profedig profem profent profer profi'i profi'n profi'r profir profo profoch profodd profwch profwn profwyd
+20	820	llwyr	llwyrach llwyraf llwyrion lwyr
+21	821	pwll	bwll mhwll phwll pyllau
+22	822	clir	chlir clirach cliraf glir gliriach
+23	823	uned	huned unedau
+24	824	gwirionedd	gwirioneddau wirionedd
+25	825	dwyn	ddwyn ducpwyd dwg dycpwyd dyga dygadwy dygaf dygai dygais dygaist dygant dygech dygedig dygem dygent dygi dygid dygir dygo dygoch dygodd dygu dygwch dygwn dygwyd dygyd
+26	826	thema	thema'n thema'r themau themâu
+27	827	pwyllgor	bwyllgor mhwyllgor phwyllgor pwyllgorau
+28	828	hyfryd	hyfrytach hyfrytaf
+29	829	tawel	dawel tawelach tawelaf tawelion thawel
+30	830	dyffryn	ddyffryn dyffrynnoedd dyffrynoedd nyffryn
+31	831	recordio	recordadwy recordedig recordi recordia recordiadwy recordiaf recordiai recordiais recordiaist recordiant recordiech recordiedig recordiem recordient recordio'i recordio'n recordio'r recordioch recordiodd recordir recordiwch recordiwn recordiwyd
+32	832	copa	chopa copa'n copa'r copaon copau copâon copâu gopa gopaon
+33	833	cyfoes	cyfoesion gyfoes
+34	834	cyfrif	chyfrif cyfrifa cyfrifadwy cyfrifaf cyfrifai cyfrifais cyfrifaist cyfrifant cyfrifech cyfrifem cyfrifent cyfrifi cyfrifid cyfrifir cyfrifo cyfrifoch cyfrifodd cyfrifon cyfrifwch cyfrifwn cyfrifwyd gyfrif
+35	835	heibio	heibio'i heibio'n heibio'r
+36	836	nofio	nawf nofi nofia nofiadwy nofiaf nofiai nofiais nofiaist nofiant nofiech nofiedig nofiem nofient nofio'n nofio'r nofioch nofiodd nofir nofiwch nofiwn nofiwyd
+37	837	diffyg	ddiffyg diffygion niffyg
+38	838	gweithgaredd	gweithgareddau ngweithgaredd weithgaredd
+39	839	gerllaw	gerllaw'r
+40	840	lleihau	leihau lleihadwy lleihaech lleihaem lleihaent lleihaf lleihai lleihao lleihaoch lleihaodd lleihau'n lleihau'r lleihawch lleihawn lleihawyd lleiheais lleiheaist lleihedig lleihei lleiheir lleihewch lleihâ lleihâf lleihâi lleihânt
+41	841	enfawr	
+42	842	cofnodi	chofnodi cofnoda cofnodadwy cofnodaf cofnodai cofnodais cofnodaist cofnodant cofnodech cofnodedig cofnodem cofnodent cofnodi'n cofnodi'r cofnodid cofnodir cofnodo cofnodoch cofnododd cofnodwch cofnodwn cofnodwyd gofnodi
+43	843	sydyn	
+44	844	ledled	
+45	845	wastad	
+46	846	sefyllfa	sefyllfa'n sefyllfa'r sefyllfaoedd sefyllfeydd sefyllfâu
+47	847	heddwch	heddychau
+48	848	brenhinol	breninolion frenhinol
+49	849	rheolaeth	reolaeth rheolaethau
+50	850	cryn	chryn gryn
+51	851	isod	
+52	852	arddegau	arddegau'n harddegau
+53	853	gwych	gwech gwychach gwychaf gwychion wych
+54	854	canolog	canologion chanolog ganolog
+55	855	achub	achuba achubaf achubai achubais achubaist achubant achubech achubem achubent achubi achubir achubo achuboch achubodd achubwch achubwn achubwyd hachub
+56	856	gydol	
+57	857	rhagor	ragor
+58	858	uwchradd	uwchraddau
+59	859	dadlau	dadlau'n dadlau'r dadleu dadleua dadleuadwy dadleuaf dadleuai dadleuais dadleuaist dadleuant dadleuasant dadleuech dadleuedig dadleuem dadleuent dadleui dadleuir dadleuo dadleuoch dadleuodd dadleuont dadleuwch dadleuwn dadleuwyd ddadlau
+60	860	chwith	
+61	861	bwrw	bwra bwred bwri bwria bwriaf bwriai bwriais bwriaist bwriant bwrid bwriech bwriedig bwriem bwrient bwrio bwrioch bwriodd bwrir bwriwch bwriwn bwriwyd bwrodd bwrw'r bwrw'u fwrw
+62	862	ysgafn	ysgafnach ysgafnaf ysgafnau ysgafnion ysgawn ysgeifn ysgon
+63	863	awgrymu	awgryma awgrymadwy awgrymaf awgrymai awgrymais awgrymaist awgrymant awgrymasant awgrymech awgrymedig awgrymem awgryment awgrymi awgrymid awgrymir awgrymo awgrymoch awgrymodd awgrymu'n awgrymu'r awgrymwch awgrymwn awgrymwyd hawgrymu
+64	864	traddodiad	draddodiad nhraddodiad thraddodiad traddodiadau
+65	865	meddai	feddai meddai'n meddai'r medden meddwn
+66	866	caer	caerau caerlleon caeroedd ceyrydd chaer gaer nghaer
+67	867	anfon	anfona anfonadwy anfonaf anfonai anfonais anfonaist anfonant anfonasant anfonech anfonedig anfonem anfonent anfoni anfonir anfono anfonoch anfonodd anfonwch anfonwn anfonwyd enfyn hanfon
+68	868	penodi	benodi penoda penodadwy penodaf penodai penodais penodaist penodant penodech penodedig penodem penodent penodi'n penodid penodir penodo penodoch penododd penodwch penodwn penodwyd phenodi
+69	869	rhiant	rhiaint rhieni riant
+70	870	dioddef	ddioddef dioddefa dioddefadwy dioddefaf dioddefai dioddefais dioddefaist dioddefant dioddefasant dioddefech dioddefedig dioddefem dioddefent dioddefi dioddefir dioddefo dioddefoch dioddefodd dioddefwch dioddefwn dioddefwyd
+71	871	tramor	dramor thramor tramorach tramoraf
+72	872	prysur	brysur prysurach prysuraf
+73	873	plis	plîs
+74	874	ddoe	
+75	875	bras	brasach brasaf breision fras
+76	876	olew	olew'r olewau
+77	877	gwydr	wydr
+78	878	masnachol	fasnachol
+79	879	arferol	
+80	880	fideo	fideo'i fideo'n fideo'r fideos
+81	881	prosiect	brosiect mhrosiect phrosiect prosiectau
+82	882	meddygol	feddygol
+83	883	lled	led lledau
+84	884	magu	fagu maga magadwy magaf magai magant magech maged magedig magem magent magi mago magoch magodd magu'n magu'r magwch magwn magwyd megais megaist megi megir megwch
+85	885	ffin	ffiniau
+86	886	bws	bysiau bysus bysys bỳs fws fwsiau
+87	887	amryw	amrywion
+88	888	cwch	chwch cychod gwch
+89	889	pŵer	bŵer phŵer pwerau
+90	890	het	hetiau
+91	891	gwahân	gwahan gwahanion wahân
+92	892	tasg	dasg tasgau tasgiau
+93	893	gwaed	gwaedau gwaedoedd ngwaed waed
+94	894	ymgeisydd	hymgeisydd ymgeiswyr
+95	895	cyhoedd	chyhoedd coedd
+96	896	llif	lif llifau llifiau llifoedd llifogydd
+97	897	seiliedig	
+98	898	celfyddyd	celfyddydau chelfyddyd gelfyddyd nghelfyddyd
+99	899	cost	chost costau gost
+100	900	dawnsio	dawnsi dawnsia dawnsiaf dawnsiai dawnsiais dawnsiaist dawnsian dawnsiant dawnsiech dawnsiem dawnsient dawnsio'n dawnsio'r dawnsioch dawnsiodd dawnsir dawnsiwch dawnsiwn dawnsiwyd dawnso ddawnsio

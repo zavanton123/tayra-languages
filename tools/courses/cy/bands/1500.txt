@@ -1,0 +1,100 @@
+1	1401	esgob	esgobion esgyb hesgob
+2	1402	parhaus	barhaus
+3	1403	poen	boen phoen poenau
+4	1404	bwthyn	bythynnod fwthyn
+5	1405	hylif	hylifau
+6	1406	teg	teca tecach tecaf theg
+7	1407	graddfa	graddfa'r graddfeydd raddfa
+8	1408	symudol	
+9	1409	afal	afalau hafal
+10	1410	cyfansoddiad	chyfansoddiad cyfansoddiadau gyfansoddiad nghyfansoddiad
+11	1411	ber	berrau fer mer
+12	1412	cymharu	chymharu cymhara cymharadwy cymharaf cymharai cymharant cymharech cymharedig cymharem cymharent cymharer cymharir cymharo cymharoch cymharodd cymharu'r cymharwch cymharwn cymharwyd cymherais cymheraist cymheri cymherir cymherwch gymharu
+13	1413	llunio	llunia lluniadwy lluniaf lluniai lluniais lluniaist lluniant lluniech lluniedig lluniem llunient llunio'i llunio'n llunio'r llunioch lluniodd lluniwch lluniwn lluniwyd llunni llunnir lunio
+14	1414	cyflwyniad	chyflwyniad cyflwyniadau gyflwyniad nghyflwyniad
+15	1415	anaf	anafau anafiadau
+16	1416	gogleddol	ogleddol
+17	1417	cred	chred credau gred nghred
+18	1418	antur	anturiau anturion
+19	1419	iach	iachach iachaf
+20	1420	dyfarnu	ddyfarnir ddyfarnu dyfarna dyfarnadwy dyfarnaf dyfarnai dyfarnant dyfarnech dyfarnedig dyfarnem dyfarnent dyfarno dyfarnoch dyfarnodd dyfarnu'n dyfarnu'r dyfarnwch dyfarnwn dyfarnwyd dyfernais dyfernaist dyferni dyfernir dyfernwch
+21	1421	brig	brigau frig frigau mrigau
+22	1422	syllu	sylla sylladwy syllaf syllai syllais syllaist syllant syllech sylledig syllem syllent sylli syllio syllir syllo sylloch syllodd syllu'n syllwch syllwn syllwyd
+23	1423	ogof	gogof ogofau ogofeydd ogofâu
+24	1424	hogyn	hogia hogiau
+25	1425	gweiddi	gwaedda gwaeddaf gweiddi'n weiddi wi
+26	1426	tarddu	dardd darddi darddu tardd tardda tarddadwy tarddaf tarddai tarddant tarddech tarddedig tarddem tarddent tarddir tarddo tarddoch tarddodd tarddu'n tarddwch tarddwn tarddwyd terddais terddaist terddi terddir terddwch
+27	1427	gwrthdaro	gwrthdaro'n gwrthdaro'r gwrthdrawa gwrthdrawadwy gwrthdrawaf gwrthdrawai gwrthdrawant gwrthdrawch gwrthdrawech gwrthdrawedig gwrthdrawem gwrthdrawent gwrthdrawn gwrthdrawo gwrthdrawoch gwrthdrawodd gwrthdrawsant gwrthdrawsoch gwrthdrawyd gwrthdrewais gwrthdrewaist gwrthdrewch gwrthdrewi gwrthdrewir wrthdaro
+28	1428	arweiniad	arweiniadau
+29	1429	gwan	gwannach gwannaf gweinion gwàn wan
+30	1430	gweddol	weddol
+31	1431	gwarchod	gwarchoda gwarchodadwy gwarchodaf gwarchodai gwarchodais gwarchodaist gwarchodant gwarchodech gwarchodedig gwarchodem gwarchodent gwarchodi gwarchodir gwarchodo gwarchodoch gwarchododd gwarchodwch gwarchodwn gwarchodwyd warchod
+32	1432	egwyddor	egwyddorion
+33	1433	cynhadledd	cynadleddau cynhaddledd cynhadleddau gynhadledd nghynhadledd
+34	1434	cyflawn	chyflawn cyflawnion gyflawn
+35	1435	agosau	agosaf
+36	1436	anadlu	anadla anadladwy anadlaf anadlai anadlant anadlech anadledig anadlem anadlent anadlir anadlo anadloch anadlodd anadlu'n anadlu'r anadlwch anadlwn anadlwyd analu anedlais anedlaist anedli anedlir anedlwch anhedlu hanadlu
+37	1437	twf	dwf nhwf thwf tyfion
+38	1438	dadansoddi	dadansodda dadansoddadwy dadansoddaf dadansoddai dadansoddais dadansoddaist dadansoddant dadansoddech dadansoddedig dadansoddem dadansoddent dadansoddi'n dadansoddi'r dadansoddir dadansoddo dadansoddoch dadansoddodd dadansoddwch dadansoddwn dadansoddwyd ddadansoddi
+39	1439	cyfyngedig	chyfyngedig gyfyngedig
+40	1440	cloc	chloc clociau gloc
+41	1441	cwpl	cwplau cwplon cyplau gwpl
+42	1442	gwe	gwe'r gweoedd we
+43	1443	siopa	siopa'n siopa'r siopadwy siopaf siopai siopais siopaist siopant siopech siopedig siopem siopent siopi siopir siopo siopoch siopodd siopwch siopwn siopwyd
+44	1444	cyfweliad	chyfweliad cyfweliadau gyfweliad
+45	1445	gwryw	gwryw'n gwrywod wryw
+46	1446	siaradwr	siaradreg siaradwraig siaradwrs siaradwyr
+47	1447	lleuad	leuad lleuadau
+48	1448	araith	areithiau haraith
+49	1449	cas	cafodd casach casaf casau casiau casoedd gas
+50	1450	trigolyn	trigiolyn trigolion
+51	1451	ildio	hildio ildiaf ildio'i ildio'n ildio'r ildio'u ildiodd ildo
+52	1452	dynodi	ddynodi dynoda dynodadwy dynodaf dynodai dynodais dynodaist dynodant dynodech dynodedig dynodem dynodent dynodi'n dynodi'r dynodir dynodo dynodoch dynododd dynodwch dynodwn dynodwyd
+53	1453	gynt	
+54	1454	ymaith	ymddaith
+55	1455	datgelu	datgela datgeladwy datgelaf datgelai datgelais datgelaist datgelant datgelech datgeledig datgelem datgelent datgeli datgelir datgelo datgeloch datgelodd datgelu'r datgelwch datgelwn datgelwyd ddatgelu
+56	1456	gwanwyn	gwanwynau gwanwyni ngwanwyn wanwyn
+57	1457	perffaith	berffaith perffeithach perffeithaf perffeithion pherffaith
+58	1458	cadwyn	cadwynau cadwyni chadwyn gadwyn nghadwyn
+59	1459	argraffu	argraffa argraffadwy argraffaf argraffai argraffant argraffech argraffedig argraffem argraffent argraffo argraffoch argraffodd argraffu'n argraffu'r argraffwch argraffwn argraffwyd argreffais argreffaist argreffi argreffir argreffwch hargraffu
+60	1460	cyswllt	chyswllt cysylltau cysylltiau gyswllt nghyswllt
+61	1461	methiant	fethiant methiannau methiantau
+62	1462	disgrifiad	ddisgrifiad disgrifiadau
+63	1463	cyfarwydd	cyfarwyddion gyfarwydd
+64	1464	rhywiol	rywiol
+65	1465	cul	chul culach culaf culion gul
+66	1466	datgan	datgana datganadwy datganaf datganai datganant datganech datganedig datganem datganent datganir datgano datganoch datganodd datganu datganwch datganwn datganwyd datgenais datgenaist datgeni datgenid datgenir datgenwch ddatgan
+67	1467	danfon	danfona danfonadwy danfonaf danfonai danfonais danfonaist danfonant danfonech danfonedig danfonem danfonent danfoni danfonir danfono danfonoch danfonodd danfonwch danfonwn danfonwyd ddanfon denfyn
+68	1468	parcio	barcio parcia parciadwy parciaf parciai parciant parciech parciedig parciem parcient parcio'n parcio'r parcioch parciodd parciwch parciwn parciwyd perci perciais perciaist perciech percir perciwch pharcio
+69	1469	treth	dreth threth trethi
+70	1470	ymarferol	
+71	1471	label	labelau labeli
+72	1472	pwys	bwys phwys
+73	1473	cerddor	cerddorion cherddor gerddor
+74	1474	cyflymder	chyflymder cyflymderau cyflymdra gyflymder nghyflymder
+75	1475	geometreg	geometregau
+76	1476	neithiwr	neithiwyr
+77	1477	mainc	fainc meinciau
+78	1478	cofrestru	chofrestru cofrestra cofrestradwy cofrestraf cofrestrai cofrestrais cofrestraist cofrestrant cofrestrech cofrestredig cofrestrem cofrestrent cofrestri cofrestrir cofrestro cofrestroch cofrestrodd cofrestru'n cofrestrwch cofrestrwn cofrestrwyd gofrestru
+79	1479	colofn	cholofn colofnau golofn ngholofn
+80	1480	caredig	charedig garedig
+81	1481	technegol	dechnegol thechnegol
+82	1482	ymgais	hymgais ymgeisiau ymgeision
+83	1483	pumed	bumed mhumed phumed
+84	1484	crefft	chrefft crefftau grefft
+85	1485	rhaff	raff rhaffau rhaffen
+86	1486	prydferth	brydferth phrydferth prydferthach prydferthaf prydferthion
+87	1487	adfail	adfeilion
+88	1488	pur	bur purach puraf purion
+89	1489	cyfradd	chyfradd cyfraddau gyfradd nghyfradd
+90	1490	cyfieithiad	chyfieithiad cyfieithiadau gyfieithiad
+91	1491	sâl	salach salaf saloedd seilion sâls
+92	1492	addysgol	
+93	1493	swper	swperau
+94	1494	lindysyn	lindys
+95	1495	cyfrifiad	cyfrifiadau gyfrifiad nghyfrifiad
+96	1496	heblaw	heblaw'r
+97	1497	gollwng	gollynga gollyngadwy gollyngaf gollyngai gollyngais gollyngaist gollyngant gollyngau gollyngech gollyngedig gollyngem gollyngent gollyngi gollyngid gollyngir gollyngo gollyngoch gollyngodd gollyngwch gollyngwn gollyngwyd ollwng
+98	1498	amcangyfrif	amcangyfrifa amcangyfrifadwy amcangyfrifaf amcangyfrifai amcangyfrifais amcangyfrifaist amcangyfrifant amcangyfrifech amcangyfrifem amcangyfrifent amcangyfrifi amcangyfrifid amcangyfrifir amcangyfrifo amcangyfrifoch amcangyfrifodd amcangyfrifon amcangyfrifwch amcangyfrifwn amcangyfrifwyd hamcangyfrif
+99	1499	toriad	doriad nhoriad thoriad toriadau
+100	1500	cynorthwyo	chynorthwyo cynorthwya cynorthwyadwy cynorthwyaf cynorthwyai cynorthwyais cynorthwyaist cynorthwyant cynorthwyech cynorthwyedig cynorthwyem cynorthwyent cynorthwyi cynorthwyir cynorthwyo'r cynorthwyoch cynorthwyodd cynorthwywch cynorthwywn cynorthwywyd gynorthwyo

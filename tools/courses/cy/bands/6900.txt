@@ -1,0 +1,100 @@
+1	6801	ailgyflwyno	ailgyflwya ailgyflwyadwy ailgyflwyaf ailgyflwyai ailgyflwyais ailgyflwyaist ailgyflwyant ailgyflwyech ailgyflwyedig ailgyflwyem ailgyflwyent ailgyflwyi ailgyflwyir ailgyflwyna ailgyflwynaf ailgyflwynwch ailgyflwynwyd ailgyflwyo ailgyflwyoch ailgyflwyodd ailgyflwywch ailgyflwywn ailgyflwywyd hailgyflwyno
+2	6802	gefeillio	efeillio
+3	6803	lleygwr	leygwyr lleygwyr
+4	6804	gwaedlif	gwaedlifau gwaedlifoedd waedlif
+5	6805	stordy	stordai stordeiau ystordy
+6	6806	llofnodwr	llofnodwyr lofnodwyr
+7	6807	maeddu	faeddu maedda maeddadwy maeddaf maeddai maeddais maeddaist maeddant maeddech maeddedig maeddem maeddent maeddi maeddir maeddo maeddoch maeddodd maeddu'n maeddu'r maeddwch maeddwn maeddwyd
+8	6808	cort	corten cortyn cyrt cyrts gortynnau
+9	6809	cyrten	cortyn cyrteniau cyrtenni cyrtens gortynnau
+10	6810	canlyniadol	
+11	6811	hwla	
+12	6812	ffroenell	ffroenellau
+13	6813	diagnostig	ddiagnostig
+14	6814	mynegeio	fynegeio mynegeia mynegeiadwy mynegeiaf mynegeiai mynegeiais mynegeiaist mynegeiant mynegeiech mynegeiedig mynegeiem mynegeient mynegeii mynegeiir mynegeioch mynegeiodd mynegeiwch mynegeiwn mynegeiwyd
+15	6815	clodwiw	
+16	6816	creisionen	creision
+17	6817	chwarterol	
+18	6818	rhifyddol	
+19	6819	ebol	ebolion
+20	6820	maenordy	faenordy maenordai
+21	6821	sosban	sasban sosbannau sosbenni sosbon sosbyn sosbyns
+22	6822	anfri	ammri anfri'r anfrïon anmri
+23	6823	llyngesydd	llyngesyddion lyngesydd
+24	6824	ailafael	ailafaelodd
+25	6825	erlyniad	erlyniadau
+26	6826	propaganda	bropaganda propaganda'r
+27	6827	pantomeim	bantomeim pantomeimiau pantomeims
+28	6828	gwenynen	wenynen
+29	6829	crefftus	grefftus
+30	6830	newydd-ddyfodiad	newydd-ddyfodiaid
+31	6831	arlwyo	arlwyo'r arlwywyd
+32	6832	ffrwythloni	ffrwythlonaf ffrwythloni'n
+33	6833	sythu	sythu'r sythwyd
+34	6834	culhau	chulhau culhaf culhaodd culhau'r gulhau
+35	6835	datod	datoda datodadwy datodaf datodai datodais datodaist datodant datodech datodedig datodem datodent datodi datodir datodo datodoch datododd datodwch datodwn datodwyd ddatod detyd
+36	6836	cyfalafol	gyfalafol
+37	6837	bugeilio	bugeila bugeilia bugeiliaf bugeilio'i bugeilio'r bugeilo
+38	6838	halogi	halogaf halogi'r
+39	6839	morfuwch	forfuwch morfuchod
+40	6840	paffiwr	baffiwr paffwyr phaffiwr
+41	6841	tollborth	dollborth tollbyrth
+42	6842	poblogi	boblogi phoblogi pobloga poblogadwy poblogaf poblogai poblogais poblogaist poblogant poblogech poblogedig poblogem poblogent poblogi'r poblogid poblogir poblogo poblogoch poblogodd poblogwch poblogwn poblogwyd
+43	6843	cofrestriad	cofrestriadau
+44	6844	rhaglennwr	rhaglenwyr
+45	6845	aliniad	aliniadau
+46	6846	deiliadaeth	ddeiliadaeth deiliadaethau
+47	6847	dargyfeiriad	dargyfeiriadau ddargyfeiriad
+48	6848	twb	dwb twbs twbyn tybau tybiau tỳb
+49	6849	trostyn	drostyn
+50	6850	llyngren	llyngyr lyngyr
+51	6851	heicwr	heicwyr
+52	6852	petrus	betrus petrusach
+53	6853	sgiwr	sgiwyr
+54	6854	jamio	
+55	6855	islawr	isloriau
+56	6856	ymaflyd	ymafla ymafladwy ymaflaf ymaflai ymaflant ymaflech ymafledig ymaflem ymaflent ymaflo ymafloch ymaflodd ymaflwch ymaflwn ymaflwyd ymeflais ymeflaist ymefli ymeflir ymeflwch ymeifl
+57	6857	eiledol	
+58	6858	anhepgor	
+59	6859	pendil	
+60	6860	cynhesrwydd	chynhesrwydd gynhesrwydd nghynhesrwydd
+61	6861	bustach	bustych fustach
+62	6862	prostad	brostad prostadau
+63	6863	blodeuol	flodeuol
+64	6864	addasrwydd	haddasrwydd
+65	6865	henadur	henaduriaid
+66	6866	diwydiannwr	diwydianwyr
+67	6867	gosgordd	osgordd
+68	6868	helaethu	helaethodd helaethu'r
+69	6869	prysurdeb	brysurdeb phrysurdeb
+70	6870	briw	briwiau friw
+71	6871	rhudd	rhuddach rhuddaf rhuddion rudd
+72	6872	metelaidd	fetelaidd
+73	6873	tagfa	tagfeydd
+74	6874	sandal	sandalau
+75	6875	diwifr	
+76	6876	ïodin	hïodin
+77	6877	myn	mynnau mynnod
+78	6878	broga	brogaod
+79	6879	strwythuredig	
+80	6880	cymhwysedd	
+81	6881	magnet	fagnet magnetau magnets
+82	6882	achwynydd	achwynwyr achwynyddion
+83	6883	dewiswr	dewiswyr
+84	6884	slafaidd	
+85	6885	bir	
+86	6886	tinfelyn	
+87	6887	bethodistaidd	fethodistaidd
+88	6888	cynddelw	cynddelwau
+89	6889	clud	cludau
+90	6890	cilgwyn	
+91	6891	eirian	erianen
+92	6892	arddodiad	arddodiaid
+93	6893	amlgellog	
+94	6894	corhwyaden	
+95	6895	gregynog	ngregynog
+96	6896	manod	fanod
+97	6897	pumlumon	phumlumon
+98	6898	modurdy	modurdai
+99	6899	bethel	methel
+100	6900	piwritanaidd	biwritanaidd

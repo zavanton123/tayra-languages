@@ -1,0 +1,100 @@
+1	1501	actio	actia actiadwy actiaf actiai actiant actiech actiedig actiem actient actio'n actio'r actioch actiodd actiwch actiwn actiwyd ecti ectiais ectiaist ectiech ectir ectiwch
+2	1502	stoc	stociau
+3	1503	piano	biano phiano pianoau pianos
+4	1504	oll	
+5	1505	llydan	lletach lletaf llydain llydanach llydanaf llydanion lydan
+6	1506	targed	darged targedau target
+7	1507	ffoi	ffoa ffoadwy ffoaf ffoais ffoant ffodd ffoech ffoem ffoent ffoes ffoesant ffoesoch ffoi'r ffoir ffois ffoist ffowch ffown ffowyd ffoëdig ffy ffôch ffôi ffôm ffônt
+8	1508	sylweddoli	sylweddola sylweddoladwy sylweddolaf sylweddolai sylweddolais sylweddolaist sylweddolant sylweddolech sylweddoledig sylweddolem sylweddolent sylweddoli'n sylweddoli'r sylweddolir sylweddolo sylweddoloch sylweddolodd sylweddolwch sylweddolwn sylweddolwyd
+9	1509	marc	farc marcau marciau morc
+10	1510	sesiwn	sesiynau
+11	1511	difrod	ddifrod difrodiau
+12	1512	chwarel	chwareli cwarel
+13	1513	plastig	blastig phlastig plastigau plastigiau plastigion
+14	1514	allweddol	
+15	1515	tenau	denau teneuach teneuaf teneuon thenau
+16	1516	bwydo	bwyda bwydir bwydo'n bwydo'r bwydodd bwydwch bwydwyd fwydo mwydo
+17	1517	cwrw	chwrw cwrw'n cyrfau gwrw
+18	1518	poeni	boeni mhoeni phoeni poena poenadwy poenaf poenai poenais poenaist poenant poenech poenem poenen poenent poeni'n poenir poeno poenoch poenodd poenwch poenwn poenwyd
+19	1519	telor	delor delorion teloriaid telorion
+20	1520	ie	
+21	1521	llonydd	llonyddach llonyddaf lonydd
+22	1522	detholiad	ddetholiad detholiadau
+23	1523	beirniadu	beirniada beirniadadwy beirniadaf beirniadai beirniadant beirniadech beirniadedig beirniadem beirniadent beirniado beirniadoch beirniadodd beirniadu'n beirniadu'r beirniadwch beirniadwn beirniadwyd beirniedais beirniedaist beirniedi beirniedir beirniedwch feirniadu meirniadu
+24	1524	cyffrous	chyffrous gyffrous
+25	1525	melin	felin melinau
+26	1526	gwartheg	gwarthegyn wartheg
+27	1527	ysgolhaig	ysgolheiges ysgolheigion
+28	1528	dyletswydd	ddyletswydd ddyletswyddau dyletswyddau segurswyddi
+29	1529	de-ddwyrain	dde-ddwyrain ne-ddwyrain
+30	1530	crio	chrio cria criaf criai criais criaist criant criech criem crient crii criir crioch criodd criwch criwn criwyd grio
+31	1531	mabwysiadu	fabwysiadu mabwysiada mabwysiadadwy mabwysiadaf mabwysiadai mabwysiadant mabwysiadech mabwysiadedig mabwysiadem mabwysiadent mabwysiado mabwysiadoch mabwysiadodd mabwysiadont mabwysiadu'n mabwysiadu'r mabwysiadwch mabwysiadwn mabwysiadwyd mabwysiedais mabwysiedaist mabwysiedi mabwysiedir mabwysiedwch
+32	1532	cyfuniad	chyfuniad cyfuniadau gyfuniad
+33	1533	fflat	fflatach fflataf fflatiau fflats
+34	1534	tybio	dyb dybio nhyb thyb tyb tybi tybia tybiadwy tybiaf tybiai tybiais tybiaist tybiant tybid tybiech tybied tybiedig tybiem tybient tybioch tybiodd tybir tybiwch tybiwn tybiwyd
+35	1535	gwrthwynebu	gwrthwyneba gwrthwynebadwy gwrthwynebaf gwrthwynebai gwrthwynebais gwrthwynebaist gwrthwynebant gwrthwynebech gwrthwynebedig gwrthwynebem gwrthwynebent gwrthwynebi gwrthwynebir gwrthwynebo gwrthwyneboch gwrthwynebodd gwrthwynebu'n gwrthwynebu'r gwrthwynebwch gwrthwynebwn gwrthwynebwyd wrthwynebu
+36	1536	byd-eang	fyd-eang
+37	1537	cymunedol	chymunedol gymunedol
+38	1538	comedi	chomedi comedi'r comedis comedïau gomedi nghomedi
+39	1539	rhostio	rhosti rhostia rhostiadwy rhostiaf rhostiai rhostiais rhostiaist rhostiant rhostiech rhostiedig rhostiem rhostient rhostio'r rhostioch rhostiodd rhostir rhostiroedd rhostiwch rhostiwn rhostiwyd rostio
+40	1540	pwysigrwydd	bwysigrwydd phwysigrwydd
+41	1541	ysbrydoli	hysbrydoli sbrydoli ysbrydola ysbrydolaf ysbrydolai ysbrydolais ysbrydolaist ysbrydolant ysbrydolech ysbrydoledig ysbrydolem ysbrydolent ysbrydoli'n ysbrydoli'r ysbrydolir ysbrydolo ysbrydoloch ysbrydolodd ysbrydolwch ysbrydolwn ysbrydolwyd
+42	1542	troedfedd	droedfedd throedfedd troedfeddi
+43	1543	siaced	siacedi
+44	1544	diffiniad	ddiffiniad deffiniad diffiniadau niffiniad
+45	1545	llachar	lachar
+46	1546	ffilmio	ffilmio'n ffilmio'r ffilmiodd ffilmiwyd
+47	1547	tegan	degan teganau teganau'n tegannau thegan theganau
+48	1548	graff	graffau graffiau
+49	1549	brwydro	brwydra brwydradwy brwydraf brwydrai brwydrais brwydraist brwydrant brwydrech brwydredig brwydrem brwydrent brwydri brwydrir brwydro'n brwydro'r brwydroch brwydrodd brwydrwch brwydrwn brwydrwyd frwydro
+50	1550	cyfleuster	chyfleuster cyfleusterau gyfleuster
+51	1551	llenwi	lenwi llanwadwy llanwaf llanwai llanwant llanwch llanwech llanwedig llanwem llanwent llanwn llanwo llanwoch llanwodd llanwyd lleinw llenwa llenwais llenwaist llenwch llenwi'n llenwi'r llenwi'th llenwir llenwodd
+52	1552	dyddiol	ddyddiol
+53	1553	cynffon	chynffon cynffonion cynffonnau gynffon
+54	1554	oedran	hoedran oedrannau
+55	1555	hyfforddwr	hyfforddwyr
+56	1556	canoloesol	chanoloesol ganoloesol
+57	1557	gwared	gwareda gwaredaf gwaredai gwaredais gwaredaist gwaredant gwaredau gwaredech gwarededig gwaredem gwaredent gwaredi gwaredir gwaredo gwaredoch gwaredodd gwaredwch gwaredwn gwaredwyd gwaredydd wared
+58	1558	digidol	ddigidol
+59	1559	mochyn	foch moch
+60	1560	nain	neiniau nhain
+61	1561	glanio	glania glaniadwy glaniaf glaniai glaniant glaniech glaniedig glaniem glanient glanio'n glanio'r glanioch glaniodd glaniwch glaniwn glaniwyd gleniais gleniaist gleniwch glenni glennir lanio
+62	1562	categori	categori'r categoriau categorïau chategori gategori gategoriau gategorïau nghategori
+63	1563	gwthio	gwthi gwthia gwthiadwy gwthiaf gwthiai gwthiais gwthiaist gwthiant gwthid gwthiech gwthiedig gwthiem gwthient gwthio'r gwthioch gwthiodd gwthir gwthiwch gwthiwn gwthiwyd wthio
+64	1564	camp	campau champ gamp
+65	1565	cyfnewid	chyfnewid cyfnewidi cyfnewidia cyfnewidiadwy cyfnewidiaf cyfnewidiai cyfnewidiais cyfnewidiaist cyfnewidiant cyfnewidiech cyfnewidiedig cyfnewidiem cyfnewidient cyfnewidio cyfnewidioch cyfnewidiodd cyfnewidir cyfnewidiwch cyfnewidiwn cyfnewidiwyd gyfnewid
+66	1566	gwrywaidd	wrywaidd
+67	1567	arestio	aresti arestia arestiadwy arestiaf arestiai arestiais arestiaist arestiant arestiech arestiedig arestiem arestient arestio'n arestio'r arestioch arestiodd arestir arestiwch arestiwn arestiwyd harestio
+68	1568	injan	injans
+69	1569	hynna	hynna'n hynna'r
+70	1570	goleuni	goleuni'r ngoleuni oleuni
+71	1571	cydweithio	chydweithio cyd-weithio cydweithi cydweithia cydweithiadwy cydweithiaf cydweithiai cydweithiais cydweithiaist cydweithiant cydweithiech cydweithiedig cydweithiem cydweithient cydweithio'n cydweithioch cydweithiodd cydweithir cydweithiwch cydweithiwn cydweithiwyd gydweithio
+72	1572	athroniaeth	athroniaethau
+73	1573	galluogi	alluogi galluoga galluogadwy galluogaf galluogai galluogais galluogaist galluogant galluogech galluogedig galluogem galluogent galluogi'r galluogir galluogo galluogoch galluogodd galluogwch galluogwn galluogwyd ngalluogi
+74	1574	brawddeg	brawddegau frawddeg
+75	1575	amod	amodau
+76	1576	ewythr	ewyrthod ewythredd ewythrod hewythr
+77	1577	egluro	eglurant eglurir egluro'r eglurodd eglurwch eglurwyd eɡluraf hegluro
+78	1578	gwerthfawr	gwerthfawrocach gwerthfawrocaf werthfawr
+79	1579	adwaith	adweithiau
+80	1580	gwrthryfel	gwrthryfeloedd ngwrthryfel wrthryfel
+81	1581	gweithgar	weithgar
+82	1582	sbectol	sbectacl sbectal sbectolau sbectols ysbectacl ysbectal ysbectol
+83	1583	iseldir	iseldiroedd
+84	1584	lansio	lansia lansiadwy lansiaf lansiai lansiant lansiech lansiedig lansiem lansient lansio'n lansio'r lansioch lansiodd lansiwch lansiwn lansiwyd lensi lensiais lensiaist lensiech lensir lensiwch
+85	1585	cwympo	chwympo cwympa cwympadwy cwympaf cwympai cwympais cwympaist cwympant cwympech cwympedig cwympem cwympent cwympi cwympir cwympo'n cwympoch cwympodd cwympwch cwympwn cwympwyd gwympo
+86	1586	innau	finnau minnau
+87	1587	bocs	bocsiau bocsys bocysau focs
+88	1588	platfform	blatfform phlatfform platfformau
+89	1589	meddyginiaeth	feddyginiaeth meddyginiaethau
+90	1590	incwm	hincwm incymau
+91	1591	dur	ddur nur
+92	1592	corn	chorn cyrn gorn nghorn
+93	1593	presenoldeb	bresenoldeb mhresenoldeb phresenoldeb
+94	1594	sgôr	sgorau sgoriau sgorion
+95	1595	pedwerydd	bedwerydd mhedwerydd pedwaredd phedwerydd
+96	1596	ansawdd	ansodd ansoddau ansoddion hansawdd
+97	1597	tud	dud tudau
+98	1598	paned	baned panad paneidiau
+99	1599	glaswellt	glaswelltyn laswellt
+100	1600	gwres	ngwres wres

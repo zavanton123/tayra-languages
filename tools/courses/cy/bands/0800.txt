@@ -1,0 +1,100 @@
+1	701	nodedig	
+2	702	trwm	ddrwm drwm drymau drymiau nrwm thrwm trymach trymaf trymion
+3	703	cyflwr	chyflwr cyflyrau gyflwr nghyflwr
+4	704	teyrnas	deyrnas nheyrnas teyrnasau teyrnasoedd theyrnas
+5	705	gwyllt	gwylltach gwylltaf gwylltion wyllt
+6	706	llais	lais lleisiau
+7	707	ymateb	hymateb ymateba ymatebadwy ymatebaf ymatebai ymatebais ymatebaist ymatebant ymatebech ymatebedig ymatebem ymatebent ymatebi ymatebion ymatebir ymatebo ymateboch ymatebodd ymatebwch ymatebwn ymatebwyd ymetyb
+8	708	bodoli	bodola bodolaf bodolai bodolais bodolaist bodolant bodolasai bodolech bodoledig bodolem bodolent bodoler bodoli'n bodoli'r bodolir bodolo bodoloch bodolodd bodolwch bodolwn bodolwyd fodoli
+9	709	annibynnol	
+10	710	gwahaniaeth	gwahaniaethau wahaniaeth
+11	711	meddyg	feddyg meddygon
+12	712	tystiolaeth	dystiolaeth thystiolaeth tystiolaethau
+13	713	agwedd	agweddau hagwedd
+14	714	sicrhau	sicrha sicrhadwy sicrhaech sicrhaem sicrhaent sicrhaf sicrhao sicrhaoch sicrhaodd sicrhau'r sicrhawn sicrhawyd sicrheais sicrheaist sicrhedig sicrhei sicrheir sicrhewch sicrhâi sicrhânt
+15	715	awyren	awyrennau hawyren
+16	716	proffesiynol	broffesiynol phroffesiynol
+17	717	diwethaf	ddiwethaf diweddaf diwetha diwetharaf
+18	718	rhyfedd	rhyfeddach rhyfeddaf ryfedd
+19	719	arwydd	arwyddion
+20	720	blewog	blewogion flewog
+21	721	canolbwyntio	canolbwyntia canolbwyntiaf canolbwyntio'n canolbwyntio'r canolbwyntiodd canolbwyntir canolbwyntiwch chanolbwyntiai chanolbwyntio chanolbwyntiodd chanolbwyntiwyd ganolbwyntio ganolbwyntiodd
+22	722	mwyafrif	fwyafrif mwyafrifau mwyafryfoedd
+23	723	ethol	ethola etholaf etholai etholais etholaist etholant etholasant etholech etholem etholent etholi etholir etholo etholoch etholodd etholwch etholwn etholwyd hethol
+24	724	deddf	ddeddf deddfau neddf
+25	725	goroesi	goroesasant goroesi'n goroesi'r goroesir goroesodd goroeswyd oroesai oroesi oroesodd oroeswyd
+26	726	sedd	seddau seddi
+27	727	naill	
+28	728	claddu	chladdu cladd cladda claddadwy claddaf claddai claddant claddech claddem claddent claddo claddoch claddodd claddu'n claddu'r claddwch claddwn claddwyd cleddais cleddaist cleddi cleddid cleddir cleddwch gladdu
+29	729	unigolyn	unigolion
+30	730	poeth	boeth phoeth poethach poethaf poethion
+31	731	barddoniaeth	barddoniaethau farddoniaeth marddoniaeth
+32	732	theatr	theatrau
+33	733	eiddo	eiddo'n eiddo'r heiddo
+34	734	eira	eira'n eira'r eiraoedd
+35	735	amddiffyn	amddiffynadwy amddiffynedig amddiffynid amddiffynir amddiffynna amddiffynnaf amddiffynnai amddiffynnais amddiffynnaist amddiffynnant amddiffynnech amddiffynnem amddiffynnent amddiffynni amddiffynnir amddiffynno amddiffynnoch amddiffynnodd amddiffynnwch amddiffynnwn amddiffynnwyd amddiffynodd amddiffynwyd hamddiffyn
+36	736	oer	oerach oeraf oerion
+37	737	ysbyty	ysbytai ysbyty'n ysbyty'r
+38	738	preifat	breifat phreifat
+39	739	canfod	canfu canfuant canfuoch canfuwyd canfydd canfydda canfyddaf canfyddai canfyddais canfyddaist canfyddant canfyddech canfyddedig canfyddem canfyddent canfyddi canfyddid canfyddir canfyddo canfyddoch canfyddodd canfyddwch canfyddwn canfyddwyd canfûm chanfod ganfod ganfyddwyd
+40	740	awdurdod	awdurdodau hawdurdod
+41	741	atal	atalia ataliadwy ataliaf ataliai ataliant ataliech ataliedig ataliem atalient atalio atalioch ataliodd atalion ataliwch ataliwn ataliwyd ateli ateliais ateliaist ateliech atelir ateliwch etyl hatal
+42	742	milltir	filltir milltiroedd
+43	743	rownd	rowndiau
+44	744	cath	cathau cathod chath gath
+45	745	aur	eurau haur
+46	746	set	setiau
+47	747	manwl	fanwl manylach manylaf manylion
+48	748	caled	caledion caletach caletaf celyd chaled galed
+49	749	deunydd	ddeunydd deunyddiau neunydd
+50	750	ras	rasys
+51	751	rygbi	rygbi'r
+52	752	troed	droed nhroed throed traed
+53	753	gwisg	gwisgoedd ngwisg wisg
+54	754	trydydd	drydydd nhrydydd thrydydd trydedd
+55	755	ynghyd	
+56	756	siani	siani'n siani'r sianis
+57	757	personol	bersonol personolach personolaf phersonol
+58	758	coedwig	choedwig coedwigoedd goedwig nghoedwig
+59	759	ariannol	
+60	760	llenyddol	lenyddol
+61	761	gwynt	gwyntoedd wynt
+62	762	iau	iau'r ieuau ieuoedd
+63	763	rheswm	reswm rhesymau
+64	764	ymgyrch	hymgyrch ymgyrchoedd
+65	765	maint	meintiau
+66	766	darlun	darllun darluniau ddarlun
+67	767	dibynnu	ddibynnu dibynedig dibynir dibynna dibynnaf dibynnai dibynnais dibynnaist dibynnant dibynnech dibynnem dibynnent dibynni dibynnir dibynno dibynnoch dibynnodd dibynnu'n dibynnwch dibynnwn dibynnwyd
+68	768	addasu	addasa addasadwy addasaf addasedig addaso addasodd addasu'n addasu'r addaswch addaswyd addesais addesaist addesi addesir addeswch haddasu
+69	769	go	ngo
+70	770	enwedig	
+71	771	cario	caria cariadwy cariaf cariai cariant cariech cariedig cariem carient cario'i cario'n cario'r cario'u carioch cariodd cariwch cariwn cariwyd ceriais ceriaist ceriech cerir ceriwch chario gario nghario
+72	772	ymysg	
+73	773	cwestiwn	cwestiynau gwestiwn nghwestiwn
+74	774	milwrol	filwrol
+75	775	trac	drac draciau nhrac thrac thraciau traciau
+76	776	grym	grymoedd rym
+77	777	mynwent	fynwent mynwenni mynwennoedd mynwentau mynwenti mynwentydd
+78	778	paratoi	baratoi paratoa paratoaf paratoai paratoais paratoaist paratoant paratodd paratoech paratoedig paratoem paratoent paratoi'r paratoir paratosant paratosoch paratowch paratown paratowyd paratô paratôch paratôdd paratôm paratônt parotoi pharatoi
+79	779	golygfa	golygfa'n golygfa'r golygfeydd ngolygfa olygfa
+80	780	unigol	
+81	781	noson	nosweithiau
+82	782	effeithio	effeithi effeithia effeithiadwy effeithiaf effeithiai effeithiais effeithiaist effeithiant effeithiech effeithiedig effeithiem effeithient effeithio'n effeithio'r effeithioch effeithiodd effeithir effeithiwch effeithiwn effeithiwyd heffeithio
+83	783	llyfrgell	llyfrgelloedd lyfrgell
+84	784	llwyfan	llwyfannau lwyfan
+85	785	cenedl	cenhedloedd chenedl genedl
+86	786	disgybl	ddisgybl disgyblion
+87	787	rheolaidd	reolaidd
+88	788	cinio	chinio ciniawau cinio'r ginio nghinio
+89	789	peiriant	beiriant peiriannau pheiriant
+90	790	llall	nall
+91	791	adain	adanedd adeinedd adeiniau adeinydd aden adenydd edenydd edyn hadain
+92	792	ychwanegol	chwanegol
+93	793	strwythur	streuthur strwythurau ystrwythur
+94	794	mewnol	fewnol
+95	795	lan	
+96	796	ymdrech	hymdrech ymdrechion
+97	797	baner	baneri faner maner
+98	798	cerbyd	cerbydau cherbyd gerbyd
+99	799	cylchgrawn	chylchgrawn cylchgronau cylchgronnau gylchgrawn nghylchgrawn
+100	800	gwrando	gwarandewais gwarandewaist gwarandewch gwarandewi gwarandewir gwranda gwrandawadwy gwrandawaf gwrandawai gwrandawant gwrandawech gwrandawedig gwrandawem gwrandawent gwrandawn gwrandawo gwrandawoch gwrandawodd gwrandawsant gwrandawsoch gwrandawyd gwrandewch gwrando'n gwrando'r gwrandwch gwrendy wrando

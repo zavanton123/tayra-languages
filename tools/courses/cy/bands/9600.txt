@@ -1,0 +1,100 @@
+1	9501	gwasgarog	wasgarog
+2	9502	sebwm	
+3	9503	blogiwr	blogwyr flogiwr
+4	9504	berwr	berwren berwy beryren
+5	9505	feirol	
+6	9506	bariwm	
+7	9507	plycio	phlycio
+8	9508	drwgdybiaeth	
+9	9509	ffynidwydd	ffynidwydden
+10	9510	gwanllyd	
+11	9511	gwâr	gwarach gwaraf wâr
+12	9512	cyd-aelod	gyd-aelodau
+13	9513	ymffrost	ymffrostiau
+14	9514	morâl	
+15	9515	gwaelu	waelu
+16	9516	difreinio	difreiniwyd
+17	9517	didostur	ddidostur
+18	9518	awchus	
+19	9519	heidiol	
+20	9520	mewnrwyd	mewnrwydi
+21	9521	penysgafn	benysgafn penysgawn
+22	9522	ofari	ofarïau
+23	9523	amlweddog	
+24	9524	argraffiadaeth	
+25	9525	sboner	sboneri sboners
+26	9526	anufuddhau	
+27	9527	di-raen	ddi-raen
+28	9528	gyriad	gyriadau yriad
+29	9529	malurio	maluriaf maluriwch
+30	9530	anadnabyddus	
+31	9531	gwreiddioldeb	gwreiddioldebau wreiddioldeb
+32	9532	ailbenodi	ailbenodwyd
+33	9533	tetrahedron	
+34	9534	tampio	dampio tampan tampiaf tampo
+35	9535	cadarnwedd	
+36	9536	allwthio	allwthi allwthia allwthiaf allwthiai allwthiais allwthiaist allwthiant allwthiech allwthiem allwthient allwthioch allwthiodd allwthir allwthiwch allwthiwn allwthiwyd
+37	9537	gwawdlyd	wawdlyd
+38	9538	fflworin	ffluorin fflẅorin
+39	9539	diysgog	ddiysgog
+40	9540	melodi	melodïau
+41	9541	cyd-actor	chyd-actorion
+42	9542	paratoadol	baratoadol
+43	9543	bywiogi	fywiogodd
+44	9544	gwatwarus	watwarus
+45	9545	deialu	ddeialu
+46	9546	chwaraeydd	
+47	9547	cymedrolwr	cymedrolwyr gymedrolwr
+48	9548	dyroddi	ddyroddi
+49	9549	gwaradwyddus	gwradwyddus
+50	9550	mnemonig	mnemonigion
+51	9551	ffurfwisg	ffurfwisgoedd
+52	9552	rhyddfreiniad	
+53	9553	rhesen	
+54	9554	gwaddoli	waddolai
+55	9555	diffreithiant	
+56	9556	draenogyn	ddraenogyn draenogiaid
+57	9557	gochel	gochela gocheladwy gochelaf gochelai gochelais gochelaist gochelant gochelech gocheledig gochelem gochelent gocheli gochelir gochelo gocheloch gochelodd gochelwch gochelwn gochelwyd gochelyd gochlyd gwachel ochel
+58	9558	gwyddon	gwyddom gwyddonod
+59	9559	galler	aller gallaf
+60	9560	tes	des tesoedd thes
+61	9561	sigl	
+62	9562	tangnefeddus	
+63	9563	saithdeg	
+64	9564	dyhuddo	
+65	9565	afrywiog	afrywog
+66	9566	afradlonedd	
+67	9567	cyflafareddiad	cyflafareddiadau
+68	9568	cyd-drefnu	
+69	9569	ysol	
+70	9570	ymrithio	
+71	9571	elusendy	elusendai
+72	9572	celc	
+73	9573	anghymdeithasol	
+74	9574	lleuen	
+75	9575	anrhaith	anrheithiau
+76	9576	cynffig	
+77	9577	aml-chwaraeon	
+78	9578	diymwad	
+79	9579	mewnfudiad	
+80	9580	nytmeg	nytmegen nytmegs nytmig
+81	9581	dunoding	
+82	9582	adarydd	adaryddion
+83	9583	meth	methion
+84	9584	galilea	
+85	9585	adaregydd	adaregwyr
+86	9586	triagl	thriagl triag triagloedd trieg triegl triogl
+87	9587	pontypwl	
+88	9588	di-flas	
+89	9589	awrwydr	
+90	9590	preselau	
+91	9591	gwareiddiedig	
+92	9592	llanfairpwll	
+93	9593	hoetian	hoeti hoetia hoetiadwy hoetiaf hoetiai hoetiais hoetiaist hoetiant hoetiech hoetiedig hoetiem hoetient hoetio hoetioch hoetiodd hoetir hoetiwch hoetiwn hoetiwyd
+94	9594	adfach	adfachau adfachyn
+95	9595	cysgodfa	
+96	9596	hudlath	hudlathau
+97	9597	ensyniad	
+98	9598	cwlff	clwff cwlffiau cwlffyn cylffau cyllfyn
+99	9599	afrealistig	
+100	9600	cadlas	cadlasau cadlesi gadlas

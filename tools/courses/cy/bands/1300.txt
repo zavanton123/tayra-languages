@@ -1,0 +1,100 @@
+1	1201	ymennydd	hymennydd ymenyddiau
+2	1202	beirniad	beirniaid feirniad meirniad
+3	1203	symbol	sumbol symbolau
+4	1204	perthnasol	berthnasol pherthnasol
+5	1205	haen	haenau haenen
+6	1206	cof	chof cofion gof nghof
+7	1207	olwyn	olwynion
+8	1208	cawn	chawn gawn
+9	1209	annibyniaeth	hannibyniaeth
+10	1210	siwgr	siwgrau siwgroedd siwgwr
+11	1211	amgylchedd	amgylcheddau hamgylchedd
+12	1212	cyhoeddiad	chyhoeddiad chyhoeddiadau cyhoeddiadau gyhoeddiad gyhoeddiadau nghyhoeddiad nghyhoeddiadau
+13	1213	cysyniad	chysyniad cysyniadau gysyniad
+14	1214	côr	chôr corau gôr nghôr
+15	1215	cod	chod codau codiff codith cwyd god
+16	1216	uno	huned huno huno'n hunwyd una unadwy unaf unai unais unaist unan unant unech unem unen unent unes unet uni unir unit uno'n uno'r unoch unodd unsen unwch unwn unwyd
+17	1217	sylwi	sylwa sylwadwy sylwaf sylwai sylwais sylwaist sylwant sylwch sylwech sylwedig sylwem sylwent sylwer sylwir sylwn sylwo sylwoch sylwodd sylwsant sylwsoch sylwyd
+18	1218	llifo	lifo llifa llifadwy llifaf llifai llifais llifaist llifant llifech llifedig llifem llifent llifi llifir llifo'n llifoch llifodd llifwch llifwn llifwyd
+19	1219	buddugoliaeth	buddugoliaethau fuddugoliaeth
+20	1220	ymerodraeth	hymerodraeth ymerodraethau ymherodraeth
+21	1221	penderfyniad	benderfyniad mhenderfyniad penderfyniadau phenderfyniad
+22	1222	dwyreiniol	ddwyreiniol
+23	1223	sianel	sianelau sianeli
+24	1224	arglwydd	arglwyddi harglwydd
+25	1225	techneg	dechneg technegau thechneg
+26	1226	gwleidydd	gwleidyddion wleidydd
+27	1227	metel	fetel metal metalau metelau
+28	1228	llwyth	llwythau llwythi lwyth
+29	1229	can	caniau cannach cannaf chan
+30	1230	do	ddo do'r no
+31	1231	brenhines	breninesau frenhines
+32	1232	hyfforddiant	
+33	1233	sylfaen	sylfeini
+34	1234	tabl	dabl nhabl tablau thabl
+35	1235	llosgi	llosga llosgadwy llosgaf llosgai llosgais llosgaist llosgant llosgech llosgedig llosgem llosgent llosgi'i llosgi'n llosgi'r llosgir llosgo llosgoch llosgodd llosgwch llosgwn llosgwyd llysg losgi
+36	1236	pâr	barau bariau bâr parau peirau peiri phâr
+37	1237	egni	egni'n egni'r egnïoedd egnïon hegni
+38	1238	ongl	onglau
+39	1239	gweriniaeth	gweriniaethau ngweriniaeth weriniaeth
+40	1240	cadarn	cadarnach cadarnaf cadarnion cedeirn cedyrn chadarn gadarn
+41	1241	perchennog	berchennog perchnoges perchnogion pherchennog
+42	1242	gwenu	gwena gwenadwy gwenaf gwenai gwenais gwenaist gwenan gwenant gwenasant gwenech gwened gwenedig gwenem gwenen gwenent gweni gwenir gweno gwenoch gwenodd gwenu'n gwenwch gwenwn gwenwyd wenu
+43	1243	reidio	reidiaf reidio'i reidio'n reidio'r reidiodd reido
+44	1244	dant	daint danheddau dannedd ddant
+45	1245	gwag	gwacach gwacaf wag
+46	1246	cerdyn	carden cardiau cardyn cherdyn gerdyn
+47	1247	enillydd	enillwyr
+48	1248	caru	cara caradwy caraf carai carais caraist caran carant caraswn carech carem caren carent cares carest caret cari cariff carith caro caroch carodd caron carsen carset caru'ch caru'r carwch carwn carwyd cerais ceraist ceri ceri'n cerwch cerynt charu câr garu geri gâr ngharu
+49	1249	anghywir	anghywirach anghywiraf anghywirion
+50	1250	damcaniaeth	damcaniaethau ddamcaniaeth namcaniaeth
+51	1251	traethawd	draethawd nhraethawd thraethawd traethodau
+52	1252	torf	dorf thorf torfau torfeydd torfoedd
+53	1253	bwriadu	bwriada bwriadadwy bwriadaf bwriadai bwriadant bwriadech bwriadedig bwriadem bwriadent bwriadir bwriado bwriadoch bwriadodd bwriadwch bwriadwn bwriadwyd bwriedais bwriedaist bwriedi bwriedid bwriedir bwriedwch fwriadu
+54	1254	datganiad	datganiadau ddatganiad natganiad
+55	1255	peintio	baentiodd baentiwyd beintio paentiai paentio paentio'n paentio'r paentiodd paentiwyd peinti peintia peintiadwy peintiaf peintiai peintiais peintiaist peintiant peintiech peintiedig peintiem peintient peintio'n peintio'r peintioch peintiodd peintir peintiwch peintiwn peintiwyd peinto phaentio phaentiodd pheintio
+56	1256	prynhawn	brynhawn p'nawn phrynhawn prydnawn prynhawnau prynhawniau
+57	1257	coron	choron coronau goron
+58	1258	bwyty	bwytai bwyty'n fwytai fwyty mwyty
+59	1259	bwrdeistref	bwrdeistrefi bwrdeistrefydd fwrdeistref mwrdeistref
+60	1260	parch	barch parchau peirch pharch
+61	1261	gorffennol	ngorffennol orffennol
+62	1262	tocyn	docyn thocyn tocynion tocynnau tocynnod tocyns
+63	1263	anfantais	anfanteision
+64	1264	alcohol	alcoholau
+65	1265	camera	camera'n camerau camerâu chamera gamera nghamera
+66	1266	theori	theorïau
+67	1267	gweithred	gweithredau gweithrededd gweithrediau gweithredion gweithredoedd gweithredon weithred
+68	1268	deheuol	ddeheuol
+69	1269	iâr	giâr ieir
+70	1270	trio	drio tria triadwy triaf triai triais triaist triant triech tried triedig triem trient trier trio'n trioch triodd trir triwch triwn triwyd
+71	1271	anghofio	anghofi anghofia anghofiaf anghofiai anghofiais anghofiaist anghofiant anghofiech anghofiem anghofient anghofio'i anghofio'r anghofioch anghofiodd anghofion anghofir anghofiwch anghofiwn anghofiwyd hanghofio
+72	1272	sgorio	sgori sgoria sgoriadwy sgoriaf sgoriai sgoriais sgoriaist sgoriant sgoriech sgoriedig sgoriem sgorient sgorio'n sgorio'r sgorioch sgoriodd sgorir sgoriwch sgoriwn sgoriwyd
+73	1273	arlywydd	arlywyddion
+74	1274	tymheredd	dymheredd nhymheredd thymheredd tymereddau
+75	1275	ffatri	ffactri ffatri'n ffatrioedd ffatrïau ffatrïoedd
+76	1276	pysgodyn	pysgod
+77	1277	dathlu	dathla dathlaf dathlodd dathlu'n dathlu'r dathlwch dathlwyd ddathlid ddathlir ddathlodd ddathlu ddathlwyd dethlir
+78	1278	pymtheg	bymtheg phymtheg
+79	1279	dyluniad	ddyluniad ddyluniadau dyluniadau nyluniad
+80	1280	storm	stormen stormydd storom ystorm
+81	1281	dinistrio	ddinistrio dinistri dinistria dinistriadwy dinistriaf dinistriai dinistriais dinistriaist dinistriant dinistriasant dinistrid dinistriech dinistriedig dinistriem dinistrient dinistrio'i dinistrio'n dinistrio'r dinistrioch dinistriodd dinistrir dinistriwch dinistriwn dinistriwyd
+82	1282	artistia	artistiaid
+83	1283	anafu	anafa anafaf anafai anafais anafant anafech anafedig anafem anafent anafes anafo anafoch anafodd anafu'n anafu'r anafwch anafwn anafwyd anefais anefaist anefi anefir anefwch hanafu
+84	1284	tywysog	dywysog thywysog tywysoges tywysogion
+85	1285	cyfansoddi	chyfansoddi chyfansoddodd chyfansoddwyd cyfansoddaf cyfansoddi'n cyfansoddi'r cyfansoddir cyfansoddodd cyfansoddwyd gyfansoddai gyfansoddi gyfansoddir gyfansoddodd gyfansoddwyd
+86	1286	eiliad	eiliadau
+87	1287	rhannol	rannol
+88	1288	gwaeth	waeth
+89	1289	mur	fur muriau
+90	1290	gwahardd	gwahardda gwaharddadwy gwaharddaf gwaharddai gwaharddant gwaharddech gwaharddedig gwaharddem gwaharddent gwaharddir gwaharddo gwaharddoch gwaharddodd gwaharddwch gwaharddwn gwaharddwyd gwaherddais gwaherddaist gwaherddi gwaherddid gwaherddir gwaherddwch wahardd
+91	1291	golygydd	golygwyr golygyddion olygydd
+92	1292	cap	capau capiau chap gap
+93	1293	glan	glannau glennydd nglan
+94	1294	arwyneb	arwynebau arwynebion harwyneb
+95	1295	cymysg	chymysg gymysg
+96	1296	crug	crugen crugiau crugyn grug rug
+97	1297	ffrog	ffrogiau
+98	1298	rŵan	ŵan
+99	1299	pen-blwydd	ben-blwydd benblwyddi pen-blwyddi penblwydd penblwyddi phen-blwydd phenblwyddi
+100	1300	hwnna	hwnna'n hwnna'r

@@ -1,0 +1,100 @@
+1	7401	hindreulio	
+2	7402	hili	hiliau
+3	7403	daliadaeth	daliadaethau ddaliadaeth
+4	7404	awtomeiddio	
+5	7405	diflanedig	ddiflanedig
+6	7406	atalnodi	
+7	7407	di-rym	ddi-rym dirym
+8	7408	achrediad	
+9	7409	brasamcan	brasamcanion frasamcan
+10	7410	esgynnydd	esgynyddion
+11	7411	cobra	cobraod
+12	7412	ffracsiynol	
+13	7413	picsel	bicseli picseli
+14	7414	bridwr	bridwyr
+15	7415	integrol	
+16	7416	atseinio	atseini atseinia atseiniadwy atseiniaf atseiniai atseiniais atseiniaist atseiniant atseiniech atseiniedig atseiniem atseinient atseinioch atseiniodd atseinir atseiniwch atseiniwn atseiniwyd
+17	7417	duwioldeb	dduwioldeb
+18	7418	alcen	alcenau
+19	7419	bidog	bidag bideg bidogau fidog
+20	7420	cyffesu	cyffesa cyffesadwy cyffesaf cyffesais cyffesaist cyffesant cyffesedig cyffesi cyffesir cyffeso cyffesoch cyffesodd cyffeswch cyffeswyd
+21	7421	stwnsh	
+22	7422	priodfab	phriodfab priodfaib priodfeibion
+23	7423	tyddynnwr	tyddynwyr
+24	7424	sgwrio	
+25	7425	hydredol	
+26	7426	cadernid	
+27	7427	cynrychioliadol	
+28	7428	simsan	
+29	7429	jeti	jetiau
+30	7430	awtistiaeth	
+31	7431	analluogi	analluogi'r
+32	7432	monitor	fonitor monitorau
+33	7433	cyfnos	cyfnosau
+34	7434	ail-wneud	ail-wnaf
+35	7435	gwefreiddiol	wefreiddiol
+36	7436	tanodd	
+37	7437	anweladwy	
+38	7438	mesa	mesadwy mesaf mesais mesaist mesant mesedig mesi mesir meso mesoch mesodd meswch meswyd
+39	7439	stampio	stampio'n
+40	7440	trosiant	drosiant
+41	7441	ysbeiliwr	ysbeilwyr
+42	7442	lleden	lledennig lledod
+43	7443	diymhongar	ddiymhongar
+44	7444	cydwladwr	cydwladwyr gydwladwyr
+45	7445	bywiogrwydd	fywiogrwydd mywiogrwydd
+46	7446	dirymu	ddirymu dirymio dirymuaf dirymwyd
+47	7447	deddfwr	deddfwyr
+48	7448	cronoleg	gronoleg
+49	7449	cysuro	chysuro cysuraf cysurio cysuro'i cysuru gysuro
+50	7450	trawsnewidiol	drawsnewidiol thrawsnewidiol
+51	7451	lluniadu	lluniadodd
+52	7452	cofrestrfa	cofrestrfeydd gofrestrfa nghofrestrfa
+53	7453	tusw	tuswau tuswyn tuswâu
+54	7454	parlysu	barlysu
+55	7455	milfeddygol	filfeddygol
+56	7456	cynaliadwyedd	chynaliadwyedd
+57	7457	is-raddedig	is-raddedigion
+58	7458	danteithfwyd	danteithion ddanteithion
+59	7459	pyg	byg
+60	7460	draen	ddraen dreiniau traen
+61	7461	trawsffurfiad	drawsffurfiadau trawsffurfiadau
+62	7462	dirmygus	ddirmygus
+63	7463	herwr	herwyr
+64	7464	gwaled	gwaledau gwaledi waled
+65	7465	gwyntyll	gwyntyllau
+66	7466	achyddol	
+67	7467	rhadlon	rhadlawn
+68	7468	astud	
+69	7469	amherffaith	amherffeithach amherffeithaf amherffeithion
+70	7470	bylbi	bylbiau
+71	7471	cyfosod	cyfosoda cyfosodaf cyfosodai cyfosodais cyfosodaist cyfosodant cyfosodech cyfosodedig cyfosodem cyfosodent cyfosodi cyfosodir cyfosodo cyfosodoch cyfosododd cyfosodwch cyfosodwn cyfosodwyd gyfosod
+72	7472	sbeislyd	ysbeislyd
+73	7473	helm	helmau helmydd
+74	7474	topio	dopio
+75	7475	difaterwch	
+76	7476	newidydd	newidyddion
+77	7477	safonedig	
+78	7478	jar	jariau
+79	7479	ailymgnawdoliad	ailymgnawdoliadau
+80	7480	ysgrifbin	sgrifbin ysgrifbinnau
+81	7481	fflachiad	fflachiadau
+82	7482	chwithig	
+83	7483	ffolineb	ffolinebau
+84	7484	pad	padiau
+85	7485	ciwt	giwt
+86	7486	clecian	glecian
+87	7487	medrusrwydd	fedrusrwydd
+88	7488	cyd-dynnu	chyd-dynnu
+89	7489	antholeg	antholegau
+90	7490	bustl	bustlau fustl
+91	7491	trombôn	drombôn trombonau
+92	7492	cactws	cacti
+93	7493	pryfocio	bryfocio
+94	7494	trosiadol	drosiadol
+95	7495	berfol	ferfol
+96	7496	campus	campusach campusaf gampus
+97	7497	llythrennog	lythrennog
+98	7498	ymgynghorwr	ymgynghorwyr
+99	7499	cedrwydd	cedrwydden gedrwydd
+100	7500	drifft	ddrifft

@@ -1,0 +1,100 @@
+1	3901	gormes	ormes
+2	3902	tiriogaethol	diriogaethol thiriogaethol
+3	3903	fferi	fferris
+4	3904	nenfwd	nen-fwd nenfwdau nenfydau
+5	3905	annerch	anercha anerchaf anerchai anerchais anerchaist anerchant anerchech anerchedig anerchem anerchent anerchi anerchir anercho anerchoch anerchodd anerchwch anerchwn anerchwyd
+6	3906	polyhedron	bolyhedron bolyhedronau polyhedronau
+7	3907	cywiro	cywira cywiradwy cywirai cywirais cywiraist cywirant cywirech cywiredig cywirem cywirent cywiri cywirir cywiro'r cywiroch cywirodd cywirwch cywirwn cywirwyd gywiro
+8	3908	brêc	breciau brâc brêcs frêc
+9	3909	nionyn	nionod
+10	3910	ymylol	
+11	3911	losin	losinen
+12	3912	hwylus	
+13	3913	anweledig	
+14	3914	cynifer	chynifer gynifer
+15	3915	hirsgwar	hirsgwarau hirsgwariau
+16	3916	ymgynghori	ymgynghora ymgynghoradwy ymgynghoraf ymgynghorai ymgynghorais ymgynghoraist ymgynghorant ymgynghorech ymgynghoredig ymgynghorem ymgynghorent ymgynghorir ymgynghoro ymgynghoroch ymgynghorodd ymgynghorwch ymgynghorwn ymgynghorwyd
+17	3917	teyrnasu	deyrnasai deyrnasodd deyrnasu teyrnasodd theyrnasodd
+18	3918	bonws	fonws
+19	3919	anghyflawn	anghyflawnion
+20	3920	cyfyng	chyfyng cyfyngach gyfyng
+21	3921	presbyteraidd	bresbyteraidd
+22	3922	llyfryddiaeth	llyfryddiaethau
+23	3923	cysylltiol	gysylltiol
+24	3924	cymdeithaseg	chymdeithaseg gymdeithaseg
+25	3925	carped	carpedi charped garped
+26	3926	hael	haelach haelaf haelion
+27	3927	cyfryw	gyfryw
+28	3928	plismon	blismon plisman plismyn
+29	3929	cowboi	cowboi'n cowbois gowboi
+30	3930	robot	robotau robotiaid
+31	3931	tristwch	dristwch thristwch
+32	3932	ymroi	ymroddaf ymroddi ymroddodd ymrof ymroi'n
+33	3933	ffermdy	ffermdai ffermdy'n
+34	3934	galluog	alluog galluogion
+35	3935	llofrudd	llofruddion llofruddwyr lofrudd
+36	3936	cwrtais	chwrtais gwrtais
+37	3937	traddodi	draddodi draddodwyd thraddodi thraddodid thraddododd thraddodwyd traddodir traddododd traddodwyd
+38	3938	paham	
+39	3939	lleferydd	leferydd llafaredd lleferyddion
+40	3940	rhewlif	rewlif rhewlifoedd
+41	3941	cadoediad	cadoediadau chadoediad gadoediad
+42	3942	erw	erw'r erwau herw
+43	3943	digid	ddigid digidau
+44	3944	dof	ddof dofach dofaf dofion
+45	3945	cyffin	cyffiniau cyffinydd gyffin
+46	3946	mynych	fynych mynychach mynychaf mynychion
+47	3947	isomorffedd	isomorffeddau
+48	3948	boddhaol	foddhaol
+49	3949	eidion	eidionnau
+50	3950	bancio	bancia banciadwy banciaf banciai banciant banciech banciedig banciem bancient bancio'r bancioch banciodd banciwch banciwn banciwyd benci benciais benciaist benciech bencir benciwch fancio
+51	3951	pêr	bêr fêr mêr perach peraf peren perion
+52	3952	awdurdodol	
+53	3953	cyfiawnhau	cyfiawnha cyfiawnhadwy cyfiawnhaech cyfiawnhaem cyfiawnhaent cyfiawnhaf cyfiawnhao cyfiawnhaoch cyfiawnhaodd cyfiawnhau'r cyfiawnhawn cyfiawnhawyd cyfiawnheais cyfiawnheaist cyfiawnhedig cyfiawnhei cyfiawnheir cyfiawnhewch cyfiawnhâi cyfiawnhânt gyfiawnhau
+54	3954	cloddfa	cloddfa'r cloddfaoedd cloddfeydd cloddfâu gloddfa
+55	3955	coedwigaeth	choedwigaeth goedwigaeth
+56	3956	uchafswm	uchafsymiau
+57	3957	democrat	ddemocrat democratiaid
+58	3958	meirionnydd	feirionnydd
+59	3959	ynyswr	ynyswraig ynyswyr
+60	3960	gawdurdodaeth	awdurdodaeth
+61	3961	etifeddol	
+62	3962	addurnol	
+63	3963	teip	deip deipiau nheip
+64	3964	llyncu	llwnc llynca llyncadwy llyncaf llyncai llyncais llyncaist llyncant llyncech llyncedig llyncem llyncent llynci llyncir llynco llyncoch llyncodd llyncwch llyncwn llyncwyd lyncu
+65	3965	clerigwr	chlerigwr clerigwyr glerigwr
+66	3966	glasoed	
+67	3967	gwiwer	gwiwerod wiwer
+68	3968	llinol	linol
+69	3969	paradwys	baradwys paradwysau
+70	3970	mebyd	febyd
+71	3971	neilltu	
+72	3972	realistig	
+73	3973	copïo	chopïo copïa copïaf copïai copïais copïaist copïant copïech copïem copïent copïi copïir copïo'r copïoch copïodd copïwch copïwn copïwyd gopïo
+74	3974	dryll	ddryll drylliau dryllyn
+75	3975	cantor	cantorion chantor
+76	3976	athrofa	athrofa'r athrofeydd
+77	3977	march	farch meirch
+78	3978	aren	arennau
+79	3979	eicon	eiconau
+80	3980	strôc	strociau
+81	3981	moddion	foddion
+82	3982	ymadawiad	
+83	3983	gwddw	gyddfau ngwddw wddw
+84	3984	cystrawen	constrawennau cystrawennau gystrawen gystrawennau
+85	3985	hoffter	hoffterau
+86	3986	llawes	lawes llewys
+87	3987	ataliad	ataliadau
+88	3988	personél	bersonél phersonél
+89	3989	ailddechrau	ailddechreuodd
+90	3990	troellog	droellog throellog
+91	3991	ynghanol	
+92	3992	archesgob	archesgobion archesgyb
+93	3993	ymarferwr	ymarferwyr
+94	3994	groser	
+95	3995	ynysu	hynysu ynysa ynysadwy ynysaf ynysais ynysaist ynysant ynysi ynysir ynyso ynysoch ynysodd ynysu'r ynyswch ynyswyd
+96	3996	arloesi	arloesa arloesadwy arloesaf arloesai arloesais arloesaist arloesant arloesedig arloesi'r arloesir arloeso arloesoch arloesodd arloeswch arloeswyd
+97	3997	di-dor	ddi-dor didor
+98	3998	dieuog	ddieuog
+99	3999	caead	caeadau chaead gaead
+100	4000	gwaywffon	gwaywffyn waywffon

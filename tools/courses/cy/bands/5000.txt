@@ -1,0 +1,100 @@
+1	4901	sylffwr	
+2	4902	sblasio	sblasio'r
+3	4903	ochor	hochor
+4	4904	ysgolfeistr	ysgolfeistres ysgolfeistri
+5	4905	prifathrawes	brifathrawes phrifathrawes prifathrawesau
+6	4906	ffliwt	ffliwtiau
+7	4907	canolradd	chanolradd ganolradd
+8	4908	nodwydd	nodwyddau
+9	4909	hy	hyf hyfach hyfaf hyfion
+10	4910	gŵyr	gwyrach gwyrion ngŵyr
+11	4911	ymbelydrol	
+12	4912	hydoddi	hydodda hydoddadwy hydoddaf hydoddai hydoddais hydoddaist hydoddant hydoddech hydoddem hydoddent hydoddi'n hydoddir hydoddo hydoddoch hydoddodd hydoddwch hydoddwn hydoddwyd
+13	4913	trefniadaeth	drefniadaeth threfniadaeth
+14	4914	manyleb	fanyleb manylebau
+15	4915	asidig	
+16	4916	mawn	fawn mawnen
+17	4917	hiliaeth	
+18	4918	aberth	aberthau ebyrth haberth
+19	4919	llwyfannu	llwyfanaf llwyfanni llwyfannir llwyfannodd lwyfannu
+20	4920	bethesda	fethesda methesda
+21	4921	cwtiad	cwtiaid
+22	4922	enghreifftiol	
+23	4923	graffigol	raffigol
+24	4924	daioni	ddaioni
+25	4925	cynhyrfu	cynhyrfa cynhyrfaf cynhyrfai cynhyrfais cynhyrfaist cynhyrfant cynhyrfech cynhyrfem cynhyrfent cynhyrfi cynhyrfir cynhyrfo cynhyrfoch cynhyrfodd cynhyrfu'n cynhyrfwch cynhyrfwn cynhyrfwyd cynnyrfadwy cynnyrfedig gynhyrfu
+26	4926	gwaered	waered
+27	4927	esblygiadol	
+28	4928	cludwr	cludwyr
+29	4929	archeb	archebion
+30	4930	harmonig	harmonigau
+31	4931	gliniadur	gliniaduron liniadur
+32	4932	ffugio	ffugiodd
+33	4933	perwyl	berwyl pherwyl
+34	4934	bwytadwy	fwytadwy
+35	4935	gwerinwr	gwerinwyr
+36	4936	rhagflaenu	ragflaenodd ragflaenu rhagflaenir rhagflaenodd rhagflaenu'r rhagflaenwyd
+37	4937	darluniadol	ddarluniadol
+38	4938	seicolegydd	seicolegwyr
+39	4939	bwletin	bwletinau fwletin mwletin
+40	4940	ailsefydlu	ailsefydlaf ailsefydlodd ailsefydlu'r ailsefydlwyd hailsefydlu
+41	4941	sboncio	sbonci sboncia sbonciadwy sbonciaf sbonciai sbonciais sbonciaist sbonciant sbonciech sbonciedig sbonciem sboncient sboncioch sbonciodd sboncir sbonciwch sbonciwn sbonciwyd ysboncio
+42	4942	chwim	chwimach chwimaf chwimiau chwimp chwimpyn
+43	4943	pweru	bweru phweru pwera pweraf pwerwch
+44	4944	moderniaeth	foderniaeth
+45	4945	goruchwyliaeth	oruchwyliaeth
+46	4946	moesoldeb	foesoldeb
+47	4947	sgwad	sgwadiau sgwod
+48	4948	cyfaddawd	gyfaddawd
+49	4949	obeutu	biti boiti bwti bythdi byti
+50	4950	anfoneb	anfonebau
+51	4951	tithau	dithau
+52	4952	llus	llusen lus
+53	4953	fforc	ffyrc
+54	4954	mecaneg	fecaneg
+55	4955	mesurydd	fesurydd mesuryddion
+56	4956	dilysu	ddilysu ddilyswyd dilysant dilysu'r dilyswyd
+57	4957	rhyfeddod	rhyfeddodau ryfeddod
+58	4958	terfysgaeth	derfysgaeth therfysgaeth
+59	4959	ymdebygu	ymdebygai ymdebygodd ymdebygu'n
+60	4960	aflem	
+61	4961	petau	petaen
+62	4962	ehangder	eangderau
+63	4963	llewygu	lewygu llewygodd llewygu'n
+64	4964	llawfeddygaeth	lawfeddygaeth llawfeddygiaeth llawfeddyginiaeth
+65	4965	anhapus	anhapusach anhapusaf
+66	4966	ffrithiant	ffrithiannau
+67	4967	dinistriol	ddinistriol dinistrol
+68	4968	lleian	leian lleianod
+69	4969	ymchwydd	ymchwyddiadau
+70	4970	siec	sieciau siecs tsiec
+71	4971	siomi	sioma siomadwy siomaf siomai siomais siomaist siomant siomech siomem sioment siomi'r siomir siomo siomoch siomodd siomwch siomwn siomwyd
+72	4972	rhywioldeb	rhywioldebau rywioldeb
+73	4973	garan	aran garanod
+74	4974	tagell	dagell tagellau tagelli tegyll thagell
+75	4975	rhagfynegi	ragfynegi
+76	4976	nawddsant	nawddsantes nawddseintiau noddsant
+77	4977	pwrs	bwrs mhwrs phwrs pyrsau
+78	4978	cysidro	cysidrir cysidrwyd gysidro gysidrwyd
+79	4979	deifio	daif ddeifio deifi deifia deifiadwy deifiaf deifiai deifiais deifiaist deifiant deifiech deifiedig deifiem deifient deifioch deifiodd deifir deifiwch deifiwn deifiwyd
+80	4980	lleihad	leihad
+81	4981	blog	blogiau flog
+82	4982	dwythell	ddwythell dwythellau
+83	4983	rhywedd	rhyweddau rywedd
+84	4984	cronicl	gronicl nghronicl
+85	4985	crebachu	chrebachodd chrebachu crebachaf crebachu'n crebachu'r crebychu crybychu grebachu
+86	4986	llo	lloeau lloi lo
+87	4987	finegr	gwinegr
+88	4988	ystyrlon	
+89	4989	golosg	golosgion olosg
+90	4990	ysbaid	ysbeidiau ysbeidyn
+91	4991	beiddgar	feiddgar
+92	4992	is-adran	is-adrannau
+93	4993	tocio	docio toci tocia tociadwy tociaf tociai tociais tociaist tociant tociech tociedig tociem tocient tocioch tociodd tocir tociwch tociwn tociwyd
+94	4994	gwyriad	gwyriadau wyriad
+95	4995	anfwriadol	
+96	4996	sylwebaeth	sylwebaethau
+97	4997	deallusrwydd	ddeallusrwydd neallusrwydd
+98	4998	sganio	sganio'n sganio'r
+99	4999	gofodol	ofodol
+100	5000	tiwnio	diwnio tiwnio'n tiwnio'r

@@ -1,0 +1,100 @@
+1	401	pwy	bwy phwy
+2	402	llwybr	llwybrau llwybrwydd llwybrydd lwybr
+3	403	rhywun	rywrai rywun
+4	404	dosbarth	ddosbarth dosbarthau dosbarthion dosbeirth nosbarth
+5	405	tyfu	dyfu thyfu twddu tyddu tyf tyfa tyfadwy tyfaf tyfai tyfais tyfaist tyfant tyfech tyfem tyfent tyfi tyfid tyfir tyfo tyfoch tyfodd tyfu'n tyfu'r tyfwch tyfwn tyfwyd
+6	406	ymhlith	
+7	407	saith	
+8	408	gwleidyddol	wleidyddol
+9	409	cyhoeddus	chyhoeddus gyhoeddus
+10	410	tra	dra thra tra'i tra'n tra'r tra'u
+11	411	problem	broblem phroblem problemau
+12	412	lefel	lefelau leflau
+13	413	dull	ddull dulliau null
+14	414	cymdeithasol	chymdeithasol gymdeithasol
+15	415	efo	efo'i efo'r efo'u hefo
+16	416	lleoli	leoli lleola lleoladwy lleolaf lleolai lleolais lleolaist lleolant lleolech lleoledig lleolem lleolent lleoli'n lleoli'r lleolid lleolir lleolo lleoloch lleolodd lleolwch lleolwn lleolwyd
+17	417	effaith	effeithiau heffaith
+18	418	teimlo	deimlo teimla teimladwy teimlaf teimlai teimlais teimlaist teimlant teimlech teimledig teimlem teimlent teimli teimlir teimlo'n teimlo'r teimloch teimlodd teimlwch teimlwn teimlwyd theimlo
+19	419	astudiaeth	astudiaethau hastudiaeth
+20	420	cychwyn	chychwyn cychwyna cychwynadwy cychwynedig cychwynna cychwynnaf cychwynnai cychwynnais cychwynnaist cychwynnant cychwynnech cychwynnem cychwynnent cychwynni cychwynnid cychwynnir cychwynno cychwynnoch cychwynnodd cychwynnwch cychwynnwn cychwynnwyd cychwynodd cychwynwyd gychwyn nghychwyn
+21	421	rheoli	reoli rheola rheoladwy rheolaf rheolai rheolais rheolaist rheolant rheolech rheoledig rheolem rheolent rheoli'n rheoli'r rheolid rheolir rheolo rheoloch rheolodd rheolwch rheolwn rheolwyd
+22	422	bychan	bechan bychain bychaned fychan lleied
+23	423	golau	golau'n golau'r goleuach goleuaf goleuau goleuon ngolau olau
+24	424	poblogaeth	boblogaeth mhoblogaeth phoblogaeth poblogaethau
+25	425	traws	draws thraws trawsion
+26	426	adeg	adegau
+27	427	canolfan	canolfannau chanolfan ganolfan nghanolfan
+28	428	cae	cae'n cae'r caeau caeiff caeith chae gae nghae
+29	429	dynes	ddynes dynesau
+30	430	band	bandiau fand mand
+31	431	agored	
+32	432	drwg	cynddrwg ddrwg ddrygau drycach drycaf drygion gwaethaf
+33	433	nes	gnes
+34	434	defnydd	ddefnydd defnyddiau
+35	435	penderfynu	benderfynon benderfynu penderfyn penderfyna penderfynadwy penderfynaf penderfynai penderfynais penderfynaist penderfynant penderfynech penderfynedig penderfynem penderfynent penderfyni penderfynir penderfyno penderfynoch penderfynodd penderfynu'n penderfynu'r penderfynwch penderfynwn penderfynwyd phenderfynu
+36	436	pam	bam mham pham
+37	437	rhyddhau	rhyddha rhyddhaech rhyddhaem rhyddhaent rhyddhaf rhyddhao rhyddhaoch rhyddhaodd rhyddhasant rhyddhau'n rhyddhau'r rhyddhawn rhyddhawyd rhyddheais rhyddheaist rhyddhei rhyddheir rhyddhewch rhyddhâi rhyddhânt ryddhau
+38	438	efallai	efallai'n efallai'r
+39	439	cau	au caea caeadwy caeaf caeai caeais caeaist caeant caeech caeem caeent caei caeir caeo caeoch caeodd caeu caewch caewn caewyd cau'n cau'r ceuach ceuaf ceuon chau gau gau'n gau'r
+40	440	gweithredu	gweithreda gweithredadwy gweithredaf gweithredai gweithredais gweithredaist gweithredant gweithredech gweithrededig gweithredem gweithredent gweithredi gweithredir gweithredo gweithredoch gweithredodd gweithredu'n gweithredu'r gweithredwch gweithredwn gweithredwyd weithredu
+41	441	gwerthu	gwertha gwerthadwy gwerthaf gwerthai gwerthais gwerthaist gwerthant gwerthech gwerthedig gwerthem gwerthent gwerthi gwerthir gwertho gwerthoch gwerthodd gwerthu'n gwerthu'r gwerthu'u gwerthwch gwerthwn gwerthwyd werthu
+42	442	nawr	
+43	443	fyny	fyny'n fyny'r
+44	444	brenin	brenhinoedd frenin
+45	445	lladd	ladd lladda lladdadwy lladdaf lladdai lladdant lladdasant lladdech lladdedig lladdem lladdent lladdir lladdo lladdoch lladdodd lladdwch lladdwn lladdwyd lleddais lleddaist lleddi lleddir lleddwch
+46	446	rheilffordd	reilffordd rheilffyrdd
+47	447	tân	dân nhân tanau thân
+48	448	ateb	atab ateba atebadwy atebaf atebai atebais atebaist atebant atebech atebedig atebem atebent atebi atebion atebir atebo ateboch atebodd atebwch atebwn atebwyd etyb hateb
+49	449	rhag	rag rhagddynt rhagoch rhagof rhagom rhagot
+50	450	adnabod	adnabodadwy adnabodedig adnabu adnabuant adnabuesid adnabuoch adnabuwyd adnabydda adnabyddadwy adnabyddaf adnabyddai adnabyddais adnabyddaist adnabyddant adnabyddech adnabyddedig adnabyddem adnabyddent adnabyddi adnabyddid adnabyddir adnabyddo adnabyddoch adnabyddodd adnabyddwch adnabyddwn adnabûm adnapai adnapech adnapem adnapent adnapo adnapoch adnapwn adnebydd adwaen adwaenai adwaenant adwaenech adwaenedig adwaenem adwaenent adwaenid adwaenir adwaenoch adwaenwch adwaenwn adwaenynt adweinaf adweini adweinir adwen edwyn hadnabod
+51	451	penodol	benodol penodolion phenodol
+52	452	coleg	choleg colegau goleg ngholeg
+53	453	cymuned	chymuned cymunedau gymuned nghymuned
+54	454	gwobr	gwobrau gwobrwy gwobrwyon ngwobr wobr
+55	455	isel	isaf
+56	456	busnes	busnesau busnesion busnesoedd busneson fusnes musnes
+57	457	unol	
+58	458	uchaf	huchaf
+59	459	ffrind	ffrindiau ffrinds ffrins ffryns
+60	460	athro	athrawion athrawon athro'r hathro
+61	461	ychwanegu	hychwanegu ychwanega ychwanegadwy ychwanegaf ychwanegai ychwanegais ychwanegaist ychwanegant ychwanegasant ychwanegech ychwanegedig ychwanegem ychwanegent ychwanegi ychwanegir ychwanego ychwanegoch ychwanegodd ychwanegu'n ychwanegu'r ychwanegwch ychwanegwn ychwanegwyd
+62	462	uwch	huwch uch
+63	463	crys	chrys crysan crysau grys
+64	464	hedfan	etfan hedfana hedfanadwy hedfanaf hedfanai hedfanais hedfanaist hedfanant hedfanech hedfanedig hedfanem hedfanent hedfani hedfanir hedfano hedfanoch hedfanodd hedfanwch hedfanwn hedfanwyd
+65	465	blodau	blodau'n blodau'r blodeuyn flodau
+66	466	cynllun	chynllun cynlluniau gynllun nghynllun
+67	467	ymchwil	hymchwil
+68	468	gyrfa	gyrfa'r gyrfaoedd gyrfâu ngyrfa yrfa
+69	469	albwm	albymau halbwm
+70	470	gwyrdd	gwerdd gwyrddach gwyrddaf gwyrddion wyrdd
+71	471	cymeriad	chymeriad cymeriadau gymeriad
+72	472	enwog	enwocach enwocaf enwoced enwogion
+73	473	dylu	deleu dleu dlyu dwlian dyla dyladwy dylaf dylai dylech dyledig dylem dylen dylent dylet dylid dylio dylsai dylwch dylwn dylÿu
+74	474	deall	dallt ddeall ddeallir dealla deallaf deallai deallais deallaist deallant deallasant deallasom deallech dealledig deallem deallent deallir deallo dealloch deallodd deallon deallwch deallwn deallwyd deellais deellaist deelli deellir deellwch dyall neall
+75	475	sylw	sylw'i sylw'r sylwadau sylwau
+76	476	gorllewin	gollewin ngorllewin orllewin
+77	477	teithio	deithio teithia teithiadwy teithiaf teithiai teithiais teithiaist teithiant teithiech teithiedig teithiem teithient teithio'n teithio'r teithioch teithiodd teithir teithiwch teithiwn teithiwyd theithio
+78	478	sioe	sioe'n sioe'r sioeau
+79	479	drama	ddrama ddramau drama'r dramau dramâu nrama
+80	480	hawl	hawliau
+81	481	cylch	chylch cylchau cylchion cylchoedd cylchon gylch nghylch
+82	482	buan	buain buanach buanaf fuan
+83	483	llyn	llynnau llynnoedd lyn
+84	484	cryf	chryf cref cryfach cryfaf cryfion gryf
+85	485	haf	hafau
+86	486	taith	daith nhaith teithiau thaith
+87	487	pêl-droed	bêl-droed mhêl-droed phêl-droed
+88	488	pell	bell pellach pellaf
+89	489	wal	waliau welydd
+90	490	agos	
+91	491	megis	
+92	492	ymyl	hymyl ymylau ymylon
+93	493	golwg	golygon ngolwg olwg
+94	494	castell	castelli cestyll chastell gastell nghastell
+95	495	dillad	ddillad nillad
+96	496	tan	tanoch tanof tanom tanot tanynt than
+97	497	dwyrain	ddwyrain nwyrain
+98	498	adnabyddus	
+99	499	ymuno	ymuna ymunadwy ymunaf ymunai ymunais ymunaist ymunant ymunech ymunedig ymunem ymunent ymuni ymunir ymuno'n ymuno'r ymunoch ymunodd ymunwch ymunwn ymunwyd
+100	500	rhydd	rhyddach rhyddaf rhyddion rydd

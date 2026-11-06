@@ -1,0 +1,100 @@
+1	4801	gofyniad	gofyniadau ofyniad
+2	4802	hydawdd	
+3	4803	preswylfa	breswylfa phreswylfa preswylfa'r preswylfeydd
+4	4804	trai	drai
+5	4805	ffrwydrol	
+6	4806	twrnameinti	twrnameintiau
+7	4807	larfa	larfa'n larfae larfâu
+8	4808	consensws	gonsensws
+9	4809	cadarnhad	chadarnhad gadarnhad nghadarnhad
+10	4810	llofnod	llofnodion lofnod
+11	4811	niwclews	niwcleysau niwclysau
+12	4812	peryglu	beryglu peryglu'r
+13	4813	doeth	ddoeth doethach doethaf doethion
+14	4814	dawnsfe	dawnsfeydd
+15	4815	baled	baledi faled
+16	4816	dywediad	ddywediad dywediadau
+17	4817	glofaol	lofaol
+18	4818	hoffus	hoffusion
+19	4819	dolffin	ddolffin dolffiniaid
+20	4820	deuaidd	ddeuaidd
+21	4821	cochlea	cochleâu
+22	4822	blaenor	blaenoriaid flaenor
+23	4823	marmor	farmor marmorau
+24	4824	cyfnewidiol	gyfnewidiol
+25	4825	lansiad	lansiadau
+26	4826	echdynnu	echdynnu'r echdynnwyd
+27	4827	bragu	bragio brago brecâf fraga fragu
+28	4828	perth	berth perthi pherth
+29	4829	hunangynhaliol	
+30	4830	gwerthfawrogiad	gwerthfawrogiadau werthfawrogiad
+31	4831	cyfog	chyfog gyfog
+32	4832	meddw	feddw meddwach meddwon
+33	4833	aradr	erydr
+34	4834	llifio	lifio llifia llifiadwy llifiaf llifiai llifiais llifiaist llifiant llifiech llifiedig llifiem llifient llifioch llifiodd llifiwch llifiwn llifiwyd
+35	4835	enwol	
+36	4836	gamblo	gamblo'n
+37	4837	ffoton	ffotonau
+38	4838	croestoriad	croestoriadau groestoriad
+39	4839	fframio	ffram fframia fframiadwy fframiaf fframiai fframiant fframiech fframiedig fframiem fframient fframio'r fframioch fframiodd fframiwch fframiwn fframiwyd ffremi ffremiais ffremiaist ffremiech ffremir ffremiwch
+40	4840	darogan	darogana daroganadwy daroganaf daroganai daroganant daroganau daroganech daroganedig daroganem daroganent darogano daroganoch daroganodd daroganwch daroganwn daroganwyd darogenais darogenaist darogeni darogenir darogenwch ddarogan
+41	4841	rhuthun	ruthun
+42	4842	comiwnyddiaeth	chomiwnyddiaeth gomiwnyddiaeth
+43	4843	cynaliadwy	chynaliadwy gynaliadwy
+44	4844	ffilament	ffilamentau
+45	4845	cnaf	cnafes cnafon cnafyn gnaf
+46	4846	rhesymu	resymu rhesymaf
+47	4847	isradd	israddau
+48	4848	gwesteiwr	gwesteiwyr westeiwr
+49	4849	postio	phostio postadwy postedig posti postia postiadwy postiaf postiai postiais postiaist postiant postiech postiedig postiem postient postioch postiodd postir postiwch postiwn postiwyd posto
+50	4850	eisteddle	eisteddle'r eisteddleoedd
+51	4851	adleoli	adleola adleoladwy adleolaf adleolai adleolais adleolaist adleolant adleolech adleoledig adleolem adleolent adleoli'r adleolir adleolo adleoloch adleolodd adleolwch adleolwn adleolwyd hadleoli
+52	4852	dwrn	ddwrn dyrnau nwrn
+53	4853	ysbardun	sbardun ysbardunau
+54	4854	anghydraddoldeb	anghydraddoldebau
+55	4855	dibwys	ddibwys
+56	4856	cylchredeg	chylchredeg gylchredai gylchredeg
+57	4857	diplomydd	ddiplomydd diplomyddion
+58	4858	adeiledig	
+59	4859	unedol	
+60	4860	golygiad	golygiadau
+61	4861	ad-drefnu	ad-drefn ad-drefna ad-drefnadwy ad-drefnaf ad-drefnai ad-drefnais ad-drefnaist ad-drefnant ad-drefnech ad-drefnedig ad-drefnem ad-drefnent ad-drefni ad-drefnir ad-drefno ad-drefnoch ad-drefnodd ad-drefnu'r ad-drefnwch ad-drefnwn ad-drefnwyd had-drefnu
+62	4862	gogoneddus	ogoneddus
+63	4863	paralelogram	baralelogram paralelogramau
+64	4864	jeli	jeli'r jelis sieli
+65	4865	hysbysiad	hysbysiadau
+66	4866	annhebyg	annhebycach annhebycaf
+67	4867	drafftio	ddrafftio drafftiaf drafftio'r drafftiodd
+68	4868	patrôl	batrôl patrolau phatrôl
+69	4869	bwth	bythau bythod fwth
+70	4870	ciwb	ciwbiau giwb
+71	4871	cynllunydd	chynllunydd gynllunydd
+72	4872	prism	brism prismau
+73	4873	goddef	goddefa goddefadwy goddefaf goddefai goddefais goddefaist goddefant goddefech goddefedig goddefem goddefent goddefi goddefir goddefo goddefoch goddefodd goddefwch goddefwn goddefwyd oddef
+74	4874	saib	seibiau
+75	4875	terminoleg	derminoleg
+76	4876	rhagolwg	rhagolygon
+77	4877	gwarchodaeth	warchodaeth
+78	4878	parlys	barlys
+79	4879	ysgrythur	sgrythur ysgrythurau
+80	4880	cymodi	cymodi'r cymodwyd gymodi
+81	4881	ymrwymo	ymrwyma ymrwymadwy ymrwymaf ymrwymai ymrwymais ymrwymaist ymrwymant ymrwymech ymrwymedig ymrwymem ymrwyment ymrwymi ymrwymir ymrwymo'n ymrwymo'r ymrwymoch ymrwymodd ymrwymwch ymrwymwn ymrwymwyd
+82	4882	fitamin	fitaminau fitaminiau
+83	4883	boneddigaidd	foneddigaidd
+84	4884	myfi	
+85	4885	siwtio	siwtiai
+86	4886	pesgi	besgi pesgid pesgir
+87	4887	amherthnasol	
+88	4888	adwy	adwy'r adwyau adwyon
+89	4889	raced	racedi
+90	4890	dangosydd	dangosyddion ddangosydd ddangosyddion
+91	4891	gwasgar	wasgar
+92	4892	hamddenol	
+93	4893	trawsnewidiad	drawsnewidiad trawsnewidiadau
+94	4894	bragdy	bragdai
+95	4895	arolygu	arolyga arolygadwy arolygaf arolygai arolygais arolygaist arolygant arolygech arolygedig arolygem arolygent arolygi arolygir arolygo arolygoch arolygodd arolygu'r arolygwch arolygwn arolygwyd harolygu
+96	4896	difodiant	ddifodiant difodiannau
+97	4897	gwystl	gwystlon wystl
+98	4898	blaenwr	blaenwyr flaenwyr
+99	4899	putain	butain phutain puteiniaid
+100	4900	optimeiddio	optimeiddiaf optimeiddio'r

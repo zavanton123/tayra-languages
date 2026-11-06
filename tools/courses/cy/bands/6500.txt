@@ -1,0 +1,100 @@
+1	6401	rhuthr	rhuthrau ruthr
+2	6402	tiwbaidd	
+3	6403	stwffio	
+4	6404	deublyg	ddeublyg
+5	6405	aromatig	
+6	6406	gorffeniad	orffeniad orffeniadau
+7	6407	tirlunio	dirlunio thirlunio
+8	6408	llywyddu	llywydda
+9	6409	ffeilio	ffeiliodd ffeiliwyd
+10	6410	garddwriaeth	arddwriaeth
+11	6411	ysgrifeniad	ysgrifeniadau
+12	6412	uchelwydd	
+13	6413	unarddeg	
+14	6414	di-rif	di-ri dirif
+15	6415	porthor	porthorion
+16	6416	bancwr	bancer bancwyr
+17	6417	croesgad	croesgadau groesgad
+18	6418	tanbaid	danbaid tanbeidion tanbeitach tanbeitaf thanbaid
+19	6419	pumawd	bumawd phumawd pumawdau
+20	6420	grugiar	grugieir rugiar
+21	6421	gymnastwr	gymnastiwr gymnastwyr
+22	6422	cyd-ddisgybl	chyd-ddisgyblion cyd-ddisgyblion gyd-ddisgybl gyd-ddisgyblion
+23	6423	lleiandy	leiandy lleiandai lleiandy'r
+24	6424	cigfran	cigfrain gigfran
+25	6425	taflod	daflod taflodau taflodydd thaflod
+26	6426	nage	
+27	6427	imâm	
+28	6428	rhewgell	rewgell rhewgelloedd
+29	6429	twtio	thwtio twti twtia twtiadwy twtiaf twtiai twtiais twtiaist twtiant twtiech twtiedig twtiem twtient twtii twtiir twtioch twtiodd twtiwch twtiwn twtiwyd
+30	6430	ymdreiglo	
+31	6431	ymgomio	ymgomiaf
+32	6432	melynu	felynu
+33	6433	trymaidd	drymaidd trwmaidd
+34	6434	pyncio	phyncio
+35	6435	disgwylgar	ddisgwylgar
+36	6436	gwadnu	
+37	6437	gwiw	gwiwach gwiwaf gwiwion wiw
+38	6438	ffoli	ffol ffola ffoladwy ffolaf ffolai ffolais ffolaist ffolant ffolech ffoledig ffolem ffolent ffolir ffolo ffoloch ffolodd ffolwch ffolwn ffolwyd
+39	6439	smonach	smonaeth smonath
+40	6440	cenllysg	cenllysgen
+41	6441	rhythu	
+42	6442	dreifio	
+43	6443	busnesa	fusnesa
+44	6444	fatha	
+45	6445	dioglyd	
+46	6446	tonic	
+47	6447	corffol	corffog
+48	6448	stiwdant	stiwdants
+49	6449	gordew	gordewion ordew
+50	6450	tendio	dendio
+51	6451	cawlach	
+52	6452	brodio	
+53	6453	border	borderi
+54	6454	digofaint	ddigofaint
+55	6455	ffurfweddu	ffurfweddu'r
+56	6456	cysegr	cysegrau gysegr
+57	6457	ailosod	ailesyd ailosoda ailosodaf ailosodai ailosodais ailosodaist ailosodant ailosodech ailosodedig ailosodem ailosodent ailosodi ailosodir ailosodo ailosodoch ailosododd ailosodwch ailosodwn ailosodwyd hailosod
+58	6458	mwstas	fwstas mwstash mwstasis mwstasys mwstás mwstásh
+59	6459	pellennig	
+60	6460	siampên	siampáen
+61	6461	thematig	
+62	6462	cellwair	cellweiriau gellwair
+63	6463	ysgythru	ysgythrodd
+64	6464	mewnosodiad	fewnosodiad mewnosodiadau
+65	6465	cerebrol	serebrol
+66	6466	eithr	
+67	6467	aeres	aeresau
+68	6468	unben	unbeniaid
+69	6469	nadu	nada nadadwy nadaf nadai nadant nadech nadedig nadem nadent nadir nado nadoch nadodd nadwch nadwn nadwyd nedais nedaist nedi nedir nedwch
+70	6470	festri	festri'r
+71	6471	gala	ala gala'n galaod galâu
+72	6472	llannerch	llennyrch
+73	6473	daearegwr	daearegwyr daearegydd daearegyddion
+74	6474	rhigwm	rhigymau rigymau
+75	6475	pandemig	bandemig pandemigau
+76	6476	gwladgarwr	gwladgarwyr wladgarwr
+77	6477	fforch	fforchau ffyrch
+78	6478	agnostig	
+79	6479	stemio	stemi stemia stemiadwy stemiaf stemiai stemiais stemiaist stemiant stemiech stemiedig stemiem stemient stemioch stemiodd stemir stemiwch stemiwn stemiwyd
+80	6480	gwibio	
+81	6481	geneuol	
+82	6482	cyforiog	gyforiog
+83	6483	hollalluog	
+84	6484	trugarog	drugarog
+85	6485	cynhwysol	gynhwysol
+86	6486	crisialog	grisialog
+87	6487	cyllidol	chyllidol
+88	6488	cliwiau	gliwiau
+89	6489	di-sail	ddi-sail
+90	6490	cyfaddawdu	chyfaddawdodd chyfaddawdu gyfaddawdu
+91	6491	tabernacl	
+92	6492	glynllifon	
+93	6493	nedd	nedden
+94	6494	gyddf-felyn	gyddf-felen gyddf-felynion
+95	6495	sbectolog	
+96	6496	culhwch	culhychod
+97	6497	trwstan	twrstan
+98	6498	telford	
+99	6499	areithio	
+100	6500	söolegydd	söolegwyr

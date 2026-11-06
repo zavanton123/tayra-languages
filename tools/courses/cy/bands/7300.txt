@@ -1,0 +1,100 @@
+1	7201	deulawr	
+2	7202	anweddiad	anweddiadau
+3	7203	crasu	crasa crasadwy crasedig craso crasodd craswch craswyd cresais cresaist cresi cresir creswch
+4	7204	ataliol	
+5	7205	trwmpo	trwmped
+6	7206	sorgwm	
+7	7207	rhagarweiniad	
+8	7208	seimllyd	seimlyd
+9	7209	stof	stofiau
+10	7210	trwsgl	drwsgl trosgl trysglon
+11	7211	trapio	thrapio
+12	7212	dargludydd	dargludyddion ddargludydd
+13	7213	monomer	monomerau
+14	7214	cyddwysiad	cyddwysiadau gyddwysiad
+15	7215	creiddiol	greiddiol
+16	7216	cyflin	cyflinau gyflin
+17	7217	potelu	botelu
+18	7218	disbyddu	ddisbyddu dihysbyddu disbydda disbyddadwy disbyddaf disbyddai disbyddais disbyddaist disbyddant disbyddech disbyddedig disbyddem disbyddent disbyddi disbyddir disbyddo disbyddoch disbyddodd disbyddwch disbyddwn disbyddwyd
+19	7219	diniweidrwydd	ddiniweidrwydd
+20	7220	helbul	helbulon
+21	7221	babandod	fabandod mabandod
+22	7222	pelican	pelicanod
+23	7223	gwinwydd	gwinwydden winwydd
+24	7224	sleifio	sleifiodd
+25	7225	negodi	negodi'r
+26	7226	digyfnewid	ddigyfnewid
+27	7227	molecwl	folecwl molecylau
+28	7228	difyrru	ddifyrru difyrru'n nifyrru
+29	7229	cylchlythyr	cylchlythyrau gylchlythyr
+30	7230	cymwynaswr	chymwynaswr cymwynaswraig cymwynaswyr gymwynaswr
+31	7231	cyn-lywydd	chyn-lywydd gyn-lywydd gyn-lywyddion
+32	7232	crwydryn	chrwydryn crwydren crwydriaid grwydryn
+33	7233	sbort	
+34	7234	sgrap	sgrapen sgrapiau sgraps sgrapyn ysgrap
+35	7235	sticio	
+36	7236	sgorpion	sgorpionau sgorpiynau ysgorpion ysgorpiwn
+37	7237	anfeidrol	
+38	7238	hydrocarbon	hydrocarbonau
+39	7239	breiniol	
+40	7240	glud	gludion gludoedd
+41	7241	genidol	
+42	7242	disymwth	ddisymwth
+43	7243	anghyfiawn	
+44	7244	arolygiad	arolygiadau
+45	7245	wysg	
+46	7246	gwladweinydd	gwladweinwyr
+47	7247	pendroni	bendroni
+48	7248	rhych	rhychau rych
+49	7249	teleffon	teleffonau
+50	7250	deifiwr	ddeifwyr deifwyr
+51	7251	nythfa	nythfeydd
+52	7252	arlwy	arlwy'r arlwyau arlwyon
+53	7253	gwrthbwynt	wrthbwynt
+54	7254	metelig	fetelig
+55	7255	canolraddol	ganolraddol
+56	7256	pobydd	bobydd pobyddes pobyddion
+57	7257	teneuo	deneuo teneua teneuadwy teneuai teneuais teneuaist teneuant teneuech teneuedig teneuem teneuent teneui teneuir teneuoch teneuodd teneuwch teneuwn teneuwyd
+58	7258	consortiwm	consortia gonsortiwm
+59	7259	gefell	efell
+60	7260	cerfiad	cerfiadau cyrfiad
+61	7261	ymbellhau	ymbellhaodd ymbellhawyd
+62	7262	darostwng	darostynga darostyngadwy darostyngaf darostyngai darostyngais darostyngaist darostyngant darostyngech darostyngedig darostyngem darostyngent darostyngi darostyngir darostyngo darostyngoch darostyngodd darostyngwch darostyngwn darostyngwyd ddarostwng
+63	7263	purfa	burfeydd
+64	7264	alinio	alinia alinio'r
+65	7265	technegydd	dechnegydd technegyddes technegyddion
+66	7266	dolennu	ddolennu
+67	7267	sathru	sathra sathradwy sathraf sathrai sathrais sathraist sathrant sathrech sathredig sathrem sathrent sathri sathrir sathro sathroch sathrodd sathrwch sathrwn sathrwyd sethrir
+68	7268	gor-ŵyr	or-ŵyr
+69	7269	plygiad	blygiad plygiadau
+70	7270	bual	buail bualau bualod
+71	7271	erthylu	erthyla erthyladwy erthylaf erthylai erthylais erthylaist erthylant erthylech erthyledig erthylem erthylent erthyli erthylir erthylo erthyloch erthylodd erthylu'n erthylwch erthylwn erthylwyd ethylaf
+72	7272	dygn	ddygn dycnach dycnaf
+73	7273	cofalent	cyfalent gofalent
+74	7274	torso	dorso torsoau
+75	7275	ymbil	ymbiliaf ymbilian ymbiliau ymbilio ymbiliodd
+76	7276	astrus	astrusach astrusaf
+77	7277	barbariad	barbariaid
+78	7278	asur	
+79	7279	mynydda	mynyddadwy mynyddaf mynyddai mynyddais mynyddaist mynyddant mynyddech mynyddedig mynyddem mynyddent mynyddi mynyddir mynyddo mynyddoch mynyddodd mynyddwch mynyddwn mynyddwyd
+80	7280	landlordiad	landlordiaid
+81	7281	efengylu	efangylu efengyla efengyladwy efengylaf efengylai efengylais efengylaist efengylant efengylech efengyledig efengylem efengylent efengyli efengylir efengylo efengyloch efengylodd efengylwch efengylwn efengylwyd
+82	7282	persawrus	bersawrus
+83	7283	haeddiant	haeddiannau
+84	7284	gwridog	gwridiog wridog
+85	7285	atalnod	atalnodau
+86	7286	ffieiddio	ffieiddi ffieiddia ffieiddiadwy ffieiddiaf ffieiddiai ffieiddiais ffieiddiaist ffieiddiant ffieiddiech ffieiddiedig ffieiddiem ffieiddient ffieiddioch ffieiddiodd ffieiddir ffieiddiwch ffieiddiwn ffieiddiwyd
+87	7287	deurywiol	ddeurywiol
+88	7288	plismona	blismona
+89	7289	taniad	daniad ddaniaid
+90	7290	cyfaddefiad	cyfaddefiadau gyfaddefiad
+91	7291	calori	galori galorïau
+92	7292	ymdreiddio	ymdraidd ymdreiddi ymdreiddia ymdreiddiadwy ymdreiddiaf ymdreiddiai ymdreiddiais ymdreiddiaist ymdreiddiant ymdreiddiech ymdreiddiedig ymdreiddiem ymdreiddient ymdreiddio'n ymdreiddio'r ymdreiddioch ymdreiddiodd ymdreiddir ymdreiddiwch ymdreiddiwn ymdreiddiwyd
+93	7293	cynnull	cynnullau cynulla cynulladwy cynullaf cynullai cynullais cynullaist cynullant cynullech cynulledig cynullem cynullent cynulli cynullir cynullo cynulloch cynullodd cynullwch cynullwn cynullwyd gynnull
+94	7294	dwyflwydd	ddwyflwydd dyflwydd
+95	7295	gloywi	gloywi'u loywi
+96	7296	rhyfelgar	ryfelgar
+97	7297	gobeithiol	obeithiol
+98	7298	mowldio	fowldio fowldiodd mowldio'n
+99	7299	canfed	chanfed ganfed
+100	7300	meincnod	feincnod feincnodau meincnodau

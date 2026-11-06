@@ -1,0 +1,100 @@
+1	5901	sigaren	sigarennau
+2	5902	di-baid	ddi-baid
+3	5903	eiriol	eiriola eirioladwy eiriolaf eiriolai eiriolais eiriolaist eiriolant eiriolech eirioledig eiriolem eiriolent eirioli eiriolir eiriolo eirioloch eiriolodd eiriolwch eiriolwn eiriolwyd
+4	5904	bwlb	fwlb
+5	5905	creithio	greithio
+6	5906	gorthrwm	orthrwm
+7	5907	perthnasedd	berthnasedd perthnaseddau pherthnasedd
+8	5908	cytref	chytref cytrefi gytref
+9	5909	clyd	clydion clytach clytaf glyd
+10	5910	tywel	
+11	5911	slab	slabiau slabyn yslab
+12	5912	hwrdd	hyrddod
+13	5913	dynamig	ddynamig
+14	5914	ymagweddu	ymagwedd ymagweddau
+15	5915	nerthol	
+16	5916	hacio	haciwyd
+17	5917	niwron	niwronau
+18	5918	fwltur	fultur fwlturiaid
+19	5919	cyd-ddigwyddiad	gyd-ddigwyddiad
+20	5920	doli	ddoli dolis dolïau noli
+21	5921	llawn-amser	lawn-amser
+22	5922	meistroli	feistroli meistrioli meistrolaf meistroli'r meistrolodd meistrolwyd
+23	5923	camddefnyddio	camddefnyddio'r chamddefnyddio gamddefnyddio
+24	5924	dihiryn	ddihiryn dihirod dyhiryn
+25	5925	postmon	postmyn
+26	5926	ebe	ebra hebe
+27	5927	amlddewis	
+28	5928	lefelu	lefelu'r
+29	5929	parasiwt	parasiwtiau
+30	5930	methdaliad	fethdaliad
+31	5931	caffaeliad	gaffaeliad
+32	5932	boneddiges	boneddigesau foneddiges
+33	5933	melynddu	felynddu
+34	5934	dawnswraig	ddawnswraig
+35	5935	dechreuol	ddechreuol
+36	5936	cyfranogi	cyfranoga cyfranogadwy cyfranogaf cyfranogai cyfranogais cyfranogaist cyfranogant cyfranogech cyfranogedig cyfranogem cyfranogent cyfranogir cyfranogo cyfranogoch cyfranogodd cyfranogwch cyfranogwn cyfranogwyd gyfranogi
+37	5937	cythraul	cythreuliaid gythraul
+38	5938	camdriniaeth	camdriniaethau chamdriniaeth gamdriniaeth
+39	5939	snwcer	
+40	5940	allfudo	allfuda allfudadwy allfudaf allfudai allfudais allfudaist allfudant allfudech allfudedig allfudem allfudent allfudi allfudir allfudoch allfudodd allfudwch allfudwn allfudwyd
+41	5941	cydsynio	chydsyniai cydsyniaf cydsynio'n cydsyniodd gydsynio
+42	5942	llywyddiaeth	llywyddaeth llywyddiaethau lywyddiaeth
+43	5943	tegwch	degwch tegychau thegwch
+44	5944	byrfodd	byrfoddau
+45	5945	corlan	corddlan corlannau corlennydd gorlan
+46	5946	amddifadu	amddifadodd amddifadu'r amddifadwyd hamddifadu
+47	5947	pardwn	bardwn
+48	5948	browngoch	frowngoch
+49	5949	trychfil	trychfilod
+50	5950	aflan	aflanach aflanaf
+51	5951	gaeafol	aeafol
+52	5952	gwydriad	wydriad
+53	5953	ynfyd	ynfydion
+54	5954	plicio	blicio phlicio
+55	5955	crin	chrin crinion grin
+56	5956	anweithredol	
+57	5957	artaith	arteithiau
+58	5958	amynedd	
+59	5959	dosbarthwr	ddosbarthwr dosbarthwyr
+60	5960	gwagle	gwagleoedd wagle
+61	5961	atgynhyrchiad	atgynyrchiadau
+62	5962	tab	dab tabiau tabs
+63	5963	ffrwyno	ffrwynaf ffrwyno'r ffrwynodd
+64	5964	hesg	hesgen
+65	5965	cyfunrhywiol	cyfunrywiol
+66	5966	nifwl	nifiwl nifwlion nifylau nifylion
+67	5967	gwylfa	wylfa
+68	5968	ymaelodi	ymaeloda ymaelodaf ymaelododd ymaelodwch
+69	5969	rabi	rabbi rabiniaid rabïaid
+70	5970	diacon	ddiacon diaconiaid
+71	5971	rhodio	rhodi rhodia rhodiadwy rhodiaf rhodiai rhodiais rhodiaist rhodiant rhodiech rhodied rhodiedig rhodiem rhodient rhodioch rhodiodd rhodir rhodiwch rhodiwn rhodiwyd rodio
+72	5972	sos	sosys sôs
+73	5973	gweigion	
+74	5974	hwynt	
+75	5975	twt	dwt twtach twtaf
+76	5976	byrlymu	byrlyma byrlymadwy byrlymaf byrlymai byrlymais byrlymaist byrlymant byrlymech byrlymedig byrlymem byrlyment byrlymi byrlymir byrlymo byrlymoch byrlymodd byrlymwch byrlymwn byrlymwyd
+77	5977	clocsen	clocsiau
+78	5978	ciwboid	giwboid
+79	5979	gorfwyta	orfwyta
+80	5980	cachu	cacha cachadwy cachaf cachai cachais cachan cachant cachech cachedig cachem cachen cachent caches cachet cacho cachoch cachodd cachu'r cachwch cachwn cachwyd cechais cechaist cechi cechir cechwch gachu
+81	5981	carlamu	carlamodd garlamu
+82	5982	eliptig	
+83	5983	angladdol	
+84	5984	asyn	asynnod
+85	5985	chwilfrydig	chwilfrydigaf
+86	5986	ideolegol	
+87	5987	amyneddgar	
+88	5988	ffosfforws	
+89	5989	deiliog	ddeiliog
+90	5990	chwysu	chwysa chwysadwy chwysaf chwysais chwysaist chwysant chwysedig chwysi chwysir chwyso chwysoch chwysodd chwyswch chwyswyd
+91	5991	cymudo	chymudo gymudo
+92	5992	tryloywder	dryloywder tryloywderau
+93	5993	blasu	blasa blasadwy blasaf blasedig blaser blasio blaso blasodd blasu'n blaswch blaswyd blesais blesaist blesi blesir bleswch flasu
+94	5994	gwrthbrofi	gwrthbrofaf gwrthbrofi'r gwrthbrofwyd wrthbrofi
+95	5995	gwead	gweadau gweuad wead
+96	5996	llorio	llorio'r lloriwyd lorient lorio
+97	5997	cydberthynas	chydberthynas cydberthnasau gydberthnasau gydberthynas
+98	5998	ail-lunio	ail-lunia ail-luniadwy ail-luniaf ail-luniai ail-luniais ail-luniaist ail-luniant ail-luniech ail-luniedig ail-luniem ail-lunient ail-lunio'n ail-lunio'r ail-lunioch ail-luniodd ail-luniwch ail-luniwn ail-luniwyd ail-lunni ail-lunnir hail-lunio
+99	5999	ystrad	ystradoedd
+100	6000	coronog	goronog

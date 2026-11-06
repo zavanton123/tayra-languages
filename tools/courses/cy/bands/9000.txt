@@ -1,0 +1,100 @@
+1	8901	blaenasgellwr	blaenasgellwyr flaenasgellwr
+2	8902	cwpon	cwponau
+3	8903	medel	fedel
+4	8904	dargopïo	ddargopïo
+5	8905	astrolegwr	astrolegwyr
+6	8906	cymalol	chymalol
+7	8907	tentacl	dentacl tentaclau
+8	8908	iawnder	iawnderau
+9	8909	gwaredigaeth	waredigaeth
+10	8910	rhagbrawf	ragbrofion rhagbrofion
+11	8911	dilyffethair	ddilyffethair
+12	8912	clodfawr	clodforach glodfawr
+13	8913	dogmatig	ddogmatig
+14	8914	cribell	cribellau gribell
+15	8915	cenhedlol	genhedlol
+16	8916	diheintydd	diheintyddion
+17	8917	niwtraleiddio	niwtraleiddio'r
+18	8918	llwydd	llwyddon lwydd
+19	8919	cwys	chŵys cwysau cwysi cŵys gwys nghwys
+20	8920	glew	glewach glewaf glewion lew
+21	8921	atynnu	atyn atynadwy atynedig atynna atynnaf atynnai atynnais atynnaist atynnant atynnech atynnem atynnent atynni atynnir atynno atynnoch atynnodd atynnwch atynnwn atynnwyd hatynnu
+22	8922	hedeg	ehedant ehedeg heda hedadwy hedaf hedai hedais hedaist hedant hedech hededig hedem hedent hedi hedir hedo hedoch hedodd hedwch hedwn hedwyd
+23	8923	di-boen	ddi-boen
+24	8924	marsiandïwr	farsiandïwr marsiandïwyr
+25	8925	pleidiwr	phleidwyr pleidwyr
+26	8926	mwyalch	mwyalchod
+27	8927	lloerig	lloerigion loerig
+28	8928	gwycbys	gwycbysen wycbys
+29	8929	diorseddu	ddiorseddu
+30	8930	persain	bersain perseiniau
+31	8931	trawsfeddiannu	drawsfeddiannu
+32	8932	crediniol	grediniol
+33	8933	gorchestol	orchestol
+34	8934	cantel	gantel
+35	8935	cyfeilydd	gyfeilydd
+36	8936	lawrlwythiad	lawrlwythiadau
+37	8937	pythefnosol	bythefnosol
+38	8938	prydyddiaeth	brydyddiaeth
+39	8939	gohiriad	ohiriad
+40	8940	cecru	cecra cecradwy cecraf cecrai cecrais cecraist cecran cecrant cecrech cecredig cecrem cecrent cecri cecrir cecro cecroch cecrodd cecrwch cecrwn cecrwyd gecru
+41	8941	ail-gartrefu	ail-gartrefu'r
+42	8942	crawen	crafen crawennau crawenni grawen
+43	8943	methodist	fethodist fethodistiaid
+44	8944	cnwp-fwsogl	cnwp-fwsoglau cnwp-fwswgl
+45	8945	trafferthu	drafferthu traffertha trafferthadwy trafferthaf trafferthai trafferthais trafferthaist trafferthant trafferthech trafferthedig trafferthem trafferthent trafferthi trafferthir traffertho trafferthoch trafferthodd trafferthwch trafferthwn trafferthwyd
+46	8946	mudlosgi	fudlosgi
+47	8947	cyfeiriadaeth	chyfeiriadaeth
+48	8948	caethferch	gaethferch
+49	8949	ymguddio	ymguddiodd
+50	8950	blywyddyn	flywyddyn
+51	8951	canllath	chanllath
+52	8952	dyslecsig	ddyslecsig dislecsig
+53	8953	gwladwr	gwladwyr
+54	8954	dyddlyfr	dyddlyfrau
+55	8955	ieuo	ieu
+56	8956	perspectif	berspectif
+57	8957	celynnen	gelynnen
+58	8958	impio	impiodd
+59	8959	canpunt	ganpunt
+60	8960	disgresiwn	ddisgresiwn
+61	8961	diamddiffyn	ddiamddiffyn
+62	8962	llosgydd	llosgyddion losgydd
+63	8963	dieithrio	dieithrio'r
+64	8964	hashnod	hashnodau
+65	8965	yfwr	yfwyr
+66	8966	dolgarrog	nolgarrog
+67	8967	utgorn	utgyrn
+68	8968	camre	camrau gamre
+69	8969	sbriwsen	sbriws
+70	8970	murddun	furddun murddunnod
+71	8971	panasen	pannas
+72	8972	cyd-ddyn	gyd-ddyn
+73	8973	dichell	ddichell dichellau dichellion
+74	8974	clerwr	clerwyr glerwr
+75	8975	twpdra	thwpdra twptra typtra
+76	8976	brawychu	brawycha brawychadwy brawychaf brawychai brawychais brawychaist brawychant brawychech brawychedig brawychem brawychent brawychi brawychir brawycho brawychoch brawychodd brawychwch brawychwn brawychwyd frawychu
+77	8977	llith	lith llithiau llithoedd
+78	8978	bondo	bondoeau bondoeon fondo
+79	8979	prifio	brifio prifiant
+80	8980	cydweithredwr	cyd-weithredwr cydweithredwyr gydweithredwr
+81	8981	croeshoeliad	croeshoeliadau groeshoeliad
+82	8982	cyfundeb	gyfundeb
+83	8983	ciaidd	chiaidd
+84	8984	diwydiannu	ddiwydiannu diwydiannu'n
+85	8985	delfrydiaeth	ddelfrydiaeth
+86	8986	difenwi	ddifenwasant
+87	8987	tirffurf	tirffurfiau
+88	8988	prior	brior prioriaid
+89	8989	llandrindod	landrindod
+90	8990	cynilo	gynilo
+91	8991	llystad	llystadau lystad
+92	8992	muchudd	fuchudd
+93	8993	tenantiaeth	denantiaeth tenantiaethau
+94	8994	datgeiniad	datgeiniaid
+95	8995	hwntw	hwntws hwntwyr
+96	8996	undodwr	undodiaid undodwyr
+97	8997	geirda	eirda
+98	8998	ymborthi	ymbortha ymborthaf
+99	8999	crwys	crws
+100	9000	caset	gaset

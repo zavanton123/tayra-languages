@@ -1,0 +1,100 @@
+1	1601	argraffiad	argraffiadau
+2	1602	cyfateb	cyfateba cyfatebadwy cyfatebaf cyfatebai cyfatebais cyfatebaist cyfatebant cyfatebech cyfatebedig cyfatebem cyfatebent cyfatebi cyfatebion cyfatebir cyfatebo cyfateboch cyfatebodd cyfatebwch cyfatebwn cyfatebwyd gyfateb
+3	1603	anrheg	anrhegion
+4	1604	blaenllaw	blaenllaw'r flaenllaw
+5	1605	diddymu	ddiddymu diddyma diddymadwy diddymaf diddymai diddymais diddymaist diddymant diddymech diddymedig diddymem diddyment diddymi diddymir diddymo diddymoch diddymodd diddymu'n diddymu'r diddymwch diddymwn diddymwyd
+6	1606	graddol	raddol
+7	1607	ieithyddol	
+8	1608	cadarnhaol	chadarnhaol gadarnhaol
+9	1609	llinyn	linyn llinynnau
+10	1610	clawr	chlawr cloriau glawr
+11	1611	blin	blinach blinaf blinion flin
+12	1612	delio	ddelio deli delia deliadwy deliaf deliai deliant deliedig deliem delient delio'n delioch deliodd delir deliwn deliwyd delo
+13	1613	bodlon	boddlawn boddlon bodlawn bodlonach bodlonaf bolon fodlon
+14	1614	elusen	elusennau
+15	1615	swm	symiau
+16	1616	risg	risgiau
+17	1617	dimensiwn	ddimensiwn ddimensiynau dimensiynau
+18	1618	bygythiad	bygythiadau fygythiad fygythiadau
+19	1619	cyfartal	chyfartal cyfartalau cyfartalion gyfartal
+20	1620	ceidwadol	cheidwadol geidwadol
+21	1621	creadigol	chreadigol greadigol
+22	1622	teithiwr	deithiwr teithwyr
+23	1623	top	dop nhop thop topiau
+24	1624	cosb	chosb cosbau cosbion gosb nghosb
+25	1625	nerth	nerthoedd
+26	1626	dwbl	ddwbl dwbwl dyblau
+27	1627	symptom	symptomau symtomau
+28	1628	fas	fasys
+29	1629	perchen	berchen berchenogion perchain perchenion perchennoedd perchennon perchenogion pherchen pherchenogion
+30	1630	chwarter	chwarterau chwarteri chwarteriau chwarterion
+31	1631	rhes	res rhesi
+32	1632	drud	ddrud drudion drutach drutaf
+33	1633	roc	
+34	1634	gofalus	ofalus
+35	1635	acw	
+36	1636	gweithrediad	gweithrediadau ngweithrediad weithrediad
+37	1637	casáu	casadwy casaech casaem casaent casao casaoch casaodd casawch casawn casawyd caseais caseaist casedig casei caseir casewch casáu'r casâ casâf casâi casânt gasáu nghasáu
+38	1638	positif	bositif phositif
+39	1639	trwchus	drwchus thrwchus
+40	1640	sefydlog	
+41	1641	aer	aerau aerion aeroedd
+42	1642	cwsmer	chwsmer cwsmeiriaid cwsmeriaid cwsmers gwsmer
+43	1643	halen	halenau
+44	1644	medr	fedr medrau
+45	1645	ymdrin	ymdrinnir
+46	1646	ffuglen	
+47	1647	ailgylchu	ailgylchaf ailgylchu'r hailgylchu
+48	1648	trefol	drefol threfol trefolach trefolaf
+49	1649	dwys	ddwys dwysach dwysaf dwysion
+50	1650	etifeddu	etifedda etifeddadwy etifeddaf etifeddai etifeddais etifeddaist etifeddant etifeddech etifeddedig etifeddem etifeddent etifeddi etifeddir etifeddo etifeddoch etifeddodd etifeddu'n etifeddu'r etifeddu'u etifeddwch etifeddwn etifeddwyd hetifeddu
+51	1651	cyfyngu	chyfyngid chyfyngu chyfyngwyd cyfyngaf cyfyngid cyfyngir cyfyngodd cyfyngu'n cyfyngu'r cyfyngwyd gyfyngir gyfyngu
+52	1652	telyn	delyn telynau thelyn
+53	1653	cyngerdd	chyngerdd cyngherddau cyngherddi gyngerdd nghyngerdd
+54	1654	cyllid	chyllid cyllidau gyllid
+55	1655	seilio	seiliai seilio'n seilio'r seiliodd seilir seiliwyd
+56	1656	jyst	jest
+57	1657	stadiwm	stadia stadiwms stadiymau
+58	1658	cynyddol	gynyddol
+59	1659	darlunio	darllunio darluniadwy darluniedig darlunio'n darlunio'r darluniodd darlunir darluniwyd darlunnir ddarlunio
+60	1660	her	heriau
+61	1661	trosedd	drosedd throsedd troseddau
+62	1662	eryr	eryri eryrod heryr
+63	1663	tlodi	dlodi thlodi tloda tlodadwy tlodaf tlodai tlodais tlodaist tlodant tlodech tlodedig tlodem tlodent tlodir tlodo tlodoch tlododd tlodwch tlodwn tlodwyd tylodi
+64	1664	arwr	arwraig arwres arwyr harwr
+65	1665	dymchwel	ddymchwel dymchwela dymchweladwy dymchwelaf dymchwelai dymchwelais dymchwelaist dymchwelant dymchwelech dymchweledig dymchwelem dymchwelent dymchweli dymchwelir dymchwelo dymchweloch dymchwelodd dymchwelwch dymchwelwn dymchwelwyd dymchwelyd
+66	1666	menyn	fenyn ymenyn
+67	1667	cyfreithiwr	chyfreithiwr cyfreithwr cyfreithwyr gyfreithiwr
+68	1668	anffurfiol	
+69	1669	blino	blina blinadwy blinai blinais blinaist blinant blinech blinem blinent blini blinir blino'n blinoch blinodd blinwch blinwn blinwyd flino
+70	1670	rhyddfrydol	ryddfrydol
+71	1671	mathemategol	fathemategol
+72	1672	dileu	ddileu dilain dilea dileadwy dileaf dileai dileais dileaist dileant dileech dileedig dileem dileent dilei dilein dileit dileo dileoch dileodd dileu'n dileu'r dilewch dilewyd dilëir dilëwch dilëwn dilëwyd
+73	1673	parth	barth mharth parthau pharth
+74	1674	llywodraethwr	llywodraethwyr lywodraethwr
+75	1675	dadleuol	ddadleuol
+76	1676	licio	licia liciaf licio'r liciwch
+77	1677	lluosog	lliawsog lliosog lluosocach lluosocaf lluosogion luosog
+78	1678	ffeindio	ffeindi ffeindia ffeindiadwy ffeindiaf ffeindiai ffeindiais ffeindiaist ffeindiant ffeindiech ffeindiedig ffeindiem ffeindient ffeindio'r ffeindioch ffeindiodd ffeindir ffeindiwch ffeindiwn ffeindiwyd
+79	1679	dirgelwch	ddirgelwch
+80	1680	seremoni	seremoni'r seremoniau seremonis seremonïau
+81	1681	gwersyll	gwersyllau gwersylloedd ngwersyll wersyll
+82	1682	sgrin	sgriniau sgrîn
+83	1683	llygoden	llygod
+84	1684	anaml	anamlach anamlaf
+85	1685	hela	heliwn heliwyd helwyd
+86	1686	brifo	brifa brifadwy brifaf brifai brifais brifaist brifant brifech brifedig brifem brifent brifi brifir brifoch brifodd brifwch brifwn brifwyd frifo
+87	1687	cloddio	chloddio cloddia cloddiadwy cloddiaf cloddiai cloddiais cloddiaist cloddiant cloddiech cloddiedig cloddiem cloddient cloddii cloddiir cloddio'n cloddio'r cloddioch cloddiodd cloddir cloddiwch cloddiwn cloddiwyd gloddio
+88	1688	addasiad	addasiadau haddasiad
+89	1689	anarferol	
+90	1690	ffeil	ffeiliau ffeils ffeilys
+91	1691	ffederal	
+92	1692	rhifyn	rhifynnau rifyn rifynnau
+93	1693	democrataidd	ddemocrataidd
+94	1694	arbrofi	arbrofa arbrofadwy arbrofaf arbrofai arbrofais arbrofaist arbrofant arbrofech arbrofedig arbrofem arbrofent arbrofi'r arbrofir arbrofo arbrofoch arbrofodd arbrofwch arbrofwn arbrofwyd harbrofi
+95	1695	cyd-destun	cyd-destunau gyd-destun nghyd-destun
+96	1696	gôl	goliau
+97	1697	print	brint phrint
+98	1698	afiechyd	afiechydon
+99	1699	toc	doc tocau tociau
+100	1700	gramadeg	gramadegau ramadeg

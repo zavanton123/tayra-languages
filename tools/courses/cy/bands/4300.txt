@@ -1,0 +1,100 @@
+1	4201	clyfar	chlyfar glyfar
+2	4202	dechreuad	ddechreuad dechreuadau nechreuad
+3	4203	gwanhau	gwanhaodd gwanhau'r wanhau
+4	4204	tag	dag tagau tagiau tagion thag
+5	4205	culfor	chulfor culforoedd gulfor nghulfor
+6	4206	carwriaeth	carwriaethau charwriaeth garwriaeth
+7	4207	pybyr	phybyr
+8	4208	edrychiad	edrychiadau
+9	4209	amhenodol	
+10	4210	cleient	cleientau cleientiaid cleients gleient
+11	4211	tin	din nin thin tinau
+12	4212	chwedloniaeth	
+13	4213	anabl	anablach anablaf
+14	4214	cymrodoriaeth	cymrodoriaethau gymrodoriaeth
+15	4215	datganoli	datganoli'r ddatganoli ddatganolwyd
+16	4216	mislif	
+17	4217	barddoni	farddoni
+18	4218	cwta	chwta cota cwtaon cwteuach cwteuaf cwteuon gwta
+19	4219	brawdoliaeth	brawdoliaethau frawdoliaeth
+20	4220	trefnydd	drefnydd threfnydd trefnyddion
+21	4221	cyrliog	cwrliog cwrlog gyrliog
+22	4222	difrifoldeb	ddifrifoldeb
+23	4223	gwehyddu	gwehyddu'n wehyddu
+24	4224	cyffelyb	gyffelyb
+25	4225	masnachfraint	fasnachfraint masnachfreintiau
+26	4226	madru	madra madradwy madraf madrai madrais madraist madrant madrech madredig madrem madrent madri madrid madrir madro madroch madrwch madrwn madrwyd
+27	4227	plasdy	blasdy plasdy'n plasdy'r
+28	4228	anobeithiol	
+29	4229	arogldarth	arogldarthau
+30	4230	camu	cama camadwy camai camais camaist camant camech camedig camem cament cami camir camo camoch camodd camwch camwn camwyd cemais cemaist cemi cemir cemwch gamu
+31	4231	meddylfryd	feddylfryd
+32	4232	palu	balet balu pala paladwy palaf palai palant palasit palech paled paledig palem palent palo paloch palodd palwch palwn palwyd pel pelais pelaist peli pelir pelwch
+33	4233	penlinio	penlini penlinia penliniadwy penliniaf penliniai penliniais penliniaist penliniant penliniech penliniedig penliniem penlinient penlinioch penliniodd penlinir penliniwch penliniwn penliniwyd
+34	4234	meddyliwr	feddyliwr feddylwyr meddylwyr
+35	4235	deintyddol	ddeintyddol
+36	4236	dynodiad	ddynodiad dynodiadau
+37	4237	doler	ddoler doleri
+38	4238	lliniaru	liniaru lliniara lliniaradwy lliniaraf lliniarai lliniarant lliniarech lliniaredig lliniarem lliniarent lliniaro lliniaroch lliniarodd lliniaru'r lliniaruaf lliniarwch lliniarwn lliniarwyd llinierais llinieraist llinieri llinierir llinierwch
+39	4239	becso	becsa becsadwy becsaf becsais becsaist becsant becsedig becsi becsir becsoch becsodd becswch becswyd
+40	4240	ninnau	
+41	4241	cynddeiriog	gynddeiriog
+42	4242	coelio	coeli coelia coeliadwy coeliaf coeliai coeliais coeliaist coeliant coeliech coeliedig coeliem coelient coelioch coeliodd coelir coeliwch coeliwn coeliwyd goelio
+43	4243	taclu	daclo taclo
+44	4244	popty	bopty phopty popdy poptai
+45	4245	lliain	liain llieiniau llieinyn
+46	4246	synthesis	sunthesis synthesisau
+47	4247	lluosflwydd	
+48	4248	dilysrwydd	ddilysrwydd nilysrwydd
+49	4249	gonestrwydd	onestrwydd
+50	4250	carol	carolau charolau garol garolau
+51	4251	gwylltio	gwylltio'n gwylltiodd ngwylltio wylltio
+52	4252	technolegol	dechnolegol thechnolegol
+53	4253	cnawd	chnawd cnawdiau gnawd nghnawd
+54	4254	piau	biau
+55	4255	swynol	
+56	4256	amgryptio	amgryptio'r
+57	4257	teiar	deiar teiars
+58	4258	aroglau	arogleuon oglau rhoglau
+59	4259	barwniaeth	barwnaeth barwniaethau farwniaeth
+60	4260	barfog	farfog
+61	4261	catalog	catalogau catilog catlog gatalog
+62	4262	mulfran	fulfran mulfrain mulfranod
+63	4263	cysonyn	cysonion
+64	4264	saig	seigiau
+65	4265	rhagoriaeth	ragoriaeth rhagoriaethau
+66	4266	canoli	canola canolaf canoli'n canoli'r canolwch chanoli ganoli
+67	4267	trysorlys	drysorlys
+68	4268	normaniad	normaniaid
+69	4269	cyf	
+70	4270	ymgynghoriad	ymgynghoriadau ymgyngoriadau
+71	4271	gofalwr	gofalwraig gofalwyr ofalwr
+72	4272	amlosgi	amlosg amlosga amlosgadwy amlosgaf amlosgai amlosgais amlosgaist amlosgant amlosgech amlosgedig amlosgem amlosgent amlosgir amlosgo amlosgoch amlosgodd amlosgwch amlosgwn amlosgwyd emlysg hamlosgi
+73	4273	mapio	fapio mapia mapiadwy mapiaf mapiai mapiant mapiech mapiedig mapiem mapient mapio'r mapioch mapiodd mapiwch mapiwn mapiwyd mepi mepiais mepiaist mepiech mepir mepiwch
+74	4274	warws	warysau
+75	4275	siafft	siafftau siafftiau
+76	4276	cyhoeddusrwydd	gyhoeddusrwydd
+77	4277	siffrwd	siffrydaf
+78	4278	llwgu	llwga llwgadwy llwgaf llwgai llwgais llwgaist llwgant llwgech llwgedig llwgem llwgent llwgi llwgir llwgo llwgoch llwgodd llwgu'r llwgwch llwgwn llwgwyd lwgu
+79	4279	prentisiaeth	brentisiaeth phrentisiaeth
+80	4280	rheoliad	rheoliadau
+81	4281	gwydn	wydn
+82	4282	surbwch	surbychod
+83	4283	helwriaeth	
+84	4284	casét	casetiau chasét gasét
+85	4285	paratoad	baratoad paratoadau
+86	4286	gwarant	gwarantau warant warantau
+87	4287	cainc	cangau ceinciau ceingiau gainc
+88	4288	hylifol	
+89	4289	llac	lac llacach llacaf llacion
+90	4290	crwm	crom crymach crymaf crymion grwm
+91	4291	gwarantu	gwarantodd gwarantu'r warantu
+92	4292	datblygwr	datblygwyr ddatblygwr
+93	4293	galaeth	galaethau
+94	4294	goruchafiaeth	goruchafiaethau oruchafiaeth
+95	4295	adargraffiad	adargraffiadau
+96	4296	morio	forio mori moria moriadwy moriaf moriai moriais moriaist moriant moriasom moriech moriedig moriem morient morioch moriodd morir moriwch moriwn moriwyd
+97	4297	adweithio	adweithi adweithia adweithiadwy adweithiaf adweithiai adweithiais adweithiaist adweithiant adweithiech adweithiedig adweithiem adweithient adweithio'n adweithioch adweithiodd adweithir adweithiwch adweithiwn adweithiwyd hadweithio
+98	4298	cyferbyniol	cyferbynnol gyferbyniol
+99	4299	cawell	cawellau cawelli cewyll gawell
+100	4300	amrediad	amrediadau hamrediad

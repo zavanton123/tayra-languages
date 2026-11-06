@@ -1,0 +1,100 @@
+1	5601	cur	chur curau curiau gur
+2	5602	past	bast fast pastau pâst
+3	5603	llyffant	llyffaint llyffantod
+4	5604	plethu	blethu pletha plethadwy plethaf plethai plethais plethaist plethant plethech plethem plethent plethi plethir pletho plethoch plethodd plethu'n plethwch plethwn plethwyd
+5	5605	cochlyd	gochlyd
+6	5606	pryddest	bryddest
+7	5607	ymgom	ymgomiau ymgomion
+8	5608	pais	bais peisau peisiau phais
+9	5609	ffotograffwr	ffotograffwyr
+10	5610	ysbienddrych	ysbienddrychau
+11	5611	pistol	bistol phistol pistolion
+12	5612	arhosiad	arosiadau harhosiad
+13	5613	practis	bractis
+14	5614	dyfeisgar	ddyfeisgar
+15	5615	dyfrlliw	dyfrlliwiau
+16	5616	sigâr	sigarau sigârs
+17	5617	purdeb	burdeb phurdeb
+18	5618	archaeolegwr	archaeolegwyr
+19	5619	beudy	beudai beudyau beudái
+20	5620	albatros	albatrosiaid albatrosod
+21	5621	gorchwyl	gorchwyliau gorchwylion gorchwylyn orchwyl
+22	5622	cyfrifeg	
+23	5623	jocan	joci jocis
+24	5624	lluosogi	lluosocâu lluosoga lluosogadwy lluosogaf lluosogai lluosogais lluosogaist lluosogant lluosogech lluosogedig lluosogem lluosogent lluosogi'r lluosogir lluosogo lluosogoch lluosogodd lluosogwch lluosogwn lluosogwyd luosogi
+25	5625	seminar	seminarau
+26	5626	dril	ddril drilen driliau
+27	5627	anobaith	anobeithiau
+28	5628	ymatal	hymatal ymatalion
+29	5629	deuddeng	ddeuddeng
+30	5630	gwastatir	gwastatiroedd wastatir
+31	5631	cyffyrddiad	cyffyrddiadau gyffyrddiad
+32	5632	di-nod	ddi-nod dinod
+33	5633	corawl	gorawl
+34	5634	moelfre	
+35	5635	bonesig	fonesig
+36	5636	pidyn	bidyn phidyn piden pidynnau
+37	5637	atomfa	atomfeydd
+38	5638	pastwn	bastwn pastynau pastynod phastwn
+39	5639	copog	copogion gopog
+40	5640	maesyfed	faesyfed
+41	5641	buchedd	bucheddau fuchedd muchedd
+42	5642	mad	fad madioedd matach mataf
+43	5643	diet	ddiet ddietau
+44	5644	llysieuwr	llysieuwyr lysieuwr
+45	5645	methodoleg	fethodoleg fethodolegau
+46	5646	ffensio	ffensadwy ffensedig ffensi ffensia ffensiadwy ffensiaf ffensiai ffensiais ffensiaist ffensiant ffensiech ffensiedig ffensiem ffensient ffensioch ffensiodd ffensir ffensiwch ffensiwn ffensiwyd
+47	5647	dargyfeirio	dargyfeirio'r ddargyfeirio
+48	5648	dadlwytho	dadlwytha dadlwythadwy dadlwythaf dadlwythai dadlwythais dadlwythaist dadlwythant dadlwythech dadlwythedig dadlwythem dadlwythent dadlwythi dadlwythir dadlwythoch dadlwythodd dadlwythwch dadlwythwn dadlwythwyd ddadlwytho
+49	5649	gwirod	gwirodydd wirod
+50	5650	anarchiaeth	anarchaeth
+51	5651	pengwin	
+52	5652	clinig	clinigau
+53	5653	perl	berl perlau
+54	5654	malwen	malwod
+55	5655	mamol	famol
+56	5656	gofodwr	gofodwyr ofodwr
+57	5657	rhethreg	rethreg
+58	5658	dychrynllyd	ddychrynllyd
+59	5659	gofid	gofidiau gofidion gofidon ofid
+60	5660	fampir	fampiriaid fampirod
+61	5661	cariadus	gariadus
+62	5662	trigain	drigain thrigain
+63	5663	gwerslyfr	gwerslyfrau werslyfr
+64	5664	trueni	drueni
+65	5665	eiddgar	eiddgarach eiddgaraf
+66	5666	dyheu	dyhea dyheadwy dyheaf dyheai dyheais dyheaist dyheant dyheech dyheedig dyheem dyheent dyhei dyheo dyheoch dyheodd dyhewch dyhëir dyhëwch dyhëwn dyhëwyd
+67	5667	grât	gratiau gràt
+68	5668	ideal	idealau
+69	5669	goleuedigaeth	oleuedigaeth
+70	5670	hirhoedlog	
+71	5671	peillio	peillio'r
+72	5672	crafanc	chrafanc crafancau crafangau grafanc
+73	5673	rhigol	rhigolau rhigolion rhigolydd rigol
+74	5674	ailwampio	ailwampia ailwampiadwy ailwampiaf ailwampiai ailwampiant ailwampiech ailwampiedig ailwampiem ailwampient ailwampio'n ailwampio'r ailwampioch ailwampiodd ailwampiwch ailwampiwn ailwampiwyd ailwempi ailwempiais ailwempiaist ailwempiech ailwempir ailwempiwch hailwampio
+75	5675	pyped	byped pypedau
+76	5676	tipian	ddipio dipio tipit
+77	5677	gwallgofrwydd	wallgofrwydd
+78	5678	cilgant	chilgant cilgantau
+79	5679	doethur	ddoethur doethurion
+80	5680	dadfeilio	dadfeilio'n dadfeilio'r ddadfeilio
+81	5681	crwner	crwneriaid grwner
+82	5682	dosraniad	ddosraniad ddosraniadau dosraniadau
+83	5683	gwywo	
+84	5684	dirgelion	ddirgelion
+85	5685	trwytho	drwytho trwytha trwythadwy trwythaf trwythai trwythais trwythaist trwythant trwythech trwythem trwythent trwythi trwythir trwythoch trwythodd trwythwch trwythwn trwythwyd
+86	5686	eilydd	eilyddion
+87	5687	sbeis	sbeisys
+88	5688	tasgu	dasgu tasgodd
+89	5689	cusan	chusan cusanau gusan
+90	5690	teatrig	theatrig
+91	5691	amseriad	amseriadau
+92	5692	alcoholig	
+93	5693	rhewllyd	
+94	5694	afresymol	
+95	5695	bylchog	bylchiog fylchog
+96	5696	leinio	leinio'r
+97	5697	chwisgi	wisgi
+98	5698	tor	dor thor torrau torroedd torryn
+99	5699	llafurwr	lafurwyr llafurwyr
+100	5700	chwyldroadwr	chwyldroadwyr

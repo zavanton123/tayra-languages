@@ -1,0 +1,100 @@
+1	5801	didrafferth	ddidrafferth
+2	5802	hydd	hyddes hyddod
+3	5803	ail-law	
+4	5804	tragwyddoldeb	tragwyddoldebau
+5	5805	anesmwyth	
+6	5806	penbleth	benbleth penblethau
+7	5807	petroliwm	petrolewm
+8	5808	anghyfforddus	anghymfforddus
+9	5809	anghymesur	
+10	5810	rhoden	rhodenni
+11	5811	cosmig	
+12	5812	hobi	
+13	5813	staen	staeniau
+14	5814	daliwr	dalwyr ddaliwr
+15	5815	diwerth	ddiwerth di-werth
+16	5816	credydu	chredydodd chredydu credydir credydu'r gredydu
+17	5817	creadigrwydd	chreadigrwydd greadigrwydd
+18	5818	preifateiddio	breifateiddio preifateiddiwyd
+19	5819	mireinio	fireinio mireinio'r mireiniodd
+20	5820	diamod	ddiamod
+21	5821	cyfrwys	chyfrwys gyfrwys ystrywiau
+22	5822	dadorchuddio	dadorchuddi dadorchuddia dadorchuddiadwy dadorchuddiaf dadorchuddiai dadorchuddiais dadorchuddiaist dadorchuddiant dadorchuddiech dadorchuddiedig dadorchuddiem dadorchuddient dadorchuddii dadorchuddiir dadorchuddio'r dadorchuddioaf dadorchuddioch dadorchuddiodd dadorchuddiwch dadorchuddiwn dadorchuddiwyd ddadorchuddio
+23	5823	dyweddïo	ddyweddïo ddyweddïodd dyweddia dyweddiadwy dyweddiaf dyweddiai dyweddiais dyweddiaist dyweddiant dyweddiech dyweddiedig dyweddiem dyweddient dyweddii dyweddiir dyweddio dyweddioch dyweddiodd dyweddiwch dyweddiwn dyweddiwyd dyweddïaf dyweddïodd
+24	5824	ffwrnais	ffwrneisi ffwrneisiau ffwrnes ffwrnesi
+25	5825	rhagnodi	ragnodi ragnodir rhagnodi'n rhagnodir rhagnodwyd
+26	5826	cythruddo	chythruddo chythruddwyd cythruddwyd gythruddo
+27	5827	gwrthwynebwr	gwrthwynebwraig gwrthwynebwyr wrthwynebwr
+28	5828	rhimyn	
+29	5829	barus	farus
+30	5830	cymhorthdal	chymorthdaliadau gymhorthdal
+31	5831	dygymod	ddygymod dychymod dygymodaf dygymodi
+32	5832	gewyn	gewynnau
+33	5833	prudd	brudd pruddach pruddaf pruddion
+34	5834	brocoli	brocoli'n brócoli frocoli
+35	5835	rheg	reg rhegfeydd rhegion
+36	5836	trallod	drallod thrallod trallodau trallodion
+37	5837	teatraidd	theatraidd
+38	5838	rhagenw	rhagenwau
+39	5839	rhychog	rhychiog
+40	5840	chwiliad	chwiliadau
+41	5841	aduniad	aduniadau haduniad
+42	5842	milfeddyg	filfeddyg milfeddygon
+43	5843	colegol	golegol
+44	5844	aildrefnu	aildrefn aildrefna aildrefnadwy aildrefnaf aildrefnai aildrefnais aildrefnaist aildrefnant aildrefnech aildrefnedig aildrefnem aildrefnent aildrefni aildrefnir aildrefno aildrefnoch aildrefnodd aildrefnu'r aildrefnwch aildrefnwn aildrefnwyd haildrefnu
+45	5845	ailddatblygu	ailddatblygu'n ailddatblygu'r
+46	5846	cerflunio	cherflunio gerflunio
+47	5847	dadelfennu	dadelfenadwy dadelfenedig dadelfenna dadelfennaf dadelfennai dadelfennais dadelfennaist dadelfennant dadelfennech dadelfennem dadelfennent dadelfenni dadelfennir dadelfenno dadelfennoch dadelfennodd dadelfennu'r dadelfennwch dadelfennwn dadelfennwyd ddadelfennu
+48	5848	gwreiddio	gwreiddi gwreiddia gwreiddiadwy gwreiddiaf gwreiddiai gwreiddiais gwreiddiaist gwreiddiant gwreiddiech gwreiddiedig gwreiddiem gwreiddient gwreiddioch gwreiddiodd gwreiddir gwreiddiwch gwreiddiwn gwreiddiwyd wreiddio
+49	5849	proffwydoliaeth	broffwydoliaeth broffwydoliaethau
+50	5850	dealladwy	ddealladwy
+51	5851	maharen	meheryn
+52	5852	gwarthal	gwarthalion gwarthol
+53	5853	gori	gora gorir orem
+54	5854	prentisio	brentisio phrentisio prentisiodd prentisiwyd
+55	5855	dotio	dotiai
+56	5856	treblu	dreblu
+57	5857	aloi	aloiau aloion
+58	5858	ebychu	ebycha ebychadwy ebychaf ebychai ebychais ebychaist ebychant ebychech ebychedig ebychem ebychent ebychi ebychir ebycho ebychoch ebychodd ebychwch ebychwn ebychwyd
+59	5859	cnewyllyn	
+60	5860	undydd	
+61	5861	segment	segmentau
+62	5862	arwerthiant	arwerthiannau
+63	5863	cerddorfaol	gerddorfaol
+64	5864	garlleg	arlleg garllegen garllegyn
+65	5865	carchariad	carchariadau charchariad garchariad
+66	5866	clogyn	chlogyn glogyn
+67	5867	hudo	huda hudadwy hudaf hudai hudais hudaist hudant hudech hudedig hudem hudent hudi hudir hudo'r hudoch hudodd hudwch hudwn hudwyd
+68	5868	cytûn	chytûn gytûn nghytûn
+69	5869	cwpla	cwplaech cwplaem cwplaent cwplao cwplaoch cwplaodd cwplawn cwplawyd cwpleais cwpleaist cwpled cwpledi cwplei cwpleir cwplewch cwplwch cwplâ cwplâf cwplâi cwplânt gwpledi
+70	5870	digyswllt	ddigyswllt
+71	5871	nicel	
+72	5872	ffisioleg	
+73	5873	gormodedd	ormodedd
+74	5874	arteithio	arteithiwyd harteithio
+75	5875	presgripsiwn	bresgripsiwn presgripsiynau
+76	5876	hyrddio	hyrddio'i hyrddio'r
+77	5877	dynesu	ddynesu dynesa dynesadwy dynesaf dynesais dynesaist dynesant dynesedig dynesi dynesir dyneso dynesoch dynesodd dyneswch dyneswyd
+78	5878	di-dâl	ddi-dâl
+79	5879	cartrefu	cartrefai gartrefu
+80	5880	cyndyn	cyndynnach cyndynnaf gyndyn
+81	5881	cri	chri crïach crïaf crïau gri
+82	5882	depo	ddepo depos nepo
+83	5883	mwstard	fwstard mwstart
+84	5884	treffynnon	dreffynnon nhreffynnon
+85	5885	bridge	
+86	5886	crec	creciau
+87	5887	clynnog	
+88	5888	ystumllyn	ystumllynnau ystumllynnoedd
+89	5889	afan	afanen
+90	5890	aaron	
+91	5891	anghydffurfiwr	anghydffurfwyr
+92	5892	cemegydd	chemegydd
+93	5893	colwyn	golwyn
+94	5894	cromlech	cromlechi gromlech
+95	5895	lwmp	lwmpen lwmpyn lympen lympiau lympod lympyn
+96	5896	pendefig	bendefig pendefigion
+97	5897	deilio	ddeilio deili deilia deiliadwy deiliaf deiliai deiliais deiliaist deiliant deiliech deiliedig deiliem deilient deilioch deiliodd deilir deiliwch deiliwn deiliwyd
+98	5898	dielw	ddielw
+99	5899	baril	balir barel barilan barilau barilen faril
+100	5900	testament	destament

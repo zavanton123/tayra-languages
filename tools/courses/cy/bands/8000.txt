@@ -1,0 +1,100 @@
+1	7901	amharchus	
+2	7902	arholi	arhola arholadwy arholaf arholai arholais arholaist arholant arholech arholedig arholem arholent arholir arholo arholoch arholodd arholwch arholwn arholwyd
+3	7903	di-os	ddi-os
+4	7904	lemonêd	
+5	7905	isatomig	
+6	7906	tramorwr	tramorwyr
+7	7907	arbrofwr	
+8	7908	profedigaeth	profedigaethau
+9	7909	radon	
+10	7910	epilog	
+11	7911	melfed	melfedau
+12	7912	gwibdaith	gwibdeithiau
+13	7913	anheddu	anhedda anheddadwy anheddaf anheddai anheddais anheddaist anheddant anheddech anheddedig anheddem anheddent anheddi anheddir anheddo anheddoch anheddodd anheddwch anheddwn anheddwyd
+14	7914	cysawd	cysodau nghysawd
+15	7915	mewnbynnu	fewnbynnir
+16	7916	cyfriniaeth	chyfriniaeth
+17	7917	gwiber	gwiberod wiber
+18	7918	llyfrwerthwr	llyfrwerthwyr lyfrwerthwr
+19	7919	deifiol	ddeifiol
+20	7920	cignoeth	gignoeth
+21	7921	ymladdfa	ymladdfa'n ymladdfeydd
+22	7922	gofalgar	ofalgar
+23	7923	cenedl-wladwriaeth	genedl-wladwriaeth
+24	7924	argyhoeddiad	argyhoeddiadau
+25	7925	sbot	sbotau sbotiau sbots smot ysbot ysmot
+26	7926	ysmala	smala
+27	7927	darfodedigaeth	ddarfodedigaeth
+28	7928	carthu	cartha carthadwy carthaf carthai carthais carthaist carthant carthech carthedig carthem carthent carthi carthir cartho carthoch carthodd carthwch carthwn carthwyd garthu
+29	7929	cylchfan	cylchfannau gylchfan
+30	7930	cynghreirio	chynghreirio
+31	7931	cellweirus	gellweirus
+32	7932	dirdynnol	ddirdynnol
+33	7933	llwgrwobrwy	llwgrwobrwyau llwgrwobrwyon lwgrwobrwy
+34	7934	colyn	colynnau colynnod golyn
+35	7935	cabledd	gabledd
+36	7936	copyn	gopyn
+37	7937	cysgadrwydd	chysgadrwydd
+38	7938	cysylltnod	chysylltnod cysylltnodau
+39	7939	drwgdybio	ddrwgdybio drwgdybiai
+40	7940	di-ben-draw	ddi-ben-draw
+41	7941	tymheru	dymheru thymheru tymeradwy tymeredig tymhera tymheraf tymherai tymherais tymheraist tymherant tymherech tymherem tymherent tymheri tymherir tymhero tymheroch tymherodd tymherwch tymherwn tymherwyd
+42	7942	trawslythrennu	drawslythrennu thrawslythrennu
+43	7943	pentecostaidd	bentecostaidd
+44	7944	adfeilio	adfeiladwy adfeiledig adfeili adfeilia adfeiliadwy adfeiliaf adfeiliai adfeiliais adfeiliaist adfeiliant adfeiliech adfeiliem adfeilient adfeilioch adfeiliodd adfeilir adfeiliwch adfeiliwn adfeiliwyd
+45	7945	llawenhau	lawenhau llawenhaf
+46	7946	dycnwch	ddycnwch
+47	7947	croesawgar	chroesawgar groesawgar
+48	7948	cyflymiad	cyflymiadau gyflymiad
+49	7949	migwrn	bigwrn figwrn migyrnau
+50	7950	croeshoelio	croeshoeli croeshoelia croeshoeliadwy croeshoeliaf croeshoeliai croeshoeliais croeshoeliaist croeshoeliant croeshoeliech croeshoeliedig croeshoeliem croeshoelient croeshoelioch croeshoeliodd croeshoelir croeshoeliwch croeshoeliwn croeshoeliwyd groeshoelio
+51	7951	adfeddiannu	adfeddianadwy adfeddianedig adfeddianna adfeddiannaf adfeddiannai adfeddiannant adfeddiannech adfeddiannem adfeddiannent adfeddianno adfeddiannoch adfeddiannodd adfeddiannu'r adfeddiannwch adfeddiannwn adfeddiannwyd adfeddiennais adfeddiennaist adfeddienni adfeddiennir adfeddiennwch
+52	7952	glain	gleiniau lain
+53	7953	poethi	boethir poethaf poethi'r
+54	7954	sbrintio	
+55	7955	porthmon	porthmones porthmyn
+56	7956	eiddil	eiddilod eiddilyn
+57	7957	agosatrwydd	
+58	7958	ymhle	
+59	7959	sen	sennau sennoedd
+60	7960	cadi	
+61	7961	namyn	
+62	7962	gwythien	
+63	7963	bab-yng-nghyfraith	fab-yng-nghyfraith
+64	7964	dart	dartiau
+65	7965	prysor	
+66	7966	semen	
+67	7967	microb	meicrob microbau
+68	7968	ymgecru	ymgecraf
+69	7969	bydol	bydolion
+70	7970	sachaid	
+71	7971	calennig	calenigion celennig
+72	7972	clochydd	
+73	7973	stiwartia	stiwartiaid
+74	7974	esboniwr	
+75	7975	eilir	
+76	7976	copernicaidd	
+77	7977	migno	figner
+78	7978	anhafaledd	anhafaleddau
+79	7979	rhwymedig	
+80	7980	nofelwr	nofelwyr
+81	7981	peniel	
+82	7982	streicwr	streicwyr
+83	7983	port	mhort
+84	7984	gyd-weithwr	gyd-weithwyr
+85	7985	geifl	eifl
+86	7986	llaethdy	llaethdai
+87	7987	llanelwedd	
+88	7988	ysfa	rhosfa ysfaoedd ysfeuon ysfeydd
+89	7989	nudd	
+90	7990	maentwrog	
+91	7991	igam-ogam	
+92	7992	duegredynen	
+93	7993	tacio	dacia
+94	7994	twymo	dwymo twyma twymadwy twymai twymais twymaist twymant twymech twymedig twymem twyment twymi twymir twymoch twymodd twymwch twymwn twymwyd
+95	7995	botwnnog	
+96	7996	ifans	
+97	7997	anffyddlon	
+98	7998	clywedog	
+99	7999	bal	fal
+100	8000	pang	bang pangau

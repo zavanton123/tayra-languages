@@ -1,0 +1,100 @@
+1	3101	chwerw	chwerwach chwerwaf chwerwon
+2	3102	heddychlon	
+3	3103	cogydd	chogydd cogyddion gogydd
+4	3104	ffesant	ffesantau ffesantod ffesants ffesynt
+5	3105	rhewi	rewi rhewa rhewadwy rhewaf rhewai rhewais rhewaist rhewant rhewch rhewech rhewedig rhewem rhewent rhewi'n rhewir rhewn rhewo rhewoch rhewodd rhewsant rhewsoch rhewyd
+6	3106	adeiladwr	adeiladwyr
+7	3107	gwyfyn	gwyfynod wyfyn
+8	3108	goriad	goriadau ngoriad
+9	3109	partneriaeth	bartneriaeth mhartneriaeth partneriaethau phartneriaeth
+10	3110	od	odach odaf
+11	3111	pregeth	bregeth phregeth pregethau pregethoedd
+12	3112	dyfynnu	ddyfynnir ddyfynnu ddyfynnwyd dyfynna dyfynnir dyfynnodd dyfynnu'n dyfynnu'r dyfynnwyd
+13	3113	cyfranogwr	cyfranogwyr gyfranogwr
+14	3114	bad	badau fad
+15	3115	ŷd	ydau
+16	3116	gweithiol	
+17	3117	twrist	twristiaid
+18	3118	protein	brotein broteinau proteinau
+19	3119	ta	tha
+20	3120	llythrennedd	lythrennedd
+21	3121	pacio	bacio pacia paciadwy paciaf paciai paciant paciech paciedig paciem pacient pacio'n pacioch paciodd paciwch paciwn paciwyd paco peci peciais peciaist peciech pecir peciwch phacio
+22	3122	batri	bateri batri'n batris batrïau batrïoedd fatri
+23	3123	mwgwd	fwgwd mygydau
+24	3124	drudwen	ddrudwen drudwy drudwyod
+25	3125	roced	rocedi
+26	3126	ffafrio	ffafrio'r ffafriodd
+27	3127	seicoleg	
+28	3128	addurn	addurnau addurniadau
+29	3129	sgwario	sgwar sgwario'n sgwario'r
+30	3130	buddsoddiad	buddsoddiadau fuddsoddiad fuddsoddiadau
+31	3131	diamedr	ddiamedr diamedrau niamedr
+32	3132	bargen	bargain bargeiniau bargeinion bargeniau bargenion fargen
+33	3133	oedrannus	
+34	3134	digalon	ddigalon
+35	3135	panel	banel baneli paneli phanel phaneli
+36	3136	esblygu	esblyga esblygadwy esblygaf esblygai esblygais esblygaist esblygant esblygech esblygem esblygent esblygi esblygir esblygo esblygoch esblygodd esblygu'n esblygu'r esblygwch esblygwn esblygwyd hesblygu
+37	3137	tywodfaen	dywodfaen thywodfaen tywodfeini
+38	3138	seithfed	
+39	3139	gweithdrefn	gweithdrefnau weithdrefn weithdrefnau
+40	3140	dynoliaeth	ddynoliaeth dyniolaeth dynioliaeth dynolaeth
+41	3141	perchnogaeth	berchnogaeth mherchnogaeth
+42	3142	diweddaru	ddiweddaru diweddara diweddaradwy diweddaraf diweddarai diweddarant diweddarech diweddaredig diweddarem diweddarent diweddarir diweddaro diweddaroch diweddarodd diweddaru'n diweddaru'r diweddarwch diweddarwn diweddarwyd diwedderais diwedderaist diwedderi diwedderir diwedderwch
+43	3143	gwrthryfelwr	gwrthryfelwyr wrthryfelwr
+44	3144	cymanwlad	chymanwlad cymanwledydd gymanwlad
+45	3145	pryf	bryf bryfaid phryfaid pry pryfaid
+46	3146	adborth	adborthion
+47	3147	integreiddio	hintegreiddio integreiddio'n integreiddio'r
+48	3148	heneiddio	heneiddia
+49	3149	llywio	llywadwy llywedig llywi llywia llywiadwy llywiaf llywiai llywiais llywiaist llywiant llywiech llywiedig llywiem llywient llywio'i llywio'n llywio'r llywioch llywiodd llywir llywiwch llywiwn llywiwyd lywio
+50	3150	llynedd	ellynedd erllynedd yllynedd yrllynedd
+51	3151	gwrach	gwrachod wrach
+52	3152	noddi	nodda noddadwy noddaf noddai noddais noddaist noddant noddech noddedig noddem noddent noddi'n noddi'r noddid noddir noddo noddoch noddodd noddwch noddwn noddwyd
+53	3153	dirwasgiad	ddirwasgiad dirwasgiadau
+54	3154	cydio	cydiaf cydio'n cydio'r cydiodd gydio gydiodd
+55	3155	cyntedd	chyntedd cynteddau cynteddoedd gyntedd nghyntedd
+56	3156	ffidil	ffidilau ffidils ffidl ffil
+57	3157	llechu	lechu llecha llechadwy llechaf llechai llechais llechaist llechant llechech llechedig llechem llechent llechi llechid llechir llecho llechoch llechodd llechwch llechwn llechwyd
+58	3158	sgarff	sgarffau sgarffiau ysgarff
+59	3159	pin	phin pinnau pîn
+60	3160	ffyddlon	ffyddlonach ffyddlonaf
+61	3161	cipolwg	chipolwg cipolygon gipolwg
+62	3162	deiseb	ddeiseb deisebau deisebion
+63	3163	ymchwiliwr	ymchwilwyr
+64	3164	seneddwr	seneddwyr
+65	3165	alltud	alltudion
+66	3166	chwibanu	chwiban chwibana chwibanadwy chwibanaf chwibanai chwibanais chwibanaist chwibanant chwibanech chwibanedig chwibanem chwibanent chwibani chwibanir chwibano chwibanoch chwibanodd chwibanwch chwibanwn chwibanwyd chwibianu
+67	3167	cynghori	chynghori cynghor cynghora cynghoradwy cynghoraf cynghorai cynghorais cynghoraist cynghorant cynghorech cynghoredig cynghorem cynghorent cynghori'r cynghorir cynghoro cynghoroch cynghorodd cynghorwch cynghorwn cynghorwyd gynghor gynghori
+68	3168	drafft	ddrafft ddrafftiau drafftiau
+69	3169	fest	festiau fests festys
+70	3170	polyn	bolion bolyn
+71	3171	hepgor	hepgoraf hepgorwyd
+72	3172	pechod	bechod pechodau
+73	3173	hyll	hell hyllach hyllaf hyllion
+74	3174	gweinidogaeth	gweinidogaethau weinidogaeth
+75	3175	bowlio	bowli bowlia bowliadwy bowliaf bowliai bowliais bowliaist bowliant bowliech bowliedig bowliem bowlient bowlio'r bowlioch bowliodd bowlir bowliwch bowliwn bowliwyd fowlio
+76	3176	gwladfa	gwladfa'r gwladfeydd wladfa
+77	3177	myfyrio	fyfyrio myfyradwy myfyredig myfyri myfyria myfyriadwy myfyriaf myfyriai myfyriais myfyriaist myfyriant myfyriech myfyriedig myfyriem myfyrient myfyrioch myfyriodd myfyrir myfyriwch myfyriwn myfyriwyd
+78	3178	ceirch	ceirchen cheirch geirch
+79	3179	sibrwd	sibrwdiau sibrwdo sibrwdu sibryda sibrydaf sibrydai sibrydais sibrydaist sibrydant sibrydech sibrydem sibrydent sibrydi sibrydiau sibrydion sibrydir sibrydo sibrydoch sibrydodd sibrydwch sibrydwn sibrydwyd
+80	3180	ffwng	ffyngau
+81	3181	brwdfrydig	frwdfrydig
+82	3182	absennol	
+83	3183	gweithgynhyrchu	gweithgynhyrchwyd weithgynhyrchu weithgynhyrchwyd
+84	3184	diafol	ddiafol diafoliaid diafwl diefyl
+85	3185	arwyddocâd	
+86	3186	mynach	fynach mynachod mynaich
+87	3187	ymerodrol	
+88	3188	plith	mhlith
+89	3189	gali	ali galis galïau giali
+90	3190	balchder	balchderau falchder
+91	3191	swllt	swlltyn sylltau sylltyn
+92	3192	rhesymegol	resymegol
+93	3193	athletau	athletau'r
+94	3194	effro	
+95	3195	golygus	olygus
+96	3196	ffraeo	ffraea ffraeadwy ffraeaf ffraeai ffraeais ffraeaist ffraeant ffraeech ffraeedig ffraeem ffraeent ffraei ffraeir ffraeoch ffraeodd ffraewch ffraewn ffraewyd
+97	3197	aeron	aeronen haeron
+98	3198	ugeinfed	
+99	3199	naddo	
+100	3200	mwclis	fwclis

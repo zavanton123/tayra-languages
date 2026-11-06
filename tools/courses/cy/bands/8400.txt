@@ -1,0 +1,100 @@
+1	8301	tyneru	dynerwch tyneraf tynerwch
+2	8302	breindal	
+3	8303	unawdwr	unawdwyr
+4	8304	heretic	hereticiaid
+5	8305	ymlynwr	ymlynwyr
+6	8306	hofran	hofr hofra hofradwy hofraf hofrai hofrais hofraist hofranadwy hofranedig hofranna hofrannaf hofrannai hofrannais hofrannaist hofrannant hofrannech hofrannem hofrannent hofranni hofrannir hofranno hofrannoch hofrannodd hofrannwch hofrannwn hofrannwyd hofrant hofrech hofredig hofrem hofrent hofri hofrir hofro hofroch hofrodd hofrwch hofrwn hofrwyd
+7	8307	amlhau	amlha amlhaech amlhaem amlhaent amlhaf amlhao amlhaoch amlhaodd amlhawn amlhawyd amlheais amlheaist amlhei amlheir amlhewch amlhâi amlhânt
+8	8308	camymddygiad	gamymddygiad
+9	8309	ympryd	ymprydiau
+10	8310	carlwm	carlwng carlymod
+11	8311	tynfa	
+12	8312	afradlon	
+13	8313	piclo	biclo picla picladwy piclaf piclai piclais piclaist piclant piclech picledig piclem piclent picli piclir picloch piclodd piclwch piclwn piclwyd
+14	8314	cribo	criba cribadwy cribaf cribai cribais cribaist cribant cribech cribedig cribem cribent cribi cribir criboch cribodd cribwch cribwn cribwyd
+15	8315	untrew	entro entrow untrewau untrewon untro yntrew
+16	8316	maethlon	
+17	8317	diffiniedig	
+18	8318	gorfywiogrwydd	
+19	8319	diwyg	
+20	8320	anialdir	anialdiroedd
+21	8321	octopws	octopysau
+22	8322	anghenus	
+23	8323	gofod-amser	
+24	8324	drwgdybus	ddrwgdybus
+25	8325	ffonolegol	
+26	8326	gwybyddiaeth	gwybyddiaethau
+27	8327	atgas	
+28	8328	merthyrdod	
+29	8329	cynorthwywr	gynorthwywr
+30	8330	cenhadu	
+31	8331	indigo	
+32	8332	aromatherapi	
+33	8333	gorbryder	gorbryderon
+34	8334	taflunydd	taflunyddion
+35	8335	gwynias	
+36	8336	hawliwr	hawlwyr
+37	8337	plws	blws
+38	8338	clipio	glipio
+39	8339	bordeithio	mordeithio
+40	8340	croesair	croesairiau
+41	8341	amrant	amrannau amrantau
+42	8342	imiwnoleg	
+43	8343	cyfrifwr	cyfrifwyr
+44	8344	enynnu	enynnodd
+45	8345	diystyr	ddiystyr
+46	8346	amgaeëdig	
+47	8347	mangre	fangre
+48	8348	galarnad	alarnad galarnadau
+49	8349	cwyraidd	gwyraidd
+50	8350	paentiwr	baentiwr
+51	8351	rhandir	rhandiroedd
+52	8352	difater	ddifater
+53	8353	gerwin	erwin
+54	8354	bochdew	bochdewion
+55	8355	cyfarchiad	cyfarchiadau gyfarchiad
+56	8356	chwiliedydd	chwiliedyddion
+57	8357	ebychiad	ebychiadau
+58	8358	clustfeinio	glustfeinio
+59	8359	cyffelybiaeth	chyffelybiaethau cyffelybiaethau
+60	8360	plwc	blwc phlwc
+61	8361	templed	templedi thempled
+62	8362	cyfathrebiad	chyfathrebiad chyfathrebiadau cyfathrebiadau
+63	8363	erchi	archa archadwy archaf archai archant archech archedig archem archent archer archo archoch archodd archwch archwn archwyd eirch erchais erchaist erchir erchwch
+64	8364	adnau	adneuon
+65	8365	eiddigedd	
+66	8366	ansefydlogi	ansefydlogaf
+67	8367	cardigan	cardiganau cardigans
+68	8368	crymu	cryma crymadwy crymai crymais crymaist crymant crymech crymedig crymem cryment crymi crymir crymo crymoch crymodd crymwch crymwn crymwyd crymych
+69	8369	tincer	
+70	8370	ymborth	
+71	8371	chwimio	
+72	8372	gwroldeb	
+73	8373	cerydd	ceryddau ceryddon
+74	8374	clastir	clastiroedd glastir
+75	8375	teuluaidd	
+76	8376	smocio	smoci smocia smociaf smociai smociais smociaist smociant smociech smociem smocient smocioch smociodd smocir smociwch smociwn smociwyd smoco ysmocio
+77	8377	di-ben	
+78	8378	ynysfor	ynysforoedd
+79	8379	brodordy	brodordai
+80	8380	diflewyn	
+81	8381	hylaw	
+82	8382	cardotwr	cardodwr cardotwraig cardotwyr
+83	8383	bileniwm	fileniwm
+84	8384	creuddyn	
+85	8385	cyfath	gyfath
+86	8386	obstetreg	
+87	8387	mabsant	
+88	8388	prae	
+89	8389	tarddell	darddell tarddellau tarddelli
+90	8390	hyperbola	hyperbolâu
+91	8391	cyfeiliorn	cyfeiliornau cyfeilorn gyfeiliorn
+92	8392	achlust	achlustiau
+93	8393	anobeithio	anobeithi anobeithia anobeithiadwy anobeithiaf anobeithiai anobeithiais anobeithiaist anobeithiant anobeithiech anobeithiedig anobeithiem anobeithient anobeithioch anobeithiodd anobeithir anobeithiwch anobeithiwn anobeithiwyd
+94	8394	botanegwr	
+95	8395	crogwr	crogwyr
+96	8396	ymdoddbwynt	ymdoddbwyntiau
+97	8397	rhac	
+98	8398	cribfelyn	
+99	8399	diarth	
+100	8400	lithiwm	

@@ -1,0 +1,100 @@
+1	6601	meddalu	feddalu meddala meddaladwy meddalai meddalant meddalech meddaledig meddalem meddalent meddalo meddaloch meddalodd meddalwch meddalwn meddalwyd meddelais meddelaist meddeli meddelir meddelwch
+2	6602	archwiliwr	archwilwyr
+3	6603	cwnsler	gwnsler
+4	6604	ad-dalu	ad-dala ad-daladwy ad-dalaf ad-dalai ad-dalant ad-dalech ad-daledig ad-dalem ad-dalent ad-dalo ad-daloch ad-dalodd ad-dalu'r ad-dalwch ad-dalwn ad-dalwyd ad-delais ad-delaist ad-deli ad-delir ad-delwch ad-dâl atalu
+5	6605	dyddodi	ddyddodi dyddoda dyddodadwy dyddodaf dyddodai dyddodais dyddodaist dyddodant dyddodech dyddodedig dyddodem dyddodent dyddodir dyddodo dyddodoch dyddododd dyddodwch dyddodwn dyddodwyd
+6	6606	teth	deth tethau tethi
+7	6607	perimedr	berimedr perimedrau
+8	6608	codwm	
+9	6609	epilio	epiliaf
+10	6610	ystumio	
+11	6611	nythaid	nytheidiau
+12	6612	sylffad	sylffadau
+13	6613	gwiriad	gwiriadau wiriad wiriadau
+14	6614	hil-laddiad	hil-laddiadau
+15	6615	sylwebu	sylweb sylweba sylwebaf sylwebai sylwebais sylwebaist sylwebant sylwebech sylwebem sylwebent sylwebi sylwebir sylwebo sylweboch sylwebodd sylwebwch sylwebwn sylwebwyd
+16	6616	amin	aminau
+17	6617	ulw	
+18	6618	candryll	gandryll
+19	6619	erlynydd	erlynyddes erlynyddion
+20	6620	deildy	deildai
+21	6621	tandem	tandemau
+22	6622	lladdwr	laddwr lladdwyr
+23	6623	haelioni	haelioni'r
+24	6624	taniwr	daniwr tanwr tanwyr
+25	6625	ymylu	emylu hymylu ymyla ymylaf ymylo
+26	6626	atgasedd	hatgasedd
+27	6627	halltu	halltwyd
+28	6628	arweinlyfr	arweinlyfrau
+29	6629	afanc	addanc afancod
+30	6630	rhyng-golegol	ryng-golegol
+31	6631	dilyw	ddilyw diliw dilywiau
+32	6632	conglfaen	conglfeini gonglfaen
+33	6633	corddi	gorddi
+34	6634	ailargraffu	ailargraffwyd
+35	6635	epigram	epigramau
+36	6636	ffeirio	ffeiriodd
+37	6637	melltithio	felltithio melltithi melltithia melltithiadwy melltithiaf melltithiai melltithiais melltithiaist melltithiant melltithiech melltithiedig melltithiem melltithient melltithioch melltithiodd melltithir melltithiwch melltithiwn melltithiwyd
+38	6638	cydweddiad	gydweddiad gydweddiadau
+39	6639	dameg	damhegion ddameg nameg
+40	6640	talp	dalp talpau talpen talpiau talpyn telpyn thalp
+41	6641	peipen	beipen mheipen peipiau pheipen
+42	6642	camgymryd	camgymera camgymeradwy camgymeraf camgymerai camgymerais camgymeraist camgymerant camgymerech camgymeredig camgymerem camgymerent camgymeri camgymerir camgymero camgymeroch camgymerodd camgymerwch camgymerwn camgymerwyd camgymeryd chamgymryd gamgymryd
+43	6643	arolygwr	arolygwyr
+44	6644	cynllwynwr	chynllwynwr cynllwyniwr cynllwynwyr
+45	6645	cymhlygyn	cymhlygion gymhlygion
+46	6646	contractwr	contractwyr
+47	6647	cludydd	cludyddion gludydd gludyddion
+48	6648	trosleisio	throsleisio trosleisi trosleisia trosleisiadwy trosleisiaf trosleisiai trosleisiais trosleisiaist trosleisiant trosleisiech trosleisiedig trosleisiem trosleisient trosleisio'n trosleisioch trosleisiodd trosleisir trosleisiwch trosleisiwn trosleisiwyd
+49	6649	esbonyddol	
+50	6650	diraddiad	diraddiadau
+51	6651	grilio	griladwy griledig grili grilia griliadwy griliaf griliai griliais griliaist griliant griliech griliedig griliem grilient grilioch griliodd grilir griliwch griliwn griliwyd
+52	6652	cropian	
+53	6653	astell	astellau astelli astelloedd estyll
+54	6654	ysu	ysa ysadwy ysaf ysais ysaist ysant ysedig ysi ysir yso ysoch ysodd yswch yswyd
+55	6655	dilledydd	ddilledydd
+56	6656	sarff	sarph seirff
+57	6657	cuddfan	guddfan guddfannau
+58	6658	cofgolofn	cofgolofnau gofgolofn
+59	6659	tranc	dranc trangau
+60	6660	cynnen	chynnen cynhennau gynnen
+61	6661	moli	mola moladwy molaf molai molais molaist molant molech moledig molem molent moli'r molir molo moloch molodd molwch molwn molwyd
+62	6662	staenio	staenio'n
+63	6663	monopoli	fonopoli monopoli'r
+64	6664	ordinhad	ordinhadau
+65	6665	chwerwder	
+66	6666	eplesu	
+67	6667	premiwm	
+68	6668	conwydd	conwyddau conwydden
+69	6669	thermodynamig	
+70	6670	cymedrig	
+71	6671	cryptograffeg	
+72	6672	osgo	
+73	6673	golffwr	golffwyr
+74	6674	ysglyfaethu	
+75	6675	adeiladol	
+76	6676	gwawdlun	gwawdluniau
+77	6677	trosglwyddydd	drosglwyddydd
+78	6678	gwyrthiol	wyrthiol
+79	6679	sepal	sepalau
+80	6680	rhyddfrydiaeth	ryddfrydiaeth
+81	6681	datblygiadol	ddatblygiadol
+82	6682	cartesaidd	gartesaidd
+83	6683	cynhyrfus	gynhyrfus
+84	6684	teilwra	theilwro
+85	6685	llyfu	llyf llyfa llyfaf llyfai llyfais llyfaist llyfant llyfech llyfedig llyfem llyfent llyfi llyfir llyfo llyfoch llyfodd llyfu'r llyfwch llyfwn llyfwyd llyo llyu llywyd lyfu
+86	6686	cydgyfeirio	cydgyfeiriant gydgyfeiriant gydgyfeirio
+87	6687	cefnwyrdd	cefnwerdd
+88	6688	talybont	
+89	6689	llanbadarn	
+90	6690	brenhinwr	brenhinwyr
+91	6691	cordylluan	cordylluanod
+92	6692	greal	
+93	6693	otomatig	
+94	6694	presbyteriad	presbyteriaid
+95	6695	ysgrifenyddes	sgrifenyddes ysgrifenyddesau
+96	6696	lleu	leu
+97	6697	dibyn	ddibyn dibynnau
+98	6698	gre	greoedd re
+99	6699	cyd-weld	cydwela cydweladwy cydwelaf cydwelai cydwelais cydwelaist cydwelant cydwelech cydweledig cydwelem cydwelent cydweli cydwelir cydwelo cydweloch cydwelodd cydwelwch cydwelwn cydwelwyd cydwêl
+100	6700	mygydog	fygydog

@@ -1,0 +1,100 @@
+1	5201	euraid	
+2	5202	feirws	feirysau
+3	5203	sarn	sarnau
+4	5204	baedd	baeddod faedd
+5	5205	sinsir	
+6	5206	crocodeil	crocodeiliod crocodeilod crocodeilys grocodeil
+7	5207	trech	drech trechach trechaf
+8	5208	hierarchaeth	hierarchaethau
+9	5209	masg	fasg masgau masgiau
+10	5210	traphont	draphont traphontydd
+11	5211	claddedigaeth	chladdedigaeth claddedigaethau gladdedigaeth
+12	5212	dirgrynu	ddirgrynu dirgryna dirgrynadwy dirgrynaf dirgrynai dirgrynais dirgrynaist dirgrynant dirgrynech dirgrynedig dirgrynem dirgrynent dirgryni dirgrynir dirgryno dirgrynoch dirgrynodd dirgrynwch dirgrynwn dirgrynwyd dirgrŷn
+13	5213	cyfeiriadur	cyfeiriaduron gyfeiriadur nghyfeiriadur
+14	5214	bonheddwr	bonheddwyr fonheddwr
+15	5215	cytgan	chytgan cytganau gytgan nghytgan
+16	5216	delw	ddelw delw'r delwau
+17	5217	lletygarwch	letygarwch
+18	5218	barbeciw	barbeciwiau barbeciws farbeciw
+19	5219	toddiant	doddiant toddiannau
+20	5220	iachawdwriaeth	
+21	5221	priodoledd	briodoledd priodoleddau
+22	5222	perthynol	berthynol
+23	5223	credadwy	chredadwy gredadwy
+24	5224	tafliad	dafliad
+25	5225	ffrydio	ffrydi ffrydia ffrydiadwy ffrydiaf ffrydiai ffrydiais ffrydiaist ffrydiant ffrydiech ffrydiedig ffrydiem ffrydient ffrydio'n ffrydioch ffrydiodd ffrydir ffrydiwch ffrydiwn ffrydiwyd
+26	5226	prynwr	brynwr brynwyr mhrynwr phrynwyr prynwyr
+27	5227	ffraeth	ffraethach ffraethaf
+28	5228	dysgedig	ddysgedig
+29	5229	mytholegol	fytholegol
+30	5230	betio	beti
+31	5231	men	fen mennau menni
+32	5232	drycin	ddrycin drycinoedd
+33	5233	cantref	cantrefi gantref nghantref
+34	5234	pabyddol	babyddol
+35	5235	gyddfddu	gwddfddu gyddfddu'n gyddfdduon yddfddu
+36	5236	aflonydd	
+37	5237	lafant	
+38	5238	cyfannol	gyfannol
+39	5239	cwffio	cwffi cwffia cwffiadwy cwffiaf cwffiai cwffiais cwffiaist cwffiant cwffiech cwffiedig cwffiem cwffient cwffioch cwffiodd cwffir cwffiwch cwffiwn cwffiwyd gwffio
+40	5240	blêr	flêr
+41	5241	pafin	bafin pafinau pafins
+42	5242	chwyn	
+43	5243	brwnt	brwntach brwntaf frwnt
+44	5244	pleidiol	bleidiol pleidol
+45	5245	corsiog	chorsiog gorsiog
+46	5246	atyniadol	
+47	5247	bywgraffyddol	fywgraffyddol
+48	5248	dirybudd	ddirybudd
+49	5249	gwrtaith	gwrteithiaf gwrteithiau gwrteithio gwrteithion wrtaith
+50	5250	dihareb	ddihareb diarhebion
+51	5251	cydbwyso	gydbwyso
+52	5252	eilradd	
+53	5253	ecolegol	
+54	5254	datguddiad	datguddiadau ddatguddiad
+55	5255	gwlybaniaeth	wlybaniaeth
+56	5256	cyfernod	cyfernodau gyfernod
+57	5257	posibiliad	bosibiliadau phosibiliadau posibiliadau
+58	5258	potasiwm	botasiwm photasiwm
+59	5259	loteri	loteri'r
+60	5260	erledigaeth	
+61	5261	pendefigaeth	bendefigaeth pendefigaethau
+62	5262	pedol	bedol pedolau
+63	5263	llechwedd	lechwedd llechweddau
+64	5264	clwt	clwtyn clytiau glwt
+65	5265	croeslin	groeslin
+66	5266	llaes	laes lleision
+67	5267	chwedegau	chwedegau'r
+68	5268	rhwyll	rhwyllau rwyll
+69	5269	ioga	
+70	5270	cetrisen	cetris chetris getris getrisen
+71	5271	agosrwydd	hagosrwydd
+72	5272	sbon	
+73	5273	organydd	organyddion
+74	5274	tegeirian	degeirian tegeirianau tegeiriannau
+75	5275	lladrata	ladrata lladrata'r lladratadwy lladrataf lladratai lladratant lladratech lladratedig lladratem lladratent lladrato lladratoch lladratodd lladratwch lladratwn lladratwyd lladretais lladretaist lladreti lladretir lladretwch lledrata
+76	5276	mynachdy	fynachdy mynachdai mynachdy'r
+77	5277	trethu	drethu threthu tretha trethadwy trethaf trethai trethais trethaist trethant trethech trethedig trethem trethent trethi trethir tretho trethoch trethodd trethwch trethwn trethwyd
+78	5278	manylyn	manylion
+79	5279	odrif	odrifau
+80	5280	huawdl	huawdlion huodl huotlach huotlaf
+81	5281	crydd	chrydd cryddion grydd
+82	5282	fflag	fflacsen fflagen fflagiau fflags
+83	5283	rhedweli	rhedwel rhedwelïau rhedwelïoedd rhwydweli rhydweli
+84	5284	isrywogaeth	
+85	5285	italig	
+86	5286	cyfiawnhad	chyfiawnhad gyfiawnhad
+87	5287	annerbyniol	
+88	5288	gwrthiant	wrthiant
+89	5289	pydredd	bydredd mhydredd
+90	5290	hydoddiant	hydoddiannau
+91	5291	ciwbig	giwbig
+92	5292	iacháu	hiacháu iachadwy iachaech iachaem iachaent iachao iachaoch iachaodd iachawch iachawn iachawyd iacheais iacheaist iachedig iachei iacheir iachewch iacháu'r iachâ iachâf iachâi iachânt
+93	5293	pwmpiio	bwmpio pwmpio pwmpiwyd
+94	5294	trilliw	drilliw trilliwiau
+95	5295	ffêr	fferau
+96	5296	anallu	hanallu
+97	5297	emynydd	emynwyr
+98	5298	seiat	seiad seiadau seiet
+99	5299	amgylchu	amgylcha amgylchadwy amgylchaf amgylchai amgylchais amgylchaist amgylchant amgylchech amgylched amgylchem amgylchent amgylchi amgylchir amgylcho amgylchoch amgylchodd amgylchu'r amgylchwch amgylchwn amgylchwyd hamgylchu
+100	5300	ffosffad	ffosffadau

@@ -1,0 +1,100 @@
+1	7501	rhwystredigaeth	rhwystredigaethau rwystredigaeth
+2	7502	llafurio	lafurio llafuriai llafuriodd
+3	7503	stigma	stigmâu
+4	7504	agorawd	agorawdau
+5	7505	dargludo	dargluda dargludadwy dargludaf dargludai dargludais dargludaist dargludant dargludech dargludedig dargludem dargludent dargludi dargludir dargludoch dargludodd dargludwch dargludwn dargludwyd
+6	7506	mantol	fantol mantolau
+7	7507	lletraws	letraws
+8	7508	ffeibr	
+9	7509	mamolaeth	mamoliaeth
+10	7510	sarsio	sarsiant
+11	7511	patrymog	batrymog
+12	7512	buddugoliaethus	fuddugoliaethus
+13	7513	blaendal	
+14	7514	gwerthyd	
+15	7515	fforchio	fforchio'n
+16	7516	llesol	
+17	7517	estrys	estrysod
+18	7518	taer	daer taerach taeraf taerion
+19	7519	ffigurol	
+20	7520	wythawd	wythawdau
+21	7521	nobl	
+22	7522	symbylydd	
+23	7523	gorfoledd	
+24	7524	asiad	asiadau asiaid hasiad
+25	7525	turio	durio thurio turiaf twrio
+26	7526	gweithrediaeth	weithrediaeth
+27	7527	perffeithio	berffeithio perffeithi perffeithia perffeithiadwy perffeithiaf perffeithiai perffeithiais perffeithiaist perffeithiant perffeithiech perffeithiedig perffeithiem perffeithient perffeithioch perffeithiodd perffeithir perffeithiwch perffeithiwn perffeithiwyd
+28	7528	meddwdod	feddwdod
+29	7529	ysmygwr	smygwr ysmygwyr
+30	7530	consuriwr	gonsuriwr
+31	7531	bodlonrwydd	fodlonrwydd
+32	7532	dychmygus	ddychmygus
+33	7533	gwawd	gwawdau gwawdiau wawd
+34	7534	gwacter	gwacterau wacter
+35	7535	ailymddangos	ailymddangosodd
+36	7536	erchyllter	erchyllterau
+37	7537	gwladaidd	wladaidd
+38	7538	cyfarwyddiaeth	gyfarwyddiaeth
+39	7539	cynhaliol	gynhaliol
+40	7540	hyfforddai	hyfforddeion
+41	7541	modernaidd	fodernaidd
+42	7542	arhosfa	arosfa arosfeydd
+43	7543	dyrys	ddyrys drys
+44	7544	anturiaethwr	anturiaethwyr
+45	7545	galarwr	galarwyr
+46	7546	miled	milet
+47	7547	arwisgo	arwisga arwisgadwy arwisgaf arwisgai arwisgais arwisgaist arwisgant arwisgech arwisgedig arwisgem arwisgent arwisgi arwisgir arwisgo'r arwisgoaf arwisgoch arwisgodd arwisgwch arwisgwn arwisgwyd
+48	7548	parasitig	barasitig
+49	7549	morleidr	morladron
+50	7550	tendr	tendrau thendr
+51	7551	disylw	ddisylw di-sylw
+52	7552	dyfaliad	ddyfaliad dyfaliadau
+53	7553	clwydo	glwydo
+54	7554	rhagosodedig	ragosodedig
+55	7555	gwrthgyferbynnu	gwrthgyferbynadwy gwrthgyferbynedig gwrthgyferbynna gwrthgyferbynnaf gwrthgyferbynnai gwrthgyferbynnais gwrthgyferbynnaist gwrthgyferbynnant gwrthgyferbynnech gwrthgyferbynnem gwrthgyferbynnent gwrthgyferbynni gwrthgyferbynnir gwrthgyferbynno gwrthgyferbynnoch gwrthgyferbynnodd gwrthgyferbynnwch gwrthgyferbynnwn gwrthgyferbynnwyd
+56	7556	persli	bersli perslïen phersli
+57	7557	unigolyddol	
+58	7558	ymestyniad	
+59	7559	sipsi	sipsiwn
+60	7560	lol	
+61	7561	ymenyddol	ymenyddiol
+62	7562	edifaru	difaru edifara edifaraf edifarwch
+63	7563	sypyn	swpyn sypynnau
+64	7564	tyndra	tyndrâu
+65	7565	brigeryn	briger
+66	7566	sancteiddrwydd	
+67	7567	didwyll	ddidwyll
+68	7568	gwastraffus	wastraffus
+69	7569	cogio	gogio
+70	7570	gogwyddiad	gogwyddiadau ogwyddiad
+71	7571	eilun	eiluniau eilunod heilun
+72	7572	rheithfarn	reithfarn rheithfarnau
+73	7573	anwytho	anwytha anwythadwy anwythaf anwythai anwythais anwythaist anwythant anwythech anwythedig anwythem anwythent anwythi anwythir anwythoch anwythodd anwythwch anwythwn anwythwyd
+74	7574	egr	hegr
+75	7575	soned	sonedau
+76	7576	dadwneud	ddadwneud
+77	7577	cerfluniaeth	cherfluniaeth
+78	7578	porthi	borthi porthaf
+79	7579	cyffeswr	cyffeswyr gyffeswr
+80	7580	esgymuno	esgymunwyd hesgymuno
+81	7581	dihangfa	ddihangfa diangfâu
+82	7582	gwellhau	gwellhaodd
+83	7583	gwrogaeth	gwriogaeth wrogaeth
+84	7584	anturio	anturio'r anturiodd
+85	7585	gwreichionen	wreichion wreichionen
+86	7586	cymod	gymod
+87	7587	cydraniad	cydraniadau gydraniadau
+88	7588	rhyddfreinio	rhyddfreini rhyddfreinia rhyddfreiniadwy rhyddfreiniaf rhyddfreiniai rhyddfreiniais rhyddfreiniaist rhyddfreiniant rhyddfreiniech rhyddfreiniedig rhyddfreiniem rhyddfreinient rhyddfreinio'r rhyddfreinioch rhyddfreiniodd rhyddfreinir rhyddfreiniwch rhyddfreiniwn rhyddfreiniwyd ryddfreinio
+89	7589	gorlifdir	orlifdir
+90	7590	berwbwynt	berwbwyntiau
+91	7591	godineb	odineb
+92	7592	gwirfodd	wirfodd
+93	7593	croestorri	croestoradwy croestoredig croestori croestorra croestorraf croestorrai croestorrais croestorraist croestorrant croestorrech croestorrem croestorrent croestorrir croestorro croestorroch croestorrodd croestorrwch croestorrwn croestorrwyd
+94	7594	dyfrgi	dyfrgwn
+95	7595	ceryddu	ceryddaf geryddu
+96	7596	mydryddol	fydryddol
+97	7597	cysegriad	gysegriad
+98	7598	baglu	bagla bagladwy baglaf baglai baglant baglech bagledig baglem baglent baglo bagloch baglodd baglwch baglwn baglwyd beglais beglaist begli beglir beglwch faglu magli maglu
+99	7599	poenydio	boenydio mhoenydio phoenydio poenydia poenydiaf poenydii poenydiia poenydiiadwy poenydiiaf poenydiiai poenydiiais poenydiiaist poenydiiant poenydiiech poenydiiedig poenydiiem poenydiient poenydiio poenydiioch poenydiiodd poenydiir poenydiiwch poenydiiwn poenydiiwyd poenydiwch
+100	7600	dyfnhau	dyfnha dyfnhadwy dyfnhaech dyfnhaem dyfnhaent dyfnhaf dyfnhao dyfnhaoch dyfnhaodd dyfnhau'r dyfnhawn dyfnhawyd dyfnheais dyfnheaist dyfnhedig dyfnhei dyfnheir dyfnheua dyfnheuwch dyfnhewch dyfnhâi dyfnhânt

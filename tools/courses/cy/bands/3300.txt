@@ -1,0 +1,100 @@
+1	3201	sêl	selau seli seliau sêls
+2	3202	dwl	ddwl dylach dylion nwl
+3	3203	amharu	amhara amharadwy amharaf amharai amharant amharech amharedig amharem amharent amharo amharoch amharodd amharwch amharwn amharwyd amherais amheraist amheri amherir amherwch
+4	3204	celwydd	celwyddau chelwydd gelwydd
+5	3205	seiclo	seicl seicla seicladwy seiclaf seiclai seiclais seiclaist seiclant seiclech seicledig seiclem seiclent seicli seiclir seiclo'n seicloch seiclodd seiclon seiclwch seiclwn seiclwyd
+6	3206	llau	lau
+7	3207	gregyn	cregyn
+8	3208	rhwyd	rhwydau rhwydi rwyd
+9	3209	helwr	heliwr helwyr
+10	3210	tirfeddiannwr	dirfeddiannwr dirfeddiannwyr dirfeddianwyr thirfeddiannwr thirfeddianwyr tirfeddiannwyr tirfeddianwyr
+11	3211	bathodyn	bathodynnau fathodyn
+12	3212	cylchdro	chylchdro cylchdro'n cylchdro'r cylchdroeon gylchdro
+13	3213	diswyddo	ddiswyddo diswydda diswyddadwy diswyddaf diswyddai diswyddais diswyddaist diswyddant diswyddech diswyddedig diswyddem diswyddent diswyddi diswyddir diswyddo'r diswyddoch diswyddodd diswyddwch diswyddwn diswyddwyd
+14	3214	clinigol	glinigol
+15	3215	ieithyddiaeth	ieithyddiaethau
+16	3216	gwledd	gwleddoedd ngwledd wledd
+17	3217	hygyrch	
+18	3218	amsugno	amsugnaf amsugno'r amsugnodd amsugnwyd
+19	3219	cron	gron
+20	3220	rhedwr	redwr redwyr rhedwyr
+21	3221	helo	
+22	3222	modiwl	fodiwl fodiwlau modiwlau
+23	3223	carw	carw'r ceirw charw
+24	3224	rhwymo	rhwyma rhwymadwy rhwymaf rhwymai rhwymais rhwymaist rhwymant rhwymech rhwymem rhwyment rhwymi rhwymid rhwymir rhwymo'n rhwymo'r rhwymoch rhwymodd rhwymwch rhwymwn rhwymwyd rwymo
+25	3225	gyriant	gyriannau yriant
+26	3226	plwm	blwm phlwm plymiau
+27	3227	cyfarpar	chyfarpar gyfarpar
+28	3228	ffotograffiaeth	
+29	3229	crac	craciau grac
+30	3230	calchfaen	calchfeini chalchfaen galchfaen
+31	3231	amgrwm	amgrymion
+32	3232	toiled	doiled toiledau toiledi
+33	3233	hysbysu	hysbysa hysbysadwy hysbysaf hysbysais hysbysaist hysbysant hysbysedig hysbysi hysbysir hysbyso hysbysoch hysbysodd hysbysu'r hysbyswch hysbyswyd
+34	3234	haniaethol	
+35	3235	bydysawd	fydysawd
+36	3236	cebl	ceblau cêbl gebl
+37	3237	ymddwyn	ymddwg ymddyga ymddygadwy ymddygaf ymddygai ymddygais ymddygaist ymddygant ymddygech ymddygedig ymddygem ymddygent ymddygi ymddygir ymddygo ymddygoch ymddygodd ymddygwch ymddygwn ymddygwyd
+38	3238	gwirioni	gwirionaf wirioni
+39	3239	trefnus	drefnus
+40	3240	pryderus	bryderus
+41	3241	petrol	betrol phetrol
+42	3242	unigedd	
+43	3243	gwireddu	gwireddu'r gwireddwyd wireddu wireddwyd
+44	3244	gwrthblaid	gwrthbleidiau wrthblaid
+45	3245	ysgoloriaeth	ysgoloriaethau
+46	3246	afreolaidd	
+47	3247	ystyriaeth	ystyriaethau
+48	3248	hanfod	hanfodion hanfu hanfuant hanfuoch hanfuwyd hanfydd hanfydda hanfyddadwy hanfyddaf hanfyddai hanfyddais hanfyddaist hanfyddant hanfyddech hanfyddedig hanfyddem hanfyddent hanfyddi hanfyddir hanfyddo hanfyddoch hanfyddodd hanfyddwch hanfyddwn hanfûm
+49	3249	cromlin	cromlinau gromlin
+50	3250	rysáit	ryseitiau rysetiau
+51	3251	llusgo	llusg llusga llusgadwy llusgaf llusgai llusgais llusgaist llusgant llusgech llusgedig llusgem llusgent llusgi llusgir llusgo'r llusgoch llusgodd llusgwch llusgwn llusgwyd lusgo
+52	3252	cadlywydd	cadlywyddion chadlywydd gadlywydd
+53	3253	cyfandirol	gyfandirol
+54	3254	pupur	bupur phupur puprau
+55	3255	cyfarwyddyd	chyfarwyddyd gyfarwyddyd
+56	3256	adfywio	adfywi adfywia adfywiadwy adfywiaf adfywiai adfywiais adfywiaist adfywiant adfywiech adfywiem adfywient adfywio'n adfywio'r adfywioch adfywiodd adfywir adfywiwch adfywiwn adfywiwyd hadfywio
+57	3257	allor	allorau hallor
+58	3258	rhegen	rhegennod
+59	3259	ffit	ffitach ffitaf ffitiau
+60	3260	rhamant	ramant rhamantau
+61	3261	morwr	forwr morwyr
+62	3262	niweidio	niweidi niweidia niweidiaf niweidiai niweidiais niweidiaist niweidiant niweidiech niweidiedig niweidiem niweidient niweidio'n niweidio'r niweidioch niweidiodd niweidir niweidiwch niweidiwn niweidiwyd
+63	3263	tractor	thractor tractorau tractors
+64	3264	pydru	bydru pydra pydradwy pydraf pydrai pydrais pydraist pydrant pydrech pydredig pydrem pydrent pydri pydrir pydro pydroch pydrodd pydru'n pydru'r pydrwch pydrwn pydrwyd
+65	3265	swyn	swynion
+66	3266	syn	synach synaf synion
+67	3267	cynghreiriad	chynghreiriaid cynghreiriaid gynghreiriaid
+68	3268	sylfaenwr	sylfaenwyr
+69	3269	gwyrddlas	gwyrddleision wyrddlas
+70	3270	herwgipio	herwgipio'r herwgipiodd herwgipiwyd
+71	3271	canmoliaeth	canmoliaethau chanmoliaeth ganmoliaeth
+72	3272	ffortiwn	ffortiwns ffortiynau
+73	3273	etifedd	etifeddion hetifedd
+74	3274	chwifio	chwifio'i chwifio'r chwifiodd chwifiwyd
+75	3275	fforddio	fforddi fforddia fforddiadwy fforddiaf fforddiai fforddiais fforddiaist fforddiant fforddiech fforddiedig fforddiem fforddient fforddio'r fforddioch fforddiodd fforddir fforddiwch fforddiwn fforddiwyd ffordo
+76	3276	urddo	hurddo hurddwyd urddo'n urddwyd
+77	3277	dinasyddiaeth	ddinasyddiaeth
+78	3278	drysu	ddrysu drysa drysadwy drysaf drysais drysaist drysant drysedig drysir dryso drysoch drysodd drysu'r dryswyd dyrysu
+79	3279	esgor	esgora esgoradwy esgoraf esgorai esgorais esgoraist esgorant esgorau esgorech esgoredig esgorem esgorent esgori esgorir esgoro esgoroch esgorodd esgorwch esgorwn esgorwyd
+80	3280	tebygrwydd	debygrwydd thebygrwydd
+81	3281	cylchol	gylchol
+82	3282	mudo	fudo muda mudadwy mudaf mudai mudais mudaist mudant mudech mudedig mudem mudent mudi mudir mudoch mudodd mudwch mudwn mudwyd
+83	3283	ia	
+84	3284	ansicrwydd	
+85	3285	targedu	dargedu dargedwyd targedu'r targedwyd thargedu thargedwyd
+86	3286	dyfarniad	ddyfarniad dyfarniadau
+87	3287	cyfeillgarwch	chyfeillgarwch gyfeillgarwch
+88	3288	gwerthuso	gwerthusaf gwerthuso'n gwerthuso'r gwerthuso'u werthuso
+89	3289	allbwn	
+90	3290	plymio	blymio plymi plymia plymiadwy plymiaf plymiai plymiais plymiaist plymiant plymiech plymiedig plymiem plymient plymii plymiir plymio'r plymioch plymiodd plymiwch plymiwn plymiwyd
+91	3291	ymsefydlu	ymsefydlodd
+92	3292	gorlawn	orlawn
+93	3293	amddifad	
+94	3294	orgraff	horgraff orgraffau
+95	3295	edmygu	edmyga edmygaf edmygid edmygir edmygu'n edmygu'r edmygwch
+96	3296	ty	nhy ty'n ty'r
+97	3297	rwber	rhwber rwberi rwbers rybar rybyr
+98	3298	ffotograffydd	ffotograffyddion
+99	3299	torfol	dorfol
+100	3300	cymhareb	chymhareb cymarebau gymhareb

@@ -1,0 +1,100 @@
+1	501	disgrifio	ddisgrifio disgrifi disgrifia disgrifiadwy disgrifiaf disgrifiai disgrifiais disgrifiaist disgrifiant disgrifiech disgrifiedig disgrifiem disgrifient disgrifio'i disgrifio'n disgrifio'r disgrifioch disgrifiodd disgrifir disgrifiwch disgrifiwn disgrifiwyd
+2	502	cyflym	chyflym cyflymach cyflymaf cyflymed gyflym
+3	503	elfen	elfennau helfen
+4	504	dynol	ddynol dyniol
+5	505	oedolyn	oedolion
+6	506	daear	daearoedd ddaear
+7	507	llygad	llygadau llygaid lygad
+8	508	proses	broses mhroses phroses prosesau prosesi
+9	509	parc	barc barciau farc mharc parciau pharc
+10	510	nodwedd	nodweddau nodweddion
+11	511	melyn	felyn melen melynach melynaf melynion
+12	512	gŵyl	gwyl gwylach gwylaf gwyliau gwylion ngŵyl ŵyl
+13	513	cyfle	chyfle cyfleoedd cyfleon gyfle
+14	514	byddin	byddinoedd fyddin myddin
+15	515	ffwrdd	
+16	516	eang	eangaf ehangach ehangaf
+17	517	gweddill	ngweddill weddill
+18	518	deilen	dail dalen ddail ddeilen nail
+19	519	anifail	anifeilaid anifeiles anifeiliaid anifeiliod anifeilod anifeilyn enifail
+20	520	canlynol	canllynol canlynolion ganlynol
+21	521	haul	heuliau
+22	522	prin	brin phrin prined prinion prinnach prinnaf
+23	523	barn	barnau farn marn
+24	524	gorffen	gorffenadwy gorffenaf gorffenedig gorffenna gorffennaf gorffennai gorffennais gorffennaist gorffennant gorffennech gorffennem gorffennent gorffenni gorffennir gorffenno gorffennoch gorffennodd gorffennwch gorffennwn gorffennwyd gorffenodd gorffenwyd orffen
+25	525	methu	fethu metha methadwy methaf methai methais methaist methant methech methem methent methi methir metho methoch methodd methu'n methu'r methwch methwn methwyd
+26	526	llwyddo	llwydda llwyddaf llwyddai llwyddais llwyddaist llwyddant llwyddasant llwyddech llwyddedig llwyddem llwyddent llwyddi llwyddio llwyddir llwyddoch llwyddodd llwyddwch llwyddwn llwyddwyd lwyddo
+27	527	wyth	
+28	528	sant	saint seintiau
+29	529	pêl	bel belen bêl mhêl pelau peli phêl
+30	530	syml	seml symlach symlaf symlion
+31	531	gweinidog	gweinidogion weinidog
+32	532	hoff	hoffach hoffion
+33	533	fersiwn	fersiynau
+34	534	gwallt	gwalltiau ngwallt wallt
+35	535	sylweddol	
+36	536	anodd	anawdd anhawdd anhaws anhawsaf anoddach anoddaf anos
+37	537	celf	celfau chelf gelf nghelf
+38	538	ystyr	hystyr ystyron
+39	539	canrif	canrifoedd chanrif ganrif
+40	540	munud	funud munudau
+41	541	brown	brownach brownaf frown
+42	542	ymwneud	hymwneud ymwnaf
+43	543	hanesyddol	
+44	544	amrywiol	amrywiolion
+45	545	gwerth	gwerthoedd ngwerth werth
+46	546	glaw	glaw'n glawiau glawogydd law
+47	547	eithaf	eitha eithafion eithafoedd heithaf
+48	548	etholiad	etholiadau
+49	549	chwaer	chwaeoredd chwaeren chwioredd chwiorydd
+50	550	llawr	lloriau
+51	551	trafod	drafod thrafod trafoda trafodadwy trafodaf trafodai trafodais trafodaist trafodant trafodau trafodech trafodedig trafodem trafodent trafodi trafodid trafodion trafodir trafodo trafodoch trafododd trafodont trafodwch trafodwn trafodwyd
+52	552	enwi	enwa enwadwy enwaf enwai enwais enwaist enwant enwch enwech enwem enwent enwi'n enwi'r enwid enwir enwn enwo enwoch enwodd enwyd henwi
+53	553	naturiol	
+54	554	traddodiadol	draddodiadol thraddodiadol
+55	555	diddordeb	ddiddordeb diddordebau niddordeb
+56	556	data	data'n data'r ddata
+57	557	llys	llysoedd lys
+58	558	lleoliad	leoliad lleoliadau
+59	559	cwrs	chwrs cwrsach cwrsaf cyrsiau gwrs nghwrs
+60	560	teitl	deitl nheitl teitlau theitl
+61	561	tipyn	dipyn thipyn tipiau tipynnau
+62	562	undeb	hundeb undebau
+63	563	pe	be pe'n phe
+64	564	talaith	dalaith nhalaith taleithiau thalaith
+65	565	fan	faniau
+66	566	modern	fodern
+67	567	ffôn	ffonau
+68	568	mater	fater materion
+69	569	darparu	darpara darparadwy darparaf darparai darparant darparech darparedig darparem darparent darparo darparoch darparodd darparu'r darparwch darparwn darparwyd darperais darperaist darperi darperid darperir darperwch ddarparu
+70	570	hytrach	
+71	571	perthynas	berthynas berthynasau mherthynas perthnasau perthnasoedd pherthynas
+72	572	myfyriwr	fyfyriwr myfyrwyr
+73	573	pwynt	bwynt mhwynt phwynt pwyntiau
+74	574	gwella	gwella'i gwella'n gwella'r gwelladwy gwellaf gwellai gwellais gwellaist gwellant gwellech gwelledig gwellem gwellent gwelli gwellir gwello gwelloch gwellodd gwellwch gwellwn gwellwyd ngwella wella
+75	575	natur	naturau naturiau
+76	576	lleiaf	leiaf lleia
+77	577	ffenestr	ffenast ffenest ffenestri
+78	578	parod	barod parotach parotaf pharod
+79	579	datblygiad	datblygiadau ddatblygiad natblygiad
+80	580	fo	fo'i fo'n fo'r fo'u
+81	581	iechyd	hiechyd iechydau
+82	582	trefn	drefn nhrefn threfn trefnau
+83	583	cystadleuaeth	chystadleuaeth cystadlaethau cystadleuaethau cystadleuthau gystadleuaeth nghystadleuaeth
+84	584	arweinydd	arweinwyr arweinyddion harweinydd
+85	585	cysylltu	chysylltu cysyllt cysyllta cysylltadwy cysylltaf cysylltai cysylltais cysylltaist cysylltant cysylltech cysylltedig cysylltem cysylltent cysyllti cysylltid cysylltir cysyllto cysylltoch cysylltodd cysylltu'n cysylltu'r cysylltwch cysylltwn cysylltwyd gysylltu
+86	586	hydref	hyddfref hydrefau
+87	587	capel	capelau capeli capeloedd capelydd chapel gapel nghapel
+88	588	prawf	brawf phrawf profion
+89	589	cynghrair	chynghrair cynghreiriau gynghrair nghynghrair
+90	590	nôl	nola nolaf nolwch
+91	591	gradd	graddau radd
+92	592	cariad	cariadau cariadon chariad gariad nghariad
+93	593	draw	draw'r
+94	594	priodas	briodas mhriodas phriodas priodasau
+95	595	gwely	gwely'n gwely'r gwelyau gwelâu gwlâu ngwely wely
+96	596	perfformio	berfformio perfformi perfformia perfformiadwy perfformiaf perfformiai perfformiais perfformiaist perfformiant perfformiasant perfformiech perfformiedig perfformiem perfformient perfformio'n perfformio'r perfformioch perfformiodd perfformir perfformiwch perfformiwn perfformiwyd pherfformio
+97	597	gwrthod	gwrthoda gwrthodadwy gwrthodaf gwrthodai gwrthodais gwrthodaist gwrthodant gwrthodasant gwrthodech gwrthodedig gwrthodem gwrthodent gwrthodi gwrthodir gwrthodo gwrthodoch gwrthododd gwrthodwch gwrthodwn gwrthodwyd gwrthyd wrthod
+98	598	llwyddiant	llwyddiannau lwyddiant
+99	599	traeth	draeth nhraeth thraeth traethau
+100	600	disgwyl	ddisgwyl disgwyladwy disgwyli disgwylia disgwyliadwy disgwyliaf disgwyliai disgwyliais disgwyliaist disgwyliant disgwylid disgwyliech disgwyliedig disgwyliem disgwylient disgwylio disgwylioch disgwyliodd disgwylir disgwyliwch disgwyliwn disgwyliwyd

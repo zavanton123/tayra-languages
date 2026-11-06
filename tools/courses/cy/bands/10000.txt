@@ -1,0 +1,100 @@
+1	9901	plantos	
+2	9902	crysalis	chrysalis crysalisau
+3	9903	dybryd	dybrytach dybrytaf
+4	9904	ffrwythfrân	ffrwythfrain
+5	9905	esblygedig	
+6	9906	culdir	culdiroedd
+7	9907	cyn-ddisgybl	
+8	9908	cryd	crydiau
+9	9909	lluosydd	lluosyddion
+10	9910	gyrr	
+11	9911	pendref	
+12	9912	carp	
+13	9913	bisgeden	fisgeden
+14	9914	diraddiol	ddiraddiol
+15	9915	echreiddiad	echreiddiadau
+16	9916	mamog	famog
+17	9917	ec	eciau
+18	9918	aethnen	aethnenni
+19	9919	llwythog	
+20	9920	annos	anhoaf anosaf
+21	9921	drychiolaeth	ddrychiolaeth drychiolaethau
+22	9922	cefnwyn	
+23	9923	annuwiol	
+24	9924	doctora	
+25	9925	camlan	
+26	9926	clochdar	
+27	9927	ymwahanwr	ymwahanwyr
+28	9928	cyfangol	
+29	9929	penbre	
+30	9930	trapesiwm	
+31	9931	jigso	
+32	9932	croesfa	croesfaoedd croesfeydd croesfâu
+33	9933	afiaith	
+34	9934	abo	aboau
+35	9935	crebwyll	
+36	9936	pen-bre	
+37	9937	pererindota	bererindota
+38	9938	baelor	faelor
+39	9939	cwmbran	
+40	9940	mowntio	
+41	9941	affeithio	affeithi affeithia affeithiadwy affeithiaf affeithiai affeithiais affeithiaist affeithiant affeithiech affeithiedig affeithiem affeithient affeithio'r affeithioch affeithiodd affeithir affeithiwch affeithiwn affeithiwyd
+42	9942	diarhebol	
+43	9943	glanadda	
+44	9944	ysgubell	ysgubellau
+45	9945	seboni	sebona sebonadwy sebonaf sebonai sebonais sebonaist sebonant sebonech sebonedig sebonem sebonent sebonir sebono sebonoch sebonodd sebonwch sebonwn sebonwyd
+46	9946	sengi	sangadwy sangaf sangai sangant sangech sangedig sangem sangent sanger sango sangoch sangodd sangu sangwch sangwn sangwyd sengais sengaist sengir sengwch
+47	9947	llanfaethlu	
+48	9948	piwi	
+49	9949	casog	
+50	9950	nonsens	
+51	9951	llwybig	llwybigau
+52	9952	miniatur	miniaturau
+53	9953	newyddu	newyddwch
+54	9954	gwyngalch	wyngalch
+55	9955	briwgig	friwgig
+56	9956	heffer	heffrod
+57	9957	gorthrymu	gorthryma gorthrymadwy gorthrymaf gorthrymai gorthrymais gorthrymaist gorthrymant gorthrymech gorthrymedig gorthrymem gorthryment gorthrymi gorthrymir gorthrymo gorthrymoch gorthrymodd gorthrymwch gorthrymwn gorthrymwyd gwrthrymu
+58	9958	clocsio	chlocsio clocsia
+59	9959	dethau	dethau'r
+60	9960	sgotyn	sgotiaid
+61	9961	dilornus	ddilornus
+62	9962	pontyberem	bontyberem
+63	9963	claearu	claearwch glaearu
+64	9964	gwlaw	wlaw
+65	9965	tŷb	nhŷb
+66	9966	lambastio	lambastio'i
+67	9967	gyddfbiws	yddfbiws
+68	9968	cydolygu	gydolygwyd
+69	9969	iachawdwr	iachawdwyr
+70	9970	dienyddiwr	dienyddwr dienyddwyr
+71	9971	trofa	drofa nhrofa trofeydd
+72	9972	democrateiddio	ddemocrateiddio democrateiddiodd
+73	9973	blaenori	blaenora blaenoradwy blaenoraf blaenorai blaenorais blaenoraist blaenorant blaenorech blaenoredig blaenorem blaenorent blaenori'r blaenorir blaenoro blaenoroch blaenorodd blaenorwch blaenorwn blaenorwyd
+74	9974	trolio	drolia trolia
+75	9975	merchetaidd	ferchetaidd
+76	9976	pwysi	bwysi posi powsi pwsi pwysïau
+77	9977	ymgnawdoli	hymgnawdoli ymgnawdolaf
+78	9978	cloriannu	chloriannu cloriannaf gloriannu
+79	9979	closio	chlosio
+80	9980	ymlwybro	ymlwybrodd
+81	9981	gwrthgynhyrchiol	wrthgynhyrchiol
+82	9982	sbio	sbi sbia sbiadwy sbiaf sbiai sbiais sbiaist sbiant sbiech sbiedig sbiem sbient sbioch sbiodd sbir sbiwch sbiwn sbiwyd
+83	9983	pedrongl	bedrongl pedronglau
+84	9984	diffeithio	diffeithiaf diffeithiwch
+85	9985	deisyfiad	ddeisyfiad deisyfiadau
+86	9986	ymgynghreirio	ymgynghreiriodd
+87	9987	poeri	poeraf poerodd
+88	9988	modernrwydd	fodernrwydd
+89	9989	glasu	glasa glasadwy glasedig glaser glasir glaso glasodd glaswch glaswyd glesais glesaist glesi glesir gleswch
+90	9990	camarwain	camarweini camarweinia camarweiniadwy camarweiniaf camarweiniai camarweiniais camarweiniaist camarweiniant camarweiniech camarweiniedig camarweiniem camarweinient camarweinio camarweinioch camarweiniodd camarweinir camarweiniwch camarweiniwn camarweiniwyd gamarwain
+91	9991	piwter	biwter ffeutur peutur phiwter piwtar piwterau piwtir powtur
+92	9992	teilyngu	deilyngu
+93	9993	cyferbynu	gyferbynu
+94	9994	meddwyn	feddwyn
+95	9995	penadur	penaduriaid
+96	9996	dyrchafael	ddyrchafael
+97	9997	clasurwr	clasurwyr
+98	9998	garwedd	arwedd
+99	9999	gwrthlys	gwrllys gwyrthlys gyrthlys
+100	10000	sobri	sobrodd

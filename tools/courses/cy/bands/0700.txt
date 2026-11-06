@@ -1,0 +1,100 @@
+1	601	man	mannau mannoedd mannyn mennyn
+2	602	hynod	hynotach hynotaf
+3	603	gwylio	gwyli gwylia gwyliadwy gwyliaf gwyliai gwyliais gwyliaist gwyliant gwyliech gwyliedig gwyliem gwylient gwylio'i gwylio'n gwylio'r gwylioch gwyliodd gwylir gwyliwch gwyliwn gwyliwyd wylio
+4	604	cyfraith	chyfraith cyfreithiau cyfreithion gyfraith nghyfraith
+5	605	sôn	soni sonia soniadwy soniaf soniai soniais soniaist soniant soniech soniedig soniem sonient sonier sonio sonioch soniodd sonir soniwch soniwn soniwyd sonnir
+6	606	ymladd	hymladd ymladda ymladdadwy ymladdaf ymladdai ymladdant ymladdech ymladdedig ymladdem ymladdent ymladdo ymladdoch ymladdodd ymladdwch ymladdwn ymladdwyd ymleddais ymleddaist ymleddi ymleddir ymleddwch
+7	607	craig	chraig creigen creigiau graig nghraig
+8	608	sgil	sgiliau
+9	609	brwydr	brwydrau frwydr mrwydr
+10	610	yfed	yf yfa yfadwy yfaf yfai yfais yfaist yfant yfech yfedig yfem yfent yfi yfid yfir yfo yfoch yfodd yfwch yfwn yfwyd
+11	611	heddlu	heddlu'n heddlu'r heddluoedd
+12	612	erthygl	erthyglau
+13	613	presennol	bresennol
+14	614	cynrychioli	chynrychioli cynrychiola cynrychioladwy cynrychiolaf cynrychiolai cynrychiolais cynrychiolaist cynrychiolant cynrychiolech cynrychioledig cynrychiolem cynrychiolent cynrychioli'i cynrychioli'r cynrychiolir cynrychiolo cynrychioloch cynrychiolodd cynrychiolwch cynrychiolwn cynrychiolwyd gynrychioli
+15	615	union	hunion uniawn unionach unionaf
+16	616	cynyddu	chynyddu cynydd cynydda cynyddadwy cynyddaf cynyddai cynyddais cynyddaist cynyddant cynyddech cynyddedig cynyddem cynyddent cynyddi cynyddir cynyddo cynyddoch cynyddodd cynyddu'n cynyddu'r cynyddwch cynyddwn cynyddwyd gynyddu
+17	617	araf	arafach arafaf
+18	618	tywyll	dywyll thywyll tywell tywyllach tywyllaf tywyllau tywyllion
+19	619	pont	bont phont pontydd
+20	620	bryn	bryniau fryn mryn
+21	621	nod	ddod nodau nodion
+22	622	calon	calonnau chalon galon nghalon
+23	623	darganfod	darganfu darganfuant darganfuoch darganfuwyd darganfydd darganfydda darganfyddadwy darganfyddaf darganfyddai darganfyddais darganfyddaist darganfyddant darganfyddech darganfyddedig darganfyddem darganfyddent darganfyddi darganfyddir darganfyddo darganfyddoch darganfyddodd darganfyddwch darganfyddwn darganfyddwyd darganfûm ddarganfod ddarganfyddwyd
+24	624	cysgu	chysgu cysga cysgaf cysgai cysgais cysgaist cysgant cysgech cysgedig cysgem cysgent cysgi cysgir cysgo cysgoch cysgodd cysgon cysgu'n cysgwch cysgwn cysgwyd gysgu
+25	625	gyrru	gyradwy gyredig gyrra gyrraf gyrrai gyrrais gyrraist gyrrant gyrrech gyrrem gyrrent gyrri gyrrid gyrrir gyrro gyrroch gyrrodd gyrru'n gyrru'r gyrrwch gyrrwn gyrrwyd gyrwyd yrru
+26	626	mesur	fesur fesurir mesurai mesurau mesuriadau mesurir
+27	627	tywydd	dywydd thywydd
+28	628	pren	bren phren prennau
+29	629	llwyddiannus	lwyddiannus
+30	630	senedd	seneddau
+31	631	mwynhau	fwynhau mwynha mwynhaech mwynhaem mwynhaent mwynhaf mwynhao mwynhaoch mwynhaodd mwynhau'r mwynhawn mwynhawyd mwynheais mwynheaist mwynhei mwynheir mwynheua mwynheuwch mwynhewch mwynhâi mwynhânt
+32	632	ai	ai'n ai'r hai
+33	633	tuag	thuag
+34	634	amgueddfa	amgueddfa'n amgueddfa'r amgueddfaoedd amgueddfeydd amgueddfâu
+35	635	cyfrifol	chyfrifol gyfrifol
+36	636	gobeithio	gobeithi gobeithia gobeithiadwy gobeithiaf gobeithiai gobeithiais gobeithiaist gobeithiant gobeithid gobeithiech gobeithiedig gobeithiem gobeithient gobeithioch gobeithiodd gobeithir gobeithiwch gobeithiwn gobeithiwyd obeithio
+37	637	hawdd	hawddach hawddaf haws hawsach hawsaf
+38	638	trin	drin nhrin thrin trinia triniadwy triniaf triniai triniais triniaist triniant triniasant triniech triniedig triniem trinient trinio trinioch triniodd trinir triniwch triniwn triniwyd trinni trinnir trino trinoedd
+39	639	helaeth	ehelaeth helaethach helaethaf
+40	640	swyddog	swyddoges swyddogion
+41	641	trên	drên thrên trenau
+42	642	radio	radio'n radio'r radios
+43	643	naw	
+44	644	ugain	hugain ugeiniau
+45	645	popeth	bopeth mhopeth phopeth
+46	646	cymorth	chymorth cymhorthion cymorthion gymorth
+47	647	cefnogi	cefnoga cefnogadwy cefnogaf cefnogai cefnogais cefnogaist cefnogant cefnogech cefnogedig cefnogem cefnogent cefnogi'n cefnogi'r cefnogir cefnogo cefnogoch cefnogodd cefnogwch cefnogwn cefnogwyd chefnogi gefnogi nghefnogi
+48	648	sgwâr	sgwariau ysgwâr
+49	649	testun	destun nhestun testunau thestun
+50	650	cam	camach camaf camau ceimion cham gam ngham
+51	651	cyfeiriad	chyfeiriad cyfeiriadau gyfeiriad nghyfeiriad
+52	652	rheol	reol rheolau
+53	653	cysylltiad	chysylltiad cysylltiadau gysylltiad
+54	654	swyddfa	swyddfa'i swyddfa'n swyddfa'r swyddfeydd
+55	655	miliwn	filiwn miliynau
+56	656	seren	ser sêr
+57	657	ymarfer	hymarfer ymarfera ymarferadwy ymarferaf ymarferai ymarferais ymarferaist ymarferant ymarferech ymarferedig ymarferem ymarferent ymarferi ymarferid ymarferion ymarferir ymarfero ymarferoch ymarferodd ymarferu ymarferwch ymarferwn ymarferwyd ymarferyd
+58	658	amrywio	amrywi amrywia amrywiadwy amrywiaf amrywiai amrywiais amrywiaist amrywian amrywid amrywiech amrywiedig amrywiem amrywient amrywio'n amrywio'r amrywioch amrywiodd amrywion amrywir amrywiwch amrywiwn amrywiwyd
+59	659	treulio	dreulio threulio treuli treulia treuliadwy treuliaf treuliai treuliais treuliaist treuliant treuliasant treuliech treuliedig treuliem treulient treulio'i treulio'n treulio'r treulio'u treulioch treuliodd treulir treuliwch treuliwn treuliwyd
+60	660	trefnu	drefnu nhrefnu threfnu trefna trefnadwy trefnaf trefnai trefnais trefnaist trefnant trefnech trefnem trefnent trefni trefnir trefno trefnoch trefnodd trefnu'n trefnu'r trefnwch trefnwn trefnwyd
+61	661	gaeaf	aeaf gaeafau gaeafoedd ngaeaf
+62	662	planhigyn	blanhigyn phlanhigyn planhigion
+63	663	hapus	hapusach hapusaf hapusion
+64	664	llafur	lafur llafuriau
+65	665	amrywiaeth	amrywiaethau hamrywiaeth
+66	666	llenyddiaeth	lenyddiaeth llenyddiaethau
+67	667	llwyd	llwydion llwytach llwytaf lwyd
+68	668	difrifol	ddifrifol
+69	669	cymaint	chymaint gymaint
+70	670	swyddogol	
+71	671	profiad	brofiad mhrofiad phrofiad profiadau
+72	672	gweithiwr	gweithwyr weithiwr
+73	673	casglu	casgl casgla casgladwy casglaf casglai casglant casglasant casglech casgledig casglem casglent casglir casglo casgloch casglodd casglu'n casglu'r casglwch casglwn casglwyd cesglais cesglaist cesgli cesglid cesglir cesglwch chasglu clasgu gasglir gasglu
+74	674	diwydiant	ddiwydiant diwydiannau niwydiant
+75	675	cysylltiedig	cysylltedig gysylltiedig
+76	676	rôl	rolau
+77	677	cloch	chloch clochau clochen clychau gloch
+78	678	gofod	gofodau ngofod ofod
+79	679	medru	fedrith fedru medra medraf medrai medrais medraist medran medrant medrech medredig medrem medren medrent medri medrir medro medroch medrodd medru'r medrwch medrwn medrwyd
+80	680	mynychu	fynychu mynycha mynychadwy mynychaf mynychai mynychais mynychaist mynychant mynychech mynychedig mynychem mynychent mynychi mynychir mynycho mynychoch mynychodd mynychu'r mynychwch mynychwn mynychwyd
+81	681	yfory	fory
+82	682	caniatáu	caniatadwy caniataech caniataem caniataent caniatao caniataoch caniataodd caniatawch caniatawn caniatawyd caniateais caniateaist caniatedig caniatei caniateid caniateir caniatewch caniatáu'r caniatâ caniatâf caniatâi caniatânt chaniatáu ganiatáu
+83	683	neidio	neidi neidia neidiaf neidiai neidiais neidiaist neidiant neidiech neidiem neidient neidio'n neidio'r neidioch neidiodd neidir neidiwch neidiwn neidiwyd
+84	684	amgylch	amgylchau amgylchoedd hamgylch
+85	685	talu	dalai dalent dalu tala taladwy talaf talais talaist talant talech talem talen talent talentau talet talo taloch talodd talon talu'n talu'r talwch talwn talwyd telais telaist telid telir telwch thalai thalent thalu
+86	686	addysgu	addysga addysgadwy addysgaf addysgai addysgais addysgaist addysgant addysgech addysgedig addysgem addysgent addysgi addysgid addysgir addysgo addysgoch addysgodd addysgon addysgu'n addysgu'r addysgwch addysgwn addysgwyd haddysgu
+87	687	fferm	ffermydd
+88	688	ffynhonnell	ffynonellau
+89	689	mudiad	fudiad mudiadau
+90	690	chwilio	chwili chwilia chwiliadwy chwiliaf chwiliai chwiliais chwiliaist chwiliant chwiliech chwiliedig chwiliem chwilient chwilio'n chwilio'r chwilioch chwiliodd chwilir chwiliwch chwiliwn chwiliwyd
+91	691	beic	beiciau feic meic
+92	692	marchnad	farchnad marchnadoedd
+93	693	hwyr	hwyraf hwyrau hwyred hwyrion
+94	694	rhanbarth	ranbarth rhanbarthau
+95	695	cywir	chywir cywirach cywiraf cywirion gywir
+96	696	ceffyl	ceffylau cheffyl geffyl
+97	697	heno	
+98	698	cant	cannoedd cantau chant gant
+99	699	sŵn	synau
+100	700	adrodd	adrodda adroddadwy adroddaf adroddai adroddais adroddaist adroddant adroddech adroddedig adroddem adroddent adroddi adroddir adroddo adroddoch adroddodd adroddwch adroddwn adroddwyd edrydd hadrodd

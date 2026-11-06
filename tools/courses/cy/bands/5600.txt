@@ -1,0 +1,100 @@
+1	5501	mes	fes mesen
+2	5502	nadd	naddiau naddion
+3	5503	crair	creiriau grair
+4	5504	aeddfedrwydd	
+5	5505	plasma	blasma plasmâu
+6	5506	amgodio	
+7	5507	moesegol	foesegol
+8	5508	llawfeddygol	lawfeddygol
+9	5509	crwban	crwbanod grwban
+10	5510	hyrwyddiad	hyrwyddiadau
+11	5511	codwr	godwr
+12	5512	llenwad	lenwad llanwad llenwadau
+13	5513	dawnsiwr	
+14	5514	anfodlonrwydd	hanfodlonrwydd
+15	5515	ailbriodi	ailbriododd
+16	5516	nitrad	neitrad nitradau
+17	5517	blinder	blinderau flinder
+18	5518	caplan	caplaniaid gaplan
+19	5519	anffyddiwr	anffyddwyr
+20	5520	beichiogi	beichioga beichiogadwy beichiogaf beichiogai beichiogais beichiogaist beichiogant beichiogech beichiogedig beichiogem beichiogent beichiogi'n beichiogir beichiogo beichiogoch beichiogodd beichiogwch beichiogwn beichiogwyd feichiogi
+21	5521	drwgdeimlad	ddrwgdeimlad drwgdeimladau
+22	5522	dilledyn	ddilledyn
+23	5523	mygu	fygu myga mygadwy mygaf mygai mygais mygaist mygant mygech mygedig mygem mygent mygi mygir mygo mygoch mygodd mygu'r mygwch mygwn mygwyd
+24	5524	creulondeb	chreulondeb greulondeb
+25	5525	ffisiolegydd	
+26	5526	us	usyn
+27	5527	epig	epigau
+28	5528	abad	abadau habad
+29	5529	garth	garthau ngarth
+30	5530	brechu	brechaf brechu'r frechu
+31	5531	carfil	carfel carfilod carfyl
+32	5532	mwynwr	fwynwr mwynwyr
+33	5533	poblogeiddio	boblogeiddio phoblogeiddio poblogeiddi poblogeiddia poblogeiddiadwy poblogeiddiaf poblogeiddiai poblogeiddiais poblogeiddiaist poblogeiddiant poblogeiddiech poblogeiddiedig poblogeiddiem poblogeiddient poblogeiddio'r poblogeiddioch poblogeiddiodd poblogeiddir poblogeiddiwch poblogeiddiwn poblogeiddiwyd
+34	5534	degol	ddegol degolion
+35	5535	nesáu	nesadwy nesaech nesaem nesaent nesao nesaoch nesaodd nesawn nesawyd neseais neseaist nesedig nesei neseir nesewch nesâ nesâf nesâi nesânt
+36	5536	allanfa	allanfeydd
+37	5537	trwbl	drwbl trwblau tryblau
+38	5538	critigol	
+39	5539	brathiad	brathiadau frathiad
+40	5540	mul	ful mules mulioedd mulod muloedd
+41	5541	gwybodus	wybodus
+42	5542	perlysiau	berlysiau
+43	5543	cellog	gellog
+44	5544	cyfatebiaeth	chyfatebiaeth cyfatebiaethau gyfatebiaeth
+45	5545	bwndel	bwndeli fwndel fwndeli
+46	5546	pert	bert pertach pertaf perton
+47	5547	sionc	sioncach sioncaf
+48	5548	gwrthglocwedd	wrthglocwedd
+49	5549	archwaeth	
+50	5550	datgloi	datgloi'r ddatgloi
+51	5551	drewi	ddrewi drewa drewadwy drewaf drewai drewais drewaist drewant drewch drewech drewedig drewem drewent drewir drewn drewo drewoch drewodd drewsant drewsoch drewyd
+52	5552	morlo	morloi
+53	5553	craffu	craffu'n graffid graffit graffu
+54	5554	tracio	dracio thracio tracio'r
+55	5555	piston	biston pistonau pistynau
+56	5556	rhwyf	rhwyfau
+57	5557	gollyngiad	gollyngiadau ollyngiadau
+58	5558	goddrychol	oddrychol
+59	5559	tanysgrifiad	danysgrifiad danysgrifiadau tanysgrifiadau thanysgrifiad
+60	5560	adnabyddiaeth	hadnabyddiaeth
+61	5561	cyhydedd	cyhydeddau cyhydeddion gyhydedd
+62	5562	coelcerth	coelcerthi goelcerth
+63	5563	ymdoddi	hymdoddi ymdawdd ymdodda ymdoddadwy ymdoddaf ymdoddai ymdoddais ymdoddaist ymdoddant ymdoddech ymdoddedig ymdoddem ymdoddent ymdoddi'n ymdoddir ymdoddo ymdoddoch ymdoddodd ymdoddwch ymdoddwn ymdoddwyd
+64	5564	ailymuno	ailymunodd
+65	5565	fioled	
+66	5566	baniffesto	maniffesto
+67	5567	hunanol	
+68	5568	ysgarth	ysgarthion ysgarthyn
+69	5569	ceidwadaeth	geidwadaeth
+70	5570	pagan	bagan
+71	5571	twym	dwym twymach twymaf twymion
+72	5572	penelin	benelin penelinoedd phenelin
+73	5573	meiddio	beiddio feiddio meiddi meiddia meiddiadwy meiddiaf meiddiai meiddiais meiddiaist meiddiant meiddiech meiddiedig meiddiem meiddient meiddioch meiddiodd meiddir meiddiwch meiddiwn meiddiwyd
+74	5574	sgi	sgis sgïau
+75	5575	amhendant	
+76	5576	rasel	raseli raselydd
+77	5577	asgellwr	asgellwyr
+78	5578	parodi	barodi
+79	5579	ailethol	hailethol
+80	5580	canghennog	cangenogion changhennog ganghennog
+81	5581	dychweliad	ddychweliad
+82	5582	arestiad	arestiadau harestiad
+83	5583	cyfreithlondeb	gyfreithlondeb
+84	5584	dirwest	ddirwest
+85	5585	môr-forwyn	fôr-forwyn môr-forynion
+86	5586	cefndirol	gefndirol
+87	5587	rhydu	rydech rydu rydwyf
+88	5588	saethiad	saethiadau
+89	5589	sfferig	
+90	5590	anhyblyg	
+91	5591	gwahaniad	gwahaniadau wahaniad
+92	5592	addurnedig	addurniedig
+93	5593	hostel	hosteli
+94	5594	gwrthgyferbyniad	gwrthgyferbyniadau wrthgyferbyniad
+95	5595	morffoleg	forffoleg
+96	5596	annedd	anheddau
+97	5597	ysbïo	hysbïo ysbia ysbiadwy ysbiaf ysbiai ysbiais ysbiaist ysbiant ysbiech ysbiedig ysbiem ysbient ysbii ysbiir ysbio ysbioch ysbiodd ysbiwch ysbiwn ysbiwyd ysbïa ysbïaf ysbïodd ysbïwch
+98	5598	goddefgarwch	oddefgarwch
+99	5599	gwrthodiad	wrthodiad
+100	5600	trochi	drochi trocha trochadwy trochaf trochai trochais trochaist trochant trochech trochedig trochem trochent trochi'r trochir trocho trochoch trochodd trochwch trochwn trochwyd

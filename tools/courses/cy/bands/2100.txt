@@ -1,0 +1,100 @@
+1	2001	curo	churo cura curadwy curaf curai curais curaist curant curech curedig curem curent curi curir curo'i curo'n curo'r curoch curodd curwch curwn curwyd guro
+2	2002	chweched	
+3	2003	ymhen	
+4	2004	pres	bres mhres phres
+5	2005	hunaniaeth	hunaniaethau
+6	2006	hithau	hithau'n
+7	2007	llywodraethu	llywodraetha llywodraethadwy llywodraethaf llywodraethai llywodraethais llywodraethaist llywodraethant llywodraethech llywodraethedig llywodraethem llywodraethent llywodraethi llywodraethid llywodraethir llywodraetho llywodraethoch llywodraethodd llywodraethu'n llywodraethu'r llywodraethwch llywodraethwn llywodraethwyd lywodraethu
+8	2008	caeth	caethach caethaf caethion cafodd chaeth gaeth
+9	2009	rhew	rew rhewiau rhewoedd rhewogydd
+10	2010	carcharor	carcharorion charcharor garcharor
+11	2011	carbon	carbonau charbon garbon
+12	2012	ymadrodd	ymadroddion
+13	2013	ffiseg	
+14	2014	amgylchiad	amgylchiadau
+15	2015	maith	faith maithach maithaf meithion
+16	2016	pop	bop phop
+17	2017	pencampwr	bencampwr pen-campwr pencampwyr phencampwr
+18	2018	nyrs	nyrsys
+19	2019	bodolaeth	bodolaethau bodoliaeth fodolaeth modolaeth
+20	2020	porffor	borffor phorffor
+21	2021	trafnidiaeth	drafnidiaeth thrafnidiaeth trafnidaeth
+22	2022	canolbarth	canolbarthau chanolbarth ganolbarth nghanolbarth
+23	2023	noddwr	noddwyr
+24	2024	llawenydd	lawenydd
+25	2025	miwsig	fiwsig
+26	2026	dodrefn	ddodrefn dodrefnyn
+27	2027	llestr	lestr llestri
+28	2028	hoyw	hoyw'n hoywach hoywaf hoywon
+29	2029	tirwedd	dirwedd dirweddau nhirwedd thirwedd thirweddau tirweddau
+30	2030	arogl	harogl
+31	2031	brys	frys
+32	2032	gweithdy	gweithdai gweithdeiau gweithdyau ngweithdy weithdy
+33	2033	tennis	dennis thennis
+34	2034	trydanol	drydanol
+35	2035	cyfrinachol	chyfrinachol gyfrinachol
+36	2036	myfyrdod	fyfyrdod myfyrdodau
+37	2037	arfog	
+38	2038	arolwg	arolygon
+39	2039	hafaliad	hafaliadau
+40	2040	lôn	lonydd
+41	2041	carnedd	carneddau carneddi charnedd garnedd
+42	2042	lleill	
+43	2043	plygu	blyg blygu phlyg plyg plyga plygadwy plygaf plygai plygais plygaist plygant plygech plygedig plygem plygent plygi plygir plygo plygoch plygodd plygu'n plygu'r plygwch plygwn plygwyd
+44	2044	gwyddonydd	gwyddonwr gwyddonwyr wyddonydd
+45	2045	elfennol	
+46	2046	dymuniad	ddymuniad dymuniadau
+47	2047	ffeithiol	
+48	2048	amseru	amseraf amseri amserodd amserwch amserwyd hamseru
+49	2049	gweithredwr	gweithredwyr weithredwr
+50	2050	siwt	siwtiau
+51	2051	swnio	swni swnia swniadwy swniaf swniai swniais swniaist swnian swniant swniech swniedig swniem swnient swnio'n swnio'r swnioch swniodd swnir swniwch swniwn swniwyd swno
+52	2052	beichiogrwydd	beichiogrwyddau feichiogrwydd
+53	2053	cymhwyso	chymhwyso cymhwysa cymhwysadwy cymhwysaf cymhwysais cymhwysaist cymhwysant cymhwysedig cymhwysi cymhwysir cymhwyso'n cymhwyso'r cymhwysoch cymhwysodd cymhwyswch cymhwyswyd gymhwyso
+54	2054	holi	hola holadwy holaf holai holais holaist holant holech holedig holem holent holi'r holir holo holoch holodd holwch holwn holwyd
+55	2055	dirprwy	ddirprwy dirprwyon
+56	2056	gwestai	gwesteion westai
+57	2057	llyfryn	llyfren llyfrynnau llyfrynnod lyfryn
+58	2058	trechu	drechu threchu trecha trechadwy trechaf trechai trechais trechaist trechant trechech trechedig trechem trechent trechi trechir trecho trechoch trechodd trechu'n trechu'r trechwch trechwn trechwyd
+59	2059	diwygio	ddiwygio diwygi diwygia diwygiadwy diwygiaf diwygiai diwygiais diwygiaist diwygiant diwygiech diwygiem diwygient diwygio'r diwygioch diwygiodd diwygir diwygiwch diwygiwn diwygiwyd
+60	2060	treftadaeth	dreftadaeth nhreftadaeth threftadaeth
+61	2061	gwahodd	gwahodda gwahoddadwy gwahoddaf gwahoddai gwahoddais gwahoddaist gwahoddant gwahoddech gwahoddedig gwahoddedigion gwahoddem gwahoddent gwahoddi gwahoddion gwahoddir gwahoddo gwahoddoch gwahoddodd gwahoddwch gwahoddwn gwahoddwyd wahodd
+62	2062	bodd	boddau fodd
+63	2063	min	fin minion
+64	2064	anhawster	anawsterau
+65	2065	disg	ddisg disgiau
+66	2066	pwerus	bwerus phwerus
+67	2067	olynu	olyna olynadwy olynaf olynai olynais olynaist olynant olynech olynedig olynem olynent olyni olynir olyno olynoch olynodd olynwch olynwn olynwyd
+68	2068	arbenigo	arbeniga arbenigadwy arbenigaf arbenigai arbenigais arbenigaist arbenigant arbenigech arbenigedig arbenigem arbenigent arbenigi arbenigir arbenigo'n arbenigoch arbenigodd arbenigwch arbenigwn arbenigwyd
+69	2069	potel	botel photel poteli
+70	2070	teml	deml nheml temlau temloedd theml
+71	2071	cynghorydd	chynghorydd cynghorwyr cyngoryddion gynghorydd
+72	2072	ceiniog	ceiniogau cheiniog geiniog
+73	2073	aflwyddiannus	
+74	2074	cyfeillgar	chyfeillgar gyfeillgar
+75	2075	anialwch	
+76	2076	cic	chic ciciau gic
+77	2077	de-orllewin	dde-orllewin ne-orllewin
+78	2078	suddo	sudda suddadwy suddaf suddai suddais suddaist suddant suddech suddedig suddem suddent suddi suddir suddo'n suddo'r suddoch suddodd suddwch suddwn suddwyd
+79	2079	distawrwydd	ddistawrwydd
+80	2080	golff	golffau
+81	2081	onest	honest onestach onestaf
+82	2082	gwreiddyn	gwraidd gwreiddiau wreiddyn
+83	2083	caniatâd	caniatadau chaniatâd ganiatâd
+84	2084	udo	uda udaf
+85	2085	oedi	oeda oedadwy oedaf oedai oedais oedaist oedant oedech oededig oedem oedent oedi'n oedio oedir oedo oedoch oedodd oedwch oedwn oedwyd
+86	2086	heol	heolydd hewl hiol
+87	2087	awel	awelon
+88	2088	cadeiriol	chadeiriol gadeiriol
+89	2089	aelodaeth	aelodaethau aelodiaeth haelodaeth
+90	2090	arsylwi	arsylwi'n arsylwi'r arsylwir arsylwodd arsylwyd
+91	2091	annwyl	anwyl anwylach anwylaf anwylion anwylyn
+92	2092	asiantaeth	asiantaethau
+93	2093	ardderchog	ardderchogion
+94	2094	fesul	
+95	2095	mêl	fêl fêls
+96	2096	straen	straeniau
+97	2097	gwrthwyneb	gwrthyddion wrthwyneb
+98	2098	dirywiad	ddirywiad dirywiadau
+99	2099	benthyg	benthycio benthycion benthyciwyd benthygaf benthygio benthygion fenthyg
+100	2100	eithafol	

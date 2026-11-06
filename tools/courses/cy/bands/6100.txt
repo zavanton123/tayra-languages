@@ -1,0 +1,100 @@
+1	6001	diarffordd	ddiarffordd
+2	6002	gwrthgyferbyniol	gwrthgyferbynnol wrthgyferbyniol
+3	6003	isgoch	
+4	6004	economegydd	economegwyr
+5	6005	mynachaidd	fynachaidd
+6	6006	llethu	lethu lletha llethadwy llethaf llethai llethais llethaist llethant llethech llethedig llethem llethent llethi llethir lletho llethoch llethodd llethwch llethwn llethwyd
+7	6007	ôl-ddodiad	olddodiad ôl-ddodiaid
+8	6008	amhriodol	
+9	6009	neon	
+10	6010	cyfeiriol	
+11	6011	datgysylltu	datgysyllta datgysylltadwy datgysylltaf datgysylltai datgysylltais datgysylltaist datgysylltant datgysylltech datgysylltedig datgysylltem datgysylltent datgysyllti datgysylltir datgysyllto datgysylltoch datgysylltodd datgysylltu'n datgysylltu'r datgysylltwch datgysylltwn datgysylltwyd ddatgysylltu
+12	6012	difyrrwch	ddifyrrwch
+13	6013	corffori	chorffori corffora corfforadwy corfforaf corfforai corfforais corfforaist corfforant corfforech corfforedig corfforem corfforent corfforir corfforo corfforoch corfforodd corfforwch corfforwn corfforwyd
+14	6014	ail-agor	ail-agorwyd
+15	6015	arlein	
+16	6016	cadfan	
+17	6017	elfed	
+18	6018	conan	conach conachan conaf
+19	6019	piwritan	biwritan piwritaniaid
+20	6020	llwydlas	llwydlasach llwydlasaf llwydleision lwydlas
+21	6021	pentan	bentan
+22	6022	hwch	hychod
+23	6023	godro	godraf godred godroaf odro odrodd
+24	6024	crynswth	chrynswth crynswdd crynswrth crynswydd crynsyrth grynswth
+25	6025	coel	coelion goel
+26	6026	treiglad	dreiglad threiglad treigladau treigliad
+27	6027	rhanddeiliad	rhanddeiliaid
+28	6028	laser	laserau
+29	6029	ymlusgiad	ymlusgiaid
+30	6030	tramwy	
+31	6031	lobïo	
+32	6032	gwyll	gwyllon
+33	6033	isafswm	
+34	6034	lymff	
+35	6035	byrhau	byrhaf byrhawyd fyrhau
+36	6036	gro	gröyn ro
+37	6037	adlais	adleisiau
+38	6038	sgema	sgemâu
+39	6039	dyddodiad	ddyddodiad dyddodiadau
+40	6040	teipio	deipio teipi teipia teipiaf teipiai teipiais teipiaist teipiant teipiech teipiedig teipiem teipient teipioch teipiodd teipir teipiwch teipiwn teipiwyd theipio
+41	6041	gwellhad	wellhad
+42	6042	cylchffordd	cylchffyrdd gylchffordd
+43	6043	rhagdybio	ragdybiau ragdybio rhagdyb rhagdybi rhagdybia rhagdybiadwy rhagdybiaf rhagdybiai rhagdybiais rhagdybiaist rhagdybiant rhagdybiech rhagdybiedig rhagdybiem rhagdybient rhagdybioch rhagdybiodd rhagdybir rhagdybiwch rhagdybiwn rhagdybiwyd
+44	6044	tramgwydd	dramgwydd tramgwyddau tramgwyddion
+45	6045	tatŵ	tatŵs thatŵ
+46	6046	dirgryniad	ddirgryniad
+47	6047	anweddol	
+48	6048	cnap	cnapau cnapen cnapiau cnepyn
+49	6049	pentyrru	bentyrru pentyradwy pentyredig pentyrra pentyrraf pentyrrai pentyrrais pentyrraist pentyrrant pentyrrech pentyrrem pentyrrent pentyrri pentyrrir pentyrro pentyrroch pentyrrodd pentyrrwch pentyrrwn pentyrrwyd
+50	6050	cynrychioliad	cynrychioliadau
+51	6051	annheg	anneg annhecach annhecaf
+52	6052	anfoesol	
+53	6053	llipa	lipa
+54	6054	iachau	iachau'r
+55	6055	dwysáu	ddwysáu dwysadwy dwysaech dwysaem dwysaent dwysao dwysaoch dwysaodd dwysawn dwysawyd dwyseais dwyseaist dwysedig dwysei dwyseir dwysewch dwysâ dwysâf dwysâi dwysânt
+56	6056	llusern	llusernau lusern
+57	6057	ymherodr	ymerodres ymerodresau ymerodrion
+58	6058	prydles	brydles prydlesi
+59	6059	aduno	aduna adunadwy adunaf adunai adunais adunaist adunant adunech adunedig adunem adunent aduni adunir aduno'r adunoch adunodd adunwch adunwn adunwyd haduno
+60	6060	didaro	ddidaro
+61	6061	elips	
+62	6062	rhoddwr	rhoddwyr roddwr
+63	6063	oeraidd	
+64	6064	ysgogol	
+65	6065	ïonig	iönig
+66	6066	pwmpen	bwmpen pompion pompiwn pwmpenni
+67	6067	llwydaidd	lwydaidd
+68	6068	drysfa	ddrysfa drysfeydd dyrysfa
+69	6069	cyd-fyw	gyd-fyw
+70	6070	cinetig	
+71	6071	gleidio	gleidio'n
+72	6072	datblygol	ddatblygol
+73	6073	pinio	phiniwn piniwn
+74	6074	pluog	bluog phluog
+75	6075	tanllyd	danllyd
+76	6076	cricedwr	cricedwyr gricedwr
+77	6077	ffisegwr	ffisegwyr
+78	6078	pwerdy	bwerdy mhwerdy pwerdai pwerdy'r
+79	6079	sancteiddio	sancteiddi sancteiddia sancteiddiadwy sancteiddiaf sancteiddiai sancteiddiais sancteiddiaist sancteiddiant sancteiddiech sancteiddiedig sancteiddiem sancteiddient sancteiddier sancteiddioch sancteiddiodd sancteiddir sancteiddiwch sancteiddiwn sancteiddiwyd
+80	6080	gwasaidd	wasaidd
+81	6081	tsips	jips jipsen tsipsen
+82	6082	prysuro	
+83	6083	diofal	ddiofal
+84	6084	hydrefol	
+85	6085	osgiliad	osgiadedau osgilad
+86	6086	suo	
+87	6087	anghyfartal	
+88	6088	buddsoddwr	buddsoddwyr
+89	6089	amgyffred	amgyffreda amgyffredadwy amgyffredaf amgyffredai amgyffredais amgyffredaist amgyffredant amgyffredech amgyffrededig amgyffredem amgyffredent amgyffredi amgyffredion amgyffredir amgyffredo amgyffredoch amgyffredodd amgyffredwch amgyffredwn amgyffredwyd
+90	6090	di-blant	ddi-blant
+91	6091	arddwrn	arddyrnau
+92	6092	tapio	dapio
+93	6093	tennyn	dennyn tennynnau
+94	6094	is-arlywydd	is-arlywyddion
+95	6095	cydlynydd	chydlynydd gydlynwyr gydlynydd
+96	6096	atafaelu	atafaelu'r atafaelwyd hatafaelu
+97	6097	magl	fagl maglau
+98	6098	ffau	ffeuau ffeuod
+99	6099	ciciwr	giciwr
+100	6100	tlodaidd	

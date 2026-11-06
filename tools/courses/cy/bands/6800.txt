@@ -1,0 +1,100 @@
+1	6701	almanac	almanaciau
+2	6702	picoch	bicoch picochion
+3	6703	gweirglodd	gweirgloddau gweirgloddi gweirgloddiau gweirgloddydd weirglodd
+4	6704	carthffos	carthffosydd garthffos
+5	6705	tridegau	thridegau trineg
+6	6706	smyglwr	smyglwyr
+7	6707	cynffonddu	gynffonddu
+8	6708	llenydda	lenydda llenyddi llenyddu
+9	6709	mabwysiedig	fabwysiedig
+10	6710	biwmares	fiwmares miwmares
+11	6711	llysfam	llysfamau lysfam
+12	6712	beddgelert	feddgelert
+13	6713	cenfigen	cenfigennau chenfigen cynfigen genfigen
+14	6714	crwydr	crwydrau grwydr
+15	6715	dychanu	ddychanu dychana dychanadwy dychanaf dychanai dychanant dychanech dychanedig dychanem dychanent dychano dychanoch dychanodd dychanu'r dychanwch dychanwn dychanwyd dychenais dychenaist dycheni dychenir dychenwch
+16	6716	eirlys	eirlysiau
+17	6717	pigddu	bigddu
+18	6718	mawnog	fawnog mawnogydd
+19	6719	pechu	bechu pech pecha pechadwy pechaf pechai pechais pechaist pechant pechech pechedig pechem pechent pechi pechir pecho pechoch pechodd pechwch pechwn pechwyd
+20	6720	cymhedrol	gymhedrol
+21	6721	cwfen	gwfen
+22	6722	ychwaneg	chwaneg
+23	6723	piso	biso pisa pisadwy pisaf pisais pisaist pisant pisedig piser pisi pisir pisoch pisodd piswch piswyd
+24	6724	coesgoch	coesgochach coesgochaf coesgochion goesgoch
+25	6725	cil	ciliau cilion gil
+26	6726	ymhelaethu	ymhelaethai ymhelaethir ymhelaethwyd
+27	6727	amhrisiadwy	amhrisadwy
+28	6728	anghyfannedd	anghyfanheddau
+29	6729	diduedd	ddiduedd
+30	6730	heresi	
+31	6731	anffrwythlon	anffrwythlawn
+32	6732	nerfus	
+33	6733	sarhaus	
+34	6734	penigamp	
+35	6735	symffonig	
+36	6736	cynadleddu	cynadledda gynadledda
+37	6737	drôn	dronau
+38	6738	diamheuol	ddiamheuol
+39	6739	anffawd	anffodion
+40	6740	aerobig	erobig
+41	6741	gweinidogol	weinidogol
+42	6742	pen-ôl	penolau
+43	6743	gwefru	gwefru'n wefru
+44	6744	parodrwydd	barodrwydd pharodrwydd
+45	6745	gwydrau	wydrau
+46	6746	gwerthusiad	werthusiad werthusiadau
+47	6747	dangosiad	dangosiadau ddangosiad
+48	6748	diffrwyth	ddiffrwyth
+49	6749	gwrandawiad	gwrandawiadau wrandawiad
+50	6750	duwdod	dduwdod
+51	6751	llewyrch	lewyrch llewyrchau llewyrchion llewyrchoedd
+52	6752	rhwbio	rhwbi rhwbia rhwbiadwy rhwbiaf rhwbiai rhwbiais rhwbiaist rhwbiant rhwbiech rhwbiedig rhwbiem rhwbient rhwbioch rhwbiodd rhwbir rhwbiwch rhwbiwn rhwbiwyd rwbio rwbo
+53	6753	anffurfio	anffurfiaf anffurfiant anffurfio'n anffurfiwyd anffurfo hanffurfio
+54	6754	sobr	sobor sobrach sobraf sobrion
+55	6755	ffrwgwd	ffrygydau
+56	6756	ffiol	ffial ffiolau phiol
+57	6757	alcali	alcalïau alcalïon
+58	6758	dieithriad	ddieithriad
+59	6759	ailddefnyddio	
+60	6760	swnt	swntiau
+61	6761	cyhydeddol	gyhydeddol
+62	6762	esboniadol	
+63	6763	llam	lam llamau
+64	6764	ceugrwm	geugrwm
+65	6765	cyff	cyffiau cyffion gyff
+66	6766	gorchfygiad	gorchfygiadau
+67	6767	cerflunwaith	gerflunwaith
+68	6768	cyfryngu	cyfrynga cyfryngadwy cyfryngaf cyfryngai cyfryngais cyfryngaist cyfryngant cyfryngech cyfryngedig cyfryngem cyfryngent cyfryngir cyfryngo cyfryngoch cyfryngodd cyfryngwch cyfryngwn cyfryngwyd gyfryngu
+69	6769	pas	pasys phas pâs
+70	6770	distyllu	ddistyllu
+71	6771	llaid	laid lleidiau
+72	6772	ariannwr	ariannydd arianwyr
+73	6773	llymder	llymderau llymdra lymder
+74	6774	parlwr	mharlwr parlwrs parlyrau parlyryn
+75	6775	ad-daliad	ad-daliadau
+76	6776	gweddnewid	weddnewid weddnewidiodd
+77	6777	trasig	drasig
+78	6778	breintiedig	freintiedig
+79	6779	slip	slipach slipaf slipiau slips
+80	6780	edwino	edwina edwinodd
+81	6781	di-chwaeth	ddi-chwaeth
+82	6782	celain	celanedd gelain
+83	6783	distrywio	ddistrywio ddistrywiodd distrywiaf distrywiodd distrywo distrywu strywio
+84	6784	cynhwysedd	chynhwysedd gynhwysedd
+85	6785	glin	gliniau lin
+86	6786	plymiwr	plymwyr
+87	6787	seidr	seidir seidrau
+88	6788	sawrus	safwrus safwyrus sawrusion sawyrus
+89	6789	ymgiprys	
+90	6790	elitaidd	
+91	6791	anwadal	
+92	6792	alcalïaidd	
+93	6793	morlin	forlin morlinau
+94	6794	meipen	maip
+95	6795	cofiannydd	gofiannydd
+96	6796	anfeidredd	anfeidreddau
+97	6797	diffuant	ddiffuant
+98	6798	goleuedig	oleuedig
+99	6799	dallu	dallaf dallwyd ddallu
+100	6800	cyflenwol	chyflenwol gyflenwol

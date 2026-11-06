@@ -1,0 +1,100 @@
+1	2601	braw	brawiau fraw
+2	2602	cydbwysedd	chydbwysedd gydbwysedd
+3	2603	twr	dwr tyrrau
+4	2604	sioc	siociau
+5	2605	gwadu	gwad gwada gwadadwy gwadaf gwadai gwadant gwadech gwadedig gwadem gwadent gwado gwadoch gwadodd gwadu'r gwadwch gwadwn gwadwyd gwedais gwedaist gwedi gwedir gwedwch wadu
+6	2606	gwarchodfa	gwarchodfa'r gwarchodfeydd warchodfa
+7	2607	màs	fàs masau
+8	2608	awen	awenau hawen
+9	2609	llawlyfr	lawlyfr llawlyfrau
+10	2610	ffafriol	ffafrol
+11	2611	sosialaidd	
+12	2612	cyfatebol	chyfatebol gyfatebol
+13	2613	uniongred	
+14	2614	chwarren	chwarennau
+15	2615	madarch	fadarch madalch madarchen
+16	2616	sgwrsio	sgwrsi sgwrsia sgwrsiadwy sgwrsiaf sgwrsiai sgwrsiais sgwrsiaist sgwrsiant sgwrsiech sgwrsiedig sgwrsiem sgwrsient sgwrsioch sgwrsiodd sgwrsir sgwrsiwch sgwrsiwn sgwrsiwyd sgyrsio ysgwrsio
+17	2617	cyw	chyw cyw'r cywion cywon gyw
+18	2618	comiwnyddol	gomiwnyddol
+19	2619	lori	loris lorïaid lorïau lorïod
+20	2620	cydweithredol	chydweithredol gydweithredol
+21	2621	refferendwm	refferenda
+22	2622	talwm	
+23	2623	gweddi	gweddi'r gweddiau gweddïau gweddïon weddi
+24	2624	datrysiad	datrysiadau ddatrysiad
+25	2625	cog	cogau cygod gog
+26	2626	cyfaddef	cyfaddefa cyfaddefadwy cyfaddefaf cyfaddefai cyfaddefais cyfaddefaist cyfaddefant cyfaddefech cyfaddefedig cyfaddefem cyfaddefent cyfaddefi cyfaddefir cyfaddefo cyfaddefoch cyfaddefodd cyfaddefwch cyfaddefwn cyfaddefwyd cyfeddyf gyfaddef
+27	2627	sicrwydd	
+28	2628	cynt	chynt nghynt
+29	2629	llain	lain lleiniau
+30	2630	croyw	croywach croywaf groyw
+31	2631	salad	saladau
+32	2632	eilaidd	
+33	2633	gwarchae	gwarchaea gwarchaeadwy gwarchaeaf gwarchaeai gwarchaeais gwarchaeaist gwarchaeant gwarchaeau gwarchaeech gwarchaeedig gwarchaeem gwarchaeent gwarchaei gwarchaeir gwarchaeo gwarchaeoch gwarchaeodd gwarchaewch gwarchaewn gwarchaewyd warchae
+34	2634	bonheddig	boneddicach boneddicaf boneddigion byddigion fonheddig
+35	2635	organeb	organebau
+36	2636	priodwedd	briodwedd briodweddau mhriodweddau phriodwedd phriodweddau priodweddau
+37	2637	newidyn	newidynnau
+38	2638	dwlu	dwlaf dwlu'n
+39	2639	sgert	sgertiau
+40	2640	sillafu	sillafa sillafadwy sillafaf sillafai sillafant sillafech sillafedig sillafem sillafent sillafir sillafo sillafoch sillafodd sillafu'r sillafwch sillafwn sillafwyd sillefais sillefaist sillefi sillefid sillefir sillefwch
+41	2641	rhaglennu	raglennu rhaglenn rhaglenna rhaglennadwy rhaglennaf rhaglennai rhaglennais rhaglennaist rhaglennant rhaglennech rhaglennedig rhaglennem rhaglennent rhaglenni rhaglennir rhaglenno rhaglennoch rhaglennodd rhaglennu'n rhaglennu'r rhaglennwch rhaglennwn rhaglennwyd
+42	2642	clai	clai'r glai
+43	2643	lleidr	leidr lladron
+44	2644	cywilydd	chywilydd cwiddyl cywilyddion cywyliddau gywilydd
+45	2645	ffens	ffensiau ffensys
+46	2646	amau	amau'n amau'r ameuadwy ameuedig amheua amheuaf amheuai amheuais amheuaist amheuant amheuech amheuem amheuent amheui amheuir amheuo amheuoch amheuodd amheuwch amheuwn amheuwyd hamau
+47	2647	cemeg	chemeg gemeg nghemeg
+48	2648	gwawr	gwawriau gwawroedd wawr
+49	2649	poenus	boenus phoenus
+50	2650	gwaeddi	gwaeddodd gwaeddwch waeddodd
+51	2651	gorfodol	gorfodolion orfodol
+52	2652	silindr	silindrau
+53	2653	personoliaeth	bersonoliaeth mhersonoliaeth personoliaethau phersonoliaeth
+54	2654	cystadleuwr	cystadleuwyr cystadleuydd gystadleuwr
+55	2655	siwmper	siwmperi
+56	2656	deuawd	ddeuawd deuawdau
+57	2657	dolur	ddolur doluriau dolurion
+58	2658	sownd	sowndiach sowndiaf
+59	2659	gwrych	gwrychoedd gwrychyn ngwrych wrych
+60	2660	tisian	disian thisian tisadwy tisedig tisi tisia tisiadwy tisiaf tisiai tisiais tisiaist tisiant tisiech tisiedig tisiem tisient tisio tisioch tisiodd tisir tisiwch tisiwn tisiwyd twsian
+61	2661	rhagymadrodd	ragymadrodd rhagymadroddion
+62	2662	eithriad	eithriadau
+63	2663	moesol	foesol
+64	2664	gwall	gwallau wall
+65	2665	bant	
+66	2666	tomen	domen tomennau tomenni tomennydd
+67	2667	cerddorfa	cerddorfeydd cherddorfa gerddorfa
+68	2668	trosto	drosto
+69	2669	sidan	sidanau
+70	2670	digonol	ddigonol
+71	2671	cnoi	cnoa cnoaf cnoai cnoais cnoaist cnoant cnoech cnoedig cnoem cnoent cnoi'r cnoir cnosant cnosoch cnowch cnown cnowyd cnô cnôch cnôdd cnôm cnônt gnoi
+72	2672	gwenith	gwenithyn wenith
+73	2673	eithin	eithinen
+74	2674	saws	sawsiau
+75	2675	meinwe	feinwe meinwe'r meinweoedd
+76	2676	canon	canan cannonau canonau canoniaid canons chanon ganon nghanon
+77	2677	awgrym	awgrymau awgrymion
+78	2678	archif	archifau
+79	2679	cadwraeth	chadwraeth gadwraeth nghadwraeth
+80	2680	gweithgarwch	gweithgarwchau ngweithgarwch weithgarwch
+81	2681	dyrchafiad	ddyrchafiad
+82	2682	neis	nais neisiach neisiaf
+83	2683	dial	ddial diala dialadwy dialaf dialai dialant dialau dialech dialedig dialem dialent dialo dialoch dialodd dialon dialwch dialwn dialwyd dielais dielaist dieli dielid dielir dielwch
+84	2684	beichiog	feichiog
+85	2685	act	actau hact
+86	2686	cyfansoddiadol	chyfansoddiadol gyfansoddiadol
+87	2687	mynyddig	fynyddig
+88	2688	teilyngdod	deilyngdod
+89	2689	sglefrio	sglefr sglefri sglefria sglefriadwy sglefriaf sglefriai sglefriais sglefriaist sglefriant sglefriech sglefriedig sglefriem sglefrient sglefrioch sglefriodd sglefrir sglefriwch sglefriwn sglefriwyd sgleirio sglerio slefrio
+90	2690	llofnodi	llofnodi'i llofnodi'r llofnodir llofnododd llofnodwyd lofnodi lofnododd lofnodwyd
+91	2691	cofrestr	chofrestr cofrestrau cofrestri gofrestr nghofrestr
+92	2692	cefnogol	chefnogol gefnogol
+93	2693	llefarydd	lefarydd llefaryddion
+94	2694	polygon	bolygon bolygonau pholygonau polygonau
+95	2695	gwadd	gwaddod gwaddodion wadd waddod
+96	2696	gwybedog	gwybedogion
+97	2697	atodiad	atodiadau
+98	2698	dewr	ddewr dewrach dewraf dewron
+99	2699	dewrder	ddewrder
+100	2700	twrci	dwrci nhwrci thwrci twrcwn twrcïod

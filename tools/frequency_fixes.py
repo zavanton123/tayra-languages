@@ -2082,6 +2082,53 @@ OVERRIDES["ga"].update({
     "ainmneacha": ["ainm"], "ait": ["ait"], "hait": ["ait"], "aite": ["ait"], "b'ait": ["ait"],
 })
 
+# Welsh. bod's paradigm, which the pack has in part and under other words (mae under bae, dyn "they are" under dyn, maen
+# "stone", sy, ydw), though dyn is mostly "man" and oes both "age" and "there is", which keep their own entries. yr is the
+# article, not gyrru's; i and its forms before a pronoun are one word.
+OVERRIDES["cy"] = {
+    **{f: ["bod"] for f in (
+        "bod", "fod", "mod", "mae", "maen", "maent", "sy", "sydd", "yw", "ydy", "ydi", "ydyw", "ydw", "dw", "dwi", "rwy", "rydw",
+        "rwyf", "wyf", "ydwyf", "wyt", "ydwyt", "rwyt", "ydyn", "ydym", "ydynt", "rydyn", "rydym", "ych", "ydych", "rydych", "dych",
+        "dydw", "dydy", "dydi", "dyw", "dydyn", "dydych", "dydyw", "nid", "oedd", "roedd", "doedd", "oeddwn", "roeddwn", "doeddwn", "oeddet",
+        "roeddet", "doeddet", "oedden", "roedden", "doedden", "oeddem", "roeddem", "oeddech", "roeddech", "doeddech", "oeddent",
+        "roeddent", "doeddent", "bu", "fu", "buodd", "fuodd", "bues", "fues", "buon", "fuon", "buoch", "buom", "buont", "fuont", "buaswn", "baswn",
+        "bydd", "fydd", "byddaf", "fyddaf", "bydda", "fydda", "byddi", "fyddi", "byddwn", "fyddwn", "byddwch", "fyddwch", "byddant",
+        "fyddant", "byddan", "fyddan", "byddai", "fyddai", "byddwn", "byddet", "fyddet", "bydden", "fydden", "byddech", "fyddech",
+        "bydden", "byddent", "fyddent", "byddid", "fyddid", "bo", "boed", "fo", "does", "dos")},
+    "nid": ["nid"], "fo": ["fo"], "dos": ["mynd"],
+    "yr": ["y"], "i": ["i"], "gydag": ["gyda"],
+    # Words of their own that the pack's links or a mutation's spelling send to another: nod ("aim") no form of dod; dân and
+    # dôn are tân's and tôn's; ddwy is dwy's (dau's), not nwy's; ddaw dod's, not naw's; gi ci's, not chi's; cerdd ("poem,
+    # music") no form of cerdded; bwyty ("restaurant") none of bwyta; mêl ("honey") none of pêl; gân cân's; ben pen's;
+    # dail ("leaves") and deilen no forms of tail ("dung"); hardd ("beautiful") none of gardd; hela ("hunt") and hel none of el;
+    # cod, cais, naid are nouns of their own; maen's forms are the stone's, as its spelling is mostly bod's; elwir galw's, not
+    # elwa's; gwnes gwneud's, not nes's.
+    "nod": ["nod"], "nodau": ["nod"], "nodi": ["nodi"], "dân": ["tân"], "dôn": ["tôn"], "ddwy": ["dau"], "ddaw": ["dod"],
+    "gi": ["ci"], "cerdd": ["cerdd"], "gerdd": ["cerdd"], "cherdd": ["cerdd"], "cerddi": ["cerdd"], "gerddi": ["gardd"],
+    "bwyty": ["bwyty"], "fwyty": ["bwyty"], "bwytai": ["bwyty"], "fwytai": ["bwyty"], "mêl": ["mêl"], "fêl": ["mêl"],
+    "gân": ["cân"], "ben": ["pen"], "dail": ["deilen"], "ddail": ["deilen"], "deilen": ["deilen"], "ddeilen": ["deilen"],
+    "hardd": ["hardd"], "harddaf": ["hardd"], "harddach": ["hardd"], "ardd": ["gardd"], "hela": ["hela"], "hel": ["hel"],
+    "heliwn": ["hela"], "heliwyd": ["hela"], "helwyd": ["hela"], "cod": ["cod"], "god": ["cod"], "chod": ["cod"], "codau": ["cod"],
+    "cais": ["cais"], "gais": ["cais"], "chais": ["cais"], "ceisiadau": ["cais"], "naid": ["naid"], "neidiau": ["naid"],
+    "meini": ["maen"], "feini": ["maen"], "faen": ["maen"], "elwir": ["galw"], "elwid": ["galw"], "gwnes": ["gwneud"],
+    "nest": ["gwneud"], "rôl": ["rôl"], "rolau": ["rôl"], "rholiau": ["rhôl"], "seren": ["seren"], "sêr": ["seren"], "ser": ["seren"],
+    "hytrach": ["hytrach"], "ogystal": ["ogystal"], "gydol": ["gydol"], "gofaint": ["gof"], "posib": ["posibl"], "bosib": ["posibl"],
+    "phosib": ["posibl"], "aeron": ["aeron"],
+    # du ("black") and deg ("ten") are no mutations of tu and teg; dda is da's, not na's, as cystal is its own and fai bai's; hun
+    # ("self") is hunan's; her ("challenge") no form of er; olau is golau's; moch mochyn's, not boch's; ystyried's forms are no
+    # ystyr's; cânt cael's; aeth mynd's, not "pain".
+    **{f: ["du"] for f in ("du", "ddu", "duon", "dduon", "duach")},
+    **{f: ["deg"] for f in ("deg", "ddeg", "deng", "ddeng", "degau", "neg")},
+    "dda": ["da"], "cystal": ["cystal"], "gystal": ["cystal"], "chystal": ["cystal"], "deuaf": ["dod"], "fai": ["bai"], "hun": ["hunan"],
+    "aeth": ["mynd"], "her": ["her"], "heriau": ["her"], "olau": ["golau"], "moch": ["mochyn"], "foch": ["mochyn"], "cânt": ["cael"], "an": [], "ed": [],
+    **{f: ["ystyried"] for f in ("ystyrir", "hystyrir", "ystyriwyd", "ystyriwch", "ystyrid", "ystyriodd", "ystyriai", "ystyriaf", "ystyrier",
+                                 "ystyria", "ystyrient")},
+}
+# English, which Wikipedia quotes (the, no aspirated te; of, no cof; wales, no gwales).
+# Names the pack has as words too: the months and days that are all it counts for (Medi, Gorffennaf, Gwener), Tom, Môn, yr Alban.
+EXCLUDE["cy"] = EXCLUDE.get("cy", set()) | {"the", "of", "and", "wales", "in", "to", "for", "with", "on", "by", "is", "it", "yn ôl",
+                                             "medi", "fedi", "gorffennaf", "gwener", "tom", "dom", "môn", "fôn", "alban", "halban"}
+
 # Lithuanian, after the builder's pass over the forms neither pack has (lithuanian_guess): the forms still filed under a
 # homograph or a word of the wrong kind, as the course writers met them. vėliau "later" is an adverb of its own, not vėlai's
 # or velti's; keli (kelios, keliems) is the word kelis is a form of; saugos and tiesų are sauga's and tiesa's, not saugoti's

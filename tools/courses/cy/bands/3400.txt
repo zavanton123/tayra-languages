@@ -1,0 +1,100 @@
+1	3301	syndrom	syndromau
+2	3302	chwydu	chwyda chwydadwy chwydaf chwydai chwydais chwydaist chwydant chwydech chwydedig chwydem chwydent chwydi chwydir chwydo chwydoch chwydodd chwydwch chwydwn chwydwyd
+3	3303	daeargryn	daeargrynfeydd ddaeargryn naeargryn
+4	3304	cysefin	gysefin
+5	3305	iawndal	iawn-dâl iawndaliadau
+6	3306	ysgubol	sgubol
+7	3307	brest	brestau brestiau brestydd brestys frest
+8	3308	deuocsid	
+9	3309	enbyd	
+10	3310	llwy	llwyau lwy
+11	3311	cownter	chownter cownteri gownter gownteri
+12	3312	genetig	enetig
+13	3313	cywasgu	chywasgu cywasga cywasgadwy cywasgaf cywasgai cywasgant cywasgech cywasgedig cywasgem cywasgent cywasgo cywasgoch cywasgodd cywasgu'n cywasgu'r cywasgwch cywasgwn cywasgwyd cywesgais cywesgaist cywesgi cywesgir cywesgwch gywasgu
+14	3314	absenoldeb	absenoldebau
+15	3315	sifiliad	sifiliaid
+16	3316	mewnbwn	fewnbwn fewnbynnau mewnbynnau
+17	3317	protestio	brotestio phrotestio protestadwy protestedig protesti protestia protestiadwy protestiaf protestiai protestiais protestiaist protestiant protestiech protestiedig protestiem protestient protestioch protestiodd protestir protestiwch protestiwn protestiwyd
+18	3318	etholedig	
+19	3319	bisged	bisgedi fisged
+20	3320	pant	mhant pantiau
+21	3321	dall	dalles ddall deillion
+22	3322	coroni	choroni corona coronadwy coronaf coronai coronais coronaist coronant coronech coronem coronent coroni'r coronir corono coronoch coronodd coronwch coronwn coronwyd goroni
+23	3323	stabl	stablau
+24	3324	tymhorol	dymhorol
+25	3325	mwd	fwd mwdau mwden mwdyn mydau
+26	3326	solet	soled soletau
+27	3327	efelychu	efelychaf efelychir efelychu'r efelychwyd hefelychu
+28	3328	tueddol	dueddol
+29	3329	cwrel	gwrel
+30	3330	parchus	barchus parchusaf pharchus
+31	3331	plac	blac
+32	3332	einion	eingian eingion einionau engian engion
+33	3333	hyblyg	
+34	3334	sgerbwd	sgerbydau ysgerbwd
+35	3335	nam	namau
+36	3336	hiliol	
+37	3337	braint	brain breinau breiniach breiniaf breiniau breinioedd breinion breintiau fraint
+38	3338	ceidwad	ceidwaid cheidwad geidwad
+39	3339	nawfed	
+40	3340	drych	ddrych drychau nrych
+41	3341	esgyn	esgynadwy esgynedig esgynna esgynnaf esgynnai esgynnais esgynnaist esgynnant esgynnech esgynnem esgynnent esgynni esgynnir esgynno esgynnoch esgynnodd esgynnwch esgynnwn esgynnwyd
+42	3342	athronydd	athronwyr
+43	3343	annibynnwr	annibynwyr
+44	3344	dyfalu	ddyfalu dyfala dyfaladwy dyfalaf dyfalai dyfalant dyfalech dyfaledig dyfalem dyfalent dyfalo dyfaloch dyfalodd dyfalu'n dyfalu'r dyfalwch dyfalwn dyfalwyd dyfelais dyfelaist dyfeli dyfelir dyfelwch
+45	3345	pegwn	begwn begynau mhegwn pegwnau pegynau
+46	3346	apwyntiad	apwyntiadau
+47	3347	argymhelliad	argymhellion
+48	3348	pluen	plu
+49	3349	toll	doll tollau
+50	3350	stiward	stiwardiaid
+51	3351	dot	ddot dotiau dotyn not
+52	3352	brechdan	brechdanau frechdan
+53	3353	asesiad	asesiadau
+54	3354	eirin	eirinen
+55	3355	aeddfed	addfed
+56	3356	cyfaint	chyfaint cyfeintiau gyfaint
+57	3357	rheithgor	reithgor reithgorau rheithgorau
+58	3358	hedyn	
+59	3359	amlder	hamlder
+60	3360	dibyniaeth	ddibyniaeth dibyniaethau
+61	3361	dominyddu	ddominyddu dominyddid dominyddir dominyddu'r dominyddwyd
+62	3362	diweddu	ddiweddu diwedda diweddodd diweddu'n diweddwch diweddwyd terfyna terfynadwy terfynaf terfynai terfynais terfynaist terfynant terfynech terfynedig terfynem terfynent terfyni terfynir terfyno terfynoch terfynodd terfynwch terfynwn terfynwyd
+63	3363	disgleirio	ddisgleirio disgleiri disgleiria disgleiriadwy disgleiriaf disgleiriai disgleiriais disgleiriaist disgleiriant disgleiriech disgleiriedig disgleiriem disgleirient disgleirio'n disgleirioch disgleiriodd disgleirir disgleiriwch disgleiriwn disgleiriwyd
+64	3364	adweithydd	adweithyddion
+65	3365	endid	endidau
+66	3366	llwglyd	
+67	3367	tyst	dyst tystion
+68	3368	rhesog	resog
+69	3369	fflyd	fflydoedd
+70	3370	esmwyth	esmwythach esmwythaf
+71	3371	pamffledyn	bamffledi bamffledyn pamffledi phamffledi
+72	3372	twymyn	dwymyn thwymyn twymynau
+73	3373	alltudio	alltudiaf alltudiodd alltudiwyd alltudo halltudio halltudiwyd
+74	3374	encil	encilio enciliodd encilion
+75	3375	twyllo	dwyllo thwyllo twyllaf twyllo'r twyllodd
+76	3376	braster	brasterau fraster
+77	3377	coetir	choetir coetiroedd goetir
+78	3378	gwyddbwyll	wyddbwyll
+79	3379	sbïo	sbïa
+80	3380	troelli	droelli throelli troellaf
+81	3381	annatod	
+82	3382	echel	echelau echeli echelydd echyl hechel
+83	3383	cofiant	chofiant cofiaint cofiannau gofiant nghofiant
+84	3384	cusanu	chusanu cusana cusanadwy cusanaf cusanai cusanant cusanech cusanedig cusanem cusanent cusano cusanoch cusanodd cusanwch cusanwn cusanwyd cusenais cusenaist cuseni cusenir cusenwch gusanu
+85	3385	mantell	fantell mentyll
+86	3386	pigo	bigo piga pigadwy pigaf pigai pigais pigaist pigan pigant pigech pigedig pigem pigent pigi pigid pigir pigo'i pigoch pigodd pigwch pigwn pigwyd
+87	3387	hwb	hybiau
+88	3388	matrics	fatrics matricsau
+89	3389	buarth	buarthau fuarth muarth
+90	3390	ots	ods
+91	3391	rhestredig	restredig
+92	3392	jôc	jôcs
+93	3393	cynrychiolaeth	chynrychiolaeth gynrychiolaeth
+94	3394	tarfu	darfu tarfa tarfadwy tarfaf tarfai tarfant tarfech tarfedig tarfem tarfent tarfo tarfoch tarfodd tarfu'n tarfwch tarfwn tarfwyd terfais terfaist terfi terfir terfwch tharfu
+95	3395	derbyniol	dderbyniol
+96	3396	esgusodi	esgusoda esgusodadwy esgusodaf esgusodai esgusodais esgusodaist esgusodant esgusodech esgusodedig esgusodem esgusodent esgusodi'r esgusodir esgusodo esgusodoch esgusododd esgusodwch esgusodwn esgusodwyd hesgusodi
+97	3397	smwddio	smwddi smwddia smwddiadwy smwddiaf smwddiai smwddiais smwddiaist smwddiant smwddiech smwddiedig smwddiem smwddient smwddioch smwddiodd smwddir smwddiwch smwddiwn smwddiwyd ysmwddio
+98	3398	ofer	oferach oferaf oferion
+99	3399	gweinydd	gweinyddion weinydd
+100	3400	ceidwadwr	ceidwadwyr geidwadwyr

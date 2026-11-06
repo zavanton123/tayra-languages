@@ -1,0 +1,100 @@
+1	5401	treisio	dreisio threisio treisi treisia treisiadwy treisiaf treisiai treisiais treisiaist treisiant treisiech treisiedig treisiem treisient treisioch treisiodd treisir treisiwch treisiwn treisiwyd
+2	5402	brychan	frychan
+3	5403	tingoch	dingoch tingochion
+4	5404	indiad	indiaid
+5	5405	galwyn	alwyn galwyni
+6	5406	llanuwchllyn	lanuwchllyn
+7	5407	tewbig	tewbigau
+8	5408	cynghorwr	chynghorwr cynghorwyr gynghorwr
+9	5409	cwadratig	
+10	5410	annifyr	
+11	5411	crempog	crempogau crempogen grempog
+12	5412	eilrif	eilrifau
+13	5413	mwng	fwng myngiau
+14	5414	bacwn	bacynau facwn
+15	5415	cyplu	cwplo cwplu cyplaf gyplu
+16	5416	efelychiad	efelychiadau
+17	5417	porwr	borwyr porwyr
+18	5418	cuddliw	cuddliwiau guddliw
+19	5419	galwedigaethol	alwedigaethol
+20	5420	tyngedfennol	dyngedfennol
+21	5421	gwyliadwriaeth	gwyliadwriaethau wyliadwriaeth
+22	5422	anogaeth	anogaethau anogiaeth
+23	5423	cyfrwy	chyfrwy cyfrwyau
+24	5424	paganaidd	baganaidd
+25	5425	ysbïwr	ysbïwyr
+26	5426	cyfamod	chyfamod cyfamodau gyfamod
+27	5427	ochri	ochrodd
+28	5428	gramadegol	ramadegol
+29	5429	penben	benben
+30	5430	mawredd	fawredd
+31	5431	torrwr	dorrwr thorrwr torwyr
+32	5432	rafft	rafftiau
+33	5433	aseinio	haseinio
+34	5434	greddfol	reddfol
+35	5435	pigyn	bigyn phigyn pigynnau
+36	5436	cymhlethu	cymhletha cymhlethadwy cymhlethai cymhlethais cymhlethaist cymhlethant cymhlethech cymhlethedig cymhlethem cymhlethent cymhlethi cymhlethir cymhletho cymhlethoch cymhlethodd cymhlethu'r cymhlethwch cymhlethwn cymhlethwyd gymhlethu
+37	5437	dyhead	ddyhead dyheadau
+38	5438	pylu	phyla pwla pwladwy pwlai pwlais pwlaist pwlant pwlech pwledig pwlem pwlent pwli pwlir pwlo pwloch pwlodd pwlu pwlwch pwlwn pwlwyd pylu'n pylu'r
+39	5439	prosesydd	brosesydd brosesyddion prosesyddion
+40	5440	synhwyro	snwyro synhwyraf synhwyrian synhwyrio synhwyro'r synhwyrodd
+41	5441	caniataol	ganiataol
+42	5442	eiconig	
+43	5443	dyrnu	ddyrnu dyrn dyrna dyrnadwy dyrnaf dyrnai dyrnais dyrnaist dyrnant dyrnech dyrnedig dyrnem dyrnent dyrni dyrnir dyrno dyrnoch dyrnodd dyrnwch dyrnwn dyrnwyd
+44	5444	arwahanu	arwahana arwahanadwy arwahanaf arwahanai arwahanant arwahanech arwahanedig arwahanem arwahanent arwahano arwahanoch arwahanodd arwahanu'r arwahanwch arwahanwn arwahanwyd arwahenais arwahenaist arwaheni arwahenir arwahenwch
+45	5445	casineb	chasineb gasineb
+46	5446	cymun	gymun
+47	5447	mentrus	
+48	5448	seindorf	seindorfau seindyrf
+49	5449	gwydraid	gwydreidiau
+50	5450	roboteg	
+51	5451	diffoddwr	ddiffoddwr diffoddwyr
+52	5452	hierarchaidd	
+53	5453	ymddangosiadol	
+54	5454	cyfalafiaeth	chyfalafiaeth gyfalafiaeth
+55	5455	heidio	heidiodd
+56	5456	lleyg	leyg
+57	5457	rhawn	rawn rhawnen rhawnyn rhoniau
+58	5458	coma	comas goma
+59	5459	datgymalu	datgymalaf datgymalu'n datgymalu'r datgymalwyd ddatgymalu
+60	5460	negesydd	negeswyr negesyddion
+61	5461	di-waith	ddi-waith
+62	5462	apostol	abostl abostol apostlon apostolion apostolon bostol ebostol postol
+63	5463	sancsiwn	sancsiynau
+64	5464	bygythiol	bygythol fygythiol
+65	5465	pram	bram phramiau
+66	5466	pwyllog	bwyllog phwyllog
+67	5467	troli	droli throli trolis trolïau
+68	5468	ennyd	enydau
+69	5469	arfogi	arfogi'r arfogodd harfogi
+70	5470	ymlyniad	
+71	5471	terapiwtig	therapiwtig
+72	5472	rhwymedigaeth	rhwymedigaethau rwymedigaeth
+73	5473	surop	syrop syrops syrup syrupau syryp
+74	5474	disgyniad	ddisgyniad disgyniadau
+75	5475	camwedd	camweddau camweddoedd gamwedd
+76	5476	wybren	wybrennau
+77	5477	dynolryw	ddynolryw
+78	5478	rhagair	ragair rhageiriau
+79	5479	datganoledig	ddatganoledig
+80	5480	teyrngar	deyrngar
+81	5481	nadredd	nadroedd
+82	5482	rhygnu	
+83	5483	penteulu	benteulu penteulu'r
+84	5484	dofi	ddofi ddofwyd dofa dofia dofiadwy dofiaf dofiai dofiais dofiaist dofiant dofiech dofiedig dofiem dofient dofio dofioch dofiodd dofir dofiwch dofiwn dofiwyd dofwch nofer
+85	5485	caniad	caniadau caniadon ganiad
+86	5486	dwli	ddwli dwliau dyli
+87	5487	trawsyrru	drawsyrru thrawsyrru
+88	5488	dadansoddwr	dadansoddwyr ddadansoddwr
+89	5489	diferyn	diferion
+90	5490	ailgychwyn	ailgychwynnodd
+91	5491	corc	chorc corcau nghorc
+92	5492	naddu	nadda naddadwy naddaf naddai naddant naddech naddedig naddem naddent naddoch naddodd naddu'n naddwch naddwn naddwyd neddais neddaist neddi neddir neddwch
+93	5493	tramwyfa	dramwyfa tramwyfa'r tramwyfeydd
+94	5494	harmoni	harmonïau
+95	5495	lledred	ledred lledredau lledredion
+96	5496	caerog	gaerog
+97	5497	trwyadl	drwyadl
+98	5498	masarnen	fasarn fasarnen masarn
+99	5499	caledu	caleda caledadwy caledaf caledai caledais caledaist caledant caledech calededig caledem caledent caledir caledo caledoch caledodd caledu'n caledwch caledwn caledwyd chaledu cledo galedu
+100	5500	llath	lath llathau

@@ -1,0 +1,100 @@
+1	5101	gwelis	welis
+2	5102	rhifedd	
+3	5103	siartwr	siartwyr
+4	5104	cwcio	cwcan cwciaf cwco gwcio
+5	5105	iwsio	
+6	5106	penwar	pennawr pennor penwarau penweir penweri
+7	5107	pantle	
+8	5108	piti	
+9	5109	somi	
+10	5110	cyrri	cyri cyrri'n cyrris cyrïau
+11	5111	e-bostio	e-bostio'r ebostadwy ebostedig ebosti ebostia ebostiadwy ebostiaf ebostiai ebostiais ebostiaist ebostiant ebostiech ebostiedig ebostiem ebostient ebostio ebostioch ebostiodd ebostir ebostiwch ebostiwn ebostiwyd
+12	5112	prydlon	brydlon
+13	5113	edmygedd	
+14	5114	cymhelliad	cymelliadau gymhelliad
+15	5115	fferyllol	
+16	5116	ffyniannus	
+17	5117	trwynol	
+18	5118	alltudiaeth	alltudaeth alltudiaethau
+19	5119	camarweiniol	gamarweiniol
+20	5120	tragwyddol	dragwyddol
+21	5121	gelyniaeth	elyniaeth gelyniaethau
+22	5122	tybiaeth	dybiaeth dybiaethau thybiaeth thybiaethau tybiaethau
+23	5123	pilo	biler bileri bili pilaf piler pileri pili
+24	5124	poer	boer phoer poerion poeryn
+25	5125	tanseilio	danseilio danseiliodd tanseilio'r tanseiliodd tanseiliwyd thanseilio
+26	5126	afreolus	
+27	5127	telynor	delynor telynorion thelynor
+28	5128	disgleirdeb	ddisgleirdeb
+29	5129	gwasgariad	gwasgariadau wasgariad
+30	5130	glawog	glawiog lawog
+31	5131	gogledd-ddwyreiniol	ogledd-ddwyreiniol
+32	5132	brathu	bratha brathadwy brathaf brathai brathant brathech brathedig brathem brathent bratho brathoch brathodd brathu'r brathwch brathwn brathwyd brethais brethaist brethi brethir brethwch frathu
+33	5133	rhwd	rhydau rwd
+34	5134	gwaddol	
+35	5135	ysgub	ysgubau
+36	5136	diddanu	ddiddanu diddana diddanadwy diddanaf diddanai diddanant diddanech diddanedig diddanem diddanent diddano diddanoch diddanodd diddanu'r diddanwch diddanwn diddanwyd diddenais diddenaist diddeni diddenir diddenwch
+37	5137	melltith	felltith melltithion
+38	5138	proffwyd	broffwyd proffwydi
+39	5139	loncian	lonci loncia lonciadwy lonciaf lonciai lonciais lonciaist lonciant lonciech lonciedig lonciem loncient loncio loncioch lonciodd loncir lonciwch lonciwn lonciwyd
+40	5140	dieithryn	ddieithryn
+41	5141	cracio	gracio
+42	5142	cyfresol	gyfresol
+43	5143	erthyliad	camesgoriadau erthyliadau
+44	5144	cyfoeswr	cyfoeswyr gyfoeswyr
+45	5145	cyfiawn	gyfiawn
+46	5146	tribiwnlys	dribiwnlys dribiwnlysoedd
+47	5147	gwrthdystiad	gwrthdystiadau wrthdystiad
+48	5148	gwyrth	gwyrthiau wyrth
+49	5149	dragon	dragonau
+50	5150	llandysul	landysul
+51	5151	betws	betysau fetws
+52	5152	torgoch	dorgoch torgochion
+53	5153	menu	fenai feno menai menem
+54	5154	prydydd	brydydd prydyddion
+55	5155	cwmwd	chwmwd cymwd cymydau cymydoedd gwmwd
+56	5156	brut	brutiau frut
+57	5157	llanelwy	lanelwy
+58	5158	digio	ddigio digiai digiodd
+59	5159	llafurus	
+60	5160	electromagnetig	
+61	5161	teler	telerau
+62	5162	deufis	ddeufis
+63	5163	trap	drap trapau trapiau traps
+64	5164	gweithlu	gweithluoedd weithlu
+65	5165	lloc	llociau loc lociau
+66	5166	peirianwaith	beirianwaith peirianweithiau
+67	5167	rhyd	rhydau rydyddion
+68	5168	helfa	helfeydd helfâu
+69	5169	bostio	bostiaf bostian bosto
+70	5170	adnewyddiad	adnewyddiadau
+71	5171	batiwr	batwyr
+72	5172	silicon	
+73	5173	toredig	doredig toriedig torredig
+74	5174	cyrchu	cyrcha cyrchadwy cyrchaf cyrchai cyrchais cyrchaist cyrchant cyrchech cyrchedig cyrchem cyrchent cyrchi cyrchir cyrcho cyrchoch cyrchodd cyrchu'r cyrchwch cyrchwn cyrchwyd gyrchu
+75	5175	synagog	synagogau
+76	5176	didoli	ddidoli didolaf didoli'r didolir didolyd
+77	5177	amryfal	
+78	5178	pledren	bledren pledrennau pledrenni
+79	5179	pulpud	bulpud pulput pwlpud
+80	5180	llochesu	llochesa llochesadwy llochesaf llochesais llochesaist llochesant llochesedig llochesi llochesir llocheso llochesoch llochesodd llocheswch llocheswyd lochesu
+81	5181	braslun	brasluniau
+82	5182	lladmerydd	ladmerydd
+83	5183	carafán	carafannau carafáns carifán garafán
+84	5184	proffidiol	broffidiol
+85	5185	bwrdeistrefol	fwrdeistrefol
+86	5186	adlam	adlamau
+87	5187	rhan-amser	ran-amser
+88	5188	warden	gwarden wardeiniaid wardeniaid
+89	5189	talentog	dalentog thalentog
+90	5190	gras	grasau grasusau
+91	5191	addysgiadol	
+92	5192	unionsyth	
+93	5193	canolwr	canolwyr chanolwr ganolwr
+94	5194	twyllodrus	dwyllodrus thwyllodrus tywyllodrus
+95	5195	teilwng	deilwng teilyngion theilwng
+96	5196	melodaidd	felodaidd
+97	5197	addfwyn	addfwynach addfwynaf
+98	5198	integru	integra integradwy integraf integrai integrais integraist integrant integrech integredig integrem integrent integri integrir integro integroch integrodd integrwch integrwn integrwyd
+99	5199	brwsio	brwsi brwsia brwsiadwy brwsiaf brwsiai brwsiais brwsiaist brwsiant brwsiech brwsiedig brwsiem brwsient brwsioch brwsiodd brwsion brwsir brwsiwch brwsiwn brwsiwyd frwsio
+100	5200	sba	sbas sbâu
