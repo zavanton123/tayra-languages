@@ -3,7 +3,7 @@
   "rankUpTo": 1000,
   "level": "A2",
   "title": "Aniversaris, festes i amics",
-  "description": "Ten short stories about birthdays, parties and friends: a housewarming, thirty roses, a farmhouse weekend, a cup final, a foundation's anniversary, a party online, a boat trip, a game shop, a busy lawyer and a cake contest.",
+  "description": "Ten short stories about birthdays, parties and friends: a housewarming, thirty roses, a farmhouse weekend, a cup final, a foundation's anniversary, a party online, a boat trip, a game shop, a busy office manager and a cake contest.",
   "topic": "Birthdays, parties and friends",
   "names": [
     "Abel",
@@ -176,9 +176,8 @@
     },
     {
       "title": "Un compromís a les set",
-      "summary": "Maria, a lawyer, has a busy Friday but works fast to reach her friend Emma's birthday dinner in time.",
+      "summary": "Maria, an office manager, has a busy Friday but works fast to reach her friend Emma's birthday dinner in time.",
       "newWords": [
-        "advocat",
         "tasca",
         "compromís",
         "probablement",
@@ -188,7 +187,7 @@
         "centrar",
         "conseqüència"
       ],
-      "text": "La Maria és advocada en una oficina de Tarragona. Divendres és l'aniversari de la seva amiga Emma. L'Emma fa un sopar a casa seva a les 9, i la Maria hi vol anar.\n\nPerò divendres a la tarda la Maria té molta feina. Té tres tasques importants: ha d'escriure una carta, ha de llegir un document molt llarg i, a les 7, té un compromís amb un client.\n\nA les 5, l'Emma li envia un missatge: «Vindràs al sopar?»\n\n«Probablement arribaré tard», respon la Maria. «Tinc un compromís a les 7.»\n\n«Pobra Maria! Treballes massa», escriu l'Emma. I pensa: «Probablement no menjarà res fins a les 10.»\n\nLa Maria no ho nega. És veritat: treballa massa. Però és advocada, i té una gran responsabilitat amb els seus clients. Ells esperen molt d'ella.\n\nLa Maria deixa el mòbil en un calaix per centrar-se en la feina. Quan es centra, treballa molt ràpid. Fa la primera tasca en una hora. Fa la segona tasca en una hora i mitja.\n\nA les 7 arriba el client, el senyor Sunyer. Li fa moltes preguntes sobre les conseqüències d'un contracte. La Maria li explica les conseqüències una per una.\n\nA les 8 i mitja, la Maria acaba l'última tasca. Agafa un taxi i a les 9 i quart arriba a casa de l'Emma.\n\n«Ja ets aquí!», diu l'Emma. «No t'esperava tan aviat. Pobra, has treballat tota la tarda!»\n\n«És la conseqüència de treballar ràpid», diu la Maria. «Per molts anys, Emma!»\n\nL'Emma li pregunta si està cansada. La Maria no ho nega: «Una mica. Però ara només penso en la festa.»\n\nPreguntes:\nQuina feina fa la Maria?\nLa Maria és advocada.\nPer què treballa tant la Maria?\nPerquè té una gran responsabilitat amb els seus clients.\nQuantes tasques importants té divendres?\nTé tres tasques importants.\nQuin compromís té a les 7?\nTé un compromís amb un client.\nQuè fa la Maria per centrar-se en la feina?\nDeixa el mòbil en un calaix.\nA quina hora arriba a casa de l'Emma?\nArriba a les 9 i quart.\nQuè li respon la Maria a les 5?\nLi respon que probablement arribarà tard."
+      "text": "La Maria és la cap d'una oficina de Tarragona. Divendres és l'aniversari de la seva amiga Emma. L'Emma fa un sopar a casa seva a les 9, i la Maria hi vol anar.\n\nPerò divendres a la tarda la Maria té molta feina. Té tres tasques importants: ha d'escriure una carta, ha de llegir un document molt llarg i, a les 7, té un compromís amb un client.\n\nA les 5, l'Emma li envia un missatge: «Vindràs al sopar?»\n\n«Probablement arribaré tard», respon la Maria. «Tinc un compromís a les 7.»\n\n«Pobra Maria! Treballes massa», escriu l'Emma. I pensa: «Probablement no menjarà res fins a les 10.»\n\nLa Maria no ho nega. És veritat: treballa massa. Però és la cap, i té una gran responsabilitat amb els seus clients. Ells esperen molt d'ella.\n\nLa Maria deixa el mòbil en un calaix per centrar-se en la feina. Quan es centra, treballa molt ràpid. Fa la primera tasca en una hora. Fa la segona tasca en una hora i mitja.\n\nA les 7 arriba el client, el senyor Sunyer. Li fa moltes preguntes sobre les conseqüències d'un contracte. La Maria li explica les conseqüències una per una.\n\nA les 8 i mitja, la Maria acaba l'última tasca. Agafa un taxi i a les 9 i quart arriba a casa de l'Emma.\n\n«Ja ets aquí!», diu l'Emma. «No t'esperava tan aviat. Pobra, has treballat tota la tarda!»\n\n«És la conseqüència de treballar ràpid», diu la Maria. «Per molts anys, Emma!»\n\nL'Emma li pregunta si està cansada. La Maria no ho nega: «Una mica. Però ara només penso en la festa.»\n\nPreguntes:\nQuina feina fa la Maria?\nLa Maria és la cap d'una oficina.\nPer què treballa tant la Maria?\nPerquè té una gran responsabilitat amb els seus clients.\nQuantes tasques importants té divendres?\nTé tres tasques importants.\nQuin compromís té a les 7?\nTé un compromís amb un client.\nQuè fa la Maria per centrar-se en la feina?\nDeixa el mòbil en un calaix.\nA quina hora arriba a casa de l'Emma?\nArriba a les 9 i quart.\nQuè li respon la Maria a les 5?\nLi respon que probablement arribarà tard."
     },
     {
       "title": "El concurs de pastissos",
