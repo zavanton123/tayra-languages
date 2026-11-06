@@ -21,11 +21,13 @@ import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.performTouchInput
 import androidx.compose.ui.unit.IntOffset
+import com.tayra.languages.core.domain.language.LanguageDefinitions
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.parse.ParsedToken
 import com.tayra.languages.core.domain.parse.numbered
+import com.tayra.languages.core.domain.parse.parseTokens
 import com.tayra.languages.core.domain.render.TextItemCalculator
 import com.tayra.languages.core.ui.theme.AppThemes
 import org.junit.Rule
@@ -97,6 +99,42 @@ class ReadingTextTest {
         text.performMouseInput { moveTo(Offset(90f, 10f)) }
         rule.waitForIdle()
         assertEquals(2, hovered.last(), "second word hovered")
+    }
+
+    /** 𨋢 is two UTF-16 units, cut as one word, and clicked as one. */
+    @Test
+    fun aCantoneseCharacterBeyondTheBasicPlaneIsClicked() {
+        val cantonese = LanguageDefinitions.all.single { it.language.name == "Cantonese" }.language.copy(id = 1)
+        val items = TextItemCalculator.calculate(cantonese.parseTokens("𨋢。"), emptyList(), cantonese).items
+        val clicked = mutableListOf<Int>()
+        rule.setContent {
+            ReadingText(
+                page = TextItemCalculator.toPage(items),
+                theme = AppThemes.default,
+                marked = emptySet(),
+                hovered = null,
+                selection = null,
+                popupItem = null,
+                fontScale = 1f,
+                lineHeight = 1.5f,
+                rightToLeft = false,
+                callbacks = ReadingTextCallbacks(
+                    onClick = { index, _ -> clicked.add(index) },
+                    onTap = {},
+                    onLongPress = {},
+                    onHover = {},
+                    onDragStart = {},
+                    onDrag = {},
+                    onDragEnd = { _, _ -> },
+                    popupContent = { _, _: androidx.compose.ui.unit.IntRect -> },
+                ),
+            )
+        }
+        rule.onNodeWithText("𨋢。").performMouseInput { click(Offset(8f, 10f)) }
+        rule.waitForIdle()
+        assertEquals(listOf(0), clicked)
+        assertEquals("𨋢", items[0].text)
+        assertTrue(items[0].isWord)
     }
 
     /** Sentence controls occupy one fixed gutter and do not change the item indexes hit in the text. */

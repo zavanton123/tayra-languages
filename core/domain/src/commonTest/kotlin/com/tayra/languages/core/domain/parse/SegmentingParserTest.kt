@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.parse
 
+import com.tayra.languages.core.domain.language.LanguageDefinitions
 import com.tayra.languages.core.domain.model.Language
 import kotlin.test.AfterTest
 import kotlin.test.Test
@@ -47,6 +48,46 @@ class SegmentingParserTest {
         // A character no word covers is a word of its own; a word the lexicon has without a rank still counts.
         Lexicons.set("xx", Lexicon(ranks.keys + "猫咪", ranks))
         assertEquals(listOf("他", "猫咪", "好"), cut("他猫咪好"))
+    }
+
+    private val cantonese get() = LanguageDefinitions.all.single { it.language.name == "Cantonese" }.language
+
+    private fun cantoneseWords(text: String) = cantonese.parseTokens(text).filter { it.isWord }.map { it.token }
+
+    /** 𨋢 lies beyond the Basic Multilingual Plane, in two UTF-16 units; in Cantonese it is a word like any other. */
+    @Test
+    fun aCantoneseCharacterBeyondTheBasicPlaneIsAWord() {
+        val ranks = mapOf("我哋" to 2685, "搭" to 900, "𨋢" to 2888, "上去" to 700)
+        try {
+            Lexicons.set("yue", Lexicon(ranks.keys, ranks))
+            val tokens = cantonese.parseTokens("我哋搭𨋢上去。")
+            assertEquals(listOf("我哋", "搭", "𨋢", "上去", "。"), tokens.map { it.token })
+            assertEquals(listOf(true, true, true, true, false), tokens.map { it.isWord })
+            // One no word covers stays whole, and is a word still.
+            Lexicons.set("yue", Lexicon(ranks.keys - "𨋢", ranks - "𨋢"))
+            assertEquals(listOf("我哋", "搭", "𨋢", "上去"), cantoneseWords("我哋搭𨋢上去"))
+            assertEquals(listOf("𨋢"), cantoneseWords("𨋢"))
+            // Under a lexicon of one-unit words, one with no ranks, and none at all.
+            Lexicons.set("yue", Lexicon(listOf("搭"), mapOf("搭" to 900)))
+            assertEquals(listOf("搭", "𨋢", "搭"), cantoneseWords("搭𨋢搭"))
+            Lexicons.set("yue", Lexicon(listOf("搭")))
+            assertEquals(listOf("搭", "𨋢"), cantoneseWords("搭𨋢"))
+            Lexicons.set("yue", null)
+            assertEquals(listOf("搭", "𨋢"), cantoneseWords("搭𨋢"))
+        } finally {
+            Lexicons.set("yue", null)
+        }
+    }
+
+    /** An emoji is two units as well and stays no word, and other languages keep such characters out of their words. */
+    @Test
+    fun onlyHanInCantoneseBecomesAWord() {
+        val tokens = cantonese.parseTokens("搭😀𨋢")
+        assertEquals(listOf("搭", "😀", "𨋢"), tokens.map { it.token })
+        assertEquals(listOf(true, false, true), tokens.map { it.isWord })
+        val mandarin = SegmentingParser("Chinese", "xx", joinUnknown = false, byFrequency = true)
+        val han = Language(name = "Chinese", wordCharacters = "一-龥", regexpSplitSentences = "。", parserType = "test")
+        assertEquals(listOf("搭" to true, "𨋢" to false), mandarin.parse("搭𨋢", han).map { it.token to it.isWord })
     }
 
     @Test

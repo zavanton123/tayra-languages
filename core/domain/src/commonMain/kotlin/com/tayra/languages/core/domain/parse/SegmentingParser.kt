@@ -18,12 +18,17 @@ import kotlin.math.ln
  * With [byFrequency] and a lexicon that knows how common its words are, a stretch is cut into its
  * likeliest words instead ([likeliest]): Chinese read by the longest word first goes wrong where two
  * common words make a rarer one (不知道 read as 不知 + 道, 从中国 as 从中 + 国).
+ *
+ * With [supplementaryHan] the Han characters beyond the Basic Multilingual Plane (𨋢) are letters
+ * whatever the language's word characters say: those are stored per install, and their one-unit
+ * test could only name the surrogates, emoji's among them.
  */
 open class SegmentingParser(
     override val name: String,
     private val code: String,
     private val joinUnknown: Boolean,
     private val byFrequency: Boolean = false,
+    private val supplementaryHan: Boolean = false,
 ) : LexiconParser {
 
     /** How much longer than the lexicon's longest word a stretch may be, for the inflections [matches] accepts. */
@@ -46,11 +51,12 @@ open class SegmentingParser(
         val tokens = mutableListOf<ParsedToken>()
         val paragraphs = prepared.split("\n")
         paragraphs.forEachIndexed { index, paragraph ->
+            fun isLetter(at: Int) = wordChar.matches(paragraph[at].toString()) || (supplementaryHan && isSupplementaryHan(paragraph, at))
             var i = 0
             while (i < paragraph.length) {
-                val isWord = wordChar.matches(paragraph[i].toString())
+                val isWord = isLetter(i)
                 var j = i + 1
-                while (j < paragraph.length && wordChar.matches(paragraph[j].toString()) == isWord) j++
+                while (j < paragraph.length && isLetter(j) == isWord) j++
                 val run = paragraph.substring(i, j)
                 if (isWord) {
                     segment(run, lexicon).forEach { tokens += ParsedToken(it, isWord = true) }
@@ -74,8 +80,9 @@ open class SegmentingParser(
         while (i < run.length) {
             val end = lexicon?.let { longestMatch(run, i, it) }
             if (end == null) {
-                if (joinUnknown) unknown.append(run[i]) else words += run[i].toString()
-                i++
+                val next = i + characterLength(run, i)
+                if (joinUnknown) unknown.append(run, i, next) else words += run.substring(i, next)
+                i = next
                 continue
             }
             if (unknown.isNotEmpty()) {
@@ -116,14 +123,15 @@ open class SegmentingParser(
         val best = DoubleArray(run.length + 1) { if (it == 0) 0.0 else Double.MAX_VALUE }
         val from = IntArray(run.length + 1)
         for (end in 1..run.length) {
-            for (start in maxOf(0, end - lexicon.maxLength - inflectionLength) until end) {
+            // At least two units, so a character of two is reached under a lexicon of one-unit words.
+            for (start in maxOf(0, end - maxOf(lexicon.maxLength + inflectionLength, 2)) until end) {
                 if (best[start] == Double.MAX_VALUE) continue
                 val word = lowercase(run.substring(start, end))
                 // After a number or a demonstrative, a measure word goes with it: 两个人 is 两 + 个 + 人, not 两 + 个人.
                 if (end - start > 1 && start > 0 && run[start - 1] in COUNTING && run[start] in MEASURES) continue
                 val rank = when {
                     matches(word, lexicon) -> lexicon.rank(word) ?: UNRANKED
-                    end - start == 1 -> UNKNOWN
+                    end - start == characterLength(run, start) -> UNKNOWN
                     else -> continue
                 }
                 val cost = best[start] + ln(rank.toDouble()) + WORD_COST
@@ -153,6 +161,18 @@ open class SegmentingParser(
 
         /** Common Chinese measure words, in both scripts. */
         const val MEASURES = "个個本只隻位次天名家件张張条條种種句双雙块塊杯碗岁歲点點辆輛台層层门門份节節场場篇首遍"
+
+        /** The high surrogates of the Han extensions, U+20000 to U+323FF; emoji's lie below them. */
+        val HAN_HIGH_SURROGATES = '\uD840'..'\uD888'
+
+        fun characterLength(text: String, at: Int): Int =
+            if (text[at].isHighSurrogate() && text.getOrNull(at + 1)?.isLowSurrogate() == true) 2 else 1
+
+        fun isSupplementaryHan(text: String, at: Int): Boolean = when {
+            text[at].isHighSurrogate() -> text[at] in HAN_HIGH_SURROGATES && text.getOrNull(at + 1)?.isLowSurrogate() == true
+            text[at].isLowSurrogate() -> text.getOrNull(at - 1)?.let { it in HAN_HIGH_SURROGATES } == true
+            else -> false
+        }
     }
 
     private fun longestMatch(run: String, start: Int, lexicon: Lexicon): Int? {
