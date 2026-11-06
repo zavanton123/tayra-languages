@@ -558,6 +558,8 @@ For Dutch it reads the short forms with an apostrophe in front (*'s ochtends*, *
 words with an apostrophe inside whole (*auto's*, *zo'n*); the pack shows a list headword wordfreq split with an underscore (*om_liggen*) as its form.
 For Danish it counts decades written with an apostrophe (*1960'erne*) as numbers, keeps a hyphenated word whole when the list has it
 whole (*e-mail*, *id-kort*), and, as for Dutch, counts the genitive of a name of several words (*Maja Holms*) as the name.
+For Cantonese, whose courses are adapted from the Mandarin ones and take their new words from each lesson, it has no band or coverage rule: it cuts words as the reader does, with the
+taught words beside the list, and checks the length (a quarter longer at the top than other languages), that each new word is in its lesson and not taught before, and that no character is simplified-only.
 For Norwegian it does the same for names and hyphenated words, counts decades (*1960-tallet*) as numbers, and
 `extra_forms.tsv` adds the noun genitives (*husets*, *bilens*) and many inflections the wordfreq list misses.
 For Swedish it reads an ending joined to an abbreviation with a colon (*tv:n*) as the abbreviation and counts decades
@@ -808,7 +810,9 @@ changed since.
 
 - Term pronunciation uses the platform speech engine: Android `TextToSpeech`,
   `AVSpeechSynthesizer` on iOS, the Web Speech API, and the OS speech command on desktop
-  (`say`, PowerShell System.Speech, `spd-say`).
+  (`say`, PowerShell System.Speech, `spd-say`). Cantonese takes a voice tagged `yue` or `zh-HK`
+  (`CantoneseVoices`); without one nothing is said, since the default voice may be Mandarin, so the
+  reader's play controls are off and a playlist stops on `PlaybackProblem.NoVoice`.
 - Dictionaries open in the platform browser; embedded web views are not used.
 - The web build keeps its database in a sql.js worker (`webApp/.../resources/library.worker.js`)
   that saves the whole file to IndexedDB 1.5 s after the last write (within 10 s while writes go on)
