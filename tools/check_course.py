@@ -9,9 +9,15 @@ frequency list, lesson by lesson, so generated lessons stay readable at their le
   course, and used at least twice in its lesson, counting its forms;
 - length: words per lesson within the course's range.
 
+Cantonese courses are adapted from the Mandarin ones (tools/courses/yue/BRIEF.md), so their new words
+come from the lesson, not a band of the list, and the list, from Wikipedia, lacks much of the spoken
+language: they are checked for length, new words in their lesson and not taught before, and simplified
+characters instead (check_cantonese).
+
 Usage: python3 tools/check_course.py tools/courses/pt/pt-mini-0100.json [--brief]
 Exit status 0 when every lesson passes.
 """
+import glob
 import json
 import math
 import os
@@ -187,9 +193,11 @@ MEASURES = "个個本只隻位次天名家件张張条條种種句双雙块塊�
 CHINESE_MEASURES = "点半号岁年月日天周个次道本只位张条件名家种句双块杯碗辆台层门份节场篇首遍口群片封部棵支根套座间所头箱盒包瓶袋盘串排把顿笔扇枚粒颗幅"
 CHINESE_NUMBER = re.compile(r"第?[零〇一二三四五六七八九十百千万亿两]+[" + CHINESE_MEASURES + "]?")
 CJK_RUN = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+")
+# What the reader takes as Cantonese letters: the language's word characters and the Han characters beyond the Basic Multilingual Plane (𨋢).
+CANTONESE_RUN = re.compile(r"[\u3005\u3007\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\U00020000-\U000323ff]+")
 
 
-def chinese_tokens(text, ranks):
+def chinese_tokens(text, ranks, code="zh"):
     """
     Chinese words as the app's reader cuts them (SegmentingParser): each run of characters into its
     likeliest words, those of the frequency list; a character no word covers is a word of its own.
@@ -197,9 +205,10 @@ def chinese_tokens(text, ranks):
     """
     longest = min(16, max((len(w) for w in ranks), default=1))
     out = []
-    for match in re.finditer(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+|[^\W\d_]+", text):
+    letters = CANTONESE_RUN if code == "yue" else CJK_RUN
+    for match in re.finditer(letters.pattern + r"|[^\W\d_]+", text):
         run = match.group(0)
-        if not CJK_RUN.fullmatch(run):
+        if not letters.fullmatch(run):
             out.append(run)
             continue
         # The likeliest cut, as SegmentingParser.likeliest makes it: each word costs the log of its rank plus 4,
@@ -211,7 +220,7 @@ def chinese_tokens(text, ranks):
                 # After a number or a demonstrative, a measure word goes with it (两个人 is 两 + 个 + 人).
                 if end - i > 1 and i > 0 and run[i - 1] in COUNTING and run[i] in MEASURES:
                     continue
-                rank = ranks.get(fold("zh", run[i:end]))
+                rank = ranks.get(fold(code, run[i:end]))
                 if rank is None:
                     if end - i > 1:
                         continue
@@ -1945,9 +1954,86 @@ def finnic_name(word, code, names):
     return False
 
 
+# Characters OpenCC has only as simplified that Hong Kong writes too: 吓 and 晒 are Cantonese words, the rest its standard forms.
+HONG_KONG_FORMS = set("吓晒群床秘峰灶痴霉")
+# A character named in quotes is spoken of, not written with (the radical 「气」).
+NAMED_CHARACTER = re.compile("「.」")
+_simplified_only = set()
+_courses_in = {}
+
+
+def simplified_characters(text):
+    """The characters of [text] used only in simplified writing: in OpenCC's table with no traditional form of their own."""
+    if not _simplified_only:
+        for line in open(os.path.join(OPENCC, "STCharacters.txt"), encoding="utf-8"):
+            key, _, values = line.rstrip("\n").partition("\t")
+            if key and key not in values.split(" ") and key not in HONG_KONG_FORMS:
+                _simplified_only.add(key)
+    return sorted(set(NAMED_CHARACTER.sub("", text)) & _simplified_only)
+
+
+def courses_in(folder):
+    """The courses of [folder], read once: a pack's check reads them all for each course."""
+    if folder not in _courses_in:
+        _courses_in[folder] = [json.load(open(p, encoding="utf-8")) for p in glob.glob(os.path.join(folder, "yue-*.json"))]
+    return _courses_in[folder]
+
+
+def check_cantonese(path, course):
+    """The lessons of a Cantonese course: their length in words as the reader cuts them, their new words, their script."""
+    others = courses_in(os.path.dirname(os.path.abspath(path)))
+    ranks = dict(load_list("yue")[0])
+    # The taught words the list lacks are in the dictionary pack, whose words the reader cuts by at this rank (SegmentingParser.UNRANKED).
+    for other in others + [course]:
+        for lesson in other["lessons"]:
+            for new in lesson.get("newWords", []):
+                ranks.setdefault(new, 50_000)
+    up_to = course["rankUpTo"]
+    shortest, longest = rules(up_to)[1:]
+    # Its particles, and the spoken words the list lacks, cut into more words than the languages the lengths were set for.
+    longest = longest * 5 // 4
+    names = sorted(course.get("names", []), key=len, reverse=True)
+    taught = {new for other in others if other["rankUpTo"] < up_to for lesson in other["lessons"] for new in lesson.get("newWords", [])}
+    seen_new = set()
+    ok = True
+    report = []
+    written = [course["title"], course["description"]] + course.get("names", [])
+    for found in simplified_characters("".join(written)):
+        ok = False
+        report.append(f"course: simplified character '{found}'")
+    for i, lesson in enumerate(course["lessons"], start=1):
+        text = re.sub(r"(?m)^問題：", "", lesson["text"])
+        whole_names = 0
+        for name in names:
+            whole_names += text.count(name)
+            text = text.replace(name, " ")
+        count = len(chinese_tokens(text, ranks, "yue")) + whole_names
+        problems = []
+        if not shortest <= count <= longest:
+            problems.append(f"{count} words, needs {shortest}-{longest}")
+        for new in lesson.get("newWords", []):
+            if new not in lesson["text"]:
+                problems.append(f"new word '{new}' is not in the text")
+            if new in taught:
+                problems.append(f"new word '{new}' was taught in an earlier course")
+            elif new in seen_new:
+                problems.append(f"new word '{new}' was introduced in an earlier lesson")
+            seen_new.add(new)
+        for found in simplified_characters(lesson["title"] + lesson["text"]):
+            problems.append(f"simplified character '{found}'")
+        ok = ok and not problems
+        report.append(f"lesson {i:2} {'PASS' if not problems else 'FAIL'}  {count} words, {len(lesson.get('newWords', []))} new")
+        report.extend("    - " + p for p in problems)
+    report.append(f"{len(seen_new)} new words taught")
+    print("\n".join(report))
+    return ok
+
+
 def check(path, brief=False):
     course = json.load(open(path, encoding="utf-8"))
     code = course["id"].split("-")[0]
+    if code == "yue":
+        return check_cantonese(path, course)
     ranks, words = load_list(code)
     verbs = spanish_verb_forms(words) if code == "es" else italian_verb_forms(words) if code == "it" else None
     if code == "gl":
