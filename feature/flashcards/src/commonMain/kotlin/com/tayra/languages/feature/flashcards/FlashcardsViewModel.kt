@@ -89,7 +89,7 @@ data class FlashcardsUiState(
     val canUndo: Boolean = false,
     /** Cards answered since the screen opened. */
     val answered: Int = 0,
-    /** Only Again and Good are offered, as the settings ask. */
+    /** Only Again and Good are offered, as the settings ask or an extra pass has it. */
     val twoButtons: Boolean = false,
     /** How long each answer would put the card away for, shown on its button. */
     val waits: Map<Rating, CardWait> = emptyMap(),
@@ -152,10 +152,20 @@ data class FlashcardsUiState(
 /** A card that just became a leech: its word, the times it was forgotten, and whether it was suspended for it. */
 data class LeechNote(val word: String, val lapses: Int, val suspended: Boolean)
 
-/** An extra pass past the day's limits: what it goes over, its cards in order, and how many are behind. */
+/**
+ * An extra pass past the day's limits: what it goes over, its cards in order, and how many are
+ * behind. Its answers are saved nowhere, so its cards stay as they were.
+ */
 data class ExtraPass(val study: ExtraStudy, val termIds: List<Long>, val done: Int = 0) {
     val current: Long? get() = termIds.getOrNull(done)
+
+    /** The pass past the card on show; answered Again, that card comes back at the end. */
+    fun answered(rating: Rating): ExtraPass =
+        copy(termIds = if (rating == Rating.AGAIN) termIds + termIds[done] else termIds, done = done + 1)
 }
+
+/** A step to go back over: the pass as it stood, and the answer to take back when one was saved. */
+private class SessionStep(val pass: ExtraPass?, val answered: FlashcardService.Answered? = null)
 
 /** A text to go back to after the cards, by its id. */
 data class ReadingToContinue(val bookId: Long)
@@ -200,7 +210,7 @@ class FlashcardsViewModel(
     private var pass: ExtraPass? = null
 
     /** The answers given this session, the latest last; going back takes them back one at a time. */
-    private val answers = ArrayDeque<FlashcardService.Answered>()
+    private val steps = ArrayDeque<SessionStep>()
     private var extrasJob: Job? = null
     private var waitingJob: Job? = null
     private var speechJob: Job? = null
@@ -225,7 +235,7 @@ class FlashcardsViewModel(
         // The cards follow the language chosen in the top bar.
         viewModelScope.launch {
             settings.settings.map { it.currentLanguageId }.distinctUntilChanged().drop(1).collect {
-                answers.clear()
+                steps.clear()
                 pass = null
                 _state.update { it.copy(canUndo = false, preparingAudio = audio != null) }
                 load()
@@ -348,9 +358,9 @@ class FlashcardsViewModel(
                     revealed = same && it.revealed,
                     counts = session.counts,
                     nextLearningAt = session.nextLearningAt,
-                    canUndo = answers.isNotEmpty(),
-                    twoButtons = settings.current.flashcardTwoButtons,
-                    waits = session.outcomes.mapValues { (_, after) -> CardWait(after.intervalDays.takeIf { after.state.isReview }, after.due - session.shownAt) },
+                    canUndo = steps.isNotEmpty(),
+                    twoButtons = pass != null || settings.current.flashcardTwoButtons,
+                    waits = if (pass != null) emptyMap() else session.outcomes.mapValues { (_, after) -> CardWait(after.intervalDays.takeIf { after.state.isReview }, after.due - session.shownAt) },
                     reading = reading,
                     pass = pass,
                     backlog = session.backlog,
@@ -493,14 +503,21 @@ class FlashcardsViewModel(
         autoJob?.cancel()
         val word = _state.value.card?.word.orEmpty()
         events.trySend(FlashcardsEvent.StopSpeaking)
+        val going = pass
+        if (going?.current == card.termId) {
+            steps.addLast(SessionStep(going))
+            pass = going.answered(rating)
+            _state.update { it.copy(leech = null) }
+            load()
+            return
+        }
         viewModelScope.launch {
             val answeredBy = when {
                 _state.value.spokenResult != null -> AnswerMode.SPEAK
                 _state.value.typedResult != null -> AnswerMode.TYPE
                 else -> AnswerMode.SHOW
             }
-            val answered = service.answer(card, rating, answeredBy, shownAt?.elapsedNow())?.also { answers.addLast(it) }
-            passOn(card.termId)
+            val answered = service.answer(card, rating, answeredBy, shownAt?.elapsedNow())?.also { steps.addLast(SessionStep(going, it)) }
             val leech = answered?.takeIf { it.leech }?.let { LeechNote(word, it.lapses, it.suspended) }
             _state.update { it.copy(answered = it.answered + 1, leech = leech) }
             load()
@@ -534,6 +551,7 @@ class FlashcardsViewModel(
     fun endPass() {
         if (pass == null) return
         pass = null
+        steps.removeAll { it.answered == null }
         load()
     }
 
@@ -661,14 +679,14 @@ class FlashcardsViewModel(
 
     /** Goes back to the previous card: its answer is taken back and it is shown again, to answer anew. */
     fun undo() {
-        val answered = answers.removeLastOrNull() ?: return
+        val step = steps.removeLastOrNull() ?: return
         events.trySend(FlashcardsEvent.StopSpeaking)
         viewModelScope.launch {
-            service.undo(answered)
-            // Back in the pass too, when the answer taken back was its last.
-            pass?.let { going -> if (going.done > 0 && going.termIds[going.done - 1] == answered.before.termId) pass = going.copy(done = going.done - 1) }
-            _state.update { it.copy(answered = (it.answered - 1).coerceAtLeast(0), leech = null) }
-            load(prefer = answered.before.termId)
+            val answered = step.answered
+            if (answered != null) service.undo(answered)
+            pass = step.pass
+            _state.update { it.copy(answered = if (answered != null) (it.answered - 1).coerceAtLeast(0) else it.answered, leech = null) }
+            load(prefer = answered?.before?.termId)
         }
     }
 
@@ -677,7 +695,7 @@ class FlashcardsViewModel(
         val card = current ?: return
         current = null
         events.trySend(FlashcardsEvent.StopSpeaking)
-        answers.removeAll { it.before.termId == card.termId }
+        steps.removeAll { it.answered?.before?.termId == card.termId }
         passOn(card.termId)
         viewModelScope.launch {
             service.delete(listOf(card.termId))
@@ -685,14 +703,15 @@ class FlashcardsViewModel(
         }
     }
 
-    /** Leaves the card on show until the next study day, its schedule as it is. */
+    /** Leaves the card on show until the next study day, its schedule as it is; an extra pass only moves past it. */
     fun skipCard() {
         val card = current ?: return
         current = null
         events.trySend(FlashcardsEvent.StopSpeaking)
+        val inPass = pass?.current == card.termId
         passOn(card.termId)
         viewModelScope.launch {
-            service.skip(listOf(card.termId))
+            if (!inPass) service.skip(listOf(card.termId))
             load()
         }
     }

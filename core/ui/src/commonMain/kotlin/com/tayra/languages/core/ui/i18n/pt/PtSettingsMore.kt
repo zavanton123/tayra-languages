@@ -442,6 +442,7 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Random keeps words saved from one text from all coming at once; it is shuffled again each day." to "Aleatório evita que as palavras salvas de um texto venham todas juntas; é embaralhado de novo a cada dia.",
     "New cards among reviews" to "Cartões novos entre as revisões",
     "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "Misturados os espalha por igual entre as revisões do dia, então até um dia longo traz palavras novas logo.",
+    "Skip card" to "Pular flashcard",
     "Skip until tomorrow" to "Pular até amanhã",
     "Skip the card until tomorrow" to "Pular o cartão até amanhã",
     "Next day starts at" to "O novo dia começa às",

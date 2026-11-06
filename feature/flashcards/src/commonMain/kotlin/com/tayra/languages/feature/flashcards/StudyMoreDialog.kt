@@ -53,8 +53,8 @@ private val PRACTISED = listOf(TermStatus.NEW_1, TermStatus.NEW_2, TermStatus.LE
 
 /**
  * Studying past the day's limits: more new cards today, the reviews of the coming days, the cards
- * forgotten lately, or words practised at random. Each choice says how many cards it gives, and
- * every answer in it is a review like any other.
+ * forgotten lately, or words practised at random. Each choice says how many cards it gives; all but
+ * the new cards save no answers.
  */
 @Composable
 internal fun StudyMoreDialog(counts: StudyMoreCounts, onAddNew: (Int) -> Unit, onStart: (ExtraStudy) -> Unit, onDismiss: () -> Unit) {
@@ -103,7 +103,7 @@ internal fun StudyMoreDialog(counts: StudyMoreCounts, onAddNew: (Int) -> Unit, o
                     Amount(tr("Cards"), practised, 5..200, step = 5) { practised = it }
                     Count(cards?.let { trPlural(it, "{0} card to practise.", "{0} cards to practise.") })
                 }
-                Text(tr("Every answer counts as a review."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                if (study != null) Text(tr("Nothing is saved: each card keeps its schedule and status."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         },
         confirmButton = {

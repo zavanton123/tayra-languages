@@ -246,7 +246,7 @@ internal class FlashcardActions(
     /** Back to the previous card, its answer taken back. */
     val onUndo: () -> Unit = {},
     val onSuspend: () -> Unit = {},
-    /** Leaves the card until tomorrow. */
+    /** Leaves the card until tomorrow, or in an extra pass, moves past it. */
     val onSkip: () -> Unit = {},
     /** Asks before the card is deleted with its word. */
     val onDelete: () -> Unit = {},
@@ -369,7 +369,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         Finished(state, actions)
                     } else {
                         // Each card fades in as it comes up, filling the height left to it.
-                        key(card.termId) { Appear(Modifier.weight(1f), grow = true) { WideCard(card, state.revealed, state.canUndo, speaker, actions, timer = { AnswerTimer(state) }) { AnswerGiven(state, actions, compact = false) } } }
+                        key(card.termId) { Appear(Modifier.weight(1f), grow = true) { WideCard(card, state.revealed, state.canUndo, state.pass != null, speaker, actions, timer = { AnswerTimer(state) }) { AnswerGiven(state, actions, compact = false) } } }
                         // Show answer and the answers share one place at the foot; the answers fade in as the card turns over.
                         if (state.revealed) {
                             Appear { Answers(actions, compact = false, state.twoButtons, state.waits, state.suggested) }
@@ -424,7 +424,7 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             } else {
                 RevealButton(state, actions, Modifier.fillMaxWidth().heightIn(min = ANSWER_SLOT_COMPACT))
             }
-            CardFooter(card, state.canUndo, actions)
+            CardFooter(card, state.canUndo, state.pass != null, actions)
         }
     }
 }
@@ -678,7 +678,7 @@ private fun CardText(card: CardContent, revealed: Boolean, compact: Boolean) {
  * word under the sentence, its sound above it.
  */
 @Composable
-private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier, timer: @Composable () -> Unit = {}, given: @Composable () -> Unit = {}) {
+private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, inPass: Boolean, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier, timer: @Composable () -> Unit = {}, given: @Composable () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     Column(modifier.fillMaxSize().cardSurface(AppShapes.large).padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl).testTag("flashcard")) {
@@ -695,7 +695,7 @@ private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, spe
             }
             // Other examples show the word, so they are offered once it is shown.
             if (revealed && card.sentence != null) CardButton(AppIcons.Sync, tr("Choose another example"), { actions.onChooseExample(card) }, tag = "choose-example")
-            CardMenu(card, actions)
+            CardMenu(card, inPass, actions)
         }
         BoxWithConstraints(Modifier.weight(1f).fillMaxWidth()) {
             val scroll = rememberScrollState()
@@ -776,14 +776,14 @@ private val TIMER_TICK = 250.milliseconds
 
 /** The card's other actions behind one round button: its details, and suspending or deleting it. */
 @Composable
-private fun CardMenu(card: CardContent, actions: FlashcardActions) {
+private fun CardMenu(card: CardContent, inPass: Boolean, actions: FlashcardActions) {
     var open by remember { mutableStateOf(false) }
     Box {
         CardButton(AppIcons.MoreHoriz, tr("More actions"), { open = true }, tag = "card-menu")
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             MenuAction(Icons.Default.Edit, tr("Edit flashcard")) { open = false; actions.onEdit(card.termId) }
             MenuAction(Icons.Default.Add, tr("Study more")) { open = false; actions.onStudyMore() }
-            MenuAction(AppIcons.SkipNext, tr("Skip until tomorrow")) { open = false; actions.onSkip() }
+            MenuAction(AppIcons.SkipNext, if (inPass) tr("Skip card") else tr("Skip until tomorrow")) { open = false; actions.onSkip() }
             MenuAction(AppIcons.Pause, tr("Suspend card")) { open = false; actions.onSuspend() }
             MenuAction(Icons.Default.Delete, tr("Delete card"), destructive = true) { open = false; actions.onDelete() }
         }
@@ -950,23 +950,23 @@ private fun Answers(actions: FlashcardActions, compact: Boolean, twoButtons: Boo
 
 /** A phone's actions under the card: the short names only, spread over the width. */
 @Composable
-private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardActions) {
+private fun CardFooter(card: CardContent, canUndo: Boolean, inPass: Boolean, actions: FlashcardActions) {
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
         FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous"), Modifier.weight(1f), enabled = canUndo, onClick = actions.onUndo)
         FooterLink(Icons.Default.Edit, tr("Edit"), Modifier.weight(1f), onClick = { actions.onEdit(card.termId) })
-        MoreActions(actions, Modifier.weight(1f))
+        MoreActions(inPass, actions, Modifier.weight(1f))
     }
 }
 
 /** Suspend and Delete, a step away from the card so neither is pressed by mistake while reviewing. */
 @Composable
-private fun MoreActions(actions: FlashcardActions, modifier: Modifier = Modifier) {
+private fun MoreActions(inPass: Boolean, actions: FlashcardActions, modifier: Modifier = Modifier) {
     var open by remember { mutableStateOf(false) }
     Box(modifier) {
         FooterLink(AppIcons.MoreHoriz, tr("More"), Modifier.fillMaxWidth(), onClick = { open = true })
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             AppMenuItem(text = { Text(tr("Study more")) }, onClick = { open = false; actions.onStudyMore() })
-            AppMenuItem(text = { Text(tr("Skip until tomorrow")) }, onClick = { open = false; actions.onSkip() })
+            AppMenuItem(text = { Text(if (inPass) tr("Skip card") else tr("Skip until tomorrow")) }, onClick = { open = false; actions.onSkip() })
             AppMenuItem(text = { Text(tr("Suspend card")) }, onClick = { open = false; actions.onSuspend() })
             AppMenuItem(text = { Text(tr("Delete card"), color = MaterialTheme.colorScheme.error) }, onClick = { open = false; actions.onDelete() })
         }

@@ -155,7 +155,8 @@ class FlashcardService(
         return when (study) {
             is ExtraStudy.Ahead -> {
                 val by = scheduler.dayStart(today + study.days + 1, config)
-                active.filter { it.schedule.state.isReview && it.schedule.due < by }.sortedWith(compareBy({ it.schedule.due }, { it.termId })).map { it.termId }
+                val tomorrow = scheduler.dayStart(today + 1, config)
+                active.filter { it.schedule.state.isReview && it.schedule.due >= tomorrow && it.schedule.due < by }.sortedWith(compareBy({ it.schedule.due }, { it.termId })).map { it.termId }
             }
             is ExtraStudy.Forgotten -> {
                 val forgotten = cards.forgottenSince(languageId, scheduler.dayStart(today - (study.days - 1).coerceAtLeast(0), config))
@@ -563,9 +564,9 @@ class FlashcardService(
     }
 }
 
-/** A pass over cards past the day's limits; every answer in it is a review like any other. */
+/** A pass over cards past the day's limits; its answers are not reviews, and leave the cards as they are. */
 sealed interface ExtraStudy {
-    /** The reviews due in the next [days] study days, today's among them, the soonest first. */
+    /** The reviews due in the next [days] study days, not today's, the soonest first. */
     data class Ahead(val days: Int) : ExtraStudy
 
     /** The cards answered Again in the last [days] study days, today being the first. */

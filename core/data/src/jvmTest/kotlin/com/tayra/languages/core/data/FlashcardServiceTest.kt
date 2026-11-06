@@ -104,6 +104,17 @@ class FlashcardServiceTest {
     }
 
     @Test
+    fun reviewAheadLeavesOutTheCardsAlreadyDue() = runTest {
+        val id = language()
+        val lobo = term(id, "lobo")
+        answer(id, lobo, Rating.EASY)
+        assertEquals(listOf(lobo), service.extraCards(id, ExtraStudy.Ahead(7)))
+        // Easy waits a week at most while a word is not yet known.
+        clock.advance(8.days)
+        assertEquals(emptyList(), service.extraCards(id, ExtraStudy.Ahead(7)))
+    }
+
+    @Test
     fun extraPassesGoOverTheirCards() = runTest {
         val id = language()
         val lobo = term(id, "lobo")

@@ -268,7 +268,7 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Practise words" to "Практика слов",
     "Review answered cards of the statuses chosen, in random order." to "Повторить отвеченные карточки выбранных статусов в случайном порядке.",
     "Cards" to "Карточки",
-    "Every answer counts as a review." to "Каждый ответ считается повторением.",
+    "Nothing is saved: each card keeps its schedule and status." to "Ничего не сохраняется: у каждой карточки остаются её расписание и статус.",
     "Start" to "Начать",
     "Counting…" to "Подсчёт…",
     "Back to today's cards" to "К сегодняшним карточкам",

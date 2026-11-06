@@ -268,7 +268,7 @@ internal val esCourses: Map<String, String> = mapOf(
     "Practise words" to "Practicar palabras",
     "Review answered cards of the statuses chosen, in random order." to "Repasa tarjetas ya respondidas de los estados elegidos, en orden aleatorio.",
     "Cards" to "Tarjetas",
-    "Every answer counts as a review." to "Cada respuesta cuenta como un repaso.",
+    "Nothing is saved: each card keeps its schedule and status." to "No se guarda nada: cada tarjeta conserva su programación y su estado.",
     "Start" to "Empezar",
     "Counting…" to "Contando…",
     "Back to today's cards" to "Volver a las tarjetas de hoy",

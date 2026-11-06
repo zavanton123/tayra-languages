@@ -268,7 +268,7 @@ internal val deCourses: Map<String, String> = mapOf(
     "Practise words" to "Wörter üben",
     "Review answered cards of the statuses chosen, in random order." to "Beantwortete Karten der gewählten Status in zufälliger Reihenfolge wiederholen.",
     "Cards" to "Karten",
-    "Every answer counts as a review." to "Jede Antwort zählt als Wiederholung.",
+    "Nothing is saved: each card keeps its schedule and status." to "Nichts wird gespeichert: Jede Karte behält ihren Zeitplan und Status.",
     "Start" to "Starten",
     "Counting…" to "Wird gezählt…",
     "Back to today's cards" to "Zurück zu den heutigen Karten",

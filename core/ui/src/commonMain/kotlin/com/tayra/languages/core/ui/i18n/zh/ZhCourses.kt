@@ -268,7 +268,7 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Practise words" to "练习单词",
     "Review answered cards of the statuses chosen, in random order." to "按随机顺序复习所选状态的已回答卡片。",
     "Cards" to "卡片",
-    "Every answer counts as a review." to "每次回答都算作一次复习。",
+    "Nothing is saved: each card keeps its schedule and status." to "不会保存任何内容：每张卡片的计划和状态保持不变。",
     "Start" to "开始",
     "Counting…" to "正在统计…",
     "Back to today's cards" to "返回今天的卡片",

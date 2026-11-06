@@ -268,7 +268,7 @@ internal val frCourses: Map<String, String> = mapOf(
     "Practise words" to "S’exercer sur les mots",
     "Review answered cards of the statuses chosen, in random order." to "Réviser les cartes déjà répondues des statuts choisis, dans un ordre aléatoire.",
     "Cards" to "Cartes",
-    "Every answer counts as a review." to "Chaque réponse compte comme une révision.",
+    "Nothing is saved: each card keeps its schedule and status." to "Rien n’est enregistré : chaque carte garde son calendrier et son statut.",
     "Start" to "Commencer",
     "Counting…" to "Décompte…",
     "Back to today's cards" to "Retour aux cartes du jour",

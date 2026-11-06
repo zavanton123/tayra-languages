@@ -442,6 +442,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Random keeps words saved from one text from all coming at once; it is shuffled again each day." to "随机顺序让同一篇文本里保存的单词不会一起出现；每天重新打乱。",
     "New cards among reviews" to "新卡片在复习中的位置",
     "Mixed spreads them evenly through the day's reviews, so a long day still brings new words early on." to "穿插时新卡片均匀分布在当天的复习里，复习再多也能早早见到新单词。",
+    "Skip card" to "跳过卡片",
     "Skip until tomorrow" to "跳过到明天",
     "Skip the card until tomorrow" to "把卡片跳过到明天",
     "Next day starts at" to "新的一天开始于",

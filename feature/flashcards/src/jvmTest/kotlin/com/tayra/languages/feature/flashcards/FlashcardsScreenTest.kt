@@ -155,7 +155,7 @@ class FlashcardsScreenTest {
                                 FlashcardsContent(
                                     state,
                                     speaker = if (withSpeaker) rememberSpeaker(LocalSpeech(emptyList()), settings) else null,
-                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, onTypeInstead = viewModel::typeInstead, onStudyMore = { studyingMore = true }, onEndPass = viewModel::endPass),
+                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onSkip = viewModel::skipCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, onTypeInstead = viewModel::typeInstead, onStudyMore = { studyingMore = true }, onEndPass = viewModel::endPass),
                                     hotkeys = hotkeys,
                                 )
                             }
@@ -359,6 +359,7 @@ class FlashcardsScreenTest {
         answerShown("Easy")
         openStudyMore()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 new card waits beyond today's limit.").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Nothing is saved: each card keeps its schedule and status.").assertDoesNotExist()
         save("STUDY_MORE_SCREENSHOT")
         onNodeWithTag("study-more-start").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("A [...] é grande.").fetchSemanticsNodes().isNotEmpty() }
@@ -371,16 +372,48 @@ class FlashcardsScreenTest {
         openStudyMore()
         onNodeWithTag("study-more-AHEAD").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("0 cards are due in that time.").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Nothing is saved: each card keeps its schedule and status.").assertExists()
         onNodeWithTag("study-more-start").assertIsNotEnabled()
         // Easy put the card about a week away.
         repeat(5) { onNodeWithContentDescription("Increase Days ahead").performClick() }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 card is due in that time.").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("study-more-start").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Review ahead · card 1 of 1").fetchSemanticsNodes().isNotEmpty() }
+        val cardBefore = runBlocking { service.cardFor(termId) }
+        val statusBefore = runBlocking { terms.getById(termId) }?.status
+
+        answerShown("Again")
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Review ahead · card 2 of 2").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("previous-card").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Review ahead · card 1 of 1").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("flashcards-keys").performKeyInput { pressKey(Key.Spacebar) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("answer-Good").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("answer-Hard").assertDoesNotExist()
+        onNodeWithTag("answer-Easy").assertDoesNotExist()
         save("REVIEW_AHEAD_SCREENSHOT")
-        answerShown("Good")
+        onNodeWithTag("answer-Good").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("study-more").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(listOf(Rating.GOOD, Rating.EASY), runBlocking { service.reviews(termId) }.map { it.rating }, "the early review counts")
+
+        assertEquals(listOf(Rating.EASY), runBlocking { service.reviews(termId) }.map { it.rating }, "no review is logged")
+        assertEquals(cardBefore, runBlocking { service.cardFor(termId) }, "the card keeps its schedule")
+        assertEquals(statusBefore, runBlocking { terms.getById(termId) }?.status, "the word keeps its status")
+    }
+
+    @Test
+    fun aCardSkippedInAPassIsNotPutAwayUntilTomorrow() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        answerShown("Easy")
+        val skippedBefore = settings.current.flashcardSkipped
+        openStudyMore()
+        onNodeWithTag("study-more-PRACTISE").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 card to practise.").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("study-more-start").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Practise words · card 1 of 1").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("card-menu").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Skip card").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Skip card").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("study-more").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(skippedBefore, settings.current.flashcardSkipped)
     }
 
     @Test

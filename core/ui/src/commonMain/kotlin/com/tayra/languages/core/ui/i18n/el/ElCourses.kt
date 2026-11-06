@@ -268,7 +268,7 @@ internal val elCourses: Map<String, String> = mapOf(
     "Practise words" to "Εξάσκηση λέξεων",
     "Review answered cards of the statuses chosen, in random order." to "Επαναλάβετε κάρτες που έχετε απαντήσει, με τις επιλεγμένες καταστάσεις, σε τυχαία σειρά.",
     "Cards" to "Κάρτες",
-    "Every answer counts as a review." to "Κάθε απάντηση μετράει ως επανάληψη.",
+    "Nothing is saved: each card keeps its schedule and status." to "Δεν αποθηκεύεται τίποτα: κάθε κάρτα κρατά το πρόγραμμα και την κατάστασή της.",
     "Start" to "Έναρξη",
     "Counting…" to "Μέτρηση…",
     "Back to today's cards" to "Πίσω στις σημερινές κάρτες",
