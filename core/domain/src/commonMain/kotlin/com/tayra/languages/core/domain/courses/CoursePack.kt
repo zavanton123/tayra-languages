@@ -209,7 +209,7 @@ object CoursePacks {
             title = "Indonesian",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-id.sqlite.gzip",
-            downloadSize = 1_143_912,
+            downloadSize = 1_143_665,
         ),
         CoursePack(
             id = "courses-ar",
