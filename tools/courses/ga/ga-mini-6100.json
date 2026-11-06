@@ -1,0 +1,194 @@
+{
+  "id": "ga-mini-6100",
+  "rankUpTo": 6100,
+  "level": "C1",
+  "title": "An chruinne agus na réaltaí",
+  "description": "Ten standalone stories, letters, columns and an interview about the night sky, space travel and what the stars are made of.",
+  "topic": "The universe and the stars",
+  "names": [
+    "Feichín",
+    "Ciarraí",
+    "Londain",
+    "Feabhra",
+    "Eilbhe",
+    "Mars",
+    "Mhars",
+    "Gaillimh",
+    "Nainsí",
+    "Conamara",
+    "gConamara",
+    "Ciarnait",
+    "Luimneach",
+    "Uinseann",
+    "Éanna",
+    "Aodhnait",
+    "Fhiachra",
+    "Fiachra",
+    "Eithna",
+    "Síomha",
+    "Alastar",
+    "Iúpatar",
+    "Sailbheastar",
+    "Toronto",
+    "Dualta",
+    "Dhualta",
+    "Craobhnait",
+    "Marta",
+    "Eanáir",
+    "Corcaigh",
+    "Seapáin",
+    "Ceara",
+    "Séimí",
+    "Sárait",
+    "Iseabail",
+    "Gaeilge",
+    "Ghaeilge"
+  ],
+  "lessons": [
+    {
+      "title": "Caomhantas na hoíche",
+      "summary": "A man back from London finds his home town too bright for the stars, and with a neighbour on the commonage he slowly gets some of the dark back.",
+      "newWords": [
+        "caomhantas",
+        "coimín",
+        "léana",
+        "lomán",
+        "fóillíocht",
+        "teilifíseán",
+        "miondíoltóir",
+        "gáifeach"
+      ],
+      "text": "Nuair a d'fhill mé ar mo bhaile dúchais i gCiarraí tar éis 20 bliain i Londain, rinne mé rud a dhéanadh m'athair gach oíche fhómhair: sheas mé amuigh ar an léana os comhair an tí agus d'fhéach mé suas. Nuair a bhí mé i mo pháiste, bhí Bealach na Bó Finne chomh soiléir sin gur shíl mé gur scamall a bhí ann. An oíche sin, ní raibh le feiceáil ach dornán réaltaí. Bhí an léana féin chomh geal le páirc peile.\n\nNí raibh orm dul i bhfad chun an chúis a fháil. Bhí soilse móra ag an ionad fóillíochta nua, agus ar an bpríomhshráid bhí comhartha gáifeach ag miondíoltóir troscáin, dearg agus glas, ag lasadh is ag múchadh ó mhaidin go maidin.\n\nLabhair mé le mo chomharsa, Feichín, feirmeoir a bhfuil caoirigh aige ar an gcoimín ar an gcnoc. Talamh é coimín atá ag roinnt feirmeoirí le chéile, agus dá bhrí sin níor tógadh oiread agus teach air riamh. “Tá an oíche chomh dubh le pota ar an gcoimín fós,” a dúirt Feichín. “Tar suas.” Chuamar suas, agus b'ionann é agus fuinneog a oscailt. Bhí an spéir lán go béal.\n\nIs dóigh le daoine gur rud é caomhantas a bhaineann le héin agus le portaigh. Ach tá a leithéid de rud ann agus caomhantas na hoíche: ceantair a bhfuil rialacha acu faoi sholas, ionas go mbeidh an dorchadas fós ann don chéad ghlúin eile. Mhol mé é ag cruinniú sa halla. Bhí amhras ar dhaoine. Cé a d'íocfadh as? Dúirt bainisteoir an ionaid fóillíochta go raibh eagla air go dtitfeadh duine sa charrchlós.\n\nNí as rialacha a tháinig an t-athrú, ach as rudaí beaga. D'aontaigh an miondíoltóir a chomhartha gáifeach a mhúchadh ag a 10 a chlog ar feadh míosa, mar thriail. Níor chaill sé pingin. Chuir an t-ionad fóillíochta lampaí nua suas a dhíríonn a solas ar an talamh. Agus tar éis na stoirme i mí Feabhra, nuair a leagadh crainn ar fud an cheantair, tharraing Feichín 8 lomán suas go dtí an coimín lena tharracóir. Is suíocháin iad na lomáin sin anois.\n\nAr oíche ghlan, suíonn 30 duine ar na lomáin. Fágann siad an teilifíseán múchta sa bhaile. Bhíodh m'athair ina chodladh os comhair an teilifíseáin formhór na n-oícheanta le blianta beaga anuas, ach tháinig sé féin aníos anuraidh, agus é 84 bliain d'aois, agus d'ainmnigh sé na réaltaí mar a dhéanadh sé fadó. Ní caomhantas ceart é fós, b'fhéidir. Ach tá Bealach na Bó Finne ar ais os cionn an léana.\n\nCeisteanna:\nCad a thug an scríbhneoir faoi deara nuair a sheas sé ar an léana?\nThug sé faoi deara nach raibh ach dornán réaltaí le feiceáil.\nCad is coimín ann?\nTalamh é atá ag roinnt feirmeoirí le chéile.\nCad is caomhantas na hoíche ann?\nCeantair a bhfuil rialacha acu faoi sholas, ionas go mbeidh an dorchadas fós ann.\nCad a rinne an miondíoltóir troscáin?\nMhúch sé a chomhartha gáifeach ag a 10 a chlog ar feadh míosa.\nCad a rinne Feichín leis na lomáin?\nTharraing sé suas go dtí an coimín iad, agus is suíocháin iad anois."
+    },
+    {
+      "title": "An róbat san imchuach",
+      "summary": "A programmer in Galway finds why a robot on Mars has stopped and restarts it, while her mother waits at home for the picture of the day.",
+      "newWords": [
+        "róbat",
+        "ríomhchláraitheoir",
+        "imchuach",
+        "sampláil",
+        "criathraigh",
+        "atosaigh",
+        "príomhchúram",
+        "brabhsálaí",
+        "deilbhín"
+      ],
+      "text": "Is ríomhchláraitheoir í Eilbhe. Tá cónaí uirthi i nGaillimh, ach tá an cód a scríobhann sí ag rith i bhfad níos faide ó bhaile: i róbat atá ag tiomáint go mall ar dhromchla Mhars. Tá an róbat in imchuach mór. Log ollmhór é imchuach den sórt seo, a rinne cloch ón spás nuair a bhuail sí an pláinéad na billiúin bliain ó shin. Creideann na heolaithe go raibh loch san imchuach seo tráth, agus go bhféadfadh rian den saol a bheith fós sa chré.\n\nIs é sampláil na cré príomhchúram an róbait. Tógann sé beagán cré lena lámh mhiotail, déanann sé í a chriathrú chun na clocha a bhaint aisti, agus scrúdaíonn sé an púdar mín a fhanann. Is é príomhchúram Eilbhe féin an cód atá taobh thiar den tsampláil sin a choinneáil ag obair.\n\nMaidin amháin, ní raibh teachtaireacht ar bith ón róbat. Bhí sé ina stad agus a lámh san aer. Léigh Eilbhe na sonraí deireanacha a tháinig uaidh, líne ar líne. Ar deireadh fuair sí an fhadhb: chriathraigh an róbat an chré, ach bhí an criathar blocáilte ag cloch bheag, agus ní raibh sé in ann an criathrú a chríochnú. Bhí an róbat ag fanacht go foighneach le rud nach dtarlódh go deo, mar níor smaoinigh ríomhchláraitheoir ar bith, 3 bliana roimhe sin, ar chloch den mhéid sin.\n\nScríobh sí cúpla líne nua: mura gcríochnaítear an criathrú laistigh de 10 nóiméad, croith an criathar agus tosaigh arís. Ach bhí ar an bhfoireann an róbat iomlán a atosú sula rachadh an cód nua i bhfeidhm. Ní hionann sin agus do ríomhaire féin a atosú. Tógann sé 12 nóiméad ar theachtaireacht dul go Mars, agus 12 nóiméad eile ar an bhfreagra teacht ar ais. D'atosaigh siad é, agus shuigh siad ag féachaint ar an gclog.\n\nIdir an dá linn, bhí máthair Eilbhe, Nainsí, ina suí ina cistin i gConamara. Tá sí 71 bliain d'aois, agus leanann sí an róbat gach lá. Chuir a hiníon deilbhín beag dearg ar scáileán a ríomhaire di. Nuair a chliceálann Nainsí an deilbhín, osclaíonn an brabhsálaí ar leathanach a bhfuil pictiúr an lae air.\n\nGhlaoigh sí ar a hiníon an tráthnóna sin. “Tá an pictiúr céanna ann le 2 lá,” a dúirt sí. “An bhfuil rud éigin cearr leis an mbrabhsálaí seo?”\n\n“Níl,” arsa Eilbhe. “Fan go fóill. Ná dún é.”\n\nGo gairid ina dhiaidh sin, tháinig an freagra. Chroith an róbat an criathar, thit an chloch, agus chríochnaigh sé an tsampláil. An oíche sin, chliceáil Nainsí an deilbhín, agus bhí pictiúr nua ann: lámh an róbait faoi spéir dhearg. “Tá sé ag obair!” a dúirt sí ar an bhfón. “Tá a fhios agam,” arsa Eilbhe, agus a súile dúnta aici ar deireadh.\n\nCeisteanna:\nCad is imchuach ann?\nLog ollmhór é a rinne cloch ón spás nuair a bhuail sí an pláinéad.\nCad é príomhchúram an róbait?\nIs é sampláil na cré a phríomhchúram.\nCén fáth ar stad an róbat?\nBhí an criathar blocáilte ag cloch bheag, agus bhí sé ag fanacht leis an gcriathrú a chríochnú.\nCén fáth nárbh ionann é agus ríomhaire sa bhaile a atosú?\nTógann sé 12 nóiméad ar theachtaireacht dul go Mars agus 12 nóiméad eile ar an bhfreagra teacht ar ais.\nConas a fheiceann Nainsí pictiúr an lae?\nCliceálann sí an deilbhín, agus osclaíonn an brabhsálaí ar an leathanach."
+    },
+    {
+      "title": "Dochtúir na spásairí",
+      "summary": "An interview with a doctor who looked after astronauts: quarantine, hygiene and sanitation in orbit, heart and bones, flashes of light, and research that helps people on the ground.",
+      "newWords": [
+        "sláinteachas",
+        "sláintíocht",
+        "íonghlan",
+        "leithlisigh",
+        "heipitíteas",
+        "cairdiach",
+        "siabhrán",
+        "láidreacht",
+        "néaltrú",
+        "comhoibritheach"
+      ],
+      "text": "Chaith an Dr Ciarnait 15 bliain ag tabhairt aire do spásairí sular fhill sí ar Luimneach, áit a bhfuil clinic aici anois. Bhuail mé léi chun labhairt faoi rud nach smaoinímid air agus muid ag féachaint ar na réaltaí: cad a dhéanann an spás leis an gcorp.\n\n“Cá dtosaíonn an obair le spásaire?”\n\n“I bhfad roimh an eitilt. Ní féidir dochtúir a ghlaoch ag 400 ciliméadar os cionn an Domhain, mar sin tugaimid vacsaíní dóibh in aghaidh gach galair a bhféadfaimis smaoineamh air, heipitíteas ina measc. Is cuma cé chomh beag is atá an baol: dá mbeadh heipitíteas ar dhuine amháin sa stáisiún, bheadh fadhb ag an bhfoireann ar fad. Ansin, coicís roimh an eitilt, leithlisítear an criú. Bíonn siad leithlisithe in ionad speisialta, gan ach líon beag cuairteoirí. Ní pionós é an leithlisiú: is é an t-aon bhealach é chun nach rachaidh slaghdán suas leo.”\n\n“Conas a choinnítear duine glan gan cith?”\n\n“Le deacracht! Is ábhar laethúil é an sláinteachas thuas ansin. Níl cith ann: éadach fliuch agus seampú nach gá a shruthlú. Ní féidir éadaí a ní ach an oiread. Mar sin féin, is é an sláinteachas a choinníonn an criú slán ó thinneas. Ansin tá an tsláintíocht: an leithreas, an bruscar, an t-aer. Is ceist innealtóireachta í an tsláintíocht sa spás, mar níl domhantarraingt ann chun aon rud a tharraingt síos. Maidir leis an uisce, déantar gach braon a úsáidtear a íonghlanadh, fiú an t-allas san aer, agus ólann na spásairí arís é. Deir cuid acu gurbh fhearr an t-uisce íonghlanta sin ná uisce an tí.”\n\n“Cad a tharlaíonn don chorp féin?”\n\n“Gan domhantarraingt, is beag obair atá le déanamh ag an gcroí ná ag na matáin. Éiríonn an croí níos lú, mar a dhéanann aon mhatán nach n-úsáidtear. Déanaim tástáil chairdiach roimh an eitilt, agus féachaim ar an ráta cairdiach gach lá. Cailleann na cnámha a láidreacht freisin. Sin an fáth go gcaitheann gach spásaire 2 uair a chloig in aghaidh an lae ag aclaíocht, chun an láidreacht sin a choinneáil.”\n\n“An bhfeiceann siad rudaí aisteacha?”\n\n“Feiceann, agus ní siabhrán é! Feiceann siad splancanna solais agus a súile dúnta. Nuair a tharla sé sin do na chéad spásairí, shíl cuid acu gur siabhrán a bhí orthu, agus bhí eagla orthu é a insint. Ach is cáithníní ón spás a bhíonn ag dul tríd an tsúil. Rud fíor atá ann, ní siabhrán ar bith.”\n\n“Cén saghas duine a éiríonn leis thuas?”\n\n“Duine comhoibritheach. Caitheann 6 dhuine 6 mhí in áit nach mó ná teach, agus ní féidir doras a dhúnadh agus siúl amach. Is fearr liom spásaire comhoibritheach ná laoch.”\n\n“An gcabhraíonn an obair seo le daoine nach bhfágfaidh an talamh go deo?”\n\n“Cabhraíonn. Fásann criostail phróitéine níos fearr gan domhantarraingt, agus tá eolaithe á n-úsáid chun taighde a dhéanamh ar néaltrú. Feicim daoine a bhfuil néaltrú orthu sa chlinic anseo gach seachtain. Is deas liom smaoineamh go bhfuil cabhair dóibh á lorg ag 400 ciliméadar os ár gcionn.”\n\nCeisteanna:\nCén fáth a leithlisítear an criú roimh an eitilt?\nIs é an t-aon bhealach é chun nach rachaidh slaghdán suas leo.\nConas a fhaigheann na spásairí uisce?\nDéantar gach braon a íonghlanadh, agus ólann siad arís é.\nCén fáth a gcaitheann spásairí 2 uair a chloig ag aclaíocht gach lá?\nDéanann siad é chun láidreacht na gcnámh agus na matán a choinneáil.\nCén fáth nach siabhrán iad na splancanna solais?\nIs cáithníní ón spás iad atá ag dul tríd an tsúil.\nCén saghas duine is fearr leis an dochtúir?\nIs fearr léi spásaire comhoibritheach ná laoch."
+    },
+    {
+      "title": "Soinéad don Ghealach",
+      "summary": "A boy with reading difficulties writes a sonnet about the Moon for his school competition, with a teacher's help on syllables and adverbs, and reads the adjudication aloud himself.",
+      "newWords": [
+        "soinéad",
+        "siollach",
+        "breithniú",
+        "reacaire",
+        "dobhriathar",
+        "ardmháistir",
+        "litearthacht",
+        "dúshlánach"
+      ],
+      "text": "Is múinteoir Gaeilge mé i meánscoil i Luimneach, agus gach earrach bíonn comórtas filíochta sa scoil. Is é an t-ardmháistir, Uinseann, a roghnaíonn an téama. I mbliana, roghnaigh sé an Ghealach, agus dúirt sé go gcaithfeadh gach dán a bheith ina shoinéad. Bhí gearán ó gach dalta. Is foirm dhúshlánach í an soinéad: 14 líne, ceann i ndiaidh a chéile, agus smaoineamh a athraíonn a threo roimh an deireadh.\n\nIs é Éanna an dalta nár shíl mé a chuirfeadh isteach ar an gcomórtas. Tá sé 14 bliana d'aois, agus ní raibh sé ag léamh go maith go dtí gur thosaigh sé sa rang litearthachta a chuir an t-ardmháistir ar bun bliain ó shin. Is cúram mór leis an ardmháistir an litearthacht, agus tá feabhas mór ar Éanna ó shin, ach is obair dhúshlánach dó fós leathanach a léamh. Ach tá teileascóp beag aige sa bhaile, agus tá ainm gach farraige ar an nGealach ar eolas aige.\n\nTháinig sé chugam tar éis ranga. “Cad is soinéad ann?” a d'fhiafraigh sé. Mhínigh mé é. Ansin d'inis mé dó faoin tseanfhilíocht Ghaeilge, a bhí siollach: is é líon na siollaí a d'áirítí i ngach líne, ní hiad na béimeanna. Thaitin véarsaíocht shiollach leis ar an bpointe, mar is féidir siollaí a chomhaireamh ar na méara. Dúirt mé leis gur leor soinéad siollach, 7 siolla sa líne.\n\nTháinig sé ar ais le dréacht. Bhí gach líne lán de dhobhriathra: go ciúin, go mall, go hálainn, go hiontach. “Is dobhriathar é ‘go mall’,” a dúirt mé. “Ní gá dobhriathar má tá an briathar maith. Bain gach dobhriathar nach bhfuil ag déanamh oibre, agus abair rud nach bhfuil a fhios againn cheana.” D'imigh sé, agus bhí sé 2 sheachtain gan focal a rá. Nuair a tháinig an dán faoi dheireadh, ba é a theideal “Farraigí gan braon”, agus ní raibh dobhriathar ann ach ceann amháin.\n\nOíche an chomórtais, léann reacaire na dánta os ard, ionas nach mbeidh a fhios ag an moltóir cé a scríobh iad. Reacaire as Conamara a bhí againn, fear a bhfuil guth aige mar a bheadh ceol íseal ann. Bhí Éanna ina shuí ar chúl an halla, a lámha fáiscthe ina chéile. Léigh an reacaire 40 dán. Nuair a tháinig sé go dtí “Farraigí gan braon”, d'éirigh an halla ciúin.\n\nThug an moltóir, an file Aodhnait, a breithniú ag deireadh na hoíche, agus scríobh sí amach é freisin. Bhuaigh Éanna an dara duais. Thug an t-ardmháistir an breithniú scríofa dó os comhair an halla, agus d'iarr sé air é a léamh. Níor iarr mé féin riamh ar Éanna rud a léamh os ard. Ach sheas sé suas, agus léigh sé breithniú Aodhnait, líne ar líne, go mall, gan stad.\n\nCeisteanna:\nCén téama a roghnaigh an t-ardmháistir?\nRoghnaigh sé an Ghealach, agus dúirt sé go gcaithfeadh gach dán a bheith ina shoinéad.\nCén fáth ar thaitin véarsaíocht shiollach le hÉanna?\nIs féidir siollaí a chomhaireamh ar na méara.\nCad a bhí cearr leis an gcéad dréacht?\nBhí gach líne lán de dhobhriathra.\nCén fáth a léann reacaire na dánta os ard?\nDéanann sé é ionas nach mbeidh a fhios ag an moltóir cé a scríobh iad.\nCad a rinne Éanna leis an mbreithniú scríofa?\nLéigh sé os ard é os comhair an halla, gan stad."
+    },
+    {
+      "title": "Conas a léitear réalta?",
+      "summary": "An astronomer aunt writes to her nephew to explain how starlight, electrons in subshells and dark lines show what a star is made of, and how gallium was found that way.",
+      "newWords": [
+        "anailísigh",
+        "fosceall",
+        "fuinnmhigh",
+        "poitéinsiúil",
+        "gailliam",
+        "atmaisféarach"
+      ],
+      "text": "A Fhiachra, a chroí,\n\nChuir tú ceist orm ag an dinnéar agus ní bhfuair tú freagra ceart, mar bhí do mháthair ag iarraidh na soithí a ní: conas atá a fhios ag réalteolaithe cad as a bhfuil réalta déanta, nuair nach ndeachaigh duine ar bith riamh ann? Seo an freagra, mar a gheall mé.\n\nTosaigh le solas. Cuir solas réalta trí phriosma agus scaipfidh sé ina dhathanna, mar a dhéanann tuar ceatha. Má fhéachann tú go géar air, feicfidh tú línte dubha trasna air, mar na línte ar phacáiste sa siopa. Is iad na línte sin a anailísíonn réalteolaithe. Anailísítear réalta ar an mbealach sin gan an Domhan a fhágáil.\n\nCén fáth na línte? Tá leictreoin i ngach adamh, agus ní féidir leo suí cibé áit is mian leo. Tá gach leictreon i bhfosceall áirithe, mar a bheadh duine ar chéim áirithe de staighre. Nuair a bhuaileann solas an t-adamh, is féidir leis an leictreon a fhuinnmhiú: léimeann sé suas go fosceall níos airde, áit a bhfuil níos mó fuinnimh phoitéinsiúil aige, díreach mar atá ag liathróid ar chéim ard den staighre. Fuinneamh poitéinsiúil an t-ainm atá ar an bhfuinneamh sin, fuinneamh atá ina chodladh agus é ag fanacht le titim.\n\nAch seo an rud is tábhachtaí. Níl leathchéim ar bith ar an staighre. Ní fhuinnmhíonn ach dathanna áirithe an leictreon, an fuinneamh ceart go díreach chun é a thabhairt ó fhosceall amháin go ceann eile. Glacann na hadaimh na dathanna sin as solas na réalta: sin iad do línte dubha. Agus tá a socrú féin d'fhoscealla ag gach dúil cheimiceach, mar sin tá a patrún féin línte aici, mar a bheadh lorg méire. Sin an chaoi ar aimsíodh héiliam sa Ghrian sula bhfuarthas ar an Domhan é.\n\nSin mar a aimsíodh gailliam freisin. Anailísíonn ceimiceoirí clocha ar an mbealach céanna. In 1875, bhí ceimiceoir ag anailísiú cloiche, agus chonaic sé 2 líne nach raibh ag aon dúil eile. Miotal aisteach é gailliam: leáfaidh sé i do lámh. Tá gailliam sna painéil ghréine ar go leor spásárthaí inniu, mar sin tá an dúil a fuarthas le solas fós ag obair le solas.\n\nTá deacracht amháin ann: an t-aer féin. Tá a línte féin ag an uisce san aer, agus bogann an t-aer an pictiúr, rud a dtugaimid suaitheadh atmaisféarach air. Sin an fáth a bhfuil na teileascóip is mó ar shléibhte arda, os cionn fhormhór an uisce atmaisféaraigh, agus cuid eile acu amuigh sa spás, áit nach gcuireann suaitheadh atmaisféarach ná scamall isteach orthu.\n\nDúirt tú liom go bhfuil an réalteolaíocht leadránach. Féach mar sin: an chéad uair eile a fheiceann tú réalta, tá litir sa solas sin, scríofa i bhfoscealla, agus í ag taisteal chugat le blianta fada. Níl le déanamh agat ach í a léamh. Tiocfaidh mé ar cuairt an mhí seo chugainn agus tabharfaidh mé priosma liom.\n\nLe grá ó d'aintín,\nEithna\n\nCeisteanna:\nCad a fheiceann tú má fhéachann tú go géar ar sholas réalta a chuaigh trí phriosma?\nFeiceann tú línte dubha trasna air.\nCad a tharlaíonn nuair a fhuinnmhíonn solas leictreon?\nLéimeann sé suas go fosceall níos airde, áit a bhfuil níos mó fuinnimh phoitéinsiúil aige.\nCén fáth a bhfuil a patrún féin ag gach dúil?\nTá a socrú féin d'fhoscealla aici.\nConas a aimsíodh gailliam?\nBhí ceimiceoir ag scrúdú cloiche, agus chonaic sé 2 líne nach raibh ag aon dúil eile.\nCén fáth a bhfuil na teileascóip is mó ar shléibhte arda?\nTá siad os cionn fhormhór an uisce atmaisféaraigh."
+    },
+    {
+      "title": "An grianchóras ar bhord na cistine",
+      "summary": "A carpenter shows his daughter the real scale of the solar system with a football, a grain of sugar, an olive and a long string that runs out of the garden and round the corner.",
+      "newWords": [
+        "babhla",
+        "ciúb",
+        "ológ",
+        "áiféiseach",
+        "sreangán",
+        "dronuillinn",
+        "comhlántach"
+      ],
+      "text": "Bhí tionscadal scoile ag Síomha, agus í 10 mbliana d'aois: póstaer den ghrianchóras. Bhí pictiúr ina leabhar a raibh na pláinéid go léir ann, taobh le taobh ar aon leathanach amháin, agus an Ghrian díreach in aice leo.\n\n“Tá an pictiúr sin áiféiseach,” arsa a hathair, Alastar. Is siúinéir é, agus ní maith leis tomhas mícheart. “Dá gcuirfeá gach rud ar an méid ceart, ní bheadh an leathanach mór go leor. Ní bheadh an baile mór go leor.”\n\n“Ní chreidim thú,” arsa Síomha.\n\nThug sé liathróid peile as an gcófra agus chuir sé i mbabhla mór ar an mbord í. “Seo í an Ghrian,” a dúirt sé. “Anois teastaíonn an Domhan uainn.” Thóg sé ciúb siúcra agus bhris sé gráinne beag as an gciúb. “Seo é an Domhan.” Bhí an gráinne chomh beag sin gur ar éigean a bhí sé le feiceáil. D'fhéach Síomha ar an liathróid sa bhabhla, agus ar an ngráinne ón gciúb, agus níor dhúirt sí tada.\n\n“Agus Iúpatar?” a d'fhiafraigh sí ar deireadh. Bhí babhla beag ar an mbord agus ológa ann, ón dinnéar. Thóg Alastar ológ. “Seo Iúpatar, an pláinéad is mó. Ológ amháin.”\n\n“Anois an fad.” Thóg sé sreangán fada as bosca na n-uirlisí, agus chuir sé snaidhm ann gach 10 méadar. D'oibrigh sé amach é ar pháipéar: ar an scála seo, bhí an Domhan 24 méadar ón liathróid, agus Iúpatar 123 méadar. Thosaigh siad ag an mbabhla. Chuaigh an sreangán amach an doras agus síos an gairdín, agus ag an 24ú méadar, ag an ngeata, d'fhág Síomha an gráinne siúcra ar an gcuaille. Lean siad orthu feadh an bhóthair. Ag an gcúinne, casann an bóthar ar dhronuillinn, agus b'éigean dóibh an sreangán a chasadh ar dhronuillinn freisin. “Ní bheadh dronuillinn ar bith ann sa spás,” arsa Alastar, “ach is é an fad céanna é.”\n\nAg an 123ú méadar, bhí siad ag balla a gcomharsan, Sailbheastar. Chuir Síomha an ológ ar an mballa. Tháinig Sailbheastar amach. “Cén fáth a bhfuil ológ ar mo bhalla?”\n\n“Is é Iúpatar é,” arsa Síomha.\n\n“Tá sé sin áiféiseach,” arsa Sailbheastar, ach d'fhan sé ag éisteacht go dtí gur chuala sé an scéal ar fad.\n\nSa bhaile, rinne Síomha an póstaer: sreangán fada trasna an chárta agus na pláinéid air, ar scála i bhfad níos lú. Rinne sí an Ghrian oráiste ar chúlra gorm. “Dathanna comhlántacha iad oráiste agus gorm,” a dúirt a hathair. “Nuair a bhíonn 2 dhath chomhlántacha le hais a chéile, bíonn gach dath níos láidre. Tá sé mar an gcéanna sa spéir: tá réaltaí oráiste agus réaltaí gorma ann, agus uaireanta bíonn 2 réalta le hais a chéile, agus dathanna comhlántacha orthu.”\n\n“Cá mbeadh an chéad liathróid eile?” a d'fhiafraigh Síomha. “An réalta is gaire dúinn?”\n\nD'oibrigh Alastar amach é. Bheadh sí níos faide ná Toronto. D'fhéach Síomha ar an sreangán, agus ansin ar an mapa ar an mballa, agus thosaigh sí ag gáire.\n\nCeisteanna:\nCén fáth a raibh pictiúr an leabhair áiféiseach, dar le Alastar?\nBhí na pláinéid go léir taobh le taobh ar aon leathanach amháin.\nCad a bhí sa bhabhla mór?\nBhí liathróid peile ann, agus b'in í an Ghrian.\nCad a rinne Alastar leis an gciúb siúcra?\nBhris sé gráinne beag as, agus b'in é an Domhan.\nCén fáth ar chas siad an sreangán ar dhronuillinn?\nCasann an bóthar ar dhronuillinn ag an gcúinne.\nCad iad na dathanna comhlántacha ar an bpóstaer?\nOráiste agus gorm."
+    },
+    {
+      "title": "An t-urú ar an bhfeirm",
+      "summary": "A woman on a Connemara farm and her grandson watch a great eclipse: the bees' hum stops, the hens go to roost by themselves, and a medieval scholar turns out to be right.",
+      "newWords": [
+        "ársaíocht",
+        "scolaí",
+        "fara",
+        "deoin",
+        "crónán",
+        "ál",
+        "mustairt"
+      ],
+      "text": "Bhí urú mór gréine geallta don tráthnóna sin, agus bhí Dualta, 16 bliana d'aois, ar saoire ar fheirm a mhamó, Craobhnait, i gConamara. Bhí sé tar éis gach rud a léamh faoi. San ársaíocht, a mhínigh sé, bhí eagla ar dhaoine roimh an urú, ach fiú san ársaíocht bhí réalteolaithe ann a raibh a fhios acu cathain a thiocfadh sé. Agus bhí scolaí ann sa a scríobh gur stad na héin den cheol, le linn urú, agus gur chuaigh na cearca ar an bhfara i lár an lae.\n\nRinne Craobhnait gáire. “Tá 60 bliain caite agam ag tabhairt aire do chearca,” a dúirt sí. “Is cuma cad a deir scolaí ar bith. Ní théann cearc ar an bhfara ach dá deoin féin, agus ní bhíonn a deoin ag teacht le deoin duine eile ach go hannamh.”\n\nThug siad 2 chathaoir amach sa chlós. Bhí sé te. Bhí crónán na mbeach ar fud an ghairdín, agus crónán tarracóra i bhfad uathu. Bhí an chearc bhreac ag siúl timpeall agus a hál sicíní ina diaidh, agus sa scioból bhí ál 6 choileán ina luí sa tuí lena máthair.\n\nThosaigh sé go han-mhall. Le spéaclaí speisialta Dhualta, chonaic siad píosa beag imithe as imeall na gréine, agus níos mó ansin. Ar feadh i bhfad níor athraigh an lá. Ansin d'éirigh an solas tanaí, ar dhath an airgid, agus d'éirigh na scáthanna géar. Thit an teocht. Chuaigh Craobhnait isteach agus tháinig sí amach agus a seangeansaí uirthi, ceann a rinne sí féin de mhustairt nuair a bhí Dualta ina naíonán. Snáth olla is ea mustairt, a sníomhtar go teann, agus maireann sí blianta fada. “Ní rachaidh an fuacht tríd an mustairt seo,” a dúirt sí.\n\nAnsin stad an crónán. Stad sé chomh tobann sin gur chuala siad an fharraige, ciliméadar uathu. D'fhéach Dualta ar a mhamó, ach ní raibh sí ag féachaint ar an spéir. Bhí sí ag féachaint ar an gclós. Thosaigh na cearca ag siúl i dtreo an chró, ceann i ndiaidh a chéile, gan aon duine ag glaoch orthu: dá ndeoin féin. Bhailigh an chearc bhreac a hál faoina sciathán. Léim an chéad chearc eile ar an bhfara, agus ansin an dara ceann.\n\n“Bhuel,” arsa Craobhnait go ciúin.\n\nBhí an spéir gorm dorcha anois, agus bhí réalta gheal le feiceáil os cionn an tsléibhe. Níor labhair ceachtar acu ar feadh cúpla nóiméad. Ansin tháinig an solas ar ais, chomh mall agus a d'imigh sé. Thosaigh an crónán arís. Tháinig na cearca anuas den fhara, ceann ar cheann, agus thosaigh siad ag piocadh sa chlós amhail is nár tharla tada. Bhí an t-ál coileán ina chodladh an t-am ar fad.\n\nThóg Dualta a leabhar nótaí. “Bhí an ceart ag an scolaí,” a dúirt sé.\n\n“Bhí an ceart ag na cearca,” arsa Craobhnait, agus bhain sí di an seangeansaí.\n\nCeisteanna:\nCad a scríobh an scolaí sa Mheánaois?\nScríobh sé gur stad na héin den cheol agus gur chuaigh na cearca ar an bhfara.\nCad a dúirt Craobhnait faoi na cearca?\nDúirt sí nach dtéann cearc ar an bhfara ach dá deoin féin.\nCad is mustairt ann?\nSnáth olla is ea í, a sníomhtar go teann.\nCad a tharla nuair a stad an crónán?\nChuala siad an fharraige, agus thosaigh na cearca ag siúl i dtreo an chró.\nCad a rinne an chearc bhreac lena hál?\nBhailigh sí faoina sciathán iad."
+    },
+    {
+      "title": "An cuntasóir agus an cóiméad",
+      "summary": "An accountant who has hunted comets for thirty years finds one by accident while photographing a galaxy, then reads the fine print of a calendar contract and gives away the small takings.",
+      "newWords": [
+        "cuntasóir",
+        "fáltas",
+        "gnóthachan",
+        "dleacht",
+        "íoróin",
+        "taismeach",
+        "idirthréimhseach",
+        "ceangailteach"
+      ],
+      "text": "Is cuntasóir mé i gCorcaigh le 31 bliain. I rith an lae, féachaim ar fháltais agus ar chostais daoine eile, agus inseann mé dóibh an bhfuil gnóthachan nó caillteanas acu. San oíche, féachaim suas. Ó bhí mé 20 bliain d'aois, tá mé ag lorg cóiméid nach bhfaca aon duine riamh cheana. Is é an caitheamh aimsire is lú gnóthachain ar domhan é, agus is mise, cuntasóir, a deir é.\n\nNuair a bhí mé 50 bliain d'aois, cheannaigh mé teileascóp maith ón tSeapáin. Bhí dleacht le híoc air ag an gcalafort, agus rinne mé féin na foirmeacha, ar ndóigh. Mhínigh mé do mo bhean chéile nach raibh sa dleacht ach costas gnó. Níor chreid sí mé, agus bhí an ceart aici, mar ní raibh aon ghnó ann.\n\nSeo í an íoróin. Chuardaigh mé an spéir ar feadh 30 bliain, píosa ar phíosa, go cúramach, mar a dhéanfainn le leabhar cuntas. Ansin, oíche amháin i mí Feabhra, ní raibh cóiméad ar bith á lorg agam. Bhí mé ag tógáil grianghraif de réaltra deas, mar bhronntanas breithe do m'iníon, Marta. Nuair a d'oscail mé an pictiúr, bhí spota beag doiléir sa chúinne nach raibh ar aon léarscáil. An oíche dár gcionn, bhí sé bogtha. Cóiméad a bhí ann. Tugann na heolaithe fionnachtain thaismeach ar a leithéid. Thaitin an íoróin go mór le Marta: dúirt sí go bhfuair mé an cóiméad nuair a stad mé de bheith i mo chuntasóir.\n\nChuir mé tuairisc chuig an lárionad atá i mbun na gcóiméad. Fad a bhí réadlanna eile á dheimhniú, fuair sé ainm idirthréimhseach: uimhir agus cúpla litir. Socrú idirthréimhseach atá ann do gach cóiméad nua. 3 seachtaine ina dhiaidh sin, ba é m'ainm féin a bhí air. Fionnachtain thaismeach, ach is liomsa í.\n\nAnsin tháinig comhlacht a dhíolann féilirí chugam. Bhí siad ag iarraidh mo ghrianghraf a úsáid, agus chuir siad comhaontú chugam. “Níl ann ach foirm,” a dúirt an bhean ar an bhfón. Ach is cuntasóir mé. Léigh mé gach líne. Bhí an comhaontú ceangailteach ar feadh 10 mbliana, agus ní raibh focal ann faoi dhleacht a íoc liom ar an bpictiúr. Ghlaoigh mé ar ais. “Tá gach foirm ceangailteach,” a dúirt mé, “má shíníonn tú í.” Rinneamar comhaontú nua: 3 bliana, agus dleacht bheag ar gach féilire.\n\nAnois tagann fáltais bheaga isteach gach Eanáir. Tá siad i bhfad níos lú ná an dleacht a d'íoc mé ar an teileascóp. Tugaim na fáltais do chlub réalteolaíochta na scoile áitiúla, agus cheannaigh na páistí teileascóp beag leo anuraidh. Ó thaobh na leabhar de, níl aon ghnóthachan déanta agam, tar éis 30 bliain oibre. Ach tá cóiméad ann, agus m'ainm air, agus fillfidh sé i gceann 4,000 bliain. Is é sin an infheistíocht is faide a chonaic mé riamh.\n\nCeisteanna:\nCén obair a dhéanann an scríbhneoir i rith an lae?\nIs cuntasóir é, agus féachann sé ar fháltais agus ar chostais daoine eile.\nCad í an íoróin sa scéal?\nChuardaigh sé an spéir ar feadh 30 bliain, ach ní raibh cóiméad á lorg aige an oíche a fuair sé é.\nCén fáth gur fionnachtain thaismeach í?\nNí raibh sé á lorg: bhí sé ag tógáil grianghraif de réaltra mar bhronntanas do Mharta.\nCad a bhí mícheart leis an gcéad chomhaontú?\nBhí sé ceangailteach ar feadh 10 mbliana, agus ní raibh focal ann faoi dhleacht.\nCad a dhéanann sé leis na fáltais?\nTugann sé do chlub réalteolaíochta na scoile iad."
+    },
+    {
+      "title": "Deannach réaltaí sa mhuineál",
+      "summary": "Before a small thyroid operation, a nervous patient hears from her anaesthetist that the iodine in her neck was made by stars, feels like a pawn, and is answered with the word subject.",
+      "newWords": [
+        "tíoróideach",
+        "ainéistéiseach",
+        "iaidíd",
+        "orgánaid",
+        "fichillín",
+        "suibiacht"
+      ],
+      "text": "Anuraidh, fuair dochtúir cnapán beag ar an bhfaireog thíoróideach i mo mhuineál. Ní raibh aon dochar ann, ach dúirt sé gurbh fhearr é a bhaint amach. Obráid bheag a bheadh inti, ach bheadh ainéistéiseach ginearálta i gceist, agus ní maith liom é sin. Is maith liom smacht a bheith agam ar mo chuid smaointe féin.\n\nAn oíche roimh an obráid, tháinig an Dr Ceara chugam, an bhean a thabharfadh an t-ainéistéiseach dom. Bhí leabhar faoi na réaltaí ar an mbord in aice na leapa. “Is maith liom an leabhar sin,” a dúirt sí, agus shuigh sí síos. Is dócha go bhfaca sí an imní orm, mar thosaigh sí ag caint faoi rud ar bith ach an obráid.\n\n“An bhfuil a fhios agat cad é a theastaíonn ón bhfaireog thíoróideach?” a dúirt sí. “Iaidín. Sin an fáth ar thugamar taibléid iaidíde duit an tseachtain seo caite: iaidíd photaisiam. Cuirtear iaidíd sa salann freisin i roinnt tíortha. Ach ní ar an Domhan a rinneadh an iaidín sin. Rinneadh é nuair a bhuail 2 réalta in aghaidh a chéile, i bhfad sula raibh an Ghrian ann. Tá sé i do mhuineál anois.”\n\nNí raibh sí críochnaithe. Tá orgánaidí i ngach cill sa chorp, a mhínigh sí, mar a bheadh seomraí i monarcha, agus tá a cúram féin ar gach orgánaid. Úsáideann cuid de na horgánaidí sin iarann, agus rinneadh an t-iarann sin freisin i lár réalta. “Déanta na fírinne,” a dúirt sí, “is deannach réaltaí atá ag obair i ngach orgánaid.”\n\nBhí sí ag iarraidh mé a chur ar mo shuaimhneas. Ní mar sin a d'oibrigh sé. Luigh mé i mo dhúiseacht, agus mhothaigh mé mar fhichillín: rud beag ar chlár mór, a bhogtar gan cead. Bhogfaí ar thralaí mé ar maidin. Bhog réalta iaidín isteach i mo mhuineál na billiúin bliain ó shin. Cén chiall a bhí le himní fichillín ar chlár na cruinne?\n\nDúirt mé é sin le Ceara ar maidin, agus mé ar an tralaí. Rinne sí gáire. “Ní chuireann fichillín ceist faoin gclár,” a dúirt sí. “Sin í an difríocht. Tá focal ag na fealsúna air: suibiacht. Rud is ea an chloch a bhféachtar uirthi. Suibiacht is ea an té a fhéachann. Tá iaidín na réaltaí i do mhuineál, ceart go leor, ach tá sé ag féachaint ar na réaltaí freisin, trí do shúile féin. Is ionatsa atá an chruinne ina suibiacht.”\n\nChuir sí an masc orm. “Comhair siar ó 10,” a dúirt sí. Shroich mé 7.\n\nTá an rud a tharla ina dhiaidh sin an-simplí, agus is minic a smaoiním air. Ar feadh 3 huaire an chloig, ní raibh suibiacht ar bith ann. Is é sin a dhéanann ainéistéiseach maith. Ansin dhúisigh mé, agus bhí scornach thirim orm, agus d'fhiafraigh mé an raibh sé thart. Bhí, agus bhí gach rud go maith. Ní raibh sa chnapán ach cnapán. Dhá oíche ina dhiaidh sin, bhí mé ar ais sa bhaile, agus d'fhéach mé amach ar an spéir ghlan, agus ní fichillín a bhí ag féachaint.\n\nCeisteanna:\nCén fáth a raibh imní ar an scríbhneoir?\nBheadh ainéistéiseach ginearálta i gceist, agus is maith léi smacht a bheith aici.\nCad a theastaíonn ón bhfaireog thíoróideach?\nTeastaíonn iaidín uaithi.\nCad as a dtagann an t-iarann a úsáideann cuid de na horgánaidí?\nRinneadh é i lár réalta.\nCén fáth ar mhothaigh an scríbhneoir mar fhichillín?\nMhothaigh sí mar rud beag ar chlár mór, a bhogtar gan cead.\nCad is suibiacht ann, dar le Ceara?\nIs suibiacht é an té a fhéachann."
+    },
+    {
+      "title": "An siamsóir ar an eitilt",
+      "summary": "An old entertainer works a charter flight to see the northern lights, hears a girl ask about burning petroleum to look at the sky, and for once puts the microphone down.",
+      "newWords": [
+        "siamsóir",
+        "áibhéil",
+        "ildathach",
+        "scairdinneall",
+        "peitriliam",
+        "spleáchas"
+      ],
+      "text": "Is siamsóir é Séimí. Tá 40 bliain caite aige ag insint scéalta grinn agus ag canadh ar bháid agus in óstáin. An geimhreadh seo caite, fuair sé post nua: siamsóir ar eitilt speisialta ó Bhaile Átha Cliath. Bíonn 180 paisinéir ar an eitleán, a théann ó thuaidh os cionn na scamall chun an Chaor Aduaidh a fheiceáil, agus a chasann abhaile ansin.\n\nBhí bróisiúr ag an gcomhlacht, agus bhí áibhéil ann ó thús deireadh: “seó ildathach na cruinne”, “oíche a athróidh do shaol”. Rinne Séimí gáire nuair a léigh sé é. “Is í an áibhéil mo cheird féin,” a dúirt sé leis an gcaptaen, Sárait. “Tá a fhios agam áibhéil nuair a fheicim í.”\n\nD'imigh an t-eitleán. Bhí crónán íseal an dá scairdinneall le cloisteáil faoi gach rud. Rinne Séimí a chuid oibre: scéalta faoi chaptaein agus faoi mhná céile, amhrán nó dhó. Ansin tháinig Sárait amach chun labhairt leis na paisinéirí. Is cáithníní ón nGrian atá sa Chaor Aduaidh, a mhínigh sí, a bhuaileann an t-aer ard os cionn an Domhain. Lasann siad an ocsaigin agus an nítrigin, mar a lasann leictreachas lampa.\n\nChuir cailín 12 bliana d'aois, Iseabail, a lámh in airde. “Cé mhéad breosla a úsáideann an dá scairdinneall?”\n\n“Timpeall 18 tonna anocht,” arsa Sárait.\n\n“Agus cad as a dtagann sé?”\n\n“As peitriliam.”\n\n“Mar sin,” arsa Iseabail go smaointeach, “tá muid ag dó peitriliam chun féachaint ar an spéir.”\n\nD'éirigh an t-eitleán ciúin. Rug Séimí ar an micreafón chun scéal grinn a insint, ach stad sé. Bhí a shaol féin caite aige ar bháid a bhí ag rith ar pheitriliam, in óstáin a théitear le peitriliam. Tá spleáchas an domhain ar pheitriliam chomh mór sin nach dtugaimid faoi deara é, mar nach dtugann éan an t-aer faoi deara. Agus bhí a spleáchas féin air, go díreach mar a bhí ag gach duine ar bord.\n\n“Tá an ceart agat,” arsa Sárait léi. “Tá an scairdinneall seo níos glaine ná ceann ó 30 bliain ó shin, ach tá an spleáchas ann fós. Níl agam ach an méid seo le rá: daoine a fheiceann an spéir seo, b'fhéidir go dtabharfaidh siad aire di. Ní féidir liom é sin a chruthú.”\n\nAnsin múchadh na soilse, agus d'iarr sí orthu féachaint amach.\n\nThosaigh sé mar scamall tanaí glas. Ansin bhog sé. D'éirigh sé ina chuirtín mór trasna na spéire, glas ar dtús, agus dearg agus corcra ina bharr, ag luascadh go mall gan fuaim ar bith. Ní raibh sé ildathach mar a bhí an bróisiúr ildathach: bhí sé ciúin, agus níos mó ná mar a shíl duine ar bith. Sheas 180 duine ag na fuinneoga beaga, agus níor labhair siad. Bhí scéal grinn réidh ag Séimí. Bhí an micreafón ina lámh aige. Don chéad uair ina shaol, ní raibh áibhéil ar bith le déanamh. Chuir sé síos é.\n\nAr an mbealach abhaile, tháinig Iseabail chuige. “Cad a dhéanann siamsóir nuair nach dteastaíonn sé?” a d'fhiafraigh sí.\n\n“Féachann sé amach an fhuinneog,” arsa Séimí, “cosúil le gach duine eile.”\n\nCeisteanna:\nCad a cheap Séimí faoin mbróisiúr?\nCheap sé go raibh áibhéil ann ó thús deireadh.\nCad í an Chaor Aduaidh, dar le Sárait?\nIs cáithníní ón nGrian iad a bhuaileann an t-aer ard os cionn an Domhain.\nCad as a dtagann breosla an dá scairdinneall?\nTagann sé as peitriliam.\nCad a dúirt Sárait faoin spleáchas?\nDúirt sí go bhfuil an scairdinneall níos glaine, ach go bhfuil an spleáchas ann fós.\nCén fáth ar chuir Séimí an micreafón síos?\nNí raibh áibhéil ar bith le déanamh, mar bhí an spéir níos mó ná mar a shíl duine ar bith."
+    }
+  ]
+}
