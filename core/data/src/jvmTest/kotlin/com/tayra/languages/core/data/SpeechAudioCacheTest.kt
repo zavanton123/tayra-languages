@@ -4,7 +4,10 @@ import com.tayra.languages.core.data.speech.FileSpeechAudioCache
 import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
 import com.tayra.languages.core.domain.service.SpeechAudioCache
 import kotlinx.coroutines.test.runTest
+import java.io.File
+import java.io.FileFilter
 import java.nio.file.Files
+import kotlin.random.Random
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
@@ -34,6 +37,25 @@ class SpeechAudioCacheTest {
         assertNotNull(cache.read("a"))
         assertNotNull(cache.read("c"))
         assertEquals(200, directory.listFiles()!!.sumOf { it.length() })
+    }
+
+    /** Each file's time differs at every look, as when other sentences are written and played during the trim. */
+    private class TimesChangingDirectory(path: File) : File(path.path) {
+        override fun listFiles(filter: FileFilter?): Array<File>? = super.listFiles(filter)?.map { found ->
+            object : File(found.path) {
+                override fun lastModified() = Random.nextLong()
+            }
+        }?.toTypedArray<File>()
+    }
+
+    @Test
+    fun filesUsedDuringATrimDoNotBreakIt() = runTest {
+        val directory = Files.createTempDirectory("speech-busy").toFile()
+        repeat(4000) { File(directory, "$it.wav").writeBytes(ByteArray(1)) }
+
+        FileSpeechAudioCache(TimesChangingDirectory(directory), maxBytes = 3000).write("new", ByteArray(1))
+
+        assertEquals(3000, directory.listFiles()!!.size)
     }
 
     @Test

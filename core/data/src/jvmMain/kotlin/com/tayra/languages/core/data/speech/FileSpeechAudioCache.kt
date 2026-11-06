@@ -34,11 +34,14 @@ class FileSpeechAudioCache(
 
     /** Deletes the files used longest ago until the rest fit in [maxBytes]. */
     private fun trim() {
-        val files = directory.listFiles { candidate -> candidate.isFile && candidate.name.endsWith(".wav") }.orEmpty().sortedBy { it.lastModified() }
-        var total = files.sumOf { it.length() }
-        for (oldest in files.dropLast(1)) {
+        // Read once: other sentences being written and played change these during the sort, which it can't tolerate.
+        val files = directory.listFiles { candidate -> candidate.isFile && candidate.name.endsWith(".wav") }.orEmpty()
+            .map { Triple(it, it.length(), it.lastModified()) }
+            .sortedBy { it.third }
+        var total = files.sumOf { it.second }
+        for ((oldest, size, _) in files.dropLast(1)) {
             if (total <= maxBytes) break
-            total -= oldest.length()
+            total -= size
             oldest.delete()
         }
     }
