@@ -128,6 +128,10 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     FLASHCARDS_HARD(HotkeyCategory.FLASHCARDS, "Answer Hard", Hotkey("2")),
     FLASHCARDS_GOOD(HotkeyCategory.FLASHCARDS, "Answer Good", Hotkey("3")),
     FLASHCARDS_EASY(HotkeyCategory.FLASHCARDS, "Answer Easy", Hotkey("4")),
+    // With Ctrl, as they work while the word is typed, when a plain key would be part of it.
+    FLASHCARDS_MODE_SHOW(HotkeyCategory.FLASHCARDS, "Answer by showing", Hotkey("1", ctrl = true)),
+    FLASHCARDS_MODE_TYPE(HotkeyCategory.FLASHCARDS, "Answer by typing", Hotkey("2", ctrl = true)),
+    FLASHCARDS_MODE_SPEAK(HotkeyCategory.FLASHCARDS, "Answer by speaking", Hotkey("3", ctrl = true)),
     FLASHCARDS_LISTEN(HotkeyCategory.FLASHCARDS, "Listen to the card's sentence", Hotkey("R")),
     FLASHCARDS_EDIT(HotkeyCategory.FLASHCARDS, "Edit the flashcard", Hotkey("E")),
     FLASHCARDS_SUSPEND(HotkeyCategory.FLASHCARDS, "Suspend the card", Hotkey("S")),

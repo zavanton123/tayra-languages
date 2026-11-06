@@ -277,6 +277,13 @@ internal class FlashcardActions(
     val onEndPass: () -> Unit = {},
 )
 
+private val AnswerMode.shortcut: HotkeyAction
+    get() = when (this) {
+        AnswerMode.SHOW -> HotkeyAction.FLASHCARDS_MODE_SHOW
+        AnswerMode.TYPE -> HotkeyAction.FLASHCARDS_MODE_TYPE
+        AnswerMode.SPEAK -> HotkeyAction.FLASHCARDS_MODE_SPEAK
+    }
+
 internal val Rating.tint: Color
     get() = when (this) {
         Rating.AGAIN -> RatingColors.again
@@ -305,13 +312,21 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                 .focusRequester(focus).focusable().testTag("flashcards-keys")
                 .onPreviewKeyEvent { event ->
                     if (event.type != KeyEventType.KeyDown) return@onPreviewKeyEvent false
+                    val pressed = HotkeyMatcher.fromEvent(event)
+                    // While the word is typed, only a key that types nothing changes the way of answering.
+                    if (pressed != null && (!state.typing || pressed.ctrl || pressed.alt)) {
+                        state.modes.firstOrNull { hotkeys[it.shortcut] == pressed }?.let { mode ->
+                            if (mode != state.answerMode) actions.onAnswerMode(mode)
+                            return@onPreviewKeyEvent true
+                        }
+                    }
                     // The keys typed are the word's, but Enter, which checks it.
                     if (state.typing) {
                         if (event.key != Key.Enter && event.key != Key.NumPadEnter) return@onPreviewKeyEvent false
                         actions.onCheck()
                         return@onPreviewKeyEvent true
                     }
-                    val pressed = HotkeyMatcher.fromEvent(event) ?: return@onPreviewKeyEvent false
+                    if (pressed == null) return@onPreviewKeyEvent false
                     fun isKey(vararg shortcuts: HotkeyAction) = shortcuts.any { hotkeys[it] == pressed }
                     // Every card is a key away, with one on show or none.
                     if (isKey(HotkeyAction.FLASHCARDS_BROWSE)) {

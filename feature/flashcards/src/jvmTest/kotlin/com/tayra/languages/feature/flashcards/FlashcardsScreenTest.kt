@@ -253,6 +253,35 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
     }
 
+    @Test
+    fun eachWayOfAnsweringHasItsKeyEvenWhileTheWordIsTyped() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(speech = FakeSpeech())
+        onNodeWithTag("flashcards-keys").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Two) } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardAnswerMode == AnswerMode.TYPE }
+        onNodeWithTag("flashcard-typed").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Three) } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardAnswerMode == AnswerMode.SPEAK }
+        onNodeWithTag("flashcards-keys").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.One) } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isEmpty() }
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardAnswerMode == AnswerMode.SHOW }
+    }
+
+    @Test
+    fun theWordBeingTypedKeepsItsKeys() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(answerMode = AnswerMode.TYPE, hotkeys = HotkeyAction.defaults + (HotkeyAction.FLASHCARDS_MODE_SHOW to Hotkey("Q")))
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("flashcard-typed").performTextInput("co")
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.typed == "co" }
+        onNodeWithTag("flashcard-typed").performKeyInput { pressKey(Key.Q) }
+        waitForIdle()
+        assertEquals(AnswerMode.TYPE, settings.current.flashcardAnswerMode, "a plain key stays part of the word")
+        // The key of the way already in use changes nothing, so what was typed stays.
+        onNodeWithTag("flashcard-typed").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Two) } }
+        waitForIdle()
+        assertEquals("co", viewModel.state.value.typed.take(2))
+    }
+
     /** Hears [replies] in turn, keeping the hints it was given and whether it waited out long pauses. */
     private class FakeSpeech(private val available: Boolean = true, vararg replies: Heard) : SpeechRecognition {
         private val replies = ArrayDeque(replies.toList())
