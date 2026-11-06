@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Chinese)
+zh-mini-0100	100	A1	Home and family	家和家人
+zh-mini-0200	200	A1	Everyday life	每天的生活
+zh-mini-0300	300	A1	Food and shopping	吃饭和买东西
+zh-mini-0400	400	A2	In the city	在城市里
+zh-mini-0500	500	A2	School and work	学习和工作
+zh-mini-0600	600	A2	Free time and hobbies	休息时间和爱好
+zh-mini-0700	700	A2	Health and the body	身体和健康
+zh-mini-0800	800	A2	Travel and holidays	旅行和假期
+zh-mini-0900	900	A2	Nature and the seasons	自然和季节
+zh-mini-1000	1000	A2	Celebrations and friends	节日和朋友
+zh-mini-1100	1100	B1	Living and housing	住的地方
+zh-mini-1200	1200	B1	Memories	回忆
+zh-mini-1300	1300	B1	Jobs and training	职业和培训
+zh-mini-1400	1400	B1	Getting around	出行
+zh-mini-1500	1500	B1	Money and shopping	钱和购物
+zh-mini-1600	1600	B1	Experiencing culture	体验文化
+zh-mini-1700	1700	B1	Sport and exercise	运动和锻炼
+zh-mini-1800	1800	B1	The environment in daily life	生活中的环境
+zh-mini-1900	1900	B1	Letters, messages and media	信、消息和媒体
+zh-mini-2000	2000	B1	Neighbourhood	邻居和社区
+zh-mini-2100	2100	B2	Cooking and food	做饭和美食
+zh-mini-2200	2200	B2	Body and mind	身体和心理
+zh-mini-2300	2300	B2	The world of work	职场
+zh-mini-2400	2400	B2	Science and technology	科学和技术
+zh-mini-2500	2500	B2	History you can touch	看得见的历史
+zh-mini-2600	2600	B2	Travelling in China	在中国旅行
+zh-mini-2700	2700	B2	Generations	几代人
+zh-mini-2800	2800	B2	Music	音乐
+zh-mini-2900	2900	B2	Society and living together	社会和共同生活
+zh-mini-3000	3000	B2	Small columns	小专栏
+zh-mini-3100	3100	B2	Home and decoration	家居和装修
+zh-mini-3200	3200	B2	Fashion and clothes	时尚和服装
+zh-mini-3300	3300	B2	The great outdoors	户外
+zh-mini-3400	3400	B2	Traditional crafts	传统手艺
+zh-mini-3500	3500	B2	Technology and society	技术和社会
+zh-mini-3600	3600	B2	Rivers and the coast	江河和海边
+zh-mini-3700	3700	B2	Books and language	书和语言
+zh-mini-3800	3800	B2	Everyday economics	日常经济
+zh-mini-3900	3900	B2	Country life	农村生活
+zh-mini-4000	4000	B2	City life columns	城市生活专栏
+zh-mini-4100	4100	C1	Tea and the good life	茶和好生活
+zh-mini-4200	4200	C1	Architecture and design	建筑和设计
+zh-mini-4300	4300	C1	Climate and energy	气候和能源
+zh-mini-4400	4400	C1	Everyday law and rights	日常法律和权利
+zh-mini-4500	4500	C1	Film and television	电影和电视
+zh-mini-4600	4600	C1	Research and discovery	研究和发现
+zh-mini-4700	4700	C1	Living between countries	在不同的国家生活
+zh-mini-4800	4800	C1	The mind in daily life	日常生活中的心理
+zh-mini-4900	4900	C1	Sport and society	体育和社会
+zh-mini-5000	5000	C1	Short essays	短文
+zh-mini-5100	5100	C1	History	历史
+zh-mini-5200	5200	C1	The science of cooking	烹饪的科学
+zh-mini-5300	5300	C1	Landscapes	风景
+zh-mini-5400	5400	C1	Caring for others	照顾别人
+zh-mini-5500	5500	C1	Visual arts	美术
+zh-mini-5600	5600	C1	Journalism and media	新闻和媒体
+zh-mini-5700	5700	C1	Transport and mobility	交通
+zh-mini-5800	5800	C1	The Chinese language	汉语
+zh-mini-5900	5900	C1	Starting a business	创业
+zh-mini-6000	6000	C1	Memoirs	回忆录
+zh-mini-6100	6100	C1	The universe and the stars	宇宙和星星
+zh-mini-6200	6200	C1	Natural resources	自然资源
+zh-mini-6300	6300	C1	Food and health	饮食和健康
+zh-mini-6400	6400	C1	Theatre and the stage	戏剧和舞台
+zh-mini-6500	6500	C1	Engineering	工程
+zh-mini-6600	6600	C1	Farm to table	从农田到餐桌
+zh-mini-6700	6700	C1	Languages and cultures of Asia	亚洲的语言和文化
+zh-mini-6800	6800	C1	Literature in Chinese	中文文学
+zh-mini-6900	6900	C1	Numbers and reasoning	数字和推理
+zh-mini-7000	7000	C1	Travel columns	旅行专栏
+zh-mini-7100	7100	C1	Public health	公共卫生
+zh-mini-7200	7200	C1	Everyday philosophy	日常哲学
+zh-mini-7300	7300	C1	Festivals and beliefs	节日和信仰
+zh-mini-7400	7400	C1	Animal behaviour	动物的行为
+zh-mini-7500	7500	C1	Work and the labour market	工作和就业
+zh-mini-7600	7600	C1	Cities of the world	世界的城市
+zh-mini-7700	7700	C1	Inventions and inventors	发明和发明家
+zh-mini-7800	7800	C1	State and citizens	国家和公民
+zh-mini-7900	7900	C1	Mountains and winter	山和冬天
+zh-mini-8000	8000	C1	Family columns	家庭专栏
+zh-mini-8100	8100	C2	The human body	人体
+zh-mini-8200	8200	C2	Prevention and resilience	预防和应对
+zh-mini-8300	8300	C2	Design and craft	设计和工艺
+zh-mini-8400	8400	C2	Emotions and relationships	情感和人际关系
+zh-mini-8500	8500	C2	World history	世界历史
+zh-mini-8600	8600	C2	The forest	森林
+zh-mini-8700	8700	C2	Advertising and communication	广告和传播
+zh-mini-8800	8800	C2	Chinese cuisine	中国菜
+zh-mini-8900	8900	C2	Classical music	古典音乐
+zh-mini-9000	9000	C2	Essays on time	关于时间的随笔
+zh-mini-9100	9100	C2	Chemistry and materials	化学和材料
+zh-mini-9200	9200	C2	Maps and finding the way	地图和找路
+zh-mini-9300	9300	C2	Folk tales and legends	民间故事和传说
+zh-mini-9400	9400	C2	Rare professions	少见的职业
+zh-mini-9500	9500	C2	Urban planning	城市规划
+zh-mini-9600	9600	C2	Everyday physics	日常物理
+zh-mini-9700	9700	C2	Gardens and botany	园林和植物
+zh-mini-9800	9800	C2	Folk art and customs	民间艺术和风俗
+zh-mini-9900	9900	C2	Ethics and living together	伦理和共处
+zh-mini-10000	10000	C2	Learning and language	学习和语言
