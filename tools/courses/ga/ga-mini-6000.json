@@ -1,0 +1,196 @@
+{
+  "id": "ga-mini-6000",
+  "rankUpTo": 6000,
+  "level": "C1",
+  "title": "Cuimhní cinn",
+  "description": "Ten first-person memoirs: a physicist, a pharmacist, a naturalist, an actress, a dressmaker, a road worker, a newspaper editor, a diver, a chip-shop child and a lecturer look back on their lives.",
+  "topic": "Memoirs",
+  "names": [
+    "Seanach",
+    "Conamara",
+    "Gaillimh",
+    "Corcaigh",
+    "Mairghréad",
+    "Mhairghréad",
+    "Maonas",
+    "Mhaonas",
+    "Bercán",
+    "Dubhghlas",
+    "Dhubhghlas",
+    "Dairbhile",
+    "Dhairbhile",
+    "Beanán",
+    "Bheanáin",
+    "Árainn",
+    "Londain",
+    "Luighseach",
+    "Damhait",
+    "Luimneach",
+    "Eireamhón",
+    "Eireamhóin",
+    "Séana",
+    "Nuadhán",
+    "Déardaoin",
+    "Ciarraí",
+    "Chiarraí",
+    "Ibhear",
+    "Aimhirgin",
+    "Eilvéis",
+    "Bairrfhionn",
+    "Toronto",
+    "Tuilelaith",
+    "Gaeilge",
+    "Laidin",
+    "Gréigis",
+    "Múscraí"
+  ],
+  "lessons": [
+    {
+      "title": "An chíor agus an posatrón",
+      "summary": "A retired physicist remembers the comb that started it all, the positron machines he worked on and the fuse behind a winter of bad results.",
+      "newWords": [
+        "leictreastatach",
+        "alfa",
+        "posatrón",
+        "braiteoir",
+        "túiliam",
+        "míchruinn",
+        "fiús"
+      ],
+      "text": "Fisiceoir ab ea mé ar feadh 40 bliain. Seanach is ainm dom, agus táim 71 bliain d'aois anois. D'iarr mo mhac orm mo chuimhní cinn a scríobh, agus tosóidh mé leis an rud a thug chun na fisice mé: cíor.\n\nNuair a bhí mé 9 mbliana d'aois, i gConamara, chuimil mé cíor de mo gheansaí lá amháin, agus thóg sí píosaí beaga páipéir den bhord. Chuir sé sin ionadh orm. Mhínigh an múinteoir dom gur fórsa leictreastatach a bhí ann, agus thaitin an focal liom thar aon fhocal eile. Bhínn ag siúl abhaile ón scoil agus “leictreastatach” á rá agam os ard. Rinne mé gléas beag leictreastatach as próca gloine agus píosa sreinge, agus sheas gruaig mo dheirféar nuair a chuir sí a lámh air.\n\nSa choláiste i nGaillimh a chuala mé den chéad uair faoi cháithníní alfa. Is í alfa an chéad litir in aibítir na Gréige, agus tugadh an t-ainm sin ar na cáithníní troma, malla a thagann as ábhair áirithe. Stopann leathanach páipéir cáithnín alfa, rud a chuir ionadh orm arís.\n\nAch ba é an posatrón a mheall mé ar fad. Tá an posatrón díreach cosúil le leictreon, ach go bhfuil sé deimhneach in ionad a bheith diúltach. Nuair a bhuaileann posatrón le leictreon, imíonn an bheirt acu agus fágann siad solas ina ndiaidh. Úsáidtear an solas sin in ospidéil chun pictiúir a dhéanamh den chorp istigh, agus chaith mé mo shaol oibre ar an bhfearas sin, i saotharlann in aice le hospidéal i gCorcaigh.\n\nNí fheiceann an tsúil an solas sin. Caithfidh braiteoir é a aimsiú. Gléas is ea braiteoir a thugann comhartha don ríomhaire gach uair a bhuaileann solas é, agus ba é ár bpríomhthasc braiteoirí níos fearr a dhéanamh. Chuireamar miotal annamh, túiliam, sna criostail a bhí sna braiteoirí. Is beag duine a chuala trácht riamh ar an túiliam, ach bhí sé chomh daor sin gur choinnigh mé an túiliam i mbosca faoi ghlas.\n\nIs cuimhin liom geimhreadh amháin go háirithe. Bhí na torthaí míchruinn gach maidin, agus ní raibh a fhios agam cén fáth. Sheiceáil mé an ríomhaire agus gach braiteoir, ceann ar cheann, ach ní raibh aon locht orthu. Ansin, oíche amháin, dhóigh fiús agus d'imigh na soilse. Nuair a d'athraigh mé an fiús, chonaic mé gur fiús den chineál mícheart a bhí ann le fada, agus nach raibh an leictreachas seasmhach dá bharr. An mhaidin dár gcionn, ní raibh na torthaí míchruinn a thuilleadh.\n\nTáim i mo sheanfhear sásta anois. Ach tá an chíor chéanna ar mo bhord fós, agus cuimlím de mo gheansaí í anois is arís. Tógann sí na píosaí beaga páipéir fós.\n\nCeisteanna:\nCad a rinne an chíor nuair a chuimil Seanach dá gheansaí í?\nThóg sí píosaí beaga páipéir den bhord.\nCad a stopann cáithnín alfa?\nStopann leathanach páipéir cáithnín alfa.\nCad a tharlaíonn nuair a bhuaileann posatrón le leictreon?\nImíonn an bheirt acu agus fágann siad solas ina ndiaidh.\nCén obair a dhéanann braiteoir?\nTugann sé comhartha don ríomhaire gach uair a bhuaileann solas é.\nCén fáth a raibh na torthaí míchruinn an geimhreadh sin?\nBhí fiús den chineál mícheart ann, agus ní raibh an leictreachas seasmhach dá bharr."
+    },
+    {
+      "title": "Siopa an phoitigéara",
+      "summary": "A pharmacist looks back on her father's shop, a patient with epilepsy, and a mother who begged her for medicine one cold night.",
+      "newWords": [
+        "poitigéir",
+        "fiuch",
+        "imoibríoch",
+        "easlán",
+        "titimeas",
+        "fann",
+        "impí",
+        "buíoch"
+      ],
+      "text": "Mairghréad is ainm dom, agus ba phoitigéir mé ar feadh 38 bliain i mbaile beag i gContae an Chláir. Ba phoitigéir m'athair romham, agus rugadh mé os cionn an tsiopa.\n\nIs é boladh an tsiopa mo chéad chuimhne ar an saol, agus m'athair ag an tine bheag sa seomra cúil. Gach maidin d'fhiuchadh sé uisce sula ndéanadh sé aon rud eile. “Ní ghlanann tú buidéal go dtí go bhfiuchann tú an t-uisce,” a deireadh sé liom. Bhí mé 10 mbliana d'aois an chéad mhaidin a d'fhiuch mé féin an t-uisce agus a ghlan mé na buidéil le huisce fiuchta.\n\nNuair a d'fhág mé an mheánscoil, chuaigh mé go Baile Átha Cliath chun staidéar a dhéanamh le bheith i mo phoitigéir. Bhí ceimic ar an gcúrsa, agus thuig mé ansin cén fáth ar choinnigh m'athair ábhair áirithe ar an tseilf ab airde. Is ionann ábhar imoibríoch agus ábhar a athraíonn go tapa nuair a mheasctar le rud eile é. Athraíonn ábhar imoibríoch fiú san aer fliuch, agus mar sin ní mór na hábhair imoibríocha a choinneáil tirim, i mbuidéil dhúnta, i bhfad ó lámha páistí.\n\nD'fhill mé abhaile agus thosaigh mé ag obair le m'athair. Mhúin an coláiste an cheimic dom, ach is é m'athair a mhúin an t-easlán dom. Easlán a thugadh sé ar gach duine tinn a thagadh isteach, agus bhí meas aige ar gach easlán. “Ná féach ar an oideas ar dtús,” a deireadh sé. “Féach ar an easlán.”\n\nBhí fear óg, Maonas, a raibh titimeas air, ag teacht chugam ar feadh na mblianta. Galar is ea an titimeas a chuireann an inchinn as ord ar feadh tamaill ghearr, ach is féidir le duine saol iomlán a chaitheamh leis nuair a thógann sé an leigheas ceart gach lá. Labhair Maonas go hoscailte faoina thitimeas lena chomhghleacaithe, agus bhí an-mheas agam air dá bharr. Maidin amháin, tháinig sé isteach agus dath bán air. Bhí sé fann, agus bhí a ghlór fann freisin. Chuir mé ina shuí é agus thug mé gloine uisce dó. Ní raibh aon rud ite aige ón oíche roimhe sin. Tar éis leathuaire, ní raibh sé fann a thuilleadh, agus shiúil sé abhaile.\n\nOíche fhuar amháin, bhuail bean ar an doras tar éis dom an siopa a dhúnadh. Bhí fiabhras ar a hiníon bheag agus bhí leigheas uaithi, ach ní raibh oideas aici. Rinne sí impí orm buidéal a thabhairt di. Níl cead ag poitigéir é sin a dhéanamh, agus dúirt mé sin léi. Rinne sí an impí chéanna arís, agus na deora ina súile. Ghlaoigh mé ar an dochtúir ina theach féin, chuala sé an scéal, agus thug sé cead dom an buidéal a thabhairt di.\n\nTháinig an bhean ar ais an tseachtain dár gcionn le cáca, agus a hiníon ag rith timpeall an tsiopa. “Táim an-bhuíoch díot,” a dúirt sí. Ach is mise atá buíoch. Táim buíoch de m'athair, de Mhaonas, agus de gach easlán a thug a mhuinín dom ar feadh 38 bliain.\n\nCeisteanna:\nCad a dhéanadh athair Mhairghréad gach maidin sula ndéanadh sé aon rud eile?\nD'fhiuchadh sé uisce.\nCad is ábhar imoibríoch ann?\nIs ábhar é a athraíonn go tapa nuair a mheasctar le rud eile é.\nCad a bhí ar Maonas?\nBhí titimeas air, ach chaith sé saol iomlán leis an leigheas ceart.\nCén fáth a raibh sé fann maidin amháin?\nNí raibh aon rud ite aige ón oíche roimhe sin.\nCén impí a rinne an bhean oíche fhuar amháin?\nRinne sí impí ar Mhairghréad buidéal leighis a thabhairt di gan oideas.\nCé a bhfuil Mairghréad buíoch díobh?\nTá sí buíoch dá hathair, de Mhaonas, agus de gach easlán."
+    },
+    {
+      "title": "Leabhair nótaí an phortaigh",
+      "summary": "A naturalist recalls learning flowers from his mother, mapping a bog, a farmer who gave up an insecticide, and the return of the crane.",
+      "newWords": [
+        "seipeal",
+        "léarscáiligh",
+        "buaircíneach",
+        "creabhar",
+        "feithidicíd",
+        "urchóideach",
+        "ealta",
+        "grús"
+      ],
+      "text": "Bercán is ainm dom, agus tá leabhair nótaí agam faoin dúlra ó bhí mé 8 mbliana d'aois. Bhí gairdín ag mo mháthair ar imeall portaigh i lár na tíre, agus thaispeánadh sí gach bláth dom. Thug sí bláth a bhí fós dúnta dom lá amháin. “Féach an rud beag glas sin a chlúdaíonn é,” a dúirt sí. “Sin seipeal.” Is é an seipeal an duilleog bheag ghlas a chosnaíonn an bláth sula n-osclaíonn sé. Ba ghearr go raibh mé ag comhaireamh na seipeal i mo leabhar nótaí: 5 sheipeal ar an gcuid is mó de na blátha sa ghairdín.\n\nNuair a d'fhág mé an ollscoil, fuair mé post le comhlacht a bhí ag léarscáiliú an phortaigh chéanna. Ba é ár dtasc gach cineál planda agus gach cineál éin a chur ar an léarscáil ina áit féin. Léarscáiligh mé 200 heicteár sa chéad bhliain. Tá an portach léarscáilithe ó shin le gléasanna san aer, ach táim bródúil as an obair a rinne mé le peann luaidhe agus le mo dhá chos.\n\nBhí coill bhuaircíneach in aice leis an bportach. Is crainn iad crainn bhuaircíneacha a choinníonn a gcuid síolta i mbuaircíní. Tá coill bhuaircíneach dorcha, agus shíl mé nach mbeadh mórán inti. Bhí dul amú orm. Tráthnóna amháin, chonaic mé creabhar den chéad uair. Éan donn is ea an creabhar, a bhfuil gob fada air, agus ní fheictear é i rith an lae mar go bhfuil sé ar aon dath le duilleoga tirime. Ach um thráthnóna, eitlíonn an creabhar thar bharr na gcrann, agus is ansin is féidir é a chomhaireamh.\n\n3 bliana ina dhiaidh sin, thug mé faoi deara go raibh níos lú éan ann gach samhradh. Chuireadh feirmeoir, Dubhghlas, feithidicíd ar a chuid barr gach bliain. Ceimiceán is ea feithidicíd a chuireann deireadh le feithidí, agus nuair nach raibh feithidí ann, ní raibh bia ag na héin. Bhí an fheithidicíd urchóideach don uisce sa phortach freisin. Thaispeáin mé mo léarscáil do Dhubhghlas ag bord a chistine. “Níor thuig mé go raibh sí chomh hurchóideach sin,” a dúirt sé. D'éirigh sé as an bhfeithidicíd sna páirceanna in aice leis an bportach.\n\nFaoi cheann cúpla bliain, bhí na feithidí ar ais, agus na héin ina ndiaidh. Sa gheimhreadh, tháinig ealta mhór géanna chugainn arís. Uair amháin, chomhair mé ealta de 2,000 gé. Is breá liom ealta a fheiceáil ag casadh sa spéir, agus gach éan ag casadh ar an toirt leis an gcuid eile den ealta.\n\nAch ba é an lá ab fhearr i mo shaol an lá a chonaic mé grús. Éan mór ard liath is ea an grús, chomh hard le páiste 10 mbliana d'aois. Bhí an grús imithe as Éirinn le níos mó ná 300 bliain. Anois, tá dhá ghrús ag neadú ar an bportach seo. Seasaim ar an imeall gach earrach, agus mo leabhar nótaí i mo lámh, agus scríobhaim: “Tá an grús sa bhaile.”\n\nCeisteanna:\nCad is seipeal ann?\nIs duilleog bheag ghlas é a chosnaíonn an bláth sula n-osclaíonn sé.\nCad a léarscáiligh Bercán sa chéad bhliain?\nLéarscáiligh sé 200 heicteár den phortach.\nCathain is féidir creabhar a chomhaireamh?\nIs féidir é a chomhaireamh um thráthnóna, nuair a eitlíonn sé thar bharr na gcrann.\nCén fáth a raibh níos lú éan ann gach samhradh?\nChuir an fheithidicíd deireadh leis na feithidí, agus ní raibh bia ag na héin.\nCad a rinne Dubhghlas nuair a chonaic sé an léarscáil?\nD'éirigh sé as an bhfeithidicíd urchóideach sna páirceanna in aice leis an bportach.\nCén t-éan a tháinig ar ais tar éis níos mó ná 300 bliain?\nTháinig an grús ar ais, agus tá dhá ghrús ag neadú ar an bportach."
+    },
+    {
+      "title": "Steip amháin ar dtús",
+      "summary": "An actress remembers her first dance step, a red dress, a fit of laughter in a Greek tragedy, a hurtful review and her years in opera.",
+      "newWords": [
+        "steip",
+        "téatar",
+        "traigéide",
+        "flanndearg",
+        "racht",
+        "béic",
+        "nimhneach",
+        "ceoldrámaíocht"
+      ],
+      "text": "Dairbhile is ainm dom. Ar urlár na cistine in Árainn a mhúin mo mháthair mo chéad steip dom, nuair a bhí mé 5 bliana d'aois. “Steip amháin ar dtús,” a deireadh sí, “agus an chéad steip eile ina dhiaidh.” Sin í an chomhairle is fearr a fuair mé riamh don téatar, cé nach raibh a fhios agam é sin ag an am.\n\nNuair a bhí mé 19 mbliana d'aois, chuaigh mé go Gaillimh agus fuair mé post i dtéatar beag ar an gcé. Ar dtús, bhí mé ag scuabadh an urláir agus ag díol ticéad. Ansin, d'éirigh aisteoir tinn, agus thug an stiúrthóir, Beanán, páirt bheag dom i dtraigéide Ghréagach. Is dráma trom í traigéide, a thosaíonn go dona agus a chríochnaíonn níos measa. Chuir mo mháthair gúna chugam ó Árainn, gúna flanndearg a rinne sí féin. Ní fhaca mé dath chomh láidir leis riamh. Bhí mé an-bhródúil as an ngúna flanndearg, agus bhí mé an-neirbhíseach.\n\nAr an gcéad oíche, tharla rud nach ndéanfaidh mé dearmad air go deo. I lár na traigéide, agus gach duine sa téatar ciúin, thit hata an phríomhaisteora isteach i bpota mór a bhí ar an stáitse. Bhuail racht gáire mé. Is ionann racht agus mothú tobann láidir nach féidir a smachtú. Chlúdaigh mé m'aghaidh le mo lámha, agus cheap an lucht féachana gur ag caoineadh a bhí mé. Nuair a bhí an dráma thart, lig Beanán béic as sa seomra cúil. “Traigéide atá ann, a Dhairbhile!” Chualathas an bhéic sin ar an tsráid. Ach ansin, chonaic sé an hata arís ina intinn, agus tháinig racht gáire air féin.\n\nAn tseachtain dár gcionn, scríobh léirmheastóir sa nuachtán nach raibh a fhios ag an gcailín sa ghúna flanndearg conas seasamh ar stáitse. Focal nimhneach a bhí ann, agus ghoill sé orm. Is cuimhin liom gach focal den léirmheas nimhneach sin go fóill. Ghlaoigh mé ar mo mháthair agus mé ag caoineadh i ndáiríre. “Steip amháin ar dtús,” a dúirt sí. D'fhan mé sa téatar, agus ar feadh bliana d'fhoghlaim mé conas seasamh.\n\nNuair a bhí mé 30 bliain d'aois, fuair mé post i Londain le comhlacht ceoldrámaíochta. Ní raibh guth mór agam, ach ní gá guth mór a bheith ag gach duine sa cheoldrámaíocht: tá gá freisin le daoine a bhfuil a fhios acu conas bogadh ar stáitse. Is ealaín iontach í an cheoldrámaíocht, ina dtagann ceol, drámaíocht, damhsa agus éadaí le chéile. Chaith mé 20 bliain inti, agus thug mé an gúna flanndearg liom go dtí gach téatar.\n\nTáim ar ais in Árainn anois, agus múinim damhsa agus drámaíocht do pháistí an oileáin i halla an phobail. Nuair a dhéanann páiste botún, agus nuair a thagann racht gáire ar an gcuid eile, ní ligim béic asam. Ní deirim focal nimhneach. Seasaim in aice leis an bpáiste agus deirim: “Steip amháin ar dtús.”\n\nCeisteanna:\nCé a mhúin a céad steip do Dhairbhile?\nMhúin a máthair a céad steip di ar urlár na cistine.\nCad a chuir a máthair chuici ó Árainn?\nChuir sí gúna flanndearg chuici.\nCad a tharla i lár na traigéide?\nThit hata an phríomhaisteora isteach i bpota, agus bhuail racht gáire Dairbhile.\nCad a rinne Beanán sa seomra cúil?\nLig sé béic as, ach ansin tháinig racht gáire air féin.\nCad a dúirt a máthair tar éis an léirmheasa nimhnigh?\nDúirt sí: “Steip amháin ar dtús.”\nCén fáth a raibh post aici sa cheoldrámaíocht gan guth mór?\nTá gá sa cheoldrámaíocht le daoine a bhfuil a fhios acu conas bogadh ar stáitse."
+    },
+    {
+      "title": "Litir chuig mo ghariníon",
+      "summary": "A dressmaker writes to her granddaughter about her mother's large family, the first stitches she learned and the fabric of a summer dress.",
+      "newWords": [
+        "gariníon",
+        "aithnid",
+        "muirear",
+        "uige",
+        "giobach",
+        "folt",
+        "uaisleacht",
+        "tointe"
+      ],
+      "text": "A Luighseach, a ghariníon liom,\n\nD'iarr tú orm mo scéal a scríobh síos, agus seo é. Is aithnid duit an tseanbhean ag an meaisín fuála, ach ní aithnid duit an cailín a bhí inti. Is aithnid dom féin í go maith fós.\n\nBhí muirear mór ar mo mháthair. Bhí 8 bpáiste aici, agus bhí m'athair ar an bhfarraige go minic. Muirear trom a bhí ann, agus ní raibh de shlí bheatha aici lena thógáil ach a cuid fuála. Is cuimhin liom an seomra lán de gach cineál éadaigh: olann, síoda, agus uige chomh héadrom sin go bhfeicfeá do lámh tríthi. Is í an uige sin a d'úsáideadh sí le haghaidh gúnaí samhraidh. “Gach uige mar a hábhar,” a deireadh sí: ní féidir gúna maith a dhéanamh as drochéadach.\n\nNí raibh mórán airgid againn, ach níor fhág aon pháiste giobach an teach sin. Bheadh ionadh ar mhuintir an bhaile dá bhfeicfidís duine againn giobach. Chíoradh sí folt gach duine againn gach maidin, duine i ndiaidh a chéile. Bhí folt fada dubh uirthi féin, agus chuireadh sí suas go néata é roimh an obair. Bhí uaisleacht inti nach bhfaca mé i mórán daoine ó shin. Ní uaisleacht airgid a bhí inti, ach uaisleacht an duine a dhéanann a chuid oibre go maith, gan ghearán, is cuma cé atá ag féachaint.\n\nNuair a bhí mé 7 mbliana d'aois, mhúin sí mo chéad tointe dom. Rinne mé tointe i ndiaidh tointe ar sheanphíosa éadaigh, agus bhain sí amach iad uile. “Arís,” a dúirt sí. Bhí mo chuid tointí cam. Faoi cheann bliana, bhí gach tointe díreach, agus iad ar aon fhad.\n\nNuair a phós mé, tháinig muirear orm féin: 4 pháiste. D'oscail mé siopa beag fuála ar shráid i Luimneach, agus thosaigh mé ag déanamh gúnaí do bhainis agus do chóisirí. Is aithnid dom gach bean sa bhaile sin, agus a tomhais freisin.\n\nAgus ansin tháinig tusa. Nuair a bhí tú 15 bliana d'aois, bhí tú giobach ó bhun go barr: geansaí mór, bríste stróicthe, agus folt nach bhfaca scuab le mí. Bhí do mháthair buartha. Ach lá amháin, tháinig tú isteach sa siopa agus d'iarr tú orm tointe a mhúineadh duit. Rinne tú tointe cam, agus bhain mé amach é. “Arís,” a dúirt mé. D'fhan tú. Agus féach anois: tá tú ag déanamh do ghúna féin as uige éadrom, agus tá uaisleacht sa ghúna sin.\n\nBí bródúil as, a ghariníon. Gach uige mar a hábhar.\n\nLe grá ó do sheanmháthair,\nDamhait\n\nCeisteanna:\nCé chuige a bhfuil Damhait ag scríobh?\nTá sí ag scríobh chuig a gariníon, Luighseach.\nCén muirear a bhí ar a máthair?\nBhí 8 bpáiste aici, agus ní raibh de shlí bheatha aici ach a cuid fuála.\nCén sórt uige a d'úsáideadh a máthair le haghaidh gúnaí samhraidh?\nD'úsáideadh sí uige chomh héadrom sin go bhfeicfeá do lámh tríthi.\nCén sórt uaisleachta a bhí inti?\nBhí uaisleacht an duine inti a dhéanann a chuid oibre go maith, gan ghearán.\nCad a rinne Damhait nuair a rinne Luighseach tointe cam?\nBhain sí amach é, agus dúirt sí: “Arís.”"
+    },
+    {
+      "title": "Ar an bpríomhbhealach",
+      "summary": "A road worker recalls pointing walls with his mason father, a slip on his motorcycle, the hydraulic digger, and the long drive he built for himself.",
+      "newWords": [
+        "pointeáil",
+        "príomhbhealach",
+        "bunsraith",
+        "gluaisrothar",
+        "priacal",
+        "sciorr",
+        "hiodrálach",
+        "céide"
+      ],
+      "text": "D'oibrigh mé ar na bóithre ar feadh 42 bliain, agus is mór an t-athrú a chonaic mé. Eireamhón is ainm dom. Saor cloiche ab ea m'athair, agus mhúin sé dom conas balla a phointeáil. Nuair a thiteann an seanmhoirtéal as balla, caithfear é a bhaint amach agus moirtéal nua a chur idir na clocha: sin í an phointeáil. Bhí mé 12 bhliain d'aois nuair a phointeáil mé mo chéad bhalla, agus ba bhocht an obair í. Phointeáil m'athair arís é, agus dúirt sé rud a chloisim fós: “Tá gach rud ag brath ar a bhfuil faoi.”\n\nThuig mé an focal sin nuair a fuair mé post ar an bpríomhbhealach idir Gaillimh agus Luimneach, an uair a bhí sé á leathnú. Ní hé barr an bhóthair an bóthar. Is í an bhunsraith an bóthar: an ciseal cloch agus gairbhéil a chuirtear faoin tarra. Má tá an bhunsraith lag, scoilteann an príomhbhealach is fearr faoi cheann bliana. Thaispeáin an saoiste bunsraith mhaith dom, agus bunsraith eile a bhí lag, agus d'fhoghlaim mé iad a aithint le mo bhróg.\n\nAg an am sin, bhí mé i mo chónaí 30 ciliméadar ón obair, agus cheannaigh mé gluaisrothar dara láimhe. Ba é an gluaisrothar sin an rud ba luachmhaire a bhí agam. “Is mór an priacal é sin,” a deireadh mo mháthair gach maidin. Maidin fhliuch amháin san fhómhar, bhí mé ag dul thart ar choirnéal ar an bpríomhbhealach nuair a sciorr an roth deiridh ar dhuilleoga fliucha. Sciorr an gluaisrothar ar a thaobh agus thit mé ar an mbóthar. Ní raibh orm ach glúin scríobtha. Bhí an ceart ag mo mháthair faoin bpriacal, agus ón lá sin amach thiomáin mé go mall.\n\nNuair a bhí mé 30 bliain d'aois, chuir siad mé ag obair ar an tochaltóir mór. Is meaisín hiodrálach é tochaltóir: is í ola faoi bhrú a bhogann an lámh mhór. Bhí an chéad mheaisín hiodrálach a d'úsáid mé chomh láidir sin go raibh mé in ann carraig a thógáil le cor beag de mo lámh. Ach d'fhoghlaim mé go gcaithfí súil a choinneáil ar na píopaí hiodrálacha, mar is priacal é píopa caite ar láthair oibre.\n\nNuair a d'éirigh mé as an obair, thóg mé teach i mo bhaile dúchais, agus céide fada idir an teach agus an bóthar. Rinne mo mhac gáire. “Cén fáth céide chomh fada sin?” a d'fhiafraigh sé. Ní raibh aon fhreagra agam dó, ach rinne mé an céide le mo lámha féin. Chaith mé 3 mhí ar an mbunsraith amháin. Ní fheicfidh aon duine scoilt sa chéide sin i mo shaolsa ná ina shaolsa.\n\nTá seanbhalla m'athar ag barr an chéide. Tráthnónta ciúine, tógaim mo chuid uirlisí agus téim ag pointeáil, go mall, cloch ar chloch. Tá gach rud ag brath ar a bhfuil faoi.\n\nCeisteanna:\nCad a mhúin athair Eireamhóin dó?\nMhúin sé dó conas balla a phointeáil.\nCad í an bhunsraith?\nIs ciseal cloch agus gairbhéil í a chuirtear faoin tarra.\nCad a tharla don ghluaisrothar maidin fhliuch amháin?\nSciorr sé ar dhuilleoga fliucha agus thit Eireamhón ar an mbóthar.\nCad a bhogann lámh mhór an mheaisín hiodrálaigh?\nIs í ola faoi bhrú a bhogann í.\nCé a rinne an céide fada?\nRinne Eireamhón an céide lena lámha féin."
+    },
+    {
+      "title": "An príomhalt",
+      "summary": "A newspaper editor remembers a new market regulation, a malicious letter, the search for proof and the leading article that followed.",
+      "newWords": [
+        "príomhalt",
+        "rialúchán",
+        "frustrachas",
+        "mailíseach",
+        "cruthúnas",
+        "contrárthacht",
+        "ionadaíoch"
+      ],
+      "text": "Séana is ainm dom. Ar feadh 27 bliain, bhí mé i m'eagarthóir ar nuachtán seachtainiúil i gContae Chiarraí. Is é an príomhalt an t-alt gearr ar leathanach 2 ina ndeir an nuachtán féin cad a cheapann sé. Scríobh mé timpeall 1,400 príomhalt, agus tá dearmad déanta agam ar a bhformhór. Is cuimhin liom ceann amháin go maith.\n\nAn bhliain sin, thug an chomhairle rialúchán nua isteach don mhargadh seachtainiúil. De réir an rialúcháin, ní fhéadfaí bia te a dhíol gan doirteal le huisce reatha ag gach stalla. Bhí frustrachas mór i measc lucht an mhargaidh. Bhí an frustrachas sin le cloisteáil gach Déardaoin, agus tháinig triúr díoltóirí chugam san oifig.\n\nAnsin, tháinig litir gan ainm chuig an nuachtán, litir mhailíseach. Dúirt sí go raibh bean an stalla éisc ag díol seanéisc, agus gurbh í sin an fáth a raibh an rialúchán ann. Is ionann litir mhailíseach agus litir a scríobhtar d'aon ghnó chun dochar a dhéanamh do dhuine. Bhí an scéal mailíseach céanna á insint sa bhaile freisin.\n\nThug mé an litir do mo thuairisceoir óg, Nuadhán. “An bhfuil aon chruthúnas ann?” a d'fhiafraigh mé. Ní raibh cruthúnas ar bith ann. “Gan chruthúnas, ní chuirfimid focal de i gcló,” a dúirt mé leis. Chuaigh Nuadhán chuig oifig na sláinte, agus léigh sé tuairiscí na gcigirí. Bhí cruthúnas ansin, ach a mhalairt ar fad: bhí stalla an éisc ar cheann de na stallaí ba ghlaine sa chontae.\n\nAgus é ag léamh na bpáipéar, thug Nuadhán rud eile faoi deara. Bhí contrárthacht iontu. Dúirt an rialúchán go gcaithfeadh doirteal a bheith ag gach stalla, ach dúirt an chomhairle i litir eile nach raibh aon uisce ar fáil sa chearnóg. Contrárthacht shoiléir a bhí ann: ní fhéadfadh aon duine an rialúchán a chomhlíonadh.\n\nTheastaigh uaim a fháil amach cad a cheap muintir an bhaile. Ní leor ceist a chur ar do chairde: ní sampla ionadaíoch é sin. Chuir Nuadhán ceist ar 200 duine ar an margadh, idir óg agus aosta, idir mhuintir an bhaile agus mhuintir na tuaithe. Sampla ionadaíoch go leor a bhí ann, agus theastaigh an margadh ó 9 nduine as gach 10.\n\nScríobh mé an príomhalt an oíche sin. Ní raibh an litir ann, ná aon fhocal mailíseach. Ní raibh ann ach an chontrárthacht, torthaí an tsuirbhé agus moladh simplí: píopa uisce a chur sa chearnóg. An tseachtain dár gcionn, tháinig oifigeach ón gcomhairle chun labhairt liom, agus faoin samhradh, bhí an píopa curtha isteach. Tá an margadh ar siúl fós.\n\nIs minic a deir daoine liom gur chumhachtach an rud é príomhalt. Ní dóigh liom é. Is é an cruthúnas atá cumhachtach. Níl sa phríomhalt ach an áit a gcuirtear ar taispeáint é.\n\nCeisteanna:\nCad is príomhalt ann?\nIs é an t-alt gearr ina ndeir an nuachtán féin cad a cheapann sé.\nCén fáth a raibh frustrachas ar lucht an mhargaidh?\nThug an chomhairle rialúchán nua isteach faoi dhoirtil ag gach stalla.\nCad a dúirt an litir mhailíseach?\nDúirt sí go raibh bean an stalla éisc ag díol seanéisc.\nCén chontrárthacht a thug Nuadhán faoi deara?\nBhí doirteal ag teastáil ó gach stalla, ach ní raibh aon uisce ar fáil sa chearnóg.\nCén fáth nach sampla ionadaíoch é ceist a chur ar do chairde?\nNí ionann do chairde agus muintir an bhaile uile, idir óg agus aosta."
+    },
+    {
+      "title": "Ón gcnoc go dtí an cúrsa gailf",
+      "summary": "A former Boy Scout tells of a wooden slide, a climb that left him stuck, a small medal, a working life as a diver, skiing, and golf in old age.",
+      "newWords": [
+        "gasóg",
+        "aicsean",
+        "sleamhnán",
+        "dreap",
+        "sáinn",
+        "méadailín",
+        "tumadóir",
+        "sciáil",
+        "galfaire"
+      ],
+      "text": "Ibhear is ainm dom, agus táim 74 bliain d'aois. Nuair a bhí mé 11 bhliain d'aois, chuaigh mé isteach sna gasóga i gCorcaigh. Gasóg chiúin a bhí ionam, agus b'fhearr le mo dheartháir an phictiúrlann agus scannáin aicsin. “Níl aon aicsean sna gasóga,” a deireadh sé. Dúirt mé é sin leis an bhfear a bhí i gceannas orainn, Aimhirgin. Rinne sé gáire. “Fan go bhfeicfidh tú an campa,” a dúirt sé. “Is ansin atá an t-aicsean.”\n\nBhí an ceart aige. An samhradh sin, chuamar go Ciarraí, 20 gasóg in aon bhus amháin. An chéad lá, thógamar sleamhnán adhmaid ó bharr an bhruaigh síos go dtí an loch. Chuireamar uisce air, agus chuaigh gach gasóg síos an sleamhnán agus isteach sa loch le béic mhór. Bhí an sleamhnán sin chomh sciobtha le haon rud a chonaic mé sa phictiúrlann.\n\nAn tríú lá, dhreapamar sliabh. Níor dhreap mé aon rud níos airde ná crann riamh. Dhreap mé go tapa, agus bhí mé bródúil asam féin. Ach ar an mbealach síos, d'imigh mé ar leataobh, agus tháinig mé go dtí aill bheag. Ní raibh mé in ann dul síos ná suas. Bhí mé i sáinn. Sáinn bheag a bhí ann, is dócha, ach ba í an tsáinn ba mhó ar domhan í agus mé 11 bhliain d'aois. Tháinig Aimhirgin agus sheas sé fúm. Níor lig sé aon bhéic as. “Cuir do chos chlé ar an gcloch sin,” a dúirt sé. “Anois, dreap síos go mall.” Dhreap mé síos céim ar chéim, agus bhí mé slán.\n\nAg deireadh an champa, thug sé méadailín beag do gach gasóg a dhreap an sliabh. Cheap mé nach raibh méadailín tuillte agam, ach dúirt sé gurb é an té a thagann amach as sáinn an té is mó a fhoghlaimíonn. \n\nNuair a d'fhág mé an scoil, chuaigh mé ag obair le m'uncail, a bhí ina thumadóir i gcuan Chorcaí. Deisíonn tumadóir an chuid de bhád atá faoin uisce, agus ballaí na cé. Is obair chiúin mhall í, agus cuimhníonn tumadóir maith i gcónaí ar an bhfocal “go mall”. D'oibrigh mé i mo thumadóir ar feadh 35 bliain, agus níor tháinig mé riamh i sáinn faoin uisce.\n\nBhí mé 40 bliain d'aois nuair a thug cara liom go dtí an Eilvéis mé le sciáil a fhoghlaim. Bhí páistí 5 bliana d'aois ag dul tharam ag gáire. Thaitin an sciáil liom ón gcéad lá, cé gur thit mé 30 uair. Chuaigh mé ag sciáil gach geimhreadh ina dhiaidh sin, go dtí gur thosaigh mo ghlúine ag gearán.\n\nAnois is galfaire mé. Is galfaire lag mé, agus deir mo mhac go gcaithim níos mó ama ag lorg na liathróide ná ag imirt. Tá galfairí sa chlub atá 20 bliain níos sine ná mé, agus buaileann siad mé gach seachtain. Níl aon aicsean sa ghalf, b'fhéidir. Ach tá an méadailín beag i mo mhála gailf fós, agus ar an 9ú poll, a bhfuil cnoc beag ar a chúl, dreapaim go mall.\n\nCeisteanna:\nCad a rinne na gasóga an chéad lá sa champa?\nThóg siad sleamhnán adhmaid síos go dtí an loch.\nCad a tharla d'Ibhear ar an mbealach síos ón sliabh?\nTháinig sé go dtí aill bheag agus bhí sé i sáinn.\nConas a chabhraigh Aimhirgin leis?\nSheas sé faoi agus dúirt sé leis dreapadh síos go mall.\nCad a dhéanann tumadóir?\nDeisíonn sé an chuid de bhád atá faoin uisce, agus ballaí na cé.\nCá ndeachaigh Ibhear chun sciáil a fhoghlaim?\nChuaigh sé go dtí an Eilvéis.\nCá bhfuil an méadailín anois?\nTá sé ina mhála gailf fós."
+    },
+    {
+      "title": "Siopa sceallóg ar an gcé",
+      "summary": "The child of a fisherman remembers an auction, a chip shop that was only meant to be short-term, smoke in everything and foam on the sea.",
+      "newWords": [
+        "forlíon",
+        "ceant",
+        "sceallóg",
+        "gearrthéarmach",
+        "leordhóthanach",
+        "toit",
+        "cúr"
+      ],
+      "text": "Iascaire ab ea m'athair, Bairrfhionn, ar chósta Chiarraí. Ní raibh an t-airgead ón iascaireacht leordhóthanach do chlann de 6 dhuine, agus mar sin d'fhorlíon mo mháthair é le cúpla lá oibre in óstán. Forlíonann go leor daoine ar an gcósta a gcuid airgid ar an mbealach céanna. Ach nuair a bhí mé 10 mbliana d'aois, tháinig geimhreadh an-dona, agus ní raibh fiú sin leordhóthanach.\n\nAn t-earrach sin, dhún an t-óstán, agus bhí ceant ar a chuid troscáin. Cineál díola is ea ceant: ardaíonn daoine an praghas ar a chéile, agus is ag an duine a thairgeann an méid is mó a fhanann an rud. Chuaigh m'athair chuig an gceant le cuid dá chuid airgid, agus mise in éineacht leis, chun cathaoir nó dhó a cheannach. Tháinig sé abhaile le pota mór friochta ón gcistin. Ní raibh aon duine eile ag an gceant á iarraidh. Tháinig mo mháthair amach go dtí an doras agus d'fhéach sí ar an bpota. “Cad é sin?” a d'fhiafraigh sí.\n\n“Sceallóga,” a dúirt m'athair.\n\nBhí seanbhothán ar an gcé againn. Fuaireamar iasacht ghearrthéarmach ón mbanc chun cuntar agus simléar a chur ann. “Rud gearrthéarmach é seo,” a dúirt m'athair. “Bliain amháin, go dtí go mbeidh an iasacht íoctha agus an t-iascach ag feabhsú.” Bhí prátaí againn ó fheirm m'uncail, agus thosaíomar ag díol sceallóg leis na hiascairí agus leis na cuairteoirí samhraidh. Ghearr mise na prátaí gach tráthnóna tar éis na scoile. D'fhoghlaim mé gach sceallóg a dhéanamh ar aon mhéid, mar go bhfriochann sceallóg bheag níos tapa ná sceallóg mhór.\n\nBhí toit i ngach rud. Chuaigh toit an phota suas an simléar, ach d'fhan go leor di sa bhothán. Bhí boladh na toite ar ár gcuid éadaigh, ar ár ngruaig, agus ar mo chuid leabhar scoile. Chuir an múinteoir ceist orm uair amháin an raibh tine sa teach againn. D'osclaíodh mo mháthair an doras chun an toit a ligean amach, agus thagadh na custaiméirí isteach ar an mboladh céanna.\n\nMhúin m'athair dom féachaint ar an ola. Nuair a chuirtear prátaí fliucha isteach, éiríonn cúr bán ar an ola, agus is é an cúr sin an comhartha nach bhfuil na prátaí tirim go leor. “Sin é an cúr céanna atá ar an bhfarraige,” a deireadh sé. “Má fheiceann tú cúr, bí cúramach.” Sheasadh sé ag doras an bhotháin tráthnónta gaofara, ag féachaint ar an gcúr bán ar na tonnta agus ar a bhád sa chuan.\n\nD'íocamar an iasacht ghearrthéarmach faoi cheann bliana. D'fhan an siopa ar oscailt ar feadh 31 bliain. Táim i m'innealtóir anois, i Toronto, ach gach samhradh téim abhaile, agus tá mo dheirfiúr ag gearradh na sceallóg fós. “Rud gearrthéarmach,” a deir sí liom, agus í ag gáire, agus an toit ina gruaig.\n\nCeisteanna:\nCén fáth ar fhorlíon an mháthair airgead na hiascaireachta?\nNí raibh an t-airgead ón iascaireacht leordhóthanach don chlann.\nCad a cheannaigh an t-athair ag an gceant?\nCheannaigh sé pota mór friochta ón gcistin.\nCén sórt iasachta a fuair siad ón mbanc?\nFuair siad iasacht ghearrthéarmach chun cuntar agus simléar a chur sa bhothán.\nCad a thug boladh ar éadaí na clainne?\nThug toit an phota boladh orthu.\nCad a chiallaíonn cúr bán ar an ola?\nCiallaíonn sé nach bhfuil na prátaí tirim go leor."
+    },
+    {
+      "title": "An leabhar nár theastaigh uaim",
+      "summary": "A retired lecturer on Indo-European describes the hard change to retirement and how the word processor and her daughter got her to write her life.",
+      "newWords": [
+        "léachtóireacht",
+        "ind-eorpais",
+        "próiseálaí",
+        "trasdul",
+        "éagmais",
+        "dírbheathaisnéiseach",
+        "nua-aois"
+      ],
+      "text": "Tuilelaith is ainm dom, agus chaith mé 35 bliain ag léachtóireacht in ollscoil i gCorcaigh. Is ar an Ind-Eorpais a bhí mé ag léachtóireacht. Teanga ársa is ea an Ind-Eorpais nach bhfuil aon leabhar againn inti, ach is uaithi a tháinig an Ghaeilge, an Béarla, an Laidin, an Ghréigis, an tSanscrait agus go leor teangacha eile. Féach ar an bhfocal “máthair”, agus ar “mother” agus “mater”. Is beag an difríocht eatarthu. Is é sin rian na hInd-Eorpaise inár mbéal, 5,000 bliain ina dhiaidh sin. Bhain mé taitneamh as an léachtóireacht sin gach bliain, agus bhínn ag gáire nuair a thuigeadh mac léinn nua é den chéad uair.\n\nNuair a thosaigh mé in 1983, bhí clóscríobhán ar gach deasc sa roinn. Ansin, in 1986, tháinig an chéad phróiseálaí focal: meaisín mór ar bhord dá chuid féin, agus scáileán beag glas air. Bhí imní ar chuid de na hollúna. Dúirt ollamh amháin nach n-úsáidfeadh sé próiseálaí go deo. Ach ba é sin an chéad trasdul mór a chonaic mé i mo shaol oibre: trasdul ón bpáipéar go dtí an scáileán. Laistigh de 10 mbliana, bhí próiseálaí dá chuid féin ag an ollamh sin.\n\nTháinig an dara trasdul nuair a d'éirigh mé as an léachtóireacht, agus mé 65 bliain d'aois. Shíl mé go mbeadh sé éasca. Ach bhí sé i bhfad níos deacra ná an chéad cheann. In éagmais mo chuid mac léinn, ní raibh aon duine le ceist a chur orm. In éagmais na léachtaí, ní raibh aon chúis agam éirí go moch. Is minic a shuigh mé ag an bhfuinneog ar feadh an lae, agus leabhar gan oscailt ar mo ghlúin.\n\nMhol m'iníon dom saothar dírbheathaisnéiseach a scríobh, is é sin, leabhar faoi mo shaol féin, scríofa agam féin. Níor thaitin an smaoineamh liom. Cheap mé gur do dhaoine móra le rá atá an leabhar dírbheathaisnéiseach, agus ní do bhean a chaith a saol le briathra ársa. “Scríobh do leabhar faoin Ind-Eorpais mar sin,” a dúirt sí, “ach cuir tú féin ann.”\n\nShuigh mé síos leis an bpróiseálaí, ríomhaire beag atá níos éadroime ná leabhar anois, agus thosaigh mé. Sa chéad chaibidil scríobh mé faoi na focail. Sa dara caibidil, bhí mo mháthair ann, a labhraíodh Gaeilge Mhúscraí. Scríobh mé faoin nua-aois freisin, mar is sa nua-aois a mhair mé, agus is í an nua-aois a thug an próiseálaí agus an t-eitleán dom, agus cairde ar fud an domhain. Ach cheap mé riamh go raibh níos mó sa saol ná an nua-aois. Tá seanfhocail inár mbéal agus níl a fhios againn cé a dúirt iad an chéad uair.\n\nTá an leabhar críochnaithe anois: 180 leathanach. Is saothar dírbheathaisnéiseach gearr é, ach is liomsa é. Rinne m'iníon gáire nuair a léigh sí é. “Fós ag léachtóireacht, a Mhamaí,” a dúirt sí. B'fhéidir go bhfuil an ceart aici.\n\nCeisteanna:\nCad a bhí á mhúineadh ag Tuilelaith ar feadh 35 bliain?\nBhí sí ag léachtóireacht ar an Ind-Eorpais.\nCad a tháinig ar na deasca sa roinn in 1986?\nTháinig an chéad phróiseálaí focal.\nCén fáth a raibh an trasdul go dtí an scor deacair?\nIn éagmais a cuid mac léinn agus na léachtaí, ní raibh aon chúis aici éirí go moch.\nCad a mhol a hiníon di?\nMhol sí di saothar dírbheathaisnéiseach a scríobh.\nCad a dúirt a hiníon nuair a léigh sí an leabhar?\nDúirt sí: “Fós ag léachtóireacht, a Mhamaí.”"
+    }
+  ]
+}
