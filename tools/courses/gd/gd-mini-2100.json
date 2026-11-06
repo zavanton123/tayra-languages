@@ -1,0 +1,192 @@
+{
+  "id": "gd-mini-2100",
+  "rankUpTo": 2100,
+  "level": "B2",
+  "title": "Còcaireachd agus biadh",
+  "description": "Ten stories and short texts about cooking and food: soup for unexpected guests, oats on the machair, smoked fish, a Gaelic menu, eggs and a shepherd's lunch.",
+  "topic": "Cooking and food",
+  "names": [
+    "Murdag",
+    "Torcall",
+    "Hearadh",
+    "Glaschu",
+    "Uibhist",
+    "Ìomhar",
+    "Eilionoir",
+    "Obar Dheathain",
+    "Alba",
+    "Steòrnabhagh",
+    "Fearchar",
+    "Mearag",
+    "Inbhir Nis",
+    "Seasag",
+    "Seathan",
+    "Gàidhlig",
+    "Dihaoine",
+    "Sgitheanach",
+    "Ceanag",
+    "Malaig",
+    "Iuchar",
+    "Barraigh",
+    "Gilleasbaig",
+    "Sìneag",
+    "Tàmhas",
+    "Diarmad",
+    "Muile",
+    "Rònag",
+    "Iagan",
+    "Òban",
+    "Beitidh",
+    "Lileas",
+    "Bearnard",
+    "Dimàirt",
+    "Beatrais",
+    "Dùghlas",
+    "Diluain"
+  ],
+  "lessons": [
+    {
+      "title": "Brot airson deichnear",
+      "summary": "A walking group caught in the rain finds shelter at a croft house, and a pot of soup has to stretch to ten people.",
+      "newWords": [
+        "brot",
+        "leathad",
+        "companach",
+        "grùpa",
+        "fasgadh",
+        "naoinear",
+        "deichnear",
+        "beart"
+      ],
+      "text": "Tha Murdag a' fuireach leatha fhèin ann an taigh beag anns na Hearadh, aig bonn leathaid chais. Chan eil aice ach aon chompanach, seann chù dubh a bhios a' cadal ri taobh an teine fad an latha.\n\nAon latha anns an fhoghar, bha Murdag a' dèanamh brot anns a' phoit mhòr aice: feòil, buntàta, lusan às a' ghàrradh agus uisge. Bha an latha a' fàs dorcha, agus bha a' ghaoth ag èirigh. Nuair a thug i sùil a-mach air an uinneig, chunnaic i grùpa dhaoine a' tighinn sìos an leathad anns an uisge. Chaidh i chun an dorais agus dh'èigh i riutha.\n\n“Thigibh a-steach! Gheibh sibh fasgadh an seo.”\n\nB' e Torcall ceannard a' ghrùpa. Bha e air a bhith a' lorg fasgaidh bho chionn uair a thìde, ach cha robh fasgadh sam bith air an leathad.\n\n“Cia mheud duine a th' ann?” thuirt Murdag.\n\n“Tha naoinear anns a' ghrùpa, agus mise cuideachd,” thuirt Torcall. “Sin deichnear uile gu lèir.”\n\nThug Murdag sùil air a' phoit. Cha robh am brot gu leòr ach do thriùir no ceathrar. Cha tuirt i guth, ach chuir i tuilleadh uisge agus tuilleadh buntàta anns a' bhrot, agus gheàrr i aran.\n\nShuidh an deichnear mun teine, agus fhuair gach duine truinnsear de bhrot teth. Thuirt an naoinear a thàinig à Glaschu nach do dh'ith iad a-riamh brot cho math.\n\n“Rinn sibh deagh bheart an-diugh,” thuirt Torcall ri Murdag.\n\n“Cha b' e beart mhòr a bh' ann,” thuirt Murdag. “Feumaidh a h-uile duine fasgadh agus biadh.”\n\nAn dèidh uair a thìde, bha an t-aodach aca tioram agus bha an t-uisge seachad. Thuirt Torcall ri a chompanaich gum feumadh iad falbh mus fàsadh e dorcha. Aig an doras, thug a h-uile duine taing do Mhurdag. Nuair a bha iad air falbh, thug i sùil anns a' phoit a-rithist. Cha robh ach aon truinnsear de bhrot air fhàgail, agus thug i sin don t-seann chompanach aice.\n\nCeistean:\nCàite a bheil an taigh aig Murdag?\nTha e anns na Hearadh, aig bonn leathaid chais.\nCia mheud duine a bha anns a' ghrùpa?\nBha naoinear anns a' ghrùpa, agus deichnear le Torcall.\nCarson a bha Torcall a' lorg fasgaidh?\nBha uisge ann agus bha a' ghaoth ag èirigh, agus cha robh fasgadh air an leathad.\nCiamar a rinn Murdag am brot gu leòr airson deichnear?\nChuir i tuilleadh uisge agus tuilleadh buntàta anns a' bhrot.\nDè a thuirt Torcall ri Murdag?\nThuirt e gun do rinn i deagh bheart."
+    },
+    {
+      "title": "Coirce na machrach",
+      "summary": "A crofter in South Uist keeps an old small oat growing on the machair, and a research institute finds out how special it is.",
+      "newWords": [
+        "machair",
+        "coirce",
+        "saothraich",
+        "gràn",
+        "nàdarrach",
+        "institiud",
+        "ginteil",
+        "sgèile"
+      ],
+      "text": "Air taobh siar Uibhist tha a' mhachair: talamh ìosal, còmhnard, làn gainmhich agus shligean, ri taobh na mara. As t-samhradh bidh a' mhachair làn fhlùraichean, agus thig daoine à iomadh dùthaich gus am faicinn. Ach chan ann airson nam flùraichean a-mhàin a tha a' mhachair luachmhor. Tha croitearan air a bhith a' saothrachadh na machrach fad ceudan bhliadhnaichean, agus 's e coirce am bàrr as cudromaiche a th' aca.\n\nChan e coirce àbhaisteach a th' ann, ach seann seòrsa beag. Tha e a' fàs gu math ann an gainmheach, far nach fhàsadh coirce eile. Tha an gràn aige beag agus dorcha, agus chan fhaigh thu mòran de ghràn bho aon phìos talmhainn.\n\nTha Ìomhar na chroitear ann an Uibhist a Deas. Shaothraich a sheanair agus athair an aon phìos talmhainn, agus tha e fhèin ga shaothrachadh a-nis. Anns a' gheamhradh, bidh e a' cur feamainn às a' chladach air an talamh, oir 's e todhar nàdarrach a th' innte. Chan eil e a' cleachdadh càil eile.\n\n“Tha feamainn nàdarrach, agus tha i an-asgaidh,” tha e ag ràdh.\n\nAn-uiridh thàinig Eilionoir, neach-rannsachaidh bho institiud ann an Obar Dheathain, a dh'fhaicinn a' bhàrr. Tha iad anns an institiud a' dèanamh sgrùdadh ginteil air seann seòrsachan coirce a bhios a' fàs air feadh na h-Alba. Bha Eilionoir ag iarraidh gràn à Uibhist, agus thug Ìomhar poca de ghràn dhi. Thug a bhean bonnach coirce le ìm dhi cuideachd, agus thuirt Eilionoir nach do dh'ith i a-riamh bonnach cho math.\n\nÀs dèidh beagan mhìosan, fhuair Ìomhar litir bhon institiud. A rèir an sgrùdaidh ghinteil, tha an coirce aige gu math eadar-dhealaichte bho choirce àbhaisteach, agus tha e air a bhith a' fàs ann an Uibhist fad ùine mhòr. Dh'fhaighnich Eilionoir am b' urrainn dha an coirce fhàs air sgèile nas motha.\n\nRinn Ìomhar gàire. Sgrìobh e air ais nach robh e airson obrachadh air sgèile nas motha, oir bha sgèile nas lugha a' freagairt air a' mhachair. Ach thuirt e gun toireadh e gràn do chroitear sam bith a bha airson an seann seòrsa a chumail beò.\n\nMar sin tha an coirce beag fhathast a' fàs air a' mhachair, mar a bha e ann an àm a sheanar, agus bidh bonnaich coirce air a' bhòrd aig Ìomhar gach madainn.\n\nCeistean:\nCàite a bheil a' mhachair?\nTha i air taobh siar Uibhist, ri taobh na mara.\nCarson a tha Ìomhar a' cur feamainn air an talamh?\nTha e ga cur air an talamh oir 's e todhar nàdarrach a th' innte.\nCò às a thàinig Eilionoir?\nThàinig i bho institiud ann an Obar Dheathain.\nDè a lorg an sgrùdadh ginteil?\nLorg e gu bheil an coirce gu math eadar-dhealaichte bho choirce àbhaisteach.\nCarson nach eil Ìomhar airson obrachadh air sgèile nas motha?\nTha sgèile nas lugha a' freagairt air a' mhachair."
+    },
+    {
+      "title": "Blas na deataiche",
+      "summary": "A man takes over his uncle's small fish smokehouse in Stornoway, and a chain of shops begins to sell his fish.",
+      "newWords": [
+        "deatach",
+        "sealbhaich",
+        "suath",
+        "saillte",
+        "darach",
+        "slabhraidh",
+        "bileag",
+        "soirbheachas"
+      ],
+      "text": "Tha Fearchar a' fuireach ann an Steòrnabhagh. Nuair a leig bràthair a mhàthar dheth a dhreuchd, shealbhaich Fearchar an gnìomhachas beag aige: seann taigh cloiche ri taobh a' chala, far am bi iasg a' crochadh anns an deatach os cionn teine. Cha do shealbhaich e mòran airgid, ach shealbhaich e eòlas agus deagh ainm.\n\nTha an obair sìmplidh, ach tha i slaodach. Anns a' mhadainn, bidh Fearchar a' suathadh salainn anns an iasg le a làmhan. Bidh e a' suathadh a' chraicinn agus na feòla gu math, agus fàgaidh e an t-iasg saillte air a' bhòrd fad beagan uairean a thìde. Às dèidh sin, bidh e a' crochadh an èisg os cionn teine de fhiodh daraich. Cha chleachd e ach darach, oir a thaobh blais, tha e ag ràdh gu bheil deatach an daraich a' toirt rud nach fhaigh thu bho fhiodh eile.\n\nAon latha, thàinig Mearag don taigh. Bha i ag obair do shlabhraidh de bhùithtean mòra ann an Glaschu. Dh'fheuch i sgadan saillte, agus an uair sin bradan a bha air a bhith anns an deatach fad latha.\n\n“Tha an t-iasg seo math dha-rìribh,” thuirt i. “Tha an t-slabhraidh ag iarraidh iasg mar seo ann an 12 bùth.”\n\nThuirt i gun ceannaicheadh an t-slabhraidh a h-uile iasg a dhèanadh e, nam biodh bileag air gach pacaid. Bu chòir don bhileig innse cò às a thàinig an t-iasg agus cò a rinn e.\n\nShuidh Fearchar aig a' bhòrd an oidhche sin agus rinn e bileag. Bha dealbh de chraobh daraich oirre, agus ainm an taighe, agus na faclan: “Iasg saillte le làimh, anns an deatach.” Chòrd a' bhileag ri Mearag.\n\nBha an soirbheachas luath. Anns a' chiad mhìos, reic an t-slabhraidh a h-uile pacaid, agus dh'iarr iad a dhà uimhir. Às dèidh bliadhna, bha dithis ag obair còmhla ri Fearchar.\n\nAch cha do dh'atharraich an soirbheachas an dòigh-obrach aige. Tha e fhathast a' suathadh an t-salainn le a làmhan fhèin, agus tha e fhathast a' cleachdadh darach a-mhàin. Nuair a dh'fhaighnich Mearag dheth dè an dìomhaireachd a bh' aige, rinn e gàire.\n\n“Chan eil ann an soirbheachas ach deagh iasg agus deagh dheatach,” thuirt e.\n\nCeistean:\nCò bhuaithe a shealbhaich Fearchar an gnìomhachas?\nShealbhaich e an gnìomhachas bho bhràthair a mhàthar.\nDè a bhios Fearchar a' dèanamh anns a' mhadainn?\nBidh e a' suathadh salainn anns an iasg le a làmhan.\nCarson nach cleachd e ach darach?\nTha e ag ràdh gu bheil deatach an daraich a' toirt blas nach fhaigh thu bho fhiodh eile.\nDè a dh'iarr an t-slabhraidh air Fearchar?\nDh'iarr iad gum biodh bileag air gach pacaid.\nDè a thuirt Fearchar mu shoirbheachas?\nThuirt e nach robh ann ach deagh iasg agus deagh dheatach."
+    },
+    {
+      "title": "An clàr-bìdh ùr",
+      "summary": "A café owner writes a Gaelic menu, and a translator helps her with the genitive and with words that depend on context.",
+      "newWords": [
+        "poball",
+        "caith",
+        "eadar-theangaiche",
+        "ginideach",
+        "tìm",
+        "iomchaidh",
+        "co-theacsa"
+      ],
+      "text": "Tha cafaidh beag aig Seasag ann an Inbhir Nis. Thòisich i air Gàidhlig ionnsachadh trì bliadhna air ais, agus am-bliadhna bha i airson clàr-bìdh ùr a dhèanamh anns a' Ghàidhlig, oir tha pàirt mhòr de phoball a' bhaile ga bruidhinn.\n\nChaith i gach feasgar fad seachdain a' sgrìobhadh a' chlàir-bìdh le faclair. Mus do chuir i air na bùird e, dh'iarr i air Seathan, eadar-theangaiche a tha a' fuireach faisg air a' chafaidh, sùil a thoirt air. Thàinig an t-eadar-theangaiche a-steach aon fheasgar sàmhach. Shuidh e aig bòrd ri taobh na h-uinneige agus leugh e a h-uile facal gu slaodach.\n\n“Tha seo math,” thuirt an t-eadar-theangaiche, “ach seo mearachd bheag. Sgrìobh sibh brot an iasg. Feumaidh sibh an tuiseal ginideach an seo: brot an èisg.”\n\n“Tha an tuiseal ginideach cho doirbh!” thuirt Seasag. “Chaith mi tòrr tìme air.”\n\n“Thig e le tìm,” thuirt e.\n\nAnns an ath loidhne, bha i air sùgh glasraich a sgrìobhadh.\n\n“Chan eil sùgh iomchaidh an seo,” thuirt e. “Tha sùgh math airson rud a dh'òlas sibh, ach 's e brot a th' agaibh an seo. Innsidh am faclair dè a tha facal a' ciallachadh, ach chan innis e dhuibh dè am facal as iomchaidh.”\n\nAn uair sin sheall Seasag dà loidhne dha. Anns a' chiad tè bha cèic le meas. Aig bonn na duilleige bha: Tha meas againn air ar luchd-ceannach.\n\n“A bheil an aon fhacal ceart anns an dà loidhne?” thuirt i.\n\n“Tha,” thuirt an t-eadar-theangaiche. “Tha dà chiall aig meas. Anns a' chiad loidhne, 's e ùbhlan no rudan mar sin a th' ann, agus anns an dàrna loidhne, 's e urram a th' ann. Tuigidh an leughadair a' chiall a rèir a' cho-theacsa. Gun cho-theacsa, chan eil fios dè a' chiall a th' ann.”\n\nChaith an dithis aca uair a thìde eile a' dol tron chlàr-bìdh. Nuair a bha e deiseil, cha do ghabh Seathan airgead sam bith. Thuirt e gum biodh e toilichte nam faigheadh e brot an èisg an-asgaidh a h-uile Dihaoine.\n\nAn t-seachdain às dèidh sin, bha an clàr-bìdh ùr air a h-uile bòrd. Bha am poball toilichte leis, agus thuirt seann bhoireannach às an Eilean Sgitheanach gun robh am facal iomchaidh anns gach àite. Chuir sin gàire air a h-aghaidh. Thig an còrr le tìm.\n\nCeistean:\nCarson a bha Seasag airson clàr-bìdh ùr a dhèanamh anns a' Ghàidhlig?\nTha pàirt mhòr de phoball a' bhaile a' bruidhinn na Gàidhlig.\nCò a thug sùil air a' chlàr-bìdh?\nThug Seathan, an t-eadar-theangaiche, sùil air.\nDè an tuiseal a dh'fheumas i an seo: brot an èisg?\nFeumaidh i an tuiseal ginideach.\nCarson nach robh sùgh iomchaidh?\nTha sùgh math airson rud a dh'òlas tu, ach 's e brot a bh' aice.\nCiamar a thuigeas an leughadair a' chiall aig meas?\nTuigidh e a' chiall a rèir a' cho-theacsa."
+    },
+    {
+      "title": "Cuirm-chiùil air an fhaiche",
+      "summary": "The smell of cooking herring draws the crowd at a summer concert on the green, and at the end the singer herself comes for some.",
+      "newWords": [
+        "faiche",
+        "cuirm-chiùil",
+        "bean-seinn",
+        "dannsair",
+        "tàlaidh",
+        "a-nall",
+        "ùmhlachd"
+      ],
+      "text": "Tha Ceanag a' fuireach ann am Malaig, agus tha faiche mhòr ann am meadhan a' bhaile. Gach bliadhna anns an Iuchar, bidh cuirm-chiùil air an fhaiche, agus bidh Ceanag a' reic bìdh aig bòrd fada ri taobh an rathaid.\n\nAm-bliadhna bha bean-seinn ainmeil à Barraigh a' tighinn, còmhla ri còignear dhannsairean à Inbhir Nis. Cheannaich Ceanag 200 sgadan agus poca mòr buntàta, oir bha i an dùil gum biodh an t-acras air a h-uile duine.\n\nMu 6 uairean feasgar, las i an teine agus thòisich i air na sgadain a bhruich. Cha robh a' chuirm-chiùil a' tòiseachadh gu 7 uairean, ach thàlaidh am fàileadh daoine bho gach taobh den fhaiche.\n\n“Thigibh a-nall!” dh'èigh Ceanag. “Tha gu leòr ann!”\n\nThàinig iad a-nall nan dithis agus nan triùir. Bha am fàileadh a' tàladh barrachd dhaoine a h-uile mionaid, agus cha b' fhada gus an robh ciudha fada aig a' bhòrd.\n\nAig 7 uairean, thòisich a' chuirm-chiùil. Sheinn a' bhean-seinn còig òrain, agus bha an fhaiche gu lèir sàmhach. Aig deireadh gach òrain, rinn i ùmhlachd bheag. Nuair a sguir i, bhuail a h-uile duine am basan, agus b' fheudar dhi ùmhlachd eile a dhèanamh.\n\nThàinig na dannsairean a-mach an uair sin. Cha robh an dannsair as òige ach 9 bliadhna a dh'aois, ach bha e a' dannsa cho math ris a' chòrr. Aig an deireadh, rinn an còignear ùmhlachd còmhla.\n\nMu 9 uairean, thàinig a' bhean-seinn a-nall gu bòrd a' bhìdh, agus an dannsair beag còmhla rithe.\n\n“Tha mi duilich,” thuirt a' bhean-seinn, “ach thàlaidh am fàileadh sin mi fad na cuirme-ciùil. An e sgadan a th' agaibh?”\n\n“'S e,” thuirt Ceanag. “Thigibh a-nall agus suidhibh.”\n\nThug i sgadan agus buntàta dhaibh, agus cha do ghabh i airgead bhuapa. Dh'ith a' bhean-seinn dà sgadan. An uair sin sheas i agus rinn i ùmhlachd do Cheanag, agus rinn a h-uile duine mun bhòrd gàire.\n\nCeistean:\nCàite am bi a' chuirm-chiùil gach bliadhna?\nBidh i air an fhaiche ann am meadhan Mhalaig.\nCò a bha a' tighinn am-bliadhna?\nBha bean-seinn à Barraigh a' tighinn, còmhla ri còignear dhannsairean.\nDè a thàlaidh daoine gu bòrd a' bhìdh?\nThàlaidh fàileadh nan sgadan iad.\nDè a rinn a' bhean-seinn aig deireadh gach òrain?\nRinn i ùmhlachd bheag.\nCarson a thàinig a' bhean-seinn a-nall gu bòrd a' bhìdh?\nThàlaidh am fàileadh i, agus bha i ag iarraidh sgadan."
+    },
+    {
+      "title": "Le aon ghàirdean",
+      "summary": "A tired new father is told by the nurse to eat properly, and his stepfather shows him how to cook with a baby on one arm.",
+      "newWords": [
+        "naoidhean",
+        "dùisg",
+        "banaltram",
+        "gàirdean",
+        "cion",
+        "leighis",
+        "oide",
+        "corrag"
+      ],
+      "text": "Tha Gilleasbaig a' fuireach ann an Glaschu, agus tha naoidhean aige fhèin agus aig a bhean. Tha an naoidhean ceithir mìosan a dh'aois. Tha a bhean air ais aig a h-obair a-nis, agus tha Gilleasbaig aig an taigh leis an naoidhean.\n\nTha an obair seo doirbh. Dhùisg an naoidhean aig 1 uair a-raoir, dhùisg e aig 3, agus dhùisg e a-rithist aig 5. Tron latha, cha robh ùine aig Gilleasbaig ach tì òl agus pìos arain ithe.\n\nAon mhadainn, thàinig a' bhanaltram, Sìneag, a choimhead air an naoidhean. Thog i e, chùm i air a gàirdean e, agus thomhais i e. Bha an naoidhean gu math. Cha robh Gilleasbaig cho math.\n\n“Tha cion cadail oirbh,” thuirt a' bhanaltram, “agus tha cion bìdh oirbh cuideachd. Dè a dh'ith sibh an-diugh?”\n\n“Tì,” thuirt Gilleasbaig. “Agus tòrr cofaidh.”\n\n“Cha leighis cofaidh sibh,” thuirt i. “Leighisidh biadh ceart agus beagan cadail sibh.”\n\nAir an fheasgar sin, dh'fhòn Gilleasbaig gu a oide, Tàmhas. 'S e Tàmhas fear-pòsta a mhàthar, agus thog e Gilleasbaig bho bha am balach 6 bliadhna a dh'aois. Bha an t-oide aige na chòcaire air bàtaichean iasgaich fad bhliadhnaichean.\n\nThàinig an t-oide an ath mhadainn le poca feòla agus glasraich. Ghabh e an naoidhean air a ghàirdean chlì, agus ghlac an naoidhean a chorrag. Bha corragan an naoidhein beaga, ach bha iad làidir.\n\n“Seall,” thuirt Tàmhas. “Faodaidh tu còcaireachd a dhèanamh le aon ghàirdean. Chan eil feum air an dàrna fear ach airson na sgeine.”\n\nDh'ionnsaich e do Ghilleasbaig mar a dhèanadh e lite agus brot, agus an naoidhean air a ghàirdean. Thuirt e ris gum bu chòir dha cadal nuair a bha an naoidhean a' cadal, agus gun dùisgeadh an naoidhean e co-dhiù.\n\nAn ceann seachdain, thàinig a' bhanaltram a-rithist. Bha Gilleasbaig ag ithe gu ceart, agus bha e a' faighinn beagan cadail.\n\n“Tha coltas nas fheàrr oirbh,” thuirt i. “Cò a leighis sibh?”\n\n“M' oide,” thuirt Gilleasbaig, le naoidhean air aon ghàirdean agus spàin anns an làimh eile. Bha an naoidhean a' cumail grèim air a chorrag.\n\nCeistean:\nCò a bhios a' coimhead air an naoidhean tron latha?\nBidh Gilleasbaig a' coimhead air an naoidhean.\nDè a thuirt a' bhanaltram ri Gilleasbaig?\nThuirt i gun robh cion cadail agus cion bìdh air.\nCò e Tàmhas?\n'S e oide Ghilleasbaig a th' ann, fear-pòsta a mhàthar.\nDè a rinn an naoidhean nuair a ghabh Tàmhas air a ghàirdean e?\nGhlac e a chorrag.\nDè a leighis Gilleasbaig?\nLeighis biadh ceart agus beagan cadail e."
+    },
+    {
+      "title": "Biadh a' chìobair",
+      "summary": "A shepherd on Mull tells about his day: his lunch by a stone pillar on the bare hill, an adder and a lamb stuck in the mud.",
+      "newWords": [
+        "cìobair",
+        "speur",
+        "lom",
+        "carragh",
+        "fois",
+        "nathair",
+        "poll"
+      ],
+      "text": "Is mise Diarmad, agus tha mi nam chìobair ann am Muile. Tha mo latha a' tòiseachadh tràth, nuair a tha na speuran fhathast dorcha. Bidh mi a' coimhead air na speuran gach madainn, oir bidh obair cìobair an urra ris an t-sìde.\n\nMus fàg mi an taigh, bidh mi a' dèanamh mo bhìdh airson an latha: dà cheapaire le feòil lom, ugh agus ubhal. Is toigh le mo bhean feòil lom cuideachd, agus bidh i ag ràdh gu bheil sin nas fheàrr dhomh.\n\nTha a' bheinn agam lom. Chan eil craobh no preas air an leathad, agus chan eil fasgadh bhon ghaoith, ach ann an aon àite: ri taobh seann charraigh cloiche. Tha a' charragh 3 meatairean a dh'àirde, agus tha i an sin bho chionn mìltean bhliadhnaichean. Aig meadhan-latha, bidh mi a' suidhe ri taobh na carraigh, a' gabhail fois agus ag ithe mo bhìdh. Sin an t-àm as fheàrr den latha.\n\nAn-dè bha na speuran soilleir, agus bha e teth. Nuair a ràinig mi a' charragh, chunnaic mi nathair air clach ri a taobh, a' gabhail na grèine. Chan eil eagal orm ro nathraichean, ach cha bhi mi a' cur dragh orra. Mar as trice, ma dh'fhàgas tu nathair leatha fhèin, fàgaidh i thusa leat fhèin. Ghabh mi m' fhois air an taobh eile den charragh, agus bha sinn le chèile toilichte.\n\nGoirid an dèidh sin, chuala mi caora òg ag èigheachd aig bonn an leathaid. Tha an talamh bog an sin, agus tha am poll domhainn. Bha i gu a glùinean anns a' pholl agus cha b' urrainn dhi gluasad. Chaidh mi a-steach don pholl agus thog mi a-mach i. Ruith i air falbh gu a màthair gun fhacal taing.\n\nNuair a ràinig mi an taigh, bha poll air m' aodach gu lèir. Rinn mo bhean gàire agus thug i brot teth dhomh. Dh'ith mi gu leòr, agus an uair sin thug mi sùil a-mach. Bha na speuran soilleir fhathast. Bidh latha math ann a-màireach, agus bidh fois agam a-rithist ri taobh na carraigh.\n\nCeistean:\nCarson a bhios Diarmad a' coimhead air na speuran gach madainn?\nBidh obair cìobair an urra ris an t-sìde.\nDè a bhios aige airson a bhìdh?\nBidh dà cheapaire le feòil lom, ugh agus ubhal aige.\nCàite a bheil fasgadh air a' bheinn lom?\nTha fasgadh ri taobh seann charraigh cloiche.\nDè a chunnaic e ri taobh na carraigh?\nChunnaic e nathair air clach, a' gabhail na grèine.\nCarson a chaidh e a-steach don pholl?\nBha caora òg anns a' pholl, agus cha b' urrainn dhi gluasad."
+    },
+    {
+      "title": "Am preas cugallach",
+      "summary": "A mother in a new flat fastens down a shaky cupboard, and a very small earthquake shows why that was a good idea.",
+      "newWords": [
+        "taigheadas",
+        "cugallach",
+        "plastaig",
+        "bann",
+        "bàla",
+        "crith-thalmhainn"
+      ],
+      "text": "Tha Rònag a' fuireach anns an Òban còmhla ri a mac, Iagan, a tha 7 bliadhna a dh'aois. Tha taigheadas daor anns a' bhaile, agus bha iad a' feitheamh fad dà bhliadhna. Mu dheireadh, thuirt comann taigheadais gum biodh flat aca dhaibh as t-fhoghar, agus sin mar a bha.\n\nTha am flat beag, ach tha e snog. Tha aon rud ann nach eil snog: seann phreas àrd anns a' chidsin. Tha am preas cugallach. Nuair a dhùineas tu an doras aige, gluaisidh e gu lèir. Chuir Rònag fòn gu oifis an taigheadais, agus thuirt iad rithe gun cuireadh iad fear thuice an ath mhìos.\n\nAn dèidh sin, thàinig a nàbaidh, Beitidh, a-steach le aran ùr. Thug i sùil air a' phreas.\n\n“Tha sin cugallach dha-rìribh,” thuirt Beitidh. “Dè a th' agad ann?”\n\n“Tha soithichean agus biadh ann am botail ghlainne,” thuirt Rònag.\n\n“Cuir am biadh ann am bogsaichean plastaig,” thuirt Beitidh. “Cha bhris plastaig ma thuiteas e. Agus tha bann agam a chumas am preas ris a' bhalla.”\n\nThug Beitidh bann tiugh leathair dhi, agus an oidhche sin cheangail Rònag am preas ris a' bhalla leis a' bhann. Chuir i am flùr, an siùcar agus an salann ann am bogsaichean plastaig.\n\nSeachdain an dèidh sin, bha Rònag ag ithe aig a' bhòrd. Bha Iagan air a bhiadh ithe, agus bha e air an làr le a bhàla. Gu h-obann, chrith an taigh. Thòisich an soitheach a' gluasad air a' bhòrd, agus ghluais am bàla tarsainn an làir leis fhèin.\n\n“Cò a ghluais am bàla?” thuirt Iagan.\n\nCha do mhair e ach beagan dhiogan. Ghluais am preas, ach chùm am bann e ris a' bhalla. Cha do thuit ach aon bhogsa plastaig, agus cha do bhris e.\n\nThuirt an rèidio gun robh crith-thalmhainn bheag air a bhith ann, agus nach do rinn a' chrith-thalmhainn cron air duine no air taigh. Bha Iagan gu math toilichte. Dh'innis e do gach duine anns an sgoil gun robh crith-thalmhainn air am bàla aige a ghluasad.\n\nAn ath mhìos, thàinig fear bhon chomann taigheadais agus chuir e preas ùr ann. Chan eil e cugallach. Ach tha am bann fhathast aig Rònag, air eagal 's gum bi feum air.\n\nCeistean:\nCarson a bha Rònag a' feitheamh fad dà bhliadhna?\nTha taigheadas daor anns a' bhaile.\nDè a bha ceàrr air a' phreas?\nBha e cugallach, agus ghluaiseadh e nuair a dhùineadh tu an doras aige.\nCarson a thuirt Beitidh gum bu chòir biadh a chur ann am bogsaichean plastaig?\nCha bhris plastaig ma thuiteas e.\nDè a chùm am preas ris a' bhalla?\nChùm am bann leathair e ris a' bhalla.\nDè a ghluais am bàla?\nGhluais crith-thalmhainn bheag e."
+    },
+    {
+      "title": "Uighean Lileas",
+      "summary": "A woman in Inverness sells eggs to a bakery across the canal, and when the price of petrol goes up she finds another way to get there.",
+      "newWords": [
+        "canàl",
+        "neadaich",
+        "geug",
+        "dusan",
+        "gnìomhachail",
+        "peatral",
+        "àrdaich"
+      ],
+      "text": "Tha Lileas a' fuireach faisg air a' chanàl ann an Inbhir Nis, ann an taigh le gàrradh mòr. Tha 30 cearc aice. Tha craobh mhòr aig bonn a' ghàrraidh, agus bidh na cearcan a' neadachadh fo na geugan ìosal aice. Rinn Lileas taigh beag dhaibh, ach is fheàrr leotha a bhith a' neadachadh fo na geugan. Mar sin, bidh i a' dol a-mach gach madainn agus a' coimhead fo gach geug.\n\nBidh i a' reic nan uighean air £3 an dusan. Gach Dimàirt, bidh i a' toirt 10 dusan ugh gu taigh-fuine a tha aig Bearnard, ann an sgìre ghnìomhachail air taobh eile a' chanàil. Chan eil an sgìre ghnìomhachail brèagha: tha togalaichean mòra liath agus làraidhean ann. Ach bidh fàileadh arain ùir a' tighinn às an taigh-fuine, agus tha a' chèic a nì Bearnard leis na h-uighean aice ainmeil anns a' bhaile.\n\nAm-bliadhna dh'àrdaich iad prìs a' pheatrail. Tha an rathad bhon taigh aice chun na sgìre gnìomhachail fada, oir feumaidh i a dhol timcheall air a' chanàl. Air sgàth sin, aig deireadh a' mhìosa, chunnaic Lileas gun robh i a' cosg barrachd air peatral na bha i a' faighinn airson nan uighean.\n\nChaidh i a bhruidhinn ri Bearnard.\n\n“Tha mi duilich,” thuirt i, “ach ma tha prìs a' pheatrail a' dol suas, feumaidh mi prìs an dusain àrdachadh.”\n\n“Ma dh'àrdaicheas tu a' phrìs,” thuirt Bearnard, “feumaidh mise prìs na cèice àrdachadh, agus cha toigh le daoine sin. A bheil dòigh eile ann?”\n\nSheall e a-mach air an uinneig. Bha rathad beag ri taobh a' chanàil, agus bha cuideigin a' dol seachad air rothair.\n\n“Chan eil an drochaid bheag ach 5 mionaidean air falbh air rothair,” thuirt e. “Chan fheum rothair peatral.”\n\nThòisich Lileas a' dol air rothair ri taobh a' chanàil gach Dimàirt, le bogsa làn uighean air cùl an rothair. Bha i a' dol gu slaodach, oir bha eagal oirre gum briseadh dusan no dhà. Ach cha do bhris ugh sam bith. A-nis, chan eil i a' ceannach ach beagan peatrail. Cha do dh'àrdaich i prìs nan uighean, agus tha an rothair math dhi fhèin cuideachd. Tha na cearcan fhathast a' neadachadh fo na geugan.\n\nCeistean:\nCàite am bi na cearcan a' neadachadh?\nBidh iad a' neadachadh fo gheugan ìosal na craoibhe mòire.\nDè a' phrìs a th' air dusan ugh?\nTha £3 air dusan ugh.\nCàite a bheil an taigh-fuine aig Bearnard?\nTha e ann an sgìre ghnìomhachail air taobh eile a' chanàil.\nCarson a bha Lileas airson prìs an dusain àrdachadh?\nBha prìs a' pheatrail air a dhol suas.\nCiamar a tha i a' dol chun na sgìre gnìomhachail a-nis?\nTha i a' dol air rothair ri taobh a' chanàil."
+    },
+    {
+      "title": "An t-oifigeach air an eilean",
+      "summary": "A woman running a small island café gets her supplies over a satellite link and passes a visit from the health official.",
+      "newWords": [
+        "innis-mhuir",
+        "uallach",
+        "lìonra",
+        "saideal",
+        "còd",
+        "oifigeach",
+        "cuileag"
+      ],
+      "text": "'S e innis-mhuir a th' anns na h-Eileanan Siar: sreath fhada de dh'eileanan beaga agus mòra. Air eilean beag anns an innis-mhuir seo, tha cafaidh aig Beatrais. Tha i ga ruith leatha fhèin, agus tha uallach mòr oirre. 'S ann oirre a tha an t-uallach airson a' bhìdh, an airgid agus a h-uile rud eile.\n\nTha biadh a' tighinn air an aiseag, agus feumaidh i òrdugh a chur a-steach gach Diluain. Chan eil an lìonra fòn math air an eilean. Air sgàth na gaoithe, chan eil lìonra ann idir air cuid de làithean. Mar sin, an-uiridh chuir i inneal air mullach an taighe a tha a' bruidhinn ri saideal àrd os cionn na talmhainn. A-nis, tha an t-eadar-lìon aice a' tighinn bhon t-saideal, agus chan eil gaoth a' cur dragh air. Nuair a tha i airson biadh òrdachadh, feumaidh i còd a chur a-steach. Tha an còd sgrìobhte air pìos pàipeir anns a' phreas.\n\nAon latha, thàinig litir bhon chomhairle. Thuirt i gun tigeadh oifigeach slàinte don chafaidh air an ath aiseag. Ghlan Beatrais an cidsin gu lèir. Chuir i lìon air an uinneig, oir bidh cuileagan gu leòr ann as t-samhradh, agus tha cuileag anns a' bhiadh na rud nach toigh le oifigeach sam bith.\n\nThàinig an t-oifigeach, Dùghlas, far an aiseig aig 11 uairean. Dh'fhosgail e a h-uile preas agus thomhais e cho fuar 's a bha an t-àite far an robh an t-ìm agus am bainne.\n\n“Càite a bheil na h-òrdughan agaibh airson na bliadhna?” thuirt e.\n\nChaidh Beatrais chun a' choimpiutair. Chuir i a-steach an còd, agus thàinig a h-uile òrdugh air an sgrìn.\n\n“Tha an lìonra agaibh nas fheàrr na an lìonra anns an oifis agam,” thuirt an t-oifigeach.\n\n“Tapadh leis an t-saideal,” thuirt Beatrais.\n\nAn uair sin chunnaic e cuileag air a' bhòrd.\n\n“Seo an aon chuileag a chunnaic mi an-diugh,” thuirt e. “Tha mi a' smaoineachadh gun tàinig i còmhla rium air an aiseag.”\n\nSgrìobh e gun robh a h-uile rud ann an òrdugh. Bha uallach Beatrais tòrr na b' aotruime an uair sin. Shuidh an t-oifigeach sìos, agus dh'òrdaich e brot.\n\nCeistean:\nDè a th' anns na h-Eileanan Siar?\n'S e innis-mhuir a th' annta.\nCarson a chuir Beatrais inneal air mullach an taighe?\nChan eil an lìonra fòn math air an eilean, agus tha an t-eadar-lìon a' tighinn bhon t-saideal.\nDè a dh'fheumas i a chur a-steach nuair a tha i ag òrdachadh bìdh?\nFeumaidh i còd a chur a-steach.\nCò a thàinig air an aiseag?\nThàinig Dùghlas, oifigeach slàinte bhon chomhairle.\nDè a chunnaic an t-oifigeach air a' bhòrd?\nChunnaic e cuileag air a' bhòrd."
+    }
+  ]
+}
