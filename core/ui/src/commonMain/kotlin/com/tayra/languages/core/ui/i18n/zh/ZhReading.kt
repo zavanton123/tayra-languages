@@ -222,7 +222,6 @@ internal val zhReading: Map<String, String> = mapOf(
     "Listen to the sentence" to "听这个句子",
     "Which word means “{0}”?" to "哪个词的意思是“{0}”？",
     "A new sentence: type the missing word" to "新句子：输入缺少的词",
-    "Which word is a form of “{0}” (“{1}”)?" to "哪个词是“{0}”（“{1}”）的一种形式？",
     "{0}, a form of {1}" to "{0}，{1} 的一种形式",
     "Almost: mind the spelling" to "差一点：注意拼写",
     "Match each word with its meaning" to "把每个单词和它的意思配对",

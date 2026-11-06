@@ -194,7 +194,7 @@ The sentence whole with the word marked; options are four translations: the word
 The sentence is read aloud and its text blurred; the question shows the word's meaning: "Which word means *I forgot*?".
 
 - ORIGINAL context: the meaning is the term's translation.
-- EXAMPLE context where `form` differs from the saved form: the question reads "Which word is a form of *esqueci* (*I forgot*)?" and the answer is `form`. No translation of the other form is made up.
+- EXAMPLE context where `form` differs from the saved form: the question is the same, with the saved word's meaning, and the answer is `form`. The saved word is not shown, and no translation of the other form is made up.
 - Replay button; the blur lifts once answered.
 
 ### 5.4 TRANSLATION

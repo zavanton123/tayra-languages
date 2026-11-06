@@ -62,6 +62,8 @@ import com.tayra.languages.core.domain.practice.WordForms
 import com.tayra.languages.core.domain.frequency.FrequencyLists
 import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.domain.practice.PracticeExampleStore
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.ui.test.assertTextEquals
 import com.tayra.languages.core.data.repository.PracticeExampleRepositoryImpl
 import com.tayra.languages.core.data.repository.PracticeProgressRepositoryImpl
 import com.tayra.languages.core.domain.practice.PracticeSource
@@ -78,6 +80,7 @@ import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.feature.reading.practice.PracticeActions
 import com.tayra.languages.feature.reading.practice.PracticeContent
 import com.tayra.languages.feature.reading.practice.PracticeResult
+import com.tayra.languages.feature.reading.practice.PracticeUiState
 import com.tayra.languages.feature.reading.practice.PracticeViewModel
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.CompletableDeferred
@@ -329,6 +332,30 @@ class PracticeScreenTest {
         onNodeWithTag("practice-option-${exercise.options.indexOf(exercise.answer)}").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("practice-sentence").assertExists()
+    }
+
+    /** A heard sentence using another form of the word asks by the meaning alone: the word practised is not given away until answered. */
+    @Test
+    fun aHeardSentenceWithAnotherFormDoesNotShowTheWordPractised() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val exercise = Exercise(
+            ExerciseType.HEAR_SENTENCE, PracticeResponse.CHOOSE, PracticeContext.EXAMPLE, word = "ameaçou", wordTranslation = "грозить, угрожать",
+            sentence = "Ele ameaçou a cidade.", range = 4..10, options = listOf("me", "Ela", "matar", "ameaçou"), answer = "ameaçou", spoken = "Ele ameaçou a cidade.", practised = "ameaçava",
+        )
+        var state by mutableStateOf(PracticeUiState(loading = false, exercises = listOf(exercise)))
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    PracticeContent(state, PracticeActions())
+                }
+            }
+        }
+        waitForIdle()
+        onNodeWithTag("practice-asked").assertTextEquals("Which word means “грозить, угрожать”?")
+        assertEquals(0, onAllNodesWithText("ameaçava", substring = true).fetchSemanticsNodes().size, "the word practised is not shown")
+        shot("hear-sentence-other-form")
+        state = state.copy(chosen = "ameaçou", result = PracticeResult.CORRECT)
+        waitForIdle()
+        onNodeWithText("ameaçou, a form of ameaçava — грозить, угрожать").assertExists()
     }
 
     /** A missing word's choices include other forms of it, which the practice looks up for the words it asks. */

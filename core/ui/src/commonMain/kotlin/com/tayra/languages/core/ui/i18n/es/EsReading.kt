@@ -222,7 +222,6 @@ internal val esReading: Map<String, String> = mapOf(
     "Listen to the sentence" to "Escucha la oración",
     "Which word means “{0}”?" to "¿Qué palabra significa «{0}»?",
     "A new sentence: type the missing word" to "Una oración nueva: escribe la palabra que falta",
-    "Which word is a form of “{0}” (“{1}”)?" to "¿Qué palabra es una forma de «{0}» («{1}»)?",
     "{0}, a form of {1}" to "{0}, una forma de {1}",
     "Almost: mind the spelling" to "Casi: cuidado con la ortografía",
     "Match each word with its meaning" to "Une cada palabra con su significado",

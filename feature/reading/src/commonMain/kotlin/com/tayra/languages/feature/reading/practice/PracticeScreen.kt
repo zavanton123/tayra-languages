@@ -429,9 +429,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         // The sentence heard is hidden; what is asked is the word with this meaning.
         if (exercise.type == ExerciseType.HEAR_SENTENCE) {
             Text(
-                // A sentence from elsewhere may use another form: the question names the word practised.
-                if (exercise.otherForm) tr("Which word is a form of “{0}” (“{1}”)?", exercise.practised, exercise.wordTranslation.orEmpty())
-                else tr("Which word means “{0}”?", exercise.wordTranslation.orEmpty()),
+                tr("Which word means “{0}”?", exercise.wordTranslation.orEmpty()),
                 style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center),
                 modifier = Modifier.testTag("practice-asked"),
             )

@@ -222,7 +222,6 @@ internal val deReading: Map<String, String> = mapOf(
     "Listen to the sentence" to "Hör dir den Satz an",
     "Which word means “{0}”?" to "Welches Wort bedeutet „{0}“?",
     "A new sentence: type the missing word" to "Ein neuer Satz: tippe das fehlende Wort",
-    "Which word is a form of “{0}” (“{1}”)?" to "Welches Wort ist eine Form von „{0}“ („{1}“)?",
     "{0}, a form of {1}" to "{0}, eine Form von {1}",
     "Almost: mind the spelling" to "Fast: achte auf die Schreibung",
     "Match each word with its meaning" to "Ordne jedem Wort seine Bedeutung zu",
