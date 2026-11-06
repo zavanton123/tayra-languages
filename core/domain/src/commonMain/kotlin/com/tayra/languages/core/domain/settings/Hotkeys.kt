@@ -132,6 +132,7 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     FLASHCARDS_MODE_SHOW(HotkeyCategory.FLASHCARDS, "Answer by showing", Hotkey("1", ctrl = true)),
     FLASHCARDS_MODE_TYPE(HotkeyCategory.FLASHCARDS, "Answer by typing", Hotkey("2", ctrl = true)),
     FLASHCARDS_MODE_SPEAK(HotkeyCategory.FLASHCARDS, "Answer by speaking", Hotkey("3", ctrl = true)),
+    FLASHCARDS_TRY_AGAIN(HotkeyCategory.FLASHCARDS, "Try a card typed or said wrongly again", Hotkey("T")),
     FLASHCARDS_LISTEN(HotkeyCategory.FLASHCARDS, "Listen to the card's sentence", Hotkey("R")),
     FLASHCARDS_EDIT(HotkeyCategory.FLASHCARDS, "Edit the flashcard", Hotkey("E")),
     FLASHCARDS_SUSPEND(HotkeyCategory.FLASHCARDS, "Suspend the card", Hotkey("S")),

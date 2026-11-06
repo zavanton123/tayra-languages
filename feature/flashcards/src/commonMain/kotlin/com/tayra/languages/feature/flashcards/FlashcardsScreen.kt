@@ -208,6 +208,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onListen = { microphone { allowed -> if (allowed) viewModel.listen() else viewModel.refuseSpeaking() } },
                 onStopListening = viewModel::stopListening,
                 onTypeInstead = viewModel::typeInstead,
+                onTryAgain = viewModel::tryAgain,
                 onStudyMore = { studyingMore = true },
                 onEndPass = viewModel::endPass,
             ),
@@ -271,6 +272,8 @@ internal class FlashcardActions(
     val onStopListening: () -> Unit = {},
     /** Types the card's word instead of saying it. */
     val onTypeInstead: () -> Unit = {},
+    /** Asks a card typed or said wrongly again. */
+    val onTryAgain: () -> Unit = {},
     /** Offers cards past the day's limits. */
     val onStudyMore: () -> Unit = {},
     /** Leaves an extra pass for the day's own cards. */
@@ -346,6 +349,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         // Space starts and stops listening while the sentence is to be said; Enter still shows the answer.
                         state.speaking && isKey(HotkeyAction.FLASHCARDS_SHOW_ANSWER) -> if (state.listening) actions.onStopListening() else actions.onListen()
                         isKey(HotkeyAction.FLASHCARDS_SHOW_ANSWER, HotkeyAction.FLASHCARDS_SHOW_ANSWER_ENTER) -> if (state.revealed) actions.onAnswer(state.suggested ?: Rating.GOOD) else actions.onReveal()
+                        isKey(HotkeyAction.FLASHCARDS_TRY_AGAIN) && state.canTryAgain -> actions.onTryAgain()
                         !state.revealed -> return@onPreviewKeyEvent false
                         isKey(HotkeyAction.FLASHCARDS_AGAIN) -> actions.onAnswer(Rating.AGAIN)
                         // With two buttons the hidden answers have no keys either, so none is given by accident.
@@ -884,6 +888,7 @@ private fun AnswerGiven(state: FlashcardsUiState, actions: FlashcardActions, com
         }
         state.revealed && state.typedResult != null -> TypedVerdict(hidden, state.typed, state.typedResult, compact)
     }
+    if (state.canTryAgain) QuietButton(tr("Try again"), onClick = actions.onTryAgain, modifier = NoFocus.padding(top = AppSpacing.s).testTag("flashcard-try-again"))
 }
 
 /** How the word typed compared: right, right but for an accent or a slip, or wrong; short of right, what was typed against the word. */

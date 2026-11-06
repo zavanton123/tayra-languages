@@ -147,6 +147,9 @@ data class FlashcardsUiState(
 
     /** The hidden word is being typed: the keys are the field's. */
     val typing: Boolean get() = cardMode == AnswerMode.TYPE && !revealed && card != null && !preparingAudio
+
+    /** What was typed or said was wrong, and the card can be tried once more before it is answered. */
+    val canTryAgain: Boolean get() = revealed && (typedResult == TypedResult.WRONG || spokenResult == TypedResult.WRONG)
 }
 
 /** A card that just became a leech: its word, the times it was forgotten, and whether it was suspended for it. */
@@ -654,6 +657,14 @@ class FlashcardsViewModel(
             _state.update { it.copy(typedResult = result, suggested = suggestion(result, it.twoButtons)) }
         }
         reveal()
+    }
+
+    /** Puts a card typed or said wrongly back to its question; it was not answered yet, so nothing is taken back. */
+    fun tryAgain() {
+        if (!_state.value.canTryAgain) return
+        events.trySend(FlashcardsEvent.StopSpeaking)
+        _state.update { it.copy(revealed = false, typed = "", typedResult = null, heard = "", spokenResult = null, suggested = null, retry = null) }
+        scheduleAuto()
     }
 
     /**

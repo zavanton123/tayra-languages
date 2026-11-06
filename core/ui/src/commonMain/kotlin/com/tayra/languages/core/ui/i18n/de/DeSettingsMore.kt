@@ -373,6 +373,7 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Mit Schwer antworten",
     "Answer Good" to "Mit Gut antworten",
     "Answer Easy" to "Mit Leicht antworten",
+    "Try a card typed or said wrongly again" to "Falsch getippte oder gesprochene Karte wiederholen",
     "Answer by showing" to "Antworten durch Anzeigen",
     "Answer by typing" to "Antworten durch Tippen",
     "Answer by speaking" to "Antworten durch Sprechen",

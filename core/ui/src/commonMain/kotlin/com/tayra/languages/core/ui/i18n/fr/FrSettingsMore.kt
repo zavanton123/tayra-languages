@@ -373,6 +373,7 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Répondre Difficile",
     "Answer Good" to "Répondre Correct",
     "Answer Easy" to "Répondre Facile",
+    "Try a card typed or said wrongly again" to "Réessayer une carte mal saisie ou mal prononcée",
     "Answer by showing" to "Répondre en affichant",
     "Answer by typing" to "Répondre en saisissant",
     "Answer by speaking" to "Répondre en parlant",

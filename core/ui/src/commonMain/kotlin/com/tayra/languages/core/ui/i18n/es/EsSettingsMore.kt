@@ -373,6 +373,7 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Responder Difícil",
     "Answer Good" to "Responder Bien",
     "Answer Easy" to "Responder Fácil",
+    "Try a card typed or said wrongly again" to "Reintentar una tarjeta escrita o dicha mal",
     "Answer by showing" to "Responder mostrando",
     "Answer by typing" to "Responder escribiendo",
     "Answer by speaking" to "Responder hablando",

@@ -11,6 +11,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import com.tayra.languages.core.domain.practice.Heard
+import com.tayra.languages.core.domain.practice.TypedResult
 import com.tayra.languages.core.domain.practice.SpeechRecognition
 import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.performTextInput
@@ -155,7 +156,7 @@ class FlashcardsScreenTest {
                                 FlashcardsContent(
                                     state,
                                     speaker = if (withSpeaker) rememberSpeaker(LocalSpeech(emptyList()), settings) else null,
-                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onSkip = viewModel::skipCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, onTypeInstead = viewModel::typeInstead, onStudyMore = { studyingMore = true }, onEndPass = viewModel::endPass),
+                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onSkip = viewModel::skipCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, onTypeInstead = viewModel::typeInstead, onTryAgain = viewModel::tryAgain, onStudyMore = { studyingMore = true }, onEndPass = viewModel::endPass),
                                     hotkeys = hotkeys,
                                 )
                             }
@@ -265,6 +266,41 @@ class FlashcardsScreenTest {
         onNodeWithTag("flashcards-keys").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.One) } }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isEmpty() }
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardAnswerMode == AnswerMode.SHOW }
+    }
+
+    @Test
+    fun aWordTypedWronglyCanBeTriedAgainWithNothingSaved() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(answerMode = AnswerMode.TYPE)
+        typeAndCheck("vender")
+        onNodeWithText("Not quite").assertExists()
+        save("FLASHCARD_TRY_AGAIN_SCREENSHOT")
+        onNodeWithTag("flashcard-try-again").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-verdict").fetchSemanticsNodes().isEmpty() }
+        assertEquals(emptyList(), runBlocking { service.reviews(termId) }, "nothing is saved by a try")
+        // Back on the question, its word hidden again.
+        onNodeWithTag("flashcard-answer").assertDoesNotExist()
+        typeAndCheck("comprar")
+        onNodeWithText("Correct").assertExists()
+        onNodeWithTag("flashcard-try-again").assertDoesNotExist()
+        onNodeWithTag("answer-Good").assertIsSelected()
+        onNodeWithTag("answer-Good").performClick()
+        waitUntil(timeoutMillis = 5_000) { runBlocking { service.reviews(termId) }.isNotEmpty() }
+        assertEquals(listOf(Rating.GOOD), runBlocking { service.reviews(termId) }.map { it.rating })
+    }
+
+    @Test
+    fun aSentenceSaidWronglyCanBeTriedAgainByItsKey() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(answerMode = AnswerMode.SPEAK, speech = FakeSpeech(true, Heard.Words("nada disso"), Heard.Words("Quando precisamos comprar alguma coisa")))
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("flashcard-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-try-again").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("flashcards-keys").performKeyInput { pressKey(Key.T) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals("", viewModel.state.value.heard)
+        assertEquals(emptyList(), runBlocking { service.reviews(termId) })
+        onNodeWithTag("flashcard-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.spokenResult == TypedResult.CORRECT }
+        onNodeWithTag("flashcard-try-again").assertDoesNotExist()
     }
 
     @Test

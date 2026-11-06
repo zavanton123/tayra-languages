@@ -373,6 +373,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "回答“困难”",
     "Answer Good" to "回答“良好”",
     "Answer Easy" to "回答“简单”",
+    "Try a card typed or said wrongly again" to "重试输入或说错的卡片",
     "Answer by showing" to "以显示方式作答",
     "Answer by typing" to "以输入方式作答",
     "Answer by speaking" to "以说话方式作答",

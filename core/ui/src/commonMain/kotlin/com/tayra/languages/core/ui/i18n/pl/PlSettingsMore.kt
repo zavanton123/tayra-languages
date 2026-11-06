@@ -373,6 +373,7 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Odpowiedz Trudne",
     "Answer Good" to "Odpowiedz Dobre",
     "Answer Easy" to "Odpowiedz Łatwe",
+    "Try a card typed or said wrongly again" to "Spróbuj ponownie fiszkę wpisaną lub wypowiedzianą błędnie",
     "Answer by showing" to "Odpowiadaj przez pokazanie",
     "Answer by typing" to "Odpowiadaj przez wpisywanie",
     "Answer by speaking" to "Odpowiadaj przez mówienie",

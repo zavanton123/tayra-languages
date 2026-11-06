@@ -373,6 +373,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Απάντηση Δύσκολο",
     "Answer Good" to "Απάντηση Καλό",
     "Answer Easy" to "Απάντηση Εύκολο",
+    "Try a card typed or said wrongly again" to "Νέα προσπάθεια σε κάρτα με λάθος απάντηση",
     "Answer by showing" to "Απάντηση με εμφάνιση",
     "Answer by typing" to "Απάντηση με πληκτρολόγηση",
     "Answer by speaking" to "Απάντηση με ομιλία",

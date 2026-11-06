@@ -373,6 +373,7 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Responder Difícil",
     "Answer Good" to "Responder Bom",
     "Answer Easy" to "Responder Fácil",
+    "Try a card typed or said wrongly again" to "Tentar de novo um flashcard digitado ou falado errado",
     "Answer by showing" to "Responder mostrando",
     "Answer by typing" to "Responder digitando",
     "Answer by speaking" to "Responder falando",

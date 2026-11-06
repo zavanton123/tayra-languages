@@ -373,6 +373,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Answer Hard" to "Ответить «Трудно»",
     "Answer Good" to "Ответить «Хорошо»",
     "Answer Easy" to "Ответить «Легко»",
+    "Try a card typed or said wrongly again" to "Повторить карточку после неверного ввода или произношения",
     "Answer by showing" to "Отвечать показом",
     "Answer by typing" to "Отвечать вводом",
     "Answer by speaking" to "Отвечать голосом",
