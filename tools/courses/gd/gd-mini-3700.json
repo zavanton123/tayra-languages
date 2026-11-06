@@ -1,0 +1,205 @@
+{
+  "id": "gd-mini-3700",
+  "rankUpTo": 3700,
+  "level": "B2",
+  "title": "Leabhraichean agus cànan",
+  "description": "Ten short stories about books and language: a corner bookshop, a grandmother's column, a quarrel over lenition, a family tree, a mended old book, a children's book, a school cookbook, a poet on the shore, a climber's guide and a boy who learns to read.",
+  "topic": "Books and language",
+  "names": [
+    "Frang",
+    "Fhrang",
+    "Dolaidh",
+    "Inbhir Nis",
+    "Leòdhas",
+    "Tiriodh",
+    "Disathairne",
+    "Alba",
+    "Clàra",
+    "Alan",
+    "An t-Òban",
+    "Òban",
+    "Beitsidh",
+    "Anndrais",
+    "Hana",
+    "Glaschu",
+    "Diardaoin",
+    "Gàidhlig",
+    "Ghàidhlig",
+    "Ealair",
+    "Gillìosa",
+    "Ghillìosa",
+    "Dòmhnaid",
+    "Uibhist",
+    "Ceap Breatainn",
+    "Canada",
+    "Lùise",
+    "Fionnbharr",
+    "Dùn Èideann",
+    "Muile",
+    "Dimàirt",
+    "Màrtan",
+    "Mhàrtan",
+    "Ema",
+    "Catrìn",
+    "Port Rìgh",
+    "Diciadain",
+    "Steòrnabhagh",
+    "Nina",
+    "Dàibhean",
+    "Barraigh",
+    "Ròsag",
+    "Fillean",
+    "Fhillean",
+    "Lùnastal",
+    "Mìna",
+    "Lochlann",
+    "Liùsag"
+  ],
+  "lessons": [
+    {
+      "title": "A' bhùth air an oisinn",
+      "summary": "A busy Saturday in a corner bookshop: the shopkeeper climbs his wheeled ladder to find a birthday gift for a customer's mother.",
+      "newWords": [
+        "neach-bùtha",
+        "oisinn",
+        "sgeilp",
+        "roithlean",
+        "ciutha",
+        "dùmhail",
+        "gibht",
+        "uill"
+      ],
+      "text": "Tha bùth leabhraichean bheag air oisinn sràide ann an Inbhir Nis, agus 's e Frang an neach-bùtha. Tha e air a bhith ag obair innte fad 20 bliadhna. Chan eil a' bhùth farsaing, ach tha i làn gu mullach: tha sgeilp os cionn sgeilpe air gach balla, agus tha fàileadh pàipeir agus seann fhiodha anns gach oisinn.\n\nGus na sgeilpichean àrda a ruighinn, tha fàradh fiodha aig Frang. Tha roithlean fo gach cas den fhàradh, agus nuair a bhios am fàradh a' gluasad air an làr, bidh gach roithlean a' dèanamh fuaim beag coltach ri guth eòin. Bidh a' chlann a' tighinn a-steach dìreach gus èisteachd ris an roithlean.\n\nDisathairne seo chaidh, thàinig sgrìobhadair ainmeil à Leòdhas dhan bhùth gus a h-ainm a chur air an leabhar ùr aice. Aig 9 uairean sa mhadainn bha ciutha a-muigh mu thràth, bho dhoras na bùtha gu ruige an ath oisinn. Ro mheadhan-latha bha a' bhùth cho dùmhail 's nach b' urrainn do Fhrang am fàradh a ghluasad. Bha an t-sràid fhèin dùmhail, agus bha an ciutha a' fàs fad na h-ùine.\n\nAnns a' chiutha bha boireannach air an robh Dolaidh. Cha robh ùidh aice anns an sgrìobhadair idir. Nuair a ràinig i an cunntair, thuirt i gun robh gibht a dhìth oirre, oir bha a màthair gu bhith 80 bliadhna a dh'aois.\n\n“Uill,” thuirt Frang, “dè as toigh le do mhàthair?”\n\n“Uill, is toigh leatha bàrdachd,” thuirt Dolaidh, “agus is toigh leatha eilean a h-òige, Tiriodh.”\n\nRinn Frang gàire. Thug e sùil air an t-sluagh, agus an uair sin air an sgeilp as àirde. Ghluais e am fàradh gu slaodach tron t-sluagh, agus sheinn an roithlean. Chaidh e suas, agus thàinig e a-nuas le leabhar beag le còmhdach gorm: dàin à Tiriodh, a chaidh a chlò-bhualadh o chionn fhada.\n\n“Uill, seo a' ghibht agad,” thuirt e. “Chan fhaigh thu i ann am bùth mhòr sam bith.”\n\nDh'fhosgail Dolaidh an leabhar, agus bha dealbh ann de thràigh air an robh i eòlach. Phàigh i, agus dh'fhalbh i seachad air a' chiutha le gàire mòr.\n\nFeasgar, nuair a bha a' bhùth falamh, rinn Frang tì. Shuidh e anns an oisinn aige fhèin, agus chunnaic e beàrn bheag air an sgeilp as àirde. Bu toigh leis a' bheàrn sin.\n\nCeistean:\nCò an neach-bùtha anns an sgeulachd?\n'S e Frang an neach-bùtha.\nCarson a bhios a' chlann a' tighinn a-steach dhan bhùth?\nBidh iad a' tighinn a-steach gus èisteachd ris an roithlean.\nCarson a bha ciutha a-muigh Disathairne?\nBha ciutha ann oir bha sgrìobhadair ainmeil anns a' bhùth.\nDè bha a dhìth air Dolaidh?\nBha gibht a dhìth oirre airson a màthar.\nCàite an robh an leabhar beag gorm?\nBha e air an sgeilp as àirde."
+    },
+    {
+      "title": "Giullachd fhaclan",
+      "summary": "A grandmother who has written a newspaper column by hand for forty years learns word processing, and her grandson builds a database of her old articles.",
+      "newWords": [
+        "giullachd",
+        "ullamh",
+        "geàrr-chunntas",
+        "artaigeal",
+        "bunachar",
+        "fiosrachail",
+        "eadar-àm",
+        "dìcheallach"
+      ],
+      "text": "Tha Clàra 74 bliadhna a dh'aois, agus tha i a' fuireach anns an Òban. Fad 40 bliadhna sgrìobh i artaigeal beag a h-uile seachdain airson pàipear-naidheachd an àite. Bhiodh i ga sgrìobhadh le peann aig bòrd a' chidsin, agus bhiodh i ga thoirt gu oifis a' phàipeir air a casan.\n\nAs t-earrach, thàinig litir bhon phàipear: bho seo a-mach, feumaidh gach artaigeal a thighinn tron choimpiutair. Bha dragh mòr air Clàra.\n\n“Chan eil fhios agam càil mu ghiullachd fhaclan,” thuirt i ri a h-ogha, Alan.\n\n“Chan eil giullachd fhaclan doirbh,” thuirt Alan. “Tha thu dìcheallach, agus cha toir e ach seachdain.”\n\nAgus bha i dìcheallach. Gach madainn, shuidheadh i aig a' choimpiutair fad uair a thìde. Anns an eadar-àm, nuair a bhiodh a sùilean sgìth, dh'òladh i cupa tì agus choimheadadh i a-mach air a' mhuir. Dh'ionnsaich i mar a chuireadh i stràc air litir, agus mar a ghluaiseadh i seantans bho àite gu àite. Aig deireadh na seachdain bha a' chiad artaigeal ullamh, latha ro àm.\n\nAch dh'iarr am pàipear rud eile: geàrr-chunntas de dhà sheantans airson na làraich-lìn. Bha sin na bu dorra na an obair air fad.\n\n“B' fheàrr leam artaigeal fada a sgrìobhadh na geàrr-chunntas goirid,” thuirt Clàra. Ach chùm i oirre gus an robh an geàrr-chunntas ullamh cuideachd.\n\nAnns an eadar-àm, bha Alan ag obair air rud eile. Bha bogsaichean fo leabaidh a sheanmhar, làn de sheann artaigealan. Thog e dealbh de gach fear, agus chuir e iad ann am bunachar. Anns a' bhunachar tha ceann-latha gach artaigeil, an cuspair aige agus geàrr-chunntas beag. Ma tha thu a' lorg rudeigin, bheir am bunachar dhut an t-artaigeal ceart ann am mionaid.\n\nShuidh Clàra ri a thaobh fad an fheasgair. Lorg i artaigeal mu bhàtaichean an iasgaich, agus fear eile mu dhèanamh ìme.\n\n“Uill,” thuirt i, “tha iad fiosrachail, nach eil?”\n\n“Tha iad glè fhiosrachail,” thuirt Alan. “Tha eachdraidh a' bhaile agad an seo.”\n\nAn-diugh tha am bunachar anns an leabharlann, agus bidh sgoilearan ga chleachdadh. Tha Clàra fhathast a' sgrìobhadh. Bidh a' chiad dreach aice fhathast air pàipear, ach tha a' ghiullachd fhaclan a' còrdadh rithe a-nis.\n\nCeistean:\nDè a bhiodh Clàra a' sgrìobhadh a h-uile seachdain?\nBhiodh i a' sgrìobhadh artaigeil airson a' phàipeir.\nCarson a bha dragh oirre?\nBha dragh oirre oir cha robh fios aice air giullachd fhaclan.\nDè a bha na bu dorra na an artaigeal fhèin?\nBha an geàrr-chunntas na bu dorra.\nDè a rinn Alan leis na seann artaigealan?\nChuir e iad ann am bunachar.\nCàite a bheil am bunachar an-diugh?\nTha e anns an leabharlann."
+    },
+    {
+      "title": "An argumaid anns a' chlas",
+      "summary": "Two learners quarrel over a rule of lenition; their teacher steps in and shows that the rule holds, with a look at old manuscripts and at how the sounds change.",
+      "newWords": [
+        "sèimhich",
+        "neo-chinnteach",
+        "coitcheannas",
+        "argumaid",
+        "mì-mhodhail",
+        "eadraiginn",
+        "mì-choltach",
+        "dotag",
+        "suathach"
+      ],
+      "text": "Bidh clas Gàidhlig ann gach Diardaoin ann an Glaschu, agus 's e Beitsidh an tidsear. Anns a' chlas tha Anndrais, a tha dèidheil air riaghailtean, agus Hana, a tha air mòran leabhraichean a leughadh.\n\nAn oidhche seo, bha iad ag ionnsachadh cuin a shèimhicheas sinn ainmear. Sgrìobh Beitsidh dà rud air a' bhòrd: bròg, a' bhròg.\n\n“Tha am facal bròg boireann,” thuirt i. “Ma tha e neo-chinnteach, mar a tha e anns a' chiad fhacal, cha sèimhich sinn e. Ma tha an t-alt roimhe, sèimhichidh sinn e.”\n\n“Sin agaibh riaghailt mhath,” thuirt Hana. “Tha coitcheannas innte: tha i fìor airson a h-uile ainmear boireann.”\n\n“Chan eil,” thuirt Anndrais. “Seall air sgoil. Tha am facal sin boireann, ach 's e an sgoil a their sinn, chan e a' sgoil. Càite a bheil an coitcheannas a-nis?”\n\n“Chan eil sin ach aon fhacal,” thuirt Hana. “Chan eil an argumaid agad a' seasamh.”\n\n“Cha do leugh thu an leabhar ceart,” thuirt Anndrais ann an guth àrd.\n\n“Na bi cho mì-mhodhail!” thuirt Hana.\n\nBha an argumaid a' fàs teth, agus cha robh duine eile ag ràdh facal. Sheas Beitsidh eatarra, agus chaidh i anns an eadraiginn.\n\n“Is mise bean na h-eadraiginn a-nochd,” thuirt i le gàire. “Tha an dithis agaibh ceart. Cha sèimhich sinn sg, sm, sp no st ann an sgrìobhadh idir. Tha an riaghailt fìor, ach chan fhaic thu i anns gach facal. Tha e mì-choltach gun lorg sibh riaghailt ann an cànan sam bith gun bheàrn innte. Tha e cuideachd mì-choltach gun ionnsaich sibh mòran bho argumaid ann an guth àrd.”\n\nAn uair sin, sheall i dealbh dhaibh de sheann làmh-sgrìobhainn. Os cionn cuid de na litrichean bha dotag bheag dhubh.\n\n“Seo mar a shèimhich cuid de na sgrìobhaichean o chionn fhada,” thuirt i. “An àite h, chuir iad dotag os cionn na litreach.”\n\n“Agus dè tha an dotag a' dèanamh ris an fhuaim?” thuirt Hana.\n\n“Tha fuaim cruaidh a' fàs suathach,” thuirt Beitsidh. “Èistibh: bròg, a' bhròg. Airson b, bidh na bilean a' dùnadh. Ann am bh, tha an anail a' suathadh tro na bilean. 'S e fuaim suathach a th' ann.”\n\nDh'fheuch an clas gu lèir ris na fuaimean: b, bh, c, ch. Mu dheireadh, thàinig Anndrais a-null gu Hana.\n\n“Bha mi mì-mhodhail,” thuirt e. “Tha mi duilich.”\n\n“Bha argumaid mhath agad,” thuirt Hana. “Bha mi fhìn ro chinnteach.”\n\nChaidh iad sìos an staidhre còmhla, agus chuala Beitsidh iad a' feuchainn fhuaimean suathach fad na slighe.\n\nCeistean:\nCò an tidsear?\n'S e Beitsidh an tidsear.\nCuin nach sèimhich sinn am facal bròg?\nCha sèimhich sinn e ma tha e neo-chinnteach.\nCarson a thuirt Anndrais nach robh coitcheannas anns an riaghailt?\nThuirt e sin air sgàth an fhacail sgoil.\nDè a bha os cionn nan litrichean anns an t-seann làmh-sgrìobhainn?\nBha dotag bheag dhubh os an cionn.\nCò a chaidh anns an eadraiginn?\nChaidh Beitsidh anns an eadraiginn."
+    },
+    {
+      "title": "Litir à Uibhist",
+      "summary": "In a letter to his sister in Canada, a man tracing the family tree describes the croft their ancestor left and the ninety-year-old woman who owns it now.",
+      "newWords": [
+        "sloinntearachd",
+        "sgrùdaich",
+        "tuinich",
+        "àitich",
+        "seilbheadair",
+        "naochad",
+        "facal-suaicheantais",
+        "uaill"
+      ],
+      "text": "Ealair, a phiuthar chòir,\n\nTha mi a-nis ann an Uibhist, agus tha mi a' sgrìobhadh thugad à taigh-òsta beag ri taobh na mara. Mar a tha fios agad, tha mi air a bhith ag obair air sloinntearachd an teaghlaich againn fad deich bliadhna, agus thàinig mi an seo gus a crìochnachadh.\n\nAn-dè, chaidh mi dhan taigh-tasgaidh, agus shuidh mi fad an latha a' sgrùdachadh sheann chlàran. Sgrùdaich mi gach clàr a bha aca, agus mu dheireadh lorg mi e: Gillìosa, an duine às an d' fhuair mi m' ainm. Mar a chuala sinn aig an taigh, dh'fhàg e Uibhist ann an 1828, agus thuinich e ann an Ceap Breatainn. Thuinich a bhràthair ann an àite eile ann an Canada, ach sin sgeulachd eile airson an ath chaibideil den t-sloinntearachd.\n\nAn-diugh, chaidh mi a choimhead air a' chroit far an robh Gillìosa a' fuireach na òige. Tha i fhathast ann, air talamh ìosal ri taobh loch. Dh'àitich an teaghlach againn an talamh sin fad còrr is ceud bliadhna, agus tha thu fhathast a' faicinn nan seann iomairean far an do dh'àitich iad e.\n\nTha seilbheadair ùr aig a' chroit a-nis, boireannach air an robh mi air cluinntinn: Dòmhnaid. Tha i naochad bliadhna a dh'aois, ach tha a cuimhne nas fheàrr na mo chuimhne fhìn.\n\n“Is mise an seilbheadair air pàipear,” thuirt i, “ach tha an talamh nas sine na sinne uile.”\n\nBidh i ag obair anns a' ghàrradh gach madainn, ged a tha i naochad, agus rinn i aran dhomh. An uair sin, thug i a-mach às a' chiste pìos fiodha air an robh sgrìobhte: “An rud a dh'àiticheas tu, ithidh tu.” 'S e sin facal-suaicheantais an teaghlaich againn, a rèir Dhòmhnaid. Cha robh caisteal no airgead aca, ach bha facal-suaicheantais aca, agus dhèanadh iad feum dheth!\n\nTha fios agam nach bu chòir cus uaille a bhith aig duine às a shinnsearan, ach dh'fhairich mi uaill nuair a leugh mi e. Chan e uaill fhalamh a th' innte, tha mi a' smaoineachadh. Bha iad beò air an obair aca fhèin.\n\nBidh mi a' tilleadh Disathairne, agus bheir mi leam dealbh den fhiodh. Cuir thusa seann litrichean ar seanar air dòigh ron àm sin.\n\nLe gràdh bho do bhràthair,\nGillìosa\n\nCeistean:\nCarson a chaidh Gillìosa a dh'Uibhist?\nChaidh e ann gus sloinntearachd an teaghlaich a chrìochnachadh.\nDè a rinn e anns an taigh-tasgaidh?\nSgrùdaich e seann chlàran.\nCàite an do thuinich an duine às an d' fhuair e ainm?\nThuinich e ann an Ceap Breatainn.\nCò an seilbheadair a th' aig a' chroit a-nis?\n'S i Dòmhnaid an seilbheadair, agus tha i naochad bliadhna a dh'aois.\nDè tha sgrìobhte air a' phìos fhiodha?\nTha facal-suaicheantais an teaghlaich sgrìobhte air."
+    },
+    {
+      "title": "An seann leabhar à Muile",
+      "summary": "A book conservator in Edinburgh repairs an old book of songs damaged by the sea air, step by careful step.",
+      "newWords": [
+        "caomhnadh",
+        "rag",
+        "reub",
+        "criostalach",
+        "èadhar",
+        "eadar-sgaoileadh",
+        "sùbailte",
+        "tiùb"
+      ],
+      "text": "Tha Lùise ag obair ann an caomhnadh leabhraichean ann an Dùn Èideann. Tha a seòmar-obrach aig mullach seann togalaich, le uinneag mhòr a tha a' coimhead a-mach air na mullaichean. Bidh daoine a' tighinn thuice le leabhraichean a tha air a bhith fad bhliadhnaichean ann an cisteachan agus fo leapannan.\n\nMadainn Dimàirt, thàinig Fionnbharr à Muile, le leabhar air a phasgadh ann an clò. 'S e seann leabhar òran a bh' ann, a bha aig a theaghlach bho thùs. Bha an leabhar air a bhith ann an ciste ri taobh na mara fad ceud bliadhna.\n\nChuir Lùise an leabhar air a' bhòrd. Bha an còmhdach cho rag ri fiodh, agus cha mhòr nach do bhris e nuair a dh'fhosgail i e. Bha na duilleagan fhèin rag cuideachd, agus bha trì dhiubh air an reubadh bho mhullach gu bonn.\n\n“Reub cuideigin iad o chionn fhada,” thuirt Fionnbharr gu brònach. “An gabh an leabhar a shàbhaladh?”\n\n“Gabhaidh,” thuirt Lùise, “ach chan e obair luath a th' ann an caomhnadh.”\n\nThug i sùil air duilleag tro ghlainne. Bha sgrath gheal air a' phàipear, cruaidh agus criostalach, coltach ri sneachd glè mhìn.\n\n“Salann na mara,” thuirt i. “Thàinig e leis an èadhar fhliuch. Tha an stuth criostalach seo a' milleadh a' phàipeir.”\n\nAn toiseach, dh'fhàg i an leabhar ann an èadhar fuar tioram fad seachdain. An uair sin, rinn i eadar-sgaoileadh lag de dh'uisge glan agus stuth sònraichte. Le bruis bheag, chuir i an t-eadar-sgaoileadh air gach duilleag, tè mu seach. Dh'fhalbh an sgrath gheal, beag air bheag. Chuir i na duilleagan a thiormachadh eadar pàipearan glan.\n\nNuair a bha iad tioram, cha robh iad rag tuilleadh. Bha am pàipear sùbailte, agus thionndaidh gach duilleag gun fhuaim. Rinn i an còmhdach sùbailte cuideachd, le beagan ola air an leathar.\n\nAirson nan trì duilleagan a chaidh a reubadh, thug i a-mach tiùb beag de ghlaodh. Chuir i beagan glaodh bhon tiùb air stiall de phàipear tana, agus dhùin i gach beàrn cho faiceallach 's gun robh e cha mhòr do-fhaicsinneach.\n\nAn dèidh trì seachdainean, thill Fionnbharr. Dh'fhosgail e an leabhar, agus sheinn e rann de dh'òran ann an guth ìosal.\n\n“Cùm e ann an èadhar tioram,” thuirt Lùise, “agus na cuir ri balla fuar e. Sin an caomhnadh as fheàrr a tha ann.”\n\nCeistean:\nDè an obair a th' aig Lùise?\nTha i ag obair ann an caomhnadh leabhraichean.\nCiamar a bha an còmhdach nuair a thàinig an leabhar?\nBha e cho rag ri fiodh.\nDè a bha anns an sgrath chriostalach air a' phàipear?\nBha salann na mara innte.\nDè a chuir i air na duilleagan leis a' bhruis?\nChuir i eadar-sgaoileadh lag orra.\nDè a bha anns an tiùb?\nBha glaodh anns an tiùb."
+    },
+    {
+      "title": "Triùir aig bòrd an leabharlainn",
+      "summary": "A firefighter, a dentist and a psychiatrist write a children's book about their work; a big publisher turns it down and a small one takes it.",
+      "newWords": [
+        "neach-smàlaidh",
+        "fiaclair",
+        "leigheas-inntinn",
+        "tionnsgalach",
+        "deann",
+        "briseadh-dùil",
+        "mì-thoileachas",
+        "earbsach"
+      ],
+      "text": "Gach Diciadain, bidh triùir charaidean a' coinneachadh aig bòrd anns an leabharlann ann am Port Rìgh. Tha Màrtan na neach-smàlaidh, tha Ema na fiaclair, agus tha Catrìn ag obair ann an leigheas-inntinn aig an ospadal. Bho chionn bliadhna, tha iad a' sgrìobhadh leabhair còmhla do chloinn, air a bheil an tiotal “Latha aig m' obair”.\n\n'S e Màrtan a sgrìobh a' chiad chaibideil. Anns a' chaibideil sin, cluinnidh neach-smàlaidh an clag, agus thèid e na dheann chun a' chàir mhòir dheirg. Bidh clann a' faighneachd carson a tha e na dheann, agus tha Màrtan a' mìneachadh sin gu sìmplidh.\n\nTha eagal air mòran chloinne ro fhiaclair, agus sin as coireach gun do sgrìobh Ema an dàrna caibideil. Tha Ema gu math tionnsgalach. Rinn i duilleag air a bheil beul mòr de chairt, agus faodaidh a' chlann a fhosgladh agus na fiaclan a chunntadh. Chòrd an inntinn thionnsgalach aice ris an dithis eile.\n\nBha an treas caibideil na bu dorra. Ciamar a dh'innseas tu do leanabh dè th' ann an leigheas-inntinn? Thuirt Catrìn gu sìmplidh gu bheil dotair ann a bhios ag èisteachd nuair a tha duine fo bhròn, mar a bhios fiaclair a' coimhead air fiacail ghoirt.\n\nNuair a bha an leabhar deiseil, chuir iad gu companaidh mhòr ann an Glaschu e. An dèidh dà mhìos, thàinig litir ghoirid: cha robh iad ga iarraidh. Bha briseadh-dùil mòr air an triùir aca. Cha b' urrainn do Mhàrtan a mhì-thoileachas fhalach.\n\n“Bliadhna de dh'obair!” thuirt e. “Agus dà sheantans mar fhreagairt!”\n\n“Tuigidh mi do mhì-thoileachas,” thuirt Catrìn, “ach cha chuir e leabhar air sgeilp. Tha briseadh-dùil mar seo àbhaisteach. Feuchaidh sinn companaidh eile.”\n\nBha fios aig Ema air foillsichear beag ann an Steòrnabhagh. Chuala i gun robh e earbsach: bidh e a' freagairt gach litir, agus bidh e a' pàigheadh ann an àm. Chuir iad an leabhar thuige, agus fhreagair e taobh a-staigh seachdain. Bha an duine earbsach ceart gu leòr, agus bha an leabhar anns na bùthan as t-fhoghar.\n\nAn-diugh, tha lethbhreac dheth anns an togalach aig an luchd-smàlaidh ann am Port Rìgh, agus fear eile anns an t-seòmar far am bi clann a' feitheamh ris an fhiaclair.\n\nCeistean:\nDè an obair a th' aig Màrtan?\nTha e na neach-smàlaidh.\nCarson a sgrìobh Ema caibideil mu fhiaclair?\nSgrìobh i a' chaibideil oir tha eagal air mòran chloinne ro fhiaclair.\nCiamar a tha fios againn gu bheil Ema tionnsgalach?\nRinn i duilleag air a bheil beul mòr de chairt.\nCiamar a bha iad nuair a thàinig an litir à Glaschu?\nBha briseadh-dùil mòr orra.\nCarson a chuir iad an leabhar gu foillsichear ann an Steòrnabhagh?\nChuir iad thuige e oir bha e earbsach."
+    },
+    {
+      "title": "Leabhar còcaireachd a' chlas",
+      "summary": "A school class on Barra writes a Gaelic cookbook and tests the recipes, and one flying pancake gives the book its humour.",
+      "newWords": [
+        "èasgaidh",
+        "siabann",
+        "banana",
+        "abaich",
+        "pana",
+        "àbhachdas"
+      ],
+      "text": "Bha clas Nina, ann an sgoil Ghàidhlig ann am Barraigh, ag iarraidh airgead a chruinneachadh airson turas gu Glaschu. Bha beachd aca: sgrìobhadh iad leabhar còcaireachd ann an Gàidhlig, le biadh bho gach teaghlach anns a' bhaile. Bha a' chlann gu lèir èasgaidh, ach cha robh duine cho èasgaidh ri Dàibhean, balach 10 bliadhna a dh'aois.\n\n“Feumaidh sinn gach rud fheuchainn mus sgrìobh sinn e,” thuirt Nina.\n\nMar sin, thàinig iad gu cidsin na sgoile aon mhadainn. Chuir Nina riaghailt air a' bhalla mus do thòisich iad: làmhan glan le siabann. Bha siabann ri taobh gach sinc, agus nigh a h-uile duine a làmhan gu faiceallach.\n\n'S e bonnach banana a thug Dàibhean bho a sheanmhair. Sgrìobh e am facal banana ann an litrichean mòra, agus an uair sin leugh e na faclan aice a-mach:\n\n“Feumaidh am banana a bhith abaich. Ma tha e cruaidh agus uaine, chan eil e abaich, agus chan eil blas sam bith air. Ma tha e buidhe le spotan donna, tha e abaich.”\n\nPhronn a' chlann trì bananathan abaich ann am bobhla, agus chuir iad ugh agus min riutha. Chuir Nina am pana air an teine, le beagan ìm ann. Nuair a bha am pana teth, chuir i an stuth a-steach dhan phana.\n\n“Tha mo sheanmhair a' cur a' bhonnaich suas dhan adhar,” thuirt Dàibhean gu h-èasgaidh. “An urrainn dhomh feuchainn?”\n\nThug Nina dha am pana, le a làmh fhèin air an làimh aige. Thilg Dàibhean am bonnach suas. Chaidh e suas, ach cha tàinig e air ais dhan phana. Thuit e air bròg Nina!\n\nRinn an clas gu lèir gàire mòr, agus an tidsear cuideachd. Ghlan i a bròg, agus dh'iarr i air a h-uile duine a dhol air ais chun an t-siabainn. Rinn iad bonnach eile, agus bha blas math air.\n\nNuair a bha iad a' sgrìobhadh an leabhair, chuir Dàibhean loidhne eile fon bhonnach aige: “Na tilg am bonnach ro àrd. Faighnich do Nina mu a bròig.” Tha àbhachdas beag mar sin air gach duilleag a-nis, agus sin an t-àbhachdas a chòrd ris na daoine. Reic iad a h-uile leabhar aig fèis a' bhaile, agus chaidh an clas gu Glaschu as t-samhradh.\n\nCeistean:\nCarson a bha an clas ag iarraidh leabhar a sgrìobhadh?\nBha iad ag iarraidh airgead airson turas gu Glaschu.\nDè a bha ri taobh gach sinc?\nBha siabann ri taobh gach sinc.\nCiamar a tha fios agad gu bheil banana abaich?\nTha e buidhe le spotan donna.\nCàite an do thuit am bonnach?\nThuit e air bròg Nina.\nDè a chòrd ris na daoine anns an leabhar?\nChòrd an t-àbhachdas ris na daoine."
+    },
+    {
+      "title": "Aig àm an làin-mhara",
+      "summary": "A poet's newspaper column: walking the shore at high tide, she remembers childhood with a spade and a pail and thinks about where poems come from.",
+      "newWords": [
+        "làn-mara",
+        "bàrdail",
+        "spaid",
+        "peile",
+        "neo-chiontachd",
+        "seang",
+        "meanglan",
+        "seachran"
+      ],
+      "text": "Nuair a dh'fhaighnicheas daoine dhomh càite am faigh mi na dàin agam, bidh mi ag innse dhaibh mun chladach. Tha mi a' fuireach ann an Tiriodh, agus aig àm an làin-mhara, bidh mi a' coiseachd air an tràigh gach feasgar. Tha an làn-mara cho socair agus cho cinnteach ri anail duine na chadal.\n\nThathar ag ràdh gu bheil a' Ghàidhlig na cànan bàrdail. Tha mi ag aontachadh, ach chan ann anns na leabhraichean a-mhàin. Cha do sgrìobh mo sheanair dàn a-riamh, ach nuair a thuirt e gun robh a' ghaoth a' cìreadh an fheòir, bha sin cho bàrdail ri rud sam bith a leugh mi.\n\nNuair a bha mi 6 bliadhna a dh'aois, bhithinn a' dol dhan tràigh seo le spaid bheag agus peile dearg. Bha mi seang mar mheanglan, agus bha mo chasan an-còmhnaidh fliuch. Lìonainn am peile le gainmheach fhliuch, agus thogainn caisteal leis an spaid. Thigeadh an làn-mara feasgar, agus bheireadh e an caisteal air falbh. Cha robh dragh orm idir. An ath mhadainn, thogainn am peile agus an spaid, agus thòisichinn a-rithist.\n\n'S e sin neo-chiontachd, tha mi a' smaoineachadh: a bhith a' togail caisteil le làn fhios gum falbh e, agus a bhith toilichte leis. Tha neo-chiontachd na h-òige air falbh bhuam o chionn fhada, ach bidh mi a' feuchainn ri beagan dheth a chumail nuair a tha mi a' sgrìobhadh. Cha sheas dàn sam bith gu bràth, ach tha e math a thogail.\n\nBidh an inntinn agam a' dol air seachran air an tràigh. Bidh mi a' togail meanglain a thug a' mhuir a-steach, geal agus seang, agus bidh mi a' smaoineachadh air a' chraoibh às an tàinig e, ann an dùthaich nach fhaca mi a-riamh. Cha toigh le daoine trang seachran mar sin. Ach 's ann air seachran a lorg mi a h-uile dàn as fheàrr a tha agam.\n\nAn-diugh, chunnaic mi nighean bheag air an tràigh le spaid agus peile buidhe. Bha i a' togail caisteil, agus bha an làn-mara a' tighinn. Cha tuirt mi facal rithe. Chaidh mi dhachaigh, chuir mi am meanglan air an uinneig, agus sgrìobh mi dàn.\n\n– Ròsag\n\nCeistean:\nCàite am bi a' bhana-bhàrd a' coiseachd gach feasgar?\nBidh i a' coiseachd air an tràigh aig àm an làin-mhara.\nCarson a tha i ag ràdh gun robh a seanair bàrdail?\nOir thuirt e gun robh a' ghaoth a' cìreadh an fheòir.\nDè a bha aice air an tràigh aig 6 bliadhna a dh'aois?\nBha spaid bheag agus peile dearg aice.\nDè a thachair dhan chaisteal aice?\nThug an làn-mara air falbh e.\nDè bhios a' tachairt dhan inntinn aice air an tràigh?\nBidh a h-inntinn a' dol air seachran."
+    },
+    {
+      "title": "Leabhar an t-streapadair",
+      "summary": "A climber checks every line of his Gaelic guidebook on foot, walking round a reservoir and adding a note about the deer-hunting season.",
+      "newWords": [
+        "streapadair",
+        "slios",
+        "coillteach",
+        "stòr-amar",
+        "deiseal",
+        "fiadhach"
+      ],
+      "text": "Tha Fillean na streapadair, agus tha e air a bhith a' dìreadh bheanntan na h-Alba bho bha e 15 bliadhna a dh'aois. Am-bliadhna, tha e a' sgrìobhadh leabhair: a' chiad leabhar-iùil do streapadairean ann an Gàidhlig. Tha e airson gum bi gach facal ceart, agus mar sin, tha e a' coiseachd a h-uile slighe a-rithist mus sgrìobh e i.\n\nMadainn shoilleir anns an Lùnastal, chaidh e a dh'fheuchainn na slighe mun stòr-amar mhòr aig bonn na beinne. Tha an t-uisge anns an stòr-amar cho ciùin 's gum faic thu a' bheinn gu lèir ann. Air an taobh an iar, tha slios coillteach a' dol sìos chun an uisge, le beithe agus giuthas. Air an taobh an ear, tha slios lom nan creagan far am bi streapadairean a' dìreadh.\n\nBha Fillean air sgrìobhadh anns an leabhar gun rachadh an t-slighe tuathal mun stòr-amar. Ach an-diugh, dh'fheuch e i an taobh eile, agus dh'ionnsaich e rudeigin. Ma thèid thu deiseal, tha a' ghrian air do chùl anns a' mhadainn, tha thu a' coiseachd tron choille anns an fhuachd, agus ruigidh tu na creagan nuair a tha iad blàth agus tioram.\n\n“Deiseal,” sgrìobh e anns an leabhar-notaichean aige. “'S e facal math a tha seo.” Tha deiseal a' ciallachadh le cùrsa na grèine, agus mhìnich Fillean sin ann an loidhne bheag, oir chan eil a h-uile leughadair eòlach air.\n\nAig ceann an locha, choinnich e ri fear a bha ag obair air an oighreachd. Chunnaic e an leabhar-notaichean, agus dh'fhaighnich e dè bha Fillean a' sgrìobhadh. Dh'innis Fillean dha.\n\n“Uill,” thuirt am fear, “cuir aon rud eile ann. Bidh am fiadhach a' tòiseachadh air an t-slios choillteach seo as t-fhoghar. Fad na h-ùine sin, chan fhaod coisichean a dhol ann gun fhaighneachd aig an oifis againn.”\n\n“Cuin a tha am fiadhach seachad?” thuirt Fillean.\n\n“Aig deireadh an fhoghair, mar as trice,” thuirt am fear, “agus bidh an àireamh fòn againn air a' bhòrd aig a' gheata.”\n\nSgrìobh Fillean sin sìos cuideachd. Nuair a thàinig an leabhar a-mach an ath-bhliadhna, bha duilleag ann mun stòr-amar: deiseal mun loch, agus nota beag mun fhiadhach.\n\nCeistean:\nDè tha Fillean a' sgrìobhadh?\nTha e a' sgrìobhadh leabhair-iùil do streapadairean.\nCarson a tha e a' coiseachd gach slighe a-rithist?\nTha e airson gum bi gach facal ceart.\nDè a th' air an taobh an iar?\nTha slios coillteach ann, le beithe agus giuthas.\nCarson as fheàrr a dhol deiseal mun stòr-amar?\nTha a' ghrian air do chùl, agus ruigidh tu na creagan nuair a tha iad blàth.\nDè a thuirt am fear mun fhiadhach?\nThuirt e gum biodh am fiadhach a' tòiseachadh air an t-slios as t-fhoghar."
+    },
+    {
+      "title": "An t-itealan airgeadach",
+      "summary": "A boy who struggles with reading finds his way in through a library shelf about aeroplanes and a visit from a pilot.",
+      "newWords": [
+        "eadar-theachd",
+        "rianaire",
+        "pìleat",
+        "fo-roinn",
+        "airgeadach",
+        "gaothach"
+      ],
+      "text": "Tha Lochlann 9 bliadhna a dh'aois, agus tha e a' fuireach ann an Steòrnabhagh. Chan eil leughadh furasta dha. Bidh na litrichean a' gluasad air an duilleig, agus bidh e a' fàs sgìth agus feargach. As t-earrach, thòisich an sgoil air eadar-theachd: leth-uair a thìde gach latha le tidsear sònraichte, agus leabhar sam bith a thaghas e fhèin.\n\nBha Lochlann mì-thoilichte leis an eadar-theachd aig an toiseach, oir cha robh leabhar ann a bha e ag iarraidh. Mar sin, chaidh a thidsear leis dhan leabharlann, agus choinnich iad ri Mìna, an rianaire. 'S e rianaire a th' innte, agus chan e leabharlannaiche, ach bidh i a' cuideachadh gach neach a thig a-steach.\n\nThug Mìna an aire gun robh am balach a' coimhead a-mach air an uinneig. Bha itealan beag airgeadach a' dol seachad os cionn a' chala, a' dèanamh air a' phort-adhair.\n\n“Am bu toigh leat leabhar mu itealain?” thuirt i.\n\nCha robh mòran leabhraichean mar sin aca, agus bha iad sgapte air feadh nan sgeilpichean. Ach tha Mìna eòlach air a h-uile sgeilp anns an togalach. Chruinnich i iad ann an aon àite, agus rinn i fo-roinn ùr anns an earrainn aig a' chloinn: “Itealain agus an t-adhar”. Sgrìobh i ainm na fo-roinne air cairt, agus chuir i na faclan as cudromaiche ann an Gàidhlig air an ath chairt.\n\nThòisich Lochlann air na leabhraichean, fear mu seach. Bha e slaodach, ach cha do sguir e. Anns an eadar-theachd, leugh e a' chiad leabhar gu lèir, ged a thug e mìos dha.\n\nSgrìobh Mìna an uair sin gu pìleat a bha ag obair air na h-itealain bheaga eadar na h-eileanan, boireannach air an robh Liùsag. Thuirt Liùsag gun tigeadh i. Bha an latha glè ghaothach, agus thàinig i air an itealan airgeadach aice beagan fadalach.\n\n“Tha mi duilich,” thuirt Liùsag anns an leabharlann. “Bha e gaothach os cionn na mara.”\n\nBha Lochlann na shuidhe anns an fho-roinn aige fhèin, agus leabhar air a ghlùinean. Leugh e duilleag dhi mu mar a bhios pìleat a' cur an itealain sìos air latha gaothach. Leugh e gu slaodach, agus cha do chuir i stad air idir. Nuair a bha e deiseil, thug i dha dealbh den itealan airgeadach.\n\n“Tha thu air barrachd a leughadh mu itealain na mòran dhaoine,” thuirt i ris.\n\nCeistean:\nCarson nach eil leughadh furasta do Lochlann?\nBidh na litrichean a' gluasad air an duilleig.\nDè a thòisich an sgoil as t-earrach?\nThòisich i air eadar-theachd: leth-uair a thìde gach latha le tidsear sònraichte.\nCò a rinn an fho-roinn ùr?\nRinn Mìna, an rianaire, an fho-roinn ùr.\nCarson a bha Liùsag fadalach?\nBha i fadalach oir bha an latha gaothach.\nDè a leugh Lochlann do Liùsag?\nLeugh e duilleag mu mar a bhios pìleat a' cur an itealain sìos."
+    }
+  ]
+}
