@@ -33,6 +33,41 @@ class WordFormsTest {
         override suspend fun list(languageCode: String) = list.takeIf { languageCode == "pt" }
     }
 
+    /** A word loses the capital that opening a sentence gave it, but not one it always has. */
+    @Test
+    fun anOpeningCapitalGoesOnlyFromWordsTheListHasInLowercase() = runBlocking {
+        val opening = FrequencyList.parse(
+            """
+            i	i i'm
+            a	a
+            homem	homem
+            dizer	dizer disse
+            ışık	ışık
+            iyi	iyi
+            Hund	hund
+            tom	tom
+            """.trimIndent(),
+        )
+        val forms = WordForms(object : FrequencyLists { override suspend fun list(languageCode: String) = opening }, terms)
+        val portuguese = Language(name = "Portuguese")
+        assertEquals("a", forms.withoutOpeningCapital("A", portuguese))
+        assertEquals("disse", forms.withoutOpeningCapital("Disse", portuguese))
+        assertEquals("disse-me", forms.withoutOpeningCapital("Disse-me", portuguese), "counted under its longest part")
+        assertEquals("d'homem", forms.withoutOpeningCapital("D'homem", portuguese), "counted under its longest part")
+        assertEquals("Maria", forms.withoutOpeningCapital("Maria", portuguese), "a name is not in the list")
+        assertEquals("Tom", forms.withoutOpeningCapital("Tom", portuguese), "Tatoeba's Tom, though the list has the word for tone")
+        assertEquals("O'Brien", forms.withoutOpeningCapital("O'Brien", portuguese))
+        assertEquals("NASA", forms.withoutOpeningCapital("NASA", portuguese))
+        assertEquals("a", forms.withoutOpeningCapital("a", portuguese))
+        assertEquals("Hund", forms.withoutOpeningCapital("Hund", Language(name = "German")), "the list writes it with a capital")
+        assertEquals("I", forms.withoutOpeningCapital("I", Language(name = "English")))
+        assertEquals("I'm", forms.withoutOpeningCapital("I'm", Language(name = "English")))
+        val turkish = Language(name = "Turkish", parserType = "turkish")
+        assertEquals("ışık", forms.withoutOpeningCapital("Işık", turkish))
+        assertEquals("iyi", forms.withoutOpeningCapital("İyi", turkish))
+        Unit
+    }
+
     @Test
     fun formsComeFromTheListAndTheLinkedWords() = runBlocking {
         val portuguese = Language(id = LanguageRepositoryImpl(provider).save(Language(name = "Portuguese")), name = "Portuguese")

@@ -54,6 +54,21 @@ class WordForms(private val frequency: FrequencyLists?, private val terms: TermR
         null
     }
 
+    /**
+     * [word], which opens a sentence, as it is written inside one: without its capital when the list
+     * has it in lowercase. Names, which the lists leave out, and German nouns, which they write with
+     * a capital, keep theirs, as does English "I".
+     */
+    suspend fun withoutOpeningCapital(word: String, language: Language): String {
+        if (!word.first().isUpperCase() || word.drop(1).any { it.isUpperCase() } || word in STOCK_NAMES) return word
+        if (LanguageCodes.codeFor(language.name) == "en" && ENGLISH_I.matches(word)) return word
+        val byForm = index(language)?.byForm ?: return word
+        val key = language.lowercase(word)
+        // "L'homme" and "Disse-me" are not in the lists, but their longest part is.
+        val listed = byForm[key] ?: byForm[key.split('\'', '’', '-').maxBy { it.length }] ?: return word
+        return if (listed.any { it.word.first().isUpperCase() }) word else key
+    }
+
     /** How common [text] is in [language]: 1 for the most common word, null when the list has no such word. */
     suspend fun rank(text: String, language: Language): Int? = index(language)?.byForm?.get(language.lowercase(text))?.minOf { it.rank }
 
@@ -94,5 +109,12 @@ class WordForms(private val frequency: FrequencyLists?, private val terms: TermR
             }
             indexes[code]
         }
+    }
+
+    private companion object {
+        val ENGLISH_I = Regex("""I(['’].*)?""")
+
+        /** The people of Tatoeba's sentences in every language, whose names are also words in the lists: "tom" is Portuguese for "tone". */
+        val STOCK_NAMES = setOf("Tom", "Mary", "John")
     }
 }

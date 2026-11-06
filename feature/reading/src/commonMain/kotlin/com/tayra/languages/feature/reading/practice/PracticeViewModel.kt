@@ -161,6 +161,7 @@ class PracticeViewModel(
             val alikes = attempt { alikesFor(prepared.words, lang) }.orEmpty()
             val levels = if (asked.adaptive) attempt { levelsOf(prepared.words) }.orEmpty() else emptyMap()
             val exercises = PracticeBuilder.build(prepared.words, prepared.pool, examplesFor(prepared.words), random, asked, prepared.meanings, translations, alikes, families, levels)
+            val opened = attempt { withoutOpeningCapitals(exercises, lang) } ?: exercises
             _state.update {
                 it.copy(
                     loading = false,
@@ -169,7 +170,7 @@ class PracticeViewModel(
                     setup = asked,
                     languageCode = code,
                     rightToLeft = lang.rightToLeft,
-                    exercises = exercises,
+                    exercises = opened,
                 )
             }
             loadTranslation()
@@ -200,6 +201,12 @@ class PracticeViewModel(
                 .filter { other -> other.lowercase() !in own && (other.first().lowercaseChar() == text.first() || other.lowercase().takeLast(2) == text.takeLast(2)) }
             word.key to near.take(ALIKES)
         }.toMap()
+    }
+
+    /** Sentences to build, with no capital to tell which word comes first. */
+    private suspend fun withoutOpeningCapitals(exercises: List<Exercise>, language: Language): List<Exercise> {
+        val forms = wordForms ?: return exercises
+        return exercises.map { exercise -> exercise.built.firstOrNull()?.let { exercise.opening(forms.withoutOpeningCapital(it, language)) } ?: exercise }
     }
 
     private suspend fun levelsOf(words: List<PracticeWord>): Map<String, Int> {
@@ -326,7 +333,7 @@ class PracticeViewModel(
     fun submit() {
         val exercise = _state.value.current ?: return
         if (_state.value.answered || exercise.isChoice || exercise.response == PracticeResponse.SPEAK || _state.value.typed.isBlank()) return
-        record(exercise, PracticeChecker.check(exercise.answer, _state.value.typed).result)
+        record(exercise, PracticeChecker.check(exercise.expected, _state.value.typed).result)
     }
 
     private val TypedResult.result: PracticeResult

@@ -374,6 +374,22 @@ class PracticeScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
     }
 
+    /** The first word has no capital to give it away, unless it always has one, and the sentence is still right and shown as written. */
+    @Test
+    fun theWordThatOpensASentenceLosesItsCapital() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val lists = object : FrequencyLists {
+            override suspend fun list(languageCode: String) = FrequencyList.parse("eu\teu\nmorar\tmoro\nem\tno")
+        }
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.BUILD), responses = setOf(PracticeResponse.CHOOSE)), forms = WordForms(lists, terms))
+        val exercise = viewModel.state.value.exercises.single()
+        assertEquals(listOf("Brasil", "eu", "moro", "no"), exercise.tiles.sorted(), "a name stays as it is")
+        assertEquals("Eu moro no Brasil.", exercise.answer)
+        for (part in listOf("eu", "moro", "no", "Brasil")) onNodeWithTag("practice-tile-${exercise.tiles.indexOf(part)}").performClick()
+        onNodeWithText("Check").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Eu moro no Brasil.").assertExists()
+    }
+
     /** Each answer moves the word's practice level: two right answers take a new word from choosing to typing it as well. */
     @Test
     fun answersMoveTheWordsLevel() = runDesktopComposeUiTest(width = 1586, height = 1000) {

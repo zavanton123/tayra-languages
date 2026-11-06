@@ -176,6 +176,8 @@ data class Exercise(
     val options: List<String> = emptyList(),
     /** The sentence's words without the punctuation around them, shuffled, to build it from; empty but for building the sentence. */
     val tiles: List<String> = emptyList(),
+    /** The [tiles] in the order that builds the sentence; empty but for building the sentence. */
+    val built: List<String> = emptyList(),
     /** The right choice, or what is to be typed. */
     val answer: String,
     /** What is read aloud, for the listening kinds. */
@@ -201,6 +203,18 @@ data class Exercise(
 
     /** The sentence uses another form of the word practised. */
     val otherForm: Boolean get() = !word.equals(practised, ignoreCase = true)
+
+    /** What a typed answer is checked against: the tiles as they are spelled, when it is built from them. */
+    val expected: String get() = if (built.isEmpty()) answer else built.joinToString(" ")
+
+    /** The same, its sentence built starting with [word] in place of the word that opens it. */
+    fun opening(word: String): Exercise {
+        val first = built.firstOrNull() ?: return this
+        // Words all alike would have no order to find.
+        if (word == first || built.drop(1).all { it == word }) return this
+        val tile = tiles.indexOf(first)
+        return copy(built = listOf(word) + built.drop(1), tiles = tiles.mapIndexed { i, it -> if (i == tile) word else it })
+    }
 }
 
 /** Words to offer beside the right one: the page's other words, and words about as common as each word and looking like it. */
@@ -437,7 +451,7 @@ object PracticeBuilder {
                 // Shuffled so they never stand in their own order already.
                 var tiles = parts.shuffled(random)
                 while (tiles == parts) tiles = parts.shuffled(random)
-                base.copy(sentenceTranslation = translation, tiles = tiles, answer = word.sentence.trim(), wholeSentence = true)
+                base.copy(sentenceTranslation = translation, tiles = tiles, built = parts, answer = word.sentence.trim(), wholeSentence = true)
             }
         }
     }
