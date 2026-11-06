@@ -12,6 +12,7 @@
     "Rhys",
     "Mair",
     "Nia",
+    "Efa",
     "Cerys",
     "Bangor",
     "Ifan",
@@ -39,7 +40,7 @@
   "lessons": [
     {
       "title": "Teulu Siân",
-      "summary": "Siân has two children, Mared and Rhys; her friend Mair has a girl called Nia.",
+      "summary": "Siân has two children, Mared and Rhys; her friend Mair has a girl called Efa.",
       "newWords": [
         "y",
         "yn",
@@ -58,7 +59,7 @@
         "arall",
         "oes"
       ],
-      "text": "Dyma Siân. Mae Siân yng Nghaerdydd. Mae gan Siân ddau blentyn, Mared a Rhys.\n\nMared yw enw un plentyn. Merch yw Mared. Rhys yw enw'r plentyn arall.\n\nMae Mared yn ferch dda. Mae Rhys yn blentyn da. Mae Rhys ac Mared yn ddau blentyn da.\n\nDyma Mair. Mae Siân a Mair yng Nghaerdydd. Mae gan Mair un plentyn. Merch yw'r plentyn. Nia yw enw'r ferch.\n\nMae Nia ac Mared yn ddwy ferch dda.\n\nCwestiynau:\nBeth yw enw'r ferch?\nMared yw enw'r ferch.\nBeth yw enw'r plentyn arall?\nRhys yw enw'r plentyn arall.\nOes plentyn gan Mair?\nOes. Mae gan Mair un plentyn.\nBeth yw enw'r plentyn?\nNia yw enw'r plentyn."
+      "text": "Dyma Siân. Mae Siân yng Nghaerdydd. Mae gan Siân ddau blentyn, Mared a Rhys.\n\nMared yw enw un plentyn. Merch yw Mared. Rhys yw enw'r plentyn arall.\n\nMae Mared yn ferch dda. Mae Rhys yn blentyn da. Mae Rhys a Mared yn ddau blentyn da.\n\nDyma Mair. Mae Siân a Mair yng Nghaerdydd. Mae gan Mair un plentyn. Merch yw'r plentyn. Efa yw enw'r ferch.\n\nDyma Mair ac Efa. Mae Mared ac Efa yn ddwy ferch dda.\n\nCwestiynau:\nBeth yw enw'r ferch?\nMared yw enw'r ferch.\nBeth yw enw'r plentyn arall?\nRhys yw enw'r plentyn arall.\nOes plentyn gan Mair?\nOes. Mae gan Mair un plentyn.\nBeth yw enw'r plentyn?\nEfa yw enw'r plentyn."
     },
     {
       "title": "Ysgol newydd",
