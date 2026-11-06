@@ -434,6 +434,7 @@ fun ReadingScreen(
                                     if (phone) onNavigate(Route.Terms(ids, bookId)) else lessonVocabulary = ids
                                 }
                             },
+                            onReviewFlashcards = { onNavigate(Route.Flashcards) },
                             onNewPlaylist = { newPlaylist = true },
                             onAddedToPlaylist = { name -> toast.show(tr("Added to {0}", name)) },
                             focusText = { runCatching { focusRequester.requestFocus() } },
@@ -647,6 +648,7 @@ private fun ReadingBody(
     onCourses: () -> Unit,
     /** Opening the saved words of the whole lesson. */
     onLessonVocabulary: () -> Unit,
+    onReviewFlashcards: () -> Unit,
     /** Making a playlist that starts with this text. */
     onNewPlaylist: () -> Unit,
     /** Confirming that the text went into the playlist with this name. */
@@ -826,6 +828,7 @@ private fun ReadingBody(
             ReadingFooter(
                 state, viewModel, onHome, onPractice, onPracticeAll, edgePadding,
                 onLessonVocabulary = onLessonVocabulary,
+                onReviewFlashcards = onReviewFlashcards,
                 playlistBookId = state.book?.id?.takeIf { playlistPlayer != null },
                 onNewPlaylist = onNewPlaylist,
                 onAddedToPlaylist = onAddedToPlaylist,
@@ -1188,6 +1191,7 @@ private fun ReadingFooter(
     onPracticeAll: (PracticeSetup) -> Unit,
     edgePadding: Dp,
     onLessonVocabulary: () -> Unit,
+    onReviewFlashcards: () -> Unit,
     /** The text to put in a playlist; null when this build has no playlist player. */
     playlistBookId: Long?,
     onNewPlaylist: () -> Unit,
@@ -1275,6 +1279,12 @@ private fun ReadingFooter(
                 ) { state.book?.let { settingUp = PracticeSource.Book(it.id) } }
             }
         }
+        val reviewFlashcards: @Composable () -> Unit = {
+            // A phone has no room for one more here, and has its Flashcards tab.
+            if (last && state.lesson != null && !compact) {
+                FooterCircle(tr("Review flashcards"), AppIcons.Style, FooterCircleStyle.Outlined, Modifier.testTag("review-flashcards"), onClick = onReviewFlashcards)
+            }
+        }
         // The same words as the whole text's practice, into Anki: straight into a running one, or as a file.
         val anki: @Composable () -> Unit = {
             if (showAnki) {
@@ -1322,6 +1332,7 @@ private fun ReadingFooter(
                 vocabulary()
                 practice()
                 practiceAll()
+                reviewFlashcards()
                 playlist()
                 anki()
                 markRemaining()

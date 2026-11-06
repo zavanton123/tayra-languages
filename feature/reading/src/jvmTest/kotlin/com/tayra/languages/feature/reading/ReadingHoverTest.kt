@@ -116,6 +116,9 @@ import kotlin.test.assertEquals
 import kotlin.test.assertNull
 import androidx.compose.ui.test.getBoundsInRoot
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.WindowWidth
 import com.tayra.languages.core.data.export.AnkiPackagerImpl
@@ -584,6 +587,32 @@ class ReadingHoverTest {
         rule.onNodeWithTag("lesson-vocabulary").performScrollTo().performClick()
         rule.waitUntil(5_000) { visited.any { it is com.tayra.languages.core.ui.navigation.Route.Terms } }
         assertEquals(1L, visited.filterIsInstance<com.tayra.languages.core.ui.navigation.Route.Terms>().single().bookId)
+    }
+
+    /** A lesson's end leads on to the flashcards, right after its practice; a phone has its tab for them instead. */
+    @Test
+    fun aLessonsEndLeadsToTheFlashcards() {
+        val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
+        var width by mutableStateOf(WindowWidth.EXPANDED)
+        rule.setContent {
+            CompositionLocalProvider(LocalWindowWidth provides width) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, onCourse = {}, viewModel = vm)
+            }
+        }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("review-flashcards").fetchSemanticsNodes().isNotEmpty() }
+        vm.markToLearn(vm.index("lobo"))
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("practice-all").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitForIdle()
+        val practice = rule.onNodeWithTag("practice-all").fetchSemanticsNode().boundsInRoot
+        val review = rule.onNodeWithTag("review-flashcards").fetchSemanticsNode().boundsInRoot
+        assertTrue(review.left >= practice.right, "the review comes after the lesson's practice")
+        rule.onNodeWithTag("review-flashcards").performScrollTo().performClick()
+        rule.waitUntil(5_000) { com.tayra.languages.core.ui.navigation.Route.Flashcards in visited }
+        width = WindowWidth.COMPACT
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("review-flashcards").fetchSemanticsNodes().isEmpty() }
     }
 
     /** The vocabulary list a lesson opens over the reader. */
