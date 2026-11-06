@@ -297,7 +297,7 @@ object CoursePacks {
             title = "Finnish",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-fi.sqlite.gzip",
-            downloadSize = 1_196_148,
+            downloadSize = 1_196_080,
         ),
         CoursePack(
             id = "courses-lt",
