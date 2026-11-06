@@ -1,0 +1,100 @@
+1	4801	fiùghantach	
+2	4802	cion-cosnaidh	
+3	4803	foirfe	fhoirfe
+4	4804	cròdha	
+5	4805	dìonachd	
+6	4806	boile	bhoile
+7	4807	impidh	
+8	4808	dèirc	dèircean
+9	4809	gràbhail	ghràbhaladh gràbhaladh
+10	4810	bhana	bhanaichean
+11	4811	maor-cladaich	maoir-chladaich
+12	4812	deàrnadaireachd	
+13	4813	dì-armaich	dì-armachadh dì-armaichidh dì-armaichte
+14	4814	sgrion	
+15	4815	carn	cairn
+16	4816	gruth	gruith gruthan
+17	4817	spaideal	
+18	4818	bàidheil	bàigheil
+19	4819	iteach	
+20	4820	fiùdalachd	
+21	4821	cinnidheachd	
+22	4822	cleòc	cleòca cleòcan
+23	4823	mosgaid	mosgaidean
+24	4824	nighean-bhràthar	
+25	4825	fluich	
+26	4826	ath-ghintinn	
+27	4827	ealdhain	ealdhainean
+28	4828	mac-meanmna	mac-meanmainn mhac-meanmna mic-meanmna
+29	4829	olann	olainn
+30	4830	dìobhair	dìobhairt
+31	4831	balùn	balùnaichean bhalùn
+32	4832	gniomhacas	gniomhacais gniomhacasan
+33	4833	bràithreachas	bràithreachais
+34	4834	abhag	abhagan abhaig
+35	4835	geilt	geilte gheilt
+36	4836	sìdhiche	sìdhichean
+37	4837	miotag	miotagan miotaige
+38	4838	mear	meir
+39	4839	droch-bheart	droch-bheartan droch-bheirt
+40	4840	cathaireach	cathairiche chathairiche
+41	4841	suth	sutha suthan
+42	4842	coileabach	choileabach choileabaich
+43	4843	faram	faraim faraman
+44	4844	biobhair	biobhairean bìobhair bìobhairean bìobhar
+45	4845	cumhach	chumhach
+46	4846	barrach	bharrach
+47	4847	biorramaid	biorramaide
+48	4848	deilf	deilfe deilfean deilfibh
+49	4849	bratag	bratagan brataig
+50	4850	plaide	phlaide plaideachan
+51	4851	brèid	bhrèid
+52	4852	bùidsear	bùidseir
+53	4853	conntraigh	chonntraigh conntraighe conntraighean
+54	4854	diù	dhiù
+55	4855	tuathanas-gaoithe	tuathanasan-gaoithe
+56	4856	mulad	muladan mulaid
+57	4857	teoiric	teoiricean
+58	4858	taisteal	taisdeal taistealan taisteil
+59	4859	cuingealaich	chuingealaichte cuingealaichte
+60	4860	seabhag-ghorm	seabhagan-gorma seabhaig-guirme t-seabhag-ghorm
+61	4861	àiteach	h-àiteach
+62	4862	dìochuimhne	dhìochuimhne
+63	4863	farmad	farmaid
+64	4864	stuagh	stuadh stuaghadh stuaghaidh stuaghan stuaidh stuaigh
+65	4865	seumarlan	seumarlain sheumarlan
+66	4866	eadar-aghaidh	eadar-aghaidhean
+67	4867	luachadh	luachaidh
+68	4868	donas	donais
+69	4869	mòrachd	mhòrachd mòrachdan
+70	4870	dubh-shaothrachadh	dubh-shaothrachaidh
+71	4871	innteart	h-innteartaibh h-innteartan inntearta innteartaibh innteartan innteirt innteirte
+72	4872	prìne	phrine prìneachan
+73	4873	fear-teagaisg	fhear-teagaisg
+74	4874	aigne	aignean aignibh h-aignean h-aignibh
+75	4875	biurocrasaidh	bhiurocrasaidh
+76	4876	stòbh	stòbha stòibh stòibhean t-stòbh
+77	4877	cuimhnich	chuimhnich chuimhnicheamaid chuimhnichinn chuimhnichist chuimhnichiste chuimhnichteadh cuimhnicheadh cuimhnicheam cuimhnicheamaid cuimhnichear cuimhnichibh cuimhnichidh cuimhnichinn cuimhnichist cuimhnichiste cuimhnichte cuimhnichteadh cuimhnichtear
+78	4878	prìomhaid	prìomhaidean prìomhaidibh
+79	4879	cudromachd	chudromachd
+80	4880	fèineag	feineag fèineagan fèineige
+81	4881	gràin-cinnidh	grain-cinnidh
+82	4882	reachdadaireachd	reachdadaireachdan
+83	4883	buidsead	bhuidsead bhuidseid
+84	4884	reasabaidh	reasabaidhean
+85	4885	soidhn	shoidhneadh soidhnidh soidhnte
+86	4886	dealanair	dealanairean
+87	4887	lì	
+88	4888	cogal	cogail
+89	4889	treubhail	
+90	4890	riaslach	
+91	4891	àilleachd	
+92	4892	ain-diadhach	
+93	4893	eucoireachd	
+94	4894	acadamaigeach	
+95	4895	còmhnaidheach	
+96	4896	seann-phàrant	seann-phàrantan
+97	4897	a-rèist	a-rèiste
+98	4898	ùghdaras	
+99	4899	fèin-ùghdarras	fèin-ùghdarrais fèin-ùghdarrasan
+100	4900	guirmean	guirmein

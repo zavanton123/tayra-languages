@@ -1,0 +1,100 @@
+1	4101	fiodh-fillte	fhiodh-fillte fiodha-fillte fiodhan-fillte
+2	4102	cuiteag	chuiteag chuiteig
+3	4103	criochnachadh	chriochnachadh
+4	4104	guineach	ghuineach guiniche
+5	4105	comain	chomain chomainean comaine comainean comainibh
+6	4106	cagnadh	chagnadh
+7	4107	puinnseanaich	phuinnseanachadh puinnseanachadh puinnseanachaidh
+8	4108	cagailt	cagailte chagailte
+9	4109	dòirt	dhòirt dòirte dòirteadh dòirtidh
+10	4110	cruadhaich	chruadhaich cruadhachadh
+11	4111	dà-fhoghar	dà-fhoghair dà-fhogharan
+12	4112	fìneadair	fhìneadair fìneadairean
+13	4113	pragtaigeach	phragtaigeach pragtaigiche
+14	4114	deugair	dheugair
+15	4115	greimich	ghreimeachadh greimeachadh greimicheadh
+16	4116	freumhaich	fhreumhachadh fhreumhaicheadh fhreumhaicheamaid fhreumhaichinn fhreumhaichist fhreumhaichiste fhreumhaichteadh freumhaicheadh freumhaicheam freumhaicheamaid freumhaichear freumhaichibh freumhaichidh freumhaichinn freumhaichist freumhaichiste freumhaichte freumhaichteadh freumhaichtear
+17	4117	èifeachd	èifeachdan éifeachd
+18	4118	fo-abhainn	fo-aibhne fo-aibhnichean
+19	4119	mathaich	mathachadh mhathachadh
+20	4120	ainnir	aindear ainnear ainnire ainnirean
+21	4121	buinnig	bhuinnig bhuinnigeadh buinnigeadh buinnigidh
+22	4122	monolog	mhonolog
+23	4123	sòradh	shòraidh sòraidh sòraidhean
+24	4124	tomh	thomhadh tomhadh tomhaidh tomhte
+25	4125	cudtromach	chudtromach chudtromaiche cudtromaiche
+26	4126	cèir	chèir chèire cèire cèireadh cèirean cèiridh cèirte
+27	4127	lasaich	lasachadh lasachaidh lasachaidhean
+28	4128	sgàin	sgàinidh sgàinte
+29	4129	lon	loin lonan
+30	4130	pòla	phòla
+31	4131	taosgaire	taosgairean
+32	4132	pròstanach	
+33	4133	gobhlach	ghobhlaich
+34	4134	smeòrach	smeòracha smeòraich smeòraiche smeòraichean smeòraichibh
+35	4135	ploc	
+36	4136	beith	bheith
+37	4137	neach-togail	
+38	4138	bìrlinn	bhìrlinn bhìrlinnean birlinn bìrlinne bìrlinnean bìrlinnibh
+39	4139	gartan	gartain ghartain
+40	4140	brillean	bhrillean bhrillein brilleanan brillein
+41	4141	iall	iallan èille
+42	4142	boireann-dhligheachas	boireann-dhligheachais
+43	4143	bliadhn	
+44	4144	daonnachd	daonnachdan
+45	4145	buabhall	buabhallan
+46	4146	màm	
+47	4147	rùnach	
+48	4148	dearc-luachrach	dearcan-luachrach
+49	4149	clis	chlis
+50	4150	ionaltair	ionaltradh ionaltraidh
+51	4151	dealt	dealta
+52	4152	amhail	
+53	4153	bathar-cruaidh	bathair-chruaidh
+54	4154	dealbhaiche	dealbhaichean
+55	4155	àit	
+56	4156	breithneachail	
+57	4157	sgeith	sgeitheadh sgeitheam sgeitheamaid sgeithear sgeithibh sgeithidh sgeithinn sgeithist sgeithiste sgeithte sgeithteadh sgeithtear
+58	4158	ban-diùc	
+59	4159	ath-sgrìobhadh	ath-sgrìobhaidh ath-sgrìobhaidhean h-ath-sgrìobhadh
+60	4160	cileagram	chileagraim chileagram
+61	4161	teanas	teanais
+62	4162	dust	dhust
+63	4163	feadag	feadagan feadaige fheadag
+64	4164	eachdraidheal	
+65	4165	liric	liricean
+66	4166	biadhtach	
+67	4167	eag	
+68	4168	tunnag	thunnaga tunnagaibh tunnagan tunnaig tunnaige
+69	4169	stiùbhard	
+70	4170	mèar	mhèar
+71	4171	learg	
+72	4172	rionnach	rionnaich
+73	4173	clàirneid	chlàirneid clàirneidean
+74	4174	gliocas	ghliocas gliocais gliocasan
+75	4175	altrum	altruim
+76	4176	each-aibhne	eich-aibhne
+77	4177	burras	burrais burrasan
+78	4178	organach	organaiche
+79	4179	mìlsean	mhìlsean mìlseanan mìlsein
+80	4180	taghan	taghain taghanan
+81	4181	feusag	feusagan feusaig feusaige
+82	4182	seunta	sheunta
+83	4183	siad	
+84	4184	follaiseachd	
+85	4185	camhanaich	chamhanaich
+86	4186	gabhal	gabhlach
+87	4187	turtur	
+88	4188	tuba	
+89	4189	buidheagan	buidheagain
+90	4190	buidsidh	
+91	4191	goileach	
+92	4192	ana-chaidreamhach	
+93	4193	dul	dula dulachan
+94	4194	criomag	chriomag criomaig
+95	4195	cuspaireach	chuspairiche cuspairiche
+96	4196	àrc	h-arc àirce àrcan
+97	4197	mias	miasan mèise
+98	4198	cana	canachan canaichean
+99	4199	dealan-dè	dealain-dè dealanan-dè
+100	4200	slànaighear	slànaighearan slànaigheir slànaighir t-slànaighear

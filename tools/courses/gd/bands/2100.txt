@@ -1,0 +1,100 @@
+1	2001	carragh	carraigh carraighean charragh charraigh
+2	2002	bàthadh	bathadh bhàthadh bàthaidh bàthaidhean
+3	2003	saideal	saidealan saideil shaideal
+4	2004	geug	geugan gheug gèige
+5	2005	companach	chompanach chompanaich companaich
+6	2006	canàl	canàil canàlan chanal chanàil chanàl
+7	2007	bàla	bhàla bàlaichean
+8	2008	reachd	reachdan
+9	2009	beart	beairt beartan beirt bheairt bheairte bheart bheirt
+10	2010	bann	banna bannaibh bannan banntan bhann
+11	2011	nàdarrach	nàdarraich
+12	2012	sgèile	sgèilean
+13	2013	fasgadh	fasgaidh fasgaidhean fhasgadh fhasgaidh
+14	2014	ùmhlachd	h-ùmhlachd
+15	2015	atharradh	atharraidhean
+16	2016	plastaig	phlastaig plastaigean
+17	2017	leighis	leighiseadh leighiseam leighiseamaid leighisear leighiseas leighisibh leighisidh leighisinn leighisist leighisiste leighiste leighisteadh leighistear
+18	2018	fògradh	fhògradh fògraidh fògraidhean
+19	2019	bheactar	bheactaran
+20	2020	deichnear	deichnearan deichneir
+21	2021	cugallach	chugallaiche
+22	2022	domhainneachd	dhomhainneachd
+23	2023	ginteil	ghinteil ginteile
+24	2024	ban-draoidh	ban-draoidhe ban-draoidhean bhan-draoidh
+25	2025	naoinear	naoidhnear naoinearan naoineir naonar
+26	2026	puinnseanta	puinnseanach
+27	2027	co-sheòrsachd	
+28	2028	oifigeach	h-oifigeach oifigich
+29	2029	af	
+30	2030	arc	d'arc
+31	2031	peatral	peatrail pheatrail pheatral
+32	2032	gràn	gran
+33	2033	tàlaidh	thàladh thàlaidheas tàladh tàlaidhidh tàlaidhte
+34	2034	iomchaidh	iomchaidhe
+35	2035	àrdaich	dh'àrdaich h-àrdaich àrdaichear àrdaichearan àrdaicheir àrdaichidh àrdaichte
+36	2036	armaich	armachadh armaichidh armaichte
+37	2037	brot	bhrot brota brotan
+38	2038	uallach	uallaichean
+39	2039	grùpa	ghrùpa ghrùpaichean grùpaichean
+40	2040	speur	speura speuran
+41	2041	ceannairceach	ceannaircich ceannairciche ceannarcach cheannairceach cheannaircich
+42	2042	taibhse	taibhsean taibhsichean thaibhse thaibhsean
+43	2043	eadar-theangaiche	eadar-theangaichean
+44	2044	leathad	leathaid leòidean leòthaid
+45	2045	slabhraidh	slabhraidhean
+46	2046	caith	caithidh chaith chaitheadh chaitheas
+47	2047	neadaich	neadachadh neadachaidh neadaicheadh neadaicheam neadaicheamaid neadaichear neadaichibh neadaichidh neadaichinn neadaichist neadaichiste neadaichte neadaichteadh neadaichtear
+48	2048	suath	shuathadh shuathas suathadh suathaidh
+49	2049	iompachadh	dh'iompachadh iompachaidh iompachaidhean
+50	2050	tìm	thìm tìme tìmean tím
+51	2051	darach	darachaibh daraich dharacha dharachaibh dharaich
+52	2052	saillte	shaillte
+53	2053	soirbheachas	shoirbheachas soirbheachais soirbheachasan
+54	2054	sìobhaltach	shìobhaltach sìobhaltaich
+55	2055	stràc	strac stràcadh stràcaidh stràcan stràcte stràic stràice
+56	2056	corrag	chorrag corragan corraig corraige
+57	2057	gàirdean	gairdean gaoirdean ghàirdean ghàirdeanan ghàirdein gàirdeanan gàirdein
+58	2058	co-theacsa	cho-theacsa co-theacsaichean
+59	2059	deatach	deataiche deataichean dheatach
+60	2060	sealbhaich	sealbhaichidh sealbhaichte seilbheachadh seilbhich shealbhaich
+61	2061	saothraich	saothrachadh saothraicheadh saothraicheam saothraicheamaid saothraichear saothraichibh saothraichidh saothraichinn saothraichist saothraichiste saothraichte saothraichteadh saothraichtear shaothrachadh shaothraich shaothraicheadh shaothraicheamaid shaothraichinn shaothraichist shaothraichiste shaothraichteadh
+62	2062	faiche	faichean fhaiche fhaichean
+63	2063	banaltram	banaltraim banaltraman bhanaltram
+64	2064	lom	loma luime
+65	2065	bileag	bhileag bhileagan bileagan
+66	2066	poball	phobaill phoball pobaill poballan
+67	2067	lìonra	lìonradh lìonraidh lìonraidhean
+68	2068	ginideach	ghinideach ghinidich ginidich ginidiche
+69	2069	cìobair	chìobair chìobairean cìobairean cìobairibh
+70	2070	crith-thalmhainn	chrith-thalmhainn
+71	2071	poll	pholl pholladh phollainn phollaist phollaiste phollamaid pholltadh polladh pollaibh pollaidh pollainn pollaist pollaiste pollam pollamaid pollar pollta polltadh polltar puill
+72	2072	nathair	nathrach nathraichean
+73	2073	taigheadas	taigheadais thaigheadas
+74	2074	cuileag	chuileag chuileagan cuileagan cuileig cuileige
+75	2075	tairbeart	tairbeirt
+76	2076	dùisg	dhuisg dhùisg dhùisgeadh dùisgeadh dùisgidh
+77	2077	innis-mhuir	innse-muir innseachan-muir innsean-muir
+78	2078	còd	chòd cod còdaichean còdan
+79	2079	baisteadh	baistidh baistidhean bhaisteadh
+80	2080	institiud	institiudan
+81	2081	dannsair	dannsairean
+82	2082	co-bhanntachd	cho-bhanntachd co-bhanntachdan
+83	2083	cathaireil	chathaireil
+84	2084	dusan	dusain
+85	2085	strìopachas	strìopachais
+86	2086	cuirm-chiùil	chuirm-chiùil cuirme-ciùil cuirmean-ciùil
+87	2087	bean-seinn	bhean-seinn mnaoi-seinn mnathan-seinn mnà-seinn
+88	2088	clèireach	chlèireach chlèirich clèirich
+89	2089	machair	macharach machrach machraichean mhachair mhachraichean
+90	2090	coirce	choirce
+91	2091	pàrlamaideach	phàrlamaideach
+92	2092	naoidhean	naoidheanan naoidhein
+93	2093	cion	chion
+94	2094	tombaca	thombaca tombacan
+95	2095	gnìomhachail	ghnìomhachail
+96	2096	fois	fhois foise foisean
+97	2097	cleachadh	chleachadh cleachaidhean
+98	2098	sòisealachd	shòisealachd
+99	2099	a-nall	
+100	2100	oide	h-oide oidean t-oide

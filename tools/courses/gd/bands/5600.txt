@@ -1,0 +1,100 @@
+1	5501	sgorach	
+2	5502	truaill-chainnt	truaill-chainnte truaill-chainntean
+3	5503	mùirn	
+4	5504	gùn	gùin gùintean gùnachan
+5	5505	mion-chunntas	mion-chunntais mion-chunntasan
+6	5506	fearan	fhearan
+7	5507	dalta	daltachan daltaichean dhaltan
+8	5508	doilleir	
+9	5509	cumasg	cumaisg
+10	5510	clabhchòrd	
+11	5511	mang	mangan
+12	5512	frith	
+13	5513	sguain	
+14	5514	turus	
+15	5515	fuaraidh	fhuaraidh
+16	5516	màithreil	
+17	5517	taosgach	
+18	5518	bàn-ghlas	
+19	5519	dòrlach	dhòrlach
+20	5520	currac	
+21	5521	leamhan	leamhain leamhana leamhanaibh
+22	5522	bàirdse	
+23	5523	bànag	
+24	5524	blàthach	
+25	5525	glaodhadh	glaodhaidhean
+26	5526	soitheamh	
+27	5527	conasg	
+28	5528	banrìgh	
+29	5529	cost	chost
+30	5530	topag	topagan topaig
+31	5531	ciùrradh	ciùrraidh ciùrraidhean
+32	5532	ursainn	
+33	5533	ruidhil	ridhleadh ruidhleadh ruidhlidh
+34	5534	leumadair-mara	
+35	5535	neòinean-grèine	neòineanan-grèine neòinein-grèine
+36	5536	boinneag	bhoinneagan boinneagan
+37	5537	ucas	
+38	5538	muirsgian	muirsgein
+39	5539	spèil	spèileadh
+40	5540	eanraich	
+41	5541	bruis-fhiaclan	bruise-fiaclan bruisean-fiaclan
+42	5542	bùirdeiseach	
+43	5543	gleachd	
+44	5544	fàilt	
+45	5545	geimheal	geimhlean
+46	5546	badmantan	
+47	5547	eigh	eighre
+48	5548	nodha	
+49	5549	brìoghmhor	bhrìoghmhor
+50	5550	fleasgach	fleasgaich
+51	5551	mairg	
+52	5552	teàrmann	teàrmainn theàrmann
+53	5553	còig-deug	chòig-deug
+54	5554	ìochdrach	
+55	5555	leas-ainm	leas-ainmean
+56	5556	diult	dhiult
+57	5557	foirmealachd	fhoirmealachd
+58	5558	sgreab	sgreaba sgreaban
+59	5559	càth	
+60	5560	leifteanant	
+61	5561	lusair	lusaire lusairean
+62	5562	meann	minn
+63	5563	greideal	
+64	5564	aoibhinn	aibhind
+65	5565	ban-ogha	
+66	5566	seillean-obrach	seilleanan-obrach seillein-obrach
+67	5567	gobach	ghobaich gobaich gobaiche
+68	5568	fòghnan	fòghnain fòghnanan
+69	5569	iadh	dh'iadh iadhte iath
+70	5570	draghail	
+71	5571	pac	pacadh
+72	5572	fèist	fèistean
+73	5573	lurach	
+74	5574	critheanach	chritheanach
+75	5575	dis	
+76	5576	taigh-ionnlaid	taighe-ionnlaid taighean-ionnlaid
+77	5577	taitinn	taitinnte taitneadh taitnidh thaitinn
+78	5578	dòlas	dòlais dòlasan
+79	5579	dion	dionta
+80	5580	poiliteags	
+81	5581	tùrsach	
+82	5582	riasladh	
+83	5583	grinneas	
+84	5584	spìocaire	spìocairean
+85	5585	aimsireil	
+86	5586	sanntach	
+87	5587	anagram	
+88	5588	tuilleadan	thuilleadain
+89	5589	ainis	
+90	5590	ailpeach	
+91	5591	càrnabhail	
+92	5592	sliabhach	
+93	5593	ath-sgrùd	ath-sgrùdaidh ath-sgrùdte dh'ath-sgrùd
+94	5594	breitheanas	
+95	5595	tartmhor	
+96	5596	aoghaire	aoghairean
+97	5597	lasair-choille	lasrach-choille lasraichean-coille
+98	5598	oiteag	oiteagan oiteige
+99	5599	dealbhach	
+100	5600	èis	dh'èiseadh dh'èiseamaid dh'èisinn dh'èisist dh'èisiste h-èisaibh h-èisan h-èise èisa èisaibh èisan èise èiseadh èiseam èiseamaid èisean èisear èisibh èisidh èisinn èisist èisiste éis

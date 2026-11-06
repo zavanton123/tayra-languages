@@ -1,0 +1,198 @@
+{
+  "id": "gd-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Aig an taigh leis an teaghlach",
+  "description": "Ten short, simple stories about home, family and everyday life in Gaelic-speaking Scotland.",
+  "topic": "Home and family",
+  "names": [
+    "Mòrag",
+    "Calum",
+    "Ealasaid",
+    "Iain",
+    "Anna",
+    "Niall",
+    "Peigi",
+    "Barraigh",
+    "Tormod",
+    "Thormoid",
+    "Aonghas",
+    "Glaschu",
+    "Beurla",
+    "Gàidhlig",
+    "Murchadh",
+    "Mhurchaidh",
+    "Alasdair"
+  ],
+  "lessons": [
+    {
+      "title": "An taigh beag",
+      "summary": "Mòrag has a small house and Calum a big one; both are good.",
+      "newWords": [
+        "an",
+        "bi",
+        "agus",
+        "ach",
+        "seo",
+        "taigh",
+        "beag",
+        "mòr",
+        "math",
+        "aig",
+        "abair",
+        "ainm",
+        "is",
+        "e",
+        "i",
+        "anns",
+        "a"
+      ],
+      "text": "Seo Mòrag. Seo Calum. 'S e Mòrag an t-ainm aice, agus 's e Calum an t-ainm aige.\n\nTha taigh aig Mòrag. Tha i anns an taigh. Tha an taigh aig Mòrag beag.\n\nTha taigh aig Calum. Tha e anns an taigh. Tha an taigh aig Calum mòr.\n\n“A bheil an taigh agad math, a Mhòrag?” thuirt Calum.\n\n“Tha,” thuirt Mòrag. “Tha an taigh agam beag, ach tha e math. Agus an taigh agad?”\n\n“Tha an taigh agam mòr, ach tha e math,” thuirt Calum.\n\nCeistean:\nA bheil Mòrag anns an taigh?\nTha. Tha i anns an taigh.\nA bheil an taigh aig Mòrag mòr?\nChan eil. Tha an taigh aig Mòrag beag.\nA bheil an taigh aig Calum mòr?\nTha. Tha an taigh aig Calum mòr.\nA bheil an taigh aig Calum math?\nTha. Tha e math."
+    },
+    {
+      "title": "An leabhar",
+      "summary": "Ealasaid cannot find her book; Anna has it.",
+      "newWords": [
+        "leabhar",
+        "mi",
+        "thu",
+        "mo",
+        "do",
+        "cha",
+        "faic",
+        "rach",
+        "gu",
+        "cò"
+      ],
+      "text": "Chan eil an leabhar aig Ealasaid. Chan eil e anns an taigh.\n\n“Iain, am faca tu mo leabhar?” thuirt Ealasaid.\n\n“Chan fhaca,” thuirt Iain. “Chan fhaca mi do leabhar. Chan eil e agam.”\n\n“Cò aige a tha e?” thuirt Ealasaid.\n\n“Chan eil fhios agam,” thuirt Iain. “A bheil e aig Anna?”\n\nChaidh Ealasaid gu taigh Anna.\n\n“Anna, am faca tu mo leabhar?” thuirt Ealasaid.\n\n“Chunnaic,” thuirt Anna. “Chunnaic mi do leabhar. Tha e agam. Seo e.”\n\nChaidh Ealasaid gu a taigh fhèin leis an leabhar.\n\nCeistean:\nA bheil an leabhar anns an taigh?\nChan eil. Chan eil an leabhar anns an taigh.\nAm faca Iain an leabhar?\nChan fhaca. Chan fhaca Iain an leabhar.\nCò aige a tha an leabhar?\nTha an leabhar aig Anna.\nCàit an deach Ealasaid?\nChaidh Ealasaid gu taigh Anna."
+    },
+    {
+      "title": "Cò às a tha sibh?",
+      "summary": "Anna meets a couple from Barra who now live in her town.",
+      "newWords": [
+        "sibh",
+        "sinn",
+        "à",
+        "fuirich",
+        "baile",
+        "eilean",
+        "iad",
+        "ann",
+        "dè",
+        "cuideachd",
+        "air"
+      ],
+      "text": "Tha Niall agus Peigi anns a' bhaile. Tha iad a' fuireach ann an taigh beag.\n\nChunnaic Anna iad.\n\n“Cò às a tha sibh?” thuirt Anna.\n\n“Tha sinn à Barraigh,” thuirt Niall. “'S e eilean beag a th' ann.”\n\n“Dè an t-ainm a th' oirbh?” thuirt Anna.\n\n“'S e Niall a th' orm, agus seo Peigi,” thuirt e.\n\n“A bheil sibh a' fuireach anns a' bhaile seo?” thuirt Anna.\n\n“Tha,” thuirt Peigi. “Tha sinn a' fuireach anns a' bhaile a-nis, ach tha taigh againn anns an eilean cuideachd.”\n\n“Tha mi fhìn a' fuireach anns a' bhaile cuideachd,” thuirt Anna.\n\nCeistean:\nCò às a tha Niall agus Peigi?\nTha iad à Barraigh.\nDè an t-ainm a th' air an eilean?\n'S e Barraigh an t-ainm a th' air.\nAn e eilean mòr a th' ann am Barraigh?\nChan e. 'S e eilean beag a th' ann.\nCàit a bheil iad a' fuireach a-nis?\nTha iad a' fuireach anns a' bhaile.\nA bheil taigh aca anns an eilean?\nTha. Tha taigh aca anns an eilean."
+    },
+    {
+      "title": "Latha aig an obair",
+      "summary": "Tormod goes to work every day, but not today.",
+      "newWords": [
+        "obair",
+        "ag",
+        "latha",
+        "uile",
+        "falbh",
+        "nuair",
+        "eile",
+        "an-diugh",
+        "an-dè",
+        "fear",
+        "thig"
+      ],
+      "text": "Tha Tormod ag obair anns a' bhaile. Bidh e a' falbh gu obair a h-uile latha.\n\nAn-dè bha Tormod ag obair. Bha fear eile ag obair còmhla ris. 'S e Aonghas an t-ainm a th' air an fhear eile.\n\n“A bheil thu ag obair a h-uile latha?” thuirt Aonghas.\n\n“Tha,” thuirt Tormod. “Bidh mi ag obair a h-uile latha, ach chan eil mi ag obair an-diugh.”\n\nAn-diugh chan eil Tormod a' falbh. Tha e anns an taigh. Nuair a thàinig Aonghas bhon obair, chaidh e gu taigh Thormoid. Nuair a chunnaic Tormod e, bha e toilichte.\n\n“Thig a-steach!” thuirt Tormod.\n\nCeistean:\nCàit a bheil Tormod ag obair?\nTha Tormod ag obair anns a' bhaile.\nCò am fear eile?\n'S e Aonghas am fear eile.\nAn robh Tormod ag obair an-dè?\nBha. Bha Tormod ag obair an-dè.\nA bheil Tormod ag obair an-diugh?\nChan eil. Tha e anns an taigh an-diugh."
+    },
+    {
+      "title": "Trì leabhraichean",
+      "summary": "Peigi gives away two of her three books.",
+      "newWords": [
+        "aon",
+        "dà",
+        "trì",
+        "thoir",
+        "faigh",
+        "fhèin",
+        "sin",
+        "le",
+        "ri"
+      ],
+      "text": "Tha trì leabhraichean aig Peigi. Tha aon leabhar mòr agus dà leabhar beag aice.\n\nThàinig Iain gu taigh Peigi.\n\n“Seo leabhar dhut,” thuirt Peigi. Thug i aon leabhar beag do dh'Iain.\n\nThàinig Anna gu taigh Peigi. Thug Peigi leabhar beag do dh'Anna cuideachd. Fhuair Iain leabhar, agus fhuair Anna leabhar.\n\n“Agus thu fhèin?” thuirt Anna ri Peigi.\n\n“Tha aon leabhar agam fhèin,” thuirt Peigi. “Thug mi dà leabhar dhuibh, ach tha an leabhar mòr agam. Tha sin math.”\n\n“Tha sin math,” thuirt Iain ri Anna.\n\nDh'fhalbh Iain le a leabhar, agus dh'fhalbh Anna le a leabhar fhèin.\n\nCeistean:\nA bheil trì leabhraichean aig Peigi?\nTha. Tha trì leabhraichean aig Peigi.\nDè a thug Peigi do dh'Iain?\nThug i aon leabhar beag do dh'Iain.\nDè a fhuair Anna?\nFhuair Anna leabhar beag.\nDè an leabhar a tha aig Peigi fhèin?\nTha an leabhar mòr aig Peigi fhèin."
+    },
+    {
+      "title": "A' chiad leabhar",
+      "summary": "Mòrag writes her first book, about an island, in one year.",
+      "newWords": [
+        "sgrìobh",
+        "bliadhna",
+        "airson",
+        "ciad",
+        "mu",
+        "dèan",
+        "cuir",
+        "dèidh"
+      ],
+      "text": "Sgrìobh Mòrag leabhar. 'S e a' chiad leabhar aice a th' ann. Tha an leabhar mu eilean beag.\n\nRinn i an obair ann an aon bhliadhna. A h-uile latha, sgrìobh i anns an taigh. An dèidh bliadhna, bha an leabhar deiseil.\n\nAn dèidh sin, chuir i an leabhar gu Iain. Sgrìobh Iain thuice: “Tha an leabhar agad math, a Mhòrag!”\n\nThuirt Mòrag: “Rinn mi obair mhòr air, ach tha mi airson leabhar eile a sgrìobhadh a-nis.”\n\nCeistean:\nDè a sgrìobh Mòrag?\nSgrìobh Mòrag leabhar mu eilean beag.\nAn e seo a' chiad leabhar aice?\n'S e. 'S e a' chiad leabhar aice a th' ann.\nDè a chuir i gu Iain?\nChuir i an leabhar gu Iain.\nA bheil i airson leabhar eile a sgrìobhadh?\nTha. Tha i airson leabhar eile a sgrìobhadh."
+    },
+    {
+      "title": "Tha fios aig Ealasaid",
+      "summary": "Tormod is learning Gaelic and can speak a little of it to Ealasaid.",
+      "newWords": [
+        "bruidhinn",
+        "urrainn",
+        "fios",
+        "gur",
+        "cuid",
+        "de",
+        "nach",
+        "na",
+        "duine"
+      ],
+      "text": "Tha Tormod à Glaschu. Tha e a' bruidhinn Beurla, ach tha e airson Gàidhlig a bhruidhinn cuideachd.\n\n“An urrainn dhut Gàidhlig a bhruidhinn?” thuirt Ealasaid ris.\n\n“Is urrainn,” thuirt Tormod, “ach chan urrainn dhomh a bruidhinn gu math fhathast.”\n\n“Tha fios agam gur urrainn dhut,” thuirt Ealasaid. “Tha thu ga bruidhinn rium a-nis!”\n\nTha cuid de na daoine anns a' bhaile a' bruidhinn Gàidhlig. Nach eil sin math? Tha fios aig Tormod gur e obair mhòr a th' ann, ach tha e toilichte.\n\nCeistean:\nCò às a tha Tormod?\nTha Tormod à Glaschu.\nAn urrainn dha Gàidhlig a bhruidhinn?\nIs urrainn. Is urrainn dha Gàidhlig a bhruidhinn.\nNach eil fios aig Ealasaid gur urrainn dha Gàidhlig a bhruidhinn?\nTha. Tha fios aice gur urrainn dha.\nA bheil daoine anns a' bhaile a' bruidhinn Gàidhlig?\nTha. Tha cuid de na daoine a' bruidhinn Gàidhlig."
+    },
+    {
+      "title": "Faisg air an uisge",
+      "summary": "Murchadh's house stands by the water, below Peigi's, and he is happy there.",
+      "newWords": [
+        "faisg",
+        "taobh",
+        "cionn",
+        "fo",
+        "eadar",
+        "far",
+        "uisge",
+        "ceann",
+        "glè",
+        "cho"
+      ],
+      "text": "Tha Murchadh a' fuireach ann an eilean beag. Tha an taigh aige faisg air an uisge, air taobh an eilein. 'S e seo an t-àite far a bheil e toilichte.\n\nTha taigh Peigi air an aon taobh, os cionn an taighe aige. Tha taigh Mhurchaidh eadar taigh Peigi agus an t-uisge, agus tha an t-uisge fodha.\n\nAig ceann an latha, bidh Murchadh a' falbh gu ceann an eilein, far a bheil e glè mhath.\n\n“Tha e cho math an seo!” thuirt Murchadh ri Peigi. “Chan eil taigh eile cho math ris an taigh seo.”\n\n“Glè mhath,” thuirt Peigi.\n\nCeistean:\nCàit a bheil taigh Mhurchaidh?\nTha taigh Mhurchaidh faisg air an uisge.\nCò an taigh a tha os a chionn?\nTha taigh Peigi os a chionn.\nDè a tha fo thaigh Mhurchaidh?\nTha an t-uisge fo thaigh Mhurchaidh.\nA bheil taigh Mhurchaidh eadar taigh Peigi agus an t-uisge?\nTha. Tha e eadar taigh Peigi agus an t-uisge."
+    },
+    {
+      "title": "Mas e do thoil e",
+      "summary": "Anna has to leave in an hour and asks Iain to bring the small book.",
+      "newWords": [
+        "feum",
+        "toil",
+        "uair",
+        "nas",
+        "gun",
+        "no",
+        "bhon",
+        "mar"
+      ],
+      "text": "Feumaidh Anna falbh gu Glaschu an-diugh. Tha uair aice fhathast, ach chan eil an leabhar aice.\n\n“Mas e do thoil e, Iain, an toir thu dhomh an leabhar?” thuirt Anna. “Feumaidh mi falbh an dèidh uair. Chan urrainn dhomh falbh gun leabhar.”\n\n“Bheir,” thuirt Iain. “Cò an leabhar a tha thu ag iarraidh, an leabhar mòr no an leabhar beag?”\n\n“An leabhar beag, mas e do thoil e,” thuirt Anna. “Tha e nas fheàrr. Tha an leabhar mòr nas motha na tha mi ag iarraidh.”\n\nThàinig Iain bhon obair mar a thuirt e. Dh'fhalbh Anna an dèidh uair, mar a thuirt i.\n\nCeistean:\nCuin a dh'fheumas Anna falbh?\nFeumaidh i falbh an dèidh uair.\nCò an leabhar a tha Anna ag iarraidh, an leabhar mòr no an leabhar beag?\n'S e an leabhar beag a tha Anna ag iarraidh.\nCò thàinig bhon obair?\nThàinig Iain bhon obair.\nAn do dh'fhalbh Anna gun leabhar?\nCha do dh'fhalbh. Dh'fhalbh i leis an leabhar bheag."
+    },
+    {
+      "title": "Dùthaich eile",
+      "summary": "Alasdair works abroad for two years, writes to Peigi and comes home.",
+      "newWords": [
+        "dùthaich",
+        "as",
+        "cur",
+        "gabh",
+        "dèanamh",
+        "bho"
+      ],
+      "text": "Chaidh Alasdair gu dùthaich eile. 'S e dùthaich mhòr a th' ann. Ghabh e obair ann, agus bha e a' fuireach ann airson dà bhliadhna.\n\nBha Alasdair a' cur litir gu Peigi, agus bha Peigi a' cur litir thuige. Fhuair e litir bho Pheigi.\n\n“Dè tha thu a' dèanamh?” sgrìobh Peigi.\n\n“Tha mi a' dèanamh obair mhath,” sgrìobh Alasdair. “Tha a h-uile duine an seo math, ach 's e Barraigh an t-àite as fheàrr.”\n\nAn dèidh dà bhliadhna thàinig e gu a dhùthaich fhèin. “'S mise an duine as toilichte a-nis!” thuirt e.\n\nCeistean:\nCàit an deach Alasdair?\nChaidh Alasdair gu dùthaich eile.\nDè a ghabh e ann?\nGhabh e obair ann.\nDè a fhuair e bho Pheigi?\nFhuair e litir bho Pheigi.\nCuin a thàinig e gu a dhùthaich fhèin?\nThàinig e an dèidh dà bhliadhna."
+    }
+  ]
+}

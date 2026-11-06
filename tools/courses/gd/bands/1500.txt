@@ -1,0 +1,100 @@
+1	1401	làimhsich	làimhseachadh làimhseachaidh làimhsicheadh làimhsicheas làimhsichidh làimhsichte
+2	1402	glac	ghlac ghlacainn ghlacaist ghlacaiste ghlacamaid ghlacas ghlactadh glacaibh glacainn glacaist glacaiste glacam glacamaid glacan glacannan glacar glacta glactadh glactar glacte glaice
+3	1403	rianachd	rianachdan
+4	1404	labhairt	labhairtean
+5	1405	sàr	sar shàr
+6	1406	clasaigeach	chlasaigeach chlasaigich clasaigich clasaigiche
+7	1407	àithn	àitheanta àithne àithneadh àithnear àithnidh àithnte
+8	1408	tarraingeach	tarraingiche tharraingeach tharraingich tharraingiche
+9	1409	tagh	taghte thagh thaghas
+10	1410	thoradh	
+11	1411	factaraidh	factaraidhean fhactaraidh
+12	1412	fàinne	fainne fhainne fhàinne fhàinneachan fàinneachan fàinnean fàinntichean
+13	1413	pìob	phìob phìoba phìoban piob pioban pìoba pìoban
+14	1414	eaconomach	eaconomaiche
+15	1415	caitligeach	caitligich chaitligeach
+16	1416	suim	suime suimean suimeannan sùim t-suim
+17	1417	flùr	fhlùir fhlùr fhlùraichean flùir flùraichean flùran
+18	1418	tobar	thobar thobraichean thobraichibh tobair tobrach tobraichean tobraichibh
+19	1419	soirbhich	shoirbheachadh shoirbhich shoirbhicheadh shoirbhicheamaid shoirbhichinn shoirbhichist shoirbhichiste shoirbhichteadh soirbheachadh soirbheachaidh soirbhicheadh soirbhicheam soirbhicheamaid soirbhichear soirbhichibh soirbhichidh soirbhichinn soirbhichist soirbhichiste soirbhichte soirbhichteadh soirbhichtear
+20	1420	fuaimneachadh	fhuaimneachadh fhuaimneachaidh fuaimneachaidh fuaimneachaidhean
+21	1421	urras	dh'urras t-urras urrais urrasan
+22	1422	gunna	ghunna ghunnaichean gunnachan gunnaichean
+23	1423	gèill	gheill ghèill ghèilleadh ghèilleamaid ghèillinn ghèillist ghèilliste ghèillteadh gèilleadh gèilleam gèilleamaid gèillear gèillibh gèillidh gèillinn gèillist gèilliste gèillte gèillteadh gèilltear
+24	1424	muileann	mhuileann mhuilinn mhuilnean muileannan muilinn muilne muilnean
+25	1425	diofraichte	dhiofraichte
+26	1426	dleastanas	dhleastanas dhleastanasan dleastanais dleastanasan
+27	1427	uaimh	h-uaimh uaimhe uaimhean uamh uamha uamhan
+28	1428	piàna	phiana phiàna phiàno piana piànathan piàno piànothan
+29	1429	cultarach	chultarach chultaraich cultaraich culturach
+30	1430	fireann	fhireann
+31	1431	còmhradh	chòmhradh chòmhraidh chòmhraidhean còmhraidh còmhraidhean
+32	1432	siùcar	shiùcair shiùcar siùcair siùcaran t-siùcar
+33	1433	pàp	phàp phàpa pàpa
+34	1434	poileatagach	phoileatagach poileatagaich
+35	1435	salann	salainn shalainn shalann
+36	1436	caibineat	caibineit chaibineat chaibineit
+37	1437	grèim	ghreim ghrèim grèimte
+38	1438	sgap	sgapadh sgapaidh sgapta sgapte
+39	1439	tractar	thractaran tractair tractaran
+40	1440	teanga	teangaibh teangan teangannan theanga theangan theangannan
+41	1441	gainmheach	gainmheachadh gainmhich gainmhiche gainmhichean gainmhichibh ghainmheach ghainmheacha ghainmhich ghainmhiche
+42	1442	litreachadh	litreachaidh litreachaidhean
+43	1443	cosg	chosg chosgadh chosgar chosgas coisg cosgadh cosgaidh cosgte
+44	1444	inntinn	h-inntinn inntinne inntinnean n-inntinn
+45	1445	adhartach	adhartachadh adhartaich adhartaiche
+46	1446	sòisealach	shòisealach sòisealaich
+47	1447	ginealach	ghinealach ghinealaich ginealaich ginealaichean
+48	1448	buain	bhuain bhuaineadh bhuaineas buainear buainidh buainte
+49	1449	treasamh	threasamh
+50	1450	bodhaig	bhodhaig bhodhaige bodhaige bodhaigean
+51	1451	spiorad	spioradan spioraid
+52	1452	lìog	lìogan
+53	1453	coireigin	choireigin
+54	1454	mìosachan	mhìosachain mhìosachan mìosachain
+55	1455	àrd-ùrlar	t-àrd-ùrlar àrd-ùrlair àrd-ùrlaran
+56	1456	mòinteach	mhòinteach mhòintich mòintich mòintichean
+57	1457	follaiseach	fhollaiseach fhollaisich fhollaisiche follaisich follasach folluiseach
+58	1458	cràbhach	chràbhach chràbhaich crabhach cràbhaich
+59	1459	libearalach	libearalaich libearalaiche
+60	1460	bliadhnail	bhliadhnail bliadhnaile
+61	1461	cidhe	chidhe cidheachan
+62	1462	staing	stainge staingean
+63	1463	suaicheantas	shuaicheantas suaicheantais t-suaicheantas
+64	1464	fuilteach	fhuilteach fhuiltich fhuiltiche fuiltiche
+65	1465	iarrtas	iarrtais iarrtasan t-iarrtas
+66	1466	ceàrnag	ceàrnagaibh ceàrnagan ceàrnaig ceàrnaige cheàrnag cheàrnaga cheàrnaig
+67	1467	càirdeil	chàirdeil càirdeile
+68	1468	manachainn	manachainne manachainnean mhanachainn
+69	1469	ìmpire	h-impire impire impirean t-impire t-ìmpire ìmpirean ìompaire
+70	1470	robhar	
+71	1471	cànanachas	cànanachais
+72	1472	gràmar	ghràmair ghràmar gràmair gràmaran
+73	1473	òigridh	dh'òigridh h-òigridh
+74	1474	deachdaire	deachdairean dheachdaire
+75	1475	gearradh	gearraidhean gearraidhibh ghearradh ghearraidh
+76	1476	pàiste	phàisde phàisdean phàiste phàistean pàisde pàisdean pàistean páiste
+77	1477	fiosaigs	fhiosaigs
+78	1478	tursa	thursa thursachan tursachan
+79	1479	miann	mhiann mhiannan miannan mianntan
+80	1480	luibh	luibhe luibhean
+81	1481	feòil	dh'fheòil feòilean feòilibh feòl feòla fheòil fheòilean fheòla
+82	1482	boma	bhoma bhomaichean bomaicheaibh bomaichean
+83	1483	ficheadamh	fhicheadamh
+84	1484	paraiste	paraistean pharaiste pharaistean
+85	1485	sgeama	sgeamaichean
+86	1486	aotrom	aotroime aotruime h-aotrom
+87	1487	sgìreil	
+88	1488	modh	mhodh modha modhan modhannan
+89	1489	neach-ealain	luchd-ealain
+90	1490	maoinich	maoineachadh maoineachaidh maoinichidh maoinichte mhaoineachadh mhaoineachaidh mhaoinich
+91	1491	borgh	bhorgh bhuirgh borghan buirgh
+92	1492	cuibhle	chuibhle cuibhlean cuibhlichean
+93	1493	caitheamh	caitheamhan caitheimh chaitheamh chaitheimh
+94	1494	eachdraiche	eachdraichean
+95	1495	dìleab	dhìleab
+96	1496	sreap	shreap sreapadh sreapaidh sreapte
+97	1497	muillean	mhuillean muilleanan muillein
+98	1498	leag	leagadh leagail leagas
+99	1499	camanachd	
+100	1500	cealla	ceallan chealla cheallan

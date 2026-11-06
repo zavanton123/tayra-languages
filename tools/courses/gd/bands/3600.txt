@@ -1,0 +1,100 @@
+1	3501	snùcair	shnùcair
+2	3502	comhachag	chomhachag comhachagan comhachaige
+3	3503	beannaichte	bheannaichte
+4	3504	cèis	cèise cèisean
+5	3505	heileacoptar	heileacoptair heileacoptairean
+6	3506	bòtann	bhòtannan bòtainn bòtannan
+7	3507	sgoilt	sgoilteadh
+8	3508	barraichte	bharraichte
+9	3509	cianalas	cianalais
+10	3510	com-pàirteachas	chom-pàirteachas com-pàirteachais com-pàirteachasan
+11	3511	fead	feadaidh feadail feadte fheadainn fheadar
+12	3512	fiamh	fhiamh fiamha fiamhan
+13	3513	gintinneachd	ghintinneachd
+14	3514	slugan	slugain sluganan t-slugan
+15	3515	reiceadair	reiceadairean
+16	3516	càirdineal	chàirdineal chàirdineil
+17	3517	leabhar-iùil	leabhair-iùil leabhraichean-iùil
+18	3518	tiùba	tiùbaichean
+19	3519	fùirneis	fhùirneis fùirneisean
+20	3520	gluasadach	ghluasadach ghluasadaich gluasadaiche
+21	3521	caolan	caolain caolanan chaolain
+22	3522	ceus	ceusadh ceusaidh ceusar cheus cheusadh
+23	3523	bothag	bhothag bothaig
+24	3524	dìneasar	dhìneasair dhìneasaran dìneasair dìneasaran
+25	3525	cog	chog cogte
+26	3526	brat-ùrlair	
+27	3527	glaodh	ghlaodh ghlaodhadh ghlaodhan glaodhaidh glaodhan glaodhte glaoidh
+28	3528	dealanachd	
+29	3529	diut	
+30	3530	eòlas-talmhainn	eòlais-talmhainn eòlasan-talmhainn
+31	3531	tritheamh	
+32	3532	cruit-chòrda	
+33	3533	òrdan	òrdain òrdanan
+34	3534	dreuchdail	
+35	3535	lùthmhor	lùthmhoir lùthmhoire
+36	3536	calma	
+37	3537	clach-mheallain	clachan-meallain
+38	3538	co-ghnèitheach	co-ghnèithich
+39	3539	iarmailt	iarmailte
+40	3540	riochdachail	
+41	3541	neòinean	neòineanan neòinein
+42	3542	uile-choitcheann	
+43	3543	seòclaid	
+44	3544	leanabas	
+45	3545	clann-nighean	cloinn-nighean cloinne-nighean
+46	3546	coirbeachd	coirbeachdan
+47	3547	snaidhpear	snaidhpearan snaidhpeir
+48	3548	teòiridheach	theòiridheach
+49	3549	fiosachd	fhiosachd
+50	3550	cruth-tìre	crutha-tìre cruthan-tìre cruthannan-tìre
+51	3551	fodar	fhodair fodair
+52	3552	meadhan-oidhche	meadhain-oidhche mheadhan-oidhche
+53	3553	misneach	mhisneach
+54	3554	cleasachd	chleasachd
+55	3555	beusach	bheusach
+56	3556	eabar	eabair
+57	3557	beath-eachdraidh	beath-eachdraidhe beath-eachdraidhean
+58	3558	faidhbhile	faidhbhilean
+59	3559	deòin	dheòin
+60	3560	fanaid	fanaide
+61	3561	campadh	campaidh
+62	3562	àrdan	h-àrdan àrdain
+63	3563	pònaidh	pònaidhean
+64	3564	onorach	t-onorach
+65	3565	diùraidh	diùraidhean
+66	3566	falamhachd	fhalamhachd
+67	3567	cleachdaiche	chleachdaichean cleachdaichean cleachdaichibh
+68	3568	drannd-eun	drannd-eòin
+69	3569	tàrmaich	thàrmaich tàrmachadh tàrmaichidh
+70	3570	dreag	dreagan dreige
+71	3571	ribheid	ribheidean
+72	3572	muime	buime mhuime muimeachan
+73	3573	aithreachas	aithreachais
+74	3574	cinneach	cinnich
+75	3575	bruadar	bhruadair bruadaran
+76	3576	mion-fhacal	mhion-fhacal mion-fhacail mion-fhaclan
+77	3577	muir-thìreach	muir-thìrich
+78	3578	drumair	drumairean
+79	3579	saidhbhir	saoibhir
+80	3580	uinnean	uinneanan uinnein
+81	3581	seangan	seangain seanganan
+82	3582	fallain	fhallain fhallaine
+83	3583	mainear	mainearan maineir
+84	3584	spoth	spothaidh spothte
+85	3585	cliamhainn	chliamhainn cleamhna cleamhnan
+86	3586	cochall	chochaill chochall chochalla chochallaibh cochaill cochallaibh cochallan
+87	3587	ciomach	chiomach ciomaich
+88	3588	coimhearsneachd	choimhearsneachd coimhearsneachdan
+89	3589	curraicealam	churraicealaim churraicealam
+90	3590	peinnsean	peinnseanan peinnsein
+91	3591	luchdaich	luchdachadh luchdachaidh luchdadh luchdaicheadh luchdaicheam luchdaicheamaid luchdaichear luchdaichibh luchdaichidh luchdaichinn luchdaichist luchdaichiste luchdaichte luchdaichteadh luchdaichtear
+92	3592	iomair	dh'iomair iomaire iomairean iomairidh iormadh
+93	3593	cuilbheart	chuilbheart chuilbheartan cuilbheartan cuilbheirt
+94	3594	fòid	fhoid fhòd fhòid foid fòd fòide fòidean
+95	3595	riabhach	
+96	3596	inc	ince incean t-inc
+97	3597	foirlionadh	
+98	3598	coiteanta	
+99	3599	coibhneil	
+100	3600	comhfhurtail	

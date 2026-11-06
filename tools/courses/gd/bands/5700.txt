@@ -1,0 +1,100 @@
+1	5601	aindeonach	
+2	5602	bannal	bannail bhannal
+3	5603	oirceadal	
+4	5604	leabhar-d	leabhair-d leabhraichean-d
+5	5605	màirnealach	màirnealachadh
+6	5606	bachall	bachaill bachull
+7	5607	bràithreil	bràithreile
+8	5608	speireag	speireagan speireig
+9	5609	latha-fèille	latha-féille là-fèille
+10	5610	buaille	
+11	5611	rothar	rotharan
+12	5612	flùranach	
+13	5613	leaba	
+14	5614	fear-poilitigs	
+15	5615	gall-chnò	gall-chnòtha
+16	5616	dubhan-iasgaich	
+17	5617	sacsafòn	
+18	5618	dùdach	dùdaich dùdaichean
+19	5619	piseag	piseagan piseige
+20	5620	gàirich	
+21	5621	breun	breunad breunaidh breunte brèan
+22	5622	pìolat	pìolait
+23	5623	creamh	creamha creamhan
+24	5624	maor-sìth	mhaor-sìth
+25	5625	amadan-mòintich	amadain-mhòintich
+26	5626	luinneach	
+27	5627	sàraichte	sàruichte
+28	5628	leanabail	
+29	5629	tabhairtear	tabhairtearan thabhairtear
+30	5630	guailleachan	ghuailleachan guailleachain guailleachanan
+31	5631	taisealan	
+32	5632	cabhair	chabhair
+33	5633	tart	thart
+34	5634	polas	
+35	5635	truaillidheachd	truaillidheachdan
+36	5636	gean	
+37	5637	iolair-iasgaich	iolaire-iasgaich iolairean-iasgaich
+38	5638	lobhta	lobhtaichean
+39	5639	mì-laghaich	mhì-laghaich mì-laghaichidh mì-laghaichte
+40	5640	fuineadair	fuineadairean
+41	5641	smal	smail smalan
+42	5642	mùirneach	mhùirneach
+43	5643	ath-chòireachadh	
+44	5644	muc-bhiorach	mucan-biorach muice-biorach
+45	5645	caothach	
+46	5646	clàr-amais	clàir-amais clàran-amais
+47	5647	rothaidhe	rothaiche rothaichean rothaidhean
+48	5648	sgait	
+49	5649	ath-sgrùdaichte	
+50	5650	cothromachd	
+51	5651	deargann	deargannan
+52	5652	reusanaich	reusanachadh
+53	5653	comhachag-bhàn	chomhachag-bhàn comhachagan-bàna comhachaige-bàine
+54	5654	smalag	
+55	5655	pòcair	
+56	5656	stròdhail	
+57	5657	mì-ghnàthachadh	
+58	5658	siris	sirisean sirist
+59	5659	smocte	
+60	5660	braidean	
+61	5661	taigh-còmhnaidh	
+62	5662	msu	
+63	5663	raighd	
+64	5664	seann-nòs	seann-nòis seann-nòsan t-seann-nòs
+65	5665	speach	speacha speachan
+66	5666	crannchur	chrannchur crannchuir crannchuran
+67	5667	frithealaiche	frithealaicheaibh frithealaichean
+68	5668	caolaich	caolachadh
+69	5669	solaraiche	sholaraiche solaraichean
+70	5670	mì-reusanta	mhì-reusanta
+71	5671	balgair	balgairean bhalgair
+72	5672	eireachdas	
+73	5673	cian-dhealbh	chian-dhealbh
+74	5674	geam	
+75	5675	fàsmhorachd	
+76	5676	gàirneilearachd	
+77	5677	ornaid	ornaidean
+78	5678	ath-ghin	ath-ghinidh ath-ghinte
+79	5679	fo-rèile	fo-rèilichean
+80	5680	teicneolach	teicneolaiche
+81	5681	amaladh	amalaidh amalaidhean
+82	5682	cnagair	
+83	5683	flathail	
+84	5684	àilleagan	àilleagain àilleagana
+85	5685	domblasach	dhomblasach
+86	5686	meadhg	
+87	5687	domblas	dhomblais
+88	5688	eileactron	
+89	5689	duilleachan	
+90	5690	taibhsearachd	taibhsearachdan
+91	5691	toinisgeil	
+92	5692	doilgheas	dhoilgheasan dhoilgheis doilgheasaibh doilgheasan doilgheis
+93	5693	liotach	
+94	5694	faoineas	
+95	5695	barrachas	
+96	5696	tearb	tearbadh
+97	5697	tulgadh	thulgadh
+98	5698	farad	fharad
+99	5699	lèigheadaireachd	
+100	5700	dorsair	dorsairean

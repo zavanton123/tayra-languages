@@ -1,0 +1,100 @@
+1	1301	sinnsear	shinnsear shinnsearan shinnsirean sinnsearan sinnsir sinnsire sinnsirean t-sinnsear
+2	1302	leanabh	leanabhan leanaibh leinibh
+3	1303	mamal	mamalan mhamal
+4	1304	ceartas	ceartais cheartais cheartas
+5	1305	rubha	rubhannan
+6	1306	call	calla callaidhean
+7	1307	cultarail	chultarail culturail
+8	1308	daingneach	daingniche daingnichean dhaingneach dhaingnichean
+9	1309	plèana	phlèana phlèanaichean pleana pleanaichean plèanaichean
+10	1310	gnìomhair	ghnìomhair ghnìomhairean gniomhair gniomhar gnìomhairean gnìomhar
+11	1311	cnàmh	chnàmh chnàmha chnàmhaidh chnàmhan cnàmha cnàmhadh cnàmhaidh cnàmhan cnàmhte cnámh
+12	1312	goid	ghoid ghoideadh goide goidean goididh goidte
+13	1313	foirmeil	fhoirmeil fhoirmeile foirmeile
+14	1314	banca	bancaichean bhanca bhancaichean
+15	1315	proifeiseanta	phroifeiseanta
+16	1316	bunaiteach	bhunaiteach bunaitich bunaitiche
+17	1317	seusan	seusain sheusain sheusan
+18	1318	còmhdhail	chomhdhail chòmhdhail chòmhdhalach còmhdalach còmhdalaichean còmhdhailean còmhdhalach
+19	1319	toirmeasg	thoirmeasg thoirmisg thoirmisgeadh toirmisg toirmisgeadh toirmisgte
+20	1320	tagair	tagairte tagradh tagraidh tagraidhean thagair thagradh
+21	1321	mionaid	mhionaid mhionaidean mionaide mionaidean
+22	1322	tubaist	thubaist thubaistean tubaiste tubaistean
+23	1323	teicneolas	teicneolais teicneolasan teicneòlais teicneòlas teicneòlasan theicneolas theicneòlas
+24	1324	aontachadh	aontachaidh aontachaidhean dh'aontachadh h-aontachadh t-aontachadh
+25	1325	piseach	pisich
+26	1326	sgrìobhaiche	sgrìobhaichean
+27	1327	blas	bhlas bhlasan blais blasan
+28	1328	prionnsa	phrionnsa phrionnsaichean prionnsachan prionnsaichean prionnsan
+29	1329	gort	ghoirt ghort goirt goirte goirtean gorta gortan
+30	1330	toll	thuill tolladh tollaidh tollte tuill
+31	1331	nàisean	nàiseanan nàisein
+32	1332	mol	mhol mholaichean mholainn mholaist mholaiste mholamaid mholan mholas mholtadh moil mola molaibh molaichean molaichibh molainn molaist molaiste molam molamaid molan molar molta moltadh moltar
+33	1333	rùnaire	rùnairean
+34	1334	srath	shrath sraith sratha srathan t-srath
+35	1335	cumhachdach	chumhachdach chumhachdaiche comhachdach cumhachdaich cumhachdaiche
+36	1336	càin	chain chàin chàineadh chàineamaid chàininn chàinist chàiniste chàinteadh càine càineam càineamaid càinear càinibh càinidh càininn càinist càiniste càinte càinteadh càintean càintear cànach
+37	1337	gann	ghann ghanna
+38	1338	ola	h-ola olaichean
+39	1339	ugh	h-uighean t-ugh uigh uighe uighean
+40	1340	achd	achdan achdannan h-achd t-achd
+41	1341	poileagan	phoileagain phoileagan poileagain poileaganan
+42	1342	òraidiche	òraidichean
+43	1343	dìomhair	dhìomhair dhìomhaire dìomhaire
+44	1344	co-chomharra	cho-chomharra co-chomharran
+45	1345	cunbhalach	chunbhalach
+46	1346	binn	bhinn binne binnean binnein
+47	1347	òraid	oraid òraide òraidean
+48	1348	beachdaich	beachdachadh beachdachaidh beachdaichte bheachdachadh bheachdaich bheachdaicheadh bheachdaicheas
+49	1349	sàl	sail saile sailthean sal shail shàil shàile shàl sàil sàile sál t-sàil t-sàl
+50	1350	sgìreachd	
+51	1351	colonaidh	cholonaidh cholonaidhean colonaidhean
+52	1352	cunnart	chunnart cunnairt cunnartan
+53	1353	glas	ghlais ghlas ghlasa ghlasaibh ghlasainn ghlasaist ghlasaiste ghlasamaid ghlastadh glais glaise glasa glasadh glasaibh glasaidh glasainn glasaist glasaiste glasam glasamaid glasan glasar glasta glastadh glastar
+54	1354	rian	rianan
+55	1355	buntàta	bhuntàta buntata
+56	1356	ath-leasachadh	ath-leasachaidh ath-leasachaidhean t-ath-leasachadh
+57	1357	abairt	abairtean dh'abairt
+58	1358	àrainn	dh'àrainn h-arainn h-àrainn àrainne àrainnean
+59	1359	beartas	beairteas beartais beartasan bheairteas bheairteis bheartais bheartas
+60	1360	ceadaich	ceadachadh ceadaicheadh ceadaichidh ceadaichte cheadachadh cheadachaidh cheadaich cheadaichear cheadaichte
+61	1361	poiliteagach	phoiliteagach poiliteagaiche
+62	1362	bitheantas	bhitheantas
+63	1363	cruinn	chruinn
+64	1364	clò-bhualadh	chlo-bhualadh chlò-bhualadh clo-bhualadh clò-bhualaidh clò-bhualaidhean
+65	1365	ath-bheothachadh	ath-bheothachaidh ath-bheothachaidhean ath-bheòthachadh h-ath-bheothachadh
+66	1366	lìon	lion lìn lìonas lìonta lìontan lìonte
+67	1367	meall	mealladh meallaidh meallaidhean meallta mheall mhealladh
+68	1368	meudaich	meudachadh meudachaidh meudaicheadh mheudachadh mheudachaidh mheudaich
+69	1369	deasachadh	deasachaidh deasachaidhean dheasachadh dheasachaidh
+70	1370	malairteach	malairtich mhalairteach
+71	1371	reubaltach	reubaltaich
+72	1372	measail	measaile mheasail
+73	1373	lighiche	lighichean
+74	1374	frithealadh	fhrithealadh frithealaidh frithealaidhean
+75	1375	fòcas	fhòcas
+76	1376	làmh-sgrìobhainn	làmh-sgrìobhainnean
+77	1377	iùnais	aonais
+78	1378	tuiseal	thuiseal tuisealan tuiseil tuislean
+79	1379	sloinneadh	shloinneadh sloinnidh sloinnidhean t-sloinneadh
+80	1380	riochdair	riochdairean
+81	1381	leòn	leòin leòintean leònadh leònaidh leònar leònta leòntan leònte
+82	1382	ainneart	aimhneart aineart ainneirt t-ainneart
+83	1383	campa	campaichean champa champaichean
+84	1384	reul	reultan rèil
+85	1385	dealaich	dealaichidh dealuich dhealaich dhealaicheadh dhealaichear dhealaicheas dhealaichte
+86	1386	streap	streapadh streapaibh streapaidh streapainn streapaist streapaiste streapam streapamaid streapar streaptadh streaptar streapte
+87	1387	dreach	dhreach dreacha dreachadh dreachan
+88	1388	figear	fhigear fhigearan figearan figeir
+89	1389	lag	laga lagan laige
+90	1390	sìn	shìn shìneas shìnte sìne sìnte t-sìn
+91	1391	seirbhis	seirbhisean sheirbhis sheirbhisean t-seirbhis
+92	1392	fuaimreag	fhuaimreag fhuaimreig fuaimreagan fuaimreig fuaimreige
+93	1393	crìonadh	chrìonadh crionadh crìonaidh
+94	1394	falach	dh'fhalaich falachadh falaich falaichidh fhalach fhalachadh fhalaich
+95	1395	cinneas	chinneas chinneis
+96	1396	alt	altaibh altan t-alt uilt
+97	1397	taigh-seinnse	taigh-sheinnse taighean-seinnse thaigh-seinnse
+98	1398	modal	mhodail mhodailean mhodal mhodalan modail modailean modalan
+99	1399	dìreadh	dhìreadh dìridh
+100	1400	beann	beannan bheann

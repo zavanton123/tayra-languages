@@ -1,0 +1,100 @@
+1	2501	feansa	feansaichean feansaidh fheansa
+2	2502	blàthachadh	bhlàthachadh blàthachaidh
+3	2503	suidheachan	shuidheachain suidheachain
+4	2504	seachdainn	seachdainne seachdainnean sheachdainnean t-seachdainn
+5	2505	eilthireachd	dh'eilthireachd eilthireachdan h-eilthireachd
+6	2506	alcol	alcoil dh'alcol
+7	2507	pàirtich	phàirteachadh phàirtich phàirticheadh pàirteachadh pàirteachaidh pàirtichte
+8	2508	sgarbh	sgairbh sgarbhan
+9	2509	tom	toman tomannan tuim
+10	2510	rubair	
+11	2511	lìbhrigeadh	lìbhrigidh lìbhrigidhean
+12	2512	stiùidio	
+13	2513	làn-ùine	
+14	2514	amh	
+15	2515	toinnte	thoinnte
+16	2516	matamataigs	mhatamataigs
+17	2517	leabharlannaiche	leabharlannaichean
+18	2518	fàth	fhàth
+19	2519	gèidse	ghèidse
+20	2520	cuidiche	chuidiche cuidichean
+21	2521	ruitheam	ruitheaman ruithim
+22	2522	fìor-uisge	fhìor-uisge fìor-uisgeachan
+23	2523	stamag	stamagan stamaig stamaige
+24	2524	brisg	bhrisg
+25	2525	parailealogram	pharailealograim pharailealogram
+26	2526	bàth	bhàth bhàthainn bhàthaist bhàthaiste bhàthamaid bhàthar bhàthtadh bàthaibh bàthainn bàthaist bàthaiste bàtham bàthamaid bàthar bàthtadh bàthtar bàthte
+27	2527	cosgail	chosgail chosgaile cosgaile
+28	2528	euslainteach	euslaintich
+29	2529	bailiùn	bailiùnaichean
+30	2530	greusaiche	ghreusaiche greusaichean
+31	2531	meòraich	meòmhraich meòmhraichte meòrachadh meòraicheadh meòraicheam meòraicheamaid meòraichear meòraichibh meòraichidh meòraichinn meòraichist meòraichiste meòraichte meòraichteadh meòraichtear mheòrachadh mheòrachaidh mheòraicheadh mheòraicheamaid mheòraicheas mheòraichinn mheòraichist mheòraichiste mheòraichteadh
+32	2532	coinneal	choinnlean coinnle coinnlean
+33	2533	mial	mhial mhialan miala mialan
+34	2534	èignich	dh'èignich èigneachadh èigneachaidh èignicheadh èignichidh èignichte
+35	2535	aisling	aislinge aislingeadh aislingeam aislingeamaid aislingean aislingear aislingibh aislingidh aislinginn aislingist aislingiste aislingte aislingteadh aislingtear dh'aisling dh'aislingeadh dh'aislingeamaid dh'aislinginn dh'aislingist dh'aislingiste dh'aislingteadh
+36	2536	sgriobt	sgriobtaichean sgriobtan
+37	2537	freiceadan	fhreiceadan freacadan freiceadain freiceadanan
+38	2538	tòraidh	thòraidhean toraidh tòraidhean tòraidhibh
+39	2539	duslach	dhuslach dhuslaich duslaich
+40	2540	mìn	mhìn mìne mìnichean mín
+41	2541	caorann	caorainn chaorann
+42	2542	bànrigh	bhànrigh
+43	2543	an-asgaidh	
+44	2544	biast	bhiast biastan
+45	2545	crios	chrios chriosa criosa criosan
+46	2546	rath	ratha
+47	2547	bana-bhàrd	bana-bhàird bhana-bhàrd
+48	2548	dràmaire	dràmairean
+49	2549	colaisde	colaisdean
+50	2550	socair	shocair shocrach socaire socrach
+51	2551	peann	pean peana peannaibh peannt pheanna pheannaibh phinn pinn
+52	2552	seud	seudan seòid t-seud
+53	2553	cop	chop chopadh chuip coip copadh copidh copte cuip
+54	2554	taigh-cluiche	
+55	2555	dlighe	dlighean
+56	2556	claonadh	chlaonaidhean claonaidh claonaidhean
+57	2557	eagar	
+58	2558	easag	easagan easaige
+59	2559	inntinneil	inntinneile
+60	2560	eisimplir	eisimplirean
+61	2561	amhach	amhaich amhaichean h-amhach
+62	2562	mìorbhail	mhìorbhail mhìorbhaile mìorbhaile mìorbhailean
+63	2563	goirtich	ghoirteachadh goirteachadh
+64	2564	ionnsramaid	ionnsramaide ionnsramaidean ionnstramaid ionnstramaidean
+65	2565	consart	chonsairt chonsairtean consairt consairtean consartan
+66	2566	reamhar	ramhar reaimhre reamhra riumha
+67	2567	armach	
+68	2568	reusanta	reusonta riasant riasonta rèasanta
+69	2569	uchd	uchda uchdan
+70	2570	caillte	chaillte
+71	2571	cruinne-cè	chruinne-cè cruinnean-cè
+72	2572	monarc	monarcan
+73	2573	caiptean	caipteanan caiptein chaiptean
+74	2574	coimeasach	choimeasach
+75	2575	tòrachd	thòrachd
+76	2576	duiseal	duiseil
+77	2577	feumalachd	feumalachdan fheumalachdan
+78	2578	snìomh	shnìomhadh sniamh sniomh snìomha snìomhadh snìomhaidh
+79	2579	biastag	bhiastagan bhiastaig biastagan biastaig bèisteag bèisteagan
+80	2580	caidreamhach	caidreabhach caidreabhaich caidreamhaich chaidreabhach chaidreabhaich
+81	2581	dòbhran	dobhran dòbhrain
+82	2582	lìg	lìgean
+83	2583	uamhasach	
+84	2584	fann	
+85	2585	spàirn	
+86	2586	lagachadh	lagachaidh lagachaidhean
+87	2587	tuathal	
+88	2588	co-aimsireil	cho-aimsireil
+89	2589	spìon	spìonadh
+90	2590	càileachd	chàileachd
+91	2591	sgèith	sgèitheadh sgèitheam sgèitheamaid sgèithear sgèithibh sgèithidh sgèithinn sgèithist sgèithiste sgèithte sgèithteadh sgèithtear sgéith
+92	2592	meadhonach	mheadhonach
+93	2593	iasad	iasadan iasaid
+94	2594	fealla-dhà	fhealla-dhà
+95	2595	prothaid	phrothaid prothaide prothaidean
+96	2596	uncail	h-uncail uncailean
+97	2597	seantans	seantansan sheantans
+98	2598	soirbheas	shoirbheas shoirbheis soirbheasan
+99	2599	beanntach	beanntaiche bheanntach
+100	2600	beirmear	beirmearan bheirmearan

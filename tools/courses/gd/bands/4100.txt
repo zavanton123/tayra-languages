@@ -1,0 +1,100 @@
+1	4001	òigear	òigearan òigeir
+2	4002	connsaich	chonnsaich connsaichidh connsaichte
+3	4003	calg	chalg
+4	4004	gille-tòine	gille-tòin gillean-tòine
+5	4005	bàrrachd	bhàrrachd
+6	4006	fàisnich	dh'fhàisnich fhàisnicheadh fàisneachadh fàisnichidh fàisnichte
+7	4007	tachdadh	tachdaidh tachdaidhean thachdadh
+8	4008	fosgarra	fhosgarra
+9	4009	mì-riaghailteach	mi-riaghailteach
+10	4010	dochann	dochannan
+11	4011	doille	dhoille
+12	4012	misg	mhisg misge
+13	4013	achlais	achlaise achlaisean h-achlais
+14	4014	biath	bhiathadh biathadh
+15	4015	goireasach	goireasaich
+16	4016	prais	praise praisean
+17	4017	ath-ghnàthachadh	h-ath-ghnàthachadh
+18	4018	cineal	chineal cinealan cineil
+19	4019	balgan-buachair	balgain-bhuachair
+20	4020	ballan	ballain ballanan
+21	4021	bonaid	bonaide bonaidean
+22	4022	bascaid	bascaide bascaidean bhascaid
+23	4023	connlach	chonnlach
+24	4024	cofhurtail	cofhurtaile
+25	4025	neactar	neactair
+26	4026	snàithlean	shnàithleana shnàithleanaibh shnàithleanan shnàithlein snàithleanaibh snàithlein t-snàithlein
+27	4027	ìne	fìne inne ionga iongain ìnean
+28	4028	sleamhnaich	shleamhnachadh sleamhnachadh
+29	4029	sabhs	sabhsan saibhse
+30	4030	cnuimh	cnuimhe cnuimhean cnuimhibh cruimh
+31	4031	mìosail	mhìosail
+32	4032	cuibhrig	chuibhrigeas cubhraig cuibhlig cuibhrige cuibhrigeadh cuibhrigean
+33	4033	cuir-ris	chuir-ris cuiridh-ris
+34	4034	sliseag	shliseagan sliseagan sliseige
+35	4035	sìreadh	shìreadh
+36	4036	tuiteamach	thuiteamach
+37	4037	cuplaich	chuplachadh cuplachadh
+38	4038	onair	onaire onairean
+39	4039	coitear	coitearan coiteir
+40	4040	daonnaire	daonnairean
+41	4041	cogais	chogais cogaise cogaisean
+42	4042	tochail	thochladh tochladh
+43	4043	dearbhachadh	dhearbhachadh
+44	4044	smachdail	smachdaile
+45	4045	diùid	dhiùid diùide
+46	4046	coinnlear	choinnlearan coinnlearan coinnleir
+47	4047	soisgeulaiche	shoisgeulaichean soisgeulaichean
+48	4048	seachain	seachaineadh seachaineam seachaineamaid seachainear seachainibh seachainidh seachaininn seachainist seachainiste seachainn seachainte seachainteadh seachaintear sheachain sheachaineadh sheachaineamaid sheachaininn sheachainist sheachainiste sheachainteadh
+49	4049	beò-ghlacadh	beò-ghlacaidh beò-ghlacaidhean
+50	4050	leatromach	leatromacha leatromaich leatromaiche
+51	4051	agusan	agusain agusana agusanaibh h-agusanaibh t-agusan
+52	4052	aintighearnas	dh'aintighearnas
+53	4053	sampall	sampaill sampallan
+54	4054	tèile	teile
+55	4055	geodha	geodhachan geodhaichean
+56	4056	comhaois	chomhaoisean co-aoisean comhaoisean comhaoisibh
+57	4057	sanasachd	shanasachd
+58	4058	ideòlach	ideòlaiche
+59	4059	aibheiseach	àibheiseach
+60	4060	sìorruidh	shìorruidh
+61	4061	bean-taighe	bhean-taighe mnathan-taighe mnà-taighe
+62	4062	eas-aonta	eas-aontaidh eas-aontaidhean eas-aontan easaonta
+63	4063	daibh	daibheadh
+64	4064	sgrùd	sgrùdas
+65	4065	mionach	mhionach mionaich
+66	4066	soighne	shoighnichean soighnichean
+67	4067	cinnidheach	chinnidheach
+68	4068	teagsa	teagsaichean theagsaichean
+69	4069	gaoisid	gaoiside gaoisidean ghaoisid
+70	4070	fuathaich	fhuathachadh fuathachadh fuathaichidh fuathaichte
+71	4071	guthlag	ghuthlag guthlagan guthlaige
+72	4072	còmhnadh	chòmhnadh
+73	4073	maslach	maslaiche
+74	4074	mac-peathar	mhac-peathar
+75	4075	lì-dhealbhadair	lì-dhealbhadairean
+76	4076	aisean	aisnean
+77	4077	pàlas	phàlais
+78	4078	seann-nòsach	seann-nòsaich seann-nòsaiche sheann-nòsach
+79	4079	claoidhte	chlaoidhte
+80	4080	manadh	manaidh manaidhean mhanadh mhanaidhean
+81	4081	taigh-strìopachais	taighe-strìopachais taighean-strìopachais
+82	4082	gealachd	ghealachd
+83	4083	boillsg	bhoillsgean boillsgeadh boillsgean
+84	4084	balachan	balachain bhalachan
+85	4085	calg-dhìreach	calg-dhireach
+86	4086	breic	bhreic breice breicean
+87	4087	comandair	chomandair comandairean
+88	4088	crogan	crogain croganan
+89	4089	bras	bhrais braise brasa
+90	4090	co-là-breith	là-breith
+91	4091	blasaich	bhlasachadh blasachadh blasaichte
+92	4092	annlan	annlain
+93	4093	sgìthich	sgìtheachadh sgìthicheas
+94	4094	pluc	phluc pluca plucan
+95	4095	mointich	mhointich
+96	4096	constabal	chonstabal constabalan
+97	4097	ceasnaich	ceasnachadh cheasnachadh cheasnaich
+98	4098	leug	lèig
+99	4099	prìosanach-chogaidh	prìosanach-cogaidh prìosanaich-chogaidh prìosanaich-cogaidh
+100	4100	bucas	bhucais bucais

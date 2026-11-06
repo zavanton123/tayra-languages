@@ -1,0 +1,100 @@
+1	6301	tarrag	tarragan tarraig
+2	6302	riochdadh	
+3	6303	obrachail	
+4	6304	aigeannach	
+5	6305	mòraltachd	
+6	6306	urainn	
+7	6307	còco	
+8	6308	greabhal	ghreabhal
+9	6309	nuall	nuallan
+10	6310	drùidheachd	dhrùidheachd
+11	6311	miortal	
+12	6312	aingidheachd	n-aingidheachd
+13	6313	fèin-bhrodadh	fèin-bhrodaidh fèin-bhrodaidhean
+14	6314	ro-theachdaire	ro-theachdairean
+15	6315	dèirceach	dhèircich
+16	6316	so-dhearbhaidh	
+17	6317	far-uinneag	far-uinneagan far-uinneige
+18	6318	bràighdeanas	
+19	6319	trìthead	
+20	6320	breuntas	
+21	6321	bòbhla	bòbhlaichean
+22	6322	reamhraich	reamhraichte
+23	6323	cnòd	chnòdadh
+24	6324	sgèimheach	sgèimhich sgèimhiche
+25	6325	ceisteachadh	cheisteachaidh
+26	6326	piuthar-chèile	peathar-cèile peathraichean-cèile
+27	6327	reudar	
+28	6328	ridireachd	ridireachdan
+29	6329	fulmair	fulmairean
+30	6330	camadh	
+31	6331	sgriopt	
+32	6332	tuaileas	
+33	6333	fìreanaich	
+34	6334	baileat	baileatan
+35	6335	mì-mhisnich	mì-mhisneachadh mì-mhisnichidh mì-mhisnichte
+36	6336	deathach	deathaiche deathaichean
+37	6337	trìoblaich	trìoblachadh
+38	6338	boghadaireachd	
+39	6339	cuibhlich	cuibhlichte
+40	6340	gràineag	ghràineaga gràineagaibh gràineagan gràineig gràineige
+41	6341	tagaich	tagaichte
+42	6342	tarbhach	tharbhach
+43	6343	naodhamh	
+44	6344	breòiteachd	
+45	6345	gearanaiche	ghearanaiche
+46	6346	tèama	
+47	6347	mac-meanmnach	mac-meanmnaich
+48	6348	sgeigeil	
+49	6349	leabhar-cheist	leabhraichean-cheist
+50	6350	gramaiche	gramaichean
+51	6351	briathrachan	briathrachain
+52	6352	acaidèamach	
+53	6353	eidheann	edhinn eidhne
+54	6354	àbhaisteachadh	
+55	6355	caibidil	chaibidil
+56	6356	earraid	earraide earraidean
+57	6357	criathrag	criathragan criathraige
+58	6358	salmadair	shalmadair
+59	6359	uaireadairiche	
+60	6360	piuthar-athar	
+61	6361	mòrchuis	mòrchuise
+62	6362	dà-mheudach	dà-mheudaich
+63	6363	tuirseach	
+64	6364	deadhan	dheadhan
+65	6365	banas-taighe	
+66	6366	seòmar-teagaisg	seòmair-teagaisg seòmraichean-teagaisg
+67	6367	altramas	
+68	6368	mìothlachd	miathlachd mì-thlachd
+69	6369	bòl	bògais ból
+70	6370	uisgeadan	uisgeadain
+71	6371	mioca	
+72	6372	deòiridh	deòirid deòirideach deòiridhe deòiridhean deòraidh
+73	6373	ceatharnach	ceatharnaich
+74	6374	fìdhlearachd	
+75	6375	eadar-mheadhanair	eadar-mheadhanairean
+76	6376	uait	
+77	6377	làth	làtha
+78	6378	seac	seacadh
+79	6379	taobh-duilleige	taobhan-duilleige taoibh-dhuilleige thaobh-duilleige
+80	6380	leas-mhac	leas-mhic
+81	6381	tuasaid	
+82	6382	uileadh	
+83	6383	trobhad	troibhibh
+84	6384	pàipear-craicinn	
+85	6385	taba	tabaichean
+86	6386	staran	
+87	6387	beadraich	beadradh beadraichidh beadraichte bheadradh
+88	6388	eigheadail	
+89	6389	leabhar-fiosrachaidh	leabhair-fiosrachaidh leabhraichean-fiosrachaidh
+90	6390	sabotàis	
+91	6391	naodhnar	naodhnair naodhnaran naongnar
+92	6392	ughdaras	
+93	6393	deireanach	
+94	6394	cuideachdail	
+95	6395	freagarach	
+96	6396	currag	
+97	6397	goir	goirear
+98	6398	tum	thumadh tumaidh tumta
+99	6399	calaraidh	calaraidhean
+100	6400	cochallach	

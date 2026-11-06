@@ -1,0 +1,100 @@
+1	3401	seudraidh	sheudraidh
+2	3402	eirmseach	eirmsich
+3	3403	pròiseil	phròiseil phròseil pròiseile pròseil pròseile
+4	3404	faobhar	faobhair faobharaibh faobharan fhaobhair fhaobhar fhaobharan
+5	3405	graifit	ghraifit
+6	3406	fasgach	fasgaich
+7	3407	trìd-shoilleir	trid-shoilleir
+8	3408	fionnsgeul	fhionnsgeòil fionnsgeòil
+9	3409	drùidhteach	dhrùichteach dhrùichtich dhrùidhteach drùichteach drùichtich drùichtiche drùidhtich
+10	3410	mac-bràthar	mhac-bràthar
+11	3411	iomrall	iomaral iomraill iomrallan iomrol ioramall
+12	3412	foghlamaiche	fhoghlamaiche foghlamaichean
+13	3413	tagairt	tagairtean thagairt
+14	3414	tuigseach	thuigseach tuigsiche
+15	3415	dualtach	dualtaiche
+16	3416	ionnsaigheach	ionnsaighich
+17	3417	uachdranas	uachdranasan
+18	3418	bìdeadh	bìdidh
+19	3419	iteal	iteil
+20	3420	dlùthadh	dlùthaidh
+21	3421	pribhleid	phribhleidean pribhleidean
+22	3422	lughad	lughaid
+23	3423	gràisg	ghràisg gràisge gràisgean
+24	3424	concrait	choncrait concraite
+25	3425	gintinn	ghintinn
+26	3426	màla	mhala màlan
+27	3427	gearmainium	ghearmainium
+28	3428	aghaidh-choimheach	aghaidhe-coimhich aghaidhean-coimheach h-aghaidh-choimheach
+29	3429	trainnse	trainnseachan trainnsean trainnsichean
+30	3430	dualach	dhualach dualaiche
+31	3431	tuar	thuar tuaran
+32	3432	tag	tagadh thagadh thagaidh
+33	3433	clàrc	chlàrc clàrcan
+34	3434	fluaraid	fhluaraid fluaraidean
+35	3435	tàir	thàir tàire
+36	3436	slochd	shlochd slochdan
+37	3437	spealg	spealgadh spealgaidh spealgan spealgte speilge
+38	3438	ùraich	dh'ùraich h-ùraich ùraichidh ùraichte
+39	3439	seargach	sheargach sheargaich
+40	3440	brùchd	bhrùchd brùchda brùchdadh brùchdan
+41	3441	snàth	shnàith shnàth snaithean snàdh snàith snàithean snàithibh snàtha t-snàith
+42	3442	geamair	geamairean gheamair
+43	3443	losg	losgar losgas losgta
+44	3444	gnùis	ghnùis gnùise gnùisean
+45	3445	gàbhadh	ghàbhaidh gàbhaidh gàbhaidhe gàbhaidhean
+46	3446	bailead	baileadan bhaileadan
+47	3447	aoigh	aoighe aoighean h-aoigh
+48	3448	peileag	peileagan peileige peilig pheileagan pèileag pèilig
+49	3449	giall	ghiallan gialla giallan gèille gèillean
+50	3450	clàrsair	chlàrsair clàrsaire clàrsairean
+51	3451	camara	camarathan chamara
+52	3452	orcastra	
+53	3453	gearradh-arm	gearraidh-arm gearraidhean-arm
+54	3454	àrd-rìgh	t-àrd-rìgh àrd-rìghrean
+55	3455	lach	lachaidh lachan
+56	3456	cluain	cluaine cluainean cluainibh cluaintean
+57	3457	anainn	anainne anainnean
+58	3458	easbaigeach	
+59	3459	greugach	
+60	3460	spionnadh	spionnaidh
+61	3461	basgais	
+62	3462	cruithneach	chruithneach
+63	3463	bod	bhod boid
+64	3464	trosg	thruisg truisg
+65	3465	pit	phit pite pitean
+66	3466	fòram	fòraim fòraman
+67	3467	feòladair	feòladairean fheòladair
+68	3468	seabhag	seabhagan seabhaig sheabhag
+69	3469	fàilligeadh	fhàilligeadh fàilligidh fàilligidhean fàillinneachadh fàillneachadh
+70	3470	breab	bhreab bhreabadh breaba breabadh breabaidh breaban breabte
+71	3471	iochd	
+72	3472	sgoth	sgotha sgothaidh sgothan
+73	3473	maise	mhaise
+74	3474	càmhal	cam-all chàmhail càmhail càmhul gàmal
+75	3475	stùc	stùcan stùice
+76	3476	bunsgoil	bhunsgoil bunsgoile bunsgoiltean
+77	3477	pròbhaist	phròbhaist
+78	3478	roimhear	roimhearan roimheir
+79	3479	sleagh	shleagh sleagha sleaghan slèigh
+80	3480	gotach	
+81	3481	toinn	thoinneamh toinneadh toinneamh toinnidh
+82	3482	reactar	
+83	3483	aoibhneas	aimhneas aoibhneasan aoibhneis éibhneas
+84	3484	bàta-teasairginn	
+85	3485	neach-stiùiridh	
+86	3486	flin	fline flinne flion fliona flithne
+87	3487	sgòr	sgòran
+88	3488	pearraid	pearraidaibh pearraidan pearraide pearraidean phearraida piorraid
+89	3489	mèinnireach	mèinnirich
+90	3490	sìochantas	sìochantais
+91	3491	trombaid	trombaidean
+92	3492	neach-iùil	luchd-iùil
+93	3493	faochag	faochaig fhaochagan
+94	3494	buthaid	buthaidean
+95	3495	fòn-làimhe	fòn-làimh fònaichean-làimhe
+96	3496	neach-frithealaidh	luchd-frithealaidh
+97	3497	dìthean	dithean dìtheanan dìthein
+98	3498	ionadach	ionadachadh ionadachaidh ionadaich ionadaichte
+99	3499	ministreachd	mhinistreachd
+100	3500	sinnsireachd	shinnsireachd

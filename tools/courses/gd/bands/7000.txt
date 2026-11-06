@@ -1,0 +1,100 @@
+1	6901	stiuiriche	
+2	6902	sreothartaich	sreathartaich sreothairt sreothartan
+3	6903	langa	langannan
+4	6904	dileag	dileagan dileige
+5	6905	soillseach	
+6	6906	martarachd	martarachdan
+7	6907	seillean-cuthaige	seilleanan-cuthaige seillein-chuthaige
+8	6908	seillean-dubh	seilleanan-dubha seillein-dhuibh
+9	6909	seillean-meala	seilleanan-meala seillein-mheala
+10	6910	seillean-ruadh	seilleanan-ruadha seillein-ruaidh
+11	6911	iolair-bhreac	iolaire-brice iolairean-breaca
+12	6912	ainleag-mhonaidh	ainleagan-monaidh ainleige-monaidh
+13	6913	casgach	
+14	6914	coileach-dubh	coilich-dhubha coilich-dhuibh
+15	6915	corra-mhonaidh	corra-monaidh corran-monaidh
+16	6916	gobhachan	gobhachain
+17	6917	corcan	corcanan
+18	6918	gainbheach	gainbhich
+19	6919	gabhagan	gabhagain
+20	6920	clacharan	clacharain clacharanan
+21	6921	caifean	caifeanan
+22	6922	comhachag-bheag	comhachagan-beaga comhachaige-bige
+23	6923	comhachag-chluasach	comhachagan-cluasach comhachaige-cluasaiche
+24	6924	cù-donn	coin-donna coin-duinn
+25	6925	madadh-donn	madaidh-dhuinn madaidhean-donna
+26	6926	fearaid	fearaidean
+27	6927	sgiodar	sgiodair
+28	6928	beach-eòlais	beachan-eòlais
+29	6929	cràin-sheillean	cràin-sheilleanan cràin-sheillein
+30	6930	seillean-sgip	seilleanan-sgip seillein-sgip
+31	6931	caoran	caorain
+32	6932	hocaidh-deighe	
+33	6933	ain-teth	
+34	6934	ceil	ceilte
+35	6935	heat	
+36	6936	miannachd	mhiannachd
+37	6937	caidreach	caidearach caidrich
+38	6938	spàl	
+39	6939	ciùrr	chiùrradh chiùrrainn chiùrraist chiùrraiste chiùrramaid chiùrrtadh ciùrraibh ciùrrainn ciùrraist ciùrraiste ciùrram ciùrramaid ciùrrar ciùrrtadh ciùrrtar
+40	6940	iomhadh	iomhaidh
+41	6941	ath-dhèan	ath-dhèanamh ath-dhèanta ath-nì dh'ath-rinn
+42	6942	ròcas	ròcais ròcasan
+43	6943	eiriceach	
+44	6944	luspardan	luspardain
+45	6945	teine-sionnachain	
+46	6946	caiseart	caiseirt
+47	6947	tràilidh	tràilidhean
+48	6948	aileag	aileagan aileige alag faileag
+49	6949	notaich	notaichidh notaichte
+50	6950	lethsgeul	
+51	6951	tonnag	
+52	6952	teicheach	
+53	6953	clach-èiteig	clachan-èiteig cloiche-èiteig
+54	6954	sneachdail	
+55	6955	geinealag	geinealagan geineleige
+56	6956	deasbair	deasbaire deasbaireadh deasbaiream deasbaireamaid deasbairean deasbairear deasbairibh deasbairidh deasbairinn deasbairist deasbairiste deasbairte deasbairteadh deasbairtear dheasbaireadh dheasbaireamaid dheasbairinn dheasbairist dheasbairiste dheasbairteadh
+57	6957	comharradh-ceiste	comharra-ceiste comharran-ceiste
+58	6958	cailleach-oidhche-mhòr	
+59	6959	cluasach	chluasach
+60	6960	naosg	naoisg
+61	6961	dair	daire dairean
+62	6962	eadha	
+63	6963	iogart	
+64	6964	àmhgharach	
+65	6965	còrnach	chòrnach
+66	6966	claidheamh-mòr	claidheamh-mór claidheamhan-mòra claidheimh-mhòir
+67	6967	daga	dagaichean
+68	6968	càirneach	
+69	6969	cànan-soidhnidh	
+70	6970	glaisean-daraich	glaiseanan-daraich glaisein-daraich
+71	6971	gobag	
+72	6972	bean-chèile	
+73	6973	maothran	maothrain
+74	6974	sgàileag	
+75	6975	mì-mholadh	
+76	6976	deoch-slàinte	deochannan-slàinte dighe-slàinte
+77	6977	cearb	chearb
+78	6978	suiteas	suiteis
+79	6979	tiugainn	tiugainnibh
+80	6980	claisneach	
+81	6981	milemeatair	milemeatairean milimeatair mìlemeatair
+82	6982	stapag	
+83	6983	meòg	meòig mheòg
+84	6984	tiughaich	thiughachadh
+85	6985	stiùireag	
+86	6986	taigh-adhlacaidh	
+87	6987	fiarach	
+88	6988	gocaireachd	ghocaireachd
+89	6989	ruibh	
+90	6990	sgoinn	sgoinne
+91	6991	fiùran	fiùrain fiùranan iùran
+92	6992	iargain	
+93	6993	teanntachd	teanntachdan
+94	6994	iondrainn	
+95	6995	tachd	tachdte
+96	6996	saltair	saltairean shaltaireas
+97	6997	bàbhan	bhàbhain bàbhain bàbhanan
+98	6998	cnàimhte	chnàimhte
+99	6999	sìochail	
+100	7000	saidhbhreas	

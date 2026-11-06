@@ -1,0 +1,100 @@
+1	5301	ìoc	ìce ìocadh ìocan
+2	5302	tànaiste	thànaiste
+3	5303	tanalach	tanalaich
+4	5304	clach-chinn	clachan-cinn claiche-cinn
+5	5305	lioft	lioftaichean
+6	5306	mì-riaghailt	mhì-riaghailt
+7	5307	ceann-rèile	cheann-rèile cinn-rèile
+8	5308	ath-cheannsaich	ath-cheannsachadh ath-cheannsaichidh ath-cheannsaichte
+9	5309	cràbhachd	chràbhachd cràbhachdan
+10	5310	màileid	mhàileid màileide màileidean
+11	5311	nàbachd	nàbachdan
+12	5312	boinne	bhoinne boinnean
+13	5313	càilear	chàilear
+14	5314	ealantas	ealantais
+15	5315	aithis	aithisean
+16	5316	beòthaich	beòthachadh beòthaicheadh beòthaicheam beòthaicheamaid beòthaichear beòthaichibh beòthaichidh beòthaichinn beòthaichist beòthaichiste beòthaichte beòthaichteadh beòthaichtear bheothaich bheòthaicheadh bheòthaicheamaid bheòthaichinn bheòthaichist bheòthaichiste bheòthaichteadh
+17	5317	splaoid	splaoidean
+18	5318	blasta	bhlasda blasda
+19	5319	coimhlion	choimhlionadh
+20	5320	sumain	shumanaidhean sumanadh
+21	5321	bèicear	bèicearan bèiceir
+22	5322	ìocshlaint	iocshlàint ìoc-shlàint ìocshlainte ìocshlaintean
+23	5323	adhbharach	adhbharaiche
+24	5324	caoimhneas	caoimhne caoimhneis chaoimhneis
+25	5325	ùghdarraich	ùghdarraichte
+26	5326	ùghdarrasach	ùghdarrasaiche
+27	5327	pleadhag	phleadhaig
+28	5328	beò-ghlac	beò-ghlacaibh beò-ghlacainn beò-ghlacaist beò-ghlacaiste beò-ghlacam beò-ghlacamaid beò-ghlacar beò-ghlacta beò-ghlactadh beò-ghlactar beò-ghlacte bheò-ghlacadh bheò-ghlacainn bheò-ghlacaist bheò-ghlacaiste bheò-ghlacamaid bheò-ghlactadh
+29	5329	tachart	thachart
+30	5330	tòrradh	tòrraidh tòrraidhean
+31	5331	dèanadach	dhèanadach
+32	5332	cràbhadh	cràbhaidh cràbhaidhean
+33	5333	iom-sheòl	dh'iom-sheòl iom-sheòlta
+34	5334	geòlaiche	geòlaichean
+35	5335	marasglachadh	mharasglachadh
+36	5336	draibh	dhraibh draibheadh draibhidh draibhte
+37	5337	bachlag	bachlagan bachlaig bhachlag
+38	5338	dìthich	dhìtheachadh dìtheachadh
+39	5339	dibhearsanach	dhibhearsanaiche dibhearsanaiche
+40	5340	rùdhan	rudhan rùdhain rùdhanan rùghan
+41	5341	roilig	roilige roiligeadh roiligean roiligidh roiligte
+42	5342	siosar	shiosaran
+43	5343	marmor	marmoir mharmor
+44	5344	pìob-mhòr	phìob-mhòr
+45	5345	goibhneachd	ghoibhneachd goibhneachdan
+46	5346	geas	geasa geasaibh geasan geis
+47	5347	fòir	fòire
+48	5348	maids	maidsichean mhaidsichean
+49	5349	pleatadh	phleatadh
+50	5350	balmaich	balmachaidh bhalmachadh
+51	5351	cleitheach	chleithich
+52	5352	agair	agairidh dh'agair
+53	5353	fàl	fal fàil
+54	5354	soisgeulach	shoisgeulach
+55	5355	sinn-seanmhair	shinn-seanmhair
+56	5356	fiabhras-ballach	fhiabhras-ballach fiabhrais-bhallach fiabhrasan-ballach
+57	5357	òrduich	òrduchadh òrduichte
+58	5358	easbhaidh	easbhaidhe easbhaidhean
+59	5359	barganaich	barganachadh barganachaidh
+60	5360	deucon	deuconan dheucon
+61	5361	semeastar	shemeastar
+62	5362	lùdan	lùdain
+63	5363	braid	bhraid braide
+64	5364	gunnair	ghunnair
+65	5365	plumair	plumairean
+66	5366	farasta	fharasta
+67	5367	seapanach	
+68	5368	grèigeach	
+69	5369	làthail	
+70	5370	marc	mairc marcan
+71	5371	bocsair	bhocsair
+72	5372	graf	grafa grafaichean
+73	5373	mac-talla	mic-talla
+74	5374	ladhar	ladhair ladhra ladhran
+75	5375	grianan	grianain griananan
+76	5376	reithe	reitheachan
+77	5377	oiseanach	
+78	5378	socach	
+79	5379	protractair	phrotractair
+80	5380	solus	sholuis
+81	5381	dèanadas	dhèanadas
+82	5382	eideadh	eididh
+83	5383	lòchran	lòchrain
+84	5384	hamstair	hamstairean hamstairibh
+85	5385	saoidhean	
+86	5386	uaibhreach	uaibhrich uaibhriche
+87	5387	pòlach	phòlach
+88	5388	glòr	ghlòr glór
+89	5389	siorcas	shiorcais siorcais
+90	5390	anann	
+91	5391	gealtaire	gealtair gealtairean
+92	5392	màs	màis màsan más
+93	5393	cunnradh	
+94	5394	pàpanach	
+95	5395	glaisean	glaiseanan glaisein
+96	5396	leathan	leathain
+97	5397	atharrais	
+98	5398	aiteann	aitinn aitionn
+99	5399	iarsmadh	iarsmaidh
+100	5400	gile	ghile

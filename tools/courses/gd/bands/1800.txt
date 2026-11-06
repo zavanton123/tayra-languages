@@ -1,0 +1,100 @@
+1	1701	ceannsaiche	ceannsaichean cheannsaiche
+2	1702	speuradair	speuradairean
+3	1703	còmhdaichte	chòmhdaichte
+4	1704	seillean	seilleanan seillein sheillean sheilleanan t-seillean
+5	1705	singilte	shingilte
+6	1706	foillsichear	dh'fhoillsichear fhoillsichear fhoillsichearan fhoillsicheir foillsichearan foillsicheir
+7	1707	diog	dhiog dhiogan dioga diogan
+8	1708	tèarmann	tearmann thèarmann tèarmainn
+9	1709	fileanta	fhileanta
+10	1710	domhan	dhomhain dhomhan domhain dothan
+11	1711	cuaraidh	chuaraidh chuaraidhean cuaraidhean
+12	1712	mèinnearachd	mhèinnearachd
+13	1713	bile	bhile bilean
+14	1714	cuirm	chuirm chuirmean cuirme cuirmean
+15	1715	tarruinn	tarruing tharruing tharruinn tharruinneas
+16	1716	drèanadh	dhrèanadh drèanaidh
+17	1717	luachmhor	luachmhoire
+18	1718	dad	
+19	1719	meanbh-chuileag	meanbh-chuileagan meanbh-chuileige mheanbh-chuileag
+20	1720	geoimeatras	geoimeatrais gheoimeatras
+21	1721	cunntadh	chunntadh cunntaidh cunntaidhean cùnntadh
+22	1722	deamocrasaidh	dheamocrasaidh
+23	1723	salm	sailm t-salm
+24	1724	punnd	phunnd puinnd
+25	1725	àr	d'ar dh'ar t-àr àir ár
+26	1726	bùirdeasach	bhùirdeasach bùirdeasaich
+27	1727	cairt	cairte cairtean chairt chairtean
+28	1728	dualchasach	dhualchasach dhualchasaich dualchasaich dualchasaiche
+29	1729	glùn	ghlùin ghlùinean ghlùn glùin glùine glùinean glùintean
+30	1730	tomad	thomad thomaid tomadan tomaid
+31	1731	fiadhaich	fhiadhaich
+32	1732	ceàrnach	ceàrnaich cheàrnach cheàrnaich
+33	1733	sgùrr	
+34	1734	cathair-eaglais	chathair-eaglais
+35	1735	uidh	uidhe uidhean
+36	1736	copar	chopair chopar copair
+37	1737	gearastan	gearasdain gearasdan gearastain gearastanan ghearastan
+38	1738	muc	mhuc mhuca mhucan mucaibh mucan muic muice
+39	1739	iar-leasachan	iar-leasachain t-iar-leasachan
+40	1740	maorach	maoraich mhaorach mhaoraich
+41	1741	mì-laghail	mhì-laghail mi-laghail
+42	1742	sgian	sgeanan sgeine sgeineadh sgeinean sgine sginean sgithinn
+43	1743	milis	mhilis mìlse t-mhilis
+44	1744	gin	ghin ghineadh ghineas gineadh ginidh ginte
+45	1745	ceannsachadh	ceannsachaidh ceannsachaidhean cheannsachadh cheannsachaidhean
+46	1746	neartaich	neartachadh neartachaidh neartaichte
+47	1747	cuairtich	chuairtich chuairtichear chuairticheas chuartaich cuairtichidh cuairtichte cuartaich
+48	1748	bealach	bealaich bealaichean bhealach
+49	1749	sònrachadh	shònrachadh shònrachaidh sònrachaidh sònrachaidhean
+50	1750	flat	dh'fhlat fhlat fhlataichean flataichean
+51	1751	uirsgeul	uirsgeil uirsgeulan uisgeul ùirsgeil ùirsgeul ùirsgeulan ùr-sgeul
+52	1752	reifreann	reifreannan reifreinn
+53	1753	bothan	bhothain bhothan bothain bothanan
+54	1754	criostal	chriostail chriostal chriostalan criostail criostalan
+55	1755	deis	dheis
+56	1756	casg	chasg
+57	1757	garbh	garbha ghairbh gharbh
+58	1758	saoraich	saorachadh saorachaidh saoraichidh saoraichte shaorachadh shaoraich
+59	1759	sgoilearachd	
+60	1760	rìgh-chathair	righ-chathair rìgh-chathrach rìgh-chathraichean
+61	1761	seanadair	seanadairean sheanadair
+62	1762	seòladair	seòladairean sheòladair sheòladairean
+63	1763	càineadh	chaineadh càinidhean
+64	1764	dealanach	dealanachadh dealanaich dealanaiche dhealanach
+65	1765	leannan	leannain leannanan
+66	1766	teann	teanna teannadh theann theannas
+67	1767	aonachadh	aonachaidhean dh'aonachadh
+68	1768	mothachadh	mhothachadh mhothachaidh mothachaidh mothachaidhean
+69	1769	ròpa	ropa ròp ròpaichean ròpan ròpannan
+70	1770	seisean	seiseanan seisein sheisean sheisein t-seisean
+71	1771	iolair	fiolair h-iolaire h-iolairean h-iolairibh h-iolarach h-iolaraichean h-iolaraichibh h-iolrach h-iolraichean h-iolraichibh iobhlair iolaire iolairean iolairibh iolarach iolaraichean iolaraichibh iolrach iolraichean iolraichibh
+72	1772	uidheamaichte	
+73	1773	luaidhe	
+74	1774	beilear	bheilear
+75	1775	fiosaig	fhiosaig
+76	1776	tairgse	tairgseachan thairgse
+77	1777	teothachd	theothachd
+78	1778	draoidh	dhraoidh dhrùidh draoidhean drùdhadh
+79	1779	eòlas-leighis	
+80	1780	litreachail	litreachaile
+81	1781	mì-fhortanach	mi-fhortanach mì-fhortanaich
+82	1782	caochladair	caochladairean chaochladair
+83	1783	teòirim	teòirimean theòirim theòirimean
+84	1784	foirmle	fhoirmle foirmlean
+85	1785	ridire	ridirean
+86	1786	tiomnadh	thiomnadh thiomnaidh tiomnaidh tiomnaidhean
+87	1787	sliabh	slèibh slèibhe slèibhtean t-sliabh
+88	1788	seòrsaiche	sheòrsaiche sheòrsaichean
+89	1789	gearan	gearain gearainean gearanan ghearain
+90	1790	monarcachd	mhonarcachd
+91	1791	rionnag	rionnagan rionnaig
+92	1792	iasgair	iasgairean
+93	1793	sil	shileadh sile sileadh silean silte
+94	1794	eagran	eagrain eagranan h-eagran t-eagran
+95	1795	punc	phunc puinc punca puncan
+96	1796	argamaidich	argamaid argamaidean
+97	1797	ath-nuadhaich	ath-nuadhachadh ath-nuadhaichidh ath-nuadhaichte dh'ath-nuadhaich
+98	1798	àrach	dh'àrach h-àrach
+99	1799	faighean	faighein faighnean fhaighean fhaighein m'fhaighean
+100	1800	sgrìob	sgrìoba sgrìobadh sgrìobaidh sgrìobaidhean sgrìoban sgrìobta sgrìobte

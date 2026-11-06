@@ -1,0 +1,100 @@
+1	4201	lusach	lusaiche
+2	4202	planntachadh	phlanntachadh
+3	4203	reothart	reobhart reothairt reothartan
+4	4204	pas	pais pasaichean
+5	4205	pobal	phobail phobal
+6	4206	seaplain	sheaplain
+7	4207	sult	suilt
+8	4208	crò	chrò
+9	4209	àrmann	àrmainn
+10	4210	flaitheas	flaitheasan flaitheis
+11	4211	grànda	grànna grànnda grànta
+12	4212	tasg-lann	tasg-lainn tasg-lannan thasg-lann
+13	4213	gille-cruidh	ghille-cruidh gillean-cruidh
+14	4214	rib	ribeadh ribean ribeanan ribidh ribte
+15	4215	laideannach	
+16	4216	ìslich	ìsleachadh
+17	4217	eadh	
+18	4218	hocaidh	
+19	4219	rèidio-beò	
+20	4220	dà-shealladh	
+21	4221	gruamach	ghruamaich gruamaich gruamaiche
+22	4222	riochdail	riachdail
+23	4223	soilleireachd	
+24	4224	curracag	curracagan curracaig
+25	4225	àite-coise	àiteachan-coise àitean-coise
+26	4226	umhail	
+27	4227	dearmad	dearmadan dhearmad
+28	4228	ùidheil	
+29	4229	glùcos	
+30	4230	ath-chluich	
+31	4231	loisgeach	loisgiche
+32	4232	pinnt	phinnt pinntean
+33	4233	mion-fhiosrachadh	mion-fhiosrachaidh mion-fhiosrachaidhean
+34	4234	co-mhaoineach	co-mhaoinich
+35	4235	stiallach	
+36	4236	abhlan	
+37	4237	bolg	
+38	4238	sruthach	
+39	4239	branndaidh	
+40	4240	fileantach	fileantaich
+41	4241	foghlamaichte	
+42	4242	tàin	
+43	4243	seagal	seagail
+44	4244	iochdar	
+45	4245	fìorghlan	
+46	4246	tràchd	
+47	4247	dìomhain	diamhain
+48	4248	a-bhos	
+49	4249	iar-ogha	
+50	4250	taigh-cràbhaidh	
+51	4251	siorap	
+52	4252	sporan	sporain
+53	4253	mapadh	
+54	4254	crolaidh	croladh
+55	4255	critheann	chritheanna chritheannaibh critheannaibh crithinn
+56	4256	nabaidh	nabaidhean
+57	4257	aoigheachd	
+58	4258	cobhan	chobhain chobhan cobhain cobhanan
+59	4259	uisgich	uisgeachadh uisgeachaidh
+60	4260	peansail	peansailean peansailibh
+61	4261	cronail	chronail
+62	4262	dòchasach	dòchasaich dòchasaiche
+63	4263	combaist	chombaist combaiste combaistean
+64	4264	triop	thriop triopannan
+65	4265	eadar-sgeul	eadar-sgeòil t-eadar-sgeul
+66	4266	tiamhaidh	thiamhaidh
+67	4267	stiùireadair	stiùireadairean
+68	4268	biast-dubh	biastan-dubha bèiste-duibhe
+69	4269	purgaid	phurgaid
+70	4270	naisgear	naisgearan naisgeir
+71	4271	ceallalos	ceallalois cheallalos
+72	4272	bàta-tumaidh	bàtaichean-tumaidh
+73	4273	brochan	brochain
+74	4274	pannal	pannail pannalan
+75	4275	gruaidh	ghruaidh gruaidhe gruaidhean
+76	4276	ath-neartaich	ath-neartachadh ath-neartaichidh ath-neartaichte
+77	4277	buinne	bhuinne
+78	4278	caoch	caoiche chaoch coech
+79	4279	capall	capaill
+80	4280	grìogag	ghrìogag grìogagan
+81	4281	dachaigheil	dhachaigheil
+82	4282	mathas	mathais mhathais mhathas
+83	4283	mì-chòrdadh	mì-chòrdaidh mì-chòrdaidhean
+84	4284	taisbeanach	thaisbeanaich
+85	4285	crùbag	chrùbagan crùbagan crùbaig
+86	4286	ruigsinneach	ruigsinniche
+87	4287	muladach	mhuladach
+88	4288	coimhearsnach	choimhearsnaich coimhearsnaich
+89	4289	mì-cheartas	mi-cheartas
+90	4290	muinntireas	mhuinntireas
+91	4291	carbad-eiridinn	carbadan-eiridinn carbaid-eiridinn
+92	4292	sàsaich	shàsachadh shàsaich shàsaicheadh shàsaicheamaid shàsaichinn shàsaichist shàsaichiste shàsaichteadh sàsaicheadh sàsaicheam sàsaicheamaid sàsaichear sàsaichibh sàsaichidh sàsaichinn sàsaichist sàsaichiste sàsaichteadh sàsaichtear
+93	4293	tèarainn	thèarainn thèarainneadh thèarainneamaid thèarainninn thèarainnist thèarainniste thèarainnteadh thèarnadh tèarainneadh tèarainneam tèarainneamaid tèarainnear tèarainnibh tèarainnidh tèarainninn tèarainnist tèarainniste tèarainnte tèarainnteadh tèarainntear tèarnadh tèarnaidh
+94	4294	bogach	bhogach bogaich bogaichean
+95	4295	seulaich	seulachadh seulaichidh seulaichte sheulachadh
+96	4296	cnuasaich	chnuasachadh chnuasaich cnuasachadh cnuasaichidh cnuasaichte
+97	4297	smiogaid	smig smigead smiogaidean
+98	4298	sìneach	sìnich
+99	4299	muslamach	
+100	4300	teannta	

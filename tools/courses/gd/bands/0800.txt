@@ -1,0 +1,100 @@
+1	701	grian	ghrian ghriana greine grianaibh grèin grèine grèineadh
+2	702	faighneachd	faighneachdan fhaighneachd
+3	703	mallachd	mallachdaibh mallachdan mhallachd mhallachdan mollachd mullachd
+4	704	astar	astair astaran dh'astar h-astar t-astar
+5	705	rìoghachd	rioghachd rìoghachdaibh rìoghachdan
+6	706	moiteil	mhoiteile
+7	707	a-nìos	a-nios
+8	708	balla	ballachaibh ballachan ballaichean bhalla bhallaichean
+9	709	cè	c'è ce cèithe cèithean cé
+10	710	cupan	chupan cupaichean cupain cupanan
+11	711	cluicheadair	chluicheadair chluicheadairean cluicheadaire cluicheadairean
+12	712	aonadh	aonaidh aonaidhean dh'aonadh t-aonadh
+13	713	ruadh	ruadha ruaidh ruaidhe
+14	714	guth	ghuth ghutha ghuthan gutha guthaibh guthan
+15	715	taingeil	tainceil thaingeil
+16	716	modhail	modhaile
+17	717	stèisean	steisean stèiseanan stèisein stéisean t-stèisean
+18	718	agh	aighe aighean
+19	719	dubhach	
+20	720	stuth	stutha stuthan t-stuth
+21	721	coitcheann	choitcheann choitchinn coitcheannan coitchinn coitchinne
+22	722	leisg	leisge
+23	723	cuideigin	chuideigin
+24	724	adhart	adhairt adhartaichean
+25	725	seachdain	seachdaine seachdainean sheachdain sheachdainean t-seachdain
+26	726	neach-teagaisg	
+27	727	blàr	bhlàir bhlàr blàir blàire blàran
+28	728	tachartas	tachartais tachartasan thachartas thachartasan
+29	729	stiùireadh	stiuireadh stiùiridh stiùiridhean
+30	730	beul-aithris	beul-aithrise beul-aithrisean bheul-aithris
+31	731	soraidh	soraidhean t-soraidh
+32	732	dias	diasan dèise dèisean
+33	733	teangaidh	theangaidh
+34	734	agairt	
+35	735	turadh	turaidh
+36	736	cosail	cosaile
+37	737	obrachadh	dh'obrachadh h-obrachadh obrachaidh obrachaidhean t-obrachadh
+38	738	seid	seide seideachan seidean
+39	739	an-ceartuair	an-ceartair
+40	740	pathadh	padhadh pathaidh
+41	741	reic	reiceadh reiceam reiceamaid reicear reiceas reicibh reicidh reicinn reicist reiciste reicte reicteadh reictear
+42	742	coimeas	choimeas choimeasta coimeasaidh coimeasan coimeasta coimeaste coimeis
+43	743	ùghdarras	dh'ùghdarras h-ùghdarrasan t-ùghdarras ughdarras ùghdarrais ùghdarrasan
+44	744	togalach	thogalach thogalaich togalaich
+45	745	tidsear	thidsear thidsearan thidseir tidsearaibh tidsearan
+46	746	sòisealta	shòisealta shóisealta soisealta
+47	747	atharraich	atharraicheadh atharraichear atharraichidh atharraichte dh'atharraich
+48	748	làrach	larach làracha làraich làraiche làraichean làraichibh
+49	749	àiteachas	àiteachais àiteachd
+50	750	fàsach	fasach fhàsach fhàsachadh fhàsaich fhàsaichte fàsachadh fàsachaidh fàsaich fàsaichean fàsaichte
+51	751	feart	fearta feartan fheart fhearta fheartan
+52	752	sgrios	sgriosa sgriosadh sgriosaibh sgriosaidh sgriosainn sgriosaist sgriosaiste sgriosam sgriosamaid sgriosan sgriosar sgriosta sgriostadh sgriostar
+53	753	brosnaich	bhrosnachadh bhrosnaich bhrosnaicheadh bhrosnaicheamaid bhrosnaicheas bhrosnaichinn bhrosnaichist bhrosnaichiste bhrosnaichteadh brosnachadh brosnaicheadh brosnaicheam brosnaicheamaid brosnaichear brosnaichibh brosnaichidh brosnaichinn brosnaichist brosnaichiste brosnaichte brosnaichteadh brosnaichtear
+54	754	tuiteam	thuiteam tuiteaman tuiteim
+55	755	sìth	shìdh shìth shìthean sith sìdh sìdhe sìdhean sìthe sìthibh t-sìth
+56	756	poileataigs	phoileataigs
+57	757	cainnt	cainnte cainntean cainntibh chainnt chainnte chainntean
+58	758	beulaibh	bheulaibh
+59	759	dlùth	dhlùithe dhlùth dluth dlùith dlùithe dlùtha
+60	760	inbhir	dh'inbhir inbhirean t-inbhir
+61	761	buidhean	bhuidhne bhuidhnean buidhne buidhnean
+62	762	geamhradh	geamhraidh geamhraidhean gheamhradh gheamhraidh
+63	763	aibidil	aibidile aibidilean h-aibidil
+64	764	raon	raoin raointean raontan
+65	765	litreachas	litreachais litreachasan
+66	766	carbad	carbadaibh carbadan carbaid charbad charbadan charbaid
+67	767	bun-sgoil	bhun-sgoil bun-sgoile bun-sgoiltean
+68	768	nàdarra	nadarra nàdurra
+69	769	geama	geamaichean geamanan geamannan gheama gheamaichean gheamannan
+70	770	gluais	ghluais ghluaiseadh ghluaiseas gluaisidh gluaiste
+71	771	breac	bhreac bhreacadh bhreacainn bhreacaist bhreacaiste bhreacamaid bhreactadh bhric breaca breacadh breacaibh breacaidh breacainn breacaiste breacam breacamaid breacar breacta breactadh breactar breacte bric brice bricean
+72	772	teich	teiche teicheadh teicheam teicheamaid teichear teichibh teichidh teichinn teichist teichiste teichte teichteadh teichtear theich theiche theicheadh theicheamaid theicheas theichinn theichist theichiste theichteadh
+73	773	dùthchasail	dhùthchasail
+74	774	èirich	dh'eirich dh'èirich dh'èiricheadh dh'èiricheamaid dh'èiricheas dh'èirichinn dh'èirichist dh'èirichiste dh'èirichteadh eirich èireachd èiricheadh èiricheam èiricheamaid èirichear èirichibh èirichidh èirichinn èirichist èirichiste èirichte èirichteadh èirichtear èiridh éirich
+75	775	caran	
+76	776	seòmar	seòmair seòmraichean sheòmair sheòmar sheòmraichean t-seòmar
+77	777	cliùiteach	chliùiteach chliùitich chliùitiche cliùitiche cliùthach
+78	778	aonar	aonair h-aonar t-aonar
+79	779	pàigheadh	phàigheadh pàighidh
+80	780	buail	bhuail bhuaileadh bhuaileamaid bhuaileas bhuailinn bhuailist bhuailiste bhuailteadh buaileadh buaileam buaileamaid buailear buailibh buailidh buailinn buailist buailiste buailte buailteadh buailtear
+81	781	monadh	mhonadh mhonaidh mhonaidhean monaidh monaidhean
+82	782	cinneadh	chinneadh chinnidh chinnidhean cinnidh cinnidhean
+83	783	inneal	dh'inneal innealan inneil t-inneal
+84	784	far-ainm	far-ainmean fhar-ainm
+85	785	soirbheachail	shoirbheachail shoirbheachaile soirbheachaile
+86	786	beathach	beathaich beathaichean beitheach beothach beòthach bheathach bheathaich bheathaichean
+87	787	coisinn	choisinn choisinneadh coisinnidh coisinnte
+88	788	riaghladh	riaghlaidh riaghlaidhean
+89	789	dioplòmasach	dhioplòmasach dhioplòmasaich
+90	790	grunn	ghrunn gruinn grunna grunnan grunnanan
+91	791	comharrachadh	chomharrachadh comharrachaidh comharrachaidhean
+92	792	leigheas	leigheasan leigheis
+93	793	stoidhle	stoidhlean stoidhlichean
+94	794	eadar-theangachadh	dh'eadar-theangachadh eadar-theangachaidh eadar-theangachaidhean h-eadar-theangachadh t-eadar-theangachadh
+95	795	dorcha	dhorcha dhuirche doirche dorch duirche
+96	796	turasachd	thurasachd
+97	797	iomadach	iomadaich
+98	798	peant	peandaidh peanta peantadh peantaidh peantan peante pheant pheantadh
+99	799	cumadh	chumadh chumaidh chumaidhean cumaidh cumaidhean
+100	800	prìs	phrìs phrìsean pris prise prisean prìse prìsean

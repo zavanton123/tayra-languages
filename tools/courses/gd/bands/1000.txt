@@ -1,0 +1,100 @@
+1	901	laghail	laghaile
+2	902	stiùir	stiùireach stiùiream stiùireamaid stiùirean stiùirear stiùiribh stiùirichean stiùirinn stiùirist stiùiriste stiùirte stiùirteadh stiùirtear stiúirich
+3	903	leud	leudan leòid
+4	904	pòsta	phosta phòsda phòsta pòsda
+5	905	iasgaich	dh'iasgaich iasgach iasgaichidh iasgaichte
+6	906	òrdugh	ordugh t-òrdugh òrdughan òrduigh òrduighean
+7	907	feith	feitheamh feithidh feithte fheitheamh
+8	908	brath	bhrathadh bratha brathadh brathaidh brathan
+9	909	amas	amais amasan dh'amas t-amas
+10	910	sgrùdadh	sgrùdaidh sgrùdaidhean
+11	911	staid	staide staidean
+12	912	bùrn	bhùirn burn bùirn
+13	913	mall	maille malla mhaill mhall
+14	914	port-adhair	phort-adhair puirt-adhair
+15	915	coisich	choisich choisichear choisicheas coisichear coisichidh coisichte
+16	916	riaghailt	riaghailte riaghailtean
+17	917	còigeamh	choigeamh chòigeamh coigeamh còigeamhan còigeimh cóigeamh
+18	918	uachdar	h-uachdar t-uachdar uachdair
+19	919	daor	daoire daora dhaoire dhaor
+20	920	moladh	mholadh mholaidh mholaidhean molaidh molaidhean
+21	921	sùgh	shùgh shùghainn shùghaist shùghaiste shùghamaid shùghtadh shùigheadh sugh sùgha sùghadh sùghaibh sùghaidh sùghainn sùghaist sùghaiste sùgham sùghamaid sùghan sùghar sùghta sùghtadh sùghtar sùghte sùigh t-sùgh
+22	922	naomh	naoimh naomhan
+23	923	cabar	cabair chabair
+24	924	urram	h-urram t-urram urraim urraman
+25	925	buan	bhuan buaine buana
+26	926	feallsanachd	dh'fheallsanachd feallsanachdan fheallsanachd fheallsanachdan
+27	927	saor-làithean	làithean-saora
+28	928	bràth	bhrath bhràth bràtha
+29	929	smùid	smùide smùideadh smùidean smùididh smùidte
+30	930	còta	chota chòta cota còtaichean
+31	931	structar	structair structairean structaran
+32	932	cuideam	chuideam cuideaman cuideim
+33	933	oirthir	aithrir eilthir eirir eirire eirthir eirthire fairir foirthir h-oirthir oirthear oirthirean
+34	934	crìochnaich	chrìochnachadh chrìochnaich chrìochnaicheadh chrìochnaichidh crìochnachadh crìochnachaidh crìochnaichidh crìochnaichte
+35	935	sàmhach	samhach shàmhach
+36	936	gnè	ghnè ghnèithean gne gnèithean gné
+37	937	stèidhte	stéidhte
+38	938	colaiste	cholaiste colaistean
+39	939	glic	ghlice glice
+40	940	minig	mhinig minic
+41	941	brònach	bhrònach bhrònaich brònaich brònaiche
+42	942	maoin	maoine maoinean mhaoin mhaoine
+43	943	mathan	mathain mathanan mhathan
+44	944	costa	chosta costaichean
+45	945	earbsa	
+46	946	taigh-tasgaidh	thaigh-tasgaidh
+47	947	saidheansail	shaidheansail
+48	948	gruag	ghruag ghruaig gruagan gruaige
+49	949	pàipear	paipear paipearan phàipear phàipearan phàipeir pàipearan pàipeir
+50	950	fiodh	dh'fhiodh fhiodh fhiodha fiodha fiodhan
+51	951	faighnich	dh'fhaighnich faighnichidh faighnichte
+52	952	rathad-iarainn	rathaid-iarainn rathaidean-iarainn
+53	953	trioblaid	thrioblaid thrioblaidean trioblaide trioblaidean
+54	954	buille	bhuille buillean builleannan
+55	955	glòir	ghlòir ghlòire ghlòrach glòire glòirean glòrach
+56	956	pàipear-naidheachd	phàipear-naidheachd
+57	957	adhar	adhair t-adhar
+58	958	ceò	ceòtha ceòthadh cheò
+59	959	cailleach	cailleachan caillich cailliche chailleach
+60	960	cian	chian chiana
+61	961	stòiridh	stoiridh stoiridhean stòiridhean stòraidhean
+62	962	dòrn	dhorn dhòrn dhùirn dòrnan dùirn
+63	963	taisbeanadh	taisbeanaidh taisbeanaidhean thaisbeanadh thaisbeanaidhean
+64	964	brìgh	bhrigh bhrìgh bhrìghean brigh brìghean brìogh
+65	965	eòlas	dh'eòlas eòlais eòlasan t-eòlas
+66	966	fortanach	fhortanach
+67	967	aithnichte	
+68	968	cearcall	cearcaill cearcallan chearcaill chearcall
+69	969	teòiridh	teòiridhean theòiridh theòiridhean
+70	970	teodhachd	theodhachd
+71	971	ceathramh	ceathraimh ceathramhan cheathramh cheathramhan
+72	972	ath	
+73	973	bodhar	bodhair
+74	974	arsa	ars ors orsa
+75	975	iteag	iteagan iteig iteige
+76	976	deur	deòir
+77	977	corp	chorp chuirp cuirp
+78	978	doch	dhoch docha
+79	979	ciùin	chiùin ciùine
+80	980	ràmh	ràimh ràmha ràmhaibh ràmhan
+81	981	fasan	fasain fasanan fhasan
+82	982	ceangail	ceangailear ceangailidh ceangladh ceanglaidh cheangail cheangaileas cheangladh cheanglar cheanglas
+83	983	cuairteachadh	chuairteachadh chuairteachaidh chuartachadh chuartachaidh cuairteachaidh cuairteachaidhean cuartachadh
+84	984	neach-ciùil	luchd-ciùil
+85	985	tràchdas	thràchdas tràchdais
+86	986	cuan	chuain chuan cuain cuaintean cuanta cuantan
+87	987	dachaigh	dachaidh dachaighean dachannan dhachaighean
+88	988	tlachd	tlachdan
+89	989	teas	teasa teis theas theasa
+90	990	treabhadh	threabhadh treabhaidh
+91	991	còcaire	chòcaire còcairean
+92	992	bonnach	bonnachan bonnaich
+93	993	stoirmeil	
+94	994	murt	mhort mhortadh mhuirt mhurt mort mortadh muirt murtadh murtaidh murte
+95	995	caol	caoil caoile caoiltean caola chaoil chaoile chaol chaola
+96	996	seilbh	seilbhe seilbhean sheilbh sheilbhean t-seilbh
+97	997	acair	acaire acairean acraichean
+98	998	cùirt	chuirte chùirt chùirte chùirtean cuirt cùirte cùirtean cùirtibh
+99	999	dris	dreas drise drisean
+100	1000	cabhag	cabhaig cabhaige chabhaig

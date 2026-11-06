@@ -1,0 +1,100 @@
+1	3801	gineamhainn	ghineamhainn
+2	3802	giollachd	ghiollachd
+3	3803	urrasair	urrasairean
+4	3804	buaile	bhuaile buailtean
+5	3805	mansa	mhansa
+6	3806	lèigh	lèighe lèighean
+7	3807	grian-stad	ghrian-stad grian-stadan grian-staid
+8	3808	treabh	threabhainn threabhaist threabhaiste threabhamaid threabhtadh treabhaibh treabhainn treabhaist treabhaiste treabham treabhamaid treabhan treabhar treabhta treabhtadh treabhtar treibh
+9	3809	stal	stail staile
+10	3810	einnsean	einnseanan einnsein t-einnsean
+11	3811	ialtag	ialtagan ialtaig
+12	3812	altram	altraim h-altraim
+13	3813	baidhsagal	baidhsagail baidhsagalan bhaidhsagal bhaidhsagalan
+14	3814	balgan	bhalgan
+15	3815	pàrras	phàrras pàrrasan
+16	3816	creathal	chreathal creathail
+17	3817	bogha-frois	bhogha-frois bogha-fhrois bogha-froise boghachan-frois
+18	3818	ath-thog	ath-thogaidh ath-thogte dh'ath-thog
+19	3819	slaightear	shlaightear shlaightearan slaightearan slaighteir
+20	3820	gini	ginidhean
+21	3821	neodrach	
+22	3822	foghnadh	
+23	3823	innleachdach	innleachdaiche
+24	3824	eu-domhainn	
+25	3825	nàdurrach	
+26	3826	tricead	triceid
+27	3827	naisg	naisgidh naisgte nasgadh
+28	3828	brùidealachd	
+29	3829	innealach	
+30	3830	trama	tramaichean
+31	3831	doineann	
+32	3832	tairbhe	thairbhe
+33	3833	marsantachd	
+34	3834	neo-riaghailteach	
+35	3835	clàs	clàsa clàsan
+36	3836	reòiteag	reòiteagan reòiteige
+37	3837	truaighe	thruaighe
+38	3838	eisimeileachd	eisimealachd eisimeileachdan
+39	3839	ùr-nodha	
+40	3840	eag-eòlas	eag-eòlais
+41	3841	garaids	garaidsean
+42	3842	samhlachail	
+43	3843	bana-bhuidseach	bana-bhuidsich bana-bhuidsichean
+44	3844	nàire	
+45	3845	dràgon	
+46	3846	irisleabhar	
+47	3847	iondail	
+48	3848	aplacaid	
+49	3849	talmhaidh	
+50	3850	tiops	
+51	3851	tungstan	
+52	3852	duilleagach	dhuilleagach duilleabhrach duilleagaich
+53	3853	co-òrdaich	co-òrdaichidh co-òrdaichte co-òrdanachadh co-òrdanachaidh co-òrdanaich
+54	3854	dùblaich	dùblachadh
+55	3855	sunnd	shunnd
+56	3856	tomàto	tomàtothan
+57	3857	muicfheòil	muic-fheòil muicfheoil muicfheòla
+58	3858	spùt	sput spùta spùtan
+59	3859	tannasg	tannaisg
+60	3860	claisneachd	chlaisneachd
+61	3861	breugnaich	bhreugnachadh breugnachadh
+62	3862	muineal	mhuineal muinealan muineil
+63	3863	peucag	peucagan peucaige pheucaig
+64	3864	balg	bhalg
+65	3865	àrsaidheachd	h-àrsaidheachd
+66	3866	seàirdeant	seàirdeantan seàirdeint sàirdseant
+67	3867	imleag	ilimeag imealag imleagan imleig imleige iomlag
+68	3868	bàta-ràmh	bàtaichean-ràmh
+69	3869	liomaid	liomaide liomaidean
+70	3870	snàthad	snàthadan snàthaid
+71	3871	creachann	chreachainn chreachann creachainn creachannan
+72	3872	dealrach	dhealraich
+73	3873	pàillean	pàilleanan
+74	3874	camag	camagan camaige chamagan
+75	3875	dròbhair	dròbhairean
+76	3876	pioramaid	pioramaidean
+77	3877	ioma-phòsadh	ioma-phòsaidh ioma-phòsaidhean
+78	3878	prìobhaideachd	phrìobhaideachd
+79	3879	uath	uatha uathan
+80	3880	gadaiche	gadaichean
+81	3881	meacanaigeach	mheacanaigeach
+82	3882	cuing	chuing cuinge cuingean
+83	3883	seiche	seichean seicheannan sheiche
+84	3884	àithneach	dh'aithneach
+85	3885	teàrr	tearr tearra
+86	3886	siolandair	siolandairean
+87	3887	ciad-ghin	chiad-ghin
+88	3888	buaireasach	bhuaireasach
+89	3889	peacach	peacaich pheacach
+90	3890	pèist	pèiste pèistean
+91	3891	snàigeach	shnàigeach snàigich
+92	3892	filidh	fhilidh filidhean
+93	3893	cromag	chromag cromagan cromaig cromaige
+94	3894	seirm	seirmidh seirmte sheirm sheirme
+95	3895	reiseamaid	reiseamaidean
+96	3896	peatrol	peatroil pheatroil
+97	3897	maoineachas	maoineachais mhaoineachais
+98	3898	caidreabh	caidreadh caidreamh caidreibh caidreimh chaidreamh
+99	3899	tugh	tubh tughadh tughaidh tughta
+100	3900	tràillich	thràilleachadh thràillich tràilleachadh

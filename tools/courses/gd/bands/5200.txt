@@ -1,0 +1,100 @@
+1	5101	dà-theangach	dà-theangaich
+2	5102	foireann	
+3	5103	stèideam	
+4	5104	piuthar-màthar	peathar-màthar peathraichean-màthar
+5	5105	guim	
+6	5106	eas-ùmhlachd	eas-umhlachd
+7	5107	geilleagar	
+8	5108	nòtair	
+9	5109	aon-mhargadh	
+10	5110	cròch	
+11	5111	trioblaideach	
+12	5112	drùis-mhiannach	dhrùis-miannach dhrùis-miannaich drùis-miannach drùis-miannaich drùis-miannaiche
+13	5113	fosadh	
+14	5114	tàireil	
+15	5115	beulach	beulaich beulaiche
+16	5116	ailp	h-alp
+17	5117	casg-gineamhainn	caisg-gineamhainn
+18	5118	triantanach	
+19	5119	caigeann	caigeannan caiginn
+20	5120	aotram	
+21	5121	dàrnach	
+22	5122	aoghair	
+23	5123	cronaich	cronachaidh cronaichidh cronaichte
+24	5124	ascaoin	ascaoine
+25	5125	muileann-sàbhaidh	muileannan-sabhaidh muilinn-shàbhaidh
+26	5126	teist	theist
+27	5127	buidheachas	buidheachais
+28	5128	èiteag	èiteagan èiteig
+29	5129	meamran	
+30	5130	buintinn	
+31	5131	cùirtear	chùirtear cùirtearan cùirteir
+32	5132	bre	
+33	5133	trastanach	
+34	5134	stùireadh	
+35	5135	bàl	bàiltean
+36	5136	cuairsgean	cuairsgeanan
+37	5137	meanbhan	meanbhain meanbhanan
+38	5138	sultmhor	
+39	5139	cuinnlean	cuinnleanan
+40	5140	bagarrach	
+41	5141	àghmhor	
+42	5142	griod	ghriod
+43	5143	gloine	
+44	5144	iadh-shlat	
+45	5145	àrainneachdail	
+46	5146	turas-mara	turais-mara tursan-mara
+47	5147	lèirsgrios	
+48	5148	osan	osain osanan
+49	5149	seannsair	
+50	5150	clachach	
+51	5151	lannsair	
+52	5152	bhodca	vodka
+53	5153	easbhaidheach	
+54	5154	droman	dromanan
+55	5155	cuimhneachail	
+56	5156	leansgeul	
+57	5157	brosnachail	
+58	5158	fosfor	fosfoir
+59	5159	dineamait	
+60	5160	ath-thagair	ath-thagairte ath-thagradh ath-thagraidh
+61	5161	freagarrachd	
+62	5162	frith-choille	frith-choilltean frith-choilltichean
+63	5163	preasantadh	
+64	5164	ath-chuairtich	ath-chuairteachaidh ath-chuairtichidh ath-chuairtichte
+65	5165	daorsa	dhaorsa
+66	5166	gathaich	gathachadh
+67	5167	suaip	
+68	5168	snodhach	
+69	5169	creatlach	chreatlach
+70	5170	neo-iomlan	
+71	5171	stròic	
+72	5172	calcium	chalcium
+73	5173	màthaireachd	
+74	5174	rodan	rodain
+75	5175	ainm-chlàr	ainm-chlàir ainm-chlàran
+76	5176	ciont	
+77	5177	iomchair	iomchar
+78	5178	meacanaig	meacanaigean
+79	5179	searbhant	
+80	5180	taigh-obrach	
+81	5181	foghain	dh'fhoghain foghainte fòghnaidh
+82	5182	corranach	corranaich
+83	5183	leas-mhàthair	leas-mhàthar leas-mhàthraichean
+84	5184	cleamhnachadh	
+85	5185	aonamh	
+86	5186	cinneadail	
+87	5187	neach-comhairle	
+88	5188	coimearsalta	
+89	5189	tort	thort
+90	5190	sìobhaltachd	
+91	5191	riaghailteachadh	
+92	5192	procadair	phrocadair
+93	5193	eas-òrdugh	
+94	5194	brisgean	
+95	5195	cofhurtachd	
+96	5196	fadachd	
+97	5197	stod	
+98	5198	aingealach	
+99	5199	meatro	
+100	5200	traca	

@@ -1,0 +1,100 @@
+1	5201	achdaich	achdachadh
+2	5202	ionad-bhùthan	ionadan-bhùthan ionaid-bhùthan
+3	5203	clò-sgrìobhadh	clò-sgrìobhaidh clò-sgrìobhaidhean
+4	5204	stòl	stòla stòladh stòlan
+5	5205	ligh	ligheadh ligheam ligheamaid lighear ligheas lighibh lighidh lighinn lighist lighiste lighte lighteadh lightear
+6	5206	aon-ghuthach	aona-ghuthach h-aon-ghuthach
+7	5207	sealbhach	sealbhaiche seilbheach shealbhaiche
+8	5208	cuimse	chuimse
+9	5209	cruthadair	chruthadair
+10	5210	antaidh	antaidhean h-antaidh
+11	5211	os-fhìreachas	os-fhireachas os-fhìreachais os-fhìreachasan
+12	5212	doille-fhaclan	dhoille-fhaclan doille-faclan
+13	5213	leanmhainneach	leanmhainniche
+14	5214	saorsainn	saorsainne
+15	5215	coloinidh	coloinidhean
+16	5216	seudar	seudair
+17	5217	nàr	nàra nár
+18	5218	dosach	dhosach
+19	5219	grisgean	grisgeanan
+20	5220	grùdaire	grùdairean
+21	5221	corcar	corcair
+22	5222	ealamh	h-ealamh
+23	5223	mòrail	mhòrail mòraile
+24	5224	fiar	fiara fiaraich fiarte
+25	5225	fìnealta	finealta
+26	5226	prìomhail	prìomhaile
+27	5227	fadaich	fadachadh fhadachadh
+28	5228	caint	cainte
+29	5229	soirbhicheil	shoirbhicheil
+30	5230	torraicheas	torraicheis
+31	5231	aindeònach	aindeònaich h-aindeonach
+32	5232	tochailt	tochailtean
+33	5233	inntreadh	dh'inntreadh inntridh
+34	5234	sàraich	shàraicheadh shàraicheamaid shàraichinn shàraichist shàraichiste shàraichteadh sàraicheadh sàraicheam sàraicheamaid sàraichear sàraichibh sàraichidh sàraichinn sàraichist sàraichiste sàraichteadh sàraichtear sàruich
+35	5235	àrd-athair	t-àrd-athair àrd-athar àrd-athraichean
+36	5236	ath-bhuannaich	ath-bhuannachadh ath-bhuannaichidh ath-bhuannaichte dh'ath-bhuannaich
+37	5237	stais	staise staisean
+38	5238	glag	ghlag glagan
+39	5239	ealantair	ealantairean
+40	5240	tàmailtich	thàmailteachadh tàmailteachadh
+41	5241	tosd	thosd
+42	5242	toileach	thoileach
+43	5243	casadh	casaidh
+44	5244	breitheach	bhreitheach
+45	5245	àbhachd	abhachd
+46	5246	ailigeutair	ailigeutairean
+47	5247	nìghneag	nigheanag nighneag nìghneagan nìghneig nìghneige nìonag
+48	5248	corcas	corcais
+49	5249	purgadair	phurgadair purgadairean
+50	5250	blonag	blonaig
+51	5251	snèap	snèapan snèip snèipean
+52	5252	ath-dhìol	ath-dhìoladh ath-dhìolaidh ath-dhìolte
+53	5253	ceilear	ceileiridh
+54	5254	dùr	dur
+55	5255	fritheil	fhritheil fritheilear fritheilidh fritheilte
+56	5256	baist	baiste bhaist
+57	5257	braighdeanas	bhraighdeanas
+58	5258	tràthail	thràthail
+59	5259	cairt-bhòrd	chairt-bhòrd
+60	5260	saill	saille sailleadh saillidh shaill
+61	5261	uinnseann	fuinnseann uimhseann uinnse uinnsinn uinseann
+62	5262	dosrach	dhosrach
+63	5263	caibe	caibeachan caibeannan chaibe
+64	5264	parsail	parsailean
+65	5265	bucaid	bucaidean
+66	5266	sleamhainn	sleamhna sleamhuinn
+67	5267	craobh-ubhail	craobhan-ubhail craoibh-ubhail
+68	5268	siompansaidhe	siompansaidhean
+69	5269	neamhnaid	neamhnaide neamhnaidean
+70	5270	comhardadh	comhardaidh
+71	5271	co-sheirm	cho-sheirm
+72	5272	cròileagan	croileagan cròileagain
+73	5273	builgean	builgeanan builgein
+74	5274	plèan	phlèan plèanichean
+75	5275	comhradh	comhraidh comhraidhean
+76	5276	maraireachd	mharaireachd
+77	5277	taobhaich	taobhachadh taobhaichidh taobhaichte thaobhaich
+78	5278	dosgainn	dhosgainn
+79	5279	solt	sholta solta
+80	5280	clò-ghrafachd	chlò-ghrafachd clò-ghrafachdan
+81	5281	iochdmhor	iochdmhoir iochdmhoire iochdmhora
+82	5282	tar-aisig	tar-aiseag tar-aisigeadh tar-aisigeam tar-aisigeamaid tar-aisigear tar-aisigibh tar-aisigidh tar-aisiginn tar-aisigist tar-aisigiste tar-aisigte tar-aisigteadh tar-aisigtear thar-aisigeadh thar-aisigeamaid thar-aisiginn thar-aisigist thar-aisigiste thar-aisigteadh
+83	5283	càileach	caileach
+84	5284	ceudameatair	ceudameatairean cheudameatair
+85	5285	trùp	trùpan
+86	5286	piolaid	phiolaid
+87	5287	priobadh	phriobadh priobaidh priobaidhean
+88	5288	seamrag	seamragan seamraig t-seamrag
+89	5289	leatas	leatais leatasan leiteas liatas
+90	5290	frithig	fhrithigeadh frithigeadh
+91	5291	clobha	chlobha clobhachan clobhan
+92	5292	feanntag	deanntaig feanntagan feanntaige fheanntag neanntag
+93	5293	smùirnean	smùirnein
+94	5294	tuairisgeulach	tuairisgeulaich
+95	5295	iriosal	iriosail
+96	5296	preseantair	phreseantair
+97	5297	slam	shlaman slaman
+98	5298	muileann-pàipeir	mhuileann-pàipeir muileannan-pàipeir muilinn-phàipeir
+99	5299	grunnaich	ghrunnaich grunnachadh grunnachaidh grunnaichidh grunnaichte
+100	5300	feadhain	fheadhain

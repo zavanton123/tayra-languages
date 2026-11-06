@@ -1,0 +1,100 @@
+1	401	sona	
+2	402	tapadh	tapaidh thapaidh
+3	403	sùil	shuilean shùil shùilean suil sùilean sùilibh sùl sùla súil t-suil t-sùil
+4	404	teth	teotha theth
+5	405	sreath	shreath shreathan sread sreatha sreathan streath streathan t-sreath
+6	406	samhradh	samhraidh samhraidhean shamhradh t-samhradh
+7	407	taic	taice taicean thaic thaice
+8	408	cridhe	chridhe cridheachan cridhean
+9	409	tìr	thìr thìrean tir tìre tìrean tír
+10	410	bàrdachd	bardachd bhàrdachd
+11	411	dìth	dhìth dith dìthe
+12	412	teagasg	teagaisg theagaisg theagaisgeadh theagasg
+13	413	duais	dhuais dhuaisean duaise duaisean
+14	414	gleann	ghleann ghlinn ghlinne gleannan gleanntan glinn glinne
+15	415	slighe	shlighe shlighean slighean t-slighe
+16	416	oidhche	h-oidhche h-oidhcheannan h-oidhchibh oidhcheadh oidhcheannan oidhchibh
+17	417	naidheachd	naidheachdan
+18	418	eòlach	eòlaich
+19	419	mair	maireachdainn maireadh maireann mairidh mairsinn mairte mhair mhaireadh mhaireann mhaireas
+20	420	meas	measa measadh measaidh measan measar measta measte mheas mheasadh mheasaidh mheasan
+21	421	ceannard	ceannaird ceannardan cheannaird cheannard cheannardan
+22	422	ionnsaigh	dh'ionnsaigh h-ionnsaigh ionnsaighean
+23	423	fadalach	fadalaiche fhadalach fhadalaich fhadalaiche
+24	424	neach	luchd luchdan
+25	425	feadhainn	feadhna feadhnach fheadhainn
+26	426	làr	lar làir
+27	427	mas	
+28	428	bàrd	bard bhard bhàird bhàrd bhàrda bhàrdaibh bhàrdan bàird bàrda bàrdaibh
+29	429	cèilidh	ceilidh cheilidh chèilidh chèilidhean cèilidhe cèilidhean céilidh
+30	430	coire	choire coireachan coireannan
+31	431	foillseachadh	dh'fhoillseachadh fhoillseachadh fhoillseachaidh fhoillseachaidhean foillseachaidh foillseachaidhean
+32	432	sìde	shìde síde t-sìde
+33	433	mullach	mhullach mhullaich mullaich mullaichean
+34	434	còrr	chorr chòrr corr
+35	435	ùine	dh'ùine h-uine h-ùine t-ùine uine ùineachan úine
+36	436	àlainn	
+37	437	mìos	mhios mhìos mhìosan mios miosan mìosa mìosan
+38	438	bun	bhun bhunan buna bunan
+39	439	atharrachadh	atharrachaidh atharrachaidhean atharraichean dh'atharrachadh t-atharrachadh
+40	440	gob	ghob ghoban ghuib goban guib
+41	441	fìon	fhìon fhìona fion fìona fìontan
+42	442	brù	bhroinn bhroinne bhronn bhrù bhrùtha broinn broinne bronn bronnaibh bru brùthan
+43	443	bùth	bhuth bhùithtean bhùth bhùthan buithtean buth buthan bùitean bùithean bùithnean bùithtean bùtha bùthaidh bùthainnean bùthan bùthannan
+44	444	nàiseanta	naiseanta
+45	445	clàradh	chlàradh chlàraidh chlàraidhean clàraidh clàraidhean
+46	446	lann	lainn lainne lanna lannan lanndaichean
+47	447	mapa	map mapaichean mhapa mhapaichean
+48	448	stad	stada stadadh stadaibh stadaidh stadainn stadaist stadaiste stadam stadamaid stadan stadar stadas stadta stadtadh stadtar stadte
+49	449	sgeulachd	sgeulachdaibh sgeulachdan
+50	450	oifigeal	oifigeil oifigeile
+51	451	àraidh	araidh h-araidh h-àraidh àraidhe
+52	452	beul	beoil beòil bheul bheòil
+53	453	muinntir	mhuinntir mhuinntire muinntire muinntreach
+54	454	doirbh	dhoirbh doirbhe
+55	455	gnothach	ghnothach ghnothaich ghnothaichean gnothaich gnothaichean gnòthaichean
+56	456	nàdar	nadar nàdair nàdairean nàduir nàdur
+57	457	mura	man mana mur
+58	458	ma-thà	ma-tà matà
+59	459	sgioba	sgiobaichean sgiobaidhean sgioban sgiobannan
+60	460	saighdear	saighdearan saighdeir shaighdear shaighdearan t-saighdear
+61	461	arm	airm armaibh dh'arm t-arm
+62	462	ceum	ceuma ceuman ceumanan ceumannan cheum cheuma cheuman cheumannan cèim
+63	463	an-uiridh	
+64	464	cùis	chuis chùis chùise chùisean cuis cuisean cuiseanan cùise cùisean
+65	465	prìomh	phriomh phrìomh priomh
+66	466	ceud	ceudan cheud cheudan
+67	467	suidheachadh	shuidheachadh shuidheachaidh shuidheachaidhean suidheachaidh suidheachaidhean suidhichean suidhichidhean t-suidheachadh
+68	468	fèill	feill feille fhèill fhèille fhèillean fèille fèillean fèilltean féill
+69	469	tè	te thè té
+70	470	lagh	lagha laghaibh laghan laghannan
+71	471	bàn	ban bana bhan bhàin bhàn bàin bàine bàna bán
+72	472	abhainn	aibhne aibhneachan aibhnichean dh'abhainn
+73	473	cuairt	chuairt chuairtean cuairte cuairtean
+74	474	meadhanach	meadhanaich mheadhanach
+75	475	dearg	dearga deargadh deargaibh deargaidh deargainn deargaist deargaiste deargam deargamaid deargar deargta deargtadh deargtar deargte deirg deirge dhearg dheargadh dheargainn dheargaist dheargaiste dheargamaid dheargtadh dheirg
+76	476	donn	dhonn dhonna donna duinn duinne
+77	477	telebhisean	telebhiseanan telebhisein thelebhisean thelebhisein
+78	478	siostam	shiostaim shiostam shiostaman siostaim siostamaibh siostaman t-siostaim t-siostam
+79	479	cùl	chùl cuil cul cùil cùiltean
+80	480	doras	dhoras dhorsan dorais dorsan dorus
+81	481	blàth	bhlàth bhlàtha blath blàith blàithe blàtha blàthan
+82	482	port	phort phuirt portan puirt
+83	483	ge-tà	ge-ta
+84	484	rè	re ré
+85	485	tioram	thioram tioraim tioraime tiorama
+86	486	cumhachd	chumhachd chumhachdan comhachd cumachda cumhachdaibh cumhachdan
+87	487	gàrradh	garradh gharradh ghàradh ghàraidhean ghàrradh ghàrraidhean gàradh gàraidh gàraidhean gàrraidh gàrraidhean
+88	488	ainmeachadh	ainmeachaidh ainmeachaidhean dh'ainmeachadh h-ainmeachadh
+89	489	eileamaid	eileamaidean
+90	490	nobhail	nobhaile nobhailean
+91	491	aiseag	aiseagan aiseig h-aiseag t-aiseag
+92	492	aire	h-aire
+93	493	siorrachd	shiorrachd shiorrachdan shiorramachd shiorramachdan siorrachdan siorramachd siorramachdan t-siorrachd
+94	494	ionnsaich	dh'ionnsaich dh'ionnsaicheadh dh'ionnsaicheamaid dh'ionnsaichinn dh'ionnsaichist dh'ionnsaichiste dh'ionnsaichteadh ionnsaicheadh ionnsaicheam ionnsaicheamaid ionnsaichear ionnsaichibh ionnsaichidh ionnsaichinn ionnsaichist ionnsaichiste ionnsaichte ionnsaichteadh ionnsaichtear
+95	495	leasachadh	leasachaidh leasachaidhean
+96	496	caisteal	caistealan caisteil chaisteal chaistealan chaisteil
+97	497	a-mhàin	a-mhain
+98	498	troigh	throigh throighean tr troighe troighean troigheanan
+99	499	sneachda	shneachd shneachda shneachdachan sneachd sneachdachaibh sneachdachan t-sneachda
+100	500	cat	cait cataibh chait chat chata chataibh

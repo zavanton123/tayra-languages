@@ -1,0 +1,100 @@
+1	1101	matamataig	matamataic mhatamataig
+2	1102	iarann	dh'iarann iarainn iarannan t-iarann
+3	1103	dham	
+4	1104	treubh	threubh threubhan treubha treubhan trèibh
+5	1105	tuathanas	thuathanas thuathanasan tuathanais tuathanasan
+6	1106	uachdaran	dh'uachdaran h-uachdaran t-uachdaran uachdarain uachdaranan uachdran
+7	1107	glacadh	ghlacadh glacaidh glacaidhean
+8	1108	clò	chlò clòdha clòdhan clòitean clòithean clòtha
+9	1109	fuaim	fhuaim fuaime fuaimean fuaimnean
+10	1110	galar	galair galaran ghalair ghalar ghalaran
+11	1111	teachd	teachdan theachd
+12	1112	còmhlan-ciùil	chòmhlan-ciùil còmhlain-chiùil
+13	1113	leth-eilean	leth-eileanan leth-eilein
+14	1114	sgaoil	sgaoilean sgaoilear sgaoileas sgaoilte
+15	1115	freagarrach	fhreagarrach fhreagarraiche freagarraich freagarraiche
+16	1116	ìsle	b'isle b'ìsle isle ìslean
+17	1117	taigh-solais	taighe-solais taighean-solais thaigh-solais
+18	1118	togalaichean	thogalaichean
+19	1119	dràma	dhràma drama dràmathan
+20	1120	leabharlann	leabhar-lann leabharlainn leabharlannan
+21	1121	fosgailte	fhosgailte
+22	1122	còmhstri	chòmhstri comh-strì comhstri còmh-stri còmhstrithean
+23	1123	shuas	
+24	1124	ìmpireachd	dh'impireachd dh'ìmpireachd h-impireachd h-ìmpireachd impireachd t-impireachd ìmpireachdan ìompaireachd ìompaireachdan
+25	1125	neart	neartan neirt nèirt
+26	1126	iomallach	iomallaich iomallaiche
+27	1127	diùlt	dhiùlt dhiùltas diùltainn diùlte
+28	1128	mean	mein mhean
+29	1129	pearsanta	phearsanta
+30	1130	dia	dhia dhiatha dhiathan dhè diathan dèe
+31	1131	sròn	shròn shròna sròin sròine sròinean sròintean srònaibh srònan t-sron t-sròin t-sròn
+32	1132	uaine	
+33	1133	deuchainn	deuchainne deuchainnean dheuchainn dheuchainnean
+34	1134	dùthchail	dhùthchail dhùthchaile dùthchaile
+35	1135	seasamh	seasaimh seasamhan sheasamh
+36	1136	cùlaibh	chulaibh chùlaibh culaibh
+37	1137	connspaideach	chonnspaideach chonnspaidiche comhspaideach connspaidiche connspoideach cònspoideach
+38	1138	cur-ris	chur-ris
+39	1139	club	chlub
+40	1140	pròiseas	phròiseas phròiseasan phròiseis pròiseasan pròiseis
+41	1141	sìmplidh	shimplidh shimplidhe shìmplidh shìmplidhe simplidh sìmplidhe
+42	1142	nàmhaid	naimhdean namhaid nàimhdean nàmh nàmhad nàmhaidean
+43	1143	deasaiche	deasaichean dheasaiche
+44	1144	poilitigeach	phoilitigeach phoilitigich poilitigich
+45	1145	tùsanach	thùsanach thùsanaich tùsanaich
+46	1146	tìr-mòr	thìr-mòr tìr-mhòir tìr-mór tìrean-mòra
+47	1147	comasach	chomasach chomasaiche comasaiche
+48	1148	leasaich	leasaicheadh leasaicheam leasaicheamaid leasaichear leasaicheas leasaichibh leasaichidh leasaichinn leasaichist leasaichiste leasaichte leasaichteadh leasaichtear
+49	1149	teirm	teirmean teirmichean theirm theirmean
+50	1150	ìosal	h-ìosal iosail iosal ìosail
+51	1151	fuil	fala fhala fhuil
+52	1152	abaid	abaide abaidean dh'abaid h-abaid
+53	1153	buidhe	bhuidhe
+54	1154	talla	tallachan tallaichean
+55	1155	àrainneachd	arainneachd dh'àrainneachd h-àrainneachd àrainneachdan
+56	1156	daonna	dhaonna
+57	1157	croit	chroit chroitean chruit croite croitean cruit
+58	1158	craoladair	chraoladair craoladairean craoladairibh
+59	1159	briseadh	bhriseadh brisidh brisidhean
+60	1160	deasach	deasaich deasaichear deasaichte dheasach dheasaich dheasaicheadh dheasaichear dheasaicheas dheasaichte
+61	1161	buil	bhuil buile builean
+62	1162	tradaiseanta	thradaiseanta
+63	1163	cath	catha cathaibh cathannan chath chatha
+64	1164	adhbharaich	adhbharachadh adhbharaichidh adhbharaichte dh'adhbharaich
+65	1165	luchd-turais	
+66	1166	craoladh	chraoladh chraolaidhean craolaidh craolaidhean craolaidhibh
+67	1167	dealbhaich	dealbhachadh dealbhachaidh dealbhaichte dhealbhachadh dhealbhachaidh dhealbhaich dhealbhaicheadh
+68	1168	cùmhnant	chumhnant chùmhnaint chùmhnant chùmhnantan cumhnant cumhnantan cùmhnaint cùmhnantan
+69	1169	còmhnaidh	chòmhnaidh comhnaidh còmhnaidhe còmhnaidhean
+70	1170	bacadh	bacaidh bacaidhean bacaidhibh bhacadh bhacaidh bhacaidhean
+71	1171	siathamh	shiathamh t-siathamh
+72	1172	èirigh	dh'eirigh dh'èirigh eirigh h-èirigh n-èirigh èirighe èirighean éirigh
+73	1173	innleadair	h-innleadair innleadaire innleadairean t-innleadair
+74	1174	dotaireachd	dhotaireachd
+75	1175	ceathrar	ceathrair ceathraran cheathrar
+76	1176	rèiteachadh	rèiteachaidh rèiteachaidhean
+77	1177	losgadh	losgaidh losgaidhean losgaidhibh
+78	1178	ruigsinn	ruighinn ruigsinnean
+79	1179	neoni	neonithean
+80	1180	planaid	phlanaid phlanaidean planaide planaidean
+81	1181	oidhirp	dh'oidhirp h-oidhirp n-oidhirp oidhearp oidheirp oidhirpe oidhirpean
+82	1182	greis	ghreis greise greisean
+83	1183	càrn	chàirn chàrn chàrna chàrnadh chàrnaibh càirn càrnadh càrnaibh càrnaidh cùirn
+84	1184	naoi	naoidh
+85	1185	cluba	chluba chlubaichean clubaichean
+86	1186	oifigear	h-oifigear oifigearan oifigeir t-oifigear
+87	1187	dearbhach	dhearbhach dhearbhaich
+88	1188	tùsail	thùsail tùsaile
+89	1189	manaidsear	manaidsearaibh manaidsearan manaidseir mhanaidsear mhanaidsearan mhanaidseir
+90	1190	aontaich	aontaichidh aontaichte dh'aontaich
+91	1191	croitearachd	chroitearachd
+92	1192	leudaich	leudachadh leudachaidh leudachaidhean leudaicheadh leudaicheam leudaicheamaid leudaichear leudaicheas leudaichibh leudaichidh leudaichinn leudaichist leudaichiste leudaichte leudaichteadh leudaichtear
+93	1193	tilleadh	tillidh
+94	1194	tuathanach	thuathanach thuathanaich tuathanaich
+95	1195	gaoth	gaoith gaoithe gaoitheadh gaoithean gaothaibh gaothan ghaoithe ghaoth ghaotha
+96	1196	tràill	thraill thràill thràillean tràille tràillean tràillibh tráill
+97	1197	cathraiche	chathraiche
+98	1198	leathann	leathainn leathainne leathanna leithne
+99	1199	cùram	chùraim chùram curam cùraim cùraman
+100	1200	prìomhaire	phrìomhaire phrìomhairean

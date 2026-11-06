@@ -1,0 +1,100 @@
+1	2101	da-rìribh	a-rìribh da-rìreadh dha-rìribh ga-rìreadh ga-rìribh rìribh
+2	2102	dleasdanas	dhleasdanas dleasdanasan
+3	2103	tìdsear	thìdsear thìdsearan tìdsearan
+4	2104	fuasgail	dh'fhuasgail fhuasgail fuasgailidh fuasgailte
+5	2105	spèis	speis spèise spéis
+6	2106	fàileadh	faileadh fhàilidh fhàilidhean fàile fàilidh fàilidhean fàilidhibh
+7	2107	susbaint	shusbaint susbainte susbaintean t-susbaint
+8	2108	banrigh	bainrìgh ban-rìgh banrighe banrighean banrighinn banrìghinn bhanrigh
+9	2109	riaghail	riaghailidh
+10	2110	eiseimpleir	
+11	2111	mùth	mhùth mùthaidh mùthte
+12	2112	fòirneart	fhòirneart fhòirneirt fòirneartan fòirneirt
+13	2113	feargach	fheargach
+14	2114	fòrsa	fhòrsa fòrsaichean
+15	2115	gabhaltas	gabhaltais ghabhaltais ghabhaltas
+16	2116	nòta	nòtaichean
+17	2117	beum	beuma beuman beumannan bheum bheuman
+18	2118	garg	garga gharg
+19	2119	fuigheall	fhuigheall fhuighill fuighill
+20	2120	breithneachadh	bhreithneachadh bhreithneachaidh breithneachaidh breithneachaidhean
+21	2121	teachdaire	teachdairean theachdaire theachdairean
+22	2122	cearc	cearcan chearc circ circe
+23	2123	romansach	romansaiche
+24	2124	grunnd	ghruinnd ghrunnd gruinnd grunnda grunndan
+25	2125	maraiche	maraichean mharaiche mharaichean
+26	2126	maol	maoil maola mhaol mhaola
+27	2127	radaigeach	radaigich radaigiche
+28	2128	ro-ràdh	ro-ràdhan ro-ràidh
+29	2129	cruthachail	chruthachail chruthachaile
+30	2130	draoidheachd	draoidheachdan
+31	2131	tèarainteachd	thèarainteachd
+32	2132	laoch	laochain laoich
+33	2133	misean	mhisean mhisein miseanan
+34	2134	orains	orainds
+35	2135	stob	stobadh stobaidh stoban stobte stuib
+36	2136	poilitigs	phoilitigs
+37	2137	buadhair	bhuadhair buadhairean
+38	2138	suirbhidh	suirbhidhean t-suirbhidh
+39	2139	giuthas	ghiuthais ghiuthas ghiuthasa ghiuthasaibh giuthais giuthasaibh
+40	2140	tasglann	tasglainn tasglannan thasglann
+41	2141	agallamh	agalladh agallaimh agallamhan t-agallamh
+42	2142	cnag	chnag cnagadh cnagaidh cnagan cnagte cnaig
+43	2143	teisteanas	teisteanais theisteanas theisteanasan
+44	2144	duan	dhuan duain
+45	2145	deachdaireachd	dheachdaireachd
+46	2146	dail	daile dailean
+47	2147	rangaich	rangachadh rangaichte
+48	2148	coisrigte	
+49	2149	fa-near	fainear
+50	2150	tropaigeach	thropaigeach
+51	2151	caismeachd	caismeachdan chaismeachd
+52	2152	marbhtach	marbhtaiche mharbhtach
+53	2153	fighe	fhighe
+54	2154	soidhne	shoidhnichean soidhnichean
+55	2155	iomlaid	iomlaide iomlaidean
+56	2156	stiùirich	stiùireachadh stiùiricheadh stiùiricheam stiùiricheamaid stiùirichear stiùirichibh stiùirichidh stiùirichinn stiùirichist stiùirichiste stiùirichte stiùirichteadh stiùirichtear
+57	2157	ionnsaidh	
+58	2158	sgian-dubh	sgianan-dubha sgèine-duibhe
+59	2159	lethbhreac	lethbhreacan lethbhric
+60	2160	snaigh	shnaigheadh shnaighte snaigheadh snaighte
+61	2161	tradaisean	thradaiseanan tradaiseanan tradaisein
+62	2162	barail	baraile barailean baralach bharail
+63	2163	truailleadh	thruaillidh truaillidh truaillidhean
+64	2164	innlich	innleachadh innlichidh innlichte
+65	2165	acadamaidh	acadamaidhean h-acadamaidh
+66	2166	peata	peatachan peatadh peataichean peatan pheata
+67	2167	slaodach	shlaodaich slaodaiche
+68	2168	co-ogha	cho-ogha
+69	2169	còmhdachadh	chòmhdachadh còmhdachaidh còmhdachaidhean
+70	2170	gealladh	geallaidhean ghealladh
+71	2171	factar	factaran fhactair fhactar
+72	2172	lot	lota lotadh lotaichean lotaidh lotan lotas
+73	2173	brach	bhrachadh brachadh brachaidh
+74	2174	leughadair	leughadaire leughadairean
+75	2175	meudachd	meudachdan mheudachd
+76	2176	briosgaid	bhriosgaid briosgaide briosgaidean
+77	2177	fùdar	fhùdair fhùdar fùdair fùdaran phùdair phùdar pùdair pùdar
+78	2178	snaidh	shnaidhte snaidheadh snaidhte
+79	2179	peanas	peanais peanasan pheanais pheanas pheanasan
+80	2180	mill	mhill mhilleas millte
+81	2181	eadar-lìon	eadar-lion eadar-lìn eadar-lìontan t-eadar-lìon
+82	2182	sgileil	sgileile
+83	2183	duilleach	dhuilleach duillich
+84	2184	cotan	chotain cotain
+85	2185	lite	lit
+86	2186	farpaiseach	farpaisich fharpaiseach
+87	2187	bogha	bhogha boghachan boghannan
+88	2188	labhrach	labhraiche labhraichean
+89	2189	creagach	chreagach
+90	2190	tabhannaich	tabhainn tabhann tabhannaichidh tabhannaichte thabhann
+91	2191	tathainn	tabhainn tabhann tathainnidh tathainnte thabhann
+92	2192	dian	deine dhian dèine
+93	2193	tunail	thunail thunailean tunaile tunailean
+94	2194	prionnsabal	phrionnsabal phrionnsabalan prionnsabail prionnsabalan
+95	2195	fìdhlear	fhìdhlear fidhlear fiodhlair fìdhleir fìleir
+96	2196	uiseag	uiseagan uiseig uiseige
+97	2197	loighne	loighnichean
+98	2198	aoine	dihaoine h-aoine
+99	2199	bian	bhian bhèin bèin
+100	2200	eala	ealachan ealaidh h-eala

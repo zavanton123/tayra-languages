@@ -1,0 +1,100 @@
+1	1501	feur	feoir feuradh feuraidh feurte feòir fheoir fheur fheòir
+2	1502	òrdaich	dh'ordaich dh'òrdaich dh'òrdaicheamaid dh'òrdaicheas dh'òrdaichinn dh'òrdaichist dh'òrdaichiste dh'òrdaichteadh òrdachadh òrdachaidhean òrdaicheadh òrdaicheam òrdaicheamaid òrdaichear òrdaichibh òrdaichidh òrdaichinn òrdaichist òrdaichiste òrdaichte òrdaichteadh òrdaichtear
+3	1503	builich	bhuileachadh bhuilich bhuilicheadh buileachadh
+4	1504	sealg	sealgaidh sealgan sealgte seilg seilge shealg sheilg t-sealg
+5	1505	taigh-staile	taighe-staile taighean-staile thaigh-staile
+6	1506	laoidh	laoidhean
+7	1507	dam	dama damaichean
+8	1508	banais	bainnse bainnseadh bainnsean bhainnse bhainnsean bhanais
+9	1509	deicheamh	deicheamhan deicheimh dheicheamh
+10	1510	soitheach	shoitheach shoitheacha shoithichean soithich soithiche soithichean soithichibh
+11	1511	sìthiche	shìthiche shìthichean sìthichean sìthichibh t-sìthiche
+12	1512	dealbhadair	dealbhadaire dealbhadairean dhealbhadair
+13	1513	sgeir	sgeire sgeirean
+14	1514	iarla	dh'iarla iarlaichean iarlan t-iarla
+15	1515	cabhlach	cabhlaich cabhlaichean chabhlach chabhlaich
+16	1516	uaigh	dh'uaigh h-uaigh uaghach uaighe uaighean
+17	1517	stàilinn	stailinn stàilinne stàilinnean
+18	1518	sgath	sgatha sgathadh sgathan
+19	1519	geàrr	gearr gearra geàrra geàrradh geàrraibh geàrraidh geàrrainn geàrraist geàrraiste geàrram geàrramaid geàrran geàrrar geàrrta geàrrtadh geàrrtar ghearr gheàrr gheàrrainn gheàrraist gheàrraiste gheàrramaid gheàrran gheàrrtadh ghiorra
+20	1520	ceannardas	ceannardais cheannardais cheannardas
+21	1521	crois	chrois croise croisean cros
+22	1522	heactair	heactairean
+23	1523	seachnadh	seachnaidh seachnaidhean sheachnadh
+24	1524	strìopach	strìopachan strìopaich strìopaichean
+25	1525	rùsg	rusg rùisg rùisgte rùsgadh rùsgaidh rùsgan rùsgte
+26	1526	conaltradh	chonaltraidh conaltraidh conaltraidhean
+27	1527	matamataigear	matamataicear matamataigearaibh matamataigearan matamataigeir mhatamataigear mhatamataigeir
+28	1528	colbh	choilbh cholbh cholbhan colbhan cuilbh
+29	1529	inbheach	dh'inbheach inbhich inbhiche
+30	1530	gràin	ghràin gràine gràinean gràinne gràinnean
+31	1531	lùth	lùtha lùthan
+32	1532	cèin	chèin cèine céin
+33	1533	crom	chrom chromas croma cromadh cromaidh cromte cruime
+34	1534	eug	dh'eug dh'eugadh dh'eugainn dh'eugaist dh'eugaiste dh'eugamaid dh'eugtadh eugadh eugaibh eugaidh eugainn eugaist eugaiste eugam eugamaid eugar eugta eugtadh eugtar eugte t-eug èig
+35	1535	maireannach	mhaireannach mhaireannaich mhaireannaiche
+36	1536	coileanadh	choileanadh choileanaidh coileanaidh coileanaidhean
+37	1537	cleachdas	chleachdas
+38	1538	dùthchasach	dhùthchasach dhùthchasaich
+39	1539	comannach	chomannach chomannaich comannaich comannaiche
+40	1540	sgiath	sgiathaibh sgiathan sgèithe
+41	1541	itealan	itealain
+42	1542	gnàth	ghnàth ghnàths gnàiths gnàtha gnàthan gnàthas gnàthasan gnàths gnàthsan
+43	1543	diùltadh	dhiùltadh diùltaidh diùltaidhean
+44	1544	clòimh	chlòimh clòimhe clòimheadh clòimhean clòimhibh
+45	1545	toglach	thoglaichean toglaichean
+46	1546	làitheil	laitheil làitheile
+47	1547	ceannsaich	ceannsaichidh cheannsaich
+48	1548	annasach	annasaiche h-annasach
+49	1549	ràith	ràithe ràithean
+50	1550	cala	caladh calaidh calaidhean chala chaladh chalaidh chalaidhean
+51	1551	riatanach	riatanaiche
+52	1552	dàmhair	dàmhairean
+53	1553	inneal-ciùil	innealan-ciùil inneil-chiùil
+54	1554	càraideach	chàraideach chàraidich
+55	1555	britheamh	bhreitheamh bhreitheamhan bhreitheimh bhritheamh bhritheamhan bhritheimh breitheamh breitheamhan britheamhan britheimh
+56	1556	deamocratach	deamocrataich dheamocratach
+57	1557	partaidh	phartaidh
+58	1558	ceàrd	ceàird ceàirdean ceàrdan cheàird cheàrd cheàrdan chiùird ciùird cèard
+59	1559	batal	batail batailean bhatail bhatailean
+60	1560	eadar-theangaich	dh'eadar-theangaich eadar-theangaichidh
+61	1561	roghainn	roghainnean roghainnibh
+62	1562	tosgair	thosgair
+63	1563	moch	mhoch mhoich mocha moiche
+64	1564	mòine	mhòine moine mòna mònach mònadh
+65	1565	clàrsach	chlàrsach chlàrsaich chlàrsaichean clàrsaich clàrsaichean
+66	1566	àrd-ollamh	h-àrd-ollamh t-ard-ollamh t-àrd-ollamh àrd-ollaimh àrd-ollamhan
+67	1567	liath	liatha liathadh lèithe
+68	1568	uimhir	uimhirean
+69	1569	ùrlar	t-ùrlar ùrlair ùrlaran
+70	1570	dìt	dhìt dhìteadh dhìtidh dìteadh dìtidh dìtidhean
+71	1571	tuigse	thuigse tuigsean
+72	1572	eileanach	eileanaich t-eileanach
+73	1573	pàigh	phàigh phàigheas pàighean pàighte
+74	1574	tearc	tearca thearc
+75	1575	faoidte	dh'fhaoidte
+76	1576	torrach	thorach thorrach thorraiche torach toraiche
+77	1577	teusas	teusais teusasan theusais theusas
+78	1578	ceannachd	cheannachd
+79	1579	cuimhneachadh	chuimhneachadh chuimhneachaidh cuimhneachaidh cuimhneachaidhean
+80	1580	fiadh	fhiadh fhiadha fhiadhaibh fhèidh fiadhaibh fèidh
+81	1581	creach	chreach chreachadh chreich creachadh creachaidh creachan creachte creagh creich creiche
+82	1582	fuasgladh	dh'fhuasgladh fhuasgladh fhuasglaidh fuasglaidh fuasglaidhean
+83	1583	gealach	gealachadh gealachaidh gealaich gealaiche gealaichean gealaichibh gealaichte ghealach ghealacha ghealachadh ghealaich ghealaichean
+84	1584	brùth	bhrùth bhrùthadh bhrùthaidh brùthadh brùthaidh
+85	1585	briste	bhriste
+86	1586	àrsaidh	arsaidh t-àrsaidh
+87	1587	shìos	
+88	1588	teòthachd	theòthachd
+89	1589	cuimhneachan	chuimhneachain chuimhneachan cuimhneachain
+90	1590	àraich	dh'àraich dh'àraicheadh dh'àraicheamaid dh'àraichinn dh'àraichist dh'àraichiste dh'àraichteadh h-àraich àraicheadh àraicheam àraicheamaid àraichear àraichibh àraichidh àraichinn àraichist àraichiste àraichte àraichteadh àraichtear
+91	1591	deònach	deonach deònaich deònaichte deòntach diùnach
+92	1592	carbon	carboin charboin charbon càrbon
+93	1593	saor-thoileach	saor-thoilich shaor-thoileach
+94	1594	lionn	lionna lionntan
+95	1595	pailteas	pailteis phailteas
+96	1596	fonn	fhonn fhuinn fuinn
+97	1597	teud	teuda teudan theud theudan
+98	1598	geall	geallaibh geallaidh geallainn geallaist geallaiste geallam geallamaid geallar gealltadh gealltainn gealltar geallte gheall gheallainn gheallaist gheallaiste gheallamaid ghealltadh ghealltainn ghill gill
+99	1599	gearran	gearrain ghearrain
+100	1600	beus	beusa beusan bheus

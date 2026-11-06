@@ -1,0 +1,100 @@
+1	7001	diochuimhnich	diochuimhneachadh
+2	7002	canèiridh	canèiridhean
+3	7003	ban-ìmpire	ban-impire ban-ìmpirean ban-ìompaire
+4	7004	cipean	cipeanan cipein
+5	7005	bodraig	bodraigeadh
+6	7006	laghairt	laghairte laghairtean
+7	7007	tèarmannair	tèarmannairean
+8	7008	breugadair	breugadairean
+9	7009	slapag	slapagan slapaige
+10	7010	eunadair	eunadairean
+11	7011	solar	sholar
+12	7012	tuirneap	
+13	7013	crostachd	
+14	7014	sgoltadh-inntinn	sgoltaidh-inntinn
+15	7015	dadaidh	
+16	7016	pàirtear	phàirtearan phàirteir pàirtearaibh pàirtearan pàirteir
+17	7017	agat	
+18	7018	amaideachd	amaideachdan
+19	7019	tionnsgalachd	
+20	7020	stàlaich	stàlaichear
+21	7021	grafaigeachd	
+22	7022	sealaidheachd	
+23	7023	mòrchuiseach	
+24	7024	aibhsich	aibhseachadh
+25	7025	lainnir	lainnire lannair loinnir
+26	7026	dearbhair	
+27	7027	tofaidh	
+28	7028	capsal	
+29	7029	moll	mholl
+30	7030	caomhainn	caoimhnidh caomhainnte
+31	7031	tuathanachail	
+32	7032	rèiteach	rèitichean
+33	7033	socaid	
+34	7034	fèithlean	
+35	7035	cathair-ghàirdeanach	
+36	7036	cathair-uilne	cathrach-uilne cathraichean-uilne
+37	7037	goirmean-searradh	
+38	7038	ceàrd-dubhan	
+39	7039	speil	
+40	7040	bacach	bacaich bacaiche bhacaich
+41	7041	aighearach	
+42	7042	slìog	slìob slìobar slìogadh slìogaidh slìogte
+43	7043	bodag	bhodaig
+44	7044	bunadh	bunaidh bunaidhean
+45	7045	beud	beudan beòid bheud
+46	7046	stòp	
+47	7047	sùrd	sùird
+48	7048	marbhphaisg	marbhphaisge marbhphaisgean
+49	7049	co-fhaclair	co-fhaclairean
+50	7050	taidhp	taidhpeadh taidhpidh taidhpte
+51	7051	cullach	collach cullaich
+52	7052	flann	
+53	7053	dràc	dràcan dràic
+54	7054	riabhag-choille	riabhagan-coille riabhaige-coille
+55	7055	tàcharan-cubhaige	tàcharan-cuthaig
+56	7056	beadaidh	
+57	7057	òtrach	
+58	7058	trasna	
+59	7059	dram	dramannan dràm
+60	7060	bioda	biodan
+61	7061	fiost	fhiost
+62	7062	bòst	bhòst bòsta bòstan
+63	7063	cnot	chnot
+64	7064	dhìnn	
+65	7065	caidheag	caidheagan caidheig
+66	7066	luibheanach	
+67	7067	àileadh	àilidh àilidhean
+68	7068	pàirceadh	pàircidh
+69	7069	siuthad	
+70	7070	gairmeach	gairmich
+71	7071	poidsear	poidsearan poidseir
+72	7072	poidsig	phoidseadh poidsigidh poidsigte
+73	7073	liùgh	
+74	7074	farchluais	far-chluais farchluaise farchluaisean
+75	7075	barrall	barraill barraillean barrallan bharraillean
+76	7076	figheadair	figheadairean
+77	7077	muirineach	
+78	7078	ioma-shlighe	ioma-shlighean
+79	7079	ath-innis	ath-inniste dh'ath-innis
+80	7080	tòiseachdainn	
+81	7081	blog	bhlog
+82	7082	feann	feannainn
+83	7083	innean	
+84	7084	trombòn	
+85	7085	eisimpleireach	
+86	7086	snap	snaip snapadh snapaidh snapan snapta
+87	7087	frith-shràid	frith-shràide frith-shràidean
+88	7088	smeòrach-mhòr	
+89	7089	tubhailt	tubhailtean
+90	7090	blàthaich	bhlàthaicheadh bhlàthaicheamaid bhlàthaichinn bhlàthaichist bhlàthaichiste bhlàthaichteadh blàthaicheadh blàthaicheam blàthaicheamaid blàthaichear blàthaichibh blàthaichidh blàthaichinn blàthaichist blàthaichiste blàthaichte blàthaichteadh blàthaichtear
+91	7091	drabasdachd	
+92	7092	lod	lodaibh
+93	7093	cuman	
+94	7094	measarrachd	
+95	7095	castan	castain castanan
+96	7096	duisg	dhuisgeadh
+97	7097	daoi	
+98	7098	caitheadair	caitheadairean
+99	7099	adhbharachas	adhbharachais
+100	7100	lèir-shealbhachd	

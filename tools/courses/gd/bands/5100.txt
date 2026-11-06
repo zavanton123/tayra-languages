@@ -1,0 +1,100 @@
+1	5001	rùp	
+2	5002	dean	dheanas
+3	5003	prìomh-àros	
+4	5004	domhan-loidhne	
+5	5005	faiceall	faicill fhaicill
+6	5006	sabaidich	shabaidich
+7	5007	fèill-reic	
+8	5008	badeigin	
+9	5009	maoim-sneachda	maoime-sneachda maoimean-sneachda
+10	5010	sgòthach	
+11	5011	meidheadair	meidheadairean
+12	5012	fath	
+13	5013	bachlach	
+14	5014	togarrach	tograch
+15	5015	osnaich	
+16	5016	darag	daragan daraige
+17	5017	fial	
+18	5018	fearail	
+19	5019	fuathasach	
+20	5020	reachdaireachd	
+21	5021	sgoradh	
+22	5022	fleadh	
+23	5023	sùilich	sùileachadh
+24	5024	frith-bharail	
+25	5025	asparag	
+26	5026	truimead	
+27	5027	fairtlich	fhairtlich
+28	5028	ròghnaich	ròghnachadh
+29	5029	beòir	
+30	5030	cliabhan	
+31	5031	rianail	
+32	5032	sorcaireach	
+33	5033	cursa	
+34	5034	ath-eagaraich	ath-eagaraichidh ath-eagaraichte ath-eagrachadh
+35	5035	carago	caragothan cargo cargu
+36	5036	uaim	
+37	5037	pòsd	
+38	5038	sgealbag	sgealbagan sgealbaig
+39	5039	fuaradh	
+40	5040	fiathaich	
+41	5041	reòthte	
+42	5042	buanachd	bhuanachd
+43	5043	aost	
+44	5044	cuingealachadh	chuingealachadh
+45	5045	teicneolachd	
+46	5046	oideachail	
+47	5047	grèidheadh	ghrèidheadh
+48	5048	riaghal	
+49	5049	tasdan	
+50	5050	deamocrach	
+51	5051	tàilleabhachd	tàilleabhachdan
+52	5052	gèile	
+53	5053	mèinnearach	
+54	5054	fìon-geur	
+55	5055	gnàthas-cainnt	gnàthais-chainnt gnàthas-cainnte gnàthasan-cainnt
+56	5056	slaop	slaopadh
+57	5057	ròst	ròstadh ròstaidh
+58	5058	fàireag	fhàireag
+59	5059	carrach	
+60	5060	aogas	aogais aogaisean
+61	5061	ath-shuidheachadh	
+62	5062	siorc	siorca siorcan
+63	5063	dùnan	dhùnain dhùnana dhùnanaibh dùnain dùnanaibh
+64	5064	caisbheart	
+65	5065	muireil	
+66	5066	cnocaireachd	
+67	5067	luaireag	luaireagan
+68	5068	caidil	caidilist caidiliste caidilte caidilteadh caidleadh caidleam caidleamaid caidlear caidlibh caidlidh caidlinn chaidil chaidilist chaidiliste chaidilteadh chaidleadh chaidleamaid chaidlinn
+69	5069	cos	choise
+70	5070	sgor	
+71	5071	làrna-mhàireach	
+72	5072	seòltachd	
+73	5073	aineolas	aineolais
+74	5074	stòlda	
+75	5075	slinnean	slinneanan slinnein slinneinean
+76	5076	falachd	
+77	5077	samhlach	
+78	5078	coisridh	choisridh coisridhe
+79	5079	àbhachdach	
+80	5080	iarratas	
+81	5081	cùbaid	chùbaid cùbaide cùbaidean
+82	5082	miosg	
+83	5083	maiseachadh	mhaiseachadh
+84	5084	sìthich	sìtheachadh
+85	5085	slàinteil	
+86	5086	làmhag	làmhagan làmhaige
+87	5087	sgàirneach	
+88	5088	guais	ghuais
+89	5089	co-aontaich	co-aontachadh co-aontaichidh co-aontaichte
+90	5090	biatas	bhiatas
+91	5091	sucros	
+92	5092	bambù	bambùthaichean
+93	5093	aicheamhail	
+94	5094	àlainneachd	
+95	5095	ulag	
+96	5096	fo-cheannard	
+97	5097	solarachd	
+98	5098	locast	locastan
+99	5099	dòmhail	
+100	5100	gàg	gàgan

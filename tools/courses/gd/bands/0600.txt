@@ -1,0 +1,100 @@
+1	501	glan	ghlan ghlanadh ghlanas glaine glanadh glanaidh glante
+2	502	cùrsa	chùrsa chùrsaichean cùrsaichean
+3	503	deidhinn	dheidhinn
+4	504	cuspair	chuspair chuspairean cuspairean
+5	505	leum	leuma leumadh leumaidh leuman leumannan leumte lèim
+6	506	coltas	choltais choltas coltais coltasan
+7	507	uisge-beatha	t-uisge-beatha uisge-bheatha uisgeachan-beatha
+8	508	cladach	chladach chladaich chladaichean cladaich cladaichean
+9	509	snàmh	shnàmh shnàmhainn shnàmhaist shnàmhaiste shnàmhamaid shnàmhtadh snàimh snàmhadh snàmhaibh snàmhaidh snàmhainn snàmhaist snàmhaiste snàmham snàmhamaid snàmhar snàmhta snàmhtadh snàmhtar snàmhte
+10	510	foillsich	dh'fhoillsich fhoillsich fhoillsicheadh fhoillsichte foillsicheadh foillsichidhean foillsichte follsichidh
+11	511	dara	dhara
+12	512	corra	chorra
+13	513	ainneamh	ainneimhe annamh h-ainneamh
+14	514	clas	chlas chlasaichean clasaichean
+15	515	neònach	neonach neònaich neònaiche
+16	516	goirid	ghoirid giorra goiride
+17	517	earball	ealabar earaball earbaill h-earball iorball t-earball urball
+18	518	uinneag	h-uinneagaibh h-uinneagan h-uinneig h-uinneige uinneaga uinneagaibh uinneagan uinneig uinneige
+19	519	iongantach	h-iongantach iongantaiche
+20	520	seall	seallaibh sealltainn seallte sheall sheallas shealltainn
+21	521	cnoc	chnoc chnuic cnuic
+22	522	ministear	mhinistear mhinistearan mhinisteir ministearan ministeir
+23	523	fearann	dh'fhearann fearainn fhearainn fhearann
+24	524	clach	chlach chlacha chlachadh chloiche clachadh clachaibh clachaidh clachte cloich cloiche
+25	525	leabaidh	leabaichean leapa leapach leapaichean leapannan
+26	526	piuthar	peathar peathraichean peathraichibh pheathar pheathraichean phiuthair phiuthar piuthair
+27	527	dàn	dain dan dhain dhàin dhàintean dhàn dàin dàintean
+28	528	ceangal	ceangalan cheangal
+29	529	deich	dheich
+30	530	sluagh	shluagh shluaghan shluaigh shlògha sluaghan sluaigh sluaighean slògh slòigh t-sluagh
+31	531	clàr	chlàir chlàirean chlàr chlàran clar claran clàir clàirean clàiribh clàraichean clàran clár
+32	532	staidhre	staidhir staidhrichean
+33	533	aodach	aodaich aodaichean dh'aodach h-aodach h-aodaich t-aodach t-aodaich
+34	534	iarr	dh'iarr dh'iarradh dh'iarraidh dh'iarraist dh'iarraiste dh'iarramaid dh'iarras dh'iarrtadh h-iarraidh iarradh iarraibh iarrainn iarraist iarraiste iarram iarramaid iarrar iarrtadh iarrtar iarrte
+35	535	tòrr	thorr torr torran tòrra tòrran
+36	536	ionad	dh'ionad h-ionad h-ionadaibh ionada ionadaibh ionadan ionaid t-ionad
+37	537	seanmhair	seanmhairean seanmhar sheanmhair sheanmhairean sheanmhar t-seanmhair
+38	538	bàsaich	bhàsachadh bhàsaich bhàsaicheadh bhàsaicheamaid bhàsaicheas bhàsaichinn bhàsaichist bhàsaichiste bhàsaichteadh bàsachadh bàsaicheadh bàsaicheam bàsaicheamaid bàsaichear bàsaichibh bàsaichidh bàsaichinn bàsaichist bàsaichiste bàsaichte bàsaichteadh bàsaichtear
+39	539	leisgeul	leisgeil leisgeulan
+40	540	tùs	thus thùis thùs thùsan tus tùis tùsan
+41	541	cruinneachadh	chruinneachadh chruinneachaidh chruinneachaidhean cruinneachaidh cruinneachaidhean
+42	542	riochdaich	riochdachadh riochdachaidh riochdachaidhean riochdaicheadh riochdaicheas riochdaichidh riochdaichte
+43	543	rothair	rothairean
+44	544	cruth	chruth chrutha chruthan crutha cruthan cruthannan
+45	545	slàn	shlàin shlàn slan slàine
+46	546	grinn	ghrinn grinne
+47	547	èist	dh'èist dh'èisteadh dh'èisteamaid dh'èistinn dh'èistist dh'èististe dh'èistteadh h-èist èisd èisdeadh èiste èisteadh èisteam èisteamaid èistear èistibh èistidh èistinn èistist èististe èistte èistteadh èisttear éisd éist
+48	548	caomh	caoimh caoimhe caomha chaomh
+49	549	ochd	h-ochd
+50	550	sgoinneil	sgoinneile
+51	551	soillse	shoillse t-soillse
+52	552	taghta	thaghta
+53	553	seinneadair	seinneadaire seinneadairean sheinneadair sheinneadairean t-seinneadair
+54	554	allt	dh'allt h-allt t-allt uillt
+55	555	obraich	dh'obraich obraicheadh obraichidh obraichte oibrich
+56	556	iomairt	dh'iomairt h-iomairt iomairte iomairtean
+57	557	suipear	suipearach suipearan suipeir
+58	558	gasta	gasda ghasta
+59	559	thalla	thallaibh
+60	560	loidhne	loidhneachan loidhnichean
+61	561	laghach	
+62	562	obair-dachaigh	obrach-dachaigh oibre-dachaigh
+63	563	bìgis	bhìgis fhiacais
+64	564	coiseachd	choiseachd coiseachdan
+65	565	faclair	faclairean fhaclair fhaclairean
+66	566	ionadail	h-ionadail ionadaile
+67	567	smachd	smachdadh smachdaibh smachdaidh smachdainn smachdaist smachdaiste smachdam smachdamaid smachdan smachdar smachdta smachdtadh smachdtar smachta
+68	568	lèir	leir lèireadh lèiridh léir
+69	569	gorm	ghorm ghorma gorma guirme
+70	570	dìon	dhìon dhìona dhìonadh dhìonas dhìonta dìona dìonadh dìonaidh dìonan dìonta dìonte
+71	571	uiread	h-uiread uireadan
+72	572	deoch	deochan deochannan dheoch dheochan dibhe dighe
+73	573	creideamh	chreideamh chreideamhan chreideimh chreidimh creideamhan creideimh creidimh
+74	574	gluasad	ghluasad ghluasadan ghluasaid gluasadan gluasaid
+75	575	gnìomhachas	ghnìomhachais ghnìomhachas ghnìomhachasan gniomhachas gnìomhachais gnìomhachasan
+76	576	caora	caoirich caorach caoraibh caoraich chaora chaorach chaoraich
+77	577	ealain	ealaine ealainean ealan h-ealain
+78	578	sabaid	sabaide sabaidean sabaididh sabaidte shabaid t-sabaid
+79	579	aindeòin	ain-deòin aindeoin dh'aindeoin
+80	580	clachan	chlachain chlachan clachain
+81	581	sia	shia sè sé
+82	582	freumh	fhreumh fhreumhaichean fhreumhan freumha freumhaichean freumhan
+83	583	companaidh	chompanaidh chompanaidhean companaidhe companaidhean companaidhibh
+84	584	craobh	chraobh chraobha chraobhadh chraobhainn chraobhaist chraobhaiste chraobhamaid chraobhan chraobhtadh chraoibh craobhadh craobhaibh craobhaidh craobhainn craobhaist craobhaiste craobham craobhamaid craobhan craobhar craobhta craobhtadh craobhtar craoibh craoibhe craoibheadh
+85	585	coimhearsnachd	choimhearsnachd choimhearsnachdan coimhearsnachdan
+86	586	liosta	liosda liostaichean
+87	587	poileataigeach	phoileataigeach phoileataigich
+88	588	croch	chroch chrochadh chrochar chrochta crochadh crochaidh
+89	589	ainmich	ainmicheadh ainmichear ainmichidh ainmichte dh'ainmich
+90	590	daonnan	
+91	591	tìde	thide thìde tìdean
+92	592	iris	h-iris irise irisean t-iris
+93	593	beartach	beairteach beairteachadh beairtich beairtiche beartaiche beirteach bheairteach bheairtich bheairtiche bheartach bheartaiche
+94	594	tarraing	tarrainge tarraingeadh tarraingean tarraingear tarraingidh tarraingte tharraing tharraingeadh tharraingear tharraingeas tàirgne tàirgnean tàirnidh
+95	595	loisg	loisgeadh loisgeam loisgeamaid loisgear loisgeas loisgibh loisgidh loisginn loisgist loisgiste loisgte loisgteadh loisgtear
+96	596	coinneachadh	choinneachadh coinneachaidh coinneachaidhean
+97	597	ollamh	h-ollamh h-ollamhan olla ollaimh ollamhan t-ollamh
+98	598	làthair	lathair làithir làthaire
+99	599	comhairle	chomhairle chomhairlean comhairlean
+100	600	inntinneach	h-inntinneach inntinniche

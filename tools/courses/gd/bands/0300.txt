@@ -1,0 +1,100 @@
+1	201	athair	athar athraichean athraichibh d'athair h-athair h-athraichean h-athraichibh n-athair t-athair
+2	202	ma	
+3	203	clann	chlann chlanna chloinne clannaibh clannan cloinn cloinne cloinneadh
+4	204	balach	balachaibh balaich bhalach bhalacha bhalachaibh bhalaich
+5	205	turas	thurais thuras thurasan thursan turais turasan tursan
+6	206	leugh	leughadh leughaibh leughaidh leughaidhean leughainn leughaist leughaiste leugham leughamaid leughar leughas leughtadh leughtar leughte
+7	207	tog	thog thogadh thogar thogas thogta togadh togaidh togar togta
+8	208	caill	cailleadh caillear caillibh caillidh chaill chailleadh chailleas chall
+9	209	carson	c'arson
+10	210	oir	oire oirean
+11	211	ud	
+12	212	bòrd	bhòrd bhùird bord bòrdadh bòrdaidh bòrdte bùird
+13	213	ruige	
+14	214	cudromach	chudromach chudromaich chudromaiche chudthromach chudthromaich chudthromaiche cudromaich cudromaiche cudthromach cudthromaich cudthromaiche cuideamach cuidreamach
+15	215	litir	litreach litreachan litrichean
+16	216	sgàth	sgàtha sgàthain sgàthan sgàthanan
+17	217	ciallachadh	chiallachadh ciallachaidh ciallachaidhean
+18	218	màthair	mathair mhàthair mhàthar mhàthraichean màthar màthraichean
+19	219	leth	
+20	220	dòcha	
+21	221	taghadh	taghaidh taghaidhean thaghadh thaghaidh thaghaidhean
+22	222	dùin	dhùin dhùineadh dhùineas dhùnadh duin duinte dunadh dunaidh dùineadh dùinidh dùinte dùnadh
+23	223	beatha	beathannan bheatha
+24	224	togail	thogail
+25	225	dòchas	dhòchasan dòchais dòchasan
+26	226	ar	
+27	227	fàs	dh'fhas dh'fhàs dh'fhàsadh dh'fhàsainn dh'fhàsaist dh'fhàsaiste dh'fhàsamaid dh'fhàstadh fais fas fhas fhàis fhàs fhàsa fhàsadh fàis fàsa fàsadh fàsaibh fàsaidh fàsainn fàsaist fàsaiste fàsam fàsamaid fàsar fàsta fàstadh fàstar fás
+28	228	meadhan	meadhain meadhanan meadhannan meadhoin meadhon mheadhain mheadhan mheadhanan mheadhon
+29	229	iar	dh'iar h-iar
+30	230	stèidhich	steidhich steidhicheadh steidhichte stèidheadh stèidhicheadh stèidhicheam stèidhicheamaid stèidhichear stèidhicheas stèidhichibh stèidhichidh stèidhichinn stèidhichist stèidhichiste stèidhichte stèidhichteadh stèidhichtear stéidhich stéidhichte
+31	231	ràdh	gràdha gràdhainn radh ràdha ràdhainn ràdhan ràdhtainn ràidh ràit
+32	232	sònraichte	shònraichte shónraichte sonraichte
+33	233	cluinn	chluinneadh chluinneamaid chluinnear chluinneas chluinninn chluinnist chluinniste chluinnte chluinnteadh chluinntinn chuala chualadh chualas cluinneadh cluinneam cluinneamaid cluinnear cluinnibh cluinnidh cluinninn cluinnist cluinniste cluinnte cluinnteadh cluinntear cluinntinn cuala cualadh cualas
+34	234	beachd	beachda beachdan bheachd bheachdan
+35	235	cluich	chluich chluiche chluicheadh chluicheamaid chluichear chluicheas chluichinn chluichist chluichiste chluichteadh cluichd cluiche cluicheachan cluicheadh cluicheam cluicheamaid cluichean cluicheannan cluichear cluichibh cluichidh cluichinn cluichist cluichiste cluichte cluichteadh cluichtear
+36	236	seòrsa	seorsa seorsaichean seòrsachan seòrsaichean sheorsa sheòrsa sheòrsachan t-seòrsa
+37	237	lean	leanadh leanaidh leanainn leanaist leanaiste leanam leanamaid leanar leanas leanmhainn leanta leantadh leantail leantainn leantar
+38	238	seachad	
+39	239	rudeigin	rud-eigin rudeigineach ruideigin
+40	240	bean	beanaidh beantainn bhean bheanas mhnatha mhnathan mhnà mnaoi mnatha mnathadh mnathan mnà mnàthan
+41	241	cruthaich	chruthachadh chruthaich chruthaicheadh chruthaicheamaid chruthaichear chruthaicheas chruthaichinn chruthaichist chruthaichiste chruthaichte chruthaichteadh cruthachadh cruthaicheadh cruthaicheam cruthaicheamaid cruthaichear cruthaichibh cruthaichidh cruthaichinn cruthaichist cruthaichiste cruthaichte cruthaichteadh cruthaichtear
+42	242	a-riamh	
+43	243	àbhaist	abhaist b'abhaist b'àbhaist h-àbhaist àbhaiste àbhaistean
+44	244	dàrna	darna dharna dhàrna
+45	245	caochail	caochailidh caochailte chaochail
+46	246	càr	char chàir chàr chàraichean càir càraichean càraichibh
+47	247	seinn	seinne seinneadh seinneam seinneamaid seinnear seinnibh seinnidh seinninn seinnist seinniste seinnte seinnteadh seinntear sheinn sheinneadh sheinneamaid sheinneas sheinninn sheinnist sheinniste sheinnteadh t-seinn
+48	248	lorg	lorgadh lorgaibh lorgaidh lorgaidhean lorgainn lorgaist lorgaiste lorgam lorgamaid lorgan lorgar lorgas lorgta lorgtadh lorgtar lorgte luirg luirge
+49	249	ith	dh'ith dh'itheadh dh'itheamaid dh'ithear dh'itheas dh'ithinn dh'ithist dh'ithiste dh'ithteadh ithe itheadh itheam itheamaid ithear ithibh ithidh ithinn ithist ithiste ithte ithteadh ithtear
+50	250	each	dh'each eacha eachaibh eich h-eachaibh h-eich t-each
+51	251	suas	
+52	252	stàit	stait staite staitean stàite stàitean
+53	253	nochd	nochdadh nochdaibh nochdaidh nochdainn nochdaist nochdaiste nochdam nochdamaid nochdar nochdas nochdtadh nochdtar nochdte
+54	254	ear	dh'ear h-ear
+55	255	cuidich	chuideachadh chuideachaidh chuidich chuidicheadh chuidicheamaid chuidicheas chuidichinn chuidichist chuidichiste chuidichteadh cuideachadh cuideachaidh cuidicheadh cuidicheam cuidicheamaid cuidichear cuidichibh cuidichidh cuidichinn cuidichist cuidichiste cuidichte cuidichteadh cuidichtear
+56	256	a-nochd	
+57	257	riamh	riamhadh riamhaidh riamhte
+58	258	cogadh	chogadh chogaidh chogaidhean cogaidh cogaidhean
+59	259	luath	luaithe luatha
+60	260	làmh	làimh làimhe làimheadh làimhean làmha làmhaibh làmhan lámh
+61	261	dithis	dhithis dithisean dithist
+62	262	buaidh	bhuaidh bhuaidhe buaidhe buaidhean
+63	263	achadh	achaidh achaidhean achaidhnean t-achadh
+64	264	gràdh	ghràdh ghràidh gradh gràidh gràidhean grádh
+65	265	creid	chreid chreideadh chreidsinn creidibh creididh creidse creidsinn creidte
+66	266	aithne	h-aithne
+67	267	còig	chòig coig cóig cùig
+68	268	deug	dheug
+69	269	fàilte	fhàilte fàiltean fáilte
+70	270	tuit	thuit thuiteadh thuiteas tuite tuiteadh tuitidh
+71	271	acras	acrais acrasan t-acras
+72	272	fearg	feirge fhearg
+73	273	mìle	mhile mhìle mhìltean mile milltean miltean mìltean
+74	274	òg	b'òige h-òg h-òige m'òige og oige t-og t-òg òga òig òige óg
+75	275	là	làithean làithibh lá
+76	276	ball	bhall bhuill buill
+77	277	dubh	dhubh dhubha dhubhadh dhubhar dubha dubhadh dubhaidh dubhte duibh duibhe
+78	278	rannsaich	rannsachadh rannsachaidh rannsachaidhean rannsaicheadh rannsaicheam rannsaicheamaid rannsaichear rannsaicheas rannsaichibh rannsaichidh rannsaichinn rannsaichist rannsaichiste rannsaichte rannsaichteadh rannsaichtear
+79	279	ceithir	cheithir
+80	280	ceist	ceiste ceistean cheist cheistean
+81	281	feadh	fheadh
+82	282	buannaich	bhuannaich bhuannaicheadh bhuannaicheas buannaichidh buannaichte
+83	283	dh'	
+84	284	foghlam	dh'fhoghlam fhoghlaim fhoghlaimte fhoghlam foghlaim foghlaimte foghluim foghlum
+85	285	càil	chàil càile càilean
+86	286	till	thill thilleadh thilleas tillte
+87	287	droch	dhroch drocha mhiosa miosa
+88	288	cor	chor
+89	289	tuigsinn	thuigsinn tuigsinnean
+90	290	dragh	dhragh dhraghan dragha draghadh draghan draghannan
+91	291	aimsir	aimsire aimsirean aimsiribh h-aimsir h-aimsire h-aimsiribh
+92	292	oilthigh	dh'oilthigh h-oilthigh oilthighe oilthighean t-oilthigh
+93	293	urra	urraidhean
+94	294	tì	teatha theatha ti titheachan tí
+95	295	pòs	phòs phòsainn phòsaist phòsaiste phòsamaid phòsas phòstadh pòsaibh pòsainn pòsaist pòsaiste pòsam pòsamaid pòsar pòstadh pòstar
+96	296	siud	shiud siudach
+97	297	adhbhar	adhbhair adhbhairean adhbharan aobhair aobhar aobharan dh'adhbhar h-adhbhar t-adhbhar
+98	298	fliuch	fhliche fhliuch fliche fliucha fliuchadh fliuchaidh fliuchte fliuiche
+99	299	dòigh	dhoigh dhòigh dhòighean doigh doighean dòighe dòighean
+100	300	iongnadh	h-iongnadh ioghnadh ionghnadh iongnaidh iongnaidhean iùnadh t-iongnadh

@@ -1,0 +1,100 @@
+1	6601	sàmhchair	sàmhchaire
+2	6602	dealasachd	dhealasachd
+3	6603	tàbh	
+4	6604	ban-dubhairiche	bhan-dubhairiche
+5	6605	teiripe	teiripean
+6	6606	site	siteachan
+7	6607	oisinneach	
+8	6608	buannachdail	
+9	6609	teanantachd	
+10	6610	mì-thorrach	
+11	6611	caiteachas	caiteachais
+12	6612	sgàird	
+13	6613	freastail	freastal
+14	6614	ainnis	
+15	6615	eadar-mhìneachadh	eadar-mhìneachaidh
+16	6616	racaid	
+17	6617	cùirteil	chùirteil
+18	6618	deasgainn	
+19	6619	bean-mhic	
+20	6620	mion-rannsachadh	mion-rannsachaidh mion-rannsachaidhean
+21	6621	cabhagach	cabhagaich cabhagaiche
+22	6622	cùbhras	cùbhrais
+23	6623	piobrachadh	phiobrachadh
+24	6624	cuaran	cuarain
+25	6625	fo-aodach	fo-aodaich fo-aodaichean
+26	6626	paillt	
+27	6627	adbhar	adbharan
+28	6628	teòraidh	
+29	6629	hòro-gheallaidh	
+30	6630	litearras	litearrais
+31	6631	tonn-tuile	
+32	6632	iadhaire	iadhairean
+33	6633	nearbh	nearbhan
+34	6634	brog	bhrogan
+35	6635	daonnachas	
+36	6636	sgàla	sgàlaichean
+37	6637	seach-thìm	seach-thìme seach-thìmean
+38	6638	geasag	gheasagan
+39	6639	nighean-peathar	
+40	6640	flaitheanas	
+41	6641	seannsa	
+42	6642	geòcaireachd	
+43	6643	timcheall-ghearradh	timcheall-ghearraidh
+44	6644	caillteanach	
+45	6645	fìreanachadh	fhìreanachadh
+46	6646	dlùth-chomann	dlùth-chomainn
+47	6647	lethcheann	
+48	6648	feòirling	feòirlingean
+49	6649	cathadh	cabhadh cathaidh cathaidhean
+50	6650	croinic	croinicean
+51	6651	colaisteach	
+52	6652	fraidhig	fraidhigeadh fraidhigidh fraidhigte fraighig fraighigte
+53	6653	nasg	
+54	6654	acraich	acrachaidh
+55	6655	tosgaireachd	
+56	6656	seòladh-lìn	seòlaidh-lìn seòlaidhean-lìn
+57	6657	ro-shuidhich	ro-shuidhicheadh ro-shuidhicheam ro-shuidhicheamaid ro-shuidhichear ro-shuidhichibh ro-shuidhichidh ro-shuidhichinn ro-shuidhichist ro-shuidhichiste ro-shuidhichte ro-shuidhichteadh ro-shuidhichtear
+58	6658	caisgireachd	caisgireachdan chaisgireachd
+59	6659	anabarr	
+60	6660	almanac	almanacan
+61	6661	gànraich	gànrachadh
+62	6662	ìota	ìotadh ìotaidh
+63	6663	fleogan	fleogain
+64	6664	maothan	
+65	6665	saothar	shaothar
+66	6666	fùdar-gunna	fùdair-gunna fùdaran-gunna pùdar-gunna
+67	6667	luchdmhor	luchdmhoire
+68	6668	burraidheachd	burraidheachdan
+69	6669	ainmh-eòlaiche	
+70	6670	stuamachd	
+71	6671	sgragall	sgragaill
+72	6672	cruadalach	cruadalaiche
+73	6673	àireach	àirich
+74	6674	easradh	
+75	6675	tioramachadh	
+76	6676	maistir	maistreadh maistrich maistridh
+77	6677	pràiseach	pràisich pràisichean
+78	6678	margaideachd	
+79	6679	fiolmadh	fhiolmadh
+80	6680	leaghadair	
+81	6681	ath-chruthaich	ath-chruthaichidh ath-chruthaichte
+82	6682	ioma-dhiadhachd	ioma-dhiadhachdan
+83	6683	marmalaid	mharmalaid
+84	6684	aoidion	
+85	6685	neach-lìbhrigidh	luchd-lìbhrigidh
+86	6686	cuòram	
+87	6687	tonnach	
+88	6688	ceumnaiche	
+89	6689	seòmar-luinge	seòmair-luinge seòmraichean-luinge
+90	6690	eadar-mheadhanach	
+91	6691	smaoineachail	
+92	6692	dà-chasach	dà-chasaich dà-chosach
+93	6693	trèith	trèithean
+94	6694	filmeadair	
+95	6695	cuideil	
+96	6696	tarbh-nathrach	tairbh-nathrach
+97	6697	cnàimhneach	cnàimhnich
+98	6698	eag-eòlach	
+99	6699	leòmann	ladhmann laomann leadhmann leomann leòmainn leòmannan lèamann
+100	6700	so-bheantainn	

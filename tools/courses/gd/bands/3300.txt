@@ -1,0 +1,100 @@
+1	3201	fiosrach	fhiosraiche
+2	3202	sgriosail	sgriosaile
+3	3203	imich	dh'imich imeachd imichidh imichte
+4	3204	nurs	nursaichean
+5	3205	bàlla	bhàlla
+6	3206	pòile	phòlaichean pòlaichean
+7	3207	siùbhlach	shiùbhlach siubhlach
+8	3208	banachdach	banachdaich banachdaichean bhanachdach
+9	3209	dreachd	dhreachdainn dhreachdaist dhreachdaiste dhreachdamaid dhreachdtadh dreachdadh dreachdaibh dreachdaidh dreachdainn dreachdaist dreachdaiste dreachdam dreachdamaid dreachdan dreachdar dreachdta dreachdtadh dreachdtar
+10	3210	cuibhreach	cuibhreachadh cuibhrichean cuibhrichear cuibhrichte
+11	3211	sgreuch	sgreucha sgreuchaidh sgreuchail sgreuchan sgreuchte sgriach
+12	3212	plaosg	phlaosgadh phlaosgainn phlaosgaist phlaosgaiste phlaosgamaid phlaosgtadh plaoisg plaosgadh plaosgaibh plaosgaidh plaosgainn plaosgaist plaosgaiste plaosgam plaosgamaid plaosgan plaosgar plaosgta plaosgtadh plaosgtar plaosgte
+13	3213	dìlleachd	dhìlleachdach dhìlleachdain dìlleachdain dìlleachdan
+14	3214	fiaradh	fhiaradh fiaraidh fiaraidhean
+15	3215	grùid	ghrùid ghrùidean grùide
+16	3216	lìbhrig	libhrig lìbhrigeas lìbhrigte
+17	3217	rèitear	reitear rèitearan rèiteir rèitire rèitirean réitear
+18	3218	dos	dhos dosan duis
+19	3219	catalanais	chatalanais
+20	3220	eò	eo eòthaichean iach
+21	3221	còinneach	chòinneach chòinnich còinnich
+22	3222	garadh	garaidhean gharadh gharaidhean
+23	3223	turcais	
+24	3224	min-choirce	mhin-choirce mine-coirce
+25	3225	luch	lucha luchaibh luchainn luchan
+26	3226	bànrighinn	bhànrighinn
+27	3227	soillseachadh	soillseachaidh soillseachaidhean t-soillseachadh
+28	3228	eachdraidh-beatha	
+29	3229	dàna	dhàna
+30	3230	ro-innleachd	ro-innleachdan
+31	3231	ifrinn	h-ifrinn ifreann ifrinne ifrinnean itheann iutharn
+32	3232	comraich	chomraich comraichean
+33	3233	reachdadair	
+34	3234	saighead	saighde saighdean shaighead
+35	3235	bathais	bathaise bathaisean bhathais
+36	3236	corra-ghritheach	chorra-ghritheach corra-chrithich corra-ghrian corra-ghrithich corra-gritheach corra-riabhach corra-sgritheach corran-ghritheach corran-gritheach
+37	3237	dubhan	dhubhain dhubhan dhubhana dhubhanaibh dubhain dubhanaibh
+38	3238	anart	anairt anartan
+39	3239	dìoghrasach	dhìoghrasach dhìoghrasaich dìoghrasaich dìoghrasaiche
+40	3240	molach	
+41	3241	frìth	frìthe frìthean
+42	3242	càball	chàbaill chàball càbaill càballan
+43	3243	coileanta	coimhleanta coimhlionta
+44	3244	tuineachas	tuineachais tuineachasan
+45	3245	faclairiche	faclairichean
+46	3246	crotach	
+47	3247	sagartachd	
+48	3248	fàire	fàirean
+49	3249	fàd	fhàd fàdan fàid
+50	3250	sàga	sàgaichean
+51	3251	tàcharan	thàcharan tàchara tàcharain tàcharanan tàchran
+52	3252	luathaich	luathachadh luathachaidh luathaichear luathaichte
+53	3253	maitheas	mhaitheas
+54	3254	sinnsearachd	shinnsearachd
+55	3255	bana-ghaisgeach	bana-ghaisgich bhana-ghaisgeach
+56	3256	cadha	chadha chadhan
+57	3257	col	cola
+58	3258	àrsaideach	
+59	3259	gruagach	ghruagaich gruagaich gruagaiche gruagaichean
+60	3260	caoin	caoine caointe chaoin
+61	3261	deamhan	deamhain deamhanan dheamhain
+62	3262	ràitheachan	ràitheachain
+63	3263	sgiobair	sgiobairean
+64	3264	mì-rian	mhì-rian
+65	3265	trian	thrian trianan
+66	3266	sìon	sion
+67	3267	beachd-smaoin	beachd-smaoine beachd-smaointean beachd-smuain beachd-smuaintean
+68	3268	tarrang	tharrang
+69	3269	amadan	amadain t-amadan
+70	3270	caoidh	caoidhe caoidhidh caoidhte chaoidh
+71	3271	damhan-allaidh	damhain-allaidh dhamhan-allaidh
+72	3272	ràth	ràtha ràthan
+73	3273	co-fhlaitheas	cho-fhlaitheas co-fhlaitheasan co-fhlaitheis
+74	3274	laidinneach	
+75	3275	tòraidheach	
+76	3276	taiceil	thaiceil
+77	3277	falamhantas	fhalamhantas
+78	3278	tròcair	thròcair thròcairean tròcaire tròcairean
+79	3279	blàths	
+80	3280	iongantas	iongantais
+81	3281	os-nàdarrach	
+82	3282	breugach	breugaich
+83	3283	càrdamon	
+84	3284	bùrgair	bùrgairean
+85	3285	rocaid	rocaidean
+86	3286	fialaidh	fhialaidh
+87	3287	clèir	chlèir
+88	3288	ceilp	ceilpe ceilpean
+89	3289	teasad	theasad
+90	3290	teasairg	teasairgeadh teasairginn
+91	3291	riatanas	riatanasan
+92	3292	snàigean	snaigean
+93	3293	asgair	ascair asgairean
+94	3294	teòclaid	teòclaide teòclaidean theòclaid
+95	3295	stiùideo	stiùideothan
+96	3296	gobhal	ghobhal gobhail goibhle goibhlean
+97	3297	dearbh-aithne	dhearbh-aithne
+98	3298	plosgadh	phlosgaidh plosgaidh plosgaidhean plosgail plosgartaich
+99	3299	fang	fainge fangan
+100	3300	guthach	ghuthach guthaich

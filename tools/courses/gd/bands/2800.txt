@@ -1,0 +1,100 @@
+1	2701	aobharachadh	
+2	2702	eaglaiseil	
+3	2703	lèama	
+4	2704	neartmhor	neartmhoir neartmhoire neartmhora
+5	2705	poileataics	phoileataics
+6	2706	èideadh	dh'èideadh èididh èididhean éideadh
+7	2707	cungaidh	chungaidh chungaidhean cungaidhean
+8	2708	baraill	bairill baraille baraillean bharaille bharaillean
+9	2709	figh	bhfigh fhigheadh figheadh fighidh fighte
+10	2710	oisir	eisir eisirean oisirean
+11	2711	mòd	mhòdan mòdan
+12	2712	creidmheach	chreidmheach creidmhich
+13	2713	inntleachdail	
+14	2714	maighstireachd	
+15	2715	òrdagh	
+16	2716	loidhneach	
+17	2717	tsunami	
+18	2718	teagmhach	theagmhach
+19	2719	soidhnich	shoidhnich shoidhnidh
+20	2720	deimhinn	deimhinne
+21	2721	cruadal	chruadail cruadail
+22	2722	trapesium	thrapesium
+23	2723	muinichill	muilicheannan muinchill muinchillean muinichillean
+24	2724	cùramach	curamach
+25	2725	mùthadh	mhùthadh mùthaidhean
+26	2726	uèir	uèire uèirean uèirichean wearr weàrr wèir wèr
+27	2727	grad	ghrad ghraid
+28	2728	dorchadas	dorchadais
+29	2729	cuibhreann	chuibhreann cuibhreannan cuibhrinn cuibhrinnean
+30	2730	cruadhtan	chruadhtain cruadhtain
+31	2731	aicseam	aicseaman aicseim
+32	2732	fiùdalach	fhiùdalach fhiùdalaich
+33	2733	cleachdach	chleachdach
+34	2734	ìobairt	h-ìobairt iobairt ìobairte ìobairtean
+35	2735	carabhan	carabhain carabhanaichean charabhan charabhanaichean
+36	2736	adhlaic	adhlacadh adhlaicidh adhlaicte
+37	2737	cunntasair	chunntasair cunntasairean cùnntasair
+38	2738	beòshlaint	beòshlainte beòshlaintean bheòshlaint bheòshlainte
+39	2739	torc	tuirc
+40	2740	gallda	ghallda
+41	2741	acarsaid	acairseid acarsaide acarsaidean achdairseid h-acarsaid
+42	2742	buidseachd	bhuidseachd
+43	2743	eadar-theangaichte	
+44	2744	fuaran	fuarain fuaranan
+45	2745	diabhal	diabhail diabhlan
+46	2746	bana-phrionnsa	bana-phrionnsachan bana-phrionnsan bhana-phrionnsa
+47	2747	amharc	amhairc dh'amhairc dh'amharc
+48	2748	min	mine minean
+49	2749	pìobaireachd	phìobaireachd
+50	2750	digiteach	dhigiteach
+51	2751	pinc	phinc pince
+52	2752	bean-uasal	bhean-uasal
+53	2753	spùinneadair	spuinneadair spùinneadairean
+54	2754	asal	asail asalan t-asal
+55	2755	fear-seinn	fir-seinn
+56	2756	maighdeann	maighdean maighdeannan maighdinn mhaighdeann
+57	2757	didseatach	dhidseatach didseataich
+58	2758	giomach	ghiomach ghiomaich giomaich
+59	2759	aonaran	aonarain aonaranan t-aonaran
+60	2760	fulangas	fhulangais fhulangas fulangais
+61	2761	uile-losgadh	t-uile-losgadh
+62	2762	beach	beacha bheach
+63	2763	mir	
+64	2764	seòlaid	
+65	2765	crith	chrith crithe crithean crithidh crithte
+66	2766	adharc	adhairc adhaircean adharcan
+67	2767	uileann	uileannan uilinn uilne uilnean
+68	2768	fulangach	fhulangach fulangaich fulangaiche fulangaichean
+69	2769	nàdar-fheallsanachd	nadar-fheallsanachd
+70	2770	dàra	
+71	2771	sàbhailteachd	sàbhailteachdan t-sàbhailteachd
+72	2772	cnap	cnaip cnapan
+73	2773	seula	seulachan t-seula
+74	2774	magma	mhagma
+75	2775	tèatar	thèatair tèatair
+76	2776	uan	t-uan uain
+77	2777	ath-chruthachadh	
+78	2778	dìlseachd	dìlseachdan
+79	2779	bholcànach	bholcanach
+80	2780	àmhainn	amhainn àmhainne àmhainnean òmhainn
+81	2781	cluaran	chluarain chluaran cluarain cluaranan grualan
+82	2782	sguab	sguaba sguabaibh sguabaidh sguabainn sguabaist sguabaiste sguabam sguabamaid sguaban sguabar sguabta sguabtadh sguabtar sguabte sguaib sguaibe
+83	2783	broilleach	bhroilleach broillich broillichean
+84	2784	bràiste	bhràiste bhràistean
+85	2785	targaid	targaidean
+86	2786	cailc	cailce chailc
+87	2787	duanaire	dhuanaire duanairean
+88	2788	gine	gineachan
+89	2789	cuisle	chuisle cuislean
+90	2790	rosg-rann	rosg-rannan rosgrann rosgrannan
+91	2791	breacan	bhreacain bhreacan breacain
+92	2792	calpa	calpannan
+93	2793	rianachail	
+94	2794	feumach	feumaich féimeach
+95	2795	iar-cheann-suidhe	iar-chinn-suidhe
+96	2796	campaich	campachadh campachaidh champachaidh
+97	2797	feadan	feadain feadanan fheadain fheadan
+98	2798	pian	phianadh phèin pianadh pianaidh pianta piantaidh piantan piante pèin péin
+99	2799	sgoilearach	sgoilearaich
+100	2800	luingeas	loingeas luingeis luinneas

@@ -1,0 +1,100 @@
+1	2601	cnatan	chnatain chnatan cnatain
+2	2602	bobhla	bhobhla bobhlachan bobhlaichean bòla
+3	2603	treana	threana treanaichean
+4	2604	sìolaich	shìolaich shìolaicheadh shìolaicheamaid shìolaichinn shìolaichist shìolaichiste shìolaichteadh sìolachadh sìolachaidh sìolaicheadh sìolaicheam sìolaicheamaid sìolaichear sìolaichibh sìolaichidh sìolaichinn sìolaichist sìolaichiste sìolaichte sìolaichteadh sìolaichtear
+5	2605	pòcaid	phocaid phòcaid phòcaidean pòca pòcaide pòcaidean
+6	2606	bagairt	bagairtean bhagairt
+7	2607	nàiseantachd	nàiseantachdan
+8	2608	salach	salaich salaiche shalach shalachadh
+9	2609	fill	dh'fhilleamaid dh'fhillinn dh'fhillist dh'fhilliste dh'fhillteadh fhill fhilleadh filleadh filleam filleamaid fillear fillibh fillidh fillinn fillist filliste fillteadh filltear
+10	2610	dìoladh	dhìoladh dhìolaidh dìoghladh dìolaidh dìolaidhean
+11	2611	eireachdail	
+12	2612	sèorsa	
+13	2613	fuachd	fhuachd fhuachdan fuachdaibh fuachdan
+14	2614	ficseanail	fhicseanail
+15	2615	borb	bhorb
+16	2616	bracaist	bracaiste bracaistean bracfast bracoist braiceas braiceast breacaist
+17	2617	smuanairt	smuanairtean
+18	2618	sailead	saileadan saileid
+19	2619	feabhas	feabhais feabhasan fheabhas
+20	2620	samhlaich	samhlachadh samhlaicheadh samhlaicheam samhlaicheamaid samhlaichear samhlaichibh samhlaichidh samhlaichinn samhlaichist samhlaichiste samhlaichte samhlaichteadh samhlaichtear shamhlaicheadh shamhlaicheamaid shamhlaichinn shamhlaichist shamhlaichiste shamhlaichteadh
+21	2621	diadhaidh	dhiadhaidh diadhaidhe
+22	2622	foill	fhoill foille
+23	2623	iompaich	dh'iompaich iompaichear iompaichidh iompaichte
+24	2624	dearc	dearcadh dearcag dearcaidh dearcan dearcte deirce dhearcan
+25	2625	caisead	chaisead chaiseid
+26	2626	lampa	lampaichean
+27	2627	deas-ghnàth	deas-ghnàith deas-ghnàtha deas-ghnàthan
+28	2628	fortan	fhortan fortain
+29	2629	èifeachdach	eifeachdach h-èifeachdach èifeachdaiche éifeachdach
+30	2630	speisealaich	speisealachadh speisealaichte
+31	2631	crannag	chrannag chrannaig crannagan crannaig
+32	2632	cliathach	chliathach chliathaich chliathaichean cliathaich cliathaichean
+33	2633	lèirmheas	lèirmheasa lèirmheasan lèirmheis léirmheas
+34	2634	rìoghaich	rìoghachadh rìoghaicheadh rìoghaichidh
+35	2635	cuthag	chuthag chuthaig cuthagan cuthaig cuthaige
+36	2636	gnèitheach	ghnèitheach gnèithich
+37	2637	cam	caime cama chaim cham chama
+38	2638	beinn-theine	beanntan-teine beinn-teine bheinn-theine
+39	2639	eagraich	eagrachadh eagrachaidh eagrachaidhean
+40	2640	tàileasg	thàileisg tàileisg
+41	2641	coileach	coilich
+42	2642	cruach	chruach chruachadh cruachadh cruachaidh cruachan cruachte cruaiche
+43	2643	liriceach	
+44	2644	comadaidh	chomadaidh
+45	2645	calpachas	calpachais calpachasan
+46	2646	bogsa-ciùil	bhogsa-ciùil
+47	2647	carraig	carraige carraigean charraig
+48	2648	tanca	tancaichean thancaichean
+49	2649	oifig	oifige oifigean
+50	2650	seileach	seilich seilichean
+51	2651	dinnsear	dinnseir
+52	2652	truaill	truaillean truaillte
+53	2653	cùis-lagha	chùis-lagha
+54	2654	poit	phoit poite poitean
+55	2655	obraiche	h-obraiche oibriche oibrichean
+56	2656	bailteil	bailteile bhailteil
+57	2657	tiodhlac	thiodhlaic thìodhlac tiodhlacaibh tiodhlacan tiodhlaic tìodhlac
+58	2658	ìmpireil	impireil
+59	2659	àirneis	àirneise
+60	2660	trichead	
+61	2661	steallair	steallaire
+62	2662	sìorraidh	shìorraidh siorraidh
+63	2663	cnocan	chnocan cnocain
+64	2664	sgiorradh	sgiorraidh sgiorraidhean
+65	2665	taigh-bìdh	taigh-bidh taigh-bidhe
+66	2666	cuilean	chuilean chuileanan cuileanan cuilein
+67	2667	putan	phutain phutan putain putanan
+68	2668	fuin	dh'fhuineamaid dh'fhuininn dh'fhuinist dh'fhuiniste dh'fhuinteadh fhuine fhuineadh fuine fuineadh fuineam fuineamaid fuinear fuinibh fuinidh fuininn fuinist fuiniste fuinte fuinteadh fuintear
+69	2669	diosg	dhiosg dhiosgean diosgan diosgean diosgibh
+70	2670	cuilc	chuilc cuilce
+71	2671	bèist	beist bhèistean bèiste bèistean béist
+72	2672	sreapadair	shreapadair shreapadairean sreapadairean t-sreapadair
+73	2673	dìomhaireachd	
+74	2674	leth-cheud	
+75	2675	luib	
+76	2676	dioplòma	
+77	2677	diathad	diathadan diathaid
+78	2678	tuathanachas	tuathanachais tuathanachasan
+79	2679	gaolach	ghaolaich
+80	2680	cleamhnas	chleamhnais cleamhnais
+81	2681	fillte	fhillte
+82	2682	sreang	shreangan sraing sreanga sreangan sreangannan sreing sreinge straing streang t-sreang
+83	2683	earb	dh'earb earba earbaichean earbaidh earban earbar earbsadh earbte h-earb
+84	2684	coisrig	choisrig choisrigeadh coisrigidh
+85	2685	proifeasan	phroifeasan proifeasanan
+86	2686	piobar	peabar piobair piobaran
+87	2687	bruth	bhruth bhruthadh bhruthaidh bhruthas bruthadh
+88	2688	cuimseach	chuimseach chuimsich chuimsiche cuimseachadh cuimsich
+89	2689	coitheanal	choitheanail choitheanal choitheanalan choithional co-thional coimhthional coitheanail coitheanalan coithional comh-thional
+90	2690	sgeadaich	sgeadaichidh sgeadaichte
+91	2691	driùchd	dhriùchd driùchdan
+92	2692	catalog	catalogan cataloig
+93	2693	maoth	mhaoth mhaotha
+94	2694	ciorramach	ciorramaich
+95	2695	fuincsean	fhuincsein fuincseanan
+96	2696	soineannta	shoineannta
+97	2697	cliabh	chlèibh cleibh clèibh
+98	2698	motar	motair motaran
+99	2699	reul-bhad	
+100	2700	naidheachdas	

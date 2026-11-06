@@ -1,0 +1,100 @@
+1	6001	for	fhor
+2	6002	mì-thlachdmhor	
+3	6003	uallachadh	uallachaidh
+4	6004	peall	pealladh peallaidh peallan peallte phill pill
+5	6005	aolach	
+6	6006	liost	
+7	6007	dàimhealachd	
+8	6008	aon-deug	
+9	6009	alt-aiseig	altan-aiseig uilt-aiseig
+10	6010	còilean	chòilein còileanan còilein
+11	6011	fadhlainn	
+12	6012	mairtfheòil	feòil-mhairt mairt-fheòil mairtfheòla
+13	6013	stèids	stèidse
+14	6014	ìoghnadh	
+15	6015	meataireachd	
+16	6016	giùthsach	giùthsaich
+17	6017	faondradh	faoinreadh faondraidh faontradh
+18	6018	faoilidh	
+19	6019	lòghmhor	
+20	6020	teama	teamaichean
+21	6021	còmharrachadh	
+22	6022	ìobair	ìobradh
+23	6023	sràbh	sràbhan sràibh
+24	6024	seoclaid	
+25	6025	plathadh	plathaidh plathaidhean
+26	6026	eadar-fhighe	
+27	6027	teàrnadair-o-theine	teàrnadairean-o-theine
+28	6028	pile	pileachan
+29	6029	tràillealach	
+30	6030	coilion	coilionadh
+31	6031	sloinn	shloinn
+32	6032	càbag	
+33	6033	soidium	
+34	6034	eucairdeas	eucairdeis
+35	6035	timcheallachd	
+36	6036	lùireach	
+37	6037	cnàmharlach	cnàmharlaich cnàmhlach cnàmhlaich cràmharlach
+38	6038	moileasg	mhoileasgan
+39	6039	crosgag	crosgagan
+40	6040	gaisgeachd	
+41	6041	caointeach	
+42	6042	taigh-leighis	taighean-leighis
+43	6043	leth-phiuthar	
+44	6044	miastadh	mhiastadh
+45	6045	drùisear	drùisearan drùiseir
+46	6046	pàirt-thìde	
+47	6047	còidseadh	
+48	6048	fastaiche	fastaichean fhastaiche
+49	6049	mì-chàilear	
+50	6050	pleata	pleataichean
+51	6051	badhbh	
+52	6052	trìtheamh	
+53	6053	muintir	
+54	6054	cadalach	
+55	6055	foirmeileachd	
+56	6056	beileas	bheileas
+57	6057	fo-sgrìobhadh	
+58	6058	cèis-litreach	
+59	6059	muileann-gaoithe	muileannan-gaoithe muilinn-ghaoithe
+60	6060	tuiliop	
+61	6061	cliabhadair	
+62	6062	co-chothromach	co-chothromaich
+63	6063	riasgail	
+64	6064	bogsa-phutan	bogsaichean-phutan
+65	6065	tàille	tàillean
+66	6066	drabastachd	
+67	6067	ciaradh	ciaraidh ciaraidhean
+68	6068	mì-chòrdail	
+69	6069	criutha	
+70	6070	fàinne-pòsaidh	fàinneachan-pòsaidh
+71	6071	atharrachail	
+72	6072	litearail	
+73	6073	sorch	
+74	6074	fòs	
+75	6075	tiomain	thiomain
+76	6076	doirteal	doirteil
+77	6077	pòir	phòir
+78	6078	cùnnradh	cùnnraidhean
+79	6079	mairbhteach	mhairbhteach
+80	6080	caragò	charagò
+81	6081	cinnteachd	
+82	6082	sgriosal	
+83	6083	ban-oighre	
+84	6084	faileasach	
+85	6085	marcshluagh	mharcshluagh
+86	6086	còig-cheàrnach	
+87	6087	dronnachd	
+88	6088	ciùb	
+89	6089	priosam	
+90	6090	cuimir	
+91	6091	paraimeatair	
+92	6092	cosmhuil	
+93	6093	rèidhleach	
+94	6094	gram	gramichean
+95	6095	srann	srainn sranna srannaidh srannail srannan srannte t-srann
+96	6096	mì-chliù	
+97	6097	fois-losgaidh	foise-losgaidh foisean-losgaidh
+98	6098	putag	putagan
+99	6099	cùirteas	
+100	6100	lapach	

@@ -1,0 +1,100 @@
+1	1601	coimpiutair	choimpiutair choimpiutairean coimpiutairean compiutairean
+2	1602	moileciuil	mhoileciuil mhoileciuilean moileciuilean
+3	1603	buadhach	bhuadhach bhuadhaich bhuadhaiche buadhachadh buadhaich buadhaiche buadhaichidh buadhaichte
+4	1604	pàganach	paganach phaganach phàganach pàganaich
+5	1605	eas	easa easan t-eas
+6	1606	uaireigin	
+7	1607	mar-thà	mar-tha
+8	1608	sgil	sgilean sgilte
+9	1609	mìrean	mhìrean mirean mìreanan mìrein mírean
+10	1610	connspaid	chonnspaid chonnspaide connspaide connspaidean
+11	1611	eugsamhail	eugsamhaile h-eugsamhail
+12	1612	aidich	aideachadh aidichidh aidichte dh'aidich
+13	1613	aiseal	aisealan aiseil
+14	1614	tilg	thilg thilgeadh thilgeas thilgte tilgeadh tilgidh tilgte tilgthe
+15	1615	dà-chànanach	dhà-chànanach dà-chànanaich
+16	1616	bun-reachd	bhun-reachd bun-reachdan
+17	1617	duilgheadas	dhuilgheadas dhuilgheadasan duilgheadais duilgheadasan
+18	1618	pearsa	pears pearsachan pearsan pearsannan phearsa phearsachan
+19	1619	foirm	fhoirm foirmean
+20	1620	tonn	thonn thuinn tonnan tuinn tuinne
+21	1621	bochdainn	bhochdainn bochdainne
+22	1622	goilf	ghoilf
+23	1623	gas	gaise gaisean gasan ghas ghasan
+24	1624	fan	dh'fhan fanachd fanadh fanaidh fantail fantainn fhan
+25	1625	coimisean	choimisean choimisein coimiseanan
+26	1626	mìnich	mhìnich mhìnicheadh mhìnicheas mìnicheadh mìnichidh
+27	1627	ailtireachd	h-ailtireachd
+28	1628	gath	gatha gathachan gathaibh gathan gathannan ghath ghatha ghathan
+29	1629	seanailear	seanailearan sheanailear
+30	1630	sear	shear
+31	1631	diùc	dhiùc diuc diùcan
+32	1632	connrag	chonnrag chonnragan connragan connraige
+33	1633	spioradail	
+34	1634	clach-ghainmhich	chlach-ghainmhich clachan-gainmhich cloiche-gainmhich
+35	1635	slige	shlige shligean sligeachan sligean sligibh t-slige
+36	1636	ainmear	ainmearan ainmeir dh'ainmear t-ainmear
+37	1637	ath-thogail	h-ath-thogail
+38	1638	ullaich	dh'ullaich ullachadh ullachaidh ullachaidhean ullaichidh ullaichte
+39	1639	rùn	run rùin rùinte rùintean rùntan
+40	1640	sàbhaladh	shabhaladh shàbhaladh shàbhalaidh sàbhalaidh sàbhalaidhean
+41	1641	fastaidh	dh'fhastaidh fasdaich fast fastadh fastaich fastaidhidh fastaidhte fhasdadh fhastachadh fhastadh
+42	1642	comar	chomair chomar
+43	1643	taisgealadh	taisgealaidh taisgealaidhean thaisgealadh thaisgealaidh
+44	1644	lùghdaich	lùghdachadh lùghdachaidh lùghdaicheadh lùghdaichte
+45	1645	neach-siubhail	luchd-siubhail
+46	1646	aonta	aenta aontaidh aontaidhean aontan t-aonta
+47	1647	crann	chrainn chrann chranna chrannaibh chroinn crainn crannadh crannaibh croinn
+48	1648	feadarail	fheadarail
+49	1649	coilltearachd	
+50	1650	tunna	thunna thunnaichean tunnaichean
+51	1651	taisg	taisge taisgean taisgear taisgidh taisgte tasgadh tasgaidh thaisg
+52	1652	aonadach	
+53	1653	ionann	ionnan
+54	1654	frith-rathad	fhrith-rathad frith-rathaid frith-rathaidhean frith-rod
+55	1655	sianar	sianair sianaran
+56	1656	eàrr	earr earra earrain earran earranan eàrran h-earr
+57	1657	forsa	fhorsa forsaichean
+58	1658	nead	neadan nid
+59	1659	bunait	bhunait bunaite bunaitean
+60	1660	còisir	chòisir coisir coisirean còisire còisirean còisre
+61	1661	dùbailte	dhùbailte dubailte
+62	1662	armailt	armailte armailtean dh'armailt h-armailt t-armailt
+63	1663	criogaid	chriogaid criogaide criogaidean
+64	1664	àth	dh'ath dh'àth h-àtha h-àthaibh h-àthan h-àthannan t-ath t-àth àtha àthaibh àthan àthannan
+65	1665	bunaich	bhunachadh bhunaich bhunaicheadh bunachadh bunaichte
+66	1666	ceart-cheàrnach	ceart-cheàrnaich cheart-cheàrnach
+67	1667	mionaideach	mhionaideach mionaidiche
+68	1668	spreadh	spreadhadh spreadhaidh spreadhaidhean spreadhas
+69	1669	rèisimeid	rèisimeidean
+70	1670	innleachd	innleachdan
+71	1671	sàbhailte	sabhailte shàbhailte
+72	1672	beàrn	bearn beàirn beàrnan bheàirn bheàrn bheàrnan bèirn
+73	1673	eadar-theangair	eadar-theangairean t-eadar-theangair
+74	1674	artaigil	artaigilean t-artaigil
+75	1675	connadh	chonnadh chonnaidhean connaidh connaidhean
+76	1676	baile-beag	baile-bhig bailtean-beaga bhaile-bhig
+77	1677	an-còmhnaidh	an-comhnaidh an-còmhnuidh
+78	1678	bancair	bancairean bhancair bhancairean
+79	1679	searbhag	searbhagan searbhaig shearbhagan shearbhaig
+80	1680	sir	shir shireas siridh sirte t-sir
+81	1681	deuchainn-lann	deuchainn-lainn deuchainn-lannan dheuchainn-lann
+82	1682	caidreachas	caidreachais caidreachasan chaidreachais chaidreachas
+83	1683	innleadaireachd	
+84	1684	eucoir	eucoirean eucorach eucoraich
+85	1685	reul-eòlas	
+86	1686	bualadh	bhualadh bhualaidh bualaidh bualaidhean
+87	1687	paidhleat	paidhleatan phaidhleat
+88	1688	droga	dhrogaichean drogaichean
+89	1689	feallsanach	feallsanaich fheallsanach
+90	1690	gnìomhach	ghnìomhach ghnìomhachadh ghnìomhaich ghnìomhaiche gnìomhaiche gnìomhaichidh gnìomhaichte
+91	1691	geur	geura gheur gèire
+92	1692	adhartas	adhartais adhartasan t-adhartas
+93	1693	seòrsaich	seòrsachadh seòrsaicheadh seòrsaicheam seòrsaicheamaid seòrsaichear seòrsaichibh seòrsaichidh seòrsaichinn seòrsaichist seòrsaichiste seòrsaichte seòrsaichteadh seòrsaichtear sheòrsachadh sheòrsaicheadh sheòrsaicheamaid sheòrsaichinn sheòrsaichist sheòrsaichiste sheòrsaichteadh
+94	1694	ionmhas	ionmhais ionmhasan
+95	1695	druma	dhrumaichean drumaibh drumaichean
+96	1696	niùclas	niuclas niùclais niùclasan
+97	1697	bitheanta	bhitheanta
+98	1698	triantanachd	thriantanachd
+99	1699	dèidheil	deidheil dhèidheil
+100	1700	sireadh	shireadh siridhean

@@ -1,0 +1,100 @@
+1	3601	peile	
+2	3602	neo-chinnteach	
+3	3603	magadh	magaidh magaidhean
+4	3604	deiseal	
+5	3605	uill	
+6	3606	seilbheadair	seilbheadairean seilbheadairibh sheilbheadairean
+7	3607	stoighle	
+8	3608	tòiseachd	
+9	3609	sùbailte	
+10	3610	drùiseach	drùisich
+11	3611	peanasachadh	peanasachaidh peanasachaidhean
+12	3612	mì-choltach	
+13	3613	mì-thoileachas	
+14	3614	aosd	
+15	3615	mì-mhodhail	
+16	3616	dioplòmasaidh	
+17	3617	tionnsgalach	tionnsgalaiche
+18	3618	neo-chiontachd	
+19	3619	facal-suaicheantais	
+20	3620	fiadhach	
+21	3621	èasgaidh	
+22	3622	èadhar	èadhair èadharan
+23	3623	neach-bùtha	luchd-bùtha
+24	3624	fuireachd	
+25	3625	gaothach	gaothaich
+26	3626	teoirim	
+27	3627	fiosrachail	
+28	3628	earbsach	
+29	3629	traill	traillean
+30	3630	ullamh	
+31	3631	dìcheallach	
+32	3632	sgrùdaich	sgrùdachadh sgrùdaichidh
+33	3633	stòr-amar	shtòr-amair stòr-amair stòr-amaraibh stòr-amaran t-stòr-amair
+34	3634	rianaire	rianairen
+35	3635	eadraiginn	
+36	3636	eadar-theachd	eadar-theachdan
+37	3637	rag	
+38	3638	suathach	suathaich
+39	3639	bunachar	bhunachar
+40	3640	reub	reubadh reubta
+41	3641	leigheas-inntinn	leigheasan-inntinn leighis-inntinn
+42	3642	neach-smàlaidh	luchd-smàlaidh
+43	3643	airgeadach	airgeadaiche
+44	3644	uaill	h-uaill uaille
+45	3645	taibhsear	taibhsearan taibhseir
+46	3646	oisinn	oisne oisnean
+47	3647	tuinich	thuinich tuinichidh tuinichte
+48	3648	tiùb	tiùib
+49	3649	teinn	teinne
+50	3650	siabann	siabainn
+51	3651	naochad	naochadan
+52	3652	spaid	spaide spaidean
+53	3653	seang	seanga seing seinge
+54	3654	gàidsear	ghàidsear gàidsearan gàidseir
+55	3655	braich	bracha
+56	3656	caomhnadh	chaomhnadh
+57	3657	masladh	maslaidh maslaidhean mhasladh
+58	3658	sèimhich	shèimhich sèimhichidh sèimhichte
+59	3659	sloinntearachd	shloinntearachd sloinntearachdan
+60	3660	ceannairc	ceannairce
+61	3661	coillteach	choillteach
+62	3662	mùn	mùin
+63	3663	pana	panaichean phana
+64	3664	argumaid	argumaide argumaidean
+65	3665	tùsach	thùsach
+66	3666	fo-roinn	fo-roinne fo-roinnean fo-roinnidh fo-roinnte
+67	3667	bàrdail	bhàrdail
+68	3668	làn-mara	làin-mhara
+69	3669	fiaclair	fhiaclair
+70	3670	ciutha	chiutha
+71	3671	streapadair	streapadairean
+72	3672	riaghaladh	riaghalaidh
+73	3673	fèin-mhurt	fèin-mhort fèin-mhuirt
+74	3674	dotag	dotagan
+75	3675	roithlean	roithlein
+76	3676	eadar-sgaoileadh	eadar-sgaoilidhean
+77	3677	criostalach	chriostalaich
+78	3678	traoidhtearachd	thraoidhtearachd
+79	3679	focal	fhocal focail
+80	3680	gibht	ghibht gibhtean
+81	3681	marsantach	marsantaich mharsantaich
+82	3682	abaich	abachadh abaiche
+83	3683	meanglan	meanglain meanglanan mheanglan
+84	3684	àitich	àitichidh àitichte
+85	3685	briseadh-dùil	bhriseadh-dùil brisidh-dùil brisidhean-dùil
+86	3686	slios	shliosan sliosa sliosan
+87	3687	seachran	seachrain sheachrain
+88	3688	maor-sìthe	maoir-shìthe maoir-sìthe
+89	3689	àbhachdas	àbhachdais
+90	3690	pìleat	phìleat pìleatan
+91	3691	dùmhail	dùmhaile
+92	3692	banana	bananathan bhanana
+93	3693	marbhan	marbhain mharbhan
+94	3694	sgeilp	sgeilpean sgeilpichean
+95	3695	deann	deanna deannan
+96	3696	eadar-àm	eadar-ama
+97	3697	geàrr-chunntas	geàrr-chunntais geàrr-chunntasan gheàrr-chunntas
+98	3698	coitcheannas	choitcheannas coitcheannais
+99	3699	artaigeal	artaigealan artaigeil
+100	3700	giullachd	ghiullachd

@@ -1,0 +1,100 @@
+1	2201	fèineachd	fhèineachd
+2	2202	opra	
+3	2203	leantainneach	leantainnich
+4	2204	muc-mhara	mucan-mara muice-mara
+5	2205	eanchainn	dh'eanchainn eanchainne eanchainnean h-eanchainn
+6	2206	proifeasanta	phroifeasanta
+7	2207	ìseal	h-ìseal
+8	2208	sinc	t-sinc
+9	2209	briathar	bhriathar bhriathran briathair
+10	2210	cnàimh	chnàimh chnàimhean cnàimhean
+11	2211	gnìomhadh	ghnìomhadh ghnìomhaidh gnìomhaidh gnìomhaidhean
+12	2212	sgiùrs	sgiùrsadh
+13	2213	eadarra	
+14	2214	lughdachadh	
+15	2215	rannsaiche	rannsaichean
+16	2216	leusair	leusairean
+17	2217	fuiling	dh'fhuiling fhuiling fuilingidh fuilingte
+18	2218	follais	dh'fhollais fhollais folais
+19	2219	fàillig	dh'fhàillig fhàillig fàilligte fàillinnich fàillnich
+20	2220	lìonmhor	lìonmhoir lìonmhoire
+21	2221	fiacail	fhiacaill fhiaclan fiacaill fiacal fiacla fiaclan
+22	2222	faicsinneach	fhaicsinneach fhaicsinnich fhaicsinniche
+23	2223	treòraich	threòrachadh threòraich treòrachadh treòrachaidh
+24	2224	iuchair	h-iuchrach h-iuchraichibh iuchrach iuchraichean iuchraichibh t-iuchair
+25	2225	pàirt-ùine	
+26	2226	amharas	amharais amharasan
+27	2227	aghaigh	
+28	2228	ciontach	chiontaich ciontaich
+29	2229	màthaireil	mhàthaireil
+30	2230	spaideil	spaideile
+31	2231	cafaidh	cafaidhean chafaidh
+32	2232	anail	anaile anailean analach
+33	2233	àlach	àlaich
+34	2234	bataraidh	bataraidhean
+35	2235	cnò	chnothan chnò cnotha cnothan cnòtha cnòthan
+36	2236	feallsanachail	fheallsanachail
+37	2237	teannaich	teannachadh teannachaidh teannaichte theannachadh theannaich
+38	2238	ros	rois rosan
+39	2239	bràigh	bhràigh bhràigheachan bràghad bràigheachan
+40	2240	doire	doirean
+41	2241	tuil	thuil tuile tuiltean
+42	2242	sanas	sain-fhios sainis sanais sanasan sanus shanasan t-sanas
+43	2243	anam	anama anaman anma anman anmanna anmannan d'anam m'anam t-anam
+44	2244	buannaiche	bhuannaiche bhuannaichean buannaichean
+45	2245	bodach	bhodach bhodacha bhodachaibh bodachaibh bodaich
+46	2246	ciste	chiste cisteachan
+47	2247	ainmneach	
+48	2248	sochair	shochairean sochaire sochairean sochar
+49	2249	ìochdar	ìochdair ìochdarain ìochdaran
+50	2250	leòmhann	leomhann leòghann leòmhainn leòmhannan
+51	2251	coigreach	choigreach coigrich
+52	2252	fine	fhine fineachan
+53	2253	marcaiche	marcaichean mharcaiche mharcaichean
+54	2254	prìomhair	phrìomhair
+55	2255	ciar	chiar ciara
+56	2256	greugais	
+57	2257	co-mhaoineas	cho-mhaoineas co-mhaoinais co-mhaoineasan co-mhaoinis
+58	2258	coireall	choireall coirill
+59	2259	seanchas	seanachais seanachas seanchasan t-seanchas
+60	2260	duileasg	duilisg
+61	2261	paisg	paisgte pasgadh pasgaidh phaisgeas phaisgte phasgadh
+62	2262	sèist	sheist shèist sèiste sèistean t-sèist
+63	2263	tòiseach	thòiseach
+64	2264	dligheach	
+65	2265	eòrna	t-eòrna
+66	2266	falaichte	fhalaichte
+67	2267	teachdaireachd	teachdaireachdan theachdaireachd theachdaireachdan
+68	2268	bòidhchead	bhòidhchead bòidhcheid bòidhchid bòidheachd bòidhichead
+69	2269	co-chur	cho-chur
+70	2270	fungas	fhungais fhungas fungais fungasan
+71	2271	tabhartas	tabhartasan thabhartas thabhartasan
+72	2272	tairg	tairgidh tairgsinn tairgte thairg thairgeadh thairgear thairgsinn
+73	2273	ministrealachd	mhinistrealachd
+74	2274	moralta	mhoralta
+75	2275	marsanta	mharsanta
+76	2276	searbh	searbha sèirbhe
+77	2277	spìosradh	spìosraidh spìosraidhean
+78	2278	maide	maideachan maidean mhaide
+79	2279	pònair	phònair phònairean pònairean pònarach
+80	2280	miannach	mhiannach mhiannachadh mhiannaich miannachadh miannaich miannaiche miannaichidh miannaichte
+81	2281	pòlarach	phòlarach
+82	2282	gnìomhachasail	ghnìomhachasail
+83	2283	fasanta	fhasanta
+84	2284	feòil-itheach	feoil-itheach feòil-ithich fheòil-itheach
+85	2285	draoidheil	dhraoidheil draoidheile
+86	2286	peacadh	peacaidh peacaidhean pheacadh pheacaidh pheacaidhean
+87	2287	trannsa	trannsaichean
+88	2288	beirm	beirmean bheirm
+89	2289	sgar	sgaras sgarta sgarte
+90	2290	mìorbhaileach	mhiorbhaileach mhìorbhaileach miorbhaileach mìorbhailiche
+91	2291	fairich	dh'fhairich dh'fhairicheadh dh'fhairicheamaid dh'fhairichear dh'fhairicheas dh'fhairichinn dh'fhairichist dh'fhairichiste dh'fhairichteadh faireachadh fairicheadh fairicheam fairicheamaid fairichear fairichibh fairichidh fairichinn fairichist fairichiste fairichte fairichteadh fairichtear fhaireachaidhean
+92	2292	stoirm	stoirme stoirmean
+93	2293	magh	maghaibh maghan maigh mhaghan mhaigh
+94	2294	lòn	lòin lòintean
+95	2295	geata	geatachan geataichean geatan gheataichean
+96	2296	oisean	oiseanan oisein
+97	2297	ròs	ròsan
+98	2298	gualann	ghuailnean ghualainn ghualann guaillean guailne guailneadh guailnean guala gualainn gualannaibh
+99	2299	trasnadh	
+100	2300	meanbh	meanbha mheanbh

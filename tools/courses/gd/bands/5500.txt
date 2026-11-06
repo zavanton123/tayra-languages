@@ -1,0 +1,100 @@
+1	5401	leadaidh	leadaidhean
+2	5402	allaidh	alla allda allmhaidh alltaidh alluigh
+3	5403	còirneal	chòirneal
+4	5404	suaineach	
+5	5405	labhairteach	
+6	5406	an-àirde	an-àird
+7	5407	obo	
+8	5408	eilid	èilde èildean
+9	5409	òrail	
+10	5410	boireannta	
+11	5411	roimhearach	
+12	5412	smeur	smeura smeuran
+13	5413	ultach	ulathach ulldach ultaich ultaichean
+14	5414	coilleag	coilleagan coilleige
+15	5415	cailleachag	cailleachagan cailleachaige
+16	5416	àireamhail	
+17	5417	caile	cailean
+18	5418	corra-bhàn	corra-bàine corran-bàna
+19	5419	òrdanais	h-òrdanais
+20	5420	casad	casadan
+21	5421	ùraisg	t-ùraisg ùraisgean ùruisg
+22	5422	fannaich	dh'fhannaich dh'fhannaicheadh dh'fhannaicheamaid dh'fhannaichinn dh'fhannaichist dh'fhannaichiste dh'fhannaichteadh fannaicheadh fannaicheam fannaicheamaid fannaichear fannaichibh fannaichidh fannaichinn fannaichist fannaichiste fannaichte fannaichteadh fannaichtear
+23	5423	ealanlann	
+24	5424	gealag	gealaig
+25	5425	pòn	pònaichean
+26	5426	sgot	
+27	5427	daingean	
+28	5428	deargan	deargain dearganan
+29	5429	forca	forcaichean forcan fuirce
+30	5430	proton	phroton phrotonan protonan
+31	5431	artach	
+32	5432	rèilig	rèilige rèiligean réileag réilig
+33	5433	loidse	
+34	5434	lurg	
+35	5435	madadh-ruadh	
+36	5436	famh	faimh famhan
+37	5437	luchag	luchaga luchagaibh luchagan luchaig luchaige
+38	5438	ciatach	chiatach
+39	5439	ban-iarla	ban-iarlaichean
+40	5440	bàinidh	bhàinidh
+41	5441	gràisgealachd	
+42	5442	breall	
+43	5443	sòlas	shòlas shólas sòlais sòlasan
+44	5444	sgiamhach	
+45	5445	mamaidh	mamaidhean
+46	5446	spreigeach	
+47	5447	àirne	
+48	5448	cruithear	chruitheir cruithearan
+49	5449	bara	
+50	5450	bheat	
+51	5451	riabhag	
+52	5452	bòrd-geal	bùird-gheala bùird-ghil
+53	5453	bòrd-sgrìobhaidh	bùird-sgrìobhaidh
+54	5454	breacan-beithe	breacain-bheithe
+55	5455	srùban	shrùban srùbain
+56	5456	dallag	dallagan dallaige
+57	5457	dubhag	dubhagan dubhaig
+58	5458	peirceall	peirceallan peircill
+59	5459	deala	
+60	5460	gèinn	ding dinn gèinne gèinnean gèinnte gèinntean géinn
+61	5461	cleit	cleite cleitean
+62	5462	sgitheach	
+63	5463	gille-feadaig	gillean-feadaig
+64	5464	caithream	
+65	5465	ogham	
+66	5466	teàrainteachd	
+67	5467	lannsa	
+68	5468	cairidh	cairidhe cairidhean
+69	5469	cas-chrom	cois-chruim
+70	5470	tàthan	tàthain tàthanan
+71	5471	riar	riaran
+72	5472	falmadair	falmadairean falmadairibh fhalmadairean
+73	5473	poblachdas	poblachdais
+74	5474	strath	
+75	5475	taigh-spadaidh	thaigh-spadaidh
+76	5476	dìomhanas	
+77	5477	iac	
+78	5478	brith	
+79	5479	farmadach	
+80	5480	cuibheasachd	cuibheasachdan
+81	5481	beilgeach	
+82	5482	railidh	
+83	5483	tdd	
+84	5484	eadar-fhighte	
+85	5485	sgiamh	sgiamhail sgiamhan sgèimhe
+86	5486	ròmach	
+87	5487	sgleog	
+88	5488	piocach	
+89	5489	cromanachd	
+90	5490	seiminear	
+91	5491	bràmair	bhràmair
+92	5492	robach	robaich robaiche
+93	5493	dùrd	dùird
+94	5494	tiompan	
+95	5495	toirsgian	toirsgeine toirsgeinean
+96	5496	pupaid	pupaide pupaidean
+97	5497	dìobhail	dhìobhalach dìobhalach
+98	5498	carach	
+99	5499	cairt-phuist	cairt-puist cairtean-puist
+100	5500	meidh	meidhe meidhean

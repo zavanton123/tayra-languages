@@ -1,0 +1,100 @@
+1	3101	mala	mailghean malaichean malaidhean malan
+2	3102	dèilig	dhèilig dhèiligeas dèiligte
+3	3103	searmon	searmoin searmonan shearmonan
+4	3104	searg	seargadh seargaibh seargaidh seargainn seargaist seargaiste seargam seargamaid seargar seargta seargtadh seargtar seargte sheargainn sheargaist sheargaiste sheargamaid sheargtadh
+5	3105	canach	canaich
+6	3106	oillteil	h-oillteil oillteile
+7	3107	òrdag	ordag òrdagan òrdaig
+8	3108	stugh	stugha stughan
+9	3109	daingeann	dhaingeann
+10	3110	lèirsinneach	
+11	3111	feòlmhorachd	
+12	3112	dleasnas	dleasnasan
+13	3113	teachd-a-steach	teachdan-a-steach
+14	3114	analachadh	analachaidh analachaidhean
+15	3115	sgiobalta	
+16	3116	leas-abhainn	
+17	3117	ro-innleachdail	
+18	3118	calltainn	calltainne
+19	3119	ait	
+20	3120	curcuma	
+21	3121	criopton	crioptoin
+22	3122	geòlas	geòlais
+23	3123	mì-chinnteach	mhì-chinnteach
+24	3124	dearbha	dhearbha
+25	3125	dà-mhiannach	dhà-mhiannach
+26	3126	bean-shìdh	bhean-shìdh
+27	3127	tomadach	tomadaich
+28	3128	dibhearsan	dibhearsain
+29	3129	moraltachd	mhoraltachd moraltachdan
+30	3130	mangaineis	mhangaineis
+31	3131	cidsin	chidsin chidsinean cidsinean cistin
+32	3132	gòrach	ghòrach gòraiche
+33	3133	spòg	spògan spòig
+34	3134	connsachadh	chonnsachaidh connsachaidh connsachaidhean
+35	3135	gèam	ghèam
+36	3136	annas	annasan
+37	3137	pòr	phòran pòran
+38	3138	tlachdmhor	thlachdmhor tlachdmhoir tlachdmhoire tlachdmhora
+39	3139	maiseach	maisich maisiche maisichte mhaisich
+40	3140	gruagaire	gruagairean gruagairibh
+41	3141	poballach	poballaiche
+42	3142	clò-bhuail	chlò-bhuail clò-bhuailidh clò-bhuailte
+43	3143	maor	maoir mhaor
+44	3144	tathaich	tathaichte thathaich
+45	3145	mùchadh	mhùchadh mùchaidh mùchaidhean
+46	3146	briogais	bhriogais briogaise briogaisean
+47	3147	fathann	fathainn fathannan fhathannan
+48	3148	maigheach	maighich maighiche maighichean maighichibh mhaigheach mhaigheacha moigheach
+49	3149	branndair	bhranndair branndairean
+50	3150	prionnsapal	phrionnsapal phrionnsapalan prionnsapail prionnsapalan
+51	3151	àrachas	t-àrachas àrachais àrachasan
+52	3152	colann	cholainn cholann colainn colainnean
+53	3153	gobhlan-gaoithe	gobhlain-ghaoithe gobhlanan-gaoithe gòbhlan-gaoithe
+54	3154	sòghail	shòghail
+55	3155	naidhlean	naidhlein
+56	3156	preantas	phreantas preantais preantasan
+57	3157	eunlaith	eunlaithe h-eunlaith
+58	3158	einnseanair	einnseanairean
+59	3159	misneachail	misneachaile
+60	3160	lìnig	lìnigeadh lìnigte
+61	3161	tàmailt	tàmailtean
+62	3162	ainneartach	ainneartaiche
+63	3163	dealas	dealais dhealas
+64	3164	èirig	èirigean
+65	3165	domhan-fhad	domhan-fhaid
+66	3166	rombas	rombais
+67	3167	brùid	bhrùid brùidean
+68	3168	oideachas	oideachais
+69	3169	coidse	choidse
+70	3170	tàillear	thàillear tàillearan tàilleir
+71	3171	caogad	caogadan chaogad
+72	3172	frìde	fhrìde frìdean
+73	3173	stàball	stàbaill stàballan
+74	3174	glaiste	glaste
+75	3175	pàidh	phàidh pàidhean
+76	3176	deicheach	deichich dheicheach
+77	3177	orainsear	oraindsear orainsearan
+78	3178	tiota	thiota tiotan
+79	3179	dealasach	dealasaich dhealasaich
+80	3180	srian	srianadh srianag srianaidh srianan sriantan srèine srèinean
+81	3181	solair	sholair sholaradh solaradh
+82	3182	traogh	thraoghadh thraoghaidh traoghadh
+83	3183	fradharc	fhradhairc fhradharc fradhairc fradharcan
+84	3184	similear	similearan simileir simileirean t-similear
+85	3185	grod	grodadh grodaidh groide
+86	3186	foto-cho-chur	foto-cho-chuir
+87	3187	trachdas	
+88	3188	briog	briogaidh briogte
+89	3189	bothaich	
+90	3190	uamhann	
+91	3191	troilidh	
+92	3192	làthaireil	
+93	3193	apa	apaichean
+94	3194	buailteach	
+95	3195	càl	càdhal
+96	3196	seòmarach	seòmrach
+97	3197	taisbean	thaisbean
+98	3198	dluths	
+99	3199	frèam	frèama
+100	3200	planadh	phlanadh

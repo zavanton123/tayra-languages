@@ -1,0 +1,100 @@
+1	2801	eathar	eathair eathrach eathraichean eathraichibh h-eathrach h-eathraichean h-eathraichibh
+2	2802	coineanach	choineanacha choineanachaibh coineanachaibh coineanaich
+3	2803	tighearnas	thighearnas tighearnais
+4	2804	àras	àrais àrasan àros
+5	2805	togte	thogte
+6	2806	bàsmhor	bhàsmhor
+7	2807	billean	bhillean billeanan billein
+8	2808	draibhear	dhraibheir draibhearaibh draibhearan draibheir
+9	2809	saighdearach	shaighdearach
+10	2810	òranaiche	t-òranaiche òranaichean
+11	2811	purpaidh	phurpaidh
+12	2812	sìochantair	sìochantairean
+13	2813	tèarainte	thèarainte
+14	2814	sonas	shonas sonais sonasan
+15	2815	bùth-obrach	bùithtean-obrach bùth-oibre bùtha-obrach bùthan-obrach
+16	2816	brìgheil	bhrìgheil
+17	2817	gabhaltach	gabhalach ghabhaltach
+18	2818	sgiort	sgiorta sgiortan
+19	2819	maignèisiam	magnesium maignèisiaim
+20	2820	spòrsail	
+21	2821	luaithre	
+22	2822	sealach	
+23	2823	saoranachd	saoranachdan
+24	2824	ostail	ostaile ostailean
+25	2825	tuiteamas	thuiteamas thuiteamasan tuiteamais tuiteamasan
+26	2826	àradh	fhàradh fàr fàradh àra àraidhean
+27	2827	mathanas	mathanais mhathanais mhathanas
+28	2828	caman	camain camanan chamain chaman
+29	2829	proifeasair	phroifeasair
+30	2830	a-cheana	cheana
+31	2831	mùr	mhùir mùir mùirean múr
+32	2832	claon	chlaonas claonta claonte
+33	2833	treud	treudan
+34	2834	coilean	choilean coileante
+35	2835	siùrsachd	
+36	2836	rìs	
+37	2837	amharasach	
+38	2838	fiosraich	fhiosraicheadh fiosraichte
+39	2839	seasgad	seasgadan
+40	2840	dòrtadh	dhòrtadh dòrtaidh dòrtaidhean
+41	2841	fàbharach	fhàbharach
+42	2842	suaicheanta	shuaicheanta
+43	2843	bràthair-màthar	bhràthair-màthar bràithrean-màthar bràthar-mhàthar
+44	2844	leanaban	leanabain leanabanan
+45	2845	slaic	slaicean
+46	2846	cunntasachd	chunntasachd
+47	2847	trèigte	tréigte
+48	2848	ceithir-cheàrnach	cheithir-cheàrnach
+49	2849	dìcheall	dhìcheall dichioll dìchill dìthchioll
+50	2850	luibh-eòlas	luibh-eòlais
+51	2851	iomsgaradh	iomsgaraidh
+52	2852	misneachd	mhisneachd
+53	2853	cac	cacadh cacaidh cacte chac
+54	2854	readhactar	readhactaran
+55	2855	dlùthaich	dhlùthaich dlùthachadh
+56	2856	drabasda	dhrabasta drabasta drabhasda
+57	2857	frith-ainm	fhrith-ainm frioth-ainm frith-ainmean
+58	2858	bitheag	bitheagan
+59	2859	gainnead	gainneid ghainnead ghainneid
+60	2860	altair	altairean altraichean h-altrach
+61	2861	teicneòlach	teicneòlaich theicneòlach
+62	2862	eallach	eallacha eallachan eallaichean
+63	2863	sileacon	shileacon sileacoin
+64	2864	isbean	isbeanan isbein
+65	2865	dèideag	dèideagan dèideig
+66	2866	slaod	shlaodadh slaodadh slaodaidh slaodte
+67	2867	fiabhras-clèibhe	fhiabhras-clèibhe fiabhrais-clèibhe
+68	2868	fairge	fairgeachan fairgean fhairge
+69	2869	beathachadh	beathachaidh bheathachadh
+70	2870	machlag	machlagan machlaig mhachlag
+71	2871	buadhmhor	bhuadhmhoire buadhmhoire
+72	2872	breisleach	bhreisleachadh breislich
+73	2873	fosail	fhosail fhosailean fosailean
+74	2874	mèirleach	mhèirleach mhèirleacha mhèirleachaibh mèirleachaibh mèirlich
+75	2875	searbhanta	searbhantan shearbhanta
+76	2876	soidhnig	shoidhnig shoidhnigeadh soidhnigeadh
+77	2877	puinnsean	phuinnsean phuinnseanan puinnseanan puinnsein
+78	2878	misnich	mhisneachadh mhisnich misneachadh misnichidh misnichte
+79	2879	torradh	thorradh thorraidhean torraidhean
+80	2880	onarach	dh'onarach h-onarach onarachadh onaraich onaraiche onoraiche
+81	2881	greas	ghreas ghreasad ghreasas greasad greasadh greasaibh greasaidh greaste
+82	2882	seannsalair	sheannsalair
+83	2883	siarach	shiarach shiaraich
+84	2884	fiosaiche	fhiosaiche fiosaichean
+85	2885	guga	ghuga gugachan
+86	2886	neach-glèidhidh	luchd-glèidhidh neach-gleidhidh
+87	2887	radan	radain radana radanaibh
+88	2888	och	
+89	2889	geir	geire gheir
+90	2890	clais	chlais claise claisean
+91	2891	diadhachd	diadhachdan
+92	2892	glèidhteachas	glèidhteachais
+93	2893	tabhartach	tabhartaiche thabhartach
+94	2894	abstol	abstoil abstolan ostal t-abstol
+95	2895	measgaich	measgaichidh mheasgaich mheasgaichte
+96	2896	calman	calmain calmanan chalmain
+97	2897	beithe	beithean beithibh
+98	2898	tuagh	thuagha tuaghaibh tuaghan tuaigh tuaighe tuaigheadh
+99	2899	corpas	chorpas chorpasan corpais corpasaibh corpasan
+100	2900	àireamhach	àireamhaiche àireamhaichean

@@ -1,0 +1,100 @@
+1	101	linn	linne linneachan linntean
+2	102	iarraidh	iarraidhean
+3	103	a-mach	mach
+4	104	òl	dh'òl dh'òladh dh'òlainn dh'òlaist dh'òlaiste dh'òlamaid dh'òltadh h-òl ol òil òladh òlaibh òlaidh òlainn òlaist òlaiste òlam òlamaid òlar òlta òltadh òltar
+5	105	cànan	canain canan chanain chanan chànain chànan chànana chànanaibh chànanan cànain cànainean cànanaibh cànanan
+6	106	fada	b'fhada faide fhada fhaide
+7	107	tighinn	thighinn
+8	108	mòran	mhòrain mhòran morain moran mòrain móran
+9	109	àite	aite aiteachan dh'àite h-aite h-àite h-àiteachan t-aite t-àite àiteachan àiteachean àitean àiteannan àitichean áite
+10	110	muir	mara maraibh marannan mhara mhuir
+11	111	fad	dh'fhad faid fhad fhaid
+12	112	àirde	airde b'airde b'àirde dh'airde dh'àirde h-airde àirdean
+13	113	thar	thairis thairis-san tharam tharta
+14	114	tòisich	thoisich thòisich thòisicheadh thòisicheamaid thòisicheas thòisichinn thòisichist thòisichiste thòisichteadh toisich tòisicheadh tòisicheam tòisicheamaid tòisichear tòisichibh tòisichidh tòisichinn tòisichist tòisichiste tòisichte tòisichteadh tòisichtear
+15	115	beir	beireadh beiream beireamaid beirear beiribh beiridh beirist beiriste beirsinn beirte beirteadh bheirsinn bheirte rug rugadh
+16	116	nì	ni nith nithe nithean nìthean ní
+17	117	ro	roimh roimhe roimhpe romh romhad romhaibh romhainn romham romhpa
+18	118	còmhla	chòmhla comhla còmhlachan còmhlaichean
+19	119	àm	ama amannan dh'àm h-àm t-am t-àm àmannan ám
+20	120	gus	
+21	121	sgìre	sgire sgirean sgìrean t-sgìre
+22	122	ùr	uir ùir ùire ùra úir úr
+23	123	deireadh	deiridh deiridhean dheireadh
+24	124	sgìth	sgith
+25	125	rud	rudaibh rudan ruid
+26	126	an-dràsta	an-drasta an-dràsda
+27	127	can	canadh canaidh canail canar canta cantadh cantail cantainn cantar chanadh chanail chanar chanas chantadh chantainn
+28	128	cù	choin chona chonaibh chuilidh chù coin con cona conaibh cu
+29	129	sgoil	sgoile sgoileadh sgoiltean
+30	130	toirt	thoirt thoirte toirte toirtean
+31	131	gach	ghach
+32	132	leòr	leor
+33	133	roinn	roinne roinneadh roinnean roinnidh roinnte roinntean
+34	134	os	
+35	135	aghaidh	aghaidhe aghaidhean h-aghaidh n-aghaidh
+36	136	ged	
+37	137	fhathast	
+38	138	cèile	ceile chèile cèilean
+39	139	tachair	d'thachair tachaireadh tachairidh tachairt tachairte tachradh tachraidh thachair thachaireadh thachairt thachradh
+40	140	trang	thraing thrang trainge
+41	141	tro	treimh troimh troimhe troimhpe tromhad tromhaibh tromhainn tromham tron
+42	142	càite	chaite cà càit càit'
+43	143	a-màireach	
+44	144	barrachd	barrachdan bharrachd
+45	145	cùm	chum chumail chumainn chùm cumail cumta cùmaidh
+46	146	gaol	gaoil gaolaibh ghaoil ghaol ghaola ghaolaibh
+47	147	tuath	thuath thuatha thuathan tuatha tuathan
+48	148	deas	deasan deise deiseachan dheas
+49	149	dìreach	dhìreach direach dìriche
+50	150	a-nis	a-neisd a-neist a-nisd a-nise a-nist neisd neist nis nise nist
+51	151	sean	seana seann seann- sein shean sheann shine shinean sine t-sean t-seann
+52	152	ionnsachadh	dh'ionnsachadh h-ionnsachadh ionnsachaidh ionnsachaidhean t-ionnsachadh
+53	153	rathad	rathadan rathaid rathaidean rothaid
+54	154	a-rithist	a-rithistich a-rìs
+55	155	ceòl	ceol ceòil cheòl chiùil ciùil
+56	156	cuimhne	chuimhn chuimhne cuimhn
+57	157	leig	leigeadh leigeam leigeamaid leigear leigeas leigeil leigibh leigidh leiginn leigist leigiste leigte leigteadh leigtear
+58	158	rèir	a-rèir a-réir
+59	159	nighean	h-igheanan h-ighinn h-ingheanan h-inghinn ingheanan inghinn nigheana nigheanaibh nigheanan nigheann nigheannan nighinne nighnean ìghne ìghnean
+60	160	cleachdadh	chleachdadh chleachdaidh chleachdaidhean cleachdaidh cleachdaidhean
+61	161	biadh	bhiadh bhiadhadh bhìdh biadhadh biadhaibh biadhan biadhta bidhe bìdh bìdhe
+62	162	prìomh-bhaile	phriomh-bhaile phrìomh-bhaile priomh-bhaile prìomh-bhailtean
+63	163	tric	thric thrice trice
+64	164	thall	
+65	165	ainmeil	ainmeile b'ainmeil h-ainmeil
+66	166	facal	dh'fhacal facail faclan fhacail fhacal fhaclan
+67	167	còir	choir chòir chòireachan chòirichean chòraiche chòraichean coir coirichean còire còireachan còirean còirichean còrach còraichean
+68	168	ceannach	ceannachadh ceannaich cheannach cheannachadh cheannaich cheannaicheadh cheannaichear cheannaicheas
+69	169	teaghlach	teaghlaich teaghlaichean theaghlach theaghlaich theaghlaichean
+70	170	caraid	caraidean chairdean charaid charaidean chàirdean càirdean
+71	171	aois	aoise aoisean d'aois dh'aois h-aois t-aois
+72	172	saoghal	saoghail saoghalaibh saoghalan shaoghail shaoghal t-saoghail t-saoghal t-shaoghal
+73	173	mac	macaibh mhac mhaca mhacaibh mhic mic
+74	174	cinnteach	chinnteach chinntich cinntich cinntiche
+75	175	aran	arain d'aran n-aran t-aran
+76	176	ur	uire ura
+77	177	faod	dh'fhaodadh faodadh faodaidh faodainn faodar fhaod fhaodadh fhaodaidh fhaodar
+78	178	uabhasach	h-uabhasach uabhasaiche
+79	179	toilichte	thoilichte
+80	180	beinn	beannaibh beanntaichean beanntain beanntainean beanntan beinne bheanna bheanntan bheinn bheinne
+81	181	coma	choma
+82	182	fuar	fhuaire fhuar fhuara fuair fuaire fuara
+83	183	oileanach	dh'oileanach h-oileanach oileanaich t-oileanach
+84	184	loch	locha lochain lochan
+85	185	crìoch	chrioch chrìche chrìoch chrìochan crioch crìch crìche crìochan
+86	186	coltach	choltach choltaich coltaiche
+87	187	beagan	beagain bheagan
+88	188	ceart	cearta ceartan ceirt ceirte cheart cheirt
+89	189	ìre	dh'ìre h-ìre ire ìrean
+90	190	deagh	deigh deighe dheagh dheigh
+91	191	stèidheachadh	steidheachadh stèidheachaidh stèidheachaidhean stéidheachadh
+92	192	fàg	d'fhàg dh'fhàg dh'fhàgadh dh'fhàgaist dh'fhàgaiste dh'fhàgamaid dh'fhàgas dh'fhàgtadh fag fhàg fhàgadh fhàgail fhàgainn fhàgar fàgadh fàgaibh fàgaidh fàgainn fàgaist fàgaiste fàgam fàgamaid fàgar fàgta fàgtadh fàgtar fàgte
+93	193	pàirt	pairt pairtean phairt phàirt phàirtean pàirte pàirtean
+94	194	ciamar	
+95	195	a-steach	
+96	196	idir	
+97	197	eaglais	dh'eaglais eaglaise eaglaisean eaglaisibh h-eaglais h-eaglaise h-eaglaisean h-eaglaisibh t-eaglais
+98	198	iomadh	dh'iomadh ioma iomad iomaidh iomaidhe
+99	199	toigh	
+100	200	òran	d'oran h-òran t-òran òrain

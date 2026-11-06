@@ -1,0 +1,100 @@
+1	4901	sgread	
+2	4902	amaideach	
+3	4903	fàidheadaireachd	
+4	4904	meirgeach	meirgich meirgiche mheirgich
+5	4905	daineamaig	
+6	4906	lathail	
+7	4907	mealltach	mealltaich
+8	4908	reat	
+9	4909	fliùiteag	fhliùiteag
+10	4910	aighear	aighir
+11	4911	trabhaig	
+12	4912	stalc	
+13	4913	millteach	
+14	4914	eangach	
+15	4915	geàrrte	
+16	4916	uidheamaich	uidheamachadh uidheamaichidh
+17	4917	do-dhèanta	do-dhèante
+18	4918	sìolradh	sìolraidh sìolraidhean
+19	4919	goistidh	goistidhean
+20	4920	sochairich	sochairichte
+21	4921	truailleachadh	
+22	4922	breisleachail	
+23	4923	dà-sheaghach	dà-sheaghaich
+24	4924	beothaich	beothaichidh beothaichte bheothachadh
+25	4925	deachd	
+26	4926	leòtha	
+27	4927	ciùrrte	ciùrrta
+28	4928	dlùth-chlòdh	
+29	4929	curanta	
+30	4930	gamhlasach	
+31	4931	soindath	
+32	4932	leanailteach	leanailtiche
+33	4933	litearra	
+34	4934	geuraich	gheuraich
+35	4935	earradh	earraidhean
+36	4936	trusgan	trusgain trusganan
+37	4937	acaid	
+38	4938	murrach	
+39	4939	uileach	
+40	4940	ciallachail	
+41	4941	deàlrach	
+42	4942	sìorrachd	sìorrachdan
+43	4943	còmhnaich	chòmhnaich còmhnaichidh còmhnaichte
+44	4944	caoimhneasach	
+45	4945	geur-chùiseach	
+46	4946	maidinn	mhaidinn
+47	4947	dèanadachd	
+48	4948	feusag-bheòil	
+49	4949	ochd-deug	
+50	4950	ath-chagnach	
+51	4951	mèinn-ghuail	mèinne-ghuail
+52	4952	lethbhreith	
+53	4953	dhiu	
+54	4954	peanasaich	peanasaichidh peanasaichte pheanasachadh
+55	4955	teansa	
+56	4956	suaicheantach	suaicheantaiche
+57	4957	srianach	
+58	4958	poileanaich	poileanachadh
+59	4959	buirbe	
+60	4960	balgach	
+61	4961	sgeidse	
+62	4962	rithim	
+63	4963	sù	sùthan
+64	4964	buadhar	
+65	4965	stad-phuing	stada-phuing stadan-phuing
+66	4966	smugaid	smugaide smugaidean
+67	4967	anarag	anaragan anaraige
+68	4968	seacaid	seacaide seacaidean
+69	4969	aodach-leapa	aodaich-leapa aodaichean-leapa
+70	4970	sgrìobaire	sgrìobairean
+71	4971	ainneamhag	aineamhag ainneamhagan ainneamhaig
+72	4972	rùdan	rùdain rùdanan
+73	4973	aghastar	
+74	4974	clionaigeach	
+75	4975	dearbhachd	
+76	4976	sìor-uaine	shìor-uaine
+77	4977	deit	deitichean
+78	4978	rèideas	
+79	4979	galan	galain galanan ghalan
+80	4980	batan	
+81	4981	bàt'-aigeil	bàtaichean-aigeil
+82	4982	dreasa	dreasaichean
+83	4983	bodach-ròcais	
+84	4984	sòlaimte	
+85	4985	neasgaid	neasgaide neasgaidean
+86	4986	politigeach	
+87	4987	truailleachd	
+88	4988	unnsa	unnsachan
+89	4989	lèana	lian liana lèan lèanan
+90	4990	ùth	
+91	4991	ròsta	ròstaichean
+92	4992	fiaclaire	fiaclairean
+93	4993	platapas	
+94	4994	aisde	
+95	4995	tuaineal	
+96	4996	fuiltean	fuilteanan fuilteinean
+97	4997	leth-ainm	leth-ainmean
+98	4998	buileann	builinn
+99	4999	bun-dealain	buin-dhealain bunan-dealain
+100	5000	luachmhòr	

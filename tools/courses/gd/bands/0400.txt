@@ -1,0 +1,100 @@
+1	301	cofaidh	chofaidh
+2	302	falt	d'fhalt dh'fhalt fhalt fhuilt fuilt
+3	303	àireamh	aireamh dh'àireamhadh dh'àireamhainn dh'àireamhaist dh'àireamhaiste dh'àireamhamaid dh'àireamhtadh h-àireamh t-àireamh àireamhadh àireamhaibh àireamhaidh àireamhainn àireamhaist àireamhaiste àireamham àireamhamaid àireamhan àireamhar àireamhta àireamhtadh àireamhtar àireimh
+4	304	pòsadh	phòsadh phòsaidh phòsaidhean posadh pòsaidh pòsaidhean
+5	305	bòidheach	bhòidhche bhòidheach bhòidhich boidheach bòidhche bòidhich bòidhiche
+6	306	teine	teinidh teintean theine theintean
+7	307	rìgh	righ righrean rìghean rìghrean
+8	308	innis	dh'innis h-innis inniste innse innseachan innsean innsidh
+9	309	bàta	bhata bhàta bhàtaichean bàtaicheaibh bàtaichean bàtan
+10	310	beò	beo beòtha bheò
+11	311	dhachaigh	dhachaidh
+12	312	làn	lan làin làine làna
+13	313	trom	throm troma troman truime
+14	314	ais	
+15	315	geal	geala gheal gheala ghil
+16	316	co-dhiù	co-dhiu
+17	317	iasg	dh'iasg eisg iasgan t-iasg èisg
+18	318	airgead	airgid airgiod dh'airgead t-airgead
+19	319	slàinte	shlàinte sláinte t-slàinte
+20	320	bàrr	barr barran bharr bhàrr
+21	321	marbh	mairbh marbha marbhadh marbhaibh marbhaidh marbhaidhean marbhainn marbhaist marbhaiste marbham marbhamaid marbhar marbhta marbhtadh marbhtar mhairbh mharbh mharbhadh mharbhaidh mharbhainn mharbhaist mharbhaiste mharbhamaid mharbhar mharbhtadh
+22	322	cleachd	chleachd chleachdainn chleachdaist chleachdaiste chleachdamaid chleachdar chleachdtadh cleachdaibh cleachdainn cleachdaist cleachdaiste cleachdam cleachdamaid cleachdar cleachdta cleachdtadh cleachdtar
+23	323	cas	cais casa casaibh chaise chas chasan chois cois coise
+24	324	bochd	bhochd bhochda bochda bochdaibh bochdan
+25	325	àrd	ard arda dh'àrd h-àrd t-àrd àrda
+26	326	brèagha	bhreagha bhrèagha breagha
+27	327	olc	h-olc mhiosa miosa olca t-olc uilc
+28	328	pàirtidh	phairtidh phàirtidh phàrtaidh phàrtaidhean pàirtidhean pàrtaidh pàrtaidhean
+29	329	deiseil	deiseile dheiseil
+30	330	ruig	ruigeadh ruigeam ruigeamaid ruigear ruigeas ruigheachd ruigidh ruiginn ruigte ràinig ràinigeadh
+31	331	sìos	sios
+32	332	smaoinich	smaoineachadh smaoineachaidh smaoineachdainn smaoinicheadh smaoinicheas smaoinichidh smaoinichte smaointich smaointinn smuaineachadh smuaineachaidh smuainich smuaintich smuaintinn
+33	333	sgrìobhadair	sgriobhadair sgrìobhadairean
+34	334	feasgar	feasgair feasgaran fheasgair fheasgar
+35	335	àird	aird dh'àird h-àird h-àirde h-àirdean h-àirdibh àirdibh
+36	336	laigh	laighe laigheadh laigheam laigheamaid laighear laigheas laighibh laighidh laighinn laighist laighiste laighte laighteadh laightear
+37	337	saoil	saoileadh saoileam saoilidh saoilsinn saoilte shaoil shaoileadh shaoilear
+38	338	talamh	talaimh talamhainn talamhan talamhibh talmhainn talmhainnean talmhan talmhana thalamh thalmhainn
+39	339	dearbh	dearbhadh dearbhaibh dearbhaidh dearbhaidhean dearbhainn dearbhaist dearbhaiste dearbham dearbhamaid dearbhar dearbhta dearbhtadh dearbhtar dearbhte deirbh dhearbh dhearbhadh dhearbhaidh dhearbhaidhean dhearbhainn dhearbhaist dhearbhaiste dhearbhamaid dhearbhas dhearbhtadh dhearbhte dheirbh
+40	340	eisimpleir	eisimpleira eisimpleiraibh eisimpleirean h-eisimpleir h-eisimpleiraibh t-eisimpleir
+41	341	cadal	cadail chadal
+42	342	mun	
+43	343	triùir	thriùir triuir triùirean
+44	344	dreuchd	dhreuchd dhreuchdan dreuchdan
+45	345	film	fhilm fhilmean fhilmichean filmean filmichean
+46	346	feuch	dh'fheuch dh'fheuchadh dh'fheuchaist dh'fheuchaiste dh'fheuchamaid dh'fheuchas dh'fheuchtadh feuchadh feuchaibh feuchaidh feuchainn feuchaist feuchaiste feucham feuchamaid feuchar feuchtadh feuchtar feuchte fheuch fheuchadh fheuchainn
+47	347	dùil	dhùil duil dùile dùilean dùiltean dùl
+48	348	mus	
+49	349	làidir	laidir laidire làidire
+50	350	a-raoir	an-raoir an-reidhir an-roir raidhir rair raoir reidhir reir
+51	351	timcheall	thimcheall
+52	352	bonn	bhonn bhuinn bonnan buinn
+53	353	a-staigh	
+54	354	ceann-suidhe	cheann-suidhe cinn-suidhe
+55	355	fìor	fhìor fior fìora
+56	356	seach	sheach
+57	357	riaghaltas	riaghaltais riaghaltasan
+58	358	feachd	feachdan fheachd fheachdan
+59	359	saor	saoir saoire saora saoradh saoraidh saorte shaoir shaoire shaor shaora shaoradh shaoras
+60	360	eun	eoin eòin h-eun t-eun
+61	361	còrdadh	chòrdadh chòrdaidh chòrdaidhean cordadh còrdaidh còrdaidhean
+62	362	ruith	ruithe ruitheadh ruithean ruitheas ruithidh ruithte
+63	363	bàs	bhas bhàis bhàs bàis bàsan
+64	364	toiseach	thoiseach toisichean
+65	365	madainn	maidne maidneadh maidnean mhadainn mhaidnean
+66	366	dealbh	dealbha dealbhadh dealbhaidh dealbhaidhean dealbhan dealbhannan dealbhar dealbhta deilbh dhealbh dhealbhadh dhealbhaidh dhealbhan dhealbhas
+67	367	measg	measgadh measgaidh measgte mheasg mheasgadh
+68	368	leithid	leithide leithidean
+69	369	mòr-chuid	mhòr-chuid mòr-chodach mòr-chodaichean
+70	370	a-muigh	
+71	371	sruth	shruith shruth shruthadh shruthainn shruthaist shruthaiste shruthamaid shruthan shruthas shruthtadh sruith srutha sruthadh sruthaibh sruthaidh sruthain sruthainn sruthaist sruthaiste srutham sruthamaid sruthan sruthar sruthtadh sruthtar sruthte t-sruith t-sruth t-srutha
+72	372	fichead	fhichead fhicheadan ficheadan
+73	373	eagal	eagail eagalan feagail feagal t-eagal
+74	374	cumanta	chumanta
+75	375	car	
+76	376	meud	meudan mheud mheudan
+77	377	bràthair	bhràithrean bhràithribh bhràthair bhràthar bràithrean bràithribh bràthar
+78	378	bainne	bhainne
+79	379	pìos	phìos phìosan pios piosan pìosa pìosan
+80	380	tuilleadh	thuilleadh
+81	381	leann	leanna leanntaidhean leanntan
+82	382	duilich	dhorra dhuilich dorra duilghe
+83	383	coimhead	choimhead choimheadamaid choimheadar choimheadas choimhid coimhdidh coimheadaidh coimheadte coimhid
+84	384	buin	bhuin bhuineadh bhuineas bhuntainn buineadh buinidh buinte buntainn
+85	385	seachd	sheachd
+86	386	eachdraidh	dh'eachdraidh eachdraidhe eachdraidhean h-eachdraidh t-eachdraidh
+87	387	dath	datha dathadh dathan dhath dhathadh dhathan
+88	388	cuin	cuine
+89	389	ròn	ron ròin
+90	390	sgeul	sgeula sgeulan sgeòil
+91	391	siubhal	shiubhail shiubhal shiubhladh shiubhlas siubhail siubhlaidh siùbhlaichean t-siubhail
+92	392	tràth	thrath thràith thràithe thràth thràtha trath tratha tràith tràithe tràtha tràthan
+93	393	sàs	sas shàs sàsadh sàsaidh sàsta
+94	394	diofar	dhiofair dhiofar dhiofaran diofair diofaran
+95	395	falamh	fhalamh
+96	396	buidheann	bhuidheann bhuidheannan bhuidhinn buidheannan buidhinn
+97	397	èisteachd	èisdeachd èisteachdan éisdeachd éisteachd
+98	398	taigh-òsta	taigh-òsda taighe-òsta taighean-òsta thaigh-òsta
+99	399	muin	mhuineadh mhuineamaid mhuininn mhuinist mhuiniste mhuinteadh muineadh muineam muineamaid muinibh muinidh muininn muinist muiniste muinte muinteadh
+100	400	cuidhteas	

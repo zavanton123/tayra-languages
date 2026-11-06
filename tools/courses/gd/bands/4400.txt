@@ -1,0 +1,100 @@
+1	4301	cunntachail	
+2	4302	ceithir-deug	
+3	4303	brabhsaich	bhrabhsadh brabhsadh
+4	4304	iomlanachd	
+5	4305	coimeasgaich	coimeasgachadh
+6	4306	eaconamas	
+7	4307	mòralachd	
+8	4308	cogaiseach	
+9	4309	bùth-leabhraichean	bùtha-leabhraichean bùthan-leabhraichean
+10	4310	magnaiteachd	
+11	4311	boireanta	
+12	4312	corrach	
+13	4313	cabadaich	cabadaiche cabadaichean
+14	4314	faclaireachd	faclaireachdan
+15	4315	aiteachas	aiteachais
+16	4316	fogharadh	fhogharaidh
+17	4317	innealta	inealta
+18	4318	tiorm	tiorma
+19	4319	aineolach	
+20	4320	gàirnealair	ghàirnealair gàirnealairean gàirneilear
+21	4321	leth-bhliadhna	leth-bhliadhnachan
+22	4322	cleachte	
+23	4323	rùnaich	rùnaichte
+24	4324	coitcheanta	
+25	4325	copan	copain
+26	4326	eu-dòchas	
+27	4327	nàireach	nàirich
+28	4328	sgàineadh	sgàinidhean
+29	4329	co-cheòl	
+30	4330	uisgeach	
+31	4331	leannanachd	
+32	4332	drùiseil	
+33	4333	fear-cèile	
+34	4334	compàirt	
+35	4335	duille	duillean
+36	4336	lùbach	lùbaich lùbaiche lùbaichean
+37	4337	binneas	
+38	4338	beachdail	
+39	4339	cairt-iùil	cairtean-iùil
+40	4340	eagarach	eagaraich eagaraiche
+41	4341	mì-earbsach	
+42	4342	bagradh	bagraidh bagraidhean
+43	4343	truas	truais
+44	4344	fàisg	
+45	4345	margaidheachd	
+46	4346	sgeig	
+47	4347	gainne	
+48	4348	dìonach	
+49	4349	òigheachd	h-òigheachd
+50	4350	ath-bhualadh	
+51	4351	ainm-baistidh	ainme-baistidh ainmean-baistidh
+52	4352	liut	
+53	4353	ioma-chànanach	ioma-chànanaich
+54	4354	grèis	
+55	4355	connsachail	
+56	4356	clisg-phuing	clisg-phuinge clisg-phuingean
+57	4357	cangaru	cangaruthaibh cangaruthan changaruthan
+58	4358	aitheamh	
+59	4359	aotroman	aotraman aotromain
+60	4360	casgairt	casgairte
+61	4361	gealbhan	gealbhain gealbhanan
+62	4362	bannas	bannais
+63	4363	èiseil	
+64	4364	hama	
+65	4365	adhbrann	adhbrainn adhbrainnan adhbrainnean adhbran adhrbann
+66	4366	eacarsaich	eacarsaiche eacarsaichean
+67	4367	meantor	mheantor
+68	4368	cudeigin	
+69	4369	beart-chlò	beairt-clò beartan-clò
+70	4370	binid	
+71	4371	uisge-adhair	uisgeachan-adhair
+72	4372	pastra	
+73	4373	tubaisteach	
+74	4374	turtais	
+75	4375	taois	taoise
+76	4376	raon-laighe	raoin-laighe raointean-laighe
+77	4377	cnag-dealain	cnagan-dealain cnaig-dealain
+78	4378	eadar-ghearradh	eadar-ghearraidh
+79	4379	leth-chruinne	leth-chruinnean
+80	4380	masg	masga masgadh masgaidh masgan
+81	4381	ceòthach	ceòthaich
+82	4382	cèol	
+83	4383	seasgair	seascair seasgairean seasgar sheascair t-seascair
+84	4384	leam-leat	
+85	4385	rèite	rèitean
+86	4386	seachd-deug	
+87	4387	tùrail	
+88	4388	tàirneanach	tàirneanaich
+89	4389	aosmhòr	
+90	4390	fallaineachd	
+91	4391	saorsainneachd	
+92	4392	craic	
+93	4393	deireadh-seachdain	deiridh-seachdain deiridhean-seachdain
+94	4394	luathas	
+95	4395	iomlaidich	iomlaideachadh
+96	4396	cusbann	cusbainn
+97	4397	gàirdeachas	gàirdeachais
+98	4398	daingneachd	
+99	4399	tonna	
+100	4400	foileag	foileagan foileige

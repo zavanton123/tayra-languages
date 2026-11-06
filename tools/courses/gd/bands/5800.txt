@@ -1,0 +1,100 @@
+1	5701	eabarach	
+2	5702	cromatach	
+3	5703	anaileach	
+4	5704	ath-bheothaich	ath-bheothaichidh ath-bheothaichte ath-bheòthaich
+5	5705	baraton	baratoin
+6	5706	ath-rèiteachadh	
+7	5707	canon	canonan
+8	5708	siucar	siucair
+9	5709	ionnlaid	ionnlaidean ionnlaididh ionnlaidte
+10	5710	coinean	choineanan choinein coineanaibh coineanan
+11	5711	cuilbheartach	
+12	5712	molldair	molldairean
+13	5713	mì-thaitneach	
+14	5714	spiris	spirise spirisean
+15	5715	clach-mhìle	chlach-mhìle clachan-mìle cloiche-mìle
+16	5716	casadaich	casadaiche casadaichean
+17	5717	olach	
+18	5718	amhsan	
+19	5719	oibreachadh	dh'oibreachadh oibreachaidh oibreachaidhean
+20	5720	oirthireach	
+21	5721	treabhaiche	
+22	5722	brailis	brailise brailisean
+23	5723	baoghal	baoghail
+24	5724	puncair	puncairean
+25	5725	misgear	mhisgearan
+26	5726	staitistigeil	
+27	5727	neach-tàrrsainn	
+28	5728	barrag	barraig
+29	5729	clisgeadh	clisgidhean
+30	5730	beothalachd	bheothalachd
+31	5731	rùchd	
+32	5732	tarraingeachd	
+33	5733	somalta	
+34	5734	dubhachas	dubhachais
+35	5735	neo-dhìolta	
+36	5736	beul-binn	beòil-binne
+37	5737	rùrach	
+38	5738	neo-dhèan	neo-dhèanamh neo-dhèanta neo-nì neo-rinn
+39	5739	culaidh	culaidhe culaidhean
+40	5740	inneach	
+41	5741	cruitchorda	
+42	5742	leantaileach	
+43	5743	ath-sgrìobh	ath-sgrìobhte
+44	5744	mì-mhaiseil	
+45	5745	taosgair	
+46	5746	lùthaig	lùthaigeadh
+47	5747	laochail	
+48	5748	ruiteach	
+49	5749	claoidheadh	chlaoidheadh
+50	5750	bogha-saighde	bhogha-saighde
+51	5751	eud	t-eud
+52	5752	cumantach	cumantaich
+53	5753	cluintinn	
+54	5754	fàilig	fàiligidh
+55	5755	cothaich	cothachadh
+56	5756	cobharach	
+57	5757	geamnaidh	geamnuidh geanmnaidh geimnidh
+58	5758	neo-iochdmhor	
+59	5759	sochraich	sochrachadh
+60	5760	mì-bheusachd	
+61	5761	fuaigheil	fhuaigheil fuaigheilte fuaighlidh
+62	5762	sliasaid	sliasaide sliasaidean slèiste slèistean
+63	5763	beusachd	bheusachd
+64	5764	tarsannan	
+65	5765	conail	
+66	5766	silteach	
+67	5767	cuinnean	cuinneanan cuinnein
+68	5768	lochd	lochda
+69	5769	cionta	ciontan
+70	5770	geobag	geobagan geobaige
+71	5771	sgannan	
+72	5772	glugan	glugain gluganan
+73	5773	suirgheach	suirghich
+74	5774	seòrs	
+75	5775	alladh	
+76	5776	mì-dhòigheil	mì-dhoigheil
+77	5777	suainealachadh	
+78	5778	ban-solaraiche	
+79	5779	toillteach	
+80	5780	deacair	
+81	5781	meataich	mheatachadh
+82	5782	measraich	measraichte
+83	5783	caithreamach	
+84	5784	mì-bhuidheachas	
+85	5785	breithnich	breithnichidh breithnichte
+86	5786	ath-dhùisg	ath-dhùisgidh ath-dhùisgte ath-dhùsgadh
+87	5787	bean-teagaisg	mnathan-teagaisg mnà-teagaisg
+88	5788	dealbhte	
+89	5789	gille-gnothaich	gille-ghnothaich gillean-gnothaich
+90	5790	gaoid	gaoide gaoidean
+91	5791	easbaloid	
+92	5792	ath-bhuidhinn	ath-bhuidhinnte ath-bhuidhnidh
+93	5793	carbh	cairbh
+94	5794	pìosail	phìosail
+95	5795	leamhaich	leamhaicheadh
+96	5796	doineannach	
+97	5797	sgamhach	
+98	5798	oscarach	
+99	5799	cùmhachdach	
+100	5800	coron	

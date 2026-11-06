@@ -1,0 +1,100 @@
+1	1	an	'n a' a's am d'an nam nan
+2	2	bi	bh' bha bhatar bhathar bhathas bheil bhi bhiodh bhiomaid bhios bhite bhiteadh bhith bhitheadh bhithear bhitheas bhithinn bhithist bhithiste bhà bidh biodh biomaid bitear bith bitheadh bitheam bitheamaid bithear bitheas bithibh bithidh bithinn chan eil eilear eileas robh robhas th' tha thatar thathar thathas thà
+3	3	a	
+4	4	ann	'na 'nad 'nam 'nan 'nar 'nur annad annaibh annainn annam annamsa annsan annta anntasan b'ann h-ann innte nad nar nur
+5	5	e	b'e b'esan esan h-e h-esan
+6	6	air	airsan oirbh oirnn oirnne oirre oirrese orm ormsa orra orrasan ort
+7	7	is	's b' bhitheamaid bu
+8	8	na	
+9	9	agus	
+10	10	aig	aca acasan agad agadsa agaibh agaibhse againn againne agam agamsa aice aicese aige aigesan
+11	11	do	d' dha dhaibh dhaibhsan dhan dhi dho dhomh dhomhsa dhuibh dhuibhse dhuinn dhuinne dhut dhàsan dhòmhsa don
+12	12	mi	mhi mise
+13	13	anns	'sa 'san 'sna sa san sna
+14	14	le	leam leamsa leat leatha leathase leatsa led leibh leinn leis leis-san lem len leotha ler lur
+15	15	cha	chan chha
+16	16	gu	chon chugainn chun thuca thugad thugaibh thugainn thugam thuice thuige
+17	17	rach	chaidh chaidheas d'rachar d'reigheamaid d'reighinn d'reighte deach deachaidh deachas deigheadh deighinn deighist deighiste dheigheadh dheighinn dheighist dheighiste dhol dol rachadh rachaibh rachainn racham rachamaid rachar rachte reigheamaid reighinn reighte theirigeadh theirigeam theirigeamaid theirigibh thèid thèidear tèid tèidear
+18	18	ri	ribh rinne ris ris-san rithe rium riumsa riut riutha riuthasan ruinn
+19	19	thu	thusa tu tusa
+20	20	ag	'ga 'gad 'gam 'gan 'gar 'gur a' agadh agaig agidh ga gad gam gan gar ghad
+21	21	sin	shin shineach sineach
+22	22	seo	sheo
+23	23	i	b'i h-i ise
+24	24	iad	b'iad b'iadsan h-iad iadsan
+25	25	de	dhen dheth dhibh dhinn dhith dhiubh dhiubhsan dhìom dhìot
+26	26	gun	gum
+27	27	math	fearr feàrr fhearr fheàrr maith maithe matha mathadh mathaidh mathte mhaith mhath mhathadh
+28	28	à	aiste aistean aistidhean asad asaibh asainn asam asta astasan d'a dh'a h-aiste m'a t-aiste às às-san
+29	29	dè	dhe dé n-dè
+30	30	mar	man
+31	31	mo	m'
+32	32	duine	daoin daoine dhaoine dhuine
+33	33	nach	
+34	34	bho	bhho bhuaibh bhuainn bhuaipe bhuaithe bhuam bhuamsa bhuapa bhuat o
+35	35	baile	bailtean bhaile bhailtean
+36	36	ach	
+37	37	airson	
+38	38	mòr	mhor mhotha mhò mhòir mhòr mhòra mhòtha mor mora motha mò mòir mòire mòra mòtha mór
+39	39	cuir	chuir chuireadh chuireamaid chuirear chuireas chuirinn chuirist chuiriste chuirteadh cuireadh cuiream cuireamaid cuirear cuiribh cuiridh cuiridhean cuirinn cuirist cuiriste cuirte cuirteadh cuirtear
+40	40	as	
+41	41	no	neo nà
+42	42	dèan	d'rinn deanta dhèanadh dhèanainn dhèanaist dhèanaiste dhèanamaid dhèante dhèanteadh dèanadh dèanaibh dèanainn dèanaist dèanaiste dèanam dèanamaid dèanar dèanta dèante dèanteadh nithear rinn rinneadh
+43	43	faic	chitheadh chitheamaid chithear chitheas chithinn chithist chithiste chunna chunnacadh chunnacas chunnaic chì chìte chìteadh chìtheadh chìtheamaid chìthear chìthinn faca facadh facas faice faiceadh faiceam faiceamaid faicean faicear faicibh faicinn faicist faiciste faicte faicteadh faictear fhaca fhaic fhaiceadh fhaicear fhaicinn
+44	44	gabh	gabhadh gabhaibh gabhaidh gabhail gabhainn gabhaist gabhaiste gabham gabhamaid gabhar gabhtadh gabhtar gabhte ghabh ghabhadh ghabhail ghabhainn ghabhaist ghabhaiste ghabhar ghabhas ghabhtadh
+45	45	sinn	sinne
+46	46	ainm	ainme ainmean ainmeannan ainmibh b'ainm d'ainm dh'ainm h-ainm h-ainmean h-ainmibh t-ainm
+47	47	mu	uime uimpe umad umaibh umainn umam umamsa umpa
+48	48	latha	laithean lath lathaichean làithean
+49	49	bliadhna	bhliadhna bhliadhnachan bhliadhnaichean bliadhnachan bliadhnaichean
+50	50	faigh	d'fhuair dh'fhaigh faigheadh faigheam faigheamaid faighear faighibh faighinn faighist faighiste faighte faighteadh faightear faotainn fhaigh fhaigheadh fhaighear fhaighinn fhaighte fhaotainn fhuair fhuaradh fhuaras gheibh gheibheadh gheibheamaid gheibhear gheibhinn gheibhist gheibhiste gheibhte gheibhteadh gheibhtear
+51	51	obair	dh'obair h-obair h-oibre obrach obraichean oibre t-obair
+52	52	dà	da dhà dhá dá
+53	53	fhèin	fhein fhéin fhìn fèin
+54	54	taigh	taighe taighean taighibh thaigh thaighe thaighean
+55	55	thoir	bheir bheireadh bheireamaid bheirear bheireas bheirinn bheirist bheiriste bheirteadh thoirear thug thugadh toir toireadh tug tugadh tugta tugte
+56	56	beag	beaga bheag bheaga bhig bhige big bige lugha
+57	57	eadar	eadaraibhse eadarainn eadarainne eatarra eatarrasan
+58	58	dùthaich	dhùthaich dhùthcha dhùthchannan duthaich duthcha dùthaichibh dùthcha dùthchadh dùthchanan dùthchannan
+59	59	cho	
+60	60	thig	dàinig thigeadh thigeam thigeamaid thigear thigeas thigibh thiginn thigist thigiste thigte thigteadh thigtear thàine thàinig thàinigeadh thàinigeas thàna tig tigeadh tigeamaid tigear tighean tiginn tigist tigiste tigte tigteadh tigtear tàine tàinig tàinigeadh tàinigeas tàna táinig
+61	61	sibh	sibhse
+62	62	cur	chur
+63	63	dèanamh	deanamh deànamh dheanamh dheànamh dhèanamh dèanaimh
+64	64	an-diugh	
+65	65	taobh	taobhadh taobhaibh taobhaidh taobhan taobhte taoibh thaobh thaobhan thaoibh
+66	66	cò	co có
+67	67	eile	
+68	68	nuair	
+69	69	aon	aoin dh'aon h-aon n-aon t-aon
+70	70	glè	gle glé
+71	71	feum	dh'fheum dh'fheumadh dh'fheumas feuma feumadh feumaidh feumainn feuman feumar fheum fheumadh fheumainn fheumar fèim
+72	72	falbh	dh'fhalbh falbhadh falbhaidh falbhte fhalbh
+73	73	fuirich	dh'fhuirich dh'fuirich fhuireach fhuirich fhuiricheadh fuireach fuiricheadh fuirichidh fuirichte fuiridh
+74	74	dèidh	deidh dheidh dhèidh dèidhe dèidhean déidh
+75	75	fear	fearaibh fhear fheara fhearaibh fhir fhìr fir fìr
+76	76	leabhar	leabhair leabharaichean leabharan leabhraichean leabhraichibh
+77	77	cuideachd	chuideachd cuideachdan
+78	78	cionn	chionn
+79	79	bruidhinn	bhruidhinn bhruidhinneadh bhruidhinneas bhruidhneadh bhruidhnear bhruidhneas bruidhinneadh bruidhinnidh bruidhne bruidhnear bruidhnibh bruidhnidh bruidhninn bruidhnte
+80	80	suidhich	shuidhich shuidhicheadh shuidhicheamaid shuidhichear shuidhicheas shuidhichinn shuidhichist shuidhichiste shuidhichte shuidhichteadh suidhicheadh suidhicheam suidhicheamaid suidhichear suidhichibh suidhichidh suidhichinn suidhichist suidhichiste suidhichte suidhichteadh suidhichtear
+81	81	fo	fodha fodhad fodhaibh fodhainn fodham fodhpa foidhpe fon fòdhpa fòdhpasan
+82	82	uisge	dh'uisge h-uisge h-uisgeachan h-uisgibh t-uisge uisgeachan uisgibh
+83	83	ceann	ceannaibh cheann cheanna cheannaibh chinn chinntinn cinn cinntinn
+84	84	bhon	on
+85	85	nas	
+86	86	far	
+87	87	fios	dh'fhios fhios fiosa fiosan
+88	88	trì	thrì tri
+89	89	gur	
+90	90	eilean	dh'eilean eileanaibh eileanan eilein h-eilean h-eileanaibh h-eileanan t-eilean
+91	91	toil	thoil thoile toile toilean
+92	92	cuid	chodaiche chuid codach codaichean cuidean
+93	93	uile	h-uile
+94	94	uair	n-uair uairean uairibh uarach
+95	95	urrainn	b'urrainn
+96	96	an-dè	an-dé
+97	97	abair	abaiream abairear abairinn abairist abairiste abairte abairteadh abradh abraibh abrainn abram abramaid abrar canaibh canainn canaist canaiste canam canamaid cante canteadh chanainn chanaist chanaiste chanamaid chante chanteadh dh'abair duirt habair ràite ràitinn thabair their theireadh theireamaid theirear theirinn theirist theiriste theirte theirteadh thubhairt thubhairteadh thuirt thuirteadh tubhairt tubhairteadh tuirt tuirteadh
+98	98	ciad	chiad ciadan
+99	99	sgrìobh	sgriobh sgriobhadh sgriobhaidhean sgriobhta sgriobhte sgrìobhadh sgrìobhaibh sgrìobhaidh sgrìobhaidhean sgrìobhainn sgrìobhainne sgrìobhainnean sgrìobhaist sgrìobhaiste sgrìobham sgrìobhamaid sgrìobhar sgrìobhas sgrìobhta sgrìobhtadh sgrìobhtar sgrìobhte
+100	100	faisg	faisge fhaisg fhaisge

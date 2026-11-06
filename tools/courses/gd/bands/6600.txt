@@ -1,0 +1,100 @@
+1	6501	ceumnachd	cheumnachd
+2	6502	cumadair	cumadairean
+3	6503	aineol	aineoil
+4	6504	tanachadh	thanachadh
+5	6505	taigh-gluasaid	taighe-gluasaid taighean-gluasaid
+6	6506	tostach	
+7	6507	gàirneid	
+8	6508	costag	costagan
+9	6509	smùirneanach	smùirneanaich
+10	6510	caraiche	caraichean
+11	6511	ròist	
+12	6512	liath-ghorm	
+13	6513	fògair	fògairidh fògairt fògairte
+14	6514	teas-mheidh	
+15	6515	anod	anodan
+16	6516	mealg	meilg meilge
+17	6517	seasamain	
+18	6518	magnait	magnaitean
+19	6519	searbhagach	shearbhagach
+20	6520	fagas	
+21	6521	treidhe	treidhean
+22	6522	fliodh	
+23	6523	eadar-dhuilleagaich	eadar-dhuilleagachadh eadar-dhuilleagaichidh eadar-dhuilleagaichte
+24	6524	stèidhealachd	
+25	6525	aipeandaig	aipeandaigean
+26	6526	bleideag	bhleideagan bleideaga bleideagaibh bleideagan bleideig bleideige
+27	6527	cianalach	
+28	6528	compàirteachas	
+29	6529	stairsneach	stairseach stairsnich stairsnichean
+30	6530	binneag	bhinneag binneagan binneige
+31	6531	dròbhaireachd	
+32	6532	fuil-mhìos	fuil-mìosa
+33	6533	fannachadh	fannachaidh fannachaidhean
+34	6534	sgòideil	sgòideile
+35	6535	crùb	chrùbadh chrùbainn chrùbaist chrùbaiste chrùbamaid chrùbtadh crubannan crùba crùbadh crùbaibh crùbaidh crùbainn crùbaist crùbaiste crùbam crùbamaid crùbar crùbta crùbtadh crùbtar crùbte crùibe crùibean
+36	6536	banntrachas	bhanntrachas
+37	6537	leabhar-làimhe	leabhair-làimhe leabhraichean-làimhe
+38	6538	bom	bhom
+39	6539	meirbheach	mheirbheach
+40	6540	furtachd	
+41	6541	beithir	beathrach beathraichean beithrichean
+42	6542	achmhasan	achmhasain
+43	6543	gon	gonaidh gonte
+44	6544	muillear	mhuillear
+45	6545	uireasbhaidh	uireasbhaidhean
+46	6546	mì-earbsa	
+47	6547	eun-eòlas	eun-eòlais
+48	6548	cianail	chianail
+49	6549	imcheist	imcheiste imcheistean
+50	6550	fo-cheumnaiche	fho-cheumnaiche
+51	6551	clabhstair	chlabhstair
+52	6552	cosnaiche	chosnaiche cosnaichean
+53	6553	agud	
+54	6554	banarach	banaraich banaraichean bhanarach
+55	6555	taigh-aoigheachd	
+56	6556	rianadair	rianadairean rianadairibh
+57	6557	maerl	mhaerl
+58	6558	fèath	fèatha fèathan
+59	6559	leas-phiuthar	leas-pheathar leas-pheathraichean
+60	6560	leas-bhràthair	leas-bràithrean leas-bràthar
+61	6561	beag-sgèile	
+62	6562	actadh	
+63	6563	ùrar	
+64	6564	gibeach	
+65	6565	leibideach	
+66	6566	morghan	
+67	6567	cnuimheag	cnuimheaga cnuimheagaibh cnuimheagan cnuimheig cnuimheige cnuimhneag cruimheag cruimhneag
+68	6568	dealradh	
+69	6569	co-fhad-thràth	
+70	6570	dèabh	
+71	6571	corail	
+72	6572	mì-naomha	
+73	6573	taigh-ghlainne	
+74	6574	dèabhadh	deubhadh dèabhaidh
+75	6575	strainnsear	strainnsearan
+76	6576	institiùd	institiùdan
+77	6577	cumannta	
+78	6578	sòr	shòr sòrte
+79	6579	airc	airce aircean
+80	6580	dà-fhillteachd	dà-fhillteachdan
+81	6581	amaitearach	
+82	6582	builgeanach	bhuilgeanach
+83	6583	iolair-bhàn	iolaire-bàine iolairean-bàna
+84	6584	iolair-chladaich	iolaire-cladaiche iolairean-cladaich
+85	6585	creathall	creathlach creathlaichean creithle creithlean
+86	6586	seatadh	sheatadh
+87	6587	lus-itheadair	lus-itheadairean
+88	6588	pulsar	phulsaran
+89	6589	bagaid	
+90	6590	fìreantachd	fhìreantachd
+91	6591	suthain	
+92	6592	pobull	phobull
+93	6593	uile-chumhachdach	uile-chumhachdaich
+94	6594	socruich	socruchadh
+95	6595	ionnsuidh	
+96	6596	toillteanas	toillteanais
+97	6597	còmhnuidh	
+98	6598	faillich	faillichte
+99	6599	sprochd	
+100	6600	uchd-mhacaich	uchd-mhacachadh uchd-mhacaichidh uchd-mhacaichte

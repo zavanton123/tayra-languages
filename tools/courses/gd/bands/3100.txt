@@ -1,0 +1,100 @@
+1	3001	làthaireachd	lathaireachd
+2	3002	faothachadh	faothachaidh
+3	3003	astatain	dh'astatain
+4	3004	prìomhachas	phrìomhachas prìomhachasan
+5	3005	gèama	ghèama
+6	3006	athchuinge	athchuingean
+7	3007	magnaiteach	magnaitich mhagnaiteach
+8	3008	ciste-laighe	chiste-laighe cisteachan-laighe
+9	3009	dòrainneach	dhòrainneach
+10	3010	cridheil	chridheil
+11	3011	cùmhachd	chùmhachd
+12	3012	daoimean	daoimeanan
+13	3013	cainb	cainbe chainb chainbe
+14	3014	dìolain	dhìolain dìolaine
+15	3015	tais	taise
+16	3016	cailleach-dhubh	cailleachan-dubha cailliche-duibhe
+17	3017	deisciobal	deisbigil deisciobail deisgiobal dheisciobal
+18	3018	briod	bhriod briodadh
+19	3019	dìonadair	dhìonadair dìonadairean
+20	3020	brùideil	bhrùideil bhrùideile bruideil
+21	3021	aonaranach	aonaranaich aonranach
+22	3022	cuingich	chuingich chuingichte cuingeachadh cuingichte
+23	3023	baidhseagal	baidhseagail
+24	3024	murtair	mortair mortairean murtairean
+25	3025	sgìtheadh	sgìthidh
+26	3026	mionnaich	mhionnaich mionnachadh mionnaicheadh
+27	3027	co-fharpaiseach	cho-fharpaiseach co-fharpaisich
+28	3028	gràineil	ghraineil ghràineil gràineile
+29	3029	taom	taomadh taomaidh thaomadh
+30	3030	dràmadach	dhràmadach dhràmadaiche dràmadaiche
+31	3031	tiughad	thiughad thiughadan thiughaid
+32	3032	plannt	phlannt phlannta phlanntaichean planntaichean
+33	3033	bhidio	bhidiothan
+34	3034	coll	choill coill
+35	3035	damh	damhan
+36	3036	marbhrann	marbhrainn
+37	3037	todhar	thodhar todhair
+38	3038	seile	seilean sile
+39	3039	gèadh	geadh geòidh gheòidh ghèadh ghèadha ghèadhaibh gèadhaibh
+40	3040	baintighearna	bainthighearnan baintighearnaibh baintighearnan ban-tighearna bhaintighearna bhaintighearnan
+41	3041	clogaid	chlogaid clogaide clogaidean
+42	3042	trèig	thrèig thrèigsinn trèigeadh trèigidh trèigsinn tréig
+43	3043	glòrmhor	ghlòrmhoir ghlòrmhor glòrmhoir
+44	3044	faire	fairean
+45	3045	leantach	
+46	3046	triall	thriall thrialladh thriallainn thriallaist thriallaiste thriallamaid thrialltadh trialladh triallaibh triallaidh triallainn triallaist triallaiste triallam triallamaid triallan triallar triallta trialltadh trialltar
+47	3047	barra	
+48	3048	fuath	fuatha fuathan
+49	3049	sràc	sràcadh sràcaidh sràcan sràcte
+50	3050	aingeal	aingil ainglean ainglibh h-aingeal
+51	3051	siorram	shiorram siorraim siorraman t-siorram
+52	3052	ionmhasair	ionmhasairean
+53	3053	marcachd	marchachd mharcachd mharchachd
+54	3054	pàganachd	phàganachd pàganachdan pàgantachd
+55	3055	suimeadh	shuimeadh suimidh
+56	3056	cur-seachad	cur-seachadan
+57	3057	marcaich	mharcaich
+58	3058	cearban	cairbean cairbhean carban cearbain cearbanan
+59	3059	caisg	caisgeadh caisgeam caisgeamaid caisgear caisgibh caisgidh caisginn caisgist caisgiste caisgte caisgteadh caisgtear casgadh chaisg chaisgeadh chaisgeamaid chaisginn chaisgist chaisgiste chaisgteadh chasgadh
+60	3060	teachdail	
+61	3061	capall-coille	capaill-choille
+62	3062	feusgan	fheusgan
+63	3063	òrd	ord t-òrd ùird
+64	3064	blian	bliain blianadh
+65	3065	smàil	smàilidh smàilte smàl smàladh smàlaidh
+66	3066	struth	strutha
+67	3067	eòlas-inntinn	
+68	3068	func	
+69	3069	criomagan	
+70	3070	staoin	
+71	3071	tuinneachadh	
+72	3072	sìobhaltas	sìobhaltasan
+73	3073	bior	bhior bhioran biora
+74	3074	cridh	chridh
+75	3075	caibeal	chaibeal
+76	3076	tàth	thàth thàthadh thàthaidh tàthadh tàthaidh
+77	3077	sùlaire	sùlairean t-sùlaire
+78	3078	leasachair	leasachairean leasaiche leasaichean
+79	3079	ceòlmhor	ceòlmhoire cheòlmhor
+80	3080	ro-leasachan	ro-leasachain
+81	3081	meur-chlàr	meur-chlàir meur-chlàran mheur-chlàr
+82	3082	tuathach	thuathach thuathaich tuathaiche
+83	3083	coisiche	choisichean coisichean
+84	3084	eighe	eigheachan h-eighe
+85	3085	uachdarach	uachdaraiche
+86	3086	beartaich	beartachadh beartaichidh beartaichte bheartaich
+87	3087	beannachd	beannachdan bheannachd
+88	3088	ciallach	chiallach chiallaich ciallaichidh
+89	3089	domhainnead	
+90	3090	seanail	seanailean
+91	3091	fèin-aithne	fhèin-aithne fèin-aithnean
+92	3092	sgòrnan	sgòrnain sgòrnanan
+93	3093	fearrann	fearrainn fhearrann
+94	3094	neach-ionaid	luchd-ionaid
+95	3095	cùisear	chùisear cùisearan cùiseir
+96	3096	fèileadh	eibhleadh feabhladh fhèilidh fèilidh fèilidhean féileadh èileadh éileadh
+97	3097	eilthireach	eilthirich
+98	3098	ath-ainmich	ath-ainmeachadh ath-ainmichidh ath-ainmichte dh'ath-ainmich
+99	3099	buidseach	bhuidseach buidseachan buidsich buidsichean buitseach
+100	3100	fuaraich	fhuarachadh fuarachadh fuaraichidh fuaraichte

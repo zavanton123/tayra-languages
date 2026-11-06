@@ -1,0 +1,100 @@
+1	1901	seat	sheat
+2	1902	co-dhàimh	co-dhàimhean
+3	1903	paidhir	paidhrichean phaidhir
+4	1904	daingnich	daingnichidh daingnichte dhaingnich dhaingnicheadh
+5	1905	reusan	reusain
+6	1906	mothaich	mhothaich mhothaicheadh mhothaicheamaid mhothaicheas mhothaichinn mhothaichist mhothaichiste mhothaichteadh mothaicheadh mothaicheam mothaicheamaid mothaichear mothaichibh mothaichidh mothaichinn mothaichist mothaichiste mothaichte mothaichteadh mothaichtear
+7	1907	suidhe	suidhean t-suidhe
+8	1908	bròn	bhròin bhròn bron bròin brònan
+9	1909	tìodhlaiceadh	thiodhlacadh thìodhlac thìodhlaiceadh tiodhlacadh tiodhlachadh tiodhlaiceadh tìodhlac tìodhlaicidh tìodhlaicidhean
+10	1910	aba	ab abachaibh abachan h-abachaibh t-aba
+11	1911	mion-chànan	mhion-chànan mion-chànain mion-chànanan
+12	1912	boglach	bhoglach bhoglaich bhoglaichean boglaich boglaiche boglaichean
+13	1913	feòlmhor	feòlmhoir feòlmhoire feòlmhora fheòlmhoir fheòlmhor
+14	1914	stoc	stuic
+15	1915	rus	ruis
+16	1916	fraoch	fhraoch fhraoich fraoich
+17	1917	seachdnar	seachdnair seachdnaran
+18	1918	lùths	luths lùiths
+19	1919	ìobairteach	h-ìobairteach ìobairtich
+20	1920	a-nuas	
+21	1921	lèirsinn	léirsinn
+22	1922	cumhang	chumhaing chumhang cumhaing cumhainge cumhangan
+23	1923	breug	bhreug bhreugan breugaidh breugan brèige
+24	1924	feannag	feannagan feannaige fheannag fheannagan fheannaig
+25	1925	sìor	
+26	1926	tuairisgeul	tuairisgeil tuairisgeulan
+27	1927	uabhas	t-uabhas uabhais uabhasan uamhas
+28	1928	stailc	stailce stailceadh stailcean
+29	1929	iomadaidh	
+30	1930	mothachail	
+31	1931	sgeadachadh	sgeadachaidh sgeadachaidhean
+32	1932	spàs	spàsan
+33	1933	tilgeil	thilgeil tilgeile tilgeilean
+34	1934	leaghadh	leaghaidh
+35	1935	òirleach	òirlich
+36	1936	leasbach	leasbaich
+37	1937	dall	dalla dalladh dallaidh dallta dhall dhalladh
+38	1938	stiall	stiallaibh stiallan
+39	1939	eadar-dhealachadh	eadar-dhealachaidh eadar-dhealachaidhean
+40	1940	còmhdach	chòmhdach chòmhdaicheas comhdach còmhdaich còmhdaichean còmhdaichidh
+41	1941	mil	meala mealan
+42	1942	sgadan	sgadain
+43	1943	stòr	stor stòir stòradh stòraichean stòraidh stòran stòrte
+44	1944	maighstir	maighstirean mhaighstir mhaighstirean
+45	1945	sabhal	sabhalan saibhlean shabhal t-sabhal
+46	1946	bathar-bog	bathair-bhuig bhathar-bog
+47	1947	fitheach	fhitheach fhithich fithich
+48	1948	neach-deasachaidh	luchd-deasachaidh
+49	1949	cothromach	chothromach chothromachadh chothromachaidh comh-thromach cothromachadh cothromachaidh cothromaich cothromaiche
+50	1950	ath-nuadhachail	
+51	1951	luaidh	luadh luadhadh luaidhean luaidhidh luaidhte
+52	1952	eucoireach	eucoirich t-eucoireach
+53	1953	brod	bhruid brodadh brodaidh brodan brodte bruid
+54	1954	giorrachadh	ghiorrachadh ghiorrachaidh giorrachaidh giorrachaidhean giorrachaidhibh
+55	1955	nota	notaichean
+56	1956	buadh	bhuadh bhuadhan buadhan buadhannan
+57	1957	ceannaiche	ceannaichean cheannaiche
+58	1958	sìtheil	shìtheil sìtheile
+59	1959	stoth	stotha
+60	1960	ceann-cinnidh	cheann-cinnidh cinn-chinnidh
+61	1961	dlùths	dhlùths
+62	1962	caoineadh	caoinidh chaoineadh
+63	1963	cileameatair	chileameatair cileameatairean
+64	1964	cràdh	chràdh chràidh cràidh cràidhean
+65	1965	cladhach	chladhach chladhaich cladhachadh cladhaich cladhaichear cladhaichte
+66	1966	umha	dh'umha
+67	1967	feurach	feuraich fheurach
+68	1968	dòigh-beatha	dhòigh-beatha doigh-beatha dòighe-beatha dòighean-beatha
+69	1969	gualan	gualain
+70	1970	roghnaich	raoghnaich roghainnich roghnachadh roghnaichear roghnaichidh roghnaichte roghnuich roighnich
+71	1971	tiormaich	thiormachadh thiormaichte tiormachadh tiormachaidh tiormaichte
+72	1972	banntrach	baintreach banntraich banntraichean bantrach bhanntrach bhanntraich bhantrach
+73	1973	cudrom	chudrom chudroman chudthrom cudroim cudroman cudthrom
+74	1974	morair	mhorair mhorairean morairean
+75	1975	gidheadh	
+76	1976	theab	
+77	1977	balt	baltan built
+78	1978	eagalach	eagalaich eagalaiche
+79	1979	càirdeach	càirdiche
+80	1980	ceumnaich	ceumnaichidh ceumnaichte cheumnaich cheumnaichte
+81	1981	polasaidh	pholasaidhean polasaidhean
+82	1982	rang	rangan rangas reangas rong rongais rongas rung rungas
+83	1983	socraich	shocrachadh shocraich socrachadh socraichidh socraichte
+84	1984	gobhar	ghobhair ghobhar gobhair goibhre goibhrean
+85	1985	ficsean	fhicsean ficseanan ficsein
+86	1986	teampall	teampaill theampall
+87	1987	àrd-eaglais	
+88	1988	sglèat	sglèata sglèatan
+89	1989	sealgair	sealgairean shealgair shealgairean t-sealgair
+90	1990	àrd-thìr	t-àrd-thìr àrd-thir
+91	1991	cliath	chliath cliathadh cliathaidh cliathan cliathte clèithe
+92	1992	rannsachair	rannsachairean
+93	1993	soilleireachadh	shoilleireachadh soillearachaidh soillearachaidhean
+94	1994	càradh	caradh caraidh charadh charaidh chàradh chàraidh càraidh
+95	1995	measgaichte	
+96	1996	dàta	data dhàta
+97	1997	armailteach	
+98	1998	roc	rocan
+99	1999	ionmhasail	ionmhasaile
+100	2000	sgillinn	sgillinne sgillinnean

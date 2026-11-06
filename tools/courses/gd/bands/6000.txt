@@ -1,0 +1,100 @@
+1	5901	iteagach	
+2	5902	allas	allais
+3	5903	alùmanum	alùmanuim
+4	5904	dadam	dadaman
+5	5905	niotrat	
+6	5906	traidhsagal	
+7	5907	boil	bhoil
+8	5908	bainsio	
+9	5909	tiùbar	tiùbaran
+10	5910	lobhte	loithte lothta
+11	5911	balg-buachrach	builg-bhuachrach
+12	5912	cùdainn	
+13	5913	paireafain	
+14	5914	pàipear-gainmhich	
+15	5915	cù-chaorach	coin-chaorach
+16	5916	plàst	
+17	5917	plastar	plastair
+18	5918	bàta-sàbhalaidh	
+19	5919	beannag	
+20	5920	faidh	
+21	5921	beic	
+22	5922	bèile	
+23	5923	seòmar-leughaidh	seòmair-leughaidh seòmraichean-leughaidh sheòmar-leughaidh
+24	5924	beugaileid	
+25	5925	liopa	liopan
+26	5926	bhàsa	
+27	5927	binndeachadh	bhinndeachadh
+28	5928	biolar	
+29	5929	biona	bionaichean
+30	5930	biona-stùir	bionaichean-stùir
+31	5931	piorna	
+32	5932	biorra-crùidein	biorrachan-crùidein
+33	5933	glumag	glumagan glumaig
+34	5934	bodach-sneachda	bodaich-shneachda
+35	5935	bodha	bodhachan
+36	5936	muir-làn	
+37	5937	claistinn	
+38	5938	seileastair	
+39	5939	bogsa-litrichean	bogsaichean-litrichean
+40	5940	propailear	
+41	5941	nèapaigin	
+42	5942	nèibhidh	
+43	5943	sìoman	
+44	5944	cosmhalachd	
+45	5945	frith-fhacal	frith-fhacail frith-fhaclan
+46	5946	urchasg	
+47	5947	macaroni	
+48	5948	puthag	puthagan puthaige
+49	5949	peata-ruadh	
+50	5950	firinneach	fhirinneach
+51	5951	cuas	chuas
+52	5952	iarnaig	iarnaigeadh
+53	5953	dreasair	
+54	5954	seòmar-sgeadachaidh	seòmair-sgeadachaidh seòmraichean-sgeadachaidh
+55	5955	bonnach-uighe	bonnaich-uighe
+56	5956	cumachd	chumachd
+57	5957	sioraf	
+58	5958	deoghal	
+59	5959	leòman	
+60	5960	triubhas	triubhais
+61	5961	sgolap	
+62	5962	griùthach	ghriùthach
+63	5963	ròineag	
+64	5964	siobhag	
+65	5965	buaic	
+66	5966	bucall	
+67	5967	lofa	lofan
+68	5968	buinneach	buineach buinnich
+69	5969	preasarlach	preasarlaich
+70	5970	blobhsa	
+71	5971	prataigeach	prataigiche
+72	5972	mand	mandaidh meannt mhandadh
+73	5973	grian-chrios	
+74	5974	planctan	
+75	5975	greimiche	greimichean
+76	5976	comhairle-riaghlaidh	comhairlean-riaghlaidh
+77	5977	faireachdan	faireachdain
+78	5978	proiseact	proiseactan
+79	5979	lìos	
+80	5980	loinneil	
+81	5981	sluagh-fhlaitheas	
+82	5982	ceannsalach	
+83	5983	taigh-tionnsgain	
+84	5984	cnàmh-droma	
+85	5985	abaichead	abaicheid
+86	5986	ginearalaich	ghinearalachadh
+87	5987	cut	cutadh
+88	5988	sgòrnanach	
+89	5989	rola	
+90	5990	creuchd	
+91	5991	cruas	chruais cruais
+92	5992	dìblidh	
+93	5993	gruaim	ghruaim
+94	5994	aintighearna	aintighearnan
+95	5995	doca	dhoca
+96	5996	preusant	preusaint preusantan prèasant prèasantan
+97	5997	iarrann	
+98	5998	stiorap	
+99	5999	craobh-mheas	chraobh-mheas craobhan-measa craoibhe-meas
+100	6000	grìan	

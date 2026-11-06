@@ -1,0 +1,100 @@
+1	3901	neach-giùlain	luchd-giùlain
+2	3902	brathadair	bhrathadair bhrathadairean brathadairean
+3	3903	mionc	mhionc mioncan
+4	3904	tuam	thuaman tuaman
+5	3905	ceannasach	ceannasaich cheannasach cheannasaich
+6	3906	barrantaich	barantachd barantaich barrantaicheadh barrantaichidh barrantaichte bharantachd bharantaich
+7	3907	neo-làthaireachd	
+8	3908	lista	
+9	3909	bursaraidh	bursaraidhean
+10	3910	eudmhor	eudmhoir eudmhoire eudmhora
+11	3911	naidheachdair	naidheachdairean
+12	3912	soillear	
+13	3913	tàmhach	
+14	3914	òrgan	
+15	3915	ana-ceartas	ana-ceartais ana-ceartasan
+16	3916	caochan	
+17	3917	cruthach	
+18	3918	meallach	
+19	3919	uaigneach	
+20	3920	lomnochd	
+21	3921	fàiltich	fàilteachadh
+22	3922	litireil	
+23	3923	mearachdach	
+24	3924	leus	
+25	3925	sònraich	sònraichidh
+26	3926	àicheadh	àichidh àichidhean
+27	3927	dealbhadaireachd	
+28	3928	bèo	
+29	3929	teirig	teireachdainn teirigidh theirig
+30	3930	ùirsgeulach	
+31	3931	geamnachd	
+32	3932	leas-athair	leas-athar leas-athraichean
+33	3933	sinn-seanair	shinn-seanair
+34	3934	taiseachd	
+35	3935	craicte	
+36	3936	amaideas	amaideasan amaideis
+37	3937	eiridinn	
+38	3938	crèadhadaireachd	
+39	3939	righinn	
+40	3940	coimheatailt	
+41	3941	dearrsach	
+42	3942	bàirneach	bàirnich bàirnichean
+43	3943	lùdag	lùdagan lùdaig
+44	3944	buideal	
+45	3945	glaodhach	
+46	3946	ath-aithris	ath-aithrisidh ath-aithriste
+47	3947	stùr	stùir
+48	3948	stocan	
+49	3949	criadhadaireachd	
+50	3950	òrdail	
+51	3951	clachaireachd	
+52	3952	rompa	
+53	3953	ionad-thaighean	ionadan-thaighean ionaid-thaighean
+54	3954	falmhachadh	fhalmhachadh
+55	3955	co-aonaich	cho-aonaich co-aonaichidh co-aonaichte
+56	3956	dìorrasach	
+57	3957	sàbhailt	
+58	3958	farsainn	
+59	3959	siorcair	
+60	3960	ratreut	
+61	3961	dìreachd	
+62	3962	farainm	
+63	3963	sgainneal	
+64	3964	pronnasg	
+65	3965	leth-bhreith	
+66	3966	blàs	
+67	3967	ionndrainn	ionndrainnean ionndrainnidh ionndrainnte
+68	3968	grùdaireachd	
+69	3969	cuiseag	cuiseagan
+70	3970	practaigeach	
+71	3971	taigh-mòr	
+72	3972	aontadh	
+73	3973	sgaradh-pòsaidh	
+74	3974	leatromachd	
+75	3975	feadaraileachd	
+76	3976	mì-rùn	
+77	3977	urramaich	urramachadh urramaichidh urramaichte
+78	3978	sgillin	
+79	3979	sealgaireachd	
+80	3980	srònach	
+81	3981	giùran	giùrain giùranan
+82	3982	uaislich	uaisleachadh
+83	3983	iom-sheòladh	iom-sheòlaidh iom-sheòlaidhean
+84	3984	às-imrich	às-imriche
+85	3985	surfadh	
+86	3986	carthannach	
+87	3987	spatha	
+88	3988	impis	
+89	3989	teans	
+90	3990	teiripiche	teiripichean
+91	3991	rabaidh	
+92	3992	tiomnaich	thiomnachadh tiomnaichte
+93	3993	poileataiceach	phoileataicich
+94	3994	diombach	dhiombach
+95	3995	measarra	mheasarra
+96	3996	crathadh	crathaidh crathaidhean
+97	3997	lasadair	lasadairean
+98	3998	farsaingeach	fharsaingiche
+99	3999	seòmar-cadail	seòmair-chadail seòmraichean-cadail
+100	4000	adhaltranas	adhaltranais

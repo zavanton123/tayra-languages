@@ -1,0 +1,100 @@
+1	3701	coirbteachd	choirbteachd
+2	3702	subhailc	shubhailcean subhailcean
+3	3703	sgaoth	sgaotha sgaothan
+4	3704	mèirle	meirle mhèirle mèirlean
+5	3705	fo-dhearg	fho-dhearg fo-dheirg
+6	3706	giorraich	ghiorraich giorraichidh giorraichte
+7	3707	treis	treise
+8	3708	trèilear	trèilearan
+9	3709	ceimig	ceimigean cheimigean
+10	3710	callaich	callachadh callaichidh callaichte challachadh challaich challaichte
+11	3711	snuadh	shnuadh snuaidh
+12	3712	ciorram	chiorram ciorraim ciorraman
+13	3713	glasraichear	ghlasraichear glasraichearan
+14	3714	corporaid	chorporaid corporaidean
+15	3715	taigh-beag	taighe-bhig taighean-beaga
+16	3716	laigse	laigseachan laigsean
+17	3717	beagaich	beagachadh beagaicheadh bheagachadh
+18	3718	seirbheiseach	sheirbheiseach sheirbheisich
+19	3719	toit	thoit thoitean toite toitean
+20	3720	meirg	meirge meirgeadh meirgidh meirgte mheirg mheirge mheirgeadh
+21	3721	tuathail	
+22	3722	ìochdarach	
+23	3723	aoidh	aoidhean
+24	3724	àrdanach	
+25	3725	taigh-cùirte	taigh-chùirte taighean-cùirte
+26	3726	ceudad	ceudadan
+27	3727	cùmhnantach	chùmhnantach cùmhnantaich
+28	3728	coimiseanar	choimiseanair choimiseanairean coimiseanair coimiseanairean
+29	3729	co-nasgadh	cho-nasgadh co-nasgaidh co-nasgaidhean
+30	3730	meallan	meallain meallanan
+31	3731	meadaigeach	
+32	3732	deimhinnte	dheimhinnte
+33	3733	dual	dhual dualadh dualan dualidh dualte
+34	3734	dabhach	dabhaich
+35	3735	leumadair	leumadairean
+36	3736	iubhar	iubhair iubharan
+37	3737	còrn	chòrn
+38	3738	deachdair	dheachdair
+39	3739	inghean	h-inghean
+40	3740	sligeach	shligeach
+41	3741	bruis	bruise bruiseadh bruisean bruisidh bruiste
+42	3742	leacach	
+43	3743	tarmachan	tarmachain tarmachanan
+44	3744	luas	luais
+45	3745	gnàthachas	ghnàthachas
+46	3746	losgann	losgainn losgannan
+47	3747	saor-latha	saor-lathaichean saor-là shaor-latha
+48	3748	faileas	faileasan faileis fhaileas
+49	3749	corraich	charachadh corrachadh corraiche corraichidh corraichte
+50	3750	grafaigeach	
+51	3751	aran-coirce	arain-choirce
+52	3752	caineal	
+53	3753	fo-thalamh	
+54	3754	dronnach	dhronnach
+55	3755	cuasach	cuasaich
+56	3756	dìollaid	dhìollaidean
+57	3757	speal	speala spealadh spealaidh spealan spealte
+58	3758	madadh	mada madaidhean madaidhibh mhadadh mhadaidh
+59	3759	tulach	tulaich tulaichean
+60	3760	aill	aille
+61	3761	structarail	
+62	3762	neach-stèidheachaidh	luchd-stèidheachaidh
+63	3763	uaigneas	
+64	3764	fogharach	fagharach
+65	3765	ball-basgaid	buill-bhasgaid
+66	3766	tìgear	
+67	3767	saighdearachd	
+68	3768	brù-dhearg	bhrù-dhearg brù-dheargan brù-dheirge
+69	3769	cùbhraidh	chùbhraidh
+70	3770	buidseat	bhuidseit
+71	3771	gealbhonn	gealbhonnan gealbhuinn ghealbhuinn
+72	3772	sionnachan-mara	shionnachan-mara sionnachain-mhara
+73	3773	sitheann	shitheann sithinn sìthne
+74	3774	tòimhseachan	thòimhseachain thòimhseachan tòimhseachain
+75	3775	bab	baba baban babannan
+76	3776	diadhaire	dhiadhairean diadhairean
+77	3777	pròis	pròise
+78	3778	ailbhean	ailbheanaibh ailbheanan ailbhein h-ailbheanaibh h-ailbheanan oileabhan oillbheint oilleabhaint t-ailbhean
+79	3779	ginean	ghinean gineanan
+80	3780	litrich	litrichear litricheas litrichidh litrichte
+81	3781	teallach	teallaich teallaichean
+82	3782	baran	barain
+83	3783	leasachan	leasachain
+84	3784	toiseachd	thoiseachd
+85	3785	beachdaireachd	
+86	3786	broc	bhroca bhrocaibh bhruic brocaibh bruic
+87	3787	gnìomhaireach	gniomhaireach gnìomhairich
+88	3788	ball-stèidhe	buill-stèidhe
+89	3789	faochadh	faochaidh faochaidhean
+90	3790	fiaclaireachd	fhiaclaireachd
+91	3791	tuilium	
+92	3792	dathadair	
+93	3793	pump	phumpadh pumpadh
+94	3794	balbh	bhalbh
+95	3795	dotair-teaghlaich	dhotair-teaghlaich dotair-theaghlaich dotairean-teaghlaich
+96	3796	aitreabh	aitreabhan aitreibh
+97	3797	sradag	sradagan sradaig
+98	3798	amar-snàimh	amaran-snàimh
+99	3799	casag	casagan casaig casaige chasag
+100	3800	crogall	chrogaill crogaill crogallan

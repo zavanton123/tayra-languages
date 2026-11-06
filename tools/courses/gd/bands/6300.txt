@@ -1,0 +1,100 @@
+1	6201	suaimhneas	suaimhneasan suaimhneis
+2	6202	freasdal	
+3	6203	glasach	glasaich
+4	6204	nàimhdeil	nàimhdeile
+5	6205	ath-chur	
+6	6206	fiùghantas	
+7	6207	èifeachdas	
+8	6208	sluma	slumaichean
+9	6209	eadar-phòs	dh'eadar-phòs eadar-phòsaidh eadar-phòsta
+10	6210	biadhlann	bhiadhlann
+11	6211	fòghlamaichte	
+12	6212	cuachach	chuachach
+13	6213	poirdse	phoirdse
+14	6214	craosach	craosaich craosaichean
+15	6215	nèapraigear	nèapraigearan
+16	6216	allaban	allabain
+17	6217	freagaireach	
+18	6218	choille-uisge	
+19	6219	greadadh	ghreadadh
+20	6220	gàd	gàda gàdaichean
+21	6221	rèidius	
+22	6222	cagar	cagairean
+23	6223	fructos	
+24	6224	fàisgeadh	fàisgidh
+25	6225	banail	
+26	6226	cainntearachd	
+27	6227	croich	chroiche
+28	6228	eadar-mheasgte	
+29	6229	luathaireach	
+30	6230	deiseachadh	
+31	6231	mì-shuairc	
+32	6232	màrmor	
+33	6233	spreig	spreigeadh
+34	6234	cneasda	cneasta
+35	6235	crosta	crosda
+36	6236	aingidh	
+37	6237	sinte	
+38	6238	diùltach	
+39	6239	paradacs	paradacsan paradaics paradocs
+40	6240	mì-òrdail	
+41	6241	ùdlaidh	
+42	6242	ànradh	
+43	6243	roimpe	
+44	6244	stic	
+45	6245	aimlisgeach	
+46	6246	tàr	tàrsainn
+47	6247	muinighin	
+48	6248	siorradh	
+49	6249	an-fhoiseil	ainfhoiseil
+50	6250	iargail	
+51	6251	ruga	rugaichean
+52	6252	coileantachd	
+53	6253	lùghaich	lùghachadh
+54	6254	anacothrom	
+55	6255	arbhartaich	arbhartachadh
+56	6256	coirpileir	choirpileir
+57	6257	impidheach	
+58	6258	spìocach	
+59	6259	brosgail	brosgal
+60	6260	cealgach	
+61	6261	cealgaireachd	
+62	6262	oilltich	oillteachadh
+63	6263	stuama	
+64	6264	do-shàrachaidh	sort-do-sharachaidh
+65	6265	stàbull	stàbullan
+66	6266	coit	coitean
+67	6267	gaineamhach	gaineamhaich
+68	6268	spruilleach	spruillich
+69	6269	eunach	
+70	6270	fuathmhor	
+71	6271	peacadh-collaidh	peacaidh-chollaidh
+72	6272	trasgair	thrasgair
+73	6273	foirfeach	fhoirfich foirbheach foirfich
+74	6274	dripeil	
+75	6275	stuig	stuigte
+76	6276	ath-thruas	
+77	6277	os-cionn	
+78	6278	seachranach	sheachranach
+79	6279	caomhain	chaomhain
+80	6280	fadadh	fhadadh
+81	6281	crioman	chrioman criomain criomanan
+82	6282	urlar	urlair
+83	6283	iosgaid	
+84	6284	parant	parantan
+85	6285	faiginn	fhaiginn
+86	6286	peic	
+87	6287	grabhataidh	
+88	6288	riadh	
+89	6289	soillsean	shoillseanan shoillsein soillseanaibh soillseanan soillsein t-soillsein
+90	6290	cèir-sheillean	cèire-seillean
+91	6291	ciùinich	chiùinich
+92	6292	eadar-ùineach	
+93	6293	àille	àillne àillte
+94	6294	farsuinn	
+95	6295	poblachdail	
+96	6296	soillearachadh	
+97	6297	cairtear	cairtearan
+98	6298	seana-ghille	
+99	6299	cnapach	
+100	6300	eadra-lìon	eadra-lìn eadra-lìontan

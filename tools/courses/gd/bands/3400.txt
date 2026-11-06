@@ -1,0 +1,100 @@
+1	3301	duanag	duanagan duanaig
+2	3302	poca	phoca phocan pocannan
+3	3303	arc-eòlas	arc-eòlais
+4	3304	càs	chàs chàsan
+5	3305	cìr	chìreadh chìrean cìre cìreadh cìrean cìridh cìrte
+6	3306	tòn	thòin tòin tòine tònan
+7	3307	mì-thoilichte	
+8	3308	ainmh-eòlas	ainmh-eòlais
+9	3309	fo-bhaile	fo-bhailtean
+10	3310	dearrs	dearrsaidh dearrste deàrrs deàrrsadh deàrrsaidh deàrs
+11	3311	beò-shlàinte	
+12	3312	làn-thìde	
+13	3313	ochdad	ochdadan ochdaid
+14	3314	dealbhachd	
+15	3315	inns	innseadh
+16	3316	coille-uisge	coilltean-uisge
+17	3317	coltachd	
+18	3318	geoimeatrach	
+19	3319	croichte	
+20	3320	spìosrach	spìosraiche
+21	3321	poilean	
+22	3322	cuideachail	
+23	3323	obair-lann	obair-lainn obair-lannan obairlann
+24	3324	meadhan-là	meadhain-là meadhan-latha
+25	3325	tlàth	thlàth
+26	3326	silidh	shilidh silidhean
+27	3327	dùmhlachd	dhùmhlachd
+28	3328	ite	itean
+29	3329	aibèalach	aibèalaich
+30	3330	neach-fianais	luchd-fianais
+31	3331	tionnsgain	thionnsgnadh tionnsgaine tionnsgainean tionnsgnadh tionnsgnaidhean
+32	3332	meangan	meaghan meangain meanganan mheangan
+33	3333	maitheanas	maitheanais mhaitheanas
+34	3334	bleith	bhleith bleitheadh
+35	3335	sìoda	shìoda t-sìoda
+36	3336	sgriobtar	sgriobtair
+37	3337	creachadair	chreachadair chreachadairean creachadairean
+38	3338	consal	chonsal
+39	3339	co-aonachadh	cho-aonachadh co-aonachaidh co-aonachaidhean
+40	3340	mì-shealbhach	mhì-shealbhach mi-shealbhach
+41	3341	bhòidse	bhoidse bhòidsean
+42	3342	boc	bhoc bocadh bocaidh bocte buic
+43	3343	pronnadh	phronnadh pronnaidh pronnaidhean
+44	3344	neach-seinn	luchd-seinn
+45	3345	mallaich	mallachadh mallaicheadh mallaicheam mallaicheamaid mallaichear mallaichibh mallaichidh mallaichinn mallaichist mallaichiste mallaichte mallaichteadh mallaichtear mhallaich mhallaicheadh mhallaicheamaid mhallaichinn mhallaichist mhallaichiste mhallaichteadh
+46	3346	crath	chrath chrathas crathte
+47	3347	cuthach	chuthach chuthaich
+48	3348	luachair	luachrach
+49	3349	dìobair	dhìobair dhìobaireadh dhìobaireamaid dhìobairinn dhìobairist dhìobairiste dhìobairteadh dhìobradh dìobaireadh dìobaiream dìobaireamaid dìobairear dìobairibh dìobairidh dìobairinn dìobairist dìobairiste dìobairte dìobairteadh dìobairtear dìobradh dìobraidh
+50	3350	mèinneadair	mhèinneadair mhèinneadairean mèineadairean mèinneadairean
+51	3351	curran	currain curranan
+52	3352	difir	
+53	3353	barantas	
+54	3354	bancaireachd	
+55	3355	fileantachd	
+56	3356	trì-sheallach	trì-sheallaich
+57	3357	òson	òsoin
+58	3358	eaconomaigeach	
+59	3359	sparradh	sparraidh sparraidhean
+60	3360	spìosraich	spìosrachadh spìosraichidh spìosraichte
+61	3361	sgioblaich	sgioblachadh
+62	3362	liubhair	liubhairt
+63	3363	oillt	oillte oilltean
+64	3364	cinnte	
+65	3365	nimheil	
+66	3366	coisrigeadh	coisrigidhean
+67	3367	cola-deug	
+68	3368	aibideil	
+69	3369	morchuid	mhorchuid
+70	3370	bèicearachd	
+71	3371	neach-turais	
+72	3372	dà-sheallach	
+73	3373	ràitheil	
+74	3374	acadaimeagach	
+75	3375	eicrioch	
+76	3376	cliabhaireachd	
+77	3377	òstair	h-òstairean h-òstairibh òsdair òstairean òstairibh
+78	3378	fiathachadh	fiathachaidh fiathachaidhean
+79	3379	las	lasadh
+80	3380	metair	
+81	3381	ionad-fiosrachaidh	ionadan-fiosrachaidh ionaid-fiosrachaidh
+82	3382	ceithear	
+83	3383	trachdadh	
+84	3384	calpach	
+85	3385	ìomhaigheachd	
+86	3386	gàirnealaireachd	gàirnealachd
+87	3387	poileasman	phoileasman
+88	3388	strìochd	strìochdadh
+89	3389	taitneach	thaitneach
+90	3390	co-aoiseach	cho-aoiseach co-aoisich
+91	3391	gineadair	ghineadair gineadairean
+92	3392	comhairleach	chomhairleach
+93	3393	dubhar	dubhair dubharan
+94	3394	clò-bhualadair	chlò-bhualadair clò-bhualadairean
+95	3395	briodachadh	briodachaidh
+96	3396	toileachas	toileachais toileachasan
+97	3397	claoidh	chlaoidh
+98	3398	bana-chleasaiche	bana-chleasaichean bhana-chleasaiche
+99	3399	màrsail	mhàrsail màrsaile màrsailean
+100	3400	seirbhiseach	seirbhisich sheirbhiseach sheirbhisich

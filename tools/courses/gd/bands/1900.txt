@@ -1,0 +1,100 @@
+1	1801	bith-eòlas	bhith-eòlas
+2	1802	saothair	saothrach saothraichean shaothair t-saothair
+3	1803	nàbaidh	nàbaidhean
+4	1804	danns	dannsadh dannsaidh dannste dhannsas
+5	1805	plàigh	phlaigh phlàigh phlàighean plàighe plàighean plàighibh
+6	1806	reachdail	
+7	1807	roinn-seòrsa	roinnean-seòrsa
+8	1808	aimhreit	aimhreid aimhreite aimhreitean dh'aimhreit h-aimhreit
+9	1809	glasraich	ghlasraich
+10	1810	rèabhlaideach	reabhlaideach rèabhlaidich
+11	1811	òganach	t-òganach òganaich
+12	1812	neach-naidheachd	
+13	1813	catharra	chatharra
+14	1814	aonach	aonaichean
+15	1815	rèabhlaid	rèabhlaide rèabhlaidean
+16	1816	bradan	bhradain bhradan bradain
+17	1817	stàitire	stàitirean
+18	1818	carthannas	carthannais carthannasan charthannais charthannas
+19	1819	glainne	ghlainne glainneachan gloinne
+20	1820	cluas	chluais chluas chluasan cluais cluaise cluasan
+21	1821	matamataigeach	matamataiceach matamataigeacha matamataigeaich matamataigeaiche mhatamataigeach mhatamataigeaich mhatamataigich
+22	1822	cinnt	chinnt chinnte cinntean
+23	1823	iomraiteach	iomraitiche
+24	1824	in-imrich	in-imrichean inimrich inn-imrich
+25	1825	aonaich	aonachaidh aonaichidh dh'aonaich h-aonaich
+26	1826	cairteal	cairtealan cairteil chairteal chairteil
+27	1827	nigh	nighe nigheadh nigheam nigheamaid nighear nighibh nighidh nighinn nighist nighiste nighte nighteadh nightear
+28	1828	cosgais	chosgais chosgaisean cosgaise cosgaisean
+29	1829	daingneachadh	daingneachaidh daingneachaidhean dhaingneachadh
+30	1830	traidisean	thraidisean thraidiseanan traidiseanan traidisein
+31	1831	dùbhlanach	dhùbhlanach dhùbhlanaich dùbhlanaich
+32	1832	ainmhidh	ainmhidhe ainmhidhean t-ainmhidh
+33	1833	cum	chumar chumas cumar
+34	1834	urramach	
+35	1835	rabhadh	fradhaidh fraghaidh rabhaidh rabhaidhean radhadh robhadh
+36	1836	oighre	h-oighre oighreachan t-oighre
+37	1837	camas	camais camasan camus chamais chamas
+38	1838	bliadhna-leum	bliadhna-lèim bliadhnaichean-leum
+39	1839	fàisneachd	fhàisneachd
+40	1840	cuibheasach	chuibheasach chuibheasaich cuibheasaich
+41	1841	taoiseach	thaoiseach thaoisich
+42	1842	stac	stacan staic
+43	1843	triantan	thriantain thriantan triantain triantanan
+44	1844	aithisg	aithisge aithisgean
+45	1845	èiginn	h-èiginn èiginne èiginnean
+46	1846	riaghailteach	riaghailtich
+47	1847	ban-dia	ban-diathan ban-dè bhan-dia
+48	1848	seadh	
+49	1849	tiugh	thiugh tighe tiugha
+50	1850	aosmhor	aosmhoire
+51	1851	briathrachas	bhriathrachas briathrachais briathrachasan
+52	1852	cabhsair	cabhsairean cabhsairibh chabhsair
+53	1853	bruthach	bhruthaich bhruthaichean bruthaich bruthaichean
+54	1854	rèitich	rèiticheadh rèiticheam rèiticheamaid rèitichear rèiticheas rèitichibh rèitichidh rèitichinn rèitichist rèitichiste rèitichte rèitichteadh rèitichtear
+55	1855	sèimheachadh	shèimheachadh sèimheachaidh sèimheachaidhean t-sèimheachadh
+56	1856	creideas	chreideas chreideasan chreideis creideasan creideis
+57	1857	ro-eachdraidheil	
+58	1858	haidridean	haidridein
+59	1859	fuadain	fhuadain
+60	1860	beòthail	beodha beodhail beothail beòthachail bheothail bheòthail
+61	1861	fuadachadh	fhuadachadh fuadachaidh
+62	1862	dealbh-chluich	dealbhe-cluich dealbhean-cluich dhealbh-chluich
+63	1863	tuairmse	thuairmse tuairmsean
+64	1864	tionnsgail	thionnsgail
+65	1865	uàrd	uàird uàrdan
+66	1866	plàna	phlàna
+67	1867	èibhinn	eibhinn éibhinn
+68	1868	cron	chron croin
+69	1869	goil	ghoil goileadh goilear goilearan goilidh goilte
+70	1870	caibideil	caibideilean chaibideil chaibideilean
+71	1871	opara	
+72	1872	pìobaire	phìobaire phìobairean piobaire pìobairean
+73	1873	tà	ta tá
+74	1874	miseanaraidh	mhiseanaraidh mhiseanaraidhean miseanaraidhean
+75	1875	aodann	aodainn aodainnean aodannan h-aodann t-aodann
+76	1876	seagh	seagha seaghan t-seagh
+77	1877	clas-obrach	chlas-obrach
+78	1878	ùrachadh	t-urachadh ùrachaidh ùrachaidhean
+79	1879	buannachd	bhuannachd bhuannachdan buannachdan
+80	1880	uidheam	uidheaman uidheim
+81	1881	ùpraid	ùpraide ùpraidean
+82	1882	ròc	ròic
+83	1883	corporra	chorporra
+84	1884	bròg	bhròg bhròga bhrògan bhròig brògaibh brògan bròig bròige bròigeadh
+85	1885	gobha	ghobha ghobhainn gobhainn goibhnean
+86	1886	mosg	mhosg mosgan
+87	1887	taca	tacaid tacain tacan
+88	1888	comhair	chomhair
+89	1889	dùbhlan	dhùbhlain dhùbhlan dùbhlain dùbhlanan dùlan
+90	1890	brist	bhrist bhristeadh bristeadh
+91	1891	pràis	phrais phràis pràise pràisean
+92	1892	oideachadh	oideachaidh
+93	1893	sionnach	shionnacha shionnachaibh sionnachaibh sionnaich t-sionnach t-sionnaich
+94	1894	ealanta	
+95	1895	taigh-gnìomhachais	taigh-gniomhachais thaigh-gnìomhachais
+96	1896	frith-thaghadh	fhrith-thaghadh frith-thaghaidh frith-thaghaidhean
+97	1897	tuarastal	thuarastail thuarastal tuarasdail tuarasdal tuarastail
+98	1898	adhradh	adhraidh adhraidhean aoradh aoraidh
+99	1899	curaidh	churaidh churaidhean curaidhean
+100	1900	nàiseantach	nàiseantaich

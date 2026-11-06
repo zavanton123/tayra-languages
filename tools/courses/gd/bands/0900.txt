@@ -1,0 +1,100 @@
+1	801	tàmh	thàmh tàimh tàmhaidh tàmhte
+2	802	seas	seasadh seasaidh seaste sheas sheasadh sheasas
+3	803	seata	seataichean sheata sheataichean
+4	804	lùb	lùbadh lùbaidh lùban lùbte lùib
+5	805	naoidheamh	naoitheamh
+6	806	druim	dhromannan dhruim droma dromannan
+7	807	lus	luis lusa lusan
+8	808	làrach-lìn	larach-lin làraich-lìn làraichean-lìn
+9	809	poblach	phoblach phoblaich poblaich poblaiche
+10	810	ùghdar	dh'ùghdar t-ùghdar ùghdair ùghdairean ùghdaran
+11	811	bog	bhog bhuig bhuige boga bogadh bogaidh buige
+12	812	neo-eisimeileach	
+13	813	aithris	aithrise aithriseadh aithriseam aithriseamaid aithrisean aithrisear aithrisibh aithrisidh aithrisinn aithrisist aithrisiste aithriste aithristeadh aithristear dh'aithris dh'aithriseadh dh'aithriseamaid dh'aithrisinn dh'aithrisist dh'aithrisiste dh'aithristeadh h-aithris h-aithrise h-aithrisean h-aithrisibh t-aithris
+14	814	seanair	seanairean seanairibh seanar sheanair sheanairean sheanairibh sheanar t-seanar
+15	815	creag	chreag chreagan creagan creig creige
+16	816	fèis	dh'fhèis fhèis fhèisean fèise fèisean féis
+17	817	bus	bhus bhusaichean buis busaichean busan
+18	818	poileas	phoileas phoileis phoilis poileis poilis
+19	819	slat	shlata slait slaite slataibh slatan t-slait t-slat
+20	820	còmhnard	chòmhnaird chòmhnard comhnard còmhnaird còmhnardan
+21	821	foghar	fhoghair fhoghar foghair fogharan t-fhoghar t-foghar
+22	822	earrach	earraich earraichean t-earrach
+23	823	cruaidh	chruaidh cruadhach cruadhaichean cruaidhe
+24	824	saidheans	saidheansan shaidheans t-saidheans
+25	825	gairm	gairme gairmean gairmeannan gairmidh gairmte ghairm ghairmeadh
+26	826	fòn	fhon fhòn fònadh fònaichean fònaidh fònte fón
+27	827	cliù	chliù cliu
+28	828	ceàrnagach	cearnagach ceàrnagaich cheàrnagach
+29	829	comann	chomainn chomann chomuinn chomunn comainn comunn
+30	830	post	phost phostainn phostaist phostaiste phostamaid phosttadh phuist postadh postaibh postaidh postainn postaist postaiste postam postamaid postar poste postta posttadh posttar puist
+31	831	atamach	atamaich
+32	832	eòlaiche	eòlaichean h-eòlaiche t-eòlaiche
+33	833	dotair	dhotair dotairean
+34	834	tionndadh	thionndadh thionndaidh thionndaidheadh thionndaidhean thionndaidheas tionndaidh tionndaidhean tionndaidhear tionndaidhidh
+35	835	sgaoileadh	sgaoilidh sgaoilidhean
+36	836	creutair	chreutair chreutairean creutairean
+37	837	àrd-sgoil	ard-sgoil dh'àrd-sgoil àrd-sgoile àrd-sgoiltean
+38	838	crùn	chrùin chrùn chrùnadh chrùnaidh crùin crùinte crùintean crùnadh crùnaidh crúnadh
+39	839	sgaradh	sgaraidh sgaraidhean
+40	840	fosgladh	dh'fhosgladh fhosgladh fhosglaidh fhosglaidhean fosglaidh fosglaidhean fosglaidhibh
+41	841	milleadh	mhilleadh millidh millidhean
+42	842	òir	
+43	843	fosgail	dh'fhosgail dh'fhosgaileadh dh'fhosgaileamaid dh'fhosgaileas dh'fhosgailinn dh'fhosgailist dh'fhosgailiste dh'fhosgailteadh fhosgail fhosgaileadh fosgaileadh fosgaileam fosgaileamaid fosgailear fosgailibh fosgailidh fosgailinn fosgailist fosgailiste fosgailteadh fosgailtear fosglar
+44	844	coireach	choireach coirich coirichte
+45	845	dona	dhona mhiosa miosa
+46	846	bò	bhò bo boin bà bó
+47	847	cus	chus
+48	848	peantair	peantairean peantairibh pheantair pheantairean
+49	849	inbhe	dh'inbhe h-inbhe inbhean n-inbhe
+50	850	ceimigeachd	ceimigeachdan cheimigeachd
+51	851	sràid	shràid shràide sraid sraidean sràide sràidean t-sràid t-sràide
+52	852	fiosrachadh	dh'fhiosrachadh fhiosrachadh fhiosrachaidh fiosrachaidh fiosrachaidhean
+53	853	duilleag	dhuilleag dhuilleagan dhuilleige duilleagan duilleig duilleige
+54	854	casan	casain casanan
+55	855	glèidh	ghleidh ghleidheadh ghleidhidh ghlèidh ghlèidheadh ghlèidheamaid ghlèidheas ghlèidhinn ghlèidhist ghlèidhiste ghlèidhte ghlèidhteadh gleidh gleidheadh glèidheadh glèidheam glèidheamaid glèidhear glèidhibh glèidhidh glèidhinn glèidhist glèidhiste glèidhte glèidhteadh glèidhtear gléidh
+56	856	còrd	chòrd còrdte cùird
+57	857	freagair	dh'fhreagair fhreagair fhreagaireadh fhreagaireamaid fhreagaireas fhreagairinn fhreagairist fhreagairiste fhreagairteadh fhreagradh fhreagras freagaireadh freagaiream freagaireamaid freagairear freagairibh freagairidh freagairinn freagairist freagairiste freagairteadh freagairtear freagraidh
+58	858	bhòt	bhot bhòta bhòtadh bhòtaibh bhòtaichean bhòtaidh bhòtainn bhòtaist bhòtaiste bhòtam bhòtamaid bhòtar bhòttadh bhòttar
+59	859	comhairliche	chomhairliche chomhairlichean comhairlichean
+60	860	sealbh	sealbhan shealbh
+61	861	croitear	chroitear chroitearan chroiteir croitearan croiteir
+62	862	cruinne	chruinne cruinnean
+63	863	iomall	iomaill iomallan t-iomall
+64	864	dìleas	dhìleas dhìlse dìlse
+65	865	àbhaisteach	abhaisteach h-abhaisteach h-àbhaisteach àbhaistiche
+66	866	ge	
+67	867	ceàrr	cearr ceàrra cheàrr
+68	868	càraid	chàraid chàraidean càraide càraidean
+69	869	tiotal	thiotal tiotail tiotalan tiotalen
+70	870	gille	ghille ghillean gillean gillibh
+71	871	aonaichte	dh'aonaichte
+72	872	a-null	
+73	873	bogsa	bhocsa bhogsa bocsa bocsaichean bogsaichean
+74	874	stòras	stòrais stòrasan
+75	875	tobhta	thobhta thobhtaichean tobhtaichean tobhtan
+76	876	obann	h-obann obainne
+77	877	gnìomh	ghnìomh ghnìomha ghnìomhan gniomh gnìomha gnìomhan gnìomhannan gnìomhte
+78	878	cunnartach	chunnartach cunnartaiche
+79	879	tagraiche	tagraichean thagraiche thagraichean
+80	880	farsaing	farsainge fharsaing fharsainge
+81	881	dràibh	dhràibh dhràibheadh dhràibhear dhràibhearan dràibheadh dràibhear dràibhearan dràibhidh
+82	882	strì	straoi stri strìgh strìte strìth strìthidh
+83	883	tana	taine tainee thana
+84	884	pròiseact	phròiseact phròiseactan phròiseict pròiseactaibh pròiseactan pròiseict
+85	885	pàrant	phàrant phàrantan pàrantan
+86	886	poblachd	phoblachd poblachdan
+87	887	uasal	t-uaisle t-uasal uaisle uaisleachd uaislean uasail
+88	888	bhideo	bhideothan
+89	889	dualchas	dhualchais dhualchas dhualchasan dualchais dualchasan
+90	890	solas	sholais sholas sholasa sholasaibh solais solasaibh solasan t-solais t-solas
+91	891	neach-obrach	luchd-obrach neach-oibre
+92	892	breith	bhreith breithean
+93	893	ruaig	ruagadh ruaige ruaigeadh
+94	894	comharra	chomharra chomharradh chomharraidhean chomharran comharradh comharraidhean comharran
+95	895	prìosan	phriosan phrìosain phrìosan prìosain prìosanaibh prìosanan
+96	896	ùrnaigh	h-ùrnaigh m'ùrnaigh ùrnaighe ùrnaighean
+97	897	giùlan	ghiulain ghiulan ghiùlain ghiùlaineadh ghiùlaineas ghiùlan giulain giulan giùlain giùlainidh giùlanan
+98	898	tional	thionail thionaileadh thional tionail tionailidh
+99	899	farpais	farpaise farpaisean fharpais fharpaisean
+100	900	buileach	

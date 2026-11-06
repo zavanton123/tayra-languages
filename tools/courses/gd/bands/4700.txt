@@ -1,0 +1,100 @@
+1	4601	dùchas	dùchais
+2	4602	dath-uisge	dathan-uisge
+3	4603	diagram	dhiagram diagraman
+4	4604	proifeiseantach	phroifeiseantaich proifeiseantaich
+5	4605	cuspaireil	chuspaireil
+6	4606	cruinneil	chruinneil
+7	4607	coimiseanadh	choimiseanadh
+8	4608	ban-òglach	ban-oglach bhan-òglach
+9	4609	adhlac	adhlacaibh adhlacaidh adhlacainn adhlacaist adhlacaiste adhlacam adhlacamaid adhlacar adhlacta adhlactadh adhlactar adhlacte dh'adhlacadh dh'adhlacainn dh'adhlacaist dh'adhlacaiste dh'adhlacamaid dh'adhlactadh
+10	4610	liostaich	liostachadh liostadh
+11	4611	iarmad	iarmadan iarmaid
+12	4612	diadhaich	dhiadhachadh dhiadhaichte diadhaichte
+13	4613	tùsaire	thùsaire thùsairean
+14	4614	èalaidh	dh'ealaidh h-ealaidh èaladh èalaidhidh èalaidhte
+15	4615	teileasgop	teileasgopan theileasgoip
+16	4616	breige	bhreigichean breigichean
+17	4617	teileagraf	teileagraif theileagraf
+18	4618	crochadair	chrochadair chrochadairean
+19	4619	sluig	slugadh sluigidh sluigte
+20	4620	coròna-bhìoras	choròna-bhìoras coròna-bhìorais coròna-bhìorasan
+21	4621	sovietach	
+22	4622	corran	corrain
+23	4623	rìoghair	rìoghairean
+24	4624	hòigh	hoigh
+25	4625	odhar	
+26	4626	iompaire	
+27	4627	bail	bhail
+28	4628	dealg	dealgan deilg
+29	4629	each-mara	eich-mhara
+30	4630	ist	
+31	4631	ceiltis	cheiltis
+32	4632	triath	thriathan triatha triathan
+33	4633	rabaid	rabaide rabaidean rabaidibh
+34	4634	biocas	bhiocas
+35	4635	dearbhair-litreachaidh	dearbhairean-litreachaidh
+36	4636	feòrag	feòragan feòraige fheòrag
+37	4637	traon	thraoin traoin
+38	4638	iolair-mhara	iolaire-mara iolairean-mara
+39	4639	los-leathann	leas-leathann
+40	4640	ionadal	
+41	4641	eagach	
+42	4642	tartan	tartain tartanaibh thartain thartana thartanaibh
+43	4643	pacaid	pacaide pacaidean phacaid
+44	4644	oil	
+45	4645	fiadh-bheatha	
+46	4646	prosbaig	phrosbaig
+47	4647	ruighe	ruighean
+48	4648	dromadair	dromadairean
+49	4649	ailm	ailme ailmean ailmibh h-ailme h-ailmean h-ailmibh
+50	4650	dolair	
+51	4651	laoidheadair	
+52	4652	tuireadh	tuiridh tuiridhean
+53	4653	bun-os-cionn	
+54	4654	pàpachd	
+55	4655	teacs	
+56	4656	lioncs	lioncsa lioncsaichean
+57	4657	cailleach-oidhche	cailleachan-oidhche caillich-oidhche
+58	4658	leitir	leitreach leitrichean
+59	4659	sìoladh	sìolaidhean sìolaidhidh
+60	4660	taigh-eiridinn	taighean-eiridinn
+61	4661	oran	orain
+62	4662	ealtainn	
+63	4663	àrdsgoil	àrdsgoiltean
+64	4664	deasg	deasga deasgan
+65	4665	dà-bheathach	dà-bheathaich
+66	4666	pic	picean pìc
+67	4667	pitheid	pioghaid pitheide pitheidean
+68	4668	àill	
+69	4669	marasgal	
+70	4670	deargan-fraoich	deargain-fraoich dearganan-fraoich
+71	4671	guil	gail ghuil guilidh guilte gul
+72	4672	iùl	iùil iùilean
+73	4673	diadhach	
+74	4674	saoibhreas	shaoibhreas
+75	4675	criom	chriomadh criomadh criomaidh criomte
+76	4676	gealag-bhuachair	gealagan-buachair gealaig-buachair ghealag-bhuachair
+77	4677	iolair-bhuidhe	iolaire-buidhe iolairean-buidhe
+78	4678	tar-ghnèitheach	tar-ghnèithich
+79	4679	òs	t-òs òis òsa òsan ós
+80	4680	tigh	
+81	4681	iosaid	
+82	4682	pollag	pollagan pollaig
+83	4683	cuileann	cuilfhionn cuilinn cuilionn
+84	4684	bòrd-stiùiridh	bùird-stiùiridh
+85	4685	ailt	
+86	4686	torm-fheadan	
+87	4687	fireannta	
+88	4688	mire	
+89	4689	famhair	famhairean
+90	4690	blasad	blasadan blasaid
+91	4691	deò	deòthan
+92	4692	guidh	ghuidh guidhe guidhidh guidhte
+93	4693	foirfeachd	
+94	4694	ambasaid	ambasaidean
+95	4695	airgead-beò	airgid-beò
+96	4696	aisil	aisiol aisle aislean
+97	4697	bolgan	bolgain bolganan
+98	4698	fachach	
+99	4699	bòrd-dubh	bùird-dhubha bùird-dhuibh
+100	4700	luibheach	

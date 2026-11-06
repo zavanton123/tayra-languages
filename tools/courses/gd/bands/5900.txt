@@ -1,0 +1,100 @@
+1	5801	cnàimheach	
+2	5802	calculas	
+3	5803	taoitear	
+4	5804	trì-deug	
+5	5805	dreis	
+6	5806	furachail	
+7	5807	carr	charr
+8	5808	draosdachd	
+9	5809	cneas	chneas cneasa cneasan cneis cnis
+10	5810	lòd	
+11	5811	searrag	
+12	5812	srùbag	srùbagan srùbaige srùpag strùbag strùpag
+13	5813	actar	
+14	5814	bogsadh	
+15	5815	co-fharpaisiche	co-fharpaisichean
+16	5816	bunas	
+17	5817	mòraich	mòrachadh
+18	5818	nòsail	nòsaile
+19	5819	grànndachd	
+20	5820	lì-dhealbh	
+21	5821	sìorraich	sìorraichte
+22	5822	cùrs	
+23	5823	plosg	phlosg ploisg plosgan plosgte
+24	5824	sgreataidh	
+25	5825	aithreachail	
+26	5826	fradharcach	
+27	5827	greadhnach	
+28	5828	cealla-sìl	cealla-shìl ceallan-sìle
+29	5829	tùraid	tùraide
+30	5830	aonaranachd	aonranachd
+31	5831	fanaideach	
+32	5832	deamhas	deamhais deamhaisean deimheas deimheis
+33	5833	àrd-mhàthair	h-àrd-mhàthair àrd-mhàthar àrd-mhàthraichean
+34	5834	gamhlas	
+35	5835	rùnag	
+36	5836	eadar-sholas	eadar-sholais
+37	5837	tinneas-cloinne	tinneasan-cloinne tinneis-chloinne
+38	5838	mealltachd	
+39	5839	tàmailteach	
+40	5840	toibheum	
+41	5841	gràisgeil	
+42	5842	maighdeann-mhara	
+43	5843	draosta	
+44	5844	mì-chiatach	
+45	5845	aslaich	aslaichidh
+46	5846	luid	luide luidean
+47	5847	reipseach	
+48	5848	caol-shràid	caol-shràide caol-shràidean caolshràid
+49	5849	reachdaich	reachdachadh
+50	5850	drùisire	drùisirean
+51	5851	mì-laghaileachd	
+52	5852	lochdach	
+53	5853	mì-stòlda	
+54	5854	poiliticeach	
+55	5855	gloic	ghloic
+56	5856	dleas	
+57	5857	sia-deug	
+58	5858	loisgean	loisgein losgeanan
+59	5859	martair	martairean
+60	5860	cluicheadar	cluicheadaran
+61	5861	sùbh-làir	
+62	5862	neulach	
+63	5863	dorchaich	dorchadh dorchaichidh dorchaichte
+64	5864	doilleirich	doilleirichte
+65	5865	feocallan	feocallain
+66	5866	mì-ghnàthas	
+67	5867	sàthach	
+68	5868	lùdhaig	lùdhaigeadh
+69	5869	mì-chreideamh	mì-chreideimh
+70	5870	gathachd	
+71	5871	oilbheum	oilbheim oilbheuman
+72	5872	cuidegin	
+73	5873	ath-bheachdachadh	ath-bheachdachaidh ath-bheachdachaidhean
+74	5874	brodag	brodagan
+75	5875	neodar	neodair
+76	5876	hallo	
+77	5877	mì-cheart	
+78	5878	sòfa	
+79	5879	cròg	crògan cròige
+80	5880	àbhainn	
+81	5881	seabra	
+82	5882	stopadh	
+83	5883	gliogadaich	gliogadaiche gliogadaichean
+84	5884	aobrann	
+85	5885	aghann	adhann aghainn aghannan aighainne aighne
+86	5886	geimhlich	gheimhlich
+87	5887	samhnag	
+88	5888	cothrum	chothruim
+89	5889	mì-fhortan	
+90	5890	sàthaich	sàthachadh
+91	5891	luaithreach	
+92	5892	mùnadh	
+93	5893	falamhaich	dh'fhalamhaicheadh dh'fhalamhaicheamaid dh'fhalamhaichinn dh'fhalamhaichist dh'fhalamhaichiste dh'fhalamhaichteadh falamhachadh falamhaicheadh falamhaicheam falamhaicheamaid falamhaichear falamhaichibh falamhaichidh falamhaichinn falamhaichist falamhaichiste falamhaichte falamhaichteadh falamhaichtear
+94	5894	puimcean	puimceanan puimcein
+95	5895	fiabhras-breac	fiabhrais-bhric
+96	5896	ciùbaichte	
+97	5897	ciùbach	
+98	5898	eiridnich	dh'eiridnicheadh dh'eiridnicheamaid dh'eiridnichinn dh'eiridnichist dh'eiridnichiste dh'eiridnichteadh eiridneachadh eiridnicheadh eiridnicheam eiridnicheamaid eiridnichear eiridnichibh eiridnichidh eiridnichinn eiridnichist eiridnichiste eiridnichte eiridnichteadh eiridnichtear
+99	5899	culaidh-choimheach	culaidhe-choimhiche culaidhean-coimheach
+100	5900	samhnair	samhnairean shamhnair

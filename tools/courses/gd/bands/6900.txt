@@ -1,0 +1,100 @@
+1	6801	feàrna	
+2	6802	fìdhill	fhìdhill
+3	6803	luatharan	luatharanan
+4	6804	gobhlachan	
+5	6805	calman-coille	
+6	6806	spad	spadadh spadaibh spadaidh spadainn spadaist spadaiste spadam spadamaid spadar spadta spadtadh spadtar spadte
+7	6807	mìnichte	
+8	6808	post-dealain	post-d puist-d puist-dealain
+9	6809	lacrosse	
+10	6810	gaoir	
+11	6811	ceileiriche	ceileirichean
+12	6812	ban-actair	
+13	6813	daltan	
+14	6814	iomradh-bàis	iomraidh-bàis iomraidhean-bàis
+15	6815	gobhlan	gobhlain gobhlanan
+16	6816	goc	gocan gocanan
+17	6817	fialaidheachd	
+18	6818	mag	magte
+19	6819	lanntair	lainntear lainntir lanndairean lanntran
+20	6820	tarbh-allaidh	tairbh-allaidh
+21	6821	fionnairidh	
+22	6822	trì-cheàrnag	trì-cheàrnagan trì-cheàrnaige
+23	6823	fuath-bìdh	fuathan-bìdh
+24	6824	dàmais	
+25	6825	trilleachan	drilleachan drìlleachan trilleachain trìlleachan
+26	6826	fàsgadair	
+27	6827	gobha-uisge	gobhainn-uisge goibhnean-uisge
+28	6828	snagan-daraich	snagain-daraich snaganan-daraich
+29	6829	riof	riofa riofachan riofadh riofaidh riofte
+30	6830	prìomh-dhuilleag	
+31	6831	co-ghnìomhair	co-ghnìomhairean
+32	6832	pluic	pluice pluicean
+33	6833	oirfideach	
+34	6834	eadar-theangaichear	eadar-theangaichearan
+35	6835	fleasg	fleasga
+36	6836	dà-sheòrsach	dà-sheòrsaich dà-sheòrsaiche
+37	6837	mànran	mànrain mànranan
+38	6838	taigh-oibre	
+39	6839	spreigearra	
+40	6840	gàir	gàireachdaich gàireachdainn gàiridh gàirte
+41	6841	bir	
+42	6842	pròifil	phròifilean pròifile pròifilean pròifilibh
+43	6843	druidh	dhrùidh druidhean drùdhadh
+44	6844	eileach	eilich eilichean
+45	6845	boiteag	boiteagan boiteig
+46	6846	farspag	farspagan farspaige
+47	6847	learga	leargan
+48	6848	buidheag-bhealaidh	buidheagan-bealaidh buidheige-bealaidh
+49	6849	dreathan	dreathain
+50	6850	ceann-dubhag	
+51	6851	libh	
+52	6852	clos	chlos
+53	6853	peit	
+54	6854	bann-leathann	bainn-leathainn
+55	6855	coibhneas	
+56	6856	samh	saimh samhan
+57	6857	gabhadan	
+58	6858	ath-innse	ath-innsean ath-innsidh
+59	6859	luasgan	luasgain
+60	6860	fìon-dearc	fìon-dearcan fìon-dhearc
+61	6861	feòrag-ghlas	feòragan-glasa feòraige-glaise
+62	6862	feòrag-ruadh	feòragan-ruadha feòraige-ruaidhe
+63	6863	iùdhachas	iùdhachais
+64	6864	buna-bhuachaille	bun-bhuachaill bun-bhuachaille buna-bhuachaill bunna-bhuachaill bura-bhuachaill bura-bhuachaille burbhailleach fura-bhuachaille muir-bhuachaill muir-bhuachaille muna-bhuachaill muna-bhuachaille
+65	6865	pailm	pailme pailmean
+66	6866	suarachas	
+67	6867	còta-froise	còtaichean-froise
+68	6868	ughdar	ughdair
+69	6869	mogan	mogain moganan
+70	6870	brà	bhrà bhràthntan bràibh bràthan bràthntan
+71	6871	òigh	òighe òighean
+72	6872	naochadamh	
+73	6873	càbal	chàbal
+74	6874	luinneag	luinneagan luinneige
+75	6875	sìorraidheachd	sìorraidheachdan
+76	6876	duileag	
+77	6877	crannachan	crannachain
+78	6878	cuilidh	cuilidhean
+79	6879	breth	
+80	6880	calman-tùchan	
+81	6881	cailin	cailine cailinean
+82	6882	faghinn	fhaghinn
+83	6883	longphort	longphortan longphuirt
+84	6884	sèimhe	
+85	6885	dìthreabh	dìthreabhan dìthreibh
+86	6886	meilc	meilce
+87	6887	sonn	
+88	6888	deolag	deolagan deolaig
+89	6889	crann-deiridh	chrann-deiridh crainn-deiridh
+90	6890	eireag	eireagan eireige
+91	6891	iorram	iorraim iorraman
+92	6892	ciotach	
+93	6893	snàthag	snathag snàthadag snàthagan snàthaige snàthdag
+94	6894	bigein-baintighearna	
+95	6895	giort	ghiort
+96	6896	bàthach	bhàthaich bhàthaichean bhàthchannan bàthachibh bàthaich bàthaichean bàthaichibh bàthcha bàthchadh bàthchannan
+97	6897	loidsear	loidsearan
+98	6898	sorcha	
+99	6899	langadar	langadair
+100	6900	urnuigh	

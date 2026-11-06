@@ -1,0 +1,100 @@
+1	2401	gnàthach	ghnàthach gnàthaiche
+2	2402	biorach	bhiorach bioraich
+3	2403	ceartaich	ceartachadh ceartaichte cheartachadh
+4	2404	sgiathach	sgiathadh sgiathaich sgiathaiche sgiathaidh
+5	2405	ceap	ceapan ceapannan cheap cheapadh cip
+6	2406	bac	baca bacan bacte baic bhac bhacain bhacas
+7	2407	comhairlich	chomhairleachadh chomhairlich chomhairlicheas comhairleachadh comhairlichidh comhairlichte
+8	2408	leagh	leaghas leaghta leaghte
+9	2409	libhrigeadh	
+10	2410	briathran	
+11	2411	domhan-leud	domhan-leòid
+12	2412	tàlantach	thàlantach
+13	2413	samhail	shamhailean
+14	2414	ròl	ròlaichean
+15	2415	ur-dhubhadh	h-ur-dhubhaidhean h-ur-dhubhaidhibh t-ur-dhubhadh ur-dhubhaidh ur-dhubhaidhean ur-dhubhaidhibh
+16	2416	peilear	peilearaibh peilearan peileir pheileir
+17	2417	beag-chuid	beag-chodach beag-chodaichean bheag-chuid
+18	2418	bunasach	bhunasach bhunasaich bunasaich
+19	2419	muncaidh	mhuncaidh mhuncaidhean muncaidhean
+20	2420	labhair	labhaireadh labhaiream labhaireamaid labhairear labhairibh labhairidh labhairinn labhairist labhairiste labhairte labhairteadh labhairtear labhradh labhraibh labhraidh labhrainn labhrais labhram labhramaid labhrar labhras
+21	2421	acfhainn	acainn acfhainne acfhainnean
+22	2422	gleoc	cleoc cloc clocan ghleocaichean gleoca gleocaichean gleocan
+23	2423	gràs	ghràis ghràs gràis gràsan
+24	2424	reuladair	reuladairean
+25	2425	cumha	chumha chumhachan chumhaichean cumhachan cumhaichean
+26	2426	teicnigeach	theicnigeach
+27	2427	steall	stealladh steallaidh steallan steallte still stèill
+28	2428	ceumnachadh	ceumnachaidh ceumnachaidhean cheumnachadh
+29	2429	pongail	pongaile
+30	2430	saoranach	saoranaich shaoranach shaoranaich
+31	2431	ochdnar	ochdnair ochdnaran
+32	2432	dealaichte	
+33	2433	uirsgeulach	
+34	2434	cleachdte	chleachdte
+35	2435	cothlamadh	chothlamadh cothlamaidhean
+36	2436	sàrachadh	shàrachadh sàrachaidh sàrachaidhean
+37	2437	sluagh-ghairm	sluagh-ghairme sluagh-ghairmean t-sluagh-ghairm
+38	2438	seachdad	seachdadan
+39	2439	clàr-ama	chlàr-ama clàir-ama clàran-ama
+40	2440	àiteachadh	h-àiteachadh t-àiteachadh àiteachaidh
+41	2441	cupal	chupal cupalan
+42	2442	prìseil	phrìseil phrìseile prìseile
+43	2443	sèideadh	shèideadh sèididh sèididhean séideadh
+44	2444	teàrnadh	tearnadh teàrnaidh teàrnaidhean theàrnadh
+45	2445	cuibheas	chuibheas chuibheis cuibheasan cuibheis
+46	2446	gnìomhachd	ghnìomhachd ghnìomhachdan gnìomhachdan
+47	2447	peighinn	peighinnean pheighinn
+48	2448	grùthan	ghrùthain ghrùthanan grùthain grùthanaibh grùthanan
+49	2449	fidheall	fhidheall fidhill fìdhle fìdhlean
+50	2450	buachaille	bhuachaill bhuachaille buachaill buachaillean
+51	2451	msaa	
+52	2452	seanalair	seanalairean sheanalair
+53	2453	gèidh	geidh ghèidh
+54	2454	fìdheall	fhìdheall
+55	2455	breabadair	bhreabadair bhreabadairean breabadairean
+56	2456	put	phutadh phutas puta putadh putaidh pute
+57	2457	sèimh	séimh
+58	2458	geòlasach	geòlasaich gheòlasach
+59	2459	mìr	mhìr mìre
+60	2460	rìomhach	rìomhaich rìomhaiche
+61	2461	leasan	leasain leasanan
+62	2462	gnothachas	ghnothachas gnothachais gnothachasan
+63	2463	cìoch	chìoch cìch cìche cìochan
+64	2464	bata	bataichean bhataichean
+65	2465	uilebheist	oilbhiast t-uilebheist uile-bheist uile-bhèist uile-bhéist uilebheistean ullabheist
+66	2466	feis	feise
+67	2467	cleas	chleas cleasa cleasan
+68	2468	sealbhadair	sealbhadairean shealbhadair
+69	2469	còrsa	chòrsa
+70	2470	dùsgadh	dhùsgadh dùsgaidh dùsgaidhean
+71	2471	neas	neasa neasan nise
+72	2472	pearsantachd	pearsantachdan phearsantachd
+73	2473	cobhair	chobhair còbhrach còbhraichean
+74	2474	teasachadh	teasachaidh teasachaidhean theasachadh
+75	2475	botal	bhotal botail
+76	2476	leatrom	leatroman leatruim leatruime
+77	2477	seanchaidh	seanachaidh seanchaidhean t-seanchaidh
+78	2478	searmonaich	searmonachadh searmonachaidh searmonaichidh searmonaichte shearmonachadh shearmonaich
+79	2479	laimrig	laimrige laimrigean
+80	2480	drùis	dhrùis drùise
+81	2481	adhbhraich	adhbhrachadh adhbhrachaidh adhbhraichte
+82	2482	dìrich	dhìrich dhìricheadh dhìrichear dhìricheas dìrichidh dìrichte
+83	2483	sianal	shianail shianalan sianail sianalan
+84	2484	raineach	fraineach freineach froineach frointeach froithneach rainich rainichean rainteach raithneach roineach rointeach roithneach
+85	2485	crìon	chrìon crìonte
+86	2486	brat	bhrat brata bratan
+87	2487	tràidiseanta	
+88	2488	caithte	
+89	2489	deatamach	
+90	2490	tuaiream	thuaiream
+91	2491	tochradh	thochradh
+92	2492	cumantas	chumantas
+93	2493	reachdas	reachdais
+94	2494	doimhneachd	dhoimhneachd doimhneachdan
+95	2495	druga	dhrugaichean drugaichean
+96	2496	buanaich	bhuanachadh bhuanaich buanachadh
+97	2497	fear-deasachaidh	fhear-deasachaidh fir-deasachaidh
+98	2498	sgoltadh	sgoltaidh sgoltaidhean
+99	2499	mearachd	mearachdan mhearachd mhearachdan
+100	2500	fras	fhrasadh frasadh frasaidh frasan fraste froise

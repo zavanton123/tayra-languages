@@ -1,0 +1,100 @@
+1	2301	preasantair	phreasantair preasantairean
+2	2302	gleus	ghleus ghleusadh gleusa gleusadh gleusaidh gleusan gleusta gleuste gleòis
+3	2303	leabhran	
+4	2304	alltan	alltain t-alltan
+5	2305	sàth	shàth shàthadh sàith sàthadh
+6	2306	partan	partain partanan phartan
+7	2307	turaid	turaidean
+8	2308	roinniche	
+9	2309	dathte	dhathte
+10	2310	ceann-latha	ceann-lathaaibh cheann-latha cheann-lathaa cheann-lathaaibh cinn-latha
+11	2311	làthaireach	làithreach làthairich
+12	2312	amar	amair amaran t-amar
+13	2313	biodag	bhiodag biodagan biodaige
+14	2314	bàr	bhàir bhàire bàir bàire bàirean bàraichean
+15	2315	rèim	rèime
+16	2316	naitridean	naitridein
+17	2317	inntrig	inntrigeadh inntrigidh
+18	2318	sionagog	shionagog sionagogan sionagoig sionagoige t-sionagog
+19	2319	gasa	gasaichean
+20	2320	torrachas	torachais torachas torrachais torrachasan
+21	2321	einnseanaireachd	einnseanaireachdan h-einnseanaireachd
+22	2322	anailis	anailise
+23	2323	filmeadh	fhilmeadh
+24	2324	deugaire	deugairean dheugaire
+25	2325	còmhrag	chòmhraig còmhragan còmhraig còmhraige
+26	2326	pasgan	pasgain pasganaibh pasganan phasgan
+27	2327	lide	lidean
+28	2328	maoidh	maoidheadh maoidhidh maoidhidhean maoidhte mhaoidh mhaoidheadh mhaoidhidh
+29	2329	dathach	dathachadh dathaich dathaiche dhathaich
+30	2330	reothadh	reodhadh reothaidh reothaidhean reòdh reòdhadh reòthadh reòthaidh ròthadh
+31	2331	sgeulaiche	sgeulaichean
+32	2332	acadamh	
+33	2333	bas	basan bhasan bois boise
+34	2334	bòid	bhoid bhòid bhòidean bòide bòidean mòid
+35	2335	teasach	teasaich teasaichean theasaich
+36	2336	leathar	leathair
+37	2337	faiceallach	faicealach faiceallaich faichilleach faicleach
+38	2338	ceithreamh	
+39	2339	rèididheachd	rèididheachdan réididheachd
+40	2340	riaghlach	riaghlaich
+41	2341	urchair	urchaire urchaireach urchairean urchrach urchraichean
+42	2342	dìochuimhnich	dhìochuimhneachadh dhìochuimhnich dhìochuimhnicheamaid dhìochuimhnichinn dhìochuimhnichist dhìochuimhnichiste dhìochuimhnichteadh dìochuimhneachadh dìochuimhnicheadh dìochuimhnicheam dìochuimhnicheamaid dìochuimhnichear dìochuimhnichibh dìochuimhnichidh dìochuimhnichinn dìochuimhnichist dìochuimhnichiste dìochuimhnichte dìochuimhnichteadh dìochuimhnichtear
+43	2343	gailearaidh	gailearaidhean gaileiridh gaileiridhean ghailearaidh
+44	2344	aithriseach	aithrisiche
+45	2345	dàimheach	dhàimheach dàimhich
+46	2346	neach-còmhnaidh	luchd-còmhnaidh
+47	2347	gaisgeil	ghaisgeil
+48	2348	meanbh-fhrìde	meanbh-fhrìdean mheanbh-fhrìde
+49	2349	solarach	sholarachadh solarachadh solaraich
+50	2350	acadaimigeach	
+51	2351	comannaichte	
+52	2352	aonan	aonain
+53	2353	bràthair-athar	bhràthair-athar
+54	2354	eisimeileach	eisimeilich
+55	2355	frith-bhaile	frith-bhailtean
+56	2356	ìomhaigheach	ìomhaighich
+57	2357	sprèidh	spreidh sprèidhe sprèidhean
+58	2358	sòisealtas	shòisealtas sòisealtais
+59	2359	reòthta	reòdhta reòidhte reòite reòta
+60	2360	slànaich	shlànachadh slànachadh slànachaidh slànaichidh slànaichte
+61	2361	tàlant	thàlant thàlantan tàlantan
+62	2362	consan	chonsan consain
+63	2363	itealaich	dh'itealaich itealachadh itealachaidh itealaiche itealaichean itealaichidh itealaichte
+64	2364	rothaich	
+65	2365	coimpiutaireachd	choimpiutaireachd
+66	2366	cuach	chuach cuachan cuaich
+67	2367	baranachd	bharanachd
+68	2368	poblachdach	phoblachdach
+69	2369	laogh	laogha laoghaibh laoghan laoigh
+70	2370	mainistir	mhainistir
+71	2371	brabhsair	bhrabhsair brabhsairean
+72	2372	sgurr	
+73	2373	comaig	chomaig comaigean
+74	2374	dream	dreamannan
+75	2375	clachair	chlachair clachairean
+76	2376	sìthean	shìtheanan shìthein sìtheanaibh sìtheanan t-sìthean t-sìthein
+77	2377	neach-reic	luchd-reic
+78	2378	cearclach	cearcallach cearclaich chearcallach chearclach
+79	2379	arbhar	arbhair t-arbhar
+80	2380	trus	thrus thrusadh truis truiste trusadh trusaidh trusta
+81	2381	fionn	fhinn fhionn finne fionna fionnte
+82	2382	sàbhail	sabhail shabhail shàbhail shàbhaileadh sàbhailidh
+83	2383	neo-aithnichte	
+84	2384	sloc	shloc slocan sluic
+85	2385	suirghe	t-suirghe
+86	2386	trafaig	thrafaig trafaige
+87	2387	aoir	aoire aoirean dh'aoir
+88	2388	sgòth	sgòtha sgòthan
+89	2389	cèic	cheic chèic chèicean cèice cèicean cèicichean
+90	2390	fàidh	fhàidh fàidhean
+91	2391	asgaidh	asgaidhe asgaidhean
+92	2392	meidigeach	mheidigeach
+93	2393	bioran	biorain bioranan
+94	2394	dìg	dig dìge dìgean dìgibh
+95	2395	bàt'-aiseig	bàta-aiseig bàtaichean-aiseig
+96	2396	sgamhan	sgamhain sgamhanan
+97	2397	crotal	cnotal crotail
+98	2398	tarbh	tairbh
+99	2399	àirigh	h-àirigh àiridh àiridhean àirighe àirighean
+100	2400	mearcar	mearcair mhearcair

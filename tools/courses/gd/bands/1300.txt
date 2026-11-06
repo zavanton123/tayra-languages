@@ -1,0 +1,100 @@
+1	1201	àicheil	
+2	1202	toradh	thoraidhean toraidhean
+3	1203	aithnich	aithnicheadh aithnicheam aithnicheamaid aithnichear aithnichibh aithnichidh aithnichinn aithnichist aithnichiste aithnichteadh aithnichtear dh'aithnich dh'aithnicheadh dh'aithnicheamaid dh'aithnichear dh'aithnicheas dh'aithnichinn dh'aithnichist dh'aithnichiste dh'aithnichteadh
+4	1204	caolas	caolais chaolais chaolas
+5	1205	co-sheòrsach	cho-sheòrsach co-sheòrsaich
+6	1206	ceannas	cheannais cheannas
+7	1207	tìodhlaic	thìodhlacadh tìodhlacadh tìodhlacaidh
+8	1208	ceòladair	ceòladairean cheòladair cheòladairean
+9	1209	cosnadh	chosnadh chosnaidh chosnaidhean cosnaidh cosnaidhean
+10	1210	iomlan	dh'iomlan h-iomlan iomlain iomlaine t-iomlan
+11	1211	cruinnich	chruinnich chruinnicheadh chruinnichear chruinnicheas cruinnichidh cruinnichte
+12	1212	easbaig	easbaige easbaigean h-easbaig t-easbaig
+13	1213	measgachadh	measgachaidh measgachaidhean mheasgachadh mheasgachaidh
+14	1214	fànas	fanas fhànais fhànas fànais fànasan
+15	1215	ceudna	cheudna
+16	1216	long	longan luinge luingean
+17	1217	niùclasach	niuclasach niuclasaich niùclach niùclasaich
+18	1218	saorsa	saorsainnean shaorsa t-saorsa
+19	1219	riochd	riochda riochdan
+20	1220	cladh	chladh chladhadh cladha cladhadh cladhaidh cladhan cladhte claidh
+21	1221	pailt	pailte phailt phailte
+22	1222	pàtran	patran patranan phatrain phatran phàtrain phàtran phàtranan pàtrain pàtranan
+23	1223	teacsa	teacsaichean theacsa theacsaichean
+24	1224	bàgh	bagh bhagh bhàgh bhàigh bàghan bàigh
+25	1225	earrann	earrainn earrainnean earrannan h-earrann
+26	1226	bathar	bathair bhathair
+27	1227	los	lois
+28	1228	cànanach	chànanach chànanaiche cànanaich cànanaiche
+29	1229	fireannach	fhireannach fhireannaich fireannaich
+30	1230	dàimh	daimh dhàimh dhàimhean dàimhe dàimhean dáimh
+31	1231	fiolm	fhiolm fhiolmaichean fiolmaichean
+32	1232	smaoin	smaoine smaointean smuain smuaintean
+33	1233	prìosanach	phrìosanach phrìosanachadh phrìosanaich phrìosanaicheadh prìosanachadh prìosanaich prìosanaichte
+34	1234	iomain	dh'iomain h-iomain iomaine iomainean
+35	1235	seasmhach	seasmhaiche sheasmhach
+36	1236	gual	ghuail ghual guail
+37	1237	coinnich	choinnich choinnicheadh coinnicheadh coinnichidh coinnichte
+38	1238	tinneas	thinneas thinneasan tinneasan tinneis
+39	1239	nòs	nos nòis nòsan nós
+40	1240	rèidh	rèidhean réidh
+41	1241	mòrchuid	mhòrchuid
+42	1242	giotàr	ghiotàir ghiotàr giotair giotar giotàir giotàraichean
+43	1243	àile	aile h-àile t-àile
+44	1244	seachdamh	seachdamhan sheachdamh t-seachdamh
+45	1245	treun	threasa threun treasa trèine
+46	1246	poileasaidh	phoileasaidh phoileasaidhean poileasaidhean
+47	1247	sìol	shìl shìol siol sìl t-sìol
+48	1248	iolra	iolran t-iolra
+49	1249	màl	mal mhal mhàil mhàl màil mál
+50	1250	bloigh	bhloigh bhloighe bhloighean bloighe bloighean
+51	1251	buannachadh	bhuannachadh buannachaidh buannachaidhean
+52	1252	plana	phlana phlanaichean planaichean
+53	1253	lùchairt	luchairt luchairtean lùchairte lùchairtean
+54	1254	seòladh	seoladh seòlaidh seòlaidhean sheòladh
+55	1255	aillse	dh'aillse h-aillse
+56	1256	sgàil	sgail sgàile sgàilean sgàileanan sgàilein
+57	1257	fògarrach	fhògarrach fhògarraich fògarraich
+58	1258	rann	rainn rannan
+59	1259	comataidh	chomataidh chomataidhean comataidhean
+60	1260	ogsaid	dh'ogsaidean ocsaid ocsaidean ogsaidean ogsaidein t-ogsaidean
+61	1261	tarsainn	tarsuinn tharsainn
+62	1262	tomhais	thomhais thomhaiseas tomhaiseadh tomhaisear tomhaisidh tomhaiste
+63	1263	gaisgeach	gaisgich ghaisgeach ghaisgich
+64	1264	craiceann	chraiceann chraicinn craicinn craicne craicnean
+65	1265	crochte	
+66	1266	dannsa	dannsaichean dhannsa
+67	1267	deasbad	deasbadan deasbaid dheasbad dheasbaid
+68	1268	fuadaich	fhuadach fhuadaich fuadach fuadaichean fuadaichte
+69	1269	eadhon	eadhain eadhan
+70	1270	riaghladair	riaghladairean
+71	1271	òb	ob obar t-òb tòb òba òban
+72	1272	òr	d'or dh'òr h-òr t-òr
+73	1273	cunntas	chunntas chunntasan cunntais cunntasaibh cunntasan cùnntas
+74	1274	ogha	odha oghachan oghaichean t-ogha ua
+75	1275	trèanadh	thrèanadh trèanaidh trèanaidhean
+76	1276	àrdachadh	ardachadh dh'àrdachadh àrdachaidh àrdachaidhean
+77	1277	rosg	rosgan ruisg
+78	1278	goireas	ghoireas ghoireasan goireasan goireis
+79	1279	comharraich	chomharraich chomharraicheadh chomharraicheas chomharraichte comharraichear comharraichidh comharraichte
+80	1280	tighearna	thighearna tighearnaibh tighearnan
+81	1281	fìrinn	fhirinn fhìrinn firinn firinnean fìrinne fìrinnean
+82	1282	dealachadh	dealachaidh dealachaidhean dhealachadh dhealachaidh
+83	1283	còignear	chòignear coignear còignearan còigneir cóignear cóignearan cóigneir
+84	1284	fulang	dh'fhulang fhulaing fhulang fulaing fulangan
+85	1285	crodh	chrodh chruidh cruidh
+86	1286	bratach	bhratach bhrataich bhrataichean brataich brataichean
+87	1287	boireann	bainionn bhoireann bhoirinn boirinn boirinne boirionn
+88	1288	casaid	casaide casaidean chasaid chasaide chasaidean
+89	1289	ailtire	ailtirean t-ailtire
+90	1290	meur	meuran meòir meòirean mheur
+91	1291	ochdamh	h-ochdamh ochdaimh ochdamhan t-ochdamh
+92	1292	deichead	deicheadan deicheid dheichead dheicheid
+93	1293	leac	leacan lic lice
+94	1294	feumail	feumaile fheumail
+95	1295	greiseag	ghreiseag ghreiseig greiseagan greiseig
+96	1296	feamainn	dh'fheamainn feamad feamainnidh feamainnte feamann feamnach feamnadh fheamainn fheamann
+97	1297	ballrachd	ballrachdan bhallrachd
+98	1298	roinneil	
+99	1299	ospadal	ospadail ospadalan t-ospadal
+100	1300	aithneachadh	aithneachaidh aithneachdan dh'aithneachadh h-aithneachadh

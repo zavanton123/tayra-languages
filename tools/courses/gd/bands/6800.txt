@@ -1,0 +1,100 @@
+1	6701	cùisire	cùisirean
+2	6702	ruathar	
+3	6703	geoimeatraidh	
+4	6704	caibideal	caibidealan
+5	6705	cunntachalachd	
+6	6706	sreapadaireachd	shreapadaireachd
+7	6707	spreagadh	
+8	6708	cartadh	chartadh
+9	6709	còinneachail	
+10	6710	èibhleag	èibhleagan
+11	6711	lèabag	
+12	6712	picleadh	phicleadh
+13	6713	letheach	
+14	6714	faoisid	
+15	6715	sannt	sainnt sannta
+16	6716	tàilleabhach	thàilleabhach tàilleabhaich
+17	6717	acrach	acorach acraiche ocrach ocrasach
+18	6718	iomarat	iomaratan
+19	6719	trustar	
+20	6720	mì-fhaiceallach	mì-fhaiceallaich
+21	6721	calpaire	calpairean
+22	6722	spadair	spadairean
+23	6723	sginn	sginnear
+24	6724	lethid	
+25	6725	rumach	
+26	6726	daonnaireachd	daonnaireachdan
+27	6727	mì-adhartach	
+28	6728	deachdadh	dheachdadh
+29	6729	leacag	leacagan leacaig
+30	6730	balbhan	balbhain balbhanan bhalbhan
+31	6731	maicreasgop	
+32	6732	spìc	spìcean
+33	6733	maoiseach	maoisich maoisichean maoisleach
+34	6734	sìoltachan	sìolachan sìoltachain
+35	6735	griùthlach	ghriùthlach
+36	6736	gealltanas	gealltaineas gealltanais gealltanasan
+37	6737	sùrdail	
+38	6738	sogan	sogain
+39	6739	deas-làmhach	deas-lamhach
+40	6740	robair	robairean
+41	6741	bradach	bradaiche
+42	6742	sgrìos	
+43	6743	olthigh	olthighean
+44	6744	bean-chràbhaidh	mnathan-chràbhaidh mnà-chràbhaidh
+45	6745	rithimeach	
+46	6746	foillseachair	
+47	6747	cunbhalachd	
+48	6748	roghainneil	
+49	6749	gaineamh	gaineimh
+50	6750	soircas	
+51	6751	meomhair	mheomhair
+52	6752	dàimheil	
+53	6753	stàiteil	
+54	6754	fileantas	
+55	6755	deamhnaidh	
+56	6756	diombuan	diom-buan diomain dìomain dìombuan
+57	6757	sèid	shèideamaid shèideas shèidinn shèidist shèidiste shèidteadh sèideam sèideamaid sèidean sèidear sèidibh sèidinn sèidist sèidiste sèidte sèidteadh sèidtear séid
+58	6758	toinisg	
+59	6759	furm	fuirm
+60	6760	dìosal	dìosail
+61	6761	sùbailteachd	
+62	6762	copaig	copaigeadh
+63	6763	gonadh	
+64	6764	tuairmeasach	
+65	6765	aiteamh	aiteamhan aiteimh
+66	6766	ath-ghairm	
+67	6767	gramataigeach	
+68	6768	bacaideach	
+69	6769	eadar-chur	
+70	6770	do-dhealaichte	
+71	6771	sèine	
+72	6772	sgròb	sgròbadh sgròbaidh sgròbte
+73	6773	anabaich	
+74	6774	geomatraidh	
+75	6775	barganaiche	bharganaiche
+76	6776	frith-bhailteach	
+77	6777	dubh-fhacal	dubh-fhacail dubh-fhaclan
+78	6778	dubh-cheist	dubh-cheiste dubh-cheistean
+79	6779	firean	fhirein
+80	6780	ceilg	
+81	6781	cealg	
+82	6782	tuaileasach	
+83	6783	pearsanachadh	phearsanachadh
+84	6784	tost	
+85	6785	sguad	
+86	6786	daithead	
+87	6787	prothaideach	
+88	6788	biùrocrasaidh	
+89	6789	sgòradh	
+90	6790	steigeach	
+91	6791	tagradaireachd	thagradaireachd
+92	6792	sìneadair	
+93	6793	suideachadh	shuideachadh
+94	6794	sàmhradh	shàmhraidh
+95	6795	ionnsramaideach	
+96	6796	coimhearp	coidhirp coimhearps coimhearsp coimhirp comharspa
+97	6797	oilbheumach	
+98	6798	cuairteach	
+99	6799	teisteas	teisteasan
+100	6800	cuairtear	chuairtear chuairteara cuairtearaibh cuairtearan cuairteir cuairteire

@@ -1,0 +1,100 @@
+1	4501	greadhnachas	ghreadhnachas
+2	4502	smàrag	smàragan
+3	4503	fallaing	fallaingean
+4	4504	cliùteach	chliùteach
+5	4505	siùrsach	sgiùrsach siùrsaich siùrsaichean siùrtach t-siùrsach
+6	4506	iomrallach	iomrallaiche
+7	4507	closach	chlosach closaich
+8	4508	deàrrsach	deàrrsaich dheàrrsach
+9	4509	goiriola	goiriolathan
+10	4510	clisgear	clisgearan clisgeir
+11	4511	cearbach	chearbach
+12	4512	deud	deid deudan
+13	4513	teampull	teampuill teampullan
+14	4514	àireamhair	àireamhairean
+15	4515	gailleann	gailleannan
+16	4516	cluasag	chluasag cluasagan cluasaig
+17	4517	còc	choc còcan
+18	4518	seun	seuna seunad seunaidh seunan seuntan seunte
+19	4519	buidh	bhuidh
+20	4520	uamhaire	fuamhairean uamhairean
+21	4521	trasg	traisg trasgan
+22	4522	dàrnacha	darnacha
+23	4523	càirean	chàirein càirein
+24	4524	uchd-mhacachd	dh'uchd-mhacachd uchd-mhacachdan
+25	4525	borbair	bhorbair
+26	4526	crudha	cruidhe cruidhean
+27	4527	fuaimneach	fuaimnichte
+28	4528	taigh-ceàirde	taighe-ceàirde taighean-ceàirde
+29	4529	teant	teanta teantaichean
+30	4530	nàimhdeas	nàimhdeis
+31	4531	sad	sadail shadadh
+32	4532	àrsair	àrsairean
+33	4533	ceilearadh	ceilearaidh ceilearaidhean cheilearadh
+34	4534	fuaigheal	fhuaigheal
+35	4535	sìmplich	shìmplicheadh sìmpleachadh
+36	4536	panal	panail panailean
+37	4537	barraid	barraidean
+38	4538	creim	chreimeadh creimeadh
+39	4539	mì-bhuaidh	mhì-bhuaidh
+40	4540	mòmaid	momaid mòmaide mòmaidean
+41	4541	dreachmhor	dhreachmhor
+42	4542	fionnar	fhionnar
+43	4543	fiadhain	fhiadhain
+44	4544	meatar	meataran
+45	4545	sgalag	sgalaig
+46	4546	trup	thrup
+47	4547	gualaisg	gualaisgean gualuisg gualuisgean
+48	4548	co-roinn	cho-roinn co-roinne co-roinnean co-roinnidh co-roinnte
+49	4549	minich	mhinich minicheadh
+50	4550	gleac	gleacaidh
+51	4551	cularan	chularan cularain
+52	4552	soilleirich	shoilleirich soilleirichidh soilleirichte
+53	4553	searmonaiche	searmonaichean shearmonaiche
+54	4554	maoim	maoime maoimean
+55	4555	comhfhurtachd	chomhfhurtachd
+56	4556	cruitheachd	chruitheachd cruitheachdan
+57	4557	breabadaireachd	bhreabadaireachd
+58	4558	bràthair-cèile	bhràthair-cèile bràithrean-cèile bràthar-cèile
+59	4559	barrantas	barrantasan
+60	4560	siubhalach	siubhalaich
+61	4561	eàrlas	eàrlais eàrlasan t-eàrlas àirleas
+62	4562	co-chothrom	co-chothroman co-chothruim
+63	4563	sitig	shitig
+64	4564	sùbh-craoibh	sùbhan-craoibh sùibh-chraoibh
+65	4565	flath	flaith flathan
+66	4566	lurgann	lurgainn lurgannan
+67	4567	aislingeach	aislingiche
+68	4568	òmar	òmair
+69	4569	deilbheadh	deilbhidh
+70	4570	for-uinneag	for-uinneagan for-uinneige
+71	4571	fo-chomataidh	fho-chomataidh
+72	4572	cartùn	cartùnaichean
+73	4573	fòineimeach	foineimeach fòineimich
+74	4574	cruth-clò	crutha-clò cruthan-clò
+75	4575	ruc	rucan
+76	4576	druman	drumain
+77	4577	fàbhar	fàbhair
+78	4578	lìomh	lìomha lìomhaidh lìomhan lìomhte
+79	4579	bonntaich	bhonntachadh bonntaichte
+80	4580	seanfhacal	seanfhacail seanfhacalan seanfhaclan
+81	4581	torraich	thorrachadh toraich torraichidh torraichte
+82	4582	crann-gaoithe	crainn-ghaoithe
+83	4583	spàin	spàine spàinean
+84	4584	cleith	chleith cleithe
+85	4585	moraireachd	mhoraireachd
+86	4586	fàilnich	fhàilnich fàilneachadh
+87	4587	seasgaich	seasgachadh sheasgachadh
+88	4588	baga	bagaichean bhagaichean
+89	4589	pìob-uilne	phìob-uilne
+90	4590	euslaint	euslainte euslaintean
+91	4591	teip	teipichean theipichean
+92	4592	sligheach	shligheach
+93	4593	sòn	sònaichean
+94	4594	atadh	ataidh ataidhean
+95	4595	bailteach	bhailteach
+96	4596	colonachd	cholonachd
+97	4597	rianaich	rianachadh rianaicheadh
+98	4598	soillsich	shoillsich shoillsichte
+99	4599	ceimeagair	cheimeagair
+100	4600	dlighe-sgrìobhaidh	dhlighe-sgrìobhaidh dlighean-sgrìobhaidh

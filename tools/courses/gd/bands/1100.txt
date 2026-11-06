@@ -1,0 +1,100 @@
+1	1001	riaraich	riarachadh riaraichidh riaraichte
+2	1002	faoileag	faoileagan faoileig faoileige fhaoileag
+3	1003	domhainn	dhoimhne dhomhainn doimhne
+4	1004	buidheag	buidheige
+5	1005	luach	luachan
+6	1006	a-measg	
+7	1007	ath-sgrùdadh	t-ath-sgrùdadh
+8	1008	margadh	marcaid margaid margaidean margaidh margaidhean mhargadh mhargaid mhargaidh mhargaidhean
+9	1009	sagart	sagairt sagairtean sagartan shagairt shagart t-sagart
+10	1010	buaireadh	bhuaireadh buairidh buairidhean
+11	1011	bàn-dhearg	bhàn-dhearg
+12	1012	stocainn	stocainne stocainnean
+13	1013	soisgeul	shoisgeul shoisgeulan soisgeil soisgeulan t-soisgeul
+14	1014	pòg	phòg phògadh pògadh pògaidh pògan pògte pòige
+15	1015	co-cheangail	cho-cheangal co-cheangailte co-cheangal co-cheanglaichean co-cheanglaidh
+16	1016	caractar	caractair caractaran charactair charactar charactaran
+17	1017	mèinn	mhèinn mhèinneadh mhèinnean mhèinnear mhèinnearan mèinne mèinneadh mèinnean mèinnear mèinnearan mèinnichean mèinnidh mèinnte
+18	1018	dèiligeadh	deiligeadh dhèiligeadh dèiligidh dèiligidhean déiligeadh
+19	1019	tuineachadh	thuineachadh thuineachaidhean tuineachaidh tuineachaidhean
+20	1020	rùm	rum rùim rùmaichean rùman rùmannan
+21	1021	greim	greime greimeadh greimean greimeannan greimidh
+22	1022	snog	snoga snoige
+23	1023	dealan	dealain dealanaibh dealanan dhealain dhealan dhealanan
+24	1024	sgudal	sgudail
+25	1025	tìde-mhara	tide-mhara tìdeachan-mara
+26	1026	nuadh	nuadha nuaidh nuaidhe
+27	1027	stampa	stampaichean
+28	1028	clì	chli chlì clí
+29	1029	sìobhalta	shiobhalta shìobhalta
+30	1030	lò	lo ló
+31	1031	feallsanaiche	feallsanaichean fheallsanaiche
+32	1032	claigeann	chlaigeann chlaiginn claiginn claignean
+33	1033	spot	spoit spotan
+34	1034	tomhas	thomhas tomhaisean tomhasan tòimhsean
+35	1035	ciod	
+36	1036	ugan	uga ugain ugannan
+37	1037	isean	iseanan isein t-isean
+38	1038	èiginneach	
+39	1039	sunndach	sùnndach
+40	1040	tiogaid	thiocaidean ticead ticeadan ticeard ticeid tiocaid tiogaide tiogaidean
+41	1041	leth-uair	
+42	1042	dìle	dile dìleann dìleannan dìlinn
+43	1043	furasta	fhasa fhurasta furasda
+44	1044	càirdeas	cairdeas cairdeis chàirdeas chàirdeis càirdeasan càirdeis
+45	1045	dar	
+46	1046	fiosaigeach	fhiosaigeach fhiosaigiche fhiosaigichean fiosaigiche
+47	1047	gàire	gàirean
+48	1048	dinnear	dhìnnearan dinnearach dinnearachan dinnearan dinneir dìnnear dìnneir
+49	1049	oidhch	
+50	1050	fionnadh	fionnaidh
+51	1051	ionmhuinn	annsa ionmhainn
+52	1052	làraidh	làiraidhean làraidhe làraidhean làraidhibh
+53	1053	eitean	eiteanan eitein eitnean
+54	1054	bris	bhris bhriseas
+55	1055	stiùiriche	
+56	1056	iomadachadh	dh'iomadachadh h-iomadachadh iomadachaidh
+57	1057	taigh-dhealbh	
+58	1058	snasail	
+59	1059	ceapaire	ceapairean cheapairean
+60	1060	aosta	aosda d'aosta
+61	1061	deireannach	deireannaiche dheireannach dheireannaich
+62	1062	sìneadh	shìneadh sineadh sìnidh sìnidhean
+63	1063	clamhan	chlamhan clamhain clamhanan
+64	1064	rèis	reis rèise rèiseadh rèiseamaid rèiseamaidean rèisean rèisidh réis
+65	1065	speuclairean	
+66	1066	rèidio	reidio rèidiothan réidio
+67	1067	ballach	
+68	1068	greannach	
+69	1069	tacsaidh	tacsaidhean
+70	1070	eudail	eudaile eudailean eudalach feudail feudalach
+71	1071	iomramh	iomraim iomraimh iomram ioramadh urmadh
+72	1072	manach	manaich mhanach mhanaich
+73	1073	prìobhaideach	phrìobhaideach phrìobhaidich priobhaideach
+74	1074	actair	actairean dh'actair t-actair
+75	1075	cead	ceada ceadan chead
+76	1076	spòrs	spors spòrsa spòrsachan spòrsan
+77	1077	fallas	fallais
+78	1078	cill	chill chille cille cilltean
+79	1079	flip	
+80	1080	siar	shiar
+81	1081	subhach	
+82	1082	cliop	cliopadh cliopaidh
+83	1083	coimheas	choimheas
+84	1084	droigheann	droighinn
+85	1085	seis	sheis
+86	1086	an-ath-sheachdain	
+87	1087	turchair	thurchair turchairidh turchairt
+88	1088	watchaig	waidsig watchadh watchaigeadh
+89	1089	cangarù	
+90	1090	mòr-roinn	mhòr-roinn mhòr-roinna mòr-roinne mòr-roinnean mòr-roinnibh
+91	1091	co-fharpais	cho-fharpais co-fharpaise co-fharpaisean
+92	1092	ìomhaigh	h-ìomhaigh iomhaigh ìomhaighean
+93	1093	rèile	rèilichean réile
+94	1094	eaconamach	eaconamaich eaconamaiche
+95	1095	dualchainnt	dhualchainnt dhualchainntean dual-chainnt dual-chainntean dualchainnte dualchainntean
+96	1096	cìs	chìs chìsean cìse cìsean
+97	1097	lìonadh	lionadh lionaidh lìonaidh lìonaidhean
+98	1098	clàraich	chlàrachadh chlàraich chlàraicheadh chlàraicheamaid chlàraichinn chlàraichist chlàraichiste chlàraichte chlàraichteadh clàrachadh clàraicheadh clàraicheam clàraicheamaid clàraichear clàraichibh clàraichidh clàraichinn clàraichist clàraichiste clàraichte clàraichteadh clàraichtear
+99	1099	tràillealachd	thràilleachd thràillealachd tràilleachd tràillealachdan
+100	1100	aonad	aonadan

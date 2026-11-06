@@ -1,0 +1,100 @@
+1	4701	teacsadh	
+2	4702	fuidheall	
+3	4703	muiltean	mhuiltean muilteanan muiltein
+4	4704	portagaileach	
+5	4705	marcach	
+6	4706	naomhaich	naomhaichear naomhaichidh naomhaichte
+7	4707	ath-leasachair	ath-leasachairean ath-leasaiche
+8	4708	sgrath	sgratha sgrathadh sgrathaidh sgrathan sgrathte
+9	4709	oilean	oilein
+10	4710	coiteachadh	coiteachaidh coiteachaidhean
+11	4711	roid	roide roidean
+12	4712	amhran	amhrain
+13	4713	tre	
+14	4714	cuaille	
+15	4715	cab	caban caib chab
+16	4716	coimeasg	choimeasgadh coimeasgadh
+17	4717	loinn	loinne
+18	4718	aisig	aisigeadh
+19	4719	sgal	sgala sgaladh sgalaidh sgalan sgalte
+20	4720	bùrach	bhùrach
+21	4721	dà-ghnèitheach	dà-ghnèithich
+22	4722	dùrachd	dhùrachd
+23	4723	faol	faoil fhaol
+24	4724	basgaid	basgaide basgaidean bhasgaid bhasgaidean
+25	4725	ceistear	cheistear
+26	4726	claradh	claraidh
+27	4727	druid	dhruid druide druideadh druidean druididh druidte truid
+28	4728	breàgha	bhreàgha
+29	4729	fo-thaghadh	fho-thaghadh fo-thaghaidh fo-thaghaidhean
+30	4730	slat-tomhais	slaite-tomhais slatan-tomhais t-slat-tomhais
+31	4731	mì-iomchaidh	mhì-iomchaidh
+32	4732	geàrd	geàird geàrdan gheàrd
+33	4733	collaidh	chollaidh collaidhean
+34	4734	gaidhlig	
+35	4735	sùith	saoith shùigheadh sùidh sùithe sùitheadh sùithidh sùithte sùthaidh
+36	4736	cunnt	chunnt cunnte cùnnt
+37	4737	eileagtronaigeach	
+38	4738	co-fhaireachdainn	cho-fhaireachdainn co-fhaireachdainnean
+39	4739	treubhach	
+40	4740	treòraiche	
+41	4741	crònan	
+42	4742	allail	allaile
+43	4743	uachdrach	
+44	4744	trom-inntinn	
+45	4745	pong	pongan
+46	4746	deuchainneach	
+47	4747	neach-tòiseachaidh	luchd-tòiseachaidh
+48	4748	buachar	buachair
+49	4749	cathair-cuibhle	cathrach-cuibhle cathraichean-cuibhle
+50	4750	ath-bhreith	
+51	4751	leth-bhràthair	
+52	4752	co-fhacal	co-fhacail co-fhaclan
+53	4753	grèidh	grèidhear grèidhte
+54	4754	luamhan	luamhain
+55	4755	fìrean	fìrein
+56	4756	gaisge	
+57	4757	iomagain	iomagaine iomagainean
+58	4758	riasg	
+59	4759	ath-thòisich	ath-thòiseachadh ath-thòisichidh ath-thòisichte
+60	4760	bìth	bìthe bíth
+61	4761	sop	
+62	4762	dobhar-chù	dobhar-choin
+63	4763	gamhainn	gaimhne gamhna
+64	4764	galla	gallachan
+65	4765	dìdean	dhìdean
+66	4766	còmhladh	còmhlaidh còmhlaidhean
+67	4767	crùban-coille	
+68	4768	ath-bhuailteach	
+69	4769	amar-ionnlaid	
+70	4770	bocanach	
+71	4771	aparan	
+72	4772	arspag	arspagan arspaige
+73	4773	almain	
+74	4774	gearra-mhuc	gearra-mhucaibh gearra-mhucan gearra-mhuic gearra-mhuice ghearra-mhuca
+75	4775	bealaidh	bealaidhean
+76	4776	bàrc	
+77	4777	easgann	easgainn easgainne easgannan
+78	4778	iadhadh	iadhaidh iadhaidhean n-iadhadh
+79	4779	paidirean	
+80	4780	nèamhaidh	
+81	4781	tropaigean	
+82	4782	cuinneag	
+83	4783	spuir	spuirean
+84	4784	daonn-eòlas	
+85	4785	cosmhail	
+86	4786	adharcach	adharcaich adharcaiche
+87	4787	gal	ghal
+88	4788	nuadhaich	nuadhachadh nuadhaichidh nuadhaichte
+89	4789	sreathach	shreathach
+90	4790	cliabhair	
+91	4791	peur	peuran pèire
+92	4792	briseadh-latha	
+93	4793	doile	
+94	4794	fionnsgeulach	fhionnsgeulach
+95	4795	làmhach	lámhach
+96	4796	fearsaid	
+97	4797	osag	
+98	4798	leac-sgrìobhadh	
+99	4799	iarunn	iaruinn
+100	4800	oitir	oitire oitirean

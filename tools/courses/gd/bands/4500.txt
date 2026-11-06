@@ -1,0 +1,100 @@
+1	4401	thoireadh	
+2	4402	buntainneach	
+3	4403	teileagram	teileagraim teileagraman
+4	4404	paca	
+5	4405	fallainn	
+6	4406	èildear	èildearan èildeir èillteir éildear
+7	4407	sùbh	sùbhan sùibh
+8	4408	leubail	leubaile leubailean leubailibh
+9	4409	sùgair	sùgairidh sùgairte sùgradh
+10	4410	curach	
+11	4411	tuairmeas	
+12	4412	seann-fhasanta	
+13	4413	ìmpidh	
+14	4414	ùtraid	ùtraidean
+15	4415	briathrach	briathraich
+16	4416	dearrsadh	dearrsaidhean deàrsadh
+17	4417	aimhreiteach	
+18	4418	lethcheud	
+19	4419	bàsmhorachd	
+20	4420	cach	chaich
+21	4421	ath-leasaich	ath-leasaichidh dh'ath-leasaich
+22	4422	braon	braoin
+23	4423	aintighearnail	
+24	4424	dòrainn	dòrainne dòrainnean
+25	4425	urrain	
+26	4426	bean-nighe	bhean-nighe
+27	4427	susbainteach	
+28	4428	coirbte	
+29	4429	athair-cèile	athar-cèile athraichean-cèile
+30	4430	saor-thoil	saor-thoile
+31	4431	seòmar-suidhe	seòmair-suidhe seòmraichean-suidhe
+32	4432	gnìomhas	gnìomhasan
+33	4433	litearrachd	litearrachdan
+34	4434	tamall	
+35	4435	leibheil	
+36	4436	grant	grantaichean
+37	4437	ainmnich	ainmneachadh
+38	4438	lagaich	lagaichidh lagaichte
+39	4439	buntanas	
+40	4440	dhoibh	
+41	4441	diofarach	
+42	4442	basaich	basaichte
+43	4443	comhaireachd	
+44	4444	deasbaireachd	
+45	4445	feannadh	feannaidh feannaidhean
+46	4446	saimeant	
+47	4447	coimeirsealta	
+48	4448	lìrean	
+49	4449	làthach	
+50	4450	mionnan	mhionnan
+51	4451	meilich	mheilich
+52	4452	dànachd	
+53	4453	muran	
+54	4454	fual	
+55	4455	freumhachadh	fhreumhachaidh fhreumhachaidhean freumhachaidh freumhachaidhean freumhachaidhibh
+56	4456	fòrladh	fòrlagh fòrlaidh fòrlaidhean
+57	4457	stròc	
+58	4458	gaiseadh	gaisidh gaisidhean
+59	4459	ochd-chasach	ochd-chasaich
+60	4460	staitistig	
+61	4461	ealantach	ealantaich
+62	4462	pongalachd	phongalachd
+63	4463	aibhseach	aibhsiche
+64	4464	sian	siantan
+65	4465	diabhlaidh	dhiabhlaidh
+66	4466	aom	aomadh
+67	4467	slis	slise slisean
+68	4468	taistealach	taistealaich
+69	4469	buinteanas	bhuinteanas buinteanais buinteanasan
+70	4470	bloc	bhloc bloca
+71	4471	smocadh	smocaidh smocaidhean
+72	4472	lamh	laimhe lamhan
+73	4473	cuime	cuim
+74	4474	àilean	dh'ailean h-àileanaibh h-àilein àileana àileanaibh àilein
+75	4475	teachd-an-tìr	theachd-an-tìr
+76	4476	cubhaidh	cubhaidhe
+77	4477	cuisle-chiùil	chuisle-chiùil cuislean-chiùil
+78	4478	clisg	chlisgeadh chlisgear clisgidh clisgte
+79	4479	onoir	h-onoir
+80	4480	ràn	ràin rànaich rànaidh rànail rànan rànte
+81	4481	mì-fhallain	mhì-fhallain
+82	4482	saobh-chràbhadh	saobh-chràbhaidh saobh-chràbhaidhean
+83	4483	aonarach	aonaraiche
+84	4484	fìos	fhìos
+85	4485	iomlanaich	iomlanachadh iomlanaichte
+86	4486	sgrìobag	sgrìobagan
+87	4487	comasachd	chomasachd
+88	4488	lèigheil	lèigheile
+89	4489	saobh	saobha saobhadh
+90	4490	mì-thuigsinn	mhì-thuigsinn mì-thuigsinnean
+91	4491	faoinsgeul	fhaoinsgeul
+92	4492	mì-chinnt	mì-chinnte mì-chinntean
+93	4493	bàidh	bhàidh bàidhe
+94	4494	dòigheil	dhòigheil
+95	4495	miadhail	mhiadhail
+96	4496	samhlachas	samhlachasan
+97	4497	brùite	bhrùite
+98	4498	boladh	bholaidh
+99	4499	cromleac	cromleacan
+100	4500	sàsaichte	sàthaichte

@@ -1,0 +1,100 @@
+1	6101	digear	
+2	6102	stiùradh	
+3	6103	puingeil	
+4	6104	facs	
+5	6105	bholcàno	bholcànothan
+6	6106	sùghmhor	
+7	6107	mathachas	
+8	6108	craobh-chuilinn	craobhan-cuilinn craoibhe-cuilinn
+9	6109	sòda	
+10	6110	brìd-eun	brìd-eòin brìdean
+11	6111	cabstair	
+12	6112	cachaileith	cachaileithean cachlaidh
+13	6113	norrag	norragan norraige
+14	6114	bàta-smùide	bhàta-smùide
+15	6115	mì-sheaghach	
+16	6116	ràta	ràtaichean
+17	6117	slabhacan	
+18	6118	teanntachd-cuim	teanntachdan-cuim theanntachd-cuim
+19	6119	sgoch	sgochadh
+20	6120	grìosaich	grìosadh grìosaichidh grìosaichte
+21	6121	maothaich	mhaothachadh
+22	6122	tacsa	
+23	6123	mìlseag	
+24	6124	faoineag	
+25	6125	smoc	
+26	6126	ruithteach	
+27	6127	pocaid	pocaidean
+28	6128	neo-chreidmheach	neo-chreideach neo-chreidmhich
+29	6129	gairbhe	ghairbhe
+30	6130	picil	
+31	6131	soineanntachd	t-soineanntachd
+32	6132	mì-shona	mhì-shona
+33	6133	treibhdhireach	
+34	6134	prògam	prògaman
+35	6135	fàilteachas	
+36	6136	toill	thoill
+37	6137	ulpag	ulpagan
+38	6138	ùisnich	ùisneachadh
+39	6139	geàrr-ainm	geàrr-ainmean
+40	6140	easbach	
+41	6141	crosgach	
+42	6142	bàta-luath	bàtaichean-luath
+43	6143	presentair	phresentair
+44	6144	staca	stacannan
+45	6145	sturrach	
+46	6146	àmhghar	
+47	6147	maidse	
+48	6148	figheadaireachd	
+49	6149	aimhleas	aimhleis
+50	6150	copaidh	chopaidhean copaidhean
+51	6151	os-bhiolait	os-bhiolaitean
+52	6152	connspeach	connspeachan connspeathaichean
+53	6153	muga	mugaichean
+54	6154	deàlraich	deàlradh
+55	6155	deilgneach	
+56	6156	stobach	
+57	6157	slat-iasgaich	t-slat-iasgaich
+58	6158	duineil	
+59	6159	foighidneach	faighidinneach faighidneach foighideach foighidinneach foighidnich
+60	6160	athais	
+61	6161	ùmhlaich	ùmhlachadh
+62	6162	roghnach	roghnaiche
+63	6163	smèid	smèideadh smèididh smèidte
+64	6164	bos	bhos
+65	6165	spliùchan	spliùchain
+66	6166	dànadas	dhànadas dànadais
+67	6167	rèidhlean	
+68	6168	bean-ghlùine	mnathan-ghlùine mnà-ghlùine
+69	6169	imlich	dh'imlicheadh dh'imlicheamaid dh'imlichinn dh'imlichist dh'imlichiste dh'imlichteadh ilimich imleach imleachadh imlicheadh imlicheam imlicheamaid imlichear imlichibh imlichidh imlichinn imlichist imlichiste imlichte imlichteadh imlichtear
+70	6170	inneir	innearach inneirean
+71	6171	beòthalachd	
+72	6172	deothal	deothail
+73	6173	altach	
+74	6174	monadail	
+75	6175	sìola	
+76	6176	àluinn	
+77	6177	briagh	briagha
+78	6178	crìdheil	
+79	6179	caoimhneil	
+80	6180	maduinn	mhaduinn
+81	6181	bùirich	bhùirich
+82	6182	snìpear	
+83	6183	agallaich	agallaichte
+84	6184	casgan	casganan
+85	6185	casaideachadh	chasaideachadh
+86	6186	fogharachd	
+87	6187	ceannaiche-siubhail	ceannaichean-siubhail
+88	6188	crubh	crubhan
+89	6189	siod	
+90	6190	clàbar	clàbair
+91	6191	ro-shealladh	ro-sheallaidh ro-sheallaidhean ro-sheallaidhibh
+92	6192	iomall-baile	
+93	6193	lodan	lodain lodanan
+94	6194	eadar-oibreachadh	eadar-obrachadh eadar-oibreachaidh eadar-oibreachaidhean
+95	6195	cunnradair	chunnradair
+96	6196	saoirsinneachd	
+97	6197	cròilean	cròileanan cròilein
+98	6198	aotromaich	aotromachadh
+99	6199	liùghag	liùghagan liùghaige
+100	6200	lùig	lùigeadh

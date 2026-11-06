@@ -1,0 +1,100 @@
+1	601	caochladh	caochlaidh caochlaidhean chaochladh chaochlaidh chaochlaidhean
+2	602	lèine	leine leintean lèineag lèineagan lèintean
+3	603	bruach	bhruach bhruacha bhruachan bhruaich bruachaibh bruachan bruaich bruaiche bruaichean
+4	604	suain	shuain shuaineadh suaine suainean t-suain
+5	605	leas	
+6	606	cupa	chupa cupachan cupannan
+7	607	caileag	caileagaibh caileagan caileig caileige chaileag chaileaga chaileagan chaileig
+8	608	fiach	b'fhiach dh'fhiach fhiach fhiachaibh fhiachan fiachaibh fiachan fèich
+9	609	cathair	cathrach cathraichean cathraichibh chathair chathraichean
+10	610	sealladh	seallaidh seallaidhean shealladh sheallaidhean t-sealladh
+11	611	tinn	thinn tinne
+12	612	seòl	seol seòlaibh seòlainn seòlaist seòlaiste seòlam seòlamaid seòlar seòlta seòltadh seòltar sheòl sheòlainn sheòlaist sheòlaiste sheòlamaid sheòltadh shiùil siùil t-seòl
+13	613	sliochd	shliochd sliochda sliochdan
+14	614	eadarnàiseanta	eadar-nàiseanta
+15	615	ceangailte	cheangailte
+16	616	malairt	malairte malairtean malairtidh mhalairt
+17	617	fiù	fhiù fiu
+18	618	traidiseanta	thraidiseanta tradiseanta
+19	619	millean	mhillean mhilleanan mhillein milleanan
+20	620	cilemeatair	chilemeatair chilemeatairean cilemeatairean
+21	621	ceàrn	cearn ceàrna ceàrnaidh ceàrnaidhean ceàrnan cheàrn cheàrna cheàrnaidh cheàrnaidhean cheàrnan
+22	622	dùn	dhùn dun dùintean
+23	623	cothrom	chothrom chothroman cothroim cothroman cothruim
+24	624	faireachdainn	faireachdainne faireachdainnean fhaireachdainn fhaireachdainnean
+25	625	imrich	dh'imrich h-imrich imriche imrichean imrichidh imrichte irimich irmich
+26	626	suidh	shuidh shuidhe shuidheamaid shuidheas shuidhinn shuidhist shuidhiste shuidhteadh suidheadh suidheam suidheamaid suidhear suidhibh suidhidh suidhinn suidhist suidhiste suidhte suidhteadh suidhtear
+27	627	comas	chomais chomas chomasan comais comasan
+28	628	soilleir	shoilleir shoilleire soilleire
+29	629	cleasaiche	chleasaiche chleasaichean cleasaichean
+30	630	ùidh	n-uidh ùidhe ùidhean
+31	631	càch	chàch chàich càich
+32	632	pàirc	phairc phàirc phàirce phàircean pàirce pàircean páirce
+33	633	eadar-dhealaichte	
+34	634	freagairt	fhreagairt freagairte freagairtean
+35	635	bad	badan baid bhad
+36	636	treas	threas
+37	637	coille	choille choilltean coilleadh coillidh coilltean coilltichean
+38	638	coinneamh	choinneamh choinneamhan choinneimh coinneamhan coinneimh
+39	639	eachdraidheil	eachdraidheile h-eachdraidheil
+40	640	tùr	thùir thùr tuir tur tùir tùran
+41	641	anabarrach	
+42	642	sguir	sguireadh sguireas sguiridh sguirte sgur
+43	643	tuig	thuig thuigear thuigeas thuigidh thuiginn thuigist thuigiste thuigteadh tuigeadh tuigeam tuigeamaid tuigear tuigibh tuigidh tuiginn tuigist tuigiste tuigte tuigteadh tuigtear
+44	644	còmhlan	chomhlan chòmhlain chòmhlan chòmhlanan comhlan comhlanan còmhlain còmhlanan
+45	645	ceimigear	ceimigearan cheimigear
+46	646	èigh	dh'èigh eigheachd èighe èigheach èigheachd èigheachdan èighean èighidh èighte éigh
+47	647	meatailt	meatailte meatailtean mheatailt mheatailtean
+48	648	pàrlamaid	phàrlamaid phàrlamaida phàrlamaidean pàrlamaidaibh pàrlamaidan pàrlamaide pàrlamaidean
+49	649	ìm	im ìme
+50	650	tòiseachadh	thoiseachadh thòiseachadh toiseachadh toiseachaidh tòiseachaidh tòiseachaidhean
+51	651	mìneachadh	mhineachadh mhìneachadh mhìneachaidh mhìneachaidhean mineachadh mìneachaidh mìneachaidhean
+52	652	teagamh	teagaimh teagamhan
+53	653	prògram	phrògraim phrògram phrògraman program programan prògraim prògramaibh prògraman
+54	654	ar-a-mach	ar-a-machaibh ar-a-machan ar-a-maich aramach aramachan aramaich dh'ar-a-mach h-ar-a-machaibh t-ar-a-mach
+55	655	drochaid	dhrochaid drochaide drochaidean
+56	656	ubhal	t-ubhal ubhail ubhlan ùbhal ùbhlan
+57	657	rìoghail	rioghail
+58	658	seirbheis	seirbheise seirbheisean sheirbheis sheirbheisean t-seirbheis
+59	659	anmoch	ainmach anamoch anmoich anmoiche
+60	660	bruich	bhruich bhruicheadh bhruicheamaid bhruichinn bhruichist bhruichiste bhruichteadh bruicheadh bruicheam bruicheamaid bruichear bruichibh bruichidh bruichinn bruichist bruichiste bruichte bruichteadh bruichtear
+61	661	fianais	dh'fhianais fhianais fhianaise fianaise fianaisean
+62	662	rìbhinn	ribhinn rìbhinne rìbhinnean
+63	663	sgoilear	sgoilearan sgoileir
+64	664	còcaireachd	chòcaireachd cocaireachd
+65	665	eaconomaidh	dh'eaconomaidh eaconamaidh eaconamaidhean eaconomaidhean h-eaconomaidh t-eaconomaidh
+66	666	son	shon
+67	667	puing	phuing phuingean puingan puinge puingean puingibh
+68	668	riochdaire	
+69	669	càise	caise chàise càis càisean
+70	670	boireannach	bhoireannach bhoireannacha bhoireannachaibh bhoireannaich boireannachaibh boireannaich boireannaiche
+71	671	teis-meadhan	teis-meadhon
+72	672	oifis	h-oifis oifise oifisean
+73	673	dàil	dhàil dàlach dàlaichean
+74	674	uaireannan	
+75	675	ball-coise	bhall-coise buill-coise
+76	676	farsaingeachd	dh'fharsaingeachd farsaingeachdan fharsaingeachd
+77	677	trèan	thrèan thrèana thrèanaichean trèana trèanaichean trèante
+78	678	tadhal	tadhail tadhalaichean tadhalan thadhail thadhal
+79	679	oighreachd	dh'oighreachd h-oighreachd oighreachdan t-oighreachd
+80	680	àraid	araid h-araid h-àraid àraide
+81	681	suarach	shuarach suaraich suaraiche
+82	682	truagh	thruagh truagha
+83	683	tachrais	tachras thachras
+84	684	claidheamh	chlaidheamh chlaidheamhan chlaidhnean claidheamhan claidheimh claidhnean
+85	685	lios	liosa liosan lise
+86	686	neul	neòil
+87	687	taing	tainge thaing
+88	688	tràigh	thraigh thràigheadh thràigheamaid thràighean thràighinn thràighist thràighiste thràighteadh traigh traighean tràgha tràghad tràghadh tràghaidh tràighe tràigheadh tràigheam tràigheamaid tràighean tràighear tràighibh tràighidh tràighinn tràighist tràighiste tràighte tràighteadh tràightear tràinnean
+89	689	roth	rotha rothan
+90	690	airidh	airidhe h-airidh
+91	691	fàgail	fagail fhagail fàgaile fàgailean
+92	692	cultar	chultair chultar chultaran cultair cultaran cultur culturan
+93	693	preas	phreas preasa preasadh preasaidh preasan preaste
+94	694	meatair	meatairean mheatair mheatairean
+95	695	ciall	chiall cèill cèille
+96	696	samhla	samhladh samhlaichean samhlaidh samhlaidhean samhlaidhibh shamhla shamhladh shamhlaidh shamhlaidhean t-samhla t-samhlaidh
+97	697	aithghearr	aithghearran aithghiorra dh'aithghearr h-aithghearr
+98	698	ceimigeach	cheimigeach cheimigich
+99	699	tòir	thòir
+100	700	nèamh	neamh nèamhan nèimh
