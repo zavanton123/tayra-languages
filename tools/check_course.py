@@ -141,9 +141,9 @@ def fold(code, word):
     # And the Gaelic (a', b', dh'fhàg).
     if code == "gd":
         return word.replace("’", "'").replace("ʼ", "'").replace("‘", "'")
-    # Persian words are matched as the reader matches them: ک and ی for ك and ي, no marks.
+    # Persian words are matched as the reader matches them: ک and ی for ك and ي, no marks, no non-joiner.
     if code == "fa":
-        return frequency_persian.persian_fold(word)
+        return frequency_persian.bare(frequency_persian.persian_fold(word))
     return word
 
 
