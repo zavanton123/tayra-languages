@@ -10,7 +10,7 @@
 10	6110	brìd-eun	brìd-eòin brìdean
 11	6111	cabstair	
 12	6112	cachaileith	cachaileithean cachlaidh
-13	6113	norrag	norragan norraige
+13	6113	norrag	norragan norraig norraige
 14	6114	bàta-smùide	bhàta-smùide
 15	6115	mì-sheaghach	
 16	6116	ràta	ràtaichean
@@ -18,7 +18,7 @@
 18	6118	teanntachd-cuim	teanntachdan-cuim theanntachd-cuim
 19	6119	sgoch	sgochadh
 20	6120	grìosaich	grìosadh grìosaichidh grìosaichte
-21	6121	maothaich	mhaothachadh
+21	6121	maothaich	maothachadh mhaothachadh
 22	6122	tacsa	
 23	6123	mìlseag	
 24	6124	faoineag	
@@ -32,8 +32,8 @@
 32	6132	mì-shona	mhì-shona
 33	6133	treibhdhireach	
 34	6134	prògam	prògaman
-35	6135	fàilteachas	
-36	6136	toill	thoill
+35	6135	fàilteachas	fàilteachais
+36	6136	toill	thoill thoilleadh
 37	6137	ulpag	ulpagan
 38	6138	ùisnich	ùisneachadh
 39	6139	geàrr-ainm	geàrr-ainmean
@@ -51,7 +51,7 @@
 51	6151	os-bhiolait	os-bhiolaitean
 52	6152	connspeach	connspeachan connspeathaichean
 53	6153	muga	mugaichean
-54	6154	deàlraich	deàlradh
+54	6154	deàlraich	deàlradh deàlraichidh
 55	6155	deilgneach	
 56	6156	stobach	
 57	6157	slat-iasgaich	t-slat-iasgaich
@@ -95,6 +95,6 @@
 95	6195	cunnradair	chunnradair
 96	6196	saoirsinneachd	
 97	6197	cròilean	cròileanan cròilein
-98	6198	aotromaich	aotromachadh
+98	6198	aotromaich	aotromachadh aotromaichidh
 99	6199	liùghag	liùghagan liùghaige
 100	6200	lùig	lùigeadh

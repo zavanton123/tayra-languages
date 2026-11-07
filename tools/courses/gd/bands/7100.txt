@@ -9,7 +9,7 @@
 9	7009	slapag	slapagan slapaige
 10	7010	eunadair	eunadairean
 11	7011	solar	sholar
-12	7012	tuirneap	
+12	7012	tuirneap	tuirneapan
 13	7013	crostachd	
 14	7014	sgoltadh-inntinn	sgoltaidh-inntinn
 15	7015	dadaidh	
@@ -17,7 +17,7 @@
 17	7017	agat	
 18	7018	amaideachd	amaideachdan
 19	7019	tionnsgalachd	
-20	7020	stàlaich	stàlaichear
+20	7020	stàlaich	stàlaichear stàlaichidh
 21	7021	grafaigeachd	
 22	7022	sealaidheachd	
 23	7023	mòrchuiseach	
@@ -31,7 +31,7 @@
 31	7031	tuathanachail	
 32	7032	rèiteach	rèitichean
 33	7033	socaid	
-34	7034	fèithlean	
+34	7034	fèithlean	fèithlein
 35	7035	cathair-ghàirdeanach	
 36	7036	cathair-uilne	cathrach-uilne cathraichean-uilne
 37	7037	goirmean-searradh	
@@ -54,7 +54,7 @@
 54	7054	riabhag-choille	riabhagan-coille riabhaige-coille
 55	7055	tàcharan-cubhaige	tàcharan-cuthaig
 56	7056	beadaidh	
-57	7057	òtrach	
+57	7057	òtrach	òtraich
 58	7058	trasna	
 59	7059	dram	dramannan dràm
 60	7060	bioda	biodan
@@ -81,7 +81,7 @@
 81	7081	blog	bhlog
 82	7082	feann	feannainn
 83	7083	innean	
-84	7084	trombòn	
+84	7084	trombòn	trombòin
 85	7085	eisimpleireach	
 86	7086	snap	snaip snapadh snapaidh snapan snapta
 87	7087	frith-shràid	frith-shràide frith-shràidean
