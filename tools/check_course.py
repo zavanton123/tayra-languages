@@ -28,6 +28,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LISTS = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "composeResources", "files", "frequency")
 WORD = re.compile(r"[^\W\d_]+(?:['’][^\W\d_]+)*", re.UNICODE)
 BAND = 100
+# Hindi words as the reader cuts them (its wordCharacters in PredefinedLanguages.kt): Latin and Devanagari letters, vowel
+# signs, virama, nukta and Devanagari digits, without the danda; Python's \w leaves out the signs and would cut every word.
+HINDI_WORD = re.compile(r"[a-zA-Z\u0900-\u0963\u0966-\u097f\u200c\u200d]+")
 
 
 def rules(rank_up_to):
@@ -408,6 +411,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return gaelic_tokens(text, ranks, names)
     if code in FINNIC:
         return finnic_tokens(text, code)
+    if code == "hi":
+        return HINDI_WORD.findall(text)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -2232,6 +2237,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Cwestiynau:", "", text)
         if code == "ka":
             text = re.sub(r"(?m)^კითხვები:", "", text)
+        if code == "hi":
+            text = re.sub(r"(?m)^सवाल:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
@@ -2315,6 +2322,9 @@ def check(path, brief=False):
         # A Bosnian name spelled as an ekavian word (Zenica, zjenica's) is a name.
         for t in sorted({t for t in lowered if t in serbian and not (code == "bs" and t in names)}):
             problems.append(f"'{t}' is ekavian: write {serbian[t]} (ijekavian Bosnian)" if code == "bs" else f"'{t}' is Serbian or ekavian: write {serbian[t]} (ijekavian Croatian)")
+        # The reader keeps a full stop after some Hindi words (है., था.) as part of the word: sentences end with the danda.
+        if code == "hi" and re.search(r"[\u0900-\u097f]\.(?!\.)", lesson["text"]):
+            problems.append("a sentence ends with '.': write the danda '।'")
         for t in sorted({t for t in lowered if code in ("hr", "bs") and croatian_joined_future(t, words)}):
             problems.append(f"'{t}' joins the future as Serbian writes it: write {croatian_joined_future(t, words)}")
         for new in lesson.get("newWords", []):
