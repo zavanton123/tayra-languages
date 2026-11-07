@@ -186,6 +186,10 @@ WORD_POS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", 
 
 # Per-language corrections, reviewed by hand.
 from frequency_fixes import ARABIC_CUT, ARABIC_WHOLE, DISPLAY, EXCLUDE, KOREAN_APART, KOREAN_CUT, KOREAN_STEMS, KOREAN_WHOLE, OVERRIDES, SLOVAK_NEGATIVE_VERBS  # noqa: E402
+import frequency_persian  # noqa: E402
+
+OVERRIDES["fa"] = frequency_persian.PERSIAN_OVERRIDES
+EXCLUDE["fa"] = frequency_persian.PERSIAN_EXCLUDE
 
 # How common another word must be, against the form itself, to take a form that is also a word:
 # a more common word ("era" to "ser"), or a less common one of a kind that inflects for
@@ -199,8 +203,9 @@ INFLECTED_TAKEOVER = 0.2
 MAX_LEMMAS_PER_FORM = 6
 # Forms considered per word, most common first; the app matches saved words against them.
 FORMS_PER_WORD = 40
-# Where a word has more: a Welsh word has its mutations and contractions as well (fod, mae'n, sy'n, i'r).
-FORMS_PER_WORD_OF = {"cy": 120}
+# Where a word has more: a Welsh word has its mutations and contractions as well (fod, mae'n, sy'n, i'r);
+# a Persian verb has each form with and without the non-joiner, and in the spoken spellings.
+FORMS_PER_WORD_OF = {"cy": 120, "fa": 150}
 
 
 # Languages whose words are written in Chinese characters or kana.
@@ -2103,6 +2108,8 @@ def normalise(language, form):
     # Subtitles write some Hindi letters with nukta as one character (ड़ as U+095C), which NFC writes as two, as the pack does.
     if language == "hi":
         return unicodedata.normalize("NFC", form)
+    if language == "fa":
+        return frequency_persian.persian_fold(form)
     return form
 
 
@@ -3006,6 +3013,8 @@ def load_dictionary(language):
         hindi_spellings(db, pos, lemmas, common)
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
+    if language == "fa":
+        frequency_persian.load(db, pos, lemmas, common)
     if language in FINNIC_OWN_SENSES:
         own, plain = finnish_kinds(db, lemmas, language)
         for word, kinds in unlisted.items():
@@ -3446,7 +3455,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         if language == "ko":
             return korean_guess(form)
         # simplemma takes Arabic words for others of their root (انت for آن); the Arabic list knows its forms itself.
-        if language == "ar":
+        if language in ("ar", "fa"):
             return None
         nominal = lithuanian_nominal(form) if language == "lt" and not form.endswith(("ti", "tis")) else None
         if lemmatizer is None or len(form) < 2 or not is_wordlike(form) or not lemmatizer.is_known(form):
@@ -4027,6 +4036,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             return {form: 1.0}
         elif language == "ar" and form in ARABIC_CLITICS:
             return {form: 1.0}
+        elif language == "fa":
+            return frequency_persian.shares(form, is_word, count, freq, pos)
         elif language == "sk" and "verb" in pos.get(form, set()) and slovak_positive(form):
             return {slovak_positive(form): 1.0}
         elif language in ("hr", "bs") and is_word(form) and form in pos and croatian_ijekavian(form):
@@ -4656,7 +4667,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     # A Korean form shared by verbs (산다 of 살다 and 사다, 준다 of 주다 and 줄다) is listed under one it goes to
     # KOREAN_LISTED times less than to another only for its share of the count: a course counts 산다 as no use of 사다.
     main = {}
-    if language in ("ko", "ar"):
+    if language in ("ko", "ar", "fa"):
         for word in ranked:
             for form, share in forms[word].items():
                 if form not in main or share > forms[main[form]][form]:
