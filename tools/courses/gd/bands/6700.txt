@@ -32,7 +32,7 @@
 32	6632	iadhaire	iadhairean
 33	6633	nearbh	nearbhan
 34	6634	brog	bhrogan
-35	6635	daonnachas	
+35	6635	daonnachas	daonnachais
 36	6636	sgàla	sgàlaichean
 37	6637	seach-thìm	seach-thìme seach-thìmean
 38	6638	geasag	gheasagan
@@ -44,14 +44,14 @@
 44	6644	caillteanach	
 45	6645	fìreanachadh	fhìreanachadh
 46	6646	dlùth-chomann	dlùth-chomainn
-47	6647	lethcheann	
+47	6647	lethcheann	lethcheannan
 48	6648	feòirling	feòirlingean
 49	6649	cathadh	cabhadh cathaidh cathaidhean
 50	6650	croinic	croinicean
 51	6651	colaisteach	
 52	6652	fraidhig	fraidhigeadh fraidhigidh fraidhigte fraighig fraighigte
 53	6653	nasg	
-54	6654	acraich	acrachaidh
+54	6654	acraich	acrachadh acrachaidh
 55	6655	tosgaireachd	
 56	6656	seòladh-lìn	seòlaidh-lìn seòlaidhean-lìn
 57	6657	ro-shuidhich	ro-shuidhicheadh ro-shuidhicheam ro-shuidhicheamaid ro-shuidhichear ro-shuidhichibh ro-shuidhichidh ro-shuidhichinn ro-shuidhichist ro-shuidhichiste ro-shuidhichte ro-shuidhichteadh ro-shuidhichtear
@@ -85,7 +85,7 @@
 85	6685	neach-lìbhrigidh	luchd-lìbhrigidh
 86	6686	cuòram	
 87	6687	tonnach	
-88	6688	ceumnaiche	
+88	6688	ceumnaiche	ceumnaichean
 89	6689	seòmar-luinge	seòmair-luinge seòmraichean-luinge
 90	6690	eadar-mheadhanach	
 91	6691	smaoineachail	

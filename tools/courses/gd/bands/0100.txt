@@ -1,7 +1,7 @@
 1	1	an	'n a' a's am d'an nam nan
 2	2	bi	bh' bha bhatar bhathar bhathas bheil bhi bhiodh bhiomaid bhios bhite bhiteadh bhith bhitheadh bhithear bhitheas bhithinn bhithist bhithiste bhà bidh biodh biomaid bitear bith bitheadh bitheam bitheamaid bithear bitheas bithibh bithidh bithinn chan eil eilear eileas robh robhas th' tha thatar thathar thathas thà
 3	3	a	
-4	4	ann	'na 'nad 'nam 'nan 'nar 'nur annad annaibh annainn annam annamsa annsan annta anntasan b'ann h-ann innte nad nar nur
+4	4	ann	'na 'nad 'nam 'nan 'nar 'nur annad annaibh annainn annainne annam annamsa annsan annta anntasan b'ann h-ann innte nad nar nur
 5	5	e	b'e b'esan esan h-e h-esan
 6	6	air	airsan oirbh oirbhse oirnn oirnne oirre oirrese orm ormsa orra orrasan ort
 7	7	is	's b' bhitheamaid bu
