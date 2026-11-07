@@ -624,6 +624,27 @@ def russian_name_forms(names):
     return forms
 
 
+def armenian_name_forms(names):
+    """
+    The case forms of Armenian names, from their regular declension, with the article: Արամ, Արամը, Արամն, Արամի, Արամին,
+    Արամից, Արամով, Արամում, Արամենց; Աննա, Աննան, Աննայի, Աննային, Աննայից, Աննայով; Անի, Անին, Անիի, Անիից; Երևանում.
+    A name of several words gives the forms of each part.
+    """
+    forms = set()
+    for name in names:
+        for part in re.split(r"[\s-]+", fold("hy", name.lower().translate(ARMENIAN_WORD_MARKS))):
+            if not part:
+                continue
+            forms.add(part)
+            if part[-1] in "աո":
+                forms.update(part + e for e in ("ն", "յի", "յին", "յից", "յով", "յում", "յենց"))
+            elif part[-1] in "եէիու":
+                forms.update(part + e for e in ("ն", "ի", "ին", "ից", "ով", "ում", "ենց"))
+            else:
+                forms.update(part + e for e in ("ը", "ն", "ի", "ին", "ից", "ով", "ում", "ենց"))
+    return forms
+
+
 UKRAINIAN_SOFTENED = {"г": "з", "к": "ц", "х": "с"}
 
 
@@ -2204,6 +2225,11 @@ def check(path, brief=False):
         names = names | russian_name_forms(course.get("names", []))
     if code == "uk":
         names = names | ukrainian_name_forms(course.get("names", []))
+    # Armenian names take the article and the case endings (Արամը, Աննայի, Երևանում); a name of several words (Լոս Անջելես)
+    # counts as one known word wherever it is written whole.
+    if code == "hy":
+        names = names | armenian_name_forms(course.get("names", []))
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     # Croatian names decline as Serbian ones do (Ana, Ane; Zagreb, Zagrebu; Split, Splitu).
     if code in ("sr", "hr", "bs"):
         names = names | serbian_name_forms(course.get("names", []))
@@ -2375,7 +2401,9 @@ def check(path, brief=False):
         if code == "fa":
             text = re.sub("(?m)^پرسش\u200cها:", "", text)
         if code == "hy":
-            text = re.sub(r"(?m)^Հարցեր[:։]", "", text)
+            text = re.sub(r"(?m)^Հարցեր[:։․]", "", text)
+            # A number's ending written after a hyphen (ժամը 7-ին, 5-րդ, 1990-ական) is part of the number.
+            text = re.sub(r"(?<=\d)-[\u0561-\u0587]+", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
