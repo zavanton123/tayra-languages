@@ -241,6 +241,43 @@ def chinese_tokens(text, ranks, code="zh"):
 
 # A word the checker counts as known whatever its rank: a name, a number.
 KNOWN = "\u0000name"
+_thai = {}
+
+
+def thai_reader():
+    """
+    The Thai cut of the reader with the th-en pack installed: ThaiParser by the shipped list's words and forms and the pack's,
+    and the shipped list's ranks, not the courses' pinned one's.
+    """
+    if not _thai:
+        import sqlite3
+        import build_frequency_list as fl
+        words, ranks = fl.list_ranks(open(os.path.join(LISTS, "th.tsv"), encoding="utf-8").read())
+        path = os.path.join(ROOT, "dictionaries", "th-en.sqlite")
+        if not os.path.exists(path):
+            sys.exit(f"Thai courses need the th-en pack at {path}")
+        db = sqlite3.connect(path)
+        pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms")}
+        _thai.update(run=fl.THAI_RUN, segment=fl.segmenter("th", {w for w in words | pack if w and " " not in w}, ranks))
+    return _thai
+
+
+def thai_spans(text):
+    """
+    The Thai words of [text] as the reader cuts them (ThaiParser), with where each starts and ends: each run of letters into its
+    likeliest words by their ranks, never inside a syllable, letters no word covers one word together. ๆ, the Thai digits and
+    anything not Thai are no words.
+    """
+    reader = thai_reader()
+    out = []
+    for match in reader["run"].finditer(text):
+        at = match.start()
+        for word in reader["segment"](match.group(0)):
+            out.append((word, at, at + len(word)))
+            at += len(word)
+    return out
+
+
 _mecab = []
 
 
@@ -373,6 +410,8 @@ def georgian_name(word, names):
 def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=None):
     if code == "ka":
         return GEORGIAN_WORD.findall(text)
+    if code == "th":
+        return [word for word, _, _ in thai_spans(text)]
     if code == "ja":
         return japanese_tokens(text, ranks)
     if code == "zh":
@@ -2074,8 +2113,8 @@ def check(path, brief=False):
     # So is a Galician one (A Coruña, Santiago de Compostela, O Porriño).
     if code == "gl":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
-    # Chinese writes no spaces, so every name is matched whole, the longest first.
-    if code in ("zh", "ja"):
+    # Chinese writes no spaces, so every name is matched whole, the longest first; and so does Thai.
+    if code in ("zh", "ja", "th"):
         long_names = sorted(course.get("names", []), key=len, reverse=True)
     if code == "ru":
         names = names | russian_name_forms(course.get("names", []))
@@ -2133,7 +2172,7 @@ def check(path, brief=False):
     report = []
     # Where each new word is taught, by its forms: a Chinese lesson must not use a word a later lesson teaches.
     taught_in = {}
-    if code in ("zh", "ja", "ko"):
+    if code in ("zh", "ja", "ko", "th"):
         for j, later in enumerate(course["lessons"], start=1):
             for new in later.get("newWords", []):
                 key = fold(code, new.lower())
@@ -2143,6 +2182,12 @@ def check(path, brief=False):
     for i, lesson in enumerate(course["lessons"], start=1):
         text = lesson["text"]
         whole_names = 0
+        # The reader knows no names: a Thai name must start and end where the reader's words do, or it runs into the words around it.
+        run_on = []
+        if code == "th":
+            edges = {at for _, start, end in thai_spans(text) for at in (start, end)}
+            run_on = sorted({name for name in long_names for found in re.finditer(re.escape(name), text)
+                             if found.start() not in edges or found.end() not in edges})
         for name in long_names:
             if code in ("da", "nl", "no", "sv"):
                 # The genitive of a name of several words goes with it (Maja Holms, Jan de Vries').
@@ -2239,6 +2284,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^კითხვები:", "", text)
         if code == "hi":
             text = re.sub(r"(?m)^सवाल:", "", text)
+        if code == "th":
+            text = re.sub(r"(?m)^คำถาม:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
@@ -2314,7 +2361,7 @@ def check(path, brief=False):
             else:
                 outside[t] = rank
         coverage = known / max(1, len(lowered))
-        problems = []
+        problems = [f"the reader runs the name '{name}' into the words around it: rewrite around it" for name in run_on]
         if coverage < need:
             problems.append(f"coverage {coverage:.1%} < {need:.0%}")
         if not shortest <= len(lowered) <= longest:
