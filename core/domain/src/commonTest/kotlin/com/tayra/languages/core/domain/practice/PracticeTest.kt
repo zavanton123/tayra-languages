@@ -142,6 +142,15 @@ class PracticeTest {
         assertEquals(listOf(ExerciseType.GAP), PracticeBuilder.build(words.take(3), pageWords, random = Random(1), setup = setup).map { it.type }.distinct())
     }
 
+    /** Matching is only answered by choosing: a setup that only speaks asks none, even with matching ticked. */
+    @Test
+    fun noMatchingRoundWhenAnswersAreOnlySpoken() {
+        val setup = PracticeSetup(types = setOf(ExerciseType.MATCHING, ExerciseType.GAP), responses = setOf(PracticeResponse.SPEAK), adaptive = false)
+        val asked = PracticeBuilder.build(words + word("casa", "at home", "Eu fico em casa.") + word("lar", "home", "O meu lar."), pageWords, random = Random(1), setup = setup)
+        assertTrue(asked.isNotEmpty())
+        assertTrue(asked.none { it.type == ExerciseType.MATCHING }, asked.map { it.type }.toString())
+    }
+
     /** A sentence of three to eight words with a translation is built from its words, shuffled out of order; others are not. */
     @Test
     fun aShortTranslatedSentenceIsBuiltFromItsWords() {

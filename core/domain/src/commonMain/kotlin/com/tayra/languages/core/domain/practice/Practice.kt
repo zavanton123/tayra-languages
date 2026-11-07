@@ -308,7 +308,8 @@ object PracticeBuilder {
         val choices = WrongChoices(pageWords, alikes, families)
         val targets = words.distinctBy { it.key }.shuffled(random)
         // Matching is one question on several words, asked first; the rest go round the words one by one.
-        val matching = if (ExerciseType.MATCHING in setup.types) matching(targets, random) else null
+        // Only when it can be answered the chosen way: a setup kept with matching ticked may now only speak.
+        val matching = if (setup.rotation.any { it.first == ExerciseType.MATCHING }) matching(targets, random) else null
         val rotation = setup.rotation.filter { it.first != ExerciseType.MATCHING }
         val original = PracticeContext.ORIGINAL in setup.contexts
         val elsewhere = if (PracticeContext.EXAMPLE in setup.contexts) examples else emptyMap()
