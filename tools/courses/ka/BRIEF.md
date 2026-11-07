@@ -170,28 +170,28 @@ giants, a poor man's luck) without saints, devils or miracles; *საქარ�
 never the wine of the *სუფრა*.
 
 Skip band words that only fit these topics, and say so in your report. The skip list for the first
-1000 ranks (ranks of the pinned list):
+1000 ranks and a little beyond (ranks of the pinned list):
 
-- religion: *ეკლესია* 59, *ტაძარი* 190, *წმინდა* 221, *მონასტერი* 410, *რელიგიური* 539, *ღმერთი* 638,
-  *ჯვარი* 704, *სული* 759, *რელიგია* 792, *სასულიერო* 926, *საეკლესიო* 963, *პაპი* 994;
-- politics: *სახელმწიფო* 42, *საბჭო* 52, *მუნიციპალიტეტი* 60, *ეროვნული* 66, *მეფე* 71, *პარტია* 94,
-  *მთავრობა* 97, *პოლიტიკური* 102, *სამეფო* 117, *პრეზიდენტი* 118, *მინისტრი* 138, *არჩევნები* 186,
-  *ხელისუფლება* 188, *პარლამენტი* 237, *სამინისტრო* 253, *იმპერია* 271, *პოლიტიკა* 345, *ლიდერი* 354,
-  *მმართველობა* 373, *თავმჯდომარე* 376, *საარჩევნო* 405, *ტახტი* 415, *იმპერატორი* 455,
-  *დემოკრატიული* 465, *დამოუკიდებლობა* 478, *მმართველი* 485, *პოლიტიკოსი* 509, *ოპოზიცია* 520,
-  *დედოფალი* 536, *დინასტია* 572, *ფედერაცია* 587, *რეზოლუცია* 674, *კონსტიტუცია* 675, *დეპუტატი* 707,
-  *რევოლუცია* 783, *ძალაუფლება* 784, *ნაციონალური* 839, *საპარლამენტო* 855, *გუბერნატორი* 965;
-- war, crime, police, courts: *ომი* 72, *ბრძოლა* 103, *სამხედრო* 116, *სასამართლო* 226, *არმია* 246,
-  *ციხე* 273, *ჯარი* 328, *იარაღი* 458, *დაამარცხებს* 566, *შეიარაღებული* 734, *თავდაცვა* 760,
-  *ჯარისკაცი* 773, *თავდასხმა* 822, *მტერი* 831, *საბრძოლო* 895, *ძალადობა* 917, *მსხვერპლი* 986;
-- death: *სიკვდილი* 439, *გარდაცვალება* 522;
-- alcohol: *ღვინო* 962;
-- names, place adjectives, peoples and languages: *ქართული* 82, *ქართველი* 148, *რომი* 293, *აჭარა* 394, *რუსული* 422, *ევროპული* 503, *ამერიკელი* 506, *ამერიკული* 526, *კავკასია* 578, *რუსი* 585,
-  *ინგლისური* 659, *ფრანგი* 666, *გერმანული* 682, *ფრანგული* 754, *ბერძნული* 847, *სომხური* 900,
-  *გერმანელი* 906, *სომეხი* 974, *თურქი* 989, *ინგლისელი* 995;
-- news and list noise: *კორონავირუსი* 324 and *პანდემია* 858 (teach *ვირუსი* only as an ordinary
-  cold), *ძე* 380 and *ასული* 960 (old words for son and daughter, from names), *სახელობა* 355 (only in
-  "named after"), *ეგ* 984 (holds the abbreviation *მაგ.*).
+- religion: *ეკლესია* 106, *ტაძარი* 285, *წმინდა* 340, *მონასტერი* 600, *რელიგიური* 742, *ღმერთი* 844,
+  *ჯვარი* 932, *სული* 938, *რელიგია* 872, *სასულიერო* 1199, *საეკლესიო* 1228, *პაპი* 1156;
+- politics: *სახელმწიფო* 82, *საბჭო* 94, *მუნიციპალიტეტი* 107, *ეროვნული* 113, *მეფე* 125, *პარტია* 160,
+  *მთავრობა* 155, *პოლიტიკური* 171, *სამეფო* 185, *პრეზიდენტი* 161, *მინისტრი* 226, *არჩევნები* 268,
+  *ხელისუფლება* 292, *პარლამენტი* 363, *სამინისტრო* 389, *იმპერია* 411, *პოლიტიკა* 466, *ლიდერი* 496,
+  *მმართველობა* 548, *თავმჯდომარე* 551, *საარჩევნო* 594, *ტახტი* 606, *იმპერატორი* 652,
+  *დემოკრატიული* 658, *დამოუკიდებლობა* 599, *მმართველი* 681, *პოლიტიკოსი* 712, *ოპოზიცია* 724,
+  *დედოფალი* 739, *დინასტია* 795, *ფედერაცია* 811, *რეზოლუცია* 884, *კონსტიტუცია* 887, *დეპუტატი* 937,
+  *რევოლუცია* 1019, *ძალაუფლება* 970, *ნაციონალური* 1084, *საპარლამენტო* 1111, *გუბერნატორი* 1230;
+- war, crime, police, courts: *ომი* 115, *ბრძოლა* 176, *სამხედრო* 184, *სასამართლო* 346, *არმია* 384,
+  *ციხე* 396, *ჯარი* 482, *იარაღი* 626, *დაამარცხებს* 787, *შეიარაღებული* 964, *თავდაცვა* 994,
+  *ჯარისკაცი* 955, *თავდასხმა* 1059, *მტერი* 908, *საბრძოლო* 1167, *ძალადობა* 765, *მსხვერპლი* 1168;
+- death: *სიკვდილი* 588, *გარდაცვალება* 693;
+- alcohol: *ღვინო* 683;
+- names, place adjectives, peoples and languages: *ქართული* 111, *ქართველი* 174, *რომი* 412, *აჭარა* 583, *რუსული* 530, *ევროპული* 703, *ამერიკელი* 274, *ამერიკული* 381, *კავკასია* 798, *რუსი* 808,
+  *ინგლისური* 634, *ფრანგი* 806, *გერმანული* 899, *ფრანგული* 427, *ბერძნული* 1029, *სომხური* 1171,
+  *გერმანელი* 1032, *სომეხი* 1236, *თურქი* 1176, *ინგლისელი* 1180;
+- news and list noise: *კორონავირუსი* 476 and *პანდემია* 1113 (teach *ვირუსი* only as an ordinary
+  cold), *ძე* 560 and *ასული* 1223 (old words for son and daughter, from names), *სახელობა* 485 (only in
+  "named after"), *ეგ* 665 (holds the abbreviation *მაგ.*).
 
 Further on, the same categories hold; for example *ბერი*, *მღვდელი*, *ხატი*, *შობა*, *აღდგომა*,
 *ეშმაკი*, *სამოთხე*, *ჯოჯოხეთი*, *მეფობა*, *ომის*, *ქვევრი*, *მარანი*, *ჭაჭა*, *ლუდი*, *სიგარეტი*,
@@ -247,13 +247,17 @@ Things to know about the Georgian list and the checker:
 - The courses are pinned to the list they were written against, `tools/courses/ka/wordlist.tsv`
   (a copy of the app's `ka.tsv`); the checker reads it instead of the app's list, so a rebuilt app
   list does not move the bands. The `bands/*.txt` files come from it and from `extra_forms.tsv`.
-- **The list is counted from news and Wikipedia**: there is no Georgian subtitle or everyday corpus
-  in it. Encyclopedic words rank early (*მოსახლეობა* 27, *მუნიციპალიტეტი* 60, *საუკუნე* 87,
-  *კედელი* 121, *ფართობი* 207) and everyday words late: *ჩვენ* 230, *მამა* 233, *ბავშვი* 235, *დედა* 279, *პატარა* 291, *მიდის* 500, *მეგობარი* 505, *ექიმი* 541, *ოთახი* 796, *ფული* 809, *ბიჭი* 1211,
-  *ძაღლი* 1319, *მადლობა* 1762, *ტელეფონი* 1871, *გუშინ* 1607, *ბებია* 1981, *ლამაზი* 2013, *გოგო* 2192, *ხვალ* 2699, *ყავა* 2720, *კატა* 2860, *ჭამს* 3198, *დიახ* 4024, *გამარჯობა* 4639. In the early
-  bands lean on names, digits and the band's own words, and spend the outside words on what the
-  story cannot do without (*ამბობს* 137 for dialogue, *ჰყავს* 249 for people). Many band words are
-  bookish: teach them in a plain everyday use (a school report, a map, a town's numbers).
+- **The list is counted from news and Wikipedia, with everyday sentences blended in** (Tatoeba's and
+  Common Voice's Georgian, a quarter of the weight). There is no Georgian subtitle corpus, so the list
+  still leans bookish: encyclopedic words rank early (*მოსახლეობა* 57, *მუნიციპალიტეტი* 107, *საუკუნე*
+  137, *კედელი* 189, *ფართობი* 319), while everyday words now come early too: *შენ* 15, *ჩვენ* 20,
+  *ძალიან* 32, *სად* 78, *უყვარს* 79, *რატომ* 88, *ვინ* 130, *ბავშვი* 150, *დედა* 166, *მიდის* 180,
+  *ძაღლი* 181, *ჭამს* 195, *მამა* 196, *ფული* 205, *მეგობარი* 206, *ხვალ* 233, *პატარა* 278, *კატა* 342,
+  *გუშინ* 349, *ექიმი* 358, *ოთახი* 405, *ლამაზი* 446, *ყავა* 581, *ტელეფონი* 662, *მადლობა* 674,
+  *ბიჭი* 697, *გოგო* 910, *გამარჯობა* 1197, *დიახ* 1978, *ბებია* 2327. In the early bands lean on names,
+  digits and the band's own words, and spend the outside words on what the story cannot do without
+  (*ჰყავს* 103 for people, *ოჯახი* 109, *ქალი* 110). Some band words are bookish: teach them in a plain
+  everyday use (a school report, a map, a town's numbers).
 - **How the checker reads Georgian**, as the app's reader does: a word is a run of Georgian letters.
   A hyphen, an apostrophe, a digit or a Latin letter ends it, so *ერთ-ერთი* is *ერთ* + *ერთი* (both
   list words, fine to write) and *2020-ში* leaves a word *ში* (no word: never write it). Latin
@@ -273,14 +277,14 @@ Things to know about the Georgian list and the checker:
   *იქნება* of *არის*). The regular present, imperfect and subjunctive forms the pack lacked
   (*ამბობენ*, *ვცხოვრობ*, *ვხედავდით*) were added by rule (`extra_forms.tsv`); other missing forms
   you report.
-- **Pronouns and little words**: *ის* 4 holds *მას*, *მან*, *მის*, *იმ*; *ისინი* 13 holds *მათ*;
-  *მისი* 11 "his/her" and *მათი* 75 "their" are entries; *მე* 81 holds *ჩემთვის*, but *ჩემი* 416,
-  *ჩვენ* 230, *ჩვენი* 263, *შენ* 1823, *შენი* 1511 and *თქვენ* 1092 come late; *ეს* 5 holds *ამ*,
-  *ამის*, *ამას*; *რომელი* 19 and *რომელიც* 6 are two entries, *კი* 21 is both "yes" and "but, and"
+- **Pronouns and little words**: *ის* 4 holds *მას*, *მან*, *მის*, *იმ*; *ისინი* 14 holds *მათ*;
+  *მისი* 16 "his/her" and *მათი* 97 "their" are entries; *მე* 5 holds *ჩემთვის*; *ჩემი* 28,
+  *ჩვენ* 20, *შენ* 15, *შენი* 59 and *თქვენ* 21 are in the first band, *ჩვენი* 156 in the second;
+  *ეს* 3 holds *ამ*, *ამის*, *ამას* and *ესე* (of *ესე იგი* "that is"); *რომელი* 27 and *რომელიც* 10 are two entries, *კი* 23 is both "yes" and "but, and"
   (*ეს კი...*); *და* 1 is "and" and "sister" (*დის*, *დას*, *დები*).
-- **Homographs and words filed under another**: *წელს* 7 "this year" and *დღეს* 134 "today" are
-  entries of their own beside *წელი* 3 and *დღე* 111; *თავი* 45 is "head", "self" (*თავისი* 36 "his
-  own") and "chapter"; *მხარე* 74 "side, region" and *მხარი* "shoulder" share *მხრის*; a verbal noun is
+- **Homographs and words filed under another**: *წელს* 13 "this year" and *დღეს* 75 "today" are
+  entries of their own beside *წელი* 8 and *დღე* 83; *თავი* 41 is "head", "self" (*თავისი* 43 "his
+  own") and "chapter"; *მხარე* 122 "side, region" and *მხარი* "shoulder" share *მხრის*; a verbal noun is
   often its verb's (*მიღება* of *მიიღებს*, *დახმარება*, *შეცვლა*), so teach the verb through its other
   forms. Use a new word in its own sense, never through its homograph.
 - Common forms the list misses go in `extra_forms.tsv` (headword, a tab, the forms). Every headword
@@ -288,13 +292,13 @@ Things to know about the Georgian list and the checker:
   write around it and name the word and form in your report.
 - **Names** are not in the list: people, places and brands go in `names`. Never a name that is also
   a list word: as characters avoid *ია*, *ლალი*, *თინა*, *ნატო*, *გია*, *ირაკლი*, *მანანა*, *ეთერი*
-  (list words or forms of them); as places *ბორჯომი* (the mineral water, 6700), *აჭარა* 394 and
-  *რომი* 293 are list words. Check a name with `rank.py` before you use it. Safe in the pilot:
+  (list words or forms of them); as places *ბორჯომი* (the mineral water, 6858), *აჭარა* 583 and
+  *რომი* 412 are list words. Check a name with `rank.py` before you use it. Safe in the pilot:
   *ნინო*, *თამუნა*, *ეკა*, *ლევანი*, *მაკა*, *მზია*, *ქეთი*, *ნანა*, *დათო*, *ნათია*, *საბა*,
   *ელენე*, *ლაშა*, *სოფო*, *სალომე*, *ბექა*, *ნათელა*, *გიორგი*, *ლუკა*, *ანა*, *ნიკა*; places
   *თბილისი*, *ქუთაისი*, *ბათუმი*, *რუსთავი*, *თელავი*, *გორი*, *მესტია*, *ახალციხე*, *კახეთი*. The
-  months are in the list (*მარტი* 132, *იანვარი* 150, *მაისი* 155, *დეკემბერი* 158, *აგვისტო* 187 ...),
-  the days of the week late (*კვირა* 579 is "week" and "Sunday"; *ორშაბათი* 6668, *შაბათი* 6456).
+  months are in the list (*მარტი* 218, *იანვარი* 246, *მაისი* 236, *დეკემბერი* 234, *აგვისტო* 290 ...),
+  the days of the week late (*კვირა* 457 is "week" and "Sunday"; *ორშაბათი* 6829, *შაბათი* 4063).
 - The list's form lists are noisy (old and rare spellings, look-alikes); a new word must appear
   as itself or a true inflection, never through such a form. Some entries are names, abbreviations
   or fragments: skip them. Loanwords Georgian uses as its own (*ინტერნეტი*, *ვიდეო*, *ფეხბურთი*,
