@@ -2,16 +2,17 @@ package com.tayra.languages.core.domain.parse
 
 /**
  * Persian: space-delimited, with the zero-width non-joiner inside a word (می‌روم and کتاب‌ها are one word each; the
- * language's word characters hold it). Words are matched in Persian letters, ك as ک and ي or ى as ی, and without marks
- * (واقعاً as واقعا, خانهٔ as خانه), so a word has one status however a text writes it. Enclitics stay on their word.
+ * language's word characters hold it). Words are matched in Persian letters, ك as ک and ي or ى as ی, without marks
+ * (واقعاً as واقعا, خانهٔ as خانه) and without the non-joiner (می‌روم as میروم, as texts often write it), so a word has
+ * one status however a text writes it. Enclitics stay on their word.
  *
- * tools/frequency_persian.py folds words the same way (persian_fold); keep the two the same.
+ * tools/frequency_persian.py folds words the same way (persian_fold, then bare); keep the two the same.
  */
 class PersianParser : SpaceDelimitedParser() {
 
     override val name: String get() = "Persian"
 
-    override fun lowercase(text: String): String = fold(text).lowercase()
+    override fun lowercase(text: String): String = packForm(text).lowercase()
 
     companion object {
         const val ZWNJ = '‌'
@@ -31,7 +32,7 @@ class PersianParser : SpaceDelimitedParser() {
             return out.toString().trim(ZWNJ)
         }
 
-        /** [fold], and without the non-joiner, as the dictionary packs' forms tables write a word. */
+        /** [fold], and without the non-joiner: a word as it is matched, and as the dictionary packs' forms tables write it. */
         fun packForm(text: String): String = fold(text).replace(ZWNJ.toString(), "")
 
         private fun isMark(c: Char): Boolean = c in 'ً'..'ٟ' || c == 'ٰ' || c == 'ـ'

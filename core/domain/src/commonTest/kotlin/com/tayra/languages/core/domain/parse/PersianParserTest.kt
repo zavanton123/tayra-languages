@@ -26,7 +26,13 @@ class PersianParserTest {
         assertEquals("کتاب", language.lowercase("كتاب"))
         assertEquals("ایران", language.lowercase("ايران"))
         assertEquals("موسی", language.lowercase("موسى"))
-        assertEquals("می‌کند", language.lowercase("مي‌كند"))
+        assertEquals("میکند", language.lowercase("مي‌كند"))
+    }
+
+    @Test
+    fun aWordIsMatchedWithOrWithoutItsNonJoiner() {
+        assertEquals(language.lowercase("میروم"), language.lowercase("می‌روم"))
+        assertEquals("کتابها", language.lowercase("کتاب‌ها"))
     }
 
     @Test
