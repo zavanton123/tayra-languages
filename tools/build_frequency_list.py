@@ -207,7 +207,7 @@ MAX_LEMMAS_PER_FORM = 6
 # Forms considered per word, most common first; the app matches saved words against them.
 FORMS_PER_WORD = 40
 # Where a word has more: a Welsh word has its mutations and contractions as well (fod, mae'n, sy'n, i'r);
-# a Persian verb has each form with and without the non-joiner, and in the spoken spellings.
+# a Persian verb has its spoken forms as well (میرم, میخوام, میتونی).
 FORMS_PER_WORD_OF = {"cy": 120, "fa": 150}
 
 
@@ -4696,6 +4696,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # A Korean form of a word sent to another by hand (해야할 of 해야하다, 해야 하다 written as one) is listed
         # however many forms come before it: the reader finds no word of the list for it otherwise.
         everything = counted
+        if language == "fa":
+            # The reader matches a Persian word without its non-joiners: one form for both spellings.
+            counted = frequency_persian.bare_forms(word, counted)
         cap = FORMS_PER_WORD_OF.get(language, FORMS_PER_WORD)
         counted = counted[:cap] + [f for f in counted[cap:] if f in required or (language == "ar" and f in ARABIC_SHARED) or (
             language == "ko" and lemmas.get(f) and all(overrides.get(l, [l]) != [l] for l in lemmas[f]))]
@@ -4738,6 +4741,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             shown = max(spelled, key=count) if spelled else shown
             listed_as.add(shown)
         lines.append(shown + "\t" + " ".join(counted))
+    if language == "fa":
+        # And a Persian verb's standard forms, which subtitles and web text seldom write (نمی‌نویسید, خوانده‌اند).
+        lines = frequency_persian.with_conjugations(lines)
     return "\n".join(lines) + "\n", label
 
 

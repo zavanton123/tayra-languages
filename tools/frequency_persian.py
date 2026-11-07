@@ -2,10 +2,12 @@
 Persian for tools/build_frequency_list.py and tools/check_course.py.
 
 The reader keeps the zero-width non-joiner inside a word (می‌روم, کتاب‌ها are one word each) and matches words with ك, ي
-and ى as ک and ی, without marks (PersianParser); so do these. The pack's forms table is written without the non-joiner
-(میروم, کتابها), so a form is looked up without it, and a form the pack lacks is its word by its endings, never by simplemma,
-which files می‌شود under کرد. Without vowels the table also names look-alikes (کوه of که, سیاه of سه, پیر of پدر): a word
-with a sense of its own keeps its count, unless PERSIAN_OVERRIDES sends it to a verb it is mostly a form of (کند of کردن).
+and ى as ک and ی, without marks and without the non-joiner (PersianParser); so do these: a word is counted with its
+spellings apart (persian_fold) and listed with its forms as the reader matches them (bare). The pack's forms table is
+written without the non-joiner too. A form the pack lacks is its word by its endings (کتابش, خانه‌اش) or by a verb's stems
+(می‌تواند, باشد), never by simplemma, which files می‌شود under کرد. Without vowels the table also names look-alikes (کوه of
+که, سیاه of سه, پیر of پدر): a word with a sense of its own keeps its count, unless PERSIAN_OVERRIDES sends it to a verb it
+is mostly a form of (کند of کردن). Each verb is listed with the forms of its simple tenses, which subtitles seldom write.
 """
 import json
 import os
@@ -39,6 +41,18 @@ _OWN_KINDS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det"
 # The other packs, in the order their words are taken; and how they gloss a plural ("Pluriel de فیلم", "زن 的複數").
 _OTHER_PACKS = ("fa-ru.sqlite", "fa-fr.sqlite", "fa-zh.sqlite", "fa-pl.sqlite")
 _PLURAL_GLOSS = re.compile(r"pluriel|複數|复数|множ|liczba mnoga|forme|форма", re.I)
+
+# A verb's person endings, longest first (the spoken ه, ن, ین too), with "" for the past's third person (رفت); the
+# perfect's (رفته, رفته‌ام, written without the non-joiner); the object pronouns after them (دیدمش).
+_PERSONS = ("هاند", "هاید", "هایم", "هاست", "های", "هام", "یم", "ید", "ند", "ین", "ه", "م", "ی", "د", "ن", "")
+_PAST_ENDINGS = ("هاند", "هاید", "هایم", "هاست", "های", "هام", "")
+_OBJECTS = ("شان", "تان", "مان", "شون", "تون", "مون", "ش", "ت", "م")
+# How many forms of a verb in the pack's table show a present stem before it counts as one.
+_STEM_EVIDENCE = 3
+_BARE_PRESENT = {"باش": "بودن", "توان": "توانستن", "خواه": "خواستن", "شو": "شدن"}
+PAST_STEMS = {}
+PRESENT_STEMS = {}
+_STEM_FORMS = {}
 
 OWN = set()
 FORM_OF = defaultdict(list)
@@ -118,6 +132,7 @@ def load(db, pos, lemmas, common):
             if lemma != key and lemma not in ROWS[key]:
                 ROWS[key].append(lemma)
     lemmas.clear()
+    _verb_stems(pos)
 
 
 def _other_words(db, pos, forms):
@@ -154,6 +169,62 @@ def _verb_form(plain, forms, pos):
     return False
 
 
+def _bare_verb(plain):
+    """A verb's form without its prefix and person ending: each (prefix, ending, stem) it may be (نمیتونم: نمی, م, تون)."""
+    for prefix in ("نمی", "می", "ب", "ن", ""):
+        if not plain.startswith(prefix):
+            continue
+        rest = plain[len(prefix):]
+        for pronoun in ("",) + _OBJECTS:
+            if pronoun and not rest.endswith(pronoun):
+                continue
+            body = rest[:len(rest) - len(pronoun)]
+            for ending in _PERSONS:
+                if body.endswith(ending) and len(body) - len(ending) >= 2:
+                    yield prefix, ending, body[:len(body) - len(ending)]
+
+
+def _verb_stems(pos):
+    """The verbs' past stems (رفت of رفتن), and the present stems their forms with می in the pack's table show (رو, توان)."""
+    seen = defaultdict(lambda: defaultdict(set))
+    for form, of in ROWS.items():
+        if not form.startswith("می"):
+            continue
+        for verb in of:
+            if "verb" not in pos.get(verb, ()):
+                continue
+            for _, ending, stem in _bare_verb(form[2:]):
+                if ending not in _PAST_ENDINGS:
+                    seen[stem][verb].add(form)
+    for verb, kinds in pos.items():
+        if "verb" in kinds and verb.endswith("ن") and len(verb) > 2:
+            PAST_STEMS.setdefault(verb[:-1], verb)
+    for stem, verbs in seen.items():
+        for verb, forms in verbs.items():
+            _STEM_FORMS[stem, verb] = forms
+        verbs = [v for v, forms in verbs.items() if len(forms) >= _STEM_EVIDENCE]
+        if verbs and stem not in PAST_STEMS:
+            PRESENT_STEMS[stem] = verbs
+    for stem, verb in _BARE_PRESENT.items():
+        PRESENT_STEMS.setdefault(stem, [verb])
+
+
+def _conjugated(plain, pos):
+    """
+    The verbs a form is by its stem, where the pack's table lacks the form: a past stem with its endings (توانست,
+    رفته‌ام), or a present stem with می (می‌تواند, میتونم), with ب or ن if it is no short one (بتواند; not برام), and
+    alone with an ending only as the few verbs write it (باشد, تواند, خواهد, شود).
+    """
+    found = []
+    for prefix, ending, stem in _bare_verb(plain):
+        if stem in PAST_STEMS:
+            found.append(PAST_STEMS[stem])
+        elif stem in PRESENT_STEMS and ending not in _PAST_ENDINGS and (
+                prefix in ("می", "نمی") or prefix and len(stem) > 2 or stem in _BARE_PRESENT and ending):
+            found += PRESENT_STEMS[stem]
+    return [v for v in dict.fromkeys(found) if "verb" in pos.get(v, ())]
+
+
 def _rows(form, pos):
     """The words the pack rightly names for a form written without the non-joiner: verbs, and nouns it is related to."""
     return [l for l in ROWS.get(form, ()) if "verb" in pos.get(l, ()) or _related(form, l)]
@@ -183,6 +254,7 @@ def _stems(plain, written):
     """
     What a word may be with an ending off it, the endings that fit: جایم of جا, خانه‌اش of خانه, not کتابات of کتاب. An
     ending in ا after a vowel (ام, اش, ای) is written after the non-joiner (خانه‌ام, کتابی‌ام): پیام is no پی with ام.
+    The checker, which reads words without the non-joiner as the reader does, gives no [written] spelling.
     """
     for ending in _NOMINAL_ENDINGS:
         if not plain.endswith(ending) or len(plain) - len(ending) < 2:
@@ -190,7 +262,7 @@ def _stems(plain, written):
         stem = plain[:-len(ending)]
         if ending in _AFTER_VOWEL_PRONOUNS and stem[-1] not in "اوهی":
             continue
-        if (ending == "ای" or ending in _AFTER_VOWEL_PRONOUNS and ending[0] == "ا") and not written.endswith(ZWNJ + ending):
+        if written and (ending == "ای" or ending in _AFTER_VOWEL_PRONOUNS and ending[0] == "ا") and not written.endswith(ZWNJ + ending):
             continue
         yield ending, stem
 
@@ -231,10 +303,58 @@ def shares(form, is_word, count, freq, pos):
                     targets = verbs
                     break
         if not targets:
+            targets = [t for t in _conjugated(plain, pos) if is_word(t)]
+        if not targets:
             return {}
     weights = {t: _mass(t, freq, pos) or 1e-12 for t in targets}
     whole = sum(weights.values())
     return {t: w / whole for t, w in weights.items()}
+
+
+def bare_forms(word, counted):
+    """A word's forms as the reader matches them, most common first: without the non-joiner, the word's own among them."""
+    return list(dict.fromkeys(([bare(word)] if ZWNJ in word else []) + [bare(f) for f in counted]))
+
+
+def with_conjugations(lines):
+    """A built list's lines, each verb's with the forms of its simple tenses (conjugations) no line has yet, best rank first."""
+    listed = set()
+    for line in lines:
+        if not line.startswith("#"):
+            word, _, forms = line.partition("\t")
+            listed.add(bare(word))
+            listed.update(forms.split())
+    out = []
+    for line in lines:
+        word, _, forms = line.partition("\t")
+        made = [] if line.startswith("#") else [f for f in conjugations(word) if f not in listed]
+        listed.update(made)
+        out.append(line + "".join(" " + f for f in made) if made and forms else word + "\t" + " ".join(made) if made else line)
+    return out
+
+
+def conjugations(verb):
+    """
+    The forms of a verb's simple tenses, as the reader matches them: its past stem with the person endings, with ن, می and
+    نمی, and as the perfect (رفته, رفته‌ام); its present stems in the pack's table with می, نمی, ب and ن (the subjunctive
+    and imperative). None that is a word with a sense of its own.
+    """
+    past = verb[:-1]
+    if PAST_STEMS.get(past) != verb:
+        return []
+    stems = [stem for stem, verbs in PRESENT_STEMS.items() if verb in verbs]
+    made = []
+    for ending in ("م", "ی", "", "یم", "ید", "ند"):
+        made += [p + past + ending for p in ("", "ن", "می", "نمی")]
+    for perfect in ("ه", "هام", "های", "هاست", "هایم", "هاید", "هاند"):
+        made += [past + perfect, "ن" + past + perfect]
+    for stem in sorted((s for s in stems if len(s) > 1), key=lambda s: (-len(_STEM_FORMS.get((s, verb), ())), s)):
+        joined = "بی" + stem[1:] if stem[0] == "آ" else "ب" + stem
+        negated = "نی" + stem[1:] if stem[0] == "آ" else "ن" + stem
+        for ending in ("م", "ی", "د", "یم", "ید", "ند"):
+            made += ["می" + stem + ending, "نمی" + stem + ending, joined + ending, negated + ending]
+        made += [joined, negated, joined + "ید", negated + "ید"]
+    return [f for f in dict.fromkeys(made) if f not in OWN]
 
 
 _checker = {}
@@ -242,9 +362,9 @@ _checker = {}
 
 def checker_word(word, ranks, dictionary):
     """
-    The listed form or word a course's word counts as when the list lacks it as written: the same word with or without the
-    non-joiner, a verb's form by the pack's table, or a word with endings on it (کتابش, خانه‌اش, کتاب‌هایش, دیدمش). None if
-    it is no such word.
+    The listed form or word a course's word (as the reader matches it, without the non-joiner) counts as when the list
+    lacks it: a verb's form by the pack's table or the verb's stems, or a word with endings on it (کتابش, خانه‌اش,
+    کتاب‌هایش, دیدمش). None if it is no such word.
     """
     if not _checker:
         import sqlite3
@@ -269,14 +389,14 @@ def checker_word(word, ranks, dictionary):
         """The listed spelling of a word without the non-joiner, or else the best-ranked word the pack makes it a form of."""
         if plain in written:
             return written[plain]
-        of = [l for l in _rows(plain, pos) + _verbal(plain, pos) if l in ranks]
+        of = [l for l in _rows(plain, pos) + _verbal(plain, pos) if l in ranks] or [l for l in _conjugated(plain, pos) if l in ranks]
         return min(of, key=ranks.get) if of else None
 
     plain = bare(word)
     found = listed(plain)
     if found:
         return found
-    stems = [found for _, stem in _stems(plain, word) if (found := listed(stem))]
+    stems = [found for _, stem in _stems(plain, None) if (found := listed(stem))]
     return min(stems, key=ranks.get) if stems else None
 
 
@@ -304,7 +424,9 @@ PERSIAN_OVERRIDES = {
     **_to("دیدن", "دیده"),
     **_to("زدن", "زده"),
     **_to("بردن", "برده"),
-    **_to("گفتن", "می‌گم", "میگم"),
+    **_to("گفتن", "می‌گم", "میگم", "گفته"),
+    **_to("خواستن", "خواسته"),
+    **_to("دانستن", "دانسته", "میدانی"),
     # Spoken spellings and a word with its ending, which the pack has as words of their own.
     **_to("من", "منو", "منه", "مرا", "منی"),
     **_to("شدن", "میشی"),
