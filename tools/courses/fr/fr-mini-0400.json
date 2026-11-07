@@ -77,7 +77,6 @@
         "propre",
         "simple",
         "anglais",
-        "uni",
         "information",
         "tard",
         "international"
@@ -154,20 +153,18 @@
     },
     {
       "title": "Des photos de Bruxelles",
-      "summary": "Camille visits Brussels, takes photos and videos, sees the cars of the European ministers and sends everything to her mother.",
+      "summary": "Camille visits Brussels, takes photos and videos, sees the black cars of a film shoot and sends everything to her mother.",
       "newWords": [
         "photo",
         "vidéo",
         "envoyer",
         "afin",
-        "européen",
         "voiture",
         "noir",
-        "ministre",
         "présent",
         "air"
       ],
-      "text": "Camille vit à Lyon. Cette semaine, elle est à Bruxelles pour deux jours. Bruxelles est une grande ville européenne. Il y a des gens de tous les pays européens.\n\nCamille prend beaucoup de photos. Elle prend des photos des rues et des places. Elle fait aussi des vidéos. Elle envoie les photos et les vidéos à sa mère, afin de montrer la ville à sa mère. Elle envoie aussi des messages, afin de donner des nouvelles.\n\nAujourd'hui, il y a beaucoup de voitures noires dans les rues. Camille demande à un homme : « Pourquoi est-ce qu'il y a toutes ces voitures noires ? »\n\nL'homme dit : « Aujourd'hui, les ministres européens sont présents à Bruxelles. Ils ont une réunion. Les voitures noires, ce sont les voitures des ministres. »\n\nCamille regarde les voitures noires. Elle voit deux ministres. Ils ont l'air très sérieux. Camille prend une photo des voitures noires. Elle fait une petite vidéo.\n\nElle envoie la vidéo à sa mère avec un message : « Les ministres européens sont présents à Bruxelles. Et moi aussi, je suis à Bruxelles ! »\n\nSa mère envoie un message à Camille : « Merci pour les photos ! Tu as l'air très contente. Bruxelles a l'air d'être une très belle ville. »\n\nQuestions :\nOù est Camille cette semaine ?\nElle est à Bruxelles.\nQu'est-ce que Camille fait à Bruxelles ?\nElle prend des photos et elle fait des vidéos.\nÀ qui est-ce que Camille envoie les photos ?\nElle envoie les photos à sa mère, afin de montrer la ville à sa mère.\nQui est présent à Bruxelles aujourd'hui ?\nLes ministres européens sont présents à Bruxelles.\nQuelle est la couleur des voitures des ministres ?\nLes voitures des ministres sont noires."
+      "text": "Camille vit à Lyon. Cette semaine, elle est à Bruxelles pour deux jours. Bruxelles est une grande ville. Il y a des gens de tous les pays.\n\nCamille prend beaucoup de photos. Elle prend des photos des rues et des places. Elle fait aussi des vidéos. Elle envoie les photos et les vidéos à sa mère, afin de montrer la ville à sa mère. Elle envoie aussi des messages, afin de donner des nouvelles.\n\nAujourd'hui, il y a beaucoup de voitures noires dans les rues. Camille demande à un homme : « Pourquoi est-ce qu'il y a toutes ces voitures noires ? »\n\nL'homme dit : « Aujourd'hui, on fait un film dans les rues. Les acteurs du film sont présents à Bruxelles. Les voitures noires, ce sont les voitures du film. »\n\nCamille regarde les voitures noires. Elle voit deux acteurs. Ils ont l'air très sérieux. Camille prend une photo des voitures noires. Elle fait une petite vidéo.\n\nElle envoie la vidéo à sa mère avec un message : « On fait un film à Bruxelles, et les acteurs sont présents dans la rue. Et moi aussi, je suis à Bruxelles ! »\n\nSa mère envoie un message à Camille : « Merci pour les photos ! Tu as l'air très contente. Bruxelles a l'air d'être une très belle ville. »\n\nQuestions :\nOù est Camille cette semaine ?\nElle est à Bruxelles.\nQu'est-ce que Camille fait à Bruxelles ?\nElle prend des photos et elle fait des vidéos.\nÀ qui est-ce que Camille envoie les photos ?\nElle envoie les photos à sa mère, afin de montrer la ville à sa mère.\nQui est présent à Bruxelles aujourd'hui ?\nLes acteurs d'un film sont présents à Bruxelles.\nQuelle est la couleur des voitures du film ?\nLes voitures du film sont noires."
     },
     {
       "title": "Une activité pour Zoé",

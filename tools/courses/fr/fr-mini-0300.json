@@ -28,7 +28,8 @@
     "Suisse",
     "Lucie",
     "Pierre",
-    "Lille"
+    "Lille",
+    "Boston"
   ],
   "lessons": [
     {
@@ -138,19 +139,18 @@
     },
     {
       "title": "Le match du soir",
-      "summary": "Lucas invites his American friend Tom and two others to watch the national team on TV, with food from the shop.",
+      "summary": "Lucas invites his friend Tom from Boston and two others to watch the national team on TV, with food from the shop.",
       "newWords": [
         "soir",
         "équipe",
         "national",
         "appeler",
-        "américain",
         "accord",
         "eux",
         "cause",
         "gagner"
       ],
-      "text": "Ce soir, il y a un grand match à la télé. L'équipe nationale de France joue. Lucas appelle son ami Tom. Tom est américain, mais il vit à Lyon.\n\nLucas dit : « Tu viens chez moi ce soir pour le match ? » Tom dit : « D'accord ! »\n\nAprès, Lucas appelle aussi Nadia et Ben. Ils sont d'accord. Avec eux, ils sont quatre.\n\nLucas va au magasin. À cause du match, il y a beaucoup de monde au magasin. Lucas prend des choses à manger pour eux.\n\nLe soir, ils regardent le match ensemble. Pour les Américains, le football est un autre jeu. À cause de ça, Tom ne comprend pas tout. Nadia et Ben parlent du match avec lui.\n\nL'équipe nationale gagne 2 à 1. Tom dit : « On gagne ! » C'est un très bon soir pour tout le monde.\n\nQuestions :\nQu'est-ce qu'il y a ce soir à la télé ?\nIl y a un grand match de l'équipe nationale.\nQui est Tom ?\nTom est un ami de Lucas. Il est américain.\nQui est-ce que Lucas appelle aussi ?\nIl appelle aussi Nadia et Ben.\nEst-ce qu'il y a beaucoup de monde au magasin ?\nOui, à cause du match, il y a beaucoup de monde.\nEst-ce que l'équipe nationale gagne ?\nOui, elle gagne 2 à 1."
+      "text": "Ce soir, il y a un grand match à la télé. L'équipe nationale de France joue. Lucas appelle son ami Tom. Tom vient de Boston, mais il vit à Lyon.\n\nLucas dit : « Tu viens chez moi ce soir pour le match ? » Tom dit : « D'accord ! »\n\nAprès, Lucas appelle aussi Nadia et Ben. Ils sont d'accord. Avec eux, ils sont quatre.\n\nLucas va au magasin. À cause du match, il y a beaucoup de monde au magasin. Lucas prend des choses à manger pour eux.\n\nLe soir, ils regardent le match ensemble. Pour Tom, le football est un autre jeu. À cause de ça, Tom ne comprend pas tout. Nadia et Ben parlent du match avec lui.\n\nL'équipe nationale gagne 2 à 1. Tom dit : « On gagne ! » C'est un très bon soir pour tout le monde.\n\nQuestions :\nQu'est-ce qu'il y a ce soir à la télé ?\nIl y a un grand match de l'équipe nationale.\nQui est Tom ?\nTom est un ami de Lucas. Il vient de Boston.\nQui est-ce que Lucas appelle aussi ?\nIl appelle aussi Nadia et Ben.\nEst-ce qu'il y a beaucoup de monde au magasin ?\nOui, à cause du match, il y a beaucoup de monde.\nEst-ce que l'équipe nationale gagne ?\nOui, elle gagne 2 à 1."
     },
     {
       "title": "Dimanche à Lausanne",
@@ -174,15 +174,14 @@
         "film",
         "titre",
         "truc",
-        "dieu",
         "tel",
         "affaire"
       ],
-      "text": "Pierre aime les films anciens. Ce matin, il y a un marché d'objets anciens dans sa ville. Pierre va au marché.\n\nPierre cherche un film : un film ancien de 1950. Il connaît le titre du film, mais il ne trouve jamais ce film.\n\nAu marché, il y a beaucoup de trucs : des livres, des jeux, des films. Pierre voit des films anciens. Il regarde les titres. Il regarde un titre, un autre titre, encore un autre titre.\n\nEt là, il voit le titre de son film ! Pierre dit : « Mon Dieu ! C'est mon film ! »\n\nPierre veut savoir le prix. L'homme dit : « 2 euros. » Pierre ne croit pas ses yeux. Un tel film, à un tel prix ! C'est une bonne affaire.\n\nL'homme dit aussi : « Vous voulez ce truc ? C'est pour regarder les films anciens. » Pierre dit : « Non, merci. J'ai déjà ce truc à la maison. »\n\nPierre prend le film. Il est très heureux de son affaire.\n\nQuestions :\nQu'est-ce que Pierre aime ?\nIl aime les films anciens.\nQu'est-ce que Pierre cherche ?\nIl cherche un film ancien de 1950.\nQu'est-ce qu'il y a au marché ?\nIl y a beaucoup de trucs : des livres, des jeux, des films.\nQu'est-ce que Pierre dit ?\nIl dit : « Mon Dieu ! C'est mon film ! »\nEst-ce que c'est une bonne affaire ?\nOui, c'est une bonne affaire."
+      "text": "Pierre aime les films anciens. Ce matin, il y a un marché d'objets anciens dans sa ville. Pierre va au marché.\n\nPierre cherche un film : un film ancien de 1950. Il connaît le titre du film, mais il ne trouve jamais ce film.\n\nAu marché, il y a beaucoup de trucs : des livres, des jeux, des films. Pierre voit des films anciens. Il regarde les titres. Il regarde un titre, un autre titre, encore un autre titre.\n\nEt là, il voit le titre de son film ! Pierre dit : « Ce n'est pas vrai ! C'est mon film ! »\n\nPierre veut savoir le prix. L'homme dit : « 2 euros. » Pierre n'en croit pas ses yeux. Un tel film, à un tel prix ! C'est une bonne affaire.\n\nL'homme dit aussi : « Vous voulez ce truc ? C'est pour regarder les films anciens. » Pierre dit : « Non, merci. J'ai déjà ce truc à la maison. »\n\nPierre prend le film. Il est très heureux de son affaire.\n\nQuestions :\nQu'est-ce que Pierre aime ?\nIl aime les films anciens.\nQu'est-ce que Pierre cherche ?\nIl cherche un film ancien de 1950.\nQu'est-ce qu'il y a au marché ?\nIl y a beaucoup de trucs : des livres, des jeux, des films.\nQu'est-ce que Pierre dit ?\nIl dit : « Ce n'est pas vrai ! C'est mon film ! »\nEst-ce que c'est une bonne affaire ?\nOui, c'est une bonne affaire."
     },
     {
       "title": "Le restaurant de l'entreprise",
-      "summary": "Nadia and her colleagues ask their company's president to fix the crowded canteen, and he sets lunch times by floor.",
+      "summary": "Nadia and her colleagues ask their company's boss to fix the crowded canteen, and he sets lunch times by floor.",
       "newWords": [
         "travailler",
         "entreprise",
@@ -190,13 +189,12 @@
         "niveau",
         "nombre",
         "demande",
-        "président",
         "lors",
         "agir",
         "système",
         "rapport"
       ],
-      "text": "Nadia travaille dans une grande entreprise à Lille. C'est une société de 500 personnes. À 12 heures, les gens de l'entreprise vont au restaurant. Le restaurant est en bas, au niveau 0.\n\nMais il y a un problème. Le nombre de personnes est grand, et le restaurant est petit. Les gens attendent trop.\n\nNadia et ses amis font une demande au président de la société. Dans la demande, ils disent : « Nous travaillons bien, mais nous attendons trop à 12 heures. »\n\nLors d'une réunion, le président lit la demande. Il dit : « Il faut agir. » Et il agit tout de suite.\n\nMaintenant, il y a un nouveau système. Les gens du niveau 1 vont au restaurant à 12 heures. Les gens du niveau 2 vont au restaurant à 13 heures. Avec ce système, le nombre de personnes au restaurant n'est pas trop grand.\n\nAprès un mois, Nadia fait un rapport pour le président. Le rapport dit : « Le système est bon. Personne n'attend. »\n\nQuestions :\nOù est-ce que Nadia travaille ?\nElle travaille dans une grande entreprise à Lille.\nQuel est le problème ?\nLe nombre de personnes est grand, et le restaurant est petit.\nQu'est-ce que Nadia et ses amis font ?\nIls font une demande au président.\nQu'est-ce que le président dit lors de la réunion ?\nIl dit : « Il faut agir. »\nQu'est-ce que le rapport dit ?\nLe rapport dit : « Le système est bon. »"
+      "text": "Nadia travaille dans une grande entreprise à Lille. C'est une société de 500 personnes. À 12 heures, les gens de l'entreprise vont au restaurant. Le restaurant est en bas, au niveau 0.\n\nMais il y a un problème. Le nombre de personnes est grand, et le restaurant est petit. Les gens attendent trop.\n\nNadia et ses amis font une demande au chef de la société. Dans la demande, ils disent : « Nous travaillons bien, mais nous attendons trop à 12 heures. »\n\nLors d'une réunion, le chef lit la demande. Il dit : « Il faut agir. » Et il agit tout de suite.\n\nMaintenant, il y a un nouveau système. Les gens du niveau 1 vont au restaurant à 12 heures. Les gens du niveau 2 vont au restaurant à 13 heures. Avec ce système, le nombre de personnes au restaurant n'est pas trop grand.\n\nAprès un mois, Nadia fait un rapport pour le chef. Le rapport dit : « Le système est bon. Personne n'attend. »\n\nQuestions :\nOù est-ce que Nadia travaille ?\nElle travaille dans une grande entreprise à Lille.\nQuel est le problème ?\nLe nombre de personnes est grand, et le restaurant est petit.\nQu'est-ce que Nadia et ses amis font ?\nIls font une demande au chef.\nQu'est-ce que le chef dit lors de la réunion ?\nIl dit : « Il faut agir. »\nQu'est-ce que le rapport dit ?\nLe rapport dit : « Le système est bon. »"
     }
   ]
 }
