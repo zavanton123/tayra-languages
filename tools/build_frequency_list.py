@@ -13,7 +13,8 @@ blended, counted as whole words that are cut into a word and its particles as th
   5. for Ancient Greek, the New Testament's word forms as MorphGNT parses the SBLGNT
 
 For Irish, Welsh and Georgian, whose sources are all Wikipedia or news, everyday sentences (Tatoeba's and Common
-Voice's) are blended in too, weighted by SOURCE_WEIGHTS.
+Voice's) are blended in too, and for Armenian, whose news and Wikipedia leave kitchen and family words far down,
+Tatoeba's; weighted by SOURCE_WEIGHTS.
 
 --source forces one of them. The counts are of word forms (in Arabic and Hebrew, of the words left by cutting off
 the letters written onto their front, as the reader cuts them); each form is credited to the dictionary
@@ -160,8 +161,9 @@ SOURCE_ORDER["hi"] = ["wordfreq", "frequencywords"]
 # Armenian's Wikipedia is 30 times its news and its subtitles 600 times smaller than that, one drama's worth. Counted alike
 # they put the words of the asteroid and village pages (աստերոիդ, խտություն) and the drama's (դայակ, դաշույն) in the first
 # thousand. News leads; Wikipedia is counted from Leipzig's sentences, each once (LEIPZIG_DEDUPED); and a word's subtitle
-# count is taken at its square root (SOURCE_ROOTED), so what one film repeats weighs little. "everyday" reads nothing until
-# EVERYDAY has "hy": adding that entry is all it takes to blend in everyday sentences, at this share of the whole.
+# count is taken at its square root (SOURCE_ROOTED), so what one film repeats weighs little. That left everyday words far
+# down (հաց 2429, կատու 1429, ավտոբուս 2598, սուրճ 4583): Tatoeba's 52,000 sentences (EVERYDAY) are a fifth of the blend,
+# which brings them to about the 1000th (հաց 1084, կատու 569, ավտոբուս 1327, սուրճ 1061).
 SOURCE_ORDER["hy"] = ["leipzig", "wikipedia_sentences", "frequencywords", "everyday"]
 SOURCE_WEIGHTS["hy"] = {"leipzig": 0.5, "wikipedia_sentences": 0.3, "frequencywords": 0.2, "everyday": 0.25}
 SOURCE_ROOTED = {"hy": {"frequencywords"}}
@@ -189,6 +191,8 @@ SOURCE_LICENCES = {
     "everyday": "Tatoeba CC BY 2.0 FR, Common Voice CC0 1.0",
     "everyday_mixed": "CC0 1.0",
 }
+# A source's licence where a language takes only some of it: Armenian's everyday sentences are Tatoeba's alone.
+SOURCE_LICENCES[("hy", "everyday")] = "Tatoeba CC BY 2.0 FR"
 
 # Languages that capitalise their nouns, so a capitalised entry is not taken for a name.
 CAPITALISED_NOUNS = {"de"}
@@ -2777,6 +2781,8 @@ EVERYDAY = {
     # Of the Georgian files, wiki.ka is sentences from its Wikipedia, which the list has already, and
     # singleword-benchmark is the digits.
     "ka": {"tatoeba": "kat", "commonvoice": ("ka", "70dde553e48d7d0da452ba4ba070c001f65db88c", ["sentence-collector"])},
+    # Common Voice's Armenian (hy-AM) has only hy_wiki, sentences of Wikipedia, which the list counts already: it is left out.
+    "hy": {"tatoeba": "hye"},
 }
 # The names of the people in Tatoeba's sentences (Tom, Mary) with their case endings, where the language writes them
 # without a capital: Georgian ტომი is a book's "volume" as well, and Tom is in one Georgian sentence of ten.
@@ -3853,7 +3859,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     if language == "hi":
         for w in [w for w in freq if not HINDI_LETTERS.fullmatch(w)]:
             del freq[w]
-    label = " + ".join(f"{label} ({SOURCE_LICENCES[name]})" for name, _, label in found)
+    label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
     pos, lemmas, common, outdated = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
     excluded = EXCLUDE.get(language, set())
