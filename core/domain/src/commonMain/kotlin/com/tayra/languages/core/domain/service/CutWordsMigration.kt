@@ -19,8 +19,9 @@ import com.tayra.languages.core.domain.term.TermTextNormalizer
  * one, keeping the more advanced status and whatever either has that the other lacks. A phrase is cut again, and the
  * language's stored sentences are made again. Words are matched without their vowel signs now, so a term saved with
  * them (أيضًا) is matched as أيضا. Thai's parser came to cut no word inside a syllable (ต่อมา is ต่อ + มา, no longer ต่อม +
- * า): a phrase saved over the old cut is cut again, while a word saved stays the word it is. Run at start: it changes
- * nothing once the terms are as the reader reads them.
+ * า): a phrase saved over the old cut is cut again, while a word saved stays the word it is. Armenian cuts nothing, but
+ * matches և written as two letters (կարեւոր) as the one (կարևոր). Run at start: it changes nothing once the terms are as
+ * the reader reads them.
  */
 class CutWordsMigration(
     private val languages: LanguageRepository,
@@ -96,8 +97,8 @@ class CutWordsMigration(
     }
 
     private companion object {
-        /** The parsers that cut a word written as one into words, or came to match words folded (Persian). */
-        val PARSERS = setOf("arabic", "thai", "persian", "hebrew")
+        /** The parsers that cut a word written as one into words, or match a saved word otherwise than it was saved. */
+        val PARSERS = setOf("arabic", "thai", "persian", "hebrew", "armenian")
 
         /** Those whose saved words stay whole: only their phrases are cut again. */
         val WHOLE_WORDS = setOf("thai")
