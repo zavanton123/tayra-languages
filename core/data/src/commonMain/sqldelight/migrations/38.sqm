@@ -1,7 +1,9 @@
 -- Farsi is read with its own parser, which keeps the zero-width non-joiner inside a word (می‌روم, کتاب‌ها) and matches
--- words in Persian letters and without marks; a Farsi language made before it cut words at the non-joiner.
+-- words in Persian letters, without marks and without the non-joiner; a Farsi language made before it cut words at the
+-- non-joiner, and read the Persian digits (۱۲۳) as a word.
 -- The backslashes are char(92): SQLDelight would read a backslash and u in a string as the character they name.
-UPDATE languages SET word_characters = char(92) || 'u200C' || word_characters
+UPDATE languages SET word_characters =
+    replace('/u200C/u0600-/u0608/u0610-/u061A/u0620-/u065F/u066E-/u06D3/u06D5-/u06EF/u06FA-/u06FF/u077E-/u077F/u7B50-/uFDFF/u0400-/u04FF', '/', char(92))
 WHERE name = 'Farsi' AND parser_type = 'spacedel' AND word_characters =
     replace('/u0600-/u0608/u0610-/u061A/u0620-/u065F/u066E-/u06D3/u06D5-/u06FF/u077E-/u077F/u7B50-/uFDFF/u0400-/u04FF', '/', char(92));
 UPDATE languages SET parser_type = 'persian' WHERE name = 'Farsi' AND parser_type = 'spacedel';

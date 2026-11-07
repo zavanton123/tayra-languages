@@ -23,7 +23,8 @@ class PersianParserMigrationTest {
 
     private val file: File = File.createTempFile("tayra-persian", ".db").also { it.delete() }
     private val farsi = LanguageDefinitions.all.first { it.name == "Farsi" }.language
-    private val oldCharacters = farsi.wordCharacters.removePrefix("\\u200C")
+    private val oldCharacters =
+        "\\u0600-\\u0608\\u0610-\\u061A\\u0620-\\u065F\\u066E-\\u06D3\\u06D5-\\u06FF\\u077E-\\u077F\\u7B50-\\uFDFF\\u0400-\\u04FF"
 
     @Test
     fun farsiIsReadWithItsOwnParser() = runTest {

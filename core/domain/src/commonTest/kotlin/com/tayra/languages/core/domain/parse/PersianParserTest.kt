@@ -17,6 +17,11 @@ class PersianParserTest {
     }
 
     @Test
+    fun persianDigitsAreNoWord() {
+        assertEquals(listOf("سینا", "سال", "دارد"), words("سینا ۱۰ سال دارد."))
+    }
+
+    @Test
     fun endingsStayOnTheirWord() {
         assertEquals(listOf("کتابش", "دوستم", "کتابتان"), words("کتابش، دوستم، کتابتان"))
     }
