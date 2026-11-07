@@ -1,0 +1,10 @@
+-- Armenian is read with its own parser: ՞ ՛ ՜ and ՟ stand inside a word (ինչո՞ւ), which an Armenian language made before cut
+-- there, ending the sentence too. The backslashes are char(92), as in 21.sqm.
+UPDATE languages SET word_characters = word_characters || char(92) || 'u055B' || char(92) || 'u055C' || char(92) || 'u055E' || char(92) || 'u055F'
+WHERE name = 'Armenian' AND parser_type = 'spacedel'
+AND word_characters = char(92) || 'u0531-' || char(92) || 'u0556' || char(92) || 'u0561-' || char(92) || 'u0588';
+
+UPDATE languages SET regexp_split_sentences = '։'
+WHERE name = 'Armenian' AND parser_type = 'spacedel' AND regexp_split_sentences = '։՜՛՞';
+
+UPDATE languages SET parser_type = 'armenian' WHERE name = 'Armenian' AND parser_type = 'spacedel';
