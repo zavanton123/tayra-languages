@@ -65,7 +65,6 @@
         "præcis",
         "nem",
         "dum",
-        "hurtig",
         "alligevel",
         "endelig",
         "støtte"
@@ -96,7 +95,6 @@
         "mulighed",
         "lyst",
         "sjov",
-        "sjovt",
         "perfekt",
         "enkelt",
         "aftale"
@@ -104,21 +102,18 @@
       "text": "Det er snart den sidste dag i skolen. Emmas klasse vil gøre noget sjovt den dag. Men hvad?\n\nLæreren, Hanne, siger: »I har tre muligheder. Den første mulighed er en fest i skolen. Den anden mulighed er en tur i parken. Den sidste mulighed er en film i skolen. Hvad har I lyst til?«\n\nAlle børnene har en mening. Jonas har lyst til at se en film. Han synes, at film er sjovt. Emma har lyst til en fest. Hun synes, at det er sjovt at danse. Andre har lyst til en tur i parken.\n\n»Hvad er din mening, Emma?« spørger Hanne. »Min mening er, at en fest er sjov for alle,« siger Emma.\n\nDet er ikke nemt. Men Hanne siger: »Det er enkelt. Vi stemmer. Hver af jer har en enkelt stemme. Den mulighed med de fleste stemmer vinder.«\n\nBørnene stemmer. 12 stemmer for festen. 8 stemmer for parken. 4 stemmer for filmen. Festen vinder.\n\nJonas er lidt ked af det. Men Emma har en idé. »Vi kan vise en sjov film til festen!« Jonas synes, at det er en perfekt idé. Nu er alle glade.\n\nSå laver de en aftale. Festen er fra klokken 18 til klokken 22. Jonas finder en sjov film. Emma finder nogle gode sange. Hanne siger: »Det er en god aftale. Det bliver en perfekt fest.«\n\nSpørgsmål:\nHvor mange muligheder har børnene?\nDe har tre muligheder.\nHvad har Jonas lyst til?\nJonas har lyst til at se en film.\nHvad er Emmas mening?\nHendes mening er, at en fest er sjov for alle.\nHvor mange stemmer har hvert barn?\nHvert barn har en enkelt stemme.\nHvad vinder?\nFesten vinder.\nHvad er Emmas idé?\nDe kan vise en sjov film til festen."
     },
     {
-      "title": "På museum om krigen",
-      "summary": "Ida's class visits a museum about the Second World War, and Ida tells her mother what she saw.",
+      "title": "På museum om livet for 100 år siden",
+      "summary": "Ida visits a museum with her class and sees a small house a family built a hundred years ago.",
       "newWords": [
-        "krig",
-        "dø",
         "million",
         "seks",
         "beskytte",
         "bygge",
-        "regering",
         "kendt",
         "især",
         "lys"
       ],
-      "text": "I dag skal Ida på museum med sin skole. Det er et museum om krigen fra 1939 til 1945. Det er et kendt sted. Det er kendt i hele Danmark.\n\nLæreren hedder Karsten. Han fortæller om krigen. »Krigen er lang,« siger han. »Der er krig i seks år. Seks lange år. Mange millioner mennesker må dø. Både mænd, kvinder og børn må dø.« Ida tænker på de mange millioner mennesker. Det er svært at forstå.\n\nI 1940 kommer tyske soldater til Danmark. Karsten fortæller også om regeringen. Den danske regering arbejder videre i de første år af krigen. Men i 1943 stopper regeringen sit arbejde.\n\nBørnene ser også et lille rum under jorden. Folk bygger det i krigen. De bygger det selv. Det skal beskytte familien mod bomber. »Kan det virkelig beskytte en familie?« spørger Ida. »Ja, ofte kan det,« siger Karsten.\n\nI krigen må folk ikke have lys i husene om aftenen. Ingen må se lys fra et hus. Alt lys skal være væk.\n\nOm aftenen er Ida hjemme. Hun fortæller sin mor om det kendte sted. Hun husker især rummet under jorden. Hun husker især, at der ikke er lys om aftenen. »Jeg er glad for, at der ikke er krig i Danmark nu,« siger hun.\n\nSpørgsmål:\nHvad handler museet om?\nDet handler om krigen fra 1939 til 1945.\nHvor længe er der krig?\nDer er krig i seks år.\nHvor mange mennesker må dø i krigen?\nMange millioner mennesker må dø.\nHvorfor bygger folk et rum under jorden?\nDet skal beskytte familien mod bomber.\nHvad må folk ikke have i krigen?\nDe må ikke have lys i husene om aftenen.\nHvad husker Ida især?\nHun husker især rummet under jorden."
+      "text": "I dag skal Ida på museum med sin skole. Det er et museum om livet i Danmark for 100 år siden. Det er et kendt sted. Det er kendt i hele Danmark.\n\nLæreren hedder Karsten. Han viser børnene et lille hus. »En familie bygger huset selv,« siger han. »De bygger det af sten og træ. Det tager seks år.« Seks lange år! Ida tænker på familien. Det er svært at forstå.\n\nHuset har kun to små rum. Seks mennesker bor der: en mor, en far og fire børn. Huset skal beskytte familien mod vind og vand. »Kan så lille et hus virkelig beskytte en familie?« spørger Ida. »Ja,« siger Karsten. »Det er et godt hus.«\n\nI huset er der ikke meget lys. Om aftenen har familien kun ét lys. Børnene læser ved det lys.\n\nKarsten fortæller også om Danmark. I dag bor der næsten seks millioner mennesker i landet. For 100 år siden bor der lidt over tre millioner.\n\nOm aftenen er Ida hjemme. Hun fortæller sin mor om det kendte sted. Hun husker især det lille hus. Hun husker især, at der ikke er meget lys om aftenen. »Jeg er glad for alt vores lys,« siger hun.\n\nSpørgsmål:\nHvad handler museet om?\nDet handler om livet i Danmark for 100 år siden.\nHvem bygger det lille hus?\nEn familie bygger huset selv.\nHvor lang tid tager det at bygge huset?\nDet tager seks år.\nHvad skal huset beskytte familien mod?\nDet skal beskytte familien mod vind og vand.\nHvor mange mennesker bor der i Danmark i dag?\nDer bor næsten seks millioner mennesker.\nHvad husker Ida især?\nHun husker især det lille hus."
     },
     {
       "title": "Jonas hos lægen",
@@ -195,13 +190,11 @@
         "smide",
         "bringe",
         "fjerne",
-        "ihjel",
         "dække",
         "muligt",
-        "fin",
         "lækker"
       ],
-      "text": "Det er den sidste dag i skolen. Snart har børnene fri. Læreren, Hanne, siger: »I dag skal skolen være fin.«\n\nBørnene skal smide gamle ting ud. De skal også fjerne alle billederne. Mathias synes ikke, det er sjovt. »Jeg keder mig ihjel,« siger han.\n\n»Er det muligt at kede sig ihjel?« spørger Hanne. »Nej, det er ikke muligt. Smid de gamle ting ud, Mathias.«\n\nMathias smider tingene ud. Så fjerner han billederne. Hans ven Ali hjælper ham. Ali fjerner de gamle bøger. Snart er skolen fin igen.\n\nSå skal børnene dække et bord. Mathias og Ali dækker det sammen. Mathias har en fin og lækker kage med. Han bringer den hen til bordet. Ali har lidt mad med. Han bringer den også. Hanne bringer vand.\n\n»Den kage ser lækker ud,« siger Ali. »Ja, det er en fin kage,« siger Hanne. »Og det er en fin dag. I gør det så godt som muligt.«\n\nBørnene spiser og snakker. Kagen er virkelig lækker. Mathias keder sig ikke mere. »Nu keder jeg mig slet ikke ihjel,« siger han.\n\nSpørgsmål:\nHvad skal børnene smide ud?\nDe skal smide gamle ting ud.\nHvad skal de fjerne?\nDe skal fjerne alle billederne.\nHvad siger Mathias først?\nHan siger: »Jeg keder mig ihjel.«\nEr det muligt at kede sig ihjel?\nNej, det er ikke muligt.\nHvem dækker bordet?\nMathias og Ali dækker bordet sammen.\nHvad bringer Mathias hen til bordet?\nHan bringer en lækker kage hen til bordet."
+      "text": "Det er den sidste dag i skolen. Snart har børnene fri. Læreren, Hanne, siger: »I dag skal skolen være fin.«\n\nBørnene skal smide gamle ting ud. De skal også fjerne alle billederne. Mathias synes ikke, det er sjovt. »Jeg keder mig,« siger han.\n\n»Er det muligt at kede sig på den sidste dag?« spørger Hanne. »Nej, det er ikke muligt. Smid de gamle ting ud, Mathias.«\n\nMathias smider tingene ud. Så fjerner han billederne. Hans ven Ali hjælper ham. Ali fjerner de gamle bøger. Snart er skolen fin igen.\n\nSå skal børnene dække et bord. Mathias og Ali dækker det sammen. Mathias har en fin og lækker kage med. Han bringer den hen til bordet. Ali har lidt mad med. Han bringer den også. Hanne bringer vand.\n\n»Den kage ser lækker ud,« siger Ali. »Ja, det er en fin kage,« siger Hanne. »Og det er en fin dag. I gør det så godt som muligt.«\n\nBørnene spiser og snakker. Kagen er virkelig lækker. Mathias keder sig ikke mere. »Nu keder jeg mig slet ikke,« siger han.\n\nSpørgsmål:\nHvad skal børnene smide ud?\nDe skal smide gamle ting ud.\nHvad skal de fjerne?\nDe skal fjerne alle billederne.\nHvad siger Mathias først?\nHan siger: »Jeg keder mig.«\nEr det muligt at kede sig på den sidste dag?\nNej, det er ikke muligt, siger Hanne.\nHvem dækker bordet?\nMathias og Ali dækker bordet sammen.\nHvad bringer Mathias hen til bordet?\nHan bringer en lækker kage hen til bordet."
     }
   ]
 }
