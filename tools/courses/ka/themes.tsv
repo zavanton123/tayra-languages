@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Georgian)
+ka-mini-0100	100	A1	Home and family	სახლი და ოჯახი
+ka-mini-0200	200	A1	Everyday life	ჩვეულებრივი დღე
+ka-mini-0300	300	A1	Food and shopping	საჭმელი და საყიდლები
+ka-mini-0400	400	A2	In the city	ქალაქში
+ka-mini-0500	500	A2	School and work	სკოლა და სამსახური
+ka-mini-0600	600	A2	Free time and hobbies	თავისუფალი დრო და გატაცებები
+ka-mini-0700	700	A2	Health and the body	ჯანმრთელობა და სხეული
+ka-mini-0800	800	A2	Travel and holidays	მოგზაურობა და არდადეგები
+ka-mini-0900	900	A2	Nature and the seasons	ბუნება და წელიწადის დროები
+ka-mini-1000	1000	A2	Birthdays, parties and friends	დაბადების დღე, ზეიმი და მეგობრები
+ka-mini-1100	1100	B1	Living and housing	საცხოვრებელი
+ka-mini-1200	1200	B1	Memories	მოგონებები
+ka-mini-1300	1300	B1	Jobs and training	პროფესია და სწავლა
+ka-mini-1400	1400	B1	Getting around	გადაადგილება
+ka-mini-1500	1500	B1	Money and shopping	ფული და საყიდლები
+ka-mini-1600	1600	B1	Experiencing culture	კულტურა
+ka-mini-1700	1700	B1	Sport and exercise	სპორტი და ვარჯიში
+ka-mini-1800	1800	B1	The environment in daily life	გარემო ყოველდღიურ ცხოვრებაში
+ka-mini-1900	1900	B1	Letters, messages and media	წერილები, შეტყობინებები და მედია
+ka-mini-2000	2000	B1	Neighbourhood	სამეზობლო
+ka-mini-2100	2100	B2	Cooking and food	სამზარეულო და საკვები
+ka-mini-2200	2200	B2	Body and mind	სხეული და გონება
+ka-mini-2300	2300	B2	The world of work	სამუშაო სამყარო
+ka-mini-2400	2400	B2	Science and technology	მეცნიერება და ტექნოლოგია
+ka-mini-2500	2500	B2	History you can touch	ისტორია ახლოდან
+ka-mini-2600	2600	B2	Travelling in Georgia	მოგზაურობა საქართველოში
+ka-mini-2700	2700	B2	Generations	თაობები
+ka-mini-2800	2800	B2	Music	მუსიკა
+ka-mini-2900	2900	B2	Society and living together	საზოგადოება და ერთად ცხოვრება
+ka-mini-3000	3000	B2	Small columns	მოკლე ჩანაწერები
+ka-mini-3100	3100	B2	Home and decoration	სახლი და ინტერიერი
+ka-mini-3200	3200	B2	Fashion and clothes	მოდა და ტანსაცმელი
+ka-mini-3300	3300	B2	The great outdoors	ღია ცის ქვეშ
+ka-mini-3400	3400	B2	Traditional crafts	ტრადიციული ხელობა
+ka-mini-3500	3500	B2	Technology and society	ტექნოლოგია და საზოგადოება
+ka-mini-3600	3600	B2	Rivers, lakes and the sea	მდინარეები, ტბები და ზღვა
+ka-mini-3700	3700	B2	Books and language	წიგნები და ენა
+ka-mini-3800	3800	B2	Everyday economics	ყოველდღიური ეკონომიკა
+ka-mini-3900	3900	B2	Village life	სოფლის ცხოვრება
+ka-mini-4000	4000	B2	City life columns	ქალაქის ცხოვრება
+ka-mini-4100	4100	C1	Body and mind in daily life	სხეული და გონება ყოველდღიურობაში
+ka-mini-4200	4200	C1	Architecture and heritage	არქიტექტურა და მემკვიდრეობა
+ka-mini-4300	4300	C1	Climate and energy	კლიმატი და ენერგია
+ka-mini-4400	4400	C1	Everyday paperwork	ყოველდღიური საბუთები
+ka-mini-4500	4500	C1	Film and television	კინო და ტელევიზია
+ka-mini-4600	4600	C1	Research and discovery	კვლევა და აღმოჩენა
+ka-mini-4700	4700	C1	Living far from home	ცხოვრება სახლიდან შორს
+ka-mini-4800	4800	C1	The mind in daily life	გონება ყოველდღიურ ცხოვრებაში
+ka-mini-4900	4900	C1	Sport and society	სპორტი და საზოგადოება
+ka-mini-5000	5000	C1	Short essays	მოკლე ესეები
+ka-mini-5100	5100	C1	Archaeology and the past	არქეოლოგია და წარსული
+ka-mini-5200	5200	C1	The science of cooking	სამზარეულოს მეცნიერება
+ka-mini-5300	5300	C1	Landscapes	პეიზაჟები
+ka-mini-5400	5400	C1	Caring for others	სხვებზე ზრუნვა
+ka-mini-5500	5500	C1	Visual arts	სახვითი ხელოვნება
+ka-mini-5600	5600	C1	Journalism and media	ჟურნალისტიკა და მედია
+ka-mini-5700	5700	C1	Transport and mobility	ტრანსპორტი და გადაადგილება
+ka-mini-5800	5800	C1	The Georgian language and its script	ქართული ენა და დამწერლობა
+ka-mini-5900	5900	C1	Starting a business	საკუთარი საქმის დაწყება
+ka-mini-6000	6000	C1	Memoirs	მემუარები
+ka-mini-6100	6100	C1	The universe and the stars	სამყარო და ვარსკვლავები
+ka-mini-6200	6200	C1	Mining and natural resources	სამთო საქმე და ბუნებრივი რესურსები
+ka-mini-6300	6300	C1	Food and health	საკვები და ჯანმრთელობა
+ka-mini-6400	6400	C1	Theatre and stage	თეატრი და სცენა
+ka-mini-6500	6500	C1	Engineering	ინჟინერია
+ka-mini-6600	6600	C1	Farm to table	მინდვრიდან სუფრამდე
+ka-mini-6700	6700	C1	Words and where they come from	სიტყვები და მათი წარმოშობა
+ka-mini-6800	6800	C1	Georgian literature	ქართული ლიტერატურა
+ka-mini-6900	6900	C1	Numbers and reasoning	რიცხვები და მსჯელობა
+ka-mini-7000	7000	C1	Travel columns	სამოგზაურო ჩანაწერები
+ka-mini-7100	7100	C1	Public health	საზოგადოებრივი ჯანმრთელობა
+ka-mini-7200	7200	C1	Everyday philosophy	ყოველდღიური ფილოსოფია
+ka-mini-7300	7300	C1	Folk festivals and fairs	სახალხო ზეიმები და ბაზრობები
+ka-mini-7400	7400	C1	Animal behaviour	ცხოველების ქცევა
+ka-mini-7500	7500	C1	Work and the labour market	შრომა და შრომის ბაზარი
+ka-mini-7600	7600	C1	Cities of the world	მსოფლიოს ქალაქები
+ka-mini-7700	7700	C1	Inventions and inventors	გამოგონებები და გამომგონებლები
+ka-mini-7800	7800	C1	Public services	საჯარო სერვისები
+ka-mini-7900	7900	C1	Mountains and hills	მთები და ბორცვები
+ka-mini-8000	8000	C1	Family columns	საოჯახო ჩანაწერები
+ka-mini-8100	8100	C2	The human body	ადამიანის სხეული
+ka-mini-8200	8200	C2	Prevention and resilience	პრევენცია და გამძლეობა
+ka-mini-8300	8300	C2	Design and craft	დიზაინი და ხელობა
+ka-mini-8400	8400	C2	Emotions and relationships	ემოციები და ურთიერთობები
+ka-mini-8500	8500	C2	Explorers and travellers	მკვლევრები და მოგზაურები
+ka-mini-8600	8600	C2	The forest	ტყე
+ka-mini-8700	8700	C2	Advertising and communication	რეკლამა და კომუნიკაცია
+ka-mini-8800	8800	C2	Food culture in Georgia	საქართველოს სამზარეულო
+ka-mini-8900	8900	C2	Traditional and classical music	ხალხური და კლასიკური მუსიკა
+ka-mini-9000	9000	C2	Essays on time	ესეები დროზე
+ka-mini-9100	9100	C2	Chemistry and materials	ქიმია და მასალები
+ka-mini-9200	9200	C2	Maps and finding the way	რუკები და გზის პოვნა
+ka-mini-9300	9300	C2	Tales and legends	ზღაპრები და ლეგენდები
+ka-mini-9400	9400	C2	Rare professions	იშვიათი პროფესიები
+ka-mini-9500	9500	C2	Urban planning	ქალაქგეგმარება
+ka-mini-9600	9600	C2	Everyday physics	ყოველდღიური ფიზიკა
+ka-mini-9700	9700	C2	Gardens and botany	ბაღები და ბოტანიკა
+ka-mini-9800	9800	C2	Folk art and customs	ხალხური ხელოვნება და ადათები
+ka-mini-9900	9900	C2	Ethics and living together	ეთიკა და ერთად ცხოვრება
+ka-mini-10000	10000	C2	Learning and language	სწავლა და ენა
