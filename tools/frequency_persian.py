@@ -23,7 +23,8 @@ SCRIPT = re.compile(f"[ء-غف-يپچژکگی{ZWNJ}]+")
 
 # The endings written onto a noun or adjective, longest first, in the spelling without the non-joiner.
 _PRONOUNS = ("مان", "تان", "شان", "مون", "تون", "شون", "م", "ت", "ش")
-_AFTER_VOWEL_PRONOUNS = ("یمان", "یتان", "یشان", "یمون", "یتون", "یشون", "ام", "ات", "اش", "یم", "یت", "یش")
+# After a vowel, and است shortened there (کجاست, اینجاست, چیست).
+_AFTER_VOWEL_PRONOUNS = ("یمان", "یتان", "یشان", "یمون", "یتون", "یشون", "ام", "ات", "اش", "یم", "یت", "یش", "ست")
 _NOMINAL_ENDINGS = tuple(sorted(
     {p for p in _PRONOUNS} | {p for p in _AFTER_VOWEL_PRONOUNS} | {"ی", "ای", "یی", "ها", "های", "هایی", "ترین", "تر", "ان", "و", "ه", "ئی"}
     | {"ها" + p for p in _PRONOUNS} | {"های" + p for p in _PRONOUNS} | {"هایم", "هایت", "هایش"},
