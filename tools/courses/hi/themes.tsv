@@ -1,0 +1,97 @@
+# id	rankUpTo	level	topic (English)	title (Hindi)
+hi-mini-0100	100	A1	Home and family	घर और परिवार
+hi-mini-0200	200	A1	Everyday life	एक आम दिन
+hi-mini-0300	300	A1	Food and shopping	खाना और ख़रीदारी
+hi-mini-0400	400	A2	In the city	शहर में
+hi-mini-0500	500	A2	School and work	स्कूल और काम
+hi-mini-0600	600	A2	Free time and hobbies	ख़ाली समय और शौक़
+hi-mini-0700	700	A2	Health and the body	सेहत और शरीर
+hi-mini-0800	800	A2	Travel and holidays	सफ़र और छुट्टियाँ
+hi-mini-0900	900	A2	Nature and the seasons	प्रकृति और मौसम
+hi-mini-1000	1000	A2	Birthdays, parties and friends	जन्मदिन, दावतें और दोस्त
+hi-mini-1100	1100	B1	Living and housing	रहने के लिए घर
+hi-mini-1200	1200	B1	Memories	यादें
+hi-mini-1300	1300	B1	Jobs and training	नौकरी और प्रशिक्षण
+hi-mini-1400	1400	B1	Getting around	आना-जाना
+hi-mini-1500	1500	B1	Money and shopping	पैसा और ख़रीदारी
+hi-mini-1600	1600	B1	Experiencing culture	कला और संस्कृति का अनुभव
+hi-mini-1700	1700	B1	Sport and exercise	खेल और कसरत
+hi-mini-1800	1800	B1	The environment in daily life	रोज़ के जीवन में पर्यावरण
+hi-mini-1900	1900	B1	Letters, messages and media	चिट्ठियाँ, संदेश और मीडिया
+hi-mini-2000	2000	B1	Neighbourhood	मोहल्ला
+hi-mini-2100	2100	B2	Cooking and food	खाना पकाना
+hi-mini-2200	2200	B2	Body and mind	तन और मन
+hi-mini-2300	2300	B2	The world of work	काम की दुनिया
+hi-mini-2400	2400	B2	Science and technology	विज्ञान और तकनीक
+hi-mini-2500	2500	B2	History you can touch	इतिहास, जिसे छू सकते हैं
+hi-mini-2600	2600	B2	Travelling in India	भारत में सफ़र
+hi-mini-2700	2700	B2	Generations	पीढ़ियाँ
+hi-mini-2800	2800	B2	Music	संगीत
+hi-mini-2900	2900	B2	Society and living together	समाज और मिल-जुलकर रहना
+hi-mini-3000	3000	B2	Small columns	छोटे कॉलम
+hi-mini-3100	3100	B2	Home and decoration	घर और सजावट
+hi-mini-3200	3200	B2	Fashion and clothes	फ़ैशन और कपड़े
+hi-mini-3300	3300	B2	The great outdoors	खुली हवा में
+hi-mini-3400	3400	B2	Traditional crafts	पारंपरिक शिल्प
+hi-mini-3500	3500	B2	Technology and society	तकनीक और समाज
+hi-mini-3600	3600	B2	Rivers, lakes and the sea	नदियाँ, झीलें और समुद्र
+hi-mini-3700	3700	B2	Books and language	किताबें और भाषा
+hi-mini-3800	3800	B2	Everyday economics	रोज़ का अर्थशास्त्र
+hi-mini-3900	3900	B2	Village life	गाँव का जीवन
+hi-mini-4000	4000	B2	City life columns	शहरी जीवन के कॉलम
+hi-mini-4100	4100	C1	Body and mind in daily life	रोज़ के जीवन में तन और मन
+hi-mini-4200	4200	C1	Architecture and heritage	वास्तुकला और विरासत
+hi-mini-4300	4300	C1	Climate and energy	जलवायु और ऊर्जा
+hi-mini-4400	4400	C1	Everyday paperwork	रोज़ की काग़ज़ी कार्रवाई
+hi-mini-4500	4500	C1	Film and television	फ़िल्म और टेलीविज़न
+hi-mini-4600	4600	C1	Research and discovery	शोध और खोज
+hi-mini-4700	4700	C1	Living far from home	घर से दूर
+hi-mini-4800	4800	C1	The mind in daily life	रोज़ के जीवन में मन
+hi-mini-4900	4900	C1	Sport and society	खेल और समाज
+hi-mini-5000	5000	C1	Short essays	छोटे निबंध
+hi-mini-5100	5100	C1	Archaeology and the past	पुरातत्व और अतीत
+hi-mini-5200	5200	C1	The science of cooking	रसोई का विज्ञान
+hi-mini-5300	5300	C1	Landscapes	प्राकृतिक दृश्य
+hi-mini-5400	5400	C1	Caring for others	दूसरों की देखभाल
+hi-mini-5500	5500	C1	Visual arts	दृश्य कलाएँ
+hi-mini-5600	5600	C1	Journalism and media	पत्रकारिता और मीडिया
+hi-mini-5700	5700	C1	Transport and mobility	परिवहन और आवाजाही
+hi-mini-5800	5800	C1	The Hindi language	हिंदी भाषा
+hi-mini-5900	5900	C1	Starting a business	अपना कारोबार
+hi-mini-6000	6000	C1	Memoirs	संस्मरण
+hi-mini-6100	6100	C1	The universe and the stars	ब्रह्मांड और तारे
+hi-mini-6200	6200	C1	Mining and natural resources	खनिज और प्राकृतिक संसाधन
+hi-mini-6300	6300	C1	Food and health	भोजन और स्वास्थ्य
+hi-mini-6400	6400	C1	Theatre and stage	रंगमंच
+hi-mini-6500	6500	C1	Engineering	इंजीनियरी
+hi-mini-6600	6600	C1	Farm to table	खेत से थाली तक
+hi-mini-6700	6700	C1	Words and where they come from	शब्द और उनकी कहानी
+hi-mini-6800	6800	C1	Hindi literature	हिंदी साहित्य
+hi-mini-6900	6900	C1	Numbers and reasoning	अंक और तर्क
+hi-mini-7000	7000	C1	Travel columns	यात्रा पर कॉलम
+hi-mini-7100	7100	C1	Public health	जन-स्वास्थ्य
+hi-mini-7200	7200	C1	Everyday philosophy	रोज़ का दर्शन
+hi-mini-7300	7300	C1	Fairs and markets	मेले और हाट
+hi-mini-7400	7400	C1	Animal behaviour	जानवरों का व्यवहार
+hi-mini-7500	7500	C1	Work and the labour market	काम और रोज़गार
+hi-mini-7600	7600	C1	Cities of the world	दुनिया के शहर
+hi-mini-7700	7700	C1	Inventions and inventors	आविष्कार और आविष्कारक
+hi-mini-7800	7800	C1	Public services	सार्वजनिक सेवाएँ
+hi-mini-7900	7900	C1	Mountains and hills	पहाड़ और पहाड़ियाँ
+hi-mini-8000	8000	C1	Family columns	परिवार पर कॉलम
+hi-mini-8100	8100	C2	The human body	मानव शरीर
+hi-mini-8200	8200	C2	Prevention and resilience	बचाव और हिम्मत
+hi-mini-8300	8300	C2	Design and craft	डिज़ाइन और कारीगरी
+hi-mini-8400	8400	C2	Emotions and relationships	भावनाएँ और रिश्ते
+hi-mini-8500	8500	C2	Explorers and travellers	खोजी और यात्री
+hi-mini-8600	8600	C2	The forest	जंगल
+hi-mini-8700	8700	C2	Advertising and communication	विज्ञापन और संचार
+hi-mini-8800	8800	C2	Food culture in India	भारत की खान-पान संस्कृति
+hi-mini-8900	8900	C2	Traditional and classical music	लोक और शास्त्रीय संगीत
+hi-mini-9000	9000	C2	Essays on time	समय पर निबंध
+hi-mini-9100	9100	C2	Chemistry and materials	रसायन और पदार्थ
+hi-mini-9200	9200	C2	Maps and finding the way	नक़्शे और रास्ता ढूँढना
+hi-mini-9300	9300	C2	Folk tales	लोककथाएँ
+hi-mini-9400	9400	C2	Rare professions	अनोखे पेशे
+hi-mini-9500	9500	C2	Urban planning	नगर नियोजन
+hi-mini-9600	9600	C2	Everyday physics	रोज़ की भौतिकी
