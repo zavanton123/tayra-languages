@@ -2347,7 +2347,7 @@ EXCLUDE["th"] = EXCLUDE.get("th", set()) | {
 # Hebrew words read whole, or cut into the letters in front and the word after them, against the dictionary
 # (build_hebrew): the list has the first, by which the reader keeps them whole, and leaves out the second. Whole: words
 # whose first letter is the root's (הלך, בכה, לקח, מים, שאל), and the prepositions with a pronoun after them (שלי, לכם,
-# ממני), the forms of their preposition.
+# ממני), the forms of their preposition, but for לכן and בכן, which are "therefore" and "so".
 HEBREW_WHOLE = {
     "הלך", "הגיע", "הבין", "הרגיש", "הפך", "הרבה", "ביתה", "בית", "בדק", "בכה", "ברכה", "לקח", "למד", "לחם", "לבד", "לפני",
     "מים", "מלך", "מקום", "משפחה", "מספר", "מכתב", "מורה", "משהו", "שלום", "שלח", "שמע", "שאל", "שמלה", "שולחן", "כלב",
@@ -2356,8 +2356,8 @@ HEBREW_WHOLE = {
     "לסדר", "לפרק", "לכבד", "לחשב", "לקשר", "לחלק", "לגדל", "לפחד",
 }
 _HEBREW_PREPOSITIONS = {
-    "ל": "לי לך לו לה לנו לכם לכן להם להן",
-    "ב": "בי בך בו בה בנו בכם בכן בהם בהן",
+    "ל": "לי לך לו לה לנו לכם להם להן",
+    "ב": "בי בך בו בה בנו בכם בהם בהן",
     "מ": "ממני ממך ממנו ממנה מכם מכן מהם מהן",
     "כמו": "כמוני כמוך כמוהו כמוה כמונו כמוכם כמוהם כמוהן",
     "של": "שלי שלך שלו שלה שלנו שלכם שלכן שלהם שלהן",
@@ -2382,3 +2382,8 @@ OVERRIDES["he"].update({"מאד": ["מאוד"], "שנת": ["שנה"], "שנות"
 OVERRIDES["he"].update({"גדולי": ["גדול"], "ידועה": ["ידוע"], "ידועים": ["ידוע"], "ידועות": ["ידוע"], "אישור": ["אישור"]})
 # A name spelled as a verb's form (יצחק "Isaac", "he will laugh"), and וכו׳ "etc." without its geresh.
 EXCLUDE.setdefault("he", set()).update({"יצחק", "וכו"})
+# עבור "for" and its forms with a pronoun, which the pack files under עבר "to pass".
+OVERRIDES["he"].update({f: ["עבור"] for f in ("עבור", "עבורו", "עבורי", "עבורם", "עבורך", "עבורה", "עבורכם", "עבורנו", "עבורן")})
+# כגון "such as", which the pack lacks; ניהל "to manage", which it files under נוהל "procedure".
+HEBREW_WHOLE.add("כגון")
+OVERRIDES["he"].update({"כגון": ["כגון"], **{f: ["ניהל"] for f in ("ניהל", "לנהל", "ניהלו", "ניהלה", "ניהלתי")}})
