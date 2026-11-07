@@ -46,7 +46,7 @@
 46	6446	craos	craois craosan
 47	6447	leasradh	leasraidh
 48	6448	dì-cheann	dì-cheannaich dì-cheannaidh dì-cheannte
-49	6449	leòbag	
+49	6449	leòbag	leòbagan
 50	6450	cealgair	
 51	6451	spàrr	sparran sparrte
 52	6452	dìofar	
@@ -77,7 +77,7 @@
 77	6477	crèis	
 78	6478	anacladh	
 79	6479	beiril	
-80	6480	smachdaich	smachdachadh smachdaicheadh smachdaicheam smachdaicheamaid smachdaichear smachdaichibh smachdaichidh smachdaichinn smachdaichist smachdaichiste smachdaichte smachdaichteadh smachdaichtear
+80	6480	smachdaich	smachdachadh smachdaicheadh smachdaicheam smachdaicheamaid smachdaichear smachdaicheas smachdaichibh smachdaichidh smachdaichinn smachdaichist smachdaichiste smachdaichte smachdaichteadh smachdaichtear
 81	6481	sgailc	sgailcean
 82	6482	suimeil	suimeile
 83	6483	teatair	
@@ -95,6 +95,6 @@
 95	6495	smùrach	
 96	6496	usgar	
 97	6497	eadar-sgaoil	eadar-sgaoilidh eadar-sgaoilte
-98	6498	meatafor	
+98	6498	meatafor	meataforan
 99	6499	fàillinn	fàillinnean
 100	6500	far-stuth	
