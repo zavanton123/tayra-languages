@@ -24,6 +24,9 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import frequency_persian  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LISTS = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "composeResources", "files", "frequency")
 WORD = re.compile(r"[^\W\d_]+(?:['’][^\W\d_]+)*", re.UNICODE)
@@ -31,6 +34,7 @@ BAND = 100
 # Hindi words as the reader cuts them (its wordCharacters in PredefinedLanguages.kt): Latin and Devanagari letters, vowel
 # signs, virama, nukta and Devanagari digits, without the danda; Python's \w leaves out the signs and would cut every word.
 HINDI_WORD = re.compile(r"[a-zA-Z\u0900-\u0963\u0966-\u097f\u200c\u200d]+")
+PERSIAN_WORD = re.compile(r"[^\W\d_]+(?:\u200c[^\W\d_]+)*", re.UNICODE)
 
 
 def rules(rank_up_to):
@@ -137,6 +141,9 @@ def fold(code, word):
     # And the Gaelic (a', b', dh'fhàg).
     if code == "gd":
         return word.replace("’", "'").replace("ʼ", "'").replace("‘", "'")
+    # Persian words are matched as the reader matches them: ک and ی for ك and ي, no marks.
+    if code == "fa":
+        return frequency_persian.persian_fold(word)
     return word
 
 
@@ -452,6 +459,9 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return finnic_tokens(text, code)
     if code == "hi":
         return HINDI_WORD.findall(text)
+    # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
+    if code == "fa":
+        return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -2109,7 +2119,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id", "hr", "bs", "bg", "ro", "mk") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id", "hr", "bs", "bg", "ro", "mk", "fa") else []
     # So is a Galician one (A Coruña, Santiago de Compostela, O Porriño).
     if code == "gl":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
@@ -2286,6 +2296,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^सवाल:", "", text)
         if code == "th":
             text = re.sub(r"(?m)^คำถาม:", "", text)
+        if code == "fa":
+            text = re.sub("(?m)^پرسش\u200cها:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
@@ -2332,6 +2344,9 @@ def check(path, brief=False):
             lowered = [latin_word(w, ranks, names, la_names) for w in lowered]
         if code == "ka":
             lowered = [w if w in ranks or w in names or not georgian_name(w, names) else "\u0000name" for w in lowered]
+        if code == "fa":
+            dictionary = os.path.join(ROOT, "dictionaries", "fa-en.sqlite")
+            lowered = [w if w in ranks or w in names else frequency_persian.checker_word(w, ranks, dictionary) or w for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
