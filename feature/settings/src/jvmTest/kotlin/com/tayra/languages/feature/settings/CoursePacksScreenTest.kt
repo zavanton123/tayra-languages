@@ -21,6 +21,7 @@ import com.tayra.languages.core.domain.courses.CoursePackStatus
 import com.tayra.languages.core.domain.courses.CoursePacks
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.formatSize
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
@@ -48,7 +49,7 @@ class CoursePacksScreenTest {
         }
         onNodeWithText("Portuguese (Brazil)").assertExists()
         onNodeWithText("Not downloaded").assertExists()
-        onNodeWithText("1.2 MB to download").assertExists()
+        onNodeWithText("${formatSize(pack.downloadSize)} to download").assertExists()
         System.getenv("COURSE_PACKS_SCREENSHOT")?.let { save(it) }
 
         onNodeWithTag("download-courses-pt").performClick()
@@ -107,7 +108,7 @@ class CoursePacksScreenTest {
         }
         onNodeWithText("Course packs").assertExists()
         onNodeWithText("1,000").assertExists()
-        onNodeWithText("1.2 MB").assertExists()
+        onNodeWithText(formatSize(pack.downloadSize)).assertExists()
         System.getenv("COURSE_PACKS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
         onNodeWithTag("download-courses-pt").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("remove-courses-pt").fetchSemanticsNodes().isNotEmpty() }
