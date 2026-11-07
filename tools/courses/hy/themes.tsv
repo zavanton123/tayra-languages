@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Armenian)
+hy-mini-0100	100	A1	Home and family	Տանը և ընտանիքում
+hy-mini-0200	200	A1	Everyday life	Սովորական մի օր
+hy-mini-0300	300	A1	Food and shopping	Ուտելիք և գնումներ
+hy-mini-0400	400	A2	In the city	Քաղաքում
+hy-mini-0500	500	A2	School and work	Դպրոց և աշխատանք
+hy-mini-0600	600	A2	Free time and hobbies	Ազատ ժամանակ և հոբբիներ
+hy-mini-0700	700	A2	Health and the body	Առողջություն և մարմին
+hy-mini-0800	800	A2	Travel and holidays	Ճամփորդություն և արձակուրդ
+hy-mini-0900	900	A2	Nature and the seasons	Բնություն և տարվա եղանակներ
+hy-mini-1000	1000	A2	Birthdays, parties and friends	Ծննդյան օրեր, հյուրեր և ընկերներ
+hy-mini-1100	1100	B1	Living and housing	Բնակարան և տուն
+hy-mini-1200	1200	B1	Memories	Հիշողություններ
+hy-mini-1300	1300	B1	Jobs and training	Մասնագիտություն և ուսում
+hy-mini-1400	1400	B1	Getting around	Ճանապարհին
+hy-mini-1500	1500	B1	Money and shopping	Փող և գնումներ
+hy-mini-1600	1600	B1	Experiencing culture	Մշակույթը մոտիկից
+hy-mini-1700	1700	B1	Sport and exercise	Սպորտ և մարզանք
+hy-mini-1800	1800	B1	The environment in daily life	Շրջակա միջավայրը առօրյայում
+hy-mini-1900	1900	B1	Letters, messages and media	Նամակներ, հաղորդագրություններ և լրատվություն
+hy-mini-2000	2000	B1	Neighbourhood	Մեր թաղը
+hy-mini-2100	2100	B2	Cooking and food	Խոհանոց և ճաշատեսակներ
+hy-mini-2200	2200	B2	Body and mind	Մարմին և միտք
+hy-mini-2300	2300	B2	The world of work	Աշխատանքի աշխարհը
+hy-mini-2400	2400	B2	Science and technology	Գիտություն և տեխնիկա
+hy-mini-2500	2500	B2	History you can touch	Պատմություն, որին կարելի է դիպչել
+hy-mini-2600	2600	B2	Travelling in Armenia	Ճամփորդություն Հայաստանում
+hy-mini-2700	2700	B2	Generations	Սերունդներ
+hy-mini-2800	2800	B2	Music	Երաժշտություն
+hy-mini-2900	2900	B2	Society and living together	Հասարակություն և համակեցություն
+hy-mini-3000	3000	B2	Small columns	Փոքրիկ սյունակներ
+hy-mini-3100	3100	B2	Home and decoration	Տուն և ձևավորում
+hy-mini-3200	3200	B2	Fashion and clothes	Նորաձևություն և հագուստ
+hy-mini-3300	3300	B2	The great outdoors	Բաց երկնքի տակ
+hy-mini-3400	3400	B2	Traditional crafts	Ավանդական արհեստներ
+hy-mini-3500	3500	B2	Technology and society	Տեխնոլոգիա և հասարակություն
+hy-mini-3600	3600	B2	Rivers, lakes and mountains	Գետեր, լճեր և լեռներ
+hy-mini-3700	3700	B2	Books and language	Գրքեր և լեզու
+hy-mini-3800	3800	B2	Everyday economics	Առօրյա տնտեսագիտություն
+hy-mini-3900	3900	B2	Village life	Գյուղական կյանք
+hy-mini-4000	4000	B2	City life columns	Քաղաքային կյանքի սյունակներ
+hy-mini-4100	4100	C1	Body and mind in daily life	Մարմինն ու միտքը առօրյայում
+hy-mini-4200	4200	C1	Architecture and heritage	Ճարտարապետություն և ժառանգություն
+hy-mini-4300	4300	C1	Climate and energy	Կլիմա և էներգիա
+hy-mini-4400	4400	C1	Everyday paperwork	Առօրյա փաստաթղթեր
+hy-mini-4500	4500	C1	Film and television	Կինո և հեռուստատեսություն
+hy-mini-4600	4600	C1	Research and discovery	Հետազոտություններ և հայտնագործություններ
+hy-mini-4700	4700	C1	Living far from home	Կյանքը տնից հեռու
+hy-mini-4800	4800	C1	The mind in daily life	Միտքը առօրյայում
+hy-mini-4900	4900	C1	Sport and society	Սպորտ և հասարակություն
+hy-mini-5000	5000	C1	Short essays	Կարճ էսսեներ
+hy-mini-5100	5100	C1	Archaeology and the past	Հնագիտություն և անցյալ
+hy-mini-5200	5200	C1	The science of cooking	Խոհարարության գիտությունը
+hy-mini-5300	5300	C1	Landscapes	Բնանկարներ
+hy-mini-5400	5400	C1	Caring for others	Հոգ տանել ուրիշների մասին
+hy-mini-5500	5500	C1	Visual arts	Կերպարվեստ
+hy-mini-5600	5600	C1	Journalism and media	Լրագրություն և մեդիա
+hy-mini-5700	5700	C1	Transport and mobility	Տրանսպորտ և տեղաշարժ
+hy-mini-5800	5800	C1	The Armenian language	Հայերենը
+hy-mini-5900	5900	C1	Starting a business	Սեփական գործ սկսել
+hy-mini-6000	6000	C1	Memoirs	Հուշեր
+hy-mini-6100	6100	C1	The universe and the stars	Տիեզերքն ու աստղերը
+hy-mini-6200	6200	C1	Mining and natural resources	Հանքեր և բնական պաշարներ
+hy-mini-6300	6300	C1	Food and health	Սնունդ և առողջություն
+hy-mini-6400	6400	C1	Theatre and stage	Թատրոն և բեմ
+hy-mini-6500	6500	C1	Engineering	Ճարտարագիտություն
+hy-mini-6600	6600	C1	Farm to table	Դաշտից սեղան
+hy-mini-6700	6700	C1	Words and where they come from	Բառերն ու նրանց ծագումը
+hy-mini-6800	6800	C1	Armenian literature	Հայ գրականություն
+hy-mini-6900	6900	C1	Numbers and reasoning	Թվեր և տրամաբանություն
+hy-mini-7000	7000	C1	Travel columns	Ճամփորդական սյունակներ
+hy-mini-7100	7100	C1	Public health	Հանրային առողջություն
+hy-mini-7200	7200	C1	Everyday philosophy	Առօրյա փիլիսոփայություն
+hy-mini-7300	7300	C1	Folk festivals and fairs	Ժողովրդական տոնակատարություններ և տոնավաճառներ
+hy-mini-7400	7400	C1	Animal behaviour	Կենդանիների վարքը
+hy-mini-7500	7500	C1	Work and the labour market	Աշխատանք և աշխատաշուկա
+hy-mini-7600	7600	C1	Cities of the world	Աշխարհի քաղաքներ
+hy-mini-7700	7700	C1	Inventions and inventors	Գյուտեր և գյուտարարներ
+hy-mini-7800	7800	C1	Public services	Հանրային ծառայություններ
+hy-mini-7900	7900	C1	Mountains and hills	Լեռներ և բլուրներ
+hy-mini-8000	8000	C1	Family columns	Ընտանեկան սյունակներ
+hy-mini-8100	8100	C2	The human body	Մարդու մարմինը
+hy-mini-8200	8200	C2	Prevention and resilience	Կանխարգելում և տոկունություն
+hy-mini-8300	8300	C2	Design and craft	Դիզայն և վարպետություն
+hy-mini-8400	8400	C2	Emotions and relationships	Զգացմունքներ և հարաբերություններ
+hy-mini-8500	8500	C2	Explorers and travellers	Հետազոտողներ և ճանապարհորդներ
+hy-mini-8600	8600	C2	The forest	Անտառը
+hy-mini-8700	8700	C2	Advertising and communication	Գովազդ և հաղորդակցություն
+hy-mini-8800	8800	C2	Food culture in Armenia	Հայկական սննդի մշակույթը
+hy-mini-8900	8900	C2	Traditional and classical music	Ավանդական և դասական երաժշտություն
+hy-mini-9000	9000	C2	Essays on time	Էսսեներ ժամանակի մասին
+hy-mini-9100	9100	C2	Chemistry and materials	Քիմիա և նյութեր
+hy-mini-9200	9200	C2	Maps and finding the way	Քարտեզներ և ճանապարհ գտնելը
+hy-mini-9300	9300	C2	Tales and legends	Հեքիաթներ և ավանդազրույցներ
+hy-mini-9400	9400	C2	Rare professions	Հազվագյուտ մասնագիտություններ
+hy-mini-9500	9500	C2	Urban planning	Քաղաքաշինություն
+hy-mini-9600	9600	C2	Everyday physics	Առօրյա ֆիզիկա
+hy-mini-9700	9700	C2	Gardens and botany	Այգիներ և բուսաբանություն
+hy-mini-9800	9800	C2	Folk art and customs	Ժողովրդական արվեստ և սովորույթներ
+hy-mini-9900	9900	C2	Ethics and living together	Էթիկա և համակեցություն
+hy-mini-10000	10000	C2	Learning and language	Ուսում և լեզու
