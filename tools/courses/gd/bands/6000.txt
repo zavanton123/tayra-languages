@@ -9,7 +9,7 @@
 9	5909	tiùbar	tiùbaran
 10	5910	lobhte	loithte lothta
 11	5911	balg-buachrach	builg-bhuachrach
-12	5912	cùdainn	
+12	5912	cùdainn	cùdainnean
 13	5913	paireafain	
 14	5914	pàipear-gainmhich	
 15	5915	cù-chaorach	coin-chaorach
@@ -54,11 +54,11 @@
 54	5954	seòmar-sgeadachaidh	seòmair-sgeadachaidh seòmraichean-sgeadachaidh
 55	5955	bonnach-uighe	bonnaich-uighe
 56	5956	cumachd	chumachd
-57	5957	sioraf	
+57	5957	sioraf	siorafan
 58	5958	deoghal	
 59	5959	leòman	
 60	5960	triubhas	triubhais
-61	5961	sgolap	
+61	5961	sgolap	sgolapan
 62	5962	griùthach	ghriùthach
 63	5963	ròineag	
 64	5964	siobhag	
@@ -83,7 +83,7 @@
 83	5983	taigh-tionnsgain	
 84	5984	cnàmh-droma	
 85	5985	abaichead	abaicheid
-86	5986	ginearalaich	ghinearalachadh
+86	5986	ginearalaich	ghinearalachadh ginearalachadh
 87	5987	cut	cutadh
 88	5988	sgòrnanach	
 89	5989	rola	

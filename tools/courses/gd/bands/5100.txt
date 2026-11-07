@@ -13,7 +13,7 @@
 13	5013	bachlach	
 14	5014	togarrach	tograch
 15	5015	osnaich	
-16	5016	darag	daragan daraige
+16	5016	darag	daragan daraig daraige
 17	5017	fial	
 18	5018	fearail	
 19	5019	fuathasach	
@@ -24,10 +24,10 @@
 24	5024	frith-bharail	
 25	5025	asparag	
 26	5026	truimead	
-27	5027	fairtlich	fhairtlich
+27	5027	fairtlich	fairtlicheadh fhairtlich
 28	5028	ròghnaich	ròghnachadh
 29	5029	beòir	
-30	5030	cliabhan	
+30	5030	cliabhan	cliabhain
 31	5031	rianail	
 32	5032	sorcaireach	
 33	5033	cursa	
@@ -37,7 +37,7 @@
 37	5037	pòsd	
 38	5038	sgealbag	sgealbagan sgealbaig
 39	5039	fuaradh	
-40	5040	fiathaich	
+40	5040	fiathaich	fiathaichidh
 41	5041	reòthte	
 42	5042	buanachd	bhuanachd
 43	5043	aost	
@@ -55,7 +55,7 @@
 55	5055	gnàthas-cainnt	gnàthais-chainnt gnàthas-cainnte gnàthasan-cainnt
 56	5056	slaop	slaopadh
 57	5057	ròst	ròstadh ròstaidh
-58	5058	fàireag	fhàireag
+58	5058	fàireag	fhàireag fàireagan
 59	5059	carrach	
 60	5060	aogas	aogais aogaisean
 61	5061	ath-shuidheachadh	
@@ -83,16 +83,16 @@
 83	5083	maiseachadh	mhaiseachadh
 84	5084	sìthich	sìtheachadh
 85	5085	slàinteil	
-86	5086	làmhag	làmhagan làmhaige
+86	5086	làmhag	làmhagan làmhaig làmhaige
 87	5087	sgàirneach	
 88	5088	guais	ghuais
 89	5089	co-aontaich	co-aontachadh co-aontaichidh co-aontaichte
-90	5090	biatas	bhiatas
+90	5090	biatas	bhiatas biatais
 91	5091	sucros	
 92	5092	bambù	bambùthaichean
 93	5093	aicheamhail	
 94	5094	àlainneachd	
-95	5095	ulag	
+95	5095	ulag	ulagan
 96	5096	fo-cheannard	
 97	5097	solarachd	
 98	5098	locast	locastan
