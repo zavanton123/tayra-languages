@@ -2387,3 +2387,12 @@ OVERRIDES["he"].update({f: ["עבור"] for f in ("עבור", "עבורו", "ע�
 # כגון "such as", which the pack lacks; ניהל "to manage", which it files under נוהל "procedure".
 HEBREW_WHOLE.add("כגון")
 OVERRIDES["he"].update({"כגון": ["כגון"], **{f: ["ניהל"] for f in ("ניהל", "לנהל", "ניהלו", "ניהלה", "ניהלתי")}})
+# Forms the pack also has as words of their own, which texts write as the form: a verb's infinitive and present
+# (לתת "to give", not "malt"; אומר "says", רואה "sees", כותב "writes"), היינו "we were", דקות "minutes", אחי "my
+# brother", ימי "days of". עובד "worker" and עולה "immigrant, costs" stay words.
+OVERRIDES["he"].update({
+    "לתת": ["נתן"], "נותן": ["נתן"], "אומר": ["אמר"], "רואה": ["ראה"], "חוזר": ["חזר"], "מכיר": ["הכיר"], "כותב": ["כתב"],
+    "קורא": ["קרא"], "מצליח": ["הצליח"], "היינו": ["היה"], "דקות": ["דקה"], "אחי": ["אח"], "ימי": ["יום"],
+    # And the past of הלך "to go" and ראה "to see", which the pack has as "halachic", "religious law" and another verb's.
+    "הלכתי": ["הלך"], "הלכנו": ["הלך"], "הלכה": ["הלך"], "ראתה": ["ראה"],
+})
