@@ -2414,6 +2414,8 @@ OVERRIDES["hy"] = {
     "ասված": ["ասել"], "հիման": ["հիմք"], "մեկն": ["մեկ"], "կայ": ["կա"], "չկայ": ["կա"], "կանք": ["կա"], "չկամ": ["կա"],
     **{f: ["գունդ"] for f in ("գնդի", "գնդին", "գնդում", "գնդերը", "գնդերի", "գնդեր", "գնդից", "գնդով", "գնդերից", "գնդերով", "գնդերում")},
     "բերում": ["բերել"], "քնում": ["քնել"], "հարցում": ["հարց", "հարցում"],
+    # A causative is a word of its own: հիշեցնել "remind", not հիշել "remember" (the general rule gives it to the commoner verb).
+    "հիշեցնել": ["հիշեցնել"],
 }
 # Names filed as words' forms (Երևան of երևալ, Կարս of կամ, Պարսից of պար), and Western Armenian's particles and pronouns:
 # the courses are in Eastern Armenian.
