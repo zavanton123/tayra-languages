@@ -113,6 +113,10 @@ def fold(code, word):
     # Arabic words are matched without their vowel signs, as the reader matches them.
     if code == "ar":
         return re.sub("[\u064b-\u065f\u0670\u0640]", "", word)
+    # Hebrew words are matched without their points, with the geresh and gershayim as the Hebrew signs (ג׳ינס, צה״ל), as
+    # the reader matches them.
+    if code == "he":
+        return hebrew_spelled(word)
     # Turkish texts may write â, î, û (hâlâ, dükkân, millî) where the list mostly has a, i, u; and a
     # capital İ lowercased by Python keeps a combining dot.
     if code == "tr":
@@ -445,6 +449,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return korean_tokens(text, ranks, names, heads)
     if code == "ar":
         return arabic_tokens(text, ranks, names)
+    if code == "he":
+        return hebrew_tokens(text, ranks, names)
     if code == "id":
         return indonesian_tokens(text, ranks, heads, names)
     if code == "tl":
@@ -1617,6 +1623,66 @@ def arabic_tokens(text, ranks, names=frozenset()):
     return out
 
 
+# Hebrew: words cut as the reader cuts them (HebrewParser, ported as build_frequency_list.hebrew_pieces) by the ranks
+# of the list the app ships, not the courses' pinned one, and the he-en pack's words: ובבית is ו + ב + בית.
+_hebrew = {}
+HEBREW_WORD = re.compile("[\u05d0-\u05ea\u05f3\u05f4]+")
+
+
+def hebrew_spelled(text):
+    """[text] as the reader matches it: without points or cantillation, the geresh and gershayim as the Hebrew signs."""
+    text = re.sub("[\u0591-\u05bd\u05bf\u05c1\u05c2\u05c4\u05c5\u05c7]", "", text)
+    text = re.sub("(?<=[\u05d0-\u05ea])['\u2019]", "\u05f3", text)
+    return re.sub('(?<=[\u05d0-\u05ea])"(?=[\u05d0-\u05ea])', "\u05f4", text)
+
+
+def hebrew_reader():
+    """The bundled list's words and ranks, as LexiconService gives them to the reader, and the he-en pack's words."""
+    if not _hebrew:
+        import sqlite3
+        import build_frequency_list as fl
+        text = open(os.path.join(LISTS, "he.tsv"), encoding="utf-8").read()
+        words, bundled = fl.list_ranks(text)
+        path = os.path.join(ROOT, "dictionaries", "he-en.sqlite")
+        if not os.path.exists(path):
+            sys.exit(f"Hebrew courses need the he-en pack at {path}")
+        db = sqlite3.connect(path)
+        pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
+        _hebrew.update(fl=fl, known=lambda w: w in words or w in pack, rank=bundled.get, head=fl.list_heads(text).get)
+    return _hebrew
+
+
+def hebrew_tokens(text, ranks, names=frozenset()):
+    """
+    Hebrew words as the reader cuts them: the letters written onto a word's front (ו, ש, כש, מש, לכש, ב, כ, ל, מ, ה) and
+    the word, each a word of its own; the letters in front are known little words. A word the list lacks with a pronoun
+    after it is counted as the list's word it is on (ביתנו as בית), and one with its ו doubled after the letters in front
+    as the word (וועדה as ועדה). Words are parted by the maqaf and the hyphen as by a space (בית־ספר). A name, with the
+    letters in front of it (ודנה), is [KNOWN].
+    """
+    h = hebrew_reader()
+    fl = h["fl"]
+    out = []
+    for run in HEBREW_WORD.findall(hebrew_spelled(text)):
+        if run in names:
+            out.append(KNOWN)
+            continue
+        named = next((clitics for clitics, stem in fl.hebrew_analyses(run) if stem in names), None)
+        if named is not None:
+            out.extend(named + [KNOWN])
+            continue
+        for piece in fl.hebrew_pieces(run, h["known"], h["rank"], h["head"]):
+            if piece in ranks:
+                out.append(piece)
+            elif piece in fl.HEBREW_CLITICS:
+                out.append(KNOWN)
+            else:
+                # The commonest word it can be with a pronoun after it (ביתנו is בית's), or as written with its ו doubled.
+                out.append(min((b for s in fl.hebrew_spellings(piece) for b in [s] + fl.hebrew_bases(s) if b in ranks),
+                               key=ranks.get, default=piece))
+    return out
+
+
 # Indonesian: the reader cuts words at spaces, hyphens and punctuation (anak-anak is anak + anak). The list files
 # most affixed forms under their word (membaca under baca; makanan is an entry of its own), but files their clitic
 # forms haphazardly (makanannya under makan, not makanan). So a clitic comes off before a word is looked up: the
@@ -2119,7 +2185,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id", "hr", "bs", "bg", "ro", "mk", "fa") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "he", "ca", "id", "hr", "bs", "bg", "ro", "mk", "fa") else []
     # So is a Galician one (A Coruña, Santiago de Compostela, O Porriño).
     if code == "gl":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
@@ -2260,6 +2326,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^질문:", "", text)
         if code == "ar":
             text = re.sub(r"(?m)^أسئلة:", "", text)
+        if code == "he":
+            text = re.sub(r"(?m)^שאלות:", "", text)
         if code == "hu":
             text = re.sub(r"(?m)^Kérdések:", "", text)
         if code == "ca":
