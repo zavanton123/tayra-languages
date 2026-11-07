@@ -8,7 +8,9 @@ which files می‌شود under کرد. Without vowels the table also names look
 with a sense of its own keeps its count, unless PERSIAN_OVERRIDES sends it to a verb it is mostly a form of (کند of کردن).
 """
 import json
+import os
 import re
+import sqlite3
 from collections import defaultdict
 
 ZWNJ = "‌"
@@ -25,11 +27,18 @@ _NOMINAL_ENDINGS = tuple(sorted(
     | {"ها" + p for p in _PRONOUNS} | {"های" + p for p in _PRONOUNS} | {"هایم", "هایت", "هایش"},
     key=len, reverse=True))
 
-_FORM_GLOSS = re.compile(r"\b(?:form|plural|inflection|stem|participle|imperative|spelling|contraction|comparative|superlative|person|misspelling|"
-                         r"romanization|transliteration|abbreviation|letter)\b", re.I)
+# A gloss that makes its word another's form names the relation and "of": "Spoken form of آتش", "broken plural of",
+# "past participle of", "third-person plural present of", "comparative degree of"; not "person" or "letter" alone.
+_FORM_GLOSS = re.compile(r"\b(?:form|plural|singular|inflection|stem|participle|imperative|spelling|contraction|comparative|superlative|"
+                         r"degree|misspelling|romanization|transliteration|abbreviation|letter|present|past|indicative|subjunctive|"
+                         r"possessive) of\b", re.I)
 _OF_WORD = re.compile(r"\bof ([ء-ۿ‌]+)")
 _NOT_MODERN = {"archaic", "obsolete", "dated", "rare", "historical", "Classical-Persian", "Dari", "Tajik", "dialectal", "poetic", "Early-New-Persian", "Internet", "uncommon"}
 _OWN_KINDS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", "intj", "particle"}
+
+# The other packs, in the order their words are taken; and how they gloss a plural ("Pluriel de فیلم", "زن 的複數").
+_OTHER_PACKS = ("fa-ru.sqlite", "fa-fr.sqlite", "fa-zh.sqlite", "fa-pl.sqlite")
+_PLURAL_GLOSS = re.compile(r"pluriel|複數|复数|множ|liczba mnoga|forme|форма", re.I)
 
 OWN = set()
 FORM_OF = defaultdict(list)
@@ -70,6 +79,7 @@ def load(db, pos, lemmas, common):
     pos.update(folded_pos)
     for word in list(common):
         common.setdefault(persian_fold(word), persian_fold(word))
+    verbs, modern_verbs = set(), set()
     for word_lc, p, senses in db.execute("SELECT word_lc, pos, senses FROM entries"):
         word = persian_fold(word_lc)
         if p not in _OWN_KINDS:
@@ -82,6 +92,20 @@ def load(db, pos, lemmas, common):
                         FORM_OF[word].append(persian_fold(of.group(1)))
                 elif not _NOT_MODERN & set(sense.get("tags", [])):
                     OWN.add(word)
+                    if p == "verb":
+                        modern_verbs.add(word)
+        if p == "verb":
+            verbs.add(word)
+    # An obsolete or dialectal verb (یازیدن, هاسیدن, رفدن) is no word of the list: its table names common words (نیازی, هاست).
+    for word in verbs - modern_verbs:
+        pos[word].discard("verb")
+    forms = defaultdict(set)
+    for form, of in lemmas.items():
+        forms[bare(persian_fold(form))].update(persian_fold(lemma) for lemma in of)
+    for word, kind in _other_words(db, pos, forms).items():
+        pos[word].add(kind)
+        common.setdefault(word, word)
+        OWN.add(word)
     for word in pos:
         if ZWNJ in word:
             SPELLED[bare(word)].append(word)
@@ -94,6 +118,40 @@ def load(db, pos, lemmas, common):
             if lemma != key and lemma not in ROWS[key]:
                 ROWS[key].append(lemma)
     lemmas.clear()
+
+
+def _other_words(db, pos, forms):
+    """
+    Words the English pack lacks: PERSIAN_WORDS, and the words the other Persian packs on disk have with a kind of their own
+    that the English pack has as no word, no form and no other spelling (پیام, سهام); a phrase, a plural glossed as such or a
+    verb's form is none.
+    """
+    found = dict(PERSIAN_WORDS)
+    written = {bare(word) for word in pos}
+    path = db.execute("PRAGMA database_list").fetchone()[2]
+    for other in _OTHER_PACKS:
+        other = os.path.join(os.path.dirname(path), other)
+        if not os.path.exists(other):
+            continue
+        for word_lc, p, senses in sqlite3.connect(other).execute("SELECT word_lc, pos, senses FROM entries ORDER BY id"):
+            word = persian_fold(word_lc)
+            if p not in _OWN_KINDS - {"verb"} or not SCRIPT.fullmatch(word) or word in pos or bare(word) in forms or word in found:
+                continue
+            if bare(word) in written or _verb_form(bare(word), forms, pos):
+                continue
+            if any(_PLURAL_GLOSS.search(g) for sense in json.loads(senses) for g in sense.get("glosses", [])):
+                continue
+            found[word] = p
+    return found
+
+
+def _verb_form(plain, forms, pos):
+    """Whether a word is a verb's form with می or ن before it that the pack's table lacks (میتوان, نداری, می‌بینمت)."""
+    for prefix in ("نمی", "می", "ن"):
+        rest = plain[len(prefix):]
+        if plain.startswith(prefix) and len(rest) > 1 and any("verb" in pos.get(l, ()) for l in forms.get(rest, set()) | forms.get(rest[:-1], set())):
+            return True
+    return False
 
 
 def _rows(form, pos):
@@ -121,21 +179,26 @@ def _verbal(plain, pos):
     return []
 
 
-def _stems(plain):
-    """What a word may be with an ending off it, the endings that fit: جایم of جا, خانهاش of خانه, not کتابات of کتاب."""
+def _stems(plain, written):
+    """
+    What a word may be with an ending off it, the endings that fit: جایم of جا, خانه‌اش of خانه, not کتابات of کتاب. An
+    ending in ا after a vowel (ام, اش, ای) is written after the non-joiner (خانه‌ام, کتابی‌ام): پیام is no پی with ام.
+    """
     for ending in _NOMINAL_ENDINGS:
         if not plain.endswith(ending) or len(plain) - len(ending) < 2:
             continue
         stem = plain[:-len(ending)]
         if ending in _AFTER_VOWEL_PRONOUNS and stem[-1] not in "اوهی":
             continue
+        if (ending == "ای" or ending in _AFTER_VOWEL_PRONOUNS and ending[0] == "ا") and not written.endswith(ZWNJ + ending):
+            continue
         yield ending, stem
 
 
-def _by_endings(plain, is_word, count):
+def _by_endings(plain, written, is_word, count):
     """The word a form is by the endings on it (کتابش, خانه‌اش, جایم, کتاب‌هایش, بزرگ‌تر), the commonest such word."""
     found = []
-    for ending, stem in _stems(plain):
+    for ending, stem in _stems(plain, written):
         for base in [stem] + SPELLED.get(stem, []) + ([stem + "ه"] if ending in ("ها", "های", "گان") else []):
             if base in OWN and is_word(base) and count(base) >= count(plain):
                 found.append(base)
@@ -157,7 +220,7 @@ def shares(form, is_word, count, freq, pos):
     if not targets:
         if is_word(form):
             return {form: 1.0}
-        base = _by_endings(plain, is_word, count)
+        base = _by_endings(plain, form, is_word, count)
         if base:
             return {base: 1.0}
         for ending in _PRONOUNS:
@@ -213,10 +276,97 @@ def checker_word(word, ranks, dictionary):
     found = listed(plain)
     if found:
         return found
-    stems = [found for _, stem in _stems(plain) if (found := listed(stem))]
+    stems = [found for _, stem in _stems(plain, word) if (found := listed(stem))]
     return min(stems, key=ranks.get) if stems else None
 
 
-# Filled in below as the list is read.
-PERSIAN_OVERRIDES = {}
-PERSIAN_EXCLUDE = set()
+# Read by hand in the top 1,000 (2026-11-07).
+# Words no pack on disk has as a word: the pack has بله and پایین only as other spellings of بلی and پائین, and پیام as a name.
+PERSIAN_WORDS = {"بله": "intj", "پایین": "adv", "پیام": "noun", "سهام": "noun", "فروش": "noun"}
+
+
+def _to(word, *forms):
+    return {form: [word] for form in forms}
+
+
+PERSIAN_OVERRIDES = {
+    # A verb's past or participle the pack also has as a noun (بود "being", کرد "Kurd", داد "justice", رسید "receipt"),
+    # and the spoken forms of a word that have a sense of their own (باشه "OK", کنه "tick", بره "lamb"): the word's.
+    **_to("بودن", "بود", "باشه", "هست", "هستن", "نیست", "نبود", "هستی", "نیستی"),
+    **_to("کردن", "کرد", "کند", "کنه", "کردی"),
+    **_to("دادن", "داد", "داده"),
+    **_to("گرفتن", "گرفت"),
+    **_to("رسیدن", "رسید", "رسیده"),
+    **_to("ماندن", "ماند", "موندن"),
+    **_to("توانستن", "توان"),
+    **_to("آمدن", "بیا"),
+    **_to("رفتن", "برم", "بری", "بره"),
+    **_to("دیدن", "دیده"),
+    **_to("زدن", "زده"),
+    **_to("بردن", "برده"),
+    **_to("گفتن", "می‌گم", "میگم"),
+    # Spoken spellings and a word with its ending, which the pack has as words of their own.
+    **_to("من", "منو", "منه", "مرا", "منی"),
+    **_to("شدن", "میشی"),
+    **_to("زدن", "میزد"),
+    **_to("خوردن", "خوردی"),
+    **_to("کجا", "کجایی"),
+    **_to("آمدن", "اومدن"),
+    **_to("دانستن", "دونستن"),
+    **_to("خوردن", "بخور"),
+    **_to("سرد", "سرده"),
+    **_to("دختر", "دختری"),
+    **_to("فیلم", "فیلمی"),
+    **_to("پا", "پای"),
+    **_to("بو", "بوی"),
+    **_to("زن", "زنی"),
+    **_to("بزرگ", "بزرگ‌تر"),
+    **_to("انتها", "انتهاء", "انتها"),
+    **_to("امضا", "امضاء", "امضا"),
+    **_to("طلایی", "طلائی", "طلایی"),
+    **_to("از", "ازت"),
+    **_to("تو", "تویی", "توش"),
+    **_to("دوست", "دوس"),
+    **_to("افتادن", "افتاده"),
+    **_to("خبر", "خبری"),
+    **_to("داشتن", "نداری"),
+    **_to("توانستن", "میتوان"),
+    **_to("برای", "واسه"),
+    **_to("به", "بهت", "بهم"),
+    **_to("این", "اینه", "اینا"),
+    **_to("عزیز", "عزیزم"),
+    **_to("دل", "دلم"),
+    **_to("همه", "همش"),
+    **_to("ممنون", "ممنونم"),
+    **_to("خدا", "خدای"),
+    **_to("حال", "حالی"),
+    **_to("مرد", "مردی"),
+    **_to("آره", "اره"),
+    **_to("باران", "بارون"),
+    **_to("زبان", "زبون"),
+    **_to("نان", "نون"),
+    **_to("رویا", "رؤیا", "رویا"),
+    **_to("باز", "بازم"),
+    **_to("بخش", "بخشی"),
+    **_to("میلیون", "ملیون"),
+    **_to("کار", "کاری", "کارم", "کاره", "کاریش", "کاریم", "کاریت", "کارین"),
+    **_to("نشان", "نشون", "نشونه", "نشونت", "نشونم", "نشونش", "نشونتون", "نشونمون", "نشونشون", "نشونی", "نشونیش", "نشونیم", "نشونن"),
+    # The standard spelling as the word: پایین, بله.
+    **_to("پایین", "پائین", "پایین"),
+    **_to("بله", "بلی", "بله"),
+    **_to("ابتدا", "ابتداء", "ابتدا"),
+    **_to("مگر", "مگه"),
+    **_to("خانه", "خونه"),
+    **_to("کار", "کارا"),
+    # Words of their own that the pack also has as another's form.
+    **_to("کو", "کو"),
+    **_to("سهام", "سهام"),
+    **_to("فروش", "فروش"),
+    **_to("بهتر", "بهتر"),
+}
+
+# Wikipedia's own words, letters, a clipped مگه, and people's names.
+PERSIAN_EXCLUDE = {"ویکی‌پدیا", "ویکی", "ویل", "اس", "جی", "ان", "تی", "اف", "مک", "لی", "لا", "ال", "ا", "هات", "مگ", "علی", "حسن", "رضا", "احمد", "محمد", "حسین", "مهدی", "کیوان", "کارن",
+                   # Literary verbs whose tables name common words (بدنی, هلند, سرش, بیارید, بدرد, تکی, نمکی).
+                   "دنیدن", "هشتن", "سرشتن", "یارستن", "دریدن", "پالیدن", "رستن", "تنیدن", "رندیدن", "تکیدن", "چمیدن", "ژولیدن",
+                   "پوییدن", "سریدن", "مکیدن"}

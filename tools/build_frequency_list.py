@@ -119,6 +119,9 @@ SOURCE_ORDER["bg"] = ["wordfreq", "frequencywords"]
 SOURCE_ORDER["sl"] = ["wordfreq", "frequencywords"]
 # And Icelandic, whose shipped list was.
 SOURCE_ORDER["is"] = ["wordfreq", "frequencywords"]
+# And Persian: its Wikipedia, much of it pages on villages and asteroids, adds their words ("دهستان", "سیارک",
+# "سرشماری") and its headings' ("منبع", "پیوند", "وابسته") to the first thousand.
+SOURCE_ORDER["fa"] = ["wordfreq", "frequencywords"]
 # Languages whose sources are all blended, however many forms the first has.
 BLEND = {"ko"}
 # Galician is counted from subtitles alone, as its list was first built (wordfreq has no Galician, and the Wikipedia
