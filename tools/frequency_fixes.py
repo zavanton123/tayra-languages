@@ -2396,3 +2396,20 @@ OVERRIDES["he"].update({
     # And the past of הלך "to go" and ראה "to see", which the pack has as "halachic", "religious law" and another verb's.
     "הלכתי": ["הלך"], "הלכנו": ["הלך"], "הלכה": ["הלך"], "ראתה": ["ראה"],
 })
+# Armenian. է "is" is a single letter, which the general rule drops. The existential կա and its forms are a word of their
+# own, not կամ "or", whose third meaning "I am present" the pack files them under; ունեմ is ունենալ's present. Look-alikes
+# simplemma does not tell apart: գետին of գետ, վերին of վեր, վայրի of վայր, the doers in -ող. Forms named after a word's
+# table: մեր and ձեր are the pronouns'; կազմում կազմել's, առումով առում's.
+OVERRIDES["hy"] = {
+    "է": ["եմ"],
+    **{f: ["կա"] for f in ("կա", "կան", "կար", "կային", "չկա", "չկան", "չկար", "չկային", "կաս", "կաք", "կայի", "կայիր", "չկաս", "չկաք")},
+    "ունեմ": ["ունենալ"],
+    "մեր": ["մենք"], "ձեր": ["դուք"],
+    **{f: [f] for f in ("գետին", "վերին", "ստորին", "վայրի", "կրեմ", "գեղ", "առած", "հուր", "աշխատող", "խաղացող", "ծառայող", "վաճառող", "հաղթող")},
+    **{f: ["գետին"] for f in ("գետնին", "գետինը", "գետնի", "գետնից", "գետնով", "գետինն")},
+    "կազմում": ["կազմել"],
+    "առումով": ["առում"], "առում": ["առում"],
+}
+# Names filed as words' forms (Երևան of երևալ, Կարս of կամ, Պարսից of պար), and Western Armenian's particles and pronouns:
+# the courses are in Eastern Armenian.
+EXCLUDE["hy"] = {"երևան", "կարս", "կարին", "պարսից", "իրան", "աբաս", "աբա", "կը", "կու", "գը", "մը", "անոնք"}

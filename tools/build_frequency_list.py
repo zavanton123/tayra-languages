@@ -91,7 +91,7 @@ FALLBACKS = {
     "mt": {"leipzig": ["mlt_wikipedia_2021_30K", "mlt_news_2020_30K"]},
     "mn": {"leipzig": ["mon_wikipedia_2021_100K", "mon_news_2020_100K"]},
     "tl": {"leipzig": ["tgl_wikipedia_2021_100K", "tgl_news_2020_30K"]},
-    "hy": {"leipzig": ["hye_wikipedia_2021_1M", "hye_news_2020_30K"]},
+    "hy": {"leipzig": ["hye_news_2020_30K"], "wikipedia_sentences": ["hye_wikipedia_2021_1M"]},
     "ka": {"leipzig": ["kat_wikipedia_2021_300K", "kat_news_2020_100K"]},
     "sq": {"leipzig": ["sqi_news_2020_1M", "sqi_wikipedia_2021_300K"]},
     "eu": {"leipzig": ["eus_wikipedia_2021_300K", "eus_news_2020_30K"]},
@@ -157,6 +157,14 @@ SOURCE_WEIGHTS["ka"] = {"leipzig": 0.375, "wikipedia": 0.375, "everyday": 0.25}
 # Hindi is counted from web text and subtitles: its Wikipedia adds the words of its pages (politics, districts, census
 # terms) to the first thousand, where wordfreq's short list alone has fewer than 9,000 words.
 SOURCE_ORDER["hi"] = ["wordfreq", "frequencywords"]
+# Armenian's Wikipedia is 30 times its news and its subtitles 600 times smaller than that, one drama's worth. Counted alike
+# they put the words of the asteroid and village pages (աստերոիդ, խտություն) and the drama's (դայակ, դաշույն) in the first
+# thousand. News leads; Wikipedia is counted from Leipzig's sentences, each once (LEIPZIG_DEDUPED); and a word's subtitle
+# count is taken at its square root (SOURCE_ROOTED), so what one film repeats weighs little. "everyday" reads nothing until
+# EVERYDAY has "hy": adding that entry is all it takes to blend in everyday sentences, at this share of the whole.
+SOURCE_ORDER["hy"] = ["leipzig", "wikipedia_sentences", "frequencywords", "everyday"]
+SOURCE_WEIGHTS["hy"] = {"leipzig": 0.5, "wikipedia_sentences": 0.3, "frequencywords": 0.2, "everyday": 0.25}
+SOURCE_ROOTED = {"hy": {"frequencywords"}}
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -177,6 +185,7 @@ SOURCE_LICENCES = {
     "wordfreq": "CC BY-SA 4.0",
     "frequencywords": "CC BY-SA 4.0",
     "leipzig": "terms at https://wortschatz.uni-leipzig.de/en/download",
+    "wikipedia_sentences": "terms at https://wortschatz.uni-leipzig.de/en/download",
     "everyday": "Tatoeba CC BY 2.0 FR, Common Voice CC0 1.0",
     "everyday_mixed": "CC0 1.0",
 }
@@ -1929,6 +1938,15 @@ IRISH_FORM_TERMS = (r"(?:first|second|third)-person|singular|plural|masculine|fe
                     r"superlative|alternative|dated|superseded|obsolete|archaic|nonstandard|spelling|tense|mood|and|or")
 IRISH_FORM_GLOSS = re.compile(rf"^\s*(?:(?:{IRISH_FORM_TERMS})\b[\s,/;]*)+of ([^\W\d_][\w'-]*)")
 IRISH_FORMS_OF = {}
+# Armenian's postpositions are words of the list (վրա, դիմաց, մասին), as prepositions are of others'.
+ARMENIAN_POS = {"postp"}
+# The pack's words with a sense that is no form of another word, as its glosses say.
+ARMENIAN_OWN = set()
+ARMENIAN_FORM_GLOSS = re.compile(r"^(?:(?:first|second|third)-person|singular|plural|future|perfect|subjunctive/optative|present|participle|"
+                                 r"subject|I|II|converb|simultaneous|negative|conjugation|accusative|genitive|dative|passive|voice|"
+                                 r"Western Armenian|traditional orthography|spelling|form|syncopic|[\s,/;])+\s*of ([^\W\d_]+)")
+# The words sharing an Armenian word's spelling, with their shares (որոշում: the noun and որոշել's participle).
+ARMENIAN_SHARED = {}
 IRISH_VERBS = set()
 # The initial mutations, whose form is the word's (bhfear, gcarr, n-am, t-uisce, hÉireann, d'fhan, mo chara): eclipsis
 # and the letters put before a vowel, then lenition.
@@ -2445,6 +2463,31 @@ def galician_joined(form, verb_of, count):
     return None
 
 
+# Armenian writes ՞ ՛ ՜ over a word's stressed vowel, inside the word (ինչո՞ւ, ո՞վ, գնա՛նք), and ՟ in abbreviations.
+ARMENIAN_WORD_MARKS = str.maketrans("", "", "\u055b\u055c\u055e\u055f")
+# Leipzig's corpora leave these on their words, with the full stop, comma and apostrophe (է։, համար։, է՝).
+ARMENIAN_MARKS = str.maketrans("", "", "\u055a\u055b\u055c\u055d\u055e\u055f\u0589")
+# The subtitles lost the marks and cut the word there (ի՞նչ is ի + նչ). The words most often cut, with their pieces,
+# in the order they are taken (ո goes to ով before որ, as ր to որ before ուր).
+ARMENIAN_CUT = [("ինչ", "ի", "նչ"), ("ինչու", "ինչո", "ւ"), ("ով", "ո", "վ"), ("որ", "ո", "ր"), ("ուր", "ու", "ր"),
+                ("որտեղ", "որտե", "ղ"), ("ինչպես", "ինչպե", "ս"), ("երբ", "ե", "րբ")]
+
+
+def armenian_unmarked(form):
+    """A form as the reader matches it: no marks, and և written as one letter (some text has եւ: նաեւ, կարեւոր)."""
+    return form.translate(ARMENIAN_MARKS).replace("եւ", "և")
+
+
+def armenian_rejoin(counts):
+    """Gives the subtitles' pieces of a word (ARMENIAN_CUT) back to the word."""
+    for word, first, second in ARMENIAN_CUT:
+        joined = min(counts.get(first, 0), counts.get(second, 0))
+        if joined:
+            counts[first] -= joined
+            counts[second] -= joined
+            counts[word] = counts.get(word, 0) + joined
+
+
 def normalise(language, form):
     """A form as the reader writes it: Romanian text has ş, ţ turned into ș, ț, and Icelandic subtitles have ð, þ, ó, ý
     misread (ICELANDIC_MOJIBAKE)."""
@@ -2457,6 +2500,8 @@ def normalise(language, form):
         return unicodedata.normalize("NFC", form)
     if language == "fa":
         return frequency_persian.persian_fold(form)
+    if language == "hy":
+        return armenian_unmarked(form)
     return form
 
 
@@ -2526,11 +2571,13 @@ def frequencywords_counts(language, limit):
                 counts[word] = counts.get(word, 0) + int(parts[1])
             if len(counts) >= limit:
                 break
+    if language == "hy":
+        armenian_rejoin(counts)
     return counts, f"FrequencyWords {folder} (OpenSubtitles 2018)"
 
 
-def leipzig_counts(language, limit):
-    corpora = FALLBACKS.get(language, {}).get("leipzig", [])
+def leipzig_counts(language, limit, source="leipzig"):
+    corpora = FALLBACKS.get(language, {}).get(source, [])
     counts = {}
     used = []
     for corpus in corpora:
@@ -2558,7 +2605,7 @@ def leipzig_counts(language, limit):
 # Corpora counted from their sentences once each, numbers and names aside: Latin Wikipedia's has its asteroid pages' "Qua
 # epocha N per dies circa solem movebatur" 5,686 times, which put epocha, sol and moveo in the first twenty, its towns'
 # "Incolae X appellantur" over 3,000 times (incola) and its footballers' "X inter alia cum turma X lusit" 300 (turma).
-LEIPZIG_DEDUPED = {"la", "cy"}
+LEIPZIG_DEDUPED = {"la", "cy", "hy"}
 LEIPZIG_NAME = re.compile(r"[^\W\d_]+")
 
 
@@ -2790,6 +2837,8 @@ def everyday_counts(language, limit, sources=None):
     words, capital, plain = defaultdict(int), set(), set()
     names = EVERYDAY_NAMES.get(language, set())
     for text in sentences:
+        if language == "hy":
+            text = text.translate(ARMENIAN_WORD_MARKS)
         for i, word in enumerate(WIKI_WORD.findall(text)):
             key = lower(language, word)
             if key in names:
@@ -2807,7 +2856,8 @@ def everyday_counts(language, limit, sources=None):
 
 
 SOURCES = {"wordfreq": wordfreq_counts, "morphgnt": morphgnt_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts, "wikipedia": wikipedia_counts,
-           "everyday": everyday_counts, "everyday_mixed": lambda language, limit: everyday_counts(language, limit, EVERYDAY_MIXED.get(language))}
+           "everyday": everyday_counts, "everyday_mixed": lambda language, limit: everyday_counts(language, limit, EVERYDAY_MIXED.get(language)),
+           "wikipedia_sentences": lambda language, limit: leipzig_counts(language, limit, "wikipedia_sentences")}
 
 
 class Lemmatizer:
@@ -3118,6 +3168,7 @@ def load_dictionary(language):
         # The preposition i ("to") and pronoun i ("I"), which the pack has only as a letter.
         pos["i"].update({"prep", "pron"})
         common["i"] = "i"
+    armenian_forms_of = {}
     if language == "ko":
         verbs = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('verb', 'adj')")}
         KOREAN_GLOSSED.update(korean_glossed(db.execute("SELECT word_lc, pos, senses FROM entries"), verbs))
@@ -3180,8 +3231,15 @@ def load_dictionary(language):
         # Hindi's postpositions (का, को, से, ने) are its prepositions.
         if language == "hi" and p == "postp":
             p = "prep"
+        if language == "hy" and p in WORD_POS | ARMENIAN_POS:
+            for gloss in (g for s in json.loads(senses) for g in s.get("glosses", [])):
+                form_of = ARMENIAN_FORM_GLOSS.match(gloss)
+                if form_of and lower(language, form_of.group(1)) != word_lc:
+                    armenian_forms_of.setdefault(word_lc, set()).add(lower(language, form_of.group(1)))
+                else:
+                    ARMENIAN_OWN.add(word_lc)
         pos[word_lc].add(p)
-        if p not in WORD_POS and not (language == "ko" and p == "counter"):
+        if p not in WORD_POS and not (language == "ko" and p == "counter") and not (language == "hy" and p in ARMENIAN_POS):
             continue
         if word == word_lc:
             common[word_lc] = word_lc
@@ -3393,6 +3451,12 @@ def load_dictionary(language):
             lemmas.setdefault(form, sorted(words))
         for form, word in HEBREW_DOUBLED.items():
             lemmas[form] = [word]
+    if language == "hy":
+        # An Armenian entry glossed only as another word's form is that word's form (լինի of լինել, գալիս of գալ).
+        for word, targets in armenian_forms_of.items():
+            if word not in ARMENIAN_OWN:
+                common.pop(word, None)
+                lemmas[word] += sorted(t for t in targets if t not in lemmas[word])
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language == "fa":
@@ -3770,6 +3834,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         if language in SOURCE_WEIGHTS:
             # Or by SOURCE_WEIGHTS, made to add up to 1 over the sources found.
             part = SOURCE_WEIGHTS[language][name] / sum(SOURCE_WEIGHTS[language][n] for n, _, _ in found)
+            if name in SOURCE_ROOTED.get(language, ()):
+                counts = {w: c ** 0.5 for w, c in counts.items()}
+                total = sum(counts.values())
             for w, c in counts.items():
                 freq[normalise(language, w)] += c / total * part
             continue
@@ -4294,7 +4361,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         if language in ("zh", "yue") and len(w) == 1 and "character" in pos.get(w, set()):
             return w not in excluded
         # Korean counts with counters, words of their own (세 마리, three animals).
-        kinds = pos.get(w, set()) & (WORD_POS | ({"counter"} if language == "ko" else set()))
+        kinds = pos.get(w, set()) & (WORD_POS | ({"counter"} if language == "ko" else ARMENIAN_POS if language == "hy" else set()))
         if not kinds or w not in common or w in excluded:
             return False
         # Korean has words written with Chinese characters too (眞짜 for 진짜), which texts write in Hangul.
@@ -4420,6 +4487,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             # อาหาร, วน under วัน), which are words of their own. A noun made with การ or ความ (การศึกษา, ความสุข) is its word's
             # as the general rule has it.
             return {form: 1.0}
+        elif language == "hy" and form in ARMENIAN_SHARED:
+            return ARMENIAN_SHARED[form]
         elif language == "ar" and form in ARABIC_CLITICS:
             return {form: 1.0}
         elif language == "fa":
@@ -5037,6 +5106,31 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         welsh_relink()
     if language == "hi":
         hindi_relink()
+
+    def armenian_relink():
+        """
+        Mends the Armenian pack's links, whose declension tables file words under look-alikes: չորս of չոր, ապրիլ of ապրել,
+        մասին of մաս, վաղը of վաղ. A word with a sense of its own keeps its count unless simplemma has it as one of those
+        words' forms (ինձ of ես), and a form that is no word goes to simplemma's word where the pack has that too (անում to
+        անել, not անուն). A noun in -ում shares its spelling with the verb whose participle it is (որոշում, որոշել).
+        """
+        for form in list(freq):
+            known = [l for l in dict.fromkeys(lemmas.get(form, [])) if l != form and is_word(l)]
+            if form in overrides or form in excluded or not known:
+                continue
+            lemma = lower(language, lemmatizer.lemmatize(form)) if lemmatizer and lemmatizer.is_known(form) else None
+            if form not in ARMENIAN_OWN or not is_word(form):
+                if lemma in known:
+                    lemmas[form] = [lemma]
+                continue
+            verbs = [l for l in known if "verb" in pos.get(l, ()) and l[:-2] == form[:-3]] if form.endswith("ում") else []
+            if verbs:
+                ARMENIAN_SHARED[form] = {form: 0.5, verbs[0]: 0.5}
+            else:
+                lemmas[form] = [lemma] if lemma in known else []
+
+    if language == "hy":
+        armenian_relink()
 
     scores = defaultdict(float)
     forms = defaultdict(dict)
