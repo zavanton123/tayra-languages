@@ -37,6 +37,12 @@ open class SegmentingParser(
     /** Whether [text] is a word: by default, one the lexicon lists. */
     protected open fun matches(text: String, lexicon: Lexicon): Boolean = text in lexicon
 
+    /** Whether a word may end before [at] in [run], and the next begin there: anywhere, by default. */
+    protected open fun canBreak(run: String, at: Int): Boolean = true
+
+    /** Whether [c], one of the language's word characters, still stands apart from words: none do, by default. */
+    protected open fun standsApart(c: Char): Boolean = false
+
     override fun parse(text: String, language: Language): List<ParsedToken> {
         // Chinese is read in the language's script, whichever one the text was written in, so its words
         // are kept in that script and a word reads the same in a simplified and a traditional text.
@@ -51,7 +57,8 @@ open class SegmentingParser(
         val tokens = mutableListOf<ParsedToken>()
         val paragraphs = prepared.split("\n")
         paragraphs.forEachIndexed { index, paragraph ->
-            fun isLetter(at: Int) = wordChar.matches(paragraph[at].toString()) || (supplementaryHan && isSupplementaryHan(paragraph, at))
+            fun isLetter(at: Int) =
+                wordChar.matches(paragraph[at].toString()) && !standsApart(paragraph[at]) || (supplementaryHan && isSupplementaryHan(paragraph, at))
             var i = 0
             while (i < paragraph.length) {
                 val isWord = isLetter(i)
@@ -80,7 +87,8 @@ open class SegmentingParser(
         while (i < run.length) {
             val end = lexicon?.let { longestMatch(run, i, it) }
             if (end == null) {
-                val next = i + characterLength(run, i)
+                var next = i + characterLength(run, i)
+                while (next < run.length && !canBreak(run, next)) next++
                 if (joinUnknown) unknown.append(run, i, next) else words += run.substring(i, next)
                 i = next
                 continue
@@ -178,7 +186,7 @@ open class SegmentingParser(
     private fun longestMatch(run: String, start: Int, lexicon: Lexicon): Int? {
         val limit = minOf(run.length, start + lexicon.maxLength + inflectionLength)
         for (end in limit downTo start + 1) {
-            if (matches(lowercase(run.substring(start, end)), lexicon)) return end
+            if (canBreak(run, end) && matches(lowercase(run.substring(start, end)), lexicon)) return end
         }
         return null
     }
