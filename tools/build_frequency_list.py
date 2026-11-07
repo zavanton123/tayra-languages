@@ -144,6 +144,10 @@ SOURCE_WEIGHTS = {"ga": {"leipzig": 0.375, "wikipedia": 0.375, "everyday": 0.25}
 SOURCE_ORDER["cy"] = ["leipzig", "everyday_mixed", "everyday"]
 BLEND.add("cy")
 SOURCE_WEIGHTS["cy"] = {"leipzig": 0.4, "everyday_mixed": 0.25, "everyday": 0.35}
+# Georgian is counted from news and Wikipedia alone: FrequencyWords' ka file is Bulgarian subtitles, misdecoded into
+# Georgian letters (ეა is да, თმა is има, ნალთ is нали), which put თმა "hair" 24th and ნალი "horseshoe" 140th.
+SOURCE_ORDER["ka"] = ["leipzig", "wikipedia"]
+BLEND.add("ka")
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -2180,7 +2184,8 @@ WIKI_WORD = re.compile(rf"(?:{WIKI_LETTER})+(?:['’ʻ\u200c-](?:{WIKI_LETTER})+
 WIKI_REDIRECTS = {"ga": "#athsheoladh"}
 # Wikipedias whose section headings are left out: nearly every Irish page ends "Tagairtí" (references), "Féach
 # freisin" (see also), "Naisc sheachtracha" (external links), which put tagairt, nasc and seachtrach in the first 250.
-WIKI_HEADINGLESS = {"ga"}
+# Georgian pages end the same way: "სქოლიო" (footnotes), "რესურსები ინტერნეტში" (internet resources), "იხილეთ აგრეთვე".
+WIKI_HEADINGLESS = {"ga", "ka"}
 WIKI_HEADING = re.compile(r"^=+[^\n]*=+[ \t]*$", re.M)
 
 
@@ -2585,6 +2590,48 @@ def gaelic_relink(freq, pos, lemmas, common, overrides, excluded, guessed, lemma
                 lemmas[form] = [max(words, key=count)]
 
 
+# Georgian. A verb's preverb makes another verb of it (იცავს "defends", მოიცავს "includes"; ადგენს "sets", წარმოადგენს
+# "represents"), and a preverbless form (იღებდა) is in the table of every verb made from it (იღებს, მიიღებს). So a verb's form
+# goes to the verb with its preverb: the pack's tables name them all, and simplemma strips the preverb.
+GEORGIAN_PREVERB = re.compile("^(?:გადმო|გადა|გამო|ამო|აღმო|შემო|ჩამო|წამო|წარმო|მიმო|გან|აღ|მი|მო|შე|ჩა|წა|გა|და|ა(?=[იაე]|ვი|ვა))(?=.{2})")
+# A sense that only names another word, which the entry is a form of (ავტობუსში, უკეთესი, ავსება "verbal noun of აავსებს").
+GEORGIAN_FORM_GLOSS = re.compile(
+    r"^(?:(?:plural )?postpositional (?:suffixed|form)|(?:\w+/)?(?:dative|genitive|ergative|instrumental|adverbial|vocative|plural)\b|"
+    r"(?:first|second|third)-person\b|verbal noun\b|comparative\b|superlative\b|colloquial hypocoristic\b)[^:(]*? of ([\u10d0-\u10ff]+)")
+# Common words the pack has only as names, which would be left out: the months (მაისი alone has a noun's entry), the sun.
+GEORGIAN_NAMED_WORDS = {"იანვარი", "თებერვალი", "მარტი", "აპრილი", "ივნისი", "ივლისი", "აგვისტო", "სექტემბერი", "ოქტომბერი", "ნოემბერი",
+                        "დეკემბერი", "მზე"}
+# Georgian words with a sense of their own, which no table's link makes another word's form (ცხოვრება "life", not ცხოვრობს's;
+# ერი "nation", not ერთი's; დინება "current", not დის's), and the words the pack has only as forms (word: the words they are of).
+GEORGIAN_OWN = set()
+GEORGIAN_FORMS_OF = {}
+# The endings written after a hyphen onto a number, a Latin word or an abbreviation (მე-19, 1990-იანი, აშშ-ის, კმ²-ზე, 2-ჯერ).
+GEORGIAN_HYPHEN_ENDINGS = {"ე", "ი", "ს", "მ", "მა", "ის", "ისა", "ით", "ად", "ზე", "ში", "თან", "სა", "სთან", "იდან", "დან", "მდე", "ამდე",
+                           "ია", "ა", "ლი", "იან", "იანი", "იანები", "იანებში", "იანების", "იანებიდან", "იანებამდე", "იანელი"}
+
+
+def georgian_preverb(word):
+    found = GEORGIAN_PREVERB.match(word)
+    return found.group() if found else ""
+
+
+def georgian_links(pos, common, lemmas):
+    """A Georgian word with a sense of its own is no other word's form, and a form goes to the words with its preverb, if any."""
+    for word, of in GEORGIAN_FORMS_OF.items():
+        common.pop(word, None)
+        lemmas[word] = list(dict.fromkeys(lemmas.get(word, []) + sorted(of)))
+    for form in list(lemmas):
+        if form in GEORGIAN_OWN:
+            lemmas[form] = []
+            continue
+        same = [lemma for lemma in lemmas[form] if georgian_preverb(lemma) == georgian_preverb(form)]
+        # Or to the verb its preverb makes of the one it is filed under (წერენ, filed under დაწერს, is წერს's).
+        swapped = [georgian_preverb(form) + lemma[len(georgian_preverb(lemma)):] for lemma in lemmas[form] if "verb" in pos.get(lemma, ())]
+        swapped = [verb for verb in swapped if "verb" in pos.get(verb, ())]
+        if same or swapped:
+            lemmas[form] = same or swapped
+
+
 def load_dictionary(language):
     path = os.path.join(DICTIONARIES, f"{DICTIONARY_SOURCES.get(language, language)}-{DICTIONARY_TARGETS.get(language, 'en')}.sqlite")
     if not os.path.exists(path):
@@ -2651,6 +2698,16 @@ def load_dictionary(language):
                     WELSH_OWN.add(word_lc)
             if p == "noun" and word == word_lc and parsed and all("plural" in s.get("tags", []) for s in parsed):
                 WELSH_PLURALS.add(word_lc)
+        if language == "ka":
+            # A postposition is a word as a preposition is (მიერ, გამო, შესახებ).
+            p = "prep" if p == "postp" else "noun" if word_lc in GEORGIAN_NAMED_WORDS else p
+            if p in WORD_POS:
+                glosses = [g for s in json.loads(senses) for g in s.get("glosses", [])]
+                named = [GEORGIAN_FORM_GLOSS.match(g) for g in glosses]
+                if glosses and all(named):
+                    GEORGIAN_FORMS_OF.setdefault(word_lc, set()).update(lower(language, f.group(1)) for f in named)
+                else:
+                    GEORGIAN_OWN.add(word_lc)
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter"):
             continue
@@ -2742,6 +2799,10 @@ def load_dictionary(language):
             if len(set(of)) > 1:
                 best = max(weight(lemma) for lemma in of)
                 lemmas[form_lc] = [lemma for lemma in of if weight(lemma) == best]
+    if language == "ka":
+        for word in GEORGIAN_OWN:
+            GEORGIAN_FORMS_OF.pop(word, None)
+        georgian_links(pos, common, lemmas)
     if language == "bg":
         # A Bulgarian verb's forms table names its aspect partner (спирам in спра's, давам in дам's): the partner is a
         # word of its own, which the reader shows apart, and so are its forms.
@@ -3117,12 +3178,14 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             continue
         for w, c in counts.items():
             freq[normalise(language, w)] += c / total / len(found)
-    if language == "ro":
-        # The reader cuts Romanian at hyphens (s-a is s + a, dintr-o is dintr + o), and so is each count.
+    if language in ("ro", "ka"):
+        # The reader cuts Romanian at hyphens (s-a is s + a, dintr-o is dintr + o), and Georgian (ერთ-ერთი is ერთ + ერთი), and so is each count.
         for w in [w for w in freq if "-" in w]:
             share = freq.pop(w)
-            for piece in filter(None, w.split("-")):
-                freq[piece] += share
+            for i, piece in enumerate(w.split("-")):
+                # The case ending written after a number or abbreviation (2020-ში, აშშ-ის, კმ²-ია) is no word of the text.
+                if piece and not (language == "ka" and i and piece in GEORGIAN_HYPHEN_ENDINGS):
+                    freq[piece] += share
     label = " + ".join(f"{label} ({SOURCE_LICENCES[name]})" for name, _, label in found)
     pos, lemmas, common, outdated = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
@@ -3186,6 +3249,13 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             return None
         lemma = lemmatizer.lemmatize(form)
         key = lower(language, lemma)
+        # simplemma strips a Georgian verb's preverb (მოიცავს to იცავს, წარმოადგენს to ადგენს), which makes another verb of it,
+        # and makes up words (იყენებაა of გამოიყენება): the verb is the preverb's, with the form it is written in.
+        if language == "ka" and georgian_preverb(form) != georgian_preverb(key):
+            whole = georgian_preverb(form) + key[len(georgian_preverb(key)):]
+            key = lemma = whole if freq.get(whole) else form
+            guessed.setdefault(key, lemma)
+            return key
         # simplemma gives a Bulgarian reflexive verb's forms as the pronoun (нуждаеш of се).
         if language == "bg" and key in ("се", "си") and form != key:
             return None
