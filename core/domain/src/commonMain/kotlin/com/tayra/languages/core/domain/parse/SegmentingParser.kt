@@ -87,8 +87,7 @@ open class SegmentingParser(
         while (i < run.length) {
             val end = lexicon?.let { longestMatch(run, i, it) }
             if (end == null) {
-                var next = i + characterLength(run, i)
-                while (next < run.length && !canBreak(run, next)) next++
+                val next = unitEnd(run, i)
                 if (joinUnknown) unknown.append(run, i, next) else words += run.substring(i, next)
                 i = next
                 continue
@@ -125,37 +124,56 @@ open class SegmentingParser(
      * The cut of [run] whose words are, together, the most common: each word costs the logarithm of
      * its frequency rank plus [WORD_COST], so a common word is kept whole and a rarer word made of
      * common ones loses to them. A word the lexicon has without a rank (a dictionary's) counts as
-     * rank [UNRANKED]; a character no word covers is a word of its own at rank [UNKNOWN].
+     * rank [UNRANKED]; the letters no word covers, up to where a word may begin (a character; in Thai,
+     * a syllable), are a word of their own at rank [UNKNOWN], and with [joinUnknown] one word together.
      */
     private fun likeliest(run: String, lexicon: Lexicon): List<String> {
         val best = DoubleArray(run.length + 1) { if (it == 0) 0.0 else Double.MAX_VALUE }
         val from = IntArray(run.length + 1)
-        for (end in 1..run.length) {
-            // At least two units, so a character of two is reached under a lexicon of one-unit words.
-            for (start in maxOf(0, end - maxOf(lexicon.maxLength + inflectionLength, 2)) until end) {
-                if (best[start] == Double.MAX_VALUE) continue
-                val word = lowercase(run.substring(start, end))
-                // After a number or a demonstrative, a measure word goes with it: 两个人 is 两 + 个 + 人, not 两 + 个人.
-                if (end - start > 1 && start > 0 && run[start - 1] in COUNTING && run[start] in MEASURES) continue
-                val rank = when {
-                    matches(word, lexicon) -> lexicon.rank(word) ?: UNRANKED
-                    end - start == characterLength(run, start) -> UNKNOWN
-                    else -> continue
-                }
-                val cost = best[start] + ln(rank.toDouble()) + WORD_COST
-                if (cost < best[end]) {
-                    best[end] = cost
-                    from[end] = start
-                }
+        val known = BooleanArray(run.length + 1)
+        fun reach(start: Int, end: Int, rank: Int, isWord: Boolean) {
+            val cost = best[start] + ln(rank.toDouble()) + WORD_COST
+            if (cost < best[end]) {
+                best[end] = cost
+                from[end] = start
+                known[end] = isWord
             }
         }
-        val words = ArrayDeque<String>()
+        // At least two units, so a character of two is reached under a lexicon of one-unit words.
+        val window = maxOf(lexicon.maxLength + inflectionLength, 2)
+        for (start in 0 until run.length) {
+            if (best[start] == Double.MAX_VALUE) continue
+            for (end in start + 1..minOf(run.length, start + window)) {
+                if (!canBreak(run, end)) continue
+                // After a number or a demonstrative, a measure word goes with it: 两个人 is 两 + 个 + 人, not 两 + 个人.
+                if (end - start > 1 && start > 0 && run[start - 1] in COUNTING && run[start] in MEASURES) continue
+                val word = lowercase(run.substring(start, end))
+                if (matches(word, lexicon)) reach(start, end, lexicon.rank(word) ?: UNRANKED, isWord = true)
+            }
+            val unit = unitEnd(run, start)
+            if (!matches(lowercase(run.substring(start, unit)), lexicon)) reach(start, unit, UNKNOWN, isWord = false)
+        }
+        val ends = ArrayDeque<Int>()
         var end = run.length
         while (end > 0) {
-            words.addFirst(run.substring(from[end], end))
+            ends.addFirst(end)
             end = from[end]
         }
-        return words.toList()
+        val words = mutableListOf<String>()
+        var start = 0
+        for ((index, stop) in ends.withIndex()) {
+            if (joinUnknown && !known[stop] && index + 1 < ends.size && !known[ends[index + 1]]) continue
+            words += run.substring(start, stop)
+            start = stop
+        }
+        return words
+    }
+
+    /** Where the letters from [start] that no word covers end: the next place a word may begin. */
+    private fun unitEnd(run: String, start: Int): Int {
+        var end = start + characterLength(run, start)
+        while (end < run.length && !canBreak(run, end)) end++
+        return end
     }
 
     private companion object {

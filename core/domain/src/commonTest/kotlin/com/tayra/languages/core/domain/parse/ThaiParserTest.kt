@@ -25,6 +25,22 @@ class ThaiParserTest {
         assertEquals(listOf("ต่อม", "มี"), words("ต่อมมี"))
     }
 
+    /** By how common they are, two common words are not read as a rarer one and a piece: มี + มติ, not มีม + ติ. */
+    @Test
+    fun byFrequencyTheLikeliestWordsWinBetweenSyllables() {
+        val ranks = mapOf("มี" to 5, "ว่า" to 6, "มติ" to 300, "มีม" to 641, "ติ" to 389, "ว่าง" to 900, "งบประมาณ" to 700, "ต่อม" to 2000, "มา" to 30, "ไป" to 20)
+        Lexicons.set("th", Lexicon(ranks.keys + "ต่อ" + "บ" + "ประมาณ", ranks))
+        assertEquals(listOf("มี", "มติ"), words("มีมติ"))
+        assertEquals(listOf("ว่า", "งบประมาณ"), words("ว่างบประมาณ"))
+        // Never inside a syllable, however rare the words around it: ต่อ, a word of the dictionary alone, and มา.
+        assertEquals(listOf("ต่อ", "มา"), words("ต่อมา"))
+        // Letters no word covers go a syllable at a time, and are one word together.
+        assertEquals(listOf("สมศรี", "ไป"), words("สมศรีไป"))
+        // A vowel written first and its silent ห go with the letter the ห leads: ไหร่ is one syllable, no ไห "jar" + ร่.
+        Lexicons.set("th", Lexicon(listOf("เท่า", "ไห", "ร"), mapOf("เท่า" to 400, "ไห" to 8000)))
+        assertEquals(listOf("เท่า", "ไหร่"), words("เท่าไหร่"))
+    }
+
     /** Letters no word covers are passed over a syllable at a time, so no word starts after a vowel written first. */
     @Test
     fun lettersNoWordCoversGoBySyllables() {
