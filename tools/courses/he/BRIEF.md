@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Hebrew word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `he-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 8,512 words: the courses are `he-mini-0100` to
-`he-mini-8500`, 85 of them.
+`themes.tsv` gives each course its theme. The list has 8,496 words: the courses are `he-mini-0100` to
+`he-mini-8400`, 84 of them.
 
 ## What the lessons are: mini stories
 
@@ -75,7 +75,7 @@ story; a lesson never needs another lesson to make sense.
   - ranks 6001–8000 (C1): the same, with figurative language and set expressions used more freely,
     words chosen for their shades of meaning, and topics that need some background, which the text
     gives;
-  - ranks 8001–8500 (C2): texts close to what native readers meet: literary prose (the modern short
+  - ranks 8001–8400 (C2): texts close to what native readers meet: literary prose (the modern short
     story, the essay) with images and rhythm, academic and journalistic registers, learned and
     Biblical-tinged words explained by their context — never religious texts or quotations.
   From rank 2000 a lesson may also be a short informative or opinion text (a column, a letter to a
@@ -155,24 +155,24 @@ The stories are for readers of every age and every country. Keep away from:
 Skip band words that only fit these topics, and say so in your report. The web-based list ranks
 many of them high; those of the first 1000 ranks are:
 
-- religion: *יהודי* 80, *תורה* 289, *רבי* 374, *כוהן* 523, *דתי* 537, *אלוהים* 576, *נס* 680, *הלכה*
-  763, *דת* 770, *מצווה* 774, *תפילה* 933, *ברית* 400; *שבת* 269 only as Saturday, *חג* 525 only as a
-  generic holiday, *רב* 75 only as "much, many, great" (never through *רבנים*), *ברוך* 968 only in
-  *ברוך הבא* "welcome", *ברכה* 881 only as a greeting or good wishes;
-- politics, war, crime: *מדינה* 83, *חוק* 121 only as an everyday rule (*חוקי המשחק*), *מלחמה* 170,
-  *ממשלה* 173, *דין* 187, *כנסת* 261, *לאומי* 319, *נשיא* 381, *צבא* 421, *משטרה* 425, *פוליטי* 458,
-  *חייל* 469, *קרב* 471 only as "came near" (*קרב*, *התקרב*), *מפלגה* 493, *שלטון* 552, *ביטחון* 563 only
-  as "confidence" (*ביטחון עצמי*), *הגנה* 618, *רצח* 631, *נשק* 673, *צבאי* 730, *ציוני* 746, *מנהיג*
-  808, *שוטר* 814, *הרג* 819, *מדיניות* 838, *מאבק* 842, *מפקד* 868, *כלא* 882, *חקירה* 937, *נלחם* 961,
-  *פשע* 965, *לוחם* 971; *שר* 209 only as "sings", never a minister; *משפט* 155 only as a sentence of
-  words, never a trial; *שופט* 952 only as a referee in sport; *מבצע* 604 only as a sale or special
-  offer; *כוח* 128 only as strength; *בחירה* 366 only as a choice;
-- death: *מת* 243, *מוות* 375, *דם* 377;
-- sexual, alcohol: *מין* 499, *מיני* 863, *יין* 893, *בר* 345;
-- names and words from names of places and peoples: *תל* 242 (only in *תל אביב*, a name), *אביב* 208
-  only as "spring", *ערבי* 257, *ישראלי* 271, *חיפה* 527, *ישראלית* 640, *אמריקאי* 665, *שלמה* 681,
-  *לוי* 719, *סיני* 924, *דן* 457, *שרה* 892, *דוד* 297 only as "uncle", *יונה* 925 only as "dove",
-  *ציון* 623 only as "grade, mark"; *ע״י* 476 and *ד״ר* 688 are abbreviations, never taught.
+- religion: *יהודי* 81, *תורה* 291, *רבי* 373, *כוהן* 517, *דתי* 531, *אלוהים* 569, *נס* 673, *הלכה*
+  763, *דת* 762, *מצווה* 766, *תפילה* 920, *ברית* 399; *שבת* 271 only as Saturday, *חג* 519 only as a
+  generic holiday, *רב* 77 only as "much, many, great" (never through *רבנים*), *ברוך* 955 only in
+  *ברוך הבא* "welcome", *ברכה* 871 only as a greeting or good wishes;
+- politics, war, crime: *מדינה* 84, *חוק* 122 only as an everyday rule (*חוקי המשחק*), *מלחמה* 170,
+  *ממשלה* 173, *דין* 187, *כנסת* 262, *לאומי* 320, *נשיא* 380, *צבא* 419, *משטרה* 423, *פוליטי* 453,
+  *חייל* 464, *קרב* 466 only as "came near" (*קרב*, *התקרב*), *מפלגה* 488, *שלטון* 545, *ביטחון* 556 only
+  as "confidence" (*ביטחון עצמי*), *הגנה* 611, *רצח* 624, *נשק* 666, *צבאי* 723, *ציוני* 739, *מנהיג*
+  808, *שוטר* 804, *הרג* 809, *מדיניות* 828, *מאבק* 832, *מפקד* 858, *כלא* 872, *חקירה* 924, *נלחם* 948,
+  *פשע* 952, *לוחם* 958; *שר* 208 only as "sings", never a minister; *משפט* 156 only as a sentence of
+  words, never a trial; *שופט* 939 only as a referee in sport; *מבצע* 597 only as a sale or special
+  offer; *כוח* 130 only as strength; *בחירה* 366 only as a choice;
+- death: *מת* 244, *מוות* 374, *דם* 376;
+- sexual, alcohol: *מין* 493, *מיני* 853, *יין* 882, *בר* 345;
+- names and words from names of places and peoples: *תל* 243 (only in *תל אביב*, a name), *אביב* 207
+  only as "spring", *ערבי* 258, *ישראלי* 273, *חיפה* 521, *ישראלית* 633, *אמריקאי* 658, *שלמה* 674,
+  *לוי* 712, *סיני* 911, *דן* 452, *שרה* 881, *דוד* 299 only as "uncle", *יונה* 912 only as "dove",
+  *ציון* 616 only as "grade, mark"; *ע״י* 471 and *ד״ר* 681 are abbreviations, never taught.
 
 ## The file
 
@@ -231,7 +231,7 @@ Things to know about the Hebrew list and the checker:
   swallow: *בבית* is *ב* + *בית*, "in the house"). Each piece is a word of its own, in the length too:
   *ובבית* is *ו* + *ב* + *בית*, three words; *מהבית* *מ* + *ה* + *בית*; *כשהוא* *כש* + *הוא*. The text
   is longer to the checker than it looks: count on about 1.3 words for each written word. These pieces
-  are list words of band 1 (*ה* 1, *ב* 2, *ל* 3, *ו* 4, *ש* 5, *מ* 10, *כ* 29; *כש* 117), taught in the
+  are list words of band 1 (*ה* 1, *ב* 2, *ל* 3, *ו* 4, *ש* 5, *מ* 10, *כ* 30; *כש* 118), taught in the
   first course simply by using them, and known everywhere after. A word with a pronoun after it
   counts as its word (*ביתנו* as *בית*), a word whose *ו* is doubled after the letters in front as the
   word (*הוועדה* as *ה* + *ועדה*), and a name with letters in front (*ולדניאל*, *בהרצליה*) is known.
@@ -248,16 +248,17 @@ Things to know about the Hebrew list and the checker:
   spelled as *ל* and a noun is read as *ל* and the noun (*לנהג*, *לצבא*), and a rare infinitive the list
   lacks may be cut too: check it with `cut.py`, and write around it when it is cut.
 - The list was built from web text, so politics and religion rank high and many everyday words rank
-  later than you might expect: *אמא* 303, *אבא* 387, *שלום* 188, *תודה* 282, *אוכל* 283, *ילדה* 757,
+  later than you might expect: *אמא* 305, *אבא* 386, *שלום* 188, *תודה* 284, *אוכל* 285, *ילדה* 750,
   *חתול*, *קפה*, *לחם* far later. Check a word's rank rather than guess it. In the first band there is
-  no "mother", "father" or "hello": use names, *אישה*, *איש*, *ילד*, *בן* and *בת* (148).
+  no "mother", "father" or "hello": use names, *אישה*, *איש*, *ילד*, *בן* and *בת* (150).
 - The list files the forms of a word under its headword: the tenses and persons of verbs under the
   past (*הולך*, *ללכת*, *הלכה*, *ילך* under *הלך*), the infinitive too (*לעשות* under *עשה*, *לדבר* under
   *דיבר*), plurals under the singular, the feminine under the masculine, nouns with their pronouns. A
   form neither the list nor `extra_forms.tsv` has counts as an outside word. The forms are noisy:
-  - participles are under their verbs (*יודע* under *ידע*, *רוצה* under *רצה*), but some are words of
-    their own with a sense of their own (*עובד* "worker", *מורה* "teacher", *רואה* "accountant" beside
-    "sees", *אומר*, *חוזר*, *נותן*, *עולה*, *קורא*, *כותב*, *מכיר*): count them by the list, not by grammar;
+  - participles are under their verbs (*יודע* under *ידע*, *רוצה* under *רצה*, *רואה* under *ראה*, *אומר*
+    under *אמר*), but some are words of their own with a sense of their own (*עובד* "worker", *עולה*
+    "immigrant, costs", *מורה* "teacher", *שופט*, *סופר*): count them by the list, not by grammar;
+  - *הלכה*, *הלכתי*, *הלכנו* are *הלך*'s ("went"), never "religious law"; *ראתה* is *ראה*'s;
   - **homographs**: unpointed Hebrew writes many words alike, and a form counts for every word that
     has it: *ספר* "book" and "told, counted"; *דבר* "thing" and "spoke"; *שם* "there" and "name";
     *עם* "with" and "people"; *אם* "if" and "mother"; *בן* "son" and *בנו* "his son", "built", "in us";
