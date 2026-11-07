@@ -7,7 +7,9 @@ import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
+import com.tayra.languages.core.domain.courses.CourseDraft
 import com.tayra.languages.core.domain.courses.CourseService
+import com.tayra.languages.core.domain.courses.LessonDraft
 import com.tayra.languages.core.domain.courses.LessonStatus
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.Language
@@ -118,4 +120,38 @@ class CourseServiceTest {
         val own = bookService.create(BookDraft(languageId = languages.getAll().first().id, title = "Mine", text = "Um texto."))
         assertNull(service.lessonReading(own), "the reader's own book belongs to no course")
     }
+
+    @Test
+    fun aLessonIsReadOnOnePage() = runTest {
+        val portuguese = languages.save(Language(name = "Portuguese"))
+        val course = service.createCourse(portuguese, CourseDraft("Longas"))
+        val text = longText()
+        val lesson = service.addLesson(course, LessonDraft("Longa", text = text))
+
+        val bookId = assertNotNull(service.openLesson(course, lesson))
+        assertEquals(listOf(text), books.getPages(bookId).map { it.text })
+
+        service.updateLesson(course, lesson, LessonDraft("Longa", text = "$text O fim."))
+        assertEquals(1, books.pageCount(bookId), "edited, it stays on one page")
+    }
+
+    @Test
+    fun aLessonCutIntoPagesBeforeIsJoinedKeepingItsPlace() = runTest {
+        val portuguese = languages.save(Language(name = "Portuguese"))
+        val course = service.createCourse(portuguese, CourseDraft("Longas"))
+        val text = longText()
+        val lesson = service.addLesson(course, LessonDraft("Longa", text = text))
+        // As an earlier version made it: 250 words a page.
+        val bookId = bookService.create(BookDraft(languageId = portuguese, title = "Longa", text = text))
+        books.linkLesson(lesson, bookId)
+        assertTrue(books.pageCount(bookId) > 1)
+        reading.openPage(bookId, 2, trackOpen = true)
+
+        assertEquals(1, service.joinLessonPages())
+        assertEquals(listOf(text), books.getPages(bookId).map { it.text }, "the course's text, with no paragraph where a page ended")
+        assertEquals(LessonStatus.IN_PROGRESS, service.observeCourse(course).first()!!.lessons[0].status)
+        assertEquals(0, service.joinLessonPages(), "nothing left to join")
+    }
+
+    private fun longText() = (1..60).joinToString(" ") { "O gato número $it dorme ao sol na janela da casa." }
 }

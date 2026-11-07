@@ -74,6 +74,39 @@ class CourseService(
         }
     }
 
+    /** Puts each lesson opened before lessons were read on one page on a single page; run at start. Returns how many it joined. */
+    suspend fun joinLessonPages(): Int {
+        val split = books.observeLessonBooks().first().values.filter { it.pageCount > 1 }
+        if (split.isEmpty()) return 0
+        val lessons = languages.getAll().flatMap { repository.observeCourses(it.id).first() }.flatMap { it.lessons }.associateBy { it.id }
+        var joined = 0
+        for (opened in split) {
+            val pages = books.getPages(opened.bookId)
+            if (pages.sumOf { it.wordCount } > LESSON_WORDS_PER_PAGE) continue
+            val book = books.getBook(opened.bookId) ?: continue
+            val text = pages.joinToString("\n") { it.text }
+            val lessonText = lessons[opened.lessonId]?.text
+            bookService.update(
+                BookDraft(
+                    id = book.id,
+                    languageId = book.languageId,
+                    title = book.title,
+                    // The course's text when the pages hold it, so no paragraph starts where a page used to.
+                    text = if (lessonText != null && words(lessonText) == words(text)) lessonText else text,
+                    sourceUri = book.sourceUri.orEmpty(),
+                    tags = book.tags,
+                    wordsPerPage = LESSON_WORDS_PER_PAGE,
+                    audioFilename = book.audioFilename,
+                ),
+                rebuildPages = true,
+            )
+            joined++
+        }
+        return joined
+    }
+
+    private fun words(text: String) = text.split(Regex("\\s+")).filter { it.isNotEmpty() }
+
     /** The text made for the lesson with [lessonId], or null while it has never been opened or added to a playlist. */
     suspend fun lessonText(lessonId: String): Long? = books.lessonBookId(lessonId)
 
@@ -86,7 +119,7 @@ class CourseService(
         val lesson = course.lessons.firstOrNull { it.id == lessonId } ?: return null
         books.lessonBookId(lessonId)?.let { return it }
         val language = languages.getById(course.languageId) ?: return null
-        val bookId = bookService.create(BookDraft(languageId = language.id, title = lesson.title, text = lesson.text, tags = lesson.tags))
+        val bookId = bookService.create(BookDraft(languageId = language.id, title = lesson.title, text = lesson.text, tags = lesson.tags, wordsPerPage = LESSON_WORDS_PER_PAGE))
         books.linkLesson(lessonId, bookId)
         return bookId
     }
@@ -137,7 +170,7 @@ class CourseService(
                 text = clean.text,
                 sourceUri = book.sourceUri.orEmpty(),
                 tags = book.tags,
-                wordsPerPage = if (textChanged) bookService.estimatedWordsPerPage(bookId) else BookDraft.DEFAULT_WORDS_PER_PAGE,
+                wordsPerPage = LESSON_WORDS_PER_PAGE,
                 audioFilename = book.audioFilename,
             ),
             rebuildPages = textChanged,
@@ -179,7 +212,10 @@ class CourseService(
     private fun newId(kind: String): String =
         "own-$kind-" + (1..12).map { ID_CHARS[Random.nextInt(ID_CHARS.length)] }.joinToString("")
 
-    private companion object {
-        const val ID_CHARS = "abcdefghijklmnopqrstuvwxyz0123456789"
+    companion object {
+        /** Above any lesson's length, so a lesson is read on one page. */
+        const val LESSON_WORDS_PER_PAGE = BookDraft.MAX_WORDS_PER_PAGE
+
+        private const val ID_CHARS = "abcdefghijklmnopqrstuvwxyz0123456789"
     }
 }
