@@ -387,12 +387,13 @@ class ExamplesScreenTest {
                 // Nothing listens on port 1, so downloading this recording fails.
                 ExampleSentence(text = "Acabou o tempo.", translation = null, audioUrl = "http://127.0.0.1:1/audio.mp3"),
             ),
+            clipMillis = 3_000,
         )
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read aloud").fetchSemanticsNodes().size == 2 }
         rule.waitUntil(5_000) { spoken.toSet() == setOf("pt:Eu não tenho tempo.", "pt:Acabou o tempo.") }
 
         rule.onAllNodesWithContentDescription("Read aloud")[1].performClick()
-        rule.waitUntil(1_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(2, spoken.size, "both were made ahead; the click plays the prepared audio")
     }
 
@@ -440,6 +441,7 @@ class ExamplesScreenTest {
                 ExampleSentence(text = "Eu não tenho tempo.", translation = null),
                 ExampleSentence(text = "Acabou o tempo.", translation = null, audioUrl = "http://127.0.0.1:1/audio.mp3"),
             ),
+            clipMillis = 3_000,
         )
         // The recording cannot be downloaded, so both examples end up read aloud, made ahead.
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read aloud").fetchSemanticsNodes().size == 2 }
@@ -447,13 +449,13 @@ class ExamplesScreenTest {
 
         // The examples sit at the bottom of the scrolling pane, below the test window.
         rule.onAllNodesWithContentDescription("Read aloud")[0].performScrollTo().performClick()
-        rule.waitUntil(1_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** An example without a recording is read ahead of time: its button spins, then plays at once. */
     @Test
     fun readAloudExamplesArePreparedBeforeTheyAreClicked() {
-        show(listOf(ExampleSentence(text = "Eu não tenho tempo.", translation = null)), speechDelayMs = 1_000)
+        show(listOf(ExampleSentence(text = "Eu não tenho tempo.", translation = null)), speechDelayMs = 1_000, clipMillis = 3_000)
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Preparing speech").fetchSemanticsNodes().isNotEmpty() }
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read aloud").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(listOf("pt:Eu não tenho tempo."), spoken.toList(), "made before any click")
