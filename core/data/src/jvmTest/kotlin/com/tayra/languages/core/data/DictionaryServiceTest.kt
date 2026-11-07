@@ -143,6 +143,37 @@ class DictionaryServiceTest {
         assertEquals("cat", env.service.lookup(enRu, "cats").parentSuggestion, "an ordinary form keeps its lemma")
     }
 
+    /** A Persian pack writes its forms without the non-joiner, and in Persian letters. */
+    @Test
+    fun aPersianFormIsFoundWithItsNonJoiner() = runTest {
+        val persian = DictionaryPacks.find(DictionaryId("fa", "en"))!!
+        val file = File.createTempFile("tayra-dict-fa", ".sqlite").also { it.delete() }
+        val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
+        listOf(
+            "CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL)",
+            "CREATE TABLE entries (id INTEGER NOT NULL PRIMARY KEY, word TEXT NOT NULL, word_lc TEXT NOT NULL, pos TEXT NOT NULL, ipa TEXT, senses TEXT NOT NULL)",
+            "CREATE TABLE forms (form_lc TEXT NOT NULL, lemma TEXT NOT NULL, generated INTEGER NOT NULL DEFAULT 0)",
+            "CREATE INDEX entries_word_lc ON entries(word_lc)",
+            "CREATE INDEX forms_form_lc ON forms(form_lc)",
+            "INSERT INTO meta VALUES ('format', '${DictionaryId.FORMAT}'), ('source_language', 'fa'), ('target_language', 'en')",
+            """INSERT INTO entries(word, word_lc, pos, ipa, senses) VALUES ('رفتن', 'رفتن', 'verb', NULL, '[{"glosses":["to go"]}]'),
+                ('کتاب', 'کتاب', 'noun', NULL, '[{"glosses":["book"]}]')""",
+            "INSERT INTO forms VALUES ('میروم', 'رفتن', 0), ('کتابها', 'کتاب', 0)",
+            "PRAGMA user_version = ${DictionaryId.FORMAT}",
+        ).forEach { driver.execute(null, it, 0) }
+        driver.close()
+        val packed = ByteArrayOutputStream()
+        GZIPOutputStream(packed).use { it.write(file.readBytes()) }
+        file.delete()
+        val env = Env(Files.createTempDirectory("tayra-dict-fa").toFile(), packed.toByteArray())
+        env.service.refresh()
+        env.service.download(persian)
+
+        assertEquals(listOf("رفتن"), env.service.lookup(persian.id, "می\u200Cروم").lemmas)
+        assertEquals(listOf("کتاب"), env.service.lookup(persian.id, "کتاب\u200Cها").lemmas)
+        assertEquals("کتاب", env.service.lookup(persian.id, "كتاب").entries.single().word)
+    }
+
     @Test
     fun failedDownloadsAndForeignFilesAreNotInstalled() = runTest {
         val failing = Env(Files.createTempDirectory("tayra-dict").toFile(), null, HttpStatusCode.NotFound)

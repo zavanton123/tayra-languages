@@ -21,6 +21,7 @@ import com.tayra.languages.core.domain.morphology.ChineseScripts
 import com.tayra.languages.core.domain.morphology.Japanese
 import com.tayra.languages.core.domain.morphology.LanguageMorphology
 import com.tayra.languages.core.domain.morphology.Morphology
+import com.tayra.languages.core.domain.parse.PersianParser
 import com.tayra.languages.core.domain.repository.DictionaryRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -322,7 +323,8 @@ class DictionaryService(
      * reading or a toneless pinyin, which many words share, is a form on purpose.
      */
     private suspend fun formLemmas(dictionary: DictionaryId, formLc: String): List<String> =
-        repository.lemmas(dictionary, formLc).takeIf { it.size <= MAX_LEMMAS_PER_FORM || dictionary.sourceLanguage in SHARED_FORM_LANGUAGES }.orEmpty()
+        // Persian packs write their forms without the non-joiner (میروم of رفتن), which the reader keeps in a word.
+        repository.lemmas(dictionary, if (dictionary.sourceLanguage == "fa") PersianParser.packForm(formLc) else formLc).takeIf { it.size <= MAX_LEMMAS_PER_FORM || dictionary.sourceLanguage in SHARED_FORM_LANGUAGES }.orEmpty()
 
     private fun stateOf(id: DictionaryId): PackState = _packs.value.firstOrNull { it.pack.id == id }?.state ?: PackState.NotInstalled
 
@@ -330,9 +332,12 @@ class DictionaryService(
         _packs.update { list -> list.map { if (it.pack.id == id) it.copy(state = state) else it } }
     }
 
-    /** Packs store keys lowercased the way tools/build_dictionary.py does: Turkish keeps its dotted and dotless i apart. */
-    private fun lowercase(word: String, dictionary: DictionaryId): String =
-        (if (dictionary.sourceLanguage == "tr") word.replace('I', 'ı').replace('İ', 'i') else word).lowercase()
+    /** Packs store keys lowercased the way tools/build_dictionary.py does: Turkish keeps its dotted and dotless i apart, Persian writes ک and ی. */
+    private fun lowercase(word: String, dictionary: DictionaryId): String = when (dictionary.sourceLanguage) {
+        "tr" -> word.replace('I', 'ı').replace('İ', 'i').lowercase()
+        "fa" -> PersianParser.fold(word).lowercase()
+        else -> word.lowercase()
+    }
 
     private val DATED_TAGS = setOf("obsolete", "archaic", "dated", "rare", "historical")
 
