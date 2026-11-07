@@ -1,0 +1,11 @@
+-- Hebrew is read with its own parser, which cuts the letters written onto a word's front off it (ובבית is ו + ב + בית);
+-- a Hebrew made before it was read as space-delimited text. Its words now take the cantillation marks, and not the maqaf,
+-- which joins two words (בית־ספר is בית + ספר).
+UPDATE languages SET parser_type = 'hebrew' WHERE name = 'Hebrew' AND parser_type = 'spacedel';
+
+UPDATE languages SET word_characters =
+    char(92) || 'u0591-' || char(92) || 'u05BD' || char(92) || 'u05BF' || char(92) || 'u05C1' || char(92) || 'u05C2' ||
+    char(92) || 'u05C4' || char(92) || 'u05C5' || char(92) || 'u05C7' || char(92) || 'u05D0-' || char(92) || 'u05EA׳״'
+WHERE name = 'Hebrew' AND word_characters =
+    char(92) || 'u05B0-' || char(92) || 'u05BF' || char(92) || 'u05C1' || char(92) || 'u05C2' || char(92) || 'u05C7' ||
+    char(92) || 'u05D0-' || char(92) || 'u05EA׳״';

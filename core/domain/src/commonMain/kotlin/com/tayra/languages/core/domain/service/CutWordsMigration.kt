@@ -13,14 +13,14 @@ import com.tayra.languages.core.domain.repository.TermRepository
 import com.tayra.languages.core.domain.term.TermTextNormalizer
 
 /**
- * Keeps the terms of a language whose parser came to cut its words (Arabic: والكتاب is و + ال + كتاب) the words the
- * reader shows. A term saved as a word now cut becomes the word left after the letters in front, which then has one
- * status however it is written; where that word was saved too (وهو and هو), the two become one, keeping the more
- * advanced status and whatever either has that the other lacks. A phrase is cut again, and the language's stored
- * sentences are made again. Words are matched without their vowel signs now, so a term saved with them (أيضًا) is
- * matched as أيضا. Thai's parser came to cut no word inside a syllable (ต่อมา is ต่อ + มา, no longer ต่อม + า): a phrase
- * saved over the old cut is cut again, while a word saved stays the word it is. Run at start: it changes nothing once
- * the terms are as the reader reads them.
+ * Keeps the terms of a language whose parser came to cut its words (Arabic: والكتاب is و + ال + كتاب; Hebrew: ובבית is
+ * ו + ב + בית) the words the reader shows. A term saved as a word now cut becomes the word left after the letters in
+ * front, which then has one status however it is written; where that word was saved too (وهو and هو), the two become
+ * one, keeping the more advanced status and whatever either has that the other lacks. A phrase is cut again, and the
+ * language's stored sentences are made again. Words are matched without their vowel signs now, so a term saved with
+ * them (أيضًا) is matched as أيضا. Thai's parser came to cut no word inside a syllable (ต่อมา is ต่อ + มา, no longer ต่อม +
+ * า): a phrase saved over the old cut is cut again, while a word saved stays the word it is. Run at start: it changes
+ * nothing once the terms are as the reader reads them.
  */
 class CutWordsMigration(
     private val languages: LanguageRepository,
@@ -97,7 +97,7 @@ class CutWordsMigration(
 
     private companion object {
         /** The parsers that cut a word written as one into words, or came to match words folded (Persian). */
-        val PARSERS = setOf("arabic", "thai", "persian")
+        val PARSERS = setOf("arabic", "thai", "persian", "hebrew")
 
         /** Those whose saved words stay whole: only their phrases are cut again. */
         val WHOLE_WORDS = setOf("thai")
