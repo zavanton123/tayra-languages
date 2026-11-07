@@ -2277,3 +2277,26 @@ EXCLUDE["gd"] = EXCLUDE.get("gd", set()) | {
     "or", "not", "at", "la", "so", "me", "td", "being", "bot", "com", "bar", "ad", "otherwise", "the", "of", "and", "in", "to",
     "iomradh", "iomraidhean", "ceanglaiche", "ceanglaichean", "faidhle", "duf", "duilleag-mhòr",
 }
+
+# Georgian, after the builder's preverb and form-gloss rules (georgian_links). The pronoun tables name each other's forms
+# (მათ, მან, მის under ten pronouns); გახდა "became" is გახდება's, not გაიხდის "take off"'s; ერთ "one" is ერთი's, not ერი
+# "nation"'s; სამ "three" is სამი's; a case form the pack has as a word (სახლში "at home") is its noun's.
+OVERRIDES["ka"] = {
+    "მან": ["ის"], "მას": ["ის"], "მის": ["ის"], "მათ": ["ისინი"],
+    "გახდა": ["გახდება"], "მოხდა": ["ხდება"], "ერთ": ["ერთი"], "სამ": ["სამი"], "მხრიდან": ["მხარე"],
+    "სახლში": ["სახლი"], "ოჯახში": ["ოჯახი"], "სამხრეთით": ["სამხრეთი"], "ჩრდილოეთით": ["ჩრდილოეთი"],
+    "დასავლეთით": ["დასავლეთი"], "აღმოსავლეთით": ["აღმოსავლეთი"], "მონაცემები": ["მონაცემი"], "ამისა": ["ეს"], "მათს": ["მათი"],
+    "რაოდენობით": ["რაოდენობა"], "გამოყენებით": ["გამოყენება"],
+}
+# The months are names to the pack, which has no forms for most: a month's case forms, of its stem and of its stem without
+# the last vowel (ოქტომბერს, ოქტომბრის; both are written), with the postpositions written onto them.
+for _month, _stems in {"იანვარი": "იანვარ იანვრ", "თებერვალი": "თებერვალ თებერვლ", "მარტი": "მარტ", "აპრილი": "აპრილ",
+                       "მაისი": "მაის", "ივნისი": "ივნის", "ივლისი": "ივლის", "აგვისტო": "აგვისტო", "სექტემბერი": "სექტემბერ სექტემბრ",
+                       "ოქტომბერი": "ოქტომბერ ოქტომბრ", "ნოემბერი": "ნოემბერ ნოემბრ", "დეკემბერი": "დეკემბერ დეკემბრ"}.items():
+    for _stem in _stems.split():
+        _endings = ("ს მა ში ზე თან სთვის ისთვის ის ისა ით იდან ამდე ად" if _month != "აგვისტო" else "ს მ ში ზე სთან სთვის სა თი დან მდე დ")
+        for _ending in _endings.split():
+            OVERRIDES["ka"].setdefault(_stem + _ending, [_month])
+# Names, the endings the reader cuts off at a hyphen (2020-ში, XX-ე, 1990-იანი), and abbreviations (წ. "year", ე.წ. "so-called").
+EXCLUDE["ka"] = {"დავით", "ზე", "ში", "დან", "მდე", "ე", "იან", "იანი", "იანები", "იანებში", "იანების", "იანელი", "კმ", "სმ", "სსრ", "წ", "წ.", "წწ.", "ე.წ.",
+                 "ე.ი.", "ა.შ.", "გვ.", "ს.", "სს.", "ნ.", "მაგ.", "დე", "მა", "სა"}
