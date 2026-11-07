@@ -11,7 +11,6 @@
     "Bergen",
     "Ingrid",
     "Halden",
-    "Norge",
     "Sverige",
     "Max",
     "Astrid",
@@ -40,7 +39,6 @@
         "klubb",
         "seks",
         "venstre",
-        "angrep",
         "tape",
         "stilling",
         "midt",
@@ -48,7 +46,7 @@
         "ille",
         "endelig"
       ],
-      "text": "Jonas er 15 år og bor i Bergen. Han spiller fotball i en liten klubb. På laget spiller han på venstre side. I vår gikk det dårlig for laget. De tapte seks kamper. Det var ille. Etter den siste kampen sa Jonas til faren sin: «Det er ille å tape hele tiden.»\n\nEn uke senere hadde klubben en ny kamp. Før kampen snakket Jonas med de andre på laget. «Vi må spille bedre i angrep,» sa han. «Vi må treffe målet!» Kampen begynte klokka 12. Det andre laget hadde et sterkt angrep. Etter 20 minutter var stillingen 0–1. Etter en time var stillingen fortsatt 0–1.\n\nDa fikk Jonas ballen på venstre side. Han løp inn mot midten. Han så vennen sin Emil midt foran målet. Jonas sendte ballen til Emil. Emil traff ballen godt, og ballen gikk i mål. Nå var stillingen 1–1.\n\nFem minutter før slutt fikk Jonas ballen igjen. Denne gangen var han selv midt foran målet. Han traff ballen, og den gikk rett i mål. Stillingen var 2–1, og kampen var slutt. Klubben hadde endelig vunnet en kamp! «Endelig!» sa Emil. «Vi tapte seks kamper, men nå vant vi endelig.»\n\nSpørsmål:\nHvor spiller Jonas fotball?\nHan spiller fotball i en liten klubb i Bergen.\nHvor mange kamper tapte laget i vår?\nLaget tapte seks kamper.\nHva var stillingen etter en time?\nStillingen var fortsatt 0–1.\nHvem traff ballen midt foran målet først?\nEmil traff ballen midt foran målet først.\nHvordan gikk kampen?\nKlubben vant 2–1. Endelig vant de en kamp."
+      "text": "Jonas er 15 år og bor i Bergen. Han spiller fotball i en liten klubb. På laget spiller han på venstre side. I vår gikk det dårlig for laget. De tapte seks kamper. Det var ille. Etter den siste kampen sa Jonas til faren sin: «Det er ille å tape hele tiden.»\n\nEn uke senere hadde klubben en ny kamp. Før kampen snakket Jonas med de andre på laget. «Vi må spille bedre foran målet,» sa han. «Vi må treffe målet!» Kampen begynte klokka 12. Det andre laget var sterkt. Etter 20 minutter var stillingen 0–1. Etter en time var stillingen fortsatt 0–1.\n\nDa fikk Jonas ballen på venstre side. Han løp inn mot midten. Han så vennen sin Emil midt foran målet. Jonas sendte ballen til Emil. Emil traff ballen godt, og ballen gikk i mål. Nå var stillingen 1–1.\n\nFem minutter før slutt fikk Jonas ballen igjen. Denne gangen var han selv midt foran målet. Han traff ballen, og den gikk rett i mål. Stillingen var 2–1, og kampen var slutt. Klubben hadde endelig vunnet en kamp! «Endelig!» sa Emil. «Vi tapte seks kamper, men nå vant vi endelig.»\n\nSpørsmål:\nHvor spiller Jonas fotball?\nHan spiller fotball i en liten klubb i Bergen.\nHvor mange kamper tapte laget i vår?\nLaget tapte seks kamper.\nHva var stillingen etter en time?\nStillingen var fortsatt 0–1.\nHvem traff ballen midt foran målet først?\nEmil traff ballen midt foran målet først.\nHvordan gikk kampen?\nKlubben vant 2–1. Endelig vant de en kamp."
     },
     {
       "title": "Turen til grensen",
@@ -57,40 +55,36 @@
         "grense",
         "sør",
         "hund",
-        "post",
         "ekstra",
         "direkte",
         "kontroll",
         "galt",
         "tom"
       ],
-      "text": "Ingrid bor i Halden, helt sør i Norge. Byen ligger nær grensen til Sverige. Ingrid har en hund som heter Max. En dag i sommer ville Ingrid gå en lang tur med hunden. Hun ville gå til en topp ved grensen. På toppen var det en post. Ved posten lå det en bok. Alle som kom til posten, skrev navnet sitt i boka.\n\nIngrid tok med ekstra vann. Hun tok også med ekstra mat til hunden. Hun gikk fra huset klokka 9. Først gikk hun direkte mot sør. Hunden ville løpe foran. Men Ingrid ville ha kontroll på hunden, så den måtte gå ved siden av henne.\n\nEtter en time så Ingrid at noe var galt. Veien gikk mot nord, ikke mot sør. «Hva har jeg gjort galt?» tenkte hun. Så forstod hun det: Hun hadde gått feil vei. Hun gikk tilbake og fant den riktige veien.\n\nKlokka 12 var Ingrid og hunden ved grensen. Det var ingen kontroll ved grensen. Det var bare stille og tomt. Så gikk de opp til toppen. Ingrid fant posten og skrev navnet sitt i boka. Hun skrev også navnet til hunden.\n\nNå var vannet nesten tomt. Men Ingrid hadde ekstra vann med seg. Hun gav hunden vann og mat. Så gikk de direkte hjem.\n\nSpørsmål:\nHvor bor Ingrid?\nHun bor i Halden, helt sør i Norge.\nHva var det på toppen?\nDet var en post på toppen.\nHva tok Ingrid med?\nHun tok med ekstra vann og ekstra mat til hunden.\nHva skjedde etter en time?\nIngrid så at noe var galt. Hun hadde gått feil vei.\nHva gjorde Ingrid ved posten?\nHun skrev navnet sitt og navnet til hunden i boka."
+      "text": "Ingrid bor i Halden. Byen ligger nær grensen til Sverige. Ingrid har en hund som heter Max. En dag i sommer ville Ingrid gå en lang tur med hunden. Hun ville gå til en topp ved grensen. På toppen lå det en bok i en liten boks. Alle som kom til toppen, skrev navnet sitt i boka.\n\nIngrid tok med ekstra vann. Hun tok også med ekstra mat til hunden. Hun gikk fra huset klokka 9. Først gikk hun direkte mot sør. Hunden ville løpe foran. Men Ingrid ville ha kontroll på hunden, så den måtte gå ved siden av henne.\n\nEtter en time så Ingrid at noe var galt. Veien gikk mot nord, ikke mot sør. «Hva har jeg gjort galt?» tenkte hun. Så forstod hun det: Hun hadde gått feil vei. Hun gikk tilbake og fant den riktige veien.\n\nKlokka 12 var Ingrid og hunden ved grensen. Det var ingen kontroll ved grensen. Det var bare stille og tomt. Så gikk de opp til toppen. Ingrid fant boksen og skrev navnet sitt i boka. Hun skrev også navnet til hunden.\n\nNå var flaska nesten tom. Men Ingrid hadde ekstra vann med seg. Hun gav hunden vann og mat. Så gikk de direkte hjem.\n\nSpørsmål:\nHvor bor Ingrid?\nHun bor i Halden, nær grensen til Sverige.\nHva var det på toppen?\nDet var en bok i en liten boks på toppen.\nHva tok Ingrid med?\nHun tok med ekstra vann og ekstra mat til hunden.\nHva skjedde etter en time?\nIngrid så at noe var galt. Hun hadde gått feil vei.\nHva gjorde Ingrid på toppen?\nHun skrev navnet sitt og navnet til hunden i boka."
     },
     {
-      "title": "En kveld i kirka",
-      "summary": "Astrid's music group plays a big evening of songs in the church in May.",
+      "title": "En kveld med sanger",
+      "summary": "Astrid's music group plays a big evening of songs about spring and the sea at the culture house in May.",
       "newWords": [
         "voksen",
-        "kirke",
         "sang",
         "stadig",
         "mai",
-        "gud",
         "henge",
         "tak",
         "tusen",
         "hyggelig"
       ],
-      "text": "Astrid er 70 år. Hun er med i en gruppe som lager musikk. Gruppen har 20 medlemmer. De fleste er voksne, men noen er barn. Gruppen spiller sammen hver uke i kirka.\n\nI mai skulle gruppen ha en stor kveld i kirka. De skulle spille 10 sanger. Hele våren var de stadig i kirka for å lære sangene. Astrid sa stadig: «En gang til!» Den første sangen var en gammel sang om Gud. Den siste sangen var en ny sang om våren og om mai. Astrid likte sangen om Gud best.\n\nDagen før møtte Astrid og to andre voksne opp i kirka. De hengte opp lys under taket. Taket i kirka er veldig høyt, så det var ikke lett. De hengte også opp et stort bilde ved døra. Det var en hyggelig dag.\n\nSå kom kvelden. Kirka har plass til tusen mennesker, og den var nesten full. Gruppen spilte alle sangene. Etter den siste sangen stod folk opp. Astrid sa: «Tusen takk for at dere kom!»\n\nEtter det var det mat i et rom ved kirka. De voksne snakket, og barna spiste. En gammel mann sa til Astrid: «Det var en veldig hyggelig kveld. Jeg kommer igjen neste år.»\n\nSpørsmål:\nHvor spiller gruppen sammen?\nGruppen spiller sammen hver uke i kirka.\nNår skulle gruppen ha en stor kveld?\nDen skulle ha en stor kveld i mai.\nHvilken sang likte Astrid best?\nHun likte sangen om Gud best.\nHva hengte de opp under taket?\nDe hengte opp lys under taket.\nHvor mange mennesker har kirka plass til?\nKirka har plass til tusen mennesker."
+      "text": "Astrid er 70 år. Hun er med i en gruppe som lager musikk. Gruppen har 20 medlemmer. De fleste er voksne, men noen er barn. Gruppen spiller sammen hver uke på skolen.\n\nI mai skulle gruppen ha en stor kveld i kulturhuset i byen. De skulle spille 10 sanger. Hele våren var de stadig på skolen for å lære sangene. Astrid sa stadig: «En gang til!» Den første sangen var en gammel sang om havet. Den siste sangen var en ny sang om våren og om mai. Astrid likte sangen om havet best.\n\nDagen før møtte Astrid og to andre voksne opp i kulturhuset. De hengte opp lys under taket. Taket i huset er veldig høyt, så det var ikke lett. De hengte også opp et stort bilde ved døra. Det var en hyggelig dag.\n\nSå kom kvelden. Huset har plass til tusen mennesker, og nesten alle plassene var tatt. Gruppen spilte alle sangene. Etter den siste sangen stod folk opp. Astrid sa: «Tusen takk for at dere kom!»\n\nEtter det var det mat i et rom i huset. De voksne snakket, og barna spiste. En gammel mann sa til Astrid: «Det var en veldig hyggelig kveld. Jeg kommer igjen neste år.»\n\nSpørsmål:\nHvor spiller gruppen sammen?\nGruppen spiller sammen hver uke på skolen.\nNår skulle gruppen ha en stor kveld?\nDen skulle ha en stor kveld i mai.\nHvilken sang likte Astrid best?\nHun likte sangen om havet best.\nHva hengte de opp under taket?\nDe hengte opp lys under taket.\nHvor mange mennesker har huset plass til?\nHuset har plass til tusen mennesker."
     },
     {
       "title": "Saras videoer",
-      "summary": "Sara makes short videos, watches an American series and starts swapping languages with a boy from the USA.",
+      "summary": "Sara makes short videos, watches a series in English and starts swapping languages with a boy from the USA.",
       "newWords": [
         "video",
         "ung",
         "engelsk",
-        "amerikansk",
         "serie",
         "interessant",
         "tekst",
@@ -98,7 +92,7 @@
         "program",
         "bytte"
       ],
-      "text": "Sara er 16 år. Hun er ung, men hun har mange planer. Hun liker å lage videoer. Hun lager korte videoer om bøker hun har lest. Hun legger videoene ut på nettet.\n\nSara snakker norsk, men hun vil også lære engelsk bedre. Hver kveld ser hun på en amerikansk serie. Serien handler om tre unge mennesker i New York. Sara synes serien er veldig interessant. Hun ser serien med engelsk tekst. Da lærer hun mange nye ord.\n\nEn dag tenkte Sara: «Jeg kan lage videoer på engelsk også.» Hun skrev en tekst på engelsk om en amerikansk bok. Så laget hun en video. Det var vanskelig å snakke et annet språk. Hun måtte lage videoen seks ganger.\n\nSara brukte et enkelt program på telefonen. Med programmet kunne hun legge tekst på videoen. Hun la norsk tekst på den engelske videoen.\n\nMange unge så videoen. Det var interessant å lese hva de skrev. En ung gutt fra USA skrev til henne: «Vil du bytte språk med meg? Jeg lærer deg engelsk, og du lærer meg norsk.» Sara sa ja. Nå snakker de sammen hver uke. De bytter på: først snakker de engelsk, så snakker de norsk.\n\nSpørsmål:\nHva liker Sara å lage?\nHun liker å lage videoer.\nHva ser Sara på hver kveld?\nHun ser på en amerikansk serie.\nHva handler serien om?\nDen handler om tre unge mennesker i New York.\nHva gjorde Sara med programmet?\nHun la norsk tekst på videoen.\nHva ville gutten fra USA?\nHan ville bytte språk med Sara."
+      "text": "Sara er 16 år. Hun er ung, men hun har mange planer. Hun liker å lage videoer. Hun lager korte videoer om bøker hun har lest. Hun legger videoene ut på nettet.\n\nSara snakker norsk, men hun vil også lære engelsk bedre. Hver kveld ser hun på en serie på engelsk. Serien handler om tre unge mennesker i New York. Sara synes serien er veldig interessant. Hun ser serien med engelsk tekst. Da lærer hun mange nye ord.\n\nEn dag tenkte Sara: «Jeg kan lage videoer på engelsk også.» Hun skrev en tekst på engelsk om en bok hun likte. Så laget hun en video. Det var vanskelig å snakke et annet språk. Hun måtte lage videoen seks ganger.\n\nSara brukte et enkelt program på telefonen. Med programmet kunne hun legge tekst på videoen. Hun la norsk tekst på videoen.\n\nMange unge så videoen. Det var interessant å lese hva de skrev. En ung gutt fra USA skrev til henne: «Vil du bytte språk med meg? Jeg lærer deg engelsk, og du lærer meg norsk.» Sara sa ja. Nå snakker de sammen hver uke. De bytter på: først snakker de engelsk, så snakker de norsk.\n\nSpørsmål:\nHva liker Sara å lage?\nHun liker å lage videoer.\nHva ser Sara på hver kveld?\nHun ser på en serie på engelsk.\nHva handler serien om?\nDen handler om tre unge mennesker i New York.\nHva gjorde Sara med programmet?\nHun la norsk tekst på videoen.\nHva ville gutten fra USA?\nHan ville bytte språk med Sara."
     },
     {
       "title": "Per blir sterkere",
@@ -119,29 +113,25 @@
     },
     {
       "title": "Debatten",
-      "summary": "Lene takes part in a youth debate, answers a politician's speech and is invited to a national debate.",
+      "summary": "Lene takes part in a school debate about phones in class, gives a short speech and is invited to a national youth debate.",
       "newWords": [
         "ungdom",
         "organisasjon",
         "samfunn",
         "debatt",
         "mening",
-        "politiker",
         "tale",
-        "makt",
         "imot",
         "nasjonal"
       ],
-      "text": "Lene er 17 år og bor i Trondheim. Hun er medlem av en organisasjon for ungdom. I organisasjonen snakker de om samfunnet og om makt: hvem bestemmer? Hver uke har de en debatt. I en debatt sier alle hva de mener. Lene liker å si meningen sin.\n\nEn dag kom en politiker til organisasjonen. Politikeren skulle holde en tale om ungdom og samfunnet. I talen sa hun: «Ungdom må få mer makt i samfunnet. Dere må si meningen deres.» Alle likte talen.\n\nEtter talen var det debatt. Politikeren sa at kommunen ville bygge en ny vei gjennom et område ved skolen. Lene var imot. «Jeg er imot den nye veien,» sa hun. «Ungdom trenger området. Der spiller vi fotball etter skolen.» Mange andre var også imot. Politikeren hørte på alle. «Takk for meningen din,» sa hun. «Jeg skal ta den med meg.»\n\nEn uke senere skrev en nasjonal organisasjon for ungdom til Lene. De skulle ha en nasjonal debatt i Oslo. Ungdom fra hele landet skulle komme. Lene skulle holde en kort tale der. Hun var glad. Nå kunne hun si meningen sin til hele landet.\n\nSpørsmål:\nHva er Lene medlem av?\nHun er medlem av en organisasjon for ungdom.\nHva handlet talen om?\nDen handlet om ungdom og samfunnet.\nHva var Lene imot?\nHun var imot den nye veien gjennom området ved skolen.\nHvorfor trenger ungdom området?\nDe spiller fotball der etter skolen.\nHvor skulle den nasjonale debatten være?\nDen skulle være i Oslo."
+      "text": "Lene er 17 år og bor i Trondheim. Hun er medlem av en organisasjon for ungdom. I organisasjonen snakker de om samfunnet og om livet til ungdom. Hver uke har de en debatt. I en debatt sier alle hva de mener. Lene liker å si meningen sin.\n\nEn dag skulle det være en debatt på skolen til Lene. Spørsmålet var: Skal elevene ha telefonen med seg i timen? Før debatten skulle Lene holde en kort tale. I talen sa hun: «Telefonen tar tid fra skolen. Vi lærer mer uten den.» Alle hørte på talen.\n\nEtter talen var det debatt. En gutt i klassen var imot. «Jeg er imot,» sa han. «Vi bruker telefonen til å lære også. Der har vi mange gode programmer for språk.» Mange andre var også imot meningen til Lene. Men noen var enige med henne. Læreren hørte på alle. «Takk for meningene deres,» sa hun. «Nå vet vi mer om hva ungdom tenker.»\n\nEn uke senere skrev en nasjonal organisasjon for ungdom til Lene. Den lager debatter for elever fra hele landet. De skulle ha en nasjonal debatt i Oslo om skolen og samfunnet. Lene skulle holde en kort tale der. Hun var glad. Nå kunne hun si meningen sin til ungdom fra hele landet.\n\nSpørsmål:\nHva er Lene medlem av?\nHun er medlem av en organisasjon for ungdom.\nHva var spørsmålet i debatten på skolen?\nSpørsmålet var om elevene skal ha telefonen med seg i timen.\nHva sa Lene i talen?\nHun sa at elevene lærer mer uten telefonen.\nHvorfor var gutten imot?\nHan bruker telefonen til å lære også.\nHvor skulle den nasjonale debatten være?\nDen skulle være i Oslo."
     },
     {
-      "title": "Gamle våpen",
-      "summary": "Erik visits a museum with his father, and a student shows them old weapons.",
+      "title": "Gamle båter",
+      "summary": "Erik visits a museum with his father, and a student shows them old Viking ships.",
       "newWords": [
         "interesse",
-        "nordmann",
         "slags",
-        "våpen",
         "student",
         "forskning",
         "bakgrunn",
@@ -149,7 +139,7 @@
         "tanke",
         "minne"
       ],
-      "text": "Erik er 12 år. Han har stor interesse for historie. Han liker å lese om vikinger. Mange nordmenn har den samme interessen. En dag i sommer dro Erik og faren hans til et museum i Oslo.\n\nI museet var det alle slags gamle ting. Det var også alle slags våpen. Erik ville se våpnene først. En ung kvinne viste dem rundt. Hun het Maria. Hun var student ved universitetet og skrev om gamle våpen. Det var en del av forskningen hennes.\n\nMaria fortalte om bakgrunnen til hvert våpen. «Dette våpenet er over tusen år gammelt,» sa hun. Det var et stort, svart våpen. «Hvorfor er det svart?» spurte Erik. «Det har ligget i vann i mange år,» svarte Maria. «Forskningen vår viser at det var våpenet til en nordmann som levde her for tusen år siden.»\n\n«Hva er bakgrunnen din?» spurte faren. «Hvorfor har du interesse for våpen?» «Bakgrunnen min er enkel,» sa Maria. «Da jeg var barn, leste jeg mye om vikinger, akkurat som Erik.»\n\nErik fikk en tanke. «Kanskje jeg kan bli student også,» sa han. «Da kan jeg drive med forskning.» «Det er en god tanke,» sa faren.\n\nFør de dro hjem, kjøpte faren en liten bok om gamle våpen. Den skulle være et minne fra dagen. Det ble et godt minne for Erik.\n\nSpørsmål:\nHva har Erik interesse for?\nHan har interesse for historie og vikinger.\nHva var det i museet?\nDet var alle slags gamle ting og alle slags våpen.\nHvem viste dem rundt?\nEn student som het Maria viste dem rundt.\nHvem hadde det svarte våpenet?\nDet var våpenet til en nordmann som levde for tusen år siden.\nHvilken tanke fikk Erik?\nHan tenkte at han kunne bli student og drive med forskning."
+      "text": "Erik er 12 år. Han har stor interesse for historie. Han liker å lese om vikinger og om livet for tusen år siden. En dag i sommer dro Erik og faren hans til et museum i Oslo.\n\nI museet var det alle slags gamle ting. Det var gamle båter, og det var alle slags ting fra hjemmene til folk. Erik ville se båtene først. En ung kvinne viste dem rundt. Hun het Maria. Hun var student, og hun skrev om gamle ting fra vannet. Det var en del av forskningen hennes.\n\nMaria fortalte om bakgrunnen til hver båt. «Denne båten er over tusen år gammel,» sa hun. Den var stor og nesten svart. «Hvorfor er den svart?» spurte Erik. «Den har ligget i vann i mange år,» svarte Maria. «Forskningen vår viser at folk reiste langt med den for å selge ting.»\n\n«Hva er bakgrunnen din?» spurte faren. «Hvorfor har du interesse for dette?» «Bakgrunnen min er enkel,» sa Maria. «Da jeg var barn, leste jeg mye om vikinger, akkurat som Erik.»\n\nErik fikk en tanke. «Kanskje jeg kan bli student også,» sa han. «Da kan jeg drive med forskning.» «Det er en god tanke,» sa faren.\n\nFør de dro hjem, kjøpte faren en liten bok med bilder. Den skulle være et minne fra dagen. Det ble et godt minne for Erik.\n\nSpørsmål:\nHva har Erik interesse for?\nHan har interesse for historie og vikinger.\nHva var det i museet?\nDet var alle slags gamle ting, og det var gamle båter.\nHvem viste dem rundt?\nEn student som het Maria viste dem rundt.\nHvorfor var båten svart?\nDen hadde ligget i vann i mange år.\nHvilken tanke fikk Erik?\nHan tenkte at han kunne bli student og drive med forskning."
     },
     {
       "title": "Klubben vokser",
@@ -163,10 +153,9 @@
         "gratis",
         "innenfor",
         "skille",
-        "endring",
-        "dum"
+        "endring"
       ],
-      "text": "Martin har en klubb for barn. Hver fredag spiller barna spill i et lite rom på skolen. Klubben er gratis. Først kom bare 10 barn. Men klubben vokste. Etter et år kom det 40 barn hver fredag. Rommet var for lite.\n\nMartin trengte en løsning. Han snakket med foreldrene. En mor kom med et forslag: «Vi kan bruke rommet ved kirka.» Det var et godt alternativ. Martin ville vurdere det. Men rommet ved kirka kostet penger.\n\nEn far kom med et annet forslag: «Kan vi ikke bruke den store salen på skolen?» Martin syntes det var et dumt forslag. Salen var for stor og kald. Han sa ikke at det var dumt, men han ville vurdere andre alternativer.\n\nSå fant Martin en løsning. Innenfor salen på skolen var det et rom til. Det var et stort og fint rom, og det var gratis. Han ville også skille de små barna fra de store. De små barna kunne komme klokka 17. De store barna kunne komme klokka 18.30.\n\nForeldrene likte endringen. Det var en stor endring, men en god endring. Nå var det ikke for mange barn i rommet. Og klubben vokste videre.\n\nSpørsmål:\nHva gjør barna i klubben?\nDe spiller spill hver fredag.\nHvorfor trengte Martin en løsning?\nKlubben vokste, og rommet var for lite.\nHva var forslaget til moren?\nHun ville bruke rommet ved kirka.\nHvor fant Martin et nytt rom?\nHan fant et rom innenfor salen på skolen.\nHvordan skilte han barna?\nHan skilte de små barna fra de store barna."
+      "text": "Martin har en klubb for barn. Hver fredag spiller barna spill i et lite rom på skolen. Klubben er gratis. Først kom bare 10 barn. Men klubben vokste. Etter et år kom det 40 barn hver fredag. Rommet var for lite.\n\nMartin trengte en løsning. Han snakket med foreldrene. En mor kom med et forslag: «Vi kan bruke rommet over butikken.» Det var et godt alternativ. Martin ville vurdere det. Men rommet over butikken kostet penger.\n\nEn far kom med et annet forslag: «Kan vi ikke bruke den store salen på skolen?» Martin syntes ikke at det var et godt forslag. Salen var for stor og kald. Han sa det ikke til faren, men han ville vurdere andre alternativer.\n\nSå fant Martin en løsning. Innenfor salen på skolen var det et rom til. Det var et stort og fint rom, og det var gratis. Han ville også skille de små barna fra de store. De små barna kunne komme klokka 17. De store barna kunne komme klokka 18.30.\n\nForeldrene likte endringen. Det var en stor endring, men en god endring. Nå var det ikke for mange barn i rommet. Og klubben vokste videre.\n\nSpørsmål:\nHva gjør barna i klubben?\nDe spiller spill hver fredag.\nHvorfor trengte Martin en løsning?\nKlubben vokste, og rommet var for lite.\nHva var forslaget til moren?\nHun ville bruke rommet over butikken.\nHvor fant Martin et nytt rom?\nHan fant et rom innenfor salen på skolen.\nHvordan skilte han barna?\nHan skilte de små barna fra de store barna."
     },
     {
       "title": "Filmen",
