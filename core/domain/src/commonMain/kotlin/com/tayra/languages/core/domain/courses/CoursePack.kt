@@ -33,7 +33,7 @@ object CoursePacks {
             title = "Portuguese (Brazil)",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-pt.sqlite.gzip",
-            downloadSize = 1_194_234,
+            downloadSize = 1_196_510,
         ),
         CoursePack(
             id = "courses-en",
@@ -49,7 +49,7 @@ object CoursePacks {
             title = "German",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-de.sqlite.gzip",
-            downloadSize = 1_267_044,
+            downloadSize = 1_270_981,
         ),
         CoursePack(
             id = "courses-fr",
@@ -57,7 +57,7 @@ object CoursePacks {
             title = "French",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-fr.sqlite.gzip",
-            downloadSize = 1_181_637,
+            downloadSize = 1_185_601,
         ),
         CoursePack(
             id = "courses-es",
@@ -65,7 +65,7 @@ object CoursePacks {
             title = "Spanish",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-es.sqlite.gzip",
-            downloadSize = 1_201_344,
+            downloadSize = 1_203_414,
         ),
         CoursePack(
             id = "courses-ru",
@@ -73,7 +73,7 @@ object CoursePacks {
             title = "Russian",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-ru.sqlite.gzip",
-            downloadSize = 1_415_338,
+            downloadSize = 1_420_606,
         ),
         CoursePack(
             id = "courses-it",
@@ -81,7 +81,7 @@ object CoursePacks {
             title = "Italian",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-it.sqlite.gzip",
-            downloadSize = 1_202_152,
+            downloadSize = 1_203_497,
         ),
         CoursePack(
             id = "courses-sr",
@@ -97,7 +97,7 @@ object CoursePacks {
             title = "Dutch",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-nl.sqlite.gzip",
-            downloadSize = 1_149_244,
+            downloadSize = 1_150_781,
         ),
         CoursePack(
             id = "courses-da",
@@ -105,7 +105,7 @@ object CoursePacks {
             title = "Danish",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-da.sqlite.gzip",
-            downloadSize = 1_101_431,
+            downloadSize = 1_103_743,
         ),
         CoursePack(
             id = "courses-no",
@@ -113,7 +113,7 @@ object CoursePacks {
             title = "Norwegian",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-no.sqlite.gzip",
-            downloadSize = 1_104_165,
+            downloadSize = 1_109_330,
         ),
         CoursePack(
             id = "courses-sv",
@@ -121,7 +121,7 @@ object CoursePacks {
             title = "Swedish",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-sv.sqlite.gzip",
-            downloadSize = 1_123_772,
+            downloadSize = 1_106_196,
         ),
         CoursePack(
             id = "courses-el",
@@ -129,7 +129,7 @@ object CoursePacks {
             title = "Greek",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-el.sqlite.gzip",
-            downloadSize = 1_464_113,
+            downloadSize = 1_461_852,
         ),
         CoursePack(
             id = "courses-zh",
