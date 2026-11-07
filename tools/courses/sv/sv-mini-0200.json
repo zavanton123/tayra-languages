@@ -67,11 +67,10 @@
     },
     {
       "title": "Omar lär sig svenska",
-      "summary": "Omar reads, writes and talks with a Swedish friend to learn Swedish.",
+      "summary": "Omar reads, writes and talks with a friend to learn Swedish.",
       "newWords": [
         "lära",
         "svenska",
-        "svensk",
         "läsa",
         "skriva",
         "förstå",
@@ -80,7 +79,7 @@
         "försöka",
         "igen"
       ],
-      "text": "Omar bor i Sverige. Han kommer från ett annat land. Nu vill han lära sig svenska.\n\nVarje dag läser Omar på svenska. Han läser en liten bok. Han förstår inte allt. Han förstår bara lite. Men han försöker.\n\nOmar skriver också på svenska. Han skriver ord och små texter. Ibland skriver han fel. Då försöker han igen.\n\nOmar har en svensk vän. Hon heter Karin. Karin pratar svenska med Omar. Hon pratar inte så fort. Omar har många frågor. ”Vad betyder det här?” frågar han. Karin säger det igen. Då förstår han.\n\n”Du lär dig fort”, säger Karin.\n”Tack”, säger Omar. ”Men svenska är svårt.”\n”Det är svårt för alla”, säger Karin. ”Men du försöker hela tiden.”\n\nEfter en tid förstår Omar mer. Han kan prata med svenskar. Han kan läsa och skriva. Men han vill lära sig mer. Han läser och skriver igen och igen.\n\nFrågor:\nVad vill Omar lära sig?\nOmar vill lära sig svenska.\nVad gör Omar varje dag?\nHan läser på svenska varje dag.\nVad gör Omar när han skriver fel?\nDå försöker han igen.\nVem pratar svenska med Omar?\nKarin pratar svenska med Omar.\nVad kan Omar göra efter en tid?\nHan kan prata med svenskar."
+      "text": "Omar bor i Sverige. Han kommer från ett annat land. Nu vill han lära sig svenska.\n\nVarje dag läser Omar på svenska. Han läser en liten bok. Han förstår inte allt. Han förstår bara lite. Men han försöker.\n\nOmar skriver också på svenska. Han skriver ord och små texter. Ibland skriver han fel. Då försöker han igen.\n\nOmar har en vän. Hon heter Karin. Karin pratar svenska med Omar. Hon pratar inte så fort. Omar har många frågor. ”Vad betyder det här?” frågar han. Karin säger det igen. Då förstår han.\n\n”Du lär dig fort”, säger Karin.\n”Tack”, säger Omar. ”Men svenska är svårt.”\n”Det är svårt för alla”, säger Karin. ”Men du försöker hela tiden.”\n\nEfter en tid förstår Omar mer. Han kan prata med folk på jobbet. Han kan läsa och skriva. Men han vill lära sig mer. Han läser och skriver igen och igen.\n\nFrågor:\nVad vill Omar lära sig?\nOmar vill lära sig svenska.\nVad gör Omar varje dag?\nHan läser på svenska varje dag.\nVad gör Omar när han skriver fel?\nDå försöker han igen.\nVem pratar svenska med Omar?\nKarin pratar svenska med Omar.\nVad kan Omar göra efter en tid?\nHan kan prata med folk på jobbet."
     },
     {
       "title": "Barnen spelar boll",
@@ -185,10 +184,9 @@
       "text": "Emma vill gärna se världen. Hon vill se många länder. Idag åker hon till Norge. Det är första gången hon åker till ett annat land.\n\nEmma åker tåg. Hon sitter länge på tåget. Tåget åker genom många små städer. Emma tittar ut. Hon ser fler och fler människor.\n\nLinnea bor i Oslo. Linnea och Emma är gamla vänner. När Emma kommer fram står Linnea där. Sedan följer Emma med Linnea hem.\n\nEmma är i Norge en vecka. Inom en vecka ser hon mycket. Hon och Linnea går genom Oslo. Emma följer Linnea, och Linnea visar henne allt. Emma ser fler saker än hon tror.\n\nSedan åker Emma hem till Sverige. Hon tänker länge på Norge. ”Världen är stor”, tänker hon. ”Jag vill gärna se fler länder.”\n\nInom ett år vill Emma åka igen. Kanske till ett nytt land. Kanske till en annan del av världen.\n\nFrågor:\nVart åker Emma idag?\nEmma åker till Norge idag.\nHur åker Emma?\nHon åker tåg.\nVem bor i Oslo?\nLinnea bor i Oslo.\nHur länge är Emma i Norge?\nEmma är i Norge en vecka.\nVad vill Emma göra inom ett år?\nHon vill åka igen."
     },
     {
-      "title": "Är blomman död?",
-      "summary": "Anton thinks his plant is dead, but a friend tells him how to save it.",
+      "title": "Antons blomma",
+      "summary": "Anton thinks something is wrong with his plant, but a friend tells him how to save it.",
       "newWords": [
-        "död",
         "tack",
         "nej",
         "mena",
@@ -196,10 +194,9 @@
         "sätt",
         "del",
         "utan",
-        "all",
         "ens"
       ],
-      "text": "Anton har en blomma. Men den ser inte bra ut. En del av den ser död ut. ”Är hela blomman död?” tänker Anton.\n\nAnton frågar Sofia. Sofia vet mycket om sådana saker.\n”Min blomma är nog död”, säger Anton.\n”Nej, nej”, säger Sofia. ”Den är nog inte alls död. Ger du den vatten?”\n”Nej. Inte ens en gång i veckan.”\n”Vad menar du? Inte ens en gång?”\n”Jag menar att jag inte har tid.”\n”En sådan blomma behöver inte mycket. Men den kan inte vara utan vatten. Ingen kan vara utan det.”\n\nAnton gör på det sätt som Sofia säger. Han ger den vatten en gång i veckan. Han tar bort den döda delen. Det är ett bra sätt.\n\nEfter en tid ser den bra ut igen. Den är inte alls död. Anton går till Sofia igen.\n”Tack!” säger han. ”Tack så mycket.”\n”Det var så lite”, säger Sofia. ”Nu vet du hur man gör.”\n\nFrågor:\nVad tror Anton om blomman?\nAnton tror att den är död.\nVem frågar Anton?\nHan frågar Sofia.\nGer Anton blomman vatten varje vecka?\nNej, inte ens en gång i veckan.\nKan en blomma vara utan vatten?\nNej, den kan inte vara utan vatten.\nVad säger Anton till Sofia efter en tid?\nHan säger tack till Sofia."
+      "text": "Anton har en blomma. Men den ser inte bra ut. En del av den ser gammal ut. ”Är det något fel på blomman?” tänker Anton.\n\nAnton frågar Sofia. Sofia vet mycket om sådana saker.\n”Min blomma ser inte bra ut”, säger Anton.\n”Nej, nej”, säger Sofia. ”Den blir nog bra igen. Ger du den vatten?”\n”Nej. Inte ens en gång i veckan.”\n”Vad menar du? Inte ens en gång?”\n”Jag menar att jag inte har tid.”\n”En sådan blomma behöver inte mycket. Men den kan inte vara utan vatten. Ingen kan vara utan det.”\n\nAnton gör på det sätt som Sofia säger. Han ger den vatten en gång i veckan. Han tar bort den gamla delen. Det är ett bra sätt.\n\nEfter en tid ser den bra ut igen. Nu är hela blomman bra. Anton går till Sofia igen.\n”Tack!” säger han. ”Tack så mycket.”\n”Det var så lite”, säger Sofia. ”Nu vet du hur man gör.”\n\nFrågor:\nVad tror Anton om blomman?\nAnton tror att något är fel på den.\nVem frågar Anton?\nHan frågar Sofia.\nGer Anton blomman vatten varje vecka?\nNej, inte ens en gång i veckan.\nKan en blomma vara utan vatten?\nNej, den kan inte vara utan vatten.\nVad säger Anton till Sofia efter en tid?\nHan säger tack till Sofia."
     },
     {
       "title": "Mat åt pappa",
@@ -214,7 +211,7 @@
         "egen",
         "dock"
       ],
-      "text": "Idag fyller Idas pappa Johan 40 år. Ida vill göra något åt honom. Hon vill göra mat åt honom. Det ska vara Idas egen mat.\n\nIda är 12 år. Hon borde kanske fråga någon. Men hon vill göra allt själv. Hon vill göra det på sitt eget sätt.\n\nDet är dock väldigt mycket att göra. Ida jobbar länge, väldigt länge. Maten ser inte riktigt bra ut. Den är dock väldigt god.\n\nSedan kommer Johan hem. ”Det här är åt dig, pappa”, säger Ida. Johan tar lite.\n”Den är riktigt god!” säger han. ”Är det din egen mat?”\n”Ja”, säger Ida. ”Det är min egen.”\n”Du borde göra det igen”, säger Johan. ”Det är det bästa jag vet.”\n\nIdag är en riktigt bra dag för Ida och Johan.\n\nFrågor:\nHur gammal blir Idas pappa idag?\nHan blir 40 år idag.\nVad vill Ida göra åt sin pappa?\nHon vill göra mat åt honom.\nVill Ida fråga någon?\nNej, hon vill göra allt själv.\nSer maten bra ut?\nNej, den ser inte riktigt bra ut. Den är dock väldigt god.\nVad säger Johan om maten?\nHan säger att den är riktigt god."
+      "text": "Idag fyller Idas pappa Johan 40 år. Ida vill göra något för honom. Hon vill göra mat åt honom. Det ska vara Idas egen mat.\n\nIda är 12 år. Hon borde kanske fråga någon. Men hon vill göra allt själv. Hon vill göra det på sitt eget sätt.\n\nDet är dock väldigt mycket att göra. Ida jobbar länge, väldigt länge. Maten ser inte riktigt bra ut. Den är dock väldigt god.\n\nSedan kommer Johan hem. ”Det här är åt dig, pappa”, säger Ida. Johan tar lite.\n”Den är riktigt god!” säger han. ”Är det din egen mat?”\n”Ja”, säger Ida. ”Det är min egen.”\n”Du borde göra det igen”, säger Johan. ”Det är det bästa jag vet.”\n\nIdag är en riktigt bra dag för Ida och Johan.\n\nFrågor:\nHur gammal blir Idas pappa idag?\nHan blir 40 år idag.\nVad vill Ida göra för sin pappa?\nHon vill göra mat åt honom.\nVill Ida fråga någon?\nNej, hon vill göra allt själv.\nSer maten bra ut?\nNej, den ser inte riktigt bra ut. Den är dock väldigt god.\nVad säger Johan om maten?\nHan säger att den är riktigt god."
     }
   ]
 }

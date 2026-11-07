@@ -45,7 +45,9 @@
     "Karins",
     "Ola",
     "Olas",
-    "Västerås"
+    "Västerås",
+    "Anna",
+    "Annas"
   ],
   "lessons": [
     {
@@ -70,16 +72,14 @@
       "summary": "Johan sells his old books at the town square.",
       "newWords": [
         "bok",
-        "full",
         "sälja",
         "öppna",
         "krona",
         "intressant",
         "fyra",
-        "sex",
         "exempel"
       ],
-      "text": "Johan är 60 år. Han har väldigt många böcker. Hans hus är fullt av böcker. Det finns böcker i alla rum. Nu vill han sälja några av dem.\n\nEn dag tar han fyra stora lådor med böcker. Han åker till Stortorget. Där säljer många människor gamla saker.\n\nJohan öppnar den första lådan. Den är full av böcker om historia. Han öppnar den andra lådan. Den är full av böcker om musik och film. Johan har böcker om allt, till exempel om djur, om mat och om Sverige.\n\nEn kvinna kommer fram. Hon tittar på en bok om svenska städer. ”Den här är intressant”, säger hon. ”Vad vill du ha för den?” ”20 kronor”, säger Johan. Kvinnan köper boken.\n\nSedan kommer en ung man. Han vill ha böcker om film, till exempel om svensk film. Johan har sex böcker om film. Mannen tycker att alla sex är intressanta. Han köper alla sex för 100 kronor.\n\nEtt barn kommer också. Det är en liten tjej. Hon vill ha en bok om djur. Johan ger henne en bok för 5 kronor.\n\nPå kvällen åker Johan hem. Han har bara en låda kvar. Han har 500 kronor. Hans hus är inte lika fullt nu. Johan tycker att det är roligt att sälja böcker. Han vill göra det igen.\n\nFrågor:\nVarför vill Johan sälja böcker?\nHans hus är fullt av böcker.\nHur många lådor tar han med?\nHan tar med fyra lådor.\nVad köper kvinnan?\nHon köper en bok om svenska städer för 20 kronor.\nVad köper den unga mannen?\nHan köper sex böcker om film.\nHur mycket pengar har Johan på kvällen?\nHan har 500 kronor."
+      "text": "Johan är 60 år. Han har väldigt många böcker. Det finns böcker i alla rum i hans hus. Nu vill han sälja några av dem.\n\nEn dag tar han fyra stora lådor med böcker. Han åker till Stortorget. Där säljer många människor gamla saker.\n\nJohan öppnar den första lådan. I den finns det böcker om historia. Han öppnar den andra lådan. I den finns det böcker om musik och film. Johan har böcker om allt, till exempel om djur, om mat och om Sverige.\n\nEn kvinna kommer fram. Hon tittar på en bok om svenska städer. ”Den här är intressant”, säger hon. ”Vad vill du ha för den?” ”20 kronor”, säger Johan. Kvinnan köper boken.\n\nSedan kommer en ung man. Han vill ha böcker om film, till exempel om svensk film. Johan har 6 böcker om film. Mannen tycker att alla är intressanta. Han köper alla för 100 kronor.\n\nEtt barn kommer också. Det är en liten tjej. Hon vill ha en bok om djur. Johan ger henne en bok för 5 kronor.\n\nPå kvällen åker Johan hem. Han har bara en låda kvar. Han har 500 kronor. Nu finns det mer plats i hans hus. Johan tycker att det är roligt att sälja böcker. Han vill göra det igen.\n\nFrågor:\nVarför vill Johan sälja böcker?\nHan har väldigt många böcker.\nHur många lådor tar han med?\nHan tar med fyra lådor.\nVad köper kvinnan?\nHon köper en bok om svenska städer för 20 kronor.\nVad köper den unga mannen?\nHan köper 6 böcker om film.\nHur mycket pengar har Johan på kvällen?\nHan har 500 kronor."
     },
     {
       "title": "En sen morgon",
@@ -115,8 +115,8 @@
       "text": "Omar är 12 år. Han spelar fotboll i ett lag i staden. Laget är en grupp på 11 barn. De spelar i Stadsparken.\n\nI dag spelar Omars lag mot ett annat lag. Det andra laget är starkt. Det vinner ofta. Omar tänker: ”Kan vi verkligen vinna i dag?”\n\nSpelet börjar. Det går dåligt för Omars lag. Det andra laget gör ett mål. Sedan gör det ett mål till. Det står 0–2. Det går verkligen dåligt.\n\nMen Omars lag slutar inte. Barnen i gruppen spelar bra tillsammans. Sedan har Omar tur. Han får bollen nära målet. Han lyckas göra mål! Nu står det 1–2.\n\nSnart lyckas en tjej i laget också göra mål. Nu står det 2–2. Alla barn i gruppen är glada.\n\nSpelet är nästan slut. Omar får bollen igen. Han springer mot målet. Han gör ett mål till! Det står 3–2. Omars lag vinner!\n\nEfter spelet kommer Omars mamma fram.\n”Är du inte trött?” frågar hon.\n”Jo”, säger Omar. ”Men vi vinner mot ett starkt lag!”\n”Är du inte glad?” frågar mamma.\n”Jo, väldigt glad!” säger Omar.\n”Ni har tur i dag”, säger mamma.\n”Lite tur”, säger Omar. ”Men vi är också starka.”\n\nFrågor:\nVar spelar Omars lag?\nDe spelar i Stadsparken.\nHur är det andra laget?\nDet andra laget är starkt.\nHur går det i början?\nDet går dåligt för Omars lag.\nVem lyckas göra det första målet?\nOmar lyckas göra det första målet.\nVem vinner?\nOmars lag vinner."
     },
     {
-      "title": "Valet",
-      "summary": "Elsa asks her mother what an election is, and they go to vote together.",
+      "title": "Ett svårt val",
+      "summary": "Elsa's class must choose what to do on the last day of school, and Elsa has an idea.",
       "newWords": [
         "val",
         "viktig",
@@ -126,10 +126,9 @@
         "samhälle",
         "fatta",
         "lyssna",
-        "tanke",
-        "regering"
+        "tanke"
       ],
-      "text": "Elsa är 10 år. Det är val i Sverige. Hon ser många bilder av politiker i staden.\n\nElsa frågar sin mamma: ”Vad betyder val?”\nMamma svarar: ”I ett val väljer folk vilka som ska bestämma. Sedan får landet en ny regering.”\n”Vad betyder regering?” frågar Elsa.\nMamma svarar: ”Regeringen är de personer som bestämmer mycket i landet.”\n\nElsa fattar inte allt. Hon frågar igen: ”Är valet en viktig sak?”\n”Ja, valet är en viktig sak för hela samhället”, svarar mamma.\n”Och vad betyder samhälle?”\n”Samhället är alla vi som bor här. Du, jag, våra vänner och alla andra.”\nNu fattar Elsa. Hon tycker att det är ett bra svar.\n\nSenare går Elsa och hennes mamma tillsammans till en skola. Där röstar folk. Mamma går in och röstar. Elsa väntar. Hon lyssnar på folk som pratar om valet. Alla tycker att det är en viktig dag.\n\nElsa har en tanke: ”När jag är stor ska jag också välja.” Hon berättar det för mamma. Mamma tycker att det är en bra tanke.\n\nPå kvällen sitter de hemma och lyssnar på nyheterna. Alla vill ha ett svar. Vem vinner valet? Vem får bilda en ny regering? Sent på kvällen kommer svaret.\n\nFrågor:\nVad frågar Elsa först?\nHon frågar vad val betyder.\nVad är samhället, säger mamma?\nSamhället är alla vi som bor här.\nÄr valet en viktig sak?\nJa, valet är en viktig sak för hela samhället.\nVilken tanke har Elsa?\nHon vill också välja när hon är stor.\nVad gör de på kvällen?\nDe lyssnar på nyheterna."
+      "text": "Elsa är 10 år. Snart är det den sista dagen i skolan. Alla barn i Elsas klass får göra ett val. Vad ska de göra den sista dagen?\n\nLäraren Anna har tre tankar. ”Vi kan se en film”, säger hon. ”Vi kan vara ute och spela hela dagen. Eller så kan vi hjälpa gamla människor i vårt samhälle.”\n\nElsa fattar inte allt. Hon frågar: ”Vad betyder samhälle?”\nAnna svarar: ”Samhället är alla vi som bor här. Du, jag, dina vänner och alla andra.”\nNu fattar Elsa. Hon tycker att det är ett bra svar.\n\nDet är ett svårt val. Barnen pratar länge. Några vill se en film. Några vill vara ute och spela. Anna lyssnar på alla. ”Det är viktigt att alla får säga vad de tycker”, säger hon.\n\nElsa har en tanke. ”Kan vi inte göra två saker?” frågar hon. ”Först hjälper vi gamla människor. Sedan ser vi en film.”\nAlla barn lyssnar. Anna tänker en stund. Alla väntar på hennes svar. Sedan svarar hon: ”Det är en bra tanke, Elsa.”\n”Vad betyder det?” frågar en flicka.\n”Det betyder att vi gör båda”, svarar Elsa.\n\nAlla tycker att det är ett bra val. Den sista dagen hjälper barnen gamla människor på morgonen. De går och handlar åt dem. Folk i samhället säger tack. Sedan ser barnen en film. Det är en viktig dag för Elsa. Hon är glad att alla lyssnar på hennes tanke.\n\nFrågor:\nVad ska barnen göra?\nDe ska göra ett val för den sista dagen i skolan.\nVad är samhället, säger Anna?\nSamhället är alla vi som bor här.\nVilken tanke har Elsa?\nHon vill att de gör två saker.\nVad tycker Anna om Elsas tanke?\nHon tycker att det är en bra tanke.\nVad gör barnen den sista dagen?\nDe hjälper gamla människor och ser sedan en film."
     },
     {
       "title": "Hunden och vattnet",
