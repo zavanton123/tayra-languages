@@ -2,7 +2,7 @@
 2	6002	mì-thlachdmhor	
 3	6003	uallachadh	uallachaidh
 4	6004	peall	pealladh peallaidh peallan peallte phill pill
-5	6005	aolach	
+5	6005	aolach	aolaich
 6	6006	liost	
 7	6007	dàimhealachd	
 8	6008	aon-deug	
@@ -36,7 +36,7 @@
 36	6036	lùireach	
 37	6037	cnàmharlach	cnàmharlaich cnàmhlach cnàmhlaich cràmharlach
 38	6038	moileasg	mhoileasgan
-39	6039	crosgag	crosgagan
+39	6039	crosgag	crosgagan crosgaig
 40	6040	gaisgeachd	
 41	6041	caointeach	
 42	6042	taigh-leighis	taighean-leighis
@@ -57,7 +57,7 @@
 57	6057	fo-sgrìobhadh	
 58	6058	cèis-litreach	
 59	6059	muileann-gaoithe	muileannan-gaoithe muilinn-ghaoithe
-60	6060	tuiliop	
+60	6060	tuiliop	tuiliopan
 61	6061	cliabhadair	
 62	6062	co-chothromach	co-chothromaich
 63	6063	riasgail	
@@ -88,7 +88,7 @@
 88	6088	ciùb	
 89	6089	priosam	
 90	6090	cuimir	
-91	6091	paraimeatair	
+91	6091	paraimeatair	paraimeatairean
 92	6092	cosmhuil	
 93	6093	rèidhleach	
 94	6094	gram	gramichean
