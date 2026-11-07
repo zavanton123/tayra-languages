@@ -60,10 +60,8 @@
       "title": "Os cionn nan eilean",
       "summary": "A review of a new television series in which a modest presenter flies over the islands beside a Barra pilot.",
       "newWords": [
-        "preseantair",
         "piolaid",
         "aon-ghuthach",
-        "àbhachd",
         "stais",
         "nàr",
         "iriosal"
@@ -74,7 +72,6 @@
       "title": "Croit air ais bho na feanntagan",
       "summary": "A crofter in South Uist writes how she won back her grandmother's croft from the nettles with a spade, a bucket and seaweed.",
       "newWords": [
-        "torraicheas",
         "caibe",
         "snèap",
         "leatas",
@@ -94,11 +91,10 @@
         "dosach",
         "dosrach",
         "craobh-ubhail",
-        "ceilear",
         "co-sheirm",
         "tosd"
       ],
-      "text": "Tha coille bheag air cùl a' bhaile againn, agus bidh mi a' coiseachd innte gach madainn mus tòisich an obair. Chan e coille mhòr a th' innte. Tha i a' leantainn sruthan beag sìos gleann cumhang gu ruige a' mhuir, agus tha i làn uinnseann agus beithe.\n\n'S e an t-uinnseann a' chraobh as fheàrr leam. Tha rùsg glas, rèidh air, agus bidh na duilleagan aige a' tighinn a-mach anmoch as t-earrach, nuair a tha na craobhan eile uaine mar-thà. Bha na seann daoine a' cleachdadh fiodh an uinnsinn airson làmhan innealan agus airson camain, oir tha e làidir agus aotrom aig an aon àm.\n\nAig mullach a' ghlinne, faisg air an rathad, tha seann ghàrradh far an robh taigh mòr uaireigin. Chan eil an taigh ann tuilleadh, ach tha na craobhan a chuir an teaghlach fhathast beò. Tha seudar mòr an sin, a thàinig mar shìol à dùthaich chèin o chionn dà cheud bliadhna. Tha an seudar cho farsaing ri taigh, agus tha fàileadh milis dheth air latha blàth. Fon t-seudar, tha craobh-ubhail aosta, lùbte, a tha fhathast a' toirt ùbhlan beaga searbh gach foghar. Cha bhi duine gan togail ach na h-eòin agus mise.\n\nTha dà fhacal Gàidhlig a' còrdadh rium airson na coille seo: dosach agus dosrach. Tha craobh dhosach làn dhosan, mar cheann duine nach do ghearr a fhalt fad bliadhna. Tha an t-seann chraobh-ubhail dosach: tha geugan beaga a' fàs às gach taobh dhith gun òrdugh idir. Tha coille dhosrach làn de dhuilleach tiugh, uaine. Anns a' Chèitean, tha an gleann dosrach gu ruige a' mhuir, agus chan fhaic thu an speur tro na geugan.\n\nAch 's e na h-eòin an rud as fheàrr. Tràth sa mhadainn as t-earrach, tha a' choille làn de cheilear. Tha a phort fhèin aig gach eun: an smeòrach, an lon-dubh agus dusan eile. Cha chluinn thu aon cheilear ach dusan aig an aon àm. Ach chan e fuaim gun òrdugh a th' ann. Nuair a sheasas mi gu sàmhach, tha e coltach ri co-sheirm: guthan eadar-dhealaichte, gach fear na àite fhèin, a' dèanamh aon cheòl. Cha do sgrìobh duine a' cho-sheirm sin, ach tha i ann gach madainn.\n\nAgus an uair sin, tha an tosd ann. Mu mheadhan-latha, nuair a tha a' ghrian àrd, sguiridh na h-eòin. Tha a' choille na tosd. Chan e tosd falamh a th' ann: cluinnidh tu an sruthan, agus a' ghaoth anns na duilleagan. Tha mi air ionnsachadh gu bheil feum agam air an tosd sin cho mòr 's a tha feum agam air a' cheilear.\n\nTha mi a' smaoineachadh gu tric gu bheil cruth-tìre mar seo coltach ri ceòl. Tha àm ann airson co-sheirm agus àm airson tosd, agus tha feum air an dà chuid.\n\nCeistean:\nCarson a bha na seann daoine a' cleachdadh fiodh an uinnsinn?\nBha iad ga chleachdadh airson làmhan innealan agus camain, oir tha e làidir agus aotrom.\nCò às a thàinig an seudar?\nThàinig e mar shìol à dùthaich chèin o chionn dà cheud bliadhna.\nCò a bhios a' togail nan ùbhlan bhon chraoibh-ubhail?\nCha bhi duine gan togail ach na h-eòin agus an sgrìobhadair.\nDè an diofar eadar dosach agus dosrach?\nTha craobh dhosach làn dhosan, agus tha coille dhosrach làn de dhuilleach tiugh, uaine.\nCiamar a tha ceilear nan eun coltach ri co-sheirm?\nTha guthan eadar-dhealaichte, gach fear na àite fhèin, a' dèanamh aon cheòl.\nCuin a bhios a' choille na tosd?\nBidh i na tosd mu mheadhan-latha, nuair a tha a' ghrian àrd."
+      "text": "Tha coille bheag air cùl a' bhaile againn, agus bidh mi a' coiseachd innte gach madainn mus tòisich an obair. Chan e coille mhòr a th' innte. Tha i a' leantainn sruthan beag sìos gleann cumhang gu ruige a' mhuir, agus tha i làn uinnseann agus beithe.\n\n'S e an t-uinnseann a' chraobh as fheàrr leam. Tha rùsg glas, rèidh air, agus bidh na duilleagan aige a' tighinn a-mach anmoch as t-earrach, nuair a tha na craobhan eile uaine mar-thà. Bha na seann daoine a' cleachdadh fiodh an uinnsinn airson làmhan innealan agus airson camain, oir tha e làidir agus aotrom aig an aon àm.\n\nAig mullach a' ghlinne, faisg air an rathad, tha seann ghàrradh far an robh taigh mòr uaireigin. Chan eil an taigh ann tuilleadh, ach tha na craobhan a chuir an teaghlach fhathast beò. Tha seudar mòr an sin, a thàinig mar shìol à dùthaich chèin o chionn dà cheud bliadhna. Tha an seudar cho farsaing ri taigh, agus tha fàileadh milis dheth air latha blàth. Fon t-seudar, tha craobh-ubhail aosta, lùbte, a tha fhathast a' toirt ùbhlan beaga searbh gach foghar. Cha bhi duine gan togail ach na h-eòin agus mise.\n\nTha dà fhacal Gàidhlig a' còrdadh rium airson na coille seo: dosach agus dosrach. Tha craobh dhosach làn dhosan, mar cheann duine nach do gheàrr a fhalt fad bliadhna. Tha an t-seann chraobh-ubhail dosach: tha geugan beaga a' fàs às gach taobh dhith gun òrdugh idir. Tha coille dhosrach làn de dhuilleach tiugh, uaine. Anns a' Chèitean, tha an gleann dosrach gu ruige a' mhuir, agus chan fhaic thu an speur tro na geugan.\n\nAch 's e na h-eòin an rud as fheàrr. Tràth sa mhadainn as t-earrach, tha a' choille làn de cheilear. Tha a phort fhèin aig gach eun: an smeòrach, an lon-dubh agus dusan eile. Cha chluinn thu aon cheilear ach dusan aig an aon àm. Ach chan e fuaim gun òrdugh a th' ann. Nuair a sheasas mi gu sàmhach, tha e coltach ri co-sheirm: guthan eadar-dhealaichte, gach fear na àite fhèin, a' dèanamh aon cheòl. Cha do sgrìobh duine a' cho-sheirm sin, ach tha i ann gach madainn.\n\nAgus an uair sin, tha an tosd ann. Mu mheadhan-latha, nuair a tha a' ghrian àrd, sguiridh na h-eòin. Tha a' choille na tosd. Chan e tosd falamh a th' ann: cluinnidh tu an sruthan, agus a' ghaoth anns na duilleagan. Tha mi air ionnsachadh gu bheil feum agam air an tosd sin cho mòr 's a tha feum agam air a' cheilear.\n\nTha mi a' smaoineachadh gu tric gu bheil cruth-tìre mar seo coltach ri ceòl. Tha àm ann airson co-sheirm agus àm airson tosd, agus tha feum air an dà chuid.\n\nCeistean:\nCarson a bha na seann daoine a' cleachdadh fiodh an uinnsinn?\nBha iad ga chleachdadh airson làmhan innealan agus camain, oir tha e làidir agus aotrom.\nCò às a thàinig an seudar?\nThàinig e mar shìol à dùthaich chèin o chionn dà cheud bliadhna.\nCò a bhios a' togail nan ùbhlan bhon chraoibh-ubhail?\nCha bhi duine gan togail ach na h-eòin agus an sgrìobhadair.\nDè an diofar eadar dosach agus dosrach?\nTha craobh dhosach làn dhosan, agus tha coille dhosrach làn de dhuilleach tiugh, uaine.\nCiamar a tha ceilear nan eun coltach ri co-sheirm?\nTha guthan eadar-dhealaichte, gach fear na àite fhèin, a' dèanamh aon cheòl.\nCuin a bhios a' choille na tosd?\nBidh i na tosd mu mheadhan-latha, nuair a tha a' ghrian àrd."
     },
     {
       "title": "Thairis air an tràigh fhliuch",
@@ -164,9 +160,7 @@
       "title": "An t-slighe gu mullach a' chnuic",
       "summary": "A column weighing both sides of a village meeting about a new path and car park on a much-walked hill.",
       "newWords": [
-        "fritheil",
         "dosgainn",
-        "sàraich",
         "tochailt",
         "càileach",
         "taobhaich",
