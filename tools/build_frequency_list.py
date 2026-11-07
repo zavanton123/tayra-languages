@@ -148,6 +148,9 @@ SOURCE_WEIGHTS["cy"] = {"leipzig": 0.4, "everyday_mixed": 0.25, "everyday": 0.35
 # Georgian letters (ეა is да, თმა is има, ნალთ is нали), which put თმა "hair" 24th and ნალი "horseshoe" 140th.
 SOURCE_ORDER["ka"] = ["leipzig", "wikipedia"]
 BLEND.add("ka")
+# Hindi is counted from web text and subtitles: its Wikipedia adds the words of its pages (politics, districts, census
+# terms) to the first thousand, where wordfreq's short list alone has fewer than 9,000 words.
+SOURCE_ORDER["hi"] = ["wordfreq", "frequencywords"]
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -1616,6 +1619,67 @@ WELSH_VOWELS = "aeiouwyâêîôûŵŷ"
 WELSH_SINGULATIVE_SHARE = 0.1
 
 
+# The pack glosses a Hindi spelling without the nukta, or another spelling, as a form of the usual one ("nuqtaless form of
+# ज़्यादा"): such an entry is a form of that word.
+HINDI_VARIANT_GLOSS = re.compile(r"^(?:a )?(?:(?:nuqtaless|alternative|hyperforeign|prothetic) (?:form|spelling)|hyperforeignism) of "
+                                 r"(?:Hindi )?(\S+)", re.I)
+HINDI_NASAL_CONJUNCT = re.compile("ङ्(?=[कखगघ])|ञ्(?=[चछजझ])|ण्(?=[टठडढ])|न्(?=[तथदध])|म्(?=[पफबभ])")
+# The letters the reader reads Hindi words in (PredefinedLanguages.kt): Urdu spellings in web text (میں) are none.
+HINDI_LETTERS = re.compile("[a-zA-Z\u0900-\u0963\u0966-\u097f\u200c\u200d]+")
+
+
+def hindi_folded(word):
+    """A Hindi spelling as written without nukta, with anusvara for chandrabindu and for a nasal consonant before its own
+    class (पांच, पाँच; हिन्दी, हिंदी; फिल्म, फ़िल्म; बडा, बड़ा), which texts write either way."""
+    return HINDI_NASAL_CONJUNCT.sub("ं", word.replace("\u093c", "").replace("ँ", "ं"))
+
+
+def hindi_standard(word):
+    """How near a Hindi spelling is to the standard one: with nukta and chandrabindu, anusvara for a nasal consonant."""
+    return word.count("\u093c") + word.count("ँ") - len(HINDI_NASAL_CONJUNCT.findall(word))
+
+
+def hindi_glosses(gloss):
+    return {g.strip() for g in re.split(r"[,;]", re.sub(r"\([^)]*\)", "", gloss.lower())) if g.strip()}
+
+
+def hindi_spellings(db, pos, lemmas, common):
+    """
+    A Hindi entry glossed only as another spelling of a word (ज्यादा of ज़्यादा, फिल्म of फ़िल्म) is that word's form; so is
+    a word spelled alike but for nukta, chandrabindu or anusvara that shares a sense with it (यहां of यहाँ), under the more
+    standard spelling. Words spelled so with senses apart stay apart (राज "rule", राज़ "secret").
+    """
+    own, variant_of = defaultdict(set), defaultdict(set)
+    for word_lc, p, senses in db.execute("SELECT word_lc, pos, senses FROM entries"):
+        if p not in WORD_POS and p != "postp":
+            continue
+        for gloss in (g for s in json.loads(senses) for g in s.get("glosses", [])):
+            variant = HINDI_VARIANT_GLOSS.match(gloss)
+            if variant:
+                variant_of[word_lc].add(variant.group(1))
+            else:
+                own[word_lc] |= hindi_glosses(gloss)
+    words = {w for w in common if pos[w] & WORD_POS}
+    spelled = defaultdict(list)
+    for word in words:
+        spelled[hindi_folded(word)].append(word)
+    standard = lambda group: max(group, key=lambda w: (hindi_standard(w), w))  # noqa: E731
+    for word, targets in variant_of.items():
+        # The spelling named may be no headword of the pack, which has the word spelled otherwise (बन्दूक़, as बंदूक़).
+        targets = {t if t in words else standard(spelled[hindi_folded(t)]) for t in targets if t in words or spelled.get(hindi_folded(t))}
+        targets.discard(word)
+        if word not in own and targets:
+            common.pop(word, None)
+            lemmas[word] += sorted(targets - set(lemmas[word]))
+    for group in spelled.values():
+        group = [w for w in group if w in common]
+        best = standard(group) if group else None
+        for word in group:
+            if word != best and own[word] & own[best]:
+                common.pop(word, None)
+                lemmas[word].append(best)
+
+
 def welsh_unmutated(form):
     """The spellings a form may be of a word with an initial mutation: ddefnyddio of defnyddio, wlad of gwlad, hysgol of ysgol."""
     out = {radical + form[len(written):] for written, radical in WELSH_MUTATIONS if form.startswith(written) and len(form) > len(written)}
@@ -2036,6 +2100,9 @@ def normalise(language, form):
         return form.replace("ş", "ș").replace("ţ", "ț")
     if language == "is":
         return form.translate(ICELANDIC_MOJIBAKE)
+    # Subtitles write some Hindi letters with nukta as one character (ड़ as U+095C), which NFC writes as two, as the pack does.
+    if language == "hi":
+        return unicodedata.normalize("NFC", form)
     return form
 
 
@@ -2708,6 +2775,9 @@ def load_dictionary(language):
                     GEORGIAN_FORMS_OF.setdefault(word_lc, set()).update(lower(language, f.group(1)) for f in named)
                 else:
                     GEORGIAN_OWN.add(word_lc)
+        # Hindi's postpositions (का, को, से, ने) are its prepositions.
+        if language == "hi" and p == "postp":
+            p = "prep"
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter"):
             continue
@@ -2904,6 +2974,8 @@ def load_dictionary(language):
             if word not in WELSH_OWN:
                 common.pop(word, None)
                 lemmas[word] += sorted(t for t in targets if t not in lemmas[word])
+    if language == "hi":
+        hindi_spellings(db, pos, lemmas, common)
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language in FINNIC_OWN_SENSES:
@@ -3186,6 +3258,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 # The case ending written after a number or abbreviation (2020-ში, აშშ-ის, კმ²-ია) is no word of the text.
                 if piece and not (language == "ka" and i and piece in GEORGIAN_HYPHEN_ENDINGS):
                     freq[piece] += share
+    if language == "hi":
+        for w in [w for w in freq if not HINDI_LETTERS.fullmatch(w)]:
+            del freq[w]
     label = " + ".join(f"{label} ({SOURCE_LICENCES[name]})" for name, _, label in found)
     pos, lemmas, common, outdated = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
@@ -4343,6 +4418,34 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 if found:
                     lemmas[form] = [max(found, key=count)]
 
+    def hindi_relink():
+        """
+        A Hindi form the pack lacks is its verb's if it is an imperative in -ो; else the word simplemma gives (जाती of जाना) where the pack has that word or form; else, as
+        simplemma's words are often written without nukta (पकडना for पकड़ना), the word or form of the pack spelled as that
+        word or the form itself but for nukta, chandrabindu or anusvara (hindi_folded: बडी of बड़ा, पांच of पाँच), the
+        commonest where there are several.
+        """
+        known = defaultdict(list)
+        for w in set(pos) | set(lemmas):
+            if is_word(w) or lemmas.get(w):
+                known[hindi_folded(w)].append(w)
+        for form in list(freq):
+            if form in pos or lemmas.get(form) or form in overrides or form in excluded:
+                continue
+            # An imperative (मारो, बोलो, समझो) is its verb's, where simplemma gives the stem, a noun too (मार "beating").
+            verb = form[:-1] + "ना"
+            if form.endswith("ो") and is_word(verb) and "verb" in pos[verb]:
+                lemmas[form] = [verb]
+                continue
+            lemma = lower(language, lemmatizer.lemmatize(form)) if lemmatizer and lemmatizer.is_known(form) else form
+            if lemma != form and (is_word(lemma) or lemmas.get(lemma)):
+                lemmas[form] = [lemma]
+                continue
+            spelled = [w for w in known.get(hindi_folded(lemma), ()) if w != form] or [
+                w for w in known.get(hindi_folded(form), ()) if w != form]
+            if spelled:
+                lemmas[form] = [max(spelled, key=lambda w: (count(w), w))]
+
     resolved = {}
 
     def targets_of(form, depth=0):
@@ -4396,6 +4499,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         irish_relink()
     if language == "cy":
         welsh_relink()
+    if language == "hi":
+        hindi_relink()
 
     scores = defaultdict(float)
     forms = defaultdict(dict)
