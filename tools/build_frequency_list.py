@@ -15,8 +15,8 @@ blended, counted as whole words that are cut into a word and its particles as th
 For Irish, Welsh and Georgian, whose sources are all Wikipedia or news, everyday sentences (Tatoeba's and Common
 Voice's) are blended in too, weighted by SOURCE_WEIGHTS.
 
---source forces one of them. The counts are of word forms (in Arabic, of the words left by cutting off the
-letters written onto their front, as the reader cuts them); each form is credited to the dictionary
+--source forces one of them. The counts are of word forms (in Arabic and Hebrew, of the words left by cutting off
+the letters written onto their front, as the reader cuts them); each form is credited to the dictionary
 words it is a form of, using the forms table of the language's offline dictionary pack
 (dictionaries/<code>-en.sqlite, made by tools/build_dictionary.py; for Arabic, the tagged forms of
 the wty dictionary the pack is made from), or for a form the pack does not have, the simplemma lemmatizer (pip install simplemma), whose names are capitalised and left out. A form that is also a word in
@@ -196,6 +196,7 @@ import frequency_persian  # noqa: E402
 
 OVERRIDES["fa"] = frequency_persian.PERSIAN_OVERRIDES
 EXCLUDE["fa"] = frequency_persian.PERSIAN_EXCLUDE
+from frequency_fixes import HEBREW_CUT, HEBREW_WHOLE  # noqa: E402
 
 # How common another word must be, against the form itself, to take a form that is also a word:
 # a more common word ("era" to "ser"), or a less common one of a kind that inflects for
@@ -1354,6 +1355,346 @@ def build_arabic(found, size):
         # A word kept whole that the reader could cut must be in the list for the reader to leave it whole.
         required = {t for t in whole if analyses.get(t)}
         text, label = build_list("ar", pieces, size, required=required, cut={t for t, c in cuts.items() if c != [t]} | bound)
+        listed, ranks = list_ranks(text)
+        heads = list_heads(text)
+        lexicon = pack | listed
+    return text, label
+
+
+# Hebrew: the letters written onto the front of a word, as the reader cuts them off (HebrewParser.kt in
+# core/domain/.../parse; keep the two the same): the conjunction ו first, then ש, כש, מש or לכש ("that", "when"), then
+# a preposition ב, כ, ל or מ, then the article ה, which is not written after ב, כ and ל (בבית is "in the house").
+# Each may be missing, one at least is there, and what is left is a word of two letters or more. A word in ו doubles
+# it after them (הוועדה is ה + וועדה), and the doubled spelling is looked up as the word (ועדה).
+HEBREW_CONJUNCTION = "ו"
+HEBREW_RELATIVES = ("ש", "כש", "מש", "לכש")
+HEBREW_PREPOSITIONS = ("ב", "כ", "ל", "מ")
+HEBREW_ARTICLE = "ה"
+HEBREW_CLITICS = {HEBREW_CONJUNCTION, *HEBREW_RELATIVES, *HEBREW_PREPOSITIONS, HEBREW_ARTICLE}
+# The pronouns joined to the end of a word (ביתו, דרכי, עבודתה, ספריהם), longest first. Before one, a word's last letter
+# is not written in its final shape (דרכי of דרך) and its ה is written ת (עבודתו of עבודה).
+HEBREW_SUFFIXES = ("יהם", "יהן", "יכם", "יכן", "ינו", "הם", "הן", "כם", "כן", "נו", "ני", "יו", "יה", "יך", "ו", "ה", "ך", "י")
+HEBREW_FINALS = {"כ": "ך", "מ": "ם", "נ": "ן", "פ": "ף", "צ": "ץ"}
+HEBREW_NONFINALS = {final: letter for letter, final in HEBREW_FINALS.items()}
+# The vowel points and cantillation, which unvocalised text leaves out and the reader matches without.
+HEBREW_MARKS = re.compile("[\u0591-\u05bd\u05bf\u05c1\u05c2\u05c4\u05c5\u05c7]")
+# An apostrophe after a Hebrew letter is the geresh (ג'ינס, פרופ'), a double quote between two the gershayim (צה"ל).
+HEBREW_GERESH = re.compile("(?<=[\u05d0-\u05ea])['\u2019]")
+HEBREW_GERSHAYIM = re.compile('(?<=[\u05d0-\u05ea])"(?=[\u05d0-\u05ea])')
+HEBREW_WORD_COST = 4.0
+HEBREW_UNRANKED = 50_000
+
+
+def hebrew_spelled(text):
+    """[text] as the reader matches it: without points, with the geresh and gershayim as the Hebrew signs (ג׳ינס, צה״ל)."""
+    return HEBREW_GERSHAYIM.sub("\u05f4", HEBREW_GERESH.sub("\u05f3", HEBREW_MARKS.sub("", text)))
+
+
+def hebrew_wordlike(text):
+    """Hebrew letters, with the geresh and gershayim inside or after them."""
+    return bool(re.fullmatch("[\u05d0-\u05ea][\u05d0-\u05ea\u05f3\u05f4]*", text))
+
+
+def hebrew_analyses(word):
+    """Every way [word] is the letters in front and a word of two letters or more: ובבית is ו + ב + בית, מהבית מ + ה + בית."""
+    out = []
+    for conjunction in ("", HEBREW_CONJUNCTION):
+        if not word.startswith(conjunction):
+            continue
+        after = word[len(conjunction):]
+        for relative in ("",) + HEBREW_RELATIVES:
+            if not after.startswith(relative):
+                continue
+            rest = after[len(relative):]
+            for preposition in ("",) + HEBREW_PREPOSITIONS:
+                if not rest.startswith(preposition):
+                    continue
+                stem = rest[len(preposition):]
+                clitics = [c for c in (conjunction, relative, preposition) if c]
+                options = [(clitics, stem)]
+                if preposition in ("", "מ") and stem.startswith(HEBREW_ARTICLE):
+                    options.append((clitics + [HEBREW_ARTICLE], stem[1:]))
+                out.extend((c, s) for c, s in options if c and len(s) >= 2)
+    return out
+
+
+def hebrew_bases(word):
+    """The words [word] may be with a pronoun after it: דרך of דרכי, ארץ of ארצו, עבודה of עבודתו, בית of ביתה."""
+    out = []
+    for suffix in HEBREW_SUFFIXES:
+        base = word[:-len(suffix)]
+        if not word.endswith(suffix) or len(base) < 2:
+            continue
+        base = base[:-1] + HEBREW_FINALS.get(base[-1], base[-1])
+        out.append(base)
+        if base.endswith("ת"):
+            out.append(base[:-1] + "ה")
+    return out
+
+
+def hebrew_spellings(stem):
+    """[stem] as written after the letters in front, and as the word it is when that doubles its first ו (וועדה, ועדה)."""
+    return [stem, stem[1:]] if stem.startswith("וו") and len(stem) > 3 else [stem]
+
+
+def hebrew_pieces(word, known, rank, head=None):
+    """
+    A Hebrew word cut as the reader cuts it: the letters in front of it and the word they are on (ובבית is ו + ב + בית),
+    when that word is one the lexicon [known] knows, as it is, with its ו doubled, or with a pronoun after it (לביתו).
+    A word the frequency list has ([rank] is a word's rank in it) stays whole (הלך, לפני, שלום, להיות), and so may a
+    headword of the list ([head] is its rank as one) with a pronoun after it (שלה of של, ביתה of בית), and a form of
+    the list with one where no cut leaves a word of the list. Of the cuts and that, the one whose word is the most
+    common wins, by the costs SegmentingParser gives Chinese words, the letters in front costing the log of their rank
+    alone. After the conjunction a word of the list is cut no further (ולפני is ו + לפני). A word only a dictionary has
+    stays whole unless a cut leaves a word of the list (לייבא is no ל + ייבא).
+    """
+    if rank(word):
+        return [word]
+    best, cut, after_listed = None, [word], False
+    owned = min((head(b) for b in hebrew_bases(word) if head and head(b)), default=None)
+    if owned:
+        best, after_listed = math.log(owned) + HEBREW_WORD_COST, True
+    for clitics, stem in hebrew_analyses(word):
+        if len(clitics) > 1 and clitics[0] == HEBREW_CONJUNCTION and rank(word[1:]):
+            continue
+        spellings = hebrew_spellings(stem)
+        bases = spellings + [b for s in spellings for b in hebrew_bases(s)]
+        ranked = next((rank(b) for b in bases if rank(b)), None)
+        if ranked is None and not any(known(b) for b in bases):
+            continue
+        if ranked:
+            after_listed = True
+        cost = sum(math.log(rank(c) or HEBREW_UNRANKED) for c in clitics) + math.log(ranked or HEBREW_UNRANKED) + HEBREW_WORD_COST
+        if best is None or cost < best:
+            best, cut = cost, clitics + [stem]
+    if best is None or known(word) and not after_listed:
+        return [word]
+    # Nor is a form of the list with a pronoun after it cut where no cut leaves a word of the list.
+    if not after_listed and any(rank(b) and not any(rank(c) for c in hebrew_bases(b)) for b in hebrew_bases(word)):
+        return [word]
+    return cut
+
+
+# The pack's entries glossed as another word's form: "to-infinitive of", "plural indefinite form of", "present participle
+# and present tense of", "singular form of ... with ... as possessor" (HEBREW_FORM_GLOSS), each of the word it names
+# (HEBREW_FORMS_OF). An entry with a sense of its own (HEBREW_OWN) is a word too, but for a participle's verb senses
+# (יודע "is informed" beside "knows"); one glossed only as a word with the article (הבית, הדבר) is that word cut
+# (HEBREW_DEFINITE). Filled by hebrew_glossed.
+HEBREW_FORM_GLOSS = re.compile(
+    r"\b(?:form|infinitive|participle|tense|conjugation\)?|imperative|cohortative|spelling|construct|plural|singular|definite)"
+    r"\b[^:;.]*?\bof\s+([\u05d0-\u05ea][\u05d0-\u05ea\u0591-\u05c7\u05be\u05f3\u05f4]*)", re.I)
+HEBREW_NO_FORM_GLOSS = re.compile(r"\b(?:synonym|verbal noun|equivalent|abbreviation|diminutive|acronym)\b", re.I)
+HEBREW_FORMS_OF = defaultdict(set)
+HEBREW_OWN = set()
+HEBREW_DEFINITE = set()
+HEBREW_PARTICIPLES = set()
+# The pack's forms (its forms table and the entries glossed as forms) that begin as the letters in front do, filed under
+# each word, which texts seldom write but the reader must find whole (למדה, לעשות); the doubled ו's spellings counted
+# (וועדה of ועדה); and the forms build_hebrew cuts. Filled by build_hebrew.
+HEBREW_RARE = defaultdict(list)
+HEBREW_DOUBLED = {}
+# The words the pack has only with the article, as forms (הבתים of בית): without it they are that word's forms too (בתים).
+HEBREW_INFERRED = defaultdict(set)
+# The kinds of word the article goes on, and a preposition.
+HEBREW_ARTICLE_KINDS = {"noun", "adj", "num", "pron", "det"}
+HEBREW_PREPOSITION_KINDS = {"noun", "adj", "num", "pron", "det", "prep", "adv", "name"}
+HEBREW_ROUNDS = 4
+# How common the word simplemma names for a form must be, against the word a cut leaves, for the form to be read whole;
+# and how much more common the form than the letters in front and that word make it (kept_whole in build_hebrew).
+HEBREW_LEMMA_SHARE = 0.2
+HEBREW_WHOLE_MARGIN = 3.0
+
+
+def hebrew_glossed(db):
+    """Fills HEBREW_FORMS_OF, HEBREW_OWN, HEBREW_DEFINITE and HEBREW_PARTICIPLES from the pack's glosses, once."""
+    if HEBREW_FORMS_OF or HEBREW_OWN:
+        return
+    rows = [(w, p, json.loads(s)) for w, p, s in db.execute("SELECT word_lc, pos, senses FROM entries")]
+    entries = {w for w, _, _ in rows}
+    for word, p, senses in rows:
+        if p not in WORD_POS:
+            continue
+        for gloss in (g for s in senses for g in s.get("glosses", [])):
+            form_of = None if HEBREW_NO_FORM_GLOSS.search(gloss) else HEBREW_FORM_GLOSS.search(gloss)
+            target = hebrew_spelled(form_of.group(1)).rstrip("\u05be") if form_of else None
+            if not form_of or target == word or not (target in entries or target in HEBREW_CLITICS):
+                HEBREW_OWN.add(word)
+                continue
+            HEBREW_FORMS_OF[word].add(target)
+            if "definite" in gloss[:form_of.start(1)] and "indefinite" not in gloss[:form_of.start(1)]:
+                HEBREW_DEFINITE.add(word)
+            if "participle" in gloss[:form_of.start(1)] and p == "verb":
+                HEBREW_PARTICIPLES.add(word)
+    # A participle's verb senses are its passive's or another verb's spelled alike (יודע "is informed"): it is the verb's.
+    for word in HEBREW_PARTICIPLES:
+        if not any(p != "verb" and any(not HEBREW_FORM_GLOSS.search(g) for s in senses for g in s.get("glosses", []))
+                   for w, p, senses in rows if w == word):
+            HEBREW_OWN.discard(word)
+    HEBREW_DEFINITE.difference_update(HEBREW_OWN)
+
+
+def hebrew_inflects(word, form):
+    """
+    Whether [form] can be [word] inflected, by their letters without ו and י: the word's begin the form's (מקומות of מקום,
+    לילות of לילה, הלכנו of הלך), or follow the ל of an infinitive or the מ of a participle (לקבל and מקבל of קיבל, which
+    is a hif'il's ה: מרגיש of הרגיש). The same letters spelled otherwise are a look-alike (ביום, not ביים's; שהם, not
+    שוהם's), but for the word itself with letters after it (בעלי of בעל).
+    """
+    word = word[:-1] + HEBREW_NONFINALS.get(word[-1], word[-1])
+    bare, letters = re.sub("[וי]", "", word), re.sub("[וי]", "", form)
+    if bare == letters:
+        return form.startswith(word)
+    stem = bare[:-1] if bare.endswith("ה") and len(bare) > 2 else bare
+    if letters.startswith(stem):
+        return True
+    if letters[:1] in "למ" and (letters[1:].startswith(stem) or stem[:1] == "ה" and letters[1:].startswith(stem[1:])):
+        return "verbal"
+    return False
+
+
+def build_hebrew(found, size):
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "he-en.sqlite"))
+    # As the reader's lexicon has them with the pack installed (Dictionary.sq's selectWords).
+    pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
+    hebrew_glossed(db)
+    pos = defaultdict(set)
+    for word, p in db.execute("SELECT word_lc, pos FROM entries"):
+        pos[word].add(p)
+    table = defaultdict(set)
+    for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
+        table[form].add(hebrew_spelled(lemma))
+    HEBREW_INFERRED.clear()
+    for form, of in table.items():
+        if form.startswith(HEBREW_ARTICLE) and len(form) > 3 and form[1:] not in pack:
+            HEBREW_INFERRED[form[1:]] |= of
+    known_stems = pack | set(HEBREW_INFERRED)
+    # simplemma's words for the counted forms the pack lacks (בתים of בית), which the letters in front may be on (הבתים).
+    lemmatizer = simplemma_for("he")
+    guessed = {}
+
+    def guess(w):
+        if w not in guessed:
+            lemma = lemmatizer.lemmatize(w) if lemmatizer and w in share and lemmatizer.is_known(w) else None
+            guessed[w] = {lemma} if lemma in pos or lemma == w else set()
+        return guessed[w]
+    share = defaultdict(float)
+    for _, counts, _ in found:
+        total = sum(counts.values())
+        for token, count in counts.items():
+            token = hebrew_spelled(token)
+            if hebrew_wordlike(token):
+                share[token] += count / total / len(found)
+
+    def words_of(w):
+        """The words [w] is, itself and those it is a form of."""
+        return ({w} if w in pos else set()) | table.get(w, set()) | HEBREW_FORMS_OF.get(w, set()) | HEBREW_INFERRED.get(w, set()) | guess(w)
+
+    def fits(clitics, stem):
+        """Whether the letters in front go on [stem]: the article on a noun, an adjective or a pronoun, a preposition on no verb."""
+        kinds = {k for s in hebrew_spellings(stem) for w in words_of(s) for k in pos.get(w, ())}
+        if not kinds:
+            return True
+        if clitics[-1] == HEBREW_ARTICLE:
+            return bool(kinds & HEBREW_ARTICLE_KINDS) or stem in HEBREW_PARTICIPLES
+        if clitics[-1] in HEBREW_PREPOSITIONS:
+            return bool(kinds & HEBREW_PREPOSITION_KINDS)
+        return True
+
+    def analyses(t):
+        return [(c, s) for c, s in hebrew_analyses(t)
+                if any(v in known_stems or guess(v) for v in hebrew_spellings(s)) and fits(c, s)]
+
+    # How often each run of letters in front comes before the words, as the counts of the forms the pack lacks written with
+    # them against those of the words alone.
+    joined, alone = defaultdict(float), defaultdict(float)
+    for t in share:
+        found_cuts = [] if t in pack else analyses(t)
+        if found_cuts:
+            clitics, stem = max(found_cuts, key=lambda cut: share.get(cut[1], 0.0))
+            joined["+".join(clitics)] += share[t]
+            alone["+".join(clitics)] += share.get(stem, 0.0)
+    rate = {k: joined[k] / alone[k] for k in joined if alone[k]}
+
+    def kept_whole(t):
+        """
+        Whether the builder reads [t] whole: a word of the dictionary, or a form of it but its word with letters in front
+        (הזיכרון of זיכרון is ה + זיכרון), or a word no letters in front can be cut off; not a word glossed only as
+        another with the article (הבית). A form the pack lacks is whole where simplemma knows it as the form of a word
+        that no cut leaves (hebrew_inflects), not much rarer than the cut's word, and it is more common than the letters
+        in front and that word make it (rate): מקומות of מקום, no מ + קומות; but ביום is ב + יום, not ביים's, שכתבתי
+        ש + כתבתי, not שכתב's, and הבנים ה + בנים, not הבנה's. A verb's infinitive is ל and the verb's form (לבוא, בוא
+        of בא), not ל and a word. The words read otherwise by hand are HEBREW_WHOLE and HEBREW_CUT.
+        """
+        if t in HEBREW_CUT:
+            return False
+        found_cuts = analyses(t)
+        if t in HEBREW_WHOLE or not found_cuts:
+            return True
+        if t in HEBREW_DEFINITE:
+            return False
+        if t in HEBREW_OWN or t in HEBREW_FORMS_OF:
+            return True
+        if t in table:
+            return not any(c == [HEBREW_ARTICLE] or words_of(v) & table[t] for c, s in found_cuts for v in hebrew_spellings(s))
+        lemmas = {l for l in guess(t) if hebrew_inflects(l, t)}
+        verbs = {l for l in lemmas if "verb" in pos.get(l, ()) and hebrew_inflects(l, t) == "verbal"}
+        same = {(c[-1], s): lemmas & {w for v in hebrew_spellings(s) for w in words_of(v)} for c, s in found_cuts}
+        # An infinitive is ל and its verb's form (לבוא, בוא of בא; לדבר, דבר of דיבר; להרגיש, no ל + ה + רגיש): the verb's.
+        # But ל and the verb spelled as a noun (לצבא, לנהג, לזכר) is ל and the noun.
+        if any(clitic == "ל" and any(l != stem or stem.startswith(HEBREW_ARTICLE) or "noun" not in pos[l] for l in of & verbs)
+               for (clitic, stem), of in same.items()):
+            return True
+        if not lemmas or any(same.values()):
+            return False
+        return all(max(share.get(l, 0.0) for l in lemmas) >= HEBREW_LEMMA_SHARE * share.get(s, 0.0)
+                   and share[t] >= HEBREW_WHOLE_MARGIN * rate.get("+".join(c), 0.0) * share.get(s, 0.0) for c, s in found_cuts)
+
+    whole = {t for t in share if kept_whole(t)}
+    cut_forms = {f for f in pack if hebrew_wordlike(f) and not kept_whole(f)}
+    # The forms of the pack in letters that the reader may take for those in front, under each word they are of.
+    HEBREW_RARE.clear()
+    for form in sorted(set(table) | set(HEBREW_FORMS_OF)):
+        if form[:1] in "והבכלמש" and form not in cut_forms and hebrew_wordlike(form) and not (form in HEBREW_OWN and form in pos):
+            for lemma in sorted(table.get(form, set()) | HEBREW_FORMS_OF.get(form, set())):
+                if lemma != form:
+                    HEBREW_RARE[lemma].append(form)
+
+    ordered = sorted(share, key=lambda w: -share[w])
+    ranks = {w: i + 1 for i, w in enumerate(ordered) if w in whole}
+    ranks.update({c: 1 for c in HEBREW_CLITICS})
+    heads = {w: r for w, r in ranks.items() if w in pos}
+    lexicon = pack | whole
+    text = label = None
+    cuts = {}
+    for round_ in range(HEBREW_ROUNDS + 1):
+        known, rank = lexicon.__contains__, ranks.get
+        changed = 0.0
+        pieces = []
+        HEBREW_DOUBLED.clear()
+        for name, counts, source_label in found:
+            out = defaultdict(int)
+            total = sum(counts.values())
+            for token, count in counts.items():
+                token = hebrew_spelled(token)
+                if not hebrew_wordlike(token):
+                    continue
+                cut = [token] if token in whole else hebrew_pieces(token, known, rank, head=heads.get)
+                if cuts.get(token, cut) != cut:
+                    changed += count / total
+                cuts[token] = cut
+                for piece in cut:
+                    out[piece] += count
+                stem = cut[-1]
+                if len(cut) > 1 and len(hebrew_spellings(stem)) > 1 and stem not in pack and stem[1:] in lexicon:
+                    HEBREW_DOUBLED[stem] = stem[1:]
+            pieces.append((name, dict(out), source_label))
+        print(f"he round {round_}: {changed / len(found):.2%} of words cut otherwise", file=sys.stderr)
+        if round_ and changed / len(found) < 0.0005 or round_ == HEBREW_ROUNDS:
+            break
+        # A word kept whole that the reader could cut must be in the list for the reader to leave it whole.
+        required = {t for t in whole if any(any(known(v) for v in hebrew_spellings(s)) for _, s in hebrew_analyses(t))}
+        text, label = build_list("he", pieces, size, required=required,
+                                 cut={t for t, c in cuts.items() if c != [t]} | cut_forms | HEBREW_CUT)
         listed, ranks = list_ranks(text)
         heads = list_heads(text)
         lexicon = pack | listed
@@ -3037,6 +3378,21 @@ def load_dictionary(language):
                 lemmas[word] += sorted(t for t in targets if t not in lemmas[word])
     if language == "hi":
         hindi_spellings(db, pos, lemmas, common)
+    if language == "he":
+        # A Hebrew entry glossed only as another word's form is that word's form (להיות of היה, שנים of שנה, יודע of ידע); the
+        # pack's forms name their word with its points (HEBREW_FORMS_OF); and a word in ו doubles it after the letters in
+        # front (וועדה of ועדה).
+        hebrew_glossed(db)
+        for form_lc in list(lemmas):
+            lemmas[form_lc] = [hebrew_spelled(lemma) for lemma in lemmas[form_lc]]
+        for word, targets in HEBREW_FORMS_OF.items():
+            if word not in HEBREW_OWN:
+                common.pop(word, None)
+                lemmas[word] += sorted(t for t in targets if t not in lemmas[word])
+        for form, words in HEBREW_INFERRED.items():
+            lemmas.setdefault(form, sorted(words))
+        for form, word in HEBREW_DOUBLED.items():
+            lemmas[form] = [word]
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language == "fa":
@@ -3182,6 +3538,8 @@ def build(language, source, size):
         return build_korean(found, size)
     if language == "ar":
         return build_arabic(found, size)
+    if language == "he":
+        return build_hebrew(found, size)
     return build_list(language, found, size)
 
 
@@ -3929,6 +4287,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # The Arabic clitics are words of the reader's, and so are the words read whole by hand (الله, a name to the dictionary).
         if language == "ar" and (w in ARABIC_CLITICS or w in ARABIC_WHOLE and w in pos and w not in excluded):
             return True
+        if language == "he" and w in HEBREW_CLITICS:
+            return True
         # The dictionary files a Chinese character under "character", not as a word; one that wordfreq
         # counts on its own, as jieba cuts text, is a word (的, 是, 吃).
         if language in ("zh", "yue") and len(w) == 1 and "character" in pos.get(w, set()):
@@ -4064,6 +4424,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             return {form: 1.0}
         elif language == "fa":
             return frequency_persian.shares(form, is_word, count, freq, pos)
+        elif language == "he" and form in HEBREW_CLITICS:
+            return {form: 1.0}
         elif language == "sk" and "verb" in pos.get(form, set()) and slovak_positive(form):
             return {slovak_positive(form): 1.0}
         elif language in ("hr", "bs") and is_word(form) and form in pos and croatian_ijekavian(form):
@@ -4710,7 +5072,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                     del main[form]
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     # The forms counted for some word of the list, which no other word's rare forms may take.
-    rare_taken = {f for word in ranked for f in forms[word]} if language == "ar" else set()
+    rare_taken = {f for word in ranked for f in forms[word]} if language in ("ar", "he") else set()
     for word in ranked:
         # A form sent by hand to several words is listed under each (끈다 of 끄다 and 끌다).
         least = ARABIC_LISTED if language == "ar" else KOREAN_LISTED
@@ -4728,6 +5090,12 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         if language == "ar":
             # The duals and feminine plurals texts seldom write, no other word's (ARABIC_RARE).
             rare = [f for f in ARABIC_RARE.get(word, ()) if f not in counted and (f in forms[word] or f not in rare_taken)
+                    and f not in excluded and f not in listed]
+            rare_taken.update(rare)
+            counted += rare
+        if language == "he":
+            # The pack's forms that begin as the letters in front do, which the reader must find whole (HEBREW_RARE).
+            rare = [f for f in HEBREW_RARE.get(word, ()) if f not in counted and (f in forms[word] or f not in rare_taken)
                     and f not in excluded and f not in listed]
             rare_taken.update(rare)
             counted += rare

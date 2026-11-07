@@ -2344,3 +2344,41 @@ EXCLUDE["th"] = EXCLUDE.get("th", set()) | {
     "นิพนธ์", "เรือง", "อร", "ณรงค์", "วิเชียร", "ไท", "พรหม",
     "พล", "มิ", "บก", "ประ", "ริ", "ติ", "รี", "ระ", "รา", "สิ", "คา", "จุ", "ดา", "คอน", "รณ",
 }
+# Hebrew words read whole, or cut into the letters in front and the word after them, against the dictionary
+# (build_hebrew): the list has the first, by which the reader keeps them whole, and leaves out the second. Whole: words
+# whose first letter is the root's (הלך, בכה, לקח, מים, שאל), and the prepositions with a pronoun after them (שלי, לכם,
+# ממני), the forms of their preposition.
+HEBREW_WHOLE = {
+    "הלך", "הגיע", "הבין", "הרגיש", "הפך", "הרבה", "ביתה", "בית", "בדק", "בכה", "ברכה", "לקח", "למד", "לחם", "לבד", "לפני",
+    "מים", "מלך", "מקום", "משפחה", "מספר", "מכתב", "מורה", "משהו", "שלום", "שלח", "שמע", "שאל", "שמלה", "שולחן", "כלב",
+    "כסף", "כבר", "כלה", "ורד", "היום", "הביתה",
+    # Infinitives spelled as ל and a noun (לסדר "to arrange", not "to an order").
+    "לסדר", "לפרק", "לכבד", "לחשב", "לקשר", "לחלק", "לגדל", "לפחד",
+}
+_HEBREW_PREPOSITIONS = {
+    "ל": "לי לך לו לה לנו לכם לכן להם להן",
+    "ב": "בי בך בו בה בנו בכם בכן בהם בהן",
+    "מ": "ממני ממך ממנו ממנה מכם מכן מהם מהן",
+    "כמו": "כמוני כמוך כמוהו כמוה כמונו כמוכם כמוהם כמוהן",
+    "של": "שלי שלך שלו שלה שלנו שלכם שלכן שלהם שלהן",
+}
+OVERRIDES["he"] = {form: [head] for head, forms in _HEBREW_PREPOSITIONS.items() for form in forms.split()}
+HEBREW_WHOLE |= set(OVERRIDES["he"])
+HEBREW_CUT = {
+    "שלא", "ולא", "הזה", "הבית", "העולם", "הדבר", "הממשלה", "השנה", "וכן", "בזה", "מזה", "מכל", "בזמן", "בעיר", "העם",
+    "הלילה", "הערב", "השבוע", "הישראלי", "הישראלית", "הפעם", "והיה", "בלילה", "במקרה", "לעולם", "שיהיה", "שעבר", "בפני",
+    "בידי", "לשם", "לצד", "מצד", "שבו", "שבה", "שאת", "הבא", "ועד",
+    "העיר", "השיר", "הפנים", "היותר", "הבאה", "הבאים", "הבאות", "במאה", "הגישה", "הכניסה", "העתיקה", "הפרשה", "המונית",
+    "הסירה", "שנתנו", "שכתבתי", "שכתבת", "שבנה", "לכמה", "בתור", "בעצמו", "בעצמי", "בעצמה", "בעצמם", "בעצמך", "בעצמנו",
+}
+# אישה "woman" and her forms, which the pack files under איש; בנו and בני are mostly "his son", "sons of", not "in us".
+OVERRIDES["he"].update({f: ["אישה"] for f in ("אישה", "אשה", "אשתו", "אשתי", "אשתך", "אשת", "אשתה", "נשים", "נשות", "נשי", "נשיהם")})
+OVERRIDES["he"].update({"בנו": ["בן", "בנה"], "בני": ["בן"]})
+# Words the pack's forms table files under a look-alike: ניסה "to try" under נס, שנת and שנות "year of" under שונה,
+# אנשים "people" under אנוש.
+OVERRIDES["he"].update({f: ["ניסה"] for f in ("ניסה", "מנסה", "לנסות", "ניסו", "ניסיתי", "מנסים", "מנסות", "ינסה", "תנסה", "ננסה", "אנסה", "ניסינו")})
+HEBREW_WHOLE.add("מאד")
+OVERRIDES["he"].update({"מאד": ["מאוד"], "שנת": ["שנה"], "שנות": ["שנה"], "שינה": ["שינה"], "אנשים": ["איש"], "אדומה": ["אדום"]})
+OVERRIDES["he"].update({"גדולי": ["גדול"], "ידועה": ["ידוע"], "ידועים": ["ידוע"], "ידועות": ["ידוע"], "אישור": ["אישור"]})
+# A name spelled as a verb's form (יצחק "Isaac", "he will laugh"), and וכו׳ "etc." without its geresh.
+EXCLUDE.setdefault("he", set()).update({"יצחק", "וכו"})
