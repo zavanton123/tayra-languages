@@ -36,7 +36,7 @@
   "lessons": [
     {
       "title": "O primeiro dia na universidade",
-      "summary": "Ana, a young woman, starts university, asks the professor a question and is happy.",
+      "summary": "Ana, a young woman, starts university, asks the professor about a topic of the class and is happy.",
       "newWords": [
         "universidade",
         "federal",
@@ -49,7 +49,7 @@
         "feliz",
         "início"
       ],
-      "text": "A Ana é uma jovem de 18 anos. Ela vive em Recife com a mãe e o pai. Hoje é um dia importante para ela. É o início da vida dela na universidade.\n\nA Ana vai para a Universidade Federal de Pernambuco. É uma universidade grande e muito boa. A Ana quer aprender história. Ela gosta muito de livros de história.\n\nNa universidade, a Ana conhece outros jovens. Eles também querem aprender história. Todos estão felizes. É o início de uma vida nova.\n\nO professor chega. O nome dele é Carlos. O professor Carlos fala sobre a história do Brasil. A Ana presta muita atenção. Ela escreve tudo. Os outros jovens também prestam atenção.\n\nDepois, o professor diz:\n— Vocês podem perguntar. Qualquer questão é importante.\n\nA Ana tem uma questão. Ela quer perguntar, mas não sabe se é uma boa questão. Então ela pensa: \"Eu estou aqui para aprender.\" E ela decide perguntar.\n\nO professor ouve a questão com atenção. Ele diz:\n— Muito boa questão, Ana!\n\nA Ana fica muito feliz. No fim do dia, ela volta para casa. Ela conta tudo para a mãe. A mãe também fica feliz. A Ana sabe que vai aprender muito na universidade federal.\n\nPerguntas:\nQuem é a Ana?\nA Ana é uma jovem de 18 anos.\nPara onde a Ana vai hoje?\nEla vai para a Universidade Federal de Pernambuco.\nO que a Ana quer aprender?\nA Ana quer aprender história.\nO que o professor diz para os jovens?\nO professor diz que eles podem perguntar.\nComo a Ana fica no fim do dia?\nA Ana fica muito feliz."
+      "text": "A Ana é uma jovem de 18 anos. Ela vive em Recife com a mãe e o pai. Hoje é um dia importante para ela. É o início da vida dela na universidade.\n\nA Ana vai para a Universidade Federal de Pernambuco. É uma universidade grande e muito boa. A Ana quer aprender história. Ela gosta muito de livros de história.\n\nNa universidade, a Ana conhece outros jovens. Eles também querem aprender história. Todos estão felizes. É o início de uma vida nova.\n\nO professor chega. O nome dele é Carlos. O professor Carlos fala sobre a história do Brasil. A Ana presta muita atenção. Ela escreve tudo. Os outros jovens também prestam atenção.\n\nDepois, o professor diz:\n— Vocês podem perguntar sobre qualquer questão da aula.\n\nA Ana quer perguntar sobre uma questão da aula. Mas ela não sabe se pode. Então ela pensa: \"Eu estou aqui para aprender.\" E ela decide perguntar.\n\nO professor ouve a Ana com atenção. Ele diz:\n— É uma questão muito importante, Ana!\n\nA Ana fica muito feliz. No fim do dia, ela volta para casa. Ela conta tudo para a mãe. A mãe também fica feliz. A Ana sabe que vai aprender muito na universidade federal.\n\nPerguntas:\nQuem é a Ana?\nA Ana é uma jovem de 18 anos.\nPara onde a Ana vai hoje?\nEla vai para a Universidade Federal de Pernambuco.\nO que a Ana quer aprender?\nA Ana quer aprender história.\nO que o professor diz para os jovens?\nO professor diz que eles podem perguntar.\nComo a Ana fica no fim do dia?\nA Ana fica muito feliz."
     },
     {
       "title": "O time da escola",
@@ -104,20 +104,19 @@
     },
     {
       "title": "A feira de profissões",
-      "summary": "At a school job fair, Lucas meets a police officer and a military officer and makes a plan.",
+      "summary": "At a school job fair, Lucas meets a woman who looks after the city's streets and makes a plan.",
       "newWords": [
         "feira",
         "escolher",
         "decidir",
-        "polícia",
         "segurança",
-        "militar",
         "oficial",
         "especial",
         "ideia",
-        "plano"
+        "plano",
+        "quarto"
       ],
-      "text": "O Lucas tem 17 anos. Ele está no último ano da escola. Ele precisa escolher um trabalho para o futuro, mas ele não tem nenhuma ideia.\n\nHoje tem uma feira especial na escola. É uma feira sobre trabalho. Pessoas de áreas diferentes vêm à feira e falam sobre o trabalho delas.\n\nNa feira, o Lucas conhece uma mulher da polícia. O nome dela é Sandra. Ela fala sobre a segurança da cidade.\n— Na polícia, a gente ajuda as pessoas todos os dias — diz a Sandra.\n\nDepois, o Lucas conhece um homem militar. Ele é um oficial. O oficial fala sobre a vida militar. Ele fala sobre a segurança do país.\n\nO Lucas também conhece uma médica e um professor. Todos têm ideias boas. Mas o Lucas gosta mais de uma ideia: trabalhar com a segurança das pessoas.\n\nO Lucas fala de novo com a Sandra.\n— Como eu posso entrar na polícia? — pergunta ele.\nA Sandra explica tudo. O Lucas ouve com atenção.\n\nÀ noite, o Lucas fala com o pai:\n— Pai, eu tenho um plano. Eu quero trabalhar na polícia.\n— É um bom plano — diz o pai. — Mas você não precisa decidir hoje. Você tem tempo para escolher.\n\nO Lucas pensa muito. No fim da semana, ele decide: ele vai aprender mais sobre a polícia. Agora ele tem uma ideia e um plano. Para o Lucas, a feira é um dia muito especial.\n\nPerguntas:\nO que o Lucas precisa escolher?\nEle precisa escolher um trabalho para o futuro.\nO que tem na escola hoje?\nHoje tem uma feira especial sobre trabalho.\nQuem o Lucas conhece na feira?\nEle conhece uma mulher da polícia e um oficial militar.\nQual é o plano do Lucas?\nO plano dele é trabalhar na polícia.\nO que o Lucas decide no fim da semana?\nEle decide aprender mais sobre a polícia."
+      "text": "O Lucas tem 17 anos. Ele está no último ano da escola. Ele precisa escolher um trabalho para o futuro, mas ele não tem nenhuma ideia.\n\nHoje tem uma feira especial na escola. É uma feira sobre trabalho. Pessoas de áreas diferentes vêm à feira e falam sobre o trabalho delas.\n\nNa feira, o Lucas conhece uma mulher que trabalha para a cidade. O nome dela é Sandra. Ela cuida das ruas e fala sobre a segurança nas ruas.\n— Com ruas boas, as pessoas andam com mais segurança — diz a Sandra.\n\nO Lucas também conhece uma médica e um professor. Todos têm ideias boas. Mas o Lucas gosta mais de uma ideia: trabalhar com a segurança das pessoas nas ruas.\n\nO Lucas fala de novo com a Sandra.\n— Como eu posso fazer esse trabalho? — pergunta ele.\nA Sandra explica tudo. O Lucas ouve com atenção.\n\nÀ noite, o Lucas fala com o pai:\n— Pai, eu tenho um plano. Eu quero cuidar das ruas da cidade, como a Sandra.\n— É um bom plano — diz o pai. — Mas você não precisa decidir hoje. Você tem tempo para escolher.\n\nDepois, no quarto dele, o Lucas lê o site oficial da feira. Ele fica no quarto e pensa muito. O site oficial tem mais ideias. No fim da semana, ele decide: ele vai aprender mais sobre o trabalho da Sandra. Para o Lucas, a feira é um dia muito especial.\n\nPerguntas:\nO que o Lucas precisa escolher?\nEle precisa escolher um trabalho para o futuro.\nQuem o Lucas conhece na feira?\nEle conhece a Sandra, que trabalha para a cidade.\nQual é o plano do Lucas?\nO plano dele é cuidar das ruas da cidade.\nO que o Lucas lê no quarto?\nEle lê o site oficial da feira.\nO que o Lucas decide no fim da semana?\nEle decide aprender mais sobre o trabalho da Sandra."
     },
     {
       "title": "Um presente para a professora",
@@ -138,20 +137,18 @@
     },
     {
       "title": "Um trabalho sobre o Brasil",
-      "summary": "Gabriel writes a school project with facts about Brazil: its population, peoples, a king and politics.",
+      "summary": "Gabriel writes a school project with facts about Brazil: its population, peoples, a king and its capital.",
       "newWords": [
         "população",
         "povo",
         "norte",
         "rei",
-        "política",
-        "político",
         "internacional",
         "diverso",
         "fato",
         "base"
       ],
-      "text": "O Gabriel tem 14 anos. A professora de história pede um trabalho sobre o Brasil. Cada um precisa escrever cinco fatos sobre o país.\n\nO Gabriel lê livros e sites. Ele usa os livros como base do trabalho. Depois, ele escreve os fatos.\n\nFato número um: a população do Brasil é muito grande. São mais de 200 milhões de pessoas.\n\nFato número dois: o povo brasileiro é diverso. No Brasil vivem pessoas de diversos lugares do mundo. No norte do país, por exemplo, vivem diversos povos.\n\nFato número três: a região Norte é a maior região do Brasil, mas a população do norte é pequena.\n\nFato número quatro: em 1808, o rei de Portugal vem para o Rio de Janeiro com a família dele. Por muitos anos, o Rio de Janeiro é a casa do rei.\n\nFato número cinco: hoje, o Brasil não tem rei. Tem um presidente. A política é importante no Brasil. Muitas pessoas falam de política todos os dias. Os políticos do país trabalham em Brasília.\n\nO Gabriel também escreve sobre a vida internacional do país. O Brasil tem relações com muitos países. A política internacional do Brasil também é um tema importante.\n\nO Gabriel apresenta o trabalho para os outros jovens. A professora diz:\n— Muito bom, Gabriel! O seu trabalho tem uma boa base e fatos importantes.\n\nO Gabriel fica feliz. Ele aprende muito sobre o povo e a história do Brasil.\n\nPerguntas:\nO que a professora pede?\nEla pede um trabalho sobre o Brasil.\nComo é a população do Brasil?\nA população do Brasil é muito grande.\nComo é o povo brasileiro?\nO povo brasileiro é diverso.\nQuem vem para o Rio de Janeiro em 1808?\nO rei de Portugal vem para o Rio de Janeiro.\nOnde os políticos trabalham?\nOs políticos trabalham em Brasília."
+      "text": "O Gabriel tem 14 anos. A professora de história pede um trabalho sobre o Brasil. Cada um precisa escrever cinco fatos sobre o país.\n\nO Gabriel lê livros e sites. Ele usa os livros como base do trabalho. Depois, ele escreve os fatos.\n\nFato número um: a população do Brasil é muito grande. São mais de 200 milhões de pessoas.\n\nFato número dois: o povo brasileiro é diverso. No Brasil vivem pessoas de diversos lugares do mundo. No norte do país, por exemplo, vivem diversos povos.\n\nFato número três: a região Norte é a maior região do Brasil, mas a população do norte é pequena.\n\nFato número quatro: em 1808, o rei de Portugal vem para o Rio de Janeiro com a família dele. Por muitos anos, o Rio de Janeiro é a casa do rei.\n\nFato número cinco: hoje, o Brasil não tem rei. Desde 1960, a capital do país é Brasília. Brasília é uma cidade nova, no centro do país.\n\nO Gabriel também escreve sobre a vida internacional do país. O Brasil tem relações com muitos países. Todos os anos, muitas pessoas de outros países vêm ao Brasil. A vida internacional do Brasil também é um tema importante.\n\nO Gabriel apresenta o trabalho para os outros jovens. A professora diz:\n— Muito bom, Gabriel! O seu trabalho tem uma boa base e fatos importantes.\n\nO Gabriel fica feliz. Ele aprende muito sobre o povo e a história do Brasil.\n\nPerguntas:\nO que a professora pede?\nEla pede um trabalho sobre o Brasil.\nComo é a população do Brasil?\nA população do Brasil é muito grande.\nComo é o povo brasileiro?\nO povo brasileiro é diverso.\nQuem vem para o Rio de Janeiro em 1808?\nO rei de Portugal vem para o Rio de Janeiro.\nQual é a capital do Brasil desde 1960?\nDesde 1960, a capital do Brasil é Brasília."
     },
     {
       "title": "Sem internet no trabalho",
@@ -197,10 +194,9 @@
         "pessoal",
         "ação",
         "olho",
-        "isto",
-        "ex"
+        "isto"
       ],
-      "text": "A Marina trabalha numa empresa grande. Todo ano, a empresa faz uma ação social. Este ano, o pessoal da empresa vai participar de uma ação em uma escola.\n\nA escola fica no norte da cidade. A senhora Lúcia recebe o pessoal da empresa. Ela é ex-professora da escola. Ela não trabalha mais lá, mas ainda ajuda a escola.\n— Bom dia, pessoal! — diz a ex-professora. — Obrigada por participar.\n\nO pessoal da empresa trabalha sob o sol. Alguns pintam a escola. Outros colocam livros novos no lugar.\n\nA Marina vai participar com as crianças da quarta série. As crianças da quarta série têm 9 e 10 anos. A Marina lê uma história para elas. As crianças ouvem com os olhos bem abertos.\n\nDepois, a Marina diz:\n— Vocês gostam de ler?\n— Sim! — dizem as crianças.\n\nUma garota da quarta série mostra um papel para a Marina.\n— O que é isto? — pergunta a Marina.\n— É uma história. Eu escrevo histórias — diz a garota.\nOs olhos dela estão felizes.\n\nDurante a tarde, o pessoal continua a trabalhar sob o sol. No fim do dia, a escola está pintada e os livros novos estão no lugar. A senhora Lúcia diz:\n— Isto é muito importante para as crianças. Muito obrigada, pessoal!\n\nA Marina pensa: \"No próximo ano, eu quero participar de novo.\"\n\nPerguntas:\nO que a empresa da Marina faz todo ano?\nA empresa faz uma ação social.\nQuem é a senhora Lúcia?\nEla é ex-professora da escola.\nCom quem a Marina vai participar?\nEla vai participar com as crianças da quarta série.\nO que a garota mostra para a Marina?\nEla mostra uma história no papel.\nO que a Marina quer no próximo ano?\nEla quer participar de novo."
+      "text": "A Marina trabalha numa empresa grande. Todo ano, a empresa faz uma ação social. Este ano, o pessoal da empresa vai participar de uma ação em uma escola.\n\nA escola fica no norte da cidade. A senhora Lúcia recebe o pessoal da empresa. Ela foi professora da escola por muitos anos. Ela não trabalha mais lá, mas ainda ajuda a escola.\n— Bom dia, pessoal! — diz a senhora Lúcia. — Obrigada por participar.\n\nO pessoal da empresa trabalha sob o sol. Alguns pintam a escola. Outros colocam livros novos no lugar.\n\nA Marina vai participar com as crianças da quarta série. As crianças da quarta série têm 9 e 10 anos. A Marina lê uma história para elas. As crianças ouvem com os olhos bem abertos.\n\nDepois, a Marina diz:\n— Vocês gostam de ler?\n— Sim! — dizem as crianças.\n\nUma garota da quarta série mostra um papel para a Marina.\n— O que é isto? — pergunta a Marina.\n— É uma história. Eu escrevo histórias — diz a garota.\nOs olhos dela estão felizes.\n\nDurante a tarde, o pessoal continua a trabalhar sob o sol. No fim do dia, a escola está pintada e os livros novos estão no lugar. A senhora Lúcia diz:\n— Isto é muito importante para as crianças. Muito obrigada, pessoal!\n\nA Marina pensa: \"No próximo ano, eu quero participar de novo.\"\n\nPerguntas:\nO que a empresa da Marina faz todo ano?\nA empresa faz uma ação social.\nQuem é a senhora Lúcia?\nEla foi professora da escola.\nCom quem a Marina vai participar?\nEla vai participar com as crianças da quarta série.\nO que a garota mostra para a Marina?\nEla mostra uma história no papel.\nO que a Marina quer no próximo ano?\nEla quer participar de novo."
     }
   ]
 }
