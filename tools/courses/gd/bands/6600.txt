@@ -27,7 +27,7 @@
 27	6527	cianalach	
 28	6528	compàirteachas	
 29	6529	stairsneach	stairseach stairsnich stairsnichean
-30	6530	binneag	bhinneag binneagan binneige
+30	6530	binneag	bhinneag binneagan binneig binneige
 31	6531	dròbhaireachd	
 32	6532	fuil-mhìos	fuil-mìosa
 33	6533	fannachadh	fannachaidh fannachaidhean
@@ -63,7 +63,7 @@
 63	6563	ùrar	
 64	6564	gibeach	
 65	6565	leibideach	
-66	6566	morghan	
+66	6566	morghan	morghain
 67	6567	cnuimheag	cnuimheaga cnuimheagaibh cnuimheagan cnuimheig cnuimheige cnuimhneag cruimheag cruimhneag
 68	6568	dealradh	
 69	6569	co-fhad-thràth	
@@ -72,7 +72,7 @@
 72	6572	mì-naomha	
 73	6573	taigh-ghlainne	
 74	6574	dèabhadh	deubhadh dèabhaidh
-75	6575	strainnsear	strainnsearan
+75	6575	strainnsear	strainnsearan strainnseir
 76	6576	institiùd	institiùdan
 77	6577	cumannta	
 78	6578	sòr	shòr sòrte

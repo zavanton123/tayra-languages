@@ -46,7 +46,7 @@
 46	646	èigh	dh'èigh eigheachd èighe èigheach èigheachd èigheachdan èighean èighidh èighte éigh
 47	647	meatailt	meatailte meatailtean mheatailt mheatailtean
 48	648	pàrlamaid	phàrlamaid phàrlamaida phàrlamaidean pàrlamaidaibh pàrlamaidan pàrlamaide pàrlamaidean
-49	649	ìm	im ìme
+49	649	ìm	im ime ìme
 50	650	tòiseachadh	thoiseachadh thòiseachadh toiseachadh toiseachaidh tòiseachaidh tòiseachaidhean
 51	651	mìneachadh	mhineachadh mhìneachadh mhìneachaidh mhìneachaidhean mineachadh mìneachaidh mìneachaidhean
 52	652	teagamh	teagaimh teagamhan
