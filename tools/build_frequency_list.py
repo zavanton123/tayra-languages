@@ -2233,6 +2233,34 @@ def leipzig_deduped_counts(language, path):
     return counts
 
 
+# A Thai letter alone (จ of อบจ., ด of ริชาร์ด): the dictionary has every one, but they are no words, ก็ and ณ aside.
+THAI_LETTER = re.compile("[ก-ฮ][็-ํ]*")
+THAI_LETTER_WORDS = {"ก็", "ณ"}
+
+
+def thai_counts(path, segment, words):
+    """
+    A Thai Leipzig corpus's words, counted over its sentences as [segment] cuts them by the lexicon [words], but those touching a
+    point (พล.อ., ครม., อ.ประยุทธ์: abbreviations), letters alone or letters no word covers (names, foreign words: their other
+    pieces are words to the dictionary, ริ, ชา of ริ|ชา|ร์|ด), which the corpus's own word counts cannot tell apart.
+    """
+    counts = defaultdict(int)
+    with tarfile.open(path) as tar:
+        member = next(m for m in tar.getmembers() if m.name.endswith("-sentences.txt"))
+        for line in io.TextIOWrapper(tar.extractfile(member), encoding="utf-8"):
+            sentence = line.rstrip("\n").partition("\t")[2]
+            for match in THAI_RUN.finditer(sentence):
+                pieces = segment(match.group(0))
+                known = [p in words and (p in THAI_LETTER_WORDS or not THAI_LETTER.fullmatch(p)) for p in pieces]
+                for i, piece in enumerate(pieces):
+                    if not known[i] or i > 0 and not known[i - 1] or i + 1 < len(pieces) and not known[i + 1]:
+                        continue
+                    if i == 0 and sentence[match.start() - 1:match.start()] == "." or i + 1 == len(pieces) and sentence[match.end():match.end() + 1] == ".":
+                        continue
+                    counts[piece] += 1
+    return counts
+
+
 # Wikipedia markup that is not running text: templates, tables, references, files and comments.
 WIKI_NOISE = [
     re.compile(r"<!--.*?-->", re.S),
@@ -2998,23 +3026,86 @@ def load_dictionary(language):
     return pos, lemmas, common, outdated
 
 
-def segmenter(language):
-    """Cuts a run of letters into the longest words of the language's dictionary, as SegmentingParser does."""
-    db = sqlite3.connect(os.path.join(DICTIONARIES, f"{language}-{DICTIONARY_TARGETS.get(language, 'en')}.sqlite"))
-    words = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
+# As ThaiParser has them: the reader's Thai letters (its word characters, ก-๛, but ๆ and the digits), and the vowels and marks
+# written after their letter and before it, between which and the letter no word ends.
+THAI_RUN = re.compile("[\u0e01-\u0e45\u0e47-\u0e4f\u0e5a\u0e5b]+")
+THAI_FOLLOWING = set("ะัาำิีึืฺุูๅ็่้๊๋์ํ๎")
+THAI_LEADING = set("เแโใไ")
+# The letters a silent ห leads (ไหร่, เหล่า), which a vowel written before the ห goes with.
+THAI_LED = set("งญนมยรลว")
+
+
+def thai_break(run, at):
+    """Whether a Thai word may end before [at] in [run] (ThaiParser.canBreak): never inside a syllable."""
+    return at <= 0 or at >= len(run) or run[at] not in THAI_FOLLOWING and run[at - 1] not in THAI_LEADING and not (
+        run[at] in THAI_LED and run[at - 1] == "ห" and at >= 2 and run[at - 2] in THAI_LEADING)
+
+
+def segmenter(language, words=None, ranks=None):
+    """
+    Cuts a run of letters into the longest words of the language's dictionary (or of [words]), as SegmentingParser does
+    (Thai's as ThaiParser does), or with [ranks] into its likeliest words (likeliest).
+    """
+    if words is None:
+        db = sqlite3.connect(os.path.join(DICTIONARIES, f"{language}-{DICTIONARY_TARGETS.get(language, 'en')}.sqlite"))
+        words = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
     longest = min(16, max((len(w) for w in words), default=1))
     join = language in JOIN_UNKNOWN
+    can_break = thai_break if language == "th" else lambda run, at: True
+
+    def likeliest(run):
+        """
+        As SegmentingParser.likeliest (its Chinese measure words aside): the cut whose words cost least, each the log of its
+        rank plus 4, a word with no rank 50,000, the letters no word covers up to where a word may begin 100,000; letters no
+        word covers make one word together where the language joins them.
+        """
+        n = len(run)
+        best, start_of, known = [0.0] + [math.inf] * n, [0] * (n + 1), [False] * (n + 1)
+        for start in range(n):
+            if best[start] == math.inf:
+                continue
+            for end in range(start + 1, min(n, start + max(longest, 2)) + 1):
+                word = run[start:end]
+                if can_break(run, end) and word in words:
+                    cost = best[start] + math.log(ranks.get(word, 50_000)) + 4.0
+                    if cost < best[end]:
+                        best[end], start_of[end], known[end] = cost, start, True
+            unit = start + 1
+            while not can_break(run, unit):
+                unit += 1
+            if run[start:unit] not in words:
+                cost = best[start] + math.log(100_000) + 4.0
+                if cost < best[unit]:
+                    best[unit], start_of[unit], known[unit] = cost, start, False
+        ends, end = [], n
+        while end > 0:
+            ends.append(end)
+            end = start_of[end]
+        ends.reverse()
+        out, begin = [], 0
+        for index, stop in enumerate(ends):
+            if join and not known[stop] and index + 1 < len(ends) and not known[ends[index + 1]]:
+                continue
+            out.append(run[begin:stop])
+            begin = stop
+        return out
+
+    if ranks is not None:
+        return likeliest
 
     def segment(run):
         out, unknown, i = [], "", 0
         while i < len(run):
-            end = next((j for j in range(min(len(run), i + longest), i, -1) if run[i:j] in words), None)
+            end = next((j for j in range(min(len(run), i + longest), i, -1) if can_break(run, j) and run[i:j] in words), None)
             if end is None:
+                step = i + 1
+                while not can_break(run, step):
+                    step += 1
                 if join:
-                    unknown += run[i]
+                    unknown += run[i:step]
                 else:
-                    out.append(run[i])
-                i += 1
+                    out.append(run[i:step])
+                i = step
                 continue
             if unknown:
                 out.append(unknown)
@@ -3038,6 +3129,8 @@ def resegment(language, counts):
 
 
 def build(language, source, size):
+    if language == "th":
+        return build_thai(size)
     order = [source] if source else SOURCE_ORDER.get(language, ["wordfreq", "frequencywords", "leipzig", "wikipedia", "morphgnt"])
     found = []
     for name in order:
@@ -3055,6 +3148,45 @@ def build(language, source, size):
     if language == "ar":
         return build_arabic(found, size)
     return build_list(language, found, size)
+
+
+# The reader cuts Thai by how common its words are, as the list it ships with ranks them (ThaiParser), so the Thai list is built
+# again from cuts made with the last one's ranks until they no longer change it, at most THAI_ROUNDS times; the first cut is the
+# longest words first, as the reader's without a list.
+THAI_ROUNDS = 6
+
+
+def build_thai(size):
+    """
+    The Thai list, from its Leipzig corpora alone, as the list first shipped was: Wikipedia's articles add their own words to the
+    first thousand and none of the everyday ones the news lacks (ฉัน, ข้าว, ขอบคุณ). Words are counted as the reader cuts
+    them with the th-en pack installed (thai_counts).
+    """
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "th-en.sqlite"))
+    pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
+    corpora = []
+    for corpus in FALLBACKS["th"]["leipzig"]:
+        path = download(f"https://downloads.wortschatz-leipzig.de/corpora/{corpus}.tar.gz", f"leipzig-{corpus}.tar.gz")
+        if path is not None:
+            corpora.append((corpus, path))
+    if not corpora:
+        sys.exit("No frequency source has th")
+    source = f"Leipzig Corpora Collection {', '.join(c for c, _ in corpora)}"
+    words, ranks, text, label = pack, None, None, None
+    for round_ in range(THAI_ROUNDS + 1):
+        segment = segmenter("th", words, ranks)
+        counts = defaultdict(int)
+        for _, path in corpora:
+            for word, n in thai_counts(path, segment, words).items():
+                counts[word] += n
+        built, label = build_list("th", [("leipzig", dict(counts), source)], size)
+        print(f"th round {round_}: {'unchanged' if built == text else 'changed'}", file=sys.stderr)
+        if built == text:
+            break
+        text = built
+        listed, ranks = list_ranks(text)
+        words = pack | {w for w in listed if " " not in w}
+    return text, label
 
 
 # The reader cuts a Korean word by how common its pieces are, as the list it ships with ranks them, so
@@ -3887,6 +4019,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             if others == [form]:
                 return {form: 1.0}
         elif language == "ko" and form in KOREAN_OWN:
+            return {form: 1.0}
+        elif language == "th" and is_word(form) and not any(form in ("การ" + l, "ความ" + l) for l in lemmas.get(form, [])):
+            # Thai words do not inflect: the pack files classifiers and other words under a word (ไหม under ม้า, จาน under
+            # อาหาร, วน under วัน), which are words of their own. A noun made with การ or ความ (การศึกษา, ความสุข) is its word's
+            # as the general rule has it.
             return {form: 1.0}
         elif language == "ar" and form in ARABIC_CLITICS:
             return {form: 1.0}
