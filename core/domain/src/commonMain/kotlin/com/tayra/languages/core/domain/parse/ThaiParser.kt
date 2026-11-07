@@ -9,7 +9,8 @@ package com.tayra.languages.core.domain.parse
  * letters no word covers go a syllable at a time, together one word. ๆ, which repeats the word before it, and the Thai
  * digits are no words.
  *
- * tools/build_frequency_list.py and tools/check_course.py cut Thai the same way (thai_segmenter); keep the three the same.
+ * tools/build_frequency_list.py (thai_break, segmenter) and tools/check_course.py (thai_spans) cut Thai the same way; keep
+ * the three the same.
  */
 class ThaiParser : SegmentingParser("Thai", "th", joinUnknown = true, byFrequency = true) {
 
