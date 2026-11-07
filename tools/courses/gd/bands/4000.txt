@@ -13,12 +13,12 @@
 13	3913	tàmhach	
 14	3914	òrgan	
 15	3915	ana-ceartas	ana-ceartais ana-ceartasan
-16	3916	caochan	
+16	3916	caochan	caochain
 17	3917	cruthach	
 18	3918	meallach	
 19	3919	uaigneach	
 20	3920	lomnochd	
-21	3921	fàiltich	fàilteachadh
+21	3921	fàiltich	fàilteachadh fàiltichidh
 22	3922	litireil	
 23	3923	mearachdach	
 24	3924	leus	
@@ -26,7 +26,7 @@
 26	3926	àicheadh	àichidh àichidhean
 27	3927	dealbhadaireachd	
 28	3928	bèo	
-29	3929	teirig	teireachdainn teirigidh theirig
+29	3929	teirig	teireachdainn teirigeas teirigidh theirig
 30	3930	ùirsgeulach	
 31	3931	geamnachd	
 32	3932	leas-athair	leas-athar leas-athraichean

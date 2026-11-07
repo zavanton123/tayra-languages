@@ -50,7 +50,7 @@
 50	3150	prionnsapal	phrionnsapal phrionnsapalan prionnsapail prionnsapalan
 51	3151	àrachas	t-àrachas àrachais àrachasan
 52	3152	colann	cholainn cholann colainn colainnean
-53	3153	gobhlan-gaoithe	gobhlain-ghaoithe gobhlanan-gaoithe gòbhlan-gaoithe
+53	3153	gobhlan-gaoithe	gobhlain-gaoithe gobhlain-ghaoithe gobhlanan-gaoithe gòbhlan-gaoithe
 54	3154	sòghail	shòghail
 55	3155	naidhlean	naidhlein
 56	3156	preantas	phreantas preantais preantasan

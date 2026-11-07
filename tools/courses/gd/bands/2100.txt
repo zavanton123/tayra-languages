@@ -6,7 +6,7 @@
 6	2006	canàl	canàil canàlan chanal chanàil chanàl
 7	2007	bàla	bhàla bàlaichean
 8	2008	reachd	reachdan
-9	2009	beart	beairt beartan beirt bheairt bheairte bheart bheirt
+9	2009	beart	beairt beairte beartan beirt bheairt bheairte bheart bheirt
 10	2010	bann	banna bannaibh bannan banntan bhann
 11	2011	nàdarrach	nàdarraich
 12	2012	sgèile	sgèilean
@@ -32,7 +32,7 @@
 32	2032	gràn	gran
 33	2033	tàlaidh	thàladh thàlaidheas tàladh tàlaidhidh tàlaidhte
 34	2034	iomchaidh	iomchaidhe
-35	2035	àrdaich	dh'àrdaich h-àrdaich àrdaichear àrdaichearan àrdaicheir àrdaichidh àrdaichte
+35	2035	àrdaich	dh'àrdaich h-àrdaich àrdaichear àrdaichearan àrdaicheas àrdaicheir àrdaichidh àrdaichte
 36	2036	armaich	armachadh armaichidh armaichte
 37	2037	brot	bhrot brota brotan
 38	2038	uallach	uallaichean
@@ -62,7 +62,7 @@
 62	2062	faiche	faichean fhaiche fhaichean
 63	2063	banaltram	banaltraim banaltraman bhanaltram
 64	2064	lom	loma luime
-65	2065	bileag	bhileag bhileagan bileagan
+65	2065	bileag	bhileag bhileagan bileagan bileig bileige
 66	2066	poball	phobaill phoball pobaill poballan
 67	2067	lìonra	lìonradh lìonraidh lìonraidhean
 68	2068	ginideach	ghinideach ghinidich ginidich ginidiche

@@ -7,7 +7,7 @@
 7	507	uisge-beatha	t-uisge-beatha uisge-bheatha uisgeachan-beatha
 8	508	cladach	chladach chladaich chladaichean cladaich cladaichean
 9	509	snàmh	shnàmh shnàmhainn shnàmhaist shnàmhaiste shnàmhamaid shnàmhtadh snàimh snàmhadh snàmhaibh snàmhaidh snàmhainn snàmhaist snàmhaiste snàmham snàmhamaid snàmhar snàmhta snàmhtadh snàmhtar snàmhte
-10	510	foillsich	dh'fhoillsich fhoillsich fhoillsicheadh fhoillsichte foillsicheadh foillsichidhean foillsichte follsichidh
+10	510	foillsich	dh'fhoillsich fhoillsich fhoillsicheadh fhoillsichte foillsicheadh foillsichidh foillsichidhean foillsichte follsichidh
 11	511	dara	dhara
 12	512	corra	chorra
 13	513	ainneamh	ainneimhe annamh h-ainneamh
@@ -44,7 +44,7 @@
 44	544	cruth	chruth chrutha chruthan crutha cruthan cruthannan
 45	545	slàn	shlàin shlàn slan slàine
 46	546	grinn	ghrinn grinne
-47	547	èist	dh'èist dh'èisteadh dh'èisteamaid dh'èistinn dh'èistist dh'èististe dh'èistteadh h-èist èisd èisdeadh èiste èisteadh èisteam èisteamaid èistear èistibh èistidh èistinn èistist èististe èistte èistteadh èisttear éisd éist
+47	547	èist	dh'èist dh'èisteadh dh'èisteamaid dh'èistinn dh'èistist dh'èististe dh'èistteadh h-èist èisd èisdeadh èiste èisteadh èisteam èisteamaid èistear èisteas èistibh èistidh èistinn èistist èististe èistte èistteadh èisttear éisd éist
 48	548	caomh	caoimh caoimhe caomha chaomh
 49	549	ochd	h-ochd
 50	550	sgoinneil	sgoinneile
@@ -52,9 +52,9 @@
 52	552	taghta	thaghta
 53	553	seinneadair	seinneadaire seinneadairean sheinneadair sheinneadairean t-seinneadair
 54	554	allt	dh'allt h-allt t-allt uillt
-55	555	obraich	dh'obraich obraicheadh obraichidh obraichte oibrich
+55	555	obraich	dh'obraich obraicheadh obraicheas obraichidh obraichte oibrich
 56	556	iomairt	dh'iomairt h-iomairt iomairte iomairtean
-57	557	suipear	suipearach suipearan suipeir
+57	557	suipear	suipearach suipearan suipeir suipeire
 58	558	gasta	gasda ghasta
 59	559	thalla	thallaibh
 60	560	loidhne	loidhneachan loidhnichean

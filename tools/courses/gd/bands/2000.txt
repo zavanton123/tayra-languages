@@ -77,10 +77,10 @@
 77	1977	balt	baltan built
 78	1978	eagalach	eagalaich eagalaiche
 79	1979	càirdeach	càirdiche
-80	1980	ceumnaich	ceumnaichidh ceumnaichte cheumnaich cheumnaichte
+80	1980	ceumnaich	ceumnaicheas ceumnaichidh ceumnaichte cheumnaich cheumnaichte
 81	1981	polasaidh	pholasaidhean polasaidhean
 82	1982	rang	rangan rangas reangas rong rongais rongas rung rungas
-83	1983	socraich	shocrachadh shocraich socrachadh socraichidh socraichte
+83	1983	socraich	shocrachadh shocraich socrachadh socraicheas socraichidh socraichte
 84	1984	gobhar	ghobhair ghobhar gobhair goibhre goibhrean
 85	1985	ficsean	fhicsean ficseanan ficsein
 86	1986	teampall	teampaill theampall
@@ -91,7 +91,7 @@
 91	1991	cliath	chliath cliathadh cliathaidh cliathan cliathte clèithe
 92	1992	rannsachair	rannsachairean
 93	1993	soilleireachadh	shoilleireachadh soillearachaidh soillearachaidhean
-94	1994	càradh	caradh caraidh charadh charaidh chàradh chàraidh càraidh
+94	1994	càradh	caradh caraidh charadh charaidh chàradh chàraidh càireadh càirich càirichidh càraidh
 95	1995	measgaichte	
 96	1996	dàta	data dhàta
 97	1997	armailteach	

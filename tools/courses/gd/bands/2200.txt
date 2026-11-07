@@ -1,7 +1,7 @@
 1	2101	da-rìribh	a-rìribh da-rìreadh dha-rìribh ga-rìreadh ga-rìribh rìribh
 2	2102	dleasdanas	dhleasdanas dleasdanasan
 3	2103	tìdsear	thìdsear thìdsearan tìdsearan
-4	2104	fuasgail	dh'fhuasgail fhuasgail fuasgailidh fuasgailte
+4	2104	fuasgail	dh'fhuasgail fhuasgail fuasgailidh fuasgailte fuasglas
 5	2105	spèis	speis spèise spéis
 6	2106	fàileadh	faileadh fhàilidh fhàilidhean fàile fàilidh fàilidhean fàilidhibh
 7	2107	susbaint	shusbaint susbainte susbaintean t-susbaint
@@ -40,7 +40,7 @@
 40	2140	tasglann	tasglainn tasglannan thasglann
 41	2141	agallamh	agalladh agallaimh agallamhan t-agallamh
 42	2142	cnag	chnag cnagadh cnagaidh cnagan cnagte cnaig
-43	2143	teisteanas	teisteanais theisteanas theisteanasan
+43	2143	teisteanas	teisteanais teisteanasan theisteanas theisteanasan
 44	2144	duan	dhuan duain
 45	2145	deachdaireachd	dheachdaireachd
 46	2146	dail	daile dailean
@@ -92,7 +92,7 @@
 92	2192	dian	deine dhian dèine
 93	2193	tunail	thunail thunailean tunaile tunailean
 94	2194	prionnsabal	phrionnsabal phrionnsabalan prionnsabail prionnsabalan
-95	2195	fìdhlear	fhìdhlear fidhlear fiodhlair fìdhleir fìleir
+95	2195	fìdhlear	fhìdhlear fidhlear fiodhlair fìdhlearan fìdhleir fìleir
 96	2196	uiseag	uiseagan uiseig uiseige
 97	2197	loighne	loighnichean
 98	2198	aoine	dihaoine h-aoine

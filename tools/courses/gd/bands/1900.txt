@@ -94,7 +94,7 @@
 94	1894	ealanta	
 95	1895	taigh-gnìomhachais	taigh-gniomhachais thaigh-gnìomhachais
 96	1896	frith-thaghadh	fhrith-thaghadh frith-thaghaidh frith-thaghaidhean
-97	1897	tuarastal	thuarastail thuarastal tuarasdail tuarasdal tuarastail
+97	1897	tuarastal	thuarastail thuarastal tuarasdail tuarasdal tuarastail tuarastalan
 98	1898	adhradh	adhraidh adhraidhean aoradh aoraidh
 99	1899	curaidh	churaidh churaidhean curaidhean
 100	1900	nàiseantach	nàiseantaich

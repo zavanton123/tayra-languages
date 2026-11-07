@@ -58,7 +58,7 @@
 58	2258	coireall	choireall coirill
 59	2259	seanchas	seanachais seanachas seanchasan t-seanchas
 60	2260	duileasg	duilisg
-61	2261	paisg	paisgte pasgadh pasgaidh phaisgeas phaisgte phasgadh
+61	2261	paisg	paisgeadh paisgte pasgadh pasgaidh phaisgeas phaisgte phasgadh
 62	2262	sèist	sheist shèist sèiste sèistean t-sèist
 63	2263	tòiseach	thòiseach
 64	2264	dligheach	
@@ -94,7 +94,7 @@
 94	2294	lòn	lòin lòintean
 95	2295	geata	geatachan geataichean geatan gheataichean
 96	2296	oisean	oiseanan oisein
-97	2297	ròs	ròsan
+97	2297	ròs	ròis ròsan
 98	2298	gualann	ghuailnean ghualainn ghualann guaillean guailne guailneadh guailnean guala gualainn gualannaibh
 99	2299	trasnadh	
 100	2300	meanbh	meanbha mheanbh

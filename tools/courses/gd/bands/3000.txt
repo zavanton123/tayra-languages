@@ -25,7 +25,7 @@
 25	2925	meacanaigs	
 26	2926	neoichiontach	neo-chiontach
 27	2927	seasmhachd	
-28	2928	miotasach	
+28	2928	miotasach	miotasaich
 29	2929	euchd	euchdan
 30	2930	tabhair	tabhairt thabhairt thoiribh toirear
 31	2931	peasair	peasar peasrach peasraichean pheasair
@@ -37,7 +37,7 @@
 37	2937	miotas	mhiotas miotasan
 38	2938	sgrùdair	sgrùdairean
 39	2939	uaireadair	uaireadairean
-40	2940	teinnteach	theinnteach
+40	2940	teinnteach	teinntich theinnteach
 41	2941	dìol	dhìol dìoghail dìola dìolainn dìolte díol
 42	2942	dùthchas	dhùthchas dùthchais dùthchasan
 43	2943	deataich	deatachadh deatachaidh dheatachadh dheataich

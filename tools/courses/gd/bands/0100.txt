@@ -3,7 +3,7 @@
 3	3	a	
 4	4	ann	'na 'nad 'nam 'nan 'nar 'nur annad annaibh annainn annam annamsa annsan annta anntasan b'ann h-ann innte nad nar nur
 5	5	e	b'e b'esan esan h-e h-esan
-6	6	air	airsan oirbh oirnn oirnne oirre oirrese orm ormsa orra orrasan ort
+6	6	air	airsan oirbh oirbhse oirnn oirnne oirre oirrese orm ormsa orra orrasan ort
 7	7	is	's b' bhitheamaid bu
 8	8	na	
 9	9	agus	
@@ -22,7 +22,7 @@
 22	22	seo	sheo
 23	23	i	b'i h-i ise
 24	24	iad	b'iad b'iadsan h-iad iadsan
-25	25	de	dhen dheth dhibh dhinn dhith dhiubh dhiubhsan dhìom dhìot
+25	25	de	den dhen dheth dhibh dhinn dhith dhiubh dhiubhsan dhìom dhìot
 26	26	gun	gum
 27	27	math	fearr feàrr fhearr fheàrr maith maithe matha mathadh mathaidh mathte mhaith mhath mhathadh
 28	28	à	aiste aistean aistidhean asad asaibh asainn asam asta astasan d'a dh'a h-aiste m'a t-aiste às às-san
@@ -31,7 +31,7 @@
 31	31	mo	m'
 32	32	duine	daoin daoine dhaoine dhuine
 33	33	nach	
-34	34	bho	bhho bhuaibh bhuainn bhuaipe bhuaithe bhuam bhuamsa bhuapa bhuat o
+34	34	bho	bhho bhuaibh bhuainn bhuaipe bhuaithe bhuam bhuamsa bhuapa bhuat bhuatsa o
 35	35	baile	bailtean bhaile bhailtean
 36	36	ach	
 37	37	airson	
@@ -69,8 +69,8 @@
 69	69	aon	aoin dh'aon h-aon n-aon t-aon
 70	70	glè	gle glé
 71	71	feum	dh'fheum dh'fheumadh dh'fheumas feuma feumadh feumaidh feumainn feuman feumar fheum fheumadh fheumainn fheumar fèim
-72	72	falbh	dh'fhalbh falbhadh falbhaidh falbhte fhalbh
-73	73	fuirich	dh'fhuirich dh'fuirich fhuireach fhuirich fhuiricheadh fuireach fuiricheadh fuirichidh fuirichte fuiridh
+72	72	falbh	dh'fhalbh falbhadh falbhaidh falbhas falbhte fhalbh
+73	73	fuirich	dh'fhuirich dh'fuirich fhuireach fhuirich fhuiricheadh fuireach fuiricheadh fuiricheas fuirichibh fuirichidh fuirichinn fuirichte fuiridh
 74	74	dèidh	deidh dheidh dhèidh dèidhe dèidhean déidh
 75	75	fear	fearaibh fhear fheara fhearaibh fhir fhìr fir fìr
 76	76	leabhar	leabhair leabharaichean leabharan leabhraichean leabhraichibh

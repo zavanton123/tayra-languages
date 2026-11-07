@@ -40,7 +40,7 @@
 40	840	fosgladh	dh'fhosgladh fhosgladh fhosglaidh fhosglaidhean fosglaidh fosglaidhean fosglaidhibh
 41	841	milleadh	mhilleadh millidh millidhean
 42	842	òir	
-43	843	fosgail	dh'fhosgail dh'fhosgaileadh dh'fhosgaileamaid dh'fhosgaileas dh'fhosgailinn dh'fhosgailist dh'fhosgailiste dh'fhosgailteadh fhosgail fhosgaileadh fosgaileadh fosgaileam fosgaileamaid fosgailear fosgailibh fosgailidh fosgailinn fosgailist fosgailiste fosgailteadh fosgailtear fosglar
+43	843	fosgail	dh'fhosgail dh'fhosgaileadh dh'fhosgaileamaid dh'fhosgaileas dh'fhosgailinn dh'fhosgailist dh'fhosgailiste dh'fhosgailteadh fhosgail fhosgaileadh fosgaileadh fosgaileam fosgaileamaid fosgailear fosgailibh fosgailidh fosgailinn fosgailist fosgailiste fosgailteadh fosgailtear fosglar fosglas
 44	844	coireach	choireach coirich coirichte
 45	845	dona	dhona mhiosa miosa
 46	846	bò	bhò bo boin bà bó
@@ -61,7 +61,7 @@
 61	861	croitear	chroitear chroitearan chroiteir croitearan croiteir
 62	862	cruinne	chruinne cruinnean
 63	863	iomall	iomaill iomallan t-iomall
-64	864	dìleas	dhìleas dhìlse dìlse
+64	864	dìleas	dhìleas dhìlse dìlis dìlse
 65	865	àbhaisteach	abhaisteach h-abhaisteach h-àbhaisteach àbhaistiche
 66	866	ge	
 67	867	ceàrr	cearr ceàrra cheàrr

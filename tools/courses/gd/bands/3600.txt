@@ -1,5 +1,5 @@
 1	3501	snùcair	shnùcair
-2	3502	comhachag	chomhachag comhachagan comhachaige
+2	3502	comhachag	chomhachag comhachagan comhachaig comhachaige
 3	3503	beannaichte	bheannaichte
 4	3504	cèis	cèise cèisean
 5	3505	heileacoptar	heileacoptair heileacoptairean
@@ -20,11 +20,11 @@
 20	3520	gluasadach	ghluasadach ghluasadaich gluasadaiche
 21	3521	caolan	caolain caolanan chaolain
 22	3522	ceus	ceusadh ceusaidh ceusar cheus cheusadh
-23	3523	bothag	bhothag bothaig
+23	3523	bothag	bhothag bothaig bothaige
 24	3524	dìneasar	dhìneasair dhìneasaran dìneasair dìneasaran
 25	3525	cog	chog cogte
 26	3526	brat-ùrlair	
-27	3527	glaodh	ghlaodh ghlaodhadh ghlaodhan glaodhaidh glaodhan glaodhte glaoidh
+27	3527	glaodh	ghlaodh ghlaodhadh ghlaodhan glaodhaich glaodhaidh glaodhan glaodhte glaoidh
 28	3528	dealanachd	
 29	3529	diut	
 30	3530	eòlas-talmhainn	eòlais-talmhainn eòlasan-talmhainn
@@ -66,7 +66,7 @@
 66	3566	falamhachd	fhalamhachd
 67	3567	cleachdaiche	chleachdaichean cleachdaichean cleachdaichibh
 68	3568	drannd-eun	drannd-eòin
-69	3569	tàrmaich	thàrmaich tàrmachadh tàrmaichidh
+69	3569	tàrmaich	thàrmaich tàrmachadh tàrmaicheas tàrmaichidh
 70	3570	dreag	dreagan dreige
 71	3571	ribheid	ribheidean
 72	3572	muime	buime mhuime muimeachan

@@ -49,7 +49,7 @@
 49	3249	fàd	fhàd fàdan fàid
 50	3250	sàga	sàgaichean
 51	3251	tàcharan	thàcharan tàchara tàcharain tàcharanan tàchran
-52	3252	luathaich	luathachadh luathachaidh luathaichear luathaichte
+52	3252	luathaich	luathachadh luathachaidh luathaichear luathaichidh luathaichte
 53	3253	maitheas	mhaitheas
 54	3254	sinnsearachd	shinnsearachd
 55	3255	bana-ghaisgeach	bana-ghaisgich bhana-ghaisgeach
@@ -96,5 +96,5 @@
 96	3296	gobhal	ghobhal gobhail goibhle goibhlean
 97	3297	dearbh-aithne	dhearbh-aithne
 98	3298	plosgadh	phlosgaidh plosgaidh plosgaidhean plosgail plosgartaich
-99	3299	fang	fainge fangan
+99	3299	fang	faing fainge fangan
 100	3300	guthach	ghuthach guthaich

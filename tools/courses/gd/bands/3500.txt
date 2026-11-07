@@ -6,7 +6,7 @@
 6	3406	fasgach	fasgaich
 7	3407	trìd-shoilleir	trid-shoilleir
 8	3408	fionnsgeul	fhionnsgeòil fionnsgeòil
-9	3409	drùidhteach	dhrùichteach dhrùichtich dhrùidhteach drùichteach drùichtich drùichtiche drùidhtich
+9	3409	drùidhteach	dhrùichteach dhrùichtich dhrùidhteach drùichteach drùichtich drùichtiche drùidhtich drùidhtiche
 10	3410	mac-bràthar	mhac-bràthar
 11	3411	iomrall	iomaral iomraill iomrallan iomrol ioramall
 12	3412	foghlamaiche	fhoghlamaiche foghlamaichean
@@ -88,9 +88,9 @@
 88	3488	pearraid	pearraidaibh pearraidan pearraide pearraidean phearraida piorraid
 89	3489	mèinnireach	mèinnirich
 90	3490	sìochantas	sìochantais
-91	3491	trombaid	trombaidean
+91	3491	trombaid	trombaide trombaidean
 92	3492	neach-iùil	luchd-iùil
-93	3493	faochag	faochaig fhaochagan
+93	3493	faochag	faochagan faochaig fhaochagan
 94	3494	buthaid	buthaidean
 95	3495	fòn-làimhe	fòn-làimh fònaichean-làimhe
 96	3496	neach-frithealaidh	luchd-frithealaidh

@@ -28,7 +28,7 @@
 28	3028	gràineil	ghraineil ghràineil gràineile
 29	3029	taom	taomadh taomaidh thaomadh
 30	3030	dràmadach	dhràmadach dhràmadaiche dràmadaiche
-31	3031	tiughad	thiughad thiughadan thiughaid
+31	3031	tiughad	thiughad thiughadan thiughaid tiughaid
 32	3032	plannt	phlannt phlannta phlanntaichean planntaichean
 33	3033	bhidio	bhidiothan
 34	3034	coll	choill coill
@@ -54,12 +54,12 @@
 54	3054	pàganachd	phàganachd pàganachdan pàgantachd
 55	3055	suimeadh	shuimeadh suimidh
 56	3056	cur-seachad	cur-seachadan
-57	3057	marcaich	mharcaich
+57	3057	marcaich	marcaichidh mharcaich
 58	3058	cearban	cairbean cairbhean carban cearbain cearbanan
 59	3059	caisg	caisgeadh caisgeam caisgeamaid caisgear caisgibh caisgidh caisginn caisgist caisgiste caisgte caisgteadh caisgtear casgadh chaisg chaisgeadh chaisgeamaid chaisginn chaisgist chaisgiste chaisgteadh chasgadh
 60	3060	teachdail	
 61	3061	capall-coille	capaill-choille
-62	3062	feusgan	fheusgan
+62	3062	feusgan	feusgain fheusgan
 63	3063	òrd	ord t-òrd ùird
 64	3064	blian	bliain blianadh
 65	3065	smàil	smàilidh smàilte smàl smàladh smàlaidh
@@ -67,7 +67,7 @@
 67	3067	eòlas-inntinn	
 68	3068	func	
 69	3069	criomagan	
-70	3070	staoin	
+70	3070	staoin	staoine
 71	3071	tuinneachadh	
 72	3072	sìobhaltas	sìobhaltasan
 73	3073	bior	bhior bhioran biora

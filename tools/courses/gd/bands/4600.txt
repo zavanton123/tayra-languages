@@ -1,4 +1,4 @@
-1	4501	greadhnachas	ghreadhnachas
+1	4501	greadhnachas	ghreadhnachas greadhnachais
 2	4502	smàrag	smàragan
 3	4503	fallaing	fallaingean
 4	4504	cliùteach	chliùteach
@@ -42,7 +42,7 @@
 42	4542	fionnar	fhionnar
 43	4543	fiadhain	fhiadhain
 44	4544	meatar	meataran
-45	4545	sgalag	sgalaig
+45	4545	sgalag	sgalagan sgalaig
 46	4546	trup	thrup
 47	4547	gualaisg	gualaisgean gualuisg gualuisgean
 48	4548	co-roinn	cho-roinn co-roinne co-roinnean co-roinnidh co-roinnte
@@ -60,14 +60,14 @@
 60	4560	siubhalach	siubhalaich
 61	4561	eàrlas	eàrlais eàrlasan t-eàrlas àirleas
 62	4562	co-chothrom	co-chothroman co-chothruim
-63	4563	sitig	shitig
+63	4563	sitig	shitig sitige
 64	4564	sùbh-craoibh	sùbhan-craoibh sùibh-chraoibh
 65	4565	flath	flaith flathan
 66	4566	lurgann	lurgainn lurgannan
 67	4567	aislingeach	aislingiche
 68	4568	òmar	òmair
 69	4569	deilbheadh	deilbhidh
-70	4570	for-uinneag	for-uinneagan for-uinneige
+70	4570	for-uinneag	for-uinneagan for-uinneig for-uinneige
 71	4571	fo-chomataidh	fho-chomataidh
 72	4572	cartùn	cartùnaichean
 73	4573	fòineimeach	foineimeach fòineimich

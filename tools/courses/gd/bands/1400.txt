@@ -63,7 +63,7 @@
 63	1363	cruinn	chruinn
 64	1364	clò-bhualadh	chlo-bhualadh chlò-bhualadh clo-bhualadh clò-bhualaidh clò-bhualaidhean
 65	1365	ath-bheothachadh	ath-bheothachaidh ath-bheothachaidhean ath-bheòthachadh h-ath-bheothachadh
-66	1366	lìon	lion lìn lìonas lìonta lìontan lìonte
+66	1366	lìon	lion lìn lìonainn lìonas lìonta lìontan lìonte
 67	1367	meall	mealladh meallaidh meallaidhean meallta mheall mhealladh
 68	1368	meudaich	meudachadh meudachaidh meudaicheadh mheudachadh mheudachaidh mheudaich
 69	1369	deasachadh	deasachaidh deasachaidhean dheasachadh dheasachaidh

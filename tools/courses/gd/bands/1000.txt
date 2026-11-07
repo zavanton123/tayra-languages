@@ -12,7 +12,7 @@
 12	912	bùrn	bhùirn burn bùirn
 13	913	mall	maille malla mhaill mhall
 14	914	port-adhair	phort-adhair puirt-adhair
-15	915	coisich	choisich choisichear choisicheas coisichear coisichidh coisichte
+15	915	coisich	choisich choisichear choisicheas coisicheadh coisichear coisichidh coisichte
 16	916	riaghailt	riaghailte riaghailtean
 17	917	còigeamh	choigeamh chòigeamh coigeamh còigeamhan còigeimh cóigeamh
 18	918	uachdar	h-uachdar t-uachdar uachdair
@@ -30,9 +30,9 @@
 30	930	còta	chota chòta cota còtaichean
 31	931	structar	structair structairean structaran
 32	932	cuideam	chuideam cuideaman cuideim
-33	933	oirthir	aithrir eilthir eirir eirire eirthir eirthire fairir foirthir h-oirthir oirthear oirthirean
-34	934	crìochnaich	chrìochnachadh chrìochnaich chrìochnaicheadh chrìochnaichidh crìochnachadh crìochnachaidh crìochnaichidh crìochnaichte
-35	935	sàmhach	samhach shàmhach
+33	933	oirthir	aithrir eilthir eirir eirire eirthir eirthire fairir foirthir h-oirthir oirthear oirthire oirthirean
+34	934	crìochnaich	chrìochnachadh chrìochnaich chrìochnaicheadh chrìochnaichidh crìochnachadh crìochnachaidh crìochnaicheas crìochnaichidh crìochnaichte
+35	935	sàmhach	samhach shàmhach sàmhaiche
 36	936	gnè	ghnè ghnèithean gne gnèithean gné
 37	937	stèidhte	stéidhte
 38	938	colaiste	cholaiste colaistean
@@ -48,12 +48,12 @@
 48	948	gruag	ghruag ghruaig gruagan gruaige
 49	949	pàipear	paipear paipearan phàipear phàipearan phàipeir pàipearan pàipeir
 50	950	fiodh	dh'fhiodh fhiodh fhiodha fiodha fiodhan
-51	951	faighnich	dh'fhaighnich faighnichidh faighnichte
+51	951	faighnich	dh'fhaighnich faighnicheas faighnichidh faighnichte
 52	952	rathad-iarainn	rathaid-iarainn rathaidean-iarainn
 53	953	trioblaid	thrioblaid thrioblaidean trioblaide trioblaidean
 54	954	buille	bhuille buillean builleannan
 55	955	glòir	ghlòir ghlòire ghlòrach glòire glòirean glòrach
-56	956	pàipear-naidheachd	phàipear-naidheachd
+56	956	pàipear-naidheachd	phàipear-naidheachd pàipeir-naidheachd
 57	957	adhar	adhair t-adhar
 58	958	ceò	ceòtha ceòthadh cheò
 59	959	cailleach	cailleachan caillich cailliche chailleach

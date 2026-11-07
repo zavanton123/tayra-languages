@@ -17,7 +17,7 @@
 17	2617	smuanairt	smuanairtean
 18	2618	sailead	saileadan saileid
 19	2619	feabhas	feabhais feabhasan fheabhas
-20	2620	samhlaich	samhlachadh samhlaicheadh samhlaicheam samhlaicheamaid samhlaichear samhlaichibh samhlaichidh samhlaichinn samhlaichist samhlaichiste samhlaichte samhlaichteadh samhlaichtear shamhlaicheadh shamhlaicheamaid shamhlaichinn shamhlaichist shamhlaichiste shamhlaichteadh
+20	2620	samhlaich	samhlachadh samhlaicheadh samhlaicheam samhlaicheamaid samhlaichear samhlaicheas samhlaichibh samhlaichidh samhlaichinn samhlaichist samhlaichiste samhlaichte samhlaichteadh samhlaichtear shamhlaicheadh shamhlaicheamaid shamhlaichinn shamhlaichist shamhlaichiste shamhlaichteadh
 21	2621	diadhaidh	dhiadhaidh diadhaidhe
 22	2622	foill	fhoill foille
 23	2623	iompaich	dh'iompaich iompaichear iompaichidh iompaichte
@@ -39,7 +39,7 @@
 39	2639	eagraich	eagrachadh eagrachaidh eagrachaidhean
 40	2640	tàileasg	thàileisg tàileisg
 41	2641	coileach	coilich
-42	2642	cruach	chruach chruachadh cruachadh cruachaidh cruachan cruachte cruaiche
+42	2642	cruach	chruach chruachadh cruachadh cruachaidh cruachan cruachte cruaich cruaiche
 43	2643	liriceach	
 44	2644	comadaidh	chomadaidh
 45	2645	calpachas	calpachais calpachasan
@@ -67,7 +67,7 @@
 67	2667	putan	phutain phutan putain putanan
 68	2668	fuin	dh'fhuineamaid dh'fhuininn dh'fhuinist dh'fhuiniste dh'fhuinteadh fhuine fhuineadh fuine fuineadh fuineam fuineamaid fuinear fuinibh fuinidh fuininn fuinist fuiniste fuinte fuinteadh fuintear
 69	2669	diosg	dhiosg dhiosgean diosgan diosgean diosgibh
-70	2670	cuilc	chuilc cuilce
+70	2670	cuilc	chuilc cuilce cuilcean
 71	2671	bèist	beist bhèistean bèiste bèistean béist
 72	2672	sreapadair	shreapadair shreapadairean sreapadairean t-sreapadair
 73	2673	dìomhaireachd	
@@ -90,7 +90,7 @@
 90	2690	sgeadaich	sgeadaichidh sgeadaichte
 91	2691	driùchd	dhriùchd driùchdan
 92	2692	catalog	catalogan cataloig
-93	2693	maoth	mhaoth mhaotha
+93	2693	maoth	maotha mhaoth mhaotha
 94	2694	ciorramach	ciorramaich
 95	2695	fuincsean	fhuincsein fuincseanan
 96	2696	soineannta	shoineannta

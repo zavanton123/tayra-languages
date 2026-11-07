@@ -4,7 +4,7 @@
 4	204	balach	balachaibh balaich bhalach bhalacha bhalachaibh bhalaich
 5	205	turas	thurais thuras thurasan thursan turais turasan tursan
 6	206	leugh	leughadh leughaibh leughaidh leughaidhean leughainn leughaist leughaiste leugham leughamaid leughar leughas leughtadh leughtar leughte
-7	207	tog	thog thogadh thogar thogas thogta togadh togaidh togar togta
+7	207	tog	thog thogadh thogar thogas thogta togadh togaidh togainn togar togta
 8	208	caill	cailleadh caillear caillibh caillidh chaill chailleadh chailleas chall
 9	209	carson	c'arson
 10	210	oir	oire oirean
@@ -24,7 +24,7 @@
 24	224	togail	thogail
 25	225	dòchas	dhòchasan dòchais dòchasan
 26	226	ar	
-27	227	fàs	dh'fhas dh'fhàs dh'fhàsadh dh'fhàsainn dh'fhàsaist dh'fhàsaiste dh'fhàsamaid dh'fhàstadh fais fas fhas fhàis fhàs fhàsa fhàsadh fàis fàsa fàsadh fàsaibh fàsaidh fàsainn fàsaist fàsaiste fàsam fàsamaid fàsar fàsta fàstadh fàstar fás
+27	227	fàs	dh'fhas dh'fhàs dh'fhàsadh dh'fhàsainn dh'fhàsaist dh'fhàsaiste dh'fhàsamaid dh'fhàstadh fais fas fhas fhàis fhàs fhàsa fhàsadh fàis fàsa fàsadh fàsaibh fàsaidh fàsainn fàsaist fàsaiste fàsam fàsamaid fàsar fàsas fàsta fàstadh fàstar fás
 28	228	meadhan	meadhain meadhanan meadhannan meadhoin meadhon mheadhain mheadhan mheadhanan mheadhon
 29	229	iar	dh'iar h-iar
 30	230	stèidhich	steidhich steidhicheadh steidhichte stèidheadh stèidhicheadh stèidhicheam stèidhicheamaid stèidhichear stèidhicheas stèidhichibh stèidhichidh stèidhichinn stèidhichist stèidhichiste stèidhichte stèidhichteadh stèidhichtear stéidhich stéidhichte

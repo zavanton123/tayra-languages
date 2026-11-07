@@ -88,7 +88,7 @@
 88	1788	seòrsaiche	sheòrsaiche sheòrsaichean
 89	1789	gearan	gearain gearainean gearanan ghearain
 90	1790	monarcachd	mhonarcachd
-91	1791	rionnag	rionnagan rionnaig
+91	1791	rionnag	rionnagan rionnaig rionnaige
 92	1792	iasgair	iasgairean
 93	1793	sil	shileadh sile sileadh silean silte
 94	1794	eagran	eagrain eagranan h-eagran t-eagran

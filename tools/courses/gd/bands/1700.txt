@@ -41,7 +41,7 @@
 41	1641	fastaidh	dh'fhastaidh fasdaich fast fastadh fastaich fastaidhidh fastaidhte fhasdadh fhastachadh fhastadh
 42	1642	comar	chomair chomar
 43	1643	taisgealadh	taisgealaidh taisgealaidhean thaisgealadh thaisgealaidh
-44	1644	lùghdaich	lùghdachadh lùghdachaidh lùghdaicheadh lùghdaichte
+44	1644	lùghdaich	lùghdachadh lùghdachaidh lùghdaicheadh lùghdaichidh lùghdaichte
 45	1645	neach-siubhail	luchd-siubhail
 46	1646	aonta	aenta aontaidh aontaidhean aontan t-aonta
 47	1647	crann	chrainn chrann chranna chrannaibh chroinn crainn crannadh crannaibh croinn

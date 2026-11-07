@@ -42,9 +42,9 @@
 42	742	coimeas	choimeas choimeasta coimeasaidh coimeasan coimeasta coimeaste coimeis
 43	743	ùghdarras	dh'ùghdarras h-ùghdarrasan t-ùghdarras ughdarras ùghdarrais ùghdarrasan
 44	744	togalach	thogalach thogalaich togalaich
-45	745	tidsear	thidsear thidsearan thidseir tidsearaibh tidsearan
+45	745	tidsear	thidsear thidsearan thidseir tidsearaibh tidsearan tidseir
 46	746	sòisealta	shòisealta shóisealta soisealta
-47	747	atharraich	atharraicheadh atharraichear atharraichidh atharraichte dh'atharraich
+47	747	atharraich	atharraicheadh atharraichear atharraicheas atharraichibh atharraichidh atharraichte dh'atharraich
 48	748	làrach	larach làracha làraich làraiche làraichean làraichibh
 49	749	àiteachas	àiteachais àiteachd
 50	750	fàsach	fasach fhàsach fhàsachadh fhàsaich fhàsaichte fàsachadh fàsachaidh fàsaich fàsaichean fàsaichte
@@ -67,11 +67,11 @@
 67	767	bun-sgoil	bhun-sgoil bun-sgoile bun-sgoiltean
 68	768	nàdarra	nadarra nàdurra
 69	769	geama	geamaichean geamanan geamannan gheama gheamaichean gheamannan
-70	770	gluais	ghluais ghluaiseadh ghluaiseas gluaisidh gluaiste
+70	770	gluais	ghluais ghluaiseadh ghluaiseas gluaiseadh gluaisidh gluaiste
 71	771	breac	bhreac bhreacadh bhreacainn bhreacaist bhreacaiste bhreacamaid bhreactadh bhric breaca breacadh breacaibh breacaidh breacainn breacaiste breacam breacamaid breacar breacta breactadh breactar breacte bric brice bricean
 72	772	teich	teiche teicheadh teicheam teicheamaid teichear teichibh teichidh teichinn teichist teichiste teichte teichteadh teichtear theich theiche theicheadh theicheamaid theicheas theichinn theichist theichiste theichteadh
 73	773	dùthchasail	dhùthchasail
-74	774	èirich	dh'eirich dh'èirich dh'èiricheadh dh'èiricheamaid dh'èiricheas dh'èirichinn dh'èirichist dh'èirichiste dh'èirichteadh eirich èireachd èiricheadh èiricheam èiricheamaid èirichear èirichibh èirichidh èirichinn èirichist èirichiste èirichte èirichteadh èirichtear èiridh éirich
+74	774	èirich	dh'eirich dh'èirich dh'èiricheadh dh'èiricheamaid dh'èiricheas dh'èirichinn dh'èirichist dh'èirichiste dh'èirichteadh eirich èireachd èireadh èireas èiricheadh èiricheam èiricheamaid èirichear èirichibh èirichidh èirichinn èirichist èirichiste èirichte èirichteadh èirichtear èiridh éirich
 75	775	caran	
 76	776	seòmar	seòmair seòmraichean sheòmair sheòmar sheòmraichean t-seòmar
 77	777	cliùiteach	chliùiteach chliùitich chliùitiche cliùitiche cliùthach

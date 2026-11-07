@@ -55,7 +55,7 @@
 55	3655	braich	bracha
 56	3656	caomhnadh	chaomhnadh
 57	3657	masladh	maslaidh maslaidhean mhasladh
-58	3658	sèimhich	shèimhich sèimhichidh sèimhichte
+58	3658	sèimhich	shèimhich sèimhicheas sèimhichidh sèimhichte
 59	3659	sloinntearachd	shloinntearachd sloinntearachdan
 60	3660	ceannairc	ceannairce
 61	3661	coillteach	choillteach
@@ -81,7 +81,7 @@
 81	3681	marsantach	marsantaich mharsantaich
 82	3682	abaich	abachadh abaiche
 83	3683	meanglan	meanglain meanglanan mheanglan
-84	3684	àitich	àitichidh àitichte
+84	3684	àitich	àiticheas àitichidh àitichte
 85	3685	briseadh-dùil	bhriseadh-dùil brisidh-dùil brisidhean-dùil
 86	3686	slios	shliosan sliosa sliosan
 87	3687	seachran	seachrain sheachrain
@@ -91,7 +91,7 @@
 91	3691	dùmhail	dùmhaile
 92	3692	banana	bananathan bhanana
 93	3693	marbhan	marbhain mharbhan
-94	3694	sgeilp	sgeilpean sgeilpichean
+94	3694	sgeilp	sgeilpe sgeilpean sgeilpichean
 95	3695	deann	deanna deannan
 96	3696	eadar-àm	eadar-ama
 97	3697	geàrr-chunntas	geàrr-chunntais geàrr-chunntasan gheàrr-chunntas

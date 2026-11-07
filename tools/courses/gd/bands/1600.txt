@@ -16,7 +16,7 @@
 16	1516	uaigh	dh'uaigh h-uaigh uaghach uaighe uaighean
 17	1517	stàilinn	stailinn stàilinne stàilinnean
 18	1518	sgath	sgatha sgathadh sgathan
-19	1519	geàrr	gearr gearra geàrra geàrradh geàrraibh geàrraidh geàrrainn geàrraist geàrraiste geàrram geàrramaid geàrran geàrrar geàrrta geàrrtadh geàrrtar ghearr gheàrr gheàrrainn gheàrraist gheàrraiste gheàrramaid gheàrran gheàrrtadh ghiorra
+19	1519	geàrr	gearr gearra gearraidh geàrra geàrradh geàrraibh geàrraidh geàrrainn geàrraist geàrraiste geàrram geàrramaid geàrran geàrrar geàrrta geàrrtadh geàrrtar ghearr gheàrr gheàrrainn gheàrraist gheàrraiste gheàrramaid gheàrran gheàrrtadh ghiorra
 20	1520	ceannardas	ceannardais cheannardais cheannardas
 21	1521	crois	chrois croise croisean cros
 22	1522	heactair	heactairean
@@ -55,7 +55,7 @@
 55	1555	britheamh	bhreitheamh bhreitheamhan bhreitheimh bhritheamh bhritheamhan bhritheimh breitheamh breitheamhan britheamhan britheimh
 56	1556	deamocratach	deamocrataich dheamocratach
 57	1557	partaidh	phartaidh
-58	1558	ceàrd	ceàird ceàirdean ceàrdan cheàird cheàrd cheàrdan chiùird ciùird cèard
+58	1558	ceàrd	ceàird ceàirde ceàirdean ceàrdan cheàird cheàrd cheàrdan chiùird ciùird cèard
 59	1559	batal	batail batailean bhatail bhatailean
 60	1560	eadar-theangaich	dh'eadar-theangaich eadar-theangaichidh
 61	1561	roghainn	roghainnean roghainnibh

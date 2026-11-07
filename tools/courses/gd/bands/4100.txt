@@ -20,7 +20,7 @@
 20	4020	ballan	ballain ballanan
 21	4021	bonaid	bonaide bonaidean
 22	4022	bascaid	bascaide bascaidean bhascaid
-23	4023	connlach	chonnlach
+23	4023	connlach	chonnlach connlaich
 24	4024	cofhurtail	cofhurtaile
 25	4025	neactar	neactair
 26	4026	snàithlean	shnàithleana shnàithleanaibh shnàithleanan shnàithlein snàithleanaibh snàithlein t-snàithlein
@@ -68,7 +68,7 @@
 68	4068	teagsa	teagsaichean theagsaichean
 69	4069	gaoisid	gaoiside gaoisidean ghaoisid
 70	4070	fuathaich	fhuathachadh fuathachadh fuathaichidh fuathaichte
-71	4071	guthlag	ghuthlag guthlagan guthlaige
+71	4071	guthlag	ghuthlag guthlagan guthlaig guthlaige
 72	4072	còmhnadh	chòmhnadh
 73	4073	maslach	maslaiche
 74	4074	mac-peathar	mhac-peathar

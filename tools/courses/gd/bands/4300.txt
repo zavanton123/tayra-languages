@@ -50,7 +50,7 @@
 50	4250	taigh-cràbhaidh	
 51	4251	siorap	
 52	4252	sporan	sporain
-53	4253	mapadh	
+53	4253	mapadh	mapaidh
 54	4254	crolaidh	croladh
 55	4255	critheann	chritheanna chritheannaibh critheannaibh crithinn
 56	4256	nabaidh	nabaidhean
@@ -89,7 +89,7 @@
 89	4289	mì-cheartas	mi-cheartas
 90	4290	muinntireas	mhuinntireas
 91	4291	carbad-eiridinn	carbadan-eiridinn carbaid-eiridinn
-92	4292	sàsaich	shàsachadh shàsaich shàsaicheadh shàsaicheamaid shàsaichinn shàsaichist shàsaichiste shàsaichteadh sàsaicheadh sàsaicheam sàsaicheamaid sàsaichear sàsaichibh sàsaichidh sàsaichinn sàsaichist sàsaichiste sàsaichteadh sàsaichtear
+92	4292	sàsaich	shàsachadh shàsaich shàsaicheadh shàsaicheamaid shàsaichinn shàsaichist shàsaichiste shàsaichteadh sàsachadh sàsaicheadh sàsaicheam sàsaicheamaid sàsaichear sàsaichibh sàsaichidh sàsaichinn sàsaichist sàsaichiste sàsaichteadh sàsaichtear
 93	4293	tèarainn	thèarainn thèarainneadh thèarainneamaid thèarainninn thèarainnist thèarainniste thèarainnteadh thèarnadh tèarainneadh tèarainneam tèarainneamaid tèarainnear tèarainnibh tèarainnidh tèarainninn tèarainnist tèarainniste tèarainnte tèarainnteadh tèarainntear tèarnadh tèarnaidh
 94	4294	bogach	bhogach bogaich bogaichean
 95	4295	seulaich	seulachadh seulaichidh seulaichte sheulachadh

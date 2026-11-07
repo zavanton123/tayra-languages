@@ -35,7 +35,7 @@
 35	4435	leibheil	
 36	4436	grant	grantaichean
 37	4437	ainmnich	ainmneachadh
-38	4438	lagaich	lagaichidh lagaichte
+38	4438	lagaich	lagaicheadh lagaicheas lagaichidh lagaichte
 39	4439	buntanas	
 40	4440	dhoibh	
 41	4441	diofarach	
@@ -50,7 +50,7 @@
 50	4450	mionnan	mhionnan
 51	4451	meilich	mheilich
 52	4452	dànachd	
-53	4453	muran	
+53	4453	muran	murain
 54	4454	fual	
 55	4455	freumhachadh	fhreumhachaidh fhreumhachaidhean freumhachaidh freumhachaidhean freumhachaidhibh
 56	4456	fòrladh	fòrlagh fòrlaidh fòrlaidhean
@@ -67,7 +67,7 @@
 67	4467	slis	slise slisean
 68	4468	taistealach	taistealaich
 69	4469	buinteanas	bhuinteanas buinteanais buinteanasan
-70	4470	bloc	bhloc bloca
+70	4470	bloc	bhloc bloca blocaichean
 71	4471	smocadh	smocaidh smocaidhean
 72	4472	lamh	laimhe lamhan
 73	4473	cuime	cuim

@@ -1,7 +1,7 @@
 1	101	linn	linne linneachan linntean
 2	102	iarraidh	iarraidhean
 3	103	a-mach	mach
-4	104	òl	dh'òl dh'òladh dh'òlainn dh'òlaist dh'òlaiste dh'òlamaid dh'òltadh h-òl ol òil òladh òlaibh òlaidh òlainn òlaist òlaiste òlam òlamaid òlar òlta òltadh òltar
+4	104	òl	dh'òl dh'òladh dh'òlainn dh'òlaist dh'òlaiste dh'òlamaid dh'òltadh h-òl ol òil òladh òlaibh òlaidh òlainn òlaist òlaiste òlam òlamaid òlar òlas òlta òltadh òltar
 5	105	cànan	canain canan chanain chanan chànain chànan chànana chànanaibh chànanan cànain cànainean cànanaibh cànanan
 6	106	fada	b'fhada faide fhada fhaide
 7	107	tighinn	thighinn
@@ -56,7 +56,7 @@
 56	156	cuimhne	chuimhn chuimhne cuimhn
 57	157	leig	leigeadh leigeam leigeamaid leigear leigeas leigeil leigibh leigidh leiginn leigist leigiste leigte leigteadh leigtear
 58	158	rèir	a-rèir a-réir
-59	159	nighean	h-igheanan h-ighinn h-ingheanan h-inghinn ingheanan inghinn nigheana nigheanaibh nigheanan nigheann nigheannan nighinne nighnean ìghne ìghnean
+59	159	nighean	h-igheanan h-ighinn h-ingheanan h-inghinn ighne ingheanan inghinn nigheana nigheanaibh nigheanan nigheann nigheannan nighinne nighnean ìghne ìghnean
 60	160	cleachdadh	chleachdadh chleachdaidh chleachdaidhean cleachdaidh cleachdaidhean
 61	161	biadh	bhiadh bhiadhadh bhìdh biadhadh biadhaibh biadhan biadhta bidhe bìdh bìdhe
 62	162	prìomh-bhaile	phriomh-bhaile phrìomh-bhaile priomh-bhaile prìomh-bhailtean
@@ -65,7 +65,7 @@
 65	165	ainmeil	ainmeile b'ainmeil h-ainmeil
 66	166	facal	dh'fhacal facail faclan fhacail fhacal fhaclan
 67	167	còir	choir chòir chòireachan chòirichean chòraiche chòraichean coir coirichean còire còireachan còirean còirichean còrach còraichean
-68	168	ceannach	ceannachadh ceannaich cheannach cheannachadh cheannaich cheannaicheadh cheannaichear cheannaicheas
+68	168	ceannach	ceannachadh ceannaich ceannaichidh ceannaichinn cheannach cheannachadh cheannaich cheannaicheadh cheannaichear cheannaicheas
 69	169	teaghlach	teaghlaich teaghlaichean theaghlach theaghlaich theaghlaichean
 70	170	caraid	caraidean chairdean charaid charaidean chàirdean càirdean
 71	171	aois	aoise aoisean d'aois dh'aois h-aois t-aois

@@ -1,14 +1,14 @@
 1	5801	cnàimheach	
 2	5802	calculas	
-3	5803	taoitear	
+3	5803	taoitear	taoitearan
 4	5804	trì-deug	
 5	5805	dreis	
 6	5806	furachail	
 7	5807	carr	charr
 8	5808	draosdachd	
 9	5809	cneas	chneas cneasa cneasan cneis cnis
-10	5810	lòd	
-11	5811	searrag	
+10	5810	lòd	lòid
+11	5811	searrag	searragan searraig
 12	5812	srùbag	srùbagan srùbaige srùpag strùbag strùpag
 13	5813	actar	
 14	5814	bogsadh	
@@ -17,16 +17,16 @@
 17	5817	mòraich	mòrachadh
 18	5818	nòsail	nòsaile
 19	5819	grànndachd	
-20	5820	lì-dhealbh	
+20	5820	lì-dhealbh	lì-dhealbhan
 21	5821	sìorraich	sìorraichte
 22	5822	cùrs	
 23	5823	plosg	phlosg ploisg plosgan plosgte
 24	5824	sgreataidh	
 25	5825	aithreachail	
-26	5826	fradharcach	
+26	5826	fradharcach	fradharcaich
 27	5827	greadhnach	
 28	5828	cealla-sìl	cealla-shìl ceallan-sìle
-29	5829	tùraid	tùraide
+29	5829	tùraid	tùraide tùraidean
 30	5830	aonaranachd	aonranachd
 31	5831	fanaideach	
 32	5832	deamhas	deamhais deamhaisean deimheas deimheis
@@ -58,10 +58,10 @@
 58	5858	loisgean	loisgein losgeanan
 59	5859	martair	martairean
 60	5860	cluicheadar	cluicheadaran
-61	5861	sùbh-làir	
+61	5861	sùbh-làir	sùbhan-làir
 62	5862	neulach	
-63	5863	dorchaich	dorchadh dorchaichidh dorchaichte
-64	5864	doilleirich	doilleirichte
+63	5863	dorchaich	dorchachadh dorchadh dorchaicheas dorchaichidh dorchaichte
+64	5864	doilleirich	doilleireachadh doilleirichte
 65	5865	feocallan	feocallain
 66	5866	mì-ghnàthas	
 67	5867	sàthach	
@@ -81,14 +81,14 @@
 81	5881	seabra	
 82	5882	stopadh	
 83	5883	gliogadaich	gliogadaiche gliogadaichean
-84	5884	aobrann	
+84	5884	aobrann	aobrainn
 85	5885	aghann	adhann aghainn aghannan aighainne aighne
 86	5886	geimhlich	gheimhlich
 87	5887	samhnag	
 88	5888	cothrum	chothruim
 89	5889	mì-fhortan	
 90	5890	sàthaich	sàthachadh
-91	5891	luaithreach	
+91	5891	luaithreach	luaithrich
 92	5892	mùnadh	
 93	5893	falamhaich	dh'fhalamhaicheadh dh'fhalamhaicheamaid dh'fhalamhaichinn dh'fhalamhaichist dh'fhalamhaichiste dh'fhalamhaichteadh falamhachadh falamhaicheadh falamhaicheam falamhaicheamaid falamhaichear falamhaichibh falamhaichidh falamhaichinn falamhaichist falamhaichiste falamhaichte falamhaichteadh falamhaichtear
 94	5894	puimcean	puimceanan puimcein

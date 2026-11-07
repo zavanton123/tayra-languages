@@ -7,7 +7,7 @@
 7	4107	puinnseanaich	phuinnseanachadh puinnseanachadh puinnseanachaidh
 8	4108	cagailt	cagailte chagailte
 9	4109	dòirt	dhòirt dòirte dòirteadh dòirtidh
-10	4110	cruadhaich	chruadhaich cruadhachadh
+10	4110	cruadhaich	chruadhaich cruadhachadh cruadhaichidh
 11	4111	dà-fhoghar	dà-fhoghair dà-fhogharan
 12	4112	fìneadair	fhìneadair fìneadairean
 13	4113	pragtaigeach	phragtaigeach pragtaigiche
@@ -42,7 +42,7 @@
 42	4142	boireann-dhligheachas	boireann-dhligheachais
 43	4143	bliadhn	
 44	4144	daonnachd	daonnachdan
-45	4145	buabhall	buabhallan
+45	4145	buabhall	buabhaill buabhallan
 46	4146	màm	
 47	4147	rùnach	
 48	4148	dearc-luachrach	dearcan-luachrach
@@ -64,9 +64,9 @@
 64	4164	eachdraidheal	
 65	4165	liric	liricean
 66	4166	biadhtach	
-67	4167	eag	
+67	4167	eag	eagan
 68	4168	tunnag	thunnaga tunnagaibh tunnagan tunnaig tunnaige
-69	4169	stiùbhard	
+69	4169	stiùbhard	stiùbhaird
 70	4170	mèar	mhèar
 71	4171	learg	
 72	4172	rionnach	rionnaich

@@ -57,7 +57,7 @@
 57	1257	fògarrach	fhògarrach fhògarraich fògarraich
 58	1258	rann	rainn rannan
 59	1259	comataidh	chomataidh chomataidhean comataidhean
-60	1260	ogsaid	dh'ogsaidean ocsaid ocsaidean ogsaidean ogsaidein t-ogsaidean
+60	1260	ogsaid	dh'ogsaidean ocsaid ocsaidean ocsaidein ogsaidean ogsaidein t-ogsaidean
 61	1261	tarsainn	tarsuinn tharsainn
 62	1262	tomhais	thomhais thomhaiseas tomhaiseadh tomhaisear tomhaisidh tomhaiste
 63	1263	gaisgeach	gaisgich ghaisgeach ghaisgich

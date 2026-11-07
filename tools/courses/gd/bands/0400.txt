@@ -5,7 +5,7 @@
 5	305	bòidheach	bhòidhche bhòidheach bhòidhich boidheach bòidhche bòidhich bòidhiche
 6	306	teine	teinidh teintean theine theintean
 7	307	rìgh	righ righrean rìghean rìghrean
-8	308	innis	dh'innis h-innis inniste innse innseachan innsean innsidh
+8	308	innis	dh'innis h-innis inniste innse innseachan innsean innseas innsibh innsidh
 9	309	bàta	bhata bhàta bhàtaichean bàtaicheaibh bàtaichean bàtan
 10	310	beò	beo beòtha bheò
 11	311	dhachaigh	dhachaidh
@@ -29,9 +29,9 @@
 29	329	deiseil	deiseile dheiseil
 30	330	ruig	ruigeadh ruigeam ruigeamaid ruigear ruigeas ruigheachd ruigidh ruiginn ruigte ràinig ràinigeadh
 31	331	sìos	sios
-32	332	smaoinich	smaoineachadh smaoineachaidh smaoineachdainn smaoinicheadh smaoinicheas smaoinichidh smaoinichte smaointich smaointinn smuaineachadh smuaineachaidh smuainich smuaintich smuaintinn
+32	332	smaoinich	smaoineachadh smaoineachaidh smaoineachdainn smaoinicheadh smaoinicheas smaoinichibh smaoinichidh smaoinichte smaointich smaointinn smuaineachadh smuaineachaidh smuainich smuaintich smuaintinn
 33	333	sgrìobhadair	sgriobhadair sgrìobhadairean
-34	334	feasgar	feasgair feasgaran fheasgair fheasgar
+34	334	feasgar	feasgair feasgairean feasgaran fheasgair fheasgar
 35	335	àird	aird dh'àird h-àird h-àirde h-àirdean h-àirdibh àirdibh
 36	336	laigh	laighe laigheadh laigheam laigheamaid laighear laigheas laighibh laighidh laighinn laighist laighiste laighte laighteadh laightear
 37	337	saoil	saoileadh saoileam saoilidh saoilsinn saoilte shaoil shaoileadh shaoilear
@@ -59,7 +59,7 @@
 59	359	saor	saoir saoire saora saoradh saoraidh saorte shaoir shaoire shaor shaora shaoradh shaoras
 60	360	eun	eoin eòin h-eun t-eun
 61	361	còrdadh	chòrdadh chòrdaidh chòrdaidhean cordadh còrdaidh còrdaidhean
-62	362	ruith	ruithe ruitheadh ruithean ruitheas ruithidh ruithte
+62	362	ruith	ruithe ruitheadh ruithean ruitheas ruithibh ruithidh ruithte
 63	363	bàs	bhas bhàis bhàs bàis bàsan
 64	364	toiseach	thoiseach toisichean
 65	365	madainn	maidne maidneadh maidnean mhadainn mhaidnean
@@ -80,7 +80,7 @@
 80	380	tuilleadh	thuilleadh
 81	381	leann	leanna leanntaidhean leanntan
 82	382	duilich	dhorra dhuilich dorra duilghe
-83	383	coimhead	choimhead choimheadamaid choimheadar choimheadas choimhid coimhdidh coimheadaidh coimheadte coimhid
+83	383	coimhead	choimhead choimheadamaid choimheadar choimheadas choimhid coimhdidh coimheadadh coimheadaidh coimheadte coimhid
 84	384	buin	bhuin bhuineadh bhuineas bhuntainn buineadh buinidh buinte buntainn
 85	385	seachd	sheachd
 86	386	eachdraidh	dh'eachdraidh eachdraidhe eachdraidhean h-eachdraidh t-eachdraidh

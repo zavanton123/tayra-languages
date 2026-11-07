@@ -51,7 +51,7 @@
 51	3851	tungstan	
 52	3852	duilleagach	dhuilleagach duilleabhrach duilleagaich
 53	3853	co-òrdaich	co-òrdaichidh co-òrdaichte co-òrdanachadh co-òrdanachaidh co-òrdanaich
-54	3854	dùblaich	dùblachadh
+54	3854	dùblaich	dùblachadh dùblaichidh
 55	3855	sunnd	shunnd
 56	3856	tomàto	tomàtothan
 57	3857	muicfheòil	muic-fheòil muicfheoil muicfheòla
@@ -60,7 +60,7 @@
 60	3860	claisneachd	chlaisneachd
 61	3861	breugnaich	bhreugnachadh breugnachadh
 62	3862	muineal	mhuineal muinealan muineil
-63	3863	peucag	peucagan peucaige pheucaig
+63	3863	peucag	peucagan peucaig peucaige pheucaig
 64	3864	balg	bhalg
 65	3865	àrsaidheachd	h-àrsaidheachd
 66	3866	seàirdeant	seàirdeantan seàirdeint sàirdseant
@@ -70,7 +70,7 @@
 70	3870	snàthad	snàthadan snàthaid
 71	3871	creachann	chreachainn chreachann creachainn creachannan
 72	3872	dealrach	dhealraich
-73	3873	pàillean	pàilleanan
+73	3873	pàillean	pàilleanan pàillein
 74	3874	camag	camagan camaige chamagan
 75	3875	dròbhair	dròbhairean
 76	3876	pioramaid	pioramaidean

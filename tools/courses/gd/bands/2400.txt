@@ -4,7 +4,7 @@
 4	2304	alltan	alltain t-alltan
 5	2305	sàth	shàth shàthadh sàith sàthadh
 6	2306	partan	partain partanan phartan
-7	2307	turaid	turaidean
+7	2307	turaid	turaide turaidean
 8	2308	roinniche	
 9	2309	dathte	dhathte
 10	2310	ceann-latha	ceann-lathaaibh cheann-latha cheann-lathaa cheann-lathaaibh cinn-latha
@@ -34,12 +34,12 @@
 34	2334	bòid	bhoid bhòid bhòidean bòide bòidean mòid
 35	2335	teasach	teasaich teasaichean theasaich
 36	2336	leathar	leathair
-37	2337	faiceallach	faicealach faiceallaich faichilleach faicleach
+37	2337	faiceallach	faicealach faiceallaich faiceallaiche faichilleach faicleach
 38	2338	ceithreamh	
 39	2339	rèididheachd	rèididheachdan réididheachd
 40	2340	riaghlach	riaghlaich
 41	2341	urchair	urchaire urchaireach urchairean urchrach urchraichean
-42	2342	dìochuimhnich	dhìochuimhneachadh dhìochuimhnich dhìochuimhnicheamaid dhìochuimhnichinn dhìochuimhnichist dhìochuimhnichiste dhìochuimhnichteadh dìochuimhneachadh dìochuimhnicheadh dìochuimhnicheam dìochuimhnicheamaid dìochuimhnichear dìochuimhnichibh dìochuimhnichidh dìochuimhnichinn dìochuimhnichist dìochuimhnichiste dìochuimhnichte dìochuimhnichteadh dìochuimhnichtear
+42	2342	dìochuimhnich	dhìochuimhneachadh dhìochuimhnich dhìochuimhnicheamaid dhìochuimhnichinn dhìochuimhnichist dhìochuimhnichiste dhìochuimhnichteadh dìochuimhneachadh dìochuimhnicheadh dìochuimhnicheam dìochuimhnicheamaid dìochuimhnichear dìochuimhnicheas dìochuimhnichibh dìochuimhnichidh dìochuimhnichinn dìochuimhnichist dìochuimhnichiste dìochuimhnichte dìochuimhnichteadh dìochuimhnichtear
 43	2343	gailearaidh	gailearaidhean gaileiridh gaileiridhean ghailearaidh
 44	2344	aithriseach	aithrisiche
 45	2345	dàimheach	dhàimheach dàimhich
