@@ -127,7 +127,7 @@ lesson to make sense.
 
 **Months and days are names here:** do not teach them, and put the ones you use in `names`, written as you write
 them (*հունվարին*, *երկուշաբթի օրը*: a name's case endings are counted with it, see below). The list has most of
-them as words (*մարտ* 189 is also "battle", *մայիս*, *ապրիլ*, *սեպտեմբեր*...), so a month in `names` counts as
+them as words (*մարտ* 245 is also "battle", *մայիս*, *ապրիլ*, *սեպտեմբեր*...), so a month in `names` counts as
 known; do not use one to reach the two uses a new word needs.
 
 **The checker counts a name's article and case endings with it**: list *Արամ* and it reads *Արամը, Արամն,
@@ -176,22 +176,22 @@ never wars, rulers or massacres.
 Skip band words that only fit these topics, and say so in your report. The skip list for the first 1000 ranks
 (rank in the pinned list):
 
-- politics and the state: *նախագահ* 70, *կառավարություն* 115, *վարչապետ* 117, *քաղաքացի* 126, *ազգային* 128,
-  *նախարար* 129, *իշխանություն* 156, *հանրապետություն* 161, *իրավունք* 164 only as "a right" in plain everyday
-  use, *քաղաքական* 178, *ոստիկանություն* 188, *պետական* 196, *ժողովուրդ* 203, *օրենք* 227, *պատգամավոր* 234,
-  *նախարարություն* 266, *պետություն* 276, *անվտանգություն* 284, *կուսակցություն* 375, *իշխանություն*,
-  *ընտրություն* 356 only as "choice", *պաշտպանություն* 355, *խմբակցություն*, *սահմանադրական*, *հեղափոխություն*,
+- politics and the state: *նախագահ* 103, *կառավարություն* 155, *վարչապետ* 159, *քաղաքացի* 152, *ազգային* 164,
+  *նախարար* 167, *իշխանություն* 203, *հանրապետություն* 206, *իրավունք* 200 only as "a right" in plain everyday
+  use, *քաղաքական* 225, *ոստիկանություն* 227, *պետական* 259, *ժողովուրդ* 267, *օրենք* 288, *պատգամավոր* 305,
+  *նախարարություն* 346, *պետություն* 354, *անվտանգություն* 373, *կուսակցություն* 456, *իշխանություն*,
+  *ընտրություն* 419 only as "choice", *պաշտպանություն* 442, *խմբակցություն*, *սահմանադրական*, *հեղափոխություն*,
   *խորհրդարան*, *դեսպան*, *նահանգ*, *ադրբեջանական*, *ռուսական*, *եվրոպական*;
-- war, crime, police, courts: *պատերազմ* 168, *դատարան* 167, *սպանել* 251, *ուժ* 134 only as "strength",
+- war, crime, police, courts: *պատերազմ* 202, *դատարան* 221, *սպանել* 280, *ուժ* 165 only as "strength",
   *բանակ*, *զինվոր*, *զորք*, *ռազմական*, *զենք*, *թշնամի*, *քրեական*, *դատական*, *փաստաբան*, *դատավոր*,
   *սպանություն*, *հարձակում*, *զոհ*, *ոստիկան*, *դավաճան*, *հանցագործություն*, *կռիվ*, *կրակել*, *սուր*, *թուր*,
-  *դաշույն*, *մարտ* 189 only as the month (a name), *մարտական*, *արքա*, *արքայազն*, *թագավոր*, *գահ*, *պալատ* only
+  *դաշույն*, *մարտ* 245 only as the month (a name), *մարտական*, *արքա*, *արքայազն*, *թագավոր*, *գահ*, *պալատ* only
   as a building;
-- religion: *եկեղեցի* 280, *աստված*, *սուրբ*, *տաճար* only as a building of the past;
-- death: *մահ* 158, *մահանալ*, *մեռնել*, *գերեզման*, *վերք*, *արյուն*;
-- the pandemic of the news years (list noise from the 2020 news corpus): *կորոնավիրուս* 140, *համավարակ*, *վարակ*,
+- religion: *եկեղեցի* 322, *աստված*, *սուրբ*, *տաճար* only as a building of the past;
+- death: *մահ* 204, *մահանալ*, *մեռնել*, *գերեզման*, *վերք*, *արյուն*;
+- the pandemic of the news years (list noise from the 2020 news corpus): *կորոնավիրուս* 185, *համավարակ*, *վարակ*,
   *դիմակ* only as a carnival mask;
-- names and peoples: *հայ* 133, *հայկական* 229, *հայոց*, *Հայաստան*, the months.
+- names and peoples: *հայ* 173, *հայկական* 298, *հայոց*, *Հայաստան*, the months.
 
 Further on, the same categories hold.
 
@@ -237,11 +237,11 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, 
 
 Things to know about the Armenian list and the checker:
 
-- The courses are pinned to `tools/courses/hy/wordlist.tsv`, a copy of the app's `hy.tsv`. Half its weight is a
-  small news corpus (2020: the pandemic, the government), three tenths Armenian Wikipedia (each sentence once), a
-  fifth a very small subtitle corpus. There is no everyday corpus, so many kitchen and family words stand late:
-  *հաց* 2429, *թեյ* 3124, *կատու* 1429, *տատիկ* 2794, *հեռախոս* 2257, *ավտոբուս* 2598. Check with `rank.py`; say
-  *ուտելիք*, *սեղան*, *տուն* where the level needs it.
+- The courses are pinned to `tools/courses/hy/wordlist.tsv`, a copy of the app's `hy.tsv`. Two fifths of its weight
+  are a small news corpus (2020: the pandemic, the government), a quarter Armenian Wikipedia (each sentence once), a sixth
+  a very small subtitle corpus and a fifth Tatoeba's everyday sentences. Even so, kitchen and family words stand
+  later than a learner meets them: *հաց* 1084, *թեյ* 1240, *կատու* 569, *տատիկ* 2286, *հեռախոս* 1014, *ավտոբուս*
+  1327. Check with `rank.py`; say *ուտելիք*, *սեղան*, *տուն* where the level needs it.
 - **Forms are written out**: the list files each form under its word (*գնացի*, *գնում*, *կգնա* under *գնալ*; *տան*,
   *տանը*, *տնից* under *տուն*; *է*, *էր*, *չի* under *եմ*). The negative *չ-* and the future *կ-* are written onto the
   verb (*չգիտեմ*, *կգնամ*): when the checker reads one as outside, the form is missing; write around it or report
@@ -249,4 +249,4 @@ Things to know about the Armenian list and the checker:
 - **Spellings shared by two words**: a form is counted for the word that holds it, so look it up with `rank.py`
   before relying on it. *կա* (there is) holds *կան, կար, չկա*; *մեր* is under *մենք*, *ձեր* under *դուք*, *իր* is
   its own word; *որոշում* is "decision" and also a form of *որոշել*; *գնում* is both *գնալ*'s and "purchase".
-- *ի* 68 is the old preposition of fixed phrases (*ի դեպ*, *ի վերջո*, *ի՞նչ* is *ինչ*).
+- *ի* 97 is the old preposition of fixed phrases (*ի դեպ*, *ի վերջո*, *ի՞նչ* is *ինչ*).
