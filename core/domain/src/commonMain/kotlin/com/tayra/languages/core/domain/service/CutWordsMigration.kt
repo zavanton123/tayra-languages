@@ -96,8 +96,8 @@ class CutWordsMigration(
     }
 
     private companion object {
-        /** The parsers that cut a word written as one into words. */
-        val PARSERS = setOf("arabic", "thai")
+        /** The parsers that cut a word written as one into words, or came to match words folded (Persian). */
+        val PARSERS = setOf("arabic", "thai", "persian")
 
         /** Those whose saved words stay whole: only their phrases are cut again. */
         val WHOLE_WORDS = setOf("thai")
