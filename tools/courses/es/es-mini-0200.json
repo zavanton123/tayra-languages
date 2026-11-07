@@ -25,7 +25,6 @@
     "José",
     "Valencia",
     "Amparo",
-    "San José",
     "España",
     "Pilar",
     "Florencia",
@@ -74,7 +73,7 @@
         "lugar",
         "momento"
       ],
-      "text": "Arturo vive en la Ciudad de México. Hoy tiene que ir al centro con su carro. Llega al centro y busca un lugar para dejarlo. Pero no hay ningún lugar.\n\nArturo mira por todas partes. No hay ningún lugar. Mira otra vez. No hay ninguno. «¿No hay ningún lugar aquí?», dice.\n\nArturo busca y busca. Pasa por un lugar y después por otro. Pierde mucho tiempo. No quiere perder más tiempo.\n\nEn un momento, Arturo ve a dos personas con un carro. Piensa: «¿Alguien va a salir de aquí?» Pero nadie sale. Las dos personas solo están hablando. Nadie deja su lugar.\n\nArturo sigue buscando. Llega a la última parte del centro. Mira bien. ¡Aquí hay un último lugar! Arturo deja su carro en ese lugar.\n\nEn ese momento, llega otro carro. También busca un lugar, pero ya no hay ninguno. ¡Qué bien! Arturo llega en el último momento.\n\nPreguntas:\n¿Qué busca Arturo?\nArturo busca un lugar para dejar su carro.\n¿Qué pierde Arturo?\nArturo pierde mucho tiempo.\n¿Sale alguien de su lugar?\nNo, nadie sale de su lugar.\n¿En qué parte del centro encuentra Arturo un lugar?\nEncuentra un lugar en la última parte del centro.\n¿Qué pasa en ese momento?\nEn ese momento llega otro carro, pero ya no hay ningún lugar."
+      "text": "Arturo vive en la Ciudad de México. Hoy tiene que ir al centro con su carro. Llega al centro y busca un lugar para dejarlo. Pero no hay ningún lugar.\n\nArturo mira por todas partes. No hay ningún lugar. Mira otra vez. No hay ninguno. «¿No hay ningún lugar aquí?», dice.\n\nArturo busca y busca. Pasa por un lugar y después por otro. Pierde mucho tiempo. No quiere perder más tiempo.\n\nEn un momento, Arturo ve a dos personas con un carro. Piensa: «¿Alguien va a salir de aquí?» Pero nadie sale. Las dos personas solo están hablando. Nadie deja su lugar.\n\nArturo sigue buscando. Llega a la última parte del centro. Mira bien. ¡Aquí queda un lugar, el último! Arturo deja su carro en ese lugar.\n\nEn ese momento, llega otro carro. También busca un lugar, pero ya no hay ninguno. ¡Qué bien! Arturo llega en el último momento.\n\nPreguntas:\n¿Qué busca Arturo?\nArturo busca un lugar para dejar su carro.\n¿Qué pierde Arturo?\nArturo pierde mucho tiempo.\n¿Sale alguien de su lugar?\nNo, nadie sale de su lugar.\n¿En qué parte del centro encuentra Arturo un lugar?\nEncuentra un lugar en la última parte del centro.\n¿Qué pasa en ese momento?\nEn ese momento llega otro carro, pero ya no hay ningún lugar."
     },
     {
       "title": "Una vecina nueva",
@@ -141,26 +140,23 @@
         "punto",
         "mayor",
         "durante",
-        "hoy",
-        "cual"
+        "hoy"
       ],
-      "text": "Ignacio tiene 12 años y vive en Santiago de Chile. Hoy tiene un partido de fútbol muy importante. Los niños de su escuela van a jugar contra los niños de otra escuela.\n\nLos dos equipos están en el mismo grupo. Ignacio y sus amigos van segundos en el grupo, con 7 puntos. El otro equipo va primero, con 9 puntos. Hoy Ignacio y sus amigos tienen que ganar.\n\nBenjamín, el hermano mayor de Ignacio, va a ver el partido. Benjamín tiene 18 años. Es mayor, pero le gustan mucho los partidos de niños.\n\nAntes del partido, cada cual va a su lugar. Durante la primera parte, no pasa nada. Durante la segunda parte, Ignacio hace un gol.\n\nDespués, los otros niños hacen todo por ganar, pero no pueden. ¡Ignacio y sus amigos ganan contra el primer equipo del grupo! Ahora tienen 10 puntos y van primeros.\n\nBenjamín le dice: «¡Muy bien, Ignacio! ¡Hoy ganan por ti!» Después del partido, cada cual vuelve a su casa. Ignacio vuelve con Benjamín.\n\nPreguntas:\n¿Qué tiene Ignacio hoy?\nHoy tiene un partido.\n¿Van primeros Ignacio y sus amigos antes del partido?\nNo, van segundos en el grupo, con 7 puntos.\n¿Va Benjamín a ver el partido?\nSí, Benjamín, su hermano mayor, va a ver el partido.\n¿Qué pasa durante la segunda parte?\nDurante la segunda parte, Ignacio hace un gol.\n¿Ganan el partido Ignacio y sus amigos?\nSí, ganan el partido contra el primer equipo del grupo."
+      "text": "Ignacio tiene 12 años y vive en Santiago de Chile. Hoy tiene un partido de fútbol muy importante. Los niños de su escuela van a jugar contra los niños de otra escuela.\n\nLos dos equipos están en el mismo grupo. Ignacio y sus amigos van segundos en el grupo, con 7 puntos. El otro equipo va primero, con 9 puntos. Hoy Ignacio y sus amigos tienen que ganar.\n\nBenjamín, el hermano mayor de Ignacio, va a ver el partido. Benjamín tiene 18 años. Es mayor, pero le gustan mucho los partidos de niños.\n\nAntes del partido, cada uno va a su lugar. Durante la primera parte, no pasa nada. Durante la segunda parte, Ignacio hace un gol.\n\nDespués, los otros niños hacen todo por ganar, pero no pueden. ¡Ignacio y sus amigos ganan contra el primer equipo del grupo! Ahora tienen 10 puntos y van primeros.\n\nBenjamín le dice: «¡Muy bien, Ignacio! ¡Hoy ganan por ti!» Después del partido, cada uno vuelve a su casa. Ignacio vuelve con Benjamín.\n\nPreguntas:\n¿Qué tiene Ignacio hoy?\nHoy tiene un partido.\n¿Van primeros Ignacio y sus amigos antes del partido?\nNo, van segundos en el grupo, con 7 puntos.\n¿Va Benjamín a ver el partido?\nSí, Benjamín, su hermano mayor, va a ver el partido.\n¿Qué pasa durante la segunda parte?\nDurante la segunda parte, Ignacio hace un gol.\n¿Ganan el partido Ignacio y sus amigos?\nSí, ganan el partido contra el primer equipo del grupo."
     },
     {
-      "title": "El santo de José",
-      "summary": "In Valencia, Amparo invites the grown-up children home to celebrate their father José's saint's day.",
+      "title": "El cumpleaños de José",
+      "summary": "In Valencia, Amparo invites the grown-up children home to celebrate their father José's 70th birthday.",
       "newWords": [
-        "santo",
         "mujer",
         "hombre",
         "mes",
-        "dios",
         "parecer",
         "quien",
         "les",
         "propio"
       ],
-      "text": "José es un hombre de 70 años. Vive en Valencia con su mujer, Amparo. Este mes es muy bueno para José: el día 19 es su santo, el día de San José.\n\nEn España, para mucha gente, el día de su santo es casi como un segundo cumpleaños. José es un hombre a quien le gusta mucho estar con sus hijos.\n\nAmparo llama a sus tres hijos. Les dice: «Venid a casa el día 19. Es el santo de vuestro padre.» Los hijos ya tienen sus propias casas y sus propios hijos, pero les parece muy bien.\n\nEl día 19, los hijos llegan con sus familias. Con tanta gente, la casa parece muy pequeña.\n\nJosé los ve a todos y dice: «¡Dios mío, cuánta gente!» Su hija mayor, Pilar, es quien le da un regalo.\n\nJosé mira a su mujer y a sus hijos. Les dice: «Gracias a Dios, estamos todos aquí. Me parece el mejor santo de mi vida.»\n\nPreguntas:\n¿Con quién vive José?\nJosé vive con su mujer, Amparo.\n¿Qué día es el santo de José?\nSu santo es el día 19 de este mes.\n¿Qué les dice Amparo a sus hijos?\nLes dice: «Venid a casa el día 19.»\n¿Qué hace Pilar?\nPilar, la hija mayor, le da un regalo a José.\n¿Qué dice José al ver a todos?\nDice: «Gracias a Dios, estamos todos aquí.»"
+      "text": "José es un hombre de 70 años. Vive en Valencia con su mujer, Amparo. Este mes es muy bueno para José: el día 19 es su cumpleaños.\n\nJosé es un hombre a quien le gusta mucho estar con sus hijos.\n\nAmparo llama a sus tres hijos. Les dice: «Venid a casa el día 19. Es un día muy bueno para vuestro padre.» Los hijos ya tienen sus propias casas y sus propios hijos, pero les parece muy bien.\n\nEl día 19, los hijos llegan con sus familias. Con tanta gente, la casa parece muy pequeña.\n\nJosé los ve a todos y dice: «¡Qué bien, cuánta gente!» Su hija mayor, Pilar, es quien le da un regalo.\n\nJosé mira a su mujer y a sus hijos. Les dice: «Estamos todos aquí. Me parece el mejor cumpleaños de mi vida.»\n\nPreguntas:\n¿Con quién vive José?\nJosé vive con su mujer, Amparo.\n¿Qué día es el cumpleaños de José?\nSu cumpleaños es el día 19 de este mes.\n¿Qué les dice Amparo a sus hijos?\nLes dice: «Venid a casa el día 19.»\n¿Qué hace Pilar?\nPilar, la hija mayor, le da un regalo a José.\n¿Qué dice José al ver a todos?\nDice: «Estamos todos aquí.»"
     },
     {
       "title": "Un día en casa",
@@ -201,15 +197,13 @@
       "newWords": [
         "cada",
         "mundo",
-        "gobierno",
         "nacional",
         "público",
-        "general",
         "ley",
         "social",
         "bajo"
       ],
-      "text": "Mariana tiene 15 años y vive en Costa Rica. Hoy va con su padre, Óscar, a Manuel Antonio. Manuel Antonio es un parque nacional.\n\nEs un lugar público. Cada año, gente de todo el mundo viene aquí. «Es uno de los mejores lugares del mundo», dice Óscar.\n\nAl llegar, un hombre bajo les habla a todos: «Este es un parque nacional. Es del gobierno, y es para todo el público. El gobierno tiene una ley: nadie puede llevar nada de aquí. Todo se queda aquí.»\n\nMariana y Óscar van por la parte baja de Manuel Antonio. Cada poco tiempo, ven animales. Mariana toma fotos para sus redes sociales.\n\n«¿Es una buena ley?», le dice Mariana a Óscar. «Sí», dice él. «En general, la gente sigue la ley. Así, Manuel Antonio es de todo el mundo, cada año.»\n\nPor la noche, Mariana pone una última foto en sus redes sociales. Escribe: «Un día en el mejor lugar del mundo.» En general, a Mariana no le gusta escribir mucho, pero hoy sí.\n\nPreguntas:\n¿Qué es Manuel Antonio?\nManuel Antonio es un parque nacional de Costa Rica.\n¿Manuel Antonio es del gobierno?\nSí, es del gobierno, y es para todo el público.\n¿Qué dice la ley?\nNadie puede llevar nada de Manuel Antonio.\n¿Para qué toma fotos Mariana?\nToma fotos para sus redes sociales.\n¿Qué escribe Mariana con la última foto?\nEscribe: «Un día en el mejor lugar del mundo.»"
+      "text": "Mariana tiene 15 años y vive en Costa Rica. Hoy va con su padre, Óscar, a Manuel Antonio. Manuel Antonio es un parque nacional.\n\nEs un lugar público. Cada año, gente de todo el mundo viene aquí. «Es uno de los mejores lugares del mundo», dice Óscar.\n\nAl llegar, un hombre bajo les habla a todos: «Este es un parque nacional. Es de todos, y es para todo el público. El parque tiene una ley: nadie puede llevar nada de aquí. Todo se queda aquí.»\n\nMariana y Óscar van por la parte baja de Manuel Antonio. Cada poco tiempo, ven animales. Mariana toma fotos para sus redes sociales.\n\n«¿Es una buena ley?», le dice Mariana a Óscar. «Sí», dice él. «La gente sigue la ley. Así, cada año, Manuel Antonio está muy bien para la gente de todo el mundo.»\n\nPor la noche, Mariana pone una última foto en sus redes sociales. Escribe: «Un día en el mejor lugar del mundo.» A Mariana no le gusta mucho escribir, pero hoy sí.\n\nPreguntas:\n¿Qué es Manuel Antonio?\nManuel Antonio es un parque nacional de Costa Rica.\n¿Manuel Antonio es para todo el público?\nSí, es para todo el público.\n¿Qué dice la ley?\nNadie puede llevar nada de Manuel Antonio.\n¿Para qué toma fotos Mariana?\nToma fotos para sus redes sociales.\n¿Qué escribe Mariana con la última foto?\nEscribe: «Un día en el mejor lugar del mundo.»"
     }
   ]
 }
