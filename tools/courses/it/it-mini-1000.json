@@ -60,7 +60,10 @@
     "Po",
     "Italia",
     "America",
-    "New York"
+    "New York",
+    "Pechino",
+    "Madrid",
+    "Londra"
   ],
   "lessons": [
     {
@@ -124,18 +127,14 @@
         "vento",
         "ampio",
         "monte",
-        "marino",
-        "battaglia"
+        "marino"
       ],
-      "text": "Matteo ha 30 anni e vuole fare una festa sull'isola dove è nato, la Sardegna. Ora vive a Genova, ma la sua famiglia abita ancora a Cagliari. Per la festa chiama due amici di Genova: Davide e Chiara.\n\nDavide viene in aereo. L'aereo parte da Genova e arriva a Cagliari in un'ora. Chiara non ama l'aereo, quindi prende la nave. La nave parte la sera e arriva a Olbia la mattina dopo. Dalla stazione di Olbia Chiara prende un treno diretto per Cagliari. Dopo qualche ora vede Matteo, che la aspetta alla stazione con Davide.\n\nIl giorno dopo i tre amici vanno al mare, in un posto ampio e bello. Davanti a loro il mare è ampio e blu. C'è un vento forte, e l'acqua è fredda. Davide fa una battaglia d'acqua con Chiara, e Matteo li guarda ridere. Poi Matteo dice: «Questa è una zona marina. L'acqua è bella, e ci sono tanti animali marini.»\n\nPiù tardi vanno su un monte vicino al mare. Da lì si vede tutta l'isola. Il vento è ancora più forte, e Chiara tiene il cappello con tutte e due le mani. «Questa isola è molto bella!», dice. «Fra due giorni torno a Genova in nave, ma tornerò presto.»\n\nLa sera la famiglia di Matteo prepara da mangiare per tutti. Davide porta un libro, Chiara porta la musica, e tutti fanno festa insieme.\n\nDomande:\nCome viaggia Davide?\nDavide viaggia in aereo.\nPerché Chiara prende la nave?\nPerché non ama l'aereo.\nChe treno prende Chiara a Olbia?\nPrende un treno diretto per Cagliari.\nChe cosa fanno gli amici al mare?\nFanno una battaglia d'acqua.\nChe cosa vedono dal monte?\nDal monte vedono tutta l'isola."
+      "text": "Matteo ha 30 anni e vuole fare una festa sull'isola dove è nato, la Sardegna. Ora vive a Genova, ma la sua famiglia abita ancora a Cagliari. Per la festa chiama due amici di Genova: Davide e Chiara.\n\nDavide viene in aereo. L'aereo parte da Genova e arriva a Cagliari in un'ora. Chiara non ama l'aereo, quindi prende la nave. La nave parte la sera e arriva a Olbia la mattina dopo. Dalla stazione di Olbia Chiara prende un treno diretto per Cagliari. Dopo qualche ora vede Matteo, che la aspetta alla stazione con Davide.\n\nIl giorno dopo i tre amici vanno al mare, in un posto ampio e bello. Davanti a loro il mare è ampio e blu. C'è un vento forte, e l'acqua è fredda. Davide e Chiara giocano con l'acqua, e Matteo li guarda ridere. Poi Matteo dice: «Questa è una zona marina. L'acqua è bella, e ci sono tanti animali marini.»\n\nPiù tardi vanno su un monte vicino al mare. Da lì si vede tutta l'isola. Il vento è ancora più forte, e Chiara tiene il cappello con tutte e due le mani. «Questa isola è molto bella!», dice. «Fra due giorni torno a Genova in nave, ma tornerò presto.»\n\nLa sera la famiglia di Matteo prepara da mangiare per tutti. Davide porta un libro, Chiara porta la musica, e tutti fanno festa insieme.\n\nDomande:\nCome viaggia Davide?\nDavide viaggia in aereo.\nPerché Chiara prende la nave?\nPerché non ama l'aereo.\nChe treno prende Chiara a Olbia?\nPrende un treno diretto per Cagliari.\nChe cosa fanno gli amici al mare?\nDavide e Chiara giocano con l'acqua.\nChe cosa vedono dal monte?\nDal monte vedono tutta l'isola."
     },
     {
       "title": "La festa nel giardino",
       "summary": "Sofia holds an international party in her Milan garden; neighbours from China, Spain and the United Kingdom bring food.",
       "newWords": [
-        "cinese",
-        "spagnolo",
-        "regno",
         "composto",
         "contenere",
         "interessare",
@@ -144,7 +143,7 @@
         "cattivo",
         "riprendere"
       ],
-      "text": "Sofia abita a Milano, in un palazzo con molti vicini. Stasera fa una festa nel giardino, e ogni persona porta del cibo del suo paese. Il gruppo è composto da persone di quattro paesi diversi.\n\nWen, un vicino cinese, porta carne con riso. Carlos, un amico spagnolo, porta un grande dolce spagnolo. Lucy viene dal Regno Unito e porta il pane. «Il Regno Unito ha un cibo molto diverso», dice. Sofia prepara il cibo italiano.\n\nIl cibo di Wen contiene carne e verdure. Il dolce di Carlos contiene uova e frutta. Sofia chiede a Wen: «Come prepari il cibo cinese?» Wen risponde: «È una ricetta di mia nonna. Ti interessa? Domani te la scrivo.» A Sofia interessa molto. Prende un po' di cibo, lo mette in bocca e dice: «Molto buono!»\n\nIl piccolo Leo, il figlio di Sofia, vuole toccare il dolce spagnolo, ma Carlos lo ferma. «Aspetta un po'», dice. Leo aspetta, poi mangia un pezzo. Ha la bocca piena e non può parlare, ma fa un grande sorriso. «Non è cattivo, vero?», chiede Carlos. Leo fa di no con la testa: non è cattivo, è la cosa migliore della festa! Subito dopo vuole riprendere un altro pezzo.\n\nDopo il dolce tutti ascoltano una storia di Lucy sul suo paese. Poi Carlos mette la musica, e la festa riprende. Tutti ballano nel giardino. Alla fine Sofia dice: «Facciamo questa festa ogni anno!» E tutti i vicini dicono di sì.\n\nDomande:\nDa quante persone di paesi diversi è composto il gruppo?\nIl gruppo è composto da persone di quattro paesi diversi.\nChe cosa contiene il cibo di Wen?\nIl cibo di Wen contiene carne e verdure.\nChe cosa vuole toccare Leo?\nLeo vuole toccare il dolce spagnolo.\nChe cosa pensa Leo del dolce?\nPensa che non è cattivo: per lui è la cosa migliore della festa.\nChe cosa fa Carlos dopo il dolce?\nCarlos mette la musica, e la festa riprende."
+      "text": "Sofia abita a Milano, in un palazzo con molti vicini. Stasera fa una festa nel giardino, e ogni persona porta del cibo del suo paese. Il gruppo è composto da persone di quattro paesi diversi.\n\nWen, un vicino che viene da Pechino, porta carne con riso. Carlos, un amico di Madrid, porta un grande dolce. Lucy viene da Londra e porta il pane. «A Londra il cibo è molto diverso», dice. Sofia prepara il cibo italiano.\n\nIl cibo di Wen contiene carne e verdure. Il dolce di Carlos contiene uova e frutta. Sofia chiede a Wen: «Come prepari questo piatto?» Wen risponde: «È una ricetta di mia nonna. Ti interessa? Domani te la scrivo.» A Sofia interessa molto. Prende un po' di cibo, lo mette in bocca e dice: «Molto buono!»\n\nIl piccolo Leo, il figlio di Sofia, vuole toccare il dolce di Carlos, ma Carlos lo ferma. «Aspetta un po'», dice. Leo aspetta, poi mangia un pezzo. Ha la bocca piena e non può parlare, ma fa un grande sorriso. «Non è cattivo, vero?», chiede Carlos. Leo fa di no con la testa: non è cattivo, è la cosa migliore della festa! Subito dopo vuole riprendere un altro pezzo.\n\nDopo il dolce tutti ascoltano una storia di Lucy sul suo paese. Poi Carlos mette la musica, e la festa riprende. Tutti ballano nel giardino. Alla fine Sofia dice: «Facciamo questa festa ogni anno!» E tutti i vicini dicono di sì.\n\nDomande:\nDa quante persone di paesi diversi è composto il gruppo?\nIl gruppo è composto da persone di quattro paesi diversi.\nChe cosa contiene il cibo di Wen?\nIl cibo di Wen contiene carne e verdure.\nChe cosa vuole toccare Leo?\nLeo vuole toccare il dolce di Carlos.\nChe cosa pensa Leo del dolce?\nPensa che non è cattivo: per lui è la cosa migliore della festa.\nChe cosa fa Carlos dopo il dolce?\nCarlos mette la musica, e la festa riprende."
     },
     {
       "title": "Una domenica a teatro",
@@ -153,13 +152,11 @@
         "domenica",
         "teatro",
         "scrittore",
-        "mandato",
         "esterno",
         "tratto",
         "concetto",
         "carattere",
-        "appunto",
-        "amo"
+        "appunto"
       ],
       "text": "Luca e Marta sono amici da molti anni. Domenica vanno a teatro, a Bologna. Il loro amico Alberto è uno scrittore, e questa volta ha scritto un lavoro per il teatro, tratto dal suo primo libro.\n\nAlberto ha mandato a Luca e a Marta due biglietti e un messaggio: «Venite domenica alle 4. Vi aspetto all'esterno del teatro.»\n\nDomenica fa bel tempo. Luca e Marta arrivano un po' prima e aspettano nel giardino esterno del teatro. «Amo il teatro», dice Marta, «ma ci vado poco. E tu, Luca, ami il teatro?» «Io amo i libri», risponde Luca. «Ma il lavoro di Alberto è tratto da un libro che ho letto, e sono curioso.» Alberto arriva, li saluta e li porta ai loro posti.\n\nIl concetto della storia è semplice: tre amici fanno una festa, ma ogni amico ha un carattere molto diverso. Il primo parla poco, il secondo parla sempre, il terzo non arriva mai in tempo. Il carattere dei tre amici fa ridere tutti. Marta ride tanto che non può parlare. Luca dice piano: «Alberto scrive storie semplici sull'amicizia, appunto quelle che mi piacciono.» «Appunto!», dice Marta. «Anche a me piacciono così.»\n\nDopo la storia Alberto esce dal teatro con loro. «Allora, vi è piaciuto?», chiede. «Molto!», dice Marta. «Il concetto è chiaro, e il carattere del terzo amico è perfetto.» «Quel carattere è tratto da una persona che conosco bene», dice Alberto ridendo. «Ma non dico il nome!» Marta guarda Luca. Luca guarda il cielo e fa finta di niente.\n\nDomande:\nChe cosa fa Alberto?\nAlberto è uno scrittore.\nChe cosa ha mandato Alberto a Luca e a Marta?\nHa mandato due biglietti e un messaggio.\nDove aspettano Luca e Marta?\nAspettano nel giardino esterno del teatro.\nQual è il concetto della storia?\nTre amici fanno una festa, ma ogni amico ha un carattere molto diverso.\nChe cosa fa Luca quando Marta lo guarda?\nLuca guarda il cielo e fa finta di niente."
     },
@@ -219,11 +216,9 @@
         "ritenere",
         "riferire",
         "difendere",
-        "economia",
-        "legale",
-        "lega"
+        "economia"
       ],
-      "text": "Nadia, Piero e Ivo sono amici da sempre. Stasera giocano a «vero o falso» a casa di Nadia. Nadia legge una domanda, e gli altri due devono dire se è vera o falsa. Chi ha più punti vince il dolce.\n\nNadia comincia: «Il Po è il fiume più lungo d'Italia. Vero o falso?» «Vero!», dicono Piero e Ivo. Nadia sorride: «Giusto. Un punto per tutti e due.»\n\nLa seconda domanda è più difficile: «In Italia l'ora legale c'è d'inverno.» Piero risponde subito: «Falso! C'è d'estate.» Ivo ritiene vera la frase e non è d'accordo. «No, Piero, hai torto», dice. Ma Nadia riferisce la risposta del libro: Piero ha ragione, e il punto va a lui. Ivo chiede: «Che cosa riferisce il libro, esattamente?» Nadia legge ancora, e Ivo riconosce che Piero ha ragione.\n\nPoi Nadia dice: «Piero studia economia all'università. Vero o falso?» «Vero», dice Ivo, «e adesso la domanda su di lui è finita!» Tutti ridono. Subito dopo Ivo sbaglia una risposta sul calcio, e Nadia gli chiede: «Ma tu non giochi nella lega della città?» «Sì, la lega è molto importante per me, ma non ricordo tutto», risponde Ivo. Difende la sua risposta con forza, ma Nadia legge il libro ad alta voce, e anche questa volta la risposta di Ivo è falsa.\n\nAlla fine ogni amico ha 5 punti. Nadia ritiene giusto dividere il dolce in tre parti. «Il gioco è stato bello, e il dolce è buono», dice. Piero difende l'idea: «Brava! Un solo vincitore è meno divertente di tre amici felici.»\n\nDomande:\nA che gioco giocano i tre amici?\nGiocano a «vero o falso».\nChe cosa risponde Piero sull'ora legale?\nRisponde che la domanda è falsa, perché l'ora legale c'è d'estate.\nChe cosa riferisce Nadia?\nRiferisce la risposta del libro: Piero ha ragione.\nChe cosa studia Piero?\nPiero studia economia all'università.\nCome finisce il gioco?\nOgni amico ha 5 punti, e Nadia divide il dolce in tre parti."
+      "text": "Nadia, Piero e Ivo sono amici da sempre. Stasera giocano a «vero o falso» a casa di Nadia. Nadia legge una domanda, e gli altri due devono dire se è vera o falsa. Chi ha più punti vince il dolce.\n\nNadia comincia: «Il Po è il fiume più lungo d'Italia. Vero o falso?» «Vero!», dicono Piero e Ivo. Nadia sorride: «Giusto. Un punto per tutti e due.»\n\nLa seconda domanda è più difficile: «In Italia l'ora legale c'è d'inverno.» Piero risponde subito: «Falso! C'è d'estate.» Ivo ritiene vera la frase e non è d'accordo. «No, Piero, hai torto», dice. Ma Nadia riferisce la risposta del libro: Piero ha ragione, e il punto va a lui. Ivo chiede: «Che cosa riferisce il libro, esattamente?» Nadia legge ancora, e Ivo riconosce che Piero ha ragione.\n\nPoi Nadia dice: «Piero studia economia all'università. Vero o falso?» «Vero», dice Ivo, «e adesso la domanda su di lui è finita!» Tutti ridono. Subito dopo Ivo sbaglia una risposta sul calcio, e Nadia gli chiede: «Ma tu non giochi nella squadra della città?» «Sì, la squadra è molto importante per me, ma non ricordo tutto», risponde Ivo. Difende la sua risposta con forza, ma Nadia legge il libro ad alta voce, e anche questa volta la risposta di Ivo è falsa.\n\nAlla fine ogni amico ha 5 punti. Nadia ritiene giusto dividere il dolce in tre parti. «Il gioco è stato bello, e il dolce è buono», dice. Piero difende l'idea: «Brava! Un solo vincitore è meno divertente di tre amici felici.»\n\nDomande:\nA che gioco giocano i tre amici?\nGiocano a «vero o falso».\nChe cosa risponde Piero sull'ora legale?\nRisponde che la domanda è falsa, perché l'ora legale c'è d'estate.\nChe cosa riferisce Nadia?\nRiferisce la risposta del libro: Piero ha ragione.\nChe cosa studia Piero?\nPiero studia economia all'università.\nCome finisce il gioco?\nOgni amico ha 5 punti, e Nadia divide il dolce in tre parti."
     }
   ]
 }

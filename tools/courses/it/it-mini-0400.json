@@ -47,7 +47,8 @@
     "Zurigo",
     "Trieste",
     "Piazza Unità",
-    "Caffè San Marco"
+    "Caffè San Marco",
+    "Londra"
   ],
   "lessons": [
     {
@@ -73,19 +74,17 @@
       "summary": "Luigi is very hungry, so he and his father eat at a small full place in Naples.",
       "newWords": [
         "mangiare",
-        "morire",
         "locale",
         "pieno",
         "signore",
         "semplice",
         "bianco",
         "nero",
-        "portato",
         "acqua",
         "conto",
         "soldi"
       ],
-      "text": "Luigi e suo padre Carlo sono in centro a Napoli. Sono le 2 e Luigi ha molta fame.\n\n«Io muoio di fame!» dice Luigi. «Voglio mangiare!»\n\n«Anch'io», dice Carlo. «Dov'è un buon locale?»\n\nIn fondo alla strada c'è un locale. Il nome del locale è Da Gigi. Il nome è scritto in bianco su una porta nera. Luigi guarda la porta nera: è bella.\n\nIl locale è piccolo, ma è pieno di gente. Un signore dice: «C'è un posto in fondo, per due.»\n\n«Oggi c'è la pizza semplice e la pizza bianca», dice il signore.\n\n«Per me la semplice», dice Luigi.\n\n«Per me la bianca», dice Carlo. «E acqua per tutti e due.»\n\nIl signore porta l'acqua.\n\nDopo 10 minuti il signore torna da Luigi e Carlo. Le pizze portate dal signore sono buone. Luigi mangia e mangia. Non muore più di fame!\n\nCarlo dice: «Il conto, per favore.»\n\nIl conto portato dal signore è giusto. Carlo ha i soldi con lui. Dà i soldi al signore.\n\nDomande:\nChi è con Luigi a Napoli?\nIl padre di Luigi, Carlo, è con lui.\nCome è il locale?\nIl locale è piccolo e pieno di gente.\nCome è la porta del locale?\nLa porta del locale è nera.\nChe cosa dà Carlo al signore?\nDà i soldi al signore."
+      "text": "Luigi e suo padre Carlo sono in centro a Napoli. Sono le 2 e Luigi ha molta fame.\n\n«Ho tanta fame!» dice Luigi. «Voglio mangiare!»\n\n«Anch'io», dice Carlo. «Dov'è un buon locale?»\n\nIn fondo alla strada c'è un locale. Il nome del locale è Da Gigi. Il nome è scritto in bianco su una porta nera. Luigi guarda la porta nera: è bella.\n\nIl locale è piccolo, ma è pieno di gente. Un signore dice: «C'è un posto in fondo, per due.»\n\n«Oggi c'è la pizza semplice e la pizza bianca», dice il signore.\n\n«Per me la semplice», dice Luigi.\n\n«Per me la bianca», dice Carlo. «E acqua per tutti e due.»\n\nIl signore porta l'acqua.\n\nDopo 10 minuti il signore torna da Luigi e Carlo. Le pizze del signore sono buone. Luigi mangia e mangia. Ora non ha più fame!\n\nCarlo dice: «Il conto, per favore.»\n\nIl signore porta il conto. Il conto è giusto. Carlo ha i soldi con lui. Dà i soldi al signore.\n\nDomande:\nChi è con Luigi a Napoli?\nIl padre di Luigi, Carlo, è con lui.\nCome è il locale?\nIl locale è piccolo e pieno di gente.\nCome è la porta del locale?\nLa porta del locale è nera.\nChe cosa dà Carlo al signore?\nDà i soldi al signore."
     },
     {
       "title": "Un turista a Firenze",
@@ -98,11 +97,10 @@
         "risposta",
         "aiutare",
         "difficile",
-        "europeo",
         "pagina",
         "titolo"
       ],
-      "text": "Tom è un uomo inglese. Oggi è a Firenze con sua figlia Kate. Tom ha un libro sulla città. Il titolo del libro è «Firenze in un giorno». Il libro ha molte informazioni.\n\nA pagina 12 c'è la strada per Ponte Vecchio, ma Tom non capisce bene. Parla poco l'italiano. Per lui la lingua italiana è difficile. Il libro è difficile.\n\nKate dice: «Chiedi a qualcuno. Non è difficile!»\n\nTom vede una ragazza in strada. La ragazza è Chiara. Tom chiede: «Dove... Ponte Vecchio?»\n\nChiara capisce la domanda. Ma non risponde in italiano. Risponde in inglese: «Posso aiutarLa?» Chiara vuole aiutare Tom.\n\nTom dice: «Sì, grazie! Lei parla la mia lingua.»\n\n«Parlo tre lingue europee: italiano, inglese e francese», dice Chiara.\n\n«Io parlo una sola lingua europea!» dice Tom.\n\n«Ponte Vecchio è in fondo a questa strada», dice Chiara. «Dopo 5 minuti siete a Ponte Vecchio.»\n\nTom dice: «La sua risposta è giusta.» La risposta di Chiara è semplice. Tom e Kate vanno in fondo alla strada.\n\nKate dice: «Con Chiara Firenze non è difficile.»\n\nTom guarda la pagina 12 e dice: «Chiara dà più informazioni di questa pagina!»\n\nDomande:\nChi è Tom?\nTom è un uomo inglese.\nChe titolo ha il libro di Tom?\nIl titolo del libro è «Firenze in un giorno».\nIn che lingua risponde Chiara?\nChiara risponde in inglese.\nDov'è Ponte Vecchio?\nPonte Vecchio è in fondo alla strada."
+      "text": "Tom viene da Londra. Oggi è a Firenze con sua figlia Kate. Tom ha un libro sulla città. Il titolo del libro è «Firenze in un giorno». Il libro ha molte informazioni.\n\nA pagina 12 c'è la strada per Ponte Vecchio, ma Tom non capisce bene. Parla poco l'italiano. Per lui la lingua italiana è difficile. Il libro è difficile.\n\nKate dice: «Chiedi a qualcuno. Non è difficile!»\n\nTom vede una ragazza in strada. La ragazza è Chiara. Tom chiede: «Dove... Ponte Vecchio?»\n\nChiara capisce la domanda. Ma non risponde in italiano. Risponde in inglese: «Posso aiutarLa?» Chiara vuole aiutare Tom.\n\nTom dice: «Sì, grazie! Lei parla la mia lingua.»\n\n«Parlo tre lingue: italiano, inglese e francese», dice Chiara.\n\n«Io parlo una sola lingua!» dice Tom.\n\n«Ponte Vecchio è in fondo a questa strada», dice Chiara. «Dopo 5 minuti siete a Ponte Vecchio.»\n\nTom dice: «La sua risposta è giusta.» La risposta di Chiara è semplice. Tom e Kate vanno in fondo alla strada.\n\nKate dice: «Con Chiara Firenze non è difficile.»\n\nTom guarda la pagina 12 e dice: «Chiara dà più informazioni di questa pagina!»\n\nDomande:\nDa dove viene Tom?\nTom viene da Londra.\nChe titolo ha il libro di Tom?\nIl titolo del libro è «Firenze in un giorno».\nIn che lingua risponde Chiara?\nChiara risponde in inglese.\nDov'è Ponte Vecchio?\nPonte Vecchio è in fondo alla strada."
     },
     {
       "title": "La ricerca di Giulia",
@@ -134,7 +132,7 @@
         "parere",
         "effetto"
       ],
-      "text": "Pietro e sua madre Anna arrivano a Venezia a settembre. Pietro ha 9 anni. Venezia fa un grande effetto a Pietro: ci sono strade d'acqua.\n\nL'Hotel Aurora è piccolo. Anna riceve la camera numero 12. Nella camera ci sono due letti.\n\n«Quale letto vuoi?» chiede la madre.\n\n«Voglio il letto vicino alla porta», dice Pietro. Pietro riceve il letto vicino alla porta.\n\nFuori ci sono 24 gradi. Pietro e Anna fanno un giro. Vanno fino al mare. Il mare è grande e bello.\n\n«Qual è il tuo parere su Venezia?» chiede la madre.\n\n«Il mio parere è semplice: è molto bella», dice Pietro. «Sono sicuro: è la città più bella.»\n\n«Anche a me fa questo effetto», dice la madre.\n\nAlle 9 tornano all'Hotel Aurora. Anna è sicura: Pietro vuole andare a letto.\n\nLa madre dice: «Buona notte, Pietro.» Nella notte di Venezia c'è solo il mare.\n\nDomande:\nQuando arrivano Pietro e Anna a Venezia?\nArrivano a settembre.\nChi è Anna?\nAnna è la madre di Pietro.\nQuanti letti ci sono nella camera?\nNella camera ci sono due letti.\nQuanti gradi ci sono fuori?\nFuori ci sono 24 gradi.\nDove vanno Pietro e Anna per un giro?\nVanno fino al mare."
+      "text": "Pietro e sua madre Anna arrivano a Venezia a settembre. Pietro ha 9 anni. Venezia fa un grande effetto a Pietro: ci sono strade d'acqua.\n\nL'Hotel Aurora è piccolo. Anna e Pietro hanno la camera numero 12. Nella camera ci sono due letti.\n\n«Quale letto vuoi?» chiede la madre.\n\n«Voglio il letto vicino alla porta», dice Pietro. Pietro prende il letto vicino alla porta.\n\nFuori ci sono 24 gradi. Prima di uscire, Anna riceve una cartina della città. Pietro e Anna fanno un giro. Vanno fino al mare. Il mare è grande e bello.\n\n«Qual è il tuo parere su Venezia?» chiede la madre.\n\n«Il mio parere è semplice: è molto bella», dice Pietro. «Sono sicuro: è la città più bella.»\n\n«Anche a me fa questo effetto», dice la madre.\n\nAlle 9 tornano all'Hotel Aurora. Anna è sicura: Pietro vuole andare a letto.\n\nLa madre dice: «Buona notte, Pietro.» Nella notte di Venezia c'è solo il mare.\n\nDomande:\nQuando arrivano Pietro e Anna a Venezia?\nArrivano a settembre.\nChi è Anna?\nAnna è la madre di Pietro.\nQuanti letti ci sono nella camera?\nNella camera ci sono due letti.\nQuanti gradi ci sono fuori?\nFuori ci sono 24 gradi.\nChe cosa riceve Anna all'hotel?\nAnna riceve una cartina della città.\nDove vanno Pietro e Anna per un giro?\nVanno fino al mare."
     },
     {
       "title": "Il pesce di Ballarò",
@@ -203,7 +201,7 @@
         "rapporto",
         "sociale"
       ],
-      "text": "Franco e Ines sono vicini di casa a Genova. Vivono in una zona vecchia, vicino a Piazza Banchi.\n\nUn giorno Franco ha una notizia per Ines. «Un gruppo di cittadini vuole un campo da gioco in Piazza Banchi», dice.\n\n«È una buona notizia!» dice Ines. «Ma è anche una questione difficile. Non tutti vogliono il campo.»\n\n«È vero», dice Franco. «Qualcuno dice che non è necessario un campo, perché c'è già un posto per giocare. Ma per me è necessario parlare con tutti.»\n\nLa sera i cittadini sono in Piazza Banchi e parlano della questione. Tutti dicono la loro.\n\nInes dice: «Va bene il campo, ma a una condizione: alle 8 i giochi finiscono.»\n\n«D'accordo», dice un signore, Bruno. «È una buona condizione.»\n\nOra c'è un accordo! Franco dice: «Il campo è buono per la vita sociale della zona. Un campo è un luogo sociale.»\n\nInes dice: «Il rapporto fra i vicini è un buon rapporto. Con il campo i rapporti sono migliori.»\n\nInes dice: «Spero di vedere i bambini giocare qui.»\n\n«Anch'io spero», dice Franco. «Il futuro dei bambini è importante, e il futuro della piazza è bello.»\n\nLa zona è unita. I cittadini hanno un accordo.\n\nDomande:\nChi sono Franco e Ines?\nSono vicini di casa a Genova.\nChe notizia ha Franco?\nUn gruppo di cittadini vuole un campo da gioco in Piazza Banchi.\nQual è la condizione di Ines?\nAlle 8 i giochi finiscono.\nCome è la zona alla fine?\nLa zona è unita."
+      "text": "Franco e Ines sono vicini di casa a Genova. Vivono in una zona vecchia, vicino a Piazza Banchi.\n\nUn giorno Franco ha una notizia per Ines. «Un gruppo di cittadini vuole un campo da gioco in Piazza Banchi», dice.\n\n«È una buona notizia!» dice Ines. «Ma è anche una questione difficile. Non tutti vogliono il campo.»\n\n«È vero», dice Franco. «Qualcuno dice che non è necessario un campo, perché c'è già un posto per giocare. Ma per me è necessario parlare con tutti.»\n\nLa sera i cittadini sono in Piazza Banchi e parlano della questione. Tutti dicono la loro.\n\nInes dice: «Va bene il campo, ma a una condizione: alle 8 i giochi finiscono.»\n\n«D'accordo», dice un signore, Bruno. «È una buona condizione.»\n\nOra c'è un accordo! Franco dice: «Il campo è buono per la vita sociale della zona. Un campo è un luogo sociale.»\n\nInes dice: «Il rapporto fra i vicini è un buon rapporto. Con il campo i rapporti sono migliori.»\n\nInes dice: «Spero di vedere i bambini giocare qui.»\n\n«Lo spero anch'io», dice Franco. «Il futuro dei bambini è importante, e il futuro della piazza è bello.»\n\nLa zona è unita. I cittadini hanno un accordo.\n\nDomande:\nChi sono Franco e Ines?\nSono vicini di casa a Genova.\nChe notizia ha Franco?\nUn gruppo di cittadini vuole un campo da gioco in Piazza Banchi.\nQual è la condizione di Ines?\nAlle 8 i giochi finiscono.\nCome è la zona alla fine?\nLa zona è unita."
     },
     {
       "title": "Elena torna a Trieste",
@@ -216,7 +214,7 @@
         "ormai",
         "personale"
       ],
-      "text": "Elena vive a Zurigo. Ma è di Trieste, e per Trieste ha un grande amore. Per lei è un rapporto personale. Oggi torna a casa per una settimana.\n\nIl treno arriva a Trieste alle 9. Elena esce. Il suo cuore è forte.\n\nOrmai è notte. Elena va in Piazza Unità. Guarda la città, il mare, la gente. Pensa: «Nella mia testa Trieste è bella. Ma la realtà è ancora più bella.»\n\nÈ una cosa personale: nella realtà, ogni strada ha una storia sua.\n\nElena fa un giro per il centro. Entra al Caffè San Marco. Il Caffè San Marco è sempre bello.\n\nTrieste non è una città troppo grande. È una città umana. La gente parla con tutti. Per Elena, è un posto con un cuore.\n\nUna signora dice a Elena: «Lei non è di qui, vero?»\n\n«Sono di qui», risponde Elena. «Ma ormai vivo a Zurigo.»\n\n«Allora ora è a casa», dice la signora.\n\nIl cuore di Elena è pieno.\n\nDomande:\nDove vive Elena?\nElena vive a Zurigo.\nDove torna Elena?\nTorna a Trieste.\nChe cosa ha Elena per Trieste?\nHa un grande amore per Trieste.\nCome è Trieste?\nTrieste è una città umana."
+      "text": "Elena vive a Zurigo. Ma è di Trieste, e per Trieste ha un grande amore. Per lei è un rapporto personale. Oggi torna a casa per una settimana.\n\nIl treno arriva a Trieste alle 9. Elena esce. Il suo cuore batte forte.\n\nOrmai è notte. Elena va in Piazza Unità. Guarda la città, il mare, la gente. Pensa: «Nella mia testa Trieste è bella. Ma la realtà è ancora più bella.»\n\nÈ una cosa personale: nella realtà, ogni strada ha una storia sua.\n\nElena fa un giro per il centro. Entra al Caffè San Marco. Il Caffè San Marco è sempre bello.\n\nTrieste non è una città troppo grande. È una città umana. La gente parla con tutti. Per Elena, è un posto con un cuore.\n\nUna signora dice a Elena: «Lei non è di qui, vero?»\n\n«Sono di qui», risponde Elena. «Ma ormai vivo a Zurigo.»\n\n«Allora ora è a casa», dice la signora.\n\nIl cuore di Elena è pieno.\n\nDomande:\nDove vive Elena?\nElena vive a Zurigo.\nDove torna Elena?\nTorna a Trieste.\nChe cosa ha Elena per Trieste?\nHa un grande amore per Trieste.\nCome è Trieste?\nTrieste è una città umana."
     }
   ]
 }
