@@ -57,7 +57,7 @@
 57	4157	sgeith	sgeitheadh sgeitheam sgeitheamaid sgeithear sgeithibh sgeithidh sgeithinn sgeithist sgeithiste sgeithte sgeithteadh sgeithtear
 58	4158	ban-diùc	
 59	4159	ath-sgrìobhadh	ath-sgrìobhaidh ath-sgrìobhaidhean h-ath-sgrìobhadh
-60	4160	cileagram	chileagraim chileagram
+60	4160	cileagram	chileagraim chileagram cileagraman
 61	4161	teanas	teanais
 62	4162	dust	dhust
 63	4163	feadag	feadagan feadaige fheadag

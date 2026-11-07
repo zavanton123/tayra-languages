@@ -30,7 +30,7 @@
 30	130	toirt	thoirt thoirte toirte toirtean
 31	131	gach	ghach
 32	132	leòr	leor
-33	133	roinn	roinne roinneadh roinnean roinnidh roinnte roinntean
+33	133	roinn	roinne roinneadh roinnean roinneas roinnidh roinnte roinntean
 34	134	os	
 35	135	aghaidh	aghaidhe aghaidhean h-aghaidh n-aghaidh
 36	136	ged	
