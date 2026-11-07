@@ -745,10 +745,10 @@ object PredefinedLanguages {
             characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥|'=ʼ",
             regexpSplitSentences = ".!?؟",
             exceptionsSplitSentences = "ב.|ל.|ה.|א.|מ.|ו.|ג.|ד.|ש.|C.|פ.|A.|B.|ס.|ק.|ר.|S.|א.ב.|מ.ס.|T.",
-            wordCharacters = "\\u05B0-\\u05BF\\u05C1\\u05C2\\u05C7\\u05D0-\\u05EA׳״",
+            wordCharacters = "\\u0591-\\u05BD\\u05BF\\u05C1\\u05C2\\u05C4\\u05C5\\u05C7\\u05D0-\\u05EA׳״",
             rightToLeft = true,
             showRomanization = true,
-            parserType = "spacedel",
+            parserType = "hebrew",
         ),
     )
 
