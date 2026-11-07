@@ -59,6 +59,9 @@ def rules(rank_up_to):
 GREEK_ACCENTED = {"ά": "α", "έ": "ε", "ή": "η", "ί": "ι", "ό": "ο", "ύ": "υ", "ώ": "ω", "ΐ": "ϊ", "ΰ": "ϋ"}
 TURKISH_CIRCUMFLEX = str.maketrans("âîû", "aiu")
 ROMANIAN_COMMA_BELOW = str.maketrans("şţŞŢ’", "șțȘȚ'")
+# Armenian writes ՞ ՛ ՜ over a word's stressed vowel and ՟ in abbreviations, inside the word (ինչո՞ւ, ո՞վ, գնա՛նք); the reader
+# (ArmenianParser) keeps the word whole and matches it without them.
+ARMENIAN_WORD_MARKS = str.maketrans("", "", "՛՜՞՟")
 
 
 # OpenCC's tables, as the app bundles them, for reading Chinese in simplified characters.
@@ -148,6 +151,9 @@ def fold(code, word):
     # Persian words are matched as the reader matches them: ک and ی for ك and ي, no marks, no non-joiner.
     if code == "fa":
         return frequency_persian.bare(frequency_persian.persian_fold(word))
+    # Armenian և is matched as the one letter where a text writes it as two (նաեւ), as the reader matches it.
+    if code == "hy":
+        return word.replace("եւ", "և")
     return word
 
 
@@ -468,6 +474,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
     # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
     if code == "fa":
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
+    if code == "hy":
+        text = text.translate(ARMENIAN_WORD_MARKS)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -2366,6 +2374,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "fa":
             text = re.sub("(?m)^پرسش\u200cها:", "", text)
+        if code == "hy":
+            text = re.sub(r"(?m)^Հարցեր[:։]", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
