@@ -74,9 +74,10 @@
         "hjelpe",
         "hjelp",
         "navn",
-        "skjønne"
+        "skjønne",
+        "be"
       ],
-      "text": "Maria kommer fra Spania. Hun er ny i Norge. Hun lærer norsk, men hun kan ikke mange ord.\n\nI dag skal Maria kjøpe mat. Hun går til Meny. Det er mange ord på Meny. Maria forstår ikke alle ordene.\n\nHun ser ordet «tilbud». Hva betyr det? Hun ser ordet «melk». Hva betyr det? Maria skjønner det ikke.\n\nHun ser en mann som jobber der. Maria vil spørre ham om hjelp.\n\n«Kan du hjelpe meg?» spør Maria.\n\n«Ja, så klart,» sier mannen. «Navnet mitt er Even. Hva er navnet ditt?»\n\n«Navnet mitt er Maria. Jeg har et spørsmål. Hva betyr tilbud?»\n\n«Det betyr at du betaler mindre,» sier Even.\n\nNå skjønner Maria det. Hun har et spørsmål til. «Hva betyr melk?» spør hun. Even viser henne melken. Nå forstår hun.\n\nMaria spør Even om flere ord. Even hjelper henne med alle spørsmålene. Han er en god hjelp.\n\nMaria sier takk for hjelpen. Nå forstår hun mange nye ord.\n\nSpørsmål:\nHvor kommer Maria fra?\nMaria kommer fra Spania.\nForstår Maria alle ordene på Meny?\nNei, hun forstår ikke alle ordene.\nHva er navnet til mannen?\nNavnet hans er Even.\nHva betyr «tilbud»?\nDet betyr at du betaler mindre.\nHva gjør Even?\nEven hjelper Maria med alle spørsmålene."
+      "text": "Maria kommer fra Spania. Hun er ny i Norge. Hun lærer norsk, men hun kan ikke mange ord.\n\nI dag skal Maria kjøpe mat. Hun går til Meny. Det er mange ord på Meny. Maria forstår ikke alle ordene.\n\nHun ser ordet «tilbud». Hva betyr det? Hun ser ordet «melk». Hva betyr det? Maria skjønner det ikke.\n\nHun ser en mann som jobber der. Maria vil be ham om hjelp.\n\n«Kan du hjelpe meg?» spør Maria.\n\n«Ja, så klart,» sier mannen. «Navnet mitt er Even. Hva er navnet ditt?»\n\n«Navnet mitt er Maria. Jeg har et spørsmål. Hva betyr tilbud?»\n\n«Det betyr at du betaler mindre,» sier Even.\n\nNå skjønner Maria det. Hun har et spørsmål til. «Hva betyr melk?» spør hun. Even viser henne melken. Nå forstår hun.\n\nMaria ber Even om hjelp med flere ord. Even hjelper henne med alle spørsmålene. Han er en god hjelp.\n\nMaria sier takk for hjelpen. Nå forstår hun mange nye ord.\n\nSpørsmål:\nHvor kommer Maria fra?\nMaria kommer fra Spania.\nForstår Maria alle ordene på Meny?\nNei, hun forstår ikke alle ordene.\nHva er navnet til mannen?\nNavnet hans er Even.\nHva betyr «tilbud»?\nDet betyr at du betaler mindre.\nHva gjør Even?\nEven hjelper Maria med alle spørsmålene."
     },
     {
       "title": "Fotball på tv",
@@ -88,9 +89,12 @@
         "mål",
         "nesten",
         "sen",
-        "slutt"
+        "slutt",
+        "kamp",
+        "slå",
+        "full"
       ],
-      "text": "Jonas og Ola er venner. De er to gutter på 12 år. Begge guttene liker fotball.\n\nI kveld er det fotball på tv. Norge spiller mot Sverige. Guttene vil se det sammen.\n\nFørst går vennene til Kiwi. Det er mange folk på Kiwi. De kjøper noe godt til i kveld. Begge guttene har litt penger. Jonas betaler litt, og Ola betaler litt.\n\nSå går de hjem til Jonas. Det er mye mat på bordet. Nå starter det.\n\nNorge får et mål! Guttene liker det. Så får Sverige et mål. Nå står det 1–1.\n\nDet er sent nå. Det er nesten slutt. Det er nesten slutt på maten også.\n\nDa får Norge et mål til. Norge vinner 2–1! Vennene er veldig glade.\n\nSå er det slutt. Det er sent, og Ola går hjem. Han er glad.\n\nSpørsmål:\nHvem er Jonas og Ola?\nDe er to venner. De er to gutter på 12 år.\nHva er det på tv i kveld?\nDet er fotball. Norge spiller mot Sverige.\nHva gjør guttene først?\nFørst kjøper de noe godt på Kiwi.\nHvor mange mål får Norge?\nNorge får to mål.\nHvem vinner?\nNorge vinner 2–1."
+      "text": "Jonas og Ola er venner. De er to gutter på 12 år. Begge guttene liker fotball.\n\nI kveld er det en stor kamp på tv. Norge spiller mot Sverige. Guttene vil se kampen sammen.\n\nFørst går vennene til Kiwi. Kiwi er full av folk. De kjøper noe godt til i kveld. Begge guttene har litt penger. Jonas betaler litt, og Ola betaler litt.\n\nSå går de hjem til Jonas. Bordet er fullt av mat. Jonas slår på tv. Nå starter kampen.\n\nNorge får et mål! Guttene liker det. Så får Sverige et mål. Nå står det 1–1.\n\nDet er sent nå. Det er nesten slutt. Det er nesten slutt på maten også.\n\nDa får Norge et mål til. Norge slår Sverige 2–1! Vennene er veldig glade.\n\nSå er det slutt. Det er sent, og Ola går hjem. Han er glad.\n\nSpørsmål:\nHvem er Jonas og Ola?\nDe er to venner. De er to gutter på 12 år.\nHva er det på tv i kveld?\nDet er en stor kamp. Norge spiller mot Sverige.\nHva gjør guttene først?\nFørst kjøper de noe godt på Kiwi.\nHvor mange mål får Norge?\nNorge får to mål.\nHvem vinner?\nNorge vinner 2–1."
     },
     {
       "title": "En ny Kiwi",
@@ -121,9 +125,10 @@
         "vanlig",
         "tall",
         "sjekke",
-        "feil"
+        "feil",
+        "stemme"
       ],
-      "text": "Per kjøper mat på Rema hver uke. Han kjøper vanlig mat. Han kjøper også kaffe. Per liker kaffe svært godt.\n\nDen vanlige prisen er 60 kroner. Men i dag er prisen 90 kroner. «Er det feil?» tenker Per. Han sjekker prisen en gang til. Det er riktig. Prisen er faktisk 90 kroner. Prisene øker hele tiden.\n\nPer tenker: «Trenger jeg egentlig kaffe? Nei, egentlig ikke.» Men Per liker den svært godt. Han vil heller betale litt mer. Han kjøper den og betaler med kort.\n\nOm kvelden sjekker Per tallene på telefonen. Der står det: Rema, 180 kroner. Det er ikke riktig! Han har bare en kaffe, men han betaler for to. Det er feil.\n\nDagen etter går Per tilbake til Rema. «Det er en feil her,» sier han. En kvinne som jobber der sjekker tallene. «Ja, det er faktisk feil,» sier hun. «Du får 90 kroner tilbake.»\n\nPer liker det. Prisene øker, men i dag betaler han ikke for mye.\n\nSpørsmål:\nHva er den vanlige prisen?\nDen vanlige prisen er 60 kroner.\nHva er prisen i dag?\nI dag er prisen faktisk 90 kroner.\nVil Per heller kjøpe noe annet?\nNei, han vil heller betale litt mer.\nHva sjekker Per om kvelden?\nHan sjekker tallene på telefonen.\nHva får Per tilbake?\nHan får 90 kroner tilbake."
+      "text": "Per kjøper mat på Rema hver uke. Han kjøper vanlig mat. Han kjøper også kaffe. Per liker kaffe svært godt.\n\nDen vanlige prisen er 60 kroner. Men i dag er prisen 90 kroner. «Er det feil?» tenker Per. Han sjekker prisen en gang til. Det er riktig. Prisen er faktisk 90 kroner. Prisene øker hele tiden.\n\nPer tenker: «Trenger jeg egentlig kaffe? Nei, egentlig ikke.» Men Per liker den svært godt. Han vil heller betale litt mer. Han kjøper den og betaler med kort.\n\nOm kvelden sjekker Per tallene på telefonen. Der står det: Rema, 180 kroner. Det er ikke riktig! Han har bare en kaffe, men han betaler for to. Det er feil.\n\nDagen etter går Per tilbake til Rema. «Det er en feil her,» sier han med høy stemme. En kvinne som jobber der sjekker tallene. «Ja, det er faktisk feil,» sier hun med en glad stemme. «Du får 90 kroner tilbake.»\n\nPer liker det. Prisene øker, men i dag betaler han ikke for mye.\n\nSpørsmål:\nHva er den vanlige prisen?\nDen vanlige prisen er 60 kroner.\nHva er prisen i dag?\nI dag er prisen faktisk 90 kroner.\nVil Per heller kjøpe noe annet?\nNei, han vil heller betale litt mer.\nHva sjekker Per om kvelden?\nHan sjekker tallene på telefonen.\nHva får Per tilbake?\nHan får 90 kroner tilbake."
     },
     {
       "title": "Boka til Ingrid",
