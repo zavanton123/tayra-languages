@@ -62,7 +62,7 @@
 62	1962	caoineadh	caoinidh chaoineadh
 63	1963	cileameatair	chileameatair cileameatairean
 64	1964	cràdh	chràdh chràidh cràidh cràidhean
-65	1965	cladhach	chladhach chladhaich cladhachadh cladhaich cladhaichear cladhaichte
+65	1965	cladhach	chladhach chladhaich cladhachadh cladhaich cladhaichear cladhaicheas cladhaichte
 66	1966	umha	dh'umha
 67	1967	feurach	feuraich fheurach
 68	1968	dòigh-beatha	dhòigh-beatha doigh-beatha dòighe-beatha dòighean-beatha

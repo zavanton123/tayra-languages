@@ -62,7 +62,7 @@
 62	362	ruith	ruithe ruitheadh ruithean ruitheas ruithibh ruithidh ruithte
 63	363	bàs	bhas bhàis bhàs bàis bàsan
 64	364	toiseach	thoiseach toisichean
-65	365	madainn	maidne maidneadh maidnean mhadainn mhaidnean
+65	365	madainn	madainnean maidne maidneadh maidnean mhadainn mhaidnean
 66	366	dealbh	dealbha dealbhadh dealbhaidh dealbhaidhean dealbhan dealbhannan dealbhar dealbhta deilbh dhealbh dhealbhadh dhealbhaidh dhealbhan dhealbhas
 67	367	measg	measgadh measgaidh measgte mheasg mheasgadh
 68	368	leithid	leithide leithidean

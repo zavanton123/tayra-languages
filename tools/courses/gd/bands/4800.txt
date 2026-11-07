@@ -15,7 +15,7 @@
 15	4715	cab	caban caib chab
 16	4716	coimeasg	choimeasgadh coimeasgadh
 17	4717	loinn	loinne
-18	4718	aisig	aisigeadh
+18	4718	aisig	aisigeadh aisigeas
 19	4719	sgal	sgala sgaladh sgalaidh sgalan sgalte
 20	4720	bùrach	bhùrach
 21	4721	dà-ghnèitheach	dà-ghnèithich
@@ -24,7 +24,7 @@
 24	4724	basgaid	basgaide basgaidean bhasgaid bhasgaidean
 25	4725	ceistear	cheistear
 26	4726	claradh	claraidh
-27	4727	druid	dhruid druide druideadh druidean druididh druidte truid
+27	4727	druid	dhruid dhruideas druide druideadh druidean druididh druidte truid
 28	4728	breàgha	bhreàgha
 29	4729	fo-thaghadh	fho-thaghadh fo-thaghaidh fo-thaghaidhean
 30	4730	slat-tomhais	slaite-tomhais slatan-tomhais t-slat-tomhais
@@ -79,7 +79,7 @@
 79	4779	paidirean	
 80	4780	nèamhaidh	
 81	4781	tropaigean	
-82	4782	cuinneag	
+82	4782	cuinneag	cuinneig
 83	4783	spuir	spuirean
 84	4784	daonn-eòlas	
 85	4785	cosmhail	
@@ -93,7 +93,7 @@
 93	4793	doile	
 94	4794	fionnsgeulach	fhionnsgeulach
 95	4795	làmhach	lámhach
-96	4796	fearsaid	
+96	4796	fearsaid	fearsaide
 97	4797	osag	
 98	4798	leac-sgrìobhadh	
 99	4799	iarunn	iaruinn

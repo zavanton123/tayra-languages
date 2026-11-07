@@ -54,7 +54,7 @@
 54	54	taigh	taighe taighean taighibh thaigh thaighe thaighean
 55	55	thoir	bheir bheireadh bheireamaid bheirear bheireas bheirinn bheirist bheiriste bheirteadh thoirear thug thugadh toir toireadh tug tugadh tugta tugte
 56	56	beag	beaga bheag bheaga bhig bhige big bige lugha
-57	57	eadar	eadaraibhse eadarainn eadarainne eatarra eatarrasan
+57	57	eadar	eadaraibhse eadarainn eadarainne eatarra eatarrasan eatorra
 58	58	dùthaich	dhùthaich dhùthcha dhùthchannan duthaich duthcha dùthaichibh dùthcha dùthchadh dùthchanan dùthchannan
 59	59	cho	
 60	60	thig	dàinig thigeadh thigeam thigeamaid thigear thigeas thigibh thiginn thigist thigiste thigte thigteadh thigtear thàine thàinig thàinigeadh thàinigeas thàna tig tigeadh tigeamaid tigear tighean tiginn tigist tigiste tigte tigteadh tigtear tàine tàinig tàinigeadh tàinigeas tàna táinig

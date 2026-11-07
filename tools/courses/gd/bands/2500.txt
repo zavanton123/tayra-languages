@@ -46,7 +46,7 @@
 46	2446	gnìomhachd	ghnìomhachd ghnìomhachdan gnìomhachdan
 47	2447	peighinn	peighinnean pheighinn
 48	2448	grùthan	ghrùthain ghrùthanan grùthain grùthanaibh grùthanan
-49	2449	fidheall	fhidheall fidhill fìdhle fìdhlean
+49	2449	fidheall	fhidheall fidhill fidhle fìdhle fìdhlean
 50	2450	buachaille	bhuachaill bhuachaille buachaill buachaillean
 51	2451	msaa	
 52	2452	seanalair	seanalairean sheanalair

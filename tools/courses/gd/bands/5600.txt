@@ -24,7 +24,7 @@
 24	5524	blàthach	
 25	5525	glaodhadh	glaodhaidhean
 26	5526	soitheamh	
-27	5527	conasg	
+27	5527	conasg	conaisg
 28	5528	banrìgh	
 29	5529	cost	chost
 30	5530	topag	topagan topaig
@@ -51,7 +51,7 @@
 51	5551	mairg	
 52	5552	teàrmann	teàrmainn theàrmann
 53	5553	còig-deug	chòig-deug
-54	5554	ìochdrach	
+54	5554	ìochdrach	ìochdraich
 55	5555	leas-ainm	leas-ainmean
 56	5556	diult	dhiult
 57	5557	foirmealachd	fhoirmealachd
@@ -68,7 +68,7 @@
 68	5568	fòghnan	fòghnain fòghnanan
 69	5569	iadh	dh'iadh iadhte iath
 70	5570	draghail	
-71	5571	pac	pacadh
+71	5571	pac	pacadh pacaibh pacas
 72	5572	fèist	fèistean
 73	5573	lurach	
 74	5574	critheanach	chritheanach
@@ -85,7 +85,7 @@
 85	5585	aimsireil	
 86	5586	sanntach	
 87	5587	anagram	
-88	5588	tuilleadan	thuilleadain
+88	5588	tuilleadan	thuilleadain tuilleadain
 89	5589	ainis	
 90	5590	ailpeach	
 91	5591	càrnabhail	

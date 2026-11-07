@@ -44,7 +44,7 @@
 44	4844	biobhair	biobhairean bìobhair bìobhairean bìobhar
 45	4845	cumhach	chumhach
 46	4846	barrach	bharrach
-47	4847	biorramaid	biorramaide
+47	4847	biorramaid	biorramaide biorramaidean
 48	4848	deilf	deilfe deilfean deilfibh
 49	4849	bratag	bratagan brataig
 50	4850	plaide	phlaide plaideachan
@@ -74,7 +74,7 @@
 74	4874	aigne	aignean aignibh h-aignean h-aignibh
 75	4875	biurocrasaidh	bhiurocrasaidh
 76	4876	stòbh	stòbha stòibh stòibhean t-stòbh
-77	4877	cuimhnich	chuimhnich chuimhnicheamaid chuimhnichinn chuimhnichist chuimhnichiste chuimhnichteadh cuimhnicheadh cuimhnicheam cuimhnicheamaid cuimhnichear cuimhnichibh cuimhnichidh cuimhnichinn cuimhnichist cuimhnichiste cuimhnichte cuimhnichteadh cuimhnichtear
+77	4877	cuimhnich	chuimhnich chuimhnicheamaid chuimhnichinn chuimhnichist chuimhnichiste chuimhnichteadh cuimhnicheadh cuimhnicheam cuimhnicheamaid cuimhnichear cuimhnicheas cuimhnichibh cuimhnichidh cuimhnichinn cuimhnichist cuimhnichiste cuimhnichte cuimhnichteadh cuimhnichtear
 78	4878	prìomhaid	prìomhaidean prìomhaidibh
 79	4879	cudromachd	chudromachd
 80	4880	fèineag	feineag fèineagan fèineige

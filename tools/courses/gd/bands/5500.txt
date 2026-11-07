@@ -48,8 +48,8 @@
 48	5448	cruithear	chruitheir cruithearan
 49	5449	bara	
 50	5450	bheat	
-51	5451	riabhag	
-52	5452	bòrd-geal	bùird-gheala bùird-ghil
+51	5451	riabhag	riabhaig
+52	5452	bòrd-geal	bòrd-gheal bùird-gheala bùird-ghil
 53	5453	bòrd-sgrìobhaidh	bùird-sgrìobhaidh
 54	5454	breacan-beithe	breacain-bheithe
 55	5455	srùban	shrùban srùbain
@@ -73,7 +73,7 @@
 73	5473	poblachdas	poblachdais
 74	5474	strath	
 75	5475	taigh-spadaidh	thaigh-spadaidh
-76	5476	dìomhanas	
+76	5476	dìomhanas	dìomhanais
 77	5477	iac	
 78	5478	brith	
 79	5479	farmadach	
@@ -91,7 +91,7 @@
 91	5491	bràmair	bhràmair
 92	5492	robach	robaich robaiche
 93	5493	dùrd	dùird
-94	5494	tiompan	
+94	5494	tiompan	tiompain
 95	5495	toirsgian	toirsgeine toirsgeinean
 96	5496	pupaid	pupaide pupaidean
 97	5497	dìobhail	dhìobhalach dìobhalach

@@ -23,7 +23,7 @@
 23	4023	connlach	chonnlach connlaich
 24	4024	cofhurtail	cofhurtaile
 25	4025	neactar	neactair
-26	4026	snàithlean	shnàithleana shnàithleanaibh shnàithleanan shnàithlein snàithleanaibh snàithlein t-snàithlein
+26	4026	snàithlean	shnàithleana shnàithleanaibh shnàithleanan shnàithlein snàithleanaibh snàithleanan snàithlein t-snàithlein
 27	4027	ìne	fìne inne ionga iongain ìnean
 28	4028	sleamhnaich	shleamhnachadh sleamhnachadh
 29	4029	sabhs	sabhsan saibhse

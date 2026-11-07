@@ -24,7 +24,7 @@
 24	5224	fiar	fiara fiaraich fiarte
 25	5225	fìnealta	finealta
 26	5226	prìomhail	prìomhaile
-27	5227	fadaich	fadachadh fhadachadh
+27	5227	fadaich	fadachadh fadaicheas fhadachadh
 28	5228	caint	cainte
 29	5229	soirbhicheil	shoirbhicheil
 30	5230	torraicheas	torraicheis
@@ -50,7 +50,7 @@
 50	5250	blonag	blonaig
 51	5251	snèap	snèapan snèip snèipean
 52	5252	ath-dhìol	ath-dhìoladh ath-dhìolaidh ath-dhìolte
-53	5253	ceilear	ceileiridh
+53	5253	ceilear	ceileir ceileiridh
 54	5254	dùr	dur
 55	5255	fritheil	fhritheil fritheilear fritheilidh fritheilte
 56	5256	baist	baiste bhaist
@@ -93,7 +93,7 @@
 93	5293	smùirnean	smùirnein
 94	5294	tuairisgeulach	tuairisgeulaich
 95	5295	iriosal	iriosail
-96	5296	preseantair	phreseantair
+96	5296	preseantair	phreseantair preseantairean
 97	5297	slam	shlaman slaman
 98	5298	muileann-pàipeir	mhuileann-pàipeir muileannan-pàipeir muilinn-phàipeir
 99	5299	grunnaich	ghrunnaich grunnachadh grunnachaidh grunnaichidh grunnaichte

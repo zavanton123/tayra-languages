@@ -12,11 +12,11 @@
 12	5612	flùranach	
 13	5613	leaba	
 14	5614	fear-poilitigs	
-15	5615	gall-chnò	gall-chnòtha
+15	5615	gall-chnò	gall-chnòtha gall-chnòthan
 16	5616	dubhan-iasgaich	
 17	5617	sacsafòn	
 18	5618	dùdach	dùdaich dùdaichean
-19	5619	piseag	piseagan piseige
+19	5619	piseag	piseagan piseig piseige
 20	5620	gàirich	
 21	5621	breun	breunad breunaidh breunte brèan
 22	5622	pìolat	pìolait
@@ -75,7 +75,7 @@
 75	5675	fàsmhorachd	
 76	5676	gàirneilearachd	
 77	5677	ornaid	ornaidean
-78	5678	ath-ghin	ath-ghinidh ath-ghinte
+78	5678	ath-ghin	ath-ghineadh ath-ghinidh ath-ghinte
 79	5679	fo-rèile	fo-rèilichean
 80	5680	teicneolach	teicneolaiche
 81	5681	amaladh	amalaidh amalaidhean
@@ -85,7 +85,7 @@
 85	5685	domblasach	dhomblasach
 86	5686	meadhg	
 87	5687	domblas	dhomblais
-88	5688	eileactron	
+88	5688	eileactron	eileactronan
 89	5689	duilleachan	
 90	5690	taibhsearachd	taibhsearachdan
 91	5691	toinisgeil	
@@ -94,7 +94,7 @@
 94	5694	faoineas	
 95	5695	barrachas	
 96	5696	tearb	tearbadh
-97	5697	tulgadh	thulgadh
+97	5697	tulgadh	thulgadh tulgaidh
 98	5698	farad	fharad
 99	5699	lèigheadaireachd	
 100	5700	dorsair	dorsairean

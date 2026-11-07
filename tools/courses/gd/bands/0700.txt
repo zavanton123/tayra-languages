@@ -57,7 +57,7 @@
 57	657	rìoghail	rioghail
 58	658	seirbheis	seirbheise seirbheisean sheirbheis sheirbheisean t-seirbheis
 59	659	anmoch	ainmach anamoch anmoich anmoiche
-60	660	bruich	bhruich bhruicheadh bhruicheamaid bhruichinn bhruichist bhruichiste bhruichteadh bruicheadh bruicheam bruicheamaid bruichear bruichibh bruichidh bruichinn bruichist bruichiste bruichte bruichteadh bruichtear
+60	660	bruich	bhruich bhruicheadh bhruicheamaid bhruicheas bhruichinn bhruichist bhruichiste bhruichteadh bruicheadh bruicheam bruicheamaid bruichear bruichibh bruichidh bruichinn bruichist bruichiste bruichte bruichteadh bruichtear
 61	661	fianais	dh'fhianais fhianais fhianaise fianaise fianaisean
 62	662	rìbhinn	ribhinn rìbhinne rìbhinnean
 63	663	sgoilear	sgoilearan sgoileir

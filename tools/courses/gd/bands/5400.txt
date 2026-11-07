@@ -22,9 +22,9 @@
 22	5322	ìocshlaint	iocshlàint ìoc-shlàint ìocshlainte ìocshlaintean
 23	5323	adhbharach	adhbharaiche
 24	5324	caoimhneas	caoimhne caoimhneis chaoimhneis
-25	5325	ùghdarraich	ùghdarraichte
+25	5325	ùghdarraich	ùghdarrachadh ùghdarraichte
 26	5326	ùghdarrasach	ùghdarrasaiche
-27	5327	pleadhag	phleadhaig
+27	5327	pleadhag	phleadhaig pleadhaig
 28	5328	beò-ghlac	beò-ghlacaibh beò-ghlacainn beò-ghlacaist beò-ghlacaiste beò-ghlacam beò-ghlacamaid beò-ghlacar beò-ghlacta beò-ghlactadh beò-ghlactar beò-ghlacte bheò-ghlacadh bheò-ghlacainn bheò-ghlacaist bheò-ghlacaiste bheò-ghlacamaid bheò-ghlactadh
 29	5329	tachart	thachart
 30	5330	tòrradh	tòrraidh tòrraidhean
@@ -52,7 +52,7 @@
 52	5352	agair	agairidh dh'agair
 53	5353	fàl	fal fàil
 54	5354	soisgeulach	shoisgeulach
-55	5355	sinn-seanmhair	shinn-seanmhair
+55	5355	sinn-seanmhair	shinn-seanmhair sinn-seanmhar
 56	5356	fiabhras-ballach	fhiabhras-ballach fiabhrais-bhallach fiabhrasan-ballach
 57	5357	òrduich	òrduchadh òrduichte
 58	5358	easbhaidh	easbhaidhe easbhaidhean
@@ -82,7 +82,7 @@
 82	5382	eideadh	eididh
 83	5383	lòchran	lòchrain
 84	5384	hamstair	hamstairean hamstairibh
-85	5385	saoidhean	
+85	5385	saoidhean	saoidheanan
 86	5386	uaibhreach	uaibhrich uaibhriche
 87	5387	pòlach	phòlach
 88	5388	glòr	ghlòr glór

@@ -1,10 +1,10 @@
 1	5101	dà-theangach	dà-theangaich
 2	5102	foireann	
-3	5103	stèideam	
+3	5103	stèideam	stèideim
 4	5104	piuthar-màthar	peathar-màthar peathraichean-màthar
 5	5105	guim	
 6	5106	eas-ùmhlachd	eas-umhlachd
-7	5107	geilleagar	
+7	5107	geilleagar	geilleagair
 8	5108	nòtair	
 9	5109	aon-mhargadh	
 10	5110	cròch	
@@ -32,7 +32,7 @@
 32	5132	bre	
 33	5133	trastanach	
 34	5134	stùireadh	
-35	5135	bàl	bàiltean
+35	5135	bàl	bàil bàiltean
 36	5136	cuairsgean	cuairsgeanan
 37	5137	meanbhan	meanbhain meanbhanan
 38	5138	sultmhor	
@@ -60,15 +60,15 @@
 60	5160	ath-thagair	ath-thagairte ath-thagradh ath-thagraidh
 61	5161	freagarrachd	
 62	5162	frith-choille	frith-choilltean frith-choilltichean
-63	5163	preasantadh	
-64	5164	ath-chuairtich	ath-chuairteachaidh ath-chuairtichidh ath-chuairtichte
+63	5163	preasantadh	preasantaidh
+64	5164	ath-chuairtich	ath-chuairteachadh ath-chuairteachaidh ath-chuairtichidh ath-chuairtichte
 65	5165	daorsa	dhaorsa
 66	5166	gathaich	gathachadh
 67	5167	suaip	
-68	5168	snodhach	
+68	5168	snodhach	snodhaich
 69	5169	creatlach	chreatlach
 70	5170	neo-iomlan	
-71	5171	stròic	
+71	5171	stròic	stròicidh
 72	5172	calcium	chalcium
 73	5173	màthaireachd	
 74	5174	rodan	rodain
@@ -91,7 +91,7 @@
 91	5191	riaghailteachadh	
 92	5192	procadair	phrocadair
 93	5193	eas-òrdugh	
-94	5194	brisgean	
+94	5194	brisgean	brisgein
 95	5195	cofhurtachd	
 96	5196	fadachd	
 97	5197	stod	
