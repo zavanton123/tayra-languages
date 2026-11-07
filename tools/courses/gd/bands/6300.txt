@@ -3,7 +3,7 @@
 3	6203	glasach	glasaich
 4	6204	nàimhdeil	nàimhdeile
 5	6205	ath-chur	
-6	6206	fiùghantas	
+6	6206	fiùghantas	fiùghantais
 7	6207	èifeachdas	
 8	6208	sluma	slumaichean
 9	6209	eadar-phòs	dh'eadar-phòs eadar-phòsaidh eadar-phòsta
@@ -19,7 +19,7 @@
 19	6219	greadadh	ghreadadh
 20	6220	gàd	gàda gàdaichean
 21	6221	rèidius	
-22	6222	cagar	cagairean
+22	6222	cagar	cagair cagairean
 23	6223	fructos	
 24	6224	fàisgeadh	fàisgidh
 25	6225	banail	
@@ -30,12 +30,12 @@
 30	6230	deiseachadh	
 31	6231	mì-shuairc	
 32	6232	màrmor	
-33	6233	spreig	spreigeadh
+33	6233	spreig	spreigeadh spreigeas
 34	6234	cneasda	cneasta
 35	6235	crosta	crosda
 36	6236	aingidh	
 37	6237	sinte	
-38	6238	diùltach	
+38	6238	diùltach	diùltaiche
 39	6239	paradacs	paradacsan paradaics paradocs
 40	6240	mì-òrdail	
 41	6241	ùdlaidh	
@@ -76,7 +76,7 @@
 76	6276	ath-thruas	
 77	6277	os-cionn	
 78	6278	seachranach	sheachranach
-79	6279	caomhain	chaomhain
+79	6279	caomhain	chaomhain chaomhnas
 80	6280	fadadh	fhadadh
 81	6281	crioman	chrioman criomain criomanan
 82	6282	urlar	urlair
@@ -88,13 +88,13 @@
 88	6288	riadh	
 89	6289	soillsean	shoillseanan shoillsein soillseanaibh soillseanan soillsein t-soillsein
 90	6290	cèir-sheillean	cèire-seillean
-91	6291	ciùinich	chiùinich
+91	6291	ciùinich	chiùinich ciùineachadh ciùinichidh
 92	6292	eadar-ùineach	
 93	6293	àille	àillne àillte
 94	6294	farsuinn	
 95	6295	poblachdail	
 96	6296	soillearachadh	
-97	6297	cairtear	cairtearan
+97	6297	cairtear	cairtearan cairteir
 98	6298	seana-ghille	
 99	6299	cnapach	
 100	6300	eadra-lìon	eadra-lìn eadra-lìontan
