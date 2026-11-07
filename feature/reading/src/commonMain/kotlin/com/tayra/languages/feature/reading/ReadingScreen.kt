@@ -747,20 +747,10 @@ private fun ReadingBody(
     var viewportSize by remember { mutableStateOf(IntSize.Zero) }
     CentreWordOnResize(scrollState, state.marked.minOrNull(), wordLocator, viewportSize) { viewport[0] }
     val compact = LocalWindowWidth.current.isCompact
-    val edgePadding = if (compact) AppSpacing.l else AppSpacing.xxxl
-    val cardModifier = if (compact) {
-        // A phone has no width to spare for a card's border and margins: the text runs on the page itself.
-        Modifier.fillMaxWidth().padding(start = edgePadding, end = edgePadding, top = AppSpacing.l)
-    } else {
-        Modifier.padding(start = if (compact) AppSpacing.m else AppSpacing.l, top = if (compact) AppSpacing.m else AppSpacing.l, bottom = if (compact) AppSpacing.m else AppSpacing.l, end = if (compact) AppSpacing.m else AppSpacing.l)
-            .widthIn(max = READING_COLUMN_WIDTH + AppSpacing.xxxl * 2)
-            .clip(AppShapes.card)
-            .background(theme.readingBackground)
-            .border(AppBorders.hairline(), AppShapes.card)
-            // No bottom padding: the footer runs to the card's bottom edge.
-            .padding(start = edgePadding, end = edgePadding, top = if (compact) AppSpacing.l else AppSpacing.xxxl)
-    }
-    Box(Modifier.fillMaxSize().then(if (compact) Modifier.background(theme.readingBackground) else Modifier)) {
+    val edgePadding = AppSpacing.l
+    // No card around the text: it runs on the page itself, with a slim margin at the window's edges.
+    val cardModifier = Modifier.fillMaxWidth().padding(start = edgePadding, end = edgePadding, top = AppSpacing.l)
+    Box(Modifier.fillMaxSize().background(theme.readingBackground)) {
     Column(
         Modifier.fillMaxSize()
             .onGloballyPositioned { viewport[0] = it; if (it.size != viewportSize) viewportSize = it.size }
@@ -975,7 +965,6 @@ private val CONTROLS_ROOM = 120.dp
 /** The reader settings dialog beyond a phone, room for two columns of cards. */
 private val SETTINGS_DIALOG_WIDTH = 1040.dp
 /** The widest the text runs on a wide window. */
-private val READING_COLUMN_WIDTH = 2000.dp
 /** The docked term pane, as wide as Word frequency's. */
 private val TERM_PANEL_WIDTH = 440.dp
 private const val EXAMPLES_DIALOG_HEIGHT = 0.92f
