@@ -533,10 +533,10 @@ object PredefinedLanguages {
             characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
             regexpSplitSentences = ".،!؟؛:​,;",
             exceptionsSplitSentences = "Mr.|Mrs.|Dr.|[A-Z].|Vd.|Vds.",
-            wordCharacters = "\\u0600-\\u0608\\u0610-\\u061A\\u0620-\\u065F\\u066E-\\u06D3\\u06D5-\\u06FF\\u077E-\\u077F\\u7B50-\\uFDFF\\u0400-\\u04FF",
+            wordCharacters = "\\u200C\\u0600-\\u0608\\u0610-\\u061A\\u0620-\\u065F\\u066E-\\u06D3\\u06D5-\\u06FF\\u077E-\\u077F\\u7B50-\\uFDFF\\u0400-\\u04FF",
             rightToLeft = true,
             showRomanization = true,
-            parserType = "spacedel",
+            parserType = "persian",
         ),
     )
 

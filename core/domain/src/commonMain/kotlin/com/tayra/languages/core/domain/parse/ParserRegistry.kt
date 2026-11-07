@@ -20,6 +20,7 @@ object ParserRegistry {
         "japanese" to JapaneseParser(),
         "korean" to KoreanParser(),
         "arabic" to ArabicParser(),
+        "persian" to PersianParser(),
     )
 
     /** Parser types with their display names. */
