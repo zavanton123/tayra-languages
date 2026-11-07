@@ -175,6 +175,7 @@
       "title": "Lisa är ny i stan",
       "summary": "Lisa is new in town, cannot find a shop, and a man in the street helps her find the way.",
       "newWords": [
+        "polis",
         "hjälpa",
         "hjälp",
         "tidigt",
@@ -185,7 +186,7 @@
         "fortsätta",
         "stad"
       ],
-      "text": "Lisa är ny i stan. Hon kommer från Umeå. Stan är stor, och Lisa är dålig på att hitta.\n\nI dag vill hon handla tidigt. Hon går ut tidigt. Det finns en ICA nära, men den har problem i dag. På grund av det kan Lisa inte handla där.\n\nLisa går och går. Hon hittar inte en annan ICA. Det blir bara värre.\n\nDå ser hon en man. ”Hej! Kan du hjälpa mig?” frågar hon. ”Jag vill handla. Var finns det en ICA?”\n\nMannen har mycket att göra, fast han har tid för Lisa.\n”Ja, klart jag kan hjälpa dig”, säger mannen. ”Fortsätt på den här vägen. Där ser du en ICA. Det är faktiskt inte långt.”\n\nLisa fortsätter på vägen. Det är faktiskt nära. ”Tack för hjälpen!” säger hon.\n\nNu kan Lisa handla. Hon är trött, fast glad. Hon tycker om den nya stan.\n\nFrågor:\nVar kommer Lisa från?\nLisa kommer från Umeå.\nVarför kan Lisa inte handla på ICA nära henne?\nPå grund av ett problem kan hon inte handla där.\nVem frågar Lisa om hjälp?\nHon frågar en man om hjälp.\nVad säger mannen?\nMannen säger: ”Fortsätt på den här vägen.”\nÄr det långt?\nNej, det är faktiskt nära."
+      "text": "Lisa är ny i stan. Hon kommer från Umeå. Stan är stor, och Lisa är dålig på att hitta.\n\nI dag vill hon handla tidigt. Hon går ut tidigt. Det finns en ICA nära, men den har problem i dag. På grund av det kan Lisa inte handla där.\n\nLisa går och går. Hon hittar inte en annan ICA. Det blir bara värre.\n\nDå ser hon en polis. ”Hej! Kan du hjälpa mig?” frågar hon. ”Jag vill handla. Var finns det en ICA?”\n\nPolisen har mycket att göra, fast han har tid för Lisa.\n”Ja, klart jag kan hjälpa dig”, säger polisen. ”Fortsätt på den här vägen. Där ser du en ICA. Det är faktiskt inte långt.”\n\nLisa fortsätter på vägen. Det är faktiskt nära. ”Tack för hjälpen!” säger hon.\n\nNu kan Lisa handla. Hon är trött, fast glad. Hon tycker om den nya stan.\n\nFrågor:\nVar kommer Lisa från?\nLisa kommer från Umeå.\nVarför kan Lisa inte handla på ICA nära henne?\nPå grund av ett problem kan hon inte handla där.\nVem frågar Lisa om hjälp?\nHon frågar en polis om hjälp.\nVad säger polisen?\nPolisen säger: ”Fortsätt på den här vägen.”\nÄr det långt?\nNej, det är faktiskt nära."
     },
     {
       "title": "Alva och Hugo säljer kakor",
