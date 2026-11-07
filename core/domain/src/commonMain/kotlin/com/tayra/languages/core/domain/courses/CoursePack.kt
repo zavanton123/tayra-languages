@@ -105,7 +105,7 @@ object CoursePacks {
             title = "Danish",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-da.sqlite.gzip",
-            downloadSize = 1_131_193,
+            downloadSize = 1_101_431,
         ),
         CoursePack(
             id = "courses-no",
@@ -113,7 +113,7 @@ object CoursePacks {
             title = "Norwegian",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-no.sqlite.gzip",
-            downloadSize = 1_110_630,
+            downloadSize = 1_104_165,
         ),
         CoursePack(
             id = "courses-sv",
