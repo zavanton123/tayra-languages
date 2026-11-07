@@ -149,7 +149,7 @@
     },
     {
       "title": "Der runde Kuchen",
-      "summary": "A local company holds a cake game in the town square, and Julia wins with her round apple cake.",
+      "summary": "A local company asks who makes the best cake in the town square and has a game for the children; Julia wins with her round apple cake and her child wins the game.",
       "newWords": [
         "Unternehmen",
         "Spiel",
@@ -162,7 +162,7 @@
         "allerdings",
         "später"
       ],
-      "text": "Auf dem großen Platz in der Stadt sind heute viele Leute. Ein Unternehmen aus der Stadt macht dort ein Spiel. Das Spiel heißt: „Wer macht den besten Kuchen?“ Der Kuchen muss rund sein. Der beste gewinnt 100 Euro.\n\nJulia möchte gewinnen. Sie macht einen runden Kuchen. Er besteht aus Äpfeln und viel Liebe. Julia arbeitet 3 Stunden daran. Ihr Kuchen ist zwar nicht groß, aber er ist sehr gut. Er ist allerdings nicht ganz rund.\n\nAuf dem Platz gibt es 20 Kuchen. Viele sind groß und ganz rund. Die Leute von dem Unternehmen essen von jedem Kuchen etwas. Das braucht allerdings Zeit: eine ganze Stunde.\n\nEine Stunde später sagt ein Mann: „Der Kuchen von Julia gewinnt!“ Er ist zwar nicht ganz rund, er ist jedoch der beste. Julia gewinnt das Spiel und 100 Euro. Später essen Julia und ihre Freunde zusammen.\n\nFragen:\nWas macht das Unternehmen auf dem Platz?\nDas Unternehmen macht ein Spiel.\nWie muss der Kuchen sein?\nDer Kuchen muss rund sein.\nWas ist in dem Kuchen von Julia?\nEr besteht aus Äpfeln und viel Liebe.\nIst der Kuchen von Julia ganz rund?\nNein, er ist nicht ganz rund. Er ist jedoch der beste.\nWer gewinnt das Spiel?\nJulia gewinnt das Spiel und 100 Euro."
+      "text": "Auf dem großen Platz in der Stadt sind heute viele Leute. Ein Unternehmen aus der Stadt ist dort. Es fragt: „Wer macht den besten Kuchen?“ Der Kuchen muss rund sein. Der beste gewinnt 100 Euro.\n\nJulia möchte gewinnen. Sie macht einen runden Kuchen. Er besteht aus Äpfeln und viel Liebe. Julia arbeitet 3 Stunden daran. Ihr Kuchen ist zwar nicht groß, aber er ist sehr gut. Er ist allerdings nicht ganz rund.\n\nAuf dem Platz gibt es 20 Kuchen. Viele sind groß und ganz rund. Die Leute von dem Unternehmen essen von jedem Kuchen etwas. Das braucht allerdings Zeit: eine ganze Stunde. Für die Kinder gibt es ein Spiel. Das Kind von Julia spielt auch.\n\nEine Stunde später sagt ein Mann: „Der Kuchen von Julia gewinnt!“ Er ist zwar nicht ganz rund, er ist jedoch der beste. Julia gewinnt 100 Euro. Das Kind von Julia gewinnt das Spiel. Später essen Julia und ihre Freunde zusammen.\n\nFragen:\nWas fragt das Unternehmen auf dem Platz?\nEs fragt: „Wer macht den besten Kuchen?“\nWie muss der Kuchen sein?\nDer Kuchen muss rund sein.\nWas ist in dem Kuchen von Julia?\nEr besteht aus Äpfeln und viel Liebe.\nIst der Kuchen von Julia ganz rund?\nNein, er ist nicht ganz rund. Er ist jedoch der beste.\nWer gewinnt das Spiel?\nDas Kind von Julia gewinnt das Spiel."
     },
     {
       "title": "Pizza und Film",
@@ -183,17 +183,16 @@
     },
     {
       "title": "Ein Monat im Café",
-      "summary": "Jana has worked in a café next to a school for a month; one morning two men take the day's special offer and talk about politics.",
+      "summary": "Jana has worked in a café next to a school for a month; one morning two men take the day's special offer and talk about their work.",
       "newWords": [
         "Arbeit",
         "Monat",
         "erreichen",
         "direkt",
         "gelten",
-        "politisch",
         "darüber"
       ],
-      "text": "Jana hat eine neue Arbeit. Sie arbeitet jetzt in einem Café. Das Café liegt direkt neben einer Schule. Jana ist schon einen Monat dort.\n\nJeden Morgen fährt Jana mit dem Auto zur Arbeit. Sie erreicht das Café um 6 Uhr. Um 7 Uhr kommen die ersten Leute.\n\nDie Arbeit ist nicht schwer. Jana macht Kaffee für die Leute. Heute gibt es etwas Neues: Kaffee und ein Brötchen für 3 Euro. Das gilt nur heute.\n\nZwei Männer kommen. „Gilt das heute?“, fragt ein Mann. „Ja, das gilt heute“, sagt Jana. Die Männer nehmen Kaffee und Brötchen und setzen sich.\n\nDie zwei Männer reden über politische Dinge. Sie reden lange darüber. Jana hört nicht zu. Sie hat viel Arbeit.\n\nJana mag die Arbeit. Sie erreicht das Café jeden Morgen um 6 Uhr. Nach einem Monat kennt sie schon viele Leute.\n\nFragen:\nWo liegt das Café?\nDas Café liegt direkt neben einer Schule.\nWie lange ist Jana schon dort?\nJana ist schon einen Monat dort.\nUm wie viel Uhr erreicht Jana das Café?\nSie erreicht das Café um 6 Uhr.\nGibt es das jeden Tag für 3 Euro?\nNein, das gilt nur heute.\nWas machen die zwei Männer?\nSie reden über politische Dinge. Sie reden lange darüber."
+      "text": "Jana hat eine neue Arbeit. Sie arbeitet jetzt in einem Café. Das Café liegt direkt neben einer Schule. Jana ist schon einen Monat dort.\n\nJeden Morgen fährt Jana mit dem Auto zur Arbeit. Sie erreicht das Café um 6 Uhr. Um 7 Uhr kommen die ersten Leute.\n\nDie Arbeit ist nicht schwer. Jana macht Kaffee für die Leute. Heute gibt es etwas Neues: Kaffee und ein Brötchen für 3 Euro. Das gilt nur heute.\n\nZwei Männer kommen. „Gilt das heute?“, fragt ein Mann. „Ja, das gilt heute“, sagt Jana. Die Männer nehmen Kaffee und Brötchen und setzen sich.\n\nDie zwei Männer reden über ihre Arbeit. Sie reden lange darüber. Jana hört nicht zu. Sie hat viel Arbeit.\n\nJana mag die Arbeit. Sie erreicht das Café jeden Morgen um 6 Uhr. Nach einem Monat kennt sie schon viele Leute.\n\nFragen:\nWo liegt das Café?\nDas Café liegt direkt neben einer Schule.\nWie lange ist Jana schon dort?\nJana ist schon einen Monat dort.\nUm wie viel Uhr erreicht Jana das Café?\nSie erreicht das Café um 6 Uhr.\nGibt es das jeden Tag für 3 Euro?\nNein, das gilt nur heute.\nWas machen die zwei Männer?\nSie reden über ihre Arbeit. Sie reden lange darüber."
     }
   ]
 }

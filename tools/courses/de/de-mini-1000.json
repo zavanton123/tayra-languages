@@ -3,7 +3,7 @@
   "rankUpTo": 1000,
   "level": "A2",
   "title": "Feste und Freunde",
-  "description": "Ten short stories about birthdays, a village wedding, a Christmas market, moving house, a new neighbour from abroad and other celebrations with friends.",
+  "description": "Ten short stories about birthdays, a village wedding, a winter market, moving house, a new neighbour from abroad and other celebrations with friends.",
   "topic": "Celebrations and friends",
   "names": [
     "Mia",
@@ -31,7 +31,6 @@
     "Leipzig",
     "Boston",
     "Frankfurt",
-    "Thanksgiving",
     "USA",
     "Deutschland",
     "Freiburg",
@@ -85,21 +84,20 @@
       "text": "Anna und Tom wohnen in München. Sie sind seit 6 Jahren Partner. Im Juni wollen sie heiraten. Sie feiern in einem kleinen Dorf in Bayern, denn dort ist Anna groß geworden.\n\nGanz nahe beim Dorf steht ein altes Schloss. Das Schloss liegt mitten in der Natur, zwischen den Bergen und einem Fluss. Ein kleiner Weg führt vom Dorf zum Schloss. So sind der Ort und das Schloss verbunden.\n\nAm Morgen ist noch alles ruhig. Anna sitzt im Haus ihrer Eltern. Ihre Freundin Lisa macht ihr die Haare. Dann steckt Lisa kleine weiße Blumen in Annas Haar.\n\nUm 11 Uhr sagen Anna und Tom in der Kirche „Ja“. Jetzt beginnt ihre Ehe. Später sagt Annas Vater: „Eine gute Ehe braucht Liebe und Zeit.“ Anna und Tom halten sich an den Händen. Sie fühlen sich eng verbunden.\n\nDanach gehen alle Gäste zu Fuß zum Schloss. Es ist nicht weit, das Schloss ist ja ganz nahe. Vor dem Schloss macht ein Freund viele Fotos. Auf jedem Foto sieht man das Schloss im Hintergrund. Auf einem Foto sind auch die Berge im Hintergrund.\n\nAm Abend ist es im Schloss nicht mehr ruhig. Es gibt Musik, und jeder Gast sucht einen Partner zum Tanzen. Um 10 Uhr wirft Anna ihre Blumen in die Luft. Lisa fängt sie. Alle lachen und rufen: „Wer die Blumen fängt, heiratet als Nächste!“\n\nSpät in der Nacht gehen Anna und Tom durch die ruhige Natur zurück ins Dorf. Sie sind sehr glücklich.\n\nFragen:\nSeit wann sind Anna und Tom Partner?\nSie sind seit 6 Jahren Partner.\nWo steht das alte Schloss?\nEs steht ganz nahe beim Dorf, mitten in der Natur.\nWas macht Lisa am Morgen?\nSie macht Anna die Haare und steckt Blumen in ihr Haar.\nWas sieht man auf jedem Foto im Hintergrund?\nMan sieht das Schloss im Hintergrund.\nWer fängt die Blumen?\nLisa fängt die Blumen."
     },
     {
-      "title": "Auf dem Weihnachtsmarkt",
-      "summary": "Jonas and Sara visit a Christmas market and buy a small wooden house from an old man.",
+      "title": "Auf dem Wintermarkt",
+      "summary": "Jonas and Sara visit a winter market and buy a small wooden house from an old man.",
       "newWords": [
         "kalt",
         "Baum",
         "günstig",
         "teuer",
-        "verkauft",
         "gucken",
         "Donnerstag",
         "übrig",
         "Modell",
         "darunter"
       ],
-      "text": "Es ist Donnerstag, eine Woche vor Weihnachten. Jonas und seine Freundin Sara gehen nach der Arbeit auf den Markt in der Altstadt. Jeden Donnerstag im Dezember gehen sie zusammen dorthin.\n\nEs ist sehr kalt. Sara hat kalte Hände, und Jonas hat eine kalte Nase. Aber der Markt ist schön. In der Mitte steht ein großer Baum mit vielen Lichtern. Darunter singen Kinder ein Lied.\n\nJonas und Sara gehen langsam von Stand zu Stand und gucken. An einem Stand verkauft eine Frau warme Getränke. Jonas kauft zwei Becher. Jetzt sind die Hände nicht mehr so kalt.\n\nAn einem anderen Stand sitzt ein alter Mann. Er verkauft kleine Modelle aus Holz. Er hat viele Modelle, darunter ein Schiff, eine Kirche und viele kleine Häuser. Sara guckt lange. „Die Modelle sind wunderbar“, sagt sie.\n\n„Wie viel kostet die Kirche?“, fragt Jonas. „Die Kirche ist leider teuer“, sagt der Mann. „Sie kostet 60 Euro. Ich habe viel Zeit für das Modell gebraucht.“ Das ist zu teuer für Jonas und Sara.\n\n„Und die kleinen Häuser?“, fragt Sara. „Die sind günstig“, sagt der Mann. „Ein Haus kostet nur 8 Euro.“ Heute hat er schon viele Häuser verkauft. Nur noch ein Haus ist übrig. Es ist rot und hat ein kleines Fenster.\n\nSara kauft das letzte Haus. Jetzt ist nichts mehr übrig. „Das war günstig, und es ist sehr schön“, sagt sie. Zu Hause stellt sie das kleine Haus unter ihren Baum.\n\nFragen:\nWann gehen Jonas und Sara auf den Markt?\nSie gehen jeden Donnerstag im Dezember auf den Markt.\nWas steht in der Mitte des Marktes?\nIn der Mitte steht ein großer Baum mit vielen Lichtern.\nWas verkauft der alte Mann?\nEr verkauft kleine Modelle aus Holz.\nWarum kaufen Jonas und Sara die Kirche nicht?\nDie Kirche ist zu teuer. Sie kostet 60 Euro.\nWas ist am Ende übrig?\nAm Ende ist nichts mehr übrig. Sara kauft das letzte Haus."
+      "text": "Es ist ein Donnerstag im Dezember. Jonas und seine Freundin Sara gehen nach der Arbeit auf den Markt in der Altstadt. Jeden Donnerstag im Dezember gehen sie zusammen dorthin.\n\nEs ist sehr kalt. Sara hat kalte Hände, und Jonas hat eine kalte Nase. Aber der Markt ist schön. In der Mitte steht ein großer Baum mit vielen Lichtern. Darunter singen Kinder ein Lied.\n\nJonas und Sara gehen langsam von Stand zu Stand und gucken. An einem Stand verkauft eine Frau warmen Tee. Jonas kauft zwei Becher. Jetzt sind die Hände nicht mehr so kalt.\n\nAn einem anderen Stand sitzt ein alter Mann. Er verkauft kleine Modelle aus Holz. Er hat viele Modelle, darunter ein Schiff, eine Kirche und viele kleine Häuser. Sara guckt lange. „Die Modelle sind wunderbar“, sagt sie.\n\n„Wie viel kostet die Kirche?“, fragt Jonas. „Die Kirche ist leider teuer“, sagt der Mann. „Sie kostet 60 Euro. Ich habe viel Zeit für das Modell gebraucht.“ Das ist zu teuer für Jonas und Sara.\n\n„Und die kleinen Häuser?“, fragt Sara. „Die sind günstig“, sagt der Mann. „Ein Haus kostet nur 8 Euro.“ Heute hat er schon viele Häuser verkauft. Nur noch ein Haus ist übrig. Es ist rot und hat ein kleines Fenster.\n\nSara kauft das letzte Haus. Jetzt ist nichts mehr übrig. „Das war günstig, und es ist sehr schön“, sagt sie. Zu Hause stellt sie das kleine Haus ans Fenster.\n\nFragen:\nWann gehen Jonas und Sara auf den Markt?\nSie gehen jeden Donnerstag im Dezember auf den Markt.\nWas steht in der Mitte des Marktes?\nIn der Mitte steht ein großer Baum mit vielen Lichtern.\nWas verkauft der alte Mann?\nEr verkauft kleine Modelle aus Holz.\nWarum kaufen Jonas und Sara die Kirche nicht?\nDie Kirche ist zu teuer. Sie kostet 60 Euro.\nWas ist am Ende übrig?\nAm Ende ist nichts mehr übrig. Sara kauft das letzte Haus."
     },
     {
       "title": "Der Umzug",
@@ -120,7 +118,7 @@
     },
     {
       "title": "Die neue Nachbarin",
-      "summary": "Julia meets Emily, a scientist from Boston; they talk about education and celebrate Thanksgiving.",
+      "summary": "Julia meets Emily, a scientist from Boston; they talk about education, and Julia comes to Emily's birthday dinner.",
       "newWords": [
         "ursprünglich",
         "Dollar",
@@ -133,7 +131,7 @@
         "modern",
         "erwähnt"
       ],
-      "text": "Julia wohnt in Leipzig, in einem alten Haus. Im September ist eine neue Nachbarin in die Wohnung neben Julia gezogen. Sie heißt Emily und kommt ursprünglich aus Boston. Ursprünglich wollte sie nur ein Jahr in Deutschland bleiben. Jetzt bleibt sie vielleicht länger.\n\nEmily arbeitet an der Universität. Sie ist wissenschaftliche Mitarbeiterin. In ihrer wissenschaftlichen Arbeit geht es um Bildung: Wie lernen Kinder in verschiedenen Ländern?\n\nEines Abends trinken Julia und Emily zusammen Kaffee bei Emily. Emilys Wohnung ist modern. Alles ist weiß und modern, aber das Haus ist alt. Das gefällt Julia.\n\nDie beiden Frauen sprechen über Bildung. „In den USA ist die Universität sehr teuer“, sagt Emily. „Ein Jahr kostet oft 30.000 Dollar oder mehr. Viele junge Leute bezahlen danach viele Jahre lang dafür.“ „Bei uns kostet die Universität fast nichts“, sagt Julia. So beginnt eine lange Diskussion. Die Diskussion macht beiden Spaß.\n\nEmily erzählt auch von ihrer Reise nach Deutschland. Die Reise war lang: zuerst mit dem Flugzeug nach Frankfurt, dann mit dem Zug nach Leipzig. In der ersten Woche hat Emily ihrer Mutter in Boston eine lange Nachricht geschrieben. In der Nachricht hat sie Julia erwähnt: „Meine Nachbarin ist sehr nett.“ Sie hat auch das alte Haus erwähnt.\n\nIm November lädt Emily Julia zu einem speziellen Fest ein: Thanksgiving. Das ist ein nationales Fest in den USA. Emily kocht ein spezielles Essen. „Das ist unser nationales Essen für diesen Tag“, sagt sie. Julia hat noch nie Thanksgiving gefeiert, aber das Fest gefällt ihr sehr.\n\nFragen:\nWoher kommt Emily ursprünglich?\nEmily kommt ursprünglich aus Boston.\nWas ist das Thema von Emilys wissenschaftlicher Arbeit?\nDas Thema ist Bildung.\nWie viel kostet ein Jahr an der Universität in den USA?\nEin Jahr kostet oft 30.000 Dollar oder mehr.\nWie war Emilys Reise nach Deutschland?\nDie Reise war lang: zuerst mit dem Flugzeug nach Frankfurt, dann mit dem Zug nach Leipzig.\nWas ist Thanksgiving?\nDas ist ein nationales Fest in den USA."
+      "text": "Julia wohnt in Leipzig, in einem alten Haus. Im September ist eine neue Nachbarin in die Wohnung neben Julia gezogen. Sie heißt Emily und kommt ursprünglich aus Boston. Ursprünglich wollte sie nur ein Jahr in Deutschland bleiben. Jetzt bleibt sie vielleicht länger.\n\nEmily arbeitet an der Universität. Sie ist wissenschaftliche Mitarbeiterin. In ihrer wissenschaftlichen Arbeit geht es um Bildung: Wie lernen Kinder in verschiedenen Ländern? Früher hat sie an einer nationalen Studie über Schulen in den USA gearbeitet.\n\nEines Abends trinken Julia und Emily zusammen Kaffee bei Emily. Emilys Wohnung ist modern. Alles ist weiß und modern, aber das Haus ist alt. Das gefällt Julia.\n\nDie beiden Frauen sprechen über Bildung. „In den USA ist die Universität sehr teuer“, sagt Emily. „Ein Jahr kostet oft 30.000 Dollar oder mehr. Viele junge Leute bezahlen danach viele Jahre lang dafür.“ „Bei uns kostet die Universität fast nichts“, sagt Julia. So beginnt eine lange Diskussion. Die Diskussion macht beiden Spaß.\n\nEmily erzählt auch von ihrer Reise nach Deutschland. Die Reise war lang: zuerst mit dem Flugzeug nach Frankfurt, dann mit dem Zug nach Leipzig. In der ersten Woche hat Emily ihrer Mutter in Boston eine lange Nachricht geschrieben. In der Nachricht hat sie Julia erwähnt: „Meine Nachbarin ist sehr nett.“ Sie hat auch das alte Haus erwähnt.\n\nIm November lädt Emily Julia zu ihrem Geburtstag ein. Emily kocht ein spezielles Essen aus ihrer Heimat. „Das ist bei uns ein typisches Essen für besondere Tage“, sagt sie. Julia kennt dieses spezielle Essen noch nicht, aber es gefällt ihr sehr.\n\nFragen:\nWoher kommt Emily ursprünglich?\nEmily kommt ursprünglich aus Boston.\nWas ist das Thema von Emilys wissenschaftlicher Arbeit?\nDas Thema ist Bildung.\nWie viel kostet ein Jahr an der Universität in den USA?\nEin Jahr kostet oft 30.000 Dollar oder mehr.\nWie war Emilys Reise nach Deutschland?\nDie Reise war lang: zuerst mit dem Flugzeug nach Frankfurt, dann mit dem Zug nach Leipzig.\nWoran hat Emily früher gearbeitet?\nSie hat an einer nationalen Studie über Schulen in den USA gearbeitet."
     },
     {
       "title": "Das Sommerfest im Park",
@@ -204,15 +202,12 @@
       "summary": "A village women's football team wins the league and celebrates in the club's new building.",
       "newWords": [
         "Meister",
-        "verdienen",
-        "Prozess",
-        "Wunder",
         "Bau",
         "geschlossen",
         "treiben",
         "stolz"
       ],
-      "text": "In einem kleinen Ort in Hessen gibt es einen Verein. Dort treiben viele Menschen Sport. Kinder und Frauen spielen dort Fußball. Auch Petra, 45 Jahre alt, treibt dort jede Woche Sport. Sie leitet die Mannschaft der Frauen.\n\nIm letzten Jahr war das alte Haus des Vereins geschlossen. Es war zu alt und nicht mehr sicher. Darum hat der Verein ein neues Haus gebaut. Der Bau hat ein ganzes Jahr gedauert. Das ganze Jahr war das alte Haus geschlossen, und die Frauen mussten in der Schule im nächsten Ort üben.\n\nPetra hat oft gesagt: „Eine gute Mannschaft wächst langsam. Das ist ein langer Prozess.“ Die Frauen haben jeden Montag, Mittwoch und Freitag geübt, auch im Winter. Jede Woche war ein kleiner Teil von diesem Prozess.\n\nIn diesem Jahr ist die Mannschaft Meister geworden. Sie hat fast jedes Spiel gewonnen. „Das ist kein Wunder“, sagt Petra. „Ihr habt so viel geübt. Ihr seid zu Recht Meister.“ Petra ist sehr stolz auf ihre Mannschaft. Die Frauen sind auch stolz. „Wir verdienen diesen Sieg“, sagt eine Frau aus der Mannschaft.\n\nDer Bau des neuen Hauses ist jetzt fertig. Am Samstag feiert der Verein dort ein großes Fest für den Meister. Der ganze Ort kommt. Es gibt Essen und Musik. Ein alter Mann aus dem Verein hält eine Rede: „Ein neuer Meister in einem neuen Haus. Das ist fast ein Wunder!“\n\nAm Ende tanzen alle im neuen Haus. Die Leute aus dem Ort sagen: „Die Frauen verdienen dieses Fest.“ Petra lacht und tanzt mit ihrer Mannschaft.\n\nFragen:\nWas machen die Menschen im Verein?\nSie treiben dort Sport.\nWarum war das alte Haus des Vereins geschlossen?\nEs war zu alt und nicht mehr sicher.\nWie lange hat der Bau gedauert?\nDer Bau hat ein ganzes Jahr gedauert.\nWas ist die Mannschaft in diesem Jahr geworden?\nSie ist Meister geworden.\nWarum ist der Sieg kein Wunder?\nDie Frauen haben so viel geübt."
+      "text": "In einem kleinen Ort in Hessen gibt es einen Verein. Dort treiben viele Menschen Sport. Kinder und Frauen spielen dort Fußball. Auch Petra, 45 Jahre alt, treibt dort jede Woche Sport. Sie leitet die Mannschaft der Frauen.\n\nIm letzten Jahr war das alte Haus des Vereins geschlossen. Es war zu alt und nicht mehr sicher. Darum hat der Verein ein neues Haus gebaut. Der Bau hat ein ganzes Jahr gedauert. Das ganze Jahr war das alte Haus geschlossen, und die Frauen mussten in der Schule im nächsten Ort üben.\n\nPetra hat oft gesagt: „Eine gute Mannschaft wächst langsam. Das braucht viel Zeit.“ Die Frauen haben jeden Montag, Mittwoch und Freitag geübt, auch im Winter. Jede Woche war ein kleiner Schritt.\n\nIn diesem Jahr ist die Mannschaft Meister geworden. Sie hat fast jedes Spiel gewonnen. „Das ist ganz normal“, sagt Petra. „Ihr habt so viel geübt. Ihr seid zu Recht Meister.“ Petra ist sehr stolz auf ihre Mannschaft. Die Frauen sind auch stolz. „Wir verdienen diesen Sieg“, sagt eine Frau aus der Mannschaft.\n\nDer Bau des neuen Hauses ist jetzt fertig. Am Samstag feiert der Verein dort ein großes Fest für den Meister. Der ganze Ort kommt. Es gibt Essen und Musik. Ein alter Mann aus dem Verein hält eine Rede: „Ein neuer Meister in einem neuen Haus. Das ist fast unglaublich!“\n\nAm Ende tanzen alle im neuen Haus. Die Leute aus dem Ort sagen: „Die Frauen verdienen dieses Fest.“ Petra lacht und tanzt mit ihrer Mannschaft.\n\nFragen:\nWas machen die Menschen im Verein?\nSie treiben dort Sport.\nWarum war das alte Haus des Vereins geschlossen?\nEs war zu alt und nicht mehr sicher.\nWie lange hat der Bau gedauert?\nDer Bau hat ein ganzes Jahr gedauert.\nWas ist die Mannschaft in diesem Jahr geworden?\nSie ist Meister geworden.\nWarum ist der Sieg für Petra ganz normal?\nDie Frauen haben so viel geübt."
     }
   ]
 }
