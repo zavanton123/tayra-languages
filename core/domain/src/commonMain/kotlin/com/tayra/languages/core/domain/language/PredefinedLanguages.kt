@@ -123,12 +123,12 @@ object PredefinedLanguages {
                 LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://www.verbix.com/webverbix/go.php?&D1=135&T1=[WORD]", isActive = true, sortOrder = 6),
             ),
             characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
-            regexpSplitSentences = "։՜՛՞",
+            regexpSplitSentences = "։",
             exceptionsSplitSentences = "[A-Z]|[\\u0531-\\u0556\\u0561-\\u0588].|մ.թ.ա.|դր.|Հ.Գ.|Ն.Ս.Օ.Տ.Տ.|ս.թ.|Ս.թ.|են.|համար.|մասին.|հետ.",
-            wordCharacters = "\\u0531-\\u0556\\u0561-\\u0588",
+            wordCharacters = "\\u0531-\\u0556\\u0561-\\u0588\\u055B\\u055C\\u055E\\u055F",
             rightToLeft = false,
             showRomanization = false,
-            parserType = "spacedel",
+            parserType = "armenian",
         ),
     )
 
