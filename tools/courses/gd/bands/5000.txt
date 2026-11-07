@@ -4,7 +4,7 @@
 4	4904	meirgeach	meirgich meirgiche mheirgich
 5	4905	daineamaig	
 6	4906	lathail	
-7	4907	mealltach	mealltaich
+7	4907	mealltach	mealltaich mealltaiche
 8	4908	reat	
 9	4909	fliùiteag	fhliùiteag
 10	4910	aighear	aighir
@@ -21,7 +21,7 @@
 21	4921	truailleachadh	
 22	4922	breisleachail	
 23	4923	dà-sheaghach	dà-sheaghaich
-24	4924	beothaich	beothaichidh beothaichte bheothachadh
+24	4924	beothaich	beothachadh beothaichidh beothaichte bheothachadh
 25	4925	deachd	
 26	4926	leòtha	
 27	4927	ciùrrte	ciùrrta
@@ -31,7 +31,7 @@
 31	4931	soindath	
 32	4932	leanailteach	leanailtiche
 33	4933	litearra	
-34	4934	geuraich	geurachadh gheuraich
+34	4934	geuraich	geurachadh geuraichidh gheuraich
 35	4935	earradh	earraidhean
 36	4936	trusgan	trusgain trusganan
 37	4937	acaid	
@@ -40,12 +40,12 @@
 40	4940	ciallachail	
 41	4941	deàlrach	
 42	4942	sìorrachd	sìorrachdan
-43	4943	còmhnaich	chòmhnaich còmhnaichidh còmhnaichte
+43	4943	còmhnaich	chòmhnaich còmhnaicheas còmhnaichidh còmhnaichte
 44	4944	caoimhneasach	
 45	4945	geur-chùiseach	
 46	4946	maidinn	mhaidinn
 47	4947	dèanadachd	
-48	4948	feusag-bheòil	
+48	4948	feusag-bheòil	feusaig-bheòil
 49	4949	ochd-deug	
 50	4950	ath-chagnach	
 51	4951	mèinn-ghuail	mèinne-ghuail
@@ -71,7 +71,7 @@
 71	4971	ainneamhag	aineamhag ainneamhagan ainneamhaig
 72	4972	rùdan	rùdain rùdanan
 73	4973	aghastar	
-74	4974	clionaigeach	
+74	4974	clionaigeach	clionaigich
 75	4975	dearbhachd	
 76	4976	sìor-uaine	shìor-uaine
 77	4977	deit	deitichean

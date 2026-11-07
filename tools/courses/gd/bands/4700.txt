@@ -10,7 +10,7 @@
 10	4610	liostaich	liostachadh liostadh
 11	4611	iarmad	iarmadan iarmaid
 12	4612	diadhaich	dhiadhachadh dhiadhaichte diadhaichte
-13	4613	tùsaire	thùsaire thùsairean
+13	4613	tùsaire	thùsaire thùsairean tùsairean
 14	4614	èalaidh	dh'ealaidh h-ealaidh èaladh èalaidhidh èalaidhte
 15	4615	teileasgop	teileasgopan theileasgoip
 16	4616	breige	bhreigichean breigichean
@@ -36,7 +36,7 @@
 36	4636	feòrag	feòragan feòraige fheòrag
 37	4637	traon	thraoin traoin
 38	4638	iolair-mhara	iolaire-mara iolairean-mara
-39	4639	los-leathann	leas-leathann
+39	4639	los-leathann	leas-leathann los-leathainn
 40	4640	ionadal	
 41	4641	eagach	
 42	4642	tartan	tartain tartanaibh thartain thartana thartanaibh
@@ -47,7 +47,7 @@
 47	4647	ruighe	ruighean
 48	4648	dromadair	dromadairean
 49	4649	ailm	ailme ailmean ailmibh h-ailme h-ailmean h-ailmibh
-50	4650	dolair	
+50	4650	dolair	dolairean
 51	4651	laoidheadair	
 52	4652	tuireadh	tuiridh tuiridhean
 53	4653	bun-os-cionn	
@@ -83,7 +83,7 @@
 83	4683	cuileann	cuilfhionn cuilinn cuilionn
 84	4684	bòrd-stiùiridh	bùird-stiùiridh
 85	4685	ailt	
-86	4686	torm-fheadan	
+86	4686	torm-fheadan	torm-fheadain
 87	4687	fireannta	
 88	4688	mire	
 89	4689	famhair	famhairean
