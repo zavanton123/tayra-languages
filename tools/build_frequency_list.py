@@ -12,8 +12,8 @@ blended, counted as whole words that are cut into a word and its particles as th
   4. the language's Wikipedia, counted from its articles dump (for languages none of the others has)
   5. for Ancient Greek, the New Testament's word forms as MorphGNT parses the SBLGNT
 
-For Irish and Welsh, whose sources are all Wikipedia, everyday sentences (Tatoeba's and Common Voice's) are blended in too,
-weighted by SOURCE_WEIGHTS.
+For Irish, Welsh and Georgian, whose sources are all Wikipedia or news, everyday sentences (Tatoeba's and Common
+Voice's) are blended in too, weighted by SOURCE_WEIGHTS.
 
 --source forces one of them. The counts are of word forms (in Arabic, of the words left by cutting off the
 letters written onto their front, as the reader cuts them); each form is credited to the dictionary
@@ -149,8 +149,11 @@ BLEND.add("cy")
 SOURCE_WEIGHTS["cy"] = {"leipzig": 0.4, "everyday_mixed": 0.25, "everyday": 0.35}
 # Georgian is counted from news and Wikipedia alone: FrequencyWords' ka file is Bulgarian subtitles, misdecoded into
 # Georgian letters (ეა is да, თმა is има, ნალთ is нали), which put თმა "hair" 24th and ნალი "horseshoe" 140th.
-SOURCE_ORDER["ka"] = ["leipzig", "wikipedia"]
+# Everyday words ranked far down in them (შენ 1823, ჭამს 3198, გამარჯობა 4639), so everyday sentences are blended in
+# as in Irish: 32,000 words of them at a quarter of the blend put შენ 15th, ჭამს about the 200th, მადლობა the 700th.
+SOURCE_ORDER["ka"] = ["leipzig", "wikipedia", "everyday"]
 BLEND.add("ka")
+SOURCE_WEIGHTS["ka"] = {"leipzig": 0.375, "wikipedia": 0.375, "everyday": 0.25}
 # Hindi is counted from web text and subtitles: its Wikipedia adds the words of its pages (politics, districts, census
 # terms) to the first thousand, where wordfreq's short list alone has fewer than 9,000 words.
 SOURCE_ORDER["hi"] = ["wordfreq", "frequencywords"]
@@ -2383,7 +2386,19 @@ EVERYDAY = {
     "ga": {"tatoeba": "gle", "commonvoice": ("ga-IE", "70dde553e48d7d0da452ba4ba070c001f65db88c", [
         "aesop", "ancomhgar", "anmhathair", "ceisteanna", "freagrai", "graimear_na_gaedhilge", "minimal_pairs",
         "seananocoistin", "seanfhocail", "sentence-collector"])},
+    # Of the Georgian files, wiki.ka is sentences from its Wikipedia, which the list has already, and
+    # singleword-benchmark is the digits.
+    "ka": {"tatoeba": "kat", "commonvoice": ("ka", "70dde553e48d7d0da452ba4ba070c001f65db88c", ["sentence-collector"])},
 }
+# The names of the people in Tatoeba's sentences (Tom, Mary) with their case endings, where the language writes them
+# without a capital: Georgian ტომი is a book's "volume" as well, and Tom is in one Georgian sentence of ten.
+EVERYDAY_NAMES = {"ka": {
+    "ტომ", "ტომი", "ტომს", "ტომმა", "ტომის", "ტომთან", "ტომზე", "ტომიც", "ტომა", "ტომას", "ტომისაა", "ტომისთვის",
+    "ტომისგან", "ტომით", "ტომია", "მერი", "მერის", "მერიმ", "მერისთან", "მერისგან"}}
+# Common Voice sentences left out by the beginnings of their words: a tenth of the Georgian sentence-collector is
+# arithmetic lessons ("ორს დამატებული სამი უდრის ხუთს"), which lifted რიცხვი, უდრის and ათეული into the first 600.
+EVERYDAY_SKIP = {"ka": ("რიცხვ", "უდრის", "ტოლი", "ტოლია", "ათეულ", "ასეულ", "ერთეულ", "ასიან", "დამატებულ", "გამოკლებულ",
+                        "მინუს", "პლუს", "მივუმატ", "დავუმატ", "გამოვაკელ", "გამოვაკლ", "კვადრატ")}
 # Sentences of everyday and other text together, weighted apart from those (SOURCE_WEIGHTS).
 EVERYDAY_MIXED = {"cy": {"commonvoice": ("cy", "70dde553e48d7d0da452ba4ba070c001f65db88c", ["covost"])}}
 # What is taken off each word's count in them: a word they have once is no evidence, in so few sentences.
@@ -2408,28 +2423,36 @@ def everyday_counts(language, limit, sources=None):
         if path:
             paths.append(path)
             used.append(f"Tatoeba {code}")
+    voiced = []
     if "commonvoice" in sources:
         locale, commit, files = sources["commonvoice"]
         os.makedirs(os.path.join(CACHE, f"commonvoice-{locale}"), exist_ok=True)
         got = [download(f"https://raw.githubusercontent.com/common-voice/common-voice/{commit}/server/data/{locale}/{f}.txt",
                         os.path.join(f"commonvoice-{locale}", f"{f}.txt")) for f in files]
         if any(got):
-            paths += [p for p in got if p]
+            voiced = [p for p in got if p]
+            paths += voiced
             used.append(f"Common Voice {locale} sentences")
     if not paths:
         return None
     import bz2
     sentences = {}
+    skip = EVERYDAY_SKIP.get(language)
     for path in paths:
         with (bz2.open(path, "rt", encoding="utf-8") if path.endswith(".bz2") else open(path, encoding="utf-8")) as f:
             for line in f:
                 text = line.rstrip("\n").split("\t")[-1].strip()
+                if skip and path in voiced and any(w.startswith(skip) for w in WIKI_WORD.findall(lower(language, text))):
+                    continue
                 if text:
                     sentences.setdefault(text.replace("’", "'"), None)
     words, capital, plain = defaultdict(int), set(), set()
+    names = EVERYDAY_NAMES.get(language, set())
     for text in sentences:
         for i, word in enumerate(WIKI_WORD.findall(text)):
             key = lower(language, word)
+            if key in names:
+                continue
             words[key] += 1
             if word[0] != key[0]:
                 if i:

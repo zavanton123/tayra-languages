@@ -2287,6 +2287,8 @@ OVERRIDES["ka"] = {
     "სახლში": ["სახლი"], "ოჯახში": ["ოჯახი"], "სამხრეთით": ["სამხრეთი"], "ჩრდილოეთით": ["ჩრდილოეთი"],
     "დასავლეთით": ["დასავლეთი"], "აღმოსავლეთით": ["აღმოსავლეთი"], "მონაცემები": ["მონაცემი"], "ამისა": ["ეს"], "მათს": ["მათი"],
     "რაოდენობით": ["რაოდენობა"], "გამოყენებით": ["გამოყენება"],
+    # From the everyday sentences: ესე of ესე იგი "that is" is ეს's old form, and გთხოვთ "please" (to you all) is გთხოვ's.
+    "ესე": ["ეს"], "გთხოვთ": ["გთხოვ"],
 }
 # The months are names to the pack, which has no forms for most: a month's case forms, of its stem and of its stem without
 # the last vowel (ოქტომბერს, ოქტომბრის; both are written), with the postpositions written onto them.
