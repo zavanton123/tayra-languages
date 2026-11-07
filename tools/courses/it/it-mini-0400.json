@@ -74,6 +74,7 @@
       "summary": "Luigi is very hungry, so he and his father eat at a small full place in Naples.",
       "newWords": [
         "mangiare",
+        "morire",
         "locale",
         "pieno",
         "signore",
@@ -84,7 +85,7 @@
         "conto",
         "soldi"
       ],
-      "text": "Luigi e suo padre Carlo sono in centro a Napoli. Sono le 2 e Luigi ha molta fame.\n\n«Ho tanta fame!» dice Luigi. «Voglio mangiare!»\n\n«Anch'io», dice Carlo. «Dov'è un buon locale?»\n\nIn fondo alla strada c'è un locale. Il nome del locale è Da Gigi. Il nome è scritto in bianco su una porta nera. Luigi guarda la porta nera: è bella.\n\nIl locale è piccolo, ma è pieno di gente. Un signore dice: «C'è un posto in fondo, per due.»\n\n«Oggi c'è la pizza semplice e la pizza bianca», dice il signore.\n\n«Per me la semplice», dice Luigi.\n\n«Per me la bianca», dice Carlo. «E acqua per tutti e due.»\n\nIl signore porta l'acqua.\n\nDopo 10 minuti il signore torna da Luigi e Carlo. Le pizze del signore sono buone. Luigi mangia e mangia. Ora non ha più fame!\n\nCarlo dice: «Il conto, per favore.»\n\nIl signore porta il conto. Il conto è giusto. Carlo ha i soldi con lui. Dà i soldi al signore.\n\nDomande:\nChi è con Luigi a Napoli?\nIl padre di Luigi, Carlo, è con lui.\nCome è il locale?\nIl locale è piccolo e pieno di gente.\nCome è la porta del locale?\nLa porta del locale è nera.\nChe cosa dà Carlo al signore?\nDà i soldi al signore."
+      "text": "Luigi e suo padre Carlo sono in centro a Napoli. Sono le 2 e Luigi ha molta fame.\n\n«Io muoio di fame!» dice Luigi. «Voglio mangiare!»\n\n«Anch'io», dice Carlo. «Dov'è un buon locale?»\n\nIn fondo alla strada c'è un locale. Il nome del locale è Da Gigi. Il nome è scritto in bianco su una porta nera. Luigi guarda la porta nera: è bella.\n\nIl locale è piccolo, ma è pieno di gente. Un signore dice: «C'è un posto in fondo, per due.»\n\n«Oggi c'è la pizza semplice e la pizza bianca», dice il signore.\n\n«Per me la semplice», dice Luigi.\n\n«Per me la bianca», dice Carlo. «E acqua per tutti e due.»\n\nIl signore porta l'acqua.\n\nDopo 10 minuti il signore torna da Luigi e Carlo. Le pizze del signore sono buone. Luigi mangia e mangia. Non muore più di fame!\n\nCarlo dice: «Il conto, per favore.»\n\nIl signore porta il conto. Il conto è giusto. Carlo ha i soldi con lui. Dà i soldi al signore.\n\nDomande:\nChi è con Luigi a Napoli?\nIl padre di Luigi, Carlo, è con lui.\nCome è il locale?\nIl locale è piccolo e pieno di gente.\nCome è la porta del locale?\nLa porta del locale è nera.\nChe cosa dà Carlo al signore?\nDà i soldi al signore."
     },
     {
       "title": "Un turista a Firenze",
@@ -97,10 +98,11 @@
         "risposta",
         "aiutare",
         "difficile",
+        "europeo",
         "pagina",
         "titolo"
       ],
-      "text": "Tom viene da Londra. Oggi è a Firenze con sua figlia Kate. Tom ha un libro sulla città. Il titolo del libro è «Firenze in un giorno». Il libro ha molte informazioni.\n\nA pagina 12 c'è la strada per Ponte Vecchio, ma Tom non capisce bene. Parla poco l'italiano. Per lui la lingua italiana è difficile. Il libro è difficile.\n\nKate dice: «Chiedi a qualcuno. Non è difficile!»\n\nTom vede una ragazza in strada. La ragazza è Chiara. Tom chiede: «Dove... Ponte Vecchio?»\n\nChiara capisce la domanda. Ma non risponde in italiano. Risponde in inglese: «Posso aiutarLa?» Chiara vuole aiutare Tom.\n\nTom dice: «Sì, grazie! Lei parla la mia lingua.»\n\n«Parlo tre lingue: italiano, inglese e francese», dice Chiara.\n\n«Io parlo una sola lingua!» dice Tom.\n\n«Ponte Vecchio è in fondo a questa strada», dice Chiara. «Dopo 5 minuti siete a Ponte Vecchio.»\n\nTom dice: «La sua risposta è giusta.» La risposta di Chiara è semplice. Tom e Kate vanno in fondo alla strada.\n\nKate dice: «Con Chiara Firenze non è difficile.»\n\nTom guarda la pagina 12 e dice: «Chiara dà più informazioni di questa pagina!»\n\nDomande:\nDa dove viene Tom?\nTom viene da Londra.\nChe titolo ha il libro di Tom?\nIl titolo del libro è «Firenze in un giorno».\nIn che lingua risponde Chiara?\nChiara risponde in inglese.\nDov'è Ponte Vecchio?\nPonte Vecchio è in fondo alla strada."
+      "text": "Tom viene da Londra. Oggi è a Firenze con sua figlia Kate. Tom ha un libro sulla città. Il titolo del libro è «Firenze in un giorno». Il libro ha molte informazioni.\n\nA pagina 12 c'è la strada per Ponte Vecchio, ma Tom non capisce bene. Parla poco l'italiano. Per lui la lingua italiana è difficile. Il libro è difficile.\n\nKate dice: «Chiedi a qualcuno. Non è difficile!»\n\nTom vede una ragazza in strada. La ragazza è Chiara. Tom chiede: «Dove... Ponte Vecchio?»\n\nChiara capisce la domanda. Ma non risponde in italiano. Risponde in inglese: «Posso aiutarLa?» Chiara vuole aiutare Tom.\n\nTom dice: «Sì, grazie! Lei parla la mia lingua.»\n\n«Parlo tre lingue europee: italiano, inglese e francese», dice Chiara.\n\n«Io parlo una sola lingua europea!» dice Tom.\n\n«Ponte Vecchio è in fondo a questa strada», dice Chiara. «Dopo 5 minuti siete a Ponte Vecchio.»\n\nTom dice: «La sua risposta è giusta.» La risposta di Chiara è semplice. Tom e Kate vanno in fondo alla strada.\n\nKate dice: «Con Chiara Firenze non è difficile.»\n\nTom guarda la pagina 12 e dice: «Chiara dà più informazioni di questa pagina!»\n\nDomande:\nDa dove viene Tom?\nTom viene da Londra.\nChe titolo ha il libro di Tom?\nIl titolo del libro è «Firenze in un giorno».\nIn che lingua risponde Chiara?\nChiara risponde in inglese.\nDov'è Ponte Vecchio?\nPonte Vecchio è in fondo alla strada."
     },
     {
       "title": "La ricerca di Giulia",
