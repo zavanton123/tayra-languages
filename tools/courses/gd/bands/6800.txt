@@ -4,11 +4,11 @@
 4	6704	caibideal	caibidealan
 5	6705	cunntachalachd	
 6	6706	sreapadaireachd	shreapadaireachd
-7	6707	spreagadh	
+7	6707	spreagadh	spreagaidh
 8	6708	cartadh	chartadh
 9	6709	còinneachail	
 10	6710	èibhleag	èibhleagan
-11	6711	lèabag	
+11	6711	lèabag	lèabagan
 12	6712	picleadh	phicleadh
 13	6713	letheach	
 14	6714	faoisid	
@@ -47,7 +47,7 @@
 47	6747	cunbhalachd	
 48	6748	roghainneil	
 49	6749	gaineamh	gaineimh
-50	6750	soircas	
+50	6750	soircas	soircais
 51	6751	meomhair	mheomhair
 52	6752	dàimheil	
 53	6753	stàiteil	
@@ -59,7 +59,7 @@
 59	6759	furm	fuirm
 60	6760	dìosal	dìosail
 61	6761	sùbailteachd	
-62	6762	copaig	copaigeadh
+62	6762	copaig	copag copaigeadh
 63	6763	gonadh	
 64	6764	tuairmeasach	
 65	6765	aiteamh	aiteamhan aiteimh
