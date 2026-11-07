@@ -351,7 +351,25 @@ def japanese_tokens(text, ranks):
     return out
 
 
+# The Georgian reader's words are runs of Georgian letters: a hyphen (ერთ-ერთი, 2020-ში), an apostrophe or a Latin letter ends one.
+GEORGIAN_WORD = re.compile("[\u10a0-\u10ff\u2d00-\u2d2f\u1c90-\u1cbf]+")
+# A Georgian name takes the case endings and the postpositions written onto them (ნინომ, ნინოსთან, თბილისში, ლევანმა,
+# ბათუმიდან, ნინოც, თბილისსა), after the name or the name without its nominative -ი.
+GEORGIAN_NAME_ENDING = re.compile("(?:მა|მ|ს|ის|ით|თ|ად|დ|ო|ა|ე|ი)?(?:ში|ზე|თან|თვის|კენ|გან|იდან|დან|ამდე|მდე)?(?:ა?ც|ვე|ა)?")
+
+
+def georgian_name(word, names):
+    """Whether a Georgian word is a name of [names] with its endings."""
+    for name in names:
+        for stem in (name, name[:-1] if name.endswith("ი") else None):
+            if stem and len(word) > len(stem) and word.startswith(stem) and GEORGIAN_NAME_ENDING.fullmatch(word, len(stem)):
+                return True
+    return False
+
+
 def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=None):
+    if code == "ka":
+        return GEORGIAN_WORD.findall(text)
     if code == "ja":
         return japanese_tokens(text, ranks)
     if code == "zh":
@@ -2212,6 +2230,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Ceistean:", "", text)
         if code == "cy":
             text = re.sub(r"(?m)^Cwestiynau:", "", text)
+        if code == "ka":
+            text = re.sub(r"(?m)^კითხვები:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
@@ -2256,6 +2276,8 @@ def check(path, brief=False):
             lowered = [w if w in ranks or w in names or w not in is_names else "\u0000name" for w in lowered]
         if code == "la":
             lowered = [latin_word(w, ranks, names, la_names) for w in lowered]
+        if code == "ka":
+            lowered = [w if w in ranks or w in names or not georgian_name(w, names) else "\u0000name" for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
