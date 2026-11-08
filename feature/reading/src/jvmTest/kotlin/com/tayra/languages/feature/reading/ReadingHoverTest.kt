@@ -1,5 +1,9 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.test.assertIsSelected
+import com.tayra.languages.core.ui.navigation.LocalFlashcardsDialog
+import com.tayra.languages.core.domain.model.ReadingStage
 import com.tayra.languages.core.domain.settings.UserSettings
 import androidx.compose.ui.Modifier
 import androidx.compose.foundation.layout.Box
@@ -272,31 +276,34 @@ class ReadingHoverTest {
     }
 
     /**
-     * The footer offers to mark the unknown words as known, with their count, only while there
-     * are some, and a toast confirms it; on the last page "Finish book" goes back to the library.
+     * The reading stage counts the page's unknown words; checking it marks them known, which a toast
+     * confirms, and moves on to listening. On the last page "Finish book" goes back to the library.
      */
     @Test
-    fun theFooterMarksUnknownWordsAndFinishesTheBook() {
+    fun checkingTheReadingMarksTheUnknownWordsKnown() {
         val vm = runBlocking { reader(mainIsDefault = false) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         var home = false
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = { home = true }, viewModel = vm) }
-        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Mark remaining words as known").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithContentDescription("Mark remaining words as known").performScrollTo()
-        rule.onNodeWithTag("footer-badge", useUnmergedTree = true).assertTextEquals("5")
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-badge", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("stage-badge", useUnmergedTree = true).assertTextEquals("5")
+        rule.onNodeWithTag("stage-read_aloud").assertIsSelected()
         System.getenv("READING_FOOTER_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
 
-        rule.onNodeWithContentDescription("Mark remaining words as known").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Mark remaining words as known").fetchSemanticsNodes().isEmpty() }
+        rule.onNodeWithContentDescription("Check: Read aloud").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("5 words marked as known").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("READING_TOAST_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
         assertEquals(TermStatus.WELL_KNOWN, runBlocking { termRepository.findByTextLc(languageId, "lobo") }?.status)
+        rule.waitUntil(5_000) { vm.state.value.stage == ReadingStage.LISTEN }
+        assertEquals(setOf(ReadingStage.READ_ALOUD), vm.state.value.stages)
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-badge", useUnmergedTree = true).fetchSemanticsNodes().isEmpty() }
+        rule.onNodeWithTag("stage-listen").assertIsSelected()
         rule.waitUntil(8_000) { rule.onAllNodesWithText("5 words marked as known").fetchSemanticsNodes().isEmpty() }
 
         rule.onNodeWithContentDescription("Finish book").performScrollTo().performClick()
@@ -488,13 +495,13 @@ class ReadingHoverTest {
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.EditBook(1)), visited)
     }
 
-    /** Under the text, after the way out, a button turns back a page: on every page but the first. */
+    /** Under the text a button turns back a page: on every page but the first. */
     @Test
     fun theFooterTurnsBackAPage() {
         val vm = runBlocking { reader(mainIsDefault = false, pages = 3) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
-        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Back to library").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Next page").fetchSemanticsNodes().isNotEmpty() }
         assertTrue(rule.onAllNodesWithTag("footer-previous").fetchSemanticsNodes().isEmpty(), "the first page has no page before it")
         vm.goToPage(2)
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("footer-previous").fetchSemanticsNodes().isNotEmpty() }
@@ -506,19 +513,20 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { vm.state.value.pageNumber == 1 }
     }
 
-    /** The lesson's vocabulary opens with its filters folded away, and a word in it opens in a dialog over the list. */
+    /** The stage of checking the words opens the page's words, filters folded away, and a word in them opens in a dialog over the list. */
     @Test
     fun aWordInTheLessonsVocabularyOpensInADialog() {
         val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
         val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, vocabularyList, termPane) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, onCourse = {}, viewModel = vm) }
-        rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-vocabulary").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-words").fetchSemanticsNodes().isNotEmpty() }
         vm.markToLearn(vm.index("lobo"))
         rule.waitUntil(5_000) { runBlocking { vm.bookPracticeCount() } > 0 }
-        rule.onNodeWithTag("lesson-vocabulary").performScrollTo().performClick()
+        rule.onNodeWithTag("stage-words").performClick()
         val inList = hasText("lobo") and hasAnyAncestor(hasTestTag("lesson-vocabulary-dialog"))
         rule.waitUntil(5_000) { rule.onAllNodes(inList).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(ReadingStage.WORDS, vm.state.value.stage)
         assertTrue(rule.onAllNodesWithText("Filter vocabulary").fetchSemanticsNodes().isEmpty(), "the filters start folded away")
         rule.onAllNodes(inList)[0].performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("term-dialog").fetchSemanticsNodes().isNotEmpty() }
@@ -571,7 +579,7 @@ class ReadingHoverTest {
         assertTrue(settings.current.splitSentences, "the Reading tab keeps its settings")
     }
 
-    /** On a phone a lesson's vocabulary opens as its own screen. */
+    /** On a phone the stage of checking the words opens them as their own screen. */
     @Test
     fun aPhoneOpensALessonsVocabularyAsAScreen() {
         val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
@@ -583,36 +591,37 @@ class ReadingHoverTest {
                 ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, onCourse = {}, viewModel = vm)
             }
         }
-        rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-vocabulary").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithTag("lesson-vocabulary").performScrollTo().performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-words").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("stage-words").performClick()
         rule.waitUntil(5_000) { visited.any { it is com.tayra.languages.core.ui.navigation.Route.Terms } }
         assertEquals(1L, visited.filterIsInstance<com.tayra.languages.core.ui.navigation.Route.Terms>().single().bookId)
     }
 
-    /** A lesson's end leads on to the flashcards, right after its practice; a phone has its tab for them instead. */
+    /** The flashcards stage opens the cards of the page's words being learned over the text; with none, it says so. */
     @Test
-    fun aLessonsEndLeadsToTheFlashcards() {
+    fun theFlashcardsStageOpensThePagesCardsOverTheText() {
         val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
         val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
-        var width by mutableStateOf(WindowWidth.EXPANDED)
+        var opened by mutableStateOf<List<Long>?>(null)
         rule.setContent {
-            CompositionLocalProvider(LocalWindowWidth provides width) {
+            CompositionLocalProvider(LocalFlashcardsDialog provides { ids, onClose -> opened = ids; Box(Modifier.testTag("text-flashcards")) }) {
                 ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, onCourse = {}, viewModel = vm)
             }
         }
-        rule.waitUntil(5_000) { rule.onAllNodesWithTag("review-flashcards").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-flashcards").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("stage-flashcards").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("No words on this page are being learned").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(null, opened)
+        assertEquals(ReadingStage.FLASHCARDS, vm.state.value.stage)
+
         vm.markToLearn(vm.index("lobo"))
-        rule.waitUntil(5_000) { rule.onAllNodesWithTag("practice-all").fetchSemanticsNodes().isNotEmpty() }
-        rule.waitForIdle()
-        val practice = rule.onNodeWithTag("practice-all").fetchSemanticsNode().boundsInRoot
-        val review = rule.onNodeWithTag("review-flashcards").fetchSemanticsNode().boundsInRoot
-        assertTrue(review.left >= practice.right, "the review comes after the lesson's practice")
-        rule.onNodeWithTag("review-flashcards").performScrollTo().performClick()
-        rule.waitUntil(5_000) { com.tayra.languages.core.ui.navigation.Route.Flashcards in visited }
-        width = WindowWidth.COMPACT
-        rule.waitUntil(5_000) { rule.onAllNodesWithTag("review-flashcards").fetchSemanticsNodes().isEmpty() }
+        rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "lobo" && it.status.isLearning } }
+        rule.onNodeWithTag("stage-action").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("text-flashcards").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(listOfNotNull(runBlocking { termRepository.findByTextLc(languageId, "lobo") }?.id), opened)
+        assertTrue(visited.isEmpty(), "the text is not left")
     }
 
     /** The vocabulary list a lesson opens over the reader. */
@@ -628,20 +637,24 @@ class ReadingHoverTest {
         viewModel { (ids: List<Long>?) -> com.tayra.languages.feature.terms.list.TermsListViewModel(ids, termRepository, languageRepository, settings, termService, anki) }
     }
 
-    /** A lesson of several pages is practised as a whole: its footer never offers the page's practice. */
+    /** The quiz stage practises the page's words, after asking for the kinds of question; a lesson has no whole-text practice beside it. */
     @Test
-    fun aLessonOffersOnlyTheWholeLessonsPractice() {
+    fun theQuizStagePractisesThePagesWords() {
         val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
-        val vm = runBlocking { reader(mainIsDefault = false, pages = 3, lesson = LessonReading(course, course.lessons[0])) }
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, practicePane) }
-        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(vm.state.value.pageCount > 1, "the lesson should have several pages")
         vm.markToLearn(vm.index("lobo"))
-        rule.waitUntil(5_000) { runBlocking { vm.bookPracticeCount() } > 0 }
-        vm.goToPage(vm.state.value.pageCount)
-        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Practise the lesson's words").fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(rule.onAllNodesWithContentDescription("Practise this page").fetchSemanticsNodes().isEmpty(), "a lesson has no page practice")
+        rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "lobo" && it.status.isLearning } }
+        rule.onNodeWithTag("stage-quiz").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise 1 word").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("start-practice").performClick()
+        rule.waitUntil(5_000) { visited.isNotEmpty() }
+        val setup = com.tayra.languages.core.domain.practice.PracticeSetup.FIRST.encode()
+        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Practice(1, 1, setup = setup)), visited)
+        assertTrue(rule.onAllNodesWithTag("practice-all").fetchSemanticsNodes().isEmpty(), "a lesson is practised through its quiz")
     }
 
     /** A course lesson is shown as part of its course: no word of books or the library, and no editing. */
@@ -657,7 +670,7 @@ class ReadingHoverTest {
         var back = 0
         val courses = mutableListOf<String>()
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = { back++ }, onCourse = { courses += it }, viewModel = vm) }
-        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Finish lesson").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-chain").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("LESSON_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
@@ -667,15 +680,19 @@ class ReadingHoverTest {
         // Every way out of a lesson leads to its course, never to the library.
         rule.onNodeWithText(course.title).performClick()
         rule.waitUntil(5_000) { courses.size == 1 }
-        rule.onNodeWithContentDescription("Back to course").performScrollTo().performClick()
+        assertTrue(rule.onAllNodesWithContentDescription("Back to course").fetchSemanticsNodes().isEmpty(), "the breadcrumb is the way back")
+        // Checking the last of its stages finishes the lesson.
+        for (checked in 1..ReadingStage.entries.size) {
+            rule.onNodeWithTag("check-stage").performClick()
+            rule.waitUntil(5_000) { vm.state.value.stages.size == checked || courses.size == 2 }
+        }
         rule.waitUntil(5_000) { courses.size == 2 }
-        rule.onNodeWithContentDescription("Finish lesson").performScrollTo().performClick()
-        rule.waitUntil(5_000) { courses.size == 3 }
-        assertEquals(List(3) { course.id }, courses)
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Lesson complete").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(List(2) { course.id }, courses)
         assertEquals(0, back, "a lesson never leaves for the library")
 
-        // The lesson's saved words are at its end, among the buttons under the text, and list over the reader.
-        rule.onNodeWithTag("lesson-vocabulary").performScrollTo().performClick()
+        // The lesson's saved words open from their stage, and list over the reader.
+        rule.onNodeWithTag("stage-words").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-vocabulary-dialog").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithText("Lesson vocabulary").assertExists()
         System.getenv("LESSON_VOCABULARY_SCREENSHOT")?.let { path ->
@@ -867,6 +884,33 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("term-pane-header", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
     }
 
+    /** Turning the translation back shows it first, on the left of its blurred sentence; retelling shows the translation alone. */
+    @Test
+    fun theReverseStageShowsTheTranslationFirstAndTheRetellingOnlyIt() {
+        val vm = runBlocking { reader(mainIsDefault = false, translation = "The wolf sleeps in the forest.") }
+        runBlocking { settings.update { it.copy(showTranslations = true, sideBySideTranslations = true, showSentencePlay = false) } }
+        vm.refresh()
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("The wolf sleeps in the forest.").fetchSemanticsNodes().isNotEmpty() }
+        val before = rule.onNodeWithText("The wolf sleeps in the forest.").fetchSemanticsNode().boundsInRoot
+        val sentenceBefore = rule.onNodeWithText("lobo dorme", substring = true).fetchSemanticsNode().boundsInRoot
+        assertTrue(before.left > sentenceBefore.left, "the translation is on the right while reading")
+
+        vm.selectStage(ReadingStage.REVERSE)
+        // The translation comes first, on the left.
+        rule.waitUntil(5_000) {
+            val translation = rule.onNodeWithText("The wolf sleeps in the forest.").fetchSemanticsNode().boundsInRoot
+            val sentence = rule.onNodeWithText("lobo dorme", substring = true).fetchSemanticsNode().boundsInRoot
+            translation.right <= sentence.left
+        }
+
+        vm.selectStage(ReadingStage.RETELL)
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("translation-only").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("The wolf sleeps in the forest.").assertExists()
+        assertTrue(rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isEmpty(), "the original is not shown at all")
+    }
+
     @Test
     fun aTranslationUnderItsSentenceLinesUpWithIt() = translationLinesUp(playButtons = false)
 
@@ -890,26 +934,16 @@ class ReadingHoverTest {
         assertEquals(sentence.left, translation.left, 1f, "the translation starts under the sentence's first letter")
     }
 
-    /** Once the page has a word being learned, the footer offers to practise it. */
+    /** A page with no word being learned has nothing to quiz: the quiz stage says so. */
     @Test
-    fun theFooterOffersPracticeOnceAWordIsBeingLearned() {
-        // Several pages: a one-page text offers only the whole text's practice.
+    fun theQuizStageNeedsAWordBeingLearned() {
         val vm = runBlocking { reader(mainIsDefault = false, pages = 3) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, practicePane) }
-        val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
-        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(rule.onAllNodesWithContentDescription("Practise this page").fetchSemanticsNodes().isEmpty(), "every word is still unknown")
-
-        vm.markToLearn(vm.index("lobo"))
-        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Practise this page").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithContentDescription("Practise this page").performScrollTo().performClick()
-        // The page's practice starts from its setup.
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise 1 word").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithTag("start-practice").performClick()
-        rule.waitUntil(5_000) { visited.isNotEmpty() }
-        val setup = com.tayra.languages.core.domain.practice.PracticeSetup.FIRST.encode()
-        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Practice(1, 1, setup = setup)), visited)
+        rule.onNodeWithTag("stage-quiz").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("No words on this page are being learned").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(rule.onAllNodesWithText("Practise 1 word").fetchSemanticsNodes().isEmpty())
     }
 
     /** On the last page the footer offers every word being learned in the text, after asking for the kinds of question. */
@@ -996,7 +1030,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { vm.state.value.items[vm.index("floresta")].status == TermStatus.IGNORED }
 
         rule.onNodeWithTag(STATUS_BAR_TAG, useUnmergedTree = true).performMouseInput { moveTo(center) }
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Vocabulary on this page", substring = false).fetchSemanticsNodes().size > 1 }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Vocabulary on this page", substring = false).fetchSemanticsNodes().isNotEmpty() }
         assertEquals(2, rule.onAllNodesWithText("2 words (40%)").fetchSemanticsNodes().size, "unknown: o, na; known: dorme and the ignored floresta")
         rule.onNodeWithText("1 word (20%)").assertExists()
         rule.onNodeWithText("5 words in total").assertExists()

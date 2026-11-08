@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.ui.navigation.LocalFlashcardsDialog
+import com.tayra.languages.core.domain.model.ReadingStage
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
@@ -429,12 +431,9 @@ fun ReadingScreen(
                             onMenu = openPane,
                             onCourses = { onNavigate(Route.Courses) },
                             onLessonVocabulary = {
-                                scope.launch {
-                                    val ids = viewModel.textTermIds()
-                                    if (phone) onNavigate(Route.Terms(ids, bookId)) else lessonVocabulary = ids
-                                }
+                                val ids = viewModel.pageTermIds()
+                                if (phone) onNavigate(Route.Terms(ids, bookId)) else lessonVocabulary = ids
                             },
-                            onReviewFlashcards = { onNavigate(Route.Flashcards) },
                             onNewPlaylist = { newPlaylist = true },
                             onAddedToPlaylist = { name -> toast.show(tr("Added to {0}", name)) },
                             focusText = { runCatching { focusRequester.requestFocus() } },
@@ -491,7 +490,7 @@ fun ReadingScreen(
                 onNavigate = { route -> close(); navigateFromReader(route) },
                 onBack = close,
                 dialog = true,
-                title = tr("Lesson vocabulary"),
+                title = if (state.lesson != null) tr("Lesson vocabulary") else tr("Page vocabulary"),
                 subtitle = state.book?.title,
             )
         }
@@ -504,7 +503,8 @@ fun ReadingScreen(
             onDismiss = { newPlaylist = false },
         )
     }
-    ToastHost(toast)
+    // Above the bar of stages, whose Check button it would otherwise cover.
+    ToastHost(toast, lift = if (phone) PHONE_TOAST_LIFT else TOAST_LIFT)
 }
 
 /**
@@ -646,9 +646,8 @@ private fun ReadingBody(
     /** Opening the reader's settings, from the floating button a wide window shows. */
     onMenu: () -> Unit,
     onCourses: () -> Unit,
-    /** Opening the saved words of the whole lesson. */
+    /** Opening the saved words of the page, for its stage of checking them. */
     onLessonVocabulary: () -> Unit,
-    onReviewFlashcards: () -> Unit,
     /** Making a playlist that starts with this text. */
     onNewPlaylist: () -> Unit,
     /** Confirming that the text went into the playlist with this name. */
@@ -731,6 +730,32 @@ private fun ReadingBody(
     }
     // The sentences shown while practising translation; a new page hides them all again.
     var revealed by remember(state.book?.id, state.pageNumber) { mutableStateOf(emptySet<Int>()) }
+    // Another stage hides every sentence again.
+    LaunchedEffect(state.stage) { revealed = emptySet() }
+    // The stages done in a dialog over the text: the page's words, its quiz and its flashcards.
+    var quizSetup by remember { mutableStateOf(false) }
+    var flashcards by remember { mutableStateOf<List<Long>?>(null) }
+    val flashcardsDialog = LocalFlashcardsDialog.current
+    val noLearning = tr("No words on this page are being learned")
+    val openStage: (ReadingStage) -> Unit = { stage ->
+        when (stage) {
+            ReadingStage.WORDS -> onLessonVocabulary()
+            ReadingStage.QUIZ -> if (viewModel.pageLearningTermIds().isEmpty()) viewModel.notice(noLearning) else quizSetup = true
+            ReadingStage.FLASHCARDS -> viewModel.pageLearningTermIds().let { ids -> if (ids.isEmpty() || flashcardsDialog == null) viewModel.notice(noLearning) else flashcards = ids }
+            else -> Unit
+        }
+    }
+    val selectStage: (ReadingStage) -> Unit = { stage ->
+        viewModel.selectStage(stage)
+        openStage(stage)
+    }
+    if (quizSetup) {
+        state.book?.let { book ->
+            PracticeSetupDialog(PracticeSource.Page(book.id, state.pageNumber), onStart = { setup -> quizSetup = false; onPractice(setup) }, onDismiss = { quizSetup = false })
+        }
+    }
+    flashcards?.let { ids -> flashcardsDialog?.invoke(ids) { flashcards = null; viewModel.refresh() } }
+    val unknownWords = remember(state.page) { BookStatsCalculator.calculate(state.items).distinctUnknowns }
     val scrollState = rememberScrollState()
     // A new page starts at its top; coming back to the screen (from the examples, say) keeps the place it was scrolled to.
     var scrolledPage by rememberSaveable { mutableStateOf(state.pageNumber) }
@@ -750,7 +775,9 @@ private fun ReadingBody(
     val edgePadding = AppSpacing.l
     // No card around the text: it runs on the page itself, with a slim margin at the window's edges.
     val cardModifier = Modifier.fillMaxWidth().padding(start = edgePadding, end = edgePadding, top = AppSpacing.l)
-    Box(Modifier.fillMaxSize().background(theme.readingBackground)) {
+    // The controls sit under the text rather than over it, so they never hide a line of it.
+    Column(Modifier.fillMaxSize().background(theme.readingBackground)) {
+    Box(Modifier.weight(1f).fillMaxWidth()) {
     Column(
         Modifier.fillMaxSize()
             .onGloballyPositioned { viewport[0] = it; if (it.size != viewportSize) viewportSize = it.size }
@@ -770,6 +797,7 @@ private fun ReadingBody(
             state.translationProgress?.let { TranslationProgress(it) }
                 ?: state.translationError?.let { TranslationNotice(it, viewModel, onSettings) }
             AppDivider(Modifier.padding(bottom = AppSpacing.xl))
+            StageNote(state.stage, onAction = { openStage(state.stage) }, Modifier.padding(bottom = AppSpacing.xl))
             state.flash?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelLarge) }
             val chinese = state.language?.let { LanguageCodes.codeFor(it.name) } in setOf("zh", "yue")
             // Pinyin above the words is kept; zhuyin is written from it when chosen.
@@ -777,7 +805,10 @@ private fun ReadingBody(
             val zhuyinReadings = remember(state.readings, wantsZhuyin) {
                 if (wantsZhuyin) state.readings.mapValues { (_, parts) -> parts.map { it.copy(reading = Chinese.zhuyin(it.reading)) } } else emptyMap()
             }
-            CompositionLocalProvider(LocalWordLocator provides wordLocator) { ReadingText(
+            // Retelling has only the translation in front of the reader.
+            if (state.stage == ReadingStage.RETELL) {
+                TranslationOnlyText(state.page, state.translations, theme, state.settings.readingFontScale, state.settings.readingLineHeight)
+            } else CompositionLocalProvider(LocalWordLocator provides wordLocator) { ReadingText(
                 page = state.page,
                 theme = theme,
                 marked = state.marked,
@@ -797,9 +828,11 @@ private fun ReadingBody(
                     else -> state.readings
                 },
                 toneColors = state.settings.toneColors && chinese,
-                translations = if (state.settings.showTranslations) state.translations else null,
+                // Turning the translation back needs it shown, first.
+                translations = if (state.settings.showTranslations || state.stage == ReadingStage.REVERSE) state.translations else null,
+                translationFirst = state.stage == ReadingStage.REVERSE,
                 sideBySide = state.settings.sideBySideTranslations,
-                practice = state.settings.practiceTranslation,
+                practice = state.settings.practiceTranslation || state.stage.blursText,
                 revealed = revealed,
                 onRevealed = { no, shown -> revealed = if (shown) revealed + no else revealed - no },
                 onSpeakSentence = if (state.settings.showSentencePlay && canSpeak) speakSentence else null,
@@ -816,9 +849,7 @@ private fun ReadingBody(
                 Text(tr("Long-press the last word of the expression, or tap to cancel."), style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }
             ReadingFooter(
-                state, viewModel, onHome, onPractice, onPracticeAll, edgePadding,
-                onLessonVocabulary = onLessonVocabulary,
-                onReviewFlashcards = onReviewFlashcards,
+                state, viewModel, onPracticeAll, edgePadding,
                 playlistBookId = state.book?.id?.takeIf { playlistPlayer != null },
                 onNewPlaylist = onNewPlaylist,
                 onAddedToPlaylist = onAddedToPlaylist,
@@ -827,47 +858,102 @@ private fun ReadingBody(
         Spacer(Modifier.height(CONTROLS_ROOM))
     }
     EdgeScrollbar(scrollState)
-    if (compact && state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
-        MobileReaderActions(
-            onSettings = onMenu,
-            onPreviousSentence = continuous::previous,
-            previousEnabled = canSpeak && continuous.currentIndex != null && continuous.currentIndex!! > 0,
-            onPlay = continuous::toggle,
-            playEnabled = canSpeak,
-            playDisabledReason = noVoiceReason(state),
-            playing = continuous.active,
-            onNextSentence = continuous::next,
-            nextEnabled = canSpeak && continuous.currentIndex != pageSentences.lastIndex,
-            modifier = Modifier.align(Alignment.BottomCenter),
-        )
     }
-    if (!compact) {
-        val settingsDescription = tr("Reader settings")
-        // The tooltip does not pass the alignment on to the screen's box, so a box of its own takes the corner.
-        Box(Modifier.align(Alignment.BottomStart).padding(AppSpacing.xxl)) {
-            AppTooltip(settingsDescription) {
-                Box(
-                    Modifier.size(PLAY_CONTROL_SIZE)
-                        .shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(MaterialTheme.colorScheme.primary)
-                        .clickable(onClick = onMenu)
-                        .semantics { contentDescription = settingsDescription },
-                    contentAlignment = Alignment.Center,
-                ) { Icon(Icons.Default.Settings, contentDescription = null, tint = MaterialTheme.colorScheme.onPrimary, modifier = Modifier.size(AppSizes.iconLarge)) }
+    if (compact) {
+        // A phone's stages sit over its sentence controls.
+        val sentenceControls = state.settings.showSentencePlay && pageSentences.isNotEmpty()
+        Column(Modifier.fillMaxWidth()) {
+            Row(
+                Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l).padding(top = AppSpacing.s, bottom = if (sentenceControls) 0.dp else AppSpacing.m)
+                    .shadow(AppElevation.raised, AppShapes.card).clip(AppShapes.card)
+                    .background(MaterialTheme.colorScheme.surface).border(AppBorders.hairline(), AppShapes.card)
+                    // Room above the stages for the tick of a checked one.
+                    .padding(horizontal = AppSpacing.s, vertical = AppSpacing.m),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceBetween,
+            ) {
+                StageChain(state.stages, state.stage, selectStage, size = COMPACT_STAGE_SIZE, badges = mapOf(ReadingStage.READ_ALOUD to unknownWords).filterKeys { it !in state.stages })
+                CheckStageButton(state.stage, state.stage in state.stages, viewModel::checkStage, size = COMPACT_CHECK_SIZE)
+            }
+            if (sentenceControls) {
+                MobileReaderActions(
+                    onSettings = onMenu,
+                    onPreviousSentence = continuous::previous,
+                    previousEnabled = canSpeak && continuous.currentIndex != null && continuous.currentIndex!! > 0,
+                    onPlay = continuous::toggle,
+                    playEnabled = canSpeak,
+                    playDisabledReason = noVoiceReason(state),
+                    playing = continuous.active,
+                    onNextSentence = continuous::next,
+                    nextEnabled = canSpeak && continuous.currentIndex != pageSentences.lastIndex,
+                )
             }
         }
-    }
-    if (!compact && state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
-        ContinuousControls(
-            playing = continuous.active,
-            autoPause = state.settings.autoPause,
-            hotkeys = state.settings.hotkeys.takeUnless { LocalWindowWidth.current.isCompact },
-            onPlay = continuous::toggle,
-            playEnabled = canSpeak,
-            playDisabledReason = noVoiceReason(state),
-            onAutoPause = viewModel::toggleAutoPause,
-            modifier = Modifier.align(Alignment.BottomEnd).padding(AppSpacing.xxl),
+    } else {
+        ReaderBar(
+            state = state,
+            stages = { stageSize, checkSize ->
+                StageChain(state.stages, state.stage, selectStage, size = stageSize, badges = mapOf(ReadingStage.READ_ALOUD to unknownWords).filterKeys { it !in state.stages })
+                AppVerticalDivider(Modifier.height(checkSize - AppSpacing.m).padding(horizontal = AppSpacing.l))
+                CheckStageButton(state.stage, state.stage in state.stages, viewModel::checkStage, size = checkSize)
+            },
+            onMenu = onMenu,
+            playlist = playlistPlayer?.let { { AddToPlaylistButton(state.book?.id ?: 0, FOOTER_CONTROL_SIZE, onCreate = onNewPlaylist, onAdded = onAddedToPlaylist, iconSize = AppSizes.iconLarge) } },
+            playback = if (state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
+                {
+                    ContinuousControls(
+                        playing = continuous.active,
+                        autoPause = state.settings.autoPause,
+                        hotkeys = state.settings.hotkeys,
+                        onPlay = continuous::toggle,
+                        playEnabled = canSpeak,
+                        playDisabledReason = noVoiceReason(state),
+                        onAutoPause = viewModel::toggleAutoPause,
+                        modifier = Modifier,
+                    )
+                }
+            } else null,
         )
     }
+    }
+}
+
+/**
+ * The bar along the bottom of a wide window: the reader's settings, the page's
+ * stages with the button that checks the one being worked on, and the playlist and reading aloud.
+ */
+@Composable
+private fun ReaderBar(
+    state: ReadingUiState,
+    stages: @Composable (stageSize: Dp, checkSize: Dp) -> Unit,
+    onMenu: () -> Unit,
+    playlist: (@Composable () -> Unit)?,
+    playback: (@Composable () -> Unit)?,
+    modifier: Modifier = Modifier,
+) {
+    val colors = MaterialTheme.colorScheme
+    BoxWithConstraints(
+        modifier.fillMaxWidth().background(colors.surface)
+            .drawBehind { drawLine(colors.outlineVariant, Offset.Zero, Offset(size.width, 0f), 1.dp.toPx()) }
+            .padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m)
+            .testTag("reader-bar"),
+    ) {
+        // A narrower window takes smaller stages, so the bar still holds everything in one row.
+        val roomy = maxWidth >= ROOMY_BAR_WIDTH
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
+                FooterCircle(tr("Reader settings"), Icons.Default.Settings, FooterCircleStyle.Filled, onClick = onMenu)
+            }
+            Spacer(Modifier.weight(1f))
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                stages(if (roomy) STAGE_SIZE else COMPACT_STAGE_SIZE, if (roomy) CHECK_SIZE else COMPACT_CHECK_SIZE)
+            }
+            Spacer(Modifier.weight(1f))
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
+                playlist?.invoke()
+                playback?.invoke()
+            }
+        }
     }
 }
 
@@ -961,7 +1047,11 @@ private val MOBILE_PLAY_SIZE = 60.dp
 private val MOBILE_ACTION_BAR_HEIGHT = 76.dp
 
 /** Room under the text, so the floating play controls do not cover its end. */
-private val CONTROLS_ROOM = 120.dp
+private val CONTROLS_ROOM = 48.dp
+private val TOAST_LIFT = 112.dp
+private val PHONE_TOAST_LIFT = 176.dp
+/** From this width the bar's stages take their full size. */
+private val ROOMY_BAR_WIDTH = 900.dp
 /** The reader settings dialog beyond a phone, room for two columns of cards. */
 private val SETTINGS_DIALOG_WIDTH = 1040.dp
 /** The widest the text runs on a wide window. */
@@ -1164,8 +1254,6 @@ private fun PageVocabulary(state: ReadingUiState) {
     val stats = remember(state.page) { BookStatsCalculator.calculate(state.items) }
     val colors = MaterialTheme.colorScheme
     Row(Modifier.fillMaxWidth().padding(top = AppSpacing.m, bottom = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-        // A phone keeps the label short, so the bar has room to show its shares.
-        Text(if (LocalWindowWidth.current.isCompact) tr("On this page") else tr("Vocabulary on this page"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         StatusDistributionBar(stats, Modifier.widthIn(max = VOCABULARY_BAR_WIDTH).weight(1f, fill = false).fillMaxWidth(), scope = "on this page")
         Text(if (stats.distinctTerms > 0) tr("{0}% new", stats.unknownPercent) else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }
@@ -1175,13 +1263,9 @@ private fun PageVocabulary(state: ReadingUiState) {
 private fun ReadingFooter(
     state: ReadingUiState,
     viewModel: ReadingViewModel,
-    onHome: () -> Unit,
-    onPractice: (PracticeSetup) -> Unit,
     onPracticeAll: (PracticeSetup) -> Unit,
     edgePadding: Dp,
-    onLessonVocabulary: () -> Unit,
-    onReviewFlashcards: () -> Unit,
-    /** The text to put in a playlist; null when this build has no playlist player. */
+    /** The text to put in a playlist from a phone, whose bar has no room for it; null when this build has no playlist player. */
     playlistBookId: Long?,
     onNewPlaylist: () -> Unit,
     onAddedToPlaylist: (String) -> Unit,
@@ -1189,93 +1273,46 @@ private fun ReadingFooter(
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val uriHandler = LocalUriHandler.current
-    val unknowns = remember(state.page) { BookStatsCalculator.calculate(state.items).distinctUnknowns }
     val last = state.isLastPage
-    // At the end of the text: how many words being learned it holds, page by page, to practise them all.
+    // At the end of a book: how many words being learned it holds, page by page, to practise them all.
     var bookWords by remember { mutableStateOf(0) }
-    LaunchedEffect(last, state.items) { bookWords = if (last) viewModel.bookPracticeCount() else 0 }
-    // The practice of the page or of the whole text starts from its setup.
+    LaunchedEffect(last, state.items) { bookWords = if (last && state.lesson == null) viewModel.bookPracticeCount() else 0 }
     var settingUp by remember { mutableStateOf<PracticeSource?>(null) }
     settingUp?.let { source ->
-        PracticeSetupDialog(source, onStart = { setup -> settingUp = null; if (source is PracticeSource.Page) onPractice(setup) else onPracticeAll(setup) }, onDismiss = { settingUp = null })
+        PracticeSetupDialog(source, onStart = { setup -> settingUp = null; onPracticeAll(setup) }, onDismiss = { settingUp = null })
     }
+    // A lesson is one page, finished through its stages: the page's own work is in the stages, the whole text's here.
+    val showPracticeAll = last && bookWords > 0 && state.pageCount > 1
+    // A lesson's words go to Anki from the Vocabulary page; its end has nothing of its own.
+    val showAnki = last && viewModel.canExportToAnki && bookWords > 0 && state.lesson == null
+    val showPlaylist = compact && playlistBookId != null && last
+    val showFinish = last && state.lesson == null
+    if (state.isFirstPage && last && !showPracticeAll && !showAnki && !showPlaylist && !showFinish && state.book?.sourceUri.isNullOrBlank()) return
     Column(Modifier.fillMaxWidth().padding(top = AppSpacing.xxxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxxl)) {
         val source = state.book?.sourceUri
         if (!source.isNullOrBlank()) {
             SourceChip(source) { uriHandler.openUri(source) }
         }
-        // Reaches the card's edges, below the text.
+        if (state.isFirstPage && last && !showPracticeAll && !showAnki && !showPlaylist && !showFinish) return@Column
+        // Reaches the page's edges, below the text.
         val strip = Modifier.bleed(edgePadding).drawBehind { drawLine(colors.outlineVariant, Offset.Zero, Offset(size.width, 0f), 1.dp.toPx()) }
             .background(colors.onSurface.copy(alpha = AppAlpha.faint)).padding(horizontal = edgePadding, vertical = if (compact) AppSpacing.l else AppSpacing.xl)
-        // Practice asks about the words being learned, so it is offered only when the page has some.
-        val practisable = remember(state.page, state.items) { state.items.any { it.isWord && it.status.isLearning } }
-        // A text of one page has the same words either way, so it offers only the whole; a lesson is practised as a whole.
-        val showPractice = practisable && state.pageCount > 1 && state.lesson == null
-        val showPracticeAll = last && bookWords > 0
-        val showAnki = showPracticeAll && viewModel.canExportToAnki
-        // At a lesson's end, its saved words; a book's page has them in the reader's tools.
-        val vocabulary: @Composable () -> Unit = {
-            if (last && state.lesson != null) {
-                FooterCircle(tr("See lesson vocabulary"), Icons.AutoMirrored.Filled.List, FooterCircleStyle.Outlined, Modifier.testTag("lesson-vocabulary"), onClick = onLessonVocabulary)
+        Row(strip.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            if (!state.isFirstPage) {
+                FooterCircle(tr("Previous page"), Icons.AutoMirrored.Filled.ArrowBack, FooterCircleStyle.Outlined, Modifier.testTag("footer-previous")) { viewModel.goToRelativePage(-1) }
             }
-        }
-        val playlist: @Composable () -> Unit = {
-            // Offered once the text has been read through, as the whole-text actions are.
-            if (playlistBookId != null && last) {
-                // The menu ends where the buttons do: past the ones after this, next page or finish always among them.
-                val after = listOf(showAnki, unknowns > 0, true).count { it }
-                AddToPlaylistButton(
-                    playlistBookId,
-                    FOOTER_CONTROL_SIZE,
-                    onCreate = onNewPlaylist,
-                    onAdded = onAddedToPlaylist,
-                    menuShift = (FOOTER_CONTROL_SIZE + AppSpacing.m) * after,
-                    iconSize = AppSizes.iconLarge,
-                )
-            }
-        }
-        // Next page also marks this one read, which counts its words as read; on the last page that completes the book.
-        val markRemaining: @Composable () -> Unit = {
-            if (unknowns > 0) {
-                // Before the last page it turns the page as well, and says so.
-                FooterCircle(
-                    if (last) tr("Mark remaining words as known") else tr("Mark the rest known and turn the page"),
-                    AppIcons.DoneAll,
-                    FooterCircleStyle.Outlined,
-                    badge = unknowns,
-                ) { viewModel.markPageRead(true, if (last) 0 else 1) }
-            }
-        }
-        val practice: @Composable () -> Unit = {
-            if (showPractice) FooterCircle(tr("Practise this page"), AppIcons.Style, FooterCircleStyle.Outlined) { state.book?.let { settingUp = PracticeSource.Page(it.id, state.pageNumber) } }
-        }
-        val practiceAll: @Composable () -> Unit = {
+            Spacer(Modifier.weight(1f))
             if (showPracticeAll) {
                 FooterCircle(
-                    when {
-                        state.lesson != null -> tr("Practise the lesson's words")
-                        state.news -> tr("Practise the article's words")
-                        else -> tr("Practise the book's words")
-                    },
-                    // The whole text's own icon tells it from the page's practice beside it.
-                    when {
-                        state.lesson != null -> AppIcons.School
-                        state.news -> AppIcons.Newspaper
-                        else -> AppIcons.MenuBook
-                    },
+                    if (state.news) tr("Practise the article's words") else tr("Practise the book's words"),
+                    if (state.news) AppIcons.Newspaper else AppIcons.MenuBook,
                     FooterCircleStyle.Outlined,
                     Modifier.testTag("practice-all"),
                 ) { state.book?.let { settingUp = PracticeSource.Book(it.id) } }
             }
-        }
-        val reviewFlashcards: @Composable () -> Unit = {
-            // A phone has no room for one more here, and has its Flashcards tab.
-            if (last && state.lesson != null && !compact) {
-                FooterCircle(tr("Review flashcards"), AppIcons.Style, FooterCircleStyle.Outlined, Modifier.testTag("review-flashcards"), onClick = onReviewFlashcards)
+            if (showPlaylist) {
+                AddToPlaylistButton(playlistBookId!!, FOOTER_CONTROL_SIZE, onCreate = onNewPlaylist, onAdded = onAddedToPlaylist, iconSize = AppSizes.iconLarge)
             }
-        }
-        // The same words as the whole text's practice, into Anki: straight into a running one, or as a file.
-        val anki: @Composable () -> Unit = {
             if (showAnki) {
                 val progress = state.ankiProgress
                 FooterCircle(
@@ -1287,81 +1324,9 @@ private fun ReadingFooter(
                     onClick = viewModel::exportToAnki,
                 )
             }
-        }
-        val next: @Composable () -> Unit = {
-            if (last) FooterCircle(
-                when {
-                    state.lesson != null -> tr("Finish lesson")
-                    state.news -> tr("Finish article")
-                    else -> tr("Finish book")
-                },
-                Icons.Filled.Check,
-                FooterCircleStyle.Filled,
-                onClick = viewModel::finishBook,
-            ) else FooterCircle(tr("Next page"), Icons.AutoMirrored.Filled.ArrowForward, FooterCircleStyle.Filled) { viewModel.markPageRead(false, 1) }
-        }
-        Layout(
-            content = {
-                // The way out, then the way back a page, together at the start.
-                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    FooterCircle(
-                        when {
-                            state.lesson != null -> tr("Back to course")
-                            state.news -> tr("Back to news")
-                            else -> tr("Back to library")
-                        },
-                        Icons.Default.Home,
-                        FooterCircleStyle.Outlined,
-                        onClick = onHome,
-                    )
-                    if (!state.isFirstPage) {
-                        FooterCircle(tr("Previous page"), Icons.AutoMirrored.Filled.ArrowBack, FooterCircleStyle.Outlined, Modifier.testTag("footer-previous")) { viewModel.goToRelativePage(-1) }
-                    }
-                }
-                vocabulary()
-                practice()
-                practiceAll()
-                reviewFlashcards()
-                playlist()
-                anki()
-                markRemaining()
-                next()
-            },
-            modifier = strip,
-        ) { measurables, constraints ->
-            // One row when the buttons fit side by side; otherwise the actions stack at full width above the way back.
-            val gap = AppSpacing.m.roundToPx()
-            val needed = measurables.sumOf { it.maxIntrinsicWidth(Constraints.Infinity) } + gap * (measurables.size - 1)
-            val width = constraints.maxWidth
-            val back = measurables.first()
-            val actions = measurables.drop(1)
-            if (needed <= width) {
-                val placeables = measurables.map { it.measure(Constraints(maxWidth = width)) }
-                val height = placeables.maxOf { it.height }
-                layout(width, height) {
-                    placeables.first().place(0, (height - placeables.first().height) / 2)
-                    var x = width
-                    for (p in placeables.drop(1).reversed()) {
-                        x -= p.width
-                        p.place(x, (height - p.height) / 2)
-                        x -= gap
-                    }
-                }
-            } else {
-                // Too narrow for one row: the buttons stay on the right, above the way back.
-                val rowGap = AppSpacing.m.roundToPx()
-                val buttons = actions.map { it.measure(Constraints()) }
-                val backPlaceable = back.measure(Constraints(maxWidth = width))
-                val buttonsHeight = buttons.maxOfOrNull { it.height } ?: 0
-                layout(width, buttonsHeight + rowGap + backPlaceable.height) {
-                    var x = width
-                    for (p in buttons.reversed()) {
-                        x -= p.width
-                        p.place(x, (buttonsHeight - p.height) / 2)
-                        x -= gap
-                    }
-                    backPlaceable.place(0, buttonsHeight + rowGap)
-                }
+            when {
+                !last -> FooterCircle(tr("Next page"), Icons.AutoMirrored.Filled.ArrowForward, FooterCircleStyle.Filled, onClick = viewModel::nextPage)
+                showFinish -> FooterCircle(if (state.news) tr("Finish article") else tr("Finish book"), Icons.Filled.Check, FooterCircleStyle.Filled, onClick = viewModel::finishBook)
             }
         }
     }

@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.domain.model.ReadingStage
 import com.tayra.languages.core.domain.model.PageBookmark
 import com.tayra.languages.core.domain.courses.LessonReading
 import com.tayra.languages.core.ui.theme.ReadingFont
@@ -117,7 +118,14 @@ data class ReadingUiState(
     val translationProgress: String? = null,
     /** Readings shown above the page's Japanese and Chinese words, by word. */
     val readings: Map<String, List<Furigana>> = emptyMap(),
+    /** The stages checked on this page. */
+    val stages: Set<ReadingStage> = emptySet(),
+    /** The stage being worked on, which decides what the page shows. */
+    val stage: ReadingStage = ReadingStage.READ_ALOUD,
 ) {
+    /** Every stage of the page has been checked. */
+    val allStagesDone: Boolean get() = stages.size == ReadingStage.entries.size
+
     val items: List<TextItem> get() = page.items
     val isLastPage: Boolean get() = pageNumber >= pageCount
     val isFirstPage: Boolean get() = pageNumber <= 1
@@ -259,6 +267,9 @@ class ReadingViewModel(
                     error = null,
                     translations = if (keepMarked) it.translations else emptyMap(),
                     readings = if (keepMarked) it.readings else emptyMap(),
+                    stages = reading.page.stages,
+                    // Another page starts at its first stage not yet checked; the same page stays where it was.
+                    stage = if (keepMarked || it.pageNumber == reading.page.order && it.page !== RenderedPage.EMPTY) it.stage else firstOpen(reading.page.stages),
                 )
             }
             translateSentences()
@@ -309,6 +320,50 @@ class ReadingViewModel(
     fun onResumed() {
         if (shown && !_state.value.loading) refresh()
         shown = true
+    }
+
+    /** Works on [stage]: what the page shows follows it. */
+    fun selectStage(stage: ReadingStage) {
+        _state.update { it.copy(stage = stage) }
+        // The translation is what is turned back into the original or retold from, so it shows even when translations are off.
+        if (stage.needsTranslation) translateSentences(enabled = true)
+    }
+
+    /**
+     * Checks the stage being worked on and moves to the next one not checked. Checking the reading
+     * marks the page read, its words left unmarked known. The check that completes the page goes on
+     * to the next page, or at the text's end leaves it, as finishing it did before.
+     */
+    fun checkStage() {
+        viewModelScope.launch {
+            val s = _state.value
+            val stage = s.stage
+            if (stage == ReadingStage.READ_ALOUD) {
+                val unknowns = BookStatsCalculator.calculate(s.items).distinctUnknowns
+                lastMarkedKnown = readingService.markPageRead(bookId, s.pageNumber, markRestAsKnown = true)
+                bookStats.markStale(bookId)
+                if (unknowns > 0) events.send(ReadingEvent.Toast(trPlural(unknowns, "{0} word marked as known", "{0} words marked as known"), undoable = lastMarkedKnown.isNotEmpty()))
+            }
+            val stages = readingService.checkStage(bookId, s.pageNumber, stage)
+            // Only the check that completes the page moves on; checking a stage again on a finished page does not.
+            if (stages.size == ReadingStage.entries.size && s.stages.size < stages.size) {
+                when {
+                    !s.isLastPage -> return@launch load(s.pageNumber + 1, trackOpen = true)
+                    else -> {
+                        if (s.lesson != null) events.send(ReadingEvent.Toast(tr("Lesson complete")))
+                        return@launch events.send(ReadingEvent.BookFinished)
+                    }
+                }
+            }
+            _state.update { it.copy(stages = stages, stage = nextOpen(stage, stages)) }
+            if (stage == ReadingStage.READ_ALOUD) load(s.pageNumber, trackOpen = false, keepMarked = true)
+            if (_state.value.stage.needsTranslation) translateSentences(enabled = true)
+        }
+    }
+
+    /** Turns to the next page; a page not read yet is marked read on the way, which counts its words as read. */
+    fun nextPage() {
+        if (ReadingStage.READ_ALOUD in _state.value.stages) goToRelativePage(1) else markPageRead(false, 1)
     }
 
     fun markPageRead(markRestAsKnown: Boolean, thenGoToRelative: Int) {
@@ -1045,4 +1100,24 @@ class ReadingViewModel(
     }
 
     fun clearFlash() = _state.update { it.copy(flash = null) }
+
+    /** Shows [message] briefly over the text. */
+    fun notice(message: String) {
+        viewModelScope.launch { events.send(ReadingEvent.Toast(message)) }
+    }
+
+    /** The page's words being learned, for its quiz and flashcards. */
+    fun pageLearningTermIds(): List<Long> = _state.value.page.words.filter { it.status.isLearning }.mapNotNull { it.termId }.distinct()
+}
+
+/** The stages worked from the page's translation. */
+private val ReadingStage.needsTranslation: Boolean get() = this == ReadingStage.REVERSE || this == ReadingStage.RETELL
+
+/** The first stage not checked, in order; a page with every stage checked opens at the first. */
+internal fun firstOpen(done: Set<ReadingStage>): ReadingStage = ReadingStage.entries.firstOrNull { it !in done } ?: ReadingStage.READ_ALOUD
+
+/** The stage after [stage] not checked yet, going round to the start; [stage] itself when every other is checked. */
+internal fun nextOpen(stage: ReadingStage, done: Set<ReadingStage>): ReadingStage {
+    val all = ReadingStage.entries
+    return (1..all.size).map { all[(stage.ordinal + it) % all.size] }.firstOrNull { it !in done } ?: stage
 }

@@ -224,6 +224,8 @@ fun ReadingText(
     practice: Boolean = false,
     revealed: Set<Int> = emptySet(),
     onRevealed: (sentence: Int, shown: Boolean) -> Unit = { _, _ -> },
+    /** The translation comes first, the sentence after it: on the left beside it, or above it. */
+    translationFirst: Boolean = false,
 ) {
     var itemOffset = 0
     val perSentence = splitSentences || translations != null || practice
@@ -307,6 +309,7 @@ fun ReadingText(
                 if (twoColumns) {
                     SideBySide(
                         gutter = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp,
+                        translationFirst = translationFirst,
                         modifier = Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING),
                         text = { if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else Box(Modifier.fillMaxWidth()) { sentence() } },
                         translation = {
@@ -317,12 +320,16 @@ fun ReadingText(
                     )
                 } else if (perSentence) {
                     Column(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING)) {
-                        if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else sentence()
-                        if (translated) {
-                            Box(Modifier.padding(start = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp)) {
-                                TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
+                        val translation: @Composable () -> Unit = {
+                            if (translated) {
+                                Box(Modifier.padding(start = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp)) {
+                                    TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
+                                }
                             }
                         }
+                        if (translationFirst) translation()
+                        if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else sentence()
+                        if (!translationFirst) translation()
                     }
                 } else {
                     // A flowing paragraph: its words are tinted instead.
@@ -338,7 +345,7 @@ fun ReadingText(
  * its play button, so it is wider by the button's [gutter].
  */
 @Composable
-private fun SideBySide(gutter: Dp, modifier: Modifier, text: @Composable () -> Unit, translation: @Composable () -> Unit) {
+private fun SideBySide(gutter: Dp, modifier: Modifier, text: @Composable () -> Unit, translation: @Composable () -> Unit, translationFirst: Boolean = false) {
     Layout(contents = listOf(text, translation), modifier = modifier) { (textPart, translationPart), constraints ->
         val gap = AppSpacing.xxl.roundToPx()
         val gutterPx = gutter.roundToPx()
@@ -348,8 +355,13 @@ private fun SideBySide(gutter: Dp, modifier: Modifier, text: @Composable () -> U
         val right = translationPart.map { it.measure(Constraints.fixedWidth(column)) }
         val height = (left + right).maxOfOrNull { it.height } ?: 0
         layout(width, height) {
-            left.forEach { it.place(0, 0) }
-            right.forEach { it.place(width - column, 0) }
+            if (translationFirst) {
+                right.forEach { it.place(0, 0) }
+                left.forEach { it.place(column + gap, 0) }
+            } else {
+                left.forEach { it.place(0, 0) }
+                right.forEach { it.place(width - column, 0) }
+            }
         }
     }
 }
@@ -481,6 +493,27 @@ private const val HEARD_TINT_ALPHA = 0.1f
 private const val WAITING_TINT_ALPHA = 0.045f
 
 /** The translation under a sentence: a spinner while it loads, nothing when the service has none. */
+/** The page's translation alone, paragraph by paragraph: what the text is retold from. */
+@Composable
+internal fun TranslationOnlyText(page: RenderedPage, translations: Map<String, SentenceTranslation>, theme: AppTheme, fontScale: Float, lineHeight: Float, modifier: Modifier = Modifier) {
+    Column(modifier.fillMaxWidth().testTag("translation-only"), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        page.paragraphs.forEach { paragraph ->
+            val sentences = paragraph.sentences.map { it.displayText }.filter { text -> text.any { it.isLetter() } }
+            if (sentences.isEmpty()) return@forEach
+            val parts = sentences.map { translations[it] }
+            if (parts.any { it == null || it == SentenceTranslation.Loading }) {
+                TranslationLine(SentenceTranslation.Loading, theme, fontScale, lineHeight)
+            } else {
+                val size = 18 * fontScale
+                Text(
+                    parts.filterIsInstance<SentenceTranslation.Done>().joinToString(" ") { it.text },
+                    style = TextStyle(fontSize = size.sp, lineHeight = (size * lineHeight).sp, color = theme.readingText),
+                )
+            }
+        }
+    }
+}
+
 @Composable
 private fun TranslationLine(translation: SentenceTranslation?, theme: AppTheme, fontScale: Float, lineHeight: Float, large: Boolean = false) {
     val color = theme.readingText.copy(alpha = if (large) 0.7f else 0.55f)

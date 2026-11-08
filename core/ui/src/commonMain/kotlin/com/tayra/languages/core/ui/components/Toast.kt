@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.ui.unit.Dp
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
@@ -69,7 +70,7 @@ class ToastState {
 fun rememberToastState() = remember { ToastState() }
 
 @Composable
-fun ToastHost(state: ToastState, durationMillis: Long = 3_000) {
+fun ToastHost(state: ToastState, durationMillis: Long = 3_000, lift: Dp = 32.dp) {
     LaunchedEffect(state.shown) {
         if (state.visible) {
             // A message that can be undone stays a little longer, to give time to reach the button.
@@ -81,8 +82,8 @@ fun ToastHost(state: ToastState, durationMillis: Long = 3_000) {
     transition.targetState = state.visible
     // The popup stays until the fade-out has finished.
     if (!transition.currentState && !transition.targetState) return
-    val lift = with(LocalDensity.current) { 32.dp.roundToPx() }
-    Popup(alignment = Alignment.BottomCenter, offset = IntOffset(0, -lift)) {
+    val liftPx = with(LocalDensity.current) { lift.roundToPx() }
+    Popup(alignment = Alignment.BottomCenter, offset = IntOffset(0, -liftPx)) {
         AnimatedVisibility(
             transition,
             enter = if (AppMotion.reduced) EnterTransition.None else fadeIn(AppMotion.spec(AppMotion.medium, AppMotion.enter)) + slideInVertically(AppMotion.spec(AppMotion.medium, AppMotion.enter)) { it / 2 },
