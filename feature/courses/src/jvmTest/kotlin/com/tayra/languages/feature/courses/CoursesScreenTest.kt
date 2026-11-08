@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.courses
 
+import com.tayra.languages.core.domain.model.ReadingStage
 import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.Composable
 import com.tayra.languages.core.domain.playlists.PlaylistSource
@@ -184,6 +185,8 @@ class CoursesScreenTest {
         runBlocking {
             reading.openPage(bookId, 1, trackOpen = true)
             reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
+            // A lesson is completed once every stage of it is checked too.
+            ReadingStage.entries.forEach { reading.checkStage(bookId, books.pageCount(bookId), it) }
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Continue: Onde está o Tom?").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("1 of 10 read").assertExists()
@@ -239,6 +242,8 @@ class CoursesScreenTest {
             val bookId = service.openLesson("pt-mini-0200", "pt-mini-0200-01")!!
             reading.openPage(bookId, 1, trackOpen = true)
             reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
+            // A lesson is completed once every stage of it is checked too.
+            ReadingStage.entries.forEach { reading.checkStage(bookId, books.pageCount(bookId), it) }
         }
         val viewModel = CoursesViewModel(service, languages, settings, packs)
         val read = java.util.Collections.synchronizedList(mutableListOf<Long>())
@@ -264,6 +269,8 @@ class CoursesScreenTest {
             val bookId = service.openLesson("pt-mini-0200", "pt-mini-0200-01")!!
             reading.openPage(bookId, 1, trackOpen = true)
             reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
+            // A lesson is completed once every stage of it is checked too.
+            ReadingStage.entries.forEach { reading.checkStage(bookId, books.pageCount(bookId), it) }
         }
         val viewModel = CoursesViewModel(service, languages, settings, packs)
         val read = java.util.Collections.synchronizedList(mutableListOf<Long>())

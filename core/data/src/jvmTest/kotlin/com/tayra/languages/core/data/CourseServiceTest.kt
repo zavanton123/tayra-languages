@@ -13,6 +13,7 @@ import com.tayra.languages.core.domain.courses.LessonDraft
 import com.tayra.languages.core.domain.courses.LessonStatus
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.model.ReadingStage
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.TermService
@@ -72,6 +73,8 @@ class CourseServiceTest {
         assertEquals(lesson.id, first().nextLesson?.lesson?.id)
 
         reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
+        assertEquals(LessonStatus.IN_PROGRESS, first().lessons[0].status, "read, but its stages are not all checked")
+        for (stage in ReadingStage.entries) reading.checkStage(bookId, 1, stage)
         val read = first()
         assertEquals(LessonStatus.COMPLETED, read.lessons[0].status)
         assertEquals(1, read.completed)
@@ -146,12 +149,35 @@ class CourseServiceTest {
         books.linkLesson(lesson, bookId)
         assertTrue(books.pageCount(bookId) > 1)
         reading.openPage(bookId, 2, trackOpen = true)
+        for (page in 1..books.pageCount(bookId)) reading.checkStage(bookId, page, ReadingStage.LISTEN)
+        reading.checkStage(bookId, 1, ReadingStage.QUIZ)
 
         assertEquals(1, service.joinLessonPages())
+        assertEquals(setOf(ReadingStage.LISTEN), books.getPage(bookId, 1)!!.stages, "a stage stays only where every page joined had it")
         assertEquals(listOf(text), books.getPages(bookId).map { it.text }, "the course's text, with no paragraph where a page ended")
         assertEquals(LessonStatus.IN_PROGRESS, service.observeCourse(course).first()!!.lessons[0].status)
         assertEquals(0, service.joinLessonPages(), "nothing left to join")
     }
 
     private fun longText() = (1..60).joinToString(" ") { "O gato número $it dorme ao sol na janela da casa." }
+
+    @Test
+    fun aLessonReadBeforeStagesKeepsEveryStage() = runTest {
+        val portuguese = languages.save(Language(name = "Portuguese"))
+        val course = service.createCourse(portuguese, CourseDraft("Curtas"))
+        val lesson = service.addLesson(course, LessonDraft("Curta", text = "O gato dorme."))
+        val bookId = assertNotNull(service.openLesson(course, lesson))
+        reading.markPageRead(bookId, 1, markRestAsKnown = false)
+        val unread = service.addLesson(course, LessonDraft("Outra", text = "O cão corre."))
+        val unreadBook = assertNotNull(service.openLesson(course, unread))
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.pretendVersion(38) }
+
+        val reopened = DatabaseProvider(DatabaseDriverFactory(file))
+        val upgradedBooks = BookRepositoryImpl(reopened)
+        assertEquals(ReadingStage.entries.toSet(), upgradedBooks.getPage(bookId, 1)!!.stages)
+        assertEquals(emptySet(), upgradedBooks.getPage(unreadBook, 1)!!.stages)
+        val upgradedLanguages = LanguageRepositoryImpl(reopened)
+        val upgraded = CourseService(upgradedBooks, upgradedLanguages, BookService(upgradedBooks, upgradedLanguages), CourseRepositoryImpl(reopened), TestCourses.source)
+        assertEquals(listOf(LessonStatus.COMPLETED, LessonStatus.NOT_STARTED), upgraded.observeCourse(course).first()!!.lessons.map { it.status })
+    }
 }

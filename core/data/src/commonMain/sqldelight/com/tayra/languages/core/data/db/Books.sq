@@ -34,7 +34,9 @@ CREATE TABLE pages (
     word_count INTEGER NOT NULL DEFAULT 0,
     start_date INTEGER,
     read_date INTEGER,
-    updated_at INTEGER NOT NULL DEFAULT 0
+    updated_at INTEGER NOT NULL DEFAULT 0,
+    -- The reading stages done on the page, a bit each (ReadingStage).
+    stages INTEGER NOT NULL DEFAULT 0
 );
 
 CREATE INDEX pages_book ON pages(book_id);
@@ -123,7 +125,8 @@ SELECT
     COALESCE((SELECT page_order FROM pages WHERE id = b.current_page_id), 1) AS current_page,
     (SELECT count(*) FROM pages p WHERE p.book_id = b.id) AS page_count,
     (SELECT max(start_date) FROM pages p WHERE p.book_id = b.id) AS last_opened,
-    (SELECT read_date FROM pages p WHERE p.book_id = b.id ORDER BY page_order DESC LIMIT 1) AS last_page_read_date
+    (SELECT read_date FROM pages p WHERE p.book_id = b.id ORDER BY page_order DESC LIMIT 1) AS last_page_read_date,
+    (SELECT stages FROM pages p WHERE p.book_id = b.id ORDER BY page_order DESC LIMIT 1) AS last_page_stages
 FROM course_lessons cl
 INNER JOIN books b ON b.id = cl.book_id;
 
@@ -231,14 +234,17 @@ deletePagesOfBook:
 DELETE FROM pages WHERE book_id = :bookId;
 
 insertPageWithDates:
-INSERT INTO pages(book_id, page_order, text, word_count, start_date, read_date)
-VALUES (:bookId, :pageOrder, :text, :wordCount, :startDate, :readDate);
+INSERT INTO pages(book_id, page_order, text, word_count, start_date, read_date, stages)
+VALUES (:bookId, :pageOrder, :text, :wordCount, :startDate, :readDate, :stages);
 
 setPageStartDate:
 UPDATE pages SET start_date = :startDate WHERE id = :id;
 
 setPageReadDate:
 UPDATE pages SET read_date = :readDate WHERE id = :id;
+
+setPageStages:
+UPDATE pages SET stages = :stages WHERE id = :id;
 
 -- Sentences
 

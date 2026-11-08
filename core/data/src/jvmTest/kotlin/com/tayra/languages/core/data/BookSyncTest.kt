@@ -18,6 +18,7 @@ import com.tayra.languages.sync.PushRequest
 import com.tayra.languages.sync.PushResponse
 import com.tayra.languages.sync.SyncMerge
 import com.tayra.languages.sync.SyncRecord
+import com.tayra.languages.core.domain.model.ReadingStage
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import java.sql.Connection
@@ -94,6 +95,7 @@ class BookSyncTest {
         val id = phone.text("O lobo", "O lobo dorme. O gato come. A casa é azul.", tags = listOf("story", "a1"))
         val second = phone.books.getPage(id, 2)!!
         phone.books.setPageReadDate(phone.books.getPage(id, 1)!!.id, Instant.fromEpochMilliseconds(1_000))
+        phone.books.setPageStages(phone.books.getPage(id, 1)!!.id, setOf(ReadingStage.READ_ALOUD, ReadingStage.LISTEN))
         phone.books.setPageStartDate(second.id, Instant.fromEpochMilliseconds(2_000))
         phone.books.setCurrentPage(id, second.id)
         phone.books.addBookmark(second.id, "O gato")
@@ -101,8 +103,8 @@ class BookSyncTest {
 
         syncBoth()
         val copy = desktop.bookId("O lobo")
-        assertEquals(phone.rows("SELECT page_order, text, word_count, start_date, read_date FROM pages WHERE book_id = $id ORDER BY page_order"),
-            desktop.rows("SELECT page_order, text, word_count, start_date, read_date FROM pages WHERE book_id = $copy ORDER BY page_order"))
+        assertEquals(phone.rows("SELECT page_order, text, word_count, start_date, read_date, stages FROM pages WHERE book_id = $id ORDER BY page_order"),
+            desktop.rows("SELECT page_order, text, word_count, start_date, read_date, stages FROM pages WHERE book_id = $copy ORDER BY page_order"))
         assertEquals(listOf("2"), desktop.rows("SELECT p.page_order FROM books b JOIN pages p ON p.id = b.current_page_id WHERE b.id = $copy"))
         assertEquals(listOf("a1", "story"), desktop.rows("SELECT t.text FROM book_tag_map m JOIN book_tags t ON t.id = m.tag_id WHERE m.book_id = $copy ORDER BY t.text"))
         assertEquals(listOf("2|O gato"), desktop.rows("SELECT p.page_order, bm.title FROM page_bookmarks bm JOIN pages p ON p.id = bm.page_id WHERE p.book_id = $copy"))
@@ -190,9 +192,17 @@ class BookSyncTest {
         phone.books.setCurrentPage(id, phone.books.getPage(id, 2)!!.id)
         val copy = desktop.text("Lição 1", "O lobo dorme. O gato come.")
         desktop.books.linkLesson("pack-pt-a1-lesson-1", copy)
+        phone.books.setPageStartDate(phone.books.getPage(id, 1)!!.id, Instant.fromEpochMilliseconds(1_000))
+        phone.books.setPageStages(phone.books.getPage(id, 1)!!.id, setOf(ReadingStage.READ_ALOUD, ReadingStage.QUIZ))
         syncBoth()
         assertEquals(listOf("Lição 1"), desktop.rows("SELECT title FROM books"), "not made twice")
         assertEquals(listOf("2"), desktop.rows("SELECT p.page_order FROM books b JOIN pages p ON p.id = b.current_page_id"))
+        assertEquals(setOf(ReadingStage.READ_ALOUD, ReadingStage.QUIZ), desktop.books.getPage(copy, 1)!!.stages, "the stages checked travel with the reading")
+
+        // A stage checked on the other device comes back.
+        desktop.books.setPageStages(desktop.books.getPage(copy, 1)!!.id, setOf(ReadingStage.READ_ALOUD, ReadingStage.QUIZ, ReadingStage.RETELL))
+        syncBoth()
+        assertEquals(setOf(ReadingStage.READ_ALOUD, ReadingStage.QUIZ, ReadingStage.RETELL), phone.books.getPage(id, 1)!!.stages)
     }
 
     @Test

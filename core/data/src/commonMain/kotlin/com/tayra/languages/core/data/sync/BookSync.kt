@@ -11,6 +11,7 @@ import com.tayra.languages.core.domain.language.Tutorials
 import com.tayra.languages.sync.SyncKinds
 import com.tayra.languages.sync.SyncMerge
 import com.tayra.languages.sync.SyncRecord
+import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.buildJsonArray
 import kotlinx.serialization.json.buildJsonObject
@@ -96,7 +97,7 @@ internal data class BookRow(
 }
 
 internal data class PageRow(
-    val order: Long, val text: String, val wordCount: Long, val startDate: Long?, val readDate: Long?, val updatedAt: Long,
+    val order: Long, val text: String, val wordCount: Long, val startDate: Long?, val readDate: Long?, val stages: Long, val updatedAt: Long,
     val syncId: String?, val sourceUri: String?, val lessonId: String?, val bookTitle: String, val language: String,
 ) {
     /** Null for a page of a course's or pack's text not opened yet, as for its text. */
@@ -106,6 +107,7 @@ internal data class PageRow(
         return SyncRecord(SyncKinds.PAGE, pageKey(book, order), updatedAt, data = buildJsonObject {
             startDate?.let { put("startDate", it) }
             readDate?.let { put("readDate", it) }
+            if (stages != 0L) put("stages", stages)
             put("wordCount", wordCount)
             if (isWhole(book)) put("text", text)
         }, deviceId = device)
@@ -253,9 +255,9 @@ internal class BookWriter(private val db: TayraDatabase, private val device: Str
                     when {
                         m.deleted -> q.deletePage(book.id, order)
                         d == null -> Unit
-                        row == null -> d.string("text")?.let { q.insertPage(book.id, order, it, d.long("wordCount") ?: 0, d.long("startDate"), d.long("readDate"), m.updatedAt) }
-                        isWhole(key) -> q.updatePage(d.string("text") ?: row.text, d.long("wordCount") ?: row.wordCount, d.long("startDate"), d.long("readDate"), m.updatedAt, book.id, order)
-                        else -> q.setPageDates(d.long("startDate"), d.long("readDate"), m.updatedAt, book.id, order)
+                        row == null -> d.string("text")?.let { q.insertPage(book.id, order, it, d.long("wordCount") ?: 0, d.long("startDate"), d.long("readDate"), d.long("stages") ?: 0, m.updatedAt) }
+                        isWhole(key) -> q.updatePage(d.string("text") ?: row.text, d.long("wordCount") ?: row.wordCount, d.long("startDate"), d.long("readDate"), stagesOf(d, row), m.updatedAt, book.id, order)
+                        else -> q.setPageDates(d.long("startDate"), d.long("readDate"), stagesOf(d, row), m.updatedAt, book.id, order)
                     }
                     q.clearStats(book.id)
                 }
@@ -362,3 +364,6 @@ internal class BookWriter(private val db: TayraDatabase, private val device: Str
 
     private fun same(a: SyncRecord, b: SyncRecord) = a.updatedAt == b.updatedAt && a.deleted == b.deleted && a.data == b.data
 }
+
+/** The stages a page record brings; a record from a version before stages keeps the page's own. */
+private fun stagesOf(data: JsonObject, row: PageRow): Long = data.long("stages") ?: row.stages

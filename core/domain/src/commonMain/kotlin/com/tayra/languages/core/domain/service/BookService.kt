@@ -112,6 +112,8 @@ class BookService(
                 wordCount = counts[index],
                 startDate = covered.mapNotNull { it.startDate }.maxOrNull(),
                 readDate = if (covered.isNotEmpty() && covered.all { it.isRead }) covered.mapNotNull { it.readDate }.maxOrNull() else null,
+                // A stage counts as done on the new page only when it was on every old page it covers.
+                stages = covered.map { it.stages }.reduceOrNull { done, stages -> done intersect stages }.orEmpty(),
             )
         }
         val current = old.indexOfFirst { it.id == book.currentPageId }.takeIf { it >= 0 }?.let(::newIndexOfOldPage) ?: 0

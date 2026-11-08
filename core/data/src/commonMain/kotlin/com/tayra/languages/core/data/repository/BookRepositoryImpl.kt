@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.repository
 
+import com.tayra.languages.core.domain.model.ReadingStage
 import kotlin.time.Clock
 import app.cash.sqldelight.async.coroutines.awaitAsList
 import app.cash.sqldelight.async.coroutines.awaitAsOne
@@ -52,7 +53,8 @@ class BookRepositoryImpl(private val provider: DatabaseProvider) : BookRepositor
                         currentPage = row.current_page.toInt(),
                         pageCount = row.page_count.toInt(),
                         lastOpened = row.last_opened?.toInstant(),
-                        isCompleted = row.last_page_read_date != null,
+                        // A lesson is done once its last page is read and every stage of it checked.
+                        isCompleted = row.last_page_read_date != null && row.last_page_stages?.toInt() == ReadingStage.ALL_BITS,
                     )
                 },
             )
@@ -199,6 +201,7 @@ class BookRepositoryImpl(private val provider: DatabaseProvider) : BookRepositor
                     wordCount = page.wordCount.toLong(),
                     startDate = page.startDate?.toEpochMillis(),
                     readDate = page.readDate?.toEpochMillis(),
+                    stages = ReadingStage.bitsOf(page.stages).toLong(),
                 )
                 q.lastInsertId().awaitAsOne()
             }
@@ -219,6 +222,12 @@ class BookRepositoryImpl(private val provider: DatabaseProvider) : BookRepositor
     override suspend fun setPageStartDate(pageId: Long, date: Instant) {
         withContext(databaseDispatcher) {
             db().booksQueries.setPageStartDate(startDate = date.toEpochMillis(), id = pageId)
+        }
+    }
+
+    override suspend fun setPageStages(pageId: Long, stages: Set<ReadingStage>) {
+        withContext(databaseDispatcher) {
+            db().booksQueries.setPageStages(stages = ReadingStage.bitsOf(stages).toLong(), id = pageId)
         }
     }
 

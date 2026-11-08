@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.service
 
+import com.tayra.languages.core.domain.model.ReadingStage
 import com.tayra.languages.core.domain.book.SentenceBuilder
 import com.tayra.languages.core.domain.model.Book
 import com.tayra.languages.core.domain.model.Language
@@ -136,6 +137,14 @@ class ReadingService(
         books.replaceSentences(page.id, SentenceBuilder.build(page.text, language))
         wordsRead.add(WordsReadEntry(language.id, page.id, now, page.wordCount))
         return if (markRestAsKnown) setUnknownsToWellKnown(page.text, language) else emptyList()
+    }
+
+    /** Marks [stage] done on the page; returns the page's stages done now. */
+    suspend fun checkStage(bookId: Long, pageNumber: Int, stage: ReadingStage): Set<ReadingStage> {
+        val page = books.getPage(bookId, pageNumber) ?: return emptySet()
+        val stages = page.stages + stage
+        if (stages != page.stages) books.setPageStages(page.id, stages)
+        return stages
     }
 
     /** Sets the page's unknown words to well known and returns their terms. */

@@ -65,6 +65,24 @@ internal fun Connection.pretendVersion(version: Int) {
         }
         createStatement().execute("ALTER TABLE terms DROP COLUMN card_form")
     }
+    // Last, once the sync triggers of an older schema are gone: one names a table a test may have dropped.
+    if (version <= 38 && createStatement().executeQuery("SELECT count(*) FROM pragma_table_info('pages') WHERE name = 'stages'").use { it.getInt(1) } > 0) {
+        // The trigger names the column, so it goes back to the one before it first.
+        createStatement().execute("DROP TRIGGER IF EXISTS sync_pages_update")
+        if (version >= 28) {
+            createStatement().execute(
+                """
+                CREATE TRIGGER sync_pages_update
+                AFTER UPDATE OF page_order, text, start_date, read_date ON pages
+                WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+                BEGIN
+                    UPDATE pages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+                END
+                """.trimIndent(),
+            )
+        }
+        createStatement().execute("ALTER TABLE pages DROP COLUMN stages")
+    }
     createStatement().execute("PRAGMA user_version = $version")
 }
 

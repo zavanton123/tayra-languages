@@ -1,0 +1,12 @@
+-- The reading stages done on a page, a bit each. A page read before stages came counts as done
+-- with all seven, so texts finished then stay finished.
+ALTER TABLE pages ADD COLUMN stages INTEGER NOT NULL DEFAULT 0;
+UPDATE pages SET stages = 127 WHERE read_date IS NOT NULL;
+
+DROP TRIGGER IF EXISTS sync_pages_update;
+CREATE TRIGGER sync_pages_update
+AFTER UPDATE OF page_order, text, start_date, read_date, stages ON pages
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE pages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;

@@ -24,6 +24,7 @@ data class Page(
     val wordCount: Int = 0,
     val startDate: Instant? = null,
     val readDate: Instant? = null,
+    val stages: Set<ReadingStage> = emptySet(),
 ) {
     val isRead: Boolean get() = readDate != null
 }

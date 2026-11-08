@@ -104,12 +104,12 @@ clearStats:
 DELETE FROM book_stats WHERE book_id = :bookId;
 
 changedPages:
-SELECT p.page_order, p.text, p.word_count, p.start_date, p.read_date, p.updated_at, b.sync_id, b.source_uri, cl.lesson_id, b.title, l.name AS language
+SELECT p.page_order, p.text, p.word_count, p.start_date, p.read_date, p.stages, p.updated_at, b.sync_id, b.source_uri, cl.lesson_id, b.title, l.name AS language
 FROM pages p JOIN books b ON b.id = p.book_id JOIN languages l ON l.id = b.language_id LEFT JOIN course_lessons cl ON cl.book_id = b.id
 WHERE p.updated_at > :since;
 
 pageOf:
-SELECT p.page_order, p.text, p.word_count, p.start_date, p.read_date, p.updated_at, b.sync_id, b.source_uri, cl.lesson_id, b.title, l.name AS language
+SELECT p.page_order, p.text, p.word_count, p.start_date, p.read_date, p.stages, p.updated_at, b.sync_id, b.source_uri, cl.lesson_id, b.title, l.name AS language
 FROM pages p JOIN books b ON b.id = p.book_id JOIN languages l ON l.id = b.language_id LEFT JOIN course_lessons cl ON cl.book_id = b.id
 WHERE p.book_id = :bookId AND p.page_order = :pageOrder;
 
@@ -117,15 +117,15 @@ pageId:
 SELECT id FROM pages WHERE book_id = :bookId AND page_order = :pageOrder;
 
 insertPage:
-INSERT INTO pages(book_id, page_order, text, word_count, start_date, read_date, updated_at)
-VALUES (:bookId, :pageOrder, :text, :wordCount, :startDate, :readDate, :updatedAt);
+INSERT INTO pages(book_id, page_order, text, word_count, start_date, read_date, stages, updated_at)
+VALUES (:bookId, :pageOrder, :text, :wordCount, :startDate, :readDate, :stages, :updatedAt);
 
 updatePage:
-UPDATE pages SET text = :text, word_count = :wordCount, start_date = :startDate, read_date = :readDate, updated_at = :updatedAt
+UPDATE pages SET text = :text, word_count = :wordCount, start_date = :startDate, read_date = :readDate, stages = :stages, updated_at = :updatedAt
 WHERE book_id = :bookId AND page_order = :pageOrder;
 
 setPageDates:
-UPDATE pages SET start_date = :startDate, read_date = :readDate, updated_at = :updatedAt WHERE book_id = :bookId AND page_order = :pageOrder;
+UPDATE pages SET start_date = :startDate, read_date = :readDate, stages = :stages, updated_at = :updatedAt WHERE book_id = :bookId AND page_order = :pageOrder;
 
 deletePage:
 DELETE FROM pages WHERE book_id = :bookId AND page_order = :pageOrder;

@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.repository
 
+import com.tayra.languages.core.domain.model.ReadingStage
 import com.tayra.languages.core.domain.courses.LessonBook
 import com.tayra.languages.core.domain.news.NewsBook
 import com.tayra.languages.core.domain.model.Book
@@ -14,7 +15,7 @@ import kotlin.time.Instant
 data class NewPage(val text: String, val wordCount: Int)
 
 /** A page of a rebuilt book, with the dates carried over from the pages it replaces. */
-data class RebuiltPage(val text: String, val wordCount: Int, val startDate: Instant? = null, val readDate: Instant? = null)
+data class RebuiltPage(val text: String, val wordCount: Int, val startDate: Instant? = null, val readDate: Instant? = null, val stages: Set<ReadingStage> = emptySet())
 
 /** A bookmark to re-add on a rebuilt book, on the page at [pageIndex] (from 0). */
 data class RebuiltBookmark(val pageIndex: Int, val title: String, val createdAt: kotlin.time.Instant? = null)
@@ -58,6 +59,7 @@ interface BookRepository {
     suspend fun replacePages(bookId: Long, pages: List<RebuiltPage>, currentIndex: Int, bookmarks: List<RebuiltBookmark>)
     suspend fun setCurrentPage(bookId: Long, pageId: Long)
     suspend fun setPageStartDate(pageId: Long, date: Instant)
+    suspend fun setPageStages(pageId: Long, stages: Set<ReadingStage>)
     suspend fun setPageReadDate(pageId: Long, date: Instant)
     suspend fun replaceSentences(pageId: Long, sentences: List<Sentence>)
 

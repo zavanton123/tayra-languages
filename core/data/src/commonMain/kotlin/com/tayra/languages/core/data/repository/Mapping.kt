@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.repository
 
+import com.tayra.languages.core.domain.model.ReadingStage
 import com.tayra.languages.core.data.db.Books
 import com.tayra.languages.core.data.db.Language_dictionaries
 import com.tayra.languages.core.data.db.Languages
@@ -62,6 +63,7 @@ internal fun Pages.toDomain(): Page = Page(
     wordCount = word_count.toInt(),
     startDate = start_date?.toInstant(),
     readDate = read_date?.toInstant(),
+    stages = ReadingStage.fromBits(stages.toInt()),
 )
 
 internal fun Terms.toDomain(parents: List<TermRef>): Term = Term(
