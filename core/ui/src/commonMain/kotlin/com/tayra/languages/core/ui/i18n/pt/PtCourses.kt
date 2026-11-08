@@ -366,4 +366,9 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Marque também “Importar qualquer configuração de baralho” para o baralho manter estas configurações de cartões.",
     "Something went wrong while making the deck." to "Algo deu errado ao criar o baralho.",
     "Making the first card's sound. The others are made in the background while you review." to "Criando o som do primeiro cartão. Os outros são criados em segundo plano enquanto você revisa.",
+    // FlashcardsScreen.kt: a text's flashcards in a dialog
+    "Flashcards of this text" to "Flashcards deste texto",
+    "The text's flashcards are done" to "Os flashcards do texto foram concluídos",
+    "Words you are learning on this page have cards; those due again come back on their day." to "As palavras desta página que você está aprendendo têm flashcards; os que vencerem de novo voltam no dia deles.",
+    "The text's words" to "As palavras do texto",
 )

@@ -366,4 +366,9 @@ internal val deCourses: Map<String, String> = mapOf(
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Aktiviere auch „Stapelprofile (falls enthalten) ebenfalls importieren“, damit der Stapel diese Karteneinstellungen behält.",
     "Something went wrong while making the deck." to "Beim Erstellen des Stapels ist etwas schiefgelaufen.",
     "Making the first card's sound. The others are made in the background while you review." to "Der Ton der ersten Karte wird erstellt. Die übrigen entstehen im Hintergrund, während du wiederholst.",
+    // FlashcardsScreen.kt: a text's flashcards in a dialog
+    "Flashcards of this text" to "Karteikarten dieses Textes",
+    "The text's flashcards are done" to "Die Karteikarten des Textes sind geschafft",
+    "Words you are learning on this page have cards; those due again come back on their day." to "Die Wörter dieser Seite, die du lernst, haben Karten; fällige kommen an ihrem Tag wieder.",
+    "The text's words" to "Die Wörter des Textes",
 )

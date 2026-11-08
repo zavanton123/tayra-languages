@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.flashcards
 
+import kotlin.time.Clock
 import kotlinx.coroutines.flow.first
 import com.tayra.languages.core.domain.repository.BookRepository
 import androidx.lifecycle.ViewModel
@@ -130,6 +131,8 @@ data class FlashcardsUiState(
     /** When the card on show came up, for the timer the settings may show; null without a card. */
     val shownAt: TimeSource.Monotonic.ValueTimeMark? = null,
     val showTimer: Boolean = false,
+    /** Going over a text's words only: every one of their cards has been answered, or they have none. */
+    val textDone: Boolean = false,
 ) {
     /**
      * How the card on show is answered: by showing it when it has no blank to fill, and by typing
@@ -199,6 +202,8 @@ class FlashcardsViewModel(
     private val sentences: SentenceTranslations? = null,
     /** Hears the sentence said aloud; null where nothing can, and the cards cannot be answered by speaking. */
     private val speech: SpeechRecognition? = null,
+    /** The words of a text being read: only their cards are gone over, and nothing comes after them. */
+    private val textWords: List<Long>? = null,
 ) : ViewModel(), StudyMoreCounts {
 
     private val _state = MutableStateFlow(FlashcardsUiState())
@@ -233,10 +238,10 @@ class FlashcardsViewModel(
         // Until it is known whether any speech is missing, no card shows, so none flashes up before the wait.
         if (audio != null) _state.update { it.copy(preparingAudio = true) }
         if (speech != null) _state.update { it.copy(modes = AnswerMode.entries) }
-        load()
+        if (textWords != null) startTextPass(textWords) else load()
         prepareSpeech()
-        // The cards follow the language chosen in the top bar.
-        viewModelScope.launch {
+        // The cards follow the language chosen in the top bar; a text's words stay those of its language.
+        if (textWords == null) viewModelScope.launch {
             settings.settings.map { it.currentLanguageId }.distinctUntilChanged().drop(1).collect {
                 steps.clear()
                 pass = null
@@ -369,6 +374,7 @@ class FlashcardsViewModel(
                     backlog = session.backlog,
                     shownAt = shownAt,
                     showTimer = settings.current.flashcardShowTimer,
+                    textDone = textWords != null && pass == null && session.card == null,
                 )
             }
             scheduleAuto()
@@ -391,8 +397,8 @@ class FlashcardsViewModel(
     private suspend fun nextSession(prefer: Long?): FlashcardService.Session {
         if (prefer != null) return service.next(languageId, prefer)
         while (true) {
-            val going = pass ?: return service.next(languageId)
-            val id = going.current ?: run { pass = null; return service.next(languageId) }
+            val going = pass ?: return afterPass()
+            val id = going.current ?: run { pass = null; return afterPass() }
             val session = service.next(languageId, id)
             if (session.card?.termId == id) return session
             pass = going.copy(done = going.done + 1)
@@ -507,7 +513,8 @@ class FlashcardsViewModel(
         val word = _state.value.card?.word.orEmpty()
         events.trySend(FlashcardsEvent.StopSpeaking)
         val going = pass
-        if (going?.current == card.termId) {
+        // A pass's answers are saved nowhere, but those of a text's words go into the cards' schedule like any.
+        if (going?.current == card.termId && textWords == null) {
             steps.addLast(SessionStep(going))
             pass = going.answered(rating)
             _state.update { it.copy(leech = null) }
@@ -521,6 +528,7 @@ class FlashcardsViewModel(
                 else -> AnswerMode.SHOW
             }
             val answered = service.answer(card, rating, answeredBy, shownAt?.elapsedNow())?.also { steps.addLast(SessionStep(going, it)) }
+            if (going?.current == card.termId) pass = going.answered(rating)
             val leech = answered?.takeIf { it.leech }?.let { LeechNote(word, it.lapses, it.suspended) }
             _state.update { it.copy(answered = it.answered + 1, leech = leech) }
             load()
@@ -548,6 +556,21 @@ class FlashcardsViewModel(
             pass = ExtraPass(study, ids)
             load()
         }
+    }
+
+    /** Goes over the cards of [words], the words of a text, and ends there. */
+    private fun startTextPass(words: List<Long>) {
+        viewModelScope.launch {
+            val study = ExtraStudy.Words(words)
+            pass = ExtraPass(study, service.extraCards(languageId, study))
+            load()
+        }
+    }
+
+    /** The day's next card once a pass is over; none after a text's words, which are then done. */
+    private suspend fun afterPass(): FlashcardService.Session {
+        if (textWords == null) return service.next(languageId)
+        return FlashcardService.Session(null, null, emptyMap(), DueCounts(), null, Clock.System.now())
     }
 
     /** Leaves the extra pass for the day's own cards. */

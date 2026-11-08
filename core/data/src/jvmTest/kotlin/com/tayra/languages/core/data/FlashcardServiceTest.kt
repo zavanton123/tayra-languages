@@ -115,6 +115,18 @@ class FlashcardServiceTest {
     }
 
     @Test
+    fun aTextsWordsAreGoneOverInTheirOrderNewOnesToo() = runTest {
+        val id = language()
+        val lobo = term(id, "lobo")
+        val gato = term(id, "gato")
+        val casa = term(id, "casa")
+        service.answer(service.cardFor(gato)!!, Rating.EASY)
+        service.setSuspended(casa, true)
+        // Due or not, new or answered, in the text's order; a suspended card and a word with none are left out.
+        assertEquals(listOf(gato, lobo), service.extraCards(id, ExtraStudy.Words(listOf(gato, casa, 999L, lobo, gato))))
+    }
+
+    @Test
     fun extraPassesGoOverTheirCards() = runTest {
         val id = language()
         val lobo = term(id, "lobo")

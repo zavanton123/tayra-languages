@@ -1,5 +1,7 @@
 package com.tayra.languages.navigation
 
+import com.tayra.languages.core.ui.navigation.LocalFlashcardsDialog
+import com.tayra.languages.feature.flashcards.FlashcardsDialog
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.service.TranslationLanguageKeeper
 import com.tayra.languages.core.ui.components.ToastHost
@@ -82,9 +84,12 @@ fun AppNavHost(openCourses: Int = 0) {
     val practiceDialog = remember<@Composable (Route, () -> Unit) -> Unit>(navController) {
         { route, onClose -> PracticeDialog(route, onNavigate = { navController.navigate(it) }, onClose = onClose) }
     }
+    val flashcardsDialog = remember<@Composable (List<Long>, () -> Unit) -> Unit>(navController) {
+        { termIds, onClose -> FlashcardsDialog(termIds, onNavigate = { navController.navigate(it) }, onClose = onClose) }
+    }
     // The language whose downloads the playlist player sent for, to get a voice for it.
     var voiceFor by remember { mutableStateOf<Long?>(null) }
-    CompositionLocalProvider(LocalPracticeDialog provides practiceDialog) {
+    CompositionLocalProvider(LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog) {
     Scaffold(
         bottomBar = {
             // The playlist player's bar stays while anything is loaded, over the phone's tabs.

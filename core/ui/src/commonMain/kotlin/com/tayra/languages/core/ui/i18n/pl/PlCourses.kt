@@ -366,4 +366,9 @@ internal val plCourses: Map<String, String> = mapOf(
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Zaznacz też „Importuj opcje talii”, aby talia zachowała te ustawienia fiszek.",
     "Something went wrong while making the deck." to "Coś poszło nie tak podczas tworzenia talii.",
     "Making the first card's sound. The others are made in the background while you review." to "Tworzenie dźwięku pierwszej karty. Pozostałe powstają w tle podczas powtórki.",
+    // FlashcardsScreen.kt: a text's flashcards in a dialog
+    "Flashcards of this text" to "Fiszki tego tekstu",
+    "The text's flashcards are done" to "Fiszki tekstu zrobione",
+    "Words you are learning on this page have cards; those due again come back on their day." to "Słowa z tej strony, których się uczysz, mają fiszki; te do powtórki wrócą w swoim dniu.",
+    "The text's words" to "Słowa tekstu",
 )

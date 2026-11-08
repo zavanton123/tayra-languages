@@ -15,6 +15,9 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
  */
 val LocalPracticeDialog = staticCompositionLocalOf<(@Composable (route: Route, onClose: () -> Unit) -> Unit)?> { null }
 
+/** Shows the flashcards of a text's words in a dialog over the text, calling back when it is closed; null where the app does not provide it. */
+val LocalFlashcardsDialog = staticCompositionLocalOf<(@Composable (termIds: List<Long>, onClose: () -> Unit) -> Unit)?> { null }
+
 /**
  * The way to start a practice from this page: on a window wider than a phone, in the
  * [LocalPracticeDialog] shown here over the page; on a phone, or without one, by [onNavigate].
