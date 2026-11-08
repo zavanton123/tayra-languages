@@ -366,9 +366,4 @@ internal val elCourses: Map<String, String> = mapOf(
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Επιλέξτε επίσης «Εισαγωγή προεπιλογών τραπουλών», ώστε η τράπουλα να κρατήσει αυτές τις ρυθμίσεις καρτών.",
     "Something went wrong while making the deck." to "Κάτι πήγε στραβά κατά τη δημιουργία της τράπουλας.",
     "Making the first card's sound. The others are made in the background while you review." to "Δημιουργείται ο ήχος της πρώτης κάρτας. Οι υπόλοιποι δημιουργούνται στο παρασκήνιο όσο κάνετε επανάληψη.",
-    // FlashcardsScreen.kt: a text's flashcards in a dialog
-    "Flashcards of this text" to "Κάρτες αυτού του κειμένου",
-    "The text's flashcards are done" to "Οι κάρτες του κειμένου ολοκληρώθηκαν",
-    "Words you are learning on this page have cards; those due again come back on their day." to "Οι λέξεις αυτής της σελίδας που μαθαίνετε έχουν κάρτες· όσες λήγουν ξανά επιστρέφουν τη μέρα τους.",
-    "The text's words" to "Οι λέξεις του κειμένου",
 )

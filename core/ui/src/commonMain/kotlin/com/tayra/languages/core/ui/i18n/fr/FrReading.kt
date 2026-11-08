@@ -278,4 +278,5 @@ internal val frReading: Map<String, String> = mapOf(
     "Check: {0}" to "Valider : {0}",
     "Stage {0} of {1}: {2}" to "Étape {0} sur {1} : {2}",
     "Tell the text again in the original, with only its translation in front of you." to "Racontez le texte dans la langue d’origine, avec seulement sa traduction sous les yeux.",
+    "Review today's flashcards without leaving the text." to "Révisez les cartes du jour sans quitter le texte.",
 )

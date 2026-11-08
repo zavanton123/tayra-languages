@@ -278,4 +278,5 @@ internal val zhReading: Map<String, String> = mapOf(
     "Check: {0}" to "完成：{0}",
     "Stage {0} of {1}: {2}" to "第 {0} 阶段，共 {1} 个：{2}",
     "Tell the text again in the original, with only its translation in front of you." to "只看译文，用原文语言复述课文。",
+    "Review today's flashcards without leaving the text." to "无需离开课文，复习今天的闪卡。",
 )

@@ -1,8 +1,6 @@
 package com.tayra.languages.feature.flashcards
 
 import androidx.compose.material.icons.filled.Close
-import org.koin.core.parameter.parametersOf
-import org.koin.core.qualifier.named
 import com.tayra.languages.core.ui.components.FreshViewModels
 import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.domain.flashcards.FlashcardService
@@ -154,26 +152,20 @@ import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 
-/**
- * The flashcards of a text's words, [termIds], in a dialog over the text: the text is not left, and
- * the dialog says when its cards are done.
- */
+/** The day's flashcards, as the Flashcards page has them, in a dialog over a text, which is not left. */
 @Composable
-fun FlashcardsDialog(termIds: List<Long>, onNavigate: (Route) -> Unit, onClose: () -> Unit) {
+fun FlashcardsDialog(onNavigate: (Route) -> Unit, onClose: () -> Unit) {
     AppDialogSurface(
         onDismissRequest = onClose,
         modifier = Modifier.fillMaxHeight().testTag("flashcards-dialog"),
         maxWidth = FLASHCARDS_DIALOG_WIDTH,
         color = MaterialTheme.colorScheme.surfaceContainerLow,
     ) {
-        FreshViewModels {
-            val viewModel: FlashcardsViewModel = koinViewModel(qualifier = named(TEXT_WORDS), key = "text-words-$termIds") { parametersOf(termIds) }
-            FlashcardsScreen(onNavigate = { onClose(); onNavigate(it) }, viewModel = viewModel, onClose = onClose)
-        }
+        FreshViewModels { FlashcardsScreen(onNavigate = { onClose(); onNavigate(it) }, onClose = onClose) }
     }
 }
 
-/** Reviewing the flashcards of the language being learned, one card at a time; with [onClose], a text's words in a dialog. */
+/** Reviewing the flashcards of the language being learned, one card at a time; with [onClose], in a dialog. */
 @Composable
 fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel = koinViewModel(), onClose: (() -> Unit)? = null) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -202,7 +194,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
         topBar = {
             if (onClose != null) {
                 Row(Modifier.fillMaxWidth().padding(start = AppSpacing.xl, end = AppSpacing.m, top = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
-                    Text(tr("Flashcards of this text"), style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
+                    Text(tr("Flashcards"), style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
                     AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-flashcards-dialog"), style = IconButtonStyle.Tonal)
                 }
             } else {
@@ -214,10 +206,6 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     ) { padding ->
         if (state.loading) {
             LoadingIndicator(Modifier.padding(padding))
-            return@Scaffold
-        }
-        if (onClose != null && state.textDone) {
-            TextCardsDone(onClose, Modifier.padding(padding))
             return@Scaffold
         }
         FlashcardsContent(
@@ -245,8 +233,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onTypeInstead = viewModel::typeInstead,
                 onTryAgain = viewModel::tryAgain,
                 onStudyMore = { studyingMore = true },
-                // Over a text there is no day's session to go back to: leaving the pass closes the dialog.
-                onEndPass = onClose ?: viewModel::endPass,
+                onEndPass = viewModel::endPass,
             ),
             modifier = Modifier.padding(padding),
             overlay = overlay,
@@ -587,20 +574,6 @@ private fun LeechNotice(note: LeechNote) {
     )
 }
 
-/** Every card of the text's words answered, or none to answer. */
-@Composable
-private fun TextCardsDone(onClose: () -> Unit, modifier: Modifier = Modifier) {
-    Column(
-        modifier.fillMaxSize().padding(AppSpacing.xxl).testTag("text-cards-done"),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.l, Alignment.CenterVertically),
-    ) {
-        Text(tr("The text's flashcards are done"), style = MaterialTheme.typography.titleLarge)
-        Text(tr("Words you are learning on this page have cards; those due again come back on their day."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        PrimaryButton(tr("Close"), onClick = onClose)
-    }
-}
-
 /** The way back from an extra pass to the day's own cards. */
 @Composable
 private fun EndPass(onEndPass: () -> Unit, modifier: Modifier = Modifier) {
@@ -613,7 +586,6 @@ private fun ExtraStudy.title(): String = when (this) {
     is ExtraStudy.Ahead -> tr("Review ahead")
     is ExtraStudy.Forgotten -> tr("Forgotten cards again")
     is ExtraStudy.Practise -> tr("Practise words")
-    is ExtraStudy.Words -> tr("The text's words")
 }
 
 @Composable

@@ -366,9 +366,4 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Отметьте и «Импортировать конфигурации колод», чтобы колода сохранила эти настройки карточек.",
     "Something went wrong while making the deck." to "При создании колоды что-то пошло не так.",
     "Making the first card's sound. The others are made in the background while you review." to "Создаётся звук первой карточки. Остальные создаются в фоне, пока вы повторяете.",
-    // FlashcardsScreen.kt: a text's flashcards in a dialog
-    "Flashcards of this text" to "Карточки этого текста",
-    "The text's flashcards are done" to "Карточки текста пройдены",
-    "Words you are learning on this page have cards; those due again come back on their day." to "У изучаемых слов этой страницы есть карточки; те, что подойдут снова, вернутся в свой день.",
-    "The text's words" to "Слова текста",
 )

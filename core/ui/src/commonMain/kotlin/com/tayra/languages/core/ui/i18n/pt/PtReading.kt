@@ -278,4 +278,5 @@ internal val ptReading: Map<String, String> = mapOf(
     "Check: {0}" to "Concluir: {0}",
     "Stage {0} of {1}: {2}" to "Etapa {0} de {1}: {2}",
     "Tell the text again in the original, with only its translation in front of you." to "Reconte o texto no idioma original, tendo à frente apenas a tradução dele.",
+    "Review today's flashcards without leaving the text." to "Revise os flashcards de hoje sem sair do texto.",
 )

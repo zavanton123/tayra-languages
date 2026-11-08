@@ -366,9 +366,4 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "同时勾选“导入所有牌组预设配置”，牌组即可保留这些卡片设置。",
     "Something went wrong while making the deck." to "创建牌组时出错。",
     "Making the first card's sound. The others are made in the background while you review." to "正在生成第一张卡片的声音。其余声音会在你复习时在后台生成。",
-    // FlashcardsScreen.kt: a text's flashcards in a dialog
-    "Flashcards of this text" to "本文的闪卡",
-    "The text's flashcards are done" to "本文的闪卡已完成",
-    "Words you are learning on this page have cards; those due again come back on their day." to "本页正在学习的单词都有闪卡；到期的会在当天再次出现。",
-    "The text's words" to "本文的单词",
 )

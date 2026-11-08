@@ -167,10 +167,6 @@ class FlashcardService(
                 val statuses = terms.getByIds(answered.map { it.termId }).associate { it.id to it.status }
                 answered.filter { statuses[it.termId] in study.statuses }.map { it.termId }.shuffled(random).take(study.count)
             }
-            is ExtraStudy.Words -> {
-                val carded = active.mapTo(HashSet()) { it.termId }
-                study.termIds.distinct().filter { it in carded }
-            }
         }
     }
 
@@ -578,9 +574,6 @@ sealed interface ExtraStudy {
 
     /** Up to [count] answered cards of words at [statuses], in no order. */
     data class Practise(val statuses: Set<TermStatus>, val count: Int) : ExtraStudy
-
-    /** The cards of the words with [termIds], new ones too, in that order: the words of a text being read. */
-    data class Words(val termIds: List<Long>) : ExtraStudy
 }
 
 /** The new cards added to a day's limit, kept as "day|language:count,…", a language of 0 standing for every language. */

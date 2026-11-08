@@ -278,4 +278,5 @@ internal val deReading: Map<String, String> = mapOf(
     "Check: {0}" to "Abhaken: {0}",
     "Stage {0} of {1}: {2}" to "Stufe {0} von {1}: {2}",
     "Tell the text again in the original, with only its translation in front of you." to "Erzähl den Text in der Originalsprache nach, nur mit seiner Übersetzung vor Augen.",
+    "Review today's flashcards without leaving the text." to "Wiederhole die heutigen Karteikarten, ohne den Text zu verlassen.",
 )

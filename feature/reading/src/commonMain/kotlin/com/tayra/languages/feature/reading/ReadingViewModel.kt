@@ -122,6 +122,8 @@ data class ReadingUiState(
     val stages: Set<ReadingStage> = emptySet(),
     /** The stage being worked on, which decides what the page shows. */
     val stage: ReadingStage = ReadingStage.READ_ALOUD,
+    /** Counts the stages reached by checking the one before, whose dialog then opens by itself. */
+    val stagesReached: Int = 0,
 ) {
     /** Every stage of the page has been checked. */
     val allStagesDone: Boolean get() = stages.size == ReadingStage.entries.size
@@ -355,7 +357,7 @@ class ReadingViewModel(
                     }
                 }
             }
-            _state.update { it.copy(stages = stages, stage = nextOpen(stage, stages)) }
+            _state.update { it.copy(stages = stages, stage = nextOpen(stage, stages), stagesReached = it.stagesReached + 1) }
             if (stage == ReadingStage.READ_ALOUD) load(s.pageNumber, trackOpen = false, keepMarked = true)
             if (_state.value.stage.needsTranslation) translateSentences(enabled = true)
         }

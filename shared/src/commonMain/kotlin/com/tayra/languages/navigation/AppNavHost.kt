@@ -84,8 +84,8 @@ fun AppNavHost(openCourses: Int = 0) {
     val practiceDialog = remember<@Composable (Route, () -> Unit) -> Unit>(navController) {
         { route, onClose -> PracticeDialog(route, onNavigate = { navController.navigate(it) }, onClose = onClose) }
     }
-    val flashcardsDialog = remember<@Composable (List<Long>, () -> Unit) -> Unit>(navController) {
-        { termIds, onClose -> FlashcardsDialog(termIds, onNavigate = { navController.navigate(it) }, onClose = onClose) }
+    val flashcardsDialog = remember<@Composable (() -> Unit) -> Unit>(navController) {
+        { onClose -> FlashcardsDialog(onNavigate = { navController.navigate(it) }, onClose = onClose) }
     }
     // The language whose downloads the playlist player sent for, to get a voice for it.
     var voiceFor by remember { mutableStateOf<Long?>(null) }

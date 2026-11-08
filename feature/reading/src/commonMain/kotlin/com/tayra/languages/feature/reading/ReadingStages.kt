@@ -75,7 +75,7 @@ private fun ReadingStage.hint(): String = when (this) {
     ReadingStage.LISTEN -> tr("Listen to the text with the play button. The original is blurred: point at a sentence to see it.")
     ReadingStage.WORDS -> tr("Go over the page's words and put their statuses right.")
     ReadingStage.QUIZ -> tr("Answer the questions on the words you are learning.")
-    ReadingStage.FLASHCARDS -> tr("Review the flashcards of the words you are learning, without leaving the text.")
+    ReadingStage.FLASHCARDS -> tr("Review today's flashcards without leaving the text.")
     ReadingStage.REVERSE -> tr("Say each translated sentence in the original, then point at it to compare.")
     ReadingStage.RETELL -> tr("Tell the text again in the original, with only its translation in front of you.")
 }

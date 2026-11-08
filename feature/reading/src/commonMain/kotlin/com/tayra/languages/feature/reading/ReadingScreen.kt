@@ -732,16 +732,17 @@ private fun ReadingBody(
     var revealed by remember(state.book?.id, state.pageNumber) { mutableStateOf(emptySet<Int>()) }
     // Another stage hides every sentence again.
     LaunchedEffect(state.stage) { revealed = emptySet() }
-    // The stages done in a dialog over the text: the page's words, its quiz and its flashcards.
+    // The stages done in a dialog over the text: the page's words, its quiz and the day's flashcards.
     var quizSetup by remember { mutableStateOf(false) }
-    var flashcards by remember { mutableStateOf<List<Long>?>(null) }
+    var flashcards by remember { mutableStateOf(false) }
     val flashcardsDialog = LocalFlashcardsDialog.current
     val noLearning = tr("No words on this page are being learned")
     val openStage: (ReadingStage) -> Unit = { stage ->
         when (stage) {
             ReadingStage.WORDS -> onLessonVocabulary()
             ReadingStage.QUIZ -> if (viewModel.pageLearningTermIds().isEmpty()) viewModel.notice(noLearning) else quizSetup = true
-            ReadingStage.FLASHCARDS -> viewModel.pageLearningTermIds().let { ids -> if (ids.isEmpty() || flashcardsDialog == null) viewModel.notice(noLearning) else flashcards = ids }
+            // The day's cards, as the Flashcards page has them.
+            ReadingStage.FLASHCARDS -> if (flashcardsDialog != null) flashcards = true
             else -> Unit
         }
     }
@@ -749,12 +750,20 @@ private fun ReadingBody(
         viewModel.selectStage(stage)
         openStage(stage)
     }
+    // A stage reached by checking the one before opens its dialog at once; coming back to the screen does not open it again.
+    var stagesOpened by rememberSaveable { mutableStateOf(state.stagesReached) }
+    LaunchedEffect(state.stagesReached) {
+        if (state.stagesReached != stagesOpened) {
+            stagesOpened = state.stagesReached
+            openStage(state.stage)
+        }
+    }
     if (quizSetup) {
         state.book?.let { book ->
             PracticeSetupDialog(PracticeSource.Page(book.id, state.pageNumber), onStart = { setup -> quizSetup = false; onPractice(setup) }, onDismiss = { quizSetup = false })
         }
     }
-    flashcards?.let { ids -> flashcardsDialog?.invoke(ids) { flashcards = null; viewModel.refresh() } }
+    if (flashcards) flashcardsDialog?.invoke { flashcards = false; viewModel.refresh() }
     val unknownWords = remember(state.page) { BookStatsCalculator.calculate(state.items).distinctUnknowns }
     val scrollState = rememberScrollState()
     // A new page starts at its top; coming back to the screen (from the examples, say) keeps the place it was scrolled to.
@@ -762,6 +771,14 @@ private fun ReadingBody(
     LaunchedEffect(state.pageNumber) {
         if (scrolledPage != state.pageNumber) {
             scrolledPage = state.pageNumber
+            scrollState.scrollTo(0)
+        }
+    }
+    // Another stage starts at the top of the text too.
+    var scrolledStage by rememberSaveable { mutableStateOf(state.stage.name) }
+    LaunchedEffect(state.stage) {
+        if (scrolledStage != state.stage.name) {
+            scrolledStage = state.stage.name
             scrollState.scrollTo(0)
         }
     }

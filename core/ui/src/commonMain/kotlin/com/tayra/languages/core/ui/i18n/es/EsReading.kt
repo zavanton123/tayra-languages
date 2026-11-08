@@ -278,4 +278,5 @@ internal val esReading: Map<String, String> = mapOf(
     "Check: {0}" to "Marcar: {0}",
     "Stage {0} of {1}: {2}" to "Etapa {0} de {1}: {2}",
     "Tell the text again in the original, with only its translation in front of you." to "Vuelve a contar el texto en el idioma original, solo con su traducción delante.",
+    "Review today's flashcards without leaving the text." to "Repasa las tarjetas de hoy sin salir del texto.",
 )

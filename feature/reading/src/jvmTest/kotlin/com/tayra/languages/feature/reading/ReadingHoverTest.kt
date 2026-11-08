@@ -597,31 +597,26 @@ class ReadingHoverTest {
         assertEquals(1L, visited.filterIsInstance<com.tayra.languages.core.ui.navigation.Route.Terms>().single().bookId)
     }
 
-    /** The flashcards stage opens the cards of the page's words being learned over the text; with none, it says so. */
+    /** The flashcards stage opens the day's flashcards, as the Flashcards page has them, over the text. */
     @Test
-    fun theFlashcardsStageOpensThePagesCardsOverTheText() {
+    fun theFlashcardsStageOpensTheDaysCardsOverTheText() {
         val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
         val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
-        var opened by mutableStateOf<List<Long>?>(null)
+        var closeCards: (() -> Unit)? = null
         rule.setContent {
-            CompositionLocalProvider(LocalFlashcardsDialog provides { ids, onClose -> opened = ids; Box(Modifier.testTag("text-flashcards")) }) {
+            CompositionLocalProvider(LocalFlashcardsDialog provides { onClose -> closeCards = onClose; Box(Modifier.testTag("day-flashcards")) }) {
                 ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, onCourse = {}, viewModel = vm)
             }
         }
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-flashcards").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("stage-flashcards").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("No words on this page are being learned").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(null, opened)
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("day-flashcards").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(ReadingStage.FLASHCARDS, vm.state.value.stage)
-
-        vm.markToLearn(vm.index("lobo"))
-        rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "lobo" && it.status.isLearning } }
-        rule.onNodeWithTag("stage-action").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithTag("text-flashcards").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(listOfNotNull(runBlocking { termRepository.findByTextLc(languageId, "lobo") }?.id), opened)
         assertTrue(visited.isEmpty(), "the text is not left")
+        closeCards!!()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("day-flashcards").fetchSemanticsNodes().isEmpty() }
     }
 
     /** The vocabulary list a lesson opens over the reader. */
@@ -685,6 +680,12 @@ class ReadingHoverTest {
         for (checked in 1..ReadingStage.entries.size) {
             rule.onNodeWithTag("check-stage").performClick()
             rule.waitUntil(5_000) { vm.state.value.stages.size == checked || courses.size == 2 }
+            rule.waitForIdle()
+            // The words' stage opens its list by itself, which is closed to go on.
+            if (rule.onAllNodesWithTag("lesson-vocabulary-dialog").fetchSemanticsNodes().isNotEmpty()) {
+                rule.onNodeWithTag("close-terms-dialog").performClick()
+                rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-vocabulary-dialog").fetchSemanticsNodes().isEmpty() }
+            }
         }
         rule.waitUntil(5_000) { courses.size == 2 }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Lesson complete").fetchSemanticsNodes().isNotEmpty() }
@@ -710,6 +711,27 @@ class ReadingHoverTest {
             assertTrue(rule.onAllNodesWithTag(tool).fetchSemanticsNodes().isEmpty(), "a lesson has no $tool")
         }
         assertTrue(rule.onAllNodesWithText("Reader tools").fetchSemanticsNodes().isEmpty(), "a lesson's pane has no tools section")
+    }
+
+    /** Checking a stage opens the next one's dialog at once, the page's words here; another stage starts at the top of the text. */
+    @Test
+    fun theStageReachedByCheckingOpensItsDialogAtTheTop() {
+        val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
+        val long = (1..40).joinToString(" ") { "O lobo número $it dorme na floresta." }
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0]), paragraph = long, wordsPerPage = 1000) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, vocabularyList, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, onCourse = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-chain").fetchSemanticsNodes().isNotEmpty() }
+        vm.selectStage(ReadingStage.LISTEN)
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Stage 2 of 7: Listen").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNode(hasText("número 40 dorme", substring = true)).performScrollTo()
+        rule.waitForIdle()
+        assertTrue(rule.onNodeWithTag("stage-note").fetchSemanticsNode().boundsInRoot.bottom <= 0f, "scrolled down past the stage's note")
+
+        rule.onNodeWithTag("check-stage").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-vocabulary-dialog").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(ReadingStage.WORDS, vm.state.value.stage)
+        rule.waitUntil(5_000) { rule.onNodeWithTag("stage-note").fetchSemanticsNode().boundsInRoot.top > 0f }
     }
 
     /** The pane sorts its settings into Reading, Audio and Appearance tabs; a layout choice is saved as it is made. */
