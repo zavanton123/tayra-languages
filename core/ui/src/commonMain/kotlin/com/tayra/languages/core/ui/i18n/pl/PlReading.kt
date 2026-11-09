@@ -289,4 +289,8 @@ internal val plReading: Map<String, String> = mapOf(
     "Ready to review" to "Gotowe do powtórki",
     "Quiz answers" to "Odpowiedzi w quizie",
     "No answers yet" to "Brak odpowiedzi",
+    "Microphone active" to "Mikrofon aktywny",
+    "Sound detected" to "Wykryto dźwięk",
+    "No sound yet. Check the microphone." to "Brak dźwięku. Sprawdź mikrofon.",
+    "Speak now" to "Mów teraz",
 )

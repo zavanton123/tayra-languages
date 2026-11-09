@@ -289,4 +289,8 @@ internal val zhReading: Map<String, String> = mapOf(
     "Ready to review" to "可以复习",
     "Quiz answers" to "测验答案",
     "No answers yet" to "尚无作答",
+    "Microphone active" to "麦克风已开启",
+    "Sound detected" to "检测到声音",
+    "No sound yet. Check the microphone." to "还没有声音。请检查麦克风。",
+    "Speak now" to "请说话",
 )

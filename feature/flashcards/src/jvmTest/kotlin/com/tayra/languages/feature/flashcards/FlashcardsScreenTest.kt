@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.flashcards
 
+import kotlinx.coroutines.CompletableDeferred
 import androidx.compose.ui.test.onLast
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
@@ -157,7 +158,7 @@ class FlashcardsScreenTest {
                                 FlashcardsContent(
                                     state,
                                     speaker = if (withSpeaker) rememberSpeaker(LocalSpeech(emptyList()), settings) else null,
-                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onSkip = viewModel::skipCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, onTypeInstead = viewModel::typeInstead, onTryAgain = viewModel::tryAgain, onStudyMore = { studyingMore = true }, onEndPass = viewModel::endPass),
+                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onSkip = viewModel::skipCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, microphoneLevel = viewModel.microphoneLevel, onTypeInstead = viewModel::typeInstead, onTryAgain = viewModel::tryAgain, onStudyMore = { studyingMore = true }, onEndPass = viewModel::endPass),
                                     hotkeys = hotkeys,
                                 )
                             }
@@ -317,6 +318,38 @@ class FlashcardsScreenTest {
         onNodeWithTag("flashcard-typed").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Two) } }
         waitForIdle()
         assertEquals("co", viewModel.state.value.typed.take(2))
+    }
+
+    /** While listening, a meter shows the microphone is on and whether sound comes through it. */
+    @Test
+    fun theMicrophoneShowsItHearsSound() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val speech = LoudSpeech()
+        show(answerMode = AnswerMode.SPEAK, speech = speech)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("flashcard-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-microphone").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Microphone active").assertExists()
+        onNodeWithTag("microphone-status").assertTextEquals("Speak now")
+        speech.level.value = 0.7f
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Sound detected").fetchSemanticsNodes().isNotEmpty() }
+        save("FLASHCARD_MICROPHONE_SCREENSHOT")
+        speech.level.value = 0f
+        onNodeWithTag("flashcard-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-microphone").fetchSemanticsNodes().isEmpty() }
+    }
+
+    /** Listens until stopped, as loud as [level] says. */
+    private class LoudSpeech : SpeechRecognition {
+        override val level = MutableStateFlow(0f)
+        private val stopped = CompletableDeferred<Unit>()
+        override suspend fun isAvailable(languageCode: String) = true
+        override suspend fun listen(languageCode: String, hint: String?, longPauses: Boolean, onRecorded: () -> Unit): Heard {
+            stopped.await()
+            return Heard.Nothing
+        }
+        override fun stop() {
+            stopped.complete(Unit)
+        }
     }
 
     /** Hears [replies] in turn, keeping the hints it was given and whether it waited out long pauses. */

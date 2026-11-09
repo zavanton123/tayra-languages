@@ -7,6 +7,7 @@ import com.tayra.languages.core.domain.media.WhisperLanguages
 import com.tayra.languages.core.domain.practice.Heard
 import com.tayra.languages.core.domain.practice.SpeechRecognition
 import com.tayra.languages.core.domain.practice.SpeechRecognitionSetup
+import com.tayra.languages.core.domain.practice.levelOfDecibels
 import com.tayra.languages.core.domain.practice.RecognitionModel
 import com.tayra.languages.core.domain.practice.RecognitionQuality
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -29,6 +30,8 @@ import javax.sound.sampled.AudioFormat
 import javax.sound.sampled.AudioInputStream
 import javax.sound.sampled.AudioSystem
 import kotlin.coroutines.coroutineContext
+import kotlin.math.log10
+import kotlin.math.sqrt
 
 /**
  * Speech heard on the desktop: the microphone recorded until the learner pauses, then Whisper
@@ -47,6 +50,9 @@ class DesktopSpeechRecognition(
 
     @Volatile
     private var stopping = false
+
+    private val levelState = MutableStateFlow(0f)
+    override val level: StateFlow<Float> = levelState
 
     override suspend fun isAvailable(languageCode: String): Boolean = whisperCode(languageCode) != null && downloadedModel() != null && runtimeReady()
 
@@ -158,6 +164,7 @@ class DesktopSpeechRecognition(
                 coroutineContext.ensureActive()
                 val read = line.read(chunk, 0, chunk.size)
                 if (read <= 0) continue
+                levelState.value = levelOf(chunk, read)
                 pcm.write(chunk, 0, read)
                 val state = endpoint.add(chunk, read)
                 when {
@@ -166,9 +173,22 @@ class DesktopSpeechRecognition(
                 }
             }
         } finally {
+            levelState.value = 0f
             line.stop()
             line.close()
         }
+    }
+
+    /** How loud [read] bytes of 16-bit little-endian samples are, as a [level]. */
+    private fun levelOf(chunk: ByteArray, read: Int): Float {
+        var sum = 0.0
+        val samples = read / 2
+        for (i in 0 until samples) {
+            val sample = (chunk[2 * i].toInt() and 0xFF) or (chunk[2 * i + 1].toInt() shl 8)
+            sum += sample.toDouble() * sample
+        }
+        val rms = sqrt(sum / samples.coerceAtLeast(1)) / Short.MAX_VALUE
+        return levelOfDecibels(if (rms > 0) (20 * log10(rms)).toFloat() else -100f)
     }
 
     /** The faster-whisper name of the model that hears (see [downloadedModel]), and the folder of the models, for the video transcriber. */

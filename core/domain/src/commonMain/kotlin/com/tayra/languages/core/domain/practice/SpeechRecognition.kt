@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.practice
 
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlin.coroutines.cancellation.CancellationException
 
@@ -22,7 +23,21 @@ interface SpeechRecognition {
 
     /** Stops listening early; [listen] then returns what was heard so far. */
     fun stop() {}
+
+    /**
+     * How loud the microphone is while [listen] hears it, from 0 for silence to 1 for loud speech,
+     * so the learner can see they are heard; 0 while not listening, or where it cannot be told.
+     */
+    val level: StateFlow<Float> get() = NO_LEVEL
 }
+
+private val NO_LEVEL: StateFlow<Float> = MutableStateFlow(0f)
+
+/** [decibels] relative to full scale as a [SpeechRecognition.level]: quiet rooms near 0, speech up near 1. */
+fun levelOfDecibels(decibels: Float): Float = ((decibels - QUIET_DB) / (LOUD_DB - QUIET_DB)).coerceIn(0f, 1f)
+
+private const val QUIET_DB = -55f
+private const val LOUD_DB = -12f
 
 /** The words of a [SpeechRecognition.listen] hint, for recognisers that take words rather than a sentence. */
 fun hintWords(hint: String?): List<String> =

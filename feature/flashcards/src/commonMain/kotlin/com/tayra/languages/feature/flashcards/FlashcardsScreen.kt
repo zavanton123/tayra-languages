@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.flashcards
 
+import kotlinx.coroutines.flow.StateFlow
 import com.tayra.languages.core.ui.components.Confetti
 import androidx.compose.material.icons.filled.Close
 import com.tayra.languages.core.ui.components.FreshViewModels
@@ -233,6 +234,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onAnswerMode = viewModel::setAnswerMode,
                 onListen = { microphone { allowed -> if (allowed) viewModel.listen() else viewModel.refuseSpeaking() } },
                 onStopListening = viewModel::stopListening,
+                microphoneLevel = viewModel.microphoneLevel,
                 onTypeInstead = viewModel::typeInstead,
                 onTryAgain = viewModel::tryAgain,
                 onStudyMore = { studyingMore = true },
@@ -296,6 +298,8 @@ internal class FlashcardActions(
     /** Listens to the sentence said aloud, the microphone allowed. */
     val onListen: () -> Unit = {},
     val onStopListening: () -> Unit = {},
+    /** How loud the microphone is while the sentence is heard. */
+    val microphoneLevel: StateFlow<Float>? = null,
     /** Types the card's word instead of saying it. */
     val onTypeInstead: () -> Unit = {},
     /** Asks a card typed or said wrongly again. */
@@ -913,6 +917,7 @@ private fun AnswerGiven(state: FlashcardsUiState, actions: FlashcardActions, com
             modifier = Modifier.padding(top = if (compact) AppSpacing.l else AppSpacing.xl),
             rightToLeft = card.rightToLeft,
             buttonModifier = NoFocus,
+            level = actions.microphoneLevel,
         )
         state.revealed && state.spokenResult != null -> SpokenVerdict(card.sentence ?: hidden, state.heard, state.spokenResult, compact)
         state.typing -> {

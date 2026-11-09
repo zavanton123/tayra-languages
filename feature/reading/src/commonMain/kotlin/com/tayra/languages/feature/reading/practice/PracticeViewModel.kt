@@ -133,6 +133,10 @@ class PracticeViewModel(
     private val random: Random = Random.Default,
 ) : ViewModel() {
 
+    /** How loud the microphone is while an answer is heard; null where none can be. */
+    val microphoneLevel: StateFlow<Float>? = speech?.level
+
+
     private val pageNumber: Int? = (source as? PracticeSource.Page)?.page
     private val wholeBook = source is PracticeSource.Book
 

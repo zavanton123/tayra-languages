@@ -1,5 +1,7 @@
 package com.tayra.languages.core.data.speech
 
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.MutableStateFlow
 import android.Manifest
 import android.content.Context
 import android.content.Intent
@@ -25,6 +27,9 @@ import kotlinx.coroutines.withContext
  */
 class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition {
     private var recognizer: SpeechRecognizer? = null
+
+    private val levelState = MutableStateFlow(0f)
+    override val level: StateFlow<Float> = levelState
 
     override suspend fun isAvailable(languageCode: String): Boolean = withContext(Dispatchers.Main) { SpeechRecognizer.isRecognitionAvailable(context) }
 
@@ -55,6 +60,7 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
         recognizer = heard
         var partial = ""
         fun finish(attempt: Attempt) {
+            levelState.value = 0f
             if (recognizer === heard) recognizer = null
             heard.destroy()
             if (done.isActive) done.resume(attempt)
@@ -83,7 +89,10 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
 
             override fun onReadyForSpeech(params: Bundle?) {}
             override fun onBeginningOfSpeech() {}
-            override fun onRmsChanged(rmsdB: Float) {}
+            // The recogniser's own scale runs from about -2 in silence to 10 for loud speech.
+            override fun onRmsChanged(rmsdB: Float) {
+                levelState.value = ((rmsdB - QUIET_RMS_DB) / (LOUD_RMS_DB - QUIET_RMS_DB)).coerceIn(0f, 1f)
+            }
             override fun onBufferReceived(buffer: ByteArray?) {}
             override fun onEndOfSpeech() = onRecorded()
             override fun onEvent(eventType: Int, params: Bundle?) {}
@@ -104,6 +113,7 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
         done.invokeOnCancellation {
             // The recogniser is the main thread's alone.
             Handler(Looper.getMainLooper()).post {
+                levelState.value = 0f
                 if (recognizer === heard) recognizer = null
                 heard.cancel()
                 heard.destroy()
@@ -111,6 +121,9 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
         }
     }
 }
+
+private const val QUIET_RMS_DB = -2f
+private const val LOUD_RMS_DB = 10f
 
 /** How long a pause in a sentence read aloud is waited out. */
 private const val LONG_PAUSE_MS = 2_500L

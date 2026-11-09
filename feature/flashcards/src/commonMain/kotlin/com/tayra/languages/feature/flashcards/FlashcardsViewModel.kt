@@ -203,6 +203,9 @@ class FlashcardsViewModel(
     private val speech: SpeechRecognition? = null,
 ) : ViewModel(), StudyMoreCounts {
 
+    /** How loud the microphone is while the sentence is heard; null where none can be. */
+    val microphoneLevel: StateFlow<Float>? = speech?.level
+
     private val _state = MutableStateFlow(FlashcardsUiState())
     val state: StateFlow<FlashcardsUiState> = _state.asStateFlow()
     val events = UiEvents<FlashcardsEvent>()

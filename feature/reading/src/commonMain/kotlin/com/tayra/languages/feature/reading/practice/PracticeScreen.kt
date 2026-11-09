@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading.practice
 
+import kotlinx.coroutines.flow.StateFlow
 import com.tayra.languages.core.ui.components.EdgeScrollbar
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
@@ -183,6 +184,7 @@ fun PracticeScreen(
                     microphone { allowed -> if (allowed) viewModel.listen() else viewModel.refuseSpeaking() }
                 },
                 onStopListening = viewModel::stopListening,
+                microphoneLevel = viewModel.microphoneLevel,
                 onTypeInstead = viewModel::typeInstead,
                 onFixTranslation = { fixing = it },
                 onReadAloud = { on ->
@@ -247,6 +249,8 @@ internal class PracticeActions(
     val onListen: () -> Unit = {},
     val onStopListening: () -> Unit = {},
     val onTypeInstead: () -> Unit = {},
+    /** How loud the microphone is while the answer is heard. */
+    val microphoneLevel: StateFlow<Float>? = null,
     /** Opens the word's editor to put its translation right; null hides the way to it. */
     val onFixTranslation: ((Exercise) -> Unit)? = null,
     /** Turns reading each sentence aloud on or off; null hides the switch. */
@@ -703,6 +707,7 @@ private fun SpokenAnswer(state: PracticeUiState, actions: PracticeActions) {
         onTypeInstead = actions.onTypeInstead,
         tag = "practice",
         rightToLeft = state.rightToLeft,
+        level = actions.microphoneLevel,
     )
 }
 

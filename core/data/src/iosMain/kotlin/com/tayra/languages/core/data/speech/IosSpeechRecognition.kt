@@ -3,6 +3,13 @@ package com.tayra.languages.core.data.speech
 import com.tayra.languages.core.domain.practice.Heard
 import com.tayra.languages.core.domain.practice.SpeechRecognition
 import com.tayra.languages.core.domain.practice.hintWords
+import com.tayra.languages.core.domain.practice.levelOfDecibels
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.cinterop.get
+import kotlin.math.log10
+import kotlin.math.sqrt
+import platform.AVFAudio.AVAudioPCMBuffer
 import kotlin.coroutines.resume
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.milliseconds
@@ -35,6 +42,9 @@ import platform.Speech.SFSpeechRecognizerAuthorizationStatus.SFSpeechRecognizerA
 class IosSpeechRecognition : SpeechRecognition {
     private var stopping = false
 
+    private val levelState = MutableStateFlow(0f)
+    override val level: StateFlow<Float> = levelState
+
     override suspend fun isAvailable(languageCode: String): Boolean = withContext(Dispatchers.Main) {
         val status = SFSpeechRecognizer.authorizationStatus()
         val allowed = status == SFSpeechRecognizerAuthorizationStatusAuthorized || status == SFSpeechRecognizerAuthorizationStatusNotDetermined
@@ -62,7 +72,12 @@ class IosSpeechRecognition : SpeechRecognition {
         request.requiresOnDeviceRecognition = recognizer.supportsOnDeviceRecognition
         // The words expected, which the recogniser leans towards.
         request.contextualStrings = hintWords(hint)
-        input.installTapOnBus(0u, bufferSize = 1024u, format = input.outputFormatForBus(0u)) { buffer, _ -> buffer?.let(request::appendAudioPCMBuffer) }
+        input.installTapOnBus(0u, bufferSize = 1024u, format = input.outputFormatForBus(0u)) { buffer, _ ->
+            buffer?.let {
+                request.appendAudioPCMBuffer(it)
+                levelState.value = levelOf(it)
+            }
+        }
         val updates = Channel<Update>(Channel.UNLIMITED)
         val task = recognizer.recognitionTaskWithRequest(request) { result, error ->
             updates.trySend(Update(result?.bestTranscription?.formattedString.orEmpty(), done = result?.isFinal() == true || error != null))
@@ -73,6 +88,7 @@ class IosSpeechRecognition : SpeechRecognition {
             if (!engine.startAndReturnError(null)) return@withContext Heard.Failed
             hear(updates, if (longPauses) LONG_PAUSE else PAUSE) { engine.stop(); request.endAudio(); onRecorded() }
         } finally {
+            levelState.value = 0f
             engine.stop()
             input.removeTapOnBus(0u)
             task.cancel()
@@ -82,6 +98,21 @@ class IosSpeechRecognition : SpeechRecognition {
 
     override fun stop() {
         stopping = true
+    }
+
+    /** How loud the first channel of [buffer] is, as a [level]. */
+    @OptIn(ExperimentalForeignApi::class)
+    private fun levelOf(buffer: AVAudioPCMBuffer): Float {
+        val samples = buffer.floatChannelData?.get(0) ?: return 0f
+        val count = buffer.frameLength.toInt()
+        if (count == 0) return 0f
+        var sum = 0.0
+        for (i in 0 until count) {
+            val sample = samples[i].toDouble()
+            sum += sample * sample
+        }
+        val rms = sqrt(sum / count)
+        return levelOfDecibels(if (rms > 0) (20 * log10(rms)).toFloat() else -100f)
     }
 
     private class Update(val text: String, val done: Boolean)
