@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.flashcards
 
+import androidx.compose.ui.test.onLast
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Clock
@@ -709,7 +710,14 @@ class FlashcardsScreenTest {
         // Space shows the answer, and Space again answers Good.
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Spacebar) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+        // The last card answered sets off fireworks, caught in flight with the clock held.
+        mainClock.autoAdvance = false
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Spacebar) }
+        repeat(200) { if (onAllNodesWithText("All done for today").fetchSemanticsNodes().isEmpty()) { Thread.sleep(20); mainClock.advanceTimeByFrame() } }
+        mainClock.advanceTimeBy(700)
+        onNodeWithTag("confetti").assertExists()
+        System.getenv("FLASHCARD_CONFETTI_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", File(it)) }
+        mainClock.autoAdvance = true
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("All done for today").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(TermStatus.NEW_2, status(), "the card now waits a day or more")
         onNodeWithText("1 of 1 answered").assertExists()

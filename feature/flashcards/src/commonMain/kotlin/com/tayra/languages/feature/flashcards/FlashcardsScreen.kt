@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.flashcards
 
+import com.tayra.languages.core.ui.components.Confetti
 import androidx.compose.material.icons.filled.Close
 import com.tayra.languages.core.ui.components.FreshViewModels
 import com.tayra.languages.core.ui.components.AppDialogSurface
@@ -211,6 +212,8 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
         FlashcardsContent(
             state = state,
             speaker = speaker,
+            // A lesson's dialog has its own fireworks, once the lesson is done.
+            celebrate = onClose == null,
             hotkeys = viewModel.hotkeys,
             actions = FlashcardActions(
                 onReveal = viewModel::reveal,
@@ -323,8 +326,19 @@ internal val Rating.tint: Color
  * shortcuts back to the previous card and to the card's sound. [overlay] says a dialog over the page has the keys.
  */
 @Composable
-internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier, hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults, overlay: Boolean = false) {
+internal fun FlashcardsContent(
+    state: FlashcardsUiState,
+    speaker: Speaker?,
+    actions: FlashcardActions,
+    modifier: Modifier = Modifier,
+    hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
+    overlay: Boolean = false,
+    /** Fireworks once the day's cards are all answered. */
+    celebrate: Boolean = true,
+) {
     val compact = LocalWindowWidth.current.isCompact
+    val finished = state.card == null && state.nextLearningAt == null && state.answered > 0 && state.pass == null
+    if (celebrate && finished) Confetti()
     val focus = remember { FocusRequester() }
     // The page holds the keys: it takes them with each card and answer, back when the window or the screen returns to the front, and when a dialog over it closes.
     // While the word is typed, its field has them instead.
