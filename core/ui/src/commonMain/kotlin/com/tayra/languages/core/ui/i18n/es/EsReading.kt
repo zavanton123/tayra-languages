@@ -289,7 +289,6 @@ internal val esReading: Map<String, String> = mapOf(
     "Ready to review" to "Listas para repasar",
     "Quiz answers" to "Respuestas del cuestionario",
     "No answers yet" to "Aún no hay respuestas",
-    "Microphone active" to "Micrófono activo",
     "Sound detected" to "Se detecta sonido",
     "No sound yet. Check the microphone." to "Aún no hay sonido. Revisa el micrófono.",
     "Speak now" to "Habla ahora",

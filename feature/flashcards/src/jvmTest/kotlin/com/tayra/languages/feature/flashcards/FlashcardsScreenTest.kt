@@ -328,7 +328,7 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("flashcard-speak").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-microphone").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Microphone active").assertExists()
+        onNodeWithText("Listening…").assertExists()
         onNodeWithTag("microphone-status").assertTextEquals("Speak now")
         speech.level.value = 0.7f
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Sound detected").fetchSemanticsNodes().isNotEmpty() }

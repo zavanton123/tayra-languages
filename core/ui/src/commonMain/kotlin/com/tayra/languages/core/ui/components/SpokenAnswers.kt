@@ -1,16 +1,39 @@
 package com.tayra.languages.core.ui.components
 
+import kotlin.math.abs
+import kotlin.math.sin
+import kotlin.math.PI
+import com.tayra.languages.core.ui.theme.AppElevation
+import com.tayra.languages.core.ui.theme.AppMotion
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.Color
+import androidx.compose.material.icons.filled.Warning
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.Icons
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.BoxWithConstraints
+import androidx.compose.material3.Icon
+import androidx.compose.ui.input.pointer.pointerHoverIcon
+import androidx.compose.ui.input.pointer.PointerIcon
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.Role
+import androidx.compose.foundation.clickable
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppAlpha
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.draw.clip
-import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.border
@@ -48,9 +71,9 @@ import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 
 /**
- * An answer said aloud: a button to start and stop hearing it, what was [heard] or why it is to be
- * said again, and the way to type it instead. Its parts are tagged "[tag]-speak", "[tag]-heard"
- * and "[tag]-type-instead".
+ * An answer said aloud: a button to start hearing it, and while it is heard a round, pulsing one
+ * to stop; what was [heard] or why it is to be said again, and the way to type it instead. Its
+ * parts are tagged "[tag]-speak", "[tag]-heard" and "[tag]-type-instead".
  */
 @Composable
 fun SpeakAnswer(
@@ -71,13 +94,11 @@ fun SpeakAnswer(
 ) {
     Column(modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         if (!answered && !recognising) {
-            PrimaryButton(
-                if (listening) tr("Stop") else tr("Speak"),
-                onClick = if (listening) onStop else onListen,
-                icon = AppIcons.Mic,
-                size = ButtonSize.Large,
-                modifier = buttonModifier.testTag("$tag-speak"),
-            )
+            if (listening) {
+                StopListeningButton(onStop, buttonModifier.testTag("$tag-speak"))
+            } else {
+                PrimaryButton(tr("Speak"), onClick = onListen, icon = AppIcons.Mic, size = ButtonSize.Large, modifier = buttonModifier.testTag("$tag-speak"))
+            }
         }
         if (listening && level != null) MicrophoneMeter(level, Modifier.testTag("$tag-microphone"))
         val note = when {
@@ -104,15 +125,52 @@ fun SpeakAnswer(
 }
 
 /**
- * The microphone while it is listened to: a dot that it is on, a row of bars rising with the sound
- * just heard, and whether any came through, so silence from the wrong or a muted microphone shows
- * at once.
+ * The round button that ends listening. It breathes and sends rings out while the microphone is
+ * on, so the way to finish is plain; it keeps still when motion is reduced.
+ */
+@Composable
+private fun StopListeningButton(onStop: () -> Unit, modifier: Modifier = Modifier) {
+    val colors = MaterialTheme.colorScheme
+    val reduced = AppMotion.reduced
+    val beat by rememberInfiniteTransition().animateFloat(0f, 1f, infiniteRepeatable(tween(PULSE_MS, easing = LinearEasing)))
+    val stop = tr("Stop")
+    Box(Modifier.size(STOP_ROOM), contentAlignment = Alignment.Center) {
+        if (!reduced) {
+            for (offset in RING_OFFSETS) {
+                val ring = (beat + offset) % 1f
+                Box(
+                    Modifier.size(STOP_SIZE).graphicsLayer {
+                        val scale = 1f + (RING_SCALE - 1f) * ring
+                        scaleX = scale
+                        scaleY = scale
+                        alpha = RING_ALPHA * (1f - ring)
+                    }.clip(AppShapes.circle).background(colors.primary),
+                )
+            }
+        }
+        val breath = if (reduced) 1f else 1f + BREATH * sin(beat * 2f * PI.toFloat())
+        Box(
+            modifier.size(STOP_SIZE).graphicsLayer { scaleX = breath; scaleY = breath }
+                .shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.primary)
+                .clickable(role = Role.Button, onClick = onStop).pointerHoverIcon(PointerIcon.Hand)
+                .semantics { contentDescription = stop },
+            contentAlignment = Alignment.Center,
+        ) {
+            Box(Modifier.size(STOP_MARK).clip(AppShapes.compact).background(colors.onPrimary))
+        }
+    }
+}
+
+/**
+ * The microphone while it is listened to, in one pill: a dot and "Listening", a wave rising from
+ * its middle with the sound just heard, and whether any came through, so silence from the wrong
+ * or a muted microphone shows at once. On a narrow screen the three stack.
  */
 @Composable
 fun MicrophoneMeter(level: StateFlow<Float>, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
-    // The latest levels, oldest first; the bars move along as new ones come in.
-    var history by remember { mutableStateOf(List(METER_BARS) { 0f }) }
+    // The latest levels, oldest first; the newest is drawn in the wave's middle and older ones move outward.
+    var history by remember { mutableStateOf(List(WAVE_HALF) { 0f }) }
     var heardSound by remember { mutableStateOf(false) }
     var waited by remember { mutableStateOf(0L) }
     LaunchedEffect(level) {
@@ -124,43 +182,87 @@ fun MicrophoneMeter(level: StateFlow<Float>, modifier: Modifier = Modifier) {
             delay(METER_TICK_MS)
         }
     }
-    val sounding = history.takeLast(RECENT_BARS).any { it >= SOUND_LEVEL }
-    val (status, tint) = when {
-        sounding -> tr("Sound detected") to AppAccents.green
-        !heardSound && waited >= SILENCE_WARNING_MS -> tr("No sound yet. Check the microphone.") to AppAccents.amber
-        else -> tr("Speak now") to colors.onSurfaceVariant
+    val sounding = history.takeLast(RECENT_LEVELS).any { it >= SOUND_LEVEL }
+    val status = when {
+        sounding -> MeterStatus(tr("Sound detected"), AppAccents.green, Icons.Default.CheckCircle)
+        !heardSound && waited >= SILENCE_WARNING_MS -> MeterStatus(tr("No sound yet. Check the microphone."), AppAccents.amber, Icons.Default.Warning)
+        else -> MeterStatus(tr("Speak now"), colors.onSurfaceVariant, AppIcons.Mic)
     }
-    Column(
-        modifier.widthIn(max = METER_WIDTH).fillMaxWidth().clip(AppShapes.panel).background(colors.primary.copy(alpha = AppAlpha.wash))
-            .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.line)), AppShapes.panel).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
-    ) {
-        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            StatusDot(AppAccents.green, size = AppSizes.dotLarge)
-            Text(tr("Microphone active"), style = AppText.itemTitle, modifier = Modifier.weight(1f))
-            Row(Modifier.height(BAR_HEIGHT), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(BAR_GAP)) {
-                history.forEach { value ->
-                    // A quiet bar keeps a stub, so the row reads as a meter even in silence.
-                    val height by animateFloatAsState(MIN_BAR + (1f - MIN_BAR) * value, tween(METER_TICK_MS.toInt()))
-                    Box(Modifier.width(BAR_WIDTH).fillMaxHeight(height).clip(AppShapes.small).background(colors.primary))
-                }
+    BoxWithConstraints(modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+        val wide = maxWidth >= METER_ROW_WIDTH
+        val shape = if (wide) AppShapes.pill else AppShapes.panel
+        val pill = Modifier.clip(shape).background(colors.primary.copy(alpha = AppAlpha.wash))
+            .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.line)), shape)
+            .padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.m)
+        if (wide) {
+            Row(pill, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl)) {
+                ListeningLabel()
+                Wave(history)
+                MeterStatusText(status, Modifier.weight(1f, fill = false))
+            }
+        } else {
+            Column(pill, horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                ListeningLabel()
+                Wave(history)
+                MeterStatusText(status)
             }
         }
-        Text(status, style = AppText.emphasis, color = tint, modifier = Modifier.testTag("microphone-status"))
     }
 }
 
-private const val METER_BARS = 16
-private const val RECENT_BARS = 6
+private class MeterStatus(val text: String, val tint: Color, val icon: ImageVector)
+
+@Composable
+private fun ListeningLabel() {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        StatusDot(AppAccents.green, size = AppSizes.dotXLarge)
+        Text(tr("Listening…"), style = AppText.itemTitle)
+    }
+}
+
+@Composable
+private fun MeterStatusText(status: MeterStatus, modifier: Modifier = Modifier) {
+    Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        Icon(status.icon, contentDescription = null, tint = status.tint, modifier = Modifier.size(AppSizes.iconMedium))
+        Text(status.text, style = AppText.emphasis, color = status.tint, modifier = Modifier.testTag("microphone-status"))
+    }
+}
+
+/**
+ * The levels in [history] as a wave: the newest in the middle, older ones mirrored outward and
+ * tapering to dots at the ends, so it reads as a voice's wave and a quiet microphone as a row of dots.
+ */
+@Composable
+private fun Wave(history: List<Float>) {
+    val color = AppAccents.onWash(AppAccents.blue)
+    Row(Modifier.height(WAVE_HEIGHT), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(BAR_GAP)) {
+        for (bar in -(WAVE_HALF - 1)..(WAVE_HALF - 1)) {
+            val fromMiddle = abs(bar)
+            val taper = 1f - (fromMiddle.toFloat() / WAVE_HALF).let { it * it }
+            val target = history[history.lastIndex - fromMiddle] * taper
+            val rise by animateFloatAsState(target, tween(METER_TICK_MS.toInt()))
+            Box(Modifier.width(BAR_WIDTH).height(BAR_WIDTH + (WAVE_HEIGHT - BAR_WIDTH) * rise).clip(AppShapes.pill).background(color))
+        }
+    }
+}
+
+private const val WAVE_HALF = 10
+private const val RECENT_LEVELS = 6
 private const val METER_TICK_MS = 80L
 private const val SILENCE_WARNING_MS = 3_000L
 private const val SOUND_LEVEL = 0.2f
-private const val MIN_BAR = 0.15f
-private val METER_WIDTH = 480.dp
-private val BAR_HEIGHT = 28.dp
+private const val PULSE_MS = 1_600
+private const val RING_SCALE = 1.35f
+private const val RING_ALPHA = 0.3f
+private const val BREATH = 0.04f
+private val RING_OFFSETS = listOf(0f, 0.5f)
+private val STOP_SIZE = 88.dp
+private val STOP_MARK = 30.dp
+private val STOP_ROOM = 120.dp
+private val METER_ROW_WIDTH = 520.dp
+private val WAVE_HEIGHT = 36.dp
 private val BAR_WIDTH = 4.dp
-private val BAR_GAP = 3.dp
+private val BAR_GAP = 4.dp
 
 /** The sentence [expected], word by word as it was typed or heard: right, right but for accents, wrong (with what was given), or missing. */
 @Composable

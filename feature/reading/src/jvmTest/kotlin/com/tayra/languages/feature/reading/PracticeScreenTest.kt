@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.assertIsEnabled
 import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.performKeyInput
@@ -659,7 +660,7 @@ class PracticeScreenTest {
         speech.answer = { Heard.Words(words.filterIndexed { i, _ -> i != missed }.joinToString(" ")) }
         onNodeWithTag("practice-speak").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Listening…").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Stop").performClick()
+        onNodeWithContentDescription("Stop").performClick()
         // Spoken, and being made out: no button to press meanwhile.
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Recognising…").fetchSemanticsNodes().isNotEmpty() }
         onAllNodesWithTag("practice-speak").fetchSemanticsNodes().let { assertTrue(it.isEmpty()) }

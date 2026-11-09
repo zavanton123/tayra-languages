@@ -289,7 +289,6 @@ internal val frReading: Map<String, String> = mapOf(
     "Ready to review" to "Prêtes à réviser",
     "Quiz answers" to "Réponses au quiz",
     "No answers yet" to "Pas encore de réponses",
-    "Microphone active" to "Micro actif",
     "Sound detected" to "Son détecté",
     "No sound yet. Check the microphone." to "Aucun son pour l’instant. Vérifiez le micro.",
     "Speak now" to "Parlez maintenant",

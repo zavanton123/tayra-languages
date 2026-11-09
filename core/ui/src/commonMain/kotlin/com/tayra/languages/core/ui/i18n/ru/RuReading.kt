@@ -289,7 +289,6 @@ internal val ruReading: Map<String, String> = mapOf(
     "Ready to review" to "Готовы к повторению",
     "Quiz answers" to "Ответы в квизе",
     "No answers yet" to "Ответов пока нет",
-    "Microphone active" to "Микрофон включён",
     "Sound detected" to "Звук слышен",
     "No sound yet. Check the microphone." to "Звука пока нет. Проверьте микрофон.",
     "Speak now" to "Говорите",
