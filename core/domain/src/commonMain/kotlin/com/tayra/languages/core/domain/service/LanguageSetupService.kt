@@ -72,6 +72,10 @@ data class SetupItem(
     val engine: String? = null,
     /** The size of a voice's own data inside a model it shares with others, already part of that model's size. */
     val voiceSizeBytes: Long? = null,
+    /** What it takes on the device once installed, when known. */
+    val onDeviceBytes: Long? = null,
+    /** Whether a voice comes in a model it shares with the engine's other voices (Kokoro), so removing one removes them all. */
+    val sharedModel: Boolean = false,
 ) {
     /** The size of the files whose size is known; null when none is. */
     val sizeBytes: Long? get() = files.mapNotNull { it.sizeBytes }.takeIf { it.isNotEmpty() }?.sum()
@@ -108,6 +112,7 @@ class LanguageSetupService(
     private val scope: CoroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.Default),
 ) {
     private val actions = mutableMapOf<String, suspend () -> Unit>()
+    private val removals = mutableMapOf<String, suspend () -> Unit>()
 
     private val _states = MutableStateFlow<Map<String, SetupState>>(emptyMap())
 
@@ -162,6 +167,28 @@ class LanguageSetupService(
         }
     }
 
+    /** Whether [item] is on the device and can be removed from it. */
+    fun canRemove(item: SetupItem): Boolean = item.status == SetupStatus.INSTALLED && item.id in removals
+
+    /**
+     * Removes the installed [item] in the background: its state is [SetupState.Running] meanwhile,
+     * dropped once it is gone, or [SetupState.Failed].
+     */
+    fun remove(item: SetupItem) {
+        val action = removals[item.id]?.takeIf { canRemove(item) } ?: return
+        set(item.id, SetupState.Running(null))
+        scope.launch {
+            try {
+                action()
+                _states.update { it - item.id }
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                set(item.id, SetupState.Failed(e.message ?: e.toString()))
+            }
+        }
+    }
+
     private fun set(id: String, state: SetupState) = _states.update { it + (id to state) }
 
     private fun settled(kind: SetupKind, language: String, name: String, status: SetupStatus) =
@@ -169,6 +196,11 @@ class LanguageSetupService(
 
     private fun register(item: SetupItem, action: suspend () -> Unit): SetupItem {
         actions[item.id] = action
+        return item
+    }
+
+    private fun registerRemoval(item: SetupItem, action: suspend () -> Unit): SetupItem {
+        removals[item.id] = action
         return item
     }
 
@@ -239,12 +271,17 @@ class LanguageSetupService(
             val id = if (held.isEmpty()) "voice:${engine.engine.name}:${pkg.id}" else "voice:${engine.engine.name}:${pkg.id}:${voice.id}"
             val title = "${engine.displayName} \u00b7 ${voice.name}"
             if (pkg.installed && ready) {
-                return@map SetupItem(id, SetupKind.VOICE, name, title, emptyList(), recommended = false, status = SetupStatus.INSTALLED, engine = engine.displayName, voiceSizeBytes = voice.sizeBytes)
+                val installed = SetupItem(
+                    id, SetupKind.VOICE, name, title, emptyList(), recommended = false, status = SetupStatus.INSTALLED, engine = engine.displayName,
+                    voiceSizeBytes = voice.sizeBytes, onDeviceBytes = pkg.sizeBytes.takeIf { it > 0 }, sharedModel = held.isNotEmpty(),
+                )
+                return@map registerRemoval(installed) { engine.removePackage(pkg.id) }
             }
             val files = listOfNotNull(runtimeFile, download.takeIf { !pkg.installed })
             val item = SetupItem(
                 id, SetupKind.VOICE, name, title, files,
                 recommended = true, switchesEngine = switches, engine = engine.displayName, voiceSizeBytes = voice.sizeBytes.takeIf { held.isNotEmpty() },
+                sharedModel = held.isNotEmpty(),
             )
             register(item) {
                 if (engine.hasRuntimeSetup && !engine.isReady()) engine.setUp()
@@ -273,7 +310,7 @@ class LanguageSetupService(
         val translator = translation.translator ?: return null
         val nativeName = LanguageCodes.option(native)?.name ?: native
         val pair = "${translator.displayName} · $name \u2192 $nativeName"
-        if (runCatching { translator.canTranslate(code, native) }.getOrDefault(false)) return settled(SetupKind.TRANSLATION, name, pair, SetupStatus.INSTALLED)
+        if (runCatching { translator.canTranslate(code, native) }.getOrDefault(false)) return installedTranslation(translator, code, native, name, pair)
         val catalog = runCatching { translator.packages() }.getOrNull()
         val runtime = translator.hasRuntimeSetup && catalog == null
         if (catalog == null && !runtime) return null
@@ -299,6 +336,19 @@ class LanguageSetupService(
         }
     }
 
+    /** The pair's models on the device, removable when the translator lists them. */
+    private suspend fun installedTranslation(translator: LocalSentenceTranslator, code: String, native: String, name: String, pair: String): SetupItem {
+        val catalog = runCatching { translator.packages() }.getOrNull().orEmpty()
+        val keys = translator.requiredPackages(code, native, catalog)
+        val models = catalog.filter { it.key in keys && it.installed }
+        val item = SetupItem(
+            "translation:$code-$native", SetupKind.TRANSLATION, name, pair, emptyList(), recommended = false, status = SetupStatus.INSTALLED,
+            onDeviceBytes = models.sumOf { it.sizeBytes }.takeIf { it > 0 },
+        )
+        if (models.isEmpty()) return item
+        return registerRemoval(item) { models.forEach { translator.removePackage(it.fromCode, it.toCode) } }
+    }
+
     /**
      * A speech recognition model of each quality, the medium one ticked, as the high one is large and
      * slower; the runtime both run on is a file of each, counted once. The first one downloaded hears,
@@ -310,7 +360,13 @@ class LanguageSetupService(
         val models = runCatching { setup.models() }.getOrNull() ?: return emptyList()
         return models.map { model ->
             val quality = model.quality.name
-            if (model.installed) return@map SetupItem("recognition:${quality.lowercase()}", SetupKind.RECOGNITION, name, quality, emptyList(), recommended = false, status = SetupStatus.INSTALLED)
+            if (model.installed) {
+                val installed = SetupItem(
+                    "recognition:${quality.lowercase()}", SetupKind.RECOGNITION, name, quality, emptyList(), recommended = false, status = SetupStatus.INSTALLED,
+                    onDeviceBytes = model.downloadSize.takeIf { it > 0 },
+                )
+                return@map registerRemoval(installed) { setup.remove(model.quality) }
+            }
             val files = listOfNotNull(
                 SetupFile(SetupFileKind.ENGINE, RECOGNIZER, model.runtimeSize, estimated = true).takeIf { model.runtimeSize > 0 },
                 SetupFile(SetupFileKind.MODEL, listOf(RECOGNIZER, model.name).filter { it.isNotEmpty() }.joinToString(" "), model.downloadSize - model.runtimeSize),
