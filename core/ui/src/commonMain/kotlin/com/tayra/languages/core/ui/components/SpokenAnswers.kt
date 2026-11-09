@@ -1,5 +1,8 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.foundation.interaction.collectIsPressedAsState
+import androidx.compose.foundation.interaction.collectIsHoveredAsState
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import kotlin.math.abs
 import kotlin.math.sin
 import kotlin.math.PI
@@ -97,7 +100,7 @@ fun SpeakAnswer(
             if (listening) {
                 StopListeningButton(onStop, buttonModifier.testTag("$tag-speak"))
             } else {
-                PrimaryButton(tr("Speak"), onClick = onListen, icon = AppIcons.Mic, size = ButtonSize.Large, modifier = buttonModifier.testTag("$tag-speak"))
+                SpeakButton(onListen, buttonModifier.testTag("$tag-speak"))
             }
         }
         if (listening && level != null) MicrophoneMeter(level, Modifier.testTag("$tag-microphone"))
@@ -121,6 +124,42 @@ fun SpeakAnswer(
             )
         }
         if (!answered) QuietButton(tr("Type instead"), onClick = onTypeInstead, modifier = buttonModifier.testTag("$tag-type-instead"))
+    }
+}
+
+/**
+ * The round button that starts listening: a microphone in a circle with a soft ring about it and
+ * "Speak" beneath, all of it one target; it settles a little under the pointer and when pressed.
+ */
+@Composable
+private fun SpeakButton(onListen: () -> Unit, modifier: Modifier = Modifier) {
+    val colors = MaterialTheme.colorScheme
+    val interaction = remember { MutableInteractionSource() }
+    val hovered by interaction.collectIsHoveredAsState()
+    val pressed by interaction.collectIsPressedAsState()
+    val scale by animateFloatAsState(
+        when {
+            pressed -> PRESSED_SCALE
+            hovered -> HOVERED_SCALE
+            else -> 1f
+        },
+        AppMotion.spec(AppMotion.short),
+    )
+    Column(
+        modifier.clip(AppShapes.panel).clickable(interaction, indication = null, role = Role.Button, onClick = onListen).pointerHoverIcon(PointerIcon.Hand),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Box(Modifier.size(STOP_ROOM), contentAlignment = Alignment.Center) {
+            Box(Modifier.size(HALO_SIZE).clip(AppShapes.circle).background(colors.primary.copy(alpha = if (hovered) AppAlpha.soft else AppAlpha.tint)))
+            Box(
+                Modifier.size(STOP_SIZE).graphicsLayer { scaleX = scale; scaleY = scale }
+                    .shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.primary),
+                contentAlignment = Alignment.Center,
+            ) {
+                Icon(AppIcons.Mic, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(AppSizes.iconHuge))
+            }
+        }
+        Text(tr("Speak"), style = AppText.itemTitle, color = colors.primary)
     }
 }
 
@@ -255,10 +294,13 @@ private const val PULSE_MS = 1_600
 private const val RING_SCALE = 1.35f
 private const val RING_ALPHA = 0.3f
 private const val BREATH = 0.04f
+private const val HOVERED_SCALE = 1.04f
+private const val PRESSED_SCALE = 0.95f
 private val RING_OFFSETS = listOf(0f, 0.5f)
 private val STOP_SIZE = 88.dp
 private val STOP_MARK = 30.dp
 private val STOP_ROOM = 120.dp
+private val HALO_SIZE = 106.dp
 private val METER_ROW_WIDTH = 520.dp
 private val WAVE_HEIGHT = 36.dp
 private val BAR_WIDTH = 4.dp
