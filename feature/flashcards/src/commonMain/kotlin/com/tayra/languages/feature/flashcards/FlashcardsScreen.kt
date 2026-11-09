@@ -484,9 +484,16 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
     val colors = MaterialTheme.colorScheme
     val counts = state.counts
     val pass = state.pass
-    // The day's cards stay one number through the session, a card answered Again included; an extra pass counts its own cards.
+    // The day's cards stay one number through the session; an extra pass counts its own cards. A card
+    // in its steps still waits, so the way through goes by the answers given against those still to give.
     val total = pass?.termIds?.size ?: state.sessionTotal
-    val behind = pass?.done ?: (total - counts.total).coerceAtLeast(0)
+    val progress = when {
+        total == 0 -> 0f
+        pass != null -> pass.done.toFloat() / total
+        else -> state.answered.toFloat() / (state.answered + counts.total).coerceAtLeast(1)
+    }
+    // The card on show is still to do.
+    val behind = pass?.done ?: (progress * total).roundToInt().coerceAtMost(if (state.card != null) total - 1 else total).coerceAtLeast(0)
     val current = if (state.card != null) (behind + 1).coerceAtMost(total.coerceAtLeast(1)) else behind
     val pills: @Composable () -> Unit = {
         // Large text may not fit the three in a row; they wrap.
@@ -504,7 +511,7 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
     }
     val bar: @Composable (Modifier) -> Unit = { m ->
         // Filled by the cards answered: the first card of one shows an empty bar, not a full one.
-        ProgressTrack(if (total > 0) behind.toFloat() / total else 0f, if (pass != null) AppAccents.purple else AppAccents.blue, m, height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
+        ProgressTrack(progress, if (pass != null) AppAccents.purple else AppAccents.blue, m, height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
     }
     val label: @Composable () -> Unit = {
         Text(

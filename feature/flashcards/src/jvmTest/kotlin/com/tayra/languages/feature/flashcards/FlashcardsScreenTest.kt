@@ -732,6 +732,29 @@ class FlashcardsScreenTest {
         onNodeWithText("1 of 1").assertExists()
     }
 
+    /** Each answer moves the count on, a card still in its steps included, out of the same total. */
+    @Test
+    fun eachAnswerMovesTheCountOn() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(moreTerms = { id ->
+            listOf("pão" to "Eu comprei pão.", "leite" to "Bebo leite.").forEach { (text, sentence) ->
+                terms.save(Term(languageId = id, text = text, textLc = text, status = TermStatus.NEW_1, translation = "x", sentence = sentence))
+            }
+        })
+        waitForCard("3 of 3")
+        onNodeWithText("Show answer").performClick()
+        onNodeWithTag("answer-Good").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 1 }
+        waitForCard("2 of 3")
+        onNodeWithText("Show answer").performClick()
+        onNodeWithTag("answer-Good").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 2 }
+        waitForCard("2 of 3")
+        onNodeWithText("Show answer").performClick()
+        onNodeWithTag("answer-Good").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 3 }
+        waitForCard("1 of 3")
+    }
+
     /** The shortcut back is the configurable one: given another key, that key goes back and Ctrl+Z no longer does. */
     @Test
     fun theShortcutBackCanBeChanged() = runDesktopComposeUiTest(width = 1586, height = 1000) {
