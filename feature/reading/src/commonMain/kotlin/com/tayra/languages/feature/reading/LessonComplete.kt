@@ -244,7 +244,7 @@ private class Piece(random: Random) {
 
 private const val BURSTS = 7
 private const val PIECES_PER_BURST = 80
-private const val BURST_GAP = 0.45f
+private const val BURST_GAP = 0.12f
 private const val LIFE = 2.6f
 private const val FLASH = 0.18f
 private const val FLASH_REACH = 0.035f
@@ -252,7 +252,7 @@ private const val SPEED = 1.2f
 private const val DRAG = 3.2f
 private const val GRAVITY = 0.12f
 private const val FADE = 0.45f
-private const val CONFETTI_MILLIS = 5_600
+private const val CONFETTI_MILLIS = 3_500
 private val PIECE_LENGTH = 14.dp
 private val BADGE_SIZE = 88.dp
 private val STAT_MIN_WIDTH = 160.dp

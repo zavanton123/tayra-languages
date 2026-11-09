@@ -753,7 +753,7 @@ class ReadingHoverTest {
         rule.mainClock.autoAdvance = false
         rule.onNodeWithTag("check-stage").performClick()
         repeat(100) { if (rule.onAllNodesWithTag("lesson-complete").fetchSemanticsNodes().isEmpty()) { Thread.sleep(20); rule.mainClock.advanceTimeByFrame() } }
-        rule.mainClock.advanceTimeBy(1_200)
+        rule.mainClock.advanceTimeBy(700)
         rule.onNodeWithTag("confetti").assertExists()
         System.getenv("LESSON_COMPLETE_SCREENSHOT")?.let { path ->
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot()).onLast().captureToImage().toAwtImage(), "png", File(path))
