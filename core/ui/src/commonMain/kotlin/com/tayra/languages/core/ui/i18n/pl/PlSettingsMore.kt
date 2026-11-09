@@ -484,4 +484,9 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Answer practice aloud" to "Odpowiadaj na głos w ćwiczeniach",
     "Remove this speech recognition model?" to "Usunąć ten model rozpoznawania mowy?",
     "Read the text of photos of pages" to "Odczytuj tekst ze zdjęć stron",
+    "Go to Downloads" to "Przejdź do pobranych",
+    "Download or remove dictionaries and text recognition models on the Downloads page." to "Pobieraj i usuwaj słowniki oraz modele rozpoznawania tekstu na stronie Pobrane.",
+    "Download or remove the translation models for the language you learn on the Downloads page." to "Pobieraj i usuwaj modele tłumaczenia dla języka, którego się uczysz, na stronie Pobrane.",
+    "Download or remove voices and speech recognition models on the Downloads page." to "Pobieraj i usuwaj głosy oraz modele rozpoznawania mowy na stronie Pobrane.",
+    "Download or remove voices on the Downloads page." to "Pobieraj i usuwaj głosy na stronie Pobrane.",
 )

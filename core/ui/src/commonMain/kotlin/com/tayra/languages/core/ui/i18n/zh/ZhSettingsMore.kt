@@ -484,4 +484,9 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Answer practice aloud" to "在练习中大声回答",
     "Remove this speech recognition model?" to "删除此语音识别模型？",
     "Read the text of photos of pages" to "识别页面照片中的文字",
+    "Go to Downloads" to "前往下载",
+    "Download or remove dictionaries and text recognition models on the Downloads page." to "在“下载”页面下载或删除词典和文字识别模型。",
+    "Download or remove the translation models for the language you learn on the Downloads page." to "在“下载”页面下载或删除所学语言的翻译模型。",
+    "Download or remove voices and speech recognition models on the Downloads page." to "在“下载”页面下载或删除语音和语音识别模型。",
+    "Download or remove voices on the Downloads page." to "在“下载”页面下载或删除语音。",
 )

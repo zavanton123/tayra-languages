@@ -52,7 +52,6 @@ import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.Notice
-import com.tayra.languages.core.ui.components.PackageTab
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
@@ -60,7 +59,6 @@ import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SelectButton
 import com.tayra.languages.core.ui.components.StatusTints
-import com.tayra.languages.core.ui.components.TabToggle
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.components.largeText
@@ -98,7 +96,6 @@ internal fun PhoneTranslationScreen(
     val learningCode = learningEnglish?.let(LanguageCodes::codeFor)
     var nativeSheet by remember { mutableStateOf(false) }
     var engineSheet by remember { mutableStateOf(false) }
-    var browse by remember { mutableStateOf(false) }
     Scaffold(
         topBar = { AppTopBar(title = tr("Translation"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
@@ -168,9 +165,7 @@ internal fun PhoneTranslationScreen(
                     )
                 }
             }
-            if (local && (packages.isNotEmpty() || ready)) {
-                PhonePackagesCard(viewModel, packages, wanted, pair, onBrowse = { browse = true })
-            }
+            if (local) DownloadsLinkCard(modelsInDownloads(), onNavigate)
         }
     }
     if (nativeSheet) {
@@ -190,7 +185,6 @@ internal fun PhoneTranslationScreen(
             onPick = { e -> engineSheet = false; viewModel.update { it.copy(translationEngine = e) } },
         )
     }
-    if (browse) PackagesSheet(viewModel, packages, wanted, onDismiss = { browse = false })
 }
 
 /** Whether the on-device translator works, with the button to check or install it; the runtime path field is left to the desktop. */
@@ -229,112 +223,6 @@ private fun PhoneEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
         progress?.let {
             Text(tr(it), style = MaterialTheme.typography.bodySmall)
             AppProgressBar(null)
-        }
-    }
-}
-
-/** What the language pair still needs, with one button for all of it, and the way into the whole catalogue. */
-@Composable
-private fun PhonePackagesCard(viewModel: OfflineTranslationViewModel, packages: List<LocalPackage>, wanted: Set<String>, pair: PairState, onBrowse: () -> Unit) {
-    val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
-    val colors = MaterialTheme.colorScheme
-    val runtime = viewModel.hasRuntimeSetup
-    val installed = packages.filter { it.installed }
-    // The count is of what this pair needs, not of every package on the device.
-    val required = packages.filter { it.key in wanted }
-    ContentCard(if (runtime) tr("Required packages") else tr("Required models"), subtitle = null, icon = AppIcons.Download, dense = true, headerExtra = { if (required.isNotEmpty()) Tag(tr("{0} of {1} installed", required.count { it.installed }, required.size), colors.primary) }) {
-        if (pair.learning != null && !pair.sameLanguage) {
-            if (pair.ready) {
-                InfoBanner(tr("{0} is ready", pair.label), Modifier.padding(bottom = AppSpacing.s), tint = StatusTints.ok, icon = Icons.Default.CheckCircle, dense = true)
-                val needed = packages.filter { it.key in wanted }
-                needed.forEach { PackageLine(it) }
-            } else {
-                // Two packages mean the pair goes through English.
-                if (pair.missing.size > 1) InfoBanner(tr("{0} translates through English.", pair.label), Modifier.padding(bottom = AppSpacing.s), tint = StatusTints.warning, icon = Icons.Default.Warning, dense = true)
-                pair.missing.forEach { PackageLine(it) }
-                val installing = pair.missing.any { it.key in packageBusy }
-                val size = pair.missing.sumOf { it.sizeBytes }
-                PrimaryButton(
-                    onClick = { pair.missing.forEach(viewModel::installPackage) },
-                    enabled = !installing,
-                    modifier = Modifier.fillMaxWidth().padding(top = AppSpacing.xs).testTag("phone-install-missing"),
-                ) {
-                    Text(
-                        when {
-                            installing -> tr("Installing…")
-                            runtime && size > 0 -> trPlural(pair.missing.size, "Install {0} package · {1}", "Install {0} packages · {1}", formatSize(size))
-                            runtime -> trPlural(pair.missing.size, "Install {0} package", "Install {0} packages")
-                            size > 0 -> trPlural(pair.missing.size, "Install {0} model · {1}", "Install {0} models · {1}", formatSize(size))
-                            else -> trPlural(pair.missing.size, "Install {0} model", "Install {0} models")
-                        },
-                        style = MaterialTheme.typography.titleMedium,
-                    )
-                }
-            }
-        } else if (installed.isEmpty()) {
-            Text(if (runtime) tr("No packages installed yet.") else tr("No models installed yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        }
-        Box(Modifier.fillMaxWidth().padding(top = AppSpacing.xs), contentAlignment = Alignment.Center) {
-            QuietButton(onClick = onBrowse, modifier = Modifier.testTag("phone-browse-packages")) {
-                Text(if (runtime) tr("Browse all language packages") else tr("Browse all language models"), style = MaterialTheme.typography.titleMedium)
-            }
-        }
-    }
-}
-
-/** One package the pair needs: its name and size, or that it is installed. */
-@Composable
-private fun PackageLine(pkg: LocalPackage) {
-    val colors = MaterialTheme.colorScheme
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(horizontal = AppSpacing.m, vertical = AppSpacing.m),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Text(pkg.displayTitle, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        Text(
-            if (pkg.installed) tr("Downloaded") else pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize).orEmpty(),
-            style = MaterialTheme.typography.bodyMedium,
-            color = if (pkg.installed) StatusTints.ok else colors.onSurfaceVariant,
-        )
-    }
-    Spacer(Modifier.height(AppSpacing.s))
-}
-
-/** The whole catalogue in a sheet: a search, Installed or Available, and a tile per package to install or remove. */
-@Composable
-private fun PackagesSheet(viewModel: OfflineTranslationViewModel, packages: List<LocalPackage>, wanted: Set<String>, onDismiss: () -> Unit) {
-    val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
-    val colors = MaterialTheme.colorScheme
-    val runtime = viewModel.hasRuntimeSetup
-    var tab by remember { mutableStateOf(PackageTab.AVAILABLE) }
-    var query by remember { mutableStateOf("") }
-    val matches = { pkg: LocalPackage -> query.isBlank() || pkg.title.contains(query.trim(), ignoreCase = true) || pkg.displayTitle.contains(query.trim(), ignoreCase = true) }
-    val shown = when (tab) {
-        PackageTab.INSTALLED -> packages.filter { it.installed }.sortedBy { it.title }
-        PackageTab.AVAILABLE -> packages.filter { !it.installed }.sortedWith(compareBy({ it.key !in wanted }, { it.title }))
-    }.filter(matches)
-    AppBottomSheet(onDismissRequest = onDismiss) {
-        Column(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l).padding(bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            Text(if (runtime) tr("Language packages") else tr("Language models"), style = AppText.headline)
-            SearchField(query, { query = it }, if (runtime) tr("Search packages") else tr("Search models"), Modifier.fillMaxWidth())
-            TabToggle(tab, fill = true) { tab = it }
-            ScrollColumn(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                if (shown.isEmpty()) {
-                    Text(
-                        when {
-                            query.isNotBlank() -> if (runtime) tr("No packages match “{0}”.", query.trim()) else tr("No models match “{0}”.", query.trim())
-                            tab == PackageTab.INSTALLED -> if (runtime) tr("No packages installed yet.") else tr("No models installed yet.")
-                            else -> if (runtime) tr("All packages are installed.") else tr("All models are installed.")
-                        },
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = colors.onSurfaceVariant,
-                        modifier = Modifier.padding(vertical = AppSpacing.m),
-                    )
-                }
-                shown.forEach { pkg ->
-                    PackageTile(pkg, busy = pkg.key in packageBusy, needed = pkg.key in wanted, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) }, modifier = Modifier.fillMaxWidth())
-                }
-            }
         }
     }
 }

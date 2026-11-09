@@ -484,4 +484,9 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Answer practice aloud" to "Απαντήστε φωναχτά στην εξάσκηση",
     "Remove this speech recognition model?" to "Αφαίρεση αυτού του μοντέλου αναγνώρισης ομιλίας;",
     "Read the text of photos of pages" to "Ανάγνωση του κειμένου από φωτογραφίες σελίδων",
+    "Go to Downloads" to "Μετάβαση στις λήψεις",
+    "Download or remove dictionaries and text recognition models on the Downloads page." to "Κατεβάστε ή αφαιρέστε λεξικά και μοντέλα αναγνώρισης κειμένου στη σελίδα «Λήψεις».",
+    "Download or remove the translation models for the language you learn on the Downloads page." to "Κατεβάστε ή αφαιρέστε τα μοντέλα μετάφρασης για τη γλώσσα που μαθαίνετε στη σελίδα «Λήψεις».",
+    "Download or remove voices and speech recognition models on the Downloads page." to "Κατεβάστε ή αφαιρέστε φωνές και μοντέλα αναγνώρισης ομιλίας στη σελίδα «Λήψεις».",
+    "Download or remove voices on the Downloads page." to "Κατεβάστε ή αφαιρέστε φωνές στη σελίδα «Λήψεις».",
 )

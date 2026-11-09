@@ -72,7 +72,6 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.OverflowMenu
-import com.tayra.languages.core.ui.components.PackageTab
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.Reveal
@@ -84,7 +83,6 @@ import com.tayra.languages.core.ui.components.SliderSetting
 import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
-import com.tayra.languages.core.ui.components.TabToggle
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
@@ -139,8 +137,6 @@ class SpeechViewModel(
     val busy: StateFlow<Boolean> = _busy.asStateFlow()
     private val _packages = MutableStateFlow<List<SpeechPackage>>(emptyList())
     val packages: StateFlow<List<SpeechPackage>> = _packages.asStateFlow()
-    private val _packageBusy = MutableStateFlow<Set<String>>(emptySet())
-    val packageBusy: StateFlow<Set<String>> = _packageBusy.asStateFlow()
     private val _voices = MutableStateFlow<Map<String, List<SpeechVoice>>>(emptyMap())
 
     /** Usable voices of the chosen engine per language in use. */
@@ -177,71 +173,21 @@ class SpeechViewModel(
         task { val summary = engine.setUp(); refresh(engine); summary }
     }
 
-    fun installPackage(pkg: SpeechPackage) = packageTask(pkg) { it.installPackage(pkg.id) }
-
-    fun removePackage(pkg: SpeechPackage) = packageTask(pkg) { it.removePackage(pkg.id) }
-
     private suspend fun refresh(engine: LocalSpeechEngine) {
         _ready.value = engine.isReady()
         _packages.value = runCatching { engine.packages() }.getOrDefault(emptyList())
         _voices.value = languagesInUse.value.associate { it.code to runCatching { engine.voices(it.code) }.getOrDefault(emptyList()) }
     }
 
-    private fun packageTask(pkg: SpeechPackage, block: suspend (LocalSpeechEngine) -> Unit) {
-        val engine = engine() ?: return
-        if (pkg.id in _packageBusy.value) return
-        _packageBusy.update { it + pkg.id }
-        viewModelScope.launch {
-            try {
-                block(engine)
-                refresh(engine)
-                _status.value = engine.status()
-                _failed.value = false
-            } catch (e: Exception) {
-                _status.value = "${pkg.displayTitle}: ${e.message}"
-                _failed.value = true
-            }
-            _packageBusy.update { it - pkg.id }
-        }
-    }
-
     /** The recogniser's models, downloaded or not; empty until checked. */
     val recognitionModels = MutableStateFlow<List<RecognitionModel>>(emptyList())
-
-    /** The model being downloaded or removed. */
-    val recognitionBusy = MutableStateFlow<RecognitionQuality?>(null)
-    val recognitionError = MutableStateFlow<String?>(null)
 
     fun checkRecognition() {
         val setup = recognition ?: return
         viewModelScope.launch { recognitionModels.value = runCatching { setup.models() }.getOrDefault(emptyList()) }
     }
 
-    fun installRecognition(quality: RecognitionQuality) = recognitionTask(quality) { setup ->
-        setup.install(quality)
-        // The model just downloaded is the one wanted.
-        settings.update { it.copy(speechRecognitionQuality = quality.name) }
-    }
-
-    fun removeRecognition(quality: RecognitionQuality) = recognitionTask(quality) { it.remove(quality) }
-
     fun chooseRecognition(quality: RecognitionQuality) = update { it.copy(speechRecognitionQuality = quality.name) }
-
-    private fun recognitionTask(quality: RecognitionQuality, block: suspend (SpeechRecognitionSetup) -> Unit) {
-        val setup = recognition ?: return
-        if (recognitionBusy.value != null) return
-        recognitionBusy.value = quality
-        recognitionError.value = null
-        viewModelScope.launch {
-            try {
-                block(setup)
-            } catch (e: Exception) {
-                recognitionError.value = e.message ?: tr("unknown error")
-            }
-            recognitionModels.value = runCatching { setup.models() }.getOrDefault(emptyList())
-            recognitionBusy.value = null
-        }
-    }
 
     private fun task(block: suspend () -> String) {
         if (_busy.value) return
@@ -286,22 +232,30 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
             if (compact) pill()
             if (LocalWindowWidth.current.isExpanded) {
                 Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    EngineCard(settings, viewModel, engine, voiceMissing, Modifier.weight(1f).fillMaxHeight())
+                    EngineCard(settings, viewModel, engine, voiceMissing, onNavigate, Modifier.weight(1f).fillMaxHeight())
                     VoiceCard(settings, viewModel, engine, learning, voices, Modifier.weight(1f).fillMaxHeight())
                 }
             } else {
-                EngineCard(settings, viewModel, engine, voiceMissing)
+                EngineCard(settings, viewModel, engine, voiceMissing, onNavigate)
                 VoiceCard(settings, viewModel, engine, learning, voices)
             }
-            if (engine != null && packages.isNotEmpty()) {
-                // A model with all its voices (Kokoro) comes as one download or two, compact and full.
-                if (packages.all { it.languageCode == null }) packages.forEach { ModelCard(viewModel, engine, it, settings, learning, voices) }
-                else VoicesCard(viewModel, engine, packages, settings, learning, voices)
+            if (LocalWindowWidth.current.isExpanded && viewModel.recognition != null) {
+                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                    DownloadsLinkCard(voicesInDownloads(recognition = true), onNavigate, Modifier.weight(1f).fillMaxHeight())
+                    RecognitionCard(viewModel, Modifier.weight(1f).fillMaxHeight())
+                }
+            } else {
+                DownloadsLinkCard(voicesInDownloads(viewModel.recognition != null), onNavigate)
+                if (viewModel.recognition != null) RecognitionCard(viewModel)
             }
-            if (viewModel.recognition != null) RecognitionCard(viewModel)
         }
     }
 }
+
+/** What the Downloads page offers in place of this page's own downloads. */
+internal fun voicesInDownloads(recognition: Boolean): String =
+    if (recognition) tr("Download or remove voices and speech recognition models on the Downloads page.")
+    else tr("Download or remove voices on the Downloads page.")
 
 @Composable
 internal fun SpeechStatusPill(engine: LocalSpeechEngine?, checking: Boolean, ready: Boolean, learning: LanguageOption?, voices: Map<String, List<SpeechVoice>>) {
@@ -316,7 +270,7 @@ internal fun SpeechStatusPill(engine: LocalSpeechEngine?, checking: Boolean, rea
 
 /** The engine choice, what it is, whether it works, and a way to reinstall it. */
 @Composable
-private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engine: LocalSpeechEngine?, voiceMissing: Boolean, modifier: Modifier = Modifier) {
+private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engine: LocalSpeechEngine?, voiceMissing: Boolean, onNavigate: (Route) -> Unit, modifier: Modifier = Modifier) {
     val compact = LocalWindowWidth.current.isCompact
     ContentCard(tr("Speech engine"), tr("Reader playback and term pronunciation use this engine."), icon = AppIcons.Memory, modifier = modifier) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -338,7 +292,7 @@ private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engin
         )
         if (engine != null) {
             Spacer(Modifier.height(AppSpacing.l))
-            EngineStatus(viewModel, engine, voiceMissing)
+            EngineStatus(viewModel, engine, voiceMissing, onNavigate)
         }
     }
 }
@@ -353,7 +307,7 @@ private fun EngineTags(engine: SpeechEngine) {
 }
 
 @Composable
-private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, voiceMissing: Boolean) {
+private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, voiceMissing: Boolean, onNavigate: (Route) -> Unit) {
     val busy by viewModel.busy.collectAsStateWithLifecycle()
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
@@ -361,8 +315,6 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, 
     val progress by viewModel.progress.collectAsStateWithLifecycle()
     var advanced by remember { mutableStateOf(false) }
     // The way to a voice is in the notice that says one is missing: the language's downloads.
-    var setupFor by remember { mutableStateOf<Long?>(null) }
-    val learningId = LocalLearningLanguage.current?.currentId
     val working = ready && !failed
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
@@ -385,12 +337,11 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, 
         action = {
             when {
                 engine.hasRuntimeSetup && !ready && !busy -> PrimaryButton(tr("Install"), onClick = viewModel::install)
-                working && voiceMissing && learningId != null -> PrimaryButton(tr("Download voice"), onClick = { setupFor = learningId }, modifier = Modifier.testTag("notice-download-voice"))
+                working && voiceMissing -> PrimaryButton(tr("Go to Downloads"), onClick = { onNavigate(Route.Downloads) }, modifier = Modifier.testTag("notice-download-voice"))
                 else -> SecondaryButton(tr("Check installation"), onClick = viewModel::check, enabled = !busy)
             }
         },
     )
-    setupFor?.let { LanguageSetupDialog(it, onClosed = { setupFor = null }) }
     progress?.let {
         Spacer(Modifier.height(AppSpacing.m))
         Text(tr(it), style = MaterialTheme.typography.bodySmall)
@@ -535,209 +486,6 @@ private fun Waveform(active: Boolean, modifier: Modifier = Modifier) {
             drawRoundRect(color, Offset(i * (bar + gap), (size.height - height) / 2), Size(bar, height), CornerRadius(bar / 2))
         }
     }
-}
-
-/** One download that holds the model and every voice, as Kokoro has. */
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun ModelCard(
-    viewModel: SpeechViewModel,
-    engine: LocalSpeechEngine,
-    pkg: SpeechPackage,
-    settings: UserSettings,
-    learning: LanguageOption?,
-    voices: Map<String, List<SpeechVoice>>,
-) {
-    val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
-    val busy = pkg.id in packageBusy
-    val compact = LocalWindowWidth.current.isCompact
-    val voiceCount = Regex("""(\d+) voices""").find(pkg.title)?.groupValues?.get(1)
-    ContentCard(
-        tr("Voice model"),
-        tr(engine.packagesDescription),
-        icon = AppIcons.Download,
-        titleExtra = { if (pkg.installed) Tag(tr("Downloaded"), StatusTints.ok) else Tag(tr("Not downloaded"), StatusTints.warning) },
-    ) {
-        Column(
-            Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(AppSpacing.m),
-        ) {
-            val languages = pkg.group.split(", ").filter { it.isNotBlank() }
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                IconTile(AppIcons.Storage, size = 44, tint = StatusTints.ok)
-                Spacer(Modifier.width(AppSpacing.l))
-                Column(Modifier.weight(1f)) {
-                    Text(modelTitle(engine, pkg), style = AppText.itemTitle)
-                    Text(
-                        listOfNotNull(voiceCount?.let { trPlural(it.toInt(), "{0} voice", "{0} voices") }, pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize)).joinToString(" · "),
-                        style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    )
-                }
-                if (!compact) LanguageChips(languages)
-                Spacer(Modifier.width(AppSpacing.m))
-                PackageAction(pkg, busy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
-            }
-            if (compact) {
-                Spacer(Modifier.height(AppSpacing.m))
-                LanguageChips(languages)
-            }
-            if (busy) AppProgressBar(null, Modifier.padding(top = AppSpacing.s))
-        }
-        Spacer(Modifier.height(AppSpacing.m))
-        DefaultVoiceNote(engine, settings, learning, voices, others = tr("Other languages fall back to the system voice."))
-    }
-}
-
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun LanguageChips(names: List<String>) {
-    FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        names.forEach { name ->
-            Row(
-                Modifier.clip(AppShapes.compact).border(AppBorders.hairline(), AppShapes.compact).padding(end = AppSpacing.m),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                CodeTile(LanguageCodes.codeFor(name) ?: name.take(2), size = 34)
-                Spacer(Modifier.width(AppSpacing.s))
-                Text(tr(name), style = MaterialTheme.typography.bodyMedium)
-            }
-        }
-    }
-}
-
-/** One download per voice, as Piper has: what is installed, and the rest to search and download. */
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun VoicesCard(
-    viewModel: SpeechViewModel,
-    engine: LocalSpeechEngine,
-    packages: List<SpeechPackage>,
-    settings: UserSettings,
-    learning: LanguageOption?,
-    voices: Map<String, List<SpeechVoice>>,
-) {
-    val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
-    val compact = LocalWindowWidth.current.isCompact
-    val installed = packages.filter { it.installed }
-    // Without a voice for the language being learned, the list opens on the voices to download for it.
-    val hasLearningVoice = learning == null || installed.any { it.languageCode == learning.code }
-    var tab by remember(hasLearningVoice) { mutableStateOf(if (hasLearningVoice) PackageTab.INSTALLED else PackageTab.AVAILABLE) }
-    var query by remember { mutableStateOf("") }
-    val matches = { pkg: SpeechPackage -> query.isBlank() || listOf(pkg.title, pkg.group, tr(pkg.group)).any { it.contains(query.trim(), true) } }
-    val shown = when (tab) {
-        PackageTab.INSTALLED -> installed.sortedWith(compareBy({ it.languageCode != learning?.code }, { it.group }, { it.title }))
-        // Voices for the language being learned come first; the rest only when searched for.
-        PackageTab.AVAILABLE -> packages.filter { !it.installed && (query.isNotBlank() || it.languageCode == learning?.code) }.sortedBy { it.title }
-    }.filter(matches)
-    val search: @Composable (Modifier) -> Unit = { m -> SearchField(query, { query = it }, tr("Search voices"), m) }
-    ContentCard(
-        tr("Voices"),
-        tr(engine.packagesDescription),
-        icon = AppIcons.Download,
-        headerExtra = {
-            if (!compact) {
-                Tag(tr("{0} downloaded", installed.size), MaterialTheme.colorScheme.primary)
-                Spacer(Modifier.width(AppSpacing.l))
-                search(Modifier.width(VOICE_SEARCH_WIDTH))
-                Spacer(Modifier.width(AppSpacing.m))
-                TabToggle(tab) { tab = it }
-            }
-        },
-    ) {
-        if (compact) {
-            search(Modifier.fillMaxWidth())
-            Spacer(Modifier.height(AppSpacing.m))
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Tag(tr("{0} downloaded", installed.size), MaterialTheme.colorScheme.primary)
-                Spacer(Modifier.weight(1f))
-                TabToggle(tab) { tab = it }
-            }
-            Spacer(Modifier.height(AppSpacing.m))
-        }
-        if (shown.isEmpty()) {
-            Text(
-                when {
-                    query.isNotBlank() -> tr("No voices match “{0}”.", query.trim())
-                    tab == PackageTab.INSTALLED -> tr("No voices downloaded yet.")
-                    learning == null -> tr("Search to find voices to download.")
-                    else -> tr("Every {0} voice is downloaded. Search to find voices for other languages.", tr(learning.name))
-                },
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(vertical = AppSpacing.s),
-            )
-        }
-        FlowRow(
-            Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
-            verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
-            maxItemsInEachRow = if (compact) 1 else 2,
-        ) {
-            shown.forEach { pkg ->
-                VoiceTile(pkg, busy = pkg.id in packageBusy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) }, modifier = Modifier.weight(1f))
-            }
-            if (!compact && shown.size % 2 == 1) Spacer(Modifier.weight(1f))
-        }
-        Spacer(Modifier.height(AppSpacing.m))
-        DefaultVoiceNote(engine, settings, learning, voices, others = tr("Languages without a downloaded voice use the system voice."))
-    }
-}
-
-@Composable
-private fun VoiceTile(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit, modifier: Modifier = Modifier) {
-    Row(
-        modifier.clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
-            .padding(start = AppSpacing.m, end = AppSpacing.xs, top = AppSpacing.s, bottom = AppSpacing.s),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        CodeTile(pkg.languageCode ?: pkg.group.take(2))
-        Spacer(Modifier.width(AppSpacing.l))
-        Column(Modifier.weight(1f)) {
-            Text(pkg.title, style = MaterialTheme.typography.bodyLarge, maxLines = if (LocalWindowWidth.current.isCompact) 2 else 1, overflow = TextOverflow.Ellipsis)
-            Text(
-                listOfNotNull(tr(pkg.group), pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize)).joinToString(" · "),
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-            if (busy) AppProgressBar(null, Modifier.padding(top = AppSpacing.xs))
-        }
-        Spacer(Modifier.width(AppSpacing.m))
-        PackageAction(pkg, busy, onInstall, onRemove)
-    }
-}
-
-/** "Installed" with a menu to remove it, a download button, or what is happening right now. */
-@Composable
-internal fun PackageAction(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit) {
-    Row(verticalAlignment = Alignment.CenterVertically) {
-        when {
-            busy -> Text(if (pkg.installed) tr("Removing…") else tr("Downloading…"), style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = AppSpacing.m))
-            pkg.installed -> {
-                StatusDot(StatusTints.ok, size = AppSizes.dot)
-                Spacer(Modifier.width(AppSpacing.s))
-                Text(tr("Downloaded"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
-                Spacer(Modifier.width(AppSpacing.xs))
-                OverflowMenu(tr("More for {0}", pkg.displayTitle)) { close ->
-                    AppMenuItem(text = { Text(tr("Remove")) }, onClick = { close(); onRemove() })
-                }
-            }
-            else -> PrimaryButton(tr("Download"), onClick = onInstall, modifier = Modifier.padding(end = AppSpacing.s))
-        }
-    }
-}
-
-/** Which voice the language being learned uses, and what happens to the others. */
-@Composable
-private fun DefaultVoiceNote(engine: LocalSpeechEngine, settings: UserSettings, learning: LanguageOption?, voices: Map<String, List<SpeechVoice>>, others: String) {
-    val options = learning?.let { voices[it.code] }.orEmpty()
-    val chosen = learning?.let { settings.speechVoices["${engine.engine.name}:${it.code}"] }
-    val voice = options.firstOrNull { it.id == chosen } ?: options.firstOrNull()
-    val first = when {
-        learning == null -> null
-        voice != null -> tr("{0} uses {1}.", tr(learning.name), localizedVoiceName(voice.name))
-        else -> tr("{0} has no {1} voice yet.", tr(learning.name), engine.displayName)
-    }
-    InfoBanner(listOfNotNull(first, others).joinToString("   •   "))
 }
 
 /** The package's title; the one-download models of Kokoro read "Kokoro model with 34 voices". */

@@ -111,27 +111,12 @@ import com.tayra.languages.core.domain.ocr.OcrPack
 import com.tayra.languages.core.domain.ocr.NoTextRecognizer
 import androidx.compose.ui.text.style.TextOverflow
 
-/** The downloadable offline dictionary packs and their state on this device. */
+/** The dictionary the reader looks words up in, the dictionaries imported, and a test of a lookup; downloading them is the Downloads page's. */
 class DictionariesViewModel(
     settings: SettingsRepository,
     private val dictionaries: DictionaryService,
     languages: LanguageRepository,
-    private val recognizer: TextRecognizer = NoTextRecognizer,
 ) : ViewModel() {
-    private val _ocrPacks = MutableStateFlow<List<OcrPack>>(emptyList())
-
-    /** The text recognition models downloaded for reading photos of pages. */
-    val ocrPacks: StateFlow<List<OcrPack>> = _ocrPacks.asStateFlow()
-
-    init {
-        viewModelScope.launch { _ocrPacks.value = recognizer.installedPacks() }
-    }
-
-    fun removeOcr(pack: OcrPack) = viewModelScope.launch {
-        recognizer.remove(pack)
-        _ocrPacks.value = recognizer.installedPacks()
-    }
-
     val settings: StateFlow<UserSettings> = settings.settings
     /** The dictionaries, and the word finders that are installed: the term pane offers the others. */
     val packs: StateFlow<List<PackStatus>> = dictionaries.packs
@@ -141,9 +126,6 @@ class DictionariesViewModel(
     /** The language being learned, whose dictionaries the page leads with. */
     val learning: StateFlow<LanguageOption?> = learningLanguage(languages, settings)
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
-
-    fun download(pack: DictionaryPack) = viewModelScope.launch { dictionaries.download(pack) }
-    fun remove(pack: DictionaryPack) = viewModelScope.launch { dictionaries.remove(pack) }
 
     /** What the installed pack says about [word]. */
     suspend fun lookup(pack: DictionaryPack, word: String): DictionaryLookup = dictionaries.lookup(pack.id, word.trim())
@@ -224,9 +206,6 @@ internal val DictionaryPack.editionLabel: String?
 
 private const val WIKTIONARY = "Wiktionary"
 
-internal fun DictionaryPack.matches(query: String): Boolean =
-    query.isBlank() || title.contains(query.trim(), ignoreCase = true) || displayTitle.contains(query.trim(), ignoreCase = true)
-
 /**
  * A pack download failure as the user reads it: the messages the app writes itself in the
  * interface language, anything else (the network's own errors) as reported.
@@ -260,7 +239,7 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
     }
 
     if (compact) {
-        PhoneDictionariesScreen(packs, learning, native, nativeName, current, viewModel, onNavigate, onBack, onTest = { testing = it }, pill)
+        PhoneDictionariesScreen(learning, native, nativeName, current, viewModel, onNavigate, onBack, onTest = { testing = it }, pill)
     } else Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -268,26 +247,20 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
         PageColumn(padding) {
             ScreenHeader(tr("Dictionaries"), tr("Manage offline word definitions and base-form lookup."), onBackToSettings = onBack) { if (!compact) pill() }
             if (compact) pill()
-            CurrentLookupCard(learning, nativeName, current, onDownload = { viewModel.download(it) }, onTest = { testing = it })
-            if (LocalWindowWidth.current.isExpanded) {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    InstalledCard(packs, nativeName, learning?.code, viewModel, Modifier.weight(1.6f).fillMaxHeight())
-                    AvailableCard(packs, learning, native, viewModel, Modifier.weight(1f).fillMaxHeight())
-                }
-            } else {
-                InstalledCard(packs, nativeName, learning?.code, viewModel)
-                AvailableCard(packs, learning, native, viewModel)
-            }
+            CurrentLookupCard(learning, nativeName, current, onDownloads = { onNavigate(Route.Downloads) }, onTest = { testing = it })
+            DownloadsLinkCard(dictionariesInDownloads(), onNavigate)
             if (viewModel.canImport) ImportDictionaryCard(viewModel, learning, native)
-            TextRecognitionCard(viewModel)
         }
     }
     testing?.let { pack -> TestLookupDialog(pack, viewModel, onDismiss = { testing = null }) }
 }
 
 /** The pair the reader looks words up in, and whether its dictionary is on the device. */
+/** What the Downloads page offers in place of this page's own downloads. */
+internal fun dictionariesInDownloads(): String = tr("Download or remove dictionaries and text recognition models on the Downloads page.")
+
 @Composable
-private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, current: PackStatus?, onDownload: (DictionaryPack) -> Unit, onTest: (DictionaryPack) -> Unit) {
+private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, current: PackStatus?, onDownloads: () -> Unit, onTest: (DictionaryPack) -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
     val state = current?.state
     val pair: @Composable () -> Unit = {
@@ -310,7 +283,7 @@ private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, cur
             current == null -> {}
             state is PackState.Installed -> SecondaryButton(tr("Test lookup"), onClick = { onTest(current.pack) })
             state is PackState.Downloading -> {}
-            else -> PrimaryButton(tr("Download"), onClick = { onDownload(current.pack) })
+            else -> PrimaryButton(tr("Go to Downloads"), onClick = onDownloads)
         }
     }
     Column(
@@ -382,190 +355,8 @@ internal fun PairChip(code: String, name: String, modifier: Modifier = Modifier)
     }
 }
 
-/** How many installed rows show before "View all". */
-private const val INSTALLED_PREVIEW = 8
-
-private val INSTALLED_ROW_HEIGHT = 52.dp
-private val INSTALLED_SEARCH_MIN_WIDTH = 280.dp
-private val INSTALLED_SIZE_COLUMN = 100.dp
-private val CATALOGUE_MAX_HEIGHT = 520.dp
 private val TEST_LOOKUP_MIN_WIDTH = 420.dp
 private val LOOKUP_RESULT_MAX_HEIGHT = 320.dp
-
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun InstalledCard(packs: List<PackStatus>, nativeName: String, learningCode: String?, viewModel: DictionariesViewModel, modifier: Modifier = Modifier) {
-    val compact = LocalWindowWidth.current.isCompact
-    val installed = packs.filter { it.state is PackState.Installed || it.state is PackState.Downloading }
-    // Meanings in the native language come first; other target languages are one click away.
-    val targets = installed.map { it.pack.targetName }.distinct().sortedWith(compareBy({ it != nativeName }, { it }))
-    var target by remember { mutableStateOf<String?>(null) }
-    val chosen = target?.takeIf { it in targets } ?: targets.firstOrNull()
-    var query by remember { mutableStateOf("") }
-    var showAll by remember { mutableStateOf(false) }
-    // The language being learned leads, as it does in the list of those to download beside it.
-    val matching = installed.filter { it.pack.targetName == chosen && it.pack.matches(query) }
-        .sortedWith(compareBy({ it.pack.id.sourceLanguage != learningCode }, { it.pack.title }))
-    val shown = if (showAll || query.isNotBlank()) matching else matching.take(INSTALLED_PREVIEW)
-
-    ContentCard(tr("Downloaded dictionaries"), tr("Manage downloaded dictionaries for offline lookup."), icon = AppIcons.Storage, modifier = modifier) {
-        if (installed.isEmpty()) {
-            Text(
-                tr("No dictionaries downloaded yet. Download one on the right to look words up offline."),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(vertical = AppSpacing.s),
-            )
-            return@ContentCard
-        }
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m), itemVerticalAlignment = Alignment.CenterVertically) {
-            SearchField(
-                query,
-                { query = it },
-                tr("Search installed dictionaries"),
-                if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(min = INSTALLED_SEARCH_MIN_WIDTH).weight(1f),
-            )
-            if (targets.size > 1) SegmentedToggle(targets.map { Segment(it, label = tr(it)) }, chosen ?: targets.first(), onSelect = { target = it })
-        }
-        Spacer(Modifier.height(AppSpacing.m))
-        val bytes = matching.sumOf { (it.state as? PackState.Installed)?.sizeBytes ?: 0L }
-        InfoBanner(
-            trPlural(matching.size, "{0} dictionary • {1} available offline", "{0} dictionaries • {1} available offline", formatSize(bytes)),
-            icon = AppIcons.Storage,
-            dense = true,
-        )
-        Spacer(Modifier.height(AppSpacing.s))
-        Column(Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)) {
-            shown.forEachIndexed { i, status ->
-                if (i > 0) AppDivider()
-                InstalledRow(status, onRemove = { viewModel.remove(status.pack) })
-            }
-            if (shown.isEmpty()) {
-                Text(tr("No dictionaries match “{0}”.", query.trim()), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(AppSpacing.l))
-            }
-        }
-        if (matching.size > INSTALLED_PREVIEW && query.isBlank()) {
-            Spacer(Modifier.height(AppSpacing.l))
-            SecondaryButton(
-                if (showAll) tr("Show fewer") else tr("View all {0} installed dictionaries", matching.size),
-                onClick = { showAll = !showAll },
-                trailingIcon = Icons.AutoMirrored.Filled.KeyboardArrowRight,
-            )
-        }
-    }
-}
-
-@Composable
-internal fun InstalledRow(status: PackStatus, onRemove: () -> Unit) {
-    val compact = LocalWindowWidth.current.isCompact
-    Row(Modifier.fillMaxWidth().heightIn(min = INSTALLED_ROW_HEIGHT).padding(start = AppSpacing.s, end = AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
-        CodeTile(status.pack.id.sourceLanguage, size = 36)
-        Spacer(Modifier.width(AppSpacing.l))
-        Text(status.pack.displayTitle, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
-        val state = status.state
-        if (state is PackState.Installed && !compact) {
-            Text(formatSize(state.sizeBytes), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.width(INSTALLED_SIZE_COLUMN))
-        }
-        if (state is PackState.Downloading) {
-            Text(tr("Downloading…"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(end = AppSpacing.m))
-        } else {
-            // The list is headed Installed; its rows need not say so each.
-            OverflowMenu(tr("More for {0}", status.pack.displayTitle)) { close ->
-                AppMenuItem(text = { Text(tr("Remove")) }, onClick = { close(); onRemove() })
-            }
-        }
-    }
-}
-
-/**
- * Packs to download: those for the language being learned, the native language first; "Browse all"
- * opens every pack not on the device, with a search.
- */
-@Composable
-private fun AvailableCard(packs: List<PackStatus>, learning: LanguageOption?, native: String, viewModel: DictionariesViewModel, modifier: Modifier = Modifier) {
-    var browsing by remember { mutableStateOf(false) }
-    var query by remember { mutableStateOf("") }
-    val missing = packs.filter { it.state !is PackState.Installed }
-    val forLearning = missing.filter { it.pack.id.sourceLanguage == learning?.code }
-        .sortedWith(compareBy({ it.pack.id.targetLanguage != native }, { it.pack.title }))
-    val shown = if (browsing || learning == null) missing.filter { it.pack.matches(query) } else forLearning
-    ContentCard(
-        if (browsing || learning == null) tr("All dictionaries") else tr("Available for {0}", tr(learning.name)),
-        if (browsing || learning == null) tr("Every dictionary not on this device.") else tr("Add meanings in another language."),
-        icon = AppIcons.Download,
-        modifier = modifier,
-    ) {
-        if (browsing || learning == null) {
-            SearchField(query, { query = it }, tr("Search dictionaries"), Modifier.fillMaxWidth())
-            Spacer(Modifier.height(AppSpacing.m))
-        }
-        if (shown.isEmpty()) {
-            Text(
-                when {
-                    query.isNotBlank() -> tr("No dictionaries match “{0}”.", query.trim())
-                    learning == null -> tr("Every dictionary is downloaded.")
-                    else -> tr("Every {0} dictionary is downloaded.", tr(learning.name))
-                },
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(vertical = AppSpacing.s),
-            )
-        }
-        // The full catalogue is long, so it scrolls inside the card.
-        val scroll = rememberScrollState()
-        Box(Modifier.fillMaxWidth().then(if (browsing) Modifier.heightIn(max = CATALOGUE_MAX_HEIGHT) else Modifier)) {
-            val list = Modifier.fillMaxWidth().then(if (browsing) Modifier.verticalScroll(scroll).padding(end = AppSpacing.l) else Modifier)
-            Column(list, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                shown.forEach { status -> AvailableRow(status, browsing, onDownload = { viewModel.download(status.pack) }) }
-            }
-            if (browsing) EdgeScrollbar(scroll)
-        }
-        Spacer(Modifier.height(AppSpacing.l))
-        InfoBanner(tr("One pack covers one source language with meanings in one language."))
-        if (learning != null) {
-            Spacer(Modifier.height(AppSpacing.l))
-            SecondaryButton(
-                if (browsing) tr("Show {0} dictionaries", tr(learning.name)) else tr("Browse all {0} dictionaries", DictionaryPacks.all.size),
-                onClick = { browsing = !browsing; query = "" },
-                modifier = Modifier.fillMaxWidth(),
-                icon = AppIcons.OpenInNew,
-                trailingIcon = Icons.AutoMirrored.Filled.KeyboardArrowRight,
-            )
-        }
-    }
-}
-
-@Composable
-private fun AvailableRow(status: PackStatus, browsing: Boolean, onDownload: () -> Unit) {
-    val state = status.state
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(AppSpacing.m),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        // For one source language the target is what tells the packs apart.
-        CodeTile(if (browsing) status.pack.id.sourceLanguage else status.pack.id.targetLanguage, size = 40)
-        Spacer(Modifier.width(AppSpacing.l))
-        Column(Modifier.weight(1f)) {
-            Text(status.pack.displayTitle, style = MaterialTheme.typography.bodyLarge)
-            Text(
-                when (state) {
-                    is PackState.Downloading -> tr("Downloading…")
-                    is PackState.Failed -> tr("Download failed: {0}", packFailure(state.message))
-                    else -> tr("Not downloaded")
-                },
-                style = MaterialTheme.typography.bodySmall,
-                color = if (state is PackState.Failed) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-            if (state is PackState.Downloading) {
-                AppProgressBar(state.progress, Modifier.padding(top = AppSpacing.xs))
-            }
-        }
-        Spacer(Modifier.width(AppSpacing.m))
-        if (state !is PackState.Downloading) {
-            SecondaryButton(if (state is PackState.Failed) tr("Retry") else tr("Download"), onClick = onDownload)
-        }
-    }
-}
 
 /** Looks a word up in the pack, to check what the reader will show for it. */
 @Composable

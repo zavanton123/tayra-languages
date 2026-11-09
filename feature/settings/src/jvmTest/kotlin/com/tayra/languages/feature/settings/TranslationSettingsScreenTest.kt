@@ -1,5 +1,9 @@
 package com.tayra.languages.feature.settings
 
+import kotlin.test.assertEquals
+import androidx.compose.ui.test.onAllNodesWithTag
+import androidx.compose.ui.test.assertCountEquals
+import com.tayra.languages.core.ui.navigation.Route
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
@@ -77,8 +81,9 @@ class TranslationSettingsScreenTest {
         override suspend fun removePackage(fromCode: String, toCode: String) { installed -= "$fromCode-$toCode" }
     }
 
+    /** The page says what the pair lacks, and the models are downloaded on the Downloads page, which it leads to. */
     @Test
-    fun theMissingPackageForThePairIsInstalledAndOthersRemoved() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun theMissingModelsAreFetchedFromTheDownloads() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-translation-settings", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
@@ -88,38 +93,20 @@ class TranslationSettingsScreenTest {
             settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru", translationEngine = TranslationEngine.ARGOS) }
         }
         val viewModel = OfflineTranslationViewModel(settings, languages, LocalTranslation(argos), object : GoogleTranslation { override suspend fun checkKey() = "ok" })
-        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
+        val visited = mutableListOf<Route>()
+        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = { visited += it }, onBack = {}, viewModel = viewModel) } }
 
-        // The pair lacks Portuguese → English; installing it makes the pair ready.
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → Russian needs", substring = true)).fetchSemanticsNodes().isNotEmpty() }
-        System.getenv("TRANSLATION_SCREENSHOT")?.let { save(it.replace(".png", "-needs.png")) }
-        onAllNodes(hasText("Install") and hasClickAction())[0].performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → Russian is ready")).fetchSemanticsNodes().isNotEmpty() }
-        assertTrue("pt-en" in argos.installed)
-        onNodeWithText("Offline translation ready").assertExists()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("downloads-link").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("TRANSLATION_SCREENSHOT")?.let { save(it) }
-
-        // The other packages are found under Available, and searching narrows them.
-        onNodeWithText("Available").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Italian → English")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Search packages").performTextInput("pol")
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Italian → English")).fetchSemanticsNodes().isEmpty() }
-        onNodeWithText("Polish → English").assertExists()
-
-        // An installed package is removed from its menu.
-        onNode(hasSetTextAction()).performTextClearance()
-        onNodeWithText("Downloaded").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Bulgarian → English")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithContentDescription("More for Bulgarian → English").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Remove")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Remove").performClick()
-        waitUntil(timeoutMillis = 5_000) { "bg-en" !in argos.installed }
-        assertFalse("bg-en" in argos.installed)
+        onNodeWithText("Search packages").assertDoesNotExist()
+        onAllNodes(hasText("Install") and hasClickAction()).assertCountEquals(0)
+        onNodeWithTag("open-downloads").performScrollTo().performClick()
+        assertEquals(listOf<Route>(Route.Downloads), visited)
+        assertFalse("pt-en" in argos.installed, "nothing is downloaded from this page")
     }
 
-    /** A phone installs what the pair lacks with one button and reaches the rest of the catalogue through a sheet. */
     @Test
-    fun aPhoneInstallsTheMissingPackagesWithOneButton() = runDesktopComposeUiTest(width = 400, height = 1100) {
+    fun aPhoneLeadsToTheDownloadsToo() = runDesktopComposeUiTest(width = 400, height = 1100) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-translation-phone", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
@@ -129,24 +116,13 @@ class TranslationSettingsScreenTest {
             settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru", translationEngine = TranslationEngine.ARGOS) }
         }
         val viewModel = OfflineTranslationViewModel(settings, languages, LocalTranslation(argos), object : GoogleTranslation { override suspend fun checkKey() = "ok" })
-        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
+        val visited = mutableListOf<Route>()
+        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = { visited += it }, onBack = {}, viewModel = viewModel) } }
 
-        // Portuguese → Russian needs two packages, so it goes through English; one button installs both.
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → Russian translates through English.")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Language setup").assertDoesNotExist()
-        onNodeWithText("Portuguese → English").assertExists()
-        onNodeWithText("English → Russian").assertExists()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("downloads-link").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("TRANSLATION_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
-        onNodeWithTag("phone-install-missing").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { "pt-en" in argos.installed && "en-ru" in argos.installed }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → Russian is ready")).fetchSemanticsNodes().isNotEmpty() }
-
-        // The catalogue sheet lists the rest and searches them.
-        onNodeWithTag("phone-browse-packages").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Italian → English")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Search packages").performTextInput("pol")
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Italian → English")).fetchSemanticsNodes().isEmpty() }
-        onNodeWithText("Polish → English").assertExists()
+        onNodeWithTag("open-downloads").performScrollTo().performClick()
+        assertEquals(listOf<Route>(Route.Downloads), visited)
     }
 
     private fun ComposeUiTest.save(path: String) {

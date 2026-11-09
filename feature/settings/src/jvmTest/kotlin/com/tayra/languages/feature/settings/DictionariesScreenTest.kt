@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.settings
 
+import kotlin.test.assertEquals
+import com.tayra.languages.core.ui.navigation.Route
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
@@ -61,7 +63,7 @@ class DictionariesScreenTest {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-dictionaries", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
-        val store = FakeStore(setOf("be-ru", "bg-ru", "ca-ru", "hr-ru", "cs-ru", "en-ru", "fi-ru", "de-ru", "pt-ru", "pt-en"))
+        val store = FakeStore(setOf("en-ru", "pt-ru"))
         val service = DictionaryService(store, FakeEntries)
         runBlocking {
             service.refresh()
@@ -69,20 +71,17 @@ class DictionariesScreenTest {
             settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru") }
         }
         val viewModel = DictionariesViewModel(settings, service, languages)
-        setContent { Hosted(settings) { DictionariesScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
+        val visited = mutableListOf<Route>()
+        setContent { Hosted(settings) { DictionariesScreen(onNavigate = { visited += it }, onBack = {}, viewModel = viewModel) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline lookup ready")).fetchSemanticsNodes().isNotEmpty() }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → French · Wiktionary")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("DICTIONARIES_SCREENSHOT")?.let { save(it) }
 
-        // Nine Russian packs are installed; eight show until "View all", the language being learned first.
-        onAllNodes(hasText("Portuguese → Russian")).onFirst().assertExists()
-        onNodeWithText("View all 9 installed dictionaries").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Show fewer")).fetchSemanticsNodes().isNotEmpty() }
-
-        // Downloading a pack for the language being learned moves it to the installed ones.
-        onAllNodes(hasText("Download") and hasClickAction())[0].performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { "pt-ru" in store.installed && store.installed.size == 11 }
+        // The page downloads nothing itself: the dictionaries are fetched and removed on the Downloads page.
+        onNodeWithText("Downloaded dictionaries").assertDoesNotExist()
+        onAllNodes(hasText("Download") and hasClickAction()).assertCountEquals(0)
+        onNodeWithTag("open-downloads").performScrollTo().performClick()
+        assertEquals(listOf<Route>(Route.Downloads), visited)
 
         // A lookup shows what the reader will show.
         onNodeWithText("Test lookup").performClick()
@@ -91,23 +90,15 @@ class DictionariesScreenTest {
         onNodeWithText("Look up").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("1. волк")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("DICTIONARIES_SCREENSHOT")?.let { save(it.replace(".png", "-lookup.png"), root = 1) }
-        onNodeWithText("Close").performClick()
-
-        // A pack is removed from its menu.
-        onNodeWithContentDescription("More for Belarusian → Russian").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Remove")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Remove").performClick()
-        waitUntil(timeoutMillis = 5_000) { "be-ru" !in store.installed }
-        assertFalse("be-ru" in store.installed)
     }
 
-    /** A phone downloads the pair's dictionary with one button and switches between Installed and Available with a search. */
+    /** A phone shows the pair's dictionary is missing and leads to the Downloads page to fetch it. */
     @Test
-    fun aPhoneDownloadsThePairWithOneButtonAndSearchesTheRest() = runDesktopComposeUiTest(width = 400, height = 1200) {
+    fun aPhoneLeadsToTheDownloadsForAMissingDictionary() = runDesktopComposeUiTest(width = 400, height = 1200) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-dictionaries-phone", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
-        val store = FakeStore(setOf("en-ru", "de-ru"))
+        val store = FakeStore(setOf("en-ru"))
         val service = DictionaryService(store, FakeEntries)
         runBlocking {
             service.refresh()
@@ -115,34 +106,14 @@ class DictionariesScreenTest {
             settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru") }
         }
         val viewModel = DictionariesViewModel(settings, service, languages)
-        setContent { Hosted(settings) { DictionariesScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
+        val visited = mutableListOf<Route>()
+        setContent { Hosted(settings) { DictionariesScreen(onNavigate = { visited += it }, onBack = {}, viewModel = viewModel) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → Russian is not downloaded")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Manage downloaded dictionaries for offline lookup.").assertDoesNotExist()
-        onNodeWithText("Downloaded 2").assertExists()
         System.getenv("DICTIONARIES_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
         onNodeWithTag("phone-download-current").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { "pt-ru" in store.installed }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Dictionary ready")).fetchSemanticsNodes().isNotEmpty() }
-
-        // Available leads with the learning language; a search looks through everything.
-        onNodeWithTag("phone-tab-AVAILABLE").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Available for Portuguese")).fetchSemanticsNodes().isNotEmpty() }
-        // The pair's FreeDict pack has the same title, its source on the line below.
-        onAllNodesWithText("Portuguese → French").assertCountEquals(2)
-        onAllNodesWithText("Portuguese → French")[1].performScrollTo()
-        onAllNodesWithText("FreeDict").onFirst().assertExists()
-        onNodeWithText("Search dictionaries").performTextInput("Czech")
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("All dictionaries")).fetchSemanticsNodes().isNotEmpty() }
-        onAllNodesWithText("Czech → Russian").onFirst().performScrollTo().assertExists()
-
-        // Installed lists what is on the device, with removal from the row's menu.
-        onNodeWithTag("phone-tab-INSTALLED").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Downloaded dictionaries")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithContentDescription("More for German → Russian · Wiktionary").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Remove")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Remove").performClick()
-        waitUntil(timeoutMillis = 5_000) { "de-ru" !in store.installed }
+        assertEquals(listOf<Route>(Route.Downloads), visited)
+        assertFalse("pt-ru" in store.installed, "nothing is downloaded from this page")
     }
 
     private fun ComposeUiTest.save(path: String, root: Int = 0) {

@@ -1,5 +1,8 @@
 package com.tayra.languages.feature.settings
 
+import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.assertCountEquals
+import com.tayra.languages.core.ui.navigation.Route
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
@@ -120,7 +123,7 @@ class SpeechSettingsScreenTest {
         }
     }
 
-    private fun ComposeUiTest.show(engine: SpeechEngine, kokoro: FakeKokoro, piper: FakePiper, recognition: SpeechRecognitionSetup? = null): SettingsRepositoryImpl {
+    private fun ComposeUiTest.show(engine: SpeechEngine, kokoro: FakeKokoro, piper: FakePiper, recognition: SpeechRecognitionSetup? = null, visited: MutableList<Route> = mutableListOf()): SettingsRepositoryImpl {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-speech-settings", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
@@ -129,7 +132,7 @@ class SpeechSettingsScreenTest {
             settings.update { it.copy(currentLanguageId = portuguese, speechEngine = engine, speechSpeed = 0.8f) }
         }
         val viewModel = SpeechViewModel(settings, languages, LocalSpeech(listOf(piper, kokoro)), recognition)
-        setContent { HostedSpeech(settings) { SpeechScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
+        setContent { HostedSpeech(settings) { SpeechScreen(onNavigate = { visited += it }, onBack = {}, viewModel = viewModel) } }
         return settings
     }
 
@@ -139,97 +142,71 @@ class SpeechSettingsScreenTest {
         val settings = show(SpeechEngine.KOKORO, kokoro, FakePiper())
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline speech ready")).fetchSemanticsNodes().isNotEmpty() }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Alex (Brazilian, male)")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Portuguese uses Alex (Brazilian, male).", substring = true).assertExists()
         onNodeWithText("80%").assertExists()
         System.getenv("SPEECH_SCREENSHOT")?.let { save(it) }
 
         onNodeWithContentDescription("speech speed").performSemanticsAction(SemanticsActions.SetProgress) { it(0.85f) }
         waitUntil(timeoutMillis = 5_000) { settings.current.speechSpeed == 0.85f }
 
-        // Removing the model leaves Portuguese without a Kokoro voice.
-        onNodeWithContentDescription("More for Kokoro model with 34 voices").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Remove")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Remove").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("No Portuguese voice yet")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Download").assertExists()
+        // The model is downloaded and removed on the Downloads page, not here.
+        onNodeWithText("Kokoro model with 34 voices", substring = true).assertDoesNotExist()
+        onNodeWithTag("downloads-link").assertExists()
     }
 
+    /** The voices are chosen here and downloaded on the Downloads page, which the page leads to. */
     @Test
-    fun piperListsVoicesToDownloadForTheLanguage() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun piperLeadsToTheDownloadsForMoreVoices() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val piper = FakePiper()
-        show(SpeechEngine.PIPER, FakeKokoro(), piper)
+        val visited = mutableListOf<Route>()
+        show(SpeechEngine.PIPER, FakeKokoro(), piper, visited = visited)
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Faber (Brazil, medium)")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-piper.png")) }
-
-        // Available offers the other Portuguese voices; other languages appear when searched for.
-        onNodeWithText("Available").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Cadu (Brazil, medium)")).fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(onAllNodes(hasText("Jirka (Czechia, low)")).fetchSemanticsNodes().isEmpty())
-        onAllNodes(hasText("Download") and hasClickAction())[0].performClick()
-        waitUntil(timeoutMillis = 5_000) { piper.installed.size == 2 }
-        onNodeWithText("Search voices").performTextInput("czech")
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Jirka (Czechia, low)")).fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(2, piper.installed.size)
+        onNodeWithText("Search voices").assertDoesNotExist()
+        onAllNodes(hasText("Download") and hasClickAction()).assertCountEquals(0)
+        onNodeWithTag("open-downloads").performScrollTo().performClick()
+        assertEquals(listOf<Route>(Route.Downloads), visited)
     }
 
-    /** A phone shows a pill for the voice situation, the speed under its label, and the voices to download in a plain list. */
+    /** A phone shows a pill for the voice situation and the speed under its label; a missing voice is fetched from the Downloads page. */
     @Test
-    fun aPhoneListsTheVoicesToDownloadUnderThePill() = runDesktopComposeUiTest(width = 400, height = 1400) {
+    fun aPhoneLeadsToTheDownloadsForAMissingVoice() = runDesktopComposeUiTest(width = 400, height = 1400) {
         val piper = FakePiper()
         piper.installed.clear()
-        val settings = show(SpeechEngine.PIPER, FakeKokoro(), piper)
+        val visited = mutableListOf<Route>()
+        val settings = show(SpeechEngine.PIPER, FakeKokoro(), piper, visited = visited)
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("No Portuguese voice yet")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Available Portuguese voices").assertExists()
-        // The notice that says a voice is missing holds the way to one.
-        onNodeWithTag("notice-download-voice").assertExists()
         onNodeWithText("80%").assertExists()
         onNodeWithText("Reader playback and term pronunciation use this engine.").assertDoesNotExist()
         System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
-
-        // Downloading a voice makes it the language's voice and lifts the banner.
-        onAllNodes(hasText("Download") and hasClickAction())[0].performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { piper.installed.size == 1 }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline speech ready")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Downloaded voices").assertExists()
-        onNodeWithTag("notice-download-voice").assertDoesNotExist()
-        onNodeWithText("Search voices").performTextInput("czech")
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Jirka (Czechia, low)")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("notice-download-voice").performScrollTo().performClick()
+        assertEquals(listOf<Route>(Route.Downloads), visited)
+        assertTrue(piper.installed.isEmpty(), "nothing is downloaded from this page")
         onNodeWithTag("phone-speech-speed").performSemanticsAction(SemanticsActions.SetProgress) { it(1.0f) }
         waitUntil(timeoutMillis = 5_000) { settings.current.speechSpeed == 1.0f }
     }
 
-    private fun ComposeUiTest.download(quality: String) =
-        onNode(hasText("Download") and hasClickAction() and androidx.compose.ui.test.hasAnyAncestor(androidx.compose.ui.test.hasTestTag("recognition-model-$quality")))
-
-    /** Either model is downloaded from the card, the one downloaded last hears, either is chosen once both are there, and one can be removed. */
+    /** The models on the device are chosen between here; the others say they are not downloaded. */
     @Test
-    fun recognitionModelsAreDownloadedChosenAndRemoved() = runDesktopComposeUiTest(width = 1586, height = 1400) {
+    fun theRecognitionModelOnTheDeviceIsChosen() = runDesktopComposeUiTest(width = 1586, height = 1400) {
         val recognition = FakeRecognition()
+        recognition.installed += RecognitionQuality.MEDIUM
+        recognition.installed += RecognitionQuality.HIGH
         val settings = show(SpeechEngine.PIPER, FakeKokoro(), FakePiper(), recognition)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("recognition-model-HIGH").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Not installed").assertExists()
-        onNodeWithText("580.0 MB", substring = true).assertExists()
-        onNodeWithTag("recognition-model-MEDIUM").performScrollTo()
-        download("MEDIUM").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Downloading the recognition model (120 of 484 MB)…")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-recognition.png")) }
-        recognition.installing.complete(Unit)
-        waitUntil(timeoutMillis = 5_000) { RecognitionQuality.MEDIUM in recognition.installed && onAllNodes(hasText("Downloaded")).fetchSemanticsNodes().size >= 2 }
-        assertEquals("MEDIUM", settings.current.speechRecognitionQuality)
-
-        recognition.installing = CompletableDeferred<Unit>().also { it.complete(Unit) }
-        download("HIGH").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { RecognitionQuality.HIGH in recognition.installed }
+        onNodeWithTag("recognition-model-HIGH").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.speechRecognitionQuality == "HIGH" }
-        System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-recognition-both.png")) }
-
         onNodeWithTag("recognition-model-MEDIUM").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.speechRecognitionQuality == "MEDIUM" }
+        onAllNodes(hasText("Download") and hasClickAction()).assertCountEquals(0)
+    }
 
-        onNodeWithContentDescription("More for High quality").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Remove")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Remove").performClick()
-        waitUntil(timeoutMillis = 5_000) { RecognitionQuality.HIGH !in recognition.installed }
+    @Test
+    fun aModelNotDownloadedSaysSo() = runDesktopComposeUiTest(width = 1586, height = 1400) {
+        show(SpeechEngine.PIPER, FakeKokoro(), FakePiper(), FakeRecognition())
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("recognition-model-HIGH").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Not installed").assertExists()
+        onAllNodesWithText("Not downloaded").assertCountEquals(2)
     }
 
     @Test

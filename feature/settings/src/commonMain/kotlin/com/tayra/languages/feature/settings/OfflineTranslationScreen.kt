@@ -9,14 +9,12 @@ import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.OverflowMenu
-import com.tayra.languages.core.ui.components.PackageTab
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
-import com.tayra.languages.core.ui.components.TabToggle
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.formatSize
 import androidx.compose.foundation.border
@@ -114,7 +112,6 @@ class OfflineTranslationViewModel(
     val hasLocalTranslator: Boolean = localTranslation.translator != null
     val localName: String = localTranslation.translator?.displayName.orEmpty()
     val localDescription: String = localTranslation.translator?.description.orEmpty()
-    val localPackagesDescription: String = localTranslation.translator?.packagesDescription.orEmpty()
     val hasRuntimeSetup: Boolean = localTranslation.translator?.hasRuntimeSetup == true
 
     /** Package keys the books in use need, as the translator counts them. */
@@ -150,8 +147,6 @@ class OfflineTranslationViewModel(
 
     private val _packages = MutableStateFlow<List<LocalPackage>>(emptyList())
     val packages: StateFlow<List<LocalPackage>> = _packages.asStateFlow()
-    private val _packageBusy = MutableStateFlow<Set<String>>(emptySet())
-    val packageBusy: StateFlow<Set<String>> = _packageBusy.asStateFlow()
 
     private val _ready = MutableStateFlow(true)
     /** False once a check finds no working runtime, which reveals the install button. */
@@ -187,26 +182,6 @@ class OfflineTranslationViewModel(
             _ready.value = packages.isSuccess
             _packages.value = packages.getOrDefault(emptyList())
             summary + "\n" + translator.status()
-        }
-    }
-
-    fun installPackage(pkg: LocalPackage) = packageTask(pkg) { it.installPackage(pkg.fromCode, pkg.toCode) }
-
-    fun removePackage(pkg: LocalPackage) = packageTask(pkg) { it.removePackage(pkg.fromCode, pkg.toCode) }
-
-    private fun packageTask(pkg: LocalPackage, block: suspend (LocalSentenceTranslator) -> Unit) {
-        val translator = localTranslation.translator ?: return
-        if (pkg.key in _packageBusy.value) return
-        _packageBusy.update { it + pkg.key }
-        viewModelScope.launch {
-            try {
-                block(translator)
-                _packages.value = translator.packages()
-                _status.value = translator.status()
-            } catch (e: Exception) {
-                _status.value = "${pkg.displayTitle}: ${e.message}"
-            }
-            _packageBusy.update { it - pkg.key }
         }
     }
 
@@ -267,7 +242,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 LanguagePairCard(settings, viewModel, learningName, nativeName, onNavigate)
                 EngineCard(settings, viewModel, pair.ready)
             }
-            if (local && (packages.isNotEmpty() || ready)) PackagesCard(viewModel, packages, wanted, pair)
+            if (local) DownloadsLinkCard(modelsInDownloads(), onNavigate)
         }
     }
 }
@@ -498,176 +473,5 @@ internal fun TranslationEngine.shortName(localName: String): String = when (this
     TranslationEngine.GOOGLE -> "Google Translate"
 }
 
-/** The translator's language packages: what is installed, what the language pair needs, and the rest to download. */
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<LocalPackage>, wanted: Set<String>, pair: PairState) {
-    val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
-    var tab by remember { mutableStateOf(PackageTab.INSTALLED) }
-    var query by remember { mutableStateOf("") }
-    val compact = LocalWindowWidth.current.isCompact
-    val installed = packages.filter { it.installed }
-    val runtime = viewModel.hasRuntimeSetup
-    val title = if (runtime) tr("Language packages") else tr("Language models")
-    val matches = { pkg: LocalPackage -> query.isBlank() || pkg.title.contains(query.trim(), ignoreCase = true) || pkg.displayTitle.contains(query.trim(), ignoreCase = true) }
-    val shown = when (tab) {
-        PackageTab.INSTALLED -> installed
-        PackageTab.AVAILABLE -> packages.filter { !it.installed }.sortedWith(compareBy({ it.key !in wanted }, { it.title }))
-    }.filter(matches).let { list -> if (tab == PackageTab.INSTALLED) list.sortedBy { it.title } else list }
-
-    val search: @Composable (Modifier) -> Unit = { modifier ->
-        SearchField(query, { query = it }, if (runtime) tr("Search packages") else tr("Search models"), modifier)
-    }
-    ContentCard(
-        title,
-        if (runtime) tr("Download language models for offline translation.") else tr("Download language models for translation on this device."),
-        icon = AppIcons.Download,
-        headerExtra = {
-            if (!compact) {
-                Tag(tr("{0} downloaded", installed.size), MaterialTheme.colorScheme.primary)
-                Spacer(Modifier.width(AppSpacing.l))
-                search(Modifier.width(PACKAGE_SEARCH_WIDTH))
-                Spacer(Modifier.width(AppSpacing.m))
-                TabToggle(tab) { tab = it }
-            }
-        },
-    ) {
-        if (compact) {
-            search(Modifier.fillMaxWidth())
-            Spacer(Modifier.height(AppSpacing.m))
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Tag(tr("{0} downloaded", installed.size), MaterialTheme.colorScheme.primary)
-                Spacer(Modifier.weight(1f))
-                TabToggle(tab) { tab = it }
-            }
-            Spacer(Modifier.height(AppSpacing.m))
-        }
-        PackageSummary(viewModel, installed, pair, packageBusy)
-        Spacer(Modifier.height(AppSpacing.m))
-        if (shown.isEmpty()) {
-            Text(
-                when {
-                    query.isNotBlank() -> if (runtime) tr("No packages match “{0}”.", query.trim()) else tr("No models match “{0}”.", query.trim())
-                    tab == PackageTab.INSTALLED -> if (runtime) tr("No packages installed yet.") else tr("No models installed yet.")
-                    else -> if (runtime) tr("All packages are installed.") else tr("All models are installed.")
-                },
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(vertical = AppSpacing.m),
-            )
-        }
-        FlowRow(
-            Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
-            verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
-            maxItemsInEachRow = if (compact) 1 else 2,
-        ) {
-            shown.forEach { pkg ->
-                PackageTile(
-                    pkg,
-                    busy = pkg.key in packageBusy,
-                    needed = pkg.key in wanted,
-                    onInstall = { viewModel.installPackage(pkg) },
-                    onRemove = { viewModel.removePackage(pkg) },
-                    modifier = Modifier.weight(1f),
-                )
-            }
-            // An odd last tile keeps half the width instead of stretching across.
-            if (!compact && shown.size % 2 == 1) Spacer(Modifier.weight(1f))
-        }
-        if (tab == PackageTab.INSTALLED && packages.size > installed.size) {
-            Spacer(Modifier.height(AppSpacing.l))
-            SecondaryButton(
-                if (runtime) tr("Browse all {0} packages", packages.size) else tr("Browse all {0} models", packages.size),
-                onClick = { tab = PackageTab.AVAILABLE; query = "" },
-                icon = AppIcons.OpenInNew,
-                trailingIcon = Icons.AutoMirrored.Filled.KeyboardArrowRight,
-            )
-        }
-    }
-}
-
-/** Disk used, whether the language pair is covered (with a button for what it lacks), and how pairs are bridged. */
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: List<LocalPackage>, pair: PairState, packageBusy: Set<String>) {
-    FlowRow(
-        Modifier.fillMaxWidth().clip(AppShapes.control).background(MaterialTheme.colorScheme.surfaceContainerLow)
-            .border(AppBorders.hairline(), AppShapes.control).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
-        itemVerticalAlignment = Alignment.CenterVertically,
-    ) {
-        val used = installed.sumOf { it.sizeBytes }
-        if (used > 0) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Icon(AppIcons.Storage, contentDescription = null, modifier = Modifier.size(AppSizes.icon), tint = MaterialTheme.colorScheme.onSurfaceVariant)
-                Spacer(Modifier.width(AppSpacing.s))
-                Text(tr("{0} used", formatSize(used)), style = AppText.labelStrong)
-            }
-            AppVerticalDivider(Modifier.height(SUMMARY_DIVIDER_HEIGHT))
-        }
-        if (pair.learning != null && !pair.sameLanguage) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                if (pair.ready) {
-                    Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(AppSizes.icon))
-                    Spacer(Modifier.width(AppSpacing.s))
-                    Text(tr("{0} is ready", pair.label), style = MaterialTheme.typography.bodyMedium)
-                } else {
-                    Icon(Icons.Default.Warning, contentDescription = null, tint = StatusTints.warning, modifier = Modifier.size(AppSizes.icon))
-                    Spacer(Modifier.width(AppSpacing.s))
-                    Text(tr("{0} needs {1}", pair.label, pair.missing.joinToString { it.displayTitle }), style = MaterialTheme.typography.bodyMedium)
-                    Spacer(Modifier.width(AppSpacing.m))
-                    val installing = pair.missing.any { it.key in packageBusy }
-                    PrimaryButton(
-                        onClick = { pair.missing.forEach(viewModel::installPackage) },
-                        enabled = !installing,
-                        size = ButtonSize.Compact,
-                    ) { Text(if (installing) tr("Installing…") else tr("Install")) }
-                }
-            }
-        }
-        Spacer(Modifier.weight(1f))
-        Text(
-            if (viewModel.hasRuntimeSetup) tr("When a direct package is unavailable, Argos can translate through English.")
-            else tr("Each language has its own model; translations go through English."),
-            style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
-    }
-}
-
-@Composable
-internal fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onInstall: () -> Unit, onRemove: () -> Unit, modifier: Modifier = Modifier) {
-    Row(
-        modifier.clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
-            .padding(start = AppSpacing.m, end = AppSpacing.xs, top = AppSpacing.s, bottom = AppSpacing.s),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        CodeTile(pkg.fromCode)
-        Spacer(Modifier.width(AppSpacing.l))
-        Column(Modifier.weight(1f)) {
-            Text(pkg.displayTitle, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            val detail = listOfNotNull(pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize), tr("Needed for your language").takeIf { needed && !pkg.installed })
-            if (detail.isNotEmpty()) Text(detail.joinToString(" · "), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            if (busy) AppProgressBar(null, Modifier.padding(top = AppSpacing.xs))
-        }
-        Spacer(Modifier.width(AppSpacing.m))
-        when {
-            busy -> Text(if (pkg.installed) tr("Removing…") else tr("Downloading…"), style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = AppSpacing.m))
-            pkg.installed -> {
-                StatusDot(StatusTints.ok, size = AppSizes.dot)
-                Spacer(Modifier.width(AppSpacing.s))
-                Text(tr("Downloaded"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
-                Spacer(Modifier.width(AppSpacing.xs))
-                OverflowMenu(tr("More for {0}", pkg.displayTitle)) { close ->
-                    AppMenuItem(text = { Text(tr("Remove")) }, onClick = { close(); onRemove() })
-                }
-            }
-            else -> PrimaryButton(tr("Install"), onClick = onInstall, modifier = Modifier.padding(end = AppSpacing.s))
-        }
-    }
-}
-
-private val PACKAGE_SEARCH_WIDTH = 260.dp
-private val SUMMARY_DIVIDER_HEIGHT = 22.dp
+/** What the Downloads page offers in place of this page's own downloads. */
+internal fun modelsInDownloads(): String = tr("Download or remove the translation models for the language you learn on the Downloads page.")

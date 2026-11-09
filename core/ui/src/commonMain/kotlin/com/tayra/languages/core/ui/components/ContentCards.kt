@@ -338,15 +338,6 @@ fun PageColumn(padding: PaddingValues, modifier: Modifier = Modifier, content: @
     }
 }
 
-/** [label] is English, shown through `tr`. */
-enum class PackageTab(val label: String) { INSTALLED("Downloaded"), AVAILABLE("Available") }
-
-/** The Downloaded / Available switch above a list of downloads; [fill] spreads it across a phone's width. */
-@Composable
-fun TabToggle(selected: PackageTab, fill: Boolean = false, onSelect: (PackageTab) -> Unit) {
-    SegmentedToggle(PackageTab.entries.map { Segment(it, label = tr(it.label)) }, selected, onSelect, fill = fill)
-}
-
 private val codeTints = AppAccents.sequence.take(7)
 
 /** A language code on a square tinted per code, as on download tiles. */

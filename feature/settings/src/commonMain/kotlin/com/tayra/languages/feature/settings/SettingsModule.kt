@@ -15,7 +15,7 @@ val settingsModule = module {
     viewModel { SettingsViewModel(get(), getOrNull(), getOrNull()) }
     viewModel { PersonalSchedulingViewModel(get(), get()) }
     viewModel { RetentionHelpViewModel(get(), get()) }
-    viewModel { DictionariesViewModel(get(), get(), get(), get()) }
+    viewModel { DictionariesViewModel(get(), get(), get()) }
     viewModel { DownloadsViewModel(get(), get(), get(), get(), get(), get(), get()) }
     viewModel { SpeechViewModel(get(), get(), get(), getOrNull()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }

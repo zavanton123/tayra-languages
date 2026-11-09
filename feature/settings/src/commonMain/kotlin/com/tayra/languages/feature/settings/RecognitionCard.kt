@@ -38,16 +38,13 @@ import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 
 /**
- * Speech recognition for speaking practice, installed into the app folder: a model of medium or high
- * quality to download, remove, and choose between when both are there.
+ * Speech recognition for speaking practice: which of the models on the device, of medium or high
+ * quality, hears the answers. They are downloaded and removed on the Downloads page.
  */
 @Composable
-internal fun RecognitionCard(viewModel: SpeechViewModel) {
-    val setup = viewModel.recognition ?: return
+internal fun RecognitionCard(viewModel: SpeechViewModel, modifier: Modifier = Modifier) {
+    if (viewModel.recognition == null) return
     val models by viewModel.recognitionModels.collectAsStateWithLifecycle()
-    val busy by viewModel.recognitionBusy.collectAsStateWithLifecycle()
-    val error by viewModel.recognitionError.collectAsStateWithLifecycle()
-    val progress by setup.progress.collectAsStateWithLifecycle()
     val settings by viewModel.state.collectAsStateWithLifecycle()
     LaunchedEffect(viewModel) { viewModel.checkRecognition() }
     // The model chosen hears where it is downloaded; else the other one does.
@@ -57,7 +54,7 @@ internal fun RecognitionCard(viewModel: SpeechViewModel) {
         tr("Speech recognition"),
         tr("Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded."),
         icon = AppIcons.Mic,
-        modifier = Modifier.testTag("speech-recognition"),
+        modifier = modifier.testTag("speech-recognition"),
         titleExtra = {
             if (models.isNotEmpty()) {
                 if (hearing != null) Tag(tr("Installed"), StatusTints.ok) else Tag(tr("Not installed"), StatusTints.warning)
@@ -69,28 +66,16 @@ internal fun RecognitionCard(viewModel: SpeechViewModel) {
                 ModelRow(
                     model,
                     hearing = model == hearing,
-                    busy = busy == model.quality,
                     onChoose = { viewModel.chooseRecognition(model.quality) },
-                    onInstall = { viewModel.installRecognition(model.quality) },
-                    onRemove = { viewModel.removeRecognition(model.quality) },
                 )
             }
-        }
-        if (busy != null) {
-            Spacer(Modifier.height(AppSpacing.m))
-            Text(progress?.let { trProgress(it) } ?: tr("Installing speech recognition…"), style = MaterialTheme.typography.bodySmall)
-            AppProgressBar(null, Modifier.padding(top = AppSpacing.xs))
-        }
-        error?.let {
-            Spacer(Modifier.height(AppSpacing.m))
-            Text(tr("Could not install: {0}", it), style = MaterialTheme.typography.bodySmall, color = StatusTints.warning, modifier = Modifier.testTag("recognition-error"))
         }
     }
 }
 
-/** One model: picked to hear when downloaded, with what it is and the way to download or remove it. */
+/** One model: picked to hear when it is on the device, with what it is and whether it is there. */
 @Composable
-private fun ModelRow(model: RecognitionModel, hearing: Boolean, busy: Boolean, onChoose: () -> Unit, onInstall: () -> Unit, onRemove: () -> Unit) {
+private fun ModelRow(model: RecognitionModel, hearing: Boolean, onChoose: () -> Unit) {
     val (title, about) = when (model.quality) {
         RecognitionQuality.MEDIUM -> tr("Medium quality") to tr("Whisper small: quick, well enough for a phrase")
         RecognitionQuality.HIGH -> tr("High quality") to tr("Whisper large turbo: better at an accent, a few seconds a phrase")
@@ -111,6 +96,7 @@ private fun ModelRow(model: RecognitionModel, hearing: Boolean, busy: Boolean, o
             )
         }
         Spacer(Modifier.width(AppSpacing.m))
-        PackageAction(SpeechPackage(model.quality.name, title, null, "", model.downloadSize, model.installed), busy, onInstall = onInstall, onRemove = onRemove)
+        if (model.installed) Text(tr("On this device"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
+        else Text(tr("Not downloaded"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }

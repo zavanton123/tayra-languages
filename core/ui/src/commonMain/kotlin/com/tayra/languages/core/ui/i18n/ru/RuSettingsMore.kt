@@ -484,4 +484,9 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Answer practice aloud" to "Отвечайте вслух в упражнениях",
     "Remove this speech recognition model?" to "Удалить эту модель распознавания речи?",
     "Read the text of photos of pages" to "Распознавать текст на фотографиях страниц",
+    "Go to Downloads" to "Перейти к загрузкам",
+    "Download or remove dictionaries and text recognition models on the Downloads page." to "Скачивайте и удаляйте словари и модели распознавания текста на странице «Загрузки».",
+    "Download or remove the translation models for the language you learn on the Downloads page." to "Скачивайте и удаляйте модели перевода для изучаемого языка на странице «Загрузки».",
+    "Download or remove voices and speech recognition models on the Downloads page." to "Скачивайте и удаляйте голоса и модели распознавания речи на странице «Загрузки».",
+    "Download or remove voices on the Downloads page." to "Скачивайте и удаляйте голоса на странице «Загрузки».",
 )

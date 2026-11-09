@@ -484,4 +484,9 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Answer practice aloud" to "Responde en voz alta en la práctica",
     "Remove this speech recognition model?" to "¿Eliminar este modelo de reconocimiento de voz?",
     "Read the text of photos of pages" to "Leer el texto de fotos de páginas",
+    "Go to Downloads" to "Ir a Descargas",
+    "Download or remove dictionaries and text recognition models on the Downloads page." to "Descarga o elimina diccionarios y modelos de reconocimiento de texto en la página Descargas.",
+    "Download or remove the translation models for the language you learn on the Downloads page." to "Descarga o elimina los modelos de traducción del idioma que aprendes en la página Descargas.",
+    "Download or remove voices and speech recognition models on the Downloads page." to "Descarga o elimina voces y modelos de reconocimiento de voz en la página Descargas.",
+    "Download or remove voices on the Downloads page." to "Descarga o elimina voces en la página Descargas.",
 )

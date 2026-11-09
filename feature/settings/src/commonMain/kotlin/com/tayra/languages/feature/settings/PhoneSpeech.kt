@@ -116,7 +116,7 @@ internal fun PhoneSpeechScreen(
                 }
                 if (engine != null) {
                     Spacer(Modifier.height(AppSpacing.m))
-                    PhoneEngineStatus(viewModel, engine, voiceMissing = learning != null && voices[learning.code].isNullOrEmpty())
+                    PhoneEngineStatus(viewModel, engine, voiceMissing = learning != null && voices[learning.code].isNullOrEmpty(), onNavigate)
                 }
             }
             ContentCard(tr("Playback"), subtitle = null, icon = AppIcons.VolumeUp, dense = true) {
@@ -157,10 +157,7 @@ internal fun PhoneSpeechScreen(
                 }
                 PlaySample(viewModel, learning)
             }
-            if (engine != null && packages.isNotEmpty()) {
-                if (packages.all { it.languageCode == null }) packages.forEach { PhoneModelCard(viewModel, engine, it) }
-                else PhoneVoices(viewModel, packages, learning)
-            }
+            DownloadsLinkCard(voicesInDownloads(viewModel.recognition != null), onNavigate)
             if (viewModel.recognition != null) RecognitionCard(viewModel)
             if (engine != null && engine.hasRuntimeSetup) AdvancedRow(viewModel, engine)
         }
@@ -177,15 +174,13 @@ internal fun PhoneSpeechScreen(
 
 /** Whether the engine works; the install button shows only while it does not. */
 @Composable
-private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, voiceMissing: Boolean) {
+private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, voiceMissing: Boolean, onNavigate: (Route) -> Unit) {
     val busy by viewModel.busy.collectAsStateWithLifecycle()
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val failed by viewModel.failed.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
     // The way to a voice is in the notice that says one is missing: the language's downloads.
-    var setupFor by remember { mutableStateOf<Long?>(null) }
-    val learningId = LocalLearningLanguage.current?.currentId
     val working = ready && !failed
     // Amber while the language learned has no voice, as the status pill above says.
     val tint = when {
@@ -208,7 +203,7 @@ private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEng
         busy = busy,
         action = when {
             engine.hasRuntimeSetup && !ready && !busy -> { { PrimaryButton(tr("Install"), onClick = viewModel::install) } }
-            working && voiceMissing && learningId != null -> { { PrimaryButton(tr("Download voice"), onClick = { setupFor = learningId }, modifier = Modifier.testTag("notice-download-voice")) } }
+            working && voiceMissing -> { { PrimaryButton(tr("Go to Downloads"), onClick = { onNavigate(Route.Downloads) }, modifier = Modifier.testTag("notice-download-voice")) } }
             else -> null
         },
     ) {
@@ -217,7 +212,6 @@ private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEng
             AppProgressBar(null)
         }
     }
-    setupFor?.let { LanguageSetupDialog(it, onClosed = { setupFor = null }) }
 }
 
 /** Plays the language's sample sentence with the chosen engine and voice. */
@@ -238,101 +232,6 @@ private fun PlaySample(viewModel: SpeechViewModel, language: LanguageOption?) {
         modifier = Modifier.fillMaxWidth(),
         icon = if (active && !working) AppIcons.Stop else AppIcons.VolumeUp,
     )
-}
-
-/** One download holding the model and every voice, as Kokoro has. */
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun PhoneModelCard(viewModel: SpeechViewModel, engine: LocalSpeechEngine, pkg: SpeechPackage) {
-    val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
-    val colors = MaterialTheme.colorScheme
-    val busy = pkg.id in packageBusy
-    val voiceCount = Regex("""(\d+) voices""").find(pkg.title)?.groupValues?.get(1)
-    ContentCard(tr("Voice model"), subtitle = null, icon = AppIcons.Download, dense = true, headerExtra = { if (pkg.installed) Tag(tr("Downloaded"), StatusTints.ok) else Tag(tr("Not downloaded"), StatusTints.warning) }) {
-        Text(modelTitle(engine, pkg), style = AppText.itemTitle)
-        Text(
-            listOfNotNull(voiceCount?.let { trPlural(it.toInt(), "{0} voice", "{0} voices") }, pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize)).joinToString(" · "),
-            style = MaterialTheme.typography.bodyMedium,
-            color = colors.onSurfaceVariant,
-        )
-        Spacer(Modifier.height(AppSpacing.m))
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            pkg.group.split(", ").filter { it.isNotBlank() }.forEach { name -> CodeTile(LanguageCodes.codeFor(name) ?: name.take(2), size = 34) }
-        }
-        if (busy) AppProgressBar(null, Modifier.padding(top = AppSpacing.m))
-        Spacer(Modifier.height(AppSpacing.l))
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-            PackageAction(pkg, busy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
-        }
-    }
-}
-
-/** One download per voice, as Piper has: the voices on the device, then those to download for the language, with a search for the rest. */
-@Composable
-private fun PhoneVoices(viewModel: SpeechViewModel, packages: List<SpeechPackage>, learning: LanguageOption?) {
-    val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
-    val colors = MaterialTheme.colorScheme
-    var query by remember { mutableStateOf("") }
-    val matches = { pkg: SpeechPackage -> query.isBlank() || listOf(pkg.title, pkg.group, tr(pkg.group)).any { it.contains(query.trim(), true) } }
-    val installed = packages.filter { it.installed }.filter(matches).sortedWith(compareBy({ it.languageCode != learning?.code }, { it.title }))
-    // Voices for the language being learned come first; the rest only when searched for.
-    val available = packages.filter { !it.installed && (query.isNotBlank() || it.languageCode == learning?.code) }.filter(matches).sortedBy { it.title }
-    val languageName = learning?.let { tr(it.name) }
-    SearchField(query, { query = it }, tr("Search voices"), Modifier.fillMaxWidth())
-    if (installed.isNotEmpty()) {
-        Text(tr("Downloaded voices"), style = AppText.sectionTitle)
-        VoiceList(installed, packageBusy, viewModel)
-    }
-    Row(verticalAlignment = Alignment.CenterVertically) {
-        Text(
-            when {
-                query.isNotBlank() -> tr("All voices")
-                languageName != null -> tr("Available {0} voices", languageName)
-                else -> tr("Voices")
-            },
-            Modifier.weight(1f),
-            style = AppText.sectionTitle,
-        )
-        Tag(tr("{0} downloaded", packages.count { it.installed }), colors.primary)
-    }
-    if (available.isEmpty()) {
-        Text(
-            when {
-                query.isNotBlank() -> tr("No voices match “{0}”.", query.trim())
-                learning == null -> tr("Search to find voices to download.")
-                else -> tr("Every {0} voice is downloaded. Search to find voices for other languages.", tr(learning.name))
-            },
-            style = MaterialTheme.typography.bodyMedium,
-            color = colors.onSurfaceVariant,
-        )
-    } else {
-        VoiceList(available, packageBusy, viewModel)
-    }
-}
-
-@Composable
-private fun VoiceList(voices: List<SpeechPackage>, packageBusy: Set<String>, viewModel: SpeechViewModel) {
-    val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().cardSurface(AppShapes.panel)) {
-        voices.forEachIndexed { i, pkg ->
-            if (i > 0) AppDivider()
-            Row(Modifier.fillMaxWidth().padding(start = AppSpacing.m, end = AppSpacing.xs, top = AppSpacing.s, bottom = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
-                CodeTile(pkg.languageCode ?: pkg.group.take(2), size = 40)
-                Spacer(Modifier.width(AppSpacing.m))
-                Column(Modifier.weight(1f)) {
-                    Text(pkg.title, style = MaterialTheme.typography.bodyLarge, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                    Text(
-                        listOfNotNull(tr(pkg.group), pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize)).joinToString(" · "),
-                        style = MaterialTheme.typography.bodySmall,
-                        color = colors.onSurfaceVariant,
-                    )
-                    if (pkg.id in packageBusy) AppProgressBar(null, Modifier.padding(top = AppSpacing.xs))
-                }
-                Spacer(Modifier.width(AppSpacing.s))
-                PackageAction(pkg, busy = pkg.id in packageBusy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
-            }
-        }
-    }
 }
 
 /** The runtime's reinstall, folded away under a row. */

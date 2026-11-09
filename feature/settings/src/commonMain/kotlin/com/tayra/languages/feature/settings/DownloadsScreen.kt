@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
@@ -478,6 +479,22 @@ private fun DownloadRow(title: String, detail: String?, state: RowState, tag: St
                 action()
             }
         }
+    }
+}
+
+/**
+ * Where a settings page sends the learner to download or remove what it uses: the Downloads page
+ * holds every download, so the settings pages hold none. [text] says what is found there.
+ */
+@Composable
+internal fun DownloadsLinkCard(text: String, onNavigate: (Route) -> Unit, modifier: Modifier = Modifier) {
+    ContentCard(tr("Downloads"), text, icon = AppIcons.Download, modifier = modifier.testTag("downloads-link")) {
+        SecondaryButton(
+            tr("Go to Downloads"),
+            onClick = { onNavigate(Route.Downloads) },
+            trailingIcon = Icons.AutoMirrored.Filled.KeyboardArrowRight,
+            modifier = Modifier.padding(top = AppSpacing.m).testTag("open-downloads"),
+        )
     }
 }
 
