@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.ui.theme.AppText
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -71,7 +72,7 @@ internal fun ReadingStage.title(): String = when (this) {
 
 @Composable
 private fun ReadingStage.hint(): String = when (this) {
-    ReadingStage.READ_ALOUD -> tr("Read the text aloud and mark the words you do not know. Checking this stage makes the words left unmarked known.")
+    ReadingStage.READ_ALOUD -> tr("Read the text aloud and mark the words you do not know. Completing this stage marks the remaining words as known.")
     ReadingStage.LISTEN -> tr("Listen to the text with the play button. The original is blurred: point at a sentence to see it.")
     ReadingStage.WORDS -> tr("Go over the page's words and put their statuses right.")
     ReadingStage.QUIZ -> tr("Answer the questions on the words you are learning.")
@@ -180,26 +181,24 @@ internal fun CheckStageButton(stage: ReadingStage, done: Boolean, onCheck: () ->
 }
 
 /**
- * Above the text: the stage being worked on, what to do in it, and the button that opens a stage
- * done in a dialog.
+ * Above the text: the stage being worked on and what to do in it, beside the button that opens a
+ * stage done in a dialog. Its place in the order is the chain's to show.
  */
 @Composable
 internal fun StageNote(stage: ReadingStage, onAction: () -> Unit, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
-    Column(
+    val number = tr("Stage {0} of {1}: {2}", stage.ordinal + 1, ReadingStage.entries.size, stage.title())
+    Row(
         modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.faint))
             .padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag("stage-note"),
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            Icon(stage.icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
-            Text(
-                tr("Stage {0} of {1}: {2}", stage.ordinal + 1, ReadingStage.entries.size, stage.title()),
-                style = MaterialTheme.typography.titleSmall,
-                modifier = Modifier.weight(1f, fill = false),
-            )
+        Icon(stage.icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+            Text(stage.title(), style = AppText.itemTitle, modifier = Modifier.semantics { contentDescription = number })
+            Text(stage.hint(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
-        Text(stage.hint(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         stage.action()?.let { label -> SecondaryButton(label, onClick = onAction, modifier = Modifier.testTag("stage-action")) }
     }
 }

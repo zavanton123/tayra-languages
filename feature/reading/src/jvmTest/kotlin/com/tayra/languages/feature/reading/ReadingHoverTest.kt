@@ -723,7 +723,7 @@ class ReadingHoverTest {
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, onCourse = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-chain").fetchSemanticsNodes().isNotEmpty() }
         vm.selectStage(ReadingStage.LISTEN)
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Stage 2 of 7: Listen").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stage 2 of 7: Listen").fetchSemanticsNodes().isNotEmpty() }
         rule.onNode(hasText("número 40 dorme", substring = true)).performScrollTo()
         rule.waitForIdle()
         assertTrue(rule.onNodeWithTag("stage-note").fetchSemanticsNode().boundsInRoot.bottom <= 0f, "scrolled down past the stage's note")

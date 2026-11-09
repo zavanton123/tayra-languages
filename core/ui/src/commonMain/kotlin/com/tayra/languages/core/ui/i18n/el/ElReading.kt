@@ -265,7 +265,7 @@ internal val elReading: Map<String, String> = mapOf(
     "Quiz" to "Κουίζ",
     "Reverse translation" to "Αντίστροφη μετάφραση",
     "Retell" to "Αναδιήγηση",
-    "Read the text aloud and mark the words you do not know. Checking this stage makes the words left unmarked known." to "Διαβάστε το κείμενο φωναχτά και σημειώστε τις λέξεις που δεν ξέρετε. Όταν ολοκληρώσετε αυτό το στάδιο, οι λέξεις που δεν σημειώσατε γίνονται γνωστές.",
+    "Read the text aloud and mark the words you do not know. Completing this stage marks the remaining words as known." to "Διαβάστε το κείμενο φωναχτά και σημειώστε τις λέξεις που δεν ξέρετε. Όταν ολοκληρώσετε αυτό το στάδιο, οι λέξεις που δεν σημειώσατε γίνονται γνωστές.",
     "Listen to the text with the play button. The original is blurred: point at a sentence to see it." to "Ακούστε το κείμενο με το κουμπί αναπαραγωγής. Το πρωτότυπο είναι θολό: δείξτε μια πρόταση για να τη δείτε.",
     "Go over the page's words and put their statuses right." to "Περάστε τις λέξεις της σελίδας και διορθώστε την κατάστασή τους.",
     "Answer the questions on the words you are learning." to "Απαντήστε στις ερωτήσεις για τις λέξεις που μαθαίνετε.",

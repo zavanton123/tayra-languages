@@ -265,7 +265,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Quiz" to "Квиз",
     "Reverse translation" to "Обратный перевод",
     "Retell" to "Пересказ",
-    "Read the text aloud and mark the words you do not know. Checking this stage makes the words left unmarked known." to "Прочитайте текст вслух и отметьте слова, которых не знаете. Когда вы отметите этот этап, неотмеченные слова станут известными.",
+    "Read the text aloud and mark the words you do not know. Completing this stage marks the remaining words as known." to "Прочитайте текст вслух и отметьте слова, которых не знаете. Когда вы завершите этот этап, оставшиеся слова будут отмечены как известные.",
     "Listen to the text with the play button. The original is blurred: point at a sentence to see it." to "Прослушайте текст кнопкой воспроизведения. Оригинал размыт: наведите на предложение, чтобы его увидеть.",
     "Go over the page's words and put their statuses right." to "Просмотрите слова страницы и поправьте их статусы.",
     "Answer the questions on the words you are learning." to "Ответьте на вопросы по словам, которые вы изучаете.",

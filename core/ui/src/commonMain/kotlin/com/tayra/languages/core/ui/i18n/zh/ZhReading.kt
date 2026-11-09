@@ -265,7 +265,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Quiz" to "测验",
     "Reverse translation" to "反向翻译",
     "Retell" to "复述",
-    "Read the text aloud and mark the words you do not know. Checking this stage makes the words left unmarked known." to "朗读课文，并标出不认识的单词。完成此阶段后，未标记的单词会记为已认识。",
+    "Read the text aloud and mark the words you do not know. Completing this stage marks the remaining words as known." to "朗读课文，并标出不认识的单词。完成此阶段后，未标记的单词会记为已认识。",
     "Listen to the text with the play button. The original is blurred: point at a sentence to see it." to "用播放按钮听课文。原文已模糊：指向句子即可查看。",
     "Go over the page's words and put their statuses right." to "浏览本页的单词，更正它们的状态。",
     "Answer the questions on the words you are learning." to "回答关于正在学习的单词的问题。",

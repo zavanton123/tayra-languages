@@ -265,7 +265,7 @@ internal val frReading: Map<String, String> = mapOf(
     "Quiz" to "Quiz",
     "Reverse translation" to "Traduction inverse",
     "Retell" to "Raconter",
-    "Read the text aloud and mark the words you do not know. Checking this stage makes the words left unmarked known." to "Lisez le texte à voix haute et marquez les mots que vous ne connaissez pas. Valider cette étape rend connus les mots non marqués.",
+    "Read the text aloud and mark the words you do not know. Completing this stage marks the remaining words as known." to "Lisez le texte à voix haute et marquez les mots que vous ne connaissez pas. Valider cette étape rend connus les mots non marqués.",
     "Listen to the text with the play button. The original is blurred: point at a sentence to see it." to "Écoutez le texte avec le bouton de lecture. L’original est flouté : pointez une phrase pour la voir.",
     "Go over the page's words and put their statuses right." to "Passez en revue les mots de la page et corrigez leurs statuts.",
     "Answer the questions on the words you are learning." to "Répondez aux questions sur les mots que vous apprenez.",
