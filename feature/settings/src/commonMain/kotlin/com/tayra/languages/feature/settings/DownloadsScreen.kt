@@ -100,7 +100,7 @@ fun DownloadsScreen(onNavigate: (Route) -> Unit, viewModel: DownloadsViewModel =
         )
     }
     Scaffold(
-        topBar = { AppTopBar(title = tr("Downloads"), onNavigate = onNavigate, section = NavSection.DOWNLOADS) },
+        topBar = { AppTopBar(title = tr("Downloads"), onNavigate = onNavigate, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) { DownloadsContent(state, progress, actions, onNavigate) }

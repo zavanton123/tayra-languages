@@ -50,7 +50,7 @@ import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 
 /** The main navigation areas, used to highlight the active tab; [label] is English, shown through `tr`. */
-enum class NavSection(val label: String) { HOME("Home"), COURSES("Courses"), BOOKS("Books"), VIDEOS("Videos"), NEWS("News"), PLAYLISTS("Playlists"), FLASHCARDS("Flashcards"), TERMS("Vocabulary"), DOWNLOADS("Downloads"), SETTINGS("Settings") }
+enum class NavSection(val label: String) { HOME("Home"), COURSES("Courses"), BOOKS("Books"), VIDEOS("Videos"), NEWS("News"), PLAYLISTS("Playlists"), FLASHCARDS("Flashcards"), TERMS("Vocabulary"), SETTINGS("Settings") }
 
 /** How many flashcards wait today, shown beside the Flashcards tab; provided at the root of the app. */
 val LocalFlashcardsDue = compositionLocalOf { 0 }
@@ -74,11 +74,9 @@ private fun menuGroups(videos: Boolean) = listOfNotNull(
     // Their settings are under Settings, with the others.
     MenuGroup(NavSection.FLASHCARDS, listOf(MenuEntry("Review flashcards", Route.Flashcards), MenuEntry("Browse flashcards", Route.BrowseFlashcards()), MenuEntry("Flashcard statistics", Route.FlashcardStats))),
     MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()), MenuEntry("Word frequency", Route.WordFrequency), MenuEntry("Statistics", Route.Stats))),
-    MenuGroup(NavSection.DOWNLOADS, listOf(MenuEntry("Downloads", Route.Downloads)), direct = true),
     MenuGroup(
         NavSection.SETTINGS,
         // As the phone's More and the Settings index have them: the preferences, the offline resources, then the data.
-        // What is downloaded is under Downloads, beside this.
         // Clearing the data is found in Settings, not offered from the menu.
         listOfNotNull(
             MenuEntry("Settings", Route.Settings),
@@ -86,6 +84,7 @@ private fun menuGroups(videos: Boolean) = listOfNotNull(
             MenuEntry("Flashcards", Route.FlashcardSettings),
             MenuEntry("Vocabulary", Route.VocabularySettings),
             MenuEntry("Keyboard shortcuts", Route.Shortcuts),
+            MenuEntry("Downloads", Route.Downloads),
             MenuEntry("Dictionaries", Route.OfflineDictionaries),
             MenuEntry("Speech", Route.Speech),
             MenuEntry("Translation", Route.OfflineTranslation),
@@ -100,7 +99,7 @@ const val APP_NAME = "Tayra Languages"
 
 /**
  * The application bar with the choice of the language being learned and the main menu (Home, Courses,
- * Books, Videos, News, Playlists, Flashcards, Vocabulary, Downloads, Settings), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
+ * Books, Videos, News, Playlists, Flashcards, Vocabulary, Settings), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
  *
  * Wide windows always show the logo with the app's name, which leads to the home screen. [title] names the
  * screen only in the compact bar on phones, so screens show their own heading on wide windows

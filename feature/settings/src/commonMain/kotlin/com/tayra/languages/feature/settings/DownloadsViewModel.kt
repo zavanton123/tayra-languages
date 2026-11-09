@@ -55,7 +55,7 @@ data class DownloadsUiState(
     val native: String = "en",
     val courses: List<CoursePackStatus> = emptyList(),
     val books: List<BookPackStatus> = emptyList(),
-    /** The dictionaries from the language: into the native language first, then those on the device, then the rest. */
+    /** The dictionaries from the language being learned into the native one, those on the device first. */
     val dictionaries: List<PackStatus> = emptyList(),
     /** The voices, translation and speech recognition models, as the language's setup lists them; null while they are looked up. */
     val tools: List<SetupItem>? = null,
@@ -96,8 +96,8 @@ class DownloadsViewModel(
             courses = courses.filter { it.pack.languageCode == code },
             books = books.filter { it.pack.languageCode == code },
             dictionaries = dictionaries
-                .filter { it.pack.id.sourceLanguage == code && !it.pack.id.glossary }
-                .sortedWith(compareBy({ it.pack.id.targetLanguage != base.native }, { it.state !is PackState.Installed })),
+                .filter { it.pack.id.sourceLanguage == code && it.pack.id.targetLanguage == base.native && !it.pack.id.glossary }
+                .sortedBy { it.state !is PackState.Installed },
         )
     }.stateIn(viewModelScope, SharingStarted.Eagerly, DownloadsUiState())
 

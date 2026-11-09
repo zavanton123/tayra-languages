@@ -43,7 +43,7 @@ fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () ->
     val colors = MaterialTheme.colorScheme
     val due = LocalFlashcardsDue.current
     // The videos, the news, the playlists and the vocabulary pages are reached through More.
-    val area = if (section == NavSection.TERMS || section == NavSection.NEWS || section == NavSection.PLAYLISTS || section == NavSection.VIDEOS || section == NavSection.DOWNLOADS) NavSection.SETTINGS else section
+    val area = if (section == NavSection.TERMS || section == NavSection.NEWS || section == NavSection.PLAYLISTS || section == NavSection.VIDEOS) NavSection.SETTINGS else section
     NavigationBar(containerColor = colors.surface, modifier = Modifier.testTag("phone-nav")) {
         PhoneTab(NavSection.HOME, Icons.Default.Home, area) { onNavigate(Route.Home) }
         PhoneTab(NavSection.COURSES, AppIcons.School, area) { onNavigate(Route.Courses) }

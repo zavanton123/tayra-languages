@@ -46,12 +46,15 @@ class AppTopBarTest {
         for (list in lists) assertEquals(0f, list.config[SemanticsProperties.VerticalScrollAxisRange].maxValue(), "nothing is left to scroll to")
     }
 
-    /** Downloads has a tab of its own, which opens its page with no menu between. */
+    /** The Downloads page is in the Settings menu, not a tab of its own. */
     @OptIn(ExperimentalTestApi::class)
     @Test
-    fun theDownloadsTabOpensTheDownloads() = runDesktopComposeUiTest(width = 1600, height = 400) {
+    fun theSettingsMenuLeadsToTheDownloads() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         val visited = mutableListOf<Route>()
         setContent { MaterialTheme { AppTopBar(title = "Books", onNavigate = { visited += it }, section = NavSection.BOOKS) } }
+        onNodeWithText("Downloads").assertDoesNotExist()
+        onNodeWithText("Settings").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Downloads").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Downloads").performClick()
         assertEquals(listOf<Route>(Route.Downloads), visited)
     }
@@ -62,7 +65,7 @@ class AppTopBarTest {
     fun tabsThatDoNotFitFoldIntoMore() = runDesktopComposeUiTest(width = 1100, height = 900) {
         val visited = mutableListOf<Route>()
         val state = LearningLanguageState(listOf(1L to "Portuguese"), 1L, knownWords = 1369) {}
-        setContent { MaterialTheme { CompositionLocalProvider(LocalLearningLanguage provides state) { AppTopBar(title = "Books", onNavigate = { visited += it }, section = NavSection.DOWNLOADS) } } }
+        setContent { MaterialTheme { CompositionLocalProvider(LocalLearningLanguage provides state) { AppTopBar(title = "Books", onNavigate = { visited += it }, section = NavSection.SETTINGS) } } }
         onNodeWithText("Home").assertExists()
         System.getenv("NARROW_BAR_SCREENSHOT")?.let { path ->
             waitForIdle()
