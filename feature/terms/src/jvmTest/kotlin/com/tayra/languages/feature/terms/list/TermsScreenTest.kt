@@ -81,7 +81,7 @@ class TermsScreenTest {
     @AfterTest
     fun tearDown() = stopKoin()
 
-    private fun ComposeUiTest.show(onNavigate: (Route) -> Unit = {}, extra: Int = 0, termIds: List<Long>? = null) {
+    private fun ComposeUiTest.show(onNavigate: (Route) -> Unit = {}, extra: Int = 0, termIds: List<Long>? = null, dialog: Boolean = false, more: suspend (Long) -> Unit = {}) {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id) }
@@ -90,6 +90,7 @@ class TermsScreenTest {
                 "expressão" to TermStatus.WELL_KNOWN, "pensar" to TermStatus.LEARNING_3, "lá" to TermStatus.IGNORED,
             ).forEach { (text, status) -> service.save(TermDraft(languageId = id, text = text, status = status, statusExplicitlySet = true)) }
             repeat(extra) { service.save(TermDraft(languageId = id, text = "palavra$it", status = TermStatus.NEW_1, statusExplicitlySet = true)) }
+            more(id)
             id
         }
         this@TermsScreenTest.languageId = languageId
@@ -113,7 +114,10 @@ class TermsScreenTest {
             TayraTheme {
                 ProvideWindowWidth {
                     CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {}) {
-                        TermsScreen(termIds = termIds, onNavigate = onNavigate, onBack = if (termIds != null) ({}) else null, viewModel = viewModel)
+                        TermsScreen(
+                            termIds = termIds, onNavigate = onNavigate, onBack = if (termIds != null) ({}) else null, viewModel = viewModel,
+                            dialog = dialog, title = "Lesson vocabulary".takeIf { dialog }, subtitle = "Uma amizade antiga".takeIf { dialog },
+                        )
                     }
                 }
             }
@@ -166,6 +170,23 @@ class TermsScreenTest {
         onNodeWithText("Show learning words").performClick()
         waitForList("comprar", "pensar", hidden = listOf("gostar", "lá"))
         onNodeWithContentDescription("1 filter on").assertExists()
+    }
+
+    /** Over a lesson the list keeps its toolbar on one line, and each row labels its translation and example. */
+    @Test
+    fun aLessonsWordsListOverTheReader() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(termIds = (1L..9L).toList(), dialog = true) { id ->
+            listOf(
+                Triple("coração", "анат. сердце", "O coração nunca envelhece."),
+                Triple("felicidade", "счастье", "Não se pode comprar a felicidade."),
+                Triple("amizade", "дружба", "Acredito na amizade."),
+            ).forEach { (text, translation, sentence) ->
+                service.save(TermDraft(languageId = id, text = text, translation = translation, status = TermStatus.NEW_1, statusExplicitlySet = true), sentence = sentence)
+            }
+        }
+        waitForList("amizade", "comprar", hidden = listOf("gostar"))
+        onNodeWithText("Acredito na amizade.").assertExists()
+        System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-dialog.png"))) }
     }
 
     /** A reader's page opens on its words being learned; showing all words adds its known ones and stays on the page. */

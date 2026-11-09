@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.audio
 
+import androidx.compose.ui.graphics.vector.ImageVector
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
@@ -57,13 +58,14 @@ fun SpeakButton(
     size: IconButtonSize = IconButtonSize.Regular,
     shape: Shape? = null,
     tooltip: String? = null,
+    icon: ImageVector = AppIcons.VolumeUp,
 ) {
     val playing by speaker.playing.collectAsState()
     val active = playing != null && playing == text
     val description = if (active) tr("Stop") else tooltip ?: tr("Pronounce")
     val button = @Composable {
         AppIconButton(
-            if (active) AppIcons.Stop else AppIcons.VolumeUp,
+            if (active) AppIcons.Stop else icon,
             contentDescription = description,
             onClick = { speaker.toggle(text, languageCode) },
             modifier = modifier,

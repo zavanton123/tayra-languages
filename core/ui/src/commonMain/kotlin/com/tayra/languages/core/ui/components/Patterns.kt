@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateIntAsState
 import androidx.compose.foundation.ScrollState
@@ -174,14 +175,14 @@ fun TableHeader(modifier: Modifier = Modifier, padding: PaddingValues = PaddingV
 
 /** A column's name in a [TableHeader]; one that sorts the table has [onClick], and [active] while the table is sorted by it. */
 @Composable
-fun TableHeaderCell(label: String, modifier: Modifier = Modifier, icon: ImageVector? = null, active: Boolean = false, onClick: (() -> Unit)? = null) {
+fun TableHeaderCell(label: String, modifier: Modifier = Modifier, icon: ImageVector? = null, active: Boolean = false, style: TextStyle = AppText.label, onClick: (() -> Unit)? = null) {
     val tint = if (active) MaterialTheme.colorScheme.primary else LocalContentColor.current
     Row(
         modifier.then(if (onClick != null) Modifier.clip(AppShapes.small).clickable(onClick = onClick) else Modifier).padding(vertical = AppSpacing.xs, horizontal = AppSpacing.xxs),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs),
     ) {
-        Text(label, color = tint, style = AppText.label, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(label, color = tint, style = style, maxLines = 1, overflow = TextOverflow.Ellipsis)
         // The column sorted by carries an arrow, so the sort does not rest on the colour alone.
         val shown = icon ?: if (active && onClick != null) AppIcons.ArrowDown else null
         if (shown != null) Icon(shown, contentDescription = null, modifier = Modifier.size(AppSizes.iconSmall), tint = tint)

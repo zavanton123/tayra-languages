@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.terms.list
 
+import androidx.compose.foundation.layout.heightIn
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TERM_DIALOG_WIDTH
 import com.tayra.languages.feature.terms.form.TermEditScreen
@@ -524,7 +525,7 @@ internal fun filterSummary(state: TermsListUiState): String {
 private const val TERM_WEIGHT = 1.6f
 private const val TRANSLATION_WEIGHT = 2.4f
 private const val EXAMPLE_WEIGHT = 3f
-private val STATUS_WIDTH = 90.dp
+private val STATUS_WIDTH = 120.dp
 private val ADDED_WIDTH = 110.dp
 private val MENU_WIDTH = 48.dp
 private val SPEAK_BUTTON = 32.dp
@@ -534,13 +535,14 @@ private val TICK_DISC = 20.dp
 @Composable
 private fun TermsTableHeader(state: TermsListUiState, viewModel: TermsListViewModel, actions: ListActions) {
     val allSelected = state.terms.isNotEmpty() && state.terms.all { it.id in state.selected }
-    TableHeader {
+    val style = AppText.emphasis
+    TableHeader(padding = PaddingValues(horizontal = AppSpacing.s, vertical = AppSpacing.s)) {
         AppCheckbox(checked = allSelected, onCheckedChange = viewModel::selectAllVisible)
-        TableHeaderCell(tr("Term"), Modifier.weight(TERM_WEIGHT), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.TEXT) { viewModel.sortBy(TermSortField.TEXT) }
-        TableHeaderCell(tr("Translation"), Modifier.weight(TRANSLATION_WEIGHT))
-        TableHeaderCell(tr("Example"), Modifier.weight(EXAMPLE_WEIGHT))
-        TableHeaderCell(tr("Status"), Modifier.width(STATUS_WIDTH), Icons.Default.Info, active = state.sort.field == TermSortField.STATUS) { viewModel.sortBy(TermSortField.STATUS) }
-        TableHeaderCell(tr("Added"), Modifier.width(ADDED_WIDTH), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.CREATED) { viewModel.sortBy(TermSortField.CREATED) }
+        TableHeaderCell(tr("Term"), Modifier.weight(TERM_WEIGHT), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.TEXT, style = style) { viewModel.sortBy(TermSortField.TEXT) }
+        TableHeaderCell(tr("Translation"), Modifier.weight(TRANSLATION_WEIGHT), style = style)
+        TableHeaderCell(tr("Example"), Modifier.weight(EXAMPLE_WEIGHT), style = style)
+        TableHeaderCell(tr("Status"), Modifier.width(STATUS_WIDTH), Icons.Default.Info, active = state.sort.field == TermSortField.STATUS, style = style) { viewModel.sortBy(TermSortField.STATUS) }
+        TableHeaderCell(tr("Added"), Modifier.width(ADDED_WIDTH), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.CREATED, style = style) { viewModel.sortBy(TermSortField.CREATED) }
         Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { ListMenu(state, actions) }
     }
 }
@@ -556,22 +558,23 @@ private fun TermTableRow(term: Term, languageName: String, selected: Boolean, in
         else -> Color.Transparent
     }
     Row(
-        Modifier.fillMaxWidth().background(background).hoverable(interaction).clickable { actions.onOpen(term) }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs),
+        Modifier.fillMaxWidth().heightIn(min = AppSizes.row).background(background).hoverable(interaction).clickable { actions.onOpen(term) }
+            .padding(horizontal = AppSpacing.s, vertical = AppSpacing.s),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
         val code = LanguageCodes.codeFor(languageName)
-        Row(Modifier.weight(TERM_WEIGHT).padding(end = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
-            SpeakButton(term.displayText, code, actions.speaker, Modifier.size(SPEAK_BUTTON))
-            Text(term.displayText, style = AppText.emphasis, color = colors.primary, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Row(Modifier.weight(TERM_WEIGHT).padding(start = AppSpacing.s, end = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            PlayButton(term.displayText, code, actions.speaker)
+            Text(term.displayText, style = AppText.sectionTitle, color = colors.primary, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
-        Text(term.translation.orEmpty(), Modifier.weight(TRANSLATION_WEIGHT).padding(end = AppSpacing.m), style = MaterialTheme.typography.bodyMedium, maxLines = 2, overflow = TextOverflow.Ellipsis)
-        Row(Modifier.weight(EXAMPLE_WEIGHT).padding(end = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
-            term.sentence?.let { SpeakButton(it, code, actions.speaker, Modifier.size(SPEAK_BUTTON)) }
-            Text(term.sentence.orEmpty(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        CaptionedCell(tr("Translation"), term.translation, Modifier.weight(TRANSLATION_WEIGHT).padding(end = AppSpacing.m))
+        Row(Modifier.weight(EXAMPLE_WEIGHT).padding(end = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            term.sentence?.let { PlayButton(it, code, actions.speaker) }
+            CaptionedCell(tr("Example"), term.sentence, Modifier.weight(1f, fill = false))
         }
-        Box(Modifier.width(STATUS_WIDTH)) { StatusChip(term.status) { actions.onStatus(term, it) } }
-        Text(term.createdAt?.let(::addedLabel).orEmpty(), Modifier.width(ADDED_WIDTH), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        Box(Modifier.width(STATUS_WIDTH)) { StatusChip(term.status, named = true) { actions.onStatus(term, it) } }
+        Text(term.createdAt?.let(::addedLabel).orEmpty(), Modifier.width(ADDED_WIDTH), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { RowMenu(term, actions) }
     }
 }
@@ -604,19 +607,36 @@ private fun CompactTermRow(term: Term, languageName: String, selected: Boolean, 
     }
 }
 
-/** A small coloured disc with the language code, standing in for a flag. */
+/** A word or sentence read aloud from a round button in the table. */
 @Composable
-private fun StatusChip(status: TermStatus, onSelect: (TermStatus) -> Unit) {
+private fun PlayButton(text: String, languageCode: String?, speaker: Speaker) =
+    SpeakButton(text, languageCode, speaker, Modifier.size(SPEAK_BUTTON), style = IconButtonStyle.Tonal, shape = AppShapes.circle, icon = AppIcons.PlayArrow)
+
+/** A cell's value under a small caption naming it; nothing where there is no value. */
+@Composable
+private fun CaptionedCell(caption: String, value: String?, modifier: Modifier = Modifier) {
+    Column(modifier) {
+        if (!value.isNullOrBlank()) {
+            Text(caption, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text(value, style = MaterialTheme.typography.bodyLarge, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        }
+    }
+}
+
+/** The status on its colour, as its badge or, [named], its name; a click picks another. */
+@Composable
+private fun StatusChip(status: TermStatus, named: Boolean = false, onSelect: (TermStatus) -> Unit) {
     val colors = TayraTheme.current.statusColors
     var open by remember { mutableStateOf(false) }
     val background = colors.background(status).takeIf { it != Color.Transparent } ?: MaterialTheme.colorScheme.surfaceVariant
     Box {
         Text(
-            status.shownAbbreviation(),
+            if (named) status.shownName() else status.shownAbbreviation(),
             Modifier.clip(AppShapes.small).background(background).border(AppBorders.hairline(background.darken()), AppShapes.small)
-                .clickable { open = true }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
+                .clickable { open = true }.padding(horizontal = if (named) AppSpacing.m else AppSpacing.s, vertical = AppSpacing.xs),
             color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else AppAccents.ink,
-            style = AppText.badge,
+            style = if (named) AppText.labelStrong else AppText.badge,
+            maxLines = 1,
         )
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             shownStatuses(TermStatus.selectable).forEach { option ->
