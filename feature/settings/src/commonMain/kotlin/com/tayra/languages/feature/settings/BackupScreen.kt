@@ -1,5 +1,8 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.components.ToastHost
+import com.tayra.languages.core.ui.components.rememberToastState
+import androidx.compose.runtime.LaunchedEffect
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
@@ -9,7 +12,6 @@ import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppProgressBar
-import com.tayra.languages.core.ui.components.CardHeader
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.PageColumn
@@ -145,6 +147,8 @@ class BackupViewModel(private val backups: BackupRepository) : ViewModel() {
 
     fun restoreSeen() = _state.update { it.copy(restored = null) }
 
+    fun messageSeen() = _state.update { it.copy(message = null) }
+
     /** Does [action] while showing [working]; a failure is shown by [failed] with what went wrong. */
     private fun run(working: String, failed: (String) -> String, action: suspend () -> String?) {
         if (_state.value.working != null) return
@@ -186,6 +190,11 @@ class BackupViewModel(private val backups: BackupRepository) : ViewModel() {
 fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: () -> Unit, viewModel: BackupViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val scope = rememberCoroutineScope()
+    // How an action went shows for a moment over the screen, not as a block in it.
+    val toast = rememberToastState()
+    LaunchedEffect(state.message) {
+        state.message?.let { toast.show(it); viewModel.messageSeen() }
+    }
     var restoring by remember { mutableStateOf<Backup?>(null) }
     var deleting by remember { mutableStateOf<Backup?>(null) }
     val picker = rememberFilePickerLauncher(type = FileKitType.File()) { file ->
@@ -197,7 +206,6 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
     val dropTarget = Modifier.acceptsDroppedFiles(enabled = idle, onHover = { dropping = it }) { files ->
         scope.launch { viewModel.import(files.first().readBytes()) }
     }
-    val wide = LocalWindowWidth.current.isExpanded
     val compact = LocalWindowWidth.current.isCompact
     val count = state.backups.size
     val pill: @Composable () -> Unit = {
@@ -246,15 +254,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
                 }
             }
             Progress(state)
-            if (wide) {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    HistoryCard(state, idle, viewModel, onRestore = { restoring = it }, onDelete = { deleting = it }, modifier = Modifier.weight(1.65f).fillMaxHeight())
-                    IncludedCard(Modifier.weight(1f).fillMaxHeight())
-                }
-            } else {
-                HistoryCard(state, idle, viewModel, onRestore = { restoring = it }, onDelete = { deleting = it })
-                IncludedCard()
-            }
+            HistoryCard(state, idle, viewModel, onRestore = { restoring = it }, onDelete = { deleting = it })
         }
     }
 
@@ -294,6 +294,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
             dismissButton = { QuietButton(onClick = viewModel::importSeen) { Text(tr("No")) } },
         )
     }
+    ToastHost(toast)
     state.restored?.let { undo ->
         val done = { viewModel.restoreSeen(); onRestored() }
         AppDialog(
@@ -314,7 +315,6 @@ internal fun Progress(state: BackupState) {
             AppProgressBar(null, Modifier.padding(top = AppSpacing.s))
         }
     }
-    state.message?.let { InfoBanner(it, tint = StatusTints.ok, icon = Icons.Default.CheckCircle) }
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
 }
 
@@ -375,10 +375,6 @@ private fun HistoryCard(
                 )
             }
         }
-        // Beside the other card the note sits at the bottom, level with that card's own note.
-        if (LocalWindowWidth.current.isExpanded) Spacer(Modifier.weight(1f))
-        Spacer(Modifier.height(AppSpacing.l))
-        InfoBanner(tr("Restoring replaces your current Tayra data after confirmation."))
     }
 }
 
@@ -452,21 +448,6 @@ private fun BackupRowContent(
             Spacer(Modifier.height(AppSpacing.s))
             actions()
         }
-    }
-}
-
-/** What a backup holds, and what has to be set up again after restoring it elsewhere. */
-@Composable
-private fun IncludedCard(modifier: Modifier = Modifier) {
-    Column(
-        modifier.fillMaxWidth().cardSurface().padding(AppSpacing.xl),
-    ) {
-        CardHeader(tr("What's included"), icon = AppIcons.VerifiedUser)
-        Spacer(Modifier.height(AppSpacing.l))
-        IncludedLines(gap = AppSpacing.l)
-        if (LocalWindowWidth.current.isExpanded) Spacer(Modifier.weight(1f))
-        Spacer(Modifier.height(AppSpacing.l))
-        InfoBanner(tr("These items can be downloaded or configured again after restoring."))
     }
 }
 
