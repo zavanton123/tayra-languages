@@ -484,9 +484,9 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
     val colors = MaterialTheme.colorScheme
     val counts = state.counts
     val pass = state.pass
-    // Answers given this session plus what still waits; a card answered Again waits again, so the total can grow. An extra pass counts its own cards.
-    val total = pass?.termIds?.size ?: (state.answered + counts.total)
-    val behind = pass?.done ?: state.answered
+    // The day's cards stay one number through the session, a card answered Again included; an extra pass counts its own cards.
+    val total = pass?.termIds?.size ?: state.sessionTotal
+    val behind = pass?.done ?: (total - counts.total).coerceAtLeast(0)
     val current = if (state.card != null) (behind + 1).coerceAtMost(total.coerceAtLeast(1)) else behind
     val pills: @Composable () -> Unit = {
         // Large text may not fit the three in a row; they wrap.

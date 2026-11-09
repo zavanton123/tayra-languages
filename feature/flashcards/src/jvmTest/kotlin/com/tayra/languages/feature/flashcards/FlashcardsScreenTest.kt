@@ -697,14 +697,14 @@ class FlashcardsScreenTest {
 
     @Test
     fun answeringMovesOnAndRaisesTheStatus() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        show()
+        val viewModel = show()
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("answer-Good").performClick()
         // Ten minutes to wait and nothing else to show: the card comes straight back, as in Anki.
-        waitForCard("1 of 2")
+        waitForCard("1 of 1")
         assertEquals(TermStatus.NEW_1, status())
-        // One answer given, one card still waiting.
-        onNodeWithText("1 of 2").assertExists()
+        // The card answered still waits, and the day's total stays what it was.
+        onNodeWithText("1 of 1").assertExists()
 
         // Space shows the answer, and Space again answers Good.
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Spacebar) }
@@ -712,17 +712,18 @@ class FlashcardsScreenTest {
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Spacebar) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("All done for today").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(TermStatus.NEW_2, status(), "the card now waits a day or more")
-        onNodeWithText("2 of 2 answered").assertExists()
+        onNodeWithText("1 of 1 answered").assertExists()
         save("FLASHCARD_DONE_SCREENSHOT")
 
         // Back one card: the second answer is taken back and that card shown again.
         onNodeWithText("Previous card").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard").fetchSemanticsNodes().isNotEmpty() }
-        waitForCard("1 of 2")
+        waitForCard("1 of 1")
         assertEquals(TermStatus.NEW_1, status())
-        onNodeWithText("1 of 2").assertExists()
+        onNodeWithText("1 of 1").assertExists()
         // Back once more, with the shortcut (Ctrl+Z by default): the first answer goes too, and the card is new again.
         onNodeWithTag("flashcard").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Z) } }
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 0 }
         waitForCard("1 of 1")
         onNodeWithText("1 of 1").assertExists()
         // Nothing lies behind the first card.
@@ -734,15 +735,16 @@ class FlashcardsScreenTest {
     /** The shortcut back is the configurable one: given another key, that key goes back and Ctrl+Z no longer does. */
     @Test
     fun theShortcutBackCanBeChanged() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        show(hotkeys = HotkeyAction.defaults + (HotkeyAction.FLASHCARDS_PREVIOUS to Hotkey("P")))
+        val viewModel = show(hotkeys = HotkeyAction.defaults + (HotkeyAction.FLASHCARDS_PREVIOUS to Hotkey("P")))
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("answer-Good").performClick()
-        waitForCard("1 of 2")
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 1 }
+        waitForCard("1 of 1")
         onNodeWithTag("flashcard").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Z) } }
         waitForIdle()
-        onNodeWithText("1 of 2").assertExists()
+        assertEquals(1, viewModel.state.value.answered)
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.P) }
-        waitForCard("1 of 1")
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 0 }
     }
 
     /** Back from the card's details, the card shows as it is now with its answer still showing; a card left unanswered stays so. */
@@ -871,7 +873,7 @@ class FlashcardsScreenTest {
         waitForIdle()
         onNodeWithTag("flashcard-answer").assertExists()
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Three) }
-        waitForCard("1 of 2")
+        waitForCard("1 of 1")
     }
 
     /** In a low window the card keeps its place between the progress and the answers, and its content scrolls under a bar. */

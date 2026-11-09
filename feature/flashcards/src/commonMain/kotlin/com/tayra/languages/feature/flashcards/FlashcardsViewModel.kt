@@ -89,6 +89,8 @@ data class FlashcardsUiState(
     val canUndo: Boolean = false,
     /** Cards answered since the screen opened. */
     val answered: Int = 0,
+    /** The day's cards as the session opened, kept while they are answered; it grows only when more turn up than that. */
+    val sessionTotal: Int = 0,
     /** Only Again and Good are offered, as the settings ask or an extra pass has it. */
     val twoButtons: Boolean = false,
     /** How long each answer would put the card away for, shown on its button. */
@@ -360,6 +362,7 @@ class FlashcardsViewModel(
                     card = if (session.card != null && term != null) content(term, language, wordRange, session.card!!.schedule.state) else null,
                     revealed = same && it.revealed,
                     counts = session.counts,
+                    sessionTotal = maxOf(it.sessionTotal, session.counts.total),
                     nextLearningAt = session.nextLearningAt,
                     canUndo = steps.isNotEmpty(),
                     twoButtons = pass != null || settings.current.flashcardTwoButtons,
