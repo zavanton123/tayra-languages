@@ -1,5 +1,13 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.ui.unit.LayoutDirection
+import androidx.compose.ui.unit.IntOffset
+import androidx.compose.ui.unit.IntSize
+import androidx.compose.ui.unit.IntRect
+import androidx.compose.ui.window.PopupPositionProvider
+import androidx.compose.ui.window.PopupProperties
+import androidx.compose.ui.window.Popup
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.LinearEasing
@@ -65,7 +73,7 @@ import kotlin.math.roundToInt
 import kotlin.random.Random
 
 /**
- * Shown once a lesson's last stage is checked, over confetti: what the lesson came to, and the ways
+ * Shown once a lesson's last stage is checked, with confetti over the whole window: what the lesson came to, and the ways
  * on, to the course, back to the text, or to the next lesson.
  */
 @Composable
@@ -114,9 +122,9 @@ internal fun LessonCompleteDialog(
                     }
                 }
             }
-            Confetti(Modifier.matchParentSize())
             AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, style = IconButtonStyle.Outlined, modifier = Modifier.align(Alignment.TopEnd).padding(AppSpacing.l))
         }
+        Confetti()
     }
 }
 
@@ -154,18 +162,33 @@ private fun Stat(icon: ImageVector, value: String, label: String, note: String, 
     }
 }
 
-/** A burst of confetti from the top that falls and fades once, a few seconds long. */
+/**
+ * A burst of confetti from the top of the window that falls and fades once, a few seconds long, over
+ * everything, a dialog too. Opened from inside a dialog, it stays above it on every platform.
+ */
 @Composable
-internal fun Confetti(modifier: Modifier = Modifier) {
-    val pieces = remember { List(CONFETTI_PIECES) { Piece(Random.Default) } }
+internal fun Confetti() {
     val time = remember { Animatable(0f) }
     LaunchedEffect(Unit) { time.animateTo(1f, tween(CONFETTI_MILLIS, easing = LinearEasing)) }
     if (time.value >= 1f) return
+    Popup(popupPositionProvider = WindowOrigin, properties = PopupProperties(focusable = false)) {
+        ConfettiPieces(time.value, Modifier.fillMaxSize())
+    }
+}
+
+/** Places a popup at the window's corner, whatever opened it. */
+private object WindowOrigin : PopupPositionProvider {
+    override fun calculatePosition(anchorBounds: IntRect, windowSize: IntSize, layoutDirection: LayoutDirection, popupContentSize: IntSize) = IntOffset.Zero
+}
+
+@Composable
+private fun ConfettiPieces(progress: Float, modifier: Modifier) {
+    val pieces = remember { List(CONFETTI_PIECES) { Piece(Random.Default) } }
     val palette = AppAccents.sequence
     Canvas(modifier.testTag("confetti")) {
-        val seconds = time.value * CONFETTI_MILLIS / 1000f
+        val seconds = progress * CONFETTI_MILLIS / 1000f
         // Fades over the last part, so the pieces still falling leave without a cut.
-        val alpha = ((1f - time.value) / FADE).coerceIn(0f, 1f)
+        val alpha = ((1f - progress) / FADE).coerceIn(0f, 1f)
         val unit = PIECE_LENGTH.toPx()
         pieces.forEach { piece ->
             val x = size.width * (piece.x + piece.dx * seconds)
@@ -182,10 +205,10 @@ internal fun Confetti(modifier: Modifier = Modifier) {
 
 /** A piece of confetti: where it starts and how it flies, as fractions of the area each second, and how it looks. */
 private class Piece(random: Random) {
-    val x = 0.2f + random.nextFloat() * 0.6f
-    val y = -0.05f + random.nextFloat() * 0.15f
-    val dx = (random.nextFloat() - 0.5f) * 0.5f
-    val dy = -0.25f - random.nextFloat() * 0.45f
+    val x = 0.05f + random.nextFloat() * 0.9f
+    val y = -0.1f + random.nextFloat() * 0.15f
+    val dx = (random.nextFloat() - 0.5f) * 0.3f
+    val dy = -0.35f + random.nextFloat() * 0.3f
     val angle = random.nextFloat() * 360f
     val spin = (random.nextFloat() - 0.5f) * 720f
     val scale = 0.6f + random.nextFloat() * 0.8f
@@ -193,7 +216,7 @@ private class Piece(random: Random) {
     val color = random.nextInt(0, 64)
 }
 
-private const val CONFETTI_PIECES = 140
+private const val CONFETTI_PIECES = 220
 private const val CONFETTI_MILLIS = 3_500
 private const val GRAVITY = 0.9f
 private const val FADE = 0.3f
