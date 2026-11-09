@@ -216,11 +216,11 @@ private class Piece(random: Random) {
     val color = random.nextInt(0, 64)
 }
 
-private const val CONFETTI_PIECES = 220
-private const val CONFETTI_MILLIS = 3_500
+private const val CONFETTI_PIECES = 500
+private const val CONFETTI_MILLIS = 4_500
 private const val GRAVITY = 0.9f
 private const val FADE = 0.3f
-private val PIECE_LENGTH = 10.dp
+private val PIECE_LENGTH = 16.dp
 private val BADGE_SIZE = 88.dp
 private val STAT_MIN_WIDTH = 160.dp
 private val LESSON_COMPLETE_WIDTH = 900.dp
