@@ -551,7 +551,7 @@ class FlashcardsScreenTest {
         onNodeWithText("Quando precisamos [...] alguma coisa, passamos no supermercado.").assertExists()
         assertEquals(0, onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithText("купить, покупать").fetchSemanticsNodes().size)
-        onNodeWithText("Card 1 of 1").assertExists()
+        onNodeWithText("1 of 1").assertExists()
         save("FLASHCARD_FRONT_SCREENSHOT")
 
         onNodeWithText("Show answer").performClick()
@@ -701,10 +701,10 @@ class FlashcardsScreenTest {
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("answer-Good").performClick()
         // Ten minutes to wait and nothing else to show: the card comes straight back, as in Anki.
-        waitForCard("Card 2 of 2")
+        waitForCard("1 of 2")
         assertEquals(TermStatus.NEW_1, status())
         // One answer given, one card still waiting.
-        onNodeWithText("Card 2 of 2").assertExists()
+        onNodeWithText("1 of 2").assertExists()
 
         // Space shows the answer, and Space again answers Good.
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Spacebar) }
@@ -718,17 +718,17 @@ class FlashcardsScreenTest {
         // Back one card: the second answer is taken back and that card shown again.
         onNodeWithText("Previous card").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard").fetchSemanticsNodes().isNotEmpty() }
-        waitForCard("Card 2 of 2")
+        waitForCard("1 of 2")
         assertEquals(TermStatus.NEW_1, status())
-        onNodeWithText("Card 2 of 2").assertExists()
+        onNodeWithText("1 of 2").assertExists()
         // Back once more, with the shortcut (Ctrl+Z by default): the first answer goes too, and the card is new again.
         onNodeWithTag("flashcard").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Z) } }
-        waitForCard("Card 1 of 1")
-        onNodeWithText("Card 1 of 1").assertExists()
+        waitForCard("1 of 1")
+        onNodeWithText("1 of 1").assertExists()
         // Nothing lies behind the first card.
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.DirectionLeft) }
         waitForIdle()
-        onNodeWithText("Card 1 of 1").assertExists()
+        onNodeWithText("1 of 1").assertExists()
     }
 
     /** The shortcut back is the configurable one: given another key, that key goes back and Ctrl+Z no longer does. */
@@ -737,12 +737,12 @@ class FlashcardsScreenTest {
         show(hotkeys = HotkeyAction.defaults + (HotkeyAction.FLASHCARDS_PREVIOUS to Hotkey("P")))
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("answer-Good").performClick()
-        waitForCard("Card 2 of 2")
+        waitForCard("1 of 2")
         onNodeWithTag("flashcard").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Z) } }
         waitForIdle()
-        onNodeWithText("Card 2 of 2").assertExists()
+        onNodeWithText("1 of 2").assertExists()
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.P) }
-        waitForCard("Card 1 of 1")
+        waitForCard("1 of 1")
     }
 
     /** Back from the card's details, the card shows as it is now with its answer still showing; a card left unanswered stays so. */
@@ -871,7 +871,7 @@ class FlashcardsScreenTest {
         waitForIdle()
         onNodeWithTag("flashcard-answer").assertExists()
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Three) }
-        waitForCard("Card 2 of 2")
+        waitForCard("1 of 2")
     }
 
     /** In a low window the card keeps its place between the progress and the answers, and its content scrolls under a bar. */

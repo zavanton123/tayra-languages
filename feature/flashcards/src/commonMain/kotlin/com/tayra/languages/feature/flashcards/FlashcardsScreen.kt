@@ -512,7 +512,7 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
                 pass != null -> tr("{0} · card {1} of {2}", pass.study.title(), current, total)
                 total == 0 -> tr("No cards today")
                 state.card == null -> tr("{0} of {1} answered", current, total)
-                else -> tr("Card {0} of {1}", current, total)
+                else -> tr("{0} of {1}", total - behind, total)
             },
             style = MaterialTheme.typography.bodyLarge,
             color = colors.onSurfaceVariant,
