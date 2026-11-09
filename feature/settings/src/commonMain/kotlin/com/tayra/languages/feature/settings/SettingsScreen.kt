@@ -234,11 +234,10 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
         if (isDebugBuild) SettingsPage(tr("Experimental features"), tr("Turn on features that are still being built."), Route.ExperimentalFeatures, AppIcons.Lightbulb) else null,
     )
     val resources = listOf(
+        SettingsPage(tr("Downloads"), tr("Course and book packs, dictionaries, voices and offline models, to download or remove."), Route.Downloads, AppIcons.Download),
         SettingsPage(tr("Dictionaries"), tr("Manage offline word definitions and base-form lookup."), Route.OfflineDictionaries, AppIcons.MenuBook),
         SettingsPage(tr("Speech"), tr("Choose how words and passages are spoken."), Route.Speech, AppIcons.VolumeUp, speechEngineName(settings.speechEngine)),
         SettingsPage(tr("Translation"), tr("Choose how translations are generated and stored."), Route.OfflineTranslation, AppIcons.Translate, translationEngineName(settings.translationEngine)),
-        SettingsPage(tr("Course packs"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), Route.CoursePacks, AppIcons.School),
-        SettingsPage(tr("Book packs"), tr("Download a pack of free books in a language as one file, or remove them to free space."), Route.BookPacks, AppIcons.Download),
     )
     val data = listOf(
         SettingsPage(tr("Account"), tr("Back up your library to the cloud and use it on all your devices."), Route.Account, Icons.Default.AccountCircle),
@@ -278,7 +277,7 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
 
 /** The pages the phone's More sheet lists, which a phone's settings index leaves out. */
 private val ON_MORE_SHEET = setOf<Route>(
-    Route.Languages, Route.About, Route.ExperimentalFeatures, Route.OfflineDictionaries, Route.Speech, Route.OfflineTranslation, Route.CoursePacks, Route.BookPacks, Route.Backups,
+    Route.Languages, Route.About, Route.ExperimentalFeatures, Route.OfflineDictionaries, Route.Speech, Route.OfflineTranslation, Route.Downloads, Route.Backups,
 )
 
 /** The speech engine's short name, for the index: the system voices, Piper or Kokoro. */

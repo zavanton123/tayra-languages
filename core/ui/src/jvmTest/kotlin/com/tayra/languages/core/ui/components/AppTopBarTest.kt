@@ -1,5 +1,9 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.ui.test.onLast
+import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.runDesktopComposeUiTest
+import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.isRoot
@@ -28,17 +32,46 @@ class AppTopBarTest {
     val rule = createComposeRule()
 
     /** The Settings menu is tall enough for all its entries: its list does not scroll, so it shows no scrollbar. */
+    @OptIn(ExperimentalTestApi::class)
     @Test
-    fun theSettingsMenuFitsWithoutScrolling() {
-        rule.setContent { MaterialTheme { AppTopBar(title = "Tayra Languages", onNavigate = {}, section = NavSection.HOME) } }
-        rule.onNodeWithText("Settings").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("About").fetchSemanticsNodes().isNotEmpty() }
-        val lists = rule.onAllNodes(SemanticsMatcher.keyIsDefined(SemanticsProperties.VerticalScrollAxisRange) and hasAnyDescendant(hasText("About"))).fetchSemanticsNodes()
+    fun theSettingsMenuFitsWithoutScrolling() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        setContent { MaterialTheme { AppTopBar(title = "Tayra Languages", onNavigate = {}, section = NavSection.HOME) } }
+        onNodeWithText("Settings").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("About").fetchSemanticsNodes().isNotEmpty() }
+        val lists = onAllNodes(SemanticsMatcher.keyIsDefined(SemanticsProperties.VerticalScrollAxisRange) and hasAnyDescendant(hasText("About"))).fetchSemanticsNodes()
         System.getenv("SETTINGS_MENU_SCREENSHOT")?.let { path ->
-            rule.waitForIdle()
-            javax.imageio.ImageIO.write(rule.onAllNodes(isRoot())[1].captureToImage().toAwtImage(), "png", java.io.File(path))
+            waitForIdle()
+            javax.imageio.ImageIO.write(onAllNodes(isRoot())[1].captureToImage().toAwtImage(), "png", java.io.File(path))
         }
         for (list in lists) assertEquals(0f, list.config[SemanticsProperties.VerticalScrollAxisRange].maxValue(), "nothing is left to scroll to")
+    }
+
+    /** Downloads has a tab of its own, which opens its page with no menu between. */
+    @OptIn(ExperimentalTestApi::class)
+    @Test
+    fun theDownloadsTabOpensTheDownloads() = runDesktopComposeUiTest(width = 1600, height = 400) {
+        val visited = mutableListOf<Route>()
+        setContent { MaterialTheme { AppTopBar(title = "Books", onNavigate = { visited += it }, section = NavSection.BOOKS) } }
+        onNodeWithText("Downloads").performClick()
+        assertEquals(listOf<Route>(Route.Downloads), visited)
+    }
+
+    /** In a narrower window the tabs that do not fit fold into More, whose menu still reaches their pages. */
+    @OptIn(ExperimentalTestApi::class)
+    @Test
+    fun tabsThatDoNotFitFoldIntoMore() = runDesktopComposeUiTest(width = 1100, height = 900) {
+        val visited = mutableListOf<Route>()
+        val state = LearningLanguageState(listOf(1L to "Portuguese"), 1L, knownWords = 1369) {}
+        setContent { MaterialTheme { CompositionLocalProvider(LocalLearningLanguage provides state) { AppTopBar(title = "Books", onNavigate = { visited += it }, section = NavSection.DOWNLOADS) } } }
+        onNodeWithText("Home").assertExists()
+        System.getenv("NARROW_BAR_SCREENSHOT")?.let { path ->
+            waitForIdle()
+            javax.imageio.ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", java.io.File(path))
+        }
+        onNodeWithText("More").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("About").fetchSemanticsNodes().isNotEmpty() }
+        onAllNodesWithText("Downloads").onLast().performClick()
+        assertEquals(listOf<Route>(Route.Downloads), visited)
     }
 
     @Test

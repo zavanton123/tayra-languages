@@ -153,17 +153,13 @@ sealed interface Route {
     @Serializable
     data object OfflineTranslation : Route
 
+    /** Everything that can be downloaded for the language being learned: course and book packs, dictionaries, voices and offline models. */
+    @Serializable
+    data object Downloads : Route
+
     /** Downloadable offline dictionary packs. */
     @Serializable
     data object OfflineDictionaries : Route
-
-    /** Downloadable course packs, the ready-made courses of a language as one file. */
-    @Serializable
-    data object CoursePacks : Route
-
-    /** Downloadable book packs, free texts of a language graded by level, as one file. */
-    @Serializable
-    data object BookPacks : Route
 
     /** Speech engines and their voices. */
     @Serializable

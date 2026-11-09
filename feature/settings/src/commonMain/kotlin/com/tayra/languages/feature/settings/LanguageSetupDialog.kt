@@ -397,10 +397,10 @@ private fun totalSize(items: List<SetupItem>): String? {
     return sizeText(bytes, estimated = files.any { it.estimated || it.sizeBytes == null })
 }
 
-private fun sizeText(bytes: Long, estimated: Boolean): String = if (estimated) tr("about {0}", formatSize(bytes)) else formatSize(bytes)
+internal fun sizeText(bytes: Long, estimated: Boolean): String = if (estimated) tr("about {0}", formatSize(bytes)) else formatSize(bytes)
 
 /** "Greek → Russian" with the language names in the interface language, and each part of a "·" list the same way. */
-private fun localizedNames(text: String): String = text.split(" · ").joinToString(" · ") { part ->
+internal fun localizedNames(text: String): String = text.split(" · ").joinToString(" · ") { part ->
     if (" \u2192 " in part) part.split(" \u2192 ").joinToString(" \u2192 ") { tr(it) } else part
 }
 
@@ -659,7 +659,7 @@ private val MARK_SLOT = 40.dp
 private val MODEL_TITLE = Regex("""(.+) model with (\d+) voices""")
 
 /** Why a download failed, in words: a server's status code is no help to a reader; the footer offers Try again. */
-private fun downloadFailure(message: String): String {
+internal fun downloadFailure(message: String): String {
     val code = Regex("""HTTP (\d{3})""").find(message)?.groupValues?.get(1)?.toIntOrNull()
     return when {
         code == null -> tr("Download failed: {0}", message)
