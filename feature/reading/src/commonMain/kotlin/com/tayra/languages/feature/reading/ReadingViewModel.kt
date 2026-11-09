@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.domain.courses.LessonSummaries
+import com.tayra.languages.core.domain.courses.LessonSummary
 import com.tayra.languages.core.domain.model.ReadingStage
 import com.tayra.languages.core.domain.model.PageBookmark
 import com.tayra.languages.core.domain.courses.LessonReading
@@ -124,6 +126,8 @@ data class ReadingUiState(
     val stage: ReadingStage = ReadingStage.READ_ALOUD,
     /** Counts the stages reached by checking the one before, whose dialog then opens by itself. */
     val stagesReached: Int = 0,
+    /** Set once the lesson's last stage is checked, until its summary is put away. */
+    val lessonSummary: LessonSummary? = null,
 ) {
     /** Every stage of the page has been checked. */
     val allStagesDone: Boolean get() = stages.size == ReadingStage.entries.size
@@ -170,6 +174,10 @@ class ReadingViewModel(
     private val wordTranslations: WordTranslationService,
     private val sentenceAudio: SentenceAudio,
     private val lessonOf: suspend (Long) -> LessonReading? = { null },
+    /** What a finished lesson came to; without it a lesson ends as a book does. */
+    private val lessonSummaries: LessonSummaries? = null,
+    /** The text to read for a course's lesson, made on first use: the course's id, then the lesson's. */
+    private val openLesson: suspend (String, String) -> Long? = { _, _ -> null },
     private val isNews: suspend (Long) -> Boolean = { false },
     private val wordReadings: WordReadings? = null,
     /** Changes the script a Chinese language is read in, rewriting its saved words. */
@@ -351,6 +359,12 @@ class ReadingViewModel(
             if (stages.size == ReadingStage.entries.size && s.stages.size < stages.size) {
                 when {
                     !s.isLastPage -> return@launch load(s.pageNumber + 1, trackOpen = true)
+                    s.lesson != null && lessonSummaries != null -> {
+                        val words = _state.value.page.words
+                        val stats = BookStatsCalculator.calculate(_state.value.items)
+                        val summary = lessonSummaries.summary(s.lesson, words.mapNotNull { it.termId }, stats.statusDistribution[TermStatus.WELL_KNOWN] ?: 0, stats.distinctTerms - (stats.statusDistribution[TermStatus.IGNORED] ?: 0))
+                        return@launch _state.update { it.copy(stages = stages, lessonSummary = summary) }
+                    }
                     else -> {
                         if (s.lesson != null) events.send(ReadingEvent.Toast(tr("Lesson complete")))
                         return@launch events.send(ReadingEvent.BookFinished)
@@ -360,6 +374,19 @@ class ReadingViewModel(
             _state.update { it.copy(stages = stages, stage = nextOpen(stage, stages), stagesReached = it.stagesReached + 1) }
             if (stage == ReadingStage.READ_ALOUD) load(s.pageNumber, trackOpen = false, keepMarked = true)
             if (_state.value.stage.needsTranslation) translateSentences(enabled = true)
+        }
+    }
+
+    fun lessonSummarySeen() = _state.update { it.copy(lessonSummary = null) }
+
+    /** Opens the lesson after this one in the course. */
+    fun openNextLesson() {
+        val reading = _state.value.lesson ?: return
+        val next = _state.value.lessonSummary?.next ?: return
+        viewModelScope.launch {
+            val book = openLesson(reading.course.id, next.id) ?: return@launch
+            _state.update { it.copy(lessonSummary = null) }
+            events.send(ReadingEvent.Navigate(book, 1))
         }
     }
 

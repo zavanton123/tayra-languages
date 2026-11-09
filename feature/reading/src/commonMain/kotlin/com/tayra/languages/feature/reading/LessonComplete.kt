@@ -1,0 +1,203 @@
+package com.tayra.languages.feature.reading
+
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.drawscope.rotate
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.domain.courses.LessonSummary
+import com.tayra.languages.core.domain.model.ReadingStage
+import com.tayra.languages.core.ui.components.AppDialogSurface
+import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.IconButtonStyle
+import com.tayra.languages.core.ui.components.IconTile
+import com.tayra.languages.core.ui.components.LinkText
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.TintedSurface
+import com.tayra.languages.core.ui.components.cardSurface
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
+import kotlin.math.roundToInt
+import kotlin.random.Random
+
+/**
+ * Shown once a lesson's last stage is checked, over confetti: what the lesson came to, and the ways
+ * on, to the course, back to the text, or to the next lesson.
+ */
+@Composable
+internal fun LessonCompleteDialog(
+    title: String,
+    summary: LessonSummary,
+    onClose: () -> Unit,
+    onCourse: () -> Unit,
+    onNext: () -> Unit,
+) {
+    val colors = MaterialTheme.colorScheme
+    AppDialogSurface(onDismissRequest = onClose, modifier = Modifier.testTag("lesson-complete"), maxWidth = LESSON_COMPLETE_WIDTH) {
+        Box {
+            Column(
+                Modifier.verticalScroll(rememberScrollState()).padding(AppSpacing.xxl),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+            ) {
+                Box(Modifier.size(BADGE_SIZE).clip(AppShapes.circle).background(AppAccents.green.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) {
+                    Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconHuge))
+                }
+                Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+                    Text(tr("Lesson complete"), style = AppText.pageTitle, textAlign = TextAlign.Center)
+                    Text(title, style = AppText.headline, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+                    Text(tr("You completed all {0} stages.", ReadingStage.entries.size), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+                }
+                Stats(summary)
+                if (summary.words > 0) {
+                    TintedSurface(AppAccents.green, padding = PaddingValues(AppSpacing.l)) {
+                        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                            Icon(Icons.Default.CheckCircle, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconXLarge))
+                            Column {
+                                Text(tr("{0} of {1} lesson words are now known", summary.known, summary.words), style = AppText.itemTitle)
+                                Text(tr("Your vocabulary grew during this lesson."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                            }
+                        }
+                    }
+                }
+                AppDivider()
+                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    LinkText(tr("Back to course"), onCourse, modifier = Modifier.testTag("lesson-complete-course"))
+                    Spacer(Modifier.weight(1f))
+                    SecondaryButton(tr("Review lesson"), onClick = onClose, modifier = Modifier.testTag("lesson-complete-review"))
+                    if (summary.next != null) {
+                        PrimaryButton(tr("Next lesson"), onClick = onNext, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward, modifier = Modifier.testTag("lesson-complete-next"))
+                    }
+                }
+            }
+            Confetti(Modifier.matchParentSize())
+            AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, style = IconButtonStyle.Outlined, modifier = Modifier.align(Alignment.TopEnd).padding(AppSpacing.l))
+        }
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun Stats(summary: LessonSummary) {
+    val percent = if (summary.quizAsked > 0) (100f * summary.quizRight / summary.quizAsked).roundToInt() else null
+    FlowRow(
+        Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+        maxItemsInEachRow = 3,
+    ) {
+        val cell = Modifier.weight(1f).widthIn(min = STAT_MIN_WIDTH)
+        Stat(AppIcons.Book, summary.learning.toString(), tr("New words"), tr("Being learned now"), cell)
+        Stat(AppIcons.Style, summary.flashcards.toString(), tr("Flashcards"), tr("Ready to review"), cell)
+        Stat(
+            AppIcons.School,
+            if (percent != null) "${summary.quizRight} / ${summary.quizAsked}" else "—",
+            tr("Quiz answers"),
+            if (percent != null) tr("{0}% correct", percent) else tr("No answers yet"),
+            cell,
+        )
+    }
+}
+
+@Composable
+private fun Stat(icon: ImageVector, value: String, label: String, note: String, modifier: Modifier) {
+    Column(modifier.cardSurface().padding(AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+        IconTile(icon, size = 40)
+        Spacer(Modifier.size(AppSpacing.s))
+        Text(value, style = AppText.screenTitle)
+        Text(label, style = AppText.itemTitle)
+        Text(note, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    }
+}
+
+/** A burst of confetti from the top that falls and fades once, a few seconds long. */
+@Composable
+internal fun Confetti(modifier: Modifier = Modifier) {
+    val pieces = remember { List(CONFETTI_PIECES) { Piece(Random.Default) } }
+    val time = remember { Animatable(0f) }
+    LaunchedEffect(Unit) { time.animateTo(1f, tween(CONFETTI_MILLIS, easing = LinearEasing)) }
+    if (time.value >= 1f) return
+    val palette = AppAccents.sequence
+    Canvas(modifier.testTag("confetti")) {
+        val seconds = time.value * CONFETTI_MILLIS / 1000f
+        // Fades over the last part, so the pieces still falling leave without a cut.
+        val alpha = ((1f - time.value) / FADE).coerceIn(0f, 1f)
+        val unit = PIECE_LENGTH.toPx()
+        pieces.forEach { piece ->
+            val x = size.width * (piece.x + piece.dx * seconds)
+            val y = size.height * (piece.y + piece.dy * seconds + GRAVITY * seconds * seconds / 2)
+            if (y > size.height || x < 0f || x > size.width) return@forEach
+            val w = unit * piece.scale
+            val h = w * piece.ratio
+            rotate(piece.angle + piece.spin * seconds, pivot = Offset(x, y)) {
+                drawRect(palette[piece.color % palette.size], topLeft = Offset(x - w / 2, y - h / 2), size = Size(w, h), alpha = alpha)
+            }
+        }
+    }
+}
+
+/** A piece of confetti: where it starts and how it flies, as fractions of the area each second, and how it looks. */
+private class Piece(random: Random) {
+    val x = 0.2f + random.nextFloat() * 0.6f
+    val y = -0.05f + random.nextFloat() * 0.15f
+    val dx = (random.nextFloat() - 0.5f) * 0.5f
+    val dy = -0.25f - random.nextFloat() * 0.45f
+    val angle = random.nextFloat() * 360f
+    val spin = (random.nextFloat() - 0.5f) * 720f
+    val scale = 0.6f + random.nextFloat() * 0.8f
+    val ratio = 0.4f + random.nextFloat() * 0.3f
+    val color = random.nextInt(0, 64)
+}
+
+private const val CONFETTI_PIECES = 140
+private const val CONFETTI_MILLIS = 3_500
+private const val GRAVITY = 0.9f
+private const val FADE = 0.3f
+private val PIECE_LENGTH = 10.dp
+private val BADGE_SIZE = 88.dp
+private val STAT_MIN_WIDTH = 160.dp
+private val LESSON_COMPLETE_WIDTH = 900.dp

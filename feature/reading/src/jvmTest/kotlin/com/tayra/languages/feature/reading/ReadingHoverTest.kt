@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.ui.test.onLast
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.test.assertIsSelected
 import com.tayra.languages.core.ui.navigation.LocalFlashcardsDialog
@@ -176,6 +177,8 @@ class ReadingHoverTest {
         paragraph: String = "O lobo dorme na floresta.",
         /** A running Anki the text's words can be sent to; without one the reader offers no Anki export. */
         anki: AnkiConnection? = null,
+        /** The text of a course's lesson, opened from the summary of the one before. */
+        openLesson: suspend (String, String) -> Long? = { _, _ -> null },
     ): ReadingViewModel {
         if (mainIsDefault) Dispatchers.setMain(Dispatchers.Default)
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-hover", ".db").also { it.delete() })).also { this.provider = it }
@@ -240,6 +243,10 @@ class ReadingHoverTest {
             object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = translation },
             LocalTranslation(null), speech, words, sentenceAudio,
             lessonOf = { lesson },
+            lessonSummaries = com.tayra.languages.core.domain.courses.LessonSummaries(
+                terms, com.tayra.languages.core.data.repository.FlashcardRepositoryImpl(provider), com.tayra.languages.core.data.repository.PracticeProgressRepositoryImpl(provider),
+            ),
+            openLesson = openLesson,
             anki = anki?.let { AnkiExportService(terms, languages, offline, object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = null }, sentenceAudio, settings, AnkiPackagerImpl()) },
             ankiConnection = anki,
         )
@@ -687,8 +694,13 @@ class ReadingHoverTest {
                 rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-vocabulary-dialog").fetchSemanticsNodes().isEmpty() }
             }
         }
+        // The last check shows what the lesson came to; the last lesson of its course has none after it.
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-complete").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Lesson complete").assertExists()
+        rule.onNodeWithText("You completed all 7 stages.").assertExists()
+        assertTrue(rule.onAllNodesWithTag("lesson-complete-next").fetchSemanticsNodes().isEmpty(), "no lesson after the last")
+        rule.onNodeWithTag("lesson-complete-course").performClick()
         rule.waitUntil(5_000) { courses.size == 2 }
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Lesson complete").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(List(2) { course.id }, courses)
         assertEquals(0, back, "a lesson never leaves for the library")
 
@@ -711,6 +723,54 @@ class ReadingHoverTest {
             assertTrue(rule.onAllNodesWithTag(tool).fetchSemanticsNodes().isEmpty(), "a lesson has no $tool")
         }
         assertTrue(rule.onAllNodesWithText("Reader tools").fetchSemanticsNodes().isEmpty(), "a lesson's pane has no tools section")
+    }
+
+    /** Checking a lesson's last stage shows what it came to over confetti, and opens the next lesson from there. */
+    @Test
+    fun aFinishedLessonShowsItsSummaryAndOpensTheNext() {
+        val course = Course(
+            "pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "",
+            listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme."), Lesson("pt-mini-0100-02", "Onde está o Tom?", "", "O lobo dorme.")),
+        )
+        val opened = mutableListOf<String>()
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0]), openLesson = { _, lesson -> opened += lesson; 7L }) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, vocabularyList) }
+        // Every stage but the last is checked before the screen shows, so no stage's dialog opens on the way.
+        val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
+        var shown by mutableStateOf(false)
+        rule.setContent { if (shown) ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, onCourse = {}, viewModel = vm) }
+        vm.markToLearn(vm.index("lobo"))
+        rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "lobo" && it.status.isLearning } }
+        for (stage in ReadingStage.entries.dropLast(1)) {
+            vm.selectStage(stage)
+            vm.checkStage()
+            rule.waitUntil(5_000) { stage in vm.state.value.stages }
+        }
+        shown = true
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-chain").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(ReadingStage.RETELL, vm.state.value.stage)
+        // With the clock held, the confetti is caught in flight.
+        rule.mainClock.autoAdvance = false
+        rule.onNodeWithTag("check-stage").performClick()
+        repeat(100) { if (rule.onAllNodesWithTag("lesson-complete").fetchSemanticsNodes().isEmpty()) { Thread.sleep(20); rule.mainClock.advanceTimeByFrame() } }
+        rule.mainClock.advanceTimeBy(600)
+        rule.onNodeWithTag("confetti").assertExists()
+        System.getenv("LESSON_COMPLETE_SCREENSHOT")?.let { path ->
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot()).onLast().captureToImage().toAwtImage(), "png", File(path))
+        }
+        rule.mainClock.autoAdvance = true
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-complete").fetchSemanticsNodes().isNotEmpty() }
+        val summary = vm.state.value.lessonSummary!!
+        // lobo is being learned, the other four words were marked known by the reading.
+        assertEquals(1, summary.learning)
+        assertEquals(4, summary.known)
+        assertEquals(5, summary.words)
+        rule.onNodeWithText("4 of 5 lesson words are now known").assertExists()
+        rule.onNodeWithTag("lesson-complete-next").performClick()
+        rule.waitUntil(5_000) { visited.isNotEmpty() }
+        assertEquals(listOf("pt-mini-0100-02"), opened)
+        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Read(7, 1)), visited)
+        assertTrue(rule.onAllNodesWithTag("lesson-complete").fetchSemanticsNodes().isEmpty(), "the summary goes with the lesson")
     }
 
     /** Checking a stage opens the next one's dialog at once, the page's words here; another stage starts at the top of the text. */

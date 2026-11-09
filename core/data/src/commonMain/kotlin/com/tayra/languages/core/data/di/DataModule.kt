@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.di
 
+import com.tayra.languages.core.domain.courses.LessonSummaries
 import org.koin.dsl.binds
 import com.tayra.languages.core.domain.account.CloudBackupStore
 import com.tayra.languages.core.domain.account.CloudBackupService
@@ -291,6 +292,7 @@ val dataModule: Module = module {
     single<CoursePackStore> { CoursePackRepository(get()) }
     single<SampleCourseSource> { InstalledCoursePacks(get()) }
     single { CourseService(get(), get(), get(), get(), get()) }
+    single { LessonSummaries(get(), get(), get()) }
     single { CoursePackService(get(), get()) }
     single<PlaylistRepository> { PlaylistRepositoryImpl(get()) }
     single { ListeningTime(get()) }

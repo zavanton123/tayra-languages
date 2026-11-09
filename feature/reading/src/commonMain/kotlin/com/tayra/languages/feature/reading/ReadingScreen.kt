@@ -503,6 +503,15 @@ fun ReadingScreen(
             onDismiss = { newPlaylist = false },
         )
     }
+    state.lessonSummary?.let { summary ->
+        LessonCompleteDialog(
+            title = state.lesson?.lesson?.title ?: state.book?.title.orEmpty(),
+            summary = summary,
+            onClose = viewModel::lessonSummarySeen,
+            onCourse = { viewModel.lessonSummarySeen(); leave() },
+            onNext = viewModel::openNextLesson,
+        )
+    }
     // Above the bar of stages, whose Check button it would otherwise cover.
     ToastHost(toast, lift = if (phone) PHONE_TOAST_LIFT else TOAST_LIFT)
 }
