@@ -489,4 +489,12 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Download or remove the translation models for the language you learn on the Downloads page." to "Téléchargez ou supprimez les modèles de traduction de la langue que vous apprenez sur la page Téléchargements.",
     "Download or remove voices and speech recognition models on the Downloads page." to "Téléchargez ou supprimez les voix et les modèles de reconnaissance vocale sur la page Téléchargements.",
     "Download or remove voices on the Downloads page." to "Téléchargez ou supprimez les voix sur la page Téléchargements.",
+    "Browser extension" to "Extension de navigateur",
+    "Watch YouTube with your Tayra words: coloured subtitles, lookups and saving words, while the app is open." to "Regardez YouTube avec vos mots Tayra : sous-titres colorés, recherche et enregistrement de mots, tant que l’application est ouverte.",
+    "Type this code into the Tayra extension:" to "Saisissez ce code dans l’extension Tayra :",
+    "The code works once, for five minutes." to "Le code ne sert qu’une fois, pendant cinq minutes.",
+    "Pair each browser once to let its extension use your words." to "Associez chaque navigateur une fois pour que son extension utilise vos mots.",
+    "Pair a browser" to "Associer un navigateur",
+    "No browser is paired yet." to "Aucun navigateur n’est encore associé.",
+    "Paired browsers" to "Navigateurs associés",
 )

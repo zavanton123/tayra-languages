@@ -489,4 +489,12 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Download or remove the translation models for the language you learn on the Downloads page." to "Κατεβάστε ή αφαιρέστε τα μοντέλα μετάφρασης για τη γλώσσα που μαθαίνετε στη σελίδα «Λήψεις».",
     "Download or remove voices and speech recognition models on the Downloads page." to "Κατεβάστε ή αφαιρέστε φωνές και μοντέλα αναγνώρισης ομιλίας στη σελίδα «Λήψεις».",
     "Download or remove voices on the Downloads page." to "Κατεβάστε ή αφαιρέστε φωνές στη σελίδα «Λήψεις».",
+    "Browser extension" to "Επέκταση προγράμματος περιήγησης",
+    "Watch YouTube with your Tayra words: coloured subtitles, lookups and saving words, while the app is open." to "Δες YouTube με τις λέξεις σου από το Tayra: χρωματιστοί υπότιτλοι, αναζήτηση και αποθήκευση λέξεων, όσο η εφαρμογή είναι ανοιχτή.",
+    "Type this code into the Tayra extension:" to "Πληκτρολόγησε αυτόν τον κωδικό στην επέκταση Tayra:",
+    "The code works once, for five minutes." to "Ο κωδικός λειτουργεί μία φορά, για πέντε λεπτά.",
+    "Pair each browser once to let its extension use your words." to "Σύζευξε κάθε πρόγραμμα περιήγησης μία φορά, ώστε η επέκτασή του να χρησιμοποιεί τις λέξεις σου.",
+    "Pair a browser" to "Σύζευξη προγράμματος περιήγησης",
+    "No browser is paired yet." to "Δεν έχει γίνει ακόμη σύζευξη με κανένα πρόγραμμα περιήγησης.",
+    "Paired browsers" to "Συζευγμένα προγράμματα περιήγησης",
 )

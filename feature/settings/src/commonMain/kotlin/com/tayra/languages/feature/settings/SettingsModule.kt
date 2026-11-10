@@ -12,7 +12,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val settingsModule = module {
-    viewModel { SettingsViewModel(get(), getOrNull(), getOrNull()) }
+    viewModel { SettingsViewModel(get(), getOrNull(), getOrNull(), getOrNull()) }
     viewModel { PersonalSchedulingViewModel(get(), get()) }
     viewModel { RetentionHelpViewModel(get(), get()) }
     viewModel { DictionariesViewModel(get(), get(), get()) }

@@ -54,6 +54,7 @@ import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.AppUpdateService
+import com.tayra.languages.core.domain.bridge.BrowserExtensionBridge
 import com.tayra.languages.core.domain.service.CommandLineStatus
 import com.tayra.languages.core.domain.service.CommandLineTool
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -110,6 +111,8 @@ class SettingsViewModel(
     val commandLine: CommandLineTool? = null,
     /** The desktop app's updates; other platforms have none. */
     val updates: AppUpdateService? = null,
+    /** The desktop app's connection to the browser extension; other platforms have none. */
+    val browserBridge: BrowserExtensionBridge? = null,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
@@ -181,6 +184,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                         ReadingCard(settings, viewModel)
                         BehaviourCard(settings, viewModel)
                         if (viewModel.commandLine != null) CommandLineCard(viewModel)
+                        viewModel.browserBridge?.let { BrowserExtensionCard(it) }
                         viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
                     }
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
@@ -196,6 +200,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 BehaviourCard(settings, viewModel)
                 SettingsIndex(settings, onNavigate, compact = false)
                 if (viewModel.commandLine != null) CommandLineCard(viewModel)
+                viewModel.browserBridge?.let { BrowserExtensionCard(it) }
                 viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
                 InfoBanner(tr("Changes are saved automatically."))
             }
@@ -442,16 +447,59 @@ private fun CommandLineCard(viewModel: SettingsViewModel) {
     }
 }
 
+/**
+ * The Tayra browser extension: whether the app is ready for it, the browsers paired with it, and
+ * the code that pairs another.
+ */
+@Composable
+private fun BrowserExtensionCard(bridge: BrowserExtensionBridge) {
+    val state by bridge.state.collectAsStateWithLifecycle()
+    val colors = MaterialTheme.colorScheme
+    ContentCard(
+        tr("Browser extension"),
+        tr("Watch YouTube with your Tayra words: coloured subtitles, lookups and saving words, while the app is open."),
+        icon = AppIcons.Link,
+        modifier = Modifier.testTag("browser-extension"),
+    ) {
+        state.error?.let { Text(tr("Could not start: {0}", it), style = MaterialTheme.typography.bodyMedium, color = colors.error) }
+        val code = state.code
+        if (code != null) {
+            Text(tr("Type this code into the Tayra extension:"), style = MaterialTheme.typography.bodyMedium)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(Modifier.weight(1f)) { CommandBox(code.chunked(3).joinToString(" "), Modifier.testTag("pairing-code"), MaterialTheme.typography.headlineSmall) }
+                Spacer(Modifier.width(AppSpacing.m))
+                SecondaryButton(onClick = bridge::cancelPairing) { Text(tr("Cancel")) }
+            }
+            Text(tr("The code works once, for five minutes."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+        } else if (state.port != null) {
+            SettingRow(tr("Ready"), tr("Pair each browser once to let its extension use your words."), stackOnCompact = true) {
+                SecondaryButton(tr("Pair a browser"), onClick = bridge::startPairing, modifier = Modifier.testTag("pair-browser"), icon = AppIcons.Link)
+            }
+        }
+        if (state.browsers.isEmpty()) {
+            Text(tr("No browser is paired yet."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+        } else {
+            Text(tr("Paired browsers"), style = MaterialTheme.typography.titleSmall)
+            state.browsers.forEach { browser ->
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(browser.browser, Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
+                    SecondaryButton(onClick = { bridge.unpair(browser.id) }) { Text(tr("Remove")) }
+                }
+            }
+        }
+    }
+}
+
 /** A path or command in a monospace box, selectable for copying. */
 @Composable
-private fun CommandBox(text: String) {
+private fun CommandBox(text: String, modifier: Modifier = Modifier, style: TextStyle = MaterialTheme.typography.bodyMedium) {
     val colors = MaterialTheme.colorScheme
     SelectionContainer {
         Text(
             text,
-            Modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surfaceVariant.copy(alpha = AppAlpha.muted))
+            modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surfaceVariant.copy(alpha = AppAlpha.muted))
                 .border(AppBorders.hairline(), AppShapes.compact).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
-            style = MaterialTheme.typography.bodyMedium,
+            style = style,
             fontFamily = FontFamily.Monospace,
         )
     }

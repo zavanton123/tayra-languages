@@ -489,4 +489,12 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Download or remove the translation models for the language you learn on the Downloads page." to "在“下载”页面下载或删除所学语言的翻译模型。",
     "Download or remove voices and speech recognition models on the Downloads page." to "在“下载”页面下载或删除语音和语音识别模型。",
     "Download or remove voices on the Downloads page." to "在“下载”页面下载或删除语音。",
+    "Browser extension" to "浏览器扩展",
+    "Watch YouTube with your Tayra words: coloured subtitles, lookups and saving words, while the app is open." to "在应用打开时，用你的 Tayra 词汇看 YouTube：彩色字幕、查词和保存单词。",
+    "Type this code into the Tayra extension:" to "在 Tayra 扩展中输入此代码：",
+    "The code works once, for five minutes." to "此代码仅可使用一次，五分钟内有效。",
+    "Pair each browser once to let its extension use your words." to "每个浏览器配对一次，即可让其扩展使用你的词汇。",
+    "Pair a browser" to "配对浏览器",
+    "No browser is paired yet." to "尚未配对任何浏览器。",
+    "Paired browsers" to "已配对的浏览器",
 )

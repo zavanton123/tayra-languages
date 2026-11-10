@@ -1,5 +1,14 @@
 package com.tayra.languages.feature.settings
 
+import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.filterToOne
+import androidx.compose.ui.test.onChildren
+import kotlin.time.Instant
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.flow.MutableStateFlow
+import com.tayra.languages.core.domain.bridge.PairedBrowser
+import com.tayra.languages.core.domain.bridge.BridgeState
+import com.tayra.languages.core.domain.bridge.BrowserExtensionBridge
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.domain.service.SpeechEngine
 import androidx.compose.runtime.Composable
@@ -171,6 +180,30 @@ class SettingsScreenTest {
         System.getenv("CLI_SCREENSHOT")?.let { save(it.replace(".png", "-installed.png")) }
         onNodeWithText("Remove").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not on your PATH").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** On the desktop a browser is paired from the extension's card with a code it shows, and can be removed again. */
+    @Test
+    fun aBrowserIsPairedFromTheExtensionCard() = runDesktopComposeUiTest(width = 1580, height = 1500) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val bridge = object : BrowserExtensionBridge {
+            override val state = MutableStateFlow(BridgeState(port = 47_831))
+            override fun startPairing() = state.update { it.copy(code = "482913") }
+            override fun cancelPairing() = state.update { it.copy(code = null) }
+            override fun unpair(id: String) = state.update { s -> s.copy(browsers = s.browsers.filter { it.id != id }) }
+        }
+        setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings, browserBridge = bridge)) } }
+
+        onNodeWithText("No browser is paired yet.").performScrollTo().assertExists()
+        onNodeWithTag("pair-browser").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("482 913").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("BRIDGE_SCREENSHOT")?.let { save(it) }
+        bridge.state.update { it.copy(code = null, browsers = listOf(PairedBrowser("a1", "Chrome", Instant.fromEpochMilliseconds(0)))) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Paired browsers").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Chrome").assertExists()
+        System.getenv("BRIDGE_SCREENSHOT")?.let { save(it.replace(".png", "-paired.png")) }
+        onNodeWithTag("browser-extension").onChildren().filterToOne(hasText("Remove")).performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No browser is paired yet.").fetchSemanticsNodes().isNotEmpty() }
     }
 
     private fun ComposeUiTest.save(path: String) {
