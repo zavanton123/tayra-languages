@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppBorders
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.border
@@ -40,7 +41,7 @@ const val UNKNOWN_SHARE_TAG = "status-bar-unknown"
 private val LEARNING = listOf(TermStatus.NEW_1, TermStatus.NEW_2, TermStatus.LEARNING_3, TermStatus.LEARNING_4)
 
 /**
- * The share of the different words in a book or on a page still unknown, in their colour on a white,
+ * The share of the different words in a book or on a page still unknown, in solid blue on a white,
  * bordered track; the words known and being learned are the white, and with none unknown the track is
  * white throughout. Hovering it (or a long press on touch screens) shows the counts by status.
  *
@@ -50,7 +51,7 @@ private val LEARNING = listOf(TermStatus.NEW_1, TermStatus.NEW_2, TermStatus.LEA
 @Composable
 fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scope: String = "in this book") {
     val track = Modifier.height(AppSizes.trackBold).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.surface)
-        .border(AppBorders.hairline(), AppShapes.tiny)
+        .border(AppBorders.hairline(MaterialTheme.colorScheme.outline), AppShapes.tiny)
     if (stats == null || stats.distinctTerms == 0) {
         Box(modifier.then(track))
         return
@@ -61,7 +62,7 @@ fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scop
     Box(modifier) {
         AppRichTooltip(title = tr("Vocabulary {0}", tr(scope)), modifier = Modifier.fillMaxWidth(), persistent = true, body = { StatusBreakdown(stats) }) {
             Row(Modifier.testTag(STATUS_BAR_TAG).fillMaxWidth().then(track)) {
-                if (unknown > 0) Box(Modifier.fillMaxHeight().weight(unknown.toFloat()).background(TayraTheme.current.statusColors.background(TermStatus.UNKNOWN)).testTag(UNKNOWN_SHARE_TAG))
+                if (unknown > 0) Box(Modifier.fillMaxHeight().weight(unknown.toFloat()).background(AppAccents.blue).testTag(UNKNOWN_SHARE_TAG))
                 if (rest > 0) Spacer(Modifier.fillMaxHeight().weight(rest.toFloat()))
             }
         }

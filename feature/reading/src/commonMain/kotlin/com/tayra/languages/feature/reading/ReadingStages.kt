@@ -188,7 +188,8 @@ internal fun StageNote(stage: ReadingStage, onAction: () -> Unit, modifier: Modi
     val colors = MaterialTheme.colorScheme
     val number = tr("Stage {0} of {1}: {2}", stage.ordinal + 1, ReadingStage.entries.size, stage.title())
     Row(
-        modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.faint))
+        modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.tint))
+            .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.line)), AppShapes.card)
             .padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag("stage-note"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
