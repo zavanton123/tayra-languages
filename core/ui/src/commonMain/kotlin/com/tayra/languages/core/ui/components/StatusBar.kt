@@ -62,7 +62,7 @@ fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scop
     Box(modifier) {
         AppRichTooltip(title = tr("Vocabulary {0}", tr(scope)), modifier = Modifier.fillMaxWidth(), persistent = true, body = { StatusBreakdown(stats) }) {
             Row(Modifier.testTag(STATUS_BAR_TAG).fillMaxWidth().then(track)) {
-                if (unknown > 0) Box(Modifier.fillMaxHeight().weight(unknown.toFloat()).background(AppAccents.blue).testTag(UNKNOWN_SHARE_TAG))
+                if (unknown > 0) Box(Modifier.fillMaxHeight().weight(unknown.toFloat()).clip(AppShapes.tiny).background(AppAccents.blue).testTag(UNKNOWN_SHARE_TAG))
                 if (rest > 0) Spacer(Modifier.fillMaxHeight().weight(rest.toFloat()))
             }
         }
