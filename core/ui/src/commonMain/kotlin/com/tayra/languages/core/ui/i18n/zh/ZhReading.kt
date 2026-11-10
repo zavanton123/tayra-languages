@@ -292,4 +292,5 @@ internal val zhReading: Map<String, String> = mapOf(
     "Sound detected" to "检测到声音",
     "No sound yet. Check the microphone." to "还没有声音。请检查麦克风。",
     "Speak now" to "请说话",
+    "{0} unknown words" to "{0} 个生词",
 )

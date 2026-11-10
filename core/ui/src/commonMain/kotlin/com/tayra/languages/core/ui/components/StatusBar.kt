@@ -1,5 +1,8 @@
 package com.tayra.languages.core.ui.components
 
+import com.tayra.languages.core.ui.theme.AppBorders
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.border
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
@@ -31,36 +34,35 @@ import com.tayra.languages.core.ui.theme.AppText
 
 const val STATUS_BAR_TAG = "status-distribution-bar"
 
+/** The blue part of the bar, the words still unknown. */
+const val UNKNOWN_SHARE_TAG = "status-bar-unknown"
+
 private val LEARNING = listOf(TermStatus.NEW_1, TermStatus.NEW_2, TermStatus.LEARNING_3, TermStatus.LEARNING_4)
 
-/** Ignored words are counted as known: the reader no longer needs to look them up. */
-private val KNOWN = listOf(TermStatus.WELL_KNOWN, TermStatus.IGNORED)
-
 /**
- * Stacked bar of the word statuses in a book or on a page, from unknown through the learning
- * levels to known. Hovering it (or a long press on touch screens) shows the counts behind it.
+ * The share of the different words in a book or on a page still unknown, in their colour on a white,
+ * bordered track; the words known and being learned are the white, and with none unknown the track is
+ * white throughout. Hovering it (or a long press on touch screens) shows the counts by status.
  *
  * @param scope how the tooltip names what is counted, in English: "on this page" or "in this book"
  *   (shown through `tr`, so a new scope needs its own translation).
  */
 @Composable
 fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scope: String = "in this book") {
+    val track = Modifier.height(AppSizes.trackBold).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.surface)
+        .border(AppBorders.hairline(), AppShapes.tiny)
     if (stats == null || stats.distinctTerms == 0) {
-        Box(modifier.height(AppSizes.trackBold).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.surfaceVariant))
+        Box(modifier.then(track))
         return
     }
-    val colors = TayraTheme.current.statusColors
-    val count = { statuses: List<TermStatus> -> statuses.sumOf { stats.statusDistribution[it] ?: 0 } }
+    val unknown = stats.distinctUnknowns
+    val rest = stats.distinctTerms - unknown
     // The caller's modifier stays on this box: a row weight set on the tooltip box is not applied.
     Box(modifier) {
         AppRichTooltip(title = tr("Vocabulary {0}", tr(scope)), modifier = Modifier.fillMaxWidth(), persistent = true, body = { StatusBreakdown(stats) }) {
-            Row(Modifier.testTag(STATUS_BAR_TAG).fillMaxWidth().height(AppSizes.trackBold).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.surfaceVariant)) {
-                val segments = listOf(TermStatus.UNKNOWN to count(listOf(TermStatus.UNKNOWN))) +
-                    LEARNING.map { it to count(listOf(it)) } +
-                    (TermStatus.WELL_KNOWN to count(KNOWN))
-                for ((status, n) in segments) {
-                    if (n > 0) Box(Modifier.fillMaxHeight().weight(n.toFloat()).background(colors.background(status)))
-                }
+            Row(Modifier.testTag(STATUS_BAR_TAG).fillMaxWidth().then(track)) {
+                if (unknown > 0) Box(Modifier.fillMaxHeight().weight(unknown.toFloat()).background(TayraTheme.current.statusColors.background(TermStatus.UNKNOWN)).testTag(UNKNOWN_SHARE_TAG))
+                if (rest > 0) Spacer(Modifier.fillMaxHeight().weight(rest.toFloat()))
             }
         }
     }

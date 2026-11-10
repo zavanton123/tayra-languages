@@ -1274,14 +1274,19 @@ private fun TranslationProgress(message: String) {
     Notice(tr("Setting up offline translation: {0}", message), Modifier.padding(top = AppSpacing.s, bottom = AppSpacing.m), busy = true)
 }
 
-/** Distribution of term statuses on the current page, shown under the title. */
+/** How many of the page's different words are still unknown, as a bar and a count, under the title. */
 @Composable
 private fun PageVocabulary(state: ReadingUiState) {
     val stats = remember(state.page) { BookStatsCalculator.calculate(state.items) }
     val colors = MaterialTheme.colorScheme
     Row(Modifier.fillMaxWidth().padding(top = AppSpacing.m, bottom = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         StatusDistributionBar(stats, Modifier.widthIn(max = VOCABULARY_BAR_WIDTH).weight(1f, fill = false).fillMaxWidth(), scope = "on this page")
-        Text(if (stats.distinctTerms > 0) tr("{0}% new", stats.unknownPercent) else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        Text(
+            if (stats.distinctTerms > 0) trPlural(stats.distinctUnknowns, "{0} unknown word", "{0} unknown words") else "—",
+            style = MaterialTheme.typography.bodyMedium,
+            color = colors.onSurfaceVariant,
+            modifier = Modifier.testTag("page-unknown-words"),
+        )
     }
 }
 

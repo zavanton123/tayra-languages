@@ -34,13 +34,42 @@ class StatusDistributionBarTest {
             MaterialTheme {
                 Row(Modifier.padding(40.dp).width(400.dp)) {
                     StatusDistributionBar(stats, Modifier.weight(1f))
-                    Text("85% new", softWrap = false)
+                    Text("85 unknown words", softWrap = false)
                 }
             }
         }
         val bar = rule.onNodeWithTag(STATUS_BAR_TAG, useUnmergedTree = true).fetchSemanticsNode().boundsInWindow
-        val label = rule.onNodeWithText("85% new").fetchSemanticsNode().boundsInWindow
+        val label = rule.onNodeWithText("85 unknown words").fetchSemanticsNode().boundsInWindow
         assertTrue(bar.right <= label.left + 0.5f, "the bar should end where the label starts: $bar, $label")
         assertTrue(label.width > label.height * 2, "the label should sit on one line: $label")
+    }
+
+    /** The blue is the unknown words' share of the different words; known and learning ones are the white. */
+    @Test
+    fun theBlueIsTheShareOfUnknownWords() {
+        val stats = BookStats(
+            distinctTerms = 100,
+            distinctUnknowns = 25,
+            unknownPercent = 25,
+            statusDistribution = mapOf(TermStatus.UNKNOWN to 25, TermStatus.NEW_1 to 30, TermStatus.WELL_KNOWN to 45),
+        )
+        rule.setContent { MaterialTheme { Row(Modifier.width(400.dp)) { StatusDistributionBar(stats, Modifier.width(400.dp)) } } }
+        val bar = rule.onNodeWithTag(STATUS_BAR_TAG, useUnmergedTree = true).fetchSemanticsNode().boundsInWindow
+        val blue = rule.onNodeWithTag(UNKNOWN_SHARE_TAG, useUnmergedTree = true).fetchSemanticsNode().boundsInWindow
+        assertTrue(kotlin.math.abs(blue.width / bar.width - 0.25f) < 0.02f, "a quarter of the bar is blue: $blue of $bar")
+    }
+
+    /** With no word unknown the bar is all white. */
+    @Test
+    fun noUnknownWordLeavesTheBarWhite() {
+        val stats = BookStats(
+            distinctTerms = 10,
+            distinctUnknowns = 0,
+            unknownPercent = 0,
+            statusDistribution = mapOf(TermStatus.NEW_1 to 4, TermStatus.WELL_KNOWN to 6),
+        )
+        rule.setContent { MaterialTheme { StatusDistributionBar(stats, Modifier.width(400.dp)) } }
+        rule.onNodeWithTag(STATUS_BAR_TAG, useUnmergedTree = true).assertExists()
+        rule.onNodeWithTag(UNKNOWN_SHARE_TAG, useUnmergedTree = true).assertDoesNotExist()
     }
 }

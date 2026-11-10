@@ -292,4 +292,5 @@ internal val ptReading: Map<String, String> = mapOf(
     "Sound detected" to "Som detectado",
     "No sound yet. Check the microphone." to "Ainda sem som. Verifique o microfone.",
     "Speak now" to "Fale agora",
+    "{0} unknown words" to "{0} palavra desconhecida|{0} palavras desconhecidas",
 )
