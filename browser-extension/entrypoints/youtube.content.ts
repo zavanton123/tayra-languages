@@ -1,19 +1,42 @@
-import { cueAt, parseJson3, type Cue } from '../src/json3';
-import { CHANNEL, isPageMessage, type CaptionTrack, type ExtensionMessage, type TrackResult, type VideoDetails } from '../src/messages';
+import type { BridgeLine, BridgeStatus } from '../src/bridge-types';
+import { cueAt, parseJson3 } from '../src/json3';
+import { localLines } from '../src/lines';
+import { CHANNEL, isPageMessage, type ExtensionMessage, type TrackResult, type VideoDetails } from '../src/messages';
+import { Overlay } from '../src/overlay';
+import { ask } from '../src/runtime-messages';
+import { pickTrack, translationFor } from '../src/tracks';
 
-/** Beside YouTube's page: picks the video's subtitle track, fetches it and its translation through the page, and shows them over the video. */
+/** How often the subtitles ask the app for words whose status changed elsewhere. */
+const CHANGES_EVERY_MS = 4000;
+
+/**
+ * Beside YouTube's page: gets the video's subtitles through the page, has the Tayra app clean them
+ * and cut them into words with their statuses, and shows them over the video. Without the app it
+ * shows YouTube's subtitles and their translation as they are.
+ */
 export default defineContentScript({
   matches: ['https://www.youtube.com/*'],
   runAt: 'document_idle',
   main(ctx) {
-    const NATIVE = 'en';
     let nextId = 1;
     const waiting = new Map<number, (result: TrackResult) => void>();
-    let original: Cue[] = [];
-    let translation: Cue[] = [];
-    let current = '';
+    let video: VideoDetails | null = null;
+    let lines: BridgeLine[] = [];
+    let fromApp = false;
+    const changed = new Map<string, number>();
+    let version = 0;
+    let seq = 0;
+    let open: { lc: string; term: string; line: BridgeLine; resume: boolean } | null = null;
 
-    function ask(baseUrl: string, translateTo: string | null): Promise<TrackResult> {
+    const overlay = new Overlay({
+      onWord: (term, lc, line, element) => void lookUp(term, lc, line, element),
+      onStatus: (status) => void setStatus(status),
+      onCloseCard: () => closeCard(),
+    });
+    const hideOwn = document.createElement('style');
+    hideOwn.textContent = '.ytp-caption-window-container { display: none !important; }';
+
+    function track(baseUrl: string, translateTo: string | null): Promise<TrackResult> {
       const id = nextId++;
       const message: ExtensionMessage = { channel: CHANNEL, type: 'track', request: { id, baseUrl, translateTo } };
       return new Promise((resolve) => {
@@ -22,43 +45,98 @@ export default defineContentScript({
       });
     }
 
-    // Spike only: what was got, shown on the player.
-    const status: string[] = [];
-    function report(entry: Record<string, unknown>) {
-      console.info('[tayra]', JSON.stringify(entry));
-      if (entry.event === 'video') status.length = 0;
-      status.push(
-        entry.event === 'video'
-          ? `tracks: ${(entry.tracks as string[]).join(', ') || 'none'}`
-          : `${entry.event}${entry.to ? ` → ${String(entry.to)}` : ''}: HTTP ${String(entry.status)}, ${String(entry.cues)} lines (${String(entry.token)})`,
-      );
-      if (mount() && diagnostics) diagnostics.textContent = `Tayra test · ${status.join(' · ')}`;
-      const all = JSON.parse(document.documentElement.dataset.tayraReport ?? '[]') as unknown[];
-      all.push(entry);
-      document.documentElement.dataset.tayraReport = JSON.stringify(all);
-    }
-
-    function pick(tracks: CaptionTrack[]): CaptionTrack | null {
-      return tracks.find((t) => t.kind !== 'asr') ?? tracks[0] ?? null;
-    }
-
     async function load(details: VideoDetails) {
-      current = details.videoId;
-      original = [];
-      translation = [];
-      render(null, null);
-      const track = pick(details.tracks);
-      report({ event: 'video', videoId: details.videoId, title: details.title, tracks: details.tracks.map((t) => `${t.languageCode}${t.kind ? `:${t.kind}` : ''}`), picked: track?.languageCode ?? null });
-      if (!track) return;
-      const first = await ask(track.baseUrl, null);
-      if (current !== details.videoId) return;
-      original = first.body ? parseJson3(first.body) : [];
-      report({ event: 'track', videoId: details.videoId, status: first.status, token: first.token, bytes: first.body?.length ?? 0, cues: original.length });
-      const target = track.languageCode.startsWith(NATIVE) ? 'pt' : NATIVE;
-      const second = await ask(track.baseUrl, target);
-      if (current !== details.videoId) return;
-      translation = second.body ? parseJson3(second.body) : [];
-      report({ event: 'translation', videoId: details.videoId, to: target, status: second.status, token: second.token, bytes: second.body?.length ?? 0, cues: translation.length });
+      video = details;
+      lines = [];
+      fromApp = false;
+      changed.clear();
+      version++;
+      closeCard();
+      const status = await ask({ type: 'status' }).catch(() => null);
+      const app: BridgeStatus | null = status?.ok ? status.data : null;
+      const chosen = pickTrack(details.tracks, app?.language?.code ?? null);
+      if (!chosen) {
+        if (app?.language) overlay.mount() && overlay.say(`No ${app.language.name} subtitles for this video`);
+        return;
+      }
+      const native = app?.native ?? navigator.language.split('-')[0] ?? 'en';
+      const translateTo = translationFor(chosen, native);
+      const original = await track(chosen.baseUrl, null);
+      const translated = translateTo ? await track(chosen.baseUrl, translateTo) : null;
+      if (video !== details) return;
+      if (!original.body) {
+        console.debug('[tayra] no subtitles', original.status);
+        return;
+      }
+      if (app) {
+        const answer = await ask({
+          type: 'transcript',
+          request: { videoId: details.videoId, trackLanguage: chosen.languageCode, automatic: chosen.kind === 'asr', original: original.body, translation: translated?.body ?? null },
+        }).catch(() => null);
+        if (video !== details) return;
+        if (answer?.ok) {
+          lines = answer.data.lines;
+          fromApp = answer.data.languageMatches;
+          const start = await ask({ type: 'changes', since: 0 }).catch(() => null);
+          if (start?.ok) seq = start.data.seq;
+          return;
+        }
+      }
+      lines = localLines(parseJson3(original.body), translated?.body ? parseJson3(translated.body) : []);
+      if (status && !status.ok && overlay.mount()) {
+        overlay.say(status.error === 'unpaired' ? 'Tayra: pair this browser in the app’s Settings to look words up' : 'Tayra: open the app to look words up');
+      }
+    }
+
+    async function lookUp(term: string, lc: string, line: BridgeLine, element: HTMLElement) {
+      const player = document.querySelector<HTMLVideoElement>('#movie_player video');
+      const resume = open ? open.resume : !!player && !player.paused;
+      player?.pause();
+      overlay.closeCard();
+      element.classList.add('open');
+      open = { lc, term, line, resume };
+      overlay.showCardLoading(term);
+      const answer = await ask({ type: 'lookup', term }).catch(() => null);
+      if (open?.term !== term) return;
+      if (answer?.ok) overlay.showCard(answer.data);
+      else overlay.showCardError(term, answer?.error === 'offline' ? 'The Tayra app is not open.' : 'Tayra could not look the word up.');
+    }
+
+    async function setStatus(status: number) {
+      const word = open;
+      if (!word) return;
+      const answer = await ask({ type: 'save', request: { term: word.term, status, sentence: word.line.text } }).catch(() => null);
+      if (!answer?.ok) {
+        overlay.showCardError(word.term, 'Tayra could not save the word.');
+        return;
+      }
+      changed.set(answer.data.lc, answer.data.status);
+      if (answer.data.lc !== word.lc) changed.set(word.lc, answer.data.status);
+      version++;
+      closeCard();
+    }
+
+    function closeCard() {
+      const word = open;
+      open = null;
+      overlay.closeCard();
+      if (word?.resume) void document.querySelector<HTMLVideoElement>('#movie_player video')?.play();
+    }
+
+    async function pollChanges() {
+      if (!fromApp || document.hidden || !video) return;
+      const answer = await ask({ type: 'changes', since: seq }).catch(() => null);
+      if (!answer?.ok) return;
+      if (answer.data.reset) {
+        seq = answer.data.seq;
+        if (video) void load(video);
+        return;
+      }
+      seq = answer.data.seq;
+      const statuses = Object.entries(answer.data.statuses);
+      if (!statuses.length) return;
+      for (const [lc, status] of statuses) changed.set(lc, status);
+      version++;
     }
 
     window.addEventListener('message', (event) => {
@@ -70,56 +148,26 @@ export default defineContentScript({
         waiting.delete(message.result.id);
       }
     });
-
-    // The overlay: inside the player, so it shows in full screen too; in a shadow root, so YouTube's styles leave it alone.
-    let host: HTMLElement | null = null;
-    let line: HTMLElement | null = null;
-    let translated: HTMLElement | null = null;
-    let diagnostics: HTMLElement | null = null;
-    const hideOwn = document.createElement('style');
-    hideOwn.textContent = '.ytp-caption-window-container { display: none !important; }';
-
-    function mount(): boolean {
-      const p = document.getElementById('movie_player');
-      if (!p) return false;
-      if (host && host.parentElement === p) return true;
-      host = document.createElement('div');
-      host.id = 'tayra-subtitles';
-      const root = host.attachShadow({ mode: 'open' });
-      root.innerHTML = `
-        <style>
-          :host { position: absolute; inset: 0; z-index: 60; pointer-events: none; }
-          .box { position: absolute; left: 10%; right: 10%; bottom: 12%; text-align: center; font-family: system-ui, sans-serif; }
-          .line, .translation { display: inline-block; padding: 0.15em 0.5em; border-radius: 0.3em; background: rgba(8, 8, 8, 0.78); color: #fff; }
-          .line { font-size: clamp(16px, 2.6vw, 34px); }
-          .translation { margin-top: 0.3em; font-size: clamp(13px, 1.8vw, 24px); color: #d9e4ff; }
-          .line:empty, .translation:empty { display: none; }
-          .status { position: absolute; top: 8px; left: 8px; padding: 4px 8px; border-radius: 4px; background: #1d4ed8; color: #fff; font: 12px system-ui, sans-serif; }
-          .status:empty { display: none; }
-        </style>
-        <div class="status"></div>
-        <div class="box"><div><span class="line"></span></div><div><span class="translation"></span></div></div>`;
-      line = root.querySelector('.line');
-      translated = root.querySelector('.translation');
-      diagnostics = root.querySelector('.status');
-      p.appendChild(host);
-      return true;
-    }
-
-    function render(text: string | null, translationText: string | null) {
-      if (line && line.textContent !== (text ?? '')) line.textContent = text ?? '';
-      if (translated && translated.textContent !== (translationText ?? '')) translated.textContent = translationText ?? '';
-    }
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && open) {
+        event.stopPropagation();
+        closeCard();
+      }
+    }, true);
+    ctx.setInterval(() => void pollChanges(), CHANGES_EVERY_MS);
 
     function tick() {
-      const video = document.querySelector<HTMLVideoElement>('#movie_player video');
-      const advert = document.getElementById('movie_player')?.classList.contains('ad-showing') ?? false;
-      if (original.length && mount() && video && !advert) {
+      const player = document.getElementById('movie_player');
+      const media = player?.querySelector<HTMLVideoElement>('video');
+      const advert = player?.classList.contains('ad-showing') ?? false;
+      const here = new URL(location.href).searchParams.get('v');
+      if (lines.length && video?.videoId === here && media && !advert && overlay.mount()) {
         if (!hideOwn.isConnected) document.head.appendChild(hideOwn);
-        const ms = video.currentTime * 1000;
-        render(cueAt(original, ms)?.text ?? null, cueAt(translation, ms)?.text ?? null);
+        // While a word's card is open, its line stays.
+        overlay.show(open ? open.line : cueAt(lines, media.currentTime * 1000), changed, version);
       } else {
-        render(null, null);
+        overlay.hide();
+        hideOwn.remove();
       }
       if (ctx.isValid) requestAnimationFrame(tick);
     }

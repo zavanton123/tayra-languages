@@ -27,7 +27,7 @@ export function parseJson3(body: string): Cue[] {
 }
 
 /** The line showing at [ms], or null between lines: the latest one begun that hasn't ended. */
-export function cueAt(cues: Cue[], ms: number): Cue | null {
+export function cueAt<T extends { beginMs: number; endMs: number }>(cues: T[], ms: number): T | null {
   let low = 0;
   let high = cues.length - 1;
   let found = -1;
