@@ -72,6 +72,10 @@ const STYLE = `
   .card .error { color: #ffb4ab; }
 `;
 
+/** Space between the card and the subtitles under it, and above it, in px. */
+const CARD_GAP = 12;
+const CARD_MIN_HEIGHT = 120;
+
 const ICONS = {
   previous: '<svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg>',
   replay: '<svg viewBox="0 0 24 24"><path d="M12 5V1L7 6l5 5V7c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6H4c0 4.4 3.6 8 8 8s8-3.6 8-8-3.6-8-8-8z"/></svg>',
@@ -245,6 +249,7 @@ export class Overlay {
    */
   show(line: BridgeLine | null, human: string | null, changed: ReadonlyMap<string, number>, version: number, hideMode: HideMode, revealed: number) {
     if (!this.host) return;
+    this.placeCard();
     const key = `${version}|${hideMode}|${revealed}|${human ?? ''}`;
     if (line === this.shown && key === this.shownKey) return;
     this.shown = line;
@@ -404,14 +409,26 @@ export class Overlay {
     return !!this.host && !this.card.hidden;
   }
 
+  /** Keeps the card just above the subtitles, however tall they are, in the room left above them. */
+  private placeCard() {
+    if (!this.host || this.card.hidden) return;
+    const player = this.host.getBoundingClientRect();
+    const subtitles = this.root.querySelector('.text')!.getBoundingClientRect();
+    if (!subtitles.height) return;
+    this.card.style.bottom = `${player.bottom - subtitles.top + CARD_GAP}px`;
+    this.card.style.maxHeight = `${Math.max(CARD_MIN_HEIGHT, subtitles.top - player.top - 2 * CARD_GAP)}px`;
+  }
+
   showCardLoading(term: string) {
     this.card.hidden = false;
     this.card.replaceChildren(header(term, null), paragraph('Looking it up…', 'body muted'));
+    this.placeCard();
   }
 
   showCardError(term: string, text: string) {
     this.card.hidden = false;
     this.card.replaceChildren(header(term, null), paragraph(text, 'body error'));
+    this.placeCard();
   }
 
   showCard(word: LookupResponse) {
@@ -454,6 +471,7 @@ export class Overlay {
     }
     if (!word.entries.length && !word.translation) body.append(paragraph('No dictionary entry. Install a dictionary in Tayra’s Downloads.', 'muted'));
     this.card.replaceChildren(header(word.term, word.entries[0]?.ipa ?? null), statuses, body);
+    this.placeCard();
   }
 
   closeCard() {
