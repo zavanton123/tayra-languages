@@ -12,6 +12,12 @@ import com.tayra.languages.core.data.ocr.TesseractTextRecognizer
 import com.tayra.languages.core.data.parse.KuromojiBoundaries
 import com.tayra.languages.core.data.runtime.DesktopAppUpdater
 import com.tayra.languages.core.data.runtime.DesktopCommandLineTool
+import com.tayra.languages.core.data.bridge.DesktopBrowserBridge
+import com.tayra.languages.core.data.bridge.SecurePairedBrowserStore
+import com.tayra.languages.core.domain.bridge.BridgePairing
+import com.tayra.languages.core.domain.bridge.BrowserBridgeApi
+import com.tayra.languages.core.domain.bridge.BrowserExtensionBridge
+import com.tayra.languages.core.domain.bridge.StatusChanges
 import com.tayra.languages.core.data.runtime.ManagedPython
 import com.tayra.languages.core.data.account.DesktopIdentitySignIn
 import com.tayra.languages.core.data.account.GoogleOAuth
@@ -37,12 +43,14 @@ import com.tayra.languages.core.domain.parse.Segmenters
 import com.tayra.languages.core.domain.service.AppUpdateService
 import com.tayra.languages.core.domain.service.AppUpdater
 import com.tayra.languages.core.domain.service.CommandLineTool
+import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.service.LocalSpeech
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.SpeechAudioCache
 import java.io.File
 import java.util.prefs.Preferences
 import org.koin.core.module.Module
+import org.koin.dsl.bind
 import org.koin.dsl.module
 
 actual val platformDataModule: Module = module {
@@ -64,6 +72,10 @@ actual val platformDataModule: Module = module {
     single<SecureStore> { desktopSecureStore() }
     single<TextRecognizer> { TesseractTextRecognizer(File(DatabaseDriverFactory.dataDirectory(), "ocr/tessdata")) }
     single<CommandLineTool> { DesktopCommandLineTool() }
+    single { StatusChanges(get(), get()) }
+    single { BridgePairing(SecurePairedBrowserStore(get())) }
+    single { BrowserBridgeApi(get(), get(), get(), get(), get<DictionaryService>(), get(), System.getProperty("tayra.version")) }
+    single { DesktopBrowserBridge(get(), get(), get()) } bind BrowserExtensionBridge::class
     single<AppUpdater> { DesktopAppUpdater(get()) }
     single { AppUpdateService(get(), get()) }
     // Anki's AnkiConnect add-on listens on the desktop only.

@@ -7,6 +7,7 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.WindowState
 import androidx.compose.ui.window.application
 import com.tayra.languages.App
+import com.tayra.languages.core.data.bridge.DesktopBrowserBridge
 import com.tayra.languages.core.data.runtime.AppInstanceLock
 import com.tayra.languages.di.initKoin
 import io.github.vinceglb.filekit.FileKit
@@ -14,6 +15,7 @@ import java.awt.Taskbar
 import java.lang.management.ManagementFactory
 import kotlin.system.exitProcess
 import javax.imageio.ImageIO
+import org.koin.core.context.GlobalContext
 
 private val isMacOs = System.getProperty("os.name").lowercase().contains("mac")
 
@@ -30,6 +32,8 @@ fun main() {
     System.setProperty("apple.awt.application.name", "Tayra Languages")
     FileKit.init(appId = "TayraLanguages")
     initKoin()
+    // Lets the Tayra browser extension look words up while the app is open.
+    GlobalContext.get().get<DesktopBrowserBridge>().start()
     setDockIcon()
     application {
         Window(
