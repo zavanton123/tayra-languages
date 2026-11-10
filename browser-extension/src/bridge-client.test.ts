@@ -50,6 +50,24 @@ describe('BridgeClient', () => {
     expect(await client.call('GET', '/v1/status')).toEqual({ ok: true, data: { language: null, native: 'en', version: null } });
   });
 
+  it('gets its token from the app\'s helper, with no code', async () => {
+    const tokens = new MemoryTokens();
+    let asked = 0;
+    const client = new BridgeClient(tokens, app(PORTS[0]!), 4000, async () => {
+      asked++;
+      return 't';
+    });
+    expect(await client.call('GET', '/v1/status')).toEqual({ ok: true, data: { language: null, native: 'en', version: null } });
+    expect(tokens.token).toBe('t');
+    expect((await client.call('GET', '/v1/status')).ok).toBe(true);
+    expect(asked).toBe(1);
+  });
+
+  it('is unpaired when the helper has no token either', async () => {
+    const client = new BridgeClient(new MemoryTokens('old'), app(PORTS[0]!), 4000, async () => null);
+    expect(await client.call('GET', '/v1/status')).toEqual({ ok: false, error: 'unpaired' });
+  });
+
   it('forgets a token the app no longer knows', async () => {
     const tokens = new MemoryTokens('old');
     const client = new BridgeClient(tokens, app(PORTS[0]!));

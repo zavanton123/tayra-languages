@@ -19,9 +19,21 @@ export class BridgeClient {
     private readonly tokens: TokenStore,
     private readonly fetchImpl: typeof fetch = (input, init) => fetch(input, init),
     private readonly timeoutMs = 4000,
+    /** The token the app's helper gives, with no pairing code; null where the browser can't start it. */
+    private readonly automatic: () => Promise<string | null> = async () => null,
   ) {}
 
   async call<T>(method: 'GET' | 'POST', path: string, body?: unknown, authorized = true): Promise<BridgeResult<T>> {
+    const first = await this.callOnce<T>(method, path, body, authorized);
+    if (first.ok || first.error !== 'unpaired') return first;
+    // No token yet, or one the app no longer knows: the helper may give one.
+    const token = await this.automatic().catch(() => null);
+    if (!token) return first;
+    await this.tokens.set(token);
+    return this.callOnce<T>(method, path, body, authorized);
+  }
+
+  private async callOnce<T>(method: 'GET' | 'POST', path: string, body: unknown, authorized: boolean): Promise<BridgeResult<T>> {
     const token = authorized ? await this.tokens.get() : null;
     if (authorized && !token) return (await this.find()) ? { ok: false, error: 'unpaired' } : { ok: false, error: 'offline' };
     for (let attempt = 0; attempt < 2; attempt++) {

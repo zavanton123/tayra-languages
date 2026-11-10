@@ -9,7 +9,20 @@ function paragraph(text: string, className = ''): HTMLParagraphElement {
   return p;
 }
 
+/** The sites the extension works on. Firefox asks the user for them after installing; Chrome grants them at once. */
+const ORIGINS = ['https://www.youtube.com/*', 'http://127.0.0.1/*'];
+
 async function render() {
+  const granted = await browser.permissions.contains({ origins: ORIGINS }).catch(() => true);
+  if (!granted) {
+    content.replaceChildren(paragraph('Allow Tayra to work on YouTube and to reach the Tayra app on this computer.', 'muted'));
+    const allow = document.createElement('button');
+    allow.textContent = 'Allow';
+    // A permission is asked for from a click; the popup closes while the browser asks.
+    allow.onclick = () => void browser.permissions.request({ origins: ORIGINS }).then(() => render());
+    content.append(allow);
+    return;
+  }
   const status = await ask({ type: 'status' });
   content.replaceChildren();
   if (status.ok) {
@@ -36,7 +49,10 @@ async function render() {
     return;
   }
   if (status.error === 'unpaired') {
-    content.append(paragraph('In Tayra, open Settings → Browser extension, press “Pair a browser”, and type the code here.', 'muted'));
+    content.append(
+      paragraph('This browser could not connect to Tayra by itself.'),
+      paragraph('In Tayra, open Settings → Browser extension, press “Pair with a code”, and type the code here.', 'muted'),
+    );
     const form = document.createElement('form');
     const input = document.createElement('input');
     input.inputMode = 'numeric';

@@ -14,7 +14,17 @@ export default defineBackground(() => {
       else await browser.storage.local.remove('token');
     },
   };
-  const client = new BridgeClient(tokens);
+  /** The helper the Tayra app registers with the browser; the browser lets only this extension start it. */
+  async function helperToken(): Promise<string | null> {
+    try {
+      const answer = (await browser.runtime.sendNativeMessage('app.tayra.bridge', { type: 'token' })) as { token?: unknown } | undefined;
+      return typeof answer?.token === 'string' && answer.token.length > 0 ? answer.token : null;
+    } catch {
+      // No helper: Tayra isn't installed here, or the browser can't start helpers (a sandboxed one).
+      return null;
+    }
+  }
+  const client = new BridgeClient(tokens, undefined, undefined, helperToken);
 
   function browserName(): string {
     const agent = navigator.userAgent;
