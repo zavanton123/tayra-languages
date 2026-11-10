@@ -503,7 +503,7 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
     val counts = state.counts
     val pass = state.pass
     // The day's cards stay one number through the session; an extra pass counts its own cards. A card
-    // in its steps still waits, so the way through goes by the answers given against those still to give.
+    // in its steps still waits, so the bar goes by the answers given against those still to give.
     val total = pass?.termIds?.size ?: state.sessionTotal
     val progress = when {
         total == 0 -> 0f
@@ -529,7 +529,7 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
     }
     val bar: @Composable (Modifier) -> Unit = { m ->
         // Filled by the cards answered: the first card of one shows an empty bar, not a full one.
-        ProgressTrack(progress, if (pass != null) AppAccents.purple else AppAccents.blue, m, height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
+        ProgressTrack(progress, if (pass != null) AppAccents.purple else AppAccents.blue, m.testTag("flashcard-progress-bar"), height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
     }
     val label: @Composable () -> Unit = {
         Text(
@@ -537,7 +537,8 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
                 pass != null -> tr("{0} · card {1} of {2}", pass.study.title(), current, total)
                 total == 0 -> tr("No cards today")
                 state.card == null -> tr("{0} of {1} answered", current, total)
-                else -> tr("{0} of {1}", FlashcardService.cardsLeft(total, state.answered, counts.total), total)
+                // The cards really left, as the counts below say; the bar moves with the answers instead.
+                else -> tr("{0} of {1}", counts.total.coerceAtMost(total), total)
             },
             style = MaterialTheme.typography.bodyLarge,
             color = colors.onSurfaceVariant,

@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.flashcards
 
+import androidx.compose.ui.semantics.SemanticsProperties
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.CompletableDeferred
 import androidx.compose.ui.test.onLast
@@ -774,30 +775,28 @@ class FlashcardsScreenTest {
         onNodeWithText("1 of 1").assertExists()
     }
 
-    /** Each answer moves the count on, a card still in its steps included, out of the same total. */
+    /**
+     * The count is the cards really left out of the same total, as the counts beside it and the menu say;
+     * a new card answered into its steps is still left, while the bar moves on with every answer.
+     */
     @Test
-    fun eachAnswerMovesTheCountOn() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun theCountIsTheCardsLeftAndTheBarMovesWithEachAnswer() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val viewModel = show(moreTerms = { id ->
             listOf("pão" to "Eu comprei pão.", "leite" to "Bebo leite.").forEach { (text, sentence) ->
                 terms.save(Term(languageId = id, text = text, textLc = text, status = TermStatus.NEW_1, translation = "x", sentence = sentence))
             }
         })
         waitForCard("3 of 3")
-        onNodeWithText("Show answer").performClick()
-        onNodeWithTag("answer-Good").performClick()
-        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 1 }
-        waitForCard("2 of 3")
-        onNodeWithText("Show answer").performClick()
-        onNodeWithTag("answer-Good").performClick()
-        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 2 }
-        waitForCard("2 of 3")
-        // Both cards answered are still in their steps, so three wait; the menu counts as the review does.
+        for (answer in 1..2) {
+            onNodeWithText("Show answer").performClick()
+            onNodeWithTag("answer-Good").performClick()
+            waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == answer }
+            // Both cards answered are in their steps, so all three are still left.
+            waitForCard("3 of 3")
+        }
         assertEquals(3, viewModel.state.value.counts.total)
-        waitUntil(timeoutMillis = 5_000) { runBlocking { service.observeDueCount().first() } == 2 }
-        onNodeWithText("Show answer").performClick()
-        onNodeWithTag("answer-Good").performClick()
-        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 3 }
-        waitForCard("1 of 3")
+        assertEquals(3, runBlocking { service.observeDueCount().first() })
+        assertTrue(onNodeWithTag("flashcard-progress-bar", useUnmergedTree = true).fetchSemanticsNode().config[SemanticsProperties.ProgressBarRangeInfo].current > 0f, "the bar moved")
     }
 
     /** The shortcut back is the configurable one: given another key, that key goes back and Ctrl+Z no longer does. */

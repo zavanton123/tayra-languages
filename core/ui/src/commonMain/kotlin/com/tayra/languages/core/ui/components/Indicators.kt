@@ -1,5 +1,7 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.ui.semantics.progressBarRangeInfo
+import androidx.compose.ui.semantics.ProgressBarRangeInfo
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.animateFloatAsState
@@ -187,7 +189,7 @@ fun AppProgressBar(progress: Float?, modifier: Modifier = Modifier, color: Color
 @Composable
 fun ProgressTrack(fraction: Float, color: Color, modifier: Modifier = Modifier, height: Dp = 6.dp, trackColor: Color = MaterialTheme.colorScheme.surfaceContainerHighest) {
     val done by animateFloatAsState(fraction.coerceIn(0f, 1f), AppMotion.spec())
-    Box(modifier.fillMaxWidth().height(height).clip(AppShapes.tiny).background(trackColor)) {
+    Box(modifier.fillMaxWidth().height(height).clip(AppShapes.tiny).background(trackColor).semantics { progressBarRangeInfo = ProgressBarRangeInfo(fraction.coerceIn(0f, 1f), 0f..1f) }) {
         if (done > 0f) Box(Modifier.fillMaxWidth(done).fillMaxHeight().clip(AppShapes.tiny).background(color))
     }
 }

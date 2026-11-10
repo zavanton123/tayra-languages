@@ -210,22 +210,6 @@ class FlashcardsViewModel(
     val state: StateFlow<FlashcardsUiState> = _state.asStateFlow()
     val events = UiEvents<FlashcardsEvent>()
 
-    init {
-        // While a card of the day's review is on show, the menu's count is the one shown here.
-        viewModelScope.launch {
-            state.collect { s ->
-                val id = languageId
-                if (s.card != null && s.pass == null && id != null && s.sessionTotal > 0) {
-                    service.showReviewLeft(this@FlashcardsViewModel, id, FlashcardService.cardsLeft(s.sessionTotal, s.answered, s.counts.total))
-                } else {
-                    service.forgetReviewLeft(this@FlashcardsViewModel)
-                }
-            }
-        }
-    }
-
-    override fun onCleared() = service.forgetReviewLeft(this)
-
     private var current: Flashcard? = null
     /** When the card on show came up, to time the answer to it. */
     private var shownAt: TimeSource.Monotonic.ValueTimeMark? = null
