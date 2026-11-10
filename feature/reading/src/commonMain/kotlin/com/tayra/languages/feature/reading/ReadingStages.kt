@@ -158,7 +158,7 @@ private fun StageCircle(stage: ReadingStage, done: Boolean, current: Boolean, ba
     }
 }
 
-/** Checks the stage being worked on, which moves on to the next: filled once the stage is [done], outlined until then. */
+/** Checks the stage being worked on, which moves on to the next; always filled, whether or not the stage is [done]. */
 @Composable
 internal fun CheckStageButton(stage: ReadingStage, done: Boolean, onCheck: () -> Unit, size: Dp = CHECK_SIZE) {
     val colors = MaterialTheme.colorScheme
@@ -167,8 +167,7 @@ internal fun CheckStageButton(stage: ReadingStage, done: Boolean, onCheck: () ->
     AppTooltip(label) {
         Box(
             Modifier.size(size).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle)
-                .background(if (done) colors.primary else colors.surface)
-                .then(if (done) Modifier else Modifier.border(BorderStroke(DONE_RING, colors.primary), AppShapes.circle))
+                .background(colors.primary)
                 .clickable(onClick = onCheck)
                 .testTag("check-stage")
                 .semantics {
@@ -176,7 +175,7 @@ internal fun CheckStageButton(stage: ReadingStage, done: Boolean, onCheck: () ->
                     if (done) stateDescription = doneLabel
                 },
             contentAlignment = Alignment.Center,
-        ) { Icon(Icons.Filled.Check, contentDescription = null, tint = if (done) colors.onPrimary else colors.primary, modifier = Modifier.size(if (size < CHECK_SIZE) AppSizes.iconMedium else AppSizes.iconLarge)) }
+        ) { Icon(Icons.Filled.Check, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(if (size < CHECK_SIZE) AppSizes.iconMedium else AppSizes.iconLarge)) }
     }
 }
 
