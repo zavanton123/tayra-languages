@@ -1,5 +1,8 @@
 package com.tayra.languages.core.domain.flashcards
 
+import kotlin.math.roundToInt
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.flow.MutableStateFlow
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.repository.FlashcardRepository
@@ -457,7 +460,25 @@ class FlashcardService(
     /** Emits whenever terms, cards or reviews change, here or by sync. */
     fun observeChanges(): Flow<Unit> = cards.observeChanges()
 
-    /** How many cards of the language being learned wait today; follows changes and the clock. */
+    /** The cards left as each open review shows them, by the review; the one opened last is the one counted. */
+    private val reviewsLeft = MutableStateFlow<Map<Any, ReviewLeft>>(emptyMap())
+
+    private class ReviewLeft(val languageId: Long, val left: Int)
+
+    /**
+     * Has [observeDueCount] count the cards left as the review [owner] shows them, [left] of the language
+     * [languageId]'s, while it is open, so the menu and the review give one number.
+     */
+    fun showReviewLeft(owner: Any, languageId: Long, left: Int) =
+        reviewsLeft.update { (it - owner) + (owner to ReviewLeft(languageId, left)) }
+
+    /** The review [owner] is closed, or shows no count: the menu counts the cards waiting again. */
+    fun forgetReviewLeft(owner: Any) = reviewsLeft.update { it - owner }
+
+    /**
+     * How many cards of the language being learned wait today, as an open review shows them while there is
+     * one; follows changes and the clock.
+     */
     fun observeDueCount(): Flow<Int> {
         val everyMinute = flow {
             while (true) {
@@ -466,8 +487,9 @@ class FlashcardService(
             }
         }
         // Conflated: a burst of writes, such as marking a page's words known, is counted once.
-        return combine(cards.observeChanges().conflate(), settings.settings, everyMinute) { _, s, _ -> counts(s.currentLanguageId.takeIf { it != 0L }).total }
-            .distinctUntilChanged()
+        return combine(cards.observeChanges().conflate(), settings.settings, everyMinute, reviewsLeft) { _, s, _, open ->
+            open.values.lastOrNull { it.languageId == s.currentLanguageId }?.left ?: counts(s.currentLanguageId.takeIf { it != 0L }).total
+        }.distinctUntilChanged()
     }
 
     /** What each answer would make of [card], whose word is at [status]: a review that leaves the word short of Known waits a week at most. */
@@ -481,6 +503,17 @@ class FlashcardService(
     private fun fuzz(card: Flashcard): Double = Random(card.termId * 31 + card.schedule.reps).nextDouble()
 
     companion object {
+        /**
+         * The cards left of a review that opened with [total], after [answered] answers with [remaining] still
+         * to give: the answers are set against all those the day takes, so the count falls with each one, even
+         * when a card answered stays in its steps. The card on show is still left.
+         */
+        fun cardsLeft(total: Int, answered: Int, remaining: Int): Int {
+            if (total <= 0) return 0
+            val done = answered.toFloat() / (answered + remaining).coerceAtLeast(1)
+            return total - (done * total).roundToInt().coerceIn(0, total - 1)
+        }
+
         private val STEPPING = setOf(CardState.LEARNING, CardState.RELEARNING)
 
         /** A card being learned is shown this much early when nothing else is left, as in Anki. */

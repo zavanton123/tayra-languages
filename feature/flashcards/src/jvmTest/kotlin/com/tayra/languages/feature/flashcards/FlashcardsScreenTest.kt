@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.flashcards
 
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.CompletableDeferred
 import androidx.compose.ui.test.onLast
 import kotlin.time.Duration
@@ -790,6 +791,9 @@ class FlashcardsScreenTest {
         onNodeWithTag("answer-Good").performClick()
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 2 }
         waitForCard("2 of 3")
+        // Both cards answered are still in their steps, so three wait; the menu counts as the review does.
+        assertEquals(3, viewModel.state.value.counts.total)
+        waitUntil(timeoutMillis = 5_000) { runBlocking { service.observeDueCount().first() } == 2 }
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("answer-Good").performClick()
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 3 }
