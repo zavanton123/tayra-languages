@@ -9,33 +9,35 @@ const STYLE = `
   .line { font-size: clamp(16px, 2.5vw, 34px); line-height: 1.35; }
   .translation { font-size: clamp(13px, 1.7vw, 23px); color: #dbe6ff; }
   .line:empty, .translation:empty { display: none; }
-  .word { cursor: pointer; border-radius: 0.2em; padding: 0 0.04em; }
-  .word:hover { outline: 2px solid rgba(255, 255, 255, 0.75); }
-  .word.s0 { background: #cde0fb; color: #12213a; }
-  .word.s1 { background: #fae39e; color: #2b2208; }
-  .word.s2 { background: #f8e7b4; color: #2b2208; }
-  .word.s3 { background: #f6ebc9; color: #2b2208; }
-  .word.s4 { background: #f4efdf; color: #2b2208; }
+  .word { cursor: pointer; border-radius: 0.2em; padding: 0 0.06em; color: #eff1f2; }
+  .word:hover { outline: 2px solid rgba(239, 241, 242, 0.7); }
+  /* Tayra's dark-theme statuses: they read on a video, and dark-mode extensions leave them be. */
+  .word.s0 { background: #34476b; }
+  .word.s1 { background: #7c6735; }
+  .word.s2 { background: #6e5e37; }
+  .word.s3 { background: #605438; }
+  .word.s4 { background: #524b3a; }
   .word.open { outline: 2px solid #8fc3ec; }
-  .notice { position: absolute; top: 12px; left: 12px; padding: 6px 10px; border-radius: 6px; background: rgba(31, 95, 139, 0.95); color: #fff; font-size: 13px; }
+  .notice { position: absolute; top: 12px; left: 12px; padding: 6px 10px; border-radius: 6px; background: #163e5c; color: #eff1f2; font-size: 13px; }
   .notice:empty { display: none; }
   .card { pointer-events: auto; position: absolute; left: 50%; bottom: calc(11% + 7.5em); transform: translateX(-50%); width: min(440px, 86%); max-height: 52%; overflow: auto;
-    background: #fff; color: #1b1f24; border-radius: 12px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45); font-size: 14px; line-height: 1.45; text-align: left; }
+    background: #1d2125; color: #e6e9ec; border: 1px solid #2d3238; border-radius: 12px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55); font-size: 14px; line-height: 1.45; text-align: left; }
   .card[hidden] { display: none; }
-  .card header { position: sticky; top: 0; display: flex; align-items: baseline; gap: 10px; padding: 12px 14px 8px; background: #fff; border-bottom: 1px solid #e3e8ee; }
+  .card header { position: sticky; top: 0; display: flex; align-items: baseline; gap: 10px; padding: 12px 14px 8px; background: #1d2125; border-bottom: 1px solid #2d3238; }
   .card h2 { margin: 0; font-size: 20px; font-weight: 650; }
-  .card .reading { color: #5c6670; }
-  .card .close { margin-left: auto; border: 0; background: none; color: #5c6670; font-size: 20px; line-height: 1; cursor: pointer; }
+  .card .reading { color: #a3acb5; }
+  .card .close { margin-left: auto; border: 0; background: none; color: #a3acb5; font-size: 20px; line-height: 1; cursor: pointer; }
   .card .statuses { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 14px; }
-  .card .statuses button { min-width: 34px; padding: 5px 8px; border: 1px solid #cfd6de; border-radius: 8px; background: #fff; color: #1b1f24; font: 600 13px system-ui, sans-serif; cursor: pointer; }
-  .card .statuses button.current { background: #1f5f8b; border-color: #1f5f8b; color: #fff; }
+  .card .statuses button { min-width: 34px; padding: 5px 8px; border: 1px solid #3a4148; border-radius: 8px; background: #23282d; color: #e6e9ec; font: 600 13px system-ui, sans-serif; cursor: pointer; }
+  .card .statuses button:hover { border-color: #8fc3ec; }
+  .card .statuses button.current { background: #8fc3ec; border-color: #8fc3ec; color: #0b2a40; }
   .card .body { padding: 0 14px 14px; display: grid; gap: 10px; }
-  .card .mine { padding: 8px 10px; border-radius: 8px; background: #f1f5f9; }
+  .card .mine { padding: 8px 10px; border-radius: 8px; background: #262c32; }
   .card .entry .head { font-weight: 600; }
-  .card .entry .pos { margin-left: 6px; color: #5c6670; font-style: italic; font-weight: 400; }
+  .card .entry .pos { margin-left: 6px; color: #a3acb5; font-style: italic; font-weight: 400; }
   .card .entry ol { margin: 4px 0 0; padding-left: 20px; }
-  .card .muted { color: #5c6670; }
-  .card .error { color: #b3261e; }
+  .card .muted { color: #a3acb5; }
+  .card .error { color: #ffb4ab; }
 `;
 
 export interface OverlayEvents {
