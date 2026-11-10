@@ -13,6 +13,7 @@ import com.tayra.languages.core.data.parse.KuromojiBoundaries
 import com.tayra.languages.core.data.runtime.DesktopAppUpdater
 import com.tayra.languages.core.data.runtime.DesktopCommandLineTool
 import com.tayra.languages.core.data.bridge.DesktopBrowserBridge
+import com.tayra.languages.core.data.bridge.NativeHostInstaller
 import com.tayra.languages.core.data.bridge.SecurePairedBrowserStore
 import com.tayra.languages.core.domain.bridge.BridgePairing
 import com.tayra.languages.core.domain.bridge.BrowserBridgeApi
@@ -73,9 +74,10 @@ actual val platformDataModule: Module = module {
     single<TextRecognizer> { TesseractTextRecognizer(File(DatabaseDriverFactory.dataDirectory(), "ocr/tessdata")) }
     single<CommandLineTool> { DesktopCommandLineTool() }
     single { StatusChanges(get(), get()) }
-    single { BridgePairing(SecurePairedBrowserStore(get())) }
+    single { NativeHostInstaller(File(DatabaseDriverFactory.dataDirectory(), "browser-extension")) }
+    single { BridgePairing(SecurePairedBrowserStore(get()), automaticToken = get<NativeHostInstaller>()::token) }
     single { BrowserBridgeApi(get(), get(), get(), get(), get<DictionaryService>(), get(), System.getProperty("tayra.version")) }
-    single { DesktopBrowserBridge(get(), get(), get()) } bind BrowserExtensionBridge::class
+    single { DesktopBrowserBridge(get(), get(), get(), nativeHost = get()) } bind BrowserExtensionBridge::class
     single<AppUpdater> { DesktopAppUpdater(get()) }
     single { AppUpdateService(get(), get()) }
     // Anki's AnkiConnect add-on listens on the desktop only.

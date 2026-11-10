@@ -494,7 +494,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Type this code into the Tayra extension:" to "Введите этот код в расширении Tayra:",
     "The code works once, for five minutes." to "Код действует один раз в течение пяти минут.",
     "Pair each browser once to let its extension use your words." to "Свяжите каждый браузер один раз, чтобы его расширение могло использовать ваши слова.",
-    "Pair a browser" to "Связать браузер",
-    "No browser is paired yet." to "Ни один браузер пока не связан.",
     "Paired browsers" to "Связанные браузеры",
+    "The extension connects by itself in {0}. Pair other browsers with a code." to "Расширение подключается само в: {0}. Другие браузеры свяжите с помощью кода.",
+    "Pair with a code" to "Связать по коду",
 )

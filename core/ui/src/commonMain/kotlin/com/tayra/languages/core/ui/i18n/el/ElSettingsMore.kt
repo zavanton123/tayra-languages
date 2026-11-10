@@ -494,7 +494,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Type this code into the Tayra extension:" to "Πληκτρολόγησε αυτόν τον κωδικό στην επέκταση Tayra:",
     "The code works once, for five minutes." to "Ο κωδικός λειτουργεί μία φορά, για πέντε λεπτά.",
     "Pair each browser once to let its extension use your words." to "Σύζευξε κάθε πρόγραμμα περιήγησης μία φορά, ώστε η επέκτασή του να χρησιμοποιεί τις λέξεις σου.",
-    "Pair a browser" to "Σύζευξη προγράμματος περιήγησης",
-    "No browser is paired yet." to "Δεν έχει γίνει ακόμη σύζευξη με κανένα πρόγραμμα περιήγησης.",
     "Paired browsers" to "Συζευγμένα προγράμματα περιήγησης",
+    "The extension connects by itself in {0}. Pair other browsers with a code." to "Η επέκταση συνδέεται μόνη της σε: {0}. Σύζευξε άλλα προγράμματα περιήγησης με κωδικό.",
+    "Pair with a code" to "Σύζευξη με κωδικό",
 )

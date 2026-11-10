@@ -494,7 +494,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Type this code into the Tayra extension:" to "在 Tayra 扩展中输入此代码：",
     "The code works once, for five minutes." to "此代码仅可使用一次，五分钟内有效。",
     "Pair each browser once to let its extension use your words." to "每个浏览器配对一次，即可让其扩展使用你的词汇。",
-    "Pair a browser" to "配对浏览器",
-    "No browser is paired yet." to "尚未配对任何浏览器。",
     "Paired browsers" to "已配对的浏览器",
+    "The extension connects by itself in {0}. Pair other browsers with a code." to "扩展会在 {0} 中自动连接。其他浏览器请用代码配对。",
+    "Pair with a code" to "用代码配对",
 )

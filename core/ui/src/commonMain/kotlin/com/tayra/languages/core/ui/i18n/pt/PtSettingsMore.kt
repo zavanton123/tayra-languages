@@ -494,7 +494,7 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Type this code into the Tayra extension:" to "Digite este código na extensão do Tayra:",
     "The code works once, for five minutes." to "O código funciona uma vez, por cinco minutos.",
     "Pair each browser once to let its extension use your words." to "Pareie cada navegador uma vez para que a extensão dele use suas palavras.",
-    "Pair a browser" to "Parear um navegador",
-    "No browser is paired yet." to "Nenhum navegador pareado ainda.",
     "Paired browsers" to "Navegadores pareados",
+    "The extension connects by itself in {0}. Pair other browsers with a code." to "A extensão se conecta sozinha em: {0}. Pareie outros navegadores com um código.",
+    "Pair with a code" to "Parear com código",
 )

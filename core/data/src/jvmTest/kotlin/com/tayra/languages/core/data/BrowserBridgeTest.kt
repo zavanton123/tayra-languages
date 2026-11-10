@@ -1,5 +1,7 @@
 package com.tayra.languages.core.data
 
+import kotlin.io.path.createTempDirectory
+import com.tayra.languages.core.data.bridge.NativeHostInstaller
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.bridge.DesktopBrowserBridge
 import com.tayra.languages.core.data.bridge.SecurePairedBrowserStore
@@ -227,5 +229,60 @@ class BrowserBridgeTest {
         } finally {
             bridge.stop()
         }
+    }
+}
+
+/** The helper the browsers start for the extension, so it connects with no pairing code. */
+class NativeHostInstallerTest {
+
+    @Test
+    fun theHelperIsRegisteredWithTheBrowsersThatAreThere() {
+        val home = createTempDirectory("tayra-home").toFile()
+        File(home, "Library/Application Support/Google/Chrome").mkdirs()
+        File(home, "Library/Application Support/Mozilla").mkdirs()
+        val folder = File(home, "data/browser-extension")
+        val installer = NativeHostInstaller(folder, home, "mac os x")
+        assertEquals(listOf("Chrome", "Firefox"), installer.install())
+        val chrome = File(home, "Library/Application Support/Google/Chrome/NativeMessagingHosts/app.tayra.bridge.json").readText()
+        assertTrue("chrome-extension://emhgfoemkgabcjfadhmekfkjgjjhhfcd/" in chrome && File(folder, "tayra-bridge-host").absolutePath in chrome, chrome)
+        val firefox = File(home, "Library/Application Support/Mozilla/NativeMessagingHosts/app.tayra.bridge.json").readText()
+        assertTrue("youtube@tayra.app" in firefox && "allowed_extensions" in firefox, firefox)
+        assertFalse(File(home, "Library/Application Support/Microsoft Edge").exists(), "no folder made for a browser that isn't there")
+        assertEquals(installer.token(), NativeHostInstaller(folder, home, "mac os x").token(), "the token is kept")
+    }
+
+    /** The helper answers as native messaging wants: the length in four little-endian bytes, then the JSON. */
+    @Test
+    fun theHelperGivesTheToken() {
+        if (System.getProperty("os.name").lowercase().contains("win")) return
+        val folder = createTempDirectory("tayra-host").toFile()
+        val installer = NativeHostInstaller(folder, createTempDirectory("tayra-home").toFile(), "linux")
+        installer.install()
+        val process = ProcessBuilder(File(folder, "tayra-bridge-host").absolutePath).start()
+        process.outputStream.use { it.write(byteArrayOf(2, 0, 0, 0, '{'.code.toByte(), '}'.code.toByte())) }
+        val bytes = process.inputStream.readAllBytes()
+        assertEquals(0, process.waitFor())
+        val length = (bytes[0].toInt() and 255) or ((bytes[1].toInt() and 255) shl 8) or ((bytes[2].toInt() and 255) shl 16) or ((bytes[3].toInt() and 255) shl 24)
+        val message = bytes.copyOfRange(4, bytes.size).decodeToString()
+        assertEquals(message.length, length)
+        assertEquals("""{"token":"${installer.token()}"}""", message)
+    }
+
+    @Test
+    fun onWindowsTheBrowsersFindTheHelperInTheRegistry() {
+        val folder = createTempDirectory("tayra-win").toFile()
+        val commands = mutableListOf<List<String>>()
+        assertEquals(listOf("Chrome", "Edge", "Firefox"), NativeHostInstaller(folder, folder, "windows 11") { commands += it }.install())
+        assertTrue(commands.first().containsAll(listOf("reg", "add", "HKCU\\Software\\Google\\Chrome\\NativeMessagingHosts\\app.tayra.bridge")))
+        assertTrue(File(folder, "tayra-bridge-host.bat").isFile && File(folder, "app.tayra.bridge.firefox.json").isFile)
+    }
+
+    @Test
+    fun theHelpersTokenIsAccepted() {
+        val folder = createTempDirectory("tayra-accept").toFile()
+        val installer = NativeHostInstaller(folder, folder, "linux")
+        val pairing = BridgePairing(SecurePairedBrowserStore(InMemorySecureStore()), automaticToken = installer::token)
+        assertTrue(pairing.accepts(installer.token()))
+        assertFalse(pairing.accepts("0".repeat(64)))
     }
 }

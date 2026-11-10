@@ -17,14 +17,16 @@ interface PairedBrowserStore {
 data class StoredPairing(val browser: PairedBrowser, val token: String)
 
 /**
- * Pairs the extension with the app. The app shows a code for a few minutes; the extension sends it
- * back once and gets a token it sends with every call after. Any web page can call the app on this
- * computer, so nothing but pairing works without a token, and a few wrong codes end the pairing.
+ * Who may call the app. Mostly the extension gets its token by itself, from the helper the app
+ * registers with the browsers, which only the extension may start ([automaticToken]). Where that
+ * can't work, the extension is paired by hand: the app shows a code for a few minutes, and the
+ * extension sends it back once for a token of its own. A few wrong codes end the pairing.
  */
 class BridgePairing(
     private val store: PairedBrowserStore,
     private val clock: Clock = Clock.System,
     private val random: Random = Random.Default,
+    private val automaticToken: () -> String? = { null },
 ) {
     private var pairings: List<StoredPairing> = store.load()
     private var code: String? = null
@@ -66,7 +68,8 @@ class BridgePairing(
         return token
     }
 
-    fun accepts(token: String?): Boolean = token != null && pairings.any { same(it.token, token) }
+    fun accepts(token: String?): Boolean =
+        token != null && (automaticToken()?.let { same(it, token) } == true || pairings.any { same(it.token, token) })
 
     fun unpair(id: String) {
         pairings = pairings.filter { it.browser.id != id }

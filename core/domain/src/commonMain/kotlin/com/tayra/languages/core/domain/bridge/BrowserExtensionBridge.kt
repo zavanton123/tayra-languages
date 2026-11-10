@@ -27,4 +27,6 @@ data class BridgeState(
     val code: String? = null,
     val codeUntil: Instant? = null,
     val browsers: List<PairedBrowser> = emptyList(),
+    /** The browsers the extension connects in by itself, with no code. */
+    val automaticIn: List<String> = emptyList(),
 )

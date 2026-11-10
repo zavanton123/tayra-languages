@@ -472,13 +472,17 @@ private fun BrowserExtensionCard(bridge: BrowserExtensionBridge) {
             }
             Text(tr("The code works once, for five minutes."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
         } else if (state.port != null) {
-            SettingRow(tr("Ready"), tr("Pair each browser once to let its extension use your words."), stackOnCompact = true) {
-                SecondaryButton(tr("Pair a browser"), onClick = bridge::startPairing, modifier = Modifier.testTag("pair-browser"), icon = AppIcons.Link)
+            val automatic = state.automaticIn.joinToString(", ")
+            SettingRow(
+                tr("Ready"),
+                if (automatic.isEmpty()) tr("Pair each browser once to let its extension use your words.")
+                else tr("The extension connects by itself in {0}. Pair other browsers with a code.", automatic),
+                stackOnCompact = true,
+            ) {
+                SecondaryButton(tr("Pair with a code"), onClick = bridge::startPairing, modifier = Modifier.testTag("pair-browser"), icon = AppIcons.Link)
             }
         }
-        if (state.browsers.isEmpty()) {
-            Text(tr("No browser is paired yet."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-        } else {
+        if (state.browsers.isNotEmpty()) {
             Text(tr("Paired browsers"), style = MaterialTheme.typography.titleSmall)
             state.browsers.forEach { browser ->
                 Row(verticalAlignment = Alignment.CenterVertically) {

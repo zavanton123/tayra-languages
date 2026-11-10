@@ -41,6 +41,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.Serializable
@@ -58,6 +59,8 @@ class DesktopBrowserBridge(
     private val changes: StatusChanges,
     private val pairing: BridgePairing,
     private val ports: IntRange = DEFAULT_PORTS,
+    /** Registers the helper that gives the extension its token; null where the browsers can't start one. */
+    private val nativeHost: NativeHostInstaller? = null,
 ) : BrowserExtensionBridge {
     private val log = Logger.withTag("BrowserBridge")
     private val json = Json { ignoreUnknownKeys = true; encodeDefaults = true }
@@ -69,6 +72,12 @@ class DesktopBrowserBridge(
     fun start() {
         if (server != null) return
         changes.start(scope)
+        nativeHost?.let { installer ->
+            scope.launch(Dispatchers.IO) {
+                val browsers = runCatching { installer.install() }.onFailure { log.w(it) { "the helper could not be registered" } }.getOrDefault(emptyList())
+                _state.update { it.copy(automaticIn = browsers) }
+            }
+        }
         for (port in ports) {
             try {
                 val created = HttpServer.create(InetSocketAddress(InetAddress.getLoopbackAddress(), port), 0)

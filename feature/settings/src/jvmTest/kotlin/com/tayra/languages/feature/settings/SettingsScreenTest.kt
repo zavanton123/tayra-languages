@@ -182,19 +182,19 @@ class SettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not on your PATH").fetchSemanticsNodes().isNotEmpty() }
     }
 
-    /** On the desktop a browser is paired from the extension's card with a code it shows, and can be removed again. */
+    /** On the desktop the extension connects by itself; a browser it can't is paired from the card with a code, and can be removed again. */
     @Test
     fun aBrowserIsPairedFromTheExtensionCard() = runDesktopComposeUiTest(width = 1580, height = 1500) {
         val settings = SettingsRepositoryImpl(MapSettings())
         val bridge = object : BrowserExtensionBridge {
-            override val state = MutableStateFlow(BridgeState(port = 47_831))
+            override val state = MutableStateFlow(BridgeState(port = 47_831, automaticIn = listOf("Chrome", "Firefox")))
             override fun startPairing() = state.update { it.copy(code = "482913") }
             override fun cancelPairing() = state.update { it.copy(code = null) }
             override fun unpair(id: String) = state.update { s -> s.copy(browsers = s.browsers.filter { it.id != id }) }
         }
         setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings, browserBridge = bridge)) } }
 
-        onNodeWithText("No browser is paired yet.").performScrollTo().assertExists()
+        onNodeWithText("The extension connects by itself in Chrome, Firefox. Pair other browsers with a code.").performScrollTo().assertExists()
         onNodeWithTag("pair-browser").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("482 913").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("BRIDGE_SCREENSHOT")?.let { save(it) }
@@ -203,7 +203,7 @@ class SettingsScreenTest {
         onNodeWithText("Chrome").assertExists()
         System.getenv("BRIDGE_SCREENSHOT")?.let { save(it.replace(".png", "-paired.png")) }
         onNodeWithTag("browser-extension").onChildren().filterToOne(hasText("Remove")).performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No browser is paired yet.").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Paired browsers").fetchSemanticsNodes().isEmpty() }
     }
 
     private fun ComposeUiTest.save(path: String) {
