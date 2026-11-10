@@ -1,14 +1,34 @@
 import type { BridgeLine, LookupResponse } from './bridge-types';
+import type { CaptionTrack } from './messages';
 import { currentStatus } from './lines';
+import { FONT_SCALES, POSITION_RANGE, hidden, type ExtensionSettings, type HideMode } from './settings';
 import { STATUS_BUTTONS, statusClass } from './statuses';
 
 const STYLE = `
-  :host { position: absolute; inset: 0; z-index: 60; pointer-events: none; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
-  .subtitles { position: absolute; left: 8%; right: 8%; bottom: 11%; display: flex; flex-direction: column; align-items: center; gap: 0.35em; text-align: center; }
-  .line, .translation { pointer-events: auto; max-width: 100%; padding: 0.12em 0.45em; border-radius: 0.3em; background: rgba(8, 8, 8, 0.8); color: #fff; }
-  .line { font-size: clamp(16px, 2.5vw, 34px); line-height: 1.35; }
-  .translation { font-size: clamp(13px, 1.7vw, 23px); color: #dbe6ff; }
+  :host { position: absolute; inset: 0; z-index: 60; pointer-events: none; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; --scale: 1; --position: 11%; --background: rgba(8, 8, 8, 0.7); --background-hover: rgba(8, 8, 8, 0.85); }
+  :host([data-font='sans']) .text { font-family: Arial, Helvetica, sans-serif; }
+  :host([data-font='serif']) .text { font-family: 'Times New Roman', Times, serif; }
+  .subtitles { position: absolute; left: 3%; right: 3%; bottom: var(--position); display: flex; align-items: flex-end; justify-content: center; gap: 10px; }
+  .text { pointer-events: auto; display: flex; flex-direction: column; align-items: center; gap: 0.3em; max-width: 84%; text-align: center; }
+  .line, .translation { max-width: 100%; padding: 0.12em 0.45em; border-radius: 0.3em; background: var(--background); color: #fff; transition: filter 120ms; }
+  .text:hover .line, .text:hover .translation { background: var(--background-hover); }
+  .line { font-size: calc(clamp(16px, 2.5vw, 34px) * var(--scale)); line-height: 1.35; }
+  .translation { font-size: calc(clamp(13px, 1.7vw, 23px) * var(--scale)); color: #dbe6ff; }
+  .translation.ht { color: #ffe3b3; }
   .line:empty, .translation:empty { display: none; }
+  .hidden { filter: blur(0.25em); cursor: pointer; }
+  .hidden:hover { filter: none; }
+  .controls { pointer-events: auto; display: flex; flex-direction: column; gap: 6px; transition: opacity 150ms; }
+  .controls[hidden] { display: none; }
+  .controls button { display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 0; border-radius: 8px; background: var(--background); color: #eff1f2; font: 600 13px system-ui, sans-serif; cursor: pointer; }
+  .controls button:hover { background: rgba(31, 95, 139, 0.95); }
+  .controls button.on { background: #8fc3ec; color: #0b2a40; }
+  .controls .handle { cursor: ns-resize; }
+  .controls svg { width: 18px; height: 18px; fill: currentColor; }
+  .pause-mark { position: absolute; right: 3%; bottom: calc(var(--position) + 5.5em); padding: 3px 8px; border-radius: 6px; background: #8fc3ec; color: #0b2a40; font: 600 12px system-ui, sans-serif; animation: pulse 1.4s ease-in-out infinite; }
+  .pause-mark[hidden] { display: none; }
+  @keyframes pulse { 50% { opacity: 0.45; } }
+  @media (prefers-reduced-motion: reduce) { .pause-mark { animation: none; } }
   .word { cursor: pointer; border-radius: 0.2em; padding: 0 0.06em; color: #eff1f2; }
   .word:hover { outline: 2px solid rgba(239, 241, 242, 0.7); }
   /* Tayra's dark-theme statuses: they read on a video, and dark-mode extensions leave them be. */
@@ -20,7 +40,19 @@ const STYLE = `
   .word.open { outline: 2px solid #8fc3ec; }
   .notice { position: absolute; top: 12px; left: 12px; padding: 6px 10px; border-radius: 6px; background: #163e5c; color: #eff1f2; font-size: 13px; }
   .notice:empty { display: none; }
-  .card { pointer-events: auto; position: absolute; left: 50%; bottom: calc(11% + 7.5em); transform: translateX(-50%); width: min(440px, 86%); max-height: 52%; overflow: auto;
+  .panel { pointer-events: auto; position: absolute; right: 12px; top: 12px; bottom: 60px; width: min(340px, 70%); overflow: auto; padding: 4px 16px 16px;
+    background: #1d2125; color: #e6e9ec; border: 1px solid #2d3238; border-radius: 12px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55); font-size: 13px; }
+  .panel[hidden] { display: none; }
+  .panel header { position: sticky; top: 0; display: flex; align-items: center; padding: 10px 0; background: #1d2125; }
+  .panel h2 { margin: 0; font-size: 15px; }
+  .panel .close { margin-left: auto; border: 0; background: none; color: #a3acb5; font-size: 20px; cursor: pointer; }
+  .panel h3 { margin: 14px 0 6px; color: #a3acb5; font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+  .panel label { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 5px 0; }
+  .panel select, .panel input[type=range] { max-width: 60%; }
+  .panel select { padding: 4px 6px; border: 1px solid #3a4148; border-radius: 6px; background: #23282d; color: #e6e9ec; font: inherit; }
+  .panel .keys { display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; color: #a3acb5; }
+  .panel kbd { padding: 0 5px; border: 1px solid #3a4148; border-radius: 4px; color: #e6e9ec; font: 12px ui-monospace, Menlo, monospace; }
+  .card { pointer-events: auto; position: absolute; left: 50%; bottom: calc(var(--position) + 7.5em); transform: translateX(-50%); width: min(440px, 86%); max-height: 52%; overflow: auto;
     background: #1d2125; color: #e6e9ec; border: 1px solid #2d3238; border-radius: 12px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55); font-size: 14px; line-height: 1.45; text-align: left; }
   .card[hidden] { display: none; }
   .card header { position: sticky; top: 0; display: flex; align-items: baseline; gap: 10px; padding: 12px 14px 8px; background: #1d2125; border-bottom: 1px solid #2d3238; }
@@ -40,27 +72,59 @@ const STYLE = `
   .card .error { color: #ffb4ab; }
 `;
 
+const ICONS = {
+  previous: '<svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg>',
+  replay: '<svg viewBox="0 0 24 24"><path d="M12 5V1L7 6l5 5V7c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6H4c0 4.4 3.6 8 8 8s8-3.6 8-8-3.6-8-8-8z"/></svg>',
+  next: '<svg viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>',
+  settings: '<svg viewBox="0 0 24 24"><path d="M19.4 13a7.5 7.5 0 0 0 0-2l2.1-1.6-2-3.5-2.5 1a7.6 7.6 0 0 0-1.7-1L15 3.3h-4l-.4 2.6a7.6 7.6 0 0 0-1.7 1l-2.5-1-2 3.5L6.6 11a7.5 7.5 0 0 0 0 2l-2.1 1.6 2 3.5 2.5-1c.5.4 1.1.7 1.7 1l.4 2.6h4l.4-2.6c.6-.3 1.2-.6 1.7-1l2.5 1 2-3.5zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg>',
+  move: '<svg viewBox="0 0 24 24"><path d="M12 2 8 6h3v5H6V8l-4 4 4 4v-3h5v5H8l4 4 4-4h-3v-5h5v3l4-4-4-4v3h-5V6h3z"/></svg>',
+};
+
 export interface OverlayEvents {
   /** A word of [line] was clicked. */
   onWord(term: string, lc: string, line: BridgeLine, element: HTMLElement): void;
   onStatus(status: number): void;
   onCloseCard(): void;
+  onAction(action: 'previous' | 'replay' | 'next' | 'autopause'): void;
+  onSettings(change: Partial<ExtensionSettings>): void;
+  onTrack(key: string): void;
+  /** The pointer came onto the subtitles, or left them. */
+  onHover(inside: boolean): void;
+}
+
+/** What the settings panel offers for this video. */
+export interface PanelChoices {
+  tracks: CaptionTrack[];
+  track: string | null;
+  translationLanguages: { languageCode: string; name: string }[];
+  native: string;
+}
+
+export function trackKey(track: CaptionTrack): string {
+  return `${track.languageCode}|${track.kind}`;
 }
 
 /**
  * What the extension draws over YouTube's player: the current line with its words coloured by
- * status, its translation, and the card of a word clicked. Inside the player, so it shows in full
- * screen; in a shadow root, so YouTube's styles leave it alone.
+ * status and its translations, the buttons beside them, the card of a word clicked and the
+ * settings. Inside the player, so it shows in full screen; in a shadow root, so YouTube's styles
+ * leave it alone.
  */
 export class Overlay {
   private host: HTMLElement | null = null;
+  private root!: ShadowRoot;
   private line!: HTMLElement;
-  private translation!: HTMLElement;
+  private machine!: HTMLElement;
+  private human!: HTMLElement;
   private notice!: HTMLElement;
   private card!: HTMLElement;
+  private panel!: HTMLElement;
+  private pauseMark!: HTMLElement;
   private shown: BridgeLine | null = null;
-  private shownVersion = -1;
+  private shownKey = '';
   private noticeTimer: ReturnType<typeof setTimeout> | undefined;
+  private settings: ExtensionSettings | null = null;
+  private choices: PanelChoices | null = null;
 
   constructor(private readonly events: OverlayEvents) {}
 
@@ -75,19 +139,49 @@ export class Overlay {
     const root = host.attachShadow({ mode: 'open' });
     root.innerHTML = `<style>${STYLE}</style>
       <div class="notice"></div>
+      <div class="pause-mark" hidden>Auto-paused</div>
       <div class="card" hidden></div>
-      <div class="subtitles"><div class="line"></div><div class="translation"></div></div>`;
+      <div class="panel" hidden></div>
+      <div class="subtitles">
+        <div class="controls left">
+          <button data-action="next" title="Next line (D)">${ICONS.next}</button>
+          <button data-action="replay" title="Replay the line (S)">${ICONS.replay}</button>
+          <button data-action="previous" title="Previous line (A)">${ICONS.previous}</button>
+        </div>
+        <div class="text"><div class="line"></div><div class="translation mt"></div><div class="translation ht"></div></div>
+        <div class="controls right">
+          <button data-action="autopause" title="Auto-pause at the end of each line (Q)">AP</button>
+          <button data-action="settings" title="Tayra settings">${ICONS.settings}</button>
+          <button data-action="move" class="handle" title="Drag to move the subtitles; click to show or hide these buttons">${ICONS.move}</button>
+        </div>
+      </div>`;
+    this.root = root;
     this.line = root.querySelector('.line')!;
-    this.translation = root.querySelector('.translation')!;
+    this.machine = root.querySelector('.mt')!;
+    this.human = root.querySelector('.ht')!;
     this.notice = root.querySelector('.notice')!;
     this.card = root.querySelector('.card')!;
+    this.panel = root.querySelector('.panel')!;
+    this.pauseMark = root.querySelector('.pause-mark')!;
     // Clicks here are the overlay's: the player under it would play or pause.
-    for (const type of ['click', 'mousedown', 'mouseup', 'dblclick', 'pointerdown', 'pointerup']) {
+    for (const type of ['click', 'mousedown', 'mouseup', 'dblclick', 'pointerdown', 'pointerup', 'contextmenu', 'wheel']) {
       root.addEventListener(type, (event) => event.stopPropagation());
     }
     this.line.addEventListener('click', (event) => {
       const word = (event.target as HTMLElement).closest<HTMLElement>('.word');
+      if (this.line.classList.contains('hidden')) return;
       if (word?.dataset.term && word.dataset.lc && this.shown) this.events.onWord(word.dataset.term, word.dataset.lc, this.shown, word);
+    });
+    const text = root.querySelector<HTMLElement>('.text')!;
+    text.addEventListener('mouseenter', () => this.events.onHover(true));
+    text.addEventListener('mouseleave', () => this.events.onHover(false));
+    root.querySelectorAll<HTMLElement>('.controls button').forEach((button) => {
+      const action = button.dataset.action!;
+      if (action === 'move') return this.draggable(button, player);
+      button.addEventListener('click', () => {
+        if (action === 'settings') this.togglePanel();
+        else this.events.onAction(action as 'previous' | 'replay' | 'next' | 'autopause');
+      });
     });
     this.card.addEventListener('click', (event) => {
       const target = event.target as HTMLElement;
@@ -98,15 +192,63 @@ export class Overlay {
     player.appendChild(host);
     this.host = host;
     this.shown = null;
+    this.shownKey = '';
+    if (this.settings) this.apply(this.settings);
     return true;
   }
 
-  /** Shows [line], its words coloured by [changed] over the statuses they came with; [version] says when those changed. */
-  show(line: BridgeLine | null, changed: ReadonlyMap<string, number>, version: number) {
+  /** Dragging the handle moves the subtitles up and down; a click without a drag shows or hides the buttons. */
+  private draggable(handle: HTMLElement, player: HTMLElement) {
+    handle.addEventListener('pointerdown', (down) => {
+      handle.setPointerCapture(down.pointerId);
+      const box = player.getBoundingClientRect();
+      let moved = false;
+      let position = this.settings?.position ?? 11;
+      const move = (event: PointerEvent) => {
+        if (Math.abs(event.clientY - down.clientY) > 3) moved = true;
+        if (!moved) return;
+        position = Math.round(((box.bottom - event.clientY) / box.height) * 100);
+        position = Math.min(POSITION_RANGE.max, Math.max(POSITION_RANGE.min, position));
+        this.host?.style.setProperty('--position', `${position}%`);
+      };
+      const up = () => {
+        handle.removeEventListener('pointermove', move);
+        handle.removeEventListener('pointerup', up);
+        if (moved) this.events.onSettings({ position });
+        else this.events.onSettings({ showControls: !(this.settings?.showControls ?? true) });
+      };
+      handle.addEventListener('pointermove', move);
+      handle.addEventListener('pointerup', up);
+    });
+  }
+
+  apply(settings: ExtensionSettings) {
+    this.settings = settings;
     if (!this.host) return;
-    if (line === this.shown && version === this.shownVersion) return;
+    const style = this.host.style;
+    style.setProperty('--scale', String(FONT_SCALES[settings.fontSize] ?? 1));
+    style.setProperty('--position', `${settings.position}%`);
+    const alpha = settings.backgroundOpacity / 100;
+    style.setProperty('--background', `rgba(8, 8, 8, ${alpha})`);
+    style.setProperty('--background-hover', `rgba(8, 8, 8, ${Math.min(1, alpha + 0.15)})`);
+    this.host.dataset.font = settings.font;
+    this.root.querySelector<HTMLElement>('.controls.left')!.hidden = !settings.showControls;
+    this.root.querySelectorAll<HTMLElement>('.controls.right button:not(.handle)').forEach((b) => (b.hidden = !settings.showControls));
+    this.root.querySelector('[data-action="autopause"]')!.classList.toggle('on', settings.autoPause);
+    this.shownKey = '';
+    if (!this.panel.hidden) this.renderPanel();
+  }
+
+  /**
+   * Shows [line] with its words coloured by [changed] over the statuses they came with, its
+   * translations, and as much of it as the hide mode lets show after [revealed] reveals.
+   */
+  show(line: BridgeLine | null, human: string | null, changed: ReadonlyMap<string, number>, version: number, hideMode: HideMode, revealed: number) {
+    if (!this.host) return;
+    const key = `${version}|${hideMode}|${revealed}|${human ?? ''}`;
+    if (line === this.shown && key === this.shownKey) return;
     this.shown = line;
-    this.shownVersion = version;
+    this.shownKey = key;
     this.line.replaceChildren();
     if (line) {
       if (line.segments.length) {
@@ -126,7 +268,22 @@ export class Overlay {
         this.line.textContent = line.text;
       }
     }
-    this.translation.textContent = line?.translation ?? '';
+    this.machine.textContent = line?.translation ?? '';
+    this.human.textContent = line ? (human ?? '') : '';
+    const hide = hidden(hideMode, revealed);
+    this.line.classList.toggle('hidden', hide.line);
+    this.machine.classList.toggle('hidden', hide.translation);
+    this.human.classList.toggle('hidden', hide.translation);
+  }
+
+  /** Marks that auto-pause stopped the video, until it plays again. */
+  autoPaused(on: boolean) {
+    if (this.host) this.pauseMark.hidden = !on;
+  }
+
+  /** The line shown, as text. */
+  lineText(): string | null {
+    return this.shown?.text ?? null;
   }
 
   say(text: string, forMs = 6000) {
@@ -134,6 +291,113 @@ export class Overlay {
     this.notice.textContent = text;
     clearTimeout(this.noticeTimer);
     this.noticeTimer = setTimeout(() => (this.notice.textContent = ''), forMs);
+  }
+
+  setChoices(choices: PanelChoices) {
+    this.choices = choices;
+    if (this.host && !this.panel.hidden) this.renderPanel();
+  }
+
+  togglePanel() {
+    if (!this.host) return;
+    this.panel.hidden = !this.panel.hidden;
+    if (!this.panel.hidden) this.renderPanel();
+  }
+
+  private renderPanel() {
+    const settings = this.settings;
+    if (!settings) return;
+    const choices = this.choices;
+    const panel = this.panel;
+    panel.replaceChildren();
+    const header = document.createElement('header');
+    header.innerHTML = '<h2>Tayra</h2><button class="close" title="Close">×</button>';
+    header.querySelector('.close')!.addEventListener('click', () => (panel.hidden = true));
+    panel.append(header);
+
+    const section = (title: string) => {
+      const h = document.createElement('h3');
+      h.textContent = title;
+      panel.append(h);
+    };
+    const select = (label: string, value: string, options: [string, string][], change: (value: string) => void) => {
+      const row = document.createElement('label');
+      row.append(label);
+      const element = document.createElement('select');
+      for (const [v, text] of options) element.append(new Option(text, v, false, v === value));
+      element.addEventListener('change', () => change(element.value));
+      row.append(element);
+      panel.append(row);
+    };
+    const toggle = (label: string, value: boolean, change: (value: boolean) => void) => {
+      const row = document.createElement('label');
+      row.append(label);
+      const element = document.createElement('input');
+      element.type = 'checkbox';
+      element.checked = value;
+      element.addEventListener('change', () => change(element.checked));
+      row.append(element);
+      panel.append(row);
+    };
+
+    section('Subtitles');
+    if (choices?.tracks.length) {
+      select('Subtitles', choices.track ?? '', choices.tracks.map((t) => [trackKey(t), `${t.name || t.languageCode}${t.kind === 'asr' ? ' (auto)' : ''}`]), (v) => this.events.onTrack(v));
+    }
+    const native = choices?.native ?? 'en';
+    const languages: [string, string][] = [['', `As in Tayra (${native})`], ...(choices?.translationLanguages ?? []).map((l): [string, string] => [l.languageCode, l.name])];
+    select('Translation into', settings.translationLanguage ?? '', languages, (v) => this.events.onSettings({ translationLanguage: v || null }));
+    toggle('Machine translation', settings.machineTranslation, (v) => this.events.onSettings({ machineTranslation: v }));
+    toggle('Human translation, when there is one', settings.humanTranslation, (v) => this.events.onSettings({ humanTranslation: v }));
+    select('Hide until revealed', settings.hideMode, [
+      ['off', 'Nothing'],
+      ['translation', 'The translation'],
+      ['subtitle', 'The subtitle'],
+      ['translation-then-subtitle', 'Both: translation first'],
+      ['subtitle-then-translation', 'Both: subtitle first'],
+    ], (v) => this.events.onSettings({ hideMode: v as HideMode }));
+
+    section('Playback');
+    toggle('Pause at the end of each line', settings.autoPause, (v) => this.events.onSettings({ autoPause: v }));
+    toggle('Pause at the line’s end while the pointer is on it', settings.hoverHold, (v) => this.events.onSettings({ hoverHold: v }));
+    toggle('Arrow keys move between lines', settings.arrowKeys, (v) => this.events.onSettings({ arrowKeys: v }));
+
+    section('Look');
+    select('Text size', String(settings.fontSize), [['0', 'Extra small'], ['1', 'Small'], ['2', 'Normal'], ['3', 'Large'], ['4', 'Extra large']], (v) => this.events.onSettings({ fontSize: Number(v) }));
+    select('Font', settings.font, [['default', 'Default'], ['sans', 'Arial'], ['serif', 'Times']], (v) => this.events.onSettings({ font: v as ExtensionSettings['font'] }));
+    const opacity = document.createElement('label');
+    opacity.append('Background');
+    const range = document.createElement('input');
+    range.type = 'range';
+    range.min = '0';
+    range.max = '100';
+    range.value = String(settings.backgroundOpacity);
+    range.addEventListener('change', () => this.events.onSettings({ backgroundOpacity: Number(range.value) }));
+    opacity.append(range);
+    panel.append(opacity);
+    toggle('Buttons beside the subtitles', settings.showControls, (v) => this.events.onSettings({ showControls: v }));
+
+    section('Keys');
+    const keys = document.createElement('div');
+    keys.className = 'keys';
+    const rows: [string, string][] = [
+      ['A', 'Previous line (hold to stay)'],
+      ['S', 'Replay the line'],
+      ['D', 'Next line (hold to stay)'],
+      ['W', 'Play or pause'],
+      ['Q', 'Auto-pause on or off'],
+      ['E', 'Reveal what is hidden'],
+      ['⌘/Ctrl C', 'Copy the line'],
+      ['Esc', 'Close the word card'],
+    ];
+    for (const [key, what] of rows) {
+      const k = document.createElement('kbd');
+      k.textContent = key;
+      const w = document.createElement('span');
+      w.textContent = what;
+      keys.append(k, w);
+    }
+    panel.append(keys);
   }
 
   cardOpen(): boolean {
@@ -199,8 +463,9 @@ export class Overlay {
   }
 
   hide() {
-    this.show(null, new Map(), -1);
+    this.show(null, null, new Map(), -1, 'off', 0);
     this.closeCard();
+    this.autoPaused(false);
   }
 }
 

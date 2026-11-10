@@ -1,4 +1,5 @@
 import { ask } from '../../src/runtime-messages';
+import { loadSettings, saveSettings } from '../../src/settings';
 
 const content = document.getElementById('content')!;
 
@@ -24,7 +25,7 @@ async function render() {
     return;
   }
   const status = await ask({ type: 'status' });
-  content.replaceChildren();
+  content.replaceChildren(await enabledSwitch());
   if (status.ok) {
     const language = status.data.language?.name;
     content.append(
@@ -77,6 +78,19 @@ async function render() {
     return;
   }
   content.append(paragraph(status.message ?? 'Tayra could not answer.', 'error'));
+}
+
+/** Turns the Tayra subtitles on YouTube on or off. */
+async function enabledSwitch(): Promise<HTMLElement> {
+  const settings = await loadSettings();
+  const row = document.createElement('label');
+  row.className = 'switch';
+  const box = document.createElement('input');
+  box.type = 'checkbox';
+  box.checked = settings.enabled;
+  box.onchange = async () => saveSettings({ ...(await loadSettings()), enabled: box.checked });
+  row.append(box, 'Tayra subtitles on YouTube');
+  return row;
 }
 
 void render();

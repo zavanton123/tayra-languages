@@ -18,7 +18,11 @@ export default defineContentScript({
     }
     interface PlayerResponse {
       videoDetails?: { videoId?: string; title?: string; author?: string; lengthSeconds?: string };
-      captions?: { playerCaptionsTracklistRenderer?: { captionTracks?: RawTrack[] } };
+      captions?: { playerCaptionsTracklistRenderer?: { captionTracks?: RawTrack[]; translationLanguages?: RawLanguage[] } };
+    }
+    interface RawLanguage {
+      languageCode: string;
+      languageName?: { simpleText?: string; runs?: { text: string }[] };
     }
     interface RawTrack {
       baseUrl: string;
@@ -100,7 +104,11 @@ export default defineContentScript({
         name: t.name?.simpleText ?? (t.name?.runs ?? []).map((r) => r.text).join(''),
         baseUrl: t.baseUrl,
       }));
-      return { videoId: video.videoId, title: video.title ?? '', author: video.author ?? '', lengthSeconds: Number(video.lengthSeconds ?? 0), tracks };
+      const translationLanguages = (response?.captions?.playerCaptionsTracklistRenderer?.translationLanguages ?? []).map((l) => ({
+        languageCode: l.languageCode,
+        name: l.languageName?.simpleText ?? (l.languageName?.runs ?? []).map((r) => r.text).join('') ?? l.languageCode,
+      }));
+      return { videoId: video.videoId, title: video.title ?? '', author: video.author ?? '', lengthSeconds: Number(video.lengthSeconds ?? 0), tracks, translationLanguages };
     }
 
     let announced = '';

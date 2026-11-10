@@ -16,6 +16,8 @@ export interface VideoDetails {
   author: string;
   lengthSeconds: number;
   tracks: CaptionTrack[];
+  /** The languages YouTube can translate the tracks into. */
+  translationLanguages: { languageCode: string; name: string }[];
 }
 
 export interface TrackRequest {

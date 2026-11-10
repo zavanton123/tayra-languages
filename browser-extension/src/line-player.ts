@@ -68,30 +68,31 @@ export class LinePlayer<L extends TimedLine = TimedLine> {
     }
   }
 
-  previous() {
+  previous(play = true) {
     const index = this.current();
     // Well into a line, "back" starts it again, as a player's previous-track button does.
     const line = this.lines[index];
     const target = line && this.now() - line.beginMs > RESTART_WITHIN_MS ? index : index - 1;
-    this.jump(Math.max(0, target));
+    this.jump(Math.max(0, target), play);
   }
 
-  replay() {
-    this.jump(Math.max(0, this.current()));
+  replay(play = true) {
+    this.jump(Math.max(0, this.current()), play);
   }
 
-  next() {
-    this.jump(Math.min(this.lines.length - 1, this.current() + 1));
+  next(play = true) {
+    this.jump(Math.min(this.lines.length - 1, this.current() + 1), play);
   }
 
-  /** Plays line [index] from its start. */
-  jump(index: number) {
+  /** Goes to the start of line [index], and plays it unless [play] is false. */
+  jump(index: number, play = true) {
     const media = this.media();
     const line = this.lines[index];
     if (!media || !line) return;
     media.currentTime = Math.max(0, line.beginMs - LEAD_MS) / 1000;
     this.pausedAfter = index - 1;
-    void media.play();
+    if (play) void media.play();
+    else media.pause();
   }
 
   /** Plays on after an auto-pause, or pauses. */
