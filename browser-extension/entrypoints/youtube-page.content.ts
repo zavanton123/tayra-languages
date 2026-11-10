@@ -92,6 +92,9 @@ export default defineContentScript({
     }
 
     const player = () => document.getElementById('movie_player') as Player | null;
+    const ANNOUNCE_EVERY_MS = 500;
+    /** Ten minutes of looking, enough for the longest run of adverts. */
+    const ANNOUNCE_TRIES = 1200;
     const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
     function details(): VideoDetails | null {
@@ -112,18 +115,25 @@ export default defineContentScript({
     }
 
     let announced = '';
+    let announcing = 0;
+    /**
+     * Tells the extension which video plays, once the player has its details. An advert first can
+     * keep them back for minutes, so it keeps looking until the page moves to another video.
+     */
     async function announce() {
-      for (let i = 0; i < 40; i++) {
+      const round = ++announcing;
+      const wanted = new URL(location.href).searchParams.get('v');
+      for (let i = 0; i < ANNOUNCE_TRIES && round === announcing; i++) {
+        if (new URL(location.href).searchParams.get('v') !== wanted) return;
         const found = details();
-        const here = new URL(location.href).searchParams.get('v');
-        if (found && found.videoId === here) {
+        if (found && found.videoId === wanted) {
           if (found.videoId !== announced) {
             announced = found.videoId;
             post({ type: 'video', details: found });
           }
           return;
         }
-        await sleep(250);
+        await sleep(ANNOUNCE_EVERY_MS);
       }
     }
 
