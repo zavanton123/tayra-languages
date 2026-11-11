@@ -22,6 +22,13 @@ import { linesWith, type VideoWord } from '../src/words';
 const CHANGES_EVERY_MS = 4000;
 
 const RETRY_AFTER_MS = 3000;
+/** Asked again this many times when YouTube sends a track empty. */
+const TRACK_ATTEMPTS = 3;
+/** Adverts are waited for up to ten minutes, the longest run of them. */
+const ADVERT_POLL_MS = 500;
+const ADVERT_WAIT_TRIES = 1200;
+
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 /** How long the pointer rests on a word before its meaning shows, and how long it may be away before it goes. */
 const HOVER_DELAY_MS = 350;
@@ -238,11 +245,13 @@ export default defineContentScript({
       }
       const language = settings.translationLanguage ?? native;
       const translateTo = settings.machineTranslation ? translationFor(chosen, language) : null;
+      // During an advert the player asks for the advert's subtitles, and the video's come back empty.
+      if (!(await advertsOver(details))) return;
       let original = await track(chosen.baseUrl, null);
       // YouTube sometimes sends the player's first request nothing; asked again a moment later, it sends the lines.
-      if (!original.body) {
-        await new Promise((resolve) => setTimeout(resolve, RETRY_AFTER_MS));
-        if (video !== details) return;
+      for (let attempt = 0; !original.body && attempt < TRACK_ATTEMPTS; attempt++) {
+        await sleep(RETRY_AFTER_MS);
+        if (!(await advertsOver(details))) return;
         original = await track(chosen.baseUrl, null);
       }
       const translated = translateTo ? await track(chosen.baseUrl, translateTo) : null;
@@ -290,6 +299,16 @@ export default defineContentScript({
       if (!got && status && !status.ok) {
         overlay.say(status.error === 'unpaired' ? 'Tayra: pair this browser in the app’s Settings to look words up' : 'Tayra: open the app to look words up');
       }
+    }
+
+    /** Waits while an advert plays before [forVideo]; false when the page moved to another video meanwhile. */
+    async function advertsOver(forVideo: VideoDetails): Promise<boolean> {
+      for (let i = 0; i < ADVERT_WAIT_TRIES; i++) {
+        if (video !== forVideo) return false;
+        if (!document.getElementById('movie_player')?.classList.contains('ad-showing')) return true;
+        await sleep(ADVERT_POLL_MS);
+      }
+      return video === forVideo;
     }
 
     async function lookUp(word: WordTarget) {
