@@ -41,6 +41,25 @@ class ThaiParserTest {
         assertEquals(listOf("เท่า", "ไหร่"), words("เท่าไหร่"))
     }
 
+    /** The negator, ก็ and ตอน join no word after them, ว่า, อยู่ and the pronouns none before them, however common the pair. */
+    @Test
+    fun grammaticalWordsStandApart() {
+        val ranks = mapOf(
+            "ไม่" to 25, "ดี" to 143, "ไม่ดี" to 3329, "มี" to 5, "ใคร" to 300, "ไม่มีใคร" to 2146, "ก็" to 68, "ก็ดี" to 1604,
+            "ตอน" to 287, "เย็น" to 968, "ตอนเย็น" to 4520, "คิด" to 366, "ว่า" to 6, "คิดว่า" to 975, "ของ" to 9, "เรา" to 192,
+            "ของเรา" to 2033, "อาศัย" to 1083, "อยู่" to 40, "อาศัยอยู่" to 1714, "สนาม" to 513, "บิน" to 982, "สนามบิน" to 1717,
+            "ต้อง" to 67, "การ" to 18, "ต้องการ" to 891, "มาก" to 139, "กว่า" to 150, "มากกว่า" to 400,
+        )
+        Lexicons.set("th", Lexicon(ranks.keys + "ก", ranks))
+        assertEquals(listOf("ไม่", "ดี", "ก็", "ดี"), words("ไม่ดีก็ดี"))
+        assertEquals(listOf("ไม่", "มี", "ใคร"), words("ไม่มีใคร"))
+        assertEquals(listOf("ตอน", "เย็น", "เรา", "คิด", "ว่า"), words("ตอนเย็นเราคิดว่า"))
+        assertEquals(listOf("ของ", "เรา", "อาศัย", "อยู่"), words("ของเราอาศัยอยู่"))
+        // Words that are none of them stay one word as the lexicon has them, and a letter alone is no word to cut into:
+        // มากกว่า is not มากก + ว่า, as มากก is มาก and a letter.
+        assertEquals(listOf("สนามบิน", "ต้องการ", "มากกว่า"), words("สนามบินต้องการมากกว่า"))
+    }
+
     /** Letters no word covers are passed over a syllable at a time, so no word starts after a vowel written first. */
     @Test
     fun lettersNoWordCoversGoBySyllables() {

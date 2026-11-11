@@ -282,7 +282,8 @@ def thai_reader():
 def thai_spans(text):
     """
     The Thai words of [text] as the reader cuts them (ThaiParser), with where each starts and ends: each run of letters into its
-    likeliest words by their ranks, never inside a syllable, letters no word covers one word together. ๆ, the Thai digits and
+    likeliest words by their ranks, never inside a syllable, letters no word covers one word together, the grammatical words
+    that stand apart never joined to the word next to them (ไม่ดี is ไม่ + ดี, คิดว่า คิด + ว่า). ๆ, the Thai digits and
     anything not Thai are no words.
     """
     reader = thai_reader()

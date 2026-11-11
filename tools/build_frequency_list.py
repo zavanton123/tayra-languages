@@ -3502,6 +3502,37 @@ def thai_break(run, at):
         run[at] in THAI_LED and run[at - 1] == "ห" and at >= 2 and run[at - 2] in THAI_LEADING)
 
 
+# As ThaiParser has them: the grammatical words that join no word after them (ไม่ดี is ไม่ + ดี), and those that join none
+# before them (คิดว่า is คิด + ว่า).
+THAI_BEFORE = ("ไม่", "ก็", "ตอน")
+THAI_AFTER = ("ว่า", "อยู่", "เรา", "ฉัน", "เธอ")
+
+
+def thai_word(word, words):
+    """
+    Whether the reader reads [word] of the lexicon [words] as a word (ThaiParser.matches): not where it is one of THAI_BEFORE
+    and words of the lexicon after it, or such words and one of THAI_AFTER, cut between syllables.
+    """
+    if word not in words:
+        return False
+
+    def cut(start_at, to):
+        reached = [False] * (to + 1)
+        reached[start_at] = True
+        for start in range(start_at, to):
+            if not reached[start]:
+                continue
+            for end in range(start + 1, to + 1):
+                piece = word[start:end]
+                if thai_break(word, end) and piece in words and (piece in THAI_LETTER_WORDS or not THAI_LETTER.fullmatch(piece)):
+                    reached[end] = True
+        return reached[to]
+
+    n = len(word)
+    return not (any(n > len(g) and word.startswith(g) and thai_break(word, len(g)) and cut(len(g), n) for g in THAI_BEFORE) or
+                any(n > len(g) and word.endswith(g) and thai_break(word, n - len(g)) and cut(0, n - len(g)) for g in THAI_AFTER))
+
+
 def segmenter(language, words=None, ranks=None):
     """
     Cuts a run of letters into the longest words of the language's dictionary (or of [words]), as SegmentingParser does
@@ -3513,6 +3544,7 @@ def segmenter(language, words=None, ranks=None):
     longest = min(16, max((len(w) for w in words), default=1))
     join = language in JOIN_UNKNOWN
     can_break = thai_break if language == "th" else lambda run, at: True
+    is_word = (lambda word: thai_word(word, words)) if language == "th" else words.__contains__
 
     def likeliest(run):
         """
@@ -3527,14 +3559,14 @@ def segmenter(language, words=None, ranks=None):
                 continue
             for end in range(start + 1, min(n, start + max(longest, 2)) + 1):
                 word = run[start:end]
-                if can_break(run, end) and word in words:
+                if can_break(run, end) and is_word(word):
                     cost = best[start] + math.log(ranks.get(word, 50_000)) + 4.0
                     if cost < best[end]:
                         best[end], start_of[end], known[end] = cost, start, True
             unit = start + 1
             while not can_break(run, unit):
                 unit += 1
-            if run[start:unit] not in words:
+            if not is_word(run[start:unit]):
                 cost = best[start] + math.log(100_000) + 4.0
                 if cost < best[unit]:
                     best[unit], start_of[unit], known[unit] = cost, start, False
@@ -3557,7 +3589,7 @@ def segmenter(language, words=None, ranks=None):
     def segment(run):
         out, unknown, i = [], "", 0
         while i < len(run):
-            end = next((j for j in range(min(len(run), i + longest), i, -1) if can_break(run, j) and run[i:j] in words), None)
+            end = next((j for j in range(min(len(run), i + longest), i, -1) if can_break(run, j) and is_word(run[i:j])), None)
             if end is None:
                 step = i + 1
                 while not can_break(run, step):
