@@ -7,6 +7,10 @@ describe('normalize', () => {
     const s = normalize({ fontSize: 9, backgroundOpacity: -5, position: 200, hideMode: 'nonsense', autoPause: true });
     expect([s.fontSize, s.backgroundOpacity, s.position, s.hideMode, s.autoPause]).toEqual([4, 0, 80, 'off', true]);
   });
+  it('keeps only the word groups and panel choices it knows', () => {
+    const s = normalize({ wordsShown: ['known', 'bogus', 'new'], panelTab: 'nope', wordsOrder: 'count' });
+    expect([s.wordsShown, s.panelTab, s.wordsOrder]).toEqual([['new', 'known'], 'subtitles', 'count']);
+  });
 });
 
 describe('hidden', () => {

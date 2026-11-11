@@ -1,3 +1,7 @@
+import { WORD_GROUPS, type WordGroup, type WordOrder } from './words';
+
+export type PanelTab = 'subtitles' | 'words' | 'saved';
+
 /** How subtitles may be hidden until revealed: by hovering them or pressing E. */
 export type HideMode = 'off' | 'translation' | 'subtitle' | 'translation-then-subtitle' | 'subtitle-then-translation';
 
@@ -23,6 +27,16 @@ export interface ExtensionSettings {
   arrowKeys: boolean;
   /** Pause at the end of the line while the pointer is on the subtitles. */
   hoverHold: boolean;
+  /** The panel of subtitles and words beside the video, in YouTube's right column. */
+  sidePanel: boolean;
+  /** Whether the side panel is open or folded to its tabs. */
+  panelOpen: boolean;
+  panelTab: PanelTab;
+  /** The side panel's lines show their translation always, rather than on hover. */
+  panelTranslations: boolean;
+  wordsOrder: WordOrder;
+  /** The groups of words the Words tab lists. */
+  wordsShown: WordGroup[];
 }
 
 export const DEFAULT_SETTINGS: ExtensionSettings = {
@@ -39,6 +53,12 @@ export const DEFAULT_SETTINGS: ExtensionSettings = {
   translationLanguage: null,
   arrowKeys: false,
   hoverHold: true,
+  sidePanel: true,
+  panelOpen: true,
+  panelTab: 'subtitles',
+  panelTranslations: false,
+  wordsOrder: 'rank',
+  wordsShown: ['new', 'learning'],
 };
 
 export const FONT_SCALES = [0.7, 0.85, 1, 1.15, 1.35];
@@ -55,6 +75,9 @@ export function normalize(saved: unknown): ExtensionSettings {
     position: clamp(s.position, POSITION_RANGE.min, POSITION_RANGE.max, DEFAULT_SETTINGS.position),
     hideMode: (['off', 'translation', 'subtitle', 'translation-then-subtitle', 'subtitle-then-translation'] as const).includes(s.hideMode) ? s.hideMode : 'off',
     font: (['default', 'sans', 'serif'] as const).includes(s.font) ? s.font : 'default',
+    panelTab: (['subtitles', 'words', 'saved'] as const).includes(s.panelTab) ? s.panelTab : 'subtitles',
+    wordsOrder: (['video', 'rank', 'count'] as const).includes(s.wordsOrder) ? s.wordsOrder : 'rank',
+    wordsShown: Array.isArray(s.wordsShown) ? WORD_GROUPS.filter((g) => s.wordsShown.includes(g)) : DEFAULT_SETTINGS.wordsShown,
   };
 }
 

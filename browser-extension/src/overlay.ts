@@ -381,6 +381,7 @@ export class Overlay {
     opacity.append(range);
     panel.append(opacity);
     toggle('Buttons beside the subtitles', settings.showControls, (v) => this.events.onSettings({ showControls: v }));
+    toggle('Panel of subtitles and words beside the video', settings.sidePanel, (v) => this.events.onSettings({ sidePanel: v }));
 
     section('Keys');
     const keys = document.createElement('div');

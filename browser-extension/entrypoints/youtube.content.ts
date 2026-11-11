@@ -5,8 +5,12 @@ import { LinePlayer, PAUSE_EARLY_MS } from '../src/line-player';
 import { CHANNEL, isPageMessage, type CaptionTrack, type ExtensionMessage, type TrackResult, type VideoDetails } from '../src/messages';
 import { Overlay, trackKey } from '../src/overlay';
 import { ask } from '../src/runtime-messages';
+import { loadSaved, storeSaved, withSaved, type SavedWord } from '../src/saved';
 import { DEFAULT_SETTINGS, loadSettings, normalize, saveSettings, type ExtensionSettings } from '../src/settings';
+import { SidePanel } from '../src/side-panel';
+import { KNOWN } from '../src/statuses';
 import { pickTrack, translationFor } from '../src/tracks';
+import type { VideoWord } from '../src/words';
 
 /** How often the subtitles ask the app for words whose status changed elsewhere. */
 const CHANGES_EVERY_MS = 4000;
@@ -37,7 +41,10 @@ export default defineContentScript({
     const changed = new Map<string, number>();
     let version = 0;
     let seq = 0;
-    let open: { lc: string; term: string; line: BridgeLine; resume: boolean } | null = null;
+    let ranks: Record<string, number> = {};
+    let saved: SavedWord[] = [];
+    let marking = false;
+    let open: { lc: string; term: string; line: BridgeLine; resume: boolean; element: HTMLElement } | null = null;
     let revealed = 0;
     let revealedFor = -1;
     let hovering = false;
@@ -64,6 +71,22 @@ export default defineContentScript({
       },
       onHover: (inside) => hover(inside),
     });
+    const side = new SidePanel({
+      onWord: (term, lc, line, element) => void lookUp(term, lc, line, element),
+      onSeek: (index) => {
+        if (open) closeCard();
+        player.jump(index, true);
+      },
+      onSettings: (patch) => void change(patch),
+      onMarkKnown: (words) => void markKnown(words),
+      onForget: (lc) => {
+        if (!video) return;
+        saved = saved.filter((w) => w.lc !== lc);
+        side.setSaved(saved);
+        void storeSaved(video.videoId, saved);
+      },
+      onCopy: (text) => void navigator.clipboard.writeText(text).then(() => overlay.say('Line copied', 1500), () => undefined),
+    });
     const hideOwn = document.createElement('style');
     hideOwn.textContent = '.ytp-caption-window-container { display: none !important; }';
 
@@ -78,6 +101,7 @@ export default defineContentScript({
       settings = next;
       player.autoPause = next.autoPause;
       overlay.apply(next);
+      side.apply(next);
       if (reload && video) void load(video);
     }
 
@@ -103,9 +127,12 @@ export default defineContentScript({
       human = [];
       player.lines = [];
       fromApp = false;
+      ranks = {};
+      saved = [];
       changed.clear();
       version++;
       closeCard();
+      side.setVideo([], {}, false, []);
       if (!settings.enabled) return;
       const status = await ask({ type: 'status' }).catch(() => null);
       const app: BridgeStatus | null = status?.ok ? status.data : null;
@@ -144,6 +171,7 @@ export default defineContentScript({
         if (answer?.ok) {
           got = answer.data.lines;
           fromApp = answer.data.languageMatches;
+          ranks = answer.data.ranks ?? {};
           const start = await ask({ type: 'changes', since: 0 }).catch(() => null);
           if (start?.ok) seq = start.data.seq;
         }
@@ -152,6 +180,9 @@ export default defineContentScript({
       const humanCues: Cue[] = humanBody ? parseJson3(humanBody) : [];
       human = lines.map((line) => cueAt(humanCues, (line.beginMs + line.endMs) / 2)?.text ?? null);
       player.lines = lines;
+      saved = await loadSaved(details.videoId).catch(() => []);
+      if (video !== details) return;
+      side.setVideo(lines, ranks, fromApp, saved);
       if (!got && status && !status.ok) {
         overlay.say(status.error === 'unpaired' ? 'Tayra: pair this browser in the app’s Settings to look words up' : 'Tayra: open the app to look words up');
       }
@@ -161,9 +192,9 @@ export default defineContentScript({
       const playing = media();
       const resume = open ? open.resume : heldByHover || (!!playing && !playing.paused);
       playing?.pause();
-      overlay.closeCard();
+      closeCard(false);
       element.classList.add('open');
-      open = { lc, term, line, resume };
+      open = { lc, term, line, resume, element };
       overlay.showCardLoading(term);
       const answer = await ask({ type: 'lookup', term }).catch(() => null);
       if (open?.term !== term) return;
@@ -182,14 +213,45 @@ export default defineContentScript({
       changed.set(answer.data.lc, answer.data.status);
       if (answer.data.lc !== word.lc) changed.set(word.lc, answer.data.status);
       version++;
+      if (status >= 1 && status <= 4 && video) {
+        saved = withSaved(saved, { term: word.term, lc: word.lc, line: word.line.text, beginMs: word.line.beginMs, savedAt: Date.now() });
+        side.setSaved(saved);
+        void storeSaved(video.videoId, saved);
+      }
       closeCard();
     }
 
-    function closeCard() {
+    /** Saves [words] as known, one after another, saying how far it got. */
+    async function markKnown(words: VideoWord[]) {
+      if (marking) return;
+      marking = true;
+      const forVideo = video;
+      try {
+        for (const [i, word] of words.entries()) {
+          if (video !== forVideo) return;
+          side.setProgress(`Marking ${i + 1} of ${words.length} as known…`);
+          const answer = await ask({ type: 'save', request: { term: word.term, status: KNOWN, sentence: lines[word.line]?.text ?? null } }).catch(() => null);
+          if (!answer?.ok) {
+            side.setProgress(`Tayra could not save every word: ${i} of ${words.length} were marked.`);
+            return;
+          }
+          changed.set(answer.data.lc, answer.data.status);
+          changed.set(word.lc, answer.data.status);
+          version++;
+        }
+        side.setProgress(null);
+      } finally {
+        marking = false;
+      }
+    }
+
+    /** Closes the word card, and plays on as it was before unless [resume] is false. */
+    function closeCard(resume = true) {
       const word = open;
       open = null;
       overlay.closeCard();
-      if (word?.resume && !hovering) {
+      word?.element.classList.remove('open');
+      if (resume && word?.resume && !hovering) {
         heldByHover = false;
         void media()?.play();
       }
@@ -304,6 +366,15 @@ export default defineContentScript({
       const playing = media();
       const advert = box?.classList.contains('ad-showing') ?? false;
       const here = new URL(location.href).searchParams.get('v');
+      const watching = settings.enabled && lines.length > 0 && video?.videoId === here;
+      if (watching && settings.sidePanel && side.mount()) {
+        side.show(true);
+        side.fit();
+        side.refresh(changed, version);
+        if (playing) side.setCurrent(open ? lines.indexOf(open.line) : player.current());
+      } else {
+        side.show(false);
+      }
       if (settings.enabled && lines.length && video?.videoId === here && playing && !advert && overlay.mount()) {
         if (!hideOwn.isConnected) document.head.appendChild(hideOwn);
         const wasPlaying = !playing.paused;
