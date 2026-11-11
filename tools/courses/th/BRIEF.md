@@ -182,13 +182,17 @@ Things to know about the Thai list and the checker:
   syllable, among the words of the list and of the Thai dictionary pack. The checker cuts exactly as the reader
   does. It follows that:
   - **two words the dictionary has together are one word**, counted at the pair's own rank: *ทำงาน* 229 (not *ทำ* +
-    *งาน*), *ไม่มี* 169, *ไม่ได้* 236, *ไม่ใช่* 656, *วันนี้* 197, *มาจาก* 275, *เข้ามา* 369, *เข้าไป* 523, *ออกไป*
-    690, *ออกจาก* 625, *ด้วยกัน* 956, *ทุกคน* 779, *ทุกวัน* 365, *ก็ได้* 615, *แล้วก็* 2266, *ในเมือง* 1874,
+    *งาน*), *วันนี้* 197, *มาจาก* 275, *เข้ามา* 369, *เข้าไป* 523, *ออกไป* 690, *ออกจาก* 625, *ด้วยกัน* 956,
+    *ทุกคน* 779, *ทุกวัน* 365, *แล้วก็* 2266, *ในเมือง* 1874,
     *ที่มา* 1107 (*คนที่มา* is *คน* + *ที่มา*), *ผลไม้* 2341, *กลับบ้าน* 1830. Such a pair does not count as a use
     of either word. Write around it when you need the single words: *ไม่ไป*, *ไม่ต้อง*, *ขึ้นไป*, *ลงมา*, *ออกมา*
     are cut into their words.
+  - **but some grammatical words always stand apart**: *ไม่*, *ก็* and *ตอน* join no word after them, *ว่า*, *อยู่*
+    and the pronouns *เรา*, *ฉัน*, *เธอ* none before them, though the dictionary has the pair: *ไม่มี*, *ไม่ได้*,
+    *ไม่ดี*, *ก็ได้*, *ตอนนี้*, *ตอนเย็น*, *คิดว่า*, *อาศัยอยู่*, *ของเรา* are two words each (*ไม่มีใคร* three), and
+    such a pair is no band word to teach.
   - **a set phrase of the dictionary is one word too**, often outside the list: *คุณชื่ออะไรครับ*, *แม่ซื้อ* (in
-    *แม่ซื้อปลา*), *ไม่เป็นไร* 4199, *กินข้าว* 5758. Rephrase.
+    *แม่ซื้อปลา*), *กินข้าว* 5758. Rephrase.
   - **a word the list and the dictionary lack is cut into the pieces they have**, or kept as one unknown word: a
     name is usually cut into syllables (*นิดา* is *นิ* + *ดา*), which is why names go in `names`; the checker counts
     a listed name as one known word. But the reader knows no names: a name must start and end where the reader's
