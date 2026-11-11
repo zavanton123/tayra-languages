@@ -44,7 +44,7 @@ const STYLE = `
   .word.open { outline: 2px solid #8fc3ec; }
   .notice { position: absolute; top: 12px; left: 12px; padding: 6px 10px; border-radius: 6px; background: #163e5c; color: #eff1f2; font-size: 13px; }
   .notice:empty { display: none; }
-  .panel { pointer-events: auto; position: absolute; right: 12px; top: 12px; bottom: 60px; width: min(340px, 70%); overflow: auto; padding: 4px 16px 16px;
+  .panel { pointer-events: auto; position: absolute; z-index: 2; right: 12px; top: 12px; bottom: 60px; width: min(340px, 70%); overflow: auto; padding: 4px 16px 16px;
     background: #1d2125; color: #e6e9ec; border: 1px solid #2d3238; border-radius: 12px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55); font-size: 13px; }
   .panel[hidden] { display: none; }
   .panel header { position: sticky; top: 0; display: flex; align-items: center; padding: 10px 0; background: #1d2125; }
@@ -56,7 +56,7 @@ const STYLE = `
   .panel select { padding: 4px 6px; border: 1px solid #3a4148; border-radius: 6px; background: #23282d; color: #e6e9ec; font: inherit; }
   .panel .keys { display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; color: #a3acb5; }
   .panel kbd { padding: 0 5px; border: 1px solid #3a4148; border-radius: 4px; color: #e6e9ec; font: 12px ui-monospace, Menlo, monospace; }
-  .card { pointer-events: auto; position: absolute; left: 50%; bottom: calc(var(--position) + 7.5em); transform: translateX(-50%); width: min(440px, 86%); max-height: 52%; overflow: auto;
+  .card { pointer-events: auto; position: absolute; z-index: 2; left: 50%; bottom: calc(var(--position) + 7.5em); transform: translateX(-50%); width: min(440px, 86%); max-height: 52%; overflow: auto;
     background: #1d2125; color: #e6e9ec; border: 1px solid #2d3238; border-radius: 12px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55); font-size: 14px; line-height: 1.45; text-align: left; }
   .card[hidden] { display: none; }
   .card header { position: sticky; top: 0; display: flex; align-items: baseline; gap: 10px; padding: 12px 14px 8px; background: #1d2125; border-bottom: 1px solid #2d3238; }
@@ -631,6 +631,12 @@ export class Overlay {
     this.show(null, null, new Map(), -1, 'off', 0);
     this.closeCard();
     this.autoPaused(false);
+    this.setVisible(false);
+  }
+
+  /** Hidden whole, buttons too, while there is nothing to show over the video: during adverts, or away from a video. */
+  setVisible(visible: boolean) {
+    if (this.host) this.host.style.display = visible ? '' : 'none';
   }
 }
 

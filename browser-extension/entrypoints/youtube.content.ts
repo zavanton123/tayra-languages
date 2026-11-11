@@ -514,6 +514,8 @@ export default defineContentScript({
     applySettings(await loadSettings());
 
     function tick() {
+      // The popup's word went with its line, or the panel redrew.
+      if (hovered && !hovered.element.isConnected) hideHover();
       const box = document.getElementById('movie_player');
       const playing = media();
       const advert = box?.classList.contains('ad-showing') ?? false;
@@ -528,6 +530,7 @@ export default defineContentScript({
         side.show(false);
       }
       if (settings.enabled && lines.length && video?.videoId === here && playing && !advert && overlay.mount()) {
+        overlay.setVisible(true);
         if (!hideOwn.isConnected) document.head.appendChild(hideOwn);
         const wasPlaying = !playing.paused;
         player.tick();
