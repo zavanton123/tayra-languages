@@ -2016,6 +2016,34 @@ def welsh_name_pattern(name):
     return re.compile(r"(?<![^\W\d_])(?:" + "|".join(map(re.escape, spelled)) + r")(?![^\W\d_])")
 
 
+# The header of a lesson's questions, one per language: after it, a question and its answer on a line each, in turn.
+# The app cuts them off the text into a stage of their own (LessonQuestions.kt holds the same headers).
+QUESTION_HEADERS = {
+    h.replace("\u00a0", " ") for h in (
+        "أسئلة:", "Въпроси:", "Pitanja:", "Preguntes:", "Otázky:", "Cwestiynau:", "Spørgsmål:", "Fragen:",
+        "Ερωτήσεις:", "Questions:", "Demandoj:", "Preguntas:", "Küsimused:", "پرسش\u200cها:", "Kysymykset:",
+        "Questions :", "Ceisteanna:", "Ceistean:", "שאלות:", "सवाल:", "Kérdések:", "Հարցեր\u2024", "Հարցեր։",
+        "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
+        "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
+        "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：",
+    )
+}
+
+
+def questions_problem(text):
+    """Why the app could not cut a lesson's questions off its text, or None when it can."""
+    lines = text.split("\n")
+    headers = [i for i, line in enumerate(lines) if line.strip().replace("\u00a0", " ") in QUESTION_HEADERS]
+    if not headers:
+        return "no questions: end the text with the header and a question and its answer on a line each"
+    if len(headers) > 1:
+        return "the questions' header is written more than once"
+    qa = [line for line in lines[headers[0] + 1:] if line.strip()]
+    if len(qa) < 2 or len(qa) % 2:
+        return f"{len(qa)} lines after the questions' header: write each question and its answer on a line each"
+    return None
+
+
 # The Finnic languages join case endings, possessive suffixes and clitics to a word (taloissammekin, "in our houses
 # too"), more forms than a list can hold. Their rules, per language (an Estonian entry fills in its own):
 # - questions: the header of a lesson's questions, which is layout, not a word;
@@ -2179,6 +2207,8 @@ def check_cantonese(path, course):
             text = text.replace(name, " ")
         count = len(chinese_tokens(text, ranks, "yue")) + whole_names
         problems = []
+        if (qa_problem := questions_problem(lesson["text"])) is not None:
+            problems.append(qa_problem)
         if not shortest <= count <= longest:
             problems.append(f"{count} words, needs {shortest}-{longest}")
         for new in lesson.get("newWords", []):
@@ -2486,6 +2516,8 @@ def check(path, brief=False):
                 outside[t] = rank
         coverage = known / max(1, len(lowered))
         problems = [f"the reader runs the name '{name}' into the words around it: rewrite around it" for name in run_on]
+        if (qa_problem := questions_problem(lesson["text"])) is not None:
+            problems.append(qa_problem)
         if coverage < need:
             problems.append(f"coverage {coverage:.1%} < {need:.0%}")
         if not shortest <= len(lowered) <= longest:
