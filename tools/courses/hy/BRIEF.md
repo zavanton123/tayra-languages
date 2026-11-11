@@ -125,7 +125,9 @@ lesson to make sense.
 
 ## Names: months, days, people
 
-**Months and days are names here:** do not teach them, and put the ones you use in `names`, written as you write
+**Days of the week are words** (coordinator 2026-11-11): teach them when they are in your band. **Months are
+names only where the month's spelling is also another list word** (*մարտ* 245 is also "battle"): put such a month
+in `names`, written as you write
 them (*հունվարին*, *երկուշաբթի օրը*: a name's case endings are counted with it, see below). The list has most of
 them as words (*մարտ* 245 is also "battle", *մայիս*, *ապրիլ*, *սեպտեմբեր*...), so a month in `names` counts as
 known; do not use one to reach the two uses a new word needs.

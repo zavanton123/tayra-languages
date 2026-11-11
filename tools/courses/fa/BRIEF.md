@@ -226,12 +226,12 @@ Things to know about the Persian list and the checker:
 
 ## Names: months, days, people
 
-**Months and days are names**: put the ones you use in `names`, and never teach them: *فروردین*,
-*اردیبهشت*, *خرداد*, *تیر*, *مرداد*, *شهریور*, *مهر*, *آبان*, *آذر*, *دی*, *بهمن*, *اسفند*; *شنبه*,
-*یکشنبه*, *دوشنبه*, *سه‌شنبه*, *چهارشنبه*, *پنجشنبه*, *جمعه*. Several are list words as well, which you
-do not teach in that sense: *تیر* 871 "arrow, shot", *مهر* 853 "kindness", *دی* 435, *آذر*, *بهمن*; *آبان*
-reads as *آب* when it is not in `names`. A month or day in `names` counts as known; do not use one to
-reach the two uses a new word needs. Friday is a day off like any other, never a day of prayer.
+**Days of the week are words** (coordinator 2026-11-11): teach *شنبه*, *یکشنبه*, *دوشنبه*, *سه‌شنبه*,
+*چهارشنبه*, *پنجشنبه*, *جمعه* when they are in your band, like any word. **Months are names** only where
+the month's spelling is also another list word you would not teach in that sense: *تیر* 871 "arrow, shot",
+*مهر* 853 "kindness", *دی* 435, *آذر*, *بهمن*, *آبان* (reads as *آب* when not in `names`): put those in
+`names` and never teach them. A month with no such clash is a word like any other. A month or day in
+`names` counts as known; do not use one to reach the two uses a new word needs. Friday is a day off like any other, never a day of prayer.
 
 Names free to use (none is a list word): *لیلا, بیژن, پریسا, فرهاد, مهسا, سینا, بیتا, رامین, الناز,
 داریوش, ساناز, بهرام, منیژه, آناهیتا, نیما, هومن, پرویز*. **Not** names here, because they are list
