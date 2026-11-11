@@ -5152,6 +5152,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
 
     ranked = sorted(scores, key=lambda w: -scores[w])[:size]
     listed, listed_as = set(ranked), set()
+    if language == "fa":
+        # A Persian verb's forms with a preverb (برمی‌گردد) and کشیدن's (میکشد) under it, once the list is ranked.
+        frequency_persian.relist(ranked, forms, freq, is_word, count, pos, excluded)
     # A Korean form shared by verbs (산다 of 살다 and 사다, 준다 of 주다 and 줄다) is listed under one it goes to
     # KOREAN_LISTED times less than to another only for its share of the count: a course counts 산다 as no use of 사다.
     main = {}

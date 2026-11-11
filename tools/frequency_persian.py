@@ -54,6 +54,14 @@ _BARE_PRESENT = {"باش": "بودن", "توان": "توانستن", "خواه":
 PAST_STEMS = {}
 PRESENT_STEMS = {}
 _STEM_FORMS = {}
+# A verb with a preverb (برگشتن, درآوردن) takes می, نمی and ن after it (برمی‌گردد, برنگشت, درنمی‌آورد) and its subjunctive
+# no ب (برگردد): its forms are the preverb with the plain verb's (گشتن's). The pack's table puts می before the preverb.
+_PREVERBS = ("دربر", "فرو", "فرا", "باز", "بر", "در", "ور", "وا")
+PREVERBED = {}
+# A present stem two verbs share (کش of کشتن and کشیدن): its forms with an object pronoun (بکشمت, میکشمش) are the first's,
+# its plain forms (میکشد, بکشه, کشید) the second's, which طول، درد، نفس and سیگار کشیدن make far commoner in text.
+_SHARED_PRESENT = {"کش": ("کشتن", "کشیدن")}
+_PRESENT_PERSONS = ("یم", "ید", "ند", "ین", "ه", "م", "ی", "د", "ن")
 
 OWN = set()
 FORM_OF = defaultdict(list)
@@ -134,6 +142,13 @@ def load(db, pos, lemmas, common):
                 ROWS[key].append(lemma)
     lemmas.clear()
     _verb_stems(pos)
+    for verb, kinds in pos.items():
+        for preverb in _PREVERBS:
+            rest = verb[len(preverb):]
+            if ("verb" in kinds and verb.startswith(preverb) and len(rest) > 3 and SCRIPT.fullmatch(verb)
+                    and "verb" in pos.get(rest, ()) and PAST_STEMS.get(rest[:-1]) == rest):
+                PREVERBED[verb] = preverb, rest
+                break
 
 
 def _other_words(db, pos, forms):
@@ -318,19 +333,29 @@ def bare_forms(word, counted):
 
 
 def with_conjugations(lines):
-    """A built list's lines, each verb's with the forms of its simple tenses (conjugations) no line has yet, best rank first."""
-    listed = set()
+    """
+    A built list's lines, each verb's with the forms of its simple tenses (conjugations) no line has yet, best rank first;
+    a shared present stem's plain forms with the verb they are listed under (_SHARED_PRESENT).
+    """
+    listed, heads = set(), set()
     for line in lines:
         if not line.startswith("#"):
             word, _, forms = line.partition("\t")
+            heads.add(word)
             listed.add(bare(word))
             listed.update(forms.split())
+    made, given = defaultdict(list), defaultdict(list)
+    for line in lines:
+        word, _, forms = line.partition("\t")
+        for f in [] if line.startswith("#") else [f for f in conjugations(word) if f not in listed]:
+            listed.add(f)
+            other = _shared_present(f)
+            (given[other] if other in heads and other != word else made[word]).append(f)
     out = []
     for line in lines:
         word, _, forms = line.partition("\t")
-        made = [] if line.startswith("#") else [f for f in conjugations(word) if f not in listed]
-        listed.update(made)
-        out.append(line + "".join(" " + f for f in made) if made and forms else word + "\t" + " ".join(made) if made else line)
+        added = [] if line.startswith("#") else made[word] + given[word]
+        out.append(line + "".join(" " + f for f in added) if added and forms else word + "\t" + " ".join(added) if added else line)
     return out
 
 
@@ -338,24 +363,115 @@ def conjugations(verb):
     """
     The forms of a verb's simple tenses, as the reader matches them: its past stem with the person endings, with ن, می and
     نمی, and as the perfect (رفته, رفته‌ام); its present stems in the pack's table with می, نمی, ب and ن (the subjunctive
-    and imperative). None that is a word with a sense of its own.
+    and imperative). A verb with a preverb has them after it, and no ب (برمی‌گردد, برنگشت, برگردد). None that is a word with
+    a sense of its own.
     """
-    past = verb[:-1]
-    if PAST_STEMS.get(past) != verb:
+    preverb, plain = PREVERBED.get(verb, ("", verb))
+    past = plain[:-1]
+    if PAST_STEMS.get(past) != plain:
         return []
-    stems = [stem for stem, verbs in PRESENT_STEMS.items() if verb in verbs]
+    stems = [stem for stem, verbs in PRESENT_STEMS.items() if plain in verbs]
+    if preverb:
+        # Not a stem the table shows only through a form's ending (گردی of میگردید, گشتی of میگشتید).
+        stems = [s for s in stems if not (s.endswith("ی") and (s[:-1] in stems or s[:-1] == past))]
     made = []
     for ending in ("م", "ی", "", "یم", "ید", "ند"):
-        made += [p + past + ending for p in ("", "ن", "می", "نمی")]
+        made += [p + past + ending for p in ("", "ن", "می", "نمی")] if not preverb else \
+            [preverb + p + ending for p in (past, _negated(past), "می" + past, "نمی" + past)]
     for perfect in ("ه", "هام", "های", "هاست", "هایم", "هاید", "هاند"):
-        made += [past + perfect, "ن" + past + perfect]
-    for stem in sorted((s for s in stems if len(s) > 1), key=lambda s: (-len(_STEM_FORMS.get((s, verb), ())), s)):
-        joined = "بی" + stem[1:] if stem[0] == "آ" else "ب" + stem
-        negated = "نی" + stem[1:] if stem[0] == "آ" else "ن" + stem
+        made += [past + perfect, "ن" + past + perfect] if not preverb else [preverb + past + perfect, preverb + _negated(past) + perfect]
+    for stem in sorted((s for s in stems if len(s) > 1), key=lambda s: (-len(_STEM_FORMS.get((s, plain), ())), s)):
+        joined = preverb + stem if preverb else "بی" + stem[1:] if stem[0] == "آ" else "ب" + stem
+        # A stem with ا written for آ (اور of آور) is negated as آ's.
+        negated = preverb + _negated("آ" + stem[1:] if stem[0] == "ا" and "آ" + stem[1:] in stems else stem) if preverb else \
+            "نی" + stem[1:] if stem[0] == "آ" else "ن" + stem
         for ending in ("م", "ی", "د", "یم", "ید", "ند"):
-            made += ["می" + stem + ending, "نمی" + stem + ending, joined + ending, negated + ending]
+            made += [preverb + "می" + stem + ending, preverb + "نمی" + stem + ending, joined + ending, negated + ending]
         made += [joined, negated, joined + "ید", negated + "ید"]
     return [f for f in dict.fromkeys(made) if f not in OWN]
+
+
+def _negated(stem):
+    """A stem with ن before it: نیامد, نینداخت."""
+    return "نیا" + stem[1:] if stem[0] == "آ" else "نی" + stem[1:] if stem[0] == "ا" else "ن" + stem
+
+
+def _shared_present(plain):
+    """The verb a plain form of a shared present stem is listed under (میکشد, بکشه, کشید of کشیدن), or None."""
+    for stem, (_, verb) in _SHARED_PRESENT.items():
+        for prefix in ("نمی", "می", "ب", "ن", ""):
+            end = plain[len(prefix + stem):] if plain.startswith(prefix + stem) else None
+            if end in _PRESENT_PERSONS or end == "" and prefix in ("ب", "ن"):
+                return verb
+    return None
+
+
+def _preverbed(plain, readings):
+    """
+    The verb with a preverb a form is (برمیگردد, برنگشتم, درمیاره, برخیزد of برگشتن, درآوردن and برخاستن): the preverb before
+    a form of the plain verb, which [readings] gives or its stems make; and whether می, نمی or ن after the preverb shows it a
+    verb's (a bare برگشتش, درآمدی may be a noun's with its ending). None if it is no such form.
+    """
+    for verb, (preverb, rest) in PREVERBED.items():
+        core = plain[len(preverb):]
+        if not plain.startswith(preverb) or len(core) < 2:
+            continue
+        marked = core.startswith("می") or core.startswith("ن") and rest in readings(core[1:])
+        if rest in readings(core):
+            return verb, marked
+        for prefix, ending, stem in _bare_verb(core):
+            if prefix != "ب" and (stem == rest[:-1] or rest in PRESENT_STEMS.get(stem, ()) and (
+                    ending not in _PAST_ENDINGS or ending == "" and prefix in ("", "ن"))):
+                return verb, marked or prefix != ""
+        # Spoken, آ is written ا after می and آی is آ (درمیارم, درمیاد, برمیاد); not a word's of its own (درمیان).
+        for prefix in ("نمی", "می"):
+            body = core[len(prefix):] if core.startswith(prefix) and core not in OWN else ""
+            for ending in _PRESENT_PERSONS if body.startswith("ا") else ():
+                stem = "آ" + body[1:len(body) - len(ending)]
+                if body.endswith(ending) and (rest in PRESENT_STEMS.get(stem, ()) or rest in PRESENT_STEMS.get(stem + "ی", ())):
+                    return verb, True
+    return None
+
+
+def relist(ranked, forms, freq, is_word, count, pos, excluded):
+    """
+    Moves the forms of the verbs with a preverb and of a shared present stem to the verb they are of, among [forms], the
+    counts kept with each listed word. Only the listing changes: the list is ranked by the counts as they were, which the
+    Persian courses are written against. A listed word's own spelling stays its own, and so does a form with no می, نمی or
+    ن after the preverb that is a word's of its own (برای with its endings, درآمد's, دراین, برداریه) or another listed word's
+    but a verb's, and a listed noun with its ending (درنای). Gives the forms moved, by verb.
+    """
+    heads = {bare(w) for w in ranked}
+    nouns = {bare(w) for w in ranked if "verb" not in pos.get(w, ())}
+    ranked = set(ranked)
+    under = defaultdict(list)
+    for word, counted in forms.items():
+        for form in counted:
+            under[form].append(word)
+
+    def readings(core):
+        return shares(core, is_word, count, freq, pos) if SCRIPT.fullmatch(core) else {}
+
+    def nominal(form, plain, verb, marked):
+        core = plain[len(PREVERBED[verb][0]):]
+        return any(stem in nouns for _, stem in _stems(plain, form)) or not marked and (
+            form in OWN or core in OWN or plain.endswith("یه") or any(w in ranked and "verb" not in pos.get(w, ()) for w in under.get(form, ())))
+
+    moved = defaultdict(list)
+    for form in freq:
+        plain = bare(form)
+        if form in excluded or plain in heads or not SCRIPT.fullmatch(form):
+            continue
+        verb = _shared_present(plain)
+        if not verb and (found := _preverbed(plain, readings)) and not nominal(form, plain, *found):
+            verb = found[0]
+        if verb not in ranked or under.get(form) == [verb]:
+            continue
+        for word in under.get(form, ()):
+            del forms[word][form]
+        forms[verb][form] = freq[form]
+        moved[verb].append(form)
+    return moved
 
 
 _checker = {}
