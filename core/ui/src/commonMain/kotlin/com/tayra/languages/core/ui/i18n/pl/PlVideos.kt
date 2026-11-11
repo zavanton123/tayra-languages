@@ -97,4 +97,5 @@ internal val plVideos: Map<String, String> = mapOf(
     "YouTube is showing an advert. The subtitles come right after it." to "YouTube wyświetla reklamę. Napisy pojawią się zaraz po niej.",
     "Getting the subtitles…" to "Pobieranie napisów…",
     "Ask YouTube to translate each line into your language. YouTube often refuses; lines are then translated as you watch." to "Poproś YouTube o przetłumaczenie każdego wiersza na Twój język. YouTube często odmawia; wiersze są wtedy tłumaczone podczas oglądania.",
+    "Remove the bookmark" to "Usuń zakładkę",
 )

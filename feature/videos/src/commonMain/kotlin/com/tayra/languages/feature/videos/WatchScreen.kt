@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -336,18 +337,48 @@ private fun SpeedMenu(playback: CuePlayback?) {
 
 private fun speedLabel(speed: Float): String = if (speed == speed.toInt().toFloat()) "${speed.toInt()}×" else "$speed×"
 
-/** The transcript and, on its other tab, the video's words. */
+private enum class TranscriptTab { LINES, WORDS, BOOKMARKS }
+
+/** The transcript and, on its other tabs, the video's words and the lines bookmarked, once there are some. */
 @Composable
 private fun TranscriptPanel(state: WatchUiState, current: Int?, playback: CuePlayback?, viewModel: WatchViewModel, modifier: Modifier) {
-    var words by remember { mutableStateOf(false) }
+    var chosen by remember { mutableStateOf(TranscriptTab.LINES) }
+    val tab = if (chosen == TranscriptTab.BOOKMARKS && state.bookmarks.isEmpty()) TranscriptTab.LINES else chosen
     Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         SegmentedToggle(
-            listOf(Segment(false, label = tr("Lines"), testTag = "tab-lines"), Segment(true, label = tr("Words"), testTag = "tab-words")),
-            selected = words,
-            onSelect = { words = it },
+            listOfNotNull(
+                Segment(TranscriptTab.LINES, label = tr("Lines"), testTag = "tab-lines"),
+                Segment(TranscriptTab.WORDS, label = tr("Words"), testTag = "tab-words"),
+                Segment(TranscriptTab.BOOKMARKS, label = tr("Bookmarks"), testTag = "tab-bookmarks").takeIf { state.bookmarks.isNotEmpty() },
+            ),
+            selected = tab,
+            onSelect = { chosen = it },
             modifier = Modifier.padding(horizontal = AppSpacing.s),
         )
-        if (words) WordsList(state, viewModel, Modifier.weight(1f)) else Transcript(state, current, playback, viewModel, Modifier.weight(1f))
+        when (tab) {
+            TranscriptTab.LINES -> Transcript(state, current, playback, viewModel, Modifier.weight(1f))
+            TranscriptTab.WORDS -> WordsList(state, viewModel, Modifier.weight(1f))
+            TranscriptTab.BOOKMARKS -> BookmarksList(state, playback, viewModel, Modifier.weight(1f))
+        }
+    }
+}
+
+/** The lines bookmarked, from the browser extension: each plays from its line, and can be taken off. */
+@Composable
+private fun BookmarksList(state: WatchUiState, playback: CuePlayback?, viewModel: WatchViewModel, modifier: Modifier) {
+    val colors = MaterialTheme.colorScheme
+    ScrollList(modifier.clip(AppShapes.card).background(colors.surface).testTag("video-bookmarks")) {
+        items(state.bookmarks, key = { it.id }) { mark ->
+            Row(
+                Modifier.fillMaxWidth().clickable { playback?.jumpTo(mark.line) }.padding(start = AppSpacing.m, end = AppSpacing.xs, top = AppSpacing.xs, bottom = AppSpacing.xs),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+            ) {
+                Icon(AppIcons.Bookmark, contentDescription = null, tint = colors.primary)
+                Text(mark.title, Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
+                AppIconButton(AppIcons.RemoveCircle, contentDescription = tr("Remove the bookmark"), onClick = { viewModel.deleteBookmark(mark.id) })
+            }
+        }
     }
 }
 

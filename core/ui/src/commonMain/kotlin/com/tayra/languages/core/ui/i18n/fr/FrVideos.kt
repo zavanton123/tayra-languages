@@ -97,4 +97,5 @@ internal val frVideos: Map<String, String> = mapOf(
     "YouTube is showing an advert. The subtitles come right after it." to "YouTube diffuse une publicité. Les sous-titres arrivent juste après.",
     "Getting the subtitles…" to "Récupération des sous-titres…",
     "Ask YouTube to translate each line into your language. YouTube often refuses; lines are then translated as you watch." to "Demander à YouTube de traduire chaque ligne dans votre langue. YouTube refuse souvent ; les lignes sont alors traduites pendant le visionnage.",
+    "Remove the bookmark" to "Retirer le signet",
 )

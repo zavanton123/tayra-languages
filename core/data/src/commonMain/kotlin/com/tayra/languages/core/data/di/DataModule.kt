@@ -65,6 +65,7 @@ import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.VideoRepositoryImpl
 import com.tayra.languages.core.domain.media.VideoRepository
 import com.tayra.languages.core.domain.media.VideoService
+import com.tayra.languages.core.domain.media.VideoOpenRequests
 import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.data.repository.DatabaseMaintenanceImpl
 import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
@@ -282,6 +283,7 @@ val dataModule: Module = module {
     single { TermPopupBuilder(get(), get(), get()) }
     single { BookService(get(), get()) }
     single { VideoService(get(), get()) }
+    single { VideoOpenRequests() }
     single { BookStatsService(get(), get(), get(), get()) }
     single { LanguageService(get(), get(), get()) }
     single { LearningLanguageService(get(), get(), get(), get()) }

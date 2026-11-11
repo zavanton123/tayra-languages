@@ -4,7 +4,13 @@ import co.touchlab.kermit.Logger
 import com.sun.net.httpserver.HttpExchange
 import com.sun.net.httpserver.HttpServer
 import com.tayra.languages.core.data.settings.SecureStore
+import com.tayra.languages.core.domain.bridge.AddVideoRequest
+import com.tayra.languages.core.domain.bridge.AddVideoResponse
+import com.tayra.languages.core.domain.bridge.BookmarkRequest
+import com.tayra.languages.core.domain.bridge.BookmarkResponse
 import com.tayra.languages.core.domain.bridge.BridgeError
+import com.tayra.languages.core.domain.bridge.BridgeVideos
+import com.tayra.languages.core.domain.bridge.OpenVideoRequest
 import com.tayra.languages.core.domain.bridge.BridgeException
 import com.tayra.languages.core.domain.bridge.BridgeHello
 import com.tayra.languages.core.domain.bridge.BridgePairing
@@ -61,6 +67,8 @@ class DesktopBrowserBridge(
     private val ports: IntRange = DEFAULT_PORTS,
     /** Registers the helper that gives the extension its token; null where the browsers can't start one. */
     private val nativeHost: NativeHostInstaller? = null,
+    /** The Videos library; null where the app has none. */
+    private val videos: BridgeVideos? = null,
 ) : BrowserExtensionBridge {
     private val log = Logger.withTag("BrowserBridge")
     private val json = Json { ignoreUnknownKeys = true; encodeDefaults = true }
@@ -157,6 +165,19 @@ class DesktopBrowserBridge(
                     val audio = call { api.speech(text) }
                     if (audio == null) noContent(exchange) else replyBytes(exchange, audio, "audio/wav")
                 }
+                method == "POST" && path == "/v1/videos" -> {
+                    val request = read(exchange, AddVideoRequest.serializer())
+                    reply(exchange, 200, call { library().add(request) }, AddVideoResponse.serializer())
+                }
+                method == "POST" && path == "/v1/bookmarks" -> {
+                    val request = read(exchange, BookmarkRequest.serializer())
+                    reply(exchange, 200, call { library().bookmark(request) }, BookmarkResponse.serializer())
+                }
+                method == "POST" && path == "/v1/open" -> {
+                    val request = read(exchange, OpenVideoRequest.serializer())
+                    call { library().open(request) }
+                    noContent(exchange)
+                }
                 method == "GET" && path == "/v1/changes" -> {
                     val since = query(exchange)["since"]?.toLongOrNull() ?: 0L
                     reply(exchange, 200, call { changes.since(since) }, ChangesResponse.serializer())
@@ -200,6 +221,8 @@ class DesktopBrowserBridge(
         exchange.sendResponseHeaders(status, bytes.size.toLong())
         exchange.responseBody.use { it.write(bytes) }
     }
+
+    private fun library(): BridgeVideos = videos ?: throw BridgeException("This app has no Videos library")
 
     private fun noContent(exchange: HttpExchange) {
         exchange.responseHeaders.set("Cache-Control", "no-store")

@@ -20,7 +20,11 @@ import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.repository.VideoRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
+import androidx.compose.ui.test.onNodeWithContentDescription
+import com.tayra.languages.core.domain.bridge.BookmarkRequest
+import com.tayra.languages.core.domain.bridge.BridgeVideos
 import com.tayra.languages.core.domain.media.Cue
+import com.tayra.languages.core.domain.media.VideoOpenRequests
 import com.tayra.languages.core.domain.media.SubtitleTrack
 import com.tayra.languages.core.domain.media.TranslationSource
 import com.tayra.languages.core.domain.media.VideoImport
@@ -126,6 +130,21 @@ class VideosScreenTest {
             waitForIdle()
             ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
+    }
+
+    @Test
+    fun bookmarkedLinesHaveATabAndPlayFromTheirLine() = runDesktopComposeUiTest(width = 1500, height = 900) {
+        val mark = runBlocking { BridgeVideos(settings, languages, videos, service, books, VideoOpenRequests()).bookmark(BookmarkRequest(bookId, 2500)) }
+        assertEquals("0:02 O gato dorme na casa.", mark.title)
+        val vm = watch()
+        setContent { TayraTheme { ProvideWindowWidth { WatchScreen(bookId, onNavigate = {}, onBack = {}, viewModel = vm, player = { source, onController, modifier -> SilentVideo(source, onController, modifier) }) } } }
+        waitUntil(timeoutMillis = 5_000) { vm.playback.value != null && onAllNodesWithTag("tab-bookmarks").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("tab-bookmarks").performClick()
+        onNodeWithText(mark.title).performClick()
+        waitUntil(timeoutMillis = 3_000) { vm.playback.value?.current?.value == 1 }
+        onNodeWithContentDescription("Remove the bookmark").performClick()
+        waitUntil(timeoutMillis = 3_000) { onAllNodesWithTag("tab-bookmarks").fetchSemanticsNodes().isEmpty() }
+        onNodeWithTag("transcript").assertExists()
     }
 
     @Test

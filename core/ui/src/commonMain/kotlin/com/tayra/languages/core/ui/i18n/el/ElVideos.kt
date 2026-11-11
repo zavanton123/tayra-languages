@@ -97,4 +97,5 @@ internal val elVideos: Map<String, String> = mapOf(
     "YouTube is showing an advert. The subtitles come right after it." to "Το YouTube δείχνει μια διαφήμιση. Οι υπότιτλοι έρχονται αμέσως μετά.",
     "Getting the subtitles…" to "Λήψη υποτίτλων…",
     "Ask YouTube to translate each line into your language. YouTube often refuses; lines are then translated as you watch." to "Ζητήστε από το YouTube να μεταφράσει κάθε γραμμή στη γλώσσα σας. Το YouTube συχνά αρνείται· τότε οι γραμμές μεταφράζονται καθώς παρακολουθείτε.",
+    "Remove the bookmark" to "Αφαίρεση σελιδοδείκτη",
 )

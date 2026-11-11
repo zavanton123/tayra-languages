@@ -17,6 +17,7 @@ import com.tayra.languages.core.data.bridge.NativeHostInstaller
 import com.tayra.languages.core.data.bridge.SecurePairedBrowserStore
 import com.tayra.languages.core.domain.bridge.BridgePairing
 import com.tayra.languages.core.domain.bridge.BrowserBridgeApi
+import com.tayra.languages.core.domain.bridge.BridgeVideos
 import com.tayra.languages.core.domain.bridge.BrowserExtensionBridge
 import com.tayra.languages.core.domain.bridge.StatusChanges
 import com.tayra.languages.core.data.runtime.ManagedPython
@@ -77,7 +78,8 @@ actual val platformDataModule: Module = module {
     single { NativeHostInstaller(File(DatabaseDriverFactory.dataDirectory(), "browser-extension")) }
     single { BridgePairing(SecurePairedBrowserStore(get()), automaticToken = get<NativeHostInstaller>()::token) }
     single { BrowserBridgeApi(get(), get(), get(), get(), get<DictionaryService>(), get(), System.getProperty("tayra.version"), getOrNull(), getOrNull()) }
-    single { DesktopBrowserBridge(get(), get(), get(), nativeHost = get()) } bind BrowserExtensionBridge::class
+    single { BridgeVideos(get(), get(), get(), get(), get(), get()) }
+    single { DesktopBrowserBridge(get(), get(), get(), nativeHost = get(), videos = get()) } bind BrowserExtensionBridge::class
     single<AppUpdater> { DesktopAppUpdater(get()) }
     single { AppUpdateService(get(), get()) }
     // Anki's AnkiConnect add-on listens on the desktop only.

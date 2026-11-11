@@ -97,4 +97,5 @@ internal val ruVideos: Map<String, String> = mapOf(
     "YouTube is showing an advert. The subtitles come right after it." to "YouTube показывает рекламу. Субтитры появятся сразу после неё.",
     "Getting the subtitles…" to "Получение субтитров…",
     "Ask YouTube to translate each line into your language. YouTube often refuses; lines are then translated as you watch." to "Попросить YouTube перевести каждую строку на ваш язык. YouTube часто отказывает; тогда строки переводятся во время просмотра.",
+    "Remove the bookmark" to "Убрать закладку",
 )

@@ -10,10 +10,27 @@ import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
+import com.tayra.languages.core.data.repository.VideoRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.data.settings.InMemorySecureStore
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
+import com.tayra.languages.core.domain.bridge.AddVideoRequest
+import com.tayra.languages.core.domain.bridge.AddVideoResponse
+import com.tayra.languages.core.domain.bridge.BookmarkRequest
 import com.tayra.languages.core.domain.bridge.BridgeException
+import com.tayra.languages.core.domain.bridge.BridgeVideos
+import com.tayra.languages.core.domain.bridge.OpenVideoRequest
+import com.tayra.languages.core.domain.media.Cue
+import com.tayra.languages.core.domain.media.SubtitleKind
+import com.tayra.languages.core.domain.media.VideoBookmarks
+import com.tayra.languages.core.domain.media.VideoKind
+import com.tayra.languages.core.domain.media.VideoOpenRequests
+import com.tayra.languages.core.domain.media.VideoService
+import com.tayra.languages.core.domain.model.PageBookmark
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.CoroutineStart
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
 import com.tayra.languages.core.domain.bridge.BridgePairing
 import com.tayra.languages.core.domain.bridge.BrowserBridgeApi
 import com.tayra.languages.core.domain.bridge.SaveTermRequest
@@ -107,6 +124,10 @@ class BrowserBridgeTest {
         }
         val speech = SentenceAudio(LocalSpeech(listOf(piper)), settings, MemorySpeechAudioCache())
         val api = BrowserBridgeApi(settings, languages, reading, termService, dictionary, translator, "9.9.9", frequency, speech)
+        val videoRepository = VideoRepositoryImpl(provider)
+        val books = BookRepositoryImpl(provider)
+        val opens = VideoOpenRequests()
+        val videos = BridgeVideos(settings, languages, videoRepository, VideoService(videoRepository, languages), books, opens)
         val portuguese = runBlocking { languages.save(Language(name = "Portuguese")) }
 
         init {
@@ -189,6 +210,48 @@ class BrowserBridgeTest {
     }
 
     @Test
+    fun aWatchedVideoIsKeptOnceWithItsBookmarksAndOpensWhereItWasLeft() = runBlocking<Unit> {
+        val env = Env()
+        val request = AddVideoRequest(
+            "abcdefghijk", "Um vídeo", "Canal", 60_000, "pt-BR", automatic = true,
+            original = json3(1000L to "O gato dorme.", 3000L to "Bom dia."), translation = json3(1000L to "The cat sleeps."),
+        )
+        val first = env.videos.add(request)
+        assertTrue(first.added)
+        assertEquals(AddVideoResponse(first.bookId, added = false), env.videos.add(request), "a video watched again is not added twice")
+        val video = assertNotNull(env.videoRepository.video(first.bookId))
+        assertEquals(listOf("Um vídeo", "Canal", "abcdefghijk"), listOf(video.title, video.channel, video.media))
+        assertEquals(VideoKind.YOUTUBE to SubtitleKind.YOUTUBE_AUTO, video.kind to video.subtitleKind)
+        assertEquals("The cat sleeps.", env.videoRepository.cues(first.bookId).first().cue.translation)
+        assertFailsWith<BridgeException>("not the language learned") { env.videos.add(request.copy(trackLanguage = "en")) }
+        assertFailsWith<BridgeException> { env.videos.add(request.copy(videoId = "not an id")) }
+
+        val mark = env.videos.bookmark(BookmarkRequest(first.bookId, 3500))
+        assertEquals("0:03 Bom dia." to true, mark.title to mark.added)
+        assertFalse(env.videos.bookmark(BookmarkRequest(first.bookId, 3900)).added, "the same line once")
+        assertEquals(listOf(mark.title), env.books.observeBookmarks(first.bookId).first().map { it.title })
+
+        val opened = CompletableDeferred<Long>()
+        launch(start = CoroutineStart.UNDISPATCHED) { opened.complete(env.opens.videos.first()) }
+        env.videos.open(OpenVideoRequest(first.bookId, 42_000))
+        assertEquals(first.bookId, opened.await())
+        assertEquals(42_000, env.videoRepository.video(first.bookId)?.positionMs)
+        assertFailsWith<BridgeException> { env.videos.open(OpenVideoRequest(first.bookId + 99, 0)) }
+    }
+
+    @Test
+    fun aBookmarkFindsItsLineByItsTitleOnItsPage() {
+        val lines = listOf(Triple(0, 1, Cue(1000, 2000, "Olá.")), Triple(1, 1, Cue(65_000, 66_000, "Bom dia.")), Triple(2, 2, Cue(3_700_000, 3_701_000, "Tchau.")))
+        fun mark(page: Int, title: String) = PageBookmark(1, 1, page, title)
+        assertEquals("1:05 Bom dia.", VideoBookmarks.title(lines[1].third))
+        assertEquals("1:01:40 Tchau.", VideoBookmarks.title(lines[2].third))
+        assertEquals(1, VideoBookmarks.lineOf(mark(1, "1:05 Bom dia."), lines))
+        assertEquals(1, VideoBookmarks.lineOf(mark(1, "Bom dia."), lines), "by its text when the time moved")
+        assertEquals(2, VideoBookmarks.lineOf(mark(2, "Page 2"), lines), "a page's own bookmark goes to its first line")
+        assertNull(VideoBookmarks.lineOf(mark(3, "Page 3"), lines))
+    }
+
+    @Test
     fun aStatusChangedAnywhereIsReported() = runBlocking<Unit> {
         val env = Env()
         val changes = StatusChanges(env.terms, env.settings)
@@ -240,7 +303,7 @@ class BrowserBridgeTest {
     fun theServerAnswersOnlyThePairedExtension() {
         val env = Env()
         val free = ServerSocket(0).use { it.localPort }
-        val bridge = DesktopBrowserBridge(env.api, StatusChanges(env.terms, env.settings), BridgePairing(SecurePairedBrowserStore(InMemorySecureStore())), free..free)
+        val bridge = DesktopBrowserBridge(env.api, StatusChanges(env.terms, env.settings), BridgePairing(SecurePairedBrowserStore(InMemorySecureStore())), free..free, videos = env.videos)
         bridge.start()
         try {
             assertEquals(free, bridge.state.value.port)
@@ -281,6 +344,11 @@ class BrowserBridgeTest {
             assertEquals(200, spoken.statusCode())
             assertEquals("audio/wav", spoken.headers().firstValue("Content-Type").orElse(null))
             assertEquals("pt:gato", spoken.body())
+
+            val added = call("POST", "/v1/videos", "{\"videoId\":\"abcdefghijk\",\"title\":\"Gatos\",\"trackLanguage\":\"pt\",\"automatic\":false,\"original\":${kotlinx.serialization.json.JsonPrimitive(json3(1000L to "O gato dorme."))}}", token = token)
+            assertEquals(200, added.statusCode(), added.body())
+            assertTrue("\"added\":true" in added.body(), added.body())
+            assertEquals(400, call("POST", "/v1/open", "{\"bookId\":9999,\"positionMs\":0}", token = token).statusCode(), "no such video")
         } finally {
             bridge.stop()
         }

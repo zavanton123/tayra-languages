@@ -1,6 +1,8 @@
 package com.tayra.languages.feature.videos
 
 import androidx.lifecycle.ViewModel
+import com.tayra.languages.core.domain.media.VideoBookmarks
+import com.tayra.languages.core.domain.model.PageBookmark
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.media.AutoPause
 import com.tayra.languages.core.domain.media.Cue
@@ -97,6 +99,9 @@ private fun statusRank(status: TermStatus): Int = when (status) {
 /** The word picked in the transcript, by its line and its place there. */
 data class PickedWord(val line: Int, val item: Int)
 
+/** A bookmarked line: the bookmark, the line's index and its title (time and text). */
+data class WatchBookmark(val id: Long, val line: Int, val title: String)
+
 data class WatchUiState(
     val loading: Boolean = true,
     val video: Video? = null,
@@ -111,6 +116,8 @@ data class WatchUiState(
     val blur: VideoBlur = VideoBlur.OFF,
     /** Lines shown on purpose while their kind is hidden. */
     val revealed: Set<Int> = emptySet(),
+    /** The lines bookmarked, in the video's order. */
+    val bookmarks: List<WatchBookmark> = emptyList(),
     val error: String? = null,
 ) {
     /** Whether [line]'s own text is hidden: with lines hidden, until it has been heard or revealed. */
@@ -154,9 +161,26 @@ class WatchViewModel(
     private var translationJob: Job? = null
     private var pagesRead = mutableSetOf<Int>()
     private var autoPause = settings.current.videoAutoPause
+    private var marks: List<PageBookmark> = emptyList()
 
     init {
         viewModelScope.launch { load(firstTime = true) }
+        viewModelScope.launch {
+            books.observeBookmarks(bookId).collect {
+                marks = it
+                placeBookmarks()
+            }
+        }
+    }
+
+    /** Finds the bookmarks' lines, once the lines are there. */
+    private fun placeBookmarks() = _state.update { s ->
+        val lines = s.lines.map { Triple(it.index, it.pageOrder, it.cue) }
+        s.copy(bookmarks = marks.mapNotNull { mark -> VideoBookmarks.lineOf(mark, lines)?.let { WatchBookmark(mark.id, it, mark.title) } }.sortedBy { it.line })
+    }
+
+    fun deleteBookmark(id: Long) {
+        viewModelScope.launch { books.deleteBookmark(id) }
     }
 
     private suspend fun load(firstTime: Boolean) {
@@ -176,6 +200,7 @@ class WatchViewModel(
                     lines = lines.map { line -> line.copy(translation = line.translation ?: s.lines.getOrNull(line.index)?.translation) },
                 )
             }
+            placeBookmarks()
             _playback.value?.setCues(lines.map { it.cue })
             if (firstTime) translateAround(0)
         } catch (e: CancellationException) {

@@ -97,4 +97,5 @@ internal val zhVideos: Map<String, String> = mapOf(
     "YouTube is showing an advert. The subtitles come right after it." to "YouTube 正在播放广告，字幕会在广告结束后获取。",
     "Getting the subtitles…" to "正在获取字幕…",
     "Ask YouTube to translate each line into your language. YouTube often refuses; lines are then translated as you watch." to "请 YouTube 将每行翻译成你的语言。YouTube 经常拒绝，此时会在观看时翻译各行。",
+    "Remove the bookmark" to "移除书签",
 )

@@ -101,5 +101,35 @@ data class TranslateResponse(val translations: List<String?>)
 @Serializable
 data class ChangesResponse(val seq: Long, val statuses: Map<String, Int> = emptyMap(), val reset: Boolean = false)
 
+/** A YouTube video watched with subtitles in the language being learned, to keep in the Videos library. */
+@Serializable
+data class AddVideoRequest(
+    val videoId: String,
+    val title: String,
+    val channel: String? = null,
+    val durationMs: Long = 0,
+    val trackLanguage: String,
+    val automatic: Boolean,
+    /** The subtitles and their translation as YouTube sends them (json3). */
+    val original: String,
+    val translation: String? = null,
+)
+
+/** The video's book in the library; [added] is false when it was there already. */
+@Serializable
+data class AddVideoResponse(val bookId: Long, val added: Boolean)
+
+/** Bookmarks the line of video [bookId] playing at [atMs]. */
+@Serializable
+data class BookmarkRequest(val bookId: Long, val atMs: Long)
+
+/** The bookmark, titled with its line's time and text; [added] is false when the line had one already. */
+@Serializable
+data class BookmarkResponse(val id: Long, val title: String, val added: Boolean)
+
+/** Opens video [bookId] in the app at [positionMs]. */
+@Serializable
+data class OpenVideoRequest(val bookId: Long, val positionMs: Long)
+
 @Serializable
 data class BridgeError(val error: String)

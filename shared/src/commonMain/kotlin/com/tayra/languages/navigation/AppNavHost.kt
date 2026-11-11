@@ -3,6 +3,7 @@ package com.tayra.languages.navigation
 import com.tayra.languages.core.ui.navigation.LocalFlashcardsDialog
 import com.tayra.languages.feature.flashcards.FlashcardsDialog
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.domain.media.VideoOpenRequests
 import com.tayra.languages.core.domain.service.TranslationLanguageKeeper
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
@@ -74,6 +75,9 @@ fun AppNavHost(openCourses: Int = 0) {
             navController.navigate(Route.Courses)
         }
     }
+    // A video asked for from outside the app's screens, such as the browser extension's "Open in Tayra".
+    val videoOpens = koinInject<VideoOpenRequests>()
+    LaunchedEffect(videoOpens) { videoOpens.videos.collect { navController.navigate(Route.Watch(it)) } }
     // Phones get the main areas as a bottom bar, except while reading; wider screens have them in the top bar.
     val entry by navController.currentBackStackEntryAsState()
     val destination = entry?.destination

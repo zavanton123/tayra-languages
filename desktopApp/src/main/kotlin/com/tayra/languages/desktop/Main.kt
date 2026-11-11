@@ -9,8 +9,11 @@ import androidx.compose.ui.window.application
 import com.tayra.languages.App
 import com.tayra.languages.core.data.bridge.DesktopBrowserBridge
 import com.tayra.languages.core.data.runtime.AppInstanceLock
+import com.tayra.languages.core.domain.media.VideoOpenRequests
 import com.tayra.languages.di.initKoin
 import io.github.vinceglb.filekit.FileKit
+import java.awt.Desktop
+import java.awt.Frame
 import java.awt.Taskbar
 import java.lang.management.ManagementFactory
 import kotlin.system.exitProcess
@@ -48,6 +51,15 @@ fun main() {
                     window.rootPane.putClientProperty("apple.awt.fullWindowContent", true)
                     window.rootPane.putClientProperty("apple.awt.transparentTitleBar", true)
                     window.rootPane.putClientProperty("apple.awt.windowTitleVisible", false)
+                }
+            }
+            // A video opened from the browser extension comes to the front with the app.
+            LaunchedEffect(window) {
+                GlobalContext.get().get<VideoOpenRequests>().videos.collect {
+                    if (window.extendedState and Frame.ICONIFIED != 0) window.extendedState = window.extendedState and Frame.ICONIFIED.inv()
+                    window.toFront()
+                    runCatching { if (Desktop.isDesktopSupported()) Desktop.getDesktop().requestForeground(true) }
+                    window.requestFocus()
                 }
             }
             App(titleBarInset = if (isMacOs) macTitleBarHeight else 0.dp)
