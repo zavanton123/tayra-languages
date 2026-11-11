@@ -13,6 +13,7 @@ import { SidePanel } from '../src/side-panel';
 import { Speaker } from '../src/speaker';
 import { KNOWN, nextStatus, statusName } from '../src/statuses';
 import { pickTrack, translationFor } from '../src/tracks';
+import { printable } from '../src/transcript';
 import type { WordGestures, WordTarget } from '../src/word-gestures';
 import { WordPopup } from '../src/word-popup';
 import { linesWith, type VideoWord } from '../src/words';
@@ -130,6 +131,7 @@ export default defineContentScript({
         if (settings.lastDictionary !== name) void change({ lastDictionary: name });
       },
       onOpenInTayra: () => void openInTayra(),
+      onPrint: () => void printTranscript(),
       onCloseCard: () => closeCard(),
       onAction: (action) => {
         if (action === 'autopause') void change({ autoPause: !settings.autoPause });
@@ -146,6 +148,7 @@ export default defineContentScript({
       ...gestures,
       onSpeak: (text) => speak(text),
       onOpenInTayra: () => void openInTayra(),
+      onPrint: () => void printTranscript(),
       onSeek: (index) => {
         if (open) closeCard();
         player.jump(index, true);
@@ -453,6 +456,24 @@ export default defineContentScript({
       playing?.pause();
       const answer = await ask({ type: 'open', request: { bookId: id, positionMs: Math.round((playing?.currentTime ?? 0) * 1000) } }).catch(() => null);
       overlay.say(answer?.ok ? 'Opened in Tayra' : 'Tayra could not open the video.', 2500);
+    }
+
+    /** The transcript in a tab of its own, to print or save as PDF. */
+    async function printTranscript() {
+      if (!video || !lines.length) return;
+      const transcript = printable({
+        videoId: video.videoId,
+        title: video.title || 'YouTube video',
+        channel: video.author,
+        language: fromApp ? (learning?.name ?? null) : null,
+        lines,
+        human,
+        changed,
+        saved,
+        madeAt: Date.now(),
+      });
+      const answer = await ask({ type: 'printTranscript', transcript }).catch(() => null);
+      if (!answer?.ok) overlay.say('The transcript could not be opened.', 3000);
     }
 
     /** Saves [words] as known, one after another, saying how far it got. */

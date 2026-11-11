@@ -57,6 +57,13 @@ export default defineBackground(() => {
         return client.call('POST', '/v1/bookmarks', request.request);
       case 'open':
         return client.call('POST', '/v1/open', request.request);
+      case 'printTranscript': {
+        // The page takes it from session storage, which only the extension's own pages can read.
+        const id = crypto.randomUUID();
+        await browser.storage.session.set({ [`print:${id}`]: request.transcript });
+        await browser.tabs.create({ url: `${browser.runtime.getURL('/transcript.html')}?id=${id}` });
+        return { ok: true, data: null };
+      }
       case 'speech': {
         const answer = await client.bytes(`/v1/speech?text=${encodeURIComponent(request.text)}`);
         return answer.ok ? { ok: true, data: { audio: answer.data ? toBase64(answer.data) : null } } : answer;

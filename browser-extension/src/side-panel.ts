@@ -92,6 +92,8 @@ export interface SidePanelEvents extends WordGestures {
   /** Say line [text]. */
   onSpeak(text: string): void;
   onOpenInTayra(): void;
+  /** Open the transcript to print or save. */
+  onPrint(): void;
 }
 
 /**
@@ -309,6 +311,11 @@ export class SidePanel {
         if (row) this.scrollTo(row);
       });
       this.toolbar.append(sync);
+      const print = pill('Print', false);
+      if (this.following) print.className += ' push';
+      print.title = 'The transcript with its translations and your words marked, to print or save as PDF';
+      print.addEventListener('click', () => this.events.onPrint());
+      this.toolbar.append(print);
     } else if (settings.panelTab === 'words' && this.words) {
       const counts = groupCounts(videoWords(this.lines, this.changed, this.ranks));
       for (const group of WORD_GROUPS) {

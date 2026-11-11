@@ -131,6 +131,8 @@ export interface OverlayEvents extends WordGestures {
   /** A dictionary of the card was opened. */
   onDictionaryUsed(name: string): void;
   onOpenInTayra(): void;
+  /** Open the transcript to print or save. */
+  onPrint(): void;
   onCloseCard(): void;
   onAction(action: 'previous' | 'replay' | 'next' | 'autopause'): void;
   onSettings(change: Partial<ExtensionSettings>): void;
@@ -444,6 +446,11 @@ export class Overlay {
     open.textContent = 'Open this video in Tayra';
     open.addEventListener('click', () => this.events.onOpenInTayra());
     panel.append(open);
+    const print = document.createElement('button');
+    print.className = 'reset';
+    print.textContent = 'Print or save the transcript';
+    print.addEventListener('click', () => this.events.onPrint());
+    panel.append(print);
 
     section('Words');
     toggle('Show a word’s meaning when the pointer rests on it', settings.hoverLookup, (v) => this.events.onSettings({ hoverLookup: v }));

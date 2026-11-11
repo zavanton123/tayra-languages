@@ -1,6 +1,8 @@
 import type { AddVideoRequest, AddVideoResponse, BookmarkRequest, BookmarkResponse, BridgeResult, OpenVideoRequest, BridgeStatus, ChangesResponse, LookupResponse, SaveTermRequest, SaveTermResponse, TranscriptRequest, TranscriptResponse } from './bridge-types';
 
 /** What the extension's pages and content scripts ask its background, which alone talks to the app. */
+import type { PrintTranscript } from './transcript';
+
 export type RuntimeRequest =
   | { type: 'status' }
   | { type: 'pair'; code: string }
@@ -12,7 +14,8 @@ export type RuntimeRequest =
   | { type: 'speech'; text: string }
   | { type: 'addVideo'; request: AddVideoRequest }
   | { type: 'bookmark'; request: BookmarkRequest }
-  | { type: 'open'; request: OpenVideoRequest };
+  | { type: 'open'; request: OpenVideoRequest }
+  | { type: 'printTranscript'; transcript: PrintTranscript };
 
 export interface RuntimeAnswers {
   status: BridgeResult<BridgeStatus>;
@@ -27,6 +30,7 @@ export interface RuntimeAnswers {
   addVideo: BridgeResult<AddVideoResponse>;
   bookmark: BridgeResult<BookmarkResponse>;
   open: BridgeResult<null>;
+  printTranscript: BridgeResult<null>;
 }
 
 export function ask<R extends RuntimeRequest>(request: R): Promise<RuntimeAnswers[R['type']]> {
