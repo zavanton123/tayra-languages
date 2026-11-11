@@ -1,6 +1,7 @@
-import type { BridgeLine, BridgeStatus, LookupResponse } from '../src/bridge-types';
+import type { AddVideoRequest, BridgeLine, BridgeStatus, LookupResponse } from '../src/bridge-types';
 import { dictionaryNamed, dictionaryUrl, type DictionaryLink } from '../src/dictionaries';
 import { cueAt, parseJson3, type Cue } from '../src/json3';
+import { WATCHED_TO_ADD_MS, WatchedTime } from '../src/library';
 import { localLines } from '../src/lines';
 import { LinePlayer, PAUSE_EARLY_MS } from '../src/line-player';
 import { CHANNEL, isPageMessage, type CaptionTrack, type ExtensionMessage, type TrackResult, type VideoDetails } from '../src/messages';
@@ -62,6 +63,12 @@ export default defineContentScript({
     let hovered: WordTarget | null = null;
     let insidePopup = false;
     let hoverTimer: ReturnType<typeof setTimeout> | undefined;
+    /** What adds the video to Tayra's Videos, once it is watched; null without the app or in another language. */
+    let addRequest: AddVideoRequest | null = null;
+    let bookId: number | null = null;
+    let adding: Promise<number | null> | null = null;
+    let addFailed = false;
+    const watched = new WatchedTime();
     let hideTimer: ReturnType<typeof setTimeout> | undefined;
     let revealed = 0;
     let revealedFor = -1;
@@ -119,6 +126,7 @@ export default defineContentScript({
       onDictionaryUsed: (name) => {
         if (settings.lastDictionary !== name) void change({ lastDictionary: name });
       },
+      onOpenInTayra: () => void openInTayra(),
       onCloseCard: () => closeCard(),
       onAction: (action) => {
         if (action === 'autopause') void change({ autoPause: !settings.autoPause });
@@ -134,6 +142,7 @@ export default defineContentScript({
     const side = new SidePanel({
       ...gestures,
       onSpeak: (text) => speak(text),
+      onOpenInTayra: () => void openInTayra(),
       onSeek: (index) => {
         if (open) closeCard();
         player.jump(index, true);
@@ -192,6 +201,11 @@ export default defineContentScript({
       saved = [];
       changed.clear();
       lookups.clear();
+      addRequest = null;
+      bookId = null;
+      adding = null;
+      addFailed = false;
+      watched.reset();
       version++;
       hideHover();
       closeCard();
@@ -239,6 +253,18 @@ export default defineContentScript({
           const start = await ask({ type: 'changes', since: 0 }).catch(() => null);
           if (start?.ok) seq = start.data.seq;
         }
+      }
+      if (fromApp) {
+        addRequest = {
+          videoId: details.videoId,
+          title: details.title,
+          channel: details.author || null,
+          durationMs: Math.round(details.lengthSeconds * 1000),
+          trackLanguage: chosen.languageCode,
+          automatic: chosen.kind === 'asr',
+          original: original.body,
+          translation: translated?.body ?? null,
+        };
       }
       lines = got ?? localLines(parseJson3(original.body), translated?.body ? parseJson3(translated.body) : []);
       const humanCues: Cue[] = humanBody ? parseJson3(humanBody) : [];
@@ -370,6 +396,60 @@ export default defineContentScript({
       popup.hide();
     }
 
+    /** The video's book in Tayra's Videos, added now if it is not yet; null when it can't be. */
+    function addToLibrary(): Promise<number | null> {
+      if (bookId !== null) return Promise.resolve(bookId);
+      const request = addRequest;
+      if (!request) return Promise.resolve(null);
+      adding ??= ask({ type: 'addVideo', request }).then(
+        (answer) => {
+          if (addRequest !== request) return null;
+          if (!answer.ok) {
+            addFailed = true;
+            adding = null;
+            return null;
+          }
+          bookId = answer.data.bookId;
+          if (answer.data.added) overlay.say('Added to Tayra’s Videos', 2500);
+          return bookId;
+        },
+        () => {
+          adding = null;
+          return null;
+        },
+      );
+      return adding;
+    }
+
+    /** R: the line playing, bookmarked in the video's book. */
+    async function bookmarkLine() {
+      if (!addRequest) {
+        overlay.say('Open Tayra, learning this video’s language, to bookmark its lines.', 4000);
+        return;
+      }
+      const id = await addToLibrary();
+      if (id === null) return overlay.say('Tayra could not add the video.', 3000);
+      const line = lines[player.current()];
+      const atMs = line ? line.beginMs : Math.round((media()?.currentTime ?? 0) * 1000);
+      const answer = await ask({ type: 'bookmark', request: { bookId: id, atMs } }).catch(() => null);
+      if (!answer?.ok) return overlay.say('Tayra could not bookmark the line.', 3000);
+      overlay.say(answer.data.added ? `Bookmarked in Tayra: ${answer.data.title}` : 'This line is bookmarked already', 2500);
+    }
+
+    /** The video in the Tayra app, from where it is here; it stops playing here. */
+    async function openInTayra() {
+      if (!addRequest) {
+        overlay.say('Open Tayra, learning this video’s language, to watch it there.', 4000);
+        return;
+      }
+      const id = await addToLibrary();
+      if (id === null) return overlay.say('Tayra could not add the video.', 3000);
+      const playing = media();
+      playing?.pause();
+      const answer = await ask({ type: 'open', request: { bookId: id, positionMs: Math.round((playing?.currentTime ?? 0) * 1000) } }).catch(() => null);
+      overlay.say(answer?.ok ? 'Opened in Tayra' : 'Tayra could not open the video.', 2500);
+    }
+
     /** Saves [words] as known, one after another, saying how far it got. */
     async function markKnown(words: VideoWord[]) {
       if (marking) return;
@@ -475,6 +555,7 @@ export default defineContentScript({
       if (is('KeyW', 'ArrowUp')) return done(event, () => !event.repeat && player.toggle());
       if (code === 'KeyQ') return done(event, () => !event.repeat && void change({ autoPause: !settings.autoPause }));
       if (code === 'KeyE') return done(event, () => !event.repeat && revealed++);
+      if (code === 'KeyR') return done(event, () => !event.repeat && void bookmarkLine());
     }
 
     function onKeyUp(event: KeyboardEvent) {
@@ -535,6 +616,9 @@ export default defineContentScript({
         const wasPlaying = !playing.paused;
         player.tick();
         if (wasPlaying && playing.paused && !peek) autoPaused = true;
+        if (addRequest && bookId === null && !adding && !addFailed && settings.addToLibrary && watched.tick(performance.now(), !playing.paused) >= WATCHED_TO_ADD_MS) {
+          void addToLibrary();
+        }
         const holdLine = lines[holdAfter];
         if (holdLine && !playing.paused && playing.currentTime * 1000 >= holdLine.endMs - PAUSE_EARLY_MS) {
           playing.pause();

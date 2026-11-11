@@ -130,6 +130,7 @@ export interface OverlayEvents extends WordGestures {
   onExample(index: number): void;
   /** A dictionary of the card was opened. */
   onDictionaryUsed(name: string): void;
+  onOpenInTayra(): void;
   onCloseCard(): void;
   onAction(action: 'previous' | 'replay' | 'next' | 'autopause'): void;
   onSettings(change: Partial<ExtensionSettings>): void;
@@ -436,6 +437,14 @@ export class Overlay {
     toggle('Buttons beside the subtitles', settings.showControls, (v) => this.events.onSettings({ showControls: v }));
     toggle('Panel of subtitles and words beside the video', settings.sidePanel, (v) => this.events.onSettings({ sidePanel: v }));
 
+    section('Tayra’s Videos');
+    toggle('Add the videos I watch for half a minute', settings.addToLibrary, (v) => this.events.onSettings({ addToLibrary: v }));
+    const open = document.createElement('button');
+    open.className = 'reset';
+    open.textContent = 'Open this video in Tayra';
+    open.addEventListener('click', () => this.events.onOpenInTayra());
+    panel.append(open);
+
     section('Words');
     toggle('Show a word’s meaning when the pointer rests on it', settings.hoverLookup, (v) => this.events.onSettings({ hoverLookup: v }));
     toggle('Say a word when it is clicked', settings.speakOnClick, (v) => this.events.onSettings({ speakOnClick: v }));
@@ -452,6 +461,7 @@ export class Overlay {
       ['Q', 'Auto-pause on or off'],
       ['E', 'Reveal what is hidden'],
       ['⌘/Ctrl C', 'Copy the line'],
+      ['R', 'Bookmark the line in Tayra'],
       ['Esc', 'Close the word card'],
       ['Right-click', 'A word’s next status'],
       ['⇧ Right-click', 'Ignore a word'],

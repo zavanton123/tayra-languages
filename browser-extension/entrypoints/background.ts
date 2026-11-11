@@ -51,6 +51,12 @@ export default defineBackground(() => {
         return client.call('POST', '/v1/terms', request.request);
       case 'changes':
         return client.call('GET', `/v1/changes?since=${request.since}`);
+      case 'addVideo':
+        return client.call('POST', '/v1/videos', request.request);
+      case 'bookmark':
+        return client.call('POST', '/v1/bookmarks', request.request);
+      case 'open':
+        return client.call('POST', '/v1/open', request.request);
       case 'speech': {
         const answer = await client.bytes(`/v1/speech?text=${encodeURIComponent(request.text)}`);
         return answer.ok ? { ok: true, data: { audio: answer.data ? toBase64(answer.data) : null } } : answer;

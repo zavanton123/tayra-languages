@@ -18,6 +18,10 @@ const STYLE = `
   header .tab:hover { color: #e6e9ec; }
   header .tab.on { color: #e6e9ec; border-bottom-color: #8fc3ec; }
   header .brand { padding: 0 8px; color: #8fc3ec; font-weight: 700; font-size: 13px; }
+  header .open { margin-left: auto; padding: 4px 9px; border: 1px solid #3a4148; border-radius: 999px; background: none; color: #e6e9ec; font-family: inherit; font-size: 12px; font-weight: 600; cursor: pointer; }
+  header .open:hover { border-color: #8fc3ec; }
+  header .open[hidden] { display: none; }
+  header .open:not([hidden]) + .fold { margin-left: 0; }
   header .fold { margin-left: auto; width: 30px; height: 30px; border: 0; border-radius: 8px; background: none; color: #a3acb5; font-size: 16px; cursor: pointer; }
   header .fold:hover { background: #262c32; color: #e6e9ec; }
   .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; padding: 8px 10px; border-bottom: 1px solid #2d3238; color: #a3acb5; font-size: 12px; }
@@ -87,6 +91,7 @@ export interface SidePanelEvents extends WordGestures {
   onCopy(text: string): void;
   /** Say line [text]. */
   onSpeak(text: string): void;
+  onOpenInTayra(): void;
 }
 
 /**
@@ -135,6 +140,7 @@ export class SidePanel {
           <button class="tab" data-tab="subtitles">Subtitles</button>
           <button class="tab" data-tab="words">Words</button>
           <button class="tab" data-tab="saved">Saved</button>
+          <button class="open" title="Open this video in the Tayra app, where you are in it" hidden>Open in Tayra</button>
           <button class="fold" title="Fold the panel"></button>
         </header>
         <div class="toolbar"></div>
@@ -150,6 +156,7 @@ export class SidePanel {
       const target = event.target as HTMLElement;
       const tab = target.closest<HTMLElement>('[data-tab]')?.dataset.tab as PanelTab | undefined;
       if (tab) this.events.onSettings({ panelTab: tab, panelOpen: true });
+      else if (target.closest('.open')) this.events.onOpenInTayra();
       else if (target.closest('.fold')) this.events.onSettings({ panelOpen: !(this.settings?.panelOpen ?? true) });
     });
     listenToWords(this.body, (element) => {
@@ -261,6 +268,7 @@ export class SidePanel {
     const fold = this.root.querySelector<HTMLElement>('.fold')!;
     fold.textContent = settings.panelOpen ? '▴' : '▾';
     fold.title = settings.panelOpen ? 'Fold the panel' : 'Open the panel';
+    this.root.querySelector<HTMLElement>('.open')!.hidden = !this.words;
     this.root.querySelectorAll<HTMLElement>('[data-tab]').forEach((tab) => {
       tab.classList.toggle('on', tab.dataset.tab === settings.panelTab);
       if (tab.dataset.tab === 'saved') tab.textContent = this.saved.length ? `Saved ${this.saved.length}` : 'Saved';

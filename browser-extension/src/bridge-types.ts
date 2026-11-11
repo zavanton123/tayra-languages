@@ -85,3 +85,35 @@ export interface ChangesResponse {
 export type BridgeFailure = 'offline' | 'unpaired' | 'failed';
 
 export type BridgeResult<T> = { ok: true; data: T } | { ok: false; error: BridgeFailure; message?: string };
+
+export interface AddVideoRequest {
+  videoId: string;
+  title: string;
+  channel: string | null;
+  durationMs: number;
+  trackLanguage: string;
+  automatic: boolean;
+  original: string;
+  translation: string | null;
+}
+
+export interface AddVideoResponse {
+  bookId: number;
+  added: boolean;
+}
+
+export interface BookmarkRequest {
+  bookId: number;
+  atMs: number;
+}
+
+export interface BookmarkResponse {
+  id: number;
+  title: string;
+  added: boolean;
+}
+
+export interface OpenVideoRequest {
+  bookId: number;
+  positionMs: number;
+}

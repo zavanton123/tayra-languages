@@ -46,6 +46,8 @@ export interface ExtensionSettings {
   dictionaries: DictionaryLink[];
   /** The dictionary Shift+click opens: the one used last. */
   lastDictionary: string | null;
+  /** Videos watched for a while go into Tayra's Videos. */
+  addToLibrary: boolean;
 }
 
 export const DEFAULT_SETTINGS: ExtensionSettings = {
@@ -72,6 +74,7 @@ export const DEFAULT_SETTINGS: ExtensionSettings = {
   speakOnClick: false,
   dictionaries: DEFAULT_DICTIONARIES,
   lastDictionary: null,
+  addToLibrary: true,
 };
 
 export const FONT_SCALES = [0.7, 0.85, 1, 1.15, 1.35];
