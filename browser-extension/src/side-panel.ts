@@ -110,6 +110,8 @@ export class SidePanel {
   private version = -1;
   private current = -1;
   private following = true;
+  /** The pointer is on the lines: they hold still under it, and catch up with the video when it leaves. */
+  private pointerInside = false;
   private autoScrollAt = 0;
   private confirming = false;
   private progress: string | null = null;
@@ -157,6 +159,12 @@ export class SidePanel {
       return { term: element.dataset.term, lc: element.dataset.lc, line, element };
     }, this.events);
     this.body.addEventListener('click', (event) => this.clicked(event));
+    this.body.addEventListener('mouseenter', () => (this.pointerInside = true));
+    this.body.addEventListener('mouseleave', () => {
+      this.pointerInside = false;
+      const row = this.body.querySelector<HTMLElement>('.row.current');
+      if (row && this.following && this.settings?.panelTab === 'subtitles') this.scrollTo(row);
+    });
     this.body.addEventListener('scroll', () => {
       if (this.settings?.panelTab !== 'subtitles' || performance.now() - this.autoScrollAt < 200 || !this.following) return;
       this.following = false;
@@ -217,7 +225,7 @@ export class SidePanel {
     this.body.querySelector('.row.current')?.classList.remove('current');
     const row = this.body.querySelector<HTMLElement>(`.row[data-index="${index}"]`);
     row?.classList.add('current');
-    if (row && this.following) this.scrollTo(row);
+    if (row && this.following && !this.pointerInside) this.scrollTo(row);
   }
 
   setProgress(text: string | null) {
