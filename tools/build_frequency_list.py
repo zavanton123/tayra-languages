@@ -204,7 +204,7 @@ SIMPLEMMA_CODES = {"hr": "hbs", "sr": "hbs", "bs": "hbs", "no": "nb"}
 WORD_POS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", "article", "intj", "contraction", "particle", "adnominal"}
 
 # Per-language corrections, reviewed by hand.
-from frequency_fixes import ARABIC_CUT, ARABIC_WHOLE, DISPLAY, EXCLUDE, KOREAN_APART, KOREAN_CUT, KOREAN_STEMS, KOREAN_WHOLE, OVERRIDES, SLOVAK_NEGATIVE_VERBS  # noqa: E402
+from frequency_fixes import ARABIC_CUT, ARABIC_WHOLE, DISPLAY, EXCLUDE, KOREAN_APART, KOREAN_CUT, KOREAN_STEMS, KOREAN_WHOLE, OVERRIDES, REFILE, SLOVAK_NEGATIVE_VERBS  # noqa: E402
 import frequency_persian  # noqa: E402
 
 OVERRIDES["fa"] = frequency_persian.PERSIAN_OVERRIDES
@@ -5205,6 +5205,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             for form in forms[word]:
                 if main.get(form) == word and form not in first[word] and not any(b in anywhere for b in arabic_bases(form)):
                     del main[form]
+    # Forms listed under another word than their count went to (REFILE); the ranks stay as the counts made them.
+    refile = REFILE.get(language, {})
+    unlisted = sorted(set(refile.values()) - listed)
+    if unlisted:
+        raise SystemExit(f"{language}: REFILE names words the list lacks: {' '.join(unlisted)}")
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     # The forms counted for some word of the list, which no other word's rare forms may take.
     rare_taken = {f for word in ranked for f in forms[word]} if language in ("ar", "he") else set()
@@ -5222,6 +5227,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         cap = FORMS_PER_WORD_OF.get(language, FORMS_PER_WORD)
         counted = counted[:cap] + [f for f in counted[cap:] if f in required or (language == "ar" and f in ARABIC_SHARED) or (
             language == "ko" and lemmas.get(f) and all(overrides.get(l, [l]) != [l] for l in lemmas[f]))]
+        if refile:
+            counted = [f for f in counted if refile.get(f, word) == word]
+            counted += [f for f, to in refile.items() if to == word and f not in counted and f != word]
         if language == "ar":
             # The duals and feminine plurals texts seldom write, no other word's (ARABIC_RARE).
             rare = [f for f in ARABIC_RARE.get(word, ()) if f not in counted and (f in forms[word] or f not in rare_taken)
