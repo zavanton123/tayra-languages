@@ -2426,9 +2426,10 @@ EXCLUDE["hy"] = {"երևան", "կարս", "կարին", "պարսից", "իրա
 # Where a form is listed, by the word it is far more often than the one its count went to. The pack and simplemma file
 # these under a look-alike: a noun whose locative or genitive the verb's present or subjunctive spells (ծխում "smokes", not
 # "in the smoke"; աճում "grows"; սպասի "may wait"), a dialect or Western word (հորը of հայր, not հեր; գնացի of գնալ, not
-# երթալ), or a word they are no form of at all (սառա, երգիր, նավի of նավել). The -ում forms moved are those a corpus shows
-# next to an auxiliary at least four times in five; the -ի ones those mostly after որ, թե, չի and the like. Only the listing
-# moves: every word keeps the rank its count gives it.
+# երթալ; թռավ of թռչել, not թռնել), a noun's genitive or plural filed under its verb (կրակի, դասեր), or a word they are no
+# form of at all (սառա, երգիր, նավի of նավել). The -ում forms moved are those a corpus shows next to an auxiliary at least
+# four times in five; the -ի ones those mostly after որ, թե, չի and the like. Only the listing moves: every word keeps the
+# rank its count gives it.
 REFILE = {"hy": {
     "հորը": "հայր", "հորից": "հայր",
     **{f: "գնալ" for f in ("գնացի", "գնացիր", "գնաց", "գնացինք", "գնացիք", "գնացին", "գնացած", "գնացող",
@@ -2437,7 +2438,8 @@ REFILE = {"hy": {
     "կարի": "կարել", "կարը": "կարել", "կարով": "կարել", "կարերը": "կարել", "կարերի": "կարել", "կարերով": "կարել",
     "սառա": "սառչել", "երգիր": "երգել", "բացած": "բացել", "սպասի": "սպասել",
     "հաղթի": "հաղթել", "հաղթեր": "հաղթել", "շեղի": "շեղել", "կոչի": "կոչել", "համոզի": "համոզել", "փոխի": "փոխել",
-    "պարզի": "պարզել",
+    "պարզի": "պարզել", "կրակի": "կրակ", "դասեր": "դաս",
+    **{f: "թռչել" for f in ("թռավ", "թռել", "թռան", "թռած")},
     **{f + "ում": v for f, v in (
         ("փակ", "փակել"), ("հաղթ", "հաղթել"), ("հավան", "հավանել"), ("ստ", "ստել"), ("ծխ", "ծխել"), ("թք", "թքել"),
         ("մորթ", "մորթել"), ("կերակր", "կերակրել"), ("կթ", "կթել"), ("հր", "հրել"), ("մտահոգ", "մտահոգել"), ("զոհ", "զոհել"),
