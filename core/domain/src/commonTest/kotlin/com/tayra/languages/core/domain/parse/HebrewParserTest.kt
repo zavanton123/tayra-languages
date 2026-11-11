@@ -20,7 +20,8 @@ class HebrewParserTest {
         "משפחה" to 135, "משהו" to 136, "הבין" to 146, "שמע" to 161, "הפך" to 175, "שלום" to 187, "למד" to 215, "כסף" to 222,
         "מים" to 225, "הרגיש" to 226, "שאל" to 246, "מלך" to 257, "שלח" to 284, "בדק" to 448, "לבד" to 529, "ועדה" to 654,
         "כלב" to 745, "מכתב" to 752, "הביתה" to 845, "ברכה" to 879, "שולחן" to 943, "לחם" to 1209, "בכה" to 1317,
-        "ג׳ינס" to 5141,
+        "ג׳ינס" to 5141, "אמינות" to 300, "האמין" to 347, "מאמינות" to 347, "בא" to 400, "באתי" to 400, "הביא" to 640,
+        "הבאתי" to 640,
     )
 
     /** The headwords among them, with their own ranks: ביתו and ביתה are בית's forms. */
@@ -74,6 +75,15 @@ class HebrewParserTest {
             "כבר", "שלי", "שלו", "שלה", "לכם", "להם", "בהם", "היום", "הביתה", "להיות", "לעשות",
         )
         for (word in whole) assertEquals(listOf(word), words(word), word)
+    }
+
+    @Test
+    fun aFormOfTheListStaysWholeThoughACutLeavesACommonerWord() {
+        // מאמינות "they believe" is האמין's, no מ + אמינות "credibility"; הבאתי "I brought" הביא's, no ה + באתי "I came".
+        assertEquals(listOf("מאמינות"), words("מאמינות"))
+        assertEquals(listOf("הבאתי"), words("הבאתי"))
+        assertEquals(listOf("ב", "אמינות"), words("באמינות"))
+        assertEquals(listOf("ש", "באתי"), words("שבאתי"))
     }
 
     @Test
