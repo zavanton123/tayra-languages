@@ -47,6 +47,8 @@ export default defineContentScript({
   runAt: 'document_idle',
   async main(ctx) {
     let settings: ExtensionSettings = DEFAULT_SETTINGS;
+    /** The settings as last changed here, ahead of storage telling of it, so quick changes build on each other. */
+    let latest: ExtensionSettings = DEFAULT_SETTINGS;
     let nextId = 1;
     const waiting = new Map<number, (result: TrackResult) => void>();
     let video: VideoDetails | null = null;
@@ -171,7 +173,8 @@ export default defineContentScript({
     hideOwn.textContent = '.ytp-caption-window-container { display: none !important; }';
 
     async function change(patch: Partial<ExtensionSettings>) {
-      const next = normalize({ ...settings, ...patch });
+      const next = normalize({ ...latest, ...patch });
+      latest = next;
       await saveSettings(next);
       if (patch.autoPause !== undefined) overlay.say(next.autoPause ? 'Auto-pause on' : 'Auto-pause off', 1500);
     }
@@ -179,6 +182,7 @@ export default defineContentScript({
     function applySettings(next: ExtensionSettings) {
       const reload = RELOADING.some((key) => next[key] !== settings[key]);
       settings = next;
+      latest = next;
       player.autoPause = next.autoPause;
       overlay.apply(next);
       side.apply(next);
