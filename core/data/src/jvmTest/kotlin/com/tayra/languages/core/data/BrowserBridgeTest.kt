@@ -29,7 +29,15 @@ import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.domain.frequency.FrequencyLists
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.service.LocalSpeech
+import com.tayra.languages.core.domain.service.LocalSpeechEngine
+import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
 import com.tayra.languages.core.domain.service.ReadingService
+import com.tayra.languages.core.domain.service.SentenceAudio
+import com.tayra.languages.core.domain.service.SpeechEngine
+import com.tayra.languages.core.domain.service.SpeechPackage
+import com.tayra.languages.core.domain.service.SpeechVoice
+import kotlinx.coroutines.flow.MutableStateFlow
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermService
 import kotlinx.coroutines.CoroutineScope
@@ -81,7 +89,24 @@ class BrowserBridgeTest {
         val frequency = object : FrequencyLists {
             override suspend fun list(languageCode: String) = FrequencyList.parse("o\to\ndormir\tdormir dorme\ngato\tgato").takeIf { languageCode == "pt" }
         }
-        val api = BrowserBridgeApi(settings, languages, reading, termService, dictionary, translator, "9.9.9", frequency)
+        val piper = object : LocalSpeechEngine {
+            override val engine = SpeechEngine.PIPER
+            override val displayName = "Fake Piper"
+            override val description = ""
+            override val packagesDescription = ""
+            override val hasRuntimeSetup = false
+            override val progress = MutableStateFlow<String?>(null)
+            override suspend fun status() = "ready"
+            override suspend fun isReady() = true
+            override suspend fun setUp() = "ready"
+            override suspend fun packages() = emptyList<SpeechPackage>()
+            override suspend fun installPackage(id: String) {}
+            override suspend fun removePackage(id: String) {}
+            override suspend fun voices(languageCode: String) = emptyList<SpeechVoice>()
+            override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float) = "$languageCode:$text".encodeToByteArray()
+        }
+        val speech = SentenceAudio(LocalSpeech(listOf(piper)), settings, MemorySpeechAudioCache())
+        val api = BrowserBridgeApi(settings, languages, reading, termService, dictionary, translator, "9.9.9", frequency, speech)
         val portuguese = runBlocking { languages.save(Language(name = "Portuguese")) }
 
         init {
@@ -150,6 +175,17 @@ class BrowserBridgeTest {
     fun linesAreTranslatedByTheAppsTranslator() = runBlocking<Unit> {
         val answer = Env().api.translate(TranslateRequest(listOf("Bom dia.", " ")))
         assertEquals(listOf("<Bom dia.>", null), answer.translations)
+    }
+
+    @Test
+    fun wordsAreSaidByTayrasOwnVoiceAndLeftToTheBrowserForTheSystemOne() = runBlocking<Unit> {
+        val env = Env()
+        env.settings.update { it.copy(speechEngine = SpeechEngine.SYSTEM) }
+        assertNull(env.api.speech("manteiga"))
+        env.settings.update { it.copy(speechEngine = SpeechEngine.PIPER) }
+        assertEquals("pt:manteiga", env.api.speech(" manteiga ")?.decodeToString())
+        assertFailsWith<BridgeException> { env.api.speech("a".repeat(BrowserBridgeApi.MAX_SPOKEN_CHARS + 1)) }
+        assertFailsWith<BridgeException> { env.api.speech(" ") }
     }
 
     @Test
@@ -237,6 +273,14 @@ class BrowserBridgeTest {
             assertEquals(400, call("POST", "/v1/terms", """{"term":"gato","status":7}""", token = token).statusCode(), "no such status")
             assertEquals(400, call("POST", "/v1/transcript", "not json", token = token).statusCode())
             assertEquals(404, call("GET", "/v1/nothing", token = token).statusCode())
+
+            runBlocking { env.settings.update { it.copy(speechEngine = SpeechEngine.SYSTEM) } }
+            assertEquals(204, call("GET", "/v1/speech?text=gato", token = token).statusCode(), "the browser's voice says it")
+            runBlocking { env.settings.update { it.copy(speechEngine = SpeechEngine.PIPER) } }
+            val spoken = call("GET", "/v1/speech?text=gato", token = token)
+            assertEquals(200, spoken.statusCode())
+            assertEquals("audio/wav", spoken.headers().firstValue("Content-Type").orElse(null))
+            assertEquals("pt:gato", spoken.body())
         } finally {
             bridge.stop()
         }

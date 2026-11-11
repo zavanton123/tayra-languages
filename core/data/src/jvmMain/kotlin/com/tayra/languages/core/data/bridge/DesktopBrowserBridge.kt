@@ -152,6 +152,11 @@ class DesktopBrowserBridge(
                     val request = read(exchange, TranslateRequest.serializer())
                     reply(exchange, 200, call { api.translate(request) }, TranslateResponse.serializer())
                 }
+                method == "GET" && path == "/v1/speech" -> {
+                    val text = query(exchange)["text"] ?: throw BridgeException("Nothing to say")
+                    val audio = call { api.speech(text) }
+                    if (audio == null) noContent(exchange) else replyBytes(exchange, audio, "audio/wav")
+                }
                 method == "GET" && path == "/v1/changes" -> {
                     val since = query(exchange)["since"]?.toLongOrNull() ?: 0L
                     reply(exchange, 200, call { changes.since(since) }, ChangesResponse.serializer())
@@ -193,6 +198,18 @@ class DesktopBrowserBridge(
         exchange.responseHeaders.set("Content-Type", "application/json; charset=utf-8")
         exchange.responseHeaders.set("Cache-Control", "no-store")
         exchange.sendResponseHeaders(status, bytes.size.toLong())
+        exchange.responseBody.use { it.write(bytes) }
+    }
+
+    private fun noContent(exchange: HttpExchange) {
+        exchange.responseHeaders.set("Cache-Control", "no-store")
+        exchange.sendResponseHeaders(204, -1)
+    }
+
+    private fun replyBytes(exchange: HttpExchange, bytes: ByteArray, type: String) {
+        exchange.responseHeaders.set("Content-Type", type)
+        exchange.responseHeaders.set("Cache-Control", "no-store")
+        exchange.sendResponseHeaders(200, bytes.size.toLong())
         exchange.responseBody.use { it.write(bytes) }
     }
 

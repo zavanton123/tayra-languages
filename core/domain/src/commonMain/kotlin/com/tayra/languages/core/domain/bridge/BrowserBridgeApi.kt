@@ -15,6 +15,7 @@ import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.render.MultiwordTermIndex
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.ReadingService
+import com.tayra.languages.core.domain.service.SentenceAudio
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.term.TermTextNormalizer
@@ -36,6 +37,7 @@ class BrowserBridgeApi(
     private val translator: SentenceTranslator,
     private val version: String? = null,
     private val frequency: FrequencyLists? = null,
+    private val speech: SentenceAudio? = null,
 ) {
     private var rankedFor: String? = null
     private var rankOf: Map<String, Int> = emptyMap()
@@ -129,6 +131,19 @@ class BrowserBridgeApi(
         return TranslateResponse(request.lines.map { line -> if (line.isBlank()) null else translator.translate(line, language) })
     }
 
+    /**
+     * [text] in the language being learned, as Tayra's own voice says it: Piper's or Kokoro's audio,
+     * made now or taken from the reader's cache. Null when the system voice is chosen, which the
+     * browser has too.
+     */
+    suspend fun speech(text: String): ByteArray? {
+        val language = learning() ?: throw BridgeException("No language is being learned")
+        if (text.isBlank()) throw BridgeException("Nothing to say")
+        if (text.length > MAX_SPOKEN_CHARS) throw BridgeException("Too long to say")
+        val code = LanguageCodes.codeFor(language.name) ?: return null
+        return speech?.audioFor(text.trim(), code)
+    }
+
     private suspend fun learning(): Language? = settings.current.currentLanguageId.takeIf { it != 0L }?.let { languages.getById(it) }
 
     private fun native(): String = settings.current.nativeLanguage.ifBlank { "en" }
@@ -141,5 +156,6 @@ class BrowserBridgeApi(
         const val MAX_ENTRIES = 8
         const val MAX_SENSES = 6
         const val MAX_TRANSLATED_LINES = 50
+        const val MAX_SPOKEN_CHARS = 500
     }
 }
