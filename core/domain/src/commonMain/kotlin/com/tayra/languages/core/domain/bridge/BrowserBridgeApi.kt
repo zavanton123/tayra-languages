@@ -16,6 +16,9 @@ import com.tayra.languages.core.domain.render.MultiwordTermIndex
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.SentenceAudio
+import com.tayra.languages.core.domain.service.WordReadings
+import com.tayra.languages.core.domain.morphology.Japanese
+import com.tayra.languages.core.domain.morphology.Romaji
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.term.TermTextNormalizer
@@ -38,6 +41,7 @@ class BrowserBridgeApi(
     private val version: String? = null,
     private val frequency: FrequencyLists? = null,
     private val speech: SentenceAudio? = null,
+    private val readings: WordReadings? = null,
 ) {
     private var rankedFor: String? = null
     private var rankOf: Map<String, Int> = emptyMap()
@@ -53,7 +57,7 @@ class BrowserBridgeApi(
         val code = language?.let { LanguageCodes.codeFor(it.name) }
         val matches = language != null && code != null && code.equals(request.trackLanguage.substringBefore('-'), ignoreCase = true)
         val index: MultiwordTermIndex? = if (matches) reading.multiwordIndex(language!!) else null
-        val lines = cues.map { cue ->
+        val cut = cues.map { cue ->
             BridgeLine(
                 beginMs = cue.beginMs,
                 endMs = cue.endMs,
@@ -62,6 +66,7 @@ class BrowserBridgeApi(
                 segments = if (index != null) segments(cue.text, language!!, index) else emptyList(),
             )
         }
+        val lines = if (matches && code in READ_ABOVE) withReadings(cut, language!!, code!!) else cut
         val ranks = if (matches) ranks(code!!, lines) else emptyMap()
         return TranscriptResponse(matches, language?.let(::describe), lines, ranks)
     }
@@ -76,6 +81,24 @@ class BrowserBridgeApi(
             rankedFor = code
         }
         return lines.asSequence().flatMap { it.segments }.mapNotNull { it.lc }.distinct().mapNotNull { lc -> rankOf[lc]?.let { lc to it } }.toMap()
+    }
+
+    /** Japanese and Chinese words with their readings above them, and Japanese ones in romaji too. */
+    private suspend fun withReadings(lines: List<BridgeLine>, language: Language, code: String): List<BridgeLine> {
+        val words = lines.flatMap { line -> line.segments.mapNotNull { it.term } }
+        val found = readings?.let { runCatching { it.of(language, words) }.getOrNull() }.orEmpty()
+        return lines.map { line ->
+            line.copy(segments = line.segments.map { segment ->
+                val term = segment.term ?: return@map segment
+                val ruby = found[term]?.map { BridgeRuby(it.text, it.reading) }
+                val romaji = if (code == "ja") {
+                    val kana = ruby?.joinToString("") { it.reading.ifEmpty { it.text } } ?: term
+                    // A word whose kanji have no reading gets none, rather than one half in romaji.
+                    if (kana.any { Japanese.isKanji(it) }) null else Romaji.of(kana).takeIf { it != kana }
+                } else null
+                segment.copy(ruby = ruby, romaji = romaji)
+            })
+        }
     }
 
     private suspend fun segments(text: String, language: Language, index: MultiwordTermIndex): List<BridgeSegment> =
@@ -157,5 +180,6 @@ class BrowserBridgeApi(
         const val MAX_SENSES = 6
         const val MAX_TRANSLATED_LINES = 50
         const val MAX_SPOKEN_CHARS = 500
+        private val READ_ABOVE = setOf("ja", "zh")
     }
 }

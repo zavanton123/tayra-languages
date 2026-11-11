@@ -57,7 +57,20 @@ data class BridgeLine(
  * [lc], what its status is kept under, and its [status]; the text between words has neither.
  */
 @Serializable
-data class BridgeSegment(val text: String, val term: String? = null, val lc: String? = null, val status: Int? = null)
+data class BridgeSegment(
+    val text: String,
+    val term: String? = null,
+    val lc: String? = null,
+    val status: Int? = null,
+    /** Japanese and Chinese words: the word in pieces with the reading above each, furigana or pinyin. */
+    val ruby: List<BridgeRuby>? = null,
+    /** Japanese words written in romaji. */
+    val romaji: String? = null,
+)
+
+/** A piece of a word and its reading; an empty reading for kana, which read as written. */
+@Serializable
+data class BridgeRuby(val text: String, val reading: String)
 
 @Serializable
 data class LookupResponse(

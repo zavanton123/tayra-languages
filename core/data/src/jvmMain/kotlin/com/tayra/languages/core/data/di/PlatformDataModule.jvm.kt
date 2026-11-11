@@ -77,7 +77,7 @@ actual val platformDataModule: Module = module {
     single { StatusChanges(get(), get()) }
     single { NativeHostInstaller(File(DatabaseDriverFactory.dataDirectory(), "browser-extension")) }
     single { BridgePairing(SecurePairedBrowserStore(get()), automaticToken = get<NativeHostInstaller>()::token) }
-    single { BrowserBridgeApi(get(), get(), get(), get(), get<DictionaryService>(), get(), System.getProperty("tayra.version"), getOrNull(), getOrNull()) }
+    single { BrowserBridgeApi(get(), get(), get(), get(), get<DictionaryService>(), get(), System.getProperty("tayra.version"), getOrNull(), getOrNull(), getOrNull()) }
     single { BridgeVideos(get(), get(), get(), get(), get(), get()) }
     single { DesktopBrowserBridge(get(), get(), get(), nativeHost = get(), videos = get()) } bind BrowserExtensionBridge::class
     single<AppUpdater> { DesktopAppUpdater(get()) }

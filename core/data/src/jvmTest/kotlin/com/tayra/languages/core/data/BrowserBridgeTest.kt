@@ -44,6 +44,9 @@ import com.tayra.languages.core.domain.dictionary.DictionarySense
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.domain.frequency.FrequencyLists
+import com.tayra.languages.core.domain.language.LanguageDefinitions
+import com.tayra.languages.core.domain.parse.Lexicon
+import com.tayra.languages.core.domain.parse.Lexicons
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.LocalSpeech
@@ -57,6 +60,8 @@ import com.tayra.languages.core.domain.service.SpeechVoice
 import kotlinx.coroutines.flow.MutableStateFlow
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermService
+import com.tayra.languages.core.domain.service.WordReadings
+import com.tayra.languages.core.domain.bridge.BridgeRuby
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.cancel
@@ -96,6 +101,7 @@ class BrowserBridgeTest {
             override suspend fun isAvailable(dictionary: DictionaryId) = true
             override suspend fun lookup(dictionary: DictionaryId, text: String): DictionaryLookup {
                 looked += dictionary to text
+                if (text == "猫") return DictionaryLookup(listOf(DictionaryEntry("猫", "noun", null, listOf(DictionarySense(listOf("cat"))), reading = "ねこ")), emptyList())
                 return if (text.lowercase() == "gato") DictionaryLookup(listOf(DictionaryEntry("gato", "noun", null, listOf(DictionarySense(listOf("cat", "tomcat"))))), emptyList())
                 else DictionaryLookup.EMPTY
             }
@@ -123,7 +129,7 @@ class BrowserBridgeTest {
             override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float) = "$languageCode:$text".encodeToByteArray()
         }
         val speech = SentenceAudio(LocalSpeech(listOf(piper)), settings, MemorySpeechAudioCache())
-        val api = BrowserBridgeApi(settings, languages, reading, termService, dictionary, translator, "9.9.9", frequency, speech)
+        val api = BrowserBridgeApi(settings, languages, reading, termService, dictionary, translator, "9.9.9", frequency, speech, WordReadings(dictionary, settings))
         val videoRepository = VideoRepositoryImpl(provider)
         val books = BookRepositoryImpl(provider)
         val opens = VideoOpenRequests()
@@ -161,6 +167,23 @@ class BrowserBridgeTest {
     fun wordsComeWithTheirFrequencyRankThroughAnyOfTheirForms() = runBlocking<Unit> {
         val answer = Env().api.transcript(TranscriptRequest("abc", "pt", automatic = false, original = json3(1000L to "O gato dorme.", 3000L to "Bom dia.")))
         assertEquals(mapOf("o" to 1, "dorme" to 2, "gato" to 3), answer.ranks)
+    }
+
+    @Test
+    fun japaneseWordsComeWithTheirReadingsAboveAndInRomaji() = runBlocking<Unit> {
+        val env = Env()
+        val japanese = env.languages.save(LanguageDefinitions.all.first { it.name == "Japanese" }.language)
+        env.settings.update { it.copy(currentLanguageId = japanese) }
+        Lexicons.set("ja", Lexicon(listOf("猫", "が", "いる")))
+        val segments = try {
+            env.api.transcript(TranscriptRequest("abc", "ja", automatic = false, original = json3(1000L to "猫がいる。"))).lines.single().segments
+        } finally {
+            Lexicons.set("ja", null)
+        }
+        val neko = segments.single { it.term == "猫" }
+        assertEquals(listOf(BridgeRuby("猫", "ねこ")) to "neko", neko.ruby to neko.romaji)
+        val kana = segments.filter { it.term != null && it.term != "猫" }
+        assertTrue(kana.isNotEmpty() && kana.all { it.ruby == null && it.romaji != null }, segments.toString())
     }
 
     @Test
