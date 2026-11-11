@@ -5,6 +5,7 @@ import { currentStatus } from './lines';
 import { FONT_SCALES, POSITION_RANGE, hidden, type ExtensionSettings, type HideMode } from './settings';
 import { clock } from './side-panel';
 import { STATUS_BUTTONS, statusClass } from './statuses';
+import { fillWord } from './ruby';
 import { listenToWords, type WordGestures } from './word-gestures';
 import { SPEAK_ICON } from './word-popup';
 
@@ -42,6 +43,7 @@ const STYLE = `
   .word.s3 { background: #605438; }
   .word.s4 { background: #524b3a; }
   .word.open { outline: 2px solid #8fc3ec; }
+  rt { font-size: 0.5em; color: #cfd8e3; font-weight: 400; }
   .notice { position: absolute; top: 12px; left: 12px; padding: 6px 10px; border-radius: 6px; background: #163e5c; color: #eff1f2; font-size: 13px; }
   .notice:empty { display: none; }
   .panel { pointer-events: auto; position: absolute; z-index: 2; right: 12px; top: 12px; bottom: 60px; width: min(340px, 70%); overflow: auto; padding: 4px 16px 16px;
@@ -319,7 +321,7 @@ export class Overlay {
             span.dataset.term = segment.term;
             span.dataset.lc = segment.lc;
             span.dataset.status = String(segment.status ?? 0);
-            span.textContent = segment.text;
+            fillWord(span, segment, this.settings?.readings ?? 'readings');
             this.line.append(span);
           } else {
             this.line.append(segment.text);
@@ -436,6 +438,9 @@ export class Overlay {
     range.addEventListener('change', () => this.events.onSettings({ backgroundOpacity: Number(range.value) }));
     opacity.append(range);
     panel.append(opacity);
+    select('Above Japanese and Chinese words', settings.readings, [['readings', 'Their readings: furigana, pinyin'], ['romaji', 'Romaji (Japanese)'], ['off', 'Nothing']], (v) => this.events.onSettings({ readings: v as ExtensionSettings['readings'] }));
+    toggle('Fade YouTube’s controls while the pointer is away', settings.fadeControls, (v) => this.events.onSettings({ fadeControls: v }));
+    toggle('Open videos in theatre mode', settings.theatre, (v) => this.events.onSettings({ theatre: v }));
     toggle('Buttons beside the subtitles', settings.showControls, (v) => this.events.onSettings({ showControls: v }));
     toggle('Panel of subtitles and words beside the video', settings.sidePanel, (v) => this.events.onSettings({ sidePanel: v }));
 

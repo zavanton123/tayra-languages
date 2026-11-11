@@ -19,6 +19,10 @@ export interface BridgeSegment {
   /** What its status is kept under. */
   lc?: string | null;
   status?: number | null;
+  /** Japanese and Chinese words in pieces, each with its reading above (empty for kana). */
+  ruby?: { text: string; reading: string }[] | null;
+  /** Japanese words in romaji. */
+  romaji?: string | null;
 }
 
 export interface BridgeLine {

@@ -163,6 +163,10 @@ export default defineContentScript({
       },
       onCopy: (text) => void navigator.clipboard.writeText(text).then(() => overlay.say('Line copied', 1500), () => undefined),
     });
+    const fade = document.createElement('style');
+    fade.textContent = '#movie_player:not(:hover) .ytp-chrome-bottom, #movie_player:not(:hover) .ytp-gradient-bottom { opacity: 0 !important; transition: opacity 0.25s; }';
+    /** The video put in theatre mode once; switched back by hand, it stays so. */
+    let theatreFor: string | null = null;
     const hideOwn = document.createElement('style');
     hideOwn.textContent = '.ytp-caption-window-container { display: none !important; }';
 
@@ -639,6 +643,17 @@ export default defineContentScript({
       if (settings.enabled && lines.length && video?.videoId === here && playing && !advert && overlay.mount()) {
         overlay.setVisible(true);
         if (!hideOwn.isConnected) document.head.appendChild(hideOwn);
+        if (settings.fadeControls !== fade.isConnected) {
+          if (settings.fadeControls) document.head.appendChild(fade);
+          else fade.remove();
+        }
+        if (settings.theatre && video && theatreFor !== video.videoId && !document.fullscreenElement) {
+          const page = document.querySelector('ytd-watch-flexy');
+          if (page) {
+            theatreFor = video.videoId;
+            if (!page.hasAttribute('theater')) document.querySelector<HTMLElement>('#movie_player .ytp-size-button')?.click();
+          }
+        }
         const wasPlaying = !playing.paused;
         player.tick();
         if (wasPlaying && playing.paused && !peek) autoPaused = true;
@@ -668,6 +683,7 @@ export default defineContentScript({
       } else {
         overlay.hide();
         hideOwn.remove();
+        fade.remove();
       }
       if (ctx.isValid) requestAnimationFrame(tick);
     }

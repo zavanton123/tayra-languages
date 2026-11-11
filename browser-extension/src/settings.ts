@@ -1,3 +1,4 @@
+import type { ReadingMode } from './ruby';
 import { DEFAULT_DICTIONARIES, validDictionaries, type DictionaryLink } from './dictionaries';
 import { WORD_GROUPS, type WordGroup, type WordOrder } from './words';
 
@@ -48,6 +49,12 @@ export interface ExtensionSettings {
   lastDictionary: string | null;
   /** Videos watched for a while go into Tayra's Videos. */
   addToLibrary: boolean;
+  /** What shows above Japanese and Chinese words. */
+  readings: ReadingMode;
+  /** YouTube's controls fade while the pointer is off the player, leaving the subtitles clear. */
+  fadeControls: boolean;
+  /** A video opens in YouTube's theatre mode. */
+  theatre: boolean;
 }
 
 export const DEFAULT_SETTINGS: ExtensionSettings = {
@@ -75,6 +82,9 @@ export const DEFAULT_SETTINGS: ExtensionSettings = {
   dictionaries: DEFAULT_DICTIONARIES,
   lastDictionary: null,
   addToLibrary: true,
+  readings: 'readings',
+  fadeControls: false,
+  theatre: false,
 };
 
 export const FONT_SCALES = [0.7, 0.85, 1, 1.15, 1.35];
@@ -96,6 +106,7 @@ export function normalize(saved: unknown): ExtensionSettings {
     wordsShown: Array.isArray(s.wordsShown) ? WORD_GROUPS.filter((g) => s.wordsShown.includes(g)) : DEFAULT_SETTINGS.wordsShown,
     dictionaries: validDictionaries(s.dictionaries),
     lastDictionary: typeof s.lastDictionary === 'string' ? s.lastDictionary : null,
+    readings: (['readings', 'romaji', 'off'] as const).includes(s.readings) ? s.readings : 'readings',
   };
 }
 

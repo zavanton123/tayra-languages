@@ -4,6 +4,7 @@ import { lineIndexAt } from './line-player';
 import type { SavedWord } from './saved';
 import type { ExtensionSettings, PanelTab } from './settings';
 import { statusClass } from './statuses';
+import { fillWord } from './ruby';
 import { listenToWords, type WordGestures } from './word-gestures';
 import { SPEAK_ICON } from './word-popup';
 import { WORD_GROUPS, groupCounts, groupOf, knownShare, ordered, suggested, videoWords, type VideoWord, type WordGroup } from './words';
@@ -55,6 +56,7 @@ const STYLE = `
   .word.s3 { background: #605438; }
   .word.s4 { background: #524b3a; }
   .word.open { outline: 2px solid #8fc3ec; }
+  rt { font-size: 0.55em; color: #a3acb5; }
   .section { padding: 10px 12px 4px; color: #a3acb5; font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
   .share { padding: 10px 12px 4px; }
   .share .bar { height: 6px; margin-top: 6px; border-radius: 3px; background: #34476b; overflow: hidden; }
@@ -275,7 +277,7 @@ export class SidePanel {
       tab.classList.toggle('on', tab.dataset.tab === settings.panelTab);
       if (tab.dataset.tab === 'saved') tab.textContent = this.saved.length ? `Saved ${this.saved.length}` : 'Saved';
     });
-    const key = `${settings.panelTab}|${settings.panelTranslations}|${settings.wordsOrder}|${settings.wordsShown.join()}`;
+    const key = `${settings.panelTab}|${settings.panelTranslations}|${settings.wordsOrder}|${settings.wordsShown.join()}|${settings.readings}`;
     if (key === this.rendered && !keepScroll) return;
     const scroll = this.body.scrollTop;
     const sameTab = this.rendered.split('|')[0] === settings.panelTab;
@@ -405,6 +407,7 @@ export class SidePanel {
       if (segment.term && segment.lc) {
         const span = wordSpan(segment.text, segment.term, segment.lc, currentStatus(segment, this.changed));
         span.dataset.status = String(segment.status ?? 0);
+        fillWord(span, segment, this.settings?.readings ?? 'readings');
         into.append(span);
       } else {
         into.append(segment.text);
