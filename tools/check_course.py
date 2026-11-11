@@ -628,7 +628,7 @@ def russian_name_forms(names):
 def armenian_name_forms(names):
     """
     The case forms of Armenian names, from their regular declension, with the article: Արամ, Արամը, Արամն, Արամի, Արամին,
-    Արամից, Արամով, Արամում, Արամենց; Աննա, Աննան, Աննայի, Աննային, Աննայից, Աննայով; Անի, Անին, Անիի, Անիից; Երևանում.
+    Արամից, Արամով, Արամում, Արամենց, Արամենցից; Աննա, Աննան, Աննայի, Աննային, Աննայից, Աննայով; Անի, Անին, Անիի, Անիից; Երևանում.
     A name of several words gives the forms of each part.
     """
     forms = set()
@@ -643,6 +643,8 @@ def armenian_name_forms(names):
                 forms.update(part + e for e in ("ն", "ի", "ին", "ից", "ով", "ում", "ենց"))
             else:
                 forms.update(part + e for e in ("ը", "ն", "ի", "ին", "ից", "ով", "ում", "ենց"))
+            # And the family's, which takes the case endings itself: Արամենցից, Նինոյենցի.
+            forms.update(f + e for f in list(forms) if f.endswith("ենց") for e in ("ի", "ից"))
     return forms
 
 
