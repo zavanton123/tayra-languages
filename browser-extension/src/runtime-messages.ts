@@ -8,7 +8,8 @@ export type RuntimeRequest =
   | { type: 'transcript'; request: TranscriptRequest }
   | { type: 'lookup'; term: string }
   | { type: 'save'; request: SaveTermRequest }
-  | { type: 'changes'; since: number };
+  | { type: 'changes'; since: number }
+  | { type: 'speech'; text: string };
 
 export interface RuntimeAnswers {
   status: BridgeResult<BridgeStatus>;
@@ -18,6 +19,8 @@ export interface RuntimeAnswers {
   lookup: BridgeResult<LookupResponse>;
   save: BridgeResult<SaveTermResponse>;
   changes: BridgeResult<ChangesResponse>;
+  /** Tayra's voice saying it, as base64 WAV; null when the browser's voice should. */
+  speech: BridgeResult<{ audio: string | null }>;
 }
 
 export function ask<R extends RuntimeRequest>(request: R): Promise<RuntimeAnswers[R['type']]> {

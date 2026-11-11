@@ -25,6 +25,7 @@ function app(port: number | null, calls: string[] = []) {
     }
     const auth = (init?.headers as Record<string, string>).Authorization;
     if (auth !== 'Bearer t') return json(401, { error: 'unpaired' });
+    if (url.pathname === '/v1/speech') return url.searchParams.get('text') === 'oi' ? new Response(new Uint8Array([1, 2, 3]), { status: 200 }) : new Response(null, { status: 204 });
     return json(200, { language: null, native: 'en', version: null });
   }) as typeof fetch;
 }
@@ -83,5 +84,12 @@ describe('BridgeClient', () => {
     expect((await client.call('GET', '/v1/status')).ok).toBe(true);
     port = PORTS[1]!;
     expect((await client.call('GET', '/v1/status')).ok).toBe(true);
+  });
+
+  it('gets audio as bytes, and nothing when the app leaves it to the browser', async () => {
+    const client = new BridgeClient(new MemoryTokens('t'), app(PORTS[0]!));
+    const audio = await client.bytes('/v1/speech?text=oi');
+    expect(audio.ok && new Uint8Array(audio.data!)).toEqual(new Uint8Array([1, 2, 3]));
+    expect(await client.bytes('/v1/speech?text=tchau')).toEqual({ ok: true, data: null });
   });
 });

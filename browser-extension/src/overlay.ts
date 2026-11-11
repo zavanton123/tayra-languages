@@ -1,8 +1,12 @@
 import type { BridgeLine, LookupResponse } from './bridge-types';
+import { DEFAULT_DICTIONARIES, dictionaryProblem } from './dictionaries';
 import type { CaptionTrack } from './messages';
 import { currentStatus } from './lines';
 import { FONT_SCALES, POSITION_RANGE, hidden, type ExtensionSettings, type HideMode } from './settings';
+import { clock } from './side-panel';
 import { STATUS_BUTTONS, statusClass } from './statuses';
+import { listenToWords, type WordGestures } from './word-gestures';
+import { SPEAK_ICON } from './word-popup';
 
 const STYLE = `
   :host { position: absolute; inset: 0; z-index: 60; pointer-events: none; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; --scale: 1; --position: 11%; --background: rgba(8, 8, 8, 0.7); --background-hover: rgba(8, 8, 8, 0.85); }
@@ -69,6 +73,30 @@ const STYLE = `
   .card .entry .pos { margin-left: 6px; color: #a3acb5; font-style: italic; font-weight: 400; }
   .card .entry ol { margin: 4px 0 0; padding-left: 20px; }
   .card .muted { color: #a3acb5; }
+  .card .rank { color: #8a949e; font-size: 13px; font-variant-numeric: tabular-nums; }
+  .card .say { width: 28px; height: 28px; padding: 0; border: 0; border-radius: 6px; background: none; color: #a3acb5; cursor: pointer; align-self: center; }
+  .card .say:hover { background: #2d3238; color: #e6e9ec; }
+  .card .say svg { width: 18px; height: 18px; fill: currentColor; }
+  .card h3 { margin: 4px 0 0; color: #a3acb5; font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+  .card .example { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px; padding: 4px 6px; border-radius: 6px; cursor: pointer; }
+  .card .example:hover { background: #262c32; }
+  .card .example .at { color: #8a949e; font: 12px ui-monospace, Menlo, monospace; padding-top: 2px; }
+  .card .example b { color: #8fc3ec; font-weight: 600; }
+  .card .links { display: flex; flex-wrap: wrap; gap: 6px; }
+  .card .links a { padding: 3px 9px; border: 1px solid #3a4148; border-radius: 999px; color: #e6e9ec; font-size: 12px; text-decoration: none; }
+  .card .links a:hover { border-color: #8fc3ec; }
+  .card .links a.last { border-color: #8fc3ec; }
+  .panel .dictionary { display: flex; align-items: center; gap: 8px; padding: 3px 0; }
+  .panel .dictionary span { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .panel .dictionary small { color: #8a949e; }
+  .panel .dictionary button, .panel .add button { border: 1px solid #3a4148; border-radius: 6px; background: #23282d; color: #e6e9ec; font: inherit; cursor: pointer; }
+  .panel .dictionary button { border: 0; background: none; color: #a3acb5; font-size: 16px; }
+  .panel .add { display: grid; gap: 6px; margin-top: 6px; }
+  .panel .add input { padding: 5px 7px; border: 1px solid #3a4148; border-radius: 6px; background: #23282d; color: #e6e9ec; font: inherit; }
+  .panel .add button, .panel .reset { justify-self: start; padding: 4px 10px; }
+  .panel .reset { margin-top: 6px; border: 1px solid #3a4148; border-radius: 6px; background: #23282d; color: #e6e9ec; font: inherit; cursor: pointer; }
+  .panel .note { color: #8a949e; font-size: 12px; }
+  .panel .problem { color: #ffb4ab; font-size: 12px; }
   .card .error { color: #ffb4ab; }
 `;
 
@@ -84,10 +112,24 @@ const ICONS = {
   move: '<svg viewBox="0 0 24 24"><path d="M12 2 8 6h3v5H6V8l-4 4 4 4v-3h5v5H8l4 4 4-4h-3v-5h5v3l4-4-4-4v3h-5V6h3z"/></svg>',
 };
 
-export interface OverlayEvents {
-  /** A word of [line] was clicked. */
-  onWord(term: string, lc: string, line: BridgeLine, element: HTMLElement): void;
+/** What the word card shows besides the dictionary. */
+export interface CardExtras {
+  rank: number | null;
+  /** Other lines of the video that say the word: their index, time and line. */
+  examples: { index: number; line: BridgeLine }[];
+  /** The card's dictionaries, with the word filled in. */
+  links: { name: string; url: string }[];
+  lastDictionary: string | null;
+}
+
+export interface OverlayEvents extends WordGestures {
   onStatus(status: number): void;
+  /** Say the open card's word. */
+  onSpeak(): void;
+  /** Go to line [index] and play it. */
+  onExample(index: number): void;
+  /** A dictionary of the card was opened. */
+  onDictionaryUsed(name: string): void;
   onCloseCard(): void;
   onAction(action: 'previous' | 'replay' | 'next' | 'autopause'): void;
   onSettings(change: Partial<ExtensionSettings>): void;
@@ -171,11 +213,16 @@ export class Overlay {
     for (const type of ['click', 'mousedown', 'mouseup', 'dblclick', 'pointerdown', 'pointerup', 'contextmenu', 'wheel']) {
       root.addEventListener(type, (event) => event.stopPropagation());
     }
-    this.line.addEventListener('click', (event) => {
-      const word = (event.target as HTMLElement).closest<HTMLElement>('.word');
-      if (this.line.classList.contains('hidden')) return;
-      if (word?.dataset.term && word.dataset.lc && this.shown) this.events.onWord(word.dataset.term, word.dataset.lc, this.shown, word);
-    });
+    // Typing in the settings must not reach YouTube's keys.
+    for (const type of ['keydown', 'keyup', 'keypress']) {
+      root.addEventListener(type, (event) => {
+        if ((event.target as HTMLElement).matches?.('input, select, textarea')) event.stopPropagation();
+      });
+    }
+    listenToWords(this.line, (element) => {
+      if (this.line.classList.contains('hidden') || !this.shown || !element.dataset.term || !element.dataset.lc) return null;
+      return { term: element.dataset.term, lc: element.dataset.lc, line: this.shown, element };
+    }, this.events);
     const text = root.querySelector<HTMLElement>('.text')!;
     text.addEventListener('mouseenter', () => this.events.onHover(true));
     text.addEventListener('mouseleave', () => this.events.onHover(false));
@@ -190,7 +237,12 @@ export class Overlay {
     this.card.addEventListener('click', (event) => {
       const target = event.target as HTMLElement;
       const status = target.closest<HTMLElement>('[data-status]')?.dataset.status;
+      const example = target.closest<HTMLElement>('[data-example]')?.dataset.example;
+      const link = target.closest<HTMLElement>('a[data-dictionary]')?.dataset.dictionary;
       if (status !== undefined) this.events.onStatus(Number(status));
+      else if (example !== undefined) this.events.onExample(Number(example));
+      else if (link) this.events.onDictionaryUsed(link);
+      else if (target.closest('.say')) this.events.onSpeak();
       else if (target.closest('.close')) this.events.onCloseCard();
     });
     player.appendChild(host);
@@ -263,6 +315,7 @@ export class Overlay {
             span.className = `word ${statusClass(currentStatus(segment, changed))}`;
             span.dataset.term = segment.term;
             span.dataset.lc = segment.lc;
+            span.dataset.status = String(segment.status ?? 0);
             span.textContent = segment.text;
             this.line.append(span);
           } else {
@@ -383,6 +436,11 @@ export class Overlay {
     toggle('Buttons beside the subtitles', settings.showControls, (v) => this.events.onSettings({ showControls: v }));
     toggle('Panel of subtitles and words beside the video', settings.sidePanel, (v) => this.events.onSettings({ sidePanel: v }));
 
+    section('Words');
+    toggle('Show a word’s meaning when the pointer rests on it', settings.hoverLookup, (v) => this.events.onSettings({ hoverLookup: v }));
+    toggle('Say a word when it is clicked', settings.speakOnClick, (v) => this.events.onSettings({ speakOnClick: v }));
+    this.renderDictionaries(panel, settings);
+
     section('Keys');
     const keys = document.createElement('div');
     keys.className = 'keys';
@@ -395,6 +453,9 @@ export class Overlay {
       ['E', 'Reveal what is hidden'],
       ['⌘/Ctrl C', 'Copy the line'],
       ['Esc', 'Close the word card'],
+      ['Right-click', 'A word’s next status'],
+      ['⇧ Right-click', 'Ignore a word'],
+      ['⇧ Click', 'Look a word up in the dictionary used last'],
     ];
     for (const [key, what] of rows) {
       const k = document.createElement('kbd');
@@ -404,6 +465,57 @@ export class Overlay {
       keys.append(k, w);
     }
     panel.append(keys);
+  }
+
+  /** The card's websites: each can be taken off, others added with {word} where the word goes. */
+  private renderDictionaries(panel: HTMLElement, settings: ExtensionSettings) {
+    const title = document.createElement('div');
+    title.className = 'note';
+    title.textContent = 'Dictionaries on the word card';
+    panel.append(title);
+    for (const link of settings.dictionaries) {
+      const row = document.createElement('div');
+      row.className = 'dictionary';
+      const name = document.createElement('span');
+      name.textContent = link.name;
+      name.title = link.url;
+      const remove = document.createElement('button');
+      remove.title = `Take ${link.name} off the card`;
+      remove.textContent = '×';
+      remove.addEventListener('click', () => this.events.onSettings({ dictionaries: settings.dictionaries.filter((d) => d !== link) }));
+      row.append(name, remove);
+      panel.append(row);
+    }
+    const add = document.createElement('form');
+    add.className = 'add';
+    const name = document.createElement('input');
+    name.placeholder = 'Name';
+    const url = document.createElement('input');
+    url.placeholder = 'https://…{word}…';
+    const problem = document.createElement('div');
+    problem.className = 'problem';
+    const button = document.createElement('button');
+    button.textContent = 'Add';
+    const note = document.createElement('div');
+    note.className = 'note';
+    note.textContent = '{word} is the word; {from} and {to} are language codes, such as pt and en; {language} is the language’s English name.';
+    add.append(name, url, problem, button, note);
+    add.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const link = { name: name.value.trim(), url: url.value.trim() };
+      const wrong = dictionaryProblem(link, settings.dictionaries);
+      if (wrong) problem.textContent = wrong;
+      else this.events.onSettings({ dictionaries: [...settings.dictionaries, link] });
+    });
+    panel.append(add);
+    const usual = JSON.stringify(settings.dictionaries) === JSON.stringify(DEFAULT_DICTIONARIES);
+    if (!usual) {
+      const reset = document.createElement('button');
+      reset.className = 'reset';
+      reset.textContent = 'Bring back the usual dictionaries';
+      reset.addEventListener('click', () => this.events.onSettings({ dictionaries: DEFAULT_DICTIONARIES }));
+      panel.append(reset);
+    }
   }
 
   cardOpen(): boolean {
@@ -432,7 +544,7 @@ export class Overlay {
     this.placeCard();
   }
 
-  showCard(word: LookupResponse) {
+  showCard(word: LookupResponse, extras: CardExtras) {
     this.card.hidden = false;
     const statuses = document.createElement('div');
     statuses.className = 'statuses';
@@ -471,7 +583,41 @@ export class Overlay {
       body.append(block);
     }
     if (!word.entries.length && !word.translation) body.append(paragraph('No dictionary entry. Install a dictionary in Tayra’s Downloads.', 'muted'));
-    this.card.replaceChildren(header(word.term, word.entries[0]?.ipa ?? null), statuses, body);
+    if (extras.examples.length) {
+      body.append(heading('Also in this video'));
+      for (const { index, line } of extras.examples) body.append(exampleRow(index, line, word.lc));
+    }
+    if (extras.links.length) {
+      body.append(heading('Look it up'));
+      const links = document.createElement('div');
+      links.className = 'links';
+      for (const link of extras.links) {
+        const a = document.createElement('a');
+        a.href = link.url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.dataset.dictionary = link.name;
+        a.textContent = link.name;
+        if (link.name === extras.lastDictionary) {
+          a.className = 'last';
+          a.title = 'Shift+click a word to open this one';
+        }
+        links.append(a);
+      }
+      body.append(links);
+    }
+    const top = header(word.term, word.entries[0]?.ipa ?? null);
+    const say = document.createElement('button');
+    say.className = 'say';
+    say.title = 'Say it';
+    say.innerHTML = SPEAK_ICON;
+    top.insertBefore(say, top.querySelector('.close'));
+    if (extras.rank) {
+      const rank = paragraph(`#${extras.rank}`, 'rank');
+      rank.title = 'Its place among the language’s most common words';
+      top.insertBefore(rank, say);
+    }
+    this.card.replaceChildren(top, statuses, body);
     this.placeCard();
   }
 
@@ -500,6 +646,35 @@ function header(term: string, reading: string | null): HTMLElement {
   close.textContent = '×';
   element.append(close);
   return element;
+}
+
+function heading(text: string): HTMLElement {
+  const element = document.createElement('h3');
+  element.textContent = text;
+  return element;
+}
+
+/** Line [index] of the video, with the word [lc] marked, to play from the card. */
+function exampleRow(index: number, line: BridgeLine, lc: string): HTMLElement {
+  const row = document.createElement('div');
+  row.className = 'example';
+  row.dataset.example = String(index);
+  row.title = 'Play this line';
+  const at = document.createElement('span');
+  at.className = 'at';
+  at.textContent = clock(line.beginMs);
+  const text = document.createElement('span');
+  for (const segment of line.segments) {
+    if (segment.lc === lc) {
+      const b = document.createElement('b');
+      b.textContent = segment.text;
+      text.append(b);
+    } else {
+      text.append(segment.text);
+    }
+  }
+  row.append(at, text);
+  return row;
 }
 
 function paragraph(text: string, className: string): HTMLElement {

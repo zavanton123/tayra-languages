@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { BridgeLine } from './bridge-types';
-import { groupCounts, knownShare, ordered, suggested, videoWords } from './words';
+import { groupCounts, knownShare, linesWith, ordered, suggested, videoWords } from './words';
 
 const line = (...words: [string, number][]): BridgeLine => ({
   beginMs: 0,
@@ -45,5 +45,12 @@ describe('order and groups', () => {
     expect(groupCounts(words)).toEqual({ new: 2, learning: 1, known: 1, ignored: 1 });
     // o twice and e once of the seven words said.
     expect(knownShare(words)).toBeCloseTo(3 / 7);
+  });
+});
+
+describe('linesWith', () => {
+  it('finds the other lines that say the word', () => {
+    expect(linesWith(lines, 'gato', 0, 5)).toEqual([2]);
+    expect(linesWith(lines, 'o', -1, 1)).toEqual([0]);
   });
 });

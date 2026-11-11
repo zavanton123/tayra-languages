@@ -11,6 +11,11 @@ describe('normalize', () => {
     const s = normalize({ wordsShown: ['known', 'bogus', 'new'], panelTab: 'nope', wordsOrder: 'count' });
     expect([s.wordsShown, s.panelTab, s.wordsOrder]).toEqual([['new', 'known'], 'subtitles', 'count']);
   });
+  it('keeps the dictionaries chosen, even none, and the one used last', () => {
+    const s = normalize({ dictionaries: [{ name: 'Mine', url: 'https://a.example/{word}' }], lastDictionary: 'Mine' });
+    expect([s.dictionaries.map((d) => d.name), s.lastDictionary]).toEqual([['Mine'], 'Mine']);
+    expect(normalize({ dictionaries: [] }).dictionaries).toEqual([]);
+  });
 });
 
 describe('hidden', () => {

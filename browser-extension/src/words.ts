@@ -89,3 +89,12 @@ export function knownShare(words: VideoWord[]): number {
   }
   return all ? known / all : 0;
 }
+
+/** Up to [limit] lines that say the word [lc], besides line [besides], in the video's order. */
+export function linesWith(lines: BridgeLine[], lc: string, besides: number, limit: number): number[] {
+  const found: number[] = [];
+  for (let index = 0; index < lines.length && found.length < limit; index++) {
+    if (index !== besides && lines[index]!.segments.some((segment) => segment.lc === lc)) found.push(index);
+  }
+  return found;
+}

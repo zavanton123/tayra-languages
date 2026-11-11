@@ -1,4 +1,5 @@
-import type { BridgeLine, BridgeStatus } from '../src/bridge-types';
+import type { BridgeLine, BridgeStatus, LookupResponse } from '../src/bridge-types';
+import { dictionaryNamed, dictionaryUrl, type DictionaryLink } from '../src/dictionaries';
 import { cueAt, parseJson3, type Cue } from '../src/json3';
 import { localLines } from '../src/lines';
 import { LinePlayer, PAUSE_EARLY_MS } from '../src/line-player';
@@ -8,14 +9,25 @@ import { ask } from '../src/runtime-messages';
 import { loadSaved, storeSaved, withSaved, type SavedWord } from '../src/saved';
 import { DEFAULT_SETTINGS, loadSettings, normalize, saveSettings, type ExtensionSettings } from '../src/settings';
 import { SidePanel } from '../src/side-panel';
-import { KNOWN } from '../src/statuses';
+import { Speaker } from '../src/speaker';
+import { KNOWN, nextStatus, statusName } from '../src/statuses';
 import { pickTrack, translationFor } from '../src/tracks';
-import type { VideoWord } from '../src/words';
+import type { WordGestures, WordTarget } from '../src/word-gestures';
+import { WordPopup } from '../src/word-popup';
+import { linesWith, type VideoWord } from '../src/words';
 
 /** How often the subtitles ask the app for words whose status changed elsewhere. */
 const CHANGES_EVERY_MS = 4000;
 
 const RETRY_AFTER_MS = 3000;
+
+/** How long the pointer rests on a word before its meaning shows, and how long it may be away before it goes. */
+const HOVER_DELAY_MS = 350;
+const HOVER_AGAIN_MS = 120;
+const HOVER_HIDE_MS = 250;
+
+/** How many other lines with the word its card shows. */
+const CARD_EXAMPLES = 5;
 
 /** Settings whose change needs the subtitles fetched again. */
 const RELOADING: (keyof ExtensionSettings)[] = ['translationLanguage', 'machineTranslation', 'humanTranslation', 'enabled'];
@@ -44,7 +56,13 @@ export default defineContentScript({
     let ranks: Record<string, number> = {};
     let saved: SavedWord[] = [];
     let marking = false;
-    let open: { lc: string; term: string; line: BridgeLine; resume: boolean; element: HTMLElement } | null = null;
+    let learning: { code: string; name: string } | null = null;
+    const lookups = new Map<string, Promise<LookupResponse | null>>();
+    let open: (WordTarget & { resume: boolean }) | null = null;
+    let hovered: WordTarget | null = null;
+    let insidePopup = false;
+    let hoverTimer: ReturnType<typeof setTimeout> | undefined;
+    let hideTimer: ReturnType<typeof setTimeout> | undefined;
     let revealed = 0;
     let revealedFor = -1;
     let hovering = false;
@@ -56,9 +74,51 @@ export default defineContentScript({
     const media = () => document.querySelector<HTMLVideoElement>('#movie_player video');
     const player = new LinePlayer<BridgeLine>(media);
 
+    const speaker = new Speaker(async (text) => {
+      const answer = await ask({ type: 'speech', text });
+      return answer.ok ? answer.data : null;
+    });
+    const speak = (text: string) => void speaker.say(text, learning?.code ?? null);
+
+    const gestures: WordGestures = {
+      onWord: (word) => {
+        hideHover();
+        if (settings.speakOnClick) speak(word.term);
+        void lookUp(word);
+      },
+      onDictionary: (word) => {
+        hideHover();
+        openDictionary(word.term);
+      },
+      onCycle: (word, ignore) => void cycle(word, ignore),
+      onWordHover: (word) => wordHover(word),
+    };
+
+    const popup = new WordPopup({
+      onStatus: (status) => {
+        const word = hovered;
+        hideHover();
+        if (word) void saveStatus(word, status).then((ok) => overlay.say(ok ? `${plain(word.term)}: ${statusName(status)}` : 'Tayra could not save the word.', 1500));
+      },
+      onSpeak: () => hovered && speak(hovered.term),
+      onInside: (inside) => {
+        insidePopup = inside;
+        if (inside) clearTimeout(hideTimer);
+        else hideHoverSoon();
+      },
+    });
+
     const overlay = new Overlay({
-      onWord: (term, lc, line, element) => void lookUp(term, lc, line, element),
+      ...gestures,
       onStatus: (status) => void setStatus(status),
+      onSpeak: () => open && speak(open.term),
+      onExample: (index) => {
+        closeCard(false);
+        player.jump(index, true);
+      },
+      onDictionaryUsed: (name) => {
+        if (settings.lastDictionary !== name) void change({ lastDictionary: name });
+      },
       onCloseCard: () => closeCard(),
       onAction: (action) => {
         if (action === 'autopause') void change({ autoPause: !settings.autoPause });
@@ -72,7 +132,8 @@ export default defineContentScript({
       onHover: (inside) => hover(inside),
     });
     const side = new SidePanel({
-      onWord: (term, lc, line, element) => void lookUp(term, lc, line, element),
+      ...gestures,
+      onSpeak: (text) => speak(text),
       onSeek: (index) => {
         if (open) closeCard();
         player.jump(index, true);
@@ -130,13 +191,16 @@ export default defineContentScript({
       ranks = {};
       saved = [];
       changed.clear();
+      lookups.clear();
       version++;
+      hideHover();
       closeCard();
       side.setVideo([], {}, false, []);
       if (!settings.enabled) return;
       const status = await ask({ type: 'status' }).catch(() => null);
       const app: BridgeStatus | null = status?.ok ? status.data : null;
       native = app?.native ?? navigator.language.split('-')[0] ?? 'en';
+      learning = app?.language?.code ? { code: app.language.code, name: app.language.name } : null;
       const chosen = details.tracks.find((t) => trackKey(t) === chosenTrack) ?? pickTrack(details.tracks, app?.language?.code ?? null);
       overlay.mount();
       overlay.setChoices({ tracks: details.tracks, track: chosen ? trackKey(chosen) : null, translationLanguages: details.translationLanguages, native });
@@ -188,37 +252,122 @@ export default defineContentScript({
       }
     }
 
-    async function lookUp(term: string, lc: string, line: BridgeLine, element: HTMLElement) {
+    async function lookUp(word: WordTarget) {
       const playing = media();
       const resume = open ? open.resume : heldByHover || (!!playing && !playing.paused);
       playing?.pause();
+      hideHover();
       closeCard(false);
-      element.classList.add('open');
-      open = { lc, term, line, resume, element };
+      word.element.classList.add('open');
+      open = { ...word, resume };
+      const { term, lc, line } = word;
       overlay.showCardLoading(term);
       const answer = await ask({ type: 'lookup', term }).catch(() => null);
       if (open?.term !== term) return;
-      if (answer?.ok) overlay.showCard(answer.data);
-      else overlay.showCardError(term, answer?.error === 'offline' ? 'The Tayra app is not open.' : 'Tayra could not look the word up.');
+      if (!answer?.ok) {
+        overlay.showCardError(term, answer?.error === 'offline' ? 'The Tayra app is not open.' : 'Tayra could not look the word up.');
+        return;
+      }
+      lookups.set(lc, Promise.resolve(answer.data));
+      overlay.showCard(answer.data, {
+        rank: ranks[lc] ?? null,
+        examples: linesWith(lines, lc, lines.indexOf(line), CARD_EXAMPLES).map((index) => ({ index, line: lines[index]! })),
+        links: settings.dictionaries.map((link) => ({ name: link.name, url: linkFor(link, answer.data.term) })),
+        lastDictionary: settings.lastDictionary,
+      });
     }
 
     async function setStatus(status: number) {
       const word = open;
       if (!word) return;
+      if (await saveStatus(word, status)) closeCard();
+      else overlay.showCardError(word.term, 'Tayra could not save the word.');
+    }
+
+    /** Saves [word] with [status], with its line as the sentence; false when Tayra could not. */
+    async function saveStatus(word: { term: string; lc: string; line: BridgeLine }, status: number): Promise<boolean> {
       const answer = await ask({ type: 'save', request: { term: word.term, status, sentence: word.line.text } }).catch(() => null);
-      if (!answer?.ok) {
-        overlay.showCardError(word.term, 'Tayra could not save the word.');
-        return;
-      }
+      if (!answer?.ok) return false;
       changed.set(answer.data.lc, answer.data.status);
       if (answer.data.lc !== word.lc) changed.set(word.lc, answer.data.status);
+      lookups.delete(word.lc);
+      lookups.delete(answer.data.lc);
       version++;
       if (status >= 1 && status <= 4 && video) {
         saved = withSaved(saved, { term: word.term, lc: word.lc, line: word.line.text, beginMs: word.line.beginMs, savedAt: Date.now() });
         side.setSaved(saved);
         void storeSaved(video.videoId, saved);
       }
-      closeCard();
+      return true;
+    }
+
+    /** A word's status as it is now. */
+    function statusOf(word: WordTarget): number {
+      return changed.get(word.lc) ?? Number(word.element.dataset.status ?? 0);
+    }
+
+    /** Right-click: the word's next status, or ignored. */
+    async function cycle(word: WordTarget, ignore: boolean) {
+      hideHover();
+      const status = nextStatus(statusOf(word), ignore);
+      const ok = await saveStatus(word, status);
+      overlay.say(ok ? `${plain(word.term)}: ${statusName(status)}` : 'Tayra could not save the word.', 1500);
+    }
+
+    function linkFor(link: DictionaryLink, term: string): string {
+      return dictionaryUrl(link, { word: term, from: learning?.code ?? '', to: settings.translationLanguage ?? native, language: learning?.name ?? '' });
+    }
+
+    /** Shift+click: the word in the dictionary used last. */
+    function openDictionary(term: string) {
+      const link = dictionaryNamed(settings.dictionaries, settings.lastDictionary);
+      if (!link) {
+        overlay.say('Add a dictionary in the ⚙ settings to look words up there.');
+        return;
+      }
+      window.open(linkFor(link, term), '_blank', 'noopener');
+      if (settings.lastDictionary !== link.name) void change({ lastDictionary: link.name });
+    }
+
+    function lookupOf(word: WordTarget): Promise<LookupResponse | null> {
+      let found = lookups.get(word.lc);
+      if (!found) {
+        found = ask({ type: 'lookup', term: word.term }).then((answer) => (answer.ok ? answer.data : null), () => null);
+        lookups.set(word.lc, found);
+        void found.then((answer) => !answer && lookups.delete(word.lc));
+      }
+      return found;
+    }
+
+    function wordHover(word: WordTarget | null) {
+      clearTimeout(hoverTimer);
+      if (!word) return hideHoverSoon();
+      if (!settings.hoverLookup || open) return;
+      clearTimeout(hideTimer);
+      hoverTimer = setTimeout(() => void showHover(word), popup.isShown() ? HOVER_AGAIN_MS : HOVER_DELAY_MS);
+    }
+
+    async function showHover(word: WordTarget) {
+      hovered = word;
+      const base = { term: word.term, status: statusOf(word), rank: ranks[word.lc] ?? null };
+      popup.show(word.element, { ...base, meaning: null });
+      const found = await lookupOf(word);
+      if (hovered !== word) return;
+      const meaning = found ? meaningOf(found) : null;
+      popup.update(word.element, { ...base, meaning: meaning ?? (found ? 'No dictionary entry' : 'Tayra could not look it up.'), muted: !meaning });
+    }
+
+    function hideHoverSoon() {
+      clearTimeout(hideTimer);
+      hideTimer = setTimeout(() => !insidePopup && hideHover(), HOVER_HIDE_MS);
+    }
+
+    function hideHover() {
+      clearTimeout(hoverTimer);
+      clearTimeout(hideTimer);
+      hovered = null;
+      insidePopup = false;
+      popup.hide();
     }
 
     /** Saves [words] as known, one after another, saying how far it got. */
@@ -300,6 +449,7 @@ export default defineContentScript({
 
     function onKeyDown(event: KeyboardEvent) {
       if (!active() || typing(event)) return;
+      if (event.key === 'Escape' && popup.isShown()) return done(event, hideHover);
       if (event.key === 'Escape' && open) return done(event, closeCard);
       const copy = event.code === 'KeyC' && (event.metaKey || event.ctrlKey) && !event.altKey && !event.shiftKey;
       if (copy) {
@@ -354,6 +504,8 @@ export default defineContentScript({
       }
     });
     document.addEventListener('keydown', onKeyDown, true);
+    document.addEventListener('scroll', () => popup.isShown() && hideHover(), { capture: true, passive: true });
+    document.addEventListener('fullscreenchange', () => hideHover());
     document.addEventListener('keyup', onKeyUp, true);
     ctx.setInterval(() => void pollChanges(), CHANGES_EVERY_MS);
     browser.storage.onChanged.addListener((changes, area) => {
@@ -409,3 +561,16 @@ export default defineContentScript({
     requestAnimationFrame(tick);
   },
 });
+
+/** [term] as written, without the zero-width spaces some languages' words are joined with. */
+function plain(term: string): string {
+  return term.replace(/\u200b/g, '');
+}
+
+/** A word's meaning in a few words: Tayra's own translation, else the dictionary's first senses. */
+function meaningOf(word: LookupResponse): string | null {
+  if (word.translation.trim()) return word.translation.trim();
+  const senses = word.entries[0]?.senses ?? [];
+  const text = senses.slice(0, 2).map((glosses) => glosses.slice(0, 3).join(', ')).join('; ');
+  return text || null;
+}

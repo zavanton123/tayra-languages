@@ -1,3 +1,4 @@
+import { toBase64 } from '../src/base64';
 import { BridgeClient } from '../src/bridge-client';
 import type { BridgeResult } from '../src/bridge-types';
 import type { RuntimeRequest } from '../src/runtime-messages';
@@ -50,6 +51,10 @@ export default defineBackground(() => {
         return client.call('POST', '/v1/terms', request.request);
       case 'changes':
         return client.call('GET', `/v1/changes?since=${request.since}`);
+      case 'speech': {
+        const answer = await client.bytes(`/v1/speech?text=${encodeURIComponent(request.text)}`);
+        return answer.ok ? { ok: true, data: { audio: answer.data ? toBase64(answer.data) : null } } : answer;
+      }
     }
   }
 

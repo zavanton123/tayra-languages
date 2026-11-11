@@ -1,5 +1,7 @@
 import type { BridgeResult } from './bridge-types';
 
+const readJson = <T>(response: Response): Promise<T> => response.json().catch(() => null) as Promise<T>;
+
 /** The ports the desktop app listens on, in the order it tries them (DesktopBrowserBridge.DEFAULT_PORTS). */
 export const PORTS = [47831, 47832, 47833, 47834, 47835];
 
@@ -23,17 +25,22 @@ export class BridgeClient {
     private readonly automatic: () => Promise<string | null> = async () => null,
   ) {}
 
-  async call<T>(method: 'GET' | 'POST', path: string, body?: unknown, authorized = true): Promise<BridgeResult<T>> {
-    const first = await this.callOnce<T>(method, path, body, authorized);
+  async call<T>(method: 'GET' | 'POST', path: string, body?: unknown, authorized = true, read: (response: Response) => Promise<T> = readJson): Promise<BridgeResult<T>> {
+    const first = await this.callOnce<T>(method, path, body, authorized, read);
     if (first.ok || first.error !== 'unpaired') return first;
     // No token yet, or one the app no longer knows: the helper may give one.
     const token = await this.automatic().catch(() => null);
     if (!token) return first;
     await this.tokens.set(token);
-    return this.callOnce<T>(method, path, body, authorized);
+    return this.callOnce<T>(method, path, body, authorized, read);
   }
 
-  private async callOnce<T>(method: 'GET' | 'POST', path: string, body: unknown, authorized: boolean): Promise<BridgeResult<T>> {
+  /** What the app sends at [path] as bytes, or null when it sends nothing (204). */
+  bytes(path: string): Promise<BridgeResult<ArrayBuffer | null>> {
+    return this.call('GET', path, undefined, true, async (response) => (response.status === 204 ? null : response.arrayBuffer()));
+  }
+
+  private async callOnce<T>(method: 'GET' | 'POST', path: string, body: unknown, authorized: boolean, read: (response: Response) => Promise<T>): Promise<BridgeResult<T>> {
     const token = authorized ? await this.tokens.get() : null;
     if (authorized && !token) return (await this.find()) ? { ok: false, error: 'unpaired' } : { ok: false, error: 'offline' };
     for (let attempt = 0; attempt < 2; attempt++) {
@@ -45,9 +52,11 @@ export class BridgeClient {
           await this.tokens.set(null);
           return { ok: false, error: 'unpaired' };
         }
-        const data = (await response.json().catch(() => null)) as (T & { error?: string }) | null;
-        if (!response.ok) return { ok: false, error: 'failed', message: data?.error ?? `HTTP ${response.status}` };
-        return { ok: true, data: data as T };
+        if (!response.ok) {
+          const failure = (await response.json().catch(() => null)) as { error?: string } | null;
+          return { ok: false, error: 'failed', message: failure?.error ?? `HTTP ${response.status}` };
+        }
+        return { ok: true, data: await read(response) };
       } catch {
         // The app quit, or moved to another port when it started again.
         this.port = null;

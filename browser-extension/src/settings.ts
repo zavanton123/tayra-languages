@@ -1,3 +1,4 @@
+import { DEFAULT_DICTIONARIES, validDictionaries, type DictionaryLink } from './dictionaries';
 import { WORD_GROUPS, type WordGroup, type WordOrder } from './words';
 
 export type PanelTab = 'subtitles' | 'words' | 'saved';
@@ -37,6 +38,14 @@ export interface ExtensionSettings {
   wordsOrder: WordOrder;
   /** The groups of words the Words tab lists. */
   wordsShown: WordGroup[];
+  /** A small card with a word's meaning while the pointer rests on it. */
+  hoverLookup: boolean;
+  /** Clicking a word says it too. */
+  speakOnClick: boolean;
+  /** The websites a word's card links to. */
+  dictionaries: DictionaryLink[];
+  /** The dictionary Shift+click opens: the one used last. */
+  lastDictionary: string | null;
 }
 
 export const DEFAULT_SETTINGS: ExtensionSettings = {
@@ -59,6 +68,10 @@ export const DEFAULT_SETTINGS: ExtensionSettings = {
   panelTranslations: false,
   wordsOrder: 'rank',
   wordsShown: ['new', 'learning'],
+  hoverLookup: true,
+  speakOnClick: false,
+  dictionaries: DEFAULT_DICTIONARIES,
+  lastDictionary: null,
 };
 
 export const FONT_SCALES = [0.7, 0.85, 1, 1.15, 1.35];
@@ -78,6 +91,8 @@ export function normalize(saved: unknown): ExtensionSettings {
     panelTab: (['subtitles', 'words', 'saved'] as const).includes(s.panelTab) ? s.panelTab : 'subtitles',
     wordsOrder: (['video', 'rank', 'count'] as const).includes(s.wordsOrder) ? s.wordsOrder : 'rank',
     wordsShown: Array.isArray(s.wordsShown) ? WORD_GROUPS.filter((g) => s.wordsShown.includes(g)) : DEFAULT_SETTINGS.wordsShown,
+    dictionaries: validDictionaries(s.dictionaries),
+    lastDictionary: typeof s.lastDictionary === 'string' ? s.lastDictionary : null,
   };
 }
 

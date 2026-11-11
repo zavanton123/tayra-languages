@@ -4,6 +4,8 @@ import { lineIndexAt } from './line-player';
 import type { SavedWord } from './saved';
 import type { ExtensionSettings, PanelTab } from './settings';
 import { statusClass } from './statuses';
+import { listenToWords, type WordGestures } from './word-gestures';
+import { SPEAK_ICON } from './word-popup';
 import { WORD_GROUPS, groupCounts, groupOf, knownShare, ordered, suggested, videoWords, type VideoWord, type WordGroup } from './words';
 
 const STYLE = `
@@ -36,10 +38,11 @@ const STYLE = `
   .tr { display: none; margin-top: 2px; color: #a3acb5; font-size: 13px; }
   .row:hover .tr, .translations .tr { display: block; }
   .tr:empty { display: none !important; }
-  .copy { align-self: start; width: 26px; height: 26px; padding: 0; border: 0; border-radius: 6px; background: none; color: #a3acb5; cursor: pointer; visibility: hidden; }
-  .row:hover .copy { visibility: visible; }
-  .copy:hover { background: #2d3238; color: #e6e9ec; }
-  .copy svg { width: 15px; height: 15px; fill: currentColor; }
+  .actions { display: flex; flex-direction: column; gap: 2px; align-self: start; visibility: hidden; }
+  .row:hover .actions { visibility: visible; }
+  .actions button { width: 26px; height: 26px; padding: 0; border: 0; border-radius: 6px; background: none; color: #a3acb5; cursor: pointer; }
+  .actions button:hover { background: #2d3238; color: #e6e9ec; }
+  .actions svg { width: 15px; height: 15px; fill: currentColor; }
   .word { border-radius: 0.2em; padding: 0 0.06em; cursor: pointer; }
   .word:hover { outline: 2px solid rgba(239, 241, 242, 0.6); }
   .word.s0 { background: #34476b; }
@@ -74,8 +77,7 @@ const SUGGESTED = 8;
 const UNDER_MAX_HEIGHT = 640;
 const MIN_HEIGHT = 360;
 
-export interface SidePanelEvents {
-  onWord(term: string, lc: string, line: BridgeLine, element: HTMLElement): void;
+export interface SidePanelEvents extends WordGestures {
   /** Go to line [index] of the video and play it. */
   onSeek(index: number): void;
   onSettings(change: Partial<ExtensionSettings>): void;
@@ -83,6 +85,8 @@ export interface SidePanelEvents {
   /** Take a word off the video's saved list; Tayra keeps it. */
   onForget(lc: string): void;
   onCopy(text: string): void;
+  /** Say line [text]. */
+  onSpeak(text: string): void;
 }
 
 /**
@@ -146,6 +150,12 @@ export class SidePanel {
       if (tab) this.events.onSettings({ panelTab: tab, panelOpen: true });
       else if (target.closest('.fold')) this.events.onSettings({ panelOpen: !(this.settings?.panelOpen ?? true) });
     });
+    listenToWords(this.body, (element) => {
+      const index = Number(element.dataset.line ?? element.closest<HTMLElement>('.row')?.dataset.index ?? -1);
+      const line = this.lines[index];
+      if (!line || !element.dataset.term || !element.dataset.lc) return null;
+      return { term: element.dataset.term, lc: element.dataset.lc, line, element };
+    }, this.events);
     this.body.addEventListener('click', (event) => this.clicked(event));
     this.body.addEventListener('scroll', () => {
       if (this.settings?.panelTab !== 'subtitles' || performance.now() - this.autoScrollAt < 200 || !this.following) return;
@@ -354,11 +364,10 @@ export class SidePanel {
       tr.className = 'tr';
       tr.textContent = line.translation ?? '';
       content.append(text, tr);
-      const copy = document.createElement('button');
-      copy.className = 'copy';
-      copy.title = 'Copy the line';
-      copy.innerHTML = COPY_ICON;
-      row.append(time, content, copy);
+      const actions = document.createElement('div');
+      actions.className = 'actions';
+      actions.innerHTML = `<button class="speak" title="Say the line">${SPEAK_ICON}</button><button class="copy" title="Copy the line">${COPY_ICON}</button>`;
+      row.append(time, content, actions);
       fragment.append(row);
     });
     this.body.append(fragment);
@@ -444,14 +453,9 @@ export class SidePanel {
 
   private clicked(event: Event) {
     const target = event.target as HTMLElement;
-    const word = target.closest<HTMLElement>('.word');
+    // Words have their own gestures.
+    if (target.closest('.word')) return;
     const row = target.closest<HTMLElement>('.row');
-    if (word?.dataset.term && word.dataset.lc) {
-      const index = Number(word.dataset.line ?? row?.dataset.index ?? -1);
-      const line = this.lines[index];
-      if (line) this.events.onWord(word.dataset.term, word.dataset.lc, line, word);
-      return;
-    }
     const forget = target.closest<HTMLElement>('[data-forget]')?.dataset.forget;
     if (forget) return this.events.onForget(forget);
     const seek = target.closest<HTMLElement>('[data-seek]')?.dataset.seek;
@@ -459,6 +463,7 @@ export class SidePanel {
     if (!row) return;
     const index = Number(row.dataset.index);
     if (target.closest('.copy')) return this.events.onCopy(this.lines[index]?.text ?? '');
+    if (target.closest('.speak')) return this.events.onSpeak(this.lines[index]?.text ?? '');
     this.following = true;
     this.renderToolbar();
     this.events.onSeek(index);
@@ -480,6 +485,7 @@ function wordSpan(text: string, term: string, lc: string, status: number | null,
   span.className = `word ${statusClass(status)}`;
   span.dataset.term = term;
   span.dataset.lc = lc;
+  span.dataset.status = String(status ?? 0);
   if (line !== undefined) span.dataset.line = String(line);
   span.textContent = text;
   return span;
