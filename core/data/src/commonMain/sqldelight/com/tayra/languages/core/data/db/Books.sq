@@ -126,7 +126,8 @@ SELECT
     (SELECT count(*) FROM pages p WHERE p.book_id = b.id) AS page_count,
     (SELECT max(start_date) FROM pages p WHERE p.book_id = b.id) AS last_opened,
     (SELECT read_date FROM pages p WHERE p.book_id = b.id ORDER BY page_order DESC LIMIT 1) AS last_page_read_date,
-    (SELECT stages FROM pages p WHERE p.book_id = b.id ORDER BY page_order DESC LIMIT 1) AS last_page_stages
+    (SELECT stages FROM pages p WHERE p.book_id = b.id ORDER BY page_order DESC LIMIT 1) AS last_page_stages,
+    (SELECT l.questions FROM lessons l WHERE l.id = cl.lesson_id) AS questions
 FROM course_lessons cl
 INNER JOIN books b ON b.id = cl.book_id;
 

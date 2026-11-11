@@ -265,6 +265,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Quiz" to "Quiz",
     "Reverse translation" to "Rückübersetzung",
     "Retell" to "Nacherzählen",
+    "Answer each question on the story, then point at the blurred answer to compare." to "Beantworte jede Frage zur Geschichte und zeig dann auf die verschwommene Antwort, um zu vergleichen.",
     "Read the text aloud and mark the words you do not know. Completing this stage marks the remaining words as known." to "Lies den Text laut vor und markiere die Wörter, die du nicht kennst. Hakst du diese Stufe ab, gelten die nicht markierten Wörter als bekannt.",
     "Listen to the text with the play button. The original is blurred: point at a sentence to see it." to "Hör dir den Text mit der Wiedergabetaste an. Das Original ist verschwommen: Zeig auf einen Satz, um ihn zu sehen.",
     "Go over the page's words and put their statuses right." to "Geh die Wörter der Seite durch und korrigiere ihren Status.",

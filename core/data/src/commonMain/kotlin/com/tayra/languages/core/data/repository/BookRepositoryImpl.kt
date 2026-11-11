@@ -53,8 +53,11 @@ class BookRepositoryImpl(private val provider: DatabaseProvider) : BookRepositor
                         currentPage = row.current_page.toInt(),
                         pageCount = row.page_count.toInt(),
                         lastOpened = row.last_opened?.toInstant(),
-                        // A lesson is done once its last page is read and every stage of it checked.
-                        isCompleted = row.last_page_read_date != null && row.last_page_stages?.toInt() == ReadingStage.ALL_BITS,
+                        // A lesson is done once its last page is read and every stage of it checked, the questions' only when it has some.
+                        isCompleted = row.last_page_read_date != null && row.last_page_stages?.toInt()?.let { stages ->
+                            val all = ReadingStage.allBits(hasQuestions = questionsOf(row.questions).isNotEmpty())
+                            stages and all == all
+                        } == true,
                     )
                 },
             )

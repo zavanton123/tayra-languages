@@ -24,6 +24,8 @@ data class Lesson(
     val newWords: List<String> = emptyList(),
     /** Labels such as "tayra" for the lessons made for the app; a text made from the lesson gets them as its tags. */
     val tags: List<String> = emptyList(),
+    /** Questions on the story, worked through in their own stage; the text no longer holds them. */
+    val questions: List<LessonQuestion> = emptyList(),
 ) {
     /** Words in the text, counted at spaces. */
     val wordCount: Int get() = text.split(Regex("""\s+""")).count { part -> part.any { it.isLetterOrDigit() } }
@@ -61,7 +63,12 @@ data class CourseDraft(
 )
 
 /** What the reader writes for a lesson of their own. */
-data class LessonDraft(val title: String, val summary: String = "", val text: String)
+data class LessonDraft(
+    val title: String,
+    val summary: String = "",
+    val text: String,
+    val questions: List<LessonQuestion> = emptyList(),
+)
 
 class CourseValidationException(message: String) : IllegalArgumentException(message)
 
@@ -86,6 +93,11 @@ interface CourseRepository {
     suspend fun seedSamples(languageId: Long, courses: List<Course>)
     /** Forgets that the samples with [courseIds] were written, so they are written again when their pack is. */
     suspend fun forgetSeeded(courseIds: Collection<String>)
+
+    /** The lessons, by id with their text, whose questions have not yet been cut off their text. */
+    suspend fun unsplitLessons(): Map<String, String>
+    /** Stores each lesson's text and questions, by lesson id; the lessons count as split from then on, with or without questions. */
+    suspend fun setLessonSplits(lessons: Map<String, SplitLesson>)
 }
 
 /** The sample courses on the device, for a language by its ISO 639-1 code. */

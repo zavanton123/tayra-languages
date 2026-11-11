@@ -265,6 +265,7 @@ internal val ptReading: Map<String, String> = mapOf(
     "Quiz" to "Quiz",
     "Reverse translation" to "Tradução reversa",
     "Retell" to "Recontar",
+    "Answer each question on the story, then point at the blurred answer to compare." to "Responde a cada pergunta sobre a história e depois aponta para a resposta desfocada para comparar.",
     "Read the text aloud and mark the words you do not know. Completing this stage marks the remaining words as known." to "Leia o texto em voz alta e marque as palavras que você não conhece. Ao concluir esta etapa, as palavras não marcadas passam a ser conhecidas.",
     "Listen to the text with the play button. The original is blurred: point at a sentence to see it." to "Ouça o texto com o botão de reproduzir. O original fica desfocado: aponte para uma frase para vê-la.",
     "Go over the page's words and put their statuses right." to "Revise as palavras da página e corrija os status delas.",

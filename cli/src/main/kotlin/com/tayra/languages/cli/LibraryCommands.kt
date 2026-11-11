@@ -48,6 +48,8 @@ class InitCommand : Command("init", "Set up the library as the app does on its f
     override fun run() = respond(cli, InitJson.serializer(), changes = true) {
         cli.get<DemoDataService>().ensureLanguages()
         cli.get<CourseService>().seedSamples()
+        cli.get<CourseService>().joinLessonPages()
+        cli.get<CourseService>().splitLessonQuestions()
         val current = cli.get<LearningLanguageService>().ensure()
         val languages = cli.get<LanguageRepository>().getAll()
         val books = cli.get<BookRepository>().getBooks().size

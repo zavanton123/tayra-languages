@@ -507,6 +507,7 @@ fun ReadingScreen(
         LessonCompleteDialog(
             title = state.lesson?.lesson?.title ?: state.book?.title.orEmpty(),
             summary = summary,
+            stageCount = state.pageStages.size,
             onClose = viewModel::lessonSummarySeen,
             onCourse = { viewModel.lessonSummarySeen(); leave() },
             onNext = viewModel::openNextLesson,
@@ -773,7 +774,8 @@ private fun ReadingBody(
         }
     }
     if (flashcards) flashcardsDialog?.invoke { flashcards = false; viewModel.refresh() }
-    val unknownWords = remember(state.page) { BookStatsCalculator.calculate(state.items).distinctUnknowns }
+    // The story's, also while the lesson's questions stand in for it: the reading stage's words to mark.
+    val unknownWords = remember(state.storyPage, state.page) { BookStatsCalculator.calculate(state.storyItems).distinctUnknowns }
     val scrollState = rememberScrollState()
     // A new page starts at its top; coming back to the screen (from the examples, say) keeps the place it was scrolled to.
     var scrolledPage by rememberSaveable { mutableStateOf(state.pageNumber) }
@@ -823,7 +825,7 @@ private fun ReadingBody(
             state.translationProgress?.let { TranslationProgress(it) }
                 ?: state.translationError?.let { TranslationNotice(it, viewModel, onSettings) }
             AppDivider(Modifier.padding(bottom = AppSpacing.xl))
-            StageNote(state.stage, onAction = { openStage(state.stage) }, Modifier.padding(bottom = AppSpacing.xl))
+            StageNote(state.stage, state.pageStages, onAction = { openStage(state.stage) }, Modifier.padding(bottom = AppSpacing.xl))
             state.flash?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelLarge) }
             val chinese = state.language?.let { LanguageCodes.codeFor(it.name) } in setOf("zh", "yue")
             // Pinyin above the words is kept; zhuyin is written from it when chosen.
@@ -854,11 +856,17 @@ private fun ReadingBody(
                     else -> state.readings
                 },
                 toneColors = state.settings.toneColors && chinese,
-                // Turning the translation back needs it shown, first.
-                translations = if (state.settings.showTranslations || state.stage == ReadingStage.REVERSE) state.translations else null,
+                // Turning the translation back needs it shown, first; an answer's would give it away.
+                translations = when {
+                    state.stage == ReadingStage.QUESTIONS -> null
+                    state.settings.showTranslations || state.stage == ReadingStage.REVERSE -> state.translations
+                    else -> null
+                },
                 translationFirst = state.stage == ReadingStage.REVERSE,
                 sideBySide = state.settings.sideBySideTranslations,
-                practice = state.settings.practiceTranslation || state.stage.blursText,
+                practice = state.settings.practiceTranslation || state.stage.blursText || state.stage == ReadingStage.QUESTIONS,
+                // Of the questions, only the answers are hidden.
+                hideOnly = if (state.stage == ReadingStage.QUESTIONS) state.answerSentences else null,
                 revealed = revealed,
                 onRevealed = { no, shown -> revealed = if (shown) revealed + no else revealed - no },
                 onSpeakSentence = if (state.settings.showSentencePlay && canSpeak) speakSentence else null,
@@ -871,6 +879,9 @@ private fun ReadingBody(
                 edgePadding = edgePadding,
                 callbacks = callbacks,
             ) }
+            if (state.stage == ReadingStage.QUESTIONS) {
+                PrimaryButton(tr("Done"), onClick = viewModel::checkStage, modifier = Modifier.padding(top = AppSpacing.xl).testTag("questions-done"))
+            }
             if (state.selecting) {
                 Text(tr("Long-press the last word of the expression, or tap to cancel."), style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }
@@ -898,7 +909,7 @@ private fun ReadingBody(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceBetween,
             ) {
-                StageChain(state.stages, state.stage, selectStage, size = COMPACT_STAGE_SIZE, badges = mapOf(ReadingStage.READ_ALOUD to unknownWords).filterKeys { it !in state.stages })
+                StageChain(state.pageStages, state.stages, state.stage, selectStage, size = COMPACT_STAGE_SIZE, badges = mapOf(ReadingStage.READ_ALOUD to unknownWords).filterKeys { it !in state.stages })
                 CheckStageButton(state.stage, state.stage in state.stages, viewModel::checkStage, size = COMPACT_CHECK_SIZE)
             }
             if (sentenceControls) {
@@ -919,7 +930,7 @@ private fun ReadingBody(
         ReaderBar(
             state = state,
             stages = { stageSize, checkSize ->
-                StageChain(state.stages, state.stage, selectStage, size = stageSize, badges = mapOf(ReadingStage.READ_ALOUD to unknownWords).filterKeys { it !in state.stages })
+                StageChain(state.pageStages, state.stages, state.stage, selectStage, size = stageSize, badges = mapOf(ReadingStage.READ_ALOUD to unknownWords).filterKeys { it !in state.stages })
                 AppVerticalDivider(Modifier.height(checkSize - AppSpacing.m).padding(horizontal = AppSpacing.l))
                 CheckStageButton(state.stage, state.stage in state.stages, viewModel::checkStage, size = checkSize)
             },
@@ -1277,7 +1288,7 @@ private fun TranslationProgress(message: String) {
 /** How many of the page's different words are still unknown, as a bar and a count, under the title. */
 @Composable
 private fun PageVocabulary(state: ReadingUiState) {
-    val stats = remember(state.page) { BookStatsCalculator.calculate(state.items) }
+    val stats = remember(state.storyPage, state.page) { BookStatsCalculator.calculate(state.storyItems) }
     val colors = MaterialTheme.colorScheme
     Row(Modifier.fillMaxWidth().padding(top = AppSpacing.m, bottom = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         StatusDistributionBar(stats, Modifier.widthIn(max = VOCABULARY_BAR_WIDTH).weight(1f, fill = false).fillMaxWidth(), scope = "on this page")

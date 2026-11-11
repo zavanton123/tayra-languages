@@ -7,7 +7,12 @@ import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
+import com.tayra.languages.core.domain.courses.Course
 import com.tayra.languages.core.domain.courses.CourseDraft
+import com.tayra.languages.core.domain.courses.CourseLevel
+import com.tayra.languages.core.domain.courses.CourseValidationException
+import com.tayra.languages.core.domain.courses.Lesson
+import com.tayra.languages.core.domain.courses.LessonQuestion
 import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.courses.LessonDraft
 import com.tayra.languages.core.domain.courses.LessonStatus
@@ -23,6 +28,7 @@ import java.io.File
 import java.sql.DriverManager
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFailsWith
 import kotlin.test.assertNotNull
 import kotlin.test.assertNull
 import kotlin.test.assertTrue
@@ -179,5 +185,73 @@ class CourseServiceTest {
         val upgradedLanguages = LanguageRepositoryImpl(reopened)
         val upgraded = CourseService(upgradedBooks, upgradedLanguages, BookService(upgradedBooks, upgradedLanguages), CourseRepositoryImpl(reopened), TestCourses.source)
         assertEquals(listOf(LessonStatus.COMPLETED, LessonStatus.NOT_STARTED), upgraded.observeCourse(course).first()!!.lessons.map { it.status })
+    }
+
+    private val storyWithQuestions = "O gato dorme ao sol.\n\nPerguntas:\nOnde dorme o gato?\nO gato dorme ao sol.\nQuem dorme?\nO gato dorme."
+
+    @Test
+    fun aSampleLessonIsWrittenWithItsQuestionsApart() = runTest {
+        val portuguese = languages.save(Language(name = "Portuguese"))
+        val sample = Course("pt-q-a1", "pt", "Perguntas", "", CourseLevel.A1, "", listOf(Lesson("pt-q-a1-1", "Gato", "", storyWithQuestions)))
+        val withQuestions = CourseService(books, languages, bookService, CourseRepositoryImpl(provider)) { code -> listOf(sample).filter { it.languageCode == code } }
+        withQuestions.seedSamples()
+        val lesson = withQuestions.observeCourses(portuguese).first().single().course.lessons.single()
+        assertEquals("O gato dorme ao sol.", lesson.text)
+        assertEquals(listOf("Onde dorme o gato?", "Quem dorme?"), lesson.questions.map { it.question })
+        val bookId = assertNotNull(withQuestions.openLesson(sample.id, lesson.id))
+        assertEquals(listOf("O gato dorme ao sol."), books.getPages(bookId).map { it.text }, "the text read has no questions")
+        assertEquals(0, withQuestions.splitLessonQuestions(), "written apart, there is nothing left to split")
+    }
+
+    @Test
+    fun aLessonWithQuestionsIsCompletedOnlyOnceTheyAreAnswered() = runTest {
+        val portuguese = languages.save(Language(name = "Portuguese"))
+        val course = service.createCourse(portuguese, CourseDraft("Curtas"))
+        val lesson = service.addLesson(course, LessonDraft("Gato", text = "O gato dorme ao sol.", questions = listOf(LessonQuestion("Onde dorme o gato?", "Ao sol."))))
+        val plain = service.addLesson(course, LessonDraft("Cão", text = "O cão corre."))
+        val withQuestions = assertNotNull(service.openLesson(course, lesson))
+        val without = assertNotNull(service.openLesson(course, plain))
+        for (bookId in listOf(withQuestions, without)) {
+            reading.openPage(bookId, 1, trackOpen = true)
+            reading.markPageRead(bookId, 1, markRestAsKnown = false)
+            for (stage in ReadingStage.of(hasQuestions = false)) reading.checkStage(bookId, 1, stage)
+        }
+        suspend fun statuses() = service.observeCourse(course).first()!!.lessons.map { it.status }
+        assertEquals(listOf(LessonStatus.IN_PROGRESS, LessonStatus.COMPLETED), statuses(), "a lesson without questions has no stage for them")
+        reading.checkStage(withQuestions, 1, ReadingStage.QUESTIONS)
+        assertEquals(listOf(LessonStatus.COMPLETED, LessonStatus.COMPLETED), statuses())
+    }
+
+    @Test
+    fun aLessonWrittenBeforeQuestionsCameApartHasThemCutOffItsTextAndPage() = runTest {
+        val portuguese = languages.save(Language(name = "Portuguese"))
+        val course = service.createCourse(portuguese, CourseDraft("Curtas"))
+        val lesson = service.addLesson(course, LessonDraft("Gato", text = storyWithQuestions))
+        val bookId = assertNotNull(service.openLesson(course, lesson))
+        reading.openPage(bookId, 1, trackOpen = true)
+        reading.checkStage(bookId, 1, ReadingStage.READ_ALOUD)
+        reading.checkStage(bookId, 1, ReadingStage.LISTEN)
+        val pageId = books.getPage(bookId, 1)!!.id
+        // As a lesson written before the questions came apart: its text still ends with them, and it has not been looked at.
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.createStatement().execute("UPDATE lessons SET questions = NULL") }
+
+        assertEquals(1, service.splitLessonQuestions())
+        val split = service.observeCourse(course).first()!!.course.lessons.single()
+        assertEquals("O gato dorme ao sol.", split.text)
+        assertEquals(listOf(LessonQuestion("Onde dorme o gato?", "O gato dorme ao sol."), LessonQuestion("Quem dorme?", "O gato dorme.")), split.questions)
+        val page = books.getPage(bookId, 1)!!
+        assertEquals("O gato dorme ao sol.", page.text)
+        assertEquals(pageId, page.id, "the page is kept, with its place and stages")
+        assertEquals(setOf(ReadingStage.READ_ALOUD, ReadingStage.LISTEN), page.stages)
+        assertEquals(0, service.splitLessonQuestions(), "a lesson is looked at once")
+    }
+
+    @Test
+    fun aQuestionNeedsItsAnswer() = runTest {
+        val portuguese = languages.save(Language(name = "Portuguese"))
+        val course = service.createCourse(portuguese, CourseDraft("Curtas"))
+        assertFailsWith<CourseValidationException> { service.addLesson(course, LessonDraft("Gato", text = "O gato dorme.", questions = listOf(LessonQuestion("Onde?", " ")))) }
+        val lesson = service.addLesson(course, LessonDraft("Gato", text = "O gato dorme.", questions = listOf(LessonQuestion(" Onde? ", "Ao sol. "), LessonQuestion("", ""))))
+        assertEquals(listOf(LessonQuestion("Onde?", "Ao sol.")), service.observeCourse(course).first()!!.course.lessons.single { it.id == lesson }.questions, "trimmed, the empty pair dropped")
     }
 }

@@ -65,6 +65,7 @@ class AppBootstrapViewModel(
                 demoData.ensureLanguages()
                 courses.seedSamples()
                 courses.joinLessonPages()
+                courses.splitLessonQuestions()
                 coursePacks.refresh()
                 bookPacks.refresh()
                 // The first language is the user's choice: the app asks for it.

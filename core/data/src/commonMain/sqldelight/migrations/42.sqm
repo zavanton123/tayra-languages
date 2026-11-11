@@ -1,0 +1,7 @@
+-- Lessons keep the questions on their story apart from its text, as JSON; null until the text has been looked at for
+-- them, which the app does at start (CourseService.splitLessonQuestions).
+ALTER TABLE lessons ADD COLUMN questions TEXT;
+
+-- The questions are a stage of their own (bit 128). A page with every stage done before it came counts as done with
+-- it too, so texts finished then stay finished.
+UPDATE pages SET stages = stages | 128 WHERE stages & 127 = 127;

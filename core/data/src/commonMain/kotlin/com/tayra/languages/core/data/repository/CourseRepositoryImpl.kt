@@ -14,6 +14,8 @@ import com.tayra.languages.core.domain.courses.CourseDraft
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.Lesson
 import com.tayra.languages.core.domain.courses.LessonDraft
+import com.tayra.languages.core.domain.courses.LessonQuestion
+import com.tayra.languages.core.domain.courses.SplitLesson
 import com.tayra.languages.core.domain.courses.CourseRepository
 import com.tayra.languages.core.domain.language.LanguageCodes
 import kotlinx.coroutines.flow.Flow
@@ -22,6 +24,13 @@ import kotlinx.coroutines.flow.emitAll
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonArray
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.JsonPrimitive
+import kotlinx.serialization.json.jsonArray
+import kotlinx.serialization.json.jsonObject
+import kotlinx.serialization.json.jsonPrimitive
 import kotlin.time.Clock
 
 class CourseRepositoryImpl(
@@ -70,7 +79,7 @@ class CourseRepositoryImpl(
                 description = row.description,
                 level = CourseLevel.entries.firstOrNull { it.name == row.level } ?: CourseLevel.A1,
                 topic = row.topic,
-                lessons = lessons[row.id].orEmpty().map { Lesson(it.id, it.title, it.summary, it.text, words(it.new_words), words(it.tags)) },
+                lessons = lessons[row.id].orEmpty().map { Lesson(it.id, it.title, it.summary, it.text, words(it.new_words), words(it.tags), questionsOf(it.questions)) },
                 languageId = row.language_id,
                 builtIn = row.built_in,
                 rankUpTo = row.rank_up_to?.toInt(),
@@ -123,12 +132,12 @@ class CourseRepositoryImpl(
         val database = db()
         database.transaction {
             val position = database.coursesQueries.nextPosition(courseId).awaitAsOne()
-            database.coursesQueries.insertLesson(id, courseId, draft.title, draft.summary, draft.text, position, "", "")
+            database.coursesQueries.insertLesson(id, courseId, draft.title, draft.summary, draft.text, position, "", "", questionsJson(draft.questions))
         }
     }
 
     override suspend fun updateLesson(lessonId: String, draft: LessonDraft) = withContext(databaseDispatcher) {
-        db().coursesQueries.updateLesson(title = draft.title, summary = draft.summary, text = draft.text, id = lessonId)
+        db().coursesQueries.updateLesson(title = draft.title, summary = draft.summary, text = draft.text, questions = questionsJson(draft.questions), id = lessonId)
         Unit
     }
 
@@ -154,7 +163,10 @@ class CourseRepositoryImpl(
                     )
                     linkTags(database, course.id, course.tags)
                     course.lessons.forEachIndexed { position, lesson ->
-                        database.coursesQueries.insertLesson(lesson.id, course.id, lesson.title, lesson.summary, lesson.text, position.toLong(), lesson.newWords.joinToString(" "), lesson.tags.joinToString(" "))
+                        database.coursesQueries.insertLesson(
+                            lesson.id, course.id, lesson.title, lesson.summary, lesson.text, position.toLong(),
+                            lesson.newWords.joinToString(" "), lesson.tags.joinToString(" "), questionsJson(lesson.questions),
+                        )
                     }
                 }
                 database.coursesQueries.markSeeded(course.id, languageId)
@@ -165,6 +177,17 @@ class CourseRepositoryImpl(
     override suspend fun forgetSeeded(courseIds: Collection<String>) = withContext(databaseDispatcher) {
         if (courseIds.isNotEmpty()) db().coursesQueries.forgetSeeded(courseIds)
         Unit
+    }
+
+    override suspend fun unsplitLessons(): Map<String, String> = withContext(databaseDispatcher) {
+        db().coursesQueries.unsplitLessons().awaitAsList().associate { it.id to it.text }
+    }
+
+    override suspend fun setLessonSplits(lessons: Map<String, SplitLesson>) = withContext(databaseDispatcher) {
+        val database = db()
+        database.transaction {
+            for ((id, lesson) in lessons) database.coursesQueries.setLessonSplit(text = lesson.text, questions = questionsJson(lesson.questions), id = id)
+        }
     }
 
     override suspend fun moveLesson(lessonId: String, by: Int) = withContext(databaseDispatcher) {
@@ -179,4 +202,19 @@ class CourseRepositoryImpl(
             order.forEachIndexed { position, id -> database.coursesQueries.setPosition(position.toLong(), id) }
         }
     }
+}
+
+/** A lesson's questions as stored: a JSON array of {"q": question, "a": answer}. */
+internal fun questionsJson(questions: List<LessonQuestion>): String =
+    JsonArray(questions.map { JsonObject(mapOf("q" to JsonPrimitive(it.question), "a" to JsonPrimitive(it.answer))) }).toString()
+
+/** The questions stored as [questionsJson] writes them; none for a lesson not looked at yet or stored wrongly. */
+internal fun questionsOf(json: String?): List<LessonQuestion> {
+    if (json.isNullOrBlank()) return emptyList()
+    return runCatching {
+        Json.parseToJsonElement(json).jsonArray.map { item ->
+            val pair = item.jsonObject
+            LessonQuestion(pair.getValue("q").jsonPrimitive.content, pair.getValue("a").jsonPrimitive.content)
+        }
+    }.getOrDefault(emptyList())
 }

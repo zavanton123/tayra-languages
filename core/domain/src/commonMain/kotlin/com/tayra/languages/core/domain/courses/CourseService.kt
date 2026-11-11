@@ -42,7 +42,7 @@ class CourseService(
             val seeded = repository.seededSamples(language.id)
             // The ids are read first, so the lessons are only read when there is something to write.
             if (samples.courseIds(code).all { it in seeded }) continue
-            val new = samples.courses(code).filter { it.id !in seeded }
+            val new = samples.courses(code).filter { it.id !in seeded }.map { course -> course.copy(lessons = course.lessons.map { it.withQuestionsApart() }) }
             if (new.isNotEmpty()) repository.seedSamples(language.id, new)
         }
     }
@@ -106,6 +106,31 @@ class CourseService(
     }
 
     private fun words(text: String) = text.split(Regex("\\s+")).filter { it.isNotEmpty() }
+
+    /**
+     * Cuts the questions off the text of each lesson written before lessons kept them apart, and off
+     * the page of each such lesson already opened, which keeps its place, statuses and stages; run
+     * at start. A lesson looked at once is not looked at again. Returns how many lessons had questions.
+     */
+    suspend fun splitLessonQuestions(): Int {
+        val unsplit = repository.unsplitLessons()
+        if (unsplit.isEmpty()) return 0
+        val splits = unsplit.mapValues { (_, text) -> LessonQuestions.split(text) ?: SplitLesson(text, emptyList()) }
+        // The pages first: a lesson already marked split is not looked at again, so its page would keep the questions.
+        for ((lessonId, split) in splits) {
+            if (split.questions.isEmpty()) continue
+            val bookId = books.lessonBookId(lessonId) ?: continue
+            val last = books.pageCount(bookId)
+            val page = books.getPage(bookId, last) ?: continue
+            LessonQuestions.split(page.text)?.let { bookService.updatePageText(bookId, last, it.text) }
+        }
+        repository.setLessonSplits(splits)
+        return splits.values.count { it.questions.isNotEmpty() }
+    }
+
+    /** The lesson with the questions that end its text kept apart, as the database holds the app's lessons. */
+    private fun Lesson.withQuestionsApart(): Lesson =
+        if (questions.isNotEmpty()) this else LessonQuestions.split(text)?.let { copy(text = it.text, questions = it.questions) } ?: this
 
     /** The text made for the lesson with [lessonId], or null while it has never been opened or added to a playlist. */
     suspend fun lessonText(lessonId: String): Long? = books.lessonBookId(lessonId)
@@ -205,7 +230,10 @@ class CourseService(
     private fun validated(draft: LessonDraft): LessonDraft {
         if (draft.title.isBlank()) throw CourseValidationException("A lesson needs a title")
         if (draft.text.isBlank()) throw CourseValidationException("A lesson needs a text to read")
-        return draft.copy(title = draft.title.trim(), summary = draft.summary.trim(), text = draft.text.trim())
+        val questions = draft.questions.map { LessonQuestion(it.question.trim(), it.answer.trim()) }.filter { it.question.isNotEmpty() || it.answer.isNotEmpty() }
+        if (questions.any { it.question.isEmpty() }) throw CourseValidationException("Each answer needs its question")
+        if (questions.any { it.answer.isEmpty() }) throw CourseValidationException("Each question needs an answer")
+        return draft.copy(title = draft.title.trim(), summary = draft.summary.trim(), text = draft.text.trim(), questions = questions)
     }
 
     /** Ids apart from the samples' ("pt-freq-0100-01"), since lessons are found by id. */

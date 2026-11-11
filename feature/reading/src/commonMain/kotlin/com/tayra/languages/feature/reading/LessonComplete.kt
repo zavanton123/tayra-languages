@@ -33,7 +33,6 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.courses.LessonSummary
-import com.tayra.languages.core.domain.model.ReadingStage
 import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
@@ -62,6 +61,8 @@ import kotlin.math.roundToInt
 internal fun LessonCompleteDialog(
     title: String,
     summary: LessonSummary,
+    /** How many stages the lesson had: the questions are one only when it has some. */
+    stageCount: Int,
     onClose: () -> Unit,
     onCourse: () -> Unit,
     onNext: () -> Unit,
@@ -80,7 +81,7 @@ internal fun LessonCompleteDialog(
                 Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
                     Text(tr("Lesson complete"), style = AppText.pageTitle, textAlign = TextAlign.Center)
                     Text(title, style = AppText.headline, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
-                    Text(tr("You completed all {0} stages.", ReadingStage.entries.size), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+                    Text(tr("You completed all {0} stages.", stageCount), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
                 }
                 Stats(summary)
                 if (summary.words > 0) {

@@ -128,11 +128,23 @@ data class ReadingUiState(
     val stagesReached: Int = 0,
     /** Set once the lesson's last stage is checked, until its summary is put away. */
     val lessonSummary: LessonSummary? = null,
+    /** The page's own text, rendered; [page] shows it, except while the lesson's questions are worked. */
+    val storyPage: RenderedPage = RenderedPage.EMPTY,
+    /** The lesson's questions, a paragraph each and each answer in the one after its question; null when the page has none. */
+    val questionsPage: RenderedPage? = null,
+    /** The sentences of [questionsPage] (counted through it) that are answers, blurred until looked at. */
+    val answerSentences: Set<Int> = emptySet(),
 ) {
+    /** The page's stages, in order: the questions only on a lesson's last page, when the lesson has them. */
+    val pageStages: List<ReadingStage> get() = ReadingStage.of(hasQuestions = questionsPage != null)
+
     /** Every stage of the page has been checked. */
-    val allStagesDone: Boolean get() = stages.size == ReadingStage.entries.size
+    val allStagesDone: Boolean get() = pageStages.all { it in stages }
 
     val items: List<TextItem> get() = page.items
+
+    /** The page's own words, whatever [page] shows: its story while the lesson's questions are worked. */
+    val storyItems: List<TextItem> get() = (storyPage.takeIf { it !== RenderedPage.EMPTY } ?: page).items
     val isLastPage: Boolean get() = pageNumber >= pageCount
     val isFirstPage: Boolean get() = pageNumber <= 1
     /** Bookmarks are for books; a lesson or an article is short enough to need none. */
@@ -260,14 +272,23 @@ class ReadingViewModel(
     private suspend fun load(pageNumber: Int, trackOpen: Boolean, keepMarked: Boolean = false) {
         try {
             val reading = readingService.openPage(bookId, pageNumber, trackOpen)
+            val questions = _state.value.lesson?.lesson?.questions.orEmpty().takeIf { reading.page.order == reading.pageCount }.orEmpty()
+            val questionsPage = if (questions.isEmpty()) null else readingService.renderPage(questions.joinToString("\n") { it.question + "\n" + it.answer }, reading.language)
+            val stages = ReadingStage.of(hasQuestions = questionsPage != null)
             _state.update {
+                // Another page starts at its first stage not yet checked; the same page stays where it was.
+                val stage = if (keepMarked || it.pageNumber == reading.page.order && it.page !== RenderedPage.EMPTY) it.stage.takeIf { stage -> stage in stages } ?: firstOpen(reading.page.stages, stages)
+                    else firstOpen(reading.page.stages, stages)
                 it.copy(
                     loading = false,
                     book = reading.book,
                     language = reading.language,
                     pageNumber = reading.page.order,
                     pageCount = reading.pageCount,
-                    page = reading.rendered,
+                    page = if (stage == ReadingStage.QUESTIONS && questionsPage != null) questionsPage else reading.rendered,
+                    storyPage = reading.rendered,
+                    questionsPage = questionsPage,
+                    answerSentences = questionsPage?.answerSentences().orEmpty(),
                     marked = if (keepMarked) it.marked.filter { i -> i < reading.rendered.items.size }.toSet() else emptySet(),
                     hovered = if (keepMarked) it.hovered else null,
                     selection = null,
@@ -278,8 +299,7 @@ class ReadingViewModel(
                     translations = if (keepMarked) it.translations else emptyMap(),
                     readings = if (keepMarked) it.readings else emptyMap(),
                     stages = reading.page.stages,
-                    // Another page starts at its first stage not yet checked; the same page stays where it was.
-                    stage = if (keepMarked || it.pageNumber == reading.page.order && it.page !== RenderedPage.EMPTY) it.stage else firstOpen(reading.page.stages),
+                    stage = stage,
                 )
             }
             translateSentences()
@@ -334,9 +354,29 @@ class ReadingViewModel(
 
     /** Works on [stage]: what the page shows follows it. */
     fun selectStage(stage: ReadingStage) {
-        _state.update { it.copy(stage = stage) }
+        if (stage !in _state.value.pageStages) return
+        showStage(stage)
         // The translation is what is turned back into the original or retold from, so it shows even when translations are off.
         if (stage.needsTranslation) translateSentences(enabled = true)
+    }
+
+    /**
+     * Moves to [stage], with the page showing what it works on: the lesson's questions for theirs,
+     * the page's own text for every other. Words picked on the text shown before are let go, and the
+     * audio, translations and readings are got for the text shown now.
+     */
+    private fun showStage(stage: ReadingStage, update: (ReadingUiState) -> ReadingUiState = { it }) {
+        val before = _state.value.page
+        _state.update { s ->
+            val page = if (stage == ReadingStage.QUESTIONS && s.questionsPage != null) s.questionsPage else s.storyPage.takeIf { it !== RenderedPage.EMPTY } ?: s.page
+            val moved = update(s).copy(stage = stage, page = page)
+            if (page === s.page) moved else moved.copy(marked = emptySet(), hovered = null, selection = null, selecting = false, popup = null)
+        }
+        if (_state.value.page !== before) {
+            translateSentences()
+            prepareSpeech()
+            prepareReadings()
+        }
     }
 
     /**
@@ -356,11 +396,11 @@ class ReadingViewModel(
             }
             val stages = readingService.checkStage(bookId, s.pageNumber, stage)
             // Only the check that completes the page moves on; checking a stage again on a finished page does not.
-            if (stages.size == ReadingStage.entries.size && s.stages.size < stages.size) {
+            if (s.pageStages.all { it in stages } && !s.allStagesDone) {
                 when {
                     !s.isLastPage -> return@launch load(s.pageNumber + 1, trackOpen = true)
                     s.lesson != null && lessonSummaries != null -> {
-                        val words = _state.value.page.words
+                        val words = _state.value.storyPage.words
                         val stats = BookStatsCalculator.calculate(_state.value.items)
                         val summary = lessonSummaries.summary(s.lesson, words.mapNotNull { it.termId }, stats.statusDistribution[TermStatus.WELL_KNOWN] ?: 0, stats.distinctTerms - (stats.statusDistribution[TermStatus.IGNORED] ?: 0))
                         return@launch _state.update { it.copy(stages = stages, lessonSummary = summary) }
@@ -371,7 +411,7 @@ class ReadingViewModel(
                     }
                 }
             }
-            _state.update { it.copy(stages = stages, stage = nextOpen(stage, stages), stagesReached = it.stagesReached + 1) }
+            showStage(nextOpen(stage, stages, s.pageStages)) { it.copy(stages = stages, stagesReached = it.stagesReached + 1) }
             if (stage == ReadingStage.READ_ALOUD) load(s.pageNumber, trackOpen = false, keepMarked = true)
             if (_state.value.stage.needsTranslation) translateSentences(enabled = true)
         }
@@ -1142,11 +1182,23 @@ class ReadingViewModel(
 /** The stages worked from the page's translation. */
 private val ReadingStage.needsTranslation: Boolean get() = this == ReadingStage.REVERSE || this == ReadingStage.RETELL
 
-/** The first stage not checked, in order; a page with every stage checked opens at the first. */
-internal fun firstOpen(done: Set<ReadingStage>): ReadingStage = ReadingStage.entries.firstOrNull { it !in done } ?: ReadingStage.READ_ALOUD
+/** The first of the page's [stages] not checked, in order; a page with every stage checked opens at the first. */
+internal fun firstOpen(done: Set<ReadingStage>, stages: List<ReadingStage> = ReadingStage.of(hasQuestions = false)): ReadingStage =
+    stages.firstOrNull { it !in done } ?: stages.first()
 
-/** The stage after [stage] not checked yet, going round to the start; [stage] itself when every other is checked. */
-internal fun nextOpen(stage: ReadingStage, done: Set<ReadingStage>): ReadingStage {
-    val all = ReadingStage.entries
-    return (1..all.size).map { all[(stage.ordinal + it) % all.size] }.firstOrNull { it !in done } ?: stage
+/** The one of the page's [stages] after [stage] not checked yet, going round to the start; [stage] itself when every other is checked. */
+internal fun nextOpen(stage: ReadingStage, done: Set<ReadingStage>, stages: List<ReadingStage> = ReadingStage.of(hasQuestions = false)): ReadingStage {
+    val from = stages.indexOf(stage)
+    return (1..stages.size).map { stages[(from + it).mod(stages.size)] }.firstOrNull { it !in done } ?: stage
+}
+
+/** The sentences, counted through the page, of its answer paragraphs: every second one with words, after its question's. */
+internal fun RenderedPage.answerSentences(): Set<Int> = buildSet {
+    var sentence = 0
+    var written = 0
+    for (paragraph in paragraphs) {
+        val blank = paragraph.sentences.none { it.displayText.isNotBlank() }
+        if (!blank && written++ % 2 == 1) addAll(sentence until sentence + paragraph.sentences.size)
+        sentence += paragraph.sentences.size
+    }
 }

@@ -52,6 +52,7 @@ internal val ReadingStage.icon: ImageVector
     get() = when (this) {
         ReadingStage.READ_ALOUD -> AppIcons.MenuBook
         ReadingStage.LISTEN -> AppIcons.Headphones
+        ReadingStage.QUESTIONS -> AppIcons.Forum
         ReadingStage.WORDS -> AppIcons.ViewList
         ReadingStage.QUIZ -> AppIcons.School
         ReadingStage.FLASHCARDS -> AppIcons.Style
@@ -63,6 +64,7 @@ internal val ReadingStage.icon: ImageVector
 internal fun ReadingStage.title(): String = when (this) {
     ReadingStage.READ_ALOUD -> tr("Read aloud")
     ReadingStage.LISTEN -> tr("Listen")
+    ReadingStage.QUESTIONS -> tr("Questions")
     ReadingStage.WORDS -> tr("Check the words")
     ReadingStage.QUIZ -> tr("Quiz")
     ReadingStage.FLASHCARDS -> tr("Flashcards")
@@ -74,6 +76,7 @@ internal fun ReadingStage.title(): String = when (this) {
 private fun ReadingStage.hint(): String = when (this) {
     ReadingStage.READ_ALOUD -> tr("Read the text aloud and mark the words you do not know. Completing this stage marks the remaining words as known.")
     ReadingStage.LISTEN -> tr("Listen to the text with the play button. The original is blurred: point at a sentence to see it.")
+    ReadingStage.QUESTIONS -> tr("Answer each question on the story, then point at the blurred answer to compare.")
     ReadingStage.WORDS -> tr("Go over the page's words and put their statuses right.")
     ReadingStage.QUIZ -> tr("Answer the questions on the words you are learning.")
     ReadingStage.FLASHCARDS -> tr("Review today's flashcards without leaving the text.")
@@ -100,6 +103,7 @@ internal val ReadingStage.blursText: Boolean
  */
 @Composable
 internal fun StageChain(
+    stages: List<ReadingStage>,
     done: Set<ReadingStage>,
     current: ReadingStage,
     onSelect: (ReadingStage) -> Unit,
@@ -110,7 +114,7 @@ internal fun StageChain(
     val colors = MaterialTheme.colorScheme
     val gap = if (size < STAGE_SIZE) AppSpacing.xs else AppSpacing.m
     Row(modifier.testTag("stage-chain"), verticalAlignment = Alignment.CenterVertically) {
-        ReadingStage.entries.forEachIndexed { index, stage ->
+        stages.forEachIndexed { index, stage ->
             if (index > 0) Box(Modifier.width(gap).height(CONNECTOR_THICKNESS).background(colors.outlineVariant))
             StageCircle(stage, stage in done, stage == current, badges[stage] ?: 0, size) { onSelect(stage) }
         }
@@ -184,9 +188,9 @@ internal fun CheckStageButton(stage: ReadingStage, done: Boolean, onCheck: () ->
  * stage done in a dialog. Its place in the order is the chain's to show.
  */
 @Composable
-internal fun StageNote(stage: ReadingStage, onAction: () -> Unit, modifier: Modifier = Modifier) {
+internal fun StageNote(stage: ReadingStage, stages: List<ReadingStage>, onAction: () -> Unit, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
-    val number = tr("Stage {0} of {1}: {2}", stage.ordinal + 1, ReadingStage.entries.size, stage.title())
+    val number = tr("Stage {0} of {1}: {2}", stages.indexOf(stage) + 1, stages.size, stage.title())
     Row(
         modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.tint))
             .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.line)), AppShapes.card)

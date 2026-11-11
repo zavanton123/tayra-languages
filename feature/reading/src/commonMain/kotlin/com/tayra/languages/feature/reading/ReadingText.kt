@@ -222,6 +222,8 @@ fun ReadingText(
      * of a shown one hides it. [onRevealed] is asked to show or hide a sentence.
      */
     practice: Boolean = false,
+    /** While practising, the sentences (counted through the page) hidden; every one when null. */
+    hideOnly: Set<Int>? = null,
     revealed: Set<Int> = emptySet(),
     onRevealed: (sentence: Int, shown: Boolean) -> Unit = { _, _ -> },
     /** The translation comes first, the sentence after it: on the left beside it, or above it. */
@@ -268,7 +270,7 @@ fun ReadingText(
                 val isReading = readingSentence != null && (if (perSentence) place == readingSentence else readingRange != null)
                 val speakable = perSentence && onSpeakSentence != null && place != null
                 val no = sentenceNo++
-                val hidden = practice && no !in revealed
+                val hidden = practice && (hideOnly == null || no in hideOnly) && no !in revealed
                 val shown = practice && !hidden
                 val reveal = { shown: Boolean -> onRevealed(no, shown) }
                 val sentence: @Composable () -> Unit = {

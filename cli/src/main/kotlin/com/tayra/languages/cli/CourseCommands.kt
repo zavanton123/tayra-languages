@@ -148,7 +148,7 @@ private class LessonsEdit : Command("edit", "Change a lesson's title, summary or
 
     override fun run() = respond(cli, DoneJson.serializer(), changes = true) {
         val current = cli.course(course).course.lessons.firstOrNull { it.id == lesson } ?: notFound("Course $course has no lesson $lesson")
-        cli.get<CourseService>().updateLesson(course, lesson, LessonDraft(title ?: current.title, summary ?: current.summary, readInput(text, file) ?: current.text))
+        cli.get<CourseService>().updateLesson(course, lesson, LessonDraft(title ?: current.title, summary ?: current.summary, readInput(text, file) ?: current.text, current.questions))
         Output(DoneJson(message = "Saved lesson $lesson"), "Saved lesson $lesson")
     }
 }

@@ -83,6 +83,9 @@ internal fun Connection.pretendVersion(version: Int) {
         }
         createStatement().execute("ALTER TABLE pages DROP COLUMN stages")
     }
+    if (version <= 41 && createStatement().executeQuery("SELECT count(*) FROM pragma_table_info('lessons') WHERE name = 'questions'").use { it.getInt(1) } > 0) {
+        createStatement().execute("ALTER TABLE lessons DROP COLUMN questions")
+    }
     createStatement().execute("PRAGMA user_version = $version")
 }
 

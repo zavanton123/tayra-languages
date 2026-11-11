@@ -19,6 +19,7 @@ import androidx.compose.ui.test.assertCountEquals
 import com.tayra.languages.core.domain.courses.Course
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.Lesson
+import com.tayra.languages.core.domain.courses.LessonQuestion
 import com.tayra.languages.core.domain.courses.LessonReading
 import com.russhwolf.settings.MapSettings
 import kotlin.test.assertTrue
@@ -684,7 +685,8 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { courses.size == 1 }
         assertTrue(rule.onAllNodesWithContentDescription("Back to course").fetchSemanticsNodes().isEmpty(), "the breadcrumb is the way back")
         // Checking the last of its stages finishes the lesson.
-        for (checked in 1..ReadingStage.entries.size) {
+        assertTrue(rule.onAllNodesWithTag("stage-questions").fetchSemanticsNodes().isEmpty(), "a lesson without questions has no stage for them")
+        for (checked in 1..ReadingStage.of(hasQuestions = false).size) {
             rule.onNodeWithTag("check-stage").performClick()
             rule.waitUntil(5_000) { vm.state.value.stages.size == checked || courses.size == 2 }
             rule.waitForIdle()
@@ -725,6 +727,37 @@ class ReadingHoverTest {
         assertTrue(rule.onAllNodesWithText("Reader tools").fetchSemanticsNodes().isEmpty(), "a lesson's pane has no tools section")
     }
 
+    /** A lesson's questions are a stage of their own: the story gives way to them, each answer blurred, and Done checks it. */
+    @Test
+    fun aLessonsQuestionsAreAStageOfTheirOwn() {
+        val questions = listOf(LessonQuestion("Onde dorme o lobo?", "O lobo dorme na floresta."), LessonQuestion("Quem dorme?", "O lobo."))
+        val course = Course("pt-mini-0100", "pt", "Em casa", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme na floresta.", questions = questions)))
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, vocabularyList) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, onCourse = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-chain").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(ReadingStage.of(hasQuestions = true), vm.state.value.pageStages)
+        assertEquals(ReadingStage.QUESTIONS, vm.state.value.pageStages[2], "after listening")
+
+        rule.onNodeWithTag("stage-questions").performClick()
+        rule.waitUntil(5_000) { vm.state.value.stage == ReadingStage.QUESTIONS && vm.state.value.items.any { it.renderText == "Quem" } }
+        assertTrue(vm.state.value.page === vm.state.value.questionsPage, "the story gives way to the questions")
+        System.getenv("QUESTIONS_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
+        // The questions show; their answers are blurred, a sentence each.
+        assertEquals(2, rule.onAllNodesWithContentDescription("Hidden sentence").fetchSemanticsNodes().size)
+        // Their words are the reader's: one is picked as on the story.
+        vm.markToLearn(vm.index("Quem"))
+        rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "Quem" && it.status.isLearning } }
+
+        rule.onNodeWithTag("questions-done").performClick()
+        rule.waitUntil(5_000) { ReadingStage.QUESTIONS in vm.state.value.stages }
+        rule.waitUntil(5_000) { vm.state.value.stage == ReadingStage.WORDS }
+        assertTrue(vm.state.value.page === vm.state.value.storyPage, "the next stage works on the story again")
+    }
+
     /** Checking a lesson's last stage shows what it came to over confetti, and opens the next lesson from there. */
     @Test
     fun aFinishedLessonShowsItsSummaryAndOpensTheNext() {
@@ -741,7 +774,7 @@ class ReadingHoverTest {
         rule.setContent { if (shown) ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, onCourse = {}, viewModel = vm) }
         vm.markToLearn(vm.index("lobo"))
         rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "lobo" && it.status.isLearning } }
-        for (stage in ReadingStage.entries.dropLast(1)) {
+        for (stage in ReadingStage.of(hasQuestions = false).dropLast(1)) {
             vm.selectStage(stage)
             vm.checkStage()
             rule.waitUntil(5_000) { stage in vm.state.value.stages }
