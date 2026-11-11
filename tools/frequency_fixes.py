@@ -2399,24 +2399,25 @@ OVERRIDES["he"].update({
 # Words the list had with the article (הרכב, הקדוש, העצים "the trees", הנשים "the women", הלחם, הקפה, המראה, הימין,
 # which the pack has only as other words: "to empower", "to resuscitate", "portmanteau"): the article and the word.
 HEBREW_CUT |= {"הרכב", "הקדוש", "העצים", "הנשים", "הלחם", "הקפה", "המראה", "הימין"}
-# Forms the pack has as words of their own whose use in text is mostly the form: a verb's present (עובד "works", עולה
-# "goes up, costs", מוצא "finds", מדבר "speaks", מקווה "hopes") and an adjective's feminine or plural (צריכה, ראשונה, רבה);
-# and forms it files under a look-alike (עשו under עש, הכינה under הכה, יחשבו under נחשב, מקבלת under מקובל, מדברת under
-# דבר). הרים is the mountains as often as "he raised", מדבר "desert" is "speaks" too: both.
+# Forms the pack has as words of their own whose use in text is mostly the form: a verb's present (עובד "works",
+# עולה "goes up, costs", מוצא "finds", מקווה "hopes") and an adjective's feminine or plural (צריכה, ראשונה, רבה); and
+# forms it files under a look-alike (עשו under עש, הכינה under הכה, יחשבו under נחשב, מקבלת under מקובל, מדברת under
+# דבר, מותקן "installed" under מותק). הרים is mountains as often as "he raised", and מדבר "speaks" as "desert": both.
 _HEBREW_FORMS_OF = {
-    "עבד": "עובד", "עלה": "עולה", "מצא": "מוצא מוצאות מוצאת", "דיבר": "מדבר מדברת", "קיווה": "מקווה",
+    "עבד": "עובד", "עלה": "עולה", "מצא": "מוצא מוצאות מוצאת", "דיבר": "מדברת", "קיווה": "מקווה",
     "השתמש": "משתמש", "ישב": "יושב יושבת", "עבר": "עובר", "קבע": "קובע קובעת", "הלך": "הולכות", "סדר": "מסדר מסדרים",
     "צריך": "צריכה", "ראשון": "ראשונה", "רב": "רבה", "שונה": "שונות", "ישראלי": "ישראלית", "חזק": "חזקה", "קל": "קלה",
     "רחב": "רחבה", "צעיר": "צעירה", "קרוב": "קרובה", "מנהל": "מנהלת מנהלות", "שחקן": "שחקנית שחקניות",
     "תלמיד": "תלמידה תלמידות", "כוהן": "כוהנים", "צעק": "צעקתם",
     "עשה": "עשו", "הכין": "הכינה", "חשב": "יחשבו", "קיבל": "מקבלת מקבלות", "הוריד": "הורידו", "חזר": "חזרת",
-    "כשר": "כשרים", "למד": "לומדת", "מס": "מסים",
+    "כשר": "כשרים", "למד": "לומדת", "מס": "מסים", "הבטיח": "הבטחתי", "תיקן": "מתקנת", "פרסם": "מפרסמת",
+    "התקין": "מותקן מותקנת מותקנים מותקנות",
 }
 OVERRIDES["he"].update({f: [head] for head, forms in _HEBREW_FORMS_OF.items() for f in forms.split()})
 OVERRIDES["he"].update({"הרים": ["הר", "הרים"], "מדבר": ["דיבר", "מדבר"]})
 # A verb's present in מ (מאמינות of האמין, מעדיף, מזמין, מתכונן) and a hif'il's past in ה with a person after it
-# (הבאתי of הביא, העברנו, הגדלתי), and other forms (מהגרים, שגויים, כימית), whose letters in front and what is left are a
-# word of the list too (מ + אמינות, ה + באתי): texts write the form far more than the cut gives, so they are read whole.
+# (הבאתי of הביא, העברנו, הגדלתי), and other forms (מהגרים, שגויים, כימית), whose letters in front and what is left
+# are a word of the list too (מ + אמינות, ה + באתי): texts write the form far more than the cut gives: read whole.
 _HEBREW_WHOLE_FORMS = {
     "קיבל": "מקבל",
     "הביא": "הבאתי הבאנו", "הגיד": "מגידים", "האמין": "מאמין מאמינות", "העביר": "מעבירות העברתי העברנו העברתם",
