@@ -366,4 +366,12 @@ internal val deCourses: Map<String, String> = mapOf(
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Aktiviere auch „Stapelprofile (falls enthalten) ebenfalls importieren“, damit der Stapel diese Karteneinstellungen behält.",
     "Something went wrong while making the deck." to "Beim Erstellen des Stapels ist etwas schiefgelaufen.",
     "Making the first card's sound. The others are made in the background while you review." to "Der Ton der ersten Karte wird erstellt. Die übrigen entstehen im Hintergrund, während du wiederholst.",
+    // CourseForms.kt: lesson questions
+    "Questions on the story and their answers. While they are worked, the story is hidden and each answer blurred until looked at." to "Fragen zur Geschichte und ihre Antworten. Während du sie bearbeitest, ist die Geschichte ausgeblendet und jede Antwort verschwommen, bis du sie ansiehst.",
+    "Question {0}" to "Frage {0}",
+    "Its answer" to "Die Antwort darauf",
+    "Remove question {0}" to "Frage {0} entfernen",
+    "Add question" to "Frage hinzufügen",
+    "Each question needs an answer" to "Jede Frage braucht eine Antwort",
+    "Each answer needs its question" to "Jede Antwort braucht ihre Frage",
 )

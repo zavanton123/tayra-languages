@@ -15,6 +15,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -39,11 +40,13 @@ import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.courses.CourseValidationException
 import com.tayra.languages.core.domain.courses.LessonDraft
+import com.tayra.languages.core.domain.courses.LessonQuestion
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.web.WebPageException
 import com.tayra.languages.core.domain.web.WebPageReader
 import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -286,7 +289,7 @@ class LessonFormViewModel(
                 isNew = lesson == null,
                 courseTitle = course?.title.orEmpty(),
                 languageName = course?.languageId?.let { languages.getById(it)?.name }.orEmpty(),
-                draft = lesson?.let { LessonDraft(it.title, it.summary, it.text) } ?: LessonDraft("", text = ""),
+                draft = lesson?.let { LessonDraft(it.title, it.summary, it.text, it.questions) } ?: LessonDraft("", text = ""),
                 error = if (course == null) tr("This course no longer exists.") else null,
                 readsWebPages = webPages != null,
             )
@@ -436,6 +439,49 @@ internal fun LessonFormContent(
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
         }
+    }
+    LessonQuestionsCard(state.draft.questions) { questions -> onChange { it.copy(questions = questions) } }
+}
+
+/** The questions on the lesson's story, worked through in a stage of their own after the text is read and heard. */
+@Composable
+private fun LessonQuestionsCard(questions: List<LessonQuestion>, onChange: (List<LessonQuestion>) -> Unit) {
+    ContentCard(
+        tr("Questions"),
+        tr("Questions on the story and their answers. While they are worked, the story is hidden and each answer blurred until looked at."),
+        icon = AppIcons.Forum,
+        modifier = Modifier.widthIn(max = AppSizes.readableWidth),
+    ) {
+        questions.forEachIndexed { index, item ->
+            Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                    AppTextField(
+                        value = item.question,
+                        onValueChange = { text -> onChange(questions.toMutableList().also { it[index] = item.copy(question = text) }) },
+                        placeholder = { Text(tr("Question {0}", index + 1)) },
+                        modifier = Modifier.fillMaxWidth().testTag("lesson-question-$index"),
+                    )
+                    AppTextField(
+                        value = item.answer,
+                        onValueChange = { text -> onChange(questions.toMutableList().also { it[index] = item.copy(answer = text) }) },
+                        placeholder = { Text(tr("Its answer")) },
+                        modifier = Modifier.fillMaxWidth().testTag("lesson-answer-$index"),
+                    )
+                }
+                AppIconButton(
+                    AppIcons.RemoveCircle,
+                    contentDescription = tr("Remove question {0}", index + 1),
+                    onClick = { onChange(questions.filterIndexed { i, _ -> i != index }) },
+                    modifier = Modifier.testTag("lesson-question-remove-$index"),
+                )
+            }
+        }
+        SecondaryButton(
+            tr("Add question"),
+            onClick = { onChange(questions + LessonQuestion("", "")) },
+            icon = Icons.Default.Add,
+            modifier = Modifier.testTag("lesson-question-add"),
+        )
     }
 }
 

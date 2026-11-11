@@ -366,4 +366,12 @@ internal val elCourses: Map<String, String> = mapOf(
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Επιλέξτε επίσης «Εισαγωγή προεπιλογών τραπουλών», ώστε η τράπουλα να κρατήσει αυτές τις ρυθμίσεις καρτών.",
     "Something went wrong while making the deck." to "Κάτι πήγε στραβά κατά τη δημιουργία της τράπουλας.",
     "Making the first card's sound. The others are made in the background while you review." to "Δημιουργείται ο ήχος της πρώτης κάρτας. Οι υπόλοιποι δημιουργούνται στο παρασκήνιο όσο κάνετε επανάληψη.",
+    // CourseForms.kt: lesson questions
+    "Questions on the story and their answers. While they are worked, the story is hidden and each answer blurred until looked at." to "Ερωτήσεις για την ιστορία και οι απαντήσεις τους. Όσο τις δουλεύεις, η ιστορία είναι κρυμμένη και κάθε απάντηση θολή μέχρι να τη δεις.",
+    "Question {0}" to "Ερώτηση {0}",
+    "Its answer" to "Η απάντησή της",
+    "Remove question {0}" to "Αφαίρεση ερώτησης {0}",
+    "Add question" to "Προσθήκη ερώτησης",
+    "Each question needs an answer" to "Κάθε ερώτηση χρειάζεται απάντηση",
+    "Each answer needs its question" to "Κάθε απάντηση χρειάζεται την ερώτησή της",
 )

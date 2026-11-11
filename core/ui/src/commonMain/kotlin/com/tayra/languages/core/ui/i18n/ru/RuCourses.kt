@@ -366,4 +366,12 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Отметьте и «Импортировать конфигурации колод», чтобы колода сохранила эти настройки карточек.",
     "Something went wrong while making the deck." to "При создании колоды что-то пошло не так.",
     "Making the first card's sound. The others are made in the background while you review." to "Создаётся звук первой карточки. Остальные создаются в фоне, пока вы повторяете.",
+    // CourseForms.kt: lesson questions
+    "Questions on the story and their answers. While they are worked, the story is hidden and each answer blurred until looked at." to "Вопросы по рассказу и ответы на них. Пока ты с ними работаешь, рассказ скрыт, а каждый ответ размыт, пока ты на него не посмотришь.",
+    "Question {0}" to "Вопрос {0}",
+    "Its answer" to "Ответ на него",
+    "Remove question {0}" to "Удалить вопрос {0}",
+    "Add question" to "Добавить вопрос",
+    "Each question needs an answer" to "У каждого вопроса должен быть ответ",
+    "Each answer needs its question" to "У каждого ответа должен быть вопрос",
 )

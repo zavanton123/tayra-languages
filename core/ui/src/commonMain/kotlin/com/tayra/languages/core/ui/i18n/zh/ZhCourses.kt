@@ -366,4 +366,12 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "同时勾选“导入所有牌组预设配置”，牌组即可保留这些卡片设置。",
     "Something went wrong while making the deck." to "创建牌组时出错。",
     "Making the first card's sound. The others are made in the background while you review." to "正在生成第一张卡片的声音。其余声音会在你复习时在后台生成。",
+    // CourseForms.kt: lesson questions
+    "Questions on the story and their answers. While they are worked, the story is hidden and each answer blurred until looked at." to "关于故事的问题及其答案。做题时故事会被隐藏，每个答案在你查看之前都是模糊的。",
+    "Question {0}" to "问题 {0}",
+    "Its answer" to "答案",
+    "Remove question {0}" to "删除问题 {0}",
+    "Add question" to "添加问题",
+    "Each question needs an answer" to "每个问题都需要答案",
+    "Each answer needs its question" to "每个答案都需要对应的问题",
 )

@@ -366,4 +366,12 @@ internal val plCourses: Map<String, String> = mapOf(
     "Tick “Import any deck presets” too for the deck to keep these flashcard settings." to "Zaznacz też „Importuj opcje talii”, aby talia zachowała te ustawienia fiszek.",
     "Something went wrong while making the deck." to "Coś poszło nie tak podczas tworzenia talii.",
     "Making the first card's sound. The others are made in the background while you review." to "Tworzenie dźwięku pierwszej karty. Pozostałe powstają w tle podczas powtórki.",
+    // CourseForms.kt: lesson questions
+    "Questions on the story and their answers. While they are worked, the story is hidden and each answer blurred until looked at." to "Pytania do historii i odpowiedzi na nie. Gdy nad nimi pracujesz, historia jest ukryta, a każda odpowiedź rozmyta, dopóki na nią nie spojrzysz.",
+    "Question {0}" to "Pytanie {0}",
+    "Its answer" to "Odpowiedź na nie",
+    "Remove question {0}" to "Usuń pytanie {0}",
+    "Add question" to "Dodaj pytanie",
+    "Each question needs an answer" to "Każde pytanie potrzebuje odpowiedzi",
+    "Each answer needs its question" to "Każda odpowiedź potrzebuje swojego pytania",
 )
