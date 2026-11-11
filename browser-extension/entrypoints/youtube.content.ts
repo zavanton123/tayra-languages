@@ -27,6 +27,9 @@ const HOVER_DELAY_MS = 350;
 const HOVER_AGAIN_MS = 120;
 const HOVER_HIDE_MS = 250;
 
+/** How long adding a video to Tayra may take: the app makes its transcript first. */
+const ADD_TIMEOUT_MS = 30_000;
+
 /** How many other lines with the word its card shows. */
 const CARD_EXAMPLES = 5;
 
@@ -401,23 +404,23 @@ export default defineContentScript({
       if (bookId !== null) return Promise.resolve(bookId);
       const request = addRequest;
       if (!request) return Promise.resolve(null);
-      adding ??= ask({ type: 'addVideo', request }).then(
-        (answer) => {
+      adding ??= (async () => {
+        try {
+          const answer = await within(ask({ type: 'addVideo', request }), ADD_TIMEOUT_MS);
           if (addRequest !== request) return null;
-          if (!answer.ok) {
+          if (!answer?.ok) {
             addFailed = true;
-            adding = null;
             return null;
           }
           bookId = answer.data.bookId;
           if (answer.data.added) overlay.say('Added to Tayra’s Videos', 2500);
           return bookId;
-        },
-        () => {
-          adding = null;
+        } catch {
           return null;
-        },
-      );
+        } finally {
+          if (bookId === null && addRequest === request) adding = null;
+        }
+      })();
       return adding;
     }
 
@@ -427,6 +430,7 @@ export default defineContentScript({
         overlay.say('Open Tayra, learning this video’s language, to bookmark its lines.', 4000);
         return;
       }
+      if (bookId === null) overlay.say('Adding the video to Tayra…', ADD_TIMEOUT_MS);
       const id = await addToLibrary();
       if (id === null) return overlay.say('Tayra could not add the video.', 3000);
       const line = lines[player.current()];
@@ -442,6 +446,7 @@ export default defineContentScript({
         overlay.say('Open Tayra, learning this video’s language, to watch it there.', 4000);
         return;
       }
+      if (bookId === null) overlay.say('Adding the video to Tayra…', ADD_TIMEOUT_MS);
       const id = await addToLibrary();
       if (id === null) return overlay.say('Tayra could not add the video.', 3000);
       const playing = media();
@@ -660,4 +665,21 @@ function meaningOf(word: LookupResponse): string | null {
   const senses = word.entries[0]?.senses ?? [];
   const text = senses.slice(0, 2).map((glosses) => glosses.slice(0, 3).join(', ')).join('; ');
   return text || null;
+}
+
+/** [promise]'s value, or null when it takes longer than [ms]. */
+function within<T>(promise: Promise<T>, ms: number): Promise<T | null> {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => resolve(null), ms);
+    promise.then(
+      (value) => {
+        clearTimeout(timer);
+        resolve(value);
+      },
+      (error: unknown) => {
+        clearTimeout(timer);
+        reject(error);
+      },
+    );
+  });
 }
