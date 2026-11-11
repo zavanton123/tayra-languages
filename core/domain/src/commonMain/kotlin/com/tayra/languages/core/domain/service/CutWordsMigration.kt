@@ -1,9 +1,11 @@
 package com.tayra.languages.core.domain.service
 
 import com.tayra.languages.core.domain.book.SentenceBuilder
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.model.ZWS_STRING
+import com.tayra.languages.core.domain.parse.Lexicons
 import com.tayra.languages.core.domain.parse.lowercase
 import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.repository.LanguageRepository
@@ -19,7 +21,9 @@ import com.tayra.languages.core.domain.term.TermTextNormalizer
  * one, keeping the more advanced status and whatever either has that the other lacks. A phrase is cut again, and the
  * language's stored sentences are made again. Words are matched without their vowel signs now, so a term saved with
  * them (أيضًا) is matched as أيضا. Thai's parser came to cut no word inside a syllable (ต่อมา is ต่อ + มา, no longer ต่อม +
- * า): a phrase saved over the old cut is cut again, while a word saved stays the word it is. Armenian cuts nothing, but
+ * า): a phrase saved over the old cut is cut again, while a word saved stays the word it is, unless the lexicon has it and
+ * the reader still reads it, alone, as several words (ไม่ดี is ไม่ + ดี, คิดว่า คิด + ว่า): it becomes those words, a
+ * phrase. Armenian cuts nothing, but
  * matches և written as two letters (կարեւոր) as the one (կարևոր). Run at start: it changes nothing once the terms are as
  * the reader reads them.
  */
@@ -39,7 +43,6 @@ class CutWordsMigration(
         val out = mutableMapOf<Long, Change>()
         for (language in cutting) {
             val saved = terms.list(TermListFilter(languageId = language.id, includeIgnored = true), TermListSort(), 0, Int.MAX_VALUE).items
-                .filter { it.tokenCount != 1 || language.parserType !in WHOLE_WORDS }
             if (saved.isEmpty()) continue
             prepare(language)
             val change = migrate(language, saved.map { it.id })
@@ -58,7 +61,12 @@ class CutWordsMigration(
             val term = terms.getById(id) ?: continue
             val pieces = TermTextNormalizer.normalize(language, term.displayText)
             // A word is the word its letters in front are on; a phrase is its words as they are cut now.
-            val text = if (term.tokenCount == 1) pieces.substringAfterLast(ZWS_STRING) else pieces
+            val text = when {
+                term.tokenCount != 1 -> pieces
+                language.parserType !in WHOLE_WORDS -> pieces.substringAfterLast(ZWS_STRING)
+                inLexicon(language, term.textLc) -> pieces
+                else -> term.text
+            }
             val textLc = language.lowercase(text)
             val tokenCount = TermTextNormalizer.tokenCount(text)
             if (text.isEmpty() || text == term.text && textLc == term.textLc && tokenCount == term.tokenCount) continue
@@ -83,6 +91,10 @@ class CutWordsMigration(
         return Change(cut, merged)
     }
 
+    /** Whether the language's lexicon, loaded by [prepare], has [word]. */
+    private fun inLexicon(language: Language, word: String): Boolean =
+        LanguageCodes.codeFor(language.name)?.let { Lexicons[it] }?.contains(word) == true
+
     private suspend fun rebuildSentences(language: Language) {
         for (book in books.getBooks().filter { it.languageId == language.id }) {
             for (page in books.getPages(book.id)) books.replaceSentences(page.id, SentenceBuilder.build(page.text, language))
@@ -100,7 +112,7 @@ class CutWordsMigration(
         /** The parsers that cut a word written as one into words, or match a saved word otherwise than it was saved. */
         val PARSERS = setOf("arabic", "thai", "persian", "hebrew", "armenian")
 
-        /** Those whose saved words stay whole: only their phrases are cut again. */
+        /** Those whose saved words stay whole, but those of the lexicon the reader reads as several words. */
         val WHOLE_WORDS = setOf("thai")
     }
 }
