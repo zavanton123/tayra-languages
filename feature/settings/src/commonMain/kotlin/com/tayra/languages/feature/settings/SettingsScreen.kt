@@ -1,6 +1,5 @@
 package com.tayra.languages.feature.settings
 
-import com.tayra.languages.core.ui.isDebugBuild
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.domain.service.TranslationEngine
@@ -236,7 +235,7 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
         SettingsPage(tr("Vocabulary"), tr("How much of the language you know already."), Route.VocabularySettings, AppIcons.Abc),
         if (compact) null else SettingsPage(tr("Keyboard shortcuts"), tr("Customise how you navigate and listen while reading."), Route.Shortcuts, AppIcons.Keyboard),
         SettingsPage(tr("About"), tr("The version of the app and where it comes from."), Route.About, Icons.Default.Info),
-        if (isDebugBuild) SettingsPage(tr("Experimental features"), tr("Turn on features that are still being built."), Route.ExperimentalFeatures, AppIcons.Lightbulb) else null,
+        SettingsPage(tr("Experimental features"), tr("Turn on features that are still being built."), Route.ExperimentalFeatures, AppIcons.Lightbulb),
     )
     val resources = listOf(
         SettingsPage(tr("Downloads"), tr("Course and book packs, dictionaries, voices and offline models, to download or remove."), Route.Downloads, AppIcons.Download),

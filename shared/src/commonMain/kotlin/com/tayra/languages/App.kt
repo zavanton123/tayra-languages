@@ -9,7 +9,6 @@ import com.tayra.languages.core.ui.components.LocalLearnedScript
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.ui.components.LocalFlashcardsDue
 import com.tayra.languages.core.ui.components.LocalVideosEnabled
-import com.tayra.languages.core.ui.isDebugBuild
 import com.tayra.languages.core.ui.media.videoSupported
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -196,7 +195,7 @@ fun App(titleBarInset: Dp = 0.dp) {
                             LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { autoSync.request() }
                             CompositionLocalProvider(
                                 LocalFlashcardsDue provides due,
-                                LocalVideosEnabled provides (videoSupported && isDebugBuild && settings.experimentalVideos),
+                                LocalVideosEnabled provides (videoSupported && settings.experimentalVideos),
                             ) {
                                 Column {
                                     AppUpdateBanner()

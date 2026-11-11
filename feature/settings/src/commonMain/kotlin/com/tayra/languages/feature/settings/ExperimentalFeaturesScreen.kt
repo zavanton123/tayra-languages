@@ -27,7 +27,6 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppSpacing
 import org.koin.compose.viewmodel.koinViewModel
 
-/** Debug builds only, as their menus are the only way here. */
 @Composable
 fun ExperimentalFeaturesScreen(
     onNavigate: (Route) -> Unit,

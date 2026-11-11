@@ -42,7 +42,6 @@ import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.ui.semantics.Role
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
-import com.tayra.languages.core.ui.isDebugBuild
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
@@ -55,7 +54,7 @@ enum class NavSection(val label: String) { HOME("Home"), COURSES("Courses"), BOO
 /** How many flashcards wait today, shown beside the Flashcards tab; provided at the root of the app. */
 val LocalFlashcardsDue = compositionLocalOf { 0 }
 
-/** Whether the menus offer videos: an experimental feature, turned on in debug builds; provided at the root of the app. */
+/** Whether the menus offer videos: an experimental feature, on unless turned off; provided at the root of the app. */
 val LocalVideosEnabled = compositionLocalOf { false }
 
 /** [label] is English, shown through `tr`. */
@@ -90,7 +89,7 @@ private fun menuGroups(videos: Boolean) = listOfNotNull(
             MenuEntry("Translation", Route.OfflineTranslation),
             MenuEntry("Backups", Route.Backups),
             MenuEntry("About", Route.About),
-            MenuEntry("Experimental features", Route.ExperimentalFeatures).takeIf { isDebugBuild },
+            MenuEntry("Experimental features", Route.ExperimentalFeatures),
         ),
     ),
 )

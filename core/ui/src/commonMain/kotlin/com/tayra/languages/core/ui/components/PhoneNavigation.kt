@@ -28,7 +28,6 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
-import com.tayra.languages.core.ui.isDebugBuild
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppSpacing
@@ -123,7 +122,7 @@ private fun moreGroups(videos: Boolean) = listOf(
             MoreEntry("Languages", AppIcons.Globe, Route.Languages),
             MoreEntry("Backups", AppIcons.UploadFile, Route.Backups),
             MoreEntry("About", Icons.Default.Info, Route.About),
-            MoreEntry("Experimental features", AppIcons.Lightbulb, Route.ExperimentalFeatures).takeIf { isDebugBuild },
+            MoreEntry("Experimental features", AppIcons.Lightbulb, Route.ExperimentalFeatures),
         ),
     ),
 )

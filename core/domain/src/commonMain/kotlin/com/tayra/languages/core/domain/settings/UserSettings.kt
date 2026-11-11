@@ -19,8 +19,8 @@ data class UserSettings(
     val themeId: String = DEFAULT_THEME,
     /** Keep the screens still: no sliding, fading or flipping, for those whom motion bothers. */
     val reduceMotion: Boolean = false,
-    /** Experimental features, offered in debug builds only: videos. */
-    val experimentalVideos: Boolean = false,
+    /** Videos, still an experimental feature: on unless turned off in Experimental features. */
+    val experimentalVideos: Boolean = true,
     /** Show the four learning levels, 1 to 4, rather than one Learning status; the levels are kept either way. */
     val showLearningLevels: Boolean = false,
     val statsSampleSize: Int = 5,
