@@ -25,6 +25,8 @@ import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.DictionarySense
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
+import com.tayra.languages.core.domain.frequency.FrequencyList
+import com.tayra.languages.core.domain.frequency.FrequencyLists
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.ReadingService
@@ -76,7 +78,10 @@ class BrowserBridgeTest {
         val translator = object : SentenceTranslator {
             override suspend fun translate(text: String, language: Language) = "<$text>"
         }
-        val api = BrowserBridgeApi(settings, languages, reading, termService, dictionary, translator, "9.9.9")
+        val frequency = object : FrequencyLists {
+            override suspend fun list(languageCode: String) = FrequencyList.parse("o\to\ndormir\tdormir dorme\ngato\tgato").takeIf { languageCode == "pt" }
+        }
+        val api = BrowserBridgeApi(settings, languages, reading, termService, dictionary, translator, "9.9.9", frequency)
         val portuguese = runBlocking { languages.save(Language(name = "Portuguese")) }
 
         init {
@@ -104,6 +109,12 @@ class BrowserBridgeTest {
         assertEquals("gato", gato.lc)
         assertEquals(TermStatus.UNKNOWN.value, first.single { it.text == "dorme" }.status)
         assertNull(first.single { it.text == "." }.lc, "punctuation is no word")
+    }
+
+    @Test
+    fun wordsComeWithTheirFrequencyRankThroughAnyOfTheirForms() = runBlocking<Unit> {
+        val answer = Env().api.transcript(TranscriptRequest("abc", "pt", automatic = false, original = json3(1000L to "O gato dorme.", 3000L to "Bom dia.")))
+        assertEquals(mapOf("o" to 1, "dorme" to 2, "gato" to 3), answer.ranks)
     }
 
     @Test

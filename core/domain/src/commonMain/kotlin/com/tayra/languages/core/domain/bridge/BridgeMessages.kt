@@ -38,6 +38,8 @@ data class TranscriptResponse(
     val languageMatches: Boolean,
     val language: BridgeLanguage?,
     val lines: List<BridgeLine>,
+    /** Each word's place in the language's frequency list, 1 for the most common, by what its status is kept under; words the list lacks are left out. */
+    val ranks: Map<String, Int> = emptyMap(),
 )
 
 /** A line of the cleaned subtitles, cut into what the reader shows: words and phrases, and the text between them. */

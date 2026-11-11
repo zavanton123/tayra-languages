@@ -41,6 +41,8 @@ export interface TranscriptResponse {
   languageMatches: boolean;
   language: BridgeLanguage | null;
   lines: BridgeLine[];
+  /** Each word's place in the language's frequency list, by its lc; older apps send none. */
+  ranks?: Record<string, number>;
 }
 
 export interface BridgeEntry {

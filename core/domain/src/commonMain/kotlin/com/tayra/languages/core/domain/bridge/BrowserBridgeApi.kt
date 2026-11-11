@@ -3,6 +3,7 @@ package com.tayra.languages.core.domain.bridge
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
+import com.tayra.languages.core.domain.frequency.FrequencyLists
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.media.SubtitleFormat
 import com.tayra.languages.core.domain.media.SubtitleFormats
@@ -34,7 +35,11 @@ class BrowserBridgeApi(
     private val dictionary: OfflineDictionary,
     private val translator: SentenceTranslator,
     private val version: String? = null,
+    private val frequency: FrequencyLists? = null,
 ) {
+    private var rankedFor: String? = null
+    private var rankOf: Map<String, Int> = emptyMap()
+
     suspend fun status(): BridgeStatus = BridgeStatus(learning()?.let(::describe), native(), version)
 
     suspend fun transcript(request: TranscriptRequest): TranscriptResponse {
@@ -55,7 +60,20 @@ class BrowserBridgeApi(
                 segments = if (index != null) segments(cue.text, language!!, index) else emptyList(),
             )
         }
-        return TranscriptResponse(matches, language?.let(::describe), lines)
+        val ranks = if (matches) ranks(code!!, lines) else emptyMap()
+        return TranscriptResponse(matches, language?.let(::describe), lines, ranks)
+    }
+
+    /** The rank of each word of [lines] that the frequency list of [code] has, as a word or as one of its forms. */
+    private suspend fun ranks(code: String, lines: List<BridgeLine>): Map<String, Int> {
+        if (rankedFor != code) {
+            val list = frequency?.let { runCatching { it.list(code) }.getOrNull() }
+            val ranks = HashMap<String, Int>()
+            list?.words?.forEach { word -> (word.forms + word.key).forEach { ranks.getOrPut(it) { word.rank } } }
+            rankOf = ranks
+            rankedFor = code
+        }
+        return lines.asSequence().flatMap { it.segments }.mapNotNull { it.lc }.distinct().mapNotNull { lc -> rankOf[lc]?.let { lc to it } }.toMap()
     }
 
     private suspend fun segments(text: String, language: Language, index: MultiwordTermIndex): List<BridgeSegment> =
