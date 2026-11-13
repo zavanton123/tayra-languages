@@ -37,6 +37,12 @@ BAND = 100
 # signs, virama, nukta and Devanagari digits, without the danda; Python's \w leaves out the signs and would cut every word.
 HINDI_WORD = re.compile(r"[a-zA-Z\u0900-\u0963\u0966-\u097f\u200c\u200d]+")
 PERSIAN_WORD = re.compile(r"[^\W\d_]+(?:\u200c[^\W\d_]+)*", re.UNICODE)
+# Yiddish words as the reader cuts them (its wordCharacters in AddedLanguages.kt): Hebrew letters with their points, the
+# maqaf, the geresh and gershayim, the presentation forms, and the apostrophe, which its characterSubstitutions write for
+# ´ ` ’ ‘. Python's \w leaves out the points and would cut אַ off its word. The reader matches words as written, points and
+# all, with no other folding: פֿון and פון are two words to it.
+YIDDISH_WORD = re.compile("[\u0591-\u05c7\u05d0-\u05f4\ufb1d-\ufb4f']+")
+YIDDISH_APOSTROPHES = str.maketrans("´`’‘", "''''")
 
 
 def rules(rank_up_to):
@@ -550,6 +556,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return finnic_tokens(text, code)
     if code == "hi":
         return HINDI_WORD.findall(text)
+    if code == "yi":
+        return YIDDISH_WORD.findall(text.translate(YIDDISH_APOSTROPHES))
     # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
     if code == "fa":
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
@@ -1838,6 +1846,29 @@ _hebrew = {}
 HEBREW_WORD = re.compile("[\u05d0-\u05ea\u05f3\u05f4]+")
 
 
+def yiddish_spelling_problems(text):
+    """
+    Spellings the reader would not match with the list's, which writes a point after its letter as a character of its own
+    (אַ as א + ַ, in Unicode's order), ey as two yods (קליין), ay as the ligature with its patah (ײַ), and וו, וי as two
+    letters: a presentation form (אַ or פֿ as one character), the ligatures װ and ױ, ײ without its patah, ייַ, or points in
+    another order.
+    """
+    import unicodedata
+    problems = []
+    for found in sorted(set(re.findall("[\ufb1d-\ufb4f]", text))):
+        problems.append(f"'{found}' is one character: write the letter and its point ({unicodedata.normalize('NFD', found)})")
+    if re.search("[\u05f0\u05f1]", text):
+        problems.append("write װ and ױ as two letters (וו, וי), as the list does")
+    if re.search("\u05f2(?!\u05b7)", text):
+        problems.append("write ey as two yods (יי), not the ligature ײ, as the list does")
+    if "\u05d9\u05d9\u05b7" in text:
+        problems.append("write ay as the ligature and its patah (ײַ), not ייַ, as the list does")
+    plain = re.sub("[\ufb1d-\ufb4f]", "", text)
+    if unicodedata.normalize("NFC", plain) != plain:
+        problems.append("a letter's points are in another order than the list's: retype the word")
+    return problems
+
+
 def hebrew_spelled(text):
     """[text] as the reader matches it: without points or cantillation, the geresh and gershayim as the Hebrew signs."""
     text = re.sub("[\u0591-\u05bd\u05bf\u05c1\u05c2\u05c4\u05c5\u05c7]", "", text)
@@ -2231,7 +2262,7 @@ QUESTION_HEADERS = {
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
-        "Câu hỏi:", "Pyetje:", "Govynnow:",
+        "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:",
     )
 }
 
@@ -2475,7 +2506,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "he", "ca", "id", "hr", "bs", "bg", "ro", "mk", "fa") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "he", "ca", "id", "hr", "bs", "bg", "ro", "mk", "fa", "yi") else []
     # So is an Egyptian one (شرم الشيخ, بور سعيد).
     if code == "arz":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
@@ -2494,6 +2525,9 @@ def check(path, brief=False):
         names = names | russian_name_forms(course.get("names", []))
     if code == "uk":
         names = names | ukrainian_name_forms(course.get("names", []))
+    # A Yiddish name takes the possessive -ס, or -עס after a sibilant, or -'ס (חנהס, מאָריסעס, מאָשע'ס).
+    if code == "yi":
+        names = names | {n + ending for n in names for ending in ("ס", "עס", "'ס")}
     # Armenian names take the article and the case endings (Արամը, Աննայի, Երևանում); a name of several words (Լոս Անջելես)
     # counts as one known word wherever it is written whole.
     if code == "hy":
@@ -2639,6 +2673,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^أسئلة:", "", text)
         if code == "he":
             text = re.sub(r"(?m)^שאלות:", "", text)
+        if code == "yi":
+            text = re.sub(r"(?m)^פֿראַגעס:", "", text)
         if code == "hu":
             text = re.sub(r"(?m)^Kérdések:", "", text)
         if code == "ca":
@@ -2792,6 +2828,8 @@ def check(path, brief=False):
         # A Bosnian name spelled as an ekavian word (Zenica, zjenica's) is a name.
         for t in sorted({t for t in lowered if t in serbian and not (code == "bs" and t in names)}):
             problems.append(f"'{t}' is ekavian: write {serbian[t]} (ijekavian Bosnian)" if code == "bs" else f"'{t}' is Serbian or ekavian: write {serbian[t]} (ijekavian Croatian)")
+        if code == "yi":
+            problems.extend(yiddish_spelling_problems(lesson["text"]))
         # The reader keeps a full stop after some Hindi words (है., था.) as part of the word: sentences end with the danda.
         if code == "hi" and re.search(r"[\u0900-\u097f]\.(?!\.)", lesson["text"]):
             problems.append("a sentence ends with '.': write the danda '।'")

@@ -2529,3 +2529,24 @@ REFILE = {"hy": {
 
 # Vietnamese syllables counted for the English in subtitles ("I", "the"): i is a letter's name (i ngắn), the a silk gauze.
 EXCLUDE["vi"] = EXCLUDE.get("vi", set()) | {"i", "the"}
+# Yiddish: the Wikipedia corpus is written mostly in unpointed (Hasidic) spelling, the pack and the courses in YIVO's
+# (build_frequency_list.yiddish_spellings sends each unpointed spelling to its YIVO word). Here the unpointed spellings of
+# several words, or of a word and a rarer one (דיין, mostly דײַן "your", not "rabbinic judge"), sent to the commonest of them
+# (דארף is mostly "must", not דאָרף "village"; אן mostly the article), and
+# the unpointed spellings that are standard words too (זיי "they").
+YIDDISH_UNPOINTED = {"דארף": "דאַרף", "פאר": "פֿאַר", "אן": "אַן", "נאר": "נאָר", "שטאט": "שטאָט", "באר": "באַר", "פאס": "פּאַס",
+                     "דיין": "דײַן"}
+YIDDISH_STANDARD = {"זיי"}
+# YIVO spellings the pack has no word for: דאַרף is דאַרפֿן's, ייִדן ייִד's plural, אויפֿן (אויף + דעם) a word of its own.
+OVERRIDES["yi"] = {"דאַרף": ["דאַרפֿן"], "ייִדן": ["ייִד"], "אויפֿן": ["אויפֿן"]}
+# The forms of common verbs the pack has as words of their own (האָט "has: third-person singular present of האָבן"), and
+# its forms table lacks, go to their verb.
+OVERRIDES["yi"].update({
+    **{f: ["זײַן"] for f in ("איז", "בין", "זײַנען", "געווען")},
+    **{f: ["האָבן"] for f in ("האָט", "האָב")},
+    **{f: ["וועלן"] for f in ("וועט", "וועל", "געוואָלט")},
+    **{f: ["זאָלן"] for f in ("זאָל", "זאָלט")},
+    "געוואָרן": ["ווערן"], "געשריבן": ["שרײַבן"], "זיידן": ["זיידע"],
+    # "They", not זײַ, the imperative, whose verb now outweighs it.
+    "זיי": ["זיי"],
+})

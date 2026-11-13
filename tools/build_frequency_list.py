@@ -234,6 +234,7 @@ import frequency_albanian  # noqa: E402
 OVERRIDES["sq"] = frequency_albanian.OVERRIDES
 EXCLUDE["sq"] = frequency_albanian.EXCLUDE
 DISPLAY["sq"] = frequency_albanian.DISPLAY
+from frequency_fixes import YIDDISH_STANDARD, YIDDISH_UNPOINTED  # noqa: E402
 
 # How common another word must be, against the form itself, to take a form that is also a word:
 # a more common word ("era" to "ser"), or a less common one of a kind that inflects for
@@ -1427,6 +1428,62 @@ def hebrew_spelled(text):
     return HEBREW_GERSHAYIM.sub("\u05f4", HEBREW_GERESH.sub("\u05f3", HEBREW_MARKS.sub("", text)))
 
 
+# Yiddish points and rafe (פֿ, אַ, ײַ, שׂ), but not the maqaf; and the ligatures, which unpointed text writes as two letters.
+YIDDISH_MARKS = re.compile("[\u05b0-\u05bd\u05bf-\u05c7]")
+YIDDISH_LIGATURES = str.maketrans({"\u05f0": "\u05d5\u05d5", "\u05f1": "\u05d5\u05d9", "\u05f2": "\u05d9\u05d9"})
+YIDDISH_UNPOINTED_GLOSS = re.compile("[Uu]npointed form of ([\u05b0-\u05f4]+)")
+
+
+def yiddish_unpointed(word):
+    """[word] as unpointed text writes it: פֿון as פון, זײַן as זיין."""
+    return YIDDISH_MARKS.sub("", word).translate(YIDDISH_LIGATURES)
+
+
+def yiddish_spellings(freq, overrides, is_word, lemmas):
+    """
+    The YIVO word each unpointed spelling of the counts is, for OVERRIDES: one the pack calls the unpointed form of a word
+    and has no sense of its own for (פון of פֿון, וואס of וואָס), or one it lacks whose pointed spelling it has (האט of האָט,
+    האבן of האָבן). Of several, YIDDISH_UNPOINTED's or the commonest; an unpointed spelling the pack has as a word or form
+    (זיי, די, קען) is standard and stays. Only a word of the list's kinds or a form of one is gone to, not a name (ישׂראל).
+    """
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "yi-en.sqlite"))
+    own, unpointed_of, pointed = set(), defaultdict(set), defaultdict(set)
+    for word, senses in db.execute("SELECT word_lc, senses FROM entries"):
+        for gloss in (g for s in json.loads(senses) for g in s.get("glosses", [])):
+            spelled = YIDDISH_UNPOINTED_GLOSS.match(gloss)
+            if spelled:
+                unpointed_of[word].add(spelled.group(1))
+            else:
+                own.add(word)
+        if yiddish_unpointed(word) != word:
+            pointed[yiddish_unpointed(word)].add(word)
+    forms = set()
+    for (form,) in db.execute("SELECT form_lc FROM forms"):
+        forms.add(form)
+        if yiddish_unpointed(form) != form:
+            pointed[yiddish_unpointed(form)].add(form)
+    moved = {}
+    for form in freq:
+        if form in overrides or form in YIDDISH_STANDARD:
+            continue
+        # A spelling pointed in part (פאַר) the pack may call unpointed too.
+        if yiddish_unpointed(form) != form and not (form in unpointed_of and form not in own):
+            continue
+        if form in YIDDISH_UNPOINTED:
+            moved[form] = [YIDDISH_UNPOINTED[form]]
+            continue
+        if form in unpointed_of and form not in own:
+            options = unpointed_of[form]
+        elif form in own or form in forms:
+            continue
+        else:
+            options = pointed.get(form)
+        options = [o for o in sorted(options or ()) if is_word(o) or lemmas.get(o) or o in overrides]
+        if options:
+            moved[form] = [max(options, key=lambda o: freq.get(o, 0))]
+    return moved
+
+
 def hebrew_wordlike(text):
     """Hebrew letters, with the geresh and gershayim inside or after them."""
     return bool(re.fullmatch("[\u05d0-\u05ea][\u05d0-\u05ea\u05f3\u05f4]*", text))
@@ -2543,6 +2600,10 @@ def normalise(language, form):
     # Cornish text writes the apostrophe of y'n, dhe'n, ha'y curly too.
     if language == "kw":
         return form.replace("’", "'")
+    # Yiddish as the list writes it: וו and וי as two letters, ey as two yods, ay as the ligature with its patah (ײַ).
+    if language == "yi":
+        return re.sub("\u05f2(?!\u05b7)", "\u05d9\u05d9", form.replace("\u05d9\u05d9\u05b7", "\u05f2\u05b7")).replace(
+            "\u05f0", "\u05d5\u05d5").replace("\u05f1", "\u05d5\u05d9")
     return form
 
 
@@ -4619,6 +4680,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # Single letters are kept only as the little words they can be ("a", "e", "o").
         return len(w) > 1 or language in ("ja", "ko") or bool(kinds & {"prep", "conj", "article", "pron", "det"})
 
+    if language == "yi":
+        overrides = {**yiddish_spellings(freq, overrides, is_word, lemmas), **overrides}
+
     try:
         from wordfreq import word_frequency
     except ImportError:
@@ -5513,6 +5577,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             # A word starts with ў after a vowel ("і ўсе") and with у elsewhere.
             counted = list(dict.fromkeys(counted + [{"у": "ў", "ў": "у"}[f[0]] + f[1:] for f in counted if f[:1] in ("у", "ў")]))
         shown = common.get(word) or guessed.get(word) or word
+        if language == "yi":
+            # A word the pack writes with a ligature (אױסגאַבע) is written as the list writes its forms.
+            shown = normalise(language, shown)
         if language == "ar":
             # The commonest spelling heads the word (أن, not ان), of those mostly counted for it and no word of the list.
             spelled = [f for f in counted if word in arabic_spellings(f) and count(f) > count(word) and forms[word][f] >= count(f) / 2
