@@ -4021,6 +4021,88 @@ def thai_word(word, words):
                 any(n > len(g) and word.endswith(g) and thai_break(word, n - len(g)) and cut(0, n - len(g)) for g in THAI_AFTER))
 
 
+# As LaoParser has them: the reader's Lao letters (its word characters, ກ-ໟ, but ໆ and the digits), the vowels and marks
+# written after their letter and before it, the letters a ຫ leads, the letters that are vowels too, and today's spelling.
+LAO_RUN = re.compile("[\u0e81-\u0ec5\u0ec7-\u0ecf\u0eda-\u0edf]+")
+LAO_FOLLOWING = set("ະັາຳິີຶື຺ຸູົຼຽ່້໊໋໌ໍ໎")
+LAO_LEADING = set("ເແໂໃໄ")
+LAO_LED = set("ງຍນມລວຣ")
+LAO_VOWEL_LETTERS = set("ວອ")
+LAO_SPLIT_AM = re.compile("\u0ecd([\u0ec8-\u0ecb]?)\u0eb2")
+# The app's own Lao word list (ICU's Lao word-break dictionary), which the reader cuts with besides the list and the packs.
+LAO_LEXICON = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "composeResources", "files", "lexicon", "lo.txt")
+
+
+def lao_normalise(text):
+    """LaoParser.normalise: ໍ + າ as ຳ (the tone mark first), ຫນ, ຫມ, ຫລ as ໜ, ໝ, ຫຼ."""
+    return LAO_SPLIT_AM.sub("\\1\u0eb3", text).replace("ຫນ", "ໜ").replace("ຫມ", "ໝ").replace("ຫລ", "ຫຼ")
+
+
+def lao_letter(c):
+    return "\u0e81" <= c <= "\u0eae" or "\u0edc" <= c <= "\u0edf"
+
+
+def lao_break(run, at):
+    """
+    Whether a Lao word may end before [at] in [run] (LaoParser.canBreak): never inside a syllable, nor before a letter with no
+    vowel after it (but ວ or ອ, or one ຫ leads), nor after a letter that begins a syllable and has no vowel yet.
+    """
+    if at <= 0 or at >= len(run):
+        return True
+    c, before = run[at], run[at - 1]
+    if c in LAO_FOLLOWING or before in LAO_LEADING or (before == "ຫ" and c in LAO_LED):
+        return False
+    if lao_letter(c):
+        nxt = run[at + 1] if at + 1 < len(run) else ""
+        if not (nxt and (nxt in LAO_FOLLOWING or nxt in LAO_VOWEL_LETTERS or (c == "ຫ" and nxt in LAO_LED))):
+            return False
+    if lao_letter(before):
+        j = at - 1
+        if j == 0 or (lao_letter(run[j - 1]) and run[j - 1] not in LAO_VOWEL_LETTERS and run[j - 1] != "ຍ"
+                      and (j < 2 or run[j - 2] not in LAO_LEADING)):
+            return False
+    return True
+
+
+# As LaoParser has them: the grammatical words that join no word after them (ບໍ່ດີ is ບໍ່ + ດີ), and those that join none
+# before them (ຄິດວ່າ is ຄິດ + ວ່າ).
+LAO_BEFORE = ("ບໍ່", "ກໍ່", "ກໍ")
+LAO_AFTER = ("ວ່າ", "ຢູ່")
+
+
+def lao_word(word, words):
+    """
+    Whether the reader reads [word] of the lexicon [words] as a word (LaoParser.matches): not a letter alone, nor one of
+    LAO_BEFORE and words of the lexicon after it, or such words and one of LAO_AFTER, cut between syllables.
+    """
+    if word not in words or len(word) == 1 and lao_letter(word):
+        return False
+
+    def cut(start_at, to):
+        reached = [False] * (to + 1)
+        reached[start_at] = True
+        for start in range(start_at, to):
+            if not reached[start]:
+                continue
+            for end in range(start + 1, to + 1):
+                piece = word[start:end]
+                if lao_break(word, end) and piece in words and not (len(piece) == 1 and lao_letter(piece)):
+                    reached[end] = True
+        return reached[to]
+
+    n = len(word)
+    return not (any(n > len(g) and word.startswith(g) and lao_break(word, len(g)) and cut(len(g), n) for g in LAO_BEFORE) or
+                any(n > len(g) and word.endswith(g) and lao_break(word, n - len(g)) and cut(0, n - len(g)) for g in LAO_AFTER))
+
+
+def lao_lexicon():
+    """The words the reader cuts Lao into with the lo-en pack installed, besides the list's: the pack's and the app's own list's."""
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "lo-en.sqlite"))
+    pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms")}
+    own = {l.strip() for l in open(LAO_LEXICON, encoding="utf-8") if l.strip() and not l.startswith("#")}
+    return {lao_normalise(w) for w in pack | own if w and " " not in w}
+
+
 def segmenter(language, words=None, ranks=None):
     """
     Cuts a run of letters into the longest words of the language's dictionary (or of [words]), as SegmentingParser does
@@ -4031,8 +4113,8 @@ def segmenter(language, words=None, ranks=None):
         words = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
     longest = min(16, max((len(w) for w in words), default=1))
     join = language in JOIN_UNKNOWN
-    can_break = thai_break if language == "th" else lambda run, at: True
-    is_word = (lambda word: thai_word(word, words)) if language == "th" else words.__contains__
+    can_break = thai_break if language == "th" else lao_break if language == "lo" else lambda run, at: True
+    is_word = (lambda word: thai_word(word, words)) if language == "th" else (lambda word: lao_word(word, words)) if language == "lo" else words.__contains__
 
     def likeliest(run):
         """
@@ -4114,6 +4196,8 @@ def build(language, source, size):
         return build_thai(size)
     if language == "grc":
         return build_greek(size)
+    if language == "lo":
+        return build_lao(size)
     order = [source] if source else SOURCE_ORDER.get(language, ["wordfreq", "frequencywords", "leipzig", "wikipedia"])
     found = []
     for name in order:
@@ -4172,6 +4256,80 @@ def build_thai(size):
         listed, ranks = list_ranks(text)
         words = pack | {w for w in listed if " " not in w}
     return text, label
+
+
+# The reader cuts Lao by how common its words are, as the list it ships with ranks them (LaoParser), so the Lao list is built
+# again from cuts made with the last one's ranks until they no longer change it, at most LAO_ROUNDS times, as Thai's is.
+LAO_ROUNDS = 6
+# Lao Wikipedia's own words and the pieces of its names and markup, which no learner reads in a text.
+LAO_EXCLUDE = {
+    "ວິກິພີເດຍ", "ແມ່ແບບ", "ບົດຄວາມ", "ເວັບໄຊ", "ເວັບໄຊຕ໌", "ເວັບໄຊທ໌", "ໝວດໝູ່", "ກມ",
+}
+# What the pack has a word as that makes it no word of a text: a name or a letter, unless it is something else too.
+LAO_NOT_WORDS = {"name", "character", "symbol", "abbrev", "abbreviation", "prefix", "suffix", "affix", "unknown", "punct"}
+
+
+def build_lao(size):
+    """
+    The Lao list, from Lao Wikipedia's articles, the only source with Lao: counted as the reader cuts them with the lo-en pack
+    installed (lao_lexicon), in today's spelling. Words do not inflect, so each word is its own: a classifier (ລຳ, ດວງ) and a
+    noun made with ການ or ຄວາມ are words of their own; a spelling with ຣ where the commoner one has ລ (ເອີລົບ, ເອີຣົບ) is the
+    commoner one's. Letters no word covers (names, foreign words) are not counted, nor names, letters and Wikipedia's own words.
+    """
+    runs, label = wikipedia_counts("lo", 10 ** 9)
+    label = f"{label} ({SOURCE_LICENCES['wikipedia']})"
+    text_runs = defaultdict(int)
+    for token, n in runs.items():
+        for match in LAO_RUN.finditer(lao_normalise(token)):
+            text_runs[match.group(0)] += n
+    lexicon = lao_lexicon()
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "lo-en.sqlite"))
+    kinds = defaultdict(set)
+    for word, p in db.execute("SELECT word_lc, pos FROM entries"):
+        kinds[lao_normalise(word)].add(p)
+    noise = {w for w, k in kinds.items() if k <= LAO_NOT_WORDS} | LAO_EXCLUDE
+    ranks, text = None, None
+    for round_ in range(LAO_ROUNDS + 1):
+        segment = segmenter("lo", lexicon, ranks)
+        counts = defaultdict(int)
+        for run, n in text_runs.items():
+            pieces = segment(run)
+            known = [lao_word(p, lexicon) for p in pieces]
+            for i, piece in enumerate(pieces):
+                # As Thai's: not a piece next to letters no word covers (a name, a foreign word), whose other pieces are
+                # words to the dictionary (ອິນ, ເຕີ of ອິນເຕີເນຊັນແນລ).
+                if known[i] and (i == 0 or known[i - 1]) and (i + 1 == len(pieces) or known[i + 1]):
+                    counts[piece] += n
+        built = lao_list(counts, noise, size, label)
+        print(f"lo round {round_}: {'unchanged' if built == text else 'changed'}", file=sys.stderr)
+        if built == text:
+            break
+        text = built
+        _, ranks = list_ranks(text)
+    return text, label
+
+
+def lao_list(counts, noise, size, label):
+    """The list from Lao counts: the commonest words, a spelling with ຣ under the commoner one with ລ."""
+    under = {}
+    for word in counts:
+        other = word.replace("ຣ", "ລ")
+        if other != word and other in counts:
+            low, high = sorted((word, other), key=lambda w: (counts[w], w))
+            under[low] = high
+    scores = defaultdict(int)
+    forms = defaultdict(list)
+    for word, n in counts.items():
+        head = under.get(word, word)
+        if head in noise or word in noise:
+            continue
+        scores[head] += n
+        forms[head].append(word)
+    ranked = sorted(scores, key=lambda w: (-scores[w], w))[:size]
+    lines = [f"# source: {label}", f"# words: {len(ranked)}"]
+    for word in ranked:
+        lines.append(word + "\t" + " ".join(sorted(forms[word], key=lambda f: (f != word, -counts[f], f))))
+    return "\n".join(lines) + "\n"
 
 
 # The reader cuts a Korean word by how common its pieces are, as the list it ships with ranks them, so

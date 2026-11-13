@@ -36,7 +36,10 @@ class Lexicon(
 }
 
 /** A parser that cuts words by its language's lexicon ([Lexicons]), which LexiconService loads first. */
-interface LexiconParser : TextParser
+interface LexiconParser : TextParser {
+    /** A word of a list or a pack as the parser reads it, which the lexicon then has: as written, but in Lao. */
+    fun lexiconWord(word: String): String = word
+}
 
 /**
  * The lexicons of the languages read without spaces, and of Korean and Arabic, by language code, set by the

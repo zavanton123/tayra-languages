@@ -17,8 +17,9 @@ import kotlinx.coroutines.sync.withLock
 
 /**
  * Gives the parsers of languages written without spaces, and Korean's and Arabic's, their lexicons: the words of the
- * language's frequency list, with their forms, and every headword and form of its installed
- * dictionary packs. A lexicon is made again when the installed packs change.
+ * language's frequency list, with their forms, the app's own word list for the language where it has one (Lao's), and
+ * every headword and form of its installed dictionary packs, each spelled as the parser reads it. A lexicon is made
+ * again when the installed packs change.
  */
 class LexiconService(
     private val dictionaries: DictionaryService,
@@ -33,7 +34,7 @@ class LexiconService(
     /** Makes sure the language's lexicon is loaded before its texts are parsed; does nothing for other spaced languages. */
     suspend fun prepare(language: Language) {
         if (language.chineseScript != null) chineseTables?.let { ChineseScripts.prepare(it) }
-        if (runCatching { language.parser }.getOrNull() !is LexiconParser) return
+        val parser = runCatching { language.parser }.getOrNull() as? LexiconParser ?: return
         val code = LanguageCodes.codeFor(language.name) ?: return
         val packs = dictionaries.packs.value
             .filter { it.pack.id.sourceLanguage == code && !it.pack.id.glossary && !it.pack.id.isNames && it.state is PackState.Installed }
@@ -45,12 +46,15 @@ class LexiconService(
             val ranks = HashMap<String, Int>()
             val heads = HashMap<String, Int>()
             frequency?.list(code)?.inScript(language.chineseScript)?.words?.forEach { word ->
-                words += word.key
-                words += word.forms
-                for (form in word.forms + word.key) ranks.getOrPut(form) { word.rank }
-                heads.getOrPut(word.key) { word.rank }
+                val key = parser.lexiconWord(word.key)
+                val forms = word.forms.map(parser::lexiconWord)
+                words += key
+                words += forms
+                for (form in forms + key) ranks.getOrPut(form) { word.rank }
+                heads.getOrPut(key) { word.rank }
             }
-            for (pack in packs) words += repository.words(pack)
+            frequency?.lexicon(code)?.forEach { words += parser.lexiconWord(it) }
+            for (pack in packs) repository.words(pack).forEach { words += parser.lexiconWord(it) }
             Lexicons.set(code, Lexicon(words.filter { it.isNotBlank() && ' ' !in it }, ranks, heads))
             loadedFrom[code] = packs
         }

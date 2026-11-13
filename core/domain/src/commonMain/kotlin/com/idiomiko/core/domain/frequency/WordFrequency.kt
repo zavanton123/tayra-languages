@@ -66,6 +66,9 @@ data class FrequencyList(val source: String, val words: List<FrequencyWord>) {
 interface FrequencyLists {
     /** The list for the language with the ISO 639-1 [languageCode], or null when the app has none. */
     suspend fun list(languageCode: String): FrequencyList?
+
+    /** The words the app has, besides its list's, for cutting the language's text into words (Lao's), or null. */
+    suspend fun lexicon(languageCode: String): List<String>? = null
 }
 
 /** How far the reader has got with a word, as the frequency list groups it. */

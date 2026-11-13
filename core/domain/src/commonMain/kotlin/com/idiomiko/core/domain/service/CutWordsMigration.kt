@@ -24,7 +24,8 @@ import com.idiomiko.core.domain.term.TermTextNormalizer
  * า): a phrase saved over the old cut is cut again, while a word saved stays the word it is, unless the lexicon has it and
  * the reader still reads it, alone, as several words (ไม่ดี is ไม่ + ดี, คิดว่า คิด + ว่า): it becomes those words, a
  * phrase. So does a Manx word written onto another with an apostrophe (t'eh is t' + eh, ta'n ta + 'n), and one saved with
- * an apostrophe at its edge ('sy) becomes the word without it. Armenian cuts nothing, but
+ * an apostrophe at its edge ('sy) becomes the word without it. Lao came to be cut as Thai is, and read in today's spelling
+ * (ຫນັງສື as ໜັງສື, ນໍ້າ as ນ້ຳ): its terms are matched so, and its phrases cut again. Armenian cuts nothing, but
  * matches և written as two letters (կարեւոր) as the one (կարևոր). Ancient Greek cuts nothing either, but matches a word
  * with the accent it has standing alone (καλὸς as καλός, ἄνθρωπός as ἄνθρωπος). Run at start: it changes nothing once the terms are as
  * the reader reads them.
@@ -67,7 +68,7 @@ class CutWordsMigration(
                 term.tokenCount != 1 -> pieces
                 language.parserType in EDGES_APART -> withoutEdges(pieces)
                 language.parserType !in WHOLE_WORDS -> pieces.substringAfterLast(ZWS_STRING)
-                inLexicon(language, term.textLc) -> pieces
+                inLexicon(language, language.lowercase(term.textLc)) -> pieces
                 else -> term.text
             }
             val textLc = language.lowercase(text)
@@ -113,13 +114,13 @@ class CutWordsMigration(
 
     private companion object {
         /** The parsers that cut a word written as one into words, or match a saved word otherwise than it was saved. */
-        val PARSERS = setOf("arabic", "thai", "persian", "hebrew", "armenian", "ancientgreek", "manx")
+        val PARSERS = setOf("arabic", "thai", "persian", "hebrew", "armenian", "ancientgreek", "manx", "lao")
 
         /** Those whose saved words become the words they are cut into, without the apostrophes at their edges. */
         val EDGES_APART = setOf("manx")
 
         /** Those whose saved words stay whole, but those of the lexicon the reader reads as several words. */
-        val WHOLE_WORDS = setOf("thai")
+        val WHOLE_WORDS = setOf("thai", "lao")
 
         /** The tokens of a cut word but the apostrophes before and after it. */
         fun withoutEdges(pieces: String): String {
