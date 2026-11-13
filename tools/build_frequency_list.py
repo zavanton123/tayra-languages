@@ -161,6 +161,8 @@ SOURCE_WEIGHTS = {"ga": {"leipzig": 0.375, "wikipedia": 0.375, "everyday": 0.25}
 SOURCE_ORDER["cy"] = ["leipzig", "everyday_mixed", "everyday"]
 BLEND.add("cy")
 SOURCE_WEIGHTS["cy"] = {"leipzig": 0.4, "everyday_mixed": 0.25, "everyday": 0.35}
+# Breton is counted from Leipzig's Wikipedia sentences alone, as its list was first built: its subtitles are 7,000 forms.
+SOURCE_ORDER["br"] = ["leipzig"]
 # Georgian is counted from news and Wikipedia alone: FrequencyWords' ka file is Bulgarian subtitles, misdecoded into
 # Georgian letters (ეა is да, თმა is има, ნალთ is нали), which put თმა "hair" 24th and ნალი "horseshoe" 140th.
 # Everyday words ranked far down in them (შენ 1823, ჭამს 3198, გამარჯობა 4639), so everyday sentences are blended in
@@ -2174,6 +2176,11 @@ def hindi_spellings(db, pos, lemmas, common):
                 lemmas[word].append(best)
 
 
+# Breton. The pack writes c'h with the modifier apostrophe (lecʼh, cʼhoazh), texts and the reader with the plain one.
+def breton_apostrophe(text):
+    return text.replace("\u02bc", "'").replace("\u2019", "'")
+
+
 def welsh_unmutated(form):
     """The spellings a form may be of a word with an initial mutation: ddefnyddio of defnyddio, wlad of gwlad, hysgol of ysgol."""
     out = {radical + form[len(written):] for written, radical in WELSH_MUTATIONS if form.startswith(written) and len(form) > len(written)}
@@ -2639,6 +2646,8 @@ def normalise(language, form):
     if language == "yi":
         return re.sub("\u05f2(?!\u05b7)", "\u05d9\u05d9", form.replace("\u05d9\u05d9\u05b7", "\u05f2\u05b7")).replace(
             "\u05f0", "\u05d5\u05d5").replace("\u05f1", "\u05d5\u05d9")
+    if language == "br":
+        return breton_apostrophe(form)
     return form
 
 
@@ -3699,6 +3708,8 @@ def load_dictionary(language):
                 MACEDONIAN_KINDS[word_lc].add(p)
         if language == "lt":
             word, word_lc = lithuanian_unaccented(word), lithuanian_unaccented(word_lc)
+        if language == "br":
+            word, word_lc = breton_apostrophe(word), breton_apostrophe(word_lc)
         if language == "la" and p == "verb" and any("participle" not in s.get("tags", []) for s in json.loads(senses)):
             LATIN_VERBS.add(word_lc)
         if language == "tl" and p in WORD_POS:
@@ -3798,6 +3809,8 @@ def load_dictionary(language):
             lemma = slovene_unstressed(lemma)
         if language == "lt":
             form_lc, lemma = lithuanian_unaccented(form_lc), lithuanian_unaccented(lemma)
+        if language == "br":
+            form_lc, lemma = breton_apostrophe(form_lc), breton_apostrophe(lemma)
         if language == "mk":
             form_lc, lemma = MACEDONIAN_REFLEXIVE.sub("", form_lc), MACEDONIAN_REFLEXIVE.sub("", lemma)
         if is_wordlike(lemma):
