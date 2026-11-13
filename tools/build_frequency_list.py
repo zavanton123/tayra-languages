@@ -2188,6 +2188,9 @@ BRETON_MUTATIONS = (("c'h", "g"), ("c'h", "k"), ("kw", "gw"), ("w", "gw"), ("g",
                     ("v", "m"), ("z", "d"), ("z", "t"), ("f", "p"), ("p", "b"), ("t", "d"), ("k", "g"))
 # Each word's glosses: a word spelled as another's mutation with a gloss of that word's (gelaouenn of kelaouenn) is its form.
 BRETON_GLOSSES = defaultdict(set)
+# The days and months, which the pack has only as names (Meurzh, Genver) and texts write with a capital.
+BRETON_CALENDAR = ("lun", "meurzh", "merc'her", "yaou", "gwener", "sadorn", "sul", "genver", "c'hwevrer", "ebrel", "mae",
+                   "mezheven", "gouere", "eost", "gwengolo", "here", "du", "kerzu")
 
 
 # A short word written onto the next with an apostrophe (d'ar, n'eo, m'en, p'edo; ma'z, pa'z), which the reader keeps whole:
@@ -3815,6 +3818,10 @@ def load_dictionary(language):
             common.setdefault(word_lc, word)
     # A noun the dictionary also lists as a rare lowercase word ("zeit") keeps its capital.
     common.update(DISPLAY.get(language, {}))
+    if language == "br":
+        for word in BRETON_CALENDAR:
+            pos[word].add("noun")
+            common[word] = word
     lemmas = defaultdict(list)
     # Spellings the 1996 German reform replaced ("daß" for "dass"), whose other links are noise ("daß" to "das").
     outdated = set()
