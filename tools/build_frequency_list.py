@@ -131,6 +131,8 @@ BLEND = {"ko"}
 # Galician is counted from subtitles alone, as its list was first built (wordfreq has no Galician, and the Wikipedia
 # dump blended in after FrequencyWords would add encyclopaedic words).
 SOURCE_ORDER["gl"] = ["frequencywords"]
+# Albanian is counted from subtitles alone, as its list was first built (wordfreq has no Albanian).
+SOURCE_ORDER["sq"] = ["frequencywords"]
 # Esperanto is counted from subtitles and news alone: its Wikipedia, much of it pages made by bots, adds their words
 # ("municipo", "kantono", "asteroido") and its headings' ("ligilo", "referenco") to the first thousand.
 SOURCE_ORDER["eo"] = ["frequencywords", "leipzig"]
@@ -219,6 +221,10 @@ import frequency_persian  # noqa: E402
 OVERRIDES["fa"] = frequency_persian.PERSIAN_OVERRIDES
 EXCLUDE["fa"] = frequency_persian.PERSIAN_EXCLUDE
 from frequency_fixes import HEBREW_CUT, HEBREW_WHOLE  # noqa: E402
+import frequency_albanian  # noqa: E402
+
+OVERRIDES["sq"] = frequency_albanian.OVERRIDES
+EXCLUDE["sq"] = frequency_albanian.EXCLUDE
 
 # How common another word must be, against the form itself, to take a form that is also a word:
 # a more common word ("era" to "ser"), or a less common one of a kind that inflects for
@@ -1743,6 +1749,13 @@ MACEDONIAN_PERSON_ENDINGS = {"ам", "аш", "аме", "ате", "аат", "ем
 
 
 ROMANIAN_KINDS = {}
+# The same for Albanian, whose pack files words under look-alikes' declension tables (liri "freedom" under li, qesh
+# "to laugh" under ka "ox").
+ALBANIAN_KINDS = {}
+# An Albanian word with senses of its own keeps its count from a word whose form it is spelled as when text has its own
+# forms (lirinë, lirisë of liri) at least this share of it, or when it is a little word of a kind the other is not (nga).
+ALBANIAN_OWN_FORMS = 0.05
+ALBANIAN_UNINFLECTED = {"adv", "prep", "conj", "particle", "intj"}
 ROMANIAN_FORM_GLOSS = re.compile(r"\bof ([^\W\d_]+)")
 # A noun or verb the other kind's form is spelled as (fiu "son" and să fiu; cost and the verb costa) keeps its count when
 # text has its own forms (fiul, costul) at least this share of it.
@@ -3014,6 +3027,9 @@ class Lemmatizer:
 
 def simplemma_for(language):
     """simplemma for the language, or None when it is not installed or lacks the language."""
+    # Albanian's forms the pack lacks are in frequency_albanian's table instead.
+    if language == "sq":
+        return None
     try:
         lemmatizer = Lemmatizer(SIMPLEMMA_CODES.get(language, language))
         lemmatizer.is_known("a")
@@ -3604,6 +3620,8 @@ def load_dictionary(language):
                 lemmas[word] += sorted(t for t in targets if t not in lemmas[word])
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
+    if language == "sq":
+        ALBANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language == "fa":
         frequency_persian.load(db, pos, lemmas, common)
     if language in FINNIC_OWN_SENSES:
@@ -4825,6 +4843,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 shares = romanian_shares(form, others)
                 if shares:
                     return shares
+            if language == "sq" and albanian_apart(form, others):
+                return {form: 1.0}
             if language == "is":
                 shares = icelandic_shares(form, [form] + others)
                 if shares:
@@ -4879,10 +4899,34 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             kinds = ARABIC_FORMS.get(form, {})
             weights = {l: (ARABIC_VERB_MASS.get(l, 0.0) if kinds.get(l) is True else ARABIC_SPELLED.get(form, {}).get(l, 0.0) if kinds.get(l, 0) is None
                            else weight(l)) or 1e-12 for l in others}
+        elif language == "sq" and len(others) > 1 and any(albanian_own(l) for l in others) and not set.intersection(
+                *(ALBANIAN_KINDS.get(l) or pos.get(l, set()) for l in others)):
+            # A form of several Albanian words of different kinds goes to them by how common each one's own forms are: a
+            # rare noun whose spelling is a common word's (ka "ox", "has") lends no weight to the forms it shares (qeshi).
+            weights = {l: albanian_own(l) or 1e-12 for l in others}
         else:
             weights = {l: weight(l) or 1e-12 for l in others}
         whole = sum(weights.values())
         return {l: w / whole for l, w in weights.items()}
+
+    albanian_forms = defaultdict(set)
+
+    def albanian_own(word):
+        """How common an Albanian word's forms are that are no other word's nor a word themselves (lirinë of liri)."""
+        if not albanian_forms:
+            for form, of in lemmas.items():
+                if len(set(of)) == 1 and form not in pos:
+                    albanian_forms[of[0]].add(form)
+        return sum(count(f) for f in albanian_forms.get(word, ()))
+
+    def albanian_apart(form, others):
+        """Whether an Albanian word with senses of its own keeps its count from the words it is spelled as a form of."""
+        kinds = ALBANIAN_KINDS.get(form, set())
+        if not kinds or not others:
+            return False
+        if albanian_own(form) >= ALBANIAN_OWN_FORMS * count(form):
+            return True
+        return kinds <= ALBANIAN_UNINFLECTED and not any(kinds & ALBANIAN_KINDS.get(l, set()) for l in others)
 
     macedonian_forms = defaultdict(set)
 
