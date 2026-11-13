@@ -231,6 +231,9 @@ def fold(code, word):
     # And the Gaelic (a', b', dh'fhàg).
     if code == "gd":
         return word.replace("’", "'").replace("ʼ", "'").replace("‘", "'")
+    # And the Breton, whose c'h is a letter (c'hoazh, lec'h) and whose short words are written onto the next (d'ar, n'eo).
+    if code == "br":
+        return word.replace("’", "'").replace("ʼ", "'")
     # Persian words are matched as the reader matches them: ک and ی for ك and ي, no marks, no non-joiner.
     if code == "fa":
         return frequency_persian.bare(frequency_persian.persian_fold(word))
@@ -600,6 +603,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return cornish_tokens(text, ranks, names)
     if code == "gv":
         return manx_tokens(text)
+    if code == "br":
+        return breton_tokens(text, ranks, names)
     if code in FINNIC:
         return finnic_tokens(text, code)
     if code == "hi":
@@ -2340,6 +2345,63 @@ def manx_tokens(text):
     return [piece for run in MANX_WORD.findall(text) for piece in manx_pieces(run)]
 
 
+# Breton writes c'h as a letter (c'hoazh, merc'h) and a short word onto the next with an apostrophe (d'ar, n'eo, m'en,
+# p'edo; ma'z, pa'z), which the reader keeps whole: the two count as the two words they are. The reader cuts at hyphens
+# (e-barzh is e + barzh), and so does the checker. A word the list lacks counts as the word or name it mutates (vreudeur is
+# breudeur, Vrest is Brest, c'hoarvez is goarvez), the commonest where it could be several.
+BRETON_WORD = re.compile(r"[^\W\d_]+(?:'[^\W\d_]+)*", re.UNICODE)
+BRETON_ELIDED = {"d": "da", "n": "ne", "m": "ma", "p": "pa"}
+BRETON_ELIDED_EZ = {"ma'z": "ma", "pa'z": "pa", "ne'z": "ne"}
+# The initial mutations, as (written, radical): soft, spirant, hard and mixed.
+BRETON_MUTATIONS = (("c'h", "g"), ("c'h", "k"), ("kw", "gw"), ("w", "gw"), ("g", "k"), ("d", "t"), ("b", "p"), ("v", "b"),
+                    ("v", "m"), ("z", "d"), ("z", "t"), ("f", "p"), ("p", "b"), ("t", "d"), ("k", "g"))
+
+
+def breton_bases(word):
+    """The radical words a lowercased Breton word may be, by the mutations."""
+    return [radical + word[len(written):] for written, radical in BRETON_MUTATIONS if word.startswith(written) and len(word) > len(written)]
+
+
+def breton_word(word, ranks, names=frozenset()):
+    """The list word or name a Breton word is: itself if listed, else the word it mutates."""
+    word = word.lower()
+    if word in ranks or word in names:
+        return word
+    found = [b for b in breton_bases(word) if b in ranks or b in names]
+    return min(found, key=lambda b: ranks.get(b, 0)) if found else word
+
+
+def breton_part(word, ranks, names):
+    key = word.lower()
+    if key in names:
+        return [key]
+    if key in BRETON_ELIDED_EZ:
+        return [BRETON_ELIDED_EZ[key], "ez"]
+    first, apostrophe, rest = key.partition("'")
+    if apostrophe and first in BRETON_ELIDED and rest[:1].isalpha():
+        return [BRETON_ELIDED[first], breton_word(rest, ranks, names)]
+    return [breton_word(word, ranks, names)]
+
+
+def breton_tokens(text, ranks, names=frozenset()):
+    ranks = ranks or {}
+    out = []
+    text = text.replace("’", "'").replace("ʼ", "'")
+    for match in BRETON_WORD.finditer(text):
+        # The letters after an ordinal's digits belong to the number (2vet, 1añ).
+        if match.start() > 0 and text[match.start() - 1].isdigit():
+            continue
+        out.extend(breton_part(match.group(0), ranks, names))
+    return out
+
+
+def breton_name_pattern(name):
+    """A name of several words as the text writes it, also mutated (Sant-Brieg, Kemper, e Gemper, da Vrest)."""
+    first, rest = name[0].lower(), name[1:]
+    spelled = [first.upper() + rest] + [w.capitalize() + rest for w, radical in BRETON_MUTATIONS if radical == first]
+    return re.compile(r"(?<![^\W\d_'])(?:" + "|".join(map(re.escape, spelled)) + r")(?![^\W\d_])")
+
+
 # The header of a lesson's questions, one per language: after it, a question and its answer on a line each, in turn.
 # The app cuts them off the text into a stage of their own (LessonQuestions.kt holds the same headers).
 QUESTION_HEADERS = {
@@ -2351,6 +2413,7 @@ QUESTION_HEADERS = {
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
+        "Goulennoù:",
     )
 }
 
@@ -2666,6 +2729,9 @@ def check(path, brief=False):
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     if code == "cy":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
+    # And a Breton one (Sant-Brieg, Pont-'n-Abad), mutated too (da Sant-Brieg, e Gemper).
+    if code == "br":
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     # Hungarian names take their endings unmarked (Annának, Budapestre): each part of a name counts, with its endings.
     if code == "hu":
         names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in n.split()}
@@ -2729,6 +2795,11 @@ def check(path, brief=False):
                 continue
             if code == "vi":
                 pattern = re.compile(r"(?<![^\W\d_])" + re.escape(name) + r"(?![^\W\d_])")
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(" ", text)
+                continue
+            if code == "br":
+                pattern = breton_name_pattern(name)
                 whole_names += len(pattern.findall(text))
                 text = pattern.sub(" ", text)
                 continue
@@ -2814,6 +2885,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Govynnow:", "", text)
         if code == "gv":
             text = re.sub(r"(?m)^Feyshtyn:", "", text)
+        if code == "br":
+            text = re.sub(r"(?m)^Goulennoù:", "", text)
         if code == "ka":
             text = re.sub(r"(?m)^კითხვები:", "", text)
         if code == "hi":
