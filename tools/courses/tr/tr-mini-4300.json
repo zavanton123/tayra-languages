@@ -85,7 +85,6 @@
         "hurda",
         "makas",
         "acemi",
-        "kanamak",
         "yırtmak",
         "düğüm"
       ],
@@ -98,7 +97,6 @@
         "kısmak",
         "yoksulluk",
         "kentsel",
-        "hafife",
         "limit",
         "ebedi",
         "kaygı"
@@ -107,17 +105,16 @@
     },
     {
       "title": "Okulda bir iklim müzikali",
-      "summary": "In Eskişehir, teacher Ayla stages a climate musical with her pupils; shy Burak plays a foolish king in his father's tie, the hall laughs, and a thoughtful father brings a chocolate cake.",
+      "summary": "In Eskişehir, teacher Ayla stages a climate musical with her pupils; shy Burak plays a scatterbrained rich man in his father's tie, the hall laughs, and a thoughtful father brings a chocolate cake.",
       "newWords": [
         "müzikal",
-        "budala",
         "kravat",
         "kahkaha",
         "coşku",
         "düşünceli",
         "çikolatalı"
       ],
-      "text": "Ayla Eskişehir'de bir ortaokulda müzik öğretmeniydi. O yıl öğrencileriyle birlikte iklim değişikliği üzerine bir müzikal hazırlamaya karar verdi. Konusunu öğrencilerle beraber seçtiler: Uzak bir ülkede yaşayan budala bir kral, sarayının bütün lambalarını gece gündüz yakıyor, yazın bile şömineyi söndürmüyor ve ülkesinin ormanlarını kestiriyor. Sonunda ülkenin çocukları onu durdurup ona güneşi ve rüzgârı kullanmayı öğretiyor.\n\nKral rolü için kimse gönüllü olmadı. Herkes çocuklardan biri olmak istiyordu. Sonunda Ayla Hanım sınıfın en sessiz öğrencisi Burak'a sordu. Burak önce çekindi.\n\n— Ben şarkı söyleyemem, dedi. Hem herkes bana güler.\n\n— Kral budala bir kral, zaten gülünecek biri, dedi Ayla Hanım gülümseyerek. Sen sadece rolünü oyna.\n\nProvalar iki ay sürdü. Burak her gün biraz daha cesur oldu. Kostüm için babasının eski bir kravatını istedi. Kırmızı, geniş, üstünde sarı çizgiler olan bir kravattı. Babası onu yıllardır takmıyordu. Burak kravatı boynuna bağladı, başına kartondan bir taç taktı ve aynanın karşısında budala kralın sözlerini tekrar tekrar söyledi.\n\nGösteri günü okulun salonu doluydu. Müzikal başladığında Burak sahneye kravatıyla ve tacıyla çıktı. \"Elektrik ucuz, güneş bedava, kimin umurunda!\" diye bağırdı. Salonda büyük bir kahkaha koptu. Burak bir an durdu, sonra kahkahaların ona değil, krala olduğunu anladı ve rolüne devam etti. Her yeni sözünde salondan yeni kahkahalar geliyordu.\n\nMüzikalin sonunda çocuklar krala güneş panellerini ve rüzgâr gülünü gösterdiler. Budala kral sonunda akıllandı ve bütün çocuklarla birlikte son şarkıyı söyledi. Salondaki herkes ayağa kalktı. Öğrencilerin coşkusu seyircilere de geçmişti; uzun süre alkışladılar. Ayla Hanım perdenin arkasında gözlerini sildi. Bu kadar coşku beklemiyordu.\n\nGösteriden sonra Burak'ın babası öğretmenin yanına geldi. Elinde büyük, çikolatalı bir pasta vardı.\n\n— Çocuklar için yaptım, dedi. Burak'ın bu kadar cesur olabileceğini bilmiyordum. Size teşekkür etmek istedim.\n\n— Çok düşüncelisiniz, dedi Ayla Hanım. Çocuklar çikolatalı pastaya bayılır.\n\nGerçekten de pasta beş dakikada bitti. Akşam eve dönerken Burak düşünceli görünüyordu. Babası ona ne düşündüğünü sordu.\n\n— Bizim evde de lambalar hep yanıyor, dedi Burak. Ben de biraz budala kral gibiyim galiba.\n\nBabası güldü ve o akşam evin gereksiz lambalarını birlikte söndürdüler. Kırmızı kravat ise Burak'ın odasında, duvarda asılı kaldı.\n\nSorular:\nMüzikalin konusu neydi?\nBütün lambaları yakıp ormanları kestiren budala bir kralı çocukların durdurmasıydı.\nBurak kral rolüne neden önce çekindi?\nŞarkı söyleyemeyeceğini ve herkesin ona güleceğini düşünüyordu.\nBurak kostüm için ne istedi?\nBabasının eski, kırmızı bir kravatını istedi.\nSalondakiler neden kahkaha attı?\nBudala kralın sözleri çok komik olduğu için kahkaha attılar.\nBurak'ın babası gösteriden sonra ne getirdi?\nÇocuklar için büyük, çikolatalı bir pasta getirdi.\nBurak eve dönerken neden düşünceliydi?\nEvlerinde de lambaların hep yandığını ve kendisinin de budala krala benzediğini düşünüyordu."
+      "text": "Ayla Eskişehir'de bir ortaokulda müzik öğretmeniydi. O yıl öğrencileriyle birlikte iklim değişikliği üzerine bir müzikal hazırlamaya karar verdi. Konusunu öğrencilerle beraber seçtiler: Uzak bir şehirde yaşayan şaşkın bir zengin adam, kocaman evinin bütün lambalarını gece gündüz yakıyor, yazın bile şömineyi söndürmüyor ve şehrin ormanlarını kestiriyor. Sonunda ülkenin çocukları onu durdurup ona güneşi ve rüzgârı kullanmayı öğretiyor.\n\nZengin adam rolü için kimse gönüllü olmadı. Herkes çocuklardan biri olmak istiyordu. Sonunda Ayla Hanım sınıfın en sessiz öğrencisi Burak'a sordu. Burak önce çekindi.\n\n— Ben şarkı söyleyemem, dedi. Hem herkes bana güler.\n\n— Bu adam şaşkın biri, zaten gülünecek biri, dedi Ayla Hanım gülümseyerek. Sen sadece rolünü oyna.\n\nProvalar iki ay sürdü. Burak her gün biraz daha cesur oldu. Kostüm için babasının eski bir kravatını istedi. Kırmızı, geniş, üstünde sarı çizgiler olan bir kravattı. Babası onu yıllardır takmıyordu. Burak kravatı boynuna bağladı, başına kartondan büyük bir şapka taktı ve aynanın karşısında şaşkın zenginin sözlerini tekrar tekrar söyledi.\n\nGösteri günü okulun salonu doluydu. Müzikal başladığında Burak sahneye kravatıyla ve şapkasıyla çıktı. \"Elektrik ucuz, güneş bedava, kimin umurunda!\" diye bağırdı. Salonda büyük bir kahkaha koptu. Burak bir an durdu, sonra kahkahaların ona değil, şaşkın zengine olduğunu anladı ve rolüne devam etti. Her yeni sözünde salondan yeni kahkahalar geliyordu.\n\nMüzikalin sonunda çocuklar zengin adama güneş panellerini ve rüzgâr gülünü gösterdiler. Şaşkın zengin sonunda akıllandı ve bütün çocuklarla birlikte son şarkıyı söyledi. Salondaki herkes ayağa kalktı. Öğrencilerin coşkusu seyircilere de geçmişti; uzun süre alkışladılar. Ayla Hanım perdenin arkasında gözlerini sildi. Bu kadar coşku beklemiyordu.\n\nGösteriden sonra Burak'ın babası öğretmenin yanına geldi. Elinde büyük, çikolatalı bir pasta vardı.\n\n— Çocuklar için yaptım, dedi. Burak'ın bu kadar cesur olabileceğini bilmiyordum. Size teşekkür etmek istedim.\n\n— Çok düşüncelisiniz, dedi Ayla Hanım. Çocuklar çikolatalı pastaya bayılır.\n\nGerçekten de pasta beş dakikada bitti. Akşam eve dönerken Burak düşünceli görünüyordu. Babası ona ne düşündüğünü sordu.\n\n— Bizim evde de lambalar hep yanıyor, dedi Burak. Ben de biraz o şaşkın zengin gibiyim galiba.\n\nBabası güldü ve o akşam evin gereksiz lambalarını birlikte söndürdüler. Kırmızı kravat ise Burak'ın odasında, duvarda asılı kaldı.\n\nSorular:\nMüzikalin konusu neydi?\nBütün lambaları yakıp ormanları kestiren şaşkın bir zengin adamı çocukların durdurmasıydı.\nBurak zengin adam rolüne neden önce çekindi?\nŞarkı söyleyemeyeceğini ve herkesin ona güleceğini düşünüyordu.\nBurak kostüm için ne istedi?\nBabasının eski, kırmızı bir kravatını istedi.\nSalondakiler neden kahkaha attı?\nŞaşkın zenginin sözleri çok komik olduğu için kahkaha attılar.\nBurak'ın babası gösteriden sonra ne getirdi?\nÇocuklar için büyük, çikolatalı bir pasta getirdi.\nBurak eve dönerken neden düşünceliydi?\nEvlerinde de lambaların hep yandığını ve kendisinin de şaşkın zengine benzediğini düşünüyordu."
     },
     {
       "title": "Mürekkep ve buzullar",
@@ -151,8 +148,6 @@
       "title": "Elektrikli arabayla Karadeniz",
       "summary": "A couple drive their electric car from Ankara to Trabzon, help clear a tree the wind blew onto the coast road, charge overnight at a guesthouse and meet a cycling traveller as agreed.",
       "newWords": [
-        "bizimki",
-        "karayol",
         "devirmek",
         "balta",
         "memnuniyetle",

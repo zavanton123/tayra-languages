@@ -112,7 +112,6 @@
         "bilinç",
         "damar",
         "katlanmak",
-        "fazlasıyla",
         "kıpırda",
         "rejim",
         "masaj",
@@ -128,7 +127,6 @@
         "ikiz",
         "fil",
         "memleket",
-        "aranmak",
         "duyurmak",
         "minnettar",
         "şahit"
@@ -154,7 +152,6 @@
       "title": "Kargo için bir uygulama",
       "summary": "Yusuf, a junior programmer in Eskişehir, learns from his team leader what an object is, works in parallel teams and helps finish a parcel-tracking app on time.",
       "newWords": [
-        "gelişmiş",
         "çeyrek",
         "akış",
         "nesne",
@@ -172,7 +169,6 @@
       "newWords": [
         "uğruna",
         "mağara",
-        "krallık",
         "engelli",
         "bodrum",
         "bizzat",
@@ -188,10 +184,9 @@
         "rıza",
         "hakaret",
         "kurtuluş",
-        "burç",
         "merhamet"
       ],
-      "text": "Geçen hafta yeğenim Merve ile bir kafede buluştuk. Merve bir yıldır büyük bir internet şirketinin çağrı merkezinde çalışıyor. Günde yaklaşık yüz kişiyle telefonda konuşuyor. Ona işini sordum. Önce kısa bir sessizlik oldu, sonra Merve anlatmaya başladı.\n\nHer görüşmenin başında müşteriye aynı cümleyi söylüyorlarmış: \"Bu görüşme, rızanızla kalite amacıyla kaydedilecektir.\" Müşterinin rızası olmadan kayıt yapılmıyormuş. Merve'ye göre bu kayıtlar bazen çalışanları da koruyor, çünkü bazı müşteriler telefonda fazlasıyla sert konuşuyor. Örneğin internet bir saat kesilince bazı insanlar ona ağır hakaretler edebiliyormuş. Oysa interneti kesen Merve değil; o sadece sorunu çözmeye çalışan biri.\n\n\"Hakaret eden bir müşteriye nasıl cevap veriyorsun?\" diye sordum. \"Hiçbir şey olmamış gibi sakin kalıyorum,\" dedi. \"Kendimi savunursam görüşme daha da uzuyor.\" Ama duyduğu hakaretleri unutmak kolay değilmiş. Akşam eve gidince evdeki sessizlik ona çok iyi geliyormuş. Bütün gün süren seslerden sonra o sessizlik, onun tek dinlenme zamanıymış.\n\nMerve'nin iş yerinde küçük kurtuluşları da var. Yan masadaki arkadaşı her sabah herkesin burcunu yüksek sesle okuyormuş. \"Bugün senin burcun için çok şanslı bir gün\" diyormuş ve herkes gülüyormuş. Öğle arasında arkadaşlarıyla birlikte parkta yürümek ise Merve'nin günlük kurtuluşuymuş. On beş dakikalık bir yürüyüş, öğleden sonraki yorucu saatlere katlanmasını kolaylaştırıyormuş.\n\nBu konuşmadan sonra çağrı merkezlerini farklı düşünmeye başladım. Telefonun öbür ucundaki kişi bir makine değil, bizim gibi bir insan. Sorunu o yaratmadı; üstelik çoğu zaman sorunu çözmek için elinden geleni yapıyor. Bu nedenle sizden küçük bir şey rica ediyorum: bir sonraki aramanızda biraz merhamet gösterin. Merhamet zor bir şey değil; bazen sadece bir \"lütfen\" ve bir \"teşekkür ederim\" yeterli. Sabırlı bir müşteri, bir çalışanın bütün gününü değiştirebilir.\n\nSorular:\nMerve nerede çalışıyor?\nMerve büyük bir internet şirketinin çağrı merkezinde çalışıyor.\nGörüşmeyi kaydetmek için ne gerekiyor?\nGörüşmeyi kaydetmek için müşterinin rızası gerekiyor.\nMerve hakaret eden bir müşteriye nasıl cevap veriyor?\nMerve hiçbir şey olmamış gibi sakin kalıyor.\nYan masadaki arkadaşı her sabah ne yapıyor?\nHer sabah herkesin burcunu yüksek sesle okuyor.\nMerve'nin günlük kurtuluşu ne?\nÖğle arasında arkadaşlarıyla parkta yürümek, Merve'nin günlük kurtuluşu.\nYazar okurlardan ne rica ediyor?\nYazar okurlardan, bir sonraki aramalarında biraz merhamet göstermelerini rica ediyor."
+      "text": "Geçen hafta yeğenim Merve ile bir kafede buluştuk. Merve bir yıldır büyük bir internet şirketinin çağrı merkezinde çalışıyor. Günde yaklaşık yüz kişiyle telefonda konuşuyor. Ona işini sordum. Önce kısa bir sessizlik oldu, sonra Merve anlatmaya başladı.\n\nHer görüşmenin başında müşteriye aynı cümleyi söylüyorlarmış: \"Bu görüşme, rızanızla kalite amacıyla kaydedilecektir.\" Müşterinin rızası olmadan kayıt yapılmıyormuş. Merve'ye göre bu kayıtlar bazen çalışanları da koruyor, çünkü bazı müşteriler telefonda fazlasıyla sert konuşuyor. Örneğin internet bir saat kesilince bazı insanlar ona ağır hakaretler edebiliyormuş. Oysa interneti kesen Merve değil; o sadece sorunu çözmeye çalışan biri.\n\n\"Hakaret eden bir müşteriye nasıl cevap veriyorsun?\" diye sordum. \"Hiçbir şey olmamış gibi sakin kalıyorum,\" dedi. \"Kendimi savunursam görüşme daha da uzuyor.\" Ama duyduğu hakaretleri unutmak kolay değilmiş. Akşam eve gidince evdeki sessizlik ona çok iyi geliyormuş. Bütün gün süren seslerden sonra o sessizlik, onun tek dinlenme zamanıymış.\n\nMerve'nin iş yerinde küçük kurtuluşları da var. Yan masadaki arkadaşı her sabah internetten komik bir haber bulup yüksek sesle okuyormuş. Haber ne kadar saçma olursa herkes o kadar çok gülüyormuş. Öğle arasında arkadaşlarıyla birlikte parkta yürümek ise Merve'nin günlük kurtuluşuymuş. On beş dakikalık bir yürüyüş, öğleden sonraki yorucu saatlere katlanmasını kolaylaştırıyormuş.\n\nBu konuşmadan sonra çağrı merkezlerini farklı düşünmeye başladım. Telefonun öbür ucundaki kişi bir makine değil, bizim gibi bir insan. Sorunu o yaratmadı; üstelik çoğu zaman sorunu çözmek için elinden geleni yapıyor. Bu nedenle sizden küçük bir şey rica ediyorum: bir sonraki aramanızda biraz merhamet gösterin. Merhamet zor bir şey değil; bazen sadece bir \"lütfen\" ve bir \"teşekkür ederim\" yeterli. Sabırlı bir müşteri, bir çalışanın bütün gününü değiştirebilir.\n\nSorular:\nMerve nerede çalışıyor?\nMerve büyük bir internet şirketinin çağrı merkezinde çalışıyor.\nGörüşmeyi kaydetmek için ne gerekiyor?\nGörüşmeyi kaydetmek için müşterinin rızası gerekiyor.\nMerve hakaret eden bir müşteriye nasıl cevap veriyor?\nMerve hiçbir şey olmamış gibi sakin kalıyor.\nYan masadaki arkadaşı her sabah ne yapıyor?\nHer sabah internetten komik bir haber bulup yüksek sesle okuyor.\nMerve'nin günlük kurtuluşu ne?\nÖğle arasında arkadaşlarıyla parkta yürümek, Merve'nin günlük kurtuluşu.\nYazar okurlardan ne rica ediyor?\nYazar okurlardan, bir sonraki aramalarında biraz merhamet göstermelerini rica ediyor."
     }
   ]
 }

@@ -45,7 +45,6 @@
       "title": "Mobilyalı ev",
       "summary": "Newly married Merve and Burak rent a furnished flat in İzmir from a stubborn but honest landlord and assemble the last wardrobe with the caretaker.",
       "newWords": [
-        "haliyle",
         "mobilya",
         "monte",
         "kontrat",
@@ -58,18 +57,17 @@
     },
     {
       "title": "Fırının yeni menüsü",
-      "summary": "When wheat prices jump, baker Hasan in Eskişehir follows his daughter's advice, adds a small menu and a new sign, and has his best month during Ramadan.",
+      "summary": "When wheat prices jump, baker Hasan in Eskişehir follows his daughter's advice, adds a small menu and a new sign, and has his best month during the city's winter festival.",
       "newWords": [
         "buğday",
         "sıçramak",
         "çörek",
         "menü",
         "tabela",
-        "ramazan",
         "bolca",
         "pişmek"
       ],
-      "text": "Hasan Usta'nın Eskişehir'deki küçük fırını otuz yıldır aynı köşededir. Hasan Usta her sabah saat dörtte kalkar ve işe başlar. İlk ekmekler altıda fırından çıkar. Mahallenin bütün çocukları onun sıcak çöreklerini bilir.\n\nAma bu yıl işler zorlaştı. Kış başında buğday fiyatları birden sıçradı. Bir ay içinde buğdayın fiyatı neredeyse iki katına çıktı. Hasan Usta akşamları defterini açıp hesap yaptı. Buğday sıçradıkça ekmeğin maliyeti de artıyordu. Ama ekmeğin fiyatını belediye belirliyordu, onu istediği gibi değiştiremezdi.\n\nKızı Zehra üniversitede işletme okuyordu. Bir hafta sonu fırına gelip babasının defterine baktı.\n\n— Baba, ekmekten kazanamıyorsak başka şeylerden kazanırız, dedi. Senin çöreklerin herkesin aklında. Onları daha çok satalım. Bir de küçük bir menü hazırlayalım, sabah gelenler çayını da burada içsin.\n\nHasan Usta önce emin olamadı ama kızına güvendi. Kapının yanına iki küçük masa koydular. Zehra bir kâğıda güzel bir menü yazdı: çay, kahve, sade çörek, tatlı çörek ve kek. Fırının eski tabelası da çok eskiydi. Zehra tabelayı da yeniledi. Yeni tabelada büyük harflerle \"Hasan Usta Fırını, Sıcak Çörek\" yazıyordu.\n\nBirkaç hafta sonra ramazan geldi. Ramazanda Eskişehir'in bütün fırınlarında akşam yemeğinden önce uzun kuyruklar olur, herkes sıcak ekmek almak ister. Hasan Usta bu ay için özel bir ekmek yaptı. Ekmeklerin üstüne bolca yağ sürdü, içine de bolca peynir koydu. Ekmekler fırında pişerken bütün sokak güzel kokuyordu. Zehra menüye bir satır daha ekledi: \"Ramazan ekmeği, sıcak sıcak\".\n\nKuyruktaki müşteriler ekmeklerin pişmesini beklerken çörek ve çay da alıyordu. Akşamları rafta tek bir çörek kalmıyordu. Ramazan bitince Hasan Usta defteri yeniden açtı. Buğday hâlâ pahalıydı, ama fırının kasası geçen yılın aynı ayından daha doluydu.\n\n— Kızım, dedi gülerek, otuz yıldır ekmek yapıyorum, ama hesap yapmayı senden öğrendim.\n\n— Sen de bana iyi bir ekmeğin nasıl piştiğini öğrettin baba, dedi Zehra.\n\nSorular:\nHasan Usta'nın işleri neden zorlaştı?\nBuğday fiyatları sıçradı ve neredeyse iki katına çıktı.\nHasan Usta ekmeğin fiyatını neden değiştiremiyordu?\nÇünkü ekmeğin fiyatını belediye belirliyordu.\nZehra babasına ne önerdi?\nÇörekleri daha çok satmayı ve küçük bir menü hazırlamayı önerdi.\nYeni tabelada ne yazıyordu?\nYeni tabelada \"Hasan Usta Fırını, Sıcak Çörek\" yazıyordu.\nRamazanda müşteriler kuyrukta beklerken ne yaptı?\nEkmeklerin pişmesini beklerken çörek ve çay da aldılar."
+      "text": "Hasan Usta'nın Eskişehir'deki küçük fırını otuz yıldır aynı köşededir. Hasan Usta her sabah saat dörtte kalkar ve işe başlar. İlk ekmekler altıda fırından çıkar. Mahallenin bütün çocukları onun sıcak çöreklerini bilir.\n\nAma bu yıl işler zorlaştı. Kış başında buğday fiyatları birden sıçradı. Bir ay içinde buğdayın fiyatı neredeyse iki katına çıktı. Hasan Usta akşamları defterini açıp hesap yaptı. Buğday sıçradıkça ekmeğin maliyeti de artıyordu. Ama ekmeğin fiyatını belediye belirliyordu, onu istediği gibi değiştiremezdi.\n\nKızı Zehra üniversitede işletme okuyordu. Bir hafta sonu fırına gelip babasının defterine baktı.\n\n— Baba, ekmekten kazanamıyorsak başka şeylerden kazanırız, dedi. Senin çöreklerin herkesin aklında. Onları daha çok satalım. Bir de küçük bir menü hazırlayalım, sabah gelenler çayını da burada içsin.\n\nHasan Usta önce emin olamadı ama kızına güvendi. Kapının yanına iki küçük masa koydular. Zehra bir kâğıda güzel bir menü yazdı: çay, kahve, sade çörek, tatlı çörek ve kek. Fırının eski tabelası da çok eskiydi. Zehra tabelayı da yeniledi. Yeni tabelada büyük harflerle \"Hasan Usta Fırını, Sıcak Çörek\" yazıyordu.\n\nBirkaç hafta sonra şehrin kış festivali başladı. Festival ayında Eskişehir'in sokakları akşamları çok kalabalık olur; bütün fırınlarda akşam yemeğinden önce uzun kuyruklar olur, herkes sıcak ekmek almak ister. Hasan Usta bu ay için özel bir ekmek yaptı. Ekmeklerin üstüne bolca yağ sürdü, içine de bolca peynir koydu. Ekmekler fırında pişerken bütün sokak güzel kokuyordu. Zehra menüye bir satır daha ekledi: \"Festival ekmeği, sıcak sıcak\".\n\nKuyruktaki müşteriler ekmeklerin pişmesini beklerken çörek ve çay da alıyordu. Akşamları rafta tek bir çörek kalmıyordu. Festival bitince Hasan Usta defteri yeniden açtı. Buğday hâlâ pahalıydı, ama fırının kasası geçen yılın aynı ayından daha doluydu.\n\n— Kızım, dedi gülerek, otuz yıldır ekmek yapıyorum, ama hesap yapmayı senden öğrendim.\n\n— Sen de bana iyi bir ekmeğin nasıl piştiğini öğrettin baba, dedi Zehra.\n\nSorular:\nHasan Usta'nın işleri neden zorlaştı?\nBuğday fiyatları sıçradı ve neredeyse iki katına çıktı.\nHasan Usta ekmeğin fiyatını neden değiştiremiyordu?\nÇünkü ekmeğin fiyatını belediye belirliyordu.\nZehra babasına ne önerdi?\nÇörekleri daha çok satmayı ve küçük bir menü hazırlamayı önerdi.\nYeni tabelada ne yazıyordu?\nYeni tabelada \"Hasan Usta Fırını, Sıcak Çörek\" yazıyordu.\nFestival ayında müşteriler kuyrukta beklerken ne yaptı?\nEkmeklerin pişmesini beklerken çörek ve çay da aldılar."
     },
     {
       "title": "Halı sahadan gelen iş",
@@ -95,7 +93,6 @@
         "işitmek",
         "mit",
         "nine",
-        "bağır",
         "kova",
         "fırça",
         "güzelce",
@@ -109,7 +106,6 @@
       "newWords": [
         "fotoğrafçı",
         "seans",
-        "unutulmaz",
         "pazarlamak",
         "manken",
         "zarif",
@@ -141,11 +137,10 @@
         "sur",
         "danışma",
         "anıt",
-        "büyülü",
         "alerji",
         "ruhsal"
       ],
-      "text": "Ayla, Bursa'da eski bir hamamın sahibi. Hamam iki yüz yıllık. Büyükbabası onu 1960'larda satın almış. Ama son yıllarda hamama gelen müşteri azalmıştı. Ayla hesapları inceledi. Yakıt, su ve tamir masrafları her yıl artıyor, gelir ise düşüyordu.\n\nHamam, şehrin eski surlarının hemen yanındaydı. Surların dibindeki dar sokaklardan her gün yüzlerce turist geçiyor, ama çoğu hamamın kapısını fark etmiyordu. Ayla bir sabah turizm danışma bürosuna gitti. Danışmadaki genç memur ona bir harita gösterdi.\n\n— Turistler önce surları geziyor, sonra İnkaya'daki anıt ağacı görmeye gidiyor, dedi. O ağaç altı yüz yıllık bir çınar ve anıt ağaç olarak korunuyor. Siz de hamamınızı bu yolun üstüne koyabilirsiniz.\n\nAyla bunun iyi bir fikir olduğunu düşündü. Danışma bürosu haritaya küçük bir hamam resmi ekledi. Ayla da surlardan anıt ağaca giden turistler için bir program hazırladı: sabah ağacı ziyaret, öğleden sonra hamam.\n\nHamamın içini de yeniledi. Kubbedeki küçük camları tek tek temizledi. Öğleden sonra güneş bu camlardan içeri girince taşların üstüne yuvarlak ışıklar düşüyordu. Sıcak buharın içinde bu ışıklar neredeyse büyülü görünüyordu. Turistler fotoğraf çekip internette \"büyülü bir yer\" diye yazdılar.\n\nBir gün İngiltere'den gelen yaşlı bir kadın, kokulu sabunlara alerjisi olduğunu söyledi. Ayla o gün düşündü: Belki başka müşterilerin de alerjisi vardı. Kokulu sabunları kaldırdı ve yerine Bursa'nın bir köyünde yapılan doğal zeytinyağı sabunlarını koydu. Hem alerji sorunu çözüldü hem de köydeki küçük sabun atölyesi yeni bir müşteri kazandı.\n\nBir akşam Ayla, bir sağlık dergisinde hamamlarla ilgili bir yazı okudu. Yazıya göre sıcak su ve sessizlik stresi azaltıyor, insanları hem bedensel hem ruhsal olarak rahatlatıyordu. Ayla bu ruhsal faydayı anlatan cümleyi hamamın girişine yazdı.\n\nBir yıl sonra hamamın geliri iki katına çıkmıştı. Ayla hesap defterini kapatırken büyükbabasını düşündü. O da bu kubbenin altında aynı büyülü ışığı görmüş olmalıydı.\n\nSorular:\nHamama neden az müşteri geliyordu?\nTuristler surların yanındaki sokaklardan geçiyor ama hamamın kapısını fark etmiyordu.\nDanışmadaki memur Ayla'ya ne önerdi?\nHamamı surlardan anıt ağaca giden turist yolunun üstüne koymasını önerdi.\nHamam neden büyülü görünüyordu?\nGüneş kubbedeki camlardan girince buharın içinde yuvarlak ışıklar oluşuyordu.\nAyla alerji sorununu nasıl çözdü?\nKokulu sabunları kaldırıp yerine doğal zeytinyağı sabunları koydu.\nDergideki yazıda ne yazıyordu?\nSıcak su ve sessizliğin insanları ruhsal olarak rahatlattığı yazıyordu."
+      "text": "Ayla, Bursa'da eski bir hamamın sahibi. Hamam iki yüz yıllık. Büyükbabası onu 1960'larda satın almış. Ama son yıllarda hamama gelen müşteri azalmıştı. Ayla hesapları inceledi. Yakıt, su ve tamir masrafları her yıl artıyor, gelir ise düşüyordu.\n\nHamam, şehrin eski surlarının hemen yanındaydı. Surların dibindeki dar sokaklardan her gün yüzlerce turist geçiyor, ama çoğu hamamın kapısını fark etmiyordu. Ayla bir sabah turizm danışma bürosuna gitti. Danışmadaki genç memur ona bir harita gösterdi.\n\n— Turistler önce surları geziyor, sonra İnkaya'daki anıt ağacı görmeye gidiyor, dedi. O ağaç altı yüz yıllık bir çınar ve anıt ağaç olarak korunuyor. Siz de hamamınızı bu yolun üstüne koyabilirsiniz.\n\nAyla bunun iyi bir fikir olduğunu düşündü. Danışma bürosu haritaya küçük bir hamam resmi ekledi. Ayla da surlardan anıt ağaca giden turistler için bir program hazırladı: sabah ağacı ziyaret, öğleden sonra hamam.\n\nHamamın içini de yeniledi. Kubbedeki küçük camları tek tek temizledi. Öğleden sonra güneş bu camlardan içeri girince taşların üstüne yuvarlak ışıklar düşüyordu. Sıcak buharın içinde bu ışıklar bir masaldaki gibi görünüyordu. Turistler fotoğraf çekip internette \"masal gibi bir yer\" diye yazdılar.\n\nBir gün İngiltere'den gelen yaşlı bir kadın, kokulu sabunlara alerjisi olduğunu söyledi. Ayla o gün düşündü: Belki başka müşterilerin de alerjisi vardı. Kokulu sabunları kaldırdı ve yerine Bursa'nın bir köyünde yapılan doğal zeytinyağı sabunlarını koydu. Hem alerji sorunu çözüldü hem de köydeki küçük sabun atölyesi yeni bir müşteri kazandı.\n\nBir akşam Ayla, bir sağlık dergisinde hamamlarla ilgili bir yazı okudu. Yazıya göre sıcak su ve sessizlik stresi azaltıyor, insanları hem bedensel hem ruhsal olarak rahatlatıyordu. Ayla bu ruhsal faydayı anlatan cümleyi hamamın girişine yazdı.\n\nBir yıl sonra hamamın geliri iki katına çıkmıştı. Ayla hesap defterini kapatırken büyükbabasını düşündü. O da bu kubbenin altında aynı güzel ışığı görmüş olmalıydı.\n\nSorular:\nHamama neden az müşteri geliyordu?\nTuristler surların yanındaki sokaklardan geçiyor ama hamamın kapısını fark etmiyordu.\nDanışmadaki memur Ayla'ya ne önerdi?\nHamamı surlardan anıt ağaca giden turist yolunun üstüne koymasını önerdi.\nHamam neden masal gibi görünüyordu?\nGüneş kubbedeki camlardan girince buharın içinde yuvarlak ışıklar oluşuyordu.\nAyla alerji sorununu nasıl çözdü?\nKokulu sabunları kaldırıp yerine doğal zeytinyağı sabunları koydu.\nDergideki yazıda ne yazıyordu?\nSıcak su ve sessizliğin insanları ruhsal olarak rahatlattığı yazıyordu."
     },
     {
       "title": "Kuru çiçek demetleri",
@@ -182,7 +177,6 @@
       "newWords": [
         "koloni",
         "manastır",
-        "beyzbol",
         "şifa",
         "ahlaki",
         "avlanmak"

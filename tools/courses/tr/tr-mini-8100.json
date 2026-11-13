@@ -58,7 +58,6 @@
         "kumlu",
         "zinde",
         "bitik",
-        "kaval",
         "anatomik",
         "yağsız",
         "stant",
@@ -70,7 +69,6 @@
       "title": "Huzurevinde bir pazar",
       "summary": "Esra visits her grandmother in a care home, finds her sulking with her card-game friend, and brings mantı to make peace.",
       "newWords": [
-        "huzurev",
         "konuşkan",
         "küs",
         "iskambil",
@@ -118,7 +116,6 @@
         "besleyici",
         "marul",
         "kabarmak",
-        "oracıkta",
         "sazan",
         "kahveci"
       ],
@@ -129,7 +126,6 @@
       "summary": "A children's librarian loses her voice from reading aloud and learns from a voice therapist how to breathe and rest it.",
       "newWords": [
         "kütüphaneci",
-        "okunuş",
         "nedensiz",
         "lanse",
         "harfiyen",
@@ -163,7 +159,6 @@
         "anksiyete",
         "formüle",
         "tevazu",
-        "şaşmaz",
         "göstermelik",
         "podyum",
         "ithafen"
@@ -172,19 +167,17 @@
     },
     {
       "title": "Bir köy hekiminin notları",
-      "summary": "A village doctor writes about a farmer who quit smoking, the hard first weeks, the walks with his horse, and the nitrate in his well.",
+      "summary": "A village doctor writes about a farmer who cut down on salt for his blood pressure, the hard first weeks, the walks with his horse, and the nitrate in his well.",
       "newWords": [
-        "nikotin",
         "makro",
         "sosyolojik",
         "mağduriyet",
-        "felek",
         "deh",
         "porsuk",
         "nitrat",
         "ulvi"
       ],
-      "text": "Yirmi yıldır Bolu'nun bir köyünde aile hekimliği yapıyorum. Bu yazıda size bir hastamı, Halil Amca'yı anlatmak istiyorum. Halil Amca yetmiş yaşında bir çiftçi; feleğin çemberinden geçmiş, çok şey görmüş bir adam. Elli yıl boyunca günde bir paket sigara içti. Geçen kış nefes darlığıyla bana geldi ve sigarayı bırakmaya karar verdi.\n\nSigaranın zararlarını makro düzeyde, rakamlarla anlatmak kolaydır: her yıl kaç kişinin hastalandığını, ülkenin sağlığa ne kadar para harcadığını söyleriz. Ama makro rakamlar tek bir insanı pek etkilemez. Halil Amca'yı etkileyen, torununun merdivenleri ondan hızlı çıkmasıydı.\n\nİlk haftalar zor geçti. Vücut nikotine alışmıştır; nikotin kesilince insan huzursuz olur, sinirlenir, uyuyamaz. Ona nikotin bandı verdim ve her gün yürümesini önerdim. Nikotin isteği geldiğinde bir bardak su içecek, birkaç dakika derin nefes alacaktı.\n\nSigaranın bir de sosyolojik yanı var. Köyde erkekler akşamları kahvehanede toplanır, çay içer, sigara içer. Halil Amca kahvehaneye gidince herkes sigara içerken kendisi içemiyordu. Bana bunu bir tür mağduriyet olarak anlattı: \"Doktor, ben kimseye bir şey yapmadım, ama cezayı ben çekiyorum.\" Bu mağduriyet duygusu sigarayı bırakanlarda çok yaygındır. Bu yüzden sosyolojik açıdan da çözüm aradık: Halil Amca birkaç hafta kahvehaneye gitmedi, akşamları atıyla yürüyüşe çıktı.\n\nHalil Amca'nın yaşlı, kır bir atı var. Her akşam ormanın kenarındaki yolda birlikte yürüyorlar. At durunca Halil Amca \"Deh!\" diye sesleniyor. Bir akşam bana gülerek anlattı: \"Eskiden ata 'deh' derken öksürürdüm. Şimdi öksürmüyorum.\" Aynı yürüyüşlerin birinde yolun kenarında bir porsuk görmüş. Porsuk bir süre ona bakmış, sonra yavaşça ağaçların arasına girmiş. Halil Amca o porsuğu bütün köye anlattı.\n\nMuayene sırasında başka bir konu da konuştuk. Halil Amca'nın evinin suyu tarlaların yanındaki bir kuyudan geliyor. Tarlalara atılan gübre zamanla yer altı suyuna karışabilir ve suda nitrat birikebilir. Fazla nitrat özellikle bebekler için tehlikelidir. Kuyunun suyunu tahlil ettirdik; nitrat sınırın biraz altındaydı. Yine de içme suyunu artık çeşmeden alıyor.\n\nFeleğin çemberinden geçmiş biri için bile sigarayı bırakmak kolay değildir. Altı ay geçti. Halil Amca tek bir sigara bile içmedi. Merdivenleri torunuyla yarışarak çıkıyor. Ona bunun büyük bir başarı olduğunu söylediğimde güldü: \"Ulvi bir iş yapmadım, doktor. Sadece nefes almak istedim.\" Bence nefes almak istemek, insanın yapabileceği en ulvi isteklerden biridir.\n\nSorular:\nHalil Amca sigarayı neden bırakmaya karar verdi?\nNefes darlığıyla doktora gitti; torununun merdivenleri ondan hızlı çıkması da onu etkiledi.\nNikotin kesilince insan neler yaşar?\nHuzursuz olur, sinirlenir ve uyuyamaz.\nHalil Amca hangi mağduriyetten söz etti?\nKahvehanede herkes sigara içerken kendisinin içemediğini, cezayı kendisinin çektiğini söyledi.\nHalil Amca akşamları ne yapıyordu?\nAtıyla ormanın kenarındaki yolda yürüyüşe çıkıyordu.\nKuyu suyunda nitrat neden birikebilir?\nTarlalara atılan gübre zamanla yer altı suyuna karışabilir."
+      "text": "Yirmi yıldır Bolu'nun bir köyünde aile hekimliği yapıyorum. Bu yazıda size bir hastamı, Halil Amca'yı anlatmak istiyorum. Halil Amca yetmiş yaşında bir çiftçi; çok çalışmış, çok şey görmüş bir adam. Elli yıl boyunca sofrasından tuzluk hiç eksik olmadı. Geçen kış baş ağrısı ve nefes darlığıyla bana geldi. Tansiyonu çok yüksekti. Ona tuzu azaltmasını söyledim; o da biraz düşündükten sonra kabul etti.\n\nTuzun zararlarını makro düzeyde, rakamlarla anlatmak kolaydır: her yıl kaç kişinin yüksek tansiyon yüzünden hastalandığını, ülkenin sağlığa ne kadar para harcadığını söyleriz. Ama makro rakamlar tek bir insanı pek etkilemez. Halil Amca'yı etkileyen, torununun merdivenleri ondan hızlı çıkmasıydı.\n\nİlk haftalar zor geçti. Dil tuza alışmıştır; tuz azalınca yemekler insana tatsız gelir. Ona tuz yerine nane, kekik ve limon kullanmasını, her gün de yürümesini önerdim. Canı turşu ya da tuzlu peynir istediğinde bir bardak su içecek, birkaç dakika yürüyecekti.\n\nTuzun bir de sosyolojik yanı var. Köyde erkekler akşamları kahvehanede toplanır, çay içer, yanında tuzlu çerez yer. Halil Amca kahvehaneye gidince herkes çerez yerken kendisi yiyemiyordu. Bana bunu bir tür mağduriyet olarak anlattı: \"Doktor, ben kimseye bir şey yapmadım, ama cezayı ben çekiyorum.\" Bu mağduriyet duygusu perhiz yapanlarda çok yaygındır. Bu yüzden sosyolojik açıdan da çözüm aradık: Halil Amca birkaç hafta kahvehaneye gitmedi, akşamları atıyla yürüyüşe çıktı.\n\nHalil Amca'nın yaşlı, kır bir atı var. Her akşam ormanın kenarındaki yolda birlikte yürüyorlar. At durunca Halil Amca \"Deh!\" diye sesleniyor. Bir akşam bana gülerek anlattı: \"Eskiden ata 'deh' derken nefes nefese kalırdım. Şimdi kalmıyorum.\" Aynı yürüyüşlerin birinde yolun kenarında bir porsuk görmüş. Porsuk bir süre ona bakmış, sonra yavaşça ağaçların arasına girmiş. Halil Amca o porsuğu bütün köye anlattı.\n\nMuayene sırasında başka bir konu da konuştuk. Halil Amca'nın evinin suyu tarlaların yanındaki bir kuyudan geliyor. Tarlalara atılan gübre zamanla yer altı suyuna karışabilir ve suda nitrat birikebilir. Fazla nitrat özellikle bebekler için tehlikelidir. Kuyunun suyunu tahlil ettirdik; nitrat sınırın biraz altındaydı. Yine de içme suyunu artık çeşmeden alıyor.\n\nYetmiş yıllık bir alışkanlığı bırakmak kolay değildir. Altı ay geçti. Halil Amca'nın tansiyonu düştü, baş ağrıları geçti. Merdivenleri torunuyla yarışarak çıkıyor. Ona bunun büyük bir başarı olduğunu söylediğimde güldü: \"Ulvi bir iş yapmadım, doktor. Sadece nefes almak istedim.\" Bence nefes almak istemek, insanın yapabileceği en ulvi isteklerden biridir.\n\nSorular:\nHalil Amca tuzu neden azaltmaya karar verdi?\nTansiyonu çok yüksekti; torununun merdivenleri ondan hızlı çıkması da onu etkiledi.\nTuz azalınca yemekler insana nasıl gelir?\nTatsız gelir.\nHalil Amca hangi mağduriyetten söz etti?\nKahvehanede herkes çerez yerken kendisinin yiyemediğini, cezayı kendisinin çektiğini söyledi.\nHalil Amca akşamları ne yapıyordu?\nAtıyla ormanın kenarındaki yolda yürüyüşe çıkıyordu.\nKuyu suyunda nitrat neden birikebilir?\nTarlalara atılan gübre zamanla yer altı suyuna karışabilir."
     }
   ]
 }
