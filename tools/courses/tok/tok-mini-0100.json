@@ -1,0 +1,195 @@
+{
+  "id": "tok-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "lon tomo, lon kulupu mama",
+  "description": "Ten short, simple stories about home, family and everyday moments.",
+  "topic": "Home and family",
+  "names": [
+    "Lisa",
+    "Ana",
+    "Pawan",
+    "Simon",
+    "Mija",
+    "Sami",
+    "Mali",
+    "Sopi",
+    "Emili",
+    "Tomasi",
+    "Lena",
+    "Pilipo",
+    "Ewa"
+  ],
+  "lessons": [
+    {
+      "title": "tomo sin",
+      "summary": "Lisa and her mother Ana live in a new house, and Lisa has a small new room.",
+      "newWords": [
+        "jan",
+        "li",
+        "lili",
+        "mama",
+        "ona",
+        "tomo",
+        "sin",
+        "suli",
+        "pona",
+        "lon",
+        "ni",
+        "ala"
+      ],
+      "text": "jan Lisa li jan lili. jan Ana li mama ona.\n\njan Lisa li lon tomo sin. mama ona li lon tomo sin. tomo sin li suli. tomo sin li pona.\n\ntomo lili li lon tomo sin. jan Lisa li lon tomo lili. tomo lili li sin. tomo lili ni li pona.\n\ntomo lili li suli ala. jan Lisa li suli ala. jan Lisa li lili. tomo lili li lili. ni li pona.\n\njan Ana li lon tomo suli. tomo suli li pona. jan Ana li pona. jan Lisa li pona. tomo sin li pona!\n\nwile sona:\njan Ana li mama ala mama?\njan Ana li mama.\njan Lisa li lili ala lili?\njan Lisa li lili.\ntomo sin li suli ala suli?\ntomo sin li suli.\njan Lisa li lon ala lon tomo lili?\njan Lisa li lon tomo lili.\ntomo lili li suli ala suli?\ntomo lili li suli ala."
+    },
+    {
+      "title": "kili",
+      "summary": "Pawan is hungry; his mother has fruit and water for him.",
+      "newWords": [
+        "e",
+        "moku",
+        "wile",
+        "seme",
+        "kili",
+        "telo",
+        "jo",
+        "a",
+        "mi",
+        "sina",
+        "toki"
+      ],
+      "text": "jan Pawan li jan lili. ona li wile moku.\n\njan Pawan li toki e ni: “mi wile moku!”\n\nmama ona li toki e ni: “sina wile moku e seme?”\n\njan Pawan li toki e ni: “mi wile moku e kili.”\n\nmama li jo e kili. jan Pawan li moku e kili.\n\njan Pawan li toki e ni: “kili li pona a! mi wile e telo.”\n\nmama li jo e telo. jan Pawan li moku e telo. telo li pona.\n\nmama li toki e ni: “sina wile ala wile e kili sin?”\n\njan Pawan li toki e ni: “wile ala. mi pona a!”\n\nwile sona:\njan Pawan li wile e seme?\njan Pawan li wile moku.\njan Pawan li wile moku e seme?\nona li wile moku e kili.\nmama li jo e seme?\nmama li jo e kili. ona li jo e telo.\njan Pawan li moku e seme?\nona li moku e kili. ona li moku e telo.\njan Pawan li wile ala wile e kili sin?\nona li wile ala."
+    },
+    {
+      "title": "soweli li lon seme?",
+      "summary": "Simon looks for his cat in the house and finds it in a hole next to the house.",
+      "newWords": [
+        "soweli",
+        "lukin",
+        "tawa",
+        "kama",
+        "insa",
+        "lupa",
+        "monsi",
+        "anpa",
+        "poka",
+        "alasa",
+        "ma"
+      ],
+      "text": "jan Simon li jo e soweli lili.\n\njan Simon li wile lukin e soweli. soweli li lon ala tomo. jan Simon li alasa e soweli.\n\nona li tawa tomo lili. ona li lukin lon insa tomo lili. soweli li lon ala.\n\nona li lukin lon anpa. soweli li lon ala anpa.\n\nona li tawa monsi tomo. ona li lukin lon monsi tomo. soweli li lon ala.\n\njan Simon li tawa ma. ona li lukin e ma. lupa lili li lon poka tomo. jan Simon li lukin lon insa lupa. soweli li lon insa lupa!\n\njan Simon li toki e ni: “soweli mi a! sina lon ni!”\n\nsoweli li kama tawa jan Simon. jan Simon li tawa insa tomo. soweli li tawa insa tomo.\n\nwile sona:\njan Simon li alasa e seme?\nona li alasa e soweli.\nsoweli li lon ala lon insa tomo lili?\nsoweli li lon ala.\nlupa li lon seme?\nlupa li lon poka tomo.\nsoweli li lon seme?\nsoweli li lon insa lupa.\nsoweli li kama ala kama tawa jan Simon?\nsoweli li kama tawa jan Simon."
+    },
+    {
+      "title": "nimi mi",
+      "summary": "Little Mija learns from her mother how to write her name.",
+      "newWords": [
+        "nimi",
+        "o",
+        "sona",
+        "ken",
+        "lipu",
+        "sitelen",
+        "pana",
+        "en",
+        "tan"
+      ],
+      "text": "jan Mija li jan lili. ona li sona ala sitelen e nimi ona.\n\njan Mija li toki e ni: “mama o, mi wile sitelen e nimi mi. sina ken ala ken pana e sona?”\n\nmama ona li toki e ni: “ken. o lukin.”\n\njan Mija en mama li jo e lipu. mama li sitelen e nimi “Mija” lon lipu. jan Mija li lukin e sitelen.\n\njan Mija li jo e lipu sin. ona li sitelen e nimi ona lon lipu sin.\n\njan Mija li toki e ni: “mama o, lukin! mi ken sitelen e nimi mi! mi sona!”\n\njan Mija li pana e lipu tawa mama. mama li toki e ni: “lipu ni li tan seme?”\n\njan Mija li toki e ni: “lipu ni li tan mi!”\n\njan Mija en mama ona li pona.\n\nwile sona:\njan Mija li sona ala sitelen e seme?\nona li sona ala sitelen e nimi ona.\nmama li sitelen e seme lon lipu?\nona li sitelen e nimi “Mija”.\njan Mija li ken ala ken sitelen e nimi ona?\nona li ken."
+    },
+    {
+      "title": "kalama lon tenpo pimeja",
+      "summary": "At night a noise wakes Sami: it is a little animal that wants to come in.",
+      "newWords": [
+        "tenpo",
+        "la",
+        "suno",
+        "mun",
+        "lape",
+        "pimeja",
+        "open",
+        "pini",
+        "awen",
+        "kalama"
+      ],
+      "text": "tenpo pimeja la, jan Sami li wile lape. suno li lon ala. mun li lon.\n\njan Sami li lape lon tomo lili. tenpo lili la, kalama li kama. jan Sami li lape ala.\n\nkalama li tan lupa. jan Sami li open e lupa. soweli lili li lon ma. kalama li tan soweli.\n\nsoweli li wile kama lon insa tomo. jan Sami li awen. soweli li kama lon insa. jan Sami li pini e lupa.\n\nsoweli li awen lon poka jan Sami. kalama li pini. jan Sami li lape.\n\ntenpo suno la, suno li kama. mun li lon ala. mama li kama. ona li toki e ni: “tenpo suno li open! o kama moku!”\n\njan Sami li awen lape.\n\nwile sona:\ntenpo pimeja la, jan Sami li wile seme?\nona li wile lape.\nkalama li tan seme?\nkalama li tan soweli lili.\njan Sami li open e seme?\nona li open e lupa.\nsoweli li awen lon seme?\nsoweli li awen lon poka jan Sami.\ntenpo suno la, jan Sami li lape ala lape?\nona li awen lape."
+    },
+    {
+      "title": "moku suwi",
+      "summary": "Mali bakes a sweet cake, washes the dirty tools and drinks hot tea with her mother.",
+      "newWords": [
+        "seli",
+        "lete",
+        "pali",
+        "kepeken",
+        "ilo",
+        "kiwen",
+        "ko",
+        "jaki",
+        "suwi",
+        "kasi"
+      ],
+      "text": "jan Mali li wile pali e moku suwi.\n\njan Mali li jo e ko e telo e kili. ona li pali kepeken ilo. ilo ni li kiwen. ona li pana e ko e telo e kili lon insa ilo.\n\njan Mali li seli e ko. moku suwi li seli. jan Mali li awen. moku suwi li kama lete.\n\nmama ona li kama. mama li moku e moku suwi. ona li toki e ni: “suwi a! sina pali pona!”\n\nilo li jaki. jan Mali li telo e ilo kepeken telo lete. ilo li jaki ala.\n\nmama en jan Mali li moku e telo kasi seli. telo kasi li pona.\n\nwile sona:\njan Mali li wile pali e seme?\nona li wile pali e moku suwi.\nona li pali kepeken seme?\nona li pali kepeken ilo kiwen.\nmoku suwi li kama ala kama lete?\nmoku suwi li kama lete.\nilo li jaki ala jaki?\nilo li jaki. jan Mali li telo e ilo.\nmama en jan Mali li moku e seme?\nona li moku e telo kasi seli."
+    },
+    {
+      "title": "len jelo",
+      "summary": "Sopi buys a new yellow shirt; the first one is too big, so she takes another.",
+      "newWords": [
+        "kule",
+        "jelo",
+        "laso",
+        "loje",
+        "len",
+        "linja",
+        "ante",
+        "anu",
+        "esun",
+        "mute"
+      ],
+      "text": "jan Sopi li wile e len sin. ona li tawa tomo esun.\n\nlen mute li lon tomo esun. len loje li lon. len laso li lon. len jelo li lon.\n\njan esun li toki e ni: “sina wile e len loje anu len laso?”\n\njan Sopi li toki e ni: “mi wile e len jelo. jelo li kule pona.”\n\njan esun li pana e len jelo. len jelo ni li suli. jan Sopi li toki e ni: “len ni li suli. mi wile e len ante.”\n\njan esun li pana e len jelo ante. len ante li lili. linja laso li lon len.\n\njan Sopi li esun e len.\n\nona li toki e ni: “mama o, lukin! len mi li jelo. kule ona li mute!”\n\nwile sona:\njan Sopi li tawa seme?\nona li tawa tomo esun.\njan Sopi li wile e len loje anu len jelo?\nona li wile e len jelo.\njan Sopi li wile e len ante tan seme?\nlen jelo ni li suli.\nlinja seme li lon len?\nlinja laso li lon len."
+    },
+    {
+      "title": "musi pi kulupu mama",
+      "summary": "Emili and Tomasi run races; Tomasi loses at first, then wins three times.",
+      "newWords": [
+        "musi",
+        "kulupu",
+        "nanpa",
+        "wan",
+        "tu",
+        "luka",
+        "wawa",
+        "ike",
+        "taso",
+        "pi"
+      ],
+      "text": "kulupu mama pi jan Emili li lon ma. jan Emili en jan Tomasi li jan lili. ona li wile musi.\n\nmusi ni la, jan li tawa wawa.\n\njan Emili en jan Tomasi li tawa wawa. jan Emili li nanpa wan. jan Tomasi li wawa, taso ona li nanpa tu.\n\njan Tomasi li toki e ni: “musi ni li ike!”\n\nmama li toki e ni: “jan Tomasi o, musi li pona. sina wawa. taso jan Emili li wawa mute.”\n\nona li musi lon tenpo luka. jan Emili li nanpa wan lon tenpo tu. jan Tomasi li nanpa wan lon tenpo tu wan.\n\ntenpo ni la, jan Tomasi li toki ala e ni: “musi li ike.” ona li toki e ni: “musi ni li pona a!”\n\nwile sona:\nkulupu pi jan Emili li lon seme?\nkulupu li lon ma.\njan Emili li nanpa seme?\njan Emili li nanpa wan.\njan Tomasi li toki e seme?\nona li toki e ni: “musi ni li ike!”\nona li musi lon tenpo luka ala luka?\nona li musi lon tenpo luka."
+    },
+    {
+      "title": "palisa li pakala",
+      "summary": "Lena falls when a branch breaks; her mother looks after her leg and the bump on her head.",
+      "newWords": [
+        "pakala",
+        "noka",
+        "lawa",
+        "pilin",
+        "nena",
+        "palisa",
+        "ijo",
+        "kon",
+        "nasa",
+        "olin"
+      ],
+      "text": "jan Lena li lon ma. ona li wile tawa lon palisa pi kasi suli.\n\njan Lena li tawa lon palisa. palisa li pakala! jan Lena li tawa anpa.\n\nnoka ona li pakala. lawa ona li jo e nena lili. jan Lena li pilin ike. ona li pilin nasa.\n\nmama ona li kama. mama li toki e ni: “jan Lena o, sina pilin seme?”\n\njan Lena li toki e ni: “noka mi li pakala. mi pilin nasa.”\n\nmama li pana e ijo lete lon nena. kon pona li kama. mama li toki e ni: “o kon. o awen.”\n\njan Lena li kon.\n\nmama li toki e ni: “mi olin e sina.” jan Lena li toki e ni: “mama o, mi olin e sina.”\n\nwile sona:\njan Lena li wile tawa lon seme?\nona li wile tawa lon palisa pi kasi suli.\nnena li lon seme?\nnena li lon lawa pi jan Lena.\njan Lena li pilin seme?\nona li pilin nasa. noka ona li pakala.\nmama li pana e seme lon nena?\nona li pana e ijo lete."
+    },
+    {
+      "title": "nasin tawa telo suli",
+      "summary": "On the path to the lake Pilipo and Ewa hear animals, see a lizard and insects, and find fish.",
+      "newWords": [
+        "akesi",
+        "kala",
+        "pipi",
+        "mu",
+        "moli",
+        "nasin",
+        "kute"
+      ],
+      "text": "jan Pilipo en jan Ewa li tawa telo suli. ona li tawa lon nasin lili lon ma.\n\nlon nasin la, ona li kute e kalama. soweli suli li mu. jan Ewa li toki e ni: “o kute! soweli li mu!”\n\njan Pilipo li lukin e akesi lili lon kiwen. akesi li lape lon suno.\n\npipi mute li lon kasi. pipi li kalama. jan Ewa li kute e pipi.\n\njan Pilipo en jan Ewa li kama lon telo suli. kala mute li lon telo. kala li tawa. kala wan li tawa ala. ona li moli. jan Ewa li pilin ike.\n\njan Pilipo li toki e ni: “kala ni li moli. taso kala mute li tawa.”\n\ntenpo pimeja la, ona li tawa tomo lon nasin lili.\n\nwile sona:\njan Pilipo en jan Ewa li tawa seme?\nona li tawa telo suli.\nona li kute e seme lon nasin?\nona li kute e soweli. soweli li mu.\nakesi li lon seme?\nakesi li lon kiwen.\npipi li lon seme?\npipi li lon kasi.\nkala wan li seme?\nkala wan li moli."
+    }
+  ]
+}
