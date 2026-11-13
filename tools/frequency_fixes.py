@@ -2611,3 +2611,18 @@ OVERRIDES["gv"] = {
 }
 # Units, English, Latin and other languages' words of the encyclopaedia.
 EXCLUDE["gv"] = {"km", "cm", "mm", "mi", "tr", "de", "le", "von", "com", "genus", "genera", "note", "noteyn", "sphinx", "sphinxyn"}
+
+
+# Breton: words of their own the pack files as another word's form (ni "we" of niz, gwele "bed" of gwelet, ya "yes" and aes
+# "easy" of mont, bed "world", oad "age" and eur "hour" of bezañ, hoc'h "pig" of ho, dever "duty" of deviñ).
+OVERRIDES["br"] = {w: [w] for w in ("ni", "gwele", "int", "ya", "aes", "kae", "bed", "oad", "eur", "hoc'h", "dever")}
+# Mutated spellings mostly of the word named, though spelled as another word or its mutation too: a wele "saw" (gwele
+# "bed"), daou zen "two people" (zen), ar gelaouenn "the magazine" (gelaouenn "leech"), daou vil "two thousand" (vil
+# "ugly"), tri c'hant "three hundred" (gant), and ober's dialect forms (gran, not kran). And mutated spellings the pack files
+# under look-alikes too: gozh of kozh (not hini, re), bemp of pemp (not bezañ), c'hell of gallout (not killi), fried of pried
+# (not friiñ).
+OVERRIDES["br"].update({"wele": ["gwelet"], "zen": ["den"], "gelaouenn": ["kelaouenn"], "vil": ["mil"], "c'hant": ["kant"],
+                        "gran": ["ober"], "grin": ["ober"], "gri": ["ober"], "grez": ["ober"], "gozh": ["kozh"],
+                        "bemp": ["pemp"], "c'hell": ["gallout"], "fried": ["pried"]})
+# Noise: fed "fact" (no word of the pack, else filed under pediñ), a number, a name, a misspelling filed under genver.
+EXCLUDE["br"] = {"fed", "1añ", "james", "kenver"}
