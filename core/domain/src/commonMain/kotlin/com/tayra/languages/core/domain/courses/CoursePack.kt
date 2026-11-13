@@ -153,7 +153,7 @@ object CoursePacks {
             title = "Turkish",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-tr.sqlite.gzip",
-            downloadSize = 1_181_875,
+            downloadSize = 1_180_050,
         ),
         CoursePack(
             id = "courses-uk",
