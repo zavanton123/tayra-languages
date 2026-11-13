@@ -21,6 +21,7 @@ import com.idiomiko.core.domain.morphology.ChineseScripts
 import com.idiomiko.core.domain.morphology.Japanese
 import com.idiomiko.core.domain.morphology.LanguageMorphology
 import com.idiomiko.core.domain.morphology.Morphology
+import com.idiomiko.core.domain.parse.KhmerParser
 import com.idiomiko.core.domain.parse.PersianParser
 import com.idiomiko.core.domain.repository.DictionaryRepository
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -162,6 +163,10 @@ class DictionaryService(
             // another (爲); every pack lists the simplified spelling as a form of its word.
             if (!found.isEmpty || dictionary.sourceLanguage != "zh" || !ChineseScripts.isReady) found
             else ChineseScripts.convert(text, ChineseScript.SIMPLIFIED).takeIf { it != text }?.let { find(dictionary, it) } ?: found
+        }.let { found ->
+            // Khmer writes subscript ដ and ត alike (សប្ដាហ៍, សប្តាហ៍); the pack may file the word in the other spelling.
+            if (!found.isEmpty || dictionary.sourceLanguage != "km") found
+            else KhmerParser.spellings(text.trim()).drop(1).firstNotNullOfOrNull { spelling -> find(dictionary, spelling).takeIf { !it.isEmpty } } ?: found
         }
         if (found.isEmpty || dictionary.sourceLanguage !in READING_LANGUAGES) return found
         val words = found.entries.map { it.word }
