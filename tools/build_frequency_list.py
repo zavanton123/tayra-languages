@@ -133,6 +133,8 @@ SOURCE_ORDER["gl"] = ["frequencywords"]
 # Esperanto is counted from subtitles and news alone: its Wikipedia, much of it pages made by bots, adds their words
 # ("municipo", "kantono", "asteroido") and its headings' ("ligilo", "referenco") to the first thousand.
 SOURCE_ORDER["eo"] = ["frequencywords", "leipzig"]
+# Vietnamese is counted from subtitles alone, as its syllable list was built (wordfreq was not at hand).
+SOURCE_ORDER["vi"] = ["frequencywords"]
 # Lithuanian is counted from web text, subtitles and news, as its shipped list was, which its courses are pinned to.
 SOURCE_ORDER["lt"] = ["wordfreq", "frequencywords", "leipzig"]
 # Irish has only Wikipedia (its articles, and Leipzig's sentences from them), where everyday words rank far down (cad
@@ -2508,7 +2510,55 @@ def normalise(language, form):
         return frequency_persian.persian_fold(form)
     if language == "hy":
         return armenian_unmarked(form)
+    # Some Vietnamese subtitles write a tone mark as a letter of its own, which the reader and the pack join to the vowel.
+    if language == "vi":
+        return unicodedata.normalize("NFC", form)
     return form
+
+
+# Vietnamese is written a syllable at a time, and the reader shows each syllable as a word; nothing inflects. The pack's
+# forms table links syllables that are other words (người under bạn, thời under thì, ba under hoa: dialect spellings,
+# Sino-Vietnamese readings, Nôm characters, classifiers under their nouns), so the list counts each syllable for itself,
+# one word for the spellings of a syllable that differ only in where the tone mark sits (hoà, hòa) or in y for i (lý, lí).
+VIETNAMESE_TONES = "\u0300\u0301\u0303\u0309\u0323"
+VIETNAMESE_SYLLABLE = re.compile(r"(?:ngh|ng|nh|ch|gh|gi|kh|ph|qu|th|tr|[bcdđghklmnprstvx])?[aăâeêioôơuưy]{1,3}(?:ch|ng|nh|[cmnpt])?")
+VIETNAMESE_FINAL_Y = re.compile(r"(?:ch|kh|ph|qu|th|tr|[bdđhklmnstvx])y")
+# A syllable the pack has only as these is a word of the list only as a part of its words of several syllables.
+VIETNAMESE_NAMES = {"name", "character", "phrase", "proverb"}
+# The syllables of the pack's words of several syllables that are no names.
+VIETNAMESE_COMPOUNDS = set()
+
+
+def vietnamese_spelling(syllable):
+    """A syllable's letters without its tone mark, with a final y after a consonant written i, and its tone mark; or None."""
+    letters = unicodedata.normalize("NFD", syllable)
+    tones = [c for c in letters if c in VIETNAMESE_TONES]
+    base = unicodedata.normalize("NFC", "".join(c for c in letters if c not in VIETNAMESE_TONES))
+    if len(tones) > 1 or not VIETNAMESE_SYLLABLE.fullmatch(base):
+        return None
+    return (base[:-1] + "i" if VIETNAMESE_FINAL_Y.fullmatch(base) else base), "".join(tones)
+
+
+def vietnamese_syllables(freq, pos, compounds):
+    """The words of a Vietnamese list, and the other spellings of each with the word they are counted for.
+
+    A syllable is a word when the pack has it, in any of its spellings, as more than a name, or in a word of several
+    syllables ([compounds]): many are only parts of such words (bất, nhiên, khả, quốc), which the reader shows as words.
+    A syllable's spellings count for its commonest one.
+    """
+    spellings = defaultdict(list)
+    for form in freq:
+        spelling = vietnamese_spelling(form)
+        if spelling is not None:
+            spellings[spelling].append(form)
+    words, spelled = set(), {}
+    for forms in spellings.values():
+        if not any(pos.get(f, set()) - VIETNAMESE_NAMES or f in compounds for f in forms):
+            continue
+        word = max(forms, key=lambda f: (freq[f], f in pos, f))
+        words.add(word)
+        spelled.update({f: word for f in forms if f != word})
+    return words, spelled
 
 
 def eszett_spellings(form):
@@ -3290,7 +3340,13 @@ def load_dictionary(language):
     lemmas = defaultdict(list)
     # Spellings the 1996 German reform replaced ("daß" for "dass"), whose other links are noise ("daß" to "das").
     outdated = set()
+    if language == "vi":
+        VIETNAMESE_COMPOUNDS.update(syllable for (word,) in db.execute("SELECT word_lc FROM entries WHERE pos != 'name'")
+                                    if " " in word for syllable in word.split())
     for form_lc, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
+        # The Vietnamese pack's links are to other words (vietnamese_syllables).
+        if language == "vi":
+            continue
         if "deprecated in the spelling reform" in lemma:
             outdated.add(form_lc)
         # The Slovene pack files the forms of thousands of names, which lowercased are common words' or stand for them:
@@ -3937,6 +3993,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         excluded = excluded | KOREAN_CUT
     # So would the words the counts were cut from ([cut]: والعالم, and وفي, a word of the dictionary too).
     excluded = excluded | cut
+    vietnamese_words, vietnamese_spelled = vietnamese_syllables(freq, pos, VIETNAMESE_COMPOUNDS) if language == "vi" else (set(), {})
 
     # The words simplemma found for forms the dictionary lacks, as they are written.
     guessed = {}
@@ -4420,6 +4477,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         return min(found)[2] if found else None
 
     def is_word(w):
+        if language == "vi":
+            return w in vietnamese_words and w not in excluded
         # Chinese and Japanese text quotes Latin words, and Wikipedia's leaves markup; the dictionaries have some.
         if language in CJK and not any(is_cjk(c) for c in w):
             return False
@@ -4548,6 +4607,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     def direct(form):
         """The words a form's count goes to, with their shares, before following words that are forms themselves."""
         compared = False
+        if language == "vi":
+            word = vietnamese_spelled.get(form, form)
+            return {word: 1.0} if is_word(word) else {}
         if language == "lt" and form in lithuanian_participles and form not in overrides:
             return {lithuanian_participles[form]: 1.0}
         if form in overrides:
