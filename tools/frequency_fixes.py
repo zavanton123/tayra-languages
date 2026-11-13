@@ -2640,3 +2640,24 @@ OVERRIDES["br"]["deus"] = ["kaout"]
 EXCLUDE["br"] = {"fed", "1añ", "james", "kenver", "framm", "plas", "paris", "vari", "new", "fedoù"}
 # Ordinals written with digits (5vet, 3e), which the reader and the checker read as numbers.
 EXCLUDE["br"] |= {"2l", "3e", "4e", "5vet", "6vet", "7vet", "8vet", "9vet", "10vet"}
+# Hawaiian (build_frequency_list.py's hawaiian_words adds the words its pack lacks). The Niʻihau spellings with t go to the
+# words written today (te, ta of ka; teia of kēia), and so do spellings without the ʻokina or kahakō the pack has as words of
+# their own but text means as the marked word (aina of ʻāina, poe of poʻe, hoku of hōkū); the pack heads some words by their
+# unmarked spelling (mahele, kekele) or an old one (kāʻahi). Left out: elements and other loans no text needs, English, and
+# the slur nika.
+OVERRIDES["haw"] = {
+    "te": ["ka"], "ta": ["ka"], "teia": ["kēia"], "tupuna": ["kupuna"], "matuahine": ["makuahine"],
+    "aina": ["ʻāina"], "poe": ["poʻe"], "hoku": ["hōkū"], "huhu": ["huhū"], "oki": ["ʻoki"], "nana": ["nānā"],
+    "māhele": ["māhele"], "mahele": ["māhele"], "kēkelē": ["kēkelē"], "kekele": ["kēkelē"],
+    "kaʻaahi": ["kaʻaahi"], "kāʻahi": ["kaʻaahi"], "kamāliʻi": ["kamaliʻi"],
+    "paʻakīkī": ["paʻakikī"], "lāpaʻau": ["lapaʻau"], "lepela": ["lēpela"], "pahī": ["pahi"], "hōʻemi": ["hoʻēmi"],
+    "ʻaupuni": ["aupuni"],
+    # Particles run together with their word, as older text writes them.
+    "mamua": ["mua"], "mahope": ["hope"], "mawaena": ["waena"], "mawaho": ["waho"], "maluna": ["luna"], "malalo": ["lalo"],
+    "maloko": ["loko"], "iloko": ["loko"], "iluna": ["luna"], "ilalo": ["lalo"], "iwaho": ["waho"], "āpau": ["pau"],
+}
+EXCLUDE["haw"] = {
+    "sodiuma", "potasiuma", "silikone", "ʻaragona", "ʻaluminuma", "hiliuma", "likiuma", "naikokene", "haikokene", "ʻokikene",
+    "makanekiuma", "kalepona", "kalipuna", "diabolo", "sā", "nika", "home", "anime", "le", "mi", "eo", "ame", "hoolea", "pukalani",
+    "huaʻia", "keʻano", "waīʻikahaikana", "waīmaūana", "kaūawamala", "akāiuwapa", "ukaela", "ne", "ʻi", "kēiki", "ʻumikumamāwalu",
+}

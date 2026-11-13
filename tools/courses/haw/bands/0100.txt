@@ -1,0 +1,100 @@
+1	1	ka	ke nā ta te
+2	2	i	
+3	3	ʻo	
+4	4	o	
+5	5	ma	
+6	6	a	
+7	7	ua	
+8	8	me	
+9	9	ʻia	
+10	10	e	
+11	11	he	
+12	12	ia	
+13	13	mea	
+14	14	ʻana	
+15	15	no	
+16	16	hana	
+17	17	makahiki	makahiti
+18	18	mai	
+19	19	nui	
+20	20	mau	
+21	21	kona	
+22	22	kekahi	
+23	23	ʻano	
+24	24	hui	
+25	25	kahi	
+26	26	ana	
+27	27	kēia	keia teia
+28	28	mua	mamua
+29	29	loa	
+30	30	like	
+31	31	kāna	
+32	32	ʻōlelo	
+33	33	pū	
+34	34	iā	
+35	35	ʻole	ole
+36	36	kiʻi	
+37	37	mele	
+38	38	pāʻani	
+39	39	lā	la
+40	40	kanaka	kānaka
+41	41	ai	
+42	42	hōʻike	
+43	43	hope	mahope
+44	44	ʻike	ike
+45	45	loaʻa	
+46	46	hiki	
+47	47	hou	
+48	48	lākou	lakou
+49	49	hoʻomaka	
+50	50	kaulana	
+51	51	hoʻokumu	
+52	52	hoʻohana	
+53	53	wā	wa
+54	54	hānau	hanau
+55	55	aupuni	ʻaupuni
+56	56	lilo	
+57	57	hale	
+58	58	manawa	
+59	59	moʻolelo	
+60	60	poʻe	poe
+61	61	ʻāina	aina
+62	62	honua	
+63	63	loko	iloko maloko
+64	64	manaʻo	
+65	65	kapa	
+66	66	aia	
+67	67	pili	pilia
+68	68	luna	iluna maluna
+69	69	kākau	
+70	70	ko	kō
+71	71	inoa	
+72	72	noho	
+73	73	aʻe	
+74	74	kūlanakauhale	kulanakauhale
+75	75	kūʻai	
+76	76	ʻoniʻoni	oniʻoni
+77	77	aʻo	
+78	78	wahi	
+79	79	kula	
+80	80	mālama	
+81	81	alakaʻi	
+82	82	aku	
+83	83	ʻē	ē
+84	84	kumu	
+85	85	puke	
+86	86	hoʻi	
+87	87	lāua	
+88	88	waena	mawaena
+89	89	kahiko	kāhiko
+90	90	wahine	wāhine
+91	91	akā	
+92	92	nei	
+93	93	ʻoihana	
+94	94	papa	
+95	95	wau	
+96	96	na	
+97	97	mokupuni	
+98	98	koho	
+99	99	kōkua	
+100	100	hele	hoʻohele

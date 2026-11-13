@@ -3362,6 +3362,158 @@ SOURCES["gaelic_everyday"] = gaelic_everyday_counts
 SOURCES["gaelic_rest"] = gaelic_rest_counts
 
 
+# Hawaiian. Its only text is its Wikipedia, and its dictionary pack (Wiktionary's 2,900 words) lacks many of its commonest
+# words (i, nei, laila, wahi, inā, moʻolelo, hoʻokahi), which the general rules leave out. So of the Wikipedia only articles
+# count, each sentence once, and a word the pack lacks is a word of its own where it is spelled as Hawaiian words are (each
+# consonant and ʻokina before a vowel), seen HAWAIIAN_MIN_COUNT times and mostly in lower case (not a name: Honolulu, Maui).
+# A spelling without the ʻokina and kahakō (lakou, kela, makuakane) is the marked word's where that is the commoner, and the everyday words an
+# encyclopedia hardly has (wau, ʻolua, nehinei, the months) are given a rank (HAWAIIAN_EVERYDAY).
+# Many articles carry paragraphs of generated word salad (hakakā maikaʻi, paʻlaʻalshai, wāʻkalama, mea paʻakikī kona); an
+# article with any is left out (hawaiian_salad).
+# The words of the pack that only the rest of the Wikipedia has (lists, the salad's articles) fill the end of the list.
+SOURCE_ORDER["haw"] = ["hawaiian_wikipedia", "hawaiian_rest"]
+BLEND.add("haw")
+SOURCE_WEIGHTS["haw"] = {"hawaiian_wikipedia": 0.999, "hawaiian_rest": 0.001}
+SOURCE_LICENCES["hawaiian_wikipedia"] = SOURCE_LICENCES["wikipedia"]
+SOURCE_LICENCES["hawaiian_rest"] = SOURCE_LICENCES["wikipedia"]
+HAWAIIAN_VOWELS = "aeiouāēīōū"
+HAWAIIAN_SHAPE = re.compile("(?:[hklmnpwʻ]?[aeiouāēīōū])+")
+HAWAIIAN_BARE = str.maketrans("āēīōū", "aeiou", "ʻ")
+# The ʻokina typed as an apostrophe or quotation mark, before a vowel.
+HAWAIIAN_OKINA = re.compile("['‘’`ʼ](?=[aeiouāēīōūAEIOUĀĒĪŌŪ])")
+HAWAIIAN_SENTENCE = re.compile(r"(?<=[.!?…:;])\s+|\n+")
+# The salad's own words, and its pairs of real ones.
+HAWAIIAN_SALAD_WORDS = {"maʻikaʻika", "wāʻana", "hoikehonui", "amākiuia", "nekele", "wokele", "wokel", "hauʻalka"}
+HAWAIIAN_SALAD_PAIRS = {("paʻakikī", "kona"), ("hakakā", "maikaʻi"), ("hakakā", "inā"), ("ma", "pukalani"), ("helu", "piha")}
+HAWAIIAN_FOREIGN = re.compile("[bcdfgjqrstvxyz]")
+HAWAIIAN_MIN_COUNT = 3
+# The particles older text joins to a word with an ʻokina (ua ʻike as uaʻike, hana ʻia as hanaʻia): pieces of two words. Before
+# a word, with the length that word needs at least (kaʻana "to share" is a word, not ka ʻana).
+HAWAIIAN_JOINED_BEFORE = {"ua": 4, "nā": 4, "ka": 5, "ke": 5}
+HAWAIIAN_JOINED_AFTER = ("ia", "ana", "o")
+# How often each word is in the articles, and written capitalised inside a sentence, and in lower case.
+HAWAIIAN_COUNTS, HAWAIIAN_CAPITAL, HAWAIIAN_LOWER = defaultdict(int), defaultdict(int), defaultdict(int)
+# The everyday words, with the rank each is given at least.
+HAWAIIAN_EVERYDAY = {
+    "wau": 100, "ʻolua": 300, "ʻehia": 300, "nehinei": 300, "ʻānō": 300, "makuakāne": 200, "hoaaloha": 300,
+    "lāpule": 700, "pōʻakahi": 700, "pōʻalua": 700, "pōʻakolu": 700, "pōʻahā": 700, "pōʻalima": 700, "pōʻaono": 700,
+    "ianuali": 800, "pepeluali": 800, "malaki": 800, "ʻapelila": 800, "mei": 800, "iune": 800, "iulai": 800, "ʻaukake": 800,
+    "kepakemapa": 800, "ʻokakopa": 800, "nowemapa": 800, "kekemapa": 800,
+}
+
+
+def hawaiian_salad(words):
+    """Whether a paragraph's words (as written) are generated salad: its own words, an ʻokina before a consonant, two words
+    with a kahakō and a letter Hawaiian has not (sīawanainā, zahāumāba), or a pair the salad repeats."""
+    lowered = [w.lower() for w in words]
+    if any(w in HAWAIIAN_SALAD_WORDS or re.search("[^\\W\\d_]ʻ[^aeiouāēīōū]", w) for w in lowered):
+        return True
+    if len({w for w in lowered if re.search("[āēīōū]", w) and HAWAIIAN_FOREIGN.search(w)}) >= 2:
+        return True
+    return any(pair in HAWAIIAN_SALAD_PAIRS for pair in zip(words, words[1:]))
+
+
+def hawaiian_wikipedia_counts(language, limit):
+    """The Hawaiian Wikipedia's articles without the salad, each sentence once, as the block above says."""
+    import bz2
+    path = download("https://dumps.wikimedia.org/hawwiki/latest/hawwiki-latest-pages-articles.xml.bz2", "wikipedia-haw.xml.bz2")
+    if path is None:
+        return None
+    seen, counts = set(), defaultdict(int)
+    page, in_text, namespace = [], False, None
+    with bz2.open(path, "rt", encoding="utf-8") as f:
+        for line in f:
+            if "<ns>" in line:
+                namespace = line.strip()
+            if "<text" in line:
+                in_text = True
+                line = line[line.index(">", line.index("<text")) + 1:]
+            if not in_text:
+                continue
+            end = line.find("</text>")
+            page.append(line if end < 0 else line[:end])
+            if end < 0:
+                continue
+            in_text = False
+            text, page = "".join(page), []
+            if namespace != "<ns>0</ns>" or text.lstrip().lower().startswith("#redirect"):
+                continue
+            text = html.unescape(strip_templates(WIKI_HEADING.sub("\n\n", text)))
+            for noise in WIKI_NOISE:
+                text = noise.sub(" ", text)
+            text = WIKI_LINK.sub(r"\1", text)
+            text = HAWAIIAN_OKINA.sub("ʻ", re.sub(r"'{2,}", " ", text))
+            text = re.sub(r"(?m)^[*#:;|!].*$", " ", text)
+            if any(hawaiian_salad(WIKI_WORD.findall(p)) for p in re.split(r"\n\s*\n", text)):
+                continue
+            for sentence in HAWAIIAN_SENTENCE.split(text):
+                shape = re.sub(r"\d+", "0", " ".join("X" if w.lstrip("ʻ")[:1] != w.lstrip("ʻ")[:1].lower() else w for w in sentence.split()))
+                if shape in seen:
+                    continue
+                seen.add(shape)
+                for i, word in enumerate(WIKI_WORD.findall(sentence)):
+                    key = word.lower()
+                    counts[key] += 1
+                    if word != key:
+                        if i:
+                            HAWAIIAN_CAPITAL[key] += 1
+                    else:
+                        HAWAIIAN_LOWER[key] += 1
+    HAWAIIAN_COUNTS.update(counts)
+    top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
+    return dict(top), "haw.wikipedia.org articles"
+
+
+def hawaiian_rest_counts(language, limit):
+    """All of the Hawaiian Wikipedia, counted as wikipedia_counts counts it."""
+    counts, _ = wikipedia_counts(language, limit)
+    return counts, "the rest of haw.wikipedia.org"
+
+
+SOURCES["hawaiian_wikipedia"] = hawaiian_wikipedia_counts
+SOURCES["hawaiian_rest"] = hawaiian_rest_counts
+
+
+def hawaiian_words(freq, pos, lemmas, common, overrides, excluded):
+    """
+    The overrides and exclusions build_list uses for Hawaiian, with the words the pack lacks added and the unmarked spellings
+    sent to their words, as the block above says; gives the everyday words their counts in [freq].
+    """
+    overrides, excluded = dict(overrides), set(excluded)
+    known = lambda w: bool(pos.get(w, set()) & WORD_POS) and w in common and w not in excluded  # noqa: E731
+    marks = lambda w: sum(1 for c in w if c in "āēīōūʻ")  # noqa: E731
+    added = set()
+    for form in list(freq):
+        if form in overrides or form in excluded or form in pos or form in lemmas or not HAWAIIAN_SHAPE.fullmatch(form):
+            continue
+        if HAWAIIAN_COUNTS.get(form, 0) >= HAWAIIAN_MIN_COUNT and HAWAIIAN_LOWER.get(form, 0) > HAWAIIAN_CAPITAL.get(form, 0):
+            added.add(form)
+
+    def joined(word):
+        for i in [i for i, c in enumerate(word) if c == "ʻ" and i]:
+            head, tail = word[:i], word[i:]
+            if HAWAIIAN_JOINED_BEFORE.get(head, 99) <= len(tail) and (known(tail) or tail in added):
+                return True
+            if tail[1:] in HAWAIIAN_JOINED_AFTER and len(head) >= 3 and (known(head) or head in added):
+                return True
+        return False
+
+    added = {w for w in added if not joined(w)}
+    for word in HAWAIIAN_EVERYDAY:
+        if not known(word):
+            added.add(word)
+    spelled = defaultdict(list)
+    for word in [w for w in common if known(w)] + sorted(added):
+        spelled[word.translate(HAWAIIAN_BARE)].append(word)
+    for form in sorted(added):
+        richer = [w for w in spelled[form.translate(HAWAIIAN_BARE)] if marks(w) > marks(form) and freq.get(w, 0) >= freq.get(form, 0)]
+        overrides[form] = [max(richer, key=lambda w: (freq.get(w, 0), w))] if richer and form not in HAWAIIAN_EVERYDAY else [form]
+    shares = sorted(freq.values(), reverse=True)
+    for word, rank in HAWAIIAN_EVERYDAY.items():
+        freq[word] = max(freq.get(word, 0), shares[min(rank, len(shares)) - 1])
+    return overrides, excluded
+
+
 def gaelic_unmutated(form):
     """The spellings a form may be of a word with an initial mutation: mhòr of mòr, t-uisge of uisge, dh'fhàg of fàg, m'athair of athair."""
     out = set()
@@ -4662,6 +4814,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     overrides = OVERRIDES.get(language, {})
     excluded = EXCLUDE.get(language, set())
     verbal_nouns = verbal_nouns or {}
+    if language == "haw":
+        overrides, excluded = hawaiian_words(freq, pos, lemmas, common, overrides, excluded)
     if language == "ko":
         # Listed, a word cut by hand would be left whole by the reader.
         excluded = excluded | KOREAN_CUT

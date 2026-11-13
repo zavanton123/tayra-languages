@@ -1,0 +1,100 @@
+1	201	hoʻopau	
+2	202	hoʻomau	
+3	203	leo	
+4	204	makuahine	matuahine
+5	205	kau	
+6	206	kuleana	
+7	207	manu	
+8	208	huaʻōlelo	
+9	209	kapikala	
+10	210	hikina	
+11	211	kino	
+12	212	paʻa	
+13	213	hoʻokomo	
+14	214	lālā	
+15	215	lōʻihi	
+16	216	ʻapelila	
+17	217	hoʻokō	
+18	218	kaikamahine	kaikamāhine
+19	219	lehulehu	
+20	220	mei	
+21	221	hapa	
+22	222	pale	
+23	223	ao	
+24	224	moku	
+25	225	holoʻokoʻa	
+26	226	noʻeau	
+27	227	makua	matua mākua
+28	228	ʻai	ʻaina
+29	229	nowemapa	
+30	230	palapala	
+31	231	mōʻaukala	
+32	232	ala	
+33	233	kepakemapa	
+34	234	haumāna	haumana
+35	235	ʻōpio	
+36	236	hoʻonui	
+37	237	ikaika	
+38	238	hōʻailona	hoʻailona
+39	239	ʻehā	
+40	240	ʻaukake	
+41	241	kūʻē	
+42	242	hoʻopaʻa	
+43	243	pilina	
+44	244	hōkū	hoku
+45	245	moʻo	
+46	246	lāʻau	
+47	247	iune	
+48	248	hoʻohui	
+49	249	hoʻomana	
+50	250	akua	
+51	251	iho	
+52	252	lāhui	
+53	253	ulu	
+54	254	pepeluali	
+55	255	hoa	
+56	256	ʻokoʻa	
+57	257	lua	
+58	258	hoʻonaʻauao	
+59	259	wai	
+60	260	kū	
+61	261	kaʻa	hoʻokaʻa
+62	262	malaki	
+63	263	kenekulia	
+64	264	moana	
+65	265	kamaliʻi	kamāliʻi
+66	266	keʻena	
+67	267	kekemapa	
+68	268	heluna	
+69	269	ʻōnaehana	
+70	270	au	
+71	271	nāna	
+72	272	kūpono	
+73	273	koa	
+74	274	hanana	
+75	275	wehewehe	
+76	276	kūikawā	
+77	277	hoaaloha	
+78	278	ʻānō	
+79	279	ʻolua	
+80	280	ʻehia	
+81	281	nehinei	
+82	282	ʻae	
+83	283	noʻonoʻo	
+84	284	kamepiula	
+85	285	ʻelima	
+86	286	waho	mawaho
+87	287	pule	
+88	288	mahina	
+89	289	ʻikepili	
+90	290	mīkini	mikini
+91	291	haʻalele	
+92	292	piha	
+93	293	mauna	
+94	294	holoholona	
+95	295	kānāwai	
+96	296	holo	
+97	297	ponoʻī	
+98	298	kēkelē	
+99	299	uila	
+100	300	kupuna	kūpuna tupuna

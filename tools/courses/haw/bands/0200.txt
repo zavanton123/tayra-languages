@@ -1,0 +1,100 @@
+1	101	ʻaʻole	aʻole
+2	102	pau	āpau
+3	103	hāʻawi	
+4	104	hoʻololi	
+5	105	aliʻi	
+6	106	koʻikoʻi	
+7	107	ʻelua	
+8	108	komo	
+9	109	hoʻolaha	
+10	110	nō	
+11	111	kēlā	kela
+12	112	keiki	
+13	113	kulanui	
+14	114	kahua	
+15	115	lanakila	
+16	116	papahana	
+17	117	helu	
+18	118	hoʻokuʻu	
+19	119	kiʻekiʻe	
+20	120	pono	
+21	121	kiʻiʻoniʻoni	
+22	122	ola	
+23	123	mōʻī	
+24	124	pūnaewele	
+25	125	miliona	
+26	126	mana	
+27	127	hema	
+28	128	maikaʻi	
+29	129	kālā	
+30	130	make	
+31	131	laila	
+32	132	ʻohana	
+33	133	waihona	
+34	134	kūlana	kulana
+35	135	wale	
+36	136	waiwai	
+37	137	mokuʻāina	
+38	138	muli	
+39	139	haku	
+40	140	ʻenehana	enehana
+41	141	moʻomeheu	
+42	142	hoʻopuka	
+43	143	kā	
+44	144	kūkulu	
+45	145	ʻāpana	
+46	146	lalo	malalo
+47	147	neʻe	hoʻoneʻe
+48	148	kākoʻo	
+49	149	paʻi	pai
+50	150	hoʻokahi	
+51	151	hoʻomohala	
+52	152	ʻepekema	
+53	153	kaiāulu	kaiaulu
+54	154	ʻākau	akau
+55	155	kaua	
+56	156	hoʻokele	
+57	157	kai	
+58	158	ʻoi	
+59	159	ʻoiai	
+60	160	ianuali	
+61	161	pinepine	
+62	162	wikiō	
+63	163	lawelawe	
+64	164	āna	
+65	165	hoʻolālā	
+66	166	kūʻokoʻa	kuʻokoʻa
+67	167	nānā	nana
+68	168	pelekikena	
+69	169	maʻamau	
+70	170	noiʻi	
+71	171	aloha	
+72	172	pilikia	
+73	173	lawe	
+74	174	puka	
+75	175	maoli	
+76	176	ʻaoʻao	
+77	177	maʻi	
+78	178	liʻiliʻi	
+79	179	hoʻoponopono	
+80	180	hula	
+81	181	huakaʻi	
+82	182	hoʻokūkū	
+83	183	ʻekolu	
+84	184	makemake	
+85	185	makana	
+86	186	iulai	
+87	187	polokalamu	
+88	188	komohana	
+89	189	makuakāne	
+90	190	paha	
+91	191	hopena	
+92	192	ʻokakopa	
+93	193	māhele	mahele
+94	194	ʻimi	imi
+95	195	hakakā	hakaka
+96	196	hoʻokani	
+97	197	hoʻonohonoho	
+98	198	kāne	
+99	199	hōʻikeʻike	
+100	200	kīwī	

@@ -1,0 +1,100 @@
+1	301	kālepa	kalepa
+2	302	panalāʻau	
+3	303	kope	
+4	304	hoʻopili	
+5	305	hoʻihoʻi	
+6	306	hiʻohiʻona	
+7	307	hoʻomanaʻo	
+8	308	hua	
+9	309	kuhina	
+10	310	kokoke	
+11	311	naʻe	
+12	312	paʻakikī	paʻakīkī
+13	313	pae	
+14	314	hoʻoikaika	
+15	315	hīmeni	himeni
+16	316	loea	
+17	317	kaumokuʻāina	
+18	318	kumuhana	
+19	319	inā	
+20	320	haʻi	haki
+21	321	hae	
+22	322	palena	
+23	323	poʻo	
+24	324	pila	
+25	325	kuʻuna	
+26	326	hoʻopiʻi	
+27	327	hala	
+28	328	hoʻoholo	
+29	329	maʻalahi	
+30	330	wehe	
+31	331	pōhaku	pohaku
+32	332	pele	
+33	333	kiaʻāina	
+34	334	kani	
+35	335	hoʻokaʻawale	
+36	336	kūlohelohe	
+37	337	pūpū	
+38	338	pūʻulu	
+39	339	nani	
+40	340	hoʻomaopopo	
+41	341	mahalo	
+42	342	loiloi	
+43	343	meaʻai	
+44	344	kūhelu	
+45	345	hewa	
+46	346	pōkole	
+47	347	pā	
+48	348	pilikino	
+49	349	loina	
+50	350	kiwikā	
+51	351	hānai	
+52	352	wikiwiki	
+53	353	kaha	kahakaha
+54	354	ʻeono	
+55	355	mokulele	
+56	356	kūleʻa	
+57	357	hōʻoia	
+58	358	lima	
+59	359	kikowaena	
+60	360	kūloko	
+61	361	akamai	
+62	362	lepupalika	
+63	363	male	
+64	364	hoʻokipa	
+65	365	pōpō	
+66	366	nahele	
+67	367	ʻālapa	
+68	368	kime	
+69	369	kapu	
+70	370	noi	
+71	371	lumi	
+72	372	kamaʻilio	
+73	373	piʻi	pipiʻi
+74	374	lole	
+75	375	hoʻoulu	
+76	376	wela	
+77	377	pena	
+78	378	hoʻomalu	
+79	379	lele	
+80	380	ʻaʻohe	
+81	381	puni	
+82	382	kuhikuhi	
+83	383	lapaʻau	lāpaʻau
+84	384	nona	
+85	385	hoʻōla	
+86	386	ʻōiwi	
+87	387	ʻuhane	uhane
+88	388	mākou	
+89	389	ʻaha	
+90	390	uku	
+91	391	ʻino	
+92	392	ʻulaʻula	
+93	393	kelepona	
+94	394	maka	
+95	395	pua	
+96	396	mile	
+97	397	ʻili	
+98	398	keʻokeʻo	
+99	399	kālai	
+100	400	hoʻomaha	

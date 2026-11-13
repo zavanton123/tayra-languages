@@ -2428,7 +2428,7 @@ QUESTION_HEADERS = {
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
-        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:",
+        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:",
     )
 }
 
@@ -2890,6 +2890,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Ἐρωτήσεις:", "", text)
         if code == "tl":
             text = re.sub(r"(?m)^Mga tanong:", "", text)
+        if code == "haw":
+            text = re.sub(r"(?m)^Nā nīnau:", "", text)
         if code == "ga":
             text = re.sub(r"(?m)^Ceisteanna:", "", text)
         if code == "gd":
