@@ -1,0 +1,100 @@
+1	1501	vērst	jāver never neveram neveriet nevērsi nevērt nevēršu ver veram verams verat veriet verot veru vēra vēri vēris vēros vērs vērsi vērsiet vērsim vērsts vērt vērtu vēru vēršot vēršu
+2	1502	varens	varena varenais varenajam varenajiem varenajos varenajā varenajām varenajās varenam varenas vareni varenie vareniem vareno varenos varenu varenā varenāks varenām varenās visvarenākais
+3	1503	nolūks	nolūka nolūkam nolūki nolūkiem nolūkos nolūku nolūkus nolūkā
+4	1504	sevišķs	sevišķa sevišķajā sevišķam sevišķas sevišķi sevišķiem sevišķu sevišķā
+5	1505	cigarete	cigaretei cigaretes cigareti cigaretē cigaretēm cigaretēs cigarešu
+6	1506	vectēvs	vectēv vectēva vectēvam vectēvu
+7	1507	teorija	teorijai teorijas teoriju teorijā teorijām teorijās
+8	1508	tirgotājs	tirgotāj tirgotāja tirgotājam tirgotāji tirgotājiem tirgotāju tirgotājus
+9	1509	šokolāde	šokolādei šokolādes šokolādi šokolādē šokolādēm šokolāžu
+10	1510	nelaime	nelaimei nelaimes nelaimi nelaimju nelaimē nelaimēm nelaimēs
+11	1511	starpa	starpā
+12	1512	šodiena	šodienai šodienas šodienu šodienā
+13	1513	pētīt	jāpēta pēta pēti pētot pētu pētām pētāt pētīdams pētīja pētīji pētījis pētīju pētījām pētīs pētīsim pētīta pētītas pētīti pētītos pētīts pētītu pētīšana pētīšu
+14	1514	konstatēt	jākonstatē konstatē konstatēja konstatējam konstatējama konstatējamas konstatējami konstatējamiem konstatējams konstatējamu konstatējat konstatējis konstatējot konstatējošu konstatēju konstatējusi konstatējušas konstatējuši konstatējām konstatēs konstatēsim konstatētais konstatētu konstatēšana konstatēšanai konstatēšanas konstatēšanu nekonstatē nekonstatēja nekonstatējām nekonstatēs nekonstatētu
+15	1515	koris	kora kori koriem korim koru korī
+16	1516	zvērs	zvēr zvēra zvēram zvēri zvēriem zvēru zvērus zvērā
+17	1517	ieskaitīt	ieskaitot
+18	1518	literatūra	literatūrai literatūras literatūri literatūru literatūrā
+19	1519	institūts	institūta institūtam institūti institūtiem institūtos institūtu institūtus institūtā
+20	1520	maiņa	maiņu
+21	1521	jaunatne	jaunatnei jaunatnes jaunatni
+22	1522	ha	
+23	1523	sagatavot	sagatavo sagatavoja sagatavots
+24	1524	realitāte	realitātei realitātes realitāti realitātē
+25	1525	tiklīdz	
+26	1526	zemnieks	zemniece zemnieci zemniek zemnieka zemniekam zemnieki zemniekiem zemnieku zemniekus
+27	1527	reti	
+28	1528	termiņš	termiņa
+29	1529	taisns	taisna taisnai taisnais taisnajai taisnajam taisnajiem taisnajā taisnas taisni taisnie taisniem taisno taisnu taisnus taisnā taisnāks taisnās vistaisnākais
+30	1530	paveikt	jāpaveic paveikts
+31	1531	randiņš	randiņa randiņam randiņi randiņiem randiņos randiņu randiņus randiņā
+32	1532	spiediens	spiediena spiedienam spiedienu
+33	1533	klātbūtne	klātbūtnei klātbūtnes klātbūtni klātbūtnē
+34	1534	firma	firmas
+35	1535	izrādīt	izrāda izrādi izrādiet izrādot izrādošs izrādu izrādām izrādāt izrādīdams izrādīja izrādīji izrādījis izrādīju izrādījām izrādījāt izrādīs izrādīsi izrādīsiet izrādīsim izrādīts izrādītu izrādīšana izrādīšu jāizrāda neizrādīt
+36	1536	grīda	grīdai grīdas grīdu grīdā grīdām
+37	1537	zinātnisks	zinātniska zinātniskais zinātniskajai zinātniskajam zinātniskajiem zinātniskajos zinātniskajā zinātniskajām zinātniskas zinātniskie zinātniskiem zinātnisko zinātniskos zinātnisku zinātniskus zinātniskā zinātniskās
+38	1538	ieslēgt	ieslēdz ieslēdza ieslēdzam ieslēdzi ieslēdziet ieslēdzis ieslēdzot ieslēdzu ieslēdzāt ieslēgs ieslēgsi ieslēgsiet ieslēgsim ieslēgts ieslēgtu ieslēgšana ieslēgšu jāieslēdz
+39	1539	nepareizi	
+40	1540	uzturs	uztur uztura uzturam uzturu uzturā
+41	1541	saite	saitei saites saiti saitē saitēm saitēs saišu
+42	1542	krusts	krists krusta krustam krusti krustiem krustos krustu krustus krustā
+43	1543	jaunums	jaunumam jaunumi jaunumiem jaunumos jaunumu jaunumus
+44	1544	staigāt	jāstaigā nestaigāt staigā staigāja staigājam staigājat staigāji staigājis staigājot staigājošs staigāju staigājām staigājāt staigās staigāsi staigāsim staigāsit staigātu staigāšana staigāšu
+45	1545	deguns	degun deguna degunam deguni deguniem degunu degunus degunā
+46	1546	neesot	
+47	1547	pavēle	pavēlei pavēles pavēli pavēlē pavēlēm pavēlēs pavēļu
+48	1548	stikls	stikla stiklam stikli stikliem stiklos stiklu stiklus stiklā
+49	1549	skanēt	jāskan skan skanam skanat skanot skanu skanēja skanējis skanēs skanētu skanēšana
+50	1550	visbiežāk	
+51	1551	akadēmija	akadēmijai akadēmijas akadēmiju akadēmijā akadēmijām akadēmijās
+52	1552	kārtīgi	
+53	1553	patēriņš	patēriņa
+54	1554	plecs	pleca plecam pleci pleciem plecos plecu plecus plecā
+55	1555	muļķība	muļķības muļķību muļķībām muļķībās
+56	1556	personība	personībai personības personību personībā personībām personībās
+57	1557	mūziķis	mūziķa mūziķe mūziķei mūziķes mūziķi mūziķiem mūziķim mūziķu mūziķus
+58	1558	gar	
+59	1559	šorīt	
+60	1560	aizturēt	aizturēja aizturēti aizturēts
+61	1561	idiots	idiot idiota idiotam idiote idiotes idioti idiotiem idiotu idiotus
+62	1562	vietnieks	vietniece vietniecei vietnieces vietnieci vietniek vietnieka vietniekam vietnieki vietniekiem vietnieku vietniekus
+63	1563	kritums	
+64	1564	mantojums	mantojuma mantojumam mantojumiem mantojumu mantojumā
+65	1565	atteikties	atteicās
+66	1566	oficiāli	
+67	1567	vilks	vilk vilka vilkam vilki vilkiem vilku vilkus
+68	1568	savienot	jāsavieno savieno savienoja savienojama savienojamas savienojami savienojams savienojamu savienojat savienojiet savienojis savienojot savienoju savienos savienosim savienota savienotai savienotam savienotas savienoti savienotiem savienotos savienots savienotu savienotā savienotām savienotās savienošana savienošu
+69	1569	kluss	klusa klusai klusais klusajai klusajam klusajiem klusajā klusajās klusam klusas klusie klusiem kluso klusā klusāka klusākais klusākas klusāki klusākie klusāko klusāks klusāku klusākā klusākām klusākās klusām klusās
+70	1570	apmaiņa	apmaiņai apmaiņas apmaiņu apmaiņā apmaiņās
+71	1571	izskatīt	izskata izskati izskatiet izskatot izskatu izskatām izskatāms izskatāt izskatīja izskatīji izskatījis izskatīju izskatījām izskatījāt izskatīs izskatīsi izskatīsim izskatīts izskatītu izskatīšana izskatīšot izskatīšu jāizskata
+72	1572	rietumu	
+73	1573	neatkarība	neatkarībai neatkarības neatkarību neatkarībā
+74	1574	pakāpe	pakāpei pakāpes pakāpi pakāpju pakāpē pakāpēm pakāpēs
+75	1575	apkārtējs	apkārtējai apkārtējais apkārtējam apkārtēji apkārtējie apkārtējiem apkārtējo apkārtējos apkārtējā apkārtējām apkārtējās
+76	1576	burts	bur buram burs burt burta burtam burti burtiem burtos burtu burtus burtā buru būra būri būru
+77	1577	apraksts	apraksta aprakstam apraksti aprakstiem aprakstos aprakstu aprakstus aprakstā
+78	1578	vienots	vienota vienotai vienotam vienotas vienotiem vienotos vienotu vienotus vienotā vienotām vienotās
+79	1579	normāli	
+80	1580	avīze	avīzei avīzes avīzi avīzē avīzēm avīzēs avīžu
+81	1581	vis	
+82	1582	remonts	remonta remontam remonti remontiem remontos remontu remontus remontā
+83	1583	pazīme	pazīmes pazīmi pazīmju pazīmē pazīmēm pazīmēs
+84	1584	slepkava	slepkavam slepkavas slepkavu slepkavām
+85	1585	ieteikt	ieteic ieteica ieteicam ieteici ieteicis ieteicu ieteicām ieteicāt ieteiks ieteiksi ieteiksiet ieteiksim ieteikts ieteiktu ieteikšu
+86	1586	traucējums	traucējumam traucējumi traucējumiem traucējumu traucējumus
+87	1587	rūpniecība	rūpniecībai rūpniecības rūpniecību rūpniecībā
+88	1588	suga	sugai sugas sugu sugām
+89	1589	spējīgs	spējīga spējīgai spējīgam spējīgas spējīgi spējīgiem spējīgo spējīgu spējīgus spējīgā spējīgākajiem spējīgāki spējīgākie spējīgākos spējīgāku spējīgākā
+90	1590	pilots	pilot pilota pilotam pilote piloti pilotiem pilotu pilotus pilotā
+91	1591	virsma	virsmai virsmas virsmu virsmā virsmām
+92	1592	stingrs	stingra stingrai stingrais stingrajiem stingrajos stingrajā stingram stingras stingrie stingriem stingro stingros stingru stingrus stingrā stingrāka stingrākai stingrākais stingrākajiem stingrākas stingrāki stingrākie stingrākiem stingrāko stingrākos stingrāks stingrāku stingrākus stingrākām stingrām stingrās visstingrākie visstingrākos
+93	1593	atklāti	
+94	1594	smieties	jāsmejās nesmieties smejamies smejas smejaties smejies smejieties smejos smejoties smiedamies smiesies smiesieties smiesimies smietos smiešanās smiešos smējies smējos smējāmies smējās smējāties
+95	1595	balle	bai ballei balles balli ballu ballē ballēm ballēs baļļu
+96	1596	institūcija	institūciju institūcijām
+97	1597	ieviest	ieviesa
+98	1598	rezerve	rezerves
+99	1599	pelnīt	jāpelna nepelna nepelnāt nepelnītu nepelnīšu pelna pelni pelniem pelnos pelnot pelnoša pelnošas pelnošos pelnošs pelnošu pelnošā pelnu pelnus pelnām pelnāt pelnīja pelnīji pelnīs pelnīsiet pelnīsim pelnīta pelnītos pelnīts pelnītu pelnītā pelnītās pelnīšana pelnīšanas pelnīšanu pelnīšu
+100	1600	vienoties	vienojās

@@ -1,0 +1,100 @@
+1	5201	gaumīgs	gaumīga gaumīgas gaumīgiem gaumīgo gaumīgu gaumīgus gaumīgākajiem gaumīgāku
+2	5202	pelnīti	
+3	5203	tukšāks	tukšais tukšākas tukšāki
+4	5204	valgums	valguma
+5	5205	možs	moži možu možā možāki
+6	5206	apspriestais	apspriestajiem apspriestajā apspriestie apspriesto apspriestos apspriestā apspriestās
+7	5207	resnāks	resnais resnāka resnākais resnākajai resnākiem resnāku resnākā visresnākais visresnākās
+8	5208	bārdains	bārdainais bārdainas bārdaini bārdainiem bārdaino
+9	5209	blāvi	
+10	5210	parast	neparastu parada paradi paraduši paradīsim parastu
+11	5211	slimīgi	
+12	5212	īstums	īstuma īstumam īstumu
+13	5213	kurvis	kurvi kurvja kurvī
+14	5214	smaržīgs	smaržīgais smaržīgā smaržīgās vissmaržīgākais
+15	5215	cūciņa	cūciņai cūciņas cūciņu cūciņām
+16	5216	baklažāns	baklažāni baklažāniem baklažānu baklažānus
+17	5217	gaišmate	gaišmati gaišmatis
+18	5218	ražens	ražena raženajam raženam raženi raženām
+19	5219	vasarīgi	
+20	5220	kuģiniece	kuģiniek kuģinieki kuģinieku
+21	5221	dzīvniecisks	dzīvnieciska dzīvnieciskie dzīvniecisko dzīvniecisku
+22	5222	kontaktligzda	kontaktligzdai kontaktligzdas kontaktligzdu kontaktligzdā kontaktligzdās
+23	5223	kalsns	kalsna kalsnas kalsnās
+24	5224	dzestrs	dzestra dzestrajā dzestras dzestrā dzestrākais dzestrāks
+25	5225	cepināt	cepina cepinu cepināja cepinās cepināšanas
+26	5226	nelabums	
+27	5227	zaglīgs	zaglīga zaglīgais zaglīgie zaglīgā
+28	5228	laisks	laiska laiskai laiski laiskie laiskos laisku laiskā laiskās
+29	5229	fizioloģisks	fizioloģiska fizioloģiskajam fizioloģiskajiem fizioloģiskajām fizioloģiskās
+30	5230	asiņaini	
+31	5231	bārijs	bārija
+32	5232	sarkanāks	sarkanais sarkanāka sarkanākas sarkanāki
+33	5233	pārkrāsot	jāpārkrāso pārkrāso pārkrāsoji pārkrāsojot pārkrāsots
+34	5234	visdrošāk	
+35	5235	septītnieks	septītnieka septītnieku septītniekā
+36	5236	netīrums	netīrumi
+37	5237	zinātājs	zinātāja zinātāji zinātājiem zinātāju
+38	5238	doza	dozas dozu dozām
+39	5239	tipoloģija	tipoloģijas tipoloģiju tipoloģijā
+40	5240	visretāk	
+41	5241	sabulis	sabulim sabuļa
+42	5242	smiltsērkšķis	smiltsērkšķi smiltsērkšķiem smiltsērkšķos smiltsērkšķu smiltsērkšķus
+43	5243	dzirdīgs	dzirdīgajām dzirdīgas dzirdīgiem dzirdīgo dzirdīgu dzirdīgās
+44	5244	papērt	paper
+45	5245	ziloņkauls	ziloņkaula
+46	5246	raksturīgāks	raksturīgais raksturīgākais raksturīgākajiem raksturīgāki raksturīgāko raksturīgākos raksturīgākās
+47	5247	ābece	ābeci
+48	5248	indēt	indē indēja indēs neindēs neindēsim
+49	5249	neķemmēt	jāķemmē neķemmēti ķemmē ķemmēja ķemmēji ķemmējusi ķemmēšanai
+50	5250	nepareizība	nepareizību nepareizībām
+51	5251	pirmatnējs	pirmatnēja pirmatnējiem pirmatnējo pirmatnējās
+52	5252	karaliski	
+53	5253	izvarot	
+54	5254	draiskule	draiskules draiskulēm
+55	5255	vilcene	vilcenes vilceni
+56	5256	rādītājpirksts	rādītājpirksta rādītājpirkstu
+57	5257	ampērs	ampēri ampēriem ampēru
+58	5258	botāniķe	botāniķa botāniķi botāniķis
+59	5259	uzcītīgi	
+60	5260	daiļava	daiļavai daiļavas
+61	5261	saldināt	nesaldinātu saldināta saldinātas saldinātiem saldinātos saldināts saldinātu
+62	5262	brass	brasa brasā
+63	5263	traukties	traucās
+64	5264	baudītājs	baudītāji baudītājiem baudītāju baudītājus
+65	5265	krūmājs	krūmāji krūmājiem krūmājos krūmāju krūmājus
+66	5266	aromātisks	aromātiska aromātiskajām aromātiskas aromātiski aromātisko aromātiskos aromātiskās
+67	5267	hromosoma	hromosomas hromosomu hromosomām
+68	5268	arhipelāgs	arhipelāga arhipelāgu arhipelāgā
+69	5269	rūda	rūdas rūdi rūdu
+70	5270	tauste	taustei taustes tausti
+71	5271	kārot	kāro kāroja kārojot kāroju kārots kārotu
+72	5272	nesakot	
+73	5273	melnums	melnuma melnumam melnumā
+74	5274	īgns	īgna
+75	5275	sendvičs	sendviča sendvičiem sendviču sendvičā
+76	5276	nepaklausība	nepaklausības nepaklausību
+77	5277	pika	pikas piku
+78	5278	tūja	tūjas
+79	5279	krājaizdevu	
+80	5280	wiki	
+81	5281	sniegavīrs	sniegavīri sniegavīru sniegavīrus
+82	5282	rožains	rožaina rožainajā rožainas rožaini rožainu
+83	5283	kailums	kailuma kailumu
+84	5284	izcirtums	izcirtuma izcirtumos izcirtumu izcirtumus izcirtumā
+85	5285	nacionālistisks	nacionālistiska nacionālistiskas nacionālistiski nacionālistisko nacionālistisku nacionālistiskā
+86	5286	reģistratore	reģistratores reģistratori reģistratoriem reģistratoru reģistratorus
+87	5287	rādijs	rādija
+88	5288	nihilisms	nihilisma nihilismu
+89	5289	cilvēciski	
+90	5290	akadēmiski	
+91	5291	ef	
+92	5292	visbūtiskākais	būtiskais būtiskāka būtiskākais būtiskākajam būtiskākajiem būtiskākajām būtiskākajās būtiskākas būtiskāki būtiskākie būtiskāko būtiskākos būtiskāks būtiskāku būtiskākus būtiskākā būtiskākām būtiskākās visbūtiskāko visbūtiskākā
+93	5293	metāns	metāna
+94	5294	teologs	teologu
+95	5295	skūt	skuj skuju
+96	5296	mirstošais	mirstošajai mirstošo mirstošos
+97	5297	žē	
+98	5298	kāravs	kārava
+99	5299	japāniski	
+100	5300	neapspriežam	

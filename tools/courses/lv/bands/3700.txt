@@ -1,0 +1,100 @@
+1	3601	dakša	dakšas dakšiņa dakšiņas dakšiņu dakšiņām dakšu dakšām
+2	3602	līdzko	
+3	3603	skulptūra	skulptūru
+4	3604	spīdzināšana	spīdzināšanai spīdzināšanas spīdzināšanu spīdzināšanā spīdzināšanām spīdzināšanās
+5	3605	aukla	auklai auklas auklu auklām
+6	3606	pīpēt	pīpē pīpēja pīpējat pīpēji pīpējis pīpējot pīpēju pīpētu pīpēšana pīpēšu
+7	3607	mugursoma	mugursomas mugursomu mugursomā mugursomām mugursomās
+8	3608	pamācība	pamācībai pamācības pamācību pamācībā pamācībām
+9	3609	kontinentāls	kontinentālais kontinentālajai kontinentālajiem kontinentālajā kontinentālajām kontinentālo kontinentālā kontinentālās
+10	3610	sloka	slokas sloku
+11	3611	tapete	tapetes tapetēm tapešu
+12	3612	mikstūra	mikstūras mikstūru mikstūrā mikstūrām
+13	3613	galotne	galotnei galotnes galotni galotnē galotnēm galotnēs galotņu
+14	3614	joga	jogas
+15	3615	sapulcēties	sapulcējamies sapulcējas sapulcējies sapulcējieties sapulcējoties sapulcējāmies sapulcējās sapulcēsies sapulcēsimies sapulcētos sapulcēšanās
+16	3616	klēpis	klēpī
+17	3617	virsis	vira viri virsi viru virša virši viršiem viršu viršus
+18	3618	altāris	altāra altāri altārim
+19	3619	mantot	manto mantoja mantojams mantoji mantojis mantoju mantos mantosi mantosim mantots
+20	3620	ziedonis	ziedoni ziedonim ziedonī ziedoņa
+21	3621	izruna	izrunu izrunā izrunās
+22	3622	desmitnieks	desmitnieka desmitniekam desmitnieki desmitnieku desmitniekus desmitniekā
+23	3623	tonis	toņos
+24	3624	neņemot	
+25	3625	spriegums	sprieguma spriegumu
+26	3626	prostitūcija	prostitūcijai prostitūcijas prostitūciju prostitūcijā
+27	3627	kurls	kurla kurlais kurlas kurli kurlu kurlā
+28	3628	bāls	bāla bālais bālajā bāli bālo bālu bālā bālāka bālākajam bālākas bālāks bālās
+29	3629	īstens	īstena īstenais īstenajai īstenam īsteni īsteno īstenos īstenu īstenā
+30	3630	aizspriedums	aizsprieduma aizspriedumi aizspriedumiem aizspriedumu aizspriedumus
+31	3631	more	mores mori moris
+32	3632	kalcijs	kalcija kalciju
+33	3633	eksperimentēt	eksperimentē eksperimentēja eksperimentējam eksperimentējiet eksperimentējot eksperimentējošs eksperimentēju eksperimentējām eksperimentēs eksperimentēts eksperimentētu jāeksperimentē neeksperimentēt
+34	3634	ārpolitika	ārpolitikas
+35	3635	frakcija	
+36	3636	vājība	vājībai vājības vājību vājībām
+37	3637	otrpus	
+38	3638	jaukāks	jaukais jaukāk jaukāka jaukākai jaukākais jaukākajām jaukāki jaukākiem jaukāko jaukākos jaukāku jaukākus jaukākā jaukākās visjaukāk visjaukākais visjaukākie visjaukākā visjaukākās
+39	3639	dzemde	dzemdei dzemdes dzemdi dzemdē dzemdēs
+40	3640	raksturojums	raksturojuma raksturojumam raksturojumiem raksturojumos raksturojumu raksturojumā
+41	3641	admirālis	admirāli admirālim admirāļa admirāļi admirāļu
+42	3642	soļot	soļo soļoja soļojiet soļojot soļoju soļos soļosim soļošana
+43	3643	vannasistaba	vannasistabai vannasistabas vannasistabu vannasistabā vannasistabām
+44	3644	avene	avenes avenēm avenēs aveņu
+45	3645	caurs	caura caurais caurajā caurajās cauriem cauro cauru caurā caurām caurās
+46	3646	soms	som somi somiem somu somus somā
+47	3647	aukle	auklei aukles aukli auklē auklēm aukļu
+48	3648	cilindrs	cilindra cilindram cilindri cilindriem cilindru
+49	3649	turpretim	
+50	3650	blīvums	blīvuma blīvumam blīvumu
+51	3651	zudums	zudumus
+52	3652	zebiekste	zebiekstes zebieksti zebiekšu
+53	3653	greizsirdība	greizsirdībai greizsirdības greizsirdību greizsirdībā
+54	3654	celms	celma celmi celmiem celmu celmus
+55	3655	cirst	cirsts cirstu cirta cirti cirtu cirtām cirtīs ciršana cērt cērtam cērtiet cērtot cērtu necirst
+56	3656	apspriesties	apspriedos apspriedāmies apspriedās apspriedīsies apspriedīsimies apspriedīšos apspriestos apspriešanos apspriešanās apspriežamies apspriežas apspriežos apspriežoties jāapspriežas
+57	3657	holesterīns	holesterīna holesterīnam holesterīnu
+58	3658	īve	īva īves īvi īvu
+59	3659	pamatne	pamatnes
+60	3660	rakstisks	rakstiska rakstiskai rakstiskajiem rakstiskajā rakstiskajām rakstiskam rakstiskas rakstiskiem rakstisko rakstisku rakstiskus rakstiskā rakstiskām rakstiskās
+61	3661	pieslēgt	pieslēgti
+62	3662	kņazs	kņaz kņaza kņazam kņazi kņaziem
+63	3663	makaroni	makaroniem makaronos makaronu makaronus
+64	3664	arājs	arāja arājam
+65	3665	strops	stropa stropam stropi stropu stropā
+66	3666	saīsināt	jāsaīsina saīsina saīsiniet saīsinot saīsinu saīsināja saīsinājis saīsinās saīsināts saīsinātu saīsināšana
+67	3667	tehniķis	tehniķa tehniķi tehniķiem tehniķim tehniķu tehniķus
+68	3668	elks	elk elka elki elkiem elku elkus
+69	3669	bruņojums	bruņojuma bruņojumam bruņojumu bruņojumā
+70	3670	bailīgs	bailīga bailīgais bailīgajam bailīgajiem bailīgajām bailīgi bailīgie bailīgo bailīgos bailīgu bailīgā
+71	3671	kross	kros krosa krosi krosu krosus krosā
+72	3672	ikona	ikonas ikonu
+73	3673	rubenis	rubeni rubenim rubeņa rubeņi rubeņiem
+74	3674	torijs	torij torija toriju
+75	3675	četrinieks	četrinieka četrinieki četriniekiem četriniekos četrinieku četriniekā
+76	3676	indietis	indiete indieti indietim indieši indiešiem indiešu indiešus
+77	3677	mīļot	mīļotais
+78	3678	iespaidot	iespaido
+79	3679	peri	pers peru
+80	3680	patriotisms	patriotisma patriotismam patriotismu patriotismā
+81	3681	ungāriete	ungāri ungāriem ungāru
+82	3682	vagīna	vagīnai vagīnas vagīnu vagīnā
+83	3683	jērs	jēra jēri jēriem jēru jērus
+84	3684	mākoņains	mākoņaina mākoņainas mākoņainā mākoņainākos mākoņaināks mākoņainās
+85	3685	kols	kol kolam kolos kolu
+86	3686	nenoliedzami	
+87	3687	ierast	ierasto
+88	3688	slepkavot	neslepkavo neslepkavoja slepkavo slepkavoja slepkavojis slepkavojot slepkavoju slepkavojuši slepkavojām slepkavota slepkavošana slepkavošanas slepkavošanu
+89	3689	botānisks	botāniskais botāniskajā botānisko botāniskā
+90	3690	slēptuve	slēptuves slēptuvi slēptuvju slēptuvē slēptuvēm slēptuvēs
+91	3691	spīdums	spīdum spīdumam spīdumu spīdumā
+92	3692	konfederācija	konfederācijas konfederāciju konfederācijā
+93	3693	spļaut	nespļauj spļauj spļaujam spļaujat spļaujoša spļaujošs spļaujošu spļaujošā spļauju spļausi spļautu spļaušu spļāva spļāvis spļāvāt
+94	3694	apdare	apdares
+95	3695	grūtniece	grūtniecei grūtnieces grūtnieci grūtniecēm grūtnieču
+96	3696	skorpions	skorpion skorpiona skorpioni skorpionu skorpionā
+97	3697	auns	auna aunam auni aunu
+98	3698	kantoris	kantora kantori kantoriem kantorim kantoros kantoru kantorus kantorī
+99	3699	optimisms	optimisma optimismam optimismu optimismā
+100	3700	orbīta	orbītas orbītu orbītā orbītām orbītās

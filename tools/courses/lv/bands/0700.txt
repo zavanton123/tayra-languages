@@ -1,0 +1,100 @@
+1	601	aptuveni	
+2	602	rasties	censtos jārodas nerasties radies rados radusies radās radīsies radīšoties rašanās rodamies rodas rodoties
+3	603	saule	saulei saules sauli saulē saulīte saulītei saulītes saulīti saulītē saulītēm sauļu
+4	604	pārvalde	pārvaldei pārvaldes pārvaldi pārvaldē pārvaldēm pārvaldēs pārvalžu
+5	605	piedāvājums	piedāvājuma piedāvājumam piedāvājumi piedāvājumiem piedāvājumos piedāvājumu piedāvājumus piedāvājumā
+6	606	īstenot	jāīsteno neīsteno neīstenojams neīstenot neīstenots īsteno īstenoja īstenojam īstenojama īstenojamas īstenojami īstenojamiem īstenojams īstenojis īstenojot īstenoju īstenojusi īstenojušas īstenojuši īstenojām īstenos īstenosim īstenota īstenotais īstenotam īstenotas īstenoti īstenotiem īstenotos īstenots īstenotu īstenotā īstenotās īstenošana īstenošanai īstenošanas īstenošanos īstenošanu īstenošanā
+7	607	iedot	iedeva iedevi iedevis iedevu iedevusi iedevušas iedevuši iedevām iedevāt iedod iedodam iedodat iedodiet iedodot iedodu iedos iedosi iedosiet iedosim iedosit iedota iedotas iedoti iedotos iedots iedotu iedotā iedošu jāiedod neiedeva neiedevi neiedevu neiedevāt neiedod neiedos neiedosi neiedot neiedotu
+8	608	novembris	novembra novembri novembrim novembrī
+9	609	zvans	zvan zvana zvanam zvani zvaniem zvanos zvanu zvanus zvanā
+10	610	nams	nam nama namam nami namiem namos namu namus namā
+11	611	iepazīties	iepazinies iepazinos iepazināmies iepazinās iepazināties iepazīsies iepazīsieties iepazīsimies iepazīstamies iepazīstas iepazīstaties iepazīsties iepazīstieties iepazīstos iepazīstoties iepazītos iepazīšanās iepazīšos jāiepazīstas
+12	612	šurp	
+13	613	automašīna	automašīnai automašīnas automašīnu automašīnā automašīnām automašīnās
+14	614	vienlaikus	
+15	615	sapnis	sapni sapnim sapnī sapņa sapņi sapņiem sapņos sapņu sapņus
+16	616	kāja	kājai kājas kāju kājā kājās
+17	617	februāris	februāra februāri februārim februārī
+18	618	politika	politikai politikas politiku politikā politikām politikās
+19	619	zelts	zels zelta zeltam zeltu zeltā zelšu zeļ zēla
+20	620	glābt	glāb glāba glābdams glābi glābiet glābis glābj glābjam glābjama glābjams glābjot glābjošas glābju glābs glābsi glābsiet glābsim glābta glābtas glābti glābtos glābts glābtu glābu glābusi glābām glābšana glābšanai glābšanas glābšanu glābšanā glābšu jāglābj neglāba neglābjama neglābjami neglābjamu neglābs neglābtu
+21	621	paziņot	paziņo paziņoja paziņojis paziņojusi
+22	622	oktobris	oktobra oktobri oktobrim oktobru oktobrī
+23	623	caur	
+24	624	krāsa	krāsai krāsas krāsu krāsā krāsām krāsās
+25	625	jūlijs	jūlija jūlijam jūliju jūlijā
+26	626	ņemot	
+27	627	ziema	ziemai ziemas ziemu ziemā ziemām ziemās
+28	628	futbols	futbola futbolam futboli futbolu futbolā
+29	629	vēstīt	vēsta vēsti vēstot vēstī vēstīja vēstījis vēstījot vēstījām vēstīs vēstīts vēstītu
+30	630	karalis	karaa karali karaliene karalienei karalienes karalieni karalienēm karalim karaļa karaļi karaļiem karaļu karaļus
+31	631	tehnoloģija	tehnoloģijai tehnoloģijas tehnoloģiju tehnoloģijā tehnoloģijām tehnoloģijās
+32	632	jūnijs	jūnija jūnijam jūniju jūnijā
+33	633	izmaiņa	izmaiņas izmaiņām
+34	634	vakars	vakara vakaram vakari vakariem vakaros vakaru vakarus
+35	635	raksts	rakst raksta rakstam raksti rakstiem rakstos rakstu rakstus rakstā
+36	636	kalns	kalna kalnam kalni kalniem kalnos kalnu kalnus kalnā
+37	637	viedoklis	viedokli viedoklim viedoklī viedokļa viedokļi viedokļiem viedokļos viedokļu viedokļus
+38	638	atsevišķs	atsevišķa atsevišķai atsevišķais atsevišķajiem atsevišķajos atsevišķajā atsevišķajām atsevišķajās atsevišķam atsevišķas atsevišķi atsevišķie atsevišķiem atsevišķo atsevišķos atsevišķu atsevišķus atsevišķā atsevišķām atsevišķās
+39	639	pārbaude	pārbaudes pārbaudi
+40	640	ķermenis	ķermeni ķermenim ķermenī ķermeņa ķermeņi ķermeņiem ķermeņos ķermeņu ķermeņus
+41	641	ražošana	ražošanai ražošanas ražošanu ražošanā
+42	642	mēģināt	mēģina mēģinot mēģināja mēģinājis mēģināju mēģināts
+43	643	dzert	dzer dzeram dzeramais dzeramos dzerams dzeramu dzeramā dzerat dzeriet dzerot dzers dzersi dzersiet dzersim dzertu dzeru dzeršana dzeršanai dzeršanas dzeršanu dzeršanā dzeršu dzēra dzēri dzēris dzēru dzērusi dzēruši dzērušu dzērām dzērāt jādzer nedzer nedzeriet nedzers nedzersim nedzert nedzeru nedzeršu
+44	644	diennakts	diennakti diennaktis diennaktī diennaktīm diennaktīs diennakšu
+45	645	mūžs	mūž mūža mūžam mūžiem mūžos mūžu mūžā
+46	646	maksa	maksai maksam maksas maksi maksu maksā maksām maksās
+47	647	vērts	vērta vērtai vērtais vērtajā vērtam vērtas vērti vērtie vērtiem vērto vērtu vērtus vērtā vērtās
+48	648	skaidrot	jāskaidro neskaidro neskaidroja neskaidros neskaidrot skaidro skaidroja skaidrojam skaidrojama skaidrojamas skaidrojams skaidrojiet skaidrojis skaidrojot skaidrojošais skaidrojošs skaidrojošus skaidroju skaidrojusi skaidrojušas skaidrojuši skaidrojām skaidros skaidrosim skaidrota skaidrotas skaidroti skaidrots skaidrotu skaidrotā skaidrošana skaidrošanai skaidrošanas skaidrošanos skaidrošanu
+49	649	karte	kartei kartes karti kartē kartēm kartēs karšu
+50	650	balss	bals balsi balsij balsis balsu balsī balsīm balu
+51	651	īsti	
+52	652	parks	park parka parkam parki parkiem parkos parku parkus parkā
+53	653	mirt	jāmirst mira mirdams miri mirs mirsi mirsiet mirsim mirsit mirstam mirstat mirsti mirstiet mirstot mirstoša mirstu mirtu miru mirusī mirušais mirušajam mirušajiem mirušajos mirušajā mirušajām mirušie mirušo mirušā mirām miršana miršanas miršot miršu nemira nemirs nemirsim nemirsit nemirt nemiršu
+54	654	pārdot	jāpārdod nepārdot pārdeva pārdevi pārdevis pārdevu pārdevām pārdevāt pārdod pārdodam pārdodams pārdodat pārdodiet pārdodot pārdodu pārdos pārdosi pārdosiet pārdosim pārdots pārdotu pārdošana pārdošot pārdošu
+55	655	patiešām	
+56	656	smags	smaga smagai smagais smagajam smagajiem smagajos smagajā smagajām smagam smagas smagie smagiem smago smagos smagu smagus smagā smagāka smagākais smagākajiem smagākajā smagākajām smagākas smagāki smagākie smagākiem smagāko smagākos smagāks smagāku smagākus smagākā smagākām smagākās smagām smagās vissmagākais vissmagākie vissmagākā
+57	657	garām	
+58	658	septiņi	septiņas septiņiem septiņos septiņu septiņus septiņām septiņās
+59	659	priekša	priekšai priekšas priekšu
+60	660	uzvara	uzvarai uzvaras uzvaru uzvarā uzvarām
+61	661	lauks	lauk lauka laukam lauki laukiem laukos lauku laukus
+62	662	citādi	citādāk
+63	663	nopietni	
+64	664	bizness	biznesa
+65	665	uzņēmējs	uzņēmēja uzņēmējam uzņēmēji uzņēmējiem uzņēmējos uzņēmēju uzņēmējus
+66	666	uzzināt	uzzināja uzzināju uzzinātu
+67	667	reģions	reģiona reģionos reģionā
+68	668	biedrs	biedr biedra biedram biedre biedrene biedrenei biedrenes biedreni biedres biedri biedriem biedru biedrus
+69	669	speciālists	speciālista speciālistam speciāliste speciālisti speciālistiem speciālistu speciālistus
+70	670	politisks	politiska politiskai politiskais politiskajai politiskajam politiskajiem politiskajos politiskajā politiskajām politiskajās politiskam politiskas politiskie politiskiem politisko politiskos politisku politiskus politiskā politiskām politiskās
+71	671	dzīvoklis	dzīvokli dzīvoklim dzīvoklī dzīvokļa dzīvokļi dzīvokļiem dzīvokļos dzīvokļu dzīvokļus
+72	672	janvāris	janvāra janvāri janvārim janvārī
+73	673	video	
+74	674	patiesība	patiesībai patiesības patiesību patiesībām
+75	675	kļūda	kļūdai kļūdas kļūdu kļūdām kļūdās
+76	676	atklāts	atklāta atklātai atklātais atklātajai atklātajam atklātajiem atklātajos atklātajā atklātajām atklātajās atklātam atklātas atklātie atklātiem atklāto atklātos atklātu atklātus atklātā atklātāks atklātām atklātās
+77	677	forma	formas formu formā formām
+78	678	rīkoties	jārīkojas nerīkoties rīkojamies rīkojas rīkojaties rīkojies rīkojieties rīkojos rīkojoties rīkojāmies rīkojās rīkojāties rīkosies rīkosieties rīkosimies rīkosities rīkotos rīkošanās rīkošos rīkošoties
+79	679	nonākt	nonāca nonācis nonāk nonākot nonāks nonākusi nonākuši
+80	680	pašlaik	
+81	681	zaļš	zaļa zaļai zaļais zaļajai zaļajam zaļajiem zaļajos zaļajā zaļajām zaļajās zaļam zaļas zaļi zaļie zaļiem zaļo zaļos zaļu zaļus zaļā zaļāka zaļākai zaļākais zaļākajām zaļākas zaļāki zaļāko zaļāks zaļāku zaļākus zaļākā zaļākām zaļām zaļās
+82	682	vidū	
+83	683	zēns	zēn zēna zēnam zēni zēniem zēnu zēnus zēnā
+84	684	neliels	neliela nelielas nelielu nelielā
+85	685	vienība	vienībai vienības vienību vienībā vienībām vienībās
+86	686	pilnība	pilnības pilnību pilnībā
+87	687	mūsdienas	mūsdienu mūsdienās
+88	688	apstiprināt	apstiprina apstiprini apstipriniet apstiprinot apstiprinošs apstiprinu apstiprināja apstiprinājis apstiprinājām apstiprinājāt apstiprinām apstiprinās apstiprināsi apstiprināsiet apstiprināsim apstiprināts apstiprinātu apstiprināšana apstiprināšot apstiprināšu jāapstiprina neapstiprināt
+89	689	vaļā	
+90	690	šoreiz	
+91	691	vienalga	
+92	692	vārti	vārtiem vārtu vārtus
+93	693	vest	jāved nevest ved veda vedam vedams vedat vedi vediet vedis vedot vedu vedām vedāt vedīs vedīsi vedīsiet vedīsim vedīsit vedīšot vedīšu vesta vestam vestas vesti vests vestu vestā vešana
+94	694	saskaņa	saskaņā
+95	695	budžets	budžeta budžetā
+96	696	universitāte	universitātei universitātes universitāti universitātē universitātēm universitātēs universitāšu
+97	697	dzīvnieks	dzīvniek dzīvnieka dzīvniekam dzīvnieki dzīvniekiem dzīvniekos dzīvnieku dzīvniekus dzīvniekā
+98	698	konkrēts	konkrēta konkrētai konkrētais konkrētajai konkrētajam konkrētajiem konkrētajos konkrētajā konkrētajām konkrētajās konkrētam konkrētas konkrētie konkrētiem konkrēto konkrētos konkrētu konkrētus konkrētā konkrētāka konkrētākas konkrētāki konkrētāks konkrētāku konkrētākus konkrētām konkrētās
+99	699	spēlētājs	spēlētāji spēlētājiem spēlētāju
+100	700	koncerts	koncert koncerta koncertam koncerti koncertiem koncertos koncertu koncertus koncertā

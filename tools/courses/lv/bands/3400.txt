@@ -1,0 +1,100 @@
+1	3301	tradicionāls	tradicionālās
+2	3302	salt	sali salst salsti salstot salstu salta saltas salto salts saltā saltās salu salām
+3	3303	cilvēcisks	cilvēciska cilvēciskais cilvēciskajā cilvēciskajām cilvēciskam cilvēciskas cilvēciskie cilvēciskiem cilvēcisko cilvēcisku cilvēciskā cilvēciskām cilvēciskās viscilvēciskākās
+4	3304	turciete	turk turka turki turkiem turku turkus
+5	3305	aktīvāks	aktīvais aktīvāka aktīvākai aktīvākais aktīvākajai aktīvākajiem aktīvākajā aktīvākajām aktīvākam aktīvākas aktīvāki aktīvākie aktīvākiem aktīvāko aktīvākos aktīvāku aktīvākā visaktīvākais visaktīvākie visaktīvākā visaktīvākās
+6	3306	kažoks	kažoka kažokos kažoku kažokus kažokā
+7	3307	veikli	
+8	3308	dūre	dūres dūri dūru dūrē dūrēm dūrēs
+9	3309	marihuāna	marihuānai marihuānas marihuānu
+10	3310	pērt	per perams peru pēram pēris pērs pērsi pērts pēršana
+11	3311	paaugstināt	
+12	3312	skaut	skauj skaujot skauts skautu
+13	3313	pļāpāt	loha lohi lohu lohus nepļāpā pļāpā pļāpāja pļāpājam pļāpājiet pļāpājot pļāpāju pļāpājuši pļāpājām pļāpās pļāpāsi pļāpāsim pļāpātu pļāpāšana pļāpāšanai pļāpāšanas pļāpāšanu
+14	3314	norvēģis	norvēģi norvēģiem norvēģiete norvēģietes norvēģu
+15	3315	matracis	matraci matracim matracī matrača matrači matračiem matraču matračus
+16	3316	kult	jākuļ kults kultu kulšana kuļ kuļam kūla kūlis kūlu
+17	3317	samaņa	samaņas samaņu
+18	3318	aktualizēt	aktualizē aktualizēja aktualizējam aktualizējat aktualizējis aktualizējot aktualizēju aktualizēs aktualizēts aktualizētu aktualizēšana jāaktualizē
+19	3319	viesmīlība	viesmīlības viesmīlību viesmīlībā
+20	3320	vājums	vājuma vājumu vājumā
+21	3321	dānis	dāni dāniete dānim dāņa dāņi dāņiem dāņu dāņus
+22	3322	saukties	saucas
+23	3323	prezidentūra	prezidentūras
+24	3324	tauriņš	tauriņa tauriņi tauriņiem tauriņu tauriņus tauriņā
+25	3325	piederīgs	piederīga piederīgais piederīgajam piederīgajiem piederīgam piederīgi piederīgie piederīgiem piederīgo piederīgos piederīgu piederīgā piederīgām piederīgās
+26	3326	redzamība	redzamības redzamību redzamībā
+27	3327	apelsīns	apelsīna apelsīni apelsīniem apelsīnos apelsīnu apelsīnus
+28	3328	elastīgs	elastīga elastīgai elastīgajai elastīgajiem elastīgam elastīgas elastīgi elastīgie elastīgiem elastīgo elastīgu elastīgus elastīgā elastīgāks
+29	3329	plate	plates platēm plašu
+30	3330	vienoti	
+31	3331	apmainīt	apmaina apmainiet apmainot apmainām apmainīja apmainīji apmainījis apmainījušās apmainījāt apmainīs apmainīsi apmainīsim apmainīta apmainītas apmainīti apmainītos apmainīts apmainītu apmainīšanu jāapmaina neapmainīs neapmainītas
+32	3332	verdzība	verdzībai verdzības verdzību verdzībā
+33	3333	skuķis	skuķa skuķi skuķiem skuķu skuķus
+34	3334	galvaskauss	galvaskausa galvaskausam galvaskausi galvaskausu galvaskausus galvaskausā
+35	3335	armēnis	armēņi armēņiem armēņu
+36	3336	kolonija	kolonijai kolonijas koloniju kolonijā kolonijām kolonijās
+37	3337	volejbolists	volejbolistam volejboliste volejbolisti volejbolistiem volejbolistu volejbolistus
+38	3338	bezjēdzīgi	
+39	3339	saldi	
+40	3340	buča	bučas buču bučus bučām
+41	3341	iekaisums	iekaisuma iekaisumi iekaisumiem iekaisumu iekaisumus
+42	3342	sīkāks	sīkais sīkāka sīkākai sīkākajai sīkākajam sīkākas sīkāki sīkāku sīkākus sīkākā sīkākās vissīkāko
+43	3343	dzīle	dzīlei dzīles dzīli dzīlē dzīlēm dzīlēs dzīļu
+44	3344	puisītis	puisīt puisīti puisītim puisīša puisīši puisīšiem
+45	3345	nepārprotams	nepārprotama nepārprotamais nepārprotami nepārprotamu nepārprotamus nepārprotamā nepārprotamām
+46	3346	šautene	šautenes šauteni šauteņu
+47	3347	sajaukt	sajauc
+48	3348	mauka	maukai maukas mauku maukām
+49	3349	ducis	duci ducī duča duči dučiem dučus
+50	3350	cirkste	cirka cirkam cirku cirkā
+51	3351	kodolierocis	kodolieroci kodolieroči kodolieročiem kodolieroču kodolieročus
+52	3352	celtne	celtnei celtnes celtni celtnē celtnēm celtnēs celtņu
+53	3353	šķidrs	šķidra šķidrais šķidro šķidros šķidru šķidrā šķidrās
+54	3354	gluds	gluda gludais gludam gludas gludu gludus gludāka gludāki gludāks gludāku gludām gludās
+55	3355	cēls	cēla cēlai cēlais cēlajam cēlajiem cēlam cēlas cēliem cēlo cēlos cēlu cēlus cēlā cēlām cēlās viscēlākais
+56	3356	tagadne	tagadnei tagadnes tagadni tagadnē
+57	3357	izcilāks	izcilais izcilākais izcilākajam izcilākajiem izcilākajām izcilākie izcilākiem izcilāko izcilākos izcilāku izcilākā izcilākās visizcilākais visizcilākie visizcilākā
+58	3358	revolūcija	
+59	3359	mātīte	mātītei mātītes mātīti mātītēm mātīšu
+60	3360	tēviņš	tēviņa tēviņi tēviņiem tēviņu
+61	3361	sīki	
+62	3362	fantastika	fantastikai fantastikas fantastiku
+63	3363	cēsnieks	cēsiniece cēsinieci cēsinieks cēsniece cēsniecei cēsnieces cēsnieci cēsniecēm cēsniek cēsniekam cēsnieki cēsniekiem cēsnieku cēsniekus cēsnieču
+64	3364	šomēnes	
+65	3365	dumjš	dumja dumjais dumjajiem dumjas dumjie dumju dumjus dumjā dumjākais dumjāks dumjāku
+66	3366	kokvilna	kokvilnas kokvilnu
+67	3367	ārēji	
+68	3368	virsus	virsi virsu
+69	3369	autoosta	autoostai autoostas autoostu autoostā autoostām autoostās
+70	3370	dzērājs	dzērāj dzērāja dzērājam dzērāji dzērājiem dzērāju dzērājus
+71	3371	slepenība	slepenības slepenību slepenībā
+72	3372	morāli	
+73	3373	regbijs	regbija regbijam regbiju regbijā
+74	3374	jauneklis	jaunekli jauneklim jaunekļa jaunekļi jaunekļiem
+75	3375	siet	jāsien nesiet sien sienu sies sietam siets sietu sēja sējai sējas sējiem sēju sējā
+76	3376	lins	lin lina lini liniem linu linus
+77	3377	lietderīgi	
+78	3378	izteiciens	izteiciena izteicienam izteicieni izteicieniem izteicienos izteicienu izteicienus
+79	3379	ķirurģija	ķirurģijai ķirurģijas ķirurģiju ķirurģijā
+80	3380	tārps	tārp tārpa tārpi tārpiem tārpu tārpus
+81	3381	vairot	vairo
+82	3382	apguve	apguvei apguves apguvi apguvē
+83	3383	izcilība	izcilībai izcilības izcilību izcilībā
+84	3384	katedrāle	katedrālei katedrāles katedrāli katedrālē katedrāļu
+85	3385	mehāniķis	mehāniķa mehāniķe mehāniķi mehāniķiem mehāniķu mehāniķus
+86	3386	handbols	handbola handbolam handbolu handbolā
+87	3387	apakšveļa	apakšveļai apakšveļas apakšveļu apakšveļā
+88	3388	bučot	bučo bučoja bučoji bučojiet bučojot bučoju bučos bučošanai bučošanos bučošanu bučošu jābučo
+89	3389	biezums	biezuma biezumam biezumi biezumiem biezumos biezumu biezumus biezumā
+90	3390	kategoriski	
+91	3391	augošais	augošajai augošajam augošajiem augošajos augošajā augošajām augošie augošo augošos augošā augošās
+92	3392	karote	karotes karoti karošu
+93	3393	nokaut	jānokauj nokauj nokaujam nokauju nokaus nokauts nokautu nokaušana nokaušu nokāva nokāvi nokāvis nokāvu nokāvām
+94	3394	asiņains	asiņaina asiņainais asiņainajām asiņainajās asiņainas asiņainie asiņaino asiņainu asiņainus asiņainā asiņainās visasiņainākais
+95	3395	feja	fejai fejas feju fejām
+96	3396	slānis	slāņa
+97	3397	trepes	trepju trepēm
+98	3398	šķēres	šķēru šķērēm
+99	3399	sausums	sausuma sausumi sausumiem sausumu sausumā
+100	3400	cirvis	cirvi cirvim cirvja cirvji cirvjiem cirvjus

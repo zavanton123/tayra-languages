@@ -1,0 +1,100 @@
+1	1301	dīvaini	
+2	1302	baudīt	bauda baudai baudas baudi baudiet baudot baudu baudā baudām baudāms baudāt baudīdams baudīja baudījis baudīju baudījām baudījāt baudīs baudīsiet baudīsim baudīts baudītu baudīšana baudīšu jābauda
+3	1303	ciems	ciema ciemam ciemi ciemiem ciemos ciemu ciemus ciemā
+4	1304	liktenis	likteni liktenim liktenī likteņa likteņi likteņiem likteņu likteņus
+5	1305	ballīte	ballīti
+6	1306	aktuāls	aktuāla aktuālai aktuālais aktuālajai aktuālajam aktuālajiem aktuālajos aktuālajā aktuālajām aktuālajās aktuālam aktuālas aktuāli aktuālie aktuāliem aktuālo aktuālos aktuālu aktuālus aktuālā aktuālāks aktuālām aktuālās
+7	1307	pelnījis	pelnījusi pelnījušas pelnījuši
+8	1308	deju	
+9	1309	apliecināt	apliecina apliecinot apliecināja
+10	1310	pārbaudīt	pārbauda
+11	1311	kandidāts	kandidātu kandidātus
+12	1312	piešķirt	piešķir piešķirta
+13	1313	apģērbs	apģērba apģērbam apģērbi apģērbiem apģērbos apģērbu apģērbus apģērbā
+14	1314	karavīrs	karavīr karavīra karavīram karavīri karavīriem karavīros karavīru karavīrus
+15	1315	būtība	būtībai būtības būtību būtībā
+16	1316	tuvāk	
+17	1317	atļauja	atļauju
+18	1318	kolēģis	kolēģi kolēģiem
+19	1319	partneris	partneriem
+20	1320	gredzens	gredzena gredzenam gredzeni gredzeniem gredzenu gredzenus gredzenā
+21	1321	statistika	statistikai statistikas statistiku statistikā
+22	1322	pudele	pudelei pudeles pudeli pudelē pudelēm pudelēs pudelīte pudeļu
+23	1323	bail	
+24	1324	tēvocis	tante tantei tantes tanti tantēm tēvoci tēvocim tēvoča tēvoči
+25	1325	ziemeļi	ziemeļiem ziemeļos ziemeļu ziemeļus
+26	1326	tradīcija	tradīcijai tradīcijas tradīciju tradīcijā tradīcijām tradīcijās
+27	1327	pārsniegt	jāpārsniedz nepārsniegt pārsniedz pārsniedza pārsniedzam pārsniedzis pārsniedzot pārsniedzu pārsniedzāt pārsniegs pārsniegsi pārsniegsim pārsniegts pārsniegtu pārsniegšana
+28	1328	novērtēt	novērtē novērtēja
+29	1329	sīks	sīka sīkais sīkajai sīkajam sīkajiem sīkam sīkas sīkie sīkiem sīko sīkos sīku sīkus sīkā sīkām sīkās vissīkāko
+30	1330	planēta	planētai planētas planētu planētām
+31	1331	ieraudzīt	ieraudzīja ieraudzīju ieraugot
+32	1332	dzimis	dzimusi dzimuša dzimušam dzimušas dzimuši dzimušiem dzimušos dzimušu dzimušā
+33	1333	raudāt	jāraud neraud neraudam neraudi neraudiet neraudu neraudāja neraudāju neraudāsi neraudāt neraudātu neraudāšu raud raudam raudat raudi raudiet raudot raudošais raudoši raudošs raudošu raudošā raudu raudādama raudādams raudāja raudāji raudājis raudāju raudājusi raudājām raudās raudāsi raudātu raudāšana raudāšanas raudāšanu raudāšu
+34	1334	adrese	adresei adreses adresi adresē adresēm adresēs adrešu
+35	1335	pretinieks	pretiniece pretinieka pretiniekam pretinieki pretiniekiem pretiniekos pretinieku pretiniekus
+36	1336	pasaka	pasakai pasakam pasakas pasaku pasakā pasakām pasakās
+37	1337	visticamāk	
+38	1338	vērtīgs	visvērtīgākais visvērtīgāko visvērtīgākā visvērtīgākās vērtīga vērtīgai vērtīgais vērtīgajiem vērtīgajām vērtīgam vērtīgas vērtīgi vērtīgiem vērtīgo vērtīgos vērtīgu vērtīgus vērtīgā vērtīgāks vērtīgām vērtīgās
+39	1339	atkarība	atkarībai atkarības atkarību atkarībā
+40	1340	reklāma	reklāmas
+41	1341	mācīt	jāmāca māca māci māciet mācot mācu mācām mācāt mācīja mācīji mācījis mācīju mācījām mācījāt mācīs mācīsi mācīsim mācīts mācītu mācīšana mācīšu nemācīt
+42	1342	biežāk	
+43	1343	bērnība	bērnības bērnību bērnībā
+44	1344	norise	norises norisi
+45	1345	automobilis	automobili automobilim automobilī automobiļa automobiļi automobiļiem automobiļos automobiļu automobiļus
+46	1346	slēpties	jāslēpjas neslēpties slēpdamies slēpies slēpieties slēpjamies slēpjas slēpjaties slēpjos slēpjoties slēpos slēpsies slēpsimies slēptos slēpāmies slēpās slēpšanās slēpšos
+47	1347	medaļa	medaļai medaļas medaļu medaļā medaļām
+48	1348	pircējs	pircēj pircēja pircējam pircēji pircējiem pircēju pircējus pircējā pircējām
+49	1349	grūtība	grūtības grūtību grūtībā grūtībām grūtībās
+50	1350	aizliegts	aizliegta aizliegtam aizliegtas aizliegti aizliegtiem aizliegtos aizliegtu aizliegtus aizliegtā aizliegtās
+51	1351	iesacīt	iesaka iesaku
+52	1352	pulkstenis	pulksteni pulkstenim pulkstenī pulksteņa pulksteņi pulksteņiem pulksteņu pulksteņus
+53	1353	piektais	piektai piektajai piektajam piektajā piektie piekto piektā piektās
+54	1354	ienākt	ienāca ienāk
+55	1355	pludmale	pludmalei pludmales pludmali pludmalē pludmalēm pludmalēs pludmaļu
+56	1356	salds	salda saldai saldais saldajiem saldajos saldajā saldajām saldajās saldas saldie saldiem saldo saldos saldu saldus saldā saldām saldās vissaldākā
+57	1357	auglis	augli auglim auglī augļa augļi augļiem augļos augļu augļus
+58	1358	dejot	dejo dejodams dejoja dejojam dejojams dejojat dejoji dejojiet dejojis dejojot dejojošais dejojoši dejojošs dejojošām dejoju dejojusi dejojām dejojāt dejos dejosi dejosiet dejosim dejotu dejošana dejošanai dejošanas dejošanu dejošanā dejošu jādejo nedejo nedejoja nedejojām nedejos nedejosim nedejot nedejošu
+59	1359	priekšmets	priekšmeta priekšmetam priekšmeti priekšmetiem priekšmetos priekšmetu priekšmetus priekšmetā
+60	1360	elpot	elpo elpoja elpojam elpojat elpoji elpojiet elpojis elpojot elpojošs elpoju elpos elposim elpotu elpošana elpošanai elpošanas elpošanu elpošu jāelpo neelpot
+61	1361	medicīnisks	medicīniska medicīniskai medicīniskais medicīniskajai medicīniskajam medicīniskajiem medicīniskajos medicīniskajā medicīniskajām medicīniskajās medicīniskas medicīniskie medicīniskiem medicīnisko medicīniskos medicīnisku medicīniskus medicīniskā medicīniskām medicīniskās
+62	1362	emocija	emocijas emociju emocijām emocijās
+63	1363	kvalifikācija	kvalifikācijai kvalifikācijas kvalifikāciju kvalifikācijā kvalifikācijām
+64	1364	degt	dedz dedzi dedzis deg dega degam degat degot degoša degošais degošajiem degošajā degošajās degošas degoši degošiem degošo degošos degošs degošu degošus degošā degošām degošās degs degsi degta degtu degusi degušas deguši degušiem degušu degušās degšana degšanas degšanu jādeg nedeg
+65	1365	aizstāvēt	aizstāv aizstāvam aizstāvama aizstāvamais aizstāvamā aizstāvat aizstāvi aizstāviet aizstāvot aizstāvu aizstāvēja aizstāvēji aizstāvējis aizstāvēju aizstāvējusi aizstāvējušas aizstāvējuši aizstāvējām aizstāvējāt aizstāvēs aizstāvēsi aizstāvēsiet aizstāvēsim aizstāvētas aizstāvētos aizstāvēts aizstāvētu aizstāvēšana aizstāvēšanai aizstāvēšanas aizstāvēšanos aizstāvēšanu aizstāvēšu jāaizstāv neaizstāv neaizstāvi neaizstāvu neaizstāvēji neaizstāvēs
+66	1366	ieraksts	ierakstu
+67	1367	maks	mak maka makam maki makiem makos maku makus makā
+68	1368	noderēt	noder noderot noderēja noderējis noderēs noderēsi noderētu noderēšot
+69	1369	mīt	jāmin mija miju mijām min mina minam minams minat mini miniet minis minot minu minām mīsi mīta mītam mīti mītiem mītos mīts mītu mītus nemīt
+70	1370	normāls	normāla normālai normālais normālajai normālajam normālajiem normālajā normālajās normālam normālas normālie normāliem normālo normālos normālu normālus normālā normālākajiem normālākas normālāks normālām normālās
+71	1371	atpūsties	atpūstos atpūties atpūtieties atpūtos atpūtās atpūtīsies atpūtīsimies atpūtīšos atpūšamies atpūšas atpūšaties atpūšos atpūšoties jāatpūšas neatpūsties
+72	1372	vieglāk	
+73	1373	brokastis	brokai brokas brokastu brokastīm brokastīs
+74	1374	skaitlis	skaitli skaitlim skaitlī skaitļa skaitļi skaitļiem skaitļos skaitļu skaitļus
+75	1375	elements	element elementa elementam elementi elementiem elementos elementu elementus elementā
+76	1376	kalpot	jākalpo kalpo kalpodams kalpoja kalpojam kalpojat kalpoji kalpojiet kalpojis kalpojot kalpojošs kalpoju kalpojām kalpojāt kalpos kalposi kalposiet kalpotu kalpošana kalpošu
+77	1377	saimniecība	saimniecībai saimniecības saimniecību saimniecībā saimniecībām saimniecībās
+78	1378	savstarpējs	savstarpēja savstarpējai savstarpējais savstarpējam savstarpējas savstarpēji savstarpējie savstarpējiem savstarpējo savstarpējos savstarpēju savstarpējus savstarpējā savstarpējām savstarpējās
+79	1379	maršruts	maršruta maršrutam maršruti maršrutiem maršrutos maršrutu maršrutus maršrutā
+80	1380	garšot	garšo garšoja garšojiet garšojot garšojusi garšojušas garšos garšotu jāgaršo negaršo negaršoja negaršos
+81	1381	faktors	faktori faktoriem faktoru faktorus
+82	1382	nosacījums	nosacījumi nosacījumiem nosacījumus
+83	1383	vienāds	vienāda vienādai vienādas vienādi vienādiem vienādo vienādos vienādu vienādus vienādā vienādām vienādās
+84	1384	nafta	naftai naftas naftu naftā
+85	1385	smagi	
+86	1386	glezna	gleznai gleznas gleznos gleznu gleznā gleznām gleznās
+87	1387	pētījums	pētījumi pētījumos
+88	1388	palielināt	palielina palielinot
+89	1389	ārējs	ārēja ārējai ārējais ārējam ārējas ārējie ārējiem ārējo ārējos ārēju ārējus ārējā ārējām ārējās
+90	1390	ieņemt	ieņem ieņēma
+91	1391	atzīmēt	atzīmēja jāatzīmē
+92	1392	grāds	grādiem grādu
+93	1393	drēbes	drēbju drēbēm drēbēs
+94	1394	cepure	cepurei cepures cepuri cepuru cepurē cepurēm cepurēs cepurīte cepurītes cepurīti cepurītē cepurīšu
+95	1395	vakcīna	vakcīnai vakcīnas vakcīnu vakcīnā vakcīnām
+96	1396	ilgāk	
+97	1397	grūts	grūta grūtais grūtajam grūtajiem grūtajos grūtajā grūtajām grūtam grūtas grūtie grūtiem grūto grūtos grūtu grūtus grūtā grūtāka grūtākais grūtākajiem grūtākajos grūtākajā grūtākajās grūtākas grūtāki grūtākie grūtākiem grūtāko grūtākos grūtāks grūtāku grūtākus grūtākā grūtām grūtās visgrūtākais
+98	1398	francijs	francija franciju francijā
+99	1399	vētra	vētrai vētram vētras vētru vētrā vētrām vētrās
+100	1400	mēsli	mēsla mēslam mēsliem mēslos mēsls mēslu mēslus mēslā

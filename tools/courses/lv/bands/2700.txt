@@ -1,0 +1,100 @@
+1	2601	rozā	
+2	2602	pulcēties	pulcējās
+3	2603	maisiņš	maisiņa maisiņam maisiņi maisiņiem maisiņos maisiņu maisiņus maisiņā
+4	2604	malt	mal mali maliet malta maltai maltas maltu maltā maltās malu malām maļ maļat maļot
+5	2605	komandieris	
+6	2606	jods	joda jodu
+7	2607	svētīt	svēta svēti svētiet svētu svētām svētī svētīja svētījiet svētījis svētīts svētītu svētīšu
+8	2608	revīzija	revīzijai revīzijas revīziju revīzijā revīzijām revīzijās
+9	2609	augša	augšai augšas augšu augšām
+10	2610	bokss	boks boksa boksam boksi boksiem boksos boksu boksus boksā
+11	2611	tablete	tabletei tabletes tableti tabletē tabletēm tablešu
+12	2612	oficiāls	oficiālajā
+13	2613	apzināties	jāapzinās
+14	2614	ignorēt	ignorē
+15	2615	smiekls	smiekl smiekla smiekli smiekliem smieklos smieklu smieklus
+16	2616	griesti	griestiem griestos griestu griestus
+17	2617	vientuļš	vientuļa
+18	2618	dzēst	dzēs dzēsa dzēsi dzēsiet dzēsis dzēsts dzēstu dzēsīs dzēsīšu dzēš dzēšam dzēšana dzēšot dzēšu jādzēš
+19	2619	nedrīkstam	
+20	2620	ziedēt	jāzied zied ziedi ziedu ziedēja ziedēs ziedēšana
+21	2621	izņēmums	
+22	2622	gailis	gaiam gaiiem gaili gailim gaiu gaiā gaiļa gaiļi gaiļiem gaiļu
+23	2623	zemkopība	zemkopības
+24	2624	redze	redzei redzes redzi redzē
+25	2625	smuks	smuka smukais smukas smukie smuko smuku smukus smukā smukām smukās vissmukākais
+26	2626	kavēt	kavē
+27	2627	tulkot	jātulko netulkojat tulko tulkoja tulkojot tulkoju tulkos tulkosi tulkota tulkotas tulkoti tulkots tulkotā tulkošana tulkošanai tulkošanas tulkošanu
+28	2628	vāks	vāka vākam vāki vākiem vākos vāku vākus
+29	2629	kalējs	kalēj kalēja kalējam kalēji kalējiem kalēju
+30	2630	smaržot	smaržo
+31	2631	tapa	tapas tapu
+32	2632	priecāties	priecājas
+33	2633	sveicināt	sveicina sveicini sveicinu sveicināja sveicinām sveicinās sveicināts
+34	2634	daile	dailei dailes daili dailē
+35	2635	aptvert	aptver
+36	2636	zust	jāzūd zuda zudis zudu zudīs zudīšu zusts zustu zūd zūdam zūdiet
+37	2637	iedarbība	iedarbībai iedarbības iedarbību iedarbībā
+38	2638	devītais	devītajai devītajam devītajā devītie devīto devītā devītās
+39	2639	putināt	putina putinu putināja putinājis putinās putināšana
+40	2640	laipns	laipna laipnai laipnais laipnajam laipnajiem laipnam laipnas laipniem laipno laipnu laipnus laipnā laipnāka laipnākai laipnākais laipnākam laipnāki laipnāku laipnām
+41	2641	plauksta	plaukstai plaukstas plaukstu plaukstā plaukstām plaukstās
+42	2642	talka	talkai talkas talku talkā talkām talkās
+43	2643	nevainojams	nevainojama nevainojamai nevainojamam nevainojamas nevainojami nevainojamiem nevainojamu nevainojamā
+44	2644	paka	pakai pakas paku pakā pakām pakās
+45	2645	celties	ceļas cēlusies
+46	2646	pīle	pīlei pīles pīli pīlēm pīļu
+47	2647	neprāts	neprāt neprāta neprātam neprātu neprātā
+48	2648	tīrīt	jātīra netīra netīru netīrījāt netīrīs netīrīsim netīrīti netīrītiem tīra tīriet tīrot tīru tīrām tīrāmais tīrāmā tīrāmās tīrāt tīrīja tīrīji tīrīju tīrījusi tīrījām tīrījāt tīrīs tīrīsim tīrīti tīrīts
+49	2649	teikums	teikuma teikumam teikumiem teikumos teikumu teikumus teikumā
+50	2650	sīkāk	
+51	2651	mesties	metas metās
+52	2652	rags	raga ragam ragi ragiem ragos ragu ragus ragā
+53	2653	bārda	bārdai bārdas bārdu bārdā bārdām
+54	2654	spilvens	spilvena spilvenam spilveni spilveniem spilvenu spilvenus spilvenā
+55	2655	iecere	ieceres
+56	2656	sociāli	
+57	2657	gubernators	gubernator gubernatora gubernatoram gubernatori gubernatoriem gubernatoru gubernatorus
+58	2658	vakardiena	vakardienai vakardienas vakardienu
+59	2659	gudrība	gudrībai gudrības gudrību gudrībā gudrībām gudrībās
+60	2660	temats	temata tematam temati tematiem tematu tematus tematā
+61	2661	milti	milta miltiem miltos miltu miltus
+62	2662	laima	laimai laimas laimu
+63	2663	brālība	brālībai brālības brālību brālībā brālībās
+64	2664	spilgts	spilgta spilgtai spilgtais spilgtajiem spilgtajām spilgtas spilgtie spilgtiem spilgto spilgtos spilgtu spilgtus spilgtā spilgtāka spilgtākais spilgtākajiem spilgtākajām spilgtākie spilgtāko spilgtākos spilgtāks spilgtām spilgtās
+65	2665	migla	miglai miglas miglu miglā
+66	2666	bagāža	bagāžai bagāžas bagāžu bagāžā bagāžās
+67	2667	malka	malkas malku
+68	2668	krimināllikums	krimināllikuma
+69	2669	atoms	atom atoma atomam atomi atomiem atomos atomu atomus
+70	2670	ziepes	ziepju ziepēm ziepēs
+71	2671	burbulis	burbuli burbulī burbuļa burbuļi burbuļiem burbuļos burbuļu burbuļus
+72	2672	augšup	
+73	2673	valis	vali vaļa vaļas vaļi vaļiem vaļu vaļus
+74	2674	izvietot	izvietoti
+75	2675	noritēt	norit
+76	2676	jaka	jakas jaku jakā
+77	2677	apaļš	apaļa apaļai apaļais apaļajai apaļajā apaļajām apaļam apaļas apaļi apaļie apaļiem apaļo apaļos apaļu apaļus apaļā apaļām apaļās
+78	2678	civilizācija	civilizācijai civilizācijas civilizāciju civilizācijā civilizācijām civilizācijās
+79	2679	mērce	mērcei mērces mērci mērcē mērcēm mērcēs mērču
+80	2680	dzimt	dzima dzimi dzims dzimst dzimstam dzimstošais dzimtai dzimtais dzimtas dzimti dzimtu dzimtā dzimtām dzimtās dzimu dzimušais jādzimst nedzima nedzims nedzimst nedzimsti nedzimtu nedzimušais nedzimušu
+81	2681	derības	derību derībām derībās
+82	2682	tenisists	tenisista tenisistam tenisiste tenisisti tenisistiem tenisistu tenisistus
+83	2683	kaza	kazai kazam kazas kazi kazu kazām
+84	2684	biedēt	biedē biedēja biedējat biedējis biedējot biedējošs biedēju biedējāt biedēs biedētu biedēšana
+85	2685	maģija	maģijas maģiju maģijā
+86	2686	līdzināties	līdzinās
+87	2687	tvaiks	tvaika tvaiki tvaikiem tvaiku tvaikus tvaikā
+88	2688	filozofija	filozofijai filozofijas filozofiju filozofijā
+89	2689	lielgabals	lielgabala lielgabalam lielgabali lielgabaliem lielgabalos lielgabalu lielgabalus
+90	2690	kalt	jākaļ kal kala kali kals kalsim kalts kalu kalšana kalšu kaļ kaļam kaļat kaļu
+91	2691	dubļi	dubļiem dubļos dubļu dubļus
+92	2692	kredītkarte	kredītkartes kredītkarti kredītkartēm kredītkaršu
+93	2693	milzis	mila milam mili milu milzi milzim milzī milža milži milžiem milžu milžus
+94	2694	kronis	kroni kroņa kroņi kroņiem kroņu kroņus
+95	2695	rase	rasei rases rasi rasēm rau rašu
+96	2696	bāka	bākai bākas bāku bākā bākām
+97	2697	apstiprinājums	apstiprinājuma apstiprinājumam apstiprinājumi apstiprinājumiem apstiprinājumu
+98	2698	ģitāra	ģitārai ģitāras ģitāru
+99	2699	cietoksnis	cietoksni cietoksnim cietoksnī cietokšņa cietokšņos cietokšņus
+100	2700	faktisks	faktiska faktiskai faktiskais faktiskajai faktiskajam faktiskajiem faktiskajā faktiskajām faktiskajās faktiskas faktiskie faktisko faktiskos faktisku faktiskus faktiskā faktiskām faktiskās

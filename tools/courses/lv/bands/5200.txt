@@ -1,0 +1,100 @@
+1	5101	svainis	svaine svaini svaiņa
+2	5102	šimpanze	šimpanzei šimpanzes šimpanzi šimpanzēm
+3	5103	oāze	oāzes oāzi oāzē oāzēm oāzēs
+4	5104	paralēls	paralēlo
+5	5105	topogrāfisks	topogrāfisko topogrāfiskā topogrāfiskās
+6	5106	netīrība	netīrības netīrību netīrībā
+7	5107	volframs	volframa
+8	5108	kairinājums	kairinājuma kairinājumiem kairinājumu
+9	5109	žāvētājs	žāvētāja žāvētāju žāvētājā
+10	5110	ornaments	ornamentam ornamentiem ornamentu
+11	5111	kurpnieks	kurpnieka kurpniekam kurpnieku
+12	5112	rūpība	rūpībai rūpību
+13	5113	visērtāk	
+14	5114	paradoksāli	
+15	5115	smilšakmens	
+16	5116	kustīgi	
+17	5117	jēgt	jēdz
+18	5118	noindēt	
+19	5119	ercens	ercena
+20	5120	svastika	svastikas svastiku
+21	5121	dalītājs	dalītāja dalītājam dalītāji
+22	5122	tirāns	tirān tirānam tirāni tirānus
+23	5123	greipfrūts	greipfrūta greipfrūti greipfrūtu greipfrūtus
+24	5124	blāvs	blāva blāvais blāvas blāvu blāvā
+25	5125	strads	strada stradu stradā
+26	5126	naksnīgs	naksnīga naksnīgajām naksnīgas naksnīgā naksnīgām naksnīgās
+27	5127	insekts	insekti insektiem insektu insektus
+28	5128	valodniecība	valodniecības
+29	5129	bole	boli
+30	5130	ceļazīme	
+31	5131	pīlēns	pīlēna pīlēni pīlēnu
+32	5132	visbūtiskāk	
+33	5133	latviskums	latviskuma latviskumam latviskumu
+34	5134	nātre	nātres nātru nātrēm
+35	5135	pļāpa	pļāpai pļāpu pļāpā pļāpām pļāpās
+36	5136	azote	azotei azotē
+37	5137	arfa	arfas arfu
+38	5138	skriemelis	skriemeli skriemeļa skriemeļi skriemeļu skriemeļus
+39	5139	lietusmētelis	lietusmēteli lietusmēteļa lietusmēteļi lietusmēteļos
+40	5140	bērnistaba	bērnistabai bērnistabu bērnistabā bērnistabām
+41	5141	klijāns	klijāni klijānu
+42	5142	delikatese	delikateses delikatesi delikatesēs delikatešu
+43	5143	potīte	
+44	5144	sievišķība	sievišķības sievišķību
+45	5145	cilvēcīgi	
+46	5146	pesimisms	pesimisma pesimismam pesimismu pesimismā
+47	5147	modernizētais	modernizētajam modernizētie modernizēto modernizētā
+48	5148	murrāt	murrā murrāšana
+49	5149	erozija	erozijas eroziju
+50	5150	šizofrēnija	šizofrēniju
+51	5151	popkorns	
+52	5152	pļāpīgs	pļāpīga pļāpīgais pļāpīgas pļāpīgi pļāpīgo
+53	5153	mangāns	mangāna
+54	5154	mīkstāks	mīkstais mīkstāka mīkstāki mīkstāku mīkstākus mīkstākā
+55	5155	reāliste	reālisti
+56	5156	uzdodoties	
+57	5157	rutks	rutka rutkiem rutkus
+58	5158	ražīgs	ražīga ražīgai ražīgajā ražīgi ražīgo ražīgu
+59	5159	pilsoniski	
+60	5160	ražība	ražībai ražības ražību
+61	5161	tīrelis	tīrelī tīreļa tīreļiem tīreļos
+62	5162	izvarošana	
+63	5163	indoeiropiete	indoeiropiešu
+64	5164	sārti	
+65	5165	sinonīms	sinonīmiem
+66	5166	saldāks	saldais saldāka saldākas saldāki saldāku saldākā vissaldākā
+67	5167	acīgs	acīga acīgi acīgie
+68	5168	mēģene	mēģenes mēģenē mēģenēm
+69	5169	kabatlakatiņš	kabatlakatiņa kabatlakatiņi kabatlakatiņu kabatlakatiņus
+70	5170	plikums	plikumi plikumiem plikumu plikumus
+71	5171	miglains	miglaina miglainos miglainā miglaināks miglainās
+72	5172	kustonis	kustoni kustoņa kustoņi kustoņos kustoņus
+73	5173	ēvele	ēveles
+74	5174	visinteresantākais	interesantais interesantāka interesantākais interesantākajai interesantākajiem interesantākajām interesantākas interesantāki interesantākie interesantākiem interesantāko interesantākos interesantāks interesantāku interesantākus interesantākā interesantākās visinteresantāk visinteresantākā visinteresantākās
+75	5175	zviedriski	
+76	5176	nepelnīts	nepelnītas nepelnīti nepelnītu
+77	5177	aizpērn	
+78	5178	reizināt	jāreizina reizinot reizināts reizināšanu
+79	5179	progresija	progresijai progresijas progresijā
+80	5180	mikrobioloģija	mikrobioloģijas
+81	5181	astronomisks	astronomiskais astronomiskajam astronomiskajās astronomiskas astronomisko astronomiskā astronomiskās
+82	5182	dezertieris	
+83	5183	dievinām	
+84	5184	kustam	
+85	5185	pāksts	pāksti pākstis pākstī
+86	5186	ventilis	ventili ventiļi ventiļus
+87	5187	anagramma	anagrammas anagrammā
+88	5188	žagas	žaga
+89	5189	kuilis	kuili kuilim kuiļa
+90	5190	grebt	greba grebjam grebsi grebtu
+91	5191	pirdiens	pirdiena pirdienam pirdieni pirdienu
+92	5192	ķemme	ķemmes ķemmi ķemmē
+93	5193	etniski	
+94	5194	nosvērt	nosver nosvēra nosvērts nosvērtu
+95	5195	cītīgāk	
+96	5196	malārija	malārijai malārijas malāriju
+97	5197	lapsēns	lapsēni lapsēniem lapsēnu
+98	5198	ubagot	ubagojām ubagošana ubagošanai ubagošanu
+99	5199	baltums	baltuma baltumiem baltumu baltumus baltumā
+100	5200	ciedrs	ciedra ciedru

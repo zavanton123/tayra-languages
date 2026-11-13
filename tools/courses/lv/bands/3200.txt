@@ -1,0 +1,100 @@
+1	3101	iebilst	iebilda
+2	3102	žagars	žagar žagara žagaram žagari žagaru
+3	3103	zīmulis	zīmuli zīmulim zīmulī zīmuļa zīmuļi zīmuļiem zīmuļu zīmuļus
+4	3104	vasks	vaska vaskiem vaskos vasku vaskā
+5	3105	kuņģis	kuņģa kuņģi kuņģim kuņģus kuņģī
+6	3106	āboliņš	āboliņa āboliņam āboliņu
+7	3107	kurināt	kurina kurini kurinot kurinoša kurinošos kurināja kurinājis kurinājusi kurinājām kurinām kurināma kurināmais kurināmi kurināmiem kurināmā kurināmās kurinās kurināta kurināts kurinātu kurināšana kurināšanu kurināšanā nekurina nekurini nekurināt
+8	3108	sastapt	sastopamas
+9	3109	kontinents	kontinenta kontinentam kontinentiem kontinentos kontinentu kontinentus kontinentā
+10	3110	ķerties	
+11	3111	mērķtiecīgi	
+12	3112	miljonārs	miljonāra miljonāram miljonāri miljonāriem miljonāru miljonārus
+13	3113	vampīrs	vampīr vampīra vampīram vampīri vampīriem vampīru vampīrus
+14	3114	seksīgi	
+15	3115	tirdziņš	tirdziņa tirdziņi tirdziņiem tirdziņos tirdziņu tirdziņus tirdziņā
+16	3116	dažādība	dažādībai dažādības dažādību dažādībā
+17	3117	žogs	žoga žogam žogi žogiem žogu žogus žogā
+18	3118	skūpstīt	jāskūpsta neskūpsti neskūpstīja neskūpstīsi neskūpstīt neskūpstītu neskūpstīšana neskūpstīšu skūpsta skūpsti skūpstot skūpstu skūpstīja skūpstīji skūpstījis skūpstīju skūpstījusi skūpstījuši skūpstīs skūpstītu skūpstīšanos skūpstīšu
+19	3119	holandietis	holandiete holandieti holandietim holandieša holandieši holandiešiem holandiešu
+20	3120	vismazāk	
+21	3121	vienpadsmit	vienpadsmitiem vienpadsmitos
+22	3122	pierobeža	pierobežai pierobežas pierobežu pierobežā
+23	3123	uzsvars	uzsvari uzsvaru uzsvarus
+24	3124	bēdīgs	bēdīga bēdīgais bēdīgajiem bēdīgas bēdīgo bēdīgos bēdīgu bēdīgā bēdīgām
+25	3125	sadale	sadales
+26	3126	mākslīgi	
+27	3127	indīgs	indīga indīgais indīgas indīgi indīgiem indīgo indīgu indīgus indīgā indīgāks indīgās
+28	3128	indiānis	indiāni indiānietes indiānieti indiānim indiāņa indiāņi indiāņiem indiāņos indiāņu indiāņus
+29	3129	bargs	barga bargais bargajai bargajam bargajiem bargam bargi bargiem bargo bargos bargu bargus bargā bargāks bargām bargās visbargākais
+30	3130	būda	būdai būdas būdiņa būdu būdā būdās
+31	3131	fans	fani
+32	3132	liepa	liepas liepu liepā liepām
+33	3133	bārenis	bārene bāreni bārenim bāreņi bāreņiem bāreņu bāreņus
+34	3134	vēstnesis	vēstnesī
+35	3135	ģeogrāfija	ģeogrāfijas ģeogrāfiju ģeogrāfijā
+36	3136	ķirurgs	ķirurga ķirurgam ķirurgi ķirurgiem ķirurgu ķirurģe
+37	3137	ģeoloģija	ģeoloģijas ģeoloģiju ģeoloģijā
+38	3138	dizainere	dizainera dizaineram dizaineres dizaineri dizaineriem dizainers dizaineru dizainerus
+39	3139	konstrukcija	konstrukciju
+40	3140	hormons	hormona hormoni hormoniem hormonu hormonus
+41	3141	piecpadsmit	
+42	3142	dzejolis	dzejoli dzejolī
+43	3143	nāvējošs	nāvējoša nāvējošai nāvējošas nāvējoši nāvējošiem nāvējošu nāvējošus nāvējošā nāvējošās
+44	3144	skate	skatei skates skati skatē skatēs
+45	3145	kontrabanda	kontrabandai kontrabandas kontrabandu kontrabandā
+46	3146	klusāk	
+47	3147	cūkas	
+48	3148	likumīgi	
+49	3149	filmēt	filmē
+50	3150	aukstums	aukstuma aukstumam aukstumu aukstumā
+51	3151	morāls	morāla morālai morālais morālajam morālajiem morālajā morālajām morālas morālie morālo morālos morālu morālā morālās
+52	3152	varot	
+53	3153	grāmatvedis	grāmatvede grāmatvedi grāmatvedim grāmatvedī grāmatveža grāmatveži grāmatvežiem grāmatvežu grāmatvežus
+54	3154	bungas	bungu bungām
+55	3155	betons	betona betonam betoniem betonu betonā
+56	3156	muca	mucas mucu mucā mucām mucās
+57	3157	ievēlēt	ievēlēts
+58	3158	īstenība	īstenībai īstenības īstenību
+59	3159	bīskaps	bīskapa bīskapam bīskapi bīskapiem bīskapu
+60	3160	klausule	klausules klausuli klausulēm
+61	3161	vokāls	vokāla vokālais vokālajam vokālajā vokāli vokālie vokālo vokālu vokālā vokālās
+62	3162	slepus	
+63	3163	mirstīgs	mirstīga mirstīgais mirstīgajam mirstīgajiem mirstīgajā mirstīgajām mirstīgam mirstīgas mirstīgi mirstīgie mirstīgiem mirstīgo mirstīgos mirstīgu mirstīgā mirstīgās
+64	3164	paciest	jāpacieš paciestu paciet pacietiet pacietu pacietām pacietāt pacietīsi pacietīšu pacieš paciešana paciešot paciešu
+65	3165	apsēsties	apsēdās apsēžas
+66	3166	evolūcija	evolūcijai evolūcijas evolūciju evolūcijā
+67	3167	dinamika	dinamikai dinamikas dinamiku dinamikā
+68	3168	spars	spar spara sparu sparā
+69	3169	rokraksts	rokraksta rokraksti rokrakstu rokrakstus rokrakstā
+70	3170	melodija	melodijas melodiju melodijām melodijās
+71	3171	straujāk	
+72	3172	mazbērns	mazbērnam mazbērni mazbērniem mazbērnu mazbērnus
+73	3173	zods	zod zoda zodam zodu zodā
+74	3174	aprakt	apracis apraka apraki apraks apraksi apraksim aprakts apraktu apraku aprakāt aprakšana aprakšu aproc aprociet aprok aprokam aprokot jāaprok
+75	3175	četrdesmit	
+76	3176	kompass	kompasa kompasam kompasu
+77	3177	islāms	islams islāma islāmam islāmu islāmā
+78	3178	iedarboties	iedarbojas
+79	3179	teicami	
+80	3180	kukurūza	kukurūzai kukurūzas kukurūzu
+81	3181	ķivere	ķiveres ķiveri ķiveru ķiverē ķiverēm ķiverēs
+82	3182	zinātniski	
+83	3183	intuīcija	intuīcijai intuīcijas intuīciju
+84	3184	virsnieks	
+85	3185	apsūdzēt	apsūdzētais
+86	3186	tagadējs	tagadējai tagadējais tagadējam tagadējie tagadējiem tagadējo tagadējā tagadējās
+87	3187	dārgakmens	dārgakmeni dārgakmenim dārgakmeņi dārgakmeņiem dārgakmeņos dārgakmeņu dārgakmeņus
+88	3188	nerunāju	
+89	3189	solo	
+90	3190	meteoroloģija	meteoroloģijas meteoroloģiju
+91	3191	delfīns	delfīna delfīnam delfīni delfīniem delfīnu delfīnus
+92	3192	nostāties	nostājās
+93	3193	aši	
+94	3194	todien	
+95	3195	mazdēls	mazdēla mazdēlam mazdēli mazdēlu mazdēlā
+96	3196	kaklasaite	kaklasaitei kaklasaites kaklasaiti kaklasaitē kaklasaitēm kaklasaitēs kaklasaišu
+97	3197	noskaņa	noskaņu
+98	3198	sakāve	sakāvei sakāves sakāvi sakāvēm
+99	3199	nāvessods	nāvessoda nāvessodi nāvessodiem nāvessodu nāvessodus
+100	3200	bērniņš	

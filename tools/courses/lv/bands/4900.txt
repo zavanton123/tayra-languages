@@ -1,0 +1,100 @@
+1	4801	niķelis	niķelī niķeļa
+2	4802	forele	foreles foreli forelēm foreļu
+3	4803	kurds	kurdi kurdu kurdus
+4	4804	lasītava	lasītavas lasītavu lasītavā
+5	4805	ornitoloģija	ornitoloģijas
+6	4806	az	
+7	4807	vokālists	vokāliste vokālisti vokālistu
+8	4808	meteorīts	
+9	4809	sniegputenis	sniegputeņi
+10	4810	debils	debila debilais debilajai debili
+11	4811	ananass	ananasa ananasam ananasi ananasu
+12	4812	budisms	budisma
+13	4813	zīdīt	zīda zīdu zīdījuši zīdītu zīdīšana zīdīšanas
+14	4814	stieple	stieples stiepli stiepļu
+15	4815	sarunvaloda	sarunvalodas sarunvalodā
+16	4816	batons	batoniņi batoniņiem batoniņu batoniņš
+17	4817	tīklene	tīklenes
+18	4818	darva	darvas darvu
+19	4819	vējdzirnavas	vējdzirnavām
+20	4820	zilbe	zilbes zilbi
+21	4821	aizsaule	aizsaules aizsaulē
+22	4822	bezatbildība	bezatbildībai bezatbildības bezatbildību bezatbildībā
+23	4823	erotisks	erotiska erotiskajai erotiskas erotisko erotiskos erotisku erotiskā erotiskākais erotiskākajā erotiskākā erotiskās
+24	4824	taktisks	ais
+25	4825	asināt	asina asini asinu asinās asināšana
+26	4826	filozofisks	filozofiska filozofiskai filozofiskajai filozofiskajiem filozofiskajās filozofiskas filozofisko filozofisku filozofiskā filozofiskām
+27	4827	nepaklausīgs	nepaklausīga nepaklausīgais nepaklausīgajiem nepaklausīgi nepaklausīgie nepaklausīgos nepaklausīgu nepaklausīgus
+28	4828	nedzīvojam	
+29	4829	trompete	trompetes trompeti trompešu
+30	4830	mītisks	mītiska mītiskajā mītiski mītisko mītisku mītiskā mītiskās
+31	4831	stāstnieks	stāstniece stāstnieka stāstnieki
+32	4832	nozāģēt	jānozāģē nenozāģēt nozāģē nozāģēja nozāģējot nozāģēju nozāģēs nozāģēts nozāģēšana
+33	4833	dzimumorgāns	dzimumorgāni dzimumorgāniem dzimumorgānu dzimumorgānus
+34	4834	znots	znota znotu
+35	4835	rūķītis	rūķīti rūķītim rūķītī
+36	4836	uguņošana	
+37	4837	pilēt	pil pili pilot pilēja
+38	4838	nočiept	nočiepj nočieptu nočiepu
+39	4839	vētrasputns	vētrasputn
+40	4840	kapitālists	kapitālista kapitāliste kapitālisti kapitālistu
+41	4841	veiklība	veiklības veiklību
+42	4842	laukakmens	laukakmeņi laukakmeņiem laukakmeņu
+43	4843	kivi	
+44	4844	medūza	medūzas medūzu
+45	4845	kājnieki	
+46	4846	spīdīgi	
+47	4847	ticamāk	
+48	4848	grābstīties	grābstās grābstāties grābstījies grābstījās grābstīšanās
+49	4849	apvaldīt	apvalda apvaldi apvaldīju apvaldītu jāapvalda
+50	4850	svarīgums	svarīgumu
+51	4851	cauna	caunas caune caunu
+52	4852	bumbieris	bumbieri bumbieriem bumbieru bumbierus
+53	4853	iespēt	iespēj iespējam iespējis iespējošs iespēju iespējām iespēsi iespēsim iespēts jāiespēj neiespēt
+54	4854	pantera	panteras panteru panterām
+55	4855	sīknauda	sīknaudai sīknaudas sīknaudu
+56	4856	vāverēns	vāverēn vāverēni vāverēnu
+57	4857	spora	sporas sporu sporām
+58	4858	blaka	blakām
+59	4859	paparde	papardes papardēm papardēs paparžu
+60	4860	pavasarīgs	pavasarīgais pavasarīgajai pavasarīgajiem pavasarīgajā pavasarīgam pavasarīgas pavasarīgiem pavasarīgo pavasarīgos pavasarīgu pavasarīgā pavasarīgām
+61	4861	dobs	dobi dobu dobās
+62	4862	čūla	čūlas
+63	4863	antropoloģija	antropoloģijas antropoloģiju antropoloģijā
+64	4864	islandiete	islandieši islandiešiem islandiešu islandiešus
+65	4865	baltvīns	baltvīna baltvīni baltvīnu baltvīnā
+66	4866	kotlete	kotletes kotleti kotletēs kotlešu
+67	4867	rokmūzika	rokmūzikas rokmūziku
+68	4868	karuselis	karuseli karuseļa karuseļi karuseļiem karuseļos karuseļu
+69	4869	klēts	klētij klētī
+70	4870	rindkopa	rindkopai rindkopas rindkopu rindkopā rindkopām
+71	4871	slīdēt	slīdēja
+72	4872	okupācija	
+73	4873	bešā	
+74	4874	pārnēsāt	pārnēsā pārnēsāja pārnēsājams pārnēsāts
+75	4875	brūklene	brūklenes brūkleņu
+76	4876	rūgti	
+77	4877	liga	ligas ligu
+78	4878	akmeņogle	akmeņogles akmeņoglēm akmeņoglēs akmeņogļu
+79	4879	nedzirdīgs	nedzirdīgajiem nedzirdīgi nedzirdīgie nedzirdīgiem nedzirdīgo
+80	4880	kalve	
+81	4881	zeltains	zeltainais zeltainajām zeltainas zeltainie zeltainiem zeltainos zeltainus
+82	4882	matemātiķis	matemātiķa matemātiķe matemātiķi matemātiķu matemātiķus
+83	4883	optimists	optimist optimiste optimisti
+84	4884	vistālāk	
+85	4885	podnieks	podnieka podnieki podnieku
+86	4886	vairogdziedzeris	vairogdziedzera
+87	4887	violeti	
+88	4888	aorta	aortas aortu aortā
+89	4889	er	
+90	4890	daiļslidošana	daiļslidošanas daiļslidošanā
+91	4891	mundrs	mundra mundrā mundrāks
+92	4892	mājlops	mājlopi mājlopiem mājlopu mājlopus
+93	4893	krustdēls	krustdēla krustdēlam krustdēlu
+94	4894	kodolkarš	kodolkara kodolkaram kodolkaru kodolkarā
+95	4895	kapakmens	kapakmeni kapakmenim kapakmeņiem kapakmeņu kapakmeņus
+96	4896	nacionāli	
+97	4897	miegains	miegainais miegainam miegainas miegaini miegainiem miegainu miegaināki miegaināks
+98	4898	blūze	blūzes blūzi blūzē blūzēm
+99	4899	leģions	
+100	4900	mist	mita mitis mītam mītot mītu

@@ -1,0 +1,100 @@
+1	4901	ugunsmūris	ugunsmūra ugunsmūrim
+2	4902	ķeizargrieziens	ķeizargrieziena ķeizargriezienu
+3	4903	krokodils	
+4	4904	auklēt	auklē auklējis auklējot auklēju auklēsiet auklētu auklēšana auklēšu
+5	4905	pali	palu
+6	4906	žults	žulti
+7	4907	kentaurs	kentaur kentauri kentauru kentaurus
+8	4908	pārtulkot	pārtulko pārtulkoja pārtulkota pārtulkotu pārtulkošu
+9	4909	ziemeļbriedis	ziemeļbriedi ziemeļbrieži ziemeļbriežiem ziemeļbriežu ziemeļbriežus
+10	4910	jēdzīgi	
+11	4911	bieds	biedi biediem biedu
+12	4912	cirksnis	cirksni cirksnī cirkus cirkšņa cirkšņi cirkšņus
+13	4913	desmitdaļa	desmitdaļas desmitdaļu desmitdaļā desmitdaļām
+14	4914	vīrišķība	vīrišķības vīrišķību
+15	4915	kandža	kandžas kandžu
+16	4916	radzene	radzenei radzenes
+17	4917	dūmaka	
+18	4918	sinonīmi	
+19	4919	rasma	rasmai
+20	4920	centralizācija	centralizācijai centralizācijas centralizāciju
+21	4921	filoloģija	filoloģijas filoloģiju
+22	4922	vīksna	vīksnas
+23	4923	taurs	tauri tauru taurus
+24	4924	jūgs	jūga jūgā
+25	4925	arlabvakar	
+26	4926	velnišķīgi	
+27	4927	mjau	
+28	4928	biedēklis	biedēkli
+29	4929	žargons	žargona žargonu žargonus
+30	4930	ananāss	ananāsa ananāsu ananāsus
+31	4931	nīkt	jānīkst nīcis nīkstam nīksti nīktu
+32	4932	velnišķīgs	velnišķīgas velnišķīgos velnišķīgu velnišķīgā velnišķīgāks velnišķīgās
+33	4933	zemisks	zemiskais zemiskajā zemiskas zemisko zemiskā zemiskāks
+34	4934	kārdināt	kārdina kārdinošs kārdināts kārdinātu
+35	4935	sūrs	sūra sūri sūrie sūriem
+36	4936	horvātiete	horvāti horvātiem horvātietes horvātieti horvātietēm horvāts horvātu
+37	4937	genocīds	
+38	4938	reālisms	reālisma reālismu
+39	4939	klaviatūra	klaviatūrai klaviatūras klaviatūru klaviatūrām
+40	4940	tīrītājs	tīrītāja tīrītājam tīrītāji tīrītāju tīrītājus
+41	4941	vaininieks	vaininiece vaininieki vaininiekiem vaininieku vaininiekus
+42	4942	stāds	stāda stādi stādiem stādu stādus stādā
+43	4943	ķauķis	ķauķi
+44	4944	monitors	
+45	4945	biškopība	biškopībai biškopības biškopībā
+46	4946	guns	gunis gunīm
+47	4947	trūkstot	
+48	4948	izcepties	izcepamies izcepi izcepoties izcepsies izcepusies izcepās
+49	4949	lepnība	lepnību lepnībā
+50	4950	mantība	mantību
+51	4951	idiotisks	idiotiska idiotiskais idiotiski idiotiskiem idiotisku idiotiskus
+52	4952	etiķis	etiķa etiķi etiķī
+53	4953	fizkultūra	fizkultūras
+54	4954	kadastrs	kadastra
+55	4955	nūjošana	nūjošanas nūjošanu
+56	4956	daugavpiliete	daugavpilietis daugavpilieši daugavpiliešiem daugavpiliešus
+57	4957	daiļliteratūra	daiļliteratūrai daiļliteratūras daiļliteratūru daiļliteratūrā
+58	4958	salna	salnas salnu
+59	4959	finieris	finiera finierī
+60	4960	paeglis	paegle paegli
+61	4961	abatija	abatiju abatijā
+62	4962	starppilsētu	
+63	4963	vats	vati vatiem vatu vatus
+64	4964	sētnieks	sētnieki
+65	4965	tēvija	tēvijas tēvijā
+66	4966	zosāda	zosādu
+67	4967	smaidīgs	smaidīga smaidīgo smaidīgu smaidīgā smaidīgās
+68	4968	sāļš	sāļa sāļajam sāļie sāļo sāļu sāļus sāļā sāļām sāļās
+69	4969	cietviela	cietvielu
+70	4970	intonācija	intonācijas intonāciju
+71	4971	gaismeklis	gaismeklim gaismeklī gaismekļa gaismekļi gaismekļiem gaismekļu gaismekļus
+72	4972	tirgotava	tirgotavas tirgotavu tirgotavā tirgotavām
+73	4973	homoseksuāls	homoseksuāla homoseksuālais homoseksuālam homoseksuālas homoseksuāli homoseksuālie homoseksuāliem homoseksuālu homoseksuālām
+74	4974	strūklaka	
+75	4975	kaķene	kaķenes kaķeni kaķeņu
+76	4976	laims	laim laimi laimu laimus
+77	4977	bise	
+78	4978	sedli	sedliem sedlos sedlu sedlus
+79	4979	papaija	papaijas papaijā papaijām papaijās
+80	4980	lokans	lokana lokanas lokano lokanu lokanāka
+81	4981	jena	jenu
+82	4982	sinagoga	sinagogas sinagogu sinagogā sinagogās
+83	4983	apbruņot	apbruņo apbruņojis apbruņosim apbruņots
+84	4984	āpsis	āpsi āpša āpši
+85	4985	spļāviens	spļāviena spļāvieni spļāvienu
+86	4986	pareizrakstība	pareizrakstības pareizrakstību pareizrakstībā
+87	4987	pusdiena	pusdienam pusdienu pusdienā pusdienām pusdienās
+88	4988	izcilnieks	izcilniece izcilnieka izcilnieki izcilniekiem izcilnieku izcilniekus
+89	4989	dūkt	dūc dūcis dūkšana jādūc
+90	4990	zutis	zuti zuša zuši
+91	4991	brīvāk	
+92	4992	olnīca	olnīcas olnīcu olnīcās
+93	4993	neba	
+94	4994	rudi	
+95	4995	keda	kedas kedās
+96	4996	paukot	paukošanas paukošanu paukošanā paukošu
+97	4997	cēzijs	cēzija cēziju
+98	4998	vīle	vīles vīli vīlēm
+99	4999	mazgātājs	mazgātājam mazgātājas mazgātāju mazgātājus
+100	5000	laimēties	laimējas laimējās laimēsies

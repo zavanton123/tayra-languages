@@ -1,0 +1,100 @@
+1	501	mīlestība	mīlestībai mīlestības mīlestību mīlestībā
+2	502	notikums	notikuma notikumam notikumi notikumiem notikumos notikumu notikumus notikumā
+3	503	kopējs	kopēja kopējai kopējais kopējam kopējas kopēji kopējie kopējiem kopējo kopējos kopēju kopējus kopējā kopējām kopējās
+4	504	augusts	august augusta augustam augustu augustā
+5	505	vēsture	vēsturei vēstures vēsturi vēsturē
+6	506	auto	
+7	507	turklāt	
+8	508	garš	gara garai garais garajai garajam garajiem garajos garajā garajām garajās garam garas gari garie gariem garo garos garu garus garā garāk garāka garākais garākajiem garākajā garākajām garākam garākas garāki garākiem garāko garākos garāks garāku garākus garākā garākām garākās garās
+9	509	deputāts	deputāt deputāta deputātam deputāti deputātiem deputātu deputātus
+10	510	finanses	finanšu
+11	511	rīt	rij rija rijiet rijis rijot riju rijā rijāt rīs rīsi rīšana
+12	512	piedāvāt	piedāvā piedāvāja piedāvās piedāvāta piedāvāto piedāvātā
+13	513	ierocis	ieroci ierocim ierocī ieroča ieroči ieročiem ieroču ieročus
+14	514	trešais	trešajai trešajam trešajiem trešajā trešajām trešajās trešie trešo trešos trešās
+15	515	čempionāts	čempionāta čempionātā
+16	516	drīz	
+17	517	mazliet	
+18	518	esošais	esošajai esošajam esošajiem esošajos esošajā esošajām esošajās esošie esošo esošos esošā esošās
+19	519	robeža	robežai robežas robežu robežā robežām robežās
+20	520	rīts	rīta rītam rīti rītiem rītos rītu rītus
+21	521	ziņa	ziņai ziņu ziņā ziņām ziņās
+22	522	produkts	produkta produktam produkti produktiem produktos produktu produktus produktā
+23	523	sers	ser sera seram seri seru
+24	524	stāvoklis	stāvokli stāvoklim stāvoklī stāvokļa stāvokļi stāvokļiem stāvokļos stāvokļu stāvokļus
+25	525	tīkls	tīkla tīklam tīkli tīkliem tīklos tīklu tīklus tīklā
+26	526	beigties	beidzas beidzies beidzās beigsies
+27	527	vēlēšanas	vēlēšanu vēlēšanām
+28	528	likties	jāliekas licies liecies liecieties liekas liekaties liekos liekoties likies likos liksies liksieties liksimies liksities liktos likāmies likās likāties likšanās likšos nelikties
+29	529	jūra	jūrai jūras jūri jūru jūrā jūrām jūrās
+30	530	lūgt	jālūdz lūdz lūdza lūdzam lūdzams lūdzat lūdzi lūdziet lūdzis lūdzot lūdzām lūdzāt lūgdams lūgs lūgsi lūgsiet lūgsim lūgts lūgtu lūgšana lūgšu nelūgt
+31	531	savienība	savienībai savienības savienību savienībā savienībām savienībās
+32	532	vietējs	vietēja vietējai vietējais vietējam vietējas vietēji vietējie vietējiem vietējo vietējos vietēju vietējā vietējām vietējās
+33	533	seši	sešas sešiem sešos sešu sešus sešām sešās
+34	534	lasīt	jālasa lasa lasi lasiet lasot lasu lasām lasāma lasāmi lasāms lasāmās lasāt lasīja lasīji lasījis lasīju lasījusi lasījuši lasījām lasījāt lasīs lasīsi lasīsiet lasīta lasīti lasītos lasīts lasītu lasītā lasīšana lasīšanai lasīšanas lasīšanu lasīšu nelasa nelasi nelasu nelasīsim nelasīšu
+35	535	atbilde	atbildei atbildes atbildi atbildē atbildēm atbildēs atbilžu
+36	536	iepriekšējs	iepriekšēja iepriekšējai iepriekšējais iepriekšējajā iepriekšējam iepriekšējas iepriekšējie iepriekšējiem iepriekšējo iepriekšējos iepriekšēju iepriekšējus iepriekšējā iepriekšējām iepriekšējās
+37	537	vadīt	jāvada nevadīt vada vadi vadiet vadot vadošs vadu vadām vadāms vadāt vadīja vadīji vadījis vadīju vadījām vadījāt vadīs vadīsi vadīsiet vadīsim vadīts vadītu vadīšana vadīšu
+38	538	drošs	droša drošai drošais drošajā drošajām drošajās drošam drošas drošie drošiem drošo drošos drošu drošus drošā drošāka drošākai drošākais drošākajiem drošākajā drošākajām drošākam drošākas drošāki drošākie drošākiem drošāko drošākos drošāks drošāku drošākus drošākā drošākām drošākās drošām drošās visdrošākais
+39	539	brīvība	brīvībai brīvības brīvību brīvībā brīvībām
+40	540	cīnīties	cīnies cīnieties cīnos cīnoties cīnāmies cīnās cīnāties cīnījies cīnījos cīnījāmies cīnījās cīnījāties cīnīsies cīnīsieties cīnīsimies cīnīsities cīnītos cīnīšanās cīnīšos cīnīšoties jācīnās necīnīties
+41	541	stāvēt	jāstāv nestāv nestāvi nestāviet nestāvēja nestāvēju nestāvēt nestāvētu nestāvēšu stāv stāvam stāvat stāvi stāviet stāvot stāvoša stāvošais stāvoši stāvošiem stāvošs stāvošu stāvošā stāvu stāvēja stāvēji stāvējis stāvēju stāvējusi stāvējušas stāvējuši stāvējām stāvēs stāvēsi stāvēsim stāvētu stāvēšana stāvēšanai stāvēšanas stāvēšu
+42	542	kādēļ	
+43	543	izveidot	izveido izveidoja izveidojam izveidojat izveidoji izveidojiet izveidojis izveidojot izveidoju izveidojām izveidojāt izveidos izveidosi izveidosiet izveidosim izveidots izveidotu izveidošana izveidošu jāizveido
+44	544	pieredze	pieredzei pieredzes pieredzi pieredzē pieredzēm pieredzēs pieredžu
+45	545	vispār	
+46	546	uzdevums	uzdevuma uzdevumam uzdevumi uzdevumiem uzdevumos uzdevumu uzdevumus uzdevumā
+47	547	krievs	kriev krieva krievam krievi krieviem krieviete krievietei krievietes krievieti krievos krievu krievus
+48	548	pavisam	
+49	549	lūk	
+50	550	balts	balt balta baltai baltais baltajai baltajam baltajiem baltajos baltajā baltajām baltajās baltam baltas balti baltie baltiem balto baltos baltu baltus baltā baltāka baltāko baltāks baltākā baltām baltās visbaltāko
+51	551	gaisma	gaismai gaismas gaismos gaismu gaismā gaismām gaismās
+52	552	sekot	jāseko seko sekoja
+53	553	piederēt	jāpieder nepieder nepiederošais nepiederu nepiederēja nepiederēs nepiederētu pieder piederam piederat piederi piederiet piederot piederoša piederošais piederošas piederoši piederošiem piederošos piederošs piederošu piederošus piederošā piederošām piederošās piederu piederēja piederēji piederējis piederēju piederējusi piederējušas piederējuši piederēs piederēsi piederētos piederētu piederēšana piederēšu
+54	554	dokuments	dokumenta dokumentam dokumenti dokumentiem dokumentos dokumentu dokumentus dokumentā
+55	555	apstāklis	apstākli apstāklim apstāklī apstākļa apstākļiem apstākļos apstākļu apstākļus
+56	556	tuvs	tuva tuvais tuvajiem tuvajos tuvajā tuvam tuvas tuvi tuvie tuviem tuvo tuvos tuvā tuvāka tuvākais tuvākajai tuvākajam tuvākajiem tuvākajos tuvākajā tuvākajām tuvākajās tuvākas tuvāki tuvākie tuvākiem tuvāko tuvākos tuvāks tuvāku tuvākā tuvākām tuvākās tuvām tuvās vistuvākajiem vistuvākajā vistuvāko vistuvākā
+57	557	pazīt	jāpazīst nepazīt pazina pazini pazinis pazinu pazinām pazināt pazīs pazīsi pazīsiet pazīsim pazīsit pazīst pazīstam pazīstams pazīstat pazīsti pazīstot pazīstu pazītu pazīšana pazīšu
+58	558	pamats	pamat pamata pamatam pamati pamatiem pamatos pamatu pamatus pamatā
+59	559	valde	vala valam valdei valdes valdi valdē valdēm valdēs valā valžu
+60	560	nodot	jānodod nenodot nodeva nodevi nodevis nodevu nodevām nodevāt nodod nododam nododams nododat nododiet nododot nododu nodos nodosi nodosiet nodosim nodosit nodots nodotu nodošana nodošot nodošu
+61	561	kontrole	kontrolei kontroles kontroli kontrolē kontrolēm kontrolēs kontroļu
+62	562	laimīgs	laimīga laimīgai laimīgais laimīgajam laimīgajiem laimīgajos laimīgajā laimīgajām laimīgajās laimīgam laimīgas laimīgi laimīgie laimīgiem laimīgo laimīgu laimīgus laimīgā laimīgāks laimīgām laimīgās vislaimīgākais vislaimīgākā
+63	563	numurs	numur numura numuram numuri numuriem numuros numuru numurus numurā
+64	564	risks	risk riska riskam riski riskiem riskos risku riskus
+65	565	tūlīt	
+66	566	zem	
+67	567	ikviens	ikvienam ikvienu
+68	568	melns	melna melnai melnais melnajai melnajam melnajiem melnajos melnajā melnajām melnajās melnam melnas melni melnie melniem melno melnos melnu melnus melnā melnām melnās
+69	569	desmit	desmitiem desmitos
+70	570	vīruss	vīrus vīrusa vīrusam vīrusi vīrusiem vīrusu vīrusus vīrusā
+71	571	skolotāja	skolotāj skolotājai skolotājam skolotājas skolotāji skolotājiem skolotājos skolotājs skolotāju skolotājus skolotājā skolotājām
+72	572	plānots	plānota plānotas plānoti plānotiem plānotos plānotu plānotus plānotā plānotām plānotās
+73	573	sajūta	sajūtai sajūtam sajūtas sajūti sajūtos sajūtu sajūtā sajūtām sajūtās
+74	574	dzīvība	dzīvībai dzīvības dzīvību dzīvībā dzīvībām
+75	575	pieaugt	pieaudzis pieaug pieauga pieaugot pieaugs
+76	576	ei	
+77	577	jauki	
+78	578	izvēle	izvēlei izvēles izvēli izvēlē izvēlēm izvēlēs
+79	579	istaba	istabai istabas istabu istabā istabām istabās
+80	580	plašs	plaša plašai plašais plašajai plašajam plašajiem plašajos plašajā plašajām plašajās plašam plašas plašiem plašo plašos plašu plašus plašā plašāka plašākai plašākais plašākam plašākas plašāki plašākiem plašāko plašākos plašāks plašāku plašākus plašākā plašākām plašākās plašām plašās visplašākajā visplašāko visplašākā visplašākās
+81	581	sakars	sakar sakara sakari sakariem sakaros sakaru sakarus sakarā
+82	582	loceklis	locekli loceklim locekļa locekļi locekļiem locekļu locekļus
+83	583	dolārs	dolāra dolāram dolāri dolāriem dolāros dolāru dolārus dolārā
+84	584	reģistrēts	reģistrēta reģistrētai reģistrētam reģistrētas reģistrēti reģistrētiem reģistrētos reģistrētu reģistrētus reģistrētā reģistrētām reģistrētās
+85	585	mācīties	jāmācās mācies mācieties mācos mācoties mācāmies mācās mācāties mācīdamies mācījies mācījos mācījāmies mācījās mācījāties mācīsies mācīsimies mācītos mācīšanās mācīšos nemācīties
+86	586	prece	prea precei preces preci precē precēm precēs preču
+87	587	stiprs	stipra stiprai stiprais stiprajam stiprajiem stiprajā stiprajām stipram stipras stipri stiprie stipriem stipro stipros stipru stiprus stiprā stiprāk stiprāka stiprākai stiprākais stiprākajiem stiprākajām stiprākam stiprākas stiprāki stiprākie stiprākiem stiprāko stiprākos stiprāks stiprāku stiprākus stiprākā stiprākās stiprām stiprās visstiprākais visstiprākās
+88	588	satiksme	satiksmes
+89	589	viegli	
+90	590	pārējais	pārējie pārējiem pārējos
+91	591	meita	meit meitai meitas meitu meitā meitām
+92	592	minēt	jāmin min minam minams minat mini miniet minot minu minēdams minēja minēji minējis minēju minējām minējāt minēs minētajiem minētajā minēto minēts minētu minētā minēšana minēšu neminēt
+93	593	ikdiena	ikdienai ikdienas ikdienu ikdienā
+94	594	saistība	saistībai saistības saistību saistībā saistībām saistībās
+95	595	balva	balvai balvas balvu balvā balvām balvās
+96	596	runa	runai runas runu runām runās
+97	597	gaida	gaidam gaidas gaidu gaidā gaidām gaidās
+98	598	lapa	lapai lapas lapi lapu lapā lapām lapās
+99	599	patiesībā	
+100	600	nākties	nācies nācās nākas nāksies

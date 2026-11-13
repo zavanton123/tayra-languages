@@ -1,0 +1,100 @@
+1	5901	kipriete	kiprieši kipriešiem
+2	5902	brasls	brasla braslu braslā
+3	5903	taiga	taigā
+4	5904	abats	abata abati abatu
+5	5905	augļkopība	augļkopības augļkopībā
+6	5906	dārzeņkopība	dārzeņkopības dārzeņkopībā
+7	5907	virsdrēbes	virsdrēbēm
+8	5908	zaļumballe	zaļumballi zaļumballēs
+9	5909	dzelzceļnieks	dzelzceļniekam dzelzceļniekiem dzelzceļnieku
+10	5910	kalnains	kalnainajā kalnainiem kalnainos kalnainā
+11	5911	nebēdnīgs	nebēdnīgas nebēdnīgiem nebēdnīgo nebēdnīgu
+12	5912	reizinātājs	reizinātājiem reizinātājos reizinātāju
+13	5913	tīrīgs	tīrīga tīrīgais
+14	5914	mīls	mīlai mīlais mīlas mīlu mīlā
+15	5915	rauda	raudu raudās
+16	5916	iedotais	iedotajām iedoto iedotos iedotā
+17	5917	baļļa	baļļas baļļu baļļā
+18	5918	jocīgāks	jocīgais jocīgākais
+19	5919	biklums	biklumu
+20	5920	aprikoze	aprikozes aprikožu
+21	5921	krevele	kreveles
+22	5922	apātisks	apātiska apātiskā
+23	5923	gribošais	gribošie gribošo
+24	5924	laivinieks	laiviniekam
+25	5925	nedeļa	nedeļas nedeļām
+26	5926	neprātis	neprāti
+27	5927	sevim	
+28	5928	lemesis	lemeša lemešu
+29	5929	brads	bradā
+30	5930	spals	spal spalam
+31	5931	grams	
+32	5932	lēnums	
+33	5933	kartogrāfe	kartogrāfi kartogrāfu
+34	5934	negatavoju	
+35	5935	biljards	
+36	5936	puds	pudu pudus
+37	5937	kustīgums	kustīgumā
+38	5938	aseksuāls	aseksuāla aseksuālai
+39	5939	musons	musonu
+40	5940	bargums	bargumu
+41	5941	atturībnieks	
+42	5942	biste	bistes
+43	5943	hantele	hanteles hanteļu
+44	5944	kaplis	kapli
+45	5945	klinšains	klinšaino
+46	5946	iespiešana	iespiešanas iespiešanos
+47	5947	duļķes	
+48	5948	pirst	
+49	5949	sirpis	sirpi sirpji
+50	5950	nelasot	
+51	5951	grūst	
+52	5952	kapracis	kaprača kaprači
+53	5953	asinsdesa	asinsdesas
+54	5954	paukotājs	paukotājiem
+55	5955	nelasām	
+56	5956	lielība	lielību
+57	5957	simetrija	simetrijas
+58	5958	korāns	
+59	5959	pūšļotājs	pūšļotāji
+60	5960	azimuts	azimutus
+61	5961	nepiederam	
+62	5962	dancināt	dancina dancināji
+63	5963	bāba	
+64	5964	uzcītīgs	uzcītīgais visuzcītīgākā
+65	5965	bumbiere	bumbieres bumbieri bumbieru
+66	5966	kapāt	kapā kapāju kapātiem
+67	5967	mainītais	mainītajiem mainīto mainītos mainītā mainītās
+68	5968	kazaks	
+69	5969	spodrība	
+70	5970	cepoties	
+71	5971	ekonomiskāk	
+72	5972	fizioloģiski	
+73	5973	izceļošana	
+74	5974	kodums	
+75	5975	ksenons	ksenona
+76	5976	necaurspīdīgums	
+77	5977	nedzirdība	
+78	5978	nemazinot	
+79	5979	nereģistrējot	
+80	5980	nevērst	
+81	5981	pareizums	pareizumu
+82	5982	pavasarīgi	
+83	5983	revizionisms	
+84	5984	simtais	
+85	5985	kinorežisors	
+86	5986	ugunīgi	
+87	5987	virusoloģija	virusoloģijas
+88	5988	šķērsenisks	šķērseniski
+89	5989	tallijs	tallija
+90	5990	abažūrs	abažūriem abažūrus
+91	5991	humānisms	humānisma humānismu
+92	5992	intoksikācija	intoksikācijas
+93	5993	klavierkoncerts	klavierkoncerti klavierkoncertu
+94	5994	mašīntulkošana	mašīntulkošanas
+95	5995	nākamība	nākamības nākamību
+96	5996	apendicīts	apendicīta
+97	5997	birztala	birztalu
+98	5998	brīve	brīvē
+99	5999	maltiete	maltieši maltiešu
+100	6000	meningīts	meningīta

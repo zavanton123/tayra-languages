@@ -1,0 +1,100 @@
+1	1001	pastāstīt	pastāsta pastāstīja
+2	1002	smadzenes	smadzenēm smadzenēs smadzeņu
+3	1003	atbilst	atbilstoša atbilstošas atbilstošu neatbilst
+4	1004	parakstīt	jāparaksta paraksta paraksti parakstiet parakstot parakstu parakstām parakstāt parakstīja parakstīji parakstījis parakstīju parakstījām parakstījāt parakstīs parakstīsi parakstīsiet parakstīsim parakstīts parakstītu parakstīšana parakstīšu
+5	1005	uguns	uguni ugunij ugunis ugunī ugunīm ugunīs uguņi uguņu
+6	1006	gadsimts	gadsimta gadsimtam gadsimti gadsimtiem gadsimtos gadsimtu gadsimtus gadsimtā
+7	1007	trūkt	netrūka netrūks netrūkst netrūkstot netrūkt netrūktu trūka trūks trūkst trūkstoša trūkstošais trūkstošos trūkstošā trūkstošās trūktu
+8	1008	kurt	kurs kursi kurtu kuru kuršu nekur nekurs
+9	1009	lidojums	lidojuma lidojumam lidojumi lidojumiem lidojumos lidojumu lidojumus lidojumā
+10	1010	tumšs	tumša tumšais tumšajai tumšajam tumšajiem tumšajos tumšajā tumšajām tumšajās tumšam tumšas tumši tumšie tumšiem tumšo tumšos tumšu tumšā tumšāka tumšākajiem tumšākajos tumšākajā tumšākajām tumšākie tumšāko tumšāks tumšāku tumšākā tumšākās tumšām tumšās vistumšākajos vistumšāko vistumšākā vistumšākās
+11	1011	karjera	karjerai karjeras karjeru karjerā karjerām karjerās
+12	1012	virs	
+13	1013	bilde	bila bilam bildei bildes bildi bildē bildēm bildēs bilu bilžu
+14	1014	rādītājs	rādītāja rādītājam rādītāji rādītājiem rādītājos rādītāju rādītājus rādītājā
+15	1015	zona	zonas zonā
+16	1016	mobils	mobila mobilai mobilais mobilajai mobilajam mobilajiem mobilajos mobilajā mobilajām mobilajās mobilas mobilie mobiliem mobilo mobilos mobilu mobilus mobilā mobilām mobilās
+17	1017	karsts	karsta karstai karstais karstajai karstajam karstajiem karstajā karstajās karstam karstas karsti karstie karstiem karsto karstos karstu karstus karstā karstāka karstākais karstākajiem karstākajā karstākajām karstākajās karstākie karstāko karstākos karstāks karstāku karstākā karstākās karstām karstās viskarstākajā
+18	1018	modelis	modeli modelī modeļa modeļu
+19	1019	pavadīt	pavada pavadīja
+20	1020	izrādīties	izrādās izrādījās
+21	1021	amerikānis	amerikāni amerikāniete amerikānietei amerikānietes amerikānieti amerikānim amerikāņa amerikāņi amerikāņiem amerikāņos amerikāņu amerikāņus
+22	1022	kaimiņš	kaimiņ kaimiņa kaimiņam kaimiņi kaimiņiem kaimiņiene kaimiņos kaimiņu kaimiņus
+23	1023	varonis	varone varoni varonim varoņa varoņi varoņiem varoņu varoņus
+24	1024	alkohols	alkohola alkoholam alkoholu alkoholā
+25	1025	bagāts	bagāta bagātais bagātajai bagātajiem bagātajos bagātajā bagātajām bagātajās bagātam bagātas bagāti bagātie bagātiem bagāto bagātos bagātu bagātus bagātā bagātāk bagātāka bagātākais bagātākajam bagātākajiem bagātākajām bagātākas bagātāki bagātākie bagātākiem bagātāko bagātākos bagātāks bagātāku bagātākā bagātākās bagātām bagātās visbagātākais visbagātākajiem visbagātāko
+26	1026	skatīt	jāskata neskata neskati neskatīja neskatīt neskatītos neskatītu skata skati skatiet skatot skatu skatām skatāma skatāmas skatāmi skatāms skatāmu skatāmās skatīja skatījis skatīju skatījusi skatījuši skatījām skatīs skatīsim skatīta skatītas skatīti skatītos skatīts skatītu skatīšana skatīšanai skatīšanas skatīšanos skatīšanu skatīšu
+27	1027	apvienot	apvieno apvienoja apvienojam apvienojama apvienojamas apvienojami apvienojams apvienojiet apvienojis apvienojot apvienojošas apvienojošās apvienoju apvienojusi apvienojušas apvienojuši apvienojušās apvienojām apvienos apvienosim apvienota apvienotas apvienoti apvienotos apvienots apvienotu apvienotā apvienotām apvienotās apvienošana apvienošanai apvienošanas apvienošanos apvienošanu apvienošanā apvienošanās jāapvieno neapvieno neapvienos
+28	1028	izaicinājums	izaicinājuma izaicinājumam izaicinājumi izaicinājumiem izaicinājumos izaicinājumu izaicinājumus izaicinājumā
+29	1029	nopietns	nopietna nopietnai nopietnais nopietnajai nopietnajiem nopietnajām nopietnam nopietnas nopietnie nopietniem nopietno nopietnos nopietnu nopietnus nopietnā nopietnāks nopietnām nopietnās visnopietnākais
+30	1030	lejā	
+31	1031	deviņi	deviņas deviņiem deviņos deviņu deviņus deviņām deviņās
+32	1032	uzdot	jāuzdod neuzdeva neuzdevu neuzdevāt neuzdod neuzdodam neuzdodiet neuzdodu neuzdot neuzdošu uzdeva uzdevi uzdevis uzdevu uzdevusi uzdevuši uzdevām uzdevāt uzdod uzdodam uzdodat uzdodiet uzdodot uzdodu uzdos uzdosi uzdosiet uzdosim uzdota uzdotas uzdoti uzdotiem uzdotos uzdots uzdotu uzdotās uzdošanai uzdošanu uzdošu
+33	1033	nevaram	
+34	1034	atlikt	atlicis atliek atlikušo
+35	1035	austrumi	austruma austrumiem austrumos austrums austrumu austrumus
+36	1036	vilciens	vilciena vilcienam vilcieni vilcieniem vilcienos vilcienu vilcienus vilcienā
+37	1037	čempions	čempion čempiona čempionam čempione čempioni čempioniem čempionu čempionus
+38	1038	lietotājs	lietotāja lietotājam lietotāji lietotājiem lietotāju lietotājus
+39	1039	organizēt	jāorganizē organizē organizēja organizējam organizējiet organizējis organizējot organizēju organizējām organizēs organizēsim organizēts organizētu organizēšana organizēšu
+40	1040	vēlēšanās	vēlēšanos
+41	1041	nozagt	jānozog nozadzis nozaga nozagi nozags nozagsi nozagsiet nozagsim nozagts nozagtu nozagu nozagām nozagāt nozagšana nozagšot nozagšu nozodziet nozog nozogam nozogat nozogot nozogu
+42	1042	parādīt	parādīja
+43	1043	mest	jāmet mests mestu met meta metam metams metat meti metiet metis metot metu metām metīs metīsi metīsiet metīsim metīšu mešana nemest
+44	1044	iekšējs	iekšēja iekšējai iekšējais iekšējam iekšējas iekšējie iekšējiem iekšējo iekšējos iekšēju iekšējā iekšējām iekšējās
+45	1045	gabals	gabala gabalam gabali gabaliem gabalos gabalu gabalus gabalā
+46	1046	upe	upei upes upi upju upē upēm upēs
+47	1047	nolikt	jānoliek nolicis noliec nolieciet noliek noliekam noliekat noliekot nolieku nolika nolikdams noliki noliks noliksi noliksim nolikts noliktu noliku nolikām nolikāt nolikšana nolikšu
+48	1048	republika	republikai republikas republiku republikā republikām republikās
+49	1049	parādīties	parādās parādījās
+50	1050	interesanti	
+51	1051	uzbrukt	jāuzbrūk neuzbrukt uzbrucis uzbruka uzbruki uzbruks uzbruksi uzbruksim uzbrukts uzbruktu uzbruku uzbrukām uzbrukāt uzbrukšu uzbrūc uzbrūciet uzbrūk uzbrūkam uzbrūkat uzbrūkot uzbrūkošs
+52	1052	summa	summas summu
+53	1053	pasts	past pasta pastam pasti pastiem pastos pastu pastus pastā
+54	1054	tips	tip tipa tipam tipi tipiem tipu tipus
+55	1055	ugunsgrēks	ugunsgrēka ugunsgrēkam ugunsgrēki ugunsgrēkiem ugunsgrēkos ugunsgrēku ugunsgrēkus ugunsgrēkā
+56	1056	pilnīgs	pilnīga pilnīgai pilnīgais pilnīgajai pilnīgajā pilnīgam pilnīgas pilnīgie pilnīgiem pilnīgo pilnīgu pilnīgus pilnīgā pilnīgākai pilnīgākais pilnīgākas pilnīgāku pilnīgākus pilnīgākā pilnīgām pilnīgās vispilnīgākais vispilnīgākajā
+57	1057	piemērs	piemēra piemēri piemēriem piemēros piemēru piemērus piemērā
+58	1058	viela	vielai vielas vielu vielām
+59	1059	bailes	baii bailēm bailēs baiļu
+60	1060	trūkums	trūkuma trūkumam trūkumi trūkumiem trūkumu trūkumus trūkumā
+61	1061	piemērot	piemērota piemērotas piemērots
+62	1062	nepieciešamība	nepieciešamībai nepieciešamības nepieciešamību nepieciešamībā nepieciešamībām
+63	1063	soda	sodas sodu
+64	1064	labrīts	labrīt
+65	1065	tuvoties	tuvojas tuvojoties
+66	1066	joks	joka jokam joki jokiem joku jokus jokā
+67	1067	iekārta	iekārtai iekārtas iekārtu iekārtā iekārtām iekārtās
+68	1068	ierobežojums	ierobežojumiem ierobežojumus
+69	1069	skaisti	
+70	1070	pēda	pēdai pēdas pēdi pēdu pēdā pēdām pēdās
+71	1071	sekas	seku sekām
+72	1072	traucēt	netraucē netraucēja netraucējam netraucējiet netraucējot netraucēju netraucēs netraucēsi netraucēsim netraucēt netraucēta netraucētas netraucēti netraucētu netraucēšu traucē traucēja traucējam traucējat traucējis traucējot traucējoša traucējošas traucējoši traucējošs traucējošā traucēju traucējusi traucējuši traucēs traucēta traucētas traucēti traucēts traucētu traucēšana traucēšanas traucēšanu traucēšu
+73	1073	precīzs	precīza precīzai precīzais precīzajam precīzajiem precīzajām precīzam precīzas precīzi precīziem precīzo precīzu precīzus precīzā precīzāks precīzās visprecīzākais
+74	1074	treneris	trenera
+75	1075	aktieris	aktiera aktieri aktieriem aktierim aktieru aktierus aktrise aktrisei aktrises aktrisi aktrisē aktrisēm aktrišu
+76	1076	temperatūra	temperatūrai temperatūras temperatūru temperatūrā temperatūrām temperatūrās
+77	1077	mazināt	jāmazina mazina mazinot mazinošas mazinu mazināja mazinājis mazinājusi mazinājušas mazinājuši mazinājušās mazinām mazinās mazināsim mazināts mazinātu mazināšana mazināšanai mazināšanas mazināšani mazināšanos mazināšanu mazināšanā nemazina nemazini nemazināja nemazinās nemazināt nemazinātos
+78	1078	zaudējums	zaudējumi zaudējumiem zaudējumus
+79	1079	silts	silta siltai siltais siltajai siltajam siltajiem siltajos siltajā siltajām siltajās siltam siltas silti siltie siltiem silto siltos siltu siltus siltā siltāk siltāka siltākais siltākajiem siltākajām siltākam siltākas siltāki siltākiem siltāko siltākos siltāks siltāku siltākā siltākās siltām siltās vissiltākais vissiltāko
+80	1080	kanāls	kanāla kanālam kanāli kanāliem kanālos kanālu kanālus kanālā
+81	1081	laipni	
+82	1082	bēgt	bēdz bēdziet bēdzis bēg bēga bēgam bēgat bēgdams bēgi bēgot bēgošs bēgs bēgsi bēgsim bēgtu bēgu bēgām bēgšana bēgšu jābēg nebēgt
+83	1083	sist	jāsit nesist nesit nesitiet nesitu nesitīs nesitīsi nesitīsiet nesitīsim nesitīšu sista sistas sisti sistiem sistos sists sistu sistām sit sita sitam sitat siti sitiet sitis sitot sitošās situ situsi situši sitām sitīs sitīsi sitīsim sitīšu sišana sišanai sišanas sišanu
+84	1084	skaņa	skaņai skaņas skaņu skaņā skaņām skaņās
+85	1085	samazināties	samazinājies samazinājās
+86	1086	piebilst	piebilda
+87	1087	restorāns	restorāna restorānam restorāni restorāniem restorānos restorānu restorānus restorānā
+88	1088	daudzums	daudzuma daudzumam daudzumi daudzumiem daudzumos daudzumu daudzumus daudzumā
+89	1089	sakot	
+90	1090	nebiju	
+91	1091	izrāde	izrādei izrādes izrādi izrādē izrādēm izrādēs izrāžu
+92	1092	vienkāršs	vienkārša vienkāršai vienkāršais vienkāršajiem vienkāršajā vienkāršam vienkāršas vienkāršie vienkāršiem vienkāršo vienkāršos vienkāršu vienkāršus vienkāršā vienkāršāks vienkāršām vienkāršās visvienkāršākais
+93	1093	veiksme	veiksmei veiksmes veiksmi veiksmēm
+94	1094	patiesi	
+95	1095	tāls	tāla tālais tālajam tālajiem tālajos tālajā tālas tāli tālie tāliem tālo tālos tālā tālāka tālākai tālākais tālākajai tālākajam tālākajiem tālākajos tālākajā tālākajām tālākam tālākas tālāki tālākie tālākiem tālāko tālākos tālāks tālāku tālākus tālākā tālākām tālākās tālām tālās vistālākajām vistālāko
+96	1096	ļauns	visļaunākais visļaunākajai visļaunākajam visļaunākie visļaunāko visļaunākā visļaunākās ļauna ļaunais ļaunajam ļaunajā ļaunajām ļaunam ļaunas ļauni ļaunie ļauniem ļauno ļaunos ļaunu ļaunus ļaunā ļaunāks ļaunās
+97	1097	krasts	krasta krastam krasti krastiem krastos krastu krastus krastā
+98	1098	mirklis	mirkli mirklī
+99	1099	atpūta	atpūtai atpūtas atpūtu atpūtā atpūtās
+100	1100	mēgt	mēdz mēdza nemēdz

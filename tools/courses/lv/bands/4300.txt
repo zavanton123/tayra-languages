@@ -1,0 +1,100 @@
+1	4201	dzenis	dzenim dzeņa dzeņi dzeņu dzeņus
+2	4202	pelde	pela peldei peldes peldi peldē peldēm peldēs pelu
+3	4203	pļāpas	pļāpu pļāpām pļāpās
+4	4204	spuldze	spuldzes spuldzi spuldzēm spuldžu
+5	4205	salmi	salmiem salmu salmus
+6	4206	izdarība	izdarības izdarību izdarībām izdarībās
+7	4207	sakausējums	sakausējuma sakausējumu sakausējumus
+8	4208	sistemātisks	sistemātiska sistemātiskai sistemātiskas sistemātiskiem sistemātisko sistemātisku sistemātiskus sistemātiskā
+9	4209	septiņpadsmit	
+10	4210	migrants	migrantu
+11	4211	lakstīgala	lakstīgalai lakstīgalu
+12	4212	ķeizars	ķeizara ķeizarus
+13	4213	degvīns	degvīna degvīnu
+14	4214	pastmarka	pastmarkas pastmarku pastmarkām
+15	4215	sūkt	nesūcat sūc sūca sūci sūcis sūktos sūkšanā
+16	4216	čakste	čakstes čaksti
+17	4217	parūka	parūkas parūku
+18	4218	ņūtons	ņūton ņūtona ņūtonam ņūtonu
+19	4219	alkoholiķis	alkoholiķe alkoholiķi alkoholiķiem alkoholiķim alkoholiķos alkoholiķu
+20	4220	vijolnieks	vijolniece vijolniecei vijolnieci vijolniek vijolnieka vijolnieki vijolnieku
+21	4221	lietavas	lietavu lietavām lietavās
+22	4222	steidzīgi	
+23	4223	māsiņa	
+24	4224	serbs	serba serbam serbi serbu
+25	4225	olšūna	olšūnas olšūnu olšūnām
+26	4226	nepiedienīgs	nepiedienīga nepiedienīgas nepiedienīgi nepiedienīgiem nepiedienīgo nepiedienīgu nepiedienīgus
+27	4227	halāts	halāta halāti halātiem halātu halātā
+28	4228	ķirzaka	ķirzakas ķirzaku ķirzakām
+29	4229	pārdabisks	pārdabiska pārdabiskajam pārdabiskas pārdabiski pārdabiskiem pārdabisko pārdabiskus pārdabiskā pārdabiskām pārdabiskās
+30	4230	birzs	birs birzi birzī biržu
+31	4231	kodiens	kodiena kodieni kodieniem kodienu kodienā
+32	4232	darītājs	darītāja darītājam darītāji darītājiem darītājos darītāju darītājus
+33	4233	apinis	apii apini apinim apiņa apiņi apiņiem apiņu
+34	4234	ģerbonis	ģerboni ģerboņa ģerboņi ģerboņus
+35	4235	dienasgaisma	dienasgaismai dienasgaismas dienasgaismu dienasgaismā dienasgaismām
+36	4236	brīvdiena	
+37	4237	klepot	klepo klepoja klepojiet klepojot klepoju klepošanas neklepo neklepot
+38	4238	rupjība	rupjības rupjību rupjībām
+39	4239	vaļasprieks	vaļasprieki vaļaspriekiem vaļasprieku
+40	4240	nepiederošs	nepiederoša nepiederošas nepiederoši nepiederošiem nepiederošos nepiederošu nepiederošā nepiederošām nepiederošās
+41	4241	koferis	kofera koferi koferos koferus koferī
+42	4242	karāties	karā karātu
+43	4243	selēns	selēna selēnu
+44	4244	plūme	plūmes plūmju
+45	4245	skava	skavas skavu skavām skavās
+46	4246	cilme	cilmes
+47	4247	blīvi	
+48	4248	šķīsts	visšķīstākā šķīsta šķīstas šķīsti šķīstu šķīstā
+49	4249	deviņdesmitais	deviņdesmito
+50	4250	mieži	miežiem miežos miežu miežus
+51	4251	bagātnieks	bagātniece bagātniecei bagātnieces bagātniekam bagātnieki bagātniekiem bagātnieku bagātniekā
+52	4252	visvieglāk	
+53	4253	saldūdens	saldūdeni saldūdenī
+54	4254	rakstība	rakstības rakstību rakstībā
+55	4255	nāss	nās nāsi nāsis nāsī nāsīm nāsīs
+56	4256	burātājs	burātāja burātājam burātāji burātājiem burātāju burātājus
+57	4257	tuncis	tunci tunča tunčiem tunču tunčus
+58	4258	persiks	persik persika persiki persikiem persiku persikus
+59	4259	rakstniecība	rakstniecības rakstniecību rakstniecībā
+60	4260	dzelži	dzelžiem dzelžos dzelžu dzelžus
+61	4261	piekūns	piekūn piekūna piekūni piekūniem piekūnu
+62	4262	atraisīt	atraisi atraisiet atraisīja atraisījis atraisīs
+63	4263	abstrakts	abstrakta abstraktai abstraktais abstraktam abstraktas abstrakti abstraktiem abstrakto abstraktu abstraktā abstraktām abstraktās
+64	4264	menca	mencai mencas mencu
+65	4265	čakli	
+66	4266	matemātisks	matemātiska matemātiskais matemātiskajā matemātiskas matemātiskiem matemātisko matemātisku matemātiskus matemātiskā matemātiskām matemātiskās
+67	4267	vējains	vējaina vējainais vējainie vējainu vējainā vējainās
+68	4268	zemiski	
+69	4269	salmiņš	salmiņa salmiņam salmiņi salmiņiem salmiņu salmiņus
+70	4270	fiziķis	fiziķa fiziķi fiziķu
+71	4271	krupis	krupi krupja krupji krupju
+72	4272	mīļotājs	mīļotājam mīļotāji mīļotājiem mīļotāju mīļotājus
+73	4273	atombumba	atombumbas atombumbu
+74	4274	visātrākais	visātrākos ātrais ātrāka ātrākai ātrākais ātrākajai ātrākajam ātrākajiem ātrākajā ātrākajām ātrākas ātrāki ātrākie ātrākiem ātrāko ātrākos ātrāks ātrāku ātrākus ātrākā ātrākās
+75	4275	suka	suku sukā sukām
+76	4276	krona	kronas kronu kronus
+77	4277	sīrups	sīrupa sīrupi sīrupu sīrupus sīrupā
+78	4278	krusttēvs	krusttēv krusttēva krusttēvam krusttēvu krusttēvā
+79	4279	rumānis	rumāni rumāniete rumānietei rumānim rumāņi rumāņiem rumāņu
+80	4280	kariete	karietes karieti karietē karietēs kariešu
+81	4281	greznība	greznības greznību greznībā
+82	4282	mīlīgi	
+83	4283	putekšņi	putekšņiem putekšņu putekšņus
+84	4284	neīgt	īga īgi īgs īgu
+85	4285	šaušalīgs	šaušalīgi šaušalīgiem šaušalīgo šaušalīgu šaušalīgus šaušalīgā šaušalīgās
+86	4286	gādība	gādības gādību gādībā
+87	4287	aa	
+88	4288	molekulārs	molekulārajā molekulāri molekulāro molekulārā molekulārās
+89	4289	atskanēt	atskan
+90	4290	oms	om omi omu omā
+91	4291	drosmīgāks	drosmīgais drosmīgāk drosmīgāka drosmīgākai drosmīgākais drosmīgākajiem drosmīgākajām drosmīgākas drosmīgāki drosmīgākie drosmīgākiem drosmīgākos drosmīgāku drosmīgākus drosmīgākā drosmīgākām drosmīgākās visdrosmīgākais visdrosmīgākajam
+92	4292	čība	čības čību čībām čībās
+93	4293	akadēmiķis	akadēmiķa akadēmiķi akadēmiķiem akadēmiķim akadēmiķu
+94	4294	asteroīds	asteroīdi asteroīdiem asteroīdos asteroīdu
+95	4295	vakcinēt	jāvakcinē nevakcinēt vakcinējot vakcinēs vakcinēts vakcinēšana
+96	4296	ezis	ezi ezim eža eži ežiem ežu
+97	4297	putenis	puteni putenim putenī puteņa
+98	4298	krustmāte	krustmātei krustmātes krustmāti
+99	4299	matrica	matricas matricu
+100	4300	iestudējums	

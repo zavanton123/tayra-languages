@@ -1,0 +1,100 @@
+1	4101	aizdevējs	aizdevēja aizdevēji aizdevējiem aizdevēju aizdevējus
+2	4102	problemātisks	problemātiska problemātiskajai problemātiskajiem problemātiskajos problemātiskas problemātiski problemātisko problemātisku problemātiskus problemātiskām problemātiskās
+3	4103	dinastija	dinastijas dinastiju dinastijā dinastijām
+4	4104	artērija	artērijas artēriju artērijā artērijām
+5	4105	pūkains	pūkaina pūkainas pūkaini pūkaino pūkainos pūkainu pūkainā pūkainākās
+6	4106	bļoda	bļodai bļodas bļodu bļodā bļodām bļodās
+7	4107	spāniski	
+8	4108	molekula	molekulai molekulas molekulu molekulā molekulām
+9	4109	vīķe	vīķes vīķu
+10	4110	plēst	plēs plēsiet plēsts plēstu plēsīs plēsīšu plēš plēšam plēšot
+11	4111	dievība	dievībai dievības dievību
+12	4112	spīdīgs	spīdīga spīdīgajiem spīdīgajā spīdīgas spīdīgu spīdīgā
+13	4113	psiholoģiski	
+14	4114	snigt	snieg sniegam sniga snigs snigtu snigšana
+15	4115	degunradzis	degunradzi degunradzim degunradža degunradži degunradžiem degunradžu
+16	4116	konfigurācija	konfigurācijai konfigurācijas konfigurāciju konfigurācijām
+17	4117	izelpa	izelpai izelpas izelpu izelpā
+18	4118	biete	bietes bieti bietē bietēm biešu
+19	4119	alnis	alni alnim aļņa aļņi aļņiem aļņu
+20	4120	durt	dur duram duriet durtu duru duršana dūra dūri dūru jādur
+21	4121	stiept	jāstiepj stiepa stiepj stiepjam stiepjat stiepjot stieps stiepsi
+22	4122	knābis	knābi knābja knābī
+23	4123	arbūzs	arbūza arbūzi arbūziem arbūzu arbūzus
+24	4124	avs	avi avis avju avīm
+25	4125	visstraujāk	
+26	4126	anatomija	anatomijas
+27	4127	nekustīgs	nekustīga nekustīgajiem nekustīgam nekustīgi nekustīgu nekustīgā
+28	4128	store	stora stores
+29	4129	maizīte	maizītes
+30	4130	šķērss	šķērso šķērsos šķērsu šķērsām
+31	4131	vienkāršot	vienkāršo vienkāršojot vienkāršos vienkāršosim vienkāršots vienkāršotu vienkāršošana vienkāršošu
+32	4132	nemeklēju	
+33	4133	kļūdains	kļūdaina kļūdainais kļūdainas kļūdainie kļūdainiem kļūdaino kļūdainos kļūdainu kļūdainus kļūdainā kļūdaināks
+34	4134	kopmītne	kopmītnes kopmītnēm kopmītnēs kopmītņu
+35	4135	kanoe	
+36	4136	nenormāls	nenormāla nenormālais nenormālajam nenormālajos nenormālas nenormālo nenormālu nenormālā nenormālās
+37	4137	metropole	metropolei metropoles metropoli metropolē metropolēm metropolēs metropoļu
+38	4138	nacionālists	nacionālisti nacionālistiem nacionālistu nacionālistus
+39	4139	parīt	
+40	4140	ūdensvīrs	ūdensvīr ūdensvīra
+41	4141	balzams	balzama
+42	4142	mīlīgs	mīlīga mīlīgajiem mīlīgajām mīlīgas mīlīgo mīlīgos mīlīgu mīlīgā mīlīgākais mīlīgākajai mīlīgāko mīlīgāku
+43	4143	demogrāfija	demogrāfijai demogrāfijas demogrāfiju demogrāfijā
+44	4144	paradokss	paradoksa paradoksiem paradoksu paradoksus
+45	4145	sērkociņš	sērkociņi sērkociņiem sērkociņu sērkociņus
+46	4146	krāšņums	krāšņumu krāšņumā
+47	4147	omārs	omāra omāram omāru omārus
+48	4148	āre	āa āru ārēs āā
+49	4149	sertifikācija	sertifikācijai sertifikācijas sertifikāciju
+50	4150	termometrs	termometra termometri termometru termometrus
+51	4151	senatne	senatnes senatnē
+52	4152	bagātināt	bagātina bagātinot bagātinošas bagātinoši bagātināja bagātinājis bagātinām bagātinās bagātināta bagātinātais bagātināti bagātinātos bagātināts bagātinātu bagātinātā bagātināšana bagātināšanai bagātināšanas bagātināšanu
+53	4153	cīrulis	cīruli cīruļa cīruļi cīruļiem cīruļu
+54	4154	sils	sil sila silā
+55	4155	terorisms	
+56	4156	melone	melones meloni melonēm meloņu
+57	4157	alfabēts	alfabēta alfabētam alfabētu alfabētā
+58	4158	pasīvs	pasīva pasīvais pasīvas pasīvie pasīviem pasīvo pasīvu pasīvā pasīvās
+59	4159	gļēvs	gļēva gļēvais gļēvajiem gļēvam gļēvi gļēvo gļēvu gļēvā gļēvās
+60	4160	paprika	paprikas papriku paprikā
+61	4161	krāšņi	
+62	4162	piepilsēta	piepilsētas piepilsētu piepilsētā piepilsētām piepilsētās
+63	4163	skuķe	skuķei skuķes skuķi skuķu skuķēm
+64	4164	mārīte	mārītei mārītes mārīti
+65	4165	bīties	bijos bīstas bīstaties bīsties bīstos jābīstas
+66	4166	laka	lakas laku lakā lakām
+67	4167	dancis	danci dancī danu danča danči dančiem danču
+68	4168	biežums	biežuma biežumam biežumu biežumā
+69	4169	saīsinājums	saīsinājumā
+70	4170	gliemezis	gliemezi gliemezim gliemeža gliemeži gliemežiem gliemežu gliemežus
+71	4171	ziņnesis	ziņnesi ziņneša ziņneši ziņnešus
+72	4172	kolhozs	kolhoza kolhozi kolhozu kolhozus kolhozā
+73	4173	rūpīgāk	
+74	4174	nogurt	nogura nogurs nogurst nogurstam nogursti nogurstu noguru nogurām
+75	4175	centrāle	centrāles centrāli centrālē
+76	4176	cinks	cinka cinku cinkus
+77	4177	skandināviete	skandināvi skandināvu skandināvus
+78	4178	sīkt	sīc sīci sīcis
+79	4179	moderni	
+80	4180	stulbāks	stulbais stulbāk stulbākais stulbākajām stulbāki stulbāko stulbāku stulbākā visstulbākais
+81	4181	bandinieks	bandinieki bandiniekiem bandinieku bandiniekus
+82	4182	attēlojums	attēlojuma attēlojumiem attēlojumu
+83	4183	nepieklājīgs	nepieklājīga nepieklājīgais nepieklājīgi
+84	4184	dilles	dillēm dillēs diļļu
+85	4185	ētisks	ētiska ētiskajām ētiskas ētiskie ētiskiem ētisko ētiskos ētisku ētiskā ētiskās
+86	4186	aplikt	aplicis apliec apliek apliekot aplika apliks apliksi apliksim aplikts aplikšana jāapliek neaplikt
+87	4187	stigt	stiga stigs stigu
+88	4188	burāt	burā burājis burājot burājām burās burāsi burāsim burāšana burāšu jāburā
+89	4189	saimniekot	saimnieko
+90	4190	vīrišķīgs	vīrišķīga vīrišķīgam vīrišķīgas vīrišķīgi vīrišķīgie vīrišķīgiem vīrišķīgu vīrišķīgā vīrišķīgāks vīrišķīgām vīrišķīgās
+91	4191	mango	
+92	4192	sistemātiski	
+93	4193	gaist	gaisa gaistoša gaistošas gaisu negaisa negaisi negaisu
+94	4194	avokado	
+95	4195	vēsma	vēsmas vēsmām
+96	4196	bildēt	bild bildi bildu bildē bildēja bildējam bildēji bildējot bildēs bildēsim
+97	4197	konsuls	konsul konsula konsuli konsulu konsulus konsulā
+98	4198	iztulkot	iztulko iztulkoja iztulkojiet iztulkojis iztulkojusi iztulkotas iztulkoti iztulkots iztulkotu iztulkošanas iztulkošanu iztulkošu jāiztulko
+99	4199	ruds	ruda rudais rudajiem rudajā rudajām rudie rudiem rudo rudu rudāks rudās
+100	4200	disertācija	disertācijai disertācijas disertāciju

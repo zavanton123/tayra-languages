@@ -1,0 +1,100 @@
+1	2201	atbraukt	atbrauc atbrauca
+2	2202	vads	vad vada vadam vadi vadiem vados vadu vadus vadā
+3	2203	tabula	tabulas tabulu tabulā tabulām tabulās
+4	2204	vēss	vēsa vēsais vēsajām vēsam vēsas vēsi vēso vēsos vēsu vēsā vēsāka vēsākai vēsākais vēsākam vēsākas vēsākiem vēsāks vēsāku vēsās
+5	2205	vergs	verga vergam vergi vergiem vergu vergus
+6	2206	nedievināt	dievina dievini dievinu dievināja dievināji dievināju dievinās dievināsi dievinātu dievinātā jādievina
+7	2207	šausmas	šausmu šausmām šausmās
+8	2208	trešdaļa	trešdaļai trešdaļas trešdaļu trešdaļā trešdaļām trešdaļās
+9	2209	vēstnieks	vēstniece vēstniecei vēstnieces vēstnieci vēstniek vēstnieka vēstniekam vēstnieki vēstniekiem vēstnieku vēstniekus
+10	2210	nodarbināt	jānodarbina nodarbina nodarbini nodarbinot nodarbinu nodarbināja nodarbinājis nodarbināju nodarbinām nodarbināsim nodarbināta nodarbinātas nodarbināti nodarbinātiem nodarbinātos nodarbināts nodarbinātu nodarbinātā nodarbinātām nodarbinātās nodarbināšana nodarbināšanai nodarbināšanas nodarbināšanu nodarbināšanā
+11	2211	grūtāk	
+12	2212	scenārijs	scenārija scenārijus
+13	2213	tirgot	netirgo netirgojamās tirgo tirgodami tirgoja tirgojam tirgojat tirgoji tirgojis tirgojot tirgoju tirgojusi tirgojuši tirgos tirgota tirgotas tirgoti tirgotiem tirgotos tirgots tirgotu tirgotās tirgošana tirgošanai tirgošanas tirgošanos tirgošanu tirgošanā tirgošu
+14	2214	šausmīgi	
+15	2215	terapija	terapijai terapijas terapiju terapijā terapijām
+16	2216	tabaka	tabakai tabakas tabaku
+17	2217	pierast	jāpierod jāpierodot pierada pieradi pieradis pieradu pieradām pieradīs pieradīsi pieradīsim pieradīšot pieradīšu pierasts pierastu pierašana pierod pierodam pierodi pierodiet pierodot pierodu
+18	2218	ieleja	ielejai ielejas ieleju ielejā ielejām
+19	2219	manīt	mana manu manām manāms manāt manīja manījis manīju manījām manījāt manīs manīsiet manīsim manīts manītu manīšu
+20	2220	debates	debai debatēm debatēs debašu
+21	2221	zupa	zupas zupu zupā
+22	2222	saldējums	saldējuma saldējumam saldējumi saldējumiem saldējumu saldējumus
+23	2223	naids	naid naida naidam naidu naidā
+24	2224	cents	cent centa centam centi centiem centos centu centus centā
+25	2225	izteikties	izteicās izteikusies
+26	2226	nācija	nācijai nācijas nāciju nācijā nācijām nācijās
+27	2227	veļa	veļai veļas veļu veļā
+28	2228	stulbi	
+29	2229	novietot	jānovieto nenovietot novieto novietoja novietojam novietoji novietojiet novietojis novietojot novietoju novietojām novietos novietosim novietosit novietots novietotu novietošana novietošu
+30	2230	ārpuse	ārpuses ārpusi ārpusē
+31	2231	paslēpt	jāpaslēpj nepaslēpju paslēp paslēpa paslēpi paslēpiet paslēpis paslēpj paslēpjot paslēps paslēpsim paslēpta paslēptai paslēptas paslēpti paslēptiem paslēptos paslēpts paslēptu paslēptus paslēptā paslēptās paslēpu paslēpusi paslēpuši paslēpušos paslēpām paslēpāt paslēpšu
+32	2232	rats	rat rata ratam ratiem ratos ratu ratus ratā
+33	2233	smaka	smakai smakas smaku smakām
+34	2234	lapsa	lapsas lapsu lapsām
+35	2235	sanāksme	sanāksmē
+36	2236	pļava	pļavas pļavu pļavā pļavām pļavās
+37	2237	jēdziens	jēdziena jēdzienam jēdzieni jēdzieniem jēdzienos jēdzienu jēdzienus jēdzienā
+38	2238	papildināt	papildina
+39	2239	apkalpe	apkalpei apkalpes apkalpi apkalpju apkalpē apkalpēm
+40	2240	itālis	itāli itāliete itālietei itālietes itālieti itāliešu itālim itāļa itāļi itāļiem itāļu itāļus
+41	2241	samazinājums	
+42	2242	dibens	dibena dibenam dibeni dibeniem dibenu dibenus dibenā
+43	2243	govs	govi govij govis govju govīm
+44	2244	sāls	sāli sālim sāļa sāļi sāļu sāļus
+45	2245	bezdarbs	bezdarba bezdarbam bezdarbu
+46	2246	zīmols	zīmola
+47	2247	stīvs	stīv stīva stīvais stīvajai stīvajiem stīvajām stīvam stīvas stīvi stīvo stīvu
+48	2248	zibens	zibeni zibenim zibeņi zibeņiem zibeņu zibeņus
+49	2249	smaidīt	jāsmaida nesmaida nesmaidiet nesmaidu nesmaidīju nesmaidīsi nesmaidīt smaida smaidi smaidiet smaidot smaidošā smaidu smaidām smaidāt smaidīdams smaidīja smaidīji smaidījis smaidītu smaidīšanas smaidīšu
+50	2250	šahs	šaha šaham šahiem šahu šahā
+51	2251	murgi	murga murgam murgiem murgos murgs murgu murgus murgā
+52	2252	briesmonis	briesmoni briesmonim briesmonī briesmoņa briesmoņi briesmoņiem briesmoņu briesmoņus
+53	2253	apdraudēt	apdraud
+54	2254	bioloģisks	bioloģiska bioloģiskai bioloģiskais bioloģiskajai bioloģiskajam bioloģiskajiem bioloģiskajā bioloģiskajām bioloģiskas bioloģiskie bioloģiskiem bioloģisko bioloģiskos bioloģisku bioloģiskus bioloģiskā bioloģiskām bioloģiskās
+55	2255	simts	
+56	2256	zemūdene	zemūdenei zemūdenes zemūdeni zemūdenē zemūdenēm zemūdeņu
+57	2257	parole	paroles paroli parolēm paroļu
+58	2258	izlemt	izlēma
+59	2259	uzņemties	uzņemas
+60	2260	ciemats	ciemata ciematam ciematiem ciematos ciematu ciematus ciematā
+61	2261	disciplīna	disciplīnai disciplīnas disciplīnu disciplīnā disciplīnām disciplīnās
+62	2262	sīkums	sīkum sīkumam sīkumi sīkumiem sīkumos sīkumu sīkumus sīkumā
+63	2263	novērtējums	novērtējuma novērtējumam novērtējumi novērtējumiem novērtējumos novērtējumu novērtējumus novērtējumā
+64	2264	valūta	valūtai valūtas valūtu valūtā valūtām valūtās
+65	2265	medības	medību
+66	2266	trešdiena	trešdienai trešdienas trešdienu trešdienā trešdienās
+67	2267	pievienot	pievieno
+68	2268	bruņinieks	bruņiniek bruņinieka bruņiniekam bruņinieki bruņiniekiem bruņiniekos bruņinieku bruņiniekus
+69	2269	svins	svin svina svinam svini svinu svinā
+70	2270	josta	jostai jostas jostu jostā jostām
+71	2271	cipars	cipara ciparam cipari cipariem ciparos ciparu ciparus
+72	2272	kvartāls	kvartāla kvartālam kvartāli kvartāliem kvartālos kvartālu kvartālus kvartālā
+73	2273	skaidrība	skaidrībai skaidrības skaidrību skaidrībā
+74	2274	pols	pol pola polam poli polu
+75	2275	klans	klana klanam klani klaniem klanos klanu klanus klanā
+76	2276	premjers	premjeru
+77	2277	pārliecināties	
+78	2278	pacietība	pacietībai pacietības pacietību pacietībā
+79	2279	jaunība	jaunībai jaunības jaunību jaunībā
+80	2280	fantastiski	
+81	2281	skūpsts	skūpst skūpsta skūpstam skūpsti skūpstiem skūpstos skūpstu skūpstus
+82	2282	progress	progresa progresam progresu progresā
+83	2283	fails	fail faila failam faili failiem failos failu failus failā
+84	2284	dezoksiribonukleīnskābe	dns
+85	2285	gards	garda gardais gardajām gardam gardas gardiem gardo gardos gardu gardus gardā gardāka gardākais gardāki gardākie gardāko gardākos gardāks gardāku gardākus gardākās gardām gardās
+86	2286	fāze	fāzei fāzes fāzi fāzē fāzēm fāzēs fāžu
+87	2287	ētika	ētikai ētikas ētiku ētikā
+88	2288	apvienotais	apvienotajai apvienotajam apvienotajiem apvienotajos apvienotajā apvienotajām apvienotajās apvienotie apvienoto apvienotos apvienotā apvienotās
+89	2289	sēkla	sēklai sēklas sēklu sēklām sēklās
+90	2290	izpilde	izpildei izpildes
+91	2291	jebkāds	jebkāda jebkādas
+92	2292	polis	poli poliete polietei polieti polim poļa poļi poļiem poļu poļus
+93	2293	melis	mei meis mele melei melim melēm meļa meļi meļiem meļu meļus
+94	2294	kilograms	kilo kilograma kilogramam kilogrami kilogramiem kilogramos kilogramu kilogramus kilogramā
+95	2295	pērns	pērna pērnais pērnajam pērnajos pērnajā pērno pērnā pērnās
+96	2296	plašāk	
+97	2297	lietuvietis	lietuviete lietuvietei lietuvietes lietuvieti lietuvietim lietuvietēm lietuvieša lietuvieši lietuviešiem lietuviešu lietuviešus
+98	2298	zviedrs	zviedram zviedri zviedriem zviedru
+99	2299	baterija	baterijai baterijas bateriju baterijām
+100	2300	līdzēt	līdzams līdzu līdzēja līdzējis līdzēju līdzējusi līdzējušas līdzēs līdzēts līdzētu līdzēšu nelīdz nelīdzēja nelīdzēs nelīdzētu

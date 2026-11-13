@@ -1,0 +1,100 @@
+1	3701	panna	pannai pannas pannu pannā pannām
+2	3702	gardums	garduma gardumam gardumi gardumiem gardumu gardumus
+3	3703	analītisks	analītiska analītiskais analītiskajai analītiskajiem analītiskajā analītiskas analītiski analītiskie analītiskiem analītisko analītiskos analītisku analītiskus analītiskā analītiskās
+4	3704	atvere	atverei atveres atveri atveru atverē atverēm atverēs
+5	3705	lietojums	lietojuma lietojumam lietojumu lietojumā
+6	3706	kapela	kapelai kapelas kapelu kapelā kapelām
+7	3707	nemeloju	
+8	3708	gudrinieks	gudriniece gudrinieces gudrinieci gudriniek gudrinieka gudriniekam gudrinieki gudrinieku
+9	3709	piemirst	nepiemirsti piemirsa piemirsi piemirstam piemirstas piemirstat piemirsti piemirstiem piemirstot piemirsts piemirstu piemirstus piemirstām piemirstās piemirsu piemirsām
+10	3710	indivīds	indivīdu
+11	3711	smuki	
+12	3712	pulkstens	pulksteni
+13	3713	aptuvens	aptuvena aptuvenais aptuvenajām aptuvenas aptuvenie aptuveno aptuvenos aptuvenu aptuvenā aptuvenām aptuvenās
+14	3714	ratiņkrēsls	ratiņkrēsla ratiņkrēslam ratiņkrēsliem ratiņkrēslos ratiņkrēslu ratiņkrēslā
+15	3715	inficēties	
+16	3716	ab	
+17	3717	vissmagāk	
+18	3718	imigrācija	imigrācijai imigrācijas imigrāciju imigrācijā
+19	3719	trīsstūris	trijstūra trijstūris trīsstūra trīsstūri
+20	3720	simfonija	simfonijas simfoniju simfonijām
+21	3721	grāmatnīca	grāmatnīcai grāmatnīcas grāmatnīcu grāmatnīcā grāmatnīcām grāmatnīcās
+22	3722	spilgti	
+23	3723	nomale	nomales nomali nomalē nomalēm nomalēs nomaļu
+24	3724	airis	aira airi airiem airos airu airus aiu aius
+25	3725	drīkstam	
+26	3726	tautasdziesma	tautasdziesmas tautasdziesmu tautasdziesmām tautasdziesmās
+27	3727	papa	papam papu papus papā
+28	3728	zābaka	zābaku zābakā
+29	3729	desa	desas desu desā desām desās
+30	3730	modrība	modrības modrību modrībā
+31	3731	aborts	aborta abortam aborti abortiem abortu abortus
+32	3732	en	
+33	3733	kavalērija	kavalērijai kavalērijas kavalēriju kavalērijā
+34	3734	apspriede	apspriedei apspriedes apspriedi apspriedē apspriedēm apspriedēs apspriežu
+35	3735	tulks	tulk tulka tulkam tulki tulkos tulku
+36	3736	manuskripts	manuskripta manuskripti manuskriptiem manuskriptos manuskriptu manuskriptus
+37	3737	nenormāli	
+38	3738	skuja	skujam skujas skuju skujām
+39	3739	raugs	raug rauga raugam raugi raugos raugu
+40	3740	šņabis	šņabi šņabja
+41	3741	uzņēmējdarbība	
+42	3742	telefoniski	
+43	3743	iemītnieks	iemītniekiem
+44	3744	bioloģiski	
+45	3745	stiprums	stipruma stiprumam stiprumu
+46	3746	īsums	īsumā
+47	3747	melīgs	melīga melīgais melīgajā melīgajās melīgas melīgi melīgo melīgos melīgu melīgus melīgā melīgām melīgās
+48	3748	saindēšanās	saindēšana saindēšanos saindēšanu
+49	3749	racionāli	
+50	3750	karatē	
+51	3751	patvērums	
+52	3752	kūts	kūti kūtij kūtis kūtī kūtīm
+53	3753	skatījums	
+54	3754	uzacs	uzacis uzacī uzacīm
+55	3755	dzirkstele	dzirksteles dzirksteli dzirkstelēm dzirksteļu
+56	3756	pussala	pussalas pussalu pussalā
+57	3757	stabilizēt	stabilizē stabilizēja stabilizējam stabilizējošs stabilizēs stabilizēsim stabilizēts stabilizētu stabilizēšana
+58	3758	gramatika	gramatikai gramatikas gramatiku
+59	3759	asinsrite	asinsritei asinsrites asinsriti asinsritē
+60	3760	uzruna	uzrunas
+61	3761	vāciski	
+62	3762	ronis	rois roni ronim roņa roņi roņiem roņu roņus
+63	3763	bazilika	bazilikas baziliku bazilikā
+64	3764	vājprātīgs	vājprātīga vājprātīgais vājprātīgajiem vājprātīgas vājprātīgi vājprātīgie vājprātīgiem vājprātīgu vājprātīgus vājprātīgā vājprātīgās
+65	3765	skrūve	skrūves skrūvi skrūvju skrūvē skrūvēm
+66	3766	dziedzeris	dziedzera dziedzeri dziedzeriem dziedzerim dziedzeru dziedzerus
+67	3767	civils	civil civila civili civiliem civilos civilu civilā
+68	3768	diegs	diega diegam diegi diegiem diegu
+69	3769	sirms	sirma sirmais sirmajam sirmajā sirmam sirmas sirmiem sirmo sirmu sirmā sirmās
+70	3770	samurajs	samuraj samuraja samurajam samuraji samurajiem samuraju samurajus
+71	3771	spoži	
+72	3772	zāģētava	zāģētavai zāģētavas zāģētavu zāģētavā zāģētavām
+73	3773	uzdoties	jāuzdodas neuzdevās neuzdodas neuzdošos uzdevos uzdevās uzdodamies uzdodas uzdodies uzdotos uzdošanos uzdošos
+74	3774	mazums	mazuma mazumu mazumā
+75	3775	ražotne	
+76	3776	gurķis	guri gurķa gurķi gurķiem gurķim gurķu gurķus
+77	3777	slaids	slaida slaidais slaidam slaidas slaidi slaidiem slaido slaidu slaidus slaidā
+78	3778	svīst	svīstam svīstat svīsti svīstot svīstu svīšana
+79	3779	kāpurs	kāpura kāpuri kāpuriem kāpuru kāpurus kāpurā
+80	3780	skaļrunis	skaļruni skaļrunim skaļrunī skaļruņa skaļruņi skaļruņiem skaļruņos skaļruņu skaļruņus
+81	3781	nevarot	
+82	3782	plīts	plīti plītis plītī
+83	3783	priekšnoteikums	priekšnoteikumi priekšnoteikumiem priekšnoteikumu priekšnoteikumus
+84	3784	francisks	franciska franciskam franciskas francisko francisku
+85	3785	biatlons	biatlona biatlonu biatlonā
+86	3786	kālijs	kālija kāliju
+87	3787	toksisks	toksiska toksiskais toksiskas toksiski toksiskie toksisko toksiskos toksisku toksiskus toksiskā toksiskām toksiskās vistoksiskākā
+88	3788	divnieks	divniekam divnieki divniekiem divniekos divnieku divniekā
+89	3789	garlaicība	garlaicībai garlaicības garlaicību garlaicībā
+90	3790	šaujamierocis	šaujamieroci šaujamieroča šaujamieroči šaujamieročiem šaujamieroču šaujamieročus
+91	3791	ūdeņradis	ūdeņradi ūdeņraža
+92	3792	racionāls	racionāla racionālai racionālais racionālajā racionālam racionālas racionālie racionāliem racionālo racionālu racionālus racionālā racionālāka racionālākais racionālākam racionālāki racionālāko racionālāks racionālāku racionālākus racionālām
+93	3793	blīvs	blīva blīvais blīvajai blīvajā blīvam blīviem blīvo blīvos blīvu blīvā blīvāk blīvākam blīvākas blīvāki blīvāks
+94	3794	nevainība	nevainībai nevainības nevainību nevainībā
+95	3795	kartons	kartona
+96	3796	palags	palaga palagi palagiem palagos palagu palagus palagā
+97	3797	amatniecība	amatniecībai amatniecības amatniecību amatniecībā
+98	3798	ziedotājs	ziedotāja ziedotājam ziedotāji ziedotājiem ziedotāju ziedotājus
+99	3799	smagāk	
+100	3800	nerunājam	

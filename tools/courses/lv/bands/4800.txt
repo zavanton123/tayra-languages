@@ -1,0 +1,100 @@
+1	4701	ekonomija	ekonomijas ekonomiju
+2	4702	visgrūtākais	grūtais grūtāka grūtākais grūtākajiem grūtākajos grūtākajā grūtākajās grūtākas grūtāki grūtākie grūtākiem grūtāko grūtākos grūtāks grūtāku grūtākus grūtākā visgrūtākajā visgrūtākie visgrūtākā
+3	4703	vingrotāja	vingrotājai vingrotāju vingrotājus
+4	4704	ūdrs	ūdri ūdris ūdru
+5	4705	džudo	
+6	4706	matemātiski	
+7	4707	veseris	veseis vesera veseri veseriem veseru
+8	4708	sarkt	jāsarkst sarkstam sarkstat sarksti sarkstu sarktu
+9	4709	velsietis	velsiešiem velsiešu
+10	4710	santehniķis	santehniķa santehniķi santehniķiem santehniķim santehniķu santehniķus
+11	4711	pergaments	pergamenta pergamentu
+12	4712	slaukt	jāslauc slauc slaucot slaukti slaukšanas slaukšanu
+13	4713	neons	neon neona
+14	4714	cīpsla	cīpslas cīpslu
+15	4715	nīderlandietis	nīderlandieti nīderlandieša nīderlandiešiem nīderlandiešu
+16	4716	biškopis	biškope biškopi biškopim biškopja biškopji biškopjiem biškopju
+17	4717	atvilktne	
+18	4718	kakāt	
+19	4719	hā	
+20	4720	sāts	sāta sātos
+21	4721	pakalt	pakal pakala pakaļu
+22	4722	albāniski	
+23	4723	oficiante	oficianti oficiants oficiantu
+24	4724	rudmate	rudmatei rudmates rudmati
+25	4725	dzelonis	dzeloni dzeloņa dzeloņus
+26	4726	svilpt	svilp svilpa svilpi svilpis svilpj
+27	4727	ekoloģiski	
+28	4728	patēvs	patēva patēvam patēvi patēvu
+29	4729	kraut	jākrauj krauj kraujam kraujiet kraujot krāva krāvi
+30	4730	brālīgs	brālīgajā brālīgajām brālīgajās brālīgas brālīgi brālīgo brālīgos brālīgu brālīgā brālīgās
+31	4731	simbolisms	simbolisma simbolismu
+32	4732	apse	apses apšu
+33	4733	galdauts	galdauta galdautam galdautiem galdautu galdautus
+34	4734	ģermāniete	ģermāņu
+35	4735	nabadzīgāks	nabadzīgais nabadzīgāka nabadzīgākajiem nabadzīgākajos nabadzīgākajā nabadzīgākajām nabadzīgākajās nabadzīgākas nabadzīgākie nabadzīgāko nabadzīgāku nabadzīgākā nabadzīgākās
+36	4736	sivēns	sivēna sivēni sivēnu
+37	4737	streiks	
+38	4738	azerbaidžāniete	azerbaidžāni azerbaidžāņi azerbaidžāņiem azerbaidžāņu
+39	4739	šašliks	šašlika šašlikos šašliku
+40	4740	ledains	ledaini ledainiem ledaino ledainā
+41	4741	dzimumloceklis	dzimumlocekli dzimumlocekļa dzimumlocekļi
+42	4742	paklausība	paklausības paklausību paklausībā
+43	4743	visbiežākais	biežais biežāka biežākais biežākajiem biežākajām biežākas biežāki biežākie biežākiem biežāko biežākos biežāks biežāku biežākā biežākās visbiežākie visbiežāko visbiežākā visbiežākās
+44	4744	astronoms	astronoma astronomi astronomiem astronomu
+45	4745	dancot	danco dancoju dancos dancosi dancosiet dancotu dancošanas dancošu nedancošu
+46	4746	zeltaini	
+47	4747	demonstrācija	
+48	4748	sievišķīgs	sievišķīga sievišķīgajai sievišķīgam sievišķīgi sievišķīgiem sievišķīgo sievišķīgu sievišķīgus sievišķīgā sievišķīgāka sievišķīgāks sievišķīgām sievišķīgās
+49	4749	šķaudīt	nešķaudīt šķauda šķaudot šķaudītu šķaudīšu
+50	4750	iniciēt	iniciē iniciēja iniciējis iniciējot iniciēs iniciēts iniciētu iniciēšana jāiniciē
+51	4751	darbīgs	darbīga darbīgajos darbīgam darbīgas darbīgi darbīgo darbīgu darbīgā darbīgāka darbīgākais darbīgākajiem darbīgāki darbīgās
+52	4752	deviņpadsmit	
+53	4753	trūcis	
+54	4754	krīts	krīt krīta krītam krīti krītu
+55	4755	pareizība	pareizībai pareizību
+56	4756	piecreiz	
+57	4757	neprasot	
+58	4758	mice	mici miu miču
+59	4759	zvīņa	zvīne zvīnis zvīņas zvīņu
+60	4760	pamācīt	jāpamāca pamāca pamācot pamācošs pamācāt pamācīja pamācīs pamācītu pamācīšu
+61	4761	lūdzējs	lūdzēja lūdzējam lūdzēji lūdzējiem lūdzēju lūdzējus
+62	4762	litijs	litija
+63	4763	vieglums	viegluma vieglumu
+64	4764	plakstiņš	plakstiņa plakstiņi plakstiņu plakstiņus
+65	4765	bors	bora
+66	4766	ciska	ciskas cisku ciskām
+67	4767	reņģe	reņģei reņģes reņģi reņģu reņģēm
+68	4768	burtnīca	burtnīcas burtnīcu burtnīcā burtnīcām
+69	4769	federāli	
+70	4770	polārlācis	polārlāča polārlāči
+71	4771	darbistaba	darbistabai darbistabas darbistabu darbistabā darbistabām
+72	4772	cietība	cietības cietību
+73	4773	sociālisms	sociālisma sociālismu sociālismā
+74	4774	sastingt	sastindzis
+75	4775	estētiski	
+76	4776	ģints	ģinti ģintis
+77	4777	atturīgs	atturīga atturīgajai atturīgi atturīgu atturīgāks
+78	4778	cepeškrāsns	cepeškrāsni cepeškrāsnī
+79	4779	gļotas	gļotu gļotām
+80	4780	zīdītājs	zīdītāji zīdītāju zīdītājus
+81	4781	steidzīgs	steidzīga steidzīgajam steidzīgajiem steidzīgajā steidzīgo steidzīgu steidzīgā
+82	4782	ūdenskrātuve	ūdenskrātuvei ūdenskrātuves ūdenskrātuvē ūdenskrātuvēm
+83	4783	monarhija	monarhijai monarhijas monarhiju
+84	4784	ceplis	cepli ceplī cepļa
+85	4785	revolveris	revolveri revolveriem
+86	4786	nacisms	nacisma nacismu
+87	4787	akcentēts	akcentēta akcentētas akcentētu
+88	4788	skaļums	skaļumu
+89	4789	vē	
+90	4790	veselīgāk	
+91	4791	bērnunams	bērnunama bērnunami bērnunamiem bērnunamos
+92	4792	fosils	fosilo fosilās
+93	4793	paduse	paduses padusi padusē padušu
+94	4794	nemainot	
+95	4795	abonēt	abonē abonēja abonējiet abonējot abonēju abonēšana
+96	4796	observatorija	observatorijas observatoriju
+97	4797	žiglāk	
+98	4798	kodoltermisks	kodoltermiskajām kodoltermisko kodoltermiskā kodoltermiskās
+99	4799	dvaša	dvašu
+100	4800	punšs	punša punšam punšu

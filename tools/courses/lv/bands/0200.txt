@@ -1,0 +1,100 @@
+1	101	uzņēmums	uzņēmuma uzņēmumam uzņēmumi uzņēmumiem uzņēmumos uzņēmumu uzņēmumus uzņēmumā
+2	102	iespēja	iespējai iespējas iespēju iespējā iespējām iespējās
+3	103	pret	
+4	104	nekā	
+5	105	šeit	
+6	106	spēle	spēlei spēles spēli spēlē spēlēm spēlēs spēļu
+7	107	kopā	
+8	108	dzīve	dzīvei dzīves dzīvi dzīvju dzīvē dzīvēm dzīvēs
+9	109	vārds	vārda vārdam vārdi vārdiem vārdos vārdu vārdus vārdā
+10	110	doties	devies devos devusies devušies devušās devāmies devās devāties dodamies dodas dodaties dodies dodieties dodos dodoties dosies dosieties dosimies dosities dotos došanos došanās došos jādodas nedevies nedevos nedevās nedevāties nedodas nedodies nedodos nedodoties nedosies nedosieties nedosimies nedoties nedotos nedošanos nedošos
+11	111	bez	
+12	112	tieši	
+13	113	izmantot	izmanto izmantoja izmantojam izmantojama izmantojamas izmantojami izmantojamiem izmantojams izmantojamu izmantojamā izmantojamās izmantojat izmantoji izmantojiet izmantojis izmantojot izmantoju izmantojām izmantojāt izmantos izmantosi izmantosiet izmantosim izmantota izmantotas izmantoti izmantotos izmantots izmantotu izmantotā izmantotās izmantošana izmantošanai izmantošanas izmantošanu izmantošanā izmantošu jāizmanto neizmantot
+14	114	iespējams	iespējama iespējamai iespējamais iespējamajai iespējamajam iespējamajiem iespējamajos iespējamajā iespējamajām iespējamajās iespējamam iespējamas iespējami iespējamie iespējamiem iespējamo iespējamos iespējamu iespējamus iespējamā iespējamām iespējamās
+15	115	draugs	draudzei draudzene draudzenei draudzenes draudzeni draudzenēm draudzeņu drauga draugam draugi draugiem draugos draugu draugus draugā
+16	116	nauda	naudai naudas naudu naudā
+17	117	sevi	sev sevī
+18	118	neviens	neviena nevienai nevienam nevienas nevieni nevienos nevienu nevienus nevienā nevienās
+19	119	palīdzēt	jāpalīdz nepalīdz nepalīdzat nepalīdzi nepalīdzu nepalīdzēja nepalīdzēji nepalīdzēju nepalīdzēs nepalīdzēsi nepalīdzēsiet nepalīdzēt nepalīdzētu nepalīdzēšu palīdz palīdzam palīdzat palīdzi palīdziet palīdzot palīdzu palīdzēja palīdzēji palīdzējis palīdzēju palīdzējusi palīdzējušas palīdzējuši palīdzējām palīdzējāt palīdzēs palīdzēsi palīdzēsiet palīdzēsim palīdzēsit palīdzētu palīdzēšana palīdzēšanu palīdzēšu
+20	120	strādāt	jāstrādā nestrādā nestrādāja nestrādājam nestrādājat nestrādās nestrādāt nestrādātu strādā strādāja strādājam strādājat strādāji strādājiet strādājis strādājot strādājoši strādājošiem strādājošos strādājošs strādājošu strādājošā strādāju strādājusi strādājušas strādājuši strādājām strādājāt strādās strādāsi strādāsiet strādāsim strādāts strādātu strādāšana strādāšanai strādāšanas strādāšanu strādāšu
+21	121	daļa	daļai daļas daļiņa daļiņai daļiņas daļiņu daļiņām daļiņās daļu daļā daļām daļās
+22	122	mazs	maza mazai mazais mazajai mazajam mazajiem mazajos mazajā mazajām mazajās mazam mazas mazi mazie maziem mazo mazos mazu mazus mazā mazāka mazākais mazākajiem mazākas mazāki mazākie mazākiem mazāko mazākos mazāks mazāku mazākus mazākā mazākām mazākās mazām mazās vismazākais vismazākā
+23	123	lūdzu	
+24	124	trīs	trijiem trijos triju trijām trijās trim
+25	125	vien	
+26	126	varbūt	
+27	127	gadījums	gadījum gadījuma gadījumam gadījumi gadījumiem gadījumos gadījumu gadījumus gadījumā
+28	128	patikt	jāpatīk nepatikt nepatīk paticis patiki patiks patiksi patiksim patiktu patiku patikāt patikšana patikšot patikšu patīc patīk patīkam patīkams patīkat patīkot patīku
+29	129	dot	deva devas devi devis devu devusi devušas devuši devām devās devāt dod dodam dodat dodiet dodot dodu dos dosi dosiet dosim dota dotas doti dotos dots dotu dotā dotās došanas došanu došu jādod nedeva nedod nedos nedot nedotu nedošu
+30	130	kļūt	jākļūst kļuva kļuvi kļuvis kļuvu kļuvusi kļuvušas kļuvuši kļuvām kļuvāt kļūs kļūsi kļūsiet kļūsim kļūst kļūstam kļūstat kļūsti kļūstiet kļūstot kļūstu kļūtu kļūšana kļūšanai kļūšanas kļūšanu kļūšu nekļuva nekļuvi nekļuvu nekļūs nekļūsi nekļūsiet nekļūst nekļūsti nekļūstiet nekļūt nekļūtu nekļūšu
+31	131	tomēr	
+32	132	tāpat	
+33	133	jautājums	jautājuma jautājumam jautājumi jautājumiem jautājumos jautājumu jautājumus jautājumā
+34	134	ceļš	ceļ ceļa ceļam ceļi ceļiem ceļos ceļu ceļus ceļā
+35	135	palikt	jāpaliek nepalikt palicis paliec palieciet paliek paliekam paliekat paliekot paliekošs palieku palika paliki paliks paliksi paliksiet paliksim paliksit palikts paliktu paliku palikām palikāt palikšana palikšot palikšu
+36	136	pilsēta	pilsētai pilsētas pilsētu pilsētā pilsētām pilsētās
+37	137	vairs	
+38	138	aiziet	aizej aizejam aizejat aizejiet aizejot aizeju aizgāja aizgāji aizgājis aizgāju aizgājusi aizgājušas aizgājuši aizgājušā aizgājām aizgājāt aizies aiziesi aiziesiet aiziesim aizietu aiziešana aiziešanai aiziešanas aiziešanu aiziešu jāaiziet neaizej neaizejat neaizejiet neaizeju neaizgāja neaizgāji neaizgāju neaizies neaiziesi neaiziet neaizietu neaiziešu
+39	139	eiro	
+40	140	reize	reizei reizes reizi reizē reizēs reižu
+41	141	situācija	situācijai situācijas situāciju situācijā situācijām situācijās
+42	142	vēlēties	jāvēlas nevēlas nevēlos nevēlēties vēlamies vēlas vēlaties vēlos vēloties vēlēdamies vēlējamies vēlējas vēlējies vēlējos vēlējāmies vēlējās vēlējāties vēlēsies vēlēsieties vēlēsimies vēlēsities vēlētos vēlēšos
+43	143	braukt	brauc brauca braucam braucamais braucamā braucamās braucat brauci brauciet braucis braucot braucu braucām braucāt brauks brauksi brauksiet brauksim brauktu braukusi braukuši braukšana braukšanai braukšanas braukšanu braukšanā braukšu jābrauc nebrauc nebraucam nebrauciet nebraucu nebrauks nebrauksi nebrauksiet nebrauksim nebraukt nebrauktu nebraukšu
+44	144	kungs	kung kunga kungam kungi kungiem kungu kungus
+45	145	komanda	komandai komandas komandu komandā komandām komandās
+46	146	dēļ	
+47	147	veikt	jāveic neveikt veic veica veicam veicams veicat veici veiciet veicis veicot veicu veicām veicāt veiks veiksi veiksiet veiksim veiksit veikta veikti veikts veiktu veiktā veikusi veikuši veikšana veikšu
+48	148	centrs	centr centra centram centri centriem centros centru centrus centrā
+49	149	nekad	
+50	150	dievs	dieva dievam dieves dievi dieviem dieviete dievietei dievietes dievieti dievu dievus dievā
+51	151	tiešām	
+52	152	viņas	viņu viņām viņās
+53	153	pēdējais	pēdējiem pēdējo pēdējos pēdējā pēdējās
+54	154	vienmēr	
+55	155	saņemt	jāsaņem nesaņemt saņem saņemam saņemat saņemiet saņemot saņems saņemsi saņemsiet saņemsim saņemsit saņemts saņemtu saņemu saņemšana saņemšanai saņemšanas saņemšanu saņemšanā saņemšot saņemšu saņēma saņēmi saņēmis saņēmu saņēmām saņēmāt
+56	156	skaits	skait skaita skaitam skaiti skaitos skaitu skaitus skaitā
+57	157	veids	veid veida veidam veidi veidiem veidos veidu veidus veidā
+58	158	iela	ielai ielam ielas ielu ielā ielām ielās
+59	159	vara	varai varas varu varā varām
+60	160	sieviete	sievietei sievietes sievieti sievietē sievietēm sievietēs sieviešu
+61	161	protams	protama
+62	162	skola	skolai skolas skolu skolā skolām skolās
+63	163	ģimene	ģimenei ģimenes ģimeni ģimenē ģimenēm ģimenēs ģimeņu
+64	164	vecs	veca vecai vecais vecajai vecajam vecajiem vecajos vecajā vecajām vecajās vecam vecas veci vecie veciem veco vecos vecu vecus vecā vecāka vecākais vecākajai vecākajam vecākajiem vecākajām vecākam vecākas vecākie vecākiem vecāko vecāks vecāku vecākus vecākā vecākām vecākās vecām vecās
+65	165	roka	rokai rokas rokos roku rokā rokām rokās
+66	166	dzīvot	dzīvo dzīvodams dzīvoja dzīvojam dzīvojamā dzīvojamām dzīvojamās dzīvojat dzīvoji dzīvojiet dzīvojis dzīvojot dzīvojošas dzīvojošiem dzīvojošos dzīvojošu dzīvojošā dzīvojošās dzīvoju dzīvojusi dzīvojuši dzīvojām dzīvojāt dzīvos dzīvosi dzīvosiet dzīvosim dzīvotu dzīvošana dzīvošanai dzīvošanas dzīvošanu dzīvošu jādzīvo nedzīvo nedzīvoja nedzīvojām nedzīvos nedzīvotu
+67	167	ļaut	jāļauj neļauj neļaut ļauj ļaujam ļaujat ļaujiet ļaujot ļauju ļaus ļausi ļausiet ļausim ļausit ļauts ļautu ļaušot ļaušu ļāva ļāvi ļāvis ļāvu ļāvām ļāvāt
+68	168	vienkārši	vnk
+69	169	puse	pusei puses pusi pusē pusēm pusēs pušu
+70	170	informācija	informācijai informācijas informāciju informācijā
+71	171	turpināt	jāturpina neturpina neturpinās neturpināsi neturpināsim neturpināt neturpinātu neturpināšu turpina turpini turpiniet turpinot turpinu turpināja turpināji turpinājis turpināju turpinājusi turpinājuši turpinājām turpinām turpināma turpinās turpināsi turpināsiet turpināsim turpināta turpinātas turpināti turpinātos turpināts turpinātu turpināšana turpināšanai turpināšanas turpināšanos turpināšanu turpināšot turpināšu
+72	172	nedēļa	nedēļai nedēļas nedēļu nedēļā nedēļām nedēļās
+73	173	likt	jāliek licis liec lieciet liek liekam liekams liekat liekot lieku lika likdams liki liks liksi liksiet liksim likts liktu liku likām likāt likšana likšot likšu nelikt
+74	174	ak	
+75	175	dažāds	dažāda dažādai dažādais dažādajai dažādajiem dažādajā dažādajām dažādajās dažādam dažādas dažādi dažādie dažādiem dažādo dažādos dažādu dažādus dažādā dažādām dažādās visdažādākie
+76	176	skaidrs	skaidra skaidrai skaidram skaidras skaidri skaidriem skaidro skaidros skaidru skaidrus skaidrā skaidrāka skaidrākas skaidrāki skaidrāko skaidrāks skaidrāku skaidrām skaidrās
+77	177	izdarīt	izdara izdari izdariet izdarot izdaru izdarām izdarāms izdarāt izdarīja izdarīji izdarījis izdarīju izdarījām izdarījāt izdarīs izdarīsi izdarīsiet izdarīsim izdarīsit izdarīts izdarītu izdarīšana izdarīšot izdarīšu jāizdara neizdarīt
+78	178	iedzīvotājs	iedzīvotāj iedzīvotāja iedzīvotājam iedzīvotāji iedzīvotājiem iedzīvotājos iedzīvotāju iedzīvotājus
+79	179	grupa	grupai grupas grupu grupā grupām grupās
+80	180	meklēt	jāmeklē meklē meklēdami meklēja meklējam meklējama meklējamas meklējami meklējams meklējat meklēji meklējiet meklējis meklējot meklēju meklējusi meklējuši meklējām meklējāt meklēs meklēsi meklēsim meklēta meklētais meklētas meklēti meklēts meklētu meklēšana meklēšanai meklēšanas meklēšanu meklēšanā meklēšu nemeklē nemeklējam nemeklējat nemeklēs nemeklēt
+81	181	savukārt	
+82	182	skatīties	jāskatās neskatoties neskatīties skaties skatieties skatos skatoties skatāmies skatās skatāties skatīdamies skatījies skatījos skatījāmies skatījās skatījāties skatīsies skatīsieties skatīsimies skatīsities skatītos skatīšanās skatīšos
+83	183	vairāki	vairākas vairākiem vairākos vairāku vairākus vairākām vairākās
+84	184	šobrīd	
+85	185	spēt	jāspēj nespēdams nespēj nespēja nespējam nespējat nespēji nespējis nespējot nespējām nespējāt nespēs nespēsi nespēsiet nespēsim nespēt nespētu nespēšu spēdams spēj spējam spējat spēji spējis spējot spējusi spējām spējāt spēs spēsi spēsiet spēsim spēsit spētu spēšot spēšu
+86	186	norādīt	norāda norādot norādīja norādījis norādīts
+87	187	labāk	
+88	188	novads	novada novadam novadi novadiem novados novadu novadus novadā
+89	189	dzirdēt	dzird dzirdam dzirdama dzirdamas dzirdami dzirdams dzirdat dzirdi dzirdot dzirdu dzirdēja dzirdēji dzirdējis dzirdēju dzirdējusi dzirdējuši dzirdējām dzirdējāt dzirdēs dzirdēsi dzirdēsiet dzirdēsim dzirdēti dzirdēts dzirdētu dzirdēšu jādzird nedzird nedzirdat nedzirdi nedzirdu nedzirdēja nedzirdēji nedzirdēju nedzirdējāt nedzirdēs nedzirdēsi nedzirdēsim nedzirdēt
+90	190	miljons	miljon miljona miljonam miljoni miljoniem miljonos miljonu miljonus
+91	191	spēks	spēk spēka spēkam spēki spēkiem spēkos spēku spēkus spēkā
+92	192	atrasties	atradies atrados atradāmies atradās atradāties atradīsies atradīsieties atradīsimies atradīšos atrazdamies atrašanās atrodamies atrodas atrodaties atrodies atrodieties atrodos atrodoties censtos jāatrodas neatrasties
+93	193	pasākums	pasākuma pasākumam pasākumi pasākumiem pasākumos pasākumu pasākumus pasākumā
+94	194	rezultāts	rezultāta rezultātam rezultāti rezultātiem rezultātos rezultātu rezultātus rezultātā
+95	195	sveiks	sveika sveikas sveiki sveikiem sveiku sveikus sveikā
+96	196	gatavs	gatava gatavai gatavais gatavajiem gatavam gatavas gatavi gatavie gataviem gatavo gatavos gatavu gatavus gatavā gatavāka gatavākas gatavāki gatavāks gatavām gatavās
+97	197	tiesa	tiesai tiesas tiesu tiesā tiesām tiesās
+98	198	daudzi	daudzas daudzie daudziem daudzos daudzu daudzus daudzām daudzās
+99	199	pāris	pāra pāri pāriem pārim pāros pāru pārus pārī
+100	200	brīdis	brīdi brīdim brīdī brīža brīži brīžiem brīžos brīžu brīžus

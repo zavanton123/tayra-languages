@@ -1,0 +1,100 @@
+1	1101	nometne	nometnei nometnes nometni nometnē nometnēm nometnēs nometņu
+2	1102	zils	zila zilais zilajai zilajam zilajiem zilajos zilajā zilajām zilajās zilas zili zilie ziliem zilo zilos zilu zilus zilā zilām zilās
+3	1103	klau	
+4	1104	nolemt	nolēma nolēmis nolēmusi nolēmām
+5	1105	fināls	fināla finālam fināli fināliem finālos finālu finālus finālā
+6	1106	apdrošināšana	apdrošināšanai apdrošināšanas apdrošināšanu apdrošināšanā apdrošināšanām
+7	1107	ceturtais	ceturtajai ceturtajam ceturtajā ceturtie ceturto ceturtos ceturtā ceturtās
+8	1108	federācija	federācijai federācijas federāciju federācijā federācijām federācijās
+9	1109	gaļa	gaļai gaļas gaļu gaļā
+10	1110	tapt	jātop netapt tapis taps tapsi taptu tapu tapušais tapāt tapšana top topam topi topot topošais topu
+11	1111	turpmāks	turpmāka turpmākai turpmākais turpmākajai turpmākajam turpmākajiem turpmākajos turpmākajā turpmākajām turpmākajās turpmākam turpmākas turpmāki turpmākie turpmākiem turpmāko turpmākos turpmāku turpmākus turpmākā turpmākām turpmākās
+12	1112	gāze	gāzei gāzes gāzi gāzu gāzē gāzēm gāžu
+13	1113	akcija	akciju akcijā
+14	1114	loks	lok loka lokam loki lokiem loko lokos loku lokus lokā lokās
+15	1115	saturs	satura saturu
+16	1116	fotogrāfija	fotogrāfijai fotogrāfijas fotogrāfiju fotogrāfijā fotogrāfijām fotogrāfijās
+17	1117	ienaidnieks	ienaidniece ienaidnieces ienaidnieka ienaidniekam ienaidnieki ienaidniekiem ienaidnieku ienaidniekus
+18	1118	pirksts	pirksta pirkstam pirksti pirkstiem pirkstiņš pirkstos pirkstu pirkstus pirkstā
+19	1119	pārsteigums	pārsteiguma pārsteigumam pārsteigumi pārsteigumiem pārsteigumu pārsteigumus pārsteigumā
+20	1120	reforma	reformas reformu reformām
+21	1121	sekss	seks seksa seksam seksu seksā
+22	1122	kauja	kaujai kaujas kauju kaujā kaujām kaujās
+23	1123	komisija	komisijā
+24	1124	prakse	praksei prakses praksi praksē praksēm praksēs prakšu
+25	1125	eksports	eksporta eksportam eksportu eksportā
+26	1126	vēlu	
+27	1127	ola	olai olas olu olā olām olās
+28	1128	apkārtne	apkārtnei apkārtnes apkārtni apkārtnē apkārtnēm apkārtnēs
+29	1129	metode	metodei metodes metodi metodē metodēm metodēs metožu
+30	1130	asociācija	asociācijai asociācijas asociāciju asociācijā asociācijām
+31	1131	jēga	jēgai jēgas jēgu jēgā
+32	1132	gana	ganu ganā
+33	1133	kods	kod koda kodam kodi kodiem kodu kodus kodā
+34	1134	gatavot	gatavo gatavoja gatavojam gatavojamai gatavojamas gatavojat gatavoji gatavojiet gatavojis gatavojot gatavoju gatavojusi gatavojuši gatavojām gatavojāt gatavos gatavosi gatavosim gatavota gatavotais gatavotas gatavoti gatavotiem gatavotos gatavots gatavotu gatavotus gatavotā gatavošana gatavošanai gatavošanas gatavošanos gatavošanu gatavošanā gatavošu jāgatavo negatavo negatavoja negatavosi
+35	1135	tukšs	tukša tukšai tukšais tukšajam tukšajiem tukšajos tukšajā tukšajām tukšajās tukšam tukšas tukši tukšie tukšiem tukšo tukšos tukšu tukšus tukšā tukšām tukšās
+36	1136	soma	somai somas somu somā somām somās
+37	1137	mierīgi	
+38	1138	izslēgt	izslēdz izslēdza izslēdzam izslēdzat izslēdzi izslēdziet izslēdzis izslēdzot izslēdzošs izslēdzu izslēdzām izslēgs izslēgsi izslēgsim izslēgts izslēgtu izslēgšana izslēgšu jāizslēdz neizslēgt
+39	1139	stulbs	stulba stulbais stulbajai stulbajam stulbajiem stulbajā stulbajām stulbajās stulbam stulbas stulbie stulbiem stulbo stulbos stulbu stulbus stulbā stulbāks stulbām stulbās visstulbākais
+40	1140	negadījums	negadījuma negadījumam negadījumi negadījumiem negadījumos negadījumu negadījumus negadījumā
+41	1141	re	
+42	1142	variants	variant varianta variantam varianti variantiem variantos variantu variantus variantā
+43	1143	atā	
+44	1144	vislielākais	lielais lielāk lielāka lielākai lielākais lielākajai lielākajam lielākajiem lielākajos lielākajā lielākajām lielākajās lielākam lielākas lielāki lielākie lielākiem lielāko lielākos lielāks lielāku lielākus lielākā lielākām lielākās vislielākajai vislielākajam vislielākajiem vislielākajā vislielākajām vislielākas vislielākie vislielāko vislielākos vislielākā vislielākās
+45	1145	statuss	status statusa statusam statusi statusu statusā
+46	1146	tikties	tiksies tikās
+47	1147	iekļūt	iekļuva iekļuvi iekļuvis iekļuvu iekļuvusi iekļuvušas iekļuvuši iekļuvām iekļuvāt iekļūs iekļūsi iekļūsiet iekļūsim iekļūst iekļūstam iekļūsti iekļūstot iekļūstu iekļūts iekļūtu iekļūšana iekļūšanai iekļūšanas iekļūšanu iekļūšu jāiekļūst neiekļuva neiekļuvu neiekļuvāt neiekļūdama neiekļūs neiekļūsiet neiekļūst neiekļūstu neiekļūt neiekļūtu neiekļūšu
+48	1148	elle	ellei elles elli ellē eļļu
+49	1149	sanākt	sanāca sanāk
+50	1150	departaments	departamenta
+51	1151	sods	sod sodam sodi sodiem sodos sodu sodus
+52	1152	rīkot	jārīko nerīkot rīko rīkoja rīkojam rīkojat rīkoji rīkojiet rīkojis rīkojot rīkoju rīkojām rīkojāt rīkos rīkosiet rīkosim rīkoto rīkots rīkotu rīkošana rīkošot rīkošu
+53	1153	vilnis	viis vilni vilnim vilnī viļņa viļņi viļņiem viļņos viļņu viļņus
+54	1154	atbalstīt	atbalstīja
+55	1155	patika	patikas patiku patikās
+56	1156	ezers	ezera ezeram ezeri ezeriem ezeros ezeru ezerus ezerā
+57	1157	objekts	objekti objektiem objektu
+58	1158	sevis	
+59	1159	izdevums	izdevumi izdevumiem izdevumus
+60	1160	apmeklētājs	apmeklētāji apmeklētājiem apmeklētāju apmeklētājus
+61	1161	tiešs	tieša tiešai tiešais tiešajai tiešajam tiešajiem tiešajā tiešajām tiešam tiešas tiešie tiešiem tiešo tiešos tiešu tiešus tiešā tiešās vistiešākais
+62	1162	pakaļa	pakaļai pakaļas pakaļu pakaļā pakaļām pakaļās
+63	1163	bibliotēka	bibliotēkai bibliotēkas bibliotēku bibliotēkā bibliotēkām bibliotēkās
+64	1164	funkcija	funkcijai funkcijas funkciju funkcijā funkcijām funkcijās
+65	1165	teksts	teksta tekstam teksti tekstiem tekstos tekstu tekstus tekstā
+66	1166	pēkšņi	
+67	1167	prognoze	prognozei prognozes prognozi prognozē prognozēm prognozēs prognožu
+68	1168	slims	slima slimai slimais slimajam slimajiem slimajās slimam slimas slimi slimie slimiem slimo slimos slimu slimus slimā slimās
+69	1169	krist	jākrīt krists kristu krita kriti kritis kritu kritām kritāt kritīs kritīsi kritīsiet kritīsim kritīšu krizdams krišana krīt krītam krītat krīti krītot krītošs krītu nekrist
+70	1170	skatītājs	skatītājam skatītāji skatītājiem skatītāju
+71	1171	papīrs	papīra papīram papīri papīriem papīros papīru papīrus papīrā
+72	1172	slēpt	jāslēpj neslēp neslēpa neslēpj neslēpjam neslēpju neslēpsi neslēpt neslēptu neslēpšu slēp slēpa slēpi slēpis slēpj slēpjam slēpjama slēpjams slēpjat slēpjot slēpju slēps slēpta slēptais slēptas slēpti slēpts slēptu slēptā slēptām slēptās slēpu slēpusi slēpuši slēpšana slēpšanai slēpšanas slēpšanu slēpšanā
+73	1173	laiva	laivai laivas laivu laivā laivām laivās
+74	1174	plānot	jāplāno neplānot plāno plānoja plānojam plānojams plānojat plānojiet plānojis plānojot plānoju plānojām plānojāt plānos plānosim plānotu plānošana plānošu
+75	1175	nesen	
+76	1176	tilts	tilta tiltam tilti tiltiem tiltos tiltu tiltus tiltā
+77	1177	vēzis	vēi vēis vēzi vēzim vēža vēži vēžiem vēžu vēžus
+78	1178	solis	soļus
+79	1179	risinājums	risinājumi
+80	1180	vislabākais	labais labāka labākai labākais labākajai labākajam labākajiem labākajos labākajā labākajām labākajās labākam labākas labāki labākie labākiem labāko labākos labāks labāku labākus labākā labākām labākās vislabākajai vislabākajam vislabākajiem vislabākajos vislabākajā vislabākajām vislabākajās vislabākie vislabāko vislabākos vislabākā vislabākās
+81	1181	pakaļ	
+82	1182	virtuve	virtuvei virtuves virtuvi virtuvju virtuvē virtuvēm virtuvēs
+83	1183	brīnums	brīnum brīnuma brīnumam brīnumi brīnumiem brīnumos brīnumu brīnumus brīnumā
+84	1184	izklausīties	izklausās
+85	1185	aktīvi	
+86	1186	maksājums	maksājuma maksājumam maksājumi maksājumiem maksājumos maksājumu maksājumus maksājumā
+87	1187	jumts	jumta jumtam jumti jumtiem jumtu jumtus jumtā
+88	1188	kājām	
+89	1189	profesors	profesor profesora profesoram profesore profesorei profesores profesori profesoriem profesoru profesorus profesorā
+90	1190	piens	pien piena pienam pienu pienā
+91	1191	dīvains	dīvaina dīvainais dīvainajiem dīvainajā dīvainajām dīvainajās dīvainam dīvainas dīvainie dīvainiem dīvaino dīvainos dīvainu dīvainus dīvainā dīvaināka dīvainākais dīvainākajiem dīvainākas dīvaināki dīvaināko dīvaināks dīvaināku dīvainākā dīvainām dīvainās visdīvaināk visdīvainākais visdīvainākajiem visdīvainākajās visdīvainākie visdīvainākā visdīvainākās
+92	1192	izstrādāt	izstrādā izstrādāja izstrādājam izstrādājams izstrādāji izstrādājiet izstrādājis izstrādājot izstrādāju izstrādājām izstrādās izstrādāsi izstrādāsim izstrādāts izstrādātu izstrādāšana izstrādāšu jāizstrādā
+93	1193	rēķins	rēķina rēķinam rēķini rēķiniem rēķinos rēķinu rēķinus rēķinā
+94	1194	auksts	auksta aukstai aukstais aukstajai aukstajiem aukstajos aukstajā aukstajām aukstam aukstas auksti aukstie auksto aukstos aukstu aukstus aukstā aukstāk aukstāka aukstākai aukstākais aukstākajiem aukstākajos aukstākajā aukstākajām aukstākam aukstākas aukstākiem aukstāks aukstāku aukstākā aukstākās aukstās visaukstākā visaukstākās
+95	1195	svars	svar svara svaram svari svariem svaru svarus svarā
+96	1196	dalīties	dalies dalieties dalos daloties dalāmies dalās dalāties dalījies dalījos dalījāmies dalījās dalījāties dalīsies dalīsimies dalītos dalīšanās dalīšos jādalās nedalīties
+97	1197	nogale	nogalē
+98	1198	muļķis	muļķa muļķe muļķes muļķi muļķiem muļķim muļķos muļķu muļķus muļķēm muļķī
+99	1199	dzinējs	dzinēj dzinēja dzinējam dzinēji dzinējiem dzinēju dzinējus dzinējā
+100	1200	lācis	lāci lācim lācī lāi lāča lāči lāčiem lāčos lāču lāčus

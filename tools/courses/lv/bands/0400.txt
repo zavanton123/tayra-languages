@@ -1,0 +1,100 @@
+1	301	iepriekš	
+2	302	attiecība	attiecībai attiecības attiecību attiecībā attiecībām attiecībās
+3	303	filma	filmai filmas filmu filmā filmām filmās
+4	304	nodrošināt	jānodrošina nodrošina nodrošinot nodrošināta nodrošinātu nodrošinātās
+5	305	padome	padomei padomes padomi padomju padomē padomēm padomēs
+6	306	dziesma	dziesmai dziesmas dziesmu dziesmā dziesmām dziesmās
+7	307	gandrīz	
+8	308	ziņas	ziņu ziņām ziņās
+9	309	cerēt	cer cerat ceri ceriet cerot ceru cerēdami cerēja cerēji cerējis cerēju cerējusi cerējušas cerējuši cerējām cerējāt cerēsim cerētais cerētos cerēts cerētu cerētā cerētās cerēšana cerēšu jācer necer neceram neceri neceriet necerot neceru necerēja necerēji necerēju necerējām necerēt necerēti necerētu
+10	310	ticēt	jātic netic neticam neticat netici neticiet neticu neticēja neticēju neticēs neticēsi neticēsiet neticēt neticētu neticēšu tic ticam ticama ticami ticams ticamu ticamākais ticat tici ticiet ticot ticu ticēja ticēji ticējis ticēju ticējām ticējāt ticēs ticēsi ticēsim ticētu ticēšu visticamākais
+11	311	minūte	minūtei minūtes minūti minūtē minūtēm minūtēs minūšu
+12	312	izglītība	izglītībai izglītības izglītību izglītībā
+13	313	piedalīties	piedaloties piedalās piedalījusies piedalījušies piedalījās piedalīsies
+14	314	īpaši	
+15	315	nozare	nozarei nozares nozari nozaru nozarē nozarēm nozarēs
+16	316	ierasties	censtos ieradies ierados ieradusies ieradušies ieradāmies ieradās ieradāties ieradīsies ieradīsieties ieradīsimies ieradīsities ieradīšos ieradīšoties ierašanās ierodamies ierodas ierodaties ierodies ierodieties ierodos ierodoties jāierodas neierasties
+17	317	tiesības	tiesība tiesību tiesībām tiesībās
+18	318	it	
+19	319	velns	veln velna velnam velni velniem velnu
+20	320	apmērs	apmēr apmēra apmēram apmēri apmēriem apmēros apmēru apmērus apmērā
+21	321	ziņot	jāziņo neziņot ziņo ziņoja ziņojam ziņojams ziņojiet ziņojis ziņojot ziņoju ziņojām ziņojāt ziņos ziņosi ziņosiet ziņosim ziņots ziņotu ziņošana ziņošu
+22	322	dēls	dēla dēlam dēli dēliem dēlos dēlu dēlus dēlā
+23	323	sociāls	sociāla sociālai sociālais sociālajai sociālajam sociālajiem sociālajos sociālajā sociālajām sociālajās sociālas sociālie sociāliem sociālo sociālos sociālu sociālus sociālā sociālām sociālās
+24	324	mīlēt	jāmīl mīl mīlam mīlat mīliet mīlot mīloša mīlošas mīloši mīlošs mīlošā mīlošās mīlu mīlēja mīlēji mīlējis mīlēju mīlējusi mīlējuši mīlējām mīlēs mīlēsi mīlēsiet mīlēsim mīlēta mīlētam mīlēti mīlēts mīlētu mīlēšu nemīl nemīlat nemīli nemīlu nemīlēja nemīlēju nemīlēt nemīlētu nemīlēšu
+25	325	ēka	ēkai ēkas ēku ēkā ēkām ēkās
+26	326	kopums	kopuma kopumam kopumi kopumu kopumus kopumā
+27	327	kultūra	kultūrai kultūras kultūru kultūrā kultūrām kultūrās
+28	328	miris	mirusi miruša mirušai mirušam mirušas miruši mirušiem mirušos mirušu mirušus mirušā mirušām mirušās
+29	329	nedaudz	
+30	330	nākamais	nākamajā nākamo nākamā
+31	331	prieks	priek prieka priekam prieki priekiem priekos prieku priekus priekā
+32	332	veikals	veikal veikala veikalam veikali veikaliem veikalos veikalu veikalus veikalā
+33	333	ievērot	ievēro ievēroja ievērojam ievērojama ievērojamais ievērojamajai ievērojamajiem ievērojamam ievērojamas ievērojami ievērojamie ievērojamiem ievērojamo ievērojamos ievērojams ievērojamu ievērojamus ievērojamā ievērojamāks ievērojamām ievērojamās ievērojat ievēroji ievērojiet ievērojis ievērojot ievēroju ievērojām ievērojāt ievēros ievērosi ievērosiet ievērosim ievērots ievērotu ievērošana ievērošu jāievēro neievērot
+34	334	programma	programmai programmas programmu programmā programmām programmās
+35	335	nāve	nāvei nāves nāvi nāvju nāvē nāvēm nāvēs
+36	336	lieliski	
+37	337	svarīgs	svarīga svarīgai svarīgais svarīgajiem svarīgajos svarīgajā svarīgajām svarīgajās svarīgam svarīgas svarīgie svarīgiem svarīgo svarīgos svarīgu svarīgus svarīgā svarīgāka svarīgākais svarīgākajai svarīgākajam svarīgākajiem svarīgākajos svarīgākajā svarīgākajām svarīgākajās svarīgākas svarīgāki svarīgākie svarīgāko svarīgākos svarīgāks svarīgāku svarīgākā svarīgākām svarīgākās svarīgām svarīgās vissvarīgākais
+38	338	ātri	
+39	339	vecāki	vecākiem vecākos vecāku vecākus
+40	340	pieņemt	jāpieņem pieņem pieņemti pieņemts pieņēma
+41	341	daži	daža dažas
+42	342	galva	galvai galvam galvas galvos galvu galvā galvām galvās
+43	343	rakstīt	jāraksta neraksta neraksti nerakstiet nerakstu nerakstīju nerakstījāt nerakstīs nerakstīt nerakstītu nerakstīšu raksta raksti rakstiet rakstot rakstu rakstām rakstāmais rakstāms rakstāt rakstīja rakstīji rakstījis rakstīju rakstījusi rakstījuši rakstījām rakstījāt rakstīs rakstīsi rakstītais rakstīts rakstītu rakstīšana rakstīšanai rakstīšanas rakstīšanu rakstīšanā rakstīšu
+44	344	lietot	jālieto lieto lietodams lietoja lietojam lietojams lietojat lietoji lietojiet lietojis lietojot lietoju lietojām lietojāt lietos lietosi lietosiet lietosim lietota lietotam lietotas lietoti lietotiem lietotos lietots lietotu lietotus lietotā lietotām lietotās lietošana lietošanai lietošanas lietošanu lietošanā lietošanās lietošu nelietot
+45	345	mīļš	mīļa mīļais mīļajai mīļajam mīļajiem mīļajā mīļajām mīļam mīļas mīļie mīļiem mīļo mīļos mīļu mīļus mīļā mīļāka mīļākajai mīļākajam mīļākajiem mīļākajā mīļākajām mīļākajās mīļāki mīļākie mīļāko mīļākos mīļāks mīļākā mīļākās mīļām mīļās vismīļākais
+46	346	iestāde	iestādei iestādes iestādi iestādē iestādēm iestādēs iestāžu
+47	347	ministrija	ministrijai ministrijas ministriju ministrijā ministrijām ministrijās
+48	348	sniegt	jāsniedz nesniegt sniedz sniedza sniedzam sniedzi sniedziet sniedzis sniedzot sniedzu sniedzām sniedzāt snieg sniega sniegam sniegs sniegsi sniegsiet sniegsim sniegts sniegtu sniegu sniegā sniegšana sniegšu
+49	349	marts	marta martam marti martu martā
+50	350	paredzēt	jāparedz neparedzēt paredz paredzam paredzams paredzat paredzi paredziet paredzot paredzu paredzēja paredzēji paredzējis paredzēju paredzējām paredzēs paredzēsim paredzēts paredzētu paredzēšana
+51	351	atvērt	atver atveram atveriet atverot atveru atvēra atvēri atvēris atvērs atvērsi atvērsim atvērta atvērtai atvērtais atvērtas atvērti atvērtiem atvērtos atvērts atvērtu atvērtus atvērtā atvērtām atvērtās atvēru atvērusi atvēruši atvērām atvērāt atvēršana atvēršanai atvēršanas atvēršanu atvēršu jāatver neatver neatvērt neatvērtu neatvēru
+52	352	aizmirst	aizmirsa aizmirsi aizmirsis aizmirsta aizmirstam aizmirstas aizmirstat aizmirsti aizmirstiet aizmirstot aizmirsts aizmirstu aizmirstās aizmirsu aizmirsusi aizmirsuši aizmirsām aizmirsāt aizmirsīs aizmirsīsi aizmirsīsiet aizmirsīsim aizmirsīšu jāaizmirst neaizmirsa neaizmirsi neaizmirst neaizmirstama neaizmirstams neaizmirstamu neaizmirsti neaizmirstiet neaizmirstot neaizmirstu neaizmirsu neaizmirsīs neaizmirsīsi neaizmirsīsim neaizmirsīšu
+53	353	šogad	
+54	354	izvēlēties	izvēlamies izvēlas izvēlaties izvēlies izvēlieties izvēlos izvēloties izvēlējas izvēlējies izvēlējos izvēlējāmies izvēlējās izvēlējāties izvēlēsies izvēlēsieties izvēlēsimies izvēlēsities izvēlētos izvēlēšanās izvēlēšos jāizvēlas neizvēlēties
+55	355	process	proces procesa procesam procesi procesiem procesos procesu procesus procesā
+56	356	dienests	dienesta dienestam dienesti dienestiem dienestos dienestu dienestus dienestā
+57	357	atstāt	atstāj atstāja atstājam atstājams atstājat atstāji atstājiet atstājis atstājot atstāju atstājām atstājāt atstās atstāsi atstāsiet atstāsim atstāsit atstāts atstātu atstāšana atstāšot atstāšu jāatstāj neatstāt
+58	358	skaists	skaista skaistai skaistais skaistajai skaistajam skaistajiem skaistajos skaistajā skaistajām skaistajās skaistam skaistas skaistie skaistiem skaisto skaistos skaistu skaistus skaistā skaistāk skaistāka skaistākais skaistākajiem skaistākajā skaistākajām skaistākas skaistāki skaistākie skaistāko skaistākos skaistāks skaistāku skaistākā skaistākās skaistām skaistās visskaistākais
+59	359	karš	kara karam kari kariem karos karu karus karā
+60	360	līdzeklis	līdzekli līdzeklim līdzeklī līdzekļa līdzekļi līdzekļiem līdzekļos līdzekļu līdzekļus
+61	361	starptautisks	starptautiska starptautiskai starptautiskais starptautiskajai starptautiskajam starptautiskajiem starptautiskajos starptautiskajā starptautiskajām starptautiskajās starptautiskam starptautiskas starptautiskie starptautiskiem starptautisko starptautiskos starptautisku starptautiskus starptautiskā starptautiskām starptautiskās
+62	362	sirds	sirdi sirdij sirdis sirdī sirdīm sirdīs siržu
+63	363	uzvarēt	jāuzvar neuzvarēt uzvar uzvaram uzvarams uzvarat uzvari uzvariet uzvarot uzvarošs uzvaru uzvarēja uzvarēji uzvarējis uzvarēju uzvarējām uzvarējāt uzvarēs uzvarēsi uzvarēsiet uzvarēsim uzvarēts uzvarētu uzvarēšana uzvarēšu
+64	364	mūzika	mūzikai mūzikas mūziku mūzikā
+65	365	ekonomika	ekonomikai ekonomikas ekonomiku ekonomikā
+66	366	iemesls	iemesla iemeslam iemesli iemesliem iemeslos iemeslu iemeslus
+67	367	sākties	sācies sākas sāksies sākās
+68	368	atzīt	atzina atzini atzinis atzinu atzinām atzīs atzīsi atzīsiet atzīsim atzīst atzīstam atzīstams atzīstat atzīsti atzīstiet atzīstot atzīstu atzīti atzīts atzītu atzīšana atzīšu jāatzīst neatzīt
+69	369	paskatīties	jāpaskatās nepaskatīties paskaties paskatieties paskatos paskatoties paskatāmies paskatās paskatāties paskatījies paskatījos paskatījāmies paskatījās paskatījāties paskatīsies paskatīsieties paskatīsimies paskatītos paskatīšos
+70	370	saruna	sarunai sarunas sarunu sarunā sarunām sarunās
+71	371	lielisks	lieliska lieliskai lieliskais lieliskajai lieliskajam lieliskajiem lieliskajā lieliskajām lieliskam lieliskas lieliskie lieliskiem lielisko lieliskos lielisku lieliskus lieliskā lieliskāks lieliskām lieliskās vislieliskākais vislieliskākajam vislieliskākā
+72	372	līgums	līgum līguma līgumam līgumi līgumiem līgumos līgumu līgumus līgumā
+73	373	līdzi	
+74	374	vecums	vecuma vecumam vecumiem vecumos vecumu vecumā
+75	375	ilgi	
+76	376	slimība	slimībai slimības slimību slimībā slimībām
+77	377	iegūt	ieguva ieguvis ieguvuši iegūst iegūta iegūtu
+78	378	doma	domai domam domas domu domus domām domās
+79	379	liecināt	jāliecina liecina liecini liecinot liecinu liecināja liecināji liecinājis liecināju liecinājāt liecinām liecinās liecināsi liecināsiet liecinātu liecināšana liecināšot liecināšu neliecināt
+80	380	ietekme	ietekmei ietekmes ietekmi ietekmē ietekmēm ietekmēs
+81	381	mācība	mācībai mācības mācību mācībā mācībām mācībās
+82	382	sieva	sievai sievas sievi sievu sievām sievās
+83	383	posms	posma posmam posmi posmiem posmos posmu posmus posmā
+84	384	ap	
+85	385	krīze	krīzei krīzes krīzi krīzē krīzēm krīzēs krīžu
+86	386	ideja	idejai idejas ideju idejā idejām idejās
+87	387	partija	partijai partijas partiju partijā partijām partijās
+88	388	zāle	zālei zāles zāli zālē zālēm zālēs zāļu
+89	389	taisnība	taisnībai taisnības taisnību taisnībā
+90	390	iekšā	
+91	391	nākotne	nākotnei nākotnes nākotni nākotnē
+92	392	pilns	pilna pilnai pilnais pilnajam pilnajiem pilnajos pilnajā pilnam pilnas pilni pilnie pilniem pilno pilnos pilnu pilnus pilnā pilnākajā pilnākas pilnāki pilnāks pilnāku pilnām pilnās
+93	393	atklāt	atklāj atklāja atklājam atklājams atklājat atklāji atklājiet atklājis atklājot atklāju atklājām atklājāt atklās atklāsi atklāsiet atklāsim atklātu atklāšana atklāšu jāatklāj neatklāj neatklāt
+94	394	gaiss	gais gaisa gaisam gaisiem gaisu gaisā
+95	395	jeb	
+96	396	uzsvērt	jāuzsver uzsver uzsveram uzsverot uzsveru uzsvēra uzsvērdams uzsvēris uzsvērs uzsvērts uzsvērtu uzsvēru uzsvērām uzsvēršu
+97	397	telpa	telpas telpu telpā telpās
+98	398	vide	videi vides vidi vidu vidē vidēm vidēs
+99	399	brālis	brāi brāli brālim brālī brāļa brāļi brāļiem brāļos brāļu brāļus
+100	400	aizsardzība	aizsardzībai aizsardzības aizsardzību aizsardzībā

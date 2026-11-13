@@ -1,0 +1,100 @@
+1	5501	oboja	obojai obojas oboju
+2	5502	veikalnieks	veikalnieki veikalnieku
+3	5503	miegainība	miegainības
+4	5504	pelnošais	pelnošajām pelnošo pelnošos pelnošā
+5	5505	mazturīgs	mazturīgajiem mazturīgie mazturīgo mazturīgos mazturīgākajiem mazturīgām
+6	5506	intīmāks	intīmais intīmākajās intīmākas intīmāki intīmākos intīmākus visintīmākās
+7	5507	dubļains	dubļaina dubļaino
+8	5508	caurvējš	caurvēja caurvējos
+9	5509	gludeklis	gludekļa
+10	5510	vālodze	vālodzes
+11	5511	visskaidrāk	
+12	5512	auskars	
+13	5513	spožāk	
+14	5514	stings	stinga
+15	5515	sirmi	
+16	5516	ārprātīgi	
+17	5517	asāk	
+18	5518	gaļēdājs	gaļēdāji gaļēdājiem
+19	5519	neuzdodot	
+20	5520	pļaujmašīna	pļaujmašīnas pļaujmašīnu
+21	5521	daiļums	daiļuma daiļumu
+22	5522	cilvēcīgums	cilvēcīguma cilvēcīgumu
+23	5523	fizioloģija	fizioloģijas fizioloģiju
+24	5524	grāfiste	grāfistes grāfistē
+25	5525	pelavas	pelavu pelavām
+26	5526	menisks	meniska
+27	5527	nūjot	
+28	5528	starpbanku	
+29	5529	homoseksualitāte	homoseksualitātes homoseksualitāti
+30	5530	tadžikiete	tadžiki tadžiku
+31	5531	fjords	fjordi fjordu
+32	5532	tautisks	tautiskas tautisko tautisku
+33	5533	oftalmologs	oftalmologa oftalmologu
+34	5534	redīss	redīsi redīsiem redīsu redīsus
+35	5535	upene	upenes upenēm upenēs upeņu
+36	5536	etnogrāfija	etnogrāfijas
+37	5537	nemainītais	nemainīto nemainītos
+38	5538	tece	teci tecēs tei
+39	5539	ņau	
+40	5540	salnis	saus
+41	5541	rātni	
+42	5542	smieklīgāk	
+43	5543	neprātība	
+44	5544	erchercogs	
+45	5545	irīdijs	
+46	5546	erceņģelis	erceņģeli
+47	5547	daudzskaitlis	daudzskaitlī daudzskaitļa
+48	5548	gnīda	gnīdai gnīdas
+49	5549	stingums	stinguma
+50	5550	ienaids	ienaidu
+51	5551	ņieburs	ņieburā
+52	5552	kija	kijai
+53	5553	slapjums	slapjuma
+54	5554	astotdaļa	astotdaļu astotdaļām
+55	5555	šķēlums	šķēlumu šķēlumā
+56	5556	viesmīlīgs	viesmīlīgu
+57	5557	nīlzirgs	nīlzirga
+58	5558	velnēns	velnēn
+59	5559	astrofizika	astrofizikas astrofiziku
+60	5560	sarkanbrūns	sarkanbrūnajā sarkanbrūni
+61	5561	lāsteka	lāstekas lāsteku lāstekām
+62	5562	svītrains	svītrainais svītrainām
+63	5563	zemesrags	zemesraga zemesragā
+64	5564	šķīstums	šķīstum šķīstuma
+65	5565	jaunavība	jaunavības jaunavībā
+66	5566	stiebrs	stiebra stiebrā
+67	5567	ģeogrāfiskāks	ģeogrāfiskais
+68	5568	ceptais	ceptajiem ceptie cepto ceptā ceptās
+69	5569	imperiālistisks	imperiālistiskajiem imperiālistiskas imperiālistisko imperiālistiskos imperiālistiskām
+70	5570	anatomisks	anatomiskas anatomiski anatomiskie anatomiskām anatomiskās
+71	5571	saldens	saldenu saldenās
+72	5572	aristokrātija	aristokrātijai aristokrātijas
+73	5573	mobilizācija	mobilizāciju
+74	5574	mundrums	mundruma mundrumam mundrumu
+75	5575	draisks	draiskie draisku draiskām draiskās
+76	5576	bē	
+77	5577	kajaks	kajakiem kajaku
+78	5578	oligarhs	
+79	5579	eksistējošais	eksistējošo eksistējošā eksistējošās
+80	5580	smaidīgi	
+81	5581	rūsēt	rūsu rūsē
+82	5582	kaņepe	kaņepi kaņepju kaņepēm
+83	5583	gļēvulība	gļēvulības gļēvulību
+84	5584	ceļasoma	ceļasomas ceļasomās
+85	5585	amerikānisks	amerikānisko amerikāniskās
+86	5586	nesacept	sacep sacepiet saceptu sacepušas
+87	5587	namamāte	namamātei namamātes
+88	5588	bezrūpība	bezrūpības bezrūpību
+89	5589	šantāža	
+90	5590	nelidojam	
+91	5591	ekologs	ekologi
+92	5592	vēsums	vēsuma
+93	5593	botānika	botānikas botāniku
+94	5594	taustīt	netaustāmu tausti
+95	5595	augušais	augusī augušo augušās
+96	5596	kalvis	
+97	5597	rusofobija	
+98	5598	socioloģisks	socioloģisko
+99	5599	tramplīns	
+100	5600	uzbekiete	uzbeku

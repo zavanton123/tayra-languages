@@ -1,0 +1,100 @@
+1	3001	iemaņa	iemaņas
+2	3002	izrietēt	izriet
+3	3003	sportot	sporto sportojis sportojot sportoju sportos sportosim sportošana
+4	3004	anketa	anketas anketu anketā anketām anketās
+5	3005	koncepcija	koncepcijai koncepcijas koncepciju koncepcijā koncepcijām koncepcijās
+6	3006	ēģiptietis	ēģiptietim ēģiptieši ēģiptiešiem ēģiptiešu
+7	3007	odzs	odzi odžu os
+8	3008	dēmons	dēmon dēmona dēmonam dēmoni dēmoniem dēmonu dēmonus
+9	3009	ceturtdaļa	ceturtdaļai ceturtdaļas ceturtdaļu ceturtdaļā ceturtdaļām
+10	3010	delegācija	delegācijai delegācijas delegāciju delegācijā delegācijām
+11	3011	svārstība	svārstības svārstību svārstībām svārstībās
+12	3012	izcīņa	izcīņā
+13	3013	gids	gid gida gidam gide gidi gidiem gidu gidus gidā
+14	3014	tipisks	tipiska tipiskais tipiskas tipisko tipisku tipiskā tipiskām tipiskās
+15	3015	lētāk	
+16	3016	psiholoģija	psiholoģijai psiholoģijas psiholoģiju psiholoģijā
+17	3017	kaitināt	kaitina kaitini kaitinošs kaitināja kaitinās kaitināsi kaitinātu nekaitināt
+18	3018	gadalaiks	gadalaika gadalaikam gadalaiki gadalaikiem gadalaikos gadalaiku gadalaikus gadalaikā
+19	3019	kristāls	kristāla kristālam kristāli kristāliem kristālu kristālus
+20	3020	sātans	sātan sātana sātanam sātani sātanu
+21	3021	ķirbis	ķirbi ķirbim ķirbja ķirbji ķirbjos ķirbju ķirbjus
+22	3022	stulbums	stulbuma stulbumu
+23	3023	nerunājot	
+24	3024	mironis	mironi mironim miroņa miroņi miroņiem miroņu miroņus
+25	3025	pusgads	pusgadu
+26	3026	fotografēt	fotografē fotografēja fotografējam fotografējat fotografēji fotografējiet fotografēju fotografējusi fotografēta fotografēti fotografētos fotografēts fotografētu fotografēšana fotografēšanai fotografēšanas fotografēšanu fotografēšanā fotografēšu jāfotografē nefotografēju nefotografēt
+27	3027	koeficients	koeficientu
+28	3028	īkšķis	īkšķa īkšķi īkšķiem īkšķu īkšķus
+29	3029	salons	salonā
+30	3030	krūze	krūzei krūzes krūzi krūzē krūžu
+31	3031	divpadsmit	divpadsmitiem divpadsmitos
+32	3032	lūzums	lūzuma lūzumi lūzumiem lūzumu lūzumā
+33	3033	cālis	cāli cālim cāļa cāļi cāļiem cāļu cāļus
+34	3034	liepājnieks	liepājniece liepājniecei liepājnieces liepājnieci liepājniecēm liepājnieka liepājniekam liepājnieki liepājniekiem liepājnieku liepājniekus
+35	3035	raut	neraut rauj raujam raujat raujiet raujot raus rausi rausiet rausim rautu raušana raušu rāva rāvi rāvis rāvu rāvāt
+36	3036	apiet	apejot
+37	3037	nogurums	noguruma nogurumam nogurumu
+38	3038	uzcelt	uzcēla
+39	3039	litrs	litru
+40	3040	ieliet	ielej ielejam ielejiet ielejot ieleju ielies ieliesi ieliesiet ieliesim ieliets ieliešana ieliešu ielēja ielēji ielēju neieliet
+41	3041	galvassāpes	galvassāpju galvassāpēm galvassāpēs
+42	3042	si	
+43	3043	krāšņs	krāšņa krāšņais krāšņajiem krāšņajā krāšņajām krāšņam krāšņas krāšņie krāšņiem krāšņo krāšņos krāšņu krāšņus krāšņā krāšņām krāšņās
+44	3044	kritiķis	kritiķi kritiķu
+45	3045	neapmierinātība	neapmierinātībai neapmierinātības neapmierinātību
+46	3046	mūks	mūk mūka mūkam mūki mūkiem mūku mūķene mūķenes mūķeni mūķenēm mūķeņu
+47	3047	garastāvoklis	garastāvokli garastāvoklim garastāvoklī garastāvokļa garastāvokļiem garastāvokļu
+48	3048	ērtāk	
+49	3049	zīmēt	jāzīmē zīmē zīmēja zīmējat zīmējis zīmējot zīmēju zīmēs zīmētu zīmēšana
+50	3050	pipars	pipara pipari pipariem piparu piparus
+51	3051	bērzs	bērza bērze bērzi bērziem bērzos bērzu bērzus
+52	3052	līdzšinējs	līdzšinējā
+53	3053	celis	celi celim celī ceļa ceļi ceļiem ceļu ceļus
+54	3054	ciemiņš	ciemiņa ciemiņi ciemiņiem ciemiņu ciemiņus
+55	3055	šķēps	šķēpa šķēpi šķēpiem šķēpu šķēpus
+56	3056	latvisks	latviska latviskais latviskajos latviskajā latviskajām latviskas latviskie latvisko latviskos latvisku latviskus latviskā latviskām latviskās
+57	3057	penis	peni penim peņa peņiem peņu peņus
+58	3058	diploms	diploma diplomam diplomi diplomu diplomus
+59	3059	lente	lenam lene lentes lenti lentē lentēm lenšu
+60	3060	mērķtiecīgs	mērķtiecīga mērķtiecīgai mērķtiecīgajai mērķtiecīgam mērķtiecīgas mērķtiecīgie mērķtiecīgiem mērķtiecīgo mērķtiecīgos mērķtiecīgu mērķtiecīgus mērķtiecīgā mērķtiecīgāks mērķtiecīgām mērķtiecīgās
+61	3061	saime	saimei saimes saimi saimju saimē saimēm saimēs
+62	3062	cītīgi	
+63	3063	ļaunāks	visļaunākais visļaunākajai visļaunākajam visļaunākie visļaunāko visļaunākā visļaunākās ļaunais ļaunāka ļaunākais ļaunākajam ļaunākajiem ļaunākajā ļaunākajās ļaunākas ļaunāki ļaunākie ļaunāko ļaunāku ļaunākā ļaunākās
+64	3064	vāvere	vāverei vāveres vāveri vāveru vāverē vāverēm
+65	3065	dzemdēt	dzemdē dzemdēdama dzemdēja dzemdējot dzemdēju dzemdējusi dzemdēs dzemdēsi dzemdēts dzemdētu dzemdēšanai dzemdēšanas dzemdēšanu dzemdēšu jādzemdē nedzemdēs nedzemdēsi
+66	3066	neitrāls	neitrāla neitrālai neitrālais neitrālajos neitrālajā neitrālajām neitrālam neitrālas neitrāli neitrālie neitrāliem neitrālo neitrālos neitrālu neitrālus neitrālā neitrālām neitrālās
+67	3067	izpildījums	izpildījuma izpildījumam izpildījumu izpildījumā
+68	3068	skaļāk	
+69	3069	mobilitāte	mobilitātei mobilitātes mobilitāti mobilitātē
+70	3070	zīdainis	zīdaini zīdainim zīdaiņa zīdaiņi zīdaiņiem zīdaiņu zīdaiņus
+71	3071	badmintons	badminton badmintona badmintonam badmintonu badmintonā
+72	3072	turpretī	
+73	3073	himna	himnai himnas himnu himnā himnās
+74	3074	vērtīgāks	visvērtīgākais visvērtīgāko visvērtīgākā visvērtīgākās vērtīgais vērtīgāk vērtīgāka vērtīgākais vērtīgākajiem vērtīgākajām vērtīgākas vērtīgāki vērtīgākie vērtīgāko vērtīgākos vērtīgāku vērtīgākā vērtīgākām vērtīgākās
+75	3075	referendums	referenduma referendumam referendumi referendumos referendumu referendumus referendumā
+76	3076	asmens	asmeni asmeņi asmeņiem asmeņu asmeņus
+77	3077	kinoteātris	kinoteātra kinoteātri kinoteātriem kinoteātros kinoteātru kinoteātrus kinoteātrī
+78	3078	izstrādātājs	izstrādātāja izstrādātājam izstrādātāji izstrādātājiem izstrādātāju izstrādātājus
+79	3079	bruņas	bruņu bruņām bruņās
+80	3080	kvalitatīvs	kvalitatīvas
+81	3081	saskaņot	jāsaskaņo nesaskaņot saskaņo saskaņoja saskaņojam saskaņoji saskaņojis saskaņojot saskaņoju saskaņojām saskaņojāt saskaņos saskaņosim saskaņotu saskaņošana
+82	3082	fon	
+83	3083	locītava	locītavai locītavas locītavu locītavā locītavām locītavās
+84	3084	trakums	trakuma trakumam trakumu trakumā
+85	3085	biežs	bieža biežai biežais biežas biežiem biežo biežu biežus biežā biežāka biežākais biežākajiem biežākajām biežākas biežāki biežākie biežākiem biežāko biežākos biežāks biežāku biežākā biežākās biežās visbiežākais
+86	3086	negribam	
+87	3087	pupa	pupas pupu pupā pupām pupās
+88	3088	svarīgāk	
+89	3089	slēdzene	slēdzenei slēdzenes slēdzeni slēdzenē slēdzenēm slēdzeņu
+90	3090	zārks	zārka zārkam zārki zārkos zārku zārkus zārkā
+91	3091	vīza	vīzai vīzas vīzu vīzām
+92	3092	pacietīgs	pacietīga pacietīgais pacietīgajam pacietīgam pacietīgi pacietīgiem pacietīgo pacietīgu pacietīgā pacietīgāks vispacietīgākais
+93	3093	putra	putras putru putrā
+94	3094	asinsvads	asinsvada asinsvadi asinsvadiem asinsvados asinsvadu asinsvadus asinsvadā
+95	3095	varavīksne	varavīksnes varavīksni varavīksnē varavīksnēm varavīkšņu
+96	3096	sūkāt	jāsūkā nesūkā nesūkās nesūkāšu sūkā sūkāja sūkājamās sūkāji sūkāju sūkāsi sūkāšanas sūkāšu
+97	3097	citreiz	
+98	3098	pārmērīgs	pārmērīga pārmērīgai pārmērīgais pārmērīgam pārmērīgas pārmērīgi pārmērīgo pārmērīgu pārmērīgus pārmērīgā pārmērīgām pārmērīgās
+99	3099	madara	madarai madaram madaras madaru
+100	3100	sitiens	

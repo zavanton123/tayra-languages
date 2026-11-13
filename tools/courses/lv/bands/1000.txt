@@ -1,0 +1,100 @@
+1	901	noskaidrot	noskaidroja noskaidrots noskaidrotu
+2	902	vakarā	
+3	903	hei	
+4	904	turēties	jāturas neturēties turamies turas turaties turies turieties turos turoties turēdamies turējies turējos turējāmies turējās turējāties turēsies turēsieties turēsimies turēsities turētos turēšanās turēšos
+5	905	metrs	metra metram metri metriem metros metru metrus
+6	906	siena	sienai sienas sienu sienā sienām sienās
+7	907	zirgs	zirg zirga zirgam zirgi zirgiem zirgos zirgu zirgus zirgā
+8	908	tostarp	
+9	909	autobuss	autobus autobusa autobusam autobusi autobusiem autobusos autobusu autobusus autobusā
+10	910	saistīt	jāsaista nesaistīt saista saistot saistošs saistu saistām saistāms saistīja saistīji saistījis saistījām saistīs saistīsi saistīts saistītu saistīšana saistīšu
+11	911	sākotnējs	sākotnēja sākotnējai sākotnējais sākotnējajiem sākotnējam sākotnēji sākotnējie sākotnējiem sākotnējo sākotnējos sākotnēju sākotnējā sākotnējām sākotnējās
+12	912	patiess	patiesa patiesai patiesais patiesajai patiesajam patiesajiem patiesajos patiesajā patiesajām patiesam patiesas patiesie patiesiem patieso patiesos patiesu patiesus patiesā patiesāka patiesāki patiesāks patiesāku patiesākā patiesām patiesās
+13	913	aizdomas	aizdomu aizdomām aizdomās
+14	914	nespēju	
+15	915	pakalpojums	pakalpojumi pakalpojumus
+16	916	iegādāties	iegādājamies iegādājas iegādājaties iegādājies iegādājieties iegādājos iegādājoties iegādājāmies iegādājās iegādājāties iegādāsies iegādāsieties iegādāsimies iegādātos iegādāšanās iegādāšos jāiegādājas neiegādāties
+17	917	rinda	rindai rindas rindu rindā rindām rindās
+18	918	anglis	angam angli angliete anglim angu angļa angļi angļiem angļu angļus
+19	919	mīla	mīlai mīlas mīlu mīlā
+20	920	konstatēts	konstatēta konstatētas konstatēti konstatētiem konstatētos konstatētu konstatētus konstatētā konstatētām konstatētās
+21	921	dzimšana	dzimšanai dzimšanas dzimšanu
+22	922	analīze	analīzei analīzes analīzi analīzē analīzēm analīzēs analīžu
+23	923	noziegums	nozieguma noziegumam noziegumi noziegumiem noziegumos noziegumu noziegumus noziegumā
+24	924	pateikties	pateicoties
+25	925	nedomāju	
+26	926	sens	sena senai senais senajai senajam senajiem senajos senajā senajām senajās senam senas seni senie seniem seno senos senu senus senā senāks senām senās vissenāk vissenākais vissenākajām
+27	927	pienākums	pienākumiem pienākumus
+28	928	reizēm	
+29	929	šejiene	šejienei šejienes šejieni
+30	930	pirkt	dzeļ jāpērk nepirksi nepirksim nepirkt nepirktu nepirkšu nepērc nepērk nepērkat nepērku pircis pirka pirki pirks pirksi pirksiet pirksim pirktas pirkti pirkts pirktu pirktās pirku pirkuši pirkāt pirkšana pirkšanai pirkšanas pirkšanu pirkšu pērc pērciet pērk pērkam pērkams pērkat pērkot pērku
+31	931	ļaudis	ļaudīm ļaudīs ļaužu
+32	932	atslēga	atslēgai atslēgas atslēgu atslēgā atslēgām
+33	933	mute	mutei mutes muti mutē mutēm mutēs muus
+34	934	hokejs	hokeja hokejam hokeju hokejā
+35	935	nomirt	nomira
+36	936	miljards	miljarda miljardam miljardi miljardiem miljardos miljardu miljardus
+37	937	dziedāt	dzied dziedam dziedamā dziedat dziedi dziediet dziedot dziedoša dziedošs dziedošās dziedu dziedāja dziedāji dziedājis dziedāju dziedājusi dziedājušas dziedājuši dziedājām dziedās dziedāsi dziedāsim dziedātas dziedātu dziedāšana dziedāšanai dziedāšanas dziedāšanu dziedāšanā dziedāšu jādzied nedzied nedziedi nedziedu nedziedāja nedziedās nedziedāsi nedziedāsiet nedziedāšu
+38	938	televīzija	televīzijai televīzijas televīziju televīzijā televīzijām
+39	939	pierādījums	pierādījuma pierādījumam pierādījumi pierādījumiem pierādījumos pierādījumu pierādījumus
+40	940	tīrs	tīra tīrai tīrais tīrajiem tīrajos tīrajā tīrajām tīram tīras tīrie tīriem tīro tīru tīrus tīrā tīrāka tīrākai tīrākais tīrākas tīrākie tīrāko tīrāks tīrāku tīrākā tīrākās tīrām tīrās vistīrākie vistīrākā
+41	941	pilsonis	pilsone pilsonei pilsones pilsoni pilsonim pilsoņa pilsoņi pilsoņiem pilsoņos pilsoņu pilsoņus
+42	942	laime	laie laimei laimes laimi laimē
+43	943	uzmanīgs	uzmanīga uzmanīgai uzmanīgam uzmanīgas uzmanīgi uzmanīgie uzmanīgiem uzmanīgu uzmanīgā uzmanīgāks
+44	944	melot	jāmelo melo melodami meloja melojam melojat meloji melojis melojot meloju melojusi melojuši melojāt melos melosi melotu melošana melošanai melošanas melošanu melošanā melošu nemelo nemeloja nemelojam nemelojat nemeloji nemelojiet nemelojot nemelojām nemelosi nemelosim nemelot nemelotu nemelošu
+45	945	operācija	operācijai operācijas operāciju operācijā operācijām operācijās
+46	946	forši	
+47	947	patlaban	
+48	948	skats	skat skata skatam skati skatiem skatos skatu skatus skatā
+49	949	sarežģīts	sarežģīta sarežģītai sarežģītais sarežģītajai sarežģītajam sarežģītajiem sarežģītajos sarežģītajā sarežģītajām sarežģītajās sarežģītam sarežģītas sarežģīti sarežģītie sarežģītiem sarežģīto sarežģītos sarežģītu sarežģītus sarežģītā sarežģītāks sarežģītām sarežģītās vissarežģītākais
+50	950	attēls	attēla attēlam attēli attēliem attēlos attēlu attēlus attēlā
+51	951	atbildība	atbildībai atbildības atbildību atbildībā atbildībām atbildībās
+52	952	rajons	rajona rajonos rajonu rajonā
+53	953	pienākt	pienāca pienācis pienāk pienāks
+54	954	dvēsele	dvēselei dvēseles dvēseli dvēselē dvēselēm dvēselēs dvēseļu
+55	955	dzēriens	dzēriena dzērienam dzērieni dzērieniem dzērienos dzērienu dzērienus dzērienā
+56	956	prese	preses presē
+57	957	vakariņas	vakariņa vakariņos vakariņu vakariņām vakariņās
+58	958	priekšsēdētājs	priekšsēdētāju
+59	959	diskusija	diskusijai diskusijas diskusiju diskusijā diskusijām diskusijās
+60	960	tūrisms	tūrisma tūrismam tūrismu tūrismā
+61	961	ideāls	ideāla ideālai ideālais ideālajam ideālajiem ideālajā ideālajām ideālam ideālas ideāli ideāliem ideālo ideālu ideālus ideālā ideālām ideālās
+62	962	lietus	lieti lietos lietu lietum lietū
+63	963	tuvu	
+64	964	zobs	zoba zobam zobi zobiem zobos zobu zobus
+65	965	saimnieks	saimniece saimniecei saimnieces saimnieci saimniecēm saimniek saimnieka saimniekam saimnieki saimniekiem saimniekos saimnieku saimniekus saimnieču
+66	966	laist	jālaiž laid laida laidi laidiet laidis laidu laidām laidāt laidīs laidīsi laidīsiet laidīsim laidīšu laists laistu laizdams laiž laižam laižat laižot laižu nelaist
+67	967	izpildīt	izpilda izpildi izpildiet izpildot izpildu izpildām izpildāms izpildāt izpildīja izpildīji izpildījis izpildīju izpildījām izpildījāt izpildīs izpildīsi izpildīsiet izpildīsim izpildīts izpildītu izpildīšana izpildīšu jāizpilda neizpildīt
+68	968	vēlme	vēlmes vēlmi
+69	969	neesam	
+70	970	ierīce	ierīcei ierīces ierīci ierīcē ierīcēm ierīcēs ierīču
+71	971	garums	garuma garumam garumi garumiem garumu garumus garumā
+72	972	centrāls	centrāla centrālai centrālais centrālajai centrālajam centrālajiem centrālajos centrālajā centrālajām centrālajās centrālas centrālie centrālo centrālā centrālās
+73	973	politiķis	politiķa politiķe politiķei politiķes politiķi politiķiem politiķim politiķos politiķu politiķus politiķēm
+74	974	lieks	lieka liekai liekais liekajam liekajiem liekajām liekam liekas lieki liekie liekiem lieko liekos lieku liekus liekā liekāks liekām liekās
+75	975	turpmāk	
+76	976	gars	gara garam gari gariem garos garu garus garā
+77	977	jūrmala	jūrmalai jūrmalas jūrmalu jūrmalā
+78	978	medicīna	medicīnai medicīnas medicīnu medicīnā
+79	979	atkarīgs	atkarīga atkarīgais atkarīgajam atkarīgajiem atkarīgajā atkarīgam atkarīgas atkarīgi atkarīgie atkarīgiem atkarīgo atkarīgos atkarīgu atkarīgus atkarīgā atkarīgākas atkarīgāks atkarīgām atkarīgās
+80	980	norma	normai normam normas normu normā normām normās
+81	981	režīms	režīma režīmam režīmi režīmiem režīmos režīmu režīmus režīmā
+82	982	zemi	
+83	983	policists	policist policista policistam policiste policistes policisti policistiem policistos policistu policistus policistēm
+84	984	pareizs	pareiza pareizai pareizais pareizajai pareizajam pareizajiem pareizajā pareizajām pareizajās pareizam pareizas pareizie pareiziem pareizo pareizos pareizu pareizus pareizā pareizāks pareizām pareizās vispareizākais vispareizākā
+85	985	nest	jānes nenest nes nesa nesam nesat nesdams nesi nesiet nesis nesot nesošs nests nestu nesu nesām nesāt nesīs nesīsi nesīsiet nesīsim nesīšu nešana
+86	986	ražotājs	ražotāja ražotājai ražotājam ražotājas ražotāji ražotājiem ražotāju ražotājus ražotājā
+87	987	atbrīvot	atbrīvo atbrīvoja atbrīvojam atbrīvojams atbrīvoji atbrīvojiet atbrīvojis atbrīvojot atbrīvoju atbrīvojām atbrīvojāt atbrīvos atbrīvosi atbrīvosiet atbrīvosim atbrīvots atbrīvotu atbrīvošana atbrīvošot atbrīvošu jāatbrīvo neatbrīvot
+88	988	rudens	rudeni rudenim rudenī rudeņos rudeņus
+89	989	žurnālists	žurnālist žurnālista žurnālistam žurnāliste žurnālistei žurnālistes žurnālisti žurnālistiem žurnālistu žurnālistus
+90	990	kaķis	kais kaķa kaķi kaķiem kaķim kaķu kaķus kaķī
+91	991	ietvars	ietvaros
+92	992	advokāts	advokāt advokāta advokātam advokāti advokātiem advokātu advokātus advokātā
+93	993	interesants	interesanta interesantai interesantais interesantajiem interesantajos interesantajām interesantam interesantas interesantie interesantiem interesanto interesantos interesantu interesantus interesantā interesantāka interesantākais interesantākajai interesantākajiem interesantākajām interesantākas interesantāki interesantākie interesantākiem interesantāko interesantākos interesantāks interesantāku interesantākus interesantākā interesantākās interesantām interesantās visinteresantākais
+94	994	pozīcija	pozīcijai pozīcijas pozīciju pozīcijā pozīcijām pozīcijās
+95	995	fizisks	fiziska fiziskai fiziskais fiziskajai fiziskajam fiziskajiem fiziskajos fiziskajā fiziskajām fiziskajās fiziskam fiziskas fiziskie fiziskiem fizisko fiziskos fizisku fiziskus fiziskā fiziskām fiziskās
+96	996	viegls	viegla vieglais vieglajai vieglajam vieglajiem vieglajā vieglajām vieglas vieglie viegliem vieglo vieglos vieglu vieglus vieglā vieglāka vieglākai vieglākais vieglākajiem vieglākajām vieglākam vieglākas vieglāki vieglākiem vieglāko vieglākos vieglāks vieglāku vieglākus vieglākā vieglākām vieglākās vieglām vieglās visvieglākais visvieglākā
+97	997	vainīgs	vainīga vainīgai vainīgais vainīgajai vainīgajam vainīgajiem vainīgajām vainīgam vainīgas vainīgi vainīgie vainīgiem vainīgo vainīgos vainīgu vainīgā vainīgām vainīgās visvainīgākais
+98	998	āda	ādai ādam ādas ādu ādā ādām ādās
+99	999	parasts	parasta parastai parastais parastajai parastajam parastajiem parastajos parastajā parastajām parastajās parastam parastas parastie parastiem parasto parastos parastu parastus parastā parastākas parastākā parastām parastās visparastākais visparastākā
+100	1000	kāzas	kāzu kāzām kāzās

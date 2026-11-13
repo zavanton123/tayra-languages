@@ -1,0 +1,100 @@
+1	5001	slovākiete	slovāki slovāku
+2	5002	albāniete	albāņi albāņu
+3	5003	sultāns	sultānam
+4	5004	itāliski	
+5	5005	protons	protonu
+6	5006	galdnieks	galdnieka galdnieki galdniekiem galdniekos galdnieku
+7	5007	federatīvs	federatīva federatīvajai federatīvajā federatīvo federatīvā federatīvās
+8	5008	rūpnieks	rūpniekam rūpnieki rūpniekiem rūpnieku
+9	5009	optimāls	optimālo
+10	5010	afgānis	afgāņi afgāņiem afgāņu
+11	5011	viktorīna	viktorīnai viktorīnas viktorīnu viktorīnām viktorīnās
+12	5012	aizejošais	aizejošajam aizejošo aizejošā aizejošās
+13	5013	algebra	algebras algebrā
+14	5014	filozofiski	
+15	5015	ķīmiķis	ķīmiķa ķīmiķe ķīmiķu
+16	5016	kaļķakmens	kaļķakmeni
+17	5017	ielene	
+18	5018	gā	
+19	5019	sprādze	
+20	5020	košļāt	
+21	5021	ūsainis	ūsaiņa
+22	5022	kārpa	kārpu
+23	5023	jaguārs	jaguāram jaguāru
+24	5024	strēmele	strēmeles strēmeli
+25	5025	vikonts	vikont vikontam
+26	5026	brāļameita	brāļameitas brāļameitu
+27	5027	takts	takti taktis taktī
+28	5028	prievārds	prievārda prievārdu
+29	5029	mēnessgaisma	mēnessgaismas mēnessgaismu mēnessgaismā
+30	5030	māsasdēls	māsasdēl māsasdēlam māsasdēli māsasdēlu
+31	5031	masturbācija	masturbācijai masturbācijas masturbāciju
+32	5032	šakālis	šakāļi šakāļu
+33	5033	piecnieks	piecnieka piecnieki piecnieku piecniekus piecniekā
+34	5034	alva	alvas alvi
+35	5035	ģeologs	ģeologi ģeologu
+36	5036	anarhija	anarhijas
+37	5037	normalitāte	normalitātei normalitātes normalitāti normalitātē
+38	5038	metenis	meteņa meteņi meteņiem meteņos meteņu meteņus
+39	5039	būtiskāk	
+40	5040	visaktīvāk	
+41	5041	straujums	straujuma
+42	5042	akvedukts	akvedukta akveduktu
+43	5043	mīna	
+44	5044	stomatoloģija	stomatoloģijas
+45	5045	baronese	baronesi
+46	5046	mēnesnīca	mēnesnīcai mēnesnīcas mēnesnīcā
+47	5047	apcept	apcep apcepta apceptas apceptu
+48	5048	uzdevies	uzdevušies
+49	5049	komisks	komiska komiskas komisko komisku komiskā komiskām komiskās
+50	5050	nevainīgums	nevainīguma nevainīgumam nevainīgumu
+51	5051	amizants	amizanta amizantajiem amizantas amizanto amizantos amizantu amizantus amizantā amizantām amizantās
+52	5052	mērķtiecība	mērķtiecībai mērķtiecības mērķtiecību
+53	5053	vasarīgs	vasarīga vasarīgiem vasarīgo vasarīgu vasarīgām
+54	5054	kardioloģija	kardioloģijas kardioloģijā
+55	5055	slidošana	slidošanas slidošanu
+56	5056	vaisla	vaislas
+57	5057	iekša	iekšu
+58	5058	baltiņš	baltiņa baltiņu
+59	5059	nenāvēt	nenāvējošu nenāvējošus nāvē nāvējošais nāvēs
+60	5060	amizanti	
+61	5061	smilšpapīrs	smilšpapīra smilšpapīru
+62	5062	nopūta	nopūtu nopūtām nopūtās
+63	5063	visdrošākais	drošais drošāka drošākai drošākais drošākajiem drošākajā drošākajām drošākam drošākas drošāki drošākie drošākiem drošāko drošākos drošāks drošāku drošākus drošākā drošākām drošākās visdrošāka visdrošākajām visdrošākie visdrošāko visdrošākā
+64	5064	stiprība	stiprības stiprību
+65	5065	nesālīt	nesālu sāli sālītai sālīti sālītu sālīšanas
+66	5066	garīgums	garīguma garīgumam garīgumu
+67	5067	stingrība	stingrības stingrību
+68	5068	sīriete	sīrieši sīriešu
+69	5069	jūrmalnieks	jūrmalnieci jūrmalnieki jūrmalniekiem jūrmalnieku
+70	5070	indēšana	indēšanas indēšanu indēšanā
+71	5071	ārprātīgs	ārprātīga ārprātīgais ārprātīgie ārprātīgo ārprātīgus ārprātīgā ārprātīgās
+72	5072	lāpīt	lāpi lāpu lāpām lāpījāt lāpīšana lāpīšu
+73	5073	nedzirdam	
+74	5074	jaukums	jaukum jaukumi jaukumos jaukumu jaukumus
+75	5075	amnēzija	amnēzijai amnēziju
+76	5076	pelnītais	pelnītie pelnīto pelnītos pelnītā pelnītās
+77	5077	cepties	cepas cepaties cepi cepsies cepusies cepās cepšanās jācepas necepas necepties
+78	5078	astotnieks	astotniek astotnieka astotniekam astotniekā
+79	5079	atstāstīt	atstāsta atstāstot atstāstu atstāstīja atstāstīsi jāatstāsta
+80	5080	rāpot	
+81	5081	pakavs	pakavi pakavu pakavus pakavā
+82	5082	vīģe	vīģes
+83	5083	krimināltiesības	krimināltiesību
+84	5084	kārkls	kārkla kārklu kārklus
+85	5085	sonets	sonetu
+86	5086	rakstāmmašīna	rakstāmmašīnas rakstāmmašīnu
+87	5087	vedekla	vedeklas vedeklu
+88	5088	sarkanvīns	sarkanvīna sarkanvīni sarkanvīniem sarkanvīnu
+89	5089	astrofiziķis	astrofiziķei
+90	5090	sainis	saini sainī saiņi saiņos saiņus
+91	5091	asns	asni asniem asnus
+92	5092	stihija	stihijas stihiju stihijām
+93	5093	censonis	censoņi censoņiem censoņu censoņus
+94	5094	handbolists	handbolista handbolisti handbolistiem handbolistu
+95	5095	pakava	pakavu pakavā
+96	5096	hercogiste	hercogistes hercogisti
+97	5097	sekli	
+98	5098	īgņa	īgņu
+99	5099	guļammaiss	guļammaisi guļammaisu guļammaisus guļammaisā
+100	5100	šlipse	šlipses šlipsi

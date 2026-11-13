@@ -1,0 +1,100 @@
+1	6501	zaglīgāks	zaglīgais
+2	6502	itāliskāks	itāliskais
+3	6503	miesīgāks	miesīgais
+4	6504	ūsaināks	ūsainais
+5	6505	ģeometriskāks	ģeometriskais
+6	6506	dēmoniskāks	dēmoniskais
+7	6507	apartais	apartās
+8	6508	viseiropeiskākais	eiropeiskāku
+9	6509	vismazturīgākais	mazturīgākajiem
+10	6510	mirstamais	mirstamā
+11	6511	kontinentālāks	kontinentālais
+12	6512	polārāks	polārais
+13	6513	caurredzamāks	caurredzamais
+14	6514	fonētiskāks	fonētiskais
+15	6515	izdarīgāks	izdarīgais
+16	6516	vissmieklīgākais	smieklīgais smieklīgākais smieklīgākas smieklīgāks smieklīgāku
+17	6517	vispriecīgākais	priecīgais priecīgāk priecīgāka priecīgākas priecīgāki priecīgākie priecīgāks priecīgāku priecīgākus priecīgākā priecīgākās
+18	6518	oglis	ogli ogļu
+19	6519	neskābt	skābu
+20	6520	vienojušais	vienojušās
+21	6521	neseglot	seglos
+22	6522	šķīve	šķīvi
+23	6523	viese	viesi viesu
+24	6524	spējš	spējai spējam spējas spējā spējām spējās
+25	6525	visraupjākais	raupjais raupjākie raupjākās
+26	6526	visčaklākais	čaklākais čaklākie čaklāko čaklākā čaklākās
+27	6527	spīde	spīdi spīdēs
+28	6528	bāre	bāra bāri bāriem bāros bāru bārus
+29	6529	vislokanākais	lokanāka
+30	6530	salns	salnas salnu
+31	6531	vārītais	vārītos vārītās
+32	6532	apvienojušais	apvienojušās
+33	6533	smaks	smaku
+34	6534	vishumānākais	humānais humānākai humānākais
+35	6535	nāvs	nāvi nāvju
+36	6536	visnaskākais	naskāk
+37	6537	trušis	truša truši trušiem trušu trušus
+38	6538	ķermens	ķermeni
+39	6539	slavs	slavu
+40	6540	visdemokrātiskākais	demokrātiskais demokrātiskāka demokrātiskākais demokrātiskākiem
+41	6541	mainījušais	mainījušos mainījušās
+42	6542	spļaujošais	spļaujošā
+43	6543	visauglīgākais	auglīgāka auglīgākus
+44	6544	visdarbīgākais	darbīgāka darbīgākais darbīgākajiem darbīgāki
+45	6545	visturīgākais	turīgais turīgākam turīgākiem turīgāko turīgākā turīgākās
+46	6546	vabolis	vaboli vaboļu
+47	6547	truše	truši trušu
+48	6548	visnāvīgākais	nāvīgais nāvīgāka nāvīgāko
+49	6549	aizietais	aizietos
+50	6550	vismežainākais	mežainākā
+51	6551	visgādīgākais	gādīgais gādīgākā
+52	6552	šķīstāks	visšķīstākā
+53	6553	purvis	purvi
+54	6554	visrūpīgākais	rūpīgāka rūpīgāku
+55	6555	vismīlīgākais	mīlīgākais mīlīgākajai mīlīgāko mīlīgāku
+56	6556	viskustīgākais	kustīgākas kustīgāki
+57	6557	vabols	vaboli
+58	6558	garot	garo garos
+59	6559	vismožākais	možāki
+60	6560	visenerģiskākais	enerģiskais enerģiskāki enerģiskākie enerģiskāko
+61	6561	vismodrākais	modrākiem
+62	6562	toksiskāks	toksiskais vistoksiskākā
+63	6563	ziņote	ziņošu
+64	6564	visprāvākais	prāvāki prāvākus
+65	6565	ziņkārīgāks	visziņkārīgākos visziņkārīgākā ziņkārīgais
+66	6566	vislaipnākais	laipnais laipnāka laipnākai laipnākais laipnākam laipnāki laipnāku
+67	6567	vispūkainākais	pūkainākās
+68	6568	bezjēdzīgāks	bezjēdzīgais visbezjēdzīgākā
+69	6569	neziepēt	ziepēs
+70	6570	uzcepties	uzcepi
+71	6571	nesukāt	sukā
+72	6572	visspējīgākais	spējīgākajiem spējīgāki spējīgākie spējīgākos spējīgāku spējīgākā
+73	6573	visslapjākais	slapjāka
+74	6574	visplikākais	plikāki
+75	6575	nacionālāks	nacionālais
+76	6576	akadēmiskāks	akadēmiskais
+77	6577	baigāks	baigais
+78	6578	centrālāks	centrālais
+79	6579	skābāks	skābais
+80	6580	bioloģiskāks	bioloģiskais
+81	6581	kosmiskāks	kosmiskais
+82	6582	etnogrāfiskāks	etnogrāfiskais
+83	6583	vienīgāks	vienīgais
+84	6584	karaliskāks	karaliskais
+85	6585	pilsoniskāks	pilsoniskais
+86	6586	psiholoģiskāks	psiholoģiskais
+87	6587	ķīmiskāks	ķīmiskais
+88	6588	mirstīgāks	mirstīgais
+89	6589	medicīniskāks	medicīniskais
+90	6590	kreisāks	kreisais
+91	6591	etniskāks	etniskais
+92	6592	ugunīgāks	ugunīgais
+93	6593	bārdaināks	bārdainais
+94	6594	sociālāks	sociālais
+95	6595	dumāks	dumais
+96	6596	ārējāks	ārējais
+97	6597	matemātiskāks	matemātiskais
+98	6598	sārtāks	sārtais
+99	6599	raudulīgāks	raudulīgais
+100	6600	redzīgāks	redzīgais

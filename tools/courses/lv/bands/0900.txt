@@ -1,0 +1,100 @@
+1	801	zinātne	zinātnei zinātnes zinātni zinātnē zinātnēm zinātnēs zinātņu
+2	802	bumba	bumbai bumbas bumbu bumbā bumbām bumbās
+3	803	izteikt	izteic izteica izteici izteicis izteicu izteicām izteicāt izteiks izteiksi izteiksiet izteikta izteiktais izteiktam izteiktas izteikti izteiktiem izteiktos izteikts izteiktu izteiktus izteiktā izteiktām izteiktās izteikusi izteikušas izteikuši izteikušās izteikšana izteikšanai izteikšanas izteikšanu izteikšanā izteikšu neizteica neizteiks neizteiksim neizteikt neizteikšu
+4	804	vidusskola	vidusskolai vidusskolas vidusskolu vidusskolā vidusskolām vidusskolās
+5	805	biedrība	biedrībai biedrības biedrību biedrībā biedrībām biedrībās
+6	806	kauss	kausa kausam kausi kausiem kausos kausu kausus kausā
+7	807	dāma	dāmai dāmas dāmu dāmā dāmām
+8	808	palīgs	palīdze palīg palīga palīgam palīgi palīgiem palīgos palīgu palīgus palīgā
+9	809	mainīties	mainās mainījies mainījās
+10	810	krava	kravai kravas kravu kravā kravām kravās
+11	811	asinis	asins asinīm asinīs asiņu
+12	812	dārzs	dārza dārzam dārzi dārziem dārziņa dārziņam dārziņi dārziņiem dārziņos dārziņu dārziņus dārziņā dārziņš dārzos dārzu dārzus dārzā
+13	813	maz	
+14	814	izlase	izlases
+15	815	kvalitāte	kvalitātei kvalitātes kvalitāti kvalitātē kvalitātēm
+16	816	izņemt	izņemot izņēma
+17	817	dators	dator datora datoram datori datoriem datoros datoru datorus datorā
+18	818	pavasaris	pavasara pavasari pavasariem pavasarim pavasaros pavasarus pavasarī
+19	819	biļete	biļetei biļetes biļeti biļetē biļetēm biļešu
+20	820	sēde	sēdes sēdē
+21	821	sarkans	sarkana sarkanai sarkanais sarkanajai sarkanajam sarkanajiem sarkanajā sarkanajām sarkanajās sarkanam sarkanas sarkani sarkanie sarkaniem sarkano sarkanos sarkanu sarkanus sarkanā sarkanām sarkanās
+22	822	sekunde	sekundei sekundes sekundi sekundē sekundēm sekundēs sekunžu
+23	823	laukā	
+24	824	rādīt	jārāda nerādīt rāda rādi rādiet rādot rādu rādām rādāt rādīdams rādīja rādīji rādījis rādīju rādījām rādīs rādīsi rādīsim rādīts rādītu rādīšana rādīšot rādīšu
+25	825	materiāls	materiāla materiālam materiāli materiāliem materiālos materiālu materiālus materiālā
+26	826	brauciens	brauciena braucienam braucieni braucieniem braucienos braucienu braucienus braucienā
+27	827	ekonomisks	ekonomiska ekonomiskai ekonomiskais ekonomiskajai ekonomiskajam ekonomiskajiem ekonomiskajos ekonomiskajā ekonomiskajām ekonomiskajās ekonomiskam ekonomiskas ekonomiskie ekonomiskiem ekonomisko ekonomiskos ekonomisku ekonomiskus ekonomiskā ekonomiskām ekonomiskās
+28	828	fakts	fakt fakta faktam fakti faktiem faktos faktu faktus faktā
+29	829	vispirms	
+30	830	medijs	mediji mediju
+31	831	aktīvs	aktīva aktīvai aktīvais aktīvajai aktīvajam aktīvajiem aktīvajā aktīvajām aktīvajās aktīvam aktīvas aktīvie aktīviem aktīvo aktīvos aktīvu aktīvus aktīvā aktīvāks aktīvām aktīvās visaktīvākais visaktīvākie visaktīvākā visaktīvākās
+32	832	avots	avota avotam avoti avotiem avotos avotu avotus avotā
+33	833	viesis	viesa viesi viesiem viesim viesos viesu viesus
+34	834	svēts	svēta svētais svētajai svētajam svētajiem svētajos svētajā svētajām svētajās svētas svēti svētie svētiem svēto svētos svētu svētus svētā svētāks svētām svētās
+35	835	atmiņa	atmiņai atmiņas atmiņu atmiņā atmiņām atmiņās
+36	836	ik	
+37	837	baidīties	baidies baidieties baidos baidoties baidāmies baidās baidāties baidīdamies baidījies baidījos baidījāmies baidījās baidījāties baidīsies baidīsimies baidītos baidīšanās jābaidās nebaidīties
+38	838	jautāt	jautā jautāja jautājam jautājams jautājat jautāji jautājiet jautājis jautājot jautājusi jautājuši jautājām jautājāt jautās jautāsi jautāsiet jautāsim jautāta jautāti jautāts jautātu jautāšanu jautāšu jājautā nejautā nejautāja nejautājat nejautāji nejautājiet nejautājot nejautājām nejautājāt nejautās nejautāsi nejautāsiet nejautāsim nejautāt nejautātu nejautāšu
+39	839	debess	debesi debesis debesu debesīm debesīs
+40	840	būvniecība	būvniecībai būvniecības būvniecību būvniecībā
+41	841	slēgt	jāslēdz neslēgt slēdz slēdza slēdzam slēdzat slēdzi slēdziet slēdzis slēdzot slēdzu slēdzām slēdzāt slēgs slēgsiet slēgsim slēgta slēgts slēgtu slēgšana slēgšu
+42	842	pasažieris	pasažiera pasažiere pasažierei pasažieres pasažieri pasažieriem pasažierim pasažieru pasažierus pasažierēm pasažierī
+43	843	gulta	gultai gultam gultas gultos gultu gultā gultām gultās
+44	844	zivs	zis zivi zivij zivis zivju zivīm zivīs
+45	845	gaita	gaitai gaitas gaitu gaitā gaitām gaitās
+46	846	kustība	kustībai kustības kustību kustībā kustībām kustībās
+47	847	cerība	cerībai cerības cerību cerībā cerībām cerībās
+48	848	pārliecināt	jāpārliecina pārliecina pārliecini pārliecinot pārliecinošs pārliecinu pārliecināja pārliecināji pārliecinājis pārliecināju pārliecinājām pārliecinājāt pārliecinām pārliecinās pārliecināsi pārliecināsiet pārliecināsim pārliecināts pārliecinātu pārliecināšana pārliecināšu
+49	849	lidosta	lidostai lidostas lidostu lidostā lidostām lidostās
+50	850	armija	armijai armijas armiju armijā armijām armijās
+51	851	nost	
+52	852	atkritums	atkrituma atkritumi atkritumiem atkritumos atkritumu atkritumus
+53	853	paziņojums	paziņojuma paziņojumam paziņojumi paziņojumiem paziņojumos paziņojumu paziņojumus paziņojumā
+54	854	ceļojums	ceļojuma ceļojumam ceļojumi ceļojumiem ceļojumos ceļojumu ceļojumus ceļojumā
+55	855	mugura	mugurai muguras muguru mugurā mugurām mugurās
+56	856	vēstule	vēstulei vēstules vēstuli vēstulē vēstulēm vēstulēs vēstuļu
+57	857	bijušais	bijusī bijušajai bijušajam bijušajiem bijušajā bijušajām bijušajās bijušie bijušo bijušos bijušā bijušās
+58	858	logs	loga logam logi logiem logos logu logus logā
+59	859	vakar	
+60	860	kabinets	kabineta kabinetā
+61	861	rast	jārod nerada neradi neradām neradīs neradīsim nerastos nerod rada radi radis radu radusi radušas raduši radušos radušās radām radīs radīsi radīsim rasta rastais rastas rasti rastos rasts rastu rašanai rašanos rod rodam rodama rodamas rodami rodams rodi rodot rodu
+62	862	just	justs justu juta juti jutis jutu jutām jutāt jutīs jutīsi jutīsiet jutīsim jutīšu jušana jājūt jūt jūtam jūtams jūtat jūti jūtot jūtu nejust
+63	863	fonds	fonda fondu
+64	864	tālu	
+65	865	konts	konta kontam konti kontiem kontos kontu kontus kontā
+66	866	vērot	jāvēro vēro vēroja vērojam vērojams vērojat vēroji vērojiet vērojis vērojot vēroju vērojām vērojāt vēros vērosiet vērosim vērotu vērošana vērošu
+67	867	kamera	kamerai kameras kameru kamerā kamerām kamerās
+68	868	akmens	akmeni akmenim akmenī akmeņi akmeņiem akmeņu akmeņus
+69	869	kurss	kurs kursa kursam kursi kursiem kursos kursu kursus kursā
+70	870	vajadzība	vajadzībai vajadzības vajadzību vajadzībā vajadzībām vajadzībās
+71	871	īss	visīsākais visīsāko īsa īsais īsajam īsajiem īsajos īsajā īsajām īsajās īsam īsas īsie īsiem īso īsos īsu īsus īsā īsāk īsāka īsākais īsākajiem īsākas īsāki īsākiem īsāko īsākos īsāks īsāku īsākus īsākā īsākām īsākās īsām īsās
+72	872	kāpt	jākāpj kāp kāpa kāpas kāpi kāpiet kāpis kāpj kāpjam kāpjat kāpjot kāpju kāps kāpsi kāpsiet kāpsim kāpsit kāptu kāpu kāpām kāpšana kāpšu nekāpt
+73	873	milzīgs	milzīga milzīgai milzīgais milzīgajam milzīgajiem milzīgajos milzīgajā milzīgajām milzīgajās milzīgam milzīgas milzīgi milzīgie milzīgiem milzīgo milzīgos milzīgu milzīgus milzīgā milzīgām milzīgās
+74	874	kārtība	kārtībai kārtības kārtību
+75	875	kafija	kafijai kafijas kafiju kafijā
+76	876	apmeklēt	apmeklē apmeklēja apmeklējam apmeklējat apmeklēji apmeklējiet apmeklējis apmeklējot apmeklēju apmeklējām apmeklējāt apmeklēs apmeklēsiet apmeklēsim apmeklēts apmeklētu apmeklēšana apmeklēšu jāapmeklē neapmeklēt
+77	877	noslēpums	noslēpuma noslēpumam noslēpumi noslēpumiem noslēpumos noslēpumu noslēpumus noslēpumā
+78	878	enerģija	enerģijai enerģijas enerģiju enerģijā enerģijām
+79	879	apkārt	
+80	880	gluži	
+81	881	galds	galda galdam galdi galdiem galdu galdus galdā
+82	882	vērtēt	jāvērtē vērtē vērtēja vērtējam vērtējams vērtējat vērtējis vērtējot vērtēju vērtējām vērtēs vērtēsim vērtēts vērtētu vērtēšana vērtēšot
+83	883	stacija	stacijai stacijas staciju stacijā stacijām stacijās
+84	884	pierādīt	jāpierāda pierāda pierādi pierādiet pierādot pierādu pierādām pierādāms pierādāt pierādīja pierādīji pierādījis pierādīju pierādījām pierādīs pierādīsi pierādīsiet pierādīsim pierādīts pierādītu pierādīšana pierādīšu
+85	885	alus	alu alum alū
+86	886	tikpat	
+87	887	cietums	cietum cietuma cietumam cietumi cietumiem cietumos cietumu cietumus cietumā
+88	888	kustēties	jākustas kustamies kustas kustaties kusties kustieties kustos kustoties kustējies kustējos kustējusies kustējušies kustējāmies kustējās kustējāties kustēsies kustētos kustēšanos kustēšanās kustēšos nekustas nekusties nekustieties nekustos nekustēdamies nekustējās nekustēsies nekustēties nekustētos nekustēšanās nekustēšos
+89	889	manta	mantai mantam mantas mantu mantā mantām mantās
+90	890	bāze	bāzei bāzes bāzi bāzu bāzē bāzēm bāzēs
+91	891	līnija	līnijai līnijas līniju līnijā līnijām līnijās
+92	892	solīt	jāsola nesolīt sola soli solot solu solām solāt solīja solīji solījis solīju solījām solījāt solīs solīsi solīts solītu solīšana
+93	893	aprūpe	aprūpei aprūpes aprūpi aprūpē aprūpēs
+94	894	basketbols	basketbol basketbola basketbolam basketbolu basketbolā
+95	895	kapteinis	kapteine kapteini kapteinim kapteiņa kapteiņi kapteiņiem kapteiņu
+96	896	līderis	līdera līderi līderiem līderim līderos līderu līderus līderī
+97	897	pastāvēt	jāpastāv pastāv pastāvam pastāvi pastāviet pastāvot pastāvu pastāvēja pastāvējis pastāvēs pastāvēsim pastāvētu pastāvēšana pastāvēšu
+98	898	uzticēties	jāuzticas neuzticēties uzticamies uzticas uzticaties uzticies uzticieties uzticos uzticoties uzticējies uzticējos uzticējās uzticējāties uzticēsies uzticēsimies uzticētos uzticēšanās uzticēšos
+99	899	priecīgs	priecīga priecīgais priecīgajam priecīgajos priecīgajā priecīgam priecīgas priecīgi priecīgie priecīgiem priecīgo priecīgos priecīgu priecīgus priecīgā priecīgāk priecīgāka priecīgākas priecīgāki priecīgākie priecīgāks priecīgāku priecīgākus priecīgākā priecīgākās priecīgās vispriecīgākais
+100	900	ienākums	ienākuma ienākumam ienākumi ienākumiem ienākumos ienākumu ienākumus

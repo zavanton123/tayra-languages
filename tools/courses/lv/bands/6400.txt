@@ -1,0 +1,100 @@
+1	6301	ārstnieciskāks	ārstnieciskais
+2	6302	mīlāks	mīlais
+3	6303	ārprātīgāks	ārprātīgais
+4	6304	visslepkavīgākais	slepkavīgāka
+5	6305	dzeltenīgāks	dzeltenīgais dzeltenīgākus
+6	6306	necentrēt	centrēja centrētu
+7	6307	rauds	raud raudu raudus raudās
+8	6308	beļģietis	beļģietei beļģieti
+9	6309	sirde	sirdes sirdi siržu
+10	6310	cilvēciskāks	cilvēciskais cilvēciskāka viscilvēciskākās
+11	6311	nemezglot	mezglos mezglošanu
+12	6312	visrupjākais	rupjākais rupjākajos rupjāko rupjākos visrupjākie
+13	6313	liegtais	liegto liegtās
+14	6314	sirmāks	sirmais sirmāka
+15	6315	labējāks	labējais labējāka
+16	6316	pavasarīgāks	pavasarīgais pavasarīgākiem
+17	6317	nepateicīgāks	nepateicīgais nepateicīgāku
+18	6318	gigantiskāks	gigantiskais gigantiskākas
+19	6319	bezrūpīgāks	bezrūpīgais bezrūpīgāka
+20	6320	morālāks	morālais morālākus
+21	6321	nepareizāks	nepareizais nepareizāki
+22	6322	apvienojošais	apvienojošās
+23	6323	aronija	aroniju
+24	6324	artais	arto
+25	6325	astere	asteru
+26	6326	ataru	
+27	6327	aukstais karš	aukstais karš
+28	6328	azaids	
+29	6329	baranka	
+30	6330	viscītīgākais	cītīgākajiem cītīgāki
+31	6331	dails	daila
+32	6332	heraldika	heraldikas
+33	6333	kalifs	kalifa
+34	6334	korinte	korina
+35	6335	kovārnis	kovārņu
+36	6336	neitralizācija	neitralizācijas
+37	6337	ornitoloģisks	ornitoloģisko
+38	6338	osa	
+39	6339	pelēkais ronis	pelēkais ronis
+40	6340	raude	raudes
+41	6341	salamandra	salamandras
+42	6342	saldais kartupelis	kartupelis saldais
+43	6343	saules vējš	saules vējš
+44	6344	tirdziniece	tirdzinieki
+45	6345	toksiskums	toksiskuma
+46	6346	trīsdesmitais	
+47	6347	tuklums	tuklumā
+48	6348	neuzart	uzar
+49	6349	vājdzirdība	
+50	6350	vārda diena	diena vārda
+51	6351	zobu suka	suka zobu
+52	6352	zooloģija	zooloģijas
+53	6353	neabstrahēt	abstrahē
+54	6354	abstraktāk	
+55	6355	aicinošais	aicinošajām
+56	6356	aizdusa	aizdusai
+57	6357	aizmāršīgi	
+58	6358	aizvakardiena	aizvakardienas
+59	6359	akcentētais	akcentēto
+60	6360	akustiski	
+61	6361	algebrisks	algebriskām
+62	6362	ambliopija	ambliopiju
+63	6363	amerikānisms	amerikānismu
+64	6364	arhivārs	arhivāru
+65	6365	aritmētiski	
+66	6366	asimetrija	asimetrijas
+67	6367	asinsgrēks	asinsgrēku
+68	6368	atgriezums	atgriezumus
+69	6369	augļkope	augļkopjus
+70	6370	aļģe	
+71	6371	baltvācietis	baltvāciešu
+72	6372	bangladešiete	bangladešieši
+73	6373	batāte	batātes
+74	6374	bezjēdzīgums	bezjēdzīgumam
+75	6375	biseksualitāte	biseksualitāti
+76	6376	caurredzami	
+77	6377	caurspīdība	caurspīdību
+78	6378	cunfte	cunftes
+79	6379	cālēns	cālēnus
+80	6380	cītība	cītību
+81	6381	darbalauks	darbalauka
+82	6382	daudzpunkte	daudzpunkti
+83	6383	decibels	decibelos
+84	6384	dialektika	
+85	6385	divdesmitais	
+86	6386	duraki	
+87	6387	dzestrums	dzestruma
+88	6388	dzirkstīt	dzirkstī
+89	6389	eiropeiski	
+90	6390	eksistenciāliste	eksistenciālista
+91	6391	emocionālāk	
+92	6392	etimoloģe	etimologi
+93	6393	famīlija	
+94	6394	filozofiskāk	
+95	6395	fizioloģe	fiziologu
+96	6396	fonētika	fonētikas
+97	6397	gaisakuģis	gaisakuģiem
+98	6398	galerts	galertu
+99	6399	garumzīme	garumzīmēm
+100	6400	visgaumīgākais	gaumīgākajiem gaumīgāku

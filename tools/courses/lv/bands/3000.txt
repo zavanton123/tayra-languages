@@ -1,0 +1,100 @@
+1	2901	colla	collai collas collu collām collās
+2	2902	teika	teikai teikas teiku teikā teikās
+3	2903	elite	elites
+4	2904	meitenīte	meitenītei meitenītes meitenīti meitenītēm
+5	2905	drudzis	drudzi drudža
+6	2906	spriedze	spriedzi
+7	2907	mehānisks	mehāniska mehāniskai mehāniskais mehāniskajam mehāniskajiem mehāniskajos mehāniskajām mehāniskam mehāniskas mehāniskie mehāniskiem mehānisko mehāniskos mehānisku mehāniskā mehāniskām mehāniskās
+8	2908	teiciens	teicienam teicieniem teicienu teicienus teicienā
+9	2909	iztēle	iztēlei iztēles iztēli iztēlē iztēlēm
+10	2910	hobijs	hobija hobijam hobiji hobijiem hobiju hobijus hobijā
+11	2911	vardarbība	
+12	2912	loģika	loģikai loģikas loģiku loģikā
+13	2913	prognozēt	
+14	2914	sīpols	sīpola sīpoli sīpoliem sīpolu sīpolus
+15	2915	administrators	administratora administratoram administratore administratorei administratores administratori administratoriem administratoru administratorus
+16	2916	pārdzīvot	pārdzīvo
+17	2917	klauns	klaun klauna klaunam klauni klauniem klaunos klaunu klaunus
+18	2918	kopt	jākopj kop kopi kopis kopj kopjam kopjams kopjot kopju kops kopsim kopts koptu kopu kopām kopšana kopšu
+19	2919	skumt	jāskumst neskumt skuma skumi skums skumsi skumsim skumst skumstam skumstat skumsti skumstot skumstu skumtu skumu skumām skumšu
+20	2920	redzēšanās	redzēšanos
+21	2921	ķirsis	ķirsi ķirsim ķirsī ķirša ķirši ķiršiem ķiršu ķiršus
+22	2922	vingrošana	vingrošanai vingrošanas vingrošanu vingrošanā
+23	2923	dabīgs	dabīga dabīgais dabīgajam dabīgajiem dabīgajos dabīgajām dabīgas dabīgie dabīgiem dabīgo dabīgu dabīgus dabīgā dabīgāks dabīgām dabīgās
+24	2924	jāšana	jāšanas jāšanās
+25	2925	klavieres	klavieru klavierēm
+26	2926	valdnieks	
+27	2927	ekrāns	ekrānā
+28	2928	dzirnavas	dzirnavu dzirnavām dzirnavās
+29	2929	iedvesmot	iedvesmo
+30	2930	delta	deltai deltam deltas deltu deltā
+31	2931	pusaudzis	pusaudžu
+32	2932	niere	nierei nieres nieri nieru nierē nierēm nierēs
+33	2933	politiski	
+34	2934	garšīgi	
+35	2935	lūsis	lūis lūsi lūsim lūša lūši lūšiem lūšos lūšu lūšus
+36	2936	īstermiņš	īstermiņa
+37	2937	šausmīgs	šausmīga šausmīgajā šausmīgajām šausmīgas šausmīgie šausmīgiem šausmīgo šausmīgos šausmīgu šausmīgus šausmīgā šausmīgākā šausmīgākās šausmīgās
+38	2938	imperators	imperator imperatora imperatoram imperatore imperatores imperatori imperatoriem imperatoru
+39	2939	ievainojums	ievainojuma ievainojumam ievainojumi ievainojumiem ievainojumu ievainojumus
+40	2940	drūms	drūma drūmais drūmajiem drūmajos drūmajā drūmajām drūmajās drūmas drūmi drūmiem drūmo drūmos drūmu drūmā drūmām drūmās
+41	2941	aka	akai akas aki aku akā
+42	2942	acīmredzami	
+43	2943	noraidīt	noraidīja
+44	2944	leģendārs	leģendāra leģendārais leģendārajam leģendārajos leģendārajā leģendārajām leģendāras leģendāri leģendārie leģendāriem leģendāro leģendāru leģendārus leģendārā leģendārām leģendārās
+45	2945	luga	lugai lugas lugu lugā lugām lugās
+46	2946	ost	neož od oda odi odu odīs ostai ostas osti ostu ostā ostām ostās ož ožu
+47	2947	veidotājs	veidotāji
+48	2948	latve	latvji latvju
+49	2949	riet	neriet rej rejam rejat reju ries rietu riešana rēja rēji
+50	2950	fronte	frontes
+51	2951	salvete	salvetei salvetes salveti salvetē salvetēm salvetēs salvešu
+52	2952	mugurkauls	mugurkaula mugurkaulam mugurkaulu mugurkaulā
+53	2953	klosteris	klostera klosteri klosteriem klosterī
+54	2954	pups	pup pupi pupiem pupos pupu pupus pupā
+55	2955	ietekmīgs	ietekmīga ietekmīgais ietekmīgajiem ietekmīgajā ietekmīgam ietekmīgas ietekmīgi ietekmīgie ietekmīgiem ietekmīgo ietekmīgu ietekmīgus ietekmīgā ietekmīgākais ietekmīgākajai ietekmīgākajiem ietekmīgākajā ietekmīgākajām ietekmīgāki ietekmīgākie ietekmīgāko ietekmīgākos ietekmīgāks ietekmīgāku ietekmīgākā ietekmīgākās ietekmīgās visietekmīgākā
+56	2956	aktivizēt	aktivizē aktivizēja aktivizējams aktivizēji aktivizējiet aktivizējis aktivizējot aktivizēju aktivizējām aktivizēs aktivizēsim aktivizēts aktivizētu aktivizēšana jāaktivizē
+57	2957	smagums	smaguma smagumam smagumu smagumus
+58	2958	frekvence	frekvences frekvenci frekvencē frekvenču
+59	2959	trīsdesmit	
+60	2960	sodīt	
+61	2961	ārzemnieks	ārzemnieka ārzemniekam ārzemnieki ārzemniekiem ārzemnieku ārzemniekus
+62	2962	uztvere	uztverei uztveres uztveri uztveru uztverē
+63	2963	paveikties	paveicies
+64	2964	kvalificēts	kvalificēta kvalificētai kvalificētais kvalificētajiem kvalificētajām kvalificētam kvalificētas kvalificēti kvalificētie kvalificētiem kvalificēto kvalificētos kvalificētu kvalificētus kvalificētā kvalificētāks kvalificētās
+65	2965	adata	adatai adatas adatu adatām
+66	2966	oma	omai omas omu omā
+67	2967	sēdeklis	sēdekli sēdeklī sēdekļa sēdekļi sēdekļiem sēdekļu sēdekļus
+68	2968	kruķis	
+69	2969	johaidī	
+70	2970	raize	raizes raizēm raižu
+71	2971	kolonna	kolonnai kolonnas kolonnu kolonnā kolonnām kolonnās
+72	2972	vēsturnieks	vēsturniece vēsturnieka vēsturniekam vēsturnieki vēsturniekiem vēsturnieku
+73	2973	aut	auj aujiet aujot auju aunam aunu aus ausi ausiet ausim auta autas auti auts autu autā aušana aušanas aušanu āva
+74	2974	banknote	banknotei banknotes banknoti banknotēm banknotēs banknošu
+75	2975	rosa	
+76	2976	folklora	folkloras folkloru folklorā
+77	2977	vājprāts	vājprāta vājprātam vājprātu vājprātā
+78	2978	zīle	zīles zīli zīlēm zīlīte zīlītei zīlītes zīlīšu zīļu
+79	2979	straume	straumes
+80	2980	kodols	kodola kodolam kodolu kodolā
+81	2981	dienēt	dien dienam dienot dienu dienē dienēja dienēji dienējis dienēju dienējām dienējāt
+82	2982	priekšpilsēta	priekšpilsētas priekšpilsētu priekšpilsētā priekšpilsētās
+83	2983	haizivs	haizivi haizivij haizivis haizivju haizivīm
+84	2984	grozīt	groza grozi grozot grozu grozīja grozīsim grozīts grozītu grozīšana jāgroza
+85	2985	komēdija	komēdijai komēdijas komēdiju komēdijā
+86	2986	krieviski	
+87	2987	odze	odzes odzi odžu ou
+88	2988	respondents	respondentu
+89	2989	krēms	krēma krēmu
+90	2990	vienlīdzīgs	vienlīdzīga vienlīdzīgai vienlīdzīgas vienlīdzīgi vienlīdzīgie vienlīdzīgiem vienlīdzīgos vienlīdzīgu vienlīdzīgus vienlīdzīgā vienlīdzīgām
+91	2991	bioloģija	bioloģijas bioloģiju bioloģijā
+92	2992	daiļš	daiļa daiļais daiļas daiļi daiļo daiļos daiļu daiļā daiļām daiļās visdaiļākajām visdaiļākā visdaiļākās
+93	2993	alerģija	alerģijai alerģijas alerģiju alerģijām
+94	2994	kalifornijs	kalifornija kaliforniju kalifornijā
+95	2995	oranžs	oranža oranžais oranžajiem oranžajos oranžajā oranžas oranži oranžie oranžiem oranžo oranžos oranžu oranžus oranžā oranžāks oranžās
+96	2996	klusi	
+97	2997	ēdienkarte	ēdienkartei ēdienkartes ēdienkarti ēdienkartē ēdienkartēm ēdienkartēs
+98	2998	interesēties	interesējas
+99	2999	akūts	akūta akūtais akūtajiem akūtajā akūtajām akūtas akūti akūtiem akūto akūtos akūtu akūtus akūtā akūtām akūtās
+100	3000	tinte	tinos tintei tintes tinti tintē

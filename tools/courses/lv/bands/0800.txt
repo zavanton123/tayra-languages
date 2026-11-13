@@ -1,0 +1,100 @@
+1	701	interese	intereses interesi interešu
+2	702	lidot	jālido lido lidoja lidojam lidojat lidoji lidojiet lidojis lidojot lidojošais lidojoši lidojošos lidojošs lidojošu lidojošā lidojošām lidoju lidojusi lidojušais lidojuši lidojām lidos lidosi lidosiet lidosim lidotu lidošana lidošanai lidošanas lidošanu lidošu nelido nelidoja nelidos nelidosi nelidosim nelidot nelidotu nelidošu
+3	703	tikšanās	tikšanos
+4	704	pārtika	pārtikai pārtikas pārtiku pārtikā
+5	705	paust	pauda pauž
+6	706	tests	test testa testam testi testiem testos testu testus testā
+7	707	virziens	virziena virzienam virzieni virzieniem virzienos virzienu virzienus virzienā
+8	708	nozīmēt	jānozīmē nenozīmē nenozīmēt nozīmē nozīmēja nozīmējam nozīmēji nozīmējiet nozīmējis nozīmējot nozīmēju nozīmējāt nozīmēs nozīmēsi nozīmēsim nozīmēts nozīmētu nozīmēšu
+9	709	izmaksa	izmaksai izmaksas izmaksu izmaksā izmaksām izmaksās
+10	710	baznīca	baznīcai baznīcas baznīcu baznīcā baznīcām baznīcās
+11	711	gudrs	gudra gudrai gudrais gudrajam gudrajiem gudrajā gudrajām gudram gudras gudri gudrie gudriem gudro gudros gudru gudrus gudrā gudrāk gudrāka gudrākai gudrākais gudrākajiem gudrākam gudrākas gudrāki gudrākie gudrākiem gudrākos gudrāks gudrāku gudrākus gudrākā gudrām gudrās visgudrāk visgudrākais visgudrākie visgudrāko visgudrākā
+12	712	vēlreiz	
+13	713	zems	viszemākais viszemākie viszemāko viszemākā zema zemais zemajam zemajiem zemajā zemajām zemam zemas zemie zemiem zemo zemus zemā zemāka zemākais zemākajam zemākajiem zemākajos zemākajā zemākajām zemākajās zemākas zemāki zemākie zemākiem zemāko zemākos zemāks zemāku zemākus zemākā zemākām zemākās zemām zemās
+14	714	piekrist	jāpiekrīt nepiekrist piekrists piekristu piekrita piekriti piekritis piekritu piekritām piekritāt piekritīs piekritīsi piekritīsiet piekritīsim piekritīsit piekritīšu piekrišana piekrīt piekrītam piekrītat piekrīti piekrītiet piekrītot piekrītu
+15	715	slikti	
+16	716	muzejs	muzeja muzejam muzeji muzejiem muzejos muzeju muzejus muzejā
+17	717	šovakar	
+18	718	īpašnieks	īpašnieka īpašniekam īpašnieki īpašniekiem īpašnieku īpašniekus
+19	719	gūt	guva guvi guvis guvu guvām guvāt gūdams gūs gūsi gūsiet gūsim gūst gūstam gūstat gūsti gūstiet gūstot gūstu gūts gūtu gūšana gūšu jāgūst negūt
+20	720	justies	jutās jūtos
+21	721	arvien	
+22	722	agrāk	
+23	723	priekš	
+24	724	tādējādi	
+25	725	skriet	jāskrien neskriet skrien skrienam skrienat skrieniet skrienot skrienu skries skriesi skriesim skrietu skriešana skriešu skrēja skrēji skrēju skrējām
+26	726	apjoms	apjoma apjomi apjomu
+27	727	mats	mata matam mati matiem matos matu matus matā
+28	728	pietiekami	
+29	729	sastāvs	sastāv sastāva sastāvam sastāvi sastāviem sastāvos sastāvu sastāvus sastāvā
+30	730	pagasts	pagasta pagastam pagasti pagastiem pagastos pagastu pagastus pagastā
+31	731	zīme	zīmei zīmes zīmi zīmju zīmē zīmēm zīmēs
+32	732	teātris	teātra teātri teātriem teātrim teātros teātru teātrus teātrī
+33	733	sportists	sportist sportista sportistam sportiste sportistei sportistes sportisti sportistiem sportistu sportistus sportistēm
+34	734	manuprāt	
+35	735	dāvana	dāvanai dāvanas dāvanu dāvanā dāvanām dāvanās
+36	736	reiz	
+37	737	skolēns	skolēna skolēnam skolēni skolēniem skolēnos skolēnu skolēnus
+38	738	alga	algai algas algos algu algā algām algās
+39	739	ēdiens	ēdien ēdiena ēdienam ēdieni ēdieniem ēdienos ēdienu ēdienus ēdienā
+40	740	māsa	māsai māsam māsas māsu māsā māsām māsās
+41	741	ātrs	visātrākais ātra ātrai ātrais ātrajai ātrajiem ātrajos ātrajā ātrajām ātram ātras ātrie ātriem ātro ātros ātru ātrus ātrā ātrāka ātrākai ātrākais ātrākajai ātrākajam ātrākajiem ātrākajā ātrākajām ātrākas ātrāki ātrākie ātrākiem ātrāko ātrākos ātrāks ātrāku ātrākus ātrākā ātrākās ātrām ātrās
+42	742	vēlies	
+43	743	paņemt	paņem paņēmu
+44	744	sen	
+45	745	diemžēl	
+46	746	jūtas	jūtu jūtām jūtās
+47	747	viesnīca	viesnīcai viesnīcas viesnīcu viesnīcā viesnīcām viesnīcās
+48	748	vaina	vainai vainas vaine vainu vainām
+49	749	loma	lomai lomas lomiem lomu lomus lomā lomām lomās
+50	750	autors	autora autoram autore autori autoriem autoru autorus
+51	751	gods	god goda godam godi godiem godos godu godā
+52	752	kundze	kunde kundzei kundzes kundzi kundzēm
+53	753	cauri	
+54	754	pils	pili pilij pilis pilī pilīm pilīs pis piļu
+55	755	vienošanās	vienošanos
+56	756	ārpus	
+57	757	augšā	
+58	758	nodaļa	nodaļas nodaļā
+59	759	mākslinieks	māksliniece mākslinieces mākslinieka māksliniekam mākslinieki māksliniekiem mākslinieku māksliniekus māksliniekā
+60	760	pasacīt	jāpasaka pasaki pasakiet pasakot pasaku pasakām pasakāms pasakāt
+61	761	kādreiz	
+62	762	ziņojums	ziņojuma ziņojumam ziņojumi ziņojumiem ziņojumos ziņojumu ziņojumus ziņojumā
+63	763	decembris	decembra decembri decembrim decembrī
+64	764	vesels	vesela veselai veselais veselajam veselajiem veselam veselas veseli veselie veseliem veselo veselu veselus veselā veselākai veselāki veselāks veselāku veselām veselās
+65	765	uzreiz	
+66	766	eksperts	ekspert eksperta ekspertam eksperte eksperti ekspertiem ekspertos ekspertu ekspertus
+67	767	mērs	mēr mēra mēram mēre mēri mēriem mēros mēru mērus mērā
+68	768	vējš	vēja vējam vēji vējiem vējos vēju vējus vējā
+69	769	blakus	
+70	770	dārgs	dārga dārgai dārgais dārgajai dārgajam dārgajiem dārgajā dārgajām dārgajās dārgam dārgas dārgie dārgiem dārgo dārgos dārgu dārgus dārgā dārgāks dārgām dārgās visdārgākais visdārgākajam visdārgākie visdārgāko visdārgākā visdārgākās
+71	771	aģentūra	aģentūrai aģentūras aģentūru aģentūrā aģentūrām aģentūrās
+72	772	padarīt	padara padarot padarīja
+73	773	direktors	direktor direktora direktoram direktore direktorei direktores direktori direktoriem direktoru direktorus
+74	774	studija	studijai studijas studiju studijā studijām studijās
+75	775	spēcīgs	spēcīga spēcīgai spēcīgais spēcīgajai spēcīgajam spēcīgajiem spēcīgajā spēcīgajām spēcīgajās spēcīgam spēcīgas spēcīgi spēcīgie spēcīgiem spēcīgo spēcīgu spēcīgus spēcīgā spēcīgāks spēcīgām spēcīgās visspēcīgākais
+76	776	spēja	spējai spējas spējā spējām spējās
+77	777	sūtīt	jāsūta nesūtīt sūta sūti sūtiet sūtot sūtu sūtām sūtāt sūtīja sūtīji sūtījis sūtīju sūtījām sūtījāt sūtīs sūtīsi sūtīsiet sūtīsim sūtīts sūtītu sūtīšana sūtīšu
+78	778	sūds	sūd sūda sūdi sūdiem sūdos sūdu sūdus sūdā
+79	779	ātrums	ātruma ātrumam ātrumi ātrumiem ātrumos ātrumu ātrumus ātrumā
+80	780	aktivitāte	aktivitātei aktivitātes aktivitāti aktivitātē aktivitātēm aktivitātēs aktivitāšu
+81	781	vidējs	vidējais vidējo vidējā vidējās
+82	782	mala	malai malas malu malus malā malām malās
+83	783	sala	salai salas salu salā salām salās
+84	784	celt	cel celiet cels celsim celta celtas celti celtos celts celtu celtā celtās celšana celšanai celšanas celšanos celšanu celšanā celšu ceļ ceļu cēla cēli cēlis cēlu cēlusi cēluši cēlušās cēlām jāceļ necel neceliet necelsim necelt neceltos neceļ neceļam neceļu necēla
+85	785	pērn	
+86	786	pulksten	
+87	787	lidmašīna	lidmašīnai lidmašīnas lidmašīnu lidmašīnā lidmašīnām lidmašīnās
+88	788	iziet	izej izejam izejat izejiet izejot izeju izgāja izgāji izgājis izgāju izgājām izgājāt izies iziesi iziesiet iziesim iziets izietu iziešana iziešu jāiziet neiziet
+89	789	astoņi	astoņas astoņiem astoņos astoņu astoņus astoņām astoņās
+90	790	putns	putn putna putnam putni putniem putnu putnus putnā
+91	791	būtisks	būtiska būtiskai būtiskais būtiskajam būtiskajiem būtiskajos būtiskajā būtiskajām būtiskam būtiskas būtiskie būtiskiem būtisko būtiskos būtisku būtiskus būtiskā būtiskāka būtiskākais būtiskākajam būtiskākajiem būtiskākajām būtiskākajās būtiskākas būtiskāki būtiskākie būtiskāko būtiskākos būtiskāks būtiskāku būtiskākus būtiskākā būtiskākām būtiskākās būtiskām būtiskās visbūtiskākais
+92	792	puika	puikam puikas puiku puikā puikām
+93	793	izstāde	izstādei izstādes izstādi izstādē izstādēm izstādēs
+94	794	zvaigzne	zvaigznei zvaigznes zvaigzni zvaigznēm zvaigznēs zvaigžņu
+95	795	traks	traka trakai trakais trakajai trakajam trakajiem trakajā trakas trakie trakiem trako trakos traku trakus trakā trakāks trakām trakās vistrakākais vistrakāko vistrakākās
+96	796	students	student studenta studentam studente studenti studentiem studentos studentu studentus
+97	797	būtiski	
+98	798	pār	
+99	799	tiesnesis	tiesnese tiesnesi tiesnesim tiesneša tiesneši tiesnešiem tiesnešu tiesnešus
+100	800	atgādināt	atgādina atgādināja

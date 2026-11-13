@@ -1,0 +1,100 @@
+1	5601	sociologs	sociologu socioloģe
+2	5602	aritmētisks	aritmētiskais aritmētiskas aritmētisko aritmētiskā
+3	5603	galvassega	galvassegas galvassegu
+4	5604	laborants	laborante laboranti laborantu
+5	5605	atkalt	atkala atkaļ
+6	5606	sešnieks	sešnieka sešniekā
+7	5607	dālija	dālijas dāliju
+8	5608	raksturojošais	raksturojošajiem raksturojošie raksturojošo raksturojošā raksturojošās
+9	5609	centrēts	centrēta centrētu
+10	5610	miesīgs	miesīgais miesīgie miesīgu
+11	5611	vienojošais	vienojošo
+12	5612	jaks	jakiem jaku jakā
+13	5613	staigs	staiga staigā staigās
+14	5614	ekonomiskāks	ekonomiskais ekonomiskāka ekonomiskākas ekonomiskāko ekonomiskākā
+15	5615	akmeņains	akmeņainas akmeņainiem akmeņainu
+16	5616	antropologs	antropologa antropologi antropologu antropoloģes
+17	5617	automaģistrāle	automaģistrāles automaģistrālēm automaģistrāļu
+18	5618	radze	radzes radzēm radžu
+19	5619	pelēcīgs	pelēcīgas
+20	5620	strēle	
+21	5621	mesa	
+22	5622	kinozvaigzne	kinozvaigznes kinozvaigznēm
+23	5623	svešums	svešumā
+24	5624	bezjēdzība	bezjēdzību bezjēdzībā
+25	5625	žagata	
+26	5626	purvains	purvaini purvainās
+27	5627	saulessargs	saulessarga saulessargu
+28	5628	tempt	temp tempa tempi tempu
+29	5629	vingrs	vingro
+30	5630	slepkavīgs	slepkavīgajam slepkavīgā slepkavīgāka
+31	5631	locīt	locīju locīts loka loku
+32	5632	burbuļot	burbuļo burbuļos jāburbuļo
+33	5633	blāvāks	blāvais blāvāka blāvākas
+34	5634	erotiski	
+35	5635	plauša	
+36	5636	parītdiena	
+37	5637	netirgojam	
+38	5638	miglaini	
+39	5639	paaris	
+40	5640	iracionāli	
+41	5641	pariet	parējām
+42	5642	blīve	blīves blīvē
+43	5643	apīnis	apīni
+44	5644	neeksistēju	
+45	5645	grieznes	grieze griezos
+46	5646	nejautājam	
+47	5647	apātija	
+48	5648	gludāk	
+49	5649	devītnieks	devītnieka
+50	5650	nedrošināt	drošina drošināja drošināšu
+51	5651	zintnieks	zintniekiem zintnieku
+52	5652	internacionāls	internacionāla internacionālā
+53	5653	freska	freskas
+54	5654	berklijs	berklija berklijā
+55	5655	rikošets	rikošeta
+56	5656	fotogrāfisks	fotogrāfiska fotogrāfiskā
+57	5657	mongolis	mongoļi mongoļiem mongoļu
+58	5658	saltums	saltumam saltumu
+59	5659	kēkss	kēksi kēksu
+60	5660	sapņains	sapņainas sapņainos sapņainā
+61	5661	dievināšana	dievināšanas
+62	5662	rieties	rejos riešanās
+63	5663	purvājs	purvāji purvājiem purvājā
+64	5664	klitors	klitora klitoru
+65	5665	neļķe	neļķes neļķēm
+66	5666	runājamais	runājamo runājamā
+67	5667	aicinātais	aicinātajiem aicinātajām aicinātie aicināto aicinātās
+68	5668	emocionālāks	emocionālais emocionālākais emocionālākajiem emocionālākajām emocionālākos emocionālāku
+69	5669	nekonstatējot	
+70	5670	ofensīva	
+71	5671	racionālāk	
+72	5672	visspilgtāk	
+73	5673	visasāk	
+74	5674	kūtsmēsli	kūtsmēslu kūtsmēslus
+75	5675	ūdenstornis	ūdenstorņa
+76	5676	rēzeknietis	rēzeknieši rēzekniešu
+77	5677	kālis	kāli kāļiem
+78	5678	ateroskleroze	aterosklerozes aterosklerozi
+79	5679	emīrs	emīra
+80	5680	irākiete	irākieši irākiešiem irākiešu
+81	5681	pastala	pastalai pastalas pastalu pastalās
+82	5682	telefonija	telefonijas telefoniju
+83	5683	telefonisks	telefoniska telefoniskas
+84	5684	ziemīgs	ziemīgie ziemīgā ziemīgās
+85	5685	anālāks	anālais
+86	5686	mobilāks	mobilais mobilāki mobilākiem
+87	5687	klaips	klaipa klaipu
+88	5688	piedēklis	piedēkli piedēkļiem
+89	5689	tējkanna	
+90	5690	arkls	arkla arkliem arklu
+91	5691	neizteikts	neizteiktā
+92	5692	drīkstot	
+93	5693	amfībija	amfībijai amfībiju amfībijām
+94	5694	spirgts	spirgtu
+95	5695	kobalts	kobalta kobaltu
+96	5696	lingvistisks	lingvistisko lingvistisku lingvistiskā lingvistiskās
+97	5697	lineāls	lineāla lineālu
+98	5698	reālāk	
+99	5699	kabatzaglis	kabatzagli kabatzagļiem kabatzagļus
+100	5700	datorvīruss	datorvīrusi datorvīrusu

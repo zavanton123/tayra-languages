@@ -1,0 +1,100 @@
+1	4301	sēklis	sēklim sēkļa sēkļiem
+2	4302	elkonis	elkonim elkoņa elkoņi elkoņiem elkoņos elkoņu elkoņus
+3	4303	strauts	strauta strautam strautu
+4	4304	taukskābe	taukskābes taukskābju taukskābēm
+5	4305	etnogrāfisks	etnogrāfiskais etnogrāfiskajā etnogrāfiskajās etnogrāfiskiem etnogrāfisko etnogrāfisku etnogrāfiskā
+6	4306	sēklinieks	sēkliniekiem sēklinieku sēkliniekus sēkliniekā
+7	4307	jēls	jēla jēlai jēlas jēlo jēlu jēlā
+8	4308	raupjš	raupja raupjais raupjas raupji raupjo raupju raupjā raupjākie raupjākās
+9	4309	anulēt	anulē
+10	4310	fosfors	fosfora fosforu fosforus
+11	4311	gavēnis	gavēni gavēnī gavēņa
+12	4312	komandants	komandant komandanta komandanti
+13	4313	brunete	brunetas brunetes bruneti brunets brunetēm
+14	4314	tāfele	tāfeles tāfeli
+15	4315	mehānika	mehānikas mehāniku mehānikā
+16	4316	mutiski	
+17	4317	izraēliete	izraēlieti izraēlietim izraēlietis izraēlieši izraēliešiem izraēliešu izraēliešus
+18	4318	siens	sien sienu sienā
+19	4319	nevainoju	
+20	4320	lauvene	lauvenei lauvenes lauveni lauvenēm lauveņu
+21	4321	pirmskarš	pirmskara
+22	4322	raudas	raudu raudās
+23	4323	ārstniecisks	ārstnieciska ārstnieciskais ārstnieciskajā ārstnieciskajām ārstnieciskas ārstnieciskie ārstniecisko ārstnieciskos ārstnieciskā ārstnieciskās
+24	4324	krabis	krabi krabja krabji krabju krabjus krabī
+25	4325	deviņdesmit	
+26	4326	kustīgs	kustīga kustīgajiem kustīgas kustīgie kustīgiem kustīgo kustīgu kustīgā kustīgākas kustīgāki kustīgām kustīgās
+27	4327	augšstilbs	augšstilba augšstilbiem augšstilbus augšstilbā
+28	4328	komiķis	komiķa komiķe komiķi komiķiem komiķim komiķu
+29	4329	ūdensvads	ūdensvada ūdensvadam ūdensvadu
+30	4330	rasists	rasiste rasistiem rasistu
+31	4331	provokācija	provokācijas provokāciju provokācijām provokācijās
+32	4332	stāstījums	stāstījuma stāstījumi stāstījumiem stāstījumu stāstījumā
+33	4333	kāre	kāres kāri kāru kārē
+34	4334	miesnieks	miesnieka miesnieki miesniekiem miesnieku
+35	4335	bulgārs	bulgāra bulgāri bulgāriem bulgārieti bulgāru bulgārus
+36	4336	tīši	
+37	4337	septiņdesmit	
+38	4338	mehāniski	
+39	4339	dzidrs	dzidra dzidrajā dzidras dzidro dzidru dzidrā dzidrāks
+40	4340	pasakaini	
+41	4341	ceriņš	ceriņa ceriņi ceriņiem ceriņu ceriņus
+42	4342	komēta	komētas komētu
+43	4343	teļš	teļa teļi teļu
+44	4344	ventilators	ventilatora ventilatori ventilatoriem ventilatoru ventilatorus
+45	4345	arheoloģisks	arheoloģiskais arheoloģiskajai arheoloģiskajiem arheoloģiskajā arheoloģiskie arheoloģiskiem arheoloģisko arheoloģiskos arheoloģisku arheoloģiskā arheoloģiskās
+46	4346	apakšbikses	apakšbiksēm apakšbiksēs apakšbikšu
+47	4347	kāsis	kāsi kāša kāšu kāšus
+48	4348	spožums	spožumu spožumā
+49	4349	aklums	akluma aklumu aklumā
+50	4350	vingrot	jāvingro nevingro vingro vingrojot vingroju
+51	4351	viņpus	
+52	4352	patiesums	patiesuma patiesumu patiesumā
+53	4353	iedarbīgs	iedarbīga iedarbīgas iedarbīgi iedarbīgiem iedarbīgo iedarbīgu iedarbīgus iedarbīgā iedarbīgākajām iedarbīgāki iedarbīgāks iedarbīgāku iedarbīgākus iedarbīgākā iedarbīgām visiedarbīgākais visiedarbīgākā
+54	4354	rokasspiediens	rokasspiediena rokasspiedienam rokasspiedieni rokasspiedieniem rokasspiedienu
+55	4355	java	javas javu javā
+56	4356	selga	selgas selgā
+57	4357	žīgurs	žīgura žīguram žīguru
+58	4358	dabīgi	
+59	4359	mitināties	mitinās
+60	4360	mags	mag maga magam magi magiem magu
+61	4361	žigli	
+62	4362	amulets	amuleta amuletam amuleti amuletu
+63	4363	tīrītava	tīrītavai tīrītavas tīrītavu tīrītavā
+64	4364	grīva	grīvas grīvos grīvu
+65	4365	fa	
+66	4366	sociālists	sociālisti sociālistiem sociālistu sociālistus
+67	4367	stingrāk	
+68	4368	pienene	pienenes pieneņu
+69	4369	gļotāda	gļotādas gļotādu gļotādā
+70	4370	silīcijs	silīcija
+71	4371	smēķētājs	smēķētāja smēķētājam smēķētāji smēķētājiem smēķētāju smēķētājus
+72	4372	konkrētāk	
+73	4373	kalkulators	kalkulatora kalkulatori kalkulatoriem kalkulatoru kalkulatorā
+74	4374	lieliskāks	lieliskais lieliskākais lieliskākajai lieliskākajiem lieliskākajā lieliskākajām lieliskākiem lieliskāko lieliskāku lieliskākā lieliskākās vislieliskākais vislieliskākajam vislieliskākā
+75	4375	austere	austeres austeru austerē austerēm
+76	4376	pasakains	pasakaina pasakainajai pasakainas pasakainie pasakaino pasakainu pasakainā pasakainās
+77	4377	neklupt	klupa klupdami klups kluptu klupāt klupšanas klupšu klūp klūpi klūpu neklūp
+78	4378	liess	liesa liesajos liesi lieso liesu liesā liesāks
+79	4379	vate	vaa vates vati
+80	4380	emirāts	emirāta emirāti emirātiem emirātos emirātu
+81	4381	fizikāls	fizikālais fizikālajām fizikālajās fizikāliem fizikālo fizikālā fizikālām fizikālās
+82	4382	iezis	iezi ieža ieži iežos iežu
+83	4383	bulvāris	bulvāri
+84	4384	vientulība	
+85	4385	peļķe	peļķes peļķi peļķu peļķē peļķēm peļķēs
+86	4386	virsa	virsas virsu
+87	4387	kardiologs	kardiologa kardiologi kardiologiem kardiologu kardioloģe
+88	4388	niknums	niknuma niknumam niknumu
+89	4389	ķīmiski	
+90	4390	kamene	kamenei kamenes kameni kamenēm
+91	4391	ērzelis	ērzeli ērzeļa ērzeļi ērzeļiem
+92	4392	vāze	vāzes vāzi vāzē vāzēm vāzēs vāžu
+93	4393	blusa	blusas blusu blusām
+94	4394	izejmateriāls	izejmateriāla izejmateriāli izejmateriāliem izejmateriālos izejmateriālu izejmateriālus
+95	4395	ziņkāre	ziņkāres ziņkāri
+96	4396	degu	
+97	4397	zirdziņš	zirdziņ zirdziņi zirdziņu
+98	4398	rozīne	rozīnes rozīnēm rozīņu
+99	4399	braucošais	braucošajam braucošajiem braucošajā braucošie braucošo braucošos braucošā
+100	4400	anekdote	anekdotes anekdoti anekdotē anekdotēm anekdošu

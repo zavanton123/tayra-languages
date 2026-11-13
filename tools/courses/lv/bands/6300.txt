@@ -1,0 +1,100 @@
+1	6201	dusa	dusu dusā
+2	6202	mērcēt	jāmērcē mērcē mērcēs mērcēšana
+3	6203	latviskāks	latviskais latviskākajām latviskākus
+4	6204	starptautiskāks	starptautiskais starptautiskākajiem
+5	6205	dzīvespriecīgāks	dzīvespriecīgais dzīvespriecīgāka dzīvespriecīgākajos
+6	6206	slinkāks	slinkais slinkākie
+7	6207	slaidāks	slaidais slaidākā
+8	6208	vējaināks	vējainais vējainākā
+9	6209	kosmosa kuģis	kosmosa kuģis
+10	6210	sentence	sentenu
+11	6211	spulgs	spulgas
+12	6212	visracionālāk	
+13	6213	abinieks	abinieki
+14	6214	andoriete	andorieši
+15	6215	astoņnieks	astoņniekā
+16	6216	baltegle	
+17	6217	borščs	
+18	6218	bēdīgāk	
+19	6219	dzeltenums	dzeltenumā
+20	6220	elektrostacija	
+21	6221	enerģiskāk	
+22	6222	iedarbīgāk	
+23	6223	izdarīgi	
+24	6224	krustošanās	
+25	6225	lingviste	
+26	6226	maijpuķīte	
+27	6227	neaicinot	
+28	6228	neapvienojot	
+29	6229	neglābdams	
+30	6230	neliedzot	
+31	6231	pakot	
+32	6232	pastāvība	
+33	6233	patiesāk	
+34	6234	ports	porta
+35	6235	pretspēks	
+36	6236	prostituēt	prostituētās
+37	6237	racionālisms	
+38	6238	rezultatīvāk	
+39	6239	rokasbumba	
+40	6240	savaldīgs	savaldīgi
+41	6241	sliktums	sliktuma
+42	6242	staltbriedis	staltbrieži
+43	6243	stelles	stellēs
+44	6244	stroncijs	
+45	6245	stāstītāja	stāstītāju
+46	6246	svešvārds	svešvārdu
+47	6247	sāļāks	
+48	6248	tabakmaks	tabakmakus
+49	6249	tējnīca	tējnīcā
+50	6250	uzcītība	uzcītību
+51	6251	vienpadsmitais	
+52	6252	visciešāk	
+53	6253	vārne	vārā
+54	6254	vēlbrokastis	
+55	6255	zaķēns	zaķēna
+56	6256	zoologs	
+57	6257	čaklums	čakluma
+58	6258	ļaunatūra	ļaunatūru
+59	6259	ņiprs	ņipra
+60	6260	šprotes	
+61	6261	šujmašīna	šujmašīnas
+62	6262	švakāk	
+63	6263	žūt	žūst
+64	6264	asenizācija	asenizācijas
+65	6265	rokassoma	rokassomas
+66	6266	rudenīgi	
+67	6267	smilšains	smilšainā
+68	6268	sātaniste	sātanisti
+69	6269	turkmēniete	turkmēņu
+70	6270	visvēlāk	
+71	6271	kaiva	kaivas
+72	6272	locījums	locījumu
+73	6273	radons	radonu
+74	6274	amorfs	amorfa amorfie
+75	6275	antropoloģisks	antropoloģiskais
+76	6276	brist	brida
+77	6277	caurredzamība	caurredzamību
+78	6278	centrists	centristiem
+79	6279	datorpele	datorpeles datorpeli
+80	6280	disleksija	disleksijas disleksiju
+81	6281	drēgnums	drēgnuma
+82	6282	duraks	durakiem duraku
+83	6283	filologs	filoloģe
+84	6284	imperiālisms	imperiālisma imperiālismu
+85	6285	kirgīziete	kirgīzi kirgīzu
+86	6286	krejotava	krejotavas krejotavā
+87	6287	kļūdīgs	kļūdīgi
+88	6288	mafins	mafinam mafinus
+89	6289	možums	možuma
+90	6290	neonacisms	neonacisma neonacismā
+91	6291	nevārds	nevārdiem nevārdu
+92	6292	piala	pialu
+93	6293	polisks	poliskajās poliskās
+94	6294	pārvalks	pārvalku pārvalkus
+95	6295	raižpilns	raižpilnu raižpilnām
+96	6296	itālisks	itāliskais
+97	6297	uzcītīgāks	uzcītīgais visuzcītīgākā
+98	6298	fonētisks	fonētiskais fonētisko
+99	6299	nezīst	zīda zīdu zīšanas zīžu
+100	6300	psihiskāks	psihiskais

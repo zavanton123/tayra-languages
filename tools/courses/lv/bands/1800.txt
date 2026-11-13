@@ -1,0 +1,100 @@
+1	1701	procents	procentiem procentu
+2	1702	svērt	is sver sveru svēram svērtu svēru ām
+3	1703	toties	
+4	1704	profesionāls	profesionālu profesionālās
+5	1705	šonakt	
+6	1706	krāpšana	krāpšanai krāpšanas krāpšanu krāpšanā krāpšanām krāpšanās
+7	1707	jebkad	
+8	1708	stāvs	stāvā
+9	1709	iespaidīgs	iespaidīga iespaidīgais iespaidīgajai iespaidīgajiem iespaidīgajām iespaidīgas iespaidīgi iespaidīgiem iespaidīgo iespaidīgos iespaidīgu iespaidīgus iespaidīgā iespaidīgāks iespaidīgām iespaidīgās visiespaidīgākais
+10	1710	pūķis	pūķa pūķi pūķiem pūķim pūķu pūķus pūķī
+11	1711	mediķis	mediķi mediķu
+12	1712	jokot	joko jokoja jokojam jokojat jokoji jokojot jokojām jokojāt jokošanu jokošu nejoko nejokoja nejokojat nejokoji nejokojiet nejokojāt nejokot
+13	1713	opera	operai operas operu operā operām operās
+14	1714	atšķirties	atšķiras
+15	1715	unikāls	unikāla unikālais unikālajam unikālajiem unikālajos unikālajā unikālajām unikālajās unikālam unikālas unikāli unikālo unikālos unikālu unikālus unikālā unikālām unikālās
+16	1716	lēts	lēta lētai lētais lētajai lētajam lētajiem lētajā lētam lētas lētie lētiem lēto lētos lētu lētus lētā lētāka lētākai lētākais lētākajiem lētākajām lētākas lētāki lētākie lētākiem lētāko lētākos lētāks lētāku lētākus lētākā lētākām lētākās lētām lētās vislētāk vislētākais vislētāko vislētākās
+17	1717	kopiena	kopienai kopienas kopienu kopienā kopienām kopienās
+18	1718	brits	brita britam briti britiem britieti britu britus
+19	1719	draudēt	draud draudēja
+20	1720	veltīt	veltīta veltīts
+21	1721	piedzīvot	piedzīvo piedzīvoja
+22	1722	atnākt	atnāca
+23	1723	princips	principi principu
+24	1724	paaudze	paaudzes
+25	1725	gulbis	gula gulam gulbi gulbim gulbja gulbji gulbjiem gulbju gulbjus gulu
+26	1726	turp	
+27	1727	pēcpusdiena	pēcpusdienai pēcpusdienas pēcpusdienu pēcpusdienā pēcpusdienām pēcpusdienās
+28	1728	brīvi	
+29	1729	noziedznieks	noziedzniece noziedznieka noziedzniekam noziedznieki noziedzniekiem noziedznieku noziedzniekus
+30	1730	tūrists	tūrista tūristam tūristei tūristi tūristiem tūristu tūristus
+31	1731	peļņa	peļņu
+32	1732	nabags	nabadzi nabaga nabagajiem nabagam nabagi nabagie nabagiem nabago nabagos nabagu nabagus nabagāki nabagāks nabagākus nabagās
+33	1733	iespaids	iespaidu
+34	1734	maize	maiu maizei maizes maizi maizē maiā
+35	1735	aptauja	aptaujas
+36	1736	motors	motor motora motoram motori motoriem motoru motorus
+37	1737	jebkas	jebko
+38	1738	vanna	vannai vannas vannu vannā vannām vannās
+39	1739	aizbraukt	aizbrauca
+40	1740	pagalms	pagalma pagalmam pagalmi pagalmiem pagalmos pagalmu pagalmus pagalmā
+41	1741	cerams	
+42	1742	rets	reta retais retajai retajam retajiem retajos retajā retajām retajās retam retas retie retiem reto retos retu retus retā retāka retākais retākas retāki retāks retāku retākā retākās retām retās
+43	1743	jausma	jausmas
+44	1744	mierīgs	mierīga mierīgai mierīgais mierīgajai mierīgajiem mierīgajā mierīgam mierīgas mierīgie mierīgiem mierīgo mierīgos mierīgu mierīgus mierīgā mierīgāks mierīgām mierīgās
+45	1745	īstenībā	
+46	1746	lemt	lemts
+47	1747	produkcija	produkcijai produkcijas produkciju produkcijā
+48	1748	baža	bažas
+49	1749	gatavība	gatavībai gatavības gatavību gatavībā
+50	1750	pieejamība	pieejamībai pieejamības pieejamību pieejamībā
+51	1751	demokrātija	demokrātijai demokrātijas demokrātiju demokrātijā demokrātijām demokrātijās
+52	1752	garša	garšai garšas garšu garšā garšām garšās
+53	1753	konflikts	konflikta konflikti konfliktu konfliktus
+54	1754	aplis	apli aplim aplī apļa apļi apļiem apļos apļu apļus
+55	1755	pavēstīt	pavēstīja
+56	1756	briesmīgs	briesmīga briesmīgai briesmīgais briesmīgajam briesmīgajiem briesmīgajā briesmīgajām briesmīgas briesmīgie briesmīgo briesmīgos briesmīgu briesmīgus briesmīgā briesmīgāks briesmīgām briesmīgās visbriesmīgākais
+57	1757	izklaide	izklaides
+58	1758	futbolists	futbolista futbolistam futboliste futbolisti futbolistiem futbolistu futbolistus
+59	1759	korupcija	korupcijai korupcijas korupciju korupcijā
+60	1760	spārns	spārna spārnam spārni spārniem spārnos spārnu spārnus spārnā
+61	1761	allaž	
+62	1762	plaši	
+63	1763	audzēt	audzē audzēja audzējam audzējamas audzējat audzēji audzējis audzējot audzēju audzējusi audzējuši audzēs audzēsi audzēta audzētas audzēti audzētiem audzētos audzēts audzētu audzētus audzētā audzētām audzētās audzēšana audzēšanai audzēšanas audzēšanu audzēšanā audzēšu jāaudzē
+64	1764	peldēt	jāpeld nepeld nepeldi nepeldiet nepeldēs nepeldēšu peld peldam peldams peldi peldiet peldot peldošais peldošas peldošiem peldošu peldošā peldošām peldošās peldu peldēja peldējis peldēju peldējuši peldējām peldēs peldēsi peldētos peldētu peldēšana peldēšanai peldēšanas peldēšanu peldēšanā peldēšu
+65	1765	acīmredzot	
+66	1766	kļūdīties	jākļūdās kļūdies kļūdos kļūdoties kļūdāmies kļūdās kļūdāties kļūdījies kļūdījos kļūdījāmies kļūdījās kļūdījāties kļūdīsies kļūdīsieties kļūdīsimies kļūdītos kļūdīšanās kļūdīšos nekļūdīties
+67	1767	netālu	
+68	1768	mazgāt	jāmazgā mazgā mazgāja mazgājam mazgājama mazgājamas mazgājamiem mazgājamos mazgājamā mazgājamām mazgājamās mazgājat mazgājiet mazgājis mazgājot mazgājošu mazgāju mazgājām mazgās mazgāsim mazgāta mazgātas mazgāti mazgātos mazgāts mazgātu mazgāšana mazgāšanai mazgāšanas mazgāšanos mazgāšanu mazgāšu nemazgā nemazgāja nemazgāji nemazgātu nemazgātus nemazgātām nemazgāšu
+69	1769	vēders	vēdera vēderam vēderi vēderiem vēderu vēderā
+70	1770	ierobežot	ierobežotas
+71	1771	vainot	jāvaino nevaino nevainoja nevainoji nevainojiet nevainos nevainosi nevainosiet nevainotu nevainošu vaino vainoja vainojam vainojama vainojamas vainojami vainojams vainojat vainojiet vainojot vainoju vainojušas vainos vainosim vainota vainoti vainots vainotu vainošana vainošanas vainošu
+72	1772	kāpnes	kāpnēm kāpnēs kāpņu
+73	1773	dalīt	dala dali daliet dalot dalu dalām dalīja dalīji dalījis dalīju dalījušās dalīs dalīsiet dalīsim dalīta dalītais dalītas dalīti dalītos dalīts dalītu dalītā dalītām dalītās dalīšana dalīšanas dalīšanos dalīšanu jādala nedala nedalot nedalām nedalāma nedalāms nedalīsim nedalīt nedalīta nedalītos nedalītu
+74	1774	kosmoss	kosmos kosmosa kosmosam kosmosu kosmosā
+75	1775	federāls	federāla federālai federālais federālajai federālajam federālajiem federālajā federālajām federālajās federālie federālo federālos federālā federālām federālās
+76	1776	reģionāls	reģionālā reģionālās
+77	1777	basketbolists	basketbolista basketbolistam basketboliste basketbolisti basketbolistiem basketbolistos basketbolistu basketbolistus
+78	1778	lietotne	lietotnei lietotnes lietotni lietotnē lietotnēm lietotnēs lietotņu
+79	1779	siltums	siltuma siltumam siltumu siltumā
+80	1780	robots	robos robot robota robotam roboti robotiem robotu robotus
+81	1781	jautrs	jautra jautrai jautrais jautrajiem jautrajā jautrajām jautram jautras jautrie jautriem jautro jautru jautrus jautrā jautrāk jautrāka jautrākais jautrākajiem jautrākajos jautrākajām jautrāki jautrāks jautrāku jautrākā jautrās visjautrāko
+82	1782	ala	alai alas alu alā alām alās
+83	1783	grēks	grēka grēki grēkiem grēkos grēku grēkus grēkā
+84	1784	apmierināts	apmierināta apmierinātam apmierinātas apmierināti apmierinātiem apmierinātu
+85	1785	rītā	
+86	1786	rakt	jārok raka rakdams raki raksi raksiet raksim raktu raku rakām rakšana roc rociet rok rokam rokat rokot roku
+87	1787	sankcija	sankcijai sankcijas sankciju sankcijā sankcijām sankcijās
+88	1788	velosipēds	velosipēda velosipēdam velosipēdi velosipēdiem velosipēdu velosipēdus
+89	1789	uzvalks	uzvalk uzvalka uzvalkam uzvalki uzvalkiem uzvalkos uzvalku uzvalkus uzvalkā
+90	1790	būvēt	būvē būvēja būvējam būvējat būvējis būvējot būvēju būvējām būvējāt būvēs būvēsim būvēts būvētu būvēšana būvēšanai būvēšanas būvēšanu būvēšanā būvēšot jābūvē
+91	1791	kritērijs	kritērij kritērija kritērijam kritēriji kritērijiem kritērijos kritēriju kritērijus kritērijā
+92	1792	dzeja	dzejas dzeju dzejā
+93	1793	ieva	ievai ievas ievu ievā
+94	1794	lielākoties	
+95	1795	monēta	monētai monētas monētu monētā monētām monētās
+96	1796	rūpēties	rūpējas
+97	1797	taka	takai takam takas takos taku takā takām takās
+98	1798	duša	dušas dušu dušā dušām dušās
+99	1799	stabils	stabila stabilai stabilais stabilam stabilas stabili stabiliem stabilo stabilu stabilus stabilā stabilāks stabilām stabilās
+100	1800	glāze	glāzei glāzes glāzi glāzē glāzēm glāzēs glāžu

@@ -1,0 +1,100 @@
+1	1901	darbnīca	darbnīcai darbnīcas darbnīcu darbnīcā darbnīcām darbnīcās
+2	1902	vācietis	vāciete vācieti vācietim vācieša vācieši vāciešiem vāciešu vāciešus
+3	1903	lauzt	jālauž lauz lauza lauzi lauziet lauzis lauzta lauztais lauztas lauzti lauztiem lauztos lauzts lauztu lauztās lauzu lauzām lauzāt lauzīs lauzīsi lauzīsim lauzīšu laušana lauž laužam laužat laužot laužu nelauzt
+4	1904	vēlēt	jāvēl vēlam vēlamo vēlams vēlat vēli vēliet vēlot vēlē vēlēja vēlējis vēlēju vēlējāt vēlēs vēlēsim vēlēts vēlētu vēlēšu
+5	1905	orķestris	orķestra orķestri orķestriem orķestrim orķestru orķestrī
+6	1906	pensija	pensiju
+7	1907	atsaukties	atsaucas atsaucoties
+8	1908	nags	naga nagi nagiem nagos nagu nagus nagā
+9	1909	aizliegt	aizliedz aizliedza aizliedzam aizliedzama aizliedzamas aizliedzamu aizliedzi aizliedzis aizliedzot aizliedzoša aizliedzošais aizliedzošu aizliedzu aizliedzām aizliegs aizliegsim aizliegtais aizliegtu aizliegusi aizliegušas aizliegšana aizliegšanai aizliegšanas aizliegšanu aizliegšanā aizliegšu jāaizliedz neaizliedz neaizliedza neaizliegs neaizliegsi neaizliegsim neaizliegtais
+10	1910	nosūtīt	nosūta nosūtīti
+11	1911	varējis	varējusi varējušas varējuši
+12	1912	dzimta	dzimtai dzimtas dzimtu dzimtā dzimtām dzimtās
+13	1913	tumsa	tumsā
+14	1914	aparāts	aparāta aparātam aparāti aparātiem aparātos aparātu aparātus aparātā
+15	1915	vista	vistai vistas vistu vistām
+16	1916	pateicīgs	pateicīga pateicīgai pateicīgam pateicīgas pateicīgi pateicīgiem pateicīgo pateicīgu pateicīgus pateicīgā pateicīgāka pateicīgākais pateicīgākam pateicīgāki pateicīgākie pateicīgāks pateicīgākā pateicīgām
+17	1917	izcīnīt	izcīnīja
+18	1918	bite	bie bii bitei bites biti bitēm bišu
+19	1919	gājējs	gājēja gājējam gājēji gājējiem gājēju gājējus
+20	1920	noguris	nogurusi nogurušam nogurušas noguruši nogurušiem nogurušos nogurušu nogurušus
+21	1921	cilvēce	cilvēcei cilvēces cilvēci cilvēi
+22	1922	ļaunums	ļaunuma ļaunumam ļaunumiem ļaunumu
+23	1923	mājsaimniecība	mājsaimniecībai mājsaimniecības mājsaimniecību mājsaimniecībā mājsaimniecībām mājsaimniecībās
+24	1924	būtne	būtnei būtnes būtni būtnē būtnēm būtņu
+25	1925	bībele	bībelei bībeles bībeli bībelē bībeļu
+26	1926	bagātība	bagātībai bagātības bagātību bagātībā bagātībām bagātībās
+27	1927	izeja	izejai izejas izeju izejā izejām
+28	1928	akls	akla aklais aklajai aklajam aklajiem aklajā aklajās aklam aklas akli aklie akliem aklo aklos aklu aklus aklā aklās
+29	1929	ziedot	jāziedo neziedot ziedo ziedoja ziedojam ziedoji ziedojiet ziedojis ziedojot ziedoju ziedojām ziedojāt ziedos ziedosiet ziedosim ziedots ziedotu ziedošana ziedošu
+30	1930	maratons	maratona maratonam maratoni maratoniem maratonos maratonu maratonus maratonā
+31	1931	administratīvs	administratīvā
+32	1932	šoseja	šosejas
+33	1933	klints	klinti klintij klintis klintī klintīm klintīs klinšu
+34	1934	izjūta	izjūtai izjūtas izjūtu izjūtām izjūtās
+35	1935	pulks	pulka pulkam pulki pulkiem pulkos pulku pulkus pulkā
+36	1936	veidoties	veidojas
+37	1937	agri	
+38	1938	klusēt	jāklusē klusē klusēdams klusēja klusējam klusēji klusējiet klusējis klusējot klusēju klusēs klusēsi klusēsim klusēts klusētu klusēšana klusēšu neklusēt
+39	1939	kūka	kūkas kūku kūkām kūkās
+40	1940	izstrādājums	izstrādājuma izstrādājumam izstrādājumi izstrādājumiem izstrādājumos izstrādājumu izstrādājumus
+41	1941	rūpe	rūpes rūpi rūpju rūpēm rūpēs
+42	1942	rīdzinieks	rīdziniece rīdziniecei rīdzinieces rīdzinieci rīdziniecēm rīdzinieiem rīdzinieka rīdziniekam rīdzinieki rīdziniekiem rīdzinieku rīdziniekus
+43	1943	pietura	pieturai pieturam pieturas pieturi pieturos pieturu pieturā pieturām pieturās
+44	1944	bads	bad bada badam badu badā
+45	1945	draudzība	draudzībai draudzības draudzību draudzībā draudzībām
+46	1946	tīri	
+47	1947	leģenda	leģendai leģendas leģendu leģendā leģendām leģendās
+48	1948	kārts	kārti kārtij kārtis kārtīm kārtīs kāršu
+49	1949	divdesmit	
+50	1950	griezt	griez grieza griezdams griezi grieziet griezis griezta grieztais griezti grieztos griezts grieztu grieztā grieztās griezu griezīs griezīsiet griezīsim griešana griešanas griešanos griešanu griešanā griež griežam griežamais griežamu griežamā griežat griežot griežu jāgriež negriez negrieziet negriezt negriezīsim negriež
+51	1951	reakcija	reakciju
+52	1952	lēns	lēna lēnais lēnajam lēnam lēnas lēnie lēniem lēno lēnu lēnus lēnā lēnāka lēnākai lēnākais lēnākas lēnāki lēnākie lēnāko lēnākos lēnāks lēnāku lēnākus lēnākā lēnās vislēnāk vislēnākais
+53	1953	labdarība	labdarībai labdarības labdarību labdarībā
+54	1954	dūmi	dūma dūmiem dūmos dūms dūmu dūmus
+55	1955	pūce	pūcei pūces pūci pūcēs pūču
+56	1956	kails	kaila kailai kailais kailajiem kailam kailas kaili kailiem kailo kailu kailā kailām kailās
+57	1957	nelikumīgs	nelikumīga nelikumīgai nelikumīgais nelikumīgajām nelikumīgajās nelikumīgas nelikumīgi nelikumīgiem nelikumīgo nelikumīgos nelikumīgu nelikumīgus nelikumīgā nelikumīgām nelikumīgās
+58	1958	desmitais	desmitai desmitajai desmitajam desmitajiem desmitajā desmiti desmitie desmitiem desmito desmitos desmits desmitu desmitus desmitā desmitām desmitās
+59	1959	reģistrācija	reģistrācijai reģistrācijas reģistrāciju reģistrācijā
+60	1960	savulaik	
+61	1961	solījums	solījuma solījumam solījumi solījumiem solījumu solījumus
+62	1962	samaksa	samaksu
+63	1963	vēstniecība	vēstniecībai vēstniecības vēstniecību vēstniecībā vēstniecībām vēstniecībās
+64	1964	projām	
+65	1965	velt	vel vels veltu velšu veļam veļu vēla vēli
+66	1966	liesma	liesmai liesmas liesmu liesmā liesmām liesmās
+67	1967	ozols	ozola ozolam ozoli ozoliem ozolos ozolu ozolus ozolā
+68	1968	sēne	sēnei sēnes sēni sēnēm sēņu
+69	1969	volejbols	volejbola volejbolam volejbolu volejbolā
+70	1970	kase	kasei kases kasi kasu kasē kasēm kasēs
+71	1971	strādājošais	strādājošajam strādājošajiem strādājošajos strādājošajā strādājošie strādājošo strādājošos strādājošā strādājošās
+72	1972	audi	audiem audos audu audus
+73	1973	risināt	risina risinātu
+74	1974	ievainot	ievaino ievainoja ievainojams ievainoji ievainojis ievainojot ievainoju ievainojām ievainos ievainots ievainotu neievainot
+75	1975	mīksts	mīksta mīkstais mīkstajam mīkstajiem mīkstajos mīkstajā mīkstajām mīkstajās mīkstam mīkstas mīksti mīkstie mīkstiem mīksto mīkstos mīkstu mīkstus mīkstā mīkstās
+76	1976	čūska	čūskai čūskas čūsku čūskā čūskām
+77	1977	dziedātāja	dziedātāj dziedātājai dziedātājam dziedātājas dziedātāji dziedātājiem dziedātājs dziedātāju dziedātājus dziedātājā dziedātājām
+78	1978	dzimums	dzimuma dzimumam dzimumi dzimumiem dzimumos dzimumu dzimumā
+79	1979	maiss	mais maisa maisam maisi maisiem maisos maisu maisus maisā
+80	1980	sula	sulai sulas sulu sulā sulām sulās
+81	1981	mākslīgs	mākslīga mākslīgais mākslīgajam mākslīgajiem mākslīgajā mākslīgajām mākslīgas mākslīgie mākslīgiem mākslīgo mākslīgos mākslīgu mākslīgus mākslīgā mākslīgās
+82	1982	ietvert	ietver
+83	1983	plūsma	plūsmu
+84	1984	strādnieks	strādnieka strādniekam strādnieki strādniekiem strādnieku strādniekus
+85	1985	savējs	savējie savējo savējos
+86	1986	uzskats	uzskati
+87	1987	mūžīgs	mūžīga mūžīgai mūžīgais mūžīgajai mūžīgajam mūžīgajiem mūžīgajā mūžīgam mūžīgas mūžīgie mūžīgiem mūžīgo mūžīgos mūžīgu mūžīgā mūžīgāks mūžīgās
+88	1988	izsniegt	izsniedz izsniedza izsniedzam izsniedzis izsniedzot izsniedzu izsniedzām izsniegs izsniegts izsniegtu izsniegšana izsniegšanai izsniegšanas izsniegšanu izsniegšanā izsniegšot jāizsniedz neizsniegt
+89	1989	meistars	meistara meistaram
+90	1990	sestais	sestajai sestajam sestajiem sestajā sestie sesto sestā sestās
+91	1991	saturēt	satur
+92	1992	atmosfēra	atmosfērai atmosfēras atmosfēru atmosfērā
+93	1993	studēt	jāstudē nestudē studē studēja studējat studējis studējot studējošais studējošiem studējošos studējošā studējošās studēju studējusi studējuši studējām studējāt studētu studēšanas studēšu
+94	1994	kartupelis	kartupeli kartupelim kartupeļa kartupeļi kartupeļiem kartupeļos kartupeļu kartupeļus
+95	1995	steigties	jāsteidzas nesteigties steidzamies steidzas steidzaties steidzies steidzieties steidzos steidzoties steidzāmies steidzās steigsies steigsimies steigtos steigšanās steigšos
+96	1996	muskulis	muskuli muskulim muskulī muskuļa muskuļi muskuļiem muskuļos muskuļu muskuļus
+97	1997	barība	barībai barības barību barībā
+98	1998	šķērslis	šķērsli šķērslim šķēršļa šķēršļi šķēršļiem šķēršļu šķēršļus
+99	1999	protests	protesta protesti
+100	2000	sagādāt	sagādā

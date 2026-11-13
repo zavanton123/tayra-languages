@@ -1,0 +1,100 @@
+1	1401	pāriet	jāpāriet nepāriet pārej pārejam pārejat pārejot pārejošs pāreju pārgāja pārgāji pārgājis pārgāju pārgājām pārgājāt pāries pāriesi pāriesim pārietu pāriešana pāriešu
+2	1402	balsot	balso balsoja balsojam balsojams balsojat balsoji balsojiet balsojis balsojot balsoju balsojām balsojāt balsos balsosi balsosiet balsosim balsots balsotu balsošana balsošot balsošu jābalso nebalsot
+3	1403	straujš	strauja straujai straujais straujajai straujajā straujajām straujam straujas straujiem straujo straujos strauju straujus straujā straujāka straujākai straujākais straujākajiem straujākam straujākas straujāki straujākiem straujāko straujāks straujāku straujākā straujākās straujām straujās visstraujākais
+4	1404	ass	asa asai asais asajam asajā asam asas asi asie asiem asij asis aso asos asu asus asā asāka asākais asākajiem asākas asāki asākiem asāks asāku asākā asākās asām asās asī asīm visasākā visasākās
+5	1405	šonedēļ	
+6	1406	sabiedrisks	sabiedrisko
+7	1407	pants	panta pantam panti pantiem pantos pantu pantus pantā
+8	1408	apzināt	apzina apzini apzinot apzināja apzinājis apzinām apzinās apzināsim apzināta apzinātai apzinātam apzinātas apzināti apzinātiem apzinātos apzināts apzinātu apzinātus apzinātā apzinātām apzinātās apzināšana jāapzina neapzināt
+9	1409	kredīts	kredīta kredītu
+10	1410	klātiene	klātienē
+11	1411	skaitīt	jāskaita neskaita neskaiti neskaitiet neskaitu neskaitāmas neskaitāmi neskaitāmiem neskaitāmos neskaitāmu neskaitāmus neskaitāmām neskaitāmās neskaitīja neskaitīšu skaita skaitiet skaitot skaitu skaitām skaitīdams skaitīja skaitīji skaitīju skaitījusi skaitīsi skaitīsim skaitīta skaitītas skaitīti skaitīts skaitītu skaitītās skaitīšana skaitīšanai skaitīšanas skaitīšanu skaitīšanā skaitīšu
+12	1412	raksturs	rakstura raksturam raksturi raksturiem raksturos raksturu raksturus raksturā
+13	1413	ieteikums	ieteikuma ieteikumam ieteikumi ieteikumiem ieteikumos ieteikumu ieteikumus ieteikumā
+14	1414	realizēt	jārealizē nerealizē nerealizēja nerealizējama nerealizējami nerealizējamu nerealizējām nerealizēta nerealizētais nerealizētas nerealizēti realizē realizēja realizējam realizējami realizējams realizējamu realizējamus realizēji realizējis realizējot realizējusi realizējuši realizējām realizēs realizēta realizētas realizēti realizētiem realizētos realizēts realizētu realizētā realizētās realizēšana realizēšanai realizēšanas realizēšanu realizēšanā
+15	1415	festivāls	festivāla
+16	1416	lode	lodei lodes lodi lodē lodēm lodēs ložu
+17	1417	atvainojos	
+18	1418	ciets	cieta cietais cietajam cietajiem cietajā cietajām cietam cietas cieti cietie cietiem cieto cietos cietu cietā cietāka cietākais cietāki cietāks cietāku cietākā cietām cietās
+19	1419	intervija	interviju intervijā
+20	1420	attiekties	attiecas
+21	1421	ciet	
+22	1422	uztvert	jāuztver neuztvert uztver uztveram uztverams uztverat uztveriet uztverot uztvers uztversi uztversiet uztverts uztvertu uztveru uztveršana uztveršu uztvēra uztvēri uztvēris uztvēru uztvērām
+23	1423	pozitīvs	pozitīva pozitīvu
+24	1424	ticība	ticībai ticības ticību ticībā ticībām
+25	1425	ēna	ēnai ēnas ēnos ēnu ēnā ēnām ēnās
+26	1426	pamest	pamet
+27	1427	virkne	virknei virknes virkni virknē
+28	1428	novērst	novērstu
+29	1429	atzīme	atzīmei atzīmes atzīmi atzīmju atzīmē atzīmēm atzīmēs
+30	1430	izplatīt	izplata izplatiet izplatot izplatu izplatām izplatāt izplatīja izplatījis izplatījāt izplatīs izplatīsi izplatīsim izplatīta izplatītais izplatītajai izplatītajiem izplatītajos izplatītajā izplatītajās izplatītam izplatītas izplatīti izplatītie izplatītiem izplatīto izplatītos izplatīts izplatītu izplatītā izplatītāks izplatītām izplatītās izplatīšana izplatīšu jāizplata neizplatīt visizplatītākais
+31	1431	nepareizs	nepareiza nepareizai nepareizais nepareizajam nepareizajiem nepareizajā nepareizajām nepareizajās nepareizam nepareizas nepareizie nepareiziem nepareizo nepareizos nepareizu nepareizus nepareizā nepareizām nepareizās
+32	1432	slavens	slavena slavenais slavenajai slavenajam slavenajiem slavenajos slavenajā slavenam slavenas slaveni slavenie slaveniem slaveno slavenos slavenu slavenus slavenā slavenām slavenās visslavenākajiem visslavenāko
+33	1433	likumprojekts	likumprojekta likumprojektam likumprojekti likumprojektiem likumprojektos likumprojektu likumprojektus likumprojektā
+34	1434	metāls	metāla metālam metāli metāliem metālu metālus metālā
+35	1435	kauls	kaula kaulam kauli kauliem kaulos kaulu kaulus kaulā
+36	1436	kuriene	kurienes
+37	1437	tualete	tualetei tualetes tualeti tualetē tualetēm tualetēs tualešu
+38	1438	augstu	
+39	1439	virsū	
+40	1440	sargāt	jāsargā nesargā nesargājāt nesargās nesargāsim sarga sargi sargiet sargu sargā sargāja sargājam sargājami sargājams sargājat sargāji sargājiet sargājis sargājot sargājošais sargājošs sargājošā sargājošās sargāju sargājusi sargājuši sargājām sargās sargāsi sargāsiet sargāsim sargātu sargāšana sargāšanai sargāšanas sargāšanos sargāšanu sargāšot sargāšu
+41	1441	turiene	turienei turienes turieni
+42	1442	uzticēt	jāuztic neuzticēt uztic uzticam uzticama uzticamai uzticamais uzticamam uzticamas uzticami uzticamiem uzticamos uzticams uzticamu uzticamus uzticamā uzticamās uztici uzticiet uzticot uzticu uzticēja uzticēji uzticējis uzticēju uzticējām uzticēs uzticēsi uzticēsim uzticēts uzticētu uzticēšu visuzticamākais
+43	1443	aizdevums	aizdevuma aizdevumam aizdevumi aizdevumiem aizdevumos aizdevumu aizdevumus aizdevumā
+44	1444	piedzīvojums	piedzīvojuma piedzīvojumam piedzīvojumi piedzīvojumiem piedzīvojumos piedzīvojumu piedzīvojumus piedzīvojumā
+45	1445	kustēt	kustama kustamas kustamu kustamā kustamās kusti kustiet kustu kustēsim kustētos nekust nekustamam nekustamiem nekustamo nekustamos nekustamā nekustētos
+46	1446	aicinām	
+47	1447	spriedums	sprieduma spriedumam spriedumi spriedumiem spriedumos spriedumu spriedumus spriedumā
+48	1448	rūpnīca	rūpnīcai rūpnīcas rūpnīcu rūpnīcā rūpnīcām rūpnīcās
+49	1449	stadions	stadiona stadionam stadioni stadioniem stadionos stadionu stadionus stadionā
+50	1450	nodarboties	nodarbojas
+51	1451	ceļot	ceļo ceļodams ceļoja ceļojam ceļoji ceļojis ceļojot ceļojošs ceļoju ceļojām ceļojāt ceļos ceļosim ceļotu ceļošana ceļošu jāceļo neceļot
+52	1452	veicināt	veicina
+53	1453	struktūra	struktūrai struktūras struktūru struktūrā struktūrām struktūrās
+54	1454	skatuve	skatuves
+55	1455	uzlabot	uzlabo
+56	1456	investīcija	investīciju
+57	1457	pārējā	pārējās
+58	1458	akts	akta aktam akti aktiem aktos aktu aktus aktā
+59	1459	karogs	karoga karogam karogi karogiem karogos karogu karogus karogā
+60	1460	bars	bar bara baram bari bariem baros baru barā
+61	1461	krekls	krekla kreklam krekli krekliem kreklos kreklu kreklus kreklā
+62	1462	visaugstākais	augstais augstāka augstākai augstākais augstākajai augstākajam augstākajiem augstākajos augstākajā augstākajām augstākajās augstākam augstākas augstāki augstākie augstākiem augstāko augstākos augstāks augstāku augstākus augstākā augstākām augstākās visaugstāk visaugstākajiem visaugstākajā visaugstākajām visaugstākie visaugstāko visaugstākos visaugstākā visaugstākās
+63	1463	garīgs	garīga garīgai garīgais garīgajai garīgajam garīgajā garīgajām garīgajās garīgas garīgi garīgie garīgiem garīgo garīgos garīgu garīgā garīgām garīgās
+64	1464	bārs	bāra bāram bāri bāriem bāros bāru bārus bārā
+65	1465	gribam	
+66	1466	izskats	izskat izskata izskatam izskati izskatos izskatu izskatā
+67	1467	izpratne	izpratnei izpratnes izpratni izpratnē izpratnēs
+68	1468	laboratorija	laboratorijai laboratorijas laboratoriju laboratorijā laboratorijām laboratorijās
+69	1469	talants	talanta talantam talanti talantiem talantos talantu talantus talantā
+70	1470	devējs	devēja devējam devēji devēju
+71	1471	tehnika	tehnikai tehnikas tehniku tehnikā tehnikām tehnikās
+72	1472	misters	mister mistera misteram misteri misteru
+73	1473	burvis	burve burves burvi burvim burvja burvji burvjiem burvju burvjus
+74	1474	parunāt	
+75	1475	izvairīties	izvairītos
+76	1476	svētdiena	svētdienai svētdienas svētdienu svētdienā svētdienās
+77	1477	noslēgums	noslēguma noslēgumam noslēgumi noslēgumos noslēgumu noslēgumā
+78	1478	kuce	kucei kuces kuci kucēm
+79	1479	sapulce	sapulcei sapulces sapulci sapulcē sapulcēm sapulcēs sapulču
+80	1480	bikses	bika bikam biki biksēm biksēs biku bikšu
+81	1481	dziļš	dziļa dziļai dziļajai dziļajiem dziļajos dziļajā dziļajās dziļam dziļas dziļiem dziļo dziļos dziļu dziļus dziļā dziļāka dziļākais dziļākajiem dziļākajos dziļākajā dziļākajām dziļākajās dziļākas dziļāki dziļākie dziļākiem dziļāko dziļākos dziļāks dziļāku dziļākā dziļākās dziļām dziļās visdziļākais visdziļākajā visdziļāko visdziļākā visdziļākās
+82	1482	gadīties	gadās gadījies
+83	1483	stils	stila stilu
+84	1484	lēkt	jālec lec lecam lecams lecat leciet lecot lecu lēca lēcai lēcas lēci lēcis lēcu lēcām lēcās lēks lēksi lēksim lēktu lēkšana lēkšanas lēkšanu lēkšu nelēkt
+85	1485	nereti	
+86	1486	francūzis	francūzi francūziete francūzietei francūzieti francūzietēm francūzim franči frančiem franču frančus
+87	1487	simptoms	simptomi simptomiem simptomos simptomu simptomus
+88	1488	neesat	
+89	1489	ieeja	ieejai ieejas ieeju ieejām ieejās
+90	1490	iegāde	iegādei iegādes iegādi iegādē iegādēm iegāžu
+91	1491	apstāties	apstājies apstājās
+92	1492	kakls	kakla kaklam kakli kakliem kaklu kaklus kaklā
+93	1493	taisīt	jātaisa netaisīt taisa taisi taisiet taisot taisu taisām taisāt taisīdams taisīja taisīji taisījis taisīju taisījām taisīs taisīsi taisīsim taisīts taisītu taisīšu
+94	1494	uzsākt	uzsāka
+95	1495	sestdiena	sestdienai sestdienas sestdienu sestdienā sestdienām sestdienās
+96	1496	gatavoties	gatavojas gatavojoties gatavojās
+97	1497	mehānisms	mehānisma mehānismam mehānismi mehānismiem mehānismos mehānismu mehānismus mehānismā
+98	1498	detaļa	detaļai detaļas detaļu detaļā detaļām detaļās
+99	1499	deja	dejai dejas dejus dejā dejām dejās
+100	1500	piektdiena	piektdienai piektdienas piektdienu piektdienā piektdienām piektdienās
