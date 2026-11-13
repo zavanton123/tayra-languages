@@ -66,7 +66,9 @@
     "Bałtykiem",
     "Łebie",
     "Kazachstanie",
-    "kopernikańskim"
+    "kopernikańskim",
+    "Melanii",
+    "Melania"
   ],
   "lessons": [
     {
@@ -93,7 +95,6 @@
         "skalny",
         "ceramiczny",
         "toksyna",
-        "zużyty",
         "kielich",
         "nalegać"
       ],
@@ -116,18 +117,16 @@
     },
     {
       "title": "Dzień w piżamie",
-      "summary": "A father's diary of a day at home with his feverish daughter, who refuses her syrup until a book about a kind witch and mythical creatures changes her mind.",
+      "summary": "A father's diary of a day at home with his feverish daughter, who refuses her syrup until a book about an old woman who treats forest animals changes her mind.",
       "newWords": [
         "nieobecny",
         "piżama",
         "marudzić",
         "syrop",
         "pocić",
-        "wiedźma",
-        "dziwaczny",
-        "mityczny"
+        "dziwaczny"
       ],
-      "text": "Wtorek, 7:00. Marysia obudziła się przed szóstą, gorąca i płaczliwa. Termometr pokazał 38,6. Do przedszkola dziś nie pójdzie. Napisałem do wychowawczyni krótką wiadomość: „Marysia będzie dziś nieobecna z powodu gorączki”. Żona pojechała do pracy, a ja zostaję z małą w domu.\n\n9:30. Marysia leży na kanapie w swojej ulubionej piżamie w jednorożce. Marudzi od rana. Nie chce kakao, nie chce bajki w telewizji, nie chce nawet ulubionego misia. Kiedy pytam, czego chce, mówi, że nie wie, i marudzi dalej. Lekarka przez telefon zaleciła syrop na gorączkę i dużo picia. — Ten syrop jest za słodki — marudzi Marysia. Drugi syrop, na kaszel, jest według niej za ostry.\n\n12:00. Gorączka spada, ale Marysia bardzo się poci. Jest cała spocona, więc zmieniam jej piżamę na suchą. Druga piżama jest w gwiazdki i, jak się okazuje, też jej nie odpowiada. Tłumaczę, że kiedy dziecko się poci, organizm walczy z chorobą. Marysia uważa, że organizm mógłby walczyć ciszej.\n\n15:00. Czytamy książkę o wiedźmie, która mieszka w lesie i leczy chore zwierzęta. Wiedźma nie jest straszna, tylko trochę dziwaczna: chodzi w dwóch różnych butach, rozmawia ze swoją miotłą i gotuje syrop z malin, miodu i pajęczyny. Marysię bardzo bawi ten dziwaczny przepis. Pyta, czy mój syrop też zrobiła wiedźma. Odpowiadam, że nie, że kupiłem go w aptece. Wyraźnie jest rozczarowana.\n\n17:00. Książka jest pełna mitycznych stworzeń. Jest smok, który boi się myszy, gryf w okularach i jednorożec, który nie lubi deszczu. Marysia pyta, czy mityczne stworzenia też chorują. Odpowiadam, że chyba tak, bo w książce wiedźma leczy nawet smoka. Wtedy Marysia sama prosi o łyżkę syropu. — Smok też musiał pić — tłumaczy mi poważnie.\n\n20:00. Gorączka spadła do 37,2. Marysia zasnęła w trzeciej piżamie, tej w kropki. Obok niej leży książka o wiedźmie, otwarta na stronie ze smokiem. Jutro pewnie też będzie nieobecna w przedszkolu, ale ja już wiem, jak namówić ją na syrop. Wystarczy jeden dziwaczny przepis i jedno mityczne stworzenie.\n\nPytania:\nDlaczego Marysia jest dziś nieobecna w przedszkolu?\nBo obudziła się z gorączką.\nW jakiej piżamie Marysia leży rano na kanapie?\nLeży w swojej ulubionej piżamie w jednorożce.\nDlaczego tata zmienia Marysi piżamę?\nBo Marysia bardzo się poci i jest cała spocona.\nJaka jest wiedźma z książki?\nNie jest straszna, tylko trochę dziwaczna: chodzi w dwóch różnych butach i rozmawia z miotłą.\nDlaczego Marysia w końcu sama prosi o syrop?\nBo w książce wiedźma leczy nawet smoka, a smok też musiał pić syrop."
+      "text": "Wtorek, 7:00. Marysia obudziła się przed szóstą, gorąca i płaczliwa. Termometr pokazał 38,6. Do przedszkola dziś nie pójdzie. Napisałem do wychowawczyni krótką wiadomość: „Marysia będzie dziś nieobecna z powodu gorączki”. Żona pojechała do pracy, a ja zostaję z małą w domu.\n\n9:30. Marysia leży na kanapie w swojej ulubionej piżamie w kotki. Marudzi od rana. Nie chce kakao, nie chce bajki w telewizji, nie chce nawet ulubionego misia. Kiedy pytam, czego chce, mówi, że nie wie, i marudzi dalej. Lekarka przez telefon zaleciła syrop na gorączkę i dużo picia. — Ten syrop jest za słodki — marudzi Marysia. Drugi syrop, na kaszel, jest według niej za ostry.\n\n12:00. Gorączka spada, ale Marysia bardzo się poci. Jest cała spocona, więc zmieniam jej piżamę na suchą. Druga piżama jest w gwiazdki i, jak się okazuje, też jej nie odpowiada. Tłumaczę, że kiedy dziecko się poci, organizm walczy z chorobą. Marysia uważa, że organizm mógłby walczyć ciszej.\n\n15:00. Czytamy książkę o babci Melanii, która mieszka w lesie i leczy chore zwierzęta ziołami. Babcia Melania jest trochę dziwaczna: chodzi w dwóch różnych butach, rozmawia ze swoją kozą i gotuje syrop z malin, miodu i kory brzozy. Marysię bardzo bawi ten dziwaczny przepis. Pyta, czy mój syrop też zrobiła babcia Melania. Odpowiadam, że nie, że kupiłem go w aptece. Wyraźnie jest rozczarowana.\n\n17:00. Książka jest pełna leśnych zwierząt. Jest jeż, który boi się myszy, sowa w okularach i lis, który nie lubi deszczu. Marysia pyta, czy zwierzęta też chorują. Odpowiadam, że oczywiście, bo w książce babcia Melania leczy nawet niedźwiedzia. Niedźwiedź dostaje od niej syrop i szybko zdrowieje. Wtedy Marysia sama prosi o łyżkę syropu. — Niedźwiedź też musiał pić — tłumaczy mi poważnie.\n\n20:00. Gorączka spadła do 37,2. Marysia zasnęła w trzeciej piżamie, tej w kropki. Obok niej leży książka o babci Melanii, otwarta na stronie z niedźwiedziem. Jutro pewnie też będzie nieobecna w przedszkolu, ale ja już wiem, jak namówić ją na syrop. Wystarczy jeden dziwaczny przepis i jeden chory niedźwiedź.\n\nPytania:\nDlaczego Marysia jest dziś nieobecna w przedszkolu?\nBo obudziła się z gorączką.\nW jakiej piżamie Marysia leży rano na kanapie?\nLeży w swojej ulubionej piżamie w kotki.\nDlaczego tata zmienia Marysi piżamę?\nBo Marysia bardzo się poci i jest cała spocona.\nJaka jest babcia Melania z książki?\nJest trochę dziwaczna: chodzi w dwóch różnych butach i rozmawia ze swoją kozą.\nDlaczego Marysia w końcu sama prosi o syrop?\nBo w książce babcia Melania leczy nawet niedźwiedzia, a niedźwiedź też musiał pić syrop."
     },
     {
       "title": "Niedziela na żużlu",

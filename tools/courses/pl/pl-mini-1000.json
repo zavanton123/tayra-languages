@@ -75,7 +75,8 @@
     "Hubertowi",
     "Monika",
     "Monice",
-    "Zakopanem"
+    "Zakopanem",
+    "Gdańsku"
   ],
   "lessons": [
     {
@@ -86,7 +87,6 @@
         "gotowy",
         "ukryć",
         "podpisać",
-        "odpowiedzieć",
         "otworzyć",
         "sprawiać",
         "szczęśliwy",
@@ -98,19 +98,17 @@
     },
     {
       "title": "Ślub Magdy",
-      "summary": "Magda marries her school friend Paweł in a village church near Lublin, and her father has the most energy at the wedding party.",
+      "summary": "Magda marries her school friend Paweł at a registry office near Lublin, and her father has the most energy at the wedding party.",
       "newWords": [
         "mąż",
-        "ksiądz",
         "krok",
         "tata",
         "spełnić",
         "ciężko",
         "energia",
-        "zakończyć",
         "całkiem"
       ],
-      "text": "W czerwcu Magda wychodziła za mąż. Jej przyszły mąż, Paweł, był jej przyjacielem jeszcze ze szkoły. Ślub był w małym kościele na wsi pod Lublinem.\n\nRano Magda czuła się całkiem dobrze. Jej tata za to bardzo się bał. Chodził po domu i nic nie mówił.\n\n— Tato, wszystko będzie dobrze — powiedziała Magda.\n\n— Wiem — odpowiedział tata. — Ale jest mi ciężko. Moja mała córka będzie miała męża!\n\nO 15:00 tata wziął Magdę pod rękę. Szli przez kościół krok po kroku. Na końcu czekali Paweł i ksiądz. Ksiądz był starym przyjacielem rodziny Pawła. Nie mówił długo, ale mówił pięknie. Potem Magda i Paweł powiedzieli „tak”. Od tej chwili Paweł był mężem Magdy, a Magda była jego żoną.\n\nPotem było wesele w domu kultury. Magda i Paweł mieli dużo energii, ale tata Magdy miał jeszcze więcej energii! Tańczył z córką, potem ze swoją żoną, a potem z każdym gościem. Pokazywał też dzieciom pierwsze kroki tańca. Nawet ksiądz z nim tańczył.\n\nWesele zakończyło się o 2:00 w nocy. Ostatni goście wrócili do domu.\n\n— Było mi dziś ciężko — powiedział tata. — Ale to był całkiem piękny dzień.\n\n— Dla mnie to był najpiękniejszy dzień w życiu — powiedziała Magda. — Moje marzenie się spełniło. Mam dobrego męża i najlepszego tatę na świecie.\n\nPaweł też był szczęśliwy. Jego marzenie też się spełniło. Tak zakończył się ich wielki dzień.\n\nPytania:\nKim był Paweł dla Magdy?\nPaweł był jej przyjacielem ze szkoły, a potem został jej mężem.\nJak czuł się tata Magdy rano?\nRano tata Magdy bardzo się bał.\nJak Magda i tata szli przez kościół?\nSzli krok po kroku.\nKto czekał na końcu?\nNa końcu czekali Paweł i ksiądz.\nKto miał najwięcej energii?\nNajwięcej energii miał tata Magdy.\nKiedy zakończyło się wesele?\nWesele zakończyło się o 2:00 w nocy."
+      "text": "W czerwcu Magda wychodziła za mąż. Jej przyszły mąż, Paweł, był jej przyjacielem jeszcze ze szkoły. Ślub był w urzędzie stanu cywilnego w małym mieście pod Lublinem.\n\nRano Magda czuła się całkiem dobrze. Jej tata za to bardzo się bał. Chodził po domu i nic nie mówił.\n\n— Tato, wszystko będzie dobrze — powiedziała Magda.\n\n— Wiem — odpowiedział tata. — Ale jest mi ciężko. Moja mała córka będzie miała męża!\n\nO 15:00 tata wziął Magdę pod rękę. Szli przez salę krok po kroku. Na końcu czekali Paweł i pani z urzędu. Była starą znajomą rodziny Pawła. Nie mówiła długo, ale mówiła pięknie. Potem Magda i Paweł powiedzieli „tak”. Od tej chwili Paweł był mężem Magdy, a Magda była jego żoną.\n\nPotem było wesele w domu kultury. Magda i Paweł mieli dużo energii, ale tata Magdy miał jeszcze więcej energii! Tańczył z córką, potem ze swoją żoną, a potem z każdym gościem. Pokazywał też dzieciom pierwsze kroki tańca. Nawet pani z urzędu z nim tańczyła.\n\nWesele zakończyło się o 2:00 w nocy. Ostatni goście wrócili do domu.\n\n— Było mi dziś ciężko — powiedział tata. — Ale to był całkiem piękny dzień.\n\n— Dla mnie to był najpiękniejszy dzień w życiu — powiedziała Magda. — Moje marzenie się spełniło. Mam dobrego męża i najlepszego tatę na świecie.\n\nPaweł też był szczęśliwy. Jego marzenie też się spełniło. Tak zakończył się ich wielki dzień.\n\nPytania:\nKim był Paweł dla Magdy?\nPaweł był jej przyjacielem ze szkoły, a potem został jej mężem.\nJak czuł się tata Magdy rano?\nRano tata Magdy bardzo się bał.\nJak Magda i tata szli przez salę?\nSzli krok po kroku.\nKto czekał na końcu?\nNa końcu czekali Paweł i pani z urzędu.\nKto miał najwięcej energii?\nNajwięcej energii miał tata Magdy.\nKiedy zakończyło się wesele?\nWesele zakończyło się o 2:00 w nocy."
     },
     {
       "title": "Wigilia u Natalii",
@@ -123,11 +121,10 @@
         "normalny",
         "odpowiedni",
         "parę",
-        "wykorzystać",
         "naturalny",
         "spadać"
       ],
-      "text": "Wojtek był studentem w Krakowie. Zwykle jechał na święta do rodziców do Gdańska. W tym roku jednak pracował w sklepie i musiał zostać w Krakowie także 24 grudnia. Taki był jego obowiązek w pracy.\n\nJego przyjaciółka Natalia powiedziała:\n\n— Nie możesz być sam w Wigilię. Przyjdź do nas!\n\nWojtek długo myślał, a potem zdecydował, że przyjdzie.\n\nDwa dni przed świętami w domu Natalii wszyscy robili porządki. To normalne w polskim domu. Każdy miał swój obowiązek: tata Natalii robił porządek przed domem, jej mama przygotowała jedzenie, a Natalia robiła porządek w pokojach.\n\nWojtek nie wiedział, co będzie odpowiednie dla rodziny Natalii. Zdecydował, że kupi parę małych rzeczy: książkę dla taty Natalii, płytę z muzyką dla jej mamy i grę dla Natalii. Pomyślał, że to odpowiednie rzeczy na taką okazję.\n\nRano 24 grudnia Wojtek miał parę wolnych godzin. Wykorzystał ten czas i poszedł z tatą Natalii po choinkę. Kupili naturalną choinkę.\n\n— Naturalne drzewo jest najlepsze — powiedział tata Natalii.\n\nPo południu zaczął spadać śnieg. Śnieg spadał na ulice i na drzewa. Wojtek wykorzystał też chwilę, żeby napisać do rodziców wiadomość.\n\nO 18:00 zaczęła się Wigilia. Przy jednym miejscu nikt nie siedział.\n\n— Dla kogo jest to miejsce? — zapytał Wojtek.\n\n— U nas to normalne — odpowiedziała Natalia. — Zwykle zostawiamy jedno wolne miejsce dla gościa. W tym roku ty jesteś naszym gościem.\n\nWojtek zajął to miejsce. Nie był w swoim domu, ale czuł się jak w domu.\n\nPytania:\nGdzie Wojtek zwykle spędzał święta?\nWojtek zwykle jechał na święta do rodziców do Gdańska.\nDlaczego w tym roku musiał zostać w Krakowie?\nMusiał zostać, bo pracował w sklepie.\nCo robili wszyscy w domu Natalii dwa dni przed świętami?\nWszyscy robili porządki.\nJak Wojtek wykorzystał wolne godziny?\nPoszedł z tatą Natalii po choinkę.\nJaką choinkę kupili?\nKupili naturalną choinkę.\nDla kogo było wolne miejsce?\nWolne miejsce było dla gościa."
+      "text": "Wojtek był studentem w Krakowie. Zwykle spędzał święta u rodziców w Gdańsku. W tym roku jednak pracował w sklepie i musiał zostać w Krakowie także 24 grudnia. Taki był jego obowiązek w pracy.\n\nJego przyjaciółka Natalia powiedziała:\n\n— Nie możesz być sam w Wigilię. Przyjdź do nas!\n\nWojtek długo myślał, a potem zdecydował, że przyjdzie.\n\nDwa dni przed świętami w domu Natalii wszyscy robili porządki. To normalne w polskim domu. Każdy miał swój obowiązek: tata Natalii robił porządek przed domem, jej mama przygotowała jedzenie, a Natalia robiła porządek w pokojach.\n\nWojtek nie wiedział, co będzie odpowiednie dla rodziny Natalii. Zdecydował, że kupi parę małych rzeczy: książkę dla taty Natalii, płytę z muzyką dla jej mamy i grę dla Natalii. Pomyślał, że to odpowiednie rzeczy na taką okazję.\n\nRano 24 grudnia Wojtek miał parę wolnych godzin. Wykorzystał ten czas i poszedł z tatą Natalii po choinkę. Kupili naturalną choinkę.\n\n— Naturalne drzewo jest najlepsze — powiedział tata Natalii.\n\nPo południu zaczął spadać śnieg. Śnieg spadał na ulice i na drzewa. Wojtek wykorzystał też chwilę, żeby napisać do rodziców wiadomość.\n\nO 18:00 zaczęła się Wigilia. Przy jednym miejscu nikt nie siedział.\n\n— Dla kogo jest to miejsce? — zapytał Wojtek.\n\n— U nas to normalne — odpowiedziała Natalia. — Zwykle zostawiamy jedno wolne miejsce dla gościa. W tym roku ty jesteś naszym gościem.\n\nWojtek zajął to miejsce. Nie był w swoim domu, ale czuł się jak w domu.\n\nPytania:\nGdzie Wojtek zwykle spędzał święta?\nWojtek zwykle spędzał święta u rodziców w Gdańsku.\nDlaczego w tym roku musiał zostać w Krakowie?\nMusiał zostać, bo pracował w sklepie.\nCo robili wszyscy w domu Natalii dwa dni przed świętami?\nWszyscy robili porządki.\nJak Wojtek wykorzystał wolne godziny?\nPoszedł z tatą Natalii po choinkę.\nJaką choinkę kupili?\nKupili naturalną choinkę.\nDla kogo było wolne miejsce?\nWolne miejsce było dla gościa."
     },
     {
       "title": "Gość z Dublina",
@@ -144,7 +141,7 @@
         "dotrzeć",
         "podróż"
       ],
-      "text": "Łukasz przez dwa lata pracował w Dublinie. Tam poznał Fionę. Fiona pochodziła z Irlandii, ale uczyła się polskiego. Teraz Łukasz mieszkał we Wrocławiu. W lipcu obchodził urodziny i zaprosił Fionę do siebie. To był jego pierwszy zagraniczny gość.\n\nRano Fiona opuściła swoje mieszkanie w Dublinie. Łukasz miał ją odebrać z lotniska o 12:00. Wyszedł z domu o 11:00, ale kiedy był już blisko, autobus mu uciekł.\n\n— Autobus mi uciekł! — powiedział Łukasz. — Nie odbiorę Fiony na czas!\n\nNagle obok niego zatrzymał się samochód. To był jego znajomy, pan Henryk.\n\n— Gdzie jedziesz, Łukaszu? — zapytał pan Henryk.\n\n— Na lotnisko. Mam dziś zagranicznego gościa i muszę go odebrać.\n\n— To jedź ze mną! Jadę w tę stronę.\n\nPan Henryk był dobrym kierowcą i znał każdą drogę w mieście. Nagle Łukasz dostał wiadomość od Fiony: „Mój samolot opuścił Dublin godzinę później. Przyczyną był silny wiatr. Będę o 13:00”.\n\n— Silny wiatr spowodował, że samolot będzie później — powiedział Łukasz do kierowcy. — Nie musimy jechać tak szybko.\n\n— To dobrze — odpowiedział pan Henryk. — Wiatr to normalna przyczyna takich problemów.\n\nŁukasz dotarł na lotnisko przed czasem. Czekał godzinę. O 13:00 Fiona wyszła do niego z dużą torbą.\n\n— Fiono! Jaka była podróż?\n\n— Długa, ale dobra — odpowiedziała Fiona po polsku. — Najważniejsze, że dotarłam. Wszystkiego najlepszego, Łukaszu!\n\nŁukasz odebrał od niej torbę i razem poszli do samochodu. Pan Henryk był ich kierowcą także w drodze do domu.\n\nPytania:\nGdzie Łukasz poznał Fionę?\nŁukasz poznał Fionę w Dublinie.\nCo uciekło Łukaszowi?\nŁukaszowi uciekł autobus.\nKto zatrzymał się obok Łukasza?\nObok Łukasza zatrzymał się jego znajomy, pan Henryk.\nJakim kierowcą był pan Henryk?\nPan Henryk był dobrym kierowcą i znał każdą drogę w mieście.\nCo spowodowało, że samolot był później?\nSpowodował to silny wiatr nad Dublinem.\nJaka była podróż Fiony?\nPodróż była długa, ale dobra."
+      "text": "Łukasz przez dwa lata pracował w Dublinie. Tam poznał Fionę. Fiona pochodziła z Irlandii, ale uczyła się polskiego. Teraz Łukasz mieszkał we Wrocławiu. W lipcu obchodził urodziny i zaprosił Fionę do siebie. To był jego pierwszy zagraniczny gość.\n\nRano Fiona opuściła swoje mieszkanie w Dublinie. Łukasz miał ją odebrać z lotniska o 12:00. Wyszedł z domu o 11:00, ale kiedy był już blisko, autobus mu uciekł.\n\n— Autobus mi uciekł! — powiedział Łukasz. — Nie odbiorę Fiony na czas!\n\nNagle obok niego zatrzymał się samochód. To był jego znajomy, pan Henryk.\n\n— Gdzie jedziesz, Łukaszu? — zapytał pan Henryk.\n\n— Na lotnisko. Mam dziś zagranicznego gościa i muszę go odebrać.\n\n— To jedź ze mną! Jadę w tę stronę.\n\nPan Henryk był dobrym kierowcą i znał każdą drogę w mieście. Nagle Łukasz dostał wiadomość od Fiony: „Mój samolot wyleciał z Dublina godzinę później. Przyczyną był silny wiatr. Będę o 13:00”.\n\n— Silny wiatr spowodował, że samolot będzie później — powiedział Łukasz do kierowcy. — Nie musimy jechać tak szybko.\n\n— To dobrze — odpowiedział pan Henryk. — Wiatr to normalna przyczyna takich problemów.\n\nŁukasz dotarł na lotnisko przed czasem. Czekał godzinę. O 13:00 Fiona wyszła do niego z dużą torbą.\n\n— Fiono! Jaka była podróż?\n\n— Długa, ale dobra — odpowiedziała Fiona po polsku. — Najważniejsze, że dotarłam. Wszystkiego najlepszego, Łukaszu!\n\nŁukasz odebrał od niej torbę i razem poszli do samochodu. Pan Henryk był ich kierowcą także w drodze do domu.\n\nPytania:\nGdzie Łukasz poznał Fionę?\nŁukasz poznał Fionę w Dublinie.\nKiedy Fiona opuściła swoje mieszkanie w Dublinie?\nFiona opuściła swoje mieszkanie rano.\nCo uciekło Łukaszowi?\nŁukaszowi uciekł autobus.\nKto zatrzymał się obok Łukasza?\nObok Łukasza zatrzymał się jego znajomy, pan Henryk.\nJakim kierowcą był pan Henryk?\nPan Henryk był dobrym kierowcą i znał każdą drogę w mieście.\nCo spowodowało, że samolot był później?\nSpowodował to silny wiatr nad Dublinem.\nJaka była podróż Fiony?\nPodróż była długa, ale dobra."
     },
     {
       "title": "Imieniny w szpitalu",
@@ -156,7 +153,6 @@
         "rzeczywistość",
         "oddział",
         "sądzić",
-        "zostawać",
         "ponownie",
         "wsparcie",
         "wiara"
@@ -230,9 +226,7 @@
       "title": "Nowy rok w górach",
       "summary": "On New Year's Eve in Zakopane, Monika and Hubert walk up a hill with a map to watch the town at midnight and talk about their plans for the year.",
       "newWords": [
-        "wszelki",
         "mapa",
-        "spojrzeć",
         "wynikać",
         "rzucić",
         "podnieść",
