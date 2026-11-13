@@ -62,12 +62,13 @@
     "Vítka",
     "Vítkova",
     "Jarmila",
-    "Vyšehradu"
+    "Vyšehradu",
+    "Šrámek"
   ],
   "lessons": [
     {
       "title": "Kdo je na řadě?",
-      "summary": "Old Marta waits her turn at Mr Doležal's bread shop in Prostějov until the new bread is ready.",
+      "summary": "Old Marta waits her turn at Mr Doležal's bread shop in Prostějov until the next bread is ready.",
       "newWords": [
         "otázka",
         "řada",
@@ -80,7 +81,7 @@
         "přesně",
         "samozřejmě"
       ],
-      "text": "Marta je stará žena z Prostějova. Každý den jde pro chleba k panu Doležalovi. Pan Doležal má malý obchod a velmi dobrý chleba.\n\nDnes je u pana Doležala hodně lidí. Marta stojí a čeká. Před ní je mladá žena a mladý muž. Teď je na řadě mladá žena. Pak je na řadě mladý muž. Pak bude na řadě Marta.\n\nMladý muž má otázku: „Je ten chleba čerstvý?“\n\n„Tenhle ne,“ říká pan Doležal. „Nový chleba bude za chvíli. Přesně za 5 minut.“\n\n„Za 5 minut? Ale já musím do práce,“ říká mladý muž. Ale čeká. Marta také čeká. Je to jen chvíle. Marta má čas, ale mladý muž čas nemá.\n\nZa 5 minut je tady nový chleba.\n\n„Pane, jste na řadě,“ říká pan Doležal. „Co to bude?“\n\n„Celý, prosím. A hned! Musím do práce.“\n\n„Samozřejmě. Hned to bude.“\n\nPak je na řadě Marta. „Dobrý den, paní Marto. Také celý?“\n\n„Ne, jen trochu. Jsem sama a celý je pro mě moc.“\n\n„Samozřejmě,“ říká pan Doležal a dá jí jen část.\n\nMarta je ráda. Chleba je nový a velmi dobrý. Hned si dá trochu. Pak si dá ještě trochu.\n\nOtázky:\nKdo je Marta?\nMarta je stará žena z Prostějova.\nJakou otázku má mladý muž?\nMladý muž má otázku: „Je ten chleba čerstvý?“\nKdy bude nový chleba?\nNový chleba bude přesně za 5 minut.\nChce Marta celý chleba?\nNe, Marta chce jen trochu."
+      "text": "Marta je stará žena z Prostějova. Každý den jde pro chleba k panu Doležalovi. Pan Doležal má malý obchod a velmi dobrý chleba.\n\nDnes je u pana Doležala hodně lidí. Marta stojí v řadě a čeká. Před ní je mladá žena a mladý muž. Teď je na řadě mladá žena. Pak je na řadě mladý muž. Pak bude na řadě Marta.\n\nMladý muž má otázku: „Je ten chleba čerstvý?“\n\n„Tenhle ne,“ říká pan Doležal. „Další chleba bude za chvíli. Přesně za 5 minut.“\n\n„Za 5 minut? Ale já musím do práce,“ říká mladý muž. Ale čeká. Marta také čeká. Je to jen chvíle. Marta má čas, ale mladý muž čas nemá.\n\nZa 5 minut je tady další chleba.\n\n„Pane, jste na řadě,“ říká pan Doležal. „Co to bude?“\n\n„Celý, prosím. A hned! Musím do práce.“\n\n„Samozřejmě. Hned to bude.“\n\nPak je na řadě Marta. „Dobrý den, paní Marto. Také celý?“\n\n„Ne, jen trochu. Jsem sama a celý je pro mě moc.“\n\n„Samozřejmě,“ říká pan Doležal a dá jí jen část.\n\nMarta je ráda. Chleba je velmi dobrý a Marta ho má ráda. Hned si dá trochu. Pak si dá ještě trochu.\n\nOtázky:\nKdo je Marta?\nMarta je stará žena z Prostějova.\nJakou otázku má mladý muž?\nMladý muž má otázku: „Je ten chleba čerstvý?“\nKdy bude další chleba?\nDalší chleba bude přesně za 5 minut.\nChce Marta celý chleba?\nNe, Marta chce jen trochu."
     },
     {
       "title": "Akce",
@@ -163,7 +164,7 @@
         "vždy",
         "pracovat"
       ],
-      "text": "Adam pracuje celý týden v Praze ve velké firmě. Na konci týdne nepracuje. Jede na kole na trh.\n\nCesta na trh vede kolem Vltavy. Je to dobrá cesta. Vede kolem vody a kolem Vyšehradu.\n\nNa trh přijdou lidé z celé oblasti. Mají tam věci ze své oblasti. Každý člověk tam má něco jiného.\n\nAdam jde vždy k panu Vávrovi. Pan Vávra dělá sýr. Pracuje na tom celý týden.\n\n„Dobrý den, pane Šrámku. Jedete sem zase na kole?“\n\n„Samozřejmě. Sem jedu vždy na kole. Auto nemám a kolo používám rád. Kolo je pro mě nejlepší.“\n\nAdam má svou starou tašku. Jiné tašky nepoužívá. Tu svou používá vždy.\n\n„Dnes je tu změna,“ říká pan Vávra. „Mám nový sýr. Je také z naší oblasti.“\n\n„To je dobrá změna,“ říká Adam. Změny má rád. Dá si do tašky starý i nový sýr.\n\nPak jede na kole zase kolem Vltavy. Kolem vody je to dobrá cesta a Adam je rád.\n\nOtázky:\nKde Adam pracuje?\nAdam pracuje celý týden v Praze ve velké firmě.\nJak jede Adam na trh?\nAdam jede na trh vždy na kole.\nKde vede cesta na trh?\nCesta vede kolem Vltavy.\nJaká je dnes u pana Vávry změna?\nPan Vávra má nový sýr, také ze své oblasti."
+      "text": "Adam Šrámek pracuje celý týden v Praze ve velké firmě. Na konci týdne nepracuje. Jede na kole na trh.\n\nCesta na trh vede kolem Vltavy. Je to dobrá cesta. Vede kolem vody a kolem Vyšehradu.\n\nNa trh přijdou lidé z celé oblasti. Mají tam věci ze své oblasti. Každý člověk tam má něco jiného.\n\nAdam jde vždy k panu Vávrovi. Pan Vávra dělá sýr. Pracuje na tom celý týden.\n\n„Dobrý den, pane Šrámku. Jedete sem zase na kole?“\n\n„Samozřejmě. Sem jedu vždy na kole. Auto nemám a kolo používám rád. Kolo je pro mě nejlepší.“\n\nAdam má svou starou tašku. Jiné tašky nepoužívá. Tu svou používá vždy.\n\n„Dnes je tu změna,“ říká pan Vávra. „Mám nový sýr. Je také z naší oblasti.“\n\n„To je dobrá změna,“ říká Adam. Změny má rád. Dá si do tašky starý i nový sýr.\n\nPak jede na kole zase kolem Vltavy. Kolem vody je to dobrá cesta a Adam je rád.\n\nOtázky:\nKde Adam pracuje?\nAdam pracuje celý týden v Praze ve velké firmě.\nJak jede Adam na trh?\nAdam jede na trh vždy na kole.\nKde vede cesta na trh?\nCesta vede kolem Vltavy.\nJaká je dnes u pana Vávry změna?\nPan Vávra má nový sýr, také ze své oblasti."
     },
     {
       "title": "V obchodě v Londýně",
@@ -213,10 +214,9 @@
       "text": "Jakub a Šárka žijí v Olomouci. Mají malé dítě, Emu. Je večer. Brzy bude noc. Ema chce mléko. Ale už žádné nemají.\n\n„Mléko došlo,“ říká Šárka. „Kde ho teď v noci najdeme?“\n\n„Jdu ho hledat,“ říká Jakub. „Ty zůstaň s Emou tady.“\n\nŠárka zůstane s Emou. Jakub jde. Dojde k obchodu u domu. Ale tam už nikdo není. Hledá dál. Dojde do centra. Ani tam nikdo není.\n\nJakub hledá dlouho. Je noc a on pořád hledá. Je to dlouhá cesta. Ema stále chce mléko a Šárka stále čeká. Jakub je stále na cestě.\n\n„Na nádraží snad někdo bude,“ myslí si Jakub. „Snad tam něco mají.“\n\nDojde na nádraží. Obchod tam je otevřený celou noc. A mají mléko! Jakub je velmi rád.\n\nHned jde k Šárce a brzy je tam. Ema ho dostane a je ráda. Šárka a Jakub jsou také rádi. Je pořád noc, ale teď už je všechno dobré. Byla to dlouhá noc, ale skončila dobře.\n\nOtázky:\nCo došlo?\nDošlo mléko.\nKdo zůstane s Emou?\nS Emou zůstane Šárka.\nJak dlouho Jakub hledá?\nJakub hledá dlouho.\nKde Jakub najde mléko?\nJakub najde mléko na nádraží."
     },
     {
-      "title": "Král dne",
-      "summary": "At his sixth birthday party Vítek wins a game, becomes king for the day and gets more of his grandmother's famous cake.",
+      "title": "Pán dne",
+      "summary": "At his sixth birthday party Vítek wins a game, becomes the boss for the day and gets more of his grandmother's famous cake.",
       "newWords": [
-        "král",
         "získat",
         "skvělý",
         "známý",
@@ -225,7 +225,7 @@
         "možný",
         "důležitý"
       ],
-      "text": "Vítek má jednou za rok narozeniny. A dnes je ten důležitý den. Je mu 6 let.\n\nVe 3 přijdou děti a přijde také Jarmila, Vítkova babička. Jarmila dělá skvělý dort. Ten dort je známý v celé rodině. Dnes je to krásný velký dort.\n\nPak mají děti hru. Kdo hru vyhraje, získá korunu a bude král. Všechny děti chtějí být král. Vítek se snaží a je první. Získá korunu.\n\n„Teď jsi král,“ říká Jarmila. „Je to krásná koruna pro krále. A co chce náš král?“\n\n„Král chce dort!“ říká Vítek.\n\nJarmila mu ho dá. Je opět skvělý, jako každý rok. Všechny děti mají dort a všechny jsou rády. Pak děti hrají další hru a Vítek je pořád král.\n\n„Je možné dát si ještě jednou?“ říká Vítek.\n\n„Samozřejmě, je to možné,“ říká Jarmila. „Dnes jsi král. A král může všechno. Ale jen dnes.“\n\nPro Vítka je to důležitý a krásný den. Takový den je jen jednou za rok. Vítek je celý den rád a všechny děti jsou s ním rády. Je to den, kdy je Vítek král.\n\nOtázky:\nJaký den je dnes pro Vítka?\nDnes je pro Vítka důležitý den. Je mu 6 let.\nJaký dort dělá Jarmila?\nJarmila dělá skvělý dort. Ten dort je známý v celé rodině.\nCo získá Vítek ve hře?\nVítek získá korunu.\nKdo je dnes král?\nDnes je král Vítek."
+      "text": "Vítek má jednou za rok narozeniny. A dnes je ten důležitý den. Je mu 6 let.\n\nVe 3 přijdou děti a přijde také Jarmila, Vítkova babička. Jarmila dělá skvělý dort. Ten dort je známý v celé rodině. Dnes je to krásný velký dort.\n\nPak mají děti hru. Kdo hru vyhraje, získá korunu a bude celý den pán. Všechny děti chtějí být první. Vítek se snaží a je první. Získá korunu.\n\n„Teď jsi tady pán,“ říká Jarmila. „Je to krásná koruna. A co chce náš pán?“\n\n„Pán chce dort!“ říká Vítek.\n\nJarmila mu ho dá. Je opět skvělý, jako každý rok. Všechny děti mají dort a všechny jsou rády. Pak děti hrají další hru a Vítek je pořád pán.\n\n„Je možné dát si ještě jednou?“ říká Vítek.\n\n„Samozřejmě, je to možné,“ říká Jarmila. „Dnes jsi tady pán. A pán může všechno. Ale jen dnes.“\n\nPro Vítka je to důležitý a krásný den. Takový den je jen jednou za rok. Vítek je celý den rád a všechny děti jsou s ním rády. Je to den, kdy je Vítek pán.\n\nOtázky:\nJaký den je dnes pro Vítka?\nDnes je pro Vítka důležitý den. Je mu 6 let.\nJaký dort dělá Jarmila?\nJarmila dělá skvělý dort. Ten dort je známý v celé rodině.\nCo získá Vítek ve hře?\nVítek získá korunu.\nKdo je dnes pán?\nDnes je pán Vítek."
     }
   ]
 }

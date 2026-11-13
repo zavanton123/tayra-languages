@@ -3,7 +3,7 @@
   "rankUpTo": 8000,
   "level": "C1",
   "title": "Rodinné fejetony",
-  "description": "Ten light columns about family life in Czechia: Sunday lunches, grandparents' stories, holidays, a divorce handled well, a first flat, a cottage summer, an illness overcome, an anniversary, school projects and a home-made birthday cake.",
+  "description": "Ten light columns about family life in Czechia: Sunday lunches, grandparents' stories, holidays, a grandfather learning to cheer quietly, a first flat, a cottage summer, an illness overcome, an anniversary, school projects and a home-made birthday cake.",
   "topic": "Family columns",
   "names": [
     "Kolína",
@@ -71,7 +71,9 @@
     "Irena",
     "Sofie",
     "Sofiiných",
-    "Sofií"
+    "Sofií",
+    "Šimone",
+    "Šimonova"
   ],
   "lessons": [
     {
@@ -80,7 +82,6 @@
       "newWords": [
         "ubrus",
         "květinový",
-        "nachystat",
         "etiketa",
         "servírovat",
         "hlučný",
@@ -123,19 +124,17 @@
     },
     {
       "title": "Na jedné tribuně",
-      "summary": "A divorced father explains how he, his former wife and her new partner learned to sit together at their son's football matches.",
+      "summary": "A father describes how he, his wife and her father, a former youth coach, learned to sit together calmly at their son's football matches.",
       "newWords": [
-        "rozvedený",
         "tribuna",
         "instinkt",
         "otevřenost",
         "odporovat",
         "rozhodný",
-        "integrovat",
         "diskrétní",
         "emoční"
       ],
-      "text": "Jsem rozvedený už šest let. Když se člověk rozvádí, slyší ze všech stran rady, ale jedna věta mi utkvěla nejvíc. Řekla mi ji moje sestra: „Rozvádíte se vy dva, ne vaše dítě.“ Tehdy jsem nevěděl, co si s tou větou počít. Dnes ji považuji za nejlepší radu, jakou jsem kdy dostal.\n\nNáš syn Šimon hraje fotbal za žáky jednoho brněnského klubu. Zápasy jsou v sobotu dopoledne na malém hřišti s jedinou dřevěnou tribunou. Na té tribuně se každou sobotu potkáváme: já, moje bývalá žena Lenka a její partner Michal. Rozvedení rodiče, kteří sedí vedle sebe a fandí stejnému klukovi, jsou pro někoho asi zvláštní pohled. Pro Šimona je to obyčejná sobota.\n\nNebylo to tak vždycky. První rok po rozvodu jsme s Lenkou seděli na tribuně každý na jiném konci. Šimon po každém zápase nevěděl, ke komu má běžet dřív. Viděl jsem, jak se rozhlíží, a nějaký rodičovský instinkt mi říkal, že tohle je špatně. Instinkt ale nestačí. Potřebovali jsme se domluvit, a to je pro dva rozvedené lidi ta nejtěžší věc na světě.\n\nPomohla nám otevřenost. Sedli jsme si v kavárně a řekli si narovinu, co nám vadí. Lenka mi vyčítala, že Šimonovi slibuji věci, které pak nedodržím. Chtěl jsem jí odporovat, ale měla pravdu, a tak jsem mlčel. Já jsem jí řekl, že se bojím, aby Michal Šimonovi nenahradil tátu. Ani ona mi neodporovala. Ta otevřenost byla nepříjemná, ale bez ní bychom se nikam nepohnuli.\n\nNejtěžší bylo integrovat do celé věci Michala. Je to klidný, rozhodný člověk, učitel tělocviku, a Šimon ho má rád. Dlouho jsem nevěděl, jestli mi to vadí. Pak jsem si uvědomil, že syn nemá omezené množství lásky, které by musel rozdělit. Michal pro mě nebyl hrozba, ale další dospělý, kterému na Šimonovi záleží. Rozhodl jsem se ho do našich sobot integrovat, místo abych s ním soutěžil. Byl to rozhodný krok a jsem na něj trochu hrdý.\n\nDnes sedíme na tribuně všichni tři vedle sebe. Lenka nosí termosku s čajem, Michal komentuje každou přihrávku a já fotím. Jsme diskrétní: o starých sporech se na tribuně nemluví, a když se potřebujeme dohodnout na prázdninách, uděláme to diskrétně po telefonu, ne před synem. Diskrétní rodiče nejsou rodiče, kteří nic neřeší. Jsou to rodiče, kteří to neřeší před dítětem.\n\nPsycholožka, za kterou jsme kdysi s Lenkou chodili, říkala, že děti rozvedených rodičů potřebují hlavně emoční jistotu. Ne dokonalou rodinu, ale jistotu, že je nikdo nebude nutit vybírat si. Emoční jistota se nedá koupit ani nařídit. Dá se jen budovat, sobotu po sobotě.\n\nMinulý týden dal Šimon svůj první gól. Otočil se k tribuně a ukázal na nás na všechny tři. Lenka se rozplakala, Michal křičel radostí a já jsem zapomněl fotit.\n\nOtázky:\nJakou radu dala autorovi sestra?\nŘekla mu: „Rozvádíte se vy dva, ne vaše dítě.“\nKde se rodiče každou sobotu potkávají?\nPotkávají se na dřevěné tribuně malého fotbalového hřiště.\nCo pomohlo rozvedeným rodičům se domluvit?\nPomohla jim otevřenost, když si v kavárně narovinu řekli, co jim vadí.\nJaký člověk je Michal?\nMichal je klidný a rozhodný člověk, učitel tělocviku.\nCo podle psycholožky potřebují děti rozvedených rodičů?\nPotřebují hlavně emoční jistotu.\nCo udělal Šimon, když dal první gól?\nOtočil se k tribuně a ukázal na všechny tři."
+      "text": "Náš syn Šimon hraje fotbal za žáky jednoho brněnského klubu. Zápasy jsou v sobotu dopoledne na malém hřišti s jedinou dřevěnou tribunou. Na té tribuně se každou sobotu scházíme: já, moje žena Lenka a její otec Michal. Tchán byl dvacet let trenérem mládeže a fotbal je jeho celý život. Když se dozvěděl, že vnuk začal hrát, byl šťastný jako malý kluk.\n\nZpočátku to byla radost. Pak jsem si začal všímat, že Michal na tribuně nesedí, ale stojí, a že celý zápas křičí. „Šimone, doleva! Přihraj! Neběhej za míčem!“ Šimon pak hrál jako na drátkách a po každé chybě se otáčel k tribuně. Nějaký rodičovský instinkt mi říkal, že tohle je špatně. Instinkt ale nestačí. Potřebovali jsme si promluvit, a mluvit s tchánem o fotbale je ta nejtěžší věc na světě.\n\nPomohla nám otevřenost. Sedli jsme si všichni tři v kavárně a řekli si narovinu, co nám vadí. Lenka otci řekla, že se Šimon přestává na zápasy těšit. Michal chtěl odporovat. Je to rozhodný člověk, zvyklý, že na hřišti platí jeho slovo. Pak se ale zamyslel a mlčel. Ani mně neodporoval, když jsem mu řekl, že kluk na hřišti potřebuje hlavně klid. Ta otevřenost byla nepříjemná, ale bez ní bychom se nikam nepohnuli.\n\nO týden později udělal tchán rozhodný krok. Zavolal trenérovi Šimonova týmu a zeptal se ho, jak by mohl pomoct. Trenér mu poradil, ať radí méně a fandí víc. Michal tu radu přijal a od té doby se jí drží.\n\nDnes sedíme na tribuně všichni tři vedle sebe. Lenka nosí termosku s čajem, Michal tiše komentuje každou přihrávku a já fotím. Jsme diskrétní: rady se na tribuně nedávají, a když tchán něco opravdu musí říct, řekne to diskrétně v autě cestou domů, ne před ostatními dětmi. Diskrétní dědeček není dědeček, který nic nevidí. Je to dědeček, který ví, kdy mluvit.\n\nTrenér nám na schůzce rodičů vysvětlil, že děti v tomhle věku potřebují hlavně emoční jistotu. Ne dokonalé rady, ale jistotu, že je nikdo nebude soudit za každou chybu. Emoční jistota se nedá koupit ani nařídit. Dá se jen budovat, sobotu po sobotě.\n\nMinulý týden dal Šimon svůj první gól. Otočil se k tribuně a ukázal na nás na všechny tři. Lenka se rozplakala, Michal křičel radostí a já jsem zapomněl fotit.\n\nOtázky:\nKdo se každou sobotu schází na tribuně?\nSchází se tam vypravěč, jeho žena Lenka a její otec Michal.\nCo dělal Michal na tribuně zpočátku?\nStál a celý zápas křičel na Šimona rady.\nCo pomohlo rodině se domluvit?\nPomohla jim otevřenost, když si v kavárně narovinu řekli, co jim vadí.\nJaký člověk je Michal?\nMichal je rozhodný člověk, zvyklý, že na hřišti platí jeho slovo.\nCo podle trenéra potřebují děti v tomhle věku?\nPotřebují hlavně emoční jistotu.\nCo udělal Šimon, když dal první gól?\nOtočil se k tribuně a ukázal na všechny tři."
     },
     {
       "title": "Byt v novostavbě",
@@ -144,7 +143,6 @@
         "novostavba",
         "notář",
         "aktivum",
-        "vyhrazený",
         "registrační",
         "vypršet",
         "bezvadný",
@@ -202,7 +200,6 @@
       "title": "Delfíni a step",
       "summary": "A magazine editor helps her two children with school projects on dolphins and on the steppe, and learns to leave the work to them.",
       "newWords": [
-        "redaktorka",
         "učební",
         "propracovat",
         "formovat",

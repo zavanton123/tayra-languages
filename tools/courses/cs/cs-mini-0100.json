@@ -88,7 +88,8 @@
     "Tadeáš",
     "Tadeáše",
     "Tadeášem",
-    "Tadeášovi"
+    "Tadeášovi",
+    "Maxova"
   ],
   "lessons": [
     {
@@ -103,8 +104,7 @@
         "místo",
         "náš",
         "dítě",
-        "říct",
-        "říkat"
+        "říct"
       ],
       "text": "Jana a Petr mají dítě, Aničku. Teď jsou v Brně. Brno je pro ně nové místo.\n\n„To je naše nové místo,“ říká Petr.\n\n„Ano, naše nové místo,“ říká Jana. „Je to místo pro nás i pro dítě.“\n\nAnička nic neříká. Je to pro ni nové. Pak řekne: „A kde je moje místo?“\n\n„Tvoje místo je tam, u okna,“ říká Jana.\n\nAnička je u okna. „To je moje místo? Moje nové místo?“\n\n„Je,“ řekne Petr. „Ne naše, ne Janino, jen tvoje.“\n\nAnička je na svém novém místě. Pak řekne: „Mám nové místo! Mám v Brně svoje místo!“\n\nOtázky:\nKdo je Anička?\nAnička je dítě Jany a Petra.\nKde jsou teď Jana, Petr a Anička?\nTeď jsou v Brně.\nKde je Aniččino nové místo?\nAniččino nové místo je u okna.\nCo řekne Anička?\nAnička řekne: „Mám v Brně svoje místo!“"
     },
@@ -140,7 +140,7 @@
         "ani",
         "teď"
       ],
-      "text": "Lucie a Max jsou ve Vídni. Lucie je z Plzně a mluví česky. Max je ještě dítě a mluví jen německy.\n\nVěra je v Plzni. Je to Luciina máma. Ona mluví jen česky.\n\n„Já chci něco říct Věře,“ říká Max. „Ale jak? Já česky neumím ani dobrý den.“\n\n„Ani Věra neumí německy,“ říká Lucie. „Tak jí to řekni česky. Chceš? Řeknu ti, jak se to řekne.“\n\n„Chci!“ říká Max.\n\n„Dobrý den,“ říká Lucie. „Dobrý den,“ říká Max. A ještě: „Dobrý den.“\n\n„To je dobré!“ říká Lucie. „Teď to řekni také Věře.“\n\nTeď je Věra na telefonu. Max jí chce něco říct. Řekne česky: „Dobrý den, babičko!“\n\n„Maxi! Ty už říkáš česky dobrý den!“ říká Věra. „A já ti také říkám: dobrý den!“\n\nOtázky:\nKde jsou Lucie a Max?\nLucie a Max jsou ve Vídni.\nMluví Věra německy?\nNe, Věra mluví jen česky.\nCo chce Max?\nMax chce něco říct Věře česky.\nCo Max řekne Věře?\nMax řekne: „Dobrý den, babičko!“"
+      "text": "Lucie a Max jsou ve Vídni. Lucie je z Plzně a mluví česky. Max je ještě dítě a mluví jen německy.\n\nVěra je v Plzni. Je to Luciina máma a Maxova česká babička. Ona mluví jen česky.\n\n„Já chci něco říct Věře,“ říká Max. „Ale jak? Já česky neumím ani dobrý den.“\n\n„Ani Věra neumí německy,“ říká Lucie. „Tak jí to řekni česky. Chceš? Řeknu ti, jak se to řekne.“\n\n„Chci!“ říká Max.\n\n„Dobrý den,“ říká Lucie. „Dobrý den,“ říká Max. A ještě: „Dobrý den.“\n\n„To je dobré!“ říká Lucie. „Teď to řekni také Věře.“\n\nTeď je Věra na telefonu. Max jí chce něco říct. Řekne česky: „Dobrý den, babičko!“\n\n„Maxi! Ty už říkáš česky dobrý den!“ říká Věra. „A já ti také říkám: dobrý den!“\n\nOtázky:\nKde jsou Lucie a Max?\nLucie a Max jsou ve Vídni.\nKdo je Věra?\nVěra je Maxova česká babička.\nMluví Věra německy?\nNe, Věra mluví jen česky.\nCo chce Max?\nMax chce něco říct Věře česky.\nCo Max řekne Věře?\nMax řekne: „Dobrý den, babičko!“"
     },
     {
       "title": "Já sám!",

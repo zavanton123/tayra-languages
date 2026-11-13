@@ -56,7 +56,7 @@
     },
     {
       "title": "Jiná cesta",
-      "summary": "Works close the main road, so Jitka walks to work across Brno another way and arrives at eight.",
+      "summary": "The main street is closed, so Jitka walks to work across Brno another way and arrives at eight.",
       "newWords": [
         "cesta",
         "město",
@@ -69,7 +69,7 @@
         "čekat",
         "právě"
       ],
-      "text": "Jitka je z Brna. Je doma na konci města. Práci má na druhé straně města. Každý den jde do práce přes celé město, po hlavní cestě. Je to dlouhá cesta, ale Jitka ji má ráda.\n\nDnes je na hlavní cestě práce. Kvůli práci je hlavní cesta zavřená.\n\nJitka čeká. Čeká 10 minut, pak 20 minut. Cesta je zavřená i teď.\n\n„Co teď?“ říká Jitka. „Musím být v práci v 8.“\n\nJeden člověk tam čeká také. „Kvůli práci tady dnes jít nemůžeme,“ říká. „Ale je tady jiná cesta, přes park.“\n\nTak jde Jitka po jiné cestě. Nejde po hlavní cestě. Jde přes jeden park, pak přes druhý park. Je to jiná cesta, ale dobrá. Jitka vidí město, které z hlavní cesty nevidí.\n\nV práci je Jitka jako poslední. Ale je tam právě v 8. Právě v 8 je tam, kde má být. Je to dobrý konec cesty.\n\nOtázky:\nJak jde Jitka do práce každý den?\nKaždý den jde po hlavní cestě přes celé město.\nKde má Jitka práci?\nJitka má práci na druhé straně města.\nProč dnes Jitka nejde po hlavní cestě?\nKvůli práci je hlavní cesta zavřená.\nJe Jitka v práci první, nebo poslední?\nJitka je v práci poslední, ale je tam právě v 8."
+      "text": "Jitka je z Brna. Je doma na konci města. Práci má na druhé straně města. Každý den jde do práce přes celé město, po hlavní ulici. Je to dlouhá cesta, ale Jitka ji má ráda.\n\nDnes je ale hlavní ulice zavřená. Kvůli tomu dnes Jitka nemůže jít jako každý den.\n\nJitka čeká. Čeká 10 minut, pak 20 minut. A je to tak i teď.\n\n„Co teď?“ říká Jitka. „Musím být v práci v 8.“\n\nJeden člověk tam čeká také. „Tady dnes jít nemůžeme,“ říká. „Ale je tady jiná cesta, přes park.“\n\nTak jde Jitka jinou cestou. Jde přes jeden park, pak přes druhý park. Je to jiná cesta, ale dobrá. Jitka vidí město, které každý den nevidí.\n\nV práci je Jitka jako poslední. Ale je tam právě v 8. Právě v 8 je tam, kde má být. Je to pro ni dobrý konec cesty.\n\nOtázky:\nJak jde Jitka do práce každý den?\nKaždý den jde přes celé město. Je to dlouhá cesta.\nKde má Jitka práci?\nJitka má práci na druhé straně města.\nProč dnes Jitka nejde jako každý den?\nKvůli tomu, že je hlavní ulice dnes zavřená.\nJe Jitka v práci první, nebo poslední?\nJitka je v práci poslední, ale je tam právě v 8."
     },
     {
       "title": "Voda pro děti",
@@ -99,7 +99,6 @@
         "pán",
         "váš",
         "nikdo",
-        "udělat",
         "kdy",
         "však",
         "velmi"
@@ -121,7 +120,7 @@
         "díky",
         "či"
       ],
-      "text": "Je 12 hodin. Michal a Zuzana jsou v práci. Chtějí jít na oběd.\n\n„Myslíš, že je tady nějaké dobré místo na oběd?“ říká Zuzana.\n\n„Myslím, že ano,“ říká Michal. „Na konci cesty je jedno. Takové české. Každý den tam mají dvě či tři dobré věci.“\n\n„A jaké je? Je dobré?“\n\n„Moc dobré. Ale je tam moc lidí.“\n\nTam však není žádné místo. „No, co teď?“ říká Zuzana. „Žádné místo tady není. Myslíš, že tady bude nějaké místo?“\n\n„No, tak čekáme,“ říká Michal. „Za 5 či 10 minut tady nějaké místo bude.“\n\nZa 5 minut je tam jedno místo pro dva. „Tak co chceš?“ říká Michal.\n\n„Myslím, že polévku. A ty?“\n\n„Takovou polévku, jakou máš ty.“\n\nPolévka je moc dobrá. Je to takový oběd, jaký mají rádi.\n\n„Díky, Michale,“ říká Zuzana. „Takový oběd chci každý den.“\n\n„Ano, já také. Díky, Zuzano.“\n\nOtázky:\nCo chtějí Michal a Zuzana?\nChtějí jít na oběd.\nJaké je místo na konci cesty?\nJe to takové české místo.\nJe tam nějaké místo?\nNe, není tam žádné místo.\nCo chce Zuzana?\nZuzana chce polévku."
+      "text": "Je 12 hodin. Michal a Zuzana jsou v práci. Chtějí jít na oběd.\n\n„Myslíš, že je tady nějaké dobré místo na oběd?“ říká Zuzana.\n\n„Myslím, že ano,“ říká Michal. „Jedno je tady u nás v domě. Je takové české. Každý den tam mají dvě či tři dobré věci.“\n\n„A jaké je? Je dobré?“\n\n„Moc dobré. Ale je tam moc lidí.“\n\nTam však není žádné místo. „No, co teď?“ říká Zuzana. „Žádné místo tady není. Myslíš, že tady bude nějaké místo?“\n\n„No, tak čekáme,“ říká Michal. „Za 5 či 10 minut tady nějaké místo bude.“\n\nZa 5 minut je tam jedno místo pro dva. „Tak co chceš?“ říká Michal.\n\n„Myslím, že polévku. A ty?“\n\n„Takovou polévku, jakou máš ty.“\n\nPolévka je moc dobrá. Je to takový oběd, jaký mají rádi.\n\n„Díky, Michale,“ říká Zuzana. „Takový oběd chci každý den.“\n\n„Ano, já také. Díky, Zuzano.“\n\nOtázky:\nCo chtějí Michal a Zuzana?\nChtějí jít na oběd.\nJaké je to místo?\nJe to takové české místo.\nJe tam nějaké místo?\nNe, není tam žádné místo.\nCo chce Zuzana?\nZuzana chce polévku."
     },
     {
       "title": "Hra po škole",

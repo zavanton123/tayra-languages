@@ -113,7 +113,6 @@
         "kruhový",
         "chodec",
         "zmatek",
-        "rozbitý",
         "dohnat",
         "náskok",
         "logicky"
@@ -128,9 +127,7 @@
         "dočíst",
         "konverzace",
         "rozlišit",
-        "uslyšet",
         "rozpoznat",
-        "vyučovat",
         "nudný",
         "historka"
       ],
@@ -143,7 +140,6 @@
         "občanství",
         "přinejmenším",
         "nahlásit",
-        "týž",
         "zřídit",
         "zneužít",
         "dovoz",
@@ -206,7 +202,6 @@
       "title": "Tanečnice mezi dvěma jevišti",
       "summary": "An interview with a Czech dancer who works in Vienna and Prague about stages, dressing rooms, costumes and the two cities.",
       "newWords": [
-        "tancovat",
         "jeviště",
         "šatna",
         "střih",
@@ -237,7 +232,6 @@
       "title": "Štěně z Pardubic",
       "summary": "A boy in Berlin asks for a puppy three times, and his Czech grandmother finally brings one from Pardubice.",
       "newWords": [
-        "ponorka",
         "hloupost",
         "potřetí",
         "optimální",
@@ -246,7 +240,7 @@
         "radovat",
         "obejmout"
       ],
-      "text": "Kryštof bydlí s rodiči v Berlíně, ve třetím patře starého domu bez výtahu. Už od sedmi let si přeje jedinou věc: psa. Rodiče, Daniela a Ondřej, o tom dlouho nechtěli ani slyšet. Byt je malý, oba pracují a v zimě se tam i ve třech cítí jako v ponorce.\n\n„Víš přece, co je ponorková nemoc,“ říkal Ondřej synovi. „Když jsou lidé dlouho zavření v malém prostoru, začnou si lézt na nervy. Se psem bychom byli v ponorce čtyři.“\n\nKryštof to věděl dobře, protože ponorky miloval. Na poličce měl modely ponorek a ve vaně si hrál se žlutou ponorkou, kterou mu kdysi přivezla babička z Pardubic. Babička Libuše chová psy už třicet let a na zahradě za domem má skoro vždycky nějaké štěně.\n\nPoprvé požádal Kryštof o štěně k narozeninám. Rodiče řekli, že je to hloupost. Podruhé to zkusil o prázdninách u babičky, když si hrál s jejími psy. Zase slyšel, že je to hloupost a že v Berlíně by pes neměl kde běhat. Potřetí to zkusil jinak. Napsal babičce dlouhý dopis, a to česky, i když psát česky se teprve učil. Babička si dopis přečetla potřetí a pak zavolala Daniele.\n\n„Napsal to česky, skoro bez chyby,“ řekla. „Takovou snahu nemůžete brát jako hloupost.“\n\nRodiče se nakonec dohodli, že štěně si vezmou, když se o ně Kryštof bude starat. Babička jim vysvětlila, že optimální věk, kdy štěně může odejít od matky, je osm až deset týdnů. Optimální je podle ní i roční doba: jaro, kdy jsou dny delší a dá se chodit ven. Pro malý byt ve městě je prý optimální menší, klidný pes.\n\nV dubnu přijela babička vlakem z Pardubic s košíkem. V košíku spalo malé hnědé štěně. Kryštof k němu opatrně vztáhl ruku. Štěně otevřelo oči a olízlo mu prsty. Kryštof se radoval tak, že nemohl ani mluvit. Pak objal babičku, objal mámu a nakonec objal i tátu, který stál ve dveřích s nejistým úsměvem. Babička k Ondřejovi vztáhla ruku a řekla: „Neboj se, ty si na něj zvykneš taky.“\n\nRadovali se všichni, jen žlutá ponorka ne. Hned první večer ji štěně našlo na koberci a začalo ji kousat. Kryštof ji zachránil a dal štěněti místo ní starou ponožku. „Ponorky jsou moje,“ vysvětlil mu vážně, „ponožky jsou tvoje.“\n\nPonorková nemoc nakonec nepřišla. Štěně musí chodit ven třikrát denně, a tak je celá rodina venku víc než kdykoli předtím. Když se večer vracejí z parku, štěně si lehne ke Kryštofově posteli a čeká, až ho chlapec obejme. Kryštof ho obejme pokaždé.\n\nOtázky:\nProč rodiče nechtěli psa?\nProtože byt je malý, oba pracují a báli se ponorkové nemoci.\nJak Kryštof o štěně požádal potřetí?\nNapsal babičce dlouhý dopis česky.\nJaký je podle babičky optimální věk štěněte?\nOptimální věk je osm až deset týdnů.\nCo udělal Kryštof, když štěně uviděl?\nOpatrně k němu vztáhl ruku, radoval se a pak objal celou rodinu.\nCo štěně udělalo se žlutou ponorkou?\nZačalo ji kousat, ale Kryštof ji zachránil."
+      "text": "Kryštof bydlí s rodiči v Berlíně, ve třetím patře starého domu bez výtahu. Už od sedmi let si přeje jedinou věc: psa. Rodiče, Daniela a Ondřej, o tom dlouho nechtěli ani slyšet. Byt je malý, oba pracují a v zimě se tam i ve třech cítí jako v ponorce.\n\n„Víš přece, co je ponorková nemoc,“ říkal Ondřej synovi. „Když jsou lidé dlouho zavření v malém prostoru, začnou si lézt na nervy. Se psem bychom byli v ponorce čtyři.“\n\nKryštof to věděl dobře, protože lodě miloval. Na poličce měl modely lodí a ve vaně si hrál se žlutou lodí, kterou mu kdysi přivezla babička z Pardubic. Babička Libuše chová psy už třicet let a na zahradě za domem má skoro vždycky nějaké štěně.\n\nPoprvé požádal Kryštof o štěně k narozeninám. Rodiče řekli, že je to hloupost. Podruhé to zkusil o prázdninách u babičky, když si hrál s jejími psy. Zase slyšel, že je to hloupost a že v Berlíně by pes neměl kde běhat. Potřetí to zkusil jinak. Napsal babičce dlouhý dopis, a to česky, i když psát česky se teprve učil. Babička si dopis přečetla potřetí a pak zavolala Daniele.\n\n„Napsal to česky, skoro bez chyby,“ řekla. „Takovou snahu nemůžete brát jako hloupost.“\n\nRodiče se nakonec dohodli, že štěně si vezmou, když se o ně Kryštof bude starat. Babička jim vysvětlila, že optimální věk, kdy štěně může odejít od matky, je osm až deset týdnů. Optimální je podle ní i roční doba: jaro, kdy jsou dny delší a dá se chodit ven. Pro malý byt ve městě je prý optimální menší, klidný pes.\n\nV dubnu přijela babička vlakem z Pardubic s košíkem. V košíku spalo malé hnědé štěně. Kryštof k němu opatrně vztáhl ruku. Štěně otevřelo oči a olízlo mu prsty. Kryštof se radoval tak, že nemohl ani mluvit. Pak objal babičku, objal mámu a nakonec objal i tátu, který stál ve dveřích s nejistým úsměvem. Babička k Ondřejovi vztáhla ruku a řekla: „Neboj se, ty si na něj zvykneš taky.“\n\nRadovali se všichni, jen žlutá loď ne. Hned první večer ji štěně našlo na koberci a začalo ji kousat. Kryštof ji zachránil a dal štěněti místo ní starou ponožku. „Lodě jsou moje,“ vysvětlil mu vážně, „ponožky jsou tvoje.“\n\nPonorková nemoc nakonec nepřišla. Štěně musí chodit ven třikrát denně, a tak je celá rodina venku víc než kdykoli předtím. Když se večer vracejí z parku, štěně si lehne ke Kryštofově posteli a čeká, až ho chlapec obejme. Kryštof ho obejme pokaždé.\n\nOtázky:\nProč rodiče nechtěli psa?\nProtože byt je malý, oba pracují a báli se ponorkové nemoci.\nJak Kryštof o štěně požádal potřetí?\nNapsal babičce dlouhý dopis česky.\nJaký je podle babičky optimální věk štěněte?\nOptimální věk je osm až deset týdnů.\nCo udělal Kryštof, když štěně uviděl?\nOpatrně k němu vztáhl ruku, radoval se a pak objal celou rodinu.\nCo štěně udělalo se žlutou lodí?\nZačalo ji kousat, ale Kryštof ji zachránil."
     },
     {
       "title": "Rodák ze dvou krajin",
@@ -254,7 +248,6 @@
       "newWords": [
         "rodák",
         "poloostrov",
-        "uplatnění",
         "zdánlivý",
         "zemětřesení",
         "dědic",
