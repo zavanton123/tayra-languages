@@ -224,6 +224,10 @@ import frequency_persian  # noqa: E402
 
 OVERRIDES["fa"] = frequency_persian.PERSIAN_OVERRIDES
 EXCLUDE["fa"] = frequency_persian.PERSIAN_EXCLUDE
+import frequency_cornish  # noqa: E402
+
+OVERRIDES["kw"] = frequency_cornish.CORNISH_OVERRIDES
+EXCLUDE["kw"] = frequency_cornish.CORNISH_EXCLUDE
 from frequency_fixes import HEBREW_CUT, HEBREW_WHOLE  # noqa: E402
 import frequency_albanian  # noqa: E402
 
@@ -2536,6 +2540,9 @@ def normalise(language, form):
     # Some Vietnamese subtitles write a tone mark as a letter of its own, which the reader and the pack join to the vowel.
     if language == "vi":
         return unicodedata.normalize("NFC", form)
+    # Cornish text writes the apostrophe of y'n, dhe'n, ha'y curly too.
+    if language == "kw":
+        return form.replace("’", "'")
     return form
 
 
@@ -2804,7 +2811,13 @@ WIKI_REDIRECTS = {"ga": "#athsheoladh"}
 # Wikipedias whose section headings are left out: nearly every Irish page ends "Tagairtí" (references), "Féach
 # freisin" (see also), "Naisc sheachtracha" (external links), which put tagairt, nasc and seachtrach in the first 250.
 # Georgian pages end the same way: "სქოლიო" (footnotes), "რესურსები ინტერნეტში" (internet resources), "იხილეთ აგრეთვე".
-WIKI_HEADINGLESS = {"ga", "ka"}
+# And Cornish ones "Devynnow" (sources).
+WIKI_HEADINGLESS = {"ga", "ka", "kw"}
+# Wikipedias of which only the articles count: the Cornish dump's Lua modules, templates and talk pages are a quarter of its
+# words, in English (frequency_cornish).
+WIKI_ARTICLES_ONLY = {"kw"}
+# How often a Cornish form is written in the articles, and how often in lower case: names are capitalised (frequency_cornish).
+CORNISH_COUNT, CORNISH_LOWER = defaultdict(int), defaultdict(int)
 WIKI_HEADING = re.compile(r"^=+[^\n]*=+[ \t]*$", re.M)
 
 
@@ -2835,8 +2848,11 @@ def wikipedia_counts(language, limit):
     counts = defaultdict(int)
     page = []
     in_text = False
+    namespace = None
     with bz2.open(path, "rt", encoding="utf-8") as f:
         for line in f:
+            if language in WIKI_ARTICLES_ONLY and "<ns>" in line:
+                namespace = line.strip()
             if "<text" in line:
                 in_text = True
                 line = line[line.index(">", line.index("<text")) + 1:]
@@ -2851,6 +2867,8 @@ def wikipedia_counts(language, limit):
                         continue
                     if language in WIKI_REDIRECTS and text.lstrip().lower().startswith(WIKI_REDIRECTS[language]):
                         continue
+                    if language in WIKI_ARTICLES_ONLY and namespace != "<ns>0</ns>":
+                        continue
                     if language in WIKI_HEADINGLESS:
                         text = WIKI_HEADING.sub(" ", text)
                     text = html.unescape(strip_templates(text))
@@ -2859,6 +2877,9 @@ def wikipedia_counts(language, limit):
                     text = WIKI_LINK.sub(r"\1", text)
                     for word in WIKI_WORD.findall(text):
                         counts[lower(language, word)] += 1
+                        if language == "kw":
+                            CORNISH_COUNT[normalise(language, lower(language, word))] += 1
+                            CORNISH_LOWER[normalise(language, word)] += word == lower(language, word)
     top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
     return dict(top), f"{wiki}.wikipedia.org articles"
 
@@ -4155,6 +4176,29 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         guessed.setdefault(key, lemma)
         return key
 
+    def cornish_unknown(form):
+        """
+        The word a Cornish form the pack lacks is (frequency_cornish): the pack's form it mutates or respells, the
+        commonest; else itself, when the articles write it in lower case, often enough, and English not more.
+        """
+        written = CORNISH_COUNT.get(form, 0)
+        if len(form) < 2 or not is_wordlike(form) or CORNISH_LOWER.get(form, 0) < frequency_cornish.OWN_LOWER * written:
+            return {}
+        if len(form) > 2:
+            found = [c for c in frequency_cornish.candidates(form) if (c in lemmas or c in pos) and c not in excluded
+                     and (is_word(c) or any(is_word(l) for l in lemmas.get(c, ())))]
+            if found:
+                return {max(found, key=lambda c: (count(c), c)): 1.0}
+            found = [(tier, -count(c), c) for c, kind, tier in frequency_cornish.inflected(form)
+                     if kind in pos.get(c, ()) and is_word(c) and c not in excluded]
+            if found:
+                return {min(found)[2]: 1.0}
+        if written < frequency_cornish.OWN_COUNT or len(form) < frequency_cornish.OWN_LETTERS or (
+                english_share(form) >= frequency_cornish.OWN_ENGLISH * freq.get(form, 0)):
+            return {}
+        guessed.setdefault(form, form)
+        return {form: 1.0}
+
     def tagalog_pack_word(word):
         """Whether a Tagalog word is a word of the pack (as is_word, but not counting simplemma's or tagalog_verb's)."""
         return bool(pos.get(word, set()) & WORD_POS) and word in common and word not in excluded and len(word) > 1
@@ -4776,6 +4820,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                     return {form: 1.0}
             if not known and language == "lt":
                 return lithuanian_guess(form)
+            if not known and language == "kw":
+                return cornish_unknown(form)
             if not known:
                 word = guess(form)
                 return {word: 1.0} if word else {}
