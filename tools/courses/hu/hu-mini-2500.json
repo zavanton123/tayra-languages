@@ -58,7 +58,6 @@
         "mező",
         "emelkedik",
         "hú",
-        "bátyja",
         "laza",
         "rohan"
       ],
@@ -87,7 +86,6 @@
         "munkás",
         "teher",
         "leül",
-        "elkezdődik",
         "anyukád",
         "amennyire"
       ],
@@ -99,11 +97,9 @@
       "newWords": [
         "taxi",
         "sofőr",
-        "parancsol",
         "szólít",
         "fér",
         "kiló",
-        "megmagyaráz",
         "szerencsétlen"
       ],
       "text": "Medárd nagyon szereti a régi autókat. Vasárnap elment egy kiállításra a Városligetbe, ahol 50 régi autót lehetett megnézni. A legtöbb autó mellett csak egy kis tábla állt, de egy sárga taxi mellett egy idős férfi ült egy széken.\n\n– Jó napot! Ez az ön autója? – kérdezte Medárd.\n\n– Az enyém – felelte a férfi. – Aladár vagyok. 40 évig voltam sofőr Budapesten, és ezzel a taxival dolgoztam. 1978-ban vettem.\n\n– És milyen volt sofőrnek lenni?\n\n– Szép munka volt. Az utasok sofőr úrnak szólítottak, a gyerekek egyszerűen bácsinak. Én pedig mindig így kérdeztem az utast: „Hova parancsol?” Ma már senki sem mondja így, pedig szerintem szép.\n\nMedárd megnézte a taxit belülről. Elöl egy régi, fekete óra volt.\n\n– Ez mire volt jó?\n\n– Megmagyarázom – mondta Aladár bácsi. – Ez az óra mutatta, mennyit kell fizetni. Minden kilométer után egy kicsit többet mutatott. Az utas is látta, így nem kellett sokat beszélni róla.\n\n– És a csomagok hova fértek?\n\n– Hátra. De ott nem volt sok hely. Egyszer egy hölgy a piacról 30 kiló gyümölccsel szállt be. A dobozok alig fértek be, kettőt az ölében kellett vinnie. Egy másik utasnak a táskája volt 40 kiló. Azt ketten emeltük be.\n\nAladár bácsi nevetett, aztán egy szerencsétlen utasról mesélt.\n\n– Egy fiatal fiú az állomás előtt szállt be, de már késő volt: a vonata éppen elment. A szerencsétlen fiú majdnem sírt, mert az anyjához utazott, aki másnap lett 50 éves. Megkérdeztem, hol áll meg a vonat legközelebb. Gyorsan odavittem, és pont elérte. Azóta minden évben ír nekem egy levelet.\n\n– És mi volt a legnehezebb?\n\n– A tél. A taxiban hideg volt, és sokszor a hó miatt nem tudtam elindulni. De ennek ellenére szerettem.\n\nMedárd még egyszer megnézte a régi órát.\n\n– Beülhetek?\n\n– Persze. Üljön csak be!\n\nMedárd beült hátra. Aladár bácsi pedig a sofőr helyére ült, és hátranézett:\n\n– Hova parancsol, uram?\n\n– A Dunához, kérem! – felelte Medárd nevetve.\n\nKérdések:\nMióta van Aladár bácsinak sárga taxija?\n1978 óta van, akkor vette.\nHogyan szólították az utasok Aladár bácsit?\nSofőr úrnak szólították, a gyerekek pedig bácsinak.\nMit kérdezett mindig Aladár bácsi az utastól?\nAzt kérdezte: „Hova parancsol?”\nMit magyarázott meg Aladár bácsi az óráról?\nMegmagyarázta, hogy az óra mutatta, mennyit kell fizetni.\nHány kiló gyümölccsel szállt be a hölgy a piacról?\n30 kiló gyümölccsel szállt be.\nHogyan segített Aladár bácsi a szerencsétlen fiúnak?\nGyorsan elvitte oda, ahol a vonat legközelebb megállt, és a fiú pont elérte a vonatot."
@@ -173,7 +169,6 @@
       "summary": "Over Sunday lunch, Matild néni tells her granddaughter Liliána about the goat that kept escaping on the family farm, and her brother Tas finally makes a confession.",
       "newWords": [
         "megszökik",
-        "elmenekül",
         "akármi",
         "szőke",
         "cuki",
