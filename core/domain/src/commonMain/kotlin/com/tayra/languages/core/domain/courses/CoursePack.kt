@@ -177,7 +177,7 @@ object CoursePacks {
             title = "Czech",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-cs.sqlite.gzip",
-            downloadSize = 1_295_796,
+            downloadSize = 1_295_340,
         ),
         CoursePack(
             id = "courses-ko",
