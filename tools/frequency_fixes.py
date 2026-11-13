@@ -2665,3 +2665,6 @@ EXCLUDE["haw"] = {
     "huaʻia", "keʻano", "waīʻikahaikana", "waīmaūana", "kaūawamala", "akāiuwapa", "ukaela", "ne", "ʻi", "kēiki", "ʻumikumamāwalu",
     "palakiahine", "akonia",
 }
+# Basque: Spanish and English words and syllables of the subtitles that the packs have as rare words (de, la, ge, ka, go).
+EXCLUDE["eu"] = EXCLUDE.get("eu", set()) | {"de", "ge", "la", "ma", "ka", "go", "no", "do", "tu", "mi", "ira", "ei", "ler", "the",
+                                            "and", "you", "my", "me", "new", "los", "san", "york"}

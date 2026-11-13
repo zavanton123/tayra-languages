@@ -271,8 +271,9 @@ MAX_LEMMAS_PER_FORM = 6
 FORMS_PER_WORD = 40
 # Where a word has more: a Welsh word has its mutations and contractions as well (fod, mae'n, sy'n, i'r);
 # a Persian verb has its spoken forms as well (میرم, میخوام, میتونی); a Mongolian word its cases, each with the reflexive
-# possessive, in the singular and plural (гэр, гэрт, гэртээ, гэрүүдэд), and a verb its tenses, participles and converbs.
-FORMS_PER_WORD_OF = {"cy": 120, "fa": 150, "mn": 150}
+# possessive, in the singular and plural (гэр, гэрт, гэртээ, гэрүүдэд), and a verb its tenses, participles and converbs; a
+# Basque word its stacked case endings and its verbs' auxiliaries (etxekoekin, zaizkizu, dezakezuela).
+FORMS_PER_WORD_OF = {"cy": 120, "fa": 150, "mn": 150, "eu": 1000}
 
 
 # Languages whose words are written in Chinese characters or kana.
@@ -2368,6 +2369,336 @@ def lithuanian_more_packs(pos, lemmas, common):
         db.close()
 
 
+# Basque. The English pack has 5,400 entries and lacks words as common as uste, geratu, itxi, arazo, ideia and gutxi, which
+# the packs glossed in other languages have (BASQUE_PACKS): their words are added where no pack word or form is spelled so,
+# with the forms basque_inflections makes. The pack's tables also file whole words under others (hau "this" under izan,
+# gau "night" under hau, begi "eye" under egin, oin "foot" under orain, zabal "wide" under zabaldu): a word with a sense of
+# its own is no other word's form. And no pack has the synthetic verbs' commonest forms (da, naiz, zen, dago, nago, dela,
+# daiteke, dezaket, nuke), which BASQUE_VERBS gives by hand, with their relative (-n), complement (-la, -lako) and ba- forms.
+BASQUE_PACKS = ["eu-pl", "eu-fr", "eu-ru", "eu-es", "eu-pt"]
+# Glosses that make an entry another word's form: hobeto, comparative degree of ondo; egite, verbal noun of egin.
+BASQUE_FORM_GLOSS = re.compile(r"^(?:(?:excessive|comparative|superlative) degree|verbal noun|proscribed spelling|alternative "
+                               r"(?:form|spelling)|Soule form|(?:\w+ )*form) of ", re.IGNORECASE)
+# By verb: finite forms, which take the relative and complement endings (dut: dudan, dudala), with "ba-" those marked "+"
+# (badakit, bada); forms marked "=" take neither (ezazu, dadin, balitz).
+BASQUE_VERBS = {
+    # izan, with the forms of the auxiliaries dictionaries give under it: ukan's (dut), edin's (daiteke), ezan's
+    # (dezaket), and the dative and ditransitive ones (zait, dizut). The pack files dut and ezazu under izan already.
+    "izan": """
+        +naiz +haiz +da +gara +zara +zarete +dira +nintzen +hintzen +zen +ginen +zinen +zineten +ziren
+        nintzateke zinateke litzateke ginateke zinatekete lirateke nintzatekeen zinatekeen litzatekeen ginatekeen liratekeen
+        =banintz =bazina =balitz =bagina =bazinete =balira
+        naiteke haiteke daiteke gaitezke zaitezke zaitezkete daitezke ninteke liteke ginteke zintezke litezke nintekeen
+        zitekeen gintezkeen zintezkeen zitezkeen
+        =nadin =hadin =dadin =gaitezen =zaitezen =zaitezten =daitezen =nendin =zedin =gintezen =zintezen =zitezen =nadila
+        =dadila =gaitezela =zaitezela =daitezela =zaitez =zaitezte =hadi =bedi =bitez
+        +zait +zaizu +zaio +zaigu +zaizue +zaie +zaizkit +zaizkizu +zaizkio +zaizkigu +zaizkizue +zaizkie zitzaidan zitzaizun
+        zitzaion zitzaigun zitzaizuen zitzaien zitzaizkidan zitzaizkizun zitzaizkion zitzaizkigun zitzaizkien litzaidake
+        litzaizuke litzaioke litzaiguke litzaieke
+        +dut +duzu +du +dugu +duzue +dute +ditut +dituzu +ditu +ditugu +dituzue +dituzte +nau +nauzu +naute +nauzue +gaitu
+        +gaituzu +gaituzte +gaituzue +zaitut +zaitu +zaitugu +zaituzte +zaituztet +zaituztegu +nuen +zenuen +zuen +genuen
+        +zenuten +zuten +nituen +zenituen +zituen +genituen +zenituzten +zituzten +ninduen +ninduzun +ninduten +gintuen
+        +gintuzun +gintuzten +zintudan +zintuen +zintugun +zintuzten
+        nuke zenuke luke genuke zenukete lukete nituzke zenituzke lituzke genituzke lituzkete nukeen zenukeen lukeen genukeen
+        luketen nituzkeen lituzkeen
+        =banu =bazenu =balu =bagenu =bazenute =balute =banitu =bazenitu =balitu =bagenitu =balituzte
+        dezaket dezakezu dezake dezakegu dezakezue dezakete ditzaket ditzakezu ditzake ditzakegu ditzakezue ditzakete nazake
+        nazakezu nazakete zaitzaket gaitzake gaitzakezu nezake zenezake lezake genezake zenezakete lezakete nitzake litzake
+        genitzake nezakeen zenezakeen zezakeen genezakeen zezaketen
+        =dezadan =dezazun =dezan =dezagun =dezazuen =dezaten =ditzadan =ditzazun =ditzan =ditzagun =ditzaten =dezadala
+        =dezazula =dezala =dezagula =dezatela =ditzala =ditzagula =ditzatela =nezan =zezan =genezan =zezaten =ezazu =ezazue
+        =itzazu =itzazue =ezak =ezan =beza =bitza =bezate =nazazu =nazazue =nazak =gaitzazu =gaitzazue
+        +dizut +dizu +dizugu +dizute +dizuet +dizue +dizuegu +dizuete +dit +didazu +didate +didazue +digu +diguzu +digute
+        +diguzue +diet +diezu +die +diegu +diezue +diete +dizkiot +dizkiozu +dizkio +dizkiogu +dizkiote +dizkit +dizkidazu
+        +dizkidate +dizkizut +dizkizu +dizkizute +dizkigu +dizkigute +dizkiet +dizkie +dizkiete nion zenion zion genion
+        zenioten nizun zizun genizun zizuten nizuen zizuen zidan zenidan zidaten zigun zenigun ziguten nien zenien zien genien
+        zieten nizkion zizkion zizkidan zizkigun zizkien nioke zenioke lioke genioke liokete nizuke lizuke lidake liguke lieke
+        diezaioket diezaiokezu diezaioke diezaiokegu diezaiokete diezazuket diezazuke diezadakezu diezadake diezaguke
+        diezaieket diezaieke
+        =iezaiozu =iezaiozue =iezadazu =iezadazue =iezaguzu =iezaguzue =iezaiezu =iezaiezue =iezaiok =diezaiodan
+        =diezaiozun =diezaion =diezaiogun =diezazudan =diezazuten =diezadazun =diezadan =diezagun =baliteke =balitzateke
+    """,
+    "egon": """
+        +nago +hago +dago +gaude +zaude +zaudete +daude +nengoen +hengoen +zegoen +geunden +zeunden +zeundeten +zeuden
+        nengoke zeundeke legoke geundeke leudeke =banengo =bazeunde =balego =bageunde =baleude =bego
+    """,
+    "joan": """
+        +noa +hoa +doa +goaz +zoaz +zoazte +doaz +nindoan +hindoan +zihoan +gindoazen +zindoazen +zindoazten +zihoazen
+        =goazen =bijoa
+    """,
+    "etorri": """
+        +nator +hator +dator +gatoz +zatoz +zatozte +datoz +nentorren +hentorren +zetorren +gentozen +zentozen +zentozten
+        +zetozen =betor
+    """,
+    "ibili": """
+        +nabil +habil +dabil +gabiltza +zabiltza +zabiltzate +dabiltza +nenbilen +henbilen +zebilen +genbiltzan
+        +zenbiltzan +zenbiltzaten +zebiltzan
+    """,
+    "jakin": """
+        +dakit +dakizu +daki +dakigu +dakizue +dakite +nekien +zenekien +zekien +genekien +zenekiten +zekiten
+        =baneki =bazeneki =baleki =bageneki
+    """,
+    "eduki": """
+        +daukat +daukazu +dauka +daukagu +daukazue +daukate +dauzkat +dauzkazu +dauzka +dauzkagu +dauzkazue +dauzkate +naukazu
+        +nauka +naukate +neukan +zeneukan +zeukan +geneukan +zeneukaten +zeukaten +neuzkan +zeneuzkan +zeuzkan +geneuzkan
+        +zeuzkaten
+    """,
+    # esan's own present and past (zer diozu? "what do you say?"), as the pack files them.
+    "esan": "diot diozu dio diogu diozue diote nioen zenioen zioen genioen zenioten zioten",
+    "ekarri": "dakart dakarzu dakar dakargu dakarzue dakarte dakartzat dakartza nekarren zekarren",
+    "eraman": "daramat daramazu darama daramagu daramazue daramate daramatzat daramatza neraman zeraman",
+    "erabili": "darabilt darabilzu darabil darabilgu darabilte nerabilen zerabilen",
+    "iruditu": "dirudi dirudite dirudizu dirudit dirudizue zirudien ziruditen",
+}
+# dena "everything, all" (guztia), with its case forms: a word of its own, though spelled as den, izan's relative, with -a.
+BASQUE_DENA = "dena denak denek denok denei denen denekin denentzat denetan denetarik denari denaren denarekin"
+# The pronouns' case forms the pack lacks or files under others (hark under hau, hori and hura; haren under hori; niri
+# under 22 verbs), and the possessive pronouns (nirea "mine").
+BASQUE_PRONOUNS = {
+    "hau": "hau honek honi honen honekin honentzat honetaz honetan honetara honetatik honetako honengatik hauek hauei hauen "
+           "hauekin hauentzat hauetan hauetara hauetatik hauetako hauengatik hauxe honexek honexetan hauexek honetarako",
+    "hori": "hori horrek horri horren horrekin horrentzat horretaz horretan horretara horretatik horretako horregatik horrengatik "
+            "horretarako horiek horiei horien horiekin horientzat horietan horietara horietatik horietako horiengatik horixe "
+            "horrexek horrexegatik horrexetan horiexek hoiek",
+    "hura": "hura hark hari haren harekin harentzat hartaz hartan hartara hartatik hartako harengatik haiek haiei haien haiekin "
+            "haientzat haietan haietara haietatik haietako haiengatik huraxe haiexek",
+    "hor": "hortik horko horra",
+    "hemen": "hemendik hemengo",
+    "han": "handik hango",
+    "ni": "niri nirea nireak nirearekin nireari nirearen nigana nigandik",
+    "bera": "beraiek beraien beraiekin beraiei beraientzat",
+    "zu": "zuri zurea zureak zurearekin zureari zurearen",
+    "gu": "guri gurea gureak gurearekin gureari gurearen",
+    "zuek": "zuei zuena zuenak zuetako",
+    "zer": "zerk zeri zertan zertaz zertarako zerekin zergatik",
+    "inor": "inork inori inoren inorekin inorentzat",
+    "norbait": "norbaitek norbaiti norbaiten norbaitekin norbaitentzat",
+    "zerbait": "zerbaitek zerbaiti zerbaiten zerbaitekin zerbaitetan zerbaitegatik",
+    "ezer": "ezerk ezeri ezeren ezertan ezertaz ezerekin ezergatik ezertarako",
+    "beste": "besterik bestea besteak besteek besteei besteen besteekin besteentzat besteari bestearen bestearekin",
+}
+# Case forms the packs give as words of their own that are their word's in text (batean "in one" of bat, aurrean
+# "in front" of aurre, mina "the pain" of min, guztiak "all" of guzti).
+BASQUE_FOLD = {
+    "batean": "bat", "aurrean": "aurre", "atzean": "atze", "azpian": "azpi", "azkenean": "azken", "guztietan": "guzti",
+    "guztiak": "guzti", "guztia": "guzti", "guztiok": "guzti", "batzuetan": "batzuk", "askotan": "asko", "aldean": "alde",
+    "gaurko": "gaur", "oraingo": "orain", "hildako": "hil", "jateko": "jan", "hartzeko": "hartu", "jota": "jo",
+    "ordainduko": "ordaindu", "mina": "min", "gozoa": "gozo", "gutxiago": "gutxi", "anderea": "andre", "hobea": "on",
+    "hobeak": "on", "beharko": "behar", "ezingo": "ezin", "jainkoarren": "jainko", "arraioa": "arraio", "edateko": "edan",
+    "komuna": "komun", "biharko": "bihar", "hiriko": "hiri", "kanpoko": "kanpo", "aldetik": "alde", "inora": "inor",
+    "nongo": "non", "aspaldiko": "aspaldi", "aspalditik": "aspaldi", "gehienak": "asko", "gehiagorik": "asko",
+    "betirako": "beti", "batzutan": "batzuk", "denoi": "dena",
+}
+# Common words of the subtitles no pack has (hain "so", ezta "nor", tira "come on", libre "free").
+BASQUE_WORDS = {
+    "hain": "adv", "hainbeste": "adv", "tira": "intj", "beno": "intj", "ezta": "conj", "behintzat": "adv", "dagoeneko": "adv",
+    "nahiago": "adv", "konforme": "adj", "libre": "adj", "parte": "noun", "isilik": "adv", "batere": "adv", "ordea": "conj",
+    "milesker": "intj", "espero": "noun", "kontra": "prep", "aritu": "verb", "hortaz": "conj", "ederto": "adv",
+    "egoki": "adj", "buruzko": "adj", "arraio": "intj", "benga": "intj", "hara": "adv", "arren": "conj", "posible": "adj",
+    "buelta": "noun", "bueltatu": "verb", "izorratu": "verb", "akabo": "intj", "behingoz": "adv", "lanpetuta": "adj",
+    "pena": "noun", "serio": "adj", "suposatu": "verb", "erokeria": "noun", "bururatu": "verb", "deika": "adv",
+    "ziurrenik": "adv", "goxo": "adj", "itzel": "adj", "zeozer": "pron", "trago": "noun", "zeharo": "adv", "traba": "noun",
+    "lehengo": "adj", "inola": "adv", "nolatan": "adv", "seguruenik": "adv", "txikitu": "verb", "txorakeria": "noun",
+    "moldatu": "verb", "geldiarazi": "verb", "ikaratu": "verb", "berreskuratu": "verb", "luzaroan": "adv",
+    "zeharkatu": "verb", "kontxo": "intj", "inportante": "adj", "hainbat": "det", "zenbait": "det", "akats": "noun",
+    "bahitu": "verb", "horrenbeste": "adv",
+}
+# Forms that stay with a second word as well: zuen is ukan's past and zuek's genitive "your"; zuri "to you" and "white",
+# hari "to him" and "thread".
+BASQUE_SHARED = {"zuen": ["izan", "zuek"], "zuri": ["zu", "zuri"], "hari": ["hura", "hari"]}
+# The relative of izan's present in -a is in -en (da: den, dela; dira: diren, direla).
+BASQUE_IZAN_A = {"da", "dira", "gara", "zara"}
+# What a relative form (dudan, den) takes as a noun or adverb would: dudana, dudanean "when I have", dudanik.
+BASQUE_RELATIVE_ENDINGS = ("", "ean", "ik", "a", "ak", "ek", "ei", "ari", "aren", "arekin", "etik", "ez", "etan", "entzat")
+
+
+def basque_subordinate(form, verb):
+    """A finite verb form's relative (-n) and complement (-la, -lako) forms, with the endings a relative form takes."""
+    if form.endswith("n"):
+        pairs = [(form, form[:-1] + "la")]
+    elif form.endswith("t"):
+        pairs = [(form[:-1] + "dan", form[:-1] + "dala")]
+    elif form.endswith(("z", "l")):
+        pairs = [(form + "en", form + "ela")]
+    elif form.endswith("r"):
+        pairs = [(form + "ren", form + "rela")]
+    elif form.endswith("a"):
+        pairs = [(form[:-1] + "en", form[:-1] + "ela")] if verb == "izan" and form in BASQUE_IZAN_A else [(form + "n", form + "la")]
+    elif form[-1] in "eiou":
+        # dute: duten, du: duen; dago: dagoen, zaio: zaion; daki: dakien. Both are made; text has the right one.
+        pairs = [(form + "n", form + "la"), (form + "en", form + "ela")]
+    else:
+        return []
+    made = []
+    for relative, complement in pairs:
+        made += [relative + ending for ending in BASQUE_RELATIVE_ENDINGS] + [complement, complement + "ko"]
+    return made
+
+
+def basque_verb_table():
+    """Each form of BASQUE_VERBS with the verb it goes to, the made forms after the ones given (which win)."""
+    given, made = {}, {}
+    for verb, text in BASQUE_VERBS.items():
+        for item in text.split():
+            form = item.lstrip("+=")
+            given.setdefault(form, verb)
+            if item.startswith("="):
+                continue
+            if item.startswith("+"):
+                made.setdefault("ba" + form, verb)
+            for variant in basque_subordinate(form, verb):
+                made.setdefault(variant, verb)
+    dena = set(BASQUE_DENA.split())
+    return {form: verb for form, verb in {**made, **given}.items() if form not in dena}
+
+
+# Case endings after a stem, as -a nouns (neska), other vowel stems (etxe) and consonant stems (gizon) take them.
+BASQUE_A_ENDINGS = ("", "k", "ri", "ren", "rekin", "rentzat", "z", "rengatik", "n", "ra", "tik", "ko", "raino", "rantz", "rako",
+                    "rik", "tan", "tara", "tatik", "tako", "tzat", "koa", "koak")
+BASQUE_A_PLURAL = ("ak", "ek", "ei", "en", "ekin", "entzat", "ez", "engatik", "etan", "etara", "etatik", "etako", "ok")
+BASQUE_VOWEL_ENDINGS = ("a", "ak", "ari", "aren", "arekin", "arentzat", "az", "agatik", "arengatik", "an", "ra", "tik", "ko",
+                        "raino", "rantz", "rako", "ek", "ei", "en", "ekin", "entzat", "ez", "engatik", "etan", "etara", "etatik",
+                        "etako", "ok", "rik", "tan", "tara", "tatik", "tako", "tzat", "z", "ri", "ren", "rekin", "koa", "koak")
+BASQUE_CONSONANT_ENDINGS = ("a", "ak", "ari", "aren", "arekin", "arentzat", "az", "agatik", "arengatik", "ean", "era", "etik",
+                            "eko", "eraino", "erantz", "erako", "ek", "ei", "en", "ekin", "entzat", "ez", "engatik", "etan",
+                            "etara", "etatik", "etako", "ok", "ik", "tzat", "ekoa", "ekoak")
+BASQUE_GRADED = ("ago", "agoa", "agoak", "egi", "egia", "egiak", "ena", "enak")
+# A verb's imperfective (aldatzen), verbal noun (aldatze) with its cases, future, and participle forms.
+BASQUE_NOUN_ENDINGS = ("", "n", "a", "ak", "ko", "ra", "an", "rik", "az", "ari", "aren", "arekin", "agatik")
+
+
+def basque_inflections(word, kinds):
+    """The regular forms of a Basque noun, adjective or verb, made from its citation form (etxe, polit, aldatu)."""
+    made = set()
+    if kinds & {"noun", "adj"} and len(word) > 1:
+        if word.endswith("a"):
+            made.update(word + e for e in BASQUE_A_ENDINGS)
+            made.update(word[:-1] + e for e in BASQUE_A_PLURAL)
+            stems = [word]
+        elif word[-1] in "eiou":
+            made.update(word + e for e in BASQUE_VOWEL_ENDINGS)
+            stems = [word]
+        else:
+            # A stem in -r doubles it before a vowel (lur: lurra), though some do not (ur: ura): both are made.
+            stems = [word] + ([word + "r"] if word.endswith("r") else [])
+            for stem in stems:
+                made.update(stem + e for e in BASQUE_CONSONANT_ENDINGS)
+            made.update((word + "rik", word + "z"))
+        if "adj" in kinds:
+            for stem in stems:
+                made.update(stem + e for e in BASQUE_GRADED)
+    if "verb" in kinds and len(word) > 2:
+        if word.endswith(("tu", "du")) and len(word) > 3:
+            radical, nouns = word[:-2], [word[:-2] + ("te" if word[:-2].endswith(("s", "z", "x")) else "tze")]
+        elif word.endswith("n"):
+            radical, nouns = word, [word[:-1] + "te"]
+        elif word.endswith(("tsi", "tzi")):
+            radical, nouns = word[:-1], [word[:-3] + ("s" if word.endswith("tsi") else "z") + "te"]
+        elif word.endswith("i") and word[-2] in "rl":
+            # jarri: jar, jartzen; ekarri: ekar; erabili: erabil.
+            radical = word[:-2] if word.endswith("rri") else word[:-1]
+            nouns = [radical + "tze"]
+        elif word.endswith("i") and word[-2] in "szx":
+            radical, nouns = word[:-1], [word[:-1] + "te", word + "tze"]
+        else:
+            radical, nouns = word, [word + "tze"]
+        made.add(radical)
+        # The imperative with a dative (emaidazu "give me", utziozu "leave him", barkaidazu "forgive me").
+        stem = word[:-1] + "i" if word.endswith("n") else word if word.endswith("i") else radical + "i"
+        made.update(stem + e for e in ("dazu", "dazue", "ozu", "ozue", "guzu", "guzue", "ezu", "ezue"))
+        for noun in nouns:
+            made.update(noun + e for e in BASQUE_NOUN_ENDINGS)
+        made.update(word + e for e in (("go", "da", "ik", "dako", "a", "ak", "dakoa", "ez") if word.endswith("n")
+                                       else ("ko", "da", "ik", "dako", "a", "ak", "dakoa", "ez") if word.endswith("l")
+                                       else ("ko", "ta", "rik", "tako", "a", "ak", "z", "takoa")))
+    made.discard(word)
+    return made
+
+
+def basque_relink(db, pos, lemmas, common):
+    """Cuts the pack's links from words with senses of their own, adds the other packs' words, and the made forms."""
+    verbs = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos = 'verb'")}
+    pronouns = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('pron', 'det')")}
+    for word, p, senses in db.execute("SELECT word_lc, pos, senses FROM entries"):
+        p = "prep" if p == "postp" else p
+        if p in WORD_POS and any(not BASQUE_FORM_GLOSS.match(g) for s in json.loads(senses) for g in s.get("glosses", []) or [""]):
+            BASQUE_OWN.add(word)
+            # Its spelling stays a verb's radical (har of hartu, zabal of zabaldu), which the counts settle; its forms
+            # stay its own (BASQUE_OWN in targets_of).
+            if word in lemmas:
+                lemmas[word] = [lemma for lemma in lemmas[word] if lemma == word or lemma in verbs and basque_radical(lemma) == word]
+    # The pronouns' case forms are in every verb's tables too (niri under egon, esan and 20 others): they are the pronoun's.
+    for form, of in lemmas.items():
+        if set(of) & pronouns and set(of) & verbs:
+            lemmas[form] = [lemma for lemma in of if lemma not in verbs]
+    for word, p in BASQUE_WORDS.items():
+        pos[word].add(p)
+        common.setdefault(word, word)
+    known = set(pos) | {form for form, of in lemmas.items() if of}
+    # The kinds the other packs give a word, for the forms made for it (seguru, an adverb to the English pack, is an adjective).
+    kinds_of = defaultdict(set)
+    for name in BASQUE_PACKS:
+        path = os.path.join(DICTIONARIES, f"{name}.sqlite")
+        if not os.path.exists(path):
+            continue
+        other = sqlite3.connect(path)
+        for word, word_lc, p in other.execute("SELECT word, word_lc, pos FROM entries"):
+            p = "prep" if p == "postp" else p
+            if p not in WORD_POS or word != word_lc or not is_wordlike(word_lc) or len(word_lc) < 2:
+                continue
+            kinds_of[word_lc].add(p)
+            # A noun or adjective the English pack has only as a verb's radical (zati of zatitu) is a word, as zabal is.
+            radical = word_lc not in pos and p in ("noun", "adj") and lemmas.get(word_lc) and all(
+                l in verbs and basque_radical(l) == word_lc for l in lemmas[word_lc])
+            if radical:
+                BASQUE_OWN.add(word_lc)
+            elif word_lc in known and word_lc not in BASQUE_ADDED:
+                continue
+            BASQUE_ADDED.add(word_lc)
+            pos[word_lc].add(p)
+            common.setdefault(word_lc, word_lc)
+        other.close()
+    # The made forms go to their words where no pack has the spelling.
+    for word, kinds in list(pos.items()):
+        kinds = kinds | kinds_of.get(word, set())
+        if word not in common or not kinds & {"noun", "adj", "verb"}:
+            continue
+        for form in basque_inflections(word, kinds):
+            if form not in known and form not in pos and word not in lemmas[form]:
+                lemmas[form].append(word)
+    pos["dena"].add("pron")
+    common.setdefault("dena", "dena")
+    overrides = OVERRIDES.setdefault("eu", {})
+    for form in BASQUE_DENA.split():
+        overrides.setdefault(form, ["dena"])
+    for form, verb in basque_verb_table().items():
+        overrides.setdefault(form, BASQUE_SHARED.get(form, [verb]))
+    for word, text in BASQUE_PRONOUNS.items():
+        for form in text.split():
+            overrides.setdefault(form, BASQUE_SHARED.get(form, [word]))
+    for form, word in BASQUE_FOLD.items():
+        BASQUE_OWN.discard(form)
+        overrides.setdefault(form, [word])
+    for word in BASQUE_WORDS:
+        overrides.setdefault(word, [word])
+
+
+# The words basque_relink added from BASQUE_PACKS, and the English pack's words with a sense of their own.
+BASQUE_ADDED = set()
+BASQUE_OWN = set()
+
+
+def basque_radical(verb):
+    """A verb's radical, the form its imperative and potential are made with (alda of aldatu, ikus of ikusi), or None."""
+    if verb.endswith(("tu", "du")) and len(verb) > 4:
+        return verb[:-2]
+    if verb.endswith("rri") and len(verb) > 4:
+        return verb[:-2]
+    if verb.endswith("i") and len(verb) > 3 and verb[-2] in "rlszx":
+        return verb[:-1]
+    return None
+
+
 # An infinitive of no pack is a verb when its future and imperative forms are this common beside it.
 LITHUANIAN_FINITE_SHARE = 0.02
 # And, when the news do not write it, when it is this common itself (a share of all words): stray pieces of text written
@@ -3947,6 +4278,9 @@ def load_dictionary(language):
         # Hindi's postpositions (का, को, से, ने) are its prepositions, and Mongolian's (тухай, хооронд, төлөө).
         if language in ("hi", "mn") and p == "postp":
             p = "prep"
+        # And Basque's (ondoren, aurka, gabe).
+        if language == "eu" and p == "postp":
+            p = "prep"
         if language == "hy" and p in WORD_POS | ARMENIAN_POS:
             for gloss in (g for s in json.loads(senses) for g in s.get("glosses", [])):
                 form_of = ARMENIAN_FORM_GLOSS.match(gloss)
@@ -4096,6 +4430,8 @@ def load_dictionary(language):
 
         for form_lc, of in lemmas.items():
             lemmas[form_lc] = [lemma for lemma in of if macedonian_form_of(form_lc, lemma)]
+    if language == "eu":
+        basque_relink(db, pos, lemmas, common)
     if language == "lt":
         lithuanian_more_packs(pos, lemmas, common)
         # A verbal noun is no form of its verb (gydymas, gydymo of gydyti; pirkimo of pirkti; planavimo of planuoti), as the
@@ -6151,6 +6487,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 # A Latin verb keeps its forms though its spelling goes, by rule or by hand, to another word (LATIN_VERBS):
                 # ire is eo's, not is's; visitavit visito's and considerabat considero's, not viso's and consido's.
                 if language == "la" and word in LATIN_VERBS:
+                    onward = None
+                # And a Basque word with a sense of its own (zabala of zabal "wide", whose spelling may go to zabaldu).
+                if language == "eu" and word in BASQUE_OWN:
                     onward = None
                 # So does an Irish verb (chuir, cuireann of cuir, though cuir is also cur's genitive; d'fhan of fan).
                 if language == "ga" and word in IRISH_VERBS:
