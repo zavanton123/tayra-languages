@@ -2181,6 +2181,37 @@ def breton_apostrophe(text):
     return text.replace("\u02bc", "'").replace("\u2019", "'")
 
 
+# The initial mutations, as (written, radical): soft, spirant, hard and mixed. The pack files a mutated spelling under any word
+# it may come from (viz under biz, not miz; vont under pont) and words of their own under words they look like mutated (du
+# "black" under tu, forzh under porzh, ker "dear" under ger).
+BRETON_MUTATIONS = (("c'h", "g"), ("c'h", "k"), ("kw", "gw"), ("w", "gw"), ("g", "k"), ("d", "t"), ("b", "p"), ("v", "b"),
+                    ("v", "m"), ("z", "d"), ("z", "t"), ("f", "p"), ("p", "b"), ("t", "d"), ("k", "g"))
+# Each word's glosses: a word spelled as another's mutation with a gloss of that word's (gelaouenn of kelaouenn) is its form.
+BRETON_GLOSSES = defaultdict(set)
+
+
+# A short word written onto the next with an apostrophe (d'ar, n'eo, m'en, p'edo; ma'z, pa'z), which the reader keeps whole:
+# the form is the first word's, and adds to the other.
+BRETON_ELIDED = {"d": "da", "n": "ne", "m": "ma", "p": "pa"}
+BRETON_ELIDED_EZ = {"ma'z": "ma", "pa'z": "pa", "ne'z": "ne"}
+
+
+def breton_elided(form):
+    """The two words an elided Breton form is ((da, ar) for d'ar, (ma, ez) for ma'z), or None."""
+    if form in BRETON_ELIDED_EZ:
+        return BRETON_ELIDED_EZ[form], "ez"
+    first, apostrophe, rest = form.partition("'")
+    if apostrophe and first in BRETON_ELIDED and rest[:1].isalpha():
+        return BRETON_ELIDED[first], rest
+    return None
+
+
+def breton_unmutated(form):
+    """The spellings a form may be of a word with an initial mutation: viz of miz or biz, c'hoar of goar, wech of gwech."""
+    return {radical + form[len(written):] for written, radical in BRETON_MUTATIONS
+            if form.startswith(written) and len(form) > len(written)} - {form}
+
+
 def welsh_unmutated(form):
     """The spellings a form may be of a word with an initial mutation: ddefnyddio of defnyddio, wlad of gwlad, hysgol of ysgol."""
     out = {radical + form[len(written):] for written, radical in WELSH_MUTATIONS if form.startswith(written) and len(form) > len(written)}
@@ -3710,6 +3741,8 @@ def load_dictionary(language):
             word, word_lc = lithuanian_unaccented(word), lithuanian_unaccented(word_lc)
         if language == "br":
             word, word_lc = breton_apostrophe(word), breton_apostrophe(word_lc)
+            if p in WORD_POS and word == word_lc:
+                BRETON_GLOSSES[word_lc].update(g.strip(" .").lower() for s in json.loads(senses) for g in s.get("glosses", []))
         if language == "la" and p == "verb" and any("participle" not in s.get("tags", []) for s in json.loads(senses)):
             LATIN_VERBS.add(word_lc)
         if language == "tl" and p in WORD_POS:
@@ -5844,6 +5877,62 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 if found:
                     lemmas[form] = [max(found, key=count)]
 
+    def breton_relink():
+        """
+        Mends the Breton pack's links before they are followed. A short word written onto the next (d'ar, n'eo, ma'z), which
+        the reader keeps whole, is the first word's form and adds to the other. A word of its own spelled as another word
+        mutated is that word's form if the two share a gloss, and else keeps none of its links to it (du "black" is no form of
+        tu, nor ker "dear" of ger); a name keeps none at all (Breizh, not of preizh). A spelling that is no word and that the
+        pack files under a word it may be a mutation of stays with the other words it is filed under (zo of bezañ, not of to;
+        ganet of genel, not of kanet), or else goes to the commonest word or form it may be a mutation of (viz to miz, not biz;
+        vont to mont, not pont). One filed only under spellings that are no words goes to their words (voe of boe, of bezañ;
+        dud of tud, of den), and one the pack has not at all, of four letters or more, to the commonest word or form it may be
+        a mutation of.
+        """
+        def words_of(spelling):
+            return [spelling] if is_word(spelling) else [l for l in dict.fromkeys(lemmas.get(spelling, [])) if is_word(l)]
+
+        for form in [f for f in freq if "'" in f.replace("c'h", "")]:
+            elided = breton_elided(form)
+            if elided and form not in pos and form not in overrides and form not in excluded:
+                first, rest = elided
+                freq[rest] += freq[form]
+                lemmas[form] = [first]
+
+        for form in list(lemmas):
+            if form in overrides or form in excluded:
+                continue
+            radicals = breton_unmutated(form)
+            known = [l for l in dict.fromkeys(lemmas[form]) if l != form]
+            if is_word(form):
+                same = [l for l in known if l in radicals and is_word(l) and BRETON_GLOSSES[form] & BRETON_GLOSSES[l]]
+                if same:
+                    common.pop(form, None)
+                    lemmas[form] = same
+                    for l in same:
+                        lemmas[l] = [x for x in lemmas.get(l, []) if x != form]
+                else:
+                    lemmas[form] = [l for l in known if l not in radicals]
+                continue
+            if "name" in pos.get(form, ()):
+                lemmas[form] = []
+                continue
+            if radicals & set(known):
+                others = [l for l in known if l not in radicals and is_word(l)]
+                found = [r for r in radicals if words_of(r)]
+                if others:
+                    lemmas[form] = list(dict.fromkeys(others))
+                elif found:
+                    lemmas[form] = words_of(max(found, key=lambda r: (count(r), r)))
+            elif known and not any(is_word(l) for l in known):
+                lemmas[form] = list(dict.fromkeys(w for l in known for w in words_of(l))) or known
+        for form in list(freq):
+            if (form not in pos and not lemmas.get(form) and form not in overrides and form not in excluded and len(form) > 3
+                    and "'" not in form.replace("c'h", "")):
+                found = [r for r in breton_unmutated(form) if words_of(r)]
+                if found:
+                    lemmas[form] = words_of(max(found, key=lambda r: (count(r), r)))
+
     def hindi_relink():
         """
         A Hindi form the pack lacks is its verb's if it is an imperative in -ो; else the word simplemma gives (जाती of जाना) where the pack has that word or form; else, as
@@ -5928,6 +6017,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         irish_relink()
     if language == "cy":
         welsh_relink()
+    if language == "br":
+        breton_relink()
     if language == "hi":
         hindi_relink()
 
