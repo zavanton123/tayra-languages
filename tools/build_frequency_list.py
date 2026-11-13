@@ -3528,7 +3528,12 @@ def strip_templates(text):
     return "".join(out)
 
 
-def wikipedia_counts(language, limit):
+def wikipedia_counts(language, limit, separated=None):
+    """
+    The counts of the words of a language's Wikipedia articles, the [limit] commonest; with [separated], a dict, that counts
+    besides how often each was written with a zero-width space before or after it, as Khmer's are where an editor separated
+    its words.
+    """
     wiki = WIKIPEDIAS.get(language, language)
     name = f"wikipedia-{wiki}.xml.bz2"
     path = download(f"https://dumps.wikimedia.org/{wiki}wiki/latest/{wiki}wiki-latest-pages-articles.xml.bz2", name)
@@ -3567,11 +3572,18 @@ def wikipedia_counts(language, limit):
                     text = WIKI_LINK.sub(r"\1", text)
                     if language in WIKI_JOINED:
                         text = WIKI_JOINED[language].sub("", text)
-                    for word in WIKI_WORD.findall(text):
-                        counts[lower(language, word)] += 1
-                        if language == "kw":
-                            CORNISH_COUNT[normalise(language, lower(language, word))] += 1
-                            CORNISH_LOWER[normalise(language, word)] += word == lower(language, word)
+                    if separated is None:
+                        for word in WIKI_WORD.findall(text):
+                            counts[lower(language, word)] += 1
+                            if language == "kw":
+                                CORNISH_COUNT[normalise(language, lower(language, word))] += 1
+                                CORNISH_LOWER[normalise(language, word)] += word == lower(language, word)
+                        continue
+                    for match in WIKI_WORD.finditer(text):
+                        word = lower(language, match.group(0))
+                        counts[word] += 1
+                        if text[match.start() - 1:match.start()] == ZWSP or text[match.end():match.end() + 1] == ZWSP:
+                            separated[word] += 1
     top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
     return dict(top), f"{wiki}.wikipedia.org articles"
 
@@ -4918,6 +4930,40 @@ def lao_lexicon():
     pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms")}
     own = {l.strip() for l in open(LAO_LEXICON, encoding="utf-8") if l.strip() and not l.startswith("#")}
     return {lao_normalise(w) for w in pack | own if w and " " not in w}
+# As KhmerParser has them: the reader's Khmer letters (its word characters, ក-៹, but the punctuation U+17D4–U+17DB, ៗ among
+# it, and the digits), the coeng, after which no word ends, and the zero-width space Khmer text may separate its words with.
+KHMER_RUN = re.compile("[\u1780-\u17d3\u17dc\u17dd]+")
+KHMER_COENG = "\u17d2"
+ZWSP = "\u200b"
+
+
+def khmer_break(run, at):
+    """Whether a Khmer word may end before [at] in [run] (KhmerParser.canBreak): not before a sign, nor after a coeng."""
+    return at <= 0 or at >= len(run) or not ("\u17b6" <= run[at] <= "\u17d3" or run[at] == "\u17dd") and run[at - 1] != KHMER_COENG
+
+
+def khmer_fold(text):
+    """Khmer as the reader matches it (KhmerParser.fold): subscript ដ written as the subscript ត it looks like."""
+    return text.replace("\u17d2\u178a", "\u17d2\u178f")
+
+
+def khmer_word(word, words):
+    """Whether the reader reads [word] as a word of the folded lexicon [words] (KhmerParser.matches): a consonant alone is none."""
+    return not (len(word) == 1 and "\u1780" <= word <= "\u17a2") and word in words
+
+
+def khmer_spellings(word):
+    """[word] with each subscript ត or ដ written either way, as the reader finds it in the lexicon (KhmerParser.spellings)."""
+    out = [""]
+    i, folded = 0, khmer_fold(word)
+    while i < len(folded):
+        if folded.startswith("\u17d2\u178f", i):
+            out = [o + v for o in out for v in ("\u17d2\u178f", "\u17d2\u178a")]
+            i += 2
+        else:
+            out = [o + folded[i] for o in out]
+            i += 1
+    return list(dict.fromkeys([word] + out))
 
 
 def segmenter(language, words=None, ranks=None):
@@ -4930,8 +4976,13 @@ def segmenter(language, words=None, ranks=None):
         words = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
     longest = min(16, max((len(w) for w in words), default=1))
     join = language in JOIN_UNKNOWN
-    can_break = thai_break if language == "th" else lao_break if language == "lo" else lambda run, at: True
+    can_break = thai_break if language == "th" else lao_break if language == "lo" else khmer_break if language == "km" else lambda run, at: True
     is_word = (lambda word: thai_word(word, words)) if language == "th" else (lambda word: lao_word(word, words)) if language == "lo" else words.__contains__
+    if language == "km":
+        # Khmer is cut folded (khmer_fold), the runs as the lexicon.
+        words = {khmer_fold(w) for w in words}
+        is_word = lambda word: khmer_word(word, words)
+        longest = min(16, max((len(w) for w in words), default=1))
 
     def likeliest(run):
         """
@@ -5015,6 +5066,8 @@ def build(language, source, size):
         return build_greek(size)
     if language == "lo":
         return build_lao(size)
+    if language == "km":
+        return build_khmer(size)
     order = [source] if source else SOURCE_ORDER.get(language, ["wordfreq", "frequencywords", "leipzig", "wikipedia"])
     found = []
     for name in order:
@@ -5160,6 +5213,74 @@ def lao_list(counts, noise, size, label):
     for word in ranked:
         lines.append(word + "\t" + " ".join(sorted(forms[word], key=lambda f: (f != word, -counts[f], f))))
     return "\n".join(lines) + "\n"
+
+
+# A run of Khmer letters Wikipedia's editors wrote with a zero-width space before or after it this often is a word to the
+# list's cut, where the pack lacks it and its words do not make it up (កម្រិត, ចម្រើន, កណ្តាល): without it, its beginning,
+# a word of the pack (កម "scabies", ចម "summit"), would be counted.
+KHMER_SEPARATED_MIN = 5
+
+
+def build_khmer(size):
+    """
+    The Khmer list, from its Wikipedia: each run of letters cut as KhmerParser cuts it (never inside a syllable, subscript ដ
+    as ត), by the words of the km-en pack and those the articles separate with zero-width spaces (KHMER_SEPARATED_MIN). A
+    word is counted in each of its spellings, and listed in the commoner one the pack has, with the other as its form.
+    """
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "km-en.sqlite"))
+    pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
+    separated = defaultdict(int)
+    found = wikipedia_counts("km", 10 ** 9, separated)
+    if not found:
+        sys.exit("No frequency source has km")
+    chunks, label = found
+    known = {khmer_fold(w) for w in pack}
+    by_pack = segmenter("km", pack)
+    runs = defaultdict(int)
+    alone = defaultdict(int)
+    for chunk, n in chunks.items():
+        for match in KHMER_RUN.finditer(chunk):
+            runs[match.group(0)] += n
+            if match.group(0) == chunk:
+                alone[chunk] += separated.get(chunk, 0)
+    extra = set()
+    for run, n in alone.items():
+        folded = khmer_fold(run)
+        if n < KHMER_SEPARATED_MIN or len(run) > 16 or folded in known or "\u17b6" <= run[0] <= "\u17dd":
+            continue
+        pieces = by_pack(folded)
+        if len(pieces) == 1 or any(not khmer_word(p, known) for p in pieces):
+            extra.add(folded)
+    segment = segmenter("km", known | extra)
+    spelled = defaultdict(int)
+    for run, n in runs.items():
+        at = 0
+        for piece in segment(khmer_fold(run)):
+            spelled[run[at:at + len(piece)]] += n
+            at += len(piece)
+    # Each word in the spelling the pack has, the commoner in the articles where it has both.
+    total, best = defaultdict(int), {}
+    for word, n in spelled.items():
+        total[khmer_fold(word)] += n
+    for word, n in sorted(spelled.items(), key=lambda kv: -kv[1]):
+        key = khmer_fold(word)
+        if key not in best or best[key] not in pack and word in pack:
+            best[key] = word
+    for key in list(best):
+        if best[key] not in pack:
+            best[key] = next((s for s in khmer_spellings(best[key]) if s in pack), best[key])
+    counts = {best[key]: n for key, n in total.items()}
+    text, label = build_list("km", [("wikipedia", counts, label)], size)
+    lines = []
+    for line in text.splitlines(keepends=True):
+        if line.startswith("#") or not line.strip():
+            lines.append(line)
+            continue
+        word, _, forms = line.rstrip("\n").partition("\t")
+        forms = [f for f in forms.split(" ") if f]
+        forms += [s for f in list(forms) for s in khmer_spellings(f) if s not in forms]
+        lines.append(f"{word}\t{' '.join(dict.fromkeys(forms))}\n")
+    return "".join(lines), label
 
 
 # The reader cuts a Korean word by how common its pieces are, as the list it ships with ranks them, so

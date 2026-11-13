@@ -254,6 +254,9 @@ def fold(code, word):
     # Armenian և is matched as the one letter where a text writes it as two (նաեւ), as the reader matches it.
     if code == "hy":
         return word.replace("եւ", "և")
+    # Khmer subscript ដ is matched as the ត it looks like (សប្ដាហ៍ as សប្តាហ៍), as the reader matches it.
+    if code == "km":
+        return word.replace("\u17d2\u178a", "\u17d2\u178f")
     return word
 
 
@@ -428,6 +431,34 @@ def lao_spans(text):
         at = match.start()
         for word in reader["segment"](match.group(0)):
             out.append((word, at, at + len(word)))
+    return out
+
+
+_khmer = {}
+
+
+def khmer_spans(text):
+    """
+    The Khmer words of [text] as the reader cuts them (KhmerParser) with the km-en pack installed, with where each starts and
+    ends: each run of letters into the longest words of the shipped list's words and forms and the pack's, never inside a
+    syllable, a consonant alone no word, letters no word covers one word together, subscript ដ matched as ត. ។ ៕ ៖ ៗ, the
+    digits and anything not Khmer are no words.
+    """
+    if not _khmer:
+        import sqlite3
+        import build_frequency_list as fl
+        words, _ = fl.list_ranks(open(os.path.join(LISTS, "km.tsv"), encoding="utf-8").read())
+        path = os.path.join(ROOT, "dictionaries", "km-en.sqlite")
+        if not os.path.exists(path):
+            sys.exit(f"Khmer courses need the km-en pack at {path}")
+        db = sqlite3.connect(path)
+        pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms")}
+        _khmer.update(run=fl.KHMER_RUN, fold=fl.khmer_fold, segment=fl.segmenter("km", {w for w in words | pack if w and " " not in w}))
+    out = []
+    for match in _khmer["run"].finditer(text):
+        run, at = match.group(0), match.start()
+        for word in _khmer["segment"](_khmer["fold"](run)):
+            out.append((text[at:at + len(word)], at, at + len(word)))
             at += len(word)
     return out
 
@@ -592,6 +623,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return [word for word, _, _ in thai_spans(text)]
     if code == "lo":
         return [word for word, _, _ in lao_spans(text)]
+    if code == "km":
+        return [word for word, _, _ in khmer_spans(text)]
     if code == "ja":
         return japanese_tokens(text, ranks)
     if code == "zh":
@@ -2521,7 +2554,7 @@ QUESTION_HEADERS = {
         "Questions :", "Ceisteanna:", "Ceistean:", "שאלות:", "सवाल:", "Kérdések:", "Հարցեր\u2024", "Հարցեր։",
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
-        "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
+        "Frågor:", "คำถาม:", "សំណួរ៖", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:",
     )
@@ -2774,8 +2807,8 @@ def check(path, brief=False):
     # So is a Galician one (A Coruña, Santiago de Compostela, O Porriño).
     if code == "gl":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
-    # Chinese writes no spaces, so every name is matched whole, the longest first; and so do Thai and Lao.
-    if code in ("zh", "ja", "th"):
+    # Chinese writes no spaces, so every name is matched whole, the longest first; and so do Thai, Lao and Khmer.
+    if code in ("zh", "ja", "th", "km"):
         long_names = sorted(course.get("names", []), key=len, reverse=True)
     # Vietnamese names are made of syllables that are words too (Mai, "tomorrow"; Hà Nội): a name counts where it is
     # written as listed, with its capital, whole, and the same syllable in lower case is the word.
@@ -2865,7 +2898,7 @@ def check(path, brief=False):
     report = []
     # Where each new word is taught, by its forms: a Chinese lesson must not use a word a later lesson teaches.
     taught_in = {}
-    if code in ("zh", "ja", "ko", "th", "lo"):
+    if code in ("zh", "ja", "ko", "th", "lo", "km"):
         for j, later in enumerate(course["lessons"], start=1):
             for new in later.get("newWords", []):
                 key = fold(code, new.lower())
@@ -2875,10 +2908,10 @@ def check(path, brief=False):
     for i, lesson in enumerate(course["lessons"], start=1):
         text = lesson["text"]
         whole_names = 0
-        # The reader knows no names: a Thai name must start and end where the reader's words do, or it runs into the words around it.
+        # The reader knows no names: a Thai or Khmer name must start and end where the reader's words do, or it runs into the words around it.
         run_on = []
-        if code == "th":
-            edges = {at for _, start, end in thai_spans(text) for at in (start, end)}
+        if code in ("th", "km"):
+            edges = {at for _, start, end in (thai_spans(text) if code == "th" else khmer_spans(text)) for at in (start, end)}
             run_on = sorted({name for name in long_names for found in re.finditer(re.escape(name), text)
                              if found.start() not in edges or found.end() not in edges})
         # The reader reads Lao in today's spelling, and so does the checker; a name is matched as the reader cuts as Thai's is.
@@ -3023,6 +3056,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Câu hỏi:", "", text)
         if code == "lo":
             text = re.sub(r"(?m)^ຄຳຖາມ:", "", text)
+        if code == "km":
+            text = re.sub(r"(?m)^សំណួរ៖", "", text)
         if code == "fa":
             text = re.sub("(?m)^پرسش\u200cها:", "", text)
         if code == "tok":

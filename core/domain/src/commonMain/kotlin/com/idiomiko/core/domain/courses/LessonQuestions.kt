@@ -20,7 +20,7 @@ object LessonQuestions {
         "Questions :", "Ceisteanna:", "Ceistean:", "שאלות:", "सवाल:", "Kérdések:", "Հարցեր․", "Հարցեր։",
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
-        "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
+        "Frågor:", "คำถาม:", "សំណួរ៖", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:",
     ).mapTo(HashSet()) { normalized(it) }
