@@ -2025,7 +2025,7 @@ QUESTION_HEADERS = {
         "Questions :", "Ceisteanna:", "Ceistean:", "שאלות:", "सवाल:", "Kérdések:", "Հարցեր\u2024", "Հարցեր։",
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
-        "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：",
+        "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
     )
 }
 
@@ -2168,6 +2168,28 @@ def simplified_characters(text):
             if key and key not in values.split(" ") and key not in HONG_KONG_FORMS:
                 _simplified_only.add(key)
     return sorted(set(NAMED_CHARACTER.sub("", text)) & _simplified_only)
+
+
+# Toki Pona writes its sentences in lowercase: a capital marks a name, an adjective after its head noun (jan Sonja,
+# ma Kanata, toki Inli), shaped as Toki Pona words: syllables of a consonant and a vowel with an optional final n, the
+# first without a consonant if it likes, and no ji, ti, wo, wu or n before n or m.
+TOK_NAME = re.compile(r"(?!.*(?:ji|ti|wo|wu|nn|nm))[jklmnpstw]?[aeiou]n?(?:[jklmnpstw][aeiou]n?)*")
+
+
+def toki_pona_words(toks, ranks):
+    """The words of a Toki Pona text with each name as a name, and what is wrong with its capitals."""
+    problems, out = [], []
+    for t in toks:
+        if not t[:1].isupper():
+            out.append(t)
+        elif t.lower() in ranks:
+            problems.append(f"'{t}' is a word of the list written with a capital: only names take one")
+            out.append(t)
+        else:
+            if not TOK_NAME.fullmatch(t.lower()):
+                problems.append(f"the name '{t}' is not shaped as a Toki Pona word: write its Toki Pona form")
+            out.append("\u0000name")
+    return sorted(set(problems), key=problems.index), out
 
 
 def courses_in(folder):
@@ -2433,11 +2455,15 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "fa":
             text = re.sub("(?m)^پرسش\u200cها:", "", text)
+        if code == "tok":
+            text = re.sub(r"(?m)^wile sona:", "", text)
         if code == "hy":
             text = re.sub(r"(?m)^Հարցեր[:։․]", "", text)
             # A number's ending written after a hyphen (ժամը 7-ին, 5-րդ, 1990-ական) is part of the number.
             text = re.sub(r"(?<=\d)-[\u0561-\u0587]+", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
+        if code == "tok":
+            tok_problems, toks = toki_pona_words(toks, ranks)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
@@ -2516,6 +2542,8 @@ def check(path, brief=False):
                 outside[t] = rank
         coverage = known / max(1, len(lowered))
         problems = [f"the reader runs the name '{name}' into the words around it: rewrite around it" for name in run_on]
+        if code == "tok":
+            problems += tok_problems
         if (qa_problem := questions_problem(lesson["text"])) is not None:
             problems.append(qa_problem)
         if coverage < need:
