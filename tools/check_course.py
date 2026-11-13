@@ -197,6 +197,11 @@ def fold(code, word):
     # The Ukrainian list writes the apostrophe straight (м'ясо); texts may use the curly one or the modifier letter (м’ясо, мʼясо).
     if code == "uk":
         return word.replace("’", "'").replace("ʼ", "'")
+    # The Belarusian list writes the apostrophe straight (сям'я); texts may use the curly one or the modifier letter. A word's
+    # first у is written ў after a vowel (яна ўбачыла, брат убачыў): the list holds most words one way or both, so ў is read as у.
+    if code == "be":
+        word = word.replace("’", "'").replace("ʼ", "'")
+        return "у" + word[1:] if word.startswith("ў") else word
     # Arabic words are matched without their vowel signs, as the reader matches them.
     if code == "ar":
         return re.sub("[\u064b-\u065f\u0670\u0640]", "", word)
@@ -596,7 +601,7 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return spanish_tokens(text, ranks, names, verbs)
     if code == "gl":
         return galician_tokens(text, ranks, names, verbs)
-    if code in ("ru", "uk", "hu"):
+    if code in ("ru", "uk", "hu", "be"):
         return russian_tokens(text)
     if code == "it":
         return italian_tokens(text, ranks, names, verbs, heads)
@@ -873,6 +878,54 @@ def ukrainian_name_forms(names):
                 if part.endswith(("ів", "їв")):
                     short = part[:-2] + ("о" if part[-2] == "і" else "є") + "в"
                     forms.update(short + e for e in ("а", "у", "ові", "ом", "і", "е"))
+    forms.discard("")
+    return forms
+
+
+BELARUSIAN_SOFTENED = {"г": "з", "к": "ц", "х": "с", "д": "дз", "т": "ц"}
+BELARUSIAN_HARDENED = "жшчрц"
+
+
+def belarusian_name_forms(names):
+    """
+    The case forms of Belarusian names, the vocative too, from their regular declension: Ганна, Ганны, Ганне, Ганну,
+    Ганнай, Ганнаю (Вольга, Вольгі, Вользе; Наташа, Наташы, Наташай; Ліда, Лідзе); Алеся, Алесі, Алесю, Алесяй; Марыя,
+    Марыі, Марыю, Марыяй; Іван, Івана, Івану, Іванам, Іване (Брэст, у Брэсце); Андрэй, Андрэя, Андрэю, Андрэем, Андрэі;
+    Міхась, Міхася, Міхасю, Міхасём; Гомель, Гомелі; Гродна, Гроднам; Магілёў, Магілёва, Магілёве; Баранавічы,
+    Баранавічах. A name of several words or with a hyphen gives the forms of each part. A name whose stem changes
+    otherwise (Пётр, Пятра; Навагрудак, Навагрудка) is listed by its stems.
+    """
+    forms = set()
+    for name in names:
+        for part in re.split(r"[\s-]+", fold("be", name.lower())):
+            if not part:
+                continue
+            forms.add(part)
+            stem, last = part[:-1], part[-1]
+            if part.endswith(("ы", "і")) and len(part) > 3:
+                forms.update(stem + e for e in ("аў", "ах", "ам", "амі"))
+            elif last == "а":
+                hard = stem[-1:] in BELARUSIAN_HARDENED or stem.endswith("дж")
+                forms.update(stem + e for e in ("у", "ай", "аю", "ам", "о"))
+                forms.update(stem + e for e in (("ы",) if hard else ("і", "е") if stem[-1:] in "гкх" else ("ы", "е")))
+                soft = next((s for s in ("ст", "д", "т", "г", "к", "х") if stem.endswith(s)), None)
+                if soft:
+                    forms.add(stem[:-len(soft)] + ("сц" if soft == "ст" else BELARUSIAN_SOFTENED[soft]) + "е")
+            elif last == "я":
+                forms.update(stem + e for e in ("і", "ю", "яй", "яю", "ям", "е"))
+            elif last == "й":
+                forms.update(stem + e for e in ("я", "ю", "ем", "ём", "і", "ям"))
+            elif last == "ь":
+                forms.update(stem + e for e in ("я", "ю", "ем", "ём", "і", "ям"))
+            elif last == "ў":
+                forms.update(stem + "в" + e for e in ("а", "у", "ам", "е", "ы"))
+            elif last == "о":
+                forms.update(stem + e for e in ("а", "у", "ам", "е"))
+            elif last not in "аеёіоуыэюя'":
+                forms.update(part + e for e in ("а", "у", "ам", "е", "ы", "і", "ам"))
+                soft = next((s for s in ("ст", "д", "т") if part.endswith(s)), None)
+                if soft:
+                    forms.add(part[:-len(soft)] + ("сц" if soft == "ст" else BELARUSIAN_SOFTENED[soft]) + "е")
     forms.discard("")
     return forms
 
@@ -2447,7 +2500,7 @@ QUESTION_HEADERS = {
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
-        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:",
+        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:",
     )
 }
 
@@ -2718,6 +2771,8 @@ def check(path, brief=False):
     # A Yiddish name takes the possessive -ס, or -עס after a sibilant, or -'ס (חנהס, מאָריסעס, מאָשע'ס).
     if code == "yi":
         names = names | {n + ending for n in names for ending in ("ס", "עס", "'ס")}
+    if code == "be":
+        names = names | belarusian_name_forms(course.get("names", []))
     # Armenian names take the article and the case endings (Արամը, Աննայի, Երևանում); a name of several words (Լոս Անջելես)
     # counts as one known word wherever it is written whole.
     if code == "hy":
@@ -2874,6 +2929,8 @@ def check(path, brief=False):
             text = text.replace("質問：", "")
         if code == "uk":
             text = re.sub(r"(?m)^Запитання:", "", text)
+        if code == "be":
+            text = re.sub(r"(?m)^Пытанні:", "", text)
         if code == "sl":
             text = re.sub(r"(?m)^Vprašanja:", "", text)
         if code == "ko":
@@ -2958,7 +3015,7 @@ def check(path, brief=False):
         if code == "tok":
             tok_problems, toks = toki_pona_words(toks, ranks)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
-        if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
+        if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk", "be"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
             toks = [t for t in toks if not ROMAN.fullmatch(t)]
             whole_names += numerals
