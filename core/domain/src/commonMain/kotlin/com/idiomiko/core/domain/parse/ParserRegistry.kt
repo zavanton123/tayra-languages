@@ -14,7 +14,7 @@ object ParserRegistry {
         "classicalchinese" to ClassicalChineseParser(),
         "thai" to ThaiParser(),
         "lao" to LaoParser(),
-        "khmer" to SegmentingParser("Khmer", "km", joinUnknown = true),
+        "khmer" to KhmerParser(),
         "mandarin" to SegmentingParser("Mandarin Chinese", "zh", joinUnknown = false, byFrequency = true),
         "cantonese" to SegmentingParser("Cantonese", "yue", joinUnknown = false, byFrequency = true, supplementaryHan = true),
         "japanese" to JapaneseParser(),
