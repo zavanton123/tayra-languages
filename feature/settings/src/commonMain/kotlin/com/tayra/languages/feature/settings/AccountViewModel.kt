@@ -33,7 +33,6 @@ import kotlin.time.Instant
 data class AccountUiState(
     /** Whether this build can reach an account service. */
     val available: Boolean = false,
-    val server: String = "",
     /** The email of the account this device is signed in to; null when signed out. */
     val signedIn: String? = null,
     val account: AccountInfo? = null,
@@ -93,7 +92,7 @@ class AccountViewModel(
 
     /** Reads what the account holds again, when signed in. */
     fun reload() {
-        _state.update { it.copy(available = accounts.available, server = settings.current.accountServer, signedIn = accounts.signedIn.value) }
+        _state.update { it.copy(available = accounts.available, signedIn = accounts.signedIn.value) }
         if (accounts.signedIn.value != null) work(AccountTask.LOADING) { load() } else offerProviders()
     }
 
@@ -126,7 +125,7 @@ class AccountViewModel(
 
     fun signOut() = work(AccountTask.LOADING) {
         accounts.signOut()
-        _state.update { AccountUiState(available = it.available, server = it.server, autoSync = it.autoSync) }
+        _state.update { AccountUiState(available = it.available, autoSync = it.autoSync) }
         offerProviders()
     }
 
@@ -195,18 +194,8 @@ class AccountViewModel(
 
     fun deleteAccount() = work(AccountTask.DELETING) {
         accounts.deleteAccount()
-        _state.update { AccountUiState(available = it.available, server = it.server, autoSync = it.autoSync, done = AccountDone.ACCOUNT_DELETED) }
+        _state.update { AccountUiState(available = it.available, autoSync = it.autoSync, done = AccountDone.ACCOUNT_DELETED) }
         offerProviders()
-    }
-
-    /** The account service to use instead of the build's own, for one run locally; blank goes back to the build's. */
-    fun setServer(url: String) {
-        viewModelScope.launch {
-            if (accounts.signedIn.value != null) runCatching { accounts.signOut() }
-            settings.update { it.copy(accountServer = url.trim()) }
-            _state.update { AccountUiState(autoSync = it.autoSync) }
-            reload()
-        }
     }
 
     fun doneSeen() = _state.update { it.copy(done = null) }
@@ -262,7 +251,7 @@ class AccountViewModel(
             } catch (e: AccountException) {
                 _state.update {
                     val signedOut = e.problem == AccountProblem.SIGNED_OUT
-                    (if (signedOut) AccountUiState(available = it.available, server = it.server, autoSync = it.autoSync) else it).copy(problem = e.problem, problemText = e.message)
+                    (if (signedOut) AccountUiState(available = it.available, autoSync = it.autoSync) else it).copy(problem = e.problem, problemText = e.message)
                 }
                 if (e.problem == AccountProblem.SIGNED_OUT) offerProviders()
             } catch (e: BackupException) {

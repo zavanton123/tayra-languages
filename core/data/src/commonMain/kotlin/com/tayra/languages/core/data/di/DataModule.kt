@@ -187,12 +187,11 @@ val dataModule: Module = module {
     single<SettingsRepository> { get<SettingsRepositoryImpl>() }
     single<BackupRepository> { BackupRepositoryImpl(get(), get(), get()) }
     single {
-        val settings = get<SettingsRepository>()
         val provider = get<DatabaseProvider>()
         val platform = getOrNull<AccountPlatform>()
         AccountClient(
             platform?.http ?: createAccountHttpClient(),
-            AccountServer { settings.current.accountServer.takeIf { it.isNotBlank() } ?: defaultAccountServer() },
+            AccountServer { defaultAccountServer() },
             platform?.store ?: get<SecureStore>(),
             device = { thisDevice(provider) },
         )

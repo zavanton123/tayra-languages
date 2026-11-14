@@ -56,7 +56,6 @@ import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusTints
-import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
@@ -111,7 +110,6 @@ internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, o
             DeleteAccountCard(state, actions)
         }
     }
-    ServerRow(state, actions)
 }
 
 @Composable
@@ -390,30 +388,6 @@ private fun DeleteAccountCard(state: AccountUiState, actions: AccountViewModel?)
             destructive = true,
             onConfirm = { confirming = false; actions?.deleteAccount() },
             onDismiss = { confirming = false },
-        )
-    }
-}
-
-/** The account service in use, changeable for one run locally while the apps ship without one. */
-@Composable
-private fun ServerRow(state: AccountUiState, actions: AccountViewModel?) {
-    var editing by remember { mutableStateOf(false) }
-    QuietButton(
-        if (state.server.isBlank()) tr("Account service: the app's own") else tr("Account service: {0}", state.server),
-        onClick = { editing = true },
-        modifier = Modifier.testTag("account-server"),
-    )
-    if (editing) {
-        // Not the shared text dialog: an empty address is a choice here, the app's own service.
-        var value by remember { mutableStateOf(state.server) }
-        AppDialog(
-            onDismissRequest = { editing = false },
-            title = { Text(tr("Account service")) },
-            text = {
-                AppTextField(value, { value = it }, Modifier.testTag("account-server-field"), label = { Text(tr("Address, such as http://localhost:8080; empty for the app's own")) }, singleLine = true)
-            },
-            confirmButton = { QuietButton(tr("Use"), onClick = { editing = false; actions?.setServer(value) }) },
-            dismissButton = { QuietButton(tr("Cancel"), onClick = { editing = false }) },
         )
     }
 }

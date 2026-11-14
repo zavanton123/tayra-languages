@@ -152,7 +152,7 @@ data class UserSettings(
      * language afresh would hold every language's frequency list in memory at once.
      */
     val knownWordCounts: String = "",
-    /** The account service's address, when it is not the one the build comes with: for a service run locally. */
+    /** An account service's address older versions let the reader type; kept in storage, no longer read. */
     val accountServer: String = "",
     /** Whether this device syncs with the account on its own: at start, when brought back, and after changes. */
     val autoSync: Boolean = true,
