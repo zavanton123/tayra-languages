@@ -34,6 +34,7 @@ SPRING_MAIL_USERNAME=…
 SPRING_MAIL_PASSWORD=…
 WEB_ORIGINS=https://app.example.com   # the web app's origin, if it is served
 ADMIN_TOKEN=…                         # for /actuator/metrics
+TAYRA_REQUIRE_SUBSCRIPTION=false      # every signed-in account syncs; true once billing is live
 # Sign-in, billing and the rest: see application.yaml.
 ```
 

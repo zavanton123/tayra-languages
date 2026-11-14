@@ -11,6 +11,8 @@ primary_region = "fra"
 [env]
   S3_REGION = "auto"
   PADDLE_ENVIRONMENT = "production"
+  # Every signed-in account syncs until billing is live; set to "true" then.
+  TAYRA_REQUIRE_SUBSCRIPTION = "false"
 
 [http_service]
   internal_port = 8080

@@ -27,12 +27,15 @@ class SubscriptionRequired : ApiException(402, ApiErrors.SUBSCRIPTION_REQUIRED, 
 /**
  * Who may sync and back up: an account whose subscription runs past now, or one of the
  * [freeEmails], the accounts given it without paying (the owner's own, before billing exists).
+ * While [requireSubscription] is off, every signed-in account may, paid or not; billing still
+ * records subscriptions, so turning it back on needs nothing else.
  */
 @Service
 class Entitlements(
     private val jdbc: JdbcClient,
     private val clock: Clock,
     @Value("\${tayra.free-emails}") freeEmails: String,
+    @Value("\${tayra.require-subscription}") private val requireSubscription: Boolean,
 ) {
     private val free = freeEmails.split(',').map { it.trim().lowercase() }.filter { it.isNotEmpty() }.toSet()
 
@@ -43,6 +46,7 @@ class Entitlements(
         val (email, until, source) = row
         if (email in free) return Subscription(active = true, source = "free")
         val active = until != null && until.isAfter(clock.instant())
+        if (!active && !requireSubscription) return Subscription(active = true, source = "free")
         return Subscription(active, until?.toEpochMilli(), source)
     }
 

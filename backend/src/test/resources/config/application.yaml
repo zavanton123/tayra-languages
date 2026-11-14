@@ -4,3 +4,5 @@ tayra:
     auth-per-minute: 100000
     other-per-minute: 100000
   admin-token: test-admin-token
+  # The billing tests check the subscription gate; FreeSyncTest turns it off.
+  require-subscription: true

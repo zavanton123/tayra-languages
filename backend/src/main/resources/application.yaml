@@ -73,6 +73,9 @@ tayra:
   admin-token: ${ADMIN_TOKEN:}
   # Accounts that may sync without paying, comma-separated: the owner's own, before billing exists.
   free-emails: ${TAYRA_FREE_EMAILS:}
+  # Whether sync and cloud backups need an active subscription. Off for now: every signed-in account
+  # syncs. Turn it on (true) once billing is live; the subscription checks are all still in place.
+  require-subscription: ${TAYRA_REQUIRE_SUBSCRIPTION:false}
   # Subscriptions. A provider whose settings are empty is off: its notifications are answered 404.
   billing:
     paddle:
