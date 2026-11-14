@@ -165,6 +165,10 @@ fun AppTopBar(
                 }
                 Spacer(Modifier.weight(1f))
                 actions()
+                LocalSyncEntry.current?.let { sync ->
+                    SyncButton(sync)
+                    Spacer(Modifier.width(AppSpacing.s))
+                }
                 // The language being learned sits just before the tabs it applies to.
                 if (LocalLearningLanguage.current?.currentName != null) {
                     LearningLanguageSelector(compact = false)

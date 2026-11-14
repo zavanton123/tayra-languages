@@ -13,6 +13,9 @@ import androidx.compose.ui.test.SemanticsMatcher
 import androidx.compose.ui.semantics.SemanticsProperties
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.onAllNodesWithTag
@@ -57,6 +60,24 @@ class AppTopBarTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Downloads").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Downloads").performClick()
         assertEquals(listOf<Route>(Route.Downloads), visited)
+    }
+
+    /** The sync button shows only with an account service and asks to sync; it turns while a sync is under way. */
+    @OptIn(ExperimentalTestApi::class)
+    @Test
+    fun theSyncButtonOpensTheQuestion() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        var asked = 0
+        var running by mutableStateOf(false)
+        setContent {
+            MaterialTheme { CompositionLocalProvider(LocalSyncEntry provides SyncEntry(running) { asked++ }) { AppTopBar(title = "Home", onNavigate = {}, section = NavSection.HOME) } }
+        }
+        onNodeWithContentDescription("Sync").performClick()
+        assertEquals(1, asked)
+        running = true
+        waitForIdle()
+        onNodeWithContentDescription("Sync").assertExists()
+        onNodeWithContentDescription("Sync").performClick()
+        assertEquals(2, asked)
     }
 
     /** In a narrower window the tabs that do not fit fold into More, whose menu still reaches their pages. */
