@@ -57,6 +57,10 @@ jobs:
     name: Android APK
     if: ${{ startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
     runs-on: ubuntu-latest
+    # Job-level, so the steps' conditions can see whether they are set.
+    env:
+      ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+      FIREBASE_APPDIST_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_APPDIST_SERVICE_ACCOUNT }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -66,11 +70,10 @@ jobs:
           distribution: temurin
           java-version: 21
       - uses: gradle/actions/setup-gradle@v4
+      # Every release is signed with the same key, or installed apps could not update to it.
       - name: Write signing keystore
-        if: ${{ env.ANDROID_KEYSTORE_BASE64 != '' }}
-        env:
-          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
         run: |
+          if [ -z "$ANDROID_KEYSTORE_BASE64" ]; then echo "The ANDROID_KEYSTORE_BASE64 secret is missing"; exit 1; fi
           echo "$ANDROID_KEYSTORE_BASE64" | base64 --decode > "$RUNNER_TEMP/release.keystore"
           echo "ANDROID_KEYSTORE_FILE=$RUNNER_TEMP/release.keystore" >> "$GITHUB_ENV"
       - name: Build release APK
@@ -87,6 +90,14 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release upload "$RELEASE_TAG" TayraLanguages-*.apk --clobber
+      # Testers in the Firebase group "testers" get each release through App Distribution.
+      - name: Send the APK to Firebase App Distribution
+        if: ${{ env.FIREBASE_APPDIST_SERVICE_ACCOUNT != '' && vars.FIREBASE_ANDROID_APP_ID != '' }}
+        run: |
+          printf '%s' "$FIREBASE_APPDIST_SERVICE_ACCOUNT" > "$RUNNER_TEMP/appdist.json"
+          GOOGLE_APPLICATION_CREDENTIALS="$RUNNER_TEMP/appdist.json" npx --yes firebase-tools@13.0.0 appdistribution:distribute \
+            TayraLanguages-*.apk --app "${{ vars.FIREBASE_ANDROID_APP_ID }}" --groups testers \
+            --release-notes "Tayra Languages ${RELEASE_TAG#v}"
 
   macos:
     name: macOS DMG
