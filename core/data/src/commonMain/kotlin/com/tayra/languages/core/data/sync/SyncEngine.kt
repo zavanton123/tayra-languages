@@ -35,6 +35,7 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
+import kotlin.coroutines.cancellation.CancellationException
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.put
@@ -60,6 +61,10 @@ interface SyncTransport {
  * them in one transaction, each merged with this device's version by the shared rules, the triggers
  * told the writes are not this device's own. A failure leaves the library and the change number as
  * they were, so the next sync takes it all again.
+ *
+ * Before the records are applied, the packs the account has and this device lacks are downloaded,
+ * and the lessons read elsewhere get their texts, so the reading of them lands at once. A pack that
+ * cannot be downloaded now leaves its records waiting for the next sync.
  */
 class SyncEngine(
     private val provider: DatabaseProvider,
@@ -69,6 +74,11 @@ class SyncEngine(
     private val addLanguage: suspend (code: String) -> Unit = {},
     /** The settings that follow the account; none when null. */
     private val userSettings: SettingsRepositoryImpl? = null,
+    /** The packs chosen here, which follow the account with [installer]; none when either is null. */
+    private val packs: SyncedPacks? = null,
+    private val installer: PackInstaller? = null,
+    /** Makes the text of a lesson, as opening it does, so the reading of it from another device has a text to land on. */
+    private val openLesson: suspend (courseId: String, lessonId: String) -> Unit = { _, _ -> },
     private val clock: Clock = Clock.System,
 ) : LibrarySync {
     private val running = Mutex()
@@ -97,8 +107,10 @@ class SyncEngine(
         val startedAt = clock.now().toEpochMilliseconds()
         val since = if (state.full_push != 0L) -1L else state.last_push_at ?: -1L
 
+        // Read first, so packs installed before their choices were kept are sent too.
+        val installed = installer?.takeIf { packs != null }?.let { quietly { it.installed() } }
         val outgoing = withContext(databaseDispatcher) { Reader(db, device).changedSince(since) }
-            .let { o -> Outgoing(o.records + settingRecords(db, since, device), o.tombstones) }
+            .let { o -> Outgoing(o.records + settingRecords(db, since, device) + packRecords(since, device), o.tombstones) }
         for (batch in outgoing.records.chunked(BATCH)) transport.push(PushRequest(device, batch))
         withContext(databaseDispatcher) {
             db.transaction {
@@ -123,15 +135,17 @@ class SyncEngine(
         val wanted = toApply.filter { it.kind != LANGUAGE_REMOVED }.mapNotNull(::languageCodeOf) +
             toApply.filter { it.kind == SyncKinds.SETTING && it.key == SyncedSettings.MY_LANGUAGES }.flatMap { codes(it.data?.string("value")) }
         for (code in wanted.toSet() - have) addLanguage(code)
+        val packsApplied = applyPacks(db, toApply, installed, device)
+        openLessons(db, toApply)
         val changed = withContext(databaseDispatcher) {
             db.transactionWithResult {
                 db.syncQueries.setApplying(1)
-                val applied = Writer(db, device).apply(toApply)
+                val applied = Writer(db, device).apply(toApply.filter { it.kind != SyncKinds.PACK })
                 db.syncQueries.setApplying(0)
                 db.syncRecordsQueries.pulled(seq)
                 db.syncRecordsQueries.clearPending()
-                for (r in applied.deferred) db.syncRecordsQueries.addPending(r.kind, r.key, SyncJson.encodeToString(SyncRecord.serializer(), r))
-                applied.changed
+                for (r in applied.deferred + packsApplied.waiting) db.syncRecordsQueries.addPending(r.kind, r.key, SyncJson.encodeToString(SyncRecord.serializer(), r))
+                applied.changed + packsApplied.changed
             }
         }
         val settingsChanged = applySettings(db, toApply.filter { it.kind == SyncKinds.SETTING }, device)
@@ -169,6 +183,91 @@ class SyncEngine(
         }
         if (taken.isNotEmpty()) settings.applySynced(taken)
         return taken.size
+    }
+
+    /** The packs chosen here since [since]. */
+    private fun packRecords(since: Long, device: String): List<SyncRecord> =
+        packs?.choices().orEmpty().filter { it.at > since }.map { it.record(device) }
+
+    private class PacksApplied(val changed: Int, val waiting: List<SyncRecord>)
+
+    /**
+     * Installs the packs the account has and this device lacks, and removes the ones removed since
+     * elsewhere, keeping each choice with its own time. Versions that send no packs still send the
+     * reading of their texts: the pack of a lesson or pack book read there and missing here is
+     * installed too, unless it was removed on purpose. A pack that fails to download waits.
+     */
+    private suspend fun applyPacks(db: TayraDatabase, records: List<SyncRecord>, installed: Set<String>?, device: String): PacksApplied {
+        val choices = packs
+        val installer = installer
+        // Without knowing what is here, nothing is downloaded over it: the records wait.
+        if (choices == null || installer == null || installed == null) return PacksApplied(0, records.filter { it.kind == SyncKinds.PACK })
+        val mine = choices.choices().associateBy { it.pack }
+        var changed = 0
+        val waiting = mutableListOf<SyncRecord>()
+        val decided = mutableSetOf<String>()
+        for (remote in records.filter { it.kind == SyncKinds.PACK }) {
+            decided += remote.key
+            val local = mine[remote.key]?.record(device)
+            val merged = if (local == null) remote else SyncMerge.merge(local, remote)
+            val news = local == null || merged.updatedAt != local.updatedAt || merged.deleted != local.deleted
+            val here = remote.key in installed
+            val acted = if ((!merged.deleted && !here) || (merged.deleted && here && news)) {
+                val done = quietly {
+                    if (!merged.deleted) installer.install(remote.key) else {
+                        installer.remove(remote.key)
+                        true
+                    }
+                } == true
+                if (!done) {
+                    waiting += merged
+                    continue
+                }
+                true
+            } else false
+            if (acted) changed++
+            // Installing and removing note the choice as made now: it keeps the time it was made at.
+            if (news || acted) choices.take(PackChoice(remote.key, !merged.deleted, merged.updatedAt))
+        }
+        val removed = mine.values.filter { !it.installed }.map { it.pack }.toSet()
+        for (pack in textPacksMissing(db, records) - installed - decided - removed) {
+            if (quietly { installer.install(pack) } == true) changed++
+        }
+        return PacksApplied(changed, waiting)
+    }
+
+    /** What [action] gives, or null when it failed: a pack that cannot be had now does not fail the sync. */
+    private suspend fun <T> quietly(action: suspend () -> T): T? = try {
+        action()
+    } catch (e: CancellationException) {
+        throw e
+    } catch (e: Exception) {
+        null
+    }
+
+    /** The packs of the lessons and pack books [records] read that this device does not have. */
+    private suspend fun textPacksMissing(db: TayraDatabase, records: List<SyncRecord>): Set<String> = withContext(databaseDispatcher) {
+        val texts = records.filter { !it.deleted }.mapNotNull { r -> textKeyOf(r)?.let { it to r.data?.string("language").takeIf { r.kind == SyncKinds.BOOK } } }
+        texts.groupBy({ it.first }, { it.second }).mapNotNull { (key, languages) ->
+            val missing = when {
+                key.startsWith("lesson:") -> db.coursesQueries.selectLesson(key.removePrefix("lesson:")).awaitAsOneOrNull() == null
+                key.startsWith("uri:") -> db.syncBooksQueries.bookOfSource(key.removePrefix("uri:"), ::BookRow).awaitAsOneOrNull() == null
+                else -> false
+            }
+            if (missing) packOfText(key, languages.firstOrNull { it != null }) else null
+        }.toSet()
+    }
+
+    /** Makes the texts of the lessons [records] read that this device has but never opened. */
+    private suspend fun openLessons(db: TayraDatabase, records: List<SyncRecord>) {
+        val lessons = records.filter { !it.deleted }.mapNotNull { textKeyOf(it)?.takeIf { k -> k.startsWith("lesson:") }?.removePrefix("lesson:") }.toSet()
+        for (lessonId in lessons) {
+            val course = withContext(databaseDispatcher) {
+                if (db.syncBooksQueries.bookOfLesson(lessonId, ::BookRow).awaitAsOneOrNull() != null) null
+                else db.coursesQueries.selectLesson(lessonId).awaitAsOneOrNull()?.course_id
+            } ?: continue
+            openLesson(course, lessonId)
+        }
     }
 
     private fun codes(text: String?): List<String> = text.orEmpty().split(',').map { it.trim() }.filter { it.isNotEmpty() }
@@ -431,6 +530,14 @@ class SyncEngine(
         val ORDER = listOf(SyncKinds.LANGUAGE, SyncKinds.VOCABULARY_LEVEL, SyncKinds.TERM, SyncKinds.FLASHCARD, SyncKinds.PRACTICE_PROGRESS, SyncKinds.PRACTICE_EXAMPLE, SyncKinds.REVIEW)
         val VOCABULARY_TOMBSTONES = setOf("term", "flashcard", "review", "practice_progress", "practice_example", "vocabulary_level", "language")
     }
+}
+
+/** The key of the text a book, page or bookmark record belongs to. */
+private fun textKeyOf(record: SyncRecord): String? = when (record.kind) {
+    SyncKinds.BOOK -> record.key
+    SyncKinds.PAGE -> pageParts(record.key)?.first
+    SyncKinds.BOOKMARK -> pageParts(record.key.substringBefore('\n'))?.first
+    else -> null
 }
 
 /** The code of the language a record belongs to. */

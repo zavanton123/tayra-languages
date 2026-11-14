@@ -7,6 +7,7 @@ import com.tayra.languages.core.domain.account.CloudBackupService
 import com.tayra.languages.core.domain.account.AccountRepository
 import com.tayra.languages.core.domain.account.AutoSync
 import com.tayra.languages.core.domain.account.LibrarySync
+import com.tayra.languages.core.domain.account.PackChoices
 import com.tayra.languages.core.data.anki.AnkiArchiveReaderImpl
 import com.tayra.languages.core.data.network.createAccountHttpClient
 import com.tayra.languages.core.data.account.thisDevice
@@ -78,7 +79,9 @@ import com.tayra.languages.core.data.repository.VocabularyLevelRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.data.settings.SecureStore
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
+import com.tayra.languages.core.data.sync.ServicePacks
 import com.tayra.languages.core.data.sync.SyncEngine
+import com.tayra.languages.core.data.sync.SyncedPacks
 import com.tayra.languages.core.data.sync.SyncTransport
 import com.tayra.languages.core.data.sync.libraryChanges
 import com.tayra.languages.core.data.web.HttpWebPageReader
@@ -198,8 +201,10 @@ val dataModule: Module = module {
     single<LibrarySync> {
         SyncEngine(get(), get(), get<Settings>(), addLanguage = { code ->
             LanguageCatalog.targetLanguages.firstOrNull { LanguageCodes.codeFor(it) == code }?.let { get<LanguageService>().loadPredefined(it, withTutorial = false) }
-        }, userSettings = get())
+        }, userSettings = get(), packs = get(), installer = ServicePacks(get(), get()), openLesson = { course, lesson -> get<CourseService>().openLesson(course, lesson) })
     }
+    single { SyncedPacks(get<Settings>()) }
+    single<PackChoices> { get<SyncedPacks>() }
     single { AutoSync(get(), get(), get(), changes = libraryChanges(get())) }
     single<LanguageRepository> { LanguageRepositoryImpl(get()) }
     single<BookRepository> { BookRepositoryImpl(get()) }
@@ -295,12 +300,12 @@ val dataModule: Module = module {
     single<SampleCourseSource> { InstalledCoursePacks(get()) }
     single { CourseService(get(), get(), get(), get(), get()) }
     single { LessonSummaries(get(), get(), get()) }
-    single { CoursePackService(get(), get()) }
+    single { CoursePackService(get(), get(), get()) }
     single<PlaylistRepository> { PlaylistRepositoryImpl(get()) }
     single { ListeningTime(get()) }
     single { PlaylistService(get(), get(), get(), get()) }
     single<BookPackStore> { BookPackRepository(get()) }
-    single { BookPackService(get(), get(), get(), get()) }
+    single { BookPackService(get(), get(), get(), get(), get()) }
     single { BookDiscoveryService(listOfNotNull(GutenbergCatalog(get()), WikisourceCatalog(get()), GdlCatalog(get()), StorybooksCatalog(get()), StoryWeaverCatalog(get()).takeIf { pdfSupported }, WolneLekturyCatalog(get()), AozoraCatalog(get()), LitteraturbankenCatalog(get()), BenYehudaCatalog(get()), AdlCatalog(get()), GanjoorCatalog(get()), AdamastorCatalog(get()), ElgCatalog(get()), TextGridCatalog(get()), LiberLiberCatalog(get()), ElejandriaCatalog(get())), get(), get(), get()) }
     single<NewsFeedReader> { FeedNewsReader(get()) }
     // A browser may fetch only the sites that allow it, so there the book form offers no web pages.
