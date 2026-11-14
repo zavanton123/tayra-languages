@@ -18,6 +18,7 @@ import com.tayra.languages.core.domain.account.SignedInDevice
 import com.tayra.languages.core.domain.account.StoreException
 import com.tayra.languages.core.domain.account.StoreProduct
 import com.tayra.languages.core.domain.account.Subscriptions
+import com.tayra.languages.core.domain.account.SyncProgress
 import com.tayra.languages.core.domain.account.SyncSummary
 import com.tayra.languages.core.domain.backup.BackupException
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -46,6 +47,10 @@ data class AccountUiState(
     val lastSynced: Instant? = null,
     /** Why the last sync, on its own or asked, did not finish. */
     val syncProblem: AccountProblem? = null,
+    /** A sync is under way, on its own or asked. */
+    val syncing: Boolean = false,
+    /** How far it has got; null until it says. */
+    val syncProgress: SyncProgress? = null,
     /** What the store sells here, while the account has no subscription; empty without a store. */
     val products: List<StoreProduct> = emptyList(),
     /** Whether the store can restore purchases here. */
@@ -86,7 +91,9 @@ class AccountViewModel(
 
     init {
         reload()
-        viewModelScope.launch { sync.status.collect { status -> _state.update { it.copy(lastSynced = status.lastSynced, syncProblem = status.problem) } } }
+        viewModelScope.launch { sync.status.collect { status ->
+                _state.update { it.copy(lastSynced = status.lastSynced, syncProblem = status.problem, syncing = status.running, syncProgress = status.progress) }
+            } }
         viewModelScope.launch { settings.settings.collect { s -> _state.update { it.copy(autoSync = s.autoSync) } } }
     }
 

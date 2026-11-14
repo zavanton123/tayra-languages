@@ -37,6 +37,8 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.account.AccountProblem
 import com.tayra.languages.core.domain.account.CloudBackupInfo
 import com.tayra.languages.core.domain.account.SignInProvider
+import com.tayra.languages.core.domain.account.SyncPhase
+import com.tayra.languages.core.domain.account.SyncProgress
 import com.tayra.languages.core.ui.components.APP_NAME
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
@@ -57,6 +59,7 @@ import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.formatSize
+import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppSpacing
@@ -268,17 +271,21 @@ private fun SyncCard(state: AccountUiState, actions: AccountViewModel?) {
         icon = Icons.Default.Refresh,
     ) {
         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            val syncing = state.syncing || state.busy == AccountTask.SYNCING
             PrimaryButton(
-                tr("Sync now"), onClick = { actions?.syncNow() }, enabled = active && state.busy == null,
-                loading = state.busy == AccountTask.SYNCING, modifier = Modifier.testTag("account-sync"),
+                if (syncing) tr("Syncing…") else tr("Sync now"), onClick = { actions?.syncNow() }, enabled = active && state.busy == null && !state.syncing,
+                loading = syncing, modifier = Modifier.testTag("account-sync"),
             )
+            state.syncProgress?.takeIf { syncing }?.let(::progressLine)?.let { line ->
+                Text(line, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-sync-progress"))
+            }
             state.synced?.let { done ->
                 Text(
                     tr("Sent: {0} · Taken from other devices: {1}", done.sent, done.changed),
                     style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-synced"),
                 )
             }
-            if (state.syncProblem != null && state.busy != AccountTask.SYNCING) {
+            if (state.syncProblem != null && !syncing) {
                 Text(tr("The last sync did not finish; it is tried again in a while."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error, modifier = Modifier.testTag("account-sync-problem"))
             }
             state.lastSynced?.let { at ->
@@ -299,6 +306,13 @@ private fun SyncCard(state: AccountUiState, actions: AccountViewModel?) {
             onDismiss = { actions?.cancelCombine() },
         )
     }
+}
+
+/** What the sync under way is doing, in a line; null while it has nothing to send. */
+private fun progressLine(progress: SyncProgress): String? = when (progress.phase) {
+    SyncPhase.SENDING -> progress.total?.takeIf { it > 0 }?.let { tr("Sending {0} of {1}", formatCount(progress.done), formatCount(it)) }
+    SyncPhase.RECEIVING -> tr("Taking changes from other devices: {0}", formatCount(progress.done))
+    SyncPhase.APPLYING -> tr("Applying…")
 }
 
 @Composable

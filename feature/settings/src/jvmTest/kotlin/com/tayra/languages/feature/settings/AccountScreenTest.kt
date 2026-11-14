@@ -39,13 +39,19 @@ import com.tayra.languages.core.domain.account.StoreProducts
 import com.tayra.languages.core.domain.account.StorePurchases
 import com.tayra.languages.core.domain.account.StoreReceipt
 import com.tayra.languages.core.domain.account.Subscriptions
+import com.tayra.languages.core.domain.account.SyncPhase
 import com.tayra.languages.core.domain.account.SyncProgress
 import com.tayra.languages.core.domain.account.SyncSummary
 import com.tayra.languages.core.domain.backup.Backup
 import com.tayra.languages.core.domain.backup.BackupRepository
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
 import kotlinx.coroutines.flow.emptyFlow
@@ -113,9 +119,14 @@ class AccountScreenTest {
     /** The addresses the page opened in the browser. */
     private val opened = mutableListOf<String>()
 
-    private class FakeSync(var combining: Boolean = false, var failing: Boolean = false) : LibrarySync {
+    /** What syncs the page shown last, on its own or asked. */
+    private lateinit var auto: AutoSync
+
+    private class FakeSync(var combining: Boolean = false, var failing: Boolean = false, val hold: CompletableDeferred<Unit>? = null) : LibrarySync {
         var syncs = 0
         override suspend fun syncNow(progress: (SyncProgress) -> Unit): SyncSummary {
+            progress(SyncProgress(SyncPhase.SENDING, 12_000, 47_480))
+            hold?.await()
             if (failing) throw AccountException(AccountProblem.OFFLINE, "No connection")
             syncs++; combining = false; return SyncSummary(sent = 3, received = 5, changed = 2)
         }
@@ -140,7 +151,8 @@ class AccountScreenTest {
         identity: IdentitySignIn? = null, onRestored: () -> Unit = {},
     ): AccountViewModel {
         val settings = SettingsRepositoryImpl(MapSettings())
-        val viewModel = AccountViewModel(accounts, CloudBackupService(local, accounts), AutoSync(sync, accounts, settings, emptyFlow()), settings, store?.let { Subscriptions(it, accounts) }, identity)
+        auto = AutoSync(sync, accounts, settings, emptyFlow())
+        val viewModel = AccountViewModel(accounts, CloudBackupService(local, accounts), auto, settings, store?.let { Subscriptions(it, accounts) }, identity)
         setContent {
             CompositionLocalProvider(LocalUriHandler provides object : UriHandler { override fun openUri(uri: String) { opened += uri } }) {
                 TayraTheme { ProvideWindowWidth { AccountScreen(onNavigate = {}, onBack = {}, onRestored = onRestored, viewModel = viewModel) } }
@@ -266,6 +278,29 @@ class AccountScreenTest {
         onNodeWithTag("account-last-synced").assertExists()
         assertEquals(1, sync.syncs)
         save("ACCOUNT_SCREENSHOT", "-synced")
+    }
+
+    @Test
+    fun aSyncUnderWaySaysHowFarItHasGotAndSyncingNowWaitsForIt() = runDesktopComposeUiTest(width = 1400, height = 1600) {
+        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
+        val hold = CompletableDeferred<Unit>()
+        val sync = FakeSync(hold = hold)
+        val viewModel = show(accounts, sync = sync)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
+        // Stands for a sync begun on its own, such as when the app started.
+        val automatic = CoroutineScope(Dispatchers.Default).async { auto.syncNow() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Sending 12,000 of 47,480").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Syncing…").assertExists()
+        onNodeWithTag("account-sync").assertIsNotEnabled()
+        save("ACCOUNT_SCREENSHOT", "-syncing")
+
+        runOnUiThread { viewModel.syncNow() }
+        hold.complete(Unit)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("This device is in sync").fetchSemanticsNodes().isNotEmpty() }
+        runBlocking { automatic.await() }
+        assertEquals(1, sync.syncs, "the page took the result of the sync under way")
+        onNodeWithText("Sync now").assertExists()
+        assertEquals(0, onAllNodesWithTag("account-sync-progress").fetchSemanticsNodes().size)
     }
 
     @Test
