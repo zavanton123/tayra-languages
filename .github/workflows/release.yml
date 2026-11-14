@@ -14,8 +14,8 @@ permissions:
 
 env:
   RELEASE_TAG: ${{ github.event.release.tag_name || inputs.tag }}
-  # The account service the apps are built to use (the repository variable ACCOUNT_SERVER, such as
-  # https://api.example.com); without it they are built without accounts, sync and cloud backups.
+  # The account service is accountServer in gradle.properties, the same for every build; it wins over
+  # this variable, which only matters if that line is ever removed.
   TAYRA_ACCOUNT_SERVER: ${{ vars.ACCOUNT_SERVER }}
   # The JetBrains Runtime the desktop apps ship with: its JCEF build carries the Chromium that plays videos.
   JBR_JDK: 21.0.10
