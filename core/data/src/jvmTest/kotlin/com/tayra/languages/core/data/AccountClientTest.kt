@@ -14,7 +14,9 @@ import io.ktor.client.engine.mock.MockEngine
 import io.ktor.client.engine.mock.MockRequestHandleScope
 import io.ktor.client.engine.mock.respond
 import io.ktor.client.engine.mock.toByteArray
+import io.ktor.client.plugins.HttpRequestTimeoutException
 import io.ktor.client.plugins.HttpTimeout
+import io.ktor.client.plugins.HttpTimeoutCapability
 import io.ktor.client.request.HttpRequestData
 import io.ktor.client.request.HttpResponseData
 import io.ktor.http.HttpHeaders
@@ -28,6 +30,7 @@ import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
 import kotlin.test.assertFalse
 import kotlin.test.assertNull
+import kotlin.test.assertTrue
 
 /** The device's side of the account service, against answers made up here. */
 class AccountClientTest {
@@ -227,5 +230,22 @@ class AccountClientTest {
         assertEquals("b1", client.upload("tayra-backup.tayra", file).id)
         assertContentEquals(file, sent)
         assertContentEquals(file, client.download("b1"))
+    }
+
+    @Test
+    fun aStalledSyncRequestEndsAsOffline() = runTest {
+        secure.put("account.http://service.test.refresh_token", "refresh-1")
+        secure.put("account.http://service.test.email", "reader@example.com")
+        val timeouts = mutableListOf<Pair<Long?, Long?>>()
+        val client = client { request ->
+            if (request.url.encodedPath == "/api/v1/auth/refresh") return@client json(tokens("access-2", "refresh-2"))
+            val config = request.getCapabilityOrNull(HttpTimeoutCapability)
+            timeouts += config?.requestTimeoutMillis to config?.socketTimeoutMillis
+            throw HttpRequestTimeoutException(request)
+        }
+        assertEquals(AccountProblem.OFFLINE, assertFailsWith<AccountException> { client.pull(0, 1_000) }.problem)
+        val (request, socket) = timeouts.single()
+        assertTrue(request != null && request <= 5 * 60_000L, "a batch has a few minutes, not $request")
+        assertEquals(60_000L, socket)
     }
 }

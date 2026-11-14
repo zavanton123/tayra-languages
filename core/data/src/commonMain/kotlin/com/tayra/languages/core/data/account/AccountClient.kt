@@ -173,14 +173,14 @@ class AccountClient(
         exchange(HttpMethod.Post, "/sync/push", signedIn = true) {
             contentType(ContentType.Application.Json)
             setBody(json(PushRequest.serializer(), request))
-            timeout { requestTimeoutMillis = TRANSFER_TIMEOUT_MS }
+            timeout { requestTimeoutMillis = SYNC_TIMEOUT_MS; socketTimeoutMillis = SYNC_SOCKET_TIMEOUT_MS }
         }.bodyAsText())
 
     override suspend fun pull(since: Long, limit: Int): PullResponse = SyncJson.decodeFromString(PullResponse.serializer(),
         exchange(HttpMethod.Get, "/sync/pull", signedIn = true) {
             parameter("since", since)
             parameter("limit", limit)
-            timeout { requestTimeoutMillis = TRANSFER_TIMEOUT_MS }
+            timeout { requestTimeoutMillis = SYNC_TIMEOUT_MS; socketTimeoutMillis = SYNC_SOCKET_TIMEOUT_MS }
         }.bodyAsText())
 
     private fun CloudBackup.info() = CloudBackupInfo(id, name, deviceName, Instant.fromEpochMilliseconds(createdAt), sizeBytes)
@@ -288,5 +288,8 @@ class AccountClient(
         const val USER = "user"
         const val EARLY_SECONDS = 30
         const val TRANSFER_TIMEOUT_MS = 10 * 60_000L
+        // A batch of sync records: a stalled connection fails, and the sync with it, instead of hanging on.
+        const val SYNC_TIMEOUT_MS = 3 * 60_000L
+        const val SYNC_SOCKET_TIMEOUT_MS = 60_000L
     }
 }
