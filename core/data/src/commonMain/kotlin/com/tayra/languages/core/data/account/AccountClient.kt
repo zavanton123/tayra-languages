@@ -6,8 +6,6 @@ import com.tayra.languages.core.domain.account.AccountException
 import com.tayra.languages.core.domain.account.AccountInfo
 import com.tayra.languages.core.domain.account.AccountProblem
 import com.tayra.languages.core.domain.account.AccountRepository
-import com.tayra.languages.core.domain.account.CloudBackupInfo
-import com.tayra.languages.core.domain.account.CloudBackupStore
 import com.tayra.languages.core.domain.account.Plan
 import com.tayra.languages.core.domain.account.SignInClients
 import com.tayra.languages.core.domain.account.SignInProvider
@@ -16,7 +14,6 @@ import com.tayra.languages.core.domain.account.StoreReceipt
 import com.tayra.languages.sync.ApiError
 import com.tayra.languages.sync.ApiErrors
 import com.tayra.languages.sync.AppStorePurchase
-import com.tayra.languages.sync.CloudBackup
 import com.tayra.languages.sync.CodeRequest
 import com.tayra.languages.sync.Device
 import com.tayra.languages.sync.DeviceInfo
@@ -42,7 +39,6 @@ import io.ktor.client.request.parameter
 import io.ktor.client.request.request
 import io.ktor.client.request.setBody
 import io.ktor.client.statement.HttpResponse
-import io.ktor.client.statement.bodyAsBytes
 import io.ktor.client.statement.bodyAsText
 import io.ktor.http.ContentType
 import io.ktor.http.HttpMethod
@@ -75,7 +71,7 @@ class AccountClient(
     private val secure: SecureStore,
     private val device: suspend () -> DeviceInfo,
     private val clock: Clock = Clock.System,
-) : AccountRepository, CloudBackupStore, SyncTransport {
+) : AccountRepository, SyncTransport {
     private val _signedIn = MutableStateFlow(secure.get(key(EMAIL))?.takeIf { secure.get(key(REFRESH)) != null })
     override val signedIn: StateFlow<String?> = _signedIn.asStateFlow()
 
@@ -148,24 +144,6 @@ class AccountClient(
         forget()
     }
 
-    override suspend fun list(): List<CloudBackupInfo> = call(HttpMethod.Get, "/backups", null, ListSerializer(CloudBackup.serializer())).map { it.info() }
-
-    override suspend fun upload(name: String, content: ByteArray): CloudBackupInfo {
-        val label = device().name
-        return SyncJson.decodeFromString(CloudBackup.serializer(), exchange(HttpMethod.Post, "/backups", signedIn = true) {
-            parameter("name", name)
-            parameter("device", label)
-            contentType(ContentType.Application.OctetStream)
-            setBody(content)
-            timeout { requestTimeoutMillis = TRANSFER_TIMEOUT_MS }
-        }.bodyAsText()).info()
-    }
-
-    override suspend fun download(id: String): ByteArray =
-        exchange(HttpMethod.Get, "/backups/$id", signedIn = true) { timeout { requestTimeoutMillis = TRANSFER_TIMEOUT_MS } }.bodyAsBytes()
-
-    override suspend fun delete(id: String) = send(HttpMethod.Delete, "/backups/$id", null)
-
     // By the account's id, so an account deleted and made again with the same email is another one.
     override fun syncAccount(): String? = signedIn.value?.let { email -> "${server.url()?.trimEnd('/').orEmpty()} ${secure.get(key(USER)) ?: email}" }
 
@@ -182,8 +160,6 @@ class AccountClient(
             parameter("limit", limit)
             timeout { requestTimeoutMillis = SYNC_TIMEOUT_MS; socketTimeoutMillis = SYNC_SOCKET_TIMEOUT_MS }
         }.bodyAsText())
-
-    private fun CloudBackup.info() = CloudBackupInfo(id, name, deviceName, Instant.fromEpochMilliseconds(createdAt), sizeBytes)
 
     private fun keep(tokens: Tokens) {
         // Empty for the web app, whose refresh token is a cookie the service reads itself.
@@ -259,7 +235,6 @@ class AccountClient(
             ApiErrors.WRONG_CODE -> AccountProblem.WRONG_CODE
             ApiErrors.SIGNED_OUT -> AccountProblem.SIGNED_OUT
             ApiErrors.SUBSCRIPTION_REQUIRED -> AccountProblem.SUBSCRIPTION_REQUIRED
-            ApiErrors.TOO_LARGE -> AccountProblem.TOO_LARGE
             ApiErrors.RATE_LIMITED -> AccountProblem.BUSY
             ApiErrors.NOT_FOUND -> AccountProblem.NOT_FOUND
             ApiErrors.INVALID_REQUEST -> AccountProblem.INVALID
@@ -267,7 +242,6 @@ class AccountClient(
                 401 -> AccountProblem.SIGNED_OUT
                 402 -> AccountProblem.SUBSCRIPTION_REQUIRED
                 404 -> AccountProblem.NOT_FOUND
-                413 -> AccountProblem.TOO_LARGE
                 429 -> AccountProblem.BUSY
                 in 400..499 -> AccountProblem.INVALID
                 else -> AccountProblem.SERVER
@@ -287,7 +261,6 @@ class AccountClient(
         val STORE_PLATFORMS = setOf("android", "ios")
         const val USER = "user"
         const val EARLY_SECONDS = 30
-        const val TRANSFER_TIMEOUT_MS = 10 * 60_000L
         // A batch of sync records: a stalled connection fails, and the sync with it, instead of hanging on.
         const val SYNC_TIMEOUT_MS = 3 * 60_000L
         const val SYNC_SOCKET_TIMEOUT_MS = 60_000L

@@ -6,8 +6,6 @@ import com.tayra.languages.core.domain.account.AccountException
 import com.tayra.languages.core.domain.account.AccountInfo
 import com.tayra.languages.core.domain.account.AccountProblem
 import com.tayra.languages.core.domain.account.AccountRepository
-import com.tayra.languages.core.domain.account.CloudBackupInfo
-import com.tayra.languages.core.domain.account.CloudBackupService
 import com.tayra.languages.core.domain.account.AutoSync
 import com.tayra.languages.core.domain.account.SyncResult
 import com.tayra.languages.core.domain.account.IdentityException
@@ -20,7 +18,6 @@ import com.tayra.languages.core.domain.account.StoreProduct
 import com.tayra.languages.core.domain.account.Subscriptions
 import com.tayra.languages.core.domain.account.SyncProgress
 import com.tayra.languages.core.domain.account.SyncSummary
-import com.tayra.languages.core.domain.backup.BackupException
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -40,7 +37,6 @@ data class AccountUiState(
     val signedIn: String? = null,
     val account: AccountInfo? = null,
     val devices: List<SignedInDevice> = emptyList(),
-    val cloudBackups: List<CloudBackupInfo> = emptyList(),
     /** What the last sync from this page did. */
     val synced: SyncSummary? = null,
     /** The first sync would combine this device's library with the account's: the page asks first. */
@@ -71,14 +67,13 @@ data class AccountUiState(
     val done: AccountDone? = null,
 )
 
-enum class AccountTask { SIGNING_IN, LOADING, SENDING_CODE, CONFIRMING, SUBSCRIBING, SYNCING, BACKING_UP, RESTORING, DELETING }
+enum class AccountTask { SIGNING_IN, LOADING, SENDING_CODE, CONFIRMING, SUBSCRIBING, SYNCING, DELETING }
 
-enum class AccountDone { EMAIL_CONFIRMED, CODE_SENT, PASSWORD_RESET, SUBSCRIBED, PURCHASES_RESTORED, SYNCED, BACKED_UP, RESTORED, ACCOUNT_DELETED }
+enum class AccountDone { EMAIL_CONFIRMED, CODE_SENT, PASSWORD_RESET, SUBSCRIBED, PURCHASES_RESTORED, SYNCED, ACCOUNT_DELETED }
 
-/** The account this device is signed in to, its devices, syncing with it and its cloud backups. */
+/** The account this device is signed in to, its devices and syncing with it. */
 class AccountViewModel(
     private val accounts: AccountRepository,
-    private val cloud: CloudBackupService,
     private val sync: AutoSync,
     private val settings: SettingsRepository,
     /** Buying in the store, in the phone apps; null elsewhere. */
@@ -186,23 +181,6 @@ class AccountViewModel(
 
     fun cancelCombine() = _state.update { it.copy(confirmCombine = false) }
 
-    fun backUp() = work(AccountTask.BACKING_UP) {
-        cloud.backUp()
-        _state.update { it.copy(cloudBackups = cloud.list(), done = AccountDone.BACKED_UP) }
-    }
-
-    /** Replaces the library with the cloud backup; [onRestored] starts the app over on the restored library. */
-    fun restore(id: String, onRestored: () -> Unit) = work(AccountTask.RESTORING) {
-        cloud.restore(id)
-        _state.update { it.copy(done = AccountDone.RESTORED) }
-        onRestored()
-    }
-
-    fun deleteCloudBackup(id: String) = work(AccountTask.LOADING) {
-        cloud.delete(id)
-        _state.update { it.copy(cloudBackups = cloud.list()) }
-    }
-
     fun deleteAccount() = work(AccountTask.DELETING) {
         accounts.deleteAccount()
         _state.update { AccountUiState(available = it.available, autoSync = it.autoSync, done = AccountDone.ACCOUNT_DELETED) }
@@ -214,9 +192,8 @@ class AccountViewModel(
     private suspend fun load() {
         val account = accounts.account()
         val devices = accounts.devices()
-        val backups = cloud.list()
         _state.update {
-            it.copy(signedIn = accounts.signedIn.value, account = account, devices = devices, cloudBackups = backups, storeAvailable = subscriptions != null)
+            it.copy(signedIn = accounts.signedIn.value, account = account, devices = devices, storeAvailable = subscriptions != null)
         }
         // The store answers in its own time, and one that cannot be reached leaves the page without plans to buy.
         val store = subscriptions ?: return
@@ -265,8 +242,6 @@ class AccountViewModel(
                     (if (signedOut) AccountUiState(available = it.available, autoSync = it.autoSync) else it).copy(problem = e.problem, problemText = e.message)
                 }
                 if (e.problem == AccountProblem.SIGNED_OUT) offerProviders()
-            } catch (e: BackupException) {
-                _state.update { it.copy(problem = AccountProblem.INVALID, problemText = e.message) }
             } catch (e: IdentityException) {
                 _state.update { it.copy(problem = AccountProblem.INVALID, problemText = e.message) }
             } catch (e: StoreException) {

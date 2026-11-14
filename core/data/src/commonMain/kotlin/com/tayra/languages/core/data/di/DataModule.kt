@@ -2,8 +2,6 @@ package com.tayra.languages.core.data.di
 
 import com.tayra.languages.core.domain.courses.LessonSummaries
 import org.koin.dsl.binds
-import com.tayra.languages.core.domain.account.CloudBackupStore
-import com.tayra.languages.core.domain.account.CloudBackupService
 import com.tayra.languages.core.domain.account.AccountRepository
 import com.tayra.languages.core.domain.account.AutoSync
 import com.tayra.languages.core.domain.account.LibrarySync
@@ -195,8 +193,7 @@ val dataModule: Module = module {
             platform?.store ?: get<SecureStore>(),
             device = { thisDevice(provider) },
         )
-    } binds arrayOf(AccountRepository::class, CloudBackupStore::class, SyncTransport::class)
-    single { CloudBackupService(get(), get()) }
+    } binds arrayOf(AccountRepository::class, SyncTransport::class)
     single<LibrarySync> {
         SyncEngine(get(), get(), get<Settings>(), addLanguage = { code ->
             LanguageCatalog.targetLanguages.firstOrNull { LanguageCodes.codeFor(it) == code }?.let { get<LanguageService>().loadPredefined(it, withTutorial = false) }

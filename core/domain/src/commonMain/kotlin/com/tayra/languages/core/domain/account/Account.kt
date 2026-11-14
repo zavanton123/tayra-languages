@@ -29,9 +29,6 @@ data class Plan(
 /** A device signed in to the account; [current] is this one. */
 data class SignedInDevice(val id: String, val name: String, val platform: String, val lastUsedAt: Instant, val current: Boolean)
 
-/** A library file kept in the cloud. */
-data class CloudBackupInfo(val id: String, val name: String, val deviceName: String, val createdAt: Instant, val sizeBytes: Long)
-
 /** Why something to do with the account did not happen. */
 enum class AccountProblem {
     /** This build has no account service to talk to. */
@@ -44,7 +41,6 @@ enum class AccountProblem {
     /** The device was signed out, here or from another device. */
     SIGNED_OUT,
     SUBSCRIPTION_REQUIRED,
-    TOO_LARGE,
     /** Too many requests from this address for now: a minute later they are taken again. */
     BUSY,
     NOT_FOUND,
@@ -96,17 +92,6 @@ interface AccountRepository {
 
     /** Signs in with an ID token [provider] gave this device; the account is made the first time. */
     suspend fun signInWith(provider: SignInProvider, idToken: String): AccountInfo
-}
-
-/** The account's library files in the cloud. */
-interface CloudBackupStore {
-    suspend fun list(): List<CloudBackupInfo>
-
-    suspend fun upload(name: String, content: ByteArray): CloudBackupInfo
-
-    suspend fun download(id: String): ByteArray
-
-    suspend fun delete(id: String)
 }
 
 /** What one sync did: the records sent, the records received, and how many of those changed this device. */

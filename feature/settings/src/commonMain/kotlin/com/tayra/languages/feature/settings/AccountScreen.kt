@@ -35,13 +35,11 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.account.AccountProblem
-import com.tayra.languages.core.domain.account.CloudBackupInfo
 import com.tayra.languages.core.domain.account.SignInProvider
 import com.tayra.languages.core.domain.account.SyncPhase
 import com.tayra.languages.core.domain.account.SyncProgress
 import com.tayra.languages.core.ui.components.APP_NAME
 import com.tayra.languages.core.ui.components.AppDivider
-import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ButtonTone
@@ -58,7 +56,6 @@ import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusTints
-import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
@@ -70,11 +67,11 @@ import kotlin.time.Instant
 
 /**
  * Settings: the Tayra Languages account this device is signed in to. Signed out, it signs in or
- * makes an account; signed in, it shows the subscription, keeps library backups in the cloud and
- * takes them back, lists the devices signed in, and signs out or deletes the account.
+ * makes an account; signed in, it shows the subscription and syncing, lists the devices signed in,
+ * and signs out or deletes the account.
  */
 @Composable
-fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: () -> Unit, viewModel: AccountViewModel = koinViewModel()) {
+fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: AccountViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val compact = LocalWindowWidth.current.isCompact
     // Back from the checkout in the browser, or from a store, the plan may have changed.
@@ -83,7 +80,7 @@ fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: (
         topBar = { AppTopBar(title = if (compact) tr("Account") else APP_NAME, onNavigate = onNavigate, onBack = onBack.takeIf { compact }, section = NavSection.ACCOUNT) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        val content: @Composable () -> Unit = { AccountContent(state, viewModel, onBack, onRestored) }
+        val content: @Composable () -> Unit = { AccountContent(state, viewModel, onBack) }
         if (compact) {
             ScrollColumn(
                 Modifier.padding(padding).fillMaxSize(),
@@ -97,8 +94,8 @@ fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: (
 }
 
 @Composable
-internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, onBack: () -> Unit, onRestored: () -> Unit) {
-    ScreenHeader(tr("Account"), tr("Keep your library in the cloud and on all your devices."), onBackToSettings = onBack)
+internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, onBack: () -> Unit) {
+    ScreenHeader(tr("Account"), tr("Keep your library the same on all your devices."), onBackToSettings = onBack)
     state.problem?.let { ProblemNotice(it, state.problemText) }
     state.done?.let { DoneNotice(it) }
     when {
@@ -108,7 +105,6 @@ internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, o
         else -> {
             AccountCard(state, actions)
             SyncCard(state, actions)
-            CloudBackupsCard(state, actions, onRestored)
             DevicesCard(state, actions)
             DeleteAccountCard(state, actions)
         }
@@ -132,7 +128,7 @@ private fun SignInCard(state: AccountUiState, actions: AccountViewModel?) {
     val busy = state.busy != null
     ContentCard(
         if (creating) tr("Create an account") else tr("Sign in"),
-        subtitle = tr("With an account, your library can be backed up to the cloud and taken to your other devices."),
+        subtitle = tr("With an account, your library goes with you to your other devices."),
         icon = Icons.Default.AccountCircle,
     ) {
         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -243,9 +239,9 @@ private fun StorePlans(state: AccountUiState, actions: AccountViewModel?) {
 private fun planText(state: AccountUiState): String {
     val plan = state.account?.plan ?: return tr("Loading…")
     return when {
-        !plan.active -> tr("Cloud backups and sync are not active on this account.")
-        plan.activeUntil != null -> tr("Cloud backups and sync are active until {0}.", day(plan.activeUntil!!))
-        else -> tr("Cloud backups and sync are active.")
+        !plan.active -> tr("Sync is not active on this account.")
+        plan.activeUntil != null -> tr("Sync is active until {0}.", day(plan.activeUntil!!))
+        else -> tr("Sync is active.")
     }
 }
 
@@ -316,58 +312,6 @@ internal fun progressLine(progress: SyncProgress): String? = when (progress.phas
 }
 
 @Composable
-private fun CloudBackupsCard(state: AccountUiState, actions: AccountViewModel?, onRestored: () -> Unit) {
-    var restoring by remember { mutableStateOf<CloudBackupInfo?>(null) }
-    var deleting by remember { mutableStateOf<CloudBackupInfo?>(null) }
-    val active = state.account?.plan?.active == true
-    ContentCard(
-        tr("Cloud backups"),
-        subtitle = if (active) tr("A copy of your library, vocabulary, progress and settings, kept in your account.") else tr("Backing up to the cloud needs an active subscription. Backups made before stay yours to restore."),
-        icon = AppIcons.UploadFile,
-    ) {
-        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            PrimaryButton(
-                tr("Back up now"), onClick = { actions?.backUp() }, enabled = active && state.busy == null,
-                loading = state.busy == AccountTask.BACKING_UP, modifier = Modifier.testTag("cloud-back-up"),
-            )
-            if (state.cloudBackups.isEmpty()) {
-                Text(tr("No backups in the cloud yet."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-            state.cloudBackups.forEachIndexed { index, backup ->
-                if (index > 0) AppDivider()
-                Row(Modifier.fillMaxWidth().testTag("cloud-backup-$index"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    Column(Modifier.weight(1f)) {
-                        Text(when_(backup.createdAt), style = MaterialTheme.typography.titleSmall)
-                        Text(tr("From {0} · {1}", backup.deviceName.ifBlank { "?" }, formatSize(backup.sizeBytes)), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    }
-                    QuietButton(tr("Restore"), onClick = { restoring = backup }, enabled = state.busy == null, modifier = Modifier.testTag("cloud-restore-$index"))
-                    QuietButton(tr("Delete"), onClick = { deleting = backup }, enabled = state.busy == null, tone = ButtonTone.Danger)
-                }
-            }
-        }
-    }
-    restoring?.let { backup ->
-        ConfirmDialog(
-            title = tr("Restore this backup?"),
-            text = tr("Your library, vocabulary, progress and settings are replaced with the backup of {0}. What you have now is backed up on this device first, so you can go back.", when_(backup.createdAt)),
-            confirmLabel = tr("Restore"),
-            onConfirm = { restoring = null; actions?.restore(backup.id, onRestored) },
-            onDismiss = { restoring = null },
-        )
-    }
-    deleting?.let { backup ->
-        ConfirmDialog(
-            title = tr("Delete this backup?"),
-            text = tr("The backup of {0} is removed from your account.", when_(backup.createdAt)),
-            confirmLabel = tr("Delete"),
-            destructive = true,
-            onConfirm = { deleting = null; actions?.deleteCloudBackup(backup.id) },
-            onDismiss = { deleting = null },
-        )
-    }
-}
-
-@Composable
 private fun DevicesCard(state: AccountUiState, actions: AccountViewModel?) {
     if (state.devices.isEmpty()) return
     ContentCard(tr("Devices"), subtitle = tr("The devices signed in to your account."), icon = Icons.Default.Phone) {
@@ -391,13 +335,13 @@ private fun DevicesCard(state: AccountUiState, actions: AccountViewModel?) {
 @Composable
 private fun DeleteAccountCard(state: AccountUiState, actions: AccountViewModel?) {
     var confirming by remember { mutableStateOf(false) }
-    ContentCard(tr("Delete account"), subtitle = tr("Removes the account, its cloud backups and everything kept with it. The library on this device stays."), icon = Icons.Default.Warning) {
+    ContentCard(tr("Delete account"), subtitle = tr("Removes the account and everything kept with it. The library on this device stays."), icon = Icons.Default.Warning) {
         SecondaryButton(tr("Delete account"), onClick = { confirming = true }, enabled = state.busy == null, tone = ButtonTone.Danger, modifier = Modifier.testTag("account-delete"))
     }
     if (confirming) {
         ConfirmDialog(
             title = tr("Delete your account?"),
-            text = tr("Your account, its cloud backups and everything kept with it are deleted for good. This device is signed out; its library stays."),
+            text = tr("Your account and everything kept with it are deleted for good. This device is signed out; its library stays."),
             confirmLabel = tr("Delete account"),
             destructive = true,
             onConfirm = { confirming = false; actions?.deleteAccount() },
@@ -426,7 +370,6 @@ internal fun problemTitle(problem: AccountProblem, text: String?): String = when
     AccountProblem.WRONG_CODE -> tr("That code is wrong or has expired")
     AccountProblem.SIGNED_OUT -> tr("This device was signed out")
     AccountProblem.SUBSCRIPTION_REQUIRED -> tr("This needs an active subscription")
-    AccountProblem.TOO_LARGE -> tr("The library is too large to back up to the cloud")
     AccountProblem.BUSY -> tr("Too many tries for now; wait a minute and try again")
     AccountProblem.NOT_FOUND -> tr("That is no longer in your account")
     AccountProblem.INVALID -> text ?: tr("That was not accepted")
@@ -443,11 +386,9 @@ private fun DoneNotice(done: AccountDone) {
             AccountDone.EMAIL_CONFIRMED -> tr("Your email is confirmed")
             AccountDone.CODE_SENT -> tr("A new code is on its way")
             AccountDone.PASSWORD_RESET -> tr("Your new password is set")
-            AccountDone.SUBSCRIBED -> tr("Thank you: sync and cloud backups are on")
+            AccountDone.SUBSCRIBED -> tr("Thank you: sync is on")
             AccountDone.PURCHASES_RESTORED -> tr("Your purchases are restored")
             AccountDone.SYNCED -> tr("This device is in sync")
-            AccountDone.BACKED_UP -> tr("Your library is backed up to the cloud")
-            AccountDone.RESTORED -> tr("The backup is restored")
             AccountDone.ACCOUNT_DELETED -> tr("Your account is deleted")
         },
         icon = Icons.Default.CheckCircle,

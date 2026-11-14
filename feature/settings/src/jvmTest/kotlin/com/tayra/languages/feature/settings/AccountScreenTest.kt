@@ -25,9 +25,6 @@ import com.tayra.languages.core.domain.account.AccountInfo
 import com.tayra.languages.core.domain.account.AccountProblem
 import com.tayra.languages.core.domain.account.AccountRepository
 import com.tayra.languages.core.domain.account.AutoSync
-import com.tayra.languages.core.domain.account.CloudBackupInfo
-import com.tayra.languages.core.domain.account.CloudBackupService
-import com.tayra.languages.core.domain.account.CloudBackupStore
 import com.tayra.languages.core.domain.account.LibrarySync
 import com.tayra.languages.core.domain.account.Plan
 import com.tayra.languages.core.domain.account.IdentitySignIn
@@ -42,8 +39,6 @@ import com.tayra.languages.core.domain.account.Subscriptions
 import com.tayra.languages.core.domain.account.SyncPhase
 import com.tayra.languages.core.domain.account.SyncProgress
 import com.tayra.languages.core.domain.account.SyncSummary
-import com.tayra.languages.core.domain.backup.Backup
-import com.tayra.languages.core.domain.backup.BackupRepository
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme
 import kotlinx.coroutines.CompletableDeferred
@@ -59,15 +54,14 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.time.Instant
 
-/** The account page signed out and in: signing in, confirming the email, backing up and restoring, the devices. */
+/** The account page signed out and in: signing in, confirming the email, the plan, syncing, the devices. */
 @OptIn(ExperimentalTestApi::class)
 class AccountScreenTest {
 
     /** One account with this password, its email not confirmed until the code 123456 is given. */
-    private class FakeAccounts(override val available: Boolean = true, val active: Boolean = true, val checkoutUrl: String? = null, val manageUrl: String? = null) : AccountRepository, CloudBackupStore {
+    private class FakeAccounts(override val available: Boolean = true, val active: Boolean = true, val checkoutUrl: String? = null, val manageUrl: String? = null) : AccountRepository {
         override val signedIn = MutableStateFlow<String?>(null)
         var confirmed = false
-        val kept = mutableListOf<CloudBackupInfo>()
         val reported = mutableListOf<StoreReceipt>()
 
         private fun info() = AccountInfo("reader@example.com", confirmed, true, emptyList(), Plan(active, Instant.parse("2027-01-31T12:00:00Z").takeIf { active }, "paddle".takeIf { active }, checkoutUrl, manageUrl), id = "u1")
@@ -99,21 +93,6 @@ class AccountScreenTest {
             signedIn.value = "google-user@example.com"
             return info()
         }
-        override suspend fun list() = kept.reversed()
-        override suspend fun upload(name: String, content: ByteArray) =
-            CloudBackupInfo("c${kept.size}", name, "Studio Mac", Instant.parse("2026-10-26T10:15:00Z"), content.size.toLong()).also { kept += it }
-        override suspend fun download(id: String) = byteArrayOf(1, 2, 3)
-        override suspend fun delete(id: String) { kept.removeAll { it.id == id } }
-    }
-
-    private class FakeBackups : BackupRepository {
-        val restored = mutableListOf<String>()
-        override suspend fun list() = emptyList<Backup>()
-        override suspend fun create() = Backup("tayra-backup.sqlite", null, 2_400_000)
-        override suspend fun delete(name: String) {}
-        override suspend fun read(name: String) = ByteArray(2_400_000)
-        override suspend fun import(file: ByteArray) = Backup("taken.sqlite", null, file.size.toLong())
-        override suspend fun restore(name: String): Backup { restored += name; return Backup("before.sqlite", null, 1) }
     }
 
     /** The addresses the page opened in the browser. */
@@ -147,15 +126,14 @@ class AccountScreenTest {
     }
 
     private fun ComposeUiTest.show(
-        accounts: FakeAccounts, local: FakeBackups = FakeBackups(), sync: LibrarySync = FakeSync(), store: StorePurchases? = null,
-        identity: IdentitySignIn? = null, onRestored: () -> Unit = {},
+        accounts: FakeAccounts, sync: LibrarySync = FakeSync(), store: StorePurchases? = null, identity: IdentitySignIn? = null,
     ): AccountViewModel {
         val settings = SettingsRepositoryImpl(MapSettings())
         auto = AutoSync(sync, accounts, settings, emptyFlow())
-        val viewModel = AccountViewModel(accounts, CloudBackupService(local, accounts), auto, settings, store?.let { Subscriptions(it, accounts) }, identity)
+        val viewModel = AccountViewModel(accounts, auto, settings, store?.let { Subscriptions(it, accounts) }, identity)
         setContent {
             CompositionLocalProvider(LocalUriHandler provides object : UriHandler { override fun openUri(uri: String) { opened += uri } }) {
-                TayraTheme { ProvideWindowWidth { AccountScreen(onNavigate = {}, onBack = {}, onRestored = onRestored, viewModel = viewModel) } }
+                TayraTheme { ProvideWindowWidth { AccountScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
             }
         }
         waitForIdle()
@@ -192,7 +170,7 @@ class AccountScreenTest {
     }
 
     @Test
-    fun signingInShowsThePlanTheBackupsAndTheDevices() = runDesktopComposeUiTest(width = 1400, height = 1600) {
+    fun signingInShowsThePlanAndTheDevices() = runDesktopComposeUiTest(width = 1400, height = 1600) {
         val accounts = FakeAccounts()
         show(accounts)
         save("ACCOUNT_SCREENSHOT", "-signed-out")
@@ -205,7 +183,7 @@ class AccountScreenTest {
         onNodeWithTag("account-password").performTextInput("correct horse")
         onNodeWithTag("account-submit").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Cloud backups and sync are active until 2027-01-31.").assertExists()
+        onNodeWithText("Sync is active until 2027-01-31.").assertExists()
         onNodeWithText("This device").assertExists()
         onNodeWithText("Pixel 9").assertExists()
 
@@ -218,10 +196,7 @@ class AccountScreenTest {
         onNodeWithText("Confirm").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Your email is confirmed").fetchSemanticsNodes().isNotEmpty() }
 
-        onNodeWithTag("cloud-back-up").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Your library is backed up to the cloud").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("cloud-backup-0").assertExists()
-        assertEquals(1, accounts.kept.size)
+        assertEquals(0, onAllNodesWithText("Cloud backups").fetchSemanticsNodes().size, "the account keeps no backups")
         save("ACCOUNT_SCREENSHOT")
     }
 
@@ -247,7 +222,7 @@ class AccountScreenTest {
         onNodeWithText("Renews automatically until you cancel it in the store's subscriptions.").assertExists()
         save("ACCOUNT_SCREENSHOT", "-store")
         onNodeWithTag("account-buy-${StoreProducts.YEARLY}").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Thank you: sync and cloud backups are on").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Thank you: sync is on").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(listOf(StoreProducts.YEARLY to "u1"), store.bought)
         assertEquals(listOf<StoreReceipt>(StoreReceipt.GooglePlay(StoreProducts.YEARLY, "token-1")), accounts.reported)
 
@@ -341,28 +316,11 @@ class AccountScreenTest {
     }
 
     @Test
-    fun aCloudBackupIsRestoredAfterAsking() = runDesktopComposeUiTest(width = 1400, height = 1600) {
-        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
-        val local = FakeBackups()
-        var restarted = 0
-        kotlinx.coroutines.runBlocking { accounts.upload("tayra-backup.sqlite", ByteArray(10)) }
-        show(accounts, local, onRestored = { restarted++ })
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("cloud-restore-0").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("cloud-restore-0").performScrollTo().performClick()
-        onNodeWithText("Restore this backup?").assertExists()
-        onAllNodesWithText("Restore").fetchSemanticsNodes().size.let { assertEquals(true, it >= 2) }
-        onAllNodesWithText("Restore")[onAllNodesWithText("Restore").fetchSemanticsNodes().size - 1].performClick()
-        waitUntil(timeoutMillis = 5_000) { restarted == 1 }
-        assertEquals(listOf("taken.sqlite"), local.restored, "the cloud backup is taken back and restored from")
-    }
-
-    @Test
-    fun withoutASubscriptionBackingUpWaits() = runDesktopComposeUiTest(width = 400, height = 1600) {
+    fun withoutASubscriptionSyncingWaits() = runDesktopComposeUiTest(width = 400, height = 1600) {
         val accounts = FakeAccounts(active = false).apply { signedIn.value = "reader@example.com" }
         show(accounts)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Cloud backups and sync are not active on this account.").assertExists()
-        onNodeWithTag("cloud-back-up").performScrollTo().assertExists()
+        onNodeWithText("Sync is not active on this account.").assertExists()
         onNodeWithText("Syncing needs an active subscription.").assertExists()
         onNodeWithTag("account-sync").assertIsNotEnabled()
         save("ACCOUNT_SCREENSHOT", "-phone")

@@ -190,6 +190,6 @@ private fun accountMessage(e: AccountException): String = when (e.problem) {
 private fun accountExitCode(problem: AccountProblem): Int = when (problem) {
     AccountProblem.NOT_FOUND -> ExitCode.NOT_FOUND
     AccountProblem.EMAIL_TAKEN, AccountProblem.BAD_CREDENTIALS, AccountProblem.WRONG_CODE, AccountProblem.SUBSCRIPTION_REQUIRED,
-    AccountProblem.TOO_LARGE, AccountProblem.INVALID -> ExitCode.INVALID
+    AccountProblem.INVALID -> ExitCode.INVALID
     else -> ExitCode.ERROR
 }

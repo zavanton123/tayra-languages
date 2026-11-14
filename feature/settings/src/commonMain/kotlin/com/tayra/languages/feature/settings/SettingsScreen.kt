@@ -244,7 +244,7 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
         SettingsPage(tr("Translation"), tr("Choose how translations are generated and stored."), Route.OfflineTranslation, AppIcons.Translate, translationEngineName(settings.translationEngine)),
     )
     val data = listOf(
-        SettingsPage(tr("Account"), tr("Back up your library to the cloud and use it on all your devices."), Route.Account, Icons.Default.AccountCircle),
+        SettingsPage(tr("Account"), tr("Keep your library the same on all your devices."), Route.Account, Icons.Default.AccountCircle),
         SettingsPage(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), Route.Backups, AppIcons.UploadFile),
         SettingsPage(tr("Book archive"), tr("Books you put away, to bring back or delete."), Route.ArchivedBooks, AppIcons.BookClosed),
     )

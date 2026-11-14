@@ -80,9 +80,6 @@ data class Me(
 @Serializable
 data class Device(val id: String, val name: String, val platform: String, val lastUsedAt: Long, val current: Boolean)
 
-@Serializable
-data class CloudBackup(val id: String, val name: String, val deviceName: String, val createdAt: Long, val sizeBytes: Long)
-
 /** A failure the apps can act on: [error] is one of [ApiErrors], [message] says it in English. */
 @Serializable
 data class ApiError(val error: String, val message: String)
@@ -106,6 +103,5 @@ object ApiErrors {
     const val PROVIDER_NOT_SET_UP = "provider_not_set_up"
     const val SUBSCRIPTION_REQUIRED = "subscription_required"
     const val NOT_FOUND = "not_found"
-    const val TOO_LARGE = "too_large"
     const val RATE_LIMITED = "rate_limited"
 }
