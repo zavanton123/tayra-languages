@@ -55,6 +55,13 @@ import com.tayra.languages.feature.playlists.PlaybackProblemDialog
 import com.tayra.languages.feature.playlists.PlayerBar
 import com.tayra.languages.feature.playlists.playlistsGraph
 import com.tayra.languages.feature.settings.LanguageSetupDialog
+import com.tayra.languages.feature.settings.SyncPrompt
+import com.tayra.languages.feature.settings.SyncPromptViewModel
+import com.tayra.languages.core.ui.components.LocalSyncEntry
+import com.tayra.languages.core.ui.components.PullToSync
+import com.tayra.languages.core.ui.components.SyncEntry
+import androidx.compose.foundation.layout.fillMaxSize
+import org.koin.compose.viewmodel.koinViewModel
 import com.tayra.languages.feature.reading.readingGraph
 import com.tayra.languages.feature.settings.settingsGraph
 import com.tayra.languages.feature.stats.statsGraph
@@ -93,7 +100,12 @@ fun AppNavHost(openCourses: Int = 0) {
     }
     // The language whose downloads the playlist player sent for, to get a voice for it.
     var voiceFor by remember { mutableStateOf<Long?>(null) }
-    CompositionLocalProvider(LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog) {
+    // Syncing is asked from the wide bar's button or by pulling a phone page down; neither shows without an account service.
+    val syncPrompt = koinViewModel<SyncPromptViewModel>()
+    val sync by syncPrompt.state.collectAsStateWithLifecycle()
+    val syncEntry = remember(sync.available, sync.running) { if (sync.available) SyncEntry(sync.running, syncPrompt::open) else null }
+    val pullToSync = syncEntry != null && LocalWindowWidth.current.isCompact && destination?.let(::pullsToSync) == true
+    CompositionLocalProvider(LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog, LocalSyncEntry provides syncEntry) {
     Scaffold(
         bottomBar = {
             // The playlist player's bar stays while anything is loaded, over the phone's tabs.
@@ -121,10 +133,11 @@ fun AppNavHost(openCourses: Int = 0) {
         // Screens change with a quick crossfade, and at once when motion is reduced.
         val enter = if (AppMotion.reduced) EnterTransition.None else fadeIn(AppMotion.spec(AppMotion.medium, AppMotion.enter))
         val exit = if (AppMotion.reduced) ExitTransition.None else fadeOut(AppMotion.spec(AppMotion.short, AppMotion.exit))
+        PullToSync(pullToSync, onPull = syncPrompt::open, modifier = Modifier.padding(padding).consumeWindowInsets(padding)) {
         NavHost(
             navController = navController,
             startDestination = Route.Home,
-            modifier = Modifier.padding(padding).consumeWindowInsets(padding),
+            modifier = Modifier.fillMaxSize(),
             enterTransition = { enter },
             exitTransition = { exit },
             popEnterTransition = { enter },
@@ -145,12 +158,14 @@ fun AppNavHost(openCourses: Int = 0) {
             statsGraph(navController)
             composable<Route.ChooseLanguage> { ChooseLanguageScreen(onBack = { navController.popBackStack() }) }
         }
+        }
     }
     }
     PlaybackProblemDialog(onDownloadVoice = { voiceFor = it })
     PlaybackNotificationsPermission()
     LanguageSetupDialog(voiceFor, onClosed = { voiceFor = null })
     if (more) MoreSheet(onNavigate = { more = false; navController.navigate(it) }, onDismiss = { more = false })
+    SyncPrompt(syncPrompt, onOpenAccount = { navController.navigate(Route.Account) { launchSingleTop = true } })
     TranslationBackupNotice(onBackups = { navController.navigate(Route.Backups) { launchSingleTop = true } })
 }
 
@@ -167,6 +182,12 @@ private fun TranslationBackupNotice(onBackups: () -> Unit) {
     }
     ToastHost(toast)
 }
+
+/** Whether pulling the page down asks to sync: not where the page has a vertical drag of its own, as the reader, a review, a practice or a player. */
+private fun pullsToSync(destination: NavDestination): Boolean =
+    !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>() && !destination.hasRoute<Route.PracticeWords>() &&
+        !destination.hasRoute<Route.Flashcards>() && !destination.hasRoute<Route.Watch>() && !destination.hasRoute<Route.Player>() &&
+        !destination.hasRoute<Route.ChooseLanguage>()
 
 /** The area of the bottom bar a destination belongs to; pages beyond the tabs count as More. */
 private fun sectionOf(destination: NavDestination): NavSection = when {
