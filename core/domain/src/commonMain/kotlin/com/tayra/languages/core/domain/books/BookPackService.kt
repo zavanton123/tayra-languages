@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.books
 
+import com.tayra.languages.core.domain.account.PackChoices
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.BookDraft
@@ -14,12 +15,14 @@ import kotlinx.coroutines.flow.update
 /**
  * Installs and removes book packs. Installing adds the pack's books to the library of every
  * language it is in, each marked with the pack as its source; removing deletes those books again.
+ * Both are noted in [choices], for the account's other devices to follow.
  */
 class BookPackService(
     private val store: BookPackStore,
     private val books: BookRepository,
     private val bookService: BookService,
     private val languages: LanguageRepository,
+    private val choices: PackChoices? = null,
 ) {
     private val _packs = MutableStateFlow(BookPacks.all.map { BookPackStatus(it, PackState.NotInstalled) })
 
@@ -41,6 +44,7 @@ class BookPackService(
                 else -> PackState.NotInstalled
             }
             setState(pack, state)
+            if (state is PackState.Installed) choices?.found(PackChoices.bookPack(pack.id))
         }
     }
 
@@ -57,6 +61,7 @@ class BookPackService(
             }
             addBooks(pack, packed)
             setState(pack, PackState.Installed(store.installedSize(pack) ?: 0))
+            choices?.chose(PackChoices.bookPack(pack.id), installed = true)
         } catch (e: Exception) {
             setState(pack, PackState.Failed(e.message ?: "Download failed"))
         }
@@ -80,6 +85,7 @@ class BookPackService(
         for (id in installedBookIds(pack)) books.deleteBook(id)
         store.remove(pack)
         setState(pack, PackState.NotInstalled)
+        choices?.chose(PackChoices.bookPack(pack.id), installed = false)
     }
 
     /** The library's books that came from [pack], whatever file brought them. */

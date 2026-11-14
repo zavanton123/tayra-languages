@@ -51,6 +51,9 @@ object SyncKinds {
     const val VIDEO = "video"
     const val SETTING = "setting"
 
+    /** A course or book pack installed on a device of the account, deleted when it is removed on purpose. */
+    const val PACK = "pack"
+
     /** Kinds whose records are only ever added: two devices never disagree on one, so they are never merged. */
     val appendOnly = setOf(REVIEW, WORDS_READ)
 }

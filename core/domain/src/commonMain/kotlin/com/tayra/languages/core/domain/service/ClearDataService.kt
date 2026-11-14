@@ -48,7 +48,8 @@ class ClearDataService(
             step(ClearStep.LIBRARY) { demoData.wipeDatabase() }
             step(ClearStep.COURSE_PACKS) {
                 coursePacks.refresh()
-                for (status in coursePacks.packs.value) if (status.state is PackState.Installed) coursePacks.remove(status.pack)
+                // Emptying this device is not a choice for the account's others.
+                for (status in coursePacks.packs.value) if (status.state is PackState.Installed) coursePacks.remove(status.pack, everywhere = false)
             }
             step(ClearStep.DICTIONARIES) {
                 dictionaries.refresh()

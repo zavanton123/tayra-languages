@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.courses
 
+import com.tayra.languages.core.domain.account.PackChoices
 import com.tayra.languages.core.domain.dictionary.PackState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -9,8 +10,9 @@ import kotlinx.coroutines.flow.update
 /**
  * Installs and removes course packs. Installing writes the pack's courses into the database for
  * every language it teaches; removing deletes them again, with the texts read from their lessons.
+ * Both are noted in [choices], for the account's other devices to follow.
  */
-class CoursePackService(private val store: CoursePackStore, private val courses: CourseService) {
+class CoursePackService(private val store: CoursePackStore, private val courses: CourseService, private val choices: PackChoices? = null) {
     private val _packs = MutableStateFlow(CoursePacks.all.map { CoursePackStatus(it, PackState.NotInstalled) })
 
     /** Every known pack with its current state, in catalog order. */
@@ -31,6 +33,7 @@ class CoursePackService(private val store: CoursePackStore, private val courses:
                 else -> PackState.NotInstalled
             }
             setState(pack, state)
+            if (state is PackState.Installed) choices?.found(PackChoices.coursePack(pack.id))
         }
     }
 
@@ -46,17 +49,22 @@ class CoursePackService(private val store: CoursePackStore, private val courses:
             }
             courses.seedSamples()
             setState(pack, PackState.Installed(store.installedSize(pack) ?: 0))
+            choices?.chose(PackChoices.coursePack(pack.id), installed = true)
         } catch (e: Exception) {
             setState(pack, PackState.Failed(e.message ?: "Download failed"))
         }
     }
 
-    /** Deletes the pack's courses, with their lessons and the texts read from them, and then the file. */
-    suspend fun remove(pack: CoursePack) {
+    /**
+     * Deletes the pack's courses, with their lessons and the texts read from them, and then the file;
+     * [everywhere] when the account's other devices are to remove it too.
+     */
+    suspend fun remove(pack: CoursePack, everywhere: Boolean = true) {
         // The database's own sample courses too, which outlive the file in a restored backup.
         courses.removeSamples(store.courseIds(pack) + courses.sampleCourseIds(pack.languageCode))
         store.remove(pack)
         setState(pack, PackState.NotInstalled)
+        if (everywhere) choices?.chose(PackChoices.coursePack(pack.id), installed = false)
     }
 
     private fun stateOf(pack: CoursePack): PackState? = _packs.value.firstOrNull { it.pack.id == pack.id }?.state
