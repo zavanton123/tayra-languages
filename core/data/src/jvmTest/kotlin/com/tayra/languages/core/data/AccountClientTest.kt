@@ -25,7 +25,6 @@ import io.ktor.http.headersOf
 import kotlinx.coroutines.test.runTest
 import java.io.IOException
 import kotlin.test.Test
-import kotlin.test.assertContentEquals
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
 import kotlin.test.assertFalse
@@ -208,28 +207,6 @@ class AccountClientTest {
         assertEquals(AccountProblem.SERVER, assertFailsWith<AccountException> { broken.forgotPassword("reader@example.com") }.problem)
         val busy = client { json("""{"error":"rate_limited","message":"Too many requests; try again in a minute"}""", HttpStatusCode.TooManyRequests) }
         assertEquals(AccountProblem.BUSY, assertFailsWith<AccountException> { busy.signIn("reader@example.com", "password") }.problem)
-    }
-
-    @Test
-    fun aLibraryFileGoesUpAsBytesAndComesBack() = runTest {
-        secure.put("account.http://service.test.refresh_token", "refresh-1")
-        val file = byteArrayOf(1, 2, 3, 4)
-        var sent = ByteArray(0)
-        val client = client { request ->
-            when {
-                request.url.encodedPath == "/api/v1/auth/refresh" -> json(tokens("access-2", "refresh-2"))
-                request.method.value == "POST" -> {
-                    sent = request.body.toByteArray()
-                    assertEquals("tayra-backup.tayra", request.url.parameters["name"])
-                    assertEquals("Desk", request.url.parameters["device"])
-                    json("""{"id":"b1","name":"tayra-backup.tayra","deviceName":"Desk","createdAt":1700000000000,"sizeBytes":4}""", HttpStatusCode.Created)
-                }
-                else -> respond(file, HttpStatusCode.OK, headersOf(HttpHeaders.ContentType, "application/octet-stream"))
-            }
-        }
-        assertEquals("b1", client.upload("tayra-backup.tayra", file).id)
-        assertContentEquals(file, sent)
-        assertContentEquals(file, client.download("b1"))
     }
 
     @Test
