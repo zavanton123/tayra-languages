@@ -281,7 +281,7 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
 
 /** The pages the phone's More sheet lists, which a phone's settings index leaves out. */
 private val ON_MORE_SHEET = setOf<Route>(
-    Route.Languages, Route.About, Route.ExperimentalFeatures, Route.OfflineDictionaries, Route.Speech, Route.OfflineTranslation, Route.Downloads, Route.Backups,
+    Route.Languages, Route.About, Route.ExperimentalFeatures, Route.OfflineDictionaries, Route.Speech, Route.OfflineTranslation, Route.Downloads, Route.Backups, Route.Account,
 )
 
 /** The speech engine's short name, for the index: the system voices, Piper or Kokoro. */

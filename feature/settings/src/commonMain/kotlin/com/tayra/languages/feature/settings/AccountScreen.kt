@@ -78,7 +78,7 @@ fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: (
     // Back from the checkout in the browser, or from a store, the plan may have changed.
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.reload() }
     Scaffold(
-        topBar = { AppTopBar(title = if (compact) tr("Account") else APP_NAME, onNavigate = onNavigate, onBack = onBack.takeIf { compact }, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = if (compact) tr("Account") else APP_NAME, onNavigate = onNavigate, onBack = onBack.takeIf { compact }, section = NavSection.ACCOUNT) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         val content: @Composable () -> Unit = { AccountContent(state, viewModel, onBack, onRestored) }

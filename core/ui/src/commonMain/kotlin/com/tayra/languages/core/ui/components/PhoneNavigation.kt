@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Home
@@ -42,7 +43,7 @@ fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () ->
     val colors = MaterialTheme.colorScheme
     val due = LocalFlashcardsDue.current
     // The videos, the news, the playlists and the vocabulary pages are reached through More.
-    val area = if (section == NavSection.TERMS || section == NavSection.NEWS || section == NavSection.PLAYLISTS || section == NavSection.VIDEOS) NavSection.SETTINGS else section
+    val area = if (section == NavSection.TERMS || section == NavSection.NEWS || section == NavSection.PLAYLISTS || section == NavSection.VIDEOS || section == NavSection.ACCOUNT) NavSection.SETTINGS else section
     NavigationBar(containerColor = colors.surface, modifier = Modifier.testTag("phone-nav")) {
         PhoneTab(NavSection.HOME, Icons.Default.Home, area) { onNavigate(Route.Home) }
         PhoneTab(NavSection.COURSES, AppIcons.School, area) { onNavigate(Route.Courses) }
@@ -115,6 +116,7 @@ private fun moreGroups(videos: Boolean) = listOf(
             MoreEntry("Translation", AppIcons.Translate, Route.OfflineTranslation),
         ),
     ),
+    MoreGroup("Account", listOf(MoreEntry("Account", Icons.Default.AccountCircle, Route.Account))),
     MoreGroup(
         "Preferences and data",
         listOfNotNull(

@@ -49,7 +49,7 @@ import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 
 /** The main navigation areas, used to highlight the active tab; [label] is English, shown through `tr`. */
-enum class NavSection(val label: String) { HOME("Home"), COURSES("Courses"), BOOKS("Books"), VIDEOS("Videos"), NEWS("News"), PLAYLISTS("Playlists"), FLASHCARDS("Flashcards"), TERMS("Vocabulary"), SETTINGS("Settings") }
+enum class NavSection(val label: String) { HOME("Home"), COURSES("Courses"), BOOKS("Books"), VIDEOS("Videos"), NEWS("News"), PLAYLISTS("Playlists"), FLASHCARDS("Flashcards"), TERMS("Vocabulary"), SETTINGS("Settings"), ACCOUNT("Account") }
 
 /** How many flashcards wait today, shown beside the Flashcards tab; provided at the root of the app. */
 val LocalFlashcardsDue = compositionLocalOf { 0 }
@@ -92,6 +92,8 @@ private fun menuGroups(videos: Boolean) = listOfNotNull(
             MenuEntry("Experimental features", Route.ExperimentalFeatures),
         ),
     ),
+    // Signing in and syncing, apart from the settings so it is found at once.
+    MenuGroup(NavSection.ACCOUNT, listOf(MenuEntry("Account", Route.Account)), direct = true),
 )
 
 const val APP_NAME = "Tayra Languages"
