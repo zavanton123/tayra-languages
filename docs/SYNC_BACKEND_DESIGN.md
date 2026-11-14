@@ -512,8 +512,18 @@ billing, waits for the company. What the phases settled on the way:
   the others travel whole, a page a record, and are made once all their pages have arrived. A text
   over 2 MB stays where it was made. A new text with the same download address, or the same title
   and first page, as one made here takes that one's place instead of doubling it.
-- Records for a text a device does not have (a pack not installed, a lesson not opened) wait in
-  `sync_pending` and are tried again at each sync. A playlist holding such a text keeps it, and
+- Installed course and book packs follow the account: a `pack` record per pack (`course:<id>`,
+  `book:<id>`), deleted when the pack is removed on purpose, last change winning; packs installed
+  before this count as installed at the first start that tracks them, and clearing a device's data
+  is no removal. A sync downloads the packs the account has and the device lacks, without asking,
+  before applying anything, and removes the ones removed elsewhere. A version that sends no packs
+  still brings them: the pack of a lesson read elsewhere is the course pack of the language its id
+  starts with (`pt-mini-0100-01`), a pack book's address names its pack; a pack removed here on
+  purpose is not brought back that way. A download that fails leaves the records waiting.
+- A lesson read elsewhere gets its text on this device during the sync, as opening it would make
+  it, so a course's reading lands whole without opening each lesson.
+- Records for a text a device still does not have (a pack not installed, a lesson not in it) wait
+  in `sync_pending` and are tried again at each sync. A playlist holding such a text keeps it, and
   sends it back with the playlist.
 - Synced settings: the native language, the languages being learned (by code), learning levels,
   the flashcard limits and steps, and the practice setups. Each has its own change
