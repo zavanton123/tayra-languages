@@ -21,6 +21,8 @@ import kotlinx.coroutines.withTimeout
 import com.tayra.languages.core.data.sync.SyncTransport
 import com.tayra.languages.core.domain.account.AccountException
 import com.tayra.languages.core.domain.account.AccountProblem
+import com.tayra.languages.core.domain.account.SyncPhase
+import com.tayra.languages.core.domain.account.SyncProgress
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
@@ -149,6 +151,21 @@ class SyncEngineTest {
         val again = desktop.engine.syncNow()
         assertEquals(0, again.changed)
         assertEquals(seq, account.seq, "sending back what came from the account changes nothing there")
+    }
+
+    @Test
+    fun aSyncSaysHowFarItHasGot() = runBlocking<Unit> {
+        repeat(3) { phone.word("palavra$it") }
+        val sending = mutableListOf<SyncProgress>()
+        val sent = phone.engine.syncNow { sending += it }
+        assertEquals(SyncProgress(SyncPhase.SENDING, 0, sent.sent), sending.first())
+        assertTrue(SyncProgress(SyncPhase.SENDING, sent.sent, sent.sent) in sending, "$sending")
+        assertEquals(SyncProgress(SyncPhase.APPLYING), sending.last())
+
+        val taking = mutableListOf<SyncProgress>()
+        val taken = desktop.engine.syncNow { taking += it }
+        assertEquals(listOf(SyncProgress(SyncPhase.RECEIVING), SyncProgress(SyncPhase.RECEIVING, taken.received), SyncProgress(SyncPhase.APPLYING)), taking.filter { it.phase != SyncPhase.SENDING })
+        assertTrue(taken.received >= 3, "$taken")
     }
 
     /** The word a card hides, chosen by hand, and the sentence's translation follow the word to the other device, and so does taking the choice back. */

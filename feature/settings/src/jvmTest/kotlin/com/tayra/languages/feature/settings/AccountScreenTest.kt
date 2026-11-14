@@ -39,6 +39,7 @@ import com.tayra.languages.core.domain.account.StoreProducts
 import com.tayra.languages.core.domain.account.StorePurchases
 import com.tayra.languages.core.domain.account.StoreReceipt
 import com.tayra.languages.core.domain.account.Subscriptions
+import com.tayra.languages.core.domain.account.SyncProgress
 import com.tayra.languages.core.domain.account.SyncSummary
 import com.tayra.languages.core.domain.backup.Backup
 import com.tayra.languages.core.domain.backup.BackupRepository
@@ -114,7 +115,7 @@ class AccountScreenTest {
 
     private class FakeSync(var combining: Boolean = false, var failing: Boolean = false) : LibrarySync {
         var syncs = 0
-        override suspend fun syncNow(): SyncSummary {
+        override suspend fun syncNow(progress: (SyncProgress) -> Unit): SyncSummary {
             if (failing) throw AccountException(AccountProblem.OFFLINE, "No connection")
             syncs++; combining = false; return SyncSummary(sent = 3, received = 5, changed = 2)
         }

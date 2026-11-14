@@ -2,7 +2,9 @@ package com.tayra.languages.core.domain.account
 
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
+import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.async
 import kotlinx.coroutines.cancelChildren
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -13,6 +15,8 @@ import kotlinx.coroutines.test.runCurrent
 import kotlinx.coroutines.test.runTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertNull
 import kotlin.test.assertTrue
 import kotlin.time.Clock
 import kotlin.time.Duration.Companion.minutes
@@ -24,10 +28,16 @@ import kotlin.time.Instant
 class AutoSyncTest {
 
     private class Sync : LibrarySync {
+        var started = 0
         var syncs = 0
         var combining = false
         var failWith: AccountProblem? = null
-        override suspend fun syncNow(): SyncSummary {
+        /** Holds each sync halfway until completed, as a long one over the network. */
+        var hold: CompletableDeferred<Unit>? = null
+        override suspend fun syncNow(progress: (SyncProgress) -> Unit): SyncSummary {
+            started++
+            progress(SyncProgress(SyncPhase.SENDING, 12_000, 47_480))
+            hold?.await()
             failWith?.let { throw AccountException(it, "No") }
             syncs++
             return SyncSummary(0, 0, 0)
@@ -136,5 +146,47 @@ class AutoSyncTest {
         env.accounts.signedIn.value = "other@example.com"
         runCurrent()
         assertEquals(1, env.sync.syncs)
+    }
+
+    @Test
+    fun syncingFromThePageDuringAnAutomaticSyncWaitsForItInsteadOfSyncingAgain() = runTest {
+        val env = Env(this)
+        val hold = CompletableDeferred<Unit>().also { env.sync.hold = it }
+        env.auto.start(backgroundScope)
+        runCurrent()
+        assertTrue(env.auto.status.value.running)
+        assertEquals(SyncProgress(SyncPhase.SENDING, 12_000, 47_480), env.auto.status.value.progress)
+
+        val asked = async { env.auto.syncNow() }
+        runCurrent()
+        assertFalse(asked.isCompleted, "it waits for the sync under way")
+        hold.complete(Unit)
+        runCurrent()
+        assertEquals(SyncResult.Done(SyncSummary(0, 0, 0)), asked.await())
+        assertEquals(1, env.sync.started, "no second sync after it")
+        assertFalse(env.auto.status.value.running)
+        assertNull(env.auto.status.value.progress)
+    }
+
+    @Test
+    fun aSyncThatFailsEndsAsNotRunningForWhoeverWaitedForIt() = runTest {
+        val env = Env(this)
+        val hold = CompletableDeferred<Unit>().also { env.sync.hold = it }
+        env.auto.start(backgroundScope)
+        runCurrent()
+        val asked = async { runCatching { env.auto.syncNow() } }
+        runCurrent()
+        env.sync.failWith = AccountProblem.OFFLINE
+        hold.complete(Unit)
+        runCurrent()
+        assertEquals(AccountProblem.OFFLINE, (asked.await().exceptionOrNull() as AccountException).problem)
+        assertFalse(env.auto.status.value.running)
+        assertNull(env.auto.status.value.progress)
+        assertEquals(AccountProblem.OFFLINE, env.auto.status.value.problem)
+
+        env.sync.hold = null
+        env.sync.failWith = null
+        assertTrue(env.auto.syncNow() is SyncResult.Done, "the next sync from the page runs on its own")
+        assertEquals(2, env.sync.started)
     }
 }

@@ -112,10 +112,16 @@ interface CloudBackupStore {
 /** What one sync did: the records sent, the records received, and how many of those changed this device. */
 data class SyncSummary(val sent: Int, val received: Int, val changed: Int)
 
+/** What a sync is doing: sending this device's records, taking the account's, or applying them here. */
+enum class SyncPhase { SENDING, RECEIVING, APPLYING }
+
+/** How far a sync has got in its [phase]: [done] records, of [total] when it is known. */
+data class SyncProgress(val phase: SyncPhase, val done: Int = 0, val total: Int? = null)
+
 /** Brings this device and the account to the same library: sends what changed here, takes what changed elsewhere. */
 interface LibrarySync {
-    /** Throws [AccountException] when the account cannot be reached or may not sync. */
-    suspend fun syncNow(): SyncSummary
+    /** Says how far it has got to [progress] as it goes. Throws [AccountException] when the account cannot be reached or may not sync. */
+    suspend fun syncNow(progress: (SyncProgress) -> Unit = {}): SyncSummary
 
     /**
      * Whether the next sync would combine two libraries: this device has not synced with the account

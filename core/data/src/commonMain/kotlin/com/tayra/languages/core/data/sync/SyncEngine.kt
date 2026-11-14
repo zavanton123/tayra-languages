@@ -16,6 +16,8 @@ import com.tayra.languages.core.data.settings.SyncedValue
 import com.tayra.languages.core.domain.account.AccountException
 import com.tayra.languages.core.domain.account.AccountProblem
 import com.tayra.languages.core.domain.account.LibrarySync
+import com.tayra.languages.core.domain.account.SyncPhase
+import com.tayra.languages.core.domain.account.SyncProgress
 import com.tayra.languages.core.domain.account.SyncSummary
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.sync.PullResponse
@@ -91,7 +93,7 @@ class SyncEngine(
         withContext(databaseDispatcher) { db.syncRecordsQueries.hasOwnLibrary().awaitAsOne() } && transport.pull(0, 1).records.isNotEmpty()
     }
 
-    override suspend fun syncNow(): SyncSummary = running.withLock {
+    override suspend fun syncNow(progress: (SyncProgress) -> Unit): SyncSummary = running.withLock {
         val account = transport.syncAccount() ?: throw AccountException(AccountProblem.SIGNED_OUT, "Not signed in")
         val db = provider.database()
         // What this device sent and took went to another account: the one now gets all of it.
@@ -111,7 +113,13 @@ class SyncEngine(
         val installed = installer?.takeIf { packs != null }?.let { quietly { it.installed() } }
         val outgoing = withContext(databaseDispatcher) { Reader(db, device).changedSince(since) }
             .let { o -> Outgoing(o.records + settingRecords(db, since, device) + packRecords(since, device), o.tombstones) }
-        for (batch in outgoing.records.chunked(BATCH)) transport.push(PushRequest(device, batch))
+        var sent = 0
+        progress(SyncProgress(SyncPhase.SENDING, sent, outgoing.records.size))
+        for (batch in outgoing.records.chunked(BATCH)) {
+            transport.push(PushRequest(device, batch))
+            sent += batch.size
+            progress(SyncProgress(SyncPhase.SENDING, sent, outgoing.records.size))
+        }
         withContext(databaseDispatcher) {
             db.transaction {
                 // A change made in the millisecond the sync started may have come after the reading: it goes again.
@@ -122,11 +130,14 @@ class SyncEngine(
 
         val incoming = mutableListOf<SyncRecord>()
         var seq = state.last_seq
+        progress(SyncProgress(SyncPhase.RECEIVING))
         do {
             val page = transport.pull(seq, BATCH)
             incoming += page.records
             seq = page.seq
+            progress(SyncProgress(SyncPhase.RECEIVING, incoming.size))
         } while (page.more)
+        progress(SyncProgress(SyncPhase.APPLYING))
         // What waited for a text this device did not have goes again, with what the account has newer.
         val waiting = withContext(databaseDispatcher) { db.syncRecordsQueries.pendingRecords().awaitAsList() }
             .mapNotNull { runCatching { SyncJson.decodeFromString(SyncRecord.serializer(), it) }.getOrNull() }

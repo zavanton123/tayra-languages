@@ -2,7 +2,9 @@ package com.tayra.languages.core.domain.account
 
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.delay
@@ -26,6 +28,8 @@ import kotlin.time.Instant
 /** How syncing with the account stands on this device. */
 data class SyncStatus(
     val running: Boolean = false,
+    /** How far the sync under way has got; null when none is, or it has not said yet. */
+    val progress: SyncProgress? = null,
     /** When this device last synced, since the app started. */
     val lastSynced: Instant? = null,
     /** Why the last sync failed; null when it did not. */
@@ -39,7 +43,8 @@ data class SyncStatus(
  * back, a little after the library changes, and every little while, as long as the device is signed
  * in and the reader has not turned it off. It waits rather than combine two libraries, which only
  * the reader can choose, and stops trying after the account says it may not sync, until the account
- * changes. Syncing from the account page goes through it too, so the two never overlap.
+ * changes. Syncing from the account page goes through it too, so the two never overlap: asked while
+ * a sync is under way, it waits for that one and gives its result.
  */
 class AutoSync(
     private val sync: LibrarySync,
@@ -56,6 +61,8 @@ class AutoSync(
 
     private val requests = Channel<Unit>(Channel.CONFLATED)
     private val running = Mutex()
+    /** The sync under way, whose result a sync asked for meanwhile takes instead of running another after it. */
+    private val current = MutableStateFlow<Deferred<SyncResult>?>(null)
     /** The account the service refused to sync for, so it is not asked again until another signs in. */
     private var refusedFor: String? = null
     /** When the last sync ended: the library's notices of what it wrote come in just after. */
@@ -83,50 +90,60 @@ class AutoSync(
     }
 
     /** Syncs now, as asked from the account page; [combine] when the reader chose to combine two libraries. Throws as [LibrarySync.syncNow]. */
-    suspend fun syncNow(combine: Boolean = false): SyncResult = running.withLock {
-        if (!combine && sync.needsCombining()) {
-            _status.update { it.copy(waitingToCombine = true) }
-            return@withLock SyncResult.NeedsCombining
-        }
-        SyncResult.Done(run())
-    }
+    suspend fun syncNow(combine: Boolean = false): SyncResult = shared(combine)
 
     private suspend fun automatically() {
         if (!settings.current.autoSync) return
         val account = accounts.signedIn.value ?: return
         if (account == refusedFor) return
-        running.withLock {
-            try {
-                if (sync.needsCombining()) {
-                    _status.update { it.copy(waitingToCombine = true) }
-                    return
-                }
-                run()
-            } catch (e: CancellationException) {
-                throw e
-            } catch (e: AccountException) {
-                if (e.problem == AccountProblem.SUBSCRIPTION_REQUIRED || e.problem == AccountProblem.SIGNED_OUT) refusedFor = account
-            } catch (_: Exception) {
-                // Said on the status; the next request tries again.
-            }
+        try {
+            shared(combine = false)
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: AccountException) {
+            if (e.problem == AccountProblem.SUBSCRIPTION_REQUIRED || e.problem == AccountProblem.SIGNED_OUT) refusedFor = account
+        } catch (_: Exception) {
+            // Said on the status; the next request tries again.
         }
     }
 
+    /** The result of the sync under way, or of a new one, which waits rather than combine two libraries unless [combine]. */
+    private suspend fun shared(combine: Boolean): SyncResult {
+        if (!combine) current.value?.let { return it.await() }
+        val pass = CompletableDeferred<SyncResult>()
+        running.withLock {
+            current.value = pass
+            try {
+                pass.complete(
+                    if (!combine && sync.needsCombining()) {
+                        _status.update { it.copy(waitingToCombine = true) }
+                        SyncResult.NeedsCombining
+                    } else SyncResult.Done(run()),
+                )
+            } catch (e: Throwable) {
+                pass.completeExceptionally(e)
+            } finally {
+                current.value = null
+            }
+        }
+        return pass.await()
+    }
+
     private suspend fun run(): SyncSummary {
-        _status.update { it.copy(running = true, problem = null) }
+        _status.update { it.copy(running = true, progress = null, problem = null) }
         try {
-            val done = sync.syncNow()
+            val done = sync.syncNow { progress -> _status.update { it.copy(progress = progress) } }
             refusedFor = null
             _status.update { SyncStatus(lastSynced = clock.now()) }
             return done
         } catch (e: CancellationException) {
-            _status.update { it.copy(running = false) }
+            _status.update { it.copy(running = false, progress = null) }
             throw e
         } catch (e: AccountException) {
-            _status.update { it.copy(running = false, problem = e.problem) }
+            _status.update { it.copy(running = false, progress = null, problem = e.problem) }
             throw e
         } catch (e: Exception) {
-            _status.update { it.copy(running = false, problem = AccountProblem.SERVER) }
+            _status.update { it.copy(running = false, progress = null, problem = AccountProblem.SERVER) }
             throw e
         } finally {
             ended = clock.now()
