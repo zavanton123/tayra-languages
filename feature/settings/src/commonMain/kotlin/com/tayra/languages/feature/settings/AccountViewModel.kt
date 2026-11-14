@@ -26,6 +26,8 @@ import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlin.time.Instant
@@ -95,6 +97,8 @@ class AccountViewModel(
                 _state.update { it.copy(lastSynced = status.lastSynced, syncProblem = status.problem, syncing = status.running, syncProgress = status.progress) }
             } }
         viewModelScope.launch { settings.settings.collect { s -> _state.update { it.copy(autoSync = s.autoSync) } } }
+        // A sync asked for elsewhere found two libraries: the question is asked here.
+        viewModelScope.launch { sync.status.map { it.waitingToCombine }.distinctUntilChanged().collect { waiting -> if (waiting) _state.update { it.copy(confirmCombine = true) } } }
     }
 
     /** Reads what the account holds again, when signed in. */

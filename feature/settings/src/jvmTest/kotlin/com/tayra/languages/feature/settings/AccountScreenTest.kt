@@ -328,6 +328,19 @@ class AccountScreenTest {
     }
 
     @Test
+    fun aSyncAskedElsewhereThatWouldCombineAsksHere() = runDesktopComposeUiTest(width = 1400, height = 1600) {
+        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
+        val sync = FakeSync(combining = true)
+        show(accounts, sync = sync)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
+        runBlocking { auto.syncNow() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Combine the libraries?").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Combine").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("This device is in sync").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, sync.syncs)
+    }
+
+    @Test
     fun aCloudBackupIsRestoredAfterAsking() = runDesktopComposeUiTest(width = 1400, height = 1600) {
         val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
         val local = FakeBackups()
