@@ -404,4 +404,8 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Your purchases are restored" to "Ваши покупки восстановлены",
     "Continue with Google" to "Продолжить с Google",
     "Continue with Apple" to "Продолжить с Apple",
+    "Sync your library?" to "Синхронизировать библиотеку?",
+    "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Ваши слова, тексты, чтение и настройки обучения будут обновлены по аккаунту и другим вашим устройствам.",
+    "Sign in to your account to sync your library with your other devices." to "Войдите в аккаунт, чтобы синхронизировать библиотеку с другими устройствами.",
+    "Open Account" to "Открыть аккаунт",
 )

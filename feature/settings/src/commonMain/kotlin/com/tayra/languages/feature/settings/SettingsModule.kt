@@ -21,6 +21,7 @@ val settingsModule = module {
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
     viewModel { AccountViewModel(get(), get(), get(), get(), getOrNull<StorePurchases>()?.let { Subscriptions(it, get()) }, getOrNull<IdentitySignIn>()) }
+    viewModel { SyncPromptViewModel(get(), get()) }
     viewModel { ClearDataViewModel(get()) }
     viewModel { LanguageSetupViewModel(get()) }
 }

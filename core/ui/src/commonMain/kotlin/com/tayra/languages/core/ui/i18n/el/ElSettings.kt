@@ -404,4 +404,8 @@ internal val elSettings: Map<String, String> = mapOf(
     "Your purchases are restored" to "Οι αγορές σας επανήλθαν",
     "Continue with Google" to "Συνέχεια με Google",
     "Continue with Apple" to "Συνέχεια με Apple",
+    "Sync your library?" to "Συγχρονισμός της βιβλιοθήκης σας;",
+    "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Οι λέξεις, τα κείμενα, η ανάγνωση και οι ρυθμίσεις μάθησής σας ενημερώνονται με τον λογαριασμό και τις άλλες συσκευές σας.",
+    "Sign in to your account to sync your library with your other devices." to "Συνδεθείτε στον λογαριασμό σας για να συγχρονίσετε τη βιβλιοθήκη σας με τις άλλες συσκευές σας.",
+    "Open Account" to "Άνοιγμα λογαριασμού",
 )

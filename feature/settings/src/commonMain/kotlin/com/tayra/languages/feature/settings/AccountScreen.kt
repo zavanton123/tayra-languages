@@ -309,7 +309,7 @@ private fun SyncCard(state: AccountUiState, actions: AccountViewModel?) {
 }
 
 /** What the sync under way is doing, in a line; null while it has nothing to send. */
-private fun progressLine(progress: SyncProgress): String? = when (progress.phase) {
+internal fun progressLine(progress: SyncProgress): String? = when (progress.phase) {
     SyncPhase.SENDING -> progress.total?.takeIf { it > 0 }?.let { tr("Sending {0} of {1}", formatCount(progress.done), formatCount(it)) }
     SyncPhase.RECEIVING -> tr("Taking changes from other devices: {0}", formatCount(progress.done))
     SyncPhase.APPLYING -> tr("Applying…")
@@ -409,26 +409,32 @@ private fun DeleteAccountCard(state: AccountUiState, actions: AccountViewModel?)
 @Composable
 private fun ProblemNotice(problem: AccountProblem, text: String?) {
     Notice(
-        when (problem) {
-            AccountProblem.NOT_SET_UP -> tr("Accounts are not available yet")
-            AccountProblem.OFFLINE -> tr("The account service cannot be reached")
-            AccountProblem.EMAIL_TAKEN -> tr("An account with this email exists already")
-            AccountProblem.BAD_CREDENTIALS -> tr("Wrong email or password")
-            AccountProblem.WRONG_CODE -> tr("That code is wrong or has expired")
-            AccountProblem.SIGNED_OUT -> tr("This device was signed out")
-            AccountProblem.SUBSCRIPTION_REQUIRED -> tr("This needs an active subscription")
-            AccountProblem.TOO_LARGE -> tr("The library is too large to back up to the cloud")
-            AccountProblem.BUSY -> tr("Too many tries for now; wait a minute and try again")
-            AccountProblem.NOT_FOUND -> tr("That is no longer in your account")
-            AccountProblem.INVALID -> text ?: tr("That was not accepted")
-            AccountProblem.SERVER -> tr("Something went wrong on the account service; try again later")
-        },
-        message = if (problem == AccountProblem.OFFLINE) listOfNotNull(tr("Check the internet connection and try again."), text).joinToString("\n") else null,
+        problemTitle(problem, text),
+        message = problemMessage(problem, text),
         icon = Icons.Default.Warning,
         tint = MaterialTheme.colorScheme.error,
         modifier = Modifier.testTag("account-problem"),
     )
 }
+
+/** What went wrong with the account, in a line. */
+internal fun problemTitle(problem: AccountProblem, text: String?): String = when (problem) {
+    AccountProblem.NOT_SET_UP -> tr("Accounts are not available yet")
+    AccountProblem.OFFLINE -> tr("The account service cannot be reached")
+    AccountProblem.EMAIL_TAKEN -> tr("An account with this email exists already")
+    AccountProblem.BAD_CREDENTIALS -> tr("Wrong email or password")
+    AccountProblem.WRONG_CODE -> tr("That code is wrong or has expired")
+    AccountProblem.SIGNED_OUT -> tr("This device was signed out")
+    AccountProblem.SUBSCRIPTION_REQUIRED -> tr("This needs an active subscription")
+    AccountProblem.TOO_LARGE -> tr("The library is too large to back up to the cloud")
+    AccountProblem.BUSY -> tr("Too many tries for now; wait a minute and try again")
+    AccountProblem.NOT_FOUND -> tr("That is no longer in your account")
+    AccountProblem.INVALID -> text ?: tr("That was not accepted")
+    AccountProblem.SERVER -> tr("Something went wrong on the account service; try again later")
+}
+
+internal fun problemMessage(problem: AccountProblem, text: String?): String? =
+    if (problem == AccountProblem.OFFLINE) listOfNotNull(tr("Check the internet connection and try again."), text).joinToString("\n") else null
 
 @Composable
 private fun DoneNotice(done: AccountDone) {

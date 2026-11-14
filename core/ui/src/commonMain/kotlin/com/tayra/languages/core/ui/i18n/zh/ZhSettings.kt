@@ -404,4 +404,8 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Your purchases are restored" to "你的购买已恢复",
     "Continue with Google" to "使用 Google 继续",
     "Continue with Apple" to "使用 Apple 继续",
+    "Sync your library?" to "同步你的资料库？",
+    "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "你的单词、文本、阅读进度和学习设置将与你的账户和其他设备保持一致。",
+    "Sign in to your account to sync your library with your other devices." to "登录你的账户，即可在其他设备间同步你的资料库。",
+    "Open Account" to "打开账户",
 )

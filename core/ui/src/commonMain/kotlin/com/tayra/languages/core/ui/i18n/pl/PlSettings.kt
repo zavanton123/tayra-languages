@@ -404,4 +404,8 @@ internal val plSettings: Map<String, String> = mapOf(
     "Your purchases are restored" to "Twoje zakupy zostały przywrócone",
     "Continue with Google" to "Kontynuuj z Google",
     "Continue with Apple" to "Kontynuuj z Apple",
+    "Sync your library?" to "Zsynchronizować bibliotekę?",
+    "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Twoje słowa, teksty, czytanie i ustawienia nauki zostaną uzgodnione z kontem i innymi urządzeniami.",
+    "Sign in to your account to sync your library with your other devices." to "Zaloguj się na konto, aby synchronizować bibliotekę z innymi urządzeniami.",
+    "Open Account" to "Otwórz konto",
 )
