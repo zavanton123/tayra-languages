@@ -12,17 +12,17 @@ command-line tool** under *Command-line tool*; then open a new terminal window.
 - **macOS and Linux:** a small script goes into `~/.local/bin`, and when the shell does not
   search that folder yet, one line in its profile (`~/.zshrc`, `~/.bash_profile` or
   `~/.bashrc`, or a file in `~/.config/fish/conf.d`) adds it to the `PATH`.
-- **Windows:** the app's folder, which holds `idiomiko.exe`, is added to the user's `PATH`.
+- **Windows:** an `idiomiko.cmd` that runs the launcher is put in `%LOCALAPPDATA%\Idiomiko\bin`, and that folder is added to the user's `PATH`.
 
 **Remove** in the same place takes it off again. Without the button, the launcher can be run by
 its full path:
 
-| System | Where `idiomiko` is |
+| System | Where the launcher is |
 | --- | --- |
-| macOS | `/Applications/Idiomiko.app/Contents/MacOS/idiomiko` |
-| Windows | `%LOCALAPPDATA%\Idiomiko\idiomiko.exe` |
-| Linux (DEB/RPM) | `/opt/idiomiko/bin/idiomiko` |
-| Linux (tarball) | `idiomiko/bin/idiomiko` where it was unpacked |
+| macOS | `/Applications/Idiomiko.app/Contents/MacOS/idiomiko-cli` |
+| Windows | `%LOCALAPPDATA%\Idiomiko\idiomiko-cli.exe` |
+| Linux (DEB/RPM) | `/opt/idiomiko/bin/idiomiko-cli` |
+| Linux (tarball) | `idiomiko/bin/idiomiko-cli` where it was unpacked |
 
 From the sources: `./gradlew :cli:run --args="books list"`, or `./gradlew :cli:installDist` and
 then `cli/build/install/idiomiko/bin/idiomiko`.

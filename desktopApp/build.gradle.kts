@@ -133,10 +133,11 @@ jbrJava?.let { java ->
     }
 }
 
-// The installed app carries a second launcher, `idiomiko`, that runs the command line of :cli on the app's own
+// The installed app carries a second launcher, `idiomiko-cli` (the app's own is `Idiomiko`, the same name to
+// macOS and Windows), that runs the command line of :cli on the app's own
 // runtime and jars: a console program on Windows, and headless so macOS shows no Dock icon for it.
 // Settings > Command-line tool puts it on the PATH.
-val cliLauncherProperties = layout.buildDirectory.file("cli-launcher/idiomiko.properties")
+val cliLauncherProperties = layout.buildDirectory.file("cli-launcher/idiomiko-cli.properties")
 val writeCliLauncherProperties by tasks.registering {
     val target = cliLauncherProperties
     val windowsIcon = project.file("icons/Idiomiko.ico").absolutePath.replace("\\", "/")
@@ -161,7 +162,7 @@ val writeCliLauncherProperties by tasks.registering {
 // Only the app image is made with jpackage's own inputs; the installers are packed from that image.
 tasks.withType<AbstractJPackageTask>().matching { it.name.startsWith("create") && it.name.endsWith("Distributable") }.configureEach {
     dependsOn(writeCliLauncherProperties)
-    freeArgs.addAll("--add-launcher", "idiomiko=${cliLauncherProperties.get().asFile.absolutePath}")
+    freeArgs.addAll("--add-launcher", "idiomiko-cli=${cliLauncherProperties.get().asFile.absolutePath}")
 }
 // The given JetBrains Runtime replaces the one jlink makes, Chromium and all (see `jbr` above).
 afterEvaluate {

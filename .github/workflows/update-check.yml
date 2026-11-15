@@ -147,12 +147,12 @@ jobs:
           (cd "$RUNNER_TEMP/feed" && python3 "$GITHUB_WORKSPACE/tools/make_update_feed.py" $NEW http://127.0.0.1:8765 Idiomiko-$NEW-linux-amd64.deb Idiomiko-$NEW-linux-x86_64.rpm Idiomiko-$NEW-linux-x64.tar.gz)
           (cd "$RUNNER_TEMP/feed" && python3 -m http.server 8765 --bind 127.0.0.1 > "$RUNNER_TEMP/server.log" 2>&1 &)
           sleep 2
-          # The app's own launcher and settings file, besides the bundled `idiomiko` command's.
-          deb_launcher=$(dpkg -L idiomiko | grep '/bin/' | grep -v '/bin/idiomiko$' | head -n 1)
-          deb_cfg=$(dpkg -L idiomiko | grep '/lib/app/.*\.cfg$' | grep -v '/idiomiko\.cfg$' | head -n 1)
-          tar_launcher=$(find "$RUNNER_TEMP/tar" -mindepth 3 -maxdepth 3 -path '*/bin/*' -type f ! -name idiomiko | head -n 1)
+          # The app's own launcher and settings file, besides the bundled `idiomiko-cli` command's.
+          deb_launcher=$(dpkg -L idiomiko | grep '/bin/' | grep -v '/bin/idiomiko-cli$' | head -n 1)
+          deb_cfg=$(dpkg -L idiomiko | grep '/lib/app/.*\.cfg$' | grep -v '/idiomiko-cli\.cfg$' | head -n 1)
+          tar_launcher=$(find "$RUNNER_TEMP/tar" -mindepth 3 -maxdepth 3 -path '*/bin/*' -type f ! -name idiomiko-cli | head -n 1)
           tar_root=$(dirname "$(dirname "$tar_launcher")")
-          tar_cfg=$(find "$tar_root/lib/app" -name '*.cfg' ! -name idiomiko.cfg | head -n 1)
+          tar_cfg=$(find "$tar_root/lib/app" -name '*.cfg' ! -name idiomiko-cli.cfg | head -n 1)
           echo "DEB: $deb_launcher $deb_cfg"; echo "Tarball: $tar_launcher $tar_cfg"
           for target in "$deb_launcher|LINUX_DEB|deb" "$tar_launcher|LINUX_TAR|tar"; do
             IFS='|' read -r launcher kind name <<< "$target"
@@ -181,7 +181,7 @@ jobs:
       - name: Install the old package, then upgrade it with the command the app runs
         run: |
           dnf install -y ./rpms/old.rpm
-          cfg=$(rpm -ql idiomiko | grep '/lib/app/.*\.cfg$' | grep -v '/idiomiko\.cfg$' | head -n 1)
+          cfg=$(rpm -ql idiomiko | grep '/lib/app/.*\.cfg$' | grep -v '/idiomiko-cli\.cfg$' | head -n 1)
           grep "idiomiko.version=$OLD" "$cfg"
           # The app runs this under pkexec, which asks for the password.
           rpm -U --replacepkgs --nosignature ./rpms/new.rpm

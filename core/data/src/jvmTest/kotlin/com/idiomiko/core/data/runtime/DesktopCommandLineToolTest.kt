@@ -19,7 +19,7 @@ class DesktopCommandLineToolTest {
     init {
         File(app, "Idiomiko").writeText("")
         // Stands in for the bundled launcher: prints each argument it gets on a line of its own.
-        File(app, "idiomiko").apply {
+        File(app, "idiomiko-cli").apply {
             writeText("#!/bin/sh\nfor a in \"\$@\"; do echo \"[\$a]\"; done\n")
             setExecutable(true)
         }

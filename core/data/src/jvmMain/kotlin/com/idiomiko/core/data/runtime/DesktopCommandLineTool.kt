@@ -11,10 +11,11 @@ import java.util.concurrent.TimeUnit
 /**
  * Puts the `idiomiko` launcher of the installed app on the PATH.
  *
- * On macOS and Linux a two-line script in `~/.local/bin` runs the launcher inside the app, and
- * when the login shell does not search that folder yet, a line in its profile adds it. On Windows
- * the app's folder, where `idiomiko.exe` is, goes on the user's PATH. Either way only new terminals
- * see the change. A run from the sources uses the command that `:cli:installDist` builds instead.
+ * The app bundles it as `idiomiko-cli`, as `idiomiko` would be the app's own launcher to macOS and
+ * Windows. On macOS and Linux a two-line script in `~/.local/bin` runs that launcher, and when the
+ * login shell does not search that folder yet, a line in its profile adds it. On Windows an
+ * `idiomiko.cmd` doing the same goes in a folder of its own, which goes on the user's PATH. Either
+ * way only new terminals see the change. A run from the sources uses the command that `:cli:installDist` builds instead.
  */
 class DesktopCommandLineTool(
     /** The app's own launcher; jpackage names it in this property. */
@@ -31,7 +32,7 @@ class DesktopCommandLineTool(
     private val terminalPath: () -> List<String>? = { loginShellPath(shell) },
 ) : CommandLineTool {
 
-    private val bundledLauncher: File? = appLauncher?.parentFile?.resolve(if (windows) "idiomiko.exe" else "idiomiko")?.takeIf { it.isFile }
+    private val bundledLauncher: File? = appLauncher?.parentFile?.resolve(if (windows) "idiomiko-cli.exe" else "idiomiko-cli")?.takeIf { it.isFile }
 
     private val launcher: File? get() = bundledLauncher ?: sourceLauncher?.takeIf { it.isFile }
 
@@ -39,6 +40,8 @@ class DesktopCommandLineTool(
 
     private val binDir get() = File(home, ".local/bin")
     private val script get() = File(binDir, "idiomiko")
+    private val windowsBinDir get() = File(System.getenv("LOCALAPPDATA") ?: File(home, "AppData/Local").path, "Idiomiko/bin")
+    private val windowsScript get() = File(windowsBinDir, "idiomiko.cmd")
 
     /** Whether a new terminal finds a `idiomiko`, wherever it came from, and whether it is the one this app put there. */
     override suspend fun status(): CommandLineStatus = withContext(Dispatchers.IO) {
@@ -61,7 +64,7 @@ class DesktopCommandLineTool(
             .flatMap { dir -> listOf("idiomiko.exe", "idiomiko.bat", "idiomiko.cmd").asSequence().map { File(dir.trim(), it) } }
             .firstOrNull { it.isFile }
             ?: return CommandLineStatus(installed = false)
-        val ours = launcher?.parentFile?.absolutePath?.let { dir -> user.any { it.equals(dir, ignoreCase = true) } && found.parentFile.absolutePath.equals(dir, ignoreCase = true) } == true
+        val ours = found.absoluteFile == windowsScript.absoluteFile && windowsScript.readText().contains(MARKER)
         return CommandLineStatus(installed = true, location = found.absolutePath, removable = ours)
     }
 
@@ -78,7 +81,9 @@ class DesktopCommandLineTool(
     override suspend fun uninstall(): CommandLineStatus = withContext(Dispatchers.IO) {
         try {
             if (windows) {
-                launcher?.parentFile?.absolutePath?.let { dir -> setWindowsUserPath(windowsUserPath().filterNot { it.equals(dir, ignoreCase = true) }) }
+                val dir = windowsBinDir.absolutePath
+                setWindowsUserPath(windowsUserPath().filterNot { it.equals(dir, ignoreCase = true) })
+                if (windowsScript.isFile && windowsScript.readText().contains(MARKER)) windowsScript.delete()
             } else if (script.isFile && script.readText().contains(MARKER)) {
                 script.delete()
             }
@@ -117,10 +122,12 @@ class DesktopCommandLineTool(
     }
 
     private fun installOnWindows(launcher: File): CommandLineStatus {
-        val dir = launcher.parentFile.absolutePath
+        windowsBinDir.mkdirs()
+        windowsScript.writeText("@echo off\r\nrem $MARKER: runs the command-line tool of the app.\r\n\"${launcher.absolutePath}\" %*\r\n")
+        val dir = windowsBinDir.absolutePath
         val path = windowsUserPath()
         if (path.none { it.equals(dir, ignoreCase = true) }) setWindowsUserPath(path + dir)
-        return CommandLineStatus(installed = true, location = File(dir, launcher.name).absolutePath, removable = true, pathChangedIn = "PATH")
+        return CommandLineStatus(installed = true, location = windowsScript.absolutePath, removable = true, pathChangedIn = "PATH")
     }
 
     /** The user's own PATH entries, as stored, with variables such as %USERPROFILE% left as they are. */
