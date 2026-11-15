@@ -1,0 +1,795 @@
+package com.idiomiko.feature.reading.practice
+
+import kotlinx.coroutines.flow.StateFlow
+import com.idiomiko.core.ui.components.EdgeScrollbar
+import androidx.compose.animation.animateColorAsState
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.focusable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.input.key.Key
+import androidx.compose.ui.input.key.KeyEventType
+import androidx.compose.ui.input.key.isCtrlPressed
+import androidx.compose.ui.input.key.isMetaPressed
+import androidx.compose.ui.input.key.key
+import androidx.compose.ui.input.key.onPreviewKeyEvent
+import androidx.compose.ui.input.key.type
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextDirection
+import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.idiomiko.core.domain.practice.Exercise
+import com.idiomiko.core.domain.service.SentenceAudio
+import com.idiomiko.core.ui.audio.rememberSpeaker
+import com.idiomiko.core.ui.components.AppDivider
+import com.idiomiko.core.ui.components.AppIcons
+import com.idiomiko.core.ui.components.AppTextField
+import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.ButtonSize
+import com.idiomiko.core.ui.components.EmptyState
+import com.idiomiko.core.ui.components.LoadingIndicator
+import com.idiomiko.core.ui.components.LocalWindowWidth
+import com.idiomiko.core.ui.components.NavSection
+import com.idiomiko.core.ui.components.Notice
+import com.idiomiko.core.ui.components.PopIn
+import com.idiomiko.core.ui.components.PrimaryButton
+import com.idiomiko.core.ui.components.ProgressTrack
+import com.idiomiko.core.ui.components.QuietButton
+import com.idiomiko.core.ui.components.SecondaryButton
+import com.idiomiko.core.ui.components.SentenceCheck
+import com.idiomiko.core.ui.components.SpeakAnswer
+import com.idiomiko.core.ui.components.cardSurface
+import com.idiomiko.core.ui.i18n.tr
+import com.idiomiko.core.ui.i18n.trPlural
+import com.idiomiko.core.ui.navigation.Route
+import com.idiomiko.core.ui.theme.AppAccents
+import com.idiomiko.core.ui.theme.AppAlpha
+import com.idiomiko.core.ui.theme.AppBorders
+import com.idiomiko.core.ui.theme.AppMotion
+import com.idiomiko.core.ui.theme.AppShapes
+import com.idiomiko.core.ui.theme.AppSizes
+import com.idiomiko.core.ui.theme.AppSpacing
+import com.idiomiko.core.ui.theme.AppText
+import org.koin.compose.koinInject
+import org.koin.compose.viewmodel.koinViewModel
+import org.koin.core.parameter.parametersOf
+import androidx.compose.foundation.layout.fillMaxHeight
+import com.idiomiko.core.ui.components.AppDialogSurface
+import com.idiomiko.core.ui.components.AppIconButton
+import com.idiomiko.core.ui.components.IconButtonStyle
+import com.idiomiko.core.domain.practice.PracticeSource
+import com.idiomiko.core.domain.practice.PracticeSetup
+import com.idiomiko.core.domain.practice.PracticeResponse
+import com.idiomiko.core.domain.practice.PracticeContext
+import com.idiomiko.core.domain.practice.ExerciseType
+import com.idiomiko.core.ui.components.label
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.mutableStateOf
+import com.idiomiko.core.ui.audio.rememberMicrophoneAccess
+import androidx.compose.material.icons.filled.Edit
+import com.idiomiko.core.ui.state.CollectEvents
+import com.idiomiko.feature.terms.form.TermFormPanel
+import com.idiomiko.feature.terms.form.TermFormEvent
+import com.idiomiko.feature.terms.form.TermFormKey
+import com.idiomiko.feature.terms.form.TermFormViewModel
+import com.idiomiko.feature.terms.list.PracticeSetupDialog
+import androidx.compose.ui.text.AnnotatedString
+import com.idiomiko.core.ui.components.FreshViewModels
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import kotlinx.coroutines.launch
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.coroutines.flow.map
+import com.idiomiko.core.domain.settings.SettingsRepository
+
+/** Practising the words being learned on a page, right after reading it, or words chosen in the vocabulary. */
+@Composable
+fun PracticeScreen(
+    source: PracticeSource,
+    setup: PracticeSetup,
+    onNavigate: (Route) -> Unit,
+    onBack: () -> Unit,
+    /** In a dialog over the page that started it: no app bar, and a close button beside the title. */
+    dialog: Boolean = false,
+    /** Takes "Practise again" elsewhere; without it the choice of what to practise opens over the result. */
+    onPractiseAgain: (() -> Unit)? = null,
+    viewModel: PracticeViewModel = koinViewModel(key = "practice-$source-${setup.encode()}") { parametersOf(source, setup) },
+) {
+    val state by viewModel.state.collectAsStateWithLifecycle()
+    val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
+    val microphone = rememberMicrophoneAccess()
+    // The question whose word's translation is being put right, and how many times one has been: each opening edits afresh.
+    var fixing by remember { mutableStateOf<Exercise?>(null) }
+    var fixes by remember { mutableStateOf(0) }
+    fixing?.let { exercise ->
+        val termId = exercise.termId
+        if (termId != null) {
+            FixTranslationDialog(termId, exercise.sentence, key = fixes) { translation ->
+                translation?.let { viewModel.translationFixed(termId, it) }
+                fixing = null
+                fixes++
+            }
+        }
+    }
+    // Practising again starts from choosing what to practise, as the practice did.
+    var settingUp by remember { mutableStateOf(false) }
+    if (settingUp) PracticeSetupDialog(source, onStart = { chosen -> settingUp = false; viewModel.start(chosen) }, onDismiss = { settingUp = false })
+    val settings = koinInject<SettingsRepository>()
+    val readAloud by remember(settings) { settings.settings.map { it.practiceReadAloud } }.collectAsStateWithLifecycle(settings.current.practiceReadAloud)
+    val scope = rememberCoroutineScope()
+    DisposableEffect(speaker) { onDispose { speaker.stop() } }
+    Scaffold(
+        topBar = { if (!dialog) AppTopBar(title = tr("Practice"), onNavigate = onNavigate, section = if (source is PracticeSource.Words) NavSection.TERMS else NavSection.BOOKS, onBack = onBack) },
+        containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
+    ) { padding ->
+        if (state.loading) {
+            LoadingIndicator(Modifier.padding(padding))
+            return@Scaffold
+        }
+        PracticeContent(
+            state = state,
+            actions = PracticeActions(
+                onChoose = viewModel::choose,
+                onMatch = viewModel::match,
+                onTyped = viewModel::setTyped,
+                onSubmit = viewModel::submit,
+                onSkip = viewModel::skip,
+                onNext = { speaker.stop(); viewModel.next() },
+                onPrevious = { speaker.stop(); viewModel.previous() },
+                onRestart = { if (onPractiseAgain != null) onPractiseAgain() else settingUp = true },
+                onRestartMissed = viewModel::startMissed,
+                onBack = onBack,
+                onSpeak = { text -> speaker.speak(text, state.languageCode) },
+                onListen = {
+                    speaker.stop()
+                    microphone { allowed -> if (allowed) viewModel.listen() else viewModel.refuseSpeaking() }
+                },
+                onStopListening = viewModel::stopListening,
+                microphoneLevel = viewModel.microphoneLevel,
+                onTypeInstead = viewModel::typeInstead,
+                onFixTranslation = { fixing = it },
+                onReadAloud = { on ->
+                    if (!on) speaker.stop()
+                    scope.launch { settings.update { it.copy(practiceReadAloud = on) } }
+                },
+            ),
+            readAloud = readAloud,
+            modifier = Modifier.padding(padding),
+            onClose = if (dialog) onBack else null,
+        )
+    }
+}
+
+/** The practice a [Route.Practice] or [Route.PracticeWords] asks for, or null for any other route. */
+internal fun practiceOf(route: Route): Pair<PracticeSource, PracticeSetup>? {
+    val (source, kinds, setup) = when (route) {
+        is Route.Practice -> Triple(route.page?.let { PracticeSource.Page(route.bookId, it) } ?: PracticeSource.Book(route.bookId), route.kinds, route.setup)
+        is Route.PracticeWords -> Triple(PracticeSource.Words(route.termIds), route.kinds, route.setup)
+        else -> return null
+    }
+    return source to if (setup.isNotEmpty()) PracticeSetup.decode(setup) else PracticeSetup.ofKinds(kinds)
+}
+
+/** A practice in a dialog over the page that started it: as tall as the window but for its margin, and no wider than the practice. */
+@Composable
+fun PracticeDialog(route: Route, onNavigate: (Route) -> Unit, onClose: () -> Unit) {
+    val (source, first) = practiceOf(route) ?: return
+    var setup by remember { mutableStateOf(first) }
+    // Practising again closes the practice for the choice of what to practise; cancelling it goes back to the page.
+    var settingUp by remember { mutableStateOf(false) }
+    if (settingUp) {
+        PracticeSetupDialog(source, onStart = { chosen -> setup = chosen; settingUp = false }, onDismiss = onClose)
+        return
+    }
+    AppDialogSurface(
+        onDismissRequest = onClose,
+        modifier = Modifier.fillMaxHeight().testTag("practice-dialog"),
+        maxWidth = PRACTICE_WIDTH,
+        color = MaterialTheme.colorScheme.surfaceContainerLow,
+    ) {
+        // Each practice starts afresh, even one just like the practice finished before it.
+        FreshViewModels { PracticeScreen(source, setup, onNavigate = { onClose(); onNavigate(it) }, onBack = onClose, dialog = true, onPractiseAgain = { settingUp = true }) }
+    }
+}
+
+internal class PracticeActions(
+    val onChoose: (String) -> Unit = {},
+    /** Pairs a word with a meaning in a matching question; says whether the pair was right. */
+    val onMatch: (word: String, meaning: String) -> Boolean = { _, _ -> false },
+    val onTyped: (String) -> Unit = {},
+    val onSubmit: () -> Unit = {},
+    val onSkip: () -> Unit = {},
+    val onNext: () -> Unit = {},
+    val onPrevious: () -> Unit = {},
+    val onRestart: () -> Unit = {},
+    val onRestartMissed: () -> Unit = {},
+    val onBack: () -> Unit = {},
+    /** Reads text aloud; null when there is nothing to read it with, which hides the listen buttons. */
+    val onSpeak: ((String) -> Unit)? = null,
+    /** Starts hearing the answer said aloud. */
+    val onListen: () -> Unit = {},
+    val onStopListening: () -> Unit = {},
+    val onTypeInstead: () -> Unit = {},
+    /** How loud the microphone is while the answer is heard. */
+    val microphoneLevel: StateFlow<Float>? = null,
+    /** Opens the word's editor to put its translation right; null hides the way to it. */
+    val onFixTranslation: ((Exercise) -> Unit)? = null,
+    /** Turns reading each sentence aloud on or off; null hides the switch. */
+    val onReadAloud: ((Boolean) -> Unit)? = null,
+)
+
+private const val BLANK = "[...]"
+private val PRACTICE_WIDTH = 900.dp
+private val FIX_WIDTH = 720.dp
+private val RESULT_BADGE_SIZE = 64.dp
+
+/** The page under the top bar: the question on show, or the result when all are answered. */
+@Composable
+internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, modifier: Modifier = Modifier, onClose: (() -> Unit)? = null, readAloud: Boolean = false) {
+    val compact = LocalWindowWidth.current.isCompact
+    val exercise = state.current
+    val rootFocus = remember { FocusRequester() }
+    // A new listening question is read aloud as it comes up.
+    LaunchedEffect(state.index, exercise?.spoken) { exercise?.spoken?.let { actions.onSpeak?.invoke(it) } }
+    LaunchedEffect(state.index, state.answered, state.finished) {
+        if (exercise == null || exercise.isChoice || state.answered) runCatching { rootFocus.requestFocus() }
+    }
+    val scroll = rememberScrollState()
+    Box(modifier.fillMaxSize()) {
+        Box(
+            Modifier.fillMaxSize().verticalScroll(scroll)
+                .focusRequester(rootFocus).focusable()
+                .onPreviewKeyEvent { event ->
+                    if (event.type != KeyEventType.KeyDown || exercise == null || event.isCtrlPressed || event.isMetaPressed) return@onPreviewKeyEvent false
+                    val enter = event.key == Key.Enter || event.key == Key.NumPadEnter
+                    // In a field being typed in, the arrows move along what is typed.
+                    val typing = !state.answered && !exercise.isChoice && exercise.tiles.isEmpty() && exercise.type != ExerciseType.MATCHING && exercise.response != PracticeResponse.SPEAK
+                    when {
+                        event.key == Key.DirectionLeft && !typing -> if (state.canGoBack) actions.onPrevious()
+                        event.key == Key.DirectionRight && !typing -> if (state.canGoForward) actions.onNext()
+                        state.answered && enter -> actions.onNext()
+                        state.answered -> return@onPreviewKeyEvent false
+                        exercise.response == PracticeResponse.SPEAK -> return@onPreviewKeyEvent false
+                        !exercise.isChoice && enter -> actions.onSubmit()
+                        exercise.isChoice -> {
+                            val option = listOf(Key.One, Key.Two, Key.Three, Key.Four).indexOf(event.key).takeIf { it >= 0 }?.let { exercise.options.getOrNull(it) }
+                                ?: return@onPreviewKeyEvent false
+                            actions.onChoose(option)
+                        }
+                        else -> return@onPreviewKeyEvent false
+                    }
+                    true
+                },
+            contentAlignment = Alignment.TopCenter,
+        ) {
+            Column(
+                Modifier.widthIn(max = PRACTICE_WIDTH).fillMaxWidth().padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
+                verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xl),
+            ) {
+                Column {
+                    // On a phone the bar carries the title; in a dialog the title has the way out beside it.
+                    if (!compact) Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text(tr("Practice"), Modifier.weight(1f), style = AppText.screenTitle)
+                        if (onClose != null) {
+                            AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-practice-dialog"), style = IconButtonStyle.Tonal)
+                        }
+                    }
+                    Text(
+                        when {
+                            state.wholeBook -> trPlural(state.wordCount, "The {0} word you are learning in {1}.", "The {0} words you are learning in {1}.", state.bookTitle)
+                            state.pageNumber == null -> trPlural(state.wordCount, "{0} word from your vocabulary.", "{0} words from your vocabulary.")
+                            state.bookTitle.isEmpty() -> tr("The words you are learning on page {0}.", state.pageNumber)
+                            else -> tr("The words you are learning on page {0} of {1}.", state.pageNumber, state.bookTitle)
+                        },
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    // Fewer than all the kinds: which ones.
+                    val asked = ExerciseType.entries.filter { type -> state.setup.rotation.any { it.first == type } }
+                    if (asked.isNotEmpty() && asked.size < ExerciseType.entries.size) {
+                        Text(
+                            tr("Questions: {0}", asked.joinToString(", ") { it.label().lowercase() }),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
+                }
+                when {
+                    state.exercises.isEmpty() -> Empty(state, actions)
+                    exercise == null -> Finished(state, actions)
+                    else -> {
+                        ProgressStrip(state, actions)
+                        if (state.speakingRefused) {
+                            Notice(tr("The microphone could not be used"), Modifier.testTag("practice-speaking-refused"), message = tr("Type the answers instead."), icon = AppIcons.Mic)
+                        }
+                        Question(state, exercise, actions, compact, readAloud)
+                    }
+                }
+            }
+        }
+        EdgeScrollbar(scroll)
+    }
+}
+
+@Composable
+private fun ProgressStrip(state: PracticeUiState, actions: PracticeActions) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        Modifier.fillMaxWidth().cardSurface(AppShapes.card).padding(horizontal = AppSpacing.l, vertical = AppSpacing.s),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+    ) {
+        val faded = colors.onSurface.copy(alpha = AppAlpha.disabled)
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous question"), onClick = actions.onPrevious, enabled = state.canGoBack, tint = faded.takeUnless { state.canGoBack }, modifier = Modifier.testTag("practice-previous"))
+            Text(tr("Question {0} of {1}", state.index + 1, state.exercises.size), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
+            AppIconButton(Icons.AutoMirrored.Filled.ArrowForward, tr("Next question"), onClick = actions.onNext, enabled = state.canGoForward, tint = faded.takeUnless { state.canGoForward }, modifier = Modifier.testTag("practice-next"))
+        }
+        ProgressTrack(state.answeredCount.toFloat() / state.exercises.size, colors.primary, Modifier.weight(1f), height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
+        Text(tr("{0} right", state.correct), style = AppText.emphasis, color = AppAccents.green, softWrap = false)
+    }
+}
+
+private val Exercise.instruction: String
+    get() = when (type) {
+        ExerciseType.GAP -> when (response) {
+            PracticeResponse.CHOOSE -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: choose the missing word") else tr("Choose the missing word")
+            PracticeResponse.TYPE -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: type the missing word") else tr("Type the missing word")
+            PracticeResponse.SPEAK -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: say the marked phrase, with the missing word") else tr("Say the marked phrase, with the missing word")
+        }
+        ExerciseType.MEANING -> tr("What does the marked word mean?")
+        ExerciseType.MATCHING -> tr("Match each word with its meaning")
+        ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
+        ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
+        ExerciseType.BUILD -> tr("Put the words in order")
+    }
+
+@Composable
+private fun Question(state: PracticeUiState, exercise: Exercise, actions: PracticeActions, compact: Boolean, readAloud: Boolean) {
+    val colors = MaterialTheme.colorScheme
+    val direction = if (state.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
+    val answered = state.answered
+    Column(
+        Modifier.fillMaxWidth().cardSurface(AppShapes.large)
+            .padding(horizontal = if (compact) AppSpacing.xl else AppSpacing.xxxl, vertical = if (compact) AppSpacing.xl else AppSpacing.xxl).testTag("practice-question"),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xl),
+    ) {
+        Text(exercise.instruction.uppercase(), style = AppText.overline.copy(color = colors.primary), textAlign = TextAlign.Center)
+        if (exercise.type == ExerciseType.MATCHING) {
+            Matching(state, exercise, actions, compact)
+            if (answered) Feedback(state, exercise)
+            AppDivider()
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                if (!answered) QuietButton(tr("Show the answer"), onClick = actions.onSkip)
+                Spacer(Modifier.weight(1f))
+                if (answered) PrimaryButton(if (state.endsTheRound) tr("See the result") else tr("Continue"), onClick = actions.onNext, size = ButtonSize.Large)
+            }
+            return@Column
+        }
+
+        if (exercise.isListening && actions.onSpeak != null) {
+            SecondaryButton(tr("Listen again"), onClick = { actions.onSpeak.invoke(exercise.spoken!!) }, icon = AppIcons.VolumeUp, size = ButtonSize.Large, tint = colors.primary)
+        }
+
+        // Captioned, so the box says what it is whether it comes before the sentence, under it, or after the answer.
+        val translationBox: @Composable (String) -> Unit = { translation ->
+            Column(
+                Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = AppSpacing.l)
+                    .testTag("practice-translation"),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.xs),
+            ) {
+                Text(tr("Translation"), style = AppText.overline, color = colors.onSurfaceVariant)
+                Text(translation, style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center))
+            }
+        }
+        // Building the sentence starts from its translation: it comes first, the words to put in order under it.
+        val fromTranslation = exercise.type == ExerciseType.BUILD
+        if (fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
+
+        // What is heard is not shown until answered: the word of a listening choice, or a sentence built whole.
+        val sentenceHidden = !answered &&
+            (exercise.type == ExerciseType.HEAR_WORD || exercise.type == ExerciseType.HEAR_SENTENCE || exercise.wholeSentence)
+        // The sentence heard is hidden; what is asked is the word with this meaning.
+        if (exercise.type == ExerciseType.HEAR_SENTENCE) {
+            Text(
+                tr("Which word means “{0}”?", exercise.wordTranslation.orEmpty()),
+                style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center),
+                modifier = Modifier.testTag("practice-asked"),
+            )
+        }
+        // Read aloud, the sentence is read once it is shown whole: a gap's only after the answer, which it would say.
+        // A listening question is read aloud already, and has its own button.
+        val readable = exercise.spoken == null && actions.onSpeak != null && actions.onReadAloud != null
+        val whole = answered || exercise.type == ExerciseType.MEANING
+        LaunchedEffect(state.index, whole, readAloud) { if (readable && readAloud && whole) actions.onSpeak.invoke(exercise.sentence) }
+        if (!sentenceHidden) {
+            val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = AppAlpha.half), fontWeight = AppText.labelStrong.fontWeight)
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                if (readable) ReadAloudCircle(readAloud) { actions.onReadAloud.invoke(!readAloud) }
+                // A phrase to say stands out; the rest of the sentence is only there for its sense.
+                val say = exercise.say
+                val aside = SpanStyle(color = colors.onSurface.copy(alpha = AppAlpha.disabled))
+                val part: AnnotatedString.Builder.(Int, Int) -> Unit = { from, to ->
+                    if (from < to) {
+                        if (say == null) {
+                            append(exercise.sentence.substring(from, to))
+                        } else {
+                            val a = say.first.coerceIn(from, to)
+                            val b = (say.last + 1).coerceIn(from, to)
+                            withStyle(aside) { append(exercise.sentence.substring(from, a)) }
+                            append(exercise.sentence.substring(a, b))
+                            withStyle(aside) { append(exercise.sentence.substring(b, to)) }
+                        }
+                    }
+                }
+                Text(
+                    buildAnnotatedString {
+                        part(0, exercise.range.first)
+                        // The word is marked rather than blanked where its meaning is asked.
+                        withStyle(highlight) { append(if (answered || exercise.type == ExerciseType.MEANING) exercise.sentence.substring(exercise.range) else BLANK) }
+                        part(exercise.range.last + 1, exercise.sentence.length)
+                    },
+                    style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),
+                    modifier = Modifier.weight(1f, fill = false).testTag("practice-sentence"),
+                )
+            }
+        }
+        // A sentence from a source that asks to be named, named once it is shown.
+        if (!sentenceHidden) exercise.credit?.let { credit ->
+            Text(tr("Sentence from {0}", credit), style = MaterialTheme.typography.bodySmall, color = colors.outline, modifier = Modifier.testTag("practice-credit"))
+        }
+        // A gap, however it is answered, gets the sentence's meaning; elsewhere it would give the answer away, so it waits.
+        val hintShown = answered || exercise.type == ExerciseType.GAP
+        if (hintShown && !fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
+
+        when {
+            exercise.isChoice -> Choices(state, exercise, actions, compact)
+            exercise.tiles.isNotEmpty() -> TilesAnswer(state, exercise, actions)
+            exercise.response == PracticeResponse.SPEAK -> SpokenAnswer(state, actions)
+            else -> TypedAnswer(state, exercise, actions)
+        }
+
+        if (answered) Feedback(state, exercise)
+        // The meaning asked for is the word's saved translation, which can be wrong for its sentence.
+        if (answered && exercise.type == ExerciseType.MEANING && exercise.termId != null && actions.onFixTranslation != null) {
+            QuietButton(tr("Fix translation"), onClick = { actions.onFixTranslation.invoke(exercise) }, icon = Icons.Default.Edit, modifier = Modifier.testTag("practice-fix-translation"))
+        }
+        // A sentence built whole, or a phrase said, and not quite right: which words were.
+        if (answered && (exercise.wholeSentence || exercise.saying != null) && state.result != PracticeResult.CORRECT && state.typed.isNotBlank()) {
+            SentenceCheck(exercise.saying ?: exercise.answer, state.typed, Modifier.testTag("practice-sentence-check"))
+        }
+
+        AppDivider()
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+            if (!answered) QuietButton(tr("Show the answer"), onClick = actions.onSkip)
+            Spacer(Modifier.weight(1f))
+            when {
+                answered -> PrimaryButton(if (state.endsTheRound) tr("See the result") else tr("Continue"), onClick = actions.onNext, size = ButtonSize.Large)
+                !exercise.isChoice && exercise.response != PracticeResponse.SPEAK -> PrimaryButton(tr("Check"), onClick = actions.onSubmit, enabled = state.typed.isNotBlank(), size = ButtonSize.Large)
+            }
+        }
+    }
+}
+
+@Composable
+private fun Choices(state: PracticeUiState, exercise: Exercise, actions: PracticeActions, compact: Boolean) {
+    val colors = MaterialTheme.colorScheme
+    val option: @Composable (Int, String, Modifier) -> Unit = { index, text, modifier ->
+        val isAnswer = text == exercise.answer
+        val tint = when {
+            !state.answered -> null
+            isAnswer -> AppAccents.green
+            text == state.chosen -> AppAccents.red
+            else -> null
+        }
+        // The right answer and a wrong choice fade to their colours.
+        val fill by animateColorAsState(tint?.copy(alpha = AppAlpha.soft) ?: colors.surface, AppMotion.spec(AppMotion.medium))
+        val edge by animateColorAsState(tint ?: colors.outlineVariant, AppMotion.spec(AppMotion.medium))
+        Row(
+            modifier.heightIn(min = AppSizes.row).clip(AppShapes.panel)
+                .background(fill)
+                .border(if (tint != null) AppBorders.selected(edge) else AppBorders.hairline(edge), AppShapes.panel)
+                .clickable(enabled = !state.answered) { actions.onChoose(text) }
+                .padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m).testTag("practice-option-$index"),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+        ) {
+            Text(text, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, color = if (state.answered && tint == null) colors.onSurfaceVariant else colors.onSurface)
+            when (tint) {
+                AppAccents.green -> PopIn { Icon(Icons.Default.Check, contentDescription = tr("Right answer"), tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconMedium)) }
+                AppAccents.red -> Icon(Icons.Default.Close, contentDescription = tr("Your answer"), tint = AppAccents.red, modifier = Modifier.size(AppSizes.iconMedium))
+                else -> Unit
+            }
+        }
+    }
+    Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        if (compact) {
+            exercise.options.forEachIndexed { i, text -> option(i, text, Modifier.fillMaxWidth()) }
+        } else {
+            exercise.options.withIndex().chunked(2).forEach { pair ->
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    pair.forEach { (i, text) -> option(i, text, Modifier.weight(1f)) }
+                    if (pair.size == 1) Spacer(Modifier.weight(1f))
+                }
+            }
+        }
+    }
+}
+
+/**
+ * Words on one side, their meanings shuffled on the other: tap a word, then its meaning. A right
+ * pair turns green and stays; a wrong one flashes red and the word stays picked to try again.
+ */
+@Composable
+private fun Matching(state: PracticeUiState, exercise: Exercise, actions: PracticeActions, compact: Boolean) {
+    val colors = MaterialTheme.colorScheme
+    val meanings = remember(state.index) { exercise.pairs.map { it.second }.shuffled() }
+    val words = remember(state.index) { exercise.pairs.map { it.first }.shuffled() }
+    var picked by remember(state.index) { mutableStateOf<String?>(null) }
+    var wrong by remember(state.index) { mutableStateOf<String?>(null) }
+    val meaningOf = exercise.pairs.toMap()
+    val cell: @Composable (String, Boolean, Boolean, Boolean, String, () -> Unit) -> Unit = { text, done, chosen, mistaken, tag, onClick ->
+        val tint = when {
+            done -> AppAccents.green
+            mistaken -> AppAccents.red
+            chosen -> colors.primary
+            else -> null
+        }
+        Box(
+            Modifier.fillMaxWidth().heightIn(min = AppSizes.row).clip(AppShapes.panel)
+                .background(tint?.copy(alpha = AppAlpha.soft) ?: colors.surface)
+                .border(if (tint != null) AppBorders.selected(tint) else AppBorders.hairline(colors.outlineVariant), AppShapes.panel)
+                .clickable(enabled = !done && !state.answered, onClick = onClick)
+                .padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag(tag),
+            contentAlignment = Alignment.CenterStart,
+        ) { Text(text, style = MaterialTheme.typography.titleMedium, color = if (done) colors.onSurfaceVariant else colors.onSurface) }
+    }
+    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.m else AppSpacing.xl)) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            words.forEachIndexed { i, word ->
+                cell(word, word in state.matched, picked == word, false, "practice-match-word-$i") { picked = word; wrong = null }
+            }
+        }
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            meanings.forEachIndexed { i, meaning ->
+                val done = state.matched.any { meaningOf[it] == meaning }
+                cell(meaning, done, false, wrong == meaning, "practice-match-meaning-$i") {
+                    val word = picked ?: return@cell
+                    if (actions.onMatch(word, meaning)) { picked = null; wrong = null } else wrong = meaning
+                }
+            }
+        }
+    }
+}
+
+/** The sentence built from its words: each tile is used once, the last one taken back with the button beside them. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun TilesAnswer(state: PracticeUiState, exercise: Exercise, actions: PracticeActions) {
+    val colors = MaterialTheme.colorScheme
+    // Back on a question being built, the words already taken are taken still.
+    var used by remember(state.index) { mutableStateOf(tilesIn(state.typed, exercise.tiles)) }
+    val build: (List<Int>) -> Unit = { picked -> used = picked; actions.onTyped(picked.joinToString(" ") { exercise.tiles[it] }) }
+    Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        Box(
+            Modifier.fillMaxWidth().heightIn(min = AppSizes.row).clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(horizontal = AppSpacing.l)
+                .testTag("practice-built"),
+            contentAlignment = Alignment.Center,
+        ) {
+            Text(
+                state.typed.ifEmpty { tr("Tap the words in order") },
+                style = if (state.typed.isEmpty()) MaterialTheme.typography.bodyLarge else MaterialTheme.typography.headlineSmall,
+                color = if (state.typed.isEmpty()) colors.onSurfaceVariant else colors.onSurface,
+            )
+        }
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            exercise.tiles.forEachIndexed { index, word ->
+                val free = index !in used && !state.answered
+                Box(
+                    Modifier.heightIn(min = AppSizes.touch).widthIn(min = AppSizes.touch).clip(AppShapes.control)
+                        .background(if (free) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
+                        .border(AppBorders.hairline(if (free) colors.primary else colors.outlineVariant), AppShapes.control)
+                        .clickable(enabled = free) { build(used + index) }
+                        .testTag("practice-tile-$index"),
+                    contentAlignment = Alignment.Center,
+                ) { Text(word, Modifier.padding(horizontal = AppSpacing.m), style = MaterialTheme.typography.titleLarge, color = if (free) colors.onSurface else colors.outline) }
+            }
+            AppIconButton(AppIcons.ArrowLeft, tr("Remove the last word"), onClick = { build(used.dropLast(1)) }, enabled = used.isNotEmpty() && !state.answered, modifier = Modifier.testTag("practice-tile-back"))
+        }
+    }
+}
+
+/** Which of [tiles] make up [typed], each used once. */
+private fun tilesIn(typed: String, tiles: List<String>): List<Int> {
+    val used = mutableListOf<Int>()
+    typed.split(" ").forEach { word -> tiles.indices.firstOrNull { it !in used && tiles[it] == word }?.let(used::add) }
+    return used
+}
+
+@Composable
+private fun TypedAnswer(state: PracticeUiState, exercise: Exercise, actions: PracticeActions) {
+    val focus = remember { FocusRequester() }
+    LaunchedEffect(state.index) { runCatching { focus.requestFocus() } }
+    AppTextField(
+        value = state.typed,
+        onValueChange = actions.onTyped,
+        readOnly = state.answered,
+        singleLine = true,
+        placeholder = { Text(if (exercise.wholeSentence) tr("Type the sentence") else tr("Type the word")) },
+        textStyle = MaterialTheme.typography.titleMedium.copy(textDirection = if (state.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
+        modifier = Modifier.fillMaxWidth().focusRequester(focus).testTag("practice-input"),
+    )
+}
+
+/** The reader's speaker in its soft circle, as a switch: tinted while sentences are read aloud, grey and struck through while not. */
+@Composable
+private fun ReadAloudCircle(on: Boolean, onClick: () -> Unit) {
+    val tint = if (on) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outline
+    val description = if (on) tr("Stop reading sentences aloud") else tr("Read sentences aloud")
+    Box(
+        Modifier.size(AppSizes.touch).clip(AppShapes.circle).background(tint.copy(alpha = AppAlpha.soft)).clickable(onClick = onClick)
+            .semantics { contentDescription = description }.testTag("practice-read-aloud"),
+        contentAlignment = Alignment.Center,
+    ) {
+        Icon(if (on) AppIcons.VolumeUp else AppIcons.VolumeOff, contentDescription = null, tint = tint, modifier = Modifier.fillMaxSize(0.58f))
+    }
+}
+
+/** The word's editor over the practice, to put its translation right; [onDone] gets the translation it was left with, null when the word went. */
+@Composable
+private fun FixTranslationDialog(termId: Long, sentence: String, key: Int, onDone: (String?) -> Unit) {
+    val form = koinViewModel<TermFormViewModel>(key = "practice-fix-$termId-$key") { parametersOf(TermFormKey.ById(termId, sentence)) }
+    CollectEvents(form.events) { event ->
+        when (event) {
+            is TermFormEvent.Saved -> if (!event.keepOpen) onDone(form.state.value.draft.translation)
+            TermFormEvent.Deleted -> onDone(null)
+            else -> {}
+        }
+    }
+    val close = { form.flush(); onDone(form.state.value.draft.translation) }
+    AppDialogSurface(onDismissRequest = close, modifier = Modifier.fillMaxHeight().testTag("practice-fix-dialog"), maxWidth = FIX_WIDTH) {
+        TermFormPanel(viewModel = form, modifier = Modifier.fillMaxSize(), embedded = true, onClose = close)
+    }
+}
+
+/** The answer said aloud: a button to start and stop hearing it, what was heard, and the way to type it instead. */
+@Composable
+private fun SpokenAnswer(state: PracticeUiState, actions: PracticeActions) {
+    SpeakAnswer(
+        listening = state.listening,
+        recognising = state.recognising,
+        heard = state.typed,
+        retry = state.retry,
+        answered = state.answered,
+        onListen = actions.onListen,
+        onStop = actions.onStopListening,
+        onTypeInstead = actions.onTypeInstead,
+        tag = "practice",
+        rightToLeft = state.rightToLeft,
+        level = actions.microphoneLevel,
+    )
+}
+
+@Composable
+private fun Feedback(state: PracticeUiState, exercise: Exercise) {
+    val (tint, title) = when (state.result) {
+        PracticeResult.CORRECT -> AppAccents.green to tr("Correct")
+        PracticeResult.ALMOST -> AppAccents.amber to tr("Almost: mind the accents")
+        PracticeResult.TYPO -> AppAccents.amber to tr("Almost: mind the spelling")
+        else -> AppAccents.red to tr("Not quite")
+    }
+    if (exercise.type == ExerciseType.MATCHING) {
+        Notice(
+            if (state.result == PracticeResult.WRONG) tr("Not quite") else if (state.wrongPairs == 0) tr("Correct") else tr("Almost"),
+            Modifier.testTag("practice-feedback"),
+            message = if (state.result == PracticeResult.WRONG) tr("The pairs are shown above.") else trPlural(state.wrongPairs, "Every pair matched, with {0} wrong try", "Every pair matched, with {0} wrong tries").takeIf { state.wrongPairs > 0 } ?: tr("Every pair matched."),
+            tint = if (state.result == PracticeResult.WRONG) AppAccents.red else if (state.wrongPairs == 0) AppAccents.green else AppAccents.amber,
+            icon = if (state.result == PracticeResult.WRONG) Icons.Default.Close else Icons.Default.Check,
+            popIcon = state.result != PracticeResult.WRONG,
+        )
+        return
+    }
+    // The word with its meaning, whatever was asked; for a sentence typed whole, the sentence is above.
+    val meaning = exercise.wordTranslation?.let { " — $it" }.orEmpty()
+    Notice(
+        title,
+        Modifier.testTag("practice-feedback"),
+        message = (if (exercise.otherForm) tr("{0}, a form of {1}", exercise.word, exercise.practised) else exercise.word) + meaning,
+        tint = tint,
+        icon = if (state.result == PracticeResult.WRONG) Icons.Default.Close else Icons.Default.Check,
+        // A right answer's tick pops in; a wrong one only fades in, without a jolt.
+        popIcon = state.result != PracticeResult.WRONG,
+    )
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun Finished(state: PracticeUiState, actions: PracticeActions) {
+    val colors = MaterialTheme.colorScheme
+    val total = state.exercises.size
+    Column(
+        Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.huge),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+    ) {
+        Box(Modifier.size(RESULT_BADGE_SIZE).clip(AppShapes.circle).background(AppAccents.green.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
+            Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconXLarge))
+        }
+        Text(tr("{0} of {1} right", state.correct, total), style = AppText.headline)
+        Text(
+            if (state.missed.isEmpty()) tr("Every answer was right.") else tr("Words to look at again: {0}", state.missed.joinToString(", ")),
+            style = MaterialTheme.typography.bodyLarge,
+            color = colors.onSurfaceVariant,
+            textAlign = TextAlign.Center,
+        )
+        Text(tr("Practice does not change the status of your words."), style = MaterialTheme.typography.bodySmall, color = colors.outline, textAlign = TextAlign.Center)
+        // Missed words lead to practising them again; with none missed, back to where the words came from.
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            if (state.missedTargets.isNotEmpty()) {
+                PrimaryButton(tr("Practise missed words"), onClick = actions.onRestartMissed, size = ButtonSize.Large, modifier = Modifier.testTag("practise-missed"))
+                SecondaryButton(backLabel(state), onClick = actions.onBack, size = ButtonSize.Large)
+            } else {
+                SecondaryButton(tr("Practise again"), onClick = actions.onRestart, size = ButtonSize.Large)
+                PrimaryButton(backLabel(state), onClick = actions.onBack, size = ButtonSize.Large)
+            }
+        }
+    }
+}
+
+/** Where Back leads: to the page read, or to the vocabulary the words were chosen in. */
+private fun backLabel(state: PracticeUiState): String = if (state.fromVocabulary) tr("Back to vocabulary") else tr("Back to reading")
+
+@Composable
+private fun Empty(state: PracticeUiState, actions: PracticeActions) {
+    EmptyState(
+        icon = AppIcons.School,
+        title = if (state.fromVocabulary || state.wholeBook) tr("Nothing to practise") else tr("Nothing to practise on this page"),
+        message = when {
+            state.fromVocabulary -> tr("Practice asks about a word in the sentence it was read in: none of the chosen words was saved with one.")
+            state.wholeBook -> tr("Practice uses the words you are learning: give some words in the text a status of 1 to 4 first.")
+            else -> tr("Practice uses the words you are learning: give some words on the page a status of 1 to 4 first.")
+        },
+        action = { PrimaryButton(backLabel(state), onClick = actions.onBack) },
+    )
+}

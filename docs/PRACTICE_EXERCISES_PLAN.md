@@ -1,4 +1,4 @@
-# Tayra Languages Vocabulary Practice Plan
+# Idiomiko Vocabulary Practice Plan
 
 Status: phases 1–5 implemented on `main` — see section 13
 Date: 24 October 2026

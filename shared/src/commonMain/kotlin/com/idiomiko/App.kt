@@ -1,0 +1,216 @@
+package com.idiomiko
+
+import kotlin.time.Duration.Companion.seconds
+import com.idiomiko.core.domain.flashcards.PersonalScheduling
+import kotlin.coroutines.cancellation.CancellationException
+import kotlinx.coroutines.delay
+import com.idiomiko.core.ui.components.LocalTitleBarInset
+import com.idiomiko.core.ui.components.LocalLearnedScript
+import com.idiomiko.core.domain.flashcards.FlashcardService
+import com.idiomiko.core.ui.components.LocalFlashcardsDue
+import com.idiomiko.core.ui.components.LocalVideosEnabled
+import com.idiomiko.core.ui.media.videoSupported
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.LocalContentColor
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LifecycleEventEffect
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.idiomiko.bootstrap.AppBootstrapViewModel
+import com.idiomiko.bootstrap.BootstrapState
+import com.idiomiko.core.domain.settings.SettingsRepository
+import com.idiomiko.core.domain.repository.LanguageRepository
+import com.idiomiko.core.domain.service.ChineseScriptService
+import com.idiomiko.core.domain.service.LearningLanguageService
+import com.idiomiko.core.ui.components.LearningLanguageState
+import com.idiomiko.core.ui.components.LocalLearningLanguage
+import com.idiomiko.core.ui.components.TargetLanguageDialog
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.mutableIntStateOf
+import com.idiomiko.feature.settings.AppUpdateBanner
+import com.idiomiko.feature.settings.LanguageSetupDialog
+import androidx.compose.runtime.setValue
+import com.idiomiko.core.domain.frequency.VocabularyLevelService
+import com.idiomiko.core.domain.frequency.WordFrequencyService
+import com.idiomiko.feature.frequency.VocabularyLevelPrompt
+import kotlinx.coroutines.launch
+import com.idiomiko.core.ui.components.LoadingIndicator
+import com.idiomiko.core.ui.i18n.UiLanguage
+import com.idiomiko.core.ui.i18n.tr
+import com.idiomiko.core.ui.components.ProvideWindowWidth
+import com.idiomiko.core.ui.theme.AppThemes
+import com.idiomiko.core.ui.theme.LocalThemePreview
+import com.idiomiko.core.ui.theme.IdiomikoTheme
+import com.idiomiko.navigation.AppNavHost
+import com.idiomiko.core.domain.account.AutoSync
+import org.koin.compose.KoinContext
+import org.koin.compose.koinInject
+import org.koin.compose.viewmodel.koinViewModel
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.map
+import com.idiomiko.core.ui.theme.AppSpacing
+import com.idiomiko.core.domain.flashcards.SentenceTranslations
+
+/**
+ * Gives every screen's top bar the choice of the language being learned, and picks a language
+ * again whenever the chosen one is gone. While none is chosen (first start, a deleted language or
+ * a reset database), the user has to choose one before going on. Choosing another
+ * language opens its courses ([onChosen]), asks for its vocabulary level when it was never given
+ * one, and then offers what it can download.
+ */
+@Composable
+private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, content: @Composable () -> Unit) {
+    val languages by koinInject<LanguageRepository>().observeAll().collectAsStateWithLifecycle(emptyList())
+    val learning = koinInject<LearningLanguageService>()
+    val levels = koinInject<VocabularyLevelService>()
+    val settings = koinInject<SettingsRepository>()
+    val native by remember(settings) { settings.settings.map { it.nativeLanguage }.distinctUntilChanged() }.collectAsStateWithLifecycle(null)
+    val frequency = koinInject<WordFrequencyService>()
+    val knownWords by remember(frequency, currentId) { frequency.observeKnownWords(currentId) }.collectAsStateWithLifecycle(null)
+    val mine by remember(learning) { learning.observeMine() }.collectAsStateWithLifecycle(emptyList())
+    LaunchedEffect(learning) { learning.fillMine() }
+    // Only the current language is counted live: each count holds its language's frequency list in
+    // memory, which for every language at once runs a phone out of memory.
+    LaunchedEffect(currentId, knownWords) { knownWords?.let { learning.rememberKnownWords(currentId, it) } }
+    val wordCounts by remember(learning) { learning.observeKnownWordCounts() }.collectAsStateWithLifecycle(emptyMap())
+    val scope = rememberCoroutineScope()
+    val chineseScripts = koinInject<ChineseScriptService>()
+    // The language just chosen, asked for its vocabulary level first.
+    var askLevelFor by remember { mutableStateOf<Long?>(null) }
+    // The language waiting for its downloads to be offered, once the level is dealt with.
+    var setupPending by remember { mutableStateOf<Long?>(null) }
+    var setupFor by remember { mutableStateOf<Long?>(null) }
+    LaunchedEffect(currentId, languages) {
+        if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure(pickUnchosen = false)
+    }
+    val state = remember(languages, currentId, native, knownWords, mine, wordCounts) {
+        // The native language is listed but cannot be chosen for learning.
+        val nativeIds = languages.filter { learning.isNative(it) }.map { it.id }.toSet()
+        suspend fun choose(id: Long) {
+            if (!learning.select(id) || id == currentId) return
+            onChosen()
+            if (levels.needsLevel(id)) {
+                setupPending = id
+                askLevelFor = id
+            } else {
+                setupFor = id
+            }
+        }
+        LearningLanguageState(
+            languages.sortedBy { it.name }.map { it.id to it.name }, currentId, nativeIds, knownWords,
+            // Mandarin is offered in simplified and in traditional characters, one language with the same words.
+            scripts = languages.filter { it.parserType == "mandarin" }.associate { it.id to it.chineseScript },
+            onSelectScript = { id, script ->
+                scope.launch {
+                    val language = languages.firstOrNull { it.id == id } ?: return@launch
+                    if (learning.isNative(language)) return@launch
+                    if (language.chineseScript != script) chineseScripts.setScript(id, script)
+                    choose(id)
+                }
+            },
+            mine = mine,
+            wordCounts = wordCounts,
+        ) { id -> scope.launch { choose(id) } }
+    }
+    val script = languages.firstOrNull { it.id == currentId }?.chineseScript
+    CompositionLocalProvider(LocalLearningLanguage provides state, LocalLearnedScript provides script) {
+        content()
+        if (currentId == 0L && languages.isNotEmpty()) TargetLanguageDialog(state)
+        VocabularyLevelPrompt(askLevelFor, onClosed = {
+            askLevelFor = null
+            setupFor = setupPending
+            setupPending = null
+        })
+        LanguageSetupDialog(setupFor, onClosed = { setupFor = null })
+    }
+}
+
+/**
+ * @param titleBarInset height of a transparent native title bar the content extends under
+ *   (macOS desktop); painted in the app bar colour so it matches the theme.
+ */
+@Composable
+fun App(titleBarInset: Dp = 0.dp) {
+    KoinContext {
+        val settingsRepository = koinInject<SettingsRepository>()
+        val settings by settingsRepository.settings.collectAsStateWithLifecycle()
+        // Counts the languages chosen, so the navigation goes to Courses after each one.
+        var openCourses by remember { mutableIntStateOf(0) }
+        // Set during composition, so the first frame is already in the chosen language.
+        UiLanguage.set(settings.uiLanguage)
+        // A theme looked at in the theme list shows over the chosen one, until the choice is made or the list closes.
+        var previewThemeId by remember { mutableStateOf<String?>(null) }
+        LaunchedEffect(settings.themeId) { previewThemeId = null }
+        // The cards' sentences still without a translation get one, a sentence at a time, while the app runs.
+        val sentenceTranslations = koinInject<SentenceTranslations>()
+        LaunchedEffect(sentenceTranslations) { sentenceTranslations.fillMissing() }
+        // Each language's scheduling is trained again on its answers once enough new ones have come in.
+        val personalScheduling = koinInject<PersonalScheduling>()
+        val languageRepository = koinInject<LanguageRepository>()
+        LaunchedEffect(personalScheduling) {
+            delay(PERSONAL_SCHEDULING_DELAY)
+            runCatching { personalScheduling.optimizeWhereDue(languageRepository.getAll().map { it.id }) }
+                .onFailure { if (it is CancellationException) throw it }
+        }
+        IdiomikoTheme(AppThemes.byId(previewThemeId ?: settings.themeId), reduceMotion = settings.reduceMotion, learningLevels = settings.showLearningLevels) {
+            // Text takes the background's content colour from here, as a Surface would provide it.
+            Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) {
+                CompositionLocalProvider(
+                    LocalContentColor provides MaterialTheme.colorScheme.onBackground, LocalTitleBarInset provides titleBarInset,
+                    LocalThemePreview provides { previewThemeId = it },
+                ) {
+                Column {
+                    if (titleBarInset > 0.dp) {
+                        Box(Modifier.fillMaxWidth().height(titleBarInset).background(MaterialTheme.colorScheme.surfaceVariant))
+                    }
+                    ProvideWindowWidth {
+                    val bootstrap = koinViewModel<AppBootstrapViewModel>()
+                    val state by bootstrap.state.collectAsStateWithLifecycle()
+                    when (val s = state) {
+                        BootstrapState.Loading -> LoadingIndicator()
+                        is BootstrapState.Failed -> Box(Modifier.fillMaxSize().padding(AppSpacing.xxl), contentAlignment = Alignment.Center) {
+                            Text(tr("Could not start: {0}", s.message), color = MaterialTheme.colorScheme.error)
+                        }
+                        BootstrapState.Ready -> ProvideLearningLanguage(settings.currentLanguageId, onChosen = { openCourses++ }) {
+                            val flashcards = koinInject<FlashcardService>()
+                            val due by remember(flashcards) { flashcards.observeDueCount() }.collectAsStateWithLifecycle(0)
+                            val autoSync = koinInject<AutoSync>()
+                            LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { autoSync.request() }
+                            CompositionLocalProvider(
+                                LocalFlashcardsDue provides due,
+                                LocalVideosEnabled provides (videoSupported && settings.experimentalVideos),
+                            ) {
+                                Column {
+                                    AppUpdateBanner()
+                                    Box(Modifier.weight(1f)) { AppNavHost(openCourses) }
+                                }
+                            }
+                        }
+                    }
+                    }
+                }
+                }
+            }
+        }
+    }
+}
+
+/** How long after the app opens its languages' scheduling is looked at, so training never slows the start. */
+private val PERSONAL_SCHEDULING_DELAY = 30.seconds

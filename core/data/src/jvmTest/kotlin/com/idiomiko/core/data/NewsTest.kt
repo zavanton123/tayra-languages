@@ -1,0 +1,275 @@
+package com.idiomiko.core.data
+
+import com.idiomiko.core.data.db.DatabaseDriverFactory
+import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.news.ArticleText
+import com.idiomiko.core.data.news.FeedNewsReader
+import com.idiomiko.core.data.repository.BookRepositoryImpl
+import com.idiomiko.core.data.repository.LanguageRepositoryImpl
+import com.idiomiko.core.data.repository.TermRepositoryImpl
+import com.idiomiko.core.data.repository.WordsReadRepositoryImpl
+import com.idiomiko.core.domain.books.discover.TextCoverage
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.Term
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.news.NewsArticle
+import com.idiomiko.core.domain.news.NewsFeedReader
+import com.idiomiko.core.domain.news.NewsLevel
+import com.idiomiko.core.domain.news.NewsService
+import com.idiomiko.core.domain.news.NewsSource
+import com.idiomiko.core.domain.news.WikiPage
+import com.idiomiko.core.domain.news.Wiki
+import com.idiomiko.core.domain.news.WikiReader
+import com.idiomiko.core.domain.service.BookService
+import com.idiomiko.core.domain.service.ReadingService
+import com.idiomiko.core.domain.service.TermService
+import io.ktor.client.HttpClient
+import io.ktor.client.engine.mock.MockEngine
+import io.ktor.client.engine.mock.respond
+import io.ktor.client.plugins.HttpTimeout
+import io.ktor.http.HttpHeaders
+import io.ktor.http.HttpStatusCode
+import io.ktor.http.headersOf
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.test.runTest
+import java.io.File
+import kotlin.test.Test
+import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertNull
+import kotlin.test.assertTrue
+import kotlin.time.Instant
+
+/** News: the feeds read, the articles' texts found on their pages, judged, and read as texts kept apart from the books. */
+class NewsTest {
+    private val source = NewsSource("pt", "Notícias", "https://news.example/rss", "https://news.example", NewsLevel.STANDARD)
+
+    @Test
+    fun anRssFeedListsItsArticlesWithTheirDates() {
+        val feed = """<?xml version="1.0"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/"><channel>
+            <title>Notícias</title><link>https://news.example</link>
+            <item><title>O gato voltou</title><link>https://news.example/gato</link>
+              <media:content url="https://news.example/gato.jpg" medium="image" />
+              <description><![CDATA[<p>O gato voltou para <b>casa</b>.</p>]]></description>
+              <pubDate>Fri, 16 Oct 2026 10:30:00 +0200</pubDate></item>
+            <item><title>Sem link</title><description>Nada</description></item>
+            <item><title>A &amp; B</title><guid>https://news.example/ab</guid><pubDate>Thu, 15 Oct 2026 08:00:00 GMT</pubDate>
+              <content:encoded><![CDATA[<p>${"Uma frase longa sobre a cidade e o mar. ".repeat(30)}</p>]]></content:encoded></item>
+            </channel></rss>"""
+        val (gato, ab) = FeedNewsReader.parse(feed, source)
+        assertEquals("O gato voltou", gato.title)
+        assertEquals("https://news.example/gato", gato.url)
+        // The picture before the summary does not swallow it.
+        assertEquals("O gato voltou para casa.", gato.summary)
+        assertEquals(Instant.parse("2026-10-16T08:30:00Z"), gato.published)
+        assertEquals("O gato voltou para casa.", gato.feedText)
+        assertEquals("A & B", ab.title)
+        assertEquals("https://news.example/ab", ab.url)
+        assertEquals(Instant.parse("2026-10-15T08:00:00Z"), ab.published)
+        assertTrue(ab.feedText!!.startsWith("Uma frase longa"), "a feed that carries the whole article gives it")
+    }
+
+    @Test
+    fun anArticlesTopicsAreTheFeedsCategories() {
+        val rss = """<rss><channel><category>Channel topic</category><item><title>T</title><link>https://news.example/t</link>
+            <category>Política</category><category><![CDATA[Brasil]]></category><category>Política</category><dc:subject>Eleições</dc:subject></item></channel></rss>"""
+        assertEquals(listOf("Política", "Brasil", "Eleições"), FeedNewsReader.parse(rss, source).single().topics)
+        val atom = """<feed><entry><title>A</title><link href="https://news.example/a"/><category term="sport" label="Desporto"/><category term="futebol"/></entry></feed>"""
+        assertEquals(listOf("Desporto", "futebol"), FeedNewsReader.parse(atom, source).single().topics)
+    }
+
+    @Test
+    fun anEnglishArticleInAFeedOfAnotherLanguageIsLeftOut() {
+        val atom = """<feed><entry><title>O que acontece no seu cérebro quando você não consegue parar de rir?</title><link href="https://news.example/riso"/>
+            <content type="html">&lt;p&gt;Você se lembra da última vez em que estava rindo e simplesmente não conseguia parar?&lt;/p&gt;</content></entry>
+            <entry><title>Is it better to vaccinate against COVID and flu together, or separately?</title><link href="https://news.example/flu"/>
+            <content type="html">&lt;p&gt;As autumn sets in and temperatures fall across the northern hemisphere, vaccination campaigns are getting underway, and many people wonder whether they can have both.&lt;/p&gt;</content></entry></feed>"""
+        assertEquals(listOf("https://news.example/riso"), FeedNewsReader.parse(atom, source).map { it.url })
+        assertEquals(2, FeedNewsReader.parse(atom, source.copy(languageCode = "en")).size, "an English feed keeps them")
+        // Words English shares with Dutch, German and the Nordic languages count for nothing.
+        assertFalse(FeedNewsReader.looksEnglish("Het is in de stad was een man met een hond, en hij is voor de deur in het huis."))
+        assertFalse(FeedNewsReader.looksEnglish("Det er for sent, sa han, og gikk for å finne en annen vei hjem."))
+        // A Chinese sentence runs together; a few English names in it do not make it English.
+        assertFalse(FeedNewsReader.looksEnglish("前進倫敦書展：讓世界看見南亞 今年的 The London Book Fair 有許多南亞出版社參加。在倫敦書展上，南亞的出版社與作家們展示了他們的作品，讓世界看見南亞的文學與文化。他們說，翻譯是讓更多讀者認識南亞文學的關鍵，而書展正是與各國出版社見面的最好機會。"))
+        // WordPress's English notice is no part of a Mongolian article.
+        val wordpress = """<rss><channel><item><title>Таны хөрөнгө - Таны боломж</title><link>https://news.example/mn</link>
+            <description><![CDATA[<p>The post <a href="https://news.example/mn">Таны хөрөнгө - Таны боломж</a> appeared first on <a href="https://news.example">Eguur.MN</a>.</p>]]></description></item></channel></rss>"""
+        val mongolian = FeedNewsReader.parse(wordpress, source.copy(languageCode = "mn")).single()
+        assertEquals("", mongolian.summary)
+        // A Mongolian title quoting an English name is still Mongolian.
+        val named = """<rss><channel><item><title>“The MongolZ” бүрэлдэхүүндээ өөрчлөлт хийж, хоёр тоглогчийг сэлгээнд шилжүүллээ</title><link>https://news.example/mz</link>
+            <description>The team and the players have changed, with the new roster from the start of the season.</description></item></channel></rss>"""
+        assertEquals(1, FeedNewsReader.parse(named, source.copy(languageCode = "mn")).size)
+    }
+
+    @Test
+    fun anAtomFeedAndAnRdfFeedToo() {
+        val atom = """<feed xmlns="http://www.w3.org/2005/Atom"><entry><title type="html">Notícia</title>
+            <link rel="enclosure" href="https://news.example/audio.mp3"/><link rel="alternate" href="https://news.example/a"/>
+            <summary>Resumo.</summary><updated>2026-10-16T12:00:00+03:00</updated><author><name>Ana</name></author></entry></feed>"""
+        val article = FeedNewsReader.parse(atom, source).single()
+        assertEquals("https://news.example/a", article.url)
+        assertEquals("Resumo.", article.summary)
+        assertEquals(Instant.parse("2026-10-16T09:00:00Z"), article.published)
+
+        val rdf = """<rdf:RDF><channel><title>DW</title></channel><item rdf:about="https://news.example/b"><title>B</title>
+            <link>https://news.example/b</link><description>Texto.</description><dc:date>2026-10-16T21:37:00Z</dc:date></item></rdf:RDF>"""
+        assertEquals(Instant.parse("2026-10-16T21:37:00Z"), FeedNewsReader.parse(rdf, source).single().published)
+    }
+
+    @Test
+    fun anArticlesTextIsTheParagraphsUnderTheElementHoldingMostOfThem() {
+        val body = (1..6).joinToString("") { "<div class=\"block\"><p>Parágrafo número $it do artigo, com bastante texto para contar como parte dele.</p></div>" }
+        val html = """<html><body><header><p>Menu do site com muitas palavras que não fazem parte do artigo de modo algum.</p></header>
+            <nav><p>Mais lidas: uma lista de outras notícias que não são esta, com títulos longos.</p></nav>
+            <main><article class="sidebar-1"><h1>Título</h1><p>Primeiro parágrafo, sem fecho, como o HTML permite que se escreva às vezes.
+            $body<figure><img src="x.jpg"><figcaption>Legenda da foto, que não é texto do artigo e não deve aparecer aqui.</figcaption></figure>
+            <p>Último parágrafo do artigo, depois da foto, com o fim da notícia.</p></article></main>
+            <footer><p>Todos os direitos reservados, um texto de rodapé bem comprido para atrapalhar.</p></footer></body></html>"""
+        val text = ArticleText.extract(html)
+        val lines = text.lines()
+        assertEquals("Primeiro parágrafo, sem fecho, como o HTML permite que se escreva às vezes.", lines.first())
+        assertEquals(8, lines.size, text)
+        assertEquals("Último parágrafo do artigo, depois da foto, com o fim da notícia.", lines.last())
+        assertTrue(listOf("Menu", "Mais lidas", "Legenda", "direitos").none { it in text }, text)
+    }
+
+    @Test
+    fun aPageThatShowsLessThanItsDataGivesItsDataText() {
+        val whole = (1..10).joinToString("\\n") { "Frase $it do texto completo do artigo, que a página só mostra em parte." }
+        val html = """<html><head><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage"}, {"@type": "NewsArticle", "headline": "T", "articleBody": "$whole"}]}</script></head>
+            <body><article><p>Frase 1 do texto completo do artigo, que a página só mostra em parte.</p><p>Assine para continuar a ler esta notícia.</p></article></body></html>"""
+        assertEquals((1..10).joinToString("\n") { "Frase $it do texto completo do artigo, que a página só mostra em parte." }, ArticleText.extract(html))
+    }
+
+    @Test
+    fun aSourceThatCarriesItsArticlesInTheFeedIsReadFromIt() = runTest {
+        var pages = 0
+        val client = HttpClient(MockEngine { pages++; respond("", HttpStatusCode.OK) }) { install(HttpTimeout) }
+        val ruv = NewsSource("is", "RÚV", "https://www.ruv.is/rss/frettir", "https://www.ruv.is", textInFeed = true)
+        val short = NewsArticle(ruv, "https://www.ruv.is/a", "Frétt", "Stutt frétt.", null, feedText = "Stutt frétt um veðrið í dag.")
+        assertEquals("Stutt frétt um veðrið í dag.", FeedNewsReader(client).text(short))
+        assertEquals(0, pages, "the page, which shows its text only to a browser, is not read")
+    }
+
+    @Test
+    fun feedsWhoseLinksMissTheArticleAreSetRight() {
+        val un = NewsSource("ar", "UN News", "https://news.un.org/feed/subscribe/ar/news/all/rss.xml", "")
+        assertEquals("https://news.un.org/ar/story/2026/10/123", FeedNewsReader.articleUrl("https://news.un.org/feed/view/ar/story/2026/10/123", un))
+        val bbc = NewsSource("zh", "BBC 中文", "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml", "")
+        assertEquals("https://www.bbc.com/zhongwen/articles/c123/simp?at_medium=RSS", FeedNewsReader.articleUrl("https://www.bbc.com/zhongwen/articles/c123/trad?at_medium=RSS", bbc))
+        val trad = NewsSource("yue", "BBC 中文 (繁體)", "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml", "")
+        assertEquals("https://www.bbc.com/zhongwen/articles/c123/trad", FeedNewsReader.articleUrl("https://www.bbc.com/zhongwen/articles/c123/trad", trad))
+    }
+
+    @Test
+    fun aDateWrittenCarelesslyIsStillRead() {
+        assertEquals(Instant.parse("2026-10-16T08:00:00Z"), FeedNewsReader.date("Fri,16 Oct 2026 10:00:00 +0200"))
+        assertEquals(Instant.parse("2026-10-16T00:00:00Z"), FeedNewsReader.date("2026-10-16"))
+        assertNull(FeedNewsReader.date("yesterday"))
+    }
+
+    @Test
+    fun aPageWithoutTheTextFallsBackToTheSummary() = runTest {
+        val client = HttpClient(MockEngine { respond("<html><body><div id=app></div></body></html>", HttpStatusCode.OK, headersOf(HttpHeaders.ContentType, "text/html")) }) { install(HttpTimeout) }
+        val article = NewsArticle(source, "https://news.example/app", "App", "O resumo da notícia.", null, feedText = "O resumo da notícia.")
+        assertEquals("O resumo da notícia.", FeedNewsReader(client).text(article))
+    }
+
+    private val file = File.createTempFile("idiomiko-news", ".db").also { it.delete() }
+    private val provider = DatabaseProvider(DatabaseDriverFactory(file))
+    private val languages = LanguageRepositoryImpl(provider)
+    private val books = BookRepositoryImpl(provider)
+    private val terms = TermRepositoryImpl(provider)
+    private val reading = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages))
+
+    private val other = NewsSource("pt", "Outro", "https://other.example/rss", "https://other.example", NewsLevel.EASY)
+    private val broken = NewsSource("pt", "Quebrado", "https://broken.example/rss", "https://broken.example")
+    private var fetched = 0
+
+    private val reader = object : NewsFeedReader {
+        override suspend fun articles(source: NewsSource): List<NewsArticle> = when (source) {
+            this@NewsTest.source -> listOf(
+                NewsArticle(source, "https://news.example/old", "Antiga", "", Instant.parse("2026-10-14T10:00:00Z")),
+                NewsArticle(source, "https://news.example/gato", "O gato", "", Instant.parse("2026-10-16T10:00:00Z")),
+            )
+            other -> listOf(NewsArticle(source, "https://other.example/casa", "A casa", "", Instant.parse("2026-10-15T10:00:00Z")))
+            else -> error("Feed down")
+        }
+
+        override suspend fun text(article: NewsArticle): String {
+            // As the real reader does, a source that carries its articles is read from its feed.
+            if (article.source.textInFeed) article.feedText?.let { return it }
+            fetched++
+            return "O gato dorme na casa.\nA casa é grande."
+        }
+    }
+
+    private val wikipedia = object : WikiReader {
+        override suspend fun mostRead(wiki: Wiki, languageCode: String, page: Int) = WikiPage(
+            listOf(NewsArticle(NewsSource(languageCode, wiki.siteName, "https://$languageCode.${wiki.name.lowercase()}.org", "", textInFeed = true), "https://$languageCode.${wiki.name.lowercase()}.org/wiki/Gato", "Gato", "O gato é um animal.", null, feedText = "O gato é um animal.")),
+            hasMore = false,
+        )
+        override suspend fun search(wiki: Wiki, languageCode: String, query: String, page: Int) = WikiPage(emptyList(), hasMore = false)
+        override suspend fun wholeText(article: NewsArticle) = "O gato é um animal.\nHistória\nO gato vive com as pessoas."
+    }
+
+    private val service = NewsService(reader, wikipedia, reading, BookService(books, languages), books, listOf(source, other, broken, NewsSource("es", "Noticias", "https://es.example/rss", "")))
+
+    @Test
+    fun theLatestNewsOfTheLanguageComeNewestFirst() = runTest {
+        val portuguese = languages.getById(languages.save(Language(name = "Portuguese")))!!
+        val news = service.latest(portuguese)
+        assertEquals(listOf("O gato", "A casa", "Antiga"), news.articles.map { it.title })
+        assertEquals(listOf(broken), news.failed)
+    }
+
+    @Test
+    fun anArticleIsJudgedAndReadAsATextOfItsOwn() = runTest {
+        val id = languages.save(Language(name = "Portuguese"))
+        val portuguese = languages.getById(id)!!
+        listOf("o" to TermStatus.WELL_KNOWN, "gato" to TermStatus.NEW_2).forEach { (word, status) -> terms.save(Term(languageId = id, text = word, textLc = word, status = status)) }
+        val article = service.latest(portuguese).articles.first()
+        // 9 running words, of which o and gato are known.
+        assertEquals(TextCoverage(words = 9, known = 2), service.coverage(article, portuguese))
+
+        val bookId = service.open(article, portuguese, "Fonte: Notícias.")
+        assertEquals(bookId, service.open(article, portuguese, "Fonte: Notícias."), "opening again finds the same text")
+        assertEquals(1, fetched, "judging and then opening fetches the article once")
+        assertEquals("O gato dorme na casa.\nA casa é grande.\n\nFonte: Notícias.", books.getPages(bookId).joinToString("\n") { it.text })
+        assertEquals(mapOf(article.url to bookId), service.observeOpened().first().mapValues { it.value.bookId })
+        assertEquals(article.url, books.newsUrl(bookId))
+        // The news is read apart from the books.
+        assertEquals(emptyList(), books.observeBooks(archived = false).first())
+    }
+
+    @Test
+    fun aWikipediaArticleIsReadByItsIntroductionOrWhole() = runTest {
+        val portuguese = languages.getById(languages.save(Language(name = "Portuguese")))!!
+        val gato = service.wiki(portuguese, Wiki.WIKIPEDIA, "", 1).articles.single()
+        val intro = service.open(gato, portuguese, "Fonte: Wikipédia.")
+        val whole = service.openWhole(gato, portuguese, "Gato (artigo completo)", "Fonte: Wikipédia.")
+        assertEquals("O gato é um animal.\n\nFonte: Wikipédia.", books.getPages(intro).joinToString("\n") { it.text })
+        assertEquals("Gato (artigo completo)", books.getBook(whole)!!.title)
+        assertEquals(whole, service.openWhole(gato, portuguese, "Gato (artigo completo)", "Fonte: Wikipédia."))
+        assertEquals(setOf(gato.url, NewsService.wholeKey(gato)), service.observeOpened().first().keys)
+        assertEquals(listOf("wikipedia"), books.getBook(whole)!!.tags)
+    }
+
+    @Test
+    fun aLanguageHasTheWikisWithAnEditionInIt() = runTest {
+        val portuguese = languages.getById(languages.save(Language(name = "Portuguese")))!!
+        val german = languages.getById(languages.save(Language(name = "German")))!!
+        val english = languages.getById(languages.save(Language(name = "English")))!!
+        val manx = languages.getById(languages.save(Language(name = "Manx")))!!
+        assertEquals(listOf(Wiki.WIKIPEDIA, Wiki.WIKIVOYAGE, Wiki.WIKIBOOKS), service.wikis(portuguese))
+        assertEquals(listOf(Wiki.WIKIPEDIA, Wiki.KLEXIKON, Wiki.MINIKLEXIKON, Wiki.WIKIVOYAGE, Wiki.WIKIBOOKS), service.wikis(german))
+        assertEquals(listOf(Wiki.WIKIPEDIA, Wiki.SIMPLE_WIKIPEDIA, Wiki.WIKIVOYAGE, Wiki.WIKIBOOKS), service.wikis(english))
+        assertEquals(listOf(Wiki.WIKIPEDIA), service.wikis(manx))
+        assertEquals(emptyList(), service.wiki(manx, Wiki.WIKIVOYAGE, "", 1).articles, "a wiki without an edition in the language has nothing")
+
+        val voyage = service.wiki(portuguese, Wiki.WIKIVOYAGE, "", 1).articles.single()
+        val whole = service.openWhole(voyage, portuguese, "Gato (guia completo)", "Fonte: Wikivoyage.")
+        assertEquals(listOf("wikivoyage"), books.getBook(whole)!!.tags)
+    }
+}

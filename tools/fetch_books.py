@@ -30,7 +30,7 @@ from html.parser import HTMLParser
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "tools", "books", ".cache")
 MACHADO_ZIP = "https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/machado.zip"
-USER_AGENT = "TayraLanguagesBookPacks/1.0 (https://github.com/zavanton123/tayra-languages)"
+USER_AGENT = "IdiomikoBookPacks/1.0 (https://github.com/zavanton123/tayra-languages)"
 
 
 def fetch(url, retries=4):

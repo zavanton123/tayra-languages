@@ -5,7 +5,7 @@ the free bilingual dictionaries KOReader, GoldenDict and dictd users install.
 
 FreeDict lists every dictionary and its releases in freedict-database.json; each is published as
 StarDict files in a .tar.xz, which this script downloads (checking its SHA-512), unpacks and
-turns into a pack with `tayra dictionaries convert`, the app's own StarDict import, so a pack
+turns into a pack with `idiomiko dictionaries convert`, the app's own StarDict import, so a pack
 reads exactly as the same dictionary imported in the app would. The pack's meta then names
 FreeDict, the dictionary's edition and its licence, as found in its .ifo description; a
 dictionary whose licence is not recognised as a free one is left out and reported.
@@ -43,11 +43,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "dictionaries")
 CACHE = os.path.join(OUT, "freedict")
 BUILT = os.path.join(CACHE, "built.json")
-CATALOG = os.path.join(ROOT, "core/domain/src/commonMain/kotlin/com/tayra/languages/core/domain/dictionary/DictionaryPackSizes.kt")
+CATALOG = os.path.join(ROOT, "core/domain/src/commonMain/kotlin/com/idiomiko/core/domain/dictionary/DictionaryPackSizes.kt")
 DATABASE_URL = "https://freedict.org/freedict-database.json"
 RELEASE = "freedict-v1"
-CLI = os.path.join(ROOT, "cli/build/install/tayra/bin/tayra")
-USER_AGENT = "TayraLanguages/1.0 (https://github.com/zavanton123/tayra-languages)"
+CLI = os.path.join(ROOT, "cli/build/install/idiomiko/bin/idiomiko")
+USER_AGENT = "Idiomiko/1.0 (https://github.com/zavanton123/tayra-languages)"
 
 # FreeDict's ISO 639-3 codes, by the app's codes for them; the others are languages the app does not know.
 CODES = {

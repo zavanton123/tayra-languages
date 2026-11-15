@@ -1,5 +1,5 @@
 plugins {
-    id("tayra.kmp.feature")
+    id("idiomiko.kmp.feature")
 }
 
 kotlin {

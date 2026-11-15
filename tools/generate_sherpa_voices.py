@@ -11,7 +11,7 @@ import json
 import pathlib
 import subprocess
 
-OUT = pathlib.Path(__file__).resolve().parent.parent / "core/data/src/commonMain/kotlin/com/tayra/languages/core/data/speech/SherpaPiperVoices.kt"
+OUT = pathlib.Path(__file__).resolve().parent.parent / "core/data/src/commonMain/kotlin/com/idiomiko/core/data/speech/SherpaPiperVoices.kt"
 PREFIX, SUFFIX = "vits-piper-", "-int8.tar.bz2"
 CATALOG = "https://huggingface.co/rhasspy/piper-voices/resolve/main/voices.json"
 
@@ -44,7 +44,7 @@ def q(s):
 
 rows = "\n".join(f"        SherpaPiperVoice({q(k)}, {s}L, {q(l)}, {q(c)})," for k, s, l, c in voices)
 OUT.parent.mkdir(parents=True, exist_ok=True)
-OUT.write_text(f'''package com.tayra.languages.core.data.speech
+OUT.write_text(f'''package com.idiomiko.core.data.speech
 
 /** One Piper voice as sherpa-onnx packages it: its `locale-voice-quality` key and download size. */
 data class SherpaPiperVoice(val key: String, val sizeBytes: Long, val language: String, val country: String)

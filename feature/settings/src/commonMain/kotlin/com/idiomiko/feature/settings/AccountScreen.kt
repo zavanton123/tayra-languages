@@ -1,0 +1,411 @@
+package com.idiomiko.feature.settings
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AccountCircle
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Phone
+import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.filled.Warning
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LifecycleEventEffect
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.idiomiko.core.domain.account.AccountProblem
+import com.idiomiko.core.domain.account.SignInProvider
+import com.idiomiko.core.domain.account.SyncPhase
+import com.idiomiko.core.domain.account.SyncProgress
+import com.idiomiko.core.ui.components.APP_NAME
+import com.idiomiko.core.ui.components.AppDivider
+import com.idiomiko.core.ui.components.AppTextField
+import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.ButtonTone
+import com.idiomiko.core.ui.components.ConfirmDialog
+import com.idiomiko.core.ui.components.SwitchSetting
+import com.idiomiko.core.ui.components.ContentCard
+import com.idiomiko.core.ui.components.LocalWindowWidth
+import com.idiomiko.core.ui.components.NavSection
+import com.idiomiko.core.ui.components.Notice
+import com.idiomiko.core.ui.components.PageColumn
+import com.idiomiko.core.ui.components.PrimaryButton
+import com.idiomiko.core.ui.components.QuietButton
+import com.idiomiko.core.ui.components.ScreenHeader
+import com.idiomiko.core.ui.components.ScrollColumn
+import com.idiomiko.core.ui.components.SecondaryButton
+import com.idiomiko.core.ui.components.StatusTints
+import com.idiomiko.core.ui.i18n.formatCount
+import com.idiomiko.core.ui.i18n.tr
+import com.idiomiko.core.ui.navigation.Route
+import com.idiomiko.core.ui.theme.AppSpacing
+import kotlinx.datetime.TimeZone
+import kotlinx.datetime.toLocalDateTime
+import org.koin.compose.viewmodel.koinViewModel
+import kotlin.time.Instant
+
+/**
+ * Settings: the Idiomiko account this device is signed in to. Signed out, it signs in or
+ * makes an account; signed in, it shows the subscription and syncing, lists the devices signed in,
+ * and signs out or deletes the account.
+ */
+@Composable
+fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: AccountViewModel = koinViewModel()) {
+    val state by viewModel.state.collectAsStateWithLifecycle()
+    val compact = LocalWindowWidth.current.isCompact
+    // Back from the checkout in the browser, or from a store, the plan may have changed.
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.reload() }
+    Scaffold(
+        topBar = { AppTopBar(title = if (compact) tr("Account") else APP_NAME, onNavigate = onNavigate, onBack = onBack.takeIf { compact }, section = NavSection.ACCOUNT) },
+        containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
+    ) { padding ->
+        val content: @Composable () -> Unit = { AccountContent(state, viewModel, onBack) }
+        if (compact) {
+            ScrollColumn(
+                Modifier.padding(padding).fillMaxSize(),
+                contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+            ) { content() }
+        } else {
+            PageColumn(padding) { Column(Modifier.widthIn(max = PAGE_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) { content() } }
+        }
+    }
+}
+
+@Composable
+internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, onBack: () -> Unit) {
+    ScreenHeader(tr("Account"), tr("Keep your library the same on all your devices."), onBackToSettings = onBack)
+    state.problem?.let { ProblemNotice(it, state.problemText) }
+    state.done?.let { DoneNotice(it) }
+    when {
+        !state.available -> NotSetUpCard()
+        state.signedIn == null && state.resetSentTo != null -> ResetCard(state, actions)
+        state.signedIn == null -> SignInCard(state, actions)
+        else -> {
+            AccountCard(state, actions)
+            SyncCard(state, actions)
+            DevicesCard(state, actions)
+            DeleteAccountCard(state, actions)
+        }
+    }
+}
+
+@Composable
+private fun NotSetUpCard() {
+    Notice(
+        tr("Accounts are not available yet"),
+        message = tr("This version of the app has no account service to sign in to."),
+        icon = Icons.Default.AccountCircle,
+    )
+}
+
+@Composable
+private fun SignInCard(state: AccountUiState, actions: AccountViewModel?) {
+    var creating by rememberSaveable { mutableStateOf(false) }
+    var email by rememberSaveable { mutableStateOf("") }
+    var password by rememberSaveable { mutableStateOf("") }
+    val busy = state.busy != null
+    ContentCard(
+        if (creating) tr("Create an account") else tr("Sign in"),
+        subtitle = tr("With an account, your library goes with you to your other devices."),
+        icon = Icons.Default.AccountCircle,
+    ) {
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            AppTextField(
+                email, { email = it }, Modifier.fillMaxWidth().testTag("account-email"),
+                label = { Text(tr("Email")) }, singleLine = true,
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
+            )
+            AppTextField(
+                password, { password = it }, Modifier.fillMaxWidth().testTag("account-password"),
+                label = { Text(tr("Password")) }, singleLine = true,
+                visualTransformation = PasswordVisualTransformation(),
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+                supportingText = if (creating) ({ Text(tr("At least 8 characters")) }) else null,
+            )
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                PrimaryButton(
+                    if (creating) tr("Create account") else tr("Sign in"),
+                    onClick = { if (creating) actions?.register(email, password) else actions?.signIn(email, password) },
+                    enabled = email.isNotBlank() && password.isNotEmpty() && !busy,
+                    loading = state.busy == AccountTask.SIGNING_IN,
+                    modifier = Modifier.testTag("account-submit"),
+                )
+                QuietButton(
+                    if (creating) tr("I have an account") else tr("Create an account"),
+                    onClick = { creating = !creating },
+                    enabled = !busy,
+                    modifier = Modifier.testTag("account-switch"),
+                )
+            }
+            if (!creating) {
+                QuietButton(tr("Forgot your password?"), onClick = { actions?.forgotPassword(email) }, enabled = email.isNotBlank() && !busy, modifier = Modifier.testTag("account-forgot"))
+            }
+            state.signInProviders.forEach { provider ->
+                SecondaryButton(
+                    if (provider == SignInProvider.GOOGLE) tr("Continue with Google") else tr("Continue with Apple"),
+                    onClick = { actions?.signInWith(provider) }, enabled = !busy,
+                    modifier = Modifier.fillMaxWidth().testTag("account-${provider.name.lowercase()}"),
+                )
+            }
+        }
+    }
+}
+
+/** After a reset code was sent: the code and a new password. */
+@Composable
+private fun ResetCard(state: AccountUiState, actions: AccountViewModel?) {
+    var code by rememberSaveable { mutableStateOf("") }
+    var password by rememberSaveable { mutableStateOf("") }
+    ContentCard(tr("Choose a new password"), subtitle = tr("We sent a code to {0}. Enter it with your new password.", state.resetSentTo.orEmpty()), icon = Icons.Default.AccountCircle) {
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            AppTextField(code, { code = it }, Modifier.fillMaxWidth().testTag("reset-code"), label = { Text(tr("Code")) }, singleLine = true, keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number))
+            AppTextField(
+                password, { password = it }, Modifier.fillMaxWidth().testTag("reset-password"), label = { Text(tr("New password")) }, singleLine = true,
+                visualTransformation = PasswordVisualTransformation(), supportingText = { Text(tr("At least 8 characters")) },
+            )
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                PrimaryButton(tr("Set password and sign in"), onClick = { actions?.resetPassword(code, password) }, enabled = code.isNotBlank() && password.length >= 8 && state.busy == null, loading = state.busy != null)
+                QuietButton(tr("Cancel"), onClick = { actions?.cancelReset() })
+            }
+        }
+    }
+}
+
+@Composable
+private fun AccountCard(state: AccountUiState, actions: AccountViewModel?) {
+    val account = state.account
+    ContentCard(state.signedIn.orEmpty(), subtitle = planText(state), icon = Icons.Default.AccountCircle, modifier = Modifier.testTag("account-card")) {
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            if (account != null && !account.emailVerified) ConfirmEmail(state, actions)
+            val uri = LocalUriHandler.current
+            val plan = account?.plan
+            if (state.storeAvailable && plan?.active == false) StorePlans(state, actions)
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
+                plan?.checkoutUrl?.let { url ->
+                    PrimaryButton(tr("Subscribe"), onClick = { uri.openUri(url) }, modifier = Modifier.testTag("account-subscribe"))
+                }
+                plan?.manageUrl?.let { url ->
+                    SecondaryButton(tr("Manage subscription"), onClick = { uri.openUri(url) }, modifier = Modifier.testTag("account-manage"))
+                }
+                SecondaryButton(tr("Sign out"), onClick = { actions?.signOut() }, enabled = state.busy == null, modifier = Modifier.testTag("account-sign-out"))
+            }
+            if (plan?.checkoutUrl != null) {
+                Text(tr("The checkout opens in your browser. Come back here when it is done."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+        }
+    }
+}
+
+/** The store's plans, in the phone apps, for an account without a subscription; restoring is offered even without them. */
+@Composable
+private fun StorePlans(state: AccountUiState, actions: AccountViewModel?) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        state.products.forEach { product ->
+            PrimaryButton(
+                "${product.title} · ${product.price}", onClick = { actions?.subscribe(product.id) }, enabled = state.busy == null,
+                loading = state.busy == AccountTask.SUBSCRIBING, modifier = Modifier.testTag("account-buy-${product.id}"),
+            )
+        }
+        if (state.products.isNotEmpty()) {
+            Text(tr("Renews automatically until you cancel it in the store's subscriptions."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+        QuietButton(tr("Restore purchases"), onClick = { actions?.restorePurchases() }, enabled = state.busy == null, modifier = Modifier.testTag("account-restore-purchases"))
+    }
+}
+
+@Composable
+private fun planText(state: AccountUiState): String {
+    val plan = state.account?.plan ?: return tr("Loading…")
+    return when {
+        !plan.active -> tr("Sync is not active on this account.")
+        plan.activeUntil != null -> tr("Sync is active until {0}.", day(plan.activeUntil!!))
+        else -> tr("Sync is active.")
+    }
+}
+
+@Composable
+private fun ConfirmEmail(state: AccountUiState, actions: AccountViewModel?) {
+    var code by rememberSaveable { mutableStateOf("") }
+    Notice(tr("Confirm your email"), message = tr("Enter the code we sent to your email."), icon = Icons.Default.Warning, tint = MaterialTheme.colorScheme.tertiary) {
+        // The code and its button on one line, asking again below: a phone has no room for all three.
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            AppTextField(code, { code = it }, Modifier.widthIn(max = CODE_FIELD_WIDTH).testTag("confirm-code"), placeholder = { Text("123456") }, singleLine = true, keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number))
+            PrimaryButton(tr("Confirm"), onClick = { actions?.confirm(code) }, enabled = code.isNotBlank() && state.busy == null, loading = state.busy == AccountTask.CONFIRMING)
+        }
+        QuietButton(tr("Send a new code"), onClick = { actions?.sendCode() }, enabled = state.busy == null)
+    }
+}
+
+@Composable
+private fun SyncCard(state: AccountUiState, actions: AccountViewModel?) {
+    val active = state.account?.plan?.active == true
+    ContentCard(
+        tr("Sync"),
+        subtitle = if (active) tr("Your words, texts, reading and learning setup, the same on all your devices.") else tr("Syncing needs an active subscription."),
+        icon = Icons.Default.Refresh,
+    ) {
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            val syncing = state.syncing || state.busy == AccountTask.SYNCING
+            PrimaryButton(
+                if (syncing) tr("Syncing…") else tr("Sync now"), onClick = { actions?.syncNow() }, enabled = active && state.busy == null && !state.syncing,
+                loading = syncing, modifier = Modifier.testTag("account-sync"),
+            )
+            state.syncProgress?.takeIf { syncing }?.let(::progressLine)?.let { line ->
+                Text(line, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-sync-progress"))
+            }
+            state.synced?.let { done ->
+                Text(
+                    tr("Sent: {0} · Taken from other devices: {1}", done.sent, done.changed),
+                    style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-synced"),
+                )
+            }
+            if (state.syncProblem != null && !syncing) {
+                Text(tr("The last sync did not finish; it is tried again in a while."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error, modifier = Modifier.testTag("account-sync-problem"))
+            }
+            state.lastSynced?.let { at ->
+                Text(tr("Last synced {0}", when_(at)), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-last-synced"))
+            }
+            SwitchSetting(
+                tr("Sync automatically"), tr("When the app starts or comes back, and a little after you change something."), state.autoSync,
+                enabled = active, modifier = Modifier.testTag("account-auto-sync"),
+            ) { actions?.setAutoSync(it) }
+        }
+    }
+    if (state.confirmCombine) {
+        ConfirmDialog(
+            title = tr("Combine the libraries?"),
+            text = tr("Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays."),
+            confirmLabel = tr("Combine"),
+            onConfirm = { actions?.syncNow(combine = true) },
+            onDismiss = { actions?.cancelCombine() },
+        )
+    }
+}
+
+/** What the sync under way is doing, in a line; null while it has nothing to send. */
+internal fun progressLine(progress: SyncProgress): String? = when (progress.phase) {
+    SyncPhase.SENDING -> progress.total?.takeIf { it > 0 }?.let { tr("Sending {0} of {1}", formatCount(progress.done), formatCount(it)) }
+    SyncPhase.RECEIVING -> tr("Taking changes from other devices: {0}", formatCount(progress.done))
+    SyncPhase.APPLYING -> tr("Applying…")
+}
+
+@Composable
+private fun DevicesCard(state: AccountUiState, actions: AccountViewModel?) {
+    if (state.devices.isEmpty()) return
+    ContentCard(tr("Devices"), subtitle = tr("The devices signed in to your account."), icon = Icons.Default.Phone) {
+        state.devices.forEachIndexed { index, device ->
+            if (index > 0) AppDivider()
+            Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                Column(Modifier.weight(1f)) {
+                    Text(device.name.ifBlank { device.platform }, style = MaterialTheme.typography.titleSmall)
+                    Text(
+                        if (device.current) tr("This device") else tr("Last used {0}", when_(device.lastUsedAt)),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = if (device.current) StatusTints.ok else MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+                if (!device.current) QuietButton(tr("Sign out"), onClick = { actions?.signOutDevice(device.id) }, enabled = state.busy == null)
+            }
+        }
+    }
+}
+
+@Composable
+private fun DeleteAccountCard(state: AccountUiState, actions: AccountViewModel?) {
+    var confirming by remember { mutableStateOf(false) }
+    ContentCard(tr("Delete account"), subtitle = tr("Removes the account and everything kept with it. The library on this device stays."), icon = Icons.Default.Warning) {
+        SecondaryButton(tr("Delete account"), onClick = { confirming = true }, enabled = state.busy == null, tone = ButtonTone.Danger, modifier = Modifier.testTag("account-delete"))
+    }
+    if (confirming) {
+        ConfirmDialog(
+            title = tr("Delete your account?"),
+            text = tr("Your account and everything kept with it are deleted for good. This device is signed out; its library stays."),
+            confirmLabel = tr("Delete account"),
+            destructive = true,
+            onConfirm = { confirming = false; actions?.deleteAccount() },
+            onDismiss = { confirming = false },
+        )
+    }
+}
+
+@Composable
+private fun ProblemNotice(problem: AccountProblem, text: String?) {
+    Notice(
+        problemTitle(problem, text),
+        message = problemMessage(problem, text),
+        icon = Icons.Default.Warning,
+        tint = MaterialTheme.colorScheme.error,
+        modifier = Modifier.testTag("account-problem"),
+    )
+}
+
+/** What went wrong with the account, in a line. */
+internal fun problemTitle(problem: AccountProblem, text: String?): String = when (problem) {
+    AccountProblem.NOT_SET_UP -> tr("Accounts are not available yet")
+    AccountProblem.OFFLINE -> tr("The account service cannot be reached")
+    AccountProblem.EMAIL_TAKEN -> tr("An account with this email exists already")
+    AccountProblem.BAD_CREDENTIALS -> tr("Wrong email or password")
+    AccountProblem.WRONG_CODE -> tr("That code is wrong or has expired")
+    AccountProblem.SIGNED_OUT -> tr("This device was signed out")
+    AccountProblem.SUBSCRIPTION_REQUIRED -> tr("This needs an active subscription")
+    AccountProblem.BUSY -> tr("Too many tries for now; wait a minute and try again")
+    AccountProblem.NOT_FOUND -> tr("That is no longer in your account")
+    AccountProblem.INVALID -> text ?: tr("That was not accepted")
+    AccountProblem.SERVER -> tr("Something went wrong on the account service; try again later")
+}
+
+internal fun problemMessage(problem: AccountProblem, text: String?): String? =
+    if (problem == AccountProblem.OFFLINE) listOfNotNull(tr("Check the internet connection and try again."), text).joinToString("\n") else null
+
+@Composable
+private fun DoneNotice(done: AccountDone) {
+    Notice(
+        when (done) {
+            AccountDone.EMAIL_CONFIRMED -> tr("Your email is confirmed")
+            AccountDone.CODE_SENT -> tr("A new code is on its way")
+            AccountDone.PASSWORD_RESET -> tr("Your new password is set")
+            AccountDone.SUBSCRIBED -> tr("Thank you: sync is on")
+            AccountDone.PURCHASES_RESTORED -> tr("Your purchases are restored")
+            AccountDone.SYNCED -> tr("This device is in sync")
+            AccountDone.ACCOUNT_DELETED -> tr("Your account is deleted")
+        },
+        icon = Icons.Default.CheckCircle,
+        tint = StatusTints.ok,
+        modifier = Modifier.testTag("account-done"),
+    )
+}
+
+/** A moment as a reader reads it: the day and time, in the device's time zone. */
+private fun when_(at: Instant): String {
+    val t = at.toLocalDateTime(TimeZone.currentSystemDefault())
+    return "${t.date} ${t.hour.toString().padStart(2, '0')}:${t.minute.toString().padStart(2, '0')}"
+}
+
+private fun day(at: Instant): String = at.toLocalDateTime(TimeZone.currentSystemDefault()).date.toString()
+
+private val PAGE_WIDTH = 880.dp
+
+/** Wide enough for a six-digit code. */
+private val CODE_FIELD_WIDTH = 160.dp

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Tayra UI Audit</title>
+<title>Idiomiko UI Audit</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
@@ -122,8 +122,8 @@ footer { color: var(--muted); font-size: 0.9rem; border-top: 1px solid var(--lin
 
 <div class="page">
   <header>
-    <div class="eyebrow">Tayra Languages · UI audit · 19 October 2026</div>
-    <h1>Tayra UI Audit</h1>
+    <div class="eyebrow">Idiomiko · UI audit · 19 October 2026</div>
+    <h1>Idiomiko UI Audit</h1>
     <p class="lede">A review of every screen of the app, after the design system and motion work: what a learner would notice, and what would most improve their next session. Each finding names a fix and the effort it takes; tick the ones to do and copy the list back.</p>
     <div class="facts" id="facts"></div>
   </header>
@@ -195,7 +195,7 @@ const AREAS = {
 const F = [
   ["X-1","X","Phone lists: Books, Vocabulary","high","S","Cards in the phone Books and Vocabulary lists nearly touch, so the list reads as one long box. This is a regression from this week's list motion: each item was wrapped in a Box, which stacks the card and its spacer on top of each other.","Wrap those items in a Column (or give the card bottom padding) so the spacer adds its gap again; check the other lists wrapped the same way."],
   ["X-2","X","Night theme: primary buttons, switches, chips","high","S","Labels on primary buttons, switch thumbs and the selected segment are dark purple on light blue; selected filter chips are lavender in both themes. The theme sets only the primary colour, so Material's default purple fills the other roles.","Set onPrimary, primaryContainer, secondaryContainer, tertiary and their on-colours in the Default and Night schemes (AppTheme.kt), as the editor palettes already do."],
-  ["X-3","X","Android, dark themes: status bar","high","S","The clock, signal and battery icons are dark grey on the near-black bar and almost invisible. The bar follows the system's light or dark setting, not the theme chosen in Tayra.","Set the status and navigation bar icon style from the app's theme in MainActivity whenever the theme changes."],
+  ["X-3","X","Android, dark themes: status bar","high","S","The clock, signal and battery icons are dark grey on the near-black bar and almost invisible. The bar follows the system's light or dark setting, not the theme chosen in Idiomiko.","Set the status and navigation bar icon style from the app's theme in MainActivity whenever the theme changes."],
   ["X-4","X","Status names: reader, word pane, vocabulary, statistics","high","S–M","The same statuses have several names. Blue words are \"New\" in the reader legend, \"Unknown\" in the vocabulary tooltip and \"U\" on the buttons, while statistics and filters call statuses 1–2 \"New\" and 3–4 \"Learning\", and the Learning card counts 1–4.","Choose one set (for example Not saved · Learning 1–4 · Known · Ignored) and use it in the reader legend, the word pane, filters, the stat cards and Statistics."],
   ["X-5","X","Large system text (130%)","high","M","Labels are cut throughout: the Flashcards tab reads \"Flashcard\", the review counter \"0 to\", the actions \"Previo… / Suspe…\", Home's \"Words added to…\", the Books continue title \"N…\", the language buttons \"Portu…\". On Courses, the empty-state picture pushes the button under the bottom bar.","Let tile labels and counter pills wrap; show the flashcard actions as icons with tooltips when narrow; shorten the tab label; scale empty-state pictures down at large font sizes."],
   ["X-6","X","Dark themes: reading highlights","medium","S","The blue highlight of words not yet saved, and its legend dot, barely stand out from the page in Night, Darcula and Gruvbox, and the four learning levels are close browns.","Raise the lightness of the dark \"unknown\" tint and spread the learning ramp further (darkStatuses in AppTheme.kt); check each against the reading background."],
@@ -228,7 +228,7 @@ const F = [
   ["LIB-7","LIB","Courses empty state (phone)","medium","S","The heading says \"Create your first course\" while the primary button downloads courses; the picture pushes both buttons down and is the brightest thing on the dark screen.","Head it \"Get started with courses\", shrink the picture on phones and dim it in dark themes."],
   ["LIB-8","LIB","Course downloads: desktop and phone","medium","S","Desktop titles it \"Courses\", like the main tab; phone says \"Course downloads\". The buttons differ, a stat tile has no caption, and a single card stretches 1300dp wide.","One title (\"Course downloads\") and button label; caption the levels tile; cap the card width."],
   ["LIB-9","LIB","Course page: Delete","medium","S","A red Delete button of the same weight as \"Edit course\" sits right under \"Start course\", even on a ready-made course.","Move Delete into a ⋮ menu by the title, with a confirmation."],
-  ["LIB-10","LIB","Course page: lesson rows","low","S","Every row repeats a \"tayra\" source tag and a grey \"Not started\" pill, and the blue \"New words\" lines look like links.","Show status only when in progress or done; hide the source when it matches the course; draw \"New words\" in the secondary text colour."],
+  ["LIB-10","LIB","Course page: lesson rows","low","S","Every row repeats a \"idiomiko\" source tag and a grey \"Not started\" pill, and the blue \"New words\" lines look like links.","Show status only when in progress or done; hide the source when it matches the course; draw \"New words\" in the secondary text colour."],
   ["LIB-11","LIB","Course and lesson forms","medium","S–M","Unlike the book form they have no back arrow, their field labels are styled differently, and they stretch one card across the full width.","Pass onBack, use the book form's label style, and cap the form width or use two columns."],
   ["LIB-12","LIB","New lesson: where the text comes from","medium","M","A lesson can only be typed or pasted, while the book form beside it offers a file or a web page.","Reuse the book form's Paste / File / Web page choice in the lesson form."],
   ["LIB-13","LIB","Create book: web page errors","medium","S","A fetch error shows as a banner at the top of the page, far from the address field, and the file formats line stays beside the toggle on the Web page tab.","Show the error under the address field with a next step (\"Paste the text instead\"); show the formats only on Import file."],
@@ -350,8 +350,8 @@ F.filter((f) => f[4] === "S" && f[3] !== "low" && !PRIORITIES.some((p) => p[0] =
 
 // Filters and selection
 let picked = new Set();
-try { picked = new Set(JSON.parse(localStorage.getItem("tayra-audit-picked") || "[]")); } catch (e) {}
-const save = () => { try { localStorage.setItem("tayra-audit-picked", JSON.stringify([...picked])); } catch (e) {} };
+try { picked = new Set(JSON.parse(localStorage.getItem("idiomiko-audit-picked") || "[]")); } catch (e) {}
+const save = () => { try { localStorage.setItem("idiomiko-audit-picked", JSON.stringify([...picked])); } catch (e) {} };
 const state = { sev: "all", effort: "all" };
 function chips(groupId, key, options) {
   const g = document.getElementById(groupId);
@@ -391,7 +391,7 @@ function render() {
   });
   if (!shown) list.append(el("p", "empty", "No finding matches these filters."));
 }
-function selectedText() { return "Fix these Tayra UI audit findings: " + F.filter((f) => picked.has(f[0])).map((f) => f[0]).join(", "); }
+function selectedText() { return "Fix these Idiomiko UI audit findings: " + F.filter((f) => picked.has(f[0])).map((f) => f[0]).join(", "); }
 function updateSelection() {
   const n = picked.size;
   document.getElementById("sel-count").textContent = n ? n + " selected" : "None selected";

@@ -1,0 +1,113 @@
+package com.idiomiko.core.data
+
+import com.idiomiko.core.data.db.DatabaseDriverFactory
+import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.repository.LanguageRepositoryImpl
+import com.idiomiko.core.data.repository.TermRepositoryImpl
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.Term
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.service.BulkTermUpdate
+import com.idiomiko.core.domain.service.TermService
+import kotlinx.coroutines.test.runTest
+import java.io.File
+import java.sql.DriverManager
+import kotlin.test.Test
+import kotlin.test.assertEquals
+import kotlin.test.assertNull
+
+/** A term keeps the sentence it was first read in: its card asks the word in it, whatever status the word goes to. */
+class LearningSentenceTest {
+
+    private class Env {
+        val file: File = File.createTempFile("idiomiko-sentence", ".db").also { it.delete() }
+        val provider = DatabaseProvider(DatabaseDriverFactory(file))
+        val languages = LanguageRepositoryImpl(provider)
+        val terms = TermRepositoryImpl(provider)
+        val service = TermService(terms, languages)
+    }
+
+    @Test
+    fun theSentenceFollowsTheStatus() = runTest {
+        val env = Env()
+        val language = env.languages.save(Language(name = "Portuguese"))
+        suspend fun lobo() = env.terms.findByTextLc(language, "lobo")!!
+
+        val id = env.service.save(env.service.findOrNew(language, "lobo").copy(status = TermStatus.NEW_1, statusExplicitlySet = true), sentence = "O lobo dorme.")
+        assertEquals("O lobo dorme.", lobo().sentence)
+        env.service.shiftStatus(listOf(id), 1)
+        assertEquals(TermStatus.NEW_2, lobo().status)
+        assertEquals("O lobo dorme.", lobo().sentence, "kept while the word goes on being learned")
+        env.service.save(env.service.draftOf(lobo()).copy(translation = "wolf"))
+        assertEquals("O lobo dorme.", lobo().sentence, "kept when other fields are edited")
+        env.service.setStatus(listOf(id), TermStatus.NEW_1, mapOf(id to "Outro lobo."))
+        assertEquals("O lobo dorme.", lobo().sentence, "the first sentence stays")
+        env.service.setStatus(listOf(id), TermStatus.WELL_KNOWN)
+        assertEquals("O lobo dorme.", lobo().sentence, "kept once the word is known, for its card")
+        env.service.setStatus(listOf(id), TermStatus.LEARNING_3)
+        assertEquals("O lobo dorme.", lobo().sentence, "kept when learning starts again away from a text")
+        env.service.setStatus(listOf(id), TermStatus.WELL_KNOWN)
+        env.service.setStatus(listOf(id), TermStatus.LEARNING_3, mapOf(id to "Outro lobo."))
+        assertEquals("Outro lobo.", lobo().sentence, "the one it is read in when learning starts again")
+        env.service.setStatus(listOf(id), TermStatus.IGNORED)
+        assertEquals("Outro lobo.", lobo().sentence, "kept once the word is ignored")
+        env.service.setStatus(listOf(id), TermStatus.UNKNOWN)
+        assertEquals("Outro lobo.", lobo().sentence, "kept once the word is unknown again")
+        val gato = env.service.save(env.service.findOrNew(language, "gato").copy(status = TermStatus.NEW_1, statusExplicitlySet = true))
+        assertNull(env.terms.getById(gato)?.sentence, "nothing to store when the word is not read in a text")
+        env.service.save(env.service.draftOf(env.terms.getById(gato)!!), sentence = "O gato mia.")
+        assertEquals("O gato mia.", env.terms.getById(gato)?.sentence, "a learning word without a sentence takes the one it is read in")
+    }
+
+    @Test
+    fun aParentFollowingItsChildSharesTheSentence() = runTest {
+        val env = Env()
+        val language = env.languages.save(Language(name = "Portuguese"))
+        val draft = env.service.findOrNew(language, "lobos").copy(status = TermStatus.NEW_1, statusExplicitlySet = true, parents = listOf("lobo"), syncStatus = true)
+        val child = env.service.save(draft, sentence = "Os lobos dormem.")
+        val parent = env.terms.findByTextLc(language, "lobo")!!
+        assertEquals(TermStatus.NEW_1, parent.status)
+        assertEquals("Os lobos dormem.", parent.sentence)
+
+        env.service.setStatus(listOf(child), TermStatus.WELL_KNOWN)
+        assertEquals(TermStatus.WELL_KNOWN, env.terms.getById(parent.id)?.status)
+        assertEquals("Os lobos dormem.", env.terms.getById(parent.id)?.sentence)
+        assertEquals("Os lobos dormem.", env.terms.getById(child)?.sentence)
+    }
+
+    @Test
+    fun aBulkStatusChangeStoresTheSentences() = runTest {
+        val env = Env()
+        val language = env.languages.save(Language(name = "Portuguese"))
+        val lobo = env.service.save(env.service.findOrNew(language, "lobo").copy(status = TermStatus.UNKNOWN, statusExplicitlySet = true))
+        val phrase = env.service.save(env.service.findOrNew(language, "anda depressa").copy(status = TermStatus.NEW_2, statusExplicitlySet = true), sentence = "O tempo anda depressa.")
+        val sentences = mapOf(lobo to "O lobo dorme.", phrase to "Ela anda depressa.")
+
+        env.service.applyBulkUpdate(BulkTermUpdate(listOf(lobo, phrase), status = TermStatus.NEW_1), sentences)
+        assertEquals("O lobo dorme.", env.terms.getById(lobo)?.sentence)
+        assertEquals("O tempo anda depressa.", env.terms.getById(phrase)?.sentence, "a term already being learned keeps its sentence")
+        env.service.applyBulkUpdate(BulkTermUpdate(listOf(lobo, phrase), status = TermStatus.WELL_KNOWN), sentences)
+        assertEquals("O lobo dorme.", env.terms.getById(lobo)?.sentence)
+        assertEquals("O tempo anda depressa.", env.terms.getById(phrase)?.sentence)
+    }
+
+    @Test
+    fun olderDatabasesGetTheColumn() = runTest {
+        val env = Env()
+        val language = env.languages.save(Language(name = "Portuguese"))
+        val id = env.terms.save(Term(languageId = language, text = "tempo", textLc = "tempo", status = TermStatus.NEW_2))
+        // A database from before the sentence was stored.
+        DriverManager.getConnection("jdbc:sqlite:${env.file.absolutePath}").use {
+            // The newer schema goes first: its triggers name the columns dropped next.
+            it.pretendVersion(7)
+            it.createStatement().execute("ALTER TABLE terms DROP COLUMN sentence")
+            it.createStatement().execute("ALTER TABLE terms DROP COLUMN anki_exported_at")
+        }
+
+        val reopened = TermRepositoryImpl(DatabaseProvider(DatabaseDriverFactory(env.file)))
+        val term = reopened.getById(id)!!
+        assertNull(term.sentence)
+        reopened.save(term.copy(sentence = "O tempo passa."))
+        assertEquals("O tempo passa.", reopened.getById(id)?.sentence)
+    }
+}

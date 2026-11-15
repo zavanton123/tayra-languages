@@ -1,0 +1,88 @@
+package com.idiomiko.core.data
+
+import com.idiomiko.core.data.db.DatabaseDriverFactory
+import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.repository.LanguageRepositoryImpl
+import com.idiomiko.core.data.repository.TermRepositoryImpl
+import com.idiomiko.core.domain.frequency.FrequencyList
+import com.idiomiko.core.domain.frequency.FrequencyLists
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.Term
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.practice.WordForms
+import kotlinx.coroutines.runBlocking
+import java.io.File
+import kotlin.test.Test
+import kotlin.test.assertEquals
+import kotlin.test.assertNull
+
+/** A word's forms come from its frequency list group and from the forms linked to the saved word; its rank from the list. */
+class WordFormsTest {
+    private val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-forms", ".db").also { it.delete() }))
+    private val terms = TermRepositoryImpl(provider)
+    private val list = FrequencyList.parse(
+        """
+        # source: test
+        de	de
+        esquecer	esquecer esqueci esqueço esquecemos
+        carteira	carteira carteiras
+        casa	casa casas
+        """.trimIndent(),
+    )
+    private val lists = object : FrequencyLists {
+        override suspend fun list(languageCode: String) = list.takeIf { languageCode == "pt" }
+    }
+
+    /** A word loses the capital that opening a sentence gave it, but not one it always has. */
+    @Test
+    fun anOpeningCapitalGoesOnlyFromWordsTheListHasInLowercase() = runBlocking {
+        val opening = FrequencyList.parse(
+            """
+            i	i i'm
+            a	a
+            homem	homem
+            dizer	dizer disse
+            ışık	ışık
+            iyi	iyi
+            Hund	hund
+            tom	tom
+            """.trimIndent(),
+        )
+        val forms = WordForms(object : FrequencyLists { override suspend fun list(languageCode: String) = opening }, terms)
+        val portuguese = Language(name = "Portuguese")
+        assertEquals("a", forms.withoutOpeningCapital("A", portuguese))
+        assertEquals("disse", forms.withoutOpeningCapital("Disse", portuguese))
+        assertEquals("disse-me", forms.withoutOpeningCapital("Disse-me", portuguese), "counted under its longest part")
+        assertEquals("d'homem", forms.withoutOpeningCapital("D'homem", portuguese), "counted under its longest part")
+        assertEquals("Maria", forms.withoutOpeningCapital("Maria", portuguese), "a name is not in the list")
+        assertEquals("Tom", forms.withoutOpeningCapital("Tom", portuguese), "Tatoeba's Tom, though the list has the word for tone")
+        assertEquals("O'Brien", forms.withoutOpeningCapital("O'Brien", portuguese))
+        assertEquals("NASA", forms.withoutOpeningCapital("NASA", portuguese))
+        assertEquals("a", forms.withoutOpeningCapital("a", portuguese))
+        assertEquals("Hund", forms.withoutOpeningCapital("Hund", Language(name = "German")), "the list writes it with a capital")
+        assertEquals("I", forms.withoutOpeningCapital("I", Language(name = "English")))
+        assertEquals("I'm", forms.withoutOpeningCapital("I'm", Language(name = "English")))
+        val turkish = Language(name = "Turkish", parserType = "turkish")
+        assertEquals("ışık", forms.withoutOpeningCapital("Işık", turkish))
+        assertEquals("iyi", forms.withoutOpeningCapital("İyi", turkish))
+        Unit
+    }
+
+    @Test
+    fun formsComeFromTheListAndTheLinkedWords() = runBlocking {
+        val portuguese = Language(id = LanguageRepositoryImpl(provider).save(Language(name = "Portuguese")), name = "Portuguese")
+        val forms = WordForms(lists, terms)
+        assertEquals(setOf("esqueci", "esquecer", "esqueço", "esquecemos"), forms.of("Esqueci", portuguese))
+        assertEquals(setOf("lembrei"), forms.of("lembrei", portuguese), "a word the list does not have is its only form")
+
+        // The learner linked "esqueceu" to "esquecer" as its base.
+        val base = terms.save(Term(languageId = portuguese.id, text = "esquecer", textLc = "esquecer", status = TermStatus.NEW_1))
+        val form = terms.save(Term(languageId = portuguese.id, text = "esqueceu", textLc = "esqueceu", status = TermStatus.NEW_1))
+        terms.setParents(form, listOf(base))
+        assertEquals(setOf("esqueceu", "esquecer", "esqueci", "esqueço", "esquecemos"), forms.of("esqueceu", portuguese))
+
+        assertEquals(2, forms.rank("esqueço", portuguese))
+        assertNull(forms.rank("lembrei", portuguese))
+        assertEquals(listOf("esquecer", "carteira"), forms.ranked(portuguese, 2, 3))
+    }
+}

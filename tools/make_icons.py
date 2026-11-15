@@ -77,16 +77,16 @@ def main(logo):
     save(square(otter, 1024).convert("RGB"), "iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/AppIcon.png")
 
     with tempfile.TemporaryDirectory() as tmp:
-        iconset = pathlib.Path(tmp) / "TayraLanguages.iconset"
+        iconset = pathlib.Path(tmp) / "Idiomiko.iconset"
         iconset.mkdir()
         for base in (16, 32, 128, 256, 512):
             rounded(otter, base).save(iconset / f"icon_{base}x{base}.png")
             rounded(otter, base * 2).save(iconset / f"icon_{base}x{base}@2x.png")
-        subprocess.run(["iconutil", "-c", "icns", str(iconset), "-o", str(ROOT / "desktopApp/icons/TayraLanguages.icns")], check=True)
-        print("desktopApp/icons/TayraLanguages.icns")
-    square(otter, 256).save(ROOT / "desktopApp/icons/TayraLanguages.ico", sizes=[(16, 16), (32, 32), (48, 48), (64, 64), (128, 128), (256, 256)])
-    print("desktopApp/icons/TayraLanguages.ico")
-    save(square(otter, 512), "desktopApp/icons/TayraLanguages.png")
+        subprocess.run(["iconutil", "-c", "icns", str(iconset), "-o", str(ROOT / "desktopApp/icons/Idiomiko.icns")], check=True)
+        print("desktopApp/icons/Idiomiko.icns")
+    square(otter, 256).save(ROOT / "desktopApp/icons/Idiomiko.ico", sizes=[(16, 16), (32, 32), (48, 48), (64, 64), (128, 128), (256, 256)])
+    print("desktopApp/icons/Idiomiko.ico")
+    save(square(otter, 512), "desktopApp/icons/Idiomiko.png")
     save(square(otter, 256), "desktopApp/src/main/resources/window-icon.png")
     save(rounded(otter, 1024), "desktopApp/src/main/resources/dock-icon.png")
 

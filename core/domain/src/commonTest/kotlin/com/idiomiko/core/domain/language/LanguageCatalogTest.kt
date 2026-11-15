@@ -1,0 +1,41 @@
+package com.idiomiko.core.domain.language
+
+import com.idiomiko.core.domain.dictionary.DictionaryPacks
+import kotlin.test.Test
+import kotlin.test.assertEquals
+import kotlin.test.assertNotNull
+import kotlin.test.assertTrue
+
+class LanguageCatalogTest {
+    @Test
+    fun targetLanguagesArePredefinedAndSupported() {
+        LanguageCatalog.targetLanguages.forEach { name ->
+            val definition = LanguageDefinitions.all.firstOrNull { it.name == name }
+            assertNotNull(definition, name)
+            assertNotNull(Tutorials.forLanguage(name), "$name has its tutorial")
+            assertNotNull(LanguageCodes.codeFor(name), "$name has a language code")
+        }
+        assertTrue(LanguageCatalog.isTarget(" german "))
+        assertTrue(!LanguageCatalog.isTarget("Klingon"))
+    }
+
+    @Test
+    fun nativeLanguageFallsBackToEnglish() {
+        assertEquals("ru", LanguageCatalog.nativeOption("RU").code)
+        assertEquals("de", LanguageCatalog.nativeOption("de").code)
+        assertEquals("fr", LanguageCatalog.nativeOption("fr").code)
+        assertEquals("es", LanguageCatalog.nativeOption("es").code)
+        assertEquals("pt", LanguageCatalog.nativeOption("pt").code)
+        assertEquals("pl", LanguageCatalog.nativeOption("pl").code)
+        assertEquals("en", LanguageCatalog.nativeOption("ja").code)
+        assertEquals("en", LanguageCatalog.nativeOption("").code)
+    }
+
+    @Test
+    fun everyPackIsTitledWithItsLanguagesNames() {
+        for (pack in DictionaryPacks.all) {
+            val (source, target) = pack.title.split(" \u2192 ")
+            assertTrue(source.first().isUpperCase() && target.first().isUpperCase(), pack.title)
+        }
+    }
+}

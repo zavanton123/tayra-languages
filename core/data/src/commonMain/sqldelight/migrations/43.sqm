@@ -1,0 +1,17 @@
+-- The app is Idiomiko now, formerly Tayra Languages: the "tayra" tag on its own courses, their lessons and the texts
+-- made from them becomes "idiomiko".
+INSERT OR IGNORE INTO course_tags(text) SELECT 'idiomiko' WHERE EXISTS (SELECT 1 FROM course_tags WHERE text = 'tayra');
+INSERT OR IGNORE INTO course_tag_map(course_id, tag_id)
+    SELECT m.course_id, (SELECT id FROM course_tags WHERE text = 'idiomiko')
+    FROM course_tag_map m JOIN course_tags t ON t.id = m.tag_id WHERE t.text = 'tayra';
+DELETE FROM course_tag_map WHERE tag_id IN (SELECT id FROM course_tags WHERE text = 'tayra');
+DELETE FROM course_tags WHERE text = 'tayra';
+
+INSERT OR IGNORE INTO book_tags(text) SELECT 'idiomiko' WHERE EXISTS (SELECT 1 FROM book_tags WHERE text = 'tayra');
+INSERT OR IGNORE INTO book_tag_map(book_id, tag_id)
+    SELECT m.book_id, (SELECT id FROM book_tags WHERE text = 'idiomiko')
+    FROM book_tag_map m JOIN book_tags t ON t.id = m.tag_id WHERE t.text = 'tayra';
+DELETE FROM book_tag_map WHERE tag_id IN (SELECT id FROM book_tags WHERE text = 'tayra');
+DELETE FROM book_tags WHERE text = 'tayra';
+
+UPDATE lessons SET tags = trim(replace(' ' || tags || ' ', ' tayra ', ' idiomiko ')) WHERE ' ' || tags || ' ' LIKE '% tayra %';

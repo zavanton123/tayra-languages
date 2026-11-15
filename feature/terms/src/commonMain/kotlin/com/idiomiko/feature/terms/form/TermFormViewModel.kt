@@ -1,0 +1,852 @@
+package com.idiomiko.feature.terms.form
+
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.NonCancellable
+import kotlinx.coroutines.sync.withLock
+import kotlinx.coroutines.sync.Mutex
+import com.idiomiko.core.ui.i18n.tr
+import com.idiomiko.core.domain.flashcards.Flashcard
+import com.idiomiko.core.domain.flashcards.FlashcardService
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.idiomiko.core.domain.dictionary.DictionaryPacks
+import com.idiomiko.core.domain.dictionary.PackState
+import com.idiomiko.core.domain.dictionary.PackStatus
+import com.idiomiko.core.domain.service.DictionaryService
+import com.idiomiko.core.domain.dictionary.DictionaryId
+import com.idiomiko.core.domain.dictionary.DictionaryLookup
+import com.idiomiko.core.domain.dictionary.InflectionTable
+import com.idiomiko.core.domain.dictionary.InflectionTables
+import com.idiomiko.core.domain.dictionary.KanjiInfo
+import com.idiomiko.core.domain.dictionary.OnlineWiktionary
+import com.idiomiko.core.domain.dictionary.WiktionaryCodes
+import com.idiomiko.core.domain.dictionary.WiktionaryPage
+import com.idiomiko.core.domain.dictionary.parentSuggestion
+import com.idiomiko.core.domain.service.WordRecordings
+import com.idiomiko.core.domain.service.WordRecording
+import com.idiomiko.core.domain.dictionary.OfflineDictionary
+import com.idiomiko.core.domain.language.LanguageCodes
+import com.idiomiko.core.domain.model.ZWS_STRING
+import com.idiomiko.core.domain.morphology.JapaneseNotes
+import com.idiomiko.core.domain.morphology.JapaneseNote
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.Term
+import com.idiomiko.core.domain.model.TermDraft
+import com.idiomiko.core.domain.model.TermMatch
+import com.idiomiko.core.domain.model.TermReferences
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.repository.LanguageRepository
+import com.idiomiko.core.domain.repository.TermRepository
+import com.idiomiko.core.domain.service.ExampleSentence
+import com.idiomiko.core.domain.service.ExampleSentencesProvider
+import com.idiomiko.core.domain.service.ExampleSearchQuery
+import com.idiomiko.core.domain.service.ExampleSort
+import com.idiomiko.core.domain.service.ExampleSource
+import com.idiomiko.core.domain.service.TermService
+import com.idiomiko.core.domain.service.TermTranslationProvider
+import com.idiomiko.core.domain.service.TermValidationException
+import com.idiomiko.core.domain.settings.SettingsRepository
+import com.idiomiko.core.ui.state.UiEvents
+import com.idiomiko.feature.terms.examples.ExampleTerms
+import com.idiomiko.feature.terms.examples.WordStatus
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.DelicateCoroutinesApi
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+import kotlin.time.Duration.Companion.seconds
+import kotlinx.coroutines.withTimeoutOrNull
+import kotlinx.coroutines.async
+import kotlinx.coroutines.CoroutineScope
+import com.idiomiko.core.domain.service.SentenceTranslator
+import com.idiomiko.core.domain.dictionary.MeaningChooser
+import kotlin.time.Instant
+import com.idiomiko.core.domain.practice.WordProgress
+import com.idiomiko.core.domain.practice.PracticeProgressRepository
+
+/** What the term form edits; [sentence] is the one the term is being read in, when it was opened from a text. */
+sealed interface TermFormKey {
+    val sentence: String? get() = null
+
+    data class ById(val termId: Long, override val sentence: String? = null) : TermFormKey
+    data class ByText(val languageId: Long, val text: String, override val sentence: String? = null) : TermFormKey
+    data object New : TermFormKey
+}
+
+data class TermFormUiState(
+    val loading: Boolean = true,
+    val draft: TermDraft = TermDraft(languageId = 0, text = ""),
+    val languages: List<Language> = emptyList(),
+    val parentSuggestions: List<TermMatch> = emptyList(),
+    val parentQuery: String = "",
+    val references: TermReferences? = null,
+    val loadingReferences: Boolean = false,
+    val error: String? = null,
+    val duplicateOf: Term? = null,
+    val saving: Boolean = false,
+    val dirty: Boolean = false,
+    val lookingUpTranslation: Boolean = false,
+    val translationSuggested: Boolean = false,
+    /** The dictionary meaning chosen for the word from its sentence while the translation is still the suggested one; null until chosen. */
+    val meaning: MeaningChooser.Choice? = null,
+    /** True once an autosave has persisted the latest edits. */
+    val saved: Boolean = false,
+    val examples: List<ExampleSentence> = emptyList(),
+    /** Total matches reported by the examples provider, when known. */
+    val examplesTotal: Int? = null,
+    val loadingExamples: Boolean = false,
+    /** Tatoeba could not be asked for examples (offline, too slow), which is not the same as it having none. */
+    val examplesFailed: Boolean = false,
+    /** The examples shown come from the installed courses, standing in for Tatoeba. */
+    val examplesFromCourses: Boolean = false,
+    /** Code of the language translations are shown in. */
+    val nativeLanguage: String = "en",
+    /** When the stored term was created; null for new terms. */
+    val createdAt: Instant? = null,
+    /** Offline dictionary entries for the term, empty when no bundled dictionary covers the language pair. */
+    val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
+    /** The kanji the term is written with, for Japanese. */
+    val kanji: List<KanjiInfo> = emptyList(),
+    /** Recordings of the term, or of its dictionary form when the term has none. */
+    val recordings: List<WordRecording> = emptyList(),
+    /** Chinese readings coloured by tone. */
+    val toneColors: Boolean = true,
+    /** Chinese readings in zhuyin rather than pinyin. */
+    val zhuyin: Boolean = false,
+    /** For Japanese, the numbers, era years and floor areas at the term, spelled out. */
+    val notes: List<JapaneseNote> = emptyList(),
+    /** The downloadable pack for the language pair and whether it is on the device; null when none exists. */
+    val dictionaryPack: PackStatus? = null,
+    /** Another installed dictionary of the pair, by name (an edition such as FreeDict, or an imported one); lookups use it too. */
+    val pairDictionary: String? = null,
+    /** The word finder from the native language to the term's, null when there is none. */
+    val finderPack: PackStatus? = null,
+    /** The words of each example with their statuses, by the example's text. */
+    val exampleWords: Map<String, List<WordStatus>> = emptyMap(),
+    /** The term's flashcard; null when it has none (its status is not 1 to 4, or it is not saved yet). */
+    val flashcard: Flashcard? = null,
+    /** Whether this form can show and change the term's flashcard. */
+    val flashcardsShown: Boolean = false,
+    /** The parent being learned whose card the term is learned with, when it has none of its own. */
+    val learnedWith: String? = null,
+    /** How far practice has taken the term; null before it is practised. */
+    val practice: WordProgress? = null,
+    /** Whether this form shows the term's practice level. */
+    val practiceShown: Boolean = false,
+    /** What Wiktionary has on the term online. */
+    val wiktionary: WiktionaryUi = WiktionaryUi(),
+) {
+    val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
+    val isNew: Boolean get() = draft.isNew
+    val showLanguageSelector: Boolean get() = draft.languageId == 0L
+}
+
+/**
+ * The term's Wiktionary page, null until it came or when Wiktionary has none, with the inflection
+ * tables of [tableWord] (the term, or the lemma it is a form of).
+ */
+data class WiktionaryUi(
+    val page: WiktionaryPage? = null,
+    /** The page as dictionary entries, shown when no offline dictionary of the pair answers. */
+    val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
+    val tableWord: String? = null,
+    val tables: List<InflectionTable> = emptyList(),
+    /** Whether the tables have been asked for. */
+    val complete: Boolean = false,
+    /** The entry the table's licence links: the page, or the lemma's when Wiktionary lacks the word itself. */
+    val credit: WiktionaryPage? = page,
+) {
+    /** The table the Dictionary card offers, once Wiktionary gave one: a verb's when the word is one among others. */
+    val table: InflectionTable? get() = if (complete) tables.firstOrNull { it.pos == "verb" } ?: tables.firstOrNull() else null
+
+    /** The word the table is of: the lemma, or the page's headword. */
+    val headword: String? get() = tableWord ?: page?.word
+}
+
+sealed interface TermFormEvent {
+    /** [keepOpen] is true when the save was implicit (a status click) and the form should stay open. */
+    data class Saved(val termId: Long, val keepOpen: Boolean = false) : TermFormEvent
+    data object Deleted : TermFormEvent
+    data class OpenParent(val languageId: Long, val text: String) : TermFormEvent
+
+    /** A word or phrase of an example was picked; [sentence] is that example. */
+    data class OpenTerm(val languageId: Long, val text: String, val sentence: String?) : TermFormEvent
+}
+
+private const val AUTOSAVE_DELAY_MS = 700L
+private const val LOOKUP_DELAY_MS = 400L
+/** Words clicked through quickly are not asked about online; only the one left open is. */
+private const val WIKTIONARY_DELAY_MS = 300L
+
+/** How long the sentence and the word may take to translate before the dictionary's first meaning stays. */
+private val MEANING_WAIT = 6.seconds
+
+class TermFormViewModel(
+    private val key: TermFormKey,
+    private val termService: TermService,
+    private val terms: TermRepository,
+    private val languages: LanguageRepository,
+    private val settings: SettingsRepository,
+    private val translationProvider: TermTranslationProvider,
+    private val examplesProvider: ExampleSentencesProvider,
+    private val dictionary: OfflineDictionary,
+    private val dictionaries: DictionaryService,
+    /** Lets words of the examples be saved; without it the examples are only shown. */
+    private val exampleTerms: ExampleTerms? = null,
+    /** Lets the form show the term's flashcard, suspend it and reset it. */
+    private val flashcards: FlashcardService? = null,
+    /** People's recordings of the term, played instead of the speech engine when there are some. */
+    private val recordings: WordRecordings? = null,
+    /** Wiktionary online: the term's forms, synonyms, pronunciations and, without an offline dictionary, its meanings. */
+    private val wiktionary: OnlineWiktionary? = null,
+    /** How far practice has taken the term, shown beside its flashcard. */
+    private val practiceProgress: PracticeProgressRepository? = null,
+    /** Translates the word's sentence and the word, for the dictionary meaning the sentence uses; the first meaning without it. */
+    private val sentenceTranslator: SentenceTranslator? = null,
+) : ViewModel() {
+
+    private val _state = MutableStateFlow(TermFormUiState())
+    val state: StateFlow<TermFormUiState> = _state.asStateFlow()
+    val events = UiEvents<TermFormEvent>()
+    private var searchJob: Job? = null
+    private var autosaveJob: Job? = null
+    /** One save at a time, each reading the draft as the one before left it, so a term is never inserted twice. */
+    private val saveLock = Mutex()
+    private var packJob: Job? = null
+    private var lookupJob: Job? = null
+    private var entryJob: Job? = null
+    private var finderJob: Job? = null
+    private var examplesJob: Job? = null
+    /** Counts the examples' lookups, so that only the latest one ends the loading. */
+    private var examplesLookup = 0
+
+    /** The sentence the form's term is read in, stored with a term that starts being learned while it still occurs there. */
+    private fun sentenceFor(draft: TermDraft): String? {
+        val sentence = key.sentence ?: return null
+        val letters = { text: String -> text.filter { it.isLetterOrDigit() }.lowercase() }
+        val term = letters(draft.text)
+        return sentence.takeIf { term.isNotEmpty() && letters(it).contains(term) }
+    }
+
+    init {
+        viewModelScope.launch { load() }
+        viewModelScope.launch {
+            languages.observeAll().collect { list -> _state.update { if (it.loading) it else it.copy(languages = list) } }
+        }
+    }
+
+    private suspend fun load() {
+        val languageList = languages.getAll()
+        val draft = try {
+            when (key) {
+                is TermFormKey.ById -> termService.load(key.termId)
+                is TermFormKey.ByText -> if (key.text.isBlank()) emptyDraft(key.languageId) else termService.findOrNew(key.languageId, key.text)
+                TermFormKey.New -> {
+                    val current = settings.current.currentLanguageId
+                    val languageId = if (languageList.any { it.id == current }) current else languageList.singleOrNull()?.id ?: 0L
+                    emptyDraft(languageId)
+                }
+            }
+        } catch (e: NoSuchElementException) {
+            _state.update { it.copy(loading = false, error = e.message) }
+            return
+        }
+        _state.update { it.copy(loading = false, draft = draft, languages = languageList, nativeLanguage = settings.current.nativeLanguage.ifBlank { "en" }, toneColors = settings.current.toneColors, zhuyin = settings.current.zhuyin) }
+        observePack(_state.value.language)
+        observeFinder(_state.value.language)
+        showEntry(draft, linkParent = { setParents(listOf(it)) })
+    }
+
+    private fun emptyDraft(languageId: Long) = TermDraft(languageId = languageId, text = "", originalText = "", status = TermStatus.UNKNOWN)
+
+    /**
+     * Shows [draft] with what is known about its text: dictionary meanings, a suggested
+     * translation, the lemma as parent and examples. [linkParent] applies the lemma.
+     */
+    private fun showEntry(draft: TermDraft, linkParent: (String) -> Unit) {
+        entryJob?.cancel()
+        stopExamples()
+        _state.update {
+            it.copy(
+                draft = draft, dirty = false, saved = false, error = null, duplicateOf = null, createdAt = null, references = null,
+                translationSuggested = false, meaning = null, lookingUpTranslation = false, dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), notes = emptyList(),
+                examples = emptyList(), examplesTotal = null, loadingExamples = false, examplesFailed = false, examplesFromCourses = false, wiktionary = WiktionaryUi(),
+            )
+        }
+        entryJob = viewModelScope.launch {
+            // Opening the form acknowledges any flash message.
+            draft.id?.let { terms.clearFlashMessage(it) }
+            val createdAt = draft.id?.let { terms.getById(it)?.createdAt }
+            _state.update { it.copy(createdAt = createdAt) }
+            refreshFlashcard(draft.id)
+            val language = _state.value.language
+            val lookup = lookupDictionary(draft.text, language)
+            // Words on a page exist as placeholders before anyone opens them, so "new" is judged by
+            // content: no translation and no parent means nobody has curated the term yet.
+            val untouched = draft.translation.isBlank() && draft.parents.isEmpty()
+            if (draft.translation.isBlank()) {
+                if (lookup.suggestedTranslation != null) suggestMeaning(lookup, draft, language) else launch { suggestTranslation(draft.text, language) }
+            }
+            // A new inflected form is linked to its lemma so the family shares one status.
+            lookup.parentSuggestion?.let { if (untouched) linkParent(it) }
+            launch { loadWiktionary(draft.text, lookup, language, linkParent.takeIf { untouched && lookup.isEmpty }) }
+            launch { loadRecordings(draft.text, lookup, language) }
+            loadExamples(draft.text, language)
+        }
+    }
+
+    /** Looks up [text] like a dictionary: the stored term with that text, or a new one. */
+    private fun scheduleLookup(text: String) {
+        lookupJob?.cancel()
+        val languageId = _state.value.draft.languageId
+        if (languageId == 0L) return
+        if (text.isBlank()) {
+            showEntry(emptyDraft(languageId), linkParent = {})
+            return
+        }
+        lookupJob = viewModelScope.launch {
+            delay(LOOKUP_DELAY_MS)
+            val found = termService.findOrNew(languageId, text)
+            // The field keeps what was typed; saving normalizes it.
+            val draft = if (found.id == null) found.copy(text = text, originalText = "", status = TermStatus.UNKNOWN) else found.copy(text = text)
+            // A typed word is only stored once it is edited, so the lemma joins the draft without a save.
+            showEntry(draft, linkParent = { parent -> _state.update { it.copy(draft = it.draft.copy(parents = listOf(parent), syncStatus = true)) }; inheritParentStatus(parent) })
+        }
+    }
+
+    private suspend fun lookupDictionary(text: String, language: Language?): DictionaryLookup {
+        if (language == null || text.isBlank()) return DictionaryLookup.EMPTY
+        val code = LanguageCodes.codeFor(language.name) ?: return DictionaryLookup.EMPTY
+        // A pair with no pack of the app's may still have imported dictionaries.
+        val id = DictionaryPacks.find(code, settings.current.nativeLanguage)?.id ?: DictionaryId(code, settings.current.nativeLanguage.ifBlank { "en" })
+        val lookup = dictionary.lookup(id, text).inScript(language.chineseScript)
+        val kanji = dictionary.kanji(id, text)
+        _state.update { it.copy(dictionary = lookup, kanji = kanji, notes = if (code == "ja") notesOf(text) else emptyList()) }
+        return lookup
+    }
+
+    /** Whether the form opened on a word, from a text or the vocabulary, rather than on a word still to be typed. */
+    val opensOnWord: Boolean = when (val k = key) {
+        is TermFormKey.ById -> true
+        is TermFormKey.ByText -> k.text.isNotBlank()
+        TermFormKey.New -> false
+    }
+
+    /** Tracks the pack for the language pair, and looks the term up once the pack is installed. */
+    private fun observePack(language: Language?) {
+        packJob?.cancel()
+        val pack = DictionaryPacks.find(language?.let { LanguageCodes.codeFor(it.name) }, settings.current.nativeLanguage)
+        if (pack == null) {
+            _state.update { it.copy(dictionaryPack = null, pairDictionary = null) }
+            return
+        }
+        packJob = viewModelScope.launch {
+            dictionaries.packs.collect { list ->
+                val status = list.firstOrNull { it.pack.id == pack.id } ?: PackStatus(pack, PackState.NotInstalled)
+                val other = list.firstOrNull { companion ->
+                    val id = companion.pack.id
+                    id != pack.id && !id.glossary && id.sourceLanguage == pack.id.sourceLanguage && id.targetLanguage == pack.id.targetLanguage &&
+                        companion.state is PackState.Installed
+                }?.pack
+                val otherName = other?.let { it.id.edition?.let(DictionaryPacks::editionName) ?: it.title }
+                val wasInstalled = _state.value.dictionaryPack?.state is PackState.Installed
+                _state.update { it.copy(dictionaryPack = status, pairDictionary = otherName) }
+                if (status.state is PackState.Installed && !wasInstalled && _state.value.dictionary.isEmpty) {
+                    val current = _state.value
+                    val lookup = lookupDictionary(current.draft.text, current.language)
+                    if (lookup.suggestedTranslation != null && _state.value.draft.translation.isBlank()) suggestMeaning(lookup, _state.value.draft, current.language)
+                }
+            }
+        }
+    }
+
+    /** The notes on [text] where the reader met it, or on the text alone; an era's name may come just before the word. */
+    private fun notesOf(text: String): List<JapaneseNote> {
+        val word = text.replace(ZWS_STRING, "").trim()
+        val sentence = key.sentence?.replace(ZWS_STRING, "")
+        val at = sentence?.indexOf(word)?.takeIf { it >= 0 }
+        return if (sentence != null && at != null) JapaneseNotes.at(sentence, at) else JapaneseNotes.at(word, 0)
+    }
+
+    /** Tracks the word finder from the native language into [language]. */
+    private fun observeFinder(language: Language?) {
+        finderJob?.cancel()
+        val pack = DictionaryPacks.findGlossary(settings.current.nativeLanguage.ifBlank { "en" }, language?.let { LanguageCodes.codeFor(it.name) })
+        if (pack == null) {
+            _state.update { it.copy(finderPack = null) }
+            return
+        }
+        finderJob = viewModelScope.launch {
+            dictionaries.packs.collect { list ->
+                val status = list.firstOrNull { it.pack.id == pack.id } ?: PackStatus(pack, PackState.NotInstalled)
+                _state.update { it.copy(finderPack = status) }
+            }
+        }
+    }
+
+    fun downloadFinder() {
+        val pack = _state.value.finderPack?.pack ?: return
+        viewModelScope.launch { dictionaries.download(pack) }
+    }
+
+    /** The words of the term's language that the word finder gives for [text], a word of the native language. */
+    suspend fun findWord(text: String): DictionaryLookup {
+        val pack = _state.value.finderPack?.takeIf { it.state is PackState.Installed }?.pack ?: return DictionaryLookup.EMPTY
+        if (text.isBlank()) return DictionaryLookup.EMPTY
+        return dictionary.lookup(pack.id, text.trim())
+    }
+
+    /** Opens a word the finder found as the term. */
+    fun openFoundWord(word: String) = update { it.copy(text = word) }
+
+    fun downloadDictionary() {
+        val pack = _state.value.dictionaryPack?.pack ?: return
+        viewModelScope.launch { dictionaries.download(pack) }
+    }
+
+    /**
+     * Puts the dictionary's first meaning in the empty translation at once, then, once the sentence
+     * and the word are translated, the meaning the sentence uses, if the translation is still the
+     * one put in: what the reader typed is never replaced.
+     */
+    private fun CoroutineScope.suggestMeaning(lookup: DictionaryLookup, draft: TermDraft, language: Language?) {
+        val first = lookup.suggestedTranslation ?: return
+        _state.update { s -> s.copy(translationSuggested = true, meaning = null, draft = s.draft.copy(translation = first)) }
+        val sentence = sentenceFor(draft)
+        launch {
+            val translate = { text: String -> language?.let { lang -> async { withTimeoutOrNull(MEANING_WAIT) { sentenceTranslator?.translate(text, lang) } } } }
+            val sentenceTranslation = sentence?.let(translate)
+            val wordTranslation = translate(draft.text)
+            val choice = MeaningChooser.choose(
+                lookup, draft.text, sentence, language?.let { LanguageCodes.codeFor(it.name) }, sentenceTranslation?.await(), wordTranslation?.await(),
+            ) ?: return@launch
+            _state.update { s ->
+                if (s.translationSuggested && s.draft.text == draft.text && s.draft.translation == first) s.copy(meaning = choice, draft = s.draft.copy(translation = choice.gloss)) else s
+            }
+        }
+    }
+
+    /** Puts a dictionary gloss in the translation: in place of a suggested one, which is how a wrong guess is put right; after one the reader wrote. */
+    fun addGloss(gloss: String) {
+        val replace = _state.value.translationSuggested
+        update { d -> d.copy(translation = if (replace || d.translation.isBlank()) gloss else "${d.translation.trimEnd()}; $gloss") }
+        _state.update { it.copy(translationSuggested = false, meaning = null) }
+    }
+
+    private suspend fun loadRecordings(text: String, lookup: DictionaryLookup, language: Language?) {
+        val source = recordings ?: return
+        val code = language?.let { LanguageCodes.codeFor(it.name) } ?: return
+        val word = text.replace(ZWS_STRING, "").trim()
+        val found = source.of(word, code).ifEmpty {
+            // An inflected form is rarely recorded; its dictionary form often is.
+            lookup.lemmas.firstOrNull()?.let { source.of(it, code) }.orEmpty()
+        }
+        if (_state.value.draft.text == text) _state.update { it.copy(recordings = withRecordings(found, it.recordings)) }
+    }
+
+    /**
+     * Asks Wiktionary about the term once it has stayed open a moment: its page, then the forms of
+     * the lemma it is a form of, so the Dictionary card knows whether there is a table to offer. [linkParent] is given only
+     * when the offline dictionary had nothing, so the online lemma never overrides an offline answer.
+     */
+    private suspend fun loadWiktionary(text: String, offline: DictionaryLookup, language: Language?, linkParent: ((String) -> Unit)?) {
+        val source = wiktionary ?: return
+        val code = language?.let { LanguageCodes.codeFor(it.name) } ?: return
+        val word = text.replace(ZWS_STRING, "").trim()
+        if (word.isEmpty()) return
+        delay(WIKTIONARY_DELAY_MS)
+        val page = source.page(word, code, nativeLanguage())
+        if (_state.value.draft.text != text) return
+        val own = page?.let { InflectionTables.tables(it) }.orEmpty()
+        val lemma = _state.value.draft.parents.singleOrNull() ?: parentSuggestion(offline, page) ?: offline.lemmas.firstOrNull() ?: page?.lemmas?.firstOrNull()
+        val tableWord = if (own.isNotEmpty()) page?.word else lemma
+        _state.update {
+            it.copy(
+                wiktionary = WiktionaryUi(page, page?.toLookup() ?: DictionaryLookup.EMPTY, tableWord),
+                recordings = withRecordings(it.recordings, page?.let(::recordingsOf).orEmpty()),
+            )
+        }
+        if (linkParent != null && _state.value.draft.parents.isEmpty()) page?.parentSuggestion?.let(linkParent)
+        // A word Wiktionary lacks is asked about in English, the edition with the most words, by its lemma.
+        val edition = page?.edition ?: "en"
+        val tables = own.ifEmpty {
+            tableWord?.let { lemmaWord -> source.forms(lemmaWord, code, edition).map { InflectionTables.table(it.pos, it.forms) }.filter { !it.isEmpty } }.orEmpty()
+        }
+        if (_state.value.draft.text != text) return
+        val credit = page ?: tableWord?.let { WiktionaryPage(it, edition, WiktionaryCodes.languageCode(code), emptyList()) }
+        _state.update { it.copy(wiktionary = it.wiktionary.copy(tables = tables, complete = true, credit = credit)) }
+    }
+
+    private fun nativeLanguage(): String = settings.current.nativeLanguage.ifBlank { "en" }
+
+    private fun stopExamples() {
+        examplesJob?.cancel()
+        examplesLookup++
+    }
+
+    /** Asks for the examples again after Tatoeba failed. */
+    fun retryExamples() {
+        val current = _state.value
+        loadExamples(current.draft.text, current.language)
+    }
+
+    /** Looks the examples up in a job of their own, so that a failure stops none of the entry's other lookups. */
+    private fun loadExamples(text: String, language: Language?) {
+        stopExamples()
+        if (language == null || text.isBlank()) return
+        val lookup = examplesLookup
+        _state.update { it.copy(loadingExamples = true) }
+        examplesJob = viewModelScope.launch {
+            try {
+                val native = nativeLanguage()
+                val query = ExampleSearchQuery(text, language, native, minWords = 1, maxWords = 15, sort = ExampleSort.RANDOM, limit = 10)
+                val result = examplesProvider.search(query)
+                // The installed courses work offline, so they stand in when Tatoeba cannot be asked.
+                val fallback = if (result.failed && examplesProvider.sources(language).any { it.source == ExampleSource.COURSES }) {
+                    examplesProvider.search(query.copy(source = ExampleSource.COURSES)).takeIf { it.sentences.isNotEmpty() }
+                } else null
+                _state.update {
+                    it.copy(
+                        examples = (fallback ?: result).sentences,
+                        // The count would be the courses' while "view all" opens Tatoeba.
+                        examplesTotal = if (fallback == null) result.total else null,
+                        examplesFailed = result.failed,
+                        examplesFromCourses = fallback != null,
+                        nativeLanguage = native,
+                    )
+                }
+                refreshExampleTerms()
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                _state.update { it.copy(examples = emptyList(), examplesTotal = null, examplesFailed = true, examplesFromCourses = false) }
+            } finally {
+                if (lookup == examplesLookup) _state.update { it.copy(loadingExamples = false) }
+            }
+        }
+    }
+
+    private suspend fun refreshExampleTerms() {
+        val helper = exampleTerms ?: return
+        val current = _state.value
+        val language = current.language ?: return
+        val found = helper.statuses(current.examples.map { it.text }, language)
+        _state.update { it.copy(exampleWords = found) }
+    }
+
+    /** A right click on a word of an example: saved as the reader does, with the example as its sentence. */
+    fun markExampleWord(word: String, sentence: String) {
+        val helper = exampleTerms ?: return
+        val language = _state.value.language ?: return
+        viewModelScope.launch {
+            val id = helper.toggle(word, sentence, language) ?: return@launch
+            // The form's own term shows its new status too.
+            if (id == _state.value.draft.id) terms.getById(id)?.let { term -> _state.update { it.copy(draft = it.draft.copy(status = term.status)) } }
+            refreshExampleTerms()
+            events.send(TermFormEvent.Saved(id, keepOpen = true))
+        }
+    }
+
+    /** A click on a word of an example, or a phrase dragged over in one: the form moves on to it. */
+    fun openExampleTerm(text: String, sentence: String) = openTerm(text, sentence)
+
+    private fun openTerm(text: String, sentence: String?) {
+        val languageId = _state.value.draft.languageId
+        if (languageId == 0L || text.isBlank()) return
+        viewModelScope.launch {
+            if (_state.value.dirty) {
+                val saved = doSave() ?: return@launch
+                events.send(TermFormEvent.Saved(saved, keepOpen = true))
+            }
+            events.send(TermFormEvent.OpenTerm(languageId, text.trim(), sentence))
+        }
+    }
+
+    /** Fills an empty translation with a dictionary gloss; never overwrites what the user typed. */
+    private suspend fun suggestTranslation(text: String, language: Language?) {
+        if (language == null || text.isBlank()) return
+        _state.update { it.copy(lookingUpTranslation = true) }
+        val suggestion = translationProvider.suggest(text, language)
+        _state.update { s ->
+            if (suggestion != null && s.draft.translation.isBlank()) {
+                s.copy(lookingUpTranslation = false, translationSuggested = true, draft = s.draft.copy(translation = suggestion.text))
+            } else {
+                s.copy(lookingUpTranslation = false)
+            }
+        }
+    }
+
+    fun update(transform: (TermDraft) -> TermDraft) {
+        val before = _state.value
+        val draft = transform(before.draft)
+        if (draft.text != before.draft.text) {
+            changeText(before, draft.text)
+            return
+        }
+        // An edit made before a typed word was looked up applies to the typed word as a new term.
+        lookupJob?.cancel()
+        _state.update {
+            val stillSuggested = it.translationSuggested && draft.translation == it.draft.translation
+            it.copy(draft = transform(it.draft), error = null, duplicateOf = null, dirty = true, saved = false, translationSuggested = stillSuggested)
+        }
+        scheduleAutosave()
+    }
+
+    /** Typing in the term field looks the new text up instead of renaming the term. */
+    private fun changeText(before: TermFormUiState, text: String) {
+        autosaveJob?.cancel()
+        entryJob?.cancel()
+        stopExamples()
+        if (before.dirty && before.draft.text.isNotBlank()) {
+            val pending = before.draft
+            val sentence = sentenceFor(before.draft)
+            viewModelScope.launch {
+                val id = runCatching { saveLock.withLock { termService.save(pending, sentence) } }.getOrNull() ?: return@launch
+                events.send(TermFormEvent.Saved(id, keepOpen = true))
+            }
+        }
+        _state.update {
+            it.copy(
+                draft = emptyDraft(it.draft.languageId).copy(text = text), dirty = false, saved = false, error = null, duplicateOf = null,
+                createdAt = null, references = null, translationSuggested = false, meaning = null, lookingUpTranslation = false,
+                dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), notes = emptyList(), examples = emptyList(), examplesTotal = null, loadingExamples = false,
+                examplesFailed = false, examplesFromCourses = false, wiktionary = WiktionaryUi(),
+            )
+        }
+        scheduleLookup(text)
+    }
+
+    private fun scheduleAutosave() {
+        autosaveJob?.cancel()
+        autosaveJob = viewModelScope.launch {
+            delay(AUTOSAVE_DELAY_MS)
+            // A newer edit cancels the wait, never a save half done.
+            val id = withContext(NonCancellable) { doSave() } ?: return@launch
+            events.send(TermFormEvent.Saved(id, keepOpen = true))
+        }
+    }
+
+    /** Persists pending edits immediately, e.g. before the form closes. */
+    fun flush() {
+        if (!_state.value.dirty) return
+        autosaveJob?.cancel()
+        viewModelScope.launch {
+            val id = doSave() ?: return@launch
+            events.send(TermFormEvent.Saved(id, keepOpen = true))
+        }
+    }
+
+    private var shown = false
+
+    /**
+     * The form came back to the front. The term and the words of its examples may have been changed
+     * on a screen opened from here (the examples, a duplicate), so their statuses are read again; a
+     * draft with unsaved edits keeps them. The first time, the form is still loading.
+     */
+    fun onResumed() {
+        if (!shown || _state.value.loading) {
+            shown = true
+            return
+        }
+        refresh()
+    }
+
+    /** Reads the term's status, its flashcard and its examples' words again after they may have changed elsewhere; unsaved edits stay. */
+    fun refresh() {
+        if (_state.value.loading) return
+        viewModelScope.launch {
+            val current = _state.value
+            val draft = current.draft
+            val id = draft.id
+            val fresh = runCatching {
+                when {
+                    id != null -> termService.load(id)
+                    draft.languageId != 0L && draft.text.isNotBlank() -> termService.findOrNew(draft.languageId, draft.text)
+                    else -> null
+                }
+            }.getOrNull()
+            if (fresh != null && !current.dirty) {
+                // A suggested translation that was never saved stays on screen.
+                _state.update { it.copy(draft = fresh.copy(translation = fresh.translation.ifBlank { it.draft.translation })) }
+            }
+            refreshFlashcard(_state.value.draft.id)
+            refreshExampleTerms()
+        }
+    }
+
+    @OptIn(DelicateCoroutinesApi::class)
+    override fun onCleared() {
+        // The form can disappear with unsaved edits (panel closed, navigation); persist them.
+        val state = _state.value
+        if (state.dirty && !state.loading && state.draft.languageId != 0L && state.draft.text.isNotBlank()) {
+            GlobalScope.launch { runCatching { saveLock.withLock { termService.save(_state.value.draft, sentenceFor(_state.value.draft)) } } }
+        }
+    }
+
+    /** Status clicks save immediately, so the reading screen reflects the change without pressing Save. */
+    fun setStatus(status: TermStatus) {
+        update { it.copy(status = status, statusExplicitlySet = true) }
+        autosaveJob?.cancel()
+        viewModelScope.launch {
+            val id = doSave() ?: return@launch
+            events.send(TermFormEvent.Saved(id, keepOpen = true))
+        }
+    }
+
+    fun setParents(parents: List<String>) {
+        val previous = _state.value.draft.parents
+        update { it.copy(parents = parents, syncStatus = if (parents.size == 1) (it.syncStatus || previous.size != 1) else false) }
+        val added = parents.filter { it !in previous }
+        if (parents.size == 1 && added.size == 1) inheritParentStatus(added.single())
+    }
+
+    private fun inheritParentStatus(parentText: String) {
+        val languageId = _state.value.draft.languageId
+        if (languageId == 0L) return
+        viewModelScope.launch {
+            val parent = termService.find(languageId, parentText) ?: return@launch
+            if (parent.status != TermStatus.UNKNOWN) {
+                _state.update { it.copy(draft = it.draft.copy(status = parent.status, statusExplicitlySet = false)) }
+            }
+        }
+    }
+
+    fun setParentQuery(query: String) {
+        _state.update { it.copy(parentQuery = query) }
+        searchJob?.cancel()
+        val languageId = _state.value.draft.languageId
+        if (query.isBlank() || languageId == 0L) {
+            _state.update { it.copy(parentSuggestions = emptyList()) }
+            return
+        }
+        searchJob = viewModelScope.launch {
+            delay(150)
+            val matches = termService.search(languageId, query).filter { it.id != _state.value.draft.id }
+            _state.update { it.copy(parentSuggestions = matches) }
+        }
+    }
+
+    fun openParent(text: String) {
+        val languageId = _state.value.draft.languageId
+        if (languageId == 0L) return
+        viewModelScope.launch {
+            if (_state.value.dirty) {
+                val saved = doSave() ?: return@launch
+                events.send(TermFormEvent.Saved(saved))
+            }
+            events.send(TermFormEvent.OpenParent(languageId, text))
+        }
+    }
+
+    fun loadReferences() {
+        val draft = _state.value.draft
+        if (draft.languageId == 0L || draft.text.isBlank()) return
+        _state.update { it.copy(loadingReferences = true) }
+        viewModelScope.launch {
+            val refs = termService.references(draft.languageId, draft.text)
+            _state.update { it.copy(references = refs, loadingReferences = false) }
+        }
+    }
+
+    fun save() {
+        autosaveJob?.cancel()
+        viewModelScope.launch {
+            val id = doSave() ?: return@launch
+            events.send(TermFormEvent.Saved(id))
+        }
+    }
+
+    private suspend fun doSave(): Long? = saveLock.withLock { saveDraft() }
+
+    private suspend fun saveDraft(): Long? {
+        val draft = _state.value.draft
+        if (draft.languageId == 0L) {
+            _state.update { it.copy(error = tr("Please select a language")) }
+            return null
+        }
+        _state.update { it.copy(saving = true, error = null) }
+        return try {
+            val id = termService.save(draft, sentenceFor(draft))
+            _state.update { it.copy(saving = false, dirty = it.draft != draft, saved = true, draft = it.draft.copy(id = id, originalText = draft.text)) }
+            // A new status may have given the term a card, or taken it away.
+            refreshFlashcard(id)
+            id
+        } catch (e: TermValidationException) {
+            _state.update { it.copy(saving = false, error = e.message?.let { message -> tr(message) }, duplicateOf = e.duplicateOf) }
+            null
+        } catch (e: Exception) {
+            _state.update { it.copy(saving = false, error = e.message ?: tr("Could not save term")) }
+            null
+        }
+    }
+
+    private suspend fun refreshFlashcard(termId: Long?) {
+        refreshPractice(termId)
+        val service = flashcards ?: return
+        val card = termId?.let { service.cardFor(it) }
+        val learnedWith = if (card == null && termId != null) terms.getById(termId)?.parents?.firstOrNull { it.status.isLearning }?.text else null
+        _state.update { it.copy(flashcard = card, flashcardsShown = true, learnedWith = learnedWith) }
+    }
+
+    private suspend fun refreshPractice(termId: Long?) {
+        val repository = practiceProgress ?: return
+        val progress = try {
+            termId?.let { repository.progress(listOf(it))[it] }
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            null
+        }
+        _state.update { it.copy(practice = progress, practiceShown = true) }
+    }
+
+    /** A suspended flashcard is kept but not shown for review. */
+    fun setFlashcardSuspended(suspended: Boolean) {
+        val id = _state.value.draft.id ?: return
+        viewModelScope.launch {
+            flashcards?.setSuspended(id, suspended)
+            refreshFlashcard(id)
+        }
+    }
+
+    /** Makes the flashcard new again, forgetting its reviews. */
+    fun restartFlashcard() {
+        val id = _state.value.draft.id ?: return
+        viewModelScope.launch {
+            flashcards?.restart(id)
+            refreshFlashcard(id)
+        }
+    }
+
+    fun delete() {
+        val id = _state.value.draft.id ?: return
+        viewModelScope.launch {
+            termService.delete(id)
+            events.send(TermFormEvent.Deleted)
+        }
+    }
+}
+
+
+/** The recordings Wiktionary's page links, each named by its speaker where Lingua Libre's file name gives one, and by its region. */
+internal fun recordingsOf(page: WiktionaryPage): List<WordRecording> = page.audio.mapNotNull { audio ->
+    val url = audio.mp3Url ?: audio.oggUrl ?: return@mapNotNull null
+    val speaker = LINGUA_LIBRE_FILE.find(audio.file)?.groupValues?.get(1)
+    val region = audio.tags.joinToString(", ").ifEmpty { null }
+    val name = when {
+        speaker != null && region != null -> "$speaker ($region)"
+        else -> speaker ?: region ?: audio.file
+    }
+    WordRecording(page.word, url, name, "Wiktionary", audio.pageUrl)
+}
+
+/** [first] then the recordings of [second] it lacks, a file being the same one whichever search found it. */
+internal fun withRecordings(first: List<WordRecording>, second: List<WordRecording>): List<WordRecording> =
+    (first + second).distinctBy { recording -> recording.pageUrl.substringAfter("File:", "").replace(' ', '_').lowercase().ifEmpty { recording.url } }
+
+private val LINGUA_LIBRE_FILE = Regex("""^LL-Q\d+ \([^)]*\)-(.+?)-""")

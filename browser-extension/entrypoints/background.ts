@@ -3,7 +3,7 @@ import { BridgeClient } from '../src/bridge-client';
 import type { BridgeResult } from '../src/bridge-types';
 import type { RuntimeRequest } from '../src/runtime-messages';
 
-/** The only part of the extension that talks to the Tayra app; the YouTube tab and the popup ask it. */
+/** The only part of the extension that talks to the Idiomiko app; the YouTube tab and the popup ask it. */
 export default defineBackground(() => {
   const tokens = {
     async get() {
@@ -15,13 +15,13 @@ export default defineBackground(() => {
       else await browser.storage.local.remove('token');
     },
   };
-  /** The helper the Tayra app registers with the browser; the browser lets only this extension start it. */
+  /** The helper the Idiomiko app registers with the browser; the browser lets only this extension start it. */
   async function helperToken(): Promise<string | null> {
     try {
-      const answer = (await browser.runtime.sendNativeMessage('app.tayra.bridge', { type: 'token' })) as { token?: unknown } | undefined;
+      const answer = (await browser.runtime.sendNativeMessage('app.idiomiko.bridge', { type: 'token' })) as { token?: unknown } | undefined;
       return typeof answer?.token === 'string' && answer.token.length > 0 ? answer.token : null;
     } catch {
-      // No helper: Tayra isn't installed here, or the browser can't start helpers (a sandboxed one).
+      // No helper: Idiomiko isn't installed here, or the browser can't start helpers (a sandboxed one).
       return null;
     }
   }

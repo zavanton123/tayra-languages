@@ -1,13 +1,13 @@
 // SQLDelight web worker for the library: the protocol of @cashapp/sqldelight-sqljs-worker, with the
 // database kept in IndexedDB between visits. It opens the file saved last, and saves the whole file
 // again a moment after the last write, once no transaction is open, and when the page asks to
-// ({action: "flush"}, as it is hidden). Only the tab holding the "tayra-library" lock saves, so two
+// ({action: "flush"}, as it is hidden). Only the tab holding the "idiomiko-library" lock saves, so two
 // tabs never write over each other's library; another tab works on its copy, which sync carries.
 importScripts("sql-wasm.js");
 
-const DATABASE = "tayra-library";
+const DATABASE = "idiomiko-library";
 const STORE = "files";
-const KEY = "tayra.db";
+const KEY = "idiomiko.db";
 const SAVE_AFTER_MS = 1500;
 // Writes may never pause for long while the app works in the background: they wait no longer than this.
 const SAVE_WITHIN_MS = 10000;

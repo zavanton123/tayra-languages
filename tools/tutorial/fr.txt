@@ -1,10 +1,10 @@
-Comment apprendre avec Tayra Languages
+Comment apprendre avec Idiomiko
 
-Bienvenue dans Tayra Languages ! Ce petit livre vous montre comment utiliser l'application pour apprendre une langue en lisant. Il est écrit dans la langue que vous apprenez, c'est donc aussi votre premier texte d'entraînement. Ne vous inquiétez pas si vous ne comprenez pas encore tous les mots.
+Bienvenue dans Idiomiko ! Ce petit livre vous montre comment utiliser l'application pour apprendre une langue en lisant. Il est écrit dans la langue que vous apprenez, c'est donc aussi votre premier texte d'entraînement. Ne vous inquiétez pas si vous ne comprenez pas encore tous les mots.
 
 Pourquoi la lecture fonctionne
 
-On apprend le mieux une langue avec beaucoup de textes intéressants que l'on comprend presque. Quand vous connaissez la plupart des mots d'une page, vous pouvez deviner les autres, et chaque nouveau mot est plus facile à retenir. Tayra vous aide à trouver de tels textes et se souvient de chaque mot que vous rencontrez.
+On apprend le mieux une langue avec beaucoup de textes intéressants que l'on comprend presque. Quand vous connaissez la plupart des mots d'une page, vous pouvez deviner les autres, et chaque nouveau mot est plus facile à retenir. Idiomiko vous aide à trouver de tels textes et se souvient de chaque mot que vous rencontrez.
 
 Les couleurs montrent ce que vous connaissez
 
@@ -12,7 +12,7 @@ Les mots que vous n'avez pas encore enregistrés sont en bleu : ils sont nouveau
 
 Terminez chaque page
 
-À la fin d'une page, marquez les mots restants comme connus. Chaque mot bleu qui reste sur la page devient connu. C'est ainsi que Tayra apprend quels mots vous connaissez déjà, alors soyez honnête : si un mot n'est pas encore clair, cliquez dessus et donnez-lui d'abord un statut d'apprentissage. La page suivante montrera alors moins de mots bleus.
+À la fin d'une page, marquez les mots restants comme connus. Chaque mot bleu qui reste sur la page devient connu. C'est ainsi que Idiomiko apprend quels mots vous connaissez déjà, alors soyez honnête : si un mot n'est pas encore clair, cliquez dessus et donnez-lui d'abord un statut d'apprentissage. La page suivante montrera alors moins de mots bleus.
 
 Écoutez et traduisez
 
@@ -24,7 +24,7 @@ L'écran Cours propose des cours tout prêts : des histoires courtes et simples,
 
 Votre niveau de vocabulaire
 
-Dans Vocabulaire, la liste de fréquence montre les mots les plus courants de la langue. Si vous connaissez déjà un peu la langue, indiquez-y votre niveau de vocabulaire, et Tayra marquera pour vous les mots les plus courants comme connus.
+Dans Vocabulaire, la liste de fréquence montre les mots les plus courants de la langue. Si vous connaissez déjà un peu la langue, indiquez-y votre niveau de vocabulaire, et Idiomiko marquera pour vous les mots les plus courants comme connus.
 
 Cartes mémoire
 

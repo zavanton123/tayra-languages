@@ -28,7 +28,7 @@ from build_dictionary import (  # noqa: E402
 )
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CATALOG = os.path.join(ROOT, "core/domain/src/commonMain/kotlin/com/tayra/languages/core/domain/dictionary/DictionaryPackSizes.kt")
+CATALOG = os.path.join(ROOT, "core/domain/src/commonMain/kotlin/com/idiomiko/core/domain/dictionary/DictionaryPackSizes.kt")
 BUILT = os.path.join(ROOT, "dictionaries", "wty", "built.json")
 # The skip tags the packs were built without; compound tenses' torn words are left out besides.
 NEW_TAGS = {"auxiliary"}

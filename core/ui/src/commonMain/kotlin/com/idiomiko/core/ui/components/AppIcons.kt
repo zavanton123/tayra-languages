@@ -1,0 +1,378 @@
+package com.idiomiko.core.ui.components
+
+import androidx.compose.material.icons.materialIcon
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.addPathNodes
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.unit.dp
+
+/** Icons that the core material icon set does not include. */
+object AppIcons {
+    private fun icon(name: String, pathData: String): ImageVector =
+        materialIcon(name = name) { addPath(pathData = addPathNodes(pathData), fill = SolidColor(Color.Black)) }
+
+    val VolumeUp: ImageVector by lazy {
+        icon(
+            "VolumeUp",
+            "M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z",
+        )
+    }
+
+    val Book: ImageVector by lazy {
+        icon(
+            "Book",
+            "M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z",
+        )
+    }
+
+    val Globe: ImageVector by lazy {
+        icon(
+            "Globe",
+            "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2s.07-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z",
+        )
+    }
+
+    /** A price-tag outline (Material "local_offer"), for tags. */
+    val Tag: ImageVector by lazy {
+        icon("Tag", "M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM13 20.01L4 11V4h7v-.01l9 9-7 7.02zM6.5 5C5.67 5 5 5.67 5 6.5S5.67 8 6.5 8 8 7.33 8 6.5 7.33 5 6.5 5z")
+    }
+
+    val BarChart: ImageVector by lazy { icon("BarChart", "M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z") }
+
+    /** Material "newspaper", for the news. */
+    val Newspaper: ImageVector by lazy {
+        icon("Newspaper", "M22 3l-1.67 1.67L18.67 3 17 4.67 15.33 3l-1.66 1.67L12 3l-1.67 1.67L8.67 3 7 4.67 5.33 3 3.67 4.67 2 3v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V3zM11 19H4v-6h7v6zm9 0h-7v-2h7v2zm0-4h-7v-2h7v2zm0-4H4V8h16v3z")
+    }
+
+    val Flame: ImageVector by lazy {
+        icon(
+            "Flame",
+            "M11.57 13.16c-1.36.28-2.17 1.16-2.17 2.41 0 1.34 1.11 2.42 2.49 2.42 2.05 0 3.71-1.66 3.71-3.71 0-1.07-.15-2.12-.46-3.12-.79 1.07-2.2 1.72-3.57 2zM13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67z",
+        )
+    }
+
+    val ViewList: ImageVector by lazy { icon("ViewList", "M3 14h4v-4H3v4zm0 5h4v-4H3v4zM3 9h4V5H3v4zm5 5h13v-4H8v4zm0 5h13v-4H8v4zM8 5v4h13V5H8z") }
+
+    /** A graduation cap, for the courses. */
+    val School: ImageVector by lazy { icon("School", "M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z") }
+
+    /** A fan of cards, for the flashcards; upside down, so it opens downwards. */
+    val Style: ImageVector by lazy {
+        materialIcon(name = "Style") {
+            group(scaleY = -1f, pivotY = 12f) {
+                addPath(
+                    pathData = addPathNodes("M2.53 19.65l1.34.56v-9.03l-2.43 5.86c-.41 1.02.08 2.19 1.09 2.61zm19.5-3.7L17.07 3.98c-.31-.75-1.04-1.21-1.81-1.23-.26 0-.53.04-.79.15L7.1 5.95c-.75.31-1.21 1.03-1.23 1.8-.01.27.04.54.15.8l4.96 11.97c.31.76 1.05 1.22 1.83 1.23.26 0 .52-.05.77-.15l7.36-3.05c1.02-.42 1.51-1.59 1.09-2.6zM7.88 8.75c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-2 11c0 1.1.9 2 2 2h1.45l-3.45-8.34v6.34z"),
+                    fill = SolidColor(Color.Black),
+                )
+            }
+        }
+    }
+
+    val PieChart: ImageVector by lazy { icon("PieChart", "M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97z") }
+
+    val GridView: ImageVector by lazy {
+        icon("GridView", "M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z")
+    }
+
+    val SwapVert: ImageVector by lazy { icon("SwapVert", "M16 17.01V10h-2v7.01h-3L15 21l4-3.99h-3zM9 3L5 6.99h3V14h2V6.99h3L9 3z") }
+
+    val UnfoldMore: ImageVector by lazy {
+        icon("UnfoldMore", "M12 5.83L15.17 9l1.41-1.41L12 3 7.41 7.59 8.83 9 12 5.83zm0 12.34L8.83 15l-1.41 1.41L12 21l4.59-4.59L15.17 15 12 18.17z")
+    }
+
+    val Palette: ImageVector by lazy {
+        icon(
+            "Palette",
+            "M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z",
+        )
+    }
+
+    val FormatSize: ImageVector by lazy { icon("FormatSize", "M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z") }
+
+    val LineSpacing: ImageVector by lazy {
+        icon("LineSpacing", "M6 7h2.5L5 3.5 1.5 7H4v10H1.5L5 20.5 8.5 17H6V7zm4-2v2h12V5H10zm0 14h12v-2H10v2zm0-6h12v-2H10v2z")
+    }
+
+    /** A table of rows and columns, for a word's conjugation or inflection. */
+    val TableChart: ImageVector by lazy { icon("TableChart", "M10 10.02h5V21h-5zM17 21h3c1.1 0 2-.9 2-2v-9h-5v11zm3-18H5c-1.1 0-2 .9-2 2v3h19V5c0-1.1-.9-2-2-2zM3 19c0 1.1.9 2 2 2h3V10H3v9z") }
+
+    val OpenInFull: ImageVector by lazy { icon("OpenInFull", "M21 11V3h-8l3.29 3.29-10 10L3 13v8h8l-3.29-3.29 10-10z") }
+
+    val Fullscreen: ImageVector by lazy { icon("Fullscreen", "M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z") }
+
+    val FullscreenExit: ImageVector by lazy { icon("FullscreenExit", "M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z") }
+
+    /** A film strip (Material "movie"), for videos. */
+    val Movie: ImageVector by lazy { icon("Movie", "M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z") }
+
+    val Subtitles: ImageVector by lazy { icon("Subtitles", "M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM4 12h4v2H4v-2zm10 6H4v-2h10v2zm6 0h-4v-2h4v2zm0-4H10v-2h10v2z") }
+
+    val Speed: ImageVector by lazy { icon("Speed", "M20.38 8.57l-1.23 1.85a8 8 0 0 1-.22 7.58H5.07A8 8 0 0 1 15.58 6.85l1.85-1.23A10 10 0 0 0 3.35 19a2 2 0 0 0 1.72 1h13.85a2 2 0 0 0 1.74-1 10 10 0 0 0-.27-10.44zm-9.79 6.84a2 2 0 0 0 2.83 0l5.66-8.49-8.49 5.66a2 2 0 0 0 0 2.83z") }
+
+    val Page: ImageVector by lazy {
+        icon("Page", "M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z")
+    }
+
+    val PageAdd: ImageVector by lazy {
+        icon("PageAdd", "M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 14h-3v3h-2v-3H8v-2h3v-3h2v3h3v2zm-3-7V3.5L18.5 9H13z")
+    }
+
+    val Bookmark: ImageVector by lazy { icon("Bookmark", "M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z") }
+
+    val Translate: ImageVector by lazy {
+        icon(
+            "Translate",
+            "M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z",
+        )
+    }
+
+    val Keyboard: ImageVector by lazy {
+        icon(
+            "Keyboard",
+            "M20 5H4c-1.1 0-1.99.9-1.99 2L2 17c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-9 3h2v2h-2V8zm0 3h2v2h-2v-2zM8 8h2v2H8V8zm0 3h2v2H8v-2zm-1 2H5v-2h2v2zm0-3H5V8h2v2zm9 7H8v-2h8v2zm0-4h-2v-2h2v2zm0-3h-2V8h2v2zm3 3h-2v-2h2v2zm0-3h-2V8h2v2z",
+        )
+    }
+
+    val Link: ImageVector by lazy {
+        icon("Link", "M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z")
+    }
+
+    val ContentCopy: ImageVector by lazy {
+        icon("ContentCopy", "M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z")
+    }
+
+    val OpenInNew: ImageVector by lazy {
+        icon("OpenInNew", "M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z")
+    }
+
+    /** Two arrows chasing round: one thing swapped for another. */
+    val Sync: ImageVector by lazy {
+        icon("Sync", "M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z")
+    }
+
+    /** Two speech bubbles: example sentences to choose from. */
+    val Forum: ImageVector by lazy {
+        icon("Forum", "M15 4v7H5.17L4 12.17V4h11m1-2H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm5 4h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1z")
+    }
+
+    val Abc: ImageVector by lazy {
+        icon(
+            "Abc",
+            "M21 11h-1.5v-.5h-2v3h2V13H21v1c0 .55-.45 1-1 1h-3c-.55 0-1-.45-1-1v-4c0-.55.45-1 1-1h3c.55 0 1 .45 1 1v1zM8 10v5H6.5v-1.5h-2V15H3v-5c0-.55.45-1 1-1h3c.55 0 1 .45 1 1zm-1.5.5h-2V12h2v-1.5zm7 1.5c.55 0 1 .45 1 1v1c0 .55-.45 1-1 1h-4V9h4c.55 0 1 .45 1 1v1c0 .55-.45 1-1 1zm-2.5-1.5v.5h2v-.5h-2zm2 2.5h-2v.5h2V13z",
+        )
+    }
+
+    /** A closed book with a bookmark, for the offline dictionary. */
+    val BookClosed: ImageVector by lazy {
+        icon("BookClosed", "M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z")
+    }
+
+    val Download: ImageVector by lazy { icon("Download", "M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z") }
+
+    val PlayArrow: ImageVector by lazy { icon("PlayArrow", "M8 5v14l11-7z") }
+
+    val Stop: ImageVector by lazy { icon("Stop", "M6 6h12v12H6z") }
+
+    val Pause: ImageVector by lazy { icon("Pause", "M6 19h4V5H6v14zm8-14v14h4V5h-4z") }
+
+    /** Lines of text and a pause after them: stopping after each sentence read aloud. */
+    val PauseAfterSentence: ImageVector by lazy { icon("PauseAfterSentence", "M2 7h11v2H2zm0 4h11v2H2zm0 4h7v2H2zm14-8h2v10h-2zm4 0h2v10h-2z") }
+
+    // Listening to playlists.
+
+    val Headphones: ImageVector by lazy {
+        icon("Headphones", "M12 1c-4.97 0-9 4.03-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h3c1.66 0 3-1.34 3-3v-7c0-4.97-4.03-9-9-9z")
+    }
+
+    /** Lines of a list with a note: a playlist. */
+    val QueueMusic: ImageVector by lazy {
+        icon("QueueMusic", "M15 6H3v2h12V6zm0 4H3v2h12v-2zM3 16h8v-2H3v2zM17 6v8.18c-.31-.11-.65-.18-1-.18-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3V8h3V6h-5z")
+    }
+
+    val PlaylistAdd: ImageVector by lazy {
+        icon("PlaylistAdd", "M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z")
+    }
+
+    val Shuffle: ImageVector by lazy {
+        icon("Shuffle", "M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z")
+    }
+
+    val Repeat: ImageVector by lazy { icon("Repeat", "M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z") }
+
+    val RepeatOne: ImageVector by lazy { icon("RepeatOne", "M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4zm-4-2V9h-1l-2 1v1h1.5v4H13z") }
+
+    val SkipNext: ImageVector by lazy { icon("SkipNext", "M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z") }
+
+    val SkipPrevious: ImageVector by lazy { icon("SkipPrevious", "M6 6h2v12H6zm3.5 6l8.5 6V6z") }
+
+    /** Two columns of dots: a handle to drag a row by. */
+    val DragIndicator: ImageVector by lazy {
+        icon(
+            "DragIndicator",
+            "M11 18c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2zm-2-8c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 4c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z",
+        )
+    }
+
+    /** A clock face: when something comes. */
+    val Schedule: ImageVector by lazy {
+        icon("Schedule", "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z")
+    }
+
+    val Replay: ImageVector by lazy { icon("Replay", "M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z") }
+
+    /** A page with lines: a text. */
+    val Description: ImageVector by lazy {
+        icon("Description", "M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z")
+    }
+
+    val Lightbulb: ImageVector by lazy {
+        icon(
+            "Lightbulb",
+            "M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1l-.85.6V16h-4v-2.3l-.85-.6C7.8 12.16 7 10.63 7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.63-.8 3.16-2.15 4.1z",
+        )
+    }
+
+    val RecordVoiceOver: ImageVector by lazy {
+        icon("RecordVoiceOver", "M9 13c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm6.08-7.95c.84 1.18.84 2.71 0 3.89l1.68 1.69c2.02-2.02 2.02-5.07 0-7.27l-1.68 1.69zM20.07 2l-1.63 1.63c2.77 3.02 2.77 7.56 0 10.74L20.07 16c3.9-3.89 3.91-9.95 0-14z")
+    }
+
+    val VolumeOff: ImageVector by lazy {
+        icon(
+            "VolumeOff",
+            "M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z",
+        )
+    }
+
+    val Mic: ImageVector by lazy {
+        icon("Mic", "M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z")
+    }
+
+    val FormatAlignLeft: ImageVector by lazy { icon("FormatAlignLeft", "M15 15H3v2h12v-2zm0-8H3v2h12V7zM3 13h18v-2H3v2zm0 8h18v-2H3v2zM3 3v2h18V3H3z") }
+
+    val ViewStream: ImageVector by lazy { icon("ViewStream", "M4 14h17v-4H4v4zm0 5h17v-4H4v4zM4 5v4h17V5H4z") }
+
+    val ViewColumn: ImageVector by lazy { icon("ViewColumn", "M14.67 5v14H9.33V5h5.34zm1 14H21V5h-5.33v14zm-7.34 0V5H3v14h5.33z") }
+
+    val Tune: ImageVector by lazy {
+        icon("Tune", "M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z")
+    }
+
+    val Explore: ImageVector by lazy {
+        icon(
+            "Explore",
+            "M12 10.9c-.61 0-1.1.49-1.1 1.1s.49 1.1 1.1 1.1c.61 0 1.1-.49 1.1-1.1s-.49-1.1-1.1-1.1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm2.19 12.19L6 18l3.81-8.19L18 6l-3.81 8.19z",
+        )
+    }
+
+    val DoneAll: ImageVector by lazy {
+        icon("DoneAll", "M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z")
+    }
+
+    val ArrowLeft: ImageVector by lazy { icon("ArrowLeft", "M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z") }
+    val ArrowRight: ImageVector by lazy { icon("ArrowRight", "M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z") }
+    val ArrowUp: ImageVector by lazy { icon("ArrowUp", "M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z") }
+    val ArrowDown: ImageVector by lazy { icon("ArrowDown", "M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z") }
+
+    val UploadFile: ImageVector by lazy {
+        icon("UploadFile", "M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11zM8 15.01l1.41 1.41L11 14.84V19h2v-4.16l1.59 1.59L16 15.01 12.01 11z")
+    }
+
+    val History: ImageVector by lazy {
+        icon(
+            "History",
+            "M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z",
+        )
+    }
+
+    val FileOutline: ImageVector by lazy { icon("FileOutline", "M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6z") }
+
+    val VerifiedUser: ImageVector by lazy {
+        icon("VerifiedUser", "M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z")
+    }
+
+    val Share: ImageVector by lazy {
+        icon(
+            "Share",
+            "M16 5l-1.42 1.42-1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.11 0-2-.9-2-2V10c0-1.11.89-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .89 2 2z",
+        )
+    }
+
+    val RemoveCircle: ImageVector by lazy {
+        icon("RemoveCircle", "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z")
+    }
+
+    val Flag: ImageVector by lazy { icon("Flag", "M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z") }
+
+    val Terminal: ImageVector by lazy {
+        icon("Terminal", "M20 4H4c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.89-2-2-2zm0 14H4V8h16v10zm-2-1h-6v-2h6v2zM7.5 17l-1.41-1.41L8.67 13l-2.59-2.59L7.5 9l4 4-4 4z")
+    }
+
+    val MoreHoriz: ImageVector by lazy {
+        icon("MoreHoriz", "M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z")
+    }
+
+    val SwapHoriz: ImageVector by lazy { icon("SwapHoriz", "M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z") }
+
+    val Memory: ImageVector by lazy {
+        icon(
+            "Memory",
+            "M15 9H9v6h6V9zm-2 4h-2v-2h2v2zm8-2V9h-2V7c0-1.1-.9-2-2-2h-2V3h-2v2h-2V3H9v2H7c-1.1 0-2 .9-2 2v2H3v2h2v2H3v2h2v2c0 1.1.9 2 2 2h2v2h2v-2h2v2h2v-2h2c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2zm-4 6H7V7h10v10z",
+        )
+    }
+
+    val Storage: ImageVector by lazy {
+        icon("Storage", "M2 20h20v-4H2v4zm2-3h2v2H4v-2zM2 4v4h20V4H2zm4 3H4V5h2v2zm-4 7h20v-4H2v4zm2-3h2v2H4v-2z")
+    }
+
+    val MenuBook: ImageVector by lazy {
+        icon(
+            "MenuBook",
+            "M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5zM17.5 10.5c.88 0 1.73.09 2.5.26V9.24c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99zM13 12.49v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26V11.9c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.3-4.5.83zm4.5 1.84c-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26v-1.52c-.79-.16-1.64-.24-2.5-.24z",
+        )
+    }
+
+    /**
+     * The Idiomiko otter from the vector logo. The traced SVG is drawn in tenths of points with a
+     * flipped y axis, so the inner group applies that transform and the outer one crops to the
+     * otter's bounding box.
+     */
+    val Otter: ImageVector by lazy {
+        ImageVector.Builder(name = "Otter", defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 400f, viewportHeight = 400f)
+            .group(translationX = -585.25f, translationY = -168.9f) {
+                group(translationY = 1024f, scaleX = 0.1f, scaleY = -0.1f) {
+                    addPath(pathData = addPathNodes(OTTER_HEAD), fill = SolidColor(Color.Black))
+                    addPath(pathData = addPathNodes(OTTER_EYE), fill = SolidColor(Color.Black))
+                }
+            }
+            .build()
+    }
+
+    private val OTTER_HEAD =
+            "M7560 8388 c-106 -9 -283 -41 -355 -63 -45 -13 -52 -12 -138 17 -134 44 -275 49 -411 14 -55 -14 -125 -40 -155 " +
+            "-58 -77 -46 -190 -161 -228 -233 -75 -143 -95 -329 -52 -490 11 -44 21 -84 21 -90 1 -5 -25 -50 -56 -100 -159 " +
+            "-251 -233 -498 -243 -820 -8 -268 22 -451 113 -676 98 -244 223 -428 425 -625 305 -296 649 -464 1119 -546 109 " +
+            "-20 161 -22 405 -22 221 0 301 3 380 17 137 24 314 72 388 105 l62 28 -72 42 c-367 215 -597 546 -621 897 -21 " +
+            "302 69 545 261 702 118 97 221 131 471 157 242 26 366 55 481 115 131 68 236 201 294 372 15 46 42 107 60 134 34 " +
+            "53 61 132 61 174 0 51 -46 127 -104 173 -97 76 -785 488 -971 581 -142 71 -372 149 -507 171 -193 33 -437 42 " +
+            "-628 24z m-679 -198 c127 -18 235 -84 295 -180 19 -30 34 -60 34 -67 0 -7 -25 5 -56 27 -88 61 -169 85 -294 85 " +
+            "-95 0 -111 -3 -162 -28 -107 -52 -171 -149 -171 -258 0 -113 63 -210 175 -269 35 -18 64 -33 65 -34 1 -1 -18 -40 " +
+            "-41 -88 l-43 -87 -39 26 c-101 67 -219 216 -248 313 -35 117 -26 243 24 341 54 105 188 202 304 219 73 11 83 11 " +
+            "157 0z m1546 -241 c178 -66 233 -297 93 -394 -56 -39 -141 -57 -207 -45 -57 10 -122 39 -142 64 -26 31 -87 61 " +
+            "-136 67 l-50 5 38 17 c31 14 37 22 37 47 0 40 33 123 65 166 25 33 82 68 135 85 46 14 109 9 167 -12z m530 -40 " +
+            "c192 -75 525 -228 566 -260 15 -12 10 -14 -45 -16 -86 -3 -139 -19 -183 -56 -127 -104 -60 -286 125 -343 30 -9 " +
+            "57 -18 58 -20 11 -9 -67 -140 -100 -169 -153 -131 -487 -12 -568 203 -39 102 -14 199 73 279 55 51 82 65 177 93 " +
+            "136 41 134 50 -23 182 -67 57 -134 111 -147 120 -36 25 -20 22 67 -13z m-231 -657 c1 -66 50 -157 115 -216 100 " +
+            "-90 230 -132 383 -124 147 8 243 70 302 198 37 80 39 83 52 88 22 7 13 -42 -17 -93 -38 -66 -161 -182 -236 -222 " +
+            "-118 -62 -226 -81 -586 -103 -406 -24 -616 -89 -889 -274 -128 -86 -290 -245 -380 -373 -71 -101 -147 -242 -169 " +
+            "-313 -25 -77 -31 -68 -31 46 0 194 45 387 133 567 23 48 41 87 39 87 -22 0 -229 -195 -266 -250 -21 -33 -20 -16 " +
+            "5 66 26 84 76 186 138 279 64 97 238 269 342 338 173 114 320 165 574 197 187 23 311 56 409 109 39 21 73 39 76 " +
+            "40 3 0 5 -20 6 -47z " +
+            ""
+
+    private val OTTER_EYE =
+            "M8301 7910 c-96 -22 -147 -128 -107 -223 26 -64 111 -117 186 -117 36 0 110 40 133 71 26 36 37 93 26 135 -25 89 " +
+            "-143 155 -238 134z m152 -71 c16 -26 0 -68 -29 -75 -46 -12 -85 51 -52 84 17 17 68 11 81 -9z " +
+            ""
+}

@@ -7,7 +7,7 @@ import os
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RULES = os.path.join(ROOT, "core", "domain", "src", "commonMain", "kotlin", "com", "tayra", "languages", "core", "domain",
+RULES = os.path.join(ROOT, "core", "domain", "src", "commonMain", "kotlin", "com", "idiomiko", "core", "domain",
                      "morphology", "rules", "KoTransforms.kt")
 
 # Hangul.kt's tables: a port of Hangul.js (MIT, Copyright 2017 Jaemin Jo), which splits complex vowels and final clusters too.

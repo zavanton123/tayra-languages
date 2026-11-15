@@ -1,0 +1,268 @@
+package com.idiomiko.feature.books
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import co.touchlab.kermit.Logger
+import com.idiomiko.core.domain.books.BookPackService
+import com.idiomiko.core.domain.books.BookPacks
+import com.idiomiko.core.domain.dictionary.PackState
+import com.idiomiko.core.domain.language.LanguageCodes
+import com.idiomiko.core.domain.model.BookListItem
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.repository.BookRepository
+import com.idiomiko.core.domain.repository.LanguageRepository
+import com.idiomiko.core.domain.repository.TermListFilter
+import com.idiomiko.core.domain.repository.TermListSort
+import com.idiomiko.core.domain.repository.TermRepository
+import com.idiomiko.core.domain.service.BookService
+import com.idiomiko.core.domain.service.BookStatsService
+import com.idiomiko.core.domain.settings.SettingsRepository
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.catch
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.onEach
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
+import kotlin.time.Instant
+
+enum class BookSort(val label: String) { RECENT("Recently opened"), TITLE("Title"), MASTERY("Vocabulary known") }
+
+enum class ReadingStatus { NOT_STARTED, READING, FINISHED }
+
+/** Finished once the last page is marked read; reading once opened. */
+val BookListItem.readingStatus: ReadingStatus
+    get() = when {
+        isCompleted -> ReadingStatus.FINISHED
+        lastOpened != null -> ReadingStatus.READING
+        else -> ReadingStatus.NOT_STARTED
+    }
+
+/** How far through the book the reader is: the share of the pages before the current one, 100 only once finished. */
+val BookListItem.progressPercent: Int
+    get() = when (readingStatus) {
+        ReadingStatus.FINISHED -> 100
+        ReadingStatus.NOT_STARTED -> 0
+        ReadingStatus.READING -> if (pageCount > 0) (100 * (currentPage - 1) / pageCount).coerceIn(0, 99) else 0
+    }
+
+enum class ProgressFilter(val label: String, val status: ReadingStatus?) {
+    ALL("All progress", null),
+    NOT_STARTED("Not started", ReadingStatus.NOT_STARTED),
+    READING("In progress", ReadingStatus.READING),
+    FINISHED("Finished", ReadingStatus.FINISHED),
+}
+
+enum class BooksView { LIST, GRID }
+
+/** Share of the book's distinct terms that are no longer unknown, or null before stats exist. */
+val BookListItem.masteryPercent: Int?
+    get() = stats?.takeIf { it.distinctTerms > 0 }?.let { 100 - it.unknownPercent }
+
+data class BooksUiState(
+    val loading: Boolean = true,
+    val archived: Boolean = false,
+    val books: List<BookListItem> = emptyList(),
+    val languages: List<Language> = emptyList(),
+    val currentLanguageId: Long = 0,
+    val search: String = "",
+    val sort: BookSort = BookSort.RECENT,
+    val progress: ProgressFilter = ProgressFilter.ALL,
+    val view: BooksView = BooksView.LIST,
+    /** The tags a book must have; empty shows books whatever their tags. */
+    val tags: Set<String> = emptySet(),
+    /** Whether a book needs every one of [tags], or any of them. */
+    val matchAllTags: Boolean = false,
+    val wordsLearned: Int = 0,
+    /** Ticked books; only those still listed count, so a filter never hides a selected book from a bulk action. */
+    val selected: Set<Long> = emptySet(),
+    /** Whether a pack of free books for the language can be downloaded, offered while the library is empty. */
+    val packAvailable: Boolean = false,
+    /** How far the language's book pack is: downloading, failed, or neither; null without a pack. */
+    val packState: PackState? = null,
+) {
+    /** The name of the language being learned, empty when none is chosen. */
+    val languageName: String get() = languages.firstOrNull { it.id == currentLanguageId }?.name.orEmpty()
+
+    /** The books matching the search and the tags, whatever their progress. */
+    private val searched: List<BookListItem>
+        get() {
+            val wanted = tags.map { it.lowercase() }
+            return books.filter { book ->
+                val own = book.tags.map { it.lowercase() }
+                (search.isBlank() || book.title.contains(search, ignoreCase = true) || book.tags.any { it.contains(search, ignoreCase = true) }) &&
+                    (wanted.isEmpty() || if (matchAllTags) own.containsAll(wanted) else wanted.any { it in own })
+            }
+        }
+
+    /** How many of the searched books each progress tab holds. */
+    val counts: Map<ProgressFilter, Int>
+        get() = searched.let { list -> ProgressFilter.entries.associateWith { filter -> list.count { filter.status == null || it.readingStatus == filter.status } } }
+
+    val filteredBooks: List<BookListItem>
+        get() {
+            val matching = searched.filter { progress.status == null || it.readingStatus == progress.status }
+            return when (sort) {
+                BookSort.RECENT -> matching.sortedWith(compareByDescending<BookListItem> { it.lastOpened ?: Instant.DISTANT_PAST }.thenBy { it.title.lowercase() })
+                BookSort.TITLE -> matching.sortedBy { it.title.lowercase() }
+                BookSort.MASTERY -> matching.sortedWith(compareByDescending<BookListItem> { it.masteryPercent ?: -1 }.thenBy { it.title.lowercase() })
+            }
+        }
+
+    /** The book being read most recently, to go on with. */
+    val continueWith: BookListItem?
+        get() = books.filter { it.readingStatus == ReadingStatus.READING }.maxByOrNull { it.lastOpened ?: Instant.DISTANT_PAST }
+
+    val currentlyReading: Int get() = books.count { it.readingStatus == ReadingStatus.READING }
+
+    /** Every tag the listed books have, the most used first. */
+    val availableTags: List<String>
+        get() = books.flatMap { it.tags }.groupingBy { it }.eachCount().entries
+            .sortedWith(compareByDescending<Map.Entry<String, Int>> { it.value }.thenBy { it.key.lowercase() }).map { it.key }
+
+    val selectedBooks: List<BookListItem> get() = filteredBooks.filter { it.id in selected }
+
+}
+
+class BooksViewModel(
+    private val archived: Boolean,
+    books: BookRepository,
+    languages: LanguageRepository,
+    terms: TermRepository,
+    private val settings: SettingsRepository,
+    private val bookService: BookService,
+    private val bookStats: BookStatsService,
+    private val packs: BookPackService,
+) : ViewModel() {
+
+    private val search = MutableStateFlow("")
+    private val sort = MutableStateFlow(BookSort.RECENT)
+    private val progress = MutableStateFlow(ProgressFilter.ALL)
+    private val view = MutableStateFlow(BooksView.LIST)
+    private val tagFilter = MutableStateFlow(TagChoice())
+    private val selected = MutableStateFlow<Set<Long>>(emptySet())
+    private val statsInFlight = HashSet<Long>()
+
+    private data class TagChoice(val tags: Set<String> = emptySet(), val matchAll: Boolean = false)
+
+    private data class Options(val sort: BookSort, val progress: ProgressFilter, val view: BooksView, val wordsLearned: Int)
+
+    /** Words known in the language being learned. */
+    @OptIn(ExperimentalCoroutinesApi::class)
+    private val wordsLearned = settings.settings.map { it.currentLanguageId }.distinctUntilChanged()
+        .flatMapLatest { id ->
+            terms.observeList(TermListFilter(languageId = id.takeIf { it != 0L }, minStatus = TermStatus.WELL_KNOWN, maxStatus = TermStatus.WELL_KNOWN), TermListSort(), 0, 1)
+        }
+        .map { it.totalCount }
+        .catch { e -> Logger.w(e) { "Counting learned terms failed" }; emit(0) }
+
+    private val options = combine(sort, progress, view, wordsLearned) { s, m, v, w -> Options(s, m, v, w) }
+
+    val state: StateFlow<BooksUiState> = combine(
+        books.observeBooks(archived).onEach(::computeMissingStats),
+        languages.observeAll(),
+        settings.settings,
+        combine(search, selected, tagFilter, ::Triple),
+        combine(options, packs.packs, ::Pair),
+    ) { bookList, languageList, prefs, (query, ticked, tagChoice), (opts, packStates) ->
+        val currentLanguageId = if (languageList.any { it.id == prefs.currentLanguageId }) prefs.currentLanguageId else 0
+        // The page lists the books of the language being learned.
+        val listed = if (currentLanguageId == 0L) bookList else bookList.filter { it.languageId == currentLanguageId }
+        val languageName = languageList.firstOrNull { it.id == currentLanguageId }?.name
+        val pack = languageName?.let { LanguageCodes.codeFor(it) }?.let { code -> packStates.firstOrNull { it.pack.languageCode == code } }
+        BooksUiState(
+            loading = false,
+            archived = archived,
+            books = listed,
+            // Tags only another language's books have do not hide this one's.
+            tags = tagChoice.tags.filterTo(linkedSetOf()) { tag -> listed.any { tag in it.tags } },
+            matchAllTags = tagChoice.matchAll,
+            languages = languageList,
+            currentLanguageId = currentLanguageId,
+            search = query,
+            selected = ticked,
+            sort = opts.sort,
+            progress = opts.progress,
+            view = opts.view,
+            wordsLearned = opts.wordsLearned,
+            packAvailable = pack != null,
+            packState = pack?.state,
+        )
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), BooksUiState(archived = archived))
+
+    /** Downloads the language's book pack; its books appear here as soon as they are written. */
+    fun downloadBooks() {
+        val code = state.value.languages.firstOrNull { it.id == state.value.currentLanguageId }?.name?.let { LanguageCodes.codeFor(it) } ?: return
+        val pack = BookPacks.forLanguage(code).firstOrNull() ?: return
+        viewModelScope.launch { packs.download(pack) }
+    }
+
+    private fun computeMissingStats(list: List<BookListItem>) {
+        val missing = list.filter { it.stats == null && it.id !in statsInFlight }
+        if (missing.isEmpty()) return
+        statsInFlight.addAll(missing.map { it.id })
+        viewModelScope.launch {
+            for (book in missing) {
+                try {
+                    bookStats.stats(book.id)
+                } catch (e: Exception) {
+                    Logger.w(e) { "Stats failed for book ${book.id}" }
+                } finally {
+                    statsInFlight.remove(book.id)
+                }
+            }
+        }
+    }
+
+    fun setSearch(query: String) {
+        search.value = query
+    }
+
+    fun setSort(value: BookSort) {
+        sort.value = value
+    }
+
+    fun setTags(tags: Set<String>, matchAll: Boolean) {
+        tagFilter.value = TagChoice(tags, matchAll)
+    }
+
+    fun setProgress(value: ProgressFilter) {
+        progress.value = value
+    }
+
+    fun setView(value: BooksView) {
+        view.value = value
+    }
+
+    fun toggleSelected(bookId: Long) {
+        selected.value = if (bookId in selected.value) selected.value - bookId else selected.value + bookId
+    }
+
+    /** Ticks every listed book, or clears the selection. */
+    fun selectAll(select: Boolean) {
+        selected.value = if (select) state.value.filteredBooks.map { it.id }.toSet() else emptySet()
+    }
+
+    /** Archives the selected books, or brings them back on the archive page. */
+    fun archiveSelected() = viewModelScope.launch {
+        val ids = state.value.selectedBooks.map { it.id }
+        selected.value = emptySet()
+        for (id in ids) if (archived) bookService.unarchive(id) else bookService.archive(id)
+    }
+
+    fun deleteSelected() = viewModelScope.launch {
+        val ids = state.value.selectedBooks.map { it.id }
+        selected.value = emptySet()
+        for (id in ids) bookService.delete(id)
+    }
+
+    fun archive(bookId: Long) = viewModelScope.launch { bookService.archive(bookId) }
+    fun unarchive(bookId: Long) = viewModelScope.launch { bookService.unarchive(bookId) }
+    fun delete(bookId: Long) = viewModelScope.launch { bookService.delete(bookId) }
+}

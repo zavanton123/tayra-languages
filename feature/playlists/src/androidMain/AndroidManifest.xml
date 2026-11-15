@@ -8,7 +8,7 @@
 
     <application>
         <service
-            android:name="com.tayra.languages.feature.playlists.PlaylistPlaybackService"
+            android:name="com.idiomiko.feature.playlists.PlaylistPlaybackService"
             android:exported="true"
             android:foregroundServiceType="mediaPlayback">
             <intent-filter>

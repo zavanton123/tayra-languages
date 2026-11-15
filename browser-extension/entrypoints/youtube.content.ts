@@ -35,7 +35,7 @@ const HOVER_DELAY_MS = 350;
 const HOVER_AGAIN_MS = 120;
 const HOVER_HIDE_MS = 250;
 
-/** How long adding a video to Tayra may take: the app makes its transcript first. */
+/** How long adding a video to Idiomiko may take: the app makes its transcript first. */
 const ADD_TIMEOUT_MS = 30_000;
 
 /** How many other lines with the word its card shows. */
@@ -45,7 +45,7 @@ const CARD_EXAMPLES = 5;
 const RELOADING: (keyof ExtensionSettings)[] = ['translationLanguage', 'machineTranslation', 'humanTranslation', 'enabled'];
 
 /**
- * Beside YouTube's page: gets the video's subtitles through the page, has the Tayra app clean them
+ * Beside YouTube's page: gets the video's subtitles through the page, has the Idiomiko app clean them
  * and cut them into words with their statuses, and shows them over the video with the controls a
  * learner needs. Without the app it shows YouTube's subtitles and their translation as they are.
  */
@@ -76,7 +76,7 @@ export default defineContentScript({
     let hovered: WordTarget | null = null;
     let insidePopup = false;
     let hoverTimer: ReturnType<typeof setTimeout> | undefined;
-    /** What adds the video to Tayra's Videos, once it is watched; null without the app or in another language. */
+    /** What adds the video to Idiomiko's Videos, once it is watched; null without the app or in another language. */
     let addRequest: AddVideoRequest | null = null;
     let bookId: number | null = null;
     let adding: Promise<number | null> | null = null;
@@ -118,7 +118,7 @@ export default defineContentScript({
       onStatus: (status) => {
         const word = hovered;
         hideHover();
-        if (word) void saveStatus(word, status).then((ok) => overlay.say(ok ? `${plain(word.term)}: ${statusName(status)}` : 'Tayra could not save the word.', 1500));
+        if (word) void saveStatus(word, status).then((ok) => overlay.say(ok ? `${plain(word.term)}: ${statusName(status)}` : 'Idiomiko could not save the word.', 1500));
       },
       onSpeak: () => hovered && speak(hovered.term),
       onInside: (inside) => {
@@ -139,7 +139,7 @@ export default defineContentScript({
       onDictionaryUsed: (name) => {
         if (settings.lastDictionary !== name) void change({ lastDictionary: name });
       },
-      onOpenInTayra: () => void openInTayra(),
+      onOpenInIdiomiko: () => void openInIdiomiko(),
       onPrint: () => void printTranscript(),
       onCloseCard: () => closeCard(),
       onAction: (action) => {
@@ -156,7 +156,7 @@ export default defineContentScript({
     const side = new SidePanel({
       ...gestures,
       onSpeak: (text) => speak(text),
-      onOpenInTayra: () => void openInTayra(),
+      onOpenInIdiomiko: () => void openInIdiomiko(),
       onPrint: () => void printTranscript(),
       onSeek: (index) => {
         if (open) closeCard();
@@ -297,7 +297,7 @@ export default defineContentScript({
       if (video !== details) return;
       side.setVideo(lines, ranks, fromApp, saved);
       if (!got && status && !status.ok) {
-        overlay.say(status.error === 'unpaired' ? 'Tayra: pair this browser in the app’s Settings to look words up' : 'Tayra: open the app to look words up');
+        overlay.say(status.error === 'unpaired' ? 'Idiomiko: pair this browser in the app’s Settings to look words up' : 'Idiomiko: open the app to look words up');
       }
     }
 
@@ -324,7 +324,7 @@ export default defineContentScript({
       const answer = await ask({ type: 'lookup', term }).catch(() => null);
       if (open?.term !== term) return;
       if (!answer?.ok) {
-        overlay.showCardError(term, answer?.error === 'offline' ? 'The Tayra app is not open.' : 'Tayra could not look the word up.');
+        overlay.showCardError(term, answer?.error === 'offline' ? 'The Idiomiko app is not open.' : 'Idiomiko could not look the word up.');
         return;
       }
       lookups.set(lc, Promise.resolve(answer.data));
@@ -340,10 +340,10 @@ export default defineContentScript({
       const word = open;
       if (!word) return;
       if (await saveStatus(word, status)) closeCard();
-      else overlay.showCardError(word.term, 'Tayra could not save the word.');
+      else overlay.showCardError(word.term, 'Idiomiko could not save the word.');
     }
 
-    /** Saves [word] with [status], with its line as the sentence; false when Tayra could not. */
+    /** Saves [word] with [status], with its line as the sentence; false when Idiomiko could not. */
     async function saveStatus(word: { term: string; lc: string; line: BridgeLine }, status: number): Promise<boolean> {
       const answer = await ask({ type: 'save', request: { term: word.term, status, sentence: word.line.text } }).catch(() => null);
       if (!answer?.ok) return false;
@@ -370,7 +370,7 @@ export default defineContentScript({
       hideHover();
       const status = nextStatus(statusOf(word), ignore);
       const ok = await saveStatus(word, status);
-      overlay.say(ok ? `${plain(word.term)}: ${statusName(status)}` : 'Tayra could not save the word.', 1500);
+      overlay.say(ok ? `${plain(word.term)}: ${statusName(status)}` : 'Idiomiko could not save the word.', 1500);
     }
 
     function linkFor(link: DictionaryLink, term: string): string {
@@ -413,7 +413,7 @@ export default defineContentScript({
       const found = await lookupOf(word);
       if (hovered !== word) return;
       const meaning = found ? meaningOf(found) : null;
-      popup.update(word.element, { ...base, meaning: meaning ?? (found ? 'No dictionary entry' : 'Tayra could not look it up.'), muted: !meaning });
+      popup.update(word.element, { ...base, meaning: meaning ?? (found ? 'No dictionary entry' : 'Idiomiko could not look it up.'), muted: !meaning });
     }
 
     function hideHoverSoon() {
@@ -429,7 +429,7 @@ export default defineContentScript({
       popup.hide();
     }
 
-    /** The video's book in Tayra's Videos, added now if it is not yet; null when it can't be. */
+    /** The video's book in Idiomiko's Videos, added now if it is not yet; null when it can't be. */
     function addToLibrary(): Promise<number | null> {
       if (bookId !== null) return Promise.resolve(bookId);
       const request = addRequest;
@@ -443,7 +443,7 @@ export default defineContentScript({
             return null;
           }
           bookId = answer.data.bookId;
-          if (answer.data.added) overlay.say('Added to Tayra’s Videos', 2500);
+          if (answer.data.added) overlay.say('Added to Idiomiko’s Videos', 2500);
           return bookId;
         } catch {
           return null;
@@ -457,32 +457,32 @@ export default defineContentScript({
     /** R: the line playing, bookmarked in the video's book. */
     async function bookmarkLine() {
       if (!addRequest) {
-        overlay.say('Open Tayra, learning this video’s language, to bookmark its lines.', 4000);
+        overlay.say('Open Idiomiko, learning this video’s language, to bookmark its lines.', 4000);
         return;
       }
-      if (bookId === null) overlay.say('Adding the video to Tayra…', ADD_TIMEOUT_MS);
+      if (bookId === null) overlay.say('Adding the video to Idiomiko…', ADD_TIMEOUT_MS);
       const id = await addToLibrary();
-      if (id === null) return overlay.say('Tayra could not add the video.', 3000);
+      if (id === null) return overlay.say('Idiomiko could not add the video.', 3000);
       const line = lines[player.current()];
       const atMs = line ? line.beginMs : Math.round((media()?.currentTime ?? 0) * 1000);
       const answer = await ask({ type: 'bookmark', request: { bookId: id, atMs } }).catch(() => null);
-      if (!answer?.ok) return overlay.say('Tayra could not bookmark the line.', 3000);
-      overlay.say(answer.data.added ? `Bookmarked in Tayra: ${answer.data.title}` : 'This line is bookmarked already', 2500);
+      if (!answer?.ok) return overlay.say('Idiomiko could not bookmark the line.', 3000);
+      overlay.say(answer.data.added ? `Bookmarked in Idiomiko: ${answer.data.title}` : 'This line is bookmarked already', 2500);
     }
 
-    /** The video in the Tayra app, from where it is here; it stops playing here. */
-    async function openInTayra() {
+    /** The video in the Idiomiko app, from where it is here; it stops playing here. */
+    async function openInIdiomiko() {
       if (!addRequest) {
-        overlay.say('Open Tayra, learning this video’s language, to watch it there.', 4000);
+        overlay.say('Open Idiomiko, learning this video’s language, to watch it there.', 4000);
         return;
       }
-      if (bookId === null) overlay.say('Adding the video to Tayra…', ADD_TIMEOUT_MS);
+      if (bookId === null) overlay.say('Adding the video to Idiomiko…', ADD_TIMEOUT_MS);
       const id = await addToLibrary();
-      if (id === null) return overlay.say('Tayra could not add the video.', 3000);
+      if (id === null) return overlay.say('Idiomiko could not add the video.', 3000);
       const playing = media();
       playing?.pause();
       const answer = await ask({ type: 'open', request: { bookId: id, positionMs: Math.round((playing?.currentTime ?? 0) * 1000) } }).catch(() => null);
-      overlay.say(answer?.ok ? 'Opened in Tayra' : 'Tayra could not open the video.', 2500);
+      overlay.say(answer?.ok ? 'Opened in Idiomiko' : 'Idiomiko could not open the video.', 2500);
     }
 
     /** The transcript in a tab of its own, to print or save as PDF. */
@@ -514,7 +514,7 @@ export default defineContentScript({
           side.setProgress(`Marking ${i + 1} of ${words.length} as known…`);
           const answer = await ask({ type: 'save', request: { term: word.term, status: KNOWN, sentence: lines[word.line]?.text ?? null } }).catch(() => null);
           if (!answer?.ok) {
-            side.setProgress(`Tayra could not save every word: ${i} of ${words.length} were marked.`);
+            side.setProgress(`Idiomiko could not save every word: ${i} of ${words.length} were marked.`);
             return;
           }
           changed.set(answer.data.lc, answer.data.status);
@@ -719,7 +719,7 @@ function plain(term: string): string {
   return term.replace(/\u200b/g, '');
 }
 
-/** A word's meaning in a few words: Tayra's own translation, else the dictionary's first senses. */
+/** A word's meaning in a few words: Idiomiko's own translation, else the dictionary's first senses. */
 function meaningOf(word: LookupResponse): string | null {
   if (word.translation.trim()) return word.translation.trim();
   const senses = word.entries[0]?.senses ?? [];

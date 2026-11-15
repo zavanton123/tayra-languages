@@ -1,0 +1,107 @@
+package com.idiomiko.core.data.repository
+
+import app.cash.sqldelight.async.coroutines.awaitAsList
+import app.cash.sqldelight.async.coroutines.awaitAsOne
+import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
+import app.cash.sqldelight.coroutines.asFlow
+import app.cash.sqldelight.coroutines.mapToList
+import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.db.Languages
+import com.idiomiko.core.data.db.IdiomikoDatabase
+import com.idiomiko.core.data.db.databaseDispatcher
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.repository.LanguageRepository
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.withContext
+
+class LanguageRepositoryImpl(private val provider: DatabaseProvider) : LanguageRepository {
+
+    private suspend fun db(): IdiomikoDatabase = provider.database()
+
+    override fun observeAll(): Flow<List<Language>> = flow {
+        val database = db()
+        database.languagesQueries.selectAll().asFlow().mapToList(databaseDispatcher).collect { rows ->
+            emit(withDictionaries(database, rows))
+        }
+    }
+
+    override suspend fun getAll(): List<Language> = withContext(databaseDispatcher) {
+        val database = db()
+        withDictionaries(database, database.languagesQueries.selectAll().awaitAsList())
+    }
+
+    override suspend fun getById(id: Long): Language? = withContext(databaseDispatcher) {
+        val database = db()
+        val row = database.languagesQueries.selectById(id).awaitAsOneOrNull() ?: return@withContext null
+        withDictionaries(database, listOf(row)).single()
+    }
+
+    override suspend fun findByName(name: String): Language? = withContext(databaseDispatcher) {
+        val database = db()
+        val row = database.languagesQueries.selectByName(name).awaitAsOneOrNull() ?: return@withContext null
+        withDictionaries(database, listOf(row)).single()
+    }
+
+    override suspend fun save(language: Language): Long = withContext(databaseDispatcher) {
+        val database = db()
+        val q = database.languagesQueries
+        database.transactionWithResult {
+            val id = if (language.id == 0L) {
+                q.insert(
+                    name = language.name,
+                    characterSubstitutions = language.characterSubstitutions,
+                    regexpSplitSentences = language.regexpSplitSentences,
+                    exceptionsSplitSentences = language.exceptionsSplitSentences,
+                    wordCharacters = language.wordCharacters,
+                    rightToLeft = language.rightToLeft,
+                    showRomanization = language.showRomanization,
+                    parserType = language.parserType,
+                )
+                q.lastInsertId().awaitAsOne()
+            } else {
+                q.update(
+                    id = language.id,
+                    name = language.name,
+                    characterSubstitutions = language.characterSubstitutions,
+                    regexpSplitSentences = language.regexpSplitSentences,
+                    exceptionsSplitSentences = language.exceptionsSplitSentences,
+                    wordCharacters = language.wordCharacters,
+                    rightToLeft = language.rightToLeft,
+                    showRomanization = language.showRomanization,
+                    parserType = language.parserType,
+                )
+                language.id
+            }
+            val script = language.chineseScript
+            if (script == null) q.deleteScript(id) else q.setScript(id, script.id)
+            q.deleteDictionaries(id)
+            language.dictionaries.forEachIndexed { index, dict ->
+                q.insertDictionary(
+                    languageId = id,
+                    useFor = dict.useFor.key,
+                    dictType = dict.type.key,
+                    url = dict.url,
+                    isActive = dict.isActive,
+                    sortOrder = (index + 1).toLong(),
+                )
+            }
+            if (language.id == 0L) q.unchanged(id)
+            id
+        }
+    }
+
+    override suspend fun delete(id: Long) {
+        withContext(databaseDispatcher) {
+            db().languagesQueries.delete(id)
+        }
+    }
+
+    private suspend fun withDictionaries(database: IdiomikoDatabase, rows: List<Languages>): List<Language> {
+        if (rows.isEmpty()) return emptyList()
+        val dictionaries = database.languagesQueries.selectDictionaries(rows.map { it.id }).awaitAsList()
+            .groupBy { it.language_id }
+        val scripts = database.languagesQueries.selectScripts(rows.map { it.id }).awaitAsList().associate { it.language_id to it.script }
+        return rows.map { it.toDomain(dictionaries[it.id] ?: emptyList(), scripts[it.id]) }
+    }
+}

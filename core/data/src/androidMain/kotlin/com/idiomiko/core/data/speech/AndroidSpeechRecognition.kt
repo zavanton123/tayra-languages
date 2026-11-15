@@ -1,0 +1,129 @@
+package com.idiomiko.core.data.speech
+
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.MutableStateFlow
+import android.Manifest
+import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.os.Build
+import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.speech.RecognitionListener
+import android.speech.RecognizerIntent
+import android.speech.SpeechRecognizer
+import com.idiomiko.core.domain.practice.Heard
+import com.idiomiko.core.domain.practice.SpeechRecognition
+import com.idiomiko.core.domain.practice.hintWords
+import kotlin.coroutines.resume
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.suspendCancellableCoroutine
+import kotlinx.coroutines.withContext
+
+/**
+ * The system's recogniser, on the device where it has the language: it is asked to stay offline
+ * first, and online only when it has no offline model for the language.
+ */
+class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition {
+    private var recognizer: SpeechRecognizer? = null
+
+    private val levelState = MutableStateFlow(0f)
+    override val level: StateFlow<Float> = levelState
+
+    override suspend fun isAvailable(languageCode: String): Boolean = withContext(Dispatchers.Main) { SpeechRecognizer.isRecognitionAvailable(context) }
+
+    override suspend fun listen(languageCode: String, hint: String?, longPauses: Boolean, onRecorded: () -> Unit): Heard = withContext(Dispatchers.Main) {
+        if (context.checkSelfPermission(Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) return@withContext Heard.Refused
+        val words = hintWords(hint)
+        val offline = hear(languageCode, words, offline = true, longPauses, onRecorded)
+        if (offline is Attempt.Unavailable) hear(languageCode, words, offline = false, longPauses, onRecorded).heard else offline.heard
+    }
+
+    override fun stop() {
+        recognizer?.stopListening()
+    }
+
+    private sealed interface Attempt {
+        val heard: Heard
+
+        class Done(override val heard: Heard) : Attempt
+
+        /** No offline model for the language, or no way to reach one online. */
+        object Unavailable : Attempt {
+            override val heard = Heard.Refused
+        }
+    }
+
+    private suspend fun hear(languageCode: String, hint: List<String>, offline: Boolean, longPauses: Boolean, onRecorded: () -> Unit): Attempt = suspendCancellableCoroutine { done ->
+        val heard = SpeechRecognizer.createSpeechRecognizer(context)
+        recognizer = heard
+        var partial = ""
+        fun finish(attempt: Attempt) {
+            levelState.value = 0f
+            if (recognizer === heard) recognizer = null
+            heard.destroy()
+            if (done.isActive) done.resume(attempt)
+        }
+        heard.setRecognitionListener(object : RecognitionListener {
+            override fun onResults(results: Bundle?) {
+                val text = results?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)?.firstOrNull()?.trim().orEmpty().ifEmpty { partial }
+                finish(Attempt.Done(if (text.isBlank()) Heard.Nothing else Heard.Words(text)))
+            }
+
+            override fun onPartialResults(results: Bundle?) {
+                results?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)?.firstOrNull()?.takeIf { it.isNotBlank() }?.let { partial = it }
+            }
+
+            override fun onError(error: Int) = finish(
+                when (error) {
+                    SpeechRecognizer.ERROR_INSUFFICIENT_PERMISSIONS -> Attempt.Done(Heard.Refused)
+                    SpeechRecognizer.ERROR_LANGUAGE_NOT_SUPPORTED, SpeechRecognizer.ERROR_LANGUAGE_UNAVAILABLE,
+                    -> if (offline) Attempt.Unavailable else Attempt.Done(Heard.Refused)
+                    // A connection that failed this time may not the next.
+                    SpeechRecognizer.ERROR_NETWORK, SpeechRecognizer.ERROR_NETWORK_TIMEOUT, SpeechRecognizer.ERROR_SERVER,
+                    -> if (offline) Attempt.Unavailable else Attempt.Done(Heard.Failed)
+                    else -> Attempt.Done(if (partial.isNotBlank()) Heard.Words(partial) else Heard.Nothing)
+                },
+            )
+
+            override fun onReadyForSpeech(params: Bundle?) {}
+            override fun onBeginningOfSpeech() {}
+            // The recogniser's own scale runs from about -2 in silence to 10 for loud speech.
+            override fun onRmsChanged(rmsdB: Float) {
+                levelState.value = ((rmsdB - QUIET_RMS_DB) / (LOUD_RMS_DB - QUIET_RMS_DB)).coerceIn(0f, 1f)
+            }
+            override fun onBufferReceived(buffer: ByteArray?) {}
+            override fun onEndOfSpeech() = onRecorded()
+            override fun onEvent(eventType: Int, params: Bundle?) {}
+        })
+        val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH)
+            .putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
+            .putExtra(RecognizerIntent.EXTRA_LANGUAGE, languageCode)
+            .putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true)
+            .putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE, offline)
+        // Asked of the recogniser, which may not heed it.
+        if (longPauses) {
+            intent.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_COMPLETE_SILENCE_LENGTH_MILLIS, LONG_PAUSE_MS)
+            intent.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_POSSIBLY_COMPLETE_SILENCE_LENGTH_MILLIS, LONG_PAUSE_MS)
+        }
+        // The words expected, which recognisers from Android 13 lean towards.
+        if (hint.isNotEmpty() && Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) intent.putStringArrayListExtra(RecognizerIntent.EXTRA_BIASING_STRINGS, ArrayList(hint))
+        heard.startListening(intent)
+        done.invokeOnCancellation {
+            // The recogniser is the main thread's alone.
+            Handler(Looper.getMainLooper()).post {
+                levelState.value = 0f
+                if (recognizer === heard) recognizer = null
+                heard.cancel()
+                heard.destroy()
+            }
+        }
+    }
+}
+
+private const val QUIET_RMS_DB = -2f
+private const val LOUD_RMS_DB = 10f
+
+/** How long a pause in a sentence read aloud is waited out. */
+private const val LONG_PAUSE_MS = 2_500L

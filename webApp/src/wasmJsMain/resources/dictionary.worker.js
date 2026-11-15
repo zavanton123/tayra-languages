@@ -9,7 +9,7 @@ let db = null;
 
 async function load(url) {
   const SQL = await initSqlJs({ locateFile: () => "sql-wasm.wasm" });
-  const cache = await caches.open("tayra-dictionaries");
+  const cache = await caches.open("idiomiko-dictionaries");
   const response = (await cache.match(url)) ?? (await fetch(url));
   if (!response.ok) throw new Error(`Could not fetch dictionary ${url}: ${response.status}`);
   const inflated = new Response(response.body.pipeThrough(new DecompressionStream("gzip")));

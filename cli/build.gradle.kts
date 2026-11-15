@@ -4,7 +4,7 @@ plugins {
     application
 }
 
-// The `tayra` command. It ships inside the desktop app as a second launcher of the same jars,
+// The `idiomiko` command. It ships inside the desktop app as a second launcher of the same jars,
 // and `./gradlew :cli:run --args="books list"` runs it from the sources.
 dependencies {
     implementation(projects.core.data)
@@ -22,8 +22,8 @@ dependencies {
 }
 
 application {
-    mainClass = "com.tayra.languages.cli.MainKt"
-    applicationName = "tayra"
+    mainClass = "com.idiomiko.cli.MainKt"
+    applicationName = "idiomiko"
 }
 
 // Some libraries reach the classpath twice under the same jar name, by way of their multiplatform variants.

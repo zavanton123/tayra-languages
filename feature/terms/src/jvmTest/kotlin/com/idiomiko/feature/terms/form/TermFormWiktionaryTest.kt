@@ -1,0 +1,142 @@
+package com.idiomiko.feature.terms.form
+
+import com.russhwolf.settings.MapSettings
+import com.idiomiko.core.data.db.DatabaseDriverFactory
+import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.repository.LanguageRepositoryImpl
+import com.idiomiko.core.data.repository.TermRepositoryImpl
+import com.idiomiko.core.data.settings.SettingsRepositoryImpl
+import com.idiomiko.core.domain.dictionary.DictionaryEntry
+import com.idiomiko.core.domain.dictionary.DictionaryId
+import com.idiomiko.core.domain.dictionary.DictionaryPack
+import com.idiomiko.core.domain.dictionary.DictionaryPackStore
+import com.idiomiko.core.domain.dictionary.OnlineWiktionary
+import com.idiomiko.core.domain.dictionary.WiktionaryEntry
+import com.idiomiko.core.domain.dictionary.WiktionaryForm
+import com.idiomiko.core.domain.dictionary.WiktionaryForms
+import com.idiomiko.core.domain.dictionary.WiktionaryLemma
+import com.idiomiko.core.domain.dictionary.WiktionaryPage
+import com.idiomiko.core.domain.dictionary.WiktionarySearchResult
+import com.idiomiko.core.domain.dictionary.WiktionarySense
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.repository.DictionaryRepository
+import com.idiomiko.core.domain.service.DictionaryService
+import com.idiomiko.core.domain.service.ExampleSearchQuery
+import com.idiomiko.core.domain.service.ExampleSearchResult
+import com.idiomiko.core.domain.service.ExampleSentencesProvider
+import com.idiomiko.core.domain.service.TermService
+import com.idiomiko.core.domain.service.TermTranslationProvider
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.test.resetMain
+import kotlinx.coroutines.test.setMain
+import kotlinx.coroutines.withTimeout
+import org.junit.After
+import org.junit.Before
+import java.io.File
+import java.util.Collections
+import kotlin.test.Test
+import kotlin.test.assertEquals
+import kotlin.test.assertNull
+import kotlin.test.assertTrue
+
+/** What the term form asks Wiktionary for a word it opens, and when its card shows. */
+class TermFormWiktionaryTest {
+
+    @Before
+    fun setUp() {
+        Dispatchers.setMain(Dispatchers.Default)
+    }
+
+    @After
+    fun tearDown() = Dispatchers.resetMain()
+
+    private val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-term-wiktionary", ".db").also { it.delete() }))
+    private val languages = LanguageRepositoryImpl(provider)
+    private val terms = TermRepositoryImpl(provider)
+    private val settings = SettingsRepositoryImpl(MapSettings())
+    private val portuguese = runBlocking { languages.save(Language(name = "Portuguese")) }
+
+    private val comem = WiktionaryPage(
+        "comem", "en", "pt",
+        listOf(WiktionaryEntry("verb", listOf(WiktionarySense(listOf("third-person plural present indicative of comer"), formOf = listOf(WiktionaryLemma("comer", "comer")))))),
+    )
+    private val conjugation = listOf("first-person", "second-person", "third-person").flatMap { person ->
+        listOf("singular", "plural").map { number -> WiktionaryForm("$person-$number", listOf(person, number, "present", "indicative"), "conjugation") } +
+            WiktionaryForm("$person-past", listOf(person, "singular", "preterite", "indicative"), "conjugation")
+    }
+    private val muito = WiktionaryPage("muito", "en", "pt", listOf(WiktionaryEntry("adv", listOf(WiktionarySense(listOf("very"))))))
+
+    /** Answers as WiktApi would, remembering every request it was asked. */
+    private class FakeWiktionary(private val pages: List<WiktionaryPage>, private val forms: Map<String, List<WiktionaryForm>>, private val found: List<String>) : OnlineWiktionary {
+        val asked: MutableList<String> = Collections.synchronizedList(mutableListOf())
+        override suspend fun page(word: String, languageCode: String, nativeLanguage: String): WiktionaryPage? {
+            asked += "page $word"
+            return pages.firstOrNull { it.word == word }
+        }
+        override suspend fun forms(word: String, languageCode: String, edition: String): List<WiktionaryForms> {
+            asked += "forms $word"
+            return forms[word]?.let { listOf(WiktionaryForms("verb", it)) }.orEmpty()
+        }
+        override suspend fun search(prefix: String, languageCode: String, edition: String): List<WiktionarySearchResult> {
+            asked += "search $prefix"
+            return found.map { WiktionarySearchResult(it, "phrase") }
+        }
+    }
+
+    private fun form(text: String, wiktionary: OnlineWiktionary): TermFormViewModel {
+        val noPacks = object : DictionaryPackStore {
+            override suspend fun installedSize(pack: DictionaryPack): Long? = null
+            override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit) = error("offline")
+            override suspend fun remove(pack: DictionaryPack) {}
+        }
+        val noEntries = object : DictionaryRepository {
+            override suspend fun isAvailable(dictionary: DictionaryId) = false
+            override suspend fun entries(dictionary: DictionaryId, wordLc: String) = emptyList<DictionaryEntry>()
+            override suspend fun lemmas(dictionary: DictionaryId, formLc: String) = emptyList<String>()
+            override suspend fun close(dictionary: DictionaryId) {}
+        }
+        val noExamples = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult.EMPTY
+            override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
+        }
+        val engine = object : TermTranslationProvider {
+            override val name = "Fake"
+            override suspend fun suggestTranslation(text: String, language: Language): String? = null
+        }
+        val dictionaries = DictionaryService(noPacks, noEntries)
+        return TermFormViewModel(
+            TermFormKey.ByText(portuguese, text), TermService(terms, languages), terms, languages, settings, engine, noExamples, dictionaries, dictionaries,
+            wiktionary = wiktionary,
+        )
+    }
+
+    private fun waitFor(what: String, condition: () -> Boolean) = runBlocking {
+        withTimeout(5_000) { while (!condition()) delay(10) }
+        assertTrue(condition(), what)
+    }
+
+    @Test
+    fun aFormAsksForItsPageThenItsLemmasForms() {
+        val wiktionary = FakeWiktionary(listOf(comem), mapOf("comer" to conjugation), listOf("comer", "comer o chapéu"))
+        val viewModel = form("comem", wiktionary)
+        waitFor("the table is complete") { viewModel.state.value.wiktionary.complete }
+        assertEquals(listOf("page comem", "forms comer"), wiktionary.asked)
+        val online = viewModel.state.value.wiktionary
+        assertEquals("comer", online.headword)
+        assertEquals("verb", online.table?.pos)
+        // The online lemma becomes the parent of a word the offline dictionary lacks.
+        waitFor("the parent is linked") { viewModel.state.value.draft.parents == listOf("comer") }
+    }
+
+    @Test
+    fun aWordWithNoTableOffersNone() {
+        val wiktionary = FakeWiktionary(listOf(muito), emptyMap(), listOf("muito", "muitos"))
+        val viewModel = form("muito", wiktionary)
+        waitFor("the table is complete") { viewModel.state.value.wiktionary.complete }
+        // A word with no lemma and no table of its own asks for no forms.
+        assertEquals(listOf("page muito"), wiktionary.asked)
+        assertNull(viewModel.state.value.wiktionary.table)
+    }
+}

@@ -1,0 +1,54 @@
+package com.idiomiko.core.ui.audio
+
+import co.touchlab.kermit.Logger
+import javazoom.jl.player.Player
+import java.io.BufferedInputStream
+import java.io.InputStream
+import java.io.ByteArrayInputStream
+import java.net.URI
+import java.util.concurrent.Executors
+
+/** Decodes MP3 with JLayer on a background thread; javax.sound has no built-in MP3 support. */
+actual class AudioPlayer actual constructor() {
+    private val executor = Executors.newSingleThreadExecutor { runnable -> Thread(runnable, "audio-player").apply { isDaemon = true } }
+
+    @Volatile
+    private var current: Player? = null
+
+    actual fun play(url: String, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit) =
+        start(url, { BufferedInputStream(URI(url).toURL().openStream()) }, onStarted, onFinished)
+
+    actual fun play(audio: ByteArray, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit) =
+        start("a recording in memory", { ByteArrayInputStream(audio) }, onStarted, onFinished)
+
+    private fun start(what: String, open: () -> InputStream, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit) {
+        stop()
+        executor.execute {
+            var failed = false
+            try {
+                val stream = open()
+                val player = Player(stream)
+                current = player
+                onStarted()
+                player.play()
+            } catch (e: Exception) {
+                Logger.w(e) { "Could not play audio $what" }
+                failed = true
+            } finally {
+                current = null
+                onFinished(failed)
+            }
+        }
+    }
+
+    actual fun stop() {
+        // Closing ends the playback; it can take seconds, so it is not waited for.
+        current?.let { player -> AudioRelease.later(player::close) }
+        current = null
+    }
+
+    actual fun release() {
+        stop()
+        executor.shutdownNow()
+    }
+}

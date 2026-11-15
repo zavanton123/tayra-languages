@@ -1,0 +1,169 @@
+package com.idiomiko.feature.flashcards
+
+import com.russhwolf.settings.MapSettings
+import com.idiomiko.core.data.db.DatabaseDriverFactory
+import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.repository.FlashcardRepositoryImpl
+import com.idiomiko.core.data.repository.LanguageRepositoryImpl
+import com.idiomiko.core.data.repository.TermRepositoryImpl
+import com.idiomiko.core.data.settings.SettingsRepositoryImpl
+import com.idiomiko.core.domain.dictionary.DictionaryId
+import com.idiomiko.core.domain.dictionary.OfflineDictionary
+import com.idiomiko.core.domain.flashcards.FlashcardService
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.Term
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.service.LocalSpeech
+import com.idiomiko.core.domain.service.LocalSpeechEngine
+import com.idiomiko.core.domain.service.MemorySpeechAudioCache
+import com.idiomiko.core.domain.service.SentenceAudio
+import com.idiomiko.core.domain.service.SentenceTranslator
+import com.idiomiko.core.domain.service.SpeechEngine
+import com.idiomiko.core.domain.service.SpeechPackage
+import com.idiomiko.core.domain.service.SpeechVoice
+import com.idiomiko.core.domain.service.TermTranslationProvider
+import com.idiomiko.core.domain.service.WordTranslationService
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.runBlocking
+import java.io.File
+import java.util.Collections
+import kotlin.test.Test
+import kotlin.test.assertEquals
+import kotlin.test.assertTrue
+
+/** The review screen has the local engine make the speech of the whole session as it opens, before any answer is shown. */
+class SessionSpeechTest {
+    private val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-session-speech", ".db").also { it.delete() }))
+    private val languages = LanguageRepositoryImpl(provider)
+    private val terms = TermRepositoryImpl(provider)
+    private val settings = SettingsRepositoryImpl(MapSettings())
+    private val service = FlashcardService(FlashcardRepositoryImpl(provider), terms, settings)
+
+    private val made = Collections.synchronizedList(mutableListOf<String>())
+    /** How long the engine takes over each sound. */
+    @Volatile private var takes = 0L
+    private val engine = object : LocalSpeechEngine {
+        override val engine = SpeechEngine.PIPER
+        override val displayName = "Fake"
+        override val description = ""
+        override val packagesDescription = ""
+        override val hasRuntimeSetup = false
+        override val progress = MutableStateFlow<String?>(null)
+        override suspend fun status() = "ready"
+        override suspend fun isReady() = true
+        override suspend fun setUp() = "ready"
+        override suspend fun packages() = emptyList<SpeechPackage>()
+        override suspend fun installPackage(id: String) {}
+        override suspend fun removePackage(id: String) {}
+        override suspend fun voices(languageCode: String) = emptyList<SpeechVoice>()
+        override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray {
+            kotlinx.coroutines.delay(takes)
+            made += text
+            return "$languageCode:$text".encodeToByteArray()
+        }
+    }
+
+    private val audio = SentenceAudio(LocalSpeech(listOf(engine)), settings, MemorySpeechAudioCache())
+
+    /** Two cards, one read in a sentence, and the review screen's model over them. */
+    private suspend fun session(): FlashcardsViewModel {
+        val id = languages.save(Language(name = "Portuguese"))
+        settings.update { it.copy(currentLanguageId = id, speechEngine = SpeechEngine.PIPER) }
+        terms.save(Term(languageId = id, text = "comprar", textLc = "comprar", status = TermStatus.NEW_1, sentence = "Vou comprar pão."))
+        terms.save(Term(languageId = id, text = "casa", textLc = "casa", status = TermStatus.NEW_1, sentence = "Uma frase com casa."))
+        return model()
+    }
+
+    private fun model(): FlashcardsViewModel {
+        val noDictionary = object : OfflineDictionary {
+            override suspend fun isAvailable(dictionary: DictionaryId) = false
+            override suspend fun lookup(dictionary: DictionaryId, text: String) = error("not installed")
+        }
+        val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = null }
+        val suggestions = object : TermTranslationProvider {
+            override val name = "Fake"
+            override suspend fun suggestTranslation(text: String, language: Language): String? = null
+        }
+        return FlashcardsViewModel(service, languages, settings, translator, noDictionary, WordTranslationService(terms, noDictionary, suggestions, settings), audio)
+    }
+
+    private fun waitFor(what: String, condition: () -> Boolean) {
+        val deadline = System.currentTimeMillis() + 5_000
+        while (!condition()) {
+            check(System.currentTimeMillis() < deadline) { "timed out waiting for $what" }
+            Thread.sleep(10)
+        }
+    }
+
+    /** The session waits for the first card's sound only; the rest is made while the cards are reviewed. */
+    @Test
+    fun theSessionStartsOnceTheFirstSoundIsReady() = runBlocking {
+        takes = 300
+        val viewModel = session()
+        assertTrue(viewModel.state.value.preparingAudio, "no card before the first sound")
+        waitFor("the session to start") { !viewModel.state.value.preparingAudio }
+        assertEquals(listOf("Vou comprar pão."), made.toList(), "only the first sound was waited for")
+        waitFor("the rest made") { made.size == 3 }
+        assertTrue(!viewModel.state.value.preparingAudio, "the wait does not come back")
+        assertTrue(viewModel.state.value.card != null)
+
+        // Opened again, everything is ready: no wait, and nothing made again.
+        val again = model()
+        waitFor("the check") { !again.state.value.preparingAudio && !again.state.value.loading }
+        assertEquals(3, made.size)
+    }
+
+    /** With the first card's sound already made there is nothing to wait for, whatever else is missing. */
+    @Test
+    fun aFirstSoundMadeBeforeMeansNoWait() = runBlocking {
+        val id = languages.save(Language(name = "Portuguese"))
+        settings.update { it.copy(currentLanguageId = id, speechEngine = SpeechEngine.PIPER) }
+        terms.save(Term(languageId = id, text = "comprar", textLc = "comprar", status = TermStatus.NEW_1, sentence = "Vou comprar pão."))
+        terms.save(Term(languageId = id, text = "casa", textLc = "casa", status = TermStatus.NEW_1, sentence = "Uma frase com casa."))
+        audio.audioFor("Vou comprar pão.", "pt")
+        takes = 300
+        val viewModel = model()
+        waitFor("the session to start") { !viewModel.state.value.preparingAudio }
+        assertEquals(1, made.size, "started before making anything else")
+        waitFor("the rest made") { made.size == 3 }
+    }
+
+    /** Start now lets the cards come before even the first sound is made; the speech is still made meanwhile. */
+    @Test
+    fun startNowSkipsTheWait() = runBlocking {
+        takes = 300
+        val viewModel = session()
+        viewModel.startWithoutWaiting()
+        assertTrue(!viewModel.state.value.preparingAudio)
+        assertTrue(made.isEmpty())
+        waitFor("the rest made") { made.size == 3 }
+    }
+
+    /** A card reached before its sound is made does not wait behind the whole session: it is made next. */
+    @Test
+    fun aSoundAskedForIsMadeNextAmongTheRest() = runBlocking {
+        takes = 100
+        val viewModel = session()
+        val id = settings.current.currentLanguageId
+        for (word in listOf("mesa", "porta", "janela", "livro")) terms.save(Term(languageId = id, text = word, textLc = word, status = TermStatus.NEW_1, sentence = "Uma frase com $word."))
+        val busy = model()
+        waitFor("the session to start") { !busy.state.value.preparingAudio }
+        val before = made.size
+        audio.audioFor("comprar", "pt")
+        assertTrue(made.indexOf("comprar") <= before + 1, "made next, not last: $made")
+        assertTrue(viewModel.state.value.card != null)
+    }
+
+    @Test
+    fun theSessionsSpeechIsMadeAsItOpens() = runBlocking {
+        val viewModel = session()
+
+        val deadline = System.currentTimeMillis() + 5_000
+        while (made.size < 4 && System.currentTimeMillis() < deadline) Thread.sleep(20)
+        // The sentence read when each card's answer is shown, then each one's word.
+        assertEquals(listOf("Vou comprar pão.", "Uma frase com casa.", "comprar", "casa"), made.toList())
+        assertTrue(!viewModel.state.value.revealed, "no answer was shown")
+        assertEquals("pt:Vou comprar pão.", audio.audioFor("Vou comprar pão.", "pt")?.decodeToString(), "the speaker finds it ready")
+        assertEquals(4, made.size, "found ready, not made again")
+    }
+}

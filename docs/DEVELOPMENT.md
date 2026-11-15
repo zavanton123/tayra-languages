@@ -29,7 +29,7 @@ feature/reading  reading screen, term popups, keyboard shortcuts
 feature/terms    term form, term listing, bulk edit, CSV and Anki export
 feature/languages, feature/settings, feature/stats
 shared           app composition: DI, bootstrap, navigation graph, iOS framework
-cli              the `tayra` command line, on the same services; packaged inside desktopApp
+cli              the `idiomiko` command line, on the same services; packaged inside desktopApp
 androidApp, desktopApp, webApp, iosApp   thin platform launchers
 build-logic      Gradle convention plugins
 ```
@@ -38,7 +38,7 @@ Domain services depend on repository interfaces declared in `core/domain`; `core
 provides the SQLDelight implementations. Each feature exposes a Koin module and a navigation
 graph that `shared` composes into the app.
 
-The desktop installers carry a second jpackage launcher, `tayra`, that runs `:cli`'s main
+The desktop installers carry a second jpackage launcher, `idiomiko`, that runs `:cli`'s main
 class on the app's own runtime and jars (see the end of `desktopApp/build.gradle.kts`);
 `DesktopCommandLineTool` puts it on the PATH from Settings. The app holds a lock on
 `app.lock` in the data folder while it is open, which tells the command so. Both open the
@@ -59,7 +59,7 @@ at start; until then, and on the other platforms, the lexicon alone cuts the tex
 `AnkiExportService` builds cloze notes from terms and either packs them into an .apkg file
 (`AnkiPackagerImpl`, every platform) or, on desktop, adds them to the running Anki through the
 AnkiConnect add-on (`AnkiConnectClient`, bound as `AnkiConnection` in the JVM data module, at
-http://127.0.0.1:8765): it creates the "Tayra Languages" note type and the decks when missing, asks
+http://127.0.0.1:8765): it creates the "Idiomiko" note type and the decks when missing, asks
 `canAddNotesWithErrorDetail` which notes Anki already has (the same cloze in the deck), stores the
 added notes' audio with `storeMediaFile` and adds them with `addNotes`. Terms whose notes are in
 Anki afterwards count as exported either way.
@@ -125,7 +125,7 @@ Publishing a GitHub release runs `.github/workflows/release.yml`, which builds a
 on Linux and a macOS DMG on an Apple Silicon runner and attaches both to the release. The
 workflow can also be started by hand from the Actions tab for an existing tag.
 
-- The tag gives the version: `v0.1.0` produces `TayraLanguages-0.1.0.apk` with the workflow
+- The tag gives the version: `v0.1.0` produces `Idiomiko-0.1.0.apk` with the workflow
   run number as the Android version code. macOS installers need a major version of at least
   1, so tags below `1.0.0` are packaged as `1.0.0` inside the DMG; the file name keeps the
   tag version.
@@ -137,7 +137,7 @@ workflow can also be started by hand from the Actions tab for an existing tag.
 - Only `vX.Y.Z` tags build the apps. Data releases (`courses-v1`, `freedict-v1`, …) carry data
   files alone; publishing one runs a job that marks the newest app release as GitHub's latest
   again, since the app's updates and the README's links read the app releases.
-- The packaged desktop app gets the tag's version as `-Dtayra.version`, which its updates compare.
+- The packaged desktop app gets the tag's version as `-Didiomiko.version`, which its updates compare.
 
 ### Desktop updates
 
@@ -145,7 +145,7 @@ The desktop app looks for a new release when it starts, at most every 20 hours (
 updates switches it off and checks by hand), and offers it in a banner across the top: install
 and restart, what's new, later, or skip this version. `DesktopAppUpdater` (core/data `jvmMain`)
 reads GitHub's list of releases, takes the newest non-draft, non-pre-release `vX.Y.Z` that is
-newer than `tayra.version` (a run from the sources has none and is never offered one), picks the
+newer than `idiomiko.version` (a run from the sources has none and is never offered one), picks the
 asset for the installation (`Installation`: the `.app` from the DMG on Apple Silicon, the
 per-user MSI, the DEB or RPM under `/opt`, or the tarball), streams it to the temporary folder
 and checks it against the SHA-256 GitHub records for each asset. Installing: on macOS, Windows and
@@ -162,7 +162,7 @@ cannot write to, is offered the release page instead.
 
 To try an update without publishing a release, build an older app and a newer installer with
 `-PreleaseVersion`, serve a copy of GitHub's releases JSON that points at the installer (with its
-`digest`), and start the older app with `-Dtayra.updateFeed=<that URL>` (and `-Dtayra.dataDir`,
+`digest`), and start the older app with `-Didiomiko.updateFeed=<that URL>` (and `-Didiomiko.dataDir`,
 to keep the library out of it). `AppUpdatesTest` runs the macOS and tarball scripts on real
 archives (`hdiutil`, `tar`); `AppUpdatesScreenTest` the banner and the Settings card.
 `.github/workflows/update-check.yml` does the whole thing on each system, by hand from the Actions
@@ -180,7 +180,7 @@ Locally:
 ```
 
 Desktop videos play in the Chromium of JetBrains Runtime's JCEF builds (`JcefVideo` in core/ui). Give
-the desktop tasks one with `-Ptayra.jbr=<folder>` or `TAYRA_JBR` (the folder a `jbr_jcef` archive
+the desktop tasks one with `-Pidiomiko.jbr=<folder>` or `IDIOMIKO_JBR` (the folder a `jbr_jcef` archive
 unpacks to, such as an IDE's `Contents/jbr`): `run` starts on it, and the packages carry all of it as
 their runtime in place of the one jlink makes. The release workflow fetches the version it names in
 `JBR_JDK` and `JBR_BUILD`. Without one the app is the same, but videos open in the browser. JBR's
@@ -219,7 +219,7 @@ outside the catalog found in the database is removed on start together with its 
 
 Screens are built from `core/ui`.
 
-- **Theme and tokens.** `TayraTheme` holds the colours per `AppTheme`. The corner radii of
+- **Theme and tokens.** `IdiomikoTheme` holds the colours per `AppTheme`. The corner radii of
   `AppShapes` (tiny 4dp, small 6dp, compact 8dp, control 10dp for buttons, fields, chips and rows,
   panel 12dp, card 14dp, large 18dp for dialogs and sheets, pill, circle) are also the theme's
   Material shapes. `theme/Tokens.kt` has the rest:
@@ -445,7 +445,7 @@ pane's "Find a … word from …" opens them; the Dictionaries screen lists only
 
 FreeDict's dictionaries (https://freedict.org, GPL and other free licences) are published as
 editions: `tools/build_freedict.py` reads FreeDict's database, downloads each StarDict release of a
-pair whose languages the app knows (checking its SHA-512), converts it with `tayra dictionaries
+pair whose languages the app knows (checking its SHA-512), converts it with `idiomiko dictionaries
 convert` (from `./gradlew :cli:installDist`, on a data folder of its own) and names FreeDict, the
 edition and the licence found in the .ifo description in the pack's meta; a dictionary with fewer
 than 1,000 entries, or with no licence it recognises as free, is left out. The packs are
@@ -463,7 +463,7 @@ Dictionaries of the user's own can be imported from the Dictionaries screen: `Di
 `StardictConverter`, by their first bytes. Several files chosen together (a StarDict dictionary's
 .ifo, .idx and .dict) travel as one tar (`DictionaryFiles.bundle`). On Android the picker offers
 every file, as it filters by MIME type and has none for .mdx or StarDict's files
-(`DictionaryFiles.pickerExtensions`). `tayra dictionaries convert` runs the same conversion from
+(`DictionaryFiles.pickerExtensions`). `idiomiko dictionaries convert` runs the same conversion from
 the command line and writes the pack file, without touching the library.
 
 `MdictFile` reads .mdx files as readmdict worked the format out: a UTF-16 XML header (its length
@@ -820,4 +820,4 @@ changed since.
 - The web build keeps its database in a sql.js worker (`webApp/.../resources/library.worker.js`)
   that saves the whole file to IndexedDB 1.5 s after the last write (within 10 s while writes go on)
   and when the page is hidden, and opens it again on the next visit, migrating it like any other
-  platform. Only the tab holding the `tayra-library` Web Lock saves; other tabs work on their copy.
+  platform. Only the tab holding the `idiomiko-library` Web Lock saves; other tabs work on their copy.

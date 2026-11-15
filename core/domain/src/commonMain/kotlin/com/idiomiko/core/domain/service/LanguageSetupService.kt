@@ -1,0 +1,394 @@
+package com.idiomiko.core.domain.service
+
+import com.idiomiko.core.domain.courses.CoursePack
+import com.idiomiko.core.domain.courses.CoursePackService
+import com.idiomiko.core.domain.courses.CoursePacks
+import com.idiomiko.core.domain.dictionary.DictionaryPack
+import com.idiomiko.core.domain.dictionary.DictionaryPacks
+import com.idiomiko.core.domain.dictionary.PackState
+import com.idiomiko.core.domain.language.LanguageCodes
+import com.idiomiko.core.domain.practice.RecognitionQuality
+import com.idiomiko.core.domain.practice.SpeechRecognitionSetup
+import com.idiomiko.core.domain.repository.LanguageRepository
+import com.idiomiko.core.domain.settings.SettingsRepository
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+
+/** What a language can have downloaded for it. */
+enum class SetupKind { COURSES, DICTIONARY, VOICE, TRANSLATION, RECOGNITION }
+
+/** Where a language stands on one kind of download. */
+enum class SetupStatus {
+    /** It can be downloaded, and is not on the device yet. */
+    MISSING,
+    /** It is on the device already. */
+    INSTALLED,
+    /** Nothing of this kind exists for the language, as no Piper voice for Croatian. */
+    UNAVAILABLE,
+}
+
+/** What a file of a download is. */
+enum class SetupFileKind {
+    COURSES, DICTIONARY, ENGINE, VOICE, MODEL,
+    /** A speech model holding several voices, downloaded once for whichever of them are chosen (Kokoro). */
+    VOICE_MODEL,
+}
+
+/** One file a download fetches, with its size in bytes when known. */
+data class SetupFile(
+    val kind: SetupFileKind,
+    /** The pack title, the engine, the voice, or the model's language pair. */
+    val name: String,
+    val sizeBytes: Long?,
+    /** Whether [sizeBytes] is an estimate, as for an engine's runtime. */
+    val estimated: Boolean = false,
+)
+
+/**
+ * One download a language still lacks. The names are kept apart from any wording, which the
+ * screen composes in the interface language.
+ */
+data class SetupItem(
+    val id: String,
+    val kind: SetupKind,
+    /** The language being learned, by name. */
+    val languageName: String,
+    /** What is downloaded, in a line: the pack title, "Piper · Joy · medium · Greece", "Argos Translate · Greek → Russian". */
+    val name: String,
+    val files: List<SetupFile>,
+    /** Whether it starts selected: every voice, and everything else but the large runtimes and engines not in use. */
+    val recommended: Boolean,
+    /** Whether installing it also makes its engine the one in use. */
+    val switchesEngine: Boolean = false,
+    val status: SetupStatus = SetupStatus.MISSING,
+    /** The speech engine a voice belongs to, by name; a language's voices are listed per engine. */
+    val engine: String? = null,
+    /** The size of a voice's own data inside a model it shares with others, already part of that model's size. */
+    val voiceSizeBytes: Long? = null,
+    /** What it takes on the device once installed, when known. */
+    val onDeviceBytes: Long? = null,
+    /** Whether a voice comes in a model it shares with the engine's other voices (Kokoro), so removing one removes them all. */
+    val sharedModel: Boolean = false,
+) {
+    /** The size of the files whose size is known; null when none is. */
+    val sizeBytes: Long? get() = files.mapNotNull { it.sizeBytes }.takeIf { it.isNotEmpty() }?.sum()
+
+    /** Whether [sizeBytes] is only roughly the download: some sizes are estimates or unknown. */
+    val sizeEstimated: Boolean get() = files.any { it.estimated || it.sizeBytes == null }
+
+    /** Whether the engine's own runtime comes with it (Python and its packages on the desktop), which is large. */
+    val includesRuntime: Boolean get() = files.any { it.kind == SetupFileKind.ENGINE }
+}
+
+sealed interface SetupState {
+    data object Waiting : SetupState
+    data class Running(val progress: String?) : SetupState
+    data object Done : SetupState
+    data class Failed(val message: String) : SetupState
+}
+
+/**
+ * The downloads that make a newly chosen language ready: its course pack, the dictionary into
+ * the native language, a voice that reads it aloud, the on-device translation models, and, where
+ * speech is heard by a downloaded model, a model of each quality for answering practice aloud.
+ * [missing] lists what is not on the device yet; [install] fetches the chosen ones one after
+ * another in a scope of its own, so they go on after the screen that started them is closed.
+ */
+class LanguageSetupService(
+    private val languages: LanguageRepository,
+    private val settings: SettingsRepository,
+    private val coursePacks: CoursePackService,
+    private val dictionaries: DictionaryService,
+    private val speech: LocalSpeech,
+    private val translation: LocalTranslation,
+    private val recognition: SpeechRecognitionSetup? = null,
+    private val scope: CoroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.Default),
+) {
+    private val actions = mutableMapOf<String, suspend () -> Unit>()
+    private val removals = mutableMapOf<String, suspend () -> Unit>()
+
+    private val _states = MutableStateFlow<Map<String, SetupState>>(emptyMap())
+
+    /** Where each item of the last [install] is. */
+    val states: StateFlow<Map<String, SetupState>> = _states.asStateFlow()
+
+    /**
+     * What [languageId] still needs, in the order it matters to a learner: the downloads of each
+     * kind it has nothing of yet. One voice that reads the language aloud is enough, so the other
+     * voices are left to Settings; empty when the language is ready.
+     */
+    suspend fun missing(languageId: Long): List<SetupItem> {
+        val all = overview(languageId)
+        val covered = all.filter { it.status == SetupStatus.INSTALLED }.map { it.kind }.toSet()
+        return all.filter { it.status == SetupStatus.MISSING && it.kind !in covered }
+    }
+
+    /**
+     * Every kind of download the language can have, in the order it matters to a learner, each
+     * missing, installed or unavailable; empty for a language without a known code.
+     */
+    suspend fun overview(languageId: Long): List<SetupItem> {
+        val language = languages.getById(languageId) ?: return emptyList()
+        val code = LanguageCodes.codeFor(language.name) ?: return emptyList()
+        val native = settings.current.nativeLanguage
+        val found = buildList {
+            courses(code, language.name)?.let(::add)
+            if (code != native) dictionary(code, native, language.name)?.let(::add)
+            addAll(voices(code, language.name))
+            if (code != native) translation(code, native, language.name)?.let(::add)
+            addAll(recognition(code, language.name))
+        }
+        return found
+    }
+
+    /** Starts the downloads of [items], in order; a failed one does not stop the next. */
+    fun install(items: List<SetupItem>) {
+        val chosen = items.mapNotNull { item -> actions[item.id]?.let { item to it } }
+        _states.update { it + chosen.associate { (item, _) -> item.id to SetupState.Waiting } }
+        scope.launch {
+            for ((item, action) in chosen) {
+                set(item.id, SetupState.Running(null))
+                try {
+                    action()
+                    set(item.id, SetupState.Done)
+                } catch (e: CancellationException) {
+                    throw e
+                } catch (e: Exception) {
+                    set(item.id, SetupState.Failed(e.message ?: e.toString()))
+                }
+            }
+        }
+    }
+
+    /** Whether [item] is on the device and can be removed from it. */
+    fun canRemove(item: SetupItem): Boolean = item.status == SetupStatus.INSTALLED && item.id in removals
+
+    /**
+     * Removes the installed [item] in the background: its state is [SetupState.Running] meanwhile,
+     * dropped once it is gone, or [SetupState.Failed].
+     */
+    fun remove(item: SetupItem) {
+        val action = removals[item.id]?.takeIf { canRemove(item) } ?: return
+        set(item.id, SetupState.Running(null))
+        scope.launch {
+            try {
+                action()
+                _states.update { it - item.id }
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                set(item.id, SetupState.Failed(e.message ?: e.toString()))
+            }
+        }
+    }
+
+    private fun set(id: String, state: SetupState) = _states.update { it + (id to state) }
+
+    private fun settled(kind: SetupKind, language: String, name: String, status: SetupStatus) =
+        SetupItem("${kind.name.lowercase()}:${status.name.lowercase()}", kind, language, name, emptyList(), recommended = false, status = status)
+
+    private fun register(item: SetupItem, action: suspend () -> Unit): SetupItem {
+        actions[item.id] = action
+        return item
+    }
+
+    private fun registerRemoval(item: SetupItem, action: suspend () -> Unit): SetupItem {
+        removals[item.id] = action
+        return item
+    }
+
+    private suspend fun courses(code: String, name: String): SetupItem? {
+        coursePacks.refresh()
+        val pack: CoursePack = CoursePacks.forLanguage(code).firstOrNull() ?: return settled(SetupKind.COURSES, name, "", SetupStatus.UNAVAILABLE)
+        val state = coursePacks.packs.value.firstOrNull { it.pack.id == pack.id }?.state
+        if (state is PackState.Installed || state is PackState.Downloading) return settled(SetupKind.COURSES, name, pack.title, SetupStatus.INSTALLED)
+        val files = listOf(SetupFile(SetupFileKind.COURSES, pack.title, pack.downloadSize))
+        return register(SetupItem("courses:${pack.id}", SetupKind.COURSES, name, pack.title, files, recommended = true)) {
+            coursePacks.download(pack)
+            failIfFailed(coursePacks.packs.value.firstOrNull { it.pack.id == pack.id }?.state)
+        }
+    }
+
+    private suspend fun dictionary(code: String, native: String, name: String): SetupItem? {
+        dictionaries.refresh()
+        val pack: DictionaryPack = DictionaryPacks.find(code, native)
+            ?: return settled(SetupKind.DICTIONARY, name, "$name \u2192 ${LanguageCodes.option(native)?.name ?: native}", SetupStatus.UNAVAILABLE)
+        val state = dictionaries.packs.value.firstOrNull { it.pack.id == pack.id }?.state
+        if (state is PackState.Installed || state is PackState.Downloading) return settled(SetupKind.DICTIONARY, name, pack.title, SetupStatus.INSTALLED)
+        val files = listOf(SetupFile(SetupFileKind.DICTIONARY, pack.title, pack.downloadSize))
+        return register(SetupItem("dictionary:${pack.id.name}", SetupKind.DICTIONARY, name, pack.title, files, recommended = true)) {
+            dictionaries.download(pack)
+            failIfFailed(dictionaries.packs.value.firstOrNull { it.pack.id == pack.id }?.state)
+        }
+    }
+
+    private fun failIfFailed(state: PackState?) {
+        if (state is PackState.Failed) error(state.message)
+    }
+
+    /**
+     * Every voice the local engines have for the language, each to choose on its own: a Piper voice is
+     * a download of its own, Kokoro's voices share one model, fetched with the first of them. The
+     * engine in use comes first, or Piper while the system voices are in use, since those differ from
+     * device to device; only its voices start ticked, so one engine is recommended, not two.
+     */
+    private suspend fun voices(code: String, name: String): List<SetupItem> {
+        val current = settings.current.speechEngine
+        val speaking = speaks(current, code)
+        val preferred = (speech.find(current) ?: speech.find(SpeechEngine.PIPER))?.engine
+        val found = speech.engines.sortedBy { it.engine != preferred }.flatMap { engine ->
+            val packages = runCatching { engine.packages() }.getOrNull() ?: return@flatMap emptyList()
+            val own = packages.filter { it.languageCode == code }
+                .ifEmpty { packages.filter { it.languageCode == null && name.substringBefore(" (") in it.group } }
+            if (own.isEmpty()) return@flatMap emptyList()
+            val first = pickVoice(own)
+            val ready = runCatching { engine.isReady() }.getOrDefault(false)
+            val runtime = engine.hasRuntimeSetup && !ready
+            val runtimeFile = if (runtime) SetupFile(SetupFileKind.ENGINE, engine.displayName, runCatching { engine.runtimeDownloadSize() }.getOrNull(), estimated = true) else null
+            own.sortedBy { it != first }.flatMap { pkg -> voices(engine, pkg, code, name, ready, runtimeFile, switches = !speaking && engine.engine != current) }
+        }
+        val recommendedEngine = found.firstOrNull { it.status == SetupStatus.MISSING }?.engine
+        return found.map { if (it.recommended && it.engine != recommendedEngine) it.copy(recommended = false) else it }
+            .ifEmpty { listOf(settled(SetupKind.VOICE, name, speech.find(preferred ?: current)?.displayName.orEmpty(), SetupStatus.UNAVAILABLE)) }
+    }
+
+    /** The package's voices for the language: itself when it is one voice, else each voice it holds. */
+    private fun voices(
+        engine: LocalSpeechEngine, pkg: SpeechPackage, code: String, name: String, ready: Boolean,
+        runtimeFile: SetupFile?, switches: Boolean,
+    ): List<SetupItem> {
+        val held = engine.packageVoices(pkg.id, code)
+        val choices = held.ifEmpty { listOf(SpeechVoice(pkg.id, pkg.title, code)) }
+        val download = SetupFile(if (held.isEmpty()) SetupFileKind.VOICE else SetupFileKind.VOICE_MODEL, pkg.title, pkg.sizeBytes.takeIf { it > 0 })
+        return choices.map { voice ->
+            val id = if (held.isEmpty()) "voice:${engine.engine.name}:${pkg.id}" else "voice:${engine.engine.name}:${pkg.id}:${voice.id}"
+            val title = "${engine.displayName} \u00b7 ${voice.name}"
+            if (pkg.installed && ready) {
+                val installed = SetupItem(
+                    id, SetupKind.VOICE, name, title, emptyList(), recommended = false, status = SetupStatus.INSTALLED, engine = engine.displayName,
+                    voiceSizeBytes = voice.sizeBytes, onDeviceBytes = pkg.sizeBytes.takeIf { it > 0 }, sharedModel = held.isNotEmpty(),
+                )
+                return@map registerRemoval(installed) { engine.removePackage(pkg.id) }
+            }
+            val files = listOfNotNull(runtimeFile, download.takeIf { !pkg.installed })
+            val item = SetupItem(
+                id, SetupKind.VOICE, name, title, files,
+                recommended = true, switchesEngine = switches, engine = engine.displayName, voiceSizeBytes = voice.sizeBytes.takeIf { held.isNotEmpty() },
+                sharedModel = held.isNotEmpty(),
+            )
+            register(item) {
+                if (engine.hasRuntimeSetup && !engine.isReady()) engine.setUp()
+                // Another voice of the same model may have fetched it already.
+                if (engine.packages().none { it.id == pkg.id && it.installed }) engine.installPackage(pkg.id)
+                val key = "${engine.engine.name}:$code"
+                // The first voice chosen speaks the language, unless one was chosen before.
+                settings.update { if (key in it.speechVoices) it else it.copy(speechVoices = it.speechVoices + (key to voice.id)) }
+                if (!speaks(settings.current.speechEngine, code)) settings.update { it.copy(speechEngine = engine.engine) }
+            }
+        }
+    }
+
+    /** Whether [engine] can read [code] aloud with what is installed; the system voices are not counted on. */
+    private suspend fun speaks(engine: SpeechEngine, code: String): Boolean {
+        val local = speech.find(engine) ?: return false
+        return runCatching { local.isReady() && local.voices(code).isNotEmpty() }.getOrDefault(false)
+    }
+
+    /** An installed voice, else a medium-quality one, else the first. */
+    private fun pickVoice(own: List<SpeechPackage>): SpeechPackage =
+        own.firstOrNull { it.installed } ?: own.firstOrNull { "medium" in it.title.lowercase() } ?: own.first()
+
+    /** The models for translating the language into the native one, with the translator's runtime when it has none yet. */
+    private suspend fun translation(code: String, native: String, name: String): SetupItem? {
+        val translator = translation.translator ?: return null
+        val nativeName = LanguageCodes.option(native)?.name ?: native
+        val pair = "${translator.displayName} · $name \u2192 $nativeName"
+        if (runCatching { translator.canTranslate(code, native) }.getOrDefault(false)) return installedTranslation(translator, code, native, name, pair)
+        val catalog = runCatching { translator.packages() }.getOrNull()
+        val runtime = translator.hasRuntimeSetup && catalog == null
+        if (catalog == null && !runtime) return null
+        // Before the runtime is there, the models the translator knows of tell whether the pair is possible.
+        val models = (catalog ?: translator.knownPackages())?.let {
+            packagesNeeded(translator, it, code, native) ?: return settled(SetupKind.TRANSLATION, name, pair, SetupStatus.UNAVAILABLE)
+        }
+        if (models != null && models.isEmpty() && !runtime) return settled(SetupKind.TRANSLATION, name, pair, SetupStatus.INSTALLED)
+        val inUse = settings.current.translationEngine == TranslationEngine.ARGOS
+        val files = listOfNotNull(
+            SetupFile(SetupFileKind.ENGINE, translator.displayName, runCatching { translator.runtimeDownloadSize() }.getOrNull(), estimated = true).takeIf { runtime },
+        ) + models.orEmpty().map { SetupFile(SetupFileKind.MODEL, it.title, it.sizeBytes.takeIf { size -> size > 0 }, it.estimated) }
+        val item = SetupItem(
+            "translation:$code-$native", SetupKind.TRANSLATION, name, pair,
+            files, recommended = inUse && !runtime, switchesEngine = !inUse,
+        )
+        return register(item) {
+            if (runtime) translator.setUp()
+            val needed = packagesNeeded(translator, translator.packages(), code, native)
+                ?: error("${translator.displayName} has no model for this language")
+            for (pkg in needed) translator.installPackage(pkg.fromCode, pkg.toCode)
+            if (!inUse) settings.update { it.copy(translationEngine = TranslationEngine.ARGOS) }
+        }
+    }
+
+    /** The pair's models on the device, removable when the translator lists them. */
+    private suspend fun installedTranslation(translator: LocalSentenceTranslator, code: String, native: String, name: String, pair: String): SetupItem {
+        val catalog = runCatching { translator.packages() }.getOrNull().orEmpty()
+        val keys = translator.requiredPackages(code, native, catalog)
+        val models = catalog.filter { it.key in keys && it.installed }
+        val item = SetupItem(
+            "translation:$code-$native", SetupKind.TRANSLATION, name, pair, emptyList(), recommended = false, status = SetupStatus.INSTALLED,
+            onDeviceBytes = models.sumOf { it.sizeBytes }.takeIf { it > 0 },
+        )
+        if (models.isEmpty()) return item
+        return registerRemoval(item) { models.forEach { translator.removePackage(it.fromCode, it.toCode) } }
+    }
+
+    /**
+     * A speech recognition model of each quality, the medium one ticked, as the high one is large and
+     * slower; the runtime both run on is a file of each, counted once. The first one downloaded hears,
+     * unless the quality chosen in Settings is downloaded already.
+     */
+    private suspend fun recognition(code: String, name: String): List<SetupItem> {
+        val setup = recognition ?: return emptyList()
+        if (!setup.supports(code)) return listOf(settled(SetupKind.RECOGNITION, name, "", SetupStatus.UNAVAILABLE))
+        val models = runCatching { setup.models() }.getOrNull() ?: return emptyList()
+        return models.map { model ->
+            val quality = model.quality.name
+            if (model.installed) {
+                val installed = SetupItem(
+                    "recognition:${quality.lowercase()}", SetupKind.RECOGNITION, name, quality, emptyList(), recommended = false, status = SetupStatus.INSTALLED,
+                    onDeviceBytes = model.downloadSize.takeIf { it > 0 },
+                )
+                return@map registerRemoval(installed) { setup.remove(model.quality) }
+            }
+            val files = listOfNotNull(
+                SetupFile(SetupFileKind.ENGINE, RECOGNIZER, model.runtimeSize, estimated = true).takeIf { model.runtimeSize > 0 },
+                SetupFile(SetupFileKind.MODEL, listOf(RECOGNIZER, model.name).filter { it.isNotEmpty() }.joinToString(" "), model.downloadSize - model.runtimeSize),
+            )
+            register(SetupItem("recognition:${quality.lowercase()}", SetupKind.RECOGNITION, name, quality, files, recommended = model.quality == RecognitionQuality.MEDIUM)) {
+                setup.install(model.quality)
+                val chosen = setup.models().any { it.installed && it.quality.name == settings.current.speechRecognitionQuality }
+                if (!chosen) settings.update { it.copy(speechRecognitionQuality = quality) }
+            }
+        }
+    }
+
+    /** The models the pair still needs; null when the catalog cannot translate it at all. */
+    private fun packagesNeeded(translator: LocalSentenceTranslator, catalog: List<LocalPackage>, code: String, native: String): List<LocalPackage>? {
+        val keys = translator.requiredPackages(code, native, catalog)
+        val packages = catalog.filter { it.key in keys }
+        if (packages.size < keys.size) return null
+        return packages.filterNot { it.installed }
+    }
+
+    private companion object {
+        /** The speech recogniser the models are of, as the downloads name it. */
+        const val RECOGNIZER = "Whisper"
+    }
+}

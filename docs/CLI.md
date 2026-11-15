@@ -1,46 +1,46 @@
-# The `tayra` command
+# The `idiomiko` command
 
-The desktop app comes with a command-line tool, `tayra`, that works on the same library as the
+The desktop app comes with a command-line tool, `idiomiko`, that works on the same library as the
 app: the books, courses, words and their statuses, backups and settings. It is meant for people
 who like a terminal and for AI agents, which can read and change the library through it.
 
 ## Installing
 
-`tayra` is inside the installed app. In the app, open **Settings** and press **Install
+`idiomiko` is inside the installed app. In the app, open **Settings** and press **Install
 command-line tool** under *Command-line tool*; then open a new terminal window.
 
 - **macOS and Linux:** a small script goes into `~/.local/bin`, and when the shell does not
   search that folder yet, one line in its profile (`~/.zshrc`, `~/.bash_profile` or
   `~/.bashrc`, or a file in `~/.config/fish/conf.d`) adds it to the `PATH`.
-- **Windows:** the app's folder, which holds `tayra.exe`, is added to the user's `PATH`.
+- **Windows:** the app's folder, which holds `idiomiko.exe`, is added to the user's `PATH`.
 
 **Remove** in the same place takes it off again. Without the button, the launcher can be run by
 its full path:
 
-| System | Where `tayra` is |
+| System | Where `idiomiko` is |
 | --- | --- |
-| macOS | `/Applications/TayraLanguages.app/Contents/MacOS/tayra` |
-| Windows | `%LOCALAPPDATA%\TayraLanguages\tayra.exe` |
-| Linux (DEB/RPM) | `/opt/tayra-languages/bin/tayra` |
-| Linux (tarball) | `tayra-languages/bin/tayra` where it was unpacked |
+| macOS | `/Applications/Idiomiko.app/Contents/MacOS/idiomiko` |
+| Windows | `%LOCALAPPDATA%\Idiomiko\idiomiko.exe` |
+| Linux (DEB/RPM) | `/opt/idiomiko/bin/idiomiko` |
+| Linux (tarball) | `idiomiko/bin/idiomiko` where it was unpacked |
 
 From the sources: `./gradlew :cli:run --args="books list"`, or `./gradlew :cli:installDist` and
-then `cli/build/install/tayra/bin/tayra`.
+then `cli/build/install/idiomiko/bin/idiomiko`.
 
 ## Using it
 
 ```bash
-tayra init                                   # on a new computer: languages, tutorials, courses
-tayra languages use pt                       # the language to work in (also changes the app's)
-tayra books list
-cat story.txt | tayra books add --title "Uma história" --tags a1 --file -
-tayra read page 42                           # how much of the page is new, and which words
-tayra terms set-status known eu você
-tayra terms add casa --translation house --status 2
-tayra courses create --title "No mercado" --level A2
-tayra lessons add <course-id> --title "As frutas" --file frutas.txt
-tayra backups create
-tayra --help                                 # every command; `tayra <command> --help` for one
+idiomiko init                                   # on a new computer: languages, tutorials, courses
+idiomiko languages use pt                       # the language to work in (also changes the app's)
+idiomiko books list
+cat story.txt | idiomiko books add --title "Uma história" --tags a1 --file -
+idiomiko read page 42                           # how much of the page is new, and which words
+idiomiko terms set-status known eu você
+idiomiko terms add casa --translation house --status 2
+idiomiko courses create --title "No mercado" --level A2
+idiomiko lessons add <course-id> --title "As frutas" --file frutas.txt
+idiomiko backups create
+idiomiko --help                                 # every command; `idiomiko <command> --help` for one
 ```
 
 `-l/--language` picks another language for one command, by name or ISO code; without it the
@@ -73,7 +73,7 @@ Statuses are written `0`/`unknown`, `1` to `4` (learning), `5`/`known` and `i`/`
 
 - `--json` makes every command print JSON on stdout. Field names stay as they are; new fields
   may be added.
-- `tayra --json commands` describes every command, argument and option, for an agent to read
+- `idiomiko --json commands` describes every command, argument and option, for an agent to read
   before it starts.
 - Messages and errors go to stderr. Exit codes: `0` done, `1` bad arguments or an unexpected
   error, `2` not found, `3` input refused (such as an empty title, or a missing `--yes`), `4`
@@ -82,7 +82,7 @@ Statuses are written `0`/`unknown`, `1` to `4` (learning), `5`/`known` and `i`/`
   says what it would do and exits with `3`.
 - Text comes from `--text`, or `--file`, where `-` reads stdin.
 - Commands that create something print its id.
-- `--data-dir <folder>`, or the `TAYRA_DATA_DIR` variable, points the command at another data
+- `--data-dir <folder>`, or the `IDIOMIKO_DATA_DIR` variable, points the command at another data
   folder with its own settings, such as a copy of the library to try things on.
 
 ## With the app open

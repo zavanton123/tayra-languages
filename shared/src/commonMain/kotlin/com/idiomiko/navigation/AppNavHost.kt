@@ -1,0 +1,207 @@
+package com.idiomiko.navigation
+
+import com.idiomiko.core.ui.navigation.LocalFlashcardsDialog
+import com.idiomiko.feature.flashcards.FlashcardsDialog
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.idiomiko.core.domain.media.VideoOpenRequests
+import com.idiomiko.core.domain.service.TranslationLanguageKeeper
+import com.idiomiko.core.ui.components.ToastHost
+import com.idiomiko.core.ui.components.rememberToastState
+import com.idiomiko.core.ui.i18n.tr
+import com.idiomiko.core.ui.i18n.trPlural
+import org.koin.compose.koinInject
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.consumeWindowInsets
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.navigation.NavDestination
+import androidx.navigation.NavDestination.Companion.hasRoute
+import androidx.navigation.NavGraph.Companion.findStartDestination
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.currentBackStackEntryAsState
+import androidx.navigation.compose.rememberNavController
+import com.idiomiko.core.ui.components.ChooseLanguageScreen
+import com.idiomiko.core.ui.components.LocalWindowWidth
+import com.idiomiko.core.ui.components.MoreSheet
+import com.idiomiko.core.ui.components.NavSection
+import com.idiomiko.core.ui.components.PhoneNavBar
+import com.idiomiko.core.ui.navigation.Route
+import com.idiomiko.core.ui.theme.AppMotion
+import com.idiomiko.feature.books.booksGraph
+import com.idiomiko.feature.courses.coursesGraph
+import com.idiomiko.feature.flashcards.flashcardsGraph
+import com.idiomiko.feature.frequency.frequencyGraph
+import com.idiomiko.feature.home.homeGraph
+import com.idiomiko.feature.languages.languagesGraph
+import com.idiomiko.feature.news.newsGraph
+import com.idiomiko.feature.videos.videosGraph
+import com.idiomiko.feature.playlists.PlaybackNotificationsPermission
+import com.idiomiko.feature.playlists.PlaybackProblemDialog
+import com.idiomiko.feature.playlists.PlayerBar
+import com.idiomiko.feature.playlists.playlistsGraph
+import com.idiomiko.feature.settings.LanguageSetupDialog
+import com.idiomiko.feature.settings.SyncPrompt
+import com.idiomiko.feature.settings.SyncPromptViewModel
+import com.idiomiko.core.ui.components.LocalSyncEntry
+import com.idiomiko.core.ui.components.PullToSync
+import com.idiomiko.core.ui.components.SyncEntry
+import androidx.compose.foundation.layout.fillMaxSize
+import org.koin.compose.viewmodel.koinViewModel
+import com.idiomiko.feature.reading.readingGraph
+import com.idiomiko.feature.settings.settingsGraph
+import com.idiomiko.feature.stats.statsGraph
+import com.idiomiko.feature.terms.termsGraph
+import com.idiomiko.feature.reading.practice.PracticeDialog
+import com.idiomiko.core.ui.navigation.LocalPracticeDialog
+
+@Composable
+fun AppNavHost(openCourses: Int = 0) {
+    val navController = rememberNavController()
+    // A newly chosen language starts on its courses, with only its home page to go back to.
+    LaunchedEffect(openCourses) {
+        if (openCourses > 0) {
+            navController.navigate(Route.Home) {
+                popUpTo(navController.graph.id) { inclusive = true }
+                launchSingleTop = true
+            }
+            navController.navigate(Route.Courses)
+        }
+    }
+    // A video asked for from outside the app's screens, such as the browser extension's "Open in Idiomiko".
+    val videoOpens = koinInject<VideoOpenRequests>()
+    LaunchedEffect(videoOpens) { videoOpens.videos.collect { navController.navigate(Route.Watch(it)) } }
+    // Phones get the main areas as a bottom bar, except while reading; wider screens have them in the top bar.
+    val entry by navController.currentBackStackEntryAsState()
+    val destination = entry?.destination
+    val phoneBar = LocalWindowWidth.current.isCompact && destination != null && !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>() && !destination.hasRoute<Route.PracticeWords>() &&
+        !destination.hasRoute<Route.ChooseLanguage>()
+    var more by remember { mutableStateOf(false) }
+    // Pages that start a practice show it in this dialog on windows wider than a phone.
+    val practiceDialog = remember<@Composable (Route, () -> Unit) -> Unit>(navController) {
+        { route, onClose -> PracticeDialog(route, onNavigate = { navController.navigate(it) }, onClose = onClose) }
+    }
+    val flashcardsDialog = remember<@Composable (() -> Unit) -> Unit>(navController) {
+        { onClose -> FlashcardsDialog(onNavigate = { navController.navigate(it) }, onClose = onClose) }
+    }
+    // The language whose downloads the playlist player sent for, to get a voice for it.
+    var voiceFor by remember { mutableStateOf<Long?>(null) }
+    // Syncing is asked from the wide bar's button or by pulling a phone page down; neither shows without an account service.
+    val syncPrompt = koinViewModel<SyncPromptViewModel>()
+    val sync by syncPrompt.state.collectAsStateWithLifecycle()
+    val syncEntry = remember(sync.available, sync.running) { if (sync.available) SyncEntry(sync.running, syncPrompt::open) else null }
+    val pullToSync = syncEntry != null && LocalWindowWidth.current.isCompact && destination?.let(::pullsToSync) == true
+    CompositionLocalProvider(LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog, LocalSyncEntry provides syncEntry) {
+    Scaffold(
+        bottomBar = {
+            // The playlist player's bar stays while anything is loaded, over the phone's tabs.
+            Column {
+                PlayerBar(onNavigate = { navController.navigate(it) { launchSingleTop = true } }, onPlayerScreen = destination?.hasRoute<Route.Player>() == true)
+                if (phoneBar) {
+                    PhoneNavBar(
+                        section = destination?.let(::sectionOf),
+                        // A tab always lands on its own page, with only the start page (Home) left beneath it.
+                        onNavigate = { route ->
+                            navController.navigate(route) {
+                                popUpTo(navController.graph.findStartDestination().id)
+                                launchSingleTop = true
+                            }
+                        },
+                        onMore = { more = true },
+                    )
+                }
+            }
+        },
+        containerColor = MaterialTheme.colorScheme.background,
+        // The screens handle the window insets themselves; only the bar's height is taken from them, and consumed so they do not pad for it twice.
+        contentWindowInsets = WindowInsets(0, 0, 0, 0),
+    ) { padding ->
+        // Screens change with a quick crossfade, and at once when motion is reduced.
+        val enter = if (AppMotion.reduced) EnterTransition.None else fadeIn(AppMotion.spec(AppMotion.medium, AppMotion.enter))
+        val exit = if (AppMotion.reduced) ExitTransition.None else fadeOut(AppMotion.spec(AppMotion.short, AppMotion.exit))
+        PullToSync(pullToSync, onPull = syncPrompt::open, modifier = Modifier.padding(padding).consumeWindowInsets(padding)) {
+        NavHost(
+            navController = navController,
+            startDestination = Route.Home,
+            modifier = Modifier.fillMaxSize(),
+            enterTransition = { enter },
+            exitTransition = { exit },
+            popEnterTransition = { enter },
+            popExitTransition = { exit },
+        ) {
+            homeGraph(navController)
+            newsGraph(navController)
+            videosGraph(navController)
+            playlistsGraph(navController)
+            booksGraph(navController)
+            coursesGraph(navController)
+            languagesGraph(navController)
+            termsGraph(navController)
+            flashcardsGraph(navController)
+            frequencyGraph(navController)
+            readingGraph(navController)
+            settingsGraph(navController)
+            statsGraph(navController)
+            composable<Route.ChooseLanguage> { ChooseLanguageScreen(onBack = { navController.popBackStack() }) }
+        }
+        }
+    }
+    }
+    PlaybackProblemDialog(onDownloadVoice = { voiceFor = it })
+    PlaybackNotificationsPermission()
+    LanguageSetupDialog(voiceFor, onClosed = { voiceFor = null })
+    if (more) MoreSheet(onNavigate = { more = false; navController.navigate(it) }, onDismiss = { more = false })
+    SyncPrompt(syncPrompt, onOpenAccount = { navController.navigate(Route.Account) { launchSingleTop = true } })
+    TranslationBackupNotice(onBackups = { navController.navigate(Route.Backups) { launchSingleTop = true } })
+}
+
+/** Says that the data was backed up before saved translations were replaced in the new translation language, with the way to the backups. */
+@Composable
+private fun TranslationBackupNotice(onBackups: () -> Unit) {
+    val keeper = koinInject<TranslationLanguageKeeper>()
+    val replaced by keeper.backedUp.collectAsStateWithLifecycle()
+    val toast = rememberToastState()
+    LaunchedEffect(replaced) {
+        val count = replaced ?: return@LaunchedEffect
+        toast.show(trPlural(count, "Backed up before replacing {0} translation", "Backed up before replacing {0} translations"), tr("Backups"), onBackups)
+        keeper.noticed()
+    }
+    ToastHost(toast)
+}
+
+/** Whether pulling the page down asks to sync: not where the page has a vertical drag of its own, as the reader, a review, a practice or a player. */
+private fun pullsToSync(destination: NavDestination): Boolean =
+    !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>() && !destination.hasRoute<Route.PracticeWords>() &&
+        !destination.hasRoute<Route.Flashcards>() && !destination.hasRoute<Route.Watch>() && !destination.hasRoute<Route.Player>() &&
+        !destination.hasRoute<Route.ChooseLanguage>()
+
+/** The area of the bottom bar a destination belongs to; pages beyond the tabs count as More. */
+private fun sectionOf(destination: NavDestination): NavSection = when {
+    destination.hasRoute<Route.Home>() -> NavSection.HOME
+    destination.hasRoute<Route.Courses>() || destination.hasRoute<Route.Course>() || destination.hasRoute<Route.NewCourse>() ||
+        destination.hasRoute<Route.EditCourse>() || destination.hasRoute<Route.NewLesson>() || destination.hasRoute<Route.EditLesson>() -> NavSection.COURSES
+    destination.hasRoute<Route.Books>() || destination.hasRoute<Route.NewBook>() || destination.hasRoute<Route.FindBooks>() || destination.hasRoute<Route.EditBook>() ||
+        destination.hasRoute<Route.Bookmarks>() || destination.hasRoute<Route.EditPage>() -> NavSection.BOOKS
+    destination.hasRoute<Route.Videos>() || destination.hasRoute<Route.NewVideo>() || destination.hasRoute<Route.Watch>() -> NavSection.VIDEOS
+    destination.hasRoute<Route.News>() -> NavSection.NEWS
+    destination.hasRoute<Route.Playlists>() || destination.hasRoute<Route.Playlist>() ||
+        destination.hasRoute<Route.EditPlaylist>() || destination.hasRoute<Route.AddToPlaylist>() || destination.hasRoute<Route.Player>() -> NavSection.PLAYLISTS
+    destination.hasRoute<Route.Flashcards>() || destination.hasRoute<Route.BrowseFlashcards>() || destination.hasRoute<Route.FlashcardStats>() -> NavSection.FLASHCARDS
+    destination.hasRoute<Route.Terms>() || destination.hasRoute<Route.EditTerm>() || destination.hasRoute<Route.EditTermByText>() ||
+        destination.hasRoute<Route.NewTerm>() || destination.hasRoute<Route.Examples>() -> NavSection.TERMS
+    else -> NavSection.SETTINGS
+}

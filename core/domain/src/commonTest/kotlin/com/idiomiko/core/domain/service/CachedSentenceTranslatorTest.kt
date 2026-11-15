@@ -1,0 +1,101 @@
+package com.idiomiko.core.domain.service
+
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.repository.SentenceTranslationCache
+import kotlinx.coroutines.test.runTest
+import kotlin.test.Test
+import kotlin.time.Clock
+import kotlin.test.assertEquals
+import kotlin.test.assertNull
+
+class CachedSentenceTranslatorTest {
+    private val language = Language(id = 1, name = "Portuguese")
+
+    private class FakeStore : SentenceTranslationCache {
+        val rows = HashMap<Pair<String, String>, Pair<String, Long>>()
+        override suspend fun get(sentence: String, targetLanguage: String, notBefore: Long): String? =
+            rows[sentence to targetLanguage]?.takeIf { it.second >= notBefore }?.first
+        override suspend fun put(sentence: String, targetLanguage: String, translation: String, createdAt: Long) {
+            rows[sentence to targetLanguage] = translation to createdAt
+        }
+        override suspend fun prune(cutoff: Long) { rows.entries.removeAll { it.value.second < cutoff } }
+    }
+
+    private class CountingTranslator(private val answer: String?) : SentenceTranslator {
+        var calls = 0
+        override suspend fun translate(text: String, language: Language): String? { calls++; return answer }
+    }
+
+    @Test
+    fun answersFromMemoryAndFromTheStore() = runTest {
+        val store = FakeStore()
+        val inner = CountingTranslator("They say")
+        val first = CachedSentenceTranslator(inner, store, targetLanguage = { "en" }, minIntervalMs = 0)
+        assertEquals("They say", first.translate("Dizem", language))
+        assertEquals("They say", first.translate("Dizem", language))
+        assertEquals(1, inner.calls, "second call served from memory")
+
+        val second = CachedSentenceTranslator(inner, store, targetLanguage = { "en" }, minIntervalMs = 0)
+        assertEquals("They say", second.translate("Dizem", language))
+        assertEquals(1, inner.calls, "a new instance reads the stored translation")
+
+        assertEquals("They say", second.translate("Dizem", Language(id = 2, name = "Spanish")))
+        assertEquals(1, inner.calls, "the key is the sentence and target language only")
+    }
+
+    @Test
+    fun aGarbledStoredTranslationIsAskedForAgain() = runTest {
+        val store = FakeStore()
+        store.rows["Ben has a dog, Max." to "ru"] = "\uFFFD \uFFFD\uFFFD\uFFFD\uFFFD." to Clock.System.now().toEpochMilliseconds()
+        val inner = CountingTranslator("У Бена есть собака, Макс.")
+        val translator = CachedSentenceTranslator(inner, store, targetLanguage = { "ru" }, minIntervalMs = 0)
+        assertEquals("У Бена есть собака, Макс.", translator.translate("Ben has a dog, Max.", language))
+        assertEquals(1, inner.calls)
+        assertEquals("У Бена есть собака, Макс.", store.rows["Ben has a dog, Max." to "ru"]?.first, "the good one replaces it")
+    }
+
+    @Test
+    fun targetLanguageIsPartOfTheKey() = runTest {
+        val store = FakeStore()
+        val inner = CountingTranslator("x")
+        var target = "en"
+        val translator = CachedSentenceTranslator(inner, store, targetLanguage = { target }, minIntervalMs = 0)
+        translator.translate("Dizem", language)
+        target = "ru"
+        translator.translate("Dizem", language)
+        assertEquals(2, inner.calls)
+    }
+
+    @Test
+    fun storedTranslationsAreKeptForAWeek() = runTest {
+        val store = FakeStore()
+        val day = 24L * 60 * 60 * 1000
+        store.put("Dizem", "en", "six days old", createdAt = Clock.System.now().toEpochMilliseconds() - 6 * day)
+        store.put("Falam", "en", "eight days old", createdAt = Clock.System.now().toEpochMilliseconds() - 8 * day)
+        val inner = CountingTranslator("fresh")
+        val translator = CachedSentenceTranslator(inner, store, targetLanguage = { "en" }, minIntervalMs = 0)
+        assertEquals("six days old", translator.translate("Dizem", language))
+        assertEquals(0, inner.calls, "a translation from this week is not asked for again")
+        assertEquals("fresh", translator.translate("Falam", language), "one from before the week is")
+    }
+
+    @Test
+    fun storedTranslationsExpireAfterAWeek() = runTest {
+        val store = FakeStore()
+        store.put("Dizem", "en", "old", createdAt = 0L)
+        val inner = CountingTranslator("fresh")
+        val translator = CachedSentenceTranslator(inner, store, targetLanguage = { "en" }, minIntervalMs = 0)
+        assertEquals("fresh", translator.translate("Dizem", language), "an entry from long ago is ignored")
+        assertEquals(1, inner.calls)
+        assertNull(store.rows["Dizem" to "en"]?.takeIf { it.second == 0L }, "the stale row was replaced")
+    }
+
+    @Test
+    fun failuresAreNotStored() = runTest {
+        val store = FakeStore()
+        val inner = CountingTranslator(null)
+        val translator = CachedSentenceTranslator(inner, store, targetLanguage = { "en" }, minIntervalMs = 0)
+        assertNull(translator.translate("Dizem", language))
+        assertEquals(0, store.rows.size)
+    }
+}

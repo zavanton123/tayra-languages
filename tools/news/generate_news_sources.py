@@ -9,7 +9,7 @@ import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SOURCE = os.path.join(ROOT, "tools", "news", "feeds.json")
-TARGET = os.path.join(ROOT, "core", "domain", "src", "commonMain", "kotlin", "com", "tayra", "languages", "core", "domain", "news", "NewsSources.kt")
+TARGET = os.path.join(ROOT, "core", "domain", "src", "commonMain", "kotlin", "com", "idiomiko", "core", "domain", "news", "NewsSources.kt")
 
 
 def kotlin_string(text: str) -> str:
@@ -31,7 +31,7 @@ def main() -> None:
             )
     body = "\n".join(lines)
     with open(TARGET, "w", encoding="utf-8") as f:
-        f.write(f"""package com.tayra.languages.core.domain.news
+        f.write(f"""package com.idiomiko.core.domain.news
 
 // Written by tools/news/generate_news_sources.py from tools/news/feeds.json; edit those instead.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Speech worker for Tayra Languages: Piper and Kokoro, and faster-whisper to hear speech, behind one JSON-line protocol.
+"""Speech worker for Idiomiko: Piper and Kokoro, and faster-whisper to hear speech, behind one JSON-line protocol.
 
 One request per line on stdin, one reply per line on stdout:
   {"id": 1, "cmd": "status", "engine": "piper"}  -> {"id": 1, "version": "1.8.0", "python": "3.12.14"}

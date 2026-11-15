@@ -1,0 +1,64 @@
+package com.idiomiko.core.data
+
+import com.russhwolf.settings.MapSettings
+import com.idiomiko.core.data.settings.SettingsRepositoryImpl
+import com.idiomiko.core.domain.service.ExampleRecordings
+import com.idiomiko.core.domain.service.LocalSpeech
+import com.idiomiko.core.domain.service.MemorySpeechAudioCache
+import com.idiomiko.core.domain.service.RecordingFetcher
+import com.idiomiko.core.domain.service.RecordingState
+import com.idiomiko.core.domain.service.SentenceAudio
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.test.runTest
+import kotlin.test.Test
+import kotlin.test.assertContentEquals
+import kotlin.test.assertEquals
+import kotlin.test.assertTrue
+
+class ExampleRecordingsTest {
+
+    private val fetched = mutableListOf<String>()
+    private val fetcher = RecordingFetcher { url ->
+        delay(100)
+        fetched += url
+        if (url.endsWith("refused")) null else url.encodeToByteArray()
+    }
+    private val cache = MemorySpeechAudioCache()
+    private val recordings = ExampleRecordings(fetcher, cache)
+
+    @Test
+    fun recordingsAreDownloadedOnceAheadOfTime() = runTest {
+        recordings.prefetch(listOf("https://x/1", "https://x/refused", "https://x/1"))
+
+        assertEquals(mapOf("https://x/1" to RecordingState.READY, "https://x/refused" to RecordingState.FAILED), recordings.states.value)
+        assertContentEquals("https://x/1".encodeToByteArray(), recordings.audioFor("https://x/1"))
+        assertEquals(listOf("https://x/1", "https://x/refused"), fetched, "each once, and a ready one is not fetched again")
+
+        recordings.prefetch(listOf("https://x/refused"))
+        assertEquals(2, fetched.size, "a refused recording is not asked for again")
+    }
+
+    @Test
+    fun aClickDuringTheDownloadWaitsForIt() = runTest {
+        val both = listOf(async { recordings.audioFor("https://x/2") }, async { recordings.audioFor("https://x/2") }).awaitAll()
+        assertTrue(both.all { it != null })
+        assertEquals(listOf("https://x/2"), fetched)
+    }
+
+    @Test
+    fun theWeeklyEmptyingForgetsTheRecordings() = runTest {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        var clock = 1_000_000_000_000L
+        val audio = SentenceAudio(LocalSpeech(emptyList()), settings, cache, recordings, now = { clock })
+        audio.prepare(emptyList(), "pt")
+        recordings.prefetch(listOf("https://x/3"))
+        clock += 7 * 24 * 60 * 60 * 1000L
+        audio.prepare(emptyList(), "pt")
+
+        assertTrue(recordings.states.value.isEmpty())
+        recordings.audioFor("https://x/3")
+        assertEquals(listOf("https://x/3", "https://x/3"), fetched, "downloaded again after the cache was emptied")
+    }
+}

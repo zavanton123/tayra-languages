@@ -1,5 +1,5 @@
 plugins {
-    id("tayra.kmp.library")
+    id("idiomiko.kmp.library")
     alias(libs.plugins.kotlin.serialization)
 }
 

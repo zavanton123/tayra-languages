@@ -21,11 +21,11 @@ val releaseVersion = providers.gradleProperty("releaseVersion").orElse("0.1.0")
 val releaseVersionCode = providers.gradleProperty("versionCode").map { it.toInt() }.orElse(1)
 
 android {
-    namespace = "com.tayra.languages.android"
+    namespace = "com.idiomiko.android"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.tayra.languages"
+        applicationId = "com.idiomiko"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = releaseVersionCode.get()

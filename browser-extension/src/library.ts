@@ -1,4 +1,4 @@
-/** How long a video plays before it goes into Tayra's Videos: long enough to be watched, not just looked at. */
+/** How long a video plays before it goes into Idiomiko's Videos: long enough to be watched, not just looked at. */
 export const WATCHED_TO_ADD_MS = 30_000;
 
 /** Pauses longer than this between two looks are not counted: the tab was hidden or the computer slept. */

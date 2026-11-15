@@ -1,0 +1,439 @@
+package com.idiomiko.core.data.repository
+
+import app.cash.sqldelight.async.coroutines.awaitAsList
+import app.cash.sqldelight.async.coroutines.awaitAsOne
+import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
+import app.cash.sqldelight.coroutines.asFlow
+import app.cash.sqldelight.coroutines.mapToList
+import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.db.IdiomikoDatabase
+import com.idiomiko.core.data.db.Terms
+import com.idiomiko.core.data.db.databaseDispatcher
+import com.idiomiko.core.domain.model.SentenceToTranslate
+import com.idiomiko.core.domain.model.Term
+import com.idiomiko.core.domain.model.TermMatch
+import com.idiomiko.core.domain.model.TermRef
+import com.idiomiko.core.domain.model.TermReference
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.model.ZWS_STRING
+import com.idiomiko.core.domain.repository.MultiwordTerm
+import com.idiomiko.core.domain.repository.SavedTranslation
+import com.idiomiko.core.domain.repository.TermListFilter
+import com.idiomiko.core.domain.repository.TermListPage
+import com.idiomiko.core.domain.repository.TermListSort
+import com.idiomiko.core.domain.repository.TermRepository
+import com.idiomiko.core.domain.repository.TermSortField
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.withContext
+import kotlin.time.Instant
+import kotlin.time.Clock
+
+/**
+ * [translationLanguage] is the language new translations are written in (the native language);
+ * it is recorded with every translation that is saved or changed.
+ */
+class TermRepositoryImpl(
+    private val provider: DatabaseProvider,
+    private val clock: Clock = Clock.System,
+    private val translationLanguage: () -> String? = { null },
+) : TermRepository {
+
+    private suspend fun db(): IdiomikoDatabase = provider.database()
+
+    override suspend fun getById(id: Long): Term? = withContext(databaseDispatcher) {
+        val database = db()
+        database.termsQueries.selectById(id).awaitAsOneOrNull()?.let { hydrate(database, listOf(it)).single() }
+    }
+
+    override suspend fun getByIds(ids: Collection<Long>): List<Term> = withContext(databaseDispatcher) {
+        if (ids.isEmpty()) return@withContext emptyList()
+        val database = db()
+        hydrate(database, database.termsQueries.selectByIds(ids.toList()).awaitAsList())
+    }
+
+    override suspend fun findByTextLc(languageId: Long, textLc: String): Term? = withContext(databaseDispatcher) {
+        val database = db()
+        database.termsQueries.selectByTextLc(languageId, textLc).awaitAsOneOrNull()?.let { hydrate(database, listOf(it)).single() }
+    }
+
+    override suspend fun findByTextLcs(languageId: Long, textLcs: Collection<String>): List<Term> = withContext(databaseDispatcher) {
+        if (textLcs.isEmpty()) return@withContext emptyList()
+        val database = db()
+        val rows = textLcs.chunked(CHUNK).flatMap { chunk -> database.termsQueries.selectByTextLcs(languageId, chunk).awaitAsList() }
+        hydrate(database, rows)
+    }
+
+    override suspend fun multiwordTerms(languageId: Long): List<MultiwordTerm> = withContext(databaseDispatcher) {
+        db().termsQueries.selectMultiword(languageId).awaitAsList().map { MultiwordTerm(it.id, it.text_lc, it.token_count.toInt()) }
+    }
+
+    override fun observeWordStatuses(languageId: Long): Flow<Map<String, TermStatus>> = flow {
+        db().termsQueries.selectWordStatuses(languageId).asFlow().mapToList(databaseDispatcher).collect { rows ->
+            emit(rows.associate { it.text_lc to (TermStatus.fromValueOrNull(it.status.toInt()) ?: TermStatus.UNKNOWN) })
+        }
+    }
+
+    override suspend fun save(term: Term): Long = withContext(databaseDispatcher) {
+        val database = db()
+        database.transactionWithResult { saveInTransaction(database, term, replaceStored = true) }
+    }
+
+    /**
+     * Stores [term]. A new term whose text another writer stored in the meantime takes that row:
+     * [replaceStored] overwrites it with this one, otherwise the stored row stays as it is.
+     */
+    private suspend fun saveInTransaction(database: IdiomikoDatabase, term: Term, replaceStored: Boolean): Long {
+        val q = database.termsQueries
+        val now = clock.now().toEpochMilliseconds()
+        if (term.id == 0L) {
+            val stored = q.selectByTextLc(term.languageId, term.textLc).awaitAsOneOrNull()
+            if (stored != null) return if (replaceStored) saveInTransaction(database, term.copy(id = stored.id), replaceStored) else stored.id
+        }
+        val id = if (term.id == 0L) {
+            q.insert(
+                languageId = term.languageId,
+                text = term.text,
+                textLc = term.textLc,
+                status = term.status.value.toLong(),
+                translation = term.translation,
+                romanization = term.romanization,
+                tokenCount = term.tokenCount.toLong(),
+                syncStatus = term.syncStatus,
+                flashMessage = term.flashMessage,
+                createdAt = now,
+                statusChangedAt = now,
+                translationLanguage = languageFor(term.translation),
+                sentence = term.sentence,
+            )
+            q.lastInsertId().awaitAsOne()
+        } else {
+            val previous = q.selectById(term.id).awaitAsOneOrNull()
+            // Before the update, which would leave the status already equal to the new one.
+            if (previous != null && previous.status != term.status.value.toLong()) {
+                q.updateStatus(status = term.status.value.toLong(), changedAt = now, ids = listOf(term.id))
+            }
+            q.update(
+                id = term.id,
+                text = term.text,
+                textLc = term.textLc,
+                status = term.status.value.toLong(),
+                translation = term.translation,
+                romanization = term.romanization,
+                tokenCount = term.tokenCount.toLong(),
+                syncStatus = term.syncStatus,
+                flashMessage = term.flashMessage,
+                // Saving other fields keeps the language the unchanged translation was written in.
+                translationLanguage = if (previous != null && previous.translation == term.translation) previous.translation_language else languageFor(term.translation),
+                sentence = term.sentence,
+            )
+            term.id
+        }
+        return id
+    }
+
+    private fun languageFor(translation: String?): String? =
+        if (translation.isNullOrBlank()) null else translationLanguage()?.trim()?.lowercase()?.ifEmpty { null }
+
+    override suspend fun translationsNotIn(language: String): List<SavedTranslation> = withContext(databaseDispatcher) {
+        db().termsQueries.selectTranslationsNotIn(language).awaitAsList().map {
+            SavedTranslation(it.id, it.language_id, it.text, it.translation.orEmpty(), it.translation_language)
+        }
+    }
+
+    override suspend fun fillTranslation(termId: Long, translation: String): Boolean = withContext(databaseDispatcher) {
+        val database = db()
+        database.transactionWithResult {
+            database.termsQueries.fillTranslation(translation = translation, language = languageFor(translation), id = termId)
+            database.termsQueries.changes().awaitAsOne() > 0
+        }
+    }
+
+    override suspend fun learningWithoutTranslation(): List<Long> = withContext(databaseDispatcher) {
+        db().termsQueries.selectLearningWithoutTranslation().awaitAsList()
+    }
+
+    override suspend fun fillSentence(termId: Long, sentence: String, translation: String?, form: String?): Boolean = withContext(databaseDispatcher) {
+        val database = db()
+        database.transactionWithResult {
+            database.termsQueries.fillSentence(sentence = sentence, translation = translation, form = form, id = termId)
+            database.termsQueries.changes().awaitAsOne() > 0
+        }
+    }
+
+    override suspend fun needingSentence(): List<Long> = withContext(databaseDispatcher) {
+        db().termsQueries.selectNeedingSentence().awaitAsList()
+    }
+
+    override suspend fun replaceTranslation(termId: Long, expected: String, translation: String, language: String): Boolean =
+        withContext(databaseDispatcher) {
+            val database = db()
+            database.transactionWithResult {
+                database.termsQueries.replaceTranslation(translation = translation, language = language, id = termId, expected = expected)
+                database.termsQueries.changes().awaitAsOne() > 0
+            }
+        }
+
+    override suspend fun markTranslationLanguage(termIds: Collection<Long>, language: String) = withContext(databaseDispatcher) {
+        if (termIds.isEmpty()) return@withContext
+        val database = db()
+        database.transaction {
+            termIds.chunked(CHUNK).forEach { database.termsQueries.markTranslationLanguage(language = language, ids = it) }
+        }
+    }
+
+    override suspend fun insertAll(terms: List<Term>): List<Long> = withContext(databaseDispatcher) {
+        if (terms.isEmpty()) return@withContext emptyList()
+        val database = db()
+        database.transactionWithResult { terms.map { saveInTransaction(database, it, replaceStored = false) } }
+    }
+
+    override suspend fun setParents(termId: Long, parentIds: List<Long>) = withContext(databaseDispatcher) {
+        val database = db()
+        database.transaction {
+            database.termsQueries.deleteParents(termId)
+            for (parentId in parentIds.distinct()) {
+                if (parentId != termId) database.termsQueries.insertParent(termId, parentId)
+            }
+            database.termsQueries.clearSyncStatusForOrphans()
+        }
+    }
+
+    override suspend fun updateStatus(termIds: Collection<Long>, status: TermStatus) = withContext(databaseDispatcher) {
+        if (termIds.isEmpty()) return@withContext
+        val database = db()
+        val now = clock.now().toEpochMilliseconds()
+        database.transaction {
+            termIds.chunked(CHUNK).forEach { chunk ->
+                database.termsQueries.updateStatus(status = status.value.toLong(), changedAt = now, ids = chunk)
+            }
+        }
+    }
+
+    override suspend fun markAnkiExported(termIds: Collection<Long>, at: Instant) {
+        if (termIds.isEmpty()) return
+        withContext(databaseDispatcher) {
+            val database = db()
+            database.transaction { termIds.chunked(CHUNK).forEach { database.termsQueries.markAnkiExported(at = at.toEpochMillis(), ids = it) } }
+        }
+    }
+
+    override suspend fun updateCardForm(termId: Long, form: String?) {
+        withContext(databaseDispatcher) { db().termsQueries.updateCardForm(cardForm = form, id = termId) }
+    }
+
+    override suspend fun updateSentenceTranslation(termId: Long, translation: String?) {
+        withContext(databaseDispatcher) { db().termsQueries.updateSentenceTranslation(translation = translation, id = termId) }
+    }
+
+    override suspend fun fillSentenceTranslation(termId: Long, sentence: String, translation: String) {
+        withContext(databaseDispatcher) { db().termsQueries.fillSentenceTranslation(translation = translation, id = termId, sentence = sentence) }
+    }
+
+    override suspend fun missingSentenceTranslations(): List<SentenceToTranslate> = withContext(databaseDispatcher) {
+        db().termsQueries.missingSentenceTranslations().awaitAsList().mapNotNull { row -> row.sentence?.let { SentenceToTranslate(row.id, row.language_id, it) } }
+    }
+
+    override suspend fun updateSentence(termId: Long, sentence: String?) {
+        withContext(databaseDispatcher) { db().termsQueries.updateSentence(sentence = sentence, id = termId) }
+    }
+
+    override suspend fun updateSyncStatus(termId: Long, syncStatus: Boolean) {
+        withContext(databaseDispatcher) {
+            db().termsQueries.updateSyncStatus(syncStatus = syncStatus, id = termId)
+        }
+    }
+
+    override suspend fun clearFlashMessage(termId: Long) {
+        withContext(databaseDispatcher) {
+            db().termsQueries.clearFlashMessage(termId)
+        }
+    }
+
+    override suspend fun delete(termId: Long) = withContext(databaseDispatcher) {
+        val database = db()
+        database.transaction {
+            database.termsQueries.delete(termId)
+            database.termsQueries.clearSyncStatusForOrphans()
+        }
+    }
+
+    override suspend fun deleteAll(termIds: Collection<Long>) = withContext(databaseDispatcher) {
+        if (termIds.isEmpty()) return@withContext
+        val database = db()
+        database.transaction {
+            termIds.chunked(CHUNK).forEach { database.termsQueries.deleteByIds(it) }
+            database.termsQueries.clearSyncStatusForOrphans()
+        }
+    }
+
+    override suspend fun parents(termId: Long): List<Term> = withContext(databaseDispatcher) {
+        val database = db()
+        hydrate(database, database.termsQueries.selectParents(termId).awaitAsList())
+    }
+
+    override suspend fun children(termId: Long): List<Term> = withContext(databaseDispatcher) {
+        val database = db()
+        hydrate(database, database.termsQueries.selectChildren(termId).awaitAsList())
+    }
+
+    override suspend fun search(languageId: Long, textLc: String, limit: Int): List<TermMatch> = withContext(databaseDispatcher) {
+        val escaped = likeEscape(textLc)
+        db().termsQueries.search(
+            textLc = textLc,
+            startsWith = "$escaped%",
+            languageId = languageId,
+            wildcard = "%$escaped%",
+            limit = limit.toLong(),
+        ).awaitAsList().map {
+            TermMatch(
+                id = it.id,
+                text = it.text,
+                translation = it.translation,
+                status = TermStatus.fromValueOrNull(it.status.toInt()) ?: TermStatus.UNKNOWN,
+                hasChildren = it.has_children == 1L,
+            )
+        }
+    }
+
+    override fun observeList(filter: TermListFilter, sort: TermListSort, offset: Int, limit: Int): Flow<TermListPage> = flow {
+        val database = db()
+        listQuery(database, filter, sort, offset, limit).asFlow().mapToList(databaseDispatcher).collect { rows ->
+            emit(TermListPage(hydrate(database, rows.map { it.toTermsRow() }), count(database, filter)))
+        }
+    }
+
+    override suspend fun list(filter: TermListFilter, sort: TermListSort, offset: Int, limit: Int): TermListPage = withContext(databaseDispatcher) {
+        val database = db()
+        val rows = listQuery(database, filter, sort, offset, limit).awaitAsList()
+        TermListPage(hydrate(database, rows.map { it.toTermsRow() }), count(database, filter))
+    }
+
+    private fun listQuery(database: IdiomikoDatabase, filter: TermListFilter, sort: TermListSort, offset: Int, limit: Int) =
+        database.termsQueries.listTerms(
+            languageId = filter.languageId?.takeIf { it != 0L },
+            search = searchPattern(filter),
+            minStatus = filter.statusRange.first,
+            maxStatus = filter.statusRange.last,
+            includeIgnored = if (filter.includeIgnored || filter.statuses != null) 1L else 0L,
+            anyStatus = if (filter.statuses == null) 1L else 0L,
+            statuses = filter.statuses?.map { it.value.toLong() }?.ifEmpty { null } ?: listOf(-1L),
+            minCreated = filter.minAgeDays?.let { ageThreshold(it) },
+            maxCreated = filter.maxAgeDays?.let { ageThreshold(it) },
+            filterIds = if (filter.termIds != null) 1L else 0L,
+            ids = filter.termIds ?: listOf(-1L),
+            sort = sortKey(sort),
+            limit = limit.toLong(),
+            offset = offset.toLong(),
+        )
+
+    private suspend fun count(database: IdiomikoDatabase, filter: TermListFilter): Int =
+        database.termsQueries.countTerms(
+            languageId = filter.languageId?.takeIf { it != 0L },
+            search = searchPattern(filter),
+            minStatus = filter.statusRange.first,
+            maxStatus = filter.statusRange.last,
+            includeIgnored = if (filter.includeIgnored || filter.statuses != null) 1L else 0L,
+            anyStatus = if (filter.statuses == null) 1L else 0L,
+            statuses = filter.statuses?.map { it.value.toLong() }?.ifEmpty { null } ?: listOf(-1L),
+            minCreated = filter.minAgeDays?.let { ageThreshold(it) },
+            maxCreated = filter.maxAgeDays?.let { ageThreshold(it) },
+            filterIds = if (filter.termIds != null) 1L else 0L,
+            ids = filter.termIds ?: listOf(-1L),
+        ).awaitAsOne().toInt()
+
+    /** The status range to query: every status when a set of statuses narrows the list instead. */
+    private val TermListFilter.statusRange: LongRange
+        get() = if (statuses != null) TermStatus.UNKNOWN.value.toLong()..TermStatus.WELL_KNOWN.value.toLong() else minStatus.value.toLong()..maxStatus.value.toLong()
+
+    private fun searchPattern(filter: TermListFilter): String =
+        filter.search.trim().lowercase().let { if (it.isEmpty()) "" else "%${likeEscape(it)}%" }
+
+    private fun ageThreshold(days: Int): Long = clock.now().toEpochMilliseconds() - days.toLong() * MILLIS_PER_DAY
+
+    private fun sortKey(sort: TermListSort): String {
+        val field = when (sort.field) {
+            TermSortField.TEXT -> "text"
+            TermSortField.STATUS -> "status"
+            TermSortField.CREATED -> "created"
+            TermSortField.LANGUAGE -> "language"
+        }
+        return "${field}_${if (sort.ascending) "asc" else "desc"}"
+    }
+
+    override suspend fun references(languageId: Long, termTextLc: String, limit: Int, includeUnread: Boolean): List<TermReference> =
+        withContext(databaseDispatcher) {
+            val pattern = "%$ZWS_STRING${likeEscape(termTextLc)}$ZWS_STRING%"
+            db().termsQueries.references(
+                onlyRead = if (includeUnread) 0L else 1L,
+                languageId = languageId,
+                pattern = pattern,
+                limit = limit.toLong(),
+            ).awaitAsList().map {
+                TermReference(
+                    bookId = it.book_id,
+                    pageId = it.page_id,
+                    pageNumber = it.page_order.toInt(),
+                    bookTitle = it.title,
+                    pageCount = it.page_count.toInt(),
+                    sentence = highlight(it.text, it.text_lc, termTextLc),
+                )
+            }
+        }
+
+    /**
+     * Wraps occurrences of the term in the sentence with `**` markers for the UI, removing separators.
+     * They are found in the sentence as words are matched ([sentenceLc]), where it reads letter for
+     * letter as written, so a Chinese word is marked in either script.
+     */
+    private fun highlight(sentence: String, sentenceLc: String, termLc: String): String {
+        val text = sentence.trim()
+        val textLc = sentenceLc.trim()
+        val separated = "$ZWS_STRING$termLc$ZWS_STRING"
+        val marked = if (text.length == textLc.length) {
+            buildString {
+                var from = 0
+                var at = textLc.indexOf(separated)
+                while (at >= 0) {
+                    append(text, from, at)
+                    append("$ZWS_STRING**").append(text, at + 1, at + separated.length - 1).append("**$ZWS_STRING")
+                    from = at + separated.length
+                    at = textLc.indexOf(separated, from)
+                }
+                append(text, from, text.length)
+            }
+        } else {
+            Regex(Regex.escape(separated), RegexOption.IGNORE_CASE)
+                .replace(text) { m -> "$ZWS_STRING**${m.value.trim(com.idiomiko.core.domain.model.ZWS)}**$ZWS_STRING" }
+        }
+        return marked.replace(ZWS_STRING, "").replace("¶", "")
+    }
+
+    /** Attaches parents to the raw rows. */
+    private suspend fun hydrate(database: IdiomikoDatabase, rows: List<Terms>): List<Term> {
+        if (rows.isEmpty()) return emptyList()
+        val ids = rows.map { it.id }
+        val parents = HashMap<Long, MutableList<TermRef>>()
+        for (chunk in ids.chunked(CHUNK)) {
+            for (row in database.termsQueries.selectParentsForTerms(chunk).awaitAsList()) {
+                parents.getOrPut(row.term_id) { mutableListOf() }.add(
+                    TermRef(row.id, row.text, TermStatus.fromValueOrNull(row.status.toInt()) ?: TermStatus.UNKNOWN, row.translation),
+                )
+            }
+        }
+        return rows.map { it.toDomain(parents[it.id] ?: emptyList()) }
+    }
+
+    private fun com.idiomiko.core.data.db.ListTerms.toTermsRow() = Terms(
+        id = id, language_id = language_id, text = text, text_lc = text_lc, status = status, translation = translation,
+        romanization = romanization, token_count = token_count, sync_status = sync_status,
+        flash_message = flash_message, created_at = created_at, status_changed_at = status_changed_at,
+        translation_language = translation_language, sentence = sentence, anki_exported_at = anki_exported_at,
+        updated_at = updated_at, card_form = card_form, sentence_translation = sentence_translation,
+    )
+
+    private companion object {
+        const val CHUNK = 500
+        const val MILLIS_PER_DAY = 24L * 60 * 60 * 1000
+    }
+}

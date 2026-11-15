@@ -1,0 +1,123 @@
+package com.idiomiko.feature.settings
+
+import kotlin.test.assertEquals
+import com.idiomiko.core.ui.navigation.Route
+import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.test.ComposeUiTest
+import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertCountEquals
+import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.hasClickAction
+import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onFirst
+import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollTo
+import androidx.compose.ui.test.performTextInput
+import androidx.compose.ui.test.runDesktopComposeUiTest
+import com.russhwolf.settings.MapSettings
+import com.idiomiko.core.data.db.DatabaseDriverFactory
+import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.repository.LanguageRepositoryImpl
+import com.idiomiko.core.data.settings.SettingsRepositoryImpl
+import com.idiomiko.core.domain.dictionary.DictionaryEntry
+import com.idiomiko.core.domain.dictionary.DictionaryId
+import com.idiomiko.core.domain.dictionary.DictionaryPack
+import com.idiomiko.core.domain.dictionary.DictionaryPackStore
+import com.idiomiko.core.domain.dictionary.DictionarySense
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.repository.DictionaryRepository
+import com.idiomiko.core.domain.service.DictionaryService
+import kotlinx.coroutines.runBlocking
+import java.io.File
+import javax.imageio.ImageIO
+import kotlin.test.Test
+import kotlin.test.assertFalse
+import kotlin.test.assertTrue
+
+/** The Dictionaries page shows the reader's pair, the installed packs and the ones to download, and tests a lookup. */
+@OptIn(ExperimentalTestApi::class)
+class DictionariesScreenTest {
+
+    private class FakeStore(installed: Set<String>) : DictionaryPackStore {
+        val installed = installed.toMutableSet()
+        override suspend fun installedSize(pack: DictionaryPack): Long? = if (pack.id.name in installed) 2_000_000L + pack.id.name.hashCode() % 900_000 else null
+        override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit) { installed += pack.id.name }
+        override suspend fun remove(pack: DictionaryPack) { installed -= pack.id.name }
+    }
+
+    private object FakeEntries : DictionaryRepository {
+        override suspend fun isAvailable(dictionary: DictionaryId) = true
+        override suspend fun entries(dictionary: DictionaryId, wordLc: String) =
+            if (wordLc == "lobo") listOf(DictionaryEntry("lobo", "noun", "ˈlobu", listOf(DictionarySense(listOf("волк")), DictionarySense(listOf("хищник"))))) else emptyList()
+        override suspend fun lemmas(dictionary: DictionaryId, formLc: String) = emptyList<String>()
+        override suspend fun close(dictionary: DictionaryId) = Unit
+    }
+
+    @Test
+    fun thePairIsReadyAndALookupCanBeTested() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-dictionaries", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val store = FakeStore(setOf("en-ru", "pt-ru"))
+        val service = DictionaryService(store, FakeEntries)
+        runBlocking {
+            service.refresh()
+            val portuguese = languages.save(Language(name = "Portuguese"))
+            settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru") }
+        }
+        val viewModel = DictionariesViewModel(settings, service, languages)
+        val visited = mutableListOf<Route>()
+        setContent { Hosted(settings) { DictionariesScreen(onNavigate = { visited += it }, onBack = {}, viewModel = viewModel) } }
+
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline lookup ready")).fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("DICTIONARIES_SCREENSHOT")?.let { save(it) }
+
+        // The page downloads nothing itself: the dictionaries are fetched and removed on the Downloads page.
+        onNodeWithText("Downloaded dictionaries").assertDoesNotExist()
+        onAllNodes(hasText("Download") and hasClickAction()).assertCountEquals(0)
+        onNodeWithTag("open-downloads").performScrollTo().performClick()
+        assertEquals(listOf<Route>(Route.Downloads), visited)
+
+        // A lookup shows what the reader will show.
+        onNodeWithText("Test lookup").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("A Portuguese word")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("A Portuguese word").performTextInput("lobo")
+        onNodeWithText("Look up").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("1. волк")).fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("DICTIONARIES_SCREENSHOT")?.let { save(it.replace(".png", "-lookup.png"), root = 1) }
+    }
+
+    /** A phone shows the pair's dictionary is missing and leads to the Downloads page to fetch it. */
+    @Test
+    fun aPhoneLeadsToTheDownloadsForAMissingDictionary() = runDesktopComposeUiTest(width = 400, height = 1200) {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-dictionaries-phone", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val store = FakeStore(setOf("en-ru"))
+        val service = DictionaryService(store, FakeEntries)
+        runBlocking {
+            service.refresh()
+            val portuguese = languages.save(Language(name = "Portuguese"))
+            settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru") }
+        }
+        val viewModel = DictionariesViewModel(settings, service, languages)
+        val visited = mutableListOf<Route>()
+        setContent { Hosted(settings) { DictionariesScreen(onNavigate = { visited += it }, onBack = {}, viewModel = viewModel) } }
+
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → Russian is not downloaded")).fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("DICTIONARIES_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
+        onNodeWithTag("phone-download-current").performScrollTo().performClick()
+        assertEquals(listOf<Route>(Route.Downloads), visited)
+        assertFalse("pt-ru" in store.installed, "nothing is downloaded from this page")
+    }
+
+    private fun ComposeUiTest.save(path: String, root: Int = 0) {
+        waitForIdle()
+        ImageIO.write(onAllNodes(isRoot())[root].captureToImage().toAwtImage(), "png", File(path))
+    }
+}

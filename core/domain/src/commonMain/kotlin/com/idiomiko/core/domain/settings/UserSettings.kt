@@ -1,0 +1,176 @@
+package com.idiomiko.core.domain.settings
+
+import com.idiomiko.core.domain.media.AutoPause
+import com.idiomiko.core.domain.media.VideoBlur
+import com.idiomiko.core.domain.flashcards.AnswerMode
+import com.idiomiko.core.domain.flashcards.AutoAnswer
+import com.idiomiko.core.domain.flashcards.BacklogOrder
+import com.idiomiko.core.domain.flashcards.NewCardMix
+import com.idiomiko.core.domain.flashcards.NewCardOrder
+
+import com.idiomiko.core.domain.service.SpeechEngine
+import com.idiomiko.core.domain.service.TranslationEngine
+
+/**
+ * User preferences. Persisted as key-value pairs; see [SettingsRepository].
+ */
+data class UserSettings(
+    val currentLanguageId: Long = 0,
+    val themeId: String = DEFAULT_THEME,
+    /** Keep the screens still: no sliding, fading or flipping, for those whom motion bothers. */
+    val reduceMotion: Boolean = false,
+    /** Videos, still an experimental feature: on unless turned off in Experimental features. */
+    val experimentalVideos: Boolean = true,
+    /** Show the four learning levels, 1 to 4, rather than one Learning status; the levels are kept either way. */
+    val showLearningLevels: Boolean = false,
+    val statsSampleSize: Int = 5,
+    val readingFontScale: Float = 1.0f,
+    val readingLineHeight: Float = 1.6f,
+    /** The typeface of the reader's text, by id; see the reading fonts in the UI. */
+    val readingFont: String = DEFAULT_READING_FONT,
+    /** Start every sentence on its own line while reading. */
+    val splitSentences: Boolean = false,
+    /** Show a translation under every sentence while reading. */
+    val showTranslations: Boolean = false,
+    /** Original sentence on the left, its translation on the right, instead of the translation underneath. */
+    val sideBySideTranslations: Boolean = false,
+    /** Hide the original sentences behind their translations, each shown again with a click, to practise translating. */
+    val practiceTranslation: Boolean = false,
+    /** A play button before each sentence that reads it aloud. */
+    val showSentencePlay: Boolean = true,
+    /** Readings above the words of Japanese and Chinese texts: furigana, pinyin. */
+    val showReadings: Boolean = true,
+    /** Chinese readings coloured by tone, as Zhongwen colours them. */
+    val toneColors: Boolean = true,
+    /** Chinese readings in zhuyin (bopomofo) rather than pinyin, as Taiwan teaches them. */
+    val zhuyin: Boolean = false,
+    /** Clicking or tapping a word in the reader reads it aloud. */
+    val speakWordOnClick: Boolean = false,
+    /** Continuous reading stops after each sentence, so the next press of play reads the following one. */
+    val autoPause: Boolean = false,
+    /** After which lines a video pauses by itself. */
+    val videoAutoPause: AutoPause = AutoPause.OFF,
+    /** Looking a word up in a video's lines pauses the video. */
+    val videoPauseOnLookup: Boolean = true,
+    /** A video's lines show their translations. */
+    val videoTranslations: Boolean = true,
+    /** What of a video's lines stays hidden until it is revealed. */
+    val videoBlur: VideoBlur = VideoBlur.OFF,
+    /** The engine that reads sentences and terms aloud. */
+    val speechEngine: SpeechEngine = SpeechEngine.SYSTEM,
+    /** The chosen voice per engine and language, keyed `ENGINE:code`. */
+    val speechVoices: Map<String, String> = emptyMap(),
+    /** Playback speed for the local engines, 1 being normal. */
+    val speechSpeed: Float = 1f,
+    /** The playlist player's speed, 1 being normal; the reader keeps [speechSpeed]. */
+    val playlistSpeed: Float = 1f,
+    /** Whether the languages got their tutorial book, which replaced the sample books of earlier versions. */
+    val tutorialBooksAdded: Boolean = false,
+    /** ISO 639-1 code of the user's native language; translations and example sentences are shown in it. */
+    val nativeLanguage: String = "en",
+    /** ISO 639-1 code of the language the interface is shown in; so far the interface exists only in English. */
+    val uiLanguage: String = "en",
+    /** Optional contact email sent to MyMemory, which raises its daily quota. */
+    val translationContactEmail: String = "",
+    /** Service used for sentence translations. */
+    val translationEngine: TranslationEngine = TranslationEngine.ARGOS,
+    /** Google Cloud Translation API key, used only when [translationEngine] is [TranslationEngine.GOOGLE]. */
+    val googleTranslateApiKey: String = "",
+    /** Python executable that has Argos Translate installed; empty means `python3` from the PATH. */
+    val argosPython: String = "",
+    /** New flashcards introduced per day, per language. */
+    val flashcardNewPerDay: Int = 20,
+    /** Reviews shown per day, per language; 0 is no limit. */
+    val flashcardReviewsPerDay: Int = 0,
+    /** The chance of recall flashcard reviews are timed for, in percent. */
+    val flashcardRetention: Int = 90,
+    /** Waits before a new card comes back while it is learned, e.g. "1m 10m"; see the flashcards' LearningSteps. */
+    val flashcardLearnSteps: String = "1m 10m",
+    /** Waits before a forgotten card comes back. */
+    val flashcardRelearnSteps: String = "10m",
+    /** Read the sentence (or word) aloud when a flashcard's answer is shown. */
+    val flashcardAutoplay: Boolean = true,
+    /** Answer flashcards with Again and Good only, Hard and Easy left out. */
+    val flashcardTwoButtons: Boolean = false,
+    /**
+     * New cards added to the day's limit on this device, as "day|language:count,…": the study day
+     * they were added on, then each language's extra; another day's are gone.
+     */
+    val flashcardExtraNew: String = "",
+    /** Reviews are given the lighter days within their fuzz, so each day has about as many. */
+    val flashcardLoadBalancing: Boolean = true,
+    /** How much each weekday, Monday first, may be given: a letter a day, N(ormal), R(educed) or M(inimum). */
+    val flashcardEasyDays: String = "NNNNNNN",
+    /** The order of the reviews due on a day with far more of them than usual. */
+    val flashcardBacklogOrder: BacklogOrder = BacklogOrder.RELATIVE_OVERDUENESS,
+    /** A card shows how long it has been on show. */
+    val flashcardShowTimer: Boolean = false,
+    /** Seconds after which a card shown its answer is shown, 0 for never. */
+    val flashcardAutoReveal: Int = 0,
+    /** Seconds after which a card showing its answer is answered with [flashcardAutoAnswerAction], 0 for never. */
+    val flashcardAutoAnswer: Int = 0,
+    /** How a card is answered when [flashcardAutoAnswer] runs out, unless what was typed or said suggests another. */
+    val flashcardAutoAnswerAction: AutoAnswer = AutoAnswer.GOOD,
+    /** The hour a new study day starts, so late-night reviews count for the day before. */
+    val flashcardDayStartHour: Int = 4,
+    /** The longest a review waits, in days. */
+    val flashcardMaxInterval: Int = MAX_FLASHCARD_INTERVAL,
+    /** The order new cards are learned in. */
+    val flashcardNewOrder: NewCardOrder = NewCardOrder.SAVED,
+    /** Where the day's new cards come among its reviews. */
+    val flashcardNewMix: NewCardMix = NewCardMix.AFTER_REVIEWS,
+    /** The cards skipped until the next study day, as "day|term,term": the study day they were skipped on, then their terms. */
+    val flashcardSkipped: String = "",
+    /** The times a card is forgotten that make it a leech, as in Anki; 0 makes none. */
+    val flashcardLeechThreshold: Int = 8,
+    /** A card that becomes a leech is suspended, not only marked as one. */
+    val flashcardLeechSuspend: Boolean = false,
+    /** How cards are answered on this device: shown, or typed or said first. */
+    val flashcardAnswerMode: AnswerMode = AnswerMode.SHOW,
+    /** How many cards a page of the flashcard browser holds. */
+    val flashcardBrowsePageSize: Int = 50,
+    val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
+    /** Whether the desktop app looks for a new release when it starts. */
+    val checkForUpdates: Boolean = true,
+    /** A release the user chose to skip; it is not offered at start. */
+    val skippedUpdate: String = "",
+    /** When the app last looked for a new release, in milliseconds since the epoch. */
+    val lastUpdateCheck: Long = 0,
+    /** The setup last used for practice from the reader, as `PracticeSetup.encode` writes it; empty before the first. */
+    val practiceSetupReading: String = "",
+    /** The setup last used for practice of words chosen in the vocabulary. */
+    val practiceSetupVocabulary: String = "",
+    /** Practice reads each question's sentence aloud once it is shown whole. */
+    val practiceReadAloud: Boolean = false,
+    /** Which downloaded speech recogniser hears spoken answers, by `RecognitionQuality` name. */
+    val speechRecognitionQuality: String = "MEDIUM",
+    /** The languages being learned, which the language menu switches between: ids, comma-separated, in the order added; empty until first filled. */
+    val myLanguages: String = "",
+    /**
+     * The words known in each language as last counted while it was the one learned, as
+     * "id=count" pairs, comma-separated: the language menu shows them, since counting every
+     * language afresh would hold every language's frequency list in memory at once.
+     */
+    val knownWordCounts: String = "",
+    /** An account service's address older versions let the reader type; kept in storage, no longer read. */
+    val accountServer: String = "",
+    /** Whether this device syncs with the account on its own: at start, when brought back, and after changes. */
+    val autoSync: Boolean = true,
+    /** When the cache of spoken audio was last emptied, in epoch milliseconds; 0 before its first use. */
+    val speechCacheClearedAt: Long = 0,
+) {
+    fun hotkeyFor(action: HotkeyAction): Hotkey? = hotkeys[action]
+
+    companion object {
+        const val DEFAULT_THEME = "default"
+        const val DEFAULT_READING_FONT = "serif"
+        const val MIN_STATS_SAMPLE_SIZE = 1
+        const val MAX_STATS_SAMPLE_SIZE = 500
+        const val MAX_FLASHCARDS_PER_DAY = 9999
+        const val MIN_FLASHCARD_RETENTION = 70
+        const val MAX_LEECH_THRESHOLD = 99
+        const val MAX_FLASHCARD_INTERVAL = 36500
+        const val MAX_AUTO_SECONDS = 120
+        const val MAX_FLASHCARD_RETENTION = 97
+    }
+}

@@ -1,0 +1,302 @@
+package com.idiomiko.core.data
+
+import com.russhwolf.settings.MapSettings
+import com.idiomiko.core.data.db.DatabaseDriverFactory
+import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.repository.BookRepositoryImpl
+import com.idiomiko.core.data.repository.DatabaseMaintenanceImpl
+import com.idiomiko.core.data.repository.LanguageRepositoryImpl
+import com.idiomiko.core.data.repository.TermRepositoryImpl
+import com.idiomiko.core.data.repository.WordsReadRepositoryImpl
+import com.idiomiko.core.data.settings.SettingsRepositoryImpl
+import com.idiomiko.core.domain.language.LanguageCatalog
+import com.idiomiko.core.domain.language.Tutorials
+import com.idiomiko.core.domain.model.BookDraft
+import com.idiomiko.core.domain.model.DictionaryType
+import com.idiomiko.core.domain.model.DictionaryUse
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.LanguageDictionary
+import com.idiomiko.core.domain.model.TermDraft
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.repository.TermListFilter
+import com.idiomiko.core.domain.repository.TermListSort
+import com.idiomiko.core.domain.service.BookService
+import com.idiomiko.core.domain.service.BookStatsService
+import com.idiomiko.core.domain.service.DemoDataService
+import com.idiomiko.core.domain.service.LanguageValidationException
+import com.idiomiko.core.domain.service.LanguageService
+import com.idiomiko.core.domain.service.ReadingService
+import com.idiomiko.core.domain.service.TermPopupBuilder
+import com.idiomiko.core.domain.service.TermService
+import com.idiomiko.core.domain.dictionary.DictionaryId
+import com.idiomiko.core.domain.dictionary.OfflineDictionary
+import com.idiomiko.core.domain.service.TermTranslationProvider
+import com.idiomiko.core.domain.service.WordTranslationService
+import com.idiomiko.core.domain.service.TermValidationException
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.test.runTest
+import java.io.File
+import kotlin.test.Test
+import kotlin.test.assertEquals
+import kotlin.test.assertFailsWith
+import kotlin.test.assertNotNull
+import kotlin.test.assertNull
+import kotlin.test.assertTrue
+
+class RepositoryIntegrationTest {
+
+    private class Env {
+        val file: File = File.createTempFile("idiomiko-test", ".db").also { it.delete() }
+        val provider = DatabaseProvider(DatabaseDriverFactory(file))
+        val languages = LanguageRepositoryImpl(provider)
+        val books = BookRepositoryImpl(provider)
+        val terms = TermRepositoryImpl(provider)
+        val wordsRead = WordsReadRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val termService = TermService(terms, languages)
+        val readingService = ReadingService(books, languages, terms, wordsRead, termService)
+        val bookService = BookService(books, languages)
+        val statsService = BookStatsService(books, languages, settings, readingService)
+        val languageService = LanguageService(languages, bookService, settings)
+        val popups = TermPopupBuilder(terms, languages, readingService)
+        val demo = DemoDataService(DatabaseMaintenanceImpl(provider), languages, books, languageService, settings)
+
+        suspend fun english(): Long = languages.save(
+            Language(
+                name = "English",
+                dictionaries = listOf(
+                    LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://x/[WORD]"),
+                    LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://y/[WORD]"),
+                ),
+            ),
+        )
+    }
+
+    @Test
+    fun languageRoundTrip() = runTest {
+        val env = Env()
+        val id = env.english()
+        val loaded = env.languages.getById(id)
+        assertNotNull(loaded)
+        assertEquals("English", loaded.name)
+        assertEquals(2, loaded.dictionaries.size)
+        assertEquals(DictionaryUse.SENTENCES, loaded.dictionaries[1].useFor)
+        assertEquals(listOf("English"), env.languages.observeAll().first().map { it.name })
+    }
+
+    @Test
+    fun bookIsSplitAndRendered() = runTest {
+        val env = Env()
+        val langId = env.english()
+        val bookId = env.bookService.create(
+            BookDraft(languageId = langId, title = "Test", text = "Here is a dog. Here is a cat.\n\nAnother paragraph.", tags = listOf("demo")),
+        )
+        val page = env.readingService.openPage(bookId, 1, trackOpen = true)
+        assertEquals(1, page.pageCount)
+        assertEquals(3, page.rendered.paragraphs.size, "blank line becomes an empty paragraph")
+        val words = page.rendered.words
+        assertTrue(words.all { it.termId != null }, "all words get persisted terms")
+        assertTrue(words.all { it.status == TermStatus.UNKNOWN })
+        assertEquals(setOf("here", "is", "a", "dog", "cat", "another", "paragraph"), words.map { it.textLc }.toSet())
+
+        val list = env.books.observeBooks(archived = false).first()
+        assertEquals(1, list.size)
+        assertEquals(listOf("demo"), list[0].tags)
+        assertEquals(10, list[0].wordCount)
+        assertNotNull(list[0].lastOpened)
+
+        val stats = env.statsService.stats(bookId)
+        assertNotNull(stats)
+        assertEquals(7, stats.distinctTerms)
+        assertEquals(100, stats.unknownPercent)
+    }
+
+    @Test
+    fun termSaveWithParentAndSync() = runTest {
+        val env = Env()
+        val langId = env.english()
+        val draft = env.termService.findOrNew(langId, "dogs").copy(
+            translation = "plural of dog",
+            status = TermStatus.LEARNING_3,
+            statusExplicitlySet = true,
+            parents = listOf("dog"),
+            syncStatus = true,
+        )
+        val id = env.termService.save(draft)
+        val saved = env.terms.getById(id)
+        assertNotNull(saved)
+        assertEquals(listOf("dog"), saved.parents.map { it.text })
+        assertTrue(saved.syncStatus)
+
+        val parent = env.termService.find(langId, "dog")
+        assertNotNull(parent)
+        assertEquals(TermStatus.LEARNING_3, parent.status)
+        assertEquals("plural of dog", parent.translation)
+
+        // Changing the parent status updates the following child.
+        env.termService.setStatus(listOf(parent.id), TermStatus.LEARNING_4)
+        assertEquals(TermStatus.LEARNING_4, env.terms.getById(id)?.status)
+
+        // Duplicate detection.
+        val dup = assertFailsWith<TermValidationException> {
+            env.termService.save(TermDraft(languageId = langId, text = "DOGS", originalText = ""))
+        }
+        assertNotNull(dup.duplicateOf)
+
+        // Case-only change is allowed.
+        env.termService.save(env.termService.load(id).copy(text = "Dogs"))
+        assertEquals("Dogs", env.terms.getById(id)?.text)
+
+        val matches = env.termService.search(langId, "do")
+        assertEquals(listOf("dog", "Dogs"), matches.map { it.text })
+        assertTrue(matches[0].hasChildren)
+    }
+
+    @Test
+    fun multiwordTermsRenderAndListFilter() = runTest {
+        val env = Env()
+        val langId = env.english()
+        val bookId = env.bookService.create(BookDraft(languageId = langId, title = "MW", text = "The black cat sleeps."))
+        env.termService.save(env.termService.findOrNew(langId, "black cat").copy(translation = "gato negro", status = TermStatus.NEW_2, statusExplicitlySet = true))
+
+        val page = env.readingService.openPage(bookId, 1, trackOpen = false)
+        val texts = page.rendered.items.map { it.renderText }
+        assertEquals(listOf("The", " ", "black cat", " ", "sleeps", "."), texts)
+
+        val listed = env.terms.list(TermListFilter(languageId = langId, minStatus = TermStatus.NEW_1), TermListSort(), 0, 50)
+        assertEquals(listOf("black​ ​cat"), listed.items.map { it.text })
+        assertEquals(1, listed.totalCount)
+
+        val all = env.terms.list(TermListFilter(languageId = langId, search = "sle"), TermListSort(), 0, 50)
+        assertEquals(listOf("sleeps"), all.items.map { it.text })
+
+        env.readingService.markPageRead(bookId, 1, markRestAsKnown = true)
+        val refs = env.termService.references(langId, "black cat")
+        assertEquals(1, refs.term.size)
+        assertEquals("The **black cat** sleeps.", refs.term[0].sentence)
+        assertEquals(TermStatus.WELL_KNOWN, env.termService.find(langId, "sleeps")?.status)
+        assertEquals(4, env.wordsRead.dailyCounts().sumOf { it.wordCount })
+
+        val popup = env.popups.build(env.termService.find(langId, "black cat")!!.id)
+        assertNotNull(popup)
+        assertEquals("gato negro", popup.translation)
+        assertNull(env.popups.build(env.termService.find(langId, "the")!!.id))
+    }
+
+    @Test
+    fun pageEditing() = runTest {
+        val env = Env()
+        val langId = env.english()
+        val bookId = env.bookService.create(BookDraft(languageId = langId, title = "Pages", text = "one.\n---\ntwo.\n---\nthree."))
+        assertEquals(3, env.books.pageCount(bookId))
+        env.bookService.updatePageText(bookId, 2, "two changed.")
+        assertEquals(listOf("one.", "two changed.", "three."), env.books.getPages(bookId).map { it.text })
+        assertEquals(2, env.books.getPage(bookId, 2)!!.wordCount)
+    }
+
+    @Test
+    fun catalogLanguagesAreSeededAndSurviveWipe() = runTest {
+        val env = Env()
+        env.demo.ensureLanguages()
+        assertEquals(LanguageCatalog.targetLanguages.sorted(), env.languages.getAll().map { it.name }.sorted())
+        val english = env.languages.findByName("English")!!
+        assertNotNull(env.books.findByTitle(Tutorials.forLanguage("English")!!.title, english.id), "every language starts with its tutorial")
+        env.demo.wipeDatabase()
+        assertEquals(LanguageCatalog.targetLanguages.sorted(), env.languages.getAll().map { it.name }.sorted())
+        assertTrue(env.books.getBooks().isEmpty())
+    }
+
+    @Test
+    fun anOlderLibraryTradesItsSampleBooksForTheTutorialOnce() = runTest {
+        val env = Env()
+        val portuguese = env.languageService.loadPredefined("Portuguese", withTutorial = false)
+        val english = env.languageService.loadPredefined("English", withTutorial = false)
+        val opening = "Dizem no meu país que existe uma maldição que recai sobre o sétimo filho nascido em qualquer família. A maldição não recairá sobre as filhas."
+        // A sample book as earlier versions made it, and a book of the reader's own with a sample's title.
+        val sample = env.bookService.create(BookDraft(languageId = portuguese, title = "A Maldição", text = opening))
+        val own = env.bookService.create(BookDraft(languageId = english, title = "Tutorial", text = "My own notes about the tutorial of my language course, which I wrote myself."))
+        env.demo.ensureLanguages()
+
+        assertNull(env.books.getBook(sample), "the sample is gone")
+        assertNotNull(env.books.getBook(own), "a book of the reader's own stays")
+        val tutorial = Tutorials.forLanguage("Portuguese")!!
+        assertNotNull(env.books.findByTitle(tutorial.title, portuguese))
+        assertNotNull(env.books.findByTitle(Tutorials.forLanguage("English")!!.title, english))
+        assertTrue(env.settings.current.tutorialBooksAdded)
+
+        // Once added, a tutorial the reader deleted does not come back.
+        env.books.deleteBook(env.books.findByTitle(tutorial.title, portuguese)!!.id)
+        env.demo.ensureLanguages()
+        assertNull(env.books.findByTitle(tutorial.title, portuguese))
+    }
+
+    @Test
+    fun existingDatabaseIsBroughtInLineWithTheCatalog() = runTest {
+        val env = Env()
+        val englishId = env.english()
+        val klingonId = env.languages.save(env.languages.getById(englishId)!!.copy(id = 0, name = "Klingon"))
+        env.bookService.create(BookDraft(languageId = klingonId, title = "Hola", text = "Hola mundo."))
+        env.demo.ensureLanguages()
+        assertEquals(englishId, env.languages.findByName("English")?.id)
+        assertEquals(LanguageCatalog.targetLanguages.sorted(), env.languages.getAll().map { it.name }.sorted())
+        assertTrue(env.books.getBooks().none { it.title == "Hola" })
+        assertFailsWith<LanguageValidationException> { env.languageService.save(Language(name = "Klingon")) }
+    }
+
+    @Test
+    fun wordTranslationsPreferSavedTermsThenParentsThenTheEngine() = runTest {
+        val env = Env()
+        val langId = env.english()
+        val language = env.languages.getById(langId)!!
+        env.termService.save(env.termService.findOrNew(langId, "dog").copy(translation = "cão", status = TermStatus.NEW_2, statusExplicitlySet = true))
+        env.termService.save(env.termService.findOrNew(langId, "dogs").copy(status = TermStatus.NEW_2, statusExplicitlySet = true, parents = listOf("dog")))
+        env.termService.save(env.termService.findOrNew(langId, "cat").copy(translation = "gato", status = TermStatus.NEW_2, statusExplicitlySet = true))
+        val asked = mutableListOf<String>()
+        val engine = object : TermTranslationProvider {
+            override val name = "Fake"
+            override suspend fun suggestTranslation(text: String, language: Language): String? { asked += text; return if (text == "house") "casa" else null }
+        }
+        val offline = object : OfflineDictionary {
+            override suspend fun isAvailable(dictionary: DictionaryId) = false
+            override suspend fun lookup(dictionary: DictionaryId, text: String) = error("not installed")
+        }
+        val service = WordTranslationService(env.terms, offline, engine, env.settings)
+
+        assertEquals("gato", service.translate(language, "Cat"))
+        assertEquals("cão", service.translate(language, "dogs"))
+        assertEquals("casa", service.translate(language, "house"))
+        assertEquals("casa", service.translate(language, "House"))
+        assertEquals(null, service.translate(language, "xyzzy"))
+        assertEquals(null, service.translate(language, "1999"))
+        assertEquals(listOf("house", "xyzzy"), asked)
+    }
+
+    /** Saves that both found no term with a text store it once: a new term takes the row stored meanwhile. */
+    @Test
+    fun aTermStoredMeanwhileIsTakenNotInsertedTwice() = runTest {
+        val env = Env()
+        val langId = env.english()
+        val stored = env.termService.save(TermDraft(languageId = langId, text = "run", originalText = "run", status = TermStatus.NEW_1, translation = "correr"))
+        val raced = env.terms.findByTextLc(langId, "run")!!.copy(id = 0, status = TermStatus.LEARNING_3, translation = "corrida")
+        assertEquals(stored, env.terms.save(raced))
+        assertEquals("corrida", env.terms.findByTextLc(langId, "run")?.translation)
+        // A page's placeholder for the word leaves the stored term as it is.
+        assertEquals(listOf(stored), env.terms.insertAll(listOf(raced.copy(status = TermStatus.UNKNOWN, translation = null))))
+        assertEquals(TermStatus.LEARNING_3, env.terms.findByTextLc(langId, "run")?.status)
+    }
+
+    /** The term pane can save a form twice at once; both link the same new lemma without a clash. */
+    @Test
+    fun concurrentSavesCreateTheParentOnce() = runBlocking {
+        val env = Env()
+        val langId = env.english()
+        val draft = TermDraft(languageId = langId, text = "runs", originalText = "runs", status = TermStatus.NEW_1, translation = "corre", parents = listOf("run"))
+        val ids = (1..8).map { async(Dispatchers.Default) { env.termService.save(draft) } }.awaitAll()
+        assertEquals(1, ids.distinct().size)
+        assertEquals(listOf("run"), env.terms.getById(ids.first())?.parents?.map { it.text })
+    }
+}

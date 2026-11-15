@@ -1,4 +1,4 @@
-/** A word saved to Tayra from a video's word card, with the line it was met in. */
+/** A word saved to Idiomiko from a video's word card, with the line it was met in. */
 export interface SavedWord {
   term: string;
   lc: string;

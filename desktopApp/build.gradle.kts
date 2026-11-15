@@ -9,7 +9,7 @@ plugins {
 
 dependencies {
     implementation(projects.shared)
-    // The `tayra` command, packaged as a second launcher of the app's own jars.
+    // The `idiomiko` command, packaged as a second launcher of the app's own jars.
     implementation(projects.cli)
     implementation(compose.desktop.currentOs)
     implementation(libs.kotlinx.coroutines.swing)
@@ -29,12 +29,12 @@ val installerVersion = providers.gradleProperty("releaseVersion")
 
 // -Xdock is a macOS launcher option; the JVM on other systems refuses to start with it.
 val isMacHost = System.getProperty("os.name").lowercase().contains("mac")
-val dockNameArgs = if (isMacHost) listOf("-Xdock:name=Tayra Languages", "-Dtayra.dockNamed=true") else emptyList()
+val dockNameArgs = if (isMacHost) listOf("-Xdock:name=Idiomiko", "-Didiomiko.dockNamed=true") else emptyList()
 
 // Videos play in the Chromium that JetBrains Runtime's JCEF builds carry. It lies beside the JDK's modules, where jlink
-// cannot take it from, so given one (-Ptayra.jbr or TAYRA_JBR: the folder its archive unpacks to) the app runs on it and
+// cannot take it from, so given one (-Pidiomiko.jbr or IDIOMIKO_JBR: the folder its archive unpacks to) the app runs on it and
 // is packaged with all of it as its runtime. Without one, the app watches videos in the browser.
-val jbr: File? = providers.gradleProperty("tayra.jbr").orElse(providers.environmentVariable("TAYRA_JBR")).orNull
+val jbr: File? = providers.gradleProperty("idiomiko.jbr").orElse(providers.environmentVariable("IDIOMIKO_JBR")).orNull
     ?.let { file(it) }
     ?.also { require(it.resolve("Contents/Home/release").isFile || it.resolve("release").isFile) { "$it is not a Java runtime" } }
 val jbrJava: File? = jbr?.let { home -> listOf("Contents/Home/bin/java", "bin/java", "bin/java.exe").map(home::resolve).firstOrNull { it.isFile } }
@@ -49,48 +49,48 @@ tasks.matching { it.name == "hotRun" }.configureEach {
 
 compose.desktop {
     application {
-        mainClass = "com.tayra.languages.desktop.MainKt"
+        mainClass = "com.idiomiko.desktop.MainKt"
         // Names the process in the macOS Dock during development runs; packaged apps use the bundle name.
         jvmArgs += dockNameArgs
         // The release's own version, which the app's updates compare (the installers' may be 1.0.0, see above);
         // a run from the sources has none and is never offered an update.
-        installerVersion.orNull?.takeIf { providers.gradleProperty("releaseVersion").isPresent }?.let { jvmArgs += "-Dtayra.version=$it" }
+        installerVersion.orNull?.takeIf { providers.gradleProperty("releaseVersion").isPresent }?.let { jvmArgs += "-Didiomiko.version=$it" }
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb, TargetFormat.Rpm)
-            packageName = "TayraLanguages"
+            packageName = "Idiomiko"
             packageVersion = desktopVersion.get()
             // The bundled runtime only has the JDK modules listed here; without java.sql the database cannot open.
             // `./gradlew :desktopApp:suggestRuntimeModules` lists what the dependencies need.
             // jdk.httpserver takes Google's answer when signing in with Google.
             modules("java.instrument", "java.management", "java.net.http", "java.prefs", "java.sql", "jdk.httpserver", "jdk.security.auth", "jdk.unsupported")
-            vendor = "Tayra Languages"
+            vendor = "Idiomiko"
             description = "Read foreign-language texts and learn their words"
             macOS {
-                iconFile.set(project.file("icons/TayraLanguages.icns"))
+                iconFile.set(project.file("icons/Idiomiko.icns"))
                 // Without it macOS gives the app silence in place of the microphone, which speaking practice listens to.
                 infoPlist {
                     extraKeysRawXml = """
                         <key>NSMicrophoneUsageDescription</key>
-                        <string>Tayra Languages listens to your answers when you practise speaking.</string>
+                        <string>Idiomiko listens to your answers when you practise speaking.</string>
                     """.trimIndent()
                 }
             }
             windows {
-                iconFile.set(project.file("icons/TayraLanguages.ico"))
+                iconFile.set(project.file("icons/Idiomiko.ico"))
                 msiPackageVersion = installerVersion.get()
                 // Kept for good: Windows replaces an installed version only when the new MSI has the same upgrade code.
                 upgradeUuid = "f8e8f40e-d1ad-4d01-ae94-eb98d11cfe66"
                 perUserInstall = true
                 menu = true
-                menuGroup = "Tayra Languages"
+                menuGroup = "Idiomiko"
                 shortcut = true
                 dirChooser = true
             }
             linux {
-                iconFile.set(project.file("icons/TayraLanguages.png"))
+                iconFile.set(project.file("icons/Idiomiko.png"))
                 // Debian and RPM package names are lower case; the installed app keeps its display name.
-                packageName = "tayra-languages"
+                packageName = "idiomiko"
                 debPackageVersion = installerVersion.get()
                 rpmPackageVersion = installerVersion.get()
                 appCategory = "Education"
@@ -105,10 +105,10 @@ compose.desktop {
 // while it was open broke the next screen it drew with NoClassDefFoundError. Runs start from a private copy instead;
 // replacing the copy only unlinks the old files, which an app that is still open keeps reading.
 tasks.withType<JavaExec>().matching { it.name == "run" }.configureEach {
-    // A run from the sources has no bundled `tayra`; Settings > Command-line tool puts the one :cli builds on the PATH instead.
+    // A run from the sources has no bundled `idiomiko`; Settings > Command-line tool puts the one :cli builds on the PATH instead.
     dependsOn(":cli:installDist")
     val windowsHost = System.getProperty("os.name").lowercase().contains("win")
-    systemProperty("tayra.cliLauncher", rootDir.resolve("cli/build/install/tayra/bin/" + if (windowsHost) "tayra.bat" else "tayra").absolutePath)
+    systemProperty("idiomiko.cliLauncher", rootDir.resolve("cli/build/install/idiomiko/bin/" + if (windowsHost) "idiomiko.bat" else "idiomiko").absolutePath)
     val projectRoot = rootDir.absolutePath + File.separator
     val copies = layout.buildDirectory.dir("run-classpath").get().asFile
     val fileCollections = objects
@@ -133,20 +133,20 @@ jbrJava?.let { java ->
     }
 }
 
-// The installed app carries a second launcher, `tayra`, that runs the command line of :cli on the app's own
+// The installed app carries a second launcher, `idiomiko`, that runs the command line of :cli on the app's own
 // runtime and jars: a console program on Windows, and headless so macOS shows no Dock icon for it.
 // Settings > Command-line tool puts it on the PATH.
-val cliLauncherProperties = layout.buildDirectory.file("cli-launcher/tayra.properties")
+val cliLauncherProperties = layout.buildDirectory.file("cli-launcher/idiomiko.properties")
 val writeCliLauncherProperties by tasks.registering {
     val target = cliLauncherProperties
-    val windowsIcon = project.file("icons/TayraLanguages.ico").absolutePath.replace("\\", "/")
+    val windowsIcon = project.file("icons/Idiomiko.ico").absolutePath.replace("\\", "/")
     outputs.file(target)
     doLast {
         target.get().asFile.apply {
             parentFile.mkdirs()
             writeText(
                 listOf(
-                    "main-class=com.tayra.languages.cli.MainKt",
+                    "main-class=com.idiomiko.cli.MainKt",
                     "java-options=-Djava.awt.headless=true",
                     "win-console=true",
                     "win-menu=false",
@@ -161,7 +161,7 @@ val writeCliLauncherProperties by tasks.registering {
 // Only the app image is made with jpackage's own inputs; the installers are packed from that image.
 tasks.withType<AbstractJPackageTask>().matching { it.name.startsWith("create") && it.name.endsWith("Distributable") }.configureEach {
     dependsOn(writeCliLauncherProperties)
-    freeArgs.addAll("--add-launcher", "tayra=${cliLauncherProperties.get().asFile.absolutePath}")
+    freeArgs.addAll("--add-launcher", "idiomiko=${cliLauncherProperties.get().asFile.absolutePath}")
 }
 // The given JetBrains Runtime replaces the one jlink makes, Chromium and all (see `jbr` above).
 afterEvaluate {

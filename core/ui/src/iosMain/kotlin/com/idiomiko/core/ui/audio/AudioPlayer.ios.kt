@@ -1,0 +1,64 @@
+package com.idiomiko.core.ui.audio
+
+import platform.AVFoundation.AVPlayer
+import platform.AVFoundation.AVPlayerItem
+import platform.AVFoundation.AVPlayerItemDidPlayToEndTimeNotification
+import platform.AVFoundation.AVPlayerItemFailedToPlayToEndTimeNotification
+import platform.AVFoundation.pause
+import platform.AVFoundation.play
+import platform.AVFoundation.replaceCurrentItemWithPlayerItem
+import platform.Foundation.NSNotificationCenter
+import platform.Foundation.NSOperationQueue
+import platform.Foundation.NSURL
+import platform.darwin.NSObjectProtocol
+import kotlinx.cinterop.addressOf
+import kotlinx.cinterop.usePinned
+import platform.Foundation.NSData
+import platform.Foundation.NSTemporaryDirectory
+import platform.Foundation.create
+import platform.Foundation.writeToFile
+
+actual class AudioPlayer actual constructor() {
+    private val player = AVPlayer()
+    private var observers: List<NSObjectProtocol> = emptyList()
+    private var onFinished: ((Boolean) -> Unit)? = null
+
+    // AVPlayer reports when sound begins only through key-value observing, so the clip counts as started at once.
+    actual fun play(url: String, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit) {
+        stop()
+        val nsUrl = NSURL.URLWithString(url) ?: return onFinished(true)
+        val item = AVPlayerItem(uRL = nsUrl)
+        this.onFinished = onFinished
+        val center = NSNotificationCenter.defaultCenter
+        observers = listOf(AVPlayerItemDidPlayToEndTimeNotification to false, AVPlayerItemFailedToPlayToEndTimeNotification to true).map { (name, failed) ->
+            center.addObserverForName(name, item, NSOperationQueue.mainQueue) { finish(failed) }
+        }
+        player.replaceCurrentItemWithPlayerItem(item)
+        player.play()
+        onStarted()
+    }
+
+    /** AVPlayer plays files, so a clip in memory goes through a temporary file. */
+    @OptIn(kotlinx.cinterop.ExperimentalForeignApi::class)
+    actual fun play(audio: ByteArray, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit) {
+        val path = NSTemporaryDirectory() + "idiomiko-recording.mp3"
+        val written = audio.isNotEmpty() && audio.usePinned { NSData.create(bytes = it.addressOf(0), length = audio.size.toULong()) }.writeToFile(path, atomically = true)
+        if (!written) return onFinished(true)
+        play(NSURL.fileURLWithPath(path).absoluteString ?: return onFinished(true), onStarted, onFinished)
+    }
+
+    private fun finish(failed: Boolean = false) {
+        val center = NSNotificationCenter.defaultCenter
+        observers.forEach { center.removeObserver(it) }
+        observers = emptyList()
+        onFinished?.also { onFinished = null }?.invoke(failed)
+    }
+
+    actual fun stop() {
+        player.pause()
+        player.replaceCurrentItemWithPlayerItem(null)
+        finish()
+    }
+
+    actual fun release() = stop()
+}

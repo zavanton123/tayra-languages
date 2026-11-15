@@ -1,16 +1,16 @@
-# Tayra for YouTube — privacy policy
+# Idiomiko for YouTube — privacy policy
 
 _Last updated: 11 November 2026_
 
-Tayra for YouTube is a browser extension that works together with the Tayra Languages app on your
+Idiomiko for YouTube is a browser extension that works together with the Idiomiko app on your
 own computer. This policy says what it handles and where that goes.
 
 ## What the extension sends, and where
 
-Everything the extension sends goes to the **Tayra app on the same computer**, at
+Everything the extension sends goes to the **Idiomiko app on the same computer**, at
 `http://127.0.0.1` (ports 47831–47835). Nothing leaves your computer through the extension.
 
-When you watch a YouTube video, the extension sends the Tayra app:
+When you watch a YouTube video, the extension sends the Idiomiko app:
 
 - the video's id, title, channel and length, and its subtitles and their translation as YouTube
   gives them to your browser, so the app can split the lines into words and colour them by how well
@@ -23,7 +23,7 @@ When you watch a YouTube video, the extension sends the Tayra app:
 What the app then does with them — such as translating a line with a translation service you chose
 in the app — is covered by the app's own settings and privacy policy.
 
-To connect without a pairing code, the extension asks the Tayra app's helper, which the app
+To connect without a pairing code, the extension asks the Idiomiko app's helper, which the app
 registers with your browsers, for a token. The token only lets the extension talk to the app on
 this computer.
 
@@ -33,7 +33,7 @@ In your browser's extension storage, on this computer only:
 
 - your extension settings, such as subtitle size, translation language and dictionary websites;
 - the list of words you saved from each of your last 200 videos, shown in the panel's Saved tab;
-- the token for the Tayra app.
+- the token for the Idiomiko app.
 
 Removing the extension deletes them.
 
@@ -49,4 +49,4 @@ you click them, in a new tab, with the word you clicked. Their own privacy polic
 
 ## Contact
 
-Questions about this policy: see the contact address on the Tayra Languages website.
+Questions about this policy: see the contact address on the Idiomiko website.

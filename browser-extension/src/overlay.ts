@@ -36,7 +36,7 @@ const STYLE = `
   @media (prefers-reduced-motion: reduce) { .pause-mark { animation: none; } }
   .word { cursor: pointer; border-radius: 0.2em; padding: 0 0.06em; color: #eff1f2; }
   .word:hover { outline: 2px solid rgba(239, 241, 242, 0.7); }
-  /* Tayra's dark-theme statuses: they read on a video, and dark-mode extensions leave them be. */
+  /* Idiomiko's dark-theme statuses: they read on a video, and dark-mode extensions leave them be. */
   .word.s0 { background: #34476b; }
   .word.s1 { background: #7c6735; }
   .word.s2 { background: #6e5e37; }
@@ -132,7 +132,7 @@ export interface OverlayEvents extends WordGestures {
   onExample(index: number): void;
   /** A dictionary of the card was opened. */
   onDictionaryUsed(name: string): void;
-  onOpenInTayra(): void;
+  onOpenInIdiomiko(): void;
   /** Open the transcript to print or save. */
   onPrint(): void;
   onCloseCard(): void;
@@ -186,7 +186,7 @@ export class Overlay {
     if (this.host?.parentElement === player) return true;
     this.host?.remove();
     const host = document.createElement('div');
-    host.id = 'tayra-subtitles';
+    host.id = 'idiomiko-subtitles';
     const root = host.attachShadow({ mode: 'open' });
     root.innerHTML = `<style>${STYLE}</style>
       <div class="notice"></div>
@@ -202,7 +202,7 @@ export class Overlay {
         <div class="text"><div class="line"></div><div class="translation mt"></div><div class="translation ht"></div></div>
         <div class="controls right">
           <button data-action="autopause" title="Auto-pause at the end of each line (Q)">AP</button>
-          <button data-action="settings" title="Tayra settings">${ICONS.settings}</button>
+          <button data-action="settings" title="Idiomiko settings">${ICONS.settings}</button>
           <button data-action="move" class="handle" title="Drag to move the subtitles; click to show or hide these buttons">${ICONS.move}</button>
         </div>
       </div>`;
@@ -374,7 +374,7 @@ export class Overlay {
     const panel = this.panel;
     panel.replaceChildren();
     const header = document.createElement('header');
-    header.innerHTML = '<h2>Tayra</h2><button class="close" title="Close">×</button>';
+    header.innerHTML = '<h2>Idiomiko</h2><button class="close" title="Close">×</button>';
     header.querySelector('.close')!.addEventListener('click', () => (panel.hidden = true));
     panel.append(header);
 
@@ -408,7 +408,7 @@ export class Overlay {
       select('Subtitles', choices.track ?? '', choices.tracks.map((t) => [trackKey(t), `${t.name || t.languageCode}${t.kind === 'asr' ? ' (auto)' : ''}`]), (v) => this.events.onTrack(v));
     }
     const native = choices?.native ?? 'en';
-    const languages: [string, string][] = [['', `As in Tayra (${native})`], ...(choices?.translationLanguages ?? []).map((l): [string, string] => [l.languageCode, l.name])];
+    const languages: [string, string][] = [['', `As in Idiomiko (${native})`], ...(choices?.translationLanguages ?? []).map((l): [string, string] => [l.languageCode, l.name])];
     select('Translation into', settings.translationLanguage ?? '', languages, (v) => this.events.onSettings({ translationLanguage: v || null }));
     toggle('Machine translation', settings.machineTranslation, (v) => this.events.onSettings({ machineTranslation: v }));
     toggle('Human translation, when there is one', settings.humanTranslation, (v) => this.events.onSettings({ humanTranslation: v }));
@@ -444,12 +444,12 @@ export class Overlay {
     toggle('Buttons beside the subtitles', settings.showControls, (v) => this.events.onSettings({ showControls: v }));
     toggle('Panel of subtitles and words beside the video', settings.sidePanel, (v) => this.events.onSettings({ sidePanel: v }));
 
-    section('Tayra’s Videos');
+    section('Idiomiko’s Videos');
     toggle('Add the videos I watch for half a minute', settings.addToLibrary, (v) => this.events.onSettings({ addToLibrary: v }));
     const open = document.createElement('button');
     open.className = 'reset';
-    open.textContent = 'Open this video in Tayra';
-    open.addEventListener('click', () => this.events.onOpenInTayra());
+    open.textContent = 'Open this video in Idiomiko';
+    open.addEventListener('click', () => this.events.onOpenInIdiomiko());
     panel.append(open);
     const print = document.createElement('button');
     print.className = 'reset';
@@ -473,7 +473,7 @@ export class Overlay {
       ['Q', 'Auto-pause on or off'],
       ['E', 'Reveal what is hidden'],
       ['⌘/Ctrl C', 'Copy the line'],
-      ['R', 'Bookmark the line in Tayra'],
+      ['R', 'Bookmark the line in Idiomiko'],
       ['Esc', 'Close the word card'],
       ['Right-click', 'A word’s next status'],
       ['⇧ Right-click', 'Ignore a word'],
@@ -604,7 +604,7 @@ export class Overlay {
       if (entry.dictionary) block.append(paragraph(entry.dictionary, 'muted'));
       body.append(block);
     }
-    if (!word.entries.length && !word.translation) body.append(paragraph('No dictionary entry. Install a dictionary in Tayra’s Downloads.', 'muted'));
+    if (!word.entries.length && !word.translation) body.append(paragraph('No dictionary entry. Install a dictionary in Idiomiko’s Downloads.', 'muted'));
     if (extras.examples.length) {
       body.append(heading('Also in this video'));
       for (const { index, line } of extras.examples) body.append(exampleRow(index, line, word.lc));

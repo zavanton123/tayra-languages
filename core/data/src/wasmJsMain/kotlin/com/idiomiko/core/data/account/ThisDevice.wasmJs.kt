@@ -1,0 +1,5 @@
+package com.idiomiko.core.data.account
+
+internal actual fun deviceLabel(): DeviceLabel = DeviceLabel("Browser", "web")
+
+internal actual fun accountServerOverride(): String? = null

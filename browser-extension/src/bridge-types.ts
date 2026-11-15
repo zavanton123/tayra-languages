@@ -1,4 +1,4 @@
-/** What the Tayra desktop app answers, as its bridge sends it (core/domain bridge/BridgeMessages.kt). */
+/** What the Idiomiko desktop app answers, as its bridge sends it (core/domain bridge/BridgeMessages.kt). */
 
 export interface BridgeLanguage {
   id: number;

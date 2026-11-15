@@ -11,7 +11,7 @@ export interface TokenStore {
 }
 
 /**
- * Talks to the Tayra desktop app on this computer: finds the port it listens on, and sends the
+ * Talks to the Idiomiko desktop app on this computer: finds the port it listens on, and sends the
  * pairing token with every call. Forgets the token when the app no longer knows it.
  */
 export class BridgeClient {
@@ -72,13 +72,13 @@ export class BridgeClient {
     return { ok: true, data: null };
   }
 
-  /** The port Tayra answers on, or null when the app isn't open. */
+  /** The port Idiomiko answers on, or null when the app isn't open. */
   async find(): Promise<number | null> {
     for (const port of PORTS) {
       try {
         const response = await this.send(port, 'GET', '/v1/hello', undefined, null);
         const hello = (await response.json()) as { app?: string };
-        if (response.ok && hello.app === 'tayra') {
+        if (response.ok && hello.app === 'idiomiko') {
           this.port = port;
           return port;
         }

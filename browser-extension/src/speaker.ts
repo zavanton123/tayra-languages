@@ -4,8 +4,8 @@ import { fromBase64 } from './base64';
 const KEPT = 60;
 
 /**
- * Says words and lines: with the voice chosen in Tayra (Piper or Kokoro), whose audio the app makes,
- * or with the browser's own voice when Tayra uses the system's, or isn't open.
+ * Says words and lines: with the voice chosen in Idiomiko (Piper or Kokoro), whose audio the app makes,
+ * or with the browser's own voice when Idiomiko uses the system's, or isn't open.
  */
 export class Speaker {
   private context: AudioContext | null = null;

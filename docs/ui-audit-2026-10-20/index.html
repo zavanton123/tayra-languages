@@ -1,4 +1,4 @@
-<title>Tayra UI Audit, Round Two</title>
+<title>Idiomiko UI Audit, Round Two</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
@@ -116,8 +116,8 @@ footer { color: var(--muted); font-size: 0.9rem; border-top: 1px solid var(--lin
 
 <div class="page">
   <header>
-    <div class="eyebrow">Tayra Languages · UI audit, round two · 20 October 2026</div>
-    <h1>Tayra UI Audit, Round Two</h1>
+    <div class="eyebrow">Idiomiko · UI audit, round two · 20 October 2026</div>
+    <h1>Idiomiko UI Audit, Round Two</h1>
     <p class="lede">A second pass over every screen, after all 83 findings of the first audit were fixed. It looks for what is new, what the fixes left half done and what they broke. Each finding names a fix and its effort; tick the ones to do and copy the list back.</p>
     <div class="facts" id="facts"></div>
     <p class="note">Already handled while the audit ran: the “Show study streak on home page” switch, which did nothing on Home, has been removed. The sentence translation on the flashcard front is by design and is not listed.</p>
@@ -222,7 +222,7 @@ const F = [
   ["LIB2-12","LIB","Status tabs on Courses, Books, News","low","S","The same status filter is drawn three ways (filled pills, tinted pills, segmented control), and “6 books” or “100 courses” still repeats “All 6”.","One tabs component, and a count only when the list is narrowed (“4 of 6”)."],
   ["LIB2-13","LIB","Books and Courses: progress labels","low","S","One pair of measures has three names (“99% read / 82% known”, “Reading progress / Vocabulary known”, “Reading / Vocabulary”); a started book can show “Reading 0%”; course cards show both “1 of 10 read” and “10%”.","“Read” / “Known” everywhere, “<1%” for a started book, and only “1 of 10 lessons” on course cards."],
   ["LIB2-14","LIB","Sort chip on phones","low","S","Courses' sort chip shrinks to “Recomm…” and its tabs clip “Not starte”; on Books at 130% the dropdown arrow shrinks to a dot.","Sort as an icon button with a sheet on phones, or let the label ellipsize before the arrow."],
-  ["LIB2-15","LIB","Course cards: “tayra” and “Words 1–100”","low","S","Every built-in course card carries a “tayra” source pill, and “Words 8501–8600” is unexplained.","Hide the built-in source; say “Top 100 words” / “Common words 8,501–8,600”."],
+  ["LIB2-15","LIB","Course cards: “idiomiko” and “Words 1–100”","low","S","Every built-in course card carries a “idiomiko” source pill, and “Words 8501–8600” is unexplained.","Hide the built-in source; say “Top 100 words” / “Common words 8,501–8,600”."],
   ["LIB2-16","LIB","Own course with no lessons","low","S","“0 lessons · 0 words” looks like a real course, with an empty bar, “Not started” and a chevron.","Show “No lessons yet” and a quiet “Add lesson”."],
   ["LIB2-17","LIB","Night: Courses illustration and Books bars","low","S","The empty-state disc is still the brightest thing on the dark screen, and a 0% bar's track vanishes into the card.","A dark tonal disc in dark themes, and a stronger progress track."],
 
@@ -330,8 +330,8 @@ F.filter((f) => f[4] === "S" && f[3] !== "low" && !PRIORITIES.some((p) => p[0] =
 
 // Filters and selection
 let picked = new Set();
-try { picked = new Set(JSON.parse(localStorage.getItem("tayra-audit2-picked") || "[]")); } catch (e) {}
-const save = () => { try { localStorage.setItem("tayra-audit2-picked", JSON.stringify([...picked])); } catch (e) {} };
+try { picked = new Set(JSON.parse(localStorage.getItem("idiomiko-audit2-picked") || "[]")); } catch (e) {}
+const save = () => { try { localStorage.setItem("idiomiko-audit2-picked", JSON.stringify([...picked])); } catch (e) {} };
 const state = { sev: "all", effort: "all" };
 function chips(groupId, key, options) {
   const g = document.getElementById(groupId);
@@ -371,7 +371,7 @@ function render() {
   });
   if (!shown) list.append(el("p", "empty", "No finding matches these filters."));
 }
-function selectedText() { return "Fix these Tayra UI audit (round two) findings: " + F.filter((f) => picked.has(f[0])).map((f) => f[0]).join(", "); }
+function selectedText() { return "Fix these Idiomiko UI audit (round two) findings: " + F.filter((f) => picked.has(f[0])).map((f) => f[0]).join(", "); }
 function updateSelection() {
   const n = picked.size;
   document.getElementById("sel-count").textContent = n ? n + " selected" : "None selected";

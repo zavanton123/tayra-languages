@@ -90,14 +90,14 @@ function render(transcript: PrintTranscript) {
     }
     page.append(table);
   }
-  page.append(element('footer', undefined, 'Made with Tayra for YouTube'));
+  page.append(element('footer', undefined, 'Made with Idiomiko for YouTube'));
 }
 
 async function main() {
   const transcript = await load().catch(() => null);
   const page = document.getElementById('page')!;
   if (!transcript) {
-    page.replaceChildren(element('p', 'muted', 'This transcript is no longer here. Print it again from the video’s Tayra panel.'));
+    page.replaceChildren(element('p', 'muted', 'This transcript is no longer here. Print it again from the video’s Idiomiko panel.'));
     return;
   }
   render(transcript);

@@ -1,0 +1,121 @@
+package com.idiomiko.cli
+
+import com.github.ajalt.clikt.parameters.arguments.argument
+import com.github.ajalt.clikt.parameters.options.flag
+import com.github.ajalt.clikt.parameters.options.option
+import com.github.ajalt.clikt.parameters.options.prompt
+import com.github.ajalt.clikt.parameters.options.required
+import com.idiomiko.core.domain.account.AccountInfo
+import com.idiomiko.core.domain.account.AccountRepository
+import com.idiomiko.core.domain.account.LibrarySync
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.builtins.ListSerializer
+
+// ---- Account: the Idiomiko account this computer is signed in to, for sync.
+// The service's address comes from IDIOMIKO_API_URL until the apps ship with one.
+
+fun accountCommand() = group(
+    "account", "The Idiomiko account this computer is signed in to: sign up, in and out, and what it holds",
+    AccountRegister(), AccountLogin(), AccountLogout(), AccountStatus(), AccountSendCode(), AccountConfirm(), AccountDevices(), AccountDelete(),
+)
+
+@Serializable
+data class AccountJson(val email: String, val emailVerified: Boolean, val providers: List<String>, val subscriptionActive: Boolean, val subscriptionUntil: String?, val subscriptionSource: String?)
+
+private fun AccountInfo.toJson() = AccountJson(email, emailVerified, providers, plan.active, plan.activeUntil?.toString(), plan.source)
+
+private fun AccountJson.text() = buildString {
+    append("Signed in as $email")
+    if (!emailVerified) append(" (email not confirmed)")
+    append(". Sync: ")
+    append(if (subscriptionActive) "active" + (subscriptionUntil?.let { " until $it" } ?: "") + (subscriptionSource?.let { " ($it)" } ?: "") else "not active")
+    append('.')
+}
+
+private class AccountRegister : Command("register", "Make an account and sign this computer in to it; a code to confirm the email is sent") {
+    private val email by option("--email", help = "The account's email").required()
+    private val password by option("--password", envvar = "IDIOMIKO_PASSWORD", help = "At least 8 characters; asked for when not given").prompt(hideInput = true, requireConfirmation = true)
+
+    override fun run() = respond(cli, AccountJson.serializer()) {
+        val account = cli.get<AccountRepository>().register(email, password).toJson()
+        Output(account, account.text() + " Confirm the email with `idiomiko account confirm <code>`.")
+    }
+}
+
+private class AccountLogin : Command("login", "Sign this computer in to an account") {
+    private val email by option("--email", help = "The account's email").required()
+    private val password by option("--password", envvar = "IDIOMIKO_PASSWORD", help = "Asked for when not given").prompt(hideInput = true)
+
+    override fun run() = respond(cli, AccountJson.serializer()) {
+        val account = cli.get<AccountRepository>().signIn(email, password).toJson()
+        Output(account, account.text())
+    }
+}
+
+private class AccountLogout : Command("logout", "Sign this computer out; the account and its other devices are untouched") {
+    override fun run() = respond(cli, DoneJson.serializer()) {
+        cli.get<AccountRepository>().signOut()
+        Output(DoneJson(message = "Signed out"), "Signed out.")
+    }
+}
+
+private class AccountStatus : Command("status", "The account this computer is signed in to, and whether sync is active") {
+    override fun run() = respond(cli, AccountJson.serializer()) {
+        val accounts = cli.get<AccountRepository>()
+        if (accounts.signedIn.value == null) notFound("Not signed in; `idiomiko account login --email <email>` signs in")
+        val account = accounts.account().toJson()
+        Output(account, account.text())
+    }
+}
+
+private class AccountSendCode : Command("send-code", "Email a new code to confirm the account's address") {
+    override fun run() = respond(cli, DoneJson.serializer()) {
+        cli.get<AccountRepository>().sendConfirmationCode()
+        Output(DoneJson(message = "Code sent"), "A code is on its way; `idiomiko account confirm <code>` confirms the email.")
+    }
+}
+
+private class AccountConfirm : Command("confirm", "Confirm the account's email with the code sent to it") {
+    private val code by argument(help = "The six-digit code from the email")
+
+    override fun run() = respond(cli, DoneJson.serializer()) {
+        cli.get<AccountRepository>().confirmEmail(code)
+        Output(DoneJson(message = "Email confirmed"), "Email confirmed.")
+    }
+}
+
+@Serializable
+data class DeviceJson(val id: String, val name: String, val platform: String, val lastUsed: String, val current: Boolean)
+
+private class AccountDevices : Command("devices", "The devices signed in to the account") {
+    override fun run() = respond(cli, ListSerializer(DeviceJson.serializer())) {
+        val devices = cli.get<AccountRepository>().devices().map { DeviceJson(it.id, it.name, it.platform, it.lastUsedAt.toString(), it.current) }
+        Output(devices, table(listOf("NAME", "PLATFORM", "LAST USED", ""), devices.map { listOf(it.name, it.platform, it.lastUsed.take(16).replace('T', ' '), if (it.current) "this one" else "") }))
+    }
+}
+
+private class AccountDelete : Command("delete", "Delete the account and everything the service keeps for it; the library here stays") {
+    private val yes by option("--yes", help = "Confirm: the account and its synced data are deleted").flag()
+
+    override fun run() = respond(cli, DoneJson.serializer()) {
+        if (!yes) invalid("Deleting the account removes its synced data for good; repeat with --yes")
+        cli.get<AccountRepository>().deleteAccount()
+        Output(DoneJson(message = "Account deleted"), "Account deleted; this computer is signed out.")
+    }
+}
+
+@Serializable
+data class SyncResultJson(val sent: Int, val received: Int, val changed: Int)
+
+class SyncCommand : Command("sync", "Send the words, texts, reading and learning setup changed here to the account, and take those changed on other devices") {
+    private val yes by option("--yes", help = "Confirm combining this library with the one the account already holds, on the first sync").flag()
+
+    override fun run() = respond(cli, SyncResultJson.serializer(), changes = true) {
+        val sync = cli.get<LibrarySync>()
+        if (!yes && sync.needsCombining()) {
+            invalid("The account already holds a library from another device. Syncing combines the two: the words, texts and progress of both are kept, and where the same thing was changed on both, the later change stays. Repeat with --yes")
+        }
+        val done = sync.syncNow()
+        Output(SyncResultJson(done.sent, done.received, done.changed), "Synced: ${done.sent} changes sent, ${done.received} received, ${done.changed} applied here.")
+    }
+}

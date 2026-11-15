@@ -16,7 +16,7 @@ const ORIGINS = ['https://www.youtube.com/*', 'http://127.0.0.1/*'];
 async function render() {
   const granted = await browser.permissions.contains({ origins: ORIGINS }).catch(() => true);
   if (!granted) {
-    content.replaceChildren(paragraph('Allow Tayra to work on YouTube and to reach the Tayra app on this computer.', 'muted'));
+    content.replaceChildren(paragraph('Allow Idiomiko to work on YouTube and to reach the Idiomiko app on this computer.', 'muted'));
     const allow = document.createElement('button');
     allow.textContent = 'Allow';
     // A permission is asked for from a click; the popup closes while the browser asks.
@@ -29,8 +29,8 @@ async function render() {
   if (status.ok) {
     const language = status.data.language?.name;
     content.append(
-      paragraph('Connected to Tayra', 'ok'),
-      paragraph(language ? `Open a YouTube video in ${language} to watch it with your words.` : 'Choose a language to learn in Tayra.', 'muted'),
+      paragraph('Connected to Idiomiko', 'ok'),
+      paragraph(language ? `Open a YouTube video in ${language} to watch it with your words.` : 'Choose a language to learn in Idiomiko.', 'muted'),
     );
     const forget = document.createElement('button');
     forget.className = 'quiet';
@@ -44,15 +44,15 @@ async function render() {
   }
   if (status.error === 'offline') {
     content.append(
-      paragraph('The Tayra app is not open.'),
-      paragraph('Start Tayra on this computer to look words up and colour subtitles. Without it, the extension still shows subtitles and their translation.', 'muted'),
+      paragraph('The Idiomiko app is not open.'),
+      paragraph('Start Idiomiko on this computer to look words up and colour subtitles. Without it, the extension still shows subtitles and their translation.', 'muted'),
     );
     return;
   }
   if (status.error === 'unpaired') {
     content.append(
-      paragraph('This browser could not connect to Tayra by itself.'),
-      paragraph('In Tayra, open Settings → Browser extension, press “Pair with a code”, and type the code here.', 'muted'),
+      paragraph('This browser could not connect to Idiomiko by itself.'),
+      paragraph('In Idiomiko, open Settings → Browser extension, press “Pair with a code”, and type the code here.', 'muted'),
     );
     const form = document.createElement('form');
     const input = document.createElement('input');
@@ -71,16 +71,16 @@ async function render() {
       const paired = await ask({ type: 'pair', code: input.value });
       button.disabled = false;
       if (paired.ok) await render();
-      else problem.textContent = paired.error === 'offline' ? 'The Tayra app is not open.' : 'That code is wrong or has expired. Ask Tayra for a new one.';
+      else problem.textContent = paired.error === 'offline' ? 'The Idiomiko app is not open.' : 'That code is wrong or has expired. Ask Idiomiko for a new one.';
     };
     content.append(form, problem);
     input.focus();
     return;
   }
-  content.append(paragraph(status.message ?? 'Tayra could not answer.', 'error'));
+  content.append(paragraph(status.message ?? 'Idiomiko could not answer.', 'error'));
 }
 
-/** Turns the Tayra subtitles on YouTube on or off. */
+/** Turns the Idiomiko subtitles on YouTube on or off. */
 async function enabledSwitch(): Promise<HTMLElement> {
   const settings = await loadSettings();
   const row = document.createElement('label');
@@ -89,7 +89,7 @@ async function enabledSwitch(): Promise<HTMLElement> {
   box.type = 'checkbox';
   box.checked = settings.enabled;
   box.onchange = async () => saveSettings({ ...(await loadSettings()), enabled: box.checked });
-  row.append(box, 'Tayra subtitles on YouTube');
+  row.append(box, 'Idiomiko subtitles on YouTube');
   return row;
 }
 

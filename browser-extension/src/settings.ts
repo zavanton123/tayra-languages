@@ -23,7 +23,7 @@ export interface ExtensionSettings {
   machineTranslation: boolean;
   /** Subtitles a person made in the translation language, when the video has them. */
   humanTranslation: boolean;
-  /** The language translations are in; null for the native language set in Tayra. */
+  /** The language translations are in; null for the native language set in Idiomiko. */
   translationLanguage: string | null;
   /** Arrows move between lines too, instead of YouTube's 5-second jumps. */
   arrowKeys: boolean;
@@ -47,7 +47,7 @@ export interface ExtensionSettings {
   dictionaries: DictionaryLink[];
   /** The dictionary Shift+click opens: the one used last. */
   lastDictionary: string | null;
-  /** Videos watched for a while go into Tayra's Videos. */
+  /** Videos watched for a while go into Idiomiko's Videos. */
   addToLibrary: boolean;
   /** What shows above Japanese and Chinese words. */
   readings: ReadingMode;

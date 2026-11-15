@@ -3,9 +3,9 @@ import Shared
 
 /// sherpa-onnx speech for the shared code: downloads, unpacking and synthesis on a background queue.
 final class SherpaSpeechBridge: NSObject, OnDeviceSpeechBridge {
-    private let queue = DispatchQueue(label: "com.tayra.languages.speech", qos: .userInitiated)
+    private let queue = DispatchQueue(label: "com.idiomiko.speech", qos: .userInitiated)
     private let synthesizer = SherpaSynthesizer()
-    private let transcription = DispatchQueue(label: "com.tayra.languages.transcription", qos: .userInitiated)
+    private let transcription = DispatchQueue(label: "com.idiomiko.transcription", qos: .userInitiated)
     private let job = TranscriptionJob()
 
     func download(url: String, destination: String, progress: @escaping (KotlinLong, KotlinLong) -> Void, completion: @escaping (String?) -> Void) {
@@ -58,7 +58,7 @@ final class SherpaSpeechBridge: NSObject, OnDeviceSpeechBridge {
             return
         }
         // AVFoundation reads only local files here, and goes by the extension to know what it is reading.
-        let source = NSTemporaryDirectory() + "tayra-transcription-source." + (address.pathExtension.isEmpty ? "mp4" : address.pathExtension)
+        let source = NSTemporaryDirectory() + "idiomiko-transcription-source." + (address.pathExtension.isEmpty ? "mp4" : address.pathExtension)
         let task = FileDownload.start(url: url, destination: source, progress: { done, total in
             progress(total > done ? KotlinFloat(value: VideoSound.downloadShare * Float(done) / Float(total)) : nil)
         }, completion: { error in

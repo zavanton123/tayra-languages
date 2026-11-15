@@ -1,8 +1,8 @@
-# Tayra Languages
+# Idiomiko
 
 **Learn a language by reading what you love.**
 
-Tayra Languages turns any text into a reading lesson. Import a story, an article or a book,
+Idiomiko turns any text into a reading lesson. Import a story, an article or a book,
 read it page by page, tap the words you do not know, and watch the highlights fade as the
 words become yours. It runs on Android, iOS, macOS, Windows, Linux and in the browser, and
 everything you learn stays on your own device.
@@ -156,7 +156,7 @@ them and read as words of their own (학교에서 is 학교 + 에서), and verbs
 
 ## Command line
 
-The desktop app comes with `tayra`, a command-line tool for the same library: add books and
+The desktop app comes with `idiomiko`, a command-line tool for the same library: add books and
 courses, read a page's words with their statuses, change statuses, export to Anki, make and
 restore backups. Every command can answer in JSON, so AI agents can use it too. Settings >
 Command-line tool puts it on the PATH; [docs/CLI.md](docs/CLI.md) describes it.
@@ -183,7 +183,7 @@ Details for contributors, from the module layout to how dictionary packs are bui
 
 ## Licence
 
-Tayra Languages is free software under the GNU General Public License, version 3 or later
+Idiomiko is free software under the GNU General Public License, version 3 or later
 ([LICENSE](LICENSE)). It began as a port of [Lute](https://github.com/LuteOrg/lute-v3) (MIT), and
 its language rules (text normalisation and inflection) are ported from
 [Yomitan](https://github.com/yomidevs/yomitan) (GPL-3.0). Dictionary packs are built from Wiktionary

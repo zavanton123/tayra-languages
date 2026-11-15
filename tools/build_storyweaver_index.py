@@ -39,10 +39,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "tools/books/.cache/storyweaver")
 READ = os.path.join(CACHE, "books.jsonl")
 OUT = os.path.join(ROOT, "data/storyweaver")
-SOURCES = os.path.join(ROOT, "core/domain/src/commonMain/kotlin/com/tayra/languages/core/domain/books/discover/BookDiscovery.kt")
+SOURCES = os.path.join(ROOT, "core/domain/src/commonMain/kotlin/com/idiomiko/core/domain/books/discover/BookDiscovery.kt")
 CHANNEL = "131e543dbecf5776bb13cfcfddf05605"
 STUDIO = "https://studio.learningequality.org"
-USER_AGENT = "TayraLanguages/1.0 (https://github.com/zavanton123/tayra-languages)"
+USER_AGENT = "Idiomiko/1.0 (https://github.com/zavanton123/tayra-languages)"
 
 # The back cover's language names, by the app's codes; a name not here is a language the app does not know.
 LANGUAGES = {

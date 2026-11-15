@@ -1,4 +1,4 @@
-/** Tayra's word statuses (TermStatus), as the bridge numbers them. */
+/** Idiomiko's word statuses (TermStatus), as the bridge numbers them. */
 export const UNKNOWN = 0;
 export const IGNORED = 98;
 export const KNOWN = 99;

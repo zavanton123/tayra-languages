@@ -1,0 +1,173 @@
+package com.idiomiko.core.domain.service
+
+import com.idiomiko.core.domain.model.ReadingStage
+import com.idiomiko.core.domain.book.SentenceBuilder
+import com.idiomiko.core.domain.model.Book
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.Page
+import com.idiomiko.core.domain.model.Term
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.model.WordsReadEntry
+import com.idiomiko.core.domain.parse.ParsedToken
+import com.idiomiko.core.domain.parse.lowercase
+import com.idiomiko.core.domain.parse.parseTokens
+import com.idiomiko.core.domain.render.MultiwordTermIndex
+import com.idiomiko.core.domain.render.RenderedPage
+import com.idiomiko.core.domain.render.TextItem
+import com.idiomiko.core.domain.render.TextItemCalculator
+import com.idiomiko.core.domain.repository.BookRepository
+import com.idiomiko.core.domain.repository.LanguageRepository
+import com.idiomiko.core.domain.repository.TermRepository
+import com.idiomiko.core.domain.repository.WordsReadRepository
+import kotlin.time.Clock
+
+/** Everything needed to show a page of a book. */
+data class ReadingPage(
+    val book: Book,
+    val language: Language,
+    val page: Page,
+    val pageCount: Int,
+    val rendered: RenderedPage,
+)
+
+class ReadingService(
+    private val books: BookRepository,
+    private val languages: LanguageRepository,
+    private val terms: TermRepository,
+    private val wordsRead: WordsReadRepository,
+    private val termService: TermService,
+    private val lexicons: LexiconService? = null,
+    private val clock: Clock = Clock.System,
+) {
+
+    /**
+     * Loads and renders a page. When [trackOpen] is true the page becomes the book's
+     * current page and its start date is recorded.
+     */
+    suspend fun openPage(bookId: Long, pageNumber: Int, trackOpen: Boolean): ReadingPage {
+        val book = books.getBook(bookId) ?: throw NoSuchElementException("No book $bookId")
+        val language = languages.getById(book.languageId) ?: throw NoSuchElementException("No language ${book.languageId}")
+        val pageCount = books.pageCount(bookId)
+        val order = pageNumber.coerceIn(1, maxOf(pageCount, 1))
+        val page = books.getPage(bookId, order) ?: throw NoSuchElementException("No page $order in book $bookId")
+
+        lexicons?.prepare(language)
+        books.replaceSentences(page.id, SentenceBuilder.build(page.text, language))
+        books.clearStats(bookId)
+        if (trackOpen) {
+            books.setPageStartDate(page.id, clock.now())
+            books.setCurrentPage(bookId, page.id)
+        }
+
+        val rendered = renderPage(page.text, language)
+        return ReadingPage(book, language, page, pageCount, rendered)
+    }
+
+    /** Current page number of the book (1 if never opened). */
+    suspend fun currentPageNumber(book: Book): Int =
+        book.currentPageId?.let { books.getPageById(it)?.order } ?: 1
+
+    /**
+     * Renders text, persisting new status-0 terms so every word has a term id.
+     */
+    suspend fun renderPage(text: String, language: Language): RenderedPage {
+        lexicons?.prepare(language)
+        val tokens = language.parseTokens(text)
+        var found = findTermsInTokens(tokens, language)
+        var result = TextItemCalculator.calculate(tokens, found, language)
+        if (result.newTerms.isNotEmpty()) {
+            terms.insertAll(result.newTerms)
+            found = findTermsInTokens(tokens, language)
+            result = TextItemCalculator.calculate(tokens, found, language)
+        }
+        return TextItemCalculator.toPage(result.items)
+    }
+
+    /**
+     * The sentences of page [pageNumber] as the reader shows them, without touching the database,
+     * so a page can be got ready before it is opened; null when the book has no such page.
+     */
+    suspend fun sentenceTexts(bookId: Long, pageNumber: Int): List<String>? {
+        val book = books.getBook(bookId) ?: return null
+        val language = languages.getById(book.languageId) ?: return null
+        if (pageNumber < 1 || pageNumber > books.pageCount(bookId)) return null
+        val page = books.getPage(bookId, pageNumber) ?: return null
+        return TextItemCalculator.toPage(renderItems(page.text, language)).paragraphs.flatMap { it.sentences }.map { it.displayText }
+    }
+
+    /** Renders text without touching the database (used for statistics). */
+    suspend fun renderItems(text: String, language: Language, multiwordIndex: MultiwordTermIndex? = null): List<TextItem> {
+        lexicons?.prepare(language)
+        val tokens = language.parseTokens(text)
+        val found = findTermsInTokens(tokens, language, multiwordIndex)
+        return TextItemCalculator.calculate(tokens, found, language).items
+    }
+
+    /** Saved terms (single and multi-word) contained in the text. */
+    suspend fun findTermsInText(text: String, language: Language): List<Term> {
+        lexicons?.prepare(language)
+        return findTermsInTokens(language.parseTokens(text.replace(Regex(" +"), " ")), language)
+    }
+
+    suspend fun findTermsInTokens(
+        tokens: List<ParsedToken>,
+        language: Language,
+        multiwordIndex: MultiwordTermIndex? = null,
+    ): List<Term> {
+        val tokensLc = tokens.map { language.lowercase(it.token) }
+        val index = multiwordIndex ?: multiwordIndex(language)
+        val textLcs = LinkedHashSet<String>(tokensLc)
+        textLcs.addAll(index.findTerms(tokensLc))
+        return terms.findByTextLcs(language.id, textLcs)
+    }
+
+    suspend fun multiwordIndex(language: Language): MultiwordTermIndex =
+        MultiwordTermIndex(terms.multiwordTerms(language.id).map { it.textLc })
+
+    /**
+     * Marks the page read, records the words read, and optionally sets unknown words to well known;
+     * returns the terms it set, so they can be put back.
+     */
+    suspend fun markPageRead(bookId: Long, pageNumber: Int, markRestAsKnown: Boolean): List<Long> {
+        val book = books.getBook(bookId) ?: return emptyList()
+        val page = books.getPage(bookId, pageNumber) ?: return emptyList()
+        val language = languages.getById(book.languageId) ?: return emptyList()
+        val now = clock.now()
+        books.setPageReadDate(page.id, now)
+        books.replaceSentences(page.id, SentenceBuilder.build(page.text, language))
+        wordsRead.add(WordsReadEntry(language.id, page.id, now, page.wordCount))
+        return if (markRestAsKnown) setUnknownsToWellKnown(page.text, language) else emptyList()
+    }
+
+    /** Marks [stage] done on the page; returns the page's stages done now. */
+    suspend fun checkStage(bookId: Long, pageNumber: Int, stage: ReadingStage): Set<ReadingStage> {
+        val page = books.getPage(bookId, pageNumber) ?: return emptySet()
+        val stages = page.stages + stage
+        if (stages != page.stages) books.setPageStages(page.id, stages)
+        return stages
+    }
+
+    /** Sets the page's unknown words to well known and returns their terms. */
+    suspend fun setUnknownsToWellKnown(text: String, language: Language): List<Long> {
+        val rendered = renderPage(text, language)
+        val unknownIds = rendered.words
+            .filter { it.status == TermStatus.UNKNOWN }
+            .mapNotNull { it.termId }
+            .distinct()
+        if (unknownIds.isNotEmpty()) termService.setStatus(unknownIds, TermStatus.WELL_KNOWN)
+        return unknownIds
+    }
+
+    /** Puts terms marked known by [markPageRead] back to unknown. */
+    suspend fun restoreUnknown(termIds: List<Long>) {
+        if (termIds.isNotEmpty()) termService.setStatus(termIds, TermStatus.UNKNOWN)
+    }
+
+    /** Creates or updates terms for the given texts with the status; [sentence] is the one they are read in. */
+    suspend fun setStatusForTexts(language: Language, texts: List<String>, status: TermStatus, sentence: String? = null) {
+        for (text in texts) {
+            val draft = termService.findOrNew(language.id, text).copy(status = status, statusExplicitlySet = true)
+            termService.save(draft, sentence)
+        }
+    }
+}

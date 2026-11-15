@@ -1,0 +1,29 @@
+package com.idiomiko.core.domain.morphology
+
+import com.idiomiko.core.domain.morphology.rules.*
+
+/** The inflection rules exported from Yomitan (rules/<Code>Transforms.kt), by Yomitan's language code. */
+internal val transformRules: Map<String, () -> List<String>> = mapOf(
+    "ar" to { arTransforms },
+    "arz" to { arTransforms },
+    "de" to { deTransforms },
+    "el" to { elTransforms },
+    "en" to { enTransforms },
+    "eo" to { eoTransforms },
+    "es" to { esTransforms },
+    "eu" to { euTransforms },
+    "fr" to { frTransforms },
+    "ga" to { gaTransforms },
+    "grc" to { grcTransforms },
+    // Yomitan's Japanese rules, and Idiomiko's for the forms 10ten Japanese Reader knows besides.
+    "ja" to { jaTransforms + jaExtraTransforms(jaTransforms) },
+    "ka" to { kaTransforms },
+    "ko" to { koTransforms },
+    "la" to { laTransforms },
+    "sga" to { sgaTransforms },
+    "sq" to { sqTransforms },
+    "tl" to { tlTransforms },
+    "uk" to { ukTransforms },
+    "yi" to { yiTransforms },
+    // Egyptian Arabic has the same rules as Modern Standard Arabic in Yomitan.
+)

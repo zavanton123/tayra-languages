@@ -1,4 +1,4 @@
-# Tayra Languages UI/UX Redesign Plan
+# Idiomiko UI/UX Redesign Plan
 
 Status: implemented on branch `ui-redesign`, except the items listed in section 15  
 Date: 23 October 2026  
@@ -6,7 +6,7 @@ Scope: Android, iOS, desktop and web Compose UI, with mobile as the first implem
 
 ## 1. Decision summary
 
-The redesign should be driven by learning flows, not by a new visual style. Tayra already has a coherent colour system, typography scale, icon library and adaptive Compose architecture. The work should therefore:
+The redesign should be driven by learning flows, not by a new visual style. Idiomiko already has a coherent colour system, typography scale, icon library and adaptive Compose architecture. The work should therefore:
 
 1. Make the next useful learning action obvious.
 2. Connect reading, vocabulary, flashcards and listening into one loop.
@@ -596,9 +596,9 @@ Initial slice:
 
 Expected primary files:
 
-- `feature/reading/src/commonMain/kotlin/com/tayra/languages/feature/reading/ReadingScreen.kt`
-- `feature/reading/src/jvmTest/kotlin/com/tayra/languages/feature/reading/ReadingHoverTest.kt`
-- `feature/reading/src/jvmTest/kotlin/com/tayra/languages/feature/reading/ReadingTextTest.kt`
+- `feature/reading/src/commonMain/kotlin/com/idiomiko/feature/reading/ReadingScreen.kt`
+- `feature/reading/src/jvmTest/kotlin/com/idiomiko/feature/reading/ReadingHoverTest.kt`
+- `feature/reading/src/jvmTest/kotlin/com/idiomiko/feature/reading/ReadingTextTest.kt`
 
 Only touch shared core UI components if the reader cannot implement the behaviour locally without duplication. If shared files are required, reconcile their current uncommitted changes first.
 

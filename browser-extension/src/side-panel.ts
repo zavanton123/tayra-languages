@@ -88,12 +88,12 @@ export interface SidePanelEvents extends WordGestures {
   onSeek(index: number): void;
   onSettings(change: Partial<ExtensionSettings>): void;
   onMarkKnown(words: VideoWord[]): void;
-  /** Take a word off the video's saved list; Tayra keeps it. */
+  /** Take a word off the video's saved list; Idiomiko keeps it. */
   onForget(lc: string): void;
   onCopy(text: string): void;
   /** Say line [text]. */
   onSpeak(text: string): void;
-  onOpenInTayra(): void;
+  onOpenInIdiomiko(): void;
   /** Open the transcript to print or save. */
   onPrint(): void;
 }
@@ -135,16 +135,16 @@ export class SidePanel {
     if (this.host?.parentElement === column) return true;
     this.host?.remove();
     const host = document.createElement('div');
-    host.id = 'tayra-side-panel';
+    host.id = 'idiomiko-side-panel';
     const root = host.attachShadow({ mode: 'open' });
     root.innerHTML = `<style>${STYLE}</style>
       <div class="panel">
         <header>
-          <span class="brand">Tayra</span>
+          <span class="brand">Idiomiko</span>
           <button class="tab" data-tab="subtitles">Subtitles</button>
           <button class="tab" data-tab="words">Words</button>
           <button class="tab" data-tab="saved">Saved</button>
-          <button class="open" title="Open this video in the Tayra app, where you are in it" hidden>Open in Tayra</button>
+          <button class="open" title="Open this video in the Idiomiko app, where you are in it" hidden>Open in Idiomiko</button>
           <button class="fold" title="Fold the panel"></button>
         </header>
         <div class="toolbar"></div>
@@ -160,7 +160,7 @@ export class SidePanel {
       const target = event.target as HTMLElement;
       const tab = target.closest<HTMLElement>('[data-tab]')?.dataset.tab as PanelTab | undefined;
       if (tab) this.events.onSettings({ panelTab: tab, panelOpen: true });
-      else if (target.closest('.open')) this.events.onOpenInTayra();
+      else if (target.closest('.open')) this.events.onOpenInIdiomiko();
       else if (target.closest('.fold')) this.events.onSettings({ panelOpen: !(this.settings?.panelOpen ?? true) });
     });
     listenToWords(this.body, (element) => {
@@ -357,7 +357,7 @@ export class SidePanel {
       this.footer.append(mark);
       return;
     }
-    this.footer.append(`Mark ${fresh.length} words as known in Tayra?`);
+    this.footer.append(`Mark ${fresh.length} words as known in Idiomiko?`);
     const yes = pill('Mark as known', true);
     yes.addEventListener('click', () => {
       this.confirming = false;
@@ -422,7 +422,7 @@ export class SidePanel {
   }
 
   private renderWords() {
-    if (!this.words) return this.body.append(empty('Open the Tayra app, with this video’s language as the one you learn, to see its words.'));
+    if (!this.words) return this.body.append(empty('Open the Idiomiko app, with this video’s language as the one you learn, to see its words.'));
     const all = videoWords(this.lines, this.changed, this.ranks);
     if (!all.length) return this.body.append(empty('No words yet.'));
     const share = Math.round(knownShare(all) * 100);
@@ -469,7 +469,7 @@ export class SidePanel {
       head.append(wordSpan(saved.term, saved.term, saved.lc, statuses.get(saved.lc) ?? this.changed.get(saved.lc) ?? null, index));
       const forget = document.createElement('button');
       forget.className = 'forget';
-      forget.title = 'Take it off this list (Tayra keeps the word)';
+      forget.title = 'Take it off this list (Idiomiko keeps the word)';
       forget.dataset.forget = saved.lc;
       forget.textContent = '×';
       item.append(head, forget, example(`${clock(saved.beginMs)}  ${saved.line}`, index));

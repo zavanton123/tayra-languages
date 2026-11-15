@@ -1,4 +1,4 @@
-rootProject.name = "tayra-languages"
+rootProject.name = "idiomiko"
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 

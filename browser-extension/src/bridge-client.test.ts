@@ -18,7 +18,7 @@ function app(port: number | null, calls: string[] = []) {
     calls.push(`${init?.method} ${url.port}${url.pathname}`);
     if (Number(url.port) !== port) throw new TypeError('connection refused');
     const json = (status: number, body: unknown) => new Response(JSON.stringify(body), { status });
-    if (url.pathname === '/v1/hello') return json(200, { app: 'tayra', api: 1 });
+    if (url.pathname === '/v1/hello') return json(200, { app: 'idiomiko', api: 1 });
     if (url.pathname === '/v1/pair') {
       const sent = JSON.parse(String(init?.body)) as { code: string };
       return sent.code === '123456' ? json(200, { token: 't' }) : json(403, { error: 'Wrong or expired code' });

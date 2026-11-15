@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Argos Translate worker for Tayra Languages.
+"""Argos Translate worker for Idiomiko.
 
 Reads one JSON request per line on stdin and writes one JSON reply per line on stdout:
   {"id": 1, "cmd": "status"}                          -> {"id": 1, "version": "...", "pairs": ["pt-en", ...]}

@@ -1,30 +1,30 @@
 plugins {
-    id("tayra.kmp.library")
+    id("idiomiko.kmp.library")
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.sqldelight)
 }
 
 sqldelight {
     databases {
-        create("TayraDatabase") {
-            packageName.set("com.tayra.languages.core.data.db")
+        create("IdiomikoDatabase") {
+            packageName.set("com.idiomiko.core.data.db")
             generateAsync.set(true)
         }
         // Read-only dictionaries shipped as prebuilt SQLite files (tools/build_english_russian_dictionary.py).
         create("DictionaryDatabase") {
-            packageName.set("com.tayra.languages.core.data.dictionary")
+            packageName.set("com.idiomiko.core.data.dictionary")
             srcDirs.setFrom("src/commonMain/sqldelight-dictionary")
             generateAsync.set(true)
         }
         // Read-only course packs downloaded from Settings > Courses (tools/build_courses.py).
         create("CoursePackDatabase") {
-            packageName.set("com.tayra.languages.core.data.coursepack")
+            packageName.set("com.idiomiko.core.data.coursepack")
             srcDirs.setFrom("src/commonMain/sqldelight-coursepack")
             generateAsync.set(true)
         }
         // Read-only book packs downloaded from Settings > Books (tools/build_books.py).
         create("BookPackDatabase") {
-            packageName.set("com.tayra.languages.core.data.bookpack")
+            packageName.set("com.idiomiko.core.data.bookpack")
             srcDirs.setFrom("src/commonMain/sqldelight-bookpack")
             generateAsync.set(true)
         }
@@ -53,19 +53,19 @@ fun tesseractNatives(platform: String): List<String> = listOf(
 )
 
 // The account service's address the apps are built with (-PaccountServer=https://…, or
-// TAYRA_ACCOUNT_SERVER); empty builds have no account service.
-val accountServer = providers.gradleProperty("accountServer").orElse(providers.environmentVariable("TAYRA_ACCOUNT_SERVER")).orElse("")
+// IDIOMIKO_ACCOUNT_SERVER); empty builds have no account service.
+val accountServer = providers.gradleProperty("accountServer").orElse(providers.environmentVariable("IDIOMIKO_ACCOUNT_SERVER")).orElse("")
 val generateBuildAccountServer by tasks.registering {
     val server = accountServer
     val output = layout.buildDirectory.dir("generated/accountServer/kotlin")
     inputs.property("accountServer", server)
     outputs.dir(output)
     doLast {
-        val file = output.get().file("com/tayra/languages/core/data/account/BuildAccountServer.kt").asFile
+        val file = output.get().file("com/idiomiko/core/data/account/BuildAccountServer.kt").asFile
         file.parentFile.mkdirs()
         val value = server.get().trim().replace("\\", "").replace("\"", "").replace("$", "")
         file.writeText(
-            "package com.tayra.languages.core.data.account\n\n" +
+            "package com.idiomiko.core.data.account\n\n" +
                 "/** The account service's address this build was made with; empty for none. */\n" +
                 "internal const val BUILD_ACCOUNT_SERVER = \"$value\"\n",
         )

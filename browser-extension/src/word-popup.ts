@@ -58,7 +58,7 @@ export class WordPopup {
     if (this.host?.parentElement === parent) return;
     if (!this.host) {
       this.host = document.createElement('div');
-      this.host.id = 'tayra-word-popup';
+      this.host.id = 'idiomiko-word-popup';
       const root = this.host.attachShadow({ mode: 'open' });
       root.innerHTML = `<style>${STYLE}</style><div class="popup" hidden></div>`;
       this.popup = root.querySelector('.popup')!;

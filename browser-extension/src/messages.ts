@@ -1,6 +1,6 @@
 /** Messages between the script in YouTube's own page and the extension's script beside it, sent with window.postMessage. */
 
-export const CHANNEL = 'tayra-youtube';
+export const CHANNEL = 'idiomiko-youtube';
 
 export interface CaptionTrack {
   languageCode: string;

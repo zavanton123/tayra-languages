@@ -1,0 +1,25 @@
+package com.idiomiko.core.data.account
+
+import app.cash.sqldelight.async.coroutines.awaitAsOne
+import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.db.databaseDispatcher
+import com.idiomiko.sync.DeviceInfo
+import kotlinx.coroutines.withContext
+
+/** How this device is shown in the account's list of devices: its name and what kind of device it is. */
+internal data class DeviceLabel(val name: String, val platform: String)
+
+internal expect fun deviceLabel(): DeviceLabel
+
+/** The account service this build talks to: the one it was made with, unless the platform sets another; null for none. */
+internal fun defaultAccountServer(): String? = accountServerOverride() ?: BUILD_ACCOUNT_SERVER.takeIf { it.isNotBlank() }
+
+/** An account service's address set on the platform instead of the build's, for one run locally; null for none. */
+internal expect fun accountServerOverride(): String?
+
+/** This device as the account service knows it: the id its sync state was given, and its label. */
+internal suspend fun thisDevice(provider: DatabaseProvider): DeviceInfo {
+    val id = withContext(databaseDispatcher) { provider.database().syncQueries.state().awaitAsOne().device_id }
+    val label = deviceLabel()
+    return DeviceInfo(id, label.name, label.platform)
+}

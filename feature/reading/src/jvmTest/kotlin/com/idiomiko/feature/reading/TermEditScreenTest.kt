@@ -1,0 +1,279 @@
+package com.idiomiko.feature.reading
+
+import androidx.compose.ui.test.hasAnyAncestor
+import androidx.compose.ui.test.isDialog
+import androidx.compose.ui.semantics.SemanticsActions
+import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.hasTestTag
+import org.koin.core.parameter.parametersOf
+import org.koin.compose.viewmodel.koinViewModel
+import com.idiomiko.feature.terms.form.TermFormPanel
+import com.idiomiko.core.ui.components.WindowWidth
+import com.idiomiko.core.ui.components.LocalWindowWidth
+import androidx.compose.ui.test.isToggleable
+import com.idiomiko.core.data.repository.FlashcardRepositoryImpl
+import com.idiomiko.core.domain.flashcards.FlashcardService
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.test.ComposeUiTest
+import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.isSelectable
+import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.runDesktopComposeUiTest
+import com.russhwolf.settings.MapSettings
+import com.idiomiko.core.data.db.DatabaseDriverFactory
+import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.network.KtorRecordingFetcher
+import com.idiomiko.core.data.network.createHttpClient
+import com.idiomiko.core.data.repository.BookRepositoryImpl
+import com.idiomiko.core.data.repository.LanguageRepositoryImpl
+import com.idiomiko.core.data.repository.TermRepositoryImpl
+import com.idiomiko.core.data.repository.WordsReadRepositoryImpl
+import com.idiomiko.core.data.settings.SettingsRepositoryImpl
+import com.idiomiko.core.domain.dictionary.DictionaryEntry
+import com.idiomiko.core.domain.dictionary.DictionaryId
+import com.idiomiko.core.domain.dictionary.DictionaryPack
+import com.idiomiko.core.domain.dictionary.DictionaryPackStore
+import com.idiomiko.core.domain.dictionary.DictionarySense
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.Term
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.repository.DictionaryRepository
+import com.idiomiko.core.domain.service.DictionaryService
+import com.idiomiko.core.domain.service.ExampleRecordings
+import com.idiomiko.core.domain.service.ExampleSearchQuery
+import com.idiomiko.core.domain.service.ExampleSearchResult
+import com.idiomiko.core.domain.service.ExampleSentence
+import com.idiomiko.core.domain.service.ExampleSentencesProvider
+import com.idiomiko.core.domain.service.LocalSpeech
+import com.idiomiko.core.domain.service.MemorySpeechAudioCache
+import com.idiomiko.core.domain.service.ReadingService
+import com.idiomiko.core.domain.service.SentenceAudio
+import com.idiomiko.core.domain.service.TermService
+import com.idiomiko.core.domain.service.TermTranslationProvider
+import com.idiomiko.core.domain.service.WordTranslationService
+import com.idiomiko.core.domain.settings.SettingsRepository
+import com.idiomiko.core.ui.components.LearningLanguageState
+import com.idiomiko.core.ui.components.LocalLearningLanguage
+import com.idiomiko.core.ui.components.ProvideWindowWidth
+import com.idiomiko.core.ui.theme.IdiomikoTheme
+import com.idiomiko.feature.terms.examples.ExampleTerms
+import com.idiomiko.feature.terms.form.TermEditDestination
+import com.idiomiko.feature.terms.form.TermEditScreen
+import com.idiomiko.feature.terms.form.TermFormKey
+import com.idiomiko.feature.terms.form.TermFormViewModel
+import kotlinx.coroutines.runBlocking
+import org.koin.core.context.startKoin
+import org.koin.core.context.stopKoin
+import org.koin.core.module.dsl.viewModel
+import org.koin.dsl.module
+import java.io.File
+import javax.imageio.ImageIO
+import kotlin.test.AfterTest
+import kotlin.test.Test
+import kotlin.test.assertEquals
+import kotlin.test.assertTrue
+import com.idiomiko.core.data.repository.PracticeProgressRepositoryImpl
+import com.idiomiko.core.domain.practice.WordProgress
+import kotlin.time.Instant
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import com.idiomiko.core.ui.navigation.Route
+import com.idiomiko.feature.terms.termsGraph
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.material3.Text
+
+/** The term editor page shows the term, its dictionary entry, examples, status and links, and saves a new status. */
+@OptIn(ExperimentalTestApi::class)
+class TermEditScreenTest {
+
+    @AfterTest
+    fun tearDown() {
+        stopKoin()
+    }
+
+    @Test
+    fun theEditorShowsEveryPartAndSavesTheStatus() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val editor = openEditor("semana", DictionaryId("pt", "en"))
+        val (termId, terms, flashcards) = editor
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("a week's wages")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Tom lê vários livros por semana.")).fetchSemanticsNodes().isNotEmpty() }
+        for (part in listOf("Term information", "Learning status", "Flashcard", "Dictionaries", "Delete term", "Edit term")) {
+            assertTrue(onAllNodes(hasText(part)).fetchSemanticsNodes().isNotEmpty(), "$part is shown")
+        }
+        System.getenv("TERM_EDIT_SCREENSHOT")?.let { save(it) }
+
+        // A term being learned has a flashcard, which can be set aside from here.
+        onNodeWithText("Not shown yet").assertExists()
+        onNode(isToggleable()).performClick()
+        waitUntil(timeoutMillis = 10_000) { runBlocking { flashcards.cardFor(termId) }?.suspended == true }
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("New card, suspended")).fetchSemanticsNodes().isNotEmpty() }
+        onNode(isToggleable()).performClick()
+        waitUntil(timeoutMillis = 10_000) { runBlocking { flashcards.cardFor(termId) }?.suspended == false }
+
+        onAllNodes(hasText("2") and isSelectable())[0].performClick()
+        onNodeWithText("Save changes").performClick()
+        waitUntil(timeoutMillis = 10_000) { editor.done }
+        assertEquals(TermStatus.NEW_2, runBlocking { terms.getById(termId) }?.status)
+    }
+
+    /** With only another edition of the pair installed, a word it lacks is offered the Wiktionary pack for more words, not told a dictionary is missing. */
+    @Test
+    fun aWordMissingFromAnotherEditionIsOfferedTheFullerPack() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        openEditor("bocejava", DictionaryId("pt", "en", edition = DictionaryId.FREEDICT))
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Download Wiktionary dictionary")).fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(onAllNodes(hasText("No entry for “bocejava” in FreeDict", substring = true)).fetchSemanticsNodes().isNotEmpty())
+        assertTrue(onAllNodes(hasText("is not downloaded", substring = true)).fetchSemanticsNodes().isEmpty())
+    }
+
+    private class Editor(val termId: Long, val terms: TermRepositoryImpl, val flashcards: FlashcardService) {
+        var done = false
+        operator fun component1() = termId
+        operator fun component2() = terms
+        operator fun component3() = flashcards
+    }
+
+    /** The editor for [word], a Portuguese term being learned, with only the [installed] dictionary of the pair on the device. */
+    private fun ComposeUiTest.openEditor(word: String, installed: DictionaryId, sheet: Boolean = false, practised: List<WordProgress.Answer> = emptyList(), asDialog: Boolean = false, navigated: Boolean = false): Editor {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-term-edit", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val terms = TermRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val languageId = runBlocking { languages.save(Language(name = "Portuguese")) }
+        val termId = runBlocking { terms.save(Term(languageId = languageId, text = word, textLc = word, status = TermStatus.NEW_1, translation = "week", sentence = "Uma frase com $word.")) }
+        val examples = listOf(
+            ExampleSentence(text = "Quantas vezes por semana tu te banhas?", translation = null),
+            ExampleSentence(text = "Tom lê vários livros por semana.", translation = null),
+            ExampleSentence(text = "Que é que você estava fazendo em Boston na semana passada?", translation = null),
+        )
+        val sentences = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult(examples, 762, null)
+            override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
+        }
+        val engine = object : TermTranslationProvider {
+            override val name = "Fake"
+            override suspend fun suggestTranslation(text: String, language: Language): String? = null
+        }
+        val dictionaries = DictionaryService(
+            object : DictionaryPackStore {
+                override suspend fun installedSize(pack: DictionaryPack): Long? = if (pack.id == installed) 1_000_000 else null
+                override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit) = Unit
+                override suspend fun remove(pack: DictionaryPack) {}
+            },
+            object : DictionaryRepository {
+                override suspend fun isAvailable(dictionary: DictionaryId) = true
+                override suspend fun entries(dictionary: DictionaryId, wordLc: String) =
+                    if (wordLc == "semana") listOf(DictionaryEntry("semana", "noun", "siˈmane", listOf(DictionarySense(listOf("week")), DictionarySense(listOf("a week's wages"))))) else emptyList()
+                override suspend fun lemmas(dictionary: DictionaryId, formLc: String) = emptyList<String>()
+                override suspend fun close(dictionary: DictionaryId) {}
+            },
+        ).also { runBlocking { it.refresh() } }
+        val termService = TermService(terms, languages)
+        val flashcards = FlashcardService(FlashcardRepositoryImpl(provider), terms, settings)
+        val progress = PracticeProgressRepositoryImpl(provider)
+        runBlocking { practised.forEachIndexed { i, answer -> progress.record(termId, answer, Instant.fromEpochMilliseconds(1_700_000_000_000L + i)) } }
+        val exampleTerms = ExampleTerms(ReadingService(BookRepositoryImpl(provider), languages, terms, WordsReadRepositoryImpl(provider), termService), termService)
+        startKoin {
+            modules(module {
+                single { LocalSpeech(emptyList()) }
+                val cache = MemorySpeechAudioCache()
+                single { ExampleRecordings(KtorRecordingFetcher(createHttpClient()), cache) }
+                single { SentenceAudio(get(), settings, cache, get()) }
+                single<SettingsRepository> { settings }
+                single { WordTranslationService(terms, dictionaries, engine, settings) }
+                viewModel { (key: TermFormKey) -> TermFormViewModel(key, termService, terms, languages, settings, engine, sentences, dictionaries, dictionaries, exampleTerms, flashcards, practiceProgress = progress) }
+            })
+        }
+        val opened = Editor(termId, terms, flashcards)
+        setContent {
+            IdiomikoTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {}) {
+                        if (sheet) {
+                            // As the phone's reader holds it: embedded, in a sheet.
+                            CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                                TermFormPanel(koinViewModel(key = "sheet-$termId") { parametersOf(TermFormKey.ById(termId)) }, embedded = true)
+                            }
+                        } else if (navigated) {
+                            // The app's own routes, over a screen that opens the word.
+                            val navController = rememberNavController()
+                            NavHost(navController, startDestination = Route.Home) {
+                                composable<Route.Home> { Text("The screen under") }
+                                termsGraph(navController)
+                            }
+                            LaunchedEffect(Unit) { navController.navigate(Route.EditTerm(termId)) }
+                        } else if (asDialog) {
+                            // As the navigation's dialog window holds it, over the screen it was opened from.
+                            TermEditDestination(TermFormKey.ById(termId), onNavigate = {}, onClose = { opened.done = true }, onOpenParent = { _, _ -> })
+                        } else {
+                            TermEditScreen(TermFormKey.ById(termId), onNavigate = {}, onBack = {}, onDone = { opened.done = true }, onOpenParent = { _, _ -> })
+                        }
+                    }
+                }
+            }
+        }
+
+        return opened
+    }
+
+    /** Over another screen the editor is a dialog: its title and close above, its delete beside Cancel and Save below, once. */
+    @Test
+    fun theEditorOpensAsADialog() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val editor = openEditor("semana", DictionaryId("pt", "en"), asDialog = true)
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Term information")).fetchSemanticsNodes().isNotEmpty() }
+        onNode(hasText("Edit term")).assertExists()
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("a week's wages")).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, onAllNodes(hasText("Delete term")).fetchSemanticsNodes().size)
+        onNode(hasText("Save changes")).assertExists()
+        System.getenv("TERM_DIALOG_SCREENSHOT")?.let { save(it) }
+        onNode(hasText("Delete term")).performClick()
+        onNode(hasText("Delete \"semana\"?")).assertExists()
+        onNode(hasText("Cancel") and hasAnyAncestor(isDialog())).performClick()
+        onNode(hasTestTag("term-dialog-close")).performClick()
+        assertTrue(editor.done)
+    }
+
+    /** Opened by its route, the editor is a dialog over the screen that opened it, and closing it goes back to that screen. */
+    @Test
+    fun theEditorRouteOpensOverTheScreenUnder() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        openEditor("semana", DictionaryId("pt", "en"), navigated = true)
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Term information")).fetchSemanticsNodes().isNotEmpty() }
+        onNode(hasText("Edit term") and hasAnyAncestor(isDialog())).assertExists()
+        onNode(hasText("The screen under")).assertExists()
+        // Navigation pops only on the main thread, where the app's clicks come.
+        val close = onNode(hasTestTag("term-dialog-close")).fetchSemanticsNode()
+        runOnUiThread { close.config[SemanticsActions.OnClick].action?.invoke() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Term information")).fetchSemanticsNodes().isEmpty() }
+        onNode(hasText("The screen under")).assertExists()
+    }
+
+    /** In the phone reader's sheet, the word's pronunciation and its first dictionary sense show at once, above the dictionary. */
+    @Test
+    fun aPhonesWordSheetShowsThePronunciationAndFirstSenseAtOnce() = runDesktopComposeUiTest(width = 400, height = 900) {
+        openEditor("semana", DictionaryId("pt", "en"), sheet = true)
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("term-first-sense-preview")).fetchSemanticsNodes().isNotEmpty() }
+        // At the top of the sheet, before the dictionary repeats them in full.
+        onNode(hasText("siˈmane") and hasAnyAncestor(hasTestTag("term-pronunciation-preview")), useUnmergedTree = true).assertExists()
+        onNode(hasText("week") and hasAnyAncestor(hasTestTag("term-first-sense-preview")), useUnmergedTree = true).assertExists()
+    }
+
+    /** The word's page shows how far practice has taken it, beside its flashcard. */
+    @Test
+    fun theWordsPageShowsItsPracticeLevel() = runDesktopComposeUiTest(width = 1586, height = 1400) {
+        openEditor("semana", DictionaryId("pt", "en"), practised = listOf(WordProgress.Answer.RIGHT, WordProgress.Answer.RIGHT, WordProgress.Answer.WRONG))
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("practice-level")).fetchSemanticsNodes().isNotEmpty() }
+        onNode(hasText("Recalling with help")).assertExists()
+        onNode(hasText("2 of 3")).assertExists()
+        System.getenv("TERM_PRACTICE_SCREENSHOT")?.let { save(it) }
+    }
+
+    private fun ComposeUiTest.save(path: String) {
+        waitForIdle()
+        ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+    }
+}

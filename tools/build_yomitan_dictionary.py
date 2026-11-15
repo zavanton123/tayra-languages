@@ -50,7 +50,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "dictionaries", "wty")
 BASE_URL = "https://huggingface.co/datasets/daxida/wty-release/resolve/main/latest/dict"
 BUILT = os.path.join(CACHE, "built.json")
-CATALOG = os.path.join(ROOT, "core/domain/src/commonMain/kotlin/com/tayra/languages/core/domain/dictionary/DictionaryPackSizes.kt")
+CATALOG = os.path.join(ROOT, "core/domain/src/commonMain/kotlin/com/idiomiko/core/domain/dictionary/DictionaryPackSizes.kt")
 RELEASE = "dictionaries-v2"
 # The word finders' release: the glossary packs, named "<native>-<learning>-gloss".
 GLOSSARY_RELEASE = "glossaries-v1"

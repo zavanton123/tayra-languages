@@ -25,7 +25,7 @@ export interface RuntimeAnswers {
   lookup: BridgeResult<LookupResponse>;
   save: BridgeResult<SaveTermResponse>;
   changes: BridgeResult<ChangesResponse>;
-  /** Tayra's voice saying it, as base64 WAV; null when the browser's voice should. */
+  /** Idiomiko's voice saying it, as base64 WAV; null when the browser's voice should. */
   speech: BridgeResult<{ audio: string | null }>;
   addVideo: BridgeResult<AddVideoResponse>;
   bookmark: BridgeResult<BookmarkResponse>;

@@ -2,7 +2,7 @@
 
 ## How the feeds were checked
 
-Every source in `feeds.json` was checked on 2026-10-17 with curl, using User-Agent `TayraLanguages/1.0 (https://github.com/zavanton123/tayra-languages)` and a normal `Accept: text/html,…` header. For each one:
+Every source in `feeds.json` was checked on 2026-10-17 with curl, using User-Agent `Idiomiko/1.0 (https://github.com/zavanton123/tayra-languages)` and a normal `Accept: text/html,…` header. For each one:
 
 - The feed returned HTTP 200 and parsed as RSS or Atom (with feedparser).
 - It had items from the last 30 days.

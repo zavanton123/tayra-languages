@@ -1,0 +1,24 @@
+package com.idiomiko.feature.frequency
+
+import androidx.navigation.NavController
+import androidx.navigation.NavGraphBuilder
+import androidx.navigation.compose.composable
+import com.idiomiko.core.domain.frequency.FrequencyLists
+import com.idiomiko.core.domain.frequency.VocabularyLevelService
+import com.idiomiko.core.domain.frequency.WordFrequencyService
+import com.idiomiko.core.ui.navigation.Route
+import org.koin.core.module.dsl.viewModel
+import org.koin.dsl.module
+
+val frequencyModule = module {
+    single<FrequencyLists> { ResourceFrequencyLists() }
+    single { WordFrequencyService(get(), get(), get()) }
+    single { VocabularyLevelService(get(), get(), get()) }
+    viewModel { WordFrequencyViewModel(get(), get(), get(), get(), get()) }
+    viewModel { VocabularySettingsViewModel(get(), get(), get(), getOrNull()) }
+}
+
+fun NavGraphBuilder.frequencyGraph(navController: NavController) {
+    composable<Route.WordFrequency> { WordFrequencyScreen(onNavigate = { navController.navigate(it) }) }
+    composable<Route.VocabularySettings> { VocabularySettingsScreen(onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() }) }
+}

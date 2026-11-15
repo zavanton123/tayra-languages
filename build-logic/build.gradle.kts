@@ -14,16 +14,16 @@ dependencies {
 gradlePlugin {
     plugins {
         register("kmpLibrary") {
-            id = "tayra.kmp.library"
-            implementationClass = "com.tayra.languages.buildlogic.KmpLibraryPlugin"
+            id = "idiomiko.kmp.library"
+            implementationClass = "com.idiomiko.buildlogic.KmpLibraryPlugin"
         }
         register("kmpCompose") {
-            id = "tayra.kmp.compose"
-            implementationClass = "com.tayra.languages.buildlogic.KmpComposePlugin"
+            id = "idiomiko.kmp.compose"
+            implementationClass = "com.idiomiko.buildlogic.KmpComposePlugin"
         }
         register("kmpFeature") {
-            id = "tayra.kmp.feature"
-            implementationClass = "com.tayra.languages.buildlogic.KmpFeaturePlugin"
+            id = "idiomiko.kmp.feature"
+            implementationClass = "com.idiomiko.buildlogic.KmpFeaturePlugin"
         }
     }
 }

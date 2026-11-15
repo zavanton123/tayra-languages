@@ -33,7 +33,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "course-packs")
 FORMAT = 2
 # Every course and lesson this tool builds is one of the app's own; a course's "tags" in its JSON add to these.
-TAGS = ["tayra"]
+TAGS = ["idiomiko"]
 
 SCHEMA = """
 CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL);
