@@ -1,6 +1,6 @@
-package com.tayra.languages.core.domain.parse
+package com.idiomiko.core.domain.parse
 
-import com.tayra.languages.core.domain.model.Language
+import com.idiomiko.core.domain.model.Language
 
 /**
  * Lao: a stretch of letters cut into its likeliest words by how common they are, as [ThaiParser] cuts Thai, but never inside
