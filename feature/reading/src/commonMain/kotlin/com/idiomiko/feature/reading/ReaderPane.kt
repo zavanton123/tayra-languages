@@ -236,7 +236,7 @@ private fun SettingsHeader(title: String, subtitle: String?, phone: Boolean, onB
         when {
             onBack != null -> AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onBack, style = IconButtonStyle.Tonal, tint = colors.onSurface)
             phone -> AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Close menu"), onClick = onClose, tint = colors.primary)
-            else -> IconTile(AppIcons.Otter, size = 56)
+            else -> IconTile(AppIcons.Logo, size = 56, iconTint = Color.Unspecified)
         }
         Column(Modifier.weight(1f)) {
             Text(title, style = AppText.screenTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)

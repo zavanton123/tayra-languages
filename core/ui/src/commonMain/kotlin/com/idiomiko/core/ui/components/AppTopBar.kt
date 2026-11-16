@@ -32,6 +32,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -159,7 +160,7 @@ fun AppTopBar(
                         .padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    Icon(AppIcons.Otter, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(AppSizes.iconXLarge))
+                    Icon(AppIcons.Logo, contentDescription = null, tint = Color.Unspecified, modifier = Modifier.size(AppSizes.iconXLarge))
                     Spacer(Modifier.width(AppSpacing.m))
                     Text(APP_NAME, style = AppText.sectionTitle)
                 }

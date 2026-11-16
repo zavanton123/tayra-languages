@@ -85,7 +85,8 @@ class DesignSystemTest {
 
     @Test
     fun screensUseTheDesignSystemsColoursAndBorders() {
-        val files = sources.filter { !it.isTheme() && !it.path.endsWith("components/LanguageFlags.kt") }
+        // Flags and the logo are drawings in their own fixed colours.
+        val files = sources.filter { !it.isTheme() && !it.path.endsWith("components/LanguageFlags.kt") && !it.path.endsWith("components/AppIcons.kt") }
         val found = findings(files, listOf(colour to "use AppAccents, RatingColors or a theme colour")) +
             findings(files.filter { !it.isDesignSystem() }, listOf(border to "use AppBorders.hairline, AppBorders.selected or cardSurface"))
         if (found.isNotEmpty()) fail("Colours and borders outside the design system (${found.size}):\n" + found.joinToString("\n"))

@@ -260,12 +260,12 @@ fun StatTile(label: String, value: String, detail: String, icon: ImageVector, ti
 
 /** An icon (or a short text) on a rounded square washed with its [tint], the primary colour unless an accent is given. */
 @Composable
-fun IconTile(icon: ImageVector?, text: String? = null, size: Int = 48, tint: Color = MaterialTheme.colorScheme.primary) {
+fun IconTile(icon: ImageVector?, text: String? = null, size: Int = 48, tint: Color = MaterialTheme.colorScheme.primary, iconTint: Color = tint) {
     Box(
         Modifier.size(size.dp).clip(AppShapes.panel).background(tint.copy(alpha = AppAlpha.tint)),
         contentAlignment = Alignment.Center,
     ) {
-        if (icon != null) Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size((size / 2).dp))
+        if (icon != null) Icon(icon, contentDescription = null, tint = iconTint, modifier = Modifier.size((size / 2).dp))
         else if (text != null) Text(text, style = AppText.sectionTitle, color = tint)
     }
 }
