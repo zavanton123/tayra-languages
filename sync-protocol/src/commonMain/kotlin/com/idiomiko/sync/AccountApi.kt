@@ -39,6 +39,17 @@ data class ProviderSignInRequest(val idToken: String, val device: DeviceInfo)
 @Serializable
 data class RefreshRequest(val refreshToken: String)
 
+/**
+ * A one-time code that signs a browser in as the account that asked for it (POST /api/v1/me/handoff):
+ * the apps open the service's web pages with it, so nobody signs in twice. Valid for [expiresIn] seconds.
+ */
+@Serializable
+data class HandoffCode(val code: String, val expiresIn: Long)
+
+/** A web page spending the code it was opened with for a sign-in of its own (POST /api/v1/auth/handoff). */
+@Serializable
+data class HandoffRedeemRequest(val code: String, val device: DeviceInfo)
+
 /** What a device keeps after signing in: a short-lived access token and the refresh token that renews it. */
 @Serializable
 data class Tokens(val accessToken: String, val refreshToken: String, val expiresIn: Long, val user: Account)
