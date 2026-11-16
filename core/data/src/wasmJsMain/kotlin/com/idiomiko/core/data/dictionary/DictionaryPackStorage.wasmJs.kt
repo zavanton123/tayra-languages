@@ -9,9 +9,17 @@ import org.w3c.dom.Worker
 import kotlin.io.encoding.Base64
 import kotlin.js.Promise
 
-internal fun cacheInstall(url: String): Promise<JsAny?> = js(
+/** Packs keep their GitHub address as their key; the browser may not read GitHub's release downloads, so they come from the web app's mirror. */
+internal fun cacheInstall(url: String): Promise<JsAny?> = cacheInstallFrom(url, mirrored(url))
+
+private const val RELEASES = "https://github.com/zavanton123/tayra-languages/releases/download/"
+private const val MIRROR = "https://app.idiomiko.com/packs/"
+
+internal fun mirrored(url: String): String = if (url.startsWith(RELEASES)) MIRROR + url.removePrefix(RELEASES) else url
+
+private fun cacheInstallFrom(url: String, source: String): Promise<JsAny?> = js(
     """caches.open('idiomiko-dictionaries').then(function (cache) {
-        return fetch(url).then(function (response) {
+        return fetch(source).then(function (response) {
             if (!response.ok) throw new Error('Server answered ' + response.status);
             return cache.put(url, response);
         });
