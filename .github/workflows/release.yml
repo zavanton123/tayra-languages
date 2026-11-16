@@ -207,6 +207,33 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh release upload "$RELEASE_TAG" Idiomiko-*.deb Idiomiko-*.rpm Idiomiko-*.tar.gz --clobber
 
+  web:
+    name: Web app
+    if: ${{ startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name || inputs.tag }}
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: gradle/actions/setup-gradle@v4
+      # app.idiomiko.com fetches this from the release and serves it (the service's deploy/webapp);
+      # the source maps stay out.
+      - name: Build the web app
+        run: |
+          VERSION="${RELEASE_TAG#v}"
+          ./gradlew --no-daemon :webApp:wasmJsBrowserDistribution
+          dist=webApp/build/dist/wasmJs/productionExecutable
+          printf '{"version":"%s"}\n' "$VERSION" > "$dist/version.json"
+          tar -czf "Idiomiko-$VERSION-web.tar.gz" --exclude='*.map' -C "$dist" .
+      - name: Attach the web app to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "$RELEASE_TAG" Idiomiko-*-web.tar.gz --clobber
+
   keep-app-latest:
     name: Keep the newest app release marked latest
     if: ${{ !startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
