@@ -1,18 +1,18 @@
-package com.tayra.languages.core.data
+package com.idiomiko.core.data
 
-import com.tayra.languages.core.data.db.DatabaseDriverFactory
-import com.tayra.languages.core.data.db.DatabaseProvider
-import com.tayra.languages.core.data.repository.BookRepositoryImpl
-import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
-import com.tayra.languages.core.data.repository.TermRepositoryImpl
-import com.tayra.languages.core.domain.language.LanguageDefinitions
-import com.tayra.languages.core.domain.model.Book
-import com.tayra.languages.core.domain.model.Term
-import com.tayra.languages.core.domain.model.TermStatus
-import com.tayra.languages.core.domain.parse.Lexicon
-import com.tayra.languages.core.domain.parse.Lexicons
-import com.tayra.languages.core.domain.repository.NewPage
-import com.tayra.languages.core.domain.service.CutWordsMigration
+import com.idiomiko.core.data.db.DatabaseDriverFactory
+import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.repository.BookRepositoryImpl
+import com.idiomiko.core.data.repository.LanguageRepositoryImpl
+import com.idiomiko.core.data.repository.TermRepositoryImpl
+import com.idiomiko.core.domain.language.LanguageDefinitions
+import com.idiomiko.core.domain.model.Book
+import com.idiomiko.core.domain.model.Term
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.parse.Lexicon
+import com.idiomiko.core.domain.parse.Lexicons
+import com.idiomiko.core.domain.repository.NewPage
+import com.idiomiko.core.domain.service.CutWordsMigration
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import kotlin.test.AfterTest
@@ -26,7 +26,7 @@ import kotlin.test.assertNull
  */
 class KhmerParserMigrationTest {
 
-    private val file: File = File.createTempFile("tayra-khmer", ".db").also { it.delete() }
+    private val file: File = File.createTempFile("idiomiko-khmer", ".db").also { it.delete() }
 
     @AfterTest
     fun forget() = Lexicons.set("km", null)

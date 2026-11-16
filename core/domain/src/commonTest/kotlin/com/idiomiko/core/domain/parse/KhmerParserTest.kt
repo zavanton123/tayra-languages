@@ -1,6 +1,6 @@
-package com.tayra.languages.core.domain.parse
+package com.idiomiko.core.domain.parse
 
-import com.tayra.languages.core.domain.language.LanguageDefinitions
+import com.idiomiko.core.domain.language.LanguageDefinitions
 import kotlin.test.AfterTest
 import kotlin.test.Test
 import kotlin.test.assertEquals

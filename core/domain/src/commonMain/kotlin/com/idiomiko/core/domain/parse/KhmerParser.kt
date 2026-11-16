@@ -1,4 +1,4 @@
-package com.tayra.languages.core.domain.parse
+package com.idiomiko.core.domain.parse
 
 /**
  * Khmer: a stretch of letters cut into the longest words the lexicon knows from the left, as [SegmentingParser] cuts it,
