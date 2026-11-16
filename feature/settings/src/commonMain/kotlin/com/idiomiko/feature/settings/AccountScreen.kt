@@ -371,6 +371,7 @@ internal fun problemTitle(problem: AccountProblem, text: String?): String = when
     AccountProblem.SIGNED_OUT -> tr("This device was signed out")
     AccountProblem.SUBSCRIPTION_REQUIRED -> tr("This needs an active subscription")
     AccountProblem.BUSY -> tr("Too many tries for now; wait a minute and try again")
+    AccountProblem.TOO_MANY_CODES -> tr("Several codes have gone to this address already; check the inbox and spam folder, or try again in an hour")
     AccountProblem.NOT_FOUND -> tr("That is no longer in your account")
     AccountProblem.INVALID -> text ?: tr("That was not accepted")
     AccountProblem.SERVER -> tr("Something went wrong on the account service; try again later")

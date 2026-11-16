@@ -104,4 +104,6 @@ object ApiErrors {
     const val SUBSCRIPTION_REQUIRED = "subscription_required"
     const val NOT_FOUND = "not_found"
     const val RATE_LIMITED = "rate_limited"
+    /** An email address was sent as many codes as it may be for now (429); an hour later it gets more. */
+    const val TOO_MANY_CODES = "too_many_codes"
 }

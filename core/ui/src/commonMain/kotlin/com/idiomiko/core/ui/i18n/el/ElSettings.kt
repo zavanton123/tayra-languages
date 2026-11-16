@@ -378,6 +378,7 @@ internal val elSettings: Map<String, String> = mapOf(
     "Sync automatically" to "Αυτόματος συγχρονισμός",
     "When the app starts or comes back, and a little after you change something." to "Όταν η εφαρμογή ξεκινά ή επιστρέφει, και λίγο μετά από κάθε αλλαγή σας.",
     "Too many tries for now; wait a minute and try again" to "Πάρα πολλές προσπάθειες· περιμένετε ένα λεπτό και δοκιμάστε ξανά",
+    "Several codes have gone to this address already; check the inbox and spam folder, or try again in an hour" to "Έχουν ήδη σταλεί αρκετοί κωδικοί σε αυτή τη διεύθυνση· ελέγξτε τα εισερχόμενα και τα ανεπιθύμητα ή δοκιμάστε ξανά σε μία ώρα",
     "The last sync did not finish; it is tried again in a while." to "Ο τελευταίος συγχρονισμός δεν ολοκληρώθηκε· θα ξαναδοκιμαστεί σε λίγο.",
     "Syncing…" to "Συγχρονισμός…",
     "Sending {0} of {1}" to "Αποστολή {0} από {1}",

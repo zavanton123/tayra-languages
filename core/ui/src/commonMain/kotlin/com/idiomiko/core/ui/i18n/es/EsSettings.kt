@@ -378,6 +378,7 @@ internal val esSettings: Map<String, String> = mapOf(
     "Sync automatically" to "Sincronizar automáticamente",
     "When the app starts or comes back, and a little after you change something." to "Al abrir o volver a la app, y poco después de cada cambio.",
     "Too many tries for now; wait a minute and try again" to "Demasiados intentos; espera un minuto y vuelve a intentarlo",
+    "Several codes have gone to this address already; check the inbox and spam folder, or try again in an hour" to "Ya se han enviado varios códigos a esta dirección; revisa la bandeja de entrada y la carpeta de spam, o vuelve a intentarlo en una hora",
     "The last sync did not finish; it is tried again in a while." to "La última sincronización no terminó; se volverá a intentar en un rato.",
     "Syncing…" to "Sincronizando…",
     "Sending {0} of {1}" to "Enviando {0} de {1}",

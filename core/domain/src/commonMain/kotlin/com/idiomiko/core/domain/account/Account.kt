@@ -43,6 +43,8 @@ enum class AccountProblem {
     SUBSCRIPTION_REQUIRED,
     /** Too many requests from this address for now: a minute later they are taken again. */
     BUSY,
+    /** The address was sent as many codes as it may be for now: more go to it an hour later. */
+    TOO_MANY_CODES,
     NOT_FOUND,
     INVALID,
     SERVER,

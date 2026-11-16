@@ -248,6 +248,7 @@ class AccountClient(
             ApiErrors.SIGNED_OUT -> AccountProblem.SIGNED_OUT
             ApiErrors.SUBSCRIPTION_REQUIRED -> AccountProblem.SUBSCRIPTION_REQUIRED
             ApiErrors.RATE_LIMITED -> AccountProblem.BUSY
+            ApiErrors.TOO_MANY_CODES -> AccountProblem.TOO_MANY_CODES
             ApiErrors.NOT_FOUND -> AccountProblem.NOT_FOUND
             ApiErrors.INVALID_REQUEST -> AccountProblem.INVALID
             else -> when (response.status.value) {

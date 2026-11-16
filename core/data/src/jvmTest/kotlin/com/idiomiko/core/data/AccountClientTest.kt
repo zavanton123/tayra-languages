@@ -207,6 +207,8 @@ class AccountClientTest {
         assertEquals(AccountProblem.SERVER, assertFailsWith<AccountException> { broken.forgotPassword("reader@example.com") }.problem)
         val busy = client { json("""{"error":"rate_limited","message":"Too many requests; try again in a minute"}""", HttpStatusCode.TooManyRequests) }
         assertEquals(AccountProblem.BUSY, assertFailsWith<AccountException> { busy.signIn("reader@example.com", "password") }.problem)
+        val codes = client { json("""{"error":"too_many_codes","message":"Too many codes sent to this address; try again later"}""", HttpStatusCode.TooManyRequests) }
+        assertEquals(AccountProblem.TOO_MANY_CODES, assertFailsWith<AccountException> { codes.forgotPassword("reader@example.com") }.problem)
     }
 
     @Test
