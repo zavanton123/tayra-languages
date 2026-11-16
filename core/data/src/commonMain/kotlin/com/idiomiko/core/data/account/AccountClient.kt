@@ -79,6 +79,8 @@ class AccountClient(
     private val secure: SecureStore,
     private val device: suspend () -> DeviceInfo,
     private val clock: Clock = Clock.System,
+    /** Whether the refresh token is a browser cookie the service's own pages share (the web app). */
+    private val sharedSignIn: Boolean = false,
 ) : AccountRepository, SyncTransport {
     init {
         carryOverFormerSignIn()
@@ -92,6 +94,17 @@ class AccountClient(
     private var accessToken: String? = null
     private var accessExpires: Instant = Instant.DISTANT_PAST
     private val refreshing = Mutex()
+
+    override suspend fun joinSharedSignIn(): Boolean {
+        if (!sharedSignIn || !available || _signedIn.value != null) return false
+        val tokens = try {
+            call(HttpMethod.Post, "/auth/refresh", json(RefreshRequest.serializer(), RefreshRequest("")), Tokens.serializer(), signedIn = false)
+        } catch (_: AccountException) {
+            return false
+        }
+        keep(tokens)
+        return true
+    }
 
     override suspend fun register(email: String, password: String): AccountInfo {
         keep(call(HttpMethod.Post, "/auth/register", json(RegisterRequest.serializer(), RegisterRequest(email, password, device())), Tokens.serializer(), signedIn = false))

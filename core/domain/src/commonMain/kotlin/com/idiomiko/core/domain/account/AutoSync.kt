@@ -75,6 +75,8 @@ class AutoSync(
 
     @OptIn(FlowPreview::class)
     fun start(scope: CoroutineScope) {
+        // In the web app, a sign-in made on another page of the service is this app's too.
+        scope.launch { runCatching { accounts.joinSharedSignIn() } }
         scope.launch { for (request in requests) automatically() }
         scope.launch {
             // Its own writes while it syncs are not changes to send.

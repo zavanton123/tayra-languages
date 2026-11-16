@@ -192,6 +192,7 @@ val dataModule: Module = module {
             AccountServer { defaultAccountServer() },
             platform?.store ?: get<SecureStore>(),
             device = { thisDevice(provider) },
+            sharedSignIn = platform?.sharedSignIn ?: false,
         )
     } binds arrayOf(AccountRepository::class, SyncTransport::class)
     single<LibrarySync> {

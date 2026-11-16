@@ -41,7 +41,12 @@ class AccountClientTest {
 
     private val me = """{"id":"u1","email":"reader@example.com","emailVerified":true,"hasPassword":true,"providers":[],"subscription":{"active":true,"activeUntil":1800000000000,"source":"paddle"}}"""
 
-    private fun client(server: String? = "http://service.test", platform: String = "desktop", answer: suspend MockRequestHandleScope.(HttpRequestData) -> HttpResponseData) = AccountClient(
+    private fun client(
+        server: String? = "http://service.test",
+        platform: String = "desktop",
+        sharedSignIn: Boolean = false,
+        answer: suspend MockRequestHandleScope.(HttpRequestData) -> HttpResponseData,
+    ) = AccountClient(
         HttpClient(MockEngine { request ->
             seen += "${request.method.value} ${request.url.encodedPath} ${request.headers[HttpHeaders.Authorization].orEmpty()}".trim()
             answer(request)
@@ -49,10 +54,32 @@ class AccountClientTest {
         AccountServer { server },
         secure,
         device = { DeviceInfo("device-1", "Desk", platform) },
+        sharedSignIn = sharedSignIn,
     )
 
     private fun MockRequestHandleScope.json(body: String, status: HttpStatusCode = HttpStatusCode.OK) =
         respond(body, status, headersOf(HttpHeaders.ContentType, "application/json"))
+
+    /** The web app takes up a sign-in the browser has from another page of the service, and only then. */
+    @Test
+    fun theWebAppJoinsTheBrowsersSignIn() = runTest {
+        val app = client(platform = "web", sharedSignIn = true) { json(tokens("from-cookie", "")) }
+        assertTrue(app.joinSharedSignIn())
+        assertEquals("reader@example.com", app.signedIn.value)
+        assertEquals(listOf("POST /api/v1/auth/refresh"), seen)
+        assertFalse(app.joinSharedSignIn(), "already signed in")
+        assertEquals(1, seen.size)
+
+        assertFalse(client { json(tokens("a", "b")) }.joinSharedSignIn(), "the other apps share no sign-in")
+        assertEquals(1, seen.size)
+    }
+
+    @Test
+    fun aBrowserNotSignedInLeavesTheWebAppSignedOut() = runTest {
+        val app = client(platform = "web", sharedSignIn = true) { json("""{"error":"signed_out","message":"This device is signed out; sign in again"}""", HttpStatusCode.Unauthorized) }
+        assertFalse(app.joinSharedSignIn())
+        assertNull(app.signedIn.value)
+    }
 
     @Test
     fun withoutAServiceNothingIsTried() = runTest {

@@ -6,6 +6,7 @@ import io.ktor.client.HttpClient
 /**
  * What a platform's account requests need beyond the usual: in the web app, an HTTP client that sends
  * the sign-in cookie, and a store that outlives the tab for what is kept of the sign-in, none of it
- * secret there, as the refresh token stays in the cookie.
+ * secret there, as the refresh token stays in the cookie. [sharedSignIn]: the cookie is the browser's
+ * sign-in to the service, shared with its pages, which this app takes up (AccountClient.joinSharedSignIn).
  */
-class AccountPlatform(val http: HttpClient, val store: SecureStore)
+class AccountPlatform(val http: HttpClient, val store: SecureStore, val sharedSignIn: Boolean = false)

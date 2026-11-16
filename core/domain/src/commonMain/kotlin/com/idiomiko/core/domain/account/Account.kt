@@ -62,6 +62,12 @@ interface AccountRepository {
 
     val signedIn: StateFlow<String?>
 
+    /**
+     * In the web app, which shares its sign-in with the service's own pages: takes up the sign-in the
+     * browser has already, when this app is not signed in itself. True when it did; elsewhere false.
+     */
+    suspend fun joinSharedSignIn(): Boolean = false
+
     suspend fun register(email: String, password: String): AccountInfo
 
     suspend fun signIn(email: String, password: String): AccountInfo

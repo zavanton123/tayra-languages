@@ -35,7 +35,7 @@ actual val platformDataModule: Module = module {
     single { BookPackFiles() }
     single<Settings> { StorageSettings() }
     single<SecureStore> { BrowserSecureStore() }
-    single { AccountPlatform(webAccountHttpClient(), WebAccountStore()) }
+    single { AccountPlatform(webAccountHttpClient(), WebAccountStore(), sharedSignIn = true) }
     single<IdentitySignIn> { WebIdentitySignIn() }
     single<TextRecognizer> { NoTextRecognizer }
     single { LocalSpeech(listOf(WebPiperEngine(), WebKokoroEngine())) }
