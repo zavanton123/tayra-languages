@@ -54,7 +54,7 @@ class GoogleSignInTest {
         val asked = query(URI(url).rawQuery)
         google.challenge = asked["code_challenge"]
         assertEquals("S256", asked["code_challenge_method"])
-        assertEquals("openid email", asked["scope"])
+        assertEquals("openid email profile", asked["scope"])
         val back = "${asked.getValue("redirect_uri")}/?${answer(asked)}"
         Thread { java.net.http.HttpClient.newHttpClient().send(HttpRequest.newBuilder(URI(back)).build(), HttpResponse.BodyHandlers.discarding()) }.start()
     }

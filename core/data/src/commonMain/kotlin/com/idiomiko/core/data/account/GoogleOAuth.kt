@@ -37,7 +37,7 @@ class GoogleOAuth(
             parameters.append("client_id", clientId)
             parameters.append("redirect_uri", redirectUri)
             parameters.append("response_type", "code")
-            parameters.append("scope", "openid email")
+            parameters.append("scope", "openid email profile")
             parameters.append("code_challenge", challenge)
             parameters.append("code_challenge_method", "S256")
             parameters.append("state", state)
