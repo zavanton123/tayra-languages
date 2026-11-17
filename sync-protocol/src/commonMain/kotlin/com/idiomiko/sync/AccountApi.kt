@@ -86,6 +86,10 @@ data class Me(
     val hasPassword: Boolean,
     val providers: List<String>,
     val subscription: Subscription,
+    /** The name the account's Google sign-in last gave; null without one. */
+    val name: String? = null,
+    /** Which picture the account has, at /me/picture: it changes when the picture does; null without one. */
+    val picture: String? = null,
 )
 
 @Serializable
