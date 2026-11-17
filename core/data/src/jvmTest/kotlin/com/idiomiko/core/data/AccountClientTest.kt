@@ -114,6 +114,36 @@ class AccountClientTest {
         assertNull(client.syncAccount())
     }
 
+    /** The name and picture Google gave the account stay on the device, are fetched once, and go with the sign-in. */
+    @Test
+    fun theAccountsNameAndPictureAreKeptUntilSigningOut() = runTest {
+        val named = me.replace("\"providers\":[]", "\"providers\":[\"google\"]").removeSuffix("}") + ""","name":"Ana Reader","picture":"p1"}"""
+        val client = client { request ->
+            when (request.url.encodedPath) {
+                "/api/v1/auth/google" -> json(tokens("access-1", "refresh-1"))
+                "/api/v1/me" -> json(named)
+                "/api/v1/me/picture" -> respond(byteArrayOf(1, 2, 3), HttpStatusCode.OK, headersOf(HttpHeaders.ContentType, "image/png"))
+                else -> error(request.url.encodedPath)
+            }
+        }
+        assertNull(client.picture(), "signed out")
+        val account = client.signInWith(SignInProvider.GOOGLE, "id-token")
+        assertEquals("Ana Reader", account.name)
+        assertEquals("p1", client.profile.value?.picture)
+        assertEquals(listOf<Byte>(1, 2, 3), client.picture()?.toList())
+        assertEquals(listOf<Byte>(1, 2, 3), client.picture()?.toList())
+        assertEquals(1, seen.count { it.startsWith("GET /api/v1/me/picture") }, "fetched once")
+
+        val again = client { error("no request should be made") }
+        assertEquals("Ana Reader", again.profile.value?.name, "kept for the next start")
+        assertEquals("p1", again.profile.value?.picture)
+
+        client.signOut()
+        assertNull(client.profile.value)
+        assertNull(secure.get("account.http://service.test.name"))
+        assertNull(secure.get("account.http://service.test.picture"))
+    }
+
     /** An access token the service refuses is renewed once with the refresh token, and the request made again. */
     @Test
     fun aRefusedAccessTokenIsRenewedOnce() = runTest {

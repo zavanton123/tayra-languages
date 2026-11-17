@@ -4,6 +4,7 @@ import com.idiomiko.core.data.settings.SecureStore
 import com.idiomiko.core.data.sync.SyncTransport
 import com.idiomiko.core.domain.account.AccountException
 import com.idiomiko.core.domain.account.AccountInfo
+import com.idiomiko.core.domain.account.AccountProfile
 import com.idiomiko.core.domain.account.AccountProblem
 import com.idiomiko.core.domain.account.AccountRepository
 import com.idiomiko.core.domain.account.Plan
@@ -39,6 +40,7 @@ import io.ktor.client.request.parameter
 import io.ktor.client.request.request
 import io.ktor.client.request.setBody
 import io.ktor.client.statement.HttpResponse
+import io.ktor.client.statement.bodyAsBytes
 import io.ktor.client.statement.bodyAsText
 import io.ktor.http.ContentType
 import io.ktor.http.HttpMethod
@@ -89,6 +91,12 @@ class AccountClient(
     private val _signedIn = MutableStateFlow(secure.get(key(EMAIL))?.takeIf { secure.get(key(REFRESH)) != null })
     override val signedIn: StateFlow<String?> = _signedIn.asStateFlow()
 
+    private val _profile = MutableStateFlow(_signedIn.value?.let { AccountProfile(it, secure.get(key(NAME)), secure.get(key(PICTURE))) })
+    override val profile: StateFlow<AccountProfile?> = _profile.asStateFlow()
+
+    /** The picture last fetched, by which picture it is. */
+    private var picture: Pair<String, ByteArray>? = null
+
     override val available: Boolean get() = !server.url().isNullOrBlank()
 
     private var accessToken: String? = null
@@ -138,11 +146,37 @@ class AccountClient(
     }
 
     override suspend fun account(): AccountInfo = call(HttpMethod.Get, "/me", null, Me.serializer()).let { me ->
+        keepProfile(me)
         val sub = me.subscription
         // The stores require their own billing in the phone apps: those never send to the web checkout.
         val checkout = sub.checkoutUrl.takeIf { device().platform !in STORE_PLATFORMS }
-        AccountInfo(me.email, me.emailVerified, me.hasPassword, me.providers, Plan(sub.active, sub.activeUntil?.let(Instant::fromEpochMilliseconds), sub.source, checkout, sub.manageUrl), me.id)
+        AccountInfo(
+            me.email, me.emailVerified, me.hasPassword, me.providers,
+            Plan(sub.active, sub.activeUntil?.let(Instant::fromEpochMilliseconds), sub.source, checkout, sub.manageUrl), me.id, me.name, me.picture,
+        )
     }
+
+    override suspend fun picture(): ByteArray? {
+        val id = _profile.value?.picture ?: return null
+        picture?.takeIf { it.first == id }?.let { return it.second }
+        val bytes = try {
+            exchange(HttpMethod.Get, "/me/picture", signedIn = true) {}.bodyAsBytes()
+        } catch (_: AccountException) {
+            return null
+        }
+        picture = id to bytes
+        return bytes
+    }
+
+    /** Keeps the account's name and picture as the service has them, for the bar to show from the start. */
+    private fun keepProfile(me: Me) {
+        if (_signedIn.value == null) return
+        putOrRemove(NAME, me.name)
+        putOrRemove(PICTURE, me.picture)
+        _profile.value = AccountProfile(me.email, me.name, me.picture)
+    }
+
+    private fun putOrRemove(name: String, value: String?) = if (value == null) secure.remove(key(name)) else secure.put(key(name), value)
 
     override suspend fun reportPurchase(receipt: StoreReceipt) = when (receipt) {
         is StoreReceipt.GooglePlay -> send(HttpMethod.Post, "/billing/google/purchases", json(GooglePlayPurchase.serializer(), GooglePlayPurchase(receipt.productId, receipt.purchaseToken)))
@@ -187,6 +221,11 @@ class AccountClient(
         }.bodyAsText())
 
     private fun keep(tokens: Tokens) {
+        // Another account's name and picture are not this one's.
+        if (secure.get(key(USER)) != tokens.user.id) {
+            secure.remove(key(NAME))
+            secure.remove(key(PICTURE))
+        }
         // Empty for the web app, whose refresh token is a cookie the service reads itself.
         secure.put(key(REFRESH), tokens.refreshToken)
         secure.put(key(EMAIL), tokens.user.email)
@@ -195,15 +234,20 @@ class AccountClient(
         // Renewed a little early, so a request never leaves with a token about to lapse.
         accessExpires = clock.now() + kotlin.time.Duration.parse("${tokens.expiresIn - EARLY_SECONDS}s")
         _signedIn.value = tokens.user.email
+        _profile.value = AccountProfile(tokens.user.email, secure.get(key(NAME)), secure.get(key(PICTURE)))
     }
 
     private fun forget() {
         secure.remove(key(REFRESH))
         secure.remove(key(EMAIL))
         secure.remove(key(USER))
+        secure.remove(key(NAME))
+        secure.remove(key(PICTURE))
         accessToken = null
         accessExpires = Instant.DISTANT_PAST
         _signedIn.value = null
+        _profile.value = null
+        picture = null
     }
 
     /** A valid access token, renewed first when it has run out; [stale] is one the service just refused. */
@@ -296,6 +340,8 @@ class AccountClient(
         const val EMAIL = "email"
         val STORE_PLATFORMS = setOf("android", "ios")
         const val USER = "user"
+        const val NAME = "name"
+        const val PICTURE = "picture"
         const val EARLY_SECONDS = 30
         // A batch of sync records: a stalled connection fails, and the sync with it, instead of hanging on.
         const val SYNC_TIMEOUT_MS = 3 * 60_000L

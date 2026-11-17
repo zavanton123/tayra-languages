@@ -1,6 +1,8 @@
 package com.idiomiko.core.domain.account
 
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
 import kotlin.time.Instant
 
 /** The account a device is signed in to, as the account service has it. */
@@ -13,7 +15,21 @@ data class AccountInfo(
     val plan: Plan,
     /** The account's id, which a store purchase carries so the service knows whose it is. */
     val id: String = "",
+    /** The name the account's Google sign-in gave; null without one. */
+    val name: String? = null,
+    /** Which picture the account has, changing with it; null without one. */
+    val picture: String? = null,
 )
+
+/** Who this device is signed in as, for the app's bar and the account page: kept on the device, so it shows offline too. */
+data class AccountProfile(
+    val email: String,
+    val name: String? = null,
+    /** Which picture the account has ([AccountRepository.picture] fetches it); null without one. */
+    val picture: String? = null,
+)
+
+private val NO_PROFILE: StateFlow<AccountProfile?> = MutableStateFlow<AccountProfile?>(null).asStateFlow()
 
 /** Whether the account may sync and back up to the cloud, until when, and what it was bought through. */
 data class Plan(
@@ -61,6 +77,12 @@ interface AccountRepository {
     val available: Boolean
 
     val signedIn: StateFlow<String?>
+
+    /** The account signed in to, as this device last heard of it; null when signed out. */
+    val profile: StateFlow<AccountProfile?> get() = NO_PROFILE
+
+    /** The image of the account's picture (PNG or JPEG), or null when it has none or it cannot be fetched now. */
+    suspend fun picture(): ByteArray? = null
 
     /**
      * In the web app, which shares its sign-in with the service's own pages: takes up the sign-in the
