@@ -140,9 +140,13 @@ fun CardHeader(
     size: CardHeaderSize = CardHeaderSize.Card,
     titleExtra: @Composable RowScope.() -> Unit = {},
     actions: @Composable RowScope.() -> Unit = {},
+    leading: (@Composable (size: Dp) -> Unit)? = null,
 ) {
     Row(modifier, verticalAlignment = Alignment.CenterVertically) {
-        if (icon != null || iconText != null) {
+        if (leading != null) {
+            leading(size.tile.dp)
+            Spacer(Modifier.width(size.gap.dp))
+        } else if (icon != null || iconText != null) {
             IconTile(icon, iconText, size = size.tile, tint = tint)
             Spacer(Modifier.width(size.gap.dp))
         }
@@ -226,10 +230,12 @@ fun ContentCard(
     dense: Boolean = false,
     headerExtra: @Composable RowScope.() -> Unit = {},
     titleExtra: @Composable RowScope.() -> Unit = {},
+    /** In place of the icon tile, such as an account's picture, as big as the tile. */
+    leading: (@Composable (size: Dp) -> Unit)? = null,
     content: @Composable ColumnScope.() -> Unit,
 ) {
     Column(modifier.fillMaxWidth().cardSurface().padding(if (dense) AppSpacing.l else AppSpacing.xl)) {
-        CardHeader(title, subtitle, icon = icon, iconText = iconText, size = if (dense) CardHeaderSize.Dense else CardHeaderSize.Card, titleExtra = titleExtra, actions = headerExtra)
+        CardHeader(title, subtitle, icon = icon, iconText = iconText, size = if (dense) CardHeaderSize.Dense else CardHeaderSize.Card, titleExtra = titleExtra, actions = headerExtra, leading = leading)
         Spacer(Modifier.height(if (dense) AppSpacing.m else AppSpacing.l))
         content()
     }

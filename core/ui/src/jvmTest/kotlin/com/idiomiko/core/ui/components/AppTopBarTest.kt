@@ -62,6 +62,30 @@ class AppTopBarTest {
         assertEquals(listOf<Route>(Route.Downloads), visited)
     }
 
+    /** Signed in, the account's avatar ends the bar and takes the Account tab's place; it opens the account page. */
+    @OptIn(ExperimentalTestApi::class)
+    @Test
+    fun theAvatarLeadsToTheAccount() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        var opened = 0
+        var badge by mutableStateOf<AccountBadge?>(null)
+        setContent { MaterialTheme { CompositionLocalProvider(LocalAccountBadge provides badge) { AppTopBar(title = "Home", onNavigate = {}, section = NavSection.HOME) } } }
+        onNodeWithText("Account").assertExists()
+        onNodeWithTag("account-avatar").assertDoesNotExist()
+        badge = AccountBadge("ana@example.com", "Ana Reader", picture = null) { opened++ }
+        waitForIdle()
+        onNodeWithText("Account").assertDoesNotExist()
+        onNodeWithText("A").assertExists()
+        onNodeWithTag("account-avatar").performClick()
+        assertEquals(1, opened)
+    }
+
+    @Test
+    fun theAvatarsLetterIsTheNamesOrTheEmails() {
+        assertEquals("A", initial("ana reader", "zed@example.com"))
+        assertEquals("Z", initial(null, "zed@example.com"))
+        assertEquals("Z", initial("  ", "zed@example.com"))
+    }
+
     /** The sync button shows only with an account service and asks to sync; it turns while a sync is under way. */
     @OptIn(ExperimentalTestApi::class)
     @Test

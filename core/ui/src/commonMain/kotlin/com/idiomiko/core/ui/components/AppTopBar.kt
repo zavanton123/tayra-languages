@@ -64,7 +64,7 @@ private data class MenuEntry(val label: String, val route: Route)
 /** [direct] groups have one destination, opened by the tab itself with no menu. */
 private data class MenuGroup(val section: NavSection, val entries: List<MenuEntry>, val direct: Boolean = false)
 
-private fun menuGroups(videos: Boolean) = listOfNotNull(
+private fun menuGroups(videos: Boolean, account: Boolean = true) = listOfNotNull(
     MenuGroup(NavSection.HOME, listOf(MenuEntry("Home", Route.Home)), direct = true),
     MenuGroup(NavSection.COURSES, listOf(MenuEntry("Courses", Route.Courses)), direct = true),
     MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Books), MenuEntry("Create new book", Route.NewBook), MenuEntry("Find free books", Route.FindBooks), MenuEntry("Book archive", Route.ArchivedBooks))),
@@ -93,8 +93,8 @@ private fun menuGroups(videos: Boolean) = listOfNotNull(
             MenuEntry("Experimental features", Route.ExperimentalFeatures),
         ),
     ),
-    // Signing in and syncing, apart from the settings so it is found at once.
-    MenuGroup(NavSection.ACCOUNT, listOf(MenuEntry("Account", Route.Account)), direct = true),
+    // Signing in and syncing, apart from the settings so it is found at once; signed in, the avatar at the end leads there instead.
+    MenuGroup(NavSection.ACCOUNT, listOf(MenuEntry("Account", Route.Account)), direct = true).takeIf { account },
 )
 
 const val APP_NAME = "Idiomiko"
@@ -139,6 +139,8 @@ fun AppTopBar(
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) { actions() }
             Spacer(Modifier.width(AppSpacing.xs))
             LearningLanguageSelector(compact = true, onOpen = { onNavigate(Route.ChooseLanguage) })
+            // On the main pages only: a page further in has its way back instead.
+            if (onBack == null) LocalAccountBadge.current?.let { AccountButton(it) }
         }
         return
     }
@@ -175,7 +177,14 @@ fun AppTopBar(
                     LearningLanguageSelector(compact = false)
                     Spacer(Modifier.width(AppSpacing.l))
                 }
-                if (showMenu) WideMenu(section, onNavigate)
+                if (showMenu) {
+                    val badge = LocalAccountBadge.current
+                    WideMenu(section, onNavigate, account = badge == null)
+                    badge?.let {
+                        Spacer(Modifier.width(AppSpacing.s))
+                        AccountButton(it)
+                    }
+                }
             }
             AppDivider()
         }
@@ -187,8 +196,8 @@ fun AppTopBar(
  * More tab at the end, whose menu lists their pages, so a narrower window still reaches them all.
  */
 @Composable
-private fun WideMenu(section: NavSection?, onNavigate: (Route) -> Unit) {
-    val groups = menuGroups(LocalVideosEnabled.current)
+private fun WideMenu(section: NavSection?, onNavigate: (Route) -> Unit, account: Boolean = true) {
+    val groups = menuGroups(LocalVideosEnabled.current, account)
     SubcomposeLayout { constraints ->
         val free = Constraints()
         // Measured apart, hidden from screen readers: a tab that does not fit is never placed, and must not be read out either.

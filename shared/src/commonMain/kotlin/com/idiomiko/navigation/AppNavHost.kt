@@ -57,7 +57,10 @@ import com.idiomiko.feature.playlists.playlistsGraph
 import com.idiomiko.feature.settings.LanguageSetupDialog
 import com.idiomiko.feature.settings.SyncPrompt
 import com.idiomiko.feature.settings.SyncPromptViewModel
+import com.idiomiko.feature.settings.AccountBadgeViewModel
 import com.idiomiko.core.ui.components.LocalSyncEntry
+import com.idiomiko.core.ui.components.AccountBadge
+import com.idiomiko.core.ui.components.LocalAccountBadge
 import com.idiomiko.core.ui.components.PullToSync
 import com.idiomiko.core.ui.components.SyncEntry
 import androidx.compose.foundation.layout.fillMaxSize
@@ -105,7 +108,15 @@ fun AppNavHost(openCourses: Int = 0) {
     val sync by syncPrompt.state.collectAsStateWithLifecycle()
     val syncEntry = remember(sync.available, sync.running) { if (sync.available) SyncEntry(sync.running, syncPrompt::open) else null }
     val pullToSync = syncEntry != null && LocalWindowWidth.current.isCompact && destination?.let(::pullsToSync) == true
-    CompositionLocalProvider(LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog, LocalSyncEntry provides syncEntry) {
+    // The bars' avatar, while signed in: the account's picture or first letter, leading to the account page.
+    val badgeModel = koinViewModel<AccountBadgeViewModel>()
+    val badgeState by badgeModel.state.collectAsStateWithLifecycle()
+    val accountBadge = remember(badgeState, navController) {
+        badgeState.profile?.let { p -> AccountBadge(p.email, p.name, badgeState.picture) { navController.navigate(Route.Account) { launchSingleTop = true } } }
+    }
+    CompositionLocalProvider(
+        LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog, LocalSyncEntry provides syncEntry, LocalAccountBadge provides accountBadge,
+    ) {
     Scaffold(
         bottomBar = {
             // The playlist player's bar stays while anything is loaded, over the phone's tabs.

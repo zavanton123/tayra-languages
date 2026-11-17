@@ -39,6 +39,8 @@ import com.idiomiko.core.domain.account.SignInProvider
 import com.idiomiko.core.domain.account.SyncPhase
 import com.idiomiko.core.domain.account.SyncProgress
 import com.idiomiko.core.ui.components.APP_NAME
+import com.idiomiko.core.ui.components.AccountAvatar
+import com.idiomiko.core.ui.components.LocalAccountBadge
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTopBar
@@ -60,6 +62,7 @@ import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppSpacing
+import com.idiomiko.core.ui.theme.AppText
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.viewmodel.koinViewModel
@@ -196,7 +199,16 @@ private fun ResetCard(state: AccountUiState, actions: AccountViewModel?) {
 @Composable
 private fun AccountCard(state: AccountUiState, actions: AccountViewModel?) {
     val account = state.account
-    ContentCard(state.signedIn.orEmpty(), subtitle = planText(state), icon = Icons.Default.AccountCircle, modifier = Modifier.testTag("account-card")) {
+    val email = state.signedIn.orEmpty()
+    // The bar's avatar has the picture already fetched.
+    val badge = LocalAccountBadge.current
+    val name = account?.name ?: badge?.name
+    // Named, the card is headed by the name with the email under it, above the plan.
+    ContentCard(
+        name ?: email, subtitle = listOfNotNull(email.takeIf { name != null }, planText(state)).joinToString("\n"),
+        modifier = Modifier.testTag("account-card"),
+        leading = { size -> AccountAvatar(name, email, badge?.picture, size, Modifier.testTag("account-card-avatar"), letterStyle = AppText.sectionTitle) },
+    ) {
         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             if (account != null && !account.emailVerified) ConfirmEmail(state, actions)
             val uri = LocalUriHandler.current
