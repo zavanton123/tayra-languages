@@ -12,7 +12,6 @@ import com.idiomiko.core.domain.account.IdentityException
 import com.idiomiko.core.domain.account.IdentitySignIn
 import com.idiomiko.core.domain.account.SignInClients
 import com.idiomiko.core.domain.account.SignInProvider
-import com.idiomiko.core.domain.account.SignedInDevice
 import com.idiomiko.core.domain.account.StoreException
 import com.idiomiko.core.domain.account.StoreProduct
 import com.idiomiko.core.domain.account.Subscriptions
@@ -36,7 +35,6 @@ data class AccountUiState(
     /** The email of the account this device is signed in to; null when signed out. */
     val signedIn: String? = null,
     val account: AccountInfo? = null,
-    val devices: List<SignedInDevice> = emptyList(),
     /** What the last sync from this page did. */
     val synced: SyncSummary? = null,
     /** The first sync would combine this device's library with the account's: the page asks first. */
@@ -71,7 +69,7 @@ enum class AccountTask { SIGNING_IN, LOADING, SENDING_CODE, CONFIRMING, SUBSCRIB
 
 enum class AccountDone { EMAIL_CONFIRMED, CODE_SENT, PASSWORD_RESET, SUBSCRIBED, PURCHASES_RESTORED, SYNCED, ACCOUNT_DELETED }
 
-/** The account this device is signed in to, its devices and syncing with it. */
+/** The account this device is signed in to and syncing with it. */
 class AccountViewModel(
     private val accounts: AccountRepository,
     private val sync: AutoSync,
@@ -161,11 +159,6 @@ class AccountViewModel(
 
     fun cancelReset() = _state.update { it.copy(resetSentTo = null) }
 
-    fun signOutDevice(id: String) = work(AccountTask.LOADING) {
-        accounts.signOutDevice(id)
-        _state.update { it.copy(devices = accounts.devices()) }
-    }
-
     /** Syncs, after asking when the first sync would combine two libraries; [combine] is the answer. */
     fun syncNow(combine: Boolean = false) = work(AccountTask.SYNCING) {
         when (val result = sync.syncNow(combine)) {
@@ -191,9 +184,8 @@ class AccountViewModel(
 
     private suspend fun load() {
         val account = accounts.account()
-        val devices = accounts.devices()
         _state.update {
-            it.copy(signedIn = accounts.signedIn.value, account = account, devices = devices, storeAvailable = subscriptions != null)
+            it.copy(signedIn = accounts.signedIn.value, account = account, storeAvailable = subscriptions != null)
         }
         // The store answers in its own time, and one that cannot be reached leaves the page without plans to buy.
         val store = subscriptions ?: return

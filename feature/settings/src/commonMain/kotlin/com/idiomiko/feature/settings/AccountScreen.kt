@@ -11,7 +11,6 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.Phone
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.MaterialTheme
@@ -41,7 +40,6 @@ import com.idiomiko.core.domain.account.SyncProgress
 import com.idiomiko.core.ui.components.APP_NAME
 import com.idiomiko.core.ui.components.AccountAvatar
 import com.idiomiko.core.ui.components.LocalAccountBadge
-import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.ButtonTone
@@ -70,7 +68,7 @@ import kotlin.time.Instant
 
 /**
  * Settings: the Idiomiko account this device is signed in to. Signed out, it signs in or
- * makes an account; signed in, it shows the subscription and syncing, lists the devices signed in,
+ * makes an account; signed in, it shows the subscription and syncing,
  * and signs out or deletes the account.
  */
 @Composable
@@ -108,7 +106,6 @@ internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, o
         else -> {
             AccountCard(state, actions)
             SyncCard(state, actions)
-            DevicesCard(state, actions)
             DeleteAccountCard(state, actions)
         }
     }
@@ -321,27 +318,6 @@ internal fun progressLine(progress: SyncProgress): String? = when (progress.phas
     SyncPhase.SENDING -> progress.total?.takeIf { it > 0 }?.let { tr("Sending {0} of {1}", formatCount(progress.done), formatCount(it)) }
     SyncPhase.RECEIVING -> tr("Taking changes from other devices: {0}", formatCount(progress.done))
     SyncPhase.APPLYING -> tr("Applying…")
-}
-
-@Composable
-private fun DevicesCard(state: AccountUiState, actions: AccountViewModel?) {
-    if (state.devices.isEmpty()) return
-    ContentCard(tr("Devices"), subtitle = tr("The devices signed in to your account."), icon = Icons.Default.Phone) {
-        state.devices.forEachIndexed { index, device ->
-            if (index > 0) AppDivider()
-            Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                Column(Modifier.weight(1f)) {
-                    Text(device.name.ifBlank { device.platform }, style = MaterialTheme.typography.titleSmall)
-                    Text(
-                        if (device.current) tr("This device") else tr("Last used {0}", when_(device.lastUsedAt)),
-                        style = MaterialTheme.typography.bodySmall,
-                        color = if (device.current) StatusTints.ok else MaterialTheme.colorScheme.onSurfaceVariant,
-                    )
-                }
-                if (!device.current) QuietButton(tr("Sign out"), onClick = { actions?.signOutDevice(device.id) }, enabled = state.busy == null)
-            }
-        }
-    }
 }
 
 @Composable

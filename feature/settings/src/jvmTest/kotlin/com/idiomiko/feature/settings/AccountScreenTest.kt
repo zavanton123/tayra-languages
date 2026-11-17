@@ -54,7 +54,7 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.time.Instant
 
-/** The account page signed out and in: signing in, confirming the email, the plan, syncing, the devices. */
+/** The account page signed out and in: signing in, confirming the email, the plan, syncing. */
 @OptIn(ExperimentalTestApi::class)
 class AccountScreenTest {
 
@@ -170,7 +170,7 @@ class AccountScreenTest {
     }
 
     @Test
-    fun signingInShowsThePlanAndTheDevices() = runDesktopComposeUiTest(width = 1400, height = 1600) {
+    fun signingInShowsThePlan() = runDesktopComposeUiTest(width = 1400, height = 1600) {
         val accounts = FakeAccounts()
         show(accounts)
         save("ACCOUNT_SCREENSHOT", "-signed-out")
@@ -184,8 +184,7 @@ class AccountScreenTest {
         onNodeWithTag("account-submit").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Sync is active until 2027-01-31.").assertExists()
-        onNodeWithText("This device").assertExists()
-        onNodeWithText("Pixel 9").assertExists()
+        onNodeWithText("Pixel 9").assertDoesNotExist()
 
         // The email is not confirmed yet: a wrong code says so, the right one confirms it.
         onNodeWithTag("confirm-code").performTextInput("000000")
