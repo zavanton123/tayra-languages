@@ -73,6 +73,10 @@ internal class DownloadActions(
     val removeBooks: (BookPack) -> Unit = {},
     val downloadDictionary: (DictionaryPack) -> Unit = {},
     val removeDictionary: (DictionaryPack) -> Unit = {},
+    /** Whether the app keeps the pack for the language on its own, so it offers no Remove. */
+    val keepsCourses: (CoursePack) -> Boolean = { false },
+    val keepsBooks: (BookPack) -> Boolean = { false },
+    val keepsDictionary: (DictionaryPack) -> Boolean = { false },
     val install: (SetupItem) -> Unit = {},
     val canRemove: (SetupItem) -> Boolean = { false },
     val remove: (SetupItem) -> Unit = {},
@@ -93,6 +97,9 @@ fun DownloadsScreen(onNavigate: (Route) -> Unit, viewModel: DownloadsViewModel =
             removeBooks = { viewModel.remove(it) },
             downloadDictionary = { viewModel.download(it) },
             removeDictionary = { viewModel.remove(it) },
+            keepsCourses = { viewModel.keeps(it) },
+            keepsBooks = { viewModel.keeps(it) },
+            keepsDictionary = { viewModel.keeps(it) },
             install = viewModel::install,
             canRemove = viewModel::canRemove,
             remove = { viewModel.remove(it) },
@@ -181,7 +188,7 @@ private fun CoursesSection(state: DownloadsUiState, actions: DownloadActions, co
             PackRow(tr(status.pack.title), tr("100 graded courses of mini stories, from A1 to C2"), status.state, "courses-${status.pack.id}",
                 size = status.pack.downloadSize,
                 onDownload = { actions.downloadCourses(status.pack) },
-                onRemove = {
+                onRemove = if (actions.keepsCourses(status.pack)) null else fun() {
                     confirm(Confirmation(
                         tr("Remove the {0} courses?", tr(status.pack.title)),
                         tr("Their courses and lessons are deleted, with the lesson texts you opened and how far you read them. Courses you made yourself stay. You can download the courses again at any time."),
@@ -201,7 +208,7 @@ private fun BooksSection(state: DownloadsUiState, actions: DownloadActions, conf
             PackRow(tr(status.pack.title), tr(status.pack.summary), status.state, "books-${status.pack.id}",
                 size = status.pack.downloadSize,
                 onDownload = { actions.downloadBooks(status.pack) },
-                onRemove = {
+                onRemove = if (actions.keepsBooks(status.pack)) null else fun() {
                     confirm(Confirmation(
                         tr("Remove the {0} books?", tr(status.pack.title)),
                         tr("The pack's books are deleted, with how far you read them and your bookmarks in them. Books you added yourself stay. You can download the pack again at any time."),
@@ -227,7 +234,7 @@ private fun DictionariesSection(state: DownloadsUiState, actions: DownloadAction
             PackRow(status.pack.displayTitle, null, status.state, "dictionary-${status.pack.id.name}",
                 size = status.pack.downloadSize,
                 onDownload = { actions.downloadDictionary(status.pack) },
-                onRemove = {
+                onRemove = if (actions.keepsDictionary(status.pack)) null else fun() {
                     confirm(Confirmation(
                         tr("Remove {0}?", status.pack.displayTitle),
                         tr("Its words are no longer looked up offline. You can download it again at any time."),
@@ -386,7 +393,7 @@ internal sealed interface RowState {
 }
 
 @Composable
-private fun PackRow(title: String, detail: String?, state: PackState, tag: String, onDownload: () -> Unit, onRemove: () -> Unit, size: Long? = null) {
+private fun PackRow(title: String, detail: String?, state: PackState, tag: String, onDownload: () -> Unit, onRemove: (() -> Unit)?, size: Long? = null) {
     DownloadRow(
         title,
         detail,

@@ -20,6 +20,7 @@ import com.idiomiko.core.domain.ocr.TextRecognizer
 import com.idiomiko.core.domain.repository.LanguageRepository
 import com.idiomiko.core.domain.service.DictionaryService
 import com.idiomiko.core.domain.service.LanguageSetupService
+import com.idiomiko.core.domain.service.LanguageAssets
 import com.idiomiko.core.domain.service.SetupItem
 import com.idiomiko.core.domain.service.SetupKind
 import com.idiomiko.core.domain.service.SetupState
@@ -65,7 +66,8 @@ data class DownloadsUiState(
 /**
  * Every download for the language being learned, in one place: the course and book packs, the
  * dictionaries, the voices, the translation and speech recognition models, and the text
- * recognition models, each to download or remove.
+ * recognition models, each to download or remove; what the app keeps for the language on its own
+ * cannot be removed.
  */
 class DownloadsViewModel(
     settings: SettingsRepository,
@@ -74,6 +76,7 @@ class DownloadsViewModel(
     private val bookPacks: BookPackService,
     private val dictionaries: DictionaryService,
     private val setup: LanguageSetupService,
+    private val assets: LanguageAssets,
     private val recognizer: TextRecognizer = NoTextRecognizer,
 ) : ViewModel() {
     private val language = MutableStateFlow<Language?>(null)
@@ -166,7 +169,12 @@ class DownloadsViewModel(
     /** Downloads a voice, a translation model or a speech recognition model, which goes on when the page is left. */
     fun install(item: SetupItem) = setup.install(listOf(item))
 
-    fun canRemove(item: SetupItem): Boolean = setup.canRemove(item)
+    /** Whether [item] can be removed: not what the app keeps for the language on its own (LanguageAssets). */
+    fun canRemove(item: SetupItem): Boolean = setup.canRemove(item) && !assets.required(item, tools.value.orEmpty())
+
+    fun keeps(pack: CoursePack): Boolean = assets.requiredCourses(pack.id, state.value.code)
+    fun keeps(pack: BookPack): Boolean = assets.requiredBooks(pack.id, state.value.code)
+    fun keeps(pack: DictionaryPack): Boolean = assets.requiredDictionary(pack.id, state.value.code)
 
     fun remove(item: SetupItem) = setup.remove(item)
 

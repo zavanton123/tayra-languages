@@ -1,5 +1,7 @@
 package com.idiomiko.feature.reading
 
+import com.idiomiko.core.domain.service.SetupKind
+import com.idiomiko.core.ui.components.LocalPreparing
 import com.idiomiko.core.ui.navigation.LocalFlashcardsDialog
 import com.idiomiko.core.domain.model.ReadingStage
 import androidx.compose.material.icons.filled.Close
@@ -1251,6 +1253,11 @@ private fun ContinuousControls(
 /** Missing models get an Install button, unsupported pairs a way back to MyMemory, anything else a retry. */
 @Composable
 private fun TranslationNotice(problem: LocalTranslationProblem, viewModel: ReadingViewModel, onSettings: () -> Unit) {
+    // The models are on their way in the background.
+    if (problem is LocalTranslationProblem.ModelMissing && SetupKind.TRANSLATION in LocalPreparing.current) {
+        Notice(tr("Getting offline translation ready…"), Modifier.padding(top = AppSpacing.s, bottom = AppSpacing.m), busy = true)
+        return
+    }
     val failed = problem is LocalTranslationProblem.Failed
     Notice(
         when (problem) {

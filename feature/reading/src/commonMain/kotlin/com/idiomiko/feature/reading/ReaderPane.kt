@@ -1,5 +1,7 @@
 package com.idiomiko.feature.reading
 
+import com.idiomiko.core.domain.service.SetupKind
+import com.idiomiko.core.ui.components.LocalPreparing
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.layout.Layout
 import androidx.compose.foundation.layout.fillMaxSize
@@ -541,7 +543,8 @@ private fun VoiceCard(state: ReadingUiState, viewModel: ReadingViewModel, onSpee
                 ) { viewModel.setSpeechVoice(it.id) }
             } else {
                 Text(
-                    tr("No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings.", tr(languageName)),
+                    if (SetupKind.VOICE in LocalPreparing.current) tr("Getting a voice for {0} ready. Until then, the system voice reads this text.", tr(languageName))
+                    else tr("No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings.", tr(languageName)),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )

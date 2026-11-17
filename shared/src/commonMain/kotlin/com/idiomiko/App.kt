@@ -37,6 +37,7 @@ import com.idiomiko.core.domain.service.ChineseScriptService
 import com.idiomiko.core.domain.service.LearningLanguageService
 import com.idiomiko.core.ui.components.LearningLanguageState
 import com.idiomiko.core.ui.components.LocalLearningLanguage
+import com.idiomiko.core.ui.components.LocalPreparing
 import com.idiomiko.core.ui.components.TargetLanguageDialog
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
@@ -45,7 +46,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.mutableIntStateOf
 import com.idiomiko.feature.settings.AppUpdateBanner
-import com.idiomiko.feature.settings.LanguageSetupDialog
+import com.idiomiko.core.domain.service.LanguageAssets
 import androidx.compose.runtime.setValue
 import com.idiomiko.core.domain.frequency.VocabularyLevelService
 import com.idiomiko.core.domain.frequency.WordFrequencyService
@@ -72,8 +73,8 @@ import com.idiomiko.core.domain.flashcards.SentenceTranslations
  * Gives every screen's top bar the choice of the language being learned, and picks a language
  * again whenever the chosen one is gone. While none is chosen (first start, a deleted language or
  * a reset database), the user has to choose one before going on. Choosing another
- * language opens its courses ([onChosen]), asks for its vocabulary level when it was never given
- * one, and then offers what it can download.
+ * language opens its courses ([onChosen]) and asks for its vocabulary level when it was never given
+ * one; what the language needs is downloaded in the background meanwhile ([LanguageAssets]).
  */
 @Composable
 private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, content: @Composable () -> Unit) {
@@ -94,9 +95,10 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     val chineseScripts = koinInject<ChineseScriptService>()
     // The language just chosen, asked for its vocabulary level first.
     var askLevelFor by remember { mutableStateOf<Long?>(null) }
-    // The language waiting for its downloads to be offered, once the level is dealt with.
-    var setupPending by remember { mutableStateOf<Long?>(null) }
-    var setupFor by remember { mutableStateOf<Long?>(null) }
+    // What the language being learned needs is fetched in the background, at start and whenever another is chosen.
+    val assets = koinInject<LanguageAssets>()
+    LaunchedEffect(assets, currentId) { assets.ensure(currentId) }
+    val preparing by assets.preparing.collectAsStateWithLifecycle()
     LaunchedEffect(currentId, languages) {
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure(pickUnchosen = false)
     }
@@ -106,12 +108,7 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
         suspend fun choose(id: Long) {
             if (!learning.select(id) || id == currentId) return
             onChosen()
-            if (levels.needsLevel(id)) {
-                setupPending = id
-                askLevelFor = id
-            } else {
-                setupFor = id
-            }
+            if (levels.needsLevel(id)) askLevelFor = id
         }
         LearningLanguageState(
             languages.sortedBy { it.name }.map { it.id to it.name }, currentId, nativeIds, knownWords,
@@ -130,15 +127,10 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
         ) { id -> scope.launch { choose(id) } }
     }
     val script = languages.firstOrNull { it.id == currentId }?.chineseScript
-    CompositionLocalProvider(LocalLearningLanguage provides state, LocalLearnedScript provides script) {
+    CompositionLocalProvider(LocalLearningLanguage provides state, LocalLearnedScript provides script, LocalPreparing provides preparing) {
         content()
         if (currentId == 0L && languages.isNotEmpty()) TargetLanguageDialog(state)
-        VocabularyLevelPrompt(askLevelFor, onClosed = {
-            askLevelFor = null
-            setupFor = setupPending
-            setupPending = null
-        })
-        LanguageSetupDialog(setupFor, onClosed = { setupFor = null })
+        VocabularyLevelPrompt(askLevelFor, onClosed = { askLevelFor = null })
     }
 }
 

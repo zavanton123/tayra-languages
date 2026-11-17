@@ -54,7 +54,7 @@ import com.idiomiko.feature.playlists.PlaybackNotificationsPermission
 import com.idiomiko.feature.playlists.PlaybackProblemDialog
 import com.idiomiko.feature.playlists.PlayerBar
 import com.idiomiko.feature.playlists.playlistsGraph
-import com.idiomiko.feature.settings.LanguageSetupDialog
+import com.idiomiko.core.domain.service.LanguageAssets
 import com.idiomiko.feature.settings.SyncPrompt
 import com.idiomiko.feature.settings.SyncPromptViewModel
 import com.idiomiko.feature.settings.AccountBadgeViewModel
@@ -101,8 +101,8 @@ fun AppNavHost(openCourses: Int = 0) {
     val flashcardsDialog = remember<@Composable (() -> Unit) -> Unit>(navController) {
         { onClose -> FlashcardsDialog(onNavigate = { navController.navigate(it) }, onClose = onClose) }
     }
-    // The language whose downloads the playlist player sent for, to get a voice for it.
-    var voiceFor by remember { mutableStateOf<Long?>(null) }
+    // A voice the playlist player asked for is fetched at once, even on mobile data.
+    val assets = koinInject<LanguageAssets>()
     // Syncing is asked from the wide bar's button or by pulling a phone page down; neither shows without an account service.
     val syncPrompt = koinViewModel<SyncPromptViewModel>()
     val sync by syncPrompt.state.collectAsStateWithLifecycle()
@@ -172,9 +172,8 @@ fun AppNavHost(openCourses: Int = 0) {
         }
     }
     }
-    PlaybackProblemDialog(onDownloadVoice = { voiceFor = it })
+    PlaybackProblemDialog(onDownloadVoice = { assets.ensure(it, anyNetwork = true) })
     PlaybackNotificationsPermission()
-    LanguageSetupDialog(voiceFor, onClosed = { voiceFor = null })
     if (more) MoreSheet(onNavigate = { more = false; navController.navigate(it) }, onDismiss = { more = false })
     SyncPrompt(syncPrompt, onOpenAccount = { navController.navigate(Route.Account) { launchSingleTop = true } })
     TranslationBackupNotice(onBackups = { navController.navigate(Route.Backups) { launchSingleTop = true } })

@@ -16,7 +16,7 @@ val settingsModule = module {
     viewModel { PersonalSchedulingViewModel(get(), get()) }
     viewModel { RetentionHelpViewModel(get(), get()) }
     viewModel { DictionariesViewModel(get(), get(), get()) }
-    viewModel { DownloadsViewModel(get(), get(), get(), get(), get(), get(), get()) }
+    viewModel { DownloadsViewModel(get(), get(), get(), get(), get(), get(), get(), get()) }
     viewModel { SpeechViewModel(get(), get(), get(), getOrNull()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
@@ -24,7 +24,6 @@ val settingsModule = module {
     viewModel { SyncPromptViewModel(get(), get()) }
     viewModel { AccountBadgeViewModel(get()) }
     viewModel { ClearDataViewModel(get()) }
-    viewModel { LanguageSetupViewModel(get()) }
 }
 
 fun NavGraphBuilder.settingsGraph(navController: NavController) {
