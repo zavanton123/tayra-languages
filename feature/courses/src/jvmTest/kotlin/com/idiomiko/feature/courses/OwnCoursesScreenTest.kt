@@ -37,6 +37,8 @@ import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import kotlin.test.assertFailsWith
+import com.idiomiko.core.domain.courses.CourseValidationException
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
@@ -144,16 +146,27 @@ class OwnCoursesScreenTest {
         waitUntil(timeoutMillis = 5_000) { runBlocking { service.observeCourse(courseId).first() }!!.course.lessons.map { it.title } == listOf("O cão") }
     }
 
+    /** The app's courses are read as they come: nothing on them can be edited, only the whole course deleted. */
     @Test
-    fun aSampleCourseIsTaggedAndCanBeChangedToo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun aSampleCourseIsTaggedAndCannotBeChanged() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val viewModel = CourseViewModel("pt-mini-0100", service)
         host { CourseContent(viewModel.state.collectAsStateValue(), onOpenLesson = {}, onCourses = {}, editing = CourseEditing()) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Em casa e com a família").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(1, onAllNodesWithText("idiomiko").fetchSemanticsNodes().size, "the course carries the idiomiko tag; its lessons, which all share it, do not repeat it")
-        onNodeWithTag("edit-course").assertExists()
-        onNodeWithTag("add-lesson").assertExists()
-        onNodeWithTag("lesson-menu-pt-mini-0100-01").assertExists()
+        onNodeWithTag("edit-course").assertDoesNotExist()
+        onNodeWithTag("add-lesson").assertDoesNotExist()
+        onNodeWithTag("lesson-menu-pt-mini-0100-01").assertDoesNotExist()
+        onNodeWithTag("course-menu").assertExists()
         System.getenv("SAMPLE_COURSE_SCREENSHOT")?.let { save(it) }
+        val lesson = runBlocking { service.observeCourse("pt-mini-0100").first() }!!.course.lessons.first()
+        for (change in listOf<suspend () -> Unit>(
+            { service.updateCourse("pt-mini-0100", CourseDraft("Mine now")) },
+            { service.addLesson("pt-mini-0100", LessonDraft("Extra", text = "Um texto.")) },
+            { service.updateLesson("pt-mini-0100", lesson.id, LessonDraft("Changed", text = "Outro texto.")) },
+            { service.moveLesson("pt-mini-0100", lesson.id, 1) },
+            { service.deleteLesson("pt-mini-0100", lesson.id) },
+        )) assertFailsWith<CourseValidationException> { runBlocking { change() } }
+        assertEquals(lesson, runBlocking { service.observeCourse("pt-mini-0100").first() }!!.course.lessons.first(), "the lesson is as it came")
     }
 
     @androidx.compose.runtime.Composable

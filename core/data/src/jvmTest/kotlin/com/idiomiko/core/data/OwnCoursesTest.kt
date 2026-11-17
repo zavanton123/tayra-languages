@@ -95,7 +95,7 @@ class OwnCoursesTest {
     }
 
     @Test
-    fun theSamplesAreWrittenOnceAndCanBeChangedLikeAnyCourse() = runTest {
+    fun theSamplesAreWrittenOnceAndCannotBeChanged() = runTest {
         val pt = languages.save(Language(name = "Portuguese"))
         val de = languages.save(Language(name = "German"))
         service.seedSamples()
@@ -103,12 +103,11 @@ class OwnCoursesTest {
         assertEquals(listOf("Primeiros passos", "A vida na cidade", "Histórias curtas"), service.observeCourses(pt).first().map { it.course.title }, "once, in their order")
         assertEquals(emptyList(), service.observeCourses(de).first(), "German has no samples")
 
-        service.updateCourse("pt-test-a1", CourseDraft("Os meus primeiros passos", level = CourseLevel.A1))
-        service.addLesson("pt-test-a1", LessonDraft("Extra", text = "Mais um texto."))
-        val changed = service.observeCourse("pt-test-a1").first()!!.course
-        assertEquals("Os meus primeiros passos", changed.title)
-        assertEquals(6, changed.lessons.size)
-        assertTrue(changed.builtIn, "still marked as a sample")
+        assertFailsWith<CourseValidationException> { service.updateCourse("pt-test-a1", CourseDraft("Os meus primeiros passos", level = CourseLevel.A1)) }
+        assertFailsWith<CourseValidationException> { service.addLesson("pt-test-a1", LessonDraft("Extra", text = "Mais um texto.")) }
+        val kept = service.observeCourse("pt-test-a1").first()!!.course
+        assertEquals("Primeiros passos", kept.title)
+        assertEquals(5, kept.lessons.size)
 
         service.deleteCourse("pt-test-b1")
         service.seedSamples()

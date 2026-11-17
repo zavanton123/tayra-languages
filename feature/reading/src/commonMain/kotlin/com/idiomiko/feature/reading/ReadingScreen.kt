@@ -348,7 +348,8 @@ fun ReadingScreen(
             HotkeyAction.COPY_PAGE -> viewModel.copy(TextScope.PAGE)
             HotkeyAction.PAGE_TERM_LIST -> onNavigate(Route.Terms(viewModel.pageTermIds(), bookId, state.pageNumber))
             HotkeyAction.BOOKMARK -> if (state.bookmarkable) bookmarkDialog = true else return false
-            HotkeyAction.EDIT_PAGE -> onNavigate(Route.EditPage(bookId, state.pageNumber))
+            // A lesson's text belongs to its course, so it is not edited from here.
+            HotkeyAction.EDIT_PAGE -> if (state.lesson == null) onNavigate(Route.EditPage(bookId, state.pageNumber)) else return false
             HotkeyAction.NEXT_THEME -> viewModel.nextTheme()
             HotkeyAction.SAVE_TERM -> return false
             // The flashcards' shortcuts act on their own screen.

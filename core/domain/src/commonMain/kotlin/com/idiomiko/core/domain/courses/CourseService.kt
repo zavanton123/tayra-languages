@@ -159,7 +159,7 @@ class CourseService(
         return id
     }
 
-    suspend fun updateCourse(courseId: String, draft: CourseDraft) = repository.updateCourse(stored(courseId).id, validated(draft))
+    suspend fun updateCourse(courseId: String, draft: CourseDraft) = repository.updateCourse(own(courseId).id, validated(draft))
 
     /** Deletes the course, its lessons and the texts made from them. */
     suspend fun deleteCourse(courseId: String) {
@@ -170,7 +170,7 @@ class CourseService(
 
     /** Adds a lesson at the end of the course; returns its id. */
     suspend fun addLesson(courseId: String, draft: LessonDraft): String {
-        val course = stored(courseId)
+        val course = own(courseId)
         val id = newId("lesson")
         repository.addLesson(id, course.id, validated(draft))
         return id
@@ -181,7 +181,7 @@ class CourseService(
      * when the words changed, keeping the place reached as far as the new pages allow.
      */
     suspend fun updateLesson(courseId: String, lessonId: String, draft: LessonDraft) {
-        val before = stored(courseId).lessons.firstOrNull { it.id == lessonId } ?: throw NoSuchElementException("No lesson $lessonId")
+        val before = own(courseId).lessons.firstOrNull { it.id == lessonId } ?: throw NoSuchElementException("No lesson $lessonId")
         val clean = validated(draft)
         repository.updateLesson(lessonId, clean)
         val bookId = books.lessonBookId(lessonId) ?: return
@@ -204,15 +204,19 @@ class CourseService(
 
     /** Deletes the lesson and the text made from it. */
     suspend fun deleteLesson(courseId: String, lessonId: String) {
-        stored(courseId)
+        own(courseId)
         books.lessonBookId(lessonId)?.let { bookService.delete(it) }
         repository.deleteLesson(lessonId)
     }
 
     suspend fun moveLesson(courseId: String, lessonId: String, by: Int) {
-        stored(courseId)
+        own(courseId)
         repository.moveLesson(lessonId, by)
     }
+
+    /** The reader's own course: the app's courses (from its packs) are read as they come, never changed. */
+    private suspend fun own(courseId: String): Course =
+        stored(courseId).also { if (it.builtIn) throw CourseValidationException("The app's courses cannot be changed") }
 
     private suspend fun stored(courseId: String): Course =
         repository.course(courseId) ?: throw CourseValidationException("This course no longer exists")
