@@ -25,6 +25,13 @@ import com.idiomiko.core.domain.repository.DictionaryRepository
 import com.idiomiko.core.domain.service.BookService
 import com.idiomiko.core.domain.service.DictionaryService
 import com.idiomiko.core.domain.service.LanguageSetupService
+import com.idiomiko.core.domain.books.BookPack
+import com.idiomiko.core.domain.books.BookPackService
+import com.idiomiko.core.domain.books.BookPackStore
+import com.idiomiko.core.domain.books.PackedBook
+import com.idiomiko.core.domain.service.LanguageAssets
+import com.idiomiko.core.domain.service.NetworkStatus
+import kotlinx.coroutines.flow.MutableSharedFlow
 import com.idiomiko.core.domain.service.LocalPackage
 import com.idiomiko.core.domain.service.LocalSentenceTranslator
 import com.idiomiko.core.domain.service.LocalSpeech
@@ -41,6 +48,7 @@ import com.idiomiko.core.domain.service.SpeechVoice
 import com.idiomiko.core.domain.service.TranslationEngine
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeout
 import java.io.File
@@ -329,5 +337,67 @@ class LanguageSetupServiceTest {
         assertEquals(SetupStatus.MISSING, hearing.overview(id).single { it.kind == SetupKind.RECOGNITION && it.name == "HIGH" }.status, "the other can still be had")
 
         assertEquals(emptyList(), setup.overview(id).filter { it.kind == SetupKind.RECOGNITION }, "nothing is offered where the system hears speech")
+    }
+
+    private class FakeBookPacks : BookPackStore {
+        val installed = mutableSetOf<String>()
+        override suspend fun installedSize(pack: BookPack): Long? = if (pack.id in installed) 2_000 else null
+        override suspend fun install(pack: BookPack, onProgress: (Float?) -> Unit) { installed += pack.id }
+        override suspend fun remove(pack: BookPack) { installed -= pack.id }
+        override suspend fun books(pack: BookPack): List<PackedBook> = listOf(PackedBook(id = "b1", level = "A2", title = "Um livro", author = "", summary = "", sourceUrl = "", license = "CC0", tags = emptyList(), text = "Um texto."))
+    }
+
+    private class Network(var free: Boolean) : NetworkStatus {
+        override fun unmetered() = free
+        override val changes = MutableSharedFlow<Unit>(extraBufferCapacity = 1)
+    }
+
+    /** On mobile data the small packs come at once; the voice and the translation models wait for Wi-Fi, and never switch the translator. */
+    @Test
+    fun theLanguagesAssetsComeOnTheirOwnTheLargeOnesOnWiFi() = runBlocking<Unit> {
+        val bookStore = FakeBookPacks()
+        val network = Network(free = false)
+        settings.update { it.copy(translationEngine = TranslationEngine.MYMEMORY) }
+        val assets = LanguageAssets(setup, BookPackService(bookStore, books, BookService(books, languages), languages), languages, settings, network)
+        val id = languages.save(Language(name = "Portuguese"))
+
+        assets.ensure(id)
+        withTimeout(5_000) { while (bookStore.installed.isEmpty() || "courses-pt" !in coursePackStore.installed || dictionaryStore.installed.isEmpty()) delay(20) }
+        assertEquals(setOf("books-pt"), bookStore.installed)
+        assertTrue(DictionaryId("pt", "en") in dictionaryStore.installed)
+        delay(200)
+        assertTrue(piper.voices.isEmpty() && translator.models.isEmpty(), "the large downloads wait for Wi-Fi")
+        assertEquals(emptySet(), assets.preparing.value, "nothing waiting for Wi-Fi counts as getting ready")
+
+        network.free = true
+        network.changes.emit(Unit)
+        withTimeout(5_000) { while (piper.voices.isEmpty() || translator.models.isEmpty()) delay(20) }
+        assertEquals(setOf("pt_BR-faber-medium"), piper.voices, "one voice, the recommended one")
+        assertEquals(setOf("pt-en"), translator.models)
+        assertEquals(SpeechEngine.PIPER, settings.current.speechEngine, "a voice is of no use unless its engine speaks")
+        assertEquals(TranslationEngine.MYMEMORY, settings.current.translationEngine, "the translator chosen in Settings stays")
+        withTimeout(5_000) { assets.preparing.first { it.isEmpty() } }
+    }
+
+    /** What the app keeps for the language offers no Remove: everything but speech recognition, and a voice only while it is the last one. */
+    @Test
+    fun theDownloadsTheAppKeepsCannotBeRemoved() = runBlocking<Unit> {
+        val bookStore = FakeBookPacks()
+        val assets = LanguageAssets(setup, BookPackService(bookStore, books, BookService(books, languages), languages), languages, settings)
+        val id = languages.save(Language(name = "Portuguese"))
+        setup.install(setup.overview(id).filter { it.status == SetupStatus.MISSING })
+        withTimeout(5_000) { while (setup.states.value.values.any { it != SetupState.Done } || setup.states.value.isEmpty()) delay(20) }
+        val all = setup.overview(id)
+        val voices = all.filter { it.kind == SetupKind.VOICE }
+        assertEquals(2, voices.count { it.status == SetupStatus.INSTALLED })
+        assertTrue(voices.none { assets.required(it, all) }, "either voice can go while the other reads the language")
+        setup.remove(voices.first())
+        withTimeout(5_000) { while (setup.overview(id).count { it.kind == SetupKind.VOICE && it.status == SetupStatus.INSTALLED } > 1) delay(20) }
+        val after = setup.overview(id)
+        assertTrue(assets.required(after.single { it.kind == SetupKind.VOICE && it.status == SetupStatus.INSTALLED }, after), "the last voice stays")
+        assertTrue(assets.required(after.first { it.kind == SetupKind.TRANSLATION }, after))
+        assertTrue(assets.requiredCourses("courses-pt", "pt") && !assets.requiredCourses("courses-pt", "es"))
+        assertTrue(assets.requiredBooks("books-pt", "pt"))
+        assertTrue(assets.requiredDictionary(DictionaryId("pt", "en"), "pt"))
     }
 }

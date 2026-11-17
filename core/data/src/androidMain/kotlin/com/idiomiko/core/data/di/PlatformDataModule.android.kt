@@ -28,9 +28,12 @@ import com.idiomiko.core.domain.service.LocalTranslation
 import com.idiomiko.core.domain.service.SpeechAudioCache
 import java.io.File
 import org.koin.core.module.Module
+import com.idiomiko.core.data.network.AndroidNetworkStatus
+import com.idiomiko.core.domain.service.NetworkStatus
 import org.koin.dsl.module
 
 actual val platformDataModule: Module = module {
+    single<NetworkStatus> { AndroidNetworkStatus(get<Context>()) }
     single { LocalTranslation(MlKitSentenceTranslator(get())) }
     single { AndroidSherpaRuntime(get<Context>()) }
     single<VideoTranscriber> { SherpaVideoTranscriber(get<AndroidSherpaRuntime>(), AndroidSherpaTranscription(get<Context>())) }

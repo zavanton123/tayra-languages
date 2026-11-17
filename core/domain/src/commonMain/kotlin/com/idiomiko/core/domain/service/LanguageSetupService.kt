@@ -111,7 +111,8 @@ class LanguageSetupService(
     private val recognition: SpeechRecognitionSetup? = null,
     private val scope: CoroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.Default),
 ) {
-    private val actions = mutableMapOf<String, suspend () -> Unit>()
+    /** Each item's download; its argument says it was started by the app on its own, not asked for. */
+    private val actions = mutableMapOf<String, suspend (automatic: Boolean) -> Unit>()
     private val removals = mutableMapOf<String, suspend () -> Unit>()
 
     private val _states = MutableStateFlow<Map<String, SetupState>>(emptyMap())
@@ -150,20 +151,30 @@ class LanguageSetupService(
 
     /** Starts the downloads of [items], in order; a failed one does not stop the next. */
     fun install(items: List<SetupItem>) {
-        val chosen = items.mapNotNull { item -> actions[item.id]?.let { item to it } }
-        _states.update { it + chosen.associate { (item, _) -> item.id to SetupState.Waiting } }
-        scope.launch {
-            for ((item, action) in chosen) {
-                set(item.id, SetupState.Running(null))
-                try {
-                    action()
-                    set(item.id, SetupState.Done)
-                } catch (e: CancellationException) {
-                    throw e
-                } catch (e: Exception) {
-                    set(item.id, SetupState.Failed(e.message ?: e.toString()))
-                }
-            }
+        val chosen = items.filter { it.id in actions }
+        _states.update { it + chosen.associate { item -> item.id to SetupState.Waiting } }
+        scope.launch { for (item in chosen) run(item, automatic = false) }
+    }
+
+    /**
+     * Downloads [item] now, as the app does on its own: an engine is switched to only where the
+     * download is of no use otherwise (a voice), never from one chosen in Settings (translation).
+     * True when it is on the device afterwards.
+     */
+    suspend fun installNow(item: SetupItem): Boolean = run(item, automatic = true)
+
+    private suspend fun run(item: SetupItem, automatic: Boolean): Boolean {
+        val action = actions[item.id] ?: return false
+        set(item.id, SetupState.Running(null))
+        return try {
+            action(automatic)
+            set(item.id, SetupState.Done)
+            true
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            set(item.id, SetupState.Failed(e.message ?: e.toString()))
+            false
         }
     }
 
@@ -194,7 +205,7 @@ class LanguageSetupService(
     private fun settled(kind: SetupKind, language: String, name: String, status: SetupStatus) =
         SetupItem("${kind.name.lowercase()}:${status.name.lowercase()}", kind, language, name, emptyList(), recommended = false, status = status)
 
-    private fun register(item: SetupItem, action: suspend () -> Unit): SetupItem {
+    private fun register(item: SetupItem, action: suspend (automatic: Boolean) -> Unit): SetupItem {
         actions[item.id] = action
         return item
     }
@@ -327,12 +338,12 @@ class LanguageSetupService(
             "translation:$code-$native", SetupKind.TRANSLATION, name, pair,
             files, recommended = inUse && !runtime, switchesEngine = !inUse,
         )
-        return register(item) {
+        return register(item) { automatic ->
             if (runtime) translator.setUp()
             val needed = packagesNeeded(translator, translator.packages(), code, native)
                 ?: error("${translator.displayName} has no model for this language")
             for (pkg in needed) translator.installPackage(pkg.fromCode, pkg.toCode)
-            if (!inUse) settings.update { it.copy(translationEngine = TranslationEngine.ARGOS) }
+            if (!inUse && !automatic) settings.update { it.copy(translationEngine = TranslationEngine.ARGOS) }
         }
     }
 

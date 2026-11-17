@@ -16,10 +16,13 @@ import com.idiomiko.core.domain.practice.SpeechRecognition
 import com.idiomiko.core.domain.ocr.TextRecognizer
 import com.idiomiko.core.domain.service.SpeechAudioCache
 import org.koin.core.module.Module
+import com.idiomiko.core.data.network.IosNetworkStatus
+import com.idiomiko.core.domain.service.NetworkStatus
 import org.koin.dsl.module
 import platform.Foundation.NSUserDefaults
 
 actual val platformDataModule: Module = module {
+    single<NetworkStatus> { IosNetworkStatus() }
     single { DatabaseDriverFactory() }
     single { BackupFiles() }
     single<SpeechAudioCache> { FileSpeechAudioCache() }

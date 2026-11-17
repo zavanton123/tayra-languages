@@ -149,6 +149,9 @@ import com.idiomiko.core.domain.language.LanguageCatalog
 import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.service.LanguageService
 import com.idiomiko.core.domain.service.LanguageSetupService
+import com.idiomiko.core.domain.service.LanguageAssets
+import com.idiomiko.core.domain.service.NetworkStatus
+import com.idiomiko.core.domain.service.AnyNetwork
 import com.idiomiko.core.domain.service.LearningLanguageService
 import com.idiomiko.core.domain.service.LearningTranslations
 import com.idiomiko.core.domain.service.LexiconService
@@ -310,6 +313,7 @@ val dataModule: Module = module {
     single<WikiReader> { WikiArticles(get()) }
     single { NewsService(get(), get(), get(), get(), get()) }
     single { LanguageSetupService(get(), get(), get(), get(), get(), get(), getOrNull()) }
+    single { LanguageAssets(get(), get(), get(), get(), getOrNull<NetworkStatus>() ?: AnyNetwork) }
     single { ClearDataService(get(), get(), get(), get(), get(), get(), get()) }
     single { LanguageRemovalService(get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }
