@@ -24,8 +24,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.RoundRect
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
@@ -64,6 +66,8 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
+import kotlin.math.ceil
+import kotlin.math.roundToInt
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -75,8 +79,6 @@ import kotlinx.coroutines.flow.mapLatest
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.datetime.LocalDate
 import org.koin.compose.viewmodel.koinViewModel
-import kotlin.math.ceil
-import kotlin.math.roundToInt
 
 data class FlashcardStatsUiState(
     val loading: Boolean = true,
@@ -348,11 +350,19 @@ internal fun Bars(columns: List<List<Int>>, colors: List<Color>, from: String, t
             columns.forEachIndexed { i, parts ->
                 val x = i * slot + (slot - bar) / 2
                 var top = size.height
+                val last = parts.indexOfLast { it > 0 }
                 parts.forEachIndexed { p, value ->
                     if (value > 0) {
                         val h = (size.height * value / max).coerceAtLeast(2f)
                         top -= h
-                        drawRoundRect(colors[p % colors.size], Offset(x, top), Size(bar, h), CornerRadius(bar / 6))
+                        // The parts meet flat; only the column's top is rounded.
+                        val color = colors[p % colors.size]
+                        if (p == last) {
+                            val corner = CornerRadius(bar / 6)
+                            drawPath(Path().apply { addRoundRect(RoundRect(x, top, x + bar, top + h, corner, corner, CornerRadius.Zero, CornerRadius.Zero)) }, color)
+                        } else {
+                            drawRect(color, Offset(x, top), Size(bar, h))
+                        }
                     }
                 }
             }
