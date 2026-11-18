@@ -126,8 +126,6 @@ import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.components.formatDate
 import com.idiomiko.core.ui.components.itemMotion
 import com.idiomiko.core.ui.components.relativeTo
-import com.idiomiko.core.ui.i18n.LanguageCase
-import com.idiomiko.core.ui.i18n.languageInSentence
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.navigation.Route
@@ -331,38 +329,41 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
         if (state.page != shownPage && list.firstVisibleItemIndex >= rowsBefore - 1) list.scrollToItem(rowsBefore - 1)
         shownPage = state.page
     }
-    ScrollList(modifier, state = list, contentPadding = PaddingValues(horizontal = AppSpacing.xxxl, vertical = AppSpacing.l)) {
-        item {
-            Box(Modifier.padding(bottom = AppSpacing.xl)) {
-                ScreenHeader(
-                    tr("Browse flashcards"),
-                    subtitle = if (state.languageName.isEmpty()) tr("Every card of the words you are learning, with where each stands.")
-                    else tr("Every card of the {0} words you are learning, with where each stands.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
-                ) {
-                    // The review and the statistics are in the bar's Flashcards menu.
-                    Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                        if (state.canImportAnki) SecondaryButton(tr("Import from Anki"), onClick = actions.onImportAnki, modifier = Modifier.testTag("import-anki"), icon = AppIcons.UploadFile)
-                        if (state.canExportAnki && state.counts.all > 0) SecondaryButton(tr("Export to Anki"), onClick = actions.onExportAnki, modifier = Modifier.testTag("export-anki"), icon = AppIcons.Download)
+    // A narrower table leaves out the columns the card's details show anyway, so the word and its sentence keep their room.
+    BoxWithConstraints(modifier) {
+        val full = maxWidth - AppSpacing.xxxl * 2 >= FULL_TABLE_WIDTH
+        ScrollList(Modifier.fillMaxSize(), state = list, contentPadding = PaddingValues(horizontal = AppSpacing.xxxl, vertical = AppSpacing.l)) {
+            item {
+                Box(Modifier.padding(bottom = AppSpacing.xl)) {
+                    ScreenHeader(
+                        tr("Browse flashcards"),
+                        subtitle = null,
+                    ) {
+                        // The review and the statistics are in the bar's Flashcards menu.
+                        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                            if (state.canImportAnki) SecondaryButton(tr("Import from Anki"), onClick = actions.onImportAnki, modifier = Modifier.testTag("import-anki"), icon = AppIcons.UploadFile)
+                            if (state.canExportAnki && state.counts.all > 0) SecondaryButton(tr("Export to Anki"), onClick = actions.onExportAnki, modifier = Modifier.testTag("export-anki"), icon = AppIcons.Download)
+                        }
                     }
                 }
             }
-        }
-        item { BrowseFigures(state, viewModel::setView) }
-        item { Toolbar(state, viewModel) }
-        item { ViewChips(state, viewModel::setView, Modifier.fillMaxWidth().padding(bottom = AppSpacing.l)) }
-        if (state.selected.isNotEmpty()) item { CardSelectionBar(state, viewModel, actions) }
-        when {
-            state.loading -> item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = MaterialTheme.colorScheme.onSurfaceVariant) }
-            state.rows.isEmpty() -> item { EmptyCards(state) }
-            else -> {
-                // The header, the rows and the pager make one card, each drawing its part of the outline.
-                item { CardTableHeader(state, viewModel, Modifier.tableFrame(TableSlice.TOP)) }
-                itemsIndexed(state.pageRows, key = { _, row -> row.termId }) { index, row -> Column(itemMotion().tableFrame(TableSlice.MIDDLE)) {
-                    CardTableRow(row, state, index, actions)
-                }}
-                item {
-                    Box(Modifier.fillMaxWidth().tableFrame(TableSlice.BOTTOM).padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.m).heightIn(min = AppSpacing.s)) {
-                        ListPager(state.page, state.pageSize, state.rows.size, viewModel::setPageSize, viewModel::goToPage)
+            item { BrowseFigures(state, viewModel::setView) }
+            item { Toolbar(state, viewModel) }
+            item { ViewChips(state, viewModel::setView, Modifier.fillMaxWidth().padding(bottom = AppSpacing.l)) }
+            if (state.selected.isNotEmpty()) item { CardSelectionBar(state, viewModel, actions) }
+            when {
+                state.loading -> item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = MaterialTheme.colorScheme.onSurfaceVariant) }
+                state.rows.isEmpty() -> item { EmptyCards(state) }
+                else -> {
+                    // The header, the rows and the pager make one card, each drawing its part of the outline.
+                    item { CardTableHeader(state, viewModel, full, Modifier.tableFrame(TableSlice.TOP)) }
+                    itemsIndexed(state.pageRows, key = { _, row -> row.termId }) { index, row -> Column(itemMotion().tableFrame(TableSlice.MIDDLE)) {
+                        CardTableRow(row, state, index, full, actions)
+                    }}
+                    item {
+                        Box(Modifier.fillMaxWidth().tableFrame(TableSlice.BOTTOM).padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.m).heightIn(min = AppSpacing.s)) {
+                            ListPager(state.page, state.pageSize, state.rows.size, viewModel::setPageSize, viewModel::goToPage)
+                        }
                     }
                 }
             }
@@ -525,26 +526,29 @@ internal fun EmptyCards(state: BrowseUiState) {
 // Column weights and widths shared by the table header and rows.
 private const val CARD_WEIGHT = 2.2f
 private const val SENTENCE_WEIGHT = 3f
-private val STATE_WIDTH = 130.dp
-private val DUE_WIDTH = 120.dp
-private val INTERVAL_WIDTH = 90.dp
-private val COUNT_WIDTH = 80.dp
-private val LAST_WIDTH = 120.dp
+private val STATE_WIDTH = 140.dp
+private val DUE_WIDTH = 140.dp
+private val INTERVAL_WIDTH = 110.dp
+private val COUNT_WIDTH = 100.dp
+private val LAST_WIDTH = 140.dp
 private val MENU_WIDTH = 48.dp
 
+/** The table's width from which it has every column, the created date and the counts too. */
+private val FULL_TABLE_WIDTH = 1350.dp
+
 @Composable
-private fun CardTableHeader(state: BrowseUiState, viewModel: BrowseFlashcardsViewModel, modifier: Modifier) {
+private fun CardTableHeader(state: BrowseUiState, viewModel: BrowseFlashcardsViewModel, full: Boolean, modifier: Modifier) {
     val allSelected = state.rows.isNotEmpty() && state.rows.all { it.termId in state.selected }
     TableHeader(modifier) {
         AppCheckbox(checked = allSelected, onCheckedChange = viewModel::selectAllShown, modifier = Modifier.testTag("browse-select-all"))
         SortHeader(tr("Card"), BrowseSortField.WORD, state.sort, Modifier.weight(CARD_WEIGHT), viewModel::sortBy)
-        TableHeaderCell(tr("Sentence"), Modifier.weight(SENTENCE_WEIGHT))
-        SortHeader(tr("Created"), BrowseSortField.CREATED, state.sort, Modifier.width(LAST_WIDTH), viewModel::sortBy)
+        TableHeaderCell(tr("Sentence"), Modifier.weight(SENTENCE_WEIGHT), style = AppText.emphasis)
+        if (full) SortHeader(tr("Created"), BrowseSortField.CREATED, state.sort, Modifier.width(LAST_WIDTH), viewModel::sortBy)
         SortHeader(tr("State"), BrowseSortField.STATE, state.sort, Modifier.width(STATE_WIDTH), viewModel::sortBy)
         SortHeader(tr("Due"), BrowseSortField.DUE, state.sort, Modifier.width(DUE_WIDTH), viewModel::sortBy)
         SortHeader(tr("Interval"), BrowseSortField.INTERVAL, state.sort, Modifier.width(INTERVAL_WIDTH), viewModel::sortBy)
-        SortHeader(tr("Reviews"), BrowseSortField.REVIEWS, state.sort, Modifier.width(COUNT_WIDTH), viewModel::sortBy)
-        SortHeader(tr("Lapses"), BrowseSortField.LAPSES, state.sort, Modifier.width(COUNT_WIDTH), viewModel::sortBy)
+        if (full) SortHeader(tr("Reviews"), BrowseSortField.REVIEWS, state.sort, Modifier.width(COUNT_WIDTH), viewModel::sortBy)
+        if (full) SortHeader(tr("Lapses"), BrowseSortField.LAPSES, state.sort, Modifier.width(COUNT_WIDTH), viewModel::sortBy)
         SortHeader(tr("Last review"), BrowseSortField.LAST_REVIEW, state.sort, Modifier.width(LAST_WIDTH), viewModel::sortBy)
         Spacer(Modifier.width(MENU_WIDTH))
     }
@@ -553,11 +557,12 @@ private fun CardTableHeader(state: BrowseUiState, viewModel: BrowseFlashcardsVie
 @Composable
 private fun SortHeader(label: String, field: BrowseSortField, sort: BrowseSort, modifier: Modifier, onSort: (BrowseSortField) -> Unit) {
     val active = sort.field == field
-    TableHeaderCell(label, modifier, icon = if (!active) AppIcons.UnfoldMore else if (sort.ascending) AppIcons.ArrowUp else AppIcons.ArrowDown, active = active) { onSort(field) }
+    // As large as the vocabulary table's.
+    TableHeaderCell(label, modifier, icon = if (!active) AppIcons.UnfoldMore else if (sort.ascending) AppIcons.ArrowUp else AppIcons.ArrowDown, active = active, style = AppText.emphasis) { onSort(field) }
 }
 
 @Composable
-private fun CardTableRow(row: BrowseRow, state: BrowseUiState, index: Int, actions: BrowseActions) {
+private fun CardTableRow(row: BrowseRow, state: BrowseUiState, index: Int, full: Boolean, actions: BrowseActions) {
     val colors = MaterialTheme.colorScheme
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
@@ -582,20 +587,20 @@ private fun CardTableRow(row: BrowseRow, state: BrowseUiState, index: Int, actio
         Column(Modifier.weight(CARD_WEIGHT).padding(end = AppSpacing.m)) {
             Text(
                 row.word,
-                style = AppText.listWord(16, FontWeight.Medium).copy(color = if (row.suspended) colors.outline else colors.primary, textDirection = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
+                style = AppText.sectionTitle.copy(color = if (row.suspended) colors.outline else colors.primary, textDirection = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
             )
-            if (row.translation.isNotEmpty()) Text(row.translation, style = MaterialTheme.typography.bodySmall, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            if (row.translation.isNotEmpty()) Text(row.translation, style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
-        Text(row.sentence.orEmpty(), Modifier.weight(SENTENCE_WEIGHT).padding(end = AppSpacing.m), style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 2, overflow = TextOverflow.Ellipsis)
-        Text(row.created?.relativeTo(state.now) ?: NONE, Modifier.width(LAST_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        Box(Modifier.width(STATE_WIDTH)) { StatePill(row) }
-        Text(dueLabel(row, state.now), Modifier.width(DUE_WIDTH), style = MaterialTheme.typography.bodyMedium, color = if (row.isDue && !row.suspended) AppAccents.orange else dim, fontWeight = if (row.isDue) FontWeight.Medium else FontWeight.Normal)
-        Text(intervalLabel(row), Modifier.width(INTERVAL_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim)
-        Text("${row.reps}", Modifier.width(COUNT_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim)
-        Text("${row.lapses}", Modifier.width(COUNT_WIDTH), style = MaterialTheme.typography.bodyMedium, color = if (row.lapses > 0) AppAccents.red else dim)
-        Text(row.lastReview?.relativeTo(state.now) ?: NONE, Modifier.width(LAST_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(row.sentence.orEmpty(), Modifier.weight(SENTENCE_WEIGHT).padding(end = AppSpacing.m), style = MaterialTheme.typography.bodyLarge, color = dim, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        if (full) Text(row.created?.relativeTo(state.now) ?: NONE, Modifier.width(LAST_WIDTH), style = MaterialTheme.typography.bodyLarge, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Box(Modifier.width(STATE_WIDTH)) { StatePill(row, large = true) }
+        Text(dueLabel(row, state.now), Modifier.width(DUE_WIDTH), style = MaterialTheme.typography.bodyLarge, color = if (row.isDue && !row.suspended) AppAccents.orange else dim, fontWeight = if (row.isDue) FontWeight.Medium else FontWeight.Normal)
+        Text(intervalLabel(row), Modifier.width(INTERVAL_WIDTH), style = MaterialTheme.typography.bodyLarge, color = dim)
+        if (full) Text("${row.reps}", Modifier.width(COUNT_WIDTH), style = MaterialTheme.typography.bodyLarge, color = dim)
+        if (full) Text("${row.lapses}", Modifier.width(COUNT_WIDTH), style = MaterialTheme.typography.bodyLarge, color = if (row.lapses > 0) AppAccents.red else dim)
+        Text(row.lastReview?.relativeTo(state.now) ?: NONE, Modifier.width(LAST_WIDTH), style = MaterialTheme.typography.bodyLarge, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { RowMenu(row, actions) }
     }
 }

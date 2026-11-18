@@ -173,8 +173,6 @@ internal val ruCourses: Map<String, String> = mapOf(
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "Все карточки",
-    "Every card of the words you are learning, with where each stands." to "Все карточки изучаемых слов и состояние каждой.",
-    "Every card of the {0} words you are learning, with where each stands." to "Все карточки изучаемых слов на {0} языке и состояние каждой.",
     "Review cards" to "Повторять карточки",
     "{0} cards" to "{0} карточка|{0} карточки|{0} карточек",
     "Search words, translations or sentences" to "Поиск по словам, переводам и предложениям",

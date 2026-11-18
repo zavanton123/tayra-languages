@@ -173,8 +173,6 @@ internal val elCourses: Map<String, String> = mapOf(
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "Όλες οι κάρτες",
-    "Every card of the words you are learning, with where each stands." to "Όλες οι κάρτες των λέξεων που μαθαίνετε, με την κατάσταση της καθεμιάς.",
-    "Every card of the {0} words you are learning, with where each stands." to "Όλες οι κάρτες των λέξεων που μαθαίνετε στα {0}, με την κατάσταση της καθεμιάς.",
     "Review cards" to "Επανάληψη καρτών",
     "{0} cards" to "{0} κάρτα|{0} κάρτες",
     "Search words, translations or sentences" to "Αναζήτηση λέξεων, μεταφράσεων ή προτάσεων",

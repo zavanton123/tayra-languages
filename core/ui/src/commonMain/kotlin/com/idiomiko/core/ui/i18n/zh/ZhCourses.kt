@@ -173,8 +173,6 @@ internal val zhCourses: Map<String, String> = mapOf(
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "浏览闪卡",
-    "Every card of the words you are learning, with where each stands." to "你正在学习的单词的所有卡片，以及每张卡片的状态。",
-    "Every card of the {0} words you are learning, with where each stands." to "你正在学习的{0}单词的所有卡片，以及每张卡片的状态。",
     "Review cards" to "复习卡片",
     "{0} cards" to "{0} 张卡片",
     "Search words, translations or sentences" to "搜索单词、翻译或句子",

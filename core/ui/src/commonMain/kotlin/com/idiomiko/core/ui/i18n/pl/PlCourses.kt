@@ -173,8 +173,6 @@ internal val plCourses: Map<String, String> = mapOf(
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "Wszystkie fiszki",
-    "Every card of the words you are learning, with where each stands." to "Wszystkie fiszki słów, których się uczysz, ze stanem każdej z nich.",
-    "Every card of the {0} words you are learning, with where each stands." to "Wszystkie fiszki słów w języku {0}, których się uczysz, ze stanem każdej z nich.",
     "Review cards" to "Powtarzaj fiszki",
     "{0} cards" to "{0} fiszka|{0} fiszki|{0} fiszek",
     "Search words, translations or sentences" to "Szukaj słów, tłumaczeń i zdań",
