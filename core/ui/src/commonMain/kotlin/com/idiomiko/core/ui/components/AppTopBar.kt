@@ -147,8 +147,8 @@ fun AppTopBar(
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) { actions() }
             Spacer(Modifier.width(AppSpacing.xs))
             LearningLanguageSelector(compact = true, onOpen = { onNavigate(Route.ChooseLanguage) })
-            // On the main pages only: a page further in has its way back instead.
-            if (onBack == null) LocalAccountBadge.current?.let { AccountButton(it) }
+            // On every page, those with a way back too, as on the wide bar.
+            LocalAccountBadge.current?.let { AccountButton(it) }
         }
         return
     }

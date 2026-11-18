@@ -96,6 +96,23 @@ class AppTopBarTest {
         assertEquals(1, opened)
     }
 
+    /** A phone's bar shows the avatar on a page with a way back as well. */
+    @OptIn(ExperimentalTestApi::class)
+    @Test
+    fun aPhonesBarKeepsTheAvatarBesideTheWayBack() = runDesktopComposeUiTest(width = 400, height = 800) {
+        setContent {
+            MaterialTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalAccountBadge provides AccountBadge("ana@example.com", "Ana Reader", picture = null) {}) {
+                        AppTopBar(title = "Flashcards", onNavigate = {}, onBack = {}, section = NavSection.FLASHCARDS)
+                    }
+                }
+            }
+        }
+        onNodeWithContentDescription("Back").assertExists()
+        onNodeWithTag("account-avatar").assertExists()
+    }
+
     @Test
     fun theAvatarsLetterIsTheNamesOrTheEmails() {
         assertEquals("A", initial("ana reader", "zed@example.com"))
