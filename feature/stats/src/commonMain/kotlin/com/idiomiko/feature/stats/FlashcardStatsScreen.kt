@@ -135,8 +135,9 @@ internal fun FlashcardStatsContent(state: FlashcardStatsUiState, onPeriod: (Stat
         fill = !wide,
     )
     TodayCard(stats)
-    SideBySide(wide, { FutureDueCard(stats, state.period, it) }, { CardCountsCard(stats.counts, it) })
+    // The days studied come first, under today's figures; what is due and how the cards stand follow.
     CalendarCard(stats)
+    SideBySide(wide, { FutureDueCard(stats, state.period, it) }, { CardCountsCard(stats.counts, it) })
     ReviewsCard(stats)
     AddedCard(stats)
     FlashcardStatsDetails(stats)
