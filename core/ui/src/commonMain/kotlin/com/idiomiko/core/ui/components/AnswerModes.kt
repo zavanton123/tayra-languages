@@ -16,7 +16,7 @@ val AnswerMode.label: String
 /**
  * The ways of answering flashcards side by side, [selected] tinted: the answer shown, or the word
  * typed or said first. [modes] are those this device offers; [iconsOnly] names them by tooltip
- * alone, for a phone's header. Each is tagged "answer-mode-SHOW" and so on.
+ * alone, for a phone's card, where [dense] packs the icons closer. Each is tagged "answer-mode-SHOW" and so on.
  */
 @Composable
 fun AnswerModeToggle(
@@ -26,6 +26,7 @@ fun AnswerModeToggle(
     modes: List<AnswerMode> = AnswerMode.entries,
     iconsOnly: Boolean = false,
     fill: Boolean = false,
+    dense: Boolean = false,
 ) {
     val segments = modes.map { mode ->
         val icon = when (mode) {
@@ -35,5 +36,5 @@ fun AnswerModeToggle(
         }
         Segment(mode, icon = icon, label = if (iconsOnly) null else mode.label, description = mode.label, testTag = "answer-mode-${mode.name}")
     }
-    SegmentedToggle(segments, selected, onSelect, modifier, fill = fill)
+    SegmentedToggle(segments, selected, onSelect, modifier, fill = fill, dense = dense)
 }

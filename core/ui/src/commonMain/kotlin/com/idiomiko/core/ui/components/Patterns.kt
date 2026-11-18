@@ -208,6 +208,7 @@ fun <T> SegmentedToggle(
     height: Dp = AppSizes.control,
     fill: Boolean = false,
     style: SegmentStyle = SegmentStyle.Soft,
+    dense: Boolean = false,
 ) {
     val colors = MaterialTheme.colorScheme
     val solid = style == SegmentStyle.Solid
@@ -237,7 +238,7 @@ fun <T> SegmentedToggle(
                         // Until the segments are placed, the chosen one draws its own highlight.
                         .then(if (active && places[chosen] == null) Modifier.background(if (solid) colors.primary else colors.primary.copy(alpha = AppAlpha.soft)) else Modifier)
                         .clickable { onSelect(segment.value) }
-                        .padding(horizontal = if (segment.label == null) AppSpacing.m else if (fill) AppSpacing.s else AppSpacing.l)
+                        .padding(horizontal = if (segment.label == null) (if (dense) AppSpacing.s else AppSpacing.m) else if (fill) AppSpacing.s else AppSpacing.l)
                         .then(if (segment.testTag != null) Modifier.testTag(segment.testTag) else Modifier),
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally),

@@ -474,12 +474,7 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
                 contentModifier = Modifier.padding(AppSpacing.l),
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) {
-                ScreenHeader(
-                    tr("Flashcards"),
-                    subtitle = null,
-                ) {
-                    AnswerModeToggle(state.answerMode, actions.onAnswerMode, NoFocus, modes = state.modes, iconsOnly = true)
-                }
+                ScreenHeader(tr("Flashcards"), subtitle = null)
                 Progress(state, compact = true, onEndPass = actions.onEndPass)
                 val card = state.card
                 if (state.preparingAudio) PreparingAudio(actions.onStartWithoutWaiting, compact = true)
@@ -488,7 +483,9 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
                     minHeight = maxOf(Dp.Hairline, viewport - with(density) { cardTop.toDp() } - AppSpacing.l),
                     modifier = Modifier.onGloballyPositioned { c -> frame?.takeIf { it.isAttached }?.let { cardTop = it.localPositionOf(c, Offset.Zero).y + scroll.value } },
                     previous = { CardButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous card"), actions.onUndo, enabled = state.canUndo, tag = "previous-card") },
-                    menu = { CardMenu(card, state.pass != null, actions) }) { AnswerGiven(state, actions, compact = true) } } }
+                    // The ways of answering ride in the card, so the other examples go into its menu to leave them room.
+                    modes = { AnswerModeToggle(state.answerMode, actions.onAnswerMode, NoFocus, modes = state.modes, iconsOnly = true, dense = true) },
+                    menu = { CardMenu(card, state.pass != null, actions, onChooseExample = { actions.onChooseExample(card) }.takeIf { state.revealed && card.sentence != null }) }) { AnswerGiven(state, actions, compact = true) } } }
             }
         }
         if (state.card == null || state.preparingAudio) return@Column
@@ -619,7 +616,7 @@ private fun CountPill(tag: String, count: Int, label: String, tint: Color, large
 private fun Card(
     card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onChooseExample: () -> Unit = {},
     autoplay: Boolean = true, onToggleAutoplay: () -> Unit = {}, timer: @Composable () -> Unit = {}, previous: (@Composable () -> Unit)? = null, menu: (@Composable () -> Unit)? = null,
-    minHeight: Dp = Dp.Unspecified, modifier: Modifier = Modifier, given: @Composable () -> Unit = {}) {
+    modes: (@Composable () -> Unit)? = null, minHeight: Dp = Dp.Unspecified, modifier: Modifier = Modifier, given: @Composable () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val inset = if (compact) AppSpacing.xl else AppSpacing.xxxl
@@ -640,12 +637,16 @@ private fun Card(
             // Learning would read as the word's status.
             if (previous != null) {
                 previous()
-                Spacer(Modifier.width(AppSpacing.m))
+                if (modes == null) Spacer(Modifier.width(AppSpacing.m))
             }
             timer()
-            Spacer(Modifier.weight(1f))
+            if (modes != null) {
+                Box(Modifier.weight(1f).padding(horizontal = AppSpacing.s), contentAlignment = Alignment.Center) { modes() }
+            } else {
+                Spacer(Modifier.weight(1f))
+            }
             // Round buttons in the corner, each named by a tooltip: other examples once answered, the sentence's sound and the card's menu.
-            if (revealed && card.sentence != null) {
+            if (revealed && card.sentence != null && modes == null) {
                 val label = tr("Choose another example")
                 AppTooltip(label) {
                     AppIconButton(
@@ -663,7 +664,7 @@ private fun Card(
             }
             if (speaker != null) AutoplayButton(autoplay, onToggleAutoplay)
             if (menu != null) {
-                Spacer(Modifier.width(AppSpacing.m))
+                Spacer(Modifier.width(if (modes != null) AppSpacing.s else AppSpacing.m))
                 menu()
             }
         }
@@ -857,13 +858,14 @@ private fun AnswerTimer(state: FlashcardsUiState) {
 
 private val TIMER_TICK = 250.milliseconds
 
-/** The card's other actions behind one round button: its details, and suspending or deleting it. */
+/** The card's other actions behind one round button: its details, suspending or deleting it, and on a phone its other examples ([onChooseExample]). */
 @Composable
-private fun CardMenu(card: CardContent, inPass: Boolean, actions: FlashcardActions) {
+private fun CardMenu(card: CardContent, inPass: Boolean, actions: FlashcardActions, onChooseExample: (() -> Unit)? = null) {
     var open by remember { mutableStateOf(false) }
     Box {
         CardButton(AppIcons.MoreHoriz, tr("More actions"), { open = true }, tag = "card-menu")
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            if (onChooseExample != null) MenuAction(AppIcons.Sync, tr("Choose another example")) { open = false; onChooseExample() }
             MenuAction(Icons.Default.Edit, tr("Edit flashcard")) { open = false; actions.onEdit(card.termId) }
             MenuAction(Icons.Default.Add, tr("Study more")) { open = false; actions.onStudyMore() }
             MenuAction(AppIcons.SkipNext, if (inPass) tr("Skip card") else tr("Skip until tomorrow")) { open = false; actions.onSkip() }

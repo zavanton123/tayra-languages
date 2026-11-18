@@ -430,6 +430,25 @@ class FlashcardsScreenTest {
         onNodeWithText("The microphone could not be used, so type the word.").assertExists()
     }
 
+    /** On a narrow phone the ways of answering sit in the card's top row, between the way back and the sound, and the other examples move into the menu. */
+    @Test
+    fun aNarrowPhoneFitsTheWaysOfAnsweringInTheCard() = runDesktopComposeUiTest(width = 360, height = 780) {
+        show(phone = true, withSpeaker = true, speech = FakeSpeech(true))
+        val card = onNodeWithTag("flashcard").fetchSemanticsNode().boundsInRoot
+        val row = listOf("previous-card", "answer-mode-SHOW", "answer-mode-TYPE", "answer-mode-SPEAK", "autoplay-toggle", "card-menu")
+            .map { onNodeWithTag(it).fetchSemanticsNode().boundsInRoot }
+        row.zipWithNext().forEach { (a, b) -> assertTrue(a.right <= b.left, "$a overlaps $b") }
+        assertTrue(row.first().left >= card.left && row.last().right <= card.right, "the row in the card at $card")
+        assertTrue(row.all { it.bottom < card.top + card.height / 4 }, "in the card's top")
+        save("FLASHCARD_NARROW_PHONE_SCREENSHOT")
+        onNodeWithText("Show answer").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithTag("choose-example").fetchSemanticsNodes().size, "the other examples are in the menu")
+        onNodeWithTag("card-menu").performClick()
+        onNodeWithText("Choose another example").assertExists()
+        save("FLASHCARD_NARROW_PHONE_MENU_SCREENSHOT")
+    }
+
     @Test
     fun aPhoneOffersTheWaysOfAnsweringAsIcons() = runDesktopComposeUiTest(width = 420, height = 900) {
         show(phone = true, answerMode = AnswerMode.SPEAK, speech = FakeSpeech(true))
@@ -696,13 +715,17 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Read aloud").fetchSemanticsNodes().isNotEmpty() }
     }
 
-    /** A phone offers other examples in the card's corner too. */
+    /** A phone offers other examples in the card's menu, once the word is shown. */
     @Test
-    fun aPhoneOffersAnotherExampleInTheCorner() = runDesktopComposeUiTest(width = 430, height = 932) {
-        show(phone = true)
+    fun aPhoneOffersAnotherExampleInTheMenu() = runDesktopComposeUiTest(width = 430, height = 932) {
+        val chosen = mutableListOf<Long>()
+        show(phone = true, onChooseExample = { chosen += it.termId })
         onNodeWithText("Show answer").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("choose-example").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("card-menu").performClick()
         save("FLASHCARD_CHOOSE_PHONE_SCREENSHOT")
+        onNodeWithText("Choose another example").performClick()
+        assertEquals(listOf(termId), chosen)
     }
 
     /** The back holds the word, its part of speech and translation alone: nothing more is looked up to change it later. */
