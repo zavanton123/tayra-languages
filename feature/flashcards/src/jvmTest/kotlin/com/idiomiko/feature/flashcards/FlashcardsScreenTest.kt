@@ -451,6 +451,11 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Type").fetchSemanticsNodes().isNotEmpty() }
         save("FLASHCARD_MODE_TOOLTIP_SCREENSHOT")
         onNodeWithTag("answer-mode-TYPE").performMouseInput { moveTo(Offset(-200f, -200f)) }
+        // The highlight moves to the way chosen, not only the choice.
+        fun highlighted() = onNodeWithTag("segment-highlight", useUnmergedTree = true).fetchSemanticsNode().boundsInRoot
+        assertEquals(onNodeWithTag("answer-mode-SHOW").fetchSemanticsNode().boundsInRoot.left, highlighted().left, 1f)
+        onNodeWithTag("answer-mode-SPEAK").performClick()
+        waitUntil(timeoutMillis = 5_000) { kotlin.math.abs(highlighted().left - onNodeWithTag("answer-mode-SPEAK").fetchSemanticsNode().boundsInRoot.left) < 1f }
         onNodeWithText("Show answer").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, onAllNodesWithTag("choose-example").fetchSemanticsNodes().size, "the other examples are in the menu")

@@ -1,6 +1,5 @@
 package com.idiomiko.core.ui.components
 
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateIntAsState
 import androidx.compose.foundation.ScrollState
@@ -61,11 +60,14 @@ import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.layout.LayoutCoordinates
+import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.layout.onPlaced
 import androidx.compose.ui.layout.positionInParent
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
@@ -214,6 +216,8 @@ fun <T> SegmentedToggle(
     val solid = style == SegmentStyle.Solid
     // Where each segment sits, so the chosen one's highlight can glide to it from the one before.
     val places = remember { mutableStateMapOf<Int, Pair<Int, Int>>() }
+    // The row the segments sit in: each is measured against it, as a tooltip wraps an icon in a box of its own.
+    var row by remember { mutableStateOf<LayoutCoordinates?>(null) }
     val chosen = segments.indexOfFirst { it.value == selected }
     Box(modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier).height(height).cardSurface(AppShapes.control).padding(AppSpacing.xs)) {
         places[chosen]?.let { (left, width) ->
@@ -221,10 +225,10 @@ fun <T> SegmentedToggle(
             val w by animateIntAsState(width, AppMotion.spec())
             Box(
                 Modifier.offset { IntOffset(x, 0) }.width(with(LocalDensity.current) { w.toDp() }).fillMaxHeight().clip(AppShapes.compact)
-                    .background(if (solid) colors.primary else colors.primary.copy(alpha = AppAlpha.soft)),
+                    .background(if (solid) colors.primary else colors.primary.copy(alpha = AppAlpha.soft)).testTag("segment-highlight"),
             )
         }
-        Row(Modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier).fillMaxHeight(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+        Row(Modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier).fillMaxHeight().onPlaced { row = it }, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
             segments.forEachIndexed { index, segment ->
                 val active = index == chosen
                 val tint by animateColorAsState(
@@ -233,7 +237,7 @@ fun <T> SegmentedToggle(
                 )
                 // Where the segment sits in the row, for the highlight to find it.
                 val place = Modifier.then(if (fill) Modifier.weight(1f) else Modifier).fillMaxHeight()
-                    .onPlaced { places[index] = it.positionInParent().x.roundToInt() to it.size.width }
+                    .onGloballyPositioned { segment -> row?.takeIf { it.isAttached }?.let { places[index] = it.localPositionOf(segment, Offset.Zero).x.roundToInt() to segment.size.width } }
                 val body = Modifier.clip(AppShapes.compact)
                     // Until the segments are placed, the chosen one draws its own highlight.
                     .then(if (active && places[chosen] == null) Modifier.background(if (solid) colors.primary else colors.primary.copy(alpha = AppAlpha.soft)) else Modifier)
