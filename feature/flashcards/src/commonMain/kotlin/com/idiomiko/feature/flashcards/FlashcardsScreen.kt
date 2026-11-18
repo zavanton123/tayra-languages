@@ -498,7 +498,7 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
                     previous = { CardButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous card"), actions.onUndo, enabled = state.canUndo, tag = "previous-card") },
                     // The ways of answering ride in the card, so the other examples go into its menu to leave them room.
                     modes = { AnswerModeToggle(state.answerMode, actions.onAnswerMode, NoFocus, modes = state.modes, iconsOnly = true, dense = true) },
-                    menu = { CardMenu(card, state.pass != null, actions, onChooseExample = { actions.onChooseExample(card) }.takeIf { state.revealed && card.sentence != null }) }) { AnswerGiven(state, actions, compact = true) } } }
+                    menu = { CardMenu(card, state.pass != null, actions, onChooseExample = { actions.onChooseExample(card) }) }) { AnswerGiven(state, actions, compact = true) } } }
             }
         }
         if (state.card == null || state.preparingAudio) return@Column
@@ -660,7 +660,7 @@ private fun Card(
                 Spacer(Modifier.weight(1f))
             }
             // Round buttons in the corner, each named by a tooltip: other examples once answered, the sentence's sound and the card's menu.
-            if (revealed && card.sentence != null && modes == null) {
+            if (modes == null) {
                 val label = tr("Choose another example")
                 AppTooltip(label) {
                     AppIconButton(
@@ -772,8 +772,8 @@ private fun WideCard(
             timer()
             Spacer(Modifier.weight(1f))
             if (speaker != null) AutoplayButton(autoplay, actions.onToggleAutoplay)
-            // Other examples show the word, so they are offered once it is shown.
-            if (revealed && card.sentence != null) CardButton(AppIcons.Sync, tr("Choose another example"), { actions.onChooseExample(card) }, tag = "choose-example")
+            // Other examples are offered on either side of every card, one without a sentence too.
+            CardButton(AppIcons.Sync, tr("Choose another example"), { actions.onChooseExample(card) }, tag = "choose-example")
             CardMenu(card, inPass, actions)
         }
         BoxWithConstraints(Modifier.weight(1f).fillMaxWidth()) {
@@ -872,7 +872,7 @@ private fun AnswerTimer(state: FlashcardsUiState) {
 
 private val TIMER_TICK = 250.milliseconds
 
-/** The card's other actions behind one round button: its details, suspending or deleting it, and on a phone its other examples ([onChooseExample]). */
+/** The card's other actions behind one round button: its details, suspending or deleting it, and on a phone its other examples ([onChooseExample]), on either side. */
 @Composable
 private fun CardMenu(card: CardContent, inPass: Boolean, actions: FlashcardActions, onChooseExample: (() -> Unit)? = null) {
     var open by remember { mutableStateOf(false) }

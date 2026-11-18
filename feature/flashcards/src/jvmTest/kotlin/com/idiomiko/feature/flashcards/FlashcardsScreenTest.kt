@@ -620,15 +620,16 @@ class FlashcardsScreenTest {
         save("FLASHCARD_BACK_SCREENSHOT")
     }
 
-    /** An answered card offers other examples; one chosen replaces its sentence and translation, and the card stays answered. */
+    /** A card offers other examples on its front and its back; one chosen replaces its sentence and translation, and the card stays answered. */
     @Test
     fun theAnsweredCardTakesAnExampleChosenForIt() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val asked = mutableListOf<Long>()
         val viewModel = show(onChooseExample = { asked += it.termId })
-        assertEquals(0, onAllNodesWithTag("choose-example").fetchSemanticsNodes().size, "not before the answer")
+        onNodeWithTag("choose-example").performClick()
+        assertEquals(listOf(termId), asked, "before the answer too")
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("choose-example").performClick()
-        assertEquals(listOf(termId), asked)
+        assertEquals(listOf(termId, termId), asked)
 
         viewModel.replaceSentence("Vou comprar pão amanhã.", "Я куплю хлеб завтра.")
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Vou comprar pão amanhã.").fetchSemanticsNodes().isNotEmpty() }
