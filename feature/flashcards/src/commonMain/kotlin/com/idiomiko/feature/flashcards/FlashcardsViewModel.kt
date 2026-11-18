@@ -494,14 +494,17 @@ class FlashcardsViewModel(
         null
     }
 
-    /** Turns reading aloud on, reading the card now, or off, stopping what is being read. */
+    /**
+     * Turns reading aloud on, reading the card now if its answer is showing (before that the sound would give the
+     * word away; it is read once the answer is shown), or off, stopping what is being read.
+     */
     fun toggleAutoplay() {
         val on = !settings.current.flashcardAutoplay
         _state.update { it.copy(autoplay = on) }
         viewModelScope.launch { settings.update { it.copy(flashcardAutoplay = on) } }
         val card = _state.value.card
-        if (on && card != null) events.trySend(FlashcardsEvent.Speak(card.spoken, card.languageCode))
-        else events.trySend(FlashcardsEvent.StopSpeaking)
+        if (!on) events.trySend(FlashcardsEvent.StopSpeaking)
+        else if (card != null && _state.value.revealed) events.trySend(FlashcardsEvent.Speak(card.spoken, card.languageCode))
     }
 
     fun reveal() {

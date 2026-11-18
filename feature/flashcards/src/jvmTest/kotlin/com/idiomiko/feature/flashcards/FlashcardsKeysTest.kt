@@ -191,6 +191,22 @@ class FlashcardsKeysTest {
         assertEquals(true, settings.current.flashcardAutoplay)
     }
 
+    /** Before the answer the switch only switches: the sound would give the word away, so it waits for the answer. */
+    @Test
+    fun theSpeakerButtonReadsNothingBeforeTheAnswer() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show()
+        onNodeWithTag("autoplay-toggle").performClick()
+        waitUntil(timeoutMillis = 3_000) { !settings.current.flashcardAutoplay }
+        onNodeWithTag("autoplay-toggle").performClick()
+        waitUntil(timeoutMillis = 3_000) { settings.current.flashcardAutoplay }
+        waitForIdle()
+        Thread.sleep(300)
+        assertEquals(false, playing(), "on again before the answer, nothing is read")
+        onNodeWithText("Show answer").performClick()
+        waitUntil(timeoutMillis = 3_000) { viewModel.state.value.revealed }
+        waitUntil(timeoutMillis = 3_000) { playing() }
+    }
+
     /** R plays the card's sentence and stops it, before the answer as after it. */
     /** E opens the card's details, before the answer is shown as after. */
     @Test
