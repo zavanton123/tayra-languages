@@ -15,6 +15,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
@@ -37,6 +38,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -272,19 +274,28 @@ private fun CardCountsCard(counts: CardCounts, modifier: Modifier) {
             parts.forEach { (_, n, tint) -> if (n > 0) Box(Modifier.weight(n.toFloat()).fillMaxHeight().background(tint)) }
         }
         Spacer(Modifier.height(AppSpacing.l))
-        parts.forEach { (name, n, tint) -> LegendRow(name, n, counts.total, tint) }
+        // The cards still being learned in one column, those in review and set aside in the other; a phone has one.
+        if (LocalWindowWidth.current.isCompact) {
+            parts.forEach { (name, n, tint) -> LegendRow(name, n, counts.total, tint) }
+        } else {
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxxl)) {
+                parts.chunked(3).forEach { column ->
+                    Column(Modifier.weight(1f)) { column.forEach { (name, n, tint) -> LegendRow(name, n, counts.total, tint) } }
+                }
+            }
+        }
     }
 }
 
 /** A share of a whole, with its colour, as a row of a card's list. */
 @Composable
 internal fun LegendRow(name: String, n: Int, total: Int, tint: Color) {
-    Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
-        StatusDot(tint)
+    Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
+        StatusDot(tint, size = AppSizes.dotLarge)
         Spacer(Modifier.width(AppSpacing.m))
-        Text(name, Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
-        if (total > 0) Text("${(n * 100.0 / total).roundToInt()}%", Modifier.padding(end = AppSpacing.l), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        Text(formatCount(n), style = AppText.labelStrong)
+        Text(name, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
+        if (total > 0) Text("${(n * 100.0 / total).roundToInt()}%", Modifier.padding(end = AppSpacing.l), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text(formatCount(n), Modifier.widthIn(min = AppSizes.control), style = AppText.itemTitle, textAlign = TextAlign.End)
     }
 }
 

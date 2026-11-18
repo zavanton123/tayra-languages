@@ -258,6 +258,7 @@ internal val deCommon: Map<String, String> = mapOf(
     "New words saved per week" to "Neu gespeicherte Wörter pro Woche",
     "The last 12 weeks: {1} words" to "Letzte 12 Wochen: {1} Wort|Letzte 12 Wochen: {1} Wörter",
     "Most: {0}" to "Höchstwert: {0}",
+    "Target {0}%" to "Ziel {0} %",
     "{1} days studied in {2}" to "{1} Lerntag in {2}|{1} Lerntage in {2}",
     "{1} days with reading in {2}" to "{1} Tag mit Lesen in {2}|{1} Tage mit Lesen in {2}",
     "{1} days with reviews in {2}" to "{1} Tag mit Wiederholungen in {2}|{1} Tage mit Wiederholungen in {2}",

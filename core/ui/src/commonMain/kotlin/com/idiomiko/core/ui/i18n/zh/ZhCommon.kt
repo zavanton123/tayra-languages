@@ -258,6 +258,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     "New words saved per week" to "每周保存的新词",
     "The last 12 weeks: {1} words" to "最近 12 周：{1} 个单词",
     "Most: {0}" to "最多：{0}",
+    "Target {0}%" to "目标 {0}%",
     "{1} days studied in {2}" to "{2} 年学习了 {1} 天",
     "{1} days with reading in {2}" to "{2} 年有 {1} 天阅读",
     "{1} days with reviews in {2}" to "{2} 年有 {1} 天复习",

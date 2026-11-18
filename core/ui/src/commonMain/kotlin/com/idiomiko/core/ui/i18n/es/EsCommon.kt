@@ -258,6 +258,7 @@ internal val esCommon: Map<String, String> = mapOf(
     "New words saved per week" to "Palabras nuevas guardadas por semana",
     "The last 12 weeks: {1} words" to "Últimas 12 semanas: {1} palabra|Últimas 12 semanas: {1} palabras",
     "Most: {0}" to "Máximo: {0}",
+    "Target {0}%" to "Objetivo {0}%",
     "{1} days studied in {2}" to "{1} día de estudio en {2}|{1} días de estudio en {2}",
     "{1} days with reading in {2}" to "{1} día con lectura en {2}|{1} días con lectura en {2}",
     "{1} days with reviews in {2}" to "{1} día con repasos en {2}|{1} días con repasos en {2}",

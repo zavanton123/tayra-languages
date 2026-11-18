@@ -157,15 +157,23 @@ private fun RetentionSpan.label(): String = when (this) {
 @Composable
 private fun RetentionCard(s: FlashcardStatistics, modifier: Modifier) {
     val target = s.desiredRetention
-    ContentCard(tr("True retention"), tr("Reviews remembered, against your target of {0}%", percent(target)), icon = AppIcons.VerifiedUser, modifier = modifier) {
+    ContentCard(
+        tr("True retention"),
+        tr("Reviews remembered, against your target of {0}%", percent(target)),
+        icon = AppIcons.VerifiedUser,
+        modifier = modifier,
+        headerExtra = { StatusPill(tr("Target {0}%", percent(target)), MaterialTheme.colorScheme.outline, dot = false, size = TagSize.Medium) },
+    ) {
         Column(Modifier.fillMaxWidth().testTag("true-retention")) {
             RetentionRow(null, listOf(tr("Young"), tr("Mature"), tr("Total")))
-            RetentionSpan.entries.forEach { span ->
+            RetentionSpan.entries.forEachIndexed { i, span ->
+                // Lines between the spans, except around today's, which is marked instead.
+                if (i > 1) AppDivider()
                 val kinds = s.retention[span].orEmpty()
                 val young = kinds[ReviewKind.YOUNG] ?: Pass()
                 val mature = kinds[ReviewKind.MATURE] ?: Pass()
                 val total = Pass(young.passed + mature.passed, young.total + mature.total)
-                RetentionRow(span.label(), listOf(young, mature, total).map { it.cell() }, listOf(young, mature, total).map { it.tint(target) })
+                RetentionRow(span.label(), listOf(young, mature, total).map { it.cell() }, listOf(young, mature, total).map { it.tint(target) }, marked = span == RetentionSpan.TODAY)
             }
         }
     }
@@ -180,18 +188,26 @@ private fun Pass.tint(target: Double): Color = when {
     else -> AppAccents.amber
 }
 
+/** A span's row of the table, or with no [name] its header; [marked] sets the row on a tint. */
 @Composable
-private fun RetentionRow(name: String?, cells: List<String>, tints: List<Color>? = null) {
+private fun RetentionRow(name: String?, cells: List<String>, tints: List<Color>? = null, marked: Boolean = false) {
     val muted = MaterialTheme.colorScheme.onSurfaceVariant
-    Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
+    val compact = LocalWindowWidth.current.isCompact
+    val cellStyle = if (compact) MaterialTheme.typography.bodySmall else MaterialTheme.typography.bodyMedium
+    Row(
+        Modifier.fillMaxWidth().clip(AppShapes.compact)
+            .then(if (marked) Modifier.background(MaterialTheme.colorScheme.primary.copy(alpha = AppAlpha.tint)) else Modifier)
+            .padding(horizontal = AppSpacing.m, vertical = AppSpacing.s),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
         Text(name.orEmpty(), Modifier.weight(1.2f), style = MaterialTheme.typography.bodyMedium)
         cells.forEachIndexed { i, cell ->
             Text(
                 cell,
                 Modifier.weight(1f),
-                style = if (name == null) MaterialTheme.typography.labelMedium else MaterialTheme.typography.bodySmall,
+                style = if (name == null) AppText.label else cellStyle,
                 color = tints?.get(i) ?: muted,
-                textAlign = TextAlign.End,
+                textAlign = TextAlign.Center,
             )
         }
     }

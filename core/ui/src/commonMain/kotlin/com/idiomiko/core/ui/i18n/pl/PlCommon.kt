@@ -258,6 +258,7 @@ internal val plCommon: Map<String, String> = mapOf(
     "New words saved per week" to "Nowe słowa w tygodniu",
     "The last 12 weeks: {1} words" to "Ostatnie 12 tygodni: {1} słowo|Ostatnie 12 tygodni: {1} słowa|Ostatnie 12 tygodni: {1} słów",
     "Most: {0}" to "Najwięcej: {0}",
+    "Target {0}%" to "Cel {0}%",
     "{1} days studied in {2}" to "{1} dzień nauki w {2}|{1} dni nauki w {2}|{1} dni nauki w {2}",
     "{1} days with reading in {2}" to "{1} dzień z czytaniem w {2}|{1} dni z czytaniem w {2}|{1} dni z czytaniem w {2}",
     "{1} days with reviews in {2}" to "{1} dzień z powtórkami w {2}|{1} dni z powtórkami w {2}|{1} dni z powtórkami w {2}",

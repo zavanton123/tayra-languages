@@ -258,6 +258,7 @@ internal val ptCommon: Map<String, String> = mapOf(
     "New words saved per week" to "Palavras novas salvas por semana",
     "The last 12 weeks: {1} words" to "Últimas 12 semanas: {1} palavra|Últimas 12 semanas: {1} palavras",
     "Most: {0}" to "Máximo: {0}",
+    "Target {0}%" to "Meta {0}%",
     "{1} days studied in {2}" to "{1} dia de estudo em {2}|{1} dias de estudo em {2}",
     "{1} days with reading in {2}" to "{1} dia com leitura em {2}|{1} dias com leitura em {2}",
     "{1} days with reviews in {2}" to "{1} dia com revisões em {2}|{1} dias com revisões em {2}",

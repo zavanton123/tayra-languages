@@ -258,6 +258,7 @@ internal val elCommon: Map<String, String> = mapOf(
     "New words saved per week" to "Νέες λέξεις ανά εβδομάδα",
     "The last 12 weeks: {1} words" to "Τελευταίες 12 εβδομάδες: {1} λέξη|Τελευταίες 12 εβδομάδες: {1} λέξεις",
     "Most: {0}" to "Μέγιστο: {0}",
+    "Target {0}%" to "Στόχος {0}%",
     "{1} days studied in {2}" to "{1} ημέρα μελέτης το {2}|{1} ημέρες μελέτης το {2}",
     "{1} days with reading in {2}" to "{1} ημέρα με ανάγνωση το {2}|{1} ημέρες με ανάγνωση το {2}",
     "{1} days with reviews in {2}" to "{1} ημέρα με επαναλήψεις το {2}|{1} ημέρες με επαναλήψεις το {2}",
