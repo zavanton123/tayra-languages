@@ -423,9 +423,8 @@ internal fun FlashcardsContent(
                         tr("Flashcards"),
                         subtitle = null,
                     ) {
+                        // Browsing is in the bar's Flashcards menu and on its key (B); the phone's bar has its own button.
                         AnswerModeToggle(state.answerMode, actions.onAnswerMode, NoFocus, modes = state.modes)
-                        // The phone's bar carries this button instead.
-                        if (!compact) SecondaryButton(tr("Browse flashcards"), onClick = actions.onBrowse, modifier = Modifier.testTag("browse-flashcards"), icon = AppIcons.ViewList)
                     }
                     Progress(state, compact, onEndPass = actions.onEndPass)
                     val card = state.card

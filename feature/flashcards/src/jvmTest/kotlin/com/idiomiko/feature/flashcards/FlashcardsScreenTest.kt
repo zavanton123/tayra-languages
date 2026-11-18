@@ -921,6 +921,16 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Quando precisamos", substring = true).fetchSemanticsNodes().isNotEmpty() }
     }
 
+    /** A wide screen has no Browse button by the answer modes: browsing is in the bar's Flashcards menu. */
+    @Test
+    fun aWideScreenLeavesBrowsingToTheBar() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        onNodeWithTag("flashcard").assertExists()
+        onNodeWithTag("browse-flashcards").assertDoesNotExist()
+        onNodeWithText("Browse flashcards").assertDoesNotExist()
+        save("FLASHCARD_WIDE_SCREENSHOT")
+    }
+
     /** On a short phone the answer opens below the fold; the card scrolls to it, clear of the answer buttons. */
     @Test
     fun aShortPhoneScrollsTheCardToTheAnswer() = runDesktopComposeUiTest(width = 400, height = 700) {
