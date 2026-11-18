@@ -416,7 +416,8 @@ internal fun FlashcardsContent(
                 Column(
                     // The card takes the height between the progress and the answers at the foot; with no card, the page scrolls.
                     Modifier.widthIn(max = REVIEW_WIDTH).fillMaxWidth().then(if (reviewing) Modifier.fillMaxHeight() else Modifier.verticalScroll(scroll))
-                        .padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.xxxl),
+                        // As far below the bar as the blocks are from each other.
+                        .padding(start = AppSpacing.xxxl, end = AppSpacing.xxxl, top = AppSpacing.xxl, bottom = AppSpacing.xxxl),
                     verticalArrangement = Arrangement.spacedBy(AppSpacing.xxl),
                 ) {
                     ScreenHeader(
