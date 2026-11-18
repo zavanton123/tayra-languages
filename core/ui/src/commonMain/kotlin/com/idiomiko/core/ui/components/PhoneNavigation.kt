@@ -102,7 +102,14 @@ private fun PagesSheet(title: String, pages: List<MoreEntry>, tag: String, onNav
             }
             pages.forEachIndexed { i, entry ->
                 if (i > 0) AppDivider(Modifier.padding(end = AppSpacing.m))
-                NavigationRow(tr(entry.label), onClick = { onNavigate(entry.route) }, modifier = Modifier.padding(end = AppSpacing.m).testTag("$tag-${entry.label}"), icon = entry.icon)
+                // Taller rows than More's: few of them, each an easy target for the thumb.
+                NavigationRow(
+                    tr(entry.label),
+                    onClick = { onNavigate(entry.route) },
+                    modifier = Modifier.padding(end = AppSpacing.m).testTag("$tag-${entry.label}"),
+                    icon = entry.icon,
+                    verticalPadding = AppSpacing.xxl,
+                )
             }
         }
     }

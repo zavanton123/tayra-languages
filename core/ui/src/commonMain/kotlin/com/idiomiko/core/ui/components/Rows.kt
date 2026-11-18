@@ -125,7 +125,7 @@ fun CheckSetting(
 
 /**
  * A row that opens something: an optional [icon], its name, an optional [value] and a chevron.
- * [tint] colours the name and icon, for a link (primary) or a destructive action (error).
+ * [tint] colours the name and icon, for a link (primary) or a destructive action (error); [verticalPadding] sets its height.
  */
 @Composable
 fun NavigationRow(
@@ -136,10 +136,11 @@ fun NavigationRow(
     description: String? = null,
     icon: ImageVector? = null,
     tint: Color? = null,
+    verticalPadding: Dp = AppSpacing.m,
 ) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.fillMaxWidth().clip(AppShapes.compact).clickable(onClick = onClick).padding(vertical = AppSpacing.m),
+        modifier.fillMaxWidth().clip(AppShapes.compact).clickable(onClick = onClick).padding(vertical = verticalPadding),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
