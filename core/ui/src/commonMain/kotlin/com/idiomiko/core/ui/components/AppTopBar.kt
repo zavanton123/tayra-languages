@@ -67,7 +67,7 @@ private data class MenuGroup(val section: NavSection, val entries: List<MenuEntr
 private fun menuGroups(videos: Boolean, account: Boolean = true) = listOfNotNull(
     MenuGroup(NavSection.HOME, listOf(MenuEntry("Home", Route.Home)), direct = true),
     MenuGroup(NavSection.COURSES, listOf(MenuEntry("Courses", Route.Courses)), direct = true),
-    MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Books), MenuEntry("Create new book", Route.NewBook), MenuEntry("Find free books", Route.FindBooks), MenuEntry("Book archive", Route.ArchivedBooks))),
+    MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Books), MenuEntry("Find free books", Route.FindBooks), MenuEntry("Book archive", Route.ArchivedBooks))),
     MenuGroup(NavSection.VIDEOS, listOf(MenuEntry("All videos", Route.Videos), MenuEntry("Add video", Route.NewVideo))).takeIf { videos },
     MenuGroup(NavSection.NEWS, listOf(MenuEntry("News", Route.News)), direct = true),
     MenuGroup(NavSection.PLAYLISTS, listOf(MenuEntry("Playlists", Route.Playlists)), direct = true),
