@@ -55,9 +55,14 @@ internal fun FlashcardStatsDetails(s: FlashcardStatistics) {
     val wide = LocalWindowWidth.current.isExpanded
     SideBySide(wide, { IntervalsCard(s, it) }, { StabilityCard(s, it) })
     SideBySide(wide, { DifficultyCard(s, it) }, { RecallCard(s, it) })
-    SideBySide(wide, { RetentionCard(s, it) }, { KnowledgeCard(s, it) })
     HoursCard(s)
     SideBySide(wide, { ButtonsCard(s, it) }, { AnsweredByCard(s, it) })
+}
+
+/** How well the reviews went against the target, and how many words would be recalled now: under the card counts. */
+@Composable
+internal fun RetentionAndKnowledge(s: FlashcardStatistics, wide: Boolean) {
+    SideBySide(wide, { RetentionCard(s, it) }, { KnowledgeCard(s, it) })
 }
 
 /** Day spans, as Anki's interval graphs group them. */
