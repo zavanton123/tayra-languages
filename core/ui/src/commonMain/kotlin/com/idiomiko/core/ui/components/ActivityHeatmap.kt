@@ -210,16 +210,18 @@ fun ActivityHeatmapCard(
 /** The year shown, between small buttons to the one before and the one after. */
 @Composable
 fun YearSwitch(year: Int, canBack: Boolean, canForward: Boolean, onYear: (Int) -> Unit) {
+    // An arrow shows only where there is a year to go to; while the other one shows, its place is kept so the year stays put.
+    val either = canBack || canForward
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        AppIconButton(
+        if (canBack) AppIconButton(
             Icons.AutoMirrored.Filled.KeyboardArrowLeft, tr("Previous year"), { onYear(year - 1) },
-            enabled = canBack, size = IconButtonSize.Small, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("calendar-previous-year"),
-        )
+            size = IconButtonSize.Small, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("calendar-previous-year"),
+        ) else if (either) Spacer(Modifier.size(IconButtonSize.Small.box))
         Text("$year", style = AppText.labelStrong, modifier = Modifier.testTag("calendar-year"))
-        AppIconButton(
+        if (canForward) AppIconButton(
             Icons.AutoMirrored.Filled.KeyboardArrowRight, tr("Next year"), { onYear(year + 1) },
-            enabled = canForward, size = IconButtonSize.Small, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("calendar-next-year"),
-        )
+            size = IconButtonSize.Small, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("calendar-next-year"),
+        ) else if (either) Spacer(Modifier.size(IconButtonSize.Small.box))
     }
 }
 

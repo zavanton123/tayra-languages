@@ -11,7 +11,6 @@ import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.semantics.SemanticsProperties
 import androidx.compose.ui.semantics.getOrNull
 import androidx.compose.ui.test.ExperimentalTestApi
-import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.assertTextContains
 import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.captureToImage
@@ -107,9 +106,9 @@ class FlashcardStatsScreenTest {
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Future due").fetchSemanticsNodes().isNotEmpty() }
         for (tag in listOf("today-studied", "future-due", "card-counts-bar", "reviews-by-day", "added-by-day", "true-retention", "knowledge", "answer-buttons", "answered-by")) onNodeWithTag(tag).assertExists()
-        // The calendar shows this year, with no year after it to go to.
+        // The calendar shows this year, with no arrow to a year after it.
         onNodeWithTag("calendar-year").assertTextEquals("2026")
-        onNodeWithTag("calendar-next-year").assertIsNotEnabled()
+        onNodeWithTag("calendar-next-year").assertDoesNotExist()
         // The finer charts wait behind More, and Less puts them away again.
         val finer = listOf("intervals", "stability", "difficulty", "recall", "hours")
         for (tag in finer) onNodeWithTag(tag).assertDoesNotExist()
