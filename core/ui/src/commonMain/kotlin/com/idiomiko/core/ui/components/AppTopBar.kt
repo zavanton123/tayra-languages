@@ -80,7 +80,7 @@ private fun menuGroups(videos: Boolean, account: Boolean = true) = listOfNotNull
     MenuGroup(NavSection.VIDEOS, listOf(MenuEntry("All videos", Route.Videos), MenuEntry("Add video", Route.NewVideo))).takeIf { videos },
     MenuGroup(NavSection.PLAYLISTS, listOf(MenuEntry("Playlists", Route.Playlists)), direct = true),
     // Their settings are under Settings, with the others.
-    MenuGroup(NavSection.FLASHCARDS, listOf(MenuEntry("Review flashcards", Route.Flashcards), MenuEntry("Browse flashcards", Route.BrowseFlashcards()), MenuEntry("Flashcard statistics", Route.FlashcardStats))),
+    MenuGroup(NavSection.FLASHCARDS, flashcardPages.map { MenuEntry(it.label, it.route) }),
     MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()), MenuEntry("Word frequency", Route.WordFrequency), MenuEntry("Statistics", Route.Stats))),
     MenuGroup(
         NavSection.SETTINGS,

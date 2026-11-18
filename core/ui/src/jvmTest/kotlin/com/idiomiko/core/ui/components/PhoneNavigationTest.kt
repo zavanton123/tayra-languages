@@ -63,6 +63,23 @@ class PhoneNavigationTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("read-sheet").fetchSemanticsNodes().isEmpty() }
     }
 
+    /** Flashcards opens a sheet with the review, the browser and the statistics, as the wide bar's Flashcards menu. */
+    @Test
+    fun flashcardsOpensTheSheetOfItsPages() = runDesktopComposeUiTest(width = 400, height = 900) {
+        val visited = mutableListOf<Route>()
+        setContent { MaterialTheme { PhoneNavBar(section = NavSection.HOME, onNavigate = { visited += it }, onMore = {}) } }
+        onNodeWithTag("phone-nav-FLASHCARDS").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcards-sheet").fetchSemanticsNodes().isNotEmpty() }
+        for (page in listOf("Review flashcards", "Browse flashcards", "Flashcard statistics")) onNodeWithTag("flashcards-$page").assertExists()
+        System.getenv("FLASHCARDS_SHEET_SCREENSHOT")?.let { path ->
+            waitForIdle()
+            javax.imageio.ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", java.io.File(path))
+        }
+        onNodeWithTag("flashcards-Flashcard statistics").performClick()
+        assertEquals(listOf<Route>(Route.FlashcardStats), visited)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcards-sheet").fetchSemanticsNodes().isEmpty() }
+    }
+
     @Test
     fun theVocabularyPagesMarkMore() = runDesktopComposeUiTest(width = 400, height = 800) {
         setContent { MaterialTheme { PhoneNavBar(section = NavSection.TERMS, onNavigate = {}, onMore = {}) } }
@@ -89,8 +106,8 @@ class PhoneNavigationTest {
         onNodeWithText("WATCH").assertDoesNotExist()
         for (gone in listOf("Clear data", "Keyboard shortcuts", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
         onNodeWithTag("more-Statistics").assertExists()
-        // The Flashcards tab opens the review, so the cards are browsed from here.
-        onNodeWithTag("more-Browse flashcards").assertExists()
+        // In the Flashcards sheet instead.
+        onNodeWithTag("more-Browse flashcards").assertDoesNotExist()
         onNodeWithTag("more-Vocabulary").performClick()
         assertEquals(listOf<Route>(Route.Terms()), visited)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isEmpty() }

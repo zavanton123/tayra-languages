@@ -47,18 +47,26 @@ internal val readPages = listOf(
     MoreEntry("News", AppIcons.Newspaper, Route.News),
 )
 
+/** The flashcard pages, the same on the wide bar's Flashcards menu and the phone's Flashcards sheet. */
+internal val flashcardPages = listOf(
+    MoreEntry("Review flashcards", AppIcons.Style, Route.Flashcards),
+    MoreEntry("Browse flashcards", AppIcons.ViewList, Route.BrowseFlashcards()),
+    MoreEntry("Flashcard statistics", AppIcons.BarChart, Route.FlashcardStats),
+)
+
 /** The areas whose screens belong to Read. */
 internal val readSections = setOf(NavSection.COURSES, NavSection.BOOKS, NavSection.NEWS)
 
 /**
  * The phone's bottom bar: the main areas as tabs (Home, Read, Playlists, Flashcards), with the flashcards due on theirs,
- * Read opening a sheet of what there is to read, and More for everything else. [section] is the area of the current screen.
+ * Read and Flashcards opening sheets of their pages, and More for everything else. [section] is the area of the current screen.
  */
 @Composable
 fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val due = LocalFlashcardsDue.current
-    var reading by remember { mutableStateOf(false) }
+    // The Read or the Flashcards tab whose sheet is open.
+    var sheet by remember { mutableStateOf<NavSection?>(null) }
     // The videos and the vocabulary pages are reached through More.
     val area = when (section) {
         in readSections -> NavSection.BOOKS
@@ -67,26 +75,34 @@ fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () ->
     }
     NavigationBar(containerColor = colors.surface, modifier = Modifier.testTag("phone-nav")) {
         PhoneTab(NavSection.HOME, Icons.Default.Home, area) { onNavigate(Route.Home) }
-        PhoneTab(NavSection.BOOKS, AppIcons.MenuBook, area, label = tr("Read"), tag = "READ") { reading = true }
+        PhoneTab(NavSection.BOOKS, AppIcons.MenuBook, area, label = tr("Read"), tag = "READ") { sheet = NavSection.BOOKS }
         PhoneTab(NavSection.PLAYLISTS, AppIcons.QueueMusic, area) { onNavigate(Route.Playlists) }
-        PhoneTab(NavSection.FLASHCARDS, AppIcons.Style, area, badge = due) { onNavigate(Route.Flashcards) }
+        PhoneTab(NavSection.FLASHCARDS, AppIcons.Style, area, badge = due) { sheet = NavSection.FLASHCARDS }
         PhoneTab(NavSection.SETTINGS, AppIcons.MoreHoriz, area, label = tr("More"), onClick = onMore)
     }
-    if (reading) ReadSheet(onNavigate = { reading = false; onNavigate(it) }, onDismiss = { reading = false })
+    val go: (Route) -> Unit = { sheet = null; onNavigate(it) }
+    when (sheet) {
+        NavSection.BOOKS -> PagesSheet(tr("Read"), readPages, "read", go) { sheet = null }
+        NavSection.FLASHCARDS -> PagesSheet(tr("Flashcards"), flashcardPages, "flashcards", go) { sheet = null }
+        else -> {}
+    }
 }
 
-/** The phone's Read sheet: the courses, the books and the news, as the wide bar's Read menu has them. */
+/**
+ * A tab's pages in a sheet, as the wide bar's menu of the same name has them. The sheet is tagged "[tag]-sheet"
+ * and each row "[tag]-" and its English label.
+ */
 @Composable
-fun ReadSheet(onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
-    AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("read-sheet")) {
+private fun PagesSheet(title: String, pages: List<MoreEntry>, tag: String, onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
+    AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("$tag-sheet")) {
         ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(start = AppSpacing.xl, end = AppSpacing.s, bottom = AppSpacing.l)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(tr("Read"), Modifier.weight(1f), style = AppText.headline)
+                Text(title, Modifier.weight(1f), style = AppText.headline)
                 AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss)
             }
-            readPages.forEachIndexed { i, entry ->
+            pages.forEachIndexed { i, entry ->
                 if (i > 0) AppDivider(Modifier.padding(end = AppSpacing.m))
-                NavigationRow(tr(entry.label), onClick = { onNavigate(entry.route) }, modifier = Modifier.padding(end = AppSpacing.m).testTag("read-${entry.label}"), icon = entry.icon)
+                NavigationRow(tr(entry.label), onClick = { onNavigate(entry.route) }, modifier = Modifier.padding(end = AppSpacing.m).testTag("$tag-${entry.label}"), icon = entry.icon)
             }
         }
     }
@@ -135,8 +151,6 @@ private fun moreGroups(videos: Boolean) = listOfNotNull(
         "Words and progress",
         listOf(
             MoreEntry("Vocabulary", AppIcons.ViewList, Route.Terms()),
-            // The Flashcards tab opens the review; the cards themselves are browsed from here.
-            MoreEntry("Browse flashcards", AppIcons.Style, Route.BrowseFlashcards()),
             MoreEntry("Word frequency", AppIcons.BarChart, Route.WordFrequency),
             MoreEntry("Statistics", AppIcons.PieChart, Route.Stats),
         ),
