@@ -111,6 +111,7 @@ class FlashcardsScreenTest {
     private val service = FlashcardService(FlashcardRepositoryImpl(provider), terms, settings)
     private val sentence = "Quando precisamos comprar alguma coisa, passamos no supermercado."
     private var termId = 0L
+    private var backs = 0
 
     private fun ComposeUiTest.show(
         hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
@@ -158,7 +159,7 @@ class FlashcardsScreenTest {
                         if (studyingMore) StudyMoreDialog(viewModel, onAddNew = viewModel::addNewToday, onStart = viewModel::startPass, onDismiss = { studyingMore = false })
                         Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                             Column {
-                                AppTopBar(title = "Flashcards", onNavigate = {}, section = NavSection.FLASHCARDS)
+                                AppTopBar(title = "Flashcards", onNavigate = {}, onBack = if (phone) ({ backs++ }) else null, section = NavSection.FLASHCARDS)
                                 FlashcardsContent(
                                     state,
                                     speaker = if (withSpeaker) rememberSpeaker(LocalSpeech(emptyList()), settings) else null,
@@ -909,6 +910,9 @@ class FlashcardsScreenTest {
         show(phone = true)
         assertEquals(1, onAllNodesWithText("Flashcards").fetchSemanticsNodes().size, "the title once, in the header")
         onNodeWithTag("browse-flashcards").assertDoesNotExist()
+        // Reviewed full screen, without the tabs, so the bar has the way back.
+        onNodeWithContentDescription("Back").performClick()
+        assertEquals(1, backs)
         for (label in listOf("Previous", "Edit", "More")) assertEquals(0, onAllNodesWithText(label).fetchSemanticsNodes().size, label)
         // In the card's top corner, where the speaker sits beside it when there is one.
         val card = onNodeWithTag("flashcard").fetchSemanticsNode().boundsInRoot

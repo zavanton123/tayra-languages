@@ -88,11 +88,11 @@ fun AppNavHost(openCourses: Int = 0) {
     // A video asked for from outside the app's screens, such as the browser extension's "Open in Idiomiko".
     val videoOpens = koinInject<VideoOpenRequests>()
     LaunchedEffect(videoOpens) { videoOpens.videos.collect { navController.navigate(Route.Watch(it)) } }
-    // Phones get the main areas as a bottom bar, except while reading; wider screens have them in the top bar.
+    // Phones get the main areas as a bottom bar, except while reading, practising or reviewing flashcards; wider screens have them in the top bar.
     val entry by navController.currentBackStackEntryAsState()
     val destination = entry?.destination
     val phoneBar = LocalWindowWidth.current.isCompact && destination != null && !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>() && !destination.hasRoute<Route.PracticeWords>() &&
-        !destination.hasRoute<Route.ChooseLanguage>()
+        !destination.hasRoute<Route.ChooseLanguage>() && !destination.hasRoute<Route.Flashcards>()
     var more by remember { mutableStateOf(false) }
     // Pages that start a practice show it in this dialog on windows wider than a phone.
     val practiceDialog = remember<@Composable (Route, () -> Unit) -> Unit>(navController) {

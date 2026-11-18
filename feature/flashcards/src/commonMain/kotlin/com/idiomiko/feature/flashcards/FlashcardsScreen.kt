@@ -172,7 +172,7 @@ fun FlashcardsDialog(onNavigate: (Route) -> Unit, onClose: () -> Unit) {
 
 /** Reviewing the flashcards of the language being learned, one card at a time; with [onClose], in a dialog. */
 @Composable
-fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel = koinViewModel(), onClose: (() -> Unit)? = null) {
+fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel = koinViewModel(), onClose: (() -> Unit)? = null, onBack: (() -> Unit)? = null) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     CollectEvents(viewModel.events) { event ->
@@ -203,8 +203,8 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                     AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-flashcards-dialog"), style = IconButtonStyle.Tonal)
                 }
             } else {
-                // Wide windows offer the browser from the page heading instead.
-                AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS)
+                // A phone reviews full screen, without the tabs, so its bar has the way out.
+                AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, onBack = onBack.takeIf { compact }, section = NavSection.FLASHCARDS)
             }
         },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
