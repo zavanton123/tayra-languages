@@ -16,6 +16,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.MaterialTheme
@@ -50,11 +52,14 @@ import com.idiomiko.core.domain.repository.LanguageRepository
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.domain.stats.heatLevel
 import com.idiomiko.core.ui.components.ActivityHeatmapCard
+import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.ColumnTooltips
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.EmptyState
+import com.idiomiko.core.ui.components.IconButtonSize
+import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.components.LoadingIndicator
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
@@ -291,24 +296,41 @@ internal fun LegendRow(name: String, n: Int, total: Int, tint: Color) {
 private fun CalendarCard(s: FlashcardStatistics) {
     val today = s.today.date()
     val days = s.calendar.mapKeys { it.key.date() }
-    fun shown(start: LocalDate) = days.filterKeys { it in start..today }
+    // A calendar year at a time, this one first, back to the year of the first answer.
+    var year by rememberSaveable { mutableStateOf(today.year) }
+    val firstYear = days.keys.minOfOrNull { it.year } ?: today.year
+    val inYear = days.filterKeys { it.year == year }
     ActivityHeatmapCard(
         title = tr("Calendar"),
-        subtitle = { start ->
-            val count = shown(start).size
-            trPlural(count, "{1} day with reviews since {2}", "{1} days with reviews since {2}", formatCount(count), start.shortDate(today))
-        },
+        subtitle = { trPlural(inYear.size, "{1} day with reviews in {2}", "{1} days with reviews in {2}", formatCount(inYear.size), "$year") },
         today = today,
-        levels = { start ->
-            val inView = shown(start)
-            val max = inView.values.maxOrNull() ?: 0
-            inView.mapValues { heatLevel(it.value, max) }
+        levels = {
+            val max = inYear.values.maxOrNull() ?: 0
+            inYear.mapValues { heatLevel(it.value, max) }
         },
         fewer = tr("Fewer reviews"),
         more = tr("More reviews"),
         color = AppAccents.purple,
         describe = { date -> days[date]?.let { trPlural(it, "{1} answer", "{1} answers", formatCount(it)) } ?: tr("No reviews") },
+        action = { YearSwitch(year, canBack = year > firstYear, canForward = year < today.year) { year = it } },
+        range = LocalDate(year, 1, 1)..LocalDate(year, 12, 31),
     )
+}
+
+/** The year shown, between small buttons to the one before and the one after. */
+@Composable
+private fun YearSwitch(year: Int, canBack: Boolean, canForward: Boolean, onYear: (Int) -> Unit) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        AppIconButton(
+            Icons.AutoMirrored.Filled.KeyboardArrowLeft, tr("Previous year"), { onYear(year - 1) },
+            enabled = canBack, size = IconButtonSize.Small, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("calendar-previous-year"),
+        )
+        Text("$year", style = AppText.labelStrong, modifier = Modifier.testTag("calendar-year"))
+        AppIconButton(
+            Icons.AutoMirrored.Filled.KeyboardArrowRight, tr("Next year"), { onYear(year + 1) },
+            enabled = canForward, size = IconButtonSize.Small, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("calendar-next-year"),
+        )
+    }
 }
 
 /** The days of the period in columns of a day or more each, oldest first. */

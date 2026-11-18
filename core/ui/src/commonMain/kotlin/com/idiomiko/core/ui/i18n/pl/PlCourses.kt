@@ -298,7 +298,6 @@ internal val plCourses: Map<String, String> = mapOf(
     "Card counts" to "Liczba fiszek",
     "{1} cards" to "{1} fiszka|{1} fiszki|{1} fiszek",
     "Calendar" to "Kalendarz",
-    "{1} days with reviews since {2}" to "{1} dzień z powtórkami od {2}|{1} dni z powtórkami od {2}|{1} dni z powtórkami od {2}",
     "Fewer reviews" to "Mniej powtórek",
     "More reviews" to "Więcej powtórek",
     "{1} answers" to "{1} odpowiedź|{1} odpowiedzi|{1} odpowiedzi",

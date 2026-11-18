@@ -1,6 +1,7 @@
 package com.idiomiko.core.ui.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
@@ -14,13 +15,16 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentWidth
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -42,6 +46,7 @@ import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
+import kotlinx.coroutines.flow.first
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.daysUntil
@@ -50,7 +55,7 @@ import kotlinx.datetime.plus
 
 /**
  * A card of recent days as squares, darker the busier the day: a column per week from Monday, as
- * many weeks as fit, up to a year. The weeks shown depend on the width, so [subtitle] and [levels]
+ * many weeks as fit, up to a year, or the weeks of a [range] such as a calendar year. The weeks shown depend on the width, so [subtitle] and [levels]
  * are given the first day shown; [levels] maps each busy day to 1 to 4, days left out being empty.
  */
 @Composable
@@ -67,6 +72,11 @@ fun ActivityHeatmapCard(
     describe: ((LocalDate) -> String)? = null,
     /** A way on from the card, at its header's end. */
     action: (@Composable RowScope.() -> Unit)? = null,
+    /**
+     * The days to show, such as a calendar year, instead of the recent weeks that fit: their weeks fill the width,
+     * days outside them left blank, and where they do not fit the squares scroll sideways, the latest in view.
+     */
+    range: ClosedRange<LocalDate>? = null,
 ) {
     val empty = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
     var pointed by remember { mutableStateOf<LocalDate?>(null) }
@@ -80,19 +90,31 @@ fun ActivityHeatmapCard(
         val gap = with(density) { AppSpacing.xs.toPx().toInt().toDp() }
         // The card's padding takes 20 on each side, and the weekday names a column of their own.
         val inner = maxWidth - 40.dp - weekdayWidth - gap
-        val weeks = ((inner + gap) / (MIN_CELL + gap)).toInt().coerceIn(MIN_WEEKS, MAX_WEEKS)
-        val cell: Dp = with(density) { ((inner - gap * (weeks - 1)) / weeks).coerceAtMost(MAX_CELL).toPx().toInt().toDp() }
+        val weeks = if (range != null) {
+            range.start.minus(range.start.dayOfWeek.ordinal, DateTimeUnit.DAY).daysUntil(range.endInclusive) / 7 + 1
+        } else {
+            ((inner + gap) / (MIN_CELL + gap)).toInt().coerceIn(MIN_WEEKS, MAX_WEEKS)
+        }
+        val fitted = (inner - gap * (weeks - 1)) / weeks
+        // A range too long for the width keeps its squares readable and scrolls.
+        val scrolls = range != null && fitted < MIN_CELL
+        val cell: Dp = with(density) { (if (range != null) fitted.coerceIn(MIN_CELL, MAX_CELL) else fitted.coerceAtMost(MAX_CELL)).toPx().toInt().toDp() }
         val thisMonday = today.minus(today.dayOfWeek.ordinal, DateTimeUnit.DAY)
-        val start = thisMonday.minus((weeks - 1) * 7, DateTimeUnit.DAY)
+        val start = range?.start?.let { it.minus(it.dayOfWeek.ordinal, DateTimeUnit.DAY) } ?: thisMonday.minus((weeks - 1) * 7, DateTimeUnit.DAY)
+        val sideways = rememberScrollState()
+        LaunchedEffect(range, scrolls) {
+            if (scrolls && range != null && today in range) snapshotFlow { sideways.maxValue }.first { it > 0 }.let { sideways.scrollTo(it) }
+        }
         val shown = levels(start)
         ContentCard(title, subtitle(start), icon = icon, headerExtra = { action?.invoke(this) }) {
             val labelStyle = MaterialTheme.typography.labelSmall
             val labelColor = MaterialTheme.colorScheme.onSurfaceVariant
             // A month is named over the week its first day falls in; the first week is named only when no other is near it.
             val monthOf: (Int) -> Int? = { week ->
-                val days = (0 until 7).map { start.plus(week * 7 + it, DateTimeUnit.DAY) }
+                // Only the range's own days: a year's last week runs into the next January.
+                val days = (0 until 7).map { start.plus(week * 7 + it, DateTimeUnit.DAY) }.filter { range == null || it in range }
                 days.firstOrNull { it.day == 1 }?.month?.ordinal
-                    ?: if (week == 0 && (1..2).none { w -> (0 until 7).any { start.plus(w * 7 + it, DateTimeUnit.DAY).day == 1 } }) days.first().month.ordinal else null
+                    ?: if (week == 0 && days.isNotEmpty() && (1..2).none { w -> (0 until 7).any { start.plus(w * 7 + it, DateTimeUnit.DAY).day == 1 } }) days.first().month.ordinal else null
             }
             Row(horizontalArrangement = Arrangement.spacedBy(gap)) {
                 Column(Modifier.width(weekdayWidth), verticalArrangement = Arrangement.spacedBy(gap)) {
@@ -103,7 +125,10 @@ fun ActivityHeatmapCard(
                         }
                     }
                 }
-                Column(verticalArrangement = Arrangement.spacedBy(gap)) {
+                Column(
+                    Modifier.weight(1f, fill = false).then(if (scrolls) Modifier.horizontalScroll(sideways) else Modifier),
+                    verticalArrangement = Arrangement.spacedBy(gap),
+                ) {
                     Row(Modifier.height(MONTH_ROW_HEIGHT), horizontalArrangement = Arrangement.spacedBy(gap)) {
                         repeat(weeks) { week ->
                             Box(Modifier.width(cell)) {
@@ -127,7 +152,7 @@ fun ActivityHeatmapCard(
                                                 val week = (at.x / step).toInt()
                                                 val weekday = (at.y / step).toInt()
                                                 if (at.x < 0 || at.y < 0 || week >= weeks || weekday > 6) null
-                                                else start.plus(week * 7 + weekday, DateTimeUnit.DAY).takeIf { it <= today }
+                                                else start.plus(week * 7 + weekday, DateTimeUnit.DAY).takeIf { it <= today && (range == null || it in range) }
                                             }
                                         }
                                     }
@@ -141,7 +166,7 @@ fun ActivityHeatmapCard(
                                         val date = start.plus(week * 7 + weekday, DateTimeUnit.DAY)
                                         val level = shown[date] ?: 0
                                         val shade = when {
-                                            date > today -> Color.Transparent
+                                            date > today || (range != null && date !in range) -> Color.Transparent
                                             level == 0 -> empty
                                             else -> color.copy(alpha = heatShade(level))
                                         }

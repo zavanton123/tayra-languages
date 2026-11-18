@@ -298,7 +298,6 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Card counts" to "Contagem de cartões",
     "{1} cards" to "{1} cartão|{1} cartões",
     "Calendar" to "Calendário",
-    "{1} days with reviews since {2}" to "{1} dia com revisões desde {2}|{1} dias com revisões desde {2}",
     "Fewer reviews" to "Menos revisões",
     "More reviews" to "Mais revisões",
     "{1} answers" to "{1} resposta|{1} respostas",

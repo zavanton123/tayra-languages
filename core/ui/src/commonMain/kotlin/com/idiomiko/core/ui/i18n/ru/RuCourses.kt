@@ -298,7 +298,6 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Card counts" to "Количество карточек",
     "{1} cards" to "{1} карточка|{1} карточки|{1} карточек",
     "Calendar" to "Календарь",
-    "{1} days with reviews since {2}" to "{1} день с повторениями с {2}|{1} дня с повторениями с {2}|{1} дней с повторениями с {2}",
     "Fewer reviews" to "Меньше повторений",
     "More reviews" to "Больше повторений",
     "{1} answers" to "{1} ответ|{1} ответа|{1} ответов",

@@ -298,7 +298,6 @@ internal val elCourses: Map<String, String> = mapOf(
     "Card counts" to "Πλήθος καρτών",
     "{1} cards" to "{1} κάρτα|{1} κάρτες",
     "Calendar" to "Ημερολόγιο",
-    "{1} days with reviews since {2}" to "{1} μέρα με επαναλήψεις από {2}|{1} μέρες με επαναλήψεις από {2}",
     "Fewer reviews" to "Λιγότερες επαναλήψεις",
     "More reviews" to "Περισσότερες επαναλήψεις",
     "{1} answers" to "{1} απάντηση|{1} απαντήσεις",
