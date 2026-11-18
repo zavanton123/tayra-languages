@@ -323,8 +323,6 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Reviews remembered, against your target of {0}%" to "Revisões lembradas, comparadas à sua meta de {0}%",
     "Estimated knowledge" to "Conhecimento estimado",
     "Words you would recall now, adding up each card's chance of recall" to "Palavras de que você se lembraria agora, somando a chance de lembrar de cada cartão",
-    "About {0} of {1}" to "Cerca de {0} de {1}",
-    "{0}% of the answered cards" to "{0}% dos cartões respondidos",
     "When in the day you answer, and how well" to "Em que hora do dia você responde e com que acerto",
     "Most answers at {0}:00" to "Mais respostas às {0}:00",
     "Most answers at {0}:00; best at {1}:00, {2}% correct" to "Mais respostas às {0}:00; melhor às {1}:00, {2}% corretas",

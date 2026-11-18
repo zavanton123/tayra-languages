@@ -5,12 +5,15 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -22,9 +25,11 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.idiomiko.core.domain.flashcards.AnswerMode
 import com.idiomiko.core.domain.flashcards.FlashcardStatistics
@@ -32,10 +37,15 @@ import com.idiomiko.core.domain.flashcards.Pass
 import com.idiomiko.core.domain.flashcards.Rating
 import com.idiomiko.core.domain.flashcards.RetentionSpan
 import com.idiomiko.core.domain.flashcards.ReviewKind
+import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
+import com.idiomiko.core.ui.components.AppVerticalDivider
 import com.idiomiko.core.ui.components.ColumnTooltips
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.LocalWindowWidth
+import com.idiomiko.core.ui.components.ProgressTrack
+import com.idiomiko.core.ui.components.StatusPill
+import com.idiomiko.core.ui.components.TagSize
 import com.idiomiko.core.ui.components.label
 import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
@@ -189,11 +199,42 @@ private fun RetentionRow(name: String?, cells: List<String>, tints: List<Color>?
 
 @Composable
 private fun KnowledgeCard(s: FlashcardStatistics, modifier: Modifier) {
-    val known = s.knowledge.roundToInt()
+    val compact = LocalWindowWidth.current.isCompact
+    val muted = MaterialTheme.colorScheme.onSurfaceVariant
+    val share = if (s.knowledgeOf > 0) s.knowledge / s.knowledgeOf else 0.0
     ContentCard(tr("Estimated knowledge"), tr("Words you would recall now, adding up each card's chance of recall"), icon = AppIcons.DoneAll, modifier = modifier) {
-        Text(tr("About {0} of {1}", formatCount(known), formatCount(s.knowledgeOf)), style = AppText.headline, modifier = Modifier.testTag("knowledge"))
-        if (s.knowledgeOf > 0) {
-            Text(tr("{0}% of the answered cards", percent(s.knowledge / s.knowledgeOf)), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        // The count of words beside the share of the cards it is, as a ring.
+        Row(
+            Modifier.fillMaxWidth().height(IntrinsicSize.Min).testTag("knowledge"),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xxl),
+        ) {
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+                Text(formatCount(s.knowledge.roundToInt()), style = AppText.figure)
+                Text(tr("estimated words recalled"), style = MaterialTheme.typography.titleMedium, color = muted)
+                Text(tr("of {0} answered cards", formatCount(s.knowledgeOf)), style = MaterialTheme.typography.bodyMedium, color = muted)
+            }
+            AppVerticalDivider(Modifier.fillMaxHeight().padding(vertical = AppSpacing.s))
+            PercentRing(share, AppAccents.blue, tr("recall estimate"), if (compact) RING_COMPACT else RING)
+        }
+    }
+}
+
+/** [share] of a whole as a ring filled that far round from the top, its percentage and [label] inside. */
+@Composable
+private fun PercentRing(share: Double, color: Color, label: String, size: Dp) {
+    val track = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
+    Box(Modifier.size(size), contentAlignment = Alignment.Center) {
+        Canvas(Modifier.fillMaxSize()) {
+            val stroke = this.size.minDimension * 0.08f
+            val corner = Offset(stroke / 2, stroke / 2)
+            val ring = Size(this.size.width - stroke, this.size.height - stroke)
+            drawArc(track, 0f, 360f, useCenter = false, topLeft = corner, size = ring, style = Stroke(stroke))
+            drawArc(color, -90f, 360f * share.toFloat().coerceIn(0f, 1f), useCenter = false, topLeft = corner, size = ring, style = Stroke(stroke, cap = StrokeCap.Round))
+        }
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Text("${percent(share)}%", style = AppText.screenTitle)
+            Text(label, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center)
         }
     }
 }
@@ -295,21 +336,37 @@ private fun ButtonsCard(s: FlashcardStatistics, modifier: Modifier) {
 @Composable
 private fun AnsweredByCard(s: FlashcardStatistics, modifier: Modifier) {
     val total = s.answeredBy.values.sumOf { it.total }
+    val compact = LocalWindowWidth.current.isCompact
+    val muted = MaterialTheme.colorScheme.onSurfaceVariant
     ContentCard(tr("How you answered"), tr("Answers shown, typed or said, and how many were right"), icon = AppIcons.Keyboard, modifier = modifier) {
         Column(Modifier.fillMaxWidth().testTag("answered-by")) {
-            AnswerMode.entries.forEach { mode ->
+            AnswerMode.entries.forEachIndexed { i, mode ->
+                if (i > 0) AppDivider()
                 val pass = s.answeredBy[mode] ?: Pass()
-                Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
-                    Text(mode.label, Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
-                    Text(
-                        pass.rate?.let { tr("{0}% correct of {1}", percent(it), formatCount(pass.total)) } ?: tr("No answers"),
-                        Modifier.padding(end = AppSpacing.l),
-                        style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    )
-                    Text(if (total > 0) "${percent(pass.total.toDouble() / total)}%" else "—", style = AppText.labelStrong)
+                // Green where the answers met the retention target, blue where they did not yet.
+                val tint = if ((pass.rate ?: 0.0) >= s.desiredRetention) AppAccents.green else AppAccents.blue
+                val share = if (total > 0) percent(pass.total.toDouble() / total) else 0
+                Row(
+                    Modifier.fillMaxWidth().padding(vertical = AppSpacing.m),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
+                ) {
+                    Text(mode.label, Modifier.width(MODE_WIDTH), style = AppText.itemTitle, maxLines = 1)
+                    ProgressTrack(pass.rate?.toFloat() ?: 0f, tint, Modifier.weight(1f), height = TRACK_HEIGHT)
+                    Column(Modifier.width(RESULT_WIDTH)) {
+                        Text(pass.rate?.let { tr("{0}% correct", percent(it)) } ?: tr("No answers"), style = AppText.labelStrong, maxLines = 1)
+                        if (pass.total > 0) Text(trPlural(pass.total, "{1} answer", "{1} answers", formatCount(pass.total)), style = MaterialTheme.typography.bodySmall, color = muted, maxLines = 1)
+                    }
+                    // A phone has the room for the share alone.
+                    StatusPill(if (compact) "$share%" else tr("{0}% of answers", share), tint, dot = false, size = TagSize.Medium)
                 }
             }
         }
     }
 }
+
+private val RING = 148.dp
+private val RING_COMPACT = 112.dp
+private val MODE_WIDTH = 72.dp
+private val RESULT_WIDTH = 110.dp
+private val TRACK_HEIGHT = 8.dp

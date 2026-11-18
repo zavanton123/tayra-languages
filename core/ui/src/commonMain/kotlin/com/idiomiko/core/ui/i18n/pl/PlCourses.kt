@@ -323,8 +323,6 @@ internal val plCourses: Map<String, String> = mapOf(
     "Reviews remembered, against your target of {0}%" to "Zapamiętane powtórki wobec twojego celu {0}%",
     "Estimated knowledge" to "Szacowana wiedza",
     "Words you would recall now, adding up each card's chance of recall" to "Słowa, które przypomniałbyś sobie teraz, jako suma szans przypomnienia każdej fiszki",
-    "About {0} of {1}" to "Około {0} z {1}",
-    "{0}% of the answered cards" to "{0}% fiszek z odpowiedziami",
     "When in the day you answer, and how well" to "O jakiej porze dnia odpowiadasz i jak dobrze",
     "Most answers at {0}:00" to "Najwięcej odpowiedzi o {0}:00",
     "Most answers at {0}:00; best at {1}:00, {2}% correct" to "Najwięcej odpowiedzi o {0}:00; najlepiej o {1}:00, {2}% poprawnych",

@@ -323,8 +323,6 @@ internal val esCourses: Map<String, String> = mapOf(
     "Reviews remembered, against your target of {0}%" to "Repasos recordados, frente a tu objetivo del {0} %",
     "Estimated knowledge" to "Conocimiento estimado",
     "Words you would recall now, adding up each card's chance of recall" to "Palabras que recordarías ahora, sumando la probabilidad de recordar de cada tarjeta",
-    "About {0} of {1}" to "Unas {0} de {1}",
-    "{0}% of the answered cards" to "{0} % de las tarjetas respondidas",
     "When in the day you answer, and how well" to "A qué hora del día respondes y qué tal",
     "Most answers at {0}:00" to "Más respuestas a las {0}:00",
     "Most answers at {0}:00; best at {1}:00, {2}% correct" to "Más respuestas a las {0}:00; mejor a las {1}:00, {2} % correctas",

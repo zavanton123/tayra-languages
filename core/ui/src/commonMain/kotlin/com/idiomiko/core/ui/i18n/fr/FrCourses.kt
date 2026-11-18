@@ -323,8 +323,6 @@ internal val frCourses: Map<String, String> = mapOf(
     "Reviews remembered, against your target of {0}%" to "Révisions retenues, comparées à votre objectif de {0} %",
     "Estimated knowledge" to "Connaissance estimée",
     "Words you would recall now, adding up each card's chance of recall" to "Les mots dont vous vous souviendriez maintenant, en additionnant la probabilité de rappel de chaque carte",
-    "About {0} of {1}" to "Environ {0} sur {1}",
-    "{0}% of the answered cards" to "{0} % des cartes répondues",
     "When in the day you answer, and how well" to "À quel moment de la journée vous répondez, et avec quel succès",
     "Most answers at {0}:00" to "Le plus de réponses à {0}:00",
     "Most answers at {0}:00; best at {1}:00, {2}% correct" to "Le plus de réponses à {0}:00 ; le mieux à {1}:00, {2} % correctes",

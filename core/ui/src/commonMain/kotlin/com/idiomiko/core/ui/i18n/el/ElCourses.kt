@@ -323,8 +323,6 @@ internal val elCourses: Map<String, String> = mapOf(
     "Reviews remembered, against your target of {0}%" to "Επαναλήψεις που θυμηθήκατε, σε σχέση με τον στόχο σας {0}%",
     "Estimated knowledge" to "Εκτιμώμενη γνώση",
     "Words you would recall now, adding up each card's chance of recall" to "Λέξεις που θα θυμόσασταν τώρα, αθροίζοντας την πιθανότητα ανάκλησης κάθε κάρτας",
-    "About {0} of {1}" to "Περίπου {0} από {1}",
-    "{0}% of the answered cards" to "{0}% των απαντημένων καρτών",
     "When in the day you answer, and how well" to "Πότε μέσα στη μέρα απαντάτε και πόσο καλά",
     "Most answers at {0}:00" to "Οι περισσότερες απαντήσεις στις {0}:00",
     "Most answers at {0}:00; best at {1}:00, {2}% correct" to "Οι περισσότερες απαντήσεις στις {0}:00· καλύτερα στις {1}:00, {2}% σωστές",

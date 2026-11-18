@@ -323,8 +323,6 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Reviews remembered, against your target of {0}%" to "Вспомненные повторения против вашей цели {0}%",
     "Estimated knowledge" to "Оценка знаний",
     "Words you would recall now, adding up each card's chance of recall" to "Слова, которые вы вспомнили бы сейчас: сумма вероятностей вспомнить каждую карточку",
-    "About {0} of {1}" to "Около {0} из {1}",
-    "{0}% of the answered cards" to "{0}% отвеченных карточек",
     "When in the day you answer, and how well" to "В какое время дня вы отвечаете и насколько хорошо",
     "Most answers at {0}:00" to "Больше всего ответов в {0}:00",
     "Most answers at {0}:00; best at {1}:00, {2}% correct" to "Больше всего ответов в {0}:00; лучше всего в {1}:00, {2}% верно",

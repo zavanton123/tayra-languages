@@ -323,8 +323,6 @@ internal val deCourses: Map<String, String> = mapOf(
     "Reviews remembered, against your target of {0}%" to "Gewusste Wiederholungen, verglichen mit deinem Ziel von {0} %",
     "Estimated knowledge" to "Geschätztes Wissen",
     "Words you would recall now, adding up each card's chance of recall" to "Wörter, an die du dich jetzt erinnern würdest: die Summe der Erinnerungschancen jeder Karte",
-    "About {0} of {1}" to "Etwa {0} von {1}",
-    "{0}% of the answered cards" to "{0} % der beantworteten Karten",
     "When in the day you answer, and how well" to "Wann am Tag du antwortest und wie gut",
     "Most answers at {0}:00" to "Die meisten Antworten um {0}:00",
     "Most answers at {0}:00; best at {1}:00, {2}% correct" to "Die meisten Antworten um {0}:00; am besten um {1}:00, {2} % richtig",

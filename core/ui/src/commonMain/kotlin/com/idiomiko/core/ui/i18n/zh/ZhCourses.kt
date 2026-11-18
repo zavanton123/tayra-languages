@@ -323,8 +323,6 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Reviews remembered, against your target of {0}%" to "记住的复习，对比你的目标 {0}%",
     "Estimated knowledge" to "估计掌握量",
     "Words you would recall now, adding up each card's chance of recall" to "现在能想起的单词数：把每张卡片的回忆概率相加",
-    "About {0} of {1}" to "约 {0} / {1}",
-    "{0}% of the answered cards" to "占已回答卡片的 {0}%",
     "When in the day you answer, and how well" to "你在一天中何时作答、答得如何",
     "Most answers at {0}:00" to "{0}:00 回答最多",
     "Most answers at {0}:00; best at {1}:00, {2}% correct" to "{0}:00 回答最多；{1}:00 表现最好，正确率 {2}%",
