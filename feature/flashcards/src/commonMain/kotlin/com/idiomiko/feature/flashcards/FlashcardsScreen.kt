@@ -1,30 +1,5 @@
 package com.idiomiko.feature.flashcards
 
-import androidx.compose.ui.semantics.selected
-import kotlinx.coroutines.flow.StateFlow
-import com.idiomiko.core.ui.components.Confetti
-import androidx.compose.material.icons.filled.Close
-import com.idiomiko.core.ui.components.FreshViewModels
-import com.idiomiko.core.ui.components.AppDialogSurface
-import com.idiomiko.core.domain.flashcards.FlashcardService
-import kotlin.time.Duration.Companion.milliseconds
-import kotlinx.coroutines.delay
-import androidx.compose.material.icons.filled.Add
-import com.idiomiko.core.domain.flashcards.ExtraStudy
-import com.idiomiko.core.ui.components.SpeakAnswer
-import com.idiomiko.core.ui.audio.rememberMicrophoneAccess
-import androidx.compose.foundation.text.KeyboardActions
-import androidx.compose.foundation.text.KeyboardOptions
-import androidx.compose.ui.input.key.Key
-import androidx.compose.ui.input.key.key
-import androidx.compose.ui.semantics.selected
-import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.text.input.ImeAction
-import com.idiomiko.core.domain.flashcards.AnswerMode
-import com.idiomiko.core.domain.practice.TypedResult
-import com.idiomiko.core.ui.components.AnswerModeToggle
-import com.idiomiko.core.ui.components.AppTextField
-import com.idiomiko.core.ui.components.SentenceCheck
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -51,10 +26,14 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.Icon
@@ -76,40 +55,60 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.KeyEventType
+import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
+import androidx.compose.ui.layout.LayoutCoordinates
+import androidx.compose.ui.layout.onGloballyPositioned
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.selected
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.idiomiko.core.domain.flashcards.AnswerMode
+import com.idiomiko.core.domain.flashcards.ExtraStudy
+import com.idiomiko.core.domain.flashcards.FlashcardService
 import com.idiomiko.core.domain.flashcards.Rating
+import com.idiomiko.core.domain.practice.TypedResult
 import com.idiomiko.core.domain.service.SentenceAudio
 import com.idiomiko.core.domain.settings.Hotkey
 import com.idiomiko.core.domain.settings.HotkeyAction
 import com.idiomiko.core.ui.audio.SpeakButton
 import com.idiomiko.core.ui.audio.Speaker
+import com.idiomiko.core.ui.audio.rememberMicrophoneAccess
 import com.idiomiko.core.ui.audio.rememberSpeaker
+import com.idiomiko.core.ui.components.AnswerModeToggle
+import com.idiomiko.core.ui.components.AppDialogSurface
 import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppMenu
 import com.idiomiko.core.ui.components.AppMenuItem
+import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTooltip
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.Appear
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.ButtonTone
+import com.idiomiko.core.ui.components.Confetti
 import com.idiomiko.core.ui.components.ConfirmDialog
 import com.idiomiko.core.ui.components.EdgeScrollbar
+import com.idiomiko.core.ui.components.FreshViewModels
 import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.components.LearningLanguageSelector
@@ -123,6 +122,8 @@ import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.components.SecondaryButton
+import com.idiomiko.core.ui.components.SentenceCheck
+import com.idiomiko.core.ui.components.SpeakAnswer
 import com.idiomiko.core.ui.components.StatusPill
 import com.idiomiko.core.ui.components.TagSize
 import com.idiomiko.core.ui.components.animatedCount
@@ -146,8 +147,11 @@ import com.idiomiko.feature.terms.examples.ChooseExampleDialog
 import kotlin.math.roundToInt
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
+import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Instant
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.koinInject
@@ -459,24 +463,35 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
         if (state.revealed) snapshotFlow { scroll.maxValue }.collect { scroll.scrollTo(it) }
     }
     Column(Modifier.fillMaxSize()) {
-        ScrollColumn(
-            Modifier.weight(1f).fillMaxWidth(),
-            state = scroll,
-            contentModifier = Modifier.padding(AppSpacing.l),
-            verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
-        ) {
-            // The phone's bar carries the Browse button.
-            ScreenHeader(
-                tr("Flashcards"),
-                subtitle = null,
+        // The card reaches down to Show answer, as on a wide screen: at least the height left under what is above it.
+        BoxWithConstraints(Modifier.weight(1f).fillMaxWidth()) {
+            val viewport = maxHeight
+            val density = LocalDensity.current
+            var frame by remember { mutableStateOf<LayoutCoordinates?>(null) }
+            var cardTop by remember { mutableStateOf(0f) }
+            ScrollColumn(
+                Modifier.fillMaxSize().onGloballyPositioned { frame = it },
+                state = scroll,
+                contentModifier = Modifier.padding(AppSpacing.l),
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) {
-                AnswerModeToggle(state.answerMode, actions.onAnswerMode, NoFocus, modes = state.modes, iconsOnly = true)
+                // The phone's bar carries the Browse button.
+                ScreenHeader(
+                    tr("Flashcards"),
+                    subtitle = null,
+                ) {
+                    AnswerModeToggle(state.answerMode, actions.onAnswerMode, NoFocus, modes = state.modes, iconsOnly = true)
+                }
+                Progress(state, compact = true, onEndPass = actions.onEndPass)
+                val card = state.card
+                if (state.preparingAudio) PreparingAudio(actions.onStartWithoutWaiting, compact = true)
+                else if (card == null) Finished(state, actions)
+                else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, onChooseExample = { actions.onChooseExample(card) }, autoplay = state.autoplay, onToggleAutoplay = actions.onToggleAutoplay, timer = { AnswerTimer(state) },
+                    minHeight = maxOf(Dp.Hairline, viewport - with(density) { cardTop.toDp() } - AppSpacing.l),
+                    modifier = Modifier.onGloballyPositioned { c -> frame?.takeIf { it.isAttached }?.let { cardTop = it.localPositionOf(c, Offset.Zero).y + scroll.value } },
+                    previous = { CardButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous card"), actions.onUndo, enabled = state.canUndo, tag = "previous-card") },
+                    menu = { CardMenu(card, state.pass != null, actions) }) { AnswerGiven(state, actions, compact = true) } } }
             }
-            Progress(state, compact = true, onEndPass = actions.onEndPass)
-            val card = state.card
-            if (state.preparingAudio) PreparingAudio(actions.onStartWithoutWaiting, compact = true)
-            else if (card == null) Finished(state, actions)
-            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, onChooseExample = { actions.onChooseExample(card) }, autoplay = state.autoplay, onToggleAutoplay = actions.onToggleAutoplay, timer = { AnswerTimer(state) }, menu = { CardMenu(card, state.pass != null, actions) }) { AnswerGiven(state, actions, compact = true) } } }
         }
         if (state.card == null || state.preparingAudio) return@Column
         Column(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -611,23 +626,30 @@ private fun CountPill(tag: String, count: Int, label: String, tint: Color, large
 @Composable
 private fun Card(
     card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onChooseExample: () -> Unit = {},
-    autoplay: Boolean = true, onToggleAutoplay: () -> Unit = {}, timer: @Composable () -> Unit = {}, menu: (@Composable () -> Unit)? = null,
-    given: @Composable () -> Unit = {}) {
+    autoplay: Boolean = true, onToggleAutoplay: () -> Unit = {}, timer: @Composable () -> Unit = {}, previous: (@Composable () -> Unit)? = null, menu: (@Composable () -> Unit)? = null,
+    minHeight: Dp = Dp.Unspecified, modifier: Modifier = Modifier, given: @Composable () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val inset = if (compact) AppSpacing.xl else AppSpacing.xxxl
     // The answer opens under the sentence in place, the card growing to hold it.
     val revealed = answered
+    // With room to spare the buttons stay at the top and the rest sits in the middle of the space under them.
     Column(
-        Modifier.fillMaxWidth()
+        modifier.fillMaxWidth()
             .animateContentSize(AppMotion.spec(AppMotion.medium))
+            .heightIn(min = minHeight)
             .cardSurface(AppShapes.large)
             .padding(horizontal = inset, vertical = if (compact) AppSpacing.xl else AppSpacing.xxl).testTag("flashcard"),
+        verticalArrangement = Arrangement.SpaceBetween,
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Row(Modifier.fillMaxWidth().heightIn(min = AppSizes.tileLarge), verticalAlignment = Alignment.CenterVertically) {
             // No state tag: the counters above say how many cards are new, learning and due, and a tag named
             // Learning would read as the word's status.
+            if (previous != null) {
+                previous()
+                Spacer(Modifier.width(AppSpacing.m))
+            }
             timer()
             Spacer(Modifier.weight(1f))
             // Round buttons in the corner, each named by a tooltip: other examples once answered, the sentence's sound and the card's menu.
@@ -653,6 +675,7 @@ private fun Card(
                 menu()
             }
         }
+        Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
         CardText(card, revealed, compact)
         given()
         if (revealed) {
@@ -674,6 +697,8 @@ private fun Card(
                 if (card.romanization.isNotEmpty()) Text(card.romanization, style = MaterialTheme.typography.bodyLarge, color = colors.outline)
             }
         }
+        }
+        Spacer(Modifier)
     }
 }
 

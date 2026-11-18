@@ -11,6 +11,8 @@ import com.idiomiko.core.domain.flashcards.MemoryState
 import com.idiomiko.core.domain.flashcards.CardState
 import com.idiomiko.core.domain.flashcards.CardSchedule
 import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.test.isEnabled
+import androidx.compose.ui.test.hasTestTag
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -885,6 +887,9 @@ class FlashcardsScreenTest {
         val card = onNodeWithTag("flashcard").fetchSemanticsNode().boundsInRoot
         val menu = onNodeWithTag("card-menu").fetchSemanticsNode().boundsInRoot
         assertTrue(card.right - menu.right < card.width / 8 && menu.top - card.top < card.height / 4, "menu at $menu in the card at $card")
+        // The way back to the last card in the other corner, as on a wide screen; nothing answered yet, so off.
+        val back = onNodeWithTag("previous-card").assertIsNotEnabled().fetchSemanticsNode().boundsInRoot
+        assertTrue(back.left - card.left < card.width / 8 && back.center.y == menu.center.y, "back at $back in the card at $card")
         save("FLASHCARD_PHONE_SCREENSHOT")
         val reveal = onNodeWithText("Show answer").fetchSemanticsNode().boundsInRoot
         onNodeWithText("Show answer").performClick()
@@ -898,6 +903,22 @@ class FlashcardsScreenTest {
         onNodeWithText("Edit flashcard").assertExists()
         onNodeWithText("Delete card").assertExists()
         save("FLASHCARD_PHONE_MENU_SCREENSHOT")
+    }
+
+    /** On a phone the ← button takes the last answer back and shows its card again. */
+    @Test
+    fun aPhoneGoesBackToTheLastCard() = runDesktopComposeUiTest(width = 420, height = 900) {
+        show(phone = true, moreTerms = { id ->
+            terms.save(Term(languageId = id, text = "vender", textLc = "vender", status = TermStatus.NEW_2, translation = "продать", sentence = "Eles querem vender a casa."))
+        })
+        onNodeWithText("Show answer").performClick()
+        onNodeWithTag("answer-Easy").performClick()
+        waitUntil(timeoutMillis = 5_000) { runBlocking { service.reviews(termId) }.isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("previous-card") and isEnabled()).fetchSemanticsNodes().isNotEmpty() }
+        save("FLASHCARD_PHONE_PREVIOUS_SCREENSHOT")
+        onNodeWithTag("previous-card").performClick()
+        waitUntil(timeoutMillis = 5_000) { runBlocking { service.reviews(termId) }.isEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Quando precisamos", substring = true).fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** On a short phone the answer opens below the fold; the card scrolls to it, clear of the answer buttons. */
