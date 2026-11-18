@@ -39,6 +39,7 @@ internal val elReading: Map<String, String> = mapOf(
     "Vocabulary" to "Λεξιλόγιο",
     "Term list for this page" to "Λέξεις αυτής της σελίδας",
     "More" to "Περισσότερα",
+    "Less" to "Λιγότερα",
     "Show source URL" to "Εμφάνιση URL πηγής",
     "Speech" to "Εκφώνηση",
     "Read-aloud controls" to "Στοιχεία ανάγνωσης φωναχτά",

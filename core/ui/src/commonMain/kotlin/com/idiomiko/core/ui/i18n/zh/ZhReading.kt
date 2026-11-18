@@ -39,6 +39,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Vocabulary" to "词汇",
     "Term list for this page" to "本页词条列表",
     "More" to "更多",
+    "Less" to "收起",
     "Show source URL" to "显示来源网址",
     "Speech" to "朗读",
     "Read-aloud controls" to "朗读控件",

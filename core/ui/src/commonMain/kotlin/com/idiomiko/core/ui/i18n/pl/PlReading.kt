@@ -39,6 +39,7 @@ internal val plReading: Map<String, String> = mapOf(
     "Vocabulary" to "Słownictwo",
     "Term list for this page" to "Słowa z tej strony",
     "More" to "Więcej",
+    "Less" to "Mniej",
     "Show source URL" to "Otwórz link do źródła",
     "Speech" to "Mowa",
     "Read-aloud controls" to "Sterowanie czytaniem na głos",

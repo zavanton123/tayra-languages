@@ -39,6 +39,7 @@ internal val frReading: Map<String, String> = mapOf(
     "Vocabulary" to "Vocabulaire",
     "Term list for this page" to "Termes de cette page",
     "More" to "Plus",
+    "Less" to "Moins",
     "Show source URL" to "Afficher l’URL de la source",
     "Speech" to "Synthèse vocale",
     "Read-aloud controls" to "Commandes de lecture à voix haute",

@@ -39,6 +39,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Vocabulary" to "Wortschatz",
     "Term list for this page" to "Begriffe dieser Seite",
     "More" to "Mehr",
+    "Less" to "Weniger",
     "Show source URL" to "Quell-URL anzeigen",
     "Speech" to "Sprachausgabe",
     "Read-aloud controls" to "Vorlese-Steuerung",

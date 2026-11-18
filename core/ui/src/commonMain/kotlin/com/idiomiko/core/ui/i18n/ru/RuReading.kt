@@ -39,6 +39,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Vocabulary" to "Слова",
     "Term list for this page" to "Слова этой страницы",
     "More" to "Ещё",
+    "Less" to "Меньше",
     "Show source URL" to "Открыть ссылку на источник",
     "Speech" to "Озвучивание",
     "Read-aloud controls" to "Кнопки чтения вслух",

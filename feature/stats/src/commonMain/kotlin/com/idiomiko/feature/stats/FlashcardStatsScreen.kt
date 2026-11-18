@@ -15,11 +15,17 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -53,6 +59,7 @@ import com.idiomiko.core.ui.components.LoadingIndicator
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PageColumn
+import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.Segment
 import com.idiomiko.core.ui.components.SegmentedToggle
@@ -146,7 +153,17 @@ internal fun FlashcardStatsContent(state: FlashcardStatsUiState, onPeriod: (Stat
     RetentionAndAnswers(stats, wide)
     AddedCard(stats)
     ReviewsCard(stats)
-    FlashcardStatsDetails(stats)
+    // The finer charts, how the cards' intervals, stability, difficulty and recall spread and the hours of the day, wait behind More.
+    var more by rememberSaveable { mutableStateOf(false) }
+    Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+        QuietButton(
+            if (more) tr("Less") else tr("More"),
+            onClick = { more = !more },
+            modifier = Modifier.testTag("flashcard-stats-more"),
+            icon = if (more) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
+        )
+    }
+    if (more) FlashcardStatsDetails(stats)
 }
 
 private fun StatsPeriod.label(): String = when (this) {

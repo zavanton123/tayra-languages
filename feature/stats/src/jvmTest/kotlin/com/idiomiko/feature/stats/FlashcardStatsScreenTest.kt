@@ -104,7 +104,13 @@ class FlashcardStatsScreenTest {
             }
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Future due").fetchSemanticsNodes().isNotEmpty() }
-        for (tag in listOf("today-studied", "future-due", "card-counts-bar", "reviews-by-day", "added-by-day", "intervals", "stability", "difficulty", "recall", "true-retention", "knowledge", "hours", "answer-buttons", "answered-by")) onNodeWithTag(tag).assertExists()
+        for (tag in listOf("today-studied", "future-due", "card-counts-bar", "reviews-by-day", "added-by-day", "true-retention", "knowledge", "answer-buttons", "answered-by")) onNodeWithTag(tag).assertExists()
+        // The finer charts wait behind More, and Less puts them away again.
+        val finer = listOf("intervals", "stability", "difficulty", "recall", "hours")
+        for (tag in finer) onNodeWithTag(tag).assertDoesNotExist()
+        onNodeWithTag("flashcard-stats-more").performScrollTo().performClick()
+        waitForIdle()
+        for (tag in finer) onNodeWithTag(tag).assertExists()
         onNodeWithTag("card-counts-bar").assertExists()
         System.getenv("FLASHCARD_STATS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
 
@@ -119,6 +125,9 @@ class FlashcardStatsScreenTest {
         }
         onNodeWithTag("period-YEAR").performClick()
         waitUntil(timeoutMillis = 5_000) { state.period == StatsPeriod.YEAR }
+        onNodeWithText("Less").performScrollTo().performClick()
+        waitForIdle()
+        for (tag in finer) onNodeWithTag(tag).assertDoesNotExist()
         // The heading alone: no way back to the statistics above it, no line under it.
         onNodeWithText("Statistics").assertDoesNotExist()
         onNodeWithText("Your flashcards in Portuguese.").assertDoesNotExist()

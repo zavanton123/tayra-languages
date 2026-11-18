@@ -39,6 +39,7 @@ internal val esReading: Map<String, String> = mapOf(
     "Vocabulary" to "Vocabulario",
     "Term list for this page" to "Palabras de esta página",
     "More" to "Más",
+    "Less" to "Menos",
     "Show source URL" to "Mostrar URL de origen",
     "Speech" to "Voz",
     "Read-aloud controls" to "Controles de lectura en voz alta",
