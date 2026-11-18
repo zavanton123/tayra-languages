@@ -110,7 +110,6 @@ import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.ButtonTone
 import com.idiomiko.core.ui.components.ConfirmDialog
 import com.idiomiko.core.ui.components.EdgeScrollbar
-import com.idiomiko.core.ui.components.FitText
 import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.components.LearningLanguageSelector
@@ -477,9 +476,9 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             val card = state.card
             if (state.preparingAudio) PreparingAudio(actions.onStartWithoutWaiting, compact = true)
             else if (card == null) Finished(state, actions)
-            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, onChooseExample = { actions.onChooseExample(card) }, autoplay = state.autoplay, onToggleAutoplay = actions.onToggleAutoplay, timer = { AnswerTimer(state) }) { AnswerGiven(state, actions, compact = true) } } }
+            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, onChooseExample = { actions.onChooseExample(card) }, autoplay = state.autoplay, onToggleAutoplay = actions.onToggleAutoplay, timer = { AnswerTimer(state) }, menu = { CardMenu(card, state.pass != null, actions) }) { AnswerGiven(state, actions, compact = true) } } }
         }
-        val card = state.card?.takeIf { !state.preparingAudio } ?: return@Column
+        if (state.card == null || state.preparingAudio) return@Column
         Column(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             // Show answer and the answers share one slot, so the thumb finds them in the same place.
             if (state.revealed) {
@@ -487,7 +486,6 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             } else {
                 RevealButton(state, actions, Modifier.fillMaxWidth().heightIn(min = ANSWER_SLOT_COMPACT))
             }
-            CardFooter(card, state.canUndo, state.pass != null, actions)
         }
     }
 }
@@ -613,7 +611,8 @@ private fun CountPill(tag: String, count: Int, label: String, tint: Color, large
 @Composable
 private fun Card(
     card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onChooseExample: () -> Unit = {},
-    autoplay: Boolean = true, onToggleAutoplay: () -> Unit = {}, timer: @Composable () -> Unit = {}, given: @Composable () -> Unit = {}) {
+    autoplay: Boolean = true, onToggleAutoplay: () -> Unit = {}, timer: @Composable () -> Unit = {}, menu: (@Composable () -> Unit)? = null,
+    given: @Composable () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val inset = if (compact) AppSpacing.xl else AppSpacing.xxxl
@@ -631,7 +630,7 @@ private fun Card(
             // Learning would read as the word's status.
             timer()
             Spacer(Modifier.weight(1f))
-            // Two round buttons in the corner, each named by a tooltip: other examples once answered, and the sentence's sound.
+            // Round buttons in the corner, each named by a tooltip: other examples once answered, the sentence's sound and the card's menu.
             if (revealed && card.sentence != null) {
                 val label = tr("Choose another example")
                 AppTooltip(label) {
@@ -649,6 +648,10 @@ private fun Card(
                 if (speaker != null) Spacer(Modifier.width(AppSpacing.m))
             }
             if (speaker != null) AutoplayButton(autoplay, onToggleAutoplay)
+            if (menu != null) {
+                Spacer(Modifier.width(AppSpacing.m))
+                menu()
+            }
         }
         CardText(card, revealed, compact)
         given()
@@ -1009,42 +1012,6 @@ private fun Answers(actions: FlashcardActions, compact: Boolean, twoButtons: Boo
                 // When the card would come back, so the four answers can be told apart before choosing.
                 waits[rating]?.let { Text(it.short(), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("wait-${rating.label}")) }
             }
-        }
-    }
-}
-
-/** A phone's actions under the card: the short names only, spread over the width. */
-@Composable
-private fun CardFooter(card: CardContent, canUndo: Boolean, inPass: Boolean, actions: FlashcardActions) {
-    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-        FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous"), Modifier.weight(1f), enabled = canUndo, onClick = actions.onUndo)
-        FooterLink(Icons.Default.Edit, tr("Edit"), Modifier.weight(1f), onClick = { actions.onEdit(card.termId) })
-        MoreActions(inPass, actions, Modifier.weight(1f))
-    }
-}
-
-/** Suspend and Delete, a step away from the card so neither is pressed by mistake while reviewing. */
-@Composable
-private fun MoreActions(inPass: Boolean, actions: FlashcardActions, modifier: Modifier = Modifier) {
-    var open by remember { mutableStateOf(false) }
-    Box(modifier) {
-        FooterLink(AppIcons.MoreHoriz, tr("More"), Modifier.fillMaxWidth(), onClick = { open = true })
-        AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            AppMenuItem(text = { Text(tr("Study more")) }, onClick = { open = false; actions.onStudyMore() })
-            AppMenuItem(text = { Text(if (inPass) tr("Skip card") else tr("Skip until tomorrow")) }, onClick = { open = false; actions.onSkip() })
-            AppMenuItem(text = { Text(tr("Suspend card")) }, onClick = { open = false; actions.onSuspend() })
-            AppMenuItem(text = { Text(tr("Delete card"), color = MaterialTheme.colorScheme.error) }, onClick = { open = false; actions.onDelete() })
-        }
-    }
-}
-
-/** One of the phone's actions under the card: the icon over its name, so each name has the whole column. */
-@Composable
-private fun FooterLink(icon: ImageVector, label: String, modifier: Modifier = Modifier, enabled: Boolean = true, onClick: () -> Unit) {
-    QuietButton(onClick = onClick, enabled = enabled, modifier = modifier.then(NoFocus), size = ButtonSize.Compact) {
-        Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-            Icon(icon, contentDescription = null, modifier = Modifier.size(AppSizes.iconMedium))
-            FitText(label, style = MaterialTheme.typography.labelLarge)
         }
     }
 }

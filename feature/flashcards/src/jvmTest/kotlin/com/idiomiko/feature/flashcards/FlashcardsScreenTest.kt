@@ -874,13 +874,17 @@ class FlashcardsScreenTest {
         assertEquals(listOf(bookId), read)
     }
 
-    /** A phone has the page's own header, one title, and the short footer. */
+    /** A phone has the page's own header, one title, and the card's menu beside its speaker, with no row of actions under the card. */
     @Test
     fun aPhoneShowsTheCardUnderItsOwnHeader() = runDesktopComposeUiTest(width = 420, height = 900) {
         show(phone = true)
         assertEquals(1, onAllNodesWithText("Flashcards").fetchSemanticsNodes().size, "the title once, in the header")
         onNodeWithTag("browse-flashcards").assertExists()
-        for (label in listOf("Previous", "Edit", "More")) onNodeWithText(label).assertExists()
+        for (label in listOf("Previous", "Edit", "More")) assertEquals(0, onAllNodesWithText(label).fetchSemanticsNodes().size, label)
+        // In the card's top corner, where the speaker sits beside it when there is one.
+        val card = onNodeWithTag("flashcard").fetchSemanticsNode().boundsInRoot
+        val menu = onNodeWithTag("card-menu").fetchSemanticsNode().boundsInRoot
+        assertTrue(card.right - menu.right < card.width / 8 && menu.top - card.top < card.height / 4, "menu at $menu in the card at $card")
         save("FLASHCARD_PHONE_SCREENSHOT")
         val reveal = onNodeWithText("Show answer").fetchSemanticsNode().boundsInRoot
         onNodeWithText("Show answer").performClick()
@@ -890,6 +894,10 @@ class FlashcardsScreenTest {
         val good = onNodeWithTag("answer-Good").fetchSemanticsNode().boundsInRoot
         assertEquals(reveal.top, good.top, 1f)
         assertEquals(reveal.height, good.height, 1f)
+        onNodeWithTag("card-menu").performClick()
+        onNodeWithText("Edit flashcard").assertExists()
+        onNodeWithText("Delete card").assertExists()
+        save("FLASHCARD_PHONE_MENU_SCREENSHOT")
     }
 
     /** On a short phone the answer opens below the fold; the card scrolls to it, clear of the answer buttons. */
