@@ -641,7 +641,8 @@ private fun Card(
             }
             timer()
             if (modes != null) {
-                Box(Modifier.weight(1f).padding(horizontal = AppSpacing.s), contentAlignment = Alignment.Center) { modes() }
+                // Beside the sound, like the round buttons, and clear of the way back.
+                Box(Modifier.weight(1f).padding(start = AppSpacing.s, end = AppSpacing.s), contentAlignment = Alignment.CenterEnd) { modes() }
             } else {
                 Spacer(Modifier.weight(1f))
             }

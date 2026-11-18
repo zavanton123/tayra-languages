@@ -438,6 +438,8 @@ class FlashcardsScreenTest {
         val row = listOf("previous-card", "answer-mode-SHOW", "answer-mode-TYPE", "answer-mode-SPEAK", "autoplay-toggle", "card-menu")
             .map { onNodeWithTag(it).fetchSemanticsNode().boundsInRoot }
         row.zipWithNext().forEach { (a, b) -> assertTrue(a.right <= b.left, "$a overlaps $b") }
+        // Right beside the sound, not centred between it and the way back.
+        assertTrue(row[4].left - row[3].right <= 16f, "the ways of answering end at ${row[3].right}, the sound starts at ${row[4].left}")
         assertTrue(row.first().left >= card.left && row.last().right <= card.right, "the row in the card at $card")
         assertTrue(row.all { it.bottom < card.top + card.height / 4 }, "in the card's top")
         save("FLASHCARD_NARROW_PHONE_SCREENSHOT")
@@ -453,7 +455,9 @@ class FlashcardsScreenTest {
     fun aPhoneOffersTheWaysOfAnsweringAsIcons() = runDesktopComposeUiTest(width = 420, height = 900) {
         show(phone = true, answerMode = AnswerMode.SPEAK, speech = FakeSpeech(true))
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("answer-mode-SPEAK").assertExists()
+        // On the right, next to the round buttons, with the room to spare on its left.
+        val speak = onNodeWithTag("answer-mode-SPEAK").fetchSemanticsNode().boundsInRoot
+        assertTrue(onNodeWithTag("card-menu").fetchSemanticsNode().boundsInRoot.left - speak.right <= 24f, "the ways of answering end at ${speak.right}")
         save("FLASHCARD_PHONE_SPEAK_SCREENSHOT")
         onNodeWithTag("answer-mode-TYPE").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isNotEmpty() }
