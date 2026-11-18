@@ -24,7 +24,6 @@ internal val zhHome: Map<String, String> = mapOf(
     "Review them to keep your words fresh." to "复习它们，让单词记忆常新。",
     "No cards are due right now." to "现在没有待复习的卡片。",
     "Study activity" to "学习活动",
-    "{1} days studied since {2}" to "自 {2} 起共学习 {1} 天",
     "Less study" to "学习较少",
     "More study" to "学习较多",
     "No words saved yet today." to "今天还没有保存单词。",

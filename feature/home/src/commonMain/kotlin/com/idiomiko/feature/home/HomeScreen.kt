@@ -1,10 +1,5 @@
 package com.idiomiko.feature.home
 
-import com.idiomiko.core.domain.playlists.Playlist
-import com.idiomiko.core.ui.components.inLearnedScript
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowForward
-import com.idiomiko.core.ui.components.QuietButton
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -17,12 +12,17 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.material3.MaterialTheme
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -34,8 +34,8 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.courses.LessonStatus
 import com.idiomiko.core.domain.model.BookListItem
+import com.idiomiko.core.domain.playlists.Playlist
 import com.idiomiko.core.domain.stats.StudyActivity
-import com.idiomiko.core.ui.components.StatTile
 import com.idiomiko.core.ui.components.ActivityHeatmapCard
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
@@ -47,10 +47,14 @@ import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PageColumn
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.ProgressTrack
+import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.SecondaryButton
+import com.idiomiko.core.ui.components.StatTile
+import com.idiomiko.core.ui.components.YearSwitch
 import com.idiomiko.core.ui.components.animatedCount
 import com.idiomiko.core.ui.components.cardSurface
+import com.idiomiko.core.ui.components.inLearnedScript
 import com.idiomiko.core.ui.components.shortDate
 import com.idiomiko.core.ui.i18n.LanguageCase
 import com.idiomiko.core.ui.i18n.formatCount
@@ -65,6 +69,7 @@ import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 import kotlinx.datetime.DateTimeUnit
+import kotlinx.datetime.LocalDate
 import kotlinx.datetime.minus
 import org.koin.compose.viewmodel.koinViewModel
 
@@ -436,19 +441,27 @@ private fun ActionCard(
 /** Each recent day, darker the more was studied: words read, flashcards answered or words saved. */
 @Composable
 private fun StudyActivityCard(activity: StudyActivity, onStats: () -> Unit) {
+    // A calendar year at a time, this one first, back to the year of the first study.
+    var year by rememberSaveable { mutableStateOf(activity.today.year) }
+    val firstYear = activity.days.keys.minOfOrNull { it.year } ?: activity.today.year
+    val range = LocalDate(year, 1, 1)..LocalDate(year, 12, 31)
     ActivityHeatmapCard(
         title = tr("Study activity"),
-        subtitle = { start ->
-            val days = activity.days.keys.count { it in start..activity.today }
-            trPlural(days, "{1} day studied since {2}", "{1} days studied since {2}", formatCount(days), start.shortDate(activity.today))
+        subtitle = {
+            val days = activity.days.keys.count { it.year == year }
+            trPlural(days, "{1} day studied in {2}", "{1} days studied in {2}", formatCount(days), "$year")
         },
         today = activity.today,
-        levels = activity::levels,
+        levels = { activity.levels(range.start, range.endInclusive) },
+        range = range,
         fewer = tr("Less study"),
         more = tr("More study"),
         icon = AppIcons.History,
         // The days in more detail, and the rest of the figures, are on Statistics.
-        action = { QuietButton(tr("Statistics"), onClick = onStats, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward, modifier = Modifier.testTag("home-stats")) },
+        action = {
+            YearSwitch(year, canBack = year > firstYear, canForward = year < activity.today.year) { year = it }
+            QuietButton(tr("Statistics"), onClick = onStats, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward, modifier = Modifier.testTag("home-stats"))
+        },
         describe = { date ->
             val day = activity.days[date]
             listOfNotNull(

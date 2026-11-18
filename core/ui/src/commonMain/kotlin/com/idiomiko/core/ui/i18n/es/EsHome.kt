@@ -24,7 +24,6 @@ internal val esHome: Map<String, String> = mapOf(
     "Review them to keep your words fresh." to "Repásalas para no olvidar tus palabras.",
     "No cards are due right now." to "Ahora no hay tarjetas pendientes.",
     "Study activity" to "Actividad de estudio",
-    "{1} days studied since {2}" to "{1} día de estudio desde {2}|{1} días de estudio desde {2}",
     "Less study" to "Menos estudio",
     "More study" to "Más estudio",
     "No words saved yet today." to "Todavía no has guardado ninguna palabra hoy.",

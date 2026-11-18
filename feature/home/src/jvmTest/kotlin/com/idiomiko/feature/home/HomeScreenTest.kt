@@ -1,10 +1,5 @@
 package com.idiomiko.feature.home
 
-import kotlin.test.assertTrue
-import com.idiomiko.core.domain.playlists.PlaylistTextKind
-import com.idiomiko.core.domain.playlists.PlaylistItem
-import com.idiomiko.core.domain.playlists.Playlist
-import com.idiomiko.core.domain.playlists.ListeningPosition
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -12,15 +7,15 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.test.isRoot
-import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.hasText
-import androidx.compose.ui.test.assertIsDisplayed
+import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
@@ -49,6 +44,10 @@ import com.idiomiko.core.domain.model.Language
 import com.idiomiko.core.domain.model.Term
 import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.domain.model.WordsReadEntry
+import com.idiomiko.core.domain.playlists.ListeningPosition
+import com.idiomiko.core.domain.playlists.Playlist
+import com.idiomiko.core.domain.playlists.PlaylistItem
+import com.idiomiko.core.domain.playlists.PlaylistTextKind
 import com.idiomiko.core.domain.service.StatsService
 import com.idiomiko.core.ui.components.PageColumn
 import com.idiomiko.core.ui.components.ProvideWindowWidth
@@ -59,13 +58,17 @@ import java.sql.DriverManager
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 import kotlin.time.Clock
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Instant
 import kotlinx.coroutines.runBlocking
+import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.atStartOfDayIn
+import kotlinx.datetime.daysUntil
+import kotlinx.datetime.minus
 
 /** The home page: today's words and streak from what the database records, and the ways back into the study. */
 @OptIn(ExperimentalTestApi::class)
@@ -182,10 +185,18 @@ class HomeScreenTest {
         onNodeWithText("O Alquimista").assertExists()
         onNodeWithText("Page 12 of 48").assertExists()
         onNodeWithText("19 cards due today").assertExists()
-        onNodeWithText("4 days studied since", substring = true).assertExists()
+        onNodeWithText("4 days studied in ${activity.today.year}").assertExists()
         onNodeWithTag("heatmap").assertExists()
-        // Pointing at today's square, the last column's Friday, names the day and what it held.
-        onNodeWithTag("heatmap").performMouseInput { moveTo(Offset(width - 2f, height * 4.5f / 7f)) }
+        // Pointing at today's square, in its week of the year, names the day and what it held.
+        val today = activity.today
+        val newYear = LocalDate(today.year, 1, 1)
+        val start = newYear.minus(newYear.dayOfWeek.ordinal, DateTimeUnit.DAY)
+        val columns = start.daysUntil(LocalDate(today.year, 12, 31)) / 7 + 1
+        val offset = start.daysUntil(today)
+        onNodeWithTag("heatmap").performMouseInput {
+            val step = (width + 4f) / columns
+            moveTo(Offset((offset / 7 + 0.5f) * step, (offset % 7 + 0.5f) * step))
+        }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 16 · 2 words saved")).fetchSemanticsNodes().isNotEmpty() }
 
         onNodeWithTag("action-course").performClick()

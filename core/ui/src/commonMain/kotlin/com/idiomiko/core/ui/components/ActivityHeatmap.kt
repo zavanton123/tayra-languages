@@ -17,6 +17,9 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -48,6 +51,7 @@ import com.idiomiko.core.ui.theme.AppBorders
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
+import com.idiomiko.core.ui.theme.AppText
 import kotlinx.coroutines.flow.first
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.LocalDate
@@ -200,6 +204,22 @@ fun ActivityHeatmapCard(
                 Text(more, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
+    }
+}
+
+/** The year shown, between small buttons to the one before and the one after. */
+@Composable
+fun YearSwitch(year: Int, canBack: Boolean, canForward: Boolean, onYear: (Int) -> Unit) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        AppIconButton(
+            Icons.AutoMirrored.Filled.KeyboardArrowLeft, tr("Previous year"), { onYear(year - 1) },
+            enabled = canBack, size = IconButtonSize.Small, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("calendar-previous-year"),
+        )
+        Text("$year", style = AppText.labelStrong, modifier = Modifier.testTag("calendar-year"))
+        AppIconButton(
+            Icons.AutoMirrored.Filled.KeyboardArrowRight, tr("Next year"), { onYear(year + 1) },
+            enabled = canForward, size = IconButtonSize.Small, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("calendar-next-year"),
+        )
     }
 }
 

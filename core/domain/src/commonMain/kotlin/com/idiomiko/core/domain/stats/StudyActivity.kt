@@ -16,12 +16,12 @@ data class StudyActivity(val days: Map<LocalDate, StudyDay>, val today: LocalDat
     val savedToday: Int get() = days[today]?.wordsSaved ?: 0
 
     /**
-     * How busy each day studied from [from] to [today] was, from 1 to 4. Words read, answers and
+     * How busy each day studied from [from] to [to] was, from 1 to 4. Words read, answers and
      * words saved are not alike, so each is measured against its own busiest day in the span and
      * a day takes its busiest kind.
      */
-    fun levels(from: LocalDate): Map<LocalDate, Int> {
-        val span = days.filterKeys { it in from..today }
+    fun levels(from: LocalDate, to: LocalDate = today): Map<LocalDate, Int> {
+        val span = days.filterKeys { it in from..to }
         val read = span.values.maxOfOrNull { it.wordsRead } ?: 0
         val reviews = span.values.maxOfOrNull { it.reviews } ?: 0
         val saved = span.values.maxOfOrNull { it.wordsSaved } ?: 0

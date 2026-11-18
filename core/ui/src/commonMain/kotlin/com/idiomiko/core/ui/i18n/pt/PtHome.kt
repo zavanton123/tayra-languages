@@ -24,7 +24,6 @@ internal val ptHome: Map<String, String> = mapOf(
     "Review them to keep your words fresh." to "Revise-os para manter as palavras frescas na memória.",
     "No cards are due right now." to "Nenhum flashcard para revisar agora.",
     "Study activity" to "Atividade de estudo",
-    "{1} days studied since {2}" to "{1} dia de estudo desde {2}|{1} dias de estudo desde {2}",
     "Less study" to "Menos estudo",
     "More study" to "Mais estudo",
     "No words saved yet today." to "Nenhuma palavra salva hoje ainda.",

@@ -24,7 +24,6 @@ internal val elHome: Map<String, String> = mapOf(
     "Review them to keep your words fresh." to "Επαναλάβετε τις για να μην ξεχνάτε τις λέξεις σας.",
     "No cards are due right now." to "Δεν υπάρχουν κάρτες για επανάληψη αυτή τη στιγμή.",
     "Study activity" to "Δραστηριότητα μελέτης",
-    "{1} days studied since {2}" to "{1} ημέρα μελέτης από {2}|{1} ημέρες μελέτης από {2}",
     "Less study" to "Λιγότερη μελέτη",
     "More study" to "Περισσότερη μελέτη",
     "No words saved yet today." to "Δεν έχουν αποθηκευτεί λέξεις σήμερα ακόμη.",

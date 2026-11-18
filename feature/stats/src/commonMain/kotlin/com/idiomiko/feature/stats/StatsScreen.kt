@@ -22,6 +22,9 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -67,6 +70,7 @@ import com.idiomiko.core.ui.components.StatTile
 import com.idiomiko.core.ui.components.StatusDot
 import com.idiomiko.core.ui.components.TableHeader
 import com.idiomiko.core.ui.components.TableHeaderCell
+import com.idiomiko.core.ui.components.YearSwitch
 import com.idiomiko.core.ui.components.animatedCount
 import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.components.learningLevels
@@ -203,20 +207,21 @@ private fun OverviewTiles(o: LanguageOverview) {
 /** The recent days, darker the more words were read on them. */
 @Composable
 private fun ActivityCard(o: LanguageOverview) {
-    // Only the days shown are compared, so a busy day long ago does not make the recent ones look quiet.
-    fun shown(start: LocalDate) = o.readingDays.filterKeys { it in start..o.today }
+    // A calendar year at a time, this one first, back to the year of the first reading; only its days are
+    // compared, so a busy year long ago does not make this one look quiet.
+    var year by rememberSaveable { mutableStateOf(o.today.year) }
+    val firstYear = o.readingDays.keys.minOfOrNull { it.year } ?: o.today.year
+    val shown = o.readingDays.filterKeys { it.year == year }
     ActivityHeatmapCard(
         title = tr("Reading activity"),
-        subtitle = { start ->
-            val days = shown(start).size
-            trPlural(days, "{1} day with reading since {2}", "{1} days with reading since {2}", formatCount(days), start.shortDate(o.today))
-        },
+        subtitle = { trPlural(shown.size, "{1} day with reading in {2}", "{1} days with reading in {2}", formatCount(shown.size), "$year") },
         today = o.today,
-        levels = { start ->
-            val days = shown(start)
-            val max = days.values.maxOrNull() ?: 0
-            days.mapValues { heatLevel(it.value, max) }
+        levels = {
+            val max = shown.values.maxOrNull() ?: 0
+            shown.mapValues { heatLevel(it.value, max) }
         },
+        range = LocalDate(year, 1, 1)..LocalDate(year, 12, 31),
+        action = { YearSwitch(year, canBack = year > firstYear, canForward = year < o.today.year) { year = it } },
         fewer = tr("Fewer words"),
         more = tr("More words"),
         describe = { date -> o.readingDays[date]?.takeIf { it > 0 }?.let { trPlural(it, "{1} word read", "{1} words read", formatCount(it)) } ?: tr("Nothing read") },

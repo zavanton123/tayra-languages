@@ -24,7 +24,6 @@ internal val ruHome: Map<String, String> = mapOf(
     "Review them to keep your words fresh." to "Повторите их, чтобы слова не забывались.",
     "No cards are due right now." to "Сейчас карточек на повторение нет.",
     "Study activity" to "Активность занятий",
-    "{1} days studied since {2}" to "{1} день занятий с {2}|{1} дня занятий с {2}|{1} дней занятий с {2}",
     "Less study" to "Меньше занятий",
     "More study" to "Больше занятий",
     "No words saved yet today." to "Сегодня ещё не сохранено ни одного слова.",

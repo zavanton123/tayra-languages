@@ -16,8 +16,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
-import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.MaterialTheme
@@ -52,14 +50,11 @@ import com.idiomiko.core.domain.repository.LanguageRepository
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.domain.stats.heatLevel
 import com.idiomiko.core.ui.components.ActivityHeatmapCard
-import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.ColumnTooltips
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.EmptyState
-import com.idiomiko.core.ui.components.IconButtonSize
-import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.components.LoadingIndicator
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
@@ -70,6 +65,7 @@ import com.idiomiko.core.ui.components.Segment
 import com.idiomiko.core.ui.components.SegmentedToggle
 import com.idiomiko.core.ui.components.StatTile
 import com.idiomiko.core.ui.components.StatusDot
+import com.idiomiko.core.ui.components.YearSwitch
 import com.idiomiko.core.ui.components.shortDate
 import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
@@ -317,21 +313,6 @@ private fun CalendarCard(s: FlashcardStatistics) {
     )
 }
 
-/** The year shown, between small buttons to the one before and the one after. */
-@Composable
-private fun YearSwitch(year: Int, canBack: Boolean, canForward: Boolean, onYear: (Int) -> Unit) {
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        AppIconButton(
-            Icons.AutoMirrored.Filled.KeyboardArrowLeft, tr("Previous year"), { onYear(year - 1) },
-            enabled = canBack, size = IconButtonSize.Small, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("calendar-previous-year"),
-        )
-        Text("$year", style = AppText.labelStrong, modifier = Modifier.testTag("calendar-year"))
-        AppIconButton(
-            Icons.AutoMirrored.Filled.KeyboardArrowRight, tr("Next year"), { onYear(year + 1) },
-            enabled = canForward, size = IconButtonSize.Small, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("calendar-next-year"),
-        )
-    }
-}
 
 /** The days of the period in columns of a day or more each, oldest first. */
 private fun FlashcardStatistics.columns(): List<LongRange> {
