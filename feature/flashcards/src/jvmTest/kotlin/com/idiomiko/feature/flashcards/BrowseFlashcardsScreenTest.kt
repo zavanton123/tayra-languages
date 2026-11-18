@@ -17,6 +17,8 @@ import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.hasContentDescription
+import androidx.compose.ui.test.hasScrollToIndexAction
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.longClick
 import androidx.compose.ui.test.onAllNodesWithTag
@@ -27,6 +29,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performFirstLinkClick
 import androidx.compose.ui.test.performKeyInput
+import androidx.compose.ui.test.performScrollToNode
 import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.performTouchInput
@@ -558,14 +561,58 @@ class BrowseFlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { card(comprar).schedule.due != saved }
     }
 
+    /** A phone shows the Anki import and export as buttons, the three figures, no review, and the cards a page at a time. */
+    @Test
+    fun aPhonePagesTheCardsUnderTheAnkiButtons() = runDesktopComposeUiTest(width = 420, height = 900) {
+        val reader = object : AnkiArchiveReader {
+            override val available = true
+            override suspend fun read(bytes: ByteArray) = AnkiArchive(Instant.parse("2026-02-14T04:00:00Z"), emptyList())
+        }
+        val dictionary = object : OfflineDictionary {
+            override suspend fun isAvailable(dictionary: DictionaryId) = false
+            override suspend fun lookup(dictionary: DictionaryId, text: String) = DictionaryLookup(emptyList(), emptyList())
+        }
+        val translator = object : SentenceTranslator {
+            override suspend fun translate(text: String, language: Language): String? = null
+        }
+        val notes = AnkiExportService(terms, languages, dictionary, translator, SentenceAudio(LocalSpeech(emptyList()), settings, MemorySpeechAudioCache()), settings, AnkiPackagerImpl())
+        val viewModel = show(
+            width = 420,
+            importer = AnkiImportService(reader, cards, terms, languages, settings),
+            exporter = AnkiDeckExportService(cards, terms, languages, settings, notes, AnkiPackagerImpl()),
+            before = {
+                runBlocking {
+                    val id = settings.current.currentLanguageId
+                    (1..30).forEach { n -> terms.save(Term(languageId = id, text = "palavra$n", textLc = "palavra$n", status = TermStatus.NEW_1, translation = "слово", sentence = "Uma frase com palavra$n.")) }
+                }
+            },
+        )
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.rows.size == 33 }
+        onNodeWithTag("import-anki").assertIsDisplayed()
+        onNodeWithTag("export-anki").assertIsDisplayed()
+        for (view in listOf("ALL", "DUE", "ADDED_TODAY")) onNodeWithTag("browse-figure-$view").assertIsDisplayed()
+        onNodeWithTag("phone-review").assertDoesNotExist()
+        save("BROWSE_PHONE_ANKI_SCREENSHOT")
+        viewModel.setPageSize(25)
+        waitForIdle()
+        // The list makes only the cards in view, so the page is counted in the state.
+        assertEquals(25, viewModel.state.value.pageRows.size)
+        // The pager comes after the page's cards, at the foot of the list.
+        onAllNodes(hasScrollToIndexAction())[0].performScrollToNode(hasContentDescription("Next page"))
+        onNodeWithContentDescription("Next page").performClick()
+        waitForIdle()
+        assertEquals(8, viewModel.state.value.pageRows.size)
+        // The new page starts at its first card, under the figures and groups.
+        onNodeWithTag("browse-row-${viewModel.state.value.pageRows.first().termId}").assertIsDisplayed()
+    }
+
     @Test
     fun aPhoneOpensTheCardOnAPageOfItsOwn() = runDesktopComposeUiTest(width = 420, height = 900) {
         show(width = 420)
         onNodeWithTag("phone-sort").assertExists()
         save("BROWSE_PHONE_LIST_SCREENSHOT")
-        // The review shows how many are due, beside the sort.
-        onNodeWithText("Review 1 due").assertDoesNotExist()
-        onNodeWithTag("phone-review").assertExists()
+        // The review is in the Flashcards tab's sheet, not here.
+        onNodeWithTag("phone-review").assertDoesNotExist()
         // Select, from the bar's menu, puts checkboxes on the cards; a tap then picks the card instead of opening it.
         onNodeWithTag("phone-menu").performClick()
         onNodeWithTag("phone-select").performClick()

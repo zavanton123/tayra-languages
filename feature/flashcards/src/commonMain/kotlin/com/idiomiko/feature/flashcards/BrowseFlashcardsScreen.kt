@@ -190,7 +190,6 @@ fun BrowseFlashcardsScreen(
         onDelete = { confirmDelete = it.toList() },
         onSetDue = { settingDue = it.toList() },
         onReposition = { ids, first -> viewModel.reposition(ids, first); viewModel.clearSelection() },
-        onReview = { onNavigate(Route.Flashcards) },
         onSaveSentence = viewModel::saveSentence,
         onSaveTranslation = viewModel::saveSentenceTranslation,
         onEditing = viewModel::editingText,
@@ -295,7 +294,6 @@ internal class BrowseActions(
     val onSetDue: (termIds: Collection<Long>) -> Unit = {},
     /** Moves the new cards to the front of the new cards, or to their end. */
     val onReposition: (termIds: Collection<Long>, first: Boolean) -> Unit = { _, _ -> },
-    val onReview: () -> Unit = {},
     /** Replaces the example sentence of the card's term. */
     val onSaveSentence: (termId: Long, sentence: String, translation: String?) -> Unit = { _, _, _ -> },
     /** Writes the translation of the card's sentence by hand; blank has a new one made. */
@@ -383,33 +381,48 @@ internal fun FocusRow(state: BrowseUiState, rows: List<BrowseRow>, list: LazyLis
     }
 }
 
-/** The three figures that matter most, each a way to its group: every card, those due today, those added today. */
+/**
+ * The three figures that matter most, each a way to its group: every card, those due today, those added today.
+ * On a phone ([compact]) each stands its icon over its number, to fit a third of the width.
+ */
 @Composable
-private fun BrowseFigures(state: BrowseUiState, onSelect: (BrowseView) -> Unit) {
-    Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+internal fun BrowseFigures(state: BrowseUiState, onSelect: (BrowseView) -> Unit, compact: Boolean = false) {
+    Row(
+        Modifier.fillMaxWidth().then(if (compact) Modifier else Modifier.padding(bottom = AppSpacing.xl)),
+        horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.s else AppSpacing.l),
+    ) {
         val figure = Modifier.weight(1f)
-        Figure(BrowseView.ALL, tr("Total cards"), AppIcons.Style, AppAccents.blue, state, onSelect, figure)
-        Figure(BrowseView.DUE, tr("Due today"), AppIcons.Schedule, AppAccents.green, state, onSelect, figure)
-        Figure(BrowseView.ADDED_TODAY, tr("Added today"), Icons.Default.Add, AppAccents.purple, state, onSelect, figure)
+        Figure(BrowseView.ALL, tr("Total cards"), AppIcons.Style, AppAccents.blue, state, onSelect, figure, compact)
+        Figure(BrowseView.DUE, tr("Due today"), AppIcons.Schedule, AppAccents.green, state, onSelect, figure, compact)
+        Figure(BrowseView.ADDED_TODAY, tr("Added today"), Icons.Default.Add, AppAccents.purple, state, onSelect, figure, compact)
     }
 }
 
 /** One figure: its number over its name, ringed while its group is the one shown. */
 @Composable
-private fun Figure(view: BrowseView, label: String, icon: ImageVector, tint: Color, state: BrowseUiState, onSelect: (BrowseView) -> Unit, modifier: Modifier) {
+private fun Figure(view: BrowseView, label: String, icon: ImageVector, tint: Color, state: BrowseUiState, onSelect: (BrowseView) -> Unit, modifier: Modifier, compact: Boolean) {
     val shown = state.view == view
     TintedSurface(
         tint,
         modifier.clip(AppShapes.card).then(if (shown) Modifier.border(AppBorders.selected(tint), AppShapes.card) else Modifier)
             .clickable(onClickLabel = label) { onSelect(view) }.testTag("browse-figure-${view.name}"),
         shape = AppShapes.card,
-        padding = PaddingValues(horizontal = AppSpacing.xl, vertical = AppSpacing.l),
+        padding = if (compact) PaddingValues(AppSpacing.m) else PaddingValues(horizontal = AppSpacing.xl, vertical = AppSpacing.l),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            IconTile(icon, size = 48, tint = tint)
-            Column {
-                Text("${animatedCount(state.counts[view])}", style = AppText.headline)
-                Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        val number: @Composable () -> Unit = { Text("${animatedCount(state.counts[view])}", style = AppText.headline, maxLines = 1) }
+        if (compact) {
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+                IconTile(icon, size = 32, tint = tint)
+                number()
+                Text(label, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
+        } else {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                IconTile(icon, size = 48, tint = tint)
+                Column {
+                    number()
+                    Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
             }
         }
     }

@@ -25,6 +25,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -43,12 +44,13 @@ import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.AppVerticalDivider
+import com.idiomiko.core.ui.components.ListPager
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.OverflowMenu
 import com.idiomiko.core.ui.components.PickerSheet
-import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.ScrollList
+import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.SelectButton
 import com.idiomiko.core.ui.components.itemMotion
 import com.idiomiko.core.ui.i18n.tr
@@ -63,9 +65,9 @@ import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 
 /**
- * The browser on a phone: the search, the review and the sort, the groups in a scrolling row, and
- * the cards as cards of their own; selecting and importing are in the bar's menu, and a long press
- * starts selecting too.
+ * The browser on a phone: the search, the Anki import and export, the three figures, the groups in a scrolling row, the count with
+ * the sort, and the cards as cards of their own, a page at a time; selecting is in the bar's menu, and a long press
+ * starts selecting too. The review is in the Flashcards tab's sheet.
  */
 @Composable
 internal fun PhoneBrowseFlashcardsScreen(
@@ -84,15 +86,21 @@ internal fun PhoneBrowseFlashcardsScreen(
             OverflowMenu(tr("More"), buttonModifier = Modifier.testTag("phone-menu")) { close ->
                 AppMenuItem(text = { Text(tr("Select")) }, onClick = { close(); selecting = true }, modifier = Modifier.testTag("phone-select"))
                 AppMenuItem(text = { Text(tr("Statistics")) }, onClick = { close(); actions.onStatistics() }, modifier = Modifier.testTag("browse-statistics"))
-                if (state.canImportAnki) AppMenuItem(text = { Text(tr("Import from Anki")) }, onClick = { close(); actions.onImportAnki() }, modifier = Modifier.testTag("import-anki"))
-                if (state.canExportAnki && state.counts.all > 0) AppMenuItem(text = { Text(tr("Export to Anki")) }, onClick = { close(); actions.onExportAnki() }, modifier = Modifier.testTag("export-anki"))
             }
         }) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         val list = rememberLazyListState()
-        // Search, the review and sort row, groups and the count, with the selection's actions when there is a selection, come before the cards.
-        FocusRow(state, state.rows, list, rowsBefore = if (state.selected.isNotEmpty()) 5 else 4, onShown = viewModel::focusShown)
+        val anki = state.canImportAnki || (state.canExportAnki && state.counts.all > 0)
+        // Search, the Anki buttons, the figures, groups and the count, with the selection's actions when there is a selection, come before the cards.
+        val rowsBefore = 4 + (if (anki) 1 else 0) + (if (state.selected.isNotEmpty()) 1 else 0)
+        FocusRow(state, state.pageRows, list, rowsBefore = rowsBefore, onShown = viewModel::focusShown)
+        // A new page starts at its first card.
+        var shownPage by remember { mutableStateOf(state.page) }
+        LaunchedEffect(state.page) {
+            if (state.page != shownPage && list.firstVisibleItemIndex >= rowsBefore) list.scrollToItem(rowsBefore)
+            shownPage = state.page
+        }
         ScrollList(
             Modifier.padding(padding).fillMaxSize(),
             state = list,
@@ -100,18 +108,13 @@ internal fun PhoneBrowseFlashcardsScreen(
             verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
         ) {
             item { CardSearchField(state.search, viewModel::setSearch, Modifier.fillMaxWidth()) }
-            item {
-                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    val due = state.counts.due
-                    PrimaryButton(
-                        if (due > 0) tr("Review {0} due", due) else tr("Review cards"),
-                        onClick = actions.onReview,
-                        modifier = Modifier.weight(1f).testTag("phone-review"),
-                        icon = AppIcons.Style,
-                    )
-                    SelectButton(state.sort.field.label, onClick = { sorting = true }, modifier = Modifier.testTag("phone-sort"), icon = AppIcons.SwapVert)
+            if (anki) item {
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    if (state.canImportAnki) SecondaryButton(tr("Import from Anki"), onClick = actions.onImportAnki, modifier = Modifier.weight(1f).testTag("import-anki"), icon = AppIcons.UploadFile)
+                    if (state.canExportAnki && state.counts.all > 0) SecondaryButton(tr("Export to Anki"), onClick = actions.onExportAnki, modifier = Modifier.weight(1f).testTag("export-anki"), icon = AppIcons.Download)
                 }
             }
+            item { BrowseFigures(state, viewModel::setView, compact = true) }
             item {
                 // Unbounded on the right, the chips stay on one line and scroll sideways.
                 Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState())) {
@@ -129,15 +132,19 @@ internal fun PhoneBrowseFlashcardsScreen(
                     if (showChecks) QuietButton(onClick = { selecting = false; viewModel.clearSelection() }, modifier = Modifier.testTag("phone-select-done")) {
                         Text(tr("Done"), style = AppText.itemTitle)
                     }
+                    else SelectButton(state.sort.field.label, onClick = { sorting = true }, modifier = Modifier.testTag("phone-sort"), icon = AppIcons.SwapVert)
                 }
             }
             if (state.selected.isNotEmpty()) item { CardSelectionBar(state, viewModel, actions) }
             when {
                 state.loading -> item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = colors.onSurfaceVariant) }
                 state.rows.isEmpty() -> item { EmptyCards(state) }
-                else -> items(state.rows, key = { row -> row.termId }) { row -> Column(itemMotion()) {
-                    PhoneCard(row, state, showCheck = showChecks, actions, onStartSelecting = { selecting = true })
-                }}
+                else -> {
+                    items(state.pageRows, key = { row -> row.termId }) { row -> Column(itemMotion()) {
+                        PhoneCard(row, state, showCheck = showChecks, actions, onStartSelecting = { selecting = true })
+                    }}
+                    item { ListPager(state.page, state.pageSize, state.rows.size, viewModel::setPageSize, viewModel::goToPage, compact = true) }
+                }
             }
         }
     }
