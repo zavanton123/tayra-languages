@@ -192,19 +192,20 @@ fun MoreSheet(onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val language = LocalLearningLanguage.current?.currentName
     AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("more-sheet")) {
-        ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(start = AppSpacing.xl, end = AppSpacing.s, bottom = AppSpacing.l)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
+        // The rows run to the sheet's edges, so a pressed one is lit across its width; the rest keeps the margins.
+        ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(bottom = AppSpacing.l)) {
+            Row(Modifier.padding(start = AppSpacing.xl, end = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
                 Text(tr("More"), Modifier.weight(1f), style = AppText.headline)
                 AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss)
             }
             moreGroups(LocalVideosEnabled.current).forEach { group ->
                 Text(
                     tr(group.title).uppercase(),
-                    Modifier.padding(top = AppSpacing.l, bottom = AppSpacing.xs),
+                    Modifier.padding(start = AppSpacing.xl, end = AppSpacing.xl, top = AppSpacing.l, bottom = AppSpacing.xs),
                     style = AppText.overline.copy(color = colors.onSurfaceVariant),
                 )
                 group.entries.forEachIndexed { i, entry ->
-                    if (i > 0) AppDivider(Modifier.padding(end = AppSpacing.m))
+                    if (i > 0) AppDivider(Modifier.padding(horizontal = AppSpacing.xl))
                     MoreRow(entry, value = language?.let(::tr).takeIf { entry.route == Route.Languages }) { onNavigate(entry.route) }
                 }
             }
@@ -217,8 +218,9 @@ private fun MoreRow(entry: MoreEntry, value: String?, onClick: () -> Unit) {
     NavigationRow(
         tr(entry.label),
         onClick = onClick,
-        modifier = Modifier.padding(end = AppSpacing.m).testTag("more-${entry.label}"),
+        modifier = Modifier.testTag("more-${entry.label}"),
         value = value,
         icon = entry.icon,
+        edgePadding = AppSpacing.xl,
     )
 }

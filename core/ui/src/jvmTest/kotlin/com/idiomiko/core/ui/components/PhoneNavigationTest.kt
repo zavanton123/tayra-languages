@@ -111,6 +111,13 @@ class PhoneNavigationTest {
         onNodeWithText("WATCH").assertDoesNotExist()
         for (gone in listOf("Clear data", "Keyboard shortcuts", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
         onNodeWithTag("more-Statistics").assertExists()
+        // A row is lit across the sheet's whole width.
+        assertEquals(onNodeWithTag("more-sheet").fetchSemanticsNode().boundsInRoot.width, onNodeWithTag("more-Statistics").fetchSemanticsNode().boundsInRoot.width, 1f)
+        onNodeWithTag("more-Downloads").performMouseInput { moveTo(center) }
+        System.getenv("MORE_SHEET_SCREENSHOT")?.let { path ->
+            waitForIdle()
+            javax.imageio.ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", java.io.File(path))
+        }
         // In the Flashcards sheet instead.
         onNodeWithTag("more-Browse flashcards").assertDoesNotExist()
         onNodeWithTag("more-Vocabulary").performClick()
