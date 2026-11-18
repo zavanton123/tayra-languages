@@ -61,15 +61,23 @@ val LocalVideosEnabled = compositionLocalOf { false }
 /** [label] is English, shown through `tr`. */
 private data class MenuEntry(val label: String, val route: Route)
 
-/** [direct] groups have one destination, opened by the tab itself with no menu. */
-private data class MenuGroup(val section: NavSection, val entries: List<MenuEntry>, val direct: Boolean = false)
+/**
+ * [direct] groups have one destination, opened by the tab itself with no menu. [label] names the tab (English, shown
+ * through `tr`), and [covers] are the areas whose screens light it up.
+ */
+private data class MenuGroup(
+    val section: NavSection,
+    val entries: List<MenuEntry>,
+    val direct: Boolean = false,
+    val label: String = section.label,
+    val covers: Set<NavSection> = setOf(section),
+)
 
 private fun menuGroups(videos: Boolean, account: Boolean = true) = listOfNotNull(
     MenuGroup(NavSection.HOME, listOf(MenuEntry("Home", Route.Home)), direct = true),
-    MenuGroup(NavSection.COURSES, listOf(MenuEntry("Courses", Route.Courses)), direct = true),
-    MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Books), MenuEntry("Find free books", Route.FindBooks), MenuEntry("Book archive", Route.ArchivedBooks))),
+    // Everything to read in one menu: the courses, the books and the news.
+    MenuGroup(NavSection.BOOKS, readPages.map { MenuEntry(it.label, it.route) }, label = "Read", covers = readSections),
     MenuGroup(NavSection.VIDEOS, listOf(MenuEntry("All videos", Route.Videos), MenuEntry("Add video", Route.NewVideo))).takeIf { videos },
-    MenuGroup(NavSection.NEWS, listOf(MenuEntry("News", Route.News)), direct = true),
     MenuGroup(NavSection.PLAYLISTS, listOf(MenuEntry("Playlists", Route.Playlists)), direct = true),
     // Their settings are under Settings, with the others.
     MenuGroup(NavSection.FLASHCARDS, listOf(MenuEntry("Review flashcards", Route.Flashcards), MenuEntry("Browse flashcards", Route.BrowseFlashcards()), MenuEntry("Flashcard statistics", Route.FlashcardStats))),
@@ -100,8 +108,8 @@ private fun menuGroups(videos: Boolean, account: Boolean = true) = listOfNotNull
 const val APP_NAME = "Idiomiko"
 
 /**
- * The application bar with the choice of the language being learned and the main menu (Home, Courses,
- * Books, Videos, News, Playlists, Flashcards, Vocabulary, Settings), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
+ * The application bar with the choice of the language being learned and the main menu (Home, Read with the
+ * courses, books and news, Videos, Playlists, Flashcards, Vocabulary, Settings), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
  *
  * Wide windows always show the logo with the app's name, which leads to the home screen. [title] names the
  * screen only in the compact bar on phones, so screens show their own heading on wide windows
@@ -231,8 +239,8 @@ private fun GroupTab(group: MenuGroup, section: NavSection?, onNavigate: (Route)
     Box {
         val due = LocalFlashcardsDue.current
         NavTab(
-            tr(group.section.label),
-            active = section == group.section,
+            tr(group.label),
+            active = section in group.covers,
             badge = due.takeIf { group.section == NavSection.FLASHCARDS && it > 0 },
             onClick = { if (group.direct) onNavigate(group.entries.single().route) else open = true },
         )
@@ -249,15 +257,15 @@ private fun GroupTab(group: MenuGroup, section: NavSection?, onNavigate: (Route)
 private fun OverflowTab(hidden: List<MenuGroup>, section: NavSection?, onNavigate: (Route) -> Unit) {
     var open by remember { mutableStateOf(false) }
     Box {
-        NavTab(tr("More"), active = hidden.any { it.section == section }, badge = null, onClick = { open = true })
+        NavTab(tr("More"), active = hidden.any { section in it.covers }, badge = null, onClick = { open = true })
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             hidden.forEachIndexed { i, group ->
                 if (i > 0) AppDivider()
                 if (group.direct) {
-                    AppMenuItem(text = { Text(tr(group.section.label)) }, onClick = { open = false; onNavigate(group.entries.single().route) })
+                    AppMenuItem(text = { Text(tr(group.label)) }, onClick = { open = false; onNavigate(group.entries.single().route) })
                 } else {
                     Text(
-                        tr(group.section.label),
+                        tr(group.label),
                         style = AppText.label,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         modifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.xs),

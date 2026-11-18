@@ -23,6 +23,10 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -34,22 +38,56 @@ import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 
+/** What there is to read, the same on the wide bar's Read menu and the phone's Read sheet; [MoreEntry.label] is English. */
+internal val readPages = listOf(
+    MoreEntry("Courses", AppIcons.School, Route.Courses),
+    MoreEntry("Books", AppIcons.MenuBook, Route.Books),
+    MoreEntry("Find free books", AppIcons.Book, Route.FindBooks),
+    MoreEntry("Book archive", AppIcons.Archive, Route.ArchivedBooks),
+    MoreEntry("News", AppIcons.Newspaper, Route.News),
+)
+
+/** The areas whose screens belong to Read. */
+internal val readSections = setOf(NavSection.COURSES, NavSection.BOOKS, NavSection.NEWS)
+
 /**
- * The phone's bottom bar: the main areas as tabs, with the flashcards due on theirs, and More for
- * everything else. [section] is the area of the current screen; More holds the news, playlists, vocabulary and settings areas.
+ * The phone's bottom bar: the main areas as tabs, with the flashcards due on theirs, Read opening a sheet of
+ * what there is to read, and More for everything else. [section] is the area of the current screen.
  */
 @Composable
 fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val due = LocalFlashcardsDue.current
-    // The videos, the news, the playlists and the vocabulary pages are reached through More.
-    val area = if (section == NavSection.TERMS || section == NavSection.NEWS || section == NavSection.PLAYLISTS || section == NavSection.VIDEOS || section == NavSection.ACCOUNT) NavSection.SETTINGS else section
+    var reading by remember { mutableStateOf(false) }
+    // The videos, the playlists and the vocabulary pages are reached through More.
+    val area = when (section) {
+        in readSections -> NavSection.BOOKS
+        NavSection.TERMS, NavSection.PLAYLISTS, NavSection.VIDEOS, NavSection.ACCOUNT -> NavSection.SETTINGS
+        else -> section
+    }
     NavigationBar(containerColor = colors.surface, modifier = Modifier.testTag("phone-nav")) {
         PhoneTab(NavSection.HOME, Icons.Default.Home, area) { onNavigate(Route.Home) }
-        PhoneTab(NavSection.COURSES, AppIcons.School, area) { onNavigate(Route.Courses) }
-        PhoneTab(NavSection.BOOKS, AppIcons.MenuBook, area) { onNavigate(Route.Books) }
+        PhoneTab(NavSection.BOOKS, AppIcons.MenuBook, area, label = tr("Read"), tag = "READ") { reading = true }
         PhoneTab(NavSection.FLASHCARDS, AppIcons.Style, area, badge = due) { onNavigate(Route.Flashcards) }
         PhoneTab(NavSection.SETTINGS, AppIcons.MoreHoriz, area, label = tr("More"), onClick = onMore)
+    }
+    if (reading) ReadSheet(onNavigate = { reading = false; onNavigate(it) }, onDismiss = { reading = false })
+}
+
+/** The phone's Read sheet: the courses, the books and the news, as the wide bar's Read menu has them. */
+@Composable
+fun ReadSheet(onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
+    AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("read-sheet")) {
+        ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(start = AppSpacing.xl, end = AppSpacing.s, bottom = AppSpacing.l)) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(tr("Read"), Modifier.weight(1f), style = AppText.headline)
+                AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss)
+            }
+            readPages.forEachIndexed { i, entry ->
+                if (i > 0) AppDivider(Modifier.padding(end = AppSpacing.m))
+                NavigationRow(tr(entry.label), onClick = { onNavigate(entry.route) }, modifier = Modifier.padding(end = AppSpacing.m).testTag("read-${entry.label}"), icon = entry.icon)
+            }
+        }
     }
 }
 
@@ -60,6 +98,7 @@ private fun RowScope.PhoneTab(
     section: NavSection?,
     badge: Int = 0,
     label: String = tr(tab.label),
+    tag: String = tab.name,
     onClick: () -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
@@ -74,28 +113,27 @@ private fun RowScope.PhoneTab(
         },
         label = { FitText(label) },
         colors = NavigationBarItemDefaults.colors(selectedIconColor = colors.primary, selectedTextColor = colors.primary, indicatorColor = colors.primary.copy(alpha = AppAlpha.soft)),
-        modifier = Modifier.testTag("phone-nav-${tab.name}"),
+        modifier = Modifier.testTag("phone-nav-$tag"),
     )
 }
 
 /** What a More row leads to; [label] is English, shown through `tr`. */
-private class MoreEntry(val label: String, val icon: ImageVector, val route: Route)
+internal class MoreEntry(val label: String, val icon: ImageVector, val route: Route)
 
 private class MoreGroup(val title: String, val entries: List<MoreEntry>)
 
 /**
- * The More sheet's destinations, in four groups: reading and listening, the words and how they go,
+ * The More sheet's destinations, in groups: listening and watching, the words and how they go,
  * what is downloaded for use offline, and the preferences and data. The settings pages of a single
  * feature and clearing the data are found from Settings, which indexes them.
  */
 private fun moreGroups(videos: Boolean) = listOf(
+    // What there is to read is under Read.
     MoreGroup(
-        "Read and listen",
+        "Listen and watch",
         listOfNotNull(
-            MoreEntry("Videos", AppIcons.Movie, Route.Videos).takeIf { videos },
-            MoreEntry("News", AppIcons.Newspaper, Route.News),
             MoreEntry("Playlists", AppIcons.QueueMusic, Route.Playlists),
-            MoreEntry("Find books", AppIcons.Book, Route.FindBooks),
+            MoreEntry("Videos", AppIcons.Movie, Route.Videos).takeIf { videos },
         ),
     ),
     MoreGroup(

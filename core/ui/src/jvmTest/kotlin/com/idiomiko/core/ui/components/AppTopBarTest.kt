@@ -49,6 +49,23 @@ class AppTopBarTest {
         for (list in lists) assertEquals(0f, list.config[SemanticsProperties.VerticalScrollAxisRange].maxValue(), "nothing is left to scroll to")
     }
 
+    /** The courses, the books and the news share the Read menu, which has no Courses or News tab beside it. */
+    @OptIn(ExperimentalTestApi::class)
+    @Test
+    fun theReadMenuHoldsTheCoursesTheBooksAndTheNews() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        val visited = mutableListOf<Route>()
+        setContent { MaterialTheme { AppTopBar(title = "Courses", onNavigate = { visited += it }, section = NavSection.COURSES) } }
+        for (gone in listOf("Courses", "Books", "News", "All books")) onNodeWithText(gone).assertDoesNotExist()
+        val pages = listOf("Courses" to Route.Courses, "Books" to Route.Books, "Find free books" to Route.FindBooks, "Book archive" to Route.ArchivedBooks, "News" to Route.News)
+        for ((label, _) in pages) {
+            onNodeWithText("Read").performClick()
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithText(label).fetchSemanticsNodes().isNotEmpty() }
+            onNodeWithText(label).performClick()
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithText(label).fetchSemanticsNodes().isEmpty() }
+        }
+        assertEquals(pages.map { it.second }, visited)
+    }
+
     /** The Downloads page is in the Settings menu, not a tab of its own. */
     @OptIn(ExperimentalTestApi::class)
     @Test
@@ -107,7 +124,7 @@ class AppTopBarTest {
     /** In a narrower window the tabs that do not fit fold into More, whose menu still reaches their pages. */
     @OptIn(ExperimentalTestApi::class)
     @Test
-    fun tabsThatDoNotFitFoldIntoMore() = runDesktopComposeUiTest(width = 1100, height = 900) {
+    fun tabsThatDoNotFitFoldIntoMore() = runDesktopComposeUiTest(width = 880, height = 900) {
         val visited = mutableListOf<Route>()
         val state = LearningLanguageState(listOf(1L to "Portuguese"), 1L, knownWords = 1369) {}
         setContent { MaterialTheme { CompositionLocalProvider(LocalLearningLanguage provides state) { AppTopBar(title = "Books", onNavigate = { visited += it }, section = NavSection.SETTINGS) } } }

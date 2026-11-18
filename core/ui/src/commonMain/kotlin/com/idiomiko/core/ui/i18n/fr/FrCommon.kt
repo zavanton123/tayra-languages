@@ -11,7 +11,7 @@ internal val frCommon: Map<String, String> = mapOf(
     // PhoneNavigation.kt
     "Preferences" to "Préférences",
     "Data" to "Données",
-    "Read and listen" to "Lire et écouter",
+    "Listen and watch" to "Écouter et regarder",
     "Words and progress" to "Mots et progrès",
     "Preferences and data" to "Préférences et données",
     // Language names, shown through tr(name).

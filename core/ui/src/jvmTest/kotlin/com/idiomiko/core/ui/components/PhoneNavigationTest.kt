@@ -5,10 +5,14 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertIsSelected
+import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onLast
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
@@ -31,14 +35,31 @@ class PhoneNavigationTest {
                 }
             }
         }
-        onNodeWithTag("phone-nav-BOOKS").assertIsSelected()
+        onNodeWithTag("phone-nav-READ").assertIsSelected()
         onNodeWithText("19", useUnmergedTree = true).assertExists()
         onNodeWithTag("phone-nav-HOME").performClick()
-        onNodeWithTag("phone-nav-COURSES").performClick()
-        assertEquals(listOf(Route.Home, Route.Courses), visited)
-        assertEquals(0, onAllNodesWithTag("phone-nav-TERMS").fetchSemanticsNodes().size)
+        assertEquals(listOf<Route>(Route.Home), visited)
+        for (gone in listOf("COURSES", "BOOKS", "TERMS")) assertEquals(0, onAllNodesWithTag("phone-nav-$gone").fetchSemanticsNodes().size, gone)
         onNodeWithTag("phone-nav-SETTINGS").performClick()
         assertEquals(1, more)
+    }
+
+    /** Read opens a sheet with the courses, the books and the news, as the wide bar's Read menu. */
+    @Test
+    fun readOpensTheSheetOfWhatThereIsToRead() = runDesktopComposeUiTest(width = 400, height = 900) {
+        val visited = mutableListOf<Route>()
+        setContent { MaterialTheme { PhoneNavBar(section = NavSection.NEWS, onNavigate = { visited += it }, onMore = {}) } }
+        onNodeWithTag("phone-nav-READ").assertIsSelected()
+        onNodeWithTag("phone-nav-READ").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("read-sheet").fetchSemanticsNodes().isNotEmpty() }
+        for (page in listOf("Courses", "Books", "Find free books", "Book archive", "News")) onNodeWithTag("read-$page").assertExists()
+        System.getenv("READ_SHEET_SCREENSHOT")?.let { path ->
+            waitForIdle()
+            javax.imageio.ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", java.io.File(path))
+        }
+        onNodeWithTag("read-Book archive").performClick()
+        assertEquals(listOf<Route>(Route.ArchivedBooks), visited)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("read-sheet").fetchSemanticsNodes().isEmpty() }
     }
 
     @Test
@@ -61,7 +82,9 @@ class PhoneNavigationTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Croatian").assertExists()
         // The plan's four groups; clearing the data and the settings of single features are found from Settings.
-        for (group in listOf("READ AND LISTEN", "WORDS AND PROGRESS", "OFFLINE RESOURCES", "PREFERENCES AND DATA")) onNodeWithText(group).assertExists()
+        for (group in listOf("LISTEN AND WATCH", "WORDS AND PROGRESS", "OFFLINE RESOURCES", "PREFERENCES AND DATA")) onNodeWithText(group).assertExists()
+        // Under Read instead.
+        for (page in listOf("more-News", "more-Find books")) onNodeWithTag(page).assertDoesNotExist()
         for (gone in listOf("Clear data", "Keyboard shortcuts", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
         onNodeWithTag("more-Statistics").assertExists()
         // The Flashcards tab opens the review, so the cards are browsed from here.
@@ -79,7 +102,7 @@ class PhoneNavigationTest {
                 CompositionLocalProvider(LocalVideosEnabled provides videos) { MoreSheet(onNavigate = {}, onDismiss = {}) }
             }
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-News").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-Playlists").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, onAllNodesWithTag("more-Videos").fetchSemanticsNodes().size)
         // Tests run from the sources, which count as a debug build.
         onNodeWithTag("more-Experimental features").assertExists()

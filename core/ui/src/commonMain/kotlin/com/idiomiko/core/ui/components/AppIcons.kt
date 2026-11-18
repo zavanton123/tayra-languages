@@ -56,6 +56,11 @@ object AppIcons {
 
     val ViewList: ImageVector by lazy { icon("ViewList", "M3 14h4v-4H3v4zm0 5h4v-4H3v4zM3 9h4V5H3v4zm5 5h13v-4H8v4zm0 5h13v-4H8v4zM8 5v4h13V5H8z") }
 
+    /** Material "archive": a box with an arrow into it, for the book archive. */
+    val Archive: ImageVector by lazy {
+        icon("Archive", "M20.54 5.23l-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-.47 0-.88.21-1.16.55L3.46 5.23C3.17 5.57 3 6.02 3 6.5V19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6.5c0-.48-.17-.93-.46-1.27zM12 17.5L6.5 12H10v-2h4v2h3.5L12 17.5zM5.12 5l.81-1h12l.94 1H5.12z")
+    }
+
     /** A graduation cap, for the courses. */
     val School: ImageVector by lazy { icon("School", "M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z") }
 
