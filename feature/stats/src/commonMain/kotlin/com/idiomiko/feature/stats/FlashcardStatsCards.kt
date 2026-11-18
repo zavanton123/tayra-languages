@@ -56,13 +56,16 @@ internal fun FlashcardStatsDetails(s: FlashcardStatistics) {
     SideBySide(wide, { IntervalsCard(s, it) }, { StabilityCard(s, it) })
     SideBySide(wide, { DifficultyCard(s, it) }, { RecallCard(s, it) })
     HoursCard(s)
-    SideBySide(wide, { ButtonsCard(s, it) }, { AnsweredByCard(s, it) })
 }
 
-/** How well the reviews went against the target, and how many words would be recalled now: under the card counts. */
+/**
+ * How well the reviews went against the target and how many words would be recalled now, then how the answers
+ * were given: under the card counts.
+ */
 @Composable
-internal fun RetentionAndKnowledge(s: FlashcardStatistics, wide: Boolean) {
+internal fun RetentionAndAnswers(s: FlashcardStatistics, wide: Boolean) {
     SideBySide(wide, { RetentionCard(s, it) }, { KnowledgeCard(s, it) })
+    SideBySide(wide, { ButtonsCard(s, it) }, { AnsweredByCard(s, it) })
 }
 
 /** Day spans, as Anki's interval graphs group them. */
