@@ -64,6 +64,8 @@ class PhoneNavigationTest {
         for (group in listOf("READ AND LISTEN", "WORDS AND PROGRESS", "OFFLINE RESOURCES", "PREFERENCES AND DATA")) onNodeWithText(group).assertExists()
         for (gone in listOf("Clear data", "Keyboard shortcuts", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
         onNodeWithTag("more-Statistics").assertExists()
+        // The Flashcards tab opens the review, so the cards are browsed from here.
+        onNodeWithTag("more-Browse flashcards").assertExists()
         onNodeWithTag("more-Vocabulary").performClick()
         assertEquals(listOf<Route>(Route.Terms()), visited)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isEmpty() }

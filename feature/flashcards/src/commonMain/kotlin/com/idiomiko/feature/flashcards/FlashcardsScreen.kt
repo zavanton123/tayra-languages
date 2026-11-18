@@ -204,7 +204,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 }
             } else {
                 // Wide windows offer the browser from the page heading instead.
-                AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS, actions = { if (compact) BrowseAction { onNavigate(Route.BrowseFlashcards()) } })
+                AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS)
             }
         },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -423,7 +423,7 @@ internal fun FlashcardsContent(
                         tr("Flashcards"),
                         subtitle = null,
                     ) {
-                        // Browsing is in the bar's Flashcards menu and on its key (B); the phone's bar has its own button.
+                        // Browsing is in the bar's Flashcards menu, on its key (B), and in a phone's More.
                         AnswerModeToggle(state.answerMode, actions.onAnswerMode, NoFocus, modes = state.modes)
                     }
                     Progress(state, compact, onEndPass = actions.onEndPass)
@@ -474,7 +474,6 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
                 contentModifier = Modifier.padding(AppSpacing.l),
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) {
-                // The phone's bar carries the Browse button.
                 ScreenHeader(
                     tr("Flashcards"),
                     subtitle = null,
@@ -502,12 +501,6 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             }
         }
     }
-}
-
-/** The phone bar's way to every card. */
-@Composable
-internal fun BrowseAction(onBrowse: () -> Unit) {
-    AppIconButton(AppIcons.ViewList, contentDescription = tr("Browse flashcards"), onClick = onBrowse, modifier = Modifier.testTag("browse-flashcards"), size = IconButtonSize.Large)
 }
 
 /** How far through today's cards the session is, with the new, learning and review cards still waiting, as under Anki's cards. */

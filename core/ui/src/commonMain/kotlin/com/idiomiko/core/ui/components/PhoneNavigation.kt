@@ -102,6 +102,8 @@ private fun moreGroups(videos: Boolean) = listOf(
         "Words and progress",
         listOf(
             MoreEntry("Vocabulary", AppIcons.ViewList, Route.Terms()),
+            // The Flashcards tab opens the review; the cards themselves are browsed from here.
+            MoreEntry("Browse flashcards", AppIcons.Style, Route.BrowseFlashcards()),
             MoreEntry("Word frequency", AppIcons.BarChart, Route.WordFrequency),
             MoreEntry("Statistics", AppIcons.PieChart, Route.Stats),
         ),

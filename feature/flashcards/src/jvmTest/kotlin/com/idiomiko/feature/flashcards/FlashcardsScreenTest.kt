@@ -158,7 +158,7 @@ class FlashcardsScreenTest {
                         if (studyingMore) StudyMoreDialog(viewModel, onAddNew = viewModel::addNewToday, onStart = viewModel::startPass, onDismiss = { studyingMore = false })
                         Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                             Column {
-                                AppTopBar(title = "Flashcards", onNavigate = {}, section = NavSection.FLASHCARDS, actions = { if (phone) BrowseAction {} })
+                                AppTopBar(title = "Flashcards", onNavigate = {}, section = NavSection.FLASHCARDS)
                                 FlashcardsContent(
                                     state,
                                     speaker = if (withSpeaker) rememberSpeaker(LocalSpeech(emptyList()), settings) else null,
@@ -881,7 +881,7 @@ class FlashcardsScreenTest {
     fun aPhoneShowsTheCardUnderItsOwnHeader() = runDesktopComposeUiTest(width = 420, height = 900) {
         show(phone = true)
         assertEquals(1, onAllNodesWithText("Flashcards").fetchSemanticsNodes().size, "the title once, in the header")
-        onNodeWithTag("browse-flashcards").assertExists()
+        onNodeWithTag("browse-flashcards").assertDoesNotExist()
         for (label in listOf("Previous", "Edit", "More")) assertEquals(0, onAllNodesWithText(label).fetchSemanticsNodes().size, label)
         // In the card's top corner, where the speaker sits beside it when there is one.
         val card = onNodeWithTag("flashcard").fetchSemanticsNode().boundsInRoot
