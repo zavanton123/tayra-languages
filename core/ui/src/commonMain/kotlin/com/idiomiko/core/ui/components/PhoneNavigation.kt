@@ -95,20 +95,21 @@ fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () ->
 @Composable
 private fun PagesSheet(title: String, pages: List<MoreEntry>, tag: String, onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
     AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("$tag-sheet")) {
-        ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(start = AppSpacing.xl, end = AppSpacing.s, bottom = AppSpacing.l)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
+        ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(bottom = AppSpacing.l)) {
+            Row(Modifier.padding(start = AppSpacing.xl, end = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
                 Text(title, Modifier.weight(1f), style = AppText.headline)
                 AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss)
             }
             pages.forEachIndexed { i, entry ->
-                if (i > 0) AppDivider(Modifier.padding(end = AppSpacing.m))
-                // Taller rows than More's: few of them, each an easy target for the thumb.
+                if (i > 0) AppDivider(Modifier.padding(horizontal = AppSpacing.xl))
+                // Taller rows than More's: few of them, each an easy target for the thumb, lit across the sheet's width when pressed.
                 NavigationRow(
                     tr(entry.label),
                     onClick = { onNavigate(entry.route) },
-                    modifier = Modifier.padding(end = AppSpacing.m).testTag("$tag-${entry.label}"),
+                    modifier = Modifier.testTag("$tag-${entry.label}"),
                     icon = entry.icon,
                     verticalPadding = AppSpacing.xxl,
+                    edgePadding = AppSpacing.xl,
                 )
             }
         }

@@ -21,6 +21,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -125,7 +126,8 @@ fun CheckSetting(
 
 /**
  * A row that opens something: an optional [icon], its name, an optional [value] and a chevron.
- * [tint] colours the name and icon, for a link (primary) or a destructive action (error); [verticalPadding] sets its height.
+ * [tint] colours the name and icon, for a link (primary) or a destructive action (error); [verticalPadding] sets its
+ * height, and [edgePadding] insets its content inside a row that spans the whole width.
  */
 @Composable
 fun NavigationRow(
@@ -137,10 +139,13 @@ fun NavigationRow(
     icon: ImageVector? = null,
     tint: Color? = null,
     verticalPadding: Dp = AppSpacing.m,
+    edgePadding: Dp? = null,
 ) {
     val colors = MaterialTheme.colorScheme
+    // With [edgePadding] the row runs to the edges of what holds it, its pressed highlight square across the whole width.
     Row(
-        modifier.fillMaxWidth().clip(AppShapes.compact).clickable(onClick = onClick).padding(vertical = verticalPadding),
+        modifier.fillMaxWidth().clip(if (edgePadding != null) RectangleShape else AppShapes.compact).clickable(onClick = onClick)
+            .padding(vertical = verticalPadding).then(if (edgePadding != null) Modifier.padding(horizontal = edgePadding) else Modifier),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {

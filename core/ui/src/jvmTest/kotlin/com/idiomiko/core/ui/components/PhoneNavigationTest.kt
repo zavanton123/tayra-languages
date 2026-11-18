@@ -16,6 +16,7 @@ import androidx.compose.ui.test.onLast
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.idiomiko.core.ui.navigation.Route
 import kotlin.test.Test
@@ -71,6 +72,10 @@ class PhoneNavigationTest {
         onNodeWithTag("phone-nav-FLASHCARDS").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcards-sheet").fetchSemanticsNodes().isNotEmpty() }
         for (page in listOf("Review flashcards", "Browse flashcards", "Flashcard statistics")) onNodeWithTag("flashcards-$page").assertExists()
+        // A row is lit across the sheet's whole width.
+        val row = onNodeWithTag("flashcards-Review flashcards").fetchSemanticsNode().boundsInRoot
+        assertEquals(onNodeWithTag("flashcards-sheet").fetchSemanticsNode().boundsInRoot.width, row.width, 1f)
+        onNodeWithTag("flashcards-Review flashcards").performMouseInput { moveTo(center) }
         System.getenv("FLASHCARDS_SHEET_SCREENSHOT")?.let { path ->
             waitForIdle()
             javax.imageio.ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", java.io.File(path))
