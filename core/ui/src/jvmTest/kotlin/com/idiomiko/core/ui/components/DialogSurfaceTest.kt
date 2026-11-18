@@ -40,4 +40,19 @@ class DialogSurfaceTest {
         assertEquals(margin, window.width - content.right, 1f)
         assertEquals(margin, window.height - content.bottom, 1f)
     }
+
+    /** A dialog that fills the window starts below the title bar too, so its back arrow is clear of the window's buttons. */
+    @Test
+    fun aScreenDialogStartsBelowTheTitleBar() = runDesktopComposeUiTest(width = 400, height = 800) {
+        setContent {
+            IdiomikoTheme {
+                CompositionLocalProvider(LocalTitleBarInset provides 28.dp) {
+                    AppScreenDialog(onDismissRequest = {}) { Box(Modifier.fillMaxSize().testTag("screen-dialog-content")) }
+                }
+            }
+        }
+        val content = onNodeWithTag("screen-dialog-content").fetchSemanticsNode().boundsInRoot
+        assertEquals(with(density) { 28.dp.toPx() }, content.top, 1f)
+        assertEquals(0f, content.left, 1f)
+    }
 }

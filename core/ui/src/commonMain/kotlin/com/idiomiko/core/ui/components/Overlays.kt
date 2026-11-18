@@ -102,12 +102,16 @@ fun DialogCard(
     Surface(modifier.padding(LocalTitleBarInset.current + AppSpacing.l).widthIn(max = maxWidth).fillMaxWidth(), shape = AppShapes.large, color = color, content = content)
 }
 
-/** A dialog that fills the screen, as a page of its own over the one under it: a phone's settings. */
+/**
+ * A dialog that fills the screen, as a page of its own over the one under it: a phone's settings. Its content
+ * keeps clear of the system bars, and of a title bar the window's content runs under (a narrow macOS window).
+ */
 @Composable
 fun AppScreenDialog(onDismissRequest: () -> Unit, modifier: Modifier = Modifier, content: @Composable () -> Unit) {
+    val titleBar = LocalTitleBarInset.current
     Dialog(onDismissRequest = onDismissRequest, properties = DialogProperties(usePlatformDefaultWidth = false)) {
         Surface(modifier.fillMaxSize(), color = MaterialTheme.colorScheme.surface) {
-            Box(Modifier.windowInsetsPadding(WindowInsets.safeDrawing)) { content() }
+            Box(Modifier.padding(top = titleBar).windowInsetsPadding(WindowInsets.safeDrawing)) { content() }
         }
     }
 }
