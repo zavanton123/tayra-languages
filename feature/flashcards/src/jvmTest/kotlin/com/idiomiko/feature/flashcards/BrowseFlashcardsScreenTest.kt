@@ -193,7 +193,7 @@ class BrowseFlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { rows() == 3 }
     }
 
-    /** An Anki package's cards come in from the button beside Review cards, and the import says what it did. */
+    /** An Anki package's cards come in from the page's Import button, and the import says what it did. */
     @Test
     fun ankiCardsComeInAndTheImportSaysWhatItDid() = runDesktopComposeUiTest(width = 1500, height = 900) {
         val card = AnkiArchiveCard("Idiomiko::Portuguese", 2, 2, 400, null, 30, 3, 0, 0, 40.5, 5.25, null, emptyList())
@@ -310,11 +310,14 @@ class BrowseFlashcardsScreenTest {
         assertFalse(wentBack)
     }
 
+    /** A wide browser leaves the review and the statistics to the bar's Flashcards menu. */
     @Test
-    fun theStatisticsAreAClickAway() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun aWideBrowserHasNoReviewOrStatisticsButtons() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
-        onNodeWithTag("browse-statistics").performClick()
-        assertEquals(listOf<Route>(Route.FlashcardStats), visited)
+        onNodeWithTag("browse-statistics").assertDoesNotExist()
+        onNodeWithText("Statistics").assertDoesNotExist()
+        onNodeWithText("Review 1 due").assertDoesNotExist()
+        onNodeWithText("Review cards").assertDoesNotExist()
     }
 
     @Test

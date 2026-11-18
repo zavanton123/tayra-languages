@@ -339,12 +339,10 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
                     subtitle = if (state.languageName.isEmpty()) tr("Every card of the words you are learning, with where each stands.")
                     else tr("Every card of the {0} words you are learning, with where each stands.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
                 ) {
+                    // The review and the statistics are in the bar's Flashcards menu.
                     Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                        SecondaryButton(tr("Statistics"), onClick = actions.onStatistics, modifier = Modifier.testTag("browse-statistics"), icon = AppIcons.BarChart)
                         if (state.canImportAnki) SecondaryButton(tr("Import from Anki"), onClick = actions.onImportAnki, modifier = Modifier.testTag("import-anki"), icon = AppIcons.UploadFile)
                         if (state.canExportAnki && state.counts.all > 0) SecondaryButton(tr("Export to Anki"), onClick = actions.onExportAnki, modifier = Modifier.testTag("export-anki"), icon = AppIcons.Download)
-                        val due = state.counts.due
-                        PrimaryButton(if (due > 0) tr("Review {0} due", due) else tr("Review cards"), onClick = actions.onReview, icon = AppIcons.Style)
                     }
                 }
             }
