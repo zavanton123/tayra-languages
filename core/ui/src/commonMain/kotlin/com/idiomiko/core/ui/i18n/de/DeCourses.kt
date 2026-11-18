@@ -276,7 +276,6 @@ internal val deCourses: Map<String, String> = mapOf(
     "{0} cards were forgotten in that time." to "{0} Karte wurde in dieser Zeit vergessen.|{0} Karten wurden in dieser Zeit vergessen.",
     "{0} cards to practise." to "{0} Karte zum Üben.|{0} Karten zum Üben.",
     "Flashcard statistics" to "Karteikarten-Statistik",
-    "Your flashcards in {0}." to "Deine Karteikarten in {0}.",
     "Words you give a status of 1 to 4 while reading get a card, and their figures show here." to "Wörter, denen du beim Lesen den Status 1 bis 4 gibst, bekommen eine Karte, und ihre Zahlen erscheinen hier.",
     "1 month" to "1 Monat",
     "3 months" to "3 Monate",

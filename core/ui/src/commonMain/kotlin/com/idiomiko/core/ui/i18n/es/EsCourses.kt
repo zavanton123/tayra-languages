@@ -276,7 +276,6 @@ internal val esCourses: Map<String, String> = mapOf(
     "{0} cards were forgotten in that time." to "{0} tarjeta se olvidó en ese tiempo.|{0} tarjetas se olvidaron en ese tiempo.",
     "{0} cards to practise." to "{0} tarjeta para practicar.|{0} tarjetas para practicar.",
     "Flashcard statistics" to "Estadísticas de tarjetas",
-    "Your flashcards in {0}." to "Tus tarjetas en {0}.",
     "Words you give a status of 1 to 4 while reading get a card, and their figures show here." to "Las palabras a las que das un estado de 1 a 4 al leer reciben una tarjeta, y sus cifras aparecen aquí.",
     "1 month" to "1 mes",
     "3 months" to "3 meses",

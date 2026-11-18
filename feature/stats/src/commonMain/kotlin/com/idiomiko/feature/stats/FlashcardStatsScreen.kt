@@ -43,7 +43,6 @@ import com.idiomiko.core.ui.components.ActivityHeatmapCard
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.ContentCard
-import com.idiomiko.core.ui.components.Crumb
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.LoadingIndicator
 import com.idiomiko.core.ui.components.LocalWindowWidth
@@ -55,9 +54,7 @@ import com.idiomiko.core.ui.components.SegmentedToggle
 import com.idiomiko.core.ui.components.StatTile
 import com.idiomiko.core.ui.components.StatusDot
 import com.idiomiko.core.ui.components.shortDate
-import com.idiomiko.core.ui.i18n.LanguageCase
 import com.idiomiko.core.ui.i18n.formatCount
-import com.idiomiko.core.ui.i18n.languageInSentence
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.navigation.Route
@@ -118,18 +115,14 @@ fun FlashcardStatsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMo
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold
         }
-        PageColumn(padding) { FlashcardStatsContent(state, viewModel::choose, onNavigate) }
+        PageColumn(padding) { FlashcardStatsContent(state, viewModel::choose) }
     }
 }
 
 @Composable
-internal fun FlashcardStatsContent(state: FlashcardStatsUiState, onPeriod: (StatsPeriod) -> Unit, onNavigate: (Route) -> Unit = {}) {
+internal fun FlashcardStatsContent(state: FlashcardStatsUiState, onPeriod: (StatsPeriod) -> Unit) {
     val wide = LocalWindowWidth.current.isExpanded
-    ScreenHeader(
-        tr("Flashcard statistics"),
-        state.languageName.takeIf { it.isNotEmpty() }?.let { tr("Your flashcards in {0}.", languageInSentence(it, LanguageCase.PREPOSITIONAL)) },
-        crumbs = listOf(Crumb(tr("Statistics")) { onNavigate(Route.Stats) }, Crumb(tr("Flashcard statistics"))),
-    )
+    ScreenHeader(tr("Flashcard statistics"), subtitle = null)
     val stats = state.stats
     if (stats == null || stats.counts.total == 0) {
         EmptyState(AppIcons.Style, tr("No flashcards yet"), message = tr("Words you give a status of 1 to 4 while reading get a card, and their figures show here."))

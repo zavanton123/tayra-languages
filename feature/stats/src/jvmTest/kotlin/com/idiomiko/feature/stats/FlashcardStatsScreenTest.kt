@@ -13,9 +13,9 @@ import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.runDesktopComposeUiTest
-import com.russhwolf.settings.MapSettings
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
 import com.idiomiko.core.data.repository.FlashcardRepositoryImpl
@@ -34,10 +34,8 @@ import com.idiomiko.core.domain.model.Term
 import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.ui.components.PageColumn
 import com.idiomiko.core.ui.components.ProvideWindowWidth
-import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.IdiomikoTheme
-import kotlinx.coroutines.runBlocking
-import kotlinx.datetime.TimeZone
+import com.russhwolf.settings.MapSettings
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.random.Random
@@ -48,6 +46,8 @@ import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.seconds
 import kotlin.time.Instant
+import kotlinx.coroutines.runBlocking
+import kotlinx.datetime.TimeZone
 
 /** The flashcards of a language in figures, over a few months of answers. */
 @OptIn(ExperimentalTestApi::class)
@@ -85,13 +85,12 @@ class FlashcardStatsScreenTest {
     @Test
     fun theFiguresShowAndThePeriodChangesThem() = runDesktopComposeUiTest(width = 1586, height = 4200) {
         var state by mutableStateOf(FlashcardStatsUiState(loading = false, languageName = "Portuguese", stats = runBlocking { service.statistics(portuguese, StatsPeriod.MONTH) }))
-        val visited = mutableListOf<Route>()
         setContent {
             IdiomikoTheme {
                 ProvideWindowWidth {
                     Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                         PageColumn(PaddingValues()) {
-                            FlashcardStatsContent(state, onPeriod = { chosen -> state = state.copy(period = chosen, stats = runBlocking { service.statistics(portuguese, chosen) }) }, onNavigate = { visited += it })
+                            FlashcardStatsContent(state, onPeriod = { chosen -> state = state.copy(period = chosen, stats = runBlocking { service.statistics(portuguese, chosen) }) })
                         }
                     }
                 }
@@ -104,7 +103,8 @@ class FlashcardStatsScreenTest {
 
         onNodeWithTag("period-YEAR").performClick()
         waitUntil(timeoutMillis = 5_000) { state.period == StatsPeriod.YEAR }
-        onAllNodesWithText("Statistics")[0].performClick()
-        assertEquals(listOf<Route>(Route.Stats), visited)
+        // The heading alone: no way back to the statistics above it, no line under it.
+        onNodeWithText("Statistics").assertDoesNotExist()
+        onNodeWithText("Your flashcards in Portuguese.").assertDoesNotExist()
     }
 }

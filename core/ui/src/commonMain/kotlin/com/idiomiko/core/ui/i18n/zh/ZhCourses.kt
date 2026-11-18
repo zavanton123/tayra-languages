@@ -276,7 +276,6 @@ internal val zhCourses: Map<String, String> = mapOf(
     "{0} cards were forgotten in that time." to "这段时间内遗忘了 {0} 张卡片。",
     "{0} cards to practise." to "{0} 张卡片可练习。",
     "Flashcard statistics" to "卡片统计",
-    "Your flashcards in {0}." to "你的{0}卡片。",
     "Words you give a status of 1 to 4 while reading get a card, and their figures show here." to "阅读时给单词设置 1 到 4 的状态，它就会生成卡片，相关数据会显示在这里。",
     "1 month" to "1 个月",
     "3 months" to "3 个月",

@@ -276,7 +276,6 @@ internal val plCourses: Map<String, String> = mapOf(
     "{0} cards were forgotten in that time." to "{0} karta została zapomniana w tym czasie.|{0} karty zostały zapomniane w tym czasie.|{0} kart zostało zapomnianych w tym czasie.",
     "{0} cards to practise." to "{0} karta do ćwiczenia.|{0} karty do ćwiczenia.|{0} kart do ćwiczenia.",
     "Flashcard statistics" to "Statystyki fiszek",
-    "Your flashcards in {0}." to "Twoje fiszki w języku {0}.",
     "Words you give a status of 1 to 4 while reading get a card, and their figures show here." to "Słowa, którym podczas czytania nadasz status od 1 do 4, dostają fiszkę, a ich liczby pojawią się tutaj.",
     "1 month" to "1 miesiąc",
     "3 months" to "3 miesiące",

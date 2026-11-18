@@ -276,7 +276,6 @@ internal val elCourses: Map<String, String> = mapOf(
     "{0} cards were forgotten in that time." to "{0} κάρτα ξεχάστηκε σε αυτό το διάστημα.|{0} κάρτες ξεχάστηκαν σε αυτό το διάστημα.",
     "{0} cards to practise." to "{0} κάρτα για εξάσκηση.|{0} κάρτες για εξάσκηση.",
     "Flashcard statistics" to "Στατιστικά καρτών",
-    "Your flashcards in {0}." to "Οι κάρτες σας στα {0}.",
     "Words you give a status of 1 to 4 while reading get a card, and their figures show here." to "Οι λέξεις στις οποίες δίνετε κατάσταση 1 έως 4 κατά την ανάγνωση παίρνουν κάρτα, και τα στοιχεία τους εμφανίζονται εδώ.",
     "1 month" to "1 μήνας",
     "3 months" to "3 μήνες",

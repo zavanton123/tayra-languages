@@ -276,7 +276,6 @@ internal val ruCourses: Map<String, String> = mapOf(
     "{0} cards were forgotten in that time." to "За это время забыта {0} карточка.|За это время забыты {0} карточки.|За это время забыто {0} карточек.",
     "{0} cards to practise." to "{0} карточка для практики.|{0} карточки для практики.|{0} карточек для практики.",
     "Flashcard statistics" to "Статистика карточек",
-    "Your flashcards in {0}." to "Ваши карточки на {0} языке.",
     "Words you give a status of 1 to 4 while reading get a card, and their figures show here." to "Слова, которым при чтении вы даёте статус от 1 до 4, получают карточку, и их цифры появятся здесь.",
     "1 month" to "1 месяц",
     "3 months" to "3 месяца",
