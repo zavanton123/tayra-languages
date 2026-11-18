@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -32,11 +33,13 @@ import com.idiomiko.core.domain.flashcards.Rating
 import com.idiomiko.core.domain.flashcards.RetentionSpan
 import com.idiomiko.core.domain.flashcards.ReviewKind
 import com.idiomiko.core.ui.components.AppIcons
+import com.idiomiko.core.ui.components.ColumnTooltips
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.label
 import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
+import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.AppShapes
@@ -108,7 +111,7 @@ private fun RecallCard(s: FlashcardStatistics, modifier: Modifier) {
     }
 }
 
-/** A column for each of [labels], its count above the tallest; with nothing counted, [empty] in its place. */
+/** A column for each of [labels], its count above the tallest, and in a tooltip when pointed at; with nothing counted, [empty] in its place. */
 @Composable
 private fun Histogram(counts: List<Int>, labels: List<String>, color: Color, empty: String, modifier: Modifier = Modifier) {
     val muted = MaterialTheme.colorScheme.onSurfaceVariant
@@ -117,7 +120,7 @@ private fun Histogram(counts: List<Int>, labels: List<String>, color: Color, emp
         return
     }
     Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        Bars(counts.map { listOf(it) }, listOf(color), "", "", empty)
+        Bars(counts.map { listOf(it) }, listOf(color), "", "", empty) { i -> "${labels[i]} · ${trPlural(counts[i], "{1} card", "{1} cards", formatCount(counts[i]))}" }
         Row(Modifier.fillMaxWidth()) {
             labels.forEach { Text(it, Modifier.weight(1f), style = MaterialTheme.typography.labelSmall, color = muted, textAlign = TextAlign.Center, maxLines = 1) }
         }
@@ -209,26 +212,33 @@ private fun HoursCard(s: FlashcardStatistics) {
         val line = AppAccents.green
         val track = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
         val max = answers.max()
-        Canvas(Modifier.fillMaxWidth().height(CHART_HEIGHT).testTag("hours")) {
-            val slot = size.width / 24
-            val width = slot * 0.68f
-            drawRect(track, Offset(0f, size.height - 2.dp.toPx()), Size(size.width, 2.dp.toPx()))
-            answers.forEachIndexed { hour, n ->
-                if (n > 0) {
-                    val h = (size.height * n / max).coerceAtLeast(2f)
-                    drawRoundRect(bar.copy(alpha = AppAlpha.half), Offset(hour * slot + (slot - width) / 2, size.height - h), Size(width, h), CornerRadius(width / 6))
+        val describe: (Int) -> String = { hour ->
+            val pass = s.hours[hour].answers
+            listOfNotNull("$hour:00", trPlural(pass.total, "{1} answer", "{1} answers", formatCount(pass.total)), pass.rate?.let { tr("{0}% correct", percent(it)) }).joinToString(" · ")
+        }
+        ColumnTooltips(24, describe, Modifier.fillMaxWidth().height(CHART_HEIGHT).testTag("hours"), level = { answers[it].toFloat() / max }) { hovered ->
+            Canvas(Modifier.fillMaxSize()) {
+                val slot = size.width / 24
+                val width = slot * 0.68f
+                if (hovered != null) drawRect(track, Offset(hovered * slot, 0f), Size(slot, size.height))
+                drawRect(track, Offset(0f, size.height - 2.dp.toPx()), Size(size.width, 2.dp.toPx()))
+                answers.forEachIndexed { hour, n ->
+                    if (n > 0) {
+                        val h = (size.height * n / max).coerceAtLeast(2f)
+                        drawColumn(bar.copy(alpha = AppAlpha.half), hour * slot + (slot - width) / 2, size.height - h, width, h)
+                    }
                 }
+                // The share answered right, as a line over the hours with answers, from none at the foot to all at the top.
+                val path = Path()
+                var started = false
+                s.hours.forEach { hour ->
+                    val rate = hour.answers.rate ?: return@forEach
+                    val x = hour.hour * slot + slot / 2
+                    val y = size.height * (1 - rate.toFloat())
+                    if (started) path.lineTo(x, y) else path.moveTo(x, y).also { started = true }
+                }
+                drawPath(path, line, style = Stroke(width = 2.dp.toPx()))
             }
-            // The share answered right, as a line over the hours with answers, from none at the foot to all at the top.
-            val path = Path()
-            var started = false
-            s.hours.forEach { hour ->
-                val rate = hour.answers.rate ?: return@forEach
-                val x = hour.hour * slot + slot / 2
-                val y = size.height * (1 - rate.toFloat())
-                if (started) path.lineTo(x, y) else path.moveTo(x, y).also { started = true }
-            }
-            drawPath(path, line, style = Stroke(width = 2.dp.toPx()))
         }
         Row(Modifier.fillMaxWidth()) {
             listOf("0:00", "6:00", "12:00", "18:00", "23:00").forEachIndexed { i, label ->

@@ -259,6 +259,8 @@ internal val ruCommon: Map<String, String> = mapOf(
     "New words saved per week" to "Новые слова за неделю",
     "The last 12 weeks: {1} words" to "За последние 12 недель: {1} слово|За последние 12 недель: {1} слова|За последние 12 недель: {1} слов",
     "Most: {0}" to "Больше всего: {0}",
+    "{1} cards due" to "{1} карточка к повторению|{1} карточки к повторению|{1} карточек к повторению",
+    "{1} cards added" to "{1} карточка добавлена|{1} карточки добавлено|{1} карточек добавлено",
     "No reading in the last 30 days. Words you read in books and lessons count here." to "За последние 30 дней ничего не прочитано. Здесь считаются слова, прочитанные в книгах и уроках.",
     "No words saved in the last 12 weeks. Words get saved when you give them a status while reading." to "За последние 12 недель слова не сохранялись. Слово сохраняется, когда вы даёте ему статус при чтении.",
     "No flashcard reviews in the last 30 days." to "За последние 30 дней карточки не повторялись.",

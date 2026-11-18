@@ -39,15 +39,15 @@ class ActivityHeatmapTest {
                 )
             }
         }
-        assertEquals(0, onAllNodesWithTag("heatmap-day").fetchSemanticsNodes().size, "nothing before pointing")
+        assertEquals(0, onAllNodesWithTag("chart-tooltip").fetchSemanticsNodes().size, "nothing before pointing")
         val grid = onNodeWithTag("heatmap").fetchSemanticsNode().boundsInRoot
         // Today is a Wednesday: the third of the seven squares in the last column.
         val gap = 4f
         val cell = (grid.height - 6 * gap) / 7
         val square = Offset(grid.width - cell / 2, 2 * (cell + gap) + cell / 2)
         onNodeWithTag("heatmap").performMouseInput { moveTo(square) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("heatmap-day").fetchSemanticsNodes().isNotEmpty() }
-        val tip = onAllNodesWithTag("heatmap-day").fetchSemanticsNodes().single()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("chart-tooltip").fetchSemanticsNodes().isNotEmpty() }
+        val tip = onAllNodesWithTag("chart-tooltip").fetchSemanticsNodes().single()
         val text = tip.config.getOrNull(SemanticsProperties.Text)?.joinToString { it.text }.orEmpty()
         assertTrue(text.endsWith("12 answers"), text)
         // Over the square, not under the grid.

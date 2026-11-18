@@ -1,8 +1,5 @@
 package com.idiomiko.feature.stats
 
-import com.idiomiko.core.ui.components.QuietButton
-import com.idiomiko.core.ui.components.shownName
-import com.idiomiko.core.ui.components.learningLevels
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -15,6 +12,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -50,11 +48,11 @@ import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.domain.stats.ChartPoint
 import com.idiomiko.core.domain.stats.LanguageOverview
 import com.idiomiko.core.domain.stats.heatLevel
-import com.idiomiko.core.ui.components.StatTile
 import com.idiomiko.core.ui.components.ActivityHeatmapCard
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.ColumnTooltips
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.IconTile
@@ -63,14 +61,18 @@ import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PageColumn
 import com.idiomiko.core.ui.components.PrimaryButton
+import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.ScreenHeader
+import com.idiomiko.core.ui.components.StatTile
 import com.idiomiko.core.ui.components.StatusDot
 import com.idiomiko.core.ui.components.TableHeader
 import com.idiomiko.core.ui.components.TableHeaderCell
 import com.idiomiko.core.ui.components.animatedCount
 import com.idiomiko.core.ui.components.cardSurface
+import com.idiomiko.core.ui.components.learningLevels
 import com.idiomiko.core.ui.components.shortDate
 import com.idiomiko.core.ui.components.shortDateWithYear
+import com.idiomiko.core.ui.components.shownName
 import com.idiomiko.core.ui.i18n.LanguageCase
 import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.languageInSentence
@@ -226,7 +228,9 @@ private fun WordsPerDayCard(o: LanguageOverview, modifier: Modifier) {
     val first = o.today.minus(29, DateTimeUnit.DAY)
     val values = (0 until 30).map { o.readingDays[first.plus(it, DateTimeUnit.DAY)] ?: 0 }
     ContentCard(tr("Words read per day"), tr("The last 30 days: {0} words", formatCount(values.sum())), icon = AppIcons.MenuBook, modifier = modifier) {
-        BarChart(values, AppAccents.blue, first.shortDate(), o.today.shortDate(), tr("No reading in the last 30 days. Words you read in books and lessons count here."), Modifier.testTag("words-per-day"))
+        BarChart(values, AppAccents.blue, first.shortDate(), o.today.shortDate(), tr("No reading in the last 30 days. Words you read in books and lessons count here."), Modifier.testTag("words-per-day")) { i ->
+            "${first.plus(i, DateTimeUnit.DAY).shortDate()} · ${trPlural(values[i], "{1} word read", "{1} words read", formatCount(values[i]))}"
+        }
     }
 }
 
@@ -234,16 +238,20 @@ private fun WordsPerDayCard(o: LanguageOverview, modifier: Modifier) {
 private fun SavedPerWeekCard(o: LanguageOverview, modifier: Modifier) {
     val firstWeekEnd = o.today.minus((o.savedByWeek.size - 1) * 7, DateTimeUnit.DAY)
     ContentCard(tr("New words saved per week"), o.savedByWeek.sum().let { trPlural(it, "The last 12 weeks: {1} word", "The last 12 weeks: {1} words", formatCount(it)) }, icon = AppIcons.Abc, modifier = modifier) {
-        BarChart(o.savedByWeek, AppAccents.orange, firstWeekEnd.minus(6, DateTimeUnit.DAY).shortDate(), o.today.shortDate(), tr("No words saved in the last 12 weeks. Words get saved when you give them a status while reading."), Modifier.testTag("saved-per-week"))
+        BarChart(o.savedByWeek, AppAccents.orange, firstWeekEnd.minus(6, DateTimeUnit.DAY).shortDate(), o.today.shortDate(), tr("No words saved in the last 12 weeks. Words get saved when you give them a status while reading."), Modifier.testTag("saved-per-week")) { i ->
+            val end = firstWeekEnd.plus(i * 7, DateTimeUnit.DAY)
+            "${end.minus(6, DateTimeUnit.DAY).shortDate()} – ${end.shortDate()} · ${trPlural(o.savedByWeek[i], "{1} word saved", "{1} words saved", formatCount(o.savedByWeek[i]))}"
+        }
     }
 }
 
 /**
  * Columns for [values], oldest first, with the highest one's value above and the first and last
- * dates under them; with nothing to draw, [empty] says so in place of an empty chart.
+ * dates under them; with nothing to draw, [empty] says so in place of an empty chart. [describe]
+ * names a column and its value in a tooltip when pointed at.
  */
 @Composable
-private fun BarChart(values: List<Int>, color: Color, from: String, to: String, empty: String, modifier: Modifier = Modifier) {
+private fun BarChart(values: List<Int>, color: Color, from: String, to: String, empty: String, modifier: Modifier = Modifier, describe: ((Int) -> String)? = null) {
     val max = values.maxOrNull() ?: 0
     val muted = MaterialTheme.colorScheme.onSurfaceVariant
     val track = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
@@ -253,17 +261,20 @@ private fun BarChart(values: List<Int>, color: Color, from: String, to: String, 
     }
     Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         Text(tr("Most: {0}", formatCount(max)), style = MaterialTheme.typography.bodySmall, color = muted)
-        Canvas(Modifier.fillMaxWidth().height(BAR_CHART_HEIGHT)) {
-            val slot = size.width / values.size
-            val bar = slot * 0.68f
-            // A baseline rather than a grey bar for each day, so an empty day reads as nothing.
-            val base = BAR_BASELINE.toPx()
-            drawRect(track, Offset(0f, size.height - base), Size(size.width, base))
-            values.forEachIndexed { i, value ->
-                val x = i * slot + (slot - bar) / 2
-                if (value > 0) {
-                    val h = (size.height * value / max).coerceAtLeast(3f)
-                    drawRoundRect(color, Offset(x, size.height - h), Size(bar, h), CornerRadius(bar / 4))
+        ColumnTooltips(values.size, describe, Modifier.fillMaxWidth().height(BAR_CHART_HEIGHT), level = { values[it].toFloat() / max }) { hovered ->
+            Canvas(Modifier.fillMaxSize()) {
+                val slot = size.width / values.size
+                val bar = slot * 0.68f
+                // A baseline rather than a grey bar for each day, so an empty day reads as nothing.
+                val base = BAR_BASELINE.toPx()
+                if (hovered != null) drawRect(track, Offset(hovered * slot, 0f), Size(slot, size.height))
+                drawRect(track, Offset(0f, size.height - base), Size(size.width, base))
+                values.forEachIndexed { i, value ->
+                    val x = i * slot + (slot - bar) / 2
+                    if (value > 0) {
+                        val h = (size.height * value / max).coerceAtLeast(3f)
+                        drawColumn(color, x, size.height - h, bar, h)
+                    }
                 }
             }
         }
@@ -330,7 +341,9 @@ private fun FlashcardsCard(o: LanguageOverview, modifier: Modifier, onMore: () -
         modifier = modifier,
         headerExtra = { QuietButton(tr("More statistics"), onClick = onMore, modifier = Modifier.testTag("flashcard-stats-more")) },
     ) {
-        BarChart(values, AppAccents.purple, first.shortDate(), o.today.shortDate(), tr("No flashcard reviews in the last 30 days."), Modifier.testTag("reviews-per-day"))
+        BarChart(values, AppAccents.purple, first.shortDate(), o.today.shortDate(), tr("No flashcard reviews in the last 30 days."), Modifier.testTag("reviews-per-day")) { i ->
+            "${first.plus(i, DateTimeUnit.DAY).shortDate()} · ${trPlural(values[i], "{1} review", "{1} reviews", formatCount(values[i]))}"
+        }
     }
 }
 
@@ -383,17 +396,30 @@ private fun Chart(series: Map<String, List<ChartPoint>>) {
     val muted = MaterialTheme.colorScheme.onSurfaceVariant
     // The top and the two ends are labelled, so the line says how much and when.
     Text(formatCount(maxTotal), style = MaterialTheme.typography.bodySmall, color = muted)
-    Canvas(Modifier.fillMaxWidth().height(LINE_CHART_HEIGHT)) {
-        val bottom = size.height
-        drawLine(axisColor, Offset(0f, bottom), Offset(size.width, bottom))
-        series.values.forEachIndexed { i, list ->
-            val path = Path()
-            list.forEachIndexed { index, point ->
-                val x = (point.date.toEpochDays() - minDate).toFloat() / (maxDate - minDate) * size.width
-                val y = bottom - point.runningTotal.toFloat() / maxTotal * (bottom - 4f)
-                if (index == 0) path.moveTo(x, y) else path.lineTo(x, y)
+    // Pointed at, a day names each language's total so far.
+    val days = (maxDate - minDate + 1).toInt()
+    fun totalOn(list: List<ChartPoint>, day: Long) = list.lastOrNull { it.date.toEpochDays() <= day }?.runningTotal ?: 0
+    val describe: (Int) -> String = { i ->
+        val day = minDate + i
+        "${LocalDate.fromEpochDays(day).shortDateWithYear()} · " + series.entries.joinToString { (language, list) -> "${tr(language)} ${formatCount(totalOn(list, day))}" }
+    }
+    ColumnTooltips(days, describe, Modifier.fillMaxWidth().height(LINE_CHART_HEIGHT), level = { i -> series.values.maxOf { totalOn(it, minDate + i) }.toFloat() / maxTotal }) { hovered ->
+        Canvas(Modifier.fillMaxSize()) {
+            val bottom = size.height
+            drawLine(axisColor, Offset(0f, bottom), Offset(size.width, bottom))
+            if (hovered != null) {
+                val x = (hovered + 0.5f) * size.width / days
+                drawLine(axisColor, Offset(x, 0f), Offset(x, bottom))
             }
-            drawPath(path, seriesColors[i % seriesColors.size], style = Stroke(width = 3f))
+            series.values.forEachIndexed { i, list ->
+                val path = Path()
+                list.forEachIndexed { index, point ->
+                    val x = (point.date.toEpochDays() - minDate).toFloat() / (maxDate - minDate) * size.width
+                    val y = bottom - point.runningTotal.toFloat() / maxTotal * (bottom - 4f)
+                    if (index == 0) path.moveTo(x, y) else path.lineTo(x, y)
+                }
+                drawPath(path, seriesColors[i % seriesColors.size], style = Stroke(width = 3f))
+            }
         }
     }
     Row(Modifier.fillMaxWidth().padding(top = AppSpacing.xs)) {

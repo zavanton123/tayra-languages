@@ -259,6 +259,8 @@ internal val deCommon: Map<String, String> = mapOf(
     "New words saved per week" to "Neu gespeicherte Wörter pro Woche",
     "The last 12 weeks: {1} words" to "Letzte 12 Wochen: {1} Wort|Letzte 12 Wochen: {1} Wörter",
     "Most: {0}" to "Höchstwert: {0}",
+    "{1} cards due" to "{1} Karte fällig|{1} Karten fällig",
+    "{1} cards added" to "{1} Karte hinzugefügt|{1} Karten hinzugefügt",
     "No reading in the last 30 days. Words you read in books and lessons count here." to "In den letzten 30 Tagen nichts gelesen. Hier zählen die Wörter, die du in Büchern und Lektionen liest.",
     "No words saved in the last 12 weeks. Words get saved when you give them a status while reading." to "In den letzten 12 Wochen keine Wörter gespeichert. Ein Wort wird gespeichert, wenn du ihm beim Lesen einen Status gibst.",
     "No flashcard reviews in the last 30 days." to "In den letzten 30 Tagen keine Karteikarten wiederholt.",

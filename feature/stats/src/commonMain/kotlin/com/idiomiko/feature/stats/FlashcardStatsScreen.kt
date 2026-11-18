@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -28,6 +29,7 @@ import androidx.compose.ui.geometry.RoundRect
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
@@ -44,6 +46,7 @@ import com.idiomiko.core.domain.stats.heatLevel
 import com.idiomiko.core.ui.components.ActivityHeatmapCard
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.ColumnTooltips
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.LoadingIndicator
@@ -154,6 +157,10 @@ private fun StatsPeriod.label(): String = when (this) {
 
 internal fun Long.date(): LocalDate = LocalDate.fromEpochDays(toInt())
 
+/** The day [from], or the days [from] to [to], as a chart's tooltip names them. */
+internal fun daySpan(from: Long, to: Long, today: Long): String =
+    if (to <= from) from.date().shortDate(today.date()) else "${from.date().shortDate(today.date())} – ${to.date().shortDate(today.date())}"
+
 /** The colours of the kinds of card an answer was given to, as Anki colours them. */
 internal fun ReviewKind.tint(): Color = when (this) {
     ReviewKind.LEARNING -> AppAccents.blue
@@ -222,7 +229,11 @@ private fun FutureDueCard(s: FlashcardStatistics, period: StatsPeriod, modifier:
         icon = AppIcons.Schedule,
         modifier = modifier,
     ) {
-        Bars(columns, listOf(AppAccents.purple), tr("Today"), (s.today + horizon - 1).date().shortDate(), tr("Nothing due in the period."), Modifier.testTag("future-due"))
+        Bars(columns, listOf(AppAccents.purple), tr("Today"), (s.today + horizon - 1).date().shortDate(), tr("Nothing due in the period."), Modifier.testTag("future-due")) { i ->
+            val first = s.today + i * width
+            val n = columns[i].sum()
+            "${daySpan(first, minOf(first + width - 1, s.today + horizon - 1), s.today)} · ${trPlural(n, "{1} card due", "{1} cards due", formatCount(n))}"
+        }
     }
 }
 
@@ -297,7 +308,11 @@ private fun ReviewsCard(s: FlashcardStatistics) {
     val total = s.reviewsByDay.values.sumOf { it.total }
     val minutes = s.reviewsByDay.values.sumOf { it.time.inWholeSeconds } / 60
     ContentCard(tr("Reviews"), tr("{0} answers in {1} minutes", formatCount(total), formatCount(minutes.toInt())), icon = AppIcons.BarChart) {
-        Bars(values, kinds.map { it.tint() }, s.firstDay.date().shortDate(s.today.date()), s.today.date().shortDate(), tr("No answers in the period."), Modifier.testTag("reviews-by-day"))
+        Bars(values, kinds.map { it.tint() }, s.firstDay.date().shortDate(s.today.date()), s.today.date().shortDate(), tr("No answers in the period."), Modifier.testTag("reviews-by-day")) { i ->
+            val n = values[i].sum()
+            val parts = kinds.zip(values[i]).filter { it.second > 0 }.joinToString { (kind, count) -> "${kind.label()} ${formatCount(count)}" }
+            "${daySpan(columns[i].first, columns[i].last, s.today)} · ${trPlural(n, "{1} answer", "{1} answers", formatCount(n))}" + if (parts.isEmpty()) "" else " ($parts)"
+        }
         Legend(kinds.map { it.label() to it.tint() })
     }
 }
@@ -308,7 +323,10 @@ private fun AddedCard(s: FlashcardStatistics) {
     val values = columns.map { range -> listOf(range.sumOf { s.added[it] ?: 0 }) }
     val total = s.added.values.sum()
     ContentCard(tr("Added"), trPlural(total, "{1} card added in the period", "{1} cards added in the period", formatCount(total)), icon = AppIcons.PageAdd) {
-        Bars(values, listOf(AppAccents.blue), s.firstDay.date().shortDate(s.today.date()), s.today.date().shortDate(), tr("No cards added in the period."), Modifier.testTag("added-by-day"))
+        Bars(values, listOf(AppAccents.blue), s.firstDay.date().shortDate(s.today.date()), s.today.date().shortDate(), tr("No cards added in the period."), Modifier.testTag("added-by-day")) { i ->
+            val n = values[i].sum()
+            "${daySpan(columns[i].first, columns[i].last, s.today)} · ${trPlural(n, "{1} card added", "{1} cards added", formatCount(n))}"
+        }
     }
 }
 
@@ -329,10 +347,10 @@ internal fun Legend(parts: List<Pair<String, Color>>) {
 /**
  * Columns of parts stacked from the bottom, one value for each of [colors], oldest first, with the
  * tallest column's total above them and [from] and [to] under them; with nothing to draw, [empty]
- * says so in place of an empty chart.
+ * says so in place of an empty chart. [describe] names a column and its values in a tooltip when pointed at.
  */
 @Composable
-internal fun Bars(columns: List<List<Int>>, colors: List<Color>, from: String, to: String, empty: String, modifier: Modifier = Modifier) {
+internal fun Bars(columns: List<List<Int>>, colors: List<Color>, from: String, to: String, empty: String, modifier: Modifier = Modifier, describe: ((Int) -> String)? = null) {
     val max = columns.maxOfOrNull { it.sum() } ?: 0
     val muted = MaterialTheme.colorScheme.onSurfaceVariant
     val track = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
@@ -342,26 +360,29 @@ internal fun Bars(columns: List<List<Int>>, colors: List<Color>, from: String, t
     }
     Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         Text(tr("Most: {0}", formatCount(max)), style = MaterialTheme.typography.bodySmall, color = muted)
-        Canvas(Modifier.fillMaxWidth().height(CHART_HEIGHT)) {
-            val slot = size.width / columns.size
-            val bar = slot * 0.68f
-            val base = 2.dp.toPx()
-            drawRect(track, Offset(0f, size.height - base), Size(size.width, base))
-            columns.forEachIndexed { i, parts ->
-                val x = i * slot + (slot - bar) / 2
-                var top = size.height
-                val last = parts.indexOfLast { it > 0 }
-                parts.forEachIndexed { p, value ->
-                    if (value > 0) {
-                        val h = (size.height * value / max).coerceAtLeast(2f)
-                        top -= h
-                        // The parts meet flat; only the column's top is rounded.
-                        val color = colors[p % colors.size]
-                        if (p == last) {
-                            val corner = CornerRadius(bar / 6)
-                            drawPath(Path().apply { addRoundRect(RoundRect(x, top, x + bar, top + h, corner, corner, CornerRadius.Zero, CornerRadius.Zero)) }, color)
-                        } else {
-                            drawRect(color, Offset(x, top), Size(bar, h))
+        ColumnTooltips(columns.size, describe, Modifier.fillMaxWidth().height(CHART_HEIGHT), level = { columns[it].sum().toFloat() / max }) { hovered ->
+            Canvas(Modifier.fillMaxSize()) {
+                val slot = size.width / columns.size
+                val bar = slot * 0.68f
+                val base = 2.dp.toPx()
+                // The column pointed at stands on a faint band, so it is clear which one the tooltip tells of.
+                if (hovered != null) drawRect(track, Offset(hovered * slot, 0f), Size(slot, size.height))
+                drawRect(track, Offset(0f, size.height - base), Size(size.width, base))
+                columns.forEachIndexed { i, parts ->
+                    val x = i * slot + (slot - bar) / 2
+                    var top = size.height
+                    val last = parts.indexOfLast { it > 0 }
+                    parts.forEachIndexed { p, value ->
+                        if (value > 0) {
+                            val h = (size.height * value / max).coerceAtLeast(2f)
+                            top -= h
+                            // The parts meet flat; only the column's top is rounded.
+                            val color = colors[p % colors.size]
+                            if (p == last) {
+                                drawColumn(color, x, top, bar, h)
+                            } else {
+                                drawRect(color, Offset(x, top), Size(bar, h))
+                            }
                         }
                     }
                 }
@@ -372,6 +393,12 @@ internal fun Bars(columns: List<List<Int>>, colors: List<Color>, from: String, t
             Text(to, style = MaterialTheme.typography.bodySmall, color = muted)
         }
     }
+}
+
+/** A chart's column of [width] and [height] from [top]: rounded at the top, square where it stands on the baseline. */
+internal fun DrawScope.drawColumn(color: Color, x: Float, top: Float, width: Float, height: Float) {
+    val corner = CornerRadius(width / 6)
+    drawPath(Path().apply { addRoundRect(RoundRect(x, top, x + width, top + height, corner, corner, CornerRadius.Zero, CornerRadius.Zero)) }, color)
 }
 
 /** The most columns a chart over time is drawn with; longer periods put several days in one. */

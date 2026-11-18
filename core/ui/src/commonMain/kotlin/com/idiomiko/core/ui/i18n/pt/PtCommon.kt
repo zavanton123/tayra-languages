@@ -259,6 +259,8 @@ internal val ptCommon: Map<String, String> = mapOf(
     "New words saved per week" to "Palavras novas salvas por semana",
     "The last 12 weeks: {1} words" to "Últimas 12 semanas: {1} palavra|Últimas 12 semanas: {1} palavras",
     "Most: {0}" to "Máximo: {0}",
+    "{1} cards due" to "{1} cartão a rever|{1} cartões a rever",
+    "{1} cards added" to "{1} cartão adicionado|{1} cartões adicionados",
     "No reading in the last 30 days. Words you read in books and lessons count here." to "Nenhuma leitura nos últimos 30 dias. Contam aqui as palavras lidas em livros e lições.",
     "No words saved in the last 12 weeks. Words get saved when you give them a status while reading." to "Nenhuma palavra salva nas últimas 12 semanas. Uma palavra é salva quando você lhe dá um status ao ler.",
     "No flashcard reviews in the last 30 days." to "Nenhuma revisão de cartões nos últimos 30 dias.",

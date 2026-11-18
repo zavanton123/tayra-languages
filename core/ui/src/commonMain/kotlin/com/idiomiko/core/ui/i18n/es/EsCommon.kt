@@ -259,6 +259,8 @@ internal val esCommon: Map<String, String> = mapOf(
     "New words saved per week" to "Palabras nuevas guardadas por semana",
     "The last 12 weeks: {1} words" to "Últimas 12 semanas: {1} palabra|Últimas 12 semanas: {1} palabras",
     "Most: {0}" to "Máximo: {0}",
+    "{1} cards due" to "{1} tarjeta pendiente|{1} tarjetas pendientes",
+    "{1} cards added" to "{1} tarjeta añadida|{1} tarjetas añadidas",
     "No reading in the last 30 days. Words you read in books and lessons count here." to "Sin lectura en los últimos 30 días. Aquí cuentan las palabras que lees en libros y lecciones.",
     "No words saved in the last 12 weeks. Words get saved when you give them a status while reading." to "Sin palabras guardadas en las últimas 12 semanas. Una palabra se guarda cuando le das un estado al leer.",
     "No flashcard reviews in the last 30 days." to "Sin repasos de tarjetas en los últimos 30 días.",

@@ -35,10 +35,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntRect
 import androidx.compose.ui.unit.IntSize
-import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.window.Popup
-import androidx.compose.ui.window.PopupPositionProvider
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppAlpha
@@ -157,7 +154,7 @@ fun ActivityHeatmapCard(
                         if (describe != null && day != null) {
                             val offset = start.daysUntil(day)
                             val step = with(density) { (cell + gap).roundToPx() }
-                            DayTooltip("${day.shortDate(today)} · ${describe(day)}", IntRect(IntOffset(offset / 7 * step, offset % 7 * step), IntSize(with(density) { cell.roundToPx() }, with(density) { cell.roundToPx() })))
+                            ChartTooltip("${day.shortDate(today)} · ${describe(day)}", IntRect(IntOffset(offset / 7 * step, offset % 7 * step), IntSize(with(density) { cell.roundToPx() }, with(density) { cell.roundToPx() })))
                         }
                     }
                 }
@@ -170,30 +167,6 @@ fun ActivityHeatmapCard(
                 Text(more, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
-    }
-}
-
-/** What [text] says about the square at [square] (within the squares' box), over it, kept inside the window. */
-@Composable
-private fun DayTooltip(text: String, square: IntRect) {
-    val margin = with(LocalDensity.current) { AppSpacing.xs.roundToPx() }
-    val position = remember(square, margin) {
-        object : PopupPositionProvider {
-            override fun calculatePosition(anchorBounds: IntRect, windowSize: IntSize, layoutDirection: LayoutDirection, popupContentSize: IntSize): IntOffset {
-                val cell = square.translate(anchorBounds.topLeft)
-                val x = (cell.center.x - popupContentSize.width / 2).coerceIn(0, (windowSize.width - popupContentSize.width).coerceAtLeast(0))
-                val above = cell.top - popupContentSize.height - margin
-                return IntOffset(x, if (above >= 0) above else cell.bottom + margin)
-            }
-        }
-    }
-    Popup(popupPositionProvider = position) {
-        Text(
-            text,
-            Modifier.clip(AppShapes.small).background(MaterialTheme.colorScheme.inverseSurface).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs).testTag("heatmap-day"),
-            style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.inverseOnSurface,
-        )
     }
 }
 

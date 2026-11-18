@@ -6,15 +6,21 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.semantics.SemanticsProperties
+import androidx.compose.ui.semantics.getOrNull
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertTextContains
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performMouseInput
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
@@ -41,6 +47,7 @@ import javax.imageio.ImageIO
 import kotlin.random.Random
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 import kotlin.time.Clock
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
@@ -101,6 +108,15 @@ class FlashcardStatsScreenTest {
         onNodeWithTag("card-counts-bar").assertExists()
         System.getenv("FLASHCARD_STATS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
 
+        // A column pointed at is named, with its value, in a tooltip.
+        for ((chart, says) in listOf("future-due" to "due", "hours" to ":00")) {
+            onNodeWithTag(chart).performScrollTo().performMouseInput { moveTo(Offset(width * 0.02f, height * 0.6f)) }
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("chart-tooltip").fetchSemanticsNodes().isNotEmpty() }
+            val text = onAllNodesWithTag("chart-tooltip").fetchSemanticsNodes().single().config.getOrNull(SemanticsProperties.Text)?.joinToString { it.text }.orEmpty()
+            assertTrue(says in text, "$chart: $text")
+            onNodeWithTag(chart).performMouseInput { moveTo(Offset(-50f, -50f)) }
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("chart-tooltip").fetchSemanticsNodes().isEmpty() }
+        }
         onNodeWithTag("period-YEAR").performClick()
         waitUntil(timeoutMillis = 5_000) { state.period == StatsPeriod.YEAR }
         // The heading alone: no way back to the statistics above it, no line under it.
