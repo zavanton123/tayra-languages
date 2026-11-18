@@ -786,6 +786,9 @@ internal fun DetailScreen(detail: BrowseDetail, now: Instant, actions: BrowseAct
                     SecondaryButton(tr("Delete flashcard"), onClick = { actions.onDelete(listOf(row.termId)) }, modifier = Modifier.fillMaxWidth().testTag("detail-delete"), icon = Icons.Default.Delete, tone = ButtonTone.Danger)
                 }
             }
+            // Done stays at the foot while the page scrolls, as the wide dialog's does.
+            AppDivider()
+            PrimaryButton(tr("Done"), onClick = onDismiss, modifier = Modifier.fillMaxWidth().padding(AppSpacing.l).testTag("detail-done"))
         }
     }
 }

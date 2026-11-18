@@ -1,86 +1,86 @@
 package com.idiomiko.feature.flashcards
 
-import com.idiomiko.core.data.export.AnkiPackagerImpl
-import com.idiomiko.core.domain.dictionary.DictionaryId
-import com.idiomiko.core.domain.dictionary.DictionaryLookup
-import com.idiomiko.core.domain.dictionary.OfflineDictionary
-import com.idiomiko.core.domain.export.AnkiDeckExportService
-import com.idiomiko.core.domain.export.AnkiExportService
-import com.idiomiko.core.domain.service.LocalSpeech
-import com.idiomiko.core.domain.service.MemorySpeechAudioCache
-import com.idiomiko.core.domain.service.SentenceAudio
-import com.idiomiko.core.domain.service.SentenceTranslator
-import com.idiomiko.core.domain.flashcards.AnswerMode
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.ui.ExperimentalComposeUiApi
+import androidx.compose.ui.backhandler.BackHandler
 import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.semantics.SemanticsProperties
 import androidx.compose.ui.semantics.getOrNull
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.SemanticsMatcher
+import androidx.compose.ui.test.assertIsDisplayed
+import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.longClick
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
-import androidx.compose.ui.test.longClick
-import androidx.compose.ui.test.performTouchInput
+import androidx.compose.ui.test.performFirstLinkClick
+import androidx.compose.ui.test.performKeyInput
+import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.performTextInput
+import androidx.compose.ui.test.performTouchInput
+import androidx.compose.ui.test.pressKey
 import androidx.compose.ui.test.runDesktopComposeUiTest
-import com.russhwolf.settings.MapSettings
+import androidx.compose.ui.text.LinkAnnotation
+import androidx.navigationevent.DirectNavigationEventInput
+import androidx.navigationevent.compose.LocalNavigationEventDispatcherOwner
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.export.AnkiPackagerImpl
 import com.idiomiko.core.data.repository.FlashcardRepositoryImpl
 import com.idiomiko.core.data.repository.LanguageRepositoryImpl
 import com.idiomiko.core.data.repository.TermRepositoryImpl
 import com.idiomiko.core.data.settings.SettingsRepositoryImpl
+import com.idiomiko.core.domain.dictionary.DictionaryId
+import com.idiomiko.core.domain.dictionary.DictionaryLookup
+import com.idiomiko.core.domain.dictionary.OfflineDictionary
+import com.idiomiko.core.domain.export.AnkiDeckExportService
+import com.idiomiko.core.domain.export.AnkiExportService
 import com.idiomiko.core.domain.flashcards.AnkiArchive
 import com.idiomiko.core.domain.flashcards.AnkiArchiveCard
 import com.idiomiko.core.domain.flashcards.AnkiArchiveNote
 import com.idiomiko.core.domain.flashcards.AnkiArchiveReader
 import com.idiomiko.core.domain.flashcards.AnkiImportService
+import com.idiomiko.core.domain.flashcards.AnswerMode
 import com.idiomiko.core.domain.flashcards.CardState
 import com.idiomiko.core.domain.flashcards.FlashcardService
 import com.idiomiko.core.domain.flashcards.Rating
 import com.idiomiko.core.domain.model.Language
 import com.idiomiko.core.domain.model.Term
 import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.service.LocalSpeech
+import com.idiomiko.core.domain.service.MemorySpeechAudioCache
+import com.idiomiko.core.domain.service.SentenceAudio
+import com.idiomiko.core.domain.service.SentenceTranslator
 import com.idiomiko.core.ui.components.LearningLanguageState
 import com.idiomiko.core.ui.components.LocalFlashcardsDue
 import com.idiomiko.core.ui.components.LocalLearningLanguage
 import com.idiomiko.core.ui.components.ProvideWindowWidth
+import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.IdiomikoTheme
-import kotlin.time.Instant
-import kotlinx.coroutines.runBlocking
+import com.russhwolf.settings.MapSettings
 import java.io.File
 import java.sql.DriverManager
 import javax.imageio.ImageIO
-import androidx.compose.ui.test.assertIsNotEnabled
-import kotlin.time.Duration.Companion.days
-import kotlin.time.Clock
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import kotlin.test.assertTrue
-import androidx.compose.ui.ExperimentalComposeUiApi
-import androidx.compose.ui.backhandler.BackHandler
-import androidx.compose.runtime.DisposableEffect
-import androidx.navigationevent.DirectNavigationEventInput
-import androidx.navigationevent.compose.LocalNavigationEventDispatcherOwner
 import kotlin.test.assertFalse
-import com.idiomiko.core.ui.navigation.Route
-import androidx.compose.ui.test.performFirstLinkClick
-import androidx.compose.ui.text.LinkAnnotation
-import androidx.compose.ui.test.performTextClearance
-import androidx.compose.ui.test.assertTextEquals
-import androidx.compose.ui.test.performKeyInput
-import androidx.compose.ui.test.pressKey
-import androidx.compose.ui.input.key.Key
-import androidx.compose.ui.test.assertIsDisplayed
+import kotlin.test.assertTrue
+import kotlin.time.Clock
+import kotlin.time.Duration.Companion.days
+import kotlin.time.Instant
+import kotlinx.coroutines.runBlocking
 
 /** The browser lists every card, narrows them by search and group, opens one for its history, and suspends or resets a selection. */
 @OptIn(ExperimentalTestApi::class)
@@ -556,6 +556,11 @@ class BrowseFlashcardsScreenTest {
         onNodeWithText("Danger zone").assertExists()
         saveTop("BROWSE_PHONE_SCREENSHOT")
         onNodeWithTag("detail-back").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("browse-detail").fetchSemanticsNodes().isEmpty() }
+        // Done closes it too, from the page's foot, in view however far the page is scrolled.
+        onNodeWithTag("browse-row-$casa").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("detail-done").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("detail-done").assertIsDisplayed().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("browse-detail").fetchSemanticsNodes().isEmpty() }
     }
 }
