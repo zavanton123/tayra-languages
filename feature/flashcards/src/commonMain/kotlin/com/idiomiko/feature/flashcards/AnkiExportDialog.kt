@@ -15,9 +15,12 @@ import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.theme.AppSpacing
 
-/** An export to Anki as it goes: its progress, then how to bring the saved deck into Anki, or that it failed. Closes only once it is over. */
+/**
+ * An export to Anki as it goes: its progress, with Cancel to stop it, then how to bring the saved deck into Anki, or
+ * that it failed. A click beside it does not stop it; only Cancel does.
+ */
 @Composable
-internal fun AnkiExportDialog(export: AnkiExport, onDismiss: () -> Unit) {
+internal fun AnkiExportDialog(export: AnkiExport, onDismiss: () -> Unit, onCancel: () -> Unit = {}) {
     val working = export is AnkiExport.Working
     AppDialog(
         onDismissRequest = { if (!working) onDismiss() },
@@ -49,6 +52,9 @@ internal fun AnkiExportDialog(export: AnkiExport, onDismiss: () -> Unit) {
                 }
             }
         },
-        confirmButton = { if (!working) QuietButton(tr("OK"), onClick = onDismiss, modifier = Modifier.testTag("anki-export-close")) },
+        confirmButton = {
+            if (working) QuietButton(tr("Cancel"), onClick = onCancel, modifier = Modifier.testTag("anki-export-cancel"))
+            else QuietButton(tr("OK"), onClick = onDismiss, modifier = Modifier.testTag("anki-export-close"))
+        },
     )
 }

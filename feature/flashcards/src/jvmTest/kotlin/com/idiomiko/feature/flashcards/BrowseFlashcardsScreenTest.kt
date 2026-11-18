@@ -80,6 +80,7 @@ import kotlin.test.assertTrue
 import kotlin.time.Clock
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Instant
+import kotlinx.coroutines.awaitCancellation
 import kotlinx.coroutines.runBlocking
 
 /** The browser lists every card, narrows them by search and group, opens one for its history, and suspends or resets a selection. */
@@ -236,6 +237,30 @@ class BrowseFlashcardsScreenTest {
         assertTrue(runBlocking { terms.getByIds(listOf(comprar, casa, livro)) }.all { it.ankiExportedAt != null })
         onNodeWithTag("anki-export-close").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("anki-export").fetchSemanticsNodes().isEmpty() }
+    }
+
+    /** An export under way can be cancelled: the dialog closes, nothing is saved and no word counts as sent. */
+    @Test
+    fun anExportCanBeCancelled() = runDesktopComposeUiTest(width = 1500, height = 900) {
+        // Lookups that never answer keep the export going until it is cancelled.
+        val dictionary = object : OfflineDictionary {
+            override suspend fun isAvailable(dictionary: DictionaryId): Boolean = awaitCancellation()
+            override suspend fun lookup(dictionary: DictionaryId, text: String): DictionaryLookup = awaitCancellation()
+        }
+        val translator = object : SentenceTranslator {
+            override suspend fun translate(text: String, language: Language): String? = awaitCancellation()
+        }
+        val notes = AnkiExportService(terms, languages, dictionary, translator, SentenceAudio(LocalSpeech(emptyList()), settings, MemorySpeechAudioCache()), settings, AnkiPackagerImpl())
+        val saved = mutableListOf<String>()
+        show(exporter = AnkiDeckExportService(cards, terms, languages, settings, notes, AnkiPackagerImpl()), saveFile = { name, _, _ -> saved += name; true })
+        onNodeWithTag("export-anki").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("anki-export-cancel").fetchSemanticsNodes().isNotEmpty() }
+        saveTop("BROWSE_ANKI_EXPORT_CANCEL_SCREENSHOT")
+        onNodeWithTag("anki-export-cancel").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("anki-export").fetchSemanticsNodes().isEmpty() }
+        waitForIdle()
+        assertEquals(emptyList(), saved)
+        assertTrue(runBlocking { terms.getByIds(listOf(comprar, casa, livro)) }.none { it.ankiExportedAt != null })
     }
 
     /** The table says when each card was made, and sorts by it, the latest first. */

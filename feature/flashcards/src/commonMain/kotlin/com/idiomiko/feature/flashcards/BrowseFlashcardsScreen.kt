@@ -215,7 +215,7 @@ fun BrowseFlashcardsScreen(
             if (saveFile(export.fileName.removeSuffix(".apkg"), "apkg", export.bytes)) viewModel.ankiExportSaved(export) else viewModel.closeAnkiExport()
         }
     }
-    state.ankiExport?.takeIf { it !is AnkiExport.Ready }?.let { AnkiExportDialog(it, onDismiss = viewModel::closeAnkiExport) }
+    state.ankiExport?.takeIf { it !is AnkiExport.Ready }?.let { AnkiExportDialog(it, onDismiss = viewModel::closeAnkiExport, onCancel = viewModel::cancelAnkiExport) }
     CardConfirmations(confirmReset, confirmDelete, viewModel, onResetClosed = { confirmReset = null }, onDeleteClosed = { confirmDelete = null })
     settingDue?.let { ids -> SetDueDialog(ids.size, onSet = { days -> viewModel.setDue(ids, days); viewModel.clearSelection() }, onDismiss = { settingDue = null }) }
 }

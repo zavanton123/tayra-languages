@@ -17,19 +17,20 @@ import com.idiomiko.core.domain.repository.TermRepository
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.ui.components.LIST_PAGE_SIZES
 import com.idiomiko.core.ui.components.pageCount
+import kotlin.coroutines.cancellation.CancellationException
+import kotlin.time.Duration.Companion.milliseconds
+import kotlin.time.Instant
+import kotlinx.coroutines.FlowPreview
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.distinctUntilChanged
-import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.debounce
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import kotlin.coroutines.cancellation.CancellationException
-import kotlin.time.Duration.Companion.milliseconds
-import kotlin.time.Instant
 
 /** One card as the browser lists it. */
 data class BrowseRow(
@@ -510,23 +511,35 @@ class BrowseFlashcardsViewModel(
         _state.update { it.copy(ankiImport = null) }
     }
 
+    private var exportJob: Job? = null
+
     /** Builds the Anki deck of the language's cards with their progress, for the screen to save. */
     fun exportAnki() {
         val exporter = deckExport ?: return
         val language = languageId ?: return
         if (_state.value.ankiExport is AnkiExport.Working) return
         _state.update { it.copy(ankiExport = AnkiExport.Working()) }
-        viewModelScope.launch {
+        exportJob = viewModelScope.launch {
+            val job = coroutineContext[Job]
+            // A cancelled export says nothing more, should the work under it still report.
+            fun show(export: AnkiExport) { if (job?.isActive == true) _state.update { it.copy(ankiExport = export) } }
             val result = try {
-                exporter.export(language) { done, total -> _state.update { it.copy(ankiExport = AnkiExport.Working(done, total)) } }
+                exporter.export(language) { done, total -> show(AnkiExport.Working(done, total)) }
                     ?.let { AnkiExport.Ready(it) } ?: AnkiExport.Failed
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
                 AnkiExport.Failed
             }
-            _state.update { it.copy(ankiExport = result) }
+            show(result)
         }
+    }
+
+    /** Stops the export under way, and nothing is saved. */
+    fun cancelAnkiExport() {
+        exportJob?.cancel()
+        exportJob = null
+        _state.update { it.copy(ankiExport = null) }
     }
 
     /** The deck was saved: its words count as in Anki now, so reading does not send them again. */
