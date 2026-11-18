@@ -51,23 +51,24 @@ internal val readPages = listOf(
 internal val readSections = setOf(NavSection.COURSES, NavSection.BOOKS, NavSection.NEWS)
 
 /**
- * The phone's bottom bar: the main areas as tabs, with the flashcards due on theirs, Read opening a sheet of
- * what there is to read, and More for everything else. [section] is the area of the current screen.
+ * The phone's bottom bar: the main areas as tabs (Home, Read, Playlists, Flashcards), with the flashcards due on theirs,
+ * Read opening a sheet of what there is to read, and More for everything else. [section] is the area of the current screen.
  */
 @Composable
 fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val due = LocalFlashcardsDue.current
     var reading by remember { mutableStateOf(false) }
-    // The videos, the playlists and the vocabulary pages are reached through More.
+    // The videos and the vocabulary pages are reached through More.
     val area = when (section) {
         in readSections -> NavSection.BOOKS
-        NavSection.TERMS, NavSection.PLAYLISTS, NavSection.VIDEOS, NavSection.ACCOUNT -> NavSection.SETTINGS
+        NavSection.TERMS, NavSection.VIDEOS, NavSection.ACCOUNT -> NavSection.SETTINGS
         else -> section
     }
     NavigationBar(containerColor = colors.surface, modifier = Modifier.testTag("phone-nav")) {
         PhoneTab(NavSection.HOME, Icons.Default.Home, area) { onNavigate(Route.Home) }
         PhoneTab(NavSection.BOOKS, AppIcons.MenuBook, area, label = tr("Read"), tag = "READ") { reading = true }
+        PhoneTab(NavSection.PLAYLISTS, AppIcons.QueueMusic, area) { onNavigate(Route.Playlists) }
         PhoneTab(NavSection.FLASHCARDS, AppIcons.Style, area, badge = due) { onNavigate(Route.Flashcards) }
         PhoneTab(NavSection.SETTINGS, AppIcons.MoreHoriz, area, label = tr("More"), onClick = onMore)
     }
@@ -123,19 +124,13 @@ internal class MoreEntry(val label: String, val icon: ImageVector, val route: Ro
 private class MoreGroup(val title: String, val entries: List<MoreEntry>)
 
 /**
- * The More sheet's destinations, in groups: listening and watching, the words and how they go,
+ * The More sheet's destinations, in groups: the videos when they are on, the words and how they go,
  * what is downloaded for use offline, and the preferences and data. The settings pages of a single
  * feature and clearing the data are found from Settings, which indexes them.
  */
-private fun moreGroups(videos: Boolean) = listOf(
-    // What there is to read is under Read.
-    MoreGroup(
-        "Listen and watch",
-        listOfNotNull(
-            MoreEntry("Playlists", AppIcons.QueueMusic, Route.Playlists),
-            MoreEntry("Videos", AppIcons.Movie, Route.Videos).takeIf { videos },
-        ),
-    ),
+private fun moreGroups(videos: Boolean) = listOfNotNull(
+    // What there is to read is under Read, the playlists have a tab.
+    MoreGroup("Watch", listOf(MoreEntry("Videos", AppIcons.Movie, Route.Videos))).takeIf { videos },
     MoreGroup(
         "Words and progress",
         listOf(

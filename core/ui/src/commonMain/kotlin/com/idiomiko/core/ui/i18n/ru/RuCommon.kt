@@ -11,7 +11,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     // PhoneNavigation.kt
     "Preferences" to "Настройки",
     "Data" to "Данные",
-    "Listen and watch" to "Аудио и видео",
+    "Watch" to "Видео",
     "Words and progress" to "Слова и прогресс",
     "Preferences and data" to "Настройки и данные",
     // Language names, shown through tr(name).

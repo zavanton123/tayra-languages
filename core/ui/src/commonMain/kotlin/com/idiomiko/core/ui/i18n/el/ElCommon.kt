@@ -11,7 +11,7 @@ internal val elCommon: Map<String, String> = mapOf(
     // PhoneNavigation.kt
     "Preferences" to "Προτιμήσεις",
     "Data" to "Δεδομένα",
-    "Listen and watch" to "Ακρόαση και παρακολούθηση",
+    "Watch" to "Παρακολούθηση",
     "Words and progress" to "Λέξεις και πρόοδος",
     "Preferences and data" to "Προτιμήσεις και δεδομένα",
     // Language names, shown through tr(name).

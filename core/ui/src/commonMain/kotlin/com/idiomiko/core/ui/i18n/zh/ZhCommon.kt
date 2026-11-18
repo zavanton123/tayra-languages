@@ -11,7 +11,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     // PhoneNavigation.kt
     "Preferences" to "偏好设置",
     "Data" to "数据",
-    "Listen and watch" to "收听与观看",
+    "Watch" to "观看",
     "Words and progress" to "词汇与进度",
     "Preferences and data" to "偏好与数据",
     // Language names, shown through tr(name).

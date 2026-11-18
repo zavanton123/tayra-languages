@@ -38,7 +38,8 @@ class PhoneNavigationTest {
         onNodeWithTag("phone-nav-READ").assertIsSelected()
         onNodeWithText("19", useUnmergedTree = true).assertExists()
         onNodeWithTag("phone-nav-HOME").performClick()
-        assertEquals(listOf<Route>(Route.Home), visited)
+        onNodeWithTag("phone-nav-PLAYLISTS").performClick()
+        assertEquals(listOf(Route.Home, Route.Playlists), visited)
         for (gone in listOf("COURSES", "BOOKS", "TERMS")) assertEquals(0, onAllNodesWithTag("phone-nav-$gone").fetchSemanticsNodes().size, gone)
         onNodeWithTag("phone-nav-SETTINGS").performClick()
         assertEquals(1, more)
@@ -82,9 +83,10 @@ class PhoneNavigationTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Croatian").assertExists()
         // The plan's four groups; clearing the data and the settings of single features are found from Settings.
-        for (group in listOf("LISTEN AND WATCH", "WORDS AND PROGRESS", "OFFLINE RESOURCES", "PREFERENCES AND DATA")) onNodeWithText(group).assertExists()
-        // Under Read instead.
-        for (page in listOf("more-News", "more-Find books")) onNodeWithTag(page).assertDoesNotExist()
+        for (group in listOf("WORDS AND PROGRESS", "OFFLINE RESOURCES", "PREFERENCES AND DATA")) onNodeWithText(group).assertExists()
+        // Under Read, or a tab of their own, instead; Watch only with the videos on.
+        for (page in listOf("more-News", "more-Find books", "more-Playlists")) onNodeWithTag(page).assertDoesNotExist()
+        onNodeWithText("WATCH").assertDoesNotExist()
         for (gone in listOf("Clear data", "Keyboard shortcuts", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
         onNodeWithTag("more-Statistics").assertExists()
         // The Flashcards tab opens the review, so the cards are browsed from here.
@@ -102,7 +104,7 @@ class PhoneNavigationTest {
                 CompositionLocalProvider(LocalVideosEnabled provides videos) { MoreSheet(onNavigate = {}, onDismiss = {}) }
             }
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-Playlists").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-Statistics").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, onAllNodesWithTag("more-Videos").fetchSemanticsNodes().size)
         // Tests run from the sources, which count as a debug build.
         onNodeWithTag("more-Experimental features").assertExists()
