@@ -471,7 +471,8 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             ScrollColumn(
                 Modifier.fillMaxSize().onGloballyPositioned { frame = it },
                 state = scroll,
-                contentModifier = Modifier.padding(AppSpacing.l),
+                // The phone's bar already leaves room under its title, so the progress starts close below it.
+                contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, top = AppSpacing.xs, bottom = AppSpacing.l),
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) {
                 // The phone's bar holds the title, so the progress comes first.
