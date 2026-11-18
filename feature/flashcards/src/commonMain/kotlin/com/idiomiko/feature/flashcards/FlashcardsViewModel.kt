@@ -79,6 +79,8 @@ data class CardContent(
 
 data class FlashcardsUiState(
     val loading: Boolean = true,
+    /** Whether a card is read aloud when its answer is shown (the "Read aloud" setting). */
+    val autoplay: Boolean = true,
     val languageName: String = "",
     val card: CardContent? = null,
     val revealed: Boolean = false,
@@ -240,6 +242,7 @@ class FlashcardsViewModel(
         if (speech != null) _state.update { it.copy(modes = AnswerMode.entries) }
         load()
         prepareSpeech()
+        viewModelScope.launch { settings.settings.map { it.flashcardAutoplay }.distinctUntilChanged().collect { on -> _state.update { it.copy(autoplay = on) } } }
         // The cards follow the language chosen in the top bar.
         viewModelScope.launch {
             settings.settings.map { it.currentLanguageId }.distinctUntilChanged().drop(1).collect {
@@ -493,6 +496,16 @@ class FlashcardsViewModel(
         throw e
     } catch (e: Exception) {
         null
+    }
+
+    /** Turns reading aloud on, reading the card now, or off, stopping what is being read. */
+    fun toggleAutoplay() {
+        val on = !settings.current.flashcardAutoplay
+        _state.update { it.copy(autoplay = on) }
+        viewModelScope.launch { settings.update { it.copy(flashcardAutoplay = on) } }
+        val card = _state.value.card
+        if (on && card != null) events.trySend(FlashcardsEvent.Speak(card.spoken, card.languageCode))
+        else events.trySend(FlashcardsEvent.StopSpeaking)
     }
 
     fun reveal() {

@@ -108,6 +108,8 @@ class FlashcardsKeysTest {
     /** The card actions the shortcuts asked for. */
     private val pressed = mutableListOf<String>()
 
+    private var speaker: Speaker? = null
+
     private fun ComposeUiTest.show(): FlashcardsViewModel {
         val id = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
@@ -131,7 +133,7 @@ class FlashcardsKeysTest {
                 IdiomikoTheme {
                     ProvideWindowWidth {
                         val scope = rememberCoroutineScope()
-                        val speaker = remember { Speaker(SpeechSynthesizer(), WavPlayer(), LocalSpeech(listOf(engine)), settings, scope) }
+                        val speaker = remember { Speaker(SpeechSynthesizer(), WavPlayer(), LocalSpeech(listOf(engine)), settings, scope).also { this@FlashcardsKeysTest.speaker = it } }
                         LaunchedEffect(Unit) {
                             viewModel.events.flow.collect { event ->
                                 when (event) {
@@ -145,7 +147,7 @@ class FlashcardsKeysTest {
                             Column {
                                 // Something else that takes the keyboard, as another screen or window does.
                                 androidx.compose.foundation.layout.Box(Modifier.size(1.dp).focusRequester(elsewhere).focusable().testTag("elsewhere"))
-                                FlashcardsContent(state, speaker = speaker, actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onEdit = { edited += it }, onSuspend = { pressed += "suspend" }, onDelete = { pressed += "delete" }, onBrowse = { pressed += "browse" }))
+                                FlashcardsContent(state, speaker = speaker, actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onToggleAutoplay = viewModel::toggleAutoplay, onEdit = { edited += it }, onSuspend = { pressed += "suspend" }, onDelete = { pressed += "delete" }, onBrowse = { pressed += "browse" }))
                             }
                         }
                     }
@@ -156,7 +158,7 @@ class FlashcardsKeysTest {
         return viewModel
     }
 
-    private fun ComposeUiTest.playing() = onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty()
+    private fun playing() = speaker?.let { it.working.value || it.playing.value != null } == true
 
     @Test
     fun clicksOnTheCardsButtonsLeaveTheKeysWithThePage() = runDesktopComposeUiTest(width = 1586, height = 1000) {
@@ -164,14 +166,29 @@ class FlashcardsKeysTest {
         onNodeWithText("Show answer").performClick()
         waitUntil(timeoutMillis = 5_000) { playing() }
         onNodeWithTag("flashcards-keys").assertIsFocused()
-        // Stopped with the square and started again with the word's button: the page still has the keys.
-        onAllNodesWithContentDescription("Stop")[0].performClick()
+        // Reading aloud turned off, which stops it, and the word played with its button: the page still has the keys.
+        onNodeWithTag("autoplay-toggle").performClick()
         waitUntil(timeoutMillis = 3_000) { !playing() }
+        assertEquals(false, settings.current.flashcardAutoplay)
         onAllNodesWithContentDescription("Pronounce").let { it[it.fetchSemanticsNodes().size - 1] }.performClick()
         waitUntil(timeoutMillis = 3_000) { playing() }
         onNodeWithTag("flashcards-keys").assertIsFocused()
         onRoot().performKeyInput { pressKey(Key.Spacebar) }
         waitUntil(timeoutMillis = 3_000) { viewModel.state.value.answered == 1 }
+    }
+
+    /** The card's speaker button turns reading aloud on and off: off, the answer is shown in silence; on, the card is read at once. */
+    @Test
+    fun theSpeakerButtonTurnsReadingAloudOnAndOff() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show()
+        onNodeWithTag("autoplay-toggle").performClick()
+        waitUntil(timeoutMillis = 3_000) { !settings.current.flashcardAutoplay }
+        onNodeWithText("Show answer").performClick()
+        waitUntil(timeoutMillis = 3_000) { viewModel.state.value.revealed }
+        assertEquals(false, playing(), "off, showing the answer reads nothing")
+        onNodeWithTag("autoplay-toggle").performClick()
+        waitUntil(timeoutMillis = 3_000) { playing() }
+        assertEquals(true, settings.current.flashcardAutoplay)
     }
 
     /** R plays the card's sentence and stops it, before the answer as after it. */

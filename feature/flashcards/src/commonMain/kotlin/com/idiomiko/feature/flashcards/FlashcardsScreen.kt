@@ -1,5 +1,6 @@
 package com.idiomiko.feature.flashcards
 
+import androidx.compose.ui.semantics.selected
 import kotlinx.coroutines.flow.StateFlow
 import com.idiomiko.core.ui.components.Confetti
 import androidx.compose.material.icons.filled.Close
@@ -232,6 +233,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onType = viewModel::type,
                 onCheck = viewModel::check,
                 onAnswerMode = viewModel::setAnswerMode,
+                onToggleAutoplay = viewModel::toggleAutoplay,
                 onListen = { microphone { allowed -> if (allowed) viewModel.listen() else viewModel.refuseSpeaking() } },
                 onStopListening = viewModel::stopListening,
                 microphoneLevel = viewModel.microphoneLevel,
@@ -295,6 +297,8 @@ internal class FlashcardActions(
     val onCheck: () -> Unit = {},
     /** Answers cards another way: shown, or typed or said first. */
     val onAnswerMode: (AnswerMode) -> Unit = {},
+    /** Turns reading the card aloud on or off. */
+    val onToggleAutoplay: () -> Unit = {},
     /** Listens to the sentence said aloud, the microphone allowed. */
     val onListen: () -> Unit = {},
     val onStopListening: () -> Unit = {},
@@ -429,7 +433,7 @@ internal fun FlashcardsContent(
                         Finished(state, actions)
                     } else {
                         // Each card fades in as it comes up, filling the height left to it.
-                        key(card.termId) { Appear(Modifier.weight(1f), grow = true) { WideCard(card, state.revealed, state.canUndo, state.pass != null, speaker, actions, timer = { AnswerTimer(state) }) { AnswerGiven(state, actions, compact = false) } } }
+                        key(card.termId) { Appear(Modifier.weight(1f), grow = true) { WideCard(card, state.revealed, state.canUndo, state.pass != null, speaker, actions, autoplay = state.autoplay, timer = { AnswerTimer(state) }) { AnswerGiven(state, actions, compact = false) } } }
                         // Show answer and the answers share one place at the foot; the answers fade in as the card turns over.
                         if (state.revealed) {
                             Appear { Answers(actions, compact = false, state.twoButtons, state.waits, state.suggested) }
@@ -474,7 +478,7 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             val card = state.card
             if (state.preparingAudio) PreparingAudio(actions.onStartWithoutWaiting, compact = true)
             else if (card == null) Finished(state, actions)
-            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, onChooseExample = { actions.onChooseExample(card) }, timer = { AnswerTimer(state) }) { AnswerGiven(state, actions, compact = true) } } }
+            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, onChooseExample = { actions.onChooseExample(card) }, autoplay = state.autoplay, onToggleAutoplay = actions.onToggleAutoplay, timer = { AnswerTimer(state) }) { AnswerGiven(state, actions, compact = true) } } }
         }
         val card = state.card?.takeIf { !state.preparingAudio } ?: return@Column
         Column(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -627,7 +631,9 @@ private fun CountPill(tag: String, count: Int, label: String, tint: Color, large
  * examples for it, beside its sound.
  */
 @Composable
-private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onChooseExample: () -> Unit = {}, timer: @Composable () -> Unit = {}, given: @Composable () -> Unit = {}) {
+private fun Card(
+    card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onChooseExample: () -> Unit = {},
+    autoplay: Boolean = true, onToggleAutoplay: () -> Unit = {}, timer: @Composable () -> Unit = {}, given: @Composable () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val inset = if (compact) AppSpacing.xl else AppSpacing.xxxl
@@ -662,13 +668,7 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
                 }
                 if (speaker != null) Spacer(Modifier.width(AppSpacing.m))
             }
-            if (speaker != null) {
-                SpeakButton(
-                    card.spoken, card.languageCode, speaker, NoFocus,
-                    style = IconButtonStyle.Outlined, size = IconButtonSize.Large, shape = AppShapes.circle,
-                    tooltip = if (card.sentence != null) tr("Listen to the sentence") else tr("Pronounce"),
-                )
-            }
+            if (speaker != null) AutoplayButton(autoplay, onToggleAutoplay)
         }
         CardText(card, revealed, compact)
         given()
@@ -746,7 +746,9 @@ private fun CardText(card: CardContent, revealed: Boolean, compact: Boolean) {
  * word under the sentence, its sound above it.
  */
 @Composable
-private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, inPass: Boolean, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier, timer: @Composable () -> Unit = {}, given: @Composable () -> Unit = {}) {
+private fun WideCard(
+    card: CardContent, revealed: Boolean, canUndo: Boolean, inPass: Boolean, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier,
+    autoplay: Boolean = true, timer: @Composable () -> Unit = {}, given: @Composable () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     Column(modifier.fillMaxSize().cardSurface(AppShapes.large).padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl).testTag("flashcard")) {
@@ -754,13 +756,7 @@ private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, inP
             CardButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous card"), actions.onUndo, enabled = canUndo, tag = "previous-card")
             timer()
             Spacer(Modifier.weight(1f))
-            if (speaker != null) {
-                SpeakButton(
-                    card.spoken, card.languageCode, speaker, NoFocus,
-                    style = IconButtonStyle.Outlined, size = IconButtonSize.Large, shape = AppShapes.circle,
-                    tooltip = if (card.sentence != null) tr("Listen to the sentence") else tr("Pronounce"),
-                )
-            }
+            if (speaker != null) AutoplayButton(autoplay, actions.onToggleAutoplay)
             // Other examples show the word, so they are offered once it is shown.
             if (revealed && card.sentence != null) CardButton(AppIcons.Sync, tr("Choose another example"), { actions.onChooseExample(card) }, tag = "choose-example")
             CardMenu(card, inPass, actions)
@@ -796,6 +792,25 @@ private fun WideCard(card: CardContent, revealed: Boolean, canUndo: Boolean, inP
             // Shown when the card's content is taller than the card, as a long sentence and its answer may be.
             EdgeScrollbar(scroll)
         }
+    }
+}
+
+/** Reading the card aloud on or off: lit while on, when the answer's sound plays by itself. */
+@Composable
+private fun AutoplayButton(on: Boolean, onToggle: () -> Unit) {
+    val label = tr("Read aloud")
+    AppTooltip(label) {
+        AppIconButton(
+            if (on) AppIcons.VolumeUp else AppIcons.VolumeOff,
+            contentDescription = label,
+            onClick = onToggle,
+            modifier = NoFocus.testTag("autoplay-toggle").semantics { selected = on },
+            size = IconButtonSize.Large,
+            style = IconButtonStyle.Outlined,
+            tint = if (on) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
+            shape = AppShapes.circle,
+            selected = on,
+        )
     }
 }
 

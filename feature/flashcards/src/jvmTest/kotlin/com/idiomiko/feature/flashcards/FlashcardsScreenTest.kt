@@ -707,8 +707,8 @@ class FlashcardsScreenTest {
         onNodeWithTag("choose-example").performMouseInput { moveTo(center) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Choose another example").fetchSemanticsNodes().isNotEmpty() }
         save("FLASHCARD_BUTTONS_SCREENSHOT")
-        onNodeWithContentDescription("Listen to the sentence").performMouseInput { moveTo(center) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Listen to the sentence").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("autoplay-toggle").performMouseInput { moveTo(center) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Read aloud").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** A phone offers other examples in the card's corner too. */
