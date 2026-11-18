@@ -155,7 +155,8 @@ internal fun Long.date(): LocalDate = LocalDate.fromEpochDays(toInt())
 /** The colours of the kinds of card an answer was given to, as Anki colours them. */
 internal fun ReviewKind.tint(): Color = when (this) {
     ReviewKind.LEARNING -> AppAccents.blue
-    ReviewKind.YOUNG -> AppAccents.teal
+    // Young and mature apart at a glance, light and deep green as Anki has them.
+    ReviewKind.YOUNG -> AppAccents.lime
     ReviewKind.MATURE -> AppAccents.green
     ReviewKind.RELEARNING -> AppAccents.red
 }
@@ -229,7 +230,7 @@ private fun CardCountsCard(counts: CardCounts, modifier: Modifier) {
         Triple(tr("New"), counts.new, AppAccents.blue),
         Triple(tr("Learning"), counts.learning, AppAccents.orange),
         Triple(tr("Relearning"), counts.relearning, AppAccents.red),
-        Triple(tr("Young"), counts.young, AppAccents.teal),
+        Triple(tr("Young"), counts.young, ReviewKind.YOUNG.tint()),
         Triple(tr("Mature"), counts.mature, AppAccents.green),
         Triple(tr("Suspended"), counts.suspended, MaterialTheme.colorScheme.outline),
     )

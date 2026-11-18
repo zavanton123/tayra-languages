@@ -20,6 +20,8 @@ object AppAccents {
     val blue = Color(0xFF3B6FE0)
     val green = Color(0xFF2E9D57)
     val teal = Color(0xFF1F8A8A)
+    /** A light yellow-green, apart from [green] in both hue and lightness: young flashcards beside mature ones. */
+    val lime = Color(0xFF9BC53D)
     val purple = Color(0xFF7C4DDB)
     val orange = Color(0xFFEA7A1B)
     val pink = Color(0xFFD9488B)
