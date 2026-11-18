@@ -47,7 +47,6 @@ import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PageColumn
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.ProgressTrack
-import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.StatTile
@@ -137,7 +136,7 @@ internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onCont
     }
     // A playlist under way comes after the reading and the cards, as a quieter way back.
     shownState.playlist?.let { PlaylistRow(it, onContinuePlaylist) }
-    if (activity != null) StudyActivityCard(activity, onStats = { onNavigate(Route.Stats) })
+    if (activity != null) StudyActivityCard(activity)
 }
 
 internal enum class PhonePrimaryActivity { COURSE, FLASHCARDS, BOOK, BROWSE_COURSES }
@@ -200,7 +199,7 @@ private fun PhoneHomeItems(state: HomeUiState, onNavigate: (Route) -> Unit, onCo
     }
     // Listening comes after reading and the cards: fourth in the order of what to do next.
     state.playlist?.let { PlaylistRow(it, onContinuePlaylist) }
-    state.activity?.let { StudyActivityCard(it, onStats = { onNavigate(Route.Stats) }) }
+    state.activity?.let { StudyActivityCard(it) }
 }
 
 @Composable
@@ -440,7 +439,7 @@ private fun ActionCard(
 
 /** Each recent day, darker the more was studied: words read, flashcards answered or words saved. */
 @Composable
-private fun StudyActivityCard(activity: StudyActivity, onStats: () -> Unit) {
+private fun StudyActivityCard(activity: StudyActivity) {
     // A calendar year at a time, this one first, back to the year of the first study.
     var year by rememberSaveable { mutableStateOf(activity.today.year) }
     val firstYear = activity.days.keys.minOfOrNull { it.year } ?: activity.today.year
@@ -457,11 +456,7 @@ private fun StudyActivityCard(activity: StudyActivity, onStats: () -> Unit) {
         fewer = tr("Less study"),
         more = tr("More study"),
         icon = AppIcons.History,
-        // The days in more detail, and the rest of the figures, are on Statistics.
-        action = {
-            YearSwitch(year, canBack = year > firstYear, canForward = year < activity.today.year) { year = it }
-            QuietButton(tr("Statistics"), onClick = onStats, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward, modifier = Modifier.testTag("home-stats"))
-        },
+        action = { YearSwitch(year, canBack = year > firstYear, canForward = year < activity.today.year) { year = it } },
         describe = { date ->
             val day = activity.days[date]
             listOfNotNull(
