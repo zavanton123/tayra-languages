@@ -1,6 +1,7 @@
 package com.idiomiko.core.ui.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -43,6 +44,7 @@ import androidx.compose.ui.unit.dp
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppAlpha
+import com.idiomiko.core.ui.theme.AppBorders
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
@@ -79,6 +81,8 @@ fun ActivityHeatmapCard(
     range: ClosedRange<LocalDate>? = null,
 ) {
     val empty = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
+    val surface = MaterialTheme.colorScheme.surface
+    val outline = MaterialTheme.colorScheme.outlineVariant
     var pointed by remember { mutableStateOf<LocalDate?>(null) }
     val density = LocalDensity.current
     val measurer = rememberTextMeasurer()
@@ -165,12 +169,16 @@ fun ActivityHeatmapCard(
                                     repeat(7) { weekday ->
                                         val date = start.plus(week * 7 + weekday, DateTimeUnit.DAY)
                                         val level = shown[date] ?: 0
+                                        // Days still to come show as blank squares in an outline, so the rest of the year is in view.
+                                        val ahead = date > today && (range == null || date in range)
                                         val shade = when {
-                                            date > today || (range != null && date !in range) -> Color.Transparent
+                                            ahead -> surface
+                                            range != null && date !in range -> Color.Transparent
+                                            date > today -> Color.Transparent
                                             level == 0 -> empty
                                             else -> color.copy(alpha = heatShade(level))
                                         }
-                                        Box(Modifier.size(cell).clip(AppShapes.tiny).background(shade))
+                                        Box(Modifier.size(cell).clip(AppShapes.tiny).background(shade).then(if (ahead) Modifier.border(AppBorders.hairline(outline), AppShapes.tiny) else Modifier))
                                     }
                                 }
                             }
