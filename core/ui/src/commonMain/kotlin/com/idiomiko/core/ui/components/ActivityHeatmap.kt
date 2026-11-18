@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentWidth
@@ -27,11 +28,17 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.pointerInput
-import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.IntOffset
+import androidx.compose.ui.unit.IntRect
+import androidx.compose.ui.unit.IntSize
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.Popup
+import androidx.compose.ui.window.PopupPositionProvider
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppAlpha
@@ -40,6 +47,7 @@ import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.LocalDate
+import kotlinx.datetime.daysUntil
 import kotlinx.datetime.minus
 import kotlinx.datetime.plus
 
@@ -58,7 +66,7 @@ fun ActivityHeatmapCard(
     more: String,
     icon: ImageVector = AppIcons.BarChart,
     color: Color = AppAccents.green,
-    /** What a day held, shown under the squares for the day pointed at or tapped. */
+    /** What a day held, shown in a tooltip over the square pointed at or tapped. */
     describe: ((LocalDate) -> String)? = null,
     /** A way on from the card, at its header's end. */
     action: (@Composable RowScope.() -> Unit)? = null,
@@ -108,48 +116,51 @@ fun ActivityHeatmapCard(
                             }
                         }
                     }
-                    Row(
-                        Modifier.testTag("heatmap").then(
-                            if (describe == null) Modifier else Modifier.pointerInput(start, weeks, cell) {
-                                // The square under the pointer, found from where it is, rather than a listener on every square.
-                                val step = (cell + gap).toPx()
-                                awaitPointerEventScope {
-                                    while (true) {
-                                        val event = awaitPointerEvent()
-                                        val at = event.changes.firstOrNull()?.position ?: continue
-                                        pointed = if (event.type == PointerEventType.Exit) null else {
-                                            val week = (at.x / step).toInt()
-                                            val weekday = (at.y / step).toInt()
-                                            if (at.x < 0 || at.y < 0 || week >= weeks || weekday > 6) null
-                                            else start.plus(week * 7 + weekday, DateTimeUnit.DAY).takeIf { it <= today }
+                    Box {
+                        Row(
+                            Modifier.testTag("heatmap").then(
+                                if (describe == null) Modifier else Modifier.pointerInput(start, weeks, cell) {
+                                    // The square under the pointer, found from where it is, rather than a listener on every square.
+                                    val step = (cell + gap).toPx()
+                                    awaitPointerEventScope {
+                                        while (true) {
+                                            val event = awaitPointerEvent()
+                                            val at = event.changes.firstOrNull()?.position ?: continue
+                                            pointed = if (event.type == PointerEventType.Exit) null else {
+                                                val week = (at.x / step).toInt()
+                                                val weekday = (at.y / step).toInt()
+                                                if (at.x < 0 || at.y < 0 || week >= weeks || weekday > 6) null
+                                                else start.plus(week * 7 + weekday, DateTimeUnit.DAY).takeIf { it <= today }
+                                            }
                                         }
                                     }
-                                }
-                            },
-                        ),
-                        horizontalArrangement = Arrangement.spacedBy(gap),
-                    ) {
-                        repeat(weeks) { week ->
-                            Column(verticalArrangement = Arrangement.spacedBy(gap)) {
-                                repeat(7) { weekday ->
-                                    val date = start.plus(week * 7 + weekday, DateTimeUnit.DAY)
-                                    val level = shown[date] ?: 0
-                                    val shade = when {
-                                        date > today -> Color.Transparent
-                                        level == 0 -> empty
-                                        else -> color.copy(alpha = heatShade(level))
+                                },
+                            ),
+                            horizontalArrangement = Arrangement.spacedBy(gap),
+                        ) {
+                            repeat(weeks) { week ->
+                                Column(verticalArrangement = Arrangement.spacedBy(gap)) {
+                                    repeat(7) { weekday ->
+                                        val date = start.plus(week * 7 + weekday, DateTimeUnit.DAY)
+                                        val level = shown[date] ?: 0
+                                        val shade = when {
+                                            date > today -> Color.Transparent
+                                            level == 0 -> empty
+                                            else -> color.copy(alpha = heatShade(level))
+                                        }
+                                        Box(Modifier.size(cell).clip(AppShapes.tiny).background(shade))
                                     }
-                                    Box(Modifier.size(cell).clip(AppShapes.tiny).background(shade))
                                 }
                             }
                         }
+                        val day = pointed
+                        if (describe != null && day != null) {
+                            val offset = start.daysUntil(day)
+                            val step = with(density) { (cell + gap).roundToPx() }
+                            DayTooltip("${day.shortDate(today)} · ${describe(day)}", IntRect(IntOffset(offset / 7 * step, offset % 7 * step), IntSize(with(density) { cell.roundToPx() }, with(density) { cell.roundToPx() })))
+                        }
                     }
                 }
-            }
-            if (describe != null) {
-                Spacer(Modifier.height(AppSpacing.s))
-                // Always a line tall, so the legend under it does not move as days are pointed at.
-                Text(pointed?.let { "${it.shortDate(today)} · ${describe(it)}" } ?: " ", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("heatmap-day"))
             }
             Spacer(Modifier.height(AppSpacing.m))
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
@@ -159,6 +170,30 @@ fun ActivityHeatmapCard(
                 Text(more, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
+    }
+}
+
+/** What [text] says about the square at [square] (within the squares' box), over it, kept inside the window. */
+@Composable
+private fun DayTooltip(text: String, square: IntRect) {
+    val margin = with(LocalDensity.current) { AppSpacing.xs.roundToPx() }
+    val position = remember(square, margin) {
+        object : PopupPositionProvider {
+            override fun calculatePosition(anchorBounds: IntRect, windowSize: IntSize, layoutDirection: LayoutDirection, popupContentSize: IntSize): IntOffset {
+                val cell = square.translate(anchorBounds.topLeft)
+                val x = (cell.center.x - popupContentSize.width / 2).coerceIn(0, (windowSize.width - popupContentSize.width).coerceAtLeast(0))
+                val above = cell.top - popupContentSize.height - margin
+                return IntOffset(x, if (above >= 0) above else cell.bottom + margin)
+            }
+        }
+    }
+    Popup(popupPositionProvider = position) {
+        Text(
+            text,
+            Modifier.clip(AppShapes.small).background(MaterialTheme.colorScheme.inverseSurface).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs).testTag("heatmap-day"),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.inverseOnSurface,
+        )
     }
 }
 
