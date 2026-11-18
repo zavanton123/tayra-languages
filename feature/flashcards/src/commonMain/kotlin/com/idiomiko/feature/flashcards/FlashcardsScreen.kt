@@ -81,6 +81,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.idiomiko.core.domain.account.AutoSync
 import com.idiomiko.core.domain.flashcards.AnswerMode
 import com.idiomiko.core.domain.flashcards.ExtraStudy
 import com.idiomiko.core.domain.flashcards.FlashcardService
@@ -152,6 +153,10 @@ import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Instant
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.drop
+import kotlinx.coroutines.flow.filter
+import kotlinx.coroutines.flow.map
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.koinInject
@@ -185,6 +190,12 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     DisposableEffect(speaker) { onDispose { speaker.stop() } }
     // Coming back from editing a term or the settings shows the card as it is now.
     LaunchedEffect(Unit) { viewModel.load() }
+    // A sync, pulled for or on its own, may bring answers given on another device: the cards are read again, the one on show kept.
+    val sync = koinInject<AutoSync>()
+    LaunchedEffect(sync) {
+        sync.status.map { it.running }.distinctUntilChanged().drop(1).filter { !it }
+            .collect { viewModel.load(prefer = viewModel.state.value.card?.termId, keepAnswer = true) }
+    }
     val compact = LocalWindowWidth.current.isCompact
     val microphone = rememberMicrophoneAccess()
     var confirmDelete by remember { mutableStateOf<CardContent?>(null) }

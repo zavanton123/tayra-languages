@@ -193,11 +193,13 @@ private fun TranslationBackupNotice(onBackups: () -> Unit) {
     ToastHost(toast)
 }
 
-/** Whether pulling the page down asks to sync: not where the page has a vertical drag of its own, as the reader, a review, a practice or a player. */
+/**
+ * Whether pulling the page down asks to sync: not where the page has a vertical drag of its own, as the reader, a
+ * practice or a player. The flashcard review has none, and reads its cards again once a sync is done.
+ */
 private fun pullsToSync(destination: NavDestination): Boolean =
     !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>() && !destination.hasRoute<Route.PracticeWords>() &&
-        !destination.hasRoute<Route.Flashcards>() && !destination.hasRoute<Route.Watch>() && !destination.hasRoute<Route.Player>() &&
-        !destination.hasRoute<Route.ChooseLanguage>()
+        !destination.hasRoute<Route.Watch>() && !destination.hasRoute<Route.Player>() && !destination.hasRoute<Route.ChooseLanguage>()
 
 /** The area of the bottom bar a destination belongs to; pages beyond the tabs count as More. */
 private fun sectionOf(destination: NavDestination): NavSection = when {
