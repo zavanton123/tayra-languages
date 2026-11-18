@@ -474,7 +474,7 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
                 contentModifier = Modifier.padding(AppSpacing.l),
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) {
-                ScreenHeader(tr("Flashcards"), subtitle = null)
+                // The phone's bar holds the title, so the progress comes first.
                 Progress(state, compact = true, onEndPass = actions.onEndPass)
                 val card = state.card
                 if (state.preparingAudio) PreparingAudio(actions.onStartWithoutWaiting, compact = true)
