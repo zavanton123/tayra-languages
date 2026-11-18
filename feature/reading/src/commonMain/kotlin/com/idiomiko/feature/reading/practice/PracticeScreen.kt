@@ -714,14 +714,14 @@ private fun SpokenAnswer(state: PracticeUiState, actions: PracticeActions) {
 @Composable
 private fun Feedback(state: PracticeUiState, exercise: Exercise) {
     val (tint, title) = when (state.result) {
-        PracticeResult.CORRECT -> AppAccents.green to tr("Correct")
+        PracticeResult.CORRECT -> AppAccents.green to tr("Correct!")
         PracticeResult.ALMOST -> AppAccents.amber to tr("Almost: mind the accents")
         PracticeResult.TYPO -> AppAccents.amber to tr("Almost: mind the spelling")
-        else -> AppAccents.red to tr("Not quite")
+        else -> AppAccents.red to tr("Not quite!")
     }
     if (exercise.type == ExerciseType.MATCHING) {
         Notice(
-            if (state.result == PracticeResult.WRONG) tr("Not quite") else if (state.wrongPairs == 0) tr("Correct") else tr("Almost"),
+            if (state.result == PracticeResult.WRONG) tr("Not quite!") else if (state.wrongPairs == 0) tr("Correct!") else tr("Almost"),
             Modifier.testTag("practice-feedback"),
             message = if (state.result == PracticeResult.WRONG) tr("The pairs are shown above.") else trPlural(state.wrongPairs, "Every pair matched, with {0} wrong try", "Every pair matched, with {0} wrong tries").takeIf { state.wrongPairs > 0 } ?: tr("Every pair matched."),
             tint = if (state.result == PracticeResult.WRONG) AppAccents.red else if (state.wrongPairs == 0) AppAccents.green else AppAccents.amber,

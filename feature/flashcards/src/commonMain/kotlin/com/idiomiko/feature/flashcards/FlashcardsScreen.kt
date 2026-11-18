@@ -965,10 +965,10 @@ private fun AnswerGiven(state: FlashcardsUiState, actions: FlashcardActions, com
 @Composable
 private fun TypedVerdict(hidden: String, typed: String, result: TypedResult, compact: Boolean) {
     val (tint, title) = when (result) {
-        TypedResult.CORRECT -> AppAccents.green to tr("Correct")
+        TypedResult.CORRECT -> AppAccents.green to tr("Correct!")
         TypedResult.ALMOST -> AppAccents.amber to tr("Almost: mind the accents")
         TypedResult.TYPO -> AppAccents.amber to tr("Almost: mind the spelling")
-        TypedResult.WRONG -> AppAccents.red to tr("Not quite")
+        TypedResult.WRONG -> AppAccents.red to tr("Not quite!")
     }
     Column(
         Modifier.fillMaxWidth().padding(top = if (compact) AppSpacing.l else AppSpacing.xl).testTag("flashcard-verdict"),
@@ -989,7 +989,7 @@ private fun SpokenVerdict(sentence: String, heard: String, result: TypedResult, 
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(AppSpacing.xs),
     ) {
-        Text(if (right) tr("Correct") else tr("Not quite"), style = AppText.itemTitle, color = if (right) AppAccents.green else AppAccents.red)
+        Text(if (right) tr("Correct!") else tr("Not quite!"), style = AppText.itemTitle, color = if (right) AppAccents.green else AppAccents.red)
         SentenceCheck(sentence, heard, Modifier.testTag("flashcard-heard-check"))
     }
 }

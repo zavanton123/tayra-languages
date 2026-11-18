@@ -291,7 +291,7 @@ class PracticeScreenTest {
         exercises.forEachIndexed { index, exercise ->
             waitUntil(timeoutMillis = 5_000) { viewModel.state.value.index == index && !viewModel.state.value.answered }
             onNodeWithTag("practice-option-${exercise.options.indexOf(exercise.answer)}").performClick()
-            waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct!").fetchSemanticsNodes().isNotEmpty() }
             onNodeWithText(if (index == exercises.lastIndex) "See the result" else "Continue").performClick()
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Back to vocabulary").fetchSemanticsNodes().isNotEmpty() }
@@ -317,7 +317,7 @@ class PracticeScreenTest {
         assertTrue(exercise.options.all { it in learning.values }, exercise.options.toString())
         shot("meaning")
         onNodeWithTag("practice-option-${exercise.options.indexOf(exercise.answer)}").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct!").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** A heard sentence is read aloud and hidden; the question gives the meaning and the word is chosen. */
@@ -331,7 +331,7 @@ class PracticeScreenTest {
         onNodeWithText("Which word means “${exercise.wordTranslation}”?").assertExists()
         shot("hear-sentence")
         onNodeWithTag("practice-option-${exercise.options.indexOf(exercise.answer)}").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct!").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("practice-sentence").assertExists()
     }
 
@@ -372,7 +372,7 @@ class PracticeScreenTest {
         onNodeWithText("CHOOSE THE MISSING WORD").assertExists()
         shot("form")
         onNodeWithTag("practice-option-${first.options.indexOf(first.answer)}").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct!").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** Words are matched with their meanings: a wrong pair counts against the round, which ends once every word is matched. */
@@ -406,7 +406,7 @@ class PracticeScreenTest {
         assertEquals("Eu moro no Brasil", viewModel.state.value.typed, "no tile brings its punctuation")
         shot("build")
         onNodeWithText("Check").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct!").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** The first word has no capital to give it away, unless it always has one, and the sentence is still right and shown as written. */
@@ -421,7 +421,7 @@ class PracticeScreenTest {
         assertEquals("Eu moro no Brasil.", exercise.answer)
         for (part in listOf("eu", "moro", "no", "Brasil")) onNodeWithTag("practice-tile-${exercise.tiles.indexOf(part)}").performClick()
         onNodeWithText("Check").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct!").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Eu moro no Brasil.").assertExists()
     }
 
@@ -553,7 +553,7 @@ class PracticeScreenTest {
                 onNodeWithTag("practice-input").performTextInput(exercise.answer.lowercase())
                 onNodeWithText("Check").performClick()
             }
-            waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct!").fetchSemanticsNodes().isNotEmpty() }
             if (index == 0) shot("answered")
             onNodeWithText(if (index == exercises.lastIndex) "See the result" else "Continue").performClick()
         }
@@ -589,7 +589,7 @@ class PracticeScreenTest {
                 }
             }
             if (index < 2) {
-                waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not quite").fetchSemanticsNodes().isNotEmpty() }
+                waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not quite!").fetchSemanticsNodes().isNotEmpty() }
                 if (exercise.word !in missed) missed += exercise.word
                 if (index == 0) shot("wrong")
             }
@@ -622,7 +622,7 @@ class PracticeScreenTest {
 
         speech.answer = { Heard.Words(first.sentence) }
         onNodeWithTag("practice-speak").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct!").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Heard: ${first.sentence}").assertExists()
         assertEquals(first.saying, speech.hints.last(), "the recogniser is told the phrase expected")
         shot("spoken-gap")
@@ -631,7 +631,7 @@ class PracticeScreenTest {
         val second = viewModel.state.value.current!!
         speech.answer = { Heard.Words(second.saying!!.replace(second.word, "nada")) }
         onNodeWithTag("practice-speak").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not quite").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not quite!").fetchSemanticsNodes().isNotEmpty() }
         // What was said, word by word against the phrase.
         onNodeWithTag("practice-sentence-check").assertExists()
         viewModel.next()
@@ -641,7 +641,7 @@ class PracticeScreenTest {
         shot("spoken-phrase")
         speech.answer = { Heard.Words(third.word) }
         onNodeWithTag("practice-speak").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct!").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** A phrase said for a gap counts by its missing word, and shows word by word what was heard; stopping early checks what was said so far. */

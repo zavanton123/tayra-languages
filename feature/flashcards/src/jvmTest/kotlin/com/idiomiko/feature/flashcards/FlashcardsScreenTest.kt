@@ -201,7 +201,7 @@ class FlashcardsScreenTest {
         onNodeWithText("Show answer").assertExists()
         save("FLASHCARD_TYPING_SCREENSHOT")
         typeAndCheck("Comprar")
-        onNodeWithText("Correct").assertExists()
+        onNodeWithText("Correct!").assertExists()
         assertEquals(0, onAllNodesWithTag("flashcard-typed-check").fetchSemanticsNodes().size, "nothing to set right")
         onNodeWithTag("answer-Good").assertIsSelected()
         save("FLASHCARD_TYPED_SCREENSHOT")
@@ -225,7 +225,7 @@ class FlashcardsScreenTest {
         onNodeWithTag("answer-Again").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isEmpty() }
         typeAndCheck("compra")
-        onNodeWithText("Not quite").assertExists()
+        onNodeWithText("Not quite!").assertExists()
         onNodeWithTag("answer-Again").assertIsSelected()
     }
 
@@ -280,7 +280,7 @@ class FlashcardsScreenTest {
     fun aWordTypedWronglyCanBeTriedAgainWithNothingSaved() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show(answerMode = AnswerMode.TYPE)
         typeAndCheck("vender")
-        onNodeWithText("Not quite").assertExists()
+        onNodeWithText("Not quite!").assertExists()
         save("FLASHCARD_TRY_AGAIN_SCREENSHOT")
         onNodeWithTag("flashcard-try-again").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-verdict").fetchSemanticsNodes().isEmpty() }
@@ -288,7 +288,7 @@ class FlashcardsScreenTest {
         // Back on the question, its word hidden again.
         onNodeWithTag("flashcard-answer").assertDoesNotExist()
         typeAndCheck("comprar")
-        onNodeWithText("Correct").assertExists()
+        onNodeWithText("Correct!").assertExists()
         onNodeWithTag("flashcard-try-again").assertDoesNotExist()
         onNodeWithTag("answer-Good").assertIsSelected()
         onNodeWithTag("answer-Good").performClick()
@@ -383,7 +383,7 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(listOf<String?>(sentence), speech.hints, "the recogniser leans towards the sentence")
         assertEquals(listOf(true), speech.longPauses, "a whole sentence may pause")
-        onNodeWithText("Correct").assertExists()
+        onNodeWithText("Correct!").assertExists()
         onNodeWithTag("flashcard-heard-check").assertExists()
         onNodeWithTag("answer-Good").assertIsSelected()
         save("FLASHCARD_SPOKEN_SCREENSHOT")
@@ -404,7 +404,7 @@ class FlashcardsScreenTest {
         assertEquals(0, onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().size)
         onNodeWithTag("flashcard-speak").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Not quite").assertExists()
+        onNodeWithText("Not quite!").assertExists()
         onNodeWithTag("answer-Again").assertIsSelected()
     }
 
