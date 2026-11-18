@@ -8,7 +8,6 @@ import com.idiomiko.core.domain.dictionary.DictionaryPacks
 import com.idiomiko.core.domain.dictionary.OfflineDictionary
 import com.idiomiko.core.domain.flashcards.AnswerMode
 import com.idiomiko.core.domain.flashcards.AutoAnswer
-import com.idiomiko.core.domain.flashcards.BacklogOrder
 import com.idiomiko.core.domain.flashcards.CardState
 import com.idiomiko.core.domain.flashcards.DueCounts
 import com.idiomiko.core.domain.flashcards.ExtraStudy
@@ -127,8 +126,6 @@ data class FlashcardsUiState(
     val suggested: Rating? = null,
     /** The extra pass being gone through past the day's limits; null for the day's own cards. */
     val pass: ExtraPass? = null,
-    /** The order today's reviews take as far more are due than usual; null on a day like any other. */
-    val backlog: BacklogOrder? = null,
     /** The card the last answer made a leech; null when it made none. */
     val leech: LeechNote? = null,
     /** When the card on show came up, for the timer the settings may show; null without a card. */
@@ -375,7 +372,6 @@ class FlashcardsViewModel(
                     waits = if (pass != null) emptyMap() else session.outcomes.mapValues { (_, after) -> CardWait(after.intervalDays.takeIf { after.state.isReview }, after.due - session.shownAt) },
                     reading = reading,
                     pass = pass,
-                    backlog = session.backlog,
                     shownAt = shownAt,
                     showTimer = settings.current.flashcardShowTimer,
                 )
