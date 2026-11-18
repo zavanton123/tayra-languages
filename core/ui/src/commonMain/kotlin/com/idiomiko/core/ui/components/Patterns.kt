@@ -231,32 +231,36 @@ fun <T> SegmentedToggle(
                     if (active) (if (solid) colors.onPrimary else colors.primary) else colors.onSurfaceVariant,
                     AppMotion.spec(AppMotion.short),
                 )
-                Row(
-                    Modifier.then(if (fill) Modifier.weight(1f) else Modifier).fillMaxHeight()
-                        .onPlaced { places[index] = it.positionInParent().x.roundToInt() to it.size.width }
-                        .clip(AppShapes.compact)
-                        // Until the segments are placed, the chosen one draws its own highlight.
-                        .then(if (active && places[chosen] == null) Modifier.background(if (solid) colors.primary else colors.primary.copy(alpha = AppAlpha.soft)) else Modifier)
-                        .clickable { onSelect(segment.value) }
-                        .padding(horizontal = if (segment.label == null) (if (dense) AppSpacing.s else AppSpacing.m) else if (fill) AppSpacing.s else AppSpacing.l)
-                        .then(if (segment.testTag != null) Modifier.testTag(segment.testTag) else Modifier),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally),
-                ) {
-                    if (segment.icon != null) {
-                        Icon(segment.icon, contentDescription = if (segment.label == null) segment.description else null, tint = tint, modifier = Modifier.size(AppSizes.icon))
-                    }
-                    if (segment.label != null) {
-                        Text(
-                            segment.label,
-                            style = MaterialTheme.typography.bodyMedium,
-                            color = tint,
-                            fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
-                            maxLines = 1,
-                            overflow = TextOverflow.Ellipsis,
-                        )
+                // Where the segment sits in the row, for the highlight to find it.
+                val place = Modifier.then(if (fill) Modifier.weight(1f) else Modifier).fillMaxHeight()
+                    .onPlaced { places[index] = it.positionInParent().x.roundToInt() to it.size.width }
+                val body = Modifier.clip(AppShapes.compact)
+                    // Until the segments are placed, the chosen one draws its own highlight.
+                    .then(if (active && places[chosen] == null) Modifier.background(if (solid) colors.primary else colors.primary.copy(alpha = AppAlpha.soft)) else Modifier)
+                    .clickable { onSelect(segment.value) }
+                    .padding(horizontal = if (segment.label == null) (if (dense) AppSpacing.s else AppSpacing.m) else if (fill) AppSpacing.s else AppSpacing.l)
+                    .then(if (segment.testTag != null) Modifier.testTag(segment.testTag) else Modifier)
+                val content: @Composable (Modifier) -> Unit = { modifier ->
+                    Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally)) {
+                        if (segment.icon != null) {
+                            Icon(segment.icon, contentDescription = if (segment.label == null) segment.description else null, tint = tint, modifier = Modifier.size(AppSizes.icon))
+                        }
+                        if (segment.label != null) {
+                            Text(
+                                segment.label,
+                                style = MaterialTheme.typography.bodyMedium,
+                                color = tint,
+                                fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis,
+                            )
+                        }
                     }
                 }
+                // An icon alone is named by a tooltip.
+                val name = segment.description
+                if (segment.label == null && name != null) AppTooltip(name, place) { content(Modifier.fillMaxHeight().then(if (fill) Modifier.fillMaxWidth() else Modifier).then(body)) }
+                else content(place.then(body))
             }
         }
     }

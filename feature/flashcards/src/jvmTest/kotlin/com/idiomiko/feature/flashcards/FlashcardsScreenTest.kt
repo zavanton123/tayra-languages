@@ -1,86 +1,83 @@
 package com.idiomiko.feature.flashcards
 
-import androidx.compose.ui.semantics.SemanticsProperties
-import kotlinx.coroutines.flow.first
-import kotlinx.coroutines.CompletableDeferred
-import androidx.compose.ui.test.onLast
-import kotlin.time.Duration
-import kotlin.time.Duration.Companion.days
-import kotlin.time.Clock
-import com.idiomiko.core.domain.flashcards.MemoryState
-import com.idiomiko.core.domain.flashcards.CardState
-import com.idiomiko.core.domain.flashcards.CardSchedule
-import androidx.compose.ui.test.assertIsNotEnabled
-import androidx.compose.ui.test.isEnabled
-import androidx.compose.ui.test.hasTestTag
-import androidx.compose.runtime.setValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import com.idiomiko.core.domain.practice.Heard
-import com.idiomiko.core.domain.practice.TypedResult
-import com.idiomiko.core.domain.practice.SpeechRecognition
-import androidx.compose.ui.test.performTextClearance
-import androidx.compose.ui.test.performTextInput
-import androidx.compose.ui.test.assertIsSelected
-import com.idiomiko.core.domain.flashcards.AnswerMode
-import com.idiomiko.core.domain.service.TermService
-import com.idiomiko.core.domain.service.ReadingService
-import com.idiomiko.core.domain.service.BookService
-import com.idiomiko.core.domain.model.BookDraft
-import com.idiomiko.core.data.repository.WordsReadRepositoryImpl
-import com.idiomiko.core.data.repository.BookRepositoryImpl
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.input.key.Key
+import androidx.compose.ui.semantics.SemanticsProperties
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertIsDisplayed
+import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.test.assertIsSelected
+import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.isEnabled
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onLast
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
-import androidx.compose.ui.test.assertTextEquals
-import androidx.compose.ui.test.performMouseInput
-import androidx.compose.ui.test.onNodeWithContentDescription
-import com.idiomiko.core.domain.service.LocalSpeech
-import com.idiomiko.core.domain.service.LocalSpeechEngine
-import com.idiomiko.core.domain.service.MemorySpeechAudioCache
-import com.idiomiko.core.domain.service.SentenceAudio
-import com.idiomiko.core.domain.service.SpeechEngine
-import com.idiomiko.core.domain.service.SpeechPackage
-import com.idiomiko.core.domain.service.SpeechVoice
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.MutableStateFlow
-import com.idiomiko.core.ui.audio.rememberSpeaker
 import androidx.compose.ui.test.performKeyInput
+import androidx.compose.ui.test.performMouseInput
+import androidx.compose.ui.test.performScrollTo
+import androidx.compose.ui.test.performTextClearance
+import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.pressKey
-import androidx.compose.ui.test.withKeyDown
-import com.idiomiko.core.domain.settings.Hotkey
-import com.idiomiko.core.domain.settings.HotkeyAction
 import androidx.compose.ui.test.runDesktopComposeUiTest
-import com.russhwolf.settings.MapSettings
+import androidx.compose.ui.test.withKeyDown
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.repository.BookRepositoryImpl
 import com.idiomiko.core.data.repository.FlashcardRepositoryImpl
 import com.idiomiko.core.data.repository.LanguageRepositoryImpl
 import com.idiomiko.core.data.repository.TermRepositoryImpl
+import com.idiomiko.core.data.repository.WordsReadRepositoryImpl
 import com.idiomiko.core.data.settings.SettingsRepositoryImpl
 import com.idiomiko.core.domain.dictionary.DictionaryId
 import com.idiomiko.core.domain.dictionary.OfflineDictionary
+import com.idiomiko.core.domain.flashcards.AnswerMode
+import com.idiomiko.core.domain.flashcards.AutoAnswer
+import com.idiomiko.core.domain.flashcards.CardSchedule
+import com.idiomiko.core.domain.flashcards.CardState
 import com.idiomiko.core.domain.flashcards.FlashcardService
+import com.idiomiko.core.domain.flashcards.MemoryState
+import com.idiomiko.core.domain.flashcards.Rating
+import com.idiomiko.core.domain.model.BookDraft
 import com.idiomiko.core.domain.model.Language
 import com.idiomiko.core.domain.model.Term
 import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.practice.Heard
+import com.idiomiko.core.domain.practice.SpeechRecognition
+import com.idiomiko.core.domain.practice.TypedResult
+import com.idiomiko.core.domain.service.BookService
+import com.idiomiko.core.domain.service.LocalSpeech
+import com.idiomiko.core.domain.service.LocalSpeechEngine
+import com.idiomiko.core.domain.service.MemorySpeechAudioCache
+import com.idiomiko.core.domain.service.ReadingService
+import com.idiomiko.core.domain.service.SentenceAudio
 import com.idiomiko.core.domain.service.SentenceTranslator
+import com.idiomiko.core.domain.service.SpeechEngine
+import com.idiomiko.core.domain.service.SpeechPackage
+import com.idiomiko.core.domain.service.SpeechVoice
+import com.idiomiko.core.domain.service.TermService
 import com.idiomiko.core.domain.service.TermTranslationProvider
 import com.idiomiko.core.domain.service.WordTranslationService
+import com.idiomiko.core.domain.settings.Hotkey
+import com.idiomiko.core.domain.settings.HotkeyAction
+import com.idiomiko.core.ui.audio.rememberSpeaker
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.LearningLanguageState
 import com.idiomiko.core.ui.components.LocalFlashcardsDue
@@ -88,17 +85,21 @@ import com.idiomiko.core.ui.components.LocalLearningLanguage
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.ProvideWindowWidth
 import com.idiomiko.core.ui.theme.IdiomikoTheme
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
+import com.russhwolf.settings.MapSettings
 import java.io.File
 import javax.imageio.ImageIO
-import com.idiomiko.core.domain.flashcards.AutoAnswer
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
-import com.idiomiko.core.domain.flashcards.Rating
-import androidx.compose.ui.test.performScrollTo
-import androidx.compose.ui.test.assertIsDisplayed
+import kotlin.time.Clock
+import kotlin.time.Duration
+import kotlin.time.Duration.Companion.days
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 /** A card is shown front first, the answer on request, and answering it moves on and moves the word's status. */
 @OptIn(ExperimentalTestApi::class)
@@ -444,6 +445,12 @@ class FlashcardsScreenTest {
         assertTrue(row.first().left >= card.left && row.last().right <= card.right, "the row in the card at $card")
         assertTrue(row.all { it.bottom < card.top + card.height / 4 }, "in the card's top")
         save("FLASHCARD_NARROW_PHONE_SCREENSHOT")
+        // The ways of answering, icons alone here, are named by tooltips.
+        assertEquals(0, onAllNodesWithText("Type").fetchSemanticsNodes().size)
+        onNodeWithTag("answer-mode-TYPE").performMouseInput { moveTo(center) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Type").fetchSemanticsNodes().isNotEmpty() }
+        save("FLASHCARD_MODE_TOOLTIP_SCREENSHOT")
+        onNodeWithTag("answer-mode-TYPE").performMouseInput { moveTo(Offset(-200f, -200f)) }
         onNodeWithText("Show answer").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, onAllNodesWithTag("choose-example").fetchSemanticsNodes().size, "the other examples are in the menu")
