@@ -664,7 +664,7 @@ private fun Card(
                 val label = tr("Choose another example")
                 AppTooltip(label) {
                     AppIconButton(
-                        AppIcons.Sync,
+                        AppIcons.FindExample,
                         contentDescription = label,
                         onClick = onChooseExample,
                         modifier = NoFocus.testTag("choose-example"),
@@ -773,7 +773,7 @@ private fun WideCard(
             Spacer(Modifier.weight(1f))
             if (speaker != null) AutoplayButton(autoplay, actions.onToggleAutoplay)
             // Other examples are offered on either side of every card, one without a sentence too.
-            CardButton(AppIcons.Sync, tr("Choose another example"), { actions.onChooseExample(card) }, tag = "choose-example")
+            CardButton(AppIcons.FindExample, tr("Choose another example"), { actions.onChooseExample(card) }, tag = "choose-example")
             CardMenu(card, inPass, actions)
         }
         BoxWithConstraints(Modifier.weight(1f).fillMaxWidth()) {
@@ -879,7 +879,7 @@ private fun CardMenu(card: CardContent, inPass: Boolean, actions: FlashcardActio
     Box {
         CardButton(AppIcons.MoreHoriz, tr("More actions"), { open = true }, tag = "card-menu")
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            if (onChooseExample != null) MenuAction(AppIcons.Sync, tr("Choose another example")) { open = false; onChooseExample() }
+            if (onChooseExample != null) MenuAction(AppIcons.FindExample, tr("Choose another example")) { open = false; onChooseExample() }
             MenuAction(Icons.Default.Edit, tr("Edit flashcard")) { open = false; actions.onEdit(card.termId) }
             MenuAction(Icons.Default.Add, tr("Study more")) { open = false; actions.onStudyMore() }
             MenuAction(AppIcons.SkipNext, if (inPass) tr("Skip card") else tr("Skip until tomorrow")) { open = false; actions.onSkip() }

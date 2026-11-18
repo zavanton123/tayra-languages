@@ -905,7 +905,7 @@ private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, translating: Boole
             }
             sentence == null -> Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 QuietButton(tr("Add a sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), icon = Icons.Default.Edit)
-                QuietButton(tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), icon = AppIcons.Sync)
+                QuietButton(tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), icon = AppIcons.FindExample)
             }
             else -> Row(
                 Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash))
@@ -916,7 +916,7 @@ private fun SentenceBox(row: BrowseRow, wordRange: IntRange?, translating: Boole
             ) {
                 val hover = SpanStyle(color = colors.primary, textDecoration = TextDecoration.Underline)
                 Text(markWord(sentence, wordRange, hover) { actions.onPickWord(row.termId, it) }, Modifier.weight(1f).testTag("detail-sentence"), style = sentenceStyle)
-                AppIconButton(AppIcons.Sync, contentDescription = tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), style = IconButtonStyle.Outlined)
+                AppIconButton(AppIcons.FindExample, contentDescription = tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), style = IconButtonStyle.Outlined)
                 AppIconButton(Icons.Default.Edit, contentDescription = tr("Edit sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), style = IconButtonStyle.Outlined)
             }
         }

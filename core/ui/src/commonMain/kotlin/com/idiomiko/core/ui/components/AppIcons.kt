@@ -4,6 +4,7 @@ import androidx.compose.material.icons.materialIcon
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.addPathNodes
 import androidx.compose.ui.graphics.vector.group
@@ -13,6 +14,19 @@ import androidx.compose.ui.unit.dp
 object AppIcons {
     private fun icon(name: String, pathData: String): ImageVector =
         materialIcon(name = name) { addPath(pathData = addPathNodes(pathData), fill = SolidColor(Color.Black)) }
+
+    /** Two lines of a sentence with a magnifier: looking for another example sentence. Drawn in strokes, as the design has it. */
+    val FindExample: ImageVector by lazy {
+        materialIcon(name = "FindExample") {
+            fun line(data: String) = addPath(
+                pathData = addPathNodes(data), stroke = SolidColor(Color.Black), strokeLineWidth = 1.9f,
+                strokeLineCap = StrokeCap.Round, strokeLineJoin = StrokeJoin.Round,
+            )
+            line("M3.5 6h10M3.5 10h7")
+            line("M19 15a4 4 0 1 1-8 0a4 4 0 1 1 8 0")
+            line("M18 18l3 3")
+        }
+    }
 
     val VolumeUp: ImageVector by lazy {
         icon(
@@ -154,10 +168,6 @@ object AppIcons {
     }
 
     /** Two arrows chasing round: one thing swapped for another. */
-    val Sync: ImageVector by lazy {
-        icon("Sync", "M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z")
-    }
-
     /** Two speech bubbles: example sentences to choose from. */
     val Forum: ImageVector by lazy {
         icon("Forum", "M15 4v7H5.17L4 12.17V4h11m1-2H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm5 4h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1z")
