@@ -56,6 +56,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_dictionary import to_serbian_cyrillic  # noqa: E402
 import frequency_kannada  # noqa: E402
 import frequency_bengali  # noqa: E402
+import frequency_swahili  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DICTIONARIES = os.path.join(ROOT, "dictionaries")
@@ -68,7 +69,7 @@ LANGUAGES = [
     "it", "la", "lt", "lv", "mk", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sl", "sr", "sv", "tr",
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "sw",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
@@ -5101,6 +5102,8 @@ def build(language, source, size):
         return build_lao(size)
     if language == "km":
         return build_khmer(size)
+    if language == "sw":
+        return frequency_swahili.build(size, download)
     order = [source] if source else SOURCE_ORDER.get(language, ["wordfreq", "frequencywords", "leipzig", "wikipedia"])
     found = []
     for name in order:
