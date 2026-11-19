@@ -3362,6 +3362,237 @@ def gaelic_relink(freq, pos, lemmas, common, overrides, excluded, guessed, lemma
                 lemmas[form] = [max(words, key=count)]
 
 
+# Manx. Its only text is its Wikipedia, Leipzig's 10,000 sentences of it and the dump, counted with these mends:
+# - Of the dump, only articles count: its modules (Lua), project, template and category pages are English and code, a third of
+#   its words, which put end (as fend), date, link, list, use and key in the first 400.
+# - A word is cut as the reader cuts it (ManxParser): t', v', s', b', d', dt' and m' written onto the word after them (t'eh,
+#   v'ayn, s'mie, dt'ennym) and 'n ("the") and 's ("and") onto the word before (ta'n, jeh'n, chammah's) are words of their own,
+#   which the pack has not whole: ta'n alone is written 4,400 times. An apostrophe at a word's edge is a quotation mark or the
+#   a- of ayns ('sy, 'syn "in the", 37,000 times), h-, n- and t- before a vowel (ny h-ellanyn) are the mutations of the word
+#   after them, and a hyphen parts two words (ry-akin, ard-valley), as the reader has it.
+# - The pack has 2,501 words and simplemma has no more: a word neither has is a word of its own where texts write it in lower
+#   case often enough, Leipzig's sentences too, and English not as much (y, sy, syn, lurg, mastey, seose, sheese, neesht).
+#   So are the names of the days, months and languages, which Manx writes with a capital (Jelune, Boaldyn, Gaelg, Baarle).
+# - A spelling goes to a word it is a mutation of only where that word is the pack's or texts write it: simplemma's tables
+#   make radicals no text has of the words they mutate (bollagh "road" of pollagh, meer "piece" of beer, lieh "half" of slieh).
+#   And a word of the pack with a sense of its own is no mutation of another (giare "short" of kiare "four", jeer of çheer).
+SOURCE_ORDER["gv"] = ["manx_leipzig", "manx_wikipedia"]
+SOURCE_LICENCES["manx_leipzig"] = SOURCE_LICENCES["leipzig"]
+SOURCE_LICENCES["manx_wikipedia"] = SOURCE_LICENCES["wikipedia"]
+MANX_PREFIXES = ("dt'", "t'", "v'", "s'", "b'", "d'", "m'")
+MANX_SUFFIXES = ("'n", "'s")
+# The reader's word characters (Manx.yaml) and the apostrophes its character substitutions make straight.
+MANX_WORD = re.compile("[a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ']+")
+MANX_APOSTROPHES = str.maketrans("´`’‘", "''''")
+MANX_VOWELS = "aeiouyàáâèéêìíîòóôùúû"
+MANX_MUTATION_HYPHEN = re.compile(f"(?<![a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ'])[hntHNT]-(?=[{MANX_VOWELS}{MANX_VOWELS.upper()}])")
+# Per lowercased word: how often each source writes it, and how often in lower case.
+MANX_CASE = {}
+# The words of their own the counts found (manx_relink).
+MANX_OWN = set()
+# How often texts must write a word in lower case, against all its spellings, for it to be a word of its own; a letter alone
+# (y "the") must be far commoner, in Leipzig's sentences too.
+MANX_OWN_COUNT = 20
+MANX_LOWER_SHARE = 0.5
+MANX_LETTER_COUNT = 1000
+# How often texts must write a radical, or how common it must be against its mutated spelling, to take it when the pack has no
+# such word (keddin, 14 times, takes cheddin, 594; pollagh, never written, takes no bollagh).
+MANX_RADICAL_COUNT = 10
+MANX_RADICAL_SHARE = 0.02
+# The days, months and languages, which Manx capitalises.
+MANX_NAMED_WORDS = {
+    "jelune", "jemayrt", "jecrean", "jerdein", "jeheiney", "jesarn", "jedoonee",
+    "mart", "averil", "boaldyn", "luanistyn", "houney", "nollick",
+    "gaelg", "baarle", "frangish", "germaanish", "spaainish", "yernish", "bretnish", "rooshish", "sheenish", "greagish",
+    "italish", "shapaanish", "ladjyn", "arabish", "portiugeeish", "ollanish", "cornish",
+}
+# The initial mutations, as (written, radical): lenition, then nasalisation (eclipsis).
+MANX_MUTATIONS = (("ch", "c"), ("ch", "k"), ("gh", "d"), ("gh", "g"), ("ph", "p"), ("wh", "qu"), ("v", "b"), ("v", "m"),
+                  ("v", "f"), ("y", "j"), ("h", "s"), ("h", "sh"), ("h", "t"), ("h", "th"), ("h", "çh"), ("l", "sl"), ("n", "sn"),
+                  ("m", "b"), ("g", "c"), ("g", "k"), ("j", "çh"), ("n", "d"), ("ng", "g"), ("b", "p"), ("d", "t"), ("dh", "th"),
+                  ("t", "s"))
+
+
+def manx_pieces(word):
+    """The words a run of letters and apostrophes is, as ManxParser cuts it, without the apostrophes at its edges."""
+    word = word.translate(MANX_APOSTROPHES).strip("'")
+    if not word:
+        return []
+    low = word.lower()
+    for prefix in MANX_PREFIXES:
+        if low.startswith(prefix) and len(word) > len(prefix):
+            return [word[:len(prefix)]] + manx_pieces(word[len(prefix):])
+    for suffix in MANX_SUFFIXES:
+        if low.endswith(suffix) and len(word) > len(suffix):
+            return manx_pieces(word[:-len(suffix)]) + [word[-len(suffix):]]
+    return [word]
+
+
+def manx_words(text):
+    """The words of a Manx text as ManxParser reads them: runs of its word characters (so a hyphen parts two words), cut as
+    manx_pieces, a mutation's h-, n- or t- before a vowel left out."""
+    out = []
+    for token in MANX_WORD.findall(MANX_MUTATION_HYPHEN.sub(" ", text.translate(MANX_APOSTROPHES))):
+        out.extend(manx_pieces(token))
+    return out
+
+
+def manx_count(counts, source, word, n=1):
+    key = word.lower()
+    counts[key] += n
+    seen = MANX_CASE.setdefault(key, {})
+    lower, total = seen.get(source, (0, 0))
+    seen[source] = (lower + (n if word == key else 0), total + n)
+
+
+def manx_leipzig_counts(language, limit):
+    """Leipzig's Manx sentences, their words cut as manx_words."""
+    corpus = FALLBACKS["gv"]["leipzig"][0]
+    path = download(f"https://downloads.wortschatz-leipzig.de/corpora/{corpus}.tar.gz", f"leipzig-{corpus}.tar.gz")
+    if path is None:
+        return None
+    counts = defaultdict(int)
+    with tarfile.open(path) as tar:
+        member = next(m for m in tar.getmembers() if m.name.endswith("-words.txt"))
+        for line in io.TextIOWrapper(tar.extractfile(member), encoding="utf-8"):
+            parts = line.rstrip("\n").split("\t")
+            if len(parts) >= 3 and parts[2].isdigit():
+                for word in manx_words(parts[1]):
+                    manx_count(counts, "leipzig", word, int(parts[2]))
+    top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
+    return dict(top), f"Leipzig Corpora Collection {corpus}"
+
+
+def manx_wikipedia_counts(language, limit):
+    """The Manx Wikipedia's articles, as wikipedia_counts reads them, their words cut as manx_words."""
+    import bz2
+    path = download("https://dumps.wikimedia.org/gvwiki/latest/gvwiki-latest-pages-articles.xml.bz2", "wikipedia-gv.xml.bz2")
+    if path is None:
+        return None
+    counts = defaultdict(int)
+    page, in_text, namespace = [], False, None
+    with bz2.open(path, "rt", encoding="utf-8") as f:
+        for line in f:
+            if "<ns>" in line:
+                namespace = line.strip()
+            if "<text" in line:
+                in_text = True
+                line = line[line.index(">", line.index("<text")) + 1:]
+            if not in_text:
+                continue
+            end = line.find("</text>")
+            page.append(line if end < 0 else line[:end])
+            if end < 0:
+                continue
+            in_text = False
+            text, page = "".join(page), []
+            if namespace != "<ns>0</ns>" or text.lstrip().lower().startswith("#redirect"):
+                continue
+            text = html.unescape(strip_templates(text))
+            for noise in WIKI_NOISE:
+                text = noise.sub(" ", text)
+            text = WIKI_LINK.sub(r"\1", text)
+            for word in manx_words(text):
+                manx_count(counts, "wikipedia", word)
+    top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
+    return dict(top), "gv.wikipedia.org articles"
+
+
+SOURCES["manx_leipzig"] = manx_leipzig_counts
+SOURCES["manx_wikipedia"] = manx_wikipedia_counts
+
+
+def manx_unmutated(form):
+    """The radicals a Manx spelling may be a mutation of: vlein of blein, chooid of cooid, hie of thie, nellan of ellan, ellan of fellan."""
+    out = {radical + form[len(written):] for written, radical in MANX_MUTATIONS if form.startswith(written) and len(form) > len(written) + 1
+           and not (written == "t" and form[1] == "h")}
+    if len(form) > 2 and form[0] in "hn" and form[1] in MANX_VOWELS:
+        out.add(form[1:])
+    if len(form) > 1 and form[0] in MANX_VOWELS:
+        out.add("f" + form)
+    return out - {form}
+
+
+def manx_relink(freq, pos, lemmas, common, overrides, excluded, guessed, lemmatizer, count):
+    """
+    Mends the Manx pack's and simplemma's links before they are followed, as the block above says: a word of the pack with a sense
+    of its own is no other's mutation; a mutation goes to a radical the pack has or texts write; a word neither the pack nor
+    simplemma has goes to the radical it is a mutation of, or is a word of its own (MANX_OWN) if texts write it so.
+    """
+    def pack_word(w):
+        return bool(pos.get(w, set()) & WORD_POS) and w in common
+
+    def written(w):
+        return sum(t for _, t in MANX_CASE.get(w, {}).values())
+
+    def attested(radical, form):
+        return pack_word(radical) or written(radical) >= MANX_RADICAL_COUNT or count(radical) >= MANX_RADICAL_SHARE * count(form)
+
+    def english(form):
+        return english_share(form) >= freq.get(form, 0)
+
+    def known(w):
+        return pack_word(w) or w in MANX_OWN or bool(lemmatizer and lemmatizer.is_known(w) and attested(lower("gv", lemmatizer.lemmatize(w)), w))
+
+    def own(form):
+        if form in excluded or "'" in form or not is_wordlike(form):
+            return False
+        seen = MANX_CASE.get(form, {})
+        lower_leipzig, _ = seen.get("leipzig", (0, 0))
+        lowered = sum(n for n, _ in seen.values())
+        total = sum(t for _, t in seen.values())
+        if form in MANX_NAMED_WORDS:
+            return total > 0
+        if len(form) == 1:
+            lowered = lower_leipzig
+        least = MANX_LETTER_COUNT if len(form) == 1 else MANX_OWN_COUNT
+        return lowered >= least and lowered >= MANX_LOWER_SHARE * total and lower_leipzig > 0 and not english(form)
+
+    for form in MANX_NAMED_WORDS:
+        if form in freq and form not in overrides and own(form):
+            MANX_OWN.add(form)
+            guessed[form] = form.capitalize()
+    unknown = []
+    for form in sorted(freq):
+        if form in overrides or form in excluded or form in MANX_OWN:
+            continue
+        bases = manx_unmutated(form)
+        links = [l for l in dict.fromkeys(lemmas.get(form, [])) if l != form]
+        if pack_word(form):
+            kept = [l for l in links if l not in bases]
+            if kept != links:
+                lemmas[form] = kept
+            continue
+        if links:
+            kept = [l for l in links if l not in bases or attested(l, form)]
+            if kept != links:
+                lemmas[form] = kept
+                if not kept:
+                    unknown.append(form)
+            continue
+        if lemmatizer and len(form) > 1 and lemmatizer.is_known(form):
+            lemma = lower("gv", lemmatizer.lemmatize(form))
+            if lemma == form or lemma not in bases or attested(lemma, form):
+                continue
+        unknown.append(form)
+    later = []
+    for form in unknown:
+        if english(form):
+            lemmas[form] = []
+            continue
+        radicals = [r for r in manx_unmutated(form) if known(r) and attested(r, form)]
+        if radicals:
+            lemmas[form] = [max(radicals, key=lambda r: (count(r), r))]
+        elif own(form):
+            MANX_OWN.add(form)
+            guessed.setdefault(form, form)
+        else:
+            later.append(form)
+    for form in later:
+        radicals = [r for r in manx_unmutated(form) if r in MANX_OWN and attested(r, form)]
+        lemmas[form] = [max(radicals, key=lambda r: (count(r), r))] if radicals else []
+
+
 # Georgian. A verb's preverb makes another verb of it (იცავს "defends", მოიცავს "includes"; ადგენს "sets", წარმოადგენს
 # "represents"), and a preverbless form (იღებდა) is in the table of every verb made from it (იღებს, მიიღებს). So a verb's form
 # goes to the verb with its preverb: the pack's tables name them all, and simplemma strips the preverb.
@@ -4812,6 +5043,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 return {form: 1.0}
         elif language == "ko" and form in KOREAN_OWN:
             return {form: 1.0}
+        elif language == "gv" and form in MANX_OWN:
+            return {form: 1.0}
         elif language == "th" and is_word(form) and not any(form in ("การ" + l, "ความ" + l) for l in lemmas.get(form, [])):
             # Thai words do not inflect: the pack files classifiers and other words under a word (ไหม under ม้า, จาน under
             # อาหาร, วน under วัน), which are words of their own. A noun made with การ or ความ (การศึกษา, ความสุข) is its word's
@@ -5497,6 +5730,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     forms = defaultdict(dict)
     if language == "gd":
         gaelic_relink(freq, pos, lemmas, common, overrides, excluded, guessed, lemmatizer, is_word, count)
+    if language == "gv":
+        manx_relink(freq, pos, lemmas, common, overrides, excluded, guessed, lemmatizer, count)
     for form, share in list(freq.items()):
         if form in excluded:
             continue

@@ -2565,3 +2565,27 @@ OVERRIDES["yi"].update({
 # Unpointed spellings that are mostly a name or Hebrew in the counts (פוילן is Poland, not פֿוילן "to rot"; ארץ the land of
 # ארץ ישׂראל, not אַרץ "ore"; תל of תל אביב), and a surname (the Satmar rebbes').
 EXCLUDE["yi"] = {"פוילן", "ארץ", "אב", "תל", "טייטלבוים"}
+
+# Manx: the pieces ManxParser cuts off a word (t'eh is t' + eh, ta'n is ta + 'n, t'ou is t' + ou) are the words they stand for.
+OVERRIDES["gv"] = {
+    "t'": ["ta"], "v'": ["va"], "s'": ["she"], "b'": ["by"], "d'": ["dy"], "dt'": ["dty"], "m'": ["my"],
+    "'n": ["yn"], "'s": ["as"], "ou": ["oo"],
+    # Words of their own the pack files under others: y "the" (as yn's), by "it was" (as s''s), jeh "of" and its forms (as
+    # eh's), jiu "today", cho "so" (as cha's), aa "again", marroo "dead" (as barr's), keayn "sea", guilley "boy".
+    "y": ["y"], "by": ["by"], "jiu": ["jiu"], "cho": ["cho"], "aa": ["aa"],
+    "jeh": ["jeh"], "yeh": ["jeh"], "jeu": ["jeh"], "jeusyn": ["jeh"], "jeed": ["jeh"], "jin": ["jeh"], "jehsyn": ["jeh"],
+    "j'ee": ["jeh"], "j'eeish": ["jeh"],
+    "marroo": ["marroo"], "varroo": ["marroo"], "merriu": ["marish"], "verriu": ["marish"], "cheayn": ["keayn"],
+    "gilley": ["guilley"], "chossyn": ["cosn"],
+    "roue": ["roish"], "rouesyn": ["roish"], "roin": ["roish"], "royd": ["roish"], "roym": ["roish"],
+    # mish "I" (as mee's), kiarail "care" (as kiare's), reill "rule" (as freayll's).
+    "mish": ["mish"], "kiarail": ["kiarail"], "chiarail": ["kiarail"], "kiarailyn": ["kiarail"], "chiarailyn": ["kiarail"],
+    "giarail": ["kiarail"], "reill": ["reill"], "reillyn": ["reill"],
+    # Look-alikes of no word: loo of beg, saa of aeg, aon of awin, gyr and kyr of car, ys of fys, marr of barr.
+    "loo": [], "looit": [], "saa": [], "aon": [], "gyr": [], "kyr": [], "ys": [], "marr": [], "marrit": [], "marragh": [],
+    # Forms texts write that the pack has not: valjyn "towns", phreeu (of preeu-valley), plurals, a spelling of seihll.
+    "valjyn": ["balley"], "maljyn": ["balley"], "phreeu": ["preeu"], "studeyryssyn": ["studeyrys"], "bunstooghyn": ["bunstoo"],
+    "vunstooghyn": ["bunstoo"], "theihill": ["seihll"],
+}
+# Units, English, Latin and other languages' words of the encyclopaedia.
+EXCLUDE["gv"] = {"km", "cm", "mm", "mi", "tr", "de", "le", "von", "com", "genus", "genera", "note", "noteyn", "sphinx", "sphinxyn"}
