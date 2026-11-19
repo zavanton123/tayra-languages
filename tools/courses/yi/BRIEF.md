@@ -157,7 +157,7 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, 
   up to rank 300, 90% for the first course). Names you list in `names` and numbers count as known.
   The checker lists every word outside the range with its rank.
 - **New words**: each is in the course's band, introduced once in the course, and used at least
-  twice in its lesson's story (any form counts: *קומט* for *קומען*, *קינדער* for *קינד*). `newWords`
+  twice in its lesson (any form counts: *קומט* for *קומען*, *קינדער* for *קינד*). `newWords`
   holds the headword as the list writes it: a verb's infinitive, a noun's singular, an adjective's
   base form.
 - **Length** (story and questions together): 80–180 words per lesson in the first course, 120–240
