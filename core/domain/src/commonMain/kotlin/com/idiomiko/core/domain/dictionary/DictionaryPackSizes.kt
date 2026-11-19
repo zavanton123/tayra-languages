@@ -47,7 +47,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
     "dictionaries-v2" to mapOf(
         "aii-en" to 575_695L, "ar-en" to 7_903_435L, "ar-fr" to 1_157_530L, "ar-pl" to 2_562_403L, "ar-pt" to 316_687L,
         "ar-ru" to 3_080_252L, "ar-zh" to 851_214L, "arz-en" to 159_960L, "be-pl" to 2_074_197L, "be-zh" to 282_582L,
-        "bg-pl" to 3_794_653L, "bg-zh" to 598_009L, "br-en" to 165_124L, "br-fr" to 2_047_497L, "br-ru" to 115_958L,
+        "bg-pl" to 3_794_653L, "bg-zh" to 598_009L, "bn-en" to 1_489_308L, "br-en" to 165_124L, "br-fr" to 2_047_497L, "br-ru" to 115_958L,
         "bs-en" to 6_288_411L, "bs-zh" to 1_114_855L, "ca-pl" to 834_445L, "ca-zh" to 1_704_978L, "cs-el" to 243_078L,
         "cs-pl" to 4_290_625L, "cs-pt" to 262_468L, "cs-zh" to 2_812_601L, "cy-en" to 2_502_496L, "cy-fr" to 376_642L,
         "cy-pl" to 169_919L, "cy-ru" to 300_644L, "da-pl" to 1_084_584L, "da-zh" to 360_462L, "de-el" to 1_221_342L,
@@ -75,7 +75,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "ko-pl" to 615_233L, "ko-ru" to 666_232L, "ko-zh" to 11_509_306L, "kw-en" to 782_139L, "la-el" to 1_571_850L,
         "la-pl" to 3_775_365L, "la-zh" to 3_706_726L, "lo-en" to 134_762L, "lo-ru" to 65_987L, "lt-pl" to 1_494_831L,
         "lt-zh" to 850_608L, "lv-pl" to 899_787L, "lv-zh" to 651_299L, "mk-pl" to 853_980L, "mk-zh" to 1_576_339L,
-        "mn-en" to 543_899L, "mn-fr" to 179_913L, "mn-ru" to 285_616L, "mn-zh" to 277_623L, "mt-en" to 1_909_341L,
+        "mn-en" to 543_899L, "ms-en" to 950_128L, "mn-fr" to 179_913L, "mn-ru" to 285_616L, "mn-zh" to 277_623L, "mt-en" to 1_909_341L,
         "mt-pl" to 135_283L, "mt-ru" to 121_465L, "mt-zh" to 537_097L, "nl-el" to 189_867L, "nl-pl" to 554_886L,
         "nl-pt" to 181_903L, "nl-zh" to 1_121_684L, "no-pl" to 520_206L, "no-zh" to 294_491L, "pl-el" to 1_011_745L,
         "pl-zh" to 4_903_465L, "pt-el" to 406_312L, "pt-pl" to 1_601_430L, "pt-zh" to 4_097_307L, "ro-el" to 573_886L,
