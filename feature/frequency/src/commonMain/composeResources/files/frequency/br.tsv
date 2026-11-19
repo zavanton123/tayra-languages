@@ -1,5 +1,5 @@
 # source: Leipzig Corpora Collection bre_wikipedia_2021_100K (terms at https://wortschatz.uni-leipzig.de/en/download)
-# words: 5179
+# words: 5172
 ar	ar an al
 e	e
 bezañ	oa zo voe bet vez vezañ bezañ veze emañ vefe vo oant bez vezont oc'h edo voent vezent bec'h oar emaint fent on vezo ben vezer bezioù oan vint omp boent emeur be bezen vehe emaomp out vezan vin emaon
@@ -259,7 +259,6 @@ ya	ya
 priñs	priñs briñsez briñs priñsez briñsed priñsed priñsezed friñsez friñs friñsed
 soñjal	soñjal soñjet soñje soñjer soñjas soñjed soñjont soñjan soñjent soñjfe soñji soñjomp
 impalaer	impalaer impalaerien impalaerez impalaerion impalaerezed
-herzel	harzoù harzet herzel harz harzoù-labour harze harzo
 skeudenn	skeudenn skeudennoù
 dug	dug dugez duged zug zuged zugez
 peogwir	peogwir
@@ -276,7 +275,6 @@ padout	pad badas padout bad padas padet bado badout bade pado fado badfe pade pa
 devezh	devezh devezhioù zevezh zevezhioù
 kinnig	kinnig ginnig ginnigas kinnigas c'hinnig kinnigoù ginnige kinnige c'hinnigoù ginnigoù c'hinnige
 liv	liv livioù
-blaz	plas blas blaz flas vlaz blazioù vlazioù
 danvez	danvez danvezioù zanvez zanvezioù
 galleg	galleg c'halleg
 sellet	sellet sellout seller selle sellit sellas sellomp sellont selled sellent sellen sellfe
@@ -380,7 +378,6 @@ e-kichen	e-kichen
 kelenner	kelenner c'helenner gelenner kelennerien gelennerien kelennerez gelennerez c'helennerien gelennerion kelennerezed kelennerion
 ruz	ruz rusat
 dastum	dastumet dastum zastum tastum tastumas zastumas zastume dastume tastumed zastumont
-beajiñ	veaj beajiñ beaj beajoù veajiñ veajoù veajas beajet veaje veajfe veaji veajjont veajo veajont beajer veajer
 kristen	kristen gristenien gristen kristenien kristenion gristenion c'hristen gristenez kristenez kristian
 poblañs	boblañs poblañs poblañsoù foblañs boblañsoù
 kompren	kompren gompren komprenet komprenas c'hompren gomprene kompreno gomprenan komprene komprenit
@@ -481,6 +478,7 @@ hi	hi
 adsevel	adsavet adsevel
 kannad	kannad kannaded gannad gannaded c'hannad c'hannaded kannadoù c'hannadoù
 hemañ	hemañ
+herzel	harzet herzel harze harzo
 hevelep	hevelep
 adal	adal
 stag	stag
@@ -496,6 +494,7 @@ redadeg	redadeg redadegoù
 pinvidik	pinvidik binvidik pinvidikañ binvidikañ pinvidikoc'h pinvidikat
 raktres	raktres raktresoù
 aour	aour
+harz	harzoù harz harzoù-labour
 ster	ster sterioù sterenn
 gouel	gouel gouelioù ouel c'houel c'houelioù
 istorel	istorel
@@ -544,6 +543,7 @@ polis	polis bolis polisoù
 kontrol	c'hontrol kontrol gontrol
 roud	roud roudoù
 forzh	forzh forzhioù
+kar	kar kerent c'har gerent c'herent garoù c'haroù
 fellout	fell fellout
 beleg	beleg veleien beleien veleg velegez beleion belegezed belegez velegezed veleion
 penn-kentañ	penn-kentañ benn-kentañ
@@ -554,8 +554,8 @@ kleiz	kleiz gleiz c'hleiz
 peoc'h	peoc'h beoc'h
 distro	distro zistro tistro distroioù
 frankiz	frankiz frankizoù frankizioù
+beaj	veaj beaj beajoù veajoù
 banniel	banniel bannieloù vanniel
-kar	kar c'har kerent gerent c'herent garoù c'haroù
 stank	stank stankoc'h stankañ stanker stankoù
 geriadur	geriadur geriadurioù c'heriadur
 renkañ	renket renkañ renker renkas renke renked
@@ -581,14 +581,12 @@ plant	plant blantenn blant plantennoù plantenn blantennoù
 staget	staget
 keltiek	keltiek geltiek keltek c'heltieg geltieg
 parrez	barrez parrez parrezioù barrezioù farrez barrouz varrez
-parañ	paris vari barañ parañ faro barez parezed baris varin paret pared bari baran barin baro faris paro baras baret barit fari parer varan varo barezed parez bared farez farezed
 hengoun	hengoun hengounioù
 marc'h	marc'h varc'h kezeg c'hezeg gezeg
 kuitaat	kuitaat guitaat guita kuita kuitae kuitaont
 lies	lies liesañ liesoc'h
 talvoudegezh	talvoudegezh dalvoudegezh zalvoudegezh talvoudegezhioù dalvoudegezhioù
 digor	digor zigor digoroc'h tigor
-nev	new nev
 park	park parkeier parkoù bark barkeier varkoù vark
 karr	c'harr kirri c'hirri garr karr girri
 hañv	hañv hañvoù
@@ -659,7 +657,6 @@ strizh	strizh strishoc'h strishañ strishat
 skourr	skourr skourroù
 planedenn	blanedenn planedenn planedennoù flanedenn flanedennoù blanedennoù
 kargañ	karget kargañ gargañ karger garged karged c'harger garget
-bramm	framm frammoù brammoù
 kanton	kanton c'hanton kantonioù ganton c'hantonioù gantonioù
 levrenn	levrenn levrennoù
 keloù	keleier keloù c'heloù c'heleier geleier geloù
@@ -671,6 +668,7 @@ dieub	dieub zieub tieub
 chapel	chapel chapelioù
 mezheven	mezheven vezheven
 beg	beg begoù veg vegoù
+blaz	blas blaz vlaz blazioù vlazioù
 barn	barnet varn barn barnes varnañ barnañ varnas parnas barniñ varnont
 deviñ	devet deviñ zeviñ devot dev teviñ deve devin tevas zeve devez devi devas devent devfe devoc'h zevas zevet devo
 biz	biz bizied vizied bis pizied
@@ -745,6 +743,7 @@ tresadenn	tresadennoù tresadenn dresadenn dresadennoù zresadennoù
 marc'heg	marc'heg varc'heien marc'heien varc'heg varc'heion
 resev	resevet resev resevas reseviñ
 lost	lost lostoù
+beajiñ	beajiñ veajiñ veajas beajet veaje veajfe veaji veajjont veajo veajont beajer veajer
 meuriad	meuriad meuriadoù veuriad veuriadoù
 goañv	goañv goañvoù c'hoañv
 hed	hed hedoù
@@ -972,7 +971,6 @@ suis	suis suised suisez
 lise	lise liseoù
 vogalenn	vogalenn vogalennoù
 ledañ	ledet ledañ lede ledo
-gar	gar divhar kerent zivhar gerent c'herent garioù garoù c'haroù
 brezel-bed	brezel-bed vrezel-bed
 koadek	goadeg c'hoadegoù c'hoadegi koadek koadegoù koadeg koadegi c'hoadek
 turk	turk durked turked durk durkez
@@ -1030,6 +1028,7 @@ bann	bann bannoù vann vannoù pann
 leuskel	leuskel leusker
 bugaleaj	vugaleaj bugaleaj
 barner	barner varnerien barnerien varner varnerion
+gar	gar divhar zivhar gerent c'herent garioù garoù c'haroù
 kerzhout	kerzhout kerzhet gerzhout gerzhas kerzhas kerzhe kerzhont c'herzhed gerzhet c'herzher gerzhe gerzhed kerzhed kerzhin kerzhit kerzh gerzh c'herzh
 eskopti	eskopti eskoptioù
 kantad	kantadoù gantad c'hantad gantadoù c'hantadoù
@@ -1052,6 +1051,7 @@ kened	kened gened c'hened
 krennard	grennarded krennarded c'hrennard grennardez krennard krennardez grennard grennardenn krennardenn
 baron	baron baroned baronez varon varonez faron varoned
 diskennad	diskennidi diskennad ziskennidi diskennadez ziskennadezed
+parañ	barañ parañ faro barez parezed baris varin paret pared bari baran barin baro faris paro baras baret barit fari parer varan varo barezed parez bared farez farezed
 metoù	metoù meteier vetoù
 nac'hañ	nac'hañ
 greantel	greantel c'hreantel
@@ -1325,6 +1325,7 @@ piramidenn	biramidenn piramidenn piramidennoù biramidennoù
 glann	glann glannoù c'hlann klann klannoù c'hlannoù
 nij	nij
 speredel	speredel
+bramm	frammoù brammoù
 skuizh	skuizh skuizhañ
 'm	am
 dizoleiñ	dizoleiñ zizoleiñ tizoleiñ
@@ -2020,7 +2021,6 @@ eren	ereet ere eren
 pirc'hirin	birc'hirined pirc'hirined pirc'hirin
 koustañ	kousto koustañ kouste koustet koustfe
 krennlavar	c'hrennlavar krennlavar krennlavarioù c'hrennlavarioù
-5vet	5vet
 heg	heg
 saviad	saviad
 tchekeg	tchekeg
@@ -2078,7 +2078,6 @@ diverkañ	diverkañ diverket ziverkañ
 korseg	c'horseg korseg
 douarenn	douarenn douarennoù zouarenn
 kae	kae gae c'hae kaeoù c'haeoù
-6vet	6vet
 fraezh	fraezh
 kantvet	kantvet
 diskan	diskan
@@ -2345,7 +2344,6 @@ goprad	goprad gopridi c'hopridi
 klotenn	klotennoù glotenn c'hlotennoù glotennoù
 bont	bont bontoù pontoù fontoù
 diwiskañ	diwiskañ diwisk diwisket tiwiskas ziwisk ziwiskañ ziwisked
-8vet	8vet
 dienn	dienn
 leuniañ	leuniañ
 rampo	rampo
@@ -2498,7 +2496,6 @@ feurmiñ	feurmiñ feurmerion feurmer feurmerien
 gwazh-dour	wazh-dour gwazhioù-dour gwazh-dour wazhioù-dour
 kaoter	gaoter kaoter kaoterioù
 brodañ	brod prodi brodañ broder vrodañ
-3e	3e
 aluminiom	aluminiom
 atmosferenn	atmosferenn
 daneg	daneg
@@ -2506,6 +2503,7 @@ didermen	didermen
 gorilh	gorilhed
 hegarat	hegarat
 hungareg	hungareg
+nev	nev
 roueelezh	roueelezh
 akordeoñs	akordeoñs
 alc'houez	alc'houez
@@ -2620,8 +2618,6 @@ trompilh	trompilh drompilh trompilhoù
 didroc'hañ	didroc'hañ zidroc'hañ tidroc'hañ
 madoberour	vadoberourien madoberour madoberer madoberourien vadoberour
 kabined	c'habined kabined gabined kabinedoù
-4e	4e
-9vet	9vet
 forest	forest
 glein	klein
 aked	aked
@@ -2662,7 +2658,6 @@ talar	dalaroù zalaroù
 nadoz	nadoz nadozioù
 balafenn	balafenned valafenn balafenn
 karn	karnioù c'harn c'harnoù karn garn
-7vet	7vet
 cheuc'h	cheuc'h
 didan	didan
 disi	disi
@@ -2778,7 +2773,6 @@ liñs	liñs liñsed lins
 baot	baoted baot vaot
 bizañ	vize bizañ bizet
 ruzañ	ruzañ ruze
-10vet	10vet
 fallout	fallout
 adober	adober
 aozerez	aozerez
@@ -4002,7 +3996,6 @@ enderv	enderv
 merc'hodenn	verc'hodenn merc'hodenn
 milin-avel	milinoù-avel vilin-avel vilinoù-avel
 rostañ	rost rostañ rostet
-2l	2l
 abona	abona
 adkouezhañ	adkouezhañ
 bozek	bozeg
