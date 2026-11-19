@@ -1,5 +1,5 @@
 # source: Leipzig Corpora Collection bre_wikipedia_2021_100K (terms at https://wortschatz.uni-leipzig.de/en/download)
-# words: 5172
+# words: 5171
 ar	ar an al
 e	e
 bezañ	oa zo voe bet vez vezañ bezañ veze emañ vefe vo oant bez vezont oc'h edo voent vezent bec'h oar emaint fent on vezo ben vezer bezioù oan vint omp boent emeur be bezen vehe emaomp out vezan vin emaon
@@ -10,8 +10,8 @@ ur	ur un unan ul
 er	en er el
 gant	gant gantañ ganto ganti gante ganeoc'h ganeomp ganin ganit ganimp kante kanto ganeor
 eus	eus anezho anezhañ anezhi anezhe ac'hanomp ac'hanon ac'hanoc'h anezhoñ ac'hanout
+ober	reas ra graet ober reer rae reont rejont raio raent rafe eure oberoù ray raed gris reomp gran raje rez rin rit c'hris raint refont gray c'hraet rafent gra graer rejod grit ris greomp kris c'hraer greer grin grisañ raen
 eo	eo
-ober	reas graet ober reer rae reont rejont raio raent rafe eure oberoù ray raed gris reomp gran raje rez rin rit c'hris raint refont gray c'hraet rafent gra graer rejod grit ris greomp kris c'hraer greer grin grisañ raen rafed
 o	o
 evit	evit evitañ evito eviti evite evidomp evidoc'h evidon
 ne	ne n'eo n'en n'eus n'int n'o n'ouzer n'he n'emañ n'haller n'hall n'anavezer n'halle n'ez n'emaint n'eur ne'z n'a n'heller n'on n'eas n'hallont n'hallent n'em n'oa n'hell n'hon n'hallas n'e n'ho n'omp n'edo n'en-deus n'halled n'helle n'anavezomp n'roses n'halljont n'hallo n'ouzont
@@ -26,7 +26,6 @@ den	dud den tud zen zud ten
 sevel	savet sevel savas sav save saver saverien savjont savo savent savfe savont saverez savan savi saverion savit saven savin savje
 anv	anv anvioù
 mont	mont vont aet eas in i yeas yae ae is it ad ejont eont afe aje aio monet as kerzh yafe aent yelo eer ay mond eor vonet afent kit eorioù yaje aed gerzh deomp vond afont ahe aimp aint
-ra	ra
 ivez	ivez
 ez	ez
 evel	evel eveltañ evelti evelto evelte eveldoc'h eveldomp eveldon eveldout
