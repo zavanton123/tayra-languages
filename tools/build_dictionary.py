@@ -79,6 +79,7 @@ SOURCES = {
     "bn": ("Bengali", None, "dictionaries/kaikki.org-dictionary-Bengali.jsonl.gz"),
     "sw": ("Swahili", "swahili", "dictionaries/kaikki.org-dictionary-Swahili.jsonl.gz"),
     "kk": ("Kazakh", "kazakh", "dictionaries/kaikki.org-dictionary-Kazakh.jsonl.gz"),
+    "az": ("Azerbaijani", None, "dictionaries/kaikki.org-dictionary-Azerbaijani.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -300,8 +301,8 @@ def swahili_lemma(word):
 
 
 def lowercase(word, source):
-    """Turkish has a dotted and a dotless i, so "I" lowers to "ı" and "İ" to "i"; the app does the same."""
-    if source == "tr":
+    """Turkish and Azerbaijani have a dotted and a dotless i, so "I" lowers to "ı" and "İ" to "i"; the app does the same."""
+    if source in ("tr", "az"):
         word = word.replace("I", "ı").replace("İ", "i")
     return word.lower()
 
