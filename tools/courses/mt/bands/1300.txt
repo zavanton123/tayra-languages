@@ -1,0 +1,100 @@
+1	1201	għana	għena jagħni jagħnu mogħni tagħni
+2	1202	ħabbat	imħabbat inħabbat inħabbtu iħabbat iħabbtu jħabbat jħabbtu mħabbat nħabbtu taħbit tħabbat tħabbtu ħabbatna ħabbtet ħabbtu
+3	1203	ċirku	iċrieki ċrieki
+4	1204	medda	meded
+5	1205	għerq	għeruq
+6	1206	mina	mini
+7	1207	validu	valida validi
+8	1208	stabbiliment	istabbiliment istabbilimenti istabiliment stabbilimenti stabiliment
+9	1209	lok	lokijiet
+10	1210	imwiet	
+11	1211	reġina	rġejjen
+12	1212	ddetermina	ddeterminat ddeterminaw determinat iddetermina iddeterminat iddeterminaw jiddetermina jiddeterminaw jiddeterminax niddeterminaw tiddetermina tiddeterminax
+13	1213	espressjoni	espressjonijiet
+14	1214	evanġelju	evanġelji
+15	1215	sekonda	sekondi
+16	1216	traduzzjoni	traduzzjonijiet
+17	1217	munita	muniti
+18	1218	għajr	għajrek għajrhom għajri għajrkom għajrna għajru
+19	1219	magna	magni makna
+20	1220	mellieħa	
+21	1221	introduzzjoni	introduzzjonijiet
+22	1222	uġigħ	uġiegħ uġigħat wġiegħ wġigħ
+23	1223	stma	jistma jistmaw nistma nistmaw nistmax stmajt stmat stmaw stmawx tistma tistmaw
+24	1224	fjuri	
+25	1225	rnexxa	irnexxa irnexxew irnexxiet irnexxietx irnexxu jirnexxi jirnexxix jirnexxu jirnexxux nirnexxi nirnexxu rnexxejt rnexxew rnexxewx rnexxi rnexxiet rnexxietx rnexxiex tirnexxi tirnexxix tirnexxu
+26	1226	nifs	nifsijiet
+27	1227	tjieb	jitjieb jitjiebu titjieb tjibitx tjibux tjiebet tjiebu
+28	1228	għajjat	għajat għajtet għajtu igħajjat igħajtu jgħajjat jgħajjatx jgħajtu mgħajjat ngħajjat ngħajjatx ngħajtu tgħajjat tgħajjatx
+29	1229	rakkont	rakkonti
+30	1230	sengħa	snajja'
+31	1231	temp	tempijiet
+32	1232	kulma	
+33	1233	kixef	jikxef jikxfu jikxfux jikxifx kixfet kixfu kxif kxifna kxiftu mikxuf nikxef nikxfu tikxef tikxfu tikxifx
+34	1234	mħabba	imħabbitha imħabbithom imħabbitkom imħabbitna imħabbtek imħabbti imħabbtu mħabbithom mħabbitna mħabbtek mħabbti mħabbtu
+35	1235	ħalaq	joħloq joħloqx joħolqu joħolqux maħluq noħloq noħolqu noħolqux oħloq oħolqu toħloq toħloqx toħolqu ħalaqx ħalqet ħalqu ħlaqt ħlaqtx
+36	1236	aġir	
+37	1237	bbenefika	bbenefikajna bbenefikat bbenefikaw ibbenefika ibbenefikat ibbenefikaw jibbenefika jibbenefikaw jibbenefikawx nibbenefika nibbenefikaw tibbenefika tibbenefikax
+38	1238	iddeċieda	
+39	1239	tal	itul itulu jtul jtulu ttul tulu
+40	1240	dgħajjef	ddgħajfet ddgħajfu ddgħajjef dgħajfa dgħajfet dgħajfin dgħajfu iddgħajfet iddgħajfu iddgħajjef iddgħajjifniex idgħajfu idgħajjef jdgħajfu jdgħajjef jiddgħajfu jiddgħajjef tiddgħajjef
+41	1241	ħamsa	
+42	1242	drawwa	drawwiet
+43	1243	attent	attenta attenti
+44	1244	rota	roti
+45	1245	faċilment	
+46	1246	aħrax	ħarxa ħorox
+47	1247	ħobż	ħobża ħobżiet
+48	1248	assista	assistejna assistejt assistejtu assistew assisti assistiet assistit jassisti jassistu nassisti nassistu tassisti tassistix tassistu
+49	1249	aħdar	ħadra ħodor
+50	1250	negozjant	negozjanti
+51	1251	qamar	oqmra qmura
+52	1252	indikazzjoni	indikazzjonijiet
+53	1253	silta	siltiet
+54	1254	ħassar	imħassar inħassar inħassru iħassar iħassru jħassar jħassarx jħassru jħassrux mħassar nħassar nħassarx nħassru taħsir tħassar tħassarx tħassru tħassrux ħassart ħassartx ħassret ħassru
+55	1255	għajxien	għejxien għixien
+56	1256	bilanċ	bilanċi
+57	1257	eżistenti	
+58	1258	ħakma	ħakmiet
+59	1259	digriet	digrieti
+60	1260	sigriet	sigrieti
+61	1261	patrun	patruna patruni
+62	1262	rkupra	irkupra irkuprajna irkuprar irkuprat irkupraw jirkupra jirkupraw nirkupra nirkupraw rkuprar rkuprat rkupratx rkupraw rkuprawx rkuprax tirkupra
+63	1263	infezzjoni	infezzjonijiet
+64	1264	llejla	illejla
+65	1265	stieden	istieden jistieden jistiednu nistieden nistiednu stedinna stedint stedintu stedinx stednux stiednet stiednu tistieden tistiednu
+66	1266	nqata'	inqata' inqatgħet inqatgħu jinqata jinqata' jinqatgħu ninqata ninqata' ninqatgħu ninqatgħux nqata nqatax nqatgħet nqatgħu nqatgħux tinqata tinqata' tinqatax
+67	1267	ħataf	aħtaf inħataf jaħtaf jaħtfu maħtuf naħtaf naħtfu nħataf taħtaf taħtfu ħatafx ħatfet ħatfitx ħatfu ħtafna ħtaft ħtaftu
+68	1268	ħoss	ħsejjes
+69	1269	flokk	flokkijiet
+70	1270	palk	palkijiet
+71	1271	akkademja	
+72	1272	kklassifika	ikklassifika ikklassifikar ikklassifikat ikklassifikaw iklassifikat jikklassifika jikklassifikaw jikklassifikawx kklassifikat kklassifikaw klassifikat nikklassifikaw tikklassifika
+73	1273	ħmistax	
+74	1274	vaċċin	vaċċini
+75	1275	sikkina	iskieken skieken
+76	1276	serq	
+77	1277	fada	afda afdaw fdajt fdajtu fdat fdaw fdawx jafda jafdaw jafdawx jafdax nafda nafdaw nafdawx tafda tafdawx tafdax
+78	1278	affettwa	affettwat affettwatx affettwaw affettwawx affettwax jaffettwa jaffettwaw jaffettwawx jaffettwax taffettwa taffettwax
+79	1279	mogħdija	mogħdijiet
+80	1280	kolonja	kolonji
+81	1281	warrab	imwarrab inwarrab inwarrbu iwarrab iwarrbu jwarrab jwarrabx jwarrbu jwarrbux mwarrab nwarrab nwarrabx nwarrbu nwarrbux twarrab twarrabx twarrbu twarrbux warrabna warrabt warrbet warrbu warrbux
+82	1282	ħolma	ħolmiet
+83	1283	awgura	awgurajna awgurat awguraw awgurax jawgura jawguraw jawgurax nawgura nawguraw nawgurax tawgura tawgurax
+84	1284	difen	dfin dfint difinx difnu indifen jidfen jidfinx jidfnu midfun ndifen nidfnu tidfen tidfnu
+85	1285	ħallat	imħallat imħallta imħalltin inħallat inħalltu iħallat iħalltu jħallat jħalltu jħalltux mħallat mħallta mħalltin nħalltu nħalltux tħallat tħallatx tħalltu ħalltu
+86	1286	ġens	ġnus
+87	1287	ħakem	aħkem jaħkem jaħkimx jaħkmu jaħkmux maħkum naħkem naħkmu taħkem taħkmu ħakimx ħakmet ħakmitx ħakmu ħkim ħkimt
+88	1288	stilla	istilel istilla stilel
+89	1289	avvanza	avanza avvanzajna avvanzajniex avvanzajt avvanzar avvanzat avvanzaw avvanzawx javvanza javvanzaw navvanza navvanzaw tavvanza tavvanzaw
+90	1290	qanqal	imqanqal iqanqal iqanqlu jqanqal jqanqlu jqanqlux mqanqal nqanqlu qanqalna qanqlet qanqlu tqanqal tqanqalx tqanqil tqanqlu
+91	1291	fabbrika	fabbriki fabrika
+92	1292	seraq	jisraq jisraqx misruq nisraq seraqx serqet serqu serqux sraqna sraqt tisraq
+93	1293	sittax	
+94	1294	qima	
+95	1295	folla	folol
+96	1296	xorob	ixorbu ixrob jixorbu jixorbux jixrob jixrobx mixrub nixorbu nixrob nixrobx tixorbu tixorbux tixrob tixrobx xorbot xorbu xrobna xrobt
+97	1297	kodiċi	kodiċijiet
+98	1298	referendum	referenda
+99	1299	ġiegħel	imġiegħel imġiegħla inġiegħel inġiegħlu iġiegħel iġiegħlu iġġiegħel iġġiegħlu jġiegħel jġiegħlu mġegħlin mġiegħel mġiegħla nġiegħel nġiegħlu ġagħal ġegħlitx ġiegħlet ġiegħlu ġġiegħel ġġiegħlu
+100	1300	waħħal	imwaħħal inwaħħal inwaħħlu iwaħħal iwaħħlu jitwaħħal jitwaħħlu jitwaħħlux jwaħħal jwaħħalx jwaħħlu jwaħħlux mwaħħal nwaħħal nwaħħlu nwaħħlux titwaħħal twaħħal twaħħalx twaħħlet twaħħlitx twaħħlu twaħħlux waħħalna waħħalt waħħalx waħħlet waħħlu

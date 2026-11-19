@@ -1,0 +1,100 @@
+1	1101	par	pari
+2	1102	pittur	pitturi
+3	1103	sagrifiċċju	sagrifiċċji
+4	1104	għalqa	għelieqi
+5	1105	deċiż	deċiża deċiżi
+6	1106	mixja	mixjiet
+7	1107	semma'	insemmgħu isemmgħu issemmgħu jsemma jsemma' jsemmax jsemmgħu nsemma' nsemmgħu nsemmgħux semmajna semmajt semmax semmgħet semmgħu ssemma ssemma' ssemmgħu
+8	1108	mdina	imdejjen imdina
+9	1109	ċeda	inċedu iċedi iċedu iċċedi jċedi jċedix jċedu jċedux nċedi nċedu nċedux ċedejt ċedejtux ċedew ċedewx ċedi ċediet ċediex ċedut ċieda ċċedi
+10	1110	sostenibbli	
+11	1111	tħassib	
+12	1112	vuċi	vuċijiet
+13	1113	rigal	rigali
+14	1114	kera	ikri jikri jikru kiri krejna krew kriet mikri nikri nikru tikri
+15	1115	partikulari	
+16	1116	artal	artali
+17	1117	ġabra	ġabriet
+18	1118	xbieha	xbihat
+19	1119	priġunier	priġuniera priġunieri
+20	1120	sfond	isfond isfondi sfondi
+21	1121	abbozz	abbozzi
+22	1122	ħaddan	imħaddan inħaddan inħaddnu iħaddan iħaddnu jħaddan jħaddanx jħaddnu jħaddnux mħaddan nħaddan nħaddnu tħaddan tħaddanx tħaddin tħaddnu ħaddanna ħaddant ħaddantu ħaddanx ħaddnet ħaddnu
+23	1123	votazzjoni	votazzjonijiet
+24	1124	osserva	josserva josservaw josservawx josservax nosserva nosservaw nosservawx nosservax osservajna osservajt osservat osservatx osservaw osservawx osservax tosserva
+25	1125	impona	imponew imponiet imponietx imponu impost imposta imposti jimponi jimponix jimponu nimponi nimponu nimponux timponi timponix
+26	1126	titjib	
+27	1127	kaptan	kaptana kaptani
+28	1128	matematiku	matematika matematiċi
+29	1129	dejn	djun jdejn
+30	1130	ġedded	imġedded inġedded inġeddu iġedded iġeddu iġġedded iġġeddu jġedded jġeddidx jġeddu jġeddux mġedded nġedded nġeddu nġeddux tiġdid ġeddet ġeddidna ġeddidt ġeddidx ġeddu ġġedded ġġeddidx ġġeddu
+31	1131	ssieħeb	imsieħeb isseħibna isseħibt issieħbet issieħbu jissieħbu jissieħeb msieħeb nissieħbu nissieħeb sseħibna ssieħbet ssieħbu tisseħibx tissieħeb
+32	1132	rrispetta	irrispetta irrispettajt irrispettat irrispettaw jirrispetta jirrispettaw jirrispettawx jirrispettax nirrispetta nirrispettaw nirrispettawx rispettar rispettat rrispettat rrispettaw rrispettawx rrispettax tirrispetta tirrispettax
+33	1133	straordinarju	straordinarja straordinarji
+34	1134	bomba	bombi
+35	1135	għammar	għammret għammru igħammar imgħammar jgħammar jgħammarx jgħammru mgħammar ngħammar ngħammru tagħmir tgħammar tgħammir tgħammru
+36	1136	bażiku	bażika bażiċi
+37	1137	kollezzjoni	kollezzjonijiet
+38	1138	annwali	
+39	1139	xjentifiku	xjentifika xjentifiċi
+40	1140	bandiera	bnadar ibnadar
+41	1141	garanzija	garanziji
+42	1142	nefaq	infaqna infaqt infaqtu infiq jonfoq jonfoqx jonfqu minfuq nefaqx nefqet nefqu nfaqna nfaqniex nfaqt nfiq nonfoq nonfqu onfoq tonfoq tonfoqx tonfqu
+43	1143	negozjati	
+44	1144	biljun	biljuni
+45	1145	tifsira	tifsiriet
+46	1146	identifika	identifikajna identifikat identifikatx identifikaw identifikawx identifikax jidentifika jidentifikaw jidentifikawx jidentifikax nidentifika nidentifikaw tidentifika tidentifikax
+47	1147	kostituzzjonali	
+48	1148	assi	ass
+49	1149	tekniku	tekniċi
+50	1150	ħaraq	aħraq jaħarqu jaħraq maħruq naħarqu naħraq taħarqu taħraq ħarqet ħarqu ħraqna ħraqt ħruq
+51	1151	grad	gradi
+52	1152	rrakkonta	irrakkonta irrakkontajna irrakkontat irrakkontaw irrakonta jirrakkonta jirrakkontaw nirrakkonta nirrakkontaw rakkontar rrakkontat rrakkontaw rrakonta tirrakkonta
+53	1153	familjari	
+54	1154	liċenzja	liċenzji
+55	1155	mindu	
+56	1156	maħfra	maħfriet
+57	1157	pinġa	impinġi inpinġi inpinġu ipinġi ipinġu jpinġi jpinġix jpinġu mpinġi npinġi npinġix penġa pinġejt pinġew pinġi pinġiet pinġietx pinġut tpinġi
+58	1158	refa'	erfgħu irfigħ jerfa jerfa' jerfax jerfgħu jerfgħux merfugħ nerfa nerfa' nerfax nerfgħu nerfgħux refa refgħet refgħu rfajt terfa' terfax terfgħu
+59	1159	aġixxa	aġixxejt aġixxew aġixxewx aġixxi aġixxiet aġixxiex aġixxu jaġixxi jaġixxix jaġixxu jaġixxux naġixxi naġixxu taġixxi taġixxix taġixxu
+60	1160	lejla	lejliet
+61	1161	arkeoloġiku	arkeoloġika arkeoloġiċi
+62	1162	oħt	oħtha oħthom oħti oħtna oħtok oħtu
+63	1163	falz	falza foloz
+64	1164	teknika	tekniki
+65	1165	rari	rara
+66	1166	delegat	delegata delegati
+67	1167	safa	isfa jisfa jisfaw jisfawx jisfax sfajt sfat sfatx sfaw tisfa
+68	1168	ħabat	jaħbat jaħbatx jaħbtu naħbat naħbtu taħbat taħbatx ħabtet ħabtu ħbatna ħbatt ħbattx ħbit
+69	1169	memorja	memorji
+70	1170	tar	intir itir itiru ittir jtir jtiru jtirux jtirx ntir ntiru tajran taret taru tarx tir tirt tirtu tiru ttir ttirx
+71	1171	wasla	wasliet
+72	1172	filosofija	filosfija filosofiji
+73	1173	għolla	għollejna għollejt għollew għolli għolliet għollietx għolliex imgħolli jgħolli jgħollix jgħollu jgħollux mgħolli ngħolli ngħollu tgħolli tgħollix tgħollu
+74	1174	kollaborazzjoni	kollaborazzjonijiet
+75	1175	qaleb	aqleb inqaleb jaqleb jaqlibx maqlub naqleb nqaleb qalbet qalbu qalbux qlib qlibna qlibt qlibtu taqleb
+76	1176	qarrej	qarrejja
+77	1177	ikrah	ikreh kerha koroh
+78	1178	gass	gassijiet
+79	1179	innu	innijiet
+80	1180	sajd	
+81	1181	sagru	sagra sagri
+82	1182	moħbi	moħbija moħbijin
+83	1183	ħniena	
+84	1184	mejda	imwejjed mwejjed
+85	1185	felaħ	felaħx felħet felħitx felħu felħux flaħna flaħt flaħtx jiflaħ jiflaħx niflaħ niflaħx tiflaħ tiflaħx
+86	1186	qafas	oqfsa
+87	1187	attira	attirajna attirat attiraw attirax jattira jattiraw jattirawx nattiraw nattirawx tattira
+88	1188	weġġa'	inweġġgħu iweġġgħu jweġġa jweġġa' jweġġax jweġġgħu jweġġgħux nweġġa' nweġġgħu tweġġa tweġġax tweġġgħu weġġa weġġajt weġġajtu weġġax weġġgħet weġġgħetx weġġgħu weġġgħux
+89	1189	infrastruttura	infrastrutturi
+90	1190	taraġ	tarġa tarġiet turġien
+91	1191	raqad	irqad irqadt irqadtu jorqdu jorqdux jorqod jorqodx norqdu norqod orqdu orqod raqdet raqditx raqdu rqad rqadna rqadt torqdu torqod torqodx
+92	1192	ferrovija	ferroviji
+93	1193	naturalment	
+94	1194	beka	bekiex biki bkejna bkejt bkew bkiet bkietx ibku jibki jibkix jibku jibkux mibki nibki nibku tibki tibkix tibku tibkux
+95	1195	mxija	imxija
+96	1196	federazzjoni	federazzjonijiet
+97	1197	sikwit	
+98	1198	multa	multi
+99	1199	ħalq	iħluq ħalqek ħalqha ħalqhom ħalqi ħalqkom ħalqna ħalqu ħlejjaq ħluq
+100	1200	kkomunika	ikkomunikajna ikkomunikajniex ikkomunikajt ikkomunikat ikkomunikaw jikkomunika jikkomunikaw jikkomunikawx jikkomunikax kkomunikat kkomunikaw komunikat nikkomunika nikkomunikaw tikkomunika tikkomunikaw

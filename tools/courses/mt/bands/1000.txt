@@ -1,0 +1,100 @@
+1	901	industrijali	
+2	902	apposta	
+3	903	għassa	għases
+4	904	ġenerazzjoni	ġenerazzjonijiet
+5	905	ġarr	inġarr inġorr inġorru iġorr iġorru iġorrx iġġorr iġġorru jġorr jġorru jġorrux jġorrx nġarr nġorr nġorru ġarrejna ġarrejt ġarrejtu ġarret ġarrew ġarrx ġġorr ġġorru
+6	906	siġġu	siġġijiet
+7	907	reazzjoni	reazzjonijiet
+8	908	kuntest	kuntesti
+9	909	inkella	jonkella nkella
+10	910	eżami	eżamijiet
+11	911	self	
+12	912	dnub	dnubiet dnubijiet
+13	913	aħwa	
+14	914	ħelsien	
+15	915	dalgħodu	
+16	916	maskra	maskla maskri
+17	917	sieħeb	imsieħeb isieħbu isieħeb issieħbu isħab jsieħbu jsieħeb msieħeb seħibha seħibhom seħibna sieħba sieħbek sieħbi sieħbu ssieħbu
+18	918	sħubija	isħubija sħubijiet
+19	919	ġurnal	ġurnali
+20	920	istitut	istituti stitut
+21	921	keċċa	ikeċċi ikeċċu imkeċċi inkeċċi jkeċċi jkeċċix jkeċċu keċċejt keċċejtu keċċew keċċewx keċċiet keċċiex mkeċċi nkeċċi tkeċċa tkeċċi tkeċċija tkeċċix
+22	922	iebes	ebsin ibsin iebsa
+23	923	vvota	ivvota ivvotajna ivvotajtu ivvotat ivvotaw ivvotawx jivvota jivvotaw jivvotawx jivvotax nivvota nivvotaw tivvota tivvotaw votat vvotajna vvotat vvotaw
+24	924	fadal	fadalx fadlu fdalna jifdal jifdalx tifdal
+25	925	dgħajsa	dgħajjes
+26	926	ntilef	intilef intilfet intilfitx intilfu intlifna intlift jintilef jintilfu jintilfux jintilifx nintilef nintilfu nintilfux ntilfet ntilfitx ntilfu ntilfux ntilifx ntlifna ntlift tintilef tintilfu tintilifx
+27	927	ħieles	ħelsin ħielsa
+28	928	effettiv	effettiva effettivi
+29	929	kontribut	kontributi
+30	930	sod	soda sodi
+31	931	qarib	qariba qraba
+32	932	okkupa	jokkupa jokkupaw jokkupawx jokkupax nokkupa nokkupaw okkupajt okkupat okkupaw tokkupa
+33	933	xjenza	xjenzi
+34	934	rotta	rotot
+35	935	bbaża	bbażajt bbażat bbażatx bbażaw bbażax ibbaża ibbażajt ibbażajtu ibbażar ibbażat ibbażaw jibbaża jibbażaw nibbaża nibbażaw tibbaża
+36	936	anġlu	anġli
+37	937	verżjoni	verżjonijiet
+38	938	magħqud	magħquda magħqudin
+39	939	regolari	
+40	940	nkiteb	inkitbet inkitbu inkiteb jinkitbu jinkitbux jinkiteb jinkitibx ninkiteb nkitbet nkitbitx nkitbu nkitbux nkitibx tinkiteb tinkitibx
+41	941	għodda	għodod
+42	942	ddefenda	ddefendejna ddefendew ddefendewx ddefendi ddefendiet ddefendiex difiż iddefenda iddefendew iddefendi iddefendiet iddefendu jiddefendi jiddefendix jiddefendu jiddefendux niddefendi niddefendu tiddefendi tiddefendu
+43	943	għamla	għamliet
+44	944	kopra	ikopri ikopru inkopru jkopri jkoprix jkopru jkoprux kopert koprew kopri kopriet nkopri nkopru tkopri tkoprix
+45	945	mgħoddi	imgħoddi imgħoddija mgħoddija mgħoddijin
+46	946	komunikazzjoni	komunikazzjonijiet
+47	947	quċċata	qċaċet
+48	948	ċelebrazzjoni	ċelebrazzjonijiet
+49	949	ħwejjeġ	
+50	950	kkontribwixxa	ikkontribwew ikkontribwiet ikkontribwit ikkontribwixxa ikkontribwixxew ikkontribwixxiet ikkontribwixxu jikkontribwixxi jikkontribwixxix jikkontribwixxu jikkontribwixxux kkontribwew kkontribwiet kkontribwiex kkontribwit kkontribwixxew kkontribwixxi kkontribwixxiet kkontribwixxiex kkontribwixxu nikkontribwixxi nikkontribwixxu tikkontribwixxi tikkontribwixxu
+51	951	domestiku	domestika domestiċi
+52	952	normali	
+53	953	tweġiba	tweġibiet
+54	954	ammonta	ammontat ammontaw jammonta jammontaw jammontax tammonta
+55	955	għaqqad	għaqqadna għaqqadt għaqqdet għaqqdu ingħaqqad jgħaqqad jgħaqqdu ngħaqqad ngħaqqdu tgħaqqad tgħaqqdu
+56	956	ladarba	ġaladarba
+57	957	żgura	iżgurar iżguraw jiżgura jiżguraw jiżgurax niżgura niżguraw tiżgura tiżguraw tiżgurax żgurajna żgurat żguraw
+58	958	temperatura	temperaturi
+59	959	tmexxa	jitmexxa jitmexxew nitmexxew titmexxa tmexxew tmexxewx tmexxiet
+60	960	ġerħa	ġerħat ġrieħi
+61	961	kkonkluda	ikkonkluda ikkonkludejna ikkonkludejt ikkonkludew ikkonkludiet jikkonkludi jikkonkludix jikkonkludu kkonkludejna kkonkludejniex kkonkludejtx kkonkludew kkonkludiet kkonkludietx konkluż nikkonkludi nikkonkludu tikkonkludi
+62	962	possibilità	possibbilità possibbiltà possibilitajiet possibiltà
+63	963	xitwa	xitwiet xtiewi
+64	964	uffiċjal	
+65	965	ħelu	iħla oħla ħelwa ħelwin ħlejju
+66	966	baxxa	baxxejna baxxejt baxxew baxxi baxxiet baxxu ibaxxi ibaxxu inbaxxi inbaxxu jbaxxi jbaxxu nbaxxu nbaxxux tbaxxi tbaxxix
+67	967	villaġġ	villaġġi
+68	968	simbolu	simboli
+69	969	kuraġġ	
+70	970	rieda	
+71	971	fqir	foqra fqajjar fqajra fqajrin fqira ifqar
+72	972	promozzjoni	promozzjonijiet
+73	973	arja	arjiet
+74	974	kapaċità	kapaċitajiet
+75	975	fruntiera	fruntieri
+76	976	twemmin	twemminijiet
+77	977	xellug	
+78	978	vvjaġġa	ivjaġġa ivjaġġar ivvjaġġa ivvjaġġajt ivvjaġġar ivvjaġġat ivvjaġġaw jivvjaġġa jivvjaġġaw jivvjaġġawx jivvjaġġax nivvjaġġa nivvjaġġaw tivvjaġġa vjaġġa vjaġġar vjaġġat vvjaġġar vvjaġġat vvjaġġaw
+79	979	wissa	imwissi inwissi inwissu iwissi iwissu jwissi jwissu mwissi twissa twissi twissija twissu wissejna wissejt wissejtu wissew wissiet
+80	980	librerija	libreriji
+81	981	statistika	istatistika istatistiki statistiki
+82	982	biża'	biżgħa
+83	983	permanenti	
+84	984	speċifiku	ispeċifiku speċifika speċifiċi
+85	985	ċkejken	iċken ċkejkna ċkejknin
+86	986	tieqa	itwieqi twejqiet twieqi
+87	987	grazzja	grazzji
+88	988	ħasel	aħsel aħslu jaħsel jaħslu jaħslux maħsul naħsel naħslu taħsel taħsilx taħslu ħasil ħaslet ħaslu ħsiltu
+89	989	ħbiberija	ħbiberiji
+90	990	pubblikazzjoni	pubblikazzjonijiet
+91	991	uffiċjalment	
+92	992	mira	miri
+93	993	wegħda	wegħdi wegħdiet
+94	994	appostlu	apostlu appostli
+95	995	żebbuġ	żebbuġa
+96	996	ġarrab	imġarrab inġarrab inġarrbu iġarrab iġarrbu iġġarrab iġġarrabx iġġarrbu jġarrab jġarrbu mġarrab nġarrab nġarrbu tiġrib ġarrabna ġarrabniex ġarrabt ġarrabtu ġarrabx ġarrbet ġarrbitx ġarrbu ġarrbux ġġarrab ġġarrabx ġġarrbu
+97	997	żewġt	
+98	998	żiemel	iżwiemel żwiemel
+99	999	sieq	saqajn sieqek sieqha sieqhom sieqi siequ
+100	1000	twelid	twelida twelidiet

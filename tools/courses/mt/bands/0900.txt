@@ -1,0 +1,100 @@
+1	801	daqshekk	
+2	802	xewqa	xewqat xewqiet
+3	803	qatel	joqtlu joqtlux joqtol joqtolx maqtul noqtlu noqtol qatilx qatlet qatlu qtilna qtilt qtiltu toqtlu toqtol toqtolx
+4	804	magħluq	magħluqa magħluqin
+5	805	arrest	arresti
+6	806	libertà	libertajiet
+7	807	finanza	finanzi
+8	808	reliġjon	reliġjoni reliġjonijiet
+9	809	ħolqien	
+10	810	mard	mardiet
+11	811	għalfejn	
+12	812	deheb	dehbijiet
+13	813	edukattiv	edukattiva edukattivi
+14	814	kelb	iklieb kelba klieb
+15	815	dawwar	dawret dawru dawrux dawwarna dawwart dawwartu ddawru ddawrux ddawwar idawru idawwar iddawru iddawwar imdawwar indawru indawwar jdawru jdawwar mdawwar ndawru ndawwar tidwir
+16	816	passat	passata passati
+17	817	daqq	daqqejna daqqejt daqqet daqqew daqqewx daqqx ddoqq ddoqqu ddoqqx doqq doqqu iddoqq idoqq idoqqu indoqq indoqqu jdoqq jdoqqu jdoqqux jdoqqx ndoqq ndoqqu ndoqqux
+18	818	lukanda	lukandi
+19	819	għasfur	għasafar
+20	820	qatta'	inqattgħu iqattgħu jqatta jqatta' jqattgħu jqattgħux nqatta nqatta' nqattgħu qattajna qattajt qattajtu qattax qattgħet qattgħu taqtigħ tqatta tqatta' tqattgħu tqattigħ
+21	821	dikjarazzjoni	dikjarazzjonijiet
+22	822	għola	għolew għolewx għoliet għolietx għoliex jogħla jogħlew jogħlewx nogħla nogħlew ogħla togħla togħliex
+23	823	restawr	restawri ristawr
+24	824	mużikali	
+25	825	rjal	irjal irjali rjali
+26	826	bajja	bajjiet
+27	827	żżewweġ	iżżewweġ iżżewwiġna iżżewwiġt iżżewġet iżżewġu jiżżewweġ jiżżewwiġx jiżżewġu jiżżewġux niżżewweġ niżżewwiġx niżżewġu tiżżewweġ tiżżewwiġx tiżżewġu żżewwiġna żżewwiġt żżewwiġtu żżewwiġtx żżewwiġx żżewġet żżewġitx żżewġu żżewġux
+28	828	bint	bintek bintha binthom binti bintu ulied
+29	829	anzi	
+30	830	iva	ija ijwa iwa
+31	831	tnaqqis	
+32	832	ħaj	ħajjin
+33	833	attur	attriċi atturi
+34	834	salva	insalva insalvaw isalva isalvaw jsalva jsalvaw jsalvax nsalva nsalvaw salvajna salvajt salvajtu salvat salvaw salvawx
+35	835	reat	reati
+36	836	vapur	vapuri
+37	837	resaq	ersaq ersqu jersaq jersaqx jersqu jersqux nersaq nersaqx nersqu nersqux resaqx resqet resqitx resqu resqux riesaq tersaq tersaqx tersqu tersqux
+38	838	injam	njam
+39	839	tella'	intellgħu itellgħu ittellax ittellgħu jtella jtella' jtellax jtellgħu jtellgħux ntella' ntellgħu ntellgħux tella tellajna tellajniex tellajt tellajtu tellax tellgħet tellgħetx tellgħu tellgħux ttella ttella' ttellax ttellgħu ttellgħux
+40	840	operazzjoni	operazzjonijiet
+41	841	sadattant	sadanittant
+42	842	mediċina	mediċini
+43	843	stħarreġ	istħarriġ jistħarreġ jistħarrġu mistħarreġ nistħarreġ nistħarrġu stħarriġ stħarriġna stħarriġt stħarrġet stħarrġu tistħarreġ
+44	844	ballun	blalen
+45	845	tarbija	itrabi trabi
+46	846	ġġieled	iġġieldet iġġieldu iġġieled iġġilidna iġġilidt jiġġieldu jiġġieled jiġġildux jiġġilidx niġġieldu niġġieled niġġildux tiġġieldu tiġġieled ġġieldet ġġieldu ġġilidna ġġilidt
+47	847	attwali	
+48	848	fehma	fehmiet
+49	849	qeda	aqdu jaqdi jaqdix jaqdu jaqdux moqdi naqdi naqdu qdejna qdejt qdejtu qdew qdiet qediex taqdi taqdix taqdu
+50	850	direttament	
+51	851	sekondarju	sekondarja sekondarji
+52	852	investa	investejna investejt investew investi investiet investit jinvesti jinvestix jinvestu jinvestux ninvesti ninvestix ninvestu tinvesti tinvestix tinvestu
+53	853	żvela	iżvelar jiżvela jiżvelaw jiżvelawx jiżvelax niżvela niżvelaw tiżvela żvelajna żvelar żvelat żvelatx żvelaw żvelawx żvelax
+54	854	tejjeb	imtejjeb intejbu intejjeb itejbu itejjeb ittejbu ittejjeb jtejbu jtejbux jtejjeb jtejjibx mtejjeb ntejbu ntejjeb tejbet tejbu tejbux tejjibna tejjibx ttejbu ttejjeb
+55	855	qassis	qassisin
+56	856	rrapporta	irrapporta irrapportajna irrapportajt irrapportat irrapportaw irrappurtajna irrappurtajt irrappurtat irrappurtaw jirrapporta jirrapportaw jirrappurtaw jirrappurtawx nirrapporta nirrapportaw nirrappurtaw rapportar rapportat rrapportajna rrapportat rrapportaw rrapportax rrappurtajna rrappurtajt rrappurtat rrappurtaw rrappurtawx tirrapporta
+57	857	għallem	għallimna għallimt għallimtu għallimx għallmet għallmu igħallem igħallmu itgħallem itgħallmu jgħallem jgħallimx jgħallmu jgħallmux ngħallem ngħallmu tgħallimx tgħallmu tgħallmux
+58	858	nieda	imniedi iniedi iniedu inniedi inniedu jniedi jniedu mniedi nedejna nedejt nedew nediet nedietx niedi niedja niedu nniedi nniedu tnedija tnidija tniedi tniedu
+59	859	radju	radji
+60	860	neħħa	imneħħi ineħħi ineħħu inneħħi inneħħu jneħħi jneħħix jneħħu jneħħux mneħħi naħħa neħħejna neħħejt neħħejtx neħħew neħħewx neħħi neħħiet neħħietx neħħiex nneħħi nneħħu nneħħux tneħħi tneħħix tneħħu
+61	861	induna	indunajna indunajt indunajtx indunat indunaw jinduna jindunaw jindunawx jindunax nduna ninduna nindunaw nindunawx nindunax tinduna tindunaw tindunax
+62	862	partitarju	partitarja partitarji
+63	863	saq	insuq insuqu issuq issuqx isuq isuqu jsuq jsuqu jsuqux jsuqx misjuq nsuq nsuqu nsuqux nsuqx saqet saqu sewqan soqna soqt ssuq ssuqx suqu
+64	864	talli	
+65	865	wiesa'	wesgħin wiesgħa wisgħin
+66	866	teknoloġija	teknoloġiji
+67	867	faqar	
+68	868	sezzjoni	sezzjonijiet
+69	869	twal	jitwal jitwalu jitwalux jitwalx titwal twalet twalu
+70	870	arresta	arrestat arrestaw jarresta jarrestaw jarrestawx tarresta tarrestaw
+71	871	normalment	
+72	872	sessjoni	sessjonijiet
+73	873	qassam	imqassam inqassam inqassmu iqassam iqassmu jqassam jqassmu jqassmux mqassam nqassam nqassmu qassamna qassamt qassmet qassmu tqassam tqassamx tqassim tqassmu tqassmux
+74	874	għoxrin	
+75	875	pproduċa	ipproduċa ipproduċejna ipproduċew ipproduċiet ipproduċu jipproduċi jipproduċix jipproduċu jipproduċux nipproduċi nipproduċu pproduċejna pproduċew pproduċewx pproduċi pproduċiet pproduċietx pproduċiex tipproduċi tipproduċix
+76	876	għarfien	
+77	877	flok	flokha flokhom floki flokna floku
+78	878	ajru	
+79	879	ftuħ	
+80	880	ġust	ġusta ġusti
+81	881	tfajla	tfajliet
+82	882	regolament	regolamenti
+83	883	demokrazija	demokraziji dimokrazija
+84	884	ttama	ittama ittamajna ittamajt ittamat ittamaw jittama jittamaw nittama nittamaw nittamax tittama tittamaw ttamajna ttamajt ttamat ttamaw
+85	885	bidwi	bdiewa bdiewi bidwija
+86	886	poeta	poetessa poeti
+87	887	ntbagħat	inbagħat intbagħat intbagħtet intbagħtu jintbagħat jintbagħatx jintbagħtu jintbagħtux nbagħat ntbagħtet ntbagħtitx ntbagħtu tintbagħat tintbagħatx
+88	888	xita	jixti
+89	889	vjolenza	
+90	890	sewwieq	sewwieqa
+91	891	ġeneralment	
+92	892	saqaf	soqfa
+93	893	pproteġa	ipproteġa ipproteġew ipproteġi ipproteġiet ipproteġu jipproteġi jipproteġix jipproteġu jipproteġux nipproteġi nipproteġu pproteġew pproteġi pproteġiet pproteġu protett tipproteġi tipproteġix
+94	894	somma	somom
+95	895	apprezza	apprezzajna apprezzajt apprezzajtu apprezzat apprezzaw apprezzawx apprezzax japprezza japprezzaw japprezzawx japprezzax napprezza napprezzaw napprezzawx napprezzax tapprezza tapprezzaw tapprezzax
+96	896	daħla	daħliet
+97	897	ġieli	
+98	898	xatt	ixtajta ixtut xtajta xtut
+99	899	nqatel	inqatel inqatlet inqatlu jinqatel jinqatilx jinqatlu jinqatlux nqatilx nqatlet nqatlitx nqatlu nqatlux nqtilt tinqatel tinqatilx
+100	900	bejgħ	

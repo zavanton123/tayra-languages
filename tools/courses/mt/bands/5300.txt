@@ -1,0 +1,100 @@
+1	5201	sfieq	
+2	5202	żugraga	
+3	5203	aggravju	
+4	5204	ċippitatu	
+5	5205	kus	
+6	5206	ġeraħ	miġruħ
+7	5207	fabbli	
+8	5208	kafeina	
+9	5209	stmell	jistmell tistmell
+10	5210	nejka	nejkiet
+11	5211	xxierek	ixxierek jixxierek
+12	5212	xxoxxa	jixxoxxa jixxuxxaw
+13	5213	karnivalata	karnivalati
+14	5214	tħanżer	imħanżer jitħanżer jitħanżru
+15	5215	żnatura	jiżnaturaw tiżnatura żnaturat
+16	5216	xteħet	xteħtu
+17	5217	qama	iqjiem
+18	5218	kkankra	jikkankra kkankraw tikkankra
+19	5219	dikkiena	dkieken
+20	5220	maxtar	imaxtar jmaxtar maxtart
+21	5221	taqtaq	itaqtaq itaqtqu ttaqtaq
+22	5222	lablab	ilabalbu ilablab tlabalbu
+23	5223	ħexa	jaħxi naħxi naħxu taħxi
+24	5224	taptap	intaptpu itaptap ittaptap jtaptap
+25	5225	miera	imieri jmerux merew tmerix
+26	5226	sensel	jsenslu sensil ssensel
+27	5227	ħdar	jiħdar jiħdaru tiħdar ħdaret
+28	5228	bakkar	bakkarna ibakkru jbakkru tbakkar
+29	5229	tniehed	jitniehdu jitniehed titniehed
+30	5230	naħ	naħtux
+31	5231	muxgħar	
+32	5232	fruttożju	
+33	5233	ggaffa	gaffar
+34	5234	deduttiv	deduttiva
+35	5235	inapplikabbli	
+36	5236	batan	
+37	5237	frankiġja	frankiġji
+38	5238	ħżieża	ħżież
+39	5239	sommarjament	
+40	5240	bismut	
+41	5241	kraxx	
+42	5242	impreċiż	impreċiżi
+43	5243	tajprajter	tajprajters
+44	5244	tronġ	tronġa tronġiet
+45	5245	daka	daku
+46	5246	baja	
+47	5247	tafli	taflin
+48	5248	mana'	mana
+49	5249	emula	emulat jemula jemulaw nemulaw temula
+50	5250	ġema'	jiġma' niġma' ġemgħet ġemgħu
+51	5251	partikular	
+52	5252	ħaffiefa	
+53	5253	popolament	
+54	5254	fanfarun	
+55	5255	bblakka	jibblakka
+56	5256	ġudikatur	
+57	5257	dettaljatament	
+58	5258	beżżiegħi	
+59	5259	mgħid	
+60	5260	xiwa	
+61	5261	maqsam	imqasam
+62	5262	isqfija	
+63	5263	irwieħ	
+64	5264	infantiċida	
+65	5265	zukkini	żukkini
+66	5266	ffronta	jiffronta
+67	5267	arterjosklerożi	
+68	5268	deċiframent	
+69	5269	riffed	imriffed
+70	5270	sarraġ	
+71	5271	attributtiv	
+72	5272	ġebbes	tiġbis
+73	5273	konsiderabilment	
+74	5274	verġinali	
+75	5275	dikjarattiv	dikjarattiva
+76	5276	atomiżmu	
+77	5277	kapoċċ	kapoċċi
+78	5278	rammel	imrammel
+79	5279	aħħ	
+80	5280	itka	teka
+81	5281	abbassu	abbasso
+82	5282	kaħli	
+83	5283	ixx	ixxi
+84	5284	deplorabbli	
+85	5285	industrijalizza	industrijalizzat jindustrijalizza jindustrijalizzaw
+86	5286	manganiż	
+87	5287	vanità	vanitajiet
+88	5288	deliberattiv	deliberattiva deliberattivi
+89	5289	urbaniżmu	
+90	5290	bankarella	bankarelli
+91	5291	kolon	
+92	5292	vvenera	ivvenera jivvenera jivveneraw nivveneraw venerat vvenerat
+93	5293	destinatarju	destinatarji
+94	5294	lellux	lelluxa
+95	5295	ġidra	ġdur
+96	5296	xlief	xolfa
+97	5297	ddawnlowdja	jiddawnlowdjaw
+98	5298	baqqa'	baqqgħu
+99	5299	vjolentement	
+100	5300	xogħfa	

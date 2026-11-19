@@ -1,0 +1,100 @@
+1	4901	asfalta	asfaltar
+2	4902	għarukaża	
+3	4903	patafjun	
+4	4904	lajkali	
+5	4905	dagħbien	
+6	4906	fixla	
+7	4907	nqaras	inqaras inqarsu jinqaras jinqarsu
+8	4908	emin	amin
+9	4909	pene	
+10	4910	potenzjalità	
+11	4911	inġazza	inġazzat
+12	4912	bizzarr	bizzarra bizzarri
+13	4913	tturmenta	itturmentat jitturmentaw tturmentat
+14	4914	apoloġizza	japoloġizza tapoloġizza
+15	4915	għaldaqshekk	
+16	4916	minfes	imnifsejn mnifsejn
+17	4917	qarmeċ	iqarmeċ iqriemeċ jqarmeċ tqarmeċ
+18	4918	llivella	illivellar jillivella livellar livellat tillivella
+19	4919	spinaċi	ispinaċi
+20	4920	magħtub	magħtuba
+21	4921	verifikazzjoni	verifikazzjonijiet
+22	4922	għanqud	għenieqed
+23	4923	ittraduċa	
+24	4924	buqrajq	bqaraq
+25	4925	spazja	ispazjar
+26	4926	ċirkulanti	ċirkolanti
+27	4927	qodos	
+28	4928	xħiħ	
+29	4929	fanfarunata	fanfarunati
+30	4930	oġġezzjonabbli	
+31	4931	barxa	barxiet
+32	4932	ħorża	ħerża
+33	4933	bikka	bikkew mbikki
+34	4934	inkolla	tinkolla
+35	4935	nħarat	jinħarat jinħartu nħartet tinħarat
+36	4936	dijanjostiku	dijanjostika dijanjostiċi
+37	4937	bordi	
+38	4938	federaliżmu	
+39	4939	korsar	korsara korsari kursar
+40	4940	fenkata	
+41	4941	komunikattiv	komunikattivi
+42	4942	assorbiment	
+43	4943	tilar	tilari
+44	4944	xejjaħ	tixjiħ xxejjaħ
+45	4945	xenxul	xniexel
+46	4946	inaljenabbli	
+47	4947	ċikwejra	
+48	4948	inventiv	inventiva
+49	4949	tvalja	tvalji
+50	4950	psikiku	psikika psikiċi
+51	4951	basra	
+52	4952	elettromanjetiżmu	
+53	4953	ddekompona	dekompost iddekompona jiddekomponi jiddekomponix jiddekomponu tiddekomponi
+54	4954	klassiċista	klassiċisti
+55	4955	rtogħod	jirtogħod nirtogħdu tirtogħod
+56	4956	erratiku	erratika erratiċi
+57	4957	xprunara	ixprunara
+58	4958	ottagonu	ottagoni
+59	4959	ċima	ċimi ċwiemi
+60	4960	llandja	illandjar illandjaw jillandja jillandjaw llandjajt llandjar
+61	4961	abbatissa	badessa
+62	4962	ħdim	
+63	4963	raħli	raħlija raħlin
+64	4964	ttajpja	ittajpjat jittajpjaw tittajpja
+65	4965	berquq	
+66	4966	frażarju	frażarji
+67	4967	pexxun	pxiexen
+68	4968	kkraxxja	ikkraxxja jikkraxxja kkraxxjat
+69	4969	passju	
+70	4970	temperanza	
+71	4971	ażotu	
+72	4972	nazzjonalment	
+73	4973	xebb	
+74	4974	komunikattiva	
+75	4975	newl	
+76	4976	likwidità	
+77	4977	qolla	
+78	4978	ġolf	ġorf
+79	4979	mqarrun	imqarrun
+80	4980	ballat	iballtu imballat jballtu mballat
+81	4981	zappap	izappap izzappap jzappap
+82	4982	repressiv	repressiva repressivi
+83	4983	għasluġ	għesieleġ
+84	4984	issuġerixxa	
+85	4985	bbottilja	bbottiljat ibbottiljar jibbottiljaw
+86	4986	tajfa	tajfiet twajjef
+87	4987	trombetta	trumbetta
+88	4988	baħbuħ	baħbuħa baħbuħiet
+89	4989	pulizjesk	polizjesk pulizjeski
+90	4990	plier	plieri
+91	4991	iġjeniku	iġjeniċi
+92	4992	parzjalità	
+93	4993	sajran	
+94	4994	umilment	
+95	4995	balbuljata	balbuljati
+96	4996	qassata	qassatat
+97	4997	żżuffjetta	jiżżuffjetta jiżżuffjettaw żżuffjettat
+98	4998	magħsur	magħsura magħsurin
+99	4999	allerġiku	allerġika allerġiċi
+100	5000	tmewwet	jitmewtu titmewwitx tmewtu

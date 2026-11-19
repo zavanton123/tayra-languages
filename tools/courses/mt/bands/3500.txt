@@ -1,0 +1,100 @@
+1	3401	xedaq	ixdqa
+2	3402	għela	jagħli jagħlu nagħlix tagħli
+3	3403	żonqor	
+4	3404	erotiku	erotika erotiċi
+5	3405	psikologu	psikologi psikoloġi
+6	3406	imbuttatura	
+7	3407	esklużivament	
+8	3408	forka	forok
+9	3409	xebbah	ixxebbah ixxebbhu jxebbah jxebbhu mxebbah nxebbhu xebbaħ
+10	3410	lixka	lixki
+11	3411	ġlata	
+12	3412	għaksa	għekiesi
+13	3413	kobba	
+14	3414	vjolazzjoni	vjolazzjonijiet
+15	3415	ineffiċjenza	
+16	3416	mazza	mazez
+17	3417	għaġla	
+18	3418	werrej	werrejja
+19	3419	saħħara	isħaħar sħaħar
+20	3420	lleġiżla	illeġiżla illeġiżlat jilleġiżla jilleġiżlaw jilleġiżlax leġiżlat nilleġiżlaw tilleġiżla
+21	3421	awtorevoli	
+22	3422	alluda	alludiet jalludi jalludu nalludi talludi
+23	3423	żżarma	iżżarma iżżarmaw jiżżarma jiżżarmaw tiżżarma żżarmat
+24	3424	nkesa	inkesa inksew inksiet jinkesa jinksew nkesiex nksew nksiet tinkesa
+25	3425	aġevola	aġevolat jaġevola jaġevolaw naġevolaw taġevola
+26	3426	etimoloġija	etimoloġiji
+27	3427	riefnu	irwiefen rwiefen
+28	3428	nemes	inmsa
+29	3429	temperament	temperamenti
+30	3430	frontispizju	
+31	3431	kalifat	kalifati kaliffat
+32	3432	denunzja	denunzji
+33	3433	amalgamazzjoni	amalgamazzjonijiet
+34	3434	fieħ	ifuħ ifuħu infuħu jfuħ jfuħu tfuħ
+35	3435	estratt	estratti
+36	3436	kokka	kokki kokkiet
+37	3437	ppenetra	ippenetra ippenetrat ippenetraw jippenetra jippenetraw ppenetrat ppenetraw tippenetra tippenetrax
+38	3438	serduq	serduk sriedaq
+39	3439	għader	agħder għadir jagħder magħdur nagħder nagħdru tagħder
+40	3440	restawratur	restawraturi
+41	3441	ferrieħ	ferrieħa
+42	3442	għodos	jogħdos jogħdsu togħdos
+43	3443	żahar	tiżhir
+44	3444	tursin	
+45	3445	dura	duri
+46	3446	karab	jokrob krabna krib nokorbu nokrob tokrob
+47	3447	żżanżan	iżżanżan iżżanżnet iżżanżnu jiżżanżan jiżżanżnu tiżżanżan żżanżnet żżanżnu
+48	3448	ffalsifika	falsifikar falsifikat ffalsifikaw iffalsifika iffalsifikar iffalsifikat tiffalsifika
+49	3449	għeja	negħjewx tegħjewx
+50	3450	qattar	imqattar iqattar jqattar jqattarx jqattru nqattar qattret qattru taqtir tqattar tqattarx
+51	3451	feraq	ferq joforqu jofroq mifruq ofroq tofroq
+52	3452	omnipotenti	onnipotenti
+53	3453	progressjoni	progressjonijiet
+54	3454	ħżien	jeħżienu jiħżienu teħżien tiħżien ħżienet ħżienu ħżintx
+55	3455	hemeż	ehmeż hemiżtu hemżet hemżu jehmeż jehmżu mehmuż nehmeż tehmeż
+56	3456	irrisponda	
+57	3457	nida	
+58	3458	dwell	
+59	3459	minkeb	minkbejn minkbu
+60	3460	ħarq	ħruq
+61	3461	ċumnija	ċmieni
+62	3462	ċirkulazzjoni	
+63	3463	fera	ferew feriet ferit feru iferi iferu inferi jferi jferu tferi
+64	3464	ħajra	ħajriet
+65	3465	seqer	isqra
+66	3466	preġju	preġji
+67	3467	għoġol	għoġġiela
+68	3468	ħiet	inħit iħit iħitu jħitu meħjut nħit tħit ħat ħietet ħietu ħit ħitt
+69	3469	stupra	jistupra stuprat stupraw
+70	3470	dada	dad dadi dadu
+71	3471	abbonat	abbonati
+72	3472	pinzell	pniezel
+73	3473	fenda	fendejt fendi ifendi ifendu infendi jfendi jfendix jfendu nfendu tfendi
+74	3474	saġġa	saġġi
+75	3475	vvelena	avvelena ivvelenar ivvelenat jivvelena jivvelenaw tivvelena vvelenat
+76	3476	rispettabbli	
+77	3477	ċarġ	ċarġijiet
+78	3478	kollettur	kolletturi
+79	3479	indefinit	indefinita indefiniti
+80	3480	awtoritarju	awtoritarja awtoritarji
+81	3481	moqli	moqlija moqlijin
+82	3482	avvelenament	avvelenamenti
+83	3483	aljenazzjoni	aljenazzjonijiet
+84	3484	affezzjoni	affezzjonijiet
+85	3485	żarmuġ	żrameġ
+86	3486	lampuka	lampuki
+87	3487	affiljazzjoni	affiljazzjonijiet
+88	3488	esaġerazzjoni	esaġerazzjonijiet
+89	3489	kasbar	ikasbar ikasbru imkasbar jkasbar jkasbru kasbret kasbru mkasbar nkasbru tkasbar tkasbir
+90	3490	qatla	qatliet
+91	3491	psikoloġikament	
+92	3492	faga	fgat fgaw jifga jifgax nifga nifgaw tifga
+93	3493	boton	btan
+94	3494	ambigwu	ambigwa ambigwi
+95	3495	tallab	tallaba
+96	3496	bioloġiku	bijoloġiku bioloġika bioloġiċi
+97	3497	sfreġju	isfreġji isfreġju sfreġji
+98	3498	mħatra	imħatra imħatri mħatri
+99	3499	effettività	
+100	3500	sammar	imsammar insammru isammar isammru jissammar jissammru jsammru msammar nissammru sammarna sammru ssammar tismir

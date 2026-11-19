@@ -1,0 +1,100 @@
+1	2501	dderieġa	dderiġiet ddirieġa idderieġa idderiġiet iddirieġa jidderieġi jidderieġu nidderieġi nidderieġu tidderieġi
+2	2502	tikka	tikek tikkiet
+3	2503	stonku	istonku
+4	2504	rifuġjat	refuġjat rifuġjata rifuġjati
+5	2505	ċelesti	
+6	2506	battal	battala battalna battlet battlu ibattal ibattlu imbattal inbattal inbattlu jbattal jbattlu mbattal tbattal tbattlu tbattlux
+7	2507	istituzzjonali	
+8	2508	glorjuż	glorjuża glorjużi
+9	2509	għajjien	għajjenin għajjiena
+10	2510	qatra	qatriet qtar
+11	2511	tjubija	tjubitek tjubithom tjubitu
+12	2512	werriet	werrieta
+13	2513	safar	
+14	2514	qadef	aqdef jaqdef jaqdfu naqdef naqdfu qadfet qadfu qdif qdifna taqdef
+15	2515	iġjene	
+16	2516	impurta	impurtat impurtaw jimpurtaw jimpurtax nimpurtaw
+17	2517	xirja	xirjiet
+18	2518	rifuġju	refuġju rifuġji
+19	2519	ġemgħa	ġemgħat ġmiegħi
+20	2520	għadab	għadbu jagħdab magħdub tagħdabx
+21	2521	mweġġa'	imweġġa' imweġġgħa imweġġgħin mweġġgħa mweġġgħin
+22	2522	lineari	linjari
+23	2523	awtorizzazzjoni	awtorizzazzjonijiet
+24	2524	kok	koka koki kokijiet
+25	2525	għira	
+26	2526	ġgant	iġganti ġganta ġigant
+27	2527	xkora	ixkejjer ixkora xkejjer
+28	2528	waddab	imwaddab iwaddab iwaddbu jwaddab jwaddabx jwaddbu nwaddab nwaddbu twaddab twaddbu twaddbux waddbet waddbu
+29	2529	ċivilizzazzjoni	ċivilizzazzjonijiet
+30	2530	nbid	inbejjed nbejjed
+31	2531	ċitazzjoni	ċitazzjonijiet
+32	2532	masġar	imsaġar msaġar
+33	2533	miżbla	miżbliet
+34	2534	sempliċità	
+35	2535	ġuf	
+36	2536	emigrazzjoni	emigrazzjonijiet
+37	2537	emozzjonali	
+38	2538	ħasseb	imħasseb iħassbu iħassbux iħasseb jħassbu jħasseb mħasseb tħassbu ħassbet ħassbu
+39	2539	fetħa	fetħiet
+40	2540	gidba	gidbiet
+41	2541	plural	plurali
+42	2542	penitenza	penitenzi
+43	2543	kkastiga	ikkastigar ikkastigat ikkastigaw jikkastiga jikkastigaw jikkastigax kkastigar kkastigat kkastigaw nikkastigaw tikkastiga
+44	2544	ħassieb	ħassieba
+45	2545	qabla	qwiebel
+46	2546	sinsla	sinsliet sniesel
+47	2547	sebħ	
+48	2548	djaknu	djakni
+49	2549	fotografija	fotografiji
+50	2550	xaħam	xaħmijiet
+51	2551	staġna	istaġnar jistaġna jistaġnaw jistaġnawx jistaġnax staġnajna staġnar staġnat staġnaw tistaġna tistaġnax
+52	2552	vjaġġatur	vjaġġaturi
+53	2553	qawl	qwiel
+54	2554	teoloġiku	teoloġika teoloġiċi
+55	2555	driegħ	dirgħajn driegħek driegħhom driegħi driegħna driegħu
+56	2556	neputijiet	
+57	2557	mmodifika	immodifika immodifikar immodifikat immodifikaw jimmodifika jimmodifikaw mmodifikat mmodifikaw modifikat nimmodifikaw timmodifika
+58	2558	għasses	għassu jgħasses jgħassu mgħasses ngħassu tgħasses tgħassu
+59	2559	romol	romlot romlu tormol
+60	2560	kreditu	krediti kredtu
+61	2561	ħamrani	ħamranija ħamranin
+62	2562	definittiv	definittiva definittivi
+63	2563	kruha	kruhat
+64	2564	memorandum	memoranda
+65	2565	qarrieq	qarrieqa
+66	2566	qarn	iqrun qrajna qrun
+67	2567	tipjip	
+68	2568	korsija	korsiji
+69	2569	ħjata	ħjatat
+70	2570	velenu	valenu veleni
+71	2571	tħaddet	jitħaddet jitħaddtu mitħaddet nitħaddet nitħaddtu titħaddet tħaddit tħadditna tħaddtu
+72	2572	kuraġġuż	kuraġġuża kuraġġużi
+73	2573	faraġ	
+74	2574	ċikkulata	ċikkulati ċikkulatina
+75	2575	ħeffa	
+76	2576	bijodiversità	bijodiversitajiet
+77	2577	għożża	
+78	2578	ċerva	ċriev
+79	2579	ark	arkijiet
+80	2580	imbotta	imbottat imbottaw jimbotta jimbottaw nimbotta timbotta
+81	2581	sellum	slielem
+82	2582	irmied	
+83	2583	ħaqar	jaħqar jaħqru maħqur moħqrija naħqru taħqar ħaqret ħaqru
+84	2584	oranġjo	
+85	2585	tmint	
+86	2586	majjal	majjali
+87	2587	aspira	aspirat jaspira jaspiraw naspiraw taspira
+88	2588	irrispettivament	
+89	2589	arterja	arterji
+90	2590	tlaqliq	
+91	2591	burdata	burdati
+92	2592	internazzjonalment	
+93	2593	ħarbat	imħarbat inħarbat iħarbat iħarbtu jħarbat jħarbtu jħarbtux mħarbat nħarbat nħarbtu tħarbat tħarbtu ħarbatna ħarbtet ħarbtu
+94	2594	potenzjalment	
+95	2595	sekwenza	sekwenzi
+96	2596	trijonf	
+97	2597	meraq	
+98	2598	malvizz	imlievez malvizzi mlievez
+99	2599	qarreb	inqarrbu inqarreb iqarrbu iqarreb jqarrbu jqarreb nqarrbu nqarreb qarrbet qarrbu qarribna tqarrbu tqarreb
+100	2600	ferrex	ferrxu iferrex iferrxu imferrex inferrxu jferrex jferrxu mferrex tferrex tferrxu

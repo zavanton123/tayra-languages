@@ -1,0 +1,100 @@
+1	2101	lumi	lumija
+2	2102	linka	inka
+3	2103	korrettiv	korrettiva korrettivi
+4	2104	manifest	manifesti
+5	2105	kesa	iksi jiksi jiksu ksew ksiet miksi niksi niksu tiksi
+6	2106	ferħan	ferħana ferħanin
+7	2107	uċuħ	
+8	2108	strixxa	istrixxa istrixxi strixxat strixxi
+9	2109	ttraduċa	ittraduċew ittraduċiet jittraduċi jittraduċu nittraduċu tittraduċi tradott ttraduċew ttraduċi ttraduċiet ttraduċu
+10	2110	ċaħħad	imċaħħad inċaħħdu iċaħħad iċaħħdu iċċaħħad iċċaħħdu jċaħħad jċaħħdu mċaħħad nċaħħdu ċaħħadx ċaħħdet ċaħħdu ċċaħħad ċċaħħdu
+11	2111	hena	
+12	2112	ekoloġiku	ekoloġika ekoloġiċi
+13	2113	mkabbar	imkabbar imkabbra imkabbrin mkabbra mkabbrin
+14	2114	funtana	funtani
+15	2115	enċiklopedija	enċiklopediji
+16	2116	armonija	armoniji
+17	2117	folja	folji
+18	2118	magru	magra magri
+19	2119	misraħ	imsieraħ msieraħ
+20	2120	banju	banjijiet
+21	2121	mera	mirja
+22	2122	ggverna	ggvernar ggvernat ggvernaw gvernar gvernat iggvernar iggvernat iggvernaw igvernar jiggverna jiggvernaw niggvernaw tiggverna
+23	2123	dawwal	dawlet dawwalna ddawwal idawlu idawwal iddawwal imdawwal jdawlu jdawwal jdawwalx mdawwal tidwil
+24	2124	rreaġixxa	irreaġew irreaġixxew irreaġixxiet jirreaġixxi jirreaġixxix jirreaġixxu nirreaġixxi nirreaġixxu rreaġixxew rreaġixxewx rreaġixxiet rreaġixxu tirreaġixxi
+25	2125	ċiklist	ċiklista ċiklisti
+26	2126	baħri	baħrija baħrin
+27	2127	żebgħa	żebgħat
+28	2128	mnejn	imnejn
+29	2129	paċenzja	
+30	2130	ħakkiem	ħakkiema
+31	2131	mgħax	imgħax imgħaxijiet
+32	2132	tnaddaf	jitnaddaf jitnaddfu jitnaddfux nitnaddfu titnaddaf tnaddafna tnaddfet tnaddfitx tnaddfu tnaddif
+33	2133	azzar	
+34	2134	eżerċita	eżerċitat eżerċitaw jeżerċita jeżerċitaw jeżerċitawx jeżerċitax neżerċita neżerċitaw teżerċita teżerċitax
+35	2135	safra	safriet
+36	2136	salvaġġ	salvaġġa salvaġġi selvaġġ slavaġ
+37	2137	kkompleta	ikkompleta ikkompletat ikkompletaw jikkompleta jikkompletaw kkompletat kkompletaw komplut tikkompleta
+38	2138	ċċara	iċċara iċċarajna iċċarar iċċarat iċċaraw jiċċara jiċċaraw jiċċarax niċċara niċċaraw tiċċara tiċċaraw tiċċarax ċċarar ċċarat
+39	2139	neputi	nepputi
+40	2140	hieni	henjin hienja
+41	2141	sqaq	isqaq isqaqien sqaqien
+42	2142	ktejjeb	ktejbiet
+43	2143	omosesswali	
+44	2144	ġir	
+45	2145	xemgħa	xemgħat
+46	2146	kon	
+47	2147	żifen	jiżfen jiżfnu niżfen niżfnu tiżfen żifnet żifnu
+48	2148	tfajjel	
+49	2149	ballut	balluta
+50	2150	faħam	faħma
+51	2151	għawm	
+52	2152	interazzjoni	interazzjonijiet
+53	2153	xeba'	jixba jixba' jixbax jixbgħu nixba nixba' nixbgħu nixbgħux tixba' xbajna xbajt xbajtux xbajtx xeba xebax xebgħet xebgħetx xebgħu
+54	2154	eduka	edukat edukaw jeduka jedukaw nedukaw teduka
+55	2155	ħaqqaq	ħaqqet ħaqqu ħaqqux
+56	2156	estrazzjoni	estrazzjonijiet
+57	2157	frodi	
+58	2158	dependenti	dipendenti
+59	2159	avviċina	avviċinajt avviċinat avviċinatx avviċinaw javviċina javviċinaw javviċinax navviċina navviċinaw tavviċina
+60	2160	disgħa	
+61	2161	wesa'	jesa jesa' jesgħu jesgħux nesa' tesa tesa'
+62	2162	ttanta	ittanta ittantar ittantat ittantaw ittantax jittanta jittantaw nittanta nittantaw tittanta tittantawx ttantar ttantat ttantaw ttantax
+63	2163	bennej	bennejja
+64	2164	infinit	infinita infiniti
+65	2165	partikularment	
+66	2166	tajr	itjur tajriet tjur
+67	2167	triplu	tripla tripli
+68	2168	kattar	ikattar ikattru imkattar inkattru jkattar jkattru jkattrux kattart kattret kattru mkattar nkattru tkattir tkattru
+69	2169	ndafa	indafa
+70	2170	xkaffa	ixkafef ixkaffa xkafef
+71	2171	żero	zero żerijiet
+72	2172	tellef	intellef itellef itellfu ittellef ittellifx jtellef jtellfu jtellfux jtellifx ntellfux ntellifx tellfet tellfu tellifx ttellfu ttellifx
+73	2173	jalla	
+74	2174	ġganti	iġganti ġgantija
+75	2175	sistematiku	sistematika sistematiċi
+76	2176	sigarett	sigaretti
+77	2177	ħarir	ħarira
+78	2178	indirett	indiretta indiretti
+79	2179	nħeba	inħbejt inħbew inħbiet inħeba jinħbew jinħbewx jinħeba jinħebiex ninħbew ninħbewx ninħeba nħbejt nħbew nħbiet tinħeba
+80	2180	amir	amiri emir
+81	2181	xejjen	imxejjen inxejnu ixejjen ixejnu ixxejjen jxejjen jxejnu mxejjen nxejnu tixjin xejnet xxejjen xxejnu
+82	2182	messija	
+83	2183	ddubita	ddubitat ddubitaw ddubitax iddubita iddubitajt iddubitaw jiddubita jiddubitaw niddubita niddubitaw tiddubita tiddubitaw
+84	2184	welled	inwelldu iwelldu jwelldu jwelled mwelled nwelldu welldet welldu wellidna wellidt
+85	2185	ħaruf	ħarufa ħrejjef ħrief
+86	2186	riġel	riġilha riġlejn riġlek riġli riġlu
+87	2187	delizzju	delizzji
+88	2188	tkattar	jitkattar jitkattru nitkattru titkattar tkattir tkattret tkattru
+89	2189	xiex	
+90	2190	eċċessiv	eċċessiva eċċessivi
+91	2191	simboliku	simbolika simboliċi
+92	2192	kburija	kburitu
+93	2193	lissen	ilissen ilissnu imlissen inlissen jlissen jlissinx jlissnu jlissnux lissint lissintu lissinx lissnet lissnitx lissnu lissnux mlissen nlissen nlissinx nlissnu tlissen tlissin
+94	2194	leġiżlazzjoni	leġiżlazzjonijiet
+95	2195	bozza	bozoz
+96	2196	għodu	
+97	2197	borra	
+98	2198	manuvra	manuvri
+99	2199	karbonju	
+100	2200	simpatija	simpatiji

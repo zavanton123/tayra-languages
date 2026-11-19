@@ -1,0 +1,100 @@
+1	3101	terapewtiku	terapewtiċi
+2	3102	żibeġ	żibġa żibġiet
+3	3103	dabbar	dabbarna dabbart dabbarx dabbru idabbar idabbru iddabbar jdabbar jdabbru ndabbar ndabbru
+4	3104	qlajja	qlajjiet
+5	3105	essenza	essenzi
+6	3106	xxala	ixxala ixxalajna jixxala jixxalaw nixxalaw tixxala xalar xxalaw
+7	3107	għannaq	għannaqtu għannqu jgħannaq jgħannqu jitgħannaq jitgħannqu ngħannqu tgħannaq tgħanniq tgħannqet
+8	3108	kimiku	kimiċi
+9	3109	volontarjament	
+10	3110	affaxxina	affaxxinat jaffaxxina jaffaxxinaw naffaxxina taffaxxina
+11	3111	dehen	
+12	3112	bbumbardja	bbumbardjar bbumbardjat bbumbardjaw ibbumbardja ibbumbardjar ibbumbardjat ibbumbardjaw jibbumbardja jibbumbardjaw tibbumbardja
+13	3113	ħenn	iħenn jħenn jħennu nħennu tħenn tħennx ħennejt ħennew ħennu
+14	3114	armonika	armoniċi
+15	3115	tgħatta	jitgħatta jitgħattew jitgħattewx nitgħatta tgħattew tgħattiet tgħattiex titgħatta titgħattiex
+16	3116	dment	
+17	3117	dab	dabu ddub dewbien dub dwieb iddub idub idubu jdub jdubu jdubux
+18	3118	umilja	jumilja jumiljaw numiljaw tumilja tumiljax umiljat
+19	3119	widdeb	inwiddbu iwiddbu iwiddeb jwiddbux jwiddeb mwiddeb twiddbu widdbet widdbu widdibt widdibtu
+20	3120	fwar	
+21	3121	soppa	sopop
+22	3122	ssikka	issikka issikkajtx issikkar issikkat jissikka jissikkaw nissikkaw ssikkat tissikka
+23	3123	bebbux	bebbuxu
+24	3124	debuttant	debuttanti
+25	3125	berbaq	berbaqx berbqet iberbaq jberbaq jberbaqx jberbqu mberbaq tberbaq tberbqu
+26	3126	kemmun	
+27	3127	kkonsla	jikkonsla jikkonslaw konsolat nikkonsla nikkonslaw tikkonsla
+28	3128	lapes	apis lapis lapsijiet
+29	3129	volontà	
+30	3130	butir	
+31	3131	faqa'	faqa faqgħet jifqa' jifqax jifqgħu mifqugħ tifqa tifqa'
+32	3132	fwieħa	fwejjaħ
+33	3133	involontarju	volontarja volontarji
+34	3134	qireq	qroqq
+35	3135	ġenoċidju	ġenoċidji
+36	3136	reġgħa	reġgħat
+37	3137	dakkar	dakkir dakkret ddakkar ddakkru idakkar iddakkar iddakkru imdakkar jdakkar jdakkru mdakkar ndakkru
+38	3138	liberazzjoni	
+39	3139	tappan	imtappan itappnu ittappan jtappan jtappnux mtappan ntappnu tappnet tappnu ttappan ttappnu
+40	3140	rarament	
+41	3141	ssaporta	issaporta issaportejna issaporti jissaporti jissaportu nissaporti nissaportix nissaportu ssaportejniex ssaportewx tissaporti
+42	3142	ħata	jaħti jaħtix jaħtu jaħtux naħtux taħti taħtu
+43	3143	qabru	qwabar
+44	3144	umiljazzjoni	umiljazzjonijiet
+45	3145	lampier	lampieri
+46	3146	irrabjat	
+47	3147	sesswalità	
+48	3148	sal	jsulu salet salu sul sulu
+49	3149	dineb	dinbu dinibx dnibt jidneb nidneb nidnibx tidneb tidnibx
+50	3150	idealment	
+51	3151	bażikament	
+52	3152	dundjan	dundjani
+53	3153	statwarju	istatwarju statwarji
+54	3154	rmiġġ	irmiġġ irmiġġi rmiġġi
+55	3155	vina	vini
+56	3156	għerusija	għerusijiet
+57	3157	stagħna	jistagħna jistagħnew nistagħna stagħnew stagħniet tistagħna
+58	3158	namra	namriet
+59	3159	leħja	
+60	3160	meraviljuż	meraviljuża meraviljużi
+61	3161	garr	garrejt garret igorr igorru ingorr ingorru jgorr jgorru ngorru tgorr
+62	3162	siment	
+63	3163	għer	jgħir jgħiru ngħir ngħiru tgħir tgħirx
+64	3164	kulturalment	
+65	3165	karkar	ikarkar ikarkru imkarkar jkarkar karkret karkru nkarkru tkarkar tkarkarx
+66	3166	mula	
+67	3167	gidem	gidmu jigdem jigdmu jigdmux migdum nigdem nigdmu tigdem
+68	3168	purgatorju	
+69	3169	niggeż	iniggeż iniggżu inniggeż jniggeż jniggżu niggżet niggżitx tingiż tniggeż tniggżu
+70	3170	baqbaq	ibaqbaq ibaqbqu imbaqbaq jbaqbaq tbaqbaq
+71	3171	eċċess	eċċessi
+72	3172	żbarka	iżbarkar jiżbarka jiżbarkaw jiżbarkax tiżbarka żbarkar żbarkat żbarkaw żbarkawx
+73	3173	raħħas	imraħħas inraħħsu iraħħas jraħħas jraħħsu nraħħsu traħħas traħħsu
+74	3174	wiżż	wiżża
+75	3175	nuċċali	nuċċalijiet
+76	3176	għarqa	għarqiet
+77	3177	rġulija	irġulija
+78	3178	kartellun	kartelluni
+79	3179	venda	vendi
+80	3180	stħaqq	jistħoqq jistħoqqu mistħoqq nistħoqq tistħoqq
+81	3181	biet	bit
+82	3182	dehbi	dehbija dehbin
+83	3183	minorenni	
+84	3184	ħakk	inħokk iħokk iħokku jħokk jħokku maħkuk nħokku tħokk ħokk
+85	3185	kaxxier	kaxxiera
+86	3186	kalamita	kalamiti
+87	3187	reġġa'	inreġġgħu ireġġgħu jreġġa' jreġġgħu nreġġa nreġġa' nreġġgħu reġġa reġġgħet reġġgħu treġġa treġġax treġġgħu treġġgħux
+88	3188	ħatab	ħatba
+89	3189	rkoppa	irkoppitha irkopptejn irkopptu rkoppitha rkopptejn rkoppti rkopptu
+90	3190	xjieħ	jixjieħ jixjieħu jixjieħx nixjieħ nixjieħu tixjieħ xjaħ xjieħu
+91	3191	kronoloġiku	kronoloġika kronoloġiċi
+92	3192	xorz	xorts
+93	3193	żena	iżnu jiżni jiżnu niżnu tiżni tiżnu żniet
+94	3194	frak	farka
+95	3195	mqareb	imqarba imqarbin imqareb mqarba mqarbin
+96	3196	mitjar	imtajar
+97	3197	qassar	imqassar inqassru iqassar iqassru jqassar jqassru mqassar qassru taqsir tqassru
+98	3198	xefaq	
+99	3199	qares	qarsin
+100	3200	dawran	dawrien

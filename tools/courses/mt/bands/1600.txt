@@ -1,0 +1,100 @@
+1	1501	profond	profonda profondi
+2	1502	razza	razez
+3	1503	rokna	irkejjen irkien rkejjen rokon
+4	1504	ddejjaq	ddejjaqna ddejjaqt ddejjaqtx ddejjaqx ddejqet ddejqitx ddejqu ddejqux iddejjaq iddejjaqna iddejjaqt iddejjaqx iddejqet iddejqu jiddejjaq jiddejjaqx jiddejqu jiddejqux niddejjaq niddejjaqx niddejqu niddejqux tiddejjaq tiddejjaqx tiddejqu tiddejqux
+5	1505	għadam	għadma għadmiet
+6	1506	korrett	korretta korretti
+7	1507	adatta	adattajna adattajt adattat adattaw adattawx addatta jadatta jadattaw nadatta nadattaw tadatta
+8	1508	ħarsa	ħarsiet
+9	1509	denb	demb denbek denbha denbhom denbu
+10	1510	umanità	umanitajiet
+11	1511	obbligatorju	obbligatorja obbligatorji obligatorju
+12	1512	ramel	ramal rmiel
+13	1513	delitt	delitti
+14	1514	ilbies	
+15	1515	filosfu	filosfi filosofu
+16	1516	approvazzjoni	approvazzjonijiet
+17	1517	ċaqlaq	imċaqlaq iċaqalqu iċaqlaq iċċaqalqu iċċaqlaq iċċaqlaqx jċaqalqu jċaqlaq mċaqlaq nċaqalqu nċaqlaq ċaqalqu ċaqlaqna ċaqliq ċċaqalqu ċċaqalqux ċċaqlaq ċċaqlaqx
+18	1518	tkompla	itkomplew jitkompla jitkomplew jitkomplewx jitkompliex titkompla titkompliex tkomplew tkomplewx tkompliet tkomplietx tkompliex
+19	1519	safi	isfa safja safjin
+20	1520	tonn	tonna
+21	1521	melħ	imlieħ
+22	1522	barka	barkiet
+23	1523	deżert	deżerti
+24	1524	maġenb	maġenbha maġenbhom maġenbi maġenbna maġenbu
+25	1525	risq	riżq
+26	1526	teoloġija	teoloġiji
+27	1527	ftaħar	ftaħart ftaħarx ftaħret ftaħru jiftaħar jiftaħarx jiftaħru jiftaħrux niftaħar niftaħru tiftaħar
+28	1528	kulmin	
+29	1529	rrisponda	irrispondejt irrispondew irrispondi irrispondiet irrispondu jirrispondi jirrispondix jirrispondu jirrispondux nirrispondi nirrispondu rrispondejtx rrispondew rrispondewx rrispondiet rrispondiex tirrispondi tirrispondix tirrispondu
+30	1530	dranaġġ	dranaġġi drenaġġ
+31	1531	insett	insetti
+32	1532	evoluzzjoni	evoluzzjonijiet
+33	1533	eżamina	eżaminajna eżaminajt eżaminat eżaminaw eżaminax jeżamina jeżaminaw neżamina neżaminaw teżamina teżaminaw
+34	1534	diplomatiku	diplomatika diplomatiċi
+35	1535	pitter	impitter ipitter ipittru jitpitter jitpittru jpitter jpittru mpitter pittirna pittirt pittirtu pittirx pittret pittru titpitter tpitter tpittir tpittirt tpittret tpittru
+36	1536	agrikoltura	agrikultura
+37	1537	governattiv	governattiva governattivi
+38	1538	emozzjoni	emozzjonijiet
+39	1539	tneħħija	
+40	1540	kullimkien	
+41	1541	ħajjar	imħajjar inħajjar inħajru iħajjar iħajru jħajjar jħajru mħajjar nħajjar nħajru tħajjar tħajjarx tħajru ħajjarna ħajjart ħajjartu ħajret ħajru
+42	1542	spera	jispera jisperaw nispera nisperaw tispera
+43	1543	sider	isdra sidirha sidirhom sidirna sidrek sidri sidru
+44	1544	dahar	daharha daharhom daharna dahrek dahri dahru
+45	1545	għoġob	għoġbot għoġbu għoġbux għoġobna għoġobt għoġobx jogħġbu jogħġbux jogħġob jogħġobx nogħġbu nogħġob togħġbu togħġbux togħġob togħġobx
+46	1546	faxxa	faxex
+47	1547	xerred	imxerred inxerrdu inxerred ixerrdu ixerred ixxerrdu ixxerred jxerrdu jxerrdux jxerred mxerred nxerrdu nxerred xerrdet xerrdu xerridna xerridt xxerrdu xxerred
+48	1548	adottat	adottata adottati
+49	1549	osservazzjoni	osservazzjonijiet
+50	1550	żejjen	imżejjen inżejjen inżejnu iżejjen iżejnu iżżejjen iżżejnu jżejjen jżejjinx jżejnu mżejjen nżejjen nżejnux żejjinna żejjint żejjintu żejnet żejnu żżejjen żżejnu
+51	1551	tlettax	
+52	1552	awla	awli
+53	1553	ponta	ponot
+54	1554	frażi	frażijiet
+55	1555	erbat	
+56	1556	borża	boroż
+57	1557	eleġibbli	eliġibbli
+58	1558	kampnar	kampnari
+59	1559	fratell	fra fratelli ifra
+60	1560	wild	ulied
+61	1561	rħam	irħam irħama irħamiet rħama
+62	1562	isfar	sofor
+63	1563	majjistral	
+64	1564	nnegozja	innegozja innegozjajna innegozjajtu innegozjat innegozjaw jinnegozja jinnegozjaw negozjar negozjat ninnegozja ninnegozjaw nnegozjajna nnegozjat nnegozjaw tinnegozja tinnegozjax
+65	1565	ġġustifika	iġġustifika iġġustifikat iġġustifikaw jiġġustifika jiġġustifikaw jiġġustifikawx jiġġustifikax niġġustifika niġġustifikaw tiġġustifika tiġġustifikax ġġustifikat ġġustifikaw ġġustifikax
+66	1566	arloġġ	arloġġi
+67	1567	xufier	xufiera
+68	1568	avolja	allavolja
+69	1569	kkwota	ikkwota ikkwotajna ikkwotat ikkwotaw jikkwota jikkwotaw jikkwotax kkwotajna kkwotajt kkwotat kkwotaw kwotat nikkwota nikkwotaw tikkwota
+70	1570	inbid	
+71	1571	żfin	
+72	1572	patta	impatti inpatti inpattu ipatti ipattu jpatti jpattu mpatti npatti npattu pattejna pattew patti pattiet tpatti tpattija
+73	1573	fenek	fenka fniek ifniek
+74	1574	vaganza	vaganzi vakanza
+75	1575	silġ	
+76	1576	xeħet	ixħtu jixħet jixħtu mixħut nixħet nixħtu tixħet tixħtux xeħtet xeħtu xħitt xħittu
+77	1577	abbuża	abbużajt abbużat abbużaw abbużax jabbuża jabbużaw jabbużawx jabbużax nabbuża nabbużaw tabbuża
+78	1578	muntanjuż	muntanjuża muntanjużi
+79	1579	mbierek	imberkin imbierek imbierka mberkin mbierka
+80	1580	kiesaħ	kesħin kiesħa
+81	1581	deskrizzjoni	deskrizzjonijiet
+82	1582	indirizz	indirizzi
+83	1583	ħtija	ħtijiet
+84	1584	bitħa	btieħi
+85	1585	assoċja	assoċjat assoċjaw assoċjawx assoċjax jassoċja jassoċjaw nassoċja nassoċjaw tassoċja
+86	1586	tabella	tabelli
+87	1587	għanja	għanjiet
+88	1588	ward	warda wardiet
+89	1589	nukleari	
+90	1590	xegħel	inxtegħel ixgħel jixegħlu jixgħel mixgħul mixgħula mixgħulin nixegħlu nixgħel nxtegħel tixegħlu tixgħel xegħlet xegħlitx xegħlu xgħelt
+91	1591	fjuwil	fjuwils fuel
+92	1592	żbalja	jiżbalja jiżbaljaw jiżbaljawx jiżbaljax niżbalja niżbaljaw niżbaljawx niżbaljax tiżbalja tiżbaljax żbaljajna żbaljajt żbaljaw żbaljax
+93	1593	entużjażmu	
+94	1594	dell	dellijiet
+95	1595	ġilda	ġlud
+96	1596	appuntament	appuntamenti
+97	1597	enfasi	
+98	1598	lbiċ	ilbiċ
+99	1599	kejl	kejlijiet
+100	1600	wieled	imwieled inwieled mwieled twelidx twieldu wieldet

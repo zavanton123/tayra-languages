@@ -1,0 +1,100 @@
+1	3901	abdikazzjoni	
+2	3902	ħadit	
+3	3903	sugu	sugi
+4	3904	baxà	paxà
+5	3905	tnikker	jitnikker jitnikkru titnikker tnikkir tnikkirtx
+6	3906	skojjattlu	iskojjattli iskojjattlu skojjattli
+7	3907	ċekċek	iċekċku iċċekċek jċekċek jċekċku ċekċik
+8	3908	inuman	inumana inumani
+9	3909	stabar	jistabar nistabar nistabru stabret stabru tistabar
+10	3910	uranju	
+11	3911	ċċarġja	iċċarġjar iċċarġjat jiċċarġja jiċċarġjaw niċċarġja niċċarġjaw tiċċarġja ċċarġjat
+12	3912	għażżiela	
+13	3913	uqija	ewieq uqijiet wieq
+14	3914	ħarrek	imħarrek jħarrku mħarrek nħarrku tħarrek tħarrku ħarrku
+15	3915	fellus	flieles
+16	3916	gambetta	gambetti
+17	3917	pappagall	pappagalli
+18	3918	eżattezza	
+19	3919	twaħħad	jitwaħħad jitwaħħdu titwaħħad twaħħdet twaħħdu
+20	3920	emozzjonalment	
+21	3921	ħalba	ħalbiet
+22	3922	karitattiv	karitattiva karitattivi
+23	3923	għarbiel	
+24	3924	mislub	
+25	3925	deha	edha jedha jedhew medhija nedhew
+26	3926	perenni	
+27	3927	ebusija	
+28	3928	temperat	temperata temperati
+29	3929	ippopotamu	ippopotami
+30	3930	zopp	zopop zoppa
+31	3931	żdinga	iżdingar niżdinga żdingar żdingat
+32	3932	argumentazzjoni	argumentazzjonijiet
+33	3933	astroloġiku	astroloġika astroloġiċi
+34	3934	ddeporta	ddeportat ddeportaw deportar deportat iddeporta iddeportaw jiddeporta jiddeportaw
+35	3935	waħħad	imwaħħad iwaħħad iwaħħdu jwaħħad jwaħħdu mwaħħad tewħid twaħħdu waħħadna waħħdet
+36	3936	ħambaq	inħambaq iħambaq iħambqu jħambaq jħambqu tħambaq ħambqu
+37	3937	makakk	makakka makakki
+38	3938	ssallab	issallab issallabt issallbu jissallab jissallbu nissallab tissallab
+39	3939	kimikament	
+40	3940	aċċenna	aċċennajna aċċennajt jaċċenna jaċċennaw naċċennaw
+41	3941	terħa	trieħi
+42	3942	pornografiku	pornografika pornografiċi
+43	3943	simar	
+44	3944	ħabbeb	jħabbeb tħabbeb ħabbet ħabbibna ħabbu
+45	3945	bbeatifika	bbeatifikat beatifikat ibbeatifika ibbeatifikat jibbeatifika
+46	3946	degradazzjoni	
+47	3947	rieħ	rieħu riħna riħu
+48	3948	etimoloġikament	
+49	3949	inspjegabbli	
+50	3950	ċċassa	iċċassa iċċassajt iċċassat jiċċassa jiċċassaw niċċassa niċċassaw tiċċassa ċċassat
+51	3951	estratta	jestrattaw
+52	3952	sabbar	isabbar issabbar jsabbar sabbarna tissabbar
+53	3953	ċawl	ċawla ċawliet
+54	3954	żbilanċja	jiżbilanċja jiżbilanċjaw jiżbilanċjax niżbilanċja tiżbilanċja żbilanċjajt żbilanċjat
+55	3955	ċoqqa	
+56	3956	użufrutt	
+57	3957	mmanuvra	immanuvra immanuvrar jimmanuvra jimmanuvraw mmanuvrar timmanuvra
+58	3958	nieqa	
+59	3959	gallettina	gallettini
+60	3960	unifika	junifika junifikaw tunifika unifikat unifikaw
+61	3961	ċċita	iċċitat iċċitaw jiċċita jiċċitaw niċċitaw tiċċita ċċitat ċċitaw
+62	3962	brunġiel	brinġiel
+63	3963	lavur	lavuri
+64	3964	akkredita	akkreditat akkreditaw jakkredita jakkreditaw
+65	3965	xkubetta	ixkubetta ixkubetti xkubetti
+66	3966	gassuż	gassuża gassużi
+67	3967	qrubija	
+68	3968	bewsa	
+69	3969	namrat	namrata namrati
+70	3970	abbiss	abbissi abiss
+71	3971	ħalfa	
+72	3972	perċimes	
+73	3973	rieġa	irieġi irieġu jreġix jreġux jrieġi treġix
+74	3974	arżnu	
+75	3975	regħba	
+76	3976	ċinga	ċineg
+77	3977	moqdief	imqadef mqadef
+78	3978	tassonomiku	tassonomika tassonomiċi
+79	3979	xaba'	jixba jixba' jixbax jixbgħu nixba nixba' nixbgħu nixbgħux tixba' xbajna xbajt xbajtux xbajtx
+80	3980	għera	
+81	3981	ħamel	jaħmel jaħmilx taħmel ħamilx ħamlet
+82	3982	ċelebrant	ċelebranti
+83	3983	ttellef	ittellef ittellifx ttellfu ttellifna ttellifx
+84	3984	kowt	kowtijiet
+85	3985	għaxqa	
+86	3986	ġawhar	ġawhriet
+87	3987	herra	herrew herri jherri jherru mherri therri
+88	3988	taqqal	imtaqqal itaqqal itaqqlu ittaqqal jtaqqal jtaqqlu mtaqqal ttaqqal
+89	3989	għarma	għaram
+90	3990	ħarbex	inħarbex iħarbex jħarbex tħarbex tħarbix
+91	3991	qela	aqli jaqli jaqlu taqli
+92	3992	terminoloġiku	terminoloġika terminoloġiċi
+93	3993	ddeġenera	ddeġenerat ddeġeneraw ddeġenerax deġenerat iddeġenera iddeġenerat jiddeġenera jiddeġeneraw jiddeġenerax tiddeġenera
+94	3994	marġ	imraġ mraġ
+95	3995	derivazzjoni	derivazzjonijiet
+96	3996	devastazzjoni	devastazzjonijiet
+97	3997	għaxi	għaxja
+98	3998	eminenti	
+99	3999	ċċentralizza	iċċentralizza iċċentralizzat jiċċentralizza jiċċentralizzaw tiċċentralizza ċentralizzat ċċentralizzat
+100	4000	demmi	

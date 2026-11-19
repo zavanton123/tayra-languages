@@ -1,0 +1,100 @@
+1	1	il	d id in ir is it ix iz iċ iż l n r s t x z ċ ż
+2	2	ta'	t' tad tagħha tagħhom tagħkom tagħna tal tan tar tas tat tax taz taċ taż tiegħek tiegħi tiegħu
+3	3	li	illi
+4	4	fi	f' fid fih fiha fihom fija fik fikom fil fin fina fir fis fit fix fiz fiċ fiż fl
+5	5	u	
+6	6	kien	ikun ikunu ikunux ikunx inkun inkunu inkunux inkunx itkun jkun jkunu jkunux jkunx kenitx kenux kienet kienetx kienu kienx kinitx kjien konna konniex kont kontu kontux kontx kun kunu nkun nkunu nkunux nkunx tkun tkunu tkunux tkunx
+7	7	minn	mid mill minna minnek minnha minnhom minni minnkom minnu mir mis mit mix miz miċ miż
+8	8	għal	għad għala għalih għaliha għalihom għalija għalik għalikom għalina għall għar għas għat għaz għaċ għaż
+9	9	bi	b' bid bih biha bihom bija bik bikom bil bin bina bir bis bit bix biz biċ biż bl imb
+10	10	huwa	hu mhuwiex mhux tiegħu
+11	11	ma	m'
+12	12	dan	da dana dawn
+13	13	ħafna	aktar iktar iżjed
+14	14	biex	sabiex
+15	15	lil	lid lilek lilha lilhom lili lilkom lill lilna lilu lin lir lis lit lix liz liċ liż
+16	16	ma'	mad magħha magħhom magħkom magħna mal man mas mat max maz maċ maż miegħek miegħi miegħu
+17	17	fuq	fuqek fuqha fuqhom fuqi fuqkom fuqna fuqu
+18	18	din	dawn hedin
+19	19	ġie	ejja ejjew jiġi jiġix jiġu jiġux niġi niġix niġu niġux tiġi tiġix tiġu tiġux ġej ġejna ġejniex ġejt ġejtu ġejtx ġew ġewx ġiet ġietx ġiex
+20	20	ukoll	wkoll
+21	21	sena	isnin sentejn snin
+22	22	għand	għandek għandekx għandha għandhiex għandhom għandhomx għandi għandix għandkom għandkomx għandna għandniex għandu għandux mgħandhiex mgħandhomx mgħandix mgħandniex mgħandux
+23	23	qed	ed
+24	24	qal	għidna għidniex għidt għidtu għidtux għidtx għidu igħid igħidu ingħid ingħidu intqal jgħid jgħidu jgħidux jgħidx ngħid ngħidu ngħidux ngħidx ntqal qalet qalitx qalli qallu qalu qalux qalx tgħid tgħidu tgħidx
+25	25	sar	insir insiru isir isiru isirux isirx issir issiru issirx jsir jsiru jsirux jsirx misjur nsir nsiru nsirux nsirx saret saritx saru sarux sarx sir sirna sirt sirtu sirtx siru ssir ssiru ssirux ssirx
+26	26	xi	x'
+27	27	hija	hi mhijiex mhix tagħha
+28	28	se	ser
+29	29	wara	warajha warajhom warajkom warajna wrajna
+30	30	seta'	istgħu jista jista' jistax jistgħu jistgħux nista nista' nistax nistgħu nistgħux seta setax setgħet setgħetx setgħu setgħux stajna stajniex stajt stajtu stajtx tista tista' tistax tistgħu tistgħux
+31	31	hemm	hemmx
+32	32	ieħor	oħra oħrajn
+33	33	kif	
+34	34	meta	mita
+35	35	wieħed	uħud waħda waħdiet
+36	36	bħala	
+37	37	huma	mhumiex tagħhom
+38	38	għamel	agħmel agħmlu għamil għamilna għamilniex għamilt għamiltu għamiltux għamiltx għamilx għamlet għamlitx għamlu għamlux jagħmel jagħmilx jagħmlu jagħmlux nagħmel nagħmilx nagħmlu nagħmlux tagħmel tagħmilx tagħmlu tagħmlux
+39	39	kbir	akbar ikbar kbar kbira
+40	40	jew	
+41	41	ewwel	
+42	42	lejn	'il 'l lejh lejha lejhom lejja lejk lejkom lejna
+43	43	fejn	
+44	44	kollu	kollha kollhom
+45	45	kell	ikoll kellek kellha kellhom kelli kellkom kellna kellu
+46	46	pajjiż	pajjiżek pajjiżha pajjiżhom pajjiżi pajjiżkom pajjiżna pajjiżu
+47	47	dwar	dwarek dwarha dwarhom dwari dwarkom dwarna dwaru idwar
+48	48	ta	agħti agħtu għati għoti jagħti jagħtix jagħtu jagħtux mogħti nagħti nagħtix nagħtu nagħtux tagħti tagħtix tagħtu tagħtux tajna tajniex tajt tajtu tajtux tajtx tat tatx taw tawx tax
+49	49	gvern	gvernijiet
+50	50	dak	
+51	51	beda	bdejna bdejniex bdejt bdejtu bdejtx bdew bdewx bdiet bdietx bediex bidi ibda ibdew jibda jibdew jibdewx jibdiex mibdi nibda nibdew nibdewx nibdiex tibda tibdew tibdiex
+52	52	ried	irid iridu iridux iridx irrid irridu irridux jrid jridu jridux jridx reditx redux rid ridna ridniex ridt ridtu ridtux ridtx ridu riedet riedu riedx rrid rridu rridux rridx trid tridu tridux tridx
+53	53	iżda	
+54	54	sa	s' sad sal sas sat sax saz saċ saż
+55	55	jekk	
+56	56	ħa	jeħdux jeħu jieħdu jieħu jiħdux jiħux meħud neħdux neħux nieħdu nieħu niħdux niħux teħdux teħid teħux tieħdu tieħu tiħdux tiħux ħadet ħaditx ħadna ħadniex ħadt ħadtu ħadtux ħadtx ħadu ħadux ħax ħudu
+57	57	kull	
+58	58	aħħar	
+59	59	stess	istess
+60	60	hekk	
+61	61	ftit	anqas inqas
+62	62	qabel	jaqbel jaqbilx jaqblu jaqblux maqbul naqbel naqbilx naqblu naqblux qabilha qabilhom qabilkom qabilna qabilx qablek qablet qabli qablitx qablu qablux qbil qbilna qbilniex qbilt qbiltux qbiltx taqbel taqbilx taqblu
+63	63	biss	
+64	64	ġdid	iġded ġdida ġodda
+65	65	żmien	iżmien iżmna żmienek żmienha żmienhom żmieni żmienkom żmienna żmienu żminijiet
+66	66	bejn	bejnek bejnha bejnhom bejni bejniet bejnietha bejniethom bejnietkom bejnietna bejnkom bejnna bejnu
+67	67	baqa'	baqa baqax baqgħet baqgħetx baqgħu baqgħux bqajna bqajniex bqajt bqajtu bqajtx ibqgħu jibqa jibqa' jibqax jibqgħu jibqgħux nibqa nibqa' nibqax nibqgħu nibqgħux tibqa tibqa' tibqax tibqgħu tibqgħux
+68	68	imma	
+69	69	xogħol	xogħli xogħlijiet xogħlok xogħlu xogħolha xogħolhom xogħolkom xogħolna
+70	70	tajjeb	aħjar itjeb tajba tajbin twajba twajbin twajjeb
+71	71	dawk	
+72	72	illum	llum lum
+73	73	għax	
+74	74	mod	modi
+75	75	żewġ	żewġek żewġha żewġhom żewġi żewġna żewġu
+76	76	bħal	bħad bħalek bħalha bħalhom bħali bħalkom bħall bħalna bħalu bħan bħar bħas bħat bħax bħaz bħaċ bħaż
+77	77	ministru	ministra ministri
+78	78	min	
+79	79	partit	partiti
+80	80	ra	ara araw jara jaraw jarawx jarax muri nara naraw narawx narax rajna rajniex rajt rajtu rajtux rajtx rat ratx raw rawx rax tara taraw tarawx tarax
+81	81	kemm	
+82	82	darba	darbiet darbtejn drabi
+83	83	mar	immorru immur imorru imorrux imur imurx jmorru jmorrux jmur jmurx marret marritx marru marrux marx mmorru mmorrux mmur mmurx morna morniex morru mort mortu mortx mur tmorru tmorrux tmur tmurx
+84	84	nies	
+85	85	fost	fostha fosthom fostkom fostna fostu
+86	86	kontra	kontrih kontriha kontrihom kontrija kontrik kontrina
+87	87	belt	bliet ibliet
+88	88	knisja	knejjes
+89	89	jaf	af jafu jafux jafx naf nafu nafux nafx taf tafu tafux tafx
+90	90	kompla	ikompli ikomplu ikomplux inkompli inkomplu jkompli jkomplix jkomplu jkomplux komplejna komplejt komplejtu komplejtx komplew komplewx kompli kompliet komplietx kompliex komplu nkompli nkomplix nkomplu nkomplux tkompli tkomplija tkomplix tkomplu
+91	91	anki	anka anke
+92	92	issa	
+93	93	għadda	għaddejna għaddejniex għaddejt għaddejtu għaddejtx għaddew għaddewx għaddi għaddiet għaddietx għaddiex għaddu igħaddi igħaddu jgħaddi jgħaddix jgħaddu jgħaddux ngħaddi ngħaddix ngħaddu ngħaddux tgħaddi tgħaddix tgħaddu
+94	94	waqt	waqtiet
+95	95	ħareġ	joħorġu joħorġux joħroġ joħroġx maħruġ noħorġu noħorġux noħroġ noħroġx oħorġu oħroġ toħorġu toħorġux toħroġ toħroġx ħariġx ħarġet ħarġitx ħarġu ħarġux ħiereġ ħriġna ħriġniex ħriġt ħriġtu ħriġtx ħruġ
+96	96	deher	deherx dehret dehritx dehru dehrux dhert dhertu jidher jidhirx jidhru jidhrux nidher nidhirx nidhru nidhrux tidher tidhirx tidhru
+97	97	qiegħed	imqiegħed inqiegħdu inqiegħed iqiegħdu iqiegħed jqiegħdu jqiegħed mqiegħed nqiegħdu nqiegħed qegħdin qegħidna qegħidt qiegħad qiegħda qiegħdet qiegħdu tqegħid tqegħidx tqiegħdu tqiegħed
+98	98	ħadem	aħdem aħdmu jaħdem jaħdimx jaħdmu jaħdmux naħdem naħdimx naħdmu naħdmux taħdem taħdimx taħdmu ħadimx ħadmet ħadmitx ħadmu ħadmux ħdimna ħdimt ħdimtu ħdimtx
+99	99	madwar	madwarek madwarha madwarhom madwari madwarkom madwarna madwaru
+100	100	matul	matulek matulha matulhom matulu

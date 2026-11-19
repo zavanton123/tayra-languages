@@ -1,0 +1,100 @@
+1	701	faċli	
+2	702	tema	temi
+3	703	abjad	bajda bojod
+4	704	soluzzjoni	soluzzjonijiet
+5	705	patri	patrijiet
+6	706	ġnien	ġnejna ġonna
+7	707	hemmhekk	
+8	708	vjaġġ	vjaġġi
+9	709	ppropona	ippropona ipproponejna ipproponejt ipproponejtu ipproponew ipproponi ipproponiet jipproponi jipproponix jipproponu nipproponi nipproponu pproponejna pproponejt pproponew pproponiet pproponiex propost tipproponi tipproponu
+10	710	għeleb	għelbet għelbu għelbux għelibna għelibt jegħlbu jegħleb megħlub megħluba megħlubin negħlbu negħleb tegħlbu tegħlbux tegħleb
+11	711	protezzjoni	protezzjonijiet
+12	712	xhud	
+13	713	saqsa	insaqsi insaqsu isaqsi isaqsu issaqsi jistaqsi jistaqsu jsaqsi jsaqsu nistaqsi nistaqsu nsaqsi nsaqsix nsaqsu saqsejna saqsejt saqsejtu saqsew saqsi saqsiet saqsu ssaqsi staqsa staqsejna staqsejt staqsew staqsiet tistaqsi tistaqsu
+14	714	ġibed	inġibed iġbed iġbidna jiġbdu jiġbdux jiġbed miġbud niġbdu niġbdux niġbed niġbidx nġibed tiġbdu tiġbdux tiġbed tiġbidx ġbid ġbidna ġbidt ġbidtu ġibdet ġibditx ġibdu ġibdux ġibidx
+15	715	salib	islaleb slaleb
+16	716	ddeskriva	ddeskrivejt ddeskrivew ddeskrivewx ddeskrivi ddeskriviet ddeskrivit deskritt iddeskriva iddeskrivejna iddeskrivejt iddeskrivew iddeskrivi iddeskriviet jiddeskrivi jiddeskrivix jiddeskrivu jiddeskrivux niddeskrivi niddeskrivu tiddeskrivi
+17	717	trattat	itrattat trattati
+18	718	kiel	jieklu jiekol jiklux jikolx kielet kielu kilitx kilna kilt kiltu kul kulu mikul nieklu niekol niklux nikolx tieklu tiekol tiklux tikolx
+19	719	kultant	
+20	720	muntanja	muntanji
+21	721	sempliċi	
+22	722	ħu	ħija ħuh ħuha ħuhom ħuk ħukom ħuna
+23	723	esprima	espress espressa espressi esprimejna esprimejt esprimejtu esprimew esprimewx esprimi esprimiet jesprimi jesprimix jesprimu nesprimi nesprimix nesprimu nesprimux tesprimi tesprimu
+24	724	opinjoni	opinjonijiet
+25	725	Ħamis	ħamis ħamisijiet
+26	726	torri	torrijiet
+27	727	verament	
+28	728	sensiela	sensiliet
+29	729	karta	karti
+30	730	sema	smewwiet
+31	731	qabeż	aqbeż aqbżu jaqbeż jaqbiżx jaqbżu jaqbżux maqbuż naqbeż naqbżu naqbżux qabiżx qabżet qabżitx qabżu qabżux qbiż qbiżna qbiżt taqbeż taqbiżx taqbżu
+32	732	fieq	fejqan fieqet fiequ fieqx fiq fiqna fiqt fiqu ifiq ifiqu infiq infiqu jfiq jfiqu jfiqux jfiqx nfiq tfiq
+33	733	qala'	iqlugħ jaqilgħu jaqilgħux jaqla jaqla' jaqlax maqlugħ naqilgħu naqilgħux naqla naqla' naqlax qalax qalgħet qalgħetx qalgħu qlajna qlajt qligħ qlugħ taqilgħu taqla taqla' taqlax
+34	734	għar	għerien
+35	735	militari	
+36	736	żball	iżbalji iżball żbalji
+37	737	tifla	ibniet
+38	738	nesa	insa insejna insejt insejtu insew insiet insietx jinsa jinsew jinsewx jinsiex minsi nesiex niesi ninsa ninsew ninsewx ninsiex nisi nsejna nsejniex nsejt nsejtx nsew nsewx nsiet tinsa tinsew tinsewx tinsiex
+39	739	filgħodu	
+40	740	argument	argumenti
+41	741	periklu	perikli
+42	742	qam	inqum inqumu iqum iqumu jqum jqumu jqumux jqumx nqum nqumu qamet qamitx qamu qamux qamx qomna qomt qomtx qum qumu tqum tqumu tqumx
+43	743	demm	dmija
+44	744	ajruport	ajruporti
+45	745	ċċelebra	iċċelebra iċċelebrajna iċċelebrajt iċċelebrat iċċelebraw jiċċelebra jiċċelebraw jiċċelebrawx niċċelebra niċċelebraw niċċelebrawx niċċelebrax tiċċelebra tiċċelebraw ċelebrar ċelebrat ċċelebrajna ċċelebrat ċċelebraw ċċelebrax
+46	746	faċilità	faċilitajiet faċiltà
+47	747	fdal	fdalijiet
+48	748	dehra	dehriet
+49	749	piż	piżijiet
+50	750	grazzi	
+51	751	saċerdot	saċerdoti
+52	752	tama	itma jitma nitma tamiet titma tmajna tmajt tmajtu
+53	753	ġrajja	ġrajjiet
+54	754	tradizzjonali	
+55	755	żejt	żjut
+56	756	bikri	bikrija bikrin
+57	757	disa'	
+58	758	independenti	indipendenti
+59	759	paċi	
+60	760	indirizza	indirizzajna indirizzajt indirizzar indirizzat indirizzatx indirizzaw indirizzax jindirizza jindirizzaw jindirizzax nindirizza nindirizzaw nindirizzawx tindirizza tindirizzaw tindirizzax
+61	761	ċaħad	inċaħad jiċħad jiċħadx jiċħdu jiċħdux miċħud niċħad niċħadx niċħdu tiċħad tiċħadx tiċħdu ċaħadx ċaħdet ċaħditx ċaħdu ċaħdux ċħadt
+62	762	beża'	beża beżax beżgħet beżgħetx beżgħu beżgħux bżajna bżajt bżajtux ibżgħu jibża jibża' jibżax jibżgħu jibżgħux nibża nibża' nibżax nibżgħu nibżgħux tibża tibża' tibżax tibżgħu tibżgħux
+63	763	amministrazzjoni	amministrazzjonijiet
+64	764	blat	blajjet blata blatiet
+65	765	ħila	ħiliet
+66	766	abbuż	abbużi
+67	767	twettaq	jitwettaq jitwettaqx jitwettqu jitwettqux titwettaq titwettaqx titwettqu twettaqna twettaqx twettqet twettqitx twettqu twettqux
+68	768	ħeġġeġ	imħeġġeġ inħeġġeġ inħeġġu iħeġġeġ iħeġġu jħeġġeġ jħeġġiġx jħeġġu mħeġġeġ nħeġġeġ nħeġġu tħeġġeġ tħeġġu ħeġġet ħeġġiġna ħeġġiġt ħeġġiġtu ħeġġu
+69	769	professur	professoressa professuri
+70	770	ħatar	aħtar jaħtar jaħtarx jaħtru maħtur naħtar naħtarx naħtru taħtar ħatarx ħatret ħatru ħatrux ħtarna ħtartu
+71	771	kaxxa	kaxex kaxxetta kaxxi
+72	772	ammetta	ammess ammettejt ammettew ammettiet jammetti jammettix jammettu jammettux nammetti nammettix nammettu nammettux tammetti tammettix tammettu
+73	773	eżatt	eżatta eżatti
+74	774	bqija	
+75	775	assigura	assigurajna assigurajtu assigurat assiguraw assigurax jassigura jassiguraw jassigurawx jassigurax nassigura nassiguraw tassigura tassiguraw
+76	776	appell	appelli
+77	777	kkunsidra	ikkonsidra ikkunsidra ikkunsidrajna ikkunsidrajt ikkunsidrajtx ikkunsidrat ikkunsidraw ikkunsidrawx jikkunsidra jikkunsidraw jikkunsidrawx jikkunsidrax kkonsidra kkunsidrajt kkunsidrat kkunsidraw kkunsidrawx kkunsidrax kunsidrat nikkunsidra nikkunsidraw tikkunsidra tikkunsidraw tikkunsidrax
+78	778	sejħa	sejħat sejħiet
+79	779	kostituzzjoni	kostituzzjonijiet
+80	780	diffikultà	diffikultajiet
+81	781	qaddes	imqaddes imqaddsa imqaddsin inqaddes inqaddsu iqaddes iqaddsu jitqaddes jitqaddisx jitqaddsu jqaddes jqaddisx jqaddsu mqaddes mqaddsa mqaddsin nitqaddsux nqaddes nqaddsu qaddisna qaddist qaddset qaddsu taqdis titqaddes tqaddes tqaddis tqaddisna tqaddset tqaddsu
+82	782	ddependa	ddependejt ddependew ddependiet ddependietx iddependa jiddependi jiddependix jiddependu jiddependux niddependi niddependix niddependu niddependux tiddependi tiddependix
+83	783	laqat	ilqatna ilqatt jolqot jolqotx jolqtu jolqtux laqatx laqtet laqtitx laqtu laqtux lqatna lqatt lqattu milqut nolqot nolqotx nolqtu olqot tolqot tolqotx tolqtu
+84	784	teorija	teoriji
+85	785	kittieb	kittieba
+86	786	xena	xeni
+87	787	mistieden	mistednin mistiedna
+88	788	sinjur	sinjura sinjuri
+89	789	qabar	oqbra qabarha qabarhom qabrek qbajjar qbur qobra
+90	790	binja	binjiet
+91	791	hux	
+92	792	faċċata	faċċati
+93	793	dmir	dmirek dmirha dmirhom dmiri dmirijiet dmirna dmiru
+94	794	suldat	suldati
+95	795	riskju	riskji
+96	796	rispett	rispetti
+97	797	fiduċja	
+98	798	libes	ilbes ilbist ilbsu intlibes jilbes jilbisx jilbsu jilbsux lbist lbistx libisx libset libsu libsux liebes milbus nilbes nilbsu nilbsux ntlibes tilbes tilbisx tilbsu
+99	799	independenza	indipendenza
+100	800	talb	

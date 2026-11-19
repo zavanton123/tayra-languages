@@ -1,0 +1,100 @@
+1	401	wieġeb	imwieġeb inwieġbu inwieġeb iweġibx iwieġbu iwieġeb jitwieġbu jweġbux jweġibx jwieġbu jwieġeb mwieġeb nwieġbu nwieġeb titwieġeb tweġbitx tweġbux tweġib tweġibx twieġbu twieġeb weġbitx weġbux weġibna weġibt weġibtu weġibx wieġbet wieġbu
+2	402	attenda	attendejna attendejt attendejtu attendejtx attendew attendewx attendi attendiet attendiex attendu jattendi jattendix jattendu jattendux nattendi nattendix nattendu tattendi tattendix tattendu
+3	403	peress	
+4	404	minflok	minflokha minflokhom minfloki minflokna minflokok minfloku
+5	405	kuljum	
+6	406	ħallas	imħallas inħallas inħallsu iħallas iħallsu iħlas jħallas jħallasx jħallsu jħallsux mħallas nħallas nħallsu nħallsux tħallas tħallasx tħallsu tħallsux ħallasna ħallasniex ħallast ħallastu ħallastx ħallasx ħallset ħallsitx ħallsu ħallsux
+7	407	waqa'	jaqa jaqa' jaqax jaqgħu jaqgħux naqgħu naqgħux taqa taqa' taqax waqa waqajna waqajt waqax waqgħet waqgħetx waqgħu waqgħux
+8	408	nofsinhar	
+9	409	metru	metri
+10	410	ittra	ittri
+11	411	tazza	tazez tazzi
+12	412	bieb	bibien biebek biebha biebhom biebi biebna biebu bwieb
+13	413	wiċċ	wiċċek wiċċha wiċċhom wiċċi wiċċkom wiċċna wiċċu wċuħ
+14	414	sejjaħ	imsejjaħ insejjaħ insejħu isejjaħ isejħu issejjaħ issejħu jsejjaħ jsejjaħx jsejħu jsejħux msejjaħ nsejjaħ nsejħu nsejħux sejjaħt sejjaħx sejħet sejħu ssejjaħ ssejjaħx ssejħu
+15	415	prodott	prodotta prodotti
+16	416	dam	damet damitx damu damux damx ddum ddumu ddumx domna domniex domt domtu domtx dum iddum iddumx idum idumu indum indumu jdum jdumu jdumux jdumx ndum ndumu ndumux ndumx
+17	417	forsi	
+18	418	Frar	frar
+19	419	daqqa	daqqiet daqqtejn
+20	420	bidla	bidliet
+21	421	repubblika	repubbliki
+22	422	niżel	inżel inżilna inżilt inżiltu inżlu inżul jinżel jinżilx jinżlu jinżlux neżlin nieżel nieżla ninżel ninżlu niżilx niżlet niżlitx niżlu niżlux nżilna nżilt nżiltx nżul tinżel tinżilx
+23	423	kundizzjoni	kundizzjonijiet
+24	424	mistoqsija	mistoqsijiet
+25	425	eżempju	eżempji
+26	426	quddiesa	quddies quddisiet
+27	427	twil	itwal twila
+28	428	biżżejjed	
+29	429	aħbar	aħbarha aħbarhom aħbarijiet aħbaru
+30	430	messaġġ	messaġġi
+31	431	kieku	
+32	432	ħabib	iħbieb ħabiba ħabibek ħabibha ħabibhom ħabibi ħabibitha ħabibti ħabibtu ħabibu ħbieb
+33	433	xulxin	
+34	434	ġenitur	ġenituri
+35	435	resident	residenta residenti
+36	436	għolja	għoljiet
+37	437	daqs	daqsek daqsha daqshom daqsi daqsijiet daqskom daqsna daqsu
+38	438	magħmul	magħmula magħmulin
+39	439	qabad	aqbad aqbdu inqabad jaqbad jaqbadx jaqbdu jaqbdux maqbud naqbad naqbdu nqabad qabadx qabdet qabditx qabdu qabdux qbadna qbadniex qbadt qbadtu qbadtux qbid taqbad taqbadx taqbdu taqbdux
+40	440	mbagħad	umbagħad
+41	441	relazzjoni	relazzjonijiet
+42	442	isfel	
+43	443	laqa'	ilqajna ilqajt ilqajtu ilqgħu jilqa jilqa' jilqax jilqgħu jilqgħux laqa laqax laqgħet laqgħetx laqgħu laqgħux lqajna lqajt lqajtu milqugħ milqugħa milqugħin nilqa nilqa' nilqax nilqgħu nilqgħux tilqa tilqa' tilqax tilqgħu
+44	444	għażla	għażliet
+45	445	unixxa	unit
+46	446	ngħaqad	ingħaqad ingħaqadna ingħaqadt ingħaqadx ingħaqdet ingħaqdu jingħaqad jingħaqadx jingħaqdu jingħaqdux ngħaqadna ngħaqadt ngħaqadx ngħaqdet ngħaqditx ngħaqdu ngħaqdux ningħaqad ningħaqdu ningħaqdux tingħaqad tingħaqadx tingħaqdu
+47	447	fakkar	fakkarna fakkart fakkartu fakkret fakkru ifakkar ifakkru imfakkar infakkar infakkru jfakkar jfakkarx jfakkru mfakkar nfakkar nfakkru nfakkrux tfakkar tfakkarx tfakkru tifkir
+48	448	ddeċieda	ddeċida ddeċidejna ddeċidejniex ddeċidejt ddeċidejtx ddeċidew ddeċidewx ddeċidiet ddeċidiex ddeċiedi iddeċida iddeċidejna iddeċidejt iddeċidejtu iddeċidew iddeċidewx iddeċidiet iddeċiedi iddeċiedu jiddeċidix jiddeċidux jiddeċiedi jiddeċiedu niddeċiedi niddeċiedu tiddeċidix tiddeċiedi tiddeċiedu
+49	449	finanzjarju	finanzjarja finanzjarji
+50	450	stampa	istampa istampar istampi jistampa jistampaw nistampa nistampaw stampajna stampajt stampar stampat stampaw stampi tistampa tistampax
+51	451	biddel	biddilna biddilt biddilx biddlet biddlitx biddlu biddlux ibiddel ibiddlu ibiddlux imbiddel inbiddel inbiddlu jbiddel jbiddilx jbiddlu jbiddlux mbiddel nbiddel nbiddlu tbiddel tbiddilx tbiddlu tibdil
+52	452	titlu	titli
+53	453	fittex	fittixna fittixt fittixtu fittxet fittxu fittxux ifittex ifittxu imfittex infittex infittxu jfittex jfittixx jfittxu jfittxux mfittex nfittex nfittixx nfittxu nfittxux tfittex tfittixx tfittxu tfittxux
+54	454	ikel	ikliet
+55	455	mużika	musika muska mużka
+56	456	logħob	
+57	457	żar	inżur inżuru iżur iżuru iżżur iżżuru jżur jżuru jżurux jżurx miżjur nżur nżuru nżurx żaret żaru żarux żarx żorna żort żortu żur żuru żżur żżuru
+58	458	ġabar	iġbor iġbru jiġbor jiġborx jiġbru jiġbrux miġbur niġbor niġbru tiġbor tiġborx tiġbru ġabarx ġabret ġabritx ġabru ġabrux ġbarna ġbart ġbartu ġbir
+59	459	diffiċli	
+60	460	elf	elef elfejn eluf
+61	461	moħħ	imħuħ moħħha moħħhom moħħi moħħkom moħħna moħħok moħħu mħuħ
+62	462	Sibt	sibt sibtijiet
+63	463	temm	intemm intemmu itemm itemmu itemmux ittemm ittemmu jtemm jtemmu mitmum ntemm ntemmu ntemmux ntemmx temmejna temmejt temmejtu temmet temmew temmewx temmitx temmu temmx ttemm ttemmx
+64	464	kulturali	
+65	465	ħajt	ħajta ħajtiet ħitan ħjut
+66	466	miftuħ	miftuħa miftuħin
+67	467	bank	banek banketta bankijiet
+68	468	pprovda	ipprovda ipprovdejna ipprovdew ipprovdiet ipprovdiex ipprovdut jipprovdi jipprovdix jipprovdu jipprovdux nipprovdu pprovdejna pprovdejt pprovdew pprovdewx pprovdiet pprovdietx pprovdiex pprovdut provdut tipprovdi tipprovdix tipprovdu
+69	469	jiġifieri	
+70	470	ġebel	iġbla ġebla ġebliet
+71	471	lvant	ilvant vant
+72	472	sfida	isfida isfidi jisfida jisfidaw nisfida nisfidaw sfidar sfidat sfidaw sfidi tisfida
+73	473	segwa	insegwi insegwu isegwi isegwu issegwi issegwu jsegwi jsegwix jsegwu jsegwux nsegwi nsegwix nsegwu nsegwux segwejna segwejniex segwejt segwejtu segwejtx segwew segwewx segwi segwiet segwietx segwiex segwit segwu ssegwi ssegwix ssegwu
+74	474	suġġett	soġġett suġġetti
+75	475	annimal	annimali
+76	476	stazzjon	istazzjon istazzjoni istazzjonijiet stazzjoni stazzjonijiet
+77	477	kitba	kitbiet
+78	478	naturali	
+79	479	mess	imiss imissu immiss immissu jmiss jmissu jmissux jmissx messejt messet messew messitx mimsus miss missu mmiss mmissu ntmess tmiss tmissu tmissux tmissx
+80	480	qaddis	aqdes eqdes qaddisa qaddisin
+81	481	opportunità	opportunitajiet
+82	482	dipartiment	dipartimenti
+83	483	re	rejiet
+84	484	tlieta	
+85	485	tramuntana	
+86	486	rabat	irbatt irbattu irbit jorbot jorbotx jorbtu jorbtux marbut norbot norbotx norbtu norbtux orbot rabtet rabtu rbatt rbit torbot torbotx torbtu
+87	487	ftakar	ftakarna ftakart ftakret ftakru iftakru jiftakar jiftakarx jiftakru miftakar niftakar niftakarx niftakru niftakrux tiftakar tiftakarx tiftakru tiftakrux
+88	488	ġid	
+89	489	punent	ponent
+90	490	prezz	prezzijiet
+91	491	però	
+92	492	investiment	investimenti
+93	493	ritratt	ritratti
+94	494	le	
+95	495	ħsara	ħsajjar ħsarat
+96	496	xhieda	
+97	497	xandar	imxandar inxandar inxandru ixandar ixandru ixandrux ixxandar ixxandru jxandar jxandarx jxandru jxandrux mxandar nxandar nxandarx nxandru nxandrux xandara xandarna xandart xandarx xandir xandret xandru xandrux xxandar xxandarx xxandru
+98	498	bażi	basi bażijiet
+99	499	attiv	attiva attivi
+100	500	popolari	

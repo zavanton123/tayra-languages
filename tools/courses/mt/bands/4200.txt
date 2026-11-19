@@ -1,0 +1,100 @@
+1	4101	weġġaħ	imweġġaħ inweġġħu iweġġħu jweġġaħx jweġġħu mweġġaħ tweġġaħ tweġġaħx
+2	4102	għatas	jagħtas jagħtsu tagħtas
+3	4103	qadja	qadjiet
+4	4104	qaqoċċa	
+5	4105	blanzun	blanzuni
+6	4106	faċċetta	faċċetti
+7	4107	mejjel	immejjel jmejjel jmejjilx mmejjel timjil tmejlux
+8	4108	amministrattivament	
+9	4109	bisesswali	
+10	4110	lokomozzjoni	
+11	4111	alkoħoliżmu	
+12	4112	mazzarell	mazzarelli
+13	4113	falzifikazzjoni	falsifikazzjoni
+14	4114	qaħba	qħab
+15	4115	wiled	jildu tildu tiled wildet
+16	4116	dissens	dissensi
+17	4117	ħarrax	inħarrxu iħarrax iħarrxu jħarrax tħarrxu ħarrxu
+18	4118	żieni	żienja
+19	4119	illuda	jilludi jilludu nilludi nilludix nilludu nilludux tilludi
+20	4120	ġbin	ġbinhom ġbini ġbinu
+21	4121	pipa	pipi
+22	4122	weġa'	juġgħu miġugħ tuġgħu weġgħet
+23	4123	ħammar	jħammar jħammru nħammar ħammru
+24	4124	reda'	jerda jerdax jerdgħu redgħu terda
+25	4125	eloġju	eloġji
+26	4126	għotor	għotrot jogħtor jogħtru nogħtru togħtor
+27	4127	fantażma	fantażmi
+28	4128	terrakotta	
+29	4129	venven	ivenven jvenven jvenvnu tvenven tvenvin
+30	4130	minorità	minoritajiet
+31	4131	assimilazzjoni	
+32	4132	ingravata	ingravajjet
+33	4133	tniffes	jitniffes jitniffsux nitniffisx titniffes titniffisx tniffsu
+34	4134	eżistenzjali	
+35	4135	ċikonja	ċikonji
+36	4136	niek	jniku nejk nieket nik
+37	4137	buqar	buqari
+38	4138	ġeneralizzazzjoni	ġeneralizzazzjonijiet
+39	4139	dorsali	
+40	4140	posponiment	posponimenti
+41	4141	bexxaq	imbexxaq inbexxaq jbexxaq mbexxaq nbexxqu tbexxaq
+42	4142	tribut	tributi
+43	4143	faqas	faqset faqsu faqsux
+44	4144	fus	fusien
+45	4145	aċċelerazzjoni	aċċelerazzjonijiet
+46	4146	gabillott	gabillotti
+47	4147	ddelega	ddelegat iddelega iddelegat jiddelega jiddelegaw jiddelegawx tiddelega
+48	4148	kontrazzjoni	kontrazzjonijiet
+49	4149	wita	witat
+50	4150	ħanek	ħniek
+51	4151	għammad	għammdu imgħammad jgħammdu mgħammad tagħmid tgħammad tgħammdu
+52	4152	żvija	jiżvija tiżvija żvijat żvijax
+53	4153	bbrilla	bbrillat bbrillaw bbrillax ibbrilla ibbrillar ibbrillat ibbrillaw jibbrilla jibbrillaw tibbrilla
+54	4154	qamri	qamrija qamrin
+55	4155	bass	bases basis basset
+56	4156	inkiss	
+57	4157	żgiċċa	jiżgiċċa jiżgiċċaw niżgiċċa tiżgiċċa żgiċċat żgiċċatx
+58	4158	tlewwem	jitlewmu jitlewwem nitlewmu tlewmu tlewwimna
+59	4159	trijangolu	trijangoli
+60	4160	minġel	mnieġel
+61	4161	diġestiv	diġestiva diġestivi
+62	4162	pannu	panni
+63	4163	xewwex	ixewwex ixewxu jxewwex jxewxu xewxu
+64	4164	ċenakolu	ċenaklu
+65	4165	laħlaħ	ilaħalħu inlaħlaħ jlaħalħu mlaħlaħ tlaħlaħx tlaħliħ
+66	4166	debboli	
+67	4167	frontali	
+68	4168	kurrat	
+69	4169	baqat	baqatx
+70	4170	ballottra	ballottri
+71	4171	leħħa	leħħiet
+72	4172	rass	irossu jross marsus rassejt rasset tross trossux
+73	4173	dnewwa	
+74	4174	mixegħla	
+75	4175	twaħħax	nitwaħħax nitwaħħxu titwaħħax twaħħaxt
+76	4176	selaħ	jisloħ jisolħu misluħ nisolħu tisloħ tisolħu
+77	4177	kileb	miklub
+78	4178	għarqub	
+79	4179	ineffiċjenti	
+80	4180	ħaddied	ħaddieda
+81	4181	fatam	fatmet fatmu ftim infatam joftmu miftum nfatam
+82	4182	jewwilla	
+83	4183	ndaf	jindaf jindafu
+84	4184	żgarra	jiżgarra jiżgarraw niżgarraw żgarrat
+85	4185	finanzier	finanziera finanzieri
+86	4186	żelqa	żelqiet
+87	4187	esklużiv	esklużiva esklużivi
+88	4188	lifgħa	lifgħat
+89	4189	enerġetika	
+90	4190	thenna	jithenna jithennew nithenna nithennew thennew tithenna tithennew
+91	4191	avultun	avultuni
+92	4192	poġġaman	poġġamani
+93	4193	qrusa	
+94	4194	aggressività	
+95	4195	ġġeneralizza	iġġeneralizza iġġeneralizzat jiġġeneralizza niġġeneralizza niġġeneralizzaw tiġġeneralizza ġeneralizzat ġġeneralizzat
+96	4196	toppu	
+97	4197	għaġġeb	għaġġbet għaġġibna igħaġġeb imgħaġġeb jgħaġġbu jgħaġġeb mgħaġġba mgħaġġbin ngħaġġbu
+98	4198	fula	
+99	4199	sintesi	
+100	4200	żvojta	jiżvojta jiżvojtaw niżvojtaw tiżvojta żvojtat

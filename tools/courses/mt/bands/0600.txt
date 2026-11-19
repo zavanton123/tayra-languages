@@ -1,0 +1,100 @@
+1	501	qara	aqra aqraw jaqra jaqraw jaqrawx jaqrax moqri naqraw naqrawx qarax qari qrajna qrajniex qrajt qrajtu qrajtux qrat qratx qraw qrawx taqra taqraw taqrax
+2	502	konferenza	konferenzi
+3	503	għada	għadiet
+4	504	liema	
+5	505	nar	nirien
+6	506	wirt	
+7	507	rabta	rabtiet
+8	508	aċċetta	aċċettajna aċċettajt aċċettajtu aċċettajtx aċċettat aċċettatx aċċettaw aċċettawx aċċettax jaċċetta jaċċettaw jaċċettawx jaċċettax naċċetta naċċettaw naċċettawx naċċettax taċċetta taċċettaw taċċettawx taċċettax
+9	509	fażi	fażijiet
+10	510	sajf	isjuf sjuf
+11	511	għalliem	għalliema
+12	512	inċident	inċidenti
+13	513	tgħallem	itgħallem itgħallmu jitgħallem jitgħallimx jitgħallmu jitgħallmux nitgħallem nitgħallmu nitgħallmux tgħallim tgħallimna tgħallimniex tgħallimt tgħallimtu tgħallimtx tgħallimx tgħallmet tgħallmu tgħallmux titgħallem titgħallmu
+14	514	ħabta	ħabtiet
+15	515	ħodon	ħdan
+16	516	seba'	sebagħha sebgħajn sebgħek sebgħi sebgħu
+17	517	imħabba	
+18	518	test	testijiet
+19	519	aktarx	
+20	520	għalaq	agħlaq għalaqna għalaqt għalaqtx għalaqx għalqet għalqitx għalqu għalqux ingħalaq jagħlaq jagħlaqx jagħlqu jagħlqux nagħlaq nagħlqu ngħalaq tagħlaq tagħlaqx tagħlqu
+21	521	ħabb	inħobb inħobbu iħobb iħobbu iħobbx jħobb jħobbu jħobbux jħobbx nħobb nħobbu nħobbux nħobbx tħobb tħobbu tħobbux tħobbx ħabbejna ħabbejt ħabbejtu ħabbet ħabbew ħabbiet ħabbtejn ħbub ħobbu
+22	522	ċittadin	ċittadina ċittadini
+23	523	ċentrali	
+24	524	rwol	irwol irwoli rwoli
+25	525	daħħal	daħħalna daħħalniex daħħalt daħħaltu daħħaltux daħħalx daħħlet daħħlu daħħlux ddaħħal ddaħħalx ddaħħlu ddaħħlux idaħħal idaħħlu iddaħħal iddaħħlu imdaħħal indaħħal indaħħlu jdaħħal jdaħħalx jdaħħlu jdaħħlux mdaħħal ndaħħal ndaħħlu ndaħħlux
+26	526	data	dati
+27	527	tabib	tabiba tobba
+28	528	ppubblika	ippubblika ippubblikajna ippubblikajt ippubblikar ippubblikat ippubblikatx ippubblikaw ippubblikax jippubblika jippubblikaw jippubblikax jippublika nippubblika nippubblikaw ppubblikajna ppubblikajt ppubblikajtu ppubblikajtx ppubblikat ppubblikatx ppubblikaw ppubblikax pubblikat tippubblika tippubblikaw tippubblikawx tippubblikax
+29	529	appella	appellajna appellat appellaw appellax jappella jappellaw jappellawx jappellax nappella nappellaw nappellawx tappella tappellax
+30	530	żviluppa	iżviluppa iżviluppar iżviluppat jiżviluppa jiżviluppaw jiżviluppawx jiżviluppax niżviluppa niżviluppaw tiżviluppa tiżviluppaw żviluppajna żviluppajt żviluppat żviluppatx żviluppaw żviluppawx żviluppax
+31	531	reliġjuż	reliġjuża reliġjużi
+32	532	statwa	istatwa istatwi statwi
+33	533	suq	iswieq swieq
+34	534	taxxa	taxxi
+35	535	lejl	iljieli ljieli
+36	536	spiss	
+37	537	enerġija	enerġiji
+38	538	sur	iswar swar
+39	539	att	atti attijiet
+40	540	ddikjara	ddikjarajna ddikjarajt ddikjarar ddikjarat ddikjaratx ddikjaraw ddikjarawx ddikjarax dikjarar dikjarat iddikjara iddikjarajna iddikjarajt iddikjarat iddikjaraw iddikjarax jiddikjara jiddikjaraw jiddikjarawx jiddikjarax niddikjara niddikjaraw tiddikjara
+41	541	ħabs	ħabsijiet
+42	542	port	portijiet
+43	543	ġustizzja	
+44	544	possibbli	
+45	545	bogħod	
+46	546	spirtu	ispirti ispirtu spirti
+47	547	poġġa	impoġġi inpoġġi inpoġġu ipoġġi ipoġġu jpoġġi jpoġġix jpoġġu jpoġġux mpoġġi npoġġi npoġġix npoġġu npoġġux poġġejna poġġejt poġġejtu poġġejtx poġġew poġġewx poġġi poġġiet poġġiex poġġut tpoġġa tpoġġi tpoġġija tpoġġix tpoġġu
+48	548	organizza	jorganizza jorganizzaw jorganizzawx jorganizzax norganizza norganizzaw organizzajna organizzajt organizzar organizzat organizzatx organizzaw torganizza torganizzaw
+49	549	dħul	
+50	550	diskussjoni	diskussjonijiet
+51	551	tempju	tempji
+52	552	dirett	diretta diretti
+53	553	qasir	aqsar iqsar qasira qosra qsajjar
+54	554	effett	effetti
+55	555	għajn	għajnejn għajnek għajnha għajnhom għajni għajnu għejun
+56	556	kwadru	kwadri
+57	557	bagħat	bagħatx bagħtet bagħtitx bagħtu bagħtux bgħatna bgħatt bgħattu ibagħtu ibgħat jibagħtu jibagħtux jibgħat jibgħatx nibagħtu nibgħat tibagħtu tibgħat tibgħatx
+58	558	mħallef	imħallef imħallfin mħallfin
+59	559	vantaġġ	vantaġġi
+60	560	gawda	gawdejna gawdejt gawdew gawdewx gawdi gawdiet gawdietx gawdiex gawdu goda igawdi igawdu ingawdi ingawdu jgawdi jgawdix jgawdu jgawdux mgawdi ngawdi ngawdu ngawdux tgawda tgawdi tgawdija tgawdix tgawdu
+61	561	spazju	ispazji ispazju spazji
+62	562	edizzjoni	edizzjonijiet
+63	563	tagħlim	
+64	564	nħawi	inħawi
+65	565	għaraf	agħraf agħrfu egħref għarafna għarafniex għaraft għaraftu għaraftux għaraftx għarafx għaref għarfa għarfet għarfitx għarfu għarfux għorrief jagħraf jagħrafx jagħrfu jagħrfux nagħraf nagħrafx nagħrfu nagħrfux tagħraf tagħrafx tagħrfu
+66	566	saħansitra	saħanistra
+67	567	stabbilixxa	jistabbilixxi jistabbilixxu nistabbilixxi nistabbilixxu stabbilejna stabbilew stabbilewx stabbiliet stabbilit stabbilixxew stabbilixxi stabbilixxiet stabbilixxiex stabbilixxu stabilixxa tistabbilixxi
+68	568	arċisqof	arċisqfijiet
+69	569	kmieni	ikmen
+70	570	baġit	baġet baġits budget
+71	571	erbgħa	erbgħat
+72	572	xmara	ixmajjar xmajjar xmajra
+73	573	differenza	differenzi
+74	574	assoċjazzjoni	assoċjazzjonijiet
+75	575	naqqas	imnaqqas inaqqas inaqqsu innaqqas innaqqsu jnaqqas jnaqqasx jnaqqsu jnaqqsux mnaqqas naqqasna naqqasniex naqqasx naqqset naqqsitx naqqsu nnaqqas nnaqqsu nnaqqsux tnaqqas tnaqqasx tnaqqsu tnaqqsux
+76	576	mezz	mezzi
+77	577	xtara	ixtri ixtru jixtri jixtrix jixtru jixtrux mixtri nixtri nixtrix nixtru tixtri tixtrix tixtru xtarax xtrajna xtrajt xtrajtu xtrat xtratx xtraw xtrawx
+78	578	raba'	
+79	579	lesta	ilesti ilestu inlesti inlestu jlesti jlestu jlestux lestejna lestejt lestejtu lestew lesti lestiet lestiex nlesti nlestu tlesti tlestix
+80	580	elettorali	
+81	581	ċivili	
+82	582	żjara	iżjarat żjajjar żjarat żjariet
+83	583	maġġoranza	maġġoranzi maġġuranza
+84	584	milied	
+85	585	ġo	ġod ġol ġon ġor ġos ġot ġox ġoz ġoċ ġoż
+86	586	tfisser	jitfisser jitfissirx jitfissru tfissir tfissirx tfissret tfissru titfisser titfissirx
+87	587	sid	sidien
+88	588	arma	armajna armajt armar armat armaw armi jarma jarmaw jarmawx jarmax narma narmaw tarma
+89	589	siġra	siġar siġrat siġriet sġajra sġajriet
+90	590	distrett	distretti
+91	591	nazzjon	nazzjonijiet
+92	592	kwalità	kwalitajiet
+93	593	pittura	pitturi
+94	594	bidel	bdil bdilna bdilt bdiltu bdiltx bidilx bidlet bidlu ibdel inbidel jibdel jibdlu jibdlux mibdul nbidel nibdel nibdlu nibdlux tibdel tibdilx tibdlu
+95	595	okkażjoni	okkażjonijiet
+96	596	fidi	fidijiet
+97	597	futur	
+98	598	tassew	
+99	599	ewro	
+100	600	frott	frotta frottiet

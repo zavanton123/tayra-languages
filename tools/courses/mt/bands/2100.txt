@@ -1,0 +1,100 @@
+1	2001	staħa	istħu jistħi jistħix jistħu jistħux mistħi nistħi nistħix nistħu nistħux stħajt stħaw tistħi tistħix tistħu tistħux
+2	2002	xebh	xebħ
+3	2003	abbati	abbatijiet abbatin abbatini
+4	2004	fired	firdet firdu firidx frid fridna ifred jifred mifrud nifred tifred
+5	2005	umli	
+6	2006	bankina	
+7	2007	te	tejiet
+8	2008	ħerqan	ħerqana ħerqanin
+9	2009	filosofiku	filosofika filosofiċi
+10	2010	kmandant	kmandanta kmandanti
+11	2011	islam	iżlam
+12	2012	espansjoni	espansjonijiet
+13	2013	awtonomija	
+14	2014	merħba	
+15	2015	prietka	priedka prietki
+16	2016	xifer	ixfar xfar xfarijiet
+17	2017	kaxkar	ikaxkar ikaxkru imkaxkar inkaxkru jkaxkar jkaxkarx jkaxkru jkaxkrux kaxkarna kaxkret kaxkru mkaxkar nkaxkar nkaxkru tkaxkar tkaxkir tkaxkru
+18	2018	ħallieq	ħallieqa
+19	2019	jedd	jeddijiet
+20	2020	qosor	
+21	2021	għereq	għarqien għeriqna għeriqniex għeriqt għeriqx għerqet għerqu għerqux jegħreq jegħriqx jegħrqu jegħrqux negħreq negħrqu tegħreq tegħrqu
+22	2022	għarb	
+23	2023	oġġezzjoni	obbjezzjoni objezzjoni oġġezzjonijiet
+24	2024	umiltà	
+25	2025	tranżizzjoni	tranżizzjonijiet
+26	2026	suwiċidju	suwiċidji
+27	2027	bies	bews bieset biesu biesx bisien bist bistu bus ibus ibusu inbus jbus jbusu nbus nbusu tbus tbusu
+28	2028	ambizzjoni	ambizzjonijiet
+29	2029	xkiel	ixkiel xkilijiet
+30	2030	pinna	pinen
+31	2031	qalil	qalila
+32	2032	priorità	prioritajiet
+33	2033	ġa	
+34	2034	tisbiħ	
+35	2035	żarbun	żarbuna żraben
+36	2036	baħħar	baħħara baħħarx baħħret baħħru ibaħħar ibaħħru jbaħħar jbaħħarx jbaħħru nbaħħru tbaħħar
+37	2037	drapp	drappijiet
+38	2038	omiċidju	omiċidji
+39	2039	faqqas	faqqset faqqsu ifaqqas ifaqqsu jfaqqas jfaqqsu jfaqqsux tfaqqas tfaqqis tifqis
+40	2040	riċetta	riċetti
+41	2041	plakka	plakek plakki
+42	2042	umanitarju	umanitarja umanitarji
+43	2043	ssepara	issepara isseparat isseparaw jissepara jisseparaw jisseparawx nissepara nisseparaw sseparat sseparaw tissepara
+44	2044	nkiser	inkiser inkisret inkisru inkisrux jinkiser jinkisirx jinkisru jinkisrux nkisret nkisru nkisrux tinkiser tinkisirx
+45	2045	għarraf	għarrafna għarrafniex għarraft għarraftu għarrfet għarrfu għarrfux jgħarraf jgħarrfu ngħarraf ngħarrfu tgħarraf
+46	2046	kewkba	kwiekeb
+47	2047	ċiklu	ċikli
+48	2048	ntesa	intesa intesew intesiet intnesew intnesiet jintesa jintesew jintesewx jintesiex jintnesew jintnesewx nintesa nintesew ntesew ntesewx ntesiet ntesietx ntesiex ntnesa tintesa tintesiex
+49	2049	basar	basarx basret basru basrux bsarna bsarniex bsart bsartx jobsor jobsru jobsrux nobsor nobsorx nobsru ntbasar obsor tobsor tobsorx tobsru tobsrux
+50	2050	sfera	isfera isferi sferi
+51	2051	farfett	friefet
+52	2052	spiżerija	ispiżerija ispiżeriji spiżeriji
+53	2053	perċezzjoni	perċezzjonijiet
+54	2054	mistħija	
+55	2055	traċċa	traċċi
+56	2056	dimostrant	dimostranti
+57	2057	rvell	irvell irvellijiet rvellijiet
+58	2058	gravità	
+59	2059	esaġerat	esaġerata esaġerati
+60	2060	xaħħam	ixaħħam ixaħħmu jxaħħam jxaħħmu mxaħħam tixħim xaħħmu xxaħħamx xxaħħmu
+61	2061	awtomatiku	awtomatika awtomatiċi
+62	2062	ħall	inħall inħoll inħollu iħoll iħollu jħoll jħollu jħollx maħlul nħall nħoll nħollu tħoll tħollu ħallejna ħallejniex ħallejt ħallejtu ħallejtx ħallew ħallewx ħallitx ħoll
+63	2063	sahra	sahriet shari
+64	2064	islamiku	islamika islamiċi iżlamiku
+65	2065	awtorizza	awtorizzajtx awtorizzat awtorizzaw awtorizzax jawtorizza jawtorizzaw nawtorizza tawtorizza tawtorizzax
+66	2066	militar	
+67	2067	wiżen	iżen iżnu jiżen jiżnu niżen niżnu ntiżen tiżen tiżnu wiżinna wiżnu
+68	2068	aggressur	aggressuri
+69	2069	xaqq	ixoqq ixquq ixxoqq jxoqq mixquq xoqq xquq xxoqq
+70	2070	sebbaħ	imsebbaħ insebbaħ insebbħu isebbaħ isebbħu issebbaħ issebbħu jsebbaħ jsebbħu msebbaħ nsebbaħ nsebbħu sebbaħna sebbaħt sebbħet sebbħu ssebbaħ ssebbħu
+71	2071	nazzjonalità	nazzjonalitajiet
+72	2072	laqqam	ilaqqmu imlaqqam jlaqqam jlaqqmu laqqamt laqqmet laqqmu mlaqqam nlaqqmu tlaqqam tlaqqmu
+73	2073	għali	għalja għaljin ogħla
+74	2074	finanzjarjament	
+75	2075	tafal	
+76	2076	għannej	għannejja
+77	2077	sliem	
+78	2078	vverifika	ivverifika ivverifikar ivverifikat jivverifika jivverifikaw jivverifikawx nivverifika nivverifikaw tivverifika verifikar verifikat vverifikajna vverifikajt vverifikat vverifikaw
+79	2079	mislem	misilma misilmin
+80	2080	kitarra	kitarri
+81	2081	ppospona	ippospona ipposponejna ipposponew jipposponi jipposponu nipposponi nipposponu pospost pposponew pposponiet tipposponi
+82	2082	kejjel	ikejjel ikejlu imkejjel inkejlu jkejjel jkejlu kejjilna kejjiltu kejlu mkejjel nkejlu tkejjel tkejjilx tkejlu
+83	2083	ħnejja	ħnejjiet
+84	2084	fanal	fanali
+85	2085	soċju	soċja soċji
+86	2086	gerger	gergirt gergirtx gergret gergru igerger igergru ingerger ingergru jgerger jgergru jgergrux ngerger ngergirx ngergru tgerger tgergir tgergirx
+87	2087	nanniet	
+88	2088	ġudikatura	
+89	2089	ambizzjuż	ambizzjuża ambizzjużi
+90	2090	ugwali	
+91	2091	sura	suriet
+92	2092	storbju	istorbju
+93	2093	ram	
+94	2094	boll	bolol
+95	2095	grixti	
+96	2096	ġirja	ġirjiet
+97	2097	lingwaġġ	lingwaġġi
+98	2098	lanċa	laneċ
+99	2099	elevazzjoni	elevazzjonijiet
+100	2100	qroll	

@@ -1,0 +1,100 @@
+1	1001	fergħa	fergħat friegħi
+2	1002	amministrattiv	amministrattiva amministrattivi
+3	1003	żejjed	żejda
+4	1004	bilfors	
+5	1005	xeraq	jixraq jixraqx tixraq xieraq
+6	1006	pjuttost	
+7	1007	klassifika	klassifiki
+8	1008	elettriku	elettrika elettriċi
+9	1009	ferħ	frieħ ifrieħ
+10	1010	lag	lagi
+11	1011	kastell	kastelli
+12	1012	attakka	attakkajt attakkat attakkaw attakkawx jattakka jattakkaw jattakkawx nattakka nattakkaw tattakka tattakkaw tattakkax
+13	1013	obbligu	obbligi
+14	1014	minnufih	
+15	1015	pjaċir	pjaċiri
+16	1016	dara	darax drajna drajt drajtu drat draw idra idrat jidra jidraw jidrawx nidra nidraw tidra
+17	1017	falla	fallejna fallejt fallew falliet fallietx falliex fallut ifalli ifallu infallu jfalli jfallix jfallu jfallux nfalli nfallu tfalli tfallix tfallu
+18	1018	akkwista	akkwistajna akkwistajt akkwistajtu akkwistat akkwistaw akkwistawx jakkwista jakkwistaw nakkwista nakkwistaw nakkwistawx takkwista
+19	1019	tagħrif	tagħrifiet
+20	1020	soru	sorijiet
+21	1021	xagħar	xagħarha xagħarhom xagħra xagħrek xagħri xagħriet xagħru
+22	1022	ħdax	
+23	1023	wiegħed	imwiegħed inwiegħdu inwiegħed iwiegħdu jitwiegħed jwiegħdu jwiegħed mwiegħed nwiegħdu nwiegħed titwiegħed twegħid twiegħdet twiegħdu twiegħed wegħidna wegħidt wegħidtu wiegħdet wiegħdu
+24	1024	kaċċa	
+25	1025	marid	marida morda
+26	1026	sbieħ	jisbieħ jisbieħu sbieħet tisbieħ
+27	1027	ġenb	iġnub ġenbejn ġnub
+28	1028	ajruplan	ajruplani arjuplan
+29	1029	parteċipazzjoni	parteċipazzjonijiet partiċipazzjoni
+30	1030	sodda	sodod
+31	1031	sultan	islaten slaten soltan sultana
+32	1032	foresta	foresti
+33	1033	ċempel	inċempel inċemplu iċempel iċemplu iċċempel iċċemplu jċempel jċempilx jċemplu nċempel nċempilx nċemplu nċemplux ċempil ċempilna ċempilniex ċempilt ċempilx ċemplet ċemplu ċemplux ċċempel ċċempilx ċċemplu
+34	1034	debutt	
+35	1035	ddedika	ddedikajt ddedikat ddedikatx ddedikaw dedikat iddedika iddedikajna iddedikajt iddedikajtu iddedikat iddedikaw jiddedika jiddedikaw niddedika niddedikaw tiddedika tiddedikaw
+36	1036	essenzjali	
+37	1037	tarf	itruf truf trufijiet
+38	1038	niżżel	imniżżel iniżżel iniżżlu inniżżel inniżżlu inniżżlux jniżżel jniżżilx jniżżlu jniżżlux mniżżel niżżilna niżżilt niżżlet niżżlu nniżżel nniżżilx nniżżlu tinżil tniżżel tniżżilx tniżżlu tniżżlux
+39	1039	identità	identitajiet
+40	1040	kellem	ikellem ikellmu inkellem inkellmu jkellem jkellimx jkellmu jkellmux kellimna kellimt kellimtu kellimtux kellimx kellmet kellmu kellmux nkellem nkellimx nkellmu nkellmux tkellimx tkellmu tkellmux
+41	1041	qagħda	qagħdiet
+42	1042	risposta	risposti
+43	1043	ħejja	imħejji inħejji inħejju itħejjija iħejji iħejju jħejji jħejjix jħejju mħejji nħejji nħejju nħejjux tħejji tħejju ħejjejna ħejjejt ħejjew ħejji ħejjiet ħejju
+44	1044	terz	terza terzi
+45	1045	leħen	ilħna leħinha leħinhom leħinkom leħinna leħnek leħni leħnu
+46	1046	tnax	
+47	1047	malli	
+48	1048	tarzna	tarzni
+49	1049	klassiku	klassika klassiċi
+50	1050	kuntent	kuntenta kuntenti
+51	1051	jisem	jisimha jisimhom jisimni jismek jismu
+52	1052	inkwiet	nkwiet
+53	1053	tbatija	tbatijiet
+54	1054	miżżewweġ	miżżewġa miżżewġin
+55	1055	approva	approvajna approvat approvaw approvawx approvax japprova japprovaw japprovawx japprovax napprova napprovax tapprova tapprovax
+56	1056	dramm	drammi
+57	1057	sular	sulari
+58	1058	kunvent	kunventi
+59	1059	allega	allegat allegaw jallega jallegaw tallega tallegaw tallegax
+60	1060	maġġur	maġġor maġġura maġġuri
+61	1061	qalba	iqlub qalbiet qlub
+62	1062	ħaddem	imħaddem inħaddem inħaddmu iħaddem iħaddmu jħaddem jħaddimx jħaddmu mħaddem nħaddem nħaddmu nħaddmux tħaddmu tħaddmux ħaddimna ħaddimniex ħaddmet ħaddmu ħaddmux
+63	1063	ilbieraħ	
+64	1064	dibattitu	dibattiti
+65	1065	xibka	ixbieki xbiek xbieki
+66	1066	ilsien	
+67	1067	tfittxija	tfittxijiet
+68	1068	mkien	imkejjen imkien mkejjen
+69	1069	mewġ	mewġa mewġiet
+70	1070	ħaxix	ħxejjex
+71	1071	hedded	heddet heddidna heddidx heddu imhedda jhedded jheddu mhedda mhedded mheddin thedded theddidna theddidx theddu
+72	1072	tellieqa	tlielaq
+73	1073	skuża	iskuża iskużi jiskuża jiskużaw jiskużax niskuża niskużaw skużat skużaw skużax skużi tiskuża
+74	1074	elettroniku	elettronika elettroniċi
+75	1075	abitant	abitanta abitanti
+76	1076	enormi	
+77	1077	saħħ	insaħħu isaħħu issaħħu jsaħħu nsaħħu nsaħħux saħħet saħħew saħħu ssaħħu
+78	1078	intom	mintomx tagħkom
+79	1079	vojt	vojta
+80	1080	emenda	emendajna emendar emendat emendaw emendi jemenda jemendaw nemendaw temenda
+81	1081	ffaċċja	ffaċċa ffaċċjat ffaċċjaw iffaċċa iffaċċja iffaċċjajna iffaċċjajt iffaċċjat iffaċċjaw jiffaċċja jiffaċċjaw jiffaċċjawx niffaċċja niffaċċjaw tiffaċċja tiffaċċjaw
+82	1082	hinn	henn
+83	1083	pont	pontijiet
+84	1084	lemin	
+85	1085	kanta	ikanta ikantaw inkanta inkantaw jkanta jkantaw jkantax kantajna kantajt kantat kantaw kantax nkanta nkantaw tkantaw tkantax
+86	1086	għeluq	egħluq
+87	1087	formazzjoni	formazzjonijiet
+88	1088	ħut	ħuta ħutiet
+89	1089	qabbel	imqabbel inqabbel inqabblu iqabbel iqabblu jqabbel jqabblu mqabbel nqabbel nqabbilx nqabblu qabbilna qabbilt qabbiltu qabblet qabblu taqbil tqabbel tqabbil tqabblu
+90	1090	fassal	fassalna fassalt fassaltu fassalx fasslet fasslu ifassal ifasslu imfassal infassal infasslu jfassal jfasslu mfassal nfassal nfasslu tfassal tfasslu tfasslux
+91	1091	setgħa	setgħat
+92	1092	faħħar	faħħarna faħħart faħħartu faħħret faħħru ifaħħar ifaħħru imfaħħar infaħħar infaħħru jfaħħar jfaħħru mfaħħar nfaħħar nfaħħarx nfaħħru nfaħħrux tfaħħar tfaħħarx tfaħħru
+93	1093	ġieħ	ġieħu ġieħx
+94	1094	ċertifikat	ċertifikata ċertifikati
+95	1095	eżerċizzju	eżerċizzji
+96	1096	riħ	irjiħat rjieħ rwieħ
+97	1097	parteċipant	parteċipanta parteċipanti partiċipant
+98	1098	kwart	kwarti
+99	1099	kuxjenza	kuxjenzi
+100	1100	introduċa	introdott introduċejna introduċejt introduċejtu introduċew introduċi introduċiet jintroduċi jintroduċix jintroduċu jintroduċux nintroduċi nintroduċu tintroduċi tintroduċu

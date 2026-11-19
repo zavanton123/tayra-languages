@@ -1,0 +1,100 @@
+1	2201	qawra	
+2	2202	abbazija	abazija abbaziji
+3	2203	ross	rossa
+4	2204	rieqed	reqdin rieqda
+5	2205	xokk	xokkijiet
+6	2206	smar	ismart jismarux smart tismar
+7	2207	ddettalja	ddettaljat dettaljat iddettalja iddettaljat jiddettalja jiddettaljaw
+8	2208	identifikazzjoni	identifikazzjonijiet
+9	2209	biered	bierda
+10	2210	gaġġa	gaġeġ
+11	2211	ċilindru	ċilindri
+12	2212	riħa	irwejjaħ rwejjaħ
+13	2213	dependenza	dependenzi dipendenza
+14	2214	kiefer	kefrin kiefra
+15	2215	parzjali	
+16	2216	madum	maduma madumiet
+17	2217	immens	immensa immensi
+18	2218	tellief	telliefa
+19	2219	bagalja	bagalji
+20	2220	ssuġerixxa	issuġġera issuġġerixxa jissuġerixxi nissuġerixxi nissuġerixxu ssuġġerixxa tissuġerixxi
+21	2221	apoloġija	apoloġiji
+22	2222	appunta	appuntar appuntat appuntaw jappunta jappuntawx nappuntaw tappunta
+23	2223	kkollabora	ikkollabora ikkollaborat ikkollaboraw ikkollaborax jikkollabora jikkollaboraw jikkollaborawx kkollaborajna kkollaborat kkollaboraw nikkollabora nikkollaboraw tikkollabora tikkollaboraw
+24	2224	artab	ratba rotob
+25	2225	astratt	astratta astratti
+26	2226	tislima	
+27	2227	ġibda	ġibdiet
+28	2228	birra	birer
+29	2229	tavla	twavel
+30	2230	ħerqa	
+31	2231	ħlewwa	ħlew
+32	2232	xott	xotta xotti xotts
+33	2233	ivvinta	ivvintajtu ivvintat ivvintaw jivvinta jivvintaw nivvinta nivvintaw tivvinta
+34	2234	liebru	liebra liebri liepru
+35	2235	astronomiku	astronomika astronomiċi
+36	2236	bilaterali	
+37	2237	teknoloġiku	teknoloġika teknoloġiċi
+38	2238	frekwenti	
+39	2239	rifes	irfis irfisna irfist irfistu jirfes jirfsu mirfus nirfes nirfsu rfisna rfist rifisx rifs rifset rifsitx rifsu tirfes tirfsu
+40	2240	ttiekel	ittiekel ittieklet ittieklu jittiekel jittieklu jittikilx jittiklux mittiekel tittiekel tittikilx ttieklet ttieklu
+41	2241	rekwiżit	rekwiżiti
+42	2242	tagħbija	tagħbijiet
+43	2243	patata	
+44	2244	tapit	tapiti twapet
+45	2245	ħolm	ħolmiet
+46	2246	tadam	tadama tadamiet
+47	2247	bbilanċja	bbilanċjat bilanċjat ibbilanċja ibbilanċjar ibbilanċjat jibbilanċja jibbilanċjaw jibbilanċjawx nibbilanċja nibbilanċjaw tibbilanċja
+48	2248	żgħożija	żgħożitek żgħożitha żgħożithom żgħożiti żgħożitna żgħożitu
+49	2249	saħħan	imsaħħan insaħħan insaħħnu isaħħan isaħħnu issaħħan jsaħħan jsaħħnu msaħħan saħħant saħħantu saħħnet saħħnitx saħħnu ssaħħan tisħin
+50	2250	fotografu	fotografa fotografi
+51	2251	eqqel	
+52	2252	vokali	
+53	2253	ċekk	ċekkijiet ċekks
+54	2254	tajra	itjur tajriet tjur
+55	2255	tqal	jitqal jitqalu titqal tqalet
+56	2256	gramm	gramma grammi
+57	2257	rriskja	irriskja jirriskja jirriskjaw jirriskjawx jirriskjax nirriskjaw rriskjajt rriskjaw tirriskja
+58	2258	kafè	kafejiet
+59	2259	leġiżlattiv	leġiżlattiva leġiżlattivi
+60	2260	borġ	braġ bruġ ibraġ
+61	2261	għanna	għannew għanniet għannu igħanni jgħanni jgħannu jgħannux ngħanni ngħannu tgħanni tgħannu
+62	2262	potenza	potenzi
+63	2263	leġiżlatura	leġiżlaturi
+64	2264	bela'	bela belax belgħet belgħetx belgħu blajt blajtu jibilgħu jibla jibla' jiblax miblugħ miblugħa miblugħin nibilgħu nibla nibla' tibilgħu tibla tibla' tiblax
+65	2265	nħakem	inħakem inħakmet inħakmu inħkimna jinħakem jinħakmu ninħakem ninħakmu nħakimx nħakmet nħakmitx nħakmu tinħakem tinħakimx
+66	2266	preċiżament	
+67	2267	xekkel	imxekkel inxekklu ixekkel ixekklu ixxekkel ixxekklu jxekkel jxekkilx jxekklu jxekklux mxekkel nxekkel nxekklu xekkilx xekklet xekklu xekklux xxekkel xxekkilx xxekklu
+68	2268	għaxart	
+69	2269	ekonomista	ekonomisti
+70	2270	qasba	qasab
+71	2271	ħesrem	
+72	2272	manifestazzjoni	manifestazzjonijiet
+73	2273	qattiel	qattiela
+74	2274	potenzjali	
+75	2275	ħammeġ	inħammġu iħammeġ iħammġu jħammeġ jħammġu jħammġux mħammeġ nħammġu nħammġux tħammeġ tħammiġx tħammġu ħammġet ħammġu
+76	2276	polz	polzi
+77	2277	brillanti	
+78	2278	merkurju	
+79	2279	disprezz	disprezzi
+80	2280	ċokon	
+81	2281	tmun	itmien
+82	2282	rqiq	irqaq irqiq irqiqa rqiqa
+83	2283	ġifen	iġfna
+84	2284	silef	jislef misluf nislef silfet silfu sliftu
+85	2285	frekwenza	frekwenzi
+86	2286	akkomoda	akkomodat jakkomoda jakkomodaw nakkomoda nakkomodaw takkomoda
+87	2287	sarraf	imsarraf insarrfu isarraf isarrfu issarrfu issarrfux jsarraf jsarrfu nsarraf nsarrfu sarrafna sarrfet sarrfu ssarrafx ssarrfu
+88	2288	rħis	irħis irħisa orħos rħisa
+89	2289	identiku	identika identiċi
+90	2290	tbissem	jitbissem jitbissimx jitbissmu nitbissem nitbissimx nitbissmu nitbissmux tbissimt tbissmet tbissmu titbissem
+91	2291	disinjatur	disinjaturi
+92	2292	xirka	xirkiet
+93	2293	dari	
+94	2294	għatx	
+95	2295	ossiġenu	ossiġnu
+96	2296	ministerjali	
+97	2297	spazjali	
+98	2298	rkupru	irkupru
+99	2299	vjolin	vjolini
+100	2300	xokkanti	

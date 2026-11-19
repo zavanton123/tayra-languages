@@ -1,0 +1,100 @@
+1	201	żamm	inżamm inżomm inżommu iżomm iżommu iżommux iżommx iżżomm iżżommu iżżommx jżomm jżommu jżommux jżommx miżmum nżamm nżomm nżommu nżommux żammejna żammejniex żammejt żammejtu żammejtux żammejtx żammet żammew żammewx żammitx żammx żomm żommu żżomm żżommu żżommux żżommx
+2	202	ktieb	kotba
+3	203	madankollu	madanakollu
+4	204	sistema	sistemi
+5	205	ġab	inġab inġib inġibu iġib iġibu iġġib iġġibu iġġibux iġġibx jġib jġibu jġibux jġibx miġjub nġib nġibu nġibux nġibx ġabet ġabitx ġabu ġabux ġabx ġib ġibna ġibniex ġibt ġibtu ġibtux ġibu ġieb ġġib ġġibu ġġibx
+6	206	nofs	infas nofsijiet
+7	207	għalkemm	
+8	208	awtorità	awtoritajiet
+9	209	miljun	miljuni
+10	210	logħba	logħbiet
+11	211	ħaġa	
+12	212	soċjali	
+13	213	ġurnata	iġranet ġranet
+14	214	nstab	instab instabet instabitx instabu instabx jinstab jinstabu jinstabux jinstabx nstabet nstabitx nstabt nstabu nstabux nstabx tinstab tinstabx
+15	215	emmen	emminna emmint emmintu emmintux emmintx emminx emmnet emmnu emmnut emmnux jemmen jemminx jemmnu jemmnux mwemmen nemmen nemminx nemmnu nemmnux temmen temminx temmnu temmnux
+16	216	laqgħa	laqgħat
+17	217	għadu	għedewwa
+18	218	festa	festi festin
+19	219	bla	ibla
+20	220	kiteb	iktbu ikteb jiktbu jiktbux jikteb jiktibx kitbet kitbu kitbux kitibx ktib ktibna ktibniex ktibt ktibtu ktibtx miktub niktbu niktbux nikteb niktibx tiktbu tikteb tiktibx
+21	221	avukat	avokado avukata avukati
+22	222	għoli	għoljin ogħla
+23	223	kiseb	ikseb jiksbu jiksbux jikseb jiksibx kisbet kisbitx kisbu kisbux kisibx ksibna ksibt ksibtu miksub niksbu niksbux nikseb niksibx tiksbu tikseb tiksibx
+24	224	sostna	insostni insostnu isostni isostnu jsostni jsostnu jsostnux nsostni nsostnu sostnejna sostnejt sostnew sostni sostniet sostnu sostnut
+25	225	sewwa	imsewwi insewwi insewwu isewwi isewwu issewwi jsewwi jsewwu jsewwux msewwi nsewwu nsewwux sew sewwejna sewwew sewwi ssewwi tiswija
+26	226	ntuża	intuża intużat intużaw intużawx intużax jintuża jintużaw jintużawx jintużax nintuża nintużaw ntużat ntużatx ntużaw ntużawx ntużax tintuża tintużax
+27	227	għen	għenet għenitx għenna għent għenu għenux għenx għin għinu igħin igħinu jgħin jgħinu jgħinux jgħinx magħjun megħjun megħjuna megħjunin ngħin ngħinu ngħinux ngħinx tgħin tgħinu tgħinux tgħinx
+28	228	qalb	iqlub qalbek qalbha qalbhom qalbi qalbkom qalbna qalbu qlub
+29	229	dritt	drittijiet
+30	230	missier	missierek missierha missierhom missieri missierkom missierna missieru missirijiet
+31	231	ċentru	ċentri
+32	232	livell	livelli
+33	233	bosta	
+34	234	xtaq	jixtieq jixtiequ jixtieqx mixtieq nixtieq nixtiequ nixtieqx tixtieq tixtiequ tixtieqx xtaqet xtaqitx xtaqna xtaqt xtaqtu xtaqtx xtaqu xtaqux xtaqx
+35	235	ilma	ilmijiet
+36	236	uża	juża jużaw jużawx jużax nuża nużaw nużawx nużax tuża tużaw tużawx tużax użajna użajt użajtu użat użatx użaw użawx użax
+37	237	fisser	fissirt fissirtu fissirx fissret fissru ifisser ifissirx ifissru imfisser infisser infissirx infissru jfisser jfissirx jfissru jfissrux mfisser nfisser nfissirx nfissru nfissrux tfissirx tfissru tifsir
+38	238	tnejn	
+39	239	semma	imsemmi imsemmija imsemmijin insemmi insemmu isemmi isemmu issemmi issemmu issemmux jsemmi jsemmix jsemmu jsemmux msemmi msemmija msemmijin nsemmi nsemmix nsemmu nsemmux semmejna semmejniex semmejt semmejtu semmew semmewx semmi semmiet semmietx semmiex ssemmi ssemmix ssemmu tismija
+40	240	lanqas	anqas inqas laqqas qas
+41	241	lagħab	ilgħab intlagħab jilagħbu jilagħbux jilgħab jilgħabx lagħabx lagħba lagħbet lagħbu lagħbux lgħabna lgħabt lgħabtx milgħub nilagħbu nilagħbux nilgħab nilgħabx ntlagħab tilagħbu tilagħbux tilgħab tilgħabx
+42	242	sitwazzjoni	sitwazzjonijiet
+43	243	ġara	iġri jiġri jiġrix jiġru jiġrux niġri niġru tiġri tiġrix ġarax ġrajt ġrat ġratx ġraw
+44	244	ewlieni	ewlenija ewlenin ewlien
+45	245	erba'	
+46	246	minuta	minuti
+47	247	tul	tulijiet
+48	248	politiku	politiċi
+49	249	gwerra	gwerer
+50	250	parlament	parlamenti
+51	251	ħares	imħares inħares inħarsu iħares iħarsu iħirsa jħares jħarisx jħarsu jħarsux mħares nħares nħarisx nħarsu nħarsux tħares tħarisx tħarsu tħarsux ħarisna ħarisniex ħarist ħaristx ħarisx ħars ħarset ħarsien ħarsitx ħarsu ħarsux ħorsien
+52	252	baħar	baħarhom bħar ibħra
+53	253	flus	flejjes
+54	254	ċertu	ċerta ċerti
+55	255	ħażin	agħar eħżen ħażina ħżiena
+56	256	għajnuna	għajnuniet
+57	257	ħames	
+58	258	żied	inżid inżidu iżid iżidu iżidx iżżid iżżidu iżżidx jżid jżidu jżidux jżidx miżjud nżid nżidu nżidux żdied żid żidna żidt żidu żiedet żiedu żiedx żżid żżidu żżidx
+59	259	ċar	ċara ċari
+60	260	ħsieb	ħsib ħsibijiet
+61	261	deċiżjoni	deċiżjonijiet
+62	262	punt	punti
+63	263	internazzjonali	
+64	264	stenna	ittenna jistenna jistennew jistennewx jistenniex mistenni nistenna nistennew nistennewx nistenniex stennejna stennejt stennejtu stennejtx stennew stennewx stenniet stennietx stenniex tistenna tistennew tistennewx tistenniex
+65	265	sħiħ	isħaħ sħaħ sħiħa
+66	266	unjoni	unjonijiet
+67	267	fehem	fehim fehmet fehmitx fehmu fehmux fhimna fhimniex fhimt fhimtu fhimtux fhimtx ftehem ifhem ifhmu jifhem jifhimx jifhmu jifhmux mifhum nifhem nifhimx nifhmu nifhmux tifhem tifhimx tifhmu tifhmux
+68	268	attività	attivitajiet
+69	269	siegħa	sagħtejn sigħat
+70	270	sehem	ishma
+71	271	ministeru	ministeri
+72	272	naqas	inqasna inqast jonqos jonqosx jonqsu jonqsux naqasx naqset naqsitx naqsu naqsux neqsin nieqes nieqsa nonqos nonqsu nonqsux nqastu nqastx tonqos tonqosx tonqsu
+73	273	bini	binjiet
+74	274	għadd	għaddejna għaddejniex għaddejt għaddejtu għaddejtx għaddet għaddewx għodd għoddu igħodd igħoddu jgħodd jgħoddu jgħoddux jgħoddx magħdud ngħodd ngħoddu ngħoddux ngħoddx tgħodd tgħoddu tgħoddx
+75	275	nbena	inbena inbnew inbniet jinbena jinbeniex jinbnew jinbnewx nbeniex nbnejna nbnew nbnewx nbniet nbnietx ninbnew tinbena tinbeniex
+76	276	ġewwa	ġe
+77	277	id	idejn idek idha idhom idi idu wejda
+78	278	settur	setturi
+79	279	laħaq	ilħaq ilħaqna ilħaqniex ilħaqt ilħaqtu ilħiq ilħuq intlaħaq jilħaq jilħaqx jilħqu jilħqux laħaqx laħqet laħqitx laħqu laħqux lħaqna lħaqniex lħaqt lħaqtux lħaqtx milħuq nilħaq nilħqu nilħqux ntlaħaq tilħaq tilħaqx tilħqu
+80	280	nnifs-	infushom infuskom infusna innifsek innifsha innifsi innifsu nfushom nfuskom nfusna nnifsek nnifsha nnifsi nnifsu
+81	281	informazzjoni	
+82	282	għaqda	għaqdiet
+83	283	raħal	irħajjel irħula rħajjel rħula
+84	284	spjega	ispjega jispjega jispjegaw jispjegawx jispjegax nispjega nispjegaw spjegajna spjegajt spjegat spjegaw spjegawx spjegax spjegi tispjega tispjegax
+85	285	rapport	rapporti
+86	286	qagħad	joqgħod joqgħodx joqogħdu joqogħdux maqgħud noqgħod noqgħodx noqogħdu noqogħdux oqgħod oqogħdu qagħadx qagħdet qagħditx qagħdu qagħdux qgħad qgħadna qgħadniex qgħadt qgħadtx qiegħad toqgħod toqgħodx toqogħdu toqogħdux
+87	287	pprova	ipprovax ippruvajna ippruvajt ippruvajtu ippruvat ippruvaw jipprova jippruvaw jippruvawx nipprova nippruvaw ppruvajna ppruvajt ppruvajtu ppruvat ppruvatx ppruvaw tipprova tipprovax tippruvaw tippruvawx
+88	288	ltaqa'	iltaqax iltaqgħet iltaqgħetx iltaqgħu iltqajna iltqajt iltqajtu jiltaqa jiltaqa' jiltaqax jiltaqgħu jiltaqgħux ltaqa ltaqax ltaqgħet ltaqgħu ltaqgħux ltqajna ltqajt ltqajtu ltqajtx niltaqa niltaqa' niltaqax niltaqgħu niltaqgħux tiltaqa tiltaqa' tiltaqax tiltaqgħu
+89	289	Marzu	marzu
+90	290	sema'	isimgħu jisimgħu jisimgħux jisma jisma' jismax mismugħ mismugħa mismugħin nisimgħu nisimgħux nisma nisma' nismax semax semgħet semgħetx semgħu semgħux smajna smajniex smajt smajtu smajtux smajtx smigħ tisimgħu tisimgħux tisma tisma' tismax
+91	291	qrib	eqreb qriba qribek qribha qribhom qribna qribu
+92	292	diġà	
+93	293	mija	mijiet mitejn mitt
+94	294	futbol	
+95	295	la	
+96	296	edukazzjoni	
+97	297	offra	joffri joffrix joffru joffrux noffri noffru noffrux offert offrejna offrejt offrew offri offriet offrietx offriex offru offrut toffri toffrix toffru
+98	298	parlamentari	
+99	299	sitta	sitt
+100	300	ħabbar	imħabbar inħabbar inħabbru iħabbar iħabbru jħabbar jħabbarx jħabbru mħabbar nħabbar nħabbru tħabbar tħabbarx tħabbru tħabbrux ħabbara ħabbarna ħabbart ħabbarx ħabbret ħabbru ħabbrux

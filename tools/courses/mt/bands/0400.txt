@@ -1,0 +1,100 @@
+1	301	uffiċjali	
+2	302	vot	voti
+3	303	uniku	unika uniċi
+4	304	deputat	deputata deputati
+5	305	soċjetà	soċjetajiet
+6	306	ħass	inħoss inħossu iħoss iħossu iħossux iħossx jħoss jħossu jħossux jħossx nħoss nħossu nħossux nħossx tħoss tħossu tħossux tħossx ħassa ħassejna ħassejniex ħassejt ħassejtu ħassejtx ħasset ħassew ħassewx ħassitx ħassx ħossu
+7	307	mexa	imxejna imxejt imxew imxi imxiet imxietx imxu jimxi jimxix jimxu jimxux mexiex miexi mixi mxejna mxejniex mxejt mxew mxewx mxiet mxietx nimxi nimxix nimxu nimxux timxi timxix timxu timxux
+8	308	omm	ommha ommhom ommi ommijiet ommna ommok ommu
+9	309	fetaħ	fetaħx fetħet fetħu fetħux ftaħna ftaħt ftaħtu iftaħ iftħu jiftaħ jiftaħx jiftħu jiftħux niftaħ niftħu tiftaħ tiftaħx tiftħu
+10	310	esperjenza	esperjenzajna esperjenzajt esperjenzajtu esperjenzat esperjenzaw esperjenzawx esperjenzax esperjenzi jesperjenza jesperjenzaw nesperjenza nesperjenzaw tesperjenza tesperjenzax
+11	311	qies	inqis inqisu iqis iqisu iqisux iqisx jqis jqisu jqisux jqisx meqjus nqis nqisu nqisux nqisx qieset qiesu qiesx qis qisien qisna qist qistu qisu tqis tqisu tqisux tqisx
+12	312	għażel	agħżel għażil għażilna għażilt għażiltu għażilx għażlet għażlitx għażlu għażlux jagħżel jagħżilx jagħżlu jagħżlux magħżul nagħżel nagħżilx nagħżlu tagħżel tagħżilx tagħżlu
+13	313	sakemm	
+14	314	anzjan	anzjana anzjani
+15	315	isqof	isqfijiet
+16	316	lingwa	lingwi
+17	317	santu	santa santi
+18	318	Jannar	jannar
+19	319	dawl	
+20	320	biċċa	biċċiet biċċtejn bċejjeċ
+21	321	suċċess	suċċessi
+22	322	inti	int mintix tiegħek
+23	323	barrani	barranija barranin
+24	324	fond	fonda fondi
+25	325	kważi	
+26	326	Settembru	settembru
+27	327	mil	
+28	328	karozza	karozzi karrozza
+29	329	xorta	
+30	330	Ottubru	ottubru
+31	331	iben	bin binha binhom binkom binna ibnek ibni ibnu ulied
+32	332	tielet	
+33	333	wettaq	imwettaq inwettaq inwettqu iwettaq iwettqu jwettaq jwettaqx jwettqu jwettqux mwettaq nwettaq nwettqu twettaqx twettqu twettqux wettaqna wettaqniex wettaqt wettaqtu wettaqtx wettaqx wettqet wettqitx wettqu wettqux
+34	334	imbagħad	
+35	335	Lulju	lulju
+36	336	kamra	ikmamar kmamar
+37	337	rebħa	rebħiet
+38	338	mewt	mewtiet mwiet
+39	339	Mejju	mejju
+40	340	serva	imservi inservi inservu iservi iservu isservi isservu jservi jservix jservu jservux nservi nservu servejna servejt servejtu servew servewx servi serviet serviex servit servut sservi sservix sservu
+41	341	allura	
+42	342	ħoloq	joħloq joħloqx joħolqu joħolqux maħluq noħloq noħolqu noħolqux oħloq oħolqu toħloq toħloqx toħolqu ħloqna ħloqniex ħloqt ħloqtu ħoloqx ħolqot ħolqotx ħolqu
+43	343	forma	forom
+44	344	ftehim	ftehimi ftehimiet ftehimijiet
+45	345	kummissjoni	kommissjoni kumissjoni kummissjonijiet
+46	346	bena	beniex bnejna bnejt bnejtu bnejtux bnew bnewx ibni ibniet ibnu jibni jibnix jibnu jibnux mibni nibni nibnu tibni tibnu
+47	347	għan	għanijiet għanu għanux
+48	348	kiber	ikbru jikber jikbirx jikbru jikbrux kbirna kbirniex kbirt kbirtu kibirx kibret kibritx kibru kibrux nikber nikbru tikber tikbirx
+49	349	sabiħ	isbaħ sabiħa sbejjaħ sbejħa
+50	350	nuqqas	nuqqasijiet
+51	351	azzjoni	azzjonijiet
+52	352	Novembru	novembru
+53	353	tard	
+54	354	Ġunju	ġunju
+55	355	popolazzjoni	popolazzjonijiet
+56	356	komunità	komunitajiet
+57	357	linja	linji
+58	358	telaq	itlaq jitilqu jitilqux jitlaq jitlaqx mitluq nitilqu nitilqux nitlaq nitlaqx telaqx telqet telqitx telqu titilqu titilqux titlaq titlaqx tlaqna tlaqt tlaqtu tlaqtux tlaqtx tluq
+59	359	ekonomiku	ekonomika ekonomiċi
+60	360	partita	partiti
+61	361	veru	vera veri
+62	362	ħtieġ	jeħtieġ jeħtieġu jeħtieġx jeħtiġux meħtieġ neħtieġ neħtieġu neħtiġux teħtieġ teħtieġu teħtieġx ħtieġet ħtieġu
+63	363	wisq	
+64	364	waqaf	ieqaf ieqfu jieqaf jieqfu nieqaf nieqfu tieqaf tieqfu waqafna waqafniex waqaft waqaftu waqafx waqfet waqfien waqfitx waqfu waqfux weqfin wieqaf wieqfa
+65	365	Awwissu	awissu awwissu
+66	366	tmiem	
+67	367	saħaq	isħaq jisħaq jisħqu misħuq nisħaq nisħqu saħqet saħqu sħaqna sħaqt tisħaq
+68	368	Diċembru	diċembru
+69	369	akkuża	akkużajt akkużat akkużaw akkużax akkużi jakkuża jakkużaw nakkuża takkuża
+70	370	pożizzjoni	posizzjoni pożizzjonijiet
+71	371	waqqaf	imwaqqaf inwaqqaf inwaqqfu iwaqqaf iwaqqafx iwaqqfu jwaqqaf jwaqqafx jwaqqfu jwaqqfux mwaqqaf nwaqqaf nwaqqfu twaqqaf twaqqafx twaqqfu twaqqfux waqqafna waqqaft waqqafx waqqfet waqqfitx waqqfu waqqfux
+72	372	rċieva	irċevejna irċevejt irċevejtu irċevew irċevewx irċeviet irċevietx irċeviex irċevut irċieva irċievi irċievu jirċevix jirċevux jirċievi jirċievu nirċevux nirċievi nirċievu rċevejna rċevejniex rċevejt rċevejtu rċevejtx rċevew rċevewx rċeviet rċevietx rċeviex rċevut rċievu tirċevix tirċievi tirċievu
+73	373	kultura	kulturi
+74	374	valur	valuri
+75	375	użu	
+76	376	dinji	dinjija dinjin
+77	377	talba	talbiet
+78	378	pjan	pjana pjani pjanijiet
+79	379	mexxej	mexxejja
+80	380	vittma	vittmi
+81	381	raġuni	raġunijiet
+82	382	stqarr	jistqarr jistqarru jistqarrux jistqarrx mistqarr nistqarr nistqarru stqarrejt stqarret stqarrew stqarru tistqarr tistqarru
+83	383	renju	renji
+84	384	April	april
+85	385	kwistjoni	kustjoni kwestjoni kwistjonijiet
+86	386	tela'	jitilgħu jitilgħux jitla jitla' jitlax nitilgħu nitla nitla' tela telax telgħet telgħetx telgħu telgħux titilgħu titla titla' titlax tlajna tlajniex tlajt tlajtx
+87	387	twieled	jitwelidx jitwieldu jitwieled mitwieled nitwieldu nitwieled titwelidx titwieldu titwieled twelditx twelidna twelidniex twelidt twelidtx twelidx twieldet twieldu
+88	388	ferm	ferma fermi
+89	389	università	universitajiet
+90	390	ekonomija	ekonomiji
+91	391	stqarrija	istqarrija istqarrijiet stqarrijiet
+92	392	reġjun	reġjuni
+93	393	żieda	żidiet
+94	394	kuntratt	kuntratti
+95	395	idea	ideat ideja
+96	396	għad	
+97	397	negozju	negozji
+98	398	gazzetta	gazzetti
+99	399	eżista	eżistew eżistewx eżistiet eżistietx eżistiex eżistit eżistu jeżisti jeżistix jeżistu jeżistux neżisti neżistu neżistux teżisti teżistix
+100	400	żgur	iżgur żguri

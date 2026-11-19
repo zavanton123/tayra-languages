@@ -1,0 +1,100 @@
+1	2801	espożizzjoni	espożizzjonijiet
+2	2802	vawċer	vawċers
+3	2803	imparzjali	
+4	2804	musmar	imsiemer msiemer
+5	2805	tħasseb	jitħassbu jitħasseb jitħassibx nitħassbu nitħassbux nitħasseb titħasseb tħassbu tħassibna tħassibt
+6	2806	għejja	għajja għejjejt għejjew għejjiet jgħejja
+7	2807	ħsad	
+8	2808	indirettament	
+9	2809	ċċensura	iċċensura iċċensurat iċċensuraw jiċċensura jiċċensuraw jiċċensurawx tiċċensura tiċċensurax ċensurat ċċensurat ċċensuraw
+10	2810	tewm	tewma
+11	2811	demografiku	demografika demografiċi
+12	2812	musrana	imsaren msaren
+13	2813	ċagħaq	ċagħak ċagħka ċagħqa
+14	2814	dlonk	
+15	2815	oċeaniku	oċeanika oċeaniċi
+16	2816	ħawwel	imħawwel inħawlu iħawlu iħawwel jħawlu jħawwel mħawwel nħawlu tħawlu tħawwel ħawlu ħawwilna
+17	2817	sikka	sikek
+18	2818	ħajjat	ħajjata
+19	2819	anzjanità	
+20	2820	tlitt	
+21	2821	rriveda	irrivedew jirrivedi rivedut tirrivedi
+22	2822	saħan	jisħnu jisħnux jisħon nisħon saħnet saħnu tisħon tisħonx
+23	2823	kolonizzazzjoni	kolonizzazzjonijiet
+24	2824	oxxen	oxxena oxxeni
+25	2825	rpilja	irpilja irpiljar irpiljat irpiljaw jirpilja jirpiljaw nirpilja rpiljajna rpiljar rpiljat rpiljaw rpiljax tirpilja
+26	2826	stimula	jistimula jistimulaw nistimulaw stimulat stimulaw tistimula
+27	2827	qsar	jiqsaru qsaru
+28	2828	ġeografija	ġeografiji ġografija
+29	2829	żaqqaq	żaqqu
+30	2830	astronomija	
+31	2831	disat	
+32	2832	riproduzzjoni	riproduzzjonijiet
+33	2833	elabora	elaborat jelabora jelaboraw nelabora telabora
+34	2834	qoton	qotna
+35	2835	konfigurazzjoni	konfigurazzjonijiet
+36	2836	sawt	swat
+37	2837	ppopola	ippopolat jippopola jippopolaw popolar popolat ppopolaw
+38	2838	għasri	
+39	2839	eklissi	eklissijiet
+40	2840	difer	difrejn difri difru dwiefer
+41	2841	ndiema	indiema
+42	2842	atomu	atomi
+43	2843	għawġ	
+44	2844	imprezzabbli	
+45	2845	sfidant	isfidant isfidanta isfidanti sfidanti
+46	2846	ibigħ	
+47	2847	furban	furbani
+48	2848	lampun	lampuna
+49	2849	saffa	imsaffi imsoffi insaffu isaffi jsaffi jsaffu msoffi saffi saffiet ssaffi tisfija
+50	2850	għaġin	
+51	2851	osservanza	osservanzi
+52	2852	komunjoni	
+53	2853	kubrit	kubrita
+54	2854	tellaq	intellaq itellaq itellqu ittellaq jtellaq jtellqu ntellaq ntellqu tellaqna tellqu tellqux ttellaq
+55	2855	psikoloġija	
+56	2856	għalla	għallew għalliet għelejjel jgħalli jgħallu ngħallu tgħalli
+57	2857	farfar	farfarx farfret farfru ifarfar ifarfru infarfar infarfru jfarfar jfarfru tfarfar tfarfir tfarfru
+58	2858	umanista	umanisti
+59	2859	ħuġġieġa	ħġejjeġ
+60	2860	neputija	
+61	2861	akkumula	akkumulajna akkumulat akkumulaw jakkumula jakkumulaw jakkumulax nakkumulaw takkumula takkumulax
+62	2862	dixx	dixxijiet
+63	2863	ċint	ċnut
+64	2864	urta	jurta jurtaw jurtax nurtaw turta turtax urtar urtat urtaw
+65	2865	fondoq	fniedaq
+66	2866	ġewż	ġewża
+67	2867	independentement	indipendentement
+68	2868	kwotazzjoni	kwotazzjonijiet
+69	2869	dinjituż	dinjituża dinjitużi
+70	2870	pala	pali
+71	2871	żnuber	
+72	2872	dejma	
+73	2873	ħwar	ħwawar
+74	2874	xeħta	xeħtiet
+75	2875	kollettivament	
+76	2876	sillaba	sillabi
+77	2877	xniegħa	xnigħat
+78	2878	ċekken	inċekknu iċekken iċekknu iċċekken jċekken jċekknu mċekken nċekknu nċekknux tiċkin ċekkinna ċekkinx ċekknet ċekknu ċċekken
+79	2879	rabti	rabtija rabtin
+80	2880	dwett	dwetti
+81	2881	qaws	qwas
+82	2882	tut	tuta tuti
+83	2883	tbaxxa	jitbaxxa jitbaxxew jitbaxxiex nitbaxxa nitbaxxew tbaxxejt tbaxxew tbaxxiet titbaxxa titbaxxiex
+84	2884	ddispra	ddisprat ddispraw ddisprax disprat iddispra iddisprat jiddispra jiddispraw tiddispra tiddisprax
+85	2885	illużjoni	illużjonijiet
+86	2886	għaqad	għaqadx għaqdet għaqdu jagħqad jagħqdu nagħqdu tagħqad tagħqadx
+87	2887	kwartett	kwartetti
+88	2888	ideoloġiku	ideoloġika ideoloġiċi
+89	2889	tila	tili titli tlew
+90	2890	wieżen	imwieżen inwieżnu iwieżen iwieżnu jwieżen jwieżnu mwieżen nwieżen nwieżnu twieżen wieżnu wiżinna
+91	2891	saħħar	imsaħħar isaħħar isaħħru issaħħar issaħħart issaħħru isħaħar jissaħħar jissaħħru jsaħħar jsaħħru msaħħar nissaħħar nissaħħarx saħħret saħħru ssaħħar ssaħħarna ssaħħret sħaħar tissaħħar
+92	2892	ċass	ċassa ċassi
+93	2893	bram	brama
+94	2894	nofsiegħa	
+95	2895	qiegħa	qigħan
+96	2896	mazzun	imzazen mzazen
+97	2897	xxabbat	ixxabbat ixxabbtu jixxabbat jixxabbtu nixxabbat nixxabbtu tixbit tixxabbat xxabbatt xxabbtu
+98	2898	stħajjel	jistħajjel jistħajlu mistħajjel nistħajjel nistħajlu stħajjiltu stħajlu tistħajjel tistħajlu
+99	2899	ħliqa	ħlejjaq ħlejqa
+100	2900	ċkunija	ċkunitha ċkunithom ċkuniti ċkunitna ċkunitu

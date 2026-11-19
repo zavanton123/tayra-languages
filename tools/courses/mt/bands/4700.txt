@@ -1,0 +1,100 @@
+1	4601	eleġibbilità	eliġibbilità
+2	4602	mgħarras	mgħarres mgħarrsa
+3	4603	baqqun	bqaqen
+4	4604	assoluzzjoni	assoluzzjonijiet
+5	4605	rixtellu	
+6	4606	karfus	
+7	4607	sogħbien	sogħbiena
+8	4608	fabbrikabbli	
+9	4609	ċinta	
+10	4610	enfatiku	enfatika enfatiċi
+11	4611	determiniżmu	
+12	4612	lakuna	lakuni
+13	4613	litterali	letterali
+14	4614	tellet	intellet itellet
+15	4615	ħlieqa	ħlejjaq
+16	4616	gerfex	igerfxu jgerfex jgerfxu ngerfxu tgerfex
+17	4617	ħuttaf	ħuttafa
+18	4618	fosforu	fosfru
+19	4619	miklem	imkielem
+20	4620	muswaf	muswafa
+21	4621	raj	rajna
+22	4622	fisqija	fsieqi
+23	4623	qorq	qrieq
+24	4624	dardar	idardru imdardar jdardarx jdardrux mdardar
+25	4625	daħħak	daħħakna ddaħħak idaħħku iddaħħak indaħħak jdaħħak
+26	4626	ddiletta	iddiletta jiddiletta jiddilettaw niddiletta
+27	4627	naxar	inxir jonxor jonxru minxur nonxru tonxor
+28	4628	newwaħ	inewwaħ inewħu jnewħu nnewħu tinwiħ tnewwaħ tnewwiħ tnewħu
+29	4629	tħarrax	jitħarrxu tħarrxu
+30	4630	karrakka	karrakki
+31	4631	prostata	
+32	4632	ħiemed	ħiemda
+33	4633	qorriegħa	
+34	4634	mibgħud	mibgħuda mibgħudin
+35	4635	avverbju	avverbji
+36	4636	silem	iselmu sielma
+37	4637	ħamri	
+38	4638	karawett	karawettiet
+39	4639	sienja	swieni
+40	4640	lajma	
+41	4641	tbenġil	
+42	4642	elenku	elenki
+43	4643	esklama	jesklama jesklamaw sklama tesklama
+44	4644	neka	jinki jinku ninku tinki
+45	4645	sallur	sallura salluriet
+46	4646	kejla	kejliet
+47	4647	annetta	nannetta
+48	4648	approprjazzjoni	approprjazzjonijiet
+49	4649	mażunerija	
+50	4650	drammatikament	
+51	4651	teoloġikament	
+52	4652	temtem	jtemtem temtim temtimt ttemtem
+53	4653	garanti	
+54	4654	nikil	
+55	4655	identifikabbli	
+56	4656	approssima	japprossimaw napprossimaw
+57	4657	djieq	djieqet djiequ jidjieq jidjiequ tidjieq
+58	4658	dażgur	
+59	4659	beżżiegħ	beżżiegħa
+60	4660	daħħan	idaħħan idaħħnu iddaħħan jdaħħnu
+61	4661	vvalorizza	jivvalorizza nivvalorizzaw tivvalorizza valorizzat vvalorizzat
+62	4662	bblokka	bblokkaw ibblokka imblokka jibblokka jibblokkaw nibblokkaw tibblokka
+63	4663	bbuwja	bbuwjat ibbuwja ibbuwjar ibbuwjat jibbuwjaw
+64	4664	mnara	imnara imnariet mnajjar mnariet
+65	4665	platinu	
+66	4666	qamas	joqmos joqomsu noqomsu qomos toqmos
+67	4667	lagħqa	
+68	4668	daqsiex	
+69	4669	ajma	
+70	4670	geġwiġija	
+71	4671	ssentenzja	issentenzjat sentenzjat ssentenzjat tissentenzja
+72	4672	llapazza	illapazza jillapazza nillapazzaw tillapazza
+73	4673	ntila	intliet jintlew nintlew
+74	4674	redden	inredden iredden ireddnu jredden nreddnu tredden
+75	4675	xxaħħaħ	ixxaħħaħ jixxaħħaħ jixxaħħaħx nixxaħħu xxaħħaħt xxaħħaħx
+76	4676	qarras	imqarras iqarras jqarras mqarras qarrasx qarrset
+77	4677	żżeffen	iżżeffen jiżżeffnu żżeffnet
+78	4678	punteġġjatura	
+79	4679	żvinta	tiżvinta żvintat
+80	4680	raqqaq	iraqqu jraqqaq jraqqu mraqqaq nraqqu traqqaq
+81	4681	ċikka	
+82	4682	dewwaq	ddewqu dewwaqna jdewwaq tidwiq
+83	4683	kemmex	imkemmex mkemmex tkemmex
+84	4684	ċappetta	ċappetti ċpiepet
+85	4685	xenqa	xenqat
+86	4686	diffużjoni	
+87	4687	teoretika	
+88	4688	bumerin	bumarin bumerini
+89	4689	landing	
+90	4690	reviżur	reviżuri
+91	4691	żokri	żokrija
+92	4692	riedna	
+93	4693	ġuvnott	
+94	4694	insostenibbli	
+95	4695	sarr	isorru jsorr nsorr
+96	4696	ċedru	ċedri
+97	4697	kieni	
+98	4698	enumera	jenumera
+99	4699	turkwas	turkważ
+100	4700	geddes	gezzez igeddsu imgeddes ingeddsu tgeddsux

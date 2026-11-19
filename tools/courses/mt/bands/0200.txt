@@ -1,0 +1,100 @@
+1	101	nsab	insab jinsab jinsabu jinsabux jinsabx ninsab ninsabu nsabu tinsab tinsabu tinsabx
+2	102	diversi	
+3	103	art	artek artha arthom arti artijiet artkom artna artu iradi
+4	104	ngħata	ingħata ingħatajna ingħatajt ingħatajtu ingħatat ingħatatx ingħataw ingħatawx ingħatax jingħata jingħataw jingħatawx jingħatax ngħatajna ngħatajniex ngħatajt ngħatajtx ngħatat ngħatatx ngħataw ngħatawx ngħatax ningħata ningħataw ningħatawx ningħatax tingħata tingħataw tingħatax
+5	105	dar	daret daru dawr ddur dduru ddurx djar dorna dort dortu dur duru dwejra dwejriet iddur idduru idjar idur iduru indur induru jdur jduru jdurux jdurx ndur nduru ndurux ndurx
+6	106	sab	insib insibu insibux insibx isib isibu isibx issib issibu jsib jsibu jsibux jsibx misjub nsib nsibu nsibux nsibx sabet sabitx sabu sabux sabx sib sibna sibniex sibtu sibtux sibtx sibu sieb ssib ssibu ssibux ssibx
+7	107	saħħa	saħħiet saħħitha saħħithom saħħitkom saħħitna saħħtek saħħti saħħtu
+8	108	tifel	itfal subien tfal tifli tiflu
+9	109	numru	numri
+10	110	daħal	daħalx daħlet daħlitx daħlu daħlux dieħel dħalna dħalniex dħalt dħaltu dħaltux dħaltx idħlu idħol jidħlu jidħlux jidħol jidħolx midħul nidħlu nidħlux nidħol nidħolx tidħlu tidħlux tidħol tidħolx
+11	111	taħt	taħtek taħtha taħthom taħti taħtna taħtu
+12	112	ilu	ilek ilha ilhom ili ilkom ilna
+13	113	familja	familji familt familtek familtha familthom familti familtu
+14	114	triq	toroq trejqa trejqiet triqat triqitha triqithom triqitkom triqitna triqtek triqti triqtu
+15	115	dejjem	
+16	116	dinja	dinjiet
+17	117	barra	
+18	118	jien	jiena miniex tiegħi
+19	119	stat	istat istati stati
+20	120	hawn	haw hawnhekk
+21	121	ħajja	ħajjiet
+22	122	ġimgħa	ġimagħtejn ġimgħat ġmiegħi
+23	123	flimkien	
+24	124	quddiem	quddiemek quddiemha quddiemhom quddiemi quddiemkom quddiemna quddiemu
+25	125	alla	allat
+26	126	reġa'	erġgħu irġigħ jerġa jerġa' jerġax jerġgħu jerġgħux nerġa nerġa' nerġax nerġgħu nerġgħux reġa reġax reġgħet reġgħetx reġgħu reġgħux rġajna rġajt rġajtx terġa terġa' terġax terġgħu terġgħux
+27	127	wera	juri jurix juru jurux muri nuri nuru nurux turi turix turu urejna urejt urejtu urew urewx uri uriet uru weriex wrejna wrejt wrejtu wrejtux wrew wrewx wriet wrietx
+28	128	nazzjonali	
+29	129	dik	
+30	130	ħadd	iħdud ħaddejn ħaddi ħaddu ħdud
+31	131	pulizija	puluzija
+32	132	kollox	
+33	133	tieni	
+34	134	mara	mart martek martha marthom marti martu nisa
+35	135	xejn	
+36	136	magħruf	magħrufa magħrufin
+37	137	wasal	asal aslu jasal jasalx jaslu jaslux nasal nasalx naslu naslux tasal tasalx taslu usul wasalna wasalniex wasalt wasaltu wasaltx wasalx waslet waslitx waslu waslux
+38	138	qasam	aqsam aqsmu jaqsam jaqsamx jaqsmu jaqsmux maqsum naqsam naqsmu naqsmux oqsma qasmet qasmu qsajjem qsamna qsamt qsamtu qsim taqsam taqsamx taqsmu
+39	139	skont	iskont skond skontha skonthom skonti skontu
+40	140	għalhekk	
+41	141	tliet	
+42	142	qorti	qortijiet qrati
+43	143	żgħir	iżgħar żgħar żgħira
+44	144	xahar	xahrejn xhur
+45	145	tkellem	jitkellem jitkellimx jitkellmu jitkellmux mitkellem nitkellem nitkellimx nitkellmu nitkellmux titkellem titkellimx titkellmu titkellmux tkellimna tkellimt tkellimtu tkellimtx tkellimx tkellmet tkellmitx tkellmu tkellmux
+46	146	persuna	
+47	147	jum	jiem jumejn jumha jumi jumna jumu
+48	148	qatt	
+49	149	ħin	ħinijiet
+50	150	rebaħ	intrebaħ irbaħ irbaħna irbaħt irbaħtu jirbaħ jirbaħx jirbħu jirbħux mirbuħ nirbaħ nirbaħx nirbħu nirbħux ntrebaħ rbaħna rbaħniex rbaħt rbaħtu rbaħtx rebaħx rebħ rebħet rebħitx rebħu rebħux tirbaħ tirbaħx tirbħu
+51	151	skola	iskejjel iskola skejjel
+52	152	pubbliku	pubblika pubbliki pubbliċi
+53	153	nhar	inhar
+54	154	miet	immut immutu imut imutu jmut jmutu jmutux jmutx mejjet mejta mejtin mietet mietu mietx mitna mitniex mmut mmutu mmutux mut muta muti mutu mwiet tmut tmutu tmutux tmutx
+55	155	poplu	popli
+56	156	isem	ismijiet
+57	157	lura	
+58	158	spiċċa	jispiċċa jispiċċaw jispiċċawx jispiċċax nispiċċa nispiċċaw nispiċċawx nispiċċax spiċċajna spiċċajt spiċċajtu spiċċajtux spiċċajtx spiċċat spiċċatx spiċċaw spiċċawx spiċċax tispiċċa tispiċċaw tispiċċawx tispiċċax
+59	159	għex	għexet għexitx għexna għext għextu għexu għexux għix għixu igħix igħixu jgħix jgħixu jgħixux jgħixx ngħix ngħixu ngħixux ngħixx tgħix tgħixu tgħixux
+60	160	ebda	
+61	161	kelma	kelmiet kelmtejn kelmtek kelmthom kelmti kelmtu kliem
+62	162	importanti	mportanti
+63	163	qawwi	aqwa qawwija qawwijin
+64	164	nazzjonalist	nazzjonalista nazzjonalisti
+65	165	kunsill	kunsilji kunsilli
+66	166	wassal	imwassal inwassal inwasslu iwassal iwassalx iwasslu jwassal jwassalx jwasslu jwasslux mwassal nwassal nwasslu nwasslux twassal twassalx twassil twasslu twasslux wassalna wassalt wassaltu wassalx wasslet wasslitx wasslu wasslux
+67	167	staġun	istaġun istaġuni staġuni
+68	168	klabb	klabbijiet klabbs
+69	169	ruħ	erwieħ irwieħhom irwieħkom irwieħna ruħek ruħha ruħhom ruħi ruħkom ruħna ruħu rwieħ rwieħhom rwieħna
+70	170	servizz	servizzi
+71	171	ħaseb	aħsbu aħseb jaħsbu jaħsbux jaħseb jaħsibx maħsub naħsbu naħsbux naħseb naħsibx taħsbu taħsbux taħseb taħsibx ħasbet ħasbitx ħasbu ħasbux ħasibx ħsib ħsibna ħsibniex ħsibt ħsibtu ħsibtx
+72	172	naħa	naħat naħiet
+73	173	seklu	sekli
+74	174	proġett	proġetti
+75	175	bżonn	bżonni bżonnijiet
+76	176	storja	istejjer istorja stejjer
+77	177	ħalla	imħolli inħalli inħallu iħalli iħallu jħalli jħallix jħallu jħallux mħolli nħalli nħallix nħallu nħallux tħalli tħallix tħallu tħallux tħollija ħalel ħallejna ħallejniex ħallejt ħallejtu ħallejtx ħallew ħallewx ħalli ħalliet ħallietx ħalliex ħalltejn ħallu
+78	178	bniedem	bnedmin bniedma
+79	179	aħna	maħniex tagħna
+80	180	raġel	irġiel raġli rġiel
+81	181	talab	itlob itolbu jitlob jitlobx jitolbu jitolbux mitlub nitlob nitlobx nitolbu nitolbux talabx talbet talbitx talbu talbux titlob titlobx titolbu titolbux tlabna tlabt tlabtu tlabtx
+82	182	minkejja	
+83	183	politika	politiki
+84	184	gżira	gżejjer gżejra gżejriet gżirithom gżiritna igżejjer ġżira
+85	185	mexxa	imexxi imexxix imexxu immexxi immexxu jmexxi jmexxix jmexxu mexxejna mexxejt mexxejtu mexxew mexxi mexxiet mexxiex mexxu mmexxi mmexxu tmexxi tmexxija tmexxu
+86	186	billi	belli imbilli mbilli
+87	187	mingħajr	mingħajrek mingħajrha mingħajrhom mingħajri mingħajrkom mingħajrna mingħajru
+88	188	ġenerali	
+89	189	seħħ	inseħħ iseħħ iseħħu iseħħx isseħħ isseħħu jseħħ jseħħu jseħħux jseħħx seħħet seħħew seħħewx seħħitx seħħu seħħx sseħħ sseħħu sseħħx
+90	190	ħaddiem	ħaddemin ħaddiema
+91	191	żagħżugħ	subien żagħżugħa żgħażagħ
+92	192	differenti	
+93	193	liġi	liġijiet
+94	194	tilef	itlef jitilfu jitilfux jitlef jitlifx mitluf nitilfu nitilfux nitlef nitlifx telf tilfet tilfitx tilfu tilfux tilifx titilfu titilfux titlef titlifx tlifna tlifniex tlift tliftu
+95	195	għaliex	għalxiex
+96	196	kulħadd	
+97	197	bidu	
+98	198	elezzjoni	elezzjonijiet
+99	199	problema	problemi
+100	200	sptar	isptar isptarijiet sptarijiet

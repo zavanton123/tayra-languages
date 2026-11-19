@@ -1,0 +1,100 @@
+1	601	kanzunetta	kanzunetti
+2	602	organizzazzjoni	organizzazzjonijiet organiżżazzjoni
+3	603	klassi	klassijiet
+4	604	natura	naturi
+5	605	xehed	jixhdu jixhdux jixhed jixhidx mixhud nixhed tixhdu tixhed tixhidx xehdet xehdu
+6	606	industrija	industriji
+7	607	ħdejn	ħdejh ħdejha ħdejhom ħdejja ħdejk ħdejna
+8	608	tmien	itmien
+9	609	bħalma	
+10	610	wied	widien
+11	611	skop	iskop iskopijiet skopijiet
+12	612	rebbieħ	rebbieħa
+13	613	qtil	
+14	614	uman	umana umani
+15	615	malajr	
+16	616	ġlieda	ġlidiet ġlied
+17	617	sigurtà	sigurtajiet
+18	618	proprjetà	propjetà proprjetajiet
+19	619	qawwa	imqawwi inqawwi iqawwi iqawwu jqawwi jqawwu nqawwi nqawwu nqawwux qawwew qawwiet qawwu tqawwi
+20	620	dakinhar	
+21	621	ħtieġa	ħtiġiet ħtiġijiet
+22	622	sejjer	sejra sejrin
+23	623	waħd	waħdek waħdi waħdu waħedha waħedhom waħedkom waħedna weħidha weħidhom weħidkom weħidna
+24	624	viċin	viċina viċini
+25	625	għaxar	
+26	626	regola	regoli regula riegla
+27	627	demokratiku	demokratika demokratiċi
+28	628	opera	jopera joperaw joperawx joperax noperaw operajtu operat operaw topera toperax
+29	629	ħanut	iħwienet ħwienet
+30	630	ġisem	iġsma ġisimha ġisimhom ġisimkom ġisimna ġismek ġismi ġismu
+31	631	mużew	mużewijiet mużewjiet
+32	632	ordna	jordna jordnaw nordna nordnaw ordnajna ordnajt ordnar ordnat ordnatx ordnaw tordna tordnaw
+33	633	oġġett	oġġetti
+34	634	kulur	kuluri
+35	635	verità	veritajiet
+36	636	aħmar	ħamra ħomor
+37	637	wirja	wirjiet
+38	638	mimli	mimlija mimlijin
+39	639	indika	indikajna indikat indikaw indikax jindika jindikaw jindikawx jindikax nindika nindikaw tindika tindikax
+40	640	ċans	ċansijiet
+41	641	ddiskuta	ddiskutejna ddiskutejt ddiskutejtu ddiskutew ddiskuti ddiskutiet ddiskutiex ddiskutu diskuss iddiskuta iddiskutejna iddiskutejtu iddiskutew iddiskuti iddiskutiet jiddiskuti jiddiskutix jiddiskutu jiddiskutux niddiskuti niddiskutu tiddiskuti tiddiskutu
+42	642	unur	unuri
+43	643	applikazzjoni	applikazzjonijiet
+44	644	ħarab	aħrab jaħarbu jaħarbux jaħrab jaħrabx maħrub maħruba maħrubin naħarbu naħrab naħrabx taħarbu taħrab taħrabx ħarabx ħarbet ħarbitx ħarbu ħarbux ħrabna ħrabt ħrib
+45	645	disinn	disinji disinni
+46	646	tenna	imtenni intenni intennu itenni itennu ittenni jtenni jtennu mtenni ntenni ntennu tennejna tennejt tennew tenniet tennu ttenni ttennu
+47	647	impjieg	impjiegi mpjieg
+48	648	għaldaqstant	
+49	649	pparteċipa	ipparteċipa ipparteċipajna ipparteċipajt ipparteċipajtu ipparteċipat ipparteċipaw jipparteċipa jipparteċipaw jipparteċipawx jipparteċipax nipparteċipa nipparteċipaw nipparteċipax pparteċipajna pparteċipajt pparteċipat pparteċipatx pparteċipaw pparteċipawx pparteċipax tipparteċipa tipparteċipaw tipparteċipawx tipparteċipax
+50	650	difiża	difiżi
+51	651	pazjent	pazjenta pazjenti
+52	652	istituzzjoni	istituzzjonijiet
+53	653	lkoll	ilkoll
+54	654	mela	imla imlejna imlejt imlew imliet jimla jimlew jimlewx mlejt mlew mliet nimla nimlew nimlewx timla timlew
+55	655	żwieġ	żwiġijiet
+56	656	poeżija	poeżiji
+57	657	banda	bnadi
+58	658	awtur	awtriċi awtura awturi
+59	659	karattru	karattri
+60	660	parir	pariri
+61	661	kiser	inkiser jikser jiksirx jiksru kisret kisritx kisru kisrux ksir ksirna ksirniex ksirt ksirtu ksur miksur nikser niksru tikser tiksirx
+62	662	iswed	sewda suwed
+63	663	produzzjoni	produzzjonijiet
+64	664	applika	applikajna applikajt applikajtu applikajtx applikat applikatx applikaw applikawx applikax japplika japplikaw japplikawx japplikax napplika napplikaw napplikawx napplikax tapplika tapplikaw tapplikax
+65	665	tefa'	itfgħu jitfa jitfa' jitfax jitfgħu jitfgħux mitfugħ nitfa' nitfax nitfgħu nitfgħux tefax tefgħet tefgħetx tefgħu tfajna tfajt tfigħ titfa titfa' titfax titfgħu titfgħux
+66	666	ras	irjus rjus
+67	667	sinjal	sinjali
+68	668	ħati	ħatja ħatjin
+69	669	rekord	rekords
+70	670	tradizzjoni	tradizzjonijiet
+71	671	xemx	xmux
+72	672	qadim	eqdem qadima qodma
+73	673	attenzjoni	
+74	674	nfetaħ	infetaħ infetħet infetħitx infetħu jinfetaħ jinfetaħx jinfetħu jinfetħux nfetaħx nfetħet nfetħitx nfetħu nfetħux ninfetħu tinfetaħ tinfetaħx
+75	675	kors	korsijiet
+76	676	ħlas	iħlas ħlasijiet
+77	677	riżorsa	riżorsi
+78	678	baxx	baxxi ibxax
+79	679	telfa	telfiet
+80	680	direzzjoni	direzzjonijiet
+81	681	sforz	isforz isforzi sforzi
+82	682	soltu	
+83	683	rritorna	irritorna irritornajt irritornat irritornaw jirritorna jirritornaw jirritornawx jirritornax nirritorna nirritornaw ritornat rritornajt rritornat rritornatx rritornaw rritornawx rritornax tirritorna
+84	684	sewa	jiswa jiswew jiswewx jiswiex niswa niswew siwi swew swiet swietx tiswa tiswew tiswewx tiswiex
+85	685	sala	iswali swali
+86	686	paġna	paġni
+87	687	rringrazzja	irringrazzja irringrazzjajt irringrazzjajtu irringrazzjat irringrazzjaw jirringrazzja jirringrazzjaw jirringrazzjax nirringrazzja nirringrazzjaw nirringrazzjawx nirringrazzjax rringrazzjajt rringrazzjajtu rringrazzjat rringrazzjaw tirringrazzja tirringrazzjaw
+88	688	qata'	aqtgħu jaqta jaqta' jaqtax jaqtgħu jaqtgħux maqtugħ naqta naqta' naqtax naqtgħu naqtgħux qata qatax qatgħet qatgħetx qatgħu qatgħux qtajna qtajt qtajtx qtigħ taqta taqta' taqtax taqtgħu taqtgħux
+89	689	sentenza	sentenzi
+90	690	rtira	irtira irtirajt irtirar irtirat irtiraw jirtira jirtiraw jirtirawx jirtirax nirtira nirtiraw nirtirax rtirajt rtirajtx rtirar rtirat rtiratx rtiraw rtirawx rtirax tirtira
+91	691	teatru	teatri
+92	692	filgħaxija	filgħaxijiet flgħaxija għaxija
+93	693	eleġġa	elett eleġġew eleġġiet eleġġu jeleġġi jeleġġu neleġġi neleġġu teleġġi
+94	694	dettall	detall dettalji
+95	695	kelliem	kelliema
+96	696	residenza	residenzi
+97	697	bata	batejna batejt batew bati batiet batietx batu ibati ibatu inbati inbatu jbati jbatix jbatu jbatux nbati nbatix nbatu tbati tbatix
+98	698	ħlief	ħliefek ħliefha ħliefi ħliefu
+99	699	koppja	koppji
+100	700	figura	figuri
