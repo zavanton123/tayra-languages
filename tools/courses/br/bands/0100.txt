@@ -12,15 +12,15 @@
 12	12	eo	
 13	13	o	
 14	14	evit	evidoc'h evidomp evidon evidout evitañ evite eviti evito
-15	15	ne	n'a n'anavezer n'anavezomp n'e n'eas n'edo n'em n'emaint n'emañ n'en n'en-deus n'eo n'eur n'eus n'ez n'hall n'hallas n'halle n'halled n'hallent n'haller n'halljont n'hallo n'hallont n'he n'hell n'helle n'heller n'ho n'hon n'int n'o n'oa n'omp n'on n'ouzer n'ouzont n'roses ne'z
-16	16	war	warnañ warne warnezho warni warno warnoc'h warnomp warnon warnout
-17	17	dont	deu deuan deuas deue deuec'h deued deuemp deuen deuent deuer deues deuet deuez deufe deufec'h deufed deufemp deufen deufent deufes deui deuimp deuin deuint deuio deuis deuit deuje deujec'h deujed deujemp deujen deujent deujes deujoc'h deujod deujomp deujont deujout deuo deuoc'h deuomp deuont deuor deuot deus deuy dond donet teu teuas teue teuent teuer teufe teufent teuio teuje teujent teujont teuont teuy tonet tont zeu zeuas zeue zeufe zeuio zeuje zeujont zeuont zeus zeuy zont
+15	15	kaout	ac'h bet bije bo boa c'haout defe deus devez deveze devezet devo devoa devoe dez deze dije do doa doe gaoud gaout kaoud poa teus zeus zoe
+16	16	ne	n'a n'anavezer n'anavezomp n'e n'eas n'edo n'em n'emaint n'emañ n'en n'en-deus n'eo n'eur n'eus n'ez n'hall n'hallas n'halle n'halled n'hallent n'haller n'halljont n'hallo n'hallont n'he n'hell n'helle n'heller n'ho n'hon n'int n'o n'oa n'omp n'on n'ouzer n'ouzont n'roses ne'z
+17	17	war	warnañ warne warnezho warni warno warnoc'h warnomp warnon warnout
 18	18	ma	m'a m'a'z m'ac'h m'ami m'anavezed m'anavezer m'az m'e m'edo m'edo-hi m'edont m'ema m'emaint m'emaomp m'emañ m'emañ-eñ m'emeur m'en m'en-doa m'eo m'eus m'ez m'he m'he-doa m'hemolc'h m'hen m'ho m'hon m'hor m'int m'intend'io m'o m'o-doa m'oiselle m'énerve m'était ma'z mar mard
-19	19	kaout	ac'h bet bije bo boa c'haout defe deus devez deveze devezet devo devoa devoe dez deze dije do doa doe gaoud gaout kaoud poa teus zeus zoe
-20	20	pe	
-21	21	he	hec'h
-22	22	ket	c'het
-23	23	den	dud ten tud zen zud
+19	19	pe	
+20	20	he	hec'h
+21	21	ket	c'het
+22	22	den	dud ten tud zen zud
+23	23	dont	deu deuan deuas deue deuec'h deued deuemp deuen deuent deuer deues deuet deuez deufe deufec'h deufed deufemp deufen deufent deufes deui deuimp deuin deuint deuio deuis deuit deuje deujec'h deujed deujemp deujen deujent deujes deujoc'h deujod deujomp deujont deujout deuo deuoc'h deuomp deuont deuor deuot deuy dond donet teu teuas teue teued teuent teuer teufe teufent teuio teuje teujent teujont teuont teuy tonet tont zeu zeuas zeue zeufe zeuio zeuje zeujont zeuont zeus zeuy zont
 24	24	sevel	sav savan savas save savec'h saved savemp saven savent saver saverez saverien saverion saves savet savez savfe savfec'h savfed savfemp savfen savfent savfes savi savimp savin savint savis savit savje savjec'h savjed savjemp savjen savjent savjes savjoc'h savjod savjomp savjont savjout savo savomp savont savor savot
 25	25	anv	anvioù
 26	26	mont	ad ae aec'h aed aemp aen aent aet afe afec'h afed afemp afen afent afes afont ahe aimp aint aio aje ajec'h ajed ajemp ajen ajent ajes as ay deomp eas eer ejoc'h ejod ejomp ejont ejout eoc'h eomp eont eor eorioù eot gerzh i in is it kerzh kit mond monet vond vonet vont yae yafe yaje yajont yeas yelo
@@ -82,9 +82,9 @@
 82	82	lavaret	lavar lavaran lavaras lavarat lavare lavared lavarent lavarer lavarezh lavarfe lavarfemp lavarin lavarioù lavarit lavarjont lavaro lavaromp lavaront lavarout lavaroù
 83	83	yezh	yezhoù
 84	84	perzh	berzh berzhioù ferzh ferzhioù perzhioù verzh
-85	85	bed	bedoù fedoù ved vedoù
-86	86	brezel	brezelioù vrezel vrezelioù
-87	87	kemer	c'hemer c'hemeret gemer kemeras kemere kemerent kemerer kemeret kemerfe kemerimp kemerint kemerit kemerjont kemero kemeroc'h kemeromp kemeront kemerout
+85	85	brezel	brezelioù vrezel vrezelioù
+86	86	kemer	c'hemer c'hemeret gemer kemeras kemere kemerent kemerer kemeret kemerfe kemerimp kemerint kemerit kemerjont kemero kemeroc'h kemeromp kemeront kemerout
+87	87	bed	bedoù ved vedoù
 88	88	ken	c'hen
 89	89	eil	
 90	90	nevez	nevesañ nevesoc'h

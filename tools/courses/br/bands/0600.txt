@@ -90,9 +90,9 @@
 90	590	enor	enorioù
 91	591	eured	euredoù
 92	592	lagad	daoulagad lagadoù zaoulagad
-93	593	pediñ	bedas bede beded bedi bediñ bedo fede fediñ fedor fedoù ped pedan pedas pede pedec'h peded pedemp peden pedent pedes pedet pedez pedfe pedfec'h pedfed pedfemp pedfen pedfent pedfes pedi pedimp pedin pedint pedis pedit pedje pedjec'h pedjed pedjemp pedjen pedjent pedjes pedjoc'h pedjod pedjomp pedjont pedjout pedo pedoc'h pedomp pedont pedor pedot veded
-94	594	perc'henn	berc'henn berc'henned berc'hennez ferc'henn ferc'henned perc'henned perc'hennez perc'hennezed
-95	595	kelenn	c'helenn c'helennoù gelenn gelennoù kelennenn kelennoù
+93	593	perc'henn	berc'henn berc'henned berc'hennez ferc'henn ferc'henned perc'henned perc'hennez perc'hennezed
+94	594	kelenn	c'helenn c'helennoù gelenn gelennoù kelennenn kelennoù
+95	595	pediñ	bedas bede beded bedi bediñ bedo fede fediñ fedor ped pedan pedas pede pedec'h peded pedemp peden pedent pedes pedet pedez pedfe pedfec'h pedfed pedfemp pedfen pedfent pedfes pedi pedimp pedin pedint pedis pedit pedje pedjec'h pedjed pedjemp pedjen pedjent pedjes pedjoc'h pedjod pedjomp pedjont pedjout pedo pedoc'h pedomp pedont pedor pedot veded
 96	596	cheñch	cheñchañ cheñchiñ
 97	597	kleñved	c'hleñved c'hleñvedoù gleñved gleñvedoù kleñvedoù
 98	598	echu	
