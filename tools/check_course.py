@@ -2628,7 +2628,7 @@ def maltese_tokens(text):
     return out
 
 
-# Afrikaans words as the reader cuts them (its wordCharacters in PredefinedLanguages.kt): Latin letters with every accent
+# Afrikaans words as the reader cuts them (its wordCharacters in AddedLanguages.kt): Latin letters with every accent
 # (ná, dít, appèl, brûe, ŉ) and the apostrophe, which its characterSubstitutions write for ’ ‘ ´ `, so 'n, ma's and a quote's
 # ' stay on their word; cut at a hyphen. The abbreviations it keeps with their full stop (mnr., asb., bv.) are words the
 # list lacks.
