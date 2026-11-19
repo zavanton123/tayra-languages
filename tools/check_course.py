@@ -41,6 +41,9 @@ BAND = 100
 # Hindi words as the reader cuts them (its wordCharacters in PredefinedLanguages.kt): Latin and Devanagari letters, vowel
 # signs, virama, nukta and Devanagari digits, without the danda; Python's \w leaves out the signs and would cut every word.
 HINDI_WORD = re.compile(r"[a-zA-Z\u0900-\u0963\u0966-\u097f\u200c\u200d]+")
+# Punjabi words as the reader cuts them (its wordCharacters in PredefinedLanguages.kt): the Gurmukhi block with its vowel
+# signs, tippi and addak; Python's \w leaves out the signs and would cut every word. Its digits are numbers, not words.
+PUNJABI_WORD = re.compile(r"[\u0a01-\u0a65\u0a70-\u0a7f]+")
 # Kannada words as the reader cuts them (its wordCharacters in AddedLanguages.kt): the Kannada block with its vowel signs,
 # virama and digits, and the joiners; Python's \w leaves out the signs and would cut every word.
 KANNADA_WORD = re.compile(r"[\u0c80-\u0cff\u200c\u200d]+")
@@ -708,6 +711,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return finnic_tokens(text, code)
     if code == "hi":
         return HINDI_WORD.findall(text)
+    if code == "pa":
+        return PUNJABI_WORD.findall(text)
     if code == "yi":
         return YIDDISH_WORD.findall(text.translate(YIDDISH_APOSTROPHES))
     if code == "kn":
@@ -2663,7 +2668,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:",
+        "கேள்விகள்:", "ਸਵਾਲ:",
     )
 }
 
@@ -3175,6 +3180,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^კითხვები:", "", text)
         if code == "hi":
             text = re.sub(r"(?m)^सवाल:", "", text)
+        if code == "pa":
+            text = re.sub(r"(?m)^ਸਵਾਲ:", "", text)
         if code == "kn":
             text = re.sub(r"(?m)^ಪ್ರಶ್ನೆಗಳು:", "", text)
         if code == "ta":
@@ -3346,6 +3353,12 @@ def check(path, brief=False):
         # The reader keeps a full stop after some Hindi words (है., था.) as part of the word: sentences end with the danda.
         if code == "hi" and re.search(r"[\u0900-\u097f]\.(?!\.)", lesson["text"]):
             problems.append("a sentence ends with '.': write the danda '।'")
+        # So does the Punjabi reader (ਸੀ., ਈ.), and the list and the pack have Gurmukhi in NFC (ਸ਼ as ਸ + nukta): a
+        # precomposed ਸ਼ ਖ਼ ਗ਼ ਜ਼ ਫ਼ ਲ਼ is another word to them.
+        if code == "pa" and re.search(r"[\u0a00-\u0a7f]\.(?!\.)", lesson["text"]):
+            problems.append("a sentence ends with '.': write the danda '।'")
+        if code == "pa" and unicodedata.normalize("NFC", lesson["text"]) != lesson["text"]:
+            problems.append("ਸ਼ ਖ਼ ਗ਼ ਜ਼ ਫ਼ or ਲ਼ typed as one character: write the text in NFC (letter + nukta)")
         for t in sorted({t for t in lowered if code in ("hr", "bs") and croatian_joined_future(t, words)}):
             problems.append(f"'{t}' joins the future as Serbian writes it: write {croatian_joined_future(t, words)}")
         for new in lesson.get("newWords", []):
