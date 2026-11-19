@@ -433,6 +433,7 @@ def lao_spans(text):
         at = match.start()
         for word in reader["segment"](match.group(0)):
             out.append((word, at, at + len(word)))
+            at += len(word)
     return out
 
 
