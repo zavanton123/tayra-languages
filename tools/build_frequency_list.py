@@ -10,7 +10,9 @@ blended, counted as whole words that are cut into a word and its particles as th
   2. FrequencyWords (hermitdave/FrequencyWords), counts from OpenSubtitles 2018
   3. the Leipzig Corpora Collection, counts from a news or Wikipedia corpus
   4. the language's Wikipedia, counted from its articles dump (for languages none of the others has)
-  5. for Ancient Greek, the New Testament's word forms as MorphGNT parses the SBLGNT
+
+Ancient Greek, which none of them has, is the New Testament: each word of the SBLGNT as MorphGNT gives its lemma by hand
+(build_greek).
 
 For Irish, Welsh and Georgian, whose sources are all Wikipedia or news, everyday sentences (Tatoeba's and Common
 Voice's) are blended in too, and for Armenian, whose news and Wikipedia leave kitchen and family words far down,
@@ -2744,24 +2746,56 @@ def wikipedia_counts(language, limit):
     return dict(top), f"{wiki}.wikipedia.org articles"
 
 
-def morphgnt_counts(language, limit):
-    """Ancient Greek, which no other source has: the word forms of the New Testament as MorphGNT parses the SBLGNT."""
-    if language != "grc":
-        return None
-    path = download("https://github.com/morphgnt/sblgnt/archive/refs/heads/master.zip", "morphgnt.zip")
+# Ancient Greek is the New Testament as MorphGNT parses the SBLGNT, each word with its lemma given by hand; MorphGNT writes a
+# name's lemma with a capital. A lemma written with a letter in brackets (οὕτω(ς), ἔξεστι(ν)) is cited without it, or as
+# GREEK_LEMMAS has it.
+MORPHGNT_URL = "https://github.com/morphgnt/sblgnt/archive/refs/heads/master.zip"
+GREEK_LEMMAS = {"οὕτω(ς)": "οὕτως"}
+GREEK_ACCENTS = "\u0301\u0342"
+
+
+def greek_folded(form):
+    """
+    An Ancient Greek form as the reader matches it (AncientGreekParser): the grave a final syllable takes before another
+    word is the acute, and the second accent an enclitic throws back onto the word before it (ἄνθρωπός τις, εἶπέν μοι) is
+    left out. The apostrophe of an elided word (κατ’, δι’) is the straight one, as the reader's substitutions make it.
+    """
+    decomposed = unicodedata.normalize("NFD", form.replace("\u2019", "'")).replace("\u0300", "\u0301")
+    accents = [i for i, c in enumerate(decomposed) if c in GREEK_ACCENTS]
+    if len(accents) > 1 and decomposed[accents[-1]] == "\u0301":
+        decomposed = decomposed[:accents[-1]] + decomposed[accents[-1] + 1:]
+    return unicodedata.normalize("NFC", decomposed)
+
+
+def build_greek(size):
+    """
+    The Ancient Greek list: MorphGNT's lemmas, as the Koine of the New Testament cites them (γίνομαι, θέλω), by how often
+    the text has them, each with the forms it is written in there, folded as the reader matches them; names are left out.
+    """
+    path = download(MORPHGNT_URL, "morphgnt.zip")
     if path is None:
-        return None
+        sys.exit("No frequency source has grc")
     import zipfile
     counts = defaultdict(int)
+    forms = defaultdict(lambda: defaultdict(int))
     with zipfile.ZipFile(path) as z:
-        for name in z.namelist():
-            if name.endswith("-morphgnt.txt"):
-                for line in z.read(name).decode("utf-8").splitlines():
-                    parts = line.split()
-                    if len(parts) == 7:
-                        counts[lower(language, parts[4])] += 1
-    top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
-    return dict(top), "MorphGNT parses of the SBLGNT"
+        for name in sorted(z.namelist()):
+            if not name.endswith("-morphgnt.txt"):
+                continue
+            for line in z.read(name).decode("utf-8").splitlines():
+                parts = line.split()
+                if len(parts) != 7 or parts[6][0].isupper():
+                    continue
+                lemma = GREEK_LEMMAS.get(parts[6]) or re.sub(r"\(.\)", "", parts[6])
+                counts[lemma] += 1
+                forms[lemma][greek_folded(lower("grc", parts[4]))] += 1
+    ranked = sorted(counts, key=lambda w: (-counts[w], w))[:size]
+    label = f"MorphGNT lemmas of the SBLGNT ({SOURCE_LICENCES['morphgnt']})"
+    lines = [f"# source: {label}", f"# words: {len(ranked)}"]
+    for word in ranked:
+        counted = sorted(forms[word], key=lambda f: (-forms[word][f], f))[:FORMS_PER_WORD]
+        lines.append(word + "\t" + " ".join(counted))
+    return "\n".join(lines) + "\n", label
 
 
 # Everyday sentences, for a language whose other sources are all Wikipedia: Tatoeba's sentences in it (by Tatoeba's
@@ -2861,7 +2895,7 @@ def everyday_counts(language, limit, sources=None):
     return dict(top), " and ".join(used)
 
 
-SOURCES = {"wordfreq": wordfreq_counts, "morphgnt": morphgnt_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts, "wikipedia": wikipedia_counts,
+SOURCES = {"wordfreq": wordfreq_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts, "wikipedia": wikipedia_counts,
            "everyday": everyday_counts, "everyday_mixed": lambda language, limit: everyday_counts(language, limit, EVERYDAY_MIXED.get(language)),
            "wikipedia_sentences": lambda language, limit: leipzig_counts(language, limit, "wikipedia_sentences")}
 
@@ -3624,7 +3658,9 @@ def resegment(language, counts):
 def build(language, source, size):
     if language == "th":
         return build_thai(size)
-    order = [source] if source else SOURCE_ORDER.get(language, ["wordfreq", "frequencywords", "leipzig", "wikipedia", "morphgnt"])
+    if language == "grc":
+        return build_greek(size)
+    order = [source] if source else SOURCE_ORDER.get(language, ["wordfreq", "frequencywords", "leipzig", "wikipedia"])
     found = []
     for name in order:
         result = SOURCES[name](language, 200_000)
