@@ -12,8 +12,8 @@ import com.idiomiko.core.domain.model.Language
  * one word. ໆ, which repeats the word before it, and the Lao digits are no words.
  *
  * As in Thai, some grammatical words always stand apart, though the lexicon has them joined to the word next to them: the
- * negator ບໍ່ and the particle ກໍ່ (ກໍ) before a word (ບໍ່ດີ is ບໍ່ + ດີ), and after one the complementizer ວ່າ and the aspect
- * word ຢູ່ (ຄິດວ່າ is ຄິດ + ວ່າ, ອາໃສຢູ່ ອາໃສ + ຢູ່).
+ * negator ບໍ່ before a word (ບໍ່ດີ is ບໍ່ + ດີ), and after one the complementizer ວ່າ and the aspect word ຢູ່ (ຄິດວ່າ is ຄິດ +
+ * ວ່າ, ອາໃສຢູ່ ອາໃສ + ຢູ່). Not ກໍ່, which begins words of its own (ກໍ່ສ້າງ "build", ກໍລະກົດ "July").
  *
  * Text is read in today's spelling: ໍ + າ as ຳ, ຫນ, ຫມ and ຫລ as ໜ, ໝ and ຫຼ, so a word reads the same however it was typed;
  * the lexicon's words are spelled so too ([lexiconWord]).
@@ -90,7 +90,7 @@ class LaoParser : SegmentingParser("Lao", "lo", joinUnknown = true, byFrequency 
         private val LAO_DIGITS = '໐'..'໙'
 
         /** The grammatical words that join no word after them, and those that join none before them. */
-        private val BEFORE = listOf("ບໍ່", "ກໍ່", "ກໍ")
+        private val BEFORE = listOf("ບໍ່")
         private val AFTER = listOf("ວ່າ", "ຢູ່")
 
         private fun isLetterAlone(text: String): Boolean = text.length == 1 && isLetter(text[0])

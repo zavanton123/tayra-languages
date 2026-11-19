@@ -2876,6 +2876,9 @@ WIKI_LINK = re.compile(r"\[\[(?:[^\]|]*\|)?([^\]|]*)\]\]")
 # A letter, or a combining mark of the scripts whose vowel signs Python does not count as letters.
 WIKI_LETTER = r"[^\W\d_]|[\u0300-\u036f\u0591-\u05c7\u064b-\u065f\u0670\u0730-\u074a\u0900-\u0dff\u0e31\u0e34-\u0e3a\u0e47-\u0e4e\u0eb1\u0eb4-\u0ebc\u0ec8-\u0ecd\u17b4-\u17d3]"
 WIKI_WORD = re.compile(rf"(?:{WIKI_LETTER})+(?:['’ʻ\u200c-](?:{WIKI_LETTER})+)*")
+# Lao Wikipedia writes a zero-width space (or a soft hyphen) between the syllables of many words (ປະ\u200bເທດ), where no word
+# ends: they are dropped, and the text cut into words as any Lao text is.
+WIKI_JOINED = {"lo": re.compile("[\u200b\u00ad]")}
 
 # A Wikipedia's own word for a redirect page, which is no article ("#athsheoladh [[Baile Átha Cliath]]", 15,000 pages).
 WIKI_REDIRECTS = {"ga": "#athsheoladh"}
@@ -2946,6 +2949,8 @@ def wikipedia_counts(language, limit):
                     for noise in WIKI_NOISE:
                         text = noise.sub(" ", text)
                     text = WIKI_LINK.sub(r"\1", text)
+                    if language in WIKI_JOINED:
+                        text = WIKI_JOINED[language].sub("", text)
                     for word in WIKI_WORD.findall(text):
                         counts[lower(language, word)] += 1
                         if language == "kw":
@@ -4066,7 +4071,7 @@ def lao_break(run, at):
 
 # As LaoParser has them: the grammatical words that join no word after them (ບໍ່ດີ is ບໍ່ + ດີ), and those that join none
 # before them (ຄິດວ່າ is ຄິດ + ວ່າ).
-LAO_BEFORE = ("ບໍ່", "ກໍ່", "ກໍ")
+LAO_BEFORE = ("ບໍ່",)
 LAO_AFTER = ("ວ່າ", "ຢູ່")
 
 
@@ -4267,6 +4272,11 @@ LAO_EXCLUDE = {
 }
 # What the pack has a word as that makes it no word of a text: a name or a letter, unless it is something else too.
 LAO_NOT_WORDS = {"name", "character", "symbol", "abbrev", "abbreviation", "prefix", "suffix", "affix", "unknown", "punct"}
+# The months and the languages, which the pack has as names only: everyday words.
+LAO_NAMED_WORDS = {
+    "ມັງກອນ", "ກຸມພາ", "ມີນາ", "ເມສາ", "ພຶດສະພາ", "ມິຖຸນາ", "ກໍລະກົດ", "ສິງຫາ", "ກັນຍາ", "ຕຸລາ", "ພະຈິກ", "ທັນວາ",
+    "ອັງກິດ", "ຈີນ", "ຍີ່ປຸ່ນ", "ຫວຽດນາມ", "ຂະເໝນ", "ເກົາຫຼີ", "ລັດເຊຍ", "ເຢຍລະມັນ", "ເອັສປາຍ", "ອິຕາລີ",
+}
 
 
 def build_lao(size):
@@ -4287,7 +4297,7 @@ def build_lao(size):
     kinds = defaultdict(set)
     for word, p in db.execute("SELECT word_lc, pos FROM entries"):
         kinds[lao_normalise(word)].add(p)
-    noise = {w for w, k in kinds.items() if k <= LAO_NOT_WORDS} | LAO_EXCLUDE
+    noise = {w for w, k in kinds.items() if k <= LAO_NOT_WORDS and w not in LAO_NAMED_WORDS} | LAO_EXCLUDE
     ranks, text = None, None
     for round_ in range(LAO_ROUNDS + 1):
         segment = segmenter("lo", lexicon, ranks)

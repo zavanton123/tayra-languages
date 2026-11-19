@@ -43,16 +43,17 @@ class LaoParserTest {
         assertEquals(listOf("ຫາກ", "ວ່າ"), words("ຫາກວ່າ"))
     }
 
-    /** ບໍ່ and ກໍ່ join no word after them, ວ່າ and ຢູ່ none before them, however the lexicon has them. */
+    /** ບໍ່ joins no word after it, ວ່າ and ຢູ່ none before them, however the lexicon has them; ກໍ່ begins words of its own. */
     @Test
     fun grammaticalWordsStandApart() {
         val ranks = mapOf("ບໍ່" to 20, "ດີ" to 100, "ບໍ່ດີ" to 3000, "ຄິດ" to 300, "ວ່າ" to 10, "ຄິດວ່າ" to 900, "ອາໃສ" to 800, "ຢູ່" to 30, "ອາໃສຢູ່" to 2000)
-        Lexicons.set("lo", Lexicon(ranks.keys + "ຕໍ່ໄປ" + "ຕໍ່" + "ໄປ", ranks))
+        Lexicons.set("lo", Lexicon(ranks.keys + "ຕໍ່ໄປ" + "ຕໍ່" + "ໄປ" + "ກໍ່" + "ສ້າງ" + "ກໍ່ສ້າງ", ranks))
         assertEquals(listOf("ບໍ່", "ດີ"), words("ບໍ່ດີ"))
         assertEquals(listOf("ຄິດ", "ວ່າ"), words("ຄິດວ່າ"))
         assertEquals(listOf("ອາໃສ", "ຢູ່"), words("ອາໃສຢູ່"))
         // Other words the lexicon has together stay one word.
         assertEquals(listOf("ຕໍ່ໄປ"), words("ຕໍ່ໄປ"))
+        assertEquals(listOf("ກໍ່ສ້າງ"), words("ກໍ່ສ້າງ"))
     }
 
     /** Text is read in today's spelling however it was typed, and so is the lexicon's; ໆ and the Lao digits are no words. */

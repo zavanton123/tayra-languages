@@ -175,6 +175,9 @@ def _is_kanji(c):
 
 
 def fold(code, word):
+    # Lao words are matched in today's spelling, as the reader reads them (LaoParser.normalise).
+    if code == "lo":
+        return lao_normalised(word)
     # Chinese courses are written in simplified characters; the list's words are traditional, with their simplified forms.
     if code == "zh":
         return to_simplified(word)
@@ -378,6 +381,47 @@ def thai_spans(text):
     return out
 
 
+_lao = {}
+
+
+def lao_reader():
+    """
+    The Lao cut of the reader with the lo-en pack installed: LaoParser by the shipped list's words and forms, the app's own
+    word list (files/lexicon/lo.txt) and the pack's, and the shipped list's ranks, not the courses' pinned one's.
+    """
+    if not _lao:
+        import build_frequency_list as fl
+        words, ranks = fl.list_ranks(open(os.path.join(LISTS, "lo.tsv"), encoding="utf-8").read())
+        if not os.path.exists(os.path.join(ROOT, "dictionaries", "lo-en.sqlite")):
+            sys.exit(f"Lao courses need the lo-en pack at {os.path.join(ROOT, 'dictionaries', 'lo-en.sqlite')}")
+        lexicon = fl.lao_lexicon() | {fl.lao_normalise(w) for w in words}
+        ranks = {fl.lao_normalise(w): r for w, r in sorted(ranks.items(), key=lambda kv: kv[1], reverse=True)}
+        _lao.update(run=fl.LAO_RUN, segment=fl.segmenter("lo", {w for w in lexicon if w and " " not in w}, ranks), normalise=fl.lao_normalise)
+    return _lao
+
+
+def lao_spans(text):
+    """
+    The Lao words of [text] as the reader cuts them (LaoParser), with where each starts and ends, [text] in today's spelling
+    (lao_normalised): each run of letters into its likeliest words by their ranks, never inside a syllable, letters no word
+    covers one word together, ບໍ່ never joined to the word after it, nor ວ່າ and ຢູ່ to the word before them. ໆ, the Lao
+    digits and anything not Lao are no words.
+    """
+    reader = lao_reader()
+    out = []
+    for match in reader["run"].finditer(text):
+        at = match.start()
+        for word in reader["segment"](match.group(0)):
+            out.append((word, at, at + len(word)))
+            at += len(word)
+    return out
+
+
+def lao_normalised(text):
+    """[text] in today's spelling, as LaoParser reads it (ໍ + າ as ຳ; ຫນ, ຫມ, ຫລ as ໜ, ໝ, ຫຼ)."""
+    return lao_reader()["normalise"](text)
+
+
 _mecab = []
 
 
@@ -512,6 +556,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return GEORGIAN_WORD.findall(text)
     if code == "th":
         return [word for word, _, _ in thai_spans(text)]
+    if code == "lo":
+        return [word for word, _, _ in lao_spans(text)]
     if code == "ja":
         return japanese_tokens(text, ranks)
     if code == "zh":
@@ -2304,7 +2350,7 @@ QUESTION_HEADERS = {
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
-        "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:",
+        "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:",
     )
 }
 
@@ -2555,7 +2601,7 @@ def check(path, brief=False):
     # So is a Galician one (A Coruña, Santiago de Compostela, O Porriño).
     if code == "gl":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
-    # Chinese writes no spaces, so every name is matched whole, the longest first; and so does Thai.
+    # Chinese writes no spaces, so every name is matched whole, the longest first; and so do Thai and Lao.
     if code in ("zh", "ja", "th"):
         long_names = sorted(course.get("names", []), key=len, reverse=True)
     # Vietnamese names are made of syllables that are words too (Mai, "tomorrow"; Hà Nội): a name counts where it is
@@ -2563,6 +2609,8 @@ def check(path, brief=False):
     if code == "vi":
         long_names = sorted(course.get("names", []), key=len, reverse=True)
         names = set()
+    if code == "lo":
+        long_names = sorted({lao_normalised(n) for n in course.get("names", [])}, key=len, reverse=True)
     if code == "ru":
         names = names | russian_name_forms(course.get("names", []))
     # Mongolian names take the case endings joined (Доржийн, Доржид, Ануг, Ховдоос).
@@ -2633,7 +2681,7 @@ def check(path, brief=False):
     report = []
     # Where each new word is taught, by its forms: a Chinese lesson must not use a word a later lesson teaches.
     taught_in = {}
-    if code in ("zh", "ja", "ko", "th"):
+    if code in ("zh", "ja", "ko", "th", "lo"):
         for j, later in enumerate(course["lessons"], start=1):
             for new in later.get("newWords", []):
                 key = fold(code, new.lower())
@@ -2647,6 +2695,14 @@ def check(path, brief=False):
         run_on = []
         if code == "th":
             edges = {at for _, start, end in thai_spans(text) for at in (start, end)}
+            run_on = sorted({name for name in long_names for found in re.finditer(re.escape(name), text)
+                             if found.start() not in edges or found.end() not in edges})
+        # The reader reads Lao in today's spelling, and so does the checker; a name is matched as the reader cuts as Thai's is.
+        old_spelling = False
+        if code == "lo":
+            old_spelling = lao_normalised(text) != text
+            text = lao_normalised(text)
+            edges = {at for _, start, end in lao_spans(text) for at in (start, end)}
             run_on = sorted({name for name in long_names for found in re.finditer(re.escape(name), text)
                              if found.start() not in edges or found.end() not in edges})
         for name in long_names:
@@ -2766,6 +2822,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "vi":
             text = re.sub(r"(?m)^Câu hỏi:", "", text)
+        if code == "lo":
+            text = re.sub(r"(?m)^ຄຳຖາມ:", "", text)
         if code == "fa":
             text = re.sub("(?m)^پرسش\u200cها:", "", text)
         if code == "tok":
@@ -2863,6 +2921,8 @@ def check(path, brief=False):
         problems = [f"the reader runs the name '{name}' into the words around it: rewrite around it" for name in run_on]
         if code == "tok":
             problems += tok_problems
+        if code == "lo" and old_spelling:
+            problems.append("old spelling: write ຳ, ໜ, ໝ, ຫຼ (not ໍາ, ຫນ, ຫມ, ຫລ)")
         if (qa_problem := questions_problem(lesson["text"])) is not None:
             problems.append(qa_problem)
         # The reader keeps the vowel signs and the tatweel in an Egyptian word: كتاب written with them is another word.
