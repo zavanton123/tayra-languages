@@ -41,7 +41,7 @@
 41	41	ha'n	
 42	42	kynsa	gensa gynsa hensa hynsa kensa
 43	43	bledhen	bledhednyow bledhennyow bledhenyow bledhydnyow bledhynnyow bledhynyow blydhen blydhyn blydhynnyow vledhen vledhennyow vledhenyow vledhydnyow vledhyn vledhynnyow vlydhen
-44	44	gallos	alla allas allis allons allos allsons alsa ell gallas gallons gallosow galsa halla hallas hallen hallens hallons hyll hylli hyllir hyllons hyllowgh hyllsons hyllyn kallos kalsa kyllons wallos yll yllens ylli yllis yllons ylly yllyns
+44	44	gallos	alla allas allis allons allos allsons alsa ell gallas gallons gallosow galsa gyll halla hallas hallen hallens hallons hyll hylli hyllir hyllons hyllowgh hyllsons hyllyn kallos kalsa kyllons wallos yll yllens ylli yllis yllons ylly yllyns
 45	45	kernewek	
 46	46	pow	bowyow fowyow powyow
 47	47	restren	restrennow restrynnow
@@ -77,7 +77,7 @@
 77	77	kenedhlek	genedhlek
 78	78	ynter	inter yntra yntredha yntredhi yntredho yntredhon
 79	79	est	
-80	80	godhvos	godhas godhes godhor godhvies godhys godn gonn gor goya honn kodhowgh kodhvos koffia wodhas wodhes wodhon wodhons wodhor wodhvons wodhvos wodhvosow wodhya wodhyen wonn wor woya
+80	80	godhvos	godhas godhes godhor godhvies godhys godn goer gonn gor goya honn kodhowgh kodhvos koffia wodhas wodhes wodhon wodhons wodhor wodhvons wodhvos wodhvosow wodhya wodhyen wonn wor woya
 81	81	orth	ort orta orti orto worth
 82	82	skrifa	scrif scrifa scrifas scrifen scrifow scrifys skrif skrifas skrifen skrifow skrifsons skrifyas skrifys
 83	83	a-dhia	a-dhya
