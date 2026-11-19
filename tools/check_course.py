@@ -549,6 +549,9 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
     if code == "hy":
         text = text.translate(ARMENIAN_WORD_MARKS)
+    # The reader cuts Albanian at an apostrophe, which is no letter of its words: s'kam is s + kam, t'i is t + i.
+    if code == "sq":
+        text = re.sub(r"['’]", " ", text)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -2194,7 +2197,7 @@ QUESTION_HEADERS = {
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
-        "Câu hỏi:",
+        "Câu hỏi:", "Pyetje:",
     )
 }
 
@@ -2618,6 +2621,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Pitanja:", "", text)
         if code == "ro":
             text = re.sub(r"(?m)^Întrebări:", "", text)
+        if code == "sq":
+            text = re.sub(r"(?m)^Pyetje:", "", text)
         if code in FINNIC:
             text = re.sub(r"(?m)^" + re.escape(FINNIC[code]["questions"]), "", text)
         if code == "is":

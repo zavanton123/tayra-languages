@@ -24,7 +24,7 @@ class LessonQuestionsTest {
 
     @Test
     fun eachLanguagesHeaderIsFound() {
-        for (header in listOf("Questions :", "Հարցեր․", "پرسش‌ها:", "คำถาม:", "Mga tanong:", "问题：", "Ἐρωτήσεις:")) {
+        for (header in listOf("Questions :", "Հարցեր․", "پرسش‌ها:", "คำถาม:", "Mga tanong:", "问题：", "Ἐρωτήσεις:", "Pyetje:")) {
             assertEquals(1, LessonQuestions.split("Story.\n\n$header\nQ?\nA.")?.questions?.size, header)
         }
     }
