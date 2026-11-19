@@ -2535,7 +2535,7 @@ EXCLUDE["vi"] = EXCLUDE.get("vi", set()) | {"i", "the"}
 # (דארף is mostly "must", not דאָרף "village"; אן mostly the article), and
 # the unpointed spellings that are standard words too (זיי "they").
 YIDDISH_UNPOINTED = {"דארף": "דאַרף", "פאר": "פֿאַר", "אן": "אַן", "נאר": "נאָר", "שטאט": "שטאָט", "באר": "באַר", "פאס": "פּאַס",
-                     "דיין": "דײַן"}
+                     "דיין": "דײַן", "דאך": "דאָך"}
 YIDDISH_STANDARD = {"זיי"}
 # YIVO spellings the pack has no word for: דאַרף is דאַרפֿן's, ייִדן ייִד's plural, אויפֿן (אויף + דעם) a word of its own.
 OVERRIDES["yi"] = {"דאַרף": ["דאַרפֿן"], "ייִדן": ["ייִד"], "אויפֿן": ["אויפֿן"]}
@@ -2550,3 +2550,16 @@ OVERRIDES["yi"].update({
     # "They", not זײַ, the imperative, whose verb now outweighs it.
     "זיי": ["זיי"],
 })
+# A verb's present or stem the pack has as a word of its own, or as another's form (ווייס "I know", not ווײַס "white";
+# גייסט "you go", not גײַסט "spirit"), and a word's inflected forms it files under a look-alike (לידער "songs", not
+# "leader"; מאַמען, the mother's dative, not "to mother"; פֿילע "many", not "fillet").
+OVERRIDES["yi"].update({
+    "ווערט": ["ווערן"], "מאַכט": ["מאַכן"], "טראַכט": ["טראַכטן"], "קוק": ["קוקן"], "הייסט": ["הייסן"], "געהייסן": ["הייסן"],
+    "הייסן": ["הייסן"], "ווייס": ["וויסן"], "וויסט": ["וויסן"], "גייסט": ["גיין"], "גיי": ["גיין"], "גייען": ["גיין"],
+    "זאָלסט": ["זאָלן"], "געבעטן": ["בעטן"], "בעטן": ["בעטן"], "וויינען": ["וויינען"], "געוויינט": ["וויינען"],
+    "ווערטער": ["וואָרט"], "לידער": ["ליד"], "מאַמען": ["מאַמע"], "ייִדישן": ["ייִדיש"], "יידישן": ["ייִדיש"], "פֿילע": ["פֿיל"],
+    "פילע": ["פֿיל"], "ישיבות": ["ישיבֿה"], "ציין": ["צאָן"], "חרדישער": ["חרדיש"],
+})
+# Unpointed spellings that are mostly a name or Hebrew in the counts (פוילן is Poland, not פֿוילן "to rot"; ארץ the land of
+# ארץ ישׂראל, not אַרץ "ore"; תל of תל אביב), and a surname (the Satmar rebbes').
+EXCLUDE["yi"] = {"פוילן", "ארץ", "אב", "תל", "טייטלבוים"}
