@@ -71,7 +71,7 @@ LANGUAGES = [
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "az",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
@@ -112,6 +112,7 @@ FALLBACKS = {
     "af": {"leipzig": ["afr_news_2016_300K", "afr_news_2017_300K", "afr-za_web_2015_1M"],
            "wikipedia_sentences": ["afr_wikipedia_2021_300K"], "frequencywords": "af"},
     "ur": {"leipzig": ["urd_newscrawl_2016_1M", "urd_wikipedia_2021_300K"]},
+    "pa": {"leipzig": ["pan_wikipedia_2021_300K", "pan-in_web_2015_100K"]},
 }
 
 # Languages written without spaces: a corpus's runs of letters are cut into words as the app's
@@ -222,6 +223,9 @@ SOURCE_WEIGHTS["mt"] = {"maltese": 0.45, "maltese_web": 0.45, "maltese_wikipedia
 # Malay is counted from web text, subtitles and Malaysian web pages (Leipzig's crawl of .my sites, a million sentences):
 # its Wikipedia would add its pages' words, and Leipzig's news crawls mix in Indonesian.
 SOURCE_ORDER["ms"] = ["wordfreq", "frequencywords", "leipzig"]
+# Punjabi, which neither wordfreq nor FrequencyWords has, is counted from Leipzig's sentences of its Wikipedia and of
+# Indian web pages.
+SOURCE_ORDER["pa"] = ["leipzig"]
 # Kazakh has no wordfreq list: it is counted from Leipzig's news (a million sentences of 2016, most from Azattyq, and 30,000
 # of 2020) and, at a fifth of the blend, its Wikipedia's sentences, each sentence once; its subtitles (FrequencyWords, 14,000
 # words) are a tenth, which brings the words of talk up (сен, саған, рахмет).
@@ -309,6 +313,10 @@ EXCLUDE["km"] = frequency_km.KHMER_EXCLUDE
 OVERRIDES["kk"] = frequency_kazakh.KAZAKH_OVERRIDES
 from frequency_fixes import HEBREW_CUT, HEBREW_WHOLE  # noqa: E402
 import frequency_albanian  # noqa: E402
+import frequency_punjabi  # noqa: E402
+
+OVERRIDES["pa"] = frequency_punjabi.OVERRIDES
+EXCLUDE["pa"] = frequency_punjabi.EXCLUDE
 import frequency_afrikaans  # noqa: E402
 
 OVERRIDES["af"] = frequency_afrikaans.OVERRIDES
@@ -2197,6 +2205,8 @@ HINDI_NASAL_CONJUNCT = re.compile("ङ्(?=[कखगघ])|ञ्(?=[चछज�
 # The letters the reader reads Hindi words in (PredefinedLanguages.kt): Urdu spellings in web text (میں) are none.
 HINDI_LETTERS = re.compile("[a-zA-Z\u0900-\u0963\u0966-\u097f\u200c\u200d]+")
 # The Arabic-script letters Malay is also written in (Jawi).
+# Gurmukhi letters, vowel signs, tippi and addak, without the digits.
+PUNJABI_LETTERS = re.compile("[\u0a01-\u0a65\u0a70-\u0a75]+")
 JAWI_LETTERS = re.compile("[\u0600-\u06ff\u0750-\u077f\ufb50-\ufdff\ufe70-\ufeff]")
 
 
@@ -3080,6 +3090,9 @@ def normalise(language, form):
         return unicodedata.normalize("NFC", form)
     # Latvian web pages write some letters with their marks apart (l + U+0327 for ļ), which the reader and pack join.
     if language == "lv":
+        return unicodedata.normalize("NFC", form)
+    # Punjabi text writes ਸ਼ ਖ਼ ਗ਼ ਜ਼ ਫ਼ ਲ਼ as one character or two; NFC writes them as two, as the pack does.
+    if language == "pa":
         return unicodedata.normalize("NFC", form)
     if language == "fa":
         return frequency_persian.persian_fold(form)
@@ -4630,7 +4643,7 @@ def load_dictionary(language):
                 else:
                     AZERBAIJANI_OWN.add(word_lc)
         # Hindi's postpositions (का, को, से, ने) are its prepositions, and Mongolian's (тухай, хооронд, төлөө).
-        if language in ("hi", "mn", "kk", "ur") and p == "postp":
+        if language in ("hi", "mn", "kk", "ur", "pa") and p == "postp":
             p = "prep"
         # And Basque's (ondoren, aurka, gabe).
         if language == "eu" and p == "postp":
@@ -5747,6 +5760,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             del freq[w]
     if language == "ur":
         for w in [w for w in freq if not frequency_urdu.LETTERS.fullmatch(w)]:
+            del freq[w]
+    if language == "pa":
+        # Punjabi words in Gurmukhi letters alone: its Shahmukhi, English and digits are no words of the list.
+        for w in [w for w in freq if not PUNJABI_LETTERS.fullmatch(w)]:
             del freq[w]
     label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
     if language == "kk":
@@ -7144,6 +7161,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         breton_relink()
     if language == "hi":
         hindi_relink()
+    if language == "pa":
+        overrides = {**overrides, **frequency_punjabi.relink(freq, pos, lemmas, is_word, count, overrides, excluded, DICTIONARIES)}
 
     def armenian_relink():
         """
