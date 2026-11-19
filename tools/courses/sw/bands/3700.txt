@@ -25,76 +25,76 @@
 25	3625	uoto	uoto
 26	3626	oktoba	oktoba
 27	3627	mnyanyasaji	mnyanyasaji wanyanyasaji
-28	3628	lamba	kulamba lamba wakilamba nililamba walambe kulambwa kuyalamba mwalambe kuwalamba hulamba kumlamba wamelamba akalamba akiilamba akilamba alambe alilamba alipowalamba anamlamba ikalambwa ikilamba iliilamba kumlambisha lambwa walitulamba wameshalamba
-29	3629	usindikaji	usindikaji
-30	3630	kiraka	kiraka viraka
-31	3631	urusi	urusi
-32	3632	ufunuo	ufunuo
-33	3633	dhihaka	dhihaka
-34	3634	peperuka	peperuka yanapeperuka alipeperuka imepeperuka itapeperuka nipeperuke usipeperuke yanayopeperuka yatapeperuka zinapeperuka vinavyopeperuka kupeperuka
-35	3635	besi	besi
-36	3636	chanja	kuchanja chanja kuchanjwa waliochanjwa wachanjwe kuwachanja wakichanjwa amechanjwa inachanjwa iliyochanjwa walichanjwa akachanjwa akichanja huchanjwa kujichanja kumchanja wanaochanja wanaochanjwa wanavyochanja wasimchanje yachanja
-37	3637	piramidi	piramidi
-38	3638	kitanzi	kitanzi vitanzi kitanzini
-39	3639	tukia	inatukia ikitukia kutukia hutukia tukia ulitukia yaliyotukia alimtukia likatukia yametukia lililotukia limetukia umetukia yanatukia yanayotukia haukutukia hayajatukia kimeshatukia linalotukia yalitukia zinavyotukia
-40	3640	kidude	kidude
-41	3641	rehani	rehani
-42	3642	metaboli	metaboli
-43	3643	protoni	protoni
-44	3644	mswaki	mswaki miswaki
-45	3645	tikiti	tikiti matikiti
-46	3646	kachero	kachero makachero
-47	3647	tangamana	tangamana kutangamana ametangamana tutangamane wanatangamana hutangamana inayotangamana wametangamana kimetangamana umetangamana vimetangamana vitatangamana yanapotangamana walitangamana waliotangamana wasiotangamana wasitangamane
-48	3648	petali	petali
-49	3649	epa	epa kuepa chepe inaepa kuepwa kuviepa linaliepa waepe yaepwe amepa kiepe kumwepa kuyaepa mwepe waepa
-50	3650	tohara	tohara toharani
-51	3651	upele	upele pele
-52	3652	netiboli	netiboli
-53	3653	kabambe	kabambe
-54	3654	anguko	anguko
-55	3655	lainisha	kulainisha kumlainisha patalainishwa kuwalainisha inalainishwa kulainishwa atalainisha hulainisha likalainishwa uliolainishwa walilainisha iliyolainishwa vinavyolainisha kuzilainisha akilainisha ameshalainisha awalainisha imelainishwa lainisha vilivyolainishwa zimelainishwa
-56	3656	timamu	timamu
-57	3657	jahanamu	jahanamu
-58	3658	kielezo	kielezo vielezo
-59	3659	mjenzi	wajenzi mjenzi
-60	3660	hawara	hawara mahawara
-61	3661	mwavuli	mwavuli mwamvuli miavuli
-62	3662	jiografia	jiografia jografia
-63	3663	mzingo	mzingo mizingo
-64	3664	halaiki	halaiki
-65	3665	nanga	nanga
-66	3666	utovu	utovu
-67	3667	simo	simoni simo usimoni msimo
-68	3668	uenyekiti	uenyekiti
-69	3669	upinde	upinde pinde
-70	3670	mwenge	mwenge mienge
-71	3671	seneta	seneta maseneta
-72	3672	mhadhara	mihadhara mhadhara
-73	3673	mwanaharamu	mwanaharamu wanaharamu
-74	3674	kampaundi	kampaundi
-75	3675	harimuni	harimuni
-76	3676	kojoa	kojoa kukojoa akojoe nikojoe anakojoa angekojoa atakojoa hukojoa hukojoi unakojoa wakikojoa
-77	3677	mchuuzi	wachuuzi mchuuzi
-78	3678	matini	matini
-79	3679	kesha	kukesha kesha ulikesha akakesha wakakesha wanakesha hukeshwa anakesha walikesha anavyokesha kesheni nimekesha wakikesha wamekesha akeshaye alikesha aliyokesha anayekesha atakesha hukesha kuikeshea kuwakeshea nikeshe tukikesha tunakesha tungekesha tutakesha ukeshe unamkeshea walivyokesha wanaokesha wanaokeshea wangekesha
-80	3680	msambazaji	wasambazaji msambazaji
-81	3681	mteremko	mteremko miteremko
-82	3682	msiri	msiri wasiri
-83	3683	kipindupindu	kipindupindu
-84	3684	konga	mkonge kukonga konga mikonge alikonga kongwa ikonge konge kujikonga akikonga imekonga kukongwa zilizokonga alivyokonga anayekonga hakukonga inakonga kuwakonga kuzikonga ukonge umekonga umezikonga watakonga zilikonga zinakonga zitakazokonga
-85	3685	kwelikweli	kwelikweli
-86	3686	breki	breki
-87	3687	saili	kusaili alisaili amesaili hunisaili kunisaili kusailiwa alisailiwa asaili inasaili tunasaili wasaili kumsaili anasaili wakasailiwa akusailiwa kujisaili kuusaili msaili saili tulivyosaili ulisaili unayosailiwa waliosailiwa walisailiwa
-88	3688	kidari	kidari kidarini
-89	3689	kufuru	kufuru kukufuru anakufuru mkufuru kumkufuru amekufuru wanaokufuru
-90	3690	posti	posti aliposti kuposti akiposti ukiposti zilipostiwa
-91	3691	fukua	fukua kufukua kilichofukuliwa kuufukua tulipoifukua umefukuliwa wanafukua kufukuliwa ifukuliwe kulifukua iliyofukuliwa lililofukuliwa waliofukua zilifukuliwa aliyefukua aliyofukua haikufukua ifukue ilifukuliwa imefukuliwa kilifukuliwa kuwafukua ufukuliwe ukifukua vinapofukua wafukua wakafukua wakifukua walifukua wamefukua wanayafukua wasifukue yakifukuliwa yaliyofukuliwa yamfukua yatafukuliwa
-92	3692	methali	methali
-93	3693	minajili	minajili
-94	3694	feleji	feleji
-95	3695	nung'unika	nung'unika kunung'unika wanaonung'unika wakinung'unika wananung'unika akinung'unika hatunung'uniki mnanung'unika ukinung'unika
-96	3696	mulika	imemulikwa kumulika imulike umulikavyo kumulikwa ikimulika imulikwe ilimulika uliomulikwa yakimulika mulika analimulika kuwamulika limulikalo alimulikwa amulike humulika inamulika inamulikwa itamulika kuimulika kukumulika kummulika kunimulika laimulika ukimulika unamulika vinanimulika wakajimulika wamulike wamulikwe yakimulikwa yalimulika yanamulika yanapomulikwa ziimulike zikiwamulika zimulikwe zinazoimulika zinazomulika
-97	3697	filimbi	filimbi firimbi
-98	3698	nong'ona	nong'ona ananong'ona kunong'oneza unanong'ona walinong'oneza wananong'oneza zikinong'oneza alinong'oneza angemnong'oneza hawamnong'onezi kunong'ona kuwanong'oneza wakinong'ona akinong'ona atamnong'oneza inayomnong'oneza kumnong'oneza mnong'oneze nikunong'oneze nilinong'oneza ukimnong'oneza wakinong'oneza walinong'ona wanamnong'oneza
-99	3699	gramu	gramu
-100	3700	kiwakilishi	kiwakilishi viwakilishi
+28	3628	angua	angua kuangua kuanguliwa kukwangua aliangua akiangua anguliwa hayataanguliwa hujiangua wakuanguliwa akaangua imeanguliwa kujiangua anaangua niliangua waangue wakiangua aangue ameangua huangua huanguliwa hukwangua iliangua inayotukwangua kwangua waangua waliangua wangue yakiangua yaliyokwanguliwa yanapoanguliwa yataanguliwa ziliangua zimeangua zimekwanguliwa zinazokwanguliwa zisikwanguliwe
+29	3629	lamba	kulamba lamba wakilamba nililamba walambe kulambwa kuyalamba mwalambe kuwalamba hulamba kumlamba wamelamba akalamba akiilamba akilamba alambe alilamba alipowalamba anamlamba ikalambwa ikilamba iliilamba kumlambisha lambwa walitulamba wameshalamba
+30	3630	usindikaji	usindikaji
+31	3631	kiraka	kiraka viraka
+32	3632	urusi	urusi
+33	3633	ufunuo	ufunuo
+34	3634	dhihaka	dhihaka
+35	3635	peperuka	peperuka yanapeperuka alipeperuka imepeperuka itapeperuka nipeperuke usipeperuke yanayopeperuka yatapeperuka zinapeperuka vinavyopeperuka kupeperuka
+36	3636	besi	besi
+37	3637	chanja	kuchanja chanja kuchanjwa waliochanjwa wachanjwe kuwachanja wakichanjwa amechanjwa inachanjwa iliyochanjwa walichanjwa akachanjwa akichanja huchanjwa kujichanja kumchanja wanaochanja wanaochanjwa wanavyochanja wasimchanje yachanja
+38	3638	piramidi	piramidi
+39	3639	kitanzi	kitanzi vitanzi kitanzini
+40	3640	tukia	inatukia ikitukia kutukia hutukia tukia ulitukia yaliyotukia alimtukia likatukia yametukia lililotukia limetukia umetukia yanatukia yanayotukia haukutukia hayajatukia kimeshatukia linalotukia yalitukia zinavyotukia
+41	3641	kidude	kidude
+42	3642	rehani	rehani
+43	3643	metaboli	metaboli
+44	3644	protoni	protoni
+45	3645	mswaki	mswaki miswaki
+46	3646	tikiti	tikiti matikiti
+47	3647	kachero	kachero makachero
+48	3648	tangamana	tangamana kutangamana ametangamana tutangamane wanatangamana hutangamana inayotangamana wametangamana kimetangamana umetangamana vimetangamana vitatangamana yanapotangamana walitangamana waliotangamana wasiotangamana wasitangamane
+49	3649	petali	petali
+50	3650	epa	epa kuepa chepe inaepa kuepwa kuviepa linaliepa waepe yaepwe amepa kiepe kumwepa kuyaepa mwepe waepa
+51	3651	tohara	tohara toharani
+52	3652	upele	upele pele
+53	3653	netiboli	netiboli
+54	3654	kabambe	kabambe
+55	3655	anguko	anguko
+56	3656	lainisha	kulainisha kumlainisha patalainishwa kuwalainisha inalainishwa kulainishwa atalainisha hulainisha likalainishwa uliolainishwa walilainisha iliyolainishwa vinavyolainisha kuzilainisha akilainisha ameshalainisha awalainisha imelainishwa lainisha vilivyolainishwa zimelainishwa
+57	3657	timamu	timamu
+58	3658	jahanamu	jahanamu
+59	3659	kielezo	kielezo vielezo
+60	3660	mjenzi	wajenzi mjenzi
+61	3661	hawara	hawara mahawara
+62	3662	mwavuli	mwavuli mwamvuli miavuli
+63	3663	jiografia	jiografia jografia
+64	3664	mzingo	mzingo mizingo
+65	3665	halaiki	halaiki
+66	3666	nanga	nanga
+67	3667	utovu	utovu
+68	3668	simo	simoni simo usimoni msimo
+69	3669	uenyekiti	uenyekiti
+70	3670	upinde	upinde pinde
+71	3671	mwenge	mwenge mienge
+72	3672	seneta	seneta maseneta
+73	3673	mhadhara	mihadhara mhadhara
+74	3674	mwanaharamu	mwanaharamu wanaharamu
+75	3675	kampaundi	kampaundi
+76	3676	harimuni	harimuni
+77	3677	kojoa	kojoa kukojoa akojoe nikojoe anakojoa angekojoa atakojoa hukojoa hukojoi unakojoa wakikojoa
+78	3678	mchuuzi	wachuuzi mchuuzi
+79	3679	matini	matini
+80	3680	kesha	kukesha kesha ulikesha akakesha wakakesha wanakesha hukeshwa anakesha walikesha anavyokesha kesheni nimekesha wakikesha wamekesha akeshaye alikesha aliyokesha anayekesha atakesha hukesha kuikeshea kuwakeshea nikeshe tukikesha tunakesha tungekesha tutakesha ukeshe unamkeshea walivyokesha wanaokesha wanaokeshea wangekesha
+81	3681	msambazaji	wasambazaji msambazaji
+82	3682	mteremko	mteremko miteremko
+83	3683	msiri	msiri wasiri
+84	3684	kipindupindu	kipindupindu
+85	3685	konga	mkonge kukonga konga mikonge alikonga kongwa ikonge konge kujikonga akikonga imekonga kukongwa zilizokonga alivyokonga anayekonga hakukonga inakonga kuwakonga kuzikonga ukonge umekonga umezikonga watakonga zilikonga zinakonga zitakazokonga
+86	3686	kwelikweli	kwelikweli
+87	3687	breki	breki
+88	3688	saili	kusaili alisaili amesaili hunisaili kunisaili kusailiwa alisailiwa asaili inasaili tunasaili wasaili kumsaili anasaili wakasailiwa akusailiwa kujisaili kuusaili msaili saili tulivyosaili ulisaili unayosailiwa waliosailiwa walisailiwa
+89	3689	kidari	kidari kidarini
+90	3690	kufuru	kufuru kukufuru anakufuru mkufuru kumkufuru amekufuru wanaokufuru
+91	3691	posti	posti aliposti kuposti akiposti ukiposti zilipostiwa
+92	3692	fukua	fukua kufukua kilichofukuliwa kuufukua tulipoifukua umefukuliwa wanafukua kufukuliwa ifukuliwe kulifukua iliyofukuliwa lililofukuliwa waliofukua zilifukuliwa aliyefukua aliyofukua haikufukua ifukue ilifukuliwa imefukuliwa kilifukuliwa kuwafukua ufukuliwe ukifukua vinapofukua wafukua wakafukua wakifukua walifukua wamefukua wanayafukua wasifukue yakifukuliwa yaliyofukuliwa yamfukua yatafukuliwa
+93	3693	methali	methali
+94	3694	minajili	minajili
+95	3695	feleji	feleji
+96	3696	nung'unika	nung'unika kunung'unika wanaonung'unika wakinung'unika wananung'unika akinung'unika hatunung'uniki mnanung'unika ukinung'unika
+97	3697	mulika	imemulikwa kumulika imulike umulikavyo kumulikwa ikimulika imulikwe ilimulika uliomulikwa yakimulika mulika analimulika kuwamulika limulikalo alimulikwa amulike humulika inamulika inamulikwa itamulika kuimulika kukumulika kummulika kunimulika laimulika ukimulika unamulika vinanimulika wakajimulika wamulike wamulikwe yakimulikwa yalimulika yanamulika yanapomulikwa ziimulike zikiwamulika zimulikwe zinazoimulika zinazomulika
+98	3698	filimbi	filimbi firimbi
+99	3699	nong'ona	nong'ona ananong'ona kunong'oneza unanong'ona walinong'oneza wananong'oneza zikinong'oneza alinong'oneza angemnong'oneza hawamnong'onezi kunong'ona kuwanong'oneza wakinong'ona akinong'ona atamnong'oneza inayomnong'oneza kumnong'oneza mnong'oneze nikunong'oneze nilinong'oneza ukimnong'oneza wakinong'oneza walinong'ona wanamnong'oneza
+100	3700	gramu	gramu

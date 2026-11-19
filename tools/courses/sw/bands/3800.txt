@@ -1,100 +1,100 @@
-1	3701	laiti	laiti
-2	3702	mnajimu	mnajimu wanajimu
-3	3703	ushirikina	ushirikina
-4	3704	golikipa	golikipa magolikipa
-5	3705	winga	winga mawinga mwinge
-6	3706	liturjia	liturjia liturujia
-7	3707	mafao	mafao
-8	3708	kadhia	kadhia
-9	3709	mahafali	mahafali
-10	3710	rubuni	kuwarubuni kurubuniwa kurubuni rubuni walirubuniwa aliyemrubuni wakirubuniwa wakiwarubuni linarubuni huwarubuni mrubuni nisingerubuniwa waliorubuniwa alimrubuni anamrubuni anayemrubuni hurubuni kumrubuni kutokurubuniwa linarubuniwa wamerubuniwa wanarubuni wanavyorubuniwa
-11	3711	amana	amana
-12	3712	serotonini	serotonini
-13	3713	shela	shela
-14	3714	mche	miche mche mcheni
-15	3715	changamano	changamano
-16	3716	jidai	jidai kujidai anayejidai tulijidai wakijidai akijidai wanajidai wanaojidai waliojidai tunajidai unajidai alijidai anajidai hatujajidai hujidai hutajidai tusijidai wajidai walijidai wamejidai
-17	3717	uhalisi	uhalisi
-18	3718	miwani	miwani
-19	3719	kitunguu	kitunguu vitunguu
-20	3720	mwanahisabati	mwanahisabati wanahisabati
-21	3721	ogani	ogani
-22	3722	amriwa	kuamriwa mlivyoamriwa aliamriwa iliamriwa waliamriwa ilivyoamriwa zilizoamriwa walipoamriwa aamriwe kilichoamriwa wameamriwa lililoamriwa ilizoamriwa imeamriwa itakapoamriwa aamriwa akaamriwa alivyoamriwa amriwa anachoamriwa ataamriwa haijaamriwa haitaamriwa ilipoamriwa iliyoamriwa inaamriwa itakayoamriwa liamriwe litakaloamriwa naamriwa niliamriwa nilipoamriwa uliamriwa walioamriwa yaliyoamriwa yanaamriwa ziliamriwa zimeamriwa
-23	3723	roketi	roketi
-24	3724	zumari	zumari
-25	3725	karantini	karantini
-26	3726	kimondo	kimondo vimondo
-27	3727	menejimenti	menejimenti
-28	3728	uwanda	uwanda uwandani
-29	3729	ukiukaji	ukiukaji
-30	3730	chokaa	chokaa
-31	3731	oka	kuoka kuokwa zikioka iliyooka oka ilioka waliooka huokwa alichomoka okwe woke zitakazomwoka anachomoka kinachomoka naokwa vinavyookwa walioka wanachomoka wanaokwa waoka zinazookwa zoke
-32	3732	karata	karata
-33	3733	uji	uji
-34	3734	changamka	kuchangamka changamka unachangamka tuchangamke umechangamka huchangamka uliochangamka waliochangamka imechangamka yaliyochangamka hajachangamka achangamke alichangamka ikichangamka ilichangamka iliyochangamka kilichangamka kutochangamka lilichangamka limechangamka wakachangamka walichangamka yachangamka zilizochangamka
-35	3735	sakramenti	sakramenti
-36	3736	kidiplomasia	kidiplomasia
-37	3737	unyofu	unyofu unyoofu
-38	3738	upandaji	upandaji
-39	3739	pembetatu	pembetatu
-40	3740	tangawizi	tangawizi
-41	3741	dadu	dadu
-42	3742	raga	raga
-43	3743	kijusi	kijusi vijusi
-44	3744	diriki	diriki kudiriki nilidiriki waliodiriki hudiriki wanadiriki alidiriki wamediriki walidiriki nadiriki anadiriki ninadiriki tunadiriki wakidiriki amediriki wanaodiriki hakudiriki anayediriki inadiriki akidiriki hadiriki imediriki tukadiriki tumediriki vilidiriki watakaodiriki zimediriki
-45	3745	ghafi	ghafi
-46	3746	uzuiaji	uzuiaji
-47	3747	shenzi	kishenzi shenzi
-48	3748	kurupuka	kukurupuka nilikurupuka wanakurupuka anakurupuka akakurupuka ilikurupuka wanaokurupuka alikurupuka hukurupuka amekurupuka hakukurupuka hawajakurupuka kutokurupuka sikukurupuka tusikurupuke walikurupuka atakurupuka haijakurupuka haikukurupuka haikurupuki hakurupuki hatujakurupuka hatutakurupuka hawakukurupuka isikurupuke kurupuka kutokukurupuka msikurupuke tumekurupuka tutakurupuka ukikurupuka wamekurupuka
-49	3749	holela	holela
-50	3750	soksi	soksi
-51	3751	soda	soda
-52	3752	medani	medani
-53	3753	hekaya	hekaya
-54	3754	kitropiki	kitropiki
-55	3755	fuma	fuma kufuma afume alifuma hulifuma hufumwa akifuma hufuma kufumwa alifumwa havijafumwa iliyofuma vifumwavyo vilivyofumwa wafuma akafuma kuifuma tukalifuma alipofuma alipoifuma huifuma kilichofuma kilichofumwa ulichofuma vinavyofumwa
-56	3756	septemba	septemba
-57	3757	tangatanga	tangatanga kutangatanga anayetangatanga akitangatanga usitangatange alitangatanga wakitangatanga wanatangatanga wakatangatanga wanaotangatanga
-58	3758	hodhi	kuhodhi kuhodhiwa hodhi wamehodhi amehodhi ikahodhi inahodhi imehodhiwa kuihodhi wakihodhi wanahodhi alihodhi anahodhi hayatahodhi iliyohodhi inayohodhiwa kimehodhi kulihodhi kuuhodhi likihodhiwa linapohodhi uliovihodhi walihodhi wamekihodhi wanaohodhi wanawahodhi
-59	3759	shaha	shaha
-60	3760	albino	albino maalbino
-61	3761	mabano	mabano
-62	3762	ramia	ramia
-63	3763	stakabadhi	stakabadhi
-64	3764	peni	peni mapeni
-65	3765	tarumbeta	tarumbeta matarumbeta
-66	3766	gauni	gauni magauni
-67	3767	chokoleti	chokoleti
-68	3768	nguchiro	nguchiro
-69	3769	mchujo	mchujo michujo
-70	3770	pelekewa	pelekewa kupelekewa anachopelekewa yanapelekewa apelekewe hajapelekewa unaopelekewa wamepelekewa alipelekewa anapelekewa ipelekewe amepelekewa wakipelekewa walizopelekewa wanapelekewa wanazopelekewa wapelekewe alipopelekewa aliyopelekewa ameshapelekewa anazopelekewa hazitapelekewa inapelekewa itapelekewa tunayopelekewa utapelekewa vinapelekewa vitapelekewa walipelekewa walipopelekewa wanaopelekewa wanapopelekewa wasipelekewe zikipelekewa zilipelekewa zilizopelekewa zimeshapelekewa
-71	3771	chapwa	kuchapwa chapwa
-72	3772	koroma	kukoroma anakoroma yakikoroma unakoroma koroma anamkoromea hukoroma watakoroma amkoromea anapokoroma kuikoromea kuwakoromea
-73	3773	mwanauchumi	wanauchumi mwanauchumi
-74	3774	kijiko	kijiko vijiko
-75	3775	mchunguzi	wachunguzi mchunguzi
-76	3776	salimini	salimini
-77	3777	taarab	taarab taarabu
-78	3778	ghadhabu	ghadhabu
-79	3779	tayarishia	tayarishia kujitayarishia watayarishie nitayarishie nimemtayarishia nitakutayarishia umemtayarishia amtayarishie kutayarishia kumtayarishia kuwatayarishia alimtayarishia
-80	3780	jenereta	jenereta majenereta
-81	3781	mapishi	mapishi
-82	3782	maskani	maskani
-83	3783	upara	upara
-84	3784	hakikisho	hakikisho
-85	3785	tengua	tengua kutengua kutenguliwa itengue ametengua alitengua ulitenguliwa ikatengua akitengua ilitenguliwa iliyotengua imetengua ukatenguliwa umetenguliwa aliotengua alipotengua aliyetengua aliyetenguliwa angetengua atengua atengue hakijatenguliwa ikitengua ilitengua imetenguliwa itenguliwe kulitengua lilitenguliwa limetengua litatengua litengue nilitengua tunatengua ukitenguliwa uliotenguliwa ungetenguliwa walimtengua walitenguliwa wametengua watenguliwa yalipotenguliwa yatenguliwe
-86	3786	utayari	utayari
-87	3787	stashahada	stashahada
-88	3788	uvivu	uvivu
-89	3789	kasumba	kasumba
-90	3790	kifundo	kifundo vifundo
-91	3791	tandiko	matandiko tandiko
-92	3792	mzoga	mizoga mzoga
-93	3793	ndoo	ndoo
-94	3794	gogo	magogo gogo magogoni
-95	3795	karanga	karanga
-96	3796	uwasilishaji	uwasilishaji
-97	3797	mkabala	mkabala
-98	3798	mwewe	mwewe
-99	3799	angua	angua kuangua kuanguliwa aliangua akiangua anguliwa hayataanguliwa hujiangua wakuanguliwa akaangua imeanguliwa kujiangua anaangua niliangua waangue wakiangua aangue ameangua huangua huanguliwa hukwangua iliangua inayotukwangua kwangua waangua waliangua wangue yakiangua yaliyokwanguliwa yanapoanguliwa yataanguliwa ziliangua zimeangua zimekwanguliwa zinazokwanguliwa
+1	3701	kiwakilishi	kiwakilishi viwakilishi
+2	3702	laiti	laiti
+3	3703	mnajimu	mnajimu wanajimu
+4	3704	ushirikina	ushirikina
+5	3705	golikipa	golikipa magolikipa
+6	3706	winga	winga mawinga mwinge
+7	3707	liturjia	liturjia liturujia
+8	3708	mafao	mafao
+9	3709	kadhia	kadhia
+10	3710	mahafali	mahafali
+11	3711	rubuni	kuwarubuni kurubuniwa kurubuni rubuni walirubuniwa aliyemrubuni wakirubuniwa wakiwarubuni linarubuni huwarubuni mrubuni nisingerubuniwa waliorubuniwa alimrubuni anamrubuni anayemrubuni hurubuni kumrubuni kutokurubuniwa linarubuniwa wamerubuniwa wanarubuni wanavyorubuniwa
+12	3712	amana	amana
+13	3713	serotonini	serotonini
+14	3714	shela	shela
+15	3715	mche	miche mche mcheni
+16	3716	changamano	changamano
+17	3717	jidai	jidai kujidai anayejidai tulijidai wakijidai akijidai wanajidai wanaojidai waliojidai tunajidai unajidai alijidai anajidai hatujajidai hujidai hutajidai tusijidai wajidai walijidai wamejidai
+18	3718	uhalisi	uhalisi
+19	3719	miwani	miwani
+20	3720	kitunguu	kitunguu vitunguu
+21	3721	mwanahisabati	mwanahisabati wanahisabati
+22	3722	ogani	ogani
+23	3723	amriwa	kuamriwa mlivyoamriwa aliamriwa iliamriwa waliamriwa ilivyoamriwa zilizoamriwa walipoamriwa aamriwe kilichoamriwa wameamriwa lililoamriwa ilizoamriwa imeamriwa itakapoamriwa aamriwa akaamriwa alivyoamriwa amriwa anachoamriwa ataamriwa haijaamriwa haitaamriwa ilipoamriwa iliyoamriwa inaamriwa itakayoamriwa liamriwe litakaloamriwa naamriwa niliamriwa nilipoamriwa uliamriwa walioamriwa yaliyoamriwa yanaamriwa ziliamriwa zimeamriwa
+24	3724	roketi	roketi
+25	3725	zumari	zumari
+26	3726	karantini	karantini
+27	3727	kimondo	kimondo vimondo
+28	3728	menejimenti	menejimenti
+29	3729	uwanda	uwanda uwandani
+30	3730	ukiukaji	ukiukaji
+31	3731	chokaa	chokaa
+32	3732	oka	kuoka kuokwa zikioka iliyooka oka ilioka waliooka huokwa alichomoka okwe woke zitakazomwoka anachomoka kinachomoka naokwa vinavyookwa walioka wanachomoka wanaokwa waoka zinazookwa zoke
+33	3733	karata	karata
+34	3734	uji	uji
+35	3735	changamka	kuchangamka changamka unachangamka tuchangamke umechangamka huchangamka uliochangamka waliochangamka imechangamka yaliyochangamka hajachangamka achangamke alichangamka ikichangamka ilichangamka iliyochangamka kilichangamka kutochangamka lilichangamka limechangamka wakachangamka walichangamka yachangamka zilizochangamka
+36	3736	sakramenti	sakramenti
+37	3737	kidiplomasia	kidiplomasia
+38	3738	unyofu	unyofu unyoofu
+39	3739	upandaji	upandaji
+40	3740	pembetatu	pembetatu
+41	3741	tangawizi	tangawizi
+42	3742	dadu	dadu
+43	3743	raga	raga
+44	3744	kijusi	kijusi vijusi
+45	3745	diriki	diriki kudiriki nilidiriki waliodiriki hudiriki wanadiriki alidiriki wamediriki walidiriki nadiriki anadiriki ninadiriki tunadiriki wakidiriki amediriki wanaodiriki hakudiriki anayediriki inadiriki akidiriki hadiriki imediriki tukadiriki tumediriki vilidiriki watakaodiriki zimediriki
+46	3746	ghafi	ghafi
+47	3747	uzuiaji	uzuiaji
+48	3748	shenzi	kishenzi shenzi
+49	3749	kurupuka	kukurupuka nilikurupuka wanakurupuka anakurupuka akakurupuka ilikurupuka wanaokurupuka alikurupuka hukurupuka amekurupuka hakukurupuka hawajakurupuka kutokurupuka sikukurupuka tusikurupuke walikurupuka atakurupuka haijakurupuka haikukurupuka haikurupuki hakurupuki hatujakurupuka hatutakurupuka hawakukurupuka isikurupuke kurupuka kutokukurupuka msikurupuke tumekurupuka tutakurupuka ukikurupuka wamekurupuka
+50	3750	holela	holela
+51	3751	soksi	soksi
+52	3752	soda	soda
+53	3753	medani	medani
+54	3754	hekaya	hekaya
+55	3755	kitropiki	kitropiki
+56	3756	fuma	fuma kufuma afume alifuma hulifuma hufumwa akifuma hufuma kufumwa alifumwa havijafumwa iliyofuma vifumwavyo vilivyofumwa wafuma akafuma kuifuma tukalifuma alipofuma alipoifuma huifuma kilichofuma kilichofumwa ulichofuma vinavyofumwa
+57	3757	septemba	septemba
+58	3758	tangatanga	tangatanga kutangatanga anayetangatanga akitangatanga usitangatange alitangatanga wakitangatanga wanatangatanga wakatangatanga wanaotangatanga
+59	3759	hodhi	kuhodhi kuhodhiwa hodhi wamehodhi amehodhi ikahodhi inahodhi imehodhiwa kuihodhi wakihodhi wanahodhi alihodhi anahodhi hayatahodhi iliyohodhi inayohodhiwa kimehodhi kulihodhi kuuhodhi likihodhiwa linapohodhi uliovihodhi walihodhi wamekihodhi wanaohodhi wanawahodhi
+60	3760	shaha	shaha
+61	3761	albino	albino maalbino
+62	3762	mabano	mabano
+63	3763	ramia	ramia
+64	3764	stakabadhi	stakabadhi
+65	3765	peni	peni mapeni
+66	3766	tarumbeta	tarumbeta matarumbeta
+67	3767	gauni	gauni magauni
+68	3768	chokoleti	chokoleti
+69	3769	nguchiro	nguchiro
+70	3770	mchujo	mchujo michujo
+71	3771	pelekewa	pelekewa kupelekewa anachopelekewa yanapelekewa apelekewe hajapelekewa unaopelekewa wamepelekewa alipelekewa anapelekewa ipelekewe amepelekewa wakipelekewa walizopelekewa wanapelekewa wanazopelekewa wapelekewe alipopelekewa aliyopelekewa ameshapelekewa anazopelekewa hazitapelekewa inapelekewa itapelekewa tunayopelekewa utapelekewa vinapelekewa vitapelekewa walipelekewa walipopelekewa wanaopelekewa wanapopelekewa wasipelekewe zikipelekewa zilipelekewa zilizopelekewa zimeshapelekewa
+72	3772	chapwa	kuchapwa chapwa
+73	3773	koroma	kukoroma anakoroma yakikoroma unakoroma koroma anamkoromea hukoroma watakoroma amkoromea anapokoroma kuikoromea kuwakoromea
+74	3774	mwanauchumi	wanauchumi mwanauchumi
+75	3775	kijiko	kijiko vijiko
+76	3776	mchunguzi	wachunguzi mchunguzi
+77	3777	salimini	salimini
+78	3778	taarab	taarab taarabu
+79	3779	ghadhabu	ghadhabu
+80	3780	tayarishia	tayarishia kujitayarishia watayarishie nitayarishie nimemtayarishia nitakutayarishia umemtayarishia amtayarishie kutayarishia kumtayarishia kuwatayarishia alimtayarishia
+81	3781	jenereta	jenereta majenereta
+82	3782	mapishi	mapishi
+83	3783	maskani	maskani
+84	3784	upara	upara
+85	3785	hakikisho	hakikisho
+86	3786	tengua	tengua kutengua kutenguliwa itengue ametengua alitengua ulitenguliwa ikatengua akitengua ilitenguliwa iliyotengua imetengua ukatenguliwa umetenguliwa aliotengua alipotengua aliyetengua aliyetenguliwa angetengua atengua atengue hakijatenguliwa ikitengua ilitengua imetenguliwa itenguliwe kulitengua lilitenguliwa limetengua litatengua litengue nilitengua tunatengua ukitenguliwa uliotenguliwa ungetenguliwa walimtengua walitenguliwa wametengua watenguliwa yalipotenguliwa yatenguliwe
+87	3787	utayari	utayari
+88	3788	stashahada	stashahada
+89	3789	uvivu	uvivu
+90	3790	kasumba	kasumba
+91	3791	kifundo	kifundo vifundo
+92	3792	tandiko	matandiko tandiko
+93	3793	mzoga	mizoga mzoga
+94	3794	ndoo	ndoo
+95	3795	gogo	magogo gogo magogoni
+96	3796	karanga	karanga
+97	3797	uwasilishaji	uwasilishaji
+98	3798	mkabala	mkabala
+99	3799	mwewe	mwewe
 100	3800	imamu	imamu maimamu imam

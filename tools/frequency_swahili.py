@@ -62,7 +62,7 @@ NEGATIVE_TENSES = ["ku", "ta", "ja", "nge", "ngali"]
 # The relative markers, after na, li, taka (the future's ta before them) and si.
 RELATIVES = ["ye", "o", "yo", "lo", "cho", "vyo", "zo", "ko", "po", "mo"]
 RELATIVE_TENSES = ["na", "li", "taka", "si"]
-OBJECTS = ["", "ni", "ku", "m", "mu", "mw", "tu", "wa", "ki", "vi", "li", "ya", "i", "zi", "u", "pa", "ji"]
+OBJECTS = ["", "ni", "ku", "kw", "m", "mu", "mw", "tu", "wa", "ki", "vi", "li", "ya", "i", "zi", "u", "pa", "ji"]
 # The gnomic tense, its a merged into the subject (nasoma, twasoma, chafaa).
 GNOMIC = ["na", "wa", "a", "twa", "mwa", "cha", "vya", "ya", "za", "la", "kwa", "pa"]
 
