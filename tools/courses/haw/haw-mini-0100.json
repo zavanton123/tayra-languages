@@ -45,13 +45,16 @@
         "ua",
         "me",
         "he",
+        "i",
+        "ia",
+        "kekahi",
+        "ko",
         "hale",
         "hou",
         "nui",
         "noho",
         "aia",
-        "kahiko",
-        "lāua"
+        "hele"
       ],
       "text": "He hale hou ko Keola a me Leilani. Aia ka hale hou ma Kailua. He hale nui ia.\n\nMa mua, ua noho ʻo Keola a me Leilani ma Honolulu. Ua noho lāua ma kekahi hale kahiko. He hale kahiko ia, a ʻaʻole he hale nui.\n\nUa hele ʻo Keola a me Leilani i Kailua. Ua hele pū lāua me ko lāua ʻīlio. ʻĀnō, noho lāua ma ka hale hou. Nui ka hale hou. Hou nā mea a pau.\n\nNoho ʻo Keola a me Leilani ma Kailua. Aia ko lāua hale hou ma kahi kokoke i ke kai.\n\nNā nīnau:\nAia ka hale hou ma hea?\nAia ka hale hou ma Kailua.\nMa hea i noho ai ʻo Keola a me Leilani ma mua?\nUa noho lāua ma Honolulu, ma kekahi hale kahiko.\nHe hale nui ka hale hou?\nʻAe, he hale nui ka hale hou."
     },
@@ -60,9 +63,6 @@
       "summary": "Malia and Kawika have a baby and name him after a famous man of old.",
       "newWords": [
         "o",
-        "i",
-        "ia",
-        "kekahi",
         "lā",
         "hānau",
         "ʻia",
@@ -70,7 +70,11 @@
         "kapa",
         "manaʻo",
         "wahine",
-        "wahi"
+        "wahi",
+        "lāua",
+        "makahiki",
+        "kanaka",
+        "kaulana"
       ],
       "text": "He wahine ʻo Malia. Noho ʻo ia ma Waimea me Kawika. I kekahi lā, ua hānau ʻia kekahi keiki na lāua.\n\n\"He aha ka inoa o ke keiki?\" wahi a Kawika.\n\nUa manaʻo ʻo Malia. Ua manaʻo ʻo Kawika. Ua manaʻo lāua no ka inoa i kekahi mau lā.\n\n\"ʻO Kekoa,\" wahi a Malia. \"ʻO Kekoa ka inoa o kekahi kanaka kaulana o ka wā kahiko.\"\n\nUa like ko lāua manaʻo. Ua kapa ʻia ke keiki ʻo Kekoa. Ua kapa ʻia ʻo ia ma ka inoa o ke kanaka kaulana. Ua hānau ʻia ʻo Kekoa i ka lā mua o ka makahiki. Noho ka wahine a me ke keiki hou ma ka hale ma Waimea.\n\nNā nīnau:\nHe aha ka inoa o ke keiki?\nʻO Kekoa ka inoa o ke keiki.\nNoho ʻo Malia ma hea?\nNoho ʻo Malia ma Waimea me Kawika.\nUa hānau ʻia ʻo Kekoa i ka lā hea?\nUa hānau ʻia ʻo ia i ka lā mua o ka makahiki."
     },
@@ -86,7 +90,9 @@
         "kona",
         "e",
         "no",
-        "puke"
+        "puke",
+        "hope",
+        "ʻōlelo"
       ],
       "text": "Hele ʻo Kainoa i ke kula ma Kailua. ʻO Noelani kona kumu. He kumu kaulana ʻo ia ma ke kula.\n\nI kekahi lā, ʻōlelo ke kumu e kākau ka papa i kekahi moʻolelo no ko lākou hale.\n\nKākau ʻo Kainoa i kāna moʻolelo no kona hale hou. Kākau ʻo ia ma ka ʻōlelo Hawaiʻi, ma kāna puke. He hale nui kona hale. Aia kona hale ma Kailua, ma hope o ke kula.\n\nMa hope, ʻike ke kumu i ka moʻolelo a Kainoa. \"He moʻolelo maikaʻi kēia,\" wahi a ke kumu. Hoʻi ʻo Kainoa i ka hale me kāna puke e hōʻike i kāna moʻolelo i kona makuahine.\n\nNā nīnau:\nʻO wai ke kumu o Kainoa?\nʻO Noelani kona kumu.\nUa kākau ʻo Kainoa no ke aha?\nUa kākau ʻo ia no kona hale hou.\nAia kona hale ma hea?\nAia kona hale ma Kailua, ma hope o ke kula."
     },
@@ -104,7 +110,9 @@
         "lākou",
         "hoʻomaka",
         "ʻike",
-        "mea"
+        "mea",
+        "mai",
+        "iā"
       ],
       "text": "He mea nui ka mele iā Haunani. I kekahi mau lā, hele mai nā kānaka i ka hale o Haunani. He nui loa nā kānaka. Mele pū lākou a pau.\n\nHoʻomaka ʻo Haunani i ka mele mua. He mau mele kahiko kēia. Mele lākou e like me ka wā kahiko. ʻIke nā kānaka kahiko i nā mele a pau, akā ʻaʻole i ʻike nā keiki i kekahi mau mele. Hiki i nā keiki ke aʻo i nā mele mai nā kānaka kahiko mai. Hiki iā Haunani ke mele i nā mele a pau.\n\nMa hope o ka mele, hoʻomaka lākou e pāʻani i kekahi pāʻani. Like ka manaʻo o lākou a pau: he mea maikaʻi loa ka mele pū ʻana.\n\nNā nīnau:\nHele mai lākou i ka hale o wai?\nHele mai lākou i ka hale o Haunani.\nʻIke nā keiki i nā mele a pau?\nʻAʻole, ʻaʻole i ʻike nā keiki i kekahi mau mele.\nHe aha kā lākou hana ma hope o ka mele?\nPāʻani lākou i kekahi pāʻani."
     },
@@ -118,10 +126,13 @@
         "kōkua",
         "kahi",
         "mua",
-        "hope",
         "manawa",
         "wā",
-        "kiʻi"
+        "kiʻi",
+        "kahiko",
+        "kēia",
+        "hōʻike",
+        "hana"
       ],
       "text": "He ʻāina ko Kapono ma Waimea. He kahi nui ia. I ka wā kahiko, ua mālama ka ʻohana o Kapono i kēia ʻāina. ʻO Kapono ke kupuna o Kalani.\n\nI kekahi manawa, hele ʻo Kalani i ka ʻāina me Kapono. Aʻo ʻo Kapono iā Kalani i ka mālama ʻana i ka ʻāina. \"E mālama i ka ʻāina, a e mālama ka ʻāina iā ʻoe,\" wahi a Kapono.\n\nMa mua, kōkua ʻo Kalani iā Kapono i ka hana. He nui ka hana, akā kōkua ʻo ia. Ma hope o ka hana, noho lāua ma kahi o ka hale kahiko. Hōʻike ʻo Kapono i kekahi mau kiʻi kahiko o ka ʻāina. Ma kēia mau kiʻi, ʻike ʻo Kalani i ka ʻāina i ka wā mua.\n\nHe manawa nui kēia no Kalani.\n\nNā nīnau:\nʻO wai ke kumu e aʻo ana iā Kalani?\nʻO Kapono, kona kupuna.\nAia ka ʻāina ma hea?\nAia ka ʻāina ma Waimea.\nHe aha kā Kapono i hōʻike ai ma hope o ka hana?\nUa hōʻike ʻo ia i kekahi mau kiʻi kahiko o ka ʻāina."
     },
@@ -130,15 +141,13 @@
       "summary": "Leilani and her mother go to Honolulu to shop and hear a concert.",
       "newWords": [
         "kūlanakauhale",
-        "hele",
-        "mai",
         "aku",
         "kūʻai",
         "nei",
-        "kēia",
         "ʻana",
         "akā",
-        "loko"
+        "loko",
+        "ai"
       ],
       "text": "Noho ʻo Leilani ma Lāʻie. I kēia lā, hele ʻo ia i ke kūlanakauhale me kona makuahine. Hele lāua i Honolulu.\n\nHe kūlanakauhale nui ʻo Honolulu. I loko o kekahi hale kūʻai nui, kūʻai ʻo Leilani i kekahi puke hou. Kūʻai kona makuahine i kekahi mau mea hou. Ma hope o ke kūʻai ʻana, hele aku lāua i kekahi hōʻike mele.\n\nUa hele mai nā kānaka he nui i ka hōʻike, akā ua loaʻa iā lāua kahi e noho ai. I loko o ka hale, ke mele nei kekahi poʻe kaulana. Ke mele pū nei nā kānaka a pau me lākou. \"He hōʻike nui kēia!\" wahi a Leilani.\n\nI ka hope, hoʻi mai lāua i Lāʻie. He kūlanakauhale maikaʻi ʻo Honolulu, akā ʻo Lāʻie ko Leilani wahi.\n\nNā nīnau:\nHele ʻo Leilani i hea i kēia lā?\nHele ʻo ia i Honolulu, i ke kūlanakauhale.\nHe aha kā Leilani i kūʻai ai?\nUa kūʻai ʻo ia i kekahi puke hou.\nMa hope o ke kūʻai ʻana, hele aku lāua i hea?\nHele aku lāua i kekahi hōʻike mele."
     },
@@ -146,14 +155,9 @@
       "title": "Ka lā hānau o Keoni",
       "summary": "Keoni turns ten; his family meets at his house and he gets a new songbook.",
       "newWords": [
-        "makahiki",
         "loaʻa",
-        "hōʻike",
         "ʻano",
         "ʻole",
-        "ko",
-        "iā",
-        "ai",
         "ana",
         "hui"
       ],
@@ -177,7 +181,6 @@
       "summary": "Teacher Kealoha is chosen to lead his school, and his wife Puanani helps him.",
       "newWords": [
         "ʻoihana",
-        "hana",
         "hoʻohana",
         "alakaʻi",
         "lilo",
@@ -195,10 +198,7 @@
       "newWords": [
         "hoʻokumu",
         "aupuni",
-        "ʻōlelo",
-        "kanaka",
         "poʻe",
-        "kaulana",
         "honua"
       ],
       "text": "Hele ʻo Kahiau i kekahi kula ʻōlelo Hawaiʻi ma Kāneʻohe. Ma kēia kula, ʻōlelo nā kumu a me nā keiki ma ka ʻōlelo Hawaiʻi.\n\nI kekahi lā, ua kākau ʻo Kahiau i kekahi moʻolelo no kona kula. I ka wā kahiko, ua ʻōlelo nā kānaka a pau ma ka ʻōlelo Hawaiʻi. Ma hope, ua lilo ke aupuni i ka poʻe ʻē, a ua hoʻohana ke aupuni i ka ʻōlelo Pelekānia ma nā kula.\n\nI ka makahiki 1987, ua hoʻokumu kekahi poʻe i nā kula ʻōlelo Hawaiʻi mua. ʻAʻole i kōkua ke aupuni ma mua, akā ua hoʻokumu lākou i nā kula.\n\nʻĀnō, ua kaulana kēia mau kula ma ka honua. Hele mai ka poʻe o ka honua e ʻike. Ua kaulana kona kula.\n\nNā nīnau:\nHele ʻo Kahiau i ke kula hea?\nHele ʻo ia i kekahi kula ʻōlelo Hawaiʻi ma Kāneʻohe.\nNa wai i hoʻokumu i nā kula ʻōlelo Hawaiʻi mua?\nNa kekahi poʻe i hoʻokumu i nā kula mua.\nI ka wā kahiko, ua ʻōlelo nā kānaka ma ka ʻōlelo hea?\nUa ʻōlelo lākou ma ka ʻōlelo Hawaiʻi."
