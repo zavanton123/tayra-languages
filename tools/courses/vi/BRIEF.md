@@ -4,7 +4,7 @@ Each course teaches one band of 100 words from the Vietnamese frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its other spellings). Course `vi-mini-0300` teaches
 ranks 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the
 band's words, so the course covers the band. `themes.tsv` gives each course its theme. The list has
-5,579 words, so the last course is `vi-mini-5600` (ranks 5501–5579).
+5,788 words, so the last course is `vi-mini-5800` (ranks 5701–5788).
 
 ## Words are syllables
 
@@ -22,8 +22,8 @@ The list counts the same units, and so does the checker: a "word" in this brief,
   *tự nhiên*, *khả năng*. The lesson uses that compound naturally, at least twice, and the gloss
   you give for the syllable is its meaning in that compound ("thể: in *có thể*, can, be able").
   Choose the compound a learner meets most; do not chase rare compounds to reach two uses.
-- The other syllable of such a compound may be outside the course's range (*đình* is rank 374 when
-  *gia* is taught at 197): it counts as an outside word for coverage, so pick compounds whose
+- The other syllable of such a compound may be outside the course's range (*đình* is rank 385 when
+  *gia* is taught at 133): it counts as an outside word for coverage, so pick compounds whose
   other half is already known or in the band where you can.
 - **No word through another sense**: *thành* is "to become" (*trở thành*) and "city wall"; *thành
   phố* is a city. Teach a free syllable through its own sense, not only through a compound where it
@@ -86,7 +86,7 @@ lesson never needs another lesson to make sense.
     context;
   - ranks 3001–4000: everything before, in a more literary, descriptive style: the newspaper
     column (*tản văn*, a light reflection on everyday life), precise adjectives and clear images;
-  - ranks 4001–5600 (C1): more abstract and nuanced content: a short essay that weighs two sides,
+  - ranks 4001–5788 (C1): more abstract and nuanced content: a short essay that weighs two sides,
     an interview, a portrait, a review; precise vocabulary for feelings, ideas and processes;
     long sentences that stay easy to parse.
   After rank 1000 sentences get longer and joined, dialogue can carry more of the story, and a
@@ -214,12 +214,13 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, 
 Things to know about the Vietnamese list:
 
 - The courses are pinned to `tools/courses/vi/wordlist.tsv` (a copy of the app's `vi.tsv`), and
-  the bands come from it. It is counted from film and TV subtitles (OpenSubtitles), so talk ranks
-  high, and so do the words of action films (*giết* 146, *chết* 98, *súng* 359): use them in
+  the bands come from it. It is counted mostly from film and TV subtitles (OpenSubtitles, 70%) with news and
+  web text (Leipzig, 30%), so talk ranks high, and so do the words of action films (*giết* 218,
+  *chết* 134, *súng* 571): use them in
   ordinary senses or skip them.
 - Some entries are English words written like Vietnamese syllables, counted high by the English
-  in subtitles: *i* 248, *the*, *in*, *so*, *can*, *to*, *may*, *a*, *u*, *bang*. Most are also
-  Vietnamese words (*to* big, *in* to print, *can* to intervene, *may* lucky, *bang* state);
-  teach those in their Vietnamese sense only if they fit, and skip *i* and *the*.
+  in subtitles: *in*, *so*, *can*, *to*, *may*, *a*, *u*, *bang* (*i* and *the* are left out).
+  All are also Vietnamese words (*to* big, *in* to print, *can* to intervene, *may* lucky, *bang*
+  state): teach them in their Vietnamese sense only if they fit.
 - Syllables the dictionary has only as parts of names are in the list too (*quốc*, *hoàng*,
   *nguyễn*): teach *quốc* through *quốc gia* or *quốc tế*, skip a pure family name.
