@@ -1,0 +1,52 @@
+# id	rankUpTo	level	topic (English)	title (Lao)
+lo-mini-0100	100	A1	Home and family	ເຮືອນ ແລະ ຄອບຄົວ
+lo-mini-0200	200	A1	Everyday life	ຊີວິດປະຈຳວັນ
+lo-mini-0300	300	A1	Food and shopping	ອາຫານ ແລະ ການຊື້ເຄື່ອງ
+lo-mini-0400	400	A2	In the city	ໃນເມືອງ
+lo-mini-0500	500	A2	School and work	ໂຮງຮຽນ ແລະ ບ່ອນເຮັດວຽກ
+lo-mini-0600	600	A2	Free time and hobbies	ເວລາວ່າງ ແລະ ວຽກອະດິເລກ
+lo-mini-0700	700	A2	Health and the body	ສຸຂະພາບ ແລະ ຮ່າງກາຍ
+lo-mini-0800	800	A2	Travel and holidays	ການເດີນທາງ ແລະ ວັນພັກ
+lo-mini-0900	900	A2	Nature and the seasons	ທຳມະຊາດ ແລະ ລະດູການ
+lo-mini-1000	1000	A2	Birthdays, parties and friends	ວັນເກີດ ງານລ້ຽງ ແລະ ໝູ່ເພື່ອນ
+lo-mini-1100	1100	B1	Living and housing	ທີ່ຢູ່ອາໄສ
+lo-mini-1200	1200	B1	Memories	ຄວາມຊົງຈຳ
+lo-mini-1300	1300	B1	Jobs and training	ອາຊີບ ແລະ ການຝຶກງານ
+lo-mini-1400	1400	B1	Getting around	ການໄປມາ
+lo-mini-1500	1500	B1	Money and shopping	ເງິນ ແລະ ການຈ່າຍຕະຫຼາດ
+lo-mini-1600	1600	B1	Experiencing culture	ວັດທະນະທຳ
+lo-mini-1700	1700	B1	Sport and exercise	ກິລາ ແລະ ການອອກກຳລັງກາຍ
+lo-mini-1800	1800	B1	The environment in daily life	ສິ່ງແວດລ້ອມໃນຊີວິດປະຈຳວັນ
+lo-mini-1900	1900	B1	Letters, messages and media	ຈົດໝາຍ ຂໍ້ຄວາມ ແລະ ສື່
+lo-mini-2000	2000	B1	Neighbourhood	ບ້ານໃກ້ເຮືອນຄຽງ
+lo-mini-2100	2100	B2	Cooking and food	ການແຕ່ງອາຫານ
+lo-mini-2200	2200	B2	Body and mind	ກາຍ ແລະ ໃຈ
+lo-mini-2300	2300	B2	The world of work	ໂລກຂອງການເຮັດວຽກ
+lo-mini-2400	2400	B2	Science and technology	ວິທະຍາສາດ ແລະ ເຕັກໂນໂລຊີ
+lo-mini-2500	2500	B2	History you can touch	ປະຫວັດສາດທີ່ຈັບຕ້ອງໄດ້
+lo-mini-2600	2600	B2	Travelling in Laos	ທ່ຽວລາວ
+lo-mini-2700	2700	B2	Generations	ຄົນແຕ່ລະລຸ້ນ
+lo-mini-2800	2800	B2	Music	ດົນຕີ
+lo-mini-2900	2900	B2	Society and living together	ສັງຄົມ ແລະ ການຢູ່ຮ່ວມກັນ
+lo-mini-3000	3000	B2	Small columns	ບົດຄວາມສັ້ນ
+lo-mini-3100	3100	B2	Home and decoration	ເຮືອນ ແລະ ການຕົກແຕ່ງ
+lo-mini-3200	3200	B2	Fashion and clothes	ແຟຊັນ ແລະ ເຄື່ອງນຸ່ງ
+lo-mini-3300	3300	B2	The great outdoors	ກາງແຈ້ງ
+lo-mini-3400	3400	B2	Traditional crafts	ຫັດຖະກຳພື້ນເມືອງ
+lo-mini-3500	3500	B2	Technology and society	ເຕັກໂນໂລຊີ ແລະ ສັງຄົມ
+lo-mini-3600	3600	B2	Rivers and the Mekong	ແມ່ນ້ຳ ແລະ ແມ່ນ້ຳຂອງ
+lo-mini-3700	3700	B2	Books and language	ປຶ້ມ ແລະ ພາສາ
+lo-mini-3800	3800	B2	Everyday economics	ເສດຖະກິດໃນຊີວິດປະຈຳວັນ
+lo-mini-3900	3900	B2	Village life	ຊີວິດໃນບ້ານນອກ
+lo-mini-4000	4000	B2	City life columns	ຊີວິດໃນເມືອງ
+lo-mini-4100	4100	C1	Body and mind in daily life	ກາຍ ແລະ ໃຈໃນແຕ່ລະວັນ
+lo-mini-4200	4200	C1	Architecture and heritage	ສະຖາປັດຕະຍະກຳ ແລະ ມໍລະດົກ
+lo-mini-4300	4300	C1	Climate and energy	ດິນຟ້າອາກາດ ແລະ ພະລັງງານ
+lo-mini-4400	4400	C1	Everyday paperwork	ເອກະສານໃນຊີວິດປະຈຳວັນ
+lo-mini-4500	4500	C1	Film and television	ຮູບເງົາ ແລະ ໂທລະພາບ
+lo-mini-4600	4600	C1	Research and discovery	ການຄົ້ນຄວ້າ ແລະ ການຄົ້ນພົບ
+lo-mini-4700	4700	C1	Living far from home	ຊີວິດໄກບ້ານ
+lo-mini-4800	4800	C1	The mind in daily life	ຈິດໃຈໃນຊີວິດປະຈຳວັນ
+lo-mini-4900	4900	C1	Sport and society	ກິລາ ແລະ ສັງຄົມ
+lo-mini-5000	5000	C1	Short essays	ບົດຂຽນສັ້ນ
+lo-mini-5100	5100	C1	Archaeology and the past	ໂບຮານຄະດີ ແລະ ອະດີດ
