@@ -233,7 +233,7 @@ def fold(code, word):
         return word.replace("’", "'").replace("ʼ", "'").replace("‘", "'")
     # And the Breton, whose c'h is a letter (c'hoazh, lec'h) and whose short words are written onto the next (d'ar, n'eo).
     if code == "br":
-        return word.replace("’", "'").replace("ʼ", "'")
+        return word.replace("’", "'").replace("‘", "'")
     # Persian words are matched as the reader matches them: ک and ی for ك and ي, no marks, no non-joiner.
     if code == "fa":
         return frequency_persian.bare(frequency_persian.persian_fold(word))
@@ -2346,10 +2346,12 @@ def manx_tokens(text):
 
 
 # Breton writes c'h as a letter (c'hoazh, merc'h) and a short word onto the next with an apostrophe (d'ar, n'eo, m'en,
-# p'edo; ma'z, pa'z), which the reader keeps whole: the two count as the two words they are. The reader cuts at hyphens
-# (e-barzh is e + barzh), and so does the checker. A word the list lacks counts as the word or name it mutates (vreudeur is
-# breudeur, Vrest is Brest, c'hoarvez is goarvez), the commonest where it could be several.
-BRETON_WORD = re.compile(r"[^\W\d_]+(?:'[^\W\d_]+)*", re.UNICODE)
+# p'edo; ma'z, pa'z), which the reader keeps whole: the two count as the two words they are. The reader takes ’ and ‘ for
+# the apostrophe, not the modifier letter ʼ, which here makes an unknown word. A word joined by a hyphen (e-barzh, a-raok,
+# war-lerc'h) counts whole where the list has it whole, as Welsh and Gaelic do, else as its parts. A word the list lacks
+# counts as the word or name it mutates (vreudeur is breudeur, Vrest is Brest, c'hoarvez is goarvez), the commonest where
+# it could be several.
+BRETON_WORD = re.compile(r"[^\W\d_]+(?:['-][^\W\d_]+)*", re.UNICODE)
 BRETON_ELIDED = {"d": "da", "n": "ne", "m": "ma", "p": "pa"}
 BRETON_ELIDED_EZ = {"ma'z": "ma", "pa'z": "pa", "ne'z": "ne"}
 # The initial mutations, as (written, radical): soft, spirant, hard and mixed.
@@ -2386,12 +2388,19 @@ def breton_part(word, ranks, names):
 def breton_tokens(text, ranks, names=frozenset()):
     ranks = ranks or {}
     out = []
-    text = text.replace("’", "'").replace("ʼ", "'")
+    text = text.replace("’", "'").replace("‘", "'")
     for match in BRETON_WORD.finditer(text):
         # The letters after an ordinal's digits belong to the number (2vet, 1añ).
         if match.start() > 0 and text[match.start() - 1].isdigit():
             continue
-        out.extend(breton_part(match.group(0), ranks, names))
+        word = match.group(0)
+        whole = breton_word(word, ranks, names) if "-" in word else None
+        if whole is not None and (whole in ranks or whole in names):
+            out.append(whole)
+            continue
+        for part in word.split("-"):
+            if part:
+                out.extend(breton_part(part, ranks, names))
     return out
 
 
