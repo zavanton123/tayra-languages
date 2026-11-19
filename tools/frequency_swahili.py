@@ -8,9 +8,9 @@ read here as the pack's form (dictionaries/sw-en.sqlite, from the English Wiktio
 a verb with its markers (verb_lemmas), or a noun with the locative -ni (nyumbani, sokoni); a word of the lexicon keeps its
 own count, and a form of several words is shared by how common each is by the forms of no other.
 
-Counted from three kinds of text: film subtitles (OPUS OpenSubtitles), news (Leipzig's news corpora and Global Voices) and
-Leipzig's Wikipedia sentences, each the share of the blend WEIGHTS gives. A capitalised word inside a sentence is a name
-and not counted.
+Counted from three kinds of text: film subtitles and talks (OPUS OpenSubtitles, TED2020), news (Leipzig's news and community
+corpora and Global Voices) and Leipzig's Wikipedia sentences, each the share of the blend WEIGHTS gives. A capitalised word
+inside a sentence is a name and not counted.
 """
 import functools
 import gzip
@@ -25,9 +25,9 @@ from collections import defaultdict
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DICTIONARIES = os.path.join(ROOT, "dictionaries")
 
-LEIPZIG_NEWS = ["swa_news_2020_30K", "swa_newscrawl_2011_10K"]
+LEIPZIG_NEWS = ["swa_news_2020_30K", "swa_newscrawl_2011_10K", "swa_community_2017"]
 LEIPZIG_WIKIPEDIA = ["swa_wikipedia_2021_100K"]
-OPUS = {"subtitles": ("OpenSubtitles", "v2024"), "news": ("GlobalVoices", "v2018q4")}
+OPUS = [("subtitles", "OpenSubtitles", "v2024"), ("subtitles", "TED2020", "v1"), ("news", "GlobalVoices", "v2018q4")]
 # Subtitles bring the everyday words (nakupenda, njoo, asante), news the written language's, Wikipedia its rarer words; it
 # is kept small, as much of it is bots' pages on villages and species (kata, wilaya, spishi).
 WEIGHTS = {"subtitles": 0.45, "news": 0.35, "wikipedia": 0.2}
@@ -35,6 +35,7 @@ LICENCES = {
     "leipzig": "terms at https://wortschatz.uni-leipzig.de/en/download",
     "OpenSubtitles": "terms at https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles",
     "GlobalVoices": "CC BY 3.0",
+    "TED2020": "CC BY-NC-ND 4.0",
 }
 
 # As the reader's wordCharacters (a-zA-Z'-, with ´ ` ’ ‘ read as '), cut at hyphens: ng'ombe is one word.
@@ -56,7 +57,7 @@ SUBJECTS = ["ni", "u", "a", "tu", "m", "mu", "wa", "i", "li", "ya", "ki", "vi", 
 SUBJECTS_BEFORE_VOWEL = ["n", "w", "tw", "mw", "y", "l", "ch", "vy", "z", "kw"]
 NEGATIVE_SUBJECTS = ["si", "hu", "ha", "hatu", "ham", "hamu", "hawa", "hau", "hai", "hali", "haya", "haki", "havi", "hazi",
                      "haku", "hapa", "hayu"]
-TENSES = ["na", "li", "ta", "me", "ki", "ka", "nge", "ngali", "ngeli", "singe", "singali"]
+TENSES = ["na", "li", "ta", "me", "mesha", "ki", "ka", "nge", "ngali", "ngeli", "singe", "singali"]
 NEGATIVE_TENSES = ["ku", "ta", "ja", "nge", "ngali"]
 # The relative markers, after na, li, taka (the future's ta before them) and si.
 RELATIVES = ["ye", "o", "yo", "lo", "cho", "vyo", "zo", "ko", "po", "mo"]
@@ -72,7 +73,23 @@ SWAHILI_FORMS = {
     "kuwa": "wa",
     # "Is not", the negative of ni, a word of its own as ni is.
     "si": "si",
+    # "I have", "he has", "it has", far more than nina "mother", ana (of ana kwa ana) and ina "truly".
+    "nina": "wa na",
+    "ana": "wa na",
+    "ina": "wa na",
+    # "While you are" far more than ukiwa "loneliness"; siwe "I am not", wa's as its other persons are (usiwe, asiwe).
+    "ukiwa": "wa",
+    "siwe": "wa",
+    # The pack has it as lewa's ("not be drunk"); it is toa's passive ("be given out, released").
+    "kutolewa": "toa",
+    # "Due to" (kutokana na), the infinitive of tokana, toka's; not kana's with the negative kuto.
+    "kutokana": "toka",
 }
+# The relative of the place copulas wapo, wako, wamo, when no word of its own (kilimo is "farming"): alipo "where he is",
+# tulikomo "where we are inside".
+RELATIVE_COPULAS = {s + "li" + r: "wa" + r for s in SUBJECTS for r in ("po", "ko", "mo")}
+# An entry that is only a verb with an object marker: kupa "to give to you", kuita "to call you".
+CONCORD_FORM = re.compile(r"object concord\) with \w+ of -([a-z]+)")
 # Words that are no words of an ordinary text: Wikipedia's, letters, abbreviations.
 SWAHILI_EXCLUDED = set()
 
@@ -81,7 +98,7 @@ def _verb_prefixes():
     """Every run of markers a verb may have in front, by the ending it takes: a (indicative), e (subjunctive), i (negative
     present), r (a general relative: asomaye) and n (the plural imperative: someni, nisaidieni)."""
     out = defaultdict(set)
-    ku = ["", "ku"]  # one-syllable verbs keep their infinitive's ku (anakula, alikuja)
+    ku = ["", "ku", "kw"]  # one-syllable verbs keep their infinitive's ku (anakula, alikuja), enda and isha its kw (alikwenda)
     for o in OBJECTS:
         for k in ku:
             for start in ("ku", "kw", "kuto", "hu", ""):
@@ -113,6 +130,18 @@ def _verb_prefixes():
 
 VERB_PREFIXES = _verb_prefixes()
 LONGEST_PREFIX = max(map(len, VERB_PREFIXES))
+
+
+def passives(stem):
+    """[stem]'s passives (pendwa, funguliwa, tolewa, pewa, liwa, fikiriwa)."""
+    vowels = "aeiou"
+    if not stem.endswith("a"):
+        return {stem + "wa", stem[:-1] + "iwa"} if len(stem) > 2 else set()
+    if sum(c in vowels for c in stem) == 1:
+        return {stem[:-1] + "ewa", stem[:-1] + "iwa"}
+    if stem[-2] in vowels:
+        return {stem[:-1] + "liwa", stem[:-1] + "lewa", stem + "wa"}
+    return {stem[:-1] + "wa"}
 
 
 def verb_tails(stem):
@@ -158,8 +187,14 @@ class Lexicon:
         db = sqlite3.connect(os.path.join(dictionaries, "sw-en.sqlite"))
         self.kinds = defaultdict(set)
         declinable, invariable = set(), set()
+        concord_forms = defaultdict(set)
         for word, pos, senses in db.execute("SELECT word_lc, pos, senses FROM entries"):
             if pos in NOT_WORDS or not re.fullmatch(r"[a-z]+(?:'[a-z]+)*(?: na)?", word):
+                continue
+            glosses = [g for s in json.loads(senses) for g in s.get("glosses", [])]
+            bases = {m.group(1) for g in glosses if (m := CONCORD_FORM.search(g))}
+            if glosses and len(bases) == 1 and all(CONCORD_FORM.search(g) for g in glosses):
+                concord_forms[word] |= bases
                 continue
             self.kinds[word].add(pos)
             tags = {t for s in json.loads(senses) for t in s.get("tags", [])}
@@ -169,6 +204,9 @@ class Lexicon:
         for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
             if lemma in self.kinds and form != lemma and re.fullmatch(r"[a-z]+(?:'[a-z]+)*", form):
                 self.forms[form].add(lemma)
+        for word, bases in concord_forms.items():
+            if word not in self.kinds:
+                self.forms[word] |= {b for b in bases if b in self.kinds}
         derived = self._derived(dictionaries)
         freedict = self._freedict(dictionaries)
         for word, pos in freedict.items():
@@ -179,7 +217,8 @@ class Lexicon:
                 self.forms.pop(word, None)
         for word, kind in SWAHILI_WORDS.items():
             self.kinds[word].add(kind)
-        self.verbs = {w for w, ks in self.kinds.items() if "verb" in ks and " " not in w}
+        # ni and si, the copula and its negative, take no markers; siwe's forms are wa's.
+        self.verbs = {w for w, ks in self.kinds.items() if "verb" in ks and " " not in w and w not in ("ni", "si", "siwe")}
         # The stems a verb's forms are made on: its own, and those of the verbs made from it that are no words of their own.
         self.stems = defaultdict(set)
         for verb in self.verbs:
@@ -190,6 +229,11 @@ class Lexicon:
                     base = derived[base]
                 if base in self.verbs:
                     self.stems[word].add(base)
+        # A passive no word of its own is its verb's (kulimwa: lima).
+        for verb in self.verbs:
+            for passive in passives(verb):
+                if passive not in self.kinds and passive not in self.stems:
+                    self.stems[passive].add(verb)
         self.tails = defaultdict(set)
         for stem, verbs in self.stems.items():
             for tail, ending in verb_tails(stem):
@@ -242,7 +286,8 @@ class Lexicon:
 
     @functools.lru_cache(maxsize=None)
     def verb_lemmas(self, token):
-        """The verbs [token] is a form of by its markers (alinipenda: penda; hawaji: ja; kitakachofanyika: fanya)."""
+        """The verbs [token] is a form of by its markers (alinipenda: penda; hawaji: ja; kitakachofanyika: fanya), those of the
+        longest stem only: alichomwa is choma's (a-li-chomwa), not wa's (a-li-cho-m-wa)."""
         out = set()
         for i in range(0, min(len(token), LONGEST_PREFIX) + 1):
             endings = VERB_PREFIXES.get(token[:i])
@@ -251,6 +296,8 @@ class Lexicon:
             for verb, ending in self.tails.get(token[i:], ()):
                 if ending in endings:
                     out.add(verb)
+            if out:
+                break
         return frozenset(out)
 
     def takes_over(self, token):
@@ -260,8 +307,8 @@ class Lexicon:
 
     @functools.lru_cache(maxsize=None)
     def lemmas(self, token):
-        """The words [token] is a form of: itself when it is a word, else the pack's words, else those of the adjective rules,
-        the verb rules, or a noun's with the locative -ni."""
+        """The words [token] is a form of: itself when it is a word, else the pack's words, a noun's with the locative -ni, or
+        those of the adjective and verb rules."""
         if token in SWAHILI_FORMS:
             return frozenset(SWAHILI_FORMS[token].split(","))
         if token in SWAHILI_EXCLUDED:
@@ -270,11 +317,14 @@ class Lexicon:
             return frozenset({token})
         if token in self.forms:
             return frozenset(self.forms[token])
-        found = self.adjective_forms.get(token, set()) | self.verb_lemmas(token)
-        if not found and token.endswith("ni") and len(token) > 4:
+        if token in RELATIVE_COPULAS:
+            return frozenset({RELATIVE_COPULAS[token]})
+        if token.endswith("ni") and len(token) > 4:
             base = token[:-2]
             found = {base} if base in self.nouns else {w for w in self.forms.get(base, ()) if w in self.nouns}
-        return frozenset(found)
+            if found:
+                return frozenset(found)
+        return frozenset(self.adjective_forms.get(token, set()) | self.verb_lemmas(token))
 
 
 def _tokens(line):
@@ -317,7 +367,7 @@ def _counts(download):
                     seen.add(key)
                 for word in _tokens(sentence):
                     counts[kind][word] += 1
-    for kind, (corpus, version) in OPUS.items():
+    for kind, corpus, version in OPUS:
         name = f"opus-{corpus.lower()}-{version}-sw.txt.gz"
         path = download(f"https://object.pouta.csc.fi/OPUS-{corpus}/{version}/mono/sw.txt.gz", name)
         if path is None:
@@ -334,7 +384,7 @@ def label_of(used):
     parts = []
     if used.get("leipzig"):
         parts.append(f"Leipzig Corpora Collection {', '.join(used['leipzig'])} ({LICENCES['leipzig']})")
-    for corpus in ("OpenSubtitles", "GlobalVoices"):
+    for corpus in ("OpenSubtitles", "TED2020", "GlobalVoices"):
         if used.get(corpus):
             parts.append(f"OPUS {corpus} {', '.join(used[corpus])} sw ({LICENCES[corpus]})")
     return " + ".join(parts)
@@ -360,11 +410,12 @@ def build(size, download, dictionaries=DICTIONARIES):
     for form, value in share.items():
         if len(heads[form]) == 1 and not lexicon.takes_over(form):
             own[next(iter(heads[form]))] += value
-    # A verb that is also a form of a commoner word than itself is that word's (kuna of wa na).
+    # A verb that is also a form of a commoner word than itself is that word's (kuna of wa na), unless the text uses it as a
+    # verb with forms of its own as well (acha: kuacha, aliacha; lala: kulala).
     for form in share:
         if lexicon.takes_over(form):
             others = lexicon.forms[form] - {form}
-            if max(own.get(w, 0.0) for w in others) > share[form]:
+            if max(own.get(w, 0.0) for w in others) > share[form] and own.get(form, 0.0) < share[form]:
                 heads[form] = frozenset(others)
     scores = defaultdict(float)
     totals = defaultdict(int)
