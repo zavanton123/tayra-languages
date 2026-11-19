@@ -283,20 +283,23 @@ def clean_bengali(word):
     return word
 
 
-def bengali_translation_entries(kept):
+def bengali_translation_entries(kept, code="bn", clean=None, word_re=None):
     """
     The Bengali words the English Wiktionary's translation tables give that its Bengali entries lack (নেতা "leader", ঘন্টা
-    "hour"), by part of speech, each glossed with the English words it translates: word -> pos -> glosses.
+    "hour"), by part of speech, each glossed with the English words it translates: word -> pos -> glosses. With [code],
+    [clean] and [word_re], another language's (Tamil's).
     """
+    clean = clean or clean_bengali
+    word_re = word_re or BENGALI_WORD_RE
     entries = defaultdict(lambda: defaultdict(list))
     with open_text(SOURCES["en"][2]) as f:
         for line in f:
-            if '"code": "bn"' not in line:
+            if f'"code": "{code}"' not in line:
                 continue
             d = json.loads(line)
             for t in d.get("translations", []):
-                word = clean_bengali(t.get("word", "")) if t.get("code") == "bn" else ""
-                if not word or word in kept or not BENGALI_WORD_RE.match(word):
+                word = clean(t.get("word", "")) if t.get("code") == code else ""
+                if not word or word in kept or not word_re.match(word):
                     continue
                 gloss = d["word"] + (f" ({t['sense']})" if t.get("sense") else "")
                 if gloss not in entries[word][d.get("pos") or "unknown"]:
@@ -785,9 +788,11 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 flush()
     flush()
     label = f"English Wiktionary {SOURCES[source][0]} entries via kaikki.org"
-    if source == "bn":
+    if source in ("bn", "ta"):
         kept = {w for (w,) in db.execute("SELECT word FROM entries")}
-        for word, by_pos in sorted(bengali_translation_entries(kept).items()):
+        translated = (bengali_translation_entries(kept) if source == "bn"
+                      else bengali_translation_entries(kept, "ta", clean_tamil, TAMIL_WORD_RE))
+        for word, by_pos in sorted(translated.items()):
             for pos, glosses in sorted(by_pos.items()):
                 senses = [{"glosses": [g]} for g in glosses]
                 entry_rows.append((next_id, word, lowercase(word, source), pos, None, json.dumps(senses, ensure_ascii=False, separators=(",", ":"))))
