@@ -443,20 +443,20 @@ _khmer = {}
 def khmer_spans(text):
     """
     The Khmer words of [text] as the reader cuts them (KhmerParser) with the km-en pack installed, with where each starts and
-    ends: each run of letters into the longest words of the shipped list's words and forms and the pack's, never inside a
-    syllable, a consonant alone no word, letters no word covers one word together, subscript ដ matched as ត. ។ ៕ ៖ ៗ, the
-    digits and anything not Khmer are no words.
+    ends: each run of letters into its likeliest words, by the shipped list's ranks (not the courses' pinned one's), among the
+    list's words and forms and the pack's, never inside a syllable, a consonant alone no word, letters no word covers one word
+    together, subscript ដ matched as ត. ។ ៕ ៖ ៗ, the digits and anything not Khmer are no words.
     """
     if not _khmer:
         import sqlite3
         import build_frequency_list as fl
-        words, _ = fl.list_ranks(open(os.path.join(LISTS, "km.tsv"), encoding="utf-8").read())
+        words, ranks = fl.list_ranks(open(os.path.join(LISTS, "km.tsv"), encoding="utf-8").read())
         path = os.path.join(ROOT, "dictionaries", "km-en.sqlite")
         if not os.path.exists(path):
             sys.exit(f"Khmer courses need the km-en pack at {path}")
         db = sqlite3.connect(path)
         pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms")}
-        _khmer.update(run=fl.KHMER_RUN, fold=fl.khmer_fold, segment=fl.segmenter("km", {w for w in words | pack if w and " " not in w}))
+        _khmer.update(run=fl.KHMER_RUN, fold=fl.khmer_fold, segment=fl.segmenter("km", {w for w in words | pack if w and " " not in w}, ranks))
     out = []
     for match in _khmer["run"].finditer(text):
         run, at = match.group(0), match.start()

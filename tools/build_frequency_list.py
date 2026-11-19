@@ -5000,10 +5000,15 @@ def segmenter(language, words=None, ranks=None):
     can_break = thai_break if language == "th" else lao_break if language == "lo" else khmer_break if language == "km" else lambda run, at: True
     is_word = (lambda word: thai_word(word, words)) if language == "th" else (lambda word: lao_word(word, words)) if language == "lo" else words.__contains__
     if language == "km":
-        # Khmer is cut folded (khmer_fold), the runs as the lexicon.
+        # Khmer is cut folded (khmer_fold), the runs as the lexicon, and a spelling takes its commonest word's rank.
         words = {khmer_fold(w) for w in words}
         is_word = lambda word: khmer_word(word, words)
         longest = min(16, max((len(w) for w in words), default=1))
+        if ranks is not None:
+            folded = {}
+            for word, rank in ranks.items():
+                folded[khmer_fold(word)] = min(rank, folded.get(khmer_fold(word), rank))
+            ranks = folded
 
     def likeliest(run):
         """
@@ -5301,16 +5306,20 @@ def build_khmer(size):
     # forms: the texts are cut with them, as the reader cuts them with the list.
     spellings = dict(frequency_km.KHMER_SPELLINGS)
 
-    def cut():
-        segment = segmenter("km", known | extra | {khmer_fold(s) for s in spellings})
+    def cut(ranks):
+        segment = segmenter("km", known | extra | {khmer_fold(s) for s in spellings}, ranks)
+        cache = {}
         spelled = []
         for _, source_runs, _ in sources:
             out = defaultdict(int)
             for run, n in source_runs.items():
                 # Each word as the reader saves it, its subscript រ after the subscript beside it.
                 run = khmer_ro_last(run)
+                folded = khmer_fold(run)
+                if folded not in cache:
+                    cache[folded] = segment(folded)
                 at = 0
-                for piece in segment(khmer_fold(run)):
+                for piece in cache[folded]:
                     out[run[at:at + len(piece)]] += n
                     at += len(piece)
             spelled.append(out)
@@ -5320,7 +5329,7 @@ def build_khmer(size):
                 together[word] += n
         return spelled, together
 
-    spelled, together = cut()
+    spelled, together = cut(None)
     by_folded = {khmer_fold(w): w for w in sorted(pack)}
     swapped = {}
     for word, n in together.items():
@@ -5331,9 +5340,26 @@ def build_khmer(size):
             if khmer_fold(other) in known:
                 swapped[word] = by_folded[khmer_fold(other)]
                 break
-    if swapped:
-        spellings.update(swapped)
-        spelled, together = cut()
+    spellings.update(swapped)
+    # The reader cuts Khmer by how common its words are, as the list it ships with ranks them (KhmerParser), so the list is
+    # built again from cuts made with the last one's ranks until they no longer change it, at most KHMER_ROUNDS times.
+    ranks, text, label = None, None, None
+    for round_ in range(KHMER_ROUNDS + 1):
+        spelled, together = cut(ranks)
+        built, label = khmer_list(sources, spelled, together, pack, spellings, size)
+        print(f"km round {round_}: {'unchanged' if built == text else 'changed'}", file=sys.stderr)
+        if built == text:
+            break
+        text = built
+        _, ranks = list_ranks(text)
+    return text, label
+
+
+KHMER_ROUNDS = 6
+
+
+def khmer_list(sources, spelled, together, pack, spellings, size):
+    """The Khmer list from the words each source was cut into ([spelled]), each in the spelling the pack has."""
     # Each word in the spelling the pack has, the commoner in the texts where it has both.
     best = {}
     for word, n in sorted(together.items(), key=lambda kv: -kv[1]):
