@@ -1,0 +1,241 @@
+{
+  "id": "lv-mini-0700",
+  "rankUpTo": 700,
+  "level": "A2",
+  "title": "Veselība un ķermenis",
+  "description": "Ten short stories about health and the body: running in the park, a folk tale about a sick king, a sister in hospital, a teacher who loses her voice, a dance studio for older people, a volleyball injury, a shop of healthy food, a puppy at the vet, a doctor in local elections and a student's first-aid course.",
+  "topic": "Health and the body",
+  "names": [
+    "Nauris",
+    "Naura",
+    "Rīgā",
+    "Ervīns",
+    "Ervīnam",
+    "Antra",
+    "Zelma",
+    "Zelmai",
+    "Zelmas",
+    "Rēzeknē",
+    "Rēzekni",
+    "Šulces",
+    "Liepiņa",
+    "Bērziņš",
+    "Gunita",
+    "Gunitai",
+    "Gunitas",
+    "Siguldā",
+    "Didzim",
+    "Didzis",
+    "Biruta",
+    "Birutai",
+    "Birutas",
+    "Zolitūdes",
+    "Leons",
+    "Leonam",
+    "Estere",
+    "Esterei",
+    "Esteres",
+    "Esteri",
+    "Ogrē",
+    "Ogres",
+    "Arvis",
+    "Arvim",
+    "Latvijas",
+    "Ģirts",
+    "Ģirtam",
+    "Ģirta",
+    "Kuldīgā",
+    "Ainis",
+    "Ainim",
+    "Krišs",
+    "Krišam",
+    "Līgatnē",
+    "Pūks",
+    "Pūkam",
+    "Pūku",
+    "Renāte",
+    "Renātes",
+    "Vineta",
+    "Vinetai",
+    "Vinetas",
+    "Talsu",
+    "Talsos",
+    "Ventspili",
+    "Edvards",
+    "Edvardam",
+    "Jelgavā",
+    "Jelgavas",
+    "Rīgas"
+  ],
+  "lessons": [
+    {
+      "title": "Skriešana parkā",
+      "summary": "Office worker Nauris sits at the computer all day and feels bad in October; he starts running in the park near his home and by the end of November he feels strong.",
+      "newWords": [
+        "dators",
+        "justies",
+        "skriet",
+        "parks",
+        "oktobris",
+        "novembris",
+        "forma",
+        "stiprs",
+        "sen",
+        "slikti"
+      ],
+      "text": "Nauris dzīvo Rīgā un strādā birojā. Viņam ir 35 gadi. Visu dienu Nauris sēž pie datora. Vakarā mājās viņš atkal sēž pie datora un skatās filmas. Sportu viņš nedara.\n\nOktobrī Nauris sāk justies slikti. No rīta viņam nav spēka, un darbā viņš grib gulēt. Kādu vakaru viņš saka savam draugam Ervīnam: „Es jūtos slikti. Ko man darīt?” Ervīns saka: „Tev vajag skriet. Es skrienu katru rītu. Pēc tam es visu dienu jūtos labi.”\n\nNauris domā par to. Skolas laikā viņš daudz skrēja. Bet tas bija sen, pirms 20 gadiem. Tagad viņš nav labā formā.\n\nNetālu no Naura mājas ir parks. Nākamajā rītā Nauris iet uz parku un skrien. Pēc 5 minūtēm viņš vairs nevar skriet. Viņš stāv, un viņa seja ir sarkana. Nauris domā: „Mana forma ir ļoti slikta.”\n\nTomēr Nauris skrien katru otro dienu. Parks oktobrī ir skaists. Lēnām Nauris var skriet ilgāk: 10 minūtes, tad 20 minūtes, tad 30 minūtes.\n\nNovembrī ir auksts un tumšs, bet Nauris skrien arī tad. Parkā novembrī ir tikai daži cilvēki.\n\nNovembra beigās Nauris var skriet stundu. Viņa kājas ir stipras, un viņam ir vairāk spēka darbā. Ervīns saka: „Tu esi labā formā!” Nauris saka: „Jā, es jūtos daudz labāk. Es jūtos stiprs. Sen nejutos tik labi!”\n\nJautājumi:\nKur Nauris sēž visu dienu?\nNauris visu dienu sēž pie datora.\nKā Nauris jutās oktobrī?\nOktobrī Nauris jutās slikti.\nKad Nauris daudz skrēja?\nNauris daudz skrēja sen, skolas laikā.\nKur Nauris skrien?\nNauris skrien parkā netālu no mājas.\nCik ilgi Nauris var skriet novembra beigās?\nNovembra beigās Nauris var skriet stundu.\nKā Nauris jutās novembra beigās?\nNovembra beigās Nauris jutās stiprs."
+    },
+    {
+      "title": "Slimais karalis",
+      "summary": "In a folk tale a king who eats and drinks too much falls ill; no doctor can help, but a clever boy tells him the truth, and with one meal a day, water and walks in the garden the king gets well.",
+      "newWords": [
+        "reiz",
+        "karalis",
+        "slimība",
+        "mirt",
+        "gudrs",
+        "zēns",
+        "ēdiens",
+        "dzert",
+        "dārzs",
+        "glābt",
+        "patiesība",
+        "vesels"
+      ],
+      "text": "Reiz bija karalis. Viņam bija liela māja un skaists dārzs. Karalis daudz ēda un daudz dzēra. Katru dienu viņam bija desmit ēdieni, un viņš dzēra vīnu. Karalis nekad negāja uz dārzu. Viņš tikai sēdēja mājās.\n\nTad karalim sākās slimība. Viņam nebija spēka, un viņš nevarēja gulēt. Pie karaļa nāca ārsti no visas valsts, bet neviens nevarēja palīdzēt. Slimība kļuva sliktāka. Karalis teica: „Es drīz miršu. Kas mani var glābt?”\n\nTad pie karaļa nāca mazs zēns. Zēns teica: „Es zinu, kā glābt karali.” Visi skatījās uz zēnu un domāja, ka zēns ir muļķis. Bet karalis teica: „Runā, zēn!”\n\nZēns teica: „Jūs mirsiet, ja ēdīsiet un dzersiet tāpat kā tagad. Tāda ir patiesība. Ja jūs gribat būt vesels, jums jāēd tikai viens ēdiens dienā un jādzer tikai ūdens. Un katru dienu jums jāiet pa dārzu.”\n\nKaralim nepatika zēna vārdi. Bet viņš negribēja mirt. Viņš darīja tā, kā zēns teica. Viņš ēda vienu ēdienu dienā un dzēra tikai ūdeni. Katru rītu viņš gāja pa dārzu. Pēc mēneša karalis jutās labāk. Pēc trim mēnešiem viņš bija vesels.\n\nKaralis teica zēnam: „Tu esi ļoti gudrs zēns. Tu teici man patiesību, un tu mani glābi.” Gudrais zēns palika pie karaļa un kļuva par karaļa ārstu. Tā reiz mazs zēns glāba karali.\n\nJautājumi:\nKo karalis darīja katru dienu?\nKaralis daudz ēda un daudz dzēra.\nKas karalim sākās?\nKaralim sākās slimība.\nKas nāca pie karaļa?\nPie karaļa nāca mazs zēns.\nKo karalim vajadzēja dzert?\nKaralim vajadzēja dzert tikai ūdeni.\nKur karalim bija jāiet katru dienu?\nKaralim katru dienu bija jāiet pa dārzu.\nKāds bija karalis pēc trim mēnešiem?\nPēc trim mēnešiem karalis bija vesels."
+    },
+    {
+      "title": "Māsa slimnīcā",
+      "summary": "Antra learns that her sister Zelma is in hospital in Rēzekne with a heart problem; she drives there, may stay half an hour, and hears from the specialist that Zelma must stay another week.",
+      "newWords": [
+        "māsa",
+        "uzzināt",
+        "aptuveni",
+        "nodaļa",
+        "kundze",
+        "drīkstēt",
+        "atsevišķs",
+        "speciālists",
+        "direktors",
+        "diemžēl",
+        "šovakar"
+      ],
+      "text": "Antra dzīvo Rīgā. Viņas māsa Zelma dzīvo Rēzeknē. Kādu rītu Antra uzzina, ka Zelma ir slimnīcā. Zelmai ir problēmas ar sirdi. Antra tūlīt brauc uz Rēzekni. Ceļā jābrauc aptuveni trīs stundas.\n\nSlimnīcā Antra prasa: „Kur ir Zelma Liepiņa?” Darbiniece saka: „Sirds nodaļā.” Antra iet uz sirds nodaļu.\n\nNodaļā strādā Šulces kundze. Antra saka: „Labrīt! Es esmu Zelmas māsa. Vai es drīkstu redzēt savu māsu?” Šulces kundze saka: „Jā, jūs drīkstat. Jūsu māsa ir atsevišķā istabā, numurs 7. Bet jūs drīkstat būt pie viņas tikai aptuveni 30 minūtes. Viņai vajag daudz gulēt.”\n\nZelma guļ atsevišķajā istabā. Viņa ir laimīga. „Māsa, tu esi te!” viņa saka. Antra sēž pie māsas, un abas runā.\n\nTad istabā nāk ārsts Bērziņš. Viņš ir sirds speciālists un arī slimnīcas direktors. Speciālists saka: „Diemžēl jūsu māsai jāpaliek slimnīcā vēl aptuveni nedēļu. Bet viņas sirds jau ir labāka.”\n\nAntra prasa: „Vai es drīkstu nākt arī šovakar?” Direktors saka: „Diemžēl šovakar nē. Šovakar jūsu māsai vajag gulēt. Bet rīt jūs drīkstat nākt.”\n\nAntra paliek Rēzeknē pie draudzenes. Šovakar viņa raksta māsai ziņu: „Guli labi! Rīt es atkal būšu pie tevis.”\n\nJautājumi:\nKo Antra uzzina kādu rītu?\nAntra uzzina, ka viņas māsa ir slimnīcā.\nCik ilgi jābrauc uz Rēzekni?\nUz Rēzekni jābrauc aptuveni trīs stundas.\nKurā istabā ir Zelma?\nZelma ir atsevišķā istabā.\nKas ir ārsts Bērziņš?\nĀrsts Bērziņš ir sirds speciālists un slimnīcas direktors.\nVai Antra drīkst nākt šovakar?\nNē, diemžēl šovakar Antra nedrīkst nākt."
+    },
+    {
+      "title": "Balss",
+      "summary": "Teacher Gunita loses her voice; the doctor tells her not to talk for a week, the school director tells her to stay at home this time, and at home her son guesses what she wants.",
+      "newWords": [
+        "balss",
+        "nopietni",
+        "vienalga",
+        "vēlreiz",
+        "nozīmēt",
+        "šoreiz",
+        "jūtas",
+        "piekrist",
+        "minēt"
+      ],
+      "text": "Gunita ir latviešu valodas skolotāja Siguldā. Skolotājai katru dienu daudz jārunā, un Gunitai ir skaista, stipra balss.\n\nKādu rītu novembrī Gunita grib runāt, bet viņai nav balss. Viņa iet pie ārsta. Ārsts skatās un nopietni saka: „Jūsu balsij vajag atpūtu. Jūs nedrīkstat runāt nedēļu.”\n\nGunita raksta uz papīra: „Bet man ir darbs! Vienalga, es iešu uz skolu.” Ārsts vēlreiz saka, ļoti nopietni: „Ja jūs tagad runāsiet, jūsu balss var palikt slikta ilgu laiku.” Gunita raksta: „Ko tas nozīmē?” Ārsts saka: „Tas nozīmē, ka jūs varbūt mēnešiem nevarēsiet strādāt skolā.”\n\nMājās Gunita raksta ziņu skolas direktoram Didzim: „Vienalga, ko saka ārsts. Rīt es būšu skolā.” Didzis atbild: „Ārstam ir taisnība. Šoreiz tu paliec mājās. Tava veselība ir svarīgāka.”\n\nGunita lasa ziņu vēlreiz. Viņas jūtas ir dažādas: viņai ir žēl, ka skolēni būs bez viņas, bet viņa saprot, ka Didzis domā par viņu. Tad viņa piekrīt. Viņa raksta: „Labi, es piekrītu. Šoreiz es palikšu mājās.”\n\nNedēļu Gunita ir mājās un nerunā. Viņai ir dēls, kam ir 10 gadu. Gunita rāda ar rokām, ko viņa grib, un dēls min. Dēls min: „Tu gribi ēst? Tu gribi grāmatu?” Bieži viņš min pareizi. Vakarā Gunita raksta dēlam par savām jūtām: „Es esmu laimīga, ka tu esi pie manis.”\n\nPēc nedēļas Gunitas balss ir vesela. Viņa var runāt vēlreiz. Viņas pirmie vārdi ir: „Paldies, tu labi mini!”\n\nJautājumi:\nKas ir Gunita?\nGunita ir latviešu valodas skolotāja.\nKo ārsts nopietni saka?\nĀrsts saka, ka Gunitas balsij vajag atpūtu.\nKo Gunita raksta Didzim?\nGunita raksta: „Vienalga, ko saka ārsts. Rīt es būšu skolā.”\nKādas ir Gunitas jūtas?\nGunitas jūtas ir dažādas.\nVai Gunita piekrīt Didzim?\nJā, Gunita piekrīt un paliek mājās.\nKo dara Gunitas dēls?\nDēls min, ko Gunita grib."
+    },
+    {
+      "title": "Dejas studija",
+      "summary": "Seventy-two-year-old Biruta joins a dance studio for older people in her Riga district, where she meets Leons, a schoolmate she once went dancing with in secondary school.",
+      "newWords": [
+        "mats",
+        "rajons",
+        "kādreiz",
+        "vidusskola",
+        "deja",
+        "biedrība",
+        "studija",
+        "loceklis",
+        "biedrs"
+      ],
+      "text": "Biruta ir 72 gadus veca. Viņai ir balti mati. Viņa dzīvo Rīgā, Zolitūdes rajonā. Kādreiz, kad Biruta mācījās vidusskolā, viņa bieži gāja uz dejām. Viņai ļoti patika tautas dejas. Bet tas bija sen.\n\nTagad Biruta daudz sēž mājās, un viņas veselība nav laba. Ārste saka: „Jums vajag vairāk kustēties.” Biruta domā, ko darīt.\n\nRajona centrā ir biedrība vecākiem cilvēkiem. Biedrībai ir deju studija. Biruta iet uz studiju pirmo reizi. Studijā ir 15 cilvēku. Viņi visi ir biedrības locekļi. Viņiem ir no 65 līdz 80 gadiem. Skolotāja ir jauna sieviete. Viena deja ir lēna, otra deja ir ātra.\n\nPēc dejas pie Birutas nāk vīrietis ar baltiem matiem. Viņš saka: „Biruta? Vai tu mani atceries? Es esmu Leons. Mēs bijām skolas biedri vidusskolā!” Biruta atceras. Kādreiz vidusskolā viņi kopā gāja uz dejām. Leonam tagad ir balti mati, bet viņa acis ir tās pašas.\n\nLeons jau trīs gadus ir biedrības loceklis. Viņš saka: „Dejas ir labas veselībai. Manas kājas tagad ir stipras.” Biruta arī kļūst par biedrības locekli.\n\nTagad Biruta un Leons iet uz studiju divas reizes nedēļā. Vecie skolas biedri dejas studijā ir kopā, tāpat kā kādreiz vidusskolā. Pēc mēneša Birutai ir daudz vairāk spēka. Biruta saka: „Dejas ir labākās zāles!”\n\nJautājumi:\nKur dzīvo Biruta?\nBiruta dzīvo Rīgā, Zolitūdes rajonā.\nKad Biruta bieži gāja uz dejām?\nBiruta bieži gāja uz dejām, kad viņa mācījās vidusskolā.\nKas ir biedrībai?\nBiedrībai ir deju studija.\nKas ir Leons?\nLeons ir Birutas skolas biedrs no vidusskolas.\nCik reizes nedēļā Biruta iet uz studiju?\nBiruta iet uz studiju divas reizes nedēļā.\nKas notiek pēc mēneša?\nPēc mēneša Birutai ir daudz vairāk spēka."
+    },
+    {
+      "title": "Volejbols",
+      "summary": "Young volleyball player Estere falls at the net before the Latvian championship; her coach acts at once, and on the video they see a small mistake that is nobody's fault.",
+      "newWords": [
+        "čempionāts",
+        "tīkls",
+        "augšā",
+        "rīkoties",
+        "uzreiz",
+        "vaina",
+        "video",
+        "kļūda",
+        "jautāt"
+      ],
+      "text": "Estere ir 17 gadu, un viņa mācās vidusskolā Ogrē. Estere spēlē volejbolu Ogres komandā. Maijā būs Latvijas čempionāts. Estere ļoti grib uzvarēt čempionātā ar savu komandu.\n\nKādu dienu pirms čempionāta komandai ir spēle. Estere lec augšā pie tīkla. Bet tad viņa krīt uz rokas. Roka ļoti sāp.\n\nKomandas treneris Arvis rīkojas uzreiz. Viņš uzreiz brauc ar Esteri uz slimnīcu. Ārsts skatās roku un saka: „Ar roku viss ir kārtībā. Jūsu treneris rīkojās pareizi. Bet divas nedēļas jūs nedrīkstat spēlēt.”\n\nEsterei ir žēl. Viņa domā: „Kāpēc tā notika? Vai tā ir mana vaina? Vai tā ir citas meitenes vaina?”\n\nArvim ir video no katras spēles. Vakarā Estere un Arvis kopā skatās video. Video viņi redz Esteres kļūdu. Estere ir augšā pārāk tuvu tīklam, un viņas kāja ir zem tīkla. Tad viņa krīt uz citas meitenes kājas. Arvis saka: „Tā nav neviena vaina. Tā ir maza kļūda. Tev jābūt mazliet tālāk no tīkla.”\n\nEstere jautā: „Vai es varēšu spēlēt čempionātā?” Arvis saka: „Jā, ja tagad rīkosies gudri.” Estere jautā arī ārstam, un ārsts saka to pašu.\n\nDivas nedēļas Estere nespēlē. Tad viņa atkal sāk spēlēt. Čempionātā viņa vairs neiet tik tuvu tīklam, un vecās kļūdas vairs nav. Ogres komanda čempionātā ir trešajā vietā.\n\nJautājumi:\nKur spēlē Estere?\nEstere spēlē Ogres komandā.\nKas būs maijā?\nMaijā būs Latvijas čempionāts.\nKo darīja Arvis?\nArvis rīkojās uzreiz un brauca ar Esteri uz slimnīcu.\nKo Estere un Arvis redz video?\nViņi redz Esteres kļūdu.\nKo Estere jautā Arvim?\nEstere jautā, vai viņa varēs spēlēt čempionātā."
+    },
+    {
+      "title": "Zaļais veikals",
+      "summary": "Ģirts opens a small shop of healthy local food in Kuldīga; the goods are dear and the first year goes badly, but with his brother's advice on trade the business starts to pay.",
+      "newWords": [
+        "neliels",
+        "piederēt",
+        "īpašnieks",
+        "zaļš",
+        "prece",
+        "dārgs",
+        "bizness",
+        "finanses",
+        "alga",
+        "tirdzniecība",
+        "priekš"
+      ],
+      "text": "Ģirts dzīvo Kuldīgā. Kādreiz viņš strādāja lielā veikalā. Viņam bija maza alga, un viņš daudz strādāja. Ģirts gribēja savu biznesu.\n\nPirms diviem gadiem Ģirts atvēra nelielu veikalu. Veikals pieder Ģirtam, un viņš ir veikala īpašnieks. Veikalam ir zaļas durvis, un cilvēki to sauc par „zaļo veikalu”. Ģirts pārdod produktus no vietējiem laukiem. Preces ir labas un veselīgas, bet dārgas. Lielajā veikalā tās pašas preces nav tik dārgas.\n\nPirmajā gadā biznesa finanses bija sliktas. Cilvēki nāca, skatījās un teica: „Viss ir pārāk dārgs.” Ģirts nevarēja maksāt sev algu.\n\nĢirta brālim Ainim pieder neliela firma. Ainis ir tirdzniecības speciālists. Viņš zina daudz par tirdzniecību. Ainis saka: „Tavas preces ir labas. Bet tev vajag preces arī priekš ģimenēm ar bērniem un priekš skolām. Piedāvā savus produktus skolām. Skolām vajag labu ēdienu priekš bērniem.”\n\nĢirts dara tā, kā saka brālis. Trīs skolas pērk viņa produktus. Arī ģimenes nāk uz veikalu. Viena kundze prasa: „Vai jums ir kaut kas priekš bērniem?” Ģirts saka: „Jā, šie produkti ir priekš bērniem, un tā nav dārga prece.”\n\nOtrajā gadā biznesa finanses ir labas. Ģirts maksā sev algu, un viņam ir arī palīgs. Zaļā veikala īpašnieks ir laimīgs.\n\nJautājumi:\nKāda bija Ģirta alga lielajā veikalā?\nLielajā veikalā Ģirtam bija maza alga.\nKam pieder veikals?\nVeikals pieder Ģirtam.\nKādas ir veikala durvis?\nVeikala durvis ir zaļas.\nKāpēc pirmajā gadā finanses bija sliktas?\nCilvēkiem preces bija pārāk dārgas.\nKo zina Ainis?\nAinis zina daudz par tirdzniecību."
+    },
+    {
+      "title": "Suns, kas maz ēd",
+      "summary": "Artist Krišs in Līgatne worries when his growing puppy eats little; he carries it to the vet, who finds that new teeth are growing, and soon the dog runs through the house again.",
+      "newWords": [
+        "mākslinieks",
+        "dzīvnieks",
+        "augt",
+        "maz",
+        "paņemt",
+        "vest",
+        "garām",
+        "vaļā",
+        "cauri"
+      ],
+      "text": "Krišs ir mākslinieks. Viņš dzīvo Līgatnē. Mākslinieka darbos ir meži, upes un dzīvnieki. Krišam ir jauns suns Pūks. Pūkam ir 4 mēneši, un viņš ātri aug.\n\nBet vienu nedēļu Pūks ēd maz. Viņš maz skrien un daudz guļ. Krišs domā: „Varbūt suns ir slims?” Viņš paņem Pūku rokās un ved viņu pie dzīvnieku ārstes Renātes.\n\nCeļā Krišs iet garām skolai, garām baznīcai un garām veikalam. Viņš visu laiku tur suni rokās. Pūks skatās uz cilvēkiem, kas iet garām.\n\nRenāte strādā ar dzīvniekiem jau 20 gadus. Viņa paņem Pūku un skatās viņa mutē. Tad viņa saka: „Jūsu suns aug. Viņam aug jauni zobi. Tāpēc viņš maz ēd. Jauniem dzīvniekiem tas notiek bieži. Tas nav nekas slikts.” Krišs prasa: „Ko man darīt?” Renāte saka: „Dodiet viņam mīkstu ēdienu. Pēc nedēļas viss būs labi.”\n\nKrišs ved Pūku mājās. Viņš dod sunim mīkstu ēdienu. Pēc nedēļas Pūks atkal ēd daudz. Kādu rītu Krišs atstāj durvis vaļā. Pūks skrien cauri istabai, cauri virtuvei un pa vaļā durvīm ārā. Viņš skrien cauri dārzam un atpakaļ.\n\nKrišs smejas. Vakarā mākslinieks sāk jaunu darbu. Šajā darbā Pūks skrien cauri dārzam.\n\nJautājumi:\nKas ir Krišs?\nKrišs ir mākslinieks.\nKāpēc Pūks maz ēd?\nPūkam aug jauni zobi.\nKur Krišs ved Pūku?\nKrišs ved Pūku pie dzīvnieku ārstes Renātes.\nKam Krišs iet garām?\nKrišs iet garām skolai, baznīcai un veikalam.\nKas notiek, kad durvis ir vaļā?\nPūks skrien cauri istabai un ārā."
+    },
+    {
+      "title": "Ārste un vēlēšanas",
+      "summary": "Doctor Vineta in Talsi, never interested in politics, stands in the local elections to keep the hospital's children's ward open, holds meetings with people, and is elected.",
+      "newWords": [
+        "interese",
+        "politika",
+        "kopējs",
+        "manuprāt",
+        "vēlēšanas",
+        "tikšanās",
+        "sniegt",
+        "mūsdienas",
+        "liecināt",
+        "gods"
+      ],
+      "text": "Vineta ir ārste. Viņa strādā Talsu slimnīcā jau 20 gadus. Vinetai nekad nebija intereses par politiku. Viņas intereses bija darbs, ģimene un dārzs.\n\nKādu dienu Vineta uzzina, ka pilsētas dome grib slēgt slimnīcas bērnu nodaļu. Tad cilvēkiem ar bērniem būs jābrauc uz Ventspili. Vineta saka: „Manuprāt, tas nav pareizi. Bērnu veselība ir mūsu kopējā lieta.”\n\nRudenī Talsos būs vēlēšanas. Vinetas draugi saka: „Tev jābūt vēlēšanu sarakstā! Tev ir jāiet politikā.” Vineta domā ilgi. Tad viņa saka: „Labi. Manuprāt, tas ir svarīgi.”\n\nPirms vēlēšanām Vinetai katru nedēļu ir tikšanās ar cilvēkiem. Uz tikšanos kultūras namā nāk daudz cilvēku. Vineta stāsta: „Mūsdienās mūsu nodaļa sniedz palīdzību tūkstošiem bērnu. Dati liecina, ka katru gadu mūsu nodaļā ir aptuveni 2000 bērnu. Mūsdienās ģimenēm nav laika braukt uz citu pilsētu.”\n\nCilvēki klausās, un viņi piekrīt. Viens vīrietis saka: „Jūs glābāt mana dēla dzīvību. Mēs esam par jums.” Arī viņa vārdi liecina, cik svarīga ir nodaļa.\n\nVēlēšanu dienā Vineta saņem daudz balsu, un viņa kļūst par deputāti. Viņa saka: „Tas ir liels gods. Man ir gods strādāt jūsu labā.” Bērnu nodaļa paliek Talsos un sniedz palīdzību arī tagad. Vineta saka: „Tas ir mūsu kopējais darbs.”\n\nJautājumi:\nKas bija Vinetas intereses?\nVinetas intereses bija darbs, ģimene un dārzs.\nKo grib slēgt pilsētas dome?\nDome grib slēgt slimnīcas bērnu nodaļu.\nKad Talsos būs vēlēšanas?\nVēlēšanas Talsos būs rudenī.\nKur ir tikšanās ar cilvēkiem?\nTikšanās ir kultūras namā.\nKo saka Vineta, kad viņa kļūst par deputāti?\nVineta saka: „Tas ir liels gods.”"
+    },
+    {
+      "title": "Pirmā palīdzība",
+      "summary": "Student Edvards takes a first-aid course; driving home in bad weather he finds a car against a tree, puts out a warning sign and helps the driver as he learnt.",
+      "newWords": [
+        "students",
+        "kurss",
+        "materiāls",
+        "autors",
+        "virziens",
+        "apstāklis",
+        "automašīna",
+        "priekša",
+        "zīme"
+      ],
+      "text": "Edvards ir students. Viņš mācās Jelgavā otrajā kursā. Edvards grib braukt ar savu automašīnu. Bet pirms tam viņam jāiet pirmās palīdzības kursā.\n\nKursā ir 12 studentu. Skolotāja dod studentiem materiālus: grāmatu un video. Grāmatas autors ir ārsts ar 30 gadu pieredzi. Autors raksta vienkārši, ko darīt dažādos apstākļos: ja cilvēks nevar iet, ja viņš nevar runāt, ja viņam ir slikti. Edvards lasa visus materiālus un mācās. Kursa beigās viņš zina, kā rīkoties.\n\nPēc mēneša Edvards brauc no Jelgavas uz mājām, Rīgas virzienā. Viņš brauc sliktos apstākļos: līst lietus, un ir tumšs. Edvards redz automašīnu pie koka. Tā brauca pretējā virzienā. Automašīnas priekša ir pie koka.\n\nEdvards apstājas. Viņš atceras kursu. Vispirms viņš liek uz ceļa zīmi. Zīme ir tāpēc, lai citas automašīnas redzētu, ka te ir problēma. Tad viņš iet pie automašīnas priekšas.\n\nAutomašīnā sēž vīrietis. Viņš ir dzīvs, bet viņam sāp galva. Edvards zvana uz 112 un saka, kur viņi ir un kādos apstākļos. Tad viņš runā ar vīrieti un gaida.\n\nPēc 20 minūtēm ārsti ir klāt. Ārsts saka Edvardam: „Jūs rīkojāties pareizi. Kur jūs to mācījāties?” Edvards saka: „Pirmās palīdzības kursā.”\n\nJautājumi:\nKur mācās Edvards?\nEdvards mācās Jelgavā otrajā kursā.\nKas ir grāmatas autors?\nGrāmatas autors ir ārsts.\nKādos apstākļos brauc Edvards?\nEdvards brauc sliktos apstākļos: līst lietus, un ir tumšs.\nKur ir automašīnas priekša?\nAutomašīnas priekša ir pie koka.\nKo Edvards liek uz ceļa?\nEdvards liek uz ceļa zīmi."
+    }
+  ]
+}
