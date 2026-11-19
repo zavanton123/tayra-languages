@@ -67,7 +67,7 @@ LANGUAGES = [
     "it", "la", "lt", "lv", "mk", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sl", "sr", "sv", "tr",
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn",
-    "th", "lo", "km", "zh", "yue", "ja", "ko",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
@@ -102,6 +102,7 @@ FALLBACKS = {
     "eo": {"leipzig": ["epo_newscrawl_2017_1M"]},
     "vi": {"leipzig": ["vie_news_2022_1M", "vie-vn_web_2015_1M"]},
     "ko": {"leipzig": ["kor_news_2019_1M"]},
+    "ms": {"leipzig": ["msa-my_web_2013_1M"]},
 }
 
 # Languages written without spaces: a corpus's runs of letters are cut into words as the app's
@@ -207,6 +208,9 @@ SOURCE_WEIGHTS["yi"] = {"leipzig": 0.3, "wikipedia": 0.4, "everyday": 0.3}
 SOURCE_ORDER["mt"] = ["maltese", "maltese_web", "maltese_wikipedia"]
 BLEND.add("mt")
 SOURCE_WEIGHTS["mt"] = {"maltese": 0.45, "maltese_web": 0.45, "maltese_wikipedia": 0.1}
+# Malay is counted from web text, subtitles and Malaysian web pages (Leipzig's crawl of .my sites, a million sentences):
+# its Wikipedia would add its pages' words, and Leipzig's news crawls mix in Indonesian.
+SOURCE_ORDER["ms"] = ["wordfreq", "frequencywords", "leipzig"]
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -2147,6 +2151,8 @@ HINDI_VARIANT_GLOSS = re.compile(r"^(?:a )?(?:(?:nuqtaless|alternative|hyperfore
 HINDI_NASAL_CONJUNCT = re.compile("ङ्(?=[कखगघ])|ञ्(?=[चछजझ])|ण्(?=[टठडढ])|न्(?=[तथदध])|म्(?=[पफबभ])")
 # The letters the reader reads Hindi words in (PredefinedLanguages.kt): Urdu spellings in web text (میں) are none.
 HINDI_LETTERS = re.compile("[a-zA-Z\u0900-\u0963\u0966-\u097f\u200c\u200d]+")
+# The Arabic-script letters Malay is also written in (Jawi).
+JAWI_LETTERS = re.compile("[\u0600-\u06ff\u0750-\u077f\ufb50-\ufdff\ufe70-\ufeff]")
 
 
 def hindi_folded(word):
@@ -5586,8 +5592,13 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             continue
         for w, c in counts.items():
             freq[normalise(language, w)] += c / total / len(found)
-    if language in ("ro", "ka"):
+    if language == "ms":
+        # Malay written in Jawi, which the app does not read as Malay.
+        for w in [w for w in freq if JAWI_LETTERS.search(w)]:
+            del freq[w]
+    if language in ("ro", "ka", "ms"):
         # The reader cuts Romanian at hyphens (s-a is s + a, dintr-o is dintr + o), and Georgian (ერთ-ერთი is ერთ + ერთი), and so is each count.
+        # So it does Malay's (kanak-kanak is kanak + kanak, rumah-rumahnya is rumah + rumahnya).
         for w in [w for w in freq if "-" in w]:
             share = freq.pop(w)
             for i, piece in enumerate(w.split("-")):

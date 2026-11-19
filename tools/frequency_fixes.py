@@ -2756,3 +2756,15 @@ OVERRIDES["eu"] = {
     **_basque("urduri", "urduri"),
     **_basque("txoko", "txoko txokoa txokoak"),
 }
+
+# Malay (2026-11-19): the forms table files slang and misspellings under the wrong word (hiang under yang, boat under
+# buat, polisi "policy" under polis, khusus under khas, bah "flood" under bahasa and bawah); those keep their own count
+# or none. English words left out.
+OVERRIDES["ms"] = {
+    **{w: [w] for w in ("polisi", "khusus", "bah")},
+    **{form: [] for form in (
+        "hiang", "boat", "melalu", "pp", "ka", "ari", "adi", "bran", "beran", "tima", "suma", "ijo", "gak", "nya", "lu",
+        "kenap", "yamu", "po", "puter", "keselamat", "dind", "asl", "berantara", "sekaki",
+    )},
+}
+EXCLUDE["ms"] = {"you", "as"}
