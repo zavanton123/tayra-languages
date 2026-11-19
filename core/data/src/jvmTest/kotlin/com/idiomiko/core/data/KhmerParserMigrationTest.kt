@@ -46,7 +46,7 @@ class KhmerParserMigrationTest {
         val weekDa = saved("សប្ដាហ៍", TermStatus.LEARNING_3)
         val weekTa = saved("សប្តាហ៍", TermStatus.NEW_1)
         val home = saved("ផ្ទះ", TermStatus.NEW_1)
-        val scienceRoFirst = saved("សាស្រ្ត", TermStatus.LEARNING_2)
+        val scienceRoFirst = saved("សាស្រ្ត", TermStatus.NEW_2)
         books.insertBook(Book(languageId = id, title = "Home"), listOf(NewPage("កម្រិតខ្ពស់។", 2)))
 
         val words = listOf("កម", "កម្រិត", "ខ្ពស់", "សប្ដាហ៍", "ផ្ទះ", "សាស្ត្រ")
