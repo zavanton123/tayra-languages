@@ -227,6 +227,7 @@ WORD_POS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", 
 # Per-language corrections, reviewed by hand.
 from frequency_fixes import ARABIC_CUT, ARABIC_WHOLE, DISPLAY, EXCLUDE, KOREAN_APART, KOREAN_CUT, KOREAN_STEMS, KOREAN_WHOLE, OVERRIDES, REFILE, SLOVAK_NEGATIVE_VERBS  # noqa: E402
 import frequency_persian  # noqa: E402
+import frequency_mongolian  # noqa: E402
 
 OVERRIDES["fa"] = frequency_persian.PERSIAN_OVERRIDES
 EXCLUDE["fa"] = frequency_persian.PERSIAN_EXCLUDE
@@ -234,6 +235,8 @@ import frequency_cornish  # noqa: E402
 
 OVERRIDES["kw"] = frequency_cornish.CORNISH_OVERRIDES
 EXCLUDE["kw"] = frequency_cornish.CORNISH_EXCLUDE
+OVERRIDES["mn"] = frequency_mongolian.MONGOLIAN_OVERRIDES
+EXCLUDE["mn"] = frequency_mongolian.MONGOLIAN_EXCLUDE
 from frequency_fixes import HEBREW_CUT, HEBREW_WHOLE  # noqa: E402
 import frequency_albanian  # noqa: E402
 
@@ -255,8 +258,9 @@ MAX_LEMMAS_PER_FORM = 6
 # Forms considered per word, most common first; the app matches saved words against them.
 FORMS_PER_WORD = 40
 # Where a word has more: a Welsh word has its mutations and contractions as well (fod, mae'n, sy'n, i'r);
-# a Persian verb has its spoken forms as well (میرم, میخوام, میتونی).
-FORMS_PER_WORD_OF = {"cy": 120, "fa": 150}
+# a Persian verb has its spoken forms as well (میرم, میخوام, میتونی); a Mongolian word its cases, each with the reflexive
+# possessive, in the singular and plural (гэр, гэрт, гэртээ, гэрүүдэд), and a verb its tenses, participles and converbs.
+FORMS_PER_WORD_OF = {"cy": 120, "fa": 150, "mn": 150}
 
 
 # Languages whose words are written in Chinese characters or kana.
@@ -3477,8 +3481,8 @@ def load_dictionary(language):
                     GEORGIAN_FORMS_OF.setdefault(word_lc, set()).update(lower(language, f.group(1)) for f in named)
                 else:
                     GEORGIAN_OWN.add(word_lc)
-        # Hindi's postpositions (का, को, से, ने) are its prepositions.
-        if language == "hi" and p == "postp":
+        # Hindi's postpositions (का, को, से, ने) are its prepositions, and Mongolian's (тухай, хооронд, төлөө).
+        if language in ("hi", "mn") and p == "postp":
             p = "prep"
         if language == "hy" and p in WORD_POS | ARMENIAN_POS:
             for gloss in (g for s in json.loads(senses) for g in s.get("glosses", [])):
@@ -3718,6 +3722,8 @@ def load_dictionary(language):
         ALBANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language == "fa":
         frequency_persian.load(db, pos, lemmas, common)
+    if language == "mn":
+        frequency_mongolian.load(db, pos, lemmas, common, DICTIONARIES)
     if language in FINNIC_OWN_SENSES:
         own, plain = finnish_kinds(db, lemmas, language)
         for word, kinds in unlisted.items():
@@ -4684,8 +4690,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # Korean has words written with Chinese characters too (眞짜 for 진짜), which texts write in Hangul.
         if language == "ko" and not KOREAN_LETTERS.fullmatch(w):
             return False
-        # Single letters are kept only as the little words they can be ("a", "e", "o").
-        return len(w) > 1 or language in ("ja", "ko") or bool(kinds & {"prep", "conj", "article", "pron", "det"})
+        # Single letters are kept only as the little words they can be ("a", "e", "o"; Mongolian's particle л).
+        return len(w) > 1 or language in ("ja", "ko") or bool(kinds & {"prep", "conj", "article", "pron", "det"}) or (
+            language == "mn" and "particle" in kinds)
 
     if language == "yi":
         overrides = {**yiddish_spellings(freq, overrides, is_word, lemmas), **overrides}
