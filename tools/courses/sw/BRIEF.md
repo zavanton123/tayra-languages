@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Swahili word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `sw-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 6,390 words, so the last course is
-`sw-mini-6400` (90 words).
+`themes.tsv` gives each course its theme. The list has 6,386 words, so the last course is
+`sw-mini-6400` (86 words).
 
 ## What the lessons are: mini stories
 

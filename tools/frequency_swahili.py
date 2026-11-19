@@ -85,6 +85,9 @@ SWAHILI_FORMS = {
     # Mostly "your" (rafiki wako, kazi yako), now and then the place copula wako ("they are there").
     "wako": "ako,wako",
     "yako": "ako",
+    # "Those", "that" (watu wale, mti ule), far more than la's subjunctive ("they, you should eat").
+    "wale": "le",
+    "ule": "le",
     # "It is there" (kiko mezani) far more than kiko "pipe".
     "kiko": "wako",
     # Conjugated forms the pack has as entries of their own ("I love you", "I don't know"): their verb's.
