@@ -262,6 +262,9 @@ def fold(code, word):
     # The Swahili list writes the straight apostrophe (ng'ombe); the reader reads ’ ‘ ´ ` as it.
     if code == "sw":
         return word.translate(frequency_swahili.APOSTROPHES)
+    # So does the Afrikaans one (’n, ma’s).
+    if code == "af":
+        return word.translate(AFRIKAANS_APOSTROPHES)
     # Armenian և is matched as the one letter where a text writes it as two (նաեւ), as the reader matches it.
     if code == "hy":
         return word.replace("եւ", "և")
@@ -689,6 +692,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return breton_tokens(text, ranks, names)
     if code == "mt":
         return maltese_tokens(text)
+    if code == "af":
+        return AFRIKAANS_WORD.findall(text.translate(AFRIKAANS_APOSTROPHES))
     if code in FINNIC:
         return finnic_tokens(text, code)
     if code == "hi":
@@ -2623,6 +2628,14 @@ def maltese_tokens(text):
     return out
 
 
+# Afrikaans words as the reader cuts them (its wordCharacters in PredefinedLanguages.kt): Latin letters with every accent
+# (ná, dít, appèl, brûe, ŉ) and the apostrophe, which its characterSubstitutions write for ’ ‘ ´ `, so 'n, ma's and a quote's
+# ' stay on their word; cut at a hyphen. The abbreviations it keeps with their full stop (mnr., asb., bv.) are words the
+# list lacks.
+AFRIKAANS_WORD = re.compile(r"a\.g\.v\.|afk\.|Afr\.|asb\.|bv\.|i\.p\.v\.|mev\.|mnr\.|[a-zA-ZÀ-ÖØ-öø-ȳ']+", re.IGNORECASE)
+AFRIKAANS_APOSTROPHES = str.maketrans({"’": "'", "‘": "'", "´": "'", "`": "'"})
+
+
 # The header of a lesson's questions, one per language: after it, a question and its answer on a line each, in turn.
 # The app cuts them off the text into a stage of their own (LessonQuestions.kt holds the same headers).
 QUESTION_HEADERS = {
@@ -3141,6 +3154,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Goulennoù:", "", text)
         if code == "mt":
             text = re.sub(r"(?m)^Mistoqsijiet:", "", text)
+        if code == "af":
+            text = re.sub(r"(?m)^Vrae:", "", text)
         if code == "ka":
             text = re.sub(r"(?m)^კითხვები:", "", text)
         if code == "hi":
