@@ -1,0 +1,100 @@
+1	1	ta	t'
+2	2	as	's
+3	3	ny	
+4	4	yn	'n
+5	5	y	
+6	6	er	erriu ersyn ner orrin orrinyn orroo orroosyn orrym ort urree
+7	7	ayns	ayn ayndoo aynjee aynsyn hayns
+8	8	eh	eshyn
+9	9	ec	ain ainyn ayd aym ayms echey echeysyn eck ecksh eu neu oc ocsyn
+10	10	dy	d'
+11	11	va	v'
+12	12	she	nee s'
+13	13	sy	
+14	14	jeh	j'ee j'eeish jeed jehsyn jeu jeusyn jin yeh
+15	15	ve	bee beeghyn beemayd nel row vee vees vel vit
+16	16	mooar	moo mooarey smoo vooar vooarey
+17	17	myr	
+18	18	rish	r'ee rhyt rishyn riu roo roosyn ry
+19	19	cur	choyrt chur churrit coyrt currit der dug gur hiu hood hooin huc hucsyn hug huggey huggeysyn huic hym toyr ver verragh verym
+20	20	ad	
+21	21	da	dasyn daue dauesyn dhyt diu dooin dooint doonee dou ghooin ghooint jee jeeaghyn jeeghyn yee yeeaghyn
+22	22	ee	dee eeish eeit eeys gee ish
+23	23	blein	bleaney bleeaney bleeantyn vleeaney vleeantyn vlein
+24	24	jean	jeant jinnagh nee nee'm neeym ren yeant yinnagh yinnin
+25	25	magh	
+26	26	shen	hen
+27	27	lesh	leshyn lhee lheeyn lhiam lhiat lhiats lhien lhieu lhieusyn
+28	28	balley	baljey baljyn maljyn valjyn valley
+29	29	ard	ardey ardjyn ardyn hardjyn syrjey
+30	30	son	hon
+31	31	agh	aghyn
+32	32	stiagh	
+33	33	liorish	lioree lioreeish liorishyn lioroo lioroosyn liorym
+34	34	cha	
+35	35	veih	
+36	36	elley	helley
+37	37	jerrey	jerraghyn jerree yerree yerrey
+38	38	goaill	ghoaill goaillyn ngoaill ngoaillyn
+39	39	cooid	chooid gooid
+40	40	eddyr	
+41	41	çhengey	hengey jengaghyn jengey çhengaghyn
+42	42	rere	
+43	43	e	
+44	44	çheer	heer heerey çheeraghyn çheerey
+45	45	ennym	enmey enmyn
+46	46	fo	foee foin fosyn foue
+47	47	eash	eashyn
+48	48	syn	tyn
+49	49	twoaie	hwoaie
+50	50	goll	gholl ngoll
+51	51	daa	ghaa naa
+52	52	kiangley	chianglaghyn chianglee chiangley chianglt gianglaghyn giangley kianglaghyn kianglee kianglt
+53	53	toshiaght	doshee doshiaghey doshiaght hoshee hoshiaghey hoshiaght toshee toshiaghey toshit
+54	54	thie	dhie dhieyn hie hieyn thieyn
+55	55	çheet	heet jeet çheetyn
+56	56	ymmyd	ymmydagh ymmydee ymmydey ymmydit ymmydyn
+57	57	jannoo	jannooyn yannoo yannooyn
+58	58	ellan	ellanyn hellanyn nellan
+59	59	ass	assdaue assjee assyd assym assyn
+60	60	beg	beggey meg sloo veggey
+61	61	oo	ou uss
+62	62	nyn	
+63	63	co	
+64	64	bun	mun vun
+65	65	na	
+66	66	tar	daink dar haink harragh harrin hig jig
+67	67	dys	
+68	68	kied	chied chiedyn gied kiedyn
+69	69	mean	meanyn vean veanyn
+70	70	fer	fir ir ver vir
+71	71	jiass	yiass
+72	72	shoh	
+73	73	cadjin	cadjinaghey cadjinaghyn cadjinee cadjiney cadjinit chadjin chadjinaghey chadjiney chadjinit
+74	74	fod	foddee nod vod
+75	75	imraa	imraagh imraaghyn imraait
+76	76	rheynn	rheynnagh rheynnit rheynnyn ronnaghyn ronney
+77	77	steat	steatyn
+78	78	cummal	chummal cummallyn gummal
+79	79	raad	raadagh raadee raadyn raaidey raaidyn
+80	80	fill	dill fillee filleeyn filley fillit fillym filmyn illit illym villaghyn
+81	81	coont	choontaghyn choontey coontaghyn coontey coontit goontey
+82	82	sourey	houree hourey souraghyn souree touree tourey
+83	83	ben	men mraane mreih ven vraane vreih
+84	84	cloie	chloiaghyn chloie cloiaghyn cloieit cloieyn gloiaghyn gloie
+85	85	geddyn	eddyn feddyn feddynyn gheddyn ngeddyn veddyn
+86	86	obbyr	hobbraghyn hobbyr obbraghyn obbyraghyn obbyryn
+87	87	enney	
+88	88	cummey	chummaghyn chummey cummaghyn cummee gummaghyn gummey
+89	89	chammah	
+90	90	mie	hare hareaghey mieyn share shareaghey vie
+91	91	coontae	choontae
+92	92	deiney	gheiney
+93	93	noa	
+94	94	baase	baaish baaseyn maaseyn vaaish vaase
+95	95	tra	
+96	96	hene	pene
+97	97	cummaltagh	chummaltagh chummaltee cummaltee gummaltee
+98	98	fow	dooar eddyn eddynit feddyn feddynit feddynyn hooar veddyn yioghe yiow
+99	99	shenn	henn shinney çhenn
+100	100	keayrt	cheayrt cheayrtyn keayrtyn

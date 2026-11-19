@@ -1,0 +1,100 @@
+1	5201	fermium	
+2	5202	gadolinnium	
+3	5203	hafnium	
+4	5204	raadon	
+5	5205	holmium	
+6	5206	kerrium	
+7	5207	lantanum	
+8	5208	lootaiçhum	
+9	5209	spoareyder	spoareyderyn
+10	5210	neeobium	
+11	5211	pallaadjum	
+12	5212	rainium	
+13	5213	roydjum	
+14	5214	rutainium	
+15	5215	rutherfordium	
+16	5216	serconiu	
+17	5217	tantalum	
+18	5218	vanaadjum	
+19	5219	lawrencium	
+20	5220	niodymium	
+21	5221	oarpium	
+22	5222	prashodymmium	
+23	5223	promaiçhum	
+24	5224	samaarium	
+25	5225	thulium	
+26	5226	ytterbium	
+27	5227	nobelium	
+28	5228	mendelevium	
+29	5229	nepçhunium	
+30	5230	roobyl	
+31	5231	traaghan	
+32	5232	oainjyragh	
+33	5233	mar	marit
+34	5234	liehaghys	
+35	5235	çherraghtyn	herraghtyn
+36	5236	magnaidaghey	
+37	5237	tanjent	tanjentyn
+38	5238	oblaidagh	
+39	5239	noodyl	
+40	5240	boirrit	
+41	5241	lensey	
+42	5242	uncheillaghys	
+43	5243	neulheiltys	
+44	5244	laggeyder	
+45	5245	myngyr	vyngyragh
+46	5246	kegeesh	
+47	5247	doorey	dooraghyn
+48	5248	lheamys	
+49	5249	glast	
+50	5250	binnid	vinnidyn
+51	5251	frioosagh	
+52	5252	aslane	
+53	5253	trooragh	
+54	5254	astroayllee	
+55	5255	neuchialgagh	
+56	5256	dress	dressyn
+57	5257	shingaarey	shingaaraghyn
+58	5258	moll	
+59	5259	baarail	baarailyn
+60	5260	coptyr	
+61	5261	osoan	
+62	5262	laineyr	
+63	5263	reailleyder	
+64	5264	furrym	
+65	5265	focklee	ockleeagh
+66	5266	sheeanaght	
+67	5267	neuchoard	neuchoardail
+68	5268	plug	phlug
+69	5269	keirdeeaght	
+70	5270	danjeyr	
+71	5271	jeelt	
+72	5272	gollree	
+73	5273	aainsh	
+74	5274	earisheraght	
+75	5275	mwyllaragh	
+76	5276	croutagh	
+77	5277	aahellooderys	
+78	5278	scudlagh	
+79	5279	treishteilys	
+80	5280	fargagh	
+81	5281	feeudagh	
+82	5282	curteish	
+83	5283	caabyr	caabyryn
+84	5284	fysseraght	
+85	5285	neuammyssagh	
+86	5286	ardys	
+87	5287	staydoilagh	
+88	5288	polt	
+89	5289	joarreeaght	
+90	5290	troggallagh	
+91	5291	lhiannooagh	
+92	5292	brockeyr	
+93	5293	dubbey	dubbaghyn
+94	5294	shelgeraght	
+95	5295	smuir	
+96	5296	sproghan	sproghanyn
+97	5297	folmee	olmys
+98	5298	currey	
+99	5299	scruppylagh	
+100	5300	feeshag	

@@ -1,0 +1,100 @@
+1	3901	milljag	milljagyn
+2	3902	minnagh	
+3	3903	mogh	
+4	3904	mongey	vongey
+5	3905	bronney	mronney vronney
+6	3906	mynjeig	mynjeigyn
+7	3907	nearagh	
+8	3908	nearey	
+9	3909	neuaashagh	
+10	3910	neuchredjallagh	
+11	3911	neuresoonagh	
+12	3912	neuroshtynagh	
+13	3913	neuskielleydagh	
+14	3914	oghe	
+15	3915	ommidjys	
+16	3916	pardoon	pardoonit
+17	3917	partigal	partigalyn
+18	3918	pennys	
+19	3919	peamad	peamadit pheamadit
+20	3920	penneyrys	phenneyrys
+21	3921	pobblaghtys	phobblaghtys
+22	3922	pollyp	pollypyn
+23	3923	poteen	
+24	3924	prentyr	
+25	3925	prosoid	
+26	3926	pyramidoil	
+27	3927	quineen	
+28	3928	reean	
+29	3929	resoonaghey	
+30	3930	robaig	robaigyn
+31	3931	rouail	
+32	3932	scadoo	scadooyn
+33	3933	schimmeig	
+34	3934	scolt	scoltit
+35	3935	scolteyder	
+36	3936	scrob	scrobbey
+37	3937	scrod	
+38	3938	shalmane	shalmaneyn
+39	3939	moidynoilaght	voidynoilaght
+40	3940	shelleig	çhelleig
+41	3941	skelimagh	
+42	3942	skirmish	skirmishyn
+43	3943	slaneid	laneid
+44	3944	slanid	
+45	3945	sleetçh	sleetçhal
+46	3946	smarr	smarree
+47	3947	smear	smearey smearit
+48	3948	snaueaneagh	
+49	3949	sneeu	sneeuit
+50	3950	soccaragh	
+51	3951	sollanagh	
+52	3952	sooghid	
+53	3953	soorid	
+54	3954	spennig	spennigyn
+55	3955	speyragh	
+56	3956	sponk	
+57	3957	sthill	sthillyn
+58	3958	synagogue	synagogueyn
+59	3959	tashid	
+60	3960	thollane	thollaneyn
+61	3961	toaghailt	toaghailtey
+62	3962	toyrtyssagh	toyrtyssee
+63	3963	traartagh	
+64	3964	traauoil	
+65	3965	traitooragh	
+66	3966	cromaidagh	chromaidagh
+67	3967	lheihyssagh	
+68	3968	maarderagh	vaarderagh
+69	3969	mooynlagh	vooynlee
+70	3970	whayl	whaylyn
+71	3971	ynrick	
+72	3972	çhaplynys	
+73	3973	çhymmey	
+74	3974	çhentag	çhentagyn
+75	3975	niartallagh	
+76	3976	sonney	
+77	3977	grenadeen	grenadeenyn
+78	3978	aanoaghey	
+79	3979	mooadee	vooadee
+80	3980	meanchiarkylagh	
+81	3981	adultrinys	
+82	3982	traitoorys	
+83	3983	shid	
+84	3984	imnea	
+85	3985	stroll	
+86	3986	mynçhengey	mynçhengaghyn
+87	3987	frauehoylley	
+88	3988	fort	vort
+89	3989	eginit	
+90	3990	fillymagh	
+91	3991	leavey	leavaghyn
+92	3992	paartagh	phaartagh
+93	3993	camys	chamys
+94	3994	teayst	teaystyn
+95	3995	plaih	phlaih
+96	3996	quaaltys	whaaltys
+97	3997	crustagh	crustee
+98	3998	jeeg	jeegyn
+99	3999	cumir	chumir
+100	4000	flout	lout loutyn

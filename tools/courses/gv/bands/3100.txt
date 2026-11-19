@@ -1,0 +1,100 @@
+1	3001	çhiollagh	çhiollee
+2	3002	crauelagh	
+3	3003	çheeragh	jeeraghyn
+4	3004	oohagh	oohee
+5	3005	pott	bott phott
+6	3006	shenndaght	çhenndaght
+7	3007	arasane	arasaneyn
+8	3008	caaig	chaaig
+9	3009	caffee	chaffee
+10	3010	caslee	caslit
+11	3011	crig	chrig
+12	3012	collaneagh	chollaneagh
+13	3013	faastey	aastey
+14	3014	fillamad	fillamadyn
+15	3015	fidleyr	fidleyryn idleyr idleyryn
+16	3016	indughtagh	indughtaghey indughtee indughtit
+17	3017	lheean	lheeanyn
+18	3018	miljan	miljanyn viljanyn
+19	3019	moanee	moaneeyn voanee
+20	3020	moraltaght	voraltaght
+21	3021	ocsaid	ocsaidyn
+22	3022	peeikearys	pheeikearys
+23	3023	pelvis	phelvis
+24	3024	penshyneyr	penshyneyryn phenshyneyryn
+25	3025	reeastane	reeastaneyn
+26	3026	seal	sealal sealit sealyn
+27	3027	fliaghagh	fliaghee liaghee
+28	3028	snaueder	
+29	3029	aeraghtagh	
+30	3030	walk	
+31	3031	feddish	feddishyn
+32	3032	dronnagh	ghronnagh
+33	3033	dreigey	dreigaghyn
+34	3034	fashistagh	ashistagh
+35	3035	bein	mein
+36	3036	offish	offishyn
+37	3037	pitt	
+38	3038	alcoalagh	
+39	3039	caggeyder	caggeyderyn chaggeyder chaggeyderyn
+40	3040	cagg	chagg
+41	3041	cooidjeyder	chooidjeyder chooidjeyderyn cooidjeyderyn
+42	3042	fynn	
+43	3043	gennal	ghennal
+44	3044	lannoon	lannoonyn
+45	3045	perspeghtaght	pherspeghtaght
+46	3046	pibbin	phibbin pibbinyn
+47	3047	strateyshagh	
+48	3048	maarliagh	maarlee vaarlee
+49	3049	gailck	ghailck
+50	3050	ardwhaill	
+51	3051	astatçheen	
+52	3052	blasstan	blasstanyn
+53	3053	clougraafeeaght	chlougraafeeaght
+54	3054	coheeynt	
+55	3055	daaghys	
+56	3056	geayshteenagh	
+57	3057	jeadys	
+58	3058	leighalagh	
+59	3059	leval	
+60	3060	mesteyder	vesteyderyn
+61	3061	ooreyder	ooreyderyn
+62	3062	pollin	
+63	3063	potacareeagh	
+64	3064	ransh	
+65	3065	crampey	
+66	3066	sheeansagh	heeansagh
+67	3067	sheelogheydys	
+68	3068	speeideilagh	
+69	3069	sulfuragh	hulfuragh
+70	3070	tank	tankyn
+71	3071	tarcheimneeoil	
+72	3072	barbagh	varbagh
+73	3073	anneydagh	
+74	3074	ooashlid	ooashlidyn
+75	3075	birling	
+76	3076	oardrailagh	
+77	3077	leshtal	
+78	3078	obbeeys	
+79	3079	brein	breinney vrein
+80	3080	keil	cheiltyn keiltyn keiltynyn
+81	3081	collagh	chollee collee
+82	3082	orraghey	horraghey
+83	3083	tomaine	domaineyn tomaineyn
+84	3084	doss	dossyn
+85	3085	druaightys	ghruaightys
+86	3086	gramme	grammeyn
+87	3087	graney	ghraney
+88	3088	lhiaggan	lhiagganyn
+89	3089	paalan	phaalan
+90	3090	tast	tastal tastee tastit
+91	3091	toill	toilçhin toilçhinyn
+92	3092	çheorey	jeorey çheoraghyn
+93	3093	tarroo	harroo terriu
+94	3094	foalsey	oalsey
+95	3095	leggad	leggadyn
+96	3096	sulfeed	hulfeed sulfeedyn
+97	3097	cronnalagh	chronnalagh
+98	3098	kimmagh	chimmagh chimmee kimmee
+99	3099	traghteyr	draghteyr draghteyryn traghteyryn
+100	3100	tiggad	tiggadyn

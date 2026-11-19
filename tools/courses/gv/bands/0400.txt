@@ -1,0 +1,100 @@
+1	301	yrjid	yrjidyn
+2	302	doon	dooin dooint doonagh doonaghyn doonee dooney doont doonyn ghooin ghooint ghoon ghooney ghoont ghoonyn
+3	303	oik	oikyn
+4	304	argid	argidyn argidys
+5	305	claare	chlaare chlaareeyn chlaareyn claareeyn claareyn claaryn
+6	306	ollooscoill	ollooscoillyn
+7	307	mac	mec mic vac vec
+8	308	queig	wheig
+9	309	çhyndaa	hyndaa hyndaaee hyndaaghyn jyndaa çhyndaaee çhyndaaghyn çhyndaait
+10	310	rang	rangyn
+11	311	lhiurid	lhiuridyn
+12	312	leigh	leighaghyn leighyn
+13	313	taishbyn	daishbyney haishbyney taishbynaghyn taishbynee taishbyney taishbynit
+14	314	faag	aagail daag faagail faagee faagit vaagagh
+15	315	daah	daaghey daaghyn daahghey daahghyn daahit ghaaghey ghaaghyn ghaah ghaahagh ghaahghyn ghaahit naaghyn
+16	316	corp	chirpey chorp girp kirp kirpey
+17	317	sheean	heeanagh heeanyn sheeanagh sheeanyn çheean
+18	318	nish	
+19	319	skeayl	skeaylaghyn skeaylee skeayley skeayllaghyn skeaylley skeaylt
+20	320	coose	choose chooseyn cooseyn
+21	321	lhigg	lhiggagh lhiggaghyn lhiggee lhiggey lhiggit
+22	322	baagh	baaghyn beiyn maaghyn vaagh vaaghyn veiyn
+23	323	rannag	rannagyn
+24	324	credjal	chredjal
+25	325	foddey	oddey sodjey voddey
+26	326	mychione	
+27	327	insh	dinsh ginsh hinshey innis innys inshagh inshee inshey inshit inshyn
+28	328	giare	ghiare ghiarrey giarrey ngiarrey yiare yiarrey
+29	329	wheesh	
+30	330	shiartanse	
+31	331	rollageagh	
+32	332	shey	hey shaghyn çhey
+33	333	myn	vyn
+34	334	abbyrlhit	abbyrlhittyn abbyrlhityn
+35	335	mooie	
+36	336	oaylleeagh	
+37	337	tuitt	duitt duittym huitt huittagh huittym tuittee tuittym
+38	338	ym	
+39	339	tasht	hasht hashtaghyn hashtey tashtaghyn tashtee tashtey tashtit
+40	340	jerrinagh	yerrinagh yerrinee
+41	341	slieau	clieau leityn lieau sleityn
+42	342	beggan	veggan
+43	343	agglish	agglishyn hagglish hagglishyn
+44	344	coonseil	choonseil coonseilyn goonseilyn
+45	345	tradishoonagh	hradishoonagh
+46	346	keayn	cheayin cheayn cheaynyn geayney keayin keaynaghyn keayney keaynyn
+47	347	grian	ghreiney ghrian greiney
+48	348	tro	dro droyn hro hroyn troyn
+49	349	glass	ghlass ghlassey glassey glish
+50	350	ar	har nar
+51	351	breneen	breneenyn mreneenyn vreneen vreneenyn
+52	352	ooilley	
+53	353	shassoo	hassoo hassooyn shassooyn çhassoo
+54	354	keyll	cheyll cheylley geilley keilley keyljyn keylley keylljyn
+55	355	coorse	choorse choorseyn coorseyn coorsyn goorse goorseyn
+56	356	feaill	eaill eaillaghyn eailley feaillaghyn feailley
+57	357	conaant	chonaant chonaantyn conaantyn gonaant
+58	358	çheshvean	heshvean heshveanyn çheshveanyn
+59	359	slane	clane
+60	360	reagh	reaghee reaghey reaghit reaghys reaghysyn
+61	361	tayrn	dayrn hayrn hayrnys tayrnee tayrnit tayrnyn
+62	362	Baarle	
+63	363	aeg	aegey
+64	364	gorrym	ghorrym ghorrymey gorrymey
+65	365	annym	anmeenyn anmey
+66	366	yl	
+67	367	freayll	dreill freill freilt reayll
+68	368	bio	vio
+69	369	planaid	blanaid blanaidyn phlanaid phlanaidyn planaidyn
+70	370	glion	ghlion glionney glionteenyn glionteeyn
+71	371	moggyl	moggylyn voggyl voggylyn
+72	372	baljaght	baljaghtyn valjaght valjaghtyn
+73	373	scarr	scarree scarrey scarrit
+74	374	eggey	eggaghyn
+75	375	yiarn	yiarnyn
+76	376	paitçhey	baitçhyn paitçhyn phaitçhey phaitçhyn
+77	377	corockle	chorockle chorocklyn corocklyn gorocklyn
+78	378	club	chlub chlubyn clubyn glubyn
+79	379	coodagh	choodagh choodaghey choodee choodit coodaghey coodee coodit
+80	380	sthie	
+81	381	loayreyder	loayreyderyn
+82	382	politickagh	pholitickagh
+83	383	linney	linnaghyn
+84	384	crackan	chrackan chrackanagh chrackanyn chraitnagh crackanagh crackanyn craitnagh
+85	385	oayllagh	hoayllee oayllee oaylleeyn
+86	386	bluckaneyr	bluckaneyryn vluckaneyr vluckaneyryn
+87	387	reihys	reihyssyn reihysyn
+88	388	theayagh	heayagh theayee
+89	389	taghyr	daghyr haghyr haghyrys
+90	390	Gaelg	ghaelg
+91	391	commyoon	chommyoon chommyoonyn commyoonyn
+92	392	neesht	
+93	393	ayr	ayraghyn ayrey hayr hayrey
+94	394	hoi	
+95	395	arraneyder	arraneyderyn
+96	396	cultoor	chultoor chultooryn cultooryn gultoor gultooryn
+97	397	beeal	beealloo beill meill meillyn veeal
+98	398	magher	magheragh magheryn vagher vagheragh vagheryn
+99	399	baljagh	valjagh valjee
+100	400	reesht	

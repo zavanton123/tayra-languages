@@ -1,0 +1,100 @@
+1	401	lettyr	lettryn lettyryn
+2	402	arrane	arraneyn
+3	403	ellyn	ellynyn hellynyn
+4	404	çhaglym	haglym jaglym çhaglymyn
+5	405	bioee	bioghit vioee
+6	406	anchasley	
+7	407	rio	rioee rioghyn riojey riojit
+8	408	slattys	clattys lattys slattyssyn slattysyn
+9	409	yrjey	yrjaghyn
+10	410	lheead	lheeadyn
+11	411	quaiyl	guaiyl quaiylyn whaiyl whaiylyn
+12	412	cliaghtey	chliaghtaghyn chliaghtey cliaghtaghyn
+13	413	colught	cholught cholughtyn colughtyn golught
+14	414	kyndagh	chyndagh
+15	415	joarey	joaraghyn yoarey
+16	416	jeig	jeigyn yeig yeigyn
+17	417	iddaalagh	iddaalee
+18	418	logh	loghey loghyn
+19	419	clagh	chlagh chlaghagh chlaghyn chloaie claghyn cloaie glagh
+20	420	stashoon	stashoonyn
+21	421	recort	recortey recortit recortys recortyssee recortyssit recortyssyn
+22	422	troar	droarey hroar hroarey hroaryn troarey troarit troaryn
+23	423	bunstoo	bunstooghyn vunstoo vunstooghyn
+24	424	trimmid	hrimmid trimmidyn
+25	425	veg	
+26	426	mess	messyn vess
+27	427	moir	mayrey moiraghyn voir
+28	428	fwirran	fwirranyn vwirranyn wirran wirranyn
+29	429	cree	chree creeaghyn creeghyn
+30	430	dowan	ghowan
+31	431	screeuyn	screeunyn
+32	432	anchaslys	anchaslyssyn
+33	433	kiart	chiart kiartyn
+34	434	erreish	
+35	435	bunneydagh	vunneydagh
+36	436	troggit	hroggit
+37	437	cummeyder	chummeyder cummeyderyn
+38	438	begnagh	
+39	439	cryss	chryss cryssyn
+40	440	croghey	chroghey croghaghyn croghee groghey
+41	441	kemmigagh	chemmigagh chemmigee kemmigee
+42	442	arrish	arrishagh arrishee arrishyn
+43	443	çheusthie	heusthie
+44	444	coadey	choadee choadey coadee goadey
+45	445	ooh	oohey oohyn
+46	446	baghtal	maghtal vaghtal
+47	447	classicagh	chlassicagh classicee
+48	448	gamman	gammanyn ghamman ghammanyn
+49	449	skeerey	skeeraghyn
+50	450	rollageyder	rollageyderyn
+51	451	ughtar	ughtaryn
+52	452	emshiragh	emshiree
+53	453	feaillere	eaillere feaillereyn veaillere
+54	454	bollagh	bollee mollagh vollagh
+55	455	ceaghil	ceaghlaghyn ceaghley ceaghlit cheaghil cheaghlaghyn cheaghley cheaghlit geaghley
+56	456	lane	
+57	457	breeockle	breeocklyn vreeockle
+58	458	cummaght	chummaght chummaghtyn cummaghtyn gummaght
+59	459	beagh	beaghey beaghit beeaghey veaghey
+60	460	çhiarn	hiarn hiarnyn jiarn çhiarnyn
+61	461	mooadys	vooadys
+62	462	breear	breearyn vreear vreearyn
+63	463	lhiassee	lhiassaghey lhiassit
+64	464	gleashaght	ghleashaght ghleashaghtyn gleashaghtyn
+65	465	staydys	
+66	466	lomarcan	
+67	467	impiraght	himpiraght
+68	468	parlamaid	parlamaidyn pharlamaid
+69	469	oardraghey	
+70	470	mest	mestagh mestaghyn mestee mestey mestit vestagh vestaghyn vestee vestey vestit
+71	471	raa	raaghyn
+72	472	oardagh	oardaghyn
+73	473	politickeyr	pholitickeyr politickeyryn
+74	474	eaddagh	eaddee eaddeeyn
+75	475	dellal	dellalyn ghellal
+76	476	keead	cheead cheeadyn keeadyn
+77	477	goal	ghoal goaldee goalyn
+78	478	coad	choad choadaghey choadit choadyn coadaghey coadit coadyn goad
+79	479	ronsaghey	
+80	480	jesh	yesh
+81	481	niar	
+82	482	cronk	chrink chronk chruink crink croink cruink groink
+83	483	ooasle	ooashley ooasley
+84	484	bioag	bioagyn mioagyn vioag vioagyn
+85	485	sheshoil	heshoil
+86	486	ellyneyr	ellyneyryn hellyneyr
+87	487	ynrican	
+88	488	crouw	chrouw chrouwyn crouwyn
+89	489	feanish	eanish eanishyn enish feanishyn veanish
+90	490	rosh	raink roshit roshtyn roshtynyn roshys
+91	491	droghad	droghadyn ghroghad ghroghadyn
+92	492	buigh	bwee bweey muigh vuigh
+93	493	cultooragh	chultooragh
+94	494	rass	rassey rassinyn rassyn resh
+95	495	pooar	booaryn phooar phooaraghyn phooaryn pooaraghyn pooaryn
+96	496	Mart	
+97	497	kiannoort	chiannoort chiannoortyn giannoortyn kiannoortagh kiannoortyn
+98	498	emshir	emshiryn emshyr
+99	499	cashtal	cashtallyn chashtal gashtallyn
+100	500	keird	cheird cheirdey cheirdyn keirdey keirdyn

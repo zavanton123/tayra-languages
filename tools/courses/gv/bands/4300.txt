@@ -1,0 +1,100 @@
+1	4201	raipagh	
+2	4202	raisin	raisinyn
+3	4203	rangoilagh	
+4	4204	rangoil	rangoilyn
+5	4205	ransheyr	
+6	4206	resooneyder	resooneyderyn
+7	4207	rimlagh	
+8	4208	ronneyder	
+9	4209	sago	
+10	4210	salamander	salamanderyn
+11	4211	sallaid	sallaidyn
+12	4212	scaailagh	
+13	4213	sceau	
+14	4214	screeagh	screeaghee
+15	4215	seyrraad	seyrraadyn
+16	4216	sharrooid	
+17	4217	sheeleyder	
+18	4218	sheid	sheidit
+19	4219	shilleeid	
+20	4220	shirg	shirgaghey
+21	4221	shlearee	shlearit
+22	4222	shliawin	shliawinagh
+23	4223	skirr	skirrey
+24	4224	skon	
+25	4225	skorran	skorranyn
+26	4226	slumm	
+27	4227	smullish	
+28	4228	snaipyr	
+29	4229	sneih	
+30	4230	snug	snuggal
+31	4231	soalley	
+32	4232	soaralagh	
+33	4233	sourinagh	
+34	4234	spyrrydoilaghys	
+35	4235	sthrap	
+36	4236	strollagh	
+37	4237	surdey	
+38	4238	symm	symmyn
+39	4239	taarit	
+40	4240	tanneen	
+41	4241	teaymid	teaymidyn
+42	4242	teih	
+43	4243	teihyssagh	
+44	4244	tessenane	tessenaneyn
+45	4245	thortagh	
+46	4246	toghteen	
+47	4247	toghteyder	
+48	4248	tooish	
+49	4249	tortys	
+50	4250	traastey	
+51	4251	tunney	tunnaghyn
+52	4252	turcaid	
+53	4253	uddan	uddanyn
+54	4254	ullag	
+55	4255	undaahagh	
+56	4256	unraghey	
+57	4257	unsheeanagh	
+58	4258	varnish	
+59	4259	marvaanagh	varvaanee
+60	4260	wheddyragh	
+61	4261	yngin	ynginyn
+62	4262	ynsheelraghey	
+63	4263	çhaplyn	
+64	4264	çhemmalagh	
+65	4265	çhuintys	
+66	4266	çhymsit	
+67	4267	bioghey	vioghey
+68	4268	stroialtys	
+69	4269	fysserree	
+70	4270	shamrag	
+71	4271	shaghrynys	
+72	4272	seshoon	seshoonyn
+73	4273	jeesaid	
+74	4274	fyshoayllee	
+75	4275	aignagh	
+76	4276	alkalaihagh	
+77	4277	symnit	
+78	4278	arrym	
+79	4279	feeudys	
+80	4280	cushag	
+81	4281	lesbeeagh	
+82	4282	harmoan	
+83	4283	rouanagh	rouanee
+84	4284	spittal	spittalyn
+85	4285	lhon	lhonyn
+86	4286	skeilt	skeiltey
+87	4287	kaartgraafee	chaartgraafee
+88	4288	kiap	kip
+89	4289	beasagh	veasagh
+90	4290	breearagh	vreearagh
+91	4291	anney	annaghyn nanney
+92	4292	nastey	nastaghyn
+93	4293	sheckter	heckter
+94	4294	freeney	freenaghyn freeniaghyn
+95	4295	mergey	mergaghyn vergey
+96	4296	kialgeyr	chialgeyr chialgeyryn
+97	4297	faal	aal faalyn vaal
+98	4298	feeuid	feeuidyn
+99	4299	bannish	bannishyn vannish vanshey
+100	4300	scaane	scaaneyn

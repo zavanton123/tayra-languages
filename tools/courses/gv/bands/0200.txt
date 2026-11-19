@@ -1,0 +1,100 @@
+1	101	ynnyd	ynnydyn
+2	102	soit	hoit
+3	103	sleih	
+4	104	fouyr	fouyir ouyir
+5	105	traa	draa hraa hraaghyn traaghyn
+6	106	dagh	gagh ghagh
+7	107	nagh	
+8	108	fockle	fockleyn focklit focklyn ockle ockleyn ocklyn vocklyn
+9	109	lurg	
+10	110	eear	heear heearyn neear
+11	111	feie	deie eie eieit eieyn
+12	112	screeu	screeuee screeuit screeuys scruit
+13	113	lheh	
+14	114	thalloo	dhalloo dhallooyn halloo hallooin hallooyn thallooin thallooyn
+15	115	doo	dooey ghoo ghooey noo nooghyn
+16	116	geurey	geuraghyn geuree gheurey yeurey
+17	117	sampleyr	hampleyr hampleyryn sampleyryn tampleyr
+18	118	fakin	akin akinyn vakin
+19	119	unnaneysit	
+20	120	pobble	phobble phobbyl phobbylyn pobbyl pobbylyn
+21	121	earroo	earrooyn nearroo nearrooyn
+22	122	mooir	marrey mooiraghyn mooiryn muir vooir vuir
+23	123	un	
+24	124	cass	cassee cassey cassyn chass chassagh chassey chassyn chosh cosh coshey gass gassagh gassaghyn gassey gassyn ghass ghassagh gish
+25	125	aase	aasee aaseyn aasit daase gaase haase haaseyn
+26	126	caayr	caayryn chaayr chaayryn
+27	127	roish	roin roue rouesyn royd roym
+28	128	çheu	heu çheughyn çheuyn
+29	129	mee	meeaghyn meeghyn vee veeghyn
+30	130	eaghtyr	eaghtyryn heaghtyr
+31	131	tree	dree hree three
+32	132	corys	chorys choryssyn coryssyn corysyn gorys
+33	133	shiar	hiar çhiar
+34	134	arree	arraghey arrit
+35	135	reeriaght	reeriaghtyn
+36	136	obbree	dobbree gobbraghey obbraghey obbreeagh obbreeyn obbrit
+37	137	preeu	breeu phreeu
+38	138	derrey	gherrey
+39	139	mysh	miu moee moo mood mooin mooiney moosyn
+40	140	gyn	ghyn
+41	141	kione	ching chione ging gione king
+42	142	ram	
+43	143	possan	bossan bossanyn phossan phossanyn possanyn
+44	144	gys	
+45	145	lheid	
+46	146	skeeal	skeeallyn skeealyn
+47	147	queiggey	queiggaghyn wheiggaghyn wheiggey
+48	148	dooie	dooieyn ghooie ghooieyn nooieyn
+49	149	taghyrt	daghyrt daghyrtyn haghyrt haghyrtyn taghyrtyn
+50	150	straih	straihyn
+51	151	caggey	caggaghyn caggee chaggaghyn chaggee chaggey
+52	152	penn	benn bentyn penney phenn ventyn
+53	153	ennagh	dennee ennee ennit
+54	154	boayl	buill buillaghyn buillee builley moayl muill voayl vuilley
+55	155	ushtey	ushtaghyn
+56	156	gow	ghoghe ghoit ghow ghoys goit goym
+57	157	lioar	lioaragh lioaryn
+58	158	my	m'
+59	159	keeall	cheeall cheeayl cheilley keeallyn keeayl
+60	160	feer	eer
+61	161	cowrey	chowraghyn chowrey cowraghyn gowraghyn
+62	162	ruggit	
+63	163	reiltys	reiltyssyn reiltysyn
+64	164	seose	
+65	165	marish	maree mareeish marin maroo marym mayrt merriu varish verriu
+66	166	mennick	menkey vennick
+67	167	paart	baartyn paartail paartyn phaart phaartail phaartyn
+68	168	abbyr	dooyrt ghra gra grait grayn graynyn ngra
+69	169	ashoonagh	nashoonagh
+70	170	enmyssit	
+71	171	mygeayrt	
+72	172	bea	mea vea
+73	173	noi	
+74	174	duillag	duillagyn ghuillag ghuillagyn
+75	175	pobblaght	phobblaght phobblaghtyn pobblaghtyn
+76	176	slyst	clyst lyst lystyn slystyn
+77	177	car	char gar
+78	178	soie	hoiaghey hoiaghyn hoie hoieagh soiaghaghyn soiaghey soiaghyn soiee toiaghey
+79	179	stiur	stiuraghyn stiuree stiurey stiurit stiurys
+80	180	seihll	heihill heihll seihill seihllyn teihill teihll theihill theihll
+81	181	reih	reiht reihyn
+82	182	awin	awiney awinyn hawin
+83	183	sheear	çheear
+84	184	trooid	drooid hrooid
+85	185	Nollick	
+86	186	mastey	
+87	187	kuse	chuse guse
+88	188	keddin	cheddin
+89	189	ymmodee	shlee
+90	190	caslys	caslyssyn chaslys chaslyssyn gaslys
+91	191	lught	lughtaghey lughtee lughtey lughtit lughtyn
+92	192	lus	lussyn
+93	193	cooish	chooish chooishyn cooishyn gooishyn
+94	194	harrish	harree harrin harroo
+95	195	blaa	blaaghey blaaghyn vlaa vlaagh vlaaghaghyn vlaaghey vlaaghyn
+96	196	red	reddyn redyn
+97	197	voish	voee voeeish voin voue vouesyn
+98	198	ree	reeaghyn reeghyn reeish
+99	199	nah	
+100	200	roie	roieagh roiee roit

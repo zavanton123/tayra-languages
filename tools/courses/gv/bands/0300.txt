@@ -1,0 +1,100 @@
+1	201	ga	
+2	202	scannane	scannaneyn
+3	203	ruggyr	ruggyree ruggyryn
+4	204	kiare	chiare chiarit kiareyn kiarit
+5	205	by	b'
+6	206	oikoil	
+7	207	oaylleeaght	hoaylleeaght oaylleeaghtyn
+8	208	faggys	aggys niessey sniessey
+9	209	yei	
+10	210	croo	chroo chrooagh chrooit chrooys crooit groo
+11	211	adsyn	
+12	212	aght	aghtagh aghtey aghtit aghtyn haghtyn
+13	213	lieh	
+14	214	sorçh	horçh sorçhal sorçhit sorçhyn torçh
+15	215	reir	reiragh reiraghyn reiree reirey reirit
+16	216	screeudeyr	screeudeyryn scrudeyr scrudeyryn
+17	217	laa	laghyn
+18	218	rollage	rollageyn
+19	219	meanagh	veanagh
+20	220	aundyr	aundyryn
+21	221	shirveish	hirveish hirveishagh hirveishee hirveishit hirveishyn shirveishagh shirveishee shirveishit shirveishyn çhirveish çhirveishagh
+22	222	aghteyr	aghteyryn
+23	223	irree	dirree girraghey girree irreeagh irreeyn irrit
+24	224	bunnit	vunnit
+25	225	oltey	holtey holteynyn oltaghyn olteyn olteynyn
+26	226	Frangish	
+27	227	Boaldyn	
+28	228	cruinney	chruinney cruinnaghyn
+29	229	ynsee	dynsee gynsaghey nynsaghey ynsaghey ynsit
+30	230	caghlaa	caghlaaee caghlaaghyn caghlaait chaghlaa chaghlaaghyn chaghlaays gaghlaa
+31	231	fys	
+32	232	killag	chillag chillaghyn chillagyn gillagyn killaghyn killagyn
+33	233	cho	
+34	234	billey	biljyn billaghyn miljyn millaghyn milley viljyn villey
+35	235	cloieder	chloieder chloiederyn cloiederyn
+36	236	sheshaght	heshaght heshaghtyn sheshaghtyn çheshaght
+37	237	studeyrys	studeyryssyn studeyrysyn
+38	238	laue	laueyn
+39	239	Yernish	
+40	240	Averil	
+41	241	kiaull	chiaull chiaullee kiaullee kiaullit
+42	242	scanshoil	
+43	243	oyr	oyryn
+44	244	bane	baney vane vaney
+45	245	far	
+46	246	goaldagh	ghoaldagh ghoaldee
+47	247	cosn	chosnee chosney chossyn cosnaghyn cosnee cosney cosnit gosney
+48	248	cosoylagh	chosoylagh chosoylaghey chosoylee cosoylaghey cosoylee cosoylit gosoylaghey
+49	249	scoill	schoill scoillyn
+50	250	fa	
+51	251	eaghtyrane	eaghtyraneyn
+52	252	shennaghys	hennaghys çhennaghys
+53	253	sheese	
+54	254	ayrn	ayrnyn
+55	255	foast	
+56	256	unnane	nane
+57	257	enmys	denmys enmyssee enmyssyn enmysyn genmys
+58	258	cowree	chowraghey chowree chowrit cowraghey cowrit
+59	259	stoo	stooghyn
+60	260	partee	parteeghyn parteeyn phartee pharteeghyn pharteeyn
+61	261	myrane	
+62	262	towl	duill howl howlin howlley huill towlit towlley towlyn tuill
+63	263	erbee	
+64	264	abbyrt	abbyrtyn habbyrtyn
+65	265	kynney	chynnee chynneeyn chynney gynney kynnee kynneeyn
+66	266	jiu	
+67	267	sollys	hollys hollysh sollysh sollyssyn tollys tollysh
+68	268	bree	breeaghit mree vree
+69	269	jalloo	jallooagh jallooit jallooyn yalloo yallooagh yallooyn
+70	270	purt	buirt burt burtyn phuirt phurt phurtyn puirt purtey purtyn vurt
+71	271	soilshey	hoilshaghyn hoilshee hoilshey hoilshit soilshaghyn soilshee soilshit toilshey
+72	272	gollrish	ghollrish
+73	273	glare	ghlare glaraghyn nglare
+74	274	jiarg	jiargey jiargyn yiarg yiargey
+75	275	reill	reillagh reillee reilley reillyn reillys
+76	276	Luanistyn	
+77	277	troggal	droggal hroggal hroggalyn troggalyn
+78	278	loayrt	loayrtyn
+79	279	ceau	ceauee ceaut cheau geau
+80	280	jeeagh	jeeaghyn yeeagh yeeaghyn
+81	281	millioon	millioonyn
+82	282	dooghyssagh	dooghyssee ghooghyssagh
+83	283	keim	cheim cheimyn keimyn
+84	284	çhellveeish	hellveeish çhellooish çhellveeishee
+85	285	seyr	heyr heyrey heyrit seyir seyrey seyrit teyr teyrey
+86	286	aa	
+87	287	jeeragh	jeeraghey jeeree jeerit yeeragh yeeraghey yeeree yeerit
+88	288	roll	rollaghyn rolley rollit
+89	289	aer	aeragh
+90	290	soilshaghey	hoilshaghey soilshaghyn toilshaghey
+91	291	jeianagh	jeianaghey jeianee jeianit yeianagh yeianaghey
+92	292	ynnydagh	ynnydee
+93	293	myrgeddin	
+94	294	eiyrtys	eiyrtyssyn
+95	295	losserey	losseree lossreeyn
+96	296	unnaneys	
+97	297	leah	
+98	298	lhie	laiyt lhiee lhieys
+99	299	keeill	cheeill chialteenyn chillagh chilley keeilley kialteenyn killagh killey
+100	300	dooinney	deinney ghooinney

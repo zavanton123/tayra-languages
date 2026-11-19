@@ -1,0 +1,100 @@
+1	4101	folaue	
+2	4102	foshlaght	
+3	4103	frankincense	
+4	4104	fritlagagh	
+5	4105	froaishid	
+6	4106	fyrryn	
+7	4107	gannidagh	
+8	4108	gennid	
+9	4109	gerjoilagh	
+10	4110	geyree	geyraghey
+11	4111	gennallys	ghennallys
+12	4112	gleashtaneyr	gleashtaneyryn
+13	4113	gleiy	
+14	4114	collish	gollish
+15	4115	gorrymagh	
+16	4116	gortagh	
+17	4117	graaf	graafyn
+18	4118	graddane	graddaneyn
+19	4119	greimmaltagh	
+20	4120	grenaidagh	grenaidee
+21	4121	gryle	
+22	4122	guinney	guinnaghyn
+23	4123	guirrlan	
+24	4124	eaghtyran	
+25	4125	tilgagh	hilgee
+26	4126	hoghtad	hoghtadyn
+27	4127	impiroilaghys	
+28	4128	iuder	iuderyn
+29	4129	jaddag	
+30	4130	jeeaghtagh	
+31	4131	jeelymagh	
+32	4132	jeenys	
+33	4133	jeeraght	
+34	4134	jeirr	
+35	4135	jelleenagh	
+36	4136	jouyllagh	
+37	4137	keainal	
+38	4138	kummyn	chummynyn
+39	4139	kellaloys	
+40	4140	kentimedar	kentimedaryn
+41	4141	kerçheenagh	
+42	4142	kerçheenys	kerçheenysyn
+43	4143	kiarailagh	kiarailee
+44	4144	kicklone	
+45	4145	kilowatt	
+46	4146	kinseyr	kinseyryn
+47	4147	kioot	
+48	4148	kyndaghey	
+49	4149	laarvagh	
+50	4150	laylac	
+51	4151	lhiannag	lhiannagyn
+52	4152	lhiare	
+53	4153	lhiastid	
+54	4154	lhieeneydagh	
+55	4155	lhunney	lhunnaghyn
+56	4156	sloc	lic
+57	4157	liggrys	
+58	4158	loauys	
+59	4159	loggyr	
+60	4160	manglym	manglymyn
+61	4161	marmyragh	
+62	4162	mask	maskyn
+63	4163	meereggyragh	
+64	4164	meeslayntoil	
+65	4165	meestiurey	
+66	4166	mennickaght	
+67	4167	meshtey	
+68	4168	molk	molkey
+69	4169	moon	moonagh
+70	4170	moost	moostey
+71	4171	mosaic	mosaicyn
+72	4172	myghinagh	
+73	4173	mynchooishaght	
+74	4174	mynn	mynney
+75	4175	mynvrish	mynvrishey
+76	4176	naghtyreen	
+77	4177	naitraid	naitraidyn
+78	4178	nearee	nearit
+79	4179	neuaashideyr	
+80	4180	neuhreishteilys	
+81	4181	neuloghtynid	
+82	4182	neuphersoonagh	
+83	4183	neuvarvaanys	
+84	4184	oalan	
+85	4185	olla	
+86	4186	ombyr	
+87	4187	ourallagh	
+88	4188	paganaght	
+89	4189	palçhid	
+90	4190	pasheyder	
+91	4191	peedyr	peedyryn
+92	4192	pemmad	pemmadyn
+93	4193	piggyl	
+94	4194	piobeyr	piobeyryn
+95	4195	polyheedrane	
+96	4196	pynt	
+97	4197	queigad	
+98	4198	quiggal	
+99	4199	raghtanagh	
+100	4200	roayrt	

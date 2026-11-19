@@ -1,0 +1,100 @@
+1	1901	troaragh	hroaragh
+2	1902	asney	asnaghyn
+3	1903	acyr	acyryn
+4	1904	cloiet	chloiet
+5	1905	foayr	foayrit
+6	1906	delleyder	delleyderyn ghelleyder ghelleyderyn
+7	1907	keirdagh	cheirdagh cheirdee keirdee
+8	1908	folmid	folmidyn olmid olmidyn
+9	1909	shicklaagagh	hicklaagagh shicklaagee
+10	1910	sheshengoaylleeaght	heshengoaylleeaght
+11	1911	criggad	chriggad
+12	1912	meein	veein
+13	1913	ardjid	ardjidyn
+14	1914	cuirtlagh	chuirtlagh guirtlagh
+15	1915	caair	caairyn chaair
+16	1916	scrutaght	scrutaghtyn
+17	1917	imman	immanee immanit
+18	1918	shooylaghan	çhooylaghan
+19	1919	jaggad	jaggadyn
+20	1920	toshtal	hoshtal
+21	1921	aane	aaney aaneyn haane
+22	1922	crottyl	chrottyl crottylyn
+23	1923	atçhim	
+24	1924	barr	barryn varr
+25	1925	bwoailley	bwoaillee bwoailtçhyn bwoallaghyn bwoalley mwoalley woailley
+26	1926	fendeilagh	fendeilee
+27	1927	coar	choar coaryn harrin
+28	1928	minnid	minnidyn
+29	1929	dramadeyr	ghramadeyr
+30	1930	volcaan	volcaanyn
+31	1931	seyrlannyn	heyrlannyn
+32	1932	cruinnag	chruinnag cruinnagyn
+33	1933	guiy	ghuiy guoiee
+34	1934	goul	ghoul
+35	1935	arbyl	arbyllyn arbylyn
+36	1936	skeealleydagh	
+37	1937	aachummit	
+38	1938	rooragh	
+39	1939	phlannad	
+40	1940	lheah	
+41	1941	shannad	hannad çhannad
+42	1942	caashey	caashaghyn chaashey
+43	1943	cairys	chairys
+44	1944	aawoalley	aawoallaghyn
+45	1945	egin	
+46	1946	credjuagh	chredjuagh chredjuee
+47	1947	craueagh	chraueagh
+48	1948	freilleyder	freilleyderyn reilleyder
+49	1949	meeyl	meeyllyn meeylyn veeyl veeylyn
+50	1950	jeeig	jeeigey jeeigit jeeigyn yeeigit
+51	1951	coyrd	choyrd coyrdyn
+52	1952	eeastagh	
+53	1953	reiltysagh	
+54	1954	droop	droopyn ghroop ghroopyn nroopyn
+55	1955	boddagh	boddee voddagh
+56	1956	eesotoyp	eesotoypyn
+57	1957	rollian	rollianyn
+58	1958	creauagh	chreauagh
+59	1959	scaailan	scaailanyn
+60	1960	çheshveanagh	
+61	1961	eaghtyraneagh	
+62	1962	assaig	
+63	1963	fakider	akider fakideryn
+64	1964	ratçh	ratçhyn
+65	1965	sleayst	cleayst leaystaghyn leaystey sleaystagh sleaystey
+66	1966	shennaghyssagh	hennaghyssagh hennaghyssee
+67	1967	essylagh	
+68	1968	scoillaragh	
+69	1969	cam	cham
+70	1970	brisht	vrisht
+71	1971	maynagh	maynee vaynagh vaynee
+72	1972	beoyn	beoynyn
+73	1973	mooadit	vooadit
+74	1974	naim	
+75	1975	oe	
+76	1976	seyraanaght	teyraanaght
+77	1977	shellan	hellan shellanyn
+78	1978	tosheeaght	hosheeaghtyn
+79	1979	cooylloo	chooylloo
+80	1980	dorrys	dorrysh dorryssyn
+81	1981	cainle	cainleagh cainleyn chainle
+82	1982	cagh	
+83	1983	mish	
+84	1984	diagram	diagramyn
+85	1985	oashyr	oashyryn
+86	1986	freillt	reillt
+87	1987	neuchrogheydys	
+88	1988	agglishagh	
+89	1989	eaghtyryssyn	
+90	1990	aloe	aloeyn
+91	1991	graafagh	ghraafagh graafee
+92	1992	girrey	
+93	1993	sluightagh	luightagh sluightee
+94	1994	thallooinit	hallooinit
+95	1995	anchoodaghey	
+96	1996	babbanagh	vabbanagh
+97	1997	sunt	hunt
+98	1998	meih	meihaghey meihaghyn meihit meihyn
+99	1999	meaineraght	veaineraght
+100	2000	shenndaaleeagh	henndaaleeagh

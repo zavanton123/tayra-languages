@@ -1,0 +1,100 @@
+1	2601	parr	barragh parail
+2	2602	renaig	renaigyn
+3	2603	spios	spiosyn
+4	2604	teaum	teaumey
+5	2605	turrysaght	
+6	2606	etlanys	
+7	2607	beeagheyder	veeagheyderyn
+8	2608	oardrail	
+9	2609	soilsheydys	
+10	2610	masoonagh	masoonee vasoonagh
+11	2611	keimeeaght	cheimeeaght
+12	2612	shiast	hiast shiastyn
+13	2613	corralagh	chorralagh
+14	2614	eilley	eillaghyn
+15	2615	jerkallys	jerkallysyn
+16	2616	marg	margyn
+17	2617	sluggidagh	sluggidee
+18	2618	turtyl	turtylyn
+19	2619	saualtagh	haualtagh taualtagh
+20	2620	cooylley	chooylley cooyllaghyn
+21	2621	brooight	brooightaghyn brooightee brooightey brooightit vrooightaghyn vrooightey
+22	2622	atçhimagh	atçhimee
+23	2623	freggyr	dreggyr reggyryn
+24	2624	shirr	hirr shirree shirrym
+25	2625	case	caseyn
+26	2626	croym	chroymmit croymmey
+27	2627	fuillagh	fuillee vuillee
+28	2628	plastaid	phlastaid plastaidyn
+29	2629	aaght	aaghtyn
+30	2630	arthropod	arthropodyn
+31	2631	glaare	ghlaare ghlaareyn
+32	2632	kereagh	chereagh
+33	2633	leac	
+34	2634	prose	phrose
+35	2635	slatt	lattyn slattyn
+36	2636	smooirlagh	smooirlee
+37	2637	giense	gienseyn yiense
+38	2638	ogham	
+39	2639	tryal	hryal tryallyn
+40	2640	keylljagh	cheylljagh
+41	2641	conning	chonning conneeyn
+42	2642	faaishnagh	aaishnagh
+43	2643	noaid	noaidyn
+44	2644	bardoil	vardoil
+45	2645	boghtinys	voghtinys
+46	2646	discreajagh	
+47	2647	foayssagh	
+48	2648	scaaillagh	
+49	2649	soilsheanagh	hoilsheanagh
+50	2650	spittag	
+51	2651	stroos	
+52	2652	jiargee	jiargaghey
+53	2653	groamid	ghroamid
+54	2654	shioltane	shioltaneyn
+55	2655	thorran	thorranyn
+56	2656	tournamint	hournamint
+57	2657	beayf	meayfyn
+58	2658	trimshagh	hrimshagh
+59	2659	ymmyrçhagh	ymmyrçhee
+60	2660	chiass	hiass
+61	2661	fee	vee
+62	2662	tayrneyder	tayrneyderyn
+63	2663	cohaglym	chohaglym cohaglymyn
+64	2664	maghouin	maghouinyn vaghouin vaghouinyn
+65	2665	keeaght	cheeaght
+66	2666	lheiltys	
+67	2667	cremeydys	chremeydys
+68	2668	enn	
+69	2669	date	dateyn ghate
+70	2670	feayraghey	eayraghey feayree
+71	2671	fliughid	liughid
+72	2672	greesaghey	ghreesaghey
+73	2673	jarrood	
+74	2674	laarvey	laarvaghyn
+75	2675	naunt	nauntyn
+76	2676	neuorgaanagh	
+77	2677	seihlltagh	heihlltagh
+78	2678	shenndaalee	shenndaaleeyn
+79	2679	eearagh	
+80	2680	çhoarym	
+81	2681	tom	dom hom
+82	2682	tombagey	hombagey
+83	2683	arroo	
+84	2684	bac	
+85	2685	cooyrtoilid	
+86	2686	covestagh	chovestagh
+87	2687	freggyragh	
+88	2688	friogganagh	
+89	2689	shellooderaght	
+90	2690	skaa	
+91	2691	soshiallys	toshiallys
+92	2692	çheualagh	
+93	2693	cadjinagh	chadjinagh
+94	2694	stoandey	stoandaghyn
+95	2695	mynlught	mynlughtyn
+96	2696	prios	prioseil priosyn
+97	2697	croghagh	chroghagh chroghee
+98	2698	fioghey	vioghey
+99	2699	jerkit	
+100	2700	Shapaanish	
