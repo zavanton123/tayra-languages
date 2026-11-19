@@ -70,7 +70,7 @@ LANGUAGES = [
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "az",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "sw", "kk",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
@@ -108,6 +108,8 @@ FALLBACKS = {
     "kk": {"leipzig": ["kaz_newscrawl_2016_1M", "kaz_news_2020_30K"], "wikipedia_sentences": ["kaz_wikipedia_2021_300K"]},
     "ko": {"leipzig": ["kor_news_2019_1M"]},
     "ms": {"leipzig": ["msa-my_web_2013_1M"]},
+    "af": {"leipzig": ["afr_news_2016_300K", "afr_news_2017_300K", "afr-za_web_2015_1M"],
+           "wikipedia_sentences": ["afr_wikipedia_2021_300K"], "frequencywords": "af"},
 }
 
 # Languages written without spaces: a corpus's runs of letters are cut into words as the app's
@@ -227,6 +229,11 @@ SOURCE_ORDER["az"] = ["leipzig", "subtitles", "wikipedia_sentences"]
 BLEND.add("az")
 SOURCE_WEIGHTS["az"] = {"leipzig": 0.45, "subtitles": 0.45, "wikipedia_sentences": 0.1}
 SOURCE_FORMS["az"] = 2_000_000
+# Afrikaans has no wordfreq list: it is counted from Leipzig's news and web text (1.6 million sentences), its Wikipedia's
+# sentences and the subtitles, whose 18,000 forms bring in the spoken words.
+SOURCE_ORDER["af"] = ["leipzig", "wikipedia_sentences", "frequencywords"]
+BLEND.add("af")
+SOURCE_WEIGHTS["af"] = {"leipzig": 0.5, "wikipedia_sentences": 0.2, "frequencywords": 0.3}
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -289,6 +296,10 @@ EXCLUDE["km"] = frequency_km.KHMER_EXCLUDE
 OVERRIDES["kk"] = frequency_kazakh.KAZAKH_OVERRIDES
 from frequency_fixes import HEBREW_CUT, HEBREW_WHOLE  # noqa: E402
 import frequency_albanian  # noqa: E402
+import frequency_afrikaans  # noqa: E402
+
+OVERRIDES["af"] = frequency_afrikaans.OVERRIDES
+EXCLUDE["af"] = frequency_afrikaans.EXCLUDE
 
 OVERRIDES["sq"] = frequency_albanian.OVERRIDES
 EXCLUDE["sq"] = frequency_albanian.EXCLUDE
@@ -3076,6 +3087,8 @@ def normalise(language, form):
     # Kazakh text writes і as the Latin i in many words (едi, кейiн), and some other letters as their Latin look-alikes.
     if language == "kk":
         return frequency_kazakh.normalise(form)
+    if language == "af":
+        return frequency_afrikaans.normalised(form)
     return form
 
 
@@ -4898,6 +4911,8 @@ def load_dictionary(language):
         frequency_mongolian.load(db, pos, lemmas, common, DICTIONARIES)
     if language == "kk":
         frequency_kazakh.load(db, pos, lemmas, common, DICTIONARIES)
+    if language == "af":
+        frequency_afrikaans.load(pos, lemmas, common, DICTIONARIES)
     if language in FINNIC_OWN_SENSES:
         own, plain = finnish_kinds(db, lemmas, language)
         for word, kinds in unlisted.items():
