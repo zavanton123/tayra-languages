@@ -1,0 +1,237 @@
+{
+  "id": "sq-mini-0400",
+  "rankUpTo": 400,
+  "level": "A2",
+  "title": "Në qytet",
+  "description": "Ten short stories about life in the towns of Albania and Kosovo: asking the way, a lost dog, a fire, a stolen phone, a new school and a street football match.",
+  "topic": "In the city",
+  "names": [
+    "Xhulia",
+    "Korça",
+    "Tiranë",
+    "Tiranës",
+    "Lorena",
+    "Elbasanit",
+    "Durrësit",
+    "Liljana",
+    "Lili",
+    "Redoni",
+    "Redonin",
+    "Redonit",
+    "Durrësi",
+    "Bobi",
+    "Donika",
+    "Donikës",
+    "Prishtinë",
+    "Berisha",
+    "Gerti",
+    "Gertit",
+    "Shkodër",
+    "Hamdi",
+    "Armela",
+    "Armelës",
+    "Sarandë",
+    "Qemali",
+    "Berat",
+    "Beratin",
+    "Beratit",
+    "Rudina",
+    "Rudinën",
+    "Blendi",
+    "Blendit",
+    "Prizren",
+    "Hana",
+    "Hanës",
+    "Hanën",
+    "Sabriu",
+    "Sabriut",
+    "Sabriun",
+    "Elbasani",
+    "Elbasan",
+    "Klodiani",
+    "Pjetri",
+    "Pjetrin",
+    "Nju",
+    "Jork",
+    "Jorkun",
+    "Jorku",
+    "Lezhë",
+    "Megi",
+    "Megit",
+    "Eltoni",
+    "Elton",
+    "Mirjeta"
+  ],
+  "lessons": [
+    {
+      "title": "Si quhet kjo rrugë?",
+      "summary": "Xhulia from Korça is in Tirana for the first time; an older lady tells her the way to her friend's street, and she walks there.",
+      "newWords": [
+        "përshëndetje",
+        "quhem",
+        "quaj",
+        "larg",
+        "afër",
+        "drejt",
+        "përpara",
+        "lart",
+        "këmbë",
+        "katër",
+        "siç"
+      ],
+      "text": "Xhulia është nga Korça. Sot ajo është në Tiranë për herë të parë. Ajo do të shkojë te mikja e saj, Lorena. Lorena jeton në rrugën e Elbasanit.\n\nPor Xhulia nuk e di ku është kjo rrugë. Ajo sheh një zonjë në rrugë.\n\n“Përshëndetje!” thotë Xhulia. “Më falni, si quhet kjo rrugë?”\n\n“Përshëndetje!” thotë zonja. “Kjo rrugë quhet rruga e Durrësit. Ku do të shkosh?”\n\n“Te rruga e Elbasanit. A është larg?”\n\n“Jo, nuk është larg. Është afër. Shko drejt përpara. Pas katër minutash, rruga shkon lart. Ti shko lart. Atje është rruga e Elbasanit.”\n\n“Mund të shkoj në këmbë?”\n\n“Po, sigurisht. Në këmbë janë vetëm katër minuta.”\n\n“Faleminderit shumë!” thotë Xhulia. “Unë quhem Xhulia. Po ju, si quheni?”\n\n“Unë quhem Liljana”, thotë zonja. “Por njerëzit e kësaj rruge më quajnë zonja Lili. Edhe ti më quaj kështu!”\n\nXhulia ecën drejt përpara, siç i tha zonja Lili. Pas katër minutash, rruga shkon lart. Xhulia shkon lart në këmbë. Atje ajo pyet një djalë: “Si quhet kjo rrugë?”\n\n“Kjo është rruga e Elbasanit”, thotë djali.\n\nLorena e pret te dera. “Xhulia! Mirë se erdhe! A ishte larg?”\n\n“Jo, ishte shumë afër”, thotë Xhulia. “Erdha në këmbë, siç më tha një zonjë e mirë. Ajo quhet Liljana, por të gjithë e quajnë zonja Lili.”\n\n“E njoh!” thotë Lorena. “Zonja Lili jeton afër. Ajo i njeh të gjitha rrugët e Tiranës, siç e njeh shtëpinë e saj.”\n\nPyetje:\nKu do të shkojë Xhulia?\nXhulia do të shkojë te mikja e saj, Lorena, në rrugën e Elbasanit.\nSi quhet rruga ku është Xhulia?\nRruga quhet rruga e Durrësit.\nA është larg rruga e Elbasanit?\nJo, nuk është larg. Është afër.\nSi shkon Xhulia te Lorena?\nXhulia shkon në këmbë: drejt përpara dhe pastaj lart.\nSi e quajnë njerëzit zonjën Liljana?\nNjerëzit e quajnë zonja Lili."
+    },
+    {
+      "title": "Ku është Bobi?",
+      "summary": "In Durrës, Redon's little dog Bobi runs off; Redon and his mum search all day, and a man phones to say he has the dog.",
+      "newWords": [
+        "qen",
+        "mama",
+        "lidh",
+        "kontrolloj",
+        "nën",
+        "tërë",
+        "telefon",
+        "telefonoj",
+        "shpresoj",
+        "lumtur"
+      ],
+      "text": "Redoni është një djalë i vogël nga Durrësi. Ai jeton me mamanë e tij. Ata kanë një qen të vogël. Qeni quhet Bobi.\n\nÇdo ditë Redoni dhe mama e tij dalin me qenin në rrugë. Mama e lidh qenin, sepse në rrugë ka shumë makina.\n\nSot mama nuk e lidh mirë. Bobi ikën!\n\n“Bobi! Bobi!” thërret Redoni. Ai e kërkon. Ai kontrollon nën makina. Bobi nuk është atje. Mama kontrollon rrugët e tjera. Bobi nuk është as atje.\n\nAta e kërkojnë tërë ditën. Mama u telefonon miqve të saj. “A e dini ku është qeni ynë?” “Jo, nuk e dimë.”\n\nNatën Redoni nuk ha. Ai rri me telefonin e mamasë në dorë.\n\n“Shpresoj që Bobi është mirë”, thotë mama.\n\n“Edhe unë shpresoj”, thotë Redoni. “Ku është ai tani?”\n\nAtëherë bie telefoni. Mama e merr telefonin. Një burrë telefonon.\n\n“Përshëndetje. Kam një qen të vogël këtu, nën makinën time. Ai ka numrin tuaj të telefonit.”\n\n“Bobi!” thotë Redoni. “Ku jeni ju?”\n\n“Jam afër. Në rrugën tjetër, te shtëpia e madhe.”\n\nMama dhe Redoni shkojnë shpejt. Bobi është atje, nën makinën e burrit. Kur e sheh Redonin, ai vjen te ai. Redoni është shumë i lumtur. Edhe Bobi është i lumtur. Edhe mama është e lumtur.\n\n“Faleminderit që na telefonuat!” i thotë mama burrit.\n\nTani mama e lidh qenin shumë mirë. Dhe tërë natën Bobi rri afër Redonit.\n\nPyetje:\nSi quhet qeni i Redonit?\nQeni i Redonit quhet Bobi.\nPse e lidh mama qenin?\nMama e lidh qenin, sepse në rrugë ka shumë makina.\nKu e kërkon Redoni qenin?\nRedoni e kërkon nën makina.\nKush u telefonon mamasë dhe Redonit?\nNjë burrë nga rruga tjetër u telefonon.\nKu është Bobi?\nBobi është nën makinën e burrit."
+    },
+    {
+      "title": "Gjaku i Donikës",
+      "summary": "In Prishtina, Donika gives blood for the first time; she is a little afraid, but the doctor calms her and it turns out to be easy.",
+      "newWords": [
+        "gjak",
+        "person",
+        "rëndësishëm",
+        "doktor",
+        "ndihem",
+        "qetësohem",
+        "lehtë",
+        "ujë",
+        "trup",
+        "gjithashtu"
+      ],
+      "text": "Donika jeton në Prishtinë. Një ditë ajo dëgjon se spitali i qytetit ka nevojë për gjak. Gjaku është shumë i rëndësishëm. Gjaku i një personi mund të ndihmojë tre persona të tjerë.\n\nDonika do të ndihmojë. Por ajo ka pak frikë. Është hera e parë.\n\nNë spital e pret doktor Berisha. “Përshëndetje! Si ndiheni sot?”\n\n“Mirë, doktor. Por kam pak frikë.”\n\n“Qetësohuni”, thotë doktori. “Është shumë e lehtë. Uluni këtu dhe pini pak ujë.”\n\nDonika ulet dhe pi ujë. Doktori i thotë: “Mos kini frikë. Trupi juaj ka shumë gjak. Ne marrim vetëm pak. Pas disa javësh, trupi bën gjak të ri.”\n\nDonika qetësohet. Doktori merr gjakun nga dora e saj.\n\n“Si ndiheni tani?” pyet doktori.\n\n“Ndihem mirë”, thotë Donika. “Vërtet është e lehtë!”\n\n“E shihni? Ju thashë”, thotë doktori. “Tani rrini pak. Pini ujë përsëri. Gjithashtu, hani diçka sot.”\n\nDonika rri dhe pi ujë. Pas 10 minutash ajo është gati. Ajo ndihet mirë.\n\n“A mund të vij përsëri?” pyet ajo.\n\n“Sigurisht”, thotë doktori. “Pas tre muajsh. Gjithashtu, mund të vijnë edhe miqtë tuaj. Çdo person që jep gjak është i rëndësishëm për ne.”\n\nDonika del nga spitali. Ajo ndihet shumë mirë. Sot ajo ndihmoi tre persona që nuk i njeh.\n\nPyetje:\nPse ka frikë Donika?\nDonika ka pak frikë, sepse është hera e parë.\nÇfarë i thotë doktori?\nDoktori i thotë: “Qetësohuni. Është shumë e lehtë.”\nÇfarë pi Donika?\nDonika pi ujë.\nSi ndihet Donika pas gjakut?\nDonika ndihet mirë.\nKur mund të vijë Donika përsëri?\nDonika mund të vijë përsëri pas tre muajsh."
+    },
+    {
+      "title": "Zjarr te plaku Hamdi",
+      "summary": "In Shkodra, Gerti sees a fire in the flat of old Hamdi upstairs; he gets the old man out, and Hamdi stays the night with him.",
+      "newWords": [
+        "zjarr",
+        "plak",
+        "menjëherë",
+        "dytë",
+        "forcë",
+        "gjallë",
+        "luftoj",
+        "shkatërroj",
+        "shkak",
+        "mbet"
+      ],
+      "text": "Gerti jeton në Shkodër, në një shtëpi me dy kate. Ai jeton poshtë. Lart, në katin e dytë, jeton një plak. Plaku quhet Hamdi. Ai jeton vetëm.\n\nNjë natë, Gerti dëgjon diçka. Ai del jashtë dhe sheh zjarr. Zjarri është në katin e dytë, në shtëpinë e plakut!\n\nGerti telefonon menjëherë për ndihmë. Pastaj shkon menjëherë lart. Dera e plakut është e mbyllur.\n\n“Zoti Hamdi! Zoti Hamdi!” Plaku nuk thotë asgjë.\n\nGerti e hap derën me gjithë forcën e tij. Plaku është në dhomë. Ai nuk ka forcë. Nuk mund të lëvizë.\n\n“A jeni gjallë?” pyet Gerti.\n\n“Po, jam gjallë”, thotë plaku.\n\nGerti e merr plakun dhe e çon poshtë, jashtë shtëpisë.\n\nPas pak vijnë zjarrfikësit. Ata luftojnë me zjarrin një orë. Zjarri është i fortë, por ata luftojnë me gjithë forcën e tyre. Zjarri shkatërron dhomën e plakut, por nuk shkatërron shtëpinë.\n\n“Cili është shkaku i zjarrit?” pyet Gerti.\n\n“Shkaku është një cigare”, thotë një nga zjarrfikësit. “Plaku harroi një cigare në dhomë.”\n\nPlaku Hamdi shikon shtëpinë e tij. “Zjarri më shkatërroi dhomën”, thotë ai. “Nga dhoma ime nuk mbeti asgjë. Ku do të rri tani?”\n\n“Te unë”, thotë Gerti. “Shtëpia ime është e madhe.”\n\nAtë natë plaku mbeti në shtëpinë e Gertit. Edhe ditën tjetër mbeti atje.\n\n“Faleminderit, djalë”, i thotë plaku. “Ti më shpëtove.”\n\n“Jeni gjallë, zoti Hamdi”, thotë Gerti. “Kjo është gjëja më e rëndësishme.”\n\nPyetje:\nKu jeton plaku Hamdi?\nPlaku Hamdi jeton lart, në katin e dytë.\nÇfarë sheh Gerti një natë?\nGerti sheh zjarr në katin e dytë.\nSi e hap Gerti derën?\nGerti e hap derën me gjithë forcën e tij.\nCili është shkaku i zjarrit?\nShkaku i zjarrit është një cigare.\nKu mbeti plaku atë natë?\nPlaku mbeti në shtëpinë e Gertit."
+    },
+    {
+      "title": "Telefoni i Armelës",
+      "summary": "In Saranda a young man snatches Armela's phone; the police find him on the street cameras, and he gives the phone back.",
+      "newWords": [
+        "vjedh",
+        "djalosh",
+        "fytyrë",
+        "siguri",
+        "mbroj",
+        "sipas",
+        "derisa",
+        "nxjerr",
+        "arsye",
+        "burg"
+      ],
+      "text": "Armela është në Sarandë për disa ditë. Një ditë ajo ecën në rrugë me telefonin në dorë.\n\nNjë djalosh vjen shpejt pas saj. Ai ia merr telefonin nga dora dhe ikën. Djaloshi ia vodhi telefonin! Armela nuk ia sheh mirë fytyrën.\n\nArmela shkon te policia. Një polic e dëgjon.\n\n“Mos kini frikë”, thotë polici. “Kjo rrugë ka kamera sigurie. Ne jemi këtu për sigurinë e njerëzve. Puna jonë është t’i mbrojmë.”\n\nPolici shikon kamerat. “Ja djaloshi. Ja fytyra e tij. E njoh këtë fytyrë. Sipas kamerave, ai vjedh edhe telefona të tjerë në këtë rrugë.”\n\n“Çfarë bëj tani?” pyet Armela.\n\n“Rrini këtu derisa të kthehem”, thotë polici.\n\nArmela pret. Ajo pret derisa polici kthehet. Ai kthehet me djaloshin.\n\n“Nxirre telefonin!” i thotë polici djaloshit.\n\nDjaloshi e nxjerr telefonin nga xhepi dhe ia jep Armelës.\n\n“Pse e vodhe?” e pyet Armela.\n\n“Nuk kam para”, thotë djaloshi.\n\n“Kjo nuk është arsye”, thotë polici. “Edhe unë nuk kam shumë para, por nuk vjedh.”\n\nArmela nuk e kupton arsyen e djaloshit.\n\n“Ku do të shkojë ai tani?” pyet Armela.\n\n“Sipas ligjit, ai mund të shkojë në burg”, thotë polici. “Burgu nuk është vend i mirë për një djalosh, por ai vodhi.”\n\nArmela e merr telefonin. Tani ajo e nxjerr telefonin nga çanta vetëm kur ka nevojë. Kështu e mbron.\n\nPyetje:\nÇfarë i vjedh djaloshi Armelës?\nDjaloshi i vjedh Armelës telefonin.\nPse e njeh polici djaloshin?\nPolici e njeh fytyrën e tij nga kamerat e sigurisë.\nSa pret Armela?\nArmela pret derisa polici kthehet.\nNga e nxjerr djaloshi telefonin?\nDjaloshi e nxjerr telefonin nga xhepi.\nÇfarë arsye jep djaloshi?\nDjaloshi thotë se nuk ka para."
+    },
+    {
+      "title": "Shkolla e re",
+      "summary": "In Berat Rudina reads her old father Qemal the news: the government will build a new school where his old one stood, and the president comes to open it.",
+      "newWords": [
+        "lexoj",
+        "lajm",
+        "qeveri",
+        "plan",
+        "shkollë",
+        "vjetër",
+        "njëjtë",
+        "milion",
+        "president",
+        "shtet"
+      ],
+      "text": "Qemali është plak dhe nuk sheh mirë. Ai jeton në Berat me vajzën e tij, Rudinën. Çdo ditë Rudina i lexon lajmet.\n\nSot ajo lexon një lajm për Beratin.\n\n“Babi, dëgjo këtë lajm”, thotë ajo. “Qeveria ka një plan për qytetin tonë. Do të bëjë një shkollë të re.”\n\n“Ku?” pyet Qemali.\n\n“Në vendin e shkollës së vjetër, afër lumit.”\n\n“Shkolla e vjetër!” thotë Qemali. “Unë mësoja në atë shkollë. Ajo ishte shumë e vjetër edhe atëherë.”\n\nRudina lexon përsëri. “Sipas planit, qeveria do të japë dy milion për shkollën. Dhe presidenti i shtetit do të vijë në Berat kur shkolla të jetë gati.”\n\n“Dy milion!” thotë Qemali. “Shteti ka para, pra.”\n\nPas një viti, shkolla e re është gati. Rudina e çon babanë e saj atje. Ka shumë njerëz. Presidenti flet para shkollës.\n\n“Shteti ka nevojë për shkolla të mira”, thotë presidenti. “Fëmijët duhet të mësojnë mirë.”\n\nQemali shikon shkollën e re. Shkolla është e re, por vendi është i njëjtë. Rruga është e njëjta. Edhe lumi është i njëjti.\n\n“Tani fëmijët do të mësojnë në të njëjtin vend ku mësoja unë”, thotë Qemali. Ai është shumë i lumtur.\n\nNatën Rudina i lexon lajmet përsëri. Lajmi i parë është për shkollën e re të Beratit.\n\nPyetje:\nPse i lexon Rudina lajmet babait të saj?\nRudina i lexon lajmet, sepse Qemali nuk sheh mirë.\nÇfarë plani ka qeveria?\nQeveria do të bëjë një shkollë të re në Berat.\nKu do të jetë shkolla e re?\nShkolla e re do të jetë në vendin e shkollës së vjetër.\nKush flet para shkollës së re?\nPresidenti i shtetit flet para shkollës.\nÇfarë është i njëjtë?\nVendi është i njëjtë."
+    },
+    {
+      "title": "Loja në rrugë",
+      "summary": "In Prizren Blendi's street plays football against the next street; he falls and hurts his leg, and his friend Hana takes his place and wins.",
+      "newWords": [
+        "lojë",
+        "kundër",
+        "ca",
+        "përpiqem",
+        "godas",
+        "qëlloj",
+        "lartë",
+        "gabim",
+        "tokë",
+        "mundoj",
+        "dot"
+      ],
+      "text": "Blendi jeton në Prizren. Pas shkollës, ai dhe shokët e tij luajnë me top në rrugë.\n\nSot ka një lojë të madhe: djemtë e kësaj rruge luajnë kundër djemve të rrugës tjetër. Ca djem të rrugës tjetër janë më të mëdhenj se Blendi. Hana, mikja e Blendit, rri dhe shikon lojën.\n\nLoja fillon. Blendi përpiqet ta godasë topin, por nuk mundet. Djemtë e tjerë janë më të shpejtë. Një djalë i rrugës tjetër e godet topin fort. Topi hyn në portë. 1–0 për ta.\n\n“Përpiqu përsëri!” thotë Hana.\n\nBlendi përpiqet përsëri. Ai e qëllon topin shumë lartë. Topi shkon lart, mbi shtëpitë.\n\n“Gabim!” thonë djemtë.\n\n“Po, ishte gabimi im”, thotë Blendi.\n\nPas ca minutash Blendi bie në tokë. Këmba e mundon shumë. Ai rri në tokë.\n\n“Nuk mund të luaj dot më”, thotë ai. “Hana, a luan ti në vendin tim?”\n\n“Po!” thotë Hana.\n\nHana luan kundër djemve të rrugës tjetër. Ajo është e shpejtë dhe nuk bën asnjë gabim. Ajo e godet topin me forcë dhe e qëllon në portë: 1–1. Pas ca minutash e qëllon përsëri: 2–1!\n\nDjemtë e rrugës tjetër nuk thonë asgjë. Ata nuk mund ta ndalojnë dot Hanën.\n\nBlendi rri në tokë dhe është shumë i lumtur. Këmba ende e mundon pak, por kjo nuk është e rëndësishme.\n\n“Ti e fitove këtë lojë, jo unë”, i thotë ai Hanës.\n\nPyetje:\nKundër kujt luajnë djemtë e rrugës së Blendit?\nAta luajnë kundër djemve të rrugës tjetër.\nKu shkon topi kur Blendi e qëllon shumë lartë?\nTopi shkon lart, mbi shtëpitë.\nPse nuk mund të luajë dot Blendi?\nBlendi bie në tokë dhe këmba e mundon shumë.\nKush luan në vendin e Blendit?\nHana luan në vendin e tij.\nSi mbaron loja?\nLoja mbaron 2–1 për rrugën e Blendit."
+    },
+    {
+      "title": "Sabriu dhe historia e qytetit",
+      "summary": "In Elbasan old Sabri has lived alone since his wife died last year; his grandson Klodian gets him telling the city's history to schoolchildren every morning.",
+      "newWords": [
+        "vjet",
+        "vdekje",
+        "vetmi",
+        "mendje",
+        "mend",
+        "kujdesem",
+        "merrem",
+        "histori",
+        "mëngjes",
+        "ndërsa"
+      ],
+      "text": "Sabriu është një plak nga Elbasani. Gruaja e tij vdiq vjet. Pas vdekjes së saj, Sabriu jeton vetëm. Vetmia nuk është e lehtë.\n\nVjet, pas vdekjes së gruas, ai nuk dilte nga shtëpia. Mendja e tij ishte gjithmonë te gruaja.\n\nKlodiani, djali i vajzës së tij, jeton në Tiranë. Një mëngjes ai vjen në Elbasan.\n\n“Si je?” e pyet Klodiani. “Kush kujdeset për ty?”\n\n“Kujdesem vetë për veten”, thotë Sabriu.\n\n“Dhe me çfarë merresh gjithë ditën?”\n\n“Me asgjë. Rri në shtëpi. Vetmia është e keqe, djalë.”\n\nKlodiani është djalë me mend. Ai e di që Sabriu është plak, por ka shumë mend. Sabriu di gjithë historinë e Elbasanit.\n\n“Ti di shumë për historinë e qytetit”, thotë Klodiani. “Shkolla e rrugës sate ka nevojë për njerëz si ti. Fëmijët duhet ta dinë historinë e Elbasanit.”\n\nSabriu mendon pak. Pastaj ndryshon mendje. “Mirë”, thotë ai. “Do të shkoj.”\n\nTani, çdo mëngjes, Sabriu shkon në shkollë. Ai u tregon fëmijëve historinë e qytetit. Ndërsa Sabriu flet, fëmijët dëgjojnë. Ndërsa fëmijët dëgjojnë, Sabriu harron vetminë.\n\nNdërsa Klodiani punon në Tiranë, Sabriu merret me fëmijët dhe me historinë. Tani mendja e tij nuk është vetëm te gruaja. Edhe fëmijët kujdesen për të: ata i sjellin lule çdo mëngjes.\n\nPyetje:\nKur vdiq gruaja e Sabriut?\nGruaja e Sabriut vdiq vjet.\nKush kujdeset për Sabriun?\nSabriu kujdeset vetë për veten.\nÇfarë di Sabriu?\nSabriu di gjithë historinë e Elbasanit.\nÇfarë bën Sabriu çdo mëngjes tani?\nÇdo mëngjes Sabriu u tregon fëmijëve historinë e qytetit.\nMe çfarë merret Sabriu tani?\nSabriu merret me fëmijët dhe me historinë."
+    },
+    {
+      "title": "Xhaxhai nga Nju Jorku",
+      "summary": "Uncle Pjetër comes home to Lezha from New York and wants to buy food for everyone with dollars; his niece Megi pays, and he gives her his dollars.",
+      "newWords": [
+        "dollar",
+        "blej",
+        "ushqim",
+        "lloj",
+        "tip",
+        "nis",
+        "vështirë",
+        "prandaj"
+      ],
+      "text": "Pjetri jeton në Nju Jork. Sot ai vjen në Lezhë, te familja e vëllait të tij. Vajza e vëllait, Megi, e pret.\n\n“Mirë se erdhe, xhaxha!” thotë Megi.\n\nDitën tjetër Pjetri do të blejë ushqim për të gjithë familjen. Në mëngjes ai dhe Megi nisin rrugën për në qytet.\n\nAtje ka shumë lloje ushqimi. “Sa lloje!” thotë Pjetri. “Në Nju Jork nuk kemi këtë lloj ushqimi.”\n\nPjetri nis të blejë. Ai blen gjithçka: ushqim për sot dhe ushqim për tërë javën.\n\nPastaj ai do të paguajë me dollarë.\n\n“Këtu nuk marrim dollarë”, thotë burri i dyqanit.\n\n“Pse jo? Dollari është i mirë!” thotë Pjetri.\n\n“E di. Por ne marrim vetëm lekë. Është e vështirë për ne të marrim dollarë.”\n\nMegi ka para, prandaj ajo paguan.\n\n“Xhaxhai yt është tip i mirë”, i thotë burri Megit. “Blen për të gjithë.”\n\n“Po”, thotë Megi. “Ai është tip i tillë.”\n\nNë shtëpi, Pjetri nxjerr dollarët e tij. “Merri këta dollarë, Megi”, thotë ai. “Këtu nuk i përdor dot.”\n\n“Por për çfarë më duhen dollarët?”\n\n“Për kur të vish në Nju Jork. Jeta atje është e vështirë pa para, prandaj merri.”\n\nMegi qesh dhe i merr dollarët. Ajo nis të mendojë për Nju Jorkun.\n\nPyetje:\nKu jeton Pjetri?\nPjetri jeton në Nju Jork.\nÇfarë do të blejë Pjetri?\nPjetri do të blejë ushqim për të gjithë familjen.\nPse nuk paguan Pjetri?\nBurri i dyqanit nuk merr dollarë, prandaj paguan Megi.\nÇfarë thotë burri për Pjetrin?\nBurri thotë se Pjetri është tip i mirë.\nÇfarë i jep Pjetri Megit?\nPjetri i jep Megit dollarët e tij."
+    },
+    {
+      "title": "Takimi me shefin",
+      "summary": "In Tirana Elton promised his boss the plan for tomorrow's meeting; he works through the night to fix its mistakes, and the boss is pleased.",
+      "newWords": [
+        "takim",
+        "shef",
+        "nesër",
+        "premtoj",
+        "përfundoj",
+        "sonte",
+        "fle",
+        "çmendur",
+        "rregulloj",
+        "idiot"
+      ],
+      "text": "Eltoni punon në Tiranë. Nesër në mëngjes ai ka një takim të rëndësishëm me shefin e tij.\n\n“Nesër kemi takim. Plani duhet të jetë gati”, i thotë shefi.\n\n“Premtoj, shef”, thotë Eltoni. “Plani do të jetë gati nesër.”\n\nPor plani nuk është gati. Ka ende shumë gabime. Eltoni duhet ta përfundojë sonte.\n\nNë shtëpi, gruaja e tij, Mirjeta, i thotë: “Hajde, ha diçka. Pastaj fli.”\n\n“Jo, sonte nuk fle”, thotë Eltoni. “Duhet ta përfundoj planin. I premtova shefit.”\n\n“Pse nuk e përfundove më parë?”\n\n“Sepse jam idiot”, thotë Eltoni. “Kisha shumë kohë dhe nuk bëra asgjë.”\n\n“Nuk je idiot”, thotë Mirjeta. “Por tani puno.”\n\nEltoni punon. Ora është 1. Pastaj ora është 2. Mirjeta vjen në dhomë.\n\n“A je i çmendur? Ora është 3! Fli!”\n\n“Nuk mund të fle. Ka ende gabime. Duhet t’i rregulloj.”\n\n“Je i çmendur”, thotë Mirjeta. Por ajo i sjell një çaj.\n\nEltoni i rregullon gabimet një nga një. Në orën 5 ai e përfundon planin. Pastaj fle dy orë.\n\nNë mëngjes ai shkon në takim. Shefi e lexon planin.\n\n“Shumë mirë, Elton”, thotë shefi. “Ti bëre siç premtove.”\n\n“Ju premtova, shef”, thotë Eltoni.\n\n“Tani shko në shtëpi dhe fli”, thotë shefi. “Takimi tjetër është nesër.”\n\nEltoni shkon në shtëpi dhe fle tërë ditën.\n\nPyetje:\nÇfarë ka Eltoni nesër në mëngjes?\nEltoni ka një takim të rëndësishëm me shefin e tij.\nÇfarë i premton Eltoni shefit?\nEltoni i premton shefit që plani do të jetë gati.\nPse nuk fle Eltoni sonte?\nEltoni nuk fle sepse duhet ta përfundojë planin.\nÇfarë i thotë Mirjeta në orën 3?\nMirjeta i thotë: “A je i çmendur? Fli!”\nKur e përfundon Eltoni planin?\nEltoni e përfundon planin në orën 5."
+    }
+  ]
+}
