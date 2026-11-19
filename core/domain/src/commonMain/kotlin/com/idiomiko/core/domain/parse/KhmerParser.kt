@@ -1,8 +1,8 @@
 package com.idiomiko.core.domain.parse
 
 /**
- * Khmer: a stretch of letters cut into its likeliest words by how common they are, as [LaoParser] cuts Lao (from the left,
- * the longest word first, cut ឆ្កែបាត់ into ឆ្កែបា + ត់ rather than ឆ្កែ "dog" + បាត់ "lost"), but never inside a syllable.
+ * Khmer: a stretch of letters cut into its likeliest words by how common they are, as [LaoParser] cuts Lao (ឆ្កែបាត់ is ឆ្កែ
+ * "dog" + បាត់ "lost", not the longest word first, ឆ្កែបា + ត់), but never inside a syllable.
  * A word does not end before a vowel sign or another sign written on its letter (U+17B6–U+17D3, U+17DD: កម្រិត is not កម
  * "scabies" + ្រិត), nor between a coeng (U+17D2) and the consonant it writes under the letter before. A consonant alone is
  * no word, though the dictionary has each letter: letters no word covers go a syllable at a time and are one word together.

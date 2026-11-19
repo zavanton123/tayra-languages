@@ -21,7 +21,7 @@ import kotlin.test.assertEquals
 import kotlin.test.assertNull
 
 /**
- * Khmer came to be cut by syllables (កម្រិត is no longer កម + ្រិត), to match subscript ដ as ត and a subscript រ written
+ * Khmer came to be cut into its likeliest words, never inside a syllable (កម្រិត is no longer កម + ្រិត), to match subscript ដ as ត and a subscript រ written
  * first as written after the subscript beside it: a phrase saved over the old cut is cut again, and a word saved with ដ
  * is the word with ត, one term with it, as one saved with រ first is the word with រ after.
  */
