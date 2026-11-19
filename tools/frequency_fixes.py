@@ -2632,9 +2632,11 @@ OVERRIDES["br"].update({"harz": ["harz"], "beaj": ["beaj"], "kerent": ["kar"]})
 OVERRIDES["br"].update({"ra": ["ober"], "ran": ["ober"]})
 # c'hall alone is gallout's (ne c'hall ket), not gall "Frenchman" mutated, which texts write in Bro-C'hall.
 OVERRIDES["br"]["c'hall"] = ["gallout"]
+# deus is kaout's (en deus "he has"), which texts write far more than dont's "come!".
+OVERRIDES["br"]["deus"] = ["kaout"]
 # Noise: fed "fact" (no word of the pack, else filed under pediñ), a number, a name, a misspelling filed under genver; and
 # words of no entry filed under look-alikes (framm "frame" under bramm, plas "place" under blaz), Paris and Mari under
 # parañ, English new under nev.
-EXCLUDE["br"] = {"fed", "1añ", "james", "kenver", "framm", "plas", "paris", "vari", "new"}
+EXCLUDE["br"] = {"fed", "1añ", "james", "kenver", "framm", "plas", "paris", "vari", "new", "fedoù"}
 # Ordinals written with digits (5vet, 3e), which the reader and the checker read as numbers.
 EXCLUDE["br"] |= {"2l", "3e", "4e", "5vet", "6vet", "7vet", "8vet", "9vet", "10vet"}
