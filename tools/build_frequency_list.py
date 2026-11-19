@@ -173,6 +173,8 @@ SOURCE_ORDER["br"] = ["leipzig"]
 SOURCE_ORDER["ka"] = ["leipzig", "wikipedia", "everyday"]
 BLEND.add("ka")
 SOURCE_WEIGHTS["ka"] = {"leipzig": 0.375, "wikipedia": 0.375, "everyday": 0.25}
+# Khmer: its Wikipedia and its subtitles (build_khmer), the everyday words of the one weighed as the other's.
+SOURCE_WEIGHTS["km"] = {"wikipedia": 0.5, "opensubtitles": 0.5}
 # Hindi is counted from web text and subtitles: its Wikipedia adds the words of its pages (politics, districts, census
 # terms) to the first thousand, where wordfreq's short list alone has fewer than 9,000 words.
 SOURCE_ORDER["hi"] = ["wordfreq", "frequencywords"]
@@ -231,6 +233,7 @@ SOURCE_LICENCES = {
     "maltese_wikipedia": "CC BY-SA 4.0",
     "everyday": "Tatoeba CC BY 2.0 FR, Common Voice CC0 1.0",
     "everyday_mixed": "CC0 1.0",
+    "opensubtitles": "terms at https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles",
 }
 # A source's licence where a language takes only some of it: Armenian's everyday sentences are Tatoeba's alone.
 SOURCE_LICENCES[("hy", "everyday")] = "Tatoeba CC BY 2.0 FR"
@@ -250,6 +253,7 @@ from frequency_fixes import ARABIC_CUT, ARABIC_WHOLE, DISPLAY, EXCLUDE, KOREAN_A
 import frequency_persian  # noqa: E402
 import frequency_mongolian  # noqa: E402
 import frequency_lao  # noqa: E402
+import frequency_km  # noqa: E402
 
 OVERRIDES["fa"] = frequency_persian.PERSIAN_OVERRIDES
 EXCLUDE["fa"] = frequency_persian.PERSIAN_EXCLUDE
@@ -4942,9 +4946,21 @@ def khmer_break(run, at):
     return at <= 0 or at >= len(run) or not ("\u17b6" <= run[at] <= "\u17d3" or run[at] == "\u17dd") and run[at - 1] != KHMER_COENG
 
 
+# A subscript រ written before the subscript after it (សាស្រ្ត), which looks the same as after it (សាស្ត្រ).
+KHMER_RO_FIRST = re.compile("\u17d2\u179a\u17d2([\u1780-\u1799\u179b-\u17a2])")
+
+
+def khmer_ro_last(text):
+    """[text] with each subscript រ after the subscript it is written before (សាស្រ្ត as សាស្ត្រ), as the dictionaries write it."""
+    return KHMER_RO_FIRST.sub("\u17d2\\1\u17d2\u179a", text)
+
+
 def khmer_fold(text):
-    """Khmer as the reader matches it (KhmerParser.fold): subscript ដ written as the subscript ត it looks like."""
-    return text.replace("\u17d2\u178a", "\u17d2\u178f")
+    """
+    Khmer as the reader matches it (KhmerParser.fold): subscript ដ written as the subscript ត it looks like, and a subscript រ
+    after the subscript it is written before (khmer_ro_last).
+    """
+    return khmer_ro_last(text.replace("\u17d2\u178a", "\u17d2\u178f"))
 
 
 def khmer_word(word, words):
@@ -5219,13 +5235,34 @@ def lao_list(counts, noise, size, label):
 # list's cut, where the pack lacks it and its words do not make it up (កម្រិត, ចម្រើន, កណ្តាល): without it, its beginning,
 # a word of the pack (កម "scabies", ចម "summit"), would be counted.
 KHMER_SEPARATED_MIN = 5
+# Khmer's everyday words come from its film and television subtitles, which its Wikipedia lacks (បាទ, ចាស, អរគុណ).
+KHMER_SUBTITLES = "https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/mono/km.txt.gz"
+# A word the pack lacks that the texts write this often, with ម្ before a consonant where a word of the pack has ំ (ចម្រើន,
+# ចំរើន "to prosper") or ំ where it has ម្ (កំលាំង, កម្លាំង "strength"), is that word's other spelling.
+KHMER_NASAL_SWAP_MIN = 20
+KHMER_NASAL = re.compile("\u17c6(?=[\u1780-\u17a2])|\u1798\u17d2(?=[\u1780-\u17a2])")
+
+
+def khmer_subtitle_runs():
+    """The runs of Khmer letters in OPUS's Khmer subtitles (OpenSubtitles v2024), how often each, or None without them."""
+    import gzip
+    path = download(KHMER_SUBTITLES, "opus-opensubtitles-v2024-km.txt.gz")
+    if path is None:
+        return None
+    runs = defaultdict(int)
+    with gzip.open(path, "rt", encoding="utf-8") as f:
+        for line in f:
+            for match in KHMER_RUN.finditer(line):
+                runs[match.group(0)] += 1
+    return runs
 
 
 def build_khmer(size):
     """
-    The Khmer list, from its Wikipedia: each run of letters cut as KhmerParser cuts it (never inside a syllable, subscript ដ
-    as ត), by the words of the km-en pack and those the articles separate with zero-width spaces (KHMER_SEPARATED_MIN). A
-    word is counted in each of its spellings, and listed in the commoner one the pack has, with the other as its form.
+    The Khmer list, from its Wikipedia and its subtitles (KHMER_SUBTITLES), blended by SOURCE_WEIGHTS: each run of letters cut
+    as KhmerParser cuts it (never inside a syllable, subscript ដ as ត), by the words of the km-en pack and those the articles
+    separate with zero-width spaces (KHMER_SEPARATED_MIN). A word is counted in each of its spellings, and listed in the
+    commoner one the pack has, with the other as its form.
     """
     db = sqlite3.connect(os.path.join(DICTIONARIES, "km-en.sqlite"))
     pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
@@ -5233,7 +5270,7 @@ def build_khmer(size):
     found = wikipedia_counts("km", 10 ** 9, separated)
     if not found:
         sys.exit("No frequency source has km")
-    chunks, label = found
+    chunks, wiki_label = found
     known = {khmer_fold(w) for w in pack}
     by_pack = segmenter("km", pack)
     runs = defaultdict(int)
@@ -5251,26 +5288,65 @@ def build_khmer(size):
         pieces = by_pack(folded)
         if len(pieces) == 1 or any(not khmer_word(p, known) for p in pieces):
             extra.add(folded)
-    segment = segmenter("km", known | extra)
-    spelled = defaultdict(int)
-    for run, n in runs.items():
-        at = 0
-        for piece in segment(khmer_fold(run)):
-            spelled[run[at:at + len(piece)]] += n
-            at += len(piece)
-    # Each word in the spelling the pack has, the commoner in the articles where it has both.
-    total, best = defaultdict(int), {}
-    for word, n in spelled.items():
-        total[khmer_fold(word)] += n
-    for word, n in sorted(spelled.items(), key=lambda kv: -kv[1]):
+    sources = [("wikipedia", runs, wiki_label)]
+    subtitles = khmer_subtitle_runs()
+    if subtitles:
+        sources.append(("opensubtitles", subtitles, "OPUS OpenSubtitles v2024 km"))
+    # The other spellings of the pack's words (KHMER_SPELLINGS, and those with ម្ and ំ swapped), which the list has as their
+    # forms: the texts are cut with them, as the reader cuts them with the list.
+    spellings = dict(frequency_km.KHMER_SPELLINGS)
+
+    def cut():
+        segment = segmenter("km", known | extra | {khmer_fold(s) for s in spellings})
+        spelled = []
+        for _, source_runs, _ in sources:
+            out = defaultdict(int)
+            for run, n in source_runs.items():
+                # Each word as the reader saves it, its subscript រ after the subscript beside it.
+                run = khmer_ro_last(run)
+                at = 0
+                for piece in segment(khmer_fold(run)):
+                    out[run[at:at + len(piece)]] += n
+                    at += len(piece)
+            spelled.append(out)
+        together = defaultdict(int)
+        for out in spelled:
+            for word, n in out.items():
+                together[word] += n
+        return spelled, together
+
+    spelled, together = cut()
+    by_folded = {khmer_fold(w): w for w in sorted(pack)}
+    swapped = {}
+    for word, n in together.items():
+        if n < KHMER_NASAL_SWAP_MIN or khmer_fold(word) in known or word in spellings:
+            continue
+        for match in KHMER_NASAL.finditer(word):
+            other = word[:match.start()] + ("\u17c6" if match.group(0) != "\u17c6" else "\u1798\u17d2") + word[match.end():]
+            if khmer_fold(other) in known:
+                swapped[word] = by_folded[khmer_fold(other)]
+                break
+    if swapped:
+        spellings.update(swapped)
+        spelled, together = cut()
+    # Each word in the spelling the pack has, the commoner in the texts where it has both.
+    best = {}
+    for word, n in sorted(together.items(), key=lambda kv: -kv[1]):
         key = khmer_fold(word)
         if key not in best or best[key] not in pack and word in pack:
             best[key] = word
     for key in list(best):
         if best[key] not in pack:
             best[key] = next((s for s in khmer_spellings(best[key]) if s in pack), best[key])
-    counts = {best[key]: n for key, n in total.items()}
-    text, label = build_list("km", [("wikipedia", counts, label)], size)
+    found = []
+    for (name, _, label), out in zip(sources, spelled):
+        counts = defaultdict(int)
+        for word, n in out.items():
+            counts[best[khmer_fold(word)]] += n
+        found.append((name, dict(counts), label))
+    # Each other spelling is its word's form, the word written as the list has it.
+    OVERRIDES["km"] = {best.get(khmer_fold(s), s): [best.get(khmer_fold(w), w)] for s, w in spellings.items()}
+    text, label = build_list("km", found, size)
     lines = []
     for line in text.splitlines(keepends=True):
         if line.startswith("#") or not line.strip():

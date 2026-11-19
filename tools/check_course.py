@@ -254,9 +254,11 @@ def fold(code, word):
     # Armenian և is matched as the one letter where a text writes it as two (նաեւ), as the reader matches it.
     if code == "hy":
         return word.replace("եւ", "և")
-    # Khmer subscript ដ is matched as the ត it looks like (សប្ដាហ៍ as សប្តាហ៍), as the reader matches it.
+    # Khmer subscript ដ is matched as the ត it looks like (សប្ដាហ៍ as សប្តាហ៍), and a subscript រ written first as written after
+    # the subscript beside it (សាស្រ្ត as សាស្ត្រ), as the reader matches them.
     if code == "km":
-        return word.replace("\u17d2\u178a", "\u17d2\u178f")
+        import build_frequency_list as fl
+        return fl.khmer_fold(word)
     return word
 
 

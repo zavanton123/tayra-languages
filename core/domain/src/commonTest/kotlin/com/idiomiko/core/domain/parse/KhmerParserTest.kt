@@ -40,6 +40,15 @@ class KhmerParserTest {
         assertEquals(listOf("មិត្តភក្ដិ", "មិត្តភក្តិ", "មិត្ដភក្តិ", "មិត្ដភក្ដិ").sorted(), KhmerParser.spellings("មិត្តភក្ដិ").sorted())
     }
 
+    /** A subscript រ is written before or after the subscript beside it: the word is found either way, and saved with it after. */
+    @Test
+    fun subscriptRoIsMatchedInEitherOrder() {
+        Lexicons.set("km", Lexicon(listOf("សាស្ត្រ", "សង្គ្រាម", "និង")))
+        assertEquals(listOf("សាស្រ្ត", "និង", "សង្គ្រាម"), words("សាស្រ្តនិងសង្គ្រាម"))
+        assertEquals("សាស្ត្រ", khmer.lowercase("សាស្រ្ត"))
+        assertEquals("ស្ត្រី", khmer.lowercase("ស្ត្រី"))
+    }
+
     /** ។ and ៕ are no words and end sentences; ៖, ៗ and the digits are no words either. */
     @Test
     fun punctuationAndDigitsAreNoWords() {

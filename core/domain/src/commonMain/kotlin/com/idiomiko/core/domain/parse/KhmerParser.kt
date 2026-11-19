@@ -9,7 +9,8 @@ package com.idiomiko.core.domain.parse
  * U+17D4–U+17DB and the Khmer digits are no words, so ។ and ៕ end a sentence.
  *
  * Subscript ដ and ត (្ដ, ្ត) look alike and are written either way (សប្ដាហ៍, សប្តាហ៍): a word is matched and saved with ្ត
- * ([lowercase]), and found in the lexicon in either spelling.
+ * ([lowercase]), and found in the lexicon in either spelling. So is a subscript រ, written before or after the subscript it
+ * goes with (សាស្រ្ត, សាស្ត្រ): it is matched and saved after it, as the dictionaries write it.
  *
  * tools/build_frequency_list.py (khmer_break, khmer_word) and tools/check_course.py (khmer_spans) cut Khmer the same
  * way; keep the three the same.
@@ -38,8 +39,11 @@ class KhmerParser : SegmentingParser("Khmer", "km", joinUnknown = true) {
         /** Whether [c] is a vowel sign or another sign written on the letter before it, the coeng among them. */
         fun isSign(c: Char): Boolean = c in 'ា'..'៓' || c == '៝'
 
-        /** [text] with each subscript ដ written as the subscript ត it looks like. */
-        fun fold(text: String): String = text.replace(SUBSCRIPT_DA, SUBSCRIPT_TA)
+        /** A subscript រ written before the subscript after it, which looks the same. */
+        private val RO_FIRST = Regex("\u17D2\u179A\u17D2([\u1780-\u1799\u179B-\u17A2])")
+
+        /** [text] with each subscript ដ written as the subscript ត it looks like, and each subscript រ after the subscript beside it. */
+        fun fold(text: String): String = RO_FIRST.replace(text.replace(SUBSCRIPT_DA, SUBSCRIPT_TA), "\u17D2$1\u17D2\u179A")
 
         /** The spellings of [text] with each subscript ត or ដ written either way, [text] first. */
         fun spellings(text: String): List<String> {
