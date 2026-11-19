@@ -1,0 +1,100 @@
+1	7701	kəfə	kəfəndən kəfəni kəfənin kəfənə
+2	7702	cəhan	cəhanda cəhanın
+3	7703	kambala	
+4	7704	susuzlamaq	susuzlama susuzlayan susuzlayanda
+5	7705	xəlic	xəlicdə xəlicə
+6	7706	zəhəbi	
+7	7707	aravuran	aravuranlar aravuranlara
+8	7708	beysbolçu	beysbolçuya
+9	7709	camaşır	camaşırları
+10	7710	dibək	dibəklər
+11	7711	ehtiramlı	
+12	7712	gözəlləşdirilmək	gözəlləşdirildi gözəlləşdirilir
+13	7713	gətirib-çıxarmaq	gətirib-çıxarıb gətirib-çıxarır
+14	7714	ildırımötürən	ildırımötürəni
+15	7715	kambocalı	kambocalının
+16	7716	minval	
+17	7717	mütərəddid	
+18	7718	pirani	
+19	7719	qalmaqalçı	qalmaqalçılar
+20	7720	qeybətçi	
+21	7721	quzuqulağı	
+22	7722	sürətölçən	sürətölçəni
+23	7723	tapışmaq	tapışa tapışdılar tapışıb
+24	7724	tilişkə	tilişkələrdən tilişkəni
+25	7725	türkşünas	
+26	7726	xalaqızı	
+27	7727	yelçəkən	yelçəkəndə yelçəkənində
+28	7728	çeşm	çeşmi
+29	7729	şorqoğalı	şorqoğalıda
+30	7730	şəffaflaşdırılmaq	şəffaflaşdırılmalıdır şəffaflaşdırılmır şəffaflaşdırılmış
+31	7731	əvəzçi	əvəzçisi
+32	7732	əbrişim	əbrişimdə
+33	7733	əhli-hal	
+34	7734	əks-göstəriş	əks-göstərişi əks-göstərişlərə
+35	7735	əyləşdirmək	
+36	7736	məriz	mərizi mərizinə
+37	7737	hiqrometr	hiqrometri hiqrometrə
+38	7738	şişlik	şişlikləri şişliyi
+39	7739	hidroqrafiya	hidroqrafiyanın hidroqrafiyasını
+40	7740	arıquşu	arıquşları arıquşunun
+41	7741	ianəçi	ianəçilər ianəçilərdən ianəçilərinə
+42	7742	sirlilik	sirliliyi sirliliyini
+43	7743	zağca	zağcalar zağcalarda zağcanı
+44	7744	fotometr	fotometrdə fotometri fotometrlərin fotometrlərə
+45	7745	suölçən	suölçəni suölçənlər suölçənləri
+46	7746	toratan	toratanlar toratanlardan toratanları
+47	7747	ali təhsil müəssisəsi	ali müəssisəsi təhsil
+48	7748	ağ neft	ağ neft
+49	7749	ağır atletika	atletika ağır
+50	7750	kanat yolu	kanat yolu
+51	7751	kərə yağı	kərə yağı
+52	7752	sosialist realizmi	realizmi sosialist
+53	7753	yük maşını	maşını yük
+54	7754	təmizqanlı	
+55	7755	təxsis	
+56	7756	işçi qüvvəsi	işçi qüvvəsi
+57	7757	dermatologiya	
+58	7758	buynuzvari	
+59	7759	mem	
+60	7760	pərdi	pərdilər
+61	7761	xırçıldamaq	xırçıldayan xırçıldayır
+62	7762	elektromaqnetizm	elektromaqnetizmi
+63	7763	paraleloqram	paraleloqramın
+64	7764	vikont	vikontu
+65	7765	diridoğan	diridoğanlar
+66	7766	düjün	düjündən
+67	7767	çizkeyk	çizkeykin
+68	7768	həşt	
+69	7769	qoqol-moqol	
+70	7770	tısmaq	tıs tısa
+71	7771	teyr	teyri teyrin
+72	7772	yəhərçi	
+73	7773	anlaq	anlağa
+74	7774	aramgah	aramgahının
+75	7775	ayın-oyun	
+76	7776	aztapılan	
+77	7777	ağlabatmaz	
+78	7778	badamlıq	badamlıqlar badamlığı
+79	7779	bazubənd	bazubənddən
+80	7780	boyaçı	
+81	7781	bəlləmək	bəlləmə bəlləyirəm
+82	7782	canfəşan	
+83	7783	duzsuzlaşdırılmaq	duzsuzlaşdırılmış
+84	7784	intəhasız	
+85	7785	istilaçılıq	
+86	7786	içizdirmək	içizdirərdilər
+87	7787	müstəmləkələşmək	müstəmləkələşmə müstəmləkələşmədən
+88	7788	müxtəlifləşmək	müxtəlifləşməyə müxtəlifləşən
+89	7789	paranoyya	
+90	7790	patava	
+91	7791	qayınağacı	
+92	7792	qundaqlamaq	qundaqla qundaqlayarkən
+93	7793	sızanaqlı	
+94	7794	səadətli	
+95	7795	təhrim	təhrimlər
+96	7796	təvazölü	
+97	7797	uzunboy	
+98	7798	xılt	xıltı
+99	7799	yaxmac	yaxmaclar yaxmacı
+100	7800	yez	

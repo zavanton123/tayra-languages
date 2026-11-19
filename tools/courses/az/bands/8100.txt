@@ -1,0 +1,100 @@
+1	8001	qatırquyruğukimilər	
+2	8002	qüvvətsiz	
+3	8003	qəlyanaltıxana	qəlyanaltıxanaya
+4	8004	çıxışlıq hal	hal çıxışlıq
+5	8005	çoxarvadlı	
+6	8006	çəndan	
+7	8007	çərən	
+8	8008	üvəz	
+9	8009	iyirmi səkkiz	iyirmi səkkiz
+10	8010	güdük	
+11	8011	prenses	
+12	8012	psixrometr	
+13	8013	abi-həyat	
+14	8014	kuir	kvir
+15	8015	kündür	
+16	8016	pinə	
+17	8017	yapondilli	
+18	8018	ürgə	
+19	8019	çapağan	
+20	8020	ikiarvadlılıq	
+21	8021	ikiatomlu	
+22	8022	şəklən	
+23	8023	elektrofiziologiya	elektrofiziologiyanın
+24	8024	avtorizasiya	avtorizasiyası
+25	8025	dondurmaçı	dondurmaçısı
+26	8026	elektrum	elektrumdan
+27	8027	mətbəəçi	mətbəəçilər
+28	8028	ovalamaq	ovala ovalayaraq
+29	8029	silgi	silginə
+30	8030	sümsü	sümsünü
+31	8031	tağar	tağarın
+32	8032	çinşünas	çinşünaslar çinşünası
+33	8033	geymer	geymerlər
+34	8034	kuf	kufda
+35	8035	müzayidə	müzayidəsində müzayidəsinin
+36	8036	qalpaq	qalpaqdan qalpağı
+37	8037	yaraq-əsləhə	yaraq-əsləhələrə yaraq-əsləhəni
+38	8038	adlıq hal	adlıq hal
+39	8039	ailə hüququ	ailə hüququ
+40	8040	avropamərkəzçilik	
+41	8041	heyter	
+42	8042	koordinat başlanğıcı	başlanğıcı koordinat
+43	8043	mühyi	
+44	8044	məlumat bazası	bazası məlumat
+45	8045	nikaraqualı	nikaraqualılar
+46	8046	nəma	nəman
+47	8047	otuz dörd	dörd otuz
+48	8048	otuz üç	otuz üç
+49	8049	qırx beş	beş qırx
+50	8050	söz birləşməsi	birləşməsi söz
+51	8051	səmiz	
+52	8052	tikanlı məftil	məftil tikanlı
+53	8053	torbalı	
+54	8054	təsirlik hal	hal təsirlik
+55	8055	uçan xalça	uçan xalça
+56	8056	yamçı	
+57	8057	aerofotoqrafiya	
+58	8058	aptekçə	aptekçədə
+59	8059	başsındıran	
+60	8060	bibioğlu	
+61	8061	binəzir	
+62	8062	camaşırçı	
+63	8063	dalandar	
+64	8064	eyniölçülü	
+65	8065	fatehlik	
+66	8066	gözədəyən	
+67	8067	itibucaqlı	
+68	8068	mizah	
+69	8069	mövhum	
+70	8070	mükəmməliyyətçi	
+71	8071	n-ölçülü	
+72	8072	qalxanvarı	
+73	8073	qoltuqağacı	
+74	8074	rəfaqət	
+75	8075	soluq	
+76	8076	suyadavamlı	
+77	8077	sözdüzəltmə	
+78	8078	səngin	
+79	8079	səpələmək	
+80	8080	təktanrılı	
+81	8081	təsrif	
+82	8082	uzadıcı	
+83	8083	vaskulyarizasiya	
+84	8084	yarıköçəri	
+85	8085	yarımasılı	
+86	8086	yekşənbə	
+87	8087	yüyənləmək	yüyənlə
+88	8088	ötkün	
+89	8089	iyirmi doqquz	doqquz iyirmi
+90	8090	iyirmi dörd	dörd iyirmi
+91	8091	iyirmi yeddi	iyirmi yeddi
+92	8092	şirbit	
+93	8093	əbhar	
+94	8094	əmək mühaciri	mühaciri əmək
+95	8095	almanpərəst	
+96	8096	basmaxana	
+97	8097	dövrəvi	
+98	8098	güncəl	
+99	8099	oksitan	
+100	8100	qaca	

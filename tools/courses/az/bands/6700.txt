@@ -1,0 +1,100 @@
+1	6601	təmrin	təmrini təmrinlər təmrinlərdən təmrinləri təmrinlərin təmrinlərini təmrinlərinin
+2	6602	xətkeş	xətkeşdən xətkeşi xətkeşin xətkeşlər xətkeşlərdən
+3	6603	körük	körüklər körüyü körüyün körüyünün
+4	6604	rəşadətli	
+5	6605	qovzamaq	qovza qovzadı qovzaya-qovzaya qovzayan qovzayıb qovzayır qovzayıram
+6	6606	biqeyrət	biqeyrəti biqeyrətin biqeyrətlər
+7	6607	kababxana	kababxanada kababxanalara kababxanaları kababxanasında kababxanaya
+8	6608	zöhrəvi	
+9	6609	biyar	biyara biyarda biyardan biyarı biyarın
+10	6610	köntöy	
+11	6611	oğul-uşaq	
+12	6612	lax	
+13	6613	danlaq	danlaqdan danlaqları danlağa danlağı danlağından danlağını
+14	6614	balacalaşmaq	balacalaşan balacalaşdı balacalaşdıqca balacalaşmış balacalaşmışdır balacalaşıb balacalaşır
+15	6615	səndəl	səndəli səndəllər səndəllərdə səndəlləri səndəllərin səndəllərinin səndələ
+16	6616	mərcimək	mərciməkdə mərciməklər mərciməklərə mərciməyi mərciməyin mərciməyindən mərciməyə
+17	6617	dərrakə	
+18	6618	vecsiz	
+19	6619	dilmanc	dilmanca dilmanclar dilmancları dilmanclarının dilmancı dilmancın dilmancına
+20	6620	buzqıran	buzqıranlar buzqıranlarda buzqıranımı buzqıranında
+21	6621	qamçılamaq	qamçıla qamçıladı qamçılamış qamçılamışdılar qamçılamışdır qamçılasınlar qamçılayan qamçılayıb qamçılayır qamçılayırdı
+22	6622	yeknəsəq	
+23	6623	yulaf	yulafa yulafın
+24	6624	geyşa	geyşadan geyşalar geyşalara geyşalardan geyşaların geyşanın geyşaya
+25	6625	yek	
+26	6626	kəpək	kəpəklərindən kəpəyi kəpəyin kəpəyini kəpəyə
+27	6627	karlıq	karlıqdan karlığa karlığı karlığın karlığının
+28	6628	yelpik	yelpikdə yelpikdən yelpiklər yelpikləri yelpiklərin yelpiyi yelpiyindən yelpiyinə yelpiyə
+29	6629	tarac	
+30	6630	hədəqə	hədəqəmdən hədəqəsindən
+31	6631	yır-yığış	yır-yığışa yır-yığışda
+32	6632	arxadaş	arxadaşlar arxadaşlara arxadaşları arxadaşlarımıza arxadaşlarınız arxadaşım arxadaşına arxadaşınıza
+33	6633	kasıblaşmaq	kasıblaşdı kasıblaşmış kasıblaşmışdı kasıblaşıb kasıblaşır kasıblaşırlar
+34	6634	türki	
+35	6635	şəvval	
+36	6636	əlhəmdülillah	
+37	6637	dükançı	dükançıdan dükançılar dükançılara
+38	6638	yaşmaq	yaşmaqdan yaşmağa yaşmağı yaşmağın
+39	6639	cöngə	cöngələrin cöngəni cöngənin
+40	6640	vatt	vatlar vatta vattın
+41	6641	adaxlı	adaxlılardan adaxlım adaxlının adaxlısı adaxlısının
+42	6642	həsrətli	
+43	6643	vərəmləmək	vərəmlə vərəmləyir
+44	6644	mütəkkə	mütəkkələr mütəkkəni mütəkkənin mütəkkəyə
+45	6645	çığırtma	çığırtmanı çığırtması çığırtmasına
+46	6646	çalğıçı	çalğıçılar çalğıçılara çalğıçıları çalğıçıların çalğıçılarına çalğıçının çalğıçısı
+47	6647	çiyid	çiyiddən çiyidi çiyidin çiyidləri çiyidlərin çiyidlərinin çiyidə
+48	6648	yatızdırmaq	yatızdıra yatızdıracaq yatızdıram yatızdırmalıdır yatızdırsın yatızdırıblar yatızdırır yatızdırırdılar yatızdırırlar
+49	6649	kəf	kəfi
+50	6650	sevgisiz	
+51	6651	bayramlıq	bayramlıqları
+52	6652	sərrac	sərraca sərracların
+53	6653	psixoz	psixozdan psixozlar psixozlardan psixozları psixozların psixozlarında psixozu psixozun psixozunu
+54	6654	masaüstü	
+55	6655	tabaq	tabaqda tabaqdan tabaqlar tabaqlarda tabağa tabağı tabağın
+56	6656	bambılı	bambılının
+57	6657	qayət	
+58	6658	tamarzı	
+59	6659	pazı	pazına pazından pazını
+60	6660	sərbaz	sərbazlar sərbazlara sərbazları sərbazların sərbazlarına sərbazlarından sərbazı
+61	6661	məhbub	
+62	6662	naxoş	
+63	6663	qəlp	
+64	6664	ze	
+65	6665	müftəxor	müftəxorlar müftəxorları müftəxorların
+66	6666	töycü	töycüdən töycülərdən töycülərin töycülərini töycünün töycüsü töycüsünü
+67	6667	balzam	balzamdan balzamlar balzamı balzamın balzamında balzamından balzamını balzamının
+68	6668	cəsarətsiz	
+69	6669	qanqal	qanqalda qanqallar qanqallarımızın qanqalı
+70	6670	dux	duxa duxu duxun
+71	6671	sürahi	sürahidən sürahilər sürahiləri sürahilərin sürahini sürahinin sürahisində
+72	6672	istiğfar	istiğfarın istiğfarından
+73	6673	buzxana	buzxanadan buzxanalar buzxananın buzxanası buzxanasında buzxanasından buzxanasının buzxanaya
+74	6674	daz	daza dazı dazının
+75	6675	vanil	vanildən vanili vanilin vanilə
+76	6676	nəmənə	
+77	6677	tfu	
+78	6678	qullab	qullabdan
+79	6679	ağacdələn	ağacdələni ağacdələnin ağacdələnlər ağacdələnləri ağacdələnlərin ağacdələnə
+80	6680	odluq	odluqdan odluğa odluğu odluğun odluğuna odluğunda odluğundan odluğunu
+81	6681	cüzam	cüzama cüzamın
+82	6682	imla	imlalarını
+83	6683	ifratçılıq	ifratçılıqdan ifratçılığa ifratçılığı ifratçılığın ifratçılığını
+84	6684	lisan	lisanda lisanların lisanı lisanın lisanına lisanında lisanından
+85	6685	dövlət başçısı	başçısı dövlət
+86	6686	xırıltı	xırıltıdan xırıltılar xırıltıların xırıltısı xırıltısından xırıltısının xırıltıya
+87	6687	qafil	
+88	6688	qaşqa	qaşqanın qaşqası qaşqasından qaşqaya
+89	6689	kəlbətin	kəlbətini kəlbətinin kəlbətinlər kəlbətinlərdən kəlbətinləri
+90	6690	bəlgə	bəlgələr bəlgələrdə bəlgələri bəlgələrin bəlgələrində bəlgələrə bəlgəni bəlgəsi bəlgəsində bəlgəsinin
+91	6691	akrobatik	
+92	6692	keş	keşi keşin keşinin keşlərin
+93	6693	müəzzin	müəzzindən müəzzini müəzzinin müəzzinlər müəzzinləri müəzzinlərə
+94	6694	böyürmək	böyürür böyürürdü böyürə böyürə-böyürə böyürək böyürər
+95	6695	karıxmaq	karıxan karıxaraq karıxdı karıxdılar karıxmış karıxmışdı karıxıb karıxır
+96	6696	nərdtaxta	nərdtaxtada nərdtaxtadan nərdtaxtanın nərdtaxtaya
+97	6697	ütüləmək	ütüləmişdi ütüləmə ütüləyib ütüləyiblər ütüləyirdi ütüləyirdim ütüləyə ütüləyərsən
+98	6698	dalğın	
+99	6699	gülgü	gülgün gülgünün gülgünə
+100	6700	sərinkeş	sərinkeşdən sərinkeşi sərinkeşim sərinkeşin sərinkeşlər sərinkeşlərdən sərinkeşə

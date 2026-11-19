@@ -1,0 +1,100 @@
+1	3201	corab	coraba corabdan corablar corablardan corabları corablarım corablarımın corablarımızı corabların corablarından corablarını corabı corabımı corabın corabını corabının
+2	3202	sətir	sətirdə sətirdən sətiri sətirin sətirində sətirini sətirinin sətirinə sətirlər sətirlərdə sətirlərdən sətirləri sətirlərim sətirlərin sətirlərində sətirlərindən sətirlərini sətirlərinin sətirlərinə sətirlərə sətirə
+3	3203	darıxdırıcı	
+4	3204	kefli	
+5	3205	sələf	sələfdən sələfi sələfim sələfin sələfində sələfindən sələfini sələfinin sələfiniz sələfinizin sələfinə sələflər sələflərdən sələfləri sələflərim sələflərimi sələflərimin sələflərimiz sələflərimizin sələflərin sələflərində sələflərindən sələflərini sələflərinin sələflərinizə sələflərinə sələflərə sələfə
+6	3206	şəhadətnamə	şəhadətnamədə şəhadətnamədən şəhadətnamələr şəhadətnamələri şəhadətnamələrin şəhadətnamələrindən şəhadətnamələrini şəhadətnamələrinin şəhadətnamələrinə şəhadətnamələrə şəhadətnaməni şəhadətnamənin şəhadətnaməsi şəhadətnaməsində şəhadətnaməsini şəhadətnaməsinin şəhadətnaməsinə şəhadətnaməyə
+7	3207	minillik	minillikdə minillikdən minilliklər minilliklərdə minilliklərdən minillikləri minilliklərin minilliklərində minilliklərə minilliyi minilliyin minilliyində minilliyindən minilliyinin minilliyinə minilliyə
+8	3208	əkinçi	əkinçidən əkinçilər əkinçilərdən əkinçiləri əkinçilərin əkinçilərinin əkinçilərinə əkinçilərə əkinçini əkinçinin əkinçisi əkinçisinin əkinçisinə əkinçiyə
+9	3209	müəmmalı	
+10	3210	doğuş	doğuşa doğuşda doğuşdan doğuşlar doğuşları doğuşların doğuşu doğuşun doğuşuna doğuşunda doğuşundan doğuşunu doğuşunun
+11	3211	yalamaq	yala yaladı yalama yalamadan yalamaya yalamayacaqsan yalamışdın yalasın yalaya-yalaya yalayacaqdı yalayacağam yalayan yalayanda yalayar yalayaraq yalayarkən yalayasan yalayıb yalayın yalayır yalayırdı yalayırdılar yalayırdıq yalayırlar yalayırsan
+12	3212	cızmaq	cız cıza cızacaq cızan cızaq cızaraq cızardım cızarkən cızdı cızdılar cızdın cızdıq cızdıqları cızma cızmadan cızmadı cızmalıdır cızmalıyıq cızmış cızmışam cızmışdı cızmışdılar cızmışdır cızmışıq cızsa cızıb cızım cızın cızır cızıram cızırdı cızırlar cızırsan cızırsınız cızırıq
+13	3213	bürc	bürcdə bürcdən bürclər bürclərdə bürclərdən bürcləri bürclərin bürclərində bürclərindən bürclərini bürclərinin bürclərinə bürclərə bürcü bürcüm bürcün bürcündə bürcündən bürcünü bürcünün bürcünüz bürcünüzdə bürcünüzün bürcünüzə bürcünə bürcə
+14	3214	tel	teldən teli telim telimi telin telindən telini telinin telinə tellər tellərdən telləri tellərimdə tellərin tellərində tellərindən tellərini tellərinin tellərinə tellərə telə
+15	3215	vedrə	vedrədə vedrədən vedrələr vedrələrdə vedrələri vedrələrin vedrələrini vedrələrinin vedrələrə vedrəmi vedrəni vedrənin vedrəsi vedrəsini vedrəsinin vedrəsinə vedrəyə
+16	3216	götvərən	götverən
+17	3217	satqın	satqına satqınlar satqınlara satqınlarda satqınlardan satqınları satqınlarımız satqınlarımızın satqınların satqınlarını satqını satqının satqınını
+18	3218	yeddinci	
+19	3219	saqqal	saqqala saqqalda saqqaldan saqqallar saqqalları saqqalların saqqallarına saqqallarını saqqallarının saqqalı saqqalım saqqalımı saqqalımın saqqalımız saqqalımızı saqqalın saqqalına saqqalında saqqalından saqqalını saqqalının saqqalınız
+20	3220	tərəvəz	tərəvəzdə tərəvəzdən tərəvəzi tərəvəzin tərəvəzindən tərəvəzlər tərəvəzlərdə tərəvəzlərdən tərəvəzləri tərəvəzlərin tərəvəzlərinin tərəvəzlərinə tərəvəzlərə tərəvəzə
+21	3221	dünyagörüşü	dünyagörüşləri dünyagörüşlərində dünyagörüşlərindən dünyagörüşlərini dünyagörüşlərinin dünyagörüşlərinə dünyagörüşündə dünyagörüşündən dünyagörüşünü dünyagörüşünün dünyagörüşünə
+22	3222	kölə	kölələr kölələrdə kölələrdən kölələri kölələrin kölələrindən kölələrini kölələrinin kölələrinə kölələrə köləmiz kölən köləni kölənin köləsi köləsini köləsinə köləyə
+23	3223	yaylaq	yayla yaylada yayladan yaylalar yaylalara yaylalarda yaylalardan yaylaları yaylaların yaylalarında yaylanı yaylanın yaylaqda yaylaqdan yaylaqlar yaylaqlara yaylaqlarda yaylaqlardan yaylaqları yaylaqlarımızda yaylaqların yaylaqlarına yaylaqlarında yaylaqlarından yaylaqlarını yaylaqlarının yaylası yaylasına yaylasında yaylasından yaylasını yaylasının yaylaya yaylağa yaylağı yaylağın yaylağına yaylağında yaylağının
+24	3224	bərabərlik	bərabərlikdə bərabərlikdən bərabərliklər bərabərliklərdən bərabərlikləri bərabərliklərin bərabərliklərində bərabərliklərini bərabərliklərinin bərabərliyi bərabərliyimizi bərabərliyimizə bərabərliyin bərabərliyində bərabərliyindən bərabərliyini bərabərliyinin bərabərliyiniz bərabərliyinizdən bərabərliyinə bərabərliyə
+25	3225	kolleksiyaçı	kolleksiyaçılar kolleksiyaçılara kolleksiyaçılardan kolleksiyaçıları kolleksiyaçıların kolleksiyaçılarında kolleksiyaçılarının kolleksiyaçının kolleksiyaçısı kolleksiyaçısına kolleksiyaçıya
+26	3226	yeməkxana	yeməkxanada yeməkxanadan yeməkxanalar yeməkxanalara yeməkxanalarda yeməkxanalardan yeməkxanaları yeməkxanaların yeməkxanalarına yeməkxanalarında yeməkxanalarının yeməkxananı yeməkxananın yeməkxanası yeməkxanasına yeməkxanasında yeməkxanasından yeməkxanasının yeməkxanaya
+27	3227	alban	albanlar albanı
+28	3228	təxliyə	təxliyyə təxliyədən təxliyəni təxliyənin təxliyəsi təxliyəsinə təxliyəyə
+29	3229	rahibə	rahibədən rahibələr rahibələrdən rahibələri rahibələrin rahibələrindən rahibələrə rahibəni rahibənin rahibəsi rahibəyə
+30	3230	texnoloji	
+31	3231	konsulluq	konsulluqda konsulluqdan konsulluqlar konsulluqlara konsulluqlarda konsulluqlardan konsulluqları konsulluqlarımızın konsulluqların konsulluqlarına konsulluqlarında konsulluqlarının konsulluğa konsulluğu konsulluğumuz konsulluğumuza konsulluğumuzda konsulluğumuzdan konsulluğumuzu konsulluğumuzun konsulluğun konsulluğuna konsulluğunda konsulluğundan konsulluğunu konsulluğunun
+32	3232	dammaq	dama dama-dama damacaq damacaqdı damalar damam daman damanda damaq damaqda damaqlar damaqları damaqların damaqlarında damaqlarından damaqlarınızı damarlar damağa damağı damağımda damağımızda damağın damağına damağında damağından damağını damağının damağınızda damdı damma dammamışdı dammasın dammış dammışdı damsa damıb damıbmış damın damır damırdı
+33	3233	portağal	portağala portağalda portağaldan portağallar portağalları portağalların portağalı portağalın
+34	3234	pəhriz	pəhrizdə pəhrizdən pəhrizi pəhrizimizə pəhrizin pəhrizində pəhrizindən pəhrizini pəhrizinin pəhrizinə pəhrizlər pəhrizlərdən pəhrizlərinin pəhrizlərinə pəhrizlərə pəhrizə
+35	3235	əqrəb	əqrəbdən əqrəbi əqrəbin əqrəbində əqrəbindən əqrəbini əqrəbinin əqrəblər əqrəblərdə əqrəblərdən əqrəbləri əqrəblərin əqrəblərini əqrəblərinin əqrəblərə əqrəbə
+36	3236	astana	astanada astanadan astanalar astanalara astanalarda astanalardan astanaları astanaların astanalarında astanalarını astananı astananın astanası astanasına astanasında astanasından astanasını astanasının astanaya
+37	3237	çarəsiz	
+38	3238	penis	penisdən penisi penisim penisin penisini penisinin penisə
+39	3239	kibrit	kibritdən kibriti kibritin kibritlər kibritə
+40	3240	təşviş	təşvişdə təşvişdən təşvişi təşvişim təşvişin təşvişindən təşvişini təşvişinə təşvişlər təşvişlərin təşvişlərə təşvişə
+41	3241	dəvə	dəvədə dəvədən dəvələr dəvələrdə dəvələrdən dəvələri dəvələrin dəvələrindən dəvələrini dəvələrinin dəvələrinə dəvələrə dəvəm dəvəmi dəvəmiz dəvəmizə dəvən dəvəni dəvənin dəvəsi dəvəsini dəvəsinin dəvəsinə dəvəyə
+42	3242	yorğun	
+43	3243	adət-ənənə	adət-ənənədən adət-ənənələr adət-ənənələrdə adət-ənənələrdən adət-ənənələri adət-ənənələrimiz adət-ənənələrimizdən adət-ənənələrimizi adət-ənənələrimizin adət-ənənələrimizə adət-ənənələrin adət-ənənələrində adət-ənənələrindən adət-ənənələrini adət-ənənələrinin adət-ənənələrinizdə adət-ənənələrinə adət-ənənələrə adət-ənənəmdə adət-ənənəmiz adət-ənənəmizi adət-ənənəmizə adət-ənənəni adət-ənənənin adət-ənənəsi adət-ənənəsində adət-ənənəsindən adət-ənənəsini adət-ənənəsinin adət-ənənəsinə adət-ənənəyə
+44	3244	əsil	
+45	3245	əsna	əsnada əsnalarda əsnasına əsnasında əsnasından əsnasını əsnasının
+46	3246	əlcək	əlcəkdə əlcəkdən əlcəklər əlcəklərdə əlcəklərdən əlcəkləri əlcəklərimi əlcəklərimiz əlcəklərin əlcəklərindən əlcəklərini əlcəklərinin əlcəklərinizi əlcəklərə əlcəyi əlcəyin əlcəyini əlcəyinin əlcəyiniz əlcəyə
+47	3247	çəngəl	çəngəldə çəngəldən çəngəli çəngəlin çəngəlində çəngəlinə çəngəllər çəngəllərdə çəngəllərdən çəngəlləri çəngəllərin çəngəllərinin çəngələ
+48	3248	püskürmək	püskürdü püskürdükləri püskürdülər püskürmür püskürmüş püskürmüşdür püskürmə püskürmədən püskürmələr püskürmələri püskürmələrin püskürmələrindən püskürmələrini püskürmələrinin püskürmənin püskürməsi püskürməsin püskürməsindən püskürməsini püskürməsinin püskürməsinə püskürməsəydi püskürməyə püskürməyəcəyik püskürməz püskürsün püskürsünlər püskürsə püskürüb püskürür püskürürdü püskürürlər püskürürük püskürə püskürəcək püskürən püskürəndə püskürərkən püskürərək
+49	3249	qorilla	qorilladan qorillalar qorillalara qorillaları qorillaların qorillalarından qorillalarının qorillam qorillanı qorillanın qorillanızı qorillası qorillaya
+50	3250	qovşaq	qovşaqda qovşaqdan qovşaqlar qovşaqlara qovşaqlarda qovşaqlardan qovşaqları qovşaqların qovşaqlarına qovşaqlarında qovşaqlarından qovşaqlarını qovşaqlarının qovşağa qovşağı qovşağın qovşağına qovşağında qovşağından qovşağını qovşağının
+51	3251	tədarük	tədarükdən tədarüklər tədarüklərdə tədarüklərində tədarüklərini tədarüklərinin tədarükü tədarükümü tədarükümüz tədarükün tədarükündə tədarükündən tədarükünü tədarükünün tədarükünə tədarükə
+52	3252	tütün	tütündə tütündən tütünlərdən tütünü tütünüm tütünün tütününü tütününün tütünə
+53	3253	qapaq	qapaqdan qapaqlar qapaqlarda qapaqlardan qapaqları qapaqlarımızı qapaqların qapaqlarına qapaqlarında qapaqlarından qapaqlarını qapaqlarının qapaqlarınızın qapağa qapağı qapağın qapağına qapağında qapağından qapağını qapağının qapağınızı
+54	3254	naxış	naxışa naxışdan naxışlar naxışlara naxışlarda naxışlardan naxışları naxışlarım naxışlarımız naxışlarımızda naxışların naxışlarına naxışlarında naxışlarından naxışlarını naxışlarının naxışı naxışımız naxışımızın naxışın naxışına naxışından naxışını naxışının
+55	3255	nəcib	
+56	3256	quzu	quzular quzulardan quzuları quzuların quzularını quzum quzun quzunu quzunun quzusu quzusunun quzuya
+57	3257	bünövrə	bünövrədə bünövrədən bünövrələr bünövrələri bünövrələrində bünövrələrindən bünövrələrini bünövrələrinin bünövrələrə bünövrəni bünövrənin bünövrəsi bünövrəsində bünövrəsindən bünövrəsini bünövrəsinin bünövrəsinə bünövrəyə
+58	3258	biganə	
+59	3259	barışıq	barışıqda barışıqdan barışıqları barışıqlarının barışığa barışığı barışığın barışığına barışığından barışığını barışığının
+60	3260	şərik	şəriki şərikim şərikimin şərikimiz şərikin şərikindən şərikinin şərikinə şəriklər şəriklərdən şərikləri şəriklərim şəriklərin şəriklərindən şəriklərinin şəriklərinə şəriklərə şərikə
+61	3261	piramida	piramidadan piramidalar piramidalara piramidalarda piramidalardan piramidaları piramidaların piramidalarına piramidalarında piramidalarını piramidalarının piramidanı piramidanın piramidası piramidasına piramidasında piramidasından piramidasını piramidasının piramidaya
+62	3262	qovluq	qovluqda qovluqdan qovluqlar qovluqlara qovluqlarda qovluqlardan qovluqları qovluqların qovluqlarına qovluqlarını qovluqlarının qovluğa qovluğu qovluğumda qovluğumu qovluğumuzda qovluğun qovluğuna qovluğunda qovluğundan qovluğunu qovluğunun
+63	3263	xristianlıq	xristianlıqda xristianlıqdan xristianlığa xristianlığı xristianlığın xristianlığına xristianlığında xristianlığından xristianlığını xristianlığının
+64	3264	fəvvarə	fəvvarədə fəvvarədən fəvvarələr fəvvarələrdə fəvvarələrdən fəvvarələri fəvvarələrin fəvvarələrindən fəvvarələrini fəvvarələrinin fəvvarələrə fəvvarəni fəvvarənin fəvvarəsi fəvvarəsindən fəvvarəsinin fəvvarəyə
+65	3265	məzənnə	məzənnədə məzənnədən məzənnələr məzənnələri məzənnələrin məzənnələrində məzənnələrini məzənnələrinin məzənnələrinə məzənnəni məzənnənin məzənnəsi məzənnəsində məzənnəsindən məzənnəsini məzənnəsinin məzənnəsinə məzənnəyə
+66	3266	omba	ombalar ombalarını ombalarının ombama omban ombandan ombası ombasına ombasında ombasından ombasını ombaya
+67	3267	tarixən	
+68	3268	ucuzlaşmaq	ucuzlaşa ucuzlaşacaq ucuzlaşacaqsınız ucuzlaşan ucuzlaşanda ucuzlaşar ucuzlaşaraq ucuzlaşdı ucuzlaşdıqca ucuzlaşma ucuzlaşmadan ucuzlaşmadı ucuzlaşmalıdır ucuzlaşmasa ucuzlaşmaya ucuzlaşmayacaq ucuzlaşmayan ucuzlaşmayıb ucuzlaşmır ucuzlaşmış ucuzlaşmışdı ucuzlaşmışdır ucuzlaşsa ucuzlaşsın ucuzlaşıb ucuzlaşır ucuzlaşırdı
+69	3269	kir	kirdən kiri kirim kirimin kirimizi kirin kirini kirinə kirlər kirlərdən kirləri kirə
+70	3270	ovqat	ovqata ovqatda ovqatdan ovqatları ovqatların ovqatlarından ovqatlarını ovqatı ovqatım ovqatıma ovqatımdan ovqatımı ovqatımız ovqatımıza ovqatımızı ovqatın ovqatına ovqatında ovqatından ovqatını ovqatının ovqatınız ovqatınıza ovqatınızda ovqatınızı ovqatınızın
+71	3271	müvəffəq	
+72	3272	çapmaq	çapa çapacaq çapacaqlar çapacaqlara çapacaqları çapacaqlarının çapan çapaq çapaqlardan çapar çapara çaparaq çapardan çapardı çaparkən çaparlar çaparlara çaparları çaparların çaparı çaparımız çapağın çapdı çapdılar çapdıq çapma çapmaram çapmışam çapmışdı çapmışıq çapsın çapsınlar çapıb çapıbdır çapın çapır çapırdı çapırdılar çapırlar
+73	3273	mühacirət	mühacirətdə mühacirətdən mühacirəti mühacirətim mühacirətimizə mühacirətin mühacirətindən mühacirətini mühacirətinin mühacirətinə mühacirətlərinin mühacirətə
+74	3274	milçək	milçəkdə milçəkdən milçəklər milçəklərdə milçəklərdən milçəkləri milçəklərin milçəklərində milçəklərindən milçəklərinin milçəklərə milçəyi milçəyin milçəyində milçəyini milçəyinin milçəyə
+75	3275	nəsr	nəsrdə nəsrdən nəsri nəsrimiz nəsrimizdə nəsrimizin nəsrimizə nəsrin nəsrində nəsrindən nəsrini nəsrinin nəsrinə nəsrləri nəsrə
+76	3276	əbədiyyət	əbədiyyətdən əbədiyyəti əbədiyyətin əbədiyyətini əbədiyyətlər əbədiyyətləri əbədiyyətə
+77	3277	məzhəb	məzahib məzahibi məzhəbdə məzhəbdən məzhəbi məzhəbin məzhəbində məzhəbindən məzhəbini məzhəbinin məzhəbinə məzhəblər məzhəblərdə məzhəblərdən məzhəbləri məzhəblərin məzhəblərində məzhəblərindən məzhəblərini məzhəblərinin məzhəblərinə məzhəblərə məzhəbə
+78	3278	qızışmaq	qızışa qızışacaq qızışan qızışanda qızışar qızışaraq qızışdı qızışdılar qızışdım qızışdıqca qızışma qızışmamaq qızışmamışdı qızışmayacaq qızışmış qızışmışdı qızışmışdılar qızışsa qızışsın qızışıb qızışıblar qızışır qızışırdı
+79	3279	kilometrlik	kilometrlikdə kilometrlikdən kilometrliklərində kilometrliyi kilometrliyində kilometrliyindən kilometrliyini kilometrliyinə
+80	3280	artistlik	artistliyi artistliyinin
+81	3281	sabun	sabuna sabunda sabundan sabunlar sabunlara sabunlardan sabunları sabunların sabunlarına sabunlarını sabunu sabunun sabununu sabununun
+82	3282	tənbəl	
+83	3283	lələk	lələkdən lələklər lələklərdə lələklərdən lələkləri lələklərimə lələklərin lələklərində lələklərindən lələklərini lələklərinin lələklərinə lələklərə lələyi lələyin lələyindən lələyini lələyinin lələyinə lələyə
+84	3284	dəftər	dəftərdə dəftərdən dəftəri dəftərim dəftərimdə dəftərimdən dəftərimə dəftərin dəftərində dəftərindən dəftərini dəftərinin dəftərinizi dəftərinizə dəftərinə dəftərlər dəftərlərdə dəftərlərdən dəftərləri dəftərlərim dəftərlərimi dəftərlərin dəftərlərində dəftərlərindən dəftərlərini dəftərlərinin dəftərlərinə dəftərlərə dəftərçə dəftərə
+85	3285	maarifləndirmək	maarifləndirin maarifləndirir maarifləndirirdilər maarifləndiririk maarifləndirmirik maarifləndirmiş maarifləndirmişdir maarifləndirmə maarifləndirmədən maarifləndirməlidir maarifləndirməsən maarifləndirməyə maarifləndirsinlər maarifləndirə maarifləndirəcək maarifləndirək maarifləndirən maarifləndirərək
+86	3286	yasaq	yasaqda yasaqdan yasaqlar yasaqlara yasaqları yasaqlarımız yasaqların yasaqlarına yasağa yasağı yasağın yasağına yasağını yasağının
+87	3287	rəqqas	rəqqasa rəqqasdan rəqqaslar rəqqaslara rəqqaslardan rəqqasları rəqqaslarımız rəqqasların rəqqaslarına rəqqaslarından rəqqaslarını rəqqaslarının rəqqası rəqqasın rəqqasına rəqqasə
+88	3288	cərgə	cərgədə cərgədən cərgələr cərgələrdə cərgələrdən cərgələri cərgələrimizi cərgələrin cərgələrində cərgələrindən cərgələrini cərgələrinin cərgələrinə cərgələrə cərgəni cərgənin cərgəsi cərgəsində cərgəsindən cərgəsini cərgəsinin cərgəsinə cərgəyə
+89	3289	əlvida	
+90	3290	vağzal	vağzala vağzalda vağzaldan vağzallara vağzallarda vağzallardan vağzalları vağzalların vağzallarına vağzallarında vağzallarından vağzalı vağzalımızın vağzalın vağzalına vağzalında vağzalından vağzalını vağzalının
+91	3291	sayğı	sayğıdan sayğılar sayğıları sayğılarımı sayğılarımızı sayğılarını sayğım sayğıma sayğımdan sayğımız sayğımıza sayğımızdan sayğımızı sayğın sayğını sayğının sayğınız sayğısı sayğısından sayğısını sayğısının sayğıya
+92	3292	nisbi	
+93	3293	muncuq	muncuqdan muncuqlar muncuqlara muncuqlardan muncuqları muncuqların muncuqlarına muncuqlarından muncuğu muncuğun
+94	3294	darvaza	darvazada darvazadan darvazalar darvazalara darvazalarda darvazalardan darvazaları darvazaların darvazalarına darvazalarında darvazalarından darvazalarını darvazalarının darvazamın darvazamızı darvazamızın darvazanı darvazanın darvazası darvazasına darvazasında darvazasından darvazasını darvazasının darvazaya
+95	3295	titrəmək	titrədi titrədim titrəmir titrəmə titrəmədən titrəməsin titrəməyə titrəməyən titrəsin titrəyib titrəyir titrəyirdi titrəyirdim titrəyirmiş titrəyirsən titrəyirəm titrəyə-titrəyə titrəyəcək titrəyən titrəyər titrəyərdi titrəyərək
+96	3296	əhval-ruhiyyə	əhval-ruhiyyədə əhval-ruhiyyədən əhval-ruhiyyələr əhval-ruhiyyələri əhval-ruhiyyələrindən əhval-ruhiyyələrini əhval-ruhiyyələrinə əhval-ruhiyyəm əhval-ruhiyyəmi əhval-ruhiyyəmiz əhval-ruhiyyəmizi əhval-ruhiyyəmə əhval-ruhiyyəni əhval-ruhiyyənin əhval-ruhiyyəniz əhval-ruhiyyənizdən əhval-ruhiyyənizi əhval-ruhiyyəsi əhval-ruhiyyəsində əhval-ruhiyyəsindən əhval-ruhiyyəsini əhval-ruhiyyəsinin əhval-ruhiyyəsinə əhval-ruhiyyəyə
+97	3297	xalat	xalatda xalatdan xalatlar xalatlardan xalatları xalatların xalatlarının xalatı xalatın xalatında xalatından xalatını xalatının
+98	3298	təəccüb	təəccübdə təəccübdən təəccüblər təəccüblərini təəccüblərinə təəccübü təəccübüm təəccübümü təəccübümün təəccübümüz təəccübümüzü təəccübümüzə təəccübümə təəccübündən təəccübünü təəccübünün təəccübünə təəccübə
+99	3299	dindirmək	dindir dindirdi dindirdik dindirdikləri dindirdilər dindirdim dindirdiniz dindirib dindiriblər dindirin dindirir dindirirdi dindirirdin dindirirlər dindirirsən dindirmirdilər dindirmişdi dindirmişəm dindirmə dindirmədə dindirmədən dindirmələr dindirmələrdə dindirmələrdən dindirmələrin dindirmənin dindirməsi dindirməsinə dindirməyib dindirməyiblər dindirməyə dindirsinlər dindirsən dindirsəniz dindirə dindirən dindirəndə dindirərkən dindirərsən
+100	3300	voleybol	voleybola voleybolda voleyboldan voleybolu voleybolun voleyboluna voleybolunda voleybolundan voleybolunun

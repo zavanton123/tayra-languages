@@ -1,0 +1,100 @@
+1	6001	hikmətli	
+2	6002	gəmirmək	gəmir gəmirib gəmirir gəmirirdi gəmirirdilər gəmirirlər gəmirmirlər gəmirmişdir gəmirməyə gəmirə gəmirə-gəmirə gəmirən gəmirərək
+3	6003	arxayınlıq	arxayınlıqları arxayınlığa arxayınlığı arxayınlığımızdan arxayınlığın arxayınlığında arxayınlığının
+4	6004	mütəəssir	
+5	6005	morfologiya	morfologiyada morfologiyalarında morfologiyanın morfologiyası morfologiyasına morfologiyasında morfologiyasını morfologiyasının morfologiyaya
+6	6006	xurafat	xurafatlar xurafatı
+7	6007	şirk	şirkdən şirki şirkin şirkə
+8	6008	klaviş	klavişdə klavişdən klavişi klavişin klavişindən klavişini klavişinin klavişlər klavişlərdə klavişləri klavişlərin klavişlərində klavişlərinin klavişlərinə klavişlərə klavişə
+9	6009	havadarlıq	havadarlıqda havadarlığı havadarlığın havadarlığını
+10	6010	antigen	antigeni antigenin antigenini antigeninin antigeninə antigenlər antigenləri antigenlərin antigenlərini antigenlərinin antigenlərə antigenə
+11	6011	qızlıq	qızlıqda qızlığa qızlığı qızlığında qızlığını qızlığının
+12	6012	eyn	eynim eynimi eynimizi eynimə eynin eynində eynini eyninin eyninə eynə
+13	6013	baldır	baldıra baldırda baldırdan baldırlar baldırlarda baldırları baldırlarında baldırlarının baldırı baldırın baldırına baldırında baldırını baldırının baldırınıza
+14	6014	çuqun	çuquna çuqundan çuqunlar çuqunlardan çuqunların çuqunu çuqunun
+15	6015	farsdilli	farsdillilərin
+16	6016	tuğ	tuğa tuğda tuğdan tuğları tuğu tuğun tuğunu
+17	6017	şu	şuma şumda şumdan şumu şumun şun şuna şunu şunun şuya
+18	6018	əlcəzairli	əlcəzairlilər əlcəzairliləri əlcəzairlilərin əlcəzairlilərə əlcəzairlini əlcəzairlinin
+19	6019	yuvarlaq	
+20	6020	qaynaqçı	qaynaqçılar qaynaqçılardan qaynaqçıları qaynaqçıların qaynaqçını qaynaqçısı
+21	6021	axsamaq	axsa axsadıqları axsama axsamaz axsaya-axsaya axsayacaqdı axsayan axsayaraq axsayıb axsayır axsayırdı axsayırıq
+22	6022	individual	
+23	6023	bozumtul	
+24	6024	qalay	qalaya qalaydan qalaylara qalayı qalayın
+25	6025	qitələrarası	
+26	6026	süita	süitada süitalar süitaları süitaların süitalarında süitalarının süitanı süitanın süitası süitasında süitasını süitasının süitaya
+27	6027	kal	
+28	6028	qeyri-mümkünlük	qeyri-mümkünlüyü qeyri-mümkünlüyünü qeyri-mümkünlüyünün qeyri-mümkünlüyünə
+29	6029	bələmək	bələ bələdi bələdik bələməyə bələyib bələyərək
+30	6030	qaraqalpaq	qaraqalpaqlar qaraqalpaqlara qaraqalpaqlarda qaraqalpaqlardan qaraqalpaqların
+31	6031	doğmalaşmaq	doğmalaşan doğmalaşdı doğmalaşma doğmalaşmaya doğmalaşmısan doğmalaşmış doğmalaşmışdı doğmalaşmışdıq doğmalaşıb doğmalaşır doğmalaşırdı doğmalaşırlar doğmalaşırsan
+32	6032	azman	azmanlarını azmanı
+33	6033	ovsunlamaq	ovsunla ovsunladı ovsunlama ovsunlamalıydı ovsunlamışdı ovsunlasınlar ovsunlaya ovsunlayacaq ovsunlayacaqsınız ovsunlayan ovsunlayaraq ovsunlayıb ovsunlayır ovsunlayırdı
+34	6034	yoğurmaq	yoğuran yoğurar yoğuraraq yoğurdu yoğurdum yoğurduqca yoğurma yoğurmamalıyıq yoğurmaya yoğurub yoğurun yoğururam yoğururdu yoğururdular yoğururlar yoğururmuş yoğurursan
+35	6035	çomaq	çomaqdan çomaqlarını çomağı çomağım çomağımı çomağın çomağına çomağından çomağını çomağının
+36	6036	çömçə	çömçədən çömçələr çömçələrinin çömçəni çömçənin çömçəsi çömçəsini çömçəsinə çömçəyə
+37	6037	mühafizəkarlıq	mühafizəkarlıqda mühafizəkarlıqdan mühafizəkarlığa mühafizəkarlığı mühafizəkarlığın mühafizəkarlığına mühafizəkarlığını mühafizəkarlığının
+38	6038	oraq	oraqda oraqdan oraqlar oraqlara oraqlardan oraqları oraqların orağa orağı orağın orağını
+39	6039	neyçün	
+40	6040	mütəşəkkillik	mütəşəkkillikdə mütəşəkkillikləri mütəşəkkilliyi mütəşəkkilliyin mütəşəkkilliyini mütəşəkkilliyinin mütəşəkkilliyinə mütəşəkkilliyə
+41	6041	axtaçı	axtaçıda axtaçılar axtaçıların axtaçısı
+42	6042	qırtlaq	qırtlaqda qırtlaqdan qırtlağa qırtlağı qırtlağın qırtlağında qırtlağından qırtlağınızı
+43	6043	prestij	prestiji prestijini prestijinə prestijləri prestijə
+44	6044	qari	qarilər qarilərdən qarilərindən qarin qarini qarinin
+45	6045	altun	altuna altunun
+46	6046	iffət	iffəti iffətin iffətini iffətlərini
+47	6047	ortancıl	ortancıla ortancılı ortancılın
+48	6048	sıyıq	sıyıqda sıyıqdan sıyıqlar sıyıqlara sıyıqları sıyıqların sıyığa sıyığı sıyığın sıyığına
+49	6049	şimal-şərqi	
+50	6050	qıcqırmaq	qıcqıra qıcqıran qıcqırma qıcqırmış qıcqırsa qıcqırıb qıcqırır qıcqırırdı
+51	6051	epilepsiya	epilepsiyada epilepsiyadan epilepsiyaları epilepsiyanı epilepsiyanın epilepsiyası epilepsiyaya
+52	6052	cökə	cökədən cökəni cökənin cökəsi cökəsini cökəyə
+53	6053	rişxənd	rişxəndlərinə rişxəndə
+54	6054	fərasətli	
+55	6055	tərbiyələndirmək	tərbiyələndirdi tərbiyələndirib tərbiyələndirir tərbiyələndirirdi tərbiyələndirmişdir tərbiyələndirmə tərbiyələndirməlidir tərbiyələndirməliyik tərbiyələndirməyin tərbiyələndirməyə tərbiyələndirsin tərbiyələndirsə tərbiyələndirə
+56	6056	ərən	ərəni ərənin ərənlər ərənləri ərənlərin ərənlərini ərənlərinin ərənlərə ərənə
+57	6057	səksəkə	səksəkədə səksəkəyə
+58	6058	ana-bacı	ana-bacılar ana-bacıları ana-bacılarımın ana-bacılarımız ana-bacılarımızdan ana-bacılarımızı ana-bacılarımızın ana-bacılarını ana-bacımız ana-bacısı ana-bacısına ana-bacısından ana-bacısını ana-bacısının
+59	6059	qayış	qayışa qayışdan qayışlar qayışlarda qayışları qayışların qayışı qayışımın qayışın qayışına qayışının
+60	6060	cismən	
+61	6061	xələc	xələcdə xələci xələclər xələclərin
+62	6062	amfiteatr	amfiteatrda amfiteatrdan amfiteatrlar amfiteatrlarda amfiteatrlardan amfiteatrları amfiteatrların amfiteatrlarından amfiteatrı amfiteatrın amfiteatrında amfiteatrını amfiteatrının
+63	6063	it-bat	it-bata
+64	6064	rüblük	
+65	6065	yerkökü	yerköküdən yerkökülər yerkökündən yerkökünü yerkökünün
+66	6066	vaqe	
+67	6067	atəşpərəstlik	atəşpərəstlikdə atəşpərəstlikdən atəşpərəstliyi atəşpərəstliyin atəşpərəstliyə
+68	6068	sallaq	
+69	6069	uvertüra	uvertürada uvertüralar uvertüraları uvertüralarının uvertüranın uvertürası uvertürasında uvertürasını uvertürasının
+70	6070	vəftiz	vəftizdən vəftizi vəftizin vəftizində vəftizindən vəftizə
+71	6071	plaş	plaşa plaşda plaşlar plaşların plaşlarının plaşı plaşımda plaşımı plaşımızın plaşın plaşına plaşını plaşının
+72	6072	şəkərbura	şəkərburada şəkərburaların şəkərburanın şəkərburası şəkərburaya
+73	6073	bozarmaq	bozara-bozara bozaran bozararaq bozardı bozarmış bozarsa bozarıb bozarır bozarırdı
+74	6074	qoxumaq	qoxumamaq qoxusa qoxusalar qoxuya qoxuyan qoxuyaram
+75	6075	yüngülvari	
+76	6076	mehtər	mehtərdən mehtəri mehtərin mehtərinə mehtərlər mehtərlərin mehtərlərinə mehtərlərə mehtərə
+77	6077	hidroliz	hidrolizdən hidrolizi hidrolizin hidrolizində hidrolizindən hidrolizini hidrolizinə hidrolizə
+78	6078	tövhid	tövhiddə tövhidi tövhidin tövhidə
+79	6079	lağlağı	lağlağıdan lağlağılara lağlağıları lağlağını lağlağıya
+80	6080	papiros	papirosa papirosdan papiroslar papirosları papirosu papirosun papirosuna papirosunun
+81	6081	üzgüçü	üzgüçülər üzgüçüləri üzgüçülərindən üzgüçünün üzgüçüsü üzgüçüsündən
+82	6082	oğulluq	oğulluqdan oğulluqları oğulluğa oğulluğu oğulluğuna oğulluğunun
+83	6083	məhşər	
+84	6084	sonbeşik	sonbeşikləri sonbeşiyi sonbeşiyin sonbeşiyə
+85	6085	el-oba	el-obanı
+86	6086	qundaq	qundaqda qundaqları qundaqlarının qundağa qundağı qundağın qundağına qundağını
+87	6087	qaloş	qaloşa qaloşda qaloşdan qaloşları qaloşlarını qaloşu
+88	6088	mıx	mıxa mıxda mıxdan mıxlar mıxları mıxlarından mıxı mıxın
+89	6089	kardioloq	kardioloqa kardioloqlar kardioloqları kardioloqların kardioloqlarının kardioloqu kardioloqun
+90	6090	alagöz	
+91	6091	yavan	
+92	6092	mamır	mamırda mamırdan mamırlar mamırlara mamırlarda mamırlardan mamırları mamırların mamırlarının mamırı mamırın
+93	6093	uluslararası	
+94	6094	natamamlıq	natamamlığı natamamlığına natamamlığında natamamlığını natamamlığının
+95	6095	qarabasma	qarabasmalar qarabasmalara qarabasmalardan qarabasmaları qarabasmaların qarabasmalarında qarabasmalarından qarabasmalarının qarabasmanı qarabasmanın qarabasmasını qarabasmaya
+96	6096	qaçağan	qaçağanda qaçağanlar qaçağanların qaçağanlarını qaçağanı qaçağanın
+97	6097	qənaətcil	
+98	6098	qarağac	qarağacdan qarağaclar qarağacların qarağacı qarağacın
+99	6099	cücərti	cücərtilər cücərtilərdə cücərtilərdən cücərtiləri cücərtilərin cücərtilərindən cücərtilərini cücərtilərinin cücərtilərinə cücərtini cücərtisini
+100	6100	təkzibedilməz	

@@ -1,0 +1,100 @@
+1	7801	yöndəm	yöndəmindən yöndəmə
+2	7802	çayan	
+3	7803	çoxallahlı	
+4	7804	çoşqa	çoşqaların çoşqası
+5	7805	çərən-pərən	
+6	7806	çərənləmək	çərənləyir
+7	7807	özünüzünkü	
+8	7808	şamçı	şamçıya
+9	7809	şeş	
+10	7810	şirəçəkən	
+11	7811	əgərçi	
+12	7812	əkinəyararsız	
+13	7813	əqəliyyət	əqəliyyətinin
+14	7814	əzbərçi	əzbərçisi
+15	7815	qatranlamaq	qatranla qatranlamışdılar
+16	7816	vərasət	vərasətində
+17	7817	çoxsəslilik	çoxsəslilikdən
+18	7818	qarquşu	qarquşunun
+19	7819	duzqabı	duzqabısını
+20	7820	tənbölən	tənböləni tənbölənləri
+21	7821	hidrobiologiya	hidrobiologiyanın
+22	7822	sürvə	sürvənin sürvəsi
+23	7823	kartofəzən	kartofəzəndən kartofəzənlərin
+24	7824	vav	vava
+25	7825	vallon	vallona vallonlar vallonun
+26	7826	burğac	burğaclarda burğaclardan burğacların burğacın
+27	7827	ahəng qanunu	ahəng qanunu
+28	7828	ağ ayı	ayı ağ
+29	7829	budaq cümlə	budaq cümlə
+30	7830	nüvə silahı	nüvə silahı
+31	7831	qara dəlik	dəlik qara
+32	7832	qızlıq pərdəsi	pərdəsi qızlıq
+33	7833	sosial şəbəkə	sosial şəbəkə
+34	7834	mərkəzəqaçma	
+35	7835	yəhərli	
+36	7836	üzükvari	
+37	7837	iyirmi bir	bir iyirmi
+38	7838	hipotermiya	
+39	7839	işığahəssas	
+40	7840	mürəbbe	
+41	7841	səngək	
+42	7842	yunandilli	
+43	7843	çoxatomlu	
+44	7844	şatır	
+45	7845	ağuz	
+46	7846	lumu	
+47	7847	şəxslərarası	
+48	7848	təpimək	təpiyib təpiyin təpiyə
+49	7849	bihuşluq	
+50	7850	cəsim	
+51	7851	durğuzmaq	durğuz
+52	7852	fağır-füqəra	
+53	7853	giryə	
+54	7854	göbəkbağı	
+55	7855	pəyam	
+56	7856	təktanrıçı	
+57	7857	vorzakon	
+58	7858	vətənşivən	
+59	7859	adamaoxşamaz	
+60	7860	anqut	
+61	7861	arxaikləşdirmək	arxaikləşdirib
+62	7862	atanşik	
+63	7863	avarçı	avarçının
+64	7864	azarxana	azarxanasında
+65	7865	azişlənən	
+66	7866	ağbalıq	
+67	7867	balağ	
+68	7868	bürüşük	
+69	7869	cəftələmək	cəftələyəndə
+70	7870	darılmaq	darılmırlar
+71	7871	eşələmək	
+72	7872	fanus	fanusları
+73	7873	fikirsiz	
+74	7874	fınxırmaq	fınxırdı
+75	7875	fəhmli	
+76	7876	hakimiyyətçi	hakimiyyətçilərə
+77	7877	hidrokimya	hidrokimyası
+78	7878	ho-ho	
+79	7879	həncəri	
+80	7880	iskəmlə	iskəmləsindən
+81	7881	kələci	kələcindən
+82	7882	lüstr	
+83	7883	ləb	
+84	7884	ləzzətsiz	
+85	7885	muştuluqçu	
+86	7886	mürğ	
+87	7887	müxatəb	müxatəbin
+88	7888	nagahan	
+89	7889	ovsar	ovsarı
+90	7890	pürrəng	
+91	7891	qolaylanmaq	qolaylanmır
+92	7892	qıs-qıs	
+93	7893	qızdırmaölçən	qızdırmaölçənin
+94	7894	qığlamaq	qığla
+95	7895	qəşəngləşmək	
+96	7896	rastamoşka	
+97	7897	sallana-sallana	
+98	7898	sarsımaq	sarsımış
+99	7899	satıb-sovmaq	satıb-sovub
+100	7900	sovxa	

@@ -1,0 +1,100 @@
+1	3001	çavuş	çavuşa çavuşdan çavuşlar çavuşlara çavuşlardan çavuşları çavuşların çavuşlarından çavuşu çavuşum çavuşumuz çavuşun çavuşuna çavuşundan çavuşunu çavuşunun çovuş
+2	3002	övladlıq	övladlıqdan övladlığa övladlığı övladlığından
+3	3003	hamar	
+4	3004	zəiflətmək	zəiflədib zəiflədir zəiflədirdi zəiflədirlər zəiflədə zəiflədəcək zəiflədəcəyik zəiflədən zəiflədər zəiflədərdi zəiflədərsiniz zəiflədərək zəiflətdi zəiflətdikcə zəiflətdilər zəiflətmir zəiflətmiş zəiflətmişdi zəiflətmişdir zəiflətmişlər zəiflətmə zəiflətməlidir zəiflətməliydi zəiflətməmiş zəiflətməməli zəiflətməyib zəiflətməyin zəiflətməyə zəiflətməyəcək zəiflətsin zəiflətsinlər zəiflətsə
+5	3005	məxluq	məxluqa məxluqda məxluqdan məxluqlar məxluqlara məxluqlardan məxluqları məxluqların məxluqlarına məxluqlarında məxluqlarının məxluqlarınızı məxluqu məxluqun məxluquna məxluqunun
+6	3006	zirehli	
+7	3007	vidalaşmaq	vidalaş vidalaşa vidalaşacaq vidalaşacaqdı vidalaşacaqlar vidalaşacağıq vidalaşan vidalaşanda vidalaşaq vidalaşaraq vidalaşardıq vidalaşarkən vidalaşdı vidalaşdılar vidalaşdım vidalaşdınız vidalaşdıq vidalaşma vidalaşmadan vidalaşmadım vidalaşmalıdır vidalaşmalıdırlar vidalaşmalıyam vidalaşmamışıq vidalaşmayaq vidalaşmır vidalaşmışdı vidalaşmışdıq vidalaşmışdır vidalaşsa vidalaşsın vidalaşıb vidalaşıblar vidalaşır vidalaşıram vidalaşırlar vidalaşırmış vidalaşırsan vidalaşırıq
+8	3008	başsağlığı	başsağlıqları başsağlıqlarını başsağlığına başsağlığında başsağlığını başsağlığının
+9	3009	bataqlıq	bataqlıqda bataqlıqdan bataqlıqlar bataqlıqlara bataqlıqlarda bataqlıqlardan bataqlıqları bataqlıqların bataqlıqlarına bataqlıqlarında bataqlıqlarından bataqlıqlarının bataqlığa bataqlığı bataqlığın bataqlığına bataqlığında bataqlığından bataqlığını bataqlığının
+10	3010	sarsıtmaq	sarsıda sarsıdacaq sarsıdacaqlar sarsıdan sarsıdar sarsıdaraq sarsıdıb sarsıdıblar sarsıdır sarsıdırdı sarsıdırlar sarsıdırsınız sarsıtdı sarsıtdıqları sarsıtma sarsıtmadı sarsıtmamaq sarsıtmaya sarsıtmayacaq sarsıtmaz sarsıtmır sarsıtmış sarsıtmışdı sarsıtmışdır sarsıtsa sarsıtsın
+11	3011	sağollaşmaq	sağollaş sağollaşa sağollaşan sağollaşanda sağollaşaq sağollaşaraq sağollaşardı sağollaşarkən sağollaşdı sağollaşdım sağollaşdıq sağollaşma sağollaşmadan sağollaşmadı sağollaşmır sağollaşmışdıq sağollaşıb sağollaşım sağollaşın sağollaşır sağollaşıram sağollaşırlar sağollaşırıq
+12	3012	yoxsul	
+13	3013	əlamətdar	
+14	3014	təhqiqat	təhqiqata təhqiqatdan təhqiqatlar təhqiqatlardan təhqiqatları təhqiqatlarımızı təhqiqatların təhqiqatlarından təhqiqatlarını təhqiqatlarının təhqiqatı təhqiqatımı təhqiqatın təhqiqatına təhqiqatında təhqiqatından təhqiqatını təhqiqatının
+15	3015	sərin	
+16	3016	türmə	türmədə türmədən türmələr türmələrdə türmələrdən türmələri türmələrimiz türmələrində türmələrindən türmələrinin türmələrinə türmələrə türməmiz türməmizə türmən türmənin türməsi türməsində türməsindən türməsini türməsinin türməsinə türməyə
+17	3017	biçmək	biç biçdi biçdilər biçdim biçib biçiblər biçim biçin biçində biçindən biçini biçinin biçinində biçinini biçininin biçininə biçinə biçir biçirdi biçirik biçirlər biçirsiniz biçirəm biçmir biçmişdi biçmişik biçmə biçmədən biçməlidirlər biçməyə biçə biçəcək biçən biçəndə biçər biçəri biçərin biçərsən biçərək
+18	3018	aldanmaq	aldan aldana aldanam aldanan aldanaq aldanar aldanaraq aldandı aldandım aldandın aldanma aldanmadan aldanmadı aldanmamaq aldanmamısan aldanmasa aldanmasaydı aldanmasın aldanmasınlar aldanmaya aldanmayacaqlar aldanmayasan aldanmayıb aldanmayın aldanmırıq aldanmısan aldanmısınız aldanmış aldanmışam aldanmışdım aldanmışıq aldansa aldansın aldanıb aldanıblar aldanır aldanırdı aldanırlar aldanırıq
+19	3019	eksperiment	eksperimentdə eksperimentdən eksperimenti eksperimentin eksperimentində eksperimentindən eksperimentini eksperimentinin eksperimentlər eksperimentlərdə eksperimentlərdən eksperimentləri eksperimentlərin eksperimentlərində eksperimentlərindən eksperimentlərini eksperimentlərinin eksperimentlərinizin eksperimentlərinə eksperimentlərə eksperimentə
+20	3020	məqsədyönlü	
+21	3021	sürətlənmək	sürətlən sürətləndi sürətləndikcə sürətlənib sürətlənibdir sürətlənir sürətlənirdi sürətlənirlər sürətlənmir sürətlənmiş sürətlənmişdi sürətlənmişdir sürətlənmə sürətlənmədən sürətlənməlidir sürətlənməni sürətlənmənin sürətlənməsi sürətlənməsin sürətlənməsində sürətlənməsindən sürətlənməsini sürətlənməsinin sürətlənməsinə sürətlənməsə sürətlənməyə sürətlənsin sürətlənə sürətlənəcək sürətlənən sürətlənər sürətlənərdi sürətlənərkən sürətlənərək
+22	3022	mühafizəkar	mühafizəkarlar mühafizəkarlara mühafizəkarlardan mühafizəkarları mühafizəkarların mühafizəkarlarının mühafizəkarı mühafizəkarın
+23	3023	izdiham	izdihama izdihamda izdihamdan izdihamlar izdihamları izdihamların izdihamı izdihamın izdihamına izdihamından izdihamını izdihamının
+24	3024	ödəyici	ödəyicilər ödəyicilərdən ödəyiciləri ödəyicilərin ödəyicilərində ödəyicilərindən ödəyicilərini ödəyicilərinin ödəyicilərinə ödəyicinin ödəyicisi ödəyicisində ödəyicisindən ödəyicisinin ödəyicisinə
+25	3025	geosiyasi	
+26	3026	söyüş	söyüşdə söyüşdən söyüşlər söyüşlərdə söyüşlərdən söyüşləri söyüşlərin söyüşlərində söyüşlərindən söyüşlərini söyüşlərinizə söyüşlərinə söyüşlərə söyüşü söyüşün söyüşünü söyüşünün söyüşünə söyüşə
+27	3027	yaralı	
+28	3028	şar	şara şarda şardan şarlar şarlara şarlardan şarları şarlarımız şarların şarlarına şarlarında şarlarının şarlarınızı şarı şarın şarına şarında şarından şarını şarının
+29	3029	ləzzətli	
+30	3030	zəhərlənmə	zəhərlənmədə zəhərlənmədən zəhərlənmələr zəhərlənmələrdə zəhərlənmələri zəhərlənmələrin zəhərlənmələrində zəhərlənmələrinin zəhərlənmələrinə zəhərlənmələrə zəhərlənməni zəhərlənmənin zəhərlənməsi zəhərlənməsində zəhərlənməsindən zəhərlənməsini zəhərlənməsinin zəhərlənməsinə zəhərlənməyə
+31	3031	cüzi	
+32	3032	vəzir	vüzəra vəzirdə vəzirdən vəziri vəzirim vəzirin vəzirindən vəzirini vəzirinin vəzirinə vəzirlər vəzirlərdən vəzirləri vəzirlərin vəzirlərindən vəzirlərini vəzirlərinin vəzirlərinə vəzirlərə vəzirə
+33	3033	srağagün	
+34	3034	avtomatik	
+35	3035	savad	savada savadda savaddan savadları savadlarına savadlarından savadlarını savadlarının savadı savadım savadıma savadımdan savadımı savadımız savadımızın savadın savadına savadında savadından savadını savadının savadınıza savadınızı savadınızın
+36	3036	endirim	endirimdə endirimdən endirimi endirimin endirimindən endiriminə endirimlər endirimlərdən endirimləri endirimlərimiz endirimlərin endirimlərindən endirimlərinin endirimlərinə endirimlərə endirimə
+37	3037	bülbül	bülbüldən bülbüllər bülbülləri bülbüllərin bülbüllərini bülbüllərinin bülbülü bülbülün bülbülünün bülbülə
+38	3038	vəhşilik	vəhşilikdə vəhşilikdən vəhşiliklər vəhşiliklərdə vəhşiliklərdən vəhşilikləri vəhşiliklərin vəhşiliklərindən vəhşiliklərini vəhşiliklərinin vəhşiliklərinə vəhşiliklərə vəhşiliyi vəhşiliyin vəhşiliyindən vəhşiliyini vəhşiliyinin vəhşiliyinə vəhşiliyə
+39	3039	peşəkarlıq	peşəkarlıqda peşəkarlıqdan peşəkarlıqları peşəkarlıqlarına peşəkarlıqlarını peşəkarlıqlarının peşəkarlığa peşəkarlığı peşəkarlığımdan peşəkarlığımı peşəkarlığın peşəkarlığına peşəkarlığından peşəkarlığını peşəkarlığının peşəkarlığınız peşəkarlığınıza peşəkarlığınızı
+40	3040	ucqar	ucqara ucqarda ucqarlar ucqarlara ucqarlarda ucqarları ucqarların ucqarlarına ucqarlarında ucqarlarından ucqarlarını ucqarlarının ucqarı ucqarın ucqarına ucqarında ucqarından
+41	3041	zaman-zaman	
+42	3042	sui-qəsd	sui-qəsddə sui-qəsddən sui-qəsdi sui-qəsdlər sui-qəsdlərdə sui-qəsdlərdən sui-qəsdləri sui-qəsdlərin sui-qəsdlərində sui-qəsdlərini sui-qəsdlərə
+43	3043	peçenye	peçenyelər
+44	3044	lalə	lalədən lalələr lalələri lalələrin laləni lalənin laləsi laləsində laləsinin laləyə
+45	3045	tərləmək	tərlə tərlədi tərləmir tərləmirdi tərləmisən tərləmiş tərləmişdi tərləmişdim tərləmişəm tərləmə tərləmədən tərləməmiş tərləməyə tərləməyək tərləməyən tərləsin tərləsən tərlətmək tərləyib tərləyir tərləyirdim tərləyirik tərləyirsiniz tərləyirsən tərləyirəm tərləyəcəklər tərləyəcəksən tərləyək tərləyən tərləyəndə tərləyərək tərləyəsiniz
+46	3046	tuş	tuşdan tuşlar tuşları tuşların tuşlarından tuşlarınızın tuşu tuşumuza tuşun tuşuna tuşunda
+47	3047	yürütmək	yürüdüb yürüdüblər yürüdüm yürüdün yürüdür yürüdürdü yürüdürdülər yürüdürlər yürüdürük yürüdürəm yürüdə yürüdəcək yürüdəcəksən yürüdək yürüdən yürüdəndə yürüdər yürüdərdi yürüdərkən yürüdərək yürüdəsən yürütdü yürütdükləri yürütdülər yürütmür yürütmürlər yürütmüş yürütmüşdü yürütmüşdür yürütmüşlər yürütməmək yürütməsəydi yürütməyin yürütməyə yürütsün yürütsünlər yürütsə yürütsək yürütsəydi
+48	3048	damcı	damcıda damcılar damcılara damcılarda damcılardan damcıları damcıların damcılarına damcılarında damcılarından damcılarını damcılarının damcının damcısı damcısına damcısında damcısından damcısını damcısının damcıya
+49	3049	qaçaqmalçılıq	qaçaqmalçılıqda qaçaqmalçılıqdan qaçaqmalçılığa qaçaqmalçılığı qaçaqmalçılığın qaçaqmalçılığına qaçaqmalçılığında qaçaqmalçılığından qaçaqmalçılığını qaçaqmalçılığının
+50	3050	limit	limiti limitlər
+51	3051	orbit	orbitdə orbitdən orbiti orbitin orbitində orbitindən orbitini orbitinin orbitinə orbitlər orbitlərdə orbitlərdən orbitləri orbitlərin orbitlərində orbitlərindən orbitlərini orbitlərinin orbitlərinə orbitlərə orbitə
+52	3052	qarət	qarətdən qarəti qarətin qarətində qarətindən qarətini qarətinə qarətlər qarətlərdə qarətlərdən qarətləri qarətlərin qarətlərindən qarətlərini qarətlərinin qarətlərinə qarətlərə qarətə
+53	3053	hasar	hasara hasarda hasardan hasarlar hasarlara hasarlarda hasarlardan hasarları hasarların hasarlarına hasarlarında hasarlarını hasarlarının hasarı hasarın hasarına hasarından hasarını hasarının hasarınız hasarınızı
+54	3054	yetimxana	yetimxanada yetimxanadan yetimxanalara yetimxanalarda yetimxananı yetimxananın yetimxanası yetimxanasında yetimxanasından yetimxanasının yetimxanaya
+55	3055	fəlsəfi	
+56	3056	altıncı	
+57	3057	vərəq	vərəqdə vərəqdən vərəqi vərəqimi vərəqin vərəqində vərəqindən vərəqini vərəqinin vərəqinə vərəqlər vərəqlərdə vərəqlərdən vərəqləri vərəqlərin vərəqlərində vərəqlərindən vərəqlərini vərəqlərinin vərəqlərinə vərəqlərə vərəqə
+58	3058	ləhcə	ləhcədə ləhcədən ləhcələr ləhcələrdə ləhcələrdən ləhcələri ləhcələrimizdə ləhcələrin ləhcələrində ləhcələrindən ləhcələrini ləhcələrinin ləhcələrinə ləhcələrə ləhcəmi ləhcəmizdə ləhcən ləhcəni ləhcənin ləhcənə ləhcəsi ləhcəsində ləhcəsindən ləhcəsini ləhcəsinin ləhcəsinə ləhcəyə
+59	3059	lütfən	
+60	3060	yağıntı	yağıntıda yağıntıdan yağıntılar yağıntılara yağıntılarda yağıntılardan yağıntıları yağıntıların yağıntılarının yağıntından yağıntını yağıntının yağıntısı yağıntısına yağıntısını yağıntısının yağıntıya
+61	3061	addımlamaq	addımla addımladı addımladılar addımladım addımladıq addımladıqca addımlama addımlamalıdır addımlamalıyıq addımlamırlar addımlamırsan addımlamışdır addımlasalar addımlasan addımlaya addımlayacaq addımlayacaqlar addımlayacaqsınız addımlayacağıq addımlayan addımlayanda addımlayaq addımlayar addımlayaraq addımlayardı addımlayardım addımlayarkən addımlayasan addımlayıb addımlayın addımlayır addımlayıram addımlayırdı addımlayırdılar addımlayırdım addımlayırdıq addımlayırlar addımlayırsan addımlayırıq
+62	3062	birdən-birə	
+63	3063	bildiriş	bildirişdə bildirişdən bildirişi bildirişin bildirişində bildirişindən bildirişini bildirişinin bildirişinə bildirişlər bildirişlərdə bildirişlərdən bildirişləri bildirişlərin bildirişlərində bildirişlərinə bildirişlərə bildirişə
+64	3064	şifahi	
+65	3065	yaşam	yaşama yaşamdan yaşamlar yaşamları yaşamların yaşamlarında yaşamlarından yaşamlarını yaşamlarının yaşamı yaşamımda yaşamımı yaşamımız yaşamımızda yaşamımızdan yaşamın yaşamına yaşamında yaşamından yaşamını yaşamının yaşamınız yaşamınızı
+66	3066	yapışqan	yapışqana yapışqandan yapışqanlar yapışqanlarda yapışqanlardan yapışqanları yapışqanların yapışqanlarının yapışqanı yapışqanın yapışqanından yapışqanının
+67	3067	sandıq	sandıqda sandıqdan sandıqlar sandıqlara sandıqlarda sandıqlardan sandıqları sandıqlarımız sandıqların sandıqlarına sandıqlarından sandığa sandığı sandığım sandığıma sandığımı sandığımız sandığın sandığına sandığında sandığını sandığının sandığınız
+68	3068	azəri	azərilər azərilərdən azəriləri azərilərin azərilərindən azərilərə azərin azərini azərinin azərinə azəriyə
+69	3069	kamil	
+70	3070	söküntü	söküntüdə söküntüdən söküntülər söküntülərdən söküntüləri söküntülərin söküntülərindən söküntülərini söküntülərə söküntünü söküntünün söküntüsü söküntüsündən söküntüsünü söküntüsünün söküntüsünə söküntüyə
+71	3071	sivilizasiya	sivilizasiyada sivilizasiyadan sivilizasiyalar sivilizasiyalara sivilizasiyalarda sivilizasiyalardan sivilizasiyaları sivilizasiyaların sivilizasiyalarına sivilizasiyalarında sivilizasiyalarından sivilizasiyalarını sivilizasiyalarının sivilizasiyamız sivilizasiyamızın sivilizasiyanı sivilizasiyanın sivilizasiyanız sivilizasiyası sivilizasiyasına sivilizasiyasında sivilizasiyasından sivilizasiyasını sivilizasiyasının sivilizasiyaya
+72	3072	rüsum	rüsuma rüsumdan rüsumlar rüsumlara rüsumlarda rüsumlardan rüsumları rüsumların rüsumlarına rüsumlarında rüsumlarından rüsumlarını rüsumlarının rüsumu rüsumun rüsumuna rüsumunda rüsumundan rüsumunu rüsumunun
+73	3073	rezin	rezindən rezini rezinin rezinini rezinlər rezinləri rezinlərin rezinlərini rezinə
+74	3074	ayaz	ayaza ayazda ayazlar ayazı ayazın
+75	3075	zamin	zamində zamini zaminim zaminin zaminlərindən zaminlərə zaminə
+76	3076	bağır	bağrı bağrım bağrıma bağrımı bağrımıza bağrımızdan bağrın bağrına bağrında bağrından bağrını bağrının bağrınıza bağıra bağırdan bağırları bağırlarına bağırı bağırın
+77	3077	yavaş-yavaş	
+78	3078	həftəlik	
+79	3079	təsnifat	təsnifata təsnifatda təsnifatdan təsnifatlar təsnifatlara təsnifatlarda təsnifatları təsnifatların təsnifatı təsnifatın təsnifatına təsnifatında təsnifatından təsnifatını təsnifatının
+80	3080	bol	
+81	3081	hədis	hədisdə hədisdən hədisi hədisin hədisində hədisindən hədisini hədisinin hədisinə hədislər hədislərdə hədislərdən hədisləri hədislərimizi hədislərin hədislərində hədislərindən hədislərini hədislərinin hədislərinə hədislərə hədisə
+82	3082	dolandırmaq	dolandır dolandıra dolandıracaq dolandıracaqdı dolandıracağam dolandıram dolandıran dolandıraq dolandırar dolandıraram dolandıraraq dolandırardı dolandırdılar dolandırmadılar dolandırmalıdır dolandırmalıyam dolandırmalıyıq dolandırmasa dolandırmır dolandırmış dolandırmışdı dolandırmışdır dolandırsa dolandırsın dolandırıb dolandırım dolandırın dolandırır dolandırıram dolandırırdı dolandırırdılar dolandırırdım dolandırırlar dolandırırmış dolandırırıq
+83	3083	söz-söhbət	söz-söhbətdə söz-söhbətdən söz-söhbəti söz-söhbətimiz söz-söhbətin söz-söhbətində söz-söhbətini söz-söhbətinin söz-söhbətinə söz-söhbətlər söz-söhbətlərdə söz-söhbətlərdən söz-söhbətləri söz-söhbətlərin söz-söhbətlərində söz-söhbətlərindən söz-söhbətlərini söz-söhbətlərinin söz-söhbətlərinə söz-söhbətlərə söz-söhbətə
+84	3084	tərcüməçi	tərcüməçidən tərcüməçilər tərcüməçilərdə tərcüməçilərdən tərcüməçiləri tərcüməçilərimiz tərcüməçilərin tərcüməçilərindən tərcüməçilərini tərcüməçilərinin tərcüməçilərinə tərcüməçilərə tərcüməçim tərcüməçimdən tərcüməçimiz tərcüməçin tərcüməçini tərcüməçinin tərcüməçisi tərcüməçisini tərcüməçisinin tərcüməçisinə tərcüməçiyə
+85	3085	sıxlıq	sıxlıqda sıxlıqdan sıxlıqlar sıxlıqlarda sıxlıqları sıxlıqların sıxlıqlarını sıxlıqlarının sıxlığa sıxlığı sıxlığın sıxlığına sıxlığında sıxlığından sıxlığını sıxlığının
+86	3086	düçar	
+87	3087	çarpayı	çarpayıda çarpayıdan çarpayılar çarpayılara çarpayılarda çarpayılardan çarpayıları çarpayıların çarpayılarını çarpayılarının çarpayımı çarpayımın çarpayında çarpayını çarpayının çarpayınızı çarpayısı çarpayısına çarpayısında çarpayısından çarpayısını çarpayısının çarpayıya
+88	3088	əminlik	əminlikdə əminlikdən əminlikləri əminliklərini əminliyi əminliyim əminliyimi əminliyimizi əminliyin əminliyini əminliyinin əminliyiniz əminliyinə əminliyə
+89	3089	millətçi	millətçilər millətçilərdən millətçiləri millətçilərimiz millətçilərin millətçilərindən millətçilərini millətçilərinin millətçilərinə millətçilərə millətçinin millətçisi millətçisinin millətçiyə
+90	3090	gicbəsər	gicbəsərlər
+91	3091	rəhmətlik	rəhmətliklər rəhmətliklərdən rəhmətliklərin rəhmətliyi rəhmətliyin rəhmətliyə
+92	3092	yaralamaq	yaraladı yaraladılar yaraladın yaraladıqları yaralama yaralamadan yaralamadım yaralamasın yaralamayıb yaralamış yaralamışdı yaralamışdılar yaralamışdım yaralamışdın yaralamışdır yaralamışlar yaralanmaq yaralasa yaralaya yaralayacaq yaralayan yaralayanda yaralayar yaralayaraq yaralayıb yaralayıblar yaralayır yaralayırdı yaralayırlar
+93	3093	pambıq	pambıqda pambıqdan pambıqlar pambıqları pambıqlarını pambığa pambığı pambığın pambığından pambığını pambığının
+94	3094	vətənpərvər	vətənpərvərdən vətənpərvəri vətənpərvərin vətənpərvərini vətənpərvərlər vətənpərvərlərdə vətənpərvərlərdən vətənpərvərləri vətənpərvərlərimiz vətənpərvərlərimizə vətənpərvərlərin vətənpərvərlərini vətənpərvərlərinin vətənpərvərlərinə vətənpərvərlərə vətənpərvərə
+95	3095	dəyirmi	
+96	3096	çarx	çarxa çarxda çarxdan çarxlar çarxlara çarxlarda çarxlardan çarxları çarxlarımız çarxlarımızı çarxların çarxlarına çarxlarında çarxlarından çarxlarını çarxlarının çarxı çarxımın çarxın çarxına çarxında çarxından çarxını çarxının çərx
+97	3097	pəri	pəridən pərilər pərilərdən pəriləri pərilərin pərilərindən pərilərini pərilərinin pərilərə pərim pərimi pərimiz pərin pərini pərinin pərinə pərisi pərisini pərisinin pərisinə pəriyə
+98	3098	boyamaq	boyadı boyadılar boyadım boyadın boyadıqları boyama boyamadan boyamamışam boyamaya boyamısan boyamış boyamışdı boyamışdır boyasalar boyaya boyayacaqsınız boyayacağıq boyayan boyayaq boyayaraq boyayardı boyayardılar boyayarkən boyayıb boyayıblar boyayın boyayır boyayırdı boyayırdılar boyayırdıq boyayırlar
+99	3099	icarə	
+100	3100	keçici	

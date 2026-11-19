@@ -1,0 +1,100 @@
+1	4501	dor	dora dorda dorlar dorlarda dorları doru
+2	4502	qağayı	qağayılar qağayılara qağayıları qağayıların qağayında qağayını qağayının qağayısı qağayısından qağayısının qağayıya
+3	4503	qişa	qişada qişadan qişalar qişalara qişalarda qişalardan qişaları qişaların qişalarına qişalarında qişalarını qişalarının qişanı qişanın qişası qişasına qişasında qişasından qişasını qişasının qişaya
+4	4504	trayektoriya	trayektoriyada trayektoriyalar trayektoriyalara trayektoriyaları trayektoriyalarını trayektoriyalarının trayektoriyanı trayektoriyanın trayektoriyası trayektoriyasına trayektoriyasında trayektoriyasından trayektoriyasını trayektoriyasının trayektoriyaya
+5	4505	məfhum	məfhuma məfhumdan məfhumlar məfhumlara məfhumlardan məfhumları məfhumların məfhumlarına məfhumlarından məfhumlarını məfhumlarının məfhumu məfhumun məfhumuna məfhumundan məfhumunu məfhumunun
+6	4506	müzəffər	
+7	4507	yalçın	
+8	4508	yabanı	
+9	4509	dələ	dələlər dələlərin dələlərinə dələlərə dələn dələni dələnin dələsi dələsini dələsinin dələsinə dələyə
+10	4510	bolqar	bolqara bolqarda bolqarlar bolqarlara bolqarlarda bolqarlardan bolqarları bolqarların bolqarlarına bolqarlarının bolqarı
+11	4511	çardaq	çardaqda çardaqdan çardaqlar çardaqlarda çardaqlardan çardaqları çardaqlarına çardaqlarında çardaqlarını çardağa çardağı çardağın çardağına çardağında çardağından çardağını çardağının
+12	4512	imkansızlıq	imkansızlıqdan imkansızlıqlar imkansızlıqları imkansızlığa imkansızlığı imkansızlığın imkansızlığına imkansızlığından imkansızlığını
+13	4513	məmləkət	məmləkəti məmləkətlər
+14	4514	interfeys	interfeysdə interfeysdən interfeysi interfeysin interfeysində interfeysindən interfeysini interfeysinin interfeysinə interfeyslər interfeyslərdən interfeysləri interfeyslərin interfeyslərində interfeyslərini interfeyslərinə interfeyslərə interfeysə
+15	4515	özünüidarəetmə	özünüidarəetmədə özünüidarəetmələr özünüidarəetmələrin özünüidarəetməni özünüidarəetmənin özünüidarəetməsi özünüidarəetməsində özünüidarəetməsini özünüidarəetməyə
+16	4516	çarmıx	çarmıxa çarmıxda çarmıxdan çarmıxlardan çarmıxın çarmıxına çarmıxını çarmıxının
+17	4517	nazil	
+18	4518	yurddaş	yurddaşlar yurddaşları yurddaşlarım yurddaşlarımız yurddaşlarımızı yurddaşlarımızın yurddaşların yurddaşlarına yurddaşlarını yurddaşlarının yurddaşı yurddaşımız yurddaşımızın yurddaşın yurddaşını
+19	4519	tabor	tabora taborda tabordan taborlar taborlara taborlardan taborları taborların taborlarına taborlarından taborlarının taboru taborun taboruna taborunda taborundan taborunu taborunun
+20	4520	xaliq	xaliqdən xaliqi xaliqin xaliqini xaliqinin xaliqə
+21	4521	balıqçılıq	balıqçılıqda balıqçılıqdan balıqçılığa balıqçılığı balıqçılığın balıqçılığına balıqçılığında balıqçılığını balıqçılığının
+22	4522	naşı	
+23	4523	dəzgah	dəzgaha dəzgahda dəzgahdan dəzgahlar dəzgahlarda dəzgahlardan dəzgahları dəzgahların dəzgahlarına dəzgahlarında dəzgahlarını dəzgahlarının dəzgahı dəzgahın dəzgahına dəzgahında dəzgahından dəzgahını dəzgahının
+24	4524	öyüd	öyüddə öyüdlər öyüdləri öyüdlərin öyüdlərində öyüdlərindən öyüdlərini öyüdlərinə öyüdü öyüdün öyüdünü
+25	4525	həmrəy	
+26	4526	simvollaşdırmaq	simvollaşdıracaq simvollaşdıran simvollaşdıraraq simvollaşdırdı simvollaşdırma simvollaşdırıb simvollaşdırır simvollaşdırıram simvollaşdırırlar
+27	4527	düşük	düşüklər düşüklərin düşüyə
+28	4528	ata-baba	ata-babadan ata-babalar ata-babaları ata-babalarım ata-babalarımız ata-babalarımıza ata-babalarımızdan ata-babalarımızın ata-babaların ata-babalarına ata-babalarından ata-babalarını ata-babalarının ata-babalarınıza ata-babalarınızı ata-babanın ata-babası ata-babasına ata-babasından ata-babasını ata-babasının ata-babaya
+29	4529	çatlamaq	çatladı çatlamadan çatlamalıydı çatlamamış çatlamasınlar çatlamaya çatlamayan çatlamır çatlamış çatlamışdı çatlamışdır çatlasa çatlasın çatlaya çatlayacaq çatlayacaqdı çatlayacağam çatlayan çatlayar çatlayaraq çatlayıb çatlayır çatlayırdı
+30	4530	haqq-ədalət	haqq-ədalətdən haqq-ədaləti haqq-ədalətin haqq-ədalətə
+31	4531	döl	döldə döldən döllər dölləri döllərin döllərindən dölü dölün dölünü dölünün dölə
+32	4532	akvarium	akvariuma akvariumda akvariumdan akvariumlar akvariumlara akvariumlarda akvariumları akvariumların akvariumlarına akvariumu akvariumun akvariumuna akvariumunda akvariumunuza
+33	4533	qaraltmaq	qaraltdı qaraltma qaraltmadan qaraltmamaq qaraltmasın qaraltmayıb qaraltmayın qaraltmış qaraltsalar qaraltsınlar
+34	4534	toxuculuq	toxuculuqda toxuculuqdan toxuculuqlarının toxuculuğa toxuculuğu toxuculuğun toxuculuğuna toxuculuğunda toxuculuğundan toxuculuğunun
+35	4535	vəz	vəzdə vəzdən vəzin vəzində vəzindən vəzini vəzinin vəzinə vəzlər vəzlərdə vəzlərdən vəzləri vəzlərin vəzlərində vəzlərindən vəzlərini vəzlərinin vəzlərinə vəzə
+36	4536	çəmənlik	çəmənlikdə çəmənlikdən çəmənliklər çəmənliklərdə çəmənliklərdən çəmənlikləri çəmənliklərin çəmənliklərində çəmənliklərindən çəmənliklərinin çəmənliklərinə çəmənliklərə çəmənliyi çəmənliyin çəmənliyində çəmənliyinin çəmənliyinə çəmənliyə
+37	4537	yırtmaq	yırtacaq yırtan yırtaraq yırtdı yırtdılar yırtdım yırtdıq yırtma yırtmıram yırtıb yırtım yırtır yırtırlar yırtırsınız yırtırıq
+38	4538	baca	bacada bacadan bacalar bacalardan bacaları bacaların bacalarına bacalarından bacalarını bacalarının bacamızdan bacamızın bacanın bacası bacasına bacasında bacasından bacasını bacasının bacaya
+39	4539	mətanət	mətanətdən mətanəti mətanətin mətanətini mətanətinin mətanətinə mətanətə
+40	4540	yuxulu	
+41	4541	açıqca	
+42	4542	qıpçaq	qıpçaqda qıpçaqlar qıpçaqlara qıpçaqlarda qıpçaqlardan qıpçaqları qıpçaqların qıpçaqlarından qıpçağa qıpçağı qıpçağın
+43	4543	abonent	abonenti abonentlər
+44	4544	gülərüz	gülərüzlü üzügülər
+45	4545	təsdiqləmək	
+46	4546	rusdilli	rusdillidən rusdillilər rusdillilərdə rusdillilərimiz rusdillilərin rusdillilərə rusdillinin
+47	4547	əlçatan	
+48	4548	əlbəyaxa	əlbəyaxanın əlbəyaxaya
+49	4549	soltan	soltana soltanlar soltanları soltanı soltanım soltanın soltanından soltanının səlatin
+50	4550	dilənmək	dilən dilənib diləniblər dilənir dilənirdi dilənirdilər dilənirdim dilənirik dilənirlər dilənirmiş dilənirsiniz dilənirəm dilənmir dilənmiş dilənmişdir dilənmişəm dilənməlidirlər dilənməmişəm dilənmərik dilənmərəm dilənməyə dilənsin dilənsinlər dilənsəydim dilənə dilənəcək dilənəcəklər dilənək dilənələr dilənən dilənəndə dilənər dilənərək
+51	4551	cərrahi	
+52	4552	mərd	
+53	4553	istiqlaliyyət	istiqlaliyyətdən istiqlaliyyəti istiqlaliyyətimizdən istiqlaliyyətimizi istiqlaliyyətimizin istiqlaliyyətin istiqlaliyyətini istiqlaliyyətinin istiqlaliyyətinə istiqlaliyyətlərini istiqlaliyyətə
+54	4554	yonca	yoncada yoncadan yoncalar yoncaları yoncanı yoncanın yoncası yoncasını yoncaya
+55	4555	kələm	kələmdə kələmdən kələmi kələmim kələmin kələmində kələmindən kələminin kələmlər kələmə
+56	4556	vaksin	vaksindən vaksini vaksinin vaksinini vaksininin vaksinlər vaksinlərdən vaksinləri vaksinlərin vaksinlərindən vaksinlərinin vaksinlərə
+57	4557	teleqraf	teleqrafa teleqrafda teleqrafdan teleqraflar teleqrafların teleqrafı teleqrafın teleqrafında teleqrafından teleqrafını teleqrafının
+58	4558	qənd	qəndi qəndimiz qəndin qəndlərdən qəndləri qəndə
+59	4559	təkəbbür	təkəbbürdən təkəbbürləri təkəbbürlərin təkəbbürü təkəbbürün təkəbbüründən təkəbbürünü təkəbbürünün təkəbbürünə təkəbbürə
+60	4560	neftayırma	neftayırmaya
+61	4561	yüngülləşmək	yüngülləşdi yüngülləşdik yüngülləşdim yüngülləşib yüngülləşir yüngülləşirdi yüngülləşirsən yüngülləşmiş yüngülləşmişdi yüngülləşmişdir yüngülləşmə yüngülləşmədi yüngülləşməyə yüngülləşsin yüngülləşsə yüngülləşə yüngülləşəcək yüngülləşəcəkdilər yüngülləşəcəyəm yüngülləşən yüngülləşəndə yüngülləşər yüngülləşərdi
+62	4562	bərabərləşdirmək	bərabərləşdirdi bərabərləşdirdik bərabərləşdirdilər bərabərləşdirib bərabərləşdiriblər bərabərləşdirir bərabərləşdirirdi bərabərləşdirmiş bərabərləşdirmişdir bərabərləşdirmədən bərabərləşdirməyib bərabərləşdirməyə bərabərləşdirsin bərabərləşdirsə bərabərləşdirsək bərabərləşdirə bərabərləşdirəcək bərabərləşdirən bərabərləşdirərək
+63	4563	ikiüzlü	
+64	4564	itaətsizlik	itaətsizlikdə itaətsizlikləri itaətsizliklərini itaətsizliklərə itaətsizliyi itaətsizliyin itaətsizliyindən itaətsizliyini itaətsizliyinin itaətsizliyinə itaətsizliyə
+65	4565	çinar	çinara çinarda çinarlar çinarlara çinarlardan çinarları çinarların çinarlarının çinarı çinarın çinarına çinarından çinarının
+66	4566	məcburən	
+67	4567	barmaqlamaq	barmaqla
+68	4568	kompas	kompasdan kompaslar kompaslara kompasları kompası kompasın kompasına kompasında kompasından kompasını
+69	4569	təvazökarlıq	təvazökarlıqdan təvazökarlığa təvazökarlığı təvazökarlığıma təvazökarlığın təvazökarlığına təvazökarlığından təvazökarlığını təvazökarlığının təvazökarlığınızı
+70	4570	əzbərləmək	əzbərlə əzbərlədi əzbərlədikləri əzbərlədim əzbərlədin əzbərləmisən əzbərləmiş əzbərləmişdi əzbərləmişdim əzbərləmişdir əzbərləmişəm əzbərləmə əzbərləməmişik əzbərləməyib əzbərləməyə əzbərləsin əzbərləyib əzbərləyiblər əzbərləyir əzbərləyirdi əzbərləyirdilər əzbərləyirlər əzbərləyirmiş əzbərləyə-əzbərləyə əzbərləyən əzbərləyərsən əzbərləyərək
+71	4571	fahişəxana	fahişəxanada fahişəxanalar fahişəxanalara fahişəxanalardan fahişəxanaların fahişəxanalarında fahişəxanalarını fahişəxananı fahişəxananın fahişəxanaya
+72	4572	bəstələmək	bəstələ bəstələdi bəstələdikləri bəstələdilər bəstələdim bəstələmiş bəstələmişdi bəstələmişdilər bəstələmişdir bəstələmişik bəstələmişlər bəstələmişəm bəstələmə bəstələmədi bəstələməyə bəstələyib bəstələyiblər bəstələyim bəstələyir bəstələyirdi bəstələyirdilər bəstələyirdim bəstələyə bəstələyən bəstələyəndə bəstələyərkən bəstələyərək
+73	4573	mənsəb	mənsəbdə mənsəbdən mənsəbi mənsəbimizi mənsəbin mənsəbində mənsəbindən mənsəbini mənsəbinin mənsəbinə mənsəblər mənsəblərdən mənsəbləri mənsəblərində mənsəblərini mənsəblərinə mənsəblərə mənsəbə
+74	4574	fitva	fitvada fitvalar fitvalara fitvaları fitvaların fitvalarına fitvalarını fitvanı fitvası fitvasına fitvasını fitvasının fitvaya
+75	4575	müdiriyyət	müdiriyyətdən müdiriyyəti müdiriyyətin müdiriyyətində müdiriyyətindən müdiriyyətini müdiriyyətinin müdiriyyətinə müdiriyyətlər müdiriyyətə
+76	4576	qatıq	qatıqda qatıqdan qatıqlar qatıqları qatığa qatığı qatığın qatığına qatığından qatığını qatığının qatığınız
+77	4577	çilingər	çilingərdən çilingəri çilingərin çilingərlər çilingərləri çilingərlərin çilingərlərinin çilingərə
+78	4578	sim	simdə simdən simi simin simində simindən simini siminin siminə simlər simlərdə simlərdən simləri simlərin simlərindən simlərini simlərinin simlərinə simlərə simə
+79	4579	namuslu	
+80	4580	qızılbalıq	qızılbalıqda qızılbalıqdan qızılbalıqlar qızılbalıqlarda qızılbalıqları qızılbalıqların qızılbalıqlarının qızılbalığı qızılbalığın qızılbalığına qızılbalığının
+81	4581	milliyyət	milliyyətdə milliyyətdən milliyyəti milliyyətimiz milliyyətimizi milliyyətin milliyyətində milliyyətindən milliyyətini milliyyətinin milliyyətinizdən milliyyətinə milliyyətlər milliyyətləri milliyyətlərin milliyyətlərini milliyyətlərinin milliyyətlərə milliyyətə
+82	4582	fal	fala falda faldan fallar falları falların fallarına fallarının falı falımıza falın falına falında falından falını falının
+83	4583	qıfıl	qıfıla qıfıllar qıfılları qıfılların qıfıllarını qıfılı qıfılın qıfılını qıfılının
+84	4584	sərçə	sərçədən sərçələr sərçələrdən sərçələri sərçələrin sərçələrində sərçələrinin sərçələrinə sərçələrə sərçəni sərçənin sərçəsi sərçəsinin sərçəyə
+85	4585	çərkəz	çərkəzdən çərkəzi çərkəzin çərkəzlər çərkəzlərdən çərkəzləri çərkəzlərin çərkəzlərinin çərkəzlərinə çərkəzlərə çərkəzə
+86	4586	gücsüz	
+87	4587	çamadan	çamadana çamadanda çamadanlar çamadanlarda çamadanları çamadanların çamadanlarını çamadanı çamadanım çamadanıma çamadanımızı çamadanın çamadanına çamadanından çamadanını
+88	4588	çuğundur	çuğundura çuğundurda çuğundurdan çuğunduru çuğundurun çuğunduruna çuğundurunda çuğundurundan çuğundurunu çuğundurunun
+89	4589	məxmər	məxmərdə məxmərdən məxməri məxmərə
+90	4590	ətalət	ətalətdə ətalətdən ətaləti ətalətin ətalətindən ətalətini ətalətinə ətalətə
+91	4591	adamyeyən	adamyeyəni adamyeyənlər adamyeyənlərdən adamyeyənlərin adamyeyənə
+92	4592	valid	validi
+93	4593	pivəxana	pivəxanada pivəxanadan pivəxanalara pivəxanalarda pivəxanalardan pivəxanaların pivəxanalarında pivəxanalarının pivəxanaya
+94	4594	yazılış	yazılışa yazılışda yazılışdan yazılışlar yazılışlara yazılışlarda yazılışları yazılışların yazılışlarına yazılışlarında yazılışlarını yazılışlarının yazılışı yazılışın yazılışına yazılışında yazılışından yazılışını yazılışının
+95	4595	məxrəc	məxaric məxaricdən məxarici məxaricimi məxaricinin məxaricləri məxariclərinin məxrəcdə məxrəcdən məxrəci məxrəcin məxrəcini məxrəcinə məxrəcə
+96	4596	ədavət	ədavətdə ədavətdən ədavəti ədavətim ədavətimin ədavətimiz ədavətin ədavətində ədavətindən ədavətini ədavətinə ədavətlər ədavətləri ədavətlərindən ədavətlərinin ədavətə
+97	4597	buruq	buruqdan buruqlar buruqlara buruqlarda buruqlardan buruqları buruqlarımız buruqların buruqlarına buruqlarında buruqlarından buruqlarını buruqlarının buruğu buruğun buruğunda buruğunu buruğunun
+98	4598	lülə	lülədə lülədən lülələr lülələrdə lülələrdən lülələri lülələrin lülələrinin lülələrinə lüləni lülənin lüləsi lüləsində lüləsini lüləsinin lüləsinə lüləyə
+99	4599	qapamaq	qapa qapadı qapadılar qapadım qapadın qapadıq qapama qapamış qapamışdıq qapasaq qapaya qapayacaq qapayan qapayaq qapayar qapayaraq qapayarkən qapayıb qapayın qapayır qapayırdılar qapayırlar
+100	4600	möhlət	möhlətdən möhləti möhlətin möhlətindən möhlətini möhlətinin

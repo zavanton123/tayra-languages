@@ -1,0 +1,100 @@
+1	5001	hallandırmaq	hallandıran hallandıraraq hallandırdı hallandırdıq hallandırmamaq hallandırmasalar hallandırmasın hallandırmasınlar hallandırmayacağam hallandırmayıb hallandırmayın hallandırmışdı hallandırmışdılar hallandırmışdır hallandırsalar hallandırsan hallandırıb hallandırıblar hallandırır hallandırırdılar hallandırırlar hallandırırsan hallandırırıq
+2	5002	təlatüm	təlatümdən təlatümlər təlatümlərdə təlatümlərdən təlatümləri təlatümlərin təlatümlərini təlatümlərinin təlatümlərə təlatümü təlatümünə təlatümə
+3	5003	naxır	naxıra naxırdan naxırları naxırlarından naxırı naxırın naxırında naxırını naxırının
+4	5004	vızıltı	vızıltısı vızıltısına vızıltısından
+5	5005	çəkicləmək	çəkiclə
+6	5006	hiddət	hiddətdən hiddəti hiddətimi hiddətin hiddətindən hiddətini hiddətinə hiddətlərini hiddətə
+7	5007	səlib	səlibin səliblərin səliblərə
+8	5008	yığcam	
+9	5009	uzaqbaşı	
+10	5010	cığal	cığala cığalların cığalı
+11	5011	fıstıq	fıstıqda fıstıqdan fıstıqlar fıstıqlarda fıstıqları fıstıqların fıstığa fıstığı fıstığın fıstığını
+12	5012	bədnam	
+13	5013	köks	köksdə köksləri köksü köksümdə köksümüz köksümə köksün köksündə köksündən köksünü köksünün köksünüzü köksünüzün köksünə köksə
+14	5014	yağmur	yağmura yağmurda yağmurdan yağmurlar yağmurları yağmurların yağmuru yağmurun yağmuruna yağmurunun
+15	5015	sauna	saunada saunadan saunalar saunalara saunalarda saunaların saunanın saunası saunasında saunasının saunaya
+16	5016	reaktiv	
+17	5017	pas	pasa pasdan paslar pasları pasların pası pasından pasını
+18	5018	dəllal	dəllala dəllallar dəllallara dəllalları dəllalların dəllallarına dəllallarından dəllallarını dəllallarının dəllalı dəllalın dəllalına
+19	5019	anadangəlmə	
+20	5020	nida	nidada nidadan nidalar nidalarda nidalardan nidaları nidaların nidalarına nidalarını nidalarının nidanı nidanın nidası nidasına nidasını nidaya
+21	5021	qaynatmaq	qaynada qaynadan qaynadar qaynadaraq qaynadarlar qaynadıb qaynadım qaynadın qaynadır qaynadıram qaynadırdılar qaynadırlar qaynadırsınız qaynadırıq qaynat qaynatdılar qaynatma qaynatmadan qaynatmayın qaynatmışdım
+22	5022	pusmaq	pus pusa pusacaq pusan pusanda pusaq pusarlar pusdu pusma pusmuşdu pusur pusursan
+23	5023	tələt	tələtdən tələti tələtin
+24	5024	danimarkalı	danimarkalıdan danimarkalılar danimarkalılara danimarkalılardan danimarkalıları danimarkalıların danimarkalının
+25	5025	təmizləyici	təmizləyicilər təmizləyicilərdən təmizləyiciləri təmizləyicisi təmizləyicisindən təmizləyiciyə
+26	5026	icazəli	
+27	5027	küll	küllü küllün küllə
+28	5028	quzğun	quzğuna quzğunlar quzğunların quzğunlarına quzğunlarını quzğunu quzğunun
+29	5029	şabalıd	şabalıda şabalıddan şabalıdlar şabalıdları şabalıdı şabalıdın şabalıdının
+30	5030	qıdıqlamaq	qıdıqlama qıdıqlamasaq qıdıqlasan qıdıqlaya-qıdıqlaya qıdıqlayan qıdıqlayar qıdıqlayıb qıdıqlayır
+31	5031	şuluq	
+32	5032	orucluq	orucluqda orucluqdan orucluğa orucluğu orucluğun
+33	5033	iyrənmək	iyrən iyrəndilər iyrəndim iyrənib iyrənibmiş iyrənir iyrənirdi iyrənirdik iyrənirdilər iyrənirik iyrənirəm iyrənmişəm iyrənmə iyrənməyim iyrənməyə iyrənsin iyrənə iyrənən iyrənərək
+34	5034	ərköyün	ərköyünü
+35	5035	reyhan	reyhana reyhandan reyhanlar reyhanların reyhanlarının reyhanı reyhanım reyhanımı reyhanın reyhanına
+36	5036	tənzil	tənzilə
+37	5037	basabas	basabasa basabasda basabasdan basabası basabasın basabasına basabasında basabasından
+38	5038	ananas	ananasa ananası ananasın
+39	5039	müjdə	müjdədən müjdələr müjdələrdən müjdələri müjdəmiz müjdəni müjdənin müjdəsi müjdəsində müjdəsini müjdəsinin müjdəsinə müjdəyə
+40	5040	qamış	qamışa qamışda qamışdan qamışlar qamışlardan qamışları qamışların qamışlarının qamışı qamışın qamışında qamışının
+41	5041	vurnuxmaq	vurnuxa-vurnuxa vurnuxan vurnuxanda vurnuxarkən vurnuxduq vurnuxma vurnuxmaya vurnuxsa vurnuxub vurnuxur vurnuxurdu vurnuxurlar vurnuxursan vurnuxursunuz
+42	5042	kamança	kamançada kamançadan kamançanı kamançanın kamançasını kamançaya
+43	5043	kosmonavt	kosmonavta kosmonavtdan kosmonavtlar kosmonavtlara kosmonavtlarda kosmonavtlardan kosmonavtları kosmonavtların kosmonavtlarında kosmonavtlarını kosmonavtı kosmonavtın kosmonavtına kosmonavtını
+44	5044	tozlu	
+45	5045	fırıldaqçılıq	fırıldaqçılıqda fırıldaqçılıqlar fırıldaqçılıqlardan fırıldaqçılığa fırıldaqçılığı fırıldaqçılığın fırıldaqçılığına fırıldaqçılığında fırıldaqçılığını fırıldaqçılığının
+46	5046	fitri	
+47	5047	göyərmək	göyərdi göyərib göyərir göyərirdi göyərmiş göyərmişdi göyərmə göyərməyib göyərməyə göyərsin göyərə göyərə-göyərə göyərəcək göyərən göyərəndə göyərər göyərərdi göyərərək
+48	5048	vəzn	vəzndə vəzndən vəzni vəznin vəznində vəznindən vəznini vəzninin vəzninə vəznlər vəznlərdə vəznləri vəznlərində vəznlərindən vəznlərini vəznlərə vəznə vəznələr
+49	5049	küləkli	
+50	5050	qızmar	
+51	5051	şose	şosedə şosedən şoselər şoselərin şoselərindən şoselərə şosenin şosesi şosesində şosesindən şosesinin şosesinə
+52	5052	əcəl	əcəldən əcəli əcəlim əcəlimiz əcəlin əcəlini əcəlinin əcəliniz əcəlinə əcəlləri əcələ
+53	5053	bərə	bərədə bərədən bərələr bərələrdə bərələrdən bərələri bərələrin bərələrində bərələrinə bərələrə bərəndə bərəni bərənin bərəsi bərəsində bərəsini bərəsinə
+54	5054	zira	
+55	5055	qırmızımtıl	
+56	5056	məfkurə	məfkurədə məfkurədən məfkurələri məfkurələrimizi məfkurələrin məfkurələrindən məfkurələrinə məfkurəmiz məfkurəmizin məfkurəni məfkurənin məfkurəsi məfkurəsində məfkurəsini məfkurəsinin məfkurəsinə məfkurəyə
+57	5057	zil	zildə zildən zili zilim zilin zilində zilindən zilinin zillərindən zillərə zilə
+58	5058	dəftərxana	dəftərxanada dəftərxanadan dəftərxanalar dəftərxanalarda dəftərxanalarında dəftərxananın dəftərxanası dəftərxanasına dəftərxanasında dəftərxanasından dəftərxanasını dəftərxanasının dəftərxanaya
+59	5059	kəhriz	kəhrizdə kəhrizdən kəhrizi kəhrizin kəhrizini kəhrizinin kəhrizlər kəhrizlərdə kəhrizlərdən kəhrizləri kəhrizlərin kəhrizlərinin kəhrizlərinə kəhrizlərə kəhrizə
+60	5060	quruluşçu	quruluşçular quruluşçuların
+61	5061	öc	öcünü öcə
+62	5062	alqoritm	alqoritmdə alqoritmdən alqoritmi alqoritmin alqoritmində alqoritmindən alqoritmini alqoritminin alqoritminə alqoritmlər alqoritmlərdə alqoritmlərdən alqoritmləri alqoritmlərin alqoritmlərində alqoritmlərindən alqoritmlərini alqoritmlərinin alqoritmlərinə alqoritmlərə alqoritmə
+63	5063	qürub	qüruba qürubda qürubdan qürublarına qürubu qürubun qürubunda qürubundan qürubunu qürubunun
+64	5064	cücü	cücülər cücülərdə cücülərdən cücüləri cücülərin cücülərindən cücülərini cücülərinin cücülərə cücünü cücünün cücüsü cücüsünün
+65	5065	menecment	menecmenti
+66	5066	deyiliş	deyilişdə deyilişi deyilişin deyilişində deyilişindən deyilişini deyilişlərdən
+67	5067	inadkar	
+68	5068	qovalamaq	qovaladı qovaladılar qovalama qovalasa qovalayacaqlar qovalayan qovalayardılar qovalayıb qovalayır
+69	5069	doyunca	
+70	5070	ştanq	ştanqa ştanqlar ştanqları ştanqların ştanqı ştanqın
+71	5071	nehrə	nehrədə nehrədən nehrələr nehrələrdən nehrəm nehrəmdə nehrəmdən nehrəmi nehrəni nehrənin
+72	5072	sevincək	
+73	5073	sulamaq	sula suladı suladım suladıq suladıqca sulama sulamadan sulamasın sulamırlar sulamısan sulamış sulasın sulaya sulayacaq sulayacaqlar sulayan sulayar sulayarıq sulayıb sulayıblar sulayın sulayır sulayırdı sulayırdılar sulayırdım sulayırlar sulayırmış sulayırıq
+74	5074	özfəaliyyət	özfəaliyyətdən özfəaliyyəti özfəaliyyətimizi özfəaliyyətin özfəaliyyətinin özfəaliyyətinə özfəaliyyətləri özfəaliyyətə
+75	5075	nərd	nərddə nərddən nərdi nərdin
+76	5076	sviter	sviterdə sviteri sviterin sviterini sviterlər sviterləri sviterə
+77	5077	taxça	taxçada taxçadan taxçalar taxçalara taxçalarda taxçalardan taxçaları taxçaların taxçalarında taxçalarından taxçalarının taxçanda taxçanı taxçanın taxçası taxçasında taxçasından taxçasını taxçaya
+78	5078	inad	
+79	5079	əqidəli	
+80	5080	bəstə	bəstələr bəstələrdə bəstələri bəstələrim bəstələrin bəstələrində bəstələrindən bəstələrini bəstələrinin bəstələrinə bəstələrə bəstəni bəstənin bəstəniz bəstəsi bəstəsini bəstəsinin bəstəsinə
+81	5081	yarımstansiya	yarımstansiyada yarımstansiyadan yarımstansiyalar yarımstansiyalarda yarımstansiyaları yarımstansiyaların yarımstansiyalarında yarımstansiyalarını yarımstansiyanı yarımstansiyanın yarımstansiyası yarımstansiyasına yarımstansiyasında yarımstansiyasından yarımstansiyasını yarımstansiyasının yarımstansiyaya
+82	5082	məziyyət	məziyyəti məziyyətin məziyyətini məziyyətinə məziyyətlər məziyyətlərdən məziyyətləri məziyyətlərimiz məziyyətlərin məziyyətlərində məziyyətlərindən məziyyətlərini məziyyətlərinin məziyyətlərinə məziyyətlərə məziyyətə
+83	5083	arıçılıq	arıçılıqda arıçılıqdan arıçılığa arıçılığı arıçılığın
+84	5084	alçaldıcı	
+85	5085	məşvərət	məşvərətdə məşvərətdən məşvərətin məşvərətinə məşvərətlər məşvərətlərdən məşvərətləri məşvərətlərində məşvərətə
+86	5086	kater	katerdə katerdən kateri katerin katerində katerindən katerini katerinin katerinə katerlər katerlərdə katerlərdən katerləri katerlərin katerlərini katerlərinə katerlərə katerə
+87	5087	qazamat	qazamata qazamatda qazamatdan qazamatlara qazamatlarda qazamatlarında qazamatı qazamatın qazamatına qazamatında qazamatının
+88	5088	mələz	mələzi mələzlər mələzlərin
+89	5089	cəzalanmaq	cəzalana cəzalanacaq cəzalanacaqlar cəzalanan cəzalandı cəzalandıq cəzalanma cəzalanmalıdır cəzalanmasa cəzalanmasınlar cəzalanmaya cəzalanmayacaqsınız cəzalanmayıb cəzalanmayım cəzalanmır cəzalanmış cəzalanmışam cəzalanmışdı cəzalanmışdır cəzalanmışlar cəzalansın cəzalanıb cəzalanır cəzalanırlar
+90	5090	addım-addım	
+91	5091	sivri	
+92	5092	çələng	çələngdən çələngi çələngimizi çələngin çələngində çələngindən çələngini çələnginin çələnginə çələnglər çələnglərdən çələngləri çələnglərin çələnglərindən çələnglərini çələnglərinin çələnglərə çələngə
+93	5093	əlaçı	əlaçılar əlaçılardan əlaçıların əlaçısı
+94	5094	ortabab	ortabablar
+95	5095	uyuşmaq	uyuşa uyuşacaq uyuşan uyuşdu uyuşma uyuşması uyuşmayan uyuşmaz uyuşmur uyuşmurdu uyuşmuş uyuşmuşdu uyuşub uyuşur
+96	5096	örüş	örüşdə örüşdən örüşlər örüşlərdə örüşlərdən örüşləri örüşlərin örüşlərində örüşlərindən örüşlərinin örüşü örüşümdə örüşümüzü örüşündə örüşünü örüşünə örüşə
+97	5097	qidalandırmaq	qidalandıra qidalandıracaq qidalandıran qidalandırma qidalandırmadan qidalandırmaya qidalandırmıram qidalandırmırdı qidalandırmış qidalandırıb qidalandırır qidalandırırdılar qidalandırırlar qidalandırırsınız
+98	5098	daşlaşmaq	daşlaşan daşlaşar daşlaşma daşlaşmış daşlaşmışdır daşlaşmışlar daşlaşıb daşlaşır
+99	5099	yubka	yubkada yubkadan yubkalar yubkalardan yubkaları yubkalarında yubkamı yubkana yubkanı yubkanın yubkası yubkasına yubkasını yubkasının yubkaya
+100	5100	əhd	əhddə əhdi əhdim əhdimi əhdimizi əhdimə əhdin əhdindən əhdini əhdinizdən əhdinizə əhdinə əhdlər əhdlərdən əhdləri əhdlərin əhdlərini əhdlərinə əhdlərə əhdə

@@ -1,0 +1,100 @@
+1	7001	vetçina	vetçinadan vetçinanı vetçinanın vetçinası
+2	7002	quşlamaq	quşla quşlaya quşlayan quşlayardı quşlayıb
+3	7003	toppuz	toppuzlar toppuzu
+4	7004	müşkür	müşkürdə müşkürə
+5	7005	apostrof	apostrofa apostrofdan apostrofu
+6	7006	qızılquş	qızılquşa qızılquşların qızılquşu qızılquşun
+7	7007	elektrostansiya	elektrostansiyalarda elektrostansiyaları elektrostansiyaların elektrostansiyalarında elektrostansiyanın elektrostansiyası
+8	7008	ətraf mühit	mühit ətraf
+9	7009	yarımdairə	yarımdairələrdən yarımdairənin yarımdairəsinə
+10	7010	ovunmaq	ovun ovuna ovunmurdu ovunub ovunun ovunurlar ovunursan
+11	7011	yam	yama yamlar yamı
+12	7012	düşkün	
+13	7013	rutul	rutullar
+14	7014	kökləmək	köklə
+15	7015	qafqazşünas	qafqazşünaslar qafqazşünasların qafqazşünası
+16	7016	aşxana	aşxanada aşxanalar aşxanasına aşxanasında aşxanasını aşxanaya
+17	7017	fotojurnalistika	fotojurnalistikamızda fotojurnalistikanın fotojurnalistikaya
+18	7018	gübrələmək	gübrələdilər gübrələmə gübrələmədən gübrələməyə gübrələyir gübrələyə
+19	7019	ala-bula	
+20	7020	çırpışdırmaq	
+21	7021	zapı	
+22	7022	sınıxmaq	sınıx sınıxmısan sınıxmışdı sınıxıb
+23	7023	kağız-kuğuz	kağız-kuğuza kağız-kuğuzlarını kağız-kuğuzu
+24	7024	sinifsiz	
+25	7025	duvaq	duvaqdan duvaqlarını duvağı duvağın
+26	7026	təngnəfəslik	təngnəfəslikdə təngnəfəsliyi təngnəfəsliyə
+27	7027	təmizkar	
+28	7028	ölümsaçan	
+29	7029	əzgin	
+30	7030	qusuntu	qusuntuda
+31	7031	quşi	quşilər
+32	7032	meyitxana	meyitxanada meyitxanalar meyitxanalarda meyitxanasına meyitxanasında meyitxanaya
+33	7033	zəruriyyət	zəruriyyətdən zəruriyyəti zəruriyyətində zəruriyyətindən zəruriyyətinin zəruriyyətə
+34	7034	on bir	bir on
+35	7035	həvəng	həvəngdə həvənglər
+36	7036	davul	davulda davulların davulu davulun davulunda
+37	7037	ütmək	üt ütüb ütün ütən
+38	7038	planetlərarası	
+39	7039	meymunabənzər	
+40	7040	quşluq	quşluğu quşluğunda
+41	7041	yalman	yalmanına yalmanından yalmanının
+42	7042	fotoreportaj	fotoreportajlar fotoreportajları fotoreportajı
+43	7043	tələsiklik	tələsiklikdən tələsikliyini tələsikliyə
+44	7044	qondarmaq	qondar qondara qondarmadı qondarıblar qondarın
+45	7045	honduraslı	honduraslılar honduraslıların
+46	7046	hidrogeologiya	hidrogeologiyası
+47	7047	beynəlxalq hüquq	beynəlxalq hüquq
+48	7048	on altı	altı on
+49	7049	mikroskopiya	mikroskopiyada mikroskopiyası mikroskopiyasında
+50	7050	çoxdilli	
+51	7051	girvənkə	girvənkənin girvənkəsi girvənkəyə
+52	7052	kargüzar	kargüzarlar kargüzarlardan kargüzarların kargüzarı
+53	7053	birər	
+54	7054	fövqəlinsan	fövqəlinsana fövqəlinsanın
+55	7055	istilənmək	istiləndikcə istiləndikləri istilənir istilənmiş istilənmişdim istilənən istilənər istilənərək
+56	7056	qeybətcil	
+57	7057	bürüşmək	bürüşmüş bürüşüb bürüşür bürüşən
+58	7058	mırıldamaq	mırıldadı mırıldayan mırıldayaraq mırıldayır mırıldayırlar
+59	7059	ləhzə	ləhzədə
+60	7060	kravat	kravatda kravatdan kravatlar kravatları kravatının
+61	7061	qımız	qımızdan qımızı
+62	7062	mizraq	mizraqları mizraqlarımız mizrağı mizrağım
+63	7063	sapan	sapanda sapanlardan sapanların
+64	7064	ikimənalı	
+65	7065	sabitsizlik	sabitsizlikdən sabitsizliyin sabitsizliyindən
+66	7066	xozeyin	xozeyini xozeyinlər xozeyinləri
+67	7067	on dörd	dörd on
+68	7068	özlü	
+69	7069	çökük	
+70	7070	qoboy	qoboyda qoboylar qoboyların qoboyun
+71	7071	sumaq	sumaqda sumağı sumağın
+72	7072	cəzalandırıcı	cəzalandırıcını cəzalandırıcının cəzalandırıcısı cəzalandırıcıya
+73	7073	kəhanət	kəhanətdə kəhanətdən kəhanəti kəhanətin kəhanətlər kəhanətləri kəhanətlərin
+74	7074	racə	racələr racələri racələrin racələrinin racəni racəsi racəsinin
+75	7075	sarğac	sarğaca sarğacda sarğacdan sarğaclar sarğacı sarğacın sarğacını sarğacının
+76	7076	uruq	uruqda uruqlar uruqları uruqlarının uruğa uruğu uruğun uruğuna uruğundan uruğunu
+77	7077	ümumiyyətcə	
+78	7078	aftab	aftaba
+79	7079	tire	tiren tireni tiresinin
+80	7080	əlçatmazlıq	əlçatmazlığı əlçatmazlığın əlçatmazlığından əlçatmazlığını
+81	7081	bərabərtərəfli	
+82	7082	şəhərləşmə	şəhərləşmənin şəhərləşməsi şəhərləşməyə
+83	7083	lovğa-lovğa	
+84	7084	mərdiməzar	
+85	7085	tapdalamaq	
+86	7086	toxtaq	
+87	7087	tupoy	
+88	7088	abdəst	abdəsti
+89	7089	çımxırmaq	çımxıran çımxırdı çımxırıb
+90	7090	asilik	asilikdən asiliklər
+91	7091	mızıldamaq	mızıldadı mızıldaya-mızıldaya mızıldayır mızıldayırdım mızıldayırlar
+92	7092	topalamaq	topalamasınlar topalaya topalayarkən topalayıb topalayırlar
+93	7093	ərp	ərpi ərpin ərpini ərpinin ərpləri
+94	7094	içrə	
+95	7095	busə	busənin busəsi
+96	7096	döşəkağı	döşəkağıları döşəkağının
+97	7097	haitili	haitililər
+98	7098	aşsüzən	aşsüzəndə aşsüzəndən aşsüzənin aşsüzənə
+99	7099	ifratçı	ifratçılar
+100	7100	qurşun	qurşuna qurşundan qurşunlara qurşunu

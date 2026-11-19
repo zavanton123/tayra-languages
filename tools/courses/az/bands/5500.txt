@@ -1,0 +1,100 @@
+1	5401	çeşidləmək	çeşidlə çeşidləmə çeşidləsin çeşidləyib çeşidləyir çeşidləyirsiniz çeşidləyən çeşidləyərdi çeşidləyərək
+2	5402	mehrab	mehraba mehrabda mehrabdan mehrablar mehrabı mehrabın mehrabına mehrabında mehrabından mehrabını mehrabının
+3	5403	cəsarətləndirmək	cəsarətləndirdi cəsarətləndirdilər cəsarətləndirib cəsarətləndirir cəsarətləndirirdi cəsarətləndirirdim cəsarətləndirmə cəsarətləndirməyə cəsarətləndirsə cəsarətləndirə cəsarətləndirəcək cəsarətləndirən cəsarətləndirərək
+4	5404	yamamaq	yama yamadılar yamadım yamama yamasın yamaya yamayan yamayardı yamayıb yamayırdı yamayırlar
+5	5405	əsginas	əsginasa əsginasda əsginaslar əsginaslara əsginaslarda əsginaslardan əsginasları əsginasların əsginaslarının əsginası əsginasın əsginasında əsginasının əskinas
+6	5406	alkoqolizm	alkoqolizmdən alkoqolizmi alkoqolizmin alkoqolizmə
+7	5407	əmələgəlmə	əmələgəlmədə əmələgəlmədən əmələgəlmələr əmələgəlmələrdə əmələgəlmələrdən əmələgəlmələri əmələgəlmələrin əmələgəlmələrində əmələgəlmələrindən əmələgəlmələrinin əmələgəlmələrinə əmələgəlmənin əmələgəlməsi əmələgəlməsində əmələgəlməsini əmələgəlməsinin əmələgəlməsinə
+8	5408	hörük	hörüklər hörüklərdən hörükləri hörüklərim hörüklərin hörüklərindən hörüklərini hörüklərinin hörüklərinə hörüklərə hörüyü hörüyün hörüyünü
+9	5409	xəfiyyə	xəfiyyədən xəfiyyələr xəfiyyələrdən xəfiyyələri xəfiyyələrin xəfiyyələrindən xəfiyyələrinin xəfiyyələrinə xəfiyyələrə xəfiyyəni xəfiyyənin xəfiyyəsi xəfiyyəsinə xəfiyyəyə
+10	5410	ifrazat	ifrazata ifrazatdan ifrazatlar ifrazatlarda ifrazatları ifrazatlarında ifrazatlarını ifrazatı ifrazatın ifrazatına ifrazatından ifrazatını ifrazatının
+11	5411	başdan-ayağa	
+12	5412	fəhm	fəhmdə fəhmi fəhmimə fəhmin fəhmində fəhmini fəhminin fəhminə fəhmə
+13	5413	zəncəfil	zəncəfildən zəncəfili zəncəfilin
+14	5414	ədəbiyyatşünaslıq	ədəbiyyatşünaslıqda ədəbiyyatşünaslıqdan ədəbiyyatşünaslığa ədəbiyyatşünaslığı ədəbiyyatşünaslığım ədəbiyyatşünaslığımız ədəbiyyatşünaslığımızda ədəbiyyatşünaslığımızı ədəbiyyatşünaslığımızın ədəbiyyatşünaslığın ədəbiyyatşünaslığında ədəbiyyatşünaslığından ədəbiyyatşünaslığının
+15	5415	atelye	atelyedə atelyedən atelyelər atelyelərdə atelyeləri atelyelərin atelyelərindən atelyelərinin atelyelərinə atelyeni atelyenin atelyesi atelyesində atelyesindən atelyesini atelyesinin atelyesinə
+16	5416	nümayişkaranə	
+17	5417	tədavül	tədavüldə tədavüldən tədavülü tədavülün tədavülündə tədavülündən tədavülünü tədavülünün tədavülünə tədavülə
+18	5418	yetərsay	yetərsaylar yetərsayın yetərsayına yetərsayının
+19	5419	dulusçuluq	dulusçuluqda dulusçuluqdan dulusçuluğa dulusçuluğu dulusçuluğun dulusçuluğuna dulusçuluğunu dulusçuluğunun
+20	5420	psixiatr	psixiatra psixiatrdan psixiatrlar psixiatrlara psixiatrları psixiatrların psixiatrlarından psixiatrlarının psixiatrı psixiatrın psixiatrının
+21	5421	barelyef	barelyefdə barelyefdən barelyefi barelyefin barelyefində barelyefini barelyefinin barelyeflər barelyeflərdə barelyeflərdən barelyefləri barelyeflərin barelyeflərində barelyeflərini
+22	5422	talvar	talvara talvarda talvardan talvarlar talvarları talvarlarının talvarı talvarın talvarına talvarını
+23	5423	bəhai	bəhailər bəhailəri bəhailərin bəhailərinin bəhailərə bəhainin bəhaiyə
+24	5424	quldarlıq	quldarlıqdan quldarlığa quldarlığı quldarlığın
+25	5425	gözəçarpan	
+26	5426	peysər	peysərdə peysərdən peysəri peysərin peysərində peysərindən peysərini peysərinə peysərə
+27	5427	yumurtalıq	yumurtalıqda yumurtalıqdan yumurtalıqlar yumurtalıqlara yumurtalıqlarda yumurtalıqlardan yumurtalıqları yumurtalıqların yumurtalıqlarında yumurtalıqlarının yumurtalığa yumurtalığı yumurtalığın yumurtalığında yumurtalığından
+28	5428	pıçıltı	pıçıltıdan pıçıltılar pıçıltıları pıçıltılarına pıçıltılarını pıçıltını pıçıltınızı pıçıltısı pıçıltısına pıçıltısını pıçıltıya
+29	5429	qoçaq	qoçaqlar qoçaqlara qoçaqlardan qoçaqların qoçağı qoçağım
+30	5430	məhəlli	
+31	5431	yaltaqlanmaq	yaltaqlan yaltaqlana yaltaqlanacaq yaltaqlanacaqlar yaltaqlanacaqsan yaltaqlanan yaltaqlanar yaltaqlanaraq yaltaqlandı yaltaqlanmadan yaltaqlanmalıdır yaltaqlanmamalı yaltaqlanmır yaltaqlansalar yaltaqlansanız yaltaqlanıb yaltaqlanıblar yaltaqlanın yaltaqlanır yaltaqlanırdı yaltaqlanırlar
+32	5432	durna	durnalar durnalarda durnalardan durnaları durnaların durnalarının durnanı durnanın durnası durnasını
+33	5433	əzbər	
+34	5434	xaş	xaşa xaşlar xaşı
+35	5435	psixoterapiya	psixoterapiyada psixoterapiyadan psixoterapiyalarda psixoterapiyaların psixoterapiyanın psixoterapiyası psixoterapiyaya
+36	5436	çovğun	çovğuna çovğunda çovğundan çovğunlar çovğunlara çovğunları çovğunların çovğunu çovğunun çovğununda çovğunundan
+37	5437	zəlil	
+38	5438	arıçı	arıçılar arıçılara arıçılardan arıçıları arıçılarımızı arıçıların arıçılarını arıçılarının arıçını arıçının arıçıya
+39	5439	kotan	kotana kotandan kotanlar kotanlara kotanlarda kotanları kotanların kotanı kotanın kotanının
+40	5440	psixoterapevt	psixoterapevtin psixoterapevtlər psixoterapevtləri psixoterapevtlərimiz psixoterapevtlərin psixoterapevtə
+41	5441	qoğal	qoğala qoğalda qoğaldan qoğallar qoğalı qoğalın
+42	5442	təəssüb	təəssübdən təəssübləri təəssübü təəssübüm təəssübün təəssübündən təəssübünü
+43	5443	yal	yala yalda yaldan yallar yallarda yalları yalı yalına yalında yalından yalını yalının yalınız
+44	5444	istilaçı	istilaçılar istilaçılara istilaçılardan istilaçıları istilaçıların istilaçılarına istilaçılarını istilaçılarının istilaçının
+45	5445	atışmaq	atışa atışa-atışa atışan atışanda atışaq atışaraq atışdı atışdıq atışmadan atışmaya atışmış atışmışıq atışıb atışım atışın atışır atışırdı atışırdılar atışırlar
+46	5446	fani	
+47	5447	vur-tut	
+48	5448	kustar	
+49	5449	xardal	xardala xardalda xardaldan xardalı xardalın
+50	5450	unitaz	unitaza unitazlar unitazlara unitazlarının unitazı unitazın
+51	5451	bədbəxtçilik	bədbəxtçilikdən bədbəxtçiliklər bədbəxtçiliyi bədbəxtçiliyimiz bədbəxtçiliyimizin bədbəxtçiliyin bədbəxtçiliyinin bədbəxtçiliyiniz bədbəxtçiliyinə
+52	5452	ləpə	ləpələr ləpələrdə ləpələrdən ləpələri ləpələrin ləpələrini ləpələrinin ləpələrinə ləpəni ləpənin ləpəsi ləpəsində ləpəsindən ləpəsini ləpəsinin ləpəyə
+53	5453	sünnə	sünnədə sünnədən sünnələr sünnələrindən sünnəni sünnənin sünnəsi sünnəsində sünnəsindən sünnəsini sünnəsinə sünnəyə
+54	5454	səməni	səmənilər səməniləri səmənilərimiz səmənilərin səmənilərə səmənini səməninin səmənisi səmənisindən səməniyə
+55	5455	şahanə	
+56	5456	məktublaşmaq	məktublaşa məktublaşan məktublaşaraq məktublaşdı məktublaşdılar məktublaşdıqları məktublaşma məktublaşmadan məktublaşmaya məktublaşmırdılar məktublaşmış məktublaşmışdılar məktublaşmışdım məktublaşmışdıq məktublaşmışdır məktublaşmışlar məktublaşsınlar məktublaşıb məktublaşır məktublaşırdı məktublaşırdılar məktublaşırıq
+57	5457	pərdələmək	pərdələdi pərdələməsələr pərdələməyin pərdələməyə pərdələsinlər pərdələyib pərdələyir pərdələyirlər pərdələyə pərdələyəcəklər pərdələyən
+58	5458	bərq	
+59	5459	fitnes	fitnesi fitnesin fitnesə
+60	5460	kodlaşdırma	kodlaşdırmada kodlaşdırmalar kodlaşdırmalardan kodlaşdırmaları kodlaşdırmalarından kodlaşdırmanın kodlaşdırması kodlaşdırmasında kodlaşdırmasından kodlaşdırmasını kodlaşdırmasının kodlaşdırmaya
+61	5461	şıltaq	
+62	5462	balerina	balerinadan balerinalar balerinalardan balerinam balerinanın balerinası
+63	5463	mişar	mişara mişarlar mişarlara mişarlardan mişarları mişarların mişarı mişarın mişarından mişarını
+64	5464	iyirminci	
+65	5465	ulamaq	ula ulama ulamaların ulaması ulamasından ulasın ulaya ulaya-ulaya ulayan ulayar ulayaraq ulayıb ulayır ulayırdı ulayırdım
+66	5466	feodalizm	feodalizmdə feodalizmdən feodalizmi feodalizmin feodalizminin feodalizminə feodalizmə
+67	5467	varlanmaq	varlanib varlanir varlansin
+68	5468	parol	parola paroldan parollar parollardan parolları parollarımızı parolların parollarından parollarını parolu parolumuz parolun parolundan parolunu parolunuz
+69	5469	xora	xorada xoralar xoralara xoralarda xoraları xoraların xoralarında xoralarının xoran xoranı xoranın xorası xorasına xorasında xorasından xorasını xorasının xoraya
+70	5470	kaman	kamana kamanda kamandan kamanlarda kamanlardan kamanların kamanı kamanın kamanına kamanını kamanının
+71	5471	qəsidə	qəsidədə qəsidədən qəsidələr qəsidələrdə qəsidələrdən qəsidələri qəsidələrin qəsidələrində qəsidələrindən qəsidələrinin qəsidələrinə qəsidələrə qəsidəni qəsidənin qəsidəsi qəsidəsində qəsidəsindən qəsidəsini
+72	5472	gecəqondu	gecəqonduda gecəqondudan gecəqondular gecəqondulara gecəqondularda gecəqondulardan gecəqonduları gecəqonduların gecəqondularında gecəqondularından gecəqondularının gecəqondunun
+73	5473	heyranlıq	heyranlıqdan heyranlıqlarını heyranlığa heyranlığı heyranlığım heyranlığımı heyranlığımın heyranlığımızı heyranlığımızın heyranlığın heyranlığına heyranlığından heyranlığını
+74	5474	məğz	məğzi
+75	5475	mürgü	mürgüdə mürgünü mürgünün mürgüyə
+76	5476	manıs	manıslar manıslara manıslardan manısları manıslarımız manıslarımıza manıslarımızdan manısların manıslarını manıslarının manısın
+77	5477	provokasiya	provokasiyadan provokasiyalar provokasiyalara provokasiyaların provokasiyanı provokasiyanın provokasiyası provokasiyasına provokasiyaya
+78	5478	zəmanə	zəmanəni
+79	5479	gilas	gilasa gilasdan gilaslar gilası gilasın
+80	5480	tula	tulada tuladan tulalar tulalara tulaları tulaların tulan tulana tulanı tulanın tulası tulasına tulaya
+81	5481	bardaq	bardaqda bardaqdan bardaqlar bardaqlara bardaqlarda bardaqlardan bardaqların bardağa bardağı bardağın bardağını
+82	5482	müstəmləkəçi	müstəmləkəçidən müstəmləkəçilər müstəmləkəçilərdə müstəmləkəçilərdən müstəmləkəçiləri müstəmləkəçilərin müstəmləkəçilərini müstəmləkəçilərinin müstəmləkəçilərinə müstəmləkəçilərə müstəmləkəçinin müstəmləkəçisi
+83	5483	inzibatçı	inzibatçılar inzibatçılardan inzibatçıları inzibatçıların inzibatçılarından inzibatçının inzibatçısı inzibatçıya
+84	5484	balış	balışa balışlar balışları balışı balışım balışın balışında balışının
+85	5485	qamçı	qamçıdan qamçılar qamçılardan qamçıları qamçıların qamçılarından qamçılarını qamçımı qamçını qamçının qamçısı qamçısından qamçısını qamçısının qamçıya
+86	5486	sədəf	sədəfdə sədəfdən sədəfi sədəfləri sədəflərin sədəflərinin sədəfə
+87	5487	örtünmək	örtün örtündü örtünmüş örtünmə örtünməmək örtünməyin örtünməyə örtünməzdilər örtünün örtünərək
+88	5488	çoxuşaqlı	
+89	5489	abzas	abzasa abzasda abzasdan abzaslar abzaslara abzaslarda abzaslardan abzasları abzasların abzaslarını abzası abzasın abzasında abzasını abzasının
+90	5490	bilinməz	
+91	5491	qiblə	qiblədə qiblədən qibləmizə qibləndə qibləni qiblənin qiblənizi qibləsi qibləsini qibləsinə qibləyə
+92	5492	sayıq	
+93	5493	səbirsiz	
+94	5494	çuval	çuvala çuvalda çuvallara çuvallarda çuvalları çuvalların çuvallarına çuvallarını çuvalı çuvalıma çuvalın çuvalından
+95	5495	arxaik	
+96	5496	təşəbbüskarlıq	təşəbbüskarlıqdan təşəbbüskarlıqlarını təşəbbüskarlığa təşəbbüskarlığı təşəbbüskarlığımız təşəbbüskarlığını təşəbbüskarlığının təşəbbüskarlığınızı
+97	5497	salfet	salfetdə salfetimi salfetin salfetlər salfetlərdən salfetləri salfetlərin salfetlərə
+98	5498	tərbiyəli	
+99	5499	hil	hili hilin hilinin hilə
+100	5500	dustaqxana	dustaqxanada dustaqxanadan dustaqxanalara dustaqxanalarda dustaqxanaların dustaqxananın dustaqxanasına dustaqxanasında dustaqxanaya

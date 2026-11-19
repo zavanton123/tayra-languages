@@ -1,0 +1,100 @@
+1	3801	səbir	səbirdə səbirdən səbiri səbirlər səbirləri səbirlərin səbirlərini səbirə
+2	3802	çirklənmək	çirkləndi çirklənib çirklənibdir çirklənir çirklənmir çirklənmiş çirklənmişdi çirklənmişdir çirklənmə çirklənmədən çirklənməmiş çirklənməsin çirklənməyə çirklənməyən çirklənsin çirklənə çirklənəcək çirklənən çirklənərək
+3	3803	hamiləlik	hamiləlikdə hamiləlikdən hamiləlikləri hamiləliklərin hamiləliklərə hamiləliyi hamiləliyimi hamiləliyimin hamiləliyin hamiləliyində hamiləliyindən hamiləliyini hamiləliyinin hamiləliyinə hamiləliyə
+4	3804	serb	serbi serbin serbində serbini serbinin serblər serblərdə serblərdən serbləri serblərin serblərindən serblərinin serblərə serbə
+5	3805	üçlük	üçlükdə üçlükdən üçlüklər üçlükləri üçlüklərin üçlüklərinə üçlüklərə üçlüyü üçlüyün üçlüyündə üçlüyündən üçlüyünü üçlüyünün üçlüyünə üçlüyə
+6	3806	qızarmaq	qızar qızara-qızara qızaracaq qızaran qızaranda qızaraq qızarar qızararaq qızarardı qızardı qızardılar qızardın qızarma qızarmadan qızarmamış qızarmasın qızarmırlar qızarmış qızarmışam qızarmışdı qızarmışdır qızarsa qızarsın qızarıb qızarıbmış qızarır qızarıram qızarırdı qızarırlar qızarırsan
+7	3807	qeyri-müəyyən	
+8	3808	sorğu-sual	sorğu-suala sorğu-sualda sorğu-sualdan sorğu-sualların sorğu-suallarından sorğu-sualı sorğu-sualına sorğu-sualından
+9	3809	dülgər	dülgərdən dülgəri dülgərimdən dülgərin dülgərlər dülgərləri dülgərlərə dülgərə
+10	3810	ata-ana	ata-anadan ata-analar ata-analara ata-anaları ata-analarımın ata-analarımız ata-analarımızdan ata-analarımızın ata-analarına ata-analarından ata-analarını ata-analarının ata-analarınız ata-anam ata-anama ata-anamı ata-anamın ata-anamız ata-anamıza ata-anamızdan ata-anamızın ata-anan ata-anana ata-ananı ata-ananın ata-ananız ata-ananıza ata-ananızın ata-anası ata-anasına ata-anasından ata-anasını ata-anasının ata-anaya
+11	3811	əsarət	əsarətdə əsarətdən əsarəti əsarətin əsarətində əsarətindən əsarətini əsarətinin əsarətinə əsarətlər əsarətlərinə əsarətə
+12	3812	tiraj	tiraja tirajda tirajdan tirajlar tirajlara tirajları tirajlarına tirajlarını tirajlarının tirajı tirajımız tirajımızı tirajın tirajına tirajında tirajından tirajını tirajının tirajınız
+13	3813	part	parta partlar partların partın
+14	3814	rüsvayçılıq	rüsvayçılıqdan rüsvayçılıqlar rüsvayçılığa rüsvayçılığı rüsvayçılığın rüsvayçılığına rüsvayçılığından rüsvayçılığını
+15	3815	macar	macara macarlar macarlara macarlarda macarlardan macarları macarların macarlarına macarın
+16	3816	yolmaq	yola yola-yola yolalar yolan yolanda yolar yolaram yoldu yoldular yolma yolmayıbdır yolmayın yolmuşdular yolsalar yolub yolublar yolun yolur yolurdu yolurdun yolurlar yolurmuş
+17	3817	arxalanmaq	arxalan arxalana arxalanacaq arxalanacağam arxalanan arxalanar arxalanaraq arxalandı arxalandılar arxalandıq arxalandıqları arxalanma arxalanmadan arxalanmalıdır arxalanmalıdırlar arxalanmalıyıq arxalanmamalı arxalanmamış arxalanmasaydı arxalanmayan arxalanmayaraq arxalanmır arxalanmış arxalanmışam arxalanmışdı arxalanmışdır arxalansanız arxalansaydı arxalansınlar arxalanıb arxalanır arxalanıram arxalanırdı arxalanırdılar arxalanırlar arxalanırsınız arxalanırıq
+18	3818	bitərəf	
+19	3819	meyxana	meyxanada meyxanadan meyxanalar meyxanalara meyxanalarda meyxanalardan meyxanaları meyxanaların meyxanalarında meyxanalarını meyxanam meyxananı meyxananın meyxanası meyxanasından meyxanasını meyxanasının meyxanaya
+20	3820	casusluq	casusluqda casusluqdan casusluğa casusluğu casusluğun casusluğuna casusluğundan casusluğunun
+21	3821	təmsilçilik	təmsilçilikdə təmsilçilikdən təmsilçiliklər təmsilçilikləri təmsilçiliklərin təmsilçiliklərini təmsilçiliklərinin təmsilçiliklərinə təmsilçiliyi təmsilçiliyimiz təmsilçiliyimizin təmsilçiliyin təmsilçiliyində təmsilçiliyindən təmsilçiliyini təmsilçiliyinin təmsilçiliyinə təmsilçiliyə
+22	3822	sürfə	sürfədə sürfədən sürfələr sürfələrdə sürfələrdən sürfələri sürfələrin sürfələrində sürfələrindən sürfələrini sürfələrinin sürfələrinə sürfələrə sürfəni sürfənin sürfəsi sürfəsində sürfəsinin sürfəsinə sürfəyə
+23	3823	bükmək	bük bükdü bükdülər bükdüm bükmüş bükmüşdü bükmə bükmədin bükmələri bükməni bükmənin bükməsindən bükməsə bükməyə büküb bükübdür büküm bükümü bükün bükür bükürdülər bükürlər bükürük bükən bükərdilər bükərik bükərkən bükərlər bükərsiniz bükərək
+24	3824	ümumxalq	
+25	3825	ləngitmək	ləngidib ləngidiblər ləngidin ləngidir ləngidirdi ləngidirdilər ləngidirlər ləngidə ləngidə-ləngidə ləngidəcək ləngidən ləngidər ləngidərsən ləngidərək ləngitdi ləngitdilər ləngitdim ləngitmir ləngitmisiniz ləngitmiş ləngitmişdim ləngitmişdir ləngitmə ləngitmədi ləngitmədən ləngitməmək ləngitməyim ləngitməyə ləngitsin ləngitsinlər ləngitsə
+26	3826	kərə	kərədən kərəmdən kərəmi kərəmin kərəmə kərən kərənin kərəsi
+27	3827	zinət	zinətdə zinəti zinətlər zinətləri zinətlərindən zinətlərini
+28	3828	qaşıq	qaşıqda qaşıqdan qaşıqlar qaşıqlara qaşıqlarda qaşıqlardan qaşıqları qaşıqların qaşığa qaşığı qaşığın qaşığına qaşığından qaşığını qaşığının
+29	3829	rəsmiləşdirmək	rəsmiləşdir rəsmiləşdirdi rəsmiləşdirdik rəsmiləşdirdikləri rəsmiləşdirdilər rəsmiləşdirib rəsmiləşdiriblər rəsmiləşdiribmiş rəsmiləşdirir rəsmiləşdirirdim rəsmiləşdirirlər rəsmiləşdirmir rəsmiləşdirmirlər rəsmiləşdirmiş rəsmiləşdirmişdi rəsmiləşdirmişdilər rəsmiləşdirmişdir rəsmiləşdirmişlər rəsmiləşdirmə rəsmiləşdirmədikləri rəsmiləşdirməlidir rəsmiləşdirməlidirlər rəsmiləşdirməliyəm rəsmiləşdirməyin rəsmiləşdirməyə rəsmiləşdirsin rəsmiləşdirsinlər rəsmiləşdirsə rəsmiləşdirsələr rəsmiləşdirə rəsmiləşdirəcək rəsmiləşdirəcəklər rəsmiləşdirəcəyik rəsmiləşdirəcəyəm rəsmiləşdirək rəsmiləşdirən rəsmiləşdirərək
+30	3830	özümüzünkü	özümüzünkülər özümüzünkülərdən özümüzünküləri özümüzünkülərin özümüzünkülərə özümüzünkünü özümüzünkünə
+31	3831	təpki	təpkilər təpkilərdən təpkiləri təpkilərin təpkilərindən təpkilərini təpkilərinin təpkilərinə təpkilərə təpkimiz təpkimizdən təpkimizi təpkin təpkini təpkisi təpkisindən təpkisini təpkisinə təpkiyə
+32	3832	islah	islaha islahlar islahı islahın islahına islahından islahını islahının
+33	3833	axirət	axirətdə axirətdən axirəti axirətimizi axirətin axirətini axirətinizi axirətinə axirətlərinə axirətə
+34	3834	otlaq	otlaqda otlaqdan otlaqlar otlaqlara otlaqlarda otlaqlardan otlaqları otlaqlarımız otlaqlarımızın otlaqların otlaqlarına otlaqlarında otlaqlarından otlaqlarını otlaqlarının otlağa otlağı otlağın otlağına otlağında
+35	3835	heç-heçə	heç-heçədən heç-heçələr heç-heçələri heç-heçəni heç-heçənin heç-heçəsi heç-heçəyə
+36	3836	cığır	cığıra cığırda cığırdan cığırlar cığırlara cığırlarda cığırlardan cığırları cığırların cığırlarına cığırlarında cığırlarından cığırlarının cığırı cığırın cığırına cığırında cığırından cığırını cığırının
+37	3837	əxlaqsız	
+38	3838	sarğı	sarğıda sarğıdan sarğılar sarğılarda sarğılardan sarğıları sarğıların sarğılarından sarğılarını sarğılarının sarğını sarğının sarğısı sarğısında sarğısından sarğısını sarğısının sarğıya
+39	3839	lal	
+40	3840	bu gün	bu bugün gün
+41	3841	zeytun	zeytuna zeytunda zeytundan zeytunlar zeytunları zeytunların zeytunlarına zeytunu zeytunun zeytunundan zeytununun
+42	3842	dirsək	dirsəkdə dirsəkdən dirsəklər dirsəklərdə dirsəklərdən dirsəkləri dirsəklərin dirsəklərində dirsəklərini dirsəklərinizi dirsəklərinə dirsəklərə dirsəyi dirsəyin dirsəyindən dirsəyini dirsəyinin dirsəyinə dirsəyə
+43	3843	şifr	şifri şifrlər şifrə
+44	3844	verilənlər	
+45	3845	palıd	palıda palıdda palıddan palıdlar palıdları palıdlarından palıdlarını palıdı palıdın palıdına palıdında palıdından palıdını palıdının
+46	3846	camış	camışda camışdan camışlar camışlara camışlarda camışları camışların camışlarına camışlarının camışı camışım camışın camışına camışını camışının
+47	3847	zahiri	
+48	3848	lava	lavada lavadan lavalar lavalarda lavalardan lavaları lavaların lavalarından lavalarının lavan lavanda lavanı lavanın lavası lavasının
+49	3849	qraf	qrafa qrafda qrafdan qrafinya qraflar qraflardan qrafları qrafların qraflarının qrafı qrafın qrafına qrafında qrafını qrafının
+50	3850	parıltı	parıltıdan parıltılar parıltılara parıltıları parıltılarına parıltılarının parıltını parıltının parıltısı parıltısına parıltısında parıltısından parıltısını parıltısının parıltıya
+51	3851	fırça	fırçadan fırçalar fırçalardan fırçaları fırçaların fırçalarında fırçalarını fırçamın fırçan fırçanı fırçanın fırçanızın fırçası fırçasına fırçasında fırçasından fırçasını fırçasının fırçaya
+52	3852	təşəkkül	təşəkküldən təşəkkülləri təşəkküllərindən təşəkkülü təşəkkülün təşəkkülündə təşəkkülündən təşəkkülünü təşəkkülünün təşəkkülünə təşəkkülə
+53	3853	həvəsləndirmək	həvəsləndirdi həvəsləndirib həvəsləndiriblər həvəsləndiribmiş həvəsləndirir həvəsləndirirdi həvəsləndiririk həvəsləndirirlər həvəsləndirirəm həvəsləndirmirdi həvəsləndirmiş həvəsləndirmişdi həvəsləndirmişdir həvəsləndirmə həvəsləndirməlisiniz həvəsləndirməliyik həvəsləndirməsən həvəsləndirməyin həvəsləndirməyə həvəsləndirə həvəsləndirəcək həvəsləndirən həvəsləndirər həvəsləndirərək həvəsləndirərəm həvəsləndirəsiniz
+54	3854	xəncər	xəncərdə xəncərdən xəncəri xəncərin xəncərini xəncərinin xəncərinə xəncərlər xəncərlərdən xəncərləri xəncərlərin xəncərlərinin xəncərlərə
+55	3855	öyünmək	öyün öyündü öyündükləri öyündülər öyündüm öyünmürlər öyünmürəm öyünmüşdü öyünmə öyünməsin öyünməsinlər öyünməyin öyünməyə öyünməyək öyünməz öyünməzdi öyünsün öyünsə öyünsən öyünüb öyünüblər öyünüm öyünün öyünür öyünürdü öyünürdük öyünürdülər öyünürlər öyünürsünüz öyünə öyünəcək öyünən öyünərdi öyünərdik öyünərdilər öyünərkən öyünərək
+56	3856	daxma	daxmada daxmadan daxmalar daxmalarda daxmalardan daxmaları daxmaların daxmalarında daxmalarından daxmalarını daxmalarının daxmamız daxman daxmanı daxmanın daxması daxmasına daxmasında daxmasından daxmasını daxmasının daxmaya
+57	3857	üzbəüz	
+58	3858	xörək	xörəkdə xörəkdən xörəklər xörəklərdə xörəklərdən xörəkləri xörəklərimdə xörəklərimiz xörəklərimizi xörəklərin xörəklərində xörəklərindən xörəklərini xörəklərinin xörəklərinizi xörəklərinə xörəklərə xörəyi xörəyin xörəyində xörəyindən xörəyini xörəyinin xörəyiniz xörəyinə xörəyə
+59	3859	əyləndirmək	əyləndirib əyləndirir əyləndirirdi əyləndirirdilər əyləndirirlər əyləndirirəm əyləndirmir əyləndirmiş əyləndirmə əyləndirməyə əyləndirsin əyləndirsinlər əyləndirsək əyləndirə əyləndirəcək əyləndirən əyləndirər əyləndirərdi əyləndirərək
+60	3860	səmərə	səmərələri səmərələrini səmərələrinin səmərəni səmərəsi səmərəsindən səmərəsini səmərəsinin səmərəsinə səmərəyə
+61	3861	səmimiyyət	səmimiyyətdən səmimiyyəti səmimiyyətim səmimiyyətimizi səmimiyyətimizə səmimiyyətimə səmimiyyətin səmimiyyətində səmimiyyətindən səmimiyyətini səmimiyyətinin səmimiyyətiniz səmimiyyətinizi səmimiyyətinə səmimiyyətlərini səmimiyyətə
+62	3862	axund	axunda axunddan axundlar axundlara axundlardan axundları axundların axundlarını axundlarının axundu axundun axunduna axundunu axundunun
+63	3863	saxtakar	saxtakarlar saxtakarlara saxtakarlardan saxtakarları saxtakarların saxtakarlarına saxtakarlarını saxtakarlarının saxtakarı saxtakarın saxtakarını
+64	3864	göydələn	göydələndə göydələndən göydələni göydələnin göydələnində göydələnindən göydələnini göydələninin göydələninə göydələnlər göydələnlərdə göydələnlərdən göydələnləri göydələnlərin göydələnlərində göydələnlərindən göydələnlərinin göydələnlərinə göydələnlərə göydələnə
+65	3865	mifologiya	mifologiyada mifologiyadan mifologiyalar mifologiyalara mifologiyalarda mifologiyaları mifologiyaların mifologiyalarına mifologiyalarında mifologiyalarının mifologiyamız mifologiyamızdan mifologiyanı mifologiyanın mifologiyası mifologiyasına mifologiyasında mifologiyasından mifologiyasını mifologiyasının mifologiyaya
+66	3866	məşəl	məşəldə məşəldən məşəli məşəlin məşəlindən məşəlini məşəlinin məşəlinə məşəllər məşəllərdən məşəlləri məşəllərin məşəllərində məşəllərini məşəllərinin məşəllərə məşələ
+67	3867	məsum	
+68	3868	qərq	qərqdən
+69	3869	gerb	gerbdə gerbdən gerbi gerbimiz gerbimizdə gerbimizi gerbimizin gerbin gerbində gerbindən gerbini gerbinin gerbinə gerblər gerblərdə gerblərdən gerbləri gerblərin gerblərində gerblərindən gerblərini gerblərinin gerblərinə gerbə
+70	3870	millətçilik	millətçilikdə millətçilikdən millətçiliklər millətçiliklərini millətçiliklərinə millətçiliyi millətçiliyin millətçiliyində millətçiliyindən millətçiliyini millətçiliyinin millətçiliyinə millətçiliyə
+71	3871	miz	mizdə mizi mizim mizin mizlər mizlərdə mizə
+72	3872	haqq-hesab	haqq-hesaba haqq-hesabda haqq-hesabdan haqq-hesablar haqq-hesablara haqq-hesablardan haqq-hesabları haqq-hesabların haqq-hesablarına haqq-hesablarını haqq-hesabı haqq-hesabımızı haqq-hesabın haqq-hesabına haqq-hesabında haqq-hesabından haqq-hesabını haqq-hesabının
+73	3873	qətiyyət	qətiyyətdən qətiyyəti qətiyyətimiz qətiyyətimizi qətiyyətin qətiyyətində qətiyyətindən qətiyyətini qətiyyətinin qətiyyətiniz qətiyyətinizə qətiyyətinə qətiyyətləri qətiyyətlərini qətiyyətə
+74	3874	çöp	çöpdən çöplər çöplərdən çöpləri çöplərin çöplərindən çöplərini çöplərinin çöplərinə çöplərə çöpü çöpün çöpündən çöpünü çöpünün çöpünə çöpə
+75	3875	pilotsuz	
+76	3876	zireh	zirehdə zirehdən zirehi zirehim zirehin zirehində zirehindən zirehini zirehinin zirehinə zirehlər zirehlərdə zirehləri zirehlərimiz zirehlərin zirehlərində zirehlərindən zirehlərini zirehlərinin zirehlərinə zirehlərə zirehə
+77	3877	meyvə-tərəvəz	meyvə-tərəvəzdə meyvə-tərəvəzdən meyvə-tərəvəzi meyvə-tərəvəzin meyvə-tərəvəzindən meyvə-tərəvəzlər meyvə-tərəvəzlərdə meyvə-tərəvəzlərdən meyvə-tərəvəzləri meyvə-tərəvəzlərin meyvə-tərəvəzə
+78	3878	bloklamaq	blokla blokladı bloklama bloklamadan bloklamışdı bloklamışdır bloklaya bloklayacaq bloklayan bloklayaraq bloklayıb bloklayın bloklayır
+79	3879	şaquli	
+80	3880	savadsız	
+81	3881	nərdivan	nərdivana nərdivandan nərdivanlar nərdivanlara nərdivanlarda nərdivanlardan nərdivanları nərdivanların nərdivanlarında nərdivanlarından nərdivanı nərdivanın nərdivanına nərdivanında nərdivanından nərdivanının
+82	3882	onunku	onunki onunkular onunkularda onunkuna onunkunda onunkundan onunkunu
+83	3883	müstəmləkə	müstəmləkədən müstəmləkələr müstəmləkələrdə müstəmləkələrdən müstəmləkələri müstəmləkələrin müstəmləkələrində müstəmləkələrindən müstəmləkələrini müstəmləkələrinin müstəmləkələrinə müstəmləkələrə müstəmləkəni müstəmləkənin müstəmləkəsi müstəmləkəsində müstəmləkəsindən müstəmləkəsini müstəmləkəsinin müstəmləkəsinə müstəmləkəyə
+84	3884	suriyalı	suriyalılar suriyalılara suriyalılarda suriyalılardan suriyalıları suriyalıların suriyalını suriyalının suriyalıya
+85	3885	qənaətbəxş	
+86	3886	şorba	şorbada şorbadan şorbalar şorbalara şorbalarda şorbalardan şorbaları şorbaların şorbalarında şorbamız şorbamızda şorbamızı şorbanı şorbanın şorbanız şorbası şorbasına şorbasında şorbasından şorbasını şorbasının şorbaya
+87	3887	içalat	içalatdan içalatları içalatlarının içalatı içalatım içalatına içalatından içalatını
+88	3888	peşmançılıq	peşmançılıqda peşmançılıqlar peşmançılıqlarını peşmançılığa peşmançılığı peşmançılığım peşmançılığımız peşmançılığın peşmançılığını
+89	3889	istila	istilada istiladan istilalar istilalara istilalardan istilaları istilaların istilalarına istilalarından istilalarını istilalarının istilanı istilanın istilası istilasına istilasında istilasından istilasını istilasının istilaya
+90	3890	kəşfiyyatçı	kəşfiyyatçıdan kəşfiyyatçılar kəşfiyyatçılara kəşfiyyatçılardan kəşfiyyatçıları kəşfiyyatçılarımız kəşfiyyatçılarımızın kəşfiyyatçıların kəşfiyyatçılarına kəşfiyyatçılarından kəşfiyyatçılarını kəşfiyyatçılarının kəşfiyyatçımı kəşfiyyatçının kəşfiyyatçısı kəşfiyyatçısına kəşfiyyatçısını kəşfiyyatçısının kəşfiyyatçıya
+91	3891	namus	namusa namusda namusdan namusları namusların namuslarına namuslarını namusu namusum namusumu namusumuz namusumuzu namusun namusuna namusunu namusunun namusunuz namusunuza
+92	3892	alilik	alilikləri aliliklərin aliliyi aliliyin aliliyində aliliyindən aliliyini aliliyinin aliliyinə
+93	3893	oyanış	oyanışa oyanışda oyanışdan oyanışlar oyanışlarını oyanışı oyanışımız oyanışımıza oyanışımızın oyanışın oyanışına oyanışında oyanışından oyanışını oyanışının
+94	3894	tonqal	tonqala tonqalda tonqaldan tonqallar tonqallarda tonqallardan tonqalları tonqallarımız tonqalların tonqallarında tonqallarının tonqalı tonqalın tonqalında tonqalından tonqalını tonqalının
+95	3895	ukraynalı	ukraynalılar ukraynalılara ukraynalılarda ukraynalılardan ukraynalıları ukraynalıların ukraynalılarını ukraynalının
+96	3896	qorxaqlıq	qorxaqlıqda qorxaqlıqdan qorxaqlıqlarını qorxaqlığı qorxaqlığıma qorxaqlığımızı qorxaqlığın qorxaqlığına qorxaqlığından qorxaqlığını qorxaqlığının qorxaqlığınızı
+97	3897	ardıcıllıq	ardıcıllıqda ardıcıllıqdan ardıcıllıqlar ardıcıllıqlara ardıcıllıqlardan ardıcıllıqları ardıcıllıqların ardıcıllıqlarına ardıcıllıqlarını ardıcıllıqlarının ardıcıllığa ardıcıllığı ardıcıllığın ardıcıllığına ardıcıllığında ardıcıllığından ardıcıllığını ardıcıllığının
+98	3898	günbəz	günbəzdə günbəzdən günbəzi günbəzin günbəzində günbəzindən günbəzini günbəzinin günbəzinə günbəzlər günbəzlərdə günbəzlərdən günbəzləri günbəzlərin günbəzlərində günbəzlərindən günbəzlərinin günbəzlərinə günbəzlərə günbəzə
+99	3899	dinozavr	dinozavra dinozavrdan dinozavrlar dinozavrlara dinozavrlardan dinozavrları dinozavrların dinozavrlarından dinozavrlarının dinozavrın dinozavrının
+100	3900	cücə	cücədə cücədən cücələr cücələrdən cücələri cücələrim cücələrin cücələrini cücələrinin cücələrinə cücələrə cücəmi cücəni cücənin cücəsi cücəsini cücəyə

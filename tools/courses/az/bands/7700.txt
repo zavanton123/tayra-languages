@@ -1,0 +1,100 @@
+1	7601	baxanlıq	baxanlığa baxanlığının
+2	7602	qrantyeyən	qrantyeyənlərin
+3	7603	hərşeyşünas	hərşeyşünaslar
+4	7604	kulyok	kulyokda kulyoku
+5	7605	naxoşlamaq	naxoşlamışdı naxoşlayıb
+6	7606	nağdlaşdırmaq	nağdlaşdırırdı
+7	7607	oğraşlıq	oğraşlığa
+8	7608	poyezd	poyezdi poyezdləri
+9	7609	söz-sov	söz-sovu söz-sovuna
+10	7610	yekələnmək	yekələndi yekələnmisiniz
+11	7611	çidar	çidarını
+12	7612	əhli-qələm	əhli-qələmimizə
+13	7613	əvəzgün	əvəzgünlərinin əvəzgünü
+14	7614	kudu	kudunun
+15	7615	atqı	atqıları atqıların
+16	7616	axar-baxar	axar-baxarın axar-baxarında
+17	7617	badambura	badamburan
+18	7618	bəzgək	bəzgəyin
+19	7619	sınıqçı	sınıqçılar
+20	7620	yolkəsən	yolkəsənin yolkəsənlərin yolkəsənlərə
+21	7621	əndam	əndamı əndamına əndamını
+22	7622	burğulamaq	burğuladı burğulama
+23	7623	keşir	
+24	7624	pəltək	
+25	7625	qarma-qarışıq	
+26	7626	sürtünən	
+27	7627	ikindi	
+28	7628	günbatar	günbatarda günbatarında
+29	7629	ürəmək	ürə ürəyim ürəyin ürəyə ürəyəm
+30	7630	bakteriofaq	bakteriofaqlar bakteriofaqlara bakteriofaqları bakteriofaqların bakteriofaqlarından bakteriofaqının
+31	7631	atalar sözü	atalar sözü
+32	7632	proqram təminatı	proqram təminatı
+33	7633	qu quşu	qu quşu
+34	7634	qum saatı	qum saatı
+35	7635	pənc	
+36	7636	salt	
+37	7637	mətnşünas	
+38	7638	portuqalca	
+39	7639	uşaq bağçası	bağçası uşaq
+40	7640	enlisifət	
+41	7641	uni	
+42	7642	övrə	
+43	7643	ordinat	ordinata
+44	7644	çoxmənalılıq	çoxmənalılığı
+45	7645	süfrəçi	süfrəçidən
+46	7646	tüləmək	tülə tüləmə
+47	7647	belbağı	belbağının
+48	7648	fonologiya	fonologiyada fonologiyası
+49	7649	əməköməci	əməköməcisi əməköməciyə
+50	7650	orogenez	orogenezin orogenezində orogenezə
+51	7651	odsaçan	odsaçanlar odsaçanları odsaçanlarına
+52	7652	təkbuynuz	təkbuynuza təkbuynuzun təkbuynuzuna
+53	7653	podkast	podkastlar podkastı
+54	7654	elmas	
+55	7655	aysız	
+56	7656	belibağlı	belibağlılar
+57	7657	birmənalılıq	birmənalılığı birmənalılığını birmənalılığının
+58	7658	dardüşüncəli	
+59	7659	dəh	
+60	7660	iqrek	
+61	7661	iranşünaslıq	iranşünaslığı
+62	7662	mavrı	mavrılar mavrın
+63	7663	mütrüb	
+64	7664	müəssir	
+65	7665	mığı	mığılar
+66	7666	məhsulsuz	
+67	7667	mənalılıq	mənalılığı
+68	7668	pirkal	pirkallar pırkal
+69	7669	qeyz	qeyzi qeyzinə qeyzə
+70	7670	qurtumlamaq	qurtumla qurtumlayıb
+71	7671	seladon	seladondan
+72	7672	tanıq	tanıqları tanıqların
+73	7673	tüfeylilik	tüfeyliliyi tüfeyliliyini
+74	7674	təng	
+75	7675	təsirsizlik	təsirsizliyi təsirsizliyini
+76	7676	çoxdanışan	
+77	7677	özgüvən	özgüvənimiz özgüvənini özgüvənlərini
+78	7678	ərəbşünaslıq	ərəbşünaslığın ərəbşünaslığının
+79	7679	bezikmək	bezikib
+80	7680	deaktivləşdirmək	deaktivləşdirir
+81	7681	yaylamaq	yaylama yaylasın yaylaya yaylayan yaylayır yaylayırlar yaylayırmış
+82	7682	ovlaq	ovlaqlarında ovlağı ovlağında
+83	7683	leksikoqraf	leksikoqraflar leksikoqrafların leksikoqrafı
+84	7684	povidlo	povidlodan povidlolar povidlosundan
+85	7685	ödlük	ödlüyü ödlüyün ödlüyə
+86	7686	üçüzlü	
+87	7687	fonoloji	
+88	7688	sözdəyişdirici	
+89	7689	tosqun	
+90	7690	revanşizm	
+91	7691	aqronomiya	
+92	7692	bənək	bənəklər
+93	7693	güz	güzə
+94	7694	kruk	kruku krukun
+95	7695	yağmurluq	yağmurluqlar yağmurluqlardan
+96	7696	misirşünaslıq	misirşünaslığı misirşünaslığın
+97	7697	hipotenuz	hipotenuzun
+98	7698	sərbəstdüşmə	sərbəstdüşmədə
+99	7699	itdirsəyi	itdirsəyini itdirsəyinin
+100	7700	maruni	marunilər marunilərin

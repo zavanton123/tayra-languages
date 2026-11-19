@@ -1,0 +1,100 @@
+1	3701	keşikçi	keşikçilər keşikçilərdən keşikçiləri keşikçilərimiz keşikçilərin keşikçilərindən keşikçilərini keşikçilərinin keşikçilərinə
+2	3702	rəf	rəfdə rəfdən rəfi rəfin rəfində rəfinin rəfinə rəflər rəflərdə rəflərdən rəfləri rəflərimizdə rəflərin rəflərində rəflərindən rəflərini rəflərinin rəflərinə rəflərə rəfə
+3	3703	solmaq	sola sola-sola solacaq solan solanda solaq solar solaraq soldu solma solmadı solmamışıq solmasın solmaya solmayacaq solmayan solmayıb solmaz solmur solmuş solmuşdu solub solun solur solurdu solurlar
+4	3704	ateist	ateistdən ateisti ateistin ateistlər ateistlərdə ateistlərdən ateistləri ateistlərin ateistlərindən ateistlərinin ateistlərə ateistə
+5	3705	məcra	məcrada məcradan məcralar məcralara məcralarından məcralarını məcralarının məcramdan məcranı məcranın məcrası məcrasına məcrasında məcrasından məcrasını məcrasının məcraya
+6	3706	sap	sapa sapda sapdan saplar saplara saplarda saplardan sapları sapların saplarına saplarından saplarını saplarının sapı sapın sapına sapında sapından sapını sapının
+7	3707	bulanmaq	bulan bulana bulanacaq bulanan bulananda bulanaraq bulandı bulandın bulanma bulanmasın bulanmayan bulanmır bulanmış bulanmışdı bulanmışdılar bulanmışdır bulansın bulanıb bulanıbdır bulanın bulanır bulanırdı
+8	3708	özgə	özgədən özgələr özgələrdən özgələri özgələrin özgələrini özgələrinin özgələrinə özgələrə özgən özgəni özgənin özgəsi özgəsindən özgəsini özgəsinin özgəsinə özgəyə
+9	3709	satlıq	
+10	3710	nəm	nəmdən nəmi nəmin nəmindən nəmini nəminə nəmə
+11	3711	qanmaq	qana qanacaq qanacaqda qanacaqları qanacaqlarını qanacaqsan qanacağı qanacağım qanacağın qanacağından qanacağının qanacağınız qanammıram qanan qanaq qanar qanarsan qandı qandım qandın qandıq qanmadan qanmayan qanmayıb qanmaz qanmır qanmıram qanmırdım qanmırlar qanmışam qanmışdı qansa qansan qansaydın qanım qanın qanır qanırlar qanırsan
+12	3712	surə	surədə surədən surələr surələrdə surələrdən surələri surələrin surələrində surələrindən surələrini surələrinin surələrinə surən surəni surənin surəsi surəsində surəsindən surəsini surəsinin surəsinə surəyə
+13	3713	subay	subayda subaylar subaylara subaylarda subaylardan subayları subaylarımızın subayların subaylarını subaylarınıza subaylarınızdan
+14	3714	həşərat	həşərata həşəratda həşəratdan həşəratlar həşəratlara həşəratlarda həşəratlardan həşəratları həşəratların həşəratlarının həşəratı həşəratın
+15	3715	atıcı	atıcıdan atıcılar atıcılara atıcıları atıcılarımızdan atıcıların atıcılarına atıcılarının atıcım atıcımız atıcının atıcısı atıcısını atıcıya
+16	3716	minarə	minarədə minarədən minarələr minarələrdə minarələrdən minarələri minarələrin minarələrində minarələrindən minarələrini minarələrinin minarələrə minarəni minarənin minarəsi minarəsində minarəsindən minarəsini minarəsinin minarəsinə minarəyə
+17	3717	məsəl	məsəldə məsəldən məsəli məsəlimiz məsəlimizdə məsəlin məsəlində məsəlini məsəlinin məsəlinə məsəllər məsəllərdə məsəllərdən məsəlləri məsəllərin məsəllərində məsəllərindən məsəllərinin məsəllərə
+18	3718	leş	leşdən leşi leşin leşindən leşini leşinin leşinizi leşinə leşlər leşləri leşlərin leşlərini leşlərinə leşlərə leşə
+19	3719	yerüstü	
+20	3720	yadplanetli	yadplanetlilər yadplanetlilərdən yadplanetliləri yadplanetlilərin yadplanetlilərə yadplanetlini yadplanetlinin
+21	3721	daban	dabana dabanda dabanlar dabanlarda dabanlardan dabanları dabanlarıma dabanlarımı dabanların dabanlarına dabanlarında dabanlarını dabanlarının dabanı dabanım dabanıma dabanın dabanına dabanında dabanından dabanını dabanının dabanınız dabanınıza
+22	3722	kabab	kababa kababdan kabablar kabablardan kababları kababların kababı kababın kababına kababından kababını kababının
+23	3723	hərb	hərbdə hərbdən hərbimiz hərbin hərbində hərbindən hərbini hərbinin hərbə
+24	3724	ülvi	
+25	3725	həyasız	həyasızda həyasızlar həyasızlardan
+26	3726	oxutmaq	oxuda oxudacaq oxudacağam oxudan oxudaq oxudar oxudaraq oxudardılar oxudub oxudublar oxudum oxudun oxudur oxuduram oxudurdu oxudurdular oxudurdum oxudurlar oxut oxutdu oxutdular oxutdum oxutmalıyam oxutmasanız oxutmayacaq oxutmayıb oxutmuram oxutmuş oxutmuşam oxutmuşdu oxutmuşdular oxutmuşdur oxutmuşlar oxutsun oxutsunlar
+27	3727	nəğmə	nəğmədə nəğmədən nəğmələr nəğmələrdə nəğmələrdən nəğmələri nəğmələrim nəğmələrimiz nəğmələrin nəğmələrində nəğmələrindən nəğmələrini nəğmələrinin nəğmələrinə nəğmələrə nəğməm nəğməmiz nəğməni nəğmənin nəğməsi nəğməsində nəğməsini nəğməsinin nəğməsinə nəğməyə
+28	3728	tutarlı	
+29	3729	toxumaq	toxu toxudular toxuduqları toxumadan toxumalısınız toxumaya toxumurlar toxumusan toxumuş toxumuşdum toxumuşdur toxumuşlar toxuya toxuyacaq toxuyan toxuyar toxuyaraq toxuyardı toxuyarkən toxuyub toxuyur toxuyuram toxuyurdu toxuyurdular toxuyurduq toxuyurlar toxuyurmuşlar toxuyursan
+30	3730	ədib	ədibi ədibimiz ədibimizin ədibin ədibinin ədiblər ədiblərdən ədibləri ədiblərimiz ədiblərimizi ədiblərimizin ədiblərin ədiblərindən ədiblərinin ədibləriniz ədiblərə ədibə
+31	3731	sulu	
+32	3732	monastır	monastıra monastırda monastırdan monastırlar monastırlara monastırlarda monastırlardan monastırları monastırların monastırlarına monastırlarında monastırlarından monastırlarını monastırlarının monastırı monastırın monastırına monastırında monastırından monastırını monastırının
+33	3733	səmt	səmtdə səmtdən səmti səmtin səmtində səmtindən səmtini səmtinin səmtinə səmtlərdə səmtləri səmtlərin səmtlərində səmtlərindən səmtlərini səmtlərinə səmtlərə səmtə
+34	3734	qasırğa	qasırğada qasırğadan qasırğalar qasırğalara qasırğalarda qasırğalardan qasırğaları qasırğaların qasırğalarına qasırğalarında qasırğalarından qasırğalarını qasırğalarının qasırğanı qasırğanın qasırğası qasırğasına qasırğasında qasırğasından qasırğasının qasırğaya
+35	3735	zəhrimar	zəhrimara zəhrimarda zəhrimardan zəhrimarların zəhrimarı zəhrimarımıza zəhrimarın
+36	3736	bəsit	
+37	3737	bombardman	bombardmana bombardmanda bombardmandan bombardmanlar bombardmanlara bombardmanlarda bombardmanlardan bombardmanları bombardmanların bombardmanlarına bombardmanlarından bombardmanlarını bombardmanlarının bombardmanı bombardmanın bombardmanına bombardmanında bombardmanından bombardmanını bombardmanının
+38	3738	dəyişkən	
+39	3739	unudulmaz	
+40	3740	nizə	nizədən nizələr nizələrdən nizələri nizələrin nizələrini nizələrinin nizələrə nizəni nizənin nizəsi nizəsindən nizəsini nizəsinin nizəyə
+41	3741	qonaqpərvərlik	qonaqpərvərlikdə qonaqpərvərlikdən qonaqpərvərlikləri qonaqpərvərliyi qonaqpərvərliyimizdən qonaqpərvərliyimizi qonaqpərvərliyimizin qonaqpərvərliyin qonaqpərvərliyindən qonaqpərvərliyini qonaqpərvərliyinin qonaqpərvərliyiniz qonaqpərvərliyinizə qonaqpərvərliyinə qonaqpərvərliyə
+42	3742	quraqlıq	quraqlıqda quraqlıqdan quraqlıqlar quraqlıqlardan quraqlıqları quraqlıqların quraqlıqlarından quraqlığa quraqlığı quraqlığın quraqlığına quraqlığında quraqlığından quraqlığının
+43	3743	genişləndirilmək	genişləndiril genişləndirildi genişləndirilib genişləndirilir genişləndirilirdi genişləndirilmiş genişləndirilmişdi genişləndirilmişdir genişləndirilmə genişləndirilmədi genişləndirilmədən genişləndirilməlidir genişləndirilməyib genişləndirilməyin genişləndirilməyə genişləndirilsin genişləndirilsə genişləndirilsəydi genişləndirilə genişləndiriləcək genişləndirilən genişləndiriləndə genişləndirilərkən genişləndirilərək
+44	3744	bakılı	bakılıdan bakılılar bakılılara bakılılarda bakılılardan bakılıları bakılıların bakılını bakılının bakılıya
+45	3745	hidayət	hidayətdə hidayətdən hidayəti hidayətin hidayətinə hidayətlər hidayətə
+46	3746	irland	irlandlar
+47	3747	lazımlı	
+48	3748	alış-veriş	alış-verişdə alış-verişdən alış-verişi alış-verişimiz alış-verişin alış-verişində alış-verişini alış-verişinin alış-verişinə alış-verişlər alış-verişləri alış-verişə
+49	3749	təşəbbüskar	təşəbbüskara təşəbbüskarlar təşəbbüskarlara təşəbbüskarlardan təşəbbüskarları təşəbbüskarların təşəbbüskarlarına təşəbbüskarlarından təşəbbüskarlarının təşəbbüskarı təşəbbüskarın təşəbbüskarına təşəbbüskarından təşəbbüskarının
+50	3750	miskin	
+51	3751	çiy	
+52	3752	zəhmətkeş	zəhmətkeşi zəhmətkeşin zəhmətkeşinin zəhmətkeşlər zəhmətkeşlərdən zəhmətkeşləri zəhmətkeşlərimiz zəhmətkeşlərimizi zəhmətkeşlərimizə zəhmətkeşlərin zəhmətkeşlərində zəhmətkeşlərindən zəhmətkeşlərini zəhmətkeşlərinin zəhmətkeşlərinə zəhmətkeşlərə zəhmətkeşə
+53	3753	inhisar	inhisara inhisarda inhisardan inhisarlar inhisarlara inhisarlardan inhisarları inhisarların inhisarlarına inhisarlarında inhisarlarını inhisarlarının inhisarı inhisarın inhisarına inhisarında inhisarından inhisarını inhisarının
+54	3754	bolluq	bolluqda bolluqdan bolluğa bolluğu bolluğun bolluğuna bolluğunda bolluğundan bolluğunu bolluğunun
+55	3755	gor	gora gordan goru gorum gorumuza gorun goruna gorunda gorunu gorunuz
+56	3756	təcəssüm	təcəssümləri təcəssümlərin təcəssümlərində təcəssümlərindən təcəssümlərinin təcəssümlərə təcəssümü təcəssümün təcəssümündə təcəssümündən təcəssümünü təcəssümünün təcəssümünə təcəssümə
+57	3757	gecə-gündüz	
+58	3758	faşizm	faşizmdə faşizmdən faşizmi faşizmin faşizmindən faşizmini faşizminin faşizminə faşizmə
+59	3759	ağılsız	
+60	3760	yuxusuz	
+61	3761	təhrik	təhrikdə təhrikdən təhriklər təhriklərdən təhrikləri təhriklərini təhriklərinə təhriklərə
+62	3762	deyinmək	deyin deyindi deyinib deyinir deyinirdi deyinirdim deyinirik deyinirlər deyinirsən deyinirəm deyinmiş deyinmişdi deyinmə deyinməlisən deyinməmiş deyinməyə deyinsin deyinsə deyinsələr deyinə deyinə-deyinə deyinəcəkdin deyinən deyinərdi deyinərək
+63	3763	qaşınmaq	qaşın qaşına qaşına-qaşına qaşınan qaşınanda qaşınaraq qaşınma qaşınmadan qaşınmaya qaşınmayan qaşınmır qaşınmırdı qaşınıb qaşının qaşınır qaşınırdım qaşınırdın qaşınırlar qaşınırmış qaşınırsan
+64	3764	hünər	hünərdən hünəri hünərim hünərimdən hünərimizi hünərin hünərindən hünərini hünərinin hünəriniz hünərinizi hünərinə hünərlər hünərlərdən hünərləri hünərlərini hünərlərinə hünərlərə hünərə
+65	3765	gileylənmək	gileylən gileyləndi gileyləndilər gileylənib gileyləniblər gileylənir gileylənirdi gileylənirdik gileylənirdilər gileylənirdin gileylənirik gileylənirlər gileylənirsiniz gileylənirsən gileylənirəm gileylənmir gileylənmirlər gileylənmiş gileylənmişdi gileylənmişdilər gileylənmişdir gileylənmişik gileylənməmişəm gileylənməyib gileylənməyə gileylənməyən gileylənməz gileylənməzdi gileylənməzdilər gileylənə gileylənə-gileylənə gileylənən gileylənəndə gileylənər gileylənərək
+66	3766	immunitet	immunitetdə immunitetdən immuniteti immunitetim immunitetin immunitetindən immunitetini immunitetinin immunitetinizi immunitetlərdən immunitetləri immunitetlərin immunitetlərini immunitetə
+67	3767	sürükləmək	sürüklə sürüklədi sürüklədilər sürükləmir sürükləmisən sürükləmiş sürükləmişdir sürükləmə sürükləməmişdi sürükləməyə sürükləməyək sürükləyib sürükləyiblər sürükləyir sürükləyirdi sürükləyirdilər sürükləyirlər sürükləyirsiniz sürükləyə sürükləyəcək sürükləyən sürükləyəndə sürükləyər sürükləyərək
+68	3768	təsəlli	təsəllidən təsəllilər təsəlliləri təsəllilərimizdən təsəllilərin təsəllilərə təsəllim təsəllimiz təsəllin təsəllini təsəlliniz təsəllisi təsəllisindən təsəllisini təsəllisinə təsəlliyə
+69	3769	kapitalizm	kapitalizmdə kapitalizmdən kapitalizmi kapitalizmin kapitalizmindən kapitalizminin kapitalizminə kapitalizmə
+70	3770	geriləmək	gerilədi gerilədik gerilədikcə gerilədilər geriləmirlər geriləmiş geriləmişdi geriləmişdir geriləmişik geriləmə geriləmədən geriləməsin geriləməyə geriləsə geriləyib geriləyibdir geriləyiblər geriləyir geriləyirdi geriləyirlər geriləyəcək geriləyən geriləyərək
+71	3771	tutuquşu	tutuquşular tutuquşularda tutuquşuların tutuquşularını tutuquşumu tutuquşunda tutuquşunu tutuquşunun tutuquşusu tutuquşusunun tutuquşuya
+72	3772	soğan	soğana soğanda soğandan soğanlar soğanlara soğanları soğanların soğanlarını soğanlarının soğanı soğanın soğanına soğanından soğanını soğanının
+73	3773	sement	sementdə sementdən sementi sementin sementində sementini sementinin sementinə sementlər sementə
+74	3774	kəndir	kəndirdə kəndirdən kəndiri kəndirim kəndirin kəndirini kəndirinin kəndirinə kəndirlər kəndirlərdən kəndirləri kəndirlərin kəndirlərini kəndirə
+75	3775	ixtilaf	ixtilafa ixtilafda ixtilafdan ixtilaflar ixtilaflara ixtilaflardan ixtilafları ixtilafların ixtilaflarına ixtilaflarını ixtilafı ixtilafım ixtilafın ixtilafına ixtilafında ixtilafını ixtilafının
+76	3776	ab-hava	ab-havada ab-havadan ab-havanı ab-havanın ab-havası ab-havasına ab-havasında ab-havasından ab-havasını ab-havasının ab-havaya
+77	3777	qavramaq	qavradı qavradın qavrama qavramadan qavramadıqları qavramalıdır qavramalısan qavramaya qavramaz qavramır qavramıram qavramırıq qavramış qavramışdı qavramışdır qavrasın qavraya qavrayan qavrayaraq qavrayardı qavrayardıq qavrayıb qavrayır qavrayırdı qavrayırdılar qavrayırlar qavrayırıq
+78	3778	əbəs	
+79	3779	nizamlamaq	nizamla nizamladı nizamlama nizamlamalıdır nizamlamalıdırlar nizamlamamışıq nizamlamaya nizamlamırlar nizamlamışam nizamlasa nizamlasın nizamlaya nizamlayacağam nizamlayan nizamlayar nizamlayaraq nizamlayardı nizamlayıb nizamlayın nizamlayır nizamlayıram nizamlayırdı nizamlayırdılar nizamlayırlar
+80	3780	çəpər	çəpərdən çəpəri çəpərimdə çəpərimi çəpərin çəpərindən çəpərini çəpərinin çəpərinə çəpərlər çəpərlərdə çəpərlərdən çəpərləri çəpərlərin çəpərlərinə çəpərə
+81	3781	yapışdırmaq	yapışdır yapışdıra yapışdıra-yapışdıra yapışdıracaq yapışdıran yapışdıraq yapışdırar yapışdıraraq yapışdırardı yapışdırardılar yapışdırarıq yapışdırasınız yapışdırdı yapışdırdılar yapışdırdım yapışdırdıqları yapışdırma yapışdırmalıdır yapışdırmamışam yapışdırmayın yapışdırmısan yapışdırmışdı yapışdırmışdılar yapışdırmışdır yapışdırmışıq yapışdırsalar yapışdırsın yapışdırsınlar yapışdırıb yapışdırıblar yapışdırıbmış yapışdırın yapışdırır yapışdırıram yapışdırırdı yapışdırırdılar yapışdırırdıq yapışdırırlar yapışdırırsan
+82	3782	əyri	
+83	3783	misra	misrada misradan misralar misralara misralarda misralardan misraları misralarım misralarımı misraların misralarına misralarında misralarından misralarını misralarının misranı misranın misrası misrasına misrasında misrasından misrasını misrasının misraya
+84	3784	abunəçi	abunəçidən abunəçilər abunəçilərdən abunəçiləri abunəçilərimiz abunəçilərimizə abunəçilərin abunəçilərindən abunəçilərini abunəçilərinin abunəçilərinə abunəçilərə abunəçini abunəçinin abunəçisi abunəçisini abunəçisinin abunəçisinə abunəçiyə
+85	3785	minnətdar	
+86	3786	münbit	
+87	3787	qınaq	qınaqdan qınaqlar qınaqlara qınaqlardan qınaqları qınaqlarına qınağa qınağı qınağım qınağın qınağına qınağından qınağını qınağının
+88	3788	bağlanış	bağlanışda bağlanışdan bağlanışı bağlanışına bağlanışında bağlanışını
+89	3789	xaraba	xarabada xarabadan xarabalara xarabaları xarabaların xarabalarına xarabalarında xarabalarının xarabamıza xarabana xarabanda xarabanın xarabası xarabasında xarabasını xarabaya
+90	3790	imkansız	
+91	3791	təlaş	təlaşa təlaşdan təlaşlar təlaşları təlaşlarından təlaşlarını təlaşı təlaşımı təlaşın təlaşına təlaşında təlaşından təlaşını
+92	3792	simvolik	
+93	3793	peyvənd	peyvənddən peyvəndi peyvəndin peyvəndindən peyvəndinin peyvəndlər peyvəndlərdən peyvəndləri peyvəndlərin peyvəndlərindən peyvəndlərinin peyvəndlərə peyvəndə
+94	3794	hərarət	hərarətdə hərarətdən hərarəti hərarətin hərarətində hərarətindən hərarətini hərarətinin hərarətinə hərarətlərini hərarətə
+95	3795	əzm	əzmi əzmimi əzmimizdən əzmimizi əzmin əzmində əzmindən əzmini əzminin əzminiz əzminə əzmləri əzmlərini əzmlərinin əzmə əzmənin əzməsi əzməsini əzməsinin əzməsinə əzməyə
+96	3796	kürəkən	kürəkəndən kürəkəni kürəkənim kürəkənimin kürəkənimiz kürəkənimə kürəkənin kürəkənindən kürəkənini kürəkəninin kürəkəninə kürəkənlər kürəkənləri kürəkənlərindən kürəkənlərini kürəkənlərinin kürəkənlərə
+97	3797	sünni	sünnilər sünnilərdə sünnilərdən sünniləri sünnilərin sünnilərinin sünnilərinə sünnilərə sünninin sünnisi sünnisini
+98	3798	maşallah	
+99	3799	ovçuluq	ovçuluqda ovçuluqdan ovçuluğa ovçuluğu ovçuluğun ovçuluğuna ovçuluğunda ovçuluğundan ovçuluğunu ovçuluğunun
+100	3800	onurğa	onurğada onurğadan onurğalar onurğaların onurğam onurğama onurğamda onurğamızı onurğanı onurğanın onurğası onurğasına onurğasında onurğasından onurğasını onurğaya

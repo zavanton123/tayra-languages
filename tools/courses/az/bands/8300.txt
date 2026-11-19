@@ -1,0 +1,100 @@
+1	8201	alış-verişçi	alış-verişçilərdən
+2	8202	aplikat	
+3	8203	atışdırmalıq	
+4	8204	açarçı	
+5	8205	ağırtərpənən	
+6	8206	bacaq	bacağında
+7	8207	bacıqızı	
+8	8208	badamşəkilli	
+9	8209	badaq	badaqlara
+10	8210	badəpərəst	
+11	8211	bakteriologiya	
+12	8212	bakterioloq	
+13	8213	bandaj	
+14	8214	baqajnik	baqajnikindən
+15	8215	bayraqdaşıyan	
+16	8216	başaltı	
+17	8217	başbəzəyi	
+18	8218	boşbeyin	
+19	8219	bucaqölçən	
+20	8220	bülövləmək	bülövlə
+21	8221	bədnal	
+22	8222	cütçülük	
+23	8223	cələsə	cələsəyə
+24	8224	dartılı	
+25	8225	daşka	
+26	8226	dilönü	
+27	8227	duzəx	duzəxi
+28	8228	dölləndirmək	dölləndirirdi
+29	8229	dövlətlənmək	dövlətlənirlər
+30	8230	dırnaqtutan	
+31	8231	dəbiristan	dəbiristanında
+32	8232	elektrometallurgiya	elektrometallurgiyanın
+33	8233	elti	eltilər
+34	8234	farmakoterapiya	
+35	8235	fotolaboratoriya	
+36	8236	fotolitoqrafiya	
+37	8237	fototeleqraf	
+38	8238	gecəquşu	
+39	8239	günya	günyasını
+40	8240	gürcüdilli	
+41	8241	icrakom	icrakomunun
+42	8242	ikicanlı	
+43	8243	istehlakçılıq	istehlakçılığa
+44	8244	kəfgir	
+45	8245	kərt	kərtinə
+46	8246	meteoroqraf	
+47	8247	mübahlıq	
+48	8248	mübtədi	
+49	8249	mürr	
+50	8250	müstəmləkələşdirmək	müstəmləkələşdirmə
+51	8251	mütəradif	
+52	8252	müəssis	
+53	8253	mərkəzsiz	
+54	8254	məğruranə	
+55	8255	nabor	
+56	8256	nalbəndlik	
+57	8257	naxışaçan	
+58	8258	ocaqlıq	
+59	8259	ortadaqaldı	
+60	8260	oxluq	
+61	8261	padoş	padoşlar
+62	8262	papaqatdı	
+63	8263	püstəyi	
+64	8264	qabaqgörən	
+65	8265	qolac	
+66	8266	qoşabuynuz	
+67	8267	qvatemalalı	
+68	8268	qılov	
+69	8269	qırıq-quruq	qırıq-quruqlar
+70	8270	qəhbəlik	
+71	8271	qəşənglik	qəşəngliyi
+72	8272	rəmziləşdirmək	rəmziləşdirir
+73	8273	sataşqan	
+74	8274	sayrı	
+75	8275	sinifkom	sinifkomu
+76	8276	snoubord	
+77	8277	soğança	
+78	8278	spirtölçən	
+79	8279	suvand	
+80	8280	takipçi	
+81	8281	talışdilli	
+82	8282	tatardilli	
+83	8283	türkşünaslıq	türkşünaslığın
+84	8284	təmərküz	təmərküzü
+85	8285	tərbiyəçilik	
+86	8286	təəssüratlı	
+87	8287	vətənpərəst	
+88	8288	xamıt	xamıtın
+89	8289	xavra	
+90	8290	xəmsi	xəmsin
+91	8291	yanıt	
+92	8292	yağışölçən	
+93	8293	yükləniş	
+94	8294	zəhəb	
+95	8295	çarpazlıq	
+96	8296	çörək ağacı	ağacı çörək
+97	8297	çırçır	
+98	8298	çərənçi	
+99	8299	öd kisəsi	kisəsi öd
+100	8300	ürək çatışmazlığı	çatışmazlığı ürək

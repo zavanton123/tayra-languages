@@ -1,0 +1,100 @@
+1	2901	əkmək	ək əkdi əkdik əkdikləri əkdilər əkdim əkib əkiblər əkim əkir əkirdi əkirdilər əkirik əkirlər əkirsən əkmiş əkmişdi əkmişik əkmişlər əkmişəm əkmə əkməkdə əkməkdən əkməyi əkməyib əkməyin əkməyə əksin əksən əkə əkəcək əkəcəyik əkək əkən əkəndə əkər əkərsən əkərək əkəsən
+2	2902	əclaf	əclaflar əclaflara əclaflardan əclafları əclafların əclafı əclafın
+3	2903	çaxır	çaxıra çaxırda çaxırdan çaxırlar çaxırlara çaxırları çaxırı çaxırın çaxırında çaxırını
+4	2904	dirək	dirəkdə dirəkdən dirəklər dirəklərdə dirəklərdən dirəkləri dirəklərin dirəklərində dirəklərindən dirəklərini dirəklərinin dirəklərinə dirəklərə dirəyi dirəyimiz dirəyin dirəyində dirəyindən dirəyini dirəyinin dirəyinə dirəyə
+5	2905	cənazə	cənazədə cənazədən cənazələr cənazələrdə cənazələri cənazələrin cənazələrində cənazələrini cənazələrinin cənazəm cənazəmi cənazəndə cənazəni cənazənin cənazənizi cənazəsi cənazəsində cənazəsini cənazəsinin cənazəsinə cənazəyə
+6	2906	ideoloji	
+7	2907	şahmat	şahmata şahmatda şahmatdan şahmatlar şahmatı şahmatım şahmatımızda şahmatın şahmatının
+8	2908	qabaqcadan	
+9	2909	anons	anonsa anonsda anonsdan anonslar anonslara anonslardan anonsları anonsların anonslarında anonslarından anonslarını anonsu anonsum anonsun anonsuna anonsunda anonsundan anonsunu anonsunun
+10	2910	böyüklük	böyüklükdə böyüklüklərdə böyüklüklərdən böyüklükləri böyüklüklərinə böyüklüyü böyüklüyümüz böyüklüyümüzü böyüklüyün böyüklüyündə böyüklüyündən böyüklüyünü böyüklüyünün böyüklüyünüzün böyüklüyünə böyüklüyə
+11	2911	böyrək	böyrəkdə böyrəkdən böyrəklər böyrəklərdə böyrəklərdən böyrəkləri böyrəklərimi böyrəklərimin böyrəklərimiz böyrəklərimizi böyrəklərin böyrəklərində böyrəklərindən böyrəklərini böyrəklərinin böyrəklərinə böyrəklərə böyrəyi böyrəyim böyrəyimdə böyrəyimi böyrəyimin böyrəyimizi böyrəyimizin böyrəyimə böyrəyin böyrəyində böyrəyindən böyrəyini böyrəyinin böyrəyinizdə böyrəyinizi böyrəyinə böyrəyə
+12	2912	sütun	sütuna sütunda sütundan sütunlar sütunlara sütunlarda sütunlardan sütunları sütunların sütunlarına sütunlarında sütunlarından sütunlarını sütunlarının sütunu sütunun sütununa sütununda sütunundan sütununu sütununun
+13	2913	səhm	səhmi səhmim səhmin səhmindən səhmini səhminin səhminə səhmlər səhmlərdə səhmlərdən səhmləri səhmlərimiz səhmlərimizə səhmlərin səhmlərində səhmlərindən səhmlərini səhmlərinin səhmlərinə səhmlərə səhmə
+14	2914	qəhvəyi	
+15	2915	tacir	tacirdən taciri tacirimiz tacirimizin tacirin tacirini tacirinin tacirinə tacirlər tacirlərdən tacirləri tacirlərim tacirlərin tacirlərindən tacirlərini tacirlərinin tacirlərinə tacirlərə tacirə
+16	2916	tənha	
+17	2917	himn	himndə himndən himni himnimiz himnimizdə himnimizi himnimizin himnimizə himnin himnində himnindən himnini himninin himninə himnlər himnlərdə himnlərdən himnləri himnlərin himnlərindən himnlərini himnlərinin himnlərinə himnə
+18	2918	elita	elitada elitadan elitalar elitalara elitaları elitaların elitalarına elitalarından elitalarını elitalarının elitamız elitamızın elitanı elitanın elitası elitasına elitasında elitasından elitasını elitasının elitaya
+19	2919	doymaq	doy doya doya-doya doyacaq doyan doyanda doyaraq doyardı doyarlar doyasan doydular doydum doyma doymadan doymadım doymadıq doymamış doymayacaqsan doymayan doymayıb doymaz doymazdı doymazdılar doymazdıq doymur doymurdu doymurlar doymursan doymusan doymuş doymuşdu doymuşuq doysa doysam doysun doyub doyublar doyum doyur
+20	2920	həvəskar	həvəskara həvəskarlar həvəskarlara həvəskarlardan həvəskarları həvəskarlarımızı həvəskarların həvəskarlarına həvəskarlarında həvəskarlarından həvəskarlarını həvəskarlarının həvəskarı həvəskarın həvəskarına həvəskarını həvəskarının
+21	2921	tavan	tavana tavanda tavandan tavanlar tavanlara tavanlarda tavanlardan tavanları tavanların tavanlarının tavanı tavanın tavanına tavanında tavanından tavanını tavanının
+22	2922	ciyər	ciyərdə ciyəri ciyərim ciyərimdə ciyərimi ciyərimizi ciyərimizə ciyərimə ciyərin ciyərində ciyərindən ciyərini ciyərinin ciyərinə ciyərlər ciyərlərdə ciyərlərdən ciyərləri ciyərlərim ciyərlərimiz ciyərlərimizdə ciyərlərimizi ciyərlərimizə ciyərlərimə ciyərlərin ciyərlərində ciyərlərini ciyərlərinin ciyərlərinizi ciyərlərinə ciyərlərə ciyərə
+23	2923	düzənlik	düzənlikdə düzənlikdən düzənliklər düzənliklərdə düzənliklərdən düzənlikləri düzənliklərin düzənliklərində düzənliklərindən düzənliklərini düzənliklərinin düzənliklərinə düzənliklərə düzənliyi düzənliyin düzənliyində düzənliyindən düzənliyini düzənliyinin düzənliyinə düzənliyə
+24	2924	zəiflik	zəiflikdə zəiflikdən zəifliklər zəifliklərdən zəiflikləri zəifliklərimizi zəifliklərin zəifliklərindən zəifliklərini zəifliklərinin zəifliklərinə zəifliklərə zəifliyi zəifliyimiz zəifliyimizdən zəifliyimə zəifliyin zəifliyində zəifliyindən zəifliyini zəifliyinin zəifliyinizi zəifliyinizin zəifliyinə zəifliyə
+25	2925	davamçı	davamçılar davamçılardan davamçıları davamçılarım davamçılarımız davamçılarına davamçılarından davamçılarını davamçılarının davamçılarınız davamçım davamçın davamçını davamçının davamçısı davamçısına davamçısını davamçısının
+26	2926	sorğulamaq	sorğuladı sorğulama sorğulamadan sorğulamadı sorğulamalıyıq sorğulamasın sorğulamayan sorğulamazlar sorğulamısan sorğulamışdır sorğulaya sorğulayacaq sorğulayan sorğulayanda sorğulayaraq sorğulayasınız sorğulayıb sorğulayır sorğulayırdılar sorğulayırdım sorğulayırlar sorğulayırıq
+27	2927	kompozisiya	kompozisiyada kompozisiyadan kompozisiyalar kompozisiyalara kompozisiyalarda kompozisiyalardan kompozisiyaları kompozisiyaların kompozisiyalarına kompozisiyalarında kompozisiyalarından kompozisiyalarını kompozisiyalarının kompozisiyamız kompozisiyanı kompozisiyanın kompozisiyası kompozisiyasına kompozisiyasında kompozisiyasından kompozisiyasını kompozisiyasının kompozisiyaya
+28	2928	mindirmək	mindir mindirdi mindirdikləri mindirdilər mindirdim mindirib mindiriblər mindirim mindirin mindirir mindirirdi mindirirdilər mindirirlər mindirirsiniz mindirirsən mindirirəm mindirmirdi mindirmişdi mindirmişdir mindirməmək mindirməyiblər mindirməyin mindirməyə mindirməyəcək mindirsin mindirsinlər mindirsə mindirsəm mindirə mindirəcək mindirəcəkdin mindirəcəklər mindirəcəksən mindirək mindirən mindirəndə mindirər mindirərkən mindirərək
+29	2929	sürünmək	sürün süründü süründülər süründüm sürünmürdü sürünmürlər sürünmüşsünüz sürünmüşük sürünmə sürünmədən sürünməliyəm sürünməməli sürünməsinlər sürünməyə sürünməyərək sürünməyəsiniz sürünməz sürünsün sürünüb sürünüm sürünün sürünür sürünürdü sürünürlər sürünürük sürünürəm sürünə sürünə-sürünə sürünəcək sürünəcəyik sürünən sürünənlər sürünənlərdə sürünənlərdən sürünənləri sürünənlərin sürünənlərə sürünər sürünərək
+30	2930	mənşə	mənşədən mənşələr mənşələrdən mənşələri mənşələrini mənşələrinin mənşələrinə mənşəyi mənşəyim mənşəyimiz mənşəyimizin mənşəyin mənşəyində mənşəyindən mənşəyini mənşəyinin mənşəyinə mənşəyə
+31	2931	kötük	kötükcələri kötükcəsi kötükcəsinin kötükdə kötükdən kötüklər kötüklərdə kötükləri kötüklərimizin kötüklərin kötüklərində kötüklərini kötüklərinin kötüklərinə kötüyü kötüyün kötüyündə kötüyündən kötüyünü kötüyünün kötüyünə kötüyə
+32	2932	qaqaş	qaqaşa qaqaşlar qaqaşlara qaqaşın
+33	2933	savayı	
+34	2934	yarımfinal	yarımfinala yarımfinalda yarımfinaldan yarımfinallar yarımfinallara yarımfinallarda yarımfinallardan yarımfinalları yarımfinalların yarımfinallarına yarımfinallarını yarımfinalı yarımfinalın yarımfinalına yarımfinalında yarımfinalından yarımfinalını yarımfinalının
+35	2935	xammal	xammala xammalda xammaldan xammallar xammallardan xammalları xammalların xammallarından xammallarının xammalı xammalın xammalına xammalında xammalından xammalını xammalının
+36	2936	mülahizə	mülahizədə mülahizədən mülahizələr mülahizələrdə mülahizələrdən mülahizələri mülahizələrim mülahizələrimi mülahizələrimiz mülahizələrimizi mülahizələrimə mülahizələrin mülahizələrində mülahizələrindən mülahizələrini mülahizələrinin mülahizələrinə mülahizələrə mülahizəmiz mülahizəni mülahizənin mülahizəniz mülahizəsi mülahizəsindən mülahizəsini mülahizəsinin mülahizəsinə mülahizəyə
+37	2937	padşah	padşaha padşahdan padşahlar padşahlara padşahlarda padşahlardan padşahları padşahlarımız padşahların padşahlarına padşahlarında padşahlarından padşahlarını padşahlarının padşahı padşahımız padşahımızı padşahımızın padşahın padşahına padşahından padşahını padşahının
+38	2938	quyruq	quyruqda quyruqdan quyruqlar quyruqlara quyruqlarda quyruqları quyruqların quyruqlarında quyruqlarını quyruqlarının quyruğa quyruğu quyruğum quyruğumda quyruğumu quyruğumun quyruğumuzu quyruğun quyruğuna quyruğunda quyruğundan quyruğunu quyruğunun
+39	2939	dondurmaq	dondur dondura donduracaq donduracaqlar donduran donduraraq dondurarıq dondurdu dondurdular dondurdum dondurduq dondurduqları dondurmadan dondurmaya dondurmayacaq dondurmuş dondurmuşdu dondurmuşdur dondurmuşuq dondursa dondursaq dondursun dondurub dondurublar dondurun dondurur dondururam dondururlar dondururuq
+40	2940	tar	tara tarda tardan tarlar tarlardan tarları tarlarını tarlarının tarı tarım tarıma tarımı tarın tarında tarından tarını tarının
+41	2941	asfalt	asfalta asfaltda asfaltdan asfaltlar asfaltların asfaltı asfaltımızın asfaltın asfaltından asfaltını asfaltının
+42	2942	tərsinə	
+43	2943	tac	taca tacda tacdan taclar taclara taclarda taclardan tacları tacların taclarından taclarını tacı tacımı tacımızın tacın tacına tacında tacından tacını tacının
+44	2944	infeksiya	infeksiyadan infeksiyalar infeksiyalara infeksiyalarda infeksiyalardan infeksiyaları infeksiyaların infeksiyalarına infeksiyalarında infeksiyalarından infeksiyalarını infeksiyalarının infeksiyanı infeksiyanın infeksiyası infeksiyasına infeksiyasında infeksiyasından infeksiyasını infeksiyasının infeksiyaya
+45	2945	ianə	ianələr ianələrdən ianələri ianələrin ianələrindən ianələrini ianələrinin ianələrinə ianələrə ianəni ianənin ianəsi ianəsinin ianəsinə ianəyə
+46	2946	minik	minikdə minikdən miniklər minikləri miniyi miniyin miniyindən miniyini miniyə
+47	2947	tüpürmək	tüpür tüpürdü tüpürdülər tüpürdüm tüpürmüş tüpürmüşdü tüpürmüşdülər tüpürmüşəm tüpürmə tüpürməsin tüpürməyə tüpürməz tüpürsün tüpürsən tüpürüb tüpürüblər tüpürübmüş tüpürüm tüpürün tüpürür tüpürürdü tüpürürdülər tüpürürlər tüpürürsən tüpürürəm tüpürə tüpürəcək tüpürəcəklər tüpürəcəksən tüpürəcəyik tüpürən tüpürər tüpürərək tüpürəsən
+48	2948	düşmənçilik	düşmənçilikdə düşmənçilikdən düşmənçiliklər düşmənçilikləri düşmənçiliklərimizi düşmənçiliklərini düşmənçiliklərinə düşmənçiliyi düşmənçiliyim düşmənçiliyimiz düşmənçiliyin düşmənçiliyində düşmənçiliyindən düşmənçiliyini düşmənçiliyinin düşmənçiliyinə düşmənçiliyə
+49	2949	şer	şerdə şerdən şeri şerim şerimi şerimin şerimizdə şerimizi şerimizin şerimizə şerimə şerin şerində şerindən şerini şerinin şerinə şerlər şerlərdə şerlərdən şerləri şerlərim şerlərimdə şerlərimizin şerlərin şerlərində şerlərindən şerlərini şerlərinin şerlərinizi şerlərinə şerlərə şerə
+50	2950	əfsanəvi	
+51	2951	fayl	fayla faylda fayldan fayllar fayllara fayllardan faylları fayllarımızda faylların fayllarına fayllarında fayllarından fayllarını fayllarının fayllarınıza fayllarınızı faylı faylın faylına faylında faylından faylını faylının
+52	2952	səbət	səbətdə səbətdən səbəti səbətin səbətində səbətindən səbətini səbətinin səbətinə səbətlər səbətlərdə səbətlərdən səbətləri səbətlərin səbətlərindən səbətlərini səbətlərinin səbətlərə səbətə
+53	2953	betər	
+54	2954	qədir	qədirdə qədirdən qədirlərini qədri qədrimi qədrimiz qədrin qədrini qədrinin qədrinizi qədrə
+55	2955	quraşdırmaq	quraşdır quraşdıra quraşdıracaq quraşdıracaqlar quraşdıracağıq quraşdıran quraşdıranda quraşdıraq quraşdırar quraşdıraraq quraşdırardım quraşdırarkən quraşdırarlar quraşdırdı quraşdırdılar quraşdırdıq quraşdırdıqca quraşdırma quraşdırmadan quraşdırmalıdır quraşdırmalıyıq quraşdırmamışdım quraşdırmazdılar quraşdırmır quraşdırmıram quraşdırmırlar quraşdırmısınız quraşdırmış quraşdırmışdı quraşdırmışdılar quraşdırmışdır quraşdırmışıq quraşdırıb quraşdırıbdır quraşdırıblar quraşdırıbmış quraşdırır quraşdırırdılar quraşdırırlar
+56	2956	mənalı	
+57	2957	sürətləndirmək	sürətləndirdi sürətləndirdikcə sürətləndirdikləri sürətləndirdilər sürətləndirdiniz sürətləndirib sürətləndiribdir sürətləndiriblər sürətləndirin sürətləndirir sürətləndirirdi sürətləndirirdilər sürətləndirirlər sürətləndirirmiş sürətləndirmiş sürətləndirmişdi sürətləndirmişdir sürətləndirmə sürətləndirməlidir sürətləndirməlidirlər sürətləndirməliyik sürətləndirməsə sürətləndirməyin sürətləndirməyə sürətləndirməyən sürətləndirsin sürətləndirsinlər sürətləndirsə sürətləndirə sürətləndirəcək sürətləndirək sürətləndirən sürətləndirər sürətləndirərdi sürətləndirərək
+58	2958	kürü	kürüdən kürülər kürülərdən kürüləri kürülərin kürülərini kürülərinin kürüm kürümüzdən kürün kürünü kürünün kürüsü kürüsündə kürüsündən kürüsünü kürüsünün kürüsünə kürüyə
+59	2959	diyar	diyara diyarda diyardan diyarlar diyarlara diyarlarda diyarlardan diyarları diyarlarımıza diyarlarına diyarlarında diyarlarından diyarlarını diyarlarının diyarı diyarım diyarımı diyarımızda diyarımızın diyarın diyarına diyarında diyarından diyarını diyarının
+60	2960	kimisi	kimilər kimisini
+61	2961	müsadirə	müsadirədən müsadirələr müsadirələrdə müsadirələri müsadirənin müsadirəsi müsadirəsindən müsadirəsini müsadirəsinin müsadirəsinə müsadirəyə
+62	2962	toxunulmazlıq	toxunulmazlıqdan toxunulmazlıqları toxunulmazlıqlarından toxunulmazlığa toxunulmazlığı toxunulmazlığım toxunulmazlığıma toxunulmazlığımız toxunulmazlığın toxunulmazlığına toxunulmazlığından toxunulmazlığını toxunulmazlığının
+63	2963	meyil	meyili meyilin meyilini meyilinin meyillər meyillərdən meyilləri meyillərin meyillərində meyillərindən meyillərini meyillərinin meyillərinə meyillərə meyilə
+64	2964	ispanca	
+65	2965	mühazirə	mühazirədə mühazirədən mühazirələr mühazirələrdə mühazirələrdən mühazirələri mühazirələrimdə mühazirələrimdən mühazirələrin mühazirələrində mühazirələrindən mühazirələrini mühazirələrinin mühazirələrinə mühazirələrə mühazirəm mühazirəmizdə mühazirəni mühazirənin mühazirəsi mühazirəsində mühazirəsindən mühazirəsini mühazirəsinin mühazirəyə
+66	2966	süqut	süquta süqutda süqutdan süqutlarını süqutu süqutun süqutuna süqutunda süqutundan süqutunu süqutunun
+67	2967	kürsü	kürsüdə kürsüdən kürsülər kürsülərdə kürsülərdən kürsüləri kürsülərin kürsülərində kürsülərindən kürsülərini kürsülərinə kürsülərə kürsün kürsünü kürsünün kürsüsü kürsüsündə kürsüsündən kürsüsünü kürsüsünün kürsüsünə kürsüyə
+68	2968	faciəvi	
+69	2969	şiə	şiələr şiələrdə şiələrdən şiələri şiələrim şiələrimiz şiələrin şiələrində şiələrindən şiələrini şiələrinin şiələrinə şiələrə şiən şiəni şiənin şiəsi
+70	2970	hafiz	hafizdən hafizi hafizin hafizlər hafizlərdən hafizləri hafizlərin hafizlərinin hafizlərinə hafizlərə hafizə
+71	2971	rəmzi	rəmzini
+72	2972	sonluq	sonluqda sonluqdan sonluqlar sonluqlara sonluqlardan sonluqları sonluqların sonluqlarına sonluqlarında sonluqlarından sonluqlarını sonluqlarının sonluğa sonluğu sonluğumu sonluğun sonluğuna sonluğunda sonluğundan sonluğunu sonluğunun
+73	2973	diktatura	diktaturada diktaturadan diktaturalar diktaturalara diktaturalarda diktaturalardan diktaturaları diktaturaların diktaturalarına diktaturalarının diktaturanı diktaturanın diktaturası diktaturasına diktaturasında diktaturasından diktaturasını diktaturasının diktaturaya
+74	2974	cırmaq	cır cıra cıracaq cıracaqdı cıran cıranda cıraq cırar cıraram cıraraq cırardı cırardılar cırarlar cırarıq cırdı cırdılar cırdım cırdın cırma cırmağı cırmırsan cırmışdı cırmışdılar cırmışdır cırsa cırsalar cırsan cırıb cırıblar cırır cırırdı cırırdılar cırırlar
+75	2975	incəlik	incəlikdə incəlikdən incəliklər incəliklərdə incəliklərdən incəlikləri incəliklərin incəliklərindən incəliklərini incəliklərinin incəliklərinə incəliklərə incəliyi incəliyin incəliyindən incəliyini incəliyinin incəliyiniz incəliyinə incəliyə
+76	2976	evdəki	evdəkilər evdəkilərdən evdəkiləri evdəkilərin evdəkiləriniz evdəkilərə
+77	2977	ixtira	ixtirada ixtiradan ixtiralar ixtiralara ixtiralarda ixtiralardan ixtiraları ixtiralarımdan ixtiraların ixtiralarına ixtiralarında ixtiralarından ixtiralarını ixtiralarının ixtiralarınız ixtiram ixtirama ixtiramız ixtiranı ixtiranın ixtiranız ixtirası ixtirasına ixtirasında ixtirasından ixtirasını ixtirasının ixtiraya
+78	2978	dişləmək	dişlə dişlədi dişlədilər dişlədim dişlədin dişləmir dişləmirik dişləmisən dişləmiş dişləmişdi dişləmişdim dişləmə dişləməməli dişləmərəm dişləməyə dişləməz dişləsə dişləsən dişləsəydi dişləyib dişləyin dişləyir dişləyirdilər dişləyirlər dişləyə dişləyəcək dişləyəcəklər dişləyək dişləyən dişləyəndə dişləyərkən dişləyərək
+79	2979	monqol	monqoldan monqollar monqollara monqollarda monqollardan monqolları monqolların monqollarında monqollarını monqollarının monqolun
+80	2980	yiyə	yeyə yiyələri yiyələrində yiyələrindən yiyələrini yiyələrinin yiyələrinə yiyəm yiyən yiyəsi yiyəsindən yiyəsini yiyəsinin yiyəsinə
+81	2981	mətləb	mətalibin mətləbdən mətləbi mətləbim mətləbimdə mətləbimi mətləbimizə mətləbin mətləbini mətləbiniz mətləblər mətləblərdən mətləbləri mətləblərimizi mətləblərin mətləblərindən mətləblərini mətləblərə mətləbə
+82	2982	turun	turuna turunda turundan turunu turunun
+83	2983	çağdaş	çağdaşlar çağdaşları çağdaşlarına çağdaşlarından çağdaşlarını çağdaşlarının çağdaşı çağdaşımız çağdaşımızın çağdaşın
+84	2984	döyüşmək	döyüşub
+85	2985	ölçülü	
+86	2986	zərərli	
+87	2987	ehtiyatla	
+88	2988	inşallah	
+89	2989	sui-istifadə	sui-istifadədə sui-istifadədən sui-istifadələr sui-istifadələrə sui-istifadəni sui-istifadənin sui-istifadəsi sui-istifadəsini sui-istifadəsinə sui-istifadəyə
+90	2990	diriltmək	dirildib dirildim dirildir dirildirlər dirildirəm dirildə dirildəcək dirildəcəyik dirildəcəyəm dirildən dirildəndə dirildərsən dirildərək dirildərəm dirilt diriltdi diriltdilər diriltdin diriltmişdilər diriltmişdir diriltmə diriltməlidir diriltməliyik diriltməyin diriltməyə diriltsin diriltsinlər diriltsə
+91	2991	təmizlənmə	təmizlənmədə təmizlənmədən təmizlənmələr təmizlənmələrinə təmizlənməmə təmizlənməni təmizlənmənin təmizlənməsi təmizlənməsində təmizlənməsindən təmizlənməsini təmizlənməsinin təmizlənməsinə təmizlənməyə
+92	2992	güvə	güvədən güvələr güvələri güvələrin güvələrinin güvələrinə güvən güvəndə güvəni güvənin güvənə güvəsi güvəsinin güvəyə
+93	2993	ucadan	
+94	2994	sükut	sükuta sükutda sükutdan sükutlara sükutları sükutu sükutum sükutun sükutuna sükutunda sükutundan sükutunu sükutunun
+95	2995	teleqram	teleqrama teleqramda teleqramdan teleqramlar teleqramlara teleqramlarda teleqramlardan teleqramları teleqramlarımı teleqramların teleqramlarına teleqramlarında teleqramlarından teleqramlarını teleqramlarının teleqramı teleqramım teleqramın teleqramına teleqramında teleqramından teleqramını teleqramının
+96	2996	paxla	paxlada paxladan paxlalar paxlaları paxlaların paxlalarına paxlalarını paxlalarının paxlam paxlanı paxlanın paxlası paxlasında paxlasından paxlasını paxlasının paxlaya
+97	2997	mahir	
+98	2998	bəraət	bəraətdə bəraətdən bəraəti bəraətimi bəraətimizə bəraətin bəraətindən bəraətini bəraətinə bəraətləri bəraətə
+99	2999	reportyor	reportyora reportyorlar reportyorlara reportyorlardan reportyorları reportyorlarımız reportyorlarımızın reportyorların reportyorlarına reportyorlarından reportyorlarını reportyorlarının reportyoru reportyorumuz reportyorumuza reportyorumuzdan reportyorumuzu reportyorumuzun reportyorun reportyoruna reportyorunun
+100	3000	ziyarətçi	ziyarətçilər ziyarətçilərdə ziyarətçilərdən ziyarətçiləri ziyarətçilərimizin ziyarətçilərin ziyarətçilərində ziyarətçilərini ziyarətçilərinin ziyarətçilərinə ziyarətçilərə ziyarətçim ziyarətçimiz ziyarətçin ziyarətçini ziyarətçinin ziyarətçisi ziyarətçisini ziyarətçisinin ziyarətçisinə ziyarətçiyə

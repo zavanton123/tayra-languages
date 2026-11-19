@@ -1,0 +1,100 @@
+1	6801	yavaşımaq	yavaşıdı yavaşıma yavaşıyacaq yavaşıyan yavaşıyıb yavaşıyır
+2	6802	yoğurt	yoğurta yoğurtlarda yoğurtu yoğurtun
+3	6803	bivec	
+4	6804	haralı	
+5	6805	yekəqarın	
+6	6806	darısqallıq	darısqallığa darısqallığından
+7	6807	nevrologiya	nevrologiyanın
+8	6808	silahlı qüvvələr	qüvvələr silahlı
+9	6809	spermatozoid	spermatozoidin spermatozoidlər spermatozoidlərdə spermatozoidləri spermatozoidlərin
+10	6810	qada	qadada qadanı
+11	6811	çövkən	çövkəndən çövkəni çövkənin
+12	6812	xüms	xümsdə xümsü xümsün xümsünü
+13	6813	dürr	dürrü dürrə
+14	6814	məhəccər	məhəccəri məhəccərlər
+15	6815	bazu	bazular bazularının bazum bazunun bazusu bazusunun
+16	6816	absurdluq	absurdluğu absurdluğun absurdluğuna absurdluğunu absurdluğunun
+17	6817	qaragilə	qaragilədə qaragilədən qaragilənin
+18	6818	layihəçi	layihəçilər layihəçiləri layihəçilərin layihəçinin layihəçisi layihəçisinin
+19	6819	zəhmətkeşlik	zəhmətkeşlikləri zəhmətkeşliyi zəhmətkeşliyim zəhmətkeşliyini
+20	6820	badamcıq	badamcıqlar badamcıqlarda badamcıqları badamcıqların badamcıqlarına badamcıqlarında badamcıqlarını badamcıqlarının badamcığa
+21	6821	qab-qaşıq	qab-qaşıqdan qab-qaşıqlar qab-qaşığı qab-qaşığını
+22	6822	usandırmaq	usandıracaqlar usandıran usandırdı usandırdılar usandırmamaq usandırmır
+23	6823	almandilli	almandillilərin
+24	6824	tərbiyələnmək	tərbiyələnib tərbiyələnmiş tərbiyələnmişdir tərbiyələnmədikləri tərbiyələnə tərbiyələnəcək tərbiyələnən
+25	6825	yaşıllaşmaq	yaşıllaşa yaşıllaşan yaşıllaşdı yaşıllaşma yaşıllaşmayacaq yaşıllaşmış yaşıllaşıb yaşıllaşır
+26	6826	düşbərə	düşbərəni
+27	6827	ziyil	ziyili ziyilin ziyilinin ziyillər ziyillərdə ziyilləri ziyillərinə ziyillərə ziyilə
+28	6828	qumaş	qumaşa qumaşdan qumaşlar qumaşları qumaşı qumaşın qumaşına qumaşını qumaşının
+29	6829	binaən	
+30	6830	dikbaş	
+31	6831	farmakologiya	farmakologiyada farmakologiyanı farmakologiyanın farmakologiyaya
+32	6832	şillələmək	şillələdi şillələdilər şillələməliydilər şillələməsək şillələyib
+33	6833	basıb-bağlamaq	basıb-bağlamışdı basıb-bağlayacaq basıb-bağlayan basıb-bağlayarlar basıb-bağlayarsınız basıb-bağlayır basıb-bağlayırlar
+34	6834	oturub-durub	
+35	6835	zakaz	zakazı
+36	6836	rədif	rədifdə rədifdən rədifi rədiflər rədiflərinə rədiflərə rədifə
+37	6837	türkəçarə	türkəçarələr
+38	6838	sancaqlamaq	sancaqla sancaqlayıb sancaqlayıbmış
+39	6839	mənasızlıq	mənasızlığı
+40	6840	arayıb-axtarmaq	arayıb-axtaran arayıb-axtarmadın arayıb-axtarmışlar arayıb-axtarsanız arayıb-axtarıb arayıb-axtarıblar arayıb-axtarın arayıb-axtarır
+41	6841	səbat	səbata səbatı
+42	6842	qaraşın	
+43	6843	məsləhətli	
+44	6844	pək	
+45	6845	beynəlmiləlçi	
+46	6846	razyana	razyanadan razyananın
+47	6847	ağça	axça ağçaya
+48	6848	kəsmik	kəsmikdən kəsmiklərdə kəsmiyi kəsmiyin
+49	6849	yonqar	yonqara yonqardan yonqarlar yonqarları yonqarlarını yonqarlarının yonqarı yonqarın
+50	6850	yalquzaq	yalquzağa
+51	6851	əş	
+52	6852	nahamar	
+53	6853	peyc	
+54	6854	torna	tornalar
+55	6855	müqtədir	
+56	6856	hal-hazır	hal-hazıra hal-hazırı
+57	6857	ellin	ellini ellinlər
+58	6858	ana dili	ana dili
+59	6859	yengəc	yengəci yengəcin yengəclər yengəcləri yengəclərin yengəclərinə yengəcə
+60	6860	arvadbaz	arvadbazın
+61	6861	santexnik	santexnikin santexnikini santexniklərin
+62	6862	qaib	
+63	6863	süryani	süryanilər süryaniləri
+64	6864	şol	
+65	6865	qayka	qaykaları qaykanı
+66	6866	yarpız	yarpıza yarpızdan yarpızı
+67	6867	kirəc	kirəcdən kirəcin kirəcindən kirəclər
+68	6868	ibadətxana	ibadətxanada ibadətxanalar ibadətxanaları ibadətxanalarına ibadətxananın ibadətxanası ibadətxanaya
+69	6869	çeşmək	çeşməklər çeşməyi çeşməyini çeşməyə
+70	6870	sarıkök	sarıkökdə sarıkökü sarıkökün
+71	6871	babasil	babasildə babasildən babasilin
+72	6872	buzluq	buzluqda buzluqlardan buzluqların buzluğunda
+73	6873	birhüceyrəli	
+74	6874	turşumaq	turşuma turşumuş turşusa turşusun turşuya turşuyar turşuyub turşuyur turşuyurlar
+75	6875	nakişi	nakişimi nakişini
+76	6876	patrondaş	patrondaşlarını patrondaşımız patrondaşımızı patrondaşın patrondaşını
+77	6877	naçar	
+78	6878	söhbətcil	
+79	6879	fərş	fərşi fərşlərə
+80	6880	xəyalpərəst	xəyalpərəstin xəyalpərəstlər xəyalpərəstlərin
+81	6881	ünsiyyətcil	
+82	6882	xəşil	
+83	6883	ədə	
+84	6884	cingilti	cingiltinin cingiltisi
+85	6885	islamşünas	islamşünaslar islamşünaslara islamşünaslardan islamşünası
+86	6886	qatışmaq	qatışaraq qatışma qatışmamışdı qatışmış qatışmışdı qatışmışdır qatışsın qatışıb qatışır
+87	6887	otbiçən	otbiçənlər otbiçənlərdə otbiçənlərin otbiçənə
+88	6888	sabii	sabiilər
+89	6889	iybilmə	
+90	6890	cavanlaşdırmaq	cavanlaşdıran cavanlaşdırdı cavanlaşdırıb cavanlaşdırır
+91	6891	kiriş	kirişi kirişini kirişinin kirişinə kirişləri kirişlərə
+92	6892	ürəkvari	
+93	6893	yorğa	yorğana yorğandan yorğanı yorğanın yorğası
+94	6894	dəyiş-düyüş	dəyiş-düyüşlər dəyiş-düyüşü dəyiş-düyüşün dəyiş-düyüşünə
+95	6895	vızıldamaq	vızıldaya vızıldaya-vızıldaya vızıldayan vızıldayıb vızıldayırdı
+96	6896	didar	didarın
+97	6897	naxoşluq	naxoşluqdan naxoşluğu naxoşluğum naxoşluğundan
+98	6898	qanacaqlı	
+99	6899	vız	
+100	6900	düymək	düymədən düyməyə düyüm düyür düyürlər düyə-düyə düyələr düyən düyər düyərlər düyəsən

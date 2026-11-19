@@ -1,0 +1,100 @@
+1	4801	zat	zata zatdan zatlar zatlara zatlardan zatların zatı zatın zatına zatında zatından zatını zatının
+2	4802	təcrübəsiz	
+3	4803	gecələmək	gecələdi gecələdik gecələdikləri gecələdilər gecələmirik gecələmiş gecələmişdi gecələmişdir gecələmə gecələməlidir gecələməyin gecələməyə gecələyib gecələyir gecələyirdi gecələyirdilər gecələyirdim gecələyirik gecələyirlər gecələyirmiş gecələyə gecələyəcək gecələyəcəklər gecələyək gecələyən gecələyəndə gecələyər gecələyərkən gecələyərək
+4	4804	proqramlaşdırma	proqramlaşdırmada proqramlaşdırmadan proqramlaşdırmanı proqramlaşdırmanın proqramlaşdırması proqramlaşdırmasında proqramlaşdırmasını proqramlaşdırmasının proqramlaşdırmaya
+5	4805	bunca	
+6	4806	səcdə	səcdədə səcdədən səcdələr səcdələri səcdələrin səcdən səcdəni səcdənin səcdəsi səcdəsindən səcdəsini səcdəsinin səcdəsinə səcdəyə
+7	4807	səmərəsiz	
+8	4808	həndəsə	həndəsədə həndəsədən həndəsələrdə həndəsələrdən həndəsələri həndəsəni həndəsənin həndəsəsi həndəsəsində həndəsəsindən həndəsəsini həndəsəsinin həndəsəsinə həndəsəyə
+9	4809	səs-küylü	
+10	4810	yalqız	
+11	4811	mərifət	mərifətdə mərifətdən mərifəti mərifətimdən mərifətimiz mərifətin mərifətindən mərifətini mərifətinin mərifətinə mərifətlər mərifətləri mərifətə
+12	4812	alovlu	
+13	4813	keçəl	
+14	4814	piy	piydə piydən piyi piyin piyində piyindən piyini piyinin piyinə piylər piyləri piylərin piylərində piylərini piylərə piyə
+15	4815	kanadalı	kanadalılar kanadalılara kanadalılarda kanadalıları kanadalıların kanadalının kanadalıya
+16	4816	bulamaq	bula buladı buladılar buladım bulama bulamadı bulamadım bulamış bulamışdı bulamışdılar bulamışdır bulasa bulasan bulaya bulaya-bulaya bulayacaqdılar bulayacağam bulayalar bulayan bulayanda bulayar bulayaraq bulayardı bulayıb bulayın bulayır bulayıram bulayırdı bulayırdılar bulayırlar bulayırsan
+17	4817	cansıxıcı	
+18	4818	sad	sada sadda saddan sadın
+19	4819	ruhlanmaq	ruhlan ruhlanan ruhlanaraq ruhlandı ruhlandılar ruhlandım ruhlandıqca ruhlanmadım ruhlanmış ruhlanmışdı ruhlanmışdılar ruhlansa ruhlanıb ruhlanır ruhlanırlar ruhlanırıq
+20	4820	addımbaşı	
+21	4821	qeyri-bərabər	
+22	4822	ilahiyyat	ilahiyyata ilahiyyatda ilahiyyatdan ilahiyyatları ilahiyyatı ilahiyyatın ilahiyyatına ilahiyyatında ilahiyyatından ilahiyyatını ilahiyyatının
+23	4823	şux	
+24	4824	iştaha	iştahalara iştahaları iştahalarının iştaham iştahan iştahanı iştahanın iştahanız iştahası iştahasına iştahasını iştahasının
+25	4825	doğu	doğuda doğudan doğuma doğumda doğumdan doğumu doğumun doğun doğunu doğunun doğusu doğusuna doğusunda doğuya
+26	4826	zər	zərdə zərdən zəri zərimə zərin zərində zərindən zərini zərinə zərləri zərlərin zərlərinin zərə
+27	4827	sərrast	
+28	4828	töhmət	töhməti töhmətlər
+29	4829	falçı	falçıdan falçılar falçılara falçılardan falçıları falçılarımıza falçıların falçım falçının falçısı falçısının falçıya
+30	4830	dözümsüzlük	dözümsüzlükdə dözümsüzlükdən dözümsüzlüyü dözümsüzlüyün dözümsüzlüyündən dözümsüzlüyünü dözümsüzlüyünüzü dözümsüzlüyə
+31	4831	şillə	şillələri şilləni şilləsi şilləyə
+32	4832	qeyrətli	
+33	4833	seyrək	
+34	4834	əvəzlik	əvəzlikdən əvəzliklər əvəzliklərdən əvəzlikləri əvəzliklərin əvəzliklərindən əvəzliklərini əvəzliklərinin əvəzliklərə əvəzliyi əvəzliyin əvəzliyindən əvəzliyini əvəzliyinin əvəzliyinə
+35	4835	mücərrəd	
+36	4836	mürtəce	
+37	4837	dərzi	dərzilər dərzilərdə dərzilərdən dərziləri dərzilərin dərzilərə dərzimdən dərzimiz dərzin dərzini dərzinin dərzisi dərzisini dərziyə
+38	4838	bədxah	bədxahlar bədxahlara bədxahları bədxahlarım bədxahlarımız bədxahlarımıza bədxahlarımızdan bədxahlarımızın bədxahların bədxahlarına bədxahlarından bədxahlarının
+39	4839	məsrəf	məsrəfdən məsrəfi məsrəfimiz məsrəfini məsrəfinin məsrəfinə məsrəflər məsrəfləri məsrəflərin məsrəflərindən məsrəflərini məsrəflərinin məsrəflərinizi məsrəflərinizin məsrəflərinə məsrəflərə məsrəfə
+40	4840	ağrısız	
+41	4841	kəndçi	kəndçidən kəndçilər kəndçiləri kəndçilərim kəndçilərimi kəndçilərimin kəndçilərin kəndçilərini kəndçim kəndçimi kəndçimiz kəndçimizi kəndçini kəndçinin kəndçisi kəndçisinə
+42	4842	ermək	er erdi erim erin erir ermiş ermişdir ersin ersə erə erəm erən
+43	4843	pozğun	pozğunlar pozğunları pozğunların pozğunlarına pozğunu pozğunun
+44	4844	çəmən	çəməndə çəməni çəmənim çəmənin çəmənində çəmənini çəməninə çəmənlər çəmənlərdə çəmənlərdən çəmənləri çəmənlərin çəmənlərində çəmənlərindən çəmənlərini çəmənlərinin çəmənlərinə çəmənlərə çəmənə
+45	4845	azərbaycanca	azərbaycancada azərbaycancadan azərbaycancanı azərbaycancanın azərbaycancası azərbaycancaya
+46	4846	paslanmaq	paslanar paslandıqca paslanma paslanmadan paslanmaya paslanmayan paslanmaz paslanmır paslanmış paslanmışdı paslanıb paslanır paslanırıq
+47	4847	dumanlı	
+48	4848	müfəssəl	
+49	4849	müdhiş	
+50	4850	zina	zinada zinadan zinalar zinanı zinanın zinası zinasından zinaya
+51	4851	qürbət	qürbətdə qürbətdən qürbəti qürbətin qürbətlər qürbətə
+52	4852	tısbağa	tısbağada tısbağadan tısbağalar tısbağalara tısbağalarda tısbağalardan tısbağaları tısbağaların tısbağalarına tısbağalarında tısbağalarını tısbağalarının tısbağanı tısbağanın tısbağası tısbağasına tısbağasını tısbağasının tısbağaya
+53	4853	yağışlı	
+54	4854	canfəşanlıq	canfəşanlıqlar canfəşanlıqları canfəşanlıqların canfəşanlıqlarında canfəşanlıqlarından canfəşanlıqlarının canfəşanlığa canfəşanlığı canfəşanlığın canfəşanlığına canfəşanlığından canfəşanlığını canfəşanlığının canfəşanlığınızı
+55	4855	baxımsız	
+56	4856	xərac	xəraca xəracdan xəraclar xəraclardan xəracları xəracların xəraclarını xəracı xəracın
+57	4857	ağaclıq	ağaclıqda ağaclıqdan ağaclıqlar ağaclıqlarda ağaclıqlardan ağaclıqları ağaclıqlarını ağaclığa ağaclığı ağaclığın ağaclığına ağaclığında ağaclığını
+58	4858	epidemiologiya	
+59	4859	ilıq	
+60	4860	gicgah	gicgahda gicgahdan gicgahlarda gicgahı gicgahın gicgahına gicgahında gicgahından gicgahını gicgahının
+61	4861	metodologiya	metodologiyada metodologiyadan metodologiyalar metodologiyalardan metodologiyaları metodologiyaların metodologiyalarını metodologiyamız metodologiyanı metodologiyanın metodologiyası metodologiyasına metodologiyasında metodologiyasından metodologiyasını metodologiyasının metodologiyaya
+62	4862	viran	
+63	4863	daşlamaq	daşla daşladı daşladılar daşladım daşlama daşlamış daşlamışlar daşlasınlar daşlayacaq daşlayanda daşlayar daşlayaraq daşlayasan daşlayıb daşlayıblar daşlayır daşlayırdılar daşlayırdıq daşlayırlar daşlayırıq
+64	4864	qanunauyğun	
+65	4865	kitabxanaçı	kitabxanaçıdan kitabxanaçılar kitabxanaçılara kitabxanaçıları kitabxanaçıların kitabxanaçının kitabxanaçısı kitabxanaçısının
+66	4866	nağara	nağarada nağaradan nağaralar nağaralara nağaralardan nağaraların nağaran nağaranı nağaranın nağarası nağarasında nağarasını nağaraya
+67	4867	nəfəslik	nəfəslikdə nəfəslikdən nəfəsliklər nəfəslikləri nəfəsliklərini nəfəsliyi nəfəsliyini nəfəsliyinin nəfəsliyə
+68	4868	çağırışçı	çağırışçıda çağırışçıdan çağırışçılar çağırışçılara çağırışçılardan çağırışçıları çağırışçıların çağırışçılarının çağırışçını çağırışçının çağırışçısı
+69	4869	paylamaq	payla
+70	4870	təfsilat	təfsilata təfsilatlar təfsilatlara təfsilatlardan təfsilatları təfsilatlarını təfsilatı təfsilatına təfsilatını
+71	4871	ağırlaşdırmaq	ağırlaşdıra ağırlaşdıracaq ağırlaşdıran ağırlaşdıraraq ağırlaşdırdı ağırlaşdırdıq ağırlaşdırmır ağırlaşdırmışdı ağırlaşdırmışdılar ağırlaşdırmışdır ağırlaşdırsın ağırlaşdırıb ağırlaşdırıblar ağırlaşdırır ağırlaşdırırdı ağırlaşdırırlar
+72	4872	müftə	
+73	4873	heca	hecada hecadan hecalar hecalara hecalardan hecaları hecaların hecalarına hecalarında hecalarından hecalarının hecanı hecanın hecası hecasına hecasında hecasından hecasını hecasının hecaya
+74	4874	axıcı	
+75	4875	becərmək	becər becərdikləri becərdilər becərib becəriblər becərir becərirdi becərirdilər becərirlər becərirmiş becərirmişlər becərmişdir becərmişlər becərmə becərmədən becərməmək becərməsən becərməyə becərsinlər becərsələr becərə becərəcək becərək becərən becərərək
+76	4876	diyirlənmək	diyirlən diyirləndi diyirləndikcə diyirlənib diyirlənir diyirlənirdi diyirlənirlər diyirlənmə diyirlənə diyirlənə-diyirlənə diyirlənəcək diyirlənən diyirlənəndə diyirlənərək
+77	4877	qövs	qövsdə qövsdən qövslər qövslərdə qövslərdən qövsləri qövslərin qövslərindən qövslərini qövslərinin qövsü qövsün qövsündə qövsündən qövsünü qövsünün qövsünə qövsə
+78	4878	taxılçılıq	taxılçılıqda taxılçılığa taxılçılığı taxılçılığın
+79	4879	otuzdurmaq	otuzdur otuzdura otuzduran otuzduraraq otuzdurardı otuzdurdu otuzdurdular otuzdurdum otuzdurmayacaqsan otuzdurmuşdular otuzdursun otuzdursunlar otuzdurub otuzdurublar otuzdurum otuzdurur otuzdururdu otuzdururdular otuzdururlar
+80	4880	haçan	
+81	4881	vərəqləmək	vərəqlə vərəqlədi vərəqlədikcə vərəqlədim vərəqlədin vərəqləmiş vərəqləmişdik vərəqləmişlər vərəqləmişəm vərəqləməmişdim vərəqləməyin vərəqləməyə vərəqləsə vərəqləsək vərəqləsələr vərəqləsəm vərəqləyib vərəqləyim vərəqləyin vərəqləyir vərəqləyirdi vərəqləyirdilər vərəqləyirlər vərəqləyirsən vərəqləyirəm vərəqləyə-vərəqləyə vərəqləyəcək vərəqləyəcəklər vərəqləyək vərəqləyən vərəqləyəndə vərəqləyərkən vərəqləyərək
+82	4882	dostlaşmaq	dostlaş dostlaşa dostlaşan dostlaşar dostlaşaraq dostlaşdı dostlaşdılar dostlaşdım dostlaşdıq dostlaşmamışıq dostlaşmaz dostlaşmış dostlaşmışdı dostlaşmışdılar dostlaşmışdır dostlaşmışlar dostlaşıb dostlaşır dostlaşıram dostlaşırdı dostlaşırlar
+83	4883	kaktus	kaktusa kaktuslar kaktuslara kaktusları kaktusların kaktusu kaktusun kaktusunun
+84	4884	ahıl	
+85	4885	minnət	minnətdən minnəti minnətin minnətini minnətinə minnətə
+86	4886	hərdənbir	
+87	4887	zehniyyət	zehniyyətdə zehniyyətdən zehniyyəti zehniyyətimizə zehniyyətin zehniyyətində zehniyyətindən zehniyyətini zehniyyətinin zehniyyətinə zehniyyətlər zehniyyətləri zehniyyətlərin zehniyyətlərinə zehniyyətə
+88	4888	rəsmiləşmək	rəsmiləşdi rəsmiləşdilər rəsmiləşib rəsmiləşir rəsmiləşirdi rəsmiləşmir rəsmiləşmiş rəsmiləşmişdi rəsmiləşmişdir rəsmiləşmə rəsmiləşməmiş rəsmiləşməyib rəsmiləşsin rəsmiləşsə rəsmiləşə rəsmiləşəcək rəsmiləşən rəsmiləşəndə rəsmiləşər rəsmiləşərkən
+89	4889	buğum	buğuma buğumda buğumdan buğumlar buğumlara buğumlarda buğumlardan buğumları buğumların buğumlarına buğumlarında buğumlarından buğumlarını buğumlarının buğumu buğumun buğumuna buğumunda buğumundan buğumunu buğumunun
+90	4890	tırtıl	tırtıla tırtıldan tırtıllar tırtıllara tırtıllarda tırtılları tırtılların tırtıllarına tırtıllarında tırtıllarından tırtıllarını tırtıllarının tırtılı tırtılın tırtılına tırtılını tırtılının
+91	4891	təvəkkül	təvəkküldən təvəkkülü təvəkkülün
+92	4892	qərarlı	
+93	4893	acizlik	acizlikdən acizlikləri acizliklərini acizliyi acizliyim acizliyimi acizliyin acizliyindən acizliyini acizliyinin acizliyinizi acizliyinə acizliyə
+94	4894	ibrətamiz	
+95	4895	abad	
+96	4896	arakəsmə	arakəsmədə arakəsmədən arakəsmələr arakəsmələrdə arakəsmələrdən arakəsmələri arakəsmələrin arakəsmələrində arakəsmələrindən arakəsmələrini arakəsmələrinin arakəsmələrə arakəsməni arakəsmənin arakəsməsi arakəsməsində arakəsməsini arakəsməsinin arakəsməyə
+97	4897	mübaliğə	mübaliğələr mübaliğələrdən mübaliğənin mübaliğəsi mübaliğəyə
+98	4898	heyva	heyvadan heyvalar heyvalarda heyvalardan heyvaları heyvaların heyvana heyvanda heyvandan heyvanı heyvanın heyvası heyvaya
+99	4899	qrammatika	qrammatikadan qrammatikalar qrammatikalarda qrammatikalardan qrammatikaları qrammatikaların qrammatikalarında qrammatikalarını qrammatikanı qrammatikanın qrammatikası qrammatikasına qrammatikasında qrammatikasından qrammatikasını qrammatikasının qrammatikaya
+100	4900	mazut	mazuta mazutdan mazutlarda mazutlarının mazutu mazutumuz mazutun mazutunun

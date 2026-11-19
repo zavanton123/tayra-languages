@@ -1,0 +1,100 @@
+1	7501	qızılqaz	qızılqazların qızılqazı
+2	7502	artişok	artişoku artişokun
+3	7503	siymək	siy siyər
+4	7504	coystik	coystikdən coystikin coystiklər coystiklərdə coystiklərin
+5	7505	leksem	leksemi leksemini lekseminə leksemləri
+6	7506	həkəm	həkəmi həkəmin həkəmini həkəmlər
+7	7507	ali baş komandan	ali baş komandan
+8	7508	elektron poçt	elektron poçt
+9	7509	mülki hüquq	hüquq mülki
+10	7510	qalxanabənzər vəzi	qalxanabənzər vəzi
+11	7511	xaç atası	atası xaç
+12	7512	absis	
+13	7513	bihar	
+14	7514	qurtarıcı	
+15	7515	yatıq	
+16	7516	abordaj	
+17	7517	mikroiqtisadiyyat	
+18	7518	altı-bazar	
+19	7519	avtokar	avtokarlar
+20	7520	beluqa	
+21	7521	cüda	
+22	7522	dayıqızı	
+23	7523	dördgöz	
+24	7524	eyi	
+25	7525	icab	
+26	7526	meynə	meynələri
+27	7527	mütaliəli	
+28	7528	paranoik	
+29	7529	parlamentdənkənar	
+30	7530	pomidor-yumurta	
+31	7531	qadamaq	qadasın
+32	7532	tayqulaq	
+33	7533	çötkə	çötkəyə
+34	7534	birisigün	
+35	7535	sözbaz	sözbazlar
+36	7536	arvadlıq	arvadlığa arvadlığı
+37	7537	banderol	banderollar banderolları
+38	7538	biliş	bilişim bilişlərdən
+39	7539	birçək	birçəyi birçəyini
+40	7540	qarğışlamaq	qarğışla qarğışlaya-qarğışlaya qarğışlayasınız
+41	7541	zindanban	zindanbandan zindanbanın
+42	7542	çoxallahlılıq	çoxallahlılıqda çoxallahlılığa
+43	7543	özləmək	özlədik özlədim özləmiş
+44	7544	armağan	armağanı armağanın
+45	7545	güzlək	güzləklərə güzləyə
+46	7546	kəhkəşan	kəhkəşana kəhkəşanın kəhkəşanına kəhkəşanında kəhkəşanının
+47	7547	mündəricat	mündəricatda mündəricatları mündəricatı mündəricatın mündəricatını
+48	7548	məzac	məzaclarında məzacı məzacımız məzacında məzacından
+49	7549	önəmsəmək	önəmsəmirik önəmsəməsə önəmsəməyən önəmsəyirlər önəmsəyən
+50	7550	mərcək	mərcəyi
+51	7551	mərkəzçilik	mərkəzçilikdən mərkəzçiliyə
+52	7552	pota	potası
+53	7553	sinirli	
+54	7554	teist	teistlər
+55	7555	tozsoranlamaq	tozsoranla
+56	7556	tuyuq	tuyuqdan tuyuqlar
+57	7557	xudbinlik	xudbinliyi xudbinliyin
+58	7558	güvəc	güvəci güvəcim güvəcin güvəclərdən güvəcləri güvəcə
+59	7559	on doqquz	doqquz on
+60	7560	yüksəktezlikli	
+61	7561	çərşənbə axşamı	axşamı çərşənbə
+62	7562	iyirmi beş	beş iyirmi
+63	7563	bərabəryanlı	
+64	7564	üqnum	üqnumun
+65	7565	aylanmaq	aylan aylanın
+66	7566	müamilə	müamilədən müamilələr müamilələrinin
+67	7567	altyazı	altyazıda altyazılar altyazılarda
+68	7568	məsafəölçən	məsafəölçəndən məsafəölçəni məsafəölçənindən məsafəölçənləri
+69	7569	abajur	abajurdan abajurlar
+70	7570	istiarə	istiarədə istiarələr istiarəyə
+71	7571	küz	küzün küzə
+72	7572	knopka	knopkalarda knopkası knopkasından knopkasını knopkasının
+73	7573	sıxac	sıxaca sıxaclar sıxaclardan sıxacı sıxacın
+74	7574	kapibara	kapibaradan kapibaralar kapibaralara kapibaralarda
+75	7575	ulas	ulasın
+76	7576	abırsızcasına	
+77	7577	dovşandodaq	
+78	7578	dünənləri	
+79	7579	gecəbəgündüz	
+80	7580	ikiadamlıq	
+81	7581	ikimənalılıq	
+82	7582	islaq	
+83	7583	israfcıl	
+84	7584	itib-batmaq	
+85	7585	kişnərti	kişnərtisi
+86	7586	namussuz	
+87	7587	paşol	
+88	7588	piyan	
+89	7589	qaytarılmaz	
+90	7590	saqınmaq	saqın
+91	7591	taksavatlıq	
+92	7592	təfavüt	təfavütü
+93	7593	uzundraz	
+94	7594	yatab	
+95	7595	ətağa	
+96	7596	əks-zərbə	
+97	7597	diyir	
+98	7598	gündəyməz	
+99	7599	xəkəndaz	
+100	7600	arıtmaq	arıtdı arıtma

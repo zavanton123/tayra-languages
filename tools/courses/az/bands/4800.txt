@@ -1,0 +1,100 @@
+1	4701	taun	tauna taunda taundan taunu taunun taununda taunundan taununu taununun
+2	4702	gediş-gəliş	gediş-gəlişi gediş-gəlişlər
+3	4703	püstə	püstələr püstələri püstəndə püstəni püstənin püstəyə
+4	4704	yəhər	yəhərdə yəhərdən yəhəri yəhərimin yəhərin yəhərindən yəhərini yəhərinin yəhərinə yəhərlər yəhərləri yəhərlərin yəhərə əyər
+5	4705	sünnət	sünnətdə sünnətdən sünnəti sünnətimdən sünnətimə sünnətin sünnətində sünnətindən sünnətini sünnətinin sünnətiniz sünnətinə sünnətləri sünnətlərini sünnətə
+6	4706	ayaqlaşmaq	ayaqlaşa ayaqlaşan ayaqlaşaq ayaqlaşaraq ayaqlaşma ayaqlaşmalıdır ayaqlaşmalıyıq ayaqlaşmaya ayaqlaşmayan ayaqlaşmır ayaqlaşmırdı ayaqlaşsaq ayaqlaşsınlar ayaqlaşıb ayaqlaşır ayaqlaşırdı ayaqlaşırlar ayaqlaşırıq
+7	4707	epidemiya	epidemiyalar epidemiyanı
+8	4708	bayağı	
+9	4709	plov	plova plovda plovdan plovlar plovlara plovlarda plovları plovların plovu plovumu plovun plovundan plovunu plovunun
+10	4710	çoxaltmaq	çoxalda çoxaldacaq çoxaldalar çoxaldan çoxaldanda çoxaldaq çoxaldaraq çoxaldıb çoxaldır çoxaldırdı çoxaldırlar çoxaldırıq çoxalt çoxaltdı çoxaltdılar çoxaltma çoxaltmalıdır çoxaltmalıdırlar çoxaltmış çoxaltmışdı çoxaltmışdır çoxaltmışıq çoxaltsa çoxaltsanız
+11	4711	korluq	korluqdan korluğa korluğu korluğun korluğuna korluğundan korluğunu korluğunuz
+12	4712	istiot	istiota istiotda istiotdan istiotlara istiotlardan istiotların istiotu istiotun istiotunu
+13	4713	şokoladlı	
+14	4714	nal	nala nalda naldan nallar nalları nalı nalın nalına nalını nalının
+15	4715	iaşə	iaşədə iaşənin
+16	4716	allergiya	allergiyadan allergiyalar allergiyalara allergiyaları allergiyaların allergiyamız allergiyan allergiyanı allergiyanın allergiyanız allergiyası allergiyasına allergiyasından allergiyasının allergiyaya
+17	4717	lövbər	lövbərdə lövbərdən lövbəri lövbərin lövbərini lövbərinin lövbərinə lövbərlər lövbərlərini lövbərə
+18	4718	coşqun	
+19	4719	cənub-şərqi	
+20	4720	çarpışmaq	çarpışa-çarpışa çarpışacaq çarpışan çarpışaraq çarpışdı çarpışdılar çarpışma çarpışmada çarpışmadan çarpışmadım çarpışmalar çarpışmalara çarpışmalarda çarpışmalardan çarpışmaları çarpışmaların çarpışmalarında çarpışmalarından çarpışmalarını çarpışmalıdırlar çarpışmamız çarpışmanı çarpışmanın çarpışmanız çarpışması çarpışmasına çarpışmasının çarpışmaya çarpışmış çarpışmışam çarpışmışdı çarpışmışdır çarpışmışıq çarpışıb çarpışır çarpışırdılar çarpışırlar çarpışırsan çarpışırıq
+21	4721	qayınata	qayınatam qayınatama qayınatamı qayınatamın qayınatanın qayınatanızın qayınatası qayınatasına qayınatasında qayınatasından qayınatasını qayınatasının qayınataya
+22	4722	xəz	xəzdə xəzdən xəzi xəzimə xəzin xəzindən xəzini xəzinin xəzlər xəzlərdən xəzləri xəzlərin xəzlərində xəzlərinin xəzlərinə xəzlərə xəzə
+23	4723	qışlaq	qışlaqda qışlaqdan qışlaqlar qışlaqlara qışlaqlarda qışlaqları qışlaqların qışlaqlarında qışlaqlarından qışlaqlarını qışlağa qışlağı qışlağın qışlağına qışlağında qışlağından qışlağını qışlağının
+24	4724	öcəşmək	öcəşir öcəşmirdim öcəşmə öcəşmədən öcəşməmiş öcəşməyə
+25	4725	çarlıq	çarlıqdan çarlıqlar çarlıqlara çarlıqları çarlıqların çarlıqlarından çarlıqlarını çarlıqlarının çarlığa çarlığı çarlığın çarlığına çarlığında çarlığından çarlığını çarlığının
+26	4726	əlləşmək	əlləş əlləşdi əlləşdik əlləşdilər əlləşdim əlləşib əlləşir əlləşirdi əlləşirdik əlləşirdilər əlləşirik əlləşirlər əlləşirsən əlləşirəm əlləşmişdi əlləşmişəm əlləşmə əlləşməlidir əlləşməyim əlləşməyin əlləşməyə əlləşsə əlləşsəydi əlləşən əlləşər əlləşərsən
+27	4727	sadəlövh	sadəlöhv
+28	4728	libas	libasa libasda libasdan libaslar libaslara libaslarda libasları libaslarımızı libasların libaslarına libaslarını libaslarınızı libası libasımız libasın libasına libasında libasından libasını libasının
+29	4729	qayğıkeş	
+30	4730	inhisarçı	inhisarçıdan inhisarçılar inhisarçılara inhisarçılardan inhisarçıları inhisarçıların inhisarçılarına inhisarçılarının inhisarçının inhisarçısı inhisarçısından inhisarçıya
+31	4731	sağ-salamat	
+32	4732	tüpürcək	tüpürcəkdə tüpürcəkləri tüpürcəklərindən tüpürcəyi tüpürcəyim tüpürcəyimdə tüpürcəyin tüpürcəyindən tüpürcəyini tüpürcəyə
+33	4733	qeyri-insani	
+34	4734	yerbəyer	
+35	4735	nanotexnologiya	nanotexnologiyada nanotexnologiyadan nanotexnologiyalar nanotexnologiyalara nanotexnologiyalardan nanotexnologiyaların nanotexnologiyanı nanotexnologiyanın nanotexnologiyaya
+36	4736	təlqin	təlqində təlqini təlqinində təlqinini təlqinləri təlqinlərin təlqinlərindən təlqinlərini təlqinlərinin təlqinə
+37	4737	ikibaşlı	
+38	4738	nişanlanmaq	nişanlana nişanlanan nişanlananda nişanlanarkən nişanlanarıq nişanlandı nişanlandılar nişanlandım nişanlandıq nişanlandıqları nişanlanma nişanlanmalıdır nişanlanmalıydı nişanlanmayan nişanlanmısınız nişanlanmış nişanlanmışdı nişanlanmışdılar nişanlanmışdır nişanlanmışıq nişanlansa nişanlanıb nişanlanıblar nişanlanıbmış nişanlanır nişanlanırdılar nişanlanırlar
+39	4739	gərmək	gər gərdi gərdik gərdilər gərdin gərib gərin gərir gəririk gərmiş gərmişdi gərmişdir gərmişik gərmə gərmədən gərməlidir gərməyin gərməyə gərsə gərə gərəcək gərəcəksiniz gərəcəyik gərən gərər gərərkən gərərsən gərərək gərəsən
+40	4740	ərinmək	ərin ərindi ərindikləri ərinib ərinin ərinir ərinirdi ərinirdim ərinirik ərinirəm ərinmir ərinmirlər ərinmiş ərinmə ərinmədən ərinməyib ərinsələr ərinə ərinə-ərinə ərinəm ərinən ərinərdim
+41	4741	şəhadət	şəhadətdən şəhadəti şəhadətimiz şəhadətin şəhadətində şəhadətindən şəhadətini şəhadətinin şəhadətinə şəhadətə
+42	4742	cilovlamaq	cilovlamadı cilovlamalıdır cilovlamalısınız cilovlamasan cilovlasa cilovlasın cilovlaya cilovlayan cilovlayar cilovlayaraq cilovlayıb cilovlayıblar cilovlayın cilovlayır cilovlayırıq
+43	4743	qayçı	qayçıdan qayçılar qayçıları qayçılarım qayçıların qayçım qayçımı qayçını qayçının qayçısı qayçısını qayçısının qayçıya
+44	4744	sapand	sapanda sapandlar sapandı sapandını sapanlardan sapanların
+45	4745	qırxmaq	qırxa qırxacaq qırxacağam qırxacağıq qırxan qırxar qırxardı qırxardılar qırxarkən qırxdı qırxdılar qırxdım qırxma qırxmadıqları qırxmalısan qırxmalısınız qırxmamış qırxmayıb qırxmır qırxsa qırxsam qırxsaq qırxıb qırxıblar qırxım qırxın qırxır qırxırdılar qırxırlar
+46	4746	bəzəmək	bəzə bəzənmək
+47	4747	yolka	yolkadan yolkalar yolkalara yolkaları yolkaların yolkanı yolkanın yolkası yolkasından yolkasını yolkasının
+48	4748	əncir	əncirdən ənciri əncirin əncirini əncirlər əncirə
+49	4749	təəssübkeşlik	təəssübkeşlikdə təəssübkeşlikdən təəssübkeşlikləri təəssübkeşliyi təəssübkeşliyimiz təəssübkeşliyin təəssübkeşliyində təəssübkeşliyindən təəssübkeşliyini təəssübkeşliyinin təəssübkeşliyinizi təəssübkeşliyinə təəssübkeşliyə
+50	4750	şor	şora şorda şordan şorlar şorlara şorlarda şorlardan şorların şoru şorun şorunun
+51	4751	etibarnamə	etibarnamədə etibarnamədən etibarnamələr etibarnamələri etibarnamələrin etibarnaməmi etibarnaməni etibarnamənin etibarnaməsi etibarnaməsini etibarnaməyə
+52	4752	gəlincik	gəlincikdən gəlinciklər gəlinciklərdə gəlinciklərdən gəlincikləri gəlinciklərin gəlinciklərini gəlinciklərinin gəlinciklərinə gəlinciklərə gəlinciyi gəlinciyim gəlinciyin gəlinciyini gəlinciyinin gəlinciyinə gəlinciyə
+53	4753	çaxmaq	çax çaxa çaxacaq çaxacaqları çaxan çaxanda çaxar çaxaram çaxarkən çaxarlar çaxdı çaxdılar çaxma çaxmaqda çaxmaqdan çaxmaz çaxmağa çaxmağı çaxmağımıza çaxmağın çaxmış çaxsa çaxsaq çaxıb çaxın çaxırdı çaxırlar
+54	4754	xəndək	xəndəkdə xəndəkdən xəndəklər xəndəklərdə xəndəklərdən xəndəkləri xəndəklərin xəndəklərində xəndəklərindən xəndəklərə xəndəyi xəndəyin xəndəyindən xəndəyini xəndəyinin xəndəyinə xəndəyə
+55	4755	qışlamaq	qışla qışladılar qışladıqları qışlama qışlamadan qışlamaya qışlamış qışlamışdı qışlamışdır qışlamışlar qışlaya qışlayacaqlar qışlayan qışlayar qışlayardılar qışlayıb qışlayır qışlayırlar
+56	4756	beyt	beytdə beytdən beyti beytimdən beytin beytində beytindən beytini beytinin beytinə beytlər beytlərdə beytlərdən beytləri beytlərin beytlərində beytlərindən beytlərinin beytlərinə beytlərə beytə əbyat
+57	4757	özəlliklə	
+58	4758	əhəng	əhəngdən əhəngi əhəngin əhəngə
+59	4759	kirli	
+60	4760	eskalator	eskalatora eskalatorda eskalatordan eskalatorlar eskalatorlara eskalatorlarda eskalatorlardan eskalatorları eskalatorların eskalatorlarında eskalatorlarından eskalatoru eskalatorun
+61	4761	dürtmək	dürt dürtdü dürtdülər dürtdüm dürtmüşdülər dürtmə dürtməyə dürtsünlər dürtüb dürtür dürtürdü dürtə dürtək dürtən dürtərdilər dürtərsən
+62	4762	soyğunçu	soyğunçudan soyğunçular soyğunçulara soyğunçulardan soyğunçuları soyğunçuların soyğunçunu soyğunçunun soyğunçusu
+63	4763	sırğa	sırğada sırğadan sırğalar sırğalara sırğalarda sırğalardan sırğaları sırğaların sırğalarında sırğalarının sırğamı sırğan sırğanı sırğanın sırğası sırğasını sırğaya
+64	4764	yarğan	yarğana yarğanda yarğandan yarğanlar yarğanlara yarğanlarda yarğanlardan yarğanları yarğanların yarğanlarının yarğanı yarğanın yarğanına yarğanında yarğanının
+65	4765	avar	avarlar avarlara avarlarda avarlardan avarları avarların avarlarını avarlarının avarı avarın avarının
+66	4766	yurdsevərlik	
+67	4767	notarius	notariusa notariusda notariusdan notariuslar notariuslarda notariusları notariusların notariuslarının notariusu notariusun notariusuna notariusunu notariusunun
+68	4768	tumurcuq	tumurcuqdan tumurcuqlar tumurcuqlara tumurcuqlarda tumurcuqlardan tumurcuqları tumurcuqların tumurcuqlarına tumurcuqlarında tumurcuqlarından tumurcuqlarını tumurcuqlarının tumurcuğu tumurcuğun tumurcuğunda tumurcuğundan tumurcuğunu tumurcuğunun
+69	4769	qəbiristan	qəbiristana qəbiristanda qəbiristandan qəbiristanlar qəbiristanlarda qəbiristanları qəbiristanlarımızda qəbiristanlarının qəbiristanlıq qəbiristanı qəbiristanın qəbiristanında qəbiristanının
+70	4770	məşhəd	məşhəddə məşhəddən məşhədi məşhədin məşhədə
+71	4771	döşək	döşəkdə döşəkdən döşəklər döşəklərdə döşəklərdən döşəkləri döşəklərin döşəklərindən döşəklərinə döşəyi döşəyimi döşəyin döşəyində döşəyini döşəyinin döşəyə
+72	4772	şampun	şampuna şampunda şampundan şampunlar şampunlarda şampunlardan şampunları şampunların şampunu şampunun
+73	4773	şərqşünaslıq	şərqşünaslıqdan şərqşünaslığa şərqşünaslığı şərqşünaslığın şərqşünaslığında şərqşünaslığını şərqşünaslığının
+74	4774	ikiüzlülük	ikiüzlülükdə ikiüzlülükdən ikiüzlülüklərindən ikiüzlülüklərini ikiüzlülüyü ikiüzlülüyün ikiüzlülüyünü ikiüzlülüyünün ikiüzlülüyünüz ikiüzlülüyünə ikiüzlülüyə
+75	4775	döşəmək	döşə döşədi döşədikləri döşədilər döşəmirdi döşəmirlər döşəmişdi döşəmişik döşəmədi döşəmədən döşəməyin döşəməyə döşəməyən döşəməzlər döşəsinlər döşəyib döşəyiblər döşəyin döşəyir döşəyirdi döşəyirdilər döşəyirlər döşəyə döşəyəcək döşəyərlər döşəyərək döşəyəsiniz döşəyəsən
+76	4776	poxlu	
+77	4777	taqət	taqətdən taqəti taqətim taqətimi taqətimiz taqətini taqətləri
+78	4778	firqə	firqədə firqələr firqələrdə firqələri firqələrin firqələrindən firqələrini firqələrinin firqələrinə firqələrə firqəmiz firqəni firqənin firqəsi firqəsindən firqəsini firqəsinin firqəsinə firqəyə
+79	4779	kəfləmə	
+80	4780	təpmək	təp təpdi təpib təpir təpirdi təpmə təpməsəydin təpməyə təpəcək təpəcəkdilər təpəcəklər təpələr təpən təpər təpərlər təpəsidir
+81	4781	yellənmək	yelləndikcə yellənib yelləniblər yellənir yellənirdi yellənirdilər yellənmir yellənmə yellənməməli yellənməyə yellənsə yellənsən yellənə yellənə-yellənə yellənəcək yellənən yellənəndə yellənər yellənərkən yellənərək
+82	4782	əxlaqsızlıq	əxlaqsızlıqlar əxlaqsızlığı
+83	4783	xislət	xislətdə xislətdən xisləti xislətimdə xislətimizin xislətin xislətində xislətindən xislətini xislətinin xislətinizi xislətinə xislətlər xislətlərdən xislətləri xislətlərin xislətlərini xislətlərinə xislətlərə xislətə
+84	4784	kortəbii	
+85	4785	cun	cuna cunadan cunan cunanın cunu cunun cununu
+86	4786	ilahiyyatçı	ilahiyyatçılar ilahiyyatçılara ilahiyyatçılardan ilahiyyatçıları ilahiyyatçıların ilahiyyatçılarında ilahiyyatçılarından ilahiyyatçılarının ilahiyyatçını ilahiyyatçının ilahiyyatçısı ilahiyyatçıya
+87	4787	pərvanə	pərvanədən pərvanələr pərvanələri pərvanələrin pərvanələrə pərvanəni pərvanənin pərvanəsi pərvanəsini pərvanəsinə pərvanəyə
+88	4788	püşk	püşkdə püşkdən püşkləri püşkü
+89	4789	əzmkarlıq	əzmkarlıqdan əzmkarlıqları əzmkarlığa əzmkarlığı əzmkarlığıma əzmkarlığın əzmkarlığına əzmkarlığında əzmkarlığını əzmkarlığınızı
+90	4790	cəfəri	cəfəridən cəfərilər cəfərilərdən cəfərilərin cəfərilərinə cəfərin cəfərini cəfərinin
+91	4791	ər-arvad	ər-arvada ər-arvaddan ər-arvadlar ər-arvadlardan ər-arvadları ər-arvadların ər-arvadı ər-arvadın
+92	4792	vurğu	vurğudan vurğular vurğularda vurğulardan vurğuları vurğuların vurğularında vurğularını vurğularının vurğuna vurğunda vurğundan vurğunu vurğunun vurğusu vurğusunda vurğusundan vurğusunu vurğusunun vurğuya
+93	4793	zərgər	zərgəri zərgərin zərgərlər zərgərlərdə zərgərləri zərgərlərin zərgərlərə zərgərə
+94	4794	əfsus	
+95	4795	qıç	qıça qıçlar qıçlara qıçlarda qıçları qıçlarıma qıçların qıçlarına qıçlarında qıçlarından qıçlarını qıçlarının qıçlarınızı qıçı qıçımda qıçımı qıçımız qıçın qıçına qıçında qıçından qıçını qıçının
+96	4796	səksən	
+97	4797	fleyta	fleytada fleytadan fleytalar fleytalardan fleytaların fleytanı fleytanın fleytası fleytasında fleytasının fleytaya
+98	4798	çönmək	çön çöndü çöndüm çönmüş çönmüşdür çönüb çönür çönürlər çönə çönən çönəndə çönərək
+99	4799	tələm-tələsik	
+100	4800	səciyyə	səciyyədə səciyyədən səciyyələri səciyyələrin səciyyələrini səciyyələrinə səciyyənin səciyyəsi səciyyəsində səciyyəsindən səciyyəsini səciyyəsinin səciyyəsinə səciyyəyə

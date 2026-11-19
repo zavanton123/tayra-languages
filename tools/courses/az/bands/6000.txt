@@ -1,0 +1,100 @@
+1	5901	ümum	ümumu
+2	5902	asta	
+3	5903	ayaqyalın	yalınayaq
+4	5904	kişmiş	kişmişdən kişmişi kişmişin kişmişlər kişmişə
+5	5905	epidemioloji	
+6	5906	həngamə	həngamədə həngamədən həngamələr həngamələrdən həngamələrin həngamənin həngaməyə
+7	5907	könülsüz	
+8	5908	udlaq	udlaqda udlaqdan udlağa udlağı udlağın udlağına udlağının
+9	5909	bayraqdar	bayraqdardan bayraqdarlar bayraqdarları bayraqdarlarının bayraqdarı bayraqdarına bayraqdarının
+10	5910	toxucu	toxucudan toxucular toxuculara toxuculardan toxucuları toxucuların toxucularına toxucularının toxucunun toxucusu toxucusuna toxucusunun toxucuya
+11	5911	ilhaq	ilhaqdan ilhaqlara
+12	5912	nisbilik	nisbiliyi nisbiliyin nisbiliyini nisbiliyinin nisbiliyə
+13	5913	porsuq	porsuqlar porsuqları porsuqlarından porsuqlarının porsuğa porsuğu porsuğun porsuğuna porsuğunu porsuğunun
+14	5914	kürk	kürkdən kürklər kürkləri kürklərinin kürklərinə kürklərə kürkü
+15	5915	taqım	taqımda taqımdan taqımlar taqımlara taqımlardan taqımları taqımı taqımımız taqımımızda taqımın taqımına taqımında taqımından taqımını taqımının
+16	5916	aftafa	aftafadan aftafalar aftafalarımızı aftafalarınızdan aftafam aftafanı aftafanın aftafası aftafasına aftafasını aftafaya
+17	5917	əta	ətalarına
+18	5918	yanğı	yanğıları yanğıların yanğılarını yanğını
+19	5919	qaneedici	
+20	5920	şıdırğı	
+21	5921	qovurmaq	qovur qovuram qovuran qovurardı qovurardılar qovurarkən qovurdu qovurdular qovurdum qovurduq qovurma qovurmaya qovurmuş qovurmuşdu qovursa qovursan qovurub qovurun qovurur qovururlar qovururuq
+22	5922	ardıc	ardıca ardıcdan ardıclar ardıclarda ardıclardan ardıcların ardıcı ardıcın ardıcını ardıcının
+23	5923	avarçəkən	avarçəkəndən avarçəkəni avarçəkənimiz avarçəkənlər avarçəkənlərdən avarçəkənləri avarçəkənlərimiz avarçəkənlərimizin avarçəkənlərin avarçəkənlərinin avarçəkənlərə
+24	5924	urbanizasiya	urbanizasiyada urbanizasiyanı urbanizasiyanın urbanizasiyası urbanizasiyasına urbanizasiyaya
+25	5925	poçtalyon	poçtalyona poçtalyonlar poçtalyonlarımızdan poçtalyonların poçtalyonu poçtalyonun
+26	5926	hindistanlı	hindistanlılar hindistanlılara hindistanlılarda hindistanlıların hindistanlının hindistanlıya
+27	5927	səyyarə	səyyarələri səyyarəni səyyarənin
+28	5928	atəşpərəst	atəşpərəstlər atəşpərəstlərdən atəşpərəstləri atəşpərəstlərin atəşpərəstlərə
+29	5929	əyyam	əyyamda əyyamdan əyyamlar əyyamlara əyyamlarda əyyamları əyyamların əyyamı əyyamın əyyamına əyyamında əyyamından əyyamını əyyamının
+30	5930	məzhəkə	məzhəkədə məzhəkələr məzhəkələrdən məzhəkələri məzhəkələrin məzhəkələrə məzhəkənin məzhəkəsi məzhəkəsindən məzhəkəsini məzhəkəsinin məzhəkəsinə məzhəkəyə
+31	5931	mixi	
+32	5932	xuliqan	xuliqanlar
+33	5933	hin	hində hindən hini hinim hinin hinində hinindən hininin hininə hinləri hinlərin hinlərində hinlərinə hinə
+34	5934	sümürmək	sümürdü sümürmüşdü sümürməyə sümürsünlər sümürüb sümürüblər sümürün sümürür sümürürdü sümürə sümürə-sümürə sümürən sümürər sümürərək
+35	5935	böylə	
+36	5936	asiman	asimana asimanda asimandan asimanıma asimanın
+37	5937	suvaq	suvaqda suvaqdan suvaqlar suvaqlarda suvaqları suvaqların suvağa suvağı suvağın suvağında suvağından suvağını
+38	5938	hipotez	hipotezdə hipotezdən hipotezi hipotezin hipotezində hipotezini hipotezinin hipotezinə hipotezlər hipotezlərdən hipotezləri hipotezlərin hipotezlərinə hipotezlərə hipotezə
+39	5939	darlıq	darlıqda darlıqlar darlıqların darlığa darlığı darlığın darlığına darlığında darlığından darlığını darlığının
+40	5940	bazarkom	bazarkoma bazarkomlar bazarkomun
+41	5941	əliyalın	
+42	5942	buxov	buxova buxovdan buxovlara buxovlardan buxovları buxovlarından buxovlarını buxovu buxovun buxovunda buxovundan
+43	5943	qaban	qabanda qabanlar qabanlardan qabanları qabanların qabanı qabanın
+44	5944	nimdaş	
+45	5945	otlamaq	otla otlasın otlaya otlaya-otlaya otlayan otlayanda otlayıb otlayır otlayırdı otlayırdılar otlayırlar
+46	5946	mim	mimi mimini miminin
+47	5947	təmayül	təmayüllər təmayülü
+48	5948	aqronom	aqronomdan aqronomlar aqronomlara aqronomları aqronomlarından aqronomu aqronomun aqronomunun
+49	5949	koronavirus	koronavirusa koronavirusdan koronaviruslar koronaviruslara koronavirusları koronavirusların koronavirusu koronavirusun koronavirusuna koronavirusunun
+50	5950	pinqvin	pinqvini pinqvinini pinqvininin pinqvinlər pinqvinlərdən pinqvinləri pinqvinlərin pinqvinlərini pinqvinlərinin pinqvinlərinə pinqvinlərə
+51	5951	daş-qaş	daş-qaşa daş-qaşdan daş-qaşlar daş-qaşlarda daş-qaşlardan daş-qaşları daş-qaşların daş-qaşı daş-qaşın daş-qaşına daş-qaşının
+52	5952	revanş	revanşı
+53	5953	yovşan	yovşandan yovşanları yovşanların yovşanı yovşanın
+54	5954	əlif	əlifin əlifini
+55	5955	görk	görkü görkün görkünü görkə
+56	5956	sığallamaq	sığalladı sığalladılar sığalladım sığalladıqca sığallama sığallamalıyıq sığallamazlar sığallamırlar sığallasın sığallaya-sığallaya sığallayan sığallayıb sığallayıbmış sığallayır sığallayıram sığallayırdım sığallayırlar
+57	5957	yuxa	yuxadan yuxalar yuxalarda yuxaların yuxalarında yuxan yuxanda yuxanı yuxanın yuxası yuxaya
+58	5958	metodist	metodisti metodistini metodistlər metodistləri metodistlərin metodistə
+59	5959	hərləmək	hərlə hərlədim hərləmir hərləmirdilər hərləmirik hərləmirlər hərləmirəm hərləmədən hərləməyib hərləməyən hərləməzsən hərləyib hərləyirdi hərləyirlər hərləyirsiniz hərləyə-hərləyə hərləyən hərləyərək
+60	5960	girdə	gipgirdə
+61	5961	çərəz	çərəzdən çərəzi çərəzlər çərəzlərdə çərəzləri çərəzlərin çərəzlərinin
+62	5962	ali təhsil	ali təhsil
+63	5963	qumluq	qumluqda qumluqdan qumluqlar qumluqlara qumluqlarda qumluqlardan qumluqları qumluqların qumluqlarında qumluğa qumluğu qumluğunda qumluğunu
+64	5964	nöyüt	nöyütdən nöyütləri nöyütü nöyütümü nöyütümüzü nöyütün
+65	5965	faizsiz	
+66	5966	fors-major	fors-majorlar
+67	5967	bəm	bəmdə bəmdən bəmi bəminə bəmə
+68	5968	kirvə	kirvədən kirvələr kirvəm kirvənin kirvəsi kirvəsini kirvəsinin
+69	5969	qarovulçu	qarovulçular qarovulçuları qarovulçuların qarovulçularına qarovulçularını qarovulçularının qarovulçunu qarovulçusu qarovulçusuna qarovulçuya
+70	5970	trolleybus	trolleybusa trolleybuslar trolleybuslara trolleybuslarda trolleybuslardan trolleybusları trolleybusların trolleybusu trolleybusun
+71	5971	çe	
+72	5972	külliyyat	külliyyata külliyyatda külliyyatlar külliyyatları külliyyatlarının külliyyatı külliyyatın külliyyatına külliyyatında külliyyatından külliyyatını külliyyatının
+73	5973	dağıstanlı	dağıstanlılar dağıstanlılara dağıstanlılardan dağıstanlıların dağıstanlının
+74	5974	cilov	cilova cilovda cilovdan cilovlar cilovları cilovu cilovun cilovundan cilovunu
+75	5975	xəsis	
+76	5976	qaşımaq	qaşı qaşıdı qaşıdım qaşıdıq qaşıma qaşımayıblar qaşımır qaşımış qaşısın qaşıyan qaşıyaraq qaşıyardım qaşıyıb qaşıyın qaşıyır qaşıyırlar
+77	5977	məchul	məchula məchullar məchulu məchulun məchulunda
+78	5978	yengə	yengədən yengələr yengəmi yengən yengəni yengəsi yengəsinin yengəsinə yengəyə
+79	5979	çəyirtkə	çəyirtkədən çəyirtkələr çəyirtkələrdə çəyirtkələri çəyirtkələrin çəyirtkələrinin çəyirtkələrə çəyirtkəmiz çəyirtkəni çəyirtkənin çəyirtkəsi
+80	5980	təhqiq	
+81	5981	necəlik	necəliyi necəliyindən necəliyini necəliyinin
+82	5982	müsəlmançılıq	müsəlmançılıqdan müsəlmançılığa müsəlmançılığı müsəlmançılığımız müsəlmançılığımıza müsəlmançılığın
+83	5983	əldəqayırma	
+84	5984	yaba	yabalar yaban yabanın yabası yabaya
+85	5985	ostan	ostana ostanda ostandan ostanlar ostanlara ostanları ostanların ostanlarından ostanlarının ostanı ostanın ostanında ostanının
+86	5986	qumbaraatan	qumbaraatandan qumbaraatanlar qumbaraatanlardan qumbaraatanları qumbaraatanların qumbaraatanlarından qumbaraatanlarının qumbaraatanı qumbaraatanın qumbaraatanını qumbaraatanının
+87	5987	böyründə	
+88	5988	calaq	calaqlar calaqları calağı
+89	5989	zoğal	zoğala zoğaldan zoğalı zoğalın
+90	5990	tozanaq	tozanaqda tozanağa tozanağı tozanağın
+91	5991	kvars	kvarsa kvarsdan kvarslardan kvarsı kvarsın kvarsının
+92	5992	çətənə	çətənədən çətənəni çətənənin çətənəsindən
+93	5993	böyür	böyürdə böyürdən böyürlərdə böyürlərdən böyürləri böyürlərin böyürlərində böyürlərə böyüründə böyürə
+94	5994	övrət	övrəti övrətim övrətimi övrətimin övrətin övrətini övrətinin övrətlər övrətlərdən övrətləri övrətlərimizin övrətlərində övrətlərindən övrətlərini övrətlərinə
+95	5995	xali	
+96	5996	moruq	moruqda moruqdan moruqları moruğu moruğun moruğunun
+97	5997	arxalıq	arxalıqdan arxalıqlar arxalıqlarda arxalıqları arxalıqların arxalıqlarının arxalığa arxalığı arxalığın arxalığını
+98	5998	al-əlvan	
+99	5999	vaza	vazada vazalar vazalara vazalarda vazaları vazaların vazalarının vazanı vazanın vazası vazasında vazaya
+100	6000	körükləmək	körüklə körüklədi körükləmə körükləmədi körükləməyə körükləyib körükləyir körükləyən körükləyərək

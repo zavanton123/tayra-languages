@@ -1,0 +1,100 @@
+1	2801	şiddət	şiddətdə şiddətdən şiddəti şiddətin şiddətindən şiddətini şiddətinin şiddətinə şiddətlər şiddətlərə şiddətə
+2	2802	içməli	
+3	2803	ixtisar	ixtisara ixtisarda ixtisardan ixtisarlar ixtisarlara ixtisarlarda ixtisarlardan ixtisarları ixtisarların ixtisarlarına ixtisarlarının ixtisarı ixtisarın ixtisarına ixtisarında ixtisarından ixtisarını ixtisarının
+4	2804	xas	
+5	2805	müdrik	
+6	2806	yoldaşlıq	yoldaşlıqda yoldaşlıqdan yoldaşlıqlar yoldaşlıqları yoldaşlığı
+7	2807	dəxl	dəxli dəxlim dəxlimiz dəxlin dəxliniz
+8	2808	briqada	briqadada briqadadan briqadalar briqadalara briqadalardan briqadaları briqadalarımız briqadaların briqadalarına briqadalarında briqadalarından briqadalarını briqadalarının briqadamız briqadan briqadanı briqadanın briqadası briqadasına briqadasında briqadasından briqadasını briqadasının briqadaya
+9	2809	dəb	dəbdə dəbdən dəbi dəbin dəbində dəbindən dəbini dəbinin dəbinə dəblər dəblərin dəblərində dəblərinin dəblərinə dəblərə dəbə
+10	2810	dairəvi	
+11	2811	bəzək	bəzəkdə bəzəkdən bəzəklər bəzəklərdə bəzəklərdən bəzəkləri bəzəklərin bəzəklərində bəzəklərindən bəzəklərini bəzəklərinin bəzəklərinə bəzəklərə bəzəyi bəzəyin bəzəyində bəzəyini bəzəyinin bəzəyinə bəzəyə
+12	2812	məmulat	məmulata məmulatda məmulatdan məmulatlar məmulatlara məmulatlarda məmulatlardan məmulatları məmulatlarımızı məmulatların məmulatlarına məmulatlarında məmulatlarından məmulatlarını məmulatlarının məmulatı məmulatın məmulatına məmulatında məmulatından məmulatını məmulatının
+13	2813	iflic	iflicdə iflicdən iflici iflicin iflicindən iflicinin iflicinə ifliclər iflicləri ifliclərin ifliclərinin iflicə
+14	2814	qədəm	qədəmdə qədəmi qədəmin qədəmlər qədəmləri qədəmlərini qədəmlərinizi qədəmlərinə
+15	2815	döşəmə	döşəmədə döşəmədən döşəmələr döşəmələrdə döşəmələrdən döşəmələri döşəmələrin döşəmələrində döşəmələrindən döşəmələrini döşəmələrinin döşəmələrinə döşəmələrə döşəməmiz döşəməni döşəmənin döşəməsi döşəməsində döşəməsindən döşəməsini döşəməsinin döşəməsinə döşəməyə
+16	2816	qurtuluş	qurtuluşa qurtuluşdan qurtuluşlar qurtuluşların qurtuluşlarının qurtuluşu qurtuluşumuz qurtuluşumuzun qurtuluşun qurtuluşuna qurtuluşundan qurtuluşunu qurtuluşunun
+17	2817	israr	israra isrardan israrlar israrlara israrları israrlarımıza israrlarımızdan israrlarına israrlarında israrlarından israrlarını israrı israrımdan israrımızdan israrımızı israrına israrında israrından israrını israrının
+18	2818	sinir	sinirdə sinirdən siniri sinirim sinirin sinirində sinirindən sinirini sinirinin sinirlər sinirlərdən sinirləri sinirlərim sinirlərin sinirlərində sinirlərindən sinirlərini sinirlərinin sinirlərinə sinirlərə sinirə
+19	2819	sizinki	sizinkilər sizinkilərdən sizinkiləri sizinkilərin sizinkilərə sizinkində sizinkindən sizinkini sizinkinin sizinkinə
+20	2820	çıraq	çıraqda çıraqdan çıraqlar çıraqlara çıraqlarda çıraqlardan çıraqları çıraqların çıraqlarını çırağa çırağı çırağımız çırağın çırağına çırağını çırağının
+21	2821	nahiyə	nahiyədə nahiyədən nahiyələr nahiyələrdə nahiyələrdən nahiyələri nahiyələrin nahiyələrində nahiyələrindən nahiyələrini nahiyələrinin nahiyələrinizə nahiyələrinə nahiyələrə nahiyəmdə nahiyəmdən nahiyəmə nahiyəni nahiyənin nahiyənizi nahiyənizin nahiyəsi nahiyəsində nahiyəsindən nahiyəsini nahiyəsinin nahiyəsinə nahiyəyə
+22	2822	bioloji	
+23	2823	yetkin	
+24	2824	tarakan	tarakana tarakanda tarakanlar tarakanlara tarakanlardan tarakanları tarakanların tarakanın
+25	2825	tullantı	tullantıdan tullantılar tullantılara tullantılarda tullantılardan tullantıları tullantılarımızı tullantıların tullantılarına tullantılarında tullantılarından tullantılarını tullantılarının tullantını tullantının tullantısı tullantısına tullantısından tullantısını tullantısının tullantıya
+26	2826	işıqlandırmaq	işıqlandır işıqlandıra işıqlandıracaq işıqlandıracaqdı işıqlandıracaqlar işıqlandıracağıq işıqlandıran işıqlandıranda işıqlandıraq işıqlandıraraq işıqlandırarkən işıqlandırdı işıqlandırdıq işıqlandırdıqları işıqlandırma işıqlandırmadan işıqlandırmadı işıqlandırmadınız işıqlandırmalıdır işıqlandırmamalıyıq işıqlandırmamaq işıqlandırmaya işıqlandırmayacaq işıqlandırmayıb işıqlandırmayıblar işıqlandırmır işıqlandırmış işıqlandırmışdır işıqlandırmışlar işıqlandırmışıq işıqlandırsa işıqlandırsın işıqlandırsınlar işıqlandırıb işıqlandırıblar işıqlandırır işıqlandırırdı işıqlandırırlar işıqlandırırıq
+27	2827	imtiyaz	imtiyaza imtiyazdan imtiyazlar imtiyazlara imtiyazlarda imtiyazlardan imtiyazları imtiyazlarımız imtiyazların imtiyazlarına imtiyazlarından imtiyazlarını imtiyazlarının imtiyazı imtiyazımız imtiyazın imtiyazına imtiyazından imtiyazını imtiyazının imtiyazınız
+28	2828	coğrafiya	coğrafiyada coğrafiyadan coğrafiyalara coğrafiyalarda coğrafiyalarında coğrafiyamız coğrafiyamıza coğrafiyamızda coğrafiyamızdan coğrafiyamızın coğrafiyanı coğrafiyanın coğrafiyası coğrafiyasına coğrafiyasında coğrafiyasından coğrafiyasını coğrafiyasının coğrafiyaya
+29	2829	türkiyəli	türkiyəlilər türkiyəlilərdən türkiyəliləri türkiyəlilərin türkiyəlilərə türkiyəlinin
+30	2830	gözlənti	gözləntidə gözləntilər gözləntilərdən gözləntiləri gözləntilərim gözləntilərimiz gözləntilərimizi gözləntilərimizin gözləntilərin gözləntilərində gözləntilərindən gözləntilərini gözləntilərinin gözləntiləriniz gözləntilərinizdə gözləntilərinizi gözləntilərinə gözləntilərə gözləntim gözləntimiz gözləntimə gözləntinin gözləntiniz gözləntisi gözləntisindən gözləntisini gözləntisinin gözləntisinə gözləntiyə
+31	2831	dinləyici	dinləyicidə dinləyicidən dinləyicilər dinləyicilərdə dinləyicilərdən dinləyiciləri dinləyicilərim dinləyicilərimin dinləyicilərimiz dinləyicilərimizdən dinləyicilərimizi dinləyicilərimizin dinləyicilərimizə dinləyicilərimə dinləyicilərin dinləyicilərində dinləyicilərindən dinləyicilərini dinləyicilərinin dinləyicilərinə dinləyicilərə dinləyicimiz dinləyicimizi dinləyicimizin dinləyicimizə dinləyicimə dinləyicini dinləyicinin dinləyicisi dinləyicisinin dinləyicisinə dinləyiciyə
+32	2832	köç	köçdən köçlər köçlərdə köçlərdən köçləri köçlərin köçlərindən köçlərini köçlərinin köçlərinə köçlərə köçü köçüm köçümə köçün köçündə köçündən köçünü köçünün köçünə
+33	2833	aqibət	aqibətdən aqibəti aqibətim aqibətimin aqibətimiz aqibətimizdə aqibətimizi aqibətin aqibətində aqibətindən aqibətini aqibətinin aqibətiniz aqibətinizin aqibətinə aqibətləri aqibətlərin aqibətlərindən aqibətlərini aqibətlərinin aqibətlərə aqibətə
+34	2834	emalatxana	emalatxanada emalatxanadan emalatxanalar emalatxanalara emalatxanalarda emalatxanalardan emalatxanaları emalatxanaların emalatxanalarına emalatxanalarında emalatxanalarından emalatxanalarını emalatxanalarının emalatxanam emalatxanamda emalatxanana emalatxananı emalatxananın emalatxanası emalatxanasına emalatxanasında emalatxanasından emalatxanasını emalatxanasının emalatxanaya
+35	2835	dartmaq	dart darta darta-darta dartacaq dartacaqdı dartam dartan dartanda dartar dartaraq dartarkən dartdı dartdılar dartdım dartdıqları dartma dartmalıdır dartmasın dartmayıb dartmayın dartmış dartsa dartsan dartsın dartıb dartır dartıram dartırdı dartırdılar dartırlar dartırsan dartırıq
+36	2836	həmişəlik	
+37	2837	dözülməz	
+38	2838	sallanmaq	sallana sallanacaq sallanan sallanar sallanaraq sallanarkən sallandı sallanma sallanmasın sallanmır sallanmış sallanmışdı sallanmışdır sallansın sallanıb sallanır sallanırdı sallanırdılar sallanırlar sallanırmış
+39	2839	boşalmaq	boşal boşala boşalacaq boşalan boşalanda boşalar boşalaraq boşalarkən boşaldı boşaldılar boşaldım boşaldın boşaldıqca boşalma boşalmasa boşalmayan boşalmayanda boşalmayıb boşalmır boşalmısan boşalmış boşalmışam boşalmışdı boşalmışdır boşalmışıq boşalsa boşalsın boşalıb boşalır
+40	2840	xilaskar	xilaskara xilaskardan xilaskarlar xilaskarları xilaskarlarımız xilaskarların xilaskarlarından xilaskarlarını xilaskarlarının xilaskarı xilaskarım xilaskarımız xilaskarımızdan xilaskarımızın xilaskarın xilaskarına xilaskarını xilaskarının
+41	2841	öküz	öküzdən öküzlər öküzlərdən öküzləri öküzlərin öküzlərini öküzlərinin öküzlərə öküzü öküzün öküzə
+42	2842	sayğac	sayğaca sayğacda sayğacdan sayğaclar sayğaclara sayğaclarda sayğaclardan sayğacları sayğaclarımız sayğacların sayğaclarına sayğaclarında sayğaclarından sayğaclarını sayğaclarının sayğacı sayğacımız sayğacın sayğacına sayğacında sayğacından sayğacını sayğacının sayğacınıza
+43	2843	səfeh	
+44	2844	jurnalistika	jurnalistikalar jurnalistikam jurnalistikanı
+45	2845	fırıldaq	fırıldaqda fırıldaqdan fırıldaqlar fırıldaqlara fırıldaqlarda fırıldaqlardan fırıldaqları fırıldaqların fırıldaqlarına fırıldaqlarında fırıldaqlarından fırıldaqlarını fırıldaqlarının fırıldağa fırıldağı fırıldağın fırıldağına fırıldağında fırıldağından fırıldağının
+46	2846	zəka	zəkada zəkadan zəkalar zəkalara zəkalarda zəkalardan zəkaları zəkaların zəkalarına zəkalarından zəkalarının zəkama zəkanı zəkanın zəkanızı zəkası zəkasına zəkasında zəkasından zəkasını zəkasının zəkaya
+47	2847	təzminat	təzminata təzminatdan təzminatlar təzminatlara təzminatları təzminatların təzminatlarından təzminatlarını təzminatı təzminatın təzminatına təzminatını təzminatının
+48	2848	asayiş	asayişi
+49	2849	gövdə	gövdədə gövdədən gövdələr gövdələrdə gövdələrdən gövdələri gövdələrin gövdələrində gövdələrindən gövdələrini gövdələrinin gövdələrinə gövdələrə gövdəmi gövdəni gövdənin gövdəsi gövdəsində gövdəsindən gövdəsini gövdəsinin gövdəsinə gövdəyə
+50	2850	eybəcər	eybəcəri eybəcərin eybəcərlər eybəcərlərə
+51	2851	qisas	qisasa qisasdan qisasları qisaslarını qisası qisasım qisasımı qisasımız qisasımızı qisasın qisasına qisasından qisasını qisasının qisasınızı
+52	2852	yatırmaq	yatıra yatıracaq yatıracaqlar yatıracağam yatıram yatıran yatıranda yatıraraq yatırarkən yatırdı yatırdıq yatırdıqları yatırma yatırmalıdır yatırmalıydı yatırmayıb yatırmır yatırmışdı yatırmışdılar yatırmışdır yatırsalar yatırsan yatırsın yatırıb yatırıblar yatırım yatırımlar yatırımlardan yatırımları yatırımların yatırımlarına yatırımlarını yatırımlarının yatırımı yatırımının yatırır yatırırdı yatırırlar yatırırıq
+53	2853	işgüzar	
+54	2854	səyyah	səyyaha səyyahdan səyyahlar səyyahlara səyyahlardan səyyahları səyyahların səyyahlarına səyyahlarından səyyahlarını səyyahlarının səyyahı səyyahın səyyahında səyyahını səyyahının
+55	2855	dözümlü	
+56	2856	əqidə	əqidədə əqidədən əqidələr əqidələrdə əqidələrdən əqidələri əqidələrimi əqidələrimizi əqidələrin əqidələrində əqidələrindən əqidələrini əqidələrinin əqidələrinə əqidələrə əqidəm əqidəmdən əqidəmi əqidəmin əqidəmiz əqidəmizdən əqidəmizi əqidəmizin əqidəmizə əqidəmə əqidən əqidəni əqidənin əqidəniz əqidənizin əqidənizə əqidənə əqidəsi əqidəsində əqidəsindən əqidəsini əqidəsinin əqidəsinə əqidəyə
+57	2857	meyar	meyara meyardan meyarlar meyarlara meyarlarda meyarlardan meyarları meyarların meyarlarına meyarlarında meyarlarından meyarlarını meyarlarının meyarı meyarım meyarımız meyarın meyarına meyarından meyarını meyarının
+58	2858	burmaq	bur buralar buran buraq buraraq burdu burdular burdum burma burmayacaqlar bursa bursun burub burublar burur bururdu bururdular bururlar bururmuş bururuq
+59	2859	abadlıq	abadlığa abadlığı abadlığına abadlığını
+60	2860	mübahisəli	
+61	2861	cisim	cisimdə cisimdən cisimlər cisimlərdə cisimlərdən cisimləri cisimlərin cisimlərində cisimlərindən cisimlərini cisimlərinin cisimlərinə cisimlərə cism cismi cismim cismimdə cismimdən cismimi cismimizi cismin cismində cismindən cismini cisminin cisminiz cisminə cismə
+62	2862	pendir	pendirdə pendirdən pendiri pendirin pendirindən pendirini pendirinin pendirinə pendirlər pendirlərdən pendirləri pendirlərin pendirlərindən pendirləriniz pendirə
+63	2863	qocalmaq	qocala qocalacaq qocalacaqsan qocalacaqsınız qocalan qocalanda qocalar qocalaram qocalarsan qocaldı qocaldılar qocaldım qocaldıq qocaldıqca qocalma qocalmadan qocalmalıyam qocalmamısan qocalmamısınız qocalmamış qocalmamışam qocalmayacaqlar qocalmayan qocalmır qocalmırlar qocalmırıq qocalmısan qocalmış qocalmışam qocalmışdı qocalmışdır qocalsam qocalıb qocalıblar qocalır qocalırdı qocalırlar qocalırsan qocalırıq
+64	2864	tovuz	tovuza tovuzda tovuzdan tovuzu tovuzun
+65	2865	rəğmən	
+66	2866	budaq	budaqda budaqdan budaqlar budaqlara budaqlarda budaqlardan budaqları budaqların budaqlarına budaqlarında budaqlarından budaqlarını budaqlarının budağa budağı budağın budağına budağında budağından budağını budağının
+67	2867	əcaib	
+68	2868	küsmək	küs küsdü küsdüm küsdünüz küsmüsən küsmüş küsmüşdü küsmüşdüm küsmüşük küsmüşəm küsmə küsmədi küsməmisən küsməmişik küsməmişəm küsmərəm küsməsinlər küsməyim küsməyin küsməyə küsməyəsən küsməz küsməzdim küsməzlər küssün küssünlər küssə küssəm küsüb küsüm küsür küsürdü küsürdülər küsürlər küsürsünüz küsəcək küsən küsər küsərlər
+69	2869	zərf	zərfdə zərfdən zərfi zərfin zərfində zərfindən zərfini zərfinin zərfinə zərflər zərflərdə zərfləri zərflərin zərflərinin zərflərə zərfə
+70	2870	çevik	
+71	2871	qoparmaq	qopar qopara qopara-qopara qoparacaq qoparacaqdı qoparacaqlar qoparacağıq qoparan qoparaq qoparar qopararam qopararaq qoparardı qoparardılar qopararlar qopararsan qopardı qopardılar qopardım qopardın qopardıqları qoparma qoparmadan qoparmazdı qoparmısan qoparmış qoparmışdı qoparmışdın qoparsın qoparıb qoparıblar qoparın qoparır qoparıram qoparırdı qoparırdılar qoparırlar qoparırmış qoparırıq
+72	2872	mehmanxana	mehmanxanada mehmanxanadan mehmanxanalar mehmanxanalara mehmanxanalarda mehmanxanalardan mehmanxanaları mehmanxanaların mehmanxanalarında mehmanxanalarından mehmanxanalarının mehmanxanan mehmanxananı mehmanxananın mehmanxanası mehmanxanasına mehmanxanasında mehmanxanasından mehmanxanasını mehmanxanasının mehmanxanaya
+73	2873	yepiskop	yepiskopa yepiskopdan yepiskoplar yepiskoplara yepiskoplardan yepiskopları yepiskopların yepiskoplarını yepiskoplarının yepiskopu yepiskopun yepiskopuna yepiskopundan yepiskopunu yepiskopunun
+74	2874	diaqnoz	diaqnoza diaqnozda diaqnozdan diaqnozlar diaqnozlara diaqnozları diaqnozların diaqnozlarına diaqnozlarından diaqnozlarının diaqnozu diaqnozun diaqnozuna diaqnozunda diaqnozundan diaqnozunu diaqnozunun
+75	2875	sormaq	sor sora soracaq soracaqlar soralar soran soraq soraqlar soraqları soraqlarımız soraqların soraqlarına soraqlarını soraqlarının soraraq sorardılar sorardın sorarkən sorağı sordu sordular sordum sorduq sorduqca sorduqları sorma sormasaq sormazlar sormur sormurdu sormurdular sorsa sorsun sorub sorun sorur sorurdu sorurlar sorursan
+76	2876	silahlanmaq	silahlan silahlana silahlanacaq silahlanan silahlanaraq silahlanardı silahlandı silahlandılar silahlandıq silahlanma silahlanmadan silahlanmalıyıq silahlanmaya silahlanmır silahlanmış silahlanmışdı silahlanmışdılar silahlanmışdır silahlanmışlar silahlanmışıq silahlansın silahlanıb silahlanıblar silahlanın silahlanır silahlanırdı silahlanırdılar silahlanırlar
+77	2877	vəzi	bəz vəzidə vəzidən vəzilər vəzilərdə vəzilərdən vəziləri vəzilərimin vəzilərin vəzilərində vəzilərindən vəzilərini vəzilərinin vəzilərinə vəzilərə vəzin vəzində vəzindən vəzini vəzinin vəzinə vəzisi vəzisində vəzisindən vəzisini vəzisinin vəzisinə vəziyə
+78	2878	xeyirxah	
+79	2879	fırtına	fırtınada fırtınadan fırtınalar fırtınalara fırtınalarda fırtınalardan fırtınaları fırtınaların fırtınalarına fırtınalarından fırtınalarının fırtınanı
+80	2880	heyrətamiz	
+81	2881	dastan	dastana dastanda dastandan dastanlar dastanlara dastanlarda dastanlardan dastanları dastanlarımız dastanlarımıza dastanlarımızda dastanlarımızdan dastanlarımızı dastanlarımızın dastanların dastanlarına dastanlarında dastanlarından dastanlarını dastanlarının dastanı dastanım dastanımız dastanımızı dastanımızın dastanın dastanına dastanında dastanından dastanını dastanının
+82	2882	qırx	
+83	2883	koreyalı	koreyalıdan koreyalılar koreyalılara koreyalılardan koreyalıları koreyalıların koreyalını koreyalının koreyalısı
+84	2884	təzahür	təzahürdə təzahürdən təzahürlər təzahürlərdə təzahürlərdən təzahürləri təzahürlərin təzahürlərində təzahürlərindən təzahürlərini təzahürlərinin təzahürlərinə təzahürlərə təzahürü təzahürün təzahüründə təzahüründən təzahürünü təzahürünün təzahürünə təzahürə
+85	2885	həcc	həccdə həccdən həcci həccin həccində həccindən həccini həccləri həccə
+86	2886	arayış	arayışa arayışda arayışdan arayışlar arayışlara arayışlarda arayışlardan arayışları arayışların arayışlarına arayışlarını arayışı arayışın arayışına arayışında arayışından arayışını arayışının
+87	2887	vaxtaşırı	
+88	2888	şadlıq	şadlıqda şadlıqdan şadlıqlar şadlıqlarda şadlıqları şadlığı şadlığımdan şadlığımın şadlığın şadlığına şadlığından şadlığını şadlığının
+89	2889	lüğət	lüğətdə lüğətdən lüğəti lüğətimizdə lüğətimizin lüğətin lüğətində lüğətindən lüğətini lüğətinin lüğətinə lüğətlər lüğətlərdə lüğətlərdən lüğətləri lüğətlərim lüğətlərimi lüğətlərimiz lüğətlərin lüğətlərində lüğətlərindən lüğətlərinin lüğətlərinə lüğətlərə lüğətə
+90	2890	helikopter	helikopterdə helikopterdən helikopteri helikopterin helikopterində helikopterindən helikopterini helikopterinin helikopterinə helikopterlər helikopterlərdə helikopterlərdən helikopterləri helikopterlərimiz helikopterlərin helikopterlərində helikopterlərindən helikopterlərini helikopterlərinin helikopterlərinə helikopterlərə helikopterə
+91	2891	qıtlıq	qıtlıqda qıtlıqdan qıtlıqlar qıtlıqlara qıtlığa qıtlığı qıtlığımız qıtlığın qıtlığına qıtlığında qıtlığından qıtlığını qıtlığının
+92	2892	türkdilli	türkdillilər türkdilliləri türkdillilərin türkdillilərinin
+93	2893	rəfiqə	rəfiqədən rəfiqələr rəfiqələri rəfiqələrim rəfiqələrimdən rəfiqələrimi rəfiqələrimin rəfiqələrimiz rəfiqələrin rəfiqələrindən rəfiqələrini rəfiqələrinin rəfiqələrinə rəfiqələrə rəfiqəm rəfiqəmdən rəfiqəmi rəfiqəmin rəfiqəmizin rəfiqəmə rəfiqən rəfiqəni rəfiqənin rəfiqəniz rəfiqənizdən rəfiqəsi rəfiqəsindən rəfiqəsini rəfiqəsinin rəfiqəsinə
+94	2894	rüşvətxorluq	rüşvətxorluqda rüşvətxorluqdan rüşvətxorluqlardan rüşvətxorluqları rüşvətxorluqlarından rüşvətxorluğa rüşvətxorluğu rüşvətxorluğun rüşvətxorluğuna rüşvətxorluğundan rüşvətxorluğunu rüşvətxorluğunuzdan
+95	2895	rusiyalı	
+96	2896	yüksəltmək	yüksəldib yüksəldiblər yüksəldim yüksəldir yüksəldirdi yüksəldirik yüksəldirlər yüksəldirsən yüksəldirəm yüksəldə yüksəldəcək yüksəldəcəkdi yüksəldəcəksən yüksəldəcəyəm yüksəldək yüksəldən yüksəldərdi yüksəldərək yüksəldərəm yüksəlt yüksəltdi yüksəltdikcə yüksəltdikləri yüksəltdilər yüksəltdim yüksəltmir yüksəltmirdi yüksəltmirəm yüksəltmiş yüksəltmişdi yüksəltmişdir yüksəltmişəm yüksəltmə yüksəltmədən yüksəltməlidir yüksəltməlidirlər yüksəltməyin yüksəltməyə yüksəltsin
+97	2897	əkilmək	əkil əkildi əkilib əkilir əkilirdi əkilmir əkilmiş əkilmişdi əkilmişdir əkilmə əkilməlidir əkilməmiş əkilməməli əkilməsin əkilməyib əkilməyə əkilməyən əkilsin əkilsə əkilsəydi əkilə əkiləcək əkilən əkiləndə əkilər əkilərdi əkilərək
+98	2898	dolayı	
+99	2899	ustad	ustada ustaddan ustadlar ustadlara ustadlardan ustadları ustadlarımın ustadlarımız ustadlarımıza ustadlarımızı ustadlarımızın ustadların ustadlarına ustadlarında ustadlarından ustadlarının ustadı ustadım ustadımız ustadımızın ustadın ustadına ustadından ustadını ustadının ustadınız
+100	2900	dalaşmaq	dalaş dalaşa dalaşa-dalaşa dalaşacaq dalaşan dalaşanda dalaşaq dalaşaraq dalaşardı dalaşardılar dalaşarlar dalaşasan dalaşdı dalaşdıqları dalaşmalıyıq dalaşmamaq dalaşmamışam dalaşmasın dalaşmaya dalaşmayacaqlar dalaşmaz dalaşmazdı dalaşmısan dalaşmış dalaşmışam dalaşmışdı dalaşsan dalaşıb dalaşıblar dalaşıbsan dalaşır dalaşıram dalaşırdı dalaşırdılar dalaşırdıq dalaşırlar dalaşırmış dalaşırsan dalaşırsınız

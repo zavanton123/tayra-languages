@@ -1,0 +1,100 @@
+1	5601	qaçınmaq	qaçın qaçına qaçınacağam qaçınan qaçınaraq qaçınardı qaçınma qaçınmalıdırlar qaçınmışdır qaçınsanız qaçının qaçınır
+2	5602	qoşqu	qoşquda qoşqudan qoşqular qoşqulara qoşquları qoşquların qoşqularına qoşqularında qoşqularının qoşqunu qoşqunun qoşqusu qoşqusuna qoşqusunda qoşquya
+3	5603	borş	borşa borşda borşu borşun borşundan borşunu
+4	5604	kvartal	kvartala kvartalda kvartaldan kvartallar kvartallara kvartallarda kvartalları kvartalların kvartallarına kvartallarında kvartallarından kvartallarını kvartalı kvartalın kvartalına kvartalında kvartalından kvartalını kvartalının
+5	5605	küknar	küknara küknardan küknarlara küknarların küknarı küknarın küknarından küknarının
+6	5606	baldız	baldıza baldızdan baldızları baldızlarıma baldızlarımın baldızlarından baldızı baldızım baldızımdan baldızımı baldızın baldızını baldızının
+7	5607	bayat	
+8	5608	sağıcı	sağıcılar sağıcıların sağıcılarının sağıcının
+9	5609	köndələn	
+10	5610	mamaça	mamaçalar mamaçaların mamaçanın mamaçası mamaçasının
+11	5611	sait	saitdən saiti saitin saitini saitinin saitlər saitləri saitlərin saitlərinin saitlərə saitə
+12	5612	bütpərəstlik	bütpərəstlikdən bütpərəstliyi bütpərəstliyin bütpərəstliyindən bütpərəstliyini bütpərəstliyinin bütpərəstliyə
+13	5613	gəlinlik	gəlinlikdə gəlinliklər gəlinliklərdə gəlinlikləri gəlinliklərin gəlinliklərinin gəlinliyi gəlinliyin gəlinliyini
+14	5614	sürəkli	
+15	5615	abırsız	abırsızlar
+16	5616	devalvasiya	devalvasiyada devalvasiyadan devalvasiyanı devalvasiyanın devalvasiyası devalvasiyasına devalvasiyasından devalvasiyasını devalvasiyasının devalvasiyaya
+17	5617	ayıqlıq	ayıqlıqda ayıqlığı ayıqlığına ayıqlığını ayıqlığının
+18	5618	zəfəran	zəfərana zəfərandan zəfəranı zəfəranın zəfəranının
+19	5619	yazı-pozu	yazı-pozuda yazı-pozudan yazı-pozular yazı-pozum yazı-pozumuzun yazı-pozunu yazı-pozusu yazı-pozusunda yazı-pozusundan yazı-pozusunu yazı-pozuya
+20	5620	təngnəfəs	
+21	5621	sırtıq	sırtığın
+22	5622	toppuş	toppuşa toppuşun
+23	5623	sov	
+24	5624	dönərxana	dönərxanada dönərxanalara dönərxanalarda dönərxanalardan dönərxanaların dönərxanalarında dönərxananın dönərxanası dönərxanasına dönərxanaya
+25	5625	dombalaq	
+26	5626	təbir	təbirdə təbiri təbirində təbirini təbirinin təbirinə təbirlər təbirləri təbirlərimiz təbirlərin təbirlərə təbirə
+27	5627	döyüşkən	
+28	5628	nəzəriyyəçi	nəzəriyyəçilər nəzəriyyəçilərdən nəzəriyyəçiləri nəzəriyyəçilərin nəzəriyyəçilərindən nəzəriyyəçilərinin nəzəriyyəçilərinə nəzəriyyəçilərə nəzəriyyəçisi
+29	5629	gəbərmək	gəbərdi gəbərib gəbərim gəbərir gəbərmiş gəbərmişdi gəbərə gəbərəcək
+30	5630	maariflənmək	maariflən maarifləndikcə maarifləndilər maarifləniblər maariflənin maariflənir maariflənmiş maariflənmə maariflənmədən maariflənməlisən maariflənməmiş maariflənməyin maariflənməyə maariflənsin maariflənək maariflənən
+31	5631	məşvərətçi	məşvərətçilər məşvərətçilərdən məşvərətçilərin məşvərətçimiz məşvərətçisi məşvərətçiyə
+32	5632	alça	alçadan alçalar alçalara alçanı alçanın alçası alçaya
+33	5633	kenquru	kenqurular kenquruların kenqurunun
+34	5634	havasız	
+35	5635	nadinc	
+36	5636	dü	
+37	5637	ikigünlük	
+38	5638	məzə	məzədən məzələr məzələrdən məzələri məzəm məzəmdə məzəmə məzən məzəni məzəniz məzəsi məzəsindən məzəyə
+39	5639	biçənək	biçənəkdən biçənəklər biçənəklərdə biçənəklərdən biçənəkləri biçənəklərin biçənəklərinin biçənəklərə biçənəyi biçənəyin biçənəyini
+40	5640	ziyansız	
+41	5641	arxipelaq	arxipelaqda arxipelaqdan arxipelaqlar arxipelaqları arxipelaqlarında arxipelaqlarından arxipelaqlarının arxipelağı arxipelağın arxipelağına arxipelağında arxipelağından arxipelağını arxipelağının
+42	5642	kirlənmək	kirlənib kirlənir kirlənmiş kirlənmə kirlənmədən kirlənməsin kirlənməyib
+43	5643	biçarə	
+44	5644	qatışıq	qatışıqdan qatışıqlar qatışıqlardan qatışıqları qatışıqlarında qatışıqlarından qatışıqlarının qatışığı qatışığın qatışığına qatışığında qatışığından qatışığının
+45	5645	sönük	
+46	5646	itiləmək	itilə itilədi itiləmisən itiləmə itiləmədi itiləməliyik itiləyib
+47	5647	leksik	
+48	5648	perulu	perulular perululara peruluları peruluların
+49	5649	tıxamaq	tıxa tıxadıqları tıxamış tıxayan tıxayıb tıxayıblar tıxayın tıxayır tıxayırlar
+50	5650	altmışıncı	
+51	5651	adaş	adaşlar adaşlardan adaşları adaşlarımın adaşlarından adaşı adaşım adaşın adaşına adaşını adaşınız
+52	5652	beşbarmaq	beşbarmaqda beşbarmaqdan beşbarmağı beşbarmağın
+53	5653	ishal	ishala ishalda ishaldan ishallar ishalı ishalın
+54	5654	quduzluq	quduzluqdan quduzluğa quduzluğu quduzluğun
+55	5655	aysberq	aysberqdə aysberqdən aysberqi aysberqin aysberqinin aysberqinə aysberqlər aysberqlərdə aysberqləri aysberqlərin aysberqlərinin aysberqlərə aysberqə
+56	5656	tezləşdirmək	tezləşdir tezləşdirdi tezləşdirib tezləşdiriblər tezləşdirin tezləşdirir tezləşdirirdi tezləşdirməlidir tezləşdirməyə tezləşdirsin tezləşdirsələr tezləşdirə tezləşdirəcək tezləşdirəcəyik tezləşdirək tezləşdirən tezləşdirər tezləşdirərək
+57	5657	unutqan	
+58	5658	təhqiredici	
+59	5659	mütləqiyyət	mütləqiyyətdən mütləqiyyəti mütləqiyyətin mütləqiyyətində mütləqiyyətindən mütləqiyyətini mütləqiyyətinin mütləqiyyətinə mütləqiyyətə
+60	5660	əczaxana	əczaxanada əczaxanalar əczaxanalarda əczaxanaları əczaxanası əczaxanasında əczaxanaya
+61	5661	qısqac	qısqacdan qısqaclar qısqaclara qısqaclarda qısqacları qısqacların qısqaclarının qısqacı qısqacın
+62	5662	qaratoyuq	qaratoyuqdan qaratoyuqlar qaratoyuğa qaratoyuğun qaratoyuğunun
+63	5663	duyuq	
+64	5664	darısqal	
+65	5665	durğu	durğulara durğun
+66	5666	talançı	talançılar talançılara talançılardan talançıları talançıların talançının
+67	5667	kometa	kometadan kometalar kometaların kometanın kometası kometasını kometaya
+68	5668	bisavad	
+69	5669	qığırdaq	qığırdaqda qığırdaqdan qığırdaqlar qığırdaqlara qığırdaqlarda qığırdaqlardan qığırdaqları qığırdaqların qığırdaqlarında qığırdaqlarından qığırdaqlarının qığırdağa qığırdağı qığırdağın qığırdağına qığırdağında qığırdağından qığırdağının
+70	5670	zillət	zillətdə zillətdən zilləti zillətin zillətindən zillətini zillətinə zillətlər zillətlərə zillətə
+71	5671	yorğan-döşək	yorğan-döşəkdə yorğan-döşəkdən yorğan-döşəklər yorğan-döşəyi yorğan-döşəyimiz yorğan-döşəyin yorğan-döşəyini yorğan-döşəyə
+72	5672	mədaxil	mədaxildən mədaxili mədaxilin mədaxilini mədaxilinin mədaxilinə mədaxilləri mədaxillərin mədaxillərinin
+73	5673	qoruqçu	qoruqçular qoruqçuları qoruqçunun qoruqçusu qoruqçusuna qoruqçuya
+74	5674	oxunaqlı	
+75	5675	qovğa	qovğada qovğadan qovğalar qovğalara qovğalarda qovğalardan qovğaları qovğaların qovğalarına qovğalarının qovğamız qovğanın qovğası qovğasına qovğasının qovğaya
+76	5676	intiharçı	intiharçılar intiharçılara intiharçılarda intiharçıların intiharçını intiharçının intiharçısı
+77	5677	qaxac	qaxaca
+78	5678	şal	şala şalalar şaldan şallar şallarda şallardan şallarında şalı şalın şalından şalını
+79	5679	baltalamaq	baltaladı baltaladılar baltalamaz baltalamır baltalamıram baltalamırlar baltalamış baltalamışdılar baltalanmaq baltalayan baltalayar baltalayaraq baltalayıb baltalayıbmış baltalayır baltalayırdınız baltalayırıq
+80	5680	aralamaq	arala araladı araladıq aralamayıb aralamış aralamışdı aralamışdılar aralasaq aralaya aralayacaqsınız aralayan aralayaraq aralayasan aralayıb aralayıblar aralayır
+81	5681	daşqalaq	daşqalaqdan
+82	5682	riyakar	
+83	5683	dönük	dönüklər dönüklərdən dönükləri dönüklərin dönüklərinin
+84	5684	şəkk	şəkdən şəkki şəkkim şəkkin şəkkiniz şəkkinə şəkkə şəklər
+85	5685	təəssübkeş	təəssübkeşdən təəssübkeşi təəssübkeşinin təəssübkeşləri təəssübkeşlərindən təəssübkeşlərini təəssübkeşlərinin təəssübkeşlərinə
+86	5686	nakam	
+87	5687	beyət	beyətdə beyətdən beyəti beyətin beyətində beyətini beyətinə beyətə
+88	5688	ibadətgah	ibadətgaha ibadətgahda ibadətgahdan ibadətgahlar ibadətgahlara ibadətgahlarda ibadətgahlardan ibadətgahları ibadətgahların ibadətgahlarına ibadətgahlarının ibadətgahı ibadətgahımız ibadətgahın ibadətgahına ibadətgahında ibadətgahından ibadətgahını ibadətgahının
+89	5689	siftə	siftədən siftəmiz siftəmizi siftəni siftəsini siftəsinin
+90	5690	yolçuluq	yolçuluqda yolçuluqdan yolçuluqlar yolçuluqlara yolçuluqları yolçuluqların yolçuluğa yolçuluğu yolçuluğumuzu yolçuluğun yolçuluğuna yolçuluğunda
+91	5691	münşi	münşilər münşilərin münşilərindən münşinin münşisi münşiyə
+92	5692	dəyyus	dəyyuslar dəyyusu
+93	5693	vicdansız	
+94	5694	ad-san	ad-sana ad-sandan ad-sanlarına ad-sanı ad-sanın ad-sanına ad-sanında ad-sanını
+95	5695	gürzə	gürzələr gürzələri gürzələrin gürzələrinə gürzələrə gürzəni gürzənin gürzəsi gürzəsini gürzəsinin gürzəyə
+96	5696	qiyas	qiyasa qiyasdan qiyası qiyasın
+97	5697	hörmətsiz	
+98	5698	dalğıc	dalğıcdan dalğıclar dalğıclardan dalğıcları dalğıclarım dalğıcların dalğıcı dalğıcın dalğıcının
+99	5699	bomj	bomjlar bomjlara bomjları bomjların bomjlarına bomju bomjun
+100	5700	xatir	

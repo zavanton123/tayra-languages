@@ -1,0 +1,100 @@
+1	7101	gəzəyən	gəzəyənin gəzəyənlər gəzəyənlərin gəzəyənlərə
+2	7102	arıxana	arıxanada arıxanalar arıxanalarda arıxanaları arıxananın arıxanası
+3	7103	ikidilli	
+4	7104	məzmur	məzmura məzmurlar məzmurlarda məzmurların məzmurlarından məzmuru məzmurun
+5	7105	mall	
+6	7106	sağmal	
+7	7107	dilşünaslıq	dilşünaslığa dilşünaslığın
+8	7108	arxac	arxaca arxacların
+9	7109	arxaikləşmək	arxaikləşib arxaikləşir arxaikləşmiş arxaikləşmişdir arxaikləşsə
+10	7110	zağar	zağa
+11	7111	nevroloq	nevroloqlar nevroloqları nevroloqların nevroloqu
+12	7112	qutan	qutanlar qutanlara qutanların qutanı qutanın
+13	7113	bişərəf	
+14	7114	gönüqalın	
+15	7115	kəllədaxili	
+16	7116	petux	
+17	7117	aztutumlu	
+18	7118	hayan	
+19	7119	bəxtli	
+20	7120	uşaqbaz	uşaqbazlar uşaqbazların
+21	7121	dermatoloq	dermatoloqu dermatoloqun
+22	7122	taxtabiti	taxtabitinin
+23	7123	onalmaq	onala onalar
+24	7124	ekspromt	
+25	7125	tamdəyərli	
+26	7126	ümumiliklə	
+27	7127	politbüro	politbürodan politbüronun politbürosu
+28	7128	süni intellekt	intellekt süni
+29	7129	falanqa	falanqalar falanqanı
+30	7130	çoxhədli	çoxhədlilər çoxhədliləri çoxhədlilərin çoxhədlini çoxhədlinin çoxhədlisi çoxhədlisinin
+31	7131	redut	redutda redutdan redutlar redutları redutlarına redutlarını redutu redutunu redutunun
+32	7132	yedəkləmək	yedəklə yedəklədi yedəkləmə yedəkləyib
+33	7133	antrakt	antraktda antraktlar antraktları antraktında
+34	7134	dəmrov	dəmrova dəmrovu
+35	7135	qılçıq	qılçıqda qılçıqdan qılçıqları qılçıqlarını qılçığı
+36	7136	çəngə	çəngələri çəngəsi çəngəsini
+37	7137	laylay	laylayı
+38	7138	həqir	həqiri həqirinin
+39	7139	nəsihətamiz	
+40	7140	sözdüzəldici	
+41	7141	kefal	kefallar kefalın
+42	7142	kursiv	kursivlər kursivləri
+43	7143	kələz	kələzi kələzin kələzinə kələzlər kələzlərin kələzlərə
+44	7144	qarabatdaq	qarabatdaqlar qarabatdaqlara qarabatdaqlardan qarabatdaqların qarabatdaqlarından qarabatdağı
+45	7145	üskük	üskükdə üsküklərin üsküyü üsküyündən üsküyünün üsküyə
+46	7146	aşılmaz	
+47	7147	hörmətcil	
+48	7148	qaşqaldaq	
+49	7149	qənirsiz	
+50	7150	salamatçılıq	
+51	7151	aşağa	
+52	7152	dabaq	dabağın
+53	7153	yarıyuxulu	
+54	7154	jalüz	jalüzlər jalüzlərin
+55	7155	kamerton	kamertona
+56	7156	üstqurum	üstqurumlar üstqurumu
+57	7157	sumka	sumkalar sumkaları sumkalarında sumkasına sumkasını
+58	7158	tülpan	tülpanların tülpanı
+59	7159	cümə axşamı	axşamı cümə
+60	7160	dilşünas	dilşünaslar dilşünaslarımız dilşünaslarından dilşünası
+61	7161	islamşünaslıq	
+62	7162	məşuq	
+63	7163	lox	loxum
+64	7164	hoqqabaz	hoqqabazda hoqqabazlar hoqqabazları hoqqabazların
+65	7165	rəcm	rəcmi
+66	7166	nona	
+67	7167	üşütmək	üşüdən üşütmədən
+68	7168	ipəkqurdu	
+69	7169	müntəxəbat	müntəxəbatda müntəxəbatlar müntəxəbatlara müntəxəbatlarına müntəxəbatı
+70	7170	turşəng	turşəngi turşənglər turşəngə
+71	7171	çalağan	çalağanlar çalağanların çalağanı çalağanın
+72	7172	nağaraxana	
+73	7173	bivəfa	
+74	7174	bədxərc	
+75	7175	pozuq	
+76	7176	qoduq	
+77	7177	artikl	artikli artiklindən
+78	7178	aşna	aşnalar
+79	7179	əlbisə	əlbisələr
+80	7180	azarlamaq	azarladı azarlasan azarlayıb
+81	7181	neqr	neqri
+82	7182	qolay	qolaya qolayda
+83	7183	cərgələnmək	cərgələnib cərgələnmiş cərgələnmişdir cərgələnərək
+84	7184	çoxnəfərli	
+85	7185	dəvədabanı	dəvədabanına dəvədabanını dəvədabanının
+86	7186	qolçaq	qolçaqlar qolçaqları qolçaqların qolçaqlarını
+87	7187	füzelyaj	füzelyaja füzelyajda füzelyajı füzelyajın füzelyajının
+88	7188	gəndalaş	gəndalaşların kəndalaş
+89	7189	epidemioloq	epidemioloqlar epidemioloqu
+90	7190	həmvətənli	həmvətənliləri həmvətənlilərim həmvətənlilərinin həmvətənlimiz həmvətənliniz həmvətənlisi
+91	7191	xər	xərləri
+92	7192	hidroenergetika	hidroenergetikanın
+93	7193	pirotexnika	pirotexnikada pirotexnikadan
+94	7194	irmaq	irmaqlar irmağı irmağın
+95	7195	toran	toranın toranında
+96	7196	narşərab	narşərablar narşərabı
+97	7197	bülöv	
+98	7198	kərəviz	
+99	7199	vuruq	vuruqlar vuruqlara vuruqları vuruqların vuruğu
+100	7200	loğma	loğmaları loğmana loğmanı loğmanın

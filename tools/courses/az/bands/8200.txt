@@ -1,0 +1,100 @@
+1	8101	qəhvəçi	
+2	8102	serbcə	
+3	8103	ütəlgi	
+4	8104	şamisen	
+5	8105	əhli-məclis	
+6	8106	ətfal	
+7	8107	addiksiya	addiksiyaya
+8	8108	bibliomaniya	bibliomaniyada
+9	8109	buğur	buğurda
+10	8110	bəhanəçi	bəhanəçiləri bəhanəçilərin
+11	8111	dabbağ	dabbağlar
+12	8112	fırlanqıc	fırlanqıclardan fırlanğıc
+13	8113	qaytarıcı	qaytarıcıdan
+14	8114	qurdbasar	qurdbasarlar qurdbasarların
+15	8115	salvadorlu	salvadorlular
+16	8116	abgərdən	abgərdəni
+17	8117	ala-toran	ala-toranda
+18	8118	bişinti	bişintilərin
+19	8119	cansızlıq	cansızlığı
+20	8120	daldırmaq	daldır daldırır
+21	8121	elektrometr	elektrometri elektrometrlərdən
+22	8122	fizioqnomika	fizioqnomikasına
+23	8123	fotoliz	fotolizi
+24	8124	gimnazist	gimnazistlərin gimnazistlərinə
+25	8125	hidrogenerator	hidrogeneratordan hidrogeneratorları
+26	8126	məryəmqurdu	məryəmqurduna
+27	8127	pətənək	pətənəyi
+28	8128	qanov	qanovlarının
+29	8129	sadaq	sadağa sadağını
+30	8130	saqqızağacı	saqqızağacına
+31	8131	səyirmək	səyir səyirdi
+32	8132	taslaq	taslağına taslağını
+33	8133	taxtabənd	taxtabəndlərin
+34	8134	yorulmazlıq	yorulmazlığını
+35	8135	çəlləkçi	çəlləkçilər
+36	8136	şaxşax	şaxşaxa şaxşaxlar
+37	8137	əlfəcin	əlfəcinlər
+38	8138	ələmək	ələ
+39	8139	ortalamaq	ortala ortalamadan ortalamaya
+40	8140	sinək	sinəyə
+41	8141	abacı	
+42	8142	aeronomiya	
+43	8143	ahən	
+44	8144	ana lövhə	ana lövhə
+45	8145	aqrobiologiya	
+46	8146	cizgiçi	cizgiçilər
+47	8147	cümlə üzvü	cümlə üzvü
+48	8148	cırtdan planet	cırtdan planet
+49	8149	cəmadiyəlaxir	
+50	8150	dağıdılmaz	
+51	8151	diş pastası	diş pastası
+52	8152	düşəmbə	
+53	8153	dəbir	
+54	8154	dənizatı	dənizatlarının
+55	8155	ev tapşırığı	ev tapşırığı
+56	8156	fındıqqıran	
+57	8157	güləbrişin	
+58	8158	hamburqer	
+59	8159	körlinq	
+60	8160	lümə	
+61	8161	maddələr mübadiləsi	maddələr mübadiləsi
+62	8162	mahtab	
+63	8163	masqura	maskura
+64	8164	mikrodalğalı soba	mikrodalğalı soba
+65	8165	millətpərəst	
+66	8166	milçəkqıran	
+67	8167	mixi yazı	mixi yazı
+68	8168	muzdlu döyüşçü	döyüşçü muzdlu
+69	8169	nida işarəsi	işarəsi nida
+70	8170	nəsturi	
+71	8171	nəzər nöqtəsi	nöqtəsi nəzər
+72	8172	otuz beş	beş otuz
+73	8173	otuz yeddi	otuz yeddi
+74	8174	promt	
+75	8175	palax	palaxın
+76	8176	paltaryuyan maşın	maşın paltaryuyan
+77	8177	patı	patın
+78	8178	pilotsuz uçuş aparatı	aparatı pilotsuz uçuş
+79	8179	psixometriya	
+80	8180	qarınca	
+81	8181	qol saatı	qol saatı
+82	8182	qoruyucu divar	divar qoruyucu
+83	8183	qunc	quncundan
+84	8184	qırx dörd	dörd qırx
+85	8185	qırx iki	iki qırx
+86	8186	sarışan hallar nevrozu	hallar nevrozu sarışan
+87	8187	sirvan	
+88	8188	stereotipli	
+89	8189	sövr	
+90	8190	sürücülük vəsiqəsi	sürücülük vəsiqəsi
+91	8191	tila	tilam
+92	8192	tüb	
+93	8193	təhlükəsizlik kəməri	kəməri təhlükəsizlik
+94	8194	təktanrıçılıq	
+95	8195	təmyiz	
+96	8196	tərsa	
+97	8197	xillə	
+98	8198	yiyəlik hal	hal yiyəlik
+99	8199	yumşaq güc	güc yumşaq
+100	8200	zirehli transportyor	transportyor zirehli

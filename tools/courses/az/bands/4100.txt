@@ -1,0 +1,100 @@
+1	4001	dövlətlərarası	
+2	4002	dilənçi	dilənçidən dilənçilər dilənçilərdən dilənçiləri dilənçilərin dilənçilərinə dilənçilərə dilənçimiz dilənçini dilənçinin dilənçisi dilənçiyə
+3	4003	firavan	
+4	4004	doyurmaq	doydurmaq doyur doyura doyuracaq doyuracağıq doyuran doyuraram doyurardılar doyurardıq doyurdu doyurdun doyurma doyurmadın doyurmadıq doyurmayacaqdı doyurmaz doyurmur doyursa doyursan doyursun doyursunlar doyurub doyurun doyurur doyururdu doyururlar
+5	4005	dalmaq	dala dala-dala dalacaqlar dalacağam dalam dalanda dalaq dalaqda dalar dalaraq dalarkən dalarsan dalağa dalağı dalağım dalağımız dalağın dalağını daldı daldım daldıqları dalma dalmaya dalmazdı dalmır dalmış dalmışdım dalsam dalsın dalıb dalıbdır dalın dalır dalırdı dalırdım dalırlar dalırmış dalırsan dalırıq
+6	4006	gigiyena	gigiyenalarına gigiyenanın gigiyenası gigiyenasına gigiyenasından gigiyenasını gigiyenasının gigiyenaya
+7	4007	mirvari	mirvaridə mirvaridən mirvarilər mirvarilərdən mirvariləri mirvarilərin mirvarilərini mirvarini mirvarinin mirvarisi mirvarisini mirvarisinin mirvarisinə mirvariyə
+8	4008	koma	komada komadan komalar komalara komalarda komalardan komaları komaların komalarına komalarında komalarını komalarının komam komamız koman komanı komanın koması komasına komasında komasını komasının komaya
+9	4009	dolab	dolaba dolabda dolabdan dolablar dolablarda dolabları dolabların dolablarının dolablarınızda dolabı dolabımdan dolabın dolabında dolabından dolabınız
+10	4010	yüzillik	yüzillikdə yüzillikdən yüzilliklər yüzilliklərdə yüzilliklərdən yüzillikləri yüzilliklərin yüzilliklərində yüzilliklərindən yüzilliklərə yüzilliyi yüzilliyin yüzilliyində yüzilliyindən yüzilliyini yüzilliyinin yüzilliyinə yüzilliyə
+11	4011	dərviş	dərvişdən dərvişi dərvişim dərvişin dərvişinə dərvişlər dərvişlərdən dərvişləri dərvişlərimizin dərvişlərin dərvişlərindən dərvişlərinin dərvişlərinə dərvişlərə dərvişə
+12	4012	cəbhəçi	cəbhəçilər cəbhəçilərdə cəbhəçilərdən cəbhəçiləri cəbhəçilərin cəbhəçilərinə cəbhəçilərə cəbhəçimiz cəbhəçinin cəbhəçiyə
+13	4013	yel	yeldən yeli yelin yelini yelinin yellər yelləri yellərin yellərinin yellərə yelə
+14	4014	məram	mərama məramda məramdan məramlar məramlardan məramları məramlarına məramlarından məramlarını məramlarının məramlarınızı məramı məramım məramımı məramımız məramımızı məramımızın məramın məramına məramında məramından məramını məramının məramınızı
+15	4015	dilçilik	dilçilikdə dilçilikdən dilçiliyi dilçiliyimizdə dilçiliyimizin dilçiliyin dilçiliyində dilçiliyini dilçiliyinin dilçiliyinə dilçiliyə
+16	4016	saxsı	saxsıda saxsıdan saxsılar saxsılara saxsılarda saxsıları saxsıların saxsını saxsının
+17	4017	köşk	köşklər köşkü
+18	4018	örtülü	
+19	4019	qatlamaq	qatla qatladım qatlama qatlamamalıyıq qatlamayan qatlamayın qatlamışam qatlasan qatlasaq qatlaya qatlayan qatlayar qatlayaraq qatlayıb qatlayın qatlayır qatlayıram qatlayırsan qatlayırıq
+20	4020	nərə	nərədən nərələr nərələrdən nərələri nərələrin nərələrini nərələrinə nərəni nərənin nərəsi nərəsindən nərəsini nərəsinə
+21	4021	maarifçilik	maarifçilikdən maarifçiliyi maarifçiliyin maarifçiliyindən maarifçiliyinin maarifçiliyinə maarifçiliyə
+22	4022	qəhvə	qəhvədən qəhvələrdən qəhvələrin qəhvəni qəhvənin qəhvəsi qəhvəsini qəhvəsinin qəhvəyə
+23	4023	qayın	qaynı qaynım qaynıma qaynımın qaynına qaynını qaynının qayından qayınları qayınların qayınlarının qayını
+24	4024	işğalçılıq	işğalçılıqda işğalçılıqdan işğalçılığa işğalçılığı işğalçılığın işğalçılığına işğalçılığından işğalçılığını
+25	4025	asi	asidən asilər asiləri asilərin asilərə asim asimdən asimi asimin asimə asin asinin asiyə
+26	4026	damğa	damğadan damğalar damğalara damğalarda damğalardan damğaları damğalarımı damğaların damğalarına damğalarını damğalarının damğamız damğan damğana damğanda damğandan damğanı damğası damğasına damğasında damğasından damğasını damğasının
+27	4027	çiçəkləmək	çiçəklə çiçəklədi çiçəkləmir çiçəkləmiş çiçəkləmişdi çiçəkləmə çiçəkləmədən çiçəkləməmiş çiçəkləməyə çiçəkləməyən çiçəkləsə çiçəkləyib çiçəkləyir çiçəkləyirdi çiçəkləyirlər çiçəkləyə çiçəkləyən çiçəkləyəndə çiçəkləyərək
+28	4028	karantin	karantində karantindən karantini karantinin karantinini karantinlər karantinə
+29	4029	pələng	pələngi pələngin pələngini pələnginin pələnglər pələnglərdən pələngləri pələnglərin pələnglərinin pələngə
+30	4030	doqquzuncu	
+31	4031	təfsir	təfsirdə təfsirdən təfsiri təfsirin təfsirində təfsirindən təfsirini təfsirinin təfsirinə təfsirlər təfsirlərdə təfsirlərdən təfsirləri təfsirlərin təfsirlərində təfsirlərindən təfsirlərini təfsirlərə təfsirə
+32	4032	qırıcı	qırıcılar qırıcılara qırıcılardan qırıcıları qırıcılarımız qırıcıların qırıcılarına qırıcılarından qırıcılarını qırıcılarının qırıcını qırıcının qırıcısı qırıcısına qırıcısından qırıcısını qırıcısının qırıcıya
+33	4033	irqçilik	irqçilikdə irqçilikdən irqçiliyi irqçiliyin irqçiliyinin irqçiliyinə irqçiliyə
+34	4034	kolbasa	kolbasada kolbasadan kolbasalar kolbasalara kolbasalarda kolbasalardan kolbasaları kolbasaların kolbasalarına kolbasalarının kolbasan kolbasanı kolbasanın kolbasası kolbasasına kolbasasında kolbasasını kolbasasının kolbasaya
+35	4035	altmış	
+36	4036	nəzakət	nəzakətdən nəzakəti nəzakətindən nəzakətini nəzakətinin nəzakətinizi nəzakətinə nəzakətlərini nəzakətə
+37	4037	geyindirmək	geyindir geyindirdi geyindirdik geyindirdilər geyindirib geyindiriblər geyindirim geyindirin geyindirir geyindirirlər geyindirirsiniz geyindirmiş geyindirmişdilər geyindirmişdir geyindirmişik geyindirmə geyindirməsinlər geyindirməyib geyindirməyin geyindirməyə geyindirsin geyindirsinlər geyindirsək geyindirə geyindirəcək geyindirəcəklər geyindirəcəyik geyindirən geyindirər geyindirərdi geyindirərkən geyindirərək
+38	4038	çiyələk	çiyələkdə çiyələkdən çiyələklər çiyələkləri çiyələyi çiyələyin çiyələyindən çiyələyinin
+39	4039	təkbətək	
+40	4040	tələfat	tələfata tələfatdan tələfatlar tələfatlara tələfatları tələfatların tələfatlarına tələfatı tələfatın tələfatına tələfatından tələfatını tələfatının
+41	4041	sadalamaq	sadala sadaladı sadaladım sadaladınız sadaladıq sadaladıqca sadaladıqları sadalama sadalamadan sadalamadın sadalamasaq sadalamıram sadalamışam sadalamışdı sadalasa sadalasam sadalasan sadalasaq sadalasınlar sadalaya sadalaya-sadalaya sadalayacaq sadalayacaqsan sadalayacağam sadalayacağıq sadalayan sadalayanda sadalayaram sadalayaraq sadalayardım sadalayarkən sadalayıb sadalayıblar sadalayım sadalayın sadalayır sadalayıram sadalayırdı sadalayırdıq
+42	4042	qaraçı	qaraçılar qaraçılara qaraçılardan qaraçıları qaraçıların qaraçılarının qaraçını qaraçının qaraçıya
+43	4043	çürük	
+44	4044	intibah	intibaha intibahda intibahdan intibahların intibahı intibahın intibahına intibahında intibahından intibahını intibahının
+45	4045	analıq	analıqdan analığa analığı analığım analığın analığına analığından analığını analığının
+46	4046	özününkü	özününkülər özününkülərdən özününkülərin özününkülərə özününkündən özününkünü özününkünə
+47	4047	mikrob	mikroba mikrobdan mikroblar mikroblara mikroblarda mikroblardan mikrobları mikrobların mikroblarına mikroblarından mikroblarını mikroblarının mikrobu mikrobun mikrobundan mikrobunu mikrobunun
+48	4048	ətirli	
+49	4049	zadəgan	zadəgana zadəganda zadəgandan zadəganlar zadəganlara zadəganlardan zadəganları zadəganların zadəganlarına zadəganlarından zadəganlarını zadəganlarının zadəganı zadəganın zadəganının
+50	4050	qayırmaq	qayır qayıra qayıracaqdılar qayıracaqlar qayıran qayıraq qayırar qayırardılar qayırardım qayırarkən qayırarlar qayırarıq qayırdılar qayırdım qayırdıq qayırma qayırmalıdır qayırmalıyıq qayırmamısan qayırmasınlar qayırmaz qayırmışdım qayırmışdır qayırsa qayırsalar qayırsaq qayırsın qayırsınlar qayırıb qayırıbdır qayırıblar qayırım qayırın qayırır qayırıram qayırırdı qayırırlar qayırırmış qayırırsan
+51	4051	əlləmək	əllə əllədin əlləmə əlləsə
+52	4052	dəbilqə	dəbilqədə dəbilqələr dəbilqələrdə dəbilqələrdən dəbilqələri dəbilqələrin dəbilqələrində dəbilqələrini dəbilqələrə dəbilqən dəbilqəni dəbilqənin dəbilqəsi dəbilqəsində dəbilqəsini dəbilqəsinin dəbilqəsinə dəbilqəyə
+53	4053	göbək	göbəkdən göbəkləri göbəklərinin göbəklərinə göbəyi göbəyin göbəyində göbəyindən göbəyini göbəyinin göbəyinə
+54	4054	buynuz	buynuza buynuzdan buynuzlar buynuzlara buynuzlarda buynuzlardan buynuzları buynuzların buynuzlarına buynuzlarından buynuzlarını buynuzlarının buynuzu buynuzun buynuzuna buynuzunda buynuzundan buynuzunu buynuzunun
+55	4055	fitnə	fitnədən fitnələr fitnələrdən fitnələri fitnələrin fitnələrindən fitnələrini fitnələrinin fitnələrinə fitnələrə fitnən fitnəni fitnənin fitnəsi fitnəsindən fitnəsini fitnəsinin fitnəsinə fitnəyə
+56	4056	nümunəvi	
+57	4057	ziyanlı	
+58	4058	mütaliə	mütaliədən mütaliələr mütaliələri mütaliələrin mütaliələrini mütaliələrə mütaliəm mütaliəmizi mütaliəmə mütaliəni mütaliənin mütaliəsi mütaliəsində mütaliəsindən mütaliəsini mütaliəsinin mütaliəsinə mütaliəyə
+59	4059	dəyişik	dəyişiklər dəyişiklərdə dəyişiklərdən dəyişikləri dəyişiklərin dəyişiklərində dəyişiklərindən dəyişiklərini dəyişiklərinin dəyişiklərinə dəyişiklərə dəyişiyi
+60	4060	vücud	vücuda vücudda vücuddan vücudlar vücudları vücudlarımızın vücudların vücudlarına vücudlarında vücudlarını vücudlarının vücudu vücudum vücuduma vücudumda vücudumdan vücudumu vücudumun vücudumuz vücudumuza vücudumuzda vücudumuzu vücudumuzun vücudun vücuduna vücudunda vücudundan vücudunu vücudunun vücudunuz vücudunuzun
+61	4061	ağırlaşmaq	ağırlaşa ağırlaşacaq ağırlaşacaqdı ağırlaşan ağırlaşanda ağırlaşdı ağırlaşdıqca ağırlaşma ağırlaşmadan ağırlaşmamış ağırlaşmasın ağırlaşmaya ağırlaşmış ağırlaşmışam ağırlaşmışdı ağırlaşmışdır ağırlaşsın ağırlaşıb ağırlaşıbdır ağırlaşır ağırlaşırdı ağırlaşırdım ağırlaşırlar
+62	4062	bitişik	
+63	4063	əlçatmaz	
+64	4064	konservatoriya	konservatoriyada konservatoriyadan konservatoriyalar konservatoriyalarda konservatoriyalarında konservatoriyalarından konservatoriyalarını konservatoriyalarının konservatoriyamız konservatoriyamızın konservatoriyanı konservatoriyanın konservatoriyası konservatoriyasına konservatoriyasında konservatoriyasından konservatoriyasını konservatoriyasının konservatoriyaya
+65	4065	mütəfəkkir	mütəfəkkiri mütəfəkkirimiz mütəfəkkirin mütəfəkkirindən mütəfəkkirini mütəfəkkirinin mütəfəkkirlər mütəfəkkirlərdən mütəfəkkirləri mütəfəkkirlərimizdən mütəfəkkirlərimizin mütəfəkkirlərin mütəfəkkirlərindən mütəfəkkirlərini mütəfəkkirlərinin mütəfəkkirlərinə mütəfəkkirlərə mütəfəkkirə
+66	4066	şəfa	şəfalar şəfanı şəfanın şəfası şəfasını
+67	4067	kökəlmək	kökəldikcə kökəldikləri kökəlib kökəliblər kökəlir kökəlirlər kökəlirsən kökəlirəm kökəlmir kökəlmisən kökəlmiş kökəlmişdilər kökəlmişdim kökəlmə kökəlmədən kökəlməyin kökəlməyə kökələ kökələn kökələndə kökələr kökələrdi kökələrəm
+68	4068	pomidor	pomidora pomidorda pomidordan pomidorlar pomidorlardan pomidorları pomidorların pomidoru pomidorumuz pomidorumuzu pomidorumuzun pomidorun pomidorunda pomidorundan pomidorunun
+69	4069	naviqasiya	naviqasiyada naviqasiyadan naviqasiyanı naviqasiyanın naviqasiyası naviqasiyasına naviqasiyasından naviqasiyasını naviqasiyaya
+70	4070	peyin	peyində peyindən peyini peyinimiz peyinin peyinində peyinindən peyinini peyininə peyinlər peyinləri peyinə
+71	4071	zehni	
+72	4072	piano	pianoda pianodan pianolar pianoların pianolarının pianonu pianonun pianosu pianosuna pianosunda pianosunun pianoya
+73	4073	braziliyalı	braziliyalılar braziliyalılara braziliyalılardan braziliyalıları braziliyalıların braziliyalının braziliyalıya
+74	4074	akkord	akkorda akkordlar akkordlara akkordlardan akkordları akkordların akkordlarına akkordlarından akkordlarını akkordlarının akkordu akkordun akkordundan akkordunu
+75	4075	qotik	
+76	4076	balina	balinada balinalar balinalara balinalarda balinalardan balinaları balinaların balinalarına balinalarında balinalarını balinalarının balinanı balinanın balinası balinasına balinasını balinaya
+77	4077	dayanıqlı	
+78	4078	məzəli	
+79	4079	bölük	bölükdə bölükdən bölüklər bölüklərdə bölükləri bölüklərin bölüklərində bölüklərindən bölüklərini bölüklərinin bölüklərinə bölüklərə bölüyü bölüyümün bölüyümüz bölüyün bölüyündə bölüyündən bölüyünü bölüyünün bölüyünə bölüyə
+80	4080	israf	israfa israfdan israfların israfı israfın israfına israfının
+81	4081	karxana	karxanada karxanadan karxanalar karxanalara karxanalarda karxanalardan karxanaları karxanaların karxanalarına karxanalarında karxanalarından karxanalarını karxanalarının karxanam karxanamı karxananı karxananın karxanası karxanasına karxanasında karxanasından karxanasını karxanasının karxanaya
+82	4082	tiryək	tiryəkdə tiryəkdən tiryəki tiryəkin tiryəklərin tiryəklərə tiryəkə
+83	4083	səkkizinci	
+84	4084	bankomat	bankomata bankomatda bankomatdan bankomatlar bankomatlara bankomatlarda bankomatlardan bankomatların bankomatlarında bankomatı bankomatımızda bankomatın bankomatından bankomatını
+85	4085	dağılışmaq	dağılış dağılışa dağılışacaq dağılışacaqdı dağılışan dağılışanda dağılışardılar dağılışasıdırlar dağılışasınız dağılışdı dağılışdılar dağılışdıq dağılışdıqca dağılışmadı dağılışmasalar dağılışmayacağıq dağılışmayıb dağılışmır dağılışmış dağılışmışdı dağılışmışdılar dağılışsınlar dağılışı dağılışıb dağılışıblar dağılışın dağılışından dağılışının dağılışır dağılışırlar dağılışırsınız
+86	4086	israrlı	
+87	4087	şimşək	şimşəkdən şimşəklər şimşəkləri şimşəklərin şimşəyi şimşəyin şimşəyini şimşəyinin şimşəyinə şimşəyə
+88	4088	təhqiramiz	
+89	4089	yorğunluq	yorğunluqda yorğunluqdan yorğunluqlarda yorğunluqları yorğunluqlarını yorğunluğa yorğunluğu yorğunluğum yorğunluğumu yorğunluğun yorğunluğuna yorğunluğunda yorğunluğundan yorğunluğunu yorğunluğunun yorğunluğunuza yorğunluğunuzu
+90	4090	xəcalət	xəcalətdən xəcaləti xəcalətimdən xəcalətimizdən xəcalətin xəcalətindən xəcalətini xəcalətinin
+91	4091	xeyir-dua	xeyir-duadan xeyir-dualar xeyir-duaları xeyir-dualarımı xeyir-dualarını xeyir-duamı xeyir-duamız xeyir-duamızı xeyir-duanı xeyir-duanın xeyir-duanızı xeyir-duası xeyir-duasına xeyir-duasından xeyir-duasını xeyir-duasının
+92	4092	tirajlamaq	tirajla tirajladım tirajlamışdıq tirajlayacaqlar tirajlayan tirajlayaq tirajlayıb tirajlayır tirajlayırdı tirajlayırdılar tirajlayırlar
+93	4093	bərkitmək	bərkidib bərkidin bərkidir bərkidirdi bərkidirdilər bərkidirik bərkidirlər bərkidə bərkidəcək bərkidən bərkidər bərkidərdilər bərkidərək bərkit bərkitdi bərkitdilər bərkitmiş bərkitmişdi bərkitmişdilər bərkitmişdir bərkitmə bərkitməyibmişik bərkitməyə bərkitsək bərkitsələr bərkitsən
+94	4094	çeşid	çeşiddə çeşiddən çeşidi çeşidin çeşidində çeşidindən çeşidini çeşidinin çeşidinə çeşidlər çeşidlərdə çeşidləri çeşidlərimiz çeşidlərimizdən çeşidlərin çeşidlərindən çeşidlərini çeşidlərinin çeşidlərinə çeşidlərə çeşidə
+95	4095	qırış	qırışa qırışda qırışlar qırışlara qırışlarda qırışları qırışların qırışlarına qırışlarında qırışlarını qırışlarının qırışı qırışında qırışını qırışının
+96	4096	təxəyyül	təxəyyüldə təxəyyüldən təxəyyüllərini təxəyyüllərinin təxəyyüllərinə təxəyyülü təxəyyülüm təxəyyülümün təxəyyülümüzdə təxəyyülümüzü təxəyyülümə təxəyyülün təxəyyülündə təxəyyülündən təxəyyülünü təxəyyülünün təxəyyülünüz təxəyyülünüzdə təxəyyülünüzü təxəyyülünüzün təxəyyülünüzə təxəyyülünə təxəyyülə
+97	4097	acgöz	acgözlər acgözləri acgözlərin acgözü acgözün
+98	4098	bərəkət	bərəkətdən bərəkəti bərəkətimi bərəkətin bərəkətindən bərəkətini bərəkətinin bərəkətinə bərəkətlər bərəkətləri bərəkətlərindən bərəkətlərini bərəkətə
+99	4099	yekdil	
+100	4100	aşılamaq	aşıla aşıladı aşıladıq aşılama aşılamadan aşılamalıdır aşılamalısan aşılamalıydı aşılamalıyıq aşılamamışıq aşılamayın aşılamaz aşılamış aşılamışam aşılamışdı aşılamışdılar aşılamışdır aşılamışlar aşılasalar aşılasan aşılasın aşılaya aşılayacaq aşılayacağam aşılayacağıq aşılayan aşılayaq aşılayar aşılayaraq aşılayarkən aşılayıb aşılayıblar aşılayım aşılayır aşılayırdı aşılayırdılar aşılayırdım aşılayırlar aşılayırıq

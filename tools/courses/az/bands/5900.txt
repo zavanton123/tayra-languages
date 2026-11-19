@@ -1,0 +1,100 @@
+1	5801	azdanışan	
+2	5802	vasvası	vasvasın
+3	5803	dəllək	dəlləkdə dəlləklər dəlləkləri dəlləyi dəlləyimdə dəlləyin dəlləyə
+4	5804	peç	peçdə peçdən peçi peçin peçini peçinin peçinə peçlər peçlərdə peçləri peçlərin peçlərində peçlərindən peçə
+5	5805	iylənmək	iylənib iylənir iylənmiş iylənmə iylənmədən iylənməlidir iylənməsin iylənsin iylənə-iylənə iylənən iylənəndə iylənər iylənərək
+6	5806	medalçı	medalçılar medalçılara medalçılarımız medalçılarımızın medalçılarına medalçılarından medalçının medalçısı
+7	5807	təsbeh	təsbehdə təsbehdən təsbehi təsbehin təsbehini təsbehlər təsbehlərdən təsbehləri təsbehlərin təsbehlərində təsbehlərinin
+8	5808	zən	zənan zəndə
+9	5809	qeyri-ixtiyari	
+10	5810	hökmran	hökmrandan hökmranlar hökmranların hökmranlarına hökmranı hökmranın hökmranına
+11	5811	acıqlandırmaq	acıqlandırdı acıqlandırmışdı acıqlandırır
+12	5812	həri	
+13	5813	arxivləşdirmək	arxivləşdir arxivləşdirmə arxivləşdirməyə arxivləşdirən
+14	5814	güləşmək	güləşib güləşim güləşin güləşir güləşirdi güləşirdilər güləşirlər güləşirsən güləşirəm güləşmiş güləşmişdir güləşmişəm güləşmə güləşmədən güləşməmişdim güləşməyim güləşməyə güləşsinlər güləşsən güləşə güləşəcək güləşən güləşərdik güləşərik güləşərək
+15	5815	dəcəl	
+16	5816	kam	kama kamda kamlar kamı kamımıza kamın kamına kamını
+17	5817	danışqan	
+18	5818	kababçı	kababçıların kababçılarından
+19	5819	jüri	jüridə jüridən jürilərin jürinin jürisi jüriyə
+20	5820	ağlağan	
+21	5821	ur	ura urdan uru urum urumu urun urunda urunu
+22	5822	proqramçı	proqramçılar proqramçılara proqramçılardan proqramçıları proqramçılarımız proqramçıların proqramçılarının
+23	5823	yiyəsiz	
+24	5824	irsən	
+25	5825	külfət	külfəti külfətim külfətimi külfətimiz külfətin külfətini külfətinin külfətinizin külfətinə külfətləri külfətə
+26	5826	agahlıq	agahlığın
+27	5827	geosiyasət	geosiyasətdə geosiyasətdən geosiyasəti geosiyasətin geosiyasətində geosiyasətini geosiyasətinə geosiyasətə
+28	5828	təkləmək	təklə təkləmişdilər təkləmə təkləsinlər təkləyib təkləyiblər təkləyirlər təkləyərək
+29	5829	nanə	nanədən nanəni nanənin nanəsi
+30	5830	təsiredici	
+31	5831	lakros	
+32	5832	qırov	qırovu
+33	5833	süs	
+34	5834	bulantı	bulantıları bulantılarından bulantısı bulantısını
+35	5835	gündönümü	gündönümlərinə gündönümündən gündönümünü
+36	5836	sürəc	sürəcdə sürəcdən sürəci sürəcin sürəcində sürəcinin sürəcə
+37	5837	canan	canana canandan cananları cananı cananım cananıma cananın cananına
+38	5838	pərakəndəlik	pərakəndəlikdə pərakəndəlikdən pərakəndəliyi pərakəndəliyin pərakəndəliyindən pərakəndəliyini pərakəndəliyinin pərakəndəliyinə pərakəndəliyə
+39	5839	barkod	barkodlar barkodu
+40	5840	sıcaq	
+41	5841	bəkləmək	bəklə bəkləmə bəkləməyə bəkləyirdi
+42	5842	vasit	vasiti vasitlər
+43	5843	zəncirbənd	zəncirbəndi zəncirbəndim zəncirbəndin
+44	5844	dözümsüz	
+45	5845	gavalı	gavalıdan gavalılar gavalını gavalının gavalısı gavalısını gavalısının
+46	5846	ləziz	
+47	5847	qaçaqmal	qaçaqmaldan qaçaqmalı qaçaqmalın qaçaqmalını qaçaqmalının
+48	5848	panamalı	panamalıların panamalının
+49	5849	validə	validən validəsi validəsinin
+50	5850	nişasta	nişastada nişastadan nişastalar nişastanı nişastanın nişastası nişastasından nişastasını nişastaya
+51	5851	işcil	
+52	5852	turp	turpa turpdan turplardan turpu turpun
+53	5853	saymazyana	
+54	5854	zorən	
+55	5855	fırtıq	fırtıqların fırtığını
+56	5856	götəş	
+57	5857	ponçik	
+58	5858	sikdir	
+59	5859	boran	borana borandan boranlar boranı boranın boranına boranında boranını
+60	5860	sac	saca sacda sacdan saclar saclarda saclardan sacları saclarını saclarının sacı sacım sacın sacında
+61	5861	subtitr	subtitrlər
+62	5862	donatmaq	donat donata donatın
+63	5863	qohum-qardaş	qohum-qardaşa qohum-qardaşdan qohum-qardaşları qohum-qardaşlarına qohum-qardaşlarını qohum-qardaşlarının qohum-qardaşı qohum-qardaşımın qohum-qardaşın qohum-qardaşına qohum-qardaşını qohum-qardaşının
+64	5864	asqırıq	
+65	5865	stetoskop	
+66	5866	saniyəölçən	saniyəölçəni
+67	5867	axşamüstü	
+68	5868	təvəllüd	təvəllüdlər təvəllüdləri təvəllüdü təvəllüdümü təvəllüdün təvəllüdünü təvəllüdünə
+69	5869	alaçıq	alaçıqda alaçıqdan alaçıqlar alaçıqlara alaçıqlarda alaçıqları alaçıqların alaçığa alaçığı alaçığın alaçığına alaçığında
+70	5870	elektrotexnika	elektrotexnikada elektrotexnikanın elektrotexnikaya
+71	5871	dəyər-dəyməzinə	
+72	5872	qərardad	qərardadı
+73	5873	zövcə	zövcələr zövcələri zövcələrindən zövcələrinə zövcəm zövcəmiz zövcəndən zövcəsi zövcəsini zövcəsinin zövcəsinə
+74	5874	qarlamaq	qarla qarlayasan
+75	5875	irlandiyalı	irlandiyalılar irlandiyalılara irlandiyalıların irlandiyalının irlandiyalıya
+76	5876	dibçək	dibçəkdə dibçəklər dibçəklərdə dibçəkləri dibçəklərindən dibçəklərini dibçəklərə dibçəyi dibçəyin dibçəyində dibçəyini dibçəyinin dibçəyə
+77	5877	əlqərəz	
+78	5878	əzmkar	
+79	5879	dərindüşüncəli	
+80	5880	məməş	məməşləri
+81	5881	əmişmək	əmişə
+82	5882	genişzolaqlı	
+83	5883	bədbinlik	bədbinlikdən bədbinliyi bədbinliyin bədbinliyə
+84	5884	bərbərxana	bərbərxanada bərbərxanadan bərbərxanalar bərbərxanalarda bərbərxanaları bərbərxanaların bərbərxanamı bərbərxananın bərbərxanası bərbərxanasında bərbərxanaya
+85	5885	sərlövhə	sərlövhədən sərlövhələr sərlövhələrdən sərlövhələri sərlövhələrin sərlövhələrində sərlövhələrinə sərlövhəni sərlövhənin sərlövhəsi sərlövhəsində sərlövhəsindən sərlövhəsini sərlövhəyə
+86	5886	yağlamaq	yağla yağladıqları yağlama yağlamaya yağlamayın yağlasan yağlasınlar yağlayıb yağlayın yağlayır yağlayırlar yağlayırsınız yağlayırıq
+87	5887	hissizləşmək	hissizləşib
+88	5888	püsür	püsürünü
+89	5889	dindoş	
+90	5890	duduş	duduşunu
+91	5891	hidroakustika	
+92	5892	kit	kitdən kiti kitin kitləri kitlərin kitlərində kitlərinin kitlərə kitə
+93	5893	toyxana	toyxanada toyxanalar toyxanalarda toyxanalardan toyxanaları toyxanalarımızın toyxanalarına toyxananın toyxanasında toyxanaya
+94	5894	həlim	
+95	5895	calamaq	cala caladıq calama calamadılar calamalısan calamısan calamısınız calamış calamışdı calasan calasın calaya calaya-calaya calayan calayaraq calayasan calayıb calayır calayıram calayırdı calayırdılar calayırlar calayırsan
+96	5896	şedevr	şedevri şedevrin şedevrindən şedevrini şedevrinizi şedevrinə şedevrlər şedevrə
+97	5897	ucsuz-bucaqsız	
+98	5898	maşa	maşalar maşalarda maşaları maşanı maşanın maşası maşaya
+99	5899	qızartı	qızartıda qızartılar qızartılara qızartıları qızartıların qızartını qızartının qızartısı qızartıya
+100	5900	gücsüzlük	gücsüzlükdən gücsüzlükləri gücsüzlüklərini gücsüzlüklərinin gücsüzlüyü gücsüzlüyümüzdən gücsüzlüyün gücsüzlüyünü gücsüzlüyünün gücsüzlüyünə

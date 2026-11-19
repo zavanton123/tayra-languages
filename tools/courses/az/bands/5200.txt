@@ -1,0 +1,100 @@
+1	5101	sami	samilər samilərin samimi samin saminin samiyə
+2	5102	düz-əməlli	
+3	5103	tərtibçi	tərtibçilər tərtibçilərdən tərtibçiləri tərtibçilərin tərtibçilərindən tərtibçilərinin tərtibçinin tərtibçisi tərtibçiyə
+4	5104	tək-tük	
+5	5105	gövhər	gövhəri gövhərin gövhərindən gövhərinin gövhərlər gövhərləri gövhərlərin
+6	5106	daraq	daraqda daraqdan daraqlar daraqlardan daraqları daraqların daraqlarını darağa darağı darağımız darağın darağında darağından darağını darağının
+7	5107	dürmək	dürməkdə dürməklər dürməklərinin dürməyi dürməyin dürməyində dürməyinə
+8	5108	qəlyan	qəlyanda qəlyandan qəlyanlar qəlyanların qəlyanlarını qəlyanı qəlyanımı qəlyanın qəlyanını
+9	5109	müqəvva	müqəvvada müqəvvadan müqəvvalar müqəvvalara müqəvvalardan müqəvvaları müqəvvaların müqəvvalarına müqəvvalarını müqəvvanı müqəvvanın müqəvvası müqəvvasından müqəvvasını müqəvvasının müqəvvaya
+10	5110	arteriya	arteriyada arteriyadan arteriyalar arteriyalara arteriyalarda arteriyalardan arteriyaları arteriyaların arteriyalarına arteriyalarında arteriyalarından arteriyalarını arteriyalarının arteriyanı arteriyanın arteriyası arteriyasına arteriyasında arteriyasından arteriyasını arteriyasının arteriyaya
+11	5111	burğu	burğular burğuların burğusu
+12	5112	qaymaq	qaymaqda qaymaqdan qaymaqları qaymağa qaymağı qaymağın qaymağına qaymağından qaymağını
+13	5113	qurdalanmaq	qurdalan qurdalandı qurdalandım qurdalandın qurdalanmır qurdalanıb qurdalanır qurdalanırdılar
+14	5114	sünbül	sünbüldə sünbüldən sünbüllər sünbüllərdə sünbüllərdən sünbülləri sünbüllərin sünbüllərində sünbüllərindən sünbüllərinin sünbüllərə sünbülü sünbülün sünbülündə sünbülünü sünbülə
+15	5115	qonaqpərvər	
+16	5116	şifrləmə	
+17	5117	həqarət	həqarətdən həqarəti həqarətin həqarətinə həqarətlər həqarətləri həqarətlərin həqarətlərindən həqarətlərini həqarətlərinə həqarətlərə həqarətə
+18	5118	silk	silkdən silki silklər silklərin silklərinə silklərə
+19	5119	ödənişsiz	
+20	5120	müstəmləkəçilik	müstəmləkəçilikdə müstəmləkəçilikdən müstəmləkəçiliyi müstəmləkəçiliyin müstəmləkəçiliyində müstəmləkəçiliyindən müstəmləkəçiliyini müstəmləkəçiliyinin müstəmləkəçiliyinə müstəmləkəçiliyə
+21	5121	şalban	şalbandan şalbanlar şalbanlara şalbanları şalbanların şalbanı şalbanın şalbanının
+22	5122	oğlaq	oğlaqda oğlaqlar oğlaqlara oğlaqların oğlağın
+23	5123	tramvay	tramvaylar tramvayı
+24	5124	cim	cimi cimin cimini ciminin cimə
+25	5125	proletariat	proletariata proletariatdan proletariatları proletariatlarımızı proletariatlarının proletariatı proletariatın proletariatına proletariatından proletariatını proletariatının
+26	5126	vəfalı	
+27	5127	deyingən	
+28	5128	burjuaziya	burjuaziyadan burjuaziyalarını burjuaziyanı burjuaziyanın burjuaziyası burjuaziyasına burjuaziyasından burjuaziyasını burjuaziyasının burjuaziyaya
+29	5129	tanışmaq	tanışa tanışam tanışan tanışdı tanışdıqları tanışma tanışmış tanışmışdır tanışsan tanışıb tanışım tanışın tanışır tanışırlar
+30	5130	yönlü	
+31	5131	loru	lorunu lorunun
+32	5132	iftixar	iftixara iftixardan iftixarlarımızın iftixarı iftixarımız iftixarın iftixarına iftixarını
+33	5133	ilahiləşdirmək	ilahiləşdiriblər ilahiləşdirir ilahiləşdirirdi ilahiləşdirirdilər ilahiləşdirmir ilahiləşdirmiş ilahiləşdirmişdilər ilahiləşdirmə ilahiləşdirməmiş ilahiləşdirməsələr ilahiləşdirən ilahiləşdirər
+34	5134	məslək	məsləkdə məsləkdən məsləklər məsləkləri məsləklərin məsləklərini məsləklərinin məsləyi məsləyini məsləyinin məsləyinizi məsləyinə məsləyə
+35	5135	təhrir	təhrirdə təhriri təhrirlərini təhrirə
+36	5136	finalçı	finalçıdan finalçılar finalçılara finalçıları finalçıların finalçılarından finalçılarını finalçılarının finalçını finalçının finalçısı finalçısının finalçıya
+37	5137	isveçrəli	isveçrəlilər isveçrəlilərdə isveçrəlilərdən isveçrəliləri isveçrəlilərin isveçrəlilərə isveçrəlini isveçrəlinin
+38	5138	yalın	
+39	5139	buzov	buzova buzovdan buzovlar buzovlara buzovlarda buzovları buzovlarımızı buzovların buzovu buzovun buzovundan buzovunu buzovunun
+40	5140	xəzinədar	xəzinədara xəzinədarda xəzinədardan xəzinədarlar xəzinədarlara xəzinədarlardan xəzinədarlarına xəzinədarı xəzinədarın
+41	5141	hörgü	hörgüdə hörgüdən hörgülər hörgülərdə hörgüləri hörgülərin hörgülərində hörgülərinin hörgülərinə hörgünü hörgünün hörgüsü hörgüsündə hörgüsündən hörgüsünü hörgüsünün hörgüsünə hörgüyə
+42	5142	öncül	öncüllər öncülü
+43	5143	nəş	nəşi nəşin nəşindən nəşini nəşinin nəşinə nəşlər nəşləri
+44	5144	nəşəxor	nəşəxora nəşəxorlar nəşəxorlardan nəşəxoru nəşəxorun
+45	5145	kassasiya	
+46	5146	klaviatura	klaviaturada klaviaturadan klaviaturalar klaviaturalara klaviaturalarda klaviaturalardan klaviaturaları klaviaturaların klaviaturalarına klaviaturalarında klaviaturalarının klaviaturamı klaviaturamızı klaviaturanı klaviaturanın klaviaturası klaviaturasına klaviaturasında klaviaturasından klaviaturasının klaviaturaya
+47	5147	giley	gileyi gileyim gileyimi gileyin gileyini gileyinin gileyinə gileylər gileyləri gileylərim gileylərin gileylərini gileylərinin
+48	5148	baron	barona barondan baronlar baronlara baronlardan baronları baronların baronlarına baronlarından baronlarının baronu baronumuz baronun baronuna baronunu
+49	5149	ərik	ərikdə ərikdən əriklər ərikləri əriklərin əriyi əriyimizə əriyin əriyinin əriyə
+50	5150	nov	novlar novu
+51	5151	səkkizayaq	səkkizayağa səkkizayağın
+52	5152	nankor	
+53	5153	yey	
+54	5154	çəkələk	çəkələklər çəkələkləri çəkələklərinin çəkələyi
+55	5155	qovuşdurmaq	qovuşdur qovuşdura qovuşduracaq qovuşduracağam qovuşduracağıq qovuşduran qovuşdurar qovuşduraraq qovuşdurarlar qovuşdurarsınız qovuşdurdu qovuşdurdunuz qovuşdurmasaq qovuşdurmuş qovuşdurmuşduq qovuşdurmuşdur qovuşdursa qovuşdursun qovuşdurub qovuşdurur qovuşdururdu qovuşdururuq
+56	5156	barışdırmaq	barışdır barışdıra barışdıran barışdıraq barışdıraraq barışdırdı barışdırma barışdırmışdı barışdırmışdılar barışdırsanız barışdırsın barışdırıb barışdırım barışdırın barışdırır barışdırırlar
+57	5157	səriştəsiz	
+58	5158	argentinalı	argentinalıdan argentinalılar argentinalılara argentinalıları argentinalıların argentinalını argentinalının argentinalıya
+59	5159	mərdlik	mərdlikdə mərdlikdən mərdliklərini mərdliyi mərdliyin mərdliyini mərdliyiniz mərdliyinizi mərdliyinə mərdliyə
+60	5160	didmək	did didib didiblər didin didir didirdi didirik didməyə didməyən didsinlər didə didək didən didər didərik didərlər
+61	5161	təlxək	təlxəklər təlxəkləri təlxəklərimiz təlxəklərin təlxəklərini təlxəyi təlxəyin təlxəyinin təlxəyinə
+62	5162	ödül	ödüldən ödüllər ödüllərdən ödülləri ödüllərim ödüllərin ödüllərində ödüllərindən ödüllərini ödüllərinə ödüllərə ödülü ödülümüz ödülün ödülünü ödülünün ödülünə ödülə
+63	5163	sülənmək	sülənib sülənin sülənirdi sülənirlər sülənirsən sülənən
+64	5164	tərəfsiz	
+65	5165	loğman	loğmana loğmanlar loğmanlara loğmanları loğmanı loğmanın loğmanının
+66	5166	geydirmək	geydir geydirdi geydirdilər geydirib geydiriblər geydirin geydirir geydirirdi geydirirdilər geydirirlər geydirirmiş geydirmirdilər geydirmişdi geydirmişdir geydirmişlər geydirmə geydirmədən geydirməlidir geydirmənin geydirməsində geydirməsini geydirməyə geydirsə geydirə geydirəcəklər geydirərək
+67	5167	qələt	qələtdən qələti qələtin qələtini qələtlər qələtləri qələtlərini qələtə
+68	5168	hövsələ	hövsələdən hövsələləri hövsələlərini hövsələm hövsələmizi hövsələn hövsələsi hövsələsindən hövsələsini hövsələsinə
+69	5169	avam	
+70	5170	abır	abıra abırdan abırları abırlarına abırlarını abırı abırına abırını
+71	5171	tox	
+72	5172	pulqabı	pulqabına pulqabını pulqabının
+73	5173	badam	badamda badamdan badamlar badamları badamların badamlarını badamı badamın
+74	5174	kölgəlik	kölgəlikdə kölgəliklər kölgəlikləri kölgəliklərində kölgəliklərə kölgəliyinin kölgəliyə
+75	5175	hüzn	hüznlərimi hüznü hüznümüz hüznün hüznündə hüznünə hüznə
+76	5176	hicran	hicrana hicrandan hicranı hicranın hicranına
+77	5177	maq	maqda maqdan maqlar maqlara maqları maqların maqlarına maqlarının mağa
+78	5178	qəbiz	qəbizi qəbizini
+79	5179	şurup	şurupların şurupunu
+80	5180	diktatorluq	diktatorluqda diktatorluqdan diktatorluqlara diktatorluqları diktatorluğa diktatorluğu diktatorluğun diktatorluğuna diktatorluğundan diktatorluğunu diktatorluğunun
+81	5181	əlyazı	əlyazıları əlyazım əlyazımı əlyazısı əlyazısında
+82	5182	silkmək	silkin silkə
+83	5183	altlıq	altlıqda altlıqdan altlıqlar altlıqlarda altlıqlardan altlıqları altlıqlarına altlıqlarında altlıqlarının altlığa altlığı altlığın altlığına altlığında altlığını altlığının
+84	5184	miskinlik	miskinlikdən miskinliklərini miskinliklərinin miskinliyi
+85	5185	yallı	yallıda yallıdan yallılar yallılara yallılarda yallılardan yallıları yallıların yallılarından yallılarının yallını yallının yallısı yallısında yallısını yallısının yallıya
+86	5186	tərksilah	tərk-silah tərksilahda tərksilahına
+87	5187	məlhəm	məlhəmdə məlhəmdən məlhəmi məlhəmin məlhəmindən məlhəmini məlhəminin məlhəmlər məlhəmləri məlhəmlərin məlhəmlərindən məlhəmlərə məlhəmə
+88	5188	doxsan	
+89	5189	qısametrajlı	
+90	5190	simic	
+91	5191	uçuq	uçuqdan uçuqlar uçuqları uçuqlarına uçuqlarından uçuqlarını uçuğa uçuğun uçuğundan
+92	5192	us	usa usda uslar usu usun
+93	5193	buruntaq	buruntaqda buruntağı
+94	5194	fürsətçi	
+95	5195	sürtkü	sürtgü sürtkülər sürtkülərdə sürtkülərdən sürtküləri sürtkülərin sürtkülərindən sürtkülərinə sürtkülərə sürtkünü sürtkünün sürtküsü sürtküsünü sürtküsünün
+96	5196	didik	
+97	5197	əcr	
+98	5198	güdaz	güdaza güdazına
+99	5199	fəzilət	fəzilətdə fəziləti fəzilətin fəzilətində fəzilətindən fəzilətini fəzilətinə fəzilətlər fəzilətləri fəzilətlərin fəzilətlərindən fəzilətlərini fəzilətlərə fəzilətə
+100	5200	duru	dumduru

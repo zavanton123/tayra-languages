@@ -1,0 +1,100 @@
+1	7401	görüb-götürmək	görüb-götürən görüb-götürərsən
+2	7402	müxatib	müxatibi müxatiblər müxatibə
+3	7403	tanış-tunuş	tanış-tunuşu tanış-tunuşun tanış-tunuşunun
+4	7404	tıncıxmaq	tıncıxan tıncıxır tıncıxırdı
+5	7405	çeçəmək	çeçə çeçəyib çeçəyirmiş
+6	7406	əmcək	əmcəklərdən əmcəkləri əmcəyini əmcəyinin
+7	7407	konum	konumu konumuna konumunda konumundan
+8	7408	köylü	köylüləri köylüsü
+9	7409	arıqıran	
+10	7410	sırıq	sırıqlara sırığa
+11	7411	həmdərd	
+12	7412	məxmərək	məxmərəyi
+13	7413	ruznamə	ruznaməsi ruznaməsində ruznaməsinin
+14	7414	tanrıçı	
+15	7415	durulaşdırmaq	durulaşdırma durulaşdırıb durulaşdırır durulaşdırırlar
+16	7416	duzsuzlaşdırmaq	duzsuzlaşdırma duzsuzlaşdırıb
+17	7417	qoxulamaq	qoxula qoxulama qoxulayanda
+18	7418	rozetka	rozetkanın rozetkası
+19	7419	əhli-əyal	əhli-əyalı əhli-əyalına əhli-əyalını
+20	7420	hulu	hulun hulusu
+21	7421	cəngəl	cəngəli cəngəllər cəngəllərinin
+22	7422	döşlük	döşlüklər döşlüyü döşlüyünü
+23	7423	qırxayaq	qırxayaqlar qırxayaqların qırxayağın
+24	7424	ənis	ənisin ənisə
+25	7425	əzvay	əzvayın
+26	7426	orfoepiya	orfoepiyasına orfoepiyasının
+27	7427	rəndə	rəndədən rəndən rəndənin rəndəsi rəndəsinə
+28	7428	rəvənd	rəvənddən rəvəndi rəvəndin
+29	7429	tökük	töküklər töküklərin töküyün
+30	7430	hüquqi dövlət	dövlət hüquqi
+31	7431	mürtədlik	mürtədlikdə mürtədliyi
+32	7432	çoxərlilik	çoxərlilikdə çoxərliliyə
+33	7433	kürəkçi	
+34	7434	kürddilli	
+35	7435	müttəsil	
+36	7436	çoxişlənən	
+37	7437	özüboşaldan	
+38	7438	üstələmək	
+39	7439	əhli-kitab	əhli-kitabdan əhli-kitabın
+40	7440	əkinəyararlı	
+41	7441	ermənidilli	
+42	7442	spidometr	spidometrin spidometrinə spidometrlər
+43	7443	əyal	əyalı əyalına əyalını
+44	7444	gurluq	gurluqda gurluqdan gurluğu gurluğunun
+45	7445	tərcüməşünaslıq	tərcüməşünaslıqda tərcüməşünaslığa tərcüməşünaslığın tərcüməşünaslığının
+46	7446	ayar	ayarlar ayarları ayarı ayarında
+47	7447	bitik	bitiklər bitiklərə bitiyinə bitiyə
+48	7448	damğalı	
+49	7449	doluluq	doluluqda doluluğu doluluğunun
+50	7450	izafət	izafətlər
+51	7451	külliyyə	külliyyəsi külliyyəsində
+52	7452	məcusi	məcusilər məcusilərin
+53	7453	qaradinməz	
+54	7454	qatışdırmaq	qatışdıraraq qatışdırıb qatışdırır qatışdırırlar
+55	7455	sarp	
+56	7456	sehrkar	
+57	7457	örkən	örkənin
+58	7458	övladsız	
+59	7459	əmgək	əmgəklər əmgəyi əmgəyinə əmgəyə
+60	7460	məxdum	məxduma məxdumun
+61	7461	buxur	buxurdanlar buxurdanı buxurun
+62	7462	kahinlik	kahinlikdə kahinliyi kahinliyin kahinliyə
+63	7463	hidrologiya	hidrologiyası hidrologiyasına
+64	7464	poru	poruların porun porunun porusu
+65	7465	göy qurşağı	göy qurşağı
+66	7466	süysün	süysününün
+67	7467	çəkisizlik	
+68	7468	ədəbi dil	dil ədəbi
+69	7469	boyaqotu	boyaqotundan
+70	7470	efiop	efioplar
+71	7471	təğyir	təğyirə
+72	7472	ötkəmlik	ötkəmliyi ötkəmliyin
+73	7473	korbağırsaq	korbağırsağın korbağırsağından korbağırsağının
+74	7474	qorxuluq	qorxuluğu qorxuluğunu
+75	7475	çimdikləmək	çimdikləmə çimdikləməsən çimdikləməyə çimdikləyən
+76	7476	hoş	
+77	7477	zəban	
+78	7478	birər-birər	
+79	7479	şırran	
+80	7480	badyan	badyanı
+81	7481	rəsmilik	rəsmilikdən
+82	7482	təslis	təslisin
+83	7483	dəlləkxana	dəlləkxanaya
+84	7484	pinəçilik	pinəçiliyi
+85	7485	sağçılıq	sağçılıqdan sağçılığa
+86	7486	səhn	səhndə səhni səhninin səhninə səhnləri səhnlərinin səhnlərinə
+87	7487	güyüm	güyümün
+88	7488	qafqazşünaslıq	qafqazşünaslıqda
+89	7489	rəvayətçi	rəvayətçilərdən rəvayətçiləri
+90	7490	sərtib	sərtibin sərtibə
+91	7491	tuğay	
+92	7492	daşınabilən	
+93	7493	dəxil	dəxildən dəxili dəxilin
+94	7494	fəsih	
+95	7495	qeyri-bədii	
+96	7496	rəbiüləvvəl	
+97	7497	çahar	
+98	7498	qeyr	əğyar əğyara
+99	7499	ovurd	ord ovurdları ovurdlarının ovurdu
+100	7500	eşşəkarısı	eşşəkarısının

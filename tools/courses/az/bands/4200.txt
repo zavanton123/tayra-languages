@@ -1,0 +1,100 @@
+1	4101	çimizdirmək	çimizdir çimizdirdi çimizdirdik çimizdirdilər çimizdirib çimizdirir çimizdirirdilər çimizdirirlər çimizdirmirsən çimizdirmədən çimizdirməyə çimizdirəcəklər çimizdirən çimizdirəndə çimizdirərdi
+2	4102	monarxiya	monarxiyada monarxiyadan monarxiyalar monarxiyalarda monarxiyalardan monarxiyaları monarxiyaların monarxiyalarında monarxiyalarının monarxiyanı monarxiyanın monarxiyası monarxiyasına monarxiyasında monarxiyasından monarxiyasını monarxiyasının monarxiyaya
+3	4103	rusca	
+4	4104	tədbirli	
+5	4105	təbəssüm	təbəssümdə təbəssümdən təbəssümlər təbəssümləri təbəssümlərimiz təbəssümlərimizi təbəssümlərinin təbəssümlərə təbəssümü təbəssümümüzü təbəssümün təbəssümündə təbəssümündən təbəssümünü təbəssümünə təbəssümə
+6	4106	qabırğa	qabırğadan qabırğalar qabırğalara qabırğalarda qabırğalardan qabırğaları qabırğalarımda qabırğalarımız qabırğaların qabırğalarına qabırğalarında qabırğalarını qabırğalarının qabırğandan qabırğanı qabırğanın qabırğası qabırğasına qabırğasından qabırğasını qabırğasının qabırğaya
+7	4107	səfalət	səfalətdə səfalətdən səfaləti səfalətin səfalətini səfalətinin səfalətlərə səfalətə
+8	4108	aşpaz	aşpaza aşpazlar aşpazlara aşpazlardan aşpazları aşpazların aşpazlarından aşpazı aşpazın aşpazına aşpazınız
+9	4109	fişəng	fişəngi fişəngin fişəngini fişənglər fişəngləri fişənglərin fişənglərində fişənglərindən fişənglərinin fişənglərə fişəngə
+10	4110	neştər	neştərdən neştəri neştərindən neştərini neştərə
+11	4111	qəlib	qəlibdə qəlibdən qəlibi qəlibin qəlibində qəlibindən qəlibini qəlibinin qəlibinə qəliblər qəliblərdə qəliblərdən qəlibləri qəliblərin qəliblərində qəliblərindən qəliblərini qəliblərinin qəliblərinə qəliblərə qəlibə
+12	4112	tava	tavada tavadan tavalar tavalarda tavalardan tavaları tavaların tavalarının tavana tavanda tavandan tavanı tavanın tavası tavasına tavasının tavaya
+13	4113	ayıtmaq	ayıda ayıdan ayıdır
+14	4114	etibarlılıq	etibarlılığa etibarlılığı etibarlılığın etibarlılığına etibarlılığından etibarlılığını etibarlılığının
+15	4115	təxribatçı	təxribatçılar təxribatçılara təxribatçılardan təxribatçıları təxribatçıların təxribatçılarına təxribatçılarından təxribatçılarını təxribatçının təxribatçısı təxribatçısının
+16	4116	bulaşmaq	bulaşacaq bulaşan bulaşdı bulaşma bulaşmadan bulaşmamış bulaşmamışlar bulaşmamışıq bulaşmayan bulaşmayıb bulaşmazlar bulaşmır bulaşmırlar bulaşmış bulaşmışdı bulaşmışdır bulaşıb bulaşıblar bulaşır bulaşırdı
+17	4117	bəzəkli	bərbəzəkli
+18	4118	oynaq	oynaqda oynaqdan oynaqlar oynaqlara oynaqlarda oynaqlardan oynaqları oynaqlarıma oynaqlarımda oynaqlarımız oynaqlarımızın oynaqların oynaqlarına oynaqlarında oynaqlarından oynaqlarını oynaqlarının oynağı oynağın oynağına oynağında oynağından oynağını oynağının
+19	4119	ermənipərəst	ermənipərəstlər ermənipərəstlərdən ermənipərəstlərin
+20	4120	mars	marsa marsda marsdan marsı marsın
+21	4121	topuq	topuqda topuqdan topuqlar topuqları topuqlarından topuqlarını topuğa topuğu topuğum topuğumdan topuğumuza topuğun topuğunda topuğundan topuğunun topuğunuz
+22	4122	xilafət	xilafətdə xilafətdən xilafəti xilafətin xilafətində xilafətindən xilafətini xilafətinin xilafətinə xilafətlər xilafətləri xilafətlərin xilafətlərini xilafətə
+23	4123	susamaq	susa susama susamaz susamazdı susamazdım susamır susamısan susamısınız susamış susamışam susamışdı susamışdılar susamışıq susaya susayacaq susayan susayanda susayaraq susayıb susayıblar susayır susayıram
+24	4124	əlüzyuyan	əlüzyuyanda əlüzyuyandan əlüzyuyanlardan əlüzyuyanı əlüzyuyanımı əlüzyuyanın
+25	4125	aramaq	aradı aradılar aradım aradıq aradıqları aramadan aramadım aramalıdır aramalıdırlar aramalıyıq aramayan aramayıb aramaz aramazdılar aramış aramışdın aramışdır arasa arasan arasanız arasaq arasın arasınlar araya arayacaq arayacağıq arayan arayanda arayaraq arayasınız arayıb arayıblar arayın arayır arayıram arayırdı arayırdılar arayırlar arayırıq
+26	4126	susuzluq	susuzluqda susuzluqdan susuzluqlarını susuzluğa susuzluğu susuzluğumu susuzluğun susuzluğundan susuzluğunu
+27	4127	axşamkı	
+28	4128	igidlik	igidlikdə igidlikdən igidliklər igidlikləri igidliklərindən igidliklərini igidliklərinin igidliklərinə igidliklərə igidliyi igidliyin igidliyindən igidliyini igidliyinin igidliyiniz igidliyinizə igidliyinə igidliyə
+29	4129	həmlə	həmlədə həmlədən həmlələr həmlələrdə həmlələrdən həmlələri həmlələrim həmlələrin həmlələrindən həmlələrini həmlələrinin həmlələrinə həmlələrə həmləni həmlənin həmləsi həmləsində həmləsindən həmləsini həmləsinin həmləsinə həmləyə
+30	4130	nərgiz	nərgizdən nərgizi nərgizin nərgizlər nərgizləri nərgizlərin nərgizlərini nərgizə
+31	4131	istiləşmək	istiləşdi istiləşdikcə istiləşib istiləşir istiləşmiş istiləşmə istiləşmədən istiləşməyə istiləşsin istiləşə istiləşəcək istiləşən istiləşəndə
+32	4132	həsəd	həsəddən həsədin həsədində həsədini həsədinə həsədə
+33	4133	işıqfor	işıqfora işıqforda işıqfordan işıqforlar işıqforlara işıqforlarda işıqforlardan işıqforların işıqforlarında işıqforlarını işıqforu işıqforun işıqforunda işıqforunun
+34	4134	neçənci	
+35	4135	solğun	
+36	4136	tələffüz	tələffüzdə tələffüzdən tələffüzləri tələffüzlərinə tələffüzü tələffüzün tələffüzündə tələffüzündən tələffüzünü tələffüzünün tələffüzünə tələffüzə
+37	4137	icad	icada icaddan icadlar icadlara icadları icadlarından icadlarını icadı icadın icadına icadından icadını icadının
+38	4138	çil	çili çilin çilini çilinin çillər çillərdən çilləri çillərin çillərə çilə
+39	4139	durğunluq	durğunluqda durğunluqdan durğunluqlarına durğunluğa durğunluğu durğunluğun durğunluğuna durğunluğunda durğunluğundan durğunluğunun
+40	4140	qurtum	qurtuma qurtumda qurtumdan
+41	4141	kamaz	kamaza kamazı kamazın kamazını
+42	4142	manqa	manqada manqadan manqalar manqalara manqalarda manqalardan manqaları manqaların manqalarına manqalarından manqalarını manqalarının manqan manqana manqanı manqanın manqası manqasına manqasında manqasından manqasını manqasının manqaya
+43	4143	ötüşmək	ötüş ötüşdü ötüşmür ötüşmürdü ötüşmədi ötüşməmişdi ötüşməsə ötüşməyib ötüşməyə ötüşməyəcək ötüşməz ötüşsünlər ötüşsə ötüşüb ötüşür ötüşürdü ötüşürdülər ötüşürük ötüşə ötüşəcək ötüşəcəkləri ötüşən ötüşərik
+44	4144	rəngarəng	
+45	4145	məməli	məməlidən məməlilər məməlilərdə məməlilərdən məməliləri məməlilərin məməlilərində məməlilərindən məməlilərini məməlilərinin məməlilərinə məməlilərə məməlini məməlinin məməlisi məməlisini məməlisinə məməliyə
+46	4146	hopmaq	hop hopa hopacaq hopan hopar hoparaq hopdu hopduqca hopma hopmayıb hopmuş hopmuşdu hopmuşdur hopmuşlar hopsa hopsun hopub hopun hopur hopurdu
+47	4147	balkon	balkona balkonda balkondan balkonlar balkonlara balkonlarda balkonlardan balkonları balkonların balkonlarına balkonlarından balkonlarını balkonu balkonumu balkonun balkonuna balkonunda balkonundan balkonunu balkonunun
+48	4148	bandit	banditi banditimiz banditin banditlər banditlərdən banditləri banditlərin banditlərinin banditlərə
+49	4149	saçmaq	saça saçacaq saçan saçanda saçaq saçar saçaraq saçardı saçarkən saçdı saçma saçmalıdır saçmalısan saçmalısınız saçmalıydı saçmayacaq saçmayan saçmır saçmış saçmışdı saçmışdır saçsa saçsın saçıb saçıblar saçım saçın saçır saçırdı saçırdılar saçırlar saçırmış saçırsan
+50	4150	məlik	məliklər məlikləri məliklərin məliklərindən məliklərini məliklərinin məliklərinə məliklərə məliyi məliyin
+51	4151	fövqəltəbii	
+52	4152	rəva	
+53	4153	xitab	xitabdan xitablar xitablarda xitablardan xitabların xitabı xitabın xitabına xitabını xitabının
+54	4154	xalis	
+55	4155	xof	xofa xofda xofdan xofu xofun xofuna xofunda xofundan xofunu xofunun
+56	4156	təqsir	taxsır təqsirdən təqsiri təqsirim təqsirimiz təqsirin təqsirindən təqsirini təqsirinin təqsirinə təqsirləri təqsirlərim təqsirlərin təqsirlərini təqsirlərinin təqsirlərinə təqsirə
+57	4157	inanclı	
+58	4158	bostan	bostana bostanda bostandan bostanlar bostanlara bostanlarda bostanları bostanların bostanlarını bostanlarının bostanı bostanıma bostanımıza bostanın bostanına bostanında bostanından bostanını bostanınızda
+59	4159	gimnastika	gimnastikada gimnastikadan gimnastikamızın gimnastikanı gimnastikanın gimnastikası gimnastikasını gimnastikasının gimnastikaya
+60	4160	zir	
+61	4161	qeyrət	qeyrətdə qeyrətdən qeyrəti qeyrətim qeyrətimi qeyrətimiz qeyrətimizdən qeyrətimizi qeyrətimizə qeyrətimə qeyrətin qeyrətində qeyrətindən qeyrətini qeyrətinizə qeyrətinə qeyrətləri qeyrətlərinə qeyrətə
+62	4162	nəbi	nəbidən nəbilər nəbilərdən nəbilərə nəbini nəbinin nəbisi nəbiyə
+63	4163	dilli	
+64	4164	nigaran	
+65	4165	kinayə	kinayən
+66	4166	abid	abiddən abidi abidin abidini abidinin abidlər abidlərdən abidləri abidlərindən abidlərinə abidlərə
+67	4167	delfin	delfindən delfini delfinin delfininin delfinlər delfinlərdə delfinlərdən delfinləri delfinlərin delfinlərindən delfinlərini delfinlərinin delfinlərinə delfinlərə delfinə
+68	4168	ar	arda ardan arlar arım arına arından arını arının
+69	4169	bağban	bağbana bağbanda bağbandan bağbanlar bağbanlara bağbanlarda bağbanlardan bağbanları bağbanların bağbanı bağbanın bağbanından bağbanınız
+70	4170	şou-biznes	şou-biznesdə şou-biznesdən şou-biznesi şou-biznesin şou-biznesində şou-biznesindən şou-biznesini şou-biznesinin şou-biznesinə şou-bizneslərdə şou-biznesə
+71	4171	yeriş	yerişdə yerişi yerişimiz yerişimə yerişin yerişində yerişindən yerişini yerişinin yerişinə yerişləri yerişlərində yerişlərindən yerişlərini yerişə
+72	4172	yoğun	
+73	4173	hersoq	hersoginya hersoqa hersoqda hersoqdan hersoqlar hersoqlara hersoqları hersoqların hersoqlarına hersoqlarını hersoqlarının hersoqu hersoqun hersoquna hersoqundan hersoqunun
+74	4174	məntiqsiz	
+75	4175	küt	
+76	4176	qalibiyyət	qalibiyyətdə qalibiyyətdən qalibiyyəti qalibiyyətimiz qalibiyyətimizin qalibiyyətin qalibiyyətində qalibiyyətindən qalibiyyətini qalibiyyətinin qalibiyyətinə qalibiyyətlər qalibiyyətlərdə qalibiyyətlərdən qalibiyyətləri qalibiyyətlərin qalibiyyətlərini qalibiyyətlərinin qalibiyyətlərə qalibiyyətə
+77	4177	törəmək	törə törədi törədikləri törədilər törəmir törəmiş törəmişdi törəmişdir törəmişik törəmişlər törəmədən törəməlidirlər törəməyə törəməz törəməzdilər törəyib törəyiblər törəyir törəyirdi törəyirdilər törəyə törəyəcək törəyəcəksən törəyən törəyər törəyərlər törəyərək
+78	4178	qənim	qənimi qənimimizə qəniminə qənimlər qənimləri qənimlərini
+79	4179	atalıq	atalıqdan atalığa atalığı atalığım atalığımın atalığımız atalığın atalığına atalığından atalığını atalığının
+80	4180	ağarmaq	ağar ağaracaq ağaran ağaranda ağarar ağardı ağarma ağarmadan ağarmamış ağarmış ağarmışdı ağarmışdır ağarsın ağarıb ağarıbmış ağarın ağarır
+81	4181	təkəbbürlü	
+82	4182	xaqan	xaqana xaqandan xaqanlar xaqanlara xaqanları xaqanların xaqanlarına xaqanlarından xaqanlarını xaqanlarının xaqanı xaqanın xaqanına xaqanından xaqanını xaqanının
+83	4183	laqeydlik	laqeydlikdə laqeydlikdən laqeydliklərə laqeydliyi laqeydliyimiz laqeydliyimizin laqeydliyin laqeydliyindən laqeydliyini laqeydliyinin laqeydliyiniz laqeydliyinə laqeydliyə
+84	4184	tufan	tufana tufanda tufandan tufanlar tufanlara tufanlarda tufanlardan tufanları tufanların tufanlarına tufanlarından tufanlarını tufanı tufanın tufanına tufanından tufanını tufanının
+85	4185	osturaq	osturağı osturağımı osturağından
+86	4186	qəhbəxana	qəhbəxanada qəhbəxanalar qəhbəxanasını qəhbəxanaya
+87	4187	qohum-əqrəba	qohum-əqraba qohum-əqrəbada qohum-əqrəbadan qohum-əqrəbalar qohum-əqrəbaları qohum-əqrəbalarım qohum-əqrəbalarımı qohum-əqrəbalarımız qohum-əqrəbalarımızı qohum-əqrəbalarına qohum-əqrəbalarından qohum-əqrəbalarını qohum-əqrəbalarının qohum-əqrəbam qohum-əqrəbama qohum-əqrəbamın qohum-əqrəbamız qohum-əqrəban qohum-əqrəbanı qohum-əqrəbanın qohum-əqrəbası qohum-əqrəbasına qohum-əqrəbasından qohum-əqrəbasını qohum-əqrəbasının qohum-əqrəbaya
+88	4188	toxunulmaz	
+89	4189	yaltaq	yaltaqlar yaltaqlara yaltaqlardan yaltaqları yaltaqlarımıza yaltaqların yaltaqlarından yaltağa yaltağı yaltağımız yaltağın
+90	4190	babat	
+91	4191	cəm	cəmdə cəmimi cəmimizi cəmimizə cəmin cəmində cəmindən cəmini cəminin cəminə cəmlər cəmləri cəmlərin cəmlərindən cəmlərinin cəmlərə cəmə
+92	4192	təftiş	təftişdə təftişdən təftişi təftişin təftişini təftişinin təftişinə təftişlər təftişlərdən təftişlərindən təftişlərini təftişlərinin təftişlərə təftişə
+93	4193	saman	samana samanda samandan samanları samanlarının samanı samanın samanından
+94	4194	yumşaltmaq	yumşalda yumşaldacaq yumşaldan yumşaldar yumşaldaraq yumşaldıb yumşaldım yumşaldır yumşaldırdı yumşaldırdılar yumşaldırsan yumşaldırıq yumşalt yumşaltdı yumşaltdılar yumşaltdım yumşaltma yumşaltmadan yumşaltmadı yumşaltmır yumşaltmış yumşaltmışdır yumşaltsa yumşaltsın yumşaltsınlar
+95	4195	qoltuq	qoltuqda qoltuqdan qoltuqlarda qoltuqlardan qoltuqlarına qoltuqlarında qoltuqlarından qoltuqlarının qoltuğa qoltuğu qoltuğuma qoltuğumda qoltuğumu qoltuğumuza qoltuğun qoltuğuna qoltuğunda qoltuğundan qoltuğunun
+96	4196	çex	çexdən çexi çexin çexində çexlər çexlərdə çexlərdən çexləri çexlərin çexlərə
+97	4197	çıxarış	çıxarışda çıxarışdan çıxarışlar çıxarışlarda çıxarışlardan çıxarışları çıxarışların çıxarışı çıxarışımın çıxarışın çıxarışına çıxarışını
+98	4198	barmaqlıq	barmaqlıqda barmaqlıqdan barmaqlıqlar barmaqlıqlara barmaqlıqlardan barmaqlıqları barmaqlıqların barmaqlıqlarına barmaqlıqlarından barmaqlıqlarını barmaqlıqlarının barmaqlığa barmaqlığı barmaqlığında barmaqlığından barmaqlığını
+99	4199	arzuolunmaz	
+100	4200	fahişəlik	fahişəlikdə fahişəlikdən fahişəliklərindən fahişəliyi fahişəliyin fahişəliyində fahişəliyindən fahişəliyini fahişəliyə

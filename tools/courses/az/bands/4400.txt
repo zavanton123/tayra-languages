@@ -1,0 +1,100 @@
+1	4301	qalamaq	qaladı qaladılar qaladım qaladıq qaladıqları qalamamaq qalamayacaqdı qalamayacaqlar qalamırlar qalamış qalamışdı qalamışdım qalamışlar qalasan qalasanız qalaya qalayan qalayanda qalayar qalayaraq qalayardı qalayarkən qalayasan qalayıb qalayıbmış qalayın qalayır qalayırdılar qalayırlar
+2	4302	dayamaq	daya dayadı dayadılar dayadım dayama dayamış dayamışam dayamışdı dayamışdılar dayasa dayaya-dayaya dayayanda dayayaraq dayayıb dayayıblar
+3	4303	dirəmək	dirə dirədi dirədik dirədilər dirədim dirəmiş dirəmişdi dirəmişik dirəməyə dirəyib dirəyiblər dirəyibsiniz dirəyin dirəyir dirəyirdi dirəyirsən dirəyə dirəyəcəklər dirəyən dirəyəndə dirəyərkən dirəyərək
+4	4304	öskürmək	öskürdü öskürdükcə öskürmə öskürməyib öskürməyin öskürüb öskürür öskürürdü öskürürsünüz öskürə-öskürə öskürək öskürəkdə öskürəkdən öskürəkləri öskürəklərin öskürən öskürərkən öskürəyi öskürəyin öskürəyindən öskürəyə
+5	4305	solçu	solçular solçulara solçulardan solçuları solçularımızın solçuların solçularından solçunun solçusuna solçusundan solçuya
+6	4306	mürgüləmək	mürgülə mürgüləmə mürgüləmədik mürgüləməyə mürgüləyə mürgüləyə-mürgüləyə mürgüləyəcəkdi mürgüləyəcəklər mürgüləyəcəksən mürgüləyən
+7	4307	yubatmaq	yubatdı yubatdıq yubatma yubatmadan yubatmır yubatmış yubatmışdır yubatsa yubatsalar yubatsam
+8	4308	təbəə	təbəələr təbəələrdən təbəələri təbəələrimin təbəələrin təbəələrindən təbəələrini təbəələrinin təbəələrinə təbəəni təbəənin təbəəsi təbəəsində təbəəsindən təbəəsini təbəəsinə təbəəyə
+9	4309	eşmək	eş eşdi eşib eşin eşir eşirlər eşmə eşməyin eşməyə eşə eşəcəklər eşən eşərək
+10	4310	cihad	cihada cihadda cihaddan cihadlarını cihadı cihadın cihadından cihadını
+11	4311	aşırmaq	aşır aşıra aşıracaq aşıram aşıran aşırar aşıraraq aşırarıq aşırasan aşırdı aşırdılar aşırdım aşırdıq aşırma aşırmalarda aşırmalarının aşırmasından aşırmasını aşırmayacaqdı aşırmaz aşırmış aşırmışam aşırmışdı aşırmışdılar aşırmışdım aşırsa aşırıb aşırıblar aşırır aşırırdı aşırırdılar aşırırlar aşırırmış
+12	4312	rəmz	rəmzdən rəmzin rəmzində rəmzini rəmzinin rəmzinə rəmzlər rəmzlərdən rəmzləri rəmzlərimiz rəmzlərimizdən rəmzlərimizin rəmzlərimizə rəmzlərin rəmzlərində rəmzlərindən rəmzlərini rəmzlərinin rəmzlərinə rəmzlərə rəmzə
+13	4313	əcəb	
+14	4314	müflis	
+15	4315	meyilli	
+16	4316	kükürd	kükürddə kükürddən kükürdü kükürdün kükürdünü kükürdünün kükürdə
+17	4317	qısaltma	qısaltmalar qısaltmalara qısaltmalardan qısaltmaları qısaltmalarına qısaltmalarından qısaltmanın qısaltması qısaltmasına qısaltmasından qısaltmasını qısaltmasının qısaltmaya
+18	4318	qorxusuz	
+19	4319	istehkam	istehkama istehkamda istehkamdan istehkamlar istehkamlara istehkamlarda istehkamlardan istehkamları istehkamların istehkamlarına istehkamlarında istehkamlarından istehkamlarını istehkamlarının istehkamı istehkamın istehkamına istehkamında istehkamını istehkamının
+20	4320	bağırmaq	bağıra bağıra-bağıra bağıracaq bağıram bağıran bağıraq bağırar bağıraraq bağırarkən bağırdı bağırdılar bağırdım bağırdıq bağırdıqca bağırdıqları bağırmalıydı bağırmamaq bağırmazdılar bağırmırdın bağırmışdı bağırmışdır bağırsın bağırsınlar bağırıb bağırın bağırır bağırırdı bağırırdılar bağırırdın bağırırlar bağırırsınız bağırırıq
+21	4321	götür-qoy	götür-qoydan götür-qoyunda
+22	4322	turş	tumturş
+23	4323	yorucu	
+24	4324	fəsilə	fəsilədə fəsilədən fəsilələr fəsilələrdə fəsilələrdən fəsilələri fəsilələrin fəsilələrindən fəsilələrinin fəsilələrinə fəsilələrə fəsiləni fəsilənin fəsiləsi fəsiləsində fəsiləsindən fəsiləsini fəsiləsinin fəsiləsinə fəsiləyə
+25	4325	demoqrafik	
+26	4326	qapmaq	qap qapa qapacaq qapan qapana qapandan qapanı qapar qapardı qapdı qapdılar qapmışdılar qapsa qapsan qapıb qapım qapın qapır qapırsan
+27	4327	dədə-baba	dədə-babadan dədə-babalar dədə-babalarım dədə-babalarımız dədə-babalarımızdan dədə-babaların dədə-babalarından dədə-babalarının dədə-babamız dədə-babamızın dədə-babası dədə-babasına dədə-babasından
+28	4328	gözəlləşmək	gözəlləşdi gözəlləşib gözəlləşibdir gözəlləşir gözəlləşirdi gözəlləşmir gözəlləşmiş gözəlləşmişdi gözəlləşmişdir gözəlləşmə gözəlləşməlidir gözəlləşməyə gözəlləşməyən gözəlləşsin gözəlləşə gözəlləşəcək gözəlləşən gözəlləşər gözəlləşərək
+29	4329	bibər	bibərdə bibərdən bibəri bibərin bibərindən bibərlər bibərlərdən bibərləri bibərlərin bibərə
+30	4330	skamya	skamyada skamyadan skamyalar skamyalara skamyalarda skamyalardan skamyaları skamyaların skamyalarında skamyam skamyanı skamyanın skamyası skamyasına skamyasında skamyasından skamyasını skamyaya
+31	4331	bəxt	baxt
+32	4332	danışdırmaq	danışdır danışdıra danışdıracaq danışdıracaqsınız danışdıran danışdıranda danışdırar danışdırarkən danışdırasınız danışdırdı danışdırdılar danışdırdım danışdırdınız danışdırdıq danışdırdıqca danışdırma danışdırmadılar danışdırmalıdır danışdırmasan danışdırmasaydım danışdırmayacaq danışdırmayıb danışdırmayın danışdırmazdı danışdırmır danışdırmırdı danışdırmışam danışdırmışdı danışdırsan danışdırsın danışdırsınlar danışdırıb danışdırıblar danışdırın danışdırır danışdırırdı danışdırırdılar danışdırırlar danışdırırıq
+33	4333	qarşısıalınmaz	
+34	4334	cırtdan	cırtdana cırtdandan cırtdanlar cırtdanlara cırtdanlardan cırtdanları cırtdanların cırtdanlarının cırtdanı cırtdanın
+35	4335	hirsləndirmək	hirsləndirdi hirsləndirdik hirsləndirdim hirsləndirib hirsləndirir hirsləndirmişdi hirsləndirməmək hirsləndirməsin hirsləndirməyin hirsləndirsəniz hirsləndirəcək hirsləndirən hirsləndirər
+36	4336	kommunizm	kommunizmdə kommunizmdən kommunizmi kommunizmin kommunizmini kommunizminin kommunizmə
+37	4337	yarımkürə	yarımkürədə yarımkürədən yarımkürələr yarımkürələrdə yarımkürələrdən yarımkürələri yarımkürələrin yarımkürələrində yarımkürələrindən yarımkürələrini yarımkürələrinin yarımkürələrinə yarımkürələrə yarımkürəni yarımkürənin yarımkürəniz yarımkürəsi yarımkürəsində yarımkürəsindən yarımkürəsini yarımkürəsinin yarımkürəsinə yarımkürəyə
+38	4338	hinduşka	hinduşkalarımızı hinduşkaların hinduşkalarını hinduşkamı hinduşkanın hinduşkasını
+39	4339	topal	topalı topalın
+40	4340	ifraz	ifrazı ifrazın ifrazına ifrazında ifrazından ifrazını ifrazının
+41	4341	cahan	cahana cahanda cahandan cahanların cahanı cahanın
+42	4342	işverən	işverəni işverənim işverənimin işverəninin işverənlər işverənlərdən işverənləri işverənlərin
+43	4343	xizək	xizəkdə xizəkdən xizəklər xizəklərdə xizəklərdən xizəkləri xizəklərin xizəklərində xizəklərindən xizəklərinin xizəklərinə xizəklərə xizəyi xizəyin xizəyində xizəyindən xizəyini xizəyinin xizəyinə xizəyə
+44	4344	duzlu	
+45	4345	yaşıllaşdırmaq	yaşıllaşdıran yaşıllaşdırma yaşıllaşdırmadan yaşıllaşdırsaq
+46	4346	uzunsov	
+47	4347	zədələmək	zədələdi zədələdikləri zədələdim zədələmirlər zədələmiş zədələmişdi zədələmişdir zədələmə zədələmədən zədələməmiş zədələməmək zədələməsin zədələməsə zədələməyə zədələməyəcək zədələsə zədələsələr zədələyib zədələyiblər zədələyir zədələyirdilər zədələyirlər zədələyə zədələyəcək zədələyən zədələyəndə zədələyər zədələyərək
+48	4348	ruhən	
+49	4349	üçümüz	
+50	4350	çarpaz	çarpazdan çarpazlarının çarpazı çarpazına çarpazını çarpazının
+51	4351	monoloq	monoloqa monoloqda monoloqdan monoloqlar monoloqlardan monoloqları monoloqların monoloqlarına monoloqlarında monoloqlarından monoloqlarını monoloqu monoloqun monoloquna monoloqunda monoloqundan monoloqunu
+52	4352	hindli	hindlilər hindlilərdə hindlilərdən hindliləri hindlilərin hindlilərə hindlini hindlinin
+53	4353	qayğanaq	qayğanağı
+54	4354	ləzgi	ləzgidən ləzgilər ləzgilərdə ləzgilərdən ləzgiləri ləzgilərin ləzgilərini ləzgilərə ləzgini ləzginin ləzgisi ləzgiyə
+55	4355	brend	brenda brendi brendlər
+56	4356	marş	marşa marşdan marşlar marşlardan marşları marşlarımızın marşların marşlarından marşlarını marşlarının marşı marşım marşımız marşın marşına marşından marşını marşının
+57	4357	teleportasiya	teleportasiyasını
+58	4358	jalə	jalələr jalələrə jaləni
+59	4359	rəzil	
+60	4360	vəsiyyətnamə	vəsiyyətnamədə vəsiyyətnamədən vəsiyyətnamələri vəsiyyətnamələrin vəsiyyətnamələrini vəsiyyətnamələrə vəsiyyətnaməni vəsiyyətnamənin vəsiyyətnaməsi vəsiyyətnaməsində vəsiyyətnaməsini vəsiyyətnaməsinin vəsiyyətnaməsinə vəsiyyətnaməyə
+61	4361	yaddaqalan	
+62	4362	aşırım	aşırıma aşırımda aşırımdan aşırımlar aşırımlara aşırımlarda aşırımlardan aşırımları aşırımların aşırımlarına aşırımlarında aşırımlarından aşırımlarını aşırımlarının aşırımı aşırımın aşırımına aşırımında aşırımından aşırımını aşırımının
+63	4363	kötək	kötəkdən kötəyin kötəyindən kötəyə
+64	4364	yumru	yumrudan yumrular yumrularda yumruları yumruların yumrularına yumrularında yumrularından yumrularını yumrularının yumrunun yumrusu yumrusuna yumrusunda yumrusunu yumrusunun yumruya yupyumru
+65	4365	şin	şində şindən şini şinin şinindən şininin şininə şinlər şinlərdə şinlərdən şinləri şinlərin şinlərində şinlərindən şinlərini şinlərinin şinlərə şinə
+66	4366	hidrogen	hidrogendə hidrogendən hidrogeni hidrogenin hidrogenini hidrogeninin hidrogenlər hidrogenlərdən hidrogenləri hidrogenlərin hidrogenlərini hidrogenlərinin hidrogenə
+67	4367	qaradərili	qaradərililər qaradərililərdə qaradərililəri qaradərililərin qaradərililərə qaradərilini qaradərilinin
+68	4368	məcmuə	məcmuədə məcmuədən məcmuələr məcmuələrdə məcmuələrdən məcmuələri məcmuələrin məcmuələrində məcmuələrini məcmuələrinin məcmuələrinə məcmuələrə məcmuəmiz məcmuəmizdə məcmuəmizi məcmuəmizin məcmuəni məcmuənin məcmuəsi məcmuəsində məcmuəsindən məcmuəsini məcmuəsinin məcmuəsinə məcmuəyə
+69	4369	icmal	icmala icmalda icmaldan icmallar icmallarda icmallardan icmalları icmalların icmallarında icmallarını icmallarının icmalı icmalımıza icmalın icmalına icmalında icmalını icmalının
+70	4370	fəza	fəzada fəzadan fəzalar fəzalara fəzalarda fəzalardan fəzaları fəzaların fəzalarına fəzalarında fəzalarının fəzamızın fəzan fəzanda fəzanı fəzanın fəzası fəzasına fəzasında fəzasından fəzasını fəzasının fəzaya
+71	4371	motivasiya	motivasiyadan motivasiyalar motivasiyalara motivasiyaları motivasiyaların motivasiyamız motivasiyanı motivasiyanın motivasiyası motivasiyasını motivasiyasının motivasiyaya
+72	4372	eyniləşdirmək	eyniləşdirdi eyniləşdirib eyniləşdiriblər eyniləşdirir eyniləşdirirdi eyniləşdirirdilər eyniləşdirirlər eyniləşdirirəm eyniləşdirmir eyniləşdirmirdi eyniləşdirmirlər eyniləşdirmiş eyniləşdirmişdi eyniləşdirmişdilər eyniləşdirmişdir eyniləşdirmişlər eyniləşdirmə eyniləşdirməməli eyniləşdirməyin eyniləşdirməyə eyniləşdirsin eyniləşdirsək eyniləşdirə eyniləşdirən eyniləşdirər eyniləşdirərək
+73	4373	qarlı	
+74	4374	çapıq	çapıqdan çapıqlar çapıqlarda çapıqları çapıqların çapıqlarında çapığı çapığım çapığın çapığını
+75	4375	yeşik	yeşikdə yeşikdən yeşiklər yeşiklərdə yeşiklərdən yeşikləri yeşiklərimin yeşiklərin yeşiklərini yeşiklərinin yeşiklərinə yeşiklərə yeşiyi yeşiyin yeşiyindən yeşiyini yeşiyinin yeşiyinə yeşiyə
+76	4376	himayədar	himayədarlar himayədarlardan himayədarları himayədarlarıma himayədarların himayədarlarına himayədarlarından himayədarlarını himayədarlarının himayədarı himayədarım himayədarımız himayədarın himayədarına himayədarından himayədarını himayədarının himayədarınız
+77	4377	səlis	səlist
+78	4378	istiqraz	istiqraza istiqrazda istiqrazlar istiqrazlara istiqrazlarda istiqrazlardan istiqrazları istiqrazların istiqrazlarına istiqrazlarından istiqrazlarını istiqrazlarının istiqrazı istiqrazın istiqrazına istiqrazından istiqrazının
+79	4379	əklil	əkil əklili əklilin əklillər
+80	4380	kələkbaz	kələkbazlar kələkbazlara kələkbazları kələkbazının
+81	4381	lobya	lobyada lobyadan lobyalar lobyalardan lobyanı lobyanın lobyası lobyasının lobyaya
+82	4382	karvansara	karvansarada karvansaradan karvansaralar karvansaralara karvansaralarda karvansaralardan karvansaraları karvansaraların karvansaralarında karvansaralarından karvansaralarını karvansaralarının karvansaranı karvansaranın karvansarası karvansarasına karvansarasında karvansarasından karvansarasının karvansaraya
+83	4383	pulemyot	pulemyotda pulemyotdan pulemyotlar pulemyotlardan pulemyotları pulemyotların pulemyotlarını pulemyotu pulemyotun pulemyotuna pulemyotunda pulemyotundan pulemyotunu pulemyotunun
+84	4384	zülmət	zülmətdə zülmətdən zülməti zülmətin zülmətində zülmətindən zülmətini zülmətinə zülmətlər zülmətlərdən zülmətləri zülmətlərindən zülmətlərinə zülmətlərə zülmətə
+85	4385	səfərbərlik	səfərbərlikdə səfərbərlikdən səfərbərliklərinin səfərbərliyi səfərbərliyin səfərbərliyini səfərbərliyinə səfərbərliyə
+86	4386	salnamə	salnamədə salnamədən salnamələr salnamələrdə salnamələrdən salnamələri salnamələrin salnamələrində salnamələrindən salnamələrini salnamələrinin salnamələrinə salnamələrə salnaməmizdə salnaməmizi salnaməmizin salnaməmizə salnaməni salnamənin salnaməsi salnaməsində salnaməsindən salnaməsini salnaməsinin salnaməsinə salnaməyə
+87	4387	quda	qudalar qudalara qudaları qudalarım qudalarımın qudaların qudalarını qudam qudamın qudan qudanın qudanız qudası qudasına qudasını qudasının
+88	4388	göyərti	göyərtidə göyərtidən göyərtilər göyərtilərdə göyərtilərdən göyərtiləri göyərtilərin göyərtimin göyərtini göyərtinin göyərtisi göyərtisində göyərtisini göyərtiyə
+89	4389	aktivləşdirmək	aktivləşdir aktivləşdirdi aktivləşdirdilər aktivləşdirdim aktivləşdirib aktivləşdirir aktivləşdirirlər aktivləşdirirəm aktivləşdirmişdir aktivləşdirmişlər aktivləşdirmə aktivləşdirmədən aktivləşdirməlidir aktivləşdirməyə aktivləşdirə aktivləşdirən aktivləşdirəndə aktivləşdirər aktivləşdirərdi aktivləşdirərək
+90	4390	fateh	fatehdə fatehdən fatehi fatehin fatehinin fatehinə fatehlər fatehləri fatehlərindən fatehlərinin fatehlərinə fatehlərə fatehə
+91	4391	bişmiş	bişmişləri bişmişə
+92	4392	bahalıq	bahalıqda bahalıqdan bahalığa bahalığı bahalığın bahalığına bahalığından bahalığını bahalığının
+93	4393	döyüntü	döyüntülər döyüntüləri döyüntülərimi döyüntülərin döyüntülərini döyüntülərinin döyüntülərinə döyüntünüz döyüntüsü döyüntüsündə döyüntüsündən döyüntüsünü döyüntüsünün döyüntüsünə
+94	4394	mahiyyətcə	
+95	4395	tən	təndə təni tənin tənini tənə
+96	4396	lil	lildə lildən lili lilin lilini lilinin lillər lillərdə lillərdən lilləri lillərin lillərində lillərindən lillərini lillərinə lillərə lilə
+97	4397	dırmıq	dırmıqdan dırmıqlar dırmığı
+98	4398	nasir	nasirdən nasiri nasirimiz nasirin nasirini nasirinin nasirlər nasirlərdən nasirləri nasirlərimiz nasirlərimizin nasirlərin nasirlərindən nasirlərinin nasirlərə nasirə
+99	4399	üfüqi	
+100	4400	yaltaqlıq	yaltaqlıqda yaltaqlıqdan yaltaqlıqlar yaltaqlıqlardan yaltaqlıqlarını yaltaqlığa yaltaqlığı yaltaqlığımızın yaltaqlığın yaltaqlığına yaltaqlığının

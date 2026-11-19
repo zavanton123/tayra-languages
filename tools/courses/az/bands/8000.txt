@@ -1,0 +1,100 @@
+1	7901	sözləşmək	
+2	7902	səhnəqrafiya	
+3	7903	səmirmək	səmir
+4	7904	taykeş	
+5	7905	tülək	
+6	7906	tədhiş	
+7	7907	vəsmə	
+8	7908	xudahafizləşmək	
+9	7909	yaraq-əsbab	yaraq-əsbabı
+10	7910	yaraşıqsız	
+11	7911	yaxantı	
+12	7912	yəhər-qayış	yəhər-qayışlara
+13	7913	zavtrak	
+14	7914	zoofil	
+15	7915	zırpaket	
+16	7916	çoxsağol	çoxsağolun
+17	7917	çubuş	
+18	7918	çindilli	çindillilərimiz
+19	7919	çiş	
+20	7920	öyəc	
+21	7921	irtidad	
+22	7922	şadara	şadaraya
+23	7923	şeş-beş	
+24	7924	ştanqçı	
+25	7925	əhliyyət	
+26	7926	ənbərə	
+27	7927	əhli-cəhan	
+28	7928	əhli-dünya	
+29	7929	əmlik	
+30	7930	ənlik	
+31	7931	əstəğfirullah	
+32	7932	böyük qardaş	böyük qardaş
+33	7933	peti	
+34	7934	tam məxfi	məxfi tam
+35	7935	təbii seçmə	seçmə təbii
+36	7936	dilarxası	
+37	7937	göynəmək	
+38	7938	müvazi	
+39	7939	mərkəzsizləşdirmək	mərkəzsizləşdirmə
+40	7940	qeyri-kamil	
+41	7941	rəbiülaxir	
+42	7942	sərhəng	
+43	7943	xırtıldamaq	xırtıldayan
+44	7944	iyirmi iki	iki iyirmi
+45	7945	ədviyyəli	
+46	7946	əyilgən	
+47	7947	aqlütinasiya	
+48	7948	dalğıclıq	
+49	7949	dodaqlanmayan	
+50	7950	iltisaqi	
+51	7951	öksüz	
+52	7952	aqlütinativ	
+53	7953	zilqədə	
+54	7954	taxıc	taxıcın
+55	7955	xitay	xitayların
+56	7956	duzsuzlaşmaq	duzsuzlaşma duzsuzlaşmış
+57	7957	lüğətçi	lüğətçilərin
+58	7958	sisəy	sisəyi sisəylərin
+59	7959	törpü	törpüsü
+60	7960	çalıquşu	çalıquşunu
+61	7961	bamiyə	bamiyənin
+62	7962	pencər	pencərə
+63	7963	xırnik	xırniyin
+64	7964	büstqalter	büstqalteri
+65	7965	dəlibəng	dəlibəngi
+66	7966	fotokimya	fotokimyası
+67	7967	atatürkçülük	atatürkçülüyə
+68	7968	alaf	alafa alafın
+69	7969	dovdaq	dovdaqlar
+70	7970	ovuq	ovuqlar ovuğu
+71	7971	yeralma	yeralmanı yeralması
+72	7972	yüyürük	yüyürüklərdə yüyürüklərin
+73	7973	posa	posada
+74	7974	ənginar	ənginardan ənginarı
+75	7975	tənbehləmək	tənbehlə tənbehlədi tənbehləmişdir tənbehləyir
+76	7976	ülgü	ülgülərini ülgün ülgüsü
+77	7977	bidayət	
+78	7978	buyurtma	
+79	7979	dövri cədvəl	cədvəl dövri
+80	7980	gülül	
+81	7981	güngörməz	
+82	7982	hərbi hava qüvvələri	hava hərbi qüvvələri
+83	7983	kitab əhli	kitab əhli
+84	7984	muğam üçlüyü	muğam üçlüyü
+85	7985	nisvan	
+86	7986	otuz altı	altı otuz
+87	7987	otuz bir	bir otuz
+88	7988	otuz iki	iki otuz
+89	7989	qan qrupu	qan qrupu
+90	7990	qardan adam	adam qardan
+91	7991	qida zənciri	qida zənciri
+92	7992	qəsəm	
+93	7993	ramramay	
+94	7994	ruçka	
+95	7995	sürətlər qutusu	qutusu sürətlər
+96	7996	ticarət mərkəzi	mərkəzi ticarət
+97	7997	uzunluq dairəsi	dairəsi uzunluq
+98	7998	bibiqızı	
+99	7999	dodaqlanan	
+100	8000	qadınsı	

@@ -1,0 +1,100 @@
+1	5201	bəbir	bəbirdə bəbirdən bəbiri bəbirin bəbirinin bəbirlər bəbirlərdə bəbirlərdən bəbirləri bəbirlərin bəbirlərindən bəbirlərinin bəbirlərə bəbirə
+2	5202	çalışqan	
+3	5203	toz-torpaq	toz-torpaqda toz-torpaqdan toz-torpağa toz-torpağı toz-torpağın toz-torpağından toz-torpağını
+4	5204	firuzə	firuzədən firuzələr firuzələri firuzələrin firuzələrə firuzəni firuzənin firuzəsi firuzəyə
+5	5205	kombayn	kombayna kombayndan kombaynlar kombaynlarda kombaynlardan kombaynları kombaynların kombaynı kombaynın kombaynından kombaynını
+6	5206	buzdağı	buzdağının
+7	5207	yarımkeçirici	yarımkeçiricidə yarımkeçiricilər yarımkeçiricilərdə yarımkeçiricilərdən yarımkeçiriciləri yarımkeçiricilərin yarımkeçiricilərindən yarımkeçiricilərə yarımkeçiricinin yarımkeçiricisində yarımkeçiricisinin yarımkeçiriciyə
+8	5208	manqal	manqala manqalda manqaldan manqallar manqallarda manqallardan manqalların manqalı manqalın
+9	5209	ahəng	
+10	5210	lam	lama lamda lamdan lamı lamın
+11	5211	deputatxana	deputatxanada deputatxanamız deputatxanamızın deputatxananı deputatxananın deputatxanası deputatxanaya
+12	5212	süzənək	süzənəyinə
+13	5213	üzüntü	üzüntüdə üzüntüdən üzüntülər üzüntülərdən üzüntüləri üzüntülərimizi üzüntülərini üzüntüm üzüntümü üzüntümüzü üzüntünü üzüntünün üzüntüsü üzüntüsündən üzüntüsünü üzüntüsünə üzüntüyə
+14	5214	avaz	avaza avazda avazdan avazlar avazlara avazlarından avazı avazım avazıma avazın avazında avazından avazını avazının
+15	5215	zurna	zurnada zurnadan zurnalar zurnaları zurnalarında zurnalarının zurnamıza zurnanı zurnanın zurnası zurnaya
+16	5216	süzgəc	süzgəcdə süzgəcdən süzgəci süzgəcimdən süzgəcin süzgəcindən süzgəcini süzgəclər süzgəclərdən süzgəclərin süzgəclərində süzgəclərindən
+17	5217	qudurmaq	qudura qudura-qudura quduracaqlar quduran qudurar qudurma qudurmazlar qudurmusan qudurmuş qudurmuşdular qudursun qudurub qudurublar qudurubsan qudurur qudururlar qudurursunuz
+18	5218	sik	siki
+19	5219	sapqın	
+20	5220	məqbərə	məqbərələr məqbərəni
+21	5221	batman	batmana batmanda batmandan batmanı batmanın batmanının
+22	5222	qərənfil	qərənfili qərənfilin qərənfillər qərənfilləri qərənfillərin qərənfillərə qərənfilə
+23	5223	diktor	diktora diktordan diktorlar diktorları diktorlarımız diktorların diktorlarından diktorlarının diktoru diktorun diktoruna diktorunun
+24	5224	irtica	irticalarına irticalarının irticanı irticanın irticası irticasına irticasını irticasının irticaya
+25	5225	civi	
+26	5226	kasıbçılıq	kasıbçılıqdan kasıbçılıqlarına kasıbçılığa kasıbçılığı kasıbçılığın kasıbçılığına kasıbçılığını
+27	5227	siğə	siğədə siğədən siğələr siğələri siğəni siğənin siğəsi siğəsini siğəyə
+28	5228	şığımaq	şığıdı şığıdılar şığıdıq şığıya şığıyacaqlar şığıyan şığıyaraq şığıyardı şığıyardılar şığıyıb şığıyır şığıyırlar
+29	5229	minbər	minbərdə minbərdən minbəri minbərin minbərində minbərindən minbərlər minbərlərdə minbərlərdən minbərə
+30	5230	ağcaqayın	ağcaqayına ağcaqayından ağcaqayınlar ağcaqayını ağcaqayının ağcaqayınına
+31	5231	üfunət	üfunətdə üfunətdən üfunəti üfunətin üfunətindən üfunətini üfunətinin üfunətə
+32	5232	fağır	fağıra fağırlar fağırlara fağırı füqəra füqəranın füqərası füqərasına füqərasının füqəraya fəqir
+33	5233	alışqan	alışqandan alışqanlar alışqanlardan alışqanların alışqanı alışqanın alışqanına
+34	5234	təmənna	təmənnada təmənnadan təmənnaları təmənnalarını təmənnam təmənnamız təmənnan təmənnanın təmənnası təmənnasına təmənnaya
+35	5235	paxlava	paxlavadan paxlavaları paxlavalarımız paxlavaların paxlavanı paxlavanın paxlavası paxlavasında paxlavasından paxlavaya
+36	5236	biclik	biclikdə bicliklər bicliklərdən biclikləri bicliklərini bicliklərə bicliyi bicliyin bicliyindən bicliyini bicliyinin bicliyə
+37	5237	müqəddimə	müqəddimədə müqəddimədən müqəddimələr müqəddimələrdə müqəddimələrdən müqəddimələri müqəddimələrində müqəddimələrindən müqəddimələrini müqəddimələrə müqəddiməni müqəddimənin müqəddiməsi müqəddiməsində müqəddiməsindən müqəddiməsini müqəddiməsinin müqəddiməsinə müqəddiməyə
+38	5238	turac	turaca turacların turacı turacın
+39	5239	oyuq	oyuqda oyuqdan oyuqlar oyuqlara oyuqlarda oyuqlardan oyuqları oyuqların oyuqlarına oyuqlarında oyuqlarının oyuğa oyuğu oyuğun oyuğunda oyuğundan oyuğunun
+40	5240	gödək	
+41	5241	himayəçi	himayəçilər himayəçiləri himayəçilərin himayəçilərindən himayəçilərini himayəçilərinin himayəçinin himayəçisi himayəçisini himayəçisinin himayəçisinə himayəçiyə
+42	5242	əks-hücum	əks-hücuma əks-hücumda əks-hücumdan əks-hücumlar əks-hücumlara əks-hücumlarda əks-hücumları əks-hücumların əks-hücumlarına əks-hücumlarında əks-hücumlarını əks-hücumlarının əks-hücumu əks-hücumun əks-hücumuna əks-hücumunu əks-hücumunun
+43	5243	şərəfsizlik	şərəfsizlikdən şərəfsizliklərinin şərəfsizliklərə şərəfsizliyi şərəfsizliyin şərəfsizliyə
+44	5244	asqırmaq	asqıran asqıranda asqıraq asqıraram asqırarkən asqırarlar asqırdı asqırma asqırsa asqırıb asqırır
+45	5245	əbədiləşdirmək	əbədiləşdirdi əbədiləşdirdik əbədiləşdirdilər əbədiləşdirib əbədiləşdiriblər əbədiləşdirir əbədiləşdirirdi əbədiləşdirirlər əbədiləşdirmiş əbədiləşdirmişdi əbədiləşdirmişdir əbədiləşdirmişik əbədiləşdirmişlər əbədiləşdirməliyik əbədiləşdirməmişik əbədiləşdirməyib əbədiləşdirməyə əbədiləşdirməyək əbədiləşdirə əbədiləşdirəcək əbədiləşdirən
+46	5246	süpürgəçi	süpürgəçidən süpürgəçilər süpürgəçilərdən süpürgəçiləri süpürgəçilərin süpürgəçilərə süpürgəçinin süpürgəçisi süpürgəçisinin süpürgəçisinə süpürgəçiyə
+47	5247	qısqanc	
+48	5248	xunta	xuntadan xuntalar xuntalara xuntalardan xuntaları xuntaların xuntanı xuntanın xuntası xuntasının xuntaya
+49	5249	tümən	tüməndə tüməndən tüməni tümənin tümənində tümənindən tümənini tüməninin tüməninə tümənləri tümənlərə tümənə
+50	5250	hörmək	hördü hördükləri hördülər hördün hörmüşdü hörmüşdük hörmə hörmədim hörmədən hörməsə hörməyə hörməzlər hörüb hörüblər hörür hörürdülər hörürlər hörürük hörürəm hörə hörəcəklər hörən hörər hörərdi hörərik hörərkən hörərlər hörərsən hörərək
+51	5251	şövq	şövqdən şövqü
+52	5252	ucluq	ucluqdan ucluqlar ucluqlardan ucluqları ucluqların ucluqlarına ucluqlarından ucluqlarının ucluğa ucluğu ucluğun ucluğuna ucluğunu
+53	5253	əndişə	əndişələr əndişələri əndişələrimiz əndişələrin əndişələrinizdən əndişələrə əndişəm əndişəmiz əndişəni əndişənin əndişəsi əndişəsində əndişəsindən əndişəsini əndişəyə
+54	5254	ertə	ertədən ertəsində ertəsindən ertəsini ertəsinin ertəsinə
+55	5255	qavrayış	qavrayışa qavrayışdan qavrayışlar qavrayışlara qavrayışları qavrayışların qavrayışlarını qavrayışlarının qavrayışı qavrayışın qavrayışına qavrayışında qavrayışından qavrayışını qavrayışının
+56	5256	qafiyə	qafiyədə qafiyədən qafiyələr qafiyələrdən qafiyələri qafiyələrimizdən qafiyələrin qafiyələrində qafiyələrinin qafiyələrə qafiyəni qafiyənin qafiyəsi qafiyəsində qafiyəsini qafiyəsinin qafiyəsinə qafiyəyə
+57	5257	təzadlı	
+58	5258	yarlıq	yarlıqda yarlıqlar yarlıqlarını yarlığı yarlığında yarlığından yarlığını yarlığının
+59	5259	sinonim	sinonimi sinonimini sinoniminin sinoniminə sinonimlər sinonimlərdən sinonimləri sinonimlərin sinonimlərini sinonimlərinin sinonimə
+60	5260	avtoş	avtoşlar avtoşlara avtoşların avtoşu avtoşun
+61	5261	arxiyepiskop	arxiyepiskopa arxiyepiskoplar arxiyepiskopları arxiyepiskoplarına arxiyepiskoplarından arxiyepiskoplarının arxiyepiskopu arxiyepiskopun arxiyepiskopuna arxiyepiskopundan arxiyepiskopunun
+62	5262	əmzik	əmzikdə əmzikdən əmziklər əmziklərdə əmziklərin əmziklərini əmziklərinin əmziyi əmziyin əmziyində əmziyindən əmziyini əmziyinin əmziyə
+63	5263	ziyadə	
+64	5264	əvəzolunmaz	
+65	5265	tutuşdurmaq	tutuşdura-tutuşdura tutuşduracaq tutuşduracaqsan tutuşduranda tutuşduraq tutuşduraraq tutuşdurarkən tutuşdurarlar tutuşdurdular tutuşdurduqları tutuşdurma tutuşdurmamışıq tutuşdurmaya tutuşdurmuş tutuşdurmuşdur tutuşdursaydıq tutuşdurub tutuşdurun tutuşdurur tutuşdururlar tutuşdurursan
+66	5266	sovqat	sovqatda sovqatdan sovqatlar sovqatları sovqatların sovqatı sovqatımızı sovqatın sovqatına sovqatını
+67	5267	intizar	intizara intizarda intizardan intizarı intizarıma intizarın intizarına intizarında intizarından intizarını intizarının
+68	5268	ictimailəşdirmək	ictimailəşdirdi ictimailəşdirdik ictimailəşdirdim ictimailəşdirib ictimailəşdiriblər ictimailəşdirir ictimailəşdiririk ictimailəşdirirlər ictimailəşdirmirik ictimailəşdirmiş ictimailəşdirmişdi ictimailəşdirmişdir ictimailəşdirmə ictimailəşdirmədik ictimailəşdirməliyik ictimailəşdirməyin ictimailəşdirməyə ictimailəşdirməzdilər ictimailəşdirsən ictimailəşdirə ictimailəşdirəcəyik ictimailəşdirək ictimailəşdirən ictimailəşdirərək ictimailəşdirəsən
+69	5269	elitar	
+70	5270	muştuluq	muştuluğa muştuluğu muştuluğumu muştuluğunu
+71	5271	intizamlı	
+72	5272	kirpi	kirpilər kirpiləri kirpilərin kirpilərində kirpilərinin kirpimə kirpini kirpinin kirpisi kirpisini kirpisinin kirpisinə kirpiyi kirpiyə
+73	5273	badımcan	badımcana badımcandan badımcanlar badımcanlara badımcanları badımcanların badımcanı badımcanın
+74	5274	sarımsaq	sarımsaqda sarımsaqdan sarımsaqlar sarımsaqları sarımsağa sarımsağı sarımsağın sarımsağından
+75	5275	şəcərə	şəcərədə şəcərədən şəcərələr şəcərələrdə şəcərələri şəcərələrin şəcərələrində şəcərələrini şəcərələrinə şəcərəmiz şəcərəmizdə şəcərəmizi şəcərəni şəcərənin şəcərəsi şəcərəsində şəcərəsindən şəcərəsini şəcərəsinin şəcərəsinə şəcərəyə
+76	5276	çöhrə	çöhrədən çöhrələr çöhrələrdə çöhrələri çöhrələrimiz çöhrələrin çöhrələrində çöhrələrindən çöhrələrinə çöhrəmizə çöhrən çöhrəni çöhrənizdə çöhrənizi çöhrənizə çöhrəsi çöhrəsində çöhrəsindən çöhrəsini çöhrəsinə
+77	5277	kənd təsərrüfatı	kənd təsərrüfatı
+78	5278	boyaq	boyaqlar boyaqlara boyaqlardan boyaqları boyaqların boyaqlarına boyaqlarından boyaqlarını boyağa boyağı boyağın boyağından boyağının
+79	5279	anayasa	anayasada anayasadan anayasalarda anayasanı anayasanın anayasası anayasasında anayasasını anayasasının anayasaya
+80	5280	diskriminasiya	diskriminasiyada diskriminasiyadan diskriminasiyalar diskriminasiyanı diskriminasiyanın diskriminasiyası diskriminasiyasına diskriminasiyasında diskriminasiyaya
+81	5281	rəşadət	rəşadətdən rəşadəti rəşadətimdən rəşadətindən rəşadətini rəşadətinin rəşadətinizi rəşadətinə rəşadətlər rəşadətləri rəşadətə
+82	5282	şum	şuma şumda şumdan şumu şumun şumunu şumunun
+83	5283	zümrə	zümrələr zümrəni
+84	5284	ailədaxili	
+85	5285	çovdar	çovdara çovdardan çovdarı çovdarım çovdarın
+86	5286	təsəvvüf	təsəvvüfdə təsəvvüfdən təsəvvüfü təsəvvüfün təsəvvüfündə təsəvvüfünün təsəvvüfə
+87	5287	füsunkar	
+88	5288	beh	behi behin
+89	5289	cehiz	cehizdə cehizi cehizin cehizindən cehizini cehizinin cehizinə cehizlər cehizləri cehizlərini cehizlərinə cehizə
+90	5290	üzücü	
+91	5291	fərli	
+92	5292	sağa-sola	
+93	5293	atlanmaq	atlan atlana atlana-atlana atlanacaq atlanacağam atlanan atlananda atlanar atlanaraq atlanarkən atlanarlar atlandı atlandılar atlandın atlandıqları atlanma atlanmadan atlanmalısan atlanıb atlanıblar atlanın atlanır atlanırlar atlanırıq
+94	5294	əxz	
+95	5295	baş nazir	baş nazir
+96	5296	barama	baramada baramadan baramalar baramalara baramalarda baramalardan baramaları baramaların baramalarında baramalarını baramalarının baramanı baramanın baraması baramasına baramasından baramasını baramasının baramaya
+97	5297	paltaryuyan	paltaryuyanı
+98	5298	bacı-qardaş	bacı-qardaşa bacı-qardaşdan bacı-qardaşlar bacı-qardaşları bacı-qardaşlarım bacı-qardaşlarımız bacı-qardaşlarımıza bacı-qardaşlarımızı bacı-qardaşlarımızın bacı-qardaşlarına bacı-qardaşlarından bacı-qardaşlarını bacı-qardaşlarının bacı-qardaşı bacı-qardaşım bacı-qardaşımı bacı-qardaşımız bacı-qardaşın bacı-qardaşından bacı-qardaşının bacı-qardaşınız bacı-qardaşınızın
+99	5299	boyunduruq	boyunduruqdan boyunduruqları boyunduruğa boyunduruğu boyunduruğumu boyunduruğun boyunduruğuna boyunduruğunda boyunduruğundan boyunduruğunu
+100	5300	noxud	noxuda noxudda noxuddan noxudlar noxudlara noxudları noxudların noxudlarını noxudlarının noxudu noxudun

@@ -1,0 +1,100 @@
+1	7301	mürəttib	mürəttiblərin
+2	7302	rebrendinq	rebrendinqi
+3	7303	intiqal	intiqallarda intiqallarına intiqallarında intiqallarının intiqalı
+4	7304	vətəndaş cəmiyyəti	cəmiyyəti vətəndaş
+5	7305	bəlğəmgətirici	
+6	7306	şalğam	şalğamda
+7	7307	örən	örənin örənlərin
+8	7308	xab	xablar
+9	7309	hürgüc	hürgücü hürgücünü hürgücünün
+10	7310	bağışlanılmaz	
+11	7311	fərar	
+12	7312	kiçikçaplı	
+13	7313	yavanlıq	
+14	7314	əhli-kef	
+15	7315	güzəm	
+16	7316	italyandilli	italyandillilər italyandillilərin
+17	7317	idillik	
+18	7318	qaynaqlamaq	qaynaqla qaynaqlayıblar
+19	7319	qibti	qibtilər
+20	7320	yapalaq	yapalaqlar yapalağı
+21	7321	bıçaqlaşmaq	bıçaqlaşmaya bıçaqlaşıb bıçaqlaşır
+22	7322	biblioqraf	biblioqrafa biblioqrafdan biblioqraflar biblioqrafların biblioqrafı
+23	7323	dofin	dofini dofinin
+24	7324	korona	koronanın koronasının
+25	7325	akkordeon	akkordeonda akkordeonlara akkordeonu
+26	7326	icbar	icbarı
+27	7327	elektrodinamika	elektrodinamikada elektrodinamikanın elektrodinamikası elektrodinamikasının
+28	7328	ad günü	ad günü
+29	7329	bazar ertəsi	bazar ertəsi
+30	7330	cinayət hüququ	cinayət hüququ
+31	7331	on yeddi	on yeddi
+32	7332	qida borusu	borusu qida
+33	7333	əməliyyat sistemi	sistemi əməliyyat
+34	7334	tasma	tasman
+35	7335	saksaul	saksaula saksaullar saksaulun
+36	7336	lüğətçilik	lüğətçiliyinin lüğətçiliyinə
+37	7337	donluq	
+38	7338	feyzyab	
+39	7339	gəldi-gedər	
+40	7340	havaxt	
+41	7341	ikişər	
+42	7342	kətmən	
+43	7343	məğrur-məğrur	
+44	7344	qətrə	
+45	7345	sərvaxt	
+46	7346	toppuzlamaq	toppuzla
+47	7347	təkəmseyrək	
+48	7348	qadası	
+49	7349	mədar	mədarım
+50	7350	fərə	fərəsi
+51	7351	aralaşdırmaq	aralaşdırdı aralaşdırıb aralaşdırıblar
+52	7352	lampoçka	lampoçkada lampoçkadan
+53	7353	hıçqırtı	hıçqırtıları hıçqırtılarım hıçqırtısı
+54	7354	əyləmək	əylədi əyləmişdilər əyləsən əyləyib
+55	7355	yallamaq	yalla yallama yallayıb
+56	7356	huşsuzluq	huşsuzluğa
+57	7357	cütçü	cütçüləri cütçüsünü
+58	7358	bacılıq	bacılığı bacılığının
+59	7359	fantast	fantastlar fantastların fantastı
+60	7360	iqlimşünas	iqlimşünaslar iqlimşünasların iqlimşünası
+61	7361	minalamaq	minaladı minaladılar minalamır minalamışdılar minalayaraq minalayır
+62	7362	noxta	noxtanı noxtası noxtasından noxtasını
+63	7363	soldış	soldışı soldışın soldışının
+64	7364	özünənəzarət	özünənəzarəti özünənəzarətin
+65	7365	başaq	
+66	7366	gizlənpaç	
+67	7367	ördəkburun	ördəkburunun
+68	7368	duxovka	duxovkada duxovkanın duxovkaya
+69	7369	intiqamçı	intiqamçılar intiqamçıları intiqamçılarına intiqamçılarının
+70	7370	şüvül	şüvüllər şüvüllərdən şüvülləri şüvüllərində şüvülün
+71	7371	əvəlik	əvəlikdə
+72	7372	lök	
+73	7373	kobudca	
+74	7374	muğ	muğlar muğların
+75	7375	yereşən	yereşənlər
+76	7376	qadaq	qadağa qadağını qadağının
+77	7377	açılışmaq	açılışa açılışaraq açılışmırdı açılışıb açılışın
+78	7378	hidrodinamika	hidrodinamikada hidrodinamikanı hidrodinamikanın hidrodinamikası hidrodinamikasında hidrodinamikasının
+79	7379	dayça	dayçalar dayçalara dayçaları dayçaların dayçalarında dayçanı dayçası
+80	7380	on səkkiz	on səkkiz
+81	7381	dağsiçanı	dağsiçanları dağsiçanına dağsiçanının
+82	7382	ətmək	ətməyə
+83	7383	birhədli	birhədlilərin birhədlini birhədlinin birhədliyə
+84	7384	azik	
+85	7385	azarlı	
+86	7386	badımcanlıq	badımcanlığa
+87	7387	ikiarvadlı	
+88	7388	qartımaq	qartımış
+89	7389	çerez	
+90	7390	ölüyuyan	
+91	7391	kərəci	kərəcin
+92	7392	qeydiyyatlı	
+93	7393	zato	
+94	7394	cib-cib	cip-cip
+95	7395	məcburilik	məcburiliyi məcburiliyə
+96	7396	pullanmaq	pullanır
+97	7397	anqırtı	anqırtıya
+98	7398	yarğılamaq	yarğılasın yarğılayan
+99	7399	şap-şap	şap-şapları
+100	7400	narkotacir	narkotacirin narkotacirlər narkotacirlərin

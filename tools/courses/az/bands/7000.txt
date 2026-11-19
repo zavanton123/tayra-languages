@@ -1,0 +1,100 @@
+1	6901	qeyri-hökümət	
+2	6902	səkmək	sək səkmə səkə səkən
+3	6903	xəlbir	xəlbiri xəlbirindən xəlbirə
+4	6904	cuhud	cuhudlar cuhudları cuhudların
+5	6905	kərənti	kərəntiləri kərəntini kərəntiyə
+6	6906	yuvarlamaq	yuvarladı yuvarladıq yuvarlama yuvarlamayın yuvarlamışlar yuvarlayacaq yuvarlayar yuvarlayaraq yuvarlayıb
+7	6907	insanabənzər	
+8	6908	qafiyələnmək	qafiyələnir qafiyələnmişdi qafiyələnmişdir qafiyələnmə qafiyələnə qafiyələnən
+9	6909	dağəmələgəlmə	dağəmələgəlməsi
+10	6910	kaf	kafa kafdan
+11	6911	fok	foka foku fokun
+12	6912	daniş	danişin danişə
+13	6913	nəqərat	nəqarət nəqəratı
+14	6914	ərəbşünas	ərəbşünaslar ərəbşünasları ərəbşünası
+15	6915	xloroplast	xloroplastdan xloroplastlar xloroplastlara xloroplastlarda xloroplastlardan xloroplastların
+16	6916	iqamət	iqaməti iqamətin iqamətinin iqamətinə iqamətə
+17	6917	lezva	lezvanı
+18	6918	dəmir-dümür	dəmir-dümürdən dəmir-dümürünü
+19	6919	quşbaz	quşbazlar quşbazlara quşbazları
+20	6920	başıqapazlı	
+21	6921	dütdülü	
+22	6922	başıörtülü	
+23	6923	gorbagor	
+24	6924	nətər	
+25	6925	bəniz	bənizi bənizində bənizinə
+26	6926	ağardıcı	ağardıcılarda ağardıcılardan ağardıcıların
+27	6927	iranşünas	iranşünaslar iranşünasları iranşünasların iranşünaslarından iranşünasın
+28	6928	mətnşünaslıq	mətnşünaslığa mətnşünaslığı mətnşünaslığına mətnşünaslığının
+29	6929	ikiayaqlı	ikiayaqlısından
+30	6930	elektrovoz	elektrovozda elektrovozlar elektrovozları elektrovozun elektrovozunun
+31	6931	uğuldamaq	uğuldadı uğuldayan uğuldayaraq uğuldayır
+32	6932	aldanış	aldanışa aldanışdan aldanışlar aldanışlardan aldanışlarına aldanışın
+33	6933	mikroiqlim	mikroiqlimi mikroiqlimin mikroiqlimindən mikroiqlimini mikroiqliminin
+34	6934	yasar	
+35	6935	gülab	gülaba gülabı
+36	6936	çoxcildli	
+37	6937	ovuntu	ovuntuları ovuntularından ovuntularını ovuntularının ovuntunu ovuntusu ovuntusundan
+38	6938	qısaboylu	
+39	6939	islandiyalı	islandiyalılar islandiyalıların
+40	6940	döyənək	döyənəklərində döyənəyi döyənəyindən döyənəyə
+41	6941	oxlov	oxlovdan oxlovlar oxlovu
+42	6942	ce	
+43	6943	parç	parçda parçlar parçlara parçı
+44	6944	aerodinamika	aerodinamikada aerodinamikanı aerodinamikanın aerodinamikası aerodinamikasının aerodinamikaya
+45	6945	lacivərd	lacivərdi lacivərdin
+46	6946	əleyhqaz	əleyhqaza əleyhqazda əleyhqazlarda əleyhqazları əleyhqazı əleyhqazını
+47	6947	on beş	beş on
+48	6948	sinir sistemi	sinir sistemi
+49	6949	tarixşünas	tarixşünaslar tarixşünasları tarixşünasların tarixşünası
+50	6950	külmə	külmələrin külmələrə külmənin külməsi külməsində külməsinin
+51	6951	antisanitar	
+52	6952	müştəbeh	
+53	6953	qarınqulu	qarınqulular
+54	6954	səbirsizlik	səbirsizliyi səbirsizliyinə
+55	6955	əqdəm	
+56	6956	qıyıq	qıyığın
+57	6957	plomb	plomblar plomblarının plombun
+58	6958	koramal	koramallara koramallarda koramalı koramalın
+59	6959	ordugah	ordugaha ordugahda ordugahdan ordugahı ordugahın ordugahına ordugahında ordugahını ordugahının
+60	6960	ərincək	ərincəklər ərincəklərin ərincəklərə ərincəyi
+61	6961	yuqoslav	yuqoslavlar yuqoslavlara yuqoslavları yuqoslavların
+62	6962	narınc	narınclar narınclarda narıncını
+63	6963	sağrı	sağrıdan sağrılarında sağrının sağrısı sağrısında
+64	6964	gerçəkçi	
+65	6965	qaragöz	
+66	6966	pülük	pülüyü pülüyün
+67	6967	kompilyator	kompilyatordan kompilyatorlar kompilyatorlara kompilyatorlardan kompilyatorları kompilyatorların kompilyatoru kompilyatorun kompilyatoruna kompilyatorundan
+68	6968	qalayçı	qalayçılar qalayçıların
+69	6969	çayır	çayırda çayırlar çayırları çayırı çayırında
+70	6970	basılmaz	
+71	6971	binamus	
+72	6972	boğanaq	
+73	6973	ağıçı	ağıçılar
+74	6974	yekəxanalıq	yekəxanalıqdan yekəxanalığı yekəxanalığına yekəxanalığından
+75	6975	aqrotexnika	aqrotexnikadan aqrotexnikanın aqrotexnikası aqrotexnikasında
+76	6976	cirə	cirədən cirən cirənin
+77	6977	müdaxiləçi	müdaxiləçilər müdaxiləçiləri müdaxiləçilərindən müdaxiləçilərini müdaxiləçilərə müdaxiləçisinə
+78	6978	səccadə	səccadədən səccadəm səccadənin səccadəsini səccadəsinin səccadəyə
+79	6979	gözəyarı	
+80	6980	çolaq	
+81	6981	kefsiz	
+82	6982	hüseyniyyə	hüseyniyyədə hüseyniyyəsi hüseyniyyəsinə
+83	6983	mürəbbiyə	mürəbbiyələri mürəbbiyələrin mürəbbiyənin mürəbbiyəsi
+84	6984	möhnət	möhnətdən möhnəti möhnətindən möhnətlər möhnətə
+85	6985	disket	disketdə disketi disketin disketlər disketlərdən disketləri disketlərin disketə
+86	6986	sututar	sututarlarda sututarlardan sututarları sututarların sututarlarına sututarlarında sututarlarını sututarlarının sututarın
+87	6987	saqqalsız	
+88	6988	suüstü	
+89	6989	önəmsiz	
+90	6990	çıxılan	çıxılandan
+91	6991	beşbucaqlı	beşbucaqlının
+92	6992	iynəcə	iynəcələr iynəcələrdə iynəcələrin iynəcənin
+93	6993	iqamə	iqamədə iqamədən iqaməni iqamənin iqaməsi iqaməsini
+94	6994	cift	ciftdə cifti ciftin ciftində
+95	6995	axta	axtan
+96	6996	bıçaqçı	bıçaqçıda bıçaqçıdan bıçaqçılar bıçaqçının
+97	6997	mizrab	mizrabı mizrabın mizrabından
+98	6998	papış	papışı papışını
+99	6999	özlərininki	özlərininkindən özlərininkinin
+100	7000	şərəflənmək	şərəfləndi şərəflənib şərəflənməyə şərəflənəcəyik

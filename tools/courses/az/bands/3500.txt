@@ -1,0 +1,100 @@
+1	3401	günəşli	
+2	3402	halqa	halqada halqadan halqalar halqalara halqalarda halqalardan halqaları halqaların halqalarına halqalarında halqalarından halqalarını halqalarının halqanı halqanın halqası halqasına halqasında halqasından halqasını halqasının halqaya
+3	3403	zorakı	
+4	3404	qərəz	qərəzdə qərəzdən qərəzi qərəzim qərəzimiz qərəzin qərəzindən qərəzini qərəzinin qərəziniz qərəzinizi qərəzlər qərəzlərdən qərəzləri qərəzlərin qərəzlərini qərəzlərə qərəzə
+5	3405	yığılan	
+6	3406	nahaq	
+7	3407	əmtəə	əmtəədən əmtəələr əmtəələrdən əmtəələri əmtəələrin əmtəələrindən əmtəələrini əmtəələrinin əmtəələrinə əmtəələrə əmtəəni əmtəənin əmtəəsi əmtəəsindən əmtəəsini əmtəəsinin əmtəəyə
+8	3408	nar	nara narda nardan narlar narlardan narları narların narlarının narı narım narın narına narını narının
+9	3409	tülkü	tülküdə tülküdən tülkülər tülkülərdə tülküləri tülkülərin tülkülərindən tülkülərə tülkünü tülkünün tülküsü tülküsünü tülküsünün tülküsünə tülküyə
+10	3410	soyumaq	soyu soyudu soyudular soyudun soyuduqca soyuma soyumadan soyumadı soyumamış soyumamışdı soyumasın soyumaya soyumayacaq soyumayan soyumayaraq soyumayıb soyumazdı soyumur soyumuş soyumuşdu soyumuşdular soyumuşdur soyusa soyusun soyuyacaq soyuyan soyuyanda soyuyar soyuyaraq soyuyardı soyuyarkən soyuyub soyuyublar soyuyur soyuyuram soyuyurdu soyuyuruq
+11	3411	qeybət	qeybətdən qeybəti qeybətimi qeybətin qeybətindən qeybətini qeybətinin qeybətlər qeybətlərdən qeybətləri qeybətə
+12	3412	dərgi	dərgidə dərgidən dərgilər dərgilərdə dərgilərdən dərgiləri dərgilərin dərgilərində dərgilərindən dərgilərini dərgilərinin dərgilərinə dərgilərə dərgimizdə dərgimizə dərgini dərginin dərgisi dərgisində dərgisindən dərgisini dərgisinin dərgisinə dərgiyə
+13	3413	yadigar	yadigardan yadigarlar yadigarlardan yadigarları yadigarlarından yadigarlarını yadigarlarının yadigarı yadigarım yadigarımızı yadigarın yadigarından yadigarını yadigarının
+14	3414	fırlatmaq	fırlada fırladacaqsan fırladan fırladanda fırladaq fırladaraq fırladardılar fırladarkən fırladarlar fırladasan fırladıb fırladın fırladır fırladırdı fırladırdılar fırladırlar fırladırsan fırladırsınız fırlat fırlatdı fırlatdılar fırlatdıqları fırlatma fırlatmasalar fırlatmır fırlatmış fırlatmışam fırlatmışdır fırlatsan fırlatsaq fırlatsın fırlatsınlar
+15	3415	qışqırıq	qışqırıqlar qışqırıqlara qışqırıqlardan qışqırıqları qışqırıqlarına qışqırıqlarını qışqırığa qışqırığı qışqırığım qışqırığımıza qışqırığına qışqırığını
+16	3416	huş	huşdan huşlarını huşu huşum huşuma huşumu huşumun huşumuz huşun huşundan huşunu huşunun
+17	3417	mismar	mismardan mismarlar mismarlara mismarlardan mismarları mismarlarım mismarlarıma mismarların mismarlarının mismarı mismarın mismarından
+18	3418	qayınana	qayınanadan qayınanalar qayınanam qayınanama qayınanamdan qayınanamı qayınanamın qayınanan qayınanandan qayınananı qayınananın qayınananız qayınanası qayınanasına qayınanasından qayınanasını qayınanasının qayınanaya
+19	3419	yazışmaq	yazışan yazışaraq yazışdı yazışdım yazışma yazışmadan yazışmaya yazışmazdılar yazışmış yazışmışdır yazışmışlar yazışıb yazışır yazışıram yazışırdı yazışırdılar yazışırdım yazışırdın yazışırdıq yazışırlar yazışırmış yazışırsan yazışırıq
+20	3420	timsalında	
+21	3421	məşğulluq	məşğulluqda məşğulluqdan məşğulluqlarını məşğulluğa məşğulluğu məşğulluğun məşğulluğuna məşğulluğunda məşğulluğunu məşğulluğunun
+22	3422	div	divdə divi divin divini divinə divlər divləri divlərim divlərimi divlərin divlərindən divlərə divə
+23	3423	gölməçə	gölməçədə gölməçədən gölməçələr gölməçələrdə gölməçələrdən gölməçələri gölməçələrin gölməçələrində gölməçələrini gölməçələrinin gölməçələrinə gölməçələrə gölməçəni gölməçənin gölməçəsi gölməçəsində gölməçəsini gölməçəsinin gölməçəsinə gölməçəyə
+24	3424	rəhm	rəhmdən rəhmi rəhmləri rəhmmi
+25	3425	qığılcım	qığılcıma qığılcımdan qığılcımlar qığılcımlardan qığılcımları qığılcımlarını qığılcımlarının qığılcımı qığılcımın qığılcımına qığılcımını qığılcımının
+26	3426	lift	liftdə liftdən lifti liftimiz liftin liftində liftindən liftinin liftiniz liftlər liftlərdə liftlərdən liftləri liftlərin liftlərindən liftlərinin liftlərinə liftlərə liftə
+27	3427	şkaf	şkafa şkafda şkafdan şkaflar şkaflara şkaflarda şkafları şkafların şkaflarında şkaflarını şkaflarının şkafı şkafım şkafımda şkafın şkafına şkafında şkafından şkafını şkafının
+28	3428	kahin	kahindən kahini kahinin kahinini kahininin kahinlər kahinlərdə kahinlərdən kahinləri kahinlərin kahinlərindən kahinlərini kahinlərinin kahinlərə kahinə
+29	3429	çaqqal	çaqqala çaqqalda çaqqallar çaqqallardan çaqqalları çaqqalların çaqqallarına çaqqalı çaqqalın
+30	3430	vurğun	vurğuna vurğunda vurğundan vurğunları vurğunlarını vurğunlarının vurğunu vurğunun vurğununa vurğunundan vurğununun
+31	3431	mümkünsüz	
+32	3432	bığ	bığa bığdan bığlar bığları bığlarımı bığların bığlarına bığlarını bığlarının bığı bığım bığıma bığımı bığın bığına bığından bığını bığının
+33	3433	paraşüt	paraşütdən paraşütlər paraşütləri paraşütlərindən paraşütü paraşütüm paraşütün paraşütünü paraşütünün
+34	3434	bayquş	bayquşa bayquşda bayquşdan bayquşlar bayquşlarda bayquşlardan bayquşları bayquşların bayquşlarının bayquşu bayquşun bayquşunun
+35	3435	islatmaq	islada islada-islada isladacaqsınız isladan isladanda isladaq isladaraq isladardı isladardılar isladardım isladarkən isladasan isladıb isladıblar isladın isladır isladıram isladırdı isladırdılar islat islatdı islatdım islatma islatmadı islatmasalar islatmaz islatmışam islatsa
+36	3436	qəm	qəmdə qəmdən qəmi qəmim qəmin qəmindən qəmini qəminin qəminiz qəminə qəmlər qəmlərdən qəmləri qəmlərini qəmə
+37	3437	ayətullah	ayətullahdan ayətullahlar ayətullahlara ayətullahları ayətullahların ayətullahlarına ayətullahlarından ayətullahlarının ayətullahı ayətullahın ayətullahının ayətullahınız
+38	3438	təvazökar	
+39	3439	aptek	aptekdə aptekdən apteki aptekin aptekində aptekindən aptekini aptekinin aptekinə apteklər apteklərdə apteklərdən aptekləri apteklərin apteklərində apteklərindən apteklərini apteklərə aptekə
+40	3440	həmvətən	həmvətəni həmvətənim həmvətənimi həmvətənimin həmvətənimiz həmvətənimizdə həmvətənimizi həmvətənimizin həmvətənimizə həmvətənimə həmvətənin həmvətənini həmvətəninin həmvətəninizin həmvətəninə həmvətənlər həmvətənləri həmvətənlərim həmvətənlərimdən həmvətənlərimi həmvətənlərimin həmvətənlərimiz həmvətənlərimizdə həmvətənlərimizdən həmvətənlərimizi həmvətənlərimizin həmvətənlərimizə həmvətənlərimə həmvətənlərin həmvətənlərindən həmvətənlərini həmvətənlərinin həmvətənlərinizi həmvətənlərinizin həmvətənlərinə həmvətənlərə həmvətənə
+41	3441	naşir	naşirdən naşiri naşirim naşirimiz naşirin naşirinin naşirlər naşirlərdə naşirlərdən naşirləri naşirlərim naşirlərimizin naşirlərin naşirlərindən naşirlərini naşirlərinin naşirlərə naşirə
+42	3442	anormal	
+43	3443	gözlük	gözlükdə gözlükdən gözlüklər gözlüklərdə gözlüklərdən gözlükləri gözlüklərin gözlüklərini gözlüklərinin gözlüklərə gözlüyü gözlüyüm gözlüyün gözlüyündən gözlüyünü gözlüyünün gözlüyə
+44	3444	isim	isimdə isimdən isimlər isimlərdən isimləri isimlərin isimlərindən isimlərini isimlərinin isimlərinə isimlərə ismi ismim ismimə ismin ismində ismindən ismini isminin isminə ismə
+45	3445	yaxalamaq	yaxaladı yaxaladılar yaxaladım yaxaladın yaxaladıq yaxaladıqları yaxalama yaxalamalıdır yaxalamasın yaxalamırlar yaxalamısan yaxalamış yaxalamışdı yaxalamışdılar yaxalamışdıq yaxalamışdır yaxalamışlar yaxalasa yaxalasalar yaxalasanız yaxalasaydıq yaxalasın yaxalaya yaxalayacaq yaxalayacaqlar yaxalayan yaxalayanda yaxalayar yaxalayaraq yaxalayardı yaxalayarkən yaxalayasan yaxalayıb yaxalayıblar yaxalayın yaxalayır yaxalayırdı yaxalayırlar yaxalayırmış
+46	3446	doğramaq	doğra doğradı doğradılar doğradıq doğrama doğramadan doğramasınlar doğramayasan doğramayıb doğramır doğramısınız doğramışam doğramışdı doğramışdılar doğramışlar doğrasalar doğrasanız doğrasın doğrasınlar doğraya doğrayacaq doğrayacaqlar doğrayan doğrayaq doğrayar doğrayaram doğrayaraq doğrayarkən doğrayarlar doğrayarsınız doğrayarıq doğrayıb doğrayıblar doğrayıbmış doğrayım doğrayın doğrayır doğrayırdılar doğrayırlar
+47	3447	elektromaqnit	elektromaqnitdən elektromaqnitin elektromaqnitlər elektromaqnitlərdən elektromaqnitləri elektromaqnitlərin elektromaqnitlərindən
+48	3448	müavinət	müavinətdə müavinətdən müavinəti müavinətin müavinətindən müavinətini müavinətinin müavinətlər müavinətlərdən müavinətləri müavinətlərin müavinətlərini müavinətlərinin müavinətlərinə müavinətlərə müavinətə
+49	3449	yormaq	yor yora yoracaq yoracaqdı yoram yoran yoranda yorar yoraraq yorma yormadan yormadı yormamalı yormamaq yormasın yormasınlar yormayan yormayaq yormayasan yormayasınız yormayım yormayın yormaz yormazdı yormazdılar yormazdım yorsa
+50	3450	yadelli	
+51	3451	çayxana	çayxanada çayxanadan çayxanalar çayxanalara çayxanalarda çayxanalardan çayxanaları çayxanaların çayxanalarında çayxanalarından çayxanalarını çayxanalarının çayxanam çayxananı çayxananın çayxanası çayxanasına çayxanasında çayxanasından çayxanasını çayxanasının çayxanaya
+52	3452	dəlixana	dəlixanada dəlixanadan dəlixanalara dəlixananı dəlixananın dəlixanası dəlixanasında dəlixanaya
+53	3453	ansambl	ansambla ansamblda ansambldan ansambllar ansambllara ansambllarda ansambllardan ansamblları ansamblların ansambllarına ansambllarında ansambllarını ansambllarının ansamblı ansamblımızı ansamblımızın ansamblın ansamblına ansamblında ansamblından ansamblını ansamblının
+54	3454	hücrə	hücrədə hücrədən hücrələr hücrələrdə hücrələrdən hücrələri hücrələrin hücrələrində hücrələrindən hücrələrini hücrələrinin hücrələrinə hücrələrə hücrəmi hücrənin hücrənizdən hücrəsi hücrəsində hücrəsindən hücrəsini hücrəsinin hücrəsinə hücrəyə
+55	3455	doğrultmaq	doğrultacaq doğrultdu doğrultdular doğrultdum doğrultma doğrultmadı doğrultmadılar doğrultmadınız doğrultmadıqları doğrultmalısan doğrultmalıyıq doğrultmamışdı doğrultmamışlar doğrultmasa doğrultmasan doğrultmasın doğrultmaya doğrultmayacaq doğrultmayan doğrultmayanda doğrultmayaraq doğrultmayıb doğrultmaz doğrultmur doğrultmurdu doğrultmuş doğrultmuşam doğrultmuşdu doğrultmuşdur doğrultmuşlar doğrultsa doğrultsalar doğrultsun doğrultsunlar
+56	3456	arıq	
+57	3457	şokolad	şokolada şokoladda şokoladdan şokoladlar şokoladlardan şokoladları şokoladların şokoladlarından şokoladlarını şokoladı şokoladın şokoladını şokoladının
+58	3458	sərgiləmək	sərgilədi sərgilədik sərgilədikləri sərgilədilər sərgiləmir sərgiləmirdi sərgiləmirlər sərgiləmiş sərgiləmişdi sərgiləmişdir sərgiləmədi sərgiləmədik sərgiləməlidir sərgiləməliyik sərgiləməsələr sərgiləməsəydi sərgiləməyib sərgiləməyin sərgiləməyə sərgiləməyəcək sərgiləməyən sərgiləsin sərgiləsinlər sərgiləsə sərgiləsələr sərgiləsəydik sərgiləyib sərgiləyiblər sərgiləyir sərgiləyirdi sərgiləyirdilər sərgiləyirlər sərgiləyə sərgiləyəcək sərgiləyəcəklər sərgiləyəcəkləri sərgiləyək sərgiləyən sərgiləyərək
+59	3459	qaynamaq	qaynadı qaynadım qaynadın qaynadıqca qaynama qaynamalar qaynamanın qaynaması qaynamasına qaynamasını qaynamasının qaynamayan qaynamaz qaynamır qaynamırdı qaynamış qaynasın qaynaya qaynayacaq qaynayacaqdı qaynayan qaynayanda qaynayar qaynayaraq qaynayıb qaynayır qaynayırdı qaynayırlar
+60	3460	biabırçılıq	biabırçılıqda biabırçılıqdan biabırçılıqlar biabırçılıqlara biabırçılıqlardan biabırçılıqları biabırçılıqların biabırçılığa biabırçılığı biabırçılığın biabırçılığına biabırçılığından biabırçılığının
+61	3461	ağciyər	ağciyərdə ağciyərdən ağciyəri ağciyərimə ağciyərin ağciyərində ağciyərindən ağciyərini ağciyərinin ağciyərinə ağciyərlər ağciyərlərdə ağciyərlərdən ağciyərləri ağciyərlərimiz ağciyərlərin ağciyərlərində ağciyərlərindən ağciyərlərinin ağciyərləriniz ağciyərlərinizi ağciyərlərinizə ağciyərlərinə ağciyərlərə ağciyərə
+62	3462	vəba	vəbadan vəbanı vəbanın vəbası vəbasına vəbasından vəbaya
+63	3463	ünsür	ünsürdə ünsürdən ünsürlər ünsürlərdə ünsürlərdən ünsürləri ünsürlərimiz ünsürlərimizi ünsürlərin ünsürlərində ünsürlərindən ünsürlərini ünsürlərinin ünsürlərinə ünsürlərə ünsürü ünsürün ünsüründə ünsüründən ünsürünü ünsürünün ünsürünə ünsürə
+64	3464	fəryad	fəryada fəryaddan fəryadlar fəryadlara fəryadları fəryadlarına fəryadlarını fəryadı fəryadımı fəryadımıza fəryadın fəryadına fəryadında fəryadından fəryadını fəryadının
+65	3465	məvacib	məvacibdə məvacibdən məvacibi məvacibim məvacibimi məvacibimiz məvacibimizin məvacibin məvacibində məvacibindən məvacibini məvacibinin məvacibinizi məvacibinizin məvacibinə məvaciblər məvaciblərdə məvaciblərdən məvacibləri məvaciblərimiz məvaciblərin məvaciblərində məvaciblərindən məvaciblərini məvaciblərinin məvaciblərinə məvaciblərə məvacibə
+66	3466	müvəffəqiyyət	müvəffəqiyyətdə müvəffəqiyyətdən müvəffəqiyyəti müvəffəqiyyətimi müvəffəqiyyətin müvəffəqiyyətində müvəffəqiyyətindən müvəffəqiyyətini müvəffəqiyyətinin müvəffəqiyyətinə müvəffəqiyyətlər müvəffəqiyyətlərdən müvəffəqiyyətləri müvəffəqiyyətlərim müvəffəqiyyətlərimə müvəffəqiyyətlərin müvəffəqiyyətlərində müvəffəqiyyətlərindən müvəffəqiyyətlərini müvəffəqiyyətlərinin müvəffəqiyyətlərinə müvəffəqiyyətlərə müvəffəqiyyətə
+67	3467	əski	əskidə əskidən əskilər əskilərdən əskilərin əskilərinə əskimiz əskini əskinin əskinə əskisi əskiyə
+68	3468	köpük	köpükdə köpükdən köpüklər köpüklərdə köpükləri köpüklərin köpüklərindən köpüklərini köpüklərinin köpüklərə köpüyü köpüyün köpüyündə köpüyündən köpüyünü köpüyünün köpüyünə
+69	3469	üçbucaq	üçbucaqda üçbucaqdan üçbucaqlar üçbucaqlara üçbucaqlarda üçbucaqlardan üçbucaqları üçbucaqların üçbucağa üçbucağı üçbucağın üçbucağına üçbucağında üçbucağından üçbucağını üçbucağının
+70	3470	nəticəsiz	
+71	3471	taktiki	
+72	3472	arxayın	
+73	3473	damla	damlada damlalar damlaları damlaların damlalarına damlalarından damlalarını damlalarının damlama damlanı damlanın damlası damlasına damlasında damlasından damlasını damlasının damlaya
+74	3474	kəsişmək	kəsişdi kəsişdikləri kəsişib kəsişir kəsişirdi kəsişirlər kəsişmir kəsişmişdir kəsişmə kəsişmədi kəsişmədən kəsişməyə kəsişməyəcək kəsişməyən kəsişməz kəsişsin kəsişsə kəsişə kəsişəcək kəsişən kəsişər kəsişərək
+75	3475	atlı	atlıdan atlılar atlılara atlılardan atlıları atlıların atlılarına atlılarından atlılarını atlılarının atlına atlında atlını atlının atlısı atlısından atlısının atlıya
+76	3476	misilsiz	
+77	3477	mənsubiyyət	mənsubiyyətdən mənsubiyyəti mənsubiyyətim mənsubiyyətimiz mənsubiyyətimizi mənsubiyyətimə mənsubiyyətin mənsubiyyətindən mənsubiyyətini mənsubiyyətinin mənsubiyyətiniz mənsubiyyətinizi mənsubiyyətinə mənsubiyyətlər mənsubiyyətləri mənsubiyyətlərin mənsubiyyətlərindən mənsubiyyətlərini mənsubiyyətlərinin mənsubiyyətlərinə mənsubiyyətə
+78	3478	nökər	nökəri nökərim nökərimi nökərin nökərindən nökərini nökərinin nökəriniz nökərinə nökərlər nökərlərdən nökərləri nökərlərimə nökərlərin nökərlərindən nökərlərini nökərlərinin nökərləriniz nökərlərinə nökərlərə nökərə
+79	3479	bir-bir	
+80	3480	ört-basdır	
+81	3481	cərrahiyyə	cərrahiyyədə cərrahiyyədən cərrahiyyəni cərrahiyyənin cərrahiyyəsi cərrahiyyəsində cərrahiyyəsini cərrahiyyəsinin cərrahiyyəsinə cərrahiyyəyə
+82	3482	yuyunmaq	yuyun yuyuna yuyuna-yuyuna yuyunan yuyunar yuyunaraq yuyunarkən yuyunarlar yuyunasan yuyunma yuyunmadan yuyunmalıyam yuyunmamaq yuyunmamısan yuyunmamış yuyunmasanız yuyunmursan yuyunmuş yuyunsunlar yuyunub yuyunum yuyunur yuyunurdular yuyunurlar
+83	3483	xanəndə	xanəndədən xanəndələr xanəndələrdən xanəndələri xanəndələrimiz xanəndələrimizdən xanəndələrimizi xanəndələrimizin xanəndələrimizə xanəndələrin xanəndələrindən xanəndələrini xanəndələrinin xanəndələrə xanəndəmiz xanəndəni xanəndənin xanəndəsi xanəndəsinin xanəndəsinə xanəndəyə
+84	3484	təkmilləşdirmək	təkmilləşdir təkmilləşdirdi təkmilləşdirdik təkmilləşdirdikcə təkmilləşdirdilər təkmilləşdirib təkmilləşdiriblər təkmilləşdirir təkmilləşdirirdi təkmilləşdirirlər təkmilləşdirmir təkmilləşdirmiş təkmilləşdirmişdi təkmilləşdirmişdilər təkmilləşdirmişdir təkmilləşdirmişlər təkmilləşdirmə təkmilləşdirmədən təkmilləşdirməlidir təkmilləşdirməlisən təkmilləşdirməliyik təkmilləşdirməmişdi təkmilləşdirməyə təkmilləşdirsinlər təkmilləşdirsə təkmilləşdirsəm təkmilləşdirə təkmilləşdirəcək təkmilləşdirəcəklər təkmilləşdirəcəksən təkmilləşdirək təkmilləşdirən təkmilləşdirərək
+85	3485	hərrac	hərraca hərracda hərracdan hərraclar hərraclara hərraclarda hərracları hərracların hərraclarına hərraclarında hərraclarının hərracı hərracın hərracında hərracından hərracını
+86	3486	hallanmaq	hallan hallanacaq hallanan hallananda hallanaraq hallandı hallanma hallanmadı hallanmasa hallanmasın hallanmayan hallanmayıb hallanmaz hallanmazdı hallanmır hallanmırdı hallanmısan hallanmışdı hallansa hallansaydı hallansın hallanıb hallanır hallanırdı hallanırlar hallanırmış
+87	3487	iqtisad	iqtisada iqtisadda iqtisaddan iqtisadı iqtisadın iqtisadının
+88	3488	beton	betona betonda betondan betonlar betonlara betonlardan betonları betonu betonun betonunu
+89	3489	ceyran	ceyrana ceyrandan ceyranlar ceyranlara ceyranlarda ceyranlardan ceyranları ceyranlarımızı ceyranların ceyranlarının ceyranı ceyranım ceyranın ceyranının
+90	3490	dalan	dalana dalanda dalandan dalanlar dalanlara dalanlarda dalanlardan dalanları dalanların dalanlarına dalanlarında dalanlarından dalanlarını dalanı dalanımızı dalanın dalanına dalanında dalanından
+91	3491	tin	tində tindən tini tinimə tinin tinində tinindən tinini tininə tinlərdə tinləri tinlərin tinlərində tinlərə tinə
+92	3492	özəllik	özəllikdə özəllikdən özəlliklər özəlliklərdən özəllikləri özəlliklərimin özəlliklərin özəlliklərindən özəlliklərini özəlliklərinin özəlliklərinə özəlliklərə özəlliyi özəlliyim özəlliyimiz özəlliyin özəlliyində özəlliyindən özəlliyini özəlliyinin özəlliyinə özəlliyə
+93	3493	kəsdirmək	kəsdir kəsdirdi kəsdirdik kəsdirdikləri kəsdirdilər kəsdirdim kəsdirib kəsdiriblər kəsdirin kəsdirir kəsdirirdik kəsdirirdilər kəsdiririk kəsdirirlər kəsdirmirlər kəsdirmiş kəsdirmişdi kəsdirmişdilər kəsdirmişdim kəsdirmişdir kəsdirmişik kəsdirmişəm kəsdirmə kəsdirmədim kəsdirməmiş kəsdirmərəm kəsdirməsin kəsdirməyə kəsdirməyək kəsdirməz kəsdirsinlər kəsdirə kəsdirəcək kəsdirəcəyik kəsdirəcəyəm kəsdirən kəsdirəndə kəsdirər kəsdirərək
+94	3494	çatışmaq	çatışan çatışma çatışmadı çatışmasa çatışmaya çatışmayacaq çatışmayan çatışmayanda çatışmayıb çatışmaz çatışmazdı çatışmır çatışmırdı çatışır
+95	3495	qurutmaq	quruda qurudan qurudar qurudaraq qurudardılar qurudub qurudum qurudun qurudur quruduram qurudurdu qurudurdular qurudurdum qurudurlar qurudursan qurut qurutdu qurutdular qurutma qurutmadan qurutmasınlar qurutmaya qurutmuşdur qurutsun qurutu
+96	3496	nəzarətçi	nəzarətçidə nəzarətçidən nəzarətçilər nəzarətçilərdə nəzarətçilərdən nəzarətçiləri nəzarətçilərin nəzarətçilərindən nəzarətçilərinin nəzarətçilərinə nəzarətçilərə nəzarətçini nəzarətçinin nəzarətçisi nəzarətçisindən nəzarətçisini nəzarətçisinin nəzarətçisinə nəzarətçiyə
+97	3497	təqaüdçü	təqaüdçüdən təqaüdçülər təqaüdçülərdən təqaüdçüləri təqaüdçülərimiz təqaüdçülərin təqaüdçülərini təqaüdçülərinin təqaüdçülərə təqaüdçüm təqaüdçümüz təqaüdçünü təqaüdçünün təqaüdçüsü təqaüdçüsünü təqaüdçüyə
+98	3498	əcdad	əcdada əcdaddan əcdadlar əcdadlara əcdadlardan əcdadları əcdadlarım əcdadlarımın əcdadlarımız əcdadlarımıza əcdadlarımızda əcdadlarımızdan əcdadlarımızı əcdadlarımızın əcdadların əcdadlarına əcdadlarında əcdadlarından əcdadlarını əcdadlarının əcdadlarınız əcdadı əcdadım əcdadımız əcdadımızın əcdadın əcdadına əcdadında əcdadından əcdadını əcdadının
+99	3499	bakteriya	bakteriyadan bakteriyalar bakteriyalara bakteriyalarda bakteriyalardan bakteriyaları bakteriyaların bakteriyalarına bakteriyalarında bakteriyalarından bakteriyalarının bakteriyanı bakteriyanın bakteriyası bakteriyasından bakteriyasının bakteriyaya
+100	3500	səmavi	

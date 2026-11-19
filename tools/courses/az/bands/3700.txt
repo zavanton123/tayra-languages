@@ -1,0 +1,100 @@
+1	3601	güləşçi	güləşçidən güləşçilər güləşçilərdən güləşçiləri güləşçilərimiz güləşçilərimizdən güləşçilərimizin güləşçilərimizə güləşçilərin güləşçilərindən güləşçilərini güləşçilərinin güləşçilərinə güləşçimiz güləşçimizi güləşçimizin güləşçini güləşçinin güləşçisi güləşçisini güləşçisinin güləşçisinə güləşçiyə
+2	3602	uyğur	uyğura uyğurda uyğurlar uyğurlara uyğurlarda uyğurlardan uyğurları uyğurların uyğurlarının uyğuru uyğurun
+3	3603	sərmək	sər sərdi sərdilər sərdim sərdin sərib səriblər sərim sərir sərirdi sərirdilər səririk sərirlər sərmişdi sərmişdir sərmə sərməliyəm sərməyə sərsəm sərə sərəcəklər sərəcəksiniz sərək sərən sərəndə sərər sərərdim sərərkən sərərək sərərəm
+4	3604	bombalamaq	bombala bombaladı bombaladılar bombaladıqları bombalama bombalamadan bombalamalıdır bombalamaz bombalamır bombalamış bombalamışdı bombalamışdır bombalamışlar bombalasa bombalaya bombalayacaq bombalayacaqları bombalayacağıq bombalayan bombalayanda bombalayaraq bombalayarkən bombalayarlar bombalayıb bombalayıblar bombalayır bombalayırdı bombalayırdılar bombalayırlar bombalayırıq
+5	3605	erkək	
+6	3606	bayılmaq	bayıl bayıla bayılacaq bayılan bayılardı bayıldı bayıldım bayılma bayılmadan bayılmaya bayılmış bayılmışam bayılıb bayılın bayılır bayılıram bayılırdı
+7	3607	muxtariyyət	muxtariyyətdə muxtariyyətdən muxtariyyəti muxtariyyətin muxtariyyətində muxtariyyətini muxtariyyətinin muxtariyyətinə muxtariyyətlər muxtariyyətlərdən muxtariyyətləri muxtariyyətlərin muxtariyyətlərindən muxtariyyətlərini muxtariyyətlərinin muxtariyyətə
+8	3608	bədbəxtlik	bədbəxtlikdə bədbəxtlikdən bədbəxtliklər bədbəxtliklərdən bədbəxtlikləri bədbəxtliklərin bədbəxtliklərindən bədbəxtliklərini bədbəxtliklərinin bədbəxtliklərinə bədbəxtliklərə bədbəxtliyi bədbəxtliyim bədbəxtliyimiz bədbəxtliyimizdə bədbəxtliyimə bədbəxtliyin bədbəxtliyindən bədbəxtliyini bədbəxtliyinin bədbəxtliyinə bədbəxtliyə
+9	3609	saz	saza sazda sazdan sazlar sazlara sazlarda sazları sazların sazlarının sazı sazım sazıma sazımı sazımın sazımız sazımıza sazımızı sazımızın sazın sazında sazını sazının sazınızdan
+10	3610	qədəh	qədəhdən qədəhi qədəhimizdə qədəhin qədəhindən qədəhini qədəhinin qədəhinə qədəhlər qədəhləri qədəhlərin qədəhlərini qədəhlərinin qədəhlərə qədəhə
+11	3611	növbədənkənar	
+12	3612	sevda	sevdadan sevdalar sevdaları sevdalarını sevdam sevdanı sevdanın sevdası sevdasına sevdasından sevdasını sevdasının sevdaya sövda
+13	3613	ayin	ayində ayindən ayini ayinimiz ayinin ayinində ayinindən ayinini ayininin ayininə ayinlər ayinlərdə ayinlərdən ayinləri ayinlərimizə ayinlərin ayinlərində ayinlərindən ayinlərini ayinlərinin ayinlərinizi ayinlərinə ayinlərə ayinə
+14	3614	ödənişli	
+15	3615	kondisioner	kondisionerdə kondisionerdən kondisioneri kondisionerin kondisionerlər kondisionerlərdə kondisionerlərdən kondisionerləri kondisionerlərin kondisionerlərini kondisionerlərinin kondisionerlərə kondisionerə
+16	3616	genişmiqyaslı	
+17	3617	yozmaq	yoz yoza yozacaq yozan yozaq yozar yozaraq yozardı yozardım yozarkən yozarlar yozasan yozdu yozdular yozduq yozduqları yozma yozmadan yozmasınlar yozmaya yozmur yozmuram yozmuruq yozmuşdu yozmuşdur yozsalar yozsun yozub yozublar yozum yozun yozur yozuram yozurdu yozurdular yozurlar yozursan yozursunuz yozuruq
+18	3618	yanğınsöndürən	yanğınsöndürəndən yanğınsöndürəni yanğınsöndürənin yanğınsöndürənlər yanğınsöndürənlərdə yanğınsöndürənlərdən yanğınsöndürənləri yanğınsöndürənlərin yanğınsöndürənlərindən yanğınsöndürənlərinin yanğınsöndürənlərə yanğınsöndürənə
+19	3619	lətifə	lətifədə lətifədən lətifələr lətifələrdə lətifələrdən lətifələri lətifələrimizdən lətifələrin lətifələrində lətifələrindən lətifələrini lətifələrinin lətifələrinə lətifələrə lətifəni lətifənin lətifəsi lətifəsində lətifəsini lətifəsinə lətifəyə
+20	3620	armud	armuda armuddan armudlar armudlara armudlardan armudları armudu armudun armudunda armudundan armudunu
+21	3621	yüngülləşdirmək	yüngülləşdirdi yüngülləşdirib yüngülləşdirin yüngülləşdirir yüngülləşdirirdi yüngülləşdirirdilər yüngülləşdirirlər yüngülləşdirirsiniz yüngülləşdirmiş yüngülləşdirmişdi yüngülləşdirmişdilər yüngülləşdirmişdir yüngülləşdirmədi yüngülləşdirməliyik yüngülləşdirməyin yüngülləşdirməyə yüngülləşdirməyəcək yüngülləşdirsin yüngülləşdirsə yüngülləşdirsək yüngülləşdirə yüngülləşdirəcək yüngülləşdirəcəklər yüngülləşdirəcəyik yüngülləşdirək yüngülləşdirən yüngülləşdirər yüngülləşdirərək
+22	3622	irimiqyaslı	
+23	3623	səliqəli	
+24	3624	mücadilə	mücadilədə mücadilədən mücadilələr mücadilələrdə mücadilələrdən mücadilələrində mücadilələrindən mücadilələrini mücadilələrinə mücadiləm mücadiləmiz mücadiləmizi mücadiləmizin mücadiləmizə mücadiləni mücadilənin mücadilənizdə mücadilənizi mücadiləsi mücadiləsində mücadiləsindən mücadiləsini mücadiləsinin mücadiləsinə mücadiləyə
+25	3625	day	daya dayda daylar daylardan dayların dayım dayıma dayımdan dayımı dayımın dayımız dayımızın dayın dayını dayının dayınız dayınıza
+26	3626	çaşdırmaq	çaşdıra çaşdıracaq çaşdıran çaşdırar çaşdıraraq çaşdırdı çaşdırdıq çaşdırma çaşdırmadı çaşdırmalıyıq çaşdırmamalı çaşdırmamaq çaşdırmasın çaşdırmayaq çaşdırmayasınız çaşdırmayın çaşdırmır çaşdırmısınız çaşdırmış çaşdırmışam çaşdırmışdı çaşdırmışdılar çaşdırmışdır çaşdırsın çaşdırıb çaşdırıblar çaşdırır çaşdırırdı çaşdırırdılar çaşdırırdıq çaşdırırlar çaşdırırsan
+27	3627	buğa	buğalar buğalara buğaları buğaların buğalarının buğanı buğanın buğası buğaya
+28	3628	röya	röyada röyadan röyalar röyalara röyaları röyalarımız röyaların röyalarından röyalarını röyalarının röyam röyamı röyanı röyanın röyası röyasına röyasında röyasından röyasını röyaya
+29	3629	saqqız	saqqıza saqqızdan saqqızlar saqqızları saqqızların saqqızlarını saqqızı saqqızımızı saqqızın saqqızından saqqızını saqqızının
+30	3630	məzarlıq	məzarlıqda məzarlıqdan məzarlıqlar məzarlıqlara məzarlıqlarda məzarlıqlardan məzarlıqları məzarlıqların məzarlıqlarında məzarlıqlarından məzarlıqlarının məzarlığa məzarlığı məzarlığın məzarlığına məzarlığında məzarlığından məzarlığını məzarlığının
+31	3631	zülal	zülala zülalda zülaldan zülallar zülallara zülallarda zülallardan zülalları zülalların zülallarına zülallarından zülallarını zülallarının zülalı zülalın zülalına zülalında zülalından zülalını zülalının
+32	3632	nəsihət	nəsihətdən nəsihəti nəsihətim nəsihətimi nəsihətin nəsihətində nəsihətindən nəsihətini nəsihətinin nəsihətinə nəsihətlər nəsihətlərdə nəsihətlərdən nəsihətləri nəsihətlərin nəsihətlərində nəsihətlərindən nəsihətlərini nəsihətlərinin nəsihətlərinə nəsihətlərə nəsihətə
+33	3633	utandırmaq	utandıra utandıracaq utandıram utandıran utandırar utandırdı utandırdım utandırdın utandırma utandırmadan utandırmalıdır utandırmasın utandırmaz utandırmışdı utandırsan utandırın utandırır utandırıram utandırırdı utandırırsınız
+34	3634	riyazi	
+35	3635	bələd	
+36	3636	özbaşına	
+37	3637	çəhrayı	
+38	3638	qax	qaxa qaxda qaxdan qaxlar qaxların qaxı qaxın qaxından
+39	3639	prodüser	prodüseri prodüserim prodüserimiz prodüserimizi prodüserin prodüserindən prodüserinin prodüserlər prodüserlərdən prodüserləri prodüserlərimiz prodüserlərin prodüserlərindən prodüserlərini prodüserlərinin prodüserlərinə prodüserlərə prodüserə
+40	3640	evsiz	
+41	3641	qırıntı	qırıntılar qırıntılara qırıntılardan qırıntıları qırıntıların qırıntılarına qırıntılarından qırıntılarını qırıntılarının qırıntını qırıntının qırıntısı qırıntısına qırıntısını qırıntısının qırıntıya
+42	3642	ummaq	um uma umacaq umacaqlar umacaqları umacaqlarımız umacaqların umacağı umacağım umacağımız umacağında umacağıq uman umar umaram umarıq umasan umdu umdular umduqları umma ummadan ummadı ummamalıyıq ummasın ummayan ummur ummuram ummuruq umub umur umuram umurdu umurdular umurlar umurmuş umursan umursunuz umuruq
+43	3643	üfürmək	üfür üfürdü üfürmür üfürmüsən üfürmüşdür üfürmə üfürməsinlər üfürməsən üfürməyin üfürsün üfürsünlər üfürsə üfürüb üfürün üfürür üfürürdü üfürürlər üfürürsünüz üfürürsən üfürə üfürə-üfürə üfürəcəklər üfürən üfürəndə üfürərkən üfürərək üfürəsən
+44	3644	özbək	özbəklər özbəyi
+45	3645	nəbz	nəbzdən nəbzi nəbzimiz nəbzin nəbzində nəbzini nəbzinin nəbzinə nəbzləri nəbzlərə nəbzə
+46	3646	palto	paltoda paltodan paltolar paltoları paltolarını paltomu palton paltonu paltonun paltosu paltosundan paltosunu paltosunun paltoya
+47	3647	astronavt	astronavtlar astronavtları astronavtların astronavtlarına astronavtlarının astronavtı astronavtın astronavtına
+48	3648	soxulcan	soxulcana soxulcandan soxulcanlar soxulcanlara soxulcanlardan soxulcanları soxulcanların soxulcanı soxulcanın soxulcanında soxulcanının
+49	3649	düşürmək	düşür düşürdü düşürdük düşürdükləri düşürdülər düşürdüm düşürdün düşürmür düşürmürdü düşürmüsən düşürmüş düşürmüşdük düşürmüşdülər düşürmüşdür düşürmüşlər düşürmədi düşürmədikləri düşürmədən düşürməsinlər düşürməyin düşürməyə düşürməyəcəklər düşürsün düşürsə düşürsən düşürüb düşürüblər düşürür düşürürdü düşürürdülər düşürürlər düşürə düşürəcək düşürəcəyik düşürəm düşürən düşürəndə düşürərək düşürərəm
+50	3650	nöqteyi-nəzər	nöqteyi-nəzərdən nöqteyi-nəzəri nöqteyi-nəzərimizə nöqteyi-nəzərin nöqteyi-nəzərindən nöqteyi-nəzərini nöqteyi-nəzərinin nöqteyi-nəzərinə nöqteyi-nəzərlərindən nöqteyi-nəzərlərinin nöqteyi-nəzərə
+51	3651	əmin-amanlıq	əmin-amanlıqda əmin-amanlıqdan əmin-amanlığa əmin-amanlığı əmin-amanlığımız əmin-amanlığımızı əmin-amanlığın əmin-amanlığına əmin-amanlığını əmin-amanlığının
+52	3652	molekul	molekula molekulda molekuldan molekullar molekullara molekullarda molekullardan molekulları molekulların molekullarına molekullarında molekullarından molekullarını molekullarının molekulu molekulun molekuluna molekulunda molekulundan molekulunu molekulunun
+53	3653	yarımmüdafiəçi	yarımmüdafiəçilər yarımmüdafiəçilərdən yarımmüdafiəçiləri yarımmüdafiəçilərimizə yarımmüdafiəçilərin yarımmüdafiəçilərindən yarımmüdafiəçilərinin yarımmüdafiəçini yarımmüdafiəçinin yarımmüdafiəçisi yarımmüdafiəçisindən yarımmüdafiəçisini yarımmüdafiəçisinin yarımmüdafiəçisinə
+54	3654	yaxmaq	yax yaxalar yaxam yaxan yaxanda yaxar yaxaraq yaxardı yaxardım yaxarkən yaxdı yaxdılar yaxdım yaxma yaxmada yaxmalar yaxmalarda yaxmalardan yaxmaları yaxmalarınız yaxmamalı yaxması yaxmasın yaxmasına yaxmasını yaxmayın yaxmaz yaxmıram yaxmışdılar yaxsa yaxsın yaxıb yaxıbdır yaxım yaxır yaxıram yaxırdı yaxırlar yaxırsan
+55	3655	qüvvət	qüvvətdən qüvvəti qüvvətim qüvvətimiz qüvvətimizi qüvvətin qüvvətini qüvvətinin qüvvətiniz qüvvətinizi qüvvətinizin qüvvətinə qüvvətlər qüvvətlərdən qüvvətləri qüvvətlərimizin qüvvətlərin qüvvətlərində qüvvətlərindən qüvvətlərini qüvvətlərinin qüvvətlərinə qüvvətlərə qüvvətə
+56	3656	menyu	menyuda menyudan menyular menyulara menyularda menyulardan menyuları menyuların menyularına menyumuzu menyunu menyunun menyunuzda menyusu menyusuna menyusunda menyusundan menyusunu menyusunun menyuya
+57	3657	fırıldaqçı	fırıldaqçılar fırıldaqçılara fırıldaqçılardan fırıldaqçıları fırıldaqçıların fırıldaqçılarından fırıldaqçılarının fırıldaqçının fırıldaqçısı fırıldaqçıya
+58	3658	paxıllıq	paxıllıqda paxıllıqdan paxıllıqları paxıllıqlarında paxıllıqlarını paxıllığa paxıllığı paxıllığım paxıllığımı paxıllığımız paxıllığımızı paxıllığın paxıllığına paxıllığından paxıllığını paxıllığınızdan
+59	3659	puç	
+60	3660	mühasib	mühasibi mühasibin mühasibindən mühasibini mühasibinin mühasibiniz mühasiblər mühasibləri mühasiblərimiz mühasiblərin mühasiblərə mühasibə
+61	3661	kərtənkələ	kərtənkələdən kərtənkələlər kərtənkələlərdə kərtənkələlərdən kərtənkələləri kərtənkələlərin kərtənkələlərində kərtənkələlərinin kərtənkələlərinə kərtənkələlərə kərtənkələni kərtənkələnin kərtənkələsi kərtənkələsində kərtənkələsinin kərtənkələyə
+62	3662	ucaltmaq	ucalda ucaldacaq ucaldacaqlar ucaldacağıq ucaldan ucaldanda ucaldaq ucaldar ucaldaram ucaldaraq ucaldardı ucaldardılar ucaldarkən ucaldıb ucaldıblar ucaldın ucaldır ucaldırdı ucaldırdılar ucaldırlar ucaldırsan ucaldırsınız ucalt ucaltdı ucaltdılar ucaltdım ucaltdıq ucaltdıqca ucaltdıqları ucaltmadı ucaltmalıdır ucaltmalıyıq ucaltmış ucaltmışam ucaltmışdı ucaltmışdılar ucaltmışdır ucaltsın ucaltsınlar
+63	3663	qovulma	qovulmada qovulmalar qovulmalarına qovulmalarını qovulmalarının qovulması qovulmasına qovulmasında qovulmasından qovulmasını qovulmasının qovulmaya
+64	3664	amal	amala amalda amaldan amallar amallara amallardan amalları amallarımız amalların amallarına amallarından amallarını amallarının amallarınız amalı amalım amalımız amalına amalında amalından amalını amalının amalınızı
+65	3665	cındır	cındırlar cındırlarından cındırı cındırın cındırından
+66	3666	sevindirici	
+67	3667	qurğuşun	qurğuşuna qurğuşundan qurğuşunu qurğuşunun
+68	3668	uzaqlıq	uzaqlıqda uzaqlıqdan uzaqlıqlar uzaqlıqlarda uzaqlıqları uzaqlıqlarına uzaqlığa uzaqlığı uzaqlığımız uzaqlığın uzaqlığına uzaqlığında uzaqlığından uzaqlığını uzaqlığının
+69	3669	dolamaq	dola doladı doladılar doladın doladıq dolama dolamada dolamadan dolamalar dolamaların dolamalarını dolamanın dolaması dolamayaq dolamayın dolamıram dolamırdı dolamısan dolamışdı dolamışlar dolasa dolasan dolaya-dolaya dolayacaq dolayacaqlar dolayan dolayanda dolayaraq dolayıb dolayıbdır dolayıblar dolayır dolayırdı dolayırdılar dolayırdıq dolayırmış dolayırsan dolayırsınız
+70	3670	pusqu	pusquda pusqudan pusqular pusqulara pusqularda pusqulardan pusquları pusqunun pusqusu pusqusuna pusqusunda pusqusundan pusqusunun pusquya
+71	3671	məcnun	
+72	3672	təhsilli	
+73	3673	iztirab	iztiraba iztirabda iztirabdan iztirablar iztirablara iztirablarda iztirablardan iztirabları iztirablarımın iztirabların iztirablarına iztirablarından iztirablarını iztirablarının iztirabı iztirabım iztirabımızı iztirabın iztirabına iztirabını iztirabının
+74	3674	təəssüflənmək	təəssüfləndi təəssüfləndik təəssüfləndikləri təəssüfləndim təəssüflənib təəssüflənir təəssüflənirdi təəssüflənirdim təəssüflənirik təəssüflənirlər təəssüflənirsiniz təəssüflənirsən təəssüflənirəm təəssüflənmir təəssüflənmirlər təəssüflənmirsiniz təəssüflənmirəm təəssüflənmiş təəssüflənmişdi təəssüflənmişdim təəssüflənmişdir təəssüflənmişəm təəssüflənmədən təəssüflənməsin təəssüflənməsəm təəssüflənməyib təəssüflənməyin təəssüflənməyə təəssüflənməzdim təəssüflənsin təəssüflənsəm təəssüflənəcək təəssüflənəcəklər təəssüflənəcəyəm təəssüflənən təəssüflənər təəssüflənərdilər təəssüflənərək təəssüflənərəm
+75	3675	insaf	insafa insafdan insafları insaflarına insafı insafım insafıma insafımız insafımıza insafın insafına insafından insafını insafının insafınız insafınıza
+76	3676	ürəkli	
+77	3677	sallamaq	salla salladı salladıqları sallama sallamısan sallamış sallamışdı sallamışdır sallasan sallasınlar sallaya-sallaya sallayan sallayar sallayaraq sallayıb sallayıblar sallayır sallayırdı sallayırdıq sallayırlar sallayırsan
+78	3678	qumbara	qumbaradan qumbaralar qumbaralara qumbaralardan qumbaraları qumbaraların qumbaralarından qumbaralarını qumbaralarının qumbaranı qumbaranın qumbarası qumbarasına qumbarasından qumbarasını qumbarasının qumbaraya
+79	3679	ayna	aynada aynadan aynalar aynalarda aynaları aynaların aynalarına aynalarında aynalarından aynalarını aynamız aynamızı aynanı aynanın aynası aynasına aynasında aynasından aynasını aynasının aynaya
+80	3680	buludlu	
+81	3681	beşik	beşikdə beşikdən beşiklər beşiklərində beşiklərindən beşiklərinin beşiyi beşiyim beşiyin beşiyində beşiyindən beşiyini beşiyinizi beşiyinə beşiyə
+82	3682	maneçilik	maneçiliklər maneçilikləri maneçiliklərinə maneçiliyi maneçiliyimiz maneçiliyinə
+83	3683	çanaq	çanaqda çanaqdan çanaqlar çanaqları çanaqların çanaqlarını çanaqlarının çanağa çanağı çanağın çanağına çanağında çanağından çanağını çanağının
+84	3684	eyvan	eyvana eyvanda eyvandan eyvanlar eyvanlara eyvanlarda eyvanlardan eyvanları eyvanların eyvanlarında eyvanlarından eyvanlarını eyvanlarının eyvanı eyvanın eyvanına eyvanında eyvanından eyvanını eyvanının
+85	3685	ziyarətgah	ziyarətgaha ziyarətgahda ziyarətgahdan ziyarətgahlar ziyarətgahlara ziyarətgahlarda ziyarətgahlardan ziyarətgahları ziyarətgahlarımıza ziyarətgahlarımızı ziyarətgahlarımızın ziyarətgahların ziyarətgahlarına ziyarətgahlarından ziyarətgahlarını ziyarətgahlarının ziyarətgahı ziyarətgahımız ziyarətgahın ziyarətgahına ziyarətgahında ziyarətgahından ziyarətgahını ziyarətgahının
+86	3686	bulmaq	bul bula bulacaq bulan bular bulardı bulasan buldu buldular buldum bulduq bulduqları bulmadım bulmadıq bulmaz bulmuruq bulmuş bulmuşdu bulsa bulub bulublar bulun bulunmaq bulur bulurlar
+87	3687	zəvvar	zəvvardan zəvvarlar zəvvarlara zəvvarlarda zəvvarlardan zəvvarları zəvvarlarımız zəvvarlarımızdan zəvvarlarımızı zəvvarlarımızın zəvvarların zəvvarlarına zəvvarlarının zəvvarı zəvvarımız zəvvarın zəvvarını zəvvarının
+88	3688	sikkə	sikkədə sikkədən sikkələr sikkələrdə sikkələrdən sikkələri sikkələrin sikkələrində sikkələrindən sikkələrini sikkələrinin sikkələrinə sikkələrə sikkəni sikkənin sikkəsi sikkəsində sikkəsindən sikkəsini sikkəsinin sikkəsinə sikkəyə
+89	3689	şəlalə	şəlalədə şəlalədən şəlalələr şəlalələrdə şəlalələrdən şəlalələri şəlalələrin şəlalələrində şəlalələrindən şəlalələrinə şəlalələrə şəlaləni şəlalənin şəlaləsi şəlaləsində şəlaləsindən şəlaləsini şəlaləsinin şəlaləsinə şəlaləyə
+90	3690	gur	
+91	3691	cangüdən	cangüdəni cangüdənim cangüdənimiz cangüdənin cangüdənini cangüdəninin cangüdəninə cangüdənlər cangüdənlərdə cangüdənlərdən cangüdənləri cangüdənlərim cangüdənlərimiz cangüdənlərin cangüdənlərindən cangüdənlərini cangüdənlərinin cangüdənlərinə cangüdənlərə cangüdənə
+92	3692	sataşmaq	sataş sataşacaq sataşacaqdılar sataşan sataşanda sataşar sataşaraq sataşdı sataşdılar sataşdıqca sataşma sataşmadı sataşmasaydı sataşmasınlar sataşmır sataşmısan sataşmışdı sataşmışdıq sataşsa sataşsam sataşsın sataşıb sataşıblar sataşır sataşıram sataşırdı sataşırdılar sataşırdım sataşırlar sataşırsan sataşırıq
+93	3693	ürəkaçan	
+94	3694	müqəddərat	müqəddəratları müqəddəratlarını müqəddəratlarının müqəddəratı müqəddəratımızı müqəddəratımızın müqəddəratın müqəddəratına müqəddəratında müqəddəratını müqəddəratının müqəddəratınızı
+95	3695	baqaj	baqaja baqajda baqajdan baqajlara baqajları baqajların baqajlarına baqajlarında baqajlarını baqajı baqajın baqajına baqajında baqajından baqajının
+96	3696	möhtərəm	
+97	3697	fədakar	
+98	3698	dözümlülük	dözümlülükdə dözümlülükdən dözümlülükləri dözümlülüklərini dözümlülüyü dözümlülüyümüz dözümlülüyümüzün dözümlülüyün dözümlülüyündə dözümlülüyündən dözümlülüyünü dözümlülüyünün dözümlülüyünə dözümlülüyə
+99	3699	alqış	alqışa alqışda alqışdan alqışlar alqışlara alqışlardan alqışları alqışlarımız alqışların alqışlarından alqışlarını alqışlarının alqışlarınıza alqışı alqışın alqışına alqışını
+100	3700	tuşlamaq	tuşla tuşladı tuşladım tuşlama tuşlamalısan tuşlamasın tuşlamaya tuşlamışdır tuşlasa tuşlaya tuşlayacaq tuşlayan tuşlayaraq tuşlayıb tuşlayıblar tuşlayır tuşlayırdı tuşlayırdılar tuşlayırsan

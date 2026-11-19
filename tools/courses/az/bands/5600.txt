@@ -1,0 +1,100 @@
+1	5501	əclaflıq	əclaflıqdan əclaflıqlar əclaflığa əclaflığı əclaflığın əclaflığının
+2	5502	tərbiyəvi	
+3	5503	məşrutə	məşrutədən məşrutəni məşrutənin məşrutəsinin məşrutəyə
+4	5504	qızılağac	qızılağaca qızılağacda qızılağacdan qızılağaclardan qızılağacların qızılağacı qızılağacın
+5	5505	ixtiraçı	ixtiraçılar ixtiraçılara ixtiraçılardan ixtiraçıları ixtiraçıların ixtiraçılarından ixtiraçını ixtiraçının ixtiraçısı ixtiraçısından ixtiraçısının ixtiraçıya
+6	5506	bərabərləşmək	bərabərləşdi bərabərləşdikcə bərabərləşdilər bərabərləşib bərabərləşir bərabərləşmiş bərabərləşmə bərabərləşməyə bərabərləşsin bərabərləşəcək bərabərləşək bərabərləşəndə
+7	5507	mama	mamalar mamam mamama maman mamanı mamanın maması mamasının mamaya
+8	5508	sərmayəçi	sərmayəçidən sərmayəçilər sərmayəçilərdən sərmayəçiləri sərmayəçilərin sərmayəçilərindən sərmayəçilərinin sərmayəçilərə sərmayəçini sərmayəçinin sərmayəçisi
+9	5509	hürkmək	hürkdü hürkdülər hürkmüş hürkmüşdü hürküb hürkür hürkürdü hürkürlər hürkəcək hürkək hürkən hürkəndə hürkər hürkərək
+10	5510	millətlərarası	
+11	5511	musiqişünas	musiqişünaslar musiqişünaslardan musiqişünasları musiqişünaslarımız musiqişünaslarımızın musiqişünasların musiqişünaslarından musiqişünası musiqişünasın
+12	5512	şəhərlərarası	
+13	5513	şişman	
+14	5514	qaçılmazlıq	qaçılmazlığa qaçılmazlığı qaçılmazlığın qaçılmazlığına qaçılmazlığını
+15	5515	əlüstü	
+16	5516	intəhası	
+17	5517	tənzim	tənzimi tənzimin tənzimində tənzimindən tənzimini tənziminin tənziminə tənzimə
+18	5518	feil	feildən feili feilin feilindən feilinin feillər feillərdə feillərdən feilləri feillərin feillərində feillərindən feillərini feillərə
+19	5519	qırğı	qırğılar qırğıları qırğılarını qırğılarının qırğına qırğında qırğından qırğını qırğının qırğısı qırğıya
+20	5520	dərdləşmək	dərdləşdik dərdləşdikləri dərdləşib dərdləşim dərdləşir dərdləşirdi dərdləşirdik dərdləşirik dərdləşirlər dərdləşirsən dərdləşirəm dərdləşmişdi dərdləşmişəm dərdləşmə dərdləşmədin dərdləşməyə dərdləşə dərdləşək dərdləşən dərdləşəndə dərdləşər dərdləşərdik dərdləşərdilər dərdləşərkən
+21	5521	qımışmaq	qımışa-qımışa qımışar qımışaraq qımışdı qımışdım qımışma qımışmırlar qımışır qımışırlar qımışırsınız qımışırıq
+22	5522	başmaq	başmaqdan başmaqlar başmaqları başmaqların başmaqlarını başmaqlarının başmağa başmağı başmağına başmağını
+23	5523	nisyə	
+24	5524	yüyürmək	yüyürdü yüyürdük yüyürdülər yüyürdüm yüyürmür yüyürmə yüyürmədi yüyürsün yüyürsə yüyürüb yüyürüblər yüyürür yüyürürdü yüyürürlər yüyürə-yüyürə yüyürəcək yüyürək yüyürən yüyürərək yüyürərəm
+25	5525	hasa	hasan hasanı hasanın
+26	5526	əliaçıq	
+27	5527	camaşırxana	camaşırxanada camaşırxanadan camaşırxanalar camaşırxananı camaşırxanası camaşırxanasına camaşırxanasında
+28	5528	kobudcasına	
+29	5529	siyahıyaalınma	siyahıyaalınmada siyahıyaalınmadan siyahıyaalınmalara siyahıyaalınmalarda siyahıyaalınmaları siyahıyaalınmanın siyahıyaalınması siyahıyaalınmasına siyahıyaalınmasında siyahıyaalınmasından siyahıyaalınmasını siyahıyaalınmasının siyahıyaalınmaya
+30	5530	istedadsız	
+31	5531	boylu	
+32	5532	gözüaçıq	
+33	5533	səcdəgah	səcdəgaha səcdəgahda səcdəgahdan səcdəgahlar səcdəgahlara səcdəgahlardan səcdəgahların səcdəgahlarının səcdəgahı səcdəgahımız səcdəgahın səcdəgahına səcdəgahından səcdəgahının
+34	5534	hıçqırıq	hıçqırıqlar hıçqırıqlarda hıçqırıqlardan hıçqırıqları hıçqırıqlarımı hıçqırıqlarına hıçqırıqlarını hıçqırığa hıçqırığı hıçqırığım
+35	5535	oduncaq	oduncaqda oduncaqdan oduncaqlara oduncaqların oduncaqlarında oduncağa oduncağı oduncağın oduncağına oduncağında oduncağından oduncağını oduncağının
+36	5536	qeydiyyatsız	
+37	5537	amplua	ampluada amplualar amplualardan amplualarına amplualarında amplualarından ampluamızda ampluanın ampluası ampluasına ampluasında ampluasını ampluasının ampluaya
+38	5538	şəhla	şəhlanı şəhlanın şəhlaya
+39	5539	samanlıq	samanlıqda samanlıqdan samanlıqlar samanlıqlarda samanlıqlardan samanlıqların samanlığa samanlığın
+40	5540	peyğəmbərlik	peyğəmbərlikdən peyğəmbərliklər peyğəmbərlikləri peyğəmbərliklərini peyğəmbərliyi peyğəmbərliyimə peyğəmbərliyin peyğəmbərliyində peyğəmbərliyindən peyğəmbərliyini peyğəmbərliyinin peyğəmbərliyinə peyğəmbərliyə
+41	5541	yaylıq	yaylıqda yaylıqdan yaylıqlar yaylıqlara yaylıqlarda yaylıqlardan yaylıqları yaylıqlarından yaylıqlarınızı yaylığa yaylığı yaylığın yaylığına yaylığından yaylığını yaylığının
+42	5542	soxuşdurmaq	soxuşduralar soxuşduran soxuşduranda soxuşdurdum soxuşdurdunuz soxuşdurmusan soxuşdurub soxuşdurublar soxuşdurum soxuşdurur soxuşdururlar
+43	5543	samovar	samovara samovardan samovarlar samovarları samovarların samovarı samovarın samovarında samovarından samovarının
+44	5544	şairanə	
+45	5545	palaz	palaza palazda palazdan palazlar palazlardan palazların palazı palazımız palazın palazını
+46	5546	xoxan	xoxanı xoxanın
+47	5547	tozağacı	tozağaclarının tozağacına tozağacından tozağacının
+48	5548	be	
+49	5549	qiraət	qiraətdən qiraəti qiraətin qiraətində qiraətindən qiraətini qiraətləri qiraətlərin qiraətə
+50	5550	sink	sinki
+51	5551	tay-tuş	tay-tuşlar tay-tuşları tay-tuşlarım tay-tuşlarımda tay-tuşlarımın tay-tuşlarına tay-tuşlarından tay-tuşlarını tay-tuşlarının tay-tuşu tay-tuşum tay-tuşuna tay-tuşunu tay-tuşunun
+52	5552	dəmləmək	dəmlə dəmlədi dəmləmişəm dəmləmə dəmləmədən dəmləməyin dəmləməyə dəmləyib dəmləyin dəmləyir dəmləyirdi dəmləyirik dəmləyirlər dəmləyə dəmləyəndə dəmləyərdim dəmləyərək dəmləyərəm
+53	5553	ozon	ozona ozonu ozonun ozonunun
+54	5554	xəttat	xəttatdan xəttatlar xəttatlara xəttatlardan xəttatları xəttatların xəttatlarına xəttatlarından xəttatlarının xəttatı xəttatın
+55	5555	etimologiya	etimologiyada etimologiyadan etimologiyaları etimologiyanı etimologiyanın etimologiyası etimologiyasına etimologiyasında etimologiyasından etimologiyasını etimologiyasının etimologiyaya
+56	5556	dəstəmaz	dəstəmaza dəstəmazda dəstəmazdan dəstəmazı dəstəmazın
+57	5557	motoatıcı	
+58	5558	german	germandan germanlar germanlara germanlarda germanların germanın
+59	5559	kostyumlu	
+60	5560	vergül	vergüldən vergüllər vergülləri vergüllərin vergülləriniz vergülü vergülün vergülünə vergülə
+61	5561	kinayəli	
+62	5562	avand	avandı
+63	5563	amm	
+64	5564	yasaqlamaq	yasaqladı yasaqladılar yasaqladıq yasaqlama yasaqlamır yasaqlamış yasaqlamışdı yasaqlasın yasaqlasınlar yasaqlayan yasaqlayanda yasaqlayardılar yasaqlayıb yasaqlayıblar yasaqlayır yasaqlayırdı yasaqlayırlar yasaqlayırsınız
+65	5565	sərraf	sərrafa sərraflar sərraflardan sərrafları sərraflarından sərraflarının sərrafı sərrafın
+66	5566	samit	samitdən samiti samitin samitində samitindən samitini samitinin samitinə samitlər samitlərdən samitləri samitlərin samitlərində samitlərindən samitlərinin samitlərə samitə
+67	5567	kəsinti	kəsintilər kəsintiləri kəsintilərin kəsintilərinin kəsintilərə kəsintisi kəsintiyə
+68	5568	ikona	ikonada ikonadan ikonalar ikonalara ikonalarda ikonalardan ikonaları ikonaların ikonalarına ikonalarında ikonalarından ikonalarını ikonalarının ikonanı ikonanın ikonası ikonasına ikonasında ikonasından ikonasını ikonasının ikonaya
+69	5569	çəltik	çəltikdən çəltikləri çəltiyi çəltiyin çəltiyə
+70	5570	əllinci	
+71	5571	mütənasib	
+72	5572	comərd	
+73	5573	yeznə	yeznəm yeznəmiz yeznəmizin yeznəni yeznəsi yeznəsini yeznəsinin yeznəsinə
+74	5574	mərhələ-mərhələ	
+75	5575	bölünən	bölünəndə bölünəndən bölünəni bölünəninin bölünənlər bölünənə
+76	5576	suiti	suitidə suitidən suitilər suitilərdə suitilərdən suitiləri suitilərin suitilərinin suitilərinə suitilərə suitinin suitinə suitisi suitisinin suitləri
+77	5577	inadkarlıq	inadkarlıqdan inadkarlıqları inadkarlıqlarında inadkarlığı inadkarlığımızı inadkarlığın inadkarlığına inadkarlığından inadkarlığını inadkarlığınızdan
+78	5578	büllur	büllura büllurdan bülluru büllurun bülluruna büllurunda büllurundan büllurunun
+79	5579	italyanca	
+80	5580	qəhqəhə	qəhqəhədən qəhqəhələr qəhqəhələrdən qəhqəhələri qəhqəhələrə qəhqəhənin qəhqəhəsi qəhqəhəsindən
+81	5581	qərarsız	
+82	5582	portuqal	portuqaldan portuqallar portuqallara portuqallardan portuqalları portuqalların
+83	5583	tərifləmək	təriflə
+84	5584	düşərli	
+85	5585	sızanaq	sızanaqlar sızanaqlara sızanaqları sızanaqların sızanağı sızanağın
+86	5586	mövhumat	mövhumata mövhumatdan mövhumatlar mövhumatlara mövhumatlardan mövhumatların mövhumatlarından mövhumatı mövhumatın mövhumatına
+87	5587	çarəsizlik	çarəsizlikdə çarəsizlikdən çarəsizliyi çarəsizliyin çarəsizliyindən çarəsizliyini çarəsizliyə
+88	5588	beynəlmiləl	
+89	5589	uyuşdurucu	uyuşdurucudan uyuşdurucular uyuşdurucuya
+90	5590	toqqa	toqqadan toqqalar toqqaları toqqalarında toqqalarını toqqalarının toqqamızın toqqanı toqqanın toqqası toqqasını
+91	5591	yarımdairəvi	
+92	5592	qəlsəmə	qəlsəmələr qəlsəmələrdə qəlsəmələrdən qəlsəmələri qəlsəmələrin qəlsəmələrində qəlsəmələrindən qəlsəmələrinin qəlsəmələrinə qəlsəmələrə qəlsəməsinə qəlsəməyə
+93	5593	yaqut	yaquta yaqutdan yaqutlar yaqutlara yaqutları yaqutu yaqutun
+94	5594	göyrüş	göyrüşdən göyrüşlər göyrüşlərdən göyrüşü göyrüşün
+95	5595	anasız	
+96	5596	yava	
+97	5597	mərkəzçi	mərkəzçilər mərkəzçilərin mərkəzçilərə mərkəzçiyə
+98	5598	kəfən	kəfəndən kəfəni kəfənim kəfənimi kəfənin kəfəninin kəfənlər kəfənlərin kəfənlərinin kəfənə
+99	5599	duzlamaq	duzla duzladın duzlama duzlamışdır duzlamışlar duzlayan duzlayıb duzlayın duzlayırdılar duzlayırlar
+100	5600	üzdəniraq	üzdəniraqdan üzdəniraqlar üzdəniraqları üzdəniraqların
