@@ -213,6 +213,15 @@ CORNISH_OVERRIDES = {
     **_to("romans", "romans", "romansow"),
     **_to("tevi", "dyv", "tyv"),
     **_to("kewsel", "kews", "gews"),
+    **_to("usya", "usys"),
+    **_to("devnydhya", "devnydhys", "dhevnydhys", "tevnydhys"),
+    **_to("gelwel", "gelwys", "elwis", "helwys", "kelwys", "welwis"),
+    **_to("passya", "passyes"),
+    **_to("rekordya", "rekordys"),
+    **_to("sewya", "sew"),
+    **_to("warbarth", "war-barth"),
+    **_to("dydh", "jydh", "jedh"),
+    **_to("dos", "deu", "dheu", "teu"),
     # The language's own name, written with a capital as a name is, is a word as Sowsnek is.
     **_to("kernewek", "kernewek"),
 }
