@@ -85,6 +85,7 @@ SOURCES = {
     "az": ("Azerbaijani", None, "dictionaries/kaikki.org-dictionary-Azerbaijani.jsonl.gz"),
     "af": ("Afrikaans", None, "dictionaries/kaikki.org-dictionary-Afrikaans.jsonl.gz"),
     "ur": ("Urdu", "urdu", "dictionaries/kaikki.org-dictionary-Urdu.jsonl.gz"),
+    "ta": ("Tamil", None, "dictionaries/kaikki.org-dictionary-Tamil.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -159,7 +160,7 @@ def is_clean_form(form, lemma, source=None):
         return False
     if " " in form and " " not in lemma:
         return False
-    word_re = BENGALI_WORD_RE if source == "bn" else WORD_RE
+    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else WORD_RE
     return all(word_re.match(part) for part in form.split())
 
 
@@ -303,8 +304,24 @@ def bengali_translation_entries(kept):
     return entries
 
 
+# Tamil words are letters, vowel signs and the virama, as the reader reads them: no digits.
+TAMIL_LETTERS = "\u0b80-\u0be5\u0bf0-\u0bff\u200c\u200d"
+TAMIL_WORD_RE = re.compile(f"^[{TAMIL_LETTERS}]+$")
+TAMIL_RUN = re.compile(f"[{TAMIL_LETTERS}]+")
+
+
+def clean_tamil(word):
+    """A Tamil spelling in NFC; of a table cell with a note or another word in it ("past of போய்விடு (pōyviṭu)"), the
+    Tamil word it starts with, or nothing."""
+    word = unicodedata.normalize("NFC", word).strip()
+    if re.search(r"[A-Za-z(/,]", word):
+        run = TAMIL_RUN.match(word)
+        return run.group(0) if run else ""
+    return word
+
+
 # How each source's spellings are normalised before matching, when it needs it at all.
-CLEANERS = {"bn": clean_bengali, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
+CLEANERS = {"bn": clean_bengali, "ta": clean_tamil, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
             "ur": urdu_fold}
 
 
