@@ -84,6 +84,7 @@ internal val frCommon: Map<String, String> = mapOf(
     "Swahili" to "Swahili",
     "Swedish" to "Suédois",
     "Tagalog" to "Tagalog",
+    "Tamil" to "Tamoul",
     "Thai" to "Thaï",
     "Toki Pona" to "Toki pona",
     "Turkish" to "Turc",

@@ -117,7 +117,7 @@ English, Esperanto, Estonian, Farsi, Finnish, French, Galician, Georgian, German
 Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Kannada,
 Khmer, Korean, Lao, Latin, Latvian, Lithuanian, Macedonian, Malay, Maltese, Mandarin Chinese, Manx,
 Mongolian, Norwegian, Old Irish, Polish, Portuguese, Romanian, Russian, Scottish Gaelic,
-Serbian, Slovak, Slovene, Spanish, Swedish, Tagalog, Thai, Toki Pona, Turkish, Ukrainian,
+Serbian, Slovak, Slovene, Spanish, Swedish, Tagalog, Tamil, Thai, Toki Pona, Turkish, Ukrainian,
 Vietnamese, Welsh or Yiddish, with meanings shown in English, Chinese, French, German, Greek,
 Polish, Portuguese, Russian or Spanish. Each language comes with a tutorial book on learning it
 with the app, written in that language. The Languages page sets the language being learned, the

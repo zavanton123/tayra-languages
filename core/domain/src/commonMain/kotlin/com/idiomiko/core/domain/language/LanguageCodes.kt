@@ -37,6 +37,7 @@ object LanguageCodes {
         "cantonese" to "yue",
         "malay" to "ms",
         "urdu" to "ur",
+        "tamil" to "ta",
     )
 
     /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
@@ -68,6 +69,7 @@ object LanguageCodes {
         "yue" to "yue",
         "ms" to "zsm",
         "ur" to "urd",
+        "ta" to "tam",
     )
 
     /** Every known language once, by its shortest name, sorted by name. */

@@ -56,6 +56,7 @@ internal val yomitanLanguages: List<YomitanLanguage> = listOf(
     YomitanLanguage("sh", "Serbo-Croatian", listOf("decapitalize", "capitalizeFirstLetter", "removeSerboCroatianAccentMarks", "addSerboCroatianDiacritics"), listOf()),
     YomitanLanguage("sq", "Albanian", listOf("decapitalize", "capitalizeFirstLetter"), listOf()),
     YomitanLanguage("sv", "Swedish", listOf("decapitalize", "capitalizeFirstLetter"), listOf()),
+    YomitanLanguage("ta", "Tamil", listOf(), listOf()),
     YomitanLanguage("th", "Thai", listOf(), listOf()),
     YomitanLanguage("tl", "Tagalog", listOf("decapitalize", "capitalizeFirstLetter", "removeAlphabeticDiacritics"), listOf()),
     YomitanLanguage("tr", "Turkish", listOf("decapitalize", "capitalizeFirstLetter"), listOf()),
