@@ -82,6 +82,9 @@ SWAHILI_FORMS = {
     "siwe": "wa",
     # The pack has it as lewa's ("not be drunk"); it is toa's passive ("be given out, released").
     "kutolewa": "toa",
+    # Mostly "your" (rafiki wako, kazi yako), now and then the place copula wako ("they are there").
+    "wako": "ako,wako",
+    "yako": "ako",
     # "Due to" (kutokana na), the infinitive of tokana, toka's; not kana's with the negative kuto.
     "kutokana": "toka",
 }
