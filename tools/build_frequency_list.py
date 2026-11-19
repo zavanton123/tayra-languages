@@ -82,7 +82,7 @@ FALLBACKS = {
     "et": {"leipzig": ["est_news_2020_300K"]},
     "la": {"leipzig": ["lat_wikipedia_2021_100K"]},
     "lt": {"leipzig": ["lit_news_2020_300K"]},
-    "lv": {"leipzig": ["lav_news_2020_300K"]},
+    "lv": {"leipzig": ["lav_news_2020_300K", "lav_newscrawl_2016_1M", "lav-lv_web_2015_1M"]},
     "cy": {"leipzig": ["cym_wikipedia_2021_100K"]},
     "br": {"leipzig": ["bre_wikipedia_2021_100K"]},
     "yi": {"leipzig": ["yid_wikipedia_2021_30K"]},
@@ -140,6 +140,12 @@ SOURCE_ORDER["eo"] = ["frequencywords", "leipzig"]
 SOURCE_ORDER["vi"] = ["frequencywords", "leipzig"]
 # Lithuanian is counted from web text, subtitles and news, as its shipped list was, which its courses are pinned to.
 SOURCE_ORDER["lt"] = ["wordfreq", "frequencywords", "leipzig"]
+# Latvian is counted from web text, subtitles, news and web pages (Leipzig's news of 2020 and 2016 and its web crawl, 2.3
+# million sentences), which bring its rarer words in: its Wikipedia would add its pages' words (iedzīvotājs, novads).
+SOURCE_ORDER["lv"] = ["wordfreq", "frequencywords", "leipzig"]
+# Of each source, the forms counted (by default the commonest 200,000): all of Latvian's, as its words have many forms
+# each and its rarer words' are spread thin.
+SOURCE_FORMS = {"lv": 2_000_000}
 # Irish has only Wikipedia (its articles, and Leipzig's sentences from them), where everyday words rank far down (cad
 # 1193, inné 6336) and the words of its pages' headings high (tagairt, nasc); everyday sentences are blended in.
 SOURCE_ORDER["ga"] = ["leipzig", "wikipedia", "everyday"]
@@ -2050,6 +2056,21 @@ ARMENIAN_FORM_GLOSS = re.compile(r"^(?:(?:first|second|third)-person|singular|pl
                                  r"Western Armenian|traditional orthography|spelling|form|syncopic|[\s,/;])+\s*of ([^\W\d_]+)")
 # The words sharing an Armenian word's spelling, with their shares (որոշում: the noun and որոշել's participle).
 ARMENIAN_SHARED = {}
+# Latvian. The pack has thousands of forms as entries of their own, each glossed with its meaning and then the word it is a
+# form of: participles ("having plowed; indefinite past active participle of art"), comparatives and superlatives ("blacker;
+# indefinite comparative degree of melns"), negated verbs ("to not know; negative form of zināt"), person forms
+# ("first-person singular present/past indicative of nespēt") and old spellings. A verb, adjective or noun glossed only so
+# is a form of that word (LATVIAN_FORMS_OF), not a word of the list; and so is an adverb or verbal noun made from such a
+# form (LATVIAN_MADE_OF: labāk "adverbial form of labāks", neredzēšana "verbal noun of neredzēt"). Adverbs and verbal
+# nouns of words (labi of labs, lasīšana of lasīt), reflexive verbs and pronouns stay words.
+LATVIAN_FORM_GLOSS = re.compile(r"(?:^|; )[^;]*?\b(?:participle|comparative degree|superlative degree|negative form|alternative form|"
+                                r"obsolete form|alternative spelling|indicative|imperative|conjunctive|conditional|debitive)"
+                                r"(?: \([^)]*\))? of ([^\W\d_]+)$")
+LATVIAN_MADE_GLOSS = re.compile(r"(?:^|; )[^;]*?\b(?:adverbial form|verbal noun) of ([^\W\d_]+)$")
+LATVIAN_FORM_KINDS = {"verb", "adj", "noun", "adv"}
+LATVIAN_FORMS_OF = {}
+LATVIAN_MADE_OF = {}
+LATVIAN_OWN = set()
 IRISH_VERBS = set()
 # The initial mutations, whose form is the word's (bhfear, gcarr, n-am, t-uisce, hÉireann, d'fhan, mo chara): eclipsis
 # and the letters put before a vowel, then lenition.
@@ -3728,6 +3749,16 @@ def load_dictionary(language):
                     armenian_forms_of.setdefault(word_lc, set()).add(lower(language, form_of.group(1)))
                 else:
                     ARMENIAN_OWN.add(word_lc)
+        if language == "lv" and p in WORD_POS:
+            for gloss in (g for s in json.loads(senses) for g in s.get("glosses", [])) if p in LATVIAN_FORM_KINDS else [None]:
+                form_of = gloss and p != "adv" and LATVIAN_FORM_GLOSS.search(gloss)
+                made_of = gloss and not form_of and LATVIAN_MADE_GLOSS.search(gloss)
+                if form_of and lower(language, form_of.group(1)) != word_lc:
+                    LATVIAN_FORMS_OF.setdefault(word_lc, set()).add(lower(language, form_of.group(1)))
+                elif made_of and lower(language, made_of.group(1)) != word_lc:
+                    LATVIAN_MADE_OF.setdefault(word_lc, set()).add(lower(language, made_of.group(1)))
+                else:
+                    LATVIAN_OWN.add(word_lc)
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter") and not (language == "hy" and p in ARMENIAN_POS):
             continue
@@ -3953,6 +3984,15 @@ def load_dictionary(language):
             if word not in ARMENIAN_OWN:
                 common.pop(word, None)
                 lemmas[word] += sorted(t for t in targets if t not in lemmas[word])
+    if language == "lv":
+        # A Latvian entry glossed only as another word's form is that word's form (nezināt and zināms of zināt, lielāks of liels),
+        # and so is one made only from such forms (labāk of labāks, neredzēšana of neredzēt).
+        forms = {word for word in LATVIAN_FORMS_OF if word not in LATVIAN_OWN and word not in LATVIAN_MADE_OF}
+        for word in set(LATVIAN_FORMS_OF) | set(LATVIAN_MADE_OF):
+            made_of = LATVIAN_MADE_OF.get(word, set())
+            if word not in LATVIAN_OWN and made_of <= forms:
+                common.pop(word, None)
+                lemmas[word] += sorted(t for t in LATVIAN_FORMS_OF.get(word, set()) | made_of if t not in lemmas[word])
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language == "sq":
@@ -4207,7 +4247,7 @@ def build(language, source, size):
     order = [source] if source else SOURCE_ORDER.get(language, ["wordfreq", "frequencywords", "leipzig", "wikipedia"])
     found = []
     for name in order:
-        result = SOURCES[name](language, 200_000)
+        result = SOURCES[name](language, SOURCE_FORMS.get(language, 200_000))
         if result and language in SEGMENTED and name != "wordfreq":
             result = (resegment(language, result[0]), result[1])
         if result:

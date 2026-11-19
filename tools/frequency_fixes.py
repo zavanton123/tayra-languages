@@ -1217,6 +1217,20 @@ _OVERRIDES_D = {
         "šoreiz": ["šoreiz"], "uzreiz": ["uzreiz"], "vispirms": ["vispirms"], "tādējādi": ["tādējādi"],
         "pietiekami": ["pietiekami"], "apkārt": ["apkārt"], "tostarp": ["tostarp"], "nesen": ["nesen"],
         "nereti": ["nereti"], "netālu": ["netālu"],
+        # The pack files the month's forms under mēness "moon" too, the aunt's under tēvocis, the teacher under his female
+        # colleague; verb forms under rare nouns spelled alike (gaida "Girl Guide", patika "liking", mīla); soli of solis
+        # under sols and solīt; ievērojams "remarkable" under ievērot; zemi under the adverb "low"; sevis apart from sevi.
+        "mēnesi": ["mēnesis"], "mēnešiem": ["mēnesis"], "mēnešus": ["mēnesis"], "mēnesī": ["mēnesis"],
+        "mēnešu": ["mēnesis"], "mēnešos": ["mēnesis"], "mēneši": ["mēnesis"], "mēnesim": ["mēnesis"],
+        "tante": ["tante"], "tantes": ["tante"], "tanti": ["tante"], "tantei": ["tante"], "tantēm": ["tante"],
+        "tantē": ["tante"], "tantēs": ["tante"], "skolotājs": ["skolotājs"], "gaida": ["gaidīt"], "gaidu": ["gaidīt"],
+        "gaidām": ["gaidīt"], "patika": ["patikt"], "patiku": ["patikt"], "mīlu": ["mīlēt"], "plāno": ["plānot"],
+        "soli": ["solis"], "zemi": ["zeme"], "sevis": ["sevi"], "ievērojams": ["ievērojams"],
+        "ievērojama": ["ievērojams"], "ievērojamu": ["ievērojams"], "ievērojami": ["ievērojams"],
+        "ievērojamo": ["ievērojams"], "ievērojamā": ["ievērojams"], "ievērojamas": ["ievērojams"],
+        "ievērojamais": ["ievērojams"], "ievērojamākais": ["ievērojams"], "ievērojamāko": ["ievērojams"],
+        # augs "plant", whose spelling the pack gives only to augt's future.
+        "augs": ["augs"], "augi": ["augs"], "augiem": ["augs"], "augus": ["augs"], "augos": ["augs"], "augā": ["augs"],
     },
     # Estonian: pronoun case forms (mu, mind, mul, sind, teda, neid...) are tied to more than 6 words in
     # the dictionary and were dropped; ma/sa/ta/me/te/nad were separate from mina/sina/tema/meie/teie/nemad;
