@@ -30,6 +30,7 @@ import frequency_cornish  # noqa: E402
 import frequency_bengali  # noqa: E402
 import frequency_kannada  # noqa: E402
 import frequency_swahili  # noqa: E402
+import frequency_tamil  # noqa: E402
 import frequency_persian  # noqa: E402
 import frequency_urdu  # noqa: E402
 
@@ -43,6 +44,9 @@ HINDI_WORD = re.compile(r"[a-zA-Z\u0900-\u0963\u0966-\u097f\u200c\u200d]+")
 # Kannada words as the reader cuts them (its wordCharacters in AddedLanguages.kt): the Kannada block with its vowel signs,
 # virama and digits, and the joiners; Python's \w leaves out the signs and would cut every word.
 KANNADA_WORD = re.compile(r"[\u0c80-\u0cff\u200c\u200d]+")
+# Tamil words as the reader cuts them (its wordCharacters in AddedLanguages.kt): the Tamil block with its vowel signs, virama
+# and digits, and the joiners.
+TAMIL_WORD = re.compile(r"[\u0b80-\u0bff\u200c\u200d]+")
 # Bengali words as the reader cuts them (its wordCharacters in PredefinedLanguages.kt): the Bengali block with its vowel
 # signs, virama and digits; Python's \w leaves out the signs and would cut every word. The joiners are no part of a word.
 BENGALI_WORD = re.compile(r"[\u0980-\u09ff]+")
@@ -708,6 +712,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return YIDDISH_WORD.findall(text.translate(YIDDISH_APOSTROPHES))
     if code == "kn":
         return KANNADA_WORD.findall(text)
+    if code == "ta":
+        return TAMIL_WORD.findall(text)
     if code == "bn":
         return BENGALI_WORD.findall(text)
     # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
@@ -3171,6 +3177,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^सवाल:", "", text)
         if code == "kn":
             text = re.sub(r"(?m)^ಪ್ರಶ್ನೆಗಳು:", "", text)
+        if code == "ta":
+            text = re.sub(r"(?m)^கேள்விகள்:", "", text)
         if code == "bn":
             text = re.sub(r"(?m)^প্রশ্ন:", "", text)
             # A number in Bengali or Western digits, with the classifier or ending written on (১০টা, ৫ জন's ৫, ২০২৪-এ), is a number.
@@ -3268,6 +3276,11 @@ def check(path, brief=False):
         # rules the list was built with (frequency_kannada).
         if code == "kn":
             lowered = [w if w in ranks or w in names else frequency_kannada.checker_word(w, words, ranks, names) or w for w in lowered]
+        # Tamil joins its case endings, clitics and verb endings on and doubles a consonant onto a word before the next
+        # (வீட்டிலும், செய்திருக்கிறார், பள்ளிக்குப், ராணியிடம்): a word the list lacks is read by the rules the list was built
+        # with (frequency_tamil).
+        if code == "ta":
+            lowered = [w if w in ranks or w in names else frequency_tamil.checker_word(w, words, ranks, names) or w for w in lowered]
         # A Bengali word with the clitic -ই "just" or -ও "also" written on (দেশেও, আমিই) that the list lacks is read as the
         # form without it.
         if code == "bn":
