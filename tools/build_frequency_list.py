@@ -92,7 +92,7 @@ FALLBACKS = {
     "th": {"leipzig": ["tha_news_2020_30K", "tha_wikipedia_2021_10K"]},
     "ga": {"leipzig": ["gle_wikipedia_2021_30K"]},
     "gv": {"leipzig": ["glv_wikipedia_2021_10K"]},
-    "mt": {"leipzig": ["mlt_wikipedia_2021_30K", "mlt_news_2020_30K"]},
+    "mt": {"leipzig": ["mlt_wikipedia_2021_30K", "mlt_news_2020_30K"], "maltese_web": ["mlt_web_2012_300K"]},
     "mn": {"leipzig": ["mon_wikipedia_2021_100K", "mon_news_2020_100K"]},
     "tl": {"leipzig": ["tgl_wikipedia_2021_100K", "tgl_news_2020_30K"]},
     "hy": {"leipzig": ["hye_news_2020_30K"], "wikipedia_sentences": ["hye_wikipedia_2021_1M"]},
@@ -198,6 +198,13 @@ SOURCE_WEIGHTS["sq"] = {"frequencywords": 0.9, "leipzig": 0.1}
 SOURCE_ORDER["yi"] = ["leipzig", "wikipedia", "everyday"]
 BLEND.add("yi")
 SOURCE_WEIGHTS["yi"] = {"leipzig": 0.3, "wikipedia": 0.4, "everyday": 0.3}
+# Maltese is counted from Leipzig's sentences, cut as the reader cuts them (maltese_counts): its news and Wikipedia, 60,000
+# sentences, gave a list of 4,700 words; its web text (blogs, forums, parishes, local councils), 300,000 more, is blended in
+# at half the weight, which takes the list towards the 10,000 the dictionary has. The Maltese Wikipedia's articles, at a tenth,
+# add the words of nature, places and crafts the two lack (xitwa, muntanja, wiżgħa): 6,000 words become 6,560.
+SOURCE_ORDER["mt"] = ["maltese", "maltese_web", "maltese_wikipedia"]
+BLEND.add("mt")
+SOURCE_WEIGHTS["mt"] = {"maltese": 0.45, "maltese_web": 0.45, "maltese_wikipedia": 0.1}
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -219,6 +226,9 @@ SOURCE_LICENCES = {
     "frequencywords": "CC BY-SA 4.0",
     "leipzig": "terms at https://wortschatz.uni-leipzig.de/en/download",
     "wikipedia_sentences": "terms at https://wortschatz.uni-leipzig.de/en/download",
+    "maltese": "terms at https://wortschatz.uni-leipzig.de/en/download",
+    "maltese_web": "terms at https://wortschatz.uni-leipzig.de/en/download",
+    "maltese_wikipedia": "CC BY-SA 4.0",
     "everyday": "Tatoeba CC BY 2.0 FR, Common Voice CC0 1.0",
     "everyday_mixed": "CC0 1.0",
 }
@@ -2108,6 +2118,12 @@ WELSH_FORM_GLOSS = re.compile(r"^\s*(?:\([^)]*\)\s*)?(?:(?:first|second|third)-p
 WELSH_FORMS_OF = {}
 WELSH_OWN = set()
 WELSH_PLURALS = set()
+# The Maltese pack files nouns and verbs under other words they are no form of: a masculine's feminine counterpart (mara
+# "woman" of raġel, omm "mother" of missier, oħt "sister" of ħu) and look-alikes (suq "market" of saq, tul "length" of tal,
+# qattus "cat" of qaddis). A noun or verb with a sense that is no other word's form (MALTESE_OWN) keeps its count.
+MALTESE_FORM_GLOSS = re.compile(r"^[^,;:()]{0,60}?\b(?:form|spelling|equivalent|noun|participle|plural|singulative|paucal|dual|"
+                                r"diminutive|mediopassive|synonym|degree|singular|unit) of \S")
+MALTESE_OWN = set()
 # A word with these written onto it after an apostrophe is that word and this one (mae'n, i'r, a'i, wedi'u, i'w, a'm, o'th,
 # i'ch): the reader keeps it whole, so it stays a form of the first and adds to the second.
 WELSH_CLITICS = {"n": "yn", "r": "y", "i": "ei", "u": "eu", "w": "ei", "m": "fy", "th": "dy", "ch": "eich"}
@@ -3244,6 +3260,195 @@ def vietnamese_sentence_counts(path):
                 if word.islower() or starts and word[0].isupper() and (len(word) == 1 or word[1:].islower()):
                     counts[word.lower()] += 1
     return counts
+# Maltese is counted from Leipzig's sentences, cut into words as the reader cuts them (letters and the apostrophe, no hyphen):
+# Leipzig's own words keep the article with its noun (il-kelb, tad-dar, fl-aħħar), a fifth of the text, which no dictionary
+# has. The article and a preposition joined to it (il, it, tal, tad, fis, mill) are counted before a hyphen as "il-",
+# "tad-" (MALTESE_JOINED), which go to the article and the preposition and are listed without the hyphen; a word cut short
+# before another (f'Malta, b'mod, m'hemmx, x'inhu) is cut after its apostrophe, as the reader cuts it; and an apostrophe
+# ending a word is kept where the word has it (ta', ma', seta'), not where it closes a quotation.
+MALTESE_WORD = re.compile("[a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ']+")
+MALTESE_ELIDED = re.compile("^([fbmxst]')(?=[^\\W\\d_])")
+MALTESE_APOSTROPHES = str.maketrans({"´": "'", "`": "'", "’": "'", "‘": "'"})
+# The article's spellings before a hyphen, and the prepositions written onto it.
+MALTESE_ARTICLE = ("il", "l", "it", "id", "is", "ir", "iż", "ix", "iċ", "in", "iz", "t", "d", "s", "r", "ż", "x", "ċ", "n", "z")
+MALTESE_ARTICLE_TAILS = ("l", "t", "d", "s", "ż", "x", "ċ", "n", "r", "z")
+MALTESE_JOINED_STEMS = {"ta": "ta'", "fi": "fi", "bi": "bi", "ma": "ma'", "għa": "għal", "li": "lil", "mi": "minn", "sa": "sa",
+                        "ġo": "ġo", "bħa": "bħal"}
+MALTESE_JOINED = {**{a + "-": "il" for a in MALTESE_ARTICLE}, "fl-": "fi", "bl-": "bi"}
+for _stem, _preposition in MALTESE_JOINED_STEMS.items():
+    for _tail in MALTESE_ARTICLE_TAILS:
+        # The l doubles after għa, li, mi and bħa (għall-, lill-, mill-, bħall-), not after ta, fi, bi, ma, sa, ġo (tal-, fil-).
+        MALTESE_JOINED[_stem + _tail + ("l" if _tail == "l" and _stem in ("għa", "li", "mi", "bħa") else "") + "-"] = _preposition
+# The words cut short before another, by the word they stand for.
+MALTESE_SHORT = {"f'": "fi", "b'": "bi", "m'": "ma", "s'": "sa", "t'": "ta'", "x'": "xi", "'l": "lejn", "'il": "lejn"}
+OVERRIDES.setdefault("mt", {}).update({
+    **{joined: [word] for joined, word in MALTESE_JOINED.items()}, **{short: [word] for short, word in MALTESE_SHORT.items()},
+    **{word: [word] for word in set(MALTESE_JOINED.values()) | set(MALTESE_SHORT.values())}, "l": ["il"]})
+# The months and the days the pack has only capitalised, as Maltese writes them; the other days are spelled as numbers
+# (Tnejn, Tlieta, Erbgħa), ġimgħa "week" and ħadd "nobody", and share their entries.
+MALTESE_CAPITALISED = {"jannar", "frar", "marzu", "april", "mejju", "ġunju", "lulju", "awwissu", "settembru", "ottubru", "novembru",
+                       "diċembru", "ħamis", "sibt"}
+
+
+MALTESE_VOWELS = set("aeiouàèìòù")
+
+
+def maltese_generated_forms(db):
+    """
+    The forms the Maltese pack lacks, by the words they are forms of. A word starting with two consonants takes an i before
+    it after a consonant or at the start of a sentence (ikun of jkun, isir of jsir, insibu of nsibu, issir of ssir,
+    iskejjel of skejjel; the j and w of jC and wC become that vowel: ikun, uħud), which the pack leaves out; and the forms
+    of the verbs whose stem ends in għ, written with an apostrophe (jista', jibqa', jerġa'), which it has only in the
+    negative (jistax, jibqax), and which text also writes without the apostrophe.
+    """
+    lemmas = defaultdict(set)
+    for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
+        lemmas[form].add(lower("mt", lemma))
+    for (word,) in db.execute("SELECT word_lc FROM entries"):
+        lemmas[word].add(word)
+    out = defaultdict(set)
+    for form, of in list(lemmas.items()):
+        # A form sent to other words by hand (jgħin to għen, not għan) sends its spellings with them.
+        of = set(OVERRIDES.get("mt", {}).get(form, of))
+        letters = form.replace("għ", "\x01")
+        if len(letters) >= 2 and letters[0] not in MALTESE_VOWELS | {"\x01"} and letters[0].isalpha() and (
+                letters[1] == "\x01" or letters[1].isalpha() and letters[1] not in MALTESE_VOWELS):
+            out["i" + form[1:] if form[0] == "j" else "u" + form[1:] if form[0] == "w" else "i" + form].update(of)
+        if form.endswith("ax") and any(l.endswith("'") for l in of):
+            for spelled in (form[:-1] + "'", form[:-1]):
+                out[spelled].update(l for l in of if l.endswith("'"))
+    return {form: of for form, of in out.items() if form not in lemmas}
+
+
+def maltese_pieces(word, known):
+    """The words a run of letters and apostrophes is, as the reader cuts it; [known] holds the words spelled with an apostrophe."""
+    lowered = lower("mt", word)
+    elided = MALTESE_ELIDED.match(lowered)
+    if elided:
+        return [elided.group(1)] + maltese_pieces(word[2:], known)
+    if lowered in ("'l", "'il"):
+        return [lowered]
+    lowered = lowered.lstrip("'")
+    while lowered.endswith("'") and lowered not in known:
+        lowered = lowered[:-1]
+    return [lowered] if lowered else []
+
+
+# Much Maltese web text is typed without its letters' marks (ghandu for għandu, hafna for ħafna, zgur for żgur). A sentence
+# with no marked letter and a word that is none but one with marks (MALTESE_MARKS) is left out; its words, read as written,
+# would add to look-alikes (hu for ħu, dar, hares) and drop the words they stand for.
+MALTESE_MARKED = re.compile("[ħġċżĦĠĊŻ]")
+MALTESE_MARKS = {"h": "ħ", "z": "ż", "c": "ċ", "g": "ġ"}
+
+
+def maltese_unmarked(word, known):
+    """Whether [word] (lowercase) is a word of [known] typed without its marks."""
+    if "gh" in word:
+        return True
+    if word in known:
+        return False
+    slots = [i for i, letter in enumerate(word) if letter in MALTESE_MARKS]
+    if not slots or len(slots) > 6:
+        return False
+    for marked in range(1, 1 << len(slots)):
+        letters = list(word)
+        for bit, i in enumerate(slots):
+            if marked >> bit & 1:
+                letters[i] = MALTESE_MARKS[letters[i]]
+        if "".join(letters) in known:
+            return True
+    return False
+
+
+def maltese_leipzig_sentences(language, source):
+    """The sentences of a language's Leipzig corpora for [source], with the names of those on disk."""
+    used = []
+
+    def sentences():
+        for corpus, path in found:
+            with tarfile.open(path) as tar:
+                member = next(m for m in tar.getmembers() if m.name.endswith("-sentences.txt"))
+                for line in io.TextIOWrapper(tar.extractfile(member), encoding="utf-8"):
+                    yield line.rstrip("\n").partition("\t")[2]
+
+    found = []
+    for corpus in FALLBACKS[language][source]:
+        path = download(f"https://downloads.wortschatz-leipzig.de/corpora/{corpus}.tar.gz", f"leipzig-{corpus}.tar.gz")
+        if path is not None:
+            found.append((corpus, path))
+            used.append(corpus)
+    return (sentences(), f"Leipzig Corpora Collection {', '.join(used)}") if used else None
+
+
+# The Maltese Wikipedia's articles (namespace 0), cut into sentences: lists, tables and headings are left out, and a sentence
+# is counted once by its shape (its capitalised words and numbers as placeholders), as the stubs a bot wrote for every town or
+# year repeat one sentence with another name.
+MALTESE_WIKI_LISTED = re.compile(r"(?m)^[*#:;|!{].*$")
+MALTESE_WIKI_SENTENCE = re.compile(r"(?<=[.!?])\s+|\n+")
+
+
+def maltese_wikipedia_sentences(language):
+    import bz2
+    path = download("https://dumps.wikimedia.org/mtwiki/latest/mtwiki-latest-pages-articles.xml.bz2", "wikipedia-mt.xml.bz2")
+    if path is None:
+        return None
+
+    def sentences():
+        seen, page, in_text, namespace = set(), [], False, None
+        with bz2.open(path, "rt", encoding="utf-8") as f:
+            for line in f:
+                if "<ns>" in line:
+                    namespace = line.strip()
+                if "<text" in line:
+                    in_text = True
+                    line = line[line.index(">", line.index("<text")) + 1:]
+                if not in_text:
+                    continue
+                end = line.find("</text>")
+                page.append(line if end < 0 else line[:end])
+                if end < 0:
+                    continue
+                in_text = False
+                text, page = "".join(page), []
+                if namespace != "<ns>0</ns>" or text.lstrip().lower().startswith("#"):
+                    continue
+                text = html.unescape(strip_templates(WIKI_HEADING.sub(" ", text)))
+                for noise in WIKI_NOISE:
+                    text = noise.sub(" ", text)
+                text = MALTESE_WIKI_LISTED.sub(" ", WIKI_LINK.sub(r"\1", text))
+                text = re.sub(r"'{2,}", " ", text)
+                for sentence in MALTESE_WIKI_SENTENCE.split(text):
+                    shape = re.sub(r"\d+", "0", " ".join("X" if w[:1] != w[:1].lower() else w for w in sentence.split()))
+                    if shape.strip() and shape not in seen:
+                        seen.add(shape)
+                        yield sentence
+
+    return sentences(), "mt.wikipedia.org articles"
+
+
+def maltese_counts(language, limit, source="leipzig"):
+    db = sqlite3.connect(os.path.join(DICTIONARIES, f"{language}-en.sqlite"))
+    words = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms")} | set(maltese_generated_forms(db))
+    known = {w for w in words if "'" in w}
+    counts = defaultdict(int)
+    found = maltese_wikipedia_sentences(language) if source == "maltese_wikipedia" else maltese_leipzig_sentences(language, source)
+    if found is None:
+        return None
+    sentences, label = found
+    for sentence in sentences:
+        sentence = sentence.translate(MALTESE_APOSTROPHES)
+        if not MALTESE_MARKED.search(sentence) and any(
+                maltese_unmarked(piece, words) for match in MALTESE_WORD.finditer(sentence)
+                for piece in maltese_pieces(match.group(0), known)):
+            continue
+        for match in MALTESE_WORD.finditer(sentence):
+            pieces = maltese_pieces(match.group(0), known)
+            if pieces and sentence[match.end():match.end() + 1] == "-" and pieces[-1] + "-" in MALTESE_JOINED:
+                pieces[-1] += "-"
+            for piece in pieces:
+                counts[piece] += 1
+    top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
+    return dict(top), label
 
 
 # A Thai letter alone (จ of อบจ., ด of ริชาร์ด): the dictionary has every one, but they are no words, ก็ and ณ aside.
@@ -3523,7 +3728,9 @@ def everyday_counts(language, limit, sources=None):
 
 SOURCES = {"wordfreq": wordfreq_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts, "wikipedia": wikipedia_counts,
            "everyday": everyday_counts, "everyday_mixed": lambda language, limit: everyday_counts(language, limit, EVERYDAY_MIXED.get(language)),
-           "wikipedia_sentences": lambda language, limit: leipzig_counts(language, limit, "wikipedia_sentences")}
+           "wikipedia_sentences": lambda language, limit: leipzig_counts(language, limit, "wikipedia_sentences"),
+           "maltese": maltese_counts, "maltese_web": lambda language, limit: maltese_counts(language, limit, "maltese_web"),
+           "maltese_wikipedia": lambda language, limit: maltese_counts(language, limit, "maltese_wikipedia")}
 
 
 class Lemmatizer:
@@ -4264,6 +4471,9 @@ def load_dictionary(language):
                     irish_own.add(word_lc)
                     if p == "verb":
                         IRISH_VERBS.add(word_lc)
+        if language == "mt" and p in ("noun", "verb") and any(
+                not MALTESE_FORM_GLOSS.match(g) for s in json.loads(senses) for g in s.get("glosses", [])):
+            MALTESE_OWN.add(word_lc)
         if language == "cy" and p in WORD_POS:
             parsed = json.loads(senses)
             for gloss in (g for s in parsed for g in s.get("glosses", [])):
@@ -4314,6 +4524,8 @@ def load_dictionary(language):
             common[word_lc] = word_lc
         elif language in CAPITALISED_NOUNS and p == "noun" and lower(language, word) == word_lc:
             common.setdefault(word_lc, word)
+        elif language == "mt" and p == "noun" and word_lc in MALTESE_CAPITALISED and lower(language, word) == word_lc:
+            common.setdefault(word_lc, word)
     # A noun the dictionary also lists as a rare lowercase word ("zeit") keeps its capital.
     common.update(DISPLAY.get(language, {}))
     if language == "br":
@@ -4353,6 +4565,9 @@ def load_dictionary(language):
             form_lc, lemma = MACEDONIAN_REFLEXIVE.sub("", form_lc), MACEDONIAN_REFLEXIVE.sub("", lemma)
         if is_wordlike(lemma):
             lemmas[form_lc].append(lemma)
+    if language == "mt":
+        for form_lc, of in maltese_generated_forms(db).items():
+            lemmas[form_lc].extend(sorted(l for l in of if is_wordlike(l)))
     # A Korean verb's form the pack files under other verbs too (가는 of 가다, 갈다 and 가늘다) goes as its forms table says.
     for form_lc, of in KOREAN_GLOSSED.items() if language == "ko" else ():
         if of and set(lemmas.get(form_lc, [of])) - {of} and pos.get(of, set()) & {"verb", "adj"}:
@@ -6010,6 +6225,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                         kind == "number" and (form in ARABIC_PLURALS or form in ARABIC_LEXEMES)) or (
                         kind is not True and pos[form] & INFLECTED_KINDS and pos.get(l, set()) & INFLECTED_KINDS)
                 others = [l for l in others if arabic_form_of(l)]
+            if language == "mt" and form in MALTESE_OWN:
+                return {form: 1.0}
             inflected = bool(pos[form] & INFLECTED_KINDS)
             mine = weight(form)
             others = [
@@ -6649,6 +6866,13 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             # The reader reads the copula's 면 (정도 + 면) as 이다's, which the list counts as 이면, and cuts every
             # form of the copula it knows, however seldom (사람이었기), as a word of the list.
             counted += [f for f, _ in KOREAN_COPULA if f not in counted and f not in KOREAN_COPULA_WORDS]
+        if language == "mt":
+            # The article and the prepositions joined to it were counted before their hyphen (tad-); the reader finds them
+            # without it (tad), under the word they are mostly counted for (sar "became" more than sa + ir-).
+            joined = [f for f, to in MALTESE_JOINED.items() if to == word]
+            counted = list(dict.fromkeys(
+                f[:-1] if f in MALTESE_JOINED else f for f in counted + joined
+                if f not in MALTESE_JOINED or count(f) >= count(f[:-1])))
         if language == "sr":
             # The counts are of Latin-script text; Serbian is read in Cyrillic too.
             counted = list(dict.fromkeys(counted + [to_serbian_cyrillic(f) for f in counted]))

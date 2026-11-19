@@ -1521,6 +1521,29 @@ for _overrides, _exclude in [(_OVERRIDES_A, _EXCLUDE_A), (_OVERRIDES_B, _EXCLUDE
         OVERRIDES.setdefault(_language, {}).update(_fixes)
     for _language, _words in _exclude.items():
         EXCLUDE.setdefault(_language, set()).update(_words)
+# Maltese: the forms of għen "to help" the pack files under għan "aim" too (jgħin, ngħinu), illum "today" written as
+# il-lum, and the plural of ġar "neighbour", which the pack gives ġara "to happen" as well.
+OVERRIDES.setdefault("mt", {}).update({
+    **{f: ["għen"] for f in ("għen", "għenna", "għenniex", "għent", "għentu", "għentux", "għentx", "għin", "għinu", "jgħin",
+                             "jgħinu", "jgħinux", "jgħinx", "ngħin", "ngħinu", "ngħinux", "ngħinx", "tgħin", "tgħinu",
+                             "tgħinux", "tgħinx", "megħjun", "megħjuna", "magħjun", "mgħin")},
+    "lum": ["illum"], "ġirien": ["ġar"],
+    # Forms the pack files under look-alikes too: llum "today" after a vowel, the plurals żgħar and irġiel, mitt "hundred"
+    # (not of miet "died"), ġew "they came" (not of ġewwa "inside"), qallu "he told him" (not of qalla "to fry"), jgħid "he
+    # says" (not of għad "still"), għaddiet "she passed" (not of għadd "to count").
+    "llum": ["illum"], "żgħar": ["żgħir"], "irġiel": ["raġel"], "mitt": ["mija"], "ġew": ["ġie"], "qallu": ["qal"],
+    "qalli": ["qal"], "jgħid": ["qal"], "għaddiet": ["għadda"], "għaddew": ["għadda"],
+    # The forms of għand "to have" (għandi "I have", għandu "he has"), which the pack has as words of their own; kont "I was"
+    # (not the noun "account"), kienetx "she was not", miegħek "with you".
+    **{f: ["għand"] for f in ("għandi", "għandek", "għandu", "għandha", "għandna", "għandkom", "għandhom", "għandix",
+                             "għandekx", "għandux", "għandhiex", "għandniex", "għandkomx", "għandhomx")},
+    "kont": ["kien"], "kontijiet": [], "kienetx": ["kien"], "kinitx": ["kien"], "miegħek": ["ma'"],
+    # parti "part" has no entry of its own, but is filed under parta "to depart".
+    "parti": [], "partijiet": [],
+})
+# sliema "peace", ħal "condition" (obsolete) and marsa "harbour" (archaic) are counted as the places Tas-Sliema, Ħal Qormi and
+# Marsa.
+EXCLUDE.setdefault("mt", set()).update({"mifsud", "sliema", "ħal", "marsa"})
 # How a word is written where the dictionary has it in lowercase too: German nouns whose lowercase
 # twin is rare or a stray entry ("zeit", "mensch").
 DISPLAY = {
