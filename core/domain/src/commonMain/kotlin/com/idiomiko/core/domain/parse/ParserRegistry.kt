@@ -11,6 +11,7 @@ object ParserRegistry {
     private val parsers: Map<String, TextParser> = linkedMapOf(
         "spacedel" to SpaceDelimitedParser(),
         "turkish" to TurkishParser(),
+        "azerbaijani" to AzerbaijaniParser(),
         "classicalchinese" to ClassicalChineseParser(),
         "thai" to ThaiParser(),
         "lao" to LaoParser(),

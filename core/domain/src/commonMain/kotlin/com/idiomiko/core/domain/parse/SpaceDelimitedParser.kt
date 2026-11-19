@@ -97,3 +97,14 @@ class TurkishParser : SpaceDelimitedParser() {
     override fun lowercase(text: String): String =
         text.replace("İ", "i").replace("I", "ı").lowercase()
 }
+
+/**
+ * Azerbaijani has Turkish's dotted and dotless i (İndi is indi, Işıq is ışıq). A word saved when Azerbaijani was read as
+ * space-delimited text may keep the dot an İ left over an i, which is the plain i.
+ */
+class AzerbaijaniParser : SpaceDelimitedParser() {
+    override val name: String get() = "Azerbaijani"
+
+    override fun lowercase(text: String): String =
+        text.replace("İ", "i").replace("I", "ı").lowercase().replace("i\u0307", "i")
+}

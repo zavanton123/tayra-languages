@@ -107,6 +107,13 @@ class SpaceDelimitedParserTest {
     }
 
     @Test
+    fun azerbaijaniLowercase() {
+        assertEquals("ışıq indi", AzerbaijaniParser().lowercase("Işıq İndi"))
+        assertEquals("indi", AzerbaijaniParser().lowercase("i\u0307ndi"), "the dot an İ left when lowercased as other languages do")
+        assertEquals("azerbaijani", LanguageDefinitions.all.first { it.name == "Azerbaijani" }.language.parserType)
+    }
+
+    @Test
     fun numberedAssignsSentences() {
         val tokens = parser.parse("Hi there. Bye.", TestLanguages.english).numbered()
         assertEquals(listOf("Hi", " ", "there", ". ", "Bye", "."), tokens.map { it.token })

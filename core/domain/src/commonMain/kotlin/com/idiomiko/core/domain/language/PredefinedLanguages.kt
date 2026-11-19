@@ -141,9 +141,9 @@ object PredefinedLanguages {
                 LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://tatoeba.org/en/sentences/search?from=aze&query=[WORD]&to=", isActive = false, sortOrder = 3),
                 LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://www.verbix.com/webverbix/go.php?&D1=250&T1=[WORD]", isActive = true, sortOrder = 4),
                 LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://cooljugator.com/az/[WORD]", isActive = false, sortOrder = 5),
-                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=gd&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 6),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=az&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 6),
                 LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.yandex.com/?source_lang=az&target_lang=en&text=[WORD]", isActive = false, sortOrder = 7),
-                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.EMBEDDED, url = "https://www.bing.com/translator/?from=hy&to=en&text=[WORD]", isActive = false, sortOrder = 8),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.EMBEDDED, url = "https://www.bing.com/translator/?from=az&to=en&text=[WORD]", isActive = false, sortOrder = 8),
                 LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://www.online-translator.com/translation/azerbaijani-english?text=[WORD]", isActive = false, sortOrder = 9),
             ),
             characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
@@ -152,7 +152,7 @@ object PredefinedLanguages {
             wordCharacters = "a-zA-ZÀ-ÖØ-öø-ȳáéíóúÁÉÍÓÚñÑğĞıİöÖüÜşŞçÇƏəƢƣЬьIiƵƶꞐꞑƟɵАаБбҸҹЧчДдЭэӘәФфҜҝҒғҺһХхЫыИиЖжКкГгЛлМмНнОоӨөПпРрСсШшТтУуҮүВвЙйЗзЕеЈј'",
             rightToLeft = false,
             showRomanization = true,
-            parserType = "spacedel",
+            parserType = "azerbaijani",
         ),
     )
 
