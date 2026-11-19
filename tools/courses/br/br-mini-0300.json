@@ -1,0 +1,215 @@
+{
+  "id": "br-mini-0300",
+  "rankUpTo": 300,
+  "level": "A1",
+  "title": "Debriñ hag ober ar prenadennoù",
+  "description": "Short stories about food and shopping in Brittany: a market stall, a farm on the mountain, an island shop, a wedding meal, a student's shop job, a bookshop, a pardon, milk prices, a king cake and a fest-noz.",
+  "topic": "Food and shopping",
+  "names": [
+    "Ivona",
+    "Lomig",
+    "Kemperle",
+    "Gwilherm",
+    "Elen",
+    "Karaez",
+    "Solenn",
+    "Herri",
+    "Eusa",
+    "Brest",
+    "Breizh",
+    "Laora",
+    "Benead",
+    "Fulup",
+    "Pempoull",
+    "Gurvan",
+    "Gwengamp",
+    "Roazhon",
+    "Bernez",
+    "Yuna",
+    "Lannuon",
+    "Riwanon",
+    "Eflamm",
+    "Maodez",
+    "Edern",
+    "Pondi",
+    "Kemper",
+    "Pariz",
+    "Bro-C'hall",
+    "Tereza",
+    "Dewi",
+    "Mikaela",
+    "Eozen",
+    "Gwion",
+    "Landerne"
+  ],
+  "lessons": [
+    {
+      "title": "Pemp vi",
+      "summary": "An old woman at the Kemperle market sells eggs to a boy and gives him two more.",
+      "newWords": [
+        "gwerzhañ",
+        "priz",
+        "arc'hant",
+        "setu",
+        "ya",
+        "pemp",
+        "maouez",
+        "paotr",
+        "kinnig",
+        "muioc'h",
+        "c'hoant"
+      ],
+      "text": "Ivona a zo ur vaouez kozh eus Kemperle. Gwerzhañ a ra vioù war ar marc'had.\n\nLomig a zo ur paotr bihan. C'hoant en deus da gaout vioù evit e vamm. Nebeut a arc'hant en deus ar paotr.\n\n\"Ha bras eo ar priz?\" a c'houlenn Lomig.\n\n\"N'eo ket. Pemp evit 2 euro,\" a lavar ar vaouez. \"Ha c'hoant ac'h eus da gaout pemp?\"\n\n\"Ya!\" a lavar ar paotr. \"Setu an arc'hant.\"\n\nIvona a gemer an arc'hant. \"Setu pemp evidout,\" a lavar.\n\nNeuze e kinnig Ivona daou all d'ar paotr. \"Kemer an daou-se ivez, evit da vamm,\" a lavar ar vaouez. \"Gant da vamm e komzan alies. Ur vaouez vat eo.\"\n\n\"Ya, kemer a ran anezho!\" a lavar Lomig. Bremañ en deus ar paotr muioc'h a vioù: 7 e-lec'h pemp. Mont a ra d'ar gêr, ha reiñ a ra an holl d'e vamm.\n\nGoulennoù:\nHa gwerzhañ a ra Ivona vioù?\nYa, Ivona a werzh vioù war ar marc'had.\nHa bras eo ar priz?\nN'eo ket bras ar priz: pemp evit 2 euro.\nHa c'hoant en deus Lomig da gaout vioù?\nYa, c'hoant en deus da gaout vioù evit e vamm.\nHa kinnig a ra Ivona un dra d'ar paotr?\nYa, Ivona a ginnig daou all d'ar paotr.\nHa muioc'h en deus Lomig bremañ?\nYa, bremañ en deus Lomig muioc'h: 7 e-lec'h pemp."
+    },
+    {
+      "title": "Al loened war ar menez",
+      "summary": "A farming family on the mountain near Karaez looks after its animals and sells their milk.",
+      "newWords": [
+        "loen",
+        "dour",
+        "gwenn",
+        "korf",
+        "nerzh",
+        "kreskiñ",
+        "liv",
+        "tiegezh",
+        "devezh",
+        "menez",
+        "sellet"
+      ],
+      "text": "Gwilherm hag Elen a vev war ar menez, tost da Garaez. Gant o zri bugel ez int un tiegezh bras. An tiegezh en deus kalz a loened. Gwenn eo liv al loened, nemet unan: du eo liv al loen-se.\n\nBep devezh ez a Gwilherm da sellet ouzh al loened. Reiñ a ra dour d'al loened, rak war ar menez e vez ret kaout dour mat bep devezh.\n\nLabour an tiegezh a zo bras. Ret eo kaout nerzh er c'horf evit labourat war ar menez. Gwilherm en deus kalz a nerzh en e gorf.\n\nAl loened a ro laezh, ha gwenn eo liv al laezh. Elen a werzh al laezh e Karaez.\n\nAr vugale a chom pell o sellet ouzh al loened bihan. Kreskiñ a ra al loened bihan, ha kreskiñ a ra ar vugale ivez. Bep bloaz o deus muioc'h a nerzh.\n\nGoulennoù:\nHa war ar menez e vev Gwilherm hag Elen?\nYa, Gwilherm hag Elen a vev war ar menez, tost da Garaez.\nHa gwenn eo liv al loened?\nGwenn eo liv al loened, nemet unan: du eo.\nPetra a ro Gwilherm d'al loened bep devezh?\nGwilherm a ro dour d'al loened bep devezh.\nHa ret eo kaout nerzh evit labourat war ar menez?\nYa, ret eo kaout nerzh er c'horf.\nHa kreskiñ a ra ar vugale?\nYa, kreskiñ a ra ar vugale, ha bep bloaz o deus muioc'h a nerzh."
+    },
+    {
+      "title": "Ar vag",
+      "summary": "The shop on Eusa has no bread when bad weather keeps the boat from Brest away for a day.",
+      "newWords": [
+        "enez",
+        "annezad",
+        "kornôg",
+        "reter",
+        "hent",
+        "hir",
+        "padout",
+        "buan",
+        "er-maez",
+        "kreiz",
+        "fall"
+      ],
+      "text": "Solenn he deus ur stal war enez Eusa. Eusa a zo un enez vihan e kornôg Breizh. War an enez ez eus 800 annezad. Solenn a vev e kornôg an enez, met he stal a zo e kreiz an enez.\n\nAn holl draoù a zeu eus Brest gant ar vag. Hir eo an hent eus Brest betek Eusa, hag an dro a bad pell.\n\nFall eo an amzer hiziv, ha ne zeu ket ar vag. Den ebet ne ya er-maez.\n\nHerri a vev e reter an enez. C'hoant en deus da gaout bara. Hir eo an hent eus reter an enez betek ar c'hreiz, met Herri a zeu buan. Ne gav ket a vara: ne zeu ket ar vag gant an amzer fall.\n\nAn deiz war-lerc'h eo mat an amzer. Ar vag a zeu buan eus Brest, hag an dro ne bad ket pell. An annezidi a zo er-maez, ha Herri a gav bara e stal Solenn.\n\nGoulennoù:\nHa bras eo Eusa?\nN'eo ket. Eusa a zo un enez vihan e kornôg Breizh.\nHa stal Solenn a zo e reter an enez?\nN'emañ ket. Emañ stal Solenn e kreiz an enez.\nHa pell eo Brest?\nYa, hir eo an hent, hag an dro a bad pell.\nHa mat eo an amzer hiziv?\nN'eo ket. Fall eo an amzer hiziv.\nHa Herri a vev e kornôg an enez?\nNe vev ket eno: e reter an enez e vev Herri."
+    },
+    {
+      "title": "An tamm diwezhañ",
+      "summary": "At Laora and Benead's wedding in Pempoull, the bride shares the last piece of cake with her grandfather.",
+      "newWords": [
+        "dimeziñ",
+        "pried",
+        "gwreg",
+        "familh",
+        "rannañ",
+        "c'hoarvezout",
+        "soñjal",
+        "krediñ",
+        "e-touez",
+        "diwezhañ"
+      ],
+      "text": "Dimeziñ a ra Laora ha Benead hiziv e Pempoull. Familh Laora ha familh Benead a zo eno: 80 den. E-touez an dud ez eus tud kozh ha bugale.\n\nGoude dimeziñ ez a an div familh d'ur pred bras. Komz a ra an holl kalz. Met unan eus ar familh n'eo ket eno c'hoazh: tad-kozh Laora, Fulup.\n\nNeuze ez eus ur wastell vras. Rannañ a ra Laora ha Benead ar wastell etre an holl.\n\nFulup a zeu goude, an den diwezhañ. Petra a c'hoarvez? N'eus nemet un tamm: an tamm diwezhañ, hag evit Laora eo. Fulup a gred n'eus tamm ebet evitañ.\n\nSoñjal a ra Laora: \"Ma zad-kozh a zeu a bell.\" Rannañ a ra he zamm gant Fulup, ha laouen eo Fulup.\n\nSellet a ra Benead ouzh e bried. Soñjal a ra: ur wreg vat en deus. Laora eo pried Benead bremañ: e wreg eo.\n\nGoulennoù:\nHa dimeziñ a ra Laora ha Benead hiziv?\nYa, dimeziñ a ra Laora ha Benead hiziv e Pempoull.\nHa tud kozh a zo e-touez an dud?\nYa, e-touez an dud ez eus tud kozh ha bugale.\nHa rannañ a ra Laora ha Benead ar wastell?\nYa, rannañ a reont ar wastell etre an holl.\nPetra a c'hoarvez pa zeu Fulup?\nPa zeu Fulup, n'eus nemet an tamm diwezhañ.\nHa Fulup a gred ez eus un tamm evitañ?\nNe gred ket. Fulup a gred n'eus tamm ebet evitañ."
+    },
+    {
+      "title": "Ar vaouez alaman",
+      "summary": "Gurvan, a student in Roazhon, helps a German customer in English at the shop where he works.",
+      "newWords": [
+        "studiañ",
+        "skol-veur",
+        "latin",
+        "galleg",
+        "gallek",
+        "saozneg",
+        "alaman",
+        "koulz",
+        "hepken",
+        "e-unan"
+      ],
+      "text": "Gurvan a zo ur paotr yaouank eus Gwengamp. Bremañ e vev e-unan e Roazhon, rak studiañ a ra er skol-veur. Er skol-veur e tesk al latin hag ar galleg. Al latin a zo ur yezh kozh.\n\nGant e familh e komz Gurvan brezhoneg. Komz a ra brezhoneg koulz ha galleg, ha komz a ra saozneg ivez.\n\nBep sadorn e labour Gurvan en ur stal vihan e kreiz Roazhon. E-unan e labour er stal.\n\nHiziv e teu ur vaouez alaman d'ar stal. Ne gomz ket galleg: saozneg hepken a gomz. Gurvan a gomz saozneg ganti, ha kinnig a ra dezhi traoù mat eus Breizh: bara, amann ha sistr.\n\nAr vaouez alaman he deus ul levr gallek war Vreizh. Ne gompren ket ar gerioù gallek. Gurvan a lenn al levr evit ar vaouez, ha lavaret a ra dezhi e saozneg ar pezh a zo skrivet.\n\n\"Mat eo komz meur a yezh!\" a lavar ar vaouez. Gurvan a zo laouen: saozneg a gomz koulz ha galleg.\n\nGoulennoù:\nPetra a ra Gurvan e Roazhon?\nStudiañ a ra Gurvan er skol-veur.\nHa gant e familh e vev Gurvan?\nNe vev ket gant e familh: bevañ a ra e-unan.\nPetra a gomz ar vaouez alaman?\nSaozneg hepken a gomz ar vaouez alaman.\nPetra a ra Gurvan gant al levr gallek?\nLenn a ra al levr gallek evit ar vaouez."
+    },
+    {
+      "title": "Ul levr evit Yuna",
+      "summary": "Bernez buys a book and a children's art magazine for his daughter in a Lannuon bookshop.",
+      "newWords": [
+        "kelaouenn",
+        "embann",
+        "pennad",
+        "skeudenn",
+        "skrivagner",
+        "priñs",
+        "pouezus",
+        "arz",
+        "bennak"
+      ],
+      "text": "Bernez a zo e Lannuon. C'hoant en deus da brenañ un dra bennak evit e verc'h vihan, Yuna. Mont a ra d'ur stal levrioù.\n\n\"Un dra bennak evit ur bugel?\" a c'houlenn ar werzherez. Ar werzherez a ginnig ul levr dezhañ: Ar Priñs Bihan. Istor ur priñs yaouank eo. Skrivagner al levr a zo brudet: ur skrivagner gall eo, met al levr a zo e brezhoneg ivez. E-barzh al levr ez eus kalz a skeudennoù.\n\n\"Lenn a zo pouezus evit ar vugale,\" a lavar ar werzherez.\n\nAr werzherez a ginnig ur gelaouenn ivez: ur gelaouenn arz evit ar vugale. Bep miz e embann ar gelaouenn pennadoù war an arz, ha skeudennoù graet gant bugale. Er gelaouenn-se ez eus ur pennad war al livañ.\n\nSellet a ra Bernez ouzh ar skeudennoù. Mat int. Bernez a gav ivez ez eo pouezus lenn. Prenañ a ra al levr hag ar gelaouenn.\n\nD'an noz e lenn Bernez Ar Priñs Bihan gant Yuna. Goude e chom Yuna pell o sellet ouzh skeudennoù ar gelaouenn.\n\nGoulennoù:\nHa c'hoant en deus Bernez da gaout un dra bennak evit Yuna?\nYa, c'hoant en deus da gaout un dra bennak evit e verc'h.\nPetra eo Ar Priñs Bihan?\nIstor ur priñs yaouank eo.\nPetra a embann ar gelaouenn bep miz?\nBep miz e embann ar gelaouenn pennadoù war an arz.\nHa Bernez a gav ez eo pouezus lenn?\nYa, Bernez a gav ez eo pouezus lenn."
+    },
+    {
+      "title": "Ar pardon",
+      "summary": "Eflamm goes with his grandmother to the pardon of Sant Maodez and loses her in the crowd.",
+      "newWords": [
+        "sant",
+        "doue",
+        "le",
+        "distreiñ",
+        "koll",
+        "kuit",
+        "dirak",
+        "abeg",
+        "peogwir",
+        "miret"
+      ],
+      "text": "Riwanon eo mamm-gozh Eflamm. Bep bloaz ez a Riwanon da bardon Sant Maodez. Eflamm a c'houlenn an abeg. Mont a ra Riwanon peogwir he deus ul le d'ar sant: mont d'ar pardon bep bloaz.\n\nHiziv ez a Eflamm ganti. Kalz a dud a zo dirak an iliz.\n\nRiwanon a ya e-barzh an iliz da gomz gant Doue ha gant ar sant. Eflamm a chom er-maez. Goude ur pennad e koll Eflamm Riwanon e-touez an dud!\n\nKlask a ra anezhi pell, met ne gav ket anezhi. Neuze e kav anezhi e-barzh an iliz, dirak skeudenn ar sant, o komz gant Doue.\n\nRiwanon a ro ur skeudenn vihan eus ar sant da Eflamm. Eflamm a gav ez eo pouezus ar skeudenn. Miret a ra anezhi en e levr.\n\nGoude ar pardon ez a an dud kuit. Riwanon hag Eflamm a ya kuit ivez. Distreiñ a reont d'ar gêr.\n\nGoulennoù:\nHa Riwanon he deus un abeg da vont d'ar pardon?\nYa, mont a ra peogwir he deus ul le d'ar sant.\nHa Eflamm a goll Riwanon e-touez an dud?\nYa, Eflamm a goll Riwanon e-touez an dud.\nPelec'h e kav Eflamm Riwanon?\nKavout a ra anezhi dirak skeudenn ar sant.\nPetra a ra Eflamm gant ar skeudenn?\nMiret a ra anezhi en e levr.\nHa distreiñ a ra Riwanon hag Eflamm d'ar gêr?\nYa, distreiñ a reont d'ar gêr."
+    },
+    {
+      "title": "Priz al laezh",
+      "summary": "Edern and other farmers go to Kemper to fight for a fair milk price, and a new law helps them.",
+      "newWords": [
+        "stourm",
+        "lezenn",
+        "politikel",
+        "prezidant",
+        "broadel",
+        "milion",
+        "gounit",
+        "difenn",
+        "pal"
+      ],
+      "text": "Edern en deus loened tost da Bondi, ha gwerzhañ a ra o laezh. Met izel eo priz al laezh. Edern a labour bep devezh, met ne c'hounez ket a-walc'h a arc'hant.\n\nHiziv ez a Edern da Gemper gant tud all eus ar vro. Mont a reont da stourm evit priz al laezh. Pal ar stourm eo gounit muioc'h a arc'hant evit al laezh. \"Ur pal mat eo,\" a lavar Edern.\n\nAr stourm-se a zo politikel ivez: an dud politikel a zeu da welet al loened e kreiz Kemper. Milionoù a dud a ev laezh bep devezh e Bro-C'hall. Ar priz a zo pouezus evit milionoù a dud.\n\nE Pariz, prezidant Bro-C'hall a gomz eus ar stourm. Ar gouarnamant a ginnig ul lezenn nevez. Ul lezenn vroadel eo, evit an holl vro. Difenn a ra ar prezidant al lezenn nevez, ha Edern a zifenn anezhi ivez.\n\nGant al lezenn vroadel e c'hounez Edern muioc'h a arc'hant bremañ. Mat eo ar stourm evitañ.\n\nGoulennoù:\nHa gwerzhañ a ra Edern laezh?\nYa, Edern a werzh laezh e loened.\nHa pal ar stourm eo gounit muioc'h a arc'hant?\nYa, pal ar stourm eo gounit muioc'h a arc'hant evit al laezh.\nHa prezidant Bro-C'hall a gomz eus ar stourm?\nYa, prezidant Bro-C'hall a gomz eus ar stourm e Pariz.\nHa kinnig a ra ar gouarnamant ul lezenn?\nYa, ar gouarnamant a ginnig ul lezenn vroadel nevez."
+    },
+    {
+      "title": "Ar fav",
+      "summary": "Tereza buys a king cake, and her son Dewi finds the bean and is king for the evening.",
+      "newWords": [
+        "kastell",
+        "dug",
+        "lez",
+        "rouantelezh",
+        "impalaer",
+        "trec'h",
+        "kent",
+        "dibenn",
+        "urzh",
+        "a-bezh"
+      ],
+      "text": "Tereza a bren ur wastell evit he bugale, Dewi ha Mikaela. E-barzh ar wastell ez eus ur fav. An hini a gav ar fav a zo roue.\n\nKent debriñ e c'hoari ar vugale. Ur c'hastell bihan o deus. Dewi a c'hoari an impalaer, ha Mikaela a c'hoari an dugez. An ti a-bezh a zo o rouantelezh, ha Tereza a zo o lez.\n\nNeuze e lavar Tereza: \"Met kent, ret eo lakaat urzh!\" Mikaela a ya dindan an daol hag a lavar an urzh: \"Evit Dewi! Evit mamm! Evit Mikaela!\" Tereza a ro an tammoù en urzh-se.\n\nDewi a gav ar fav. Trec'h eo Dewi! N'eo ket impalaer ken: roue eo bremañ. \"Trec'h on!\" a lavar.\n\nDebriñ a reont ar wastell a-bezh. E dibenn ar pred ez a Dewi d'e gastell bihan. Ur rouantelezh vihan eo, met Dewi eo ar roue. E dibenn an devezh eo c'hoazh roue, hag an holl a zo e lez.\n\nGoulennoù:\nHa Tereza he deus bugale?\nYa, Tereza he deus daou vugel: Dewi ha Mikaela.\nHa c'hoari a ra ar vugale kent debriñ?\nYa, kent debriñ e c'hoari ar vugale: Dewi eo an impalaer ha Mikaela eo an dugez.\nHa Mikaela a lavar an urzh?\nYa, Mikaela a lavar an urzh.\nHa trec'h eo Dewi?\nYa, trec'h eo Dewi: kavout a ra ar fav."
+    },
+    {
+      "title": "Ar fest-noz",
+      "summary": "Eozen makes crêpes at a fest-noz by the river in Landerne while the musicians play.",
+      "newWords": [
+        "seniñ",
+        "son",
+        "stêr",
+        "digant",
+        "koulskoude",
+        "danvez",
+        "par"
+      ],
+      "text": "Hiziv ez eus ur fest-noz e Landerne, tost d'ar stêr. Eozen he deus ur stal eno: ober a ra krampouezh.\n\nAn danvez a zeu digant tud ar vro. Mat eo an danvez, ha mat eo krampouezh Eozen.\n\nDaou soner a zo war an tu all. Seniñ a reont sonioù kozh eus Breizh, hag an dud a zañs tost d'ar stêr. Gwion eo anv unan eus an daou soner. Evit seniñ n'en deus ket e bar.\n\nC'hoant he deus Eozen da zañsal ivez. Koulskoude ne c'hall ket: labourat a ra.\n\nE dibenn an noz e teu Gwion d'ar stal. Debriñ a ra krampouezh Eozen. \"N'o deus ket o far!\" a lavar.\n\nNeuze e kinnig Gwion ur son da Eozen: seniñ a ra ur son eviti. Labourat a ra Eozen c'hoazh. Koulskoude e tañs un tamm gant ar son-se.\n\nGoulennoù:\nHa tost d'ar stêr emañ ar fest-noz?\nYa, emañ ar fest-noz e Landerne, tost d'ar stêr.\nHa digant tud ar vro e teu an danvez?\nYa, an danvez a zeu digant tud ar vro.\nPetra a ra an daou soner?\nSeniñ a reont sonioù kozh eus Breizh.\nHa Eozen a c'hall mont gant an dud tost d'ar stêr?\nNe c'hall ket: labourat a ra.\nPetra a ra Gwion evit Eozen?\nSeniñ a ra ur son evit Eozen."
+    }
+  ]
+}
