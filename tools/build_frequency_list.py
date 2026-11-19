@@ -54,6 +54,7 @@ from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_dictionary import to_serbian_cyrillic  # noqa: E402
+import frequency_kannada  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DICTIONARIES = os.path.join(ROOT, "dictionaries")
@@ -126,6 +127,8 @@ SOURCE_ORDER["is"] = ["wordfreq", "frequencywords"]
 # And Persian: its Wikipedia, much of it pages on villages and asteroids, adds their words ("دهستان", "سیارک",
 # "سرشماری") and its headings' ("منبع", "پیوند", "وابسته") to the first thousand.
 SOURCE_ORDER["fa"] = ["wordfreq", "frequencywords"]
+# Kannada is counted from its Wikipedia alone, which neither wordfreq nor FrequencyWords has (frequency_kannada).
+SOURCE_ORDER["kn"] = ["leipzig"]
 # Languages whose sources are all blended, however many forms the first has.
 BLEND = {"ko"}
 # Galician is counted from subtitles alone, as its list was first built (wordfreq has no Galician, and the Wikipedia
@@ -4318,6 +4321,9 @@ def build(language, source, size):
         return build_arabic(found, size)
     if language == "he":
         return build_hebrew(found, size)
+    if language == "kn":
+        label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
+        return frequency_kannada.build(found, size, label)
     return build_list(language, found, size)
 
 
