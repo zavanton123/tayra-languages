@@ -76,7 +76,9 @@
     "Dāvis",
     "Dāvi",
     "Latvija",
-    "Latviju"
+    "Latviju",
+    "Oskar",
+    "Vecrīga"
   ],
   "lessons": [
     {
@@ -182,10 +184,9 @@
       "text": "Laura ir mājās. Viņas draugs Artūrs teica: „Es nākšu pie tevis.” Bet kad? To viņš neteica.\n\nLaura domā: „Kad Artūrs nāks? Ja viņš nāks tagad, tad mēs varēsim iet uz Vecrīgu.”\n\nArtūrs nenāk. Laura domā: „Kāds viņš ir! Viņš teica, ka nāks, bet nenāk. Ja viņš nenāks, es iešu viena.”\n\nTad Artūrs nāk. Viņš saka: „Laura, es jau esmu te! Es nāku ar Kristapu. Kristaps ir mans draugs.”\n\nLaura saka: „Paldies, ka tu nāci! Un labi, ka tu esi te, Kristap!”\n\nKristaps saka: „Paldies! Artūrs teica, ka tu esi laba draudzene.”\n\nLaura domā: „Viss ir labi. Kāda laba diena!”\n\nJautājumi:\nKo teica Artūrs?\nArtūrs teica: „Es nākšu pie tevis.”\nKo domā Laura?\nLaura domā: „Kad Artūrs nāks?”\nAr ko nāk Artūrs?\nArtūrs nāk ar Kristapu.\nKo teica Kristaps?\nKristaps teica: „Paldies!”"
     },
     {
-      "title": "Kāpēc tu nerunā?",
-      "summary": "Gatis comes home silent; his mother tells him to talk to the boy who upset him, and it works.",
+      "title": "Kāpēc tu neko nesaki?",
+      "summary": "Gatis comes home silent; his mother tells him to go and see the friend who upset him, and it works.",
       "newWords": [
-        "runāt",
         "kāpēc",
         "jūs",
         "kurš",
@@ -195,15 +196,16 @@
         "vajadzēt",
         "notikt",
         "mēs",
-        "viņi"
+        "viņi",
+        "sevi"
       ],
-      "text": "Gatis nāk mājās. Viņš nerunā. Viņa mamma Inese saka: „Gati, kāpēc tu nerunā? Kas notika?”\n\nGatis saka: „Es negribu runāt.”\n\nInese saka: „Kāpēc? Kas notika ar tevi?”\n\nGatis saka: „Raivis un Emīls teica, ka viņi negrib būt ar mani. Kāpēc? Es nezinu.”\n\nInese saka: „Tev vajag runāt ar viņiem, jo tu nezini, kāpēc viņi tā teica. Kurš no viņiem ir tavs draugs?”\n\nGatis saka: „Raivis, jo mēs esam kopā no pirmās dienas.”\n\nInese saka: „Tad runā ar Raivi. Ja jūs nerunājat, jūs nevarat būt draugi.”\n\nGatis vēl domā. Tad viņš iet līdz Raivja mājai un runā ar Raivi.\n\nPēc tam Gatis nāk mājās, un viņš runā un runā: „Es runāju ar Raivi! Viņš teica, ka es esmu labs draugs. Mēs vēl esam draugi!”\n\nInese saka: „Redzi! Vajadzēja tikai runāt.”\n\nJautājumi:\nKāpēc Gatis nerunā?\nRaivis un Emīls teica, ka negrib būt ar viņu.\nKurš ir Gata draugs?\nRaivis ir Gata draugs.\nKo saka Inese?\nInese saka: „Tev vajag runāt ar viņiem.”\nKur iet Gatis?\nGatis iet līdz Raivja mājai."
+      "text": "Gatis nāk mājās. Viņa mamma Inese saka: „Gati, kāpēc tu neko nesaki? Kas notika?”\n\nGatis saka: „Es negribu neko teikt.”\n\nInese saka: „Kas notika ar tevi?”\n\nGatis saka: „Raivis un Emīls teica, ka viņi negrib būt ar mani. Viņi teica, ka es domāju tikai par sevi. Kāpēc? Es nezinu.”\n\nInese saka: „Tev vajag iet pie viņiem, jo tu nezini, kāpēc viņi tā teica. Kurš no viņiem ir tavs draugs?”\n\nGatis saka: „Raivis, jo mēs esam kopā no pirmās dienas.”\n\nInese saka: „Tad ej pie Raivja un saki viņam to. Ja jūs neko nesakāt, jūs nevarat būt draugi.”\n\nGatis vēl domā. Tad viņš iet līdz Raivja mājai.\n\nPēc tam Gatis nāk mājās un saka: „Es biju pie Raivja! Viņš teica, ka es esmu labs draugs. Mēs vēl esam draugi!”\n\nInese saka: „Redzi! Vajadzēja tikai iet pie viņa.”\n\nJautājumi:\nKāpēc Gatis neko nesaka?\nRaivis un Emīls teica, ka negrib būt ar viņu.\nKo vēl teica Raivis un Emīls?\nViņi teica, ka Gatis domā tikai par sevi.\nKurš ir Gata draugs?\nRaivis ir Gata draugs.\nKur iet Gatis?\nGatis iet līdz Raivja mājai."
     },
     {
-      "title": "Es nesaprotu",
-      "summary": "In Riga a man from abroad asks Oskars's father the way, and Oskars wants to understand other people too.",
+      "title": "Ko viņš saka?",
+      "summary": "In Riga a man from abroad asks Oskars's father the way, and Oskars wants to know many words too.",
       "newWords": [
-        "saprast",
+        "vārds",
         "cits",
         "gan",
         "tik",
@@ -214,13 +216,13 @@
         "ne",
         "arī"
       ],
-      "text": "Oskars un viņa tētis Normunds ir Rīgā. Tur ir tik daudz cilvēku! Pie viņiem nāk cilvēks. Viņš kaut ko saka, bet Oskars neko nesaprot.\n\nOskars saka: „Tēt, ko viņš saka? Es nesaprotu.”\n\nNormunds saka: „Viņš nav no Latvijas. Viņš runā citā valodā.”\n\nNormunds runā ar cilvēku. Tad viņš saka Oskaram: „Nu, es saprotu. Viņš grib iet uz Vecrīgu, bet nezina, kur tā ir.”\n\nOskars saka: „Nu? Tu saproti gan mani, gan viņu?”\n\nNormunds saka: „Jā. Es to valodu zinu tikai mazliet, bet tas nekas.”\n\nCilvēks saka: „Paldies, paldies!” Viņš iet uz Vecrīgu.\n\nOskars saka: „Tēt, es arī gribu tik daudz zināt, lai es varētu saprast ne tikai tevi, bet arī citus cilvēkus.”\n\nNormunds saka: „Tas ir ļoti labi. Lai tā būtu! Ne viss ir tik grūti.”\n\nJautājumi:\nKas nāk pie Oskara un Normunda?\nPie viņiem nāk cilvēks.\nKāpēc Oskars nesaprot cilvēku?\nCilvēks runā citā valodā.\nKur grib iet cilvēks?\nViņš grib iet uz Vecrīgu.\nKo grib Oskars?\nOskars grib saprast citus cilvēkus."
+      "text": "Oskars un viņa tētis Normunds ir Rīgā. Pie viņiem nāk cilvēks. Viņš kaut ko saka, bet Oskars nezina, ko viņš saka.\n\nOskars saka: „Tēt, ko viņš saka? Es nezinu.”\n\nNormunds saka: „Tas nekas, Oskar. Viņš nav no Latvijas. Viņš runā citā valodā.”\n\nNormunds kaut ko saka cilvēkam citā valodā. Tad viņš saka Oskaram: „Nu, tagad es zinu. Viņš grib iet uz Vecrīgu, bet nezina, kur tā ir. Viņš zina tikai vienu mūsu vārdu: „Vecrīga”.”\n\nOskars saka: „Nu? Tu zini gan mūsu valodu, gan viņa?”\n\nNormunds saka: „Jā. Viņa valodu es zinu tikai mazliet, bet tas nekas.”\n\nCilvēks saka: „Paldies, paldies!” Viņš iet uz Vecrīgu.\n\nOskars saka: „Tēt, es arī gribu zināt tik daudz vārdu, lai es zinātu, ko saka citi cilvēki! Ne tikai mūsu, bet arī citus.”\n\nNormunds saka: „Tas ir ļoti labi. Lai tā būtu! Ne viss ir tik grūti.”\n\nJautājumi:\nKas nāk pie Oskara un Normunda?\nPie viņiem nāk cilvēks.\nKāpēc Oskars nezina, ko cilvēks saka?\nCilvēks runā citā valodā.\nKādu vārdu zina cilvēks?\nViņš zina tikai vienu vārdu: „Vecrīga”.\nKo grib Oskars?\nOskars grib zināt daudz vārdu."
     },
     {
       "title": "Kur tā ir?",
-      "summary": "Evija cannot find her new thing; her brother Rihards saw something like it, and they find it together.",
+      "summary": "Evija cannot see her new thing anywhere; her brother Rihards saw something like it, and they find it together.",
       "newWords": [
-        "atrast",
+        "šeit",
         "lieta",
         "tāds",
         "savs",
@@ -231,23 +233,23 @@
         "kas",
         "tur"
       ],
-      "text": "Evija nevar atrast savu jauno lietu. Viņa iet pa māju un domā: „Kas notika? Tā taču bija te!”\n\nRihards ir Evijas brālis. Viņš saka: „Evija, kas tev ir?”\n\nEvija saka: „Es nevaru atrast savu lietu. Tāda liela un jauna. Tu to neredzēji?”\n\nRihards saka: „Tāda liela? Es redzēju kaut ko tādu tur, pie durvīm.”\n\nViņi iet pa māju uz to vietu. Un tur tā ir! Evija saka: „Tā ir te! Bet kā tā tika te? Es pati to te neliku.”\n\nRihards saka: „Es taču nezinu. Varbūt tu pati to te liki un tagad neatceries.”\n\nEvija saka: „Varbūt. Bet tagad tā ir te, un viss ir labi. Paldies, Rihard!”\n\nJautājumi:\nKo Evija nevar atrast?\nEvija nevar atrast savu jauno lietu.\nKas ir Rihards?\nRihards ir Evijas brālis.\nKo redzēja Rihards?\nRihards redzēja kaut ko tādu pie durvīm.\nKā lieta tika pie durvīm?\nEvija to nezina."
+      "text": "Evija nevar redzēt savu jauno lietu. Viņa iet pa māju un domā: „Kas notika? Tā taču bija šeit!”\n\nRihards ir Evijas brālis. Viņš saka: „Evija, kas tev ir?”\n\nEvija saka: „Es nevaru redzēt savu lietu. Tāda liela un jauna. Tu to neredzēji?”\n\nRihards saka: „Tāda liela? Es redzēju kaut ko tādu tur, pie durvīm.”\n\nViņi iet pa māju uz to vietu. Un tur tā ir! Evija saka: „Tā ir šeit! Bet kā tā tika šeit? Es pati to šeit neliku.”\n\nRihards saka: „Es taču nezinu. Varbūt tu pati to šeit liki un tagad neatceries.”\n\nEvija saka: „Varbūt. Bet tagad tā ir šeit, un viss ir labi. Paldies, Rihard!”\n\nJautājumi:\nKo Evija nevar redzēt?\nEvija nevar redzēt savu jauno lietu.\nKas ir Rihards?\nRihards ir Evijas brālis.\nKo redzēja Rihards?\nRihards redzēja kaut ko tādu pie durvīm.\nKā lieta tika pie durvīm?\nEvija to nezina."
     },
     {
       "title": "Pirmā diena",
-      "summary": "Elīna's first day at school: the children say their names, and the teacher talks about the world and Latvia.",
+      "summary": "Elīna's first day at school: the children say their names, and the teacher tells them about the world and Latvia.",
       "newWords": [
         "valsts",
         "pasaule",
         "katrs",
-        "sākt",
+        "dzīve",
         "pirms",
         "pat",
         "tāpēc",
         "otrs",
         "par"
       ],
-      "text": "Šī ir Elīnas pirmā diena skolā. Pirms skolas Elīna domā: „Kas tur būs? Ko mēs darīsim?”\n\nSkolā ir daudz bērnu. Viņu skolotāja ir Baiba. Baiba saka: „Tagad mēs sākam. Pirmā lieta: katrs bērns saka savu vārdu.”\n\nPirmais bērns saka: „Es esmu Dāvis.” Otrais bērns saka: „Es esmu Elīna.” Tā katrs bērns saka savu vārdu.\n\nTad Baiba saka: „Otrā lieta: mēs runāsim par pasauli.” Viņa sāk runāt par pasauli: „Pasaule ir ļoti liela. Pasaulē ir daudz valstu. Latvija ir viena valsts. Tā nav liela valsts, bet tā ir mūsu valsts.”\n\nDāvis saka: „Mans tētis ir no citas valsts, tāpēc es zinu divas valstis!”\n\nBaiba saka: „Ļoti labi, Dāvi! Tāpēc tu zini vairāk.”\n\nElīna domā: „Te ir labi. Pat ļoti labi!”\n\nJautājumi:\nKo Elīna domā pirms skolas?\nElīna domā: „Kas tur būs?”\nKo saka katrs bērns?\nKatrs bērns saka savu vārdu.\nPar ko runā Baiba?\nBaiba runā par pasauli un par Latviju.\nKāda valsts ir Latvija?\nLatvija nav liela valsts, bet tā ir mūsu valsts. Pat ļoti laba valsts!"
+      "text": "Šī ir Elīnas pirmā diena skolā. Pirms skolas Elīna domā: „Kas tur būs? Ko mēs darīsim?”\n\nSkolā ir daudz bērnu. Viņu skolotāja ir Baiba. Baiba saka: „Nu, bērni! Šī ir liela diena jūsu dzīvē. Pirmā lieta: katrs bērns saka savu vārdu.”\n\nPirmais bērns saka: „Es esmu Dāvis.” Otrais bērns saka: „Es esmu Elīna.” Tā katrs bērns saka savu vārdu.\n\nTad Baiba saka: „Otrā lieta: tagad par pasauli.” Viņa saka: „Pasaule ir ļoti liela. Pasaulē ir daudz valstu. Latvija ir viena valsts. Tā nav liela valsts, bet tā ir mūsu valsts.”\n\nDāvis saka: „Mans tētis ir no citas valsts, tāpēc es zinu divas valstis!”\n\nBaiba saka: „Ļoti labi, Dāvi! Tāpēc tu zini vairāk.”\n\nElīna domā: „Šī ir mana jaunā dzīve. Te ir labi. Pat ļoti labi!”\n\nJautājumi:\nKo Elīna domā pirms skolas?\nElīna domā: „Kas tur būs?”\nKo saka katrs bērns?\nKatrs bērns saka savu vārdu.\nKo Baiba saka par pasauli?\nPasaule ir ļoti liela, un tajā ir daudz valstu.\nKāda valsts ir Latvija?\nLatvija nav liela valsts, bet tā ir mūsu valsts. Pat ļoti laba valsts!"
     }
   ]
 }
