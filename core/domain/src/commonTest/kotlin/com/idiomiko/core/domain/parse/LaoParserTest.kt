@@ -36,11 +36,11 @@ class LaoParserTest {
         assertEquals(listOf("ຂອງ", "ຄວາມ"), words("ຂອງຄວາມ"))
         assertEquals(listOf("ຢູ່", "ສວນ"), words("ຢູ່ສວນ"))
         assertEquals(listOf("ຫຼາຍ", "ຄົນ", "ງາມ"), words("ຫຼາຍຄົນງາມ"))
+        // Where the syllables can be cut either way, the likelier words win: ຫາກ + ວ່າ "if", not ຫາ + ກວ່າ.
+        assertEquals(listOf("ຫາກ", "ວ່າ"), words("ຫາກວ່າ"))
         // The letter after a vowel written before it has its vowel: ເທດ ends with ດ, and a word may end there.
         Lexicons.set("lo", Lexicon(listOf("ປະ", "ປະເທດ", "ໄທ", "ເທດໄທ"), mapOf("ປະເທດ" to 150, "ໄທ" to 40, "ປະ" to 900)))
         assertEquals(listOf("ປະເທດ", "ໄທ"), words("ປະເທດໄທ"))
-        // Where the syllables can be cut either way, the likelier words win: ຫາກ + ວ່າ "if", not ຫາ + ກວ່າ.
-        assertEquals(listOf("ຫາກ", "ວ່າ"), words("ຫາກວ່າ"))
     }
 
     /** ບໍ່ joins no word after it, ວ່າ and ຢູ່ none before them, however the lexicon has them; ກໍ່ begins words of its own. */
