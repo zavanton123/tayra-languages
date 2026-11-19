@@ -2771,19 +2771,22 @@ EXCLUDE["ms"] = {"you", "as"}
 
 # Azerbaijani: the forms table files common nouns under a verb spelled alike (gül "flower" under gülmək, yataq "bed",
 # at "horse", açar "key") or under a commoner noun (hissə "part" under hiss, tələbə "student" under tələb); they are
-# words of their own. Verb forms the dictionary also has as a little word (çıx "minus", bildir "last year") or as
-# another word's form (deyən, görən; olar of onlar) go to their verb; gələn "next" is mostly gəlmək's participle.
+# words of their own, sharing a form that is as often the verb's (qala "castle" and "may stay"). Verb forms the
+# dictionary also has as a little word (çıx "minus", bildir "last year") or as another word's form (deyən, görən; olar
+# of onlar) go to their verb; gələn "next" is mostly gəlmək's participle.
 OVERRIDES["az"] = {
-    **{form: ["qala"] for form in "qala qalası".split()},
+    "qala": ["qala", "qalmaq"], "qalası": ["qala"],
     **{form: ["keçmiş"] for form in "keçmiş keçmişdə keçmişi keçmişin keçmişinə keçmişini keçmişə".split()},
     **{form: ["ölüm"] for form in "ölüm ölümü ölümünə ölümündən ölümə ölümdən ölümünün ölümünü ölümün ölümündə".split()},
-    **{form: ["açar"] for form in "açar açarı açarın açarları açarlar açarının açara açarlarını".split()},
+    "açar": ["açar", "açmaq"],
+    **{form: ["açar"] for form in "açarı açarın açarları açarlar açarının açara açarlarını".split()},
     **{form: ["dayanacaq"] for form in "dayanacaq dayanacaqda dayanacağında dayanacağı dayanacağın dayanacağına dayanacağa".split()},
     **{form: ["at"] for form in "at atın atlara atı atlar atları atım atımı atını atların".split()},
     **{form: ["seçim"] for form in "seçim seçimi seçimin seçimimiz seçimim seçimlər seçimlərini seçimini seçiminə".split()},
     **{form: ["iç"] for form in "içinə içindən iç içini içimdə içi içimə içdən içimizdə içlərində içimdən içim".split()},
     **{form: ["yataq"] for form in "yataq yataqda yatağında yatağı yatağa yatağının yataqları yatağına yataqlarının yatağın yatağından yatağını yataqlar yataqlarında yatağımda yataqların".split()},
-    **{form: ["axır"] for form in "axır axırda axırına axıra axırı axırında axırlarında axırını axırıma".split()},
+    "axır": ["axır", "axmaq"],
+    **{form: ["axır"] for form in "axırda axırına axıra axırı axırında axırlarında axırını axırıma".split()},
     **{form: ["axın"] for form in "axını axın axınını axınının axına axının axınına axınları axınlarını axınında axınlarının".split()},
     **{form: ["gül"] for form in "gül gülləri güllər gülün gülü güllərdən güllərin güllərə güldən".split()},
     **{form: ["qorxaq"] for form in "qorxaq qorxağın qorxağa".split()},
@@ -2797,7 +2800,7 @@ OVERRIDES["az"] = {
     **{form: ["vuruş"] for form in "vuruş vuruşu vuruşda vuruşa vuruşuna vuruşum vuruşunuz vuruşun vuruşlar".split()},
     **{form: ["dad"] for form in "dad dadına dada dadını dadından dadın dadların dadıma dadları dadının dadınıza dadında dadlara".split()},
     **{form: ["inci"] for form in "inci inciləri incisi incidə incilərindən incilərini incilər incilərinin incidən inciyə incilərinə incinin incilərimizə".split()},
-    **{form: ["yaz"] for form in "yaz yazda".split()},
+    "yaz": ["yaz", "yazmaq"], "yazda": ["yaz"],
     **{form: ["yazar"] for form in "yazar yazarı yazarlar yazarların".split()},
     **{form: ["oturacaq"] for form in "oturacaq oturacağı oturacaqları oturacağa oturacaqda oturacaqlar oturacağın oturacağında oturacağını".split()},
     **{form: ["qazan"] for form in "qazan qazanım qazanı".split()},
@@ -2820,4 +2823,8 @@ OVERRIDES["az"] = {
     ["demək"], "görən": ["görmək"], "gələn": ["gəlmək"], "olar": ["olmaq"], "salam": ["salam"],
     **{form: ["qalmaq"] for form in "qalan qalanın qalanı qalanları qalana qalanlar qalanda".split()},
     "gülə": ["gülmək"], "içə": ["içmək"], "yaza": ["yazmaq"], "aşa": ["aşmaq"], "köçə": ["köçmək"], "enə": ["enmək"],
+    # da "too" is də after a back vowel, which the dictionary lacks; xala "aunt" and dolma are no forms of xal and dolmaq,
+    # and altı is "six" as often as alt's "its bottom".
+    "da": ["də"], "dolma": ["dolma"], "altı": ["altı", "alt"],
+    **{form: ["xala"] for form in "xala xalam xalan xalası xalamın xalasının xalama xalasına xalamgil xalagil".split()},
 }
