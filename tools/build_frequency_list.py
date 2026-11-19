@@ -55,6 +55,7 @@ from collections import defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_dictionary import to_serbian_cyrillic  # noqa: E402
 import frequency_kannada  # noqa: E402
+import frequency_bengali  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DICTIONARIES = os.path.join(ROOT, "dictionaries")
@@ -66,7 +67,7 @@ LANGUAGES = [
     "be", "bg", "ca", "cs", "da", "de", "el", "en", "es", "et", "fi", "fr", "gl", "hr", "hu", "is",
     "it", "la", "lt", "lv", "mk", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sl", "sr", "sv", "tr",
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
-    "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn",
+    "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "th", "lo", "km", "zh", "yue", "ja", "ko", "ms",
 ]
 
@@ -5121,6 +5122,9 @@ def build(language, source, size):
     if language == "kn":
         label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
         return frequency_kannada.build(found, size, label)
+    if language == "bn":
+        label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
+        return frequency_bengali.build(found, size, label)
     return build_list(language, found, size)
 
 

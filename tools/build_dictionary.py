@@ -257,6 +257,27 @@ def clean_bengali(word):
     return word
 
 
+def bengali_translation_entries(kept):
+    """
+    The Bengali words the English Wiktionary's translation tables give that its Bengali entries lack (নেতা "leader", ঘন্টা
+    "hour"), by part of speech, each glossed with the English words it translates: word -> pos -> glosses.
+    """
+    entries = defaultdict(lambda: defaultdict(list))
+    with open_text(SOURCES["en"][2]) as f:
+        for line in f:
+            if '"code": "bn"' not in line:
+                continue
+            d = json.loads(line)
+            for t in d.get("translations", []):
+                word = clean_bengali(t.get("word", "")) if t.get("code") == "bn" else ""
+                if not word or word in kept or not BENGALI_WORD_RE.match(word):
+                    continue
+                gloss = d["word"] + (f" ({t['sense']})" if t.get("sense") else "")
+                if gloss not in entries[word][d.get("pos") or "unknown"]:
+                    entries[word][d.get("pos") or "unknown"].append(gloss)
+    return entries
+
+
 # How each source's spellings are normalised before matching, when it needs it at all.
 CLEANERS = {"bn": clean_bengali, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length}
 
@@ -609,11 +630,19 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
             if len(entry_rows) >= 5000 or len(form_rows) >= 50000:
                 flush()
     flush()
+    label = f"English Wiktionary {SOURCES[source][0]} entries via kaikki.org"
+    if source == "bn":
+        kept = {w for (w,) in db.execute("SELECT word FROM entries")}
+        for word, by_pos in sorted(bengali_translation_entries(kept).items()):
+            for pos, glosses in sorted(by_pos.items()):
+                senses = [{"glosses": [g]} for g in glosses]
+                entry_rows.append((next_id, word, lowercase(word, source), pos, None, json.dumps(senses, ensure_ascii=False, separators=(",", ":"))))
+                next_id += 1
+                entry_count += 1
+        flush()
+        label += " and its English entries' translation tables"
     db.execute("DROP INDEX forms_unique")
-    finish_output(
-        db, path, out_path, source, "en", entry_count, form_count,
-        f"English Wiktionary {SOURCES[source][0]} entries via kaikki.org",
-    )
+    finish_output(db, path, out_path, source, "en", entry_count, form_count, label)
     print(f"Wrote {out_path}: {entry_count:,} entries, {form_count:,} form rows ({pointer_count:,} from form-of senses)", file=sys.stderr)
     inflected_by_pos = Counter(pos for pos, _ in pos_inflected)
     for pos in ("noun", "verb", "adj"):
