@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Latvian word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `lv-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 6,630 words, so the courses run from
-`lv-mini-0100` to `lv-mini-6700` (the last band holds 30 words).
+`themes.tsv` gives each course its theme. The list has 6,757 words, so the courses run from
+`lv-mini-0100` to `lv-mini-6800` (the last band holds 57 words).
 
 ## What the lessons are: mini stories
 
@@ -81,7 +81,7 @@ story; a lesson never needs another lesson to make sense.
   - ranks 4001–5000 (C1): everything before, with more abstract and nuanced content: a short essay
     or reflective column that weighs two sides, an interview, a portrait, a review; precise
     vocabulary for feelings, ideas and processes; long sentences that stay easy to parse;
-  - ranks 5001–6700 (C1): the same, with the more specialised words of professions, sciences and
+  - ranks 5001–6800 (C1): the same, with the more specialised words of professions, sciences and
     the arts, each made clear by its context, figurative language used more freely, and topics
     that need some background, which the text gives.
   After rank 1000 sentences get longer and joined (*jo*, *kad*, *kamēr*, *kaut gan*, *tāpēc*,
@@ -196,8 +196,8 @@ Things to know about the Latvian list and the checker:
 - The courses are pinned to the list they were written against, `tools/courses/lv/wordlist.tsv`
   (a copy of the app's `lv.tsv`); the checker reads it instead of the app's list, so a rebuilt app
   list does not move the bands. The `bands/*.txt` files come from it. The list is counted from
-  subtitles, the web and news (wordfreq, OpenSubtitles and the Leipzig news corpus) and kept only
-  words its dictionary pack knows, so it is short (6,630 words) and lacks some everyday words (see
+  subtitles, the web and news (wordfreq, OpenSubtitles, and Leipzig's news of 2016 and 2020 and its
+  web crawl of 2015) and kept only words its dictionary pack knows, so it is short (6,757 words) and lacks some everyday words (see
   "Words the list lacks").
 - **The checker has no Latvian rules of its own** beyond leaving out the `Jautājumi:` header: it
   cuts words at spaces, punctuation and hyphens, and looks each one up as written (lowercased). A
@@ -213,55 +213,52 @@ Things to know about the Latvian list and the checker:
   participles, the rarer cases. *es* holds *man*, *mani*, *manis*; *tu* holds *tev*, *tevi*; *mēs*
   holds *mūsu*, *mums*, *mūs*; *jūs* holds *jūsu*, *jums*; *viņš* holds *viņam*, *viņu* and *viņa*
   "his"; *viņa* holds *viņai*, *viņu*, *viņas*; *viņi* holds *viņiem*, *viņus*; *kas* holds *ko*,
-  *kam*; *sevi* (117) holds *sev*; *mans* (40), *tavs* (72), *savs* (26) are entries of their own;
-  *viss* holds *visi*, *visu*, *visa*; *labi* (39) is an entry of its own beside *labs* (54).
+  *kam*; *sevi* (93) holds *sev*; *mans* (37), *tavs* (69), *savs* (25) are entries of their own;
+  *viss* holds *visi*, *visu*, *visa*; *labi* (38) is an entry of its own beside *labs* (71).
 - **Negated verbs**: *ne-* is written joined to the verb (*nezina*, *nav*, *nebija*, *neesmu*), and
-  every negated form counts for its verb, reflexive ones too (*nemācās*, *neatceros*). The list
-  also keeps some negated forms as headwords of their own (*nespēju* 914, *nedomāju* 925, *neesam*
-  969, and many after rank 4000): they are forms of their verbs; never teach them.
+  every negated form counts for its verb, reflexive ones too (*nemācās*, *neatceros*, *nespēju*,
+  *nedomāju*). A word that only begins like that is a word of its own (*nekad*, *neviens*,
+  *nedēļa*, *nelaime*). *nekur* "nowhere" is not in the list (it is no form of *kurt*).
 - **Reflexive verbs are words of their own**: *mācīties* "to learn" and *mācīt* "to teach",
-  *skatīties* 182 and *skatīt*, *beigties* 526 and *beigt* 218, *sākties* 367 and *sākt* 97,
-  *mainīties* 809 and *mainīt* 447, *turēties* 904 and *turēt* 495, *likties* 528 and *likt* 173.
+  *skatīties* 171 and *skatīt*, *beigties* 485 and *beigt* 191, *sākties* 332 and *sākt* 107,
+  *mainīties* 818 and *mainīt* 545, *turēties* 828 and *turēt* 540, *likties* 429 and *likt* 156.
   The reflexive forms (*mācās*, *mācos*) count only for the reflexive entry, the plain ones
   (*māca*) only for the plain one: teach each in its own sense and forms. Prefixed verbs are
-  entries of their own too (*aiziet* 138, *atrasties* 192, *izdarīt* 177, *paņemt* 743, *pateikt*
-  248, *uzzināt* 666): teaching *iet* does not teach *aiziet*, and each is taught through its own
+  entries of their own too (*aiziet* 137, *atrasties* 190, *izdarīt* 167, *paņemt* 666, *pateikt*
+  221, *uzzināt* 617): teaching *iet* does not teach *aiziet*, and each is taught through its own
   forms.
 - **Forms filed as headwords** (list errors; skip them, their uses count at their own rank):
-  *vēlies* 742 (*vēlēties*), *gaida* 597 (*gaidīt*; its forms are the verb's), *zemi* 982 (*zeme*),
-  *vakarā* 902 (*vakars*), *ņemot* 626 (*ņemt*, as in *ņemot vērā*), *viņas* 152 (*viņa*), the plain
-  participles *plānots* 572, *reģistrēts* 584, *konstatēts* 920, *miris* 328 (*mirt*); *daži* 341 is
-  the plural of *dažs* 444 (teach *daži* "some, a few", skip *dažs*); *skolotāja* 571 holds the
-  masculine *skolotājs* (teach it as "teacher"). From about rank 5000 the list fills with negated
-  forms (*nelasām*), participles (*izceptais*) and comparatives (*melnāks*) kept as headwords, and
-  from rank 6495 nearly every entry is a comparative: in those bands fewer real words are
-  teachable, which is fine; never pad with noise. The 11 multi-word entries (*mobilais telefons*,
-  *latviešu valoda*, *vārda diena*...) are skipped.
-- **Words that hold another word**, so a form counts for a headword it does not teach: *kaut* 73
+  *vakarā* 836 (*vakars* 526), *viņas* 144 (*viņa*), *esošais* 640 (*būt*), *kārtībā* 236
+  (*kārtība*; teach it only as the phrase "all right", *viss kārtībā*), *vērā* 583 (only in *ņemt
+  vērā*), *miris* 366 (*mirt* 695); *daži* 300 is the plural of *dažs* 391 (teach *daži* "some, a
+  few", skip *dažs*); a few superlatives (*jaunākais* 2483, *augstākais* 2890) and the odd negated
+  form (*negribot* 4047, *nevērst* 6377). The builder files the negated forms, comparatives
+  (*melnāks* under *melns*), participles (*izceptais* under *izcept*), most verbal nouns and the
+  feminine nouns under their words, so the far bands hold rare but real words; some bands still
+  have fewer teachable words, which is fine: never pad with noise. The 24 multi-word entries
+  (*mobilais telefons*, *latviešu valoda*, *vārda diena*, *kad pūcei aste ziedēs*...) are skipped.
+- **Words that hold another word**, so a form counts for a headword it does not teach: *kaut* 65
   "though, at least" (*kaut kas*, *kaut gan*) holds the verb *kaut* "to slaughter" (*kauj*); *rīt*
-  511 "tomorrow" holds *rīt* "to swallow" (*rij*); *klāt* 419 "present, near" holds *klāt* "to
-  cover"; *sniegt* 348 "to reach, give" holds *sniegs*, *sniega*, *sniegu* "snow" (snow is no entry:
-  the forms count, but teach *sniegt* in its own sense); *tēvocis* 1324 "uncle" holds *tante*
-  "aunt"; *draugs* 115 holds *draudzene*, *karalis* 630 *karaliene*, *saimnieks* 965 *saimniece*:
-  feminine nouns filed under the masculine count at its rank but never teach it; *tāds* 44 holds
-  *šāds*; *daļa* 121 holds *daļiņa*; *dārzs* 812 *dārziņš*; *vecis* 460 *vecītis*; *lietus* 962
-  "rain" holds *lietu*, *lieti* of *lieta* 94; *gars* 976 "spirit" holds *gara*, *garu*, *garā* of
-  *garš* 508 "long"; *plāns* 233 "plan" holds *plāno* (*plānot*) and the adjective "thin";
-  *pagaidīt* 205 holds *pagaidām* "for now"; *ievērot* 333 holds *ievērojami* "considerably";
-  *beigt* 218 holds *beidzot* "finally"; *piedot* 280 holds *piedevām*; *solīt* 892 holds *soli*
-  (*solis* "step"); *paiet* 413 holds *pagājušais* "last" (*pagājušajā nedēļā*); *mēness* 269
-  "moon" holds *mēnesi*, *mēnesī* of "month" (*mēnesis* 466); *vara* 159 "power" holds *varu*
-  (also *varēt*). A new word must appear as itself or a true inflection, never through such a form.
+  458 "tomorrow" holds *rīt* "to swallow" (*rij*); *klāt* 353 "present, near" holds *klāt* "to
+  cover"; *laiks* 29 "time" holds *laikam* "probably"; *pāris* 179 "pair" holds the adverb and
+  preposition *pāri* "over, across"; *draugs* 109 holds *draudzene*, *karalis* 603 *karaliene*, *saimnieks* 749 *saimniece*:
+  feminine nouns filed under the masculine count at its rank but never teach it; *tāds* 42 holds
+  *šāds*; *daļa* 128 holds *daļiņa*; *dārzs* 662 *dārziņš*; *vecis* 408 *vecītis*; *lietus* 942
+  "rain" holds *lietu*, *lieti* of *lieta* 91; *gars* 826 "spirit" holds *gara*, *garu*, *garā* of
+  *garš* 516 "long"; *plāns* 302 "plan" holds the adjective "thin";
+  *pagaidīt* 207 holds *pagaidām* "for now"; *beigt* 191 holds *beidzot* "finally"; *piedot* 257
+  holds *piedevām*; *paiet* 492 holds *pagājušais* "last" (*pagājušajā nedēļā*); *vara* 151 "power"
+  holds *varu* (also *varēt*). A new word must appear as itself or a true inflection, never through such a form.
 - **Number words** decline (*divi*, *divas*, *divu*, *diviem*; *trīs*, *trim*, *triju*): *divi*,
   *trīs*, *četri*, *pieci*, *seši*... are entries, *viens* holds *viena*, *vienu*. With digits the
   noun still agrees: *2 gadi*, *5 gadi*, *10 gadu*, *21 gads*.
 - **Words the list lacks**: the list kept only the words its dictionary pack knows, so some common
   words are missing altogether and count as outside words (*not in list*): *vecmāmiņa*, *labdien*,
-  *sveicināti*, *ardievu*, *zvanīt*, *nopirkt*, *uzrakstīt*, *izlasīt*, *apēst*, *izdzert*,
+  *ardievu*, *zvanīt*, *nopirkt*, *uzrakstīt*, *izlasīt*, *apēst*, *izdzert*,
   *pabeigt*, *samaksāt*, *satikt*, *apsolīt*, *apskatīt*, *visur*, *citur*, *labprāt*, *vienreiz*,
   *godīgi*. Write around them: the plain past says a finished action well enough (*Viņa pirka
   maizi*, *Viņš rakstīja vēstuli*, *Mēs ēdām zupu*); greet with *sveiki* or *labrīt*; call with
-  *piezvanīt* (1843).
+  *piezvanīt* (1736).
 - **Common forms the list misses** go in `extra_forms.tsv` (headword, a tab, the forms). It is
   generated by `lv_extra.py` in the writers' folder from the English Wiktionary Latvian dictionary
   (`dictionaries/lv-en.sqlite`), the prefixed and reflexive verbs' bases, the regular conjugations
@@ -275,21 +272,21 @@ Things to know about the Latvian list and the checker:
   *Cēsīm*, *Cēsīs*). A name of several words counts word by word: each part that is a list word
   counts at its rank, so put only the true name parts in `names`. Keep only true names in
   `names`, never common words, and never a name one of whose forms is a list word: as characters
-  avoid *Marta* (*marts*), *Ieva* (1793, "bird cherry"), *Juris* (*Jura*), *Valdis* (*Valdi*),
+  avoid *Marta* (*marts*), *Ieva* (1589, "bird cherry"), *Juris* (*Jura*), *Valdis* (*Valdi*),
   *Madara*, *Daina*, *Arta*, *Rota*, *Rasma*, *Mārīte*, *Guna*, *Kalvis*, and the places *Jūrmala*
-  (977, "seaside"), *Saldus*, *Valka*, *Ape*, *Ērgļi*. Check every name and each of its case forms
+  (936, "seaside"), *Saldus*, *Valka*, *Ape*, *Ērgļi*. Check every name and each of its case forms
   with `rank.py` before you use it.
-- Everyday words rank later than you would think: *draugs* 115, *nauda* 116, *strādāt* 120, *mazs*
-  122, *lūdzu* 123, *pilsēta* 136, *skola* 162, *ģimene* 163, *dzīvot* 166, *šodien* 214, *tēvs*
-  243, *mamma* 258, *vīrs* 270, *dēls* 322, *sieva* 382, *brālis* 399, *tētis* 431, *māte* 434,
-  *ēst* 465, *suns* 467, *istaba* 579, *meita* 591, *dzert* 643, *māsa* 740, *kafija* 875, *kaķis*
-  990, *virtuve* 1182, *piens* 1190, *tēja* 1252, *vectēvs* 1506, *maize* 1734. The dialogue tag
-  *saka* (*sacīt* 96) and *teica* (*teikt* 71) are in the first band; *jautā* (*jautāt* 838) and
-  *atbild* (*atbildēt* 402) come later. Days and months: *marts* 349, *maijs* 406, *septembris*
-  425, *aprīlis* 441, *augusts* 504, *novembris* 608, *februāris* 617, *oktobris* 622, *jūlijs*
-  625, *jūnijs* 632, *janvāris* 672, *decembris* 763; *svētdiena* 1476, *sestdiena* 1495,
-  *piektdiena* 1500, *pirmdiena* 1808, *otrdiena* 2040, *ceturtdiena* 2068, *trešdiena* 2266;
-  *vasara* 408, *ziema* 627, *pavasaris* 818, *rudens* 988.
+- Everyday words rank later than you would think: *draugs* 109, *nauda* 104, *strādāt* 131, *mazs*
+  135, *lūdzu* 118, *pilsēta* 120, *skola* 126, *ģimene* 158, *dzīvot* 157, *šodien* 194, *tēvs*
+  218, *mamma* 234, *vīrs* 245, *dēls* 290, *sieva* 338, *brālis* 367, *tētis* 387, *māte* 377,
+  *ēst* 438, *suns* 343, *istaba* 514, *meita* 548, *dzert* 655, *māsa* 697, *kafija* 822, *kaķis*
+  858, *virtuve* 1064, *piens* 891, *tēja* 1134, *vectēvs* 1437, *maize* 1329. The dialogue tag
+  *saka* (*sacīt* 94) and *teica* (*teikt* 75) are in the first band; *jautā* (*jautāt* 684) and
+  *atbild* (*atbildēt* 410) come later. Days and months: *marts* 483, *maijs* 446, *septembris*
+  413, *aprīlis* 546, *augusts* 556, *novembris* 602, *februāris* 720, *oktobris* 646, *jūlijs*
+  719, *jūnijs* 770, *janvāris* 809, *decembris* 747; *svētdiena* 1440, *sestdiena* 1546,
+  *piektdiena* 1513, *pirmdiena* 1910, *otrdiena* 2045, *ceturtdiena* 1939, *trešdiena* 2285;
+  *vasara* 357, *ziema* 530, *pavasaris* 825, *rudens* 888.
 - **Traps for a non-native writer**: going to a person is *pie* + genitive (*iet pie Andra*),
   to a place *uz* + accusative (*iet uz darbu*, *uz Rīgu*); "at home" and "home(wards)" are both
   *mājās* (*ir mājās*, *iet mājās*); every preposition takes the dative in the plural (*ar
