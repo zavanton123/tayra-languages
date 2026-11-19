@@ -1,100 +1,100 @@
-1	5301	tē	
-2	5302	eņ	
-3	5303	karstāk	
-4	5304	muļķadesa	muļķadesu
-5	5305	vīraks	vīraka vīraku
-6	5306	tūplis	tūpli tūpļa
-7	5307	ejakulācija	ejakulācijas
-8	5308	nepaart	paara paari
-9	5309	aristokrāte	aristokrāti
-10	5310	skrūvgriezis	skrūvgriezi skrūvgrieži
-11	5311	imperiāliste	imperiālie imperiālistiem imperiālistu
-12	5312	drakons	drakona drakoni drakonu
-13	5313	celle	cellei celles cellē
-14	5314	pīzda	pizda pīzdu
-15	5315	behemots	begemots behemotam behemotu
-16	5316	peža	pežas pežu
-17	5317	patskanis	patskani patskaņi patskaņiem patskaņu patskaņus
-18	5318	laidnis	laidni laidnim laidņa laidņu
-19	5319	beķereja	beķerejas beķereju beķerejā
-20	5320	vingrināt	vingrina vingrini vingrinās
-21	5321	mežmala	mežmalai mežmalas mežmalu mežmalā
-22	5322	dziedājums	dziedājuma dziedājumi dziedājumu dziedājumā
-23	5323	cepiens	cepienu
-24	5324	sputņiks	sputņik
-25	5325	dārzkopis	dārzkope dārzkopji dārzkopjiem dārzkopju dārzkopjus
-26	5326	līdzskanis	līdzskaņa līdzskaņus
-27	5327	libāniete	libānieši libāniešiem libāniešu libāniešus
-28	5328	adot	
-29	5329	nabassaite	nabassaites
-30	5330	histērija	
-31	5331	tīģeriene	tīģerienei
-32	5332	seismoloģija	seismoloģijas seismoloģijā
-33	5333	svečturis	svečtura svečturi
-34	5334	sārtums	sārtuma sārtumu
-35	5335	pārķert	jāpārķer pārķerot pārķēri
-36	5336	aizmāršība	aizmāršības aizmāršību
-37	5337	speķis	speķa speķi
-38	5338	bacilis	bacili baciļi baciļiem baciļus
-39	5339	fašisms	fašisma fašismu
-40	5340	taustāms	taustāma taustāmas taustāmā
-41	5341	dzirkstošs	dzirkstoša dzirkstošas dzirkstoši dzirkstošos dzirkstošu dzirkstošā
-42	5342	mobilais telefons	mobilais telefons
-43	5343	neslēpjot	
-44	5344	sidrabs	sidraba sidrabi
-45	5345	neatart	atara atari atars
-46	5346	paradoksāls	paradoksāla paradoksālu paradoksālā
-47	5347	humorists	humorista humoriste humoristes
-48	5348	pelējums	pelējuma pelējumam pelējumu
-49	5349	taizemiete	taizemiešu
-50	5350	reālists	reālistam reālisti reālistiem
-51	5351	niknāks	niknais niknāka niknākajiem niknākajā niknāki niknāko
-52	5352	evolucionārs	evolucionārajā evolucionāriem evolucionāro evolucionāros evolucionāru
-53	5353	lācene	lācei lācenes lāceni lāceņu
-54	5354	striķis	striķa striķi striķus
-55	5355	ģeoloģisks	ģeoloģiskajai ģeoloģiskie ģeoloģisko ģeoloģiskās
-56	5356	puķains	puķainas puķainie puķainiem puķainu puķainā puķainās
-57	5357	dums	duma dumais dumi dumu dumus dumām
-58	5358	antisemītisms	antisemītisma antisemītismu antisemītismā
-59	5359	nomāktība	nomāktības nomāktību nomāktībā
-60	5360	pīlādzis	pīlādži pīlādžos pīlādžu pīlādžus
-61	5361	mansards	
-62	5362	komiski	
-63	5363	konjunkcija	konjunkcijām
-64	5364	nedejoju	
-65	5365	nesakām	
-66	5366	kaukt	kauc kauca kauciet
-67	5367	psalms	psalmi psalmu psalmus psalmā
-68	5368	gaišmatains	gaišmatainais gaišmatainiem gaišmatainām
-69	5369	naski	
-70	5370	lavīna	
-71	5371	guba	gubas gubi gubu gubām
-72	5372	cilvēciskums	cilvēciskuma cilvēciskumu
-73	5373	dārgmetāls	dārgmetāla dārgmetālam dārgmetāli dārgmetālu dārgmetālus
-74	5374	putekļsūcējs	putekļsūcēja putekļsūcēji putekļsūcēju
-75	5375	maiznieks	maizniece maiznieku
-76	5376	necaurspīdīgs	necaurspīdīga necaurspīdīgajām necaurspīdīgas necaurspīdīgi necaurspīdīgus necaurspīdīgām
-77	5377	runātais	runātajam runāto runātā
-78	5378	bruņotie spēki	bruņotie spēki
-79	5379	cukurfabrika	cukurfabrikas cukurfabriku cukurfabrikām
-80	5380	dārdzība	dārdzības dārdzību
-81	5381	dārzniecība	dārzniecībai dārzniecības dārzniecību
-82	5382	akustika	akustikai akustikas akustiku
-83	5383	gavēt	gavē gavēja gavēji gavēšana gavēšanai gavēšanas
-84	5384	humāni	
-85	5385	dzeloņstieple	dzeloņstieples dzeloņstieplēm dzeloņstiepļu
-86	5386	stepe	stepa stepes stepu
-87	5387	debespuse	debespuses debespusi debespusēm
-88	5388	smukums	smukuma smukumiem
-89	5389	hercs	herca herci herciem hercu
-90	5390	dobjš	dobja dobji dobju
-91	5391	badastreiks	badastreiki badastreiku
-92	5392	neitrons	neitronu
-93	5393	godkāre	
-94	5394	nesaart	saara
-95	5395	nezogam	
-96	5396	mincis	
-97	5397	kalnup	
-98	5398	salti	
-99	5399	dīvaināk	
-100	5400	homoseksuālists	homoseksuālistu
+1	5301	tumšmatains	tumšmatainais tumšmatainas tumšmatainiem tumšmatainā tumšmatainām
+2	5302	homoseksualitāte	homoseksualitātei homoseksualitātes homoseksualitāti homoseksualitātē
+3	5303	dziedonis	dziedone dziedones dziedoni dziedonim dziedoņa dziedoņi dziedoņiem dziedoņos dziedoņu dziedoņus
+4	5304	antropologs	antropologa antropologi antropologiem antropologu antropoloģe antropoloģes antropoloģēm
+5	5305	krūmājs	krūmāja krūmāji krūmājiem krūmājos krūmāju krūmājus krūmājā
+6	5306	daiļums	daiļuma daiļumu daiļumus daiļumā
+7	5307	kailums	kailuma kailumam kailumu kailumā
+8	5308	ņau	
+9	5309	dzeloņstieple	dzeloņstieples dzeloņstiepli dzeloņstieplēm dzeloņstiepļu
+10	5310	korķviļķis	korķviļķa korķviļķi
+11	5311	virsdrēbes	virsdrēbju virsdrēbēm virsdrēbēs
+12	5312	jāņoga	jāņogam jāņogas jāņogu jāņogām jāņogās
+13	5313	aprikoze	aprikozes aprikozēm aprikozēs aprikožu
+14	5314	iracionāls	iracionāla iracionālai iracionālais iracionālajai iracionālajam iracionālajā iracionālas iracionāliem iracionālo iracionālos iracionālu iracionālā iracionālām iracionālās
+15	5315	ārprātīgi	
+16	5316	rikošets	rikošeta rikošeti rikošetā
+17	5317	amerikānisks	amerikāniska amerikāniskais amerikāniskajam amerikāniskajos amerikāniskas amerikāniski amerikāniskie amerikānisko amerikāniskus amerikāniskā amerikāniskām amerikāniskās
+18	5318	daudzskaitlis	daudzskaitli daudzskaitlī daudzskaitļa
+19	5319	dumjība	dumjības dumjību dumjībām
+20	5320	saart	saar saara
+21	5321	konjunkcija	konjunkcijā konjunkcijām
+22	5322	irākietis	irākieti irākieša irākieši irākiešiem irākiešu irākiešus
+23	5323	karadienests	karadienesta karadienestam karadienestu karadienestā
+24	5324	puve	puves puvi puvju puvēm
+25	5325	atmosties	
+26	5326	seismoloģija	seismoloģijas seismoloģijā
+27	5327	kalvis	
+28	5328	luksofors	
+29	5329	aizpērn	
+30	5330	trūcīgi	
+31	5331	kāmis	kāmi kāmja kāmji kāmjiem kāmju
+32	5332	tāss	tāsi tāsij tāsis tāsīm tāā tāšu
+33	5333	velniņš	velniņam velniņi velniņiem velniņos velniņu velniņus
+34	5334	abstrakcija	abstrakcijai abstrakcijas abstrakciju abstrakcijā abstrakcijām abstrakcijās
+35	5335	epitets	epiteta epitetam epiteti epitetiem epitetos epitetu epitetus
+36	5336	mūžsens	mūžsen mūžsena mūžsenais mūžsenajai mūžsenajam mūžsenajā mūžsenajām mūžsenas mūžsenie mūžseno mūžsenos mūžsenā mūžsenām mūžsenās
+37	5337	seklums	sekluma seklumam seklumi seklumiem seklumu seklumā
+38	5338	spodrs	spodra spodrai spodrajam spodrajā spodras spodri spodru spodrus spodrās
+39	5339	guba	gubas gubi gubu gubā gubām gubās
+40	5340	galvassega	galvassegai galvassegas galvassegu galvassegām galvassegās
+41	5341	bārt	bar baram baru bāra bāre bāri bāriem bāris bāros bārts bārtu bāru bārus bāruši bāršana bāršot jābar
+42	5342	putekļsūcējs	putekļsūcēja putekļsūcējam putekļsūcēji putekļsūcējiem putekļsūcēju putekļsūcējus
+43	5343	doza	dozas dozu dozām dozās
+44	5344	zilgans	zilgana zilganais zilganajās zilganas zilgani zilganie zilgano zilganu zilganā zilganāks zilganām zilganās
+45	5345	strēbt	jāstrebj nestrēbt streb strebj strebjot strēba strēbis strēbs strēbtu strēbšana
+46	5346	fizikāli	
+47	5347	bioķīmija	bioķīmijas bioķīmiju
+48	5348	burbuļot	burbuļo burbuļodams burbuļoja burbuļojam burbuļojošs burbuļos burbuļotu burbuļošana jāburbuļo
+49	5349	filologs	filologa filologam filologi filologiem filologos filologu filologus filoloģe filoloģei filoloģes filoloģi
+50	5350	azerbaidžānis	azerbaidžāni azerbaidžānietes azerbaidžāņi azerbaidžāņiem azerbaidžāņu azerbaidžāņus
+51	5351	brass	brasa brasu brasā
+52	5352	spirgts	spirgta spirgtai spirgtais spirgtajiem spirgtajā spirgtas spirgti spirgto spirgtu spirgtā spirgtāks spirgtās
+53	5353	cilvēciskums	cilvēciskuma cilvēciskumu
+54	5354	tikvien	
+55	5355	dēmonisks	dēmoniska dēmoniskais dēmoniskajiem dēmoniskas dēmoniski dēmoniskie dēmonisko dēmonisku dēmoniskā dēmoniskās
+56	5356	mirkt	jāmirkst mircis mirka mirkdams mirki mirks mirkst mirkstot mirktu mirku mirkšu
+57	5357	gnīda	gnīdai gnīdas gnīdu gnīdām
+58	5358	hantele	hanteles hanteli hantelē hantelēm hanteļu
+59	5359	stomatologs	stomatologa stomatologam stomatologi stomatologiem stomatologu stomatoloģe stomatoloģei
+60	5360	lavīna	
+61	5361	ķeksis	ķeksi ķeksī ķekša ķekši ķekšiem ķekšus
+62	5362	neļķe	neļķes neļķi neļķu neļķēm
+63	5363	zeltnesis	zeltnesi zeltnesī zeltneša zeltnešiem
+64	5364	augļkopība	augļkopībai augļkopības augļkopību augļkopībā
+65	5365	ņiprs	ņipra ņiprais ņiprajai ņiprajam ņiprajiem ņipram ņipras ņiprie ņipriem ņipro ņipros ņipru ņiprus ņiprā ņiprāks ņiprām ņiprās
+66	5366	pienskābe	pienskābes pienskābi pienskābē
+67	5367	vālodze	vālodzes vālodzi vālodzēs vālodžu
+68	5368	tēvreize	tēvreizes tēvreizi tēvreizē
+69	5369	gaļēdājs	gaļēdāja gaļēdājam gaļēdāji gaļēdājiem gaļēdāju
+70	5370	bezbailība	bezbailībai bezbailības bezbailību
+71	5371	evolucionārs	evolucionāra evolucionārajā evolucionāras evolucionāriem evolucionāro evolucionāros evolucionāru
+72	5372	teoloģisks	teoloģiska teoloģiskais teoloģiskajai teoloģiskajiem teoloģiskajos teoloģiskajā teoloģiskas teoloģiskie teoloģiskiem teoloģisko teoloģiskos teoloģisku teoloģiskus teoloģiskā teoloģiskām teoloģiskās
+73	5373	strēle	strēlei strēles strēli strēlē strēļu
+74	5374	antisemītisms	antisemītisma antisemītismu antisemītismā
+75	5375	miglaini	
+76	5376	rieties	rejas rejaties rejos rietos riešanās
+77	5377	klitors	klitora klitoram klitori klitoru
+78	5378	fotogrāfisks	fotogrāfiska fotogrāfiskais fotogrāfiskajai fotogrāfiskajos fotogrāfiskas fotogrāfisko fotogrāfiskus fotogrāfiskā fotogrāfiskās visfotogrāfiskākais
+79	5379	šķēlums	šķēluma šķēlumi šķēlumiem šķēlumu šķēlumā
+80	5380	vingrs	vingra vingrajiem vingras vingri vingriem vingro vingros vingru vingrāks vingrās
+81	5381	uzart	jāuzar uzar uzara uzaram uzaris uzars uzarts uzartu uzaru uzaršana uzaršanas uzaršanu
+82	5382	bikls	bikla biklais biklajai biklam biklas biklie biklo biklu biklus biklā biklās
+83	5383	zintnieks	zintniece zintnieka zintniekam zintnieki zintniekiem zintnieku zintniekus
+84	5384	spoguļattēls	spoguļattēla spoguļattēlam spoguļattēlu spoguļattēlā
+85	5385	grīnis	grīni grīnim grīņu
+86	5386	raudulīgs	raudulīga raudulīgais raudulīgajai raudulīgajos raudulīgas raudulīgi raudulīgu raudulīgus
+87	5387	šprotes	
+88	5388	drošināšana	drošināšanai drošināšanas drošināšanu
+89	5389	spilgtums	spilgtuma spilgtumu spilgtumā
+90	5390	stāstītājs	stāstītāja stāstītājai stāstītājam stāstītājas stāstītāji stāstītājiem stāstītāju stāstītājus stāstītājā
+91	5391	stings	stinga stingai stingais stingajiem stingam stingi stingo stingu stingās
+92	5392	sapņains	sapņaina sapņainais sapņainas sapņainie sapņainiem sapņaino sapņainos sapņainu sapņainus sapņainā
+93	5393	bole	bolei boles boli
+94	5394	sarkanbrūns	sarkanbrūnajā sarkanbrūnas sarkanbrūni sarkanbrūnie sarkanbrūno sarkanbrūnos sarkanbrūnus
+95	5395	ūdenstornis	ūdenstorni ūdenstornim ūdenstornī ūdenstorņa ūdenstorņi ūdenstorņiem ūdenstorņu ūdenstorņus
+96	5396	atturība	atturībai atturības atturību atturībā
+97	5397	mikls	mikla miklais miklajam miklajā miklas miklo miklu miklā miklām
+98	5398	aukslējas	aukslēju aukslējām
+99	5399	redīss	redīsa redīsi redīsiem redīsu redīsus
+100	5400	sniegbalts	sniegbalta sniegbaltais sniegbaltajiem sniegbaltajā sniegbaltajām sniegbaltas sniegbalti sniegbalto sniegbaltos sniegbaltu sniegbaltus sniegbaltā sniegbaltām sniegbaltās

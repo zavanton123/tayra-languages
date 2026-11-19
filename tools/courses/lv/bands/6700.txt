@@ -1,30 +1,100 @@
-1	6601	dievišķāks	dievišķais
-2	6602	gaišmataināks	gaišmatainais
-3	6603	iekšējāks	iekšējais
-4	6604	mehāniskāks	mehāniskais
-5	6605	šķidrāks	šķidrais
-6	6606	pēkšņāks	pēkšņais
-7	6607	trulāks	trulais
-8	6608	homoseksuālāks	homoseksuālais
-9	6609	fiziskāks	fiziskais
-10	6610	īstenāks	īstenais
-11	6611	melīgāks	melīgais
-12	6612	pasīvāks	pasīvais
-13	6613	vēsturiskāks	vēsturiskais
-14	6614	politiskāks	politiskais
-15	6615	piederīgāks	piederīgais
-16	6616	abstraktāks	abstraktais
-17	6617	pelēkāks	pelēkais
-18	6618	vājprātīgāks	vājprātīgais
-19	6619	debilāks	debilais
-20	6620	dzeltenāks	dzeltenais
-21	6621	violetāks	violetais
-22	6622	nenormālāks	nenormālais
-23	6623	svešāks	svešais
-24	6624	aklāks	aklais
-25	6625	melnāks	melnais
-26	6626	stīvāks	stīvais
-27	6627	kurlāks	kurlais
-28	6628	nevainīgāks	nevainīgais
-29	6629	kailāks	kailais
-30	6630	milzīgāks	milzīgais
+1	6601	aseksuāli	
+2	6602	balsīgs	balsīgus
+3	6603	biofizika	biofiziku
+4	6604	budzis	
+5	6605	cariste	caristi
+6	6606	dancots	
+7	6607	dzēlējods	dzēlējodi
+8	6608	dzīvnieciskums	dzīvnieciskumu
+9	6609	gaumīgums	
+10	6610	grieķisks	grieķiskajiem
+11	6611	gruzīnisks	gruzīniskais
+12	6612	humanitāte	humanitātes
+13	6613	iebrūni	
+14	6614	iesarkani	
+15	6615	indiski	
+16	6616	islandiski	
+17	6617	klementīns	klementīni
+18	6618	lielhercogiene	lielhercoga
+19	6619	mantīgi	
+20	6620	mantīgs	mantīgo
+21	6621	maoisms	
+22	6622	mačka	
+23	6623	maķedoniski	
+24	6624	mezglains	mezglainas
+25	6625	mežainums	
+26	6626	miksti	
+27	6627	mongoliski	
+28	6628	mātesbrālis	mātesbrāli
+29	6629	mātesmāsa	
+30	6630	mēļi	
+31	6631	mīlība	mīlībā
+32	6632	nacionālāk	
+33	6633	nebēdnīgums	nebēdnīgumu
+34	6634	neprātīgums	neprātīguma
+35	6635	piecdesmitais	
+36	6636	putēt	
+37	6637	radiāns	radiāni
+38	6638	saulainība	saulainībā
+39	6639	sermuļāda	sermuļādas
+40	6640	sirmis	
+41	6641	slāpekļskābe	slāpekļskābes
+42	6642	staigni	
+43	6643	sviestais	
+44	6644	telūrs	telūru
+45	6645	tipiskums	tipiskumā
+46	6646	ungārisks	ungāriska
+47	6647	utainība	
+48	6648	zaglība	zaglībā
+49	6649	ziņkārs	ziņkārajiem
+50	6650	ēzeļmāte	
+51	6651	ģeofizikāls	ģeofizikālajiem
+52	6652	ģeofiziķis	
+53	6653	ķeizariste	ķeizaristi
+54	6654	ķets	ķeta
+55	6655	erbijs	erbija
+56	6656	firstiste	
+57	6657	gallijs	gallijā
+58	6658	mētrājs	mētrāji
+59	6659	neskanis	neskai
+60	6660	teurģija	
+61	6661	tapirs	
+62	6662	topoloģija	
+63	6663	afrikāniski	
+64	6664	anka	
+65	6665	antropocentrisms	
+66	6666	berilijs	berilija
+67	6667	bezbailīgums	
+68	6668	biezināt	
+69	6669	burtstabiņš	burtstabiņu
+70	6670	cekulpīle	cekulpīles
+71	6671	cirslis	
+72	6672	draiskums	draiskuma
+73	6673	dzirkles	
+74	6674	džouls	
+75	6675	eiropijs	eiropiju
+76	6676	emblemātisks	emblemātiskas
+77	6677	etnocentrisms	
+78	6678	etnoloģe	etnologi
+79	6679	etnoloģisks	etnoloģiska
+80	6680	filoloģiski	
+81	6681	fonoloģija	fonoloģijā
+82	6682	fonētiķis	
+83	6683	garlaiks	garlaikos
+84	6684	glumenieks	glumenieka
+85	6685	gruzīniski	
+86	6686	grāmatsējējs	
+87	6687	gādīgums	gādīguma
+88	6688	gāzveidīgs	gāzveidīgas
+89	6689	higrometrs	higrometru
+90	6690	hipopotams	hipopotamu
+91	6691	homiķis	homiķi
+92	6692	imbecilitāte	imbecilitātes
+93	6693	izsauksmes	
+94	6694	kaligrāfiski	
+95	6695	karodznieks	karodznieki
+96	6696	kosoviete	kosoviešu
+97	6697	lantāns	lantānu
+98	6698	lielhercogiste	
+99	6699	lihtenšteiniete	lihtenšteiniešu
+100	6700	logaritms	logaritmiem

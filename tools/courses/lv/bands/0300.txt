@@ -1,100 +1,100 @@
-1	201	nepieciešams	nepieciešama nepieciešamai nepieciešamais nepieciešamajam nepieciešamajiem nepieciešamajos nepieciešamajā nepieciešamajām nepieciešamas nepieciešami nepieciešamie nepieciešamiem nepieciešamo nepieciešamos nepieciešamu nepieciešamus nepieciešamā nepieciešamām nepieciešamās
-2	202	izskatīties	izskaties izskatieties izskatos izskatoties izskatāmies izskatās izskatāties izskatījies izskatījos izskatījāmies izskatījās izskatījāties izskatīsies izskatīsimies izskatītos izskatīšanās izskatīšos jāizskatās neizskatīties
-3	203	šķist	nešķist šķiet šķietam šķietams šķietat šķietu šķistu šķita šķiti šķitis šķitāt šķitīs šķitīsi šķitīšu
-4	204	atkal	
-5	205	pagaidīt	jāpagaida nepagaidīt pagaida pagaidi pagaidiet pagaidu pagaidām pagaidīju pagaidījāt pagaidīs pagaidīsi pagaidīsiet pagaidīsim pagaidīšu
-6	206	starp	
-7	207	nozīme	nozīmei nozīmes nozīmi nozīmju nozīmē nozīmēm nozīmēs
-8	208	abi	abas abiem abos abu abus abām abās
-9	209	atbalsts	atbalsta atbalstam atbalsti atbalstiem atbalstu atbalstus atbalstā
-10	210	problēma	problemas problēmai problēmas problēmu problēmā problēmām problēmās
-11	211	sports	sport sporta sportam sporti sportu sportā
-12	212	vadītājs	vadītāj vadītāja vadītājam vadītājas vadītāji vadītājiem vadītāju vadītājus vadītājā
-13	213	piemēram	
-14	214	šodien	
-15	215	galvenais	galvenajai galvenajam galvenajiem galvenajos galvenajā galvenajām galvenajās galvenas galvenie galveno galvenos galvenā galvenām galvenās
-16	216	atgriezties	atgriezies atgriezieties atgriezos atgrieztos atgriezāmies atgriezās atgriezāties atgriezīsies atgriezīsieties atgriezīsimies atgriezīsities atgriezīšos atgriezīšoties atgriešanās atgriežamies atgriežas atgriežaties atgriežos atgriežoties jāatgriežas neatgriezties
-17	217	sistēma	sistēmai sistēmas sistēmu sistēmā sistēmām sistēmās
-18	218	beigt	beidz beidza beidzam beidzat beidzi beidziet beidzis beidzot beidzu beidzām beidzāt beigs beigsi beigsiet beigsim beigts beigtu beigšana beigšu jābeidz nebeigt
-19	219	valoda	valodai valodas valodu valodā valodām valodās
-20	220	gals	gal gala galam gali galiem galos galu galus galā
-21	221	noteikt	nenoteiksi nenoteiktu noteic noteica noteicis noteicošais noteicošā noteiks noteiksim noteikta noteiktai noteiktais noteiktajai noteiktajam noteiktajiem noteiktajos noteiktajā noteiktajām noteiktajās noteiktam noteiktas noteiktie noteiktiem noteikto noteiktos noteikts noteiktu noteiktus noteiktā noteiktām noteiktās noteikusi noteikušas noteikuši noteikšana noteikšanai noteikšanas noteikšanu noteikšanā
-22	222	darbinieks	darbiniece darbiniecei darbinieces darbinieci darbiniecēm darbinieka darbiniekam darbinieki darbiniekiem darbiniekos darbinieku darbiniekus darbinieču
-23	223	atpakaļ	
-24	224	atcerēties	atceramies atceras atceraties atceries atcerieties atceros atceroties atcerējies atcerējos atcerējāmies atcerējās atcerējāties atcerēsies atcerēsieties atcerēsimies atcerēsities atcerētos atcerēšanās atcerēšos jāatceras neatceros neatcerēties
-25	225	policija	policijai policijas policiju policijā
-26	226	drošība	drošībai drošības drošību drošībā
-27	227	persona	personai personas personu personā personām personās
-28	228	veselība	veselībai veselības veselību veselībā veselībām
-29	229	nekāds	nekāda nekādai nekādam nekādas nekādi nekādiem nekādos nekādu nekādus nekādā nekādām nekādās
-30	230	projekts	projekt projekta projektam projekti projektiem projektos projektu projektus projektā
-31	231	lēmums	lēmuma lēmumam lēmumi lēmumiem lēmumos lēmumu lēmumus lēmumā
-32	232	saukt	jāsauc nesaukt sauc sauca saucam saucams saucat sauci sauciet saucis saucot saucu saucām saucāt saukdams sauks sauksi sauksiet sauksim saukts sauktu saukšana saukšu
-33	233	plāns	plāna plānajiem plānam plānas plāni plānie plāniem plāno plānos plānu plānus plānā plānākas plānāki plānākiem plānāks plānāku plānākās plānām plānās
-34	234	meitene	meitenei meitenes meiteni meitenē meitenēm meitenēs meiteņu
-35	235	darbība	darbībai darbības darbību darbībā darbībām darbībās
-36	236	dabūt	dabū dabūja dabūjam dabūjama dabūjamas dabūjams dabūjat dabūji dabūjiet dabūjis dabūjot dabūju dabūjusi dabūjuši dabūjām dabūjāt dabūs dabūsi dabūsiet dabūsim dabūtu dabūšanu dabūšot dabūšu jādabū nedabū nedabūja nedabūjam nedabūji nedabūju nedabūjām nedabūjāt nedabūs nedabūsi nedabūsiet nedabūsim nedabūt nedabūtu nedabūšu
-37	237	stunda	stundai stundam stundas stundu stundā stundām stundās
-38	238	ministrs	ministr ministra ministram ministre ministrei ministres ministri ministriem ministru ministrus
-39	239	ņemt	jāņem neņem neņemiet neņems neņemsi neņemsim neņemt neņemu neņemšu neņēma neņēmu ņem ņemam ņemama ņemami ņemams ņemamu ņemat ņemiet ņems ņemsi ņemsiet ņemsim ņemta ņemtas ņemti ņemts ņemtu ņemu ņemšanai ņemšanas ņemšu ņēma ņēmi ņēmis ņēmu ņēmusi ņēmuši ņēmāt
-40	240	zeme	zemei zemes zemju zemē zemēm zemēs
-41	241	sabiedrība	sabiedrībai sabiedrības sabiedrību sabiedrībā sabiedrībām sabiedrībās
-42	242	prezidents	prezident prezidenta prezidentam prezidente prezidentei prezidentes prezidenti prezidentiem prezidentu prezidentus prezidentā
-43	243	tēvs	tēva tēvam tēvi tēviem tēvu tēvus tēvā
-44	244	vajadzīgs	vajadzīga vajadzīgais vajadzīgajiem vajadzīgajā vajadzīgajām vajadzīgam vajadzīgas vajadzīgi vajadzīgie vajadzīgiem vajadzīgo vajadzīgos vajadzīgu vajadzīgus vajadzīgā vajadzīgāks vajadzīgām vajadzīgās visvajadzīgākās
-45	245	valdība	valdībai valdības valdību valdībā valdībām
-46	246	acs	aci acij acis acu acī acīm acīs au
-47	247	radīt	jārada neradīt rada radi radiet radot radošo radošs radošā radošās radu radām radāt radīja radīji radījis radīju radījām radījāt radīs radīsi radīsiet radīsim radīta radīto radīts radītu radīšana radīšot radīšu
-48	248	pateikt	nepateikt pateic pateica pateicat pateici pateicis pateicu pateicām pateicāt pateiks pateiksi pateiksiet pateiksim pateikts pateiktu pateikšu
-49	249	noteikti	
-50	250	latvietis	latviete latvietei latvietes latvieti latvietim latvietēm latvieša latvieši latviešiem latviešos latviešu latviešus
-51	251	kārtībā	
-52	252	īsts	visīstākais visīstākajā visīstākā īsta īstai īstais īstajai īstajam īstajiem īstajos īstajā īstajām īstajās īstam īstas īstie īstiem īsto īstos īstu īstus īstā īstākais īstāku īstām īstās
-53	253	vīrietis	vīrieti vīrietim vīrietī vīrieša vīrieši vīriešiem vīriešos vīriešu vīriešus
-54	254	ūdens	ūdeni ūdenim ūdenī ūdeņi ūdeņiem ūdeņos ūdeņu ūdeņus
-55	255	augsts	augsta augstai augstais augstajiem augstajā augstajām augstas augsti augstie augstiem augsto augstos augstus augstā augstāka augstākai augstākais augstākajai augstākajiem augstākajos augstākajā augstākajām augstākajās augstākam augstākas augstāki augstākie augstākiem augstāko augstākos augstāks augstāku augstākus augstākā augstākām augstākās augstām augstās visaugstākais
-56	256	mērķis	mērķa mērķi mērķiem mērķim mērķos mērķu mērķus mērķī
-57	257	beigas	beigu beigām beigās
-58	258	mamma	mammai mammas mammu mammā mammām
-59	259	nakts	nakam naki naks nakti naktij naktis naktī naktīm naktīs nakā nakšu
-60	260	sākums	sākuma sākumam sākumi sākumiem sākumos sākumu sākumā
-61	261	prom	
-62	262	censties	censtos centies centieties centos centāmies centās centāties centīsies centīsieties centīsimies centīšos centīšoties cenzdamies cenšamies cenšanās cenšas cenšaties cenšos cenšoties jācenšas necensties
-63	263	mašīna	mašīnai mašīnam mašīnas mašīnu mašīnā mašīnām mašīnās
-64	264	drīkstēt	drīkst drīkstat drīksti drīkstu drīkstēja drīkstēji drīkstējusi drīkstējuši drīkstējāt drīkstēs drīkstēsi drīkstēsiet drīkstēsim drīkstētu drīkstēšot drīkstēšu nedrīkst nedrīkstat nedrīksti nedrīkstiet nedrīkstu nedrīkstēja nedrīkstēji nedrīkstēju nedrīkstējām nedrīkstēs nedrīkstēsi nedrīkstēsiet nedrīkstēsim nedrīkstētu nedrīkstēšu
-65	265	stāsts	stāst stāsta stāstam stāsti stāstiem stāstos stāstu stāstus stāstā
-66	266	likums	likuma likumam likumi likumiem likumos likumu likumus likumā
-67	267	joprojām	
-68	268	nogalināt	jānogalina nenogalināt nogalina nogalini nogaliniet nogalinot nogalinu nogalināja nogalināji nogalinājis nogalināju nogalinājām nogalinājāt nogalinām nogalinās nogalināsi nogalināsiet nogalināsim nogalināsit nogalināts nogalinātu nogalināšana nogalināšu
-69	269	mēness	mēnes mēnesi mēnesim mēnesī mēneši mēnešiem mēnešos mēnešu mēnešus
-70	270	vīrs	vīr vīra vīram vīri vīriem vīru vīrus vīrā
-71	271	sezona	sezonai sezonas sezonu sezonā sezonām sezonās
-72	272	cena	cenai cenas cenos cenu cenā cenām cenās
-73	273	līmenis	līmeni līmenim līmenī līmeņa līmeņi līmeņiem līmeņos līmeņu līmeņus
-74	274	pārāk	
-75	275	kopš	
-76	276	nodoklis	nodokli nodoklim nodoklī nodokļa nodokļi nodokļiem nodokļos nodokļu nodokļus
-77	277	pārstāvis	pārstāve pārstāvi pārstāvim pārstāvja pārstāvji pārstāvjiem pārstāvjos pārstāvju pārstāvjus
-78	278	palīdzība	palīdzībai palīdzības palīdzību palīdzībā
-79	279	puisis	puisi puisim puisī puiša puiši puišiem puišu puišus
-80	280	piedot	jāpiedod nepiedot piedeva piedevis piedevu piedevām piedod piedodam piedodams piedodat piedodiet piedodot piedodošs piedodu piedos piedosi piedosiet piedosim piedots piedotu piedošana piedošu
-81	281	spēlēt	jāspēlē nespēlēt spēlē spēlēdams spēlēja spēlējam spēlējat spēlēji spēlējiet spēlējis spēlējot spēlēju spēlējām spēlējāt spēlēs spēlēsi spēlēsiet spēlēsim spēlēsit spēlēts spēlētu spēlēšana spēlēšu
-82	282	pieci	piecas pieciem piecos piecu piecus piecām piecās
-83	283	kamēr	
-84	284	zaudēt	jāzaudē nezaudē nezaudēja nezaudējiet nezaudējām nezaudēs nezaudēsi nezaudēsim nezaudēt nezaudētu nezaudēšu zaudē zaudēja zaudējam zaudējat zaudēji zaudējis zaudējot zaudēju zaudējusi zaudējušas zaudējuši zaudējām zaudējāt zaudēs zaudēsi zaudēsiet zaudēsim zaudēta zaudētas zaudēti zaudēts zaudētu zaudētā zaudētās zaudēšana zaudēšanas zaudēšanu zaudēšu
-85	285	tātad	
-86	286	punkts	punkta punktam punkti punktiem punktos punktu punktus punktā
-87	287	aicināt	aicina aicini aiciniet aicinot aicinoša aicinošas aicinoši aicinošs aicinu aicināja aicināji aicinājis aicināju aicinājusi aicinājušas aicinājuši aicinājām aicinājāt aicināmi aicinās aicināsi aicināsim aicināta aicinātas aicināti aicināts aicinātu aicinātās aicināšu jāaicina neaicina neaicini neaicinu neaicināja neaicināji neaicināju neaicinājāt neaicinās neaicināsi
-88	288	nevis	
-89	289	dati	datiem datu datus
-90	290	izdoties	izdevies izdevās izdodas izdosies neizdevās neizdodas
-91	291	attīstība	attīstībai attīstības attīstību attīstībā
-92	292	gaidīt	gaidi gaidiet gaidot gaidu gaidām gaidāma gaidāms gaidāmā gaidāt gaidīdams gaidīja gaidīji gaidījis gaidīju gaidījām gaidījāt gaidīs gaidīsi gaidīsiet gaidīsim gaidīts gaidītu gaidīšana gaidīšot gaidīšu jāgaida negaidīt
-93	293	banka	bankai bankas banku bankā bankām bankās
-94	294	grāmata	grāmatai grāmatas grāmatu grāmatā grāmatām grāmatās
-95	295	vismaz	
-96	296	ārā	
-97	297	tirgus	tirgi tirgiem tirgos tirgu tirgum tirgū
-98	298	vienīgs	vienīga vienīgai vienīgais vienīgajai vienīgajam vienīgajiem vienīgajā vienīgam vienīgas vienīgie vienīgiem vienīgo vienīgos vienīgu vienīgā vienīgās
-99	299	klients	klienta klientam klienti klientiem klientos klientu klientus
-100	300	četri	četras četriem četros četru četrus četrām četrās
+1	201	brīdis	brīdi brīdim brīdī brīža brīži brīžiem brīžos brīžu brīžus
+2	202	meitene	meitenei meitenes meiteni meitenē meitenēm meitenēs meiteņu
+3	203	starp	
+4	204	spēks	spēk spēka spēkam spēki spēkiem spēkos spēku spēkus spēkā
+5	205	galvenais	galvena galvenai galvenajai galvenajam galvenajiem galvenajos galvenajā galvenajām galvenajās galvenam galvenas galveni galvenie galveniem galveno galvenos galvenā galvenām galvenās
+6	206	dzirdēt	dzird dzirdam dzirdamais dzirdams dzirdat dzirdi dzirdiet dzirdot dzirdošais dzirdošs dzirdu dzirdēdams dzirdēja dzirdēji dzirdējis dzirdēju dzirdējām dzirdējāt dzirdēs dzirdēsi dzirdēsiet dzirdēsim dzirdēsit dzirdētais dzirdēts dzirdētu dzirdēšana dzirdēšanas dzirdēšanu dzirdēšot dzirdēšu jādzird nedzirdēt
+7	207	pagaidīt	jāpagaida nepagaidīt pagaida pagaidi pagaidiet pagaidot pagaidu pagaidām pagaidāms pagaidīdams pagaidīja pagaidījis pagaidīju pagaidījām pagaidījāt pagaidīs pagaidīsi pagaidīsiet pagaidīsim pagaidītu pagaidīšot pagaidīšu
+8	208	vairāki	vairākas vairākiem vairākos vairāku vairākus vairākām vairākās
+9	209	turpināt	jāsarga jāturpina neturpināt turpina turpini turpiniet turpinot turpinu turpinādams turpināja turpināji turpinājis turpināju turpinājām turpinājāt turpinām turpināms turpinās turpināsi turpināsiet turpināsim turpināsit turpināts turpinātu turpināšana turpināšanai turpināšanas turpināšanos turpināšanu turpināšanā turpināšot turpināšu
+10	210	vadītājs	vadītāj vadītāja vadītājam vadītājas vadītāji vadītājiem vadītājos vadītāju vadītājus vadītājā
+11	211	latvietis	latviete latvietei latvietes latvieti latvietim latvietēm latvietēs latvietī latvieus latvieša latvieši latviešiem latviešos latviešu latviešus
+12	212	vajadzīgs	vajadzīga vajadzīgai vajadzīgais vajadzīgajai vajadzīgajam vajadzīgajiem vajadzīgajos vajadzīgajā vajadzīgajām vajadzīgajās vajadzīgam vajadzīgas vajadzīgi vajadzīgie vajadzīgiem vajadzīgo vajadzīgos vajadzīgu vajadzīgus vajadzīgā vajadzīgāks vajadzīgām vajadzīgās visvajadzīgākais
+13	213	saukt	jāsauc nesaukt sauc sauca saucam saucams saucat sauci sauciet saucis saucot saucošs saucu saucām saucāt saukdams sauks sauksi sauksiet sauksim sauksit saukts sauktu saukšana saukšot saukšu
+14	214	abi	abas abiem abos abu abus abām abās
+15	215	tiesa	tiesai tiesas tiesu tiesā tiesām tiesās
+16	216	acs	aci acij acis acu acī acīm acīs au aā
+17	217	stunda	stundai stundam stundas stundu stundā stundām stundās
+18	218	tēvs	tēva tēvam tēvi tēviem tēvos tēvu tēvus tēvā
+19	219	iedzīvotājs	iedzīvotāj iedzīvotāja iedzīvotājam iedzīvotāji iedzīvotājiem iedzīvotājos iedzīvotāju iedzīvotājus
+20	220	ūdens	ūdea ūdeni ūdenim ūdenī ūdeņi ūdeņiem ūdeņos ūdeņu ūdeņus
+21	221	pateikt	jāpateic nepateikt pateic pateica pateicam pateicat pateici pateicis pateicu pateicām pateicāt pateikdams pateiks pateiksi pateiksiet pateiksim pateikts pateiktu pateikšana pateikšot pateikšu
+22	222	piemēram	
+23	223	atgriezties	atgriezdamies atgriezies atgriezieties atgriezos atgrieztos atgriezāmies atgriezās atgriezāties atgriezīsies atgriezīsieties atgriezīsimies atgriezīsities atgriezīšos atgriezīšoties atgriešanās atgriežamies atgriežas atgriežaties atgriežos atgriežoties jāatgriežas neatgriezties
+24	224	rezultāts	rezultāt rezultāta rezultātam rezultāti rezultātiem rezultātos rezultātu rezultātus rezultātā
+25	225	nepieciešams	nepieciešama nepieciešamai nepieciešamais nepieciešamajai nepieciešamajam nepieciešamajiem nepieciešamajos nepieciešamajā nepieciešamajām nepieciešamajās nepieciešamam nepieciešamas nepieciešami nepieciešamie nepieciešamiem nepieciešamo nepieciešamos nepieciešamu nepieciešamus nepieciešamā nepieciešamāks nepieciešamām nepieciešamās visnepieciešamākais
+26	226	īsts	visīstākais īsta īstai īstais īstajai īstajam īstajiem īstajos īstajā īstajām īstajās īstam īstas īstie īstiem īsto īstos īstu īstus īstā īstāks īstām īstās
+27	227	mīlēt	jāmīl mīl mīlam mīlamais mīlams mīlat mīli mīliet mīlot mīlošais mīlošs mīlu mīlēdams mīlēja mīlēji mīlējis mīlēju mīlējām mīlējāt mīlēs mīlēsi mīlēsiet mīlēsim mīlēsit mīlētais mīlēts mīlētu mīlēšana mīlēšanas mīlēšanos mīlēšanu mīlēšanā mīlēšot mīlēšu mīļot mīļotais nemīlēt
+28	228	sports	sport sporta sportam sporti sportiem sportu sportus sportā
+29	229	dabūt	dabū dabūja dabūjam dabūjamais dabūjams dabūjat dabūji dabūjiet dabūjis dabūjot dabūju dabūjām dabūjāt dabūs dabūsi dabūsiet dabūsim dabūsit dabūts dabūtu dabūšana dabūšanai dabūšanas dabūšani dabūšanu dabūšanā dabūšanās dabūšot dabūšu jādabū nedabūt
+30	230	nakts	nakam naki nakos naks nakti naktij naktis naktī naktīm naktīs nakā nakšu
+31	231	skaits	skait skaita skaitam skaiti skaitiem skaitos skaitu skaitus skaitā
+32	232	pasākums	pasākum pasākuma pasākumam pasākumi pasākumiem pasākumos pasākumu pasākumus pasākumā
+33	233	noteikti	
+34	234	mamma	mammai mammam mammas mammi mammu mammā mammām
+35	235	sistēma	sistēmai sistēmam sistēmas sistēmu sistēmā sistēmām sistēmās
+36	236	kārtībā	
+37	237	situācija	situācijai situācijas situāciju situācijā situācijām situācijās
+38	238	prom	
+39	239	radīt	jārada neradīt rada radi radiet radot radošo radošs radošā radošās radu radām radāt radīdams radīja radīji radījis radīju radījām radījāt radīs radīsi radīsiet radīsim radīsit radīta radīto radīts radītu radīšana radīšot radīšu
+40	240	grāmata	grāmatai grāmatam grāmatas grāmati grāmatu grāmatus grāmatā grāmatām grāmatās
+41	241	mašīna	mašīnai mašīnam mašīnas mašīni mašīnu mašīnā mašīnām mašīnās
+42	242	vīrietis	vīrieti vīrietim vīrietī vīrieša vīrieši vīriešiem vīriešos vīriešu vīriešus
+43	243	nevis	
+44	244	policija	policijai policijas policiju policijā
+45	245	vīrs	vīr vīra vīram vīri vīriem vīros vīru vīrus vīrā
+46	246	cena	cenai cenam cenas cenos cenu cenā cenām cenās
+47	247	censties	censtos centies centieties centos centāmies centās centāties centīsies centīsieties centīsimies centīšos centīšoties cenzdamies cenšamies cenšanās cenšas cenšaties cenšos cenšoties jācenšas necensties
+48	248	cerēt	cer ceram cerams cerat ceri ceriet cerot ceru cerēdams cerēja cerēji cerējis cerēju cerējām cerējāt cerēs cerēsi cerēsim cerētais cerēts cerētu cerēšana cerēšot cerēšu jācer necerēt
+49	249	atklāt	atklāj atklāja atklājam atklājams atklāji atklājiet atklājis atklājot atklāju atklājām atklājāt atklās atklāsi atklāsiet atklāsim atklāta atklātai atklātais atklātajiem atklātajā atklātajām atklātajās atklātam atklātas atklātie atklātiem atklāto atklātos atklāts atklātu atklātā atklātāks atklātām atklātās atklāšana atklāšu jāatklāj neatklāj neatklāt
+50	250	pārāk	
+51	251	tātad	
+52	252	stāsts	stāst stāsta stāstam stāsti stāstiem stāstos stāstu stāstus stāstā
+53	253	nogalināt	jānogalina nenogalināt nogalina nogalini nogaliniet nogalinot nogalinošs nogalinu nogalināja nogalināji nogalinājis nogalināju nogalinājām nogalinājāt nogalinām nogalinās nogalināsi nogalināsiet nogalināsim nogalināsit nogalināts nogalinātu nogalināšana nogalināšu
+54	254	miljons	miljon miljona miljonam miljoni miljoniem miljonos miljonu miljonus miljonā
+55	255	eiro	
+56	256	puisis	puisi puisim puisī puiu puiša puiši puišiem puišos puišu puišus
+57	257	piedot	jāpiedod nepiedot piedeva piedevi piedevis piedevu piedevām piedod piedodam piedodams piedodat piedodiet piedodot piedodošs piedodu piedos piedosi piedosiet piedosim piedosit piedots piedotu piedošana piedošu
+58	258	beigas	beigu beigām beigās
+59	259	kultūra	kultūrai kultūras kultūri kultūru kultūrā kultūrām kultūrās
+60	260	filma	filmai filmas filmu filmā filmām filmās
+61	261	sākums	sākuma sākumam sākumi sākumiem sākumos sākumu sākumus sākumā
+62	262	prieks	prieca priek prieka priekam prieki priekiem priekos prieku priekus priekā
+63	263	piedalīties	piedaloties piedalās piedalījusies piedalījušies piedalījās piedalīsies
+64	264	likums	likum likuma likumam likumi likumiem likumos likumu likumus likumā
+65	265	dziesma	dziesmai dziesmam dziesmas dziesmu dziesmā dziesmām dziesmās
+66	266	mērķis	mērķa mērķi mērķiem mērķim mērķos mērķu mērķus mērķī
+67	267	šobrīd	
+68	268	atbalsts	atbalst atbalsta atbalstam atbalsti atbalstiem atbalstos atbalstu atbalstus atbalstā
+69	269	ārā	
+70	270	vienīgs	vienīga vienīgai vienīgais vienīgajai vienīgajam vienīgajiem vienīgajā vienīgajām vienīgajās vienīgam vienīgas vienīgie vienīgiem vienīgo vienīgos vienīgu vienīgus vienīgā vienīgās
+71	271	vismaz	
+72	272	darbinieks	darbiniece darbiniecei darbinieces darbinieci darbiniecēm darbiniee darbiniek darbinieka darbiniekam darbinieki darbiniekiem darbiniekos darbinieku darbiniekus darbiniekā darbinieču
+73	273	izglītība	izglītībai izglītības izglītību izglītībā
+74	274	joprojām	
+75	275	rakstīt	jāraksta nerakstīt raksta raksti rakstiet rakstot rakstošais rakstošs rakstu rakstām rakstāma rakstāmais rakstāmas rakstāmi rakstāmos rakstāms rakstāt rakstīdams rakstīja rakstīji rakstījis rakstīju rakstījām rakstījāt rakstīs rakstīsi rakstīsiet rakstīsim rakstīsit rakstītais rakstīts rakstītu rakstīšana rakstīšanai rakstīšanas rakstīšanu rakstīšanā rakstīšot rakstīšu
+76	276	kamēr	
+77	277	savukārt	
+78	278	it	
+79	279	darbība	darbībai darbībam darbības darbību darbībā darbībām darbībās
+80	280	izdoties	izdevies izdevās izdodas izdosies neizdevās neizdodas
+81	281	palīdzība	palīdzībai palīdzības palīdzību palīdzībā
+82	282	banka	bankai bankam bankas banku bankā bankām bankās
+83	283	sabiedrība	sabiedrībai sabiedrības sabiedrību sabiedrībā sabiedrībām sabiedrībās
+84	284	mūzika	mūzikai mūzikas mūziki mūziku mūzikā mūzikām mūzikās
+85	285	programma	programmai programmas programmu programmā programmām programmās
+86	286	galva	galvai galvam galvas galvos galvu galvā galvām galvās
+87	287	vecāki	vecākiem vecākos vecāku vecākus
+88	288	prezidents	prezident prezidenta prezidentam prezidente prezidentei prezidentes prezidenti prezidentiem prezidentu prezidentus prezidentā prezidentē prezidentēm
+89	289	gandrīz	
+90	290	dēls	dēla dēlam dēli dēliem dēlos dēlu dēlus dēlā
+91	291	doma	domai domam domas domu domus domām domās
+92	292	velns	veln velna velnam velni velniem velnu velnus velnā
+93	293	sirds	sirdi sirdij sirdis sirdī sirdīm sirdīs siržu
+94	294	drošība	drošībai drošības drošību drošībus drošībā
+95	295	ziņas	ziņam ziņu ziņām ziņās
+96	296	nedaudz	
+97	297	minūte	minūtei minūtes minūti minūtē minūtēm minūtēs minūšu
+98	298	noteikt	noteic noteica noteici noteicis noteicošais noteicu noteicām noteicāt noteiks noteiksi noteiksim noteikta noteiktai noteiktais noteiktajai noteiktajam noteiktajiem noteiktajos noteiktajā noteiktajām noteiktajās noteiktam noteiktas noteiktie noteiktiem noteikto noteiktos noteikts noteiktu noteiktus noteiktā noteiktām noteiktās noteikšana noteikšanai noteikšanas noteikšanu noteikšanā noteikšu
+99	299	ierasties	censtos ieradies ierados ieradusies ieradušies ieradāmies ieradās ieradāties ieradīsies ieradīsieties ieradīsimies ieradīsities ieradīšos ieradīšoties ierašanās ierodamies ierodas ierodaties ierodies ierodieties ierodos ierodoties jāierodas neierasties
+100	300	daži	daža dažas

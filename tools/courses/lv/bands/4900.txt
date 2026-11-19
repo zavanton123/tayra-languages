@@ -1,100 +1,100 @@
-1	4801	niķelis	niķelī niķeļa
-2	4802	forele	foreles foreli forelēm foreļu
-3	4803	kurds	kurdi kurdu kurdus
-4	4804	lasītava	lasītavas lasītavu lasītavā
-5	4805	ornitoloģija	ornitoloģijas
-6	4806	az	
-7	4807	vokālists	vokāliste vokālisti vokālistu
-8	4808	meteorīts	
-9	4809	sniegputenis	sniegputeņi
-10	4810	debils	debila debilais debilajai debili
-11	4811	ananass	ananasa ananasam ananasi ananasu
-12	4812	budisms	budisma
-13	4813	zīdīt	zīda zīdu zīdījuši zīdītu zīdīšana zīdīšanas
-14	4814	stieple	stieples stiepli stiepļu
-15	4815	sarunvaloda	sarunvalodas sarunvalodā
-16	4816	batons	batoniņi batoniņiem batoniņu batoniņš
-17	4817	tīklene	tīklenes
-18	4818	darva	darvas darvu
-19	4819	vējdzirnavas	vējdzirnavām
-20	4820	zilbe	zilbes zilbi
-21	4821	aizsaule	aizsaules aizsaulē
-22	4822	bezatbildība	bezatbildībai bezatbildības bezatbildību bezatbildībā
-23	4823	erotisks	erotiska erotiskajai erotiskas erotisko erotiskos erotisku erotiskā erotiskākais erotiskākajā erotiskākā erotiskās
-24	4824	taktisks	ais
-25	4825	asināt	asina asini asinu asinās asināšana
-26	4826	filozofisks	filozofiska filozofiskai filozofiskajai filozofiskajiem filozofiskajās filozofiskas filozofisko filozofisku filozofiskā filozofiskām
-27	4827	nepaklausīgs	nepaklausīga nepaklausīgais nepaklausīgajiem nepaklausīgi nepaklausīgie nepaklausīgos nepaklausīgu nepaklausīgus
-28	4828	nedzīvojam	
-29	4829	trompete	trompetes trompeti trompešu
-30	4830	mītisks	mītiska mītiskajā mītiski mītisko mītisku mītiskā mītiskās
-31	4831	stāstnieks	stāstniece stāstnieka stāstnieki
-32	4832	nozāģēt	jānozāģē nenozāģēt nozāģē nozāģēja nozāģējot nozāģēju nozāģēs nozāģēts nozāģēšana
-33	4833	dzimumorgāns	dzimumorgāni dzimumorgāniem dzimumorgānu dzimumorgānus
-34	4834	znots	znota znotu
-35	4835	rūķītis	rūķīti rūķītim rūķītī
-36	4836	uguņošana	
-37	4837	pilēt	pil pili pilot pilēja
-38	4838	nočiept	nočiepj nočieptu nočiepu
-39	4839	vētrasputns	vētrasputn
-40	4840	kapitālists	kapitālista kapitāliste kapitālisti kapitālistu
-41	4841	veiklība	veiklības veiklību
-42	4842	laukakmens	laukakmeņi laukakmeņiem laukakmeņu
-43	4843	kivi	
-44	4844	medūza	medūzas medūzu
-45	4845	kājnieki	
-46	4846	spīdīgi	
-47	4847	ticamāk	
-48	4848	grābstīties	grābstās grābstāties grābstījies grābstījās grābstīšanās
-49	4849	apvaldīt	apvalda apvaldi apvaldīju apvaldītu jāapvalda
-50	4850	svarīgums	svarīgumu
-51	4851	cauna	caunas caune caunu
-52	4852	bumbieris	bumbieri bumbieriem bumbieru bumbierus
-53	4853	iespēt	iespēj iespējam iespējis iespējošs iespēju iespējām iespēsi iespēsim iespēts jāiespēj neiespēt
-54	4854	pantera	panteras panteru panterām
-55	4855	sīknauda	sīknaudai sīknaudas sīknaudu
-56	4856	vāverēns	vāverēn vāverēni vāverēnu
-57	4857	spora	sporas sporu sporām
-58	4858	blaka	blakām
-59	4859	paparde	papardes papardēm papardēs paparžu
-60	4860	pavasarīgs	pavasarīgais pavasarīgajai pavasarīgajiem pavasarīgajā pavasarīgam pavasarīgas pavasarīgiem pavasarīgo pavasarīgos pavasarīgu pavasarīgā pavasarīgām
-61	4861	dobs	dobi dobu dobās
-62	4862	čūla	čūlas
-63	4863	antropoloģija	antropoloģijas antropoloģiju antropoloģijā
-64	4864	islandiete	islandieši islandiešiem islandiešu islandiešus
-65	4865	baltvīns	baltvīna baltvīni baltvīnu baltvīnā
-66	4866	kotlete	kotletes kotleti kotletēs kotlešu
-67	4867	rokmūzika	rokmūzikas rokmūziku
-68	4868	karuselis	karuseli karuseļa karuseļi karuseļiem karuseļos karuseļu
-69	4869	klēts	klētij klētī
-70	4870	rindkopa	rindkopai rindkopas rindkopu rindkopā rindkopām
-71	4871	slīdēt	slīdēja
-72	4872	okupācija	
-73	4873	bešā	
-74	4874	pārnēsāt	pārnēsā pārnēsāja pārnēsājams pārnēsāts
-75	4875	brūklene	brūklenes brūkleņu
-76	4876	rūgti	
-77	4877	liga	ligas ligu
-78	4878	akmeņogle	akmeņogles akmeņoglēm akmeņoglēs akmeņogļu
-79	4879	nedzirdīgs	nedzirdīgajiem nedzirdīgi nedzirdīgie nedzirdīgiem nedzirdīgo
-80	4880	kalve	
-81	4881	zeltains	zeltainais zeltainajām zeltainas zeltainie zeltainiem zeltainos zeltainus
-82	4882	matemātiķis	matemātiķa matemātiķe matemātiķi matemātiķu matemātiķus
-83	4883	optimists	optimist optimiste optimisti
-84	4884	vistālāk	
-85	4885	podnieks	podnieka podnieki podnieku
-86	4886	vairogdziedzeris	vairogdziedzera
-87	4887	violeti	
-88	4888	aorta	aortas aortu aortā
-89	4889	er	
-90	4890	daiļslidošana	daiļslidošanas daiļslidošanā
-91	4891	mundrs	mundra mundrā mundrāks
-92	4892	mājlops	mājlopi mājlopiem mājlopu mājlopus
-93	4893	krustdēls	krustdēla krustdēlam krustdēlu
-94	4894	kodolkarš	kodolkara kodolkaram kodolkaru kodolkarā
-95	4895	kapakmens	kapakmeni kapakmenim kapakmeņiem kapakmeņu kapakmeņus
-96	4896	nacionāli	
-97	4897	miegains	miegainais miegainam miegainas miegaini miegainiem miegainu miegaināki miegaināks
-98	4898	blūze	blūzes blūzi blūzē blūzēm
-99	4899	leģions	
-100	4900	mist	mita mitis mītam mītot mītu
+1	4801	kapakmens	kapakmeni kapakmenim kapakmeņi kapakmeņiem kapakmeņu kapakmeņus
+2	4802	demokrātiski	
+3	4803	miegains	miegaina miegainai miegainais miegainajā miegainam miegainas miegaini miegainie miegainiem miegainos miegainu miegainā miegaināks miegainām miegainās vismiegainākais
+4	4804	mazturīgs	mazturīga mazturīgai mazturīgais mazturīgajai mazturīgajiem mazturīgajos mazturīgajām mazturīgajās mazturīgam mazturīgas mazturīgie mazturīgiem mazturīgo mazturīgos mazturīgu mazturīgus mazturīgā mazturīgāks mazturīgām mazturīgās
+5	4805	sarkanvīns	sarkanvīna sarkanvīnam sarkanvīni sarkanvīniem sarkanvīnos sarkanvīnu sarkanvīnus sarkanvīnā
+6	4806	anarhija	anarhijai anarhijas anarhiju anarhijā
+7	4807	ugunsmūris	ugunsmūra ugunsmūri ugunsmūriem ugunsmūrim ugunsmūru ugunsmūrus ugunsmūrī
+8	4808	stomatoloģija	stomatoloģijai stomatoloģijas stomatoloģiju stomatoloģijā
+9	4809	rāpot	
+10	4810	neons	neon neona neonu neonā
+11	4811	masturbācija	masturbācijai masturbācijas masturbāciju masturbācijā
+12	4812	kivi	
+13	4813	žāvētājs	žāvētāja žāvētājam žāvētāji žāvētājiem žāvētājos žāvētāju žāvētājus žāvētājā
+14	4814	asns	asna asnam asni asniem asnos asnu asnus asnā
+15	4815	oāze	oāzes oāzi oāzē oāzēm oāzēs oāžu
+16	4816	mazgātājs	mazgātāja mazgātājai mazgātājam mazgātājas mazgātāji mazgātājiem mazgātāju mazgātājus mazgātājā mazgātājām
+17	4817	violeti	
+18	4818	strēmele	strēmelei strēmeles strēmeli strēmelē strēmelēm strēmelēs strēmeļu
+19	4819	spora	sporas sporu sporām sporās
+20	4820	atstāstīt	atstāsta atstāsti atstāstot atstāstu atstāstām atstāstīja atstāstījis atstāstīju atstāstīs atstāstīsi atstāstīsim atstāstīts atstāstītu atstāstīšana atstāstīšanu atstāstīšu jāatstāsta
+21	4821	emirāts	emirāta emirātam emirāti emirātiem emirātos emirātu emirātus emirātā
+22	4822	šizofrēnija	šizofrēnijai šizofrēnijas šizofrēniju
+23	4823	pretgaisa	
+24	4824	biedēklis	biedēkli biedēklim biedēkļi biedēkļiem
+25	4825	baudītājs	baudītāja baudītājam baudītāji baudītājiem baudītāju baudītājus
+26	4826	paradoksāli	
+27	4827	zutis	zuti zutī zuša zuši zušiem zušu zušus
+28	4828	kājnieki	
+29	4829	metenis	metei meteni metenim meteņa meteņi meteņiem meteņos meteņu meteņus
+30	4830	vīrišķība	vīrišķībai vīrišķības vīrišķību vīrišķībā
+31	4831	ubagot	jāubago ubago ubagoja ubagojam ubagojis ubagojot ubagoju ubagojām ubagos ubagotu ubagošana ubagošanai ubagošanas ubagošanu ubagošanā
+32	4832	slidošana	slidošanai slidošanas slidošanu slidošanā
+33	4833	pusdiena	pusdienai pusdienam pusdienu pusdienā pusdienām pusdienās
+34	4834	plakstiņš	plakstiņa plakstiņi plakstiņiem plakstiņu plakstiņus
+35	4835	netīrība	netīrības netīrību netīrībā
+36	4836	kustonis	kustoni kustonim kustoņa kustoņi kustoņiem kustoņos kustoņu kustoņus
+37	4837	starppilsētu	
+38	4838	er	
+39	4839	kārot	kāro kāroja kārojams kārojat kārojiet kārojis kārojot kāroju kāros kārots kārotu
+40	4840	piecnieks	piecnieka piecniekam piecnieki piecniekiem piecnieku piecniekus piecniekā
+41	4841	velnišķīgs	velnišķīga velnišķīgas velnišķīgos velnišķīgu velnišķīgā velnišķīgāks velnišķīgām velnišķīgās
+42	4842	demonstrācija	
+43	4843	cietviela	cietvielas cietvielu cietvielās
+44	4844	bērnistaba	bērnistabai bērnistabas bērnistabu bērnistabā bērnistabām bērnistabās
+45	4845	naksnīgs	naksnīga naksnīgais naksnīgajai naksnīgajam naksnīgajiem naksnīgajā naksnīgajām naksnīgajās naksnīgas naksnīgiem naksnīgo naksnīgos naksnīgu naksnīgā naksnīgām naksnīgās
+46	4846	velnišķīgi	
+47	4847	ģeologs	ģeologa ģeologam ģeologi ģeologiem ģeologu ģeologus ģeoloģe
+48	4848	dzelt	dzel dzels dzelsi dzeļ dzēla
+49	4849	homoseksuāls	anālas homoseksuāla homoseksuālais homoseksuālajam homoseksuālajiem homoseksuālajām homoseksuālajās homoseksuālam homoseksuālas homoseksuālie homoseksuāliem homoseksuālo homoseksuālu homoseksuālus homoseksuālā homoseksuālām homoseksuālās
+50	4850	sinonīmi	
+51	4851	bise	
+52	4852	rūda	rūdai rūdas rūdi rūdu rūdām rūdās
+53	4853	algebra	algebras algebru algebrā
+54	4854	cilvēcīgi	
+55	4855	gaumīgi	
+56	4856	baronese	baronesei baroneses baronesi baronešu
+57	4857	cīpsla	cīpslai cīpslas cīpslu cīpslā cīpslām
+58	4858	vīģe	vīģes vīģu vīģēm
+59	4859	baltums	baltum baltuma baltumam baltumi baltumiem baltumos baltumu baltumus baltumā
+60	4860	amizanti	
+61	4861	tirāns	tirān tirāna tirānam tirāni tirāniem tirānu tirānus tirānā
+62	4862	lokans	lokana lokanajai lokanajiem lokanajām lokanas lokani lokano lokanu lokanā lokanās
+63	4863	fizioloģisks	fizioloģiska fizioloģiskais fizioloģiskajam fizioloģiskajiem fizioloģiskajos fizioloģiskajā fizioloģiskajām fizioloģiskam fizioloģiskas fizioloģiskie fizioloģisko fizioloģiskos fizioloģisku fizioloģiskus fizioloģiskā fizioloģiskām fizioloģiskās
+64	4864	smilšakmens	smilšakmeni smilšakmenī smilšakmeņi smilšakmeņos smilšakmeņu
+65	4865	kentaurs	kentaur kentaura kentauri kentauriem kentauru kentaurus
+66	4866	mērķtiecība	mērķtiecībai mērķtiecības mērķtiecību mērķtiecībā
+67	4867	jena	jenas jenu jenām
+68	4868	itāliski	
+69	4869	leģions	
+70	4870	paukošana	paukošanai paukošanas paukošanu paukošanā paukošanās
+71	4871	dārgmetāls	dārgmetāla dārgmetālam dārgmetāli dārgmetāliem dārgmetālos dārgmetālu dārgmetālus dārgmetālā
+72	4872	slovāks	slovāka slovākam slovāki slovākiem slovākiete slovākietēm slovākos slovāku
+73	4873	sinonīms	sinonīma sinonīmiem sinonīmu sinonīmus
+74	4874	ercens	ercena erceni ercenu
+75	4875	upene	upee upenes upeni upenēm upenēs upeņu
+76	4876	arlabvakar	
+77	4877	mjau	
+78	4878	dārzkopis	dārzkope dārzkopes dārzkopi dārzkopim dārzkopja dārzkopji dārzkopjiem dārzkopju dārzkopjus
+79	4879	veikalnieks	veikalniece veikalniecei veikalnieces veikalniecē veikalnieka veikalniekam veikalnieki veikalniekiem veikalnieku veikalniekus veikalniekā
+80	4880	ķauķis	ķauķi ķauķu
+81	4881	ventilis	ventili ventiļa ventiļi ventiļiem ventiļu ventiļus
+82	4882	piektdaļa	piektdaļai piektdaļas piektdaļu piektdaļā piektdaļām
+83	4883	fašisms	fašisma fašismam fašismiem fašismu fašismā
+84	4884	iekša	iekšam iekšu
+85	4885	cūciņa	cūciņai cūciņas cūciņu cūciņā cūciņām
+86	4886	albāniete	albāni albāņi albāņiem albāņu albāņus
+87	4887	kuilis	kuili kuilim kuiļa kuiļi kuiļiem kuiļu kuiļus
+88	4888	bārdains	bārdaina bārdainais bārdainajiem bārdainajos bārdainajā bārdainas bārdaini bārdainie bārdainiem bārdaino bārdainos bārdainu bārdainā bārdaināks
+89	4889	sniegavīrs	sniegavīra sniegavīram sniegavīri sniegavīriem sniegavīros sniegavīru sniegavīrus
+90	4890	kaļķakmens	kaļķakmeni kaļķakmenim
+91	4891	centīgi	
+92	4892	baltiņš	baltiņ baltiņa baltiņam baltiņi baltiņiem baltiņu
+93	4893	azote	azotei azotes azoti azotē
+94	4894	pārkrāsot	jāpārkrāso pārkrāso pārkrāsoja pārkrāsojam pārkrāsojams pārkrāsoji pārkrāsojis pārkrāsojot pārkrāsoju pārkrāsos pārkrāsots pārkrāsotu pārkrāsošana pārkrāsošu
+95	4895	leopards	leopard leoparda leopardam leopardi leopardiem leopardu leopardus leopardā
+96	4896	jaguārs	jaguāra jaguāram jaguāru jaguārā
+97	4897	abatija	abatijas abatiju abatijā
+98	4898	topogrāfisks	topogrāfiskais topogrāfiskajai topogrāfiskajiem topogrāfiskajos topogrāfiskajā topogrāfiskajām topogrāfiskajās topogrāfiskie topogrāfisko topogrāfiskos topogrāfiskā topogrāfiskām topogrāfiskās
+99	4899	zosāda	zosādai zosādas zosādu
+100	4900	nātre	nātres nātru nātrēm nātrēs

@@ -1,100 +1,100 @@
-1	5501	oboja	obojai obojas oboju
-2	5502	veikalnieks	veikalnieki veikalnieku
-3	5503	miegainība	miegainības
-4	5504	pelnošais	pelnošajām pelnošo pelnošos pelnošā
-5	5505	mazturīgs	mazturīgajiem mazturīgie mazturīgo mazturīgos mazturīgākajiem mazturīgām
-6	5506	intīmāks	intīmais intīmākajās intīmākas intīmāki intīmākos intīmākus visintīmākās
-7	5507	dubļains	dubļaina dubļaino
-8	5508	caurvējš	caurvēja caurvējos
-9	5509	gludeklis	gludekļa
-10	5510	vālodze	vālodzes
-11	5511	visskaidrāk	
-12	5512	auskars	
-13	5513	spožāk	
-14	5514	stings	stinga
-15	5515	sirmi	
-16	5516	ārprātīgi	
-17	5517	asāk	
-18	5518	gaļēdājs	gaļēdāji gaļēdājiem
-19	5519	neuzdodot	
-20	5520	pļaujmašīna	pļaujmašīnas pļaujmašīnu
-21	5521	daiļums	daiļuma daiļumu
-22	5522	cilvēcīgums	cilvēcīguma cilvēcīgumu
-23	5523	fizioloģija	fizioloģijas fizioloģiju
-24	5524	grāfiste	grāfistes grāfistē
-25	5525	pelavas	pelavu pelavām
-26	5526	menisks	meniska
-27	5527	nūjot	
-28	5528	starpbanku	
-29	5529	homoseksualitāte	homoseksualitātes homoseksualitāti
-30	5530	tadžikiete	tadžiki tadžiku
-31	5531	fjords	fjordi fjordu
-32	5532	tautisks	tautiskas tautisko tautisku
-33	5533	oftalmologs	oftalmologa oftalmologu
-34	5534	redīss	redīsi redīsiem redīsu redīsus
-35	5535	upene	upenes upenēm upenēs upeņu
-36	5536	etnogrāfija	etnogrāfijas
-37	5537	nemainītais	nemainīto nemainītos
-38	5538	tece	teci tecēs tei
-39	5539	ņau	
-40	5540	salnis	saus
-41	5541	rātni	
-42	5542	smieklīgāk	
-43	5543	neprātība	
-44	5544	erchercogs	
-45	5545	irīdijs	
-46	5546	erceņģelis	erceņģeli
-47	5547	daudzskaitlis	daudzskaitlī daudzskaitļa
-48	5548	gnīda	gnīdai gnīdas
-49	5549	stingums	stinguma
-50	5550	ienaids	ienaidu
-51	5551	ņieburs	ņieburā
-52	5552	kija	kijai
-53	5553	slapjums	slapjuma
-54	5554	astotdaļa	astotdaļu astotdaļām
-55	5555	šķēlums	šķēlumu šķēlumā
-56	5556	viesmīlīgs	viesmīlīgu
-57	5557	nīlzirgs	nīlzirga
-58	5558	velnēns	velnēn
-59	5559	astrofizika	astrofizikas astrofiziku
-60	5560	sarkanbrūns	sarkanbrūnajā sarkanbrūni
-61	5561	lāsteka	lāstekas lāsteku lāstekām
-62	5562	svītrains	svītrainais svītrainām
-63	5563	zemesrags	zemesraga zemesragā
-64	5564	šķīstums	šķīstum šķīstuma
-65	5565	jaunavība	jaunavības jaunavībā
-66	5566	stiebrs	stiebra stiebrā
-67	5567	ģeogrāfiskāks	ģeogrāfiskais
-68	5568	ceptais	ceptajiem ceptie cepto ceptā ceptās
-69	5569	imperiālistisks	imperiālistiskajiem imperiālistiskas imperiālistisko imperiālistiskos imperiālistiskām
-70	5570	anatomisks	anatomiskas anatomiski anatomiskie anatomiskām anatomiskās
-71	5571	saldens	saldenu saldenās
-72	5572	aristokrātija	aristokrātijai aristokrātijas
-73	5573	mobilizācija	mobilizāciju
-74	5574	mundrums	mundruma mundrumam mundrumu
-75	5575	draisks	draiskie draisku draiskām draiskās
-76	5576	bē	
-77	5577	kajaks	kajakiem kajaku
-78	5578	oligarhs	
-79	5579	eksistējošais	eksistējošo eksistējošā eksistējošās
-80	5580	smaidīgi	
-81	5581	rūsēt	rūsu rūsē
-82	5582	kaņepe	kaņepi kaņepju kaņepēm
-83	5583	gļēvulība	gļēvulības gļēvulību
-84	5584	ceļasoma	ceļasomas ceļasomās
-85	5585	amerikānisks	amerikānisko amerikāniskās
-86	5586	nesacept	sacep sacepiet saceptu sacepušas
-87	5587	namamāte	namamātei namamātes
-88	5588	bezrūpība	bezrūpības bezrūpību
-89	5589	šantāža	
-90	5590	nelidojam	
-91	5591	ekologs	ekologi
-92	5592	vēsums	vēsuma
-93	5593	botānika	botānikas botāniku
-94	5594	taustīt	netaustāmu tausti
-95	5595	augušais	augusī augušo augušās
-96	5596	kalvis	
-97	5597	rusofobija	
-98	5598	socioloģisks	socioloģisko
-99	5599	tramplīns	
-100	5600	uzbekiete	uzbeku
+1	5501	melnis	melnim meļņa
+2	5502	aizgalds	aizgalda aizgaldi aizgaldiem aizgaldos aizgaldu aizgaldā
+3	5503	viese	viei vieiem vieses viesi viesu vieu
+4	5504	meitenīgs	meitenīga meitenīgais meitenīgam meitenīgi meitenīgo meitenīgu meitenīgā meitenīgās
+5	5505	deviņnieks	deviņniekam deviņnieki deviņniekiem deviņnieku devītnieks
+6	5506	arsēns	arsēna arsēnu
+7	5507	grāfiste	grāfistes grāfistē
+8	5508	stomatoloģisks	stomatoloģiskajai stomatoloģiskas stomatoloģisko stomatoloģiskā stomatoloģiskās
+9	5509	klavierkoncerts	klavierkoncerta klavierkoncerti klavierkoncertu klavierkoncertus klavierkoncertā
+10	5510	kompjūters	kompjūter kompjūtera kompjūteri kompjūteriem kompjūteros kompjūteru kompjūterus
+11	5511	harisma	harismas harismu harizma
+12	5512	badastreiks	badastreika badastreiki badastreiku
+13	5513	intīmi	
+14	5514	virst	verd verdošs virta virtu
+15	5515	iracionāli	
+16	5516	arābiski	
+17	5517	zviegt	jāzviedz nezviegt zviedz zviedzam zviedzu zviegtu zviegšana
+18	5518	freska	freskas fresku freskā freskām freskās
+19	5519	dubultzods	dubultzoda dubultzodam dubultzodiem dubultzodu
+20	5520	rudmatains	rudmatainais rudmatainajiem rudmataino rudmatainos rudmatainu rudmatainā
+21	5521	duraks	durak duraka duraki durakiem duraku durakus
+22	5522	kalnains	kalnaina kalnainajā kalnainajām kalnainam kalnaini kalnainie kalnainiem kalnaino kalnainos kalnainu kalnainā kalnaināks kalnainās
+23	5523	pieturzīme	pieturzīmes pieturzīmi pieturzīmju pieturzīmēm
+24	5524	borščs	boršča boršču
+25	5525	lokanība	lokanībai lokanības lokanību lokanībā
+26	5526	amfiteātris	amfiteātra amfiteātri amfiteātrim amfiteātrī
+27	5527	svešāds	svešāda svešādais svešādajā svešādo svešādos svešādā
+28	5528	anglisks	angliska angliskais angliskajam angliskajiem angliskajā angliskajām angliskam angliskas angliskie angliskiem anglisko angliskos anglisku angliskā angliskām angliskās
+29	5529	mafins	mafina mafinam mafini mafiniem mafinu mafinus
+30	5530	tuvredzība	tuvredzībai tuvredzības tuvredzību tuvredzībā
+31	5531	puravs	purava puravi puraviem puravu puravus
+32	5532	sirdskaite	sirdskaites sirdskaiti sirdskaitēm sirdskaišu
+33	5533	žigls	visžiglākais žigla žiglais žiglajiem žiglas žiglie žigliem žiglo žiglu
+34	5534	purvājs	purvāja purvāji purvājiem purvāju purvājā
+35	5535	vietniekvārds	vietniekvārda vietniekvārdi vietniekvārdiem vietniekvārdu vietniekvārdus
+36	5536	kustīgums	kustīguma kustīgumam kustīgumu kustīgumā
+37	5537	necaurredzams	necaurredzama necaurredzamais necaurredzami necaurredzamiem necaurredzamu necaurredzamā necaurredzamāks necaurredzamām
+38	5538	aristokrātija	aristokrātijai aristokrātijas aristokrātiju
+39	5539	ūdensaugs	ūdensaugi ūdensaugiem ūdensaugu ūdensaugus
+40	5540	parītdiena	parītdienai parītdienas parītdienu
+41	5541	pārcept	nepārcept pārcepts pārceptu pārcepšana
+42	5542	dievināšana	dievināšanas dievināšanu dievināšanā
+43	5543	skuveklis	
+44	5544	smadzenītes	smadzenītēm smadzenītēs
+45	5545	kokzāģētava	kokzāģētavas kokzāģētavu kokzāģētavā kokzāģētavās
+46	5546	staltbriedis	staltbriedi staltbriedim staltbrieža staltbrieži staltbriežiem staltbriežu staltbriežus
+47	5547	piedēklis	piedēkli piedēkļa piedēkļi piedēkļiem piedēkļus
+48	5548	mobilizācija	mobilizāciju
+49	5549	oligarhs	
+50	5550	pipele	pipelei pipeles pipeli pipeļu
+51	5551	gigantiski	
+52	5552	uzcītība	uzcītībai uzcītības uzcītību uzcītībā
+53	5553	humoristisks	humoristiska humoristiskais humoristiskajai humoristiskajā humoristiskam humoristiskas humoristiskie humoristisko humoristiskos humoristisku humoristiskus humoristiskā humoristiskām
+54	5554	kinorežisors	
+55	5555	možums	možuma možumam možumu možumā
+56	5556	dzeltenīgs	dzeltenīga dzeltenīgais dzeltenīgas dzeltenīgo dzeltenīgos dzeltenīgu dzeltenīgus dzeltenīgā dzeltenīgāks
+57	5557	džihāds	džihāda džihādam džihādu džihādā
+58	5558	krēslot	krēslo krēslojis krēslojot krēslos
+59	5559	pilsoniski	
+60	5560	patiesīgums	patiesīguma patiesīgumam patiesīgumu patiesīgumā
+61	5561	vājdzirdīgs	vājdzirdīga vājdzirdīgajiem vājdzirdīgam vājdzirdīgi vājdzirdīgie vājdzirdīgiem vājdzirdīgo vājdzirdīgos vājdzirdīgu
+62	5562	telefonija	telefonijai telefonijas telefoniju telefonijā
+63	5563	ateroskleroze	aterosklerozes aterosklerozi
+64	5564	krustmeita	krustmeitai krustmeitas krustmeitu
+65	5565	tējkanna	
+66	5566	paniņas	paniņu paniņām paniņās
+67	5567	paipala	
+68	5568	plauša	
+69	5569	stiklinieks	stiklinieka stikliniekam stiklinieki stiklinieku
+70	5570	vienšūnis	vienšūņa vienšūņiem vienšūņu
+71	5571	aizmārša	aizmāršam aizmāršas aizmāršos aizmāršu aizmāršām
+72	5572	seksīgums	seksīgumu seksīgumā
+73	5573	mobilais telefons	mobilais telefons
+74	5574	strādīgi	
+75	5575	fizioloģiski	
+76	5576	pedagoģija	
+77	5577	aritmētisks	aritmētiskais aritmētiskajam aritmētiskajā aritmētiskas aritmētisko aritmētiskos aritmētisku aritmētiskā aritmētiskām aritmētiskās
+78	5578	sātanisms	sātanisma sātanismu sātanismā
+79	5579	vārstulis	vārstuli vārstuļa vārstuļi vārstuļiem vārstuļu
+80	5580	arktisks	arktiska arktiskais arktiskajiem arktiskajos arktiskajā arktiskajām arktiskam arktiskas arktiskiem arktisko arktiskā arktiskām arktiskās
+81	5581	liekt	jāliec liec lieca lieci lieciet liecis liecot liekts liektu liekšana
+82	5582	bikšturi	bikšturiem bikšturos bikšturu bikšturus
+83	5583	auskars	
+84	5584	belziens	
+85	5585	tovasar	
+86	5586	piecpadsmitais	
+87	5587	flīze	
+88	5588	kāsēt	kāsē kāsēji kāsējošs kāsēju
+89	5589	rūsēt	rūs rūsam rūsi rūsu rūsē rūsējis rūsējot rūsēšana
+90	5590	ports	porta
+91	5591	klaviermūzika	klaviermūzikai klaviermūzikas klaviermūziku klaviermūzikā
+92	5592	mobili	
+93	5593	rudenīgi	
+94	5594	čaklums	čakluma čaklumu čaklumā
+95	5595	žāvētava	žāvētavai žāvētavas žāvētavu žāvētavā žāvētavām
+96	5596	sarķis	sariem saru sarus
+97	5597	jaunlaiku	
+98	5598	ieapaļš	ieapaļas ieapaļi ieapaļu
+99	5599	ķīniski	
+100	5600	īsviļņi	īsviļņiem īsviļņu

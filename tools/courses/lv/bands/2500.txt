@@ -1,100 +1,100 @@
-1	2401	kopīgs	kopīgo
-2	2402	nervs	nervu
-3	2403	garāža	garāžai garāžas garāžu garāžā garāžām garāžās
-4	2404	gribēties	gribējās negribas
-5	2405	rēķināties	jārēķinās
-6	2406	epidēmija	epidēmijai epidēmijas epidēmiju epidēmijā epidēmijām epidēmijās
-7	2407	derīgs	derīga derīgai derīgais derīgajiem derīgajām derīgam derīgas derīgi derīgie derīgiem derīgo derīgos derīgu derīgus derīgā derīgām derīgās
-8	2408	dabasgāze	dabasgāzei dabasgāzes dabasgāzi
-9	2409	iestāties	iestājoties iestājās
-10	2410	dīķis	dīķa dīķi dīķiem dīķim dīķos dīķu dīķus dīķī
-11	2411	saskarties	saskaras
-12	2412	skolnieks	skolniece skolniecei skolnieces skolnieci skolniecēm skolnieka skolniekam skolnieki skolniekiem skolniekos skolnieku skolniekus
-13	2413	konstitūcija	konstitūcijai konstitūcijas konstitūciju konstitūcijā konstitūcijās
-14	2414	robs	rob roba robam robi robiem robos robu robus robā
-15	2415	greizs	greizais greizajām greizas greizi greizie greiziem greizos greizu greizā greizās
-16	2416	čoms	čom čoma čomam čomi čomiem čomu čomus
-17	2417	attiecīgs	attiecīgo
-18	2418	baltkrievs	baltkrievi baltkrieviem baltkrievietei baltkrievietes baltkrievu baltkrievus
-19	2419	kucēns	kucēn kucēna kucēnam kucēni kucēniem kucēnu kucēnus kucēnā
-20	2420	atvest	atveda
-21	2421	krūms	krūma krūmam krūmi krūmiem krūmos krūmu krūmus krūmā
-22	2422	guļamistaba	guļamistabai guļamistabas guļamistabu guļamistabā guļamistabām guļamistabās
-23	2423	alkoholisks	alkoholiska alkoholiskajiem alkoholiskie alkoholiskiem alkoholisko alkoholiskos alkoholisku alkoholiskā
-24	2424	virve	virvei virves virvi virvju virvē virvēm virvēs
-25	2425	atļaut	atļāva
-26	2426	skaidrojums	skaidrojuma skaidrojumam skaidrojumi skaidrojumiem skaidrojumu skaidrojumus skaidrojumā
-27	2427	iecerēts	iecerēta iecerētas iecerēti iecerētos iecerētu iecerētus iecerētā iecerētās
-28	2428	kritika	kritikai kritikas kritiku kritikā
-29	2429	lēni	
-30	2430	tīrīšana	tīrīšanai tīrīšanas tīrīšanu tīrīšanā
-31	2431	garlaicīgi	
-32	2432	brūns	brūna brūnais brūnajā brūnajām brūnajās brūnas brūnie brūniem brūno brūnos brūnu brūnus brūnā brūnām brūnās
-33	2433	grozs	groza grozam grozi groziem grozos grozu grozus grozā
-34	2434	ekonomists	ekonomista ekonomistam ekonomiste ekonomistes ekonomisti ekonomistiem ekonomistu ekonomistus
-35	2435	seržants	seržant seržanta seržantam seržante seržantiem seržantu
-36	2436	secinājums	secinājumi secinājumus
-37	2437	stadija	stadijai stadijas stadiju stadijā stadijām stadijās
-38	2438	kārtējs	kārtējo
-39	2439	priede	priedei priedes priedi priedē priedēm priedēs priežu
-40	2440	noliegt	noliedz
-41	2441	tērps	tērpu
-42	2442	doks	dok doka dokam doki dokiem dokos doku dokus dokā
-43	2443	šāviens	šāviena šāvieni šāvieniem šāvienu šāvienus šāvienā
-44	2444	karstums	karstuma karstumam karstumu karstumā
-45	2445	ievest	ieved ieveda ievedam ievedat ievedi ievedis ievedot ievedu ievedīs ievedīsi ievedīsiet ievedīsim ievedīšu ievests ievestu ievešana jāieved neievest
-46	2446	eu	
-47	2447	katls	katla katlam katli katliem katlos katlu katlus katlā
-48	2448	lappuse	lappusei lappuses lappusi lappusē lappusēm lappusēs lappušu
-49	2449	ierēdnis	ierēdne ierēdni ierēdnim ierēdņa ierēdņi ierēdņiem ierēdņu ierēdņus
-50	2450	riņķis	riņķa riņķi riņķiem riņķos riņķus riņķī
-51	2451	humors	humora humoru
-52	2452	fiziski	
-53	2453	aizmigt	aizmidzis aizmiedz aizmieg aizmiegam aizmiegot aizmiegu aizmiga aizmigi aizmigs aizmigsi aizmigtu aizmigu aizmigām aizmigšu
-54	2454	neilgs	neilga neilgais neilgajam neilgam neilgi neilgo neilgu neilgā neilgās
-55	2455	barot	baro baroja barojam barojat barojiet barojot barojošs baroju barojām baros barosi barosim barots barotu barošana jābaro nebarot
-56	2456	dēlis	dēi dēis dēli dēlim dēlī dēļa dēļi dēļiem dēļu dēļus
-57	2457	jaunava	jaunavai jaunavas jaunavu jaunavā jaunavām jaunavās
-58	2458	svešinieks	svešiniece svešiniecei svešinieces svešiniek svešinieka svešiniekam svešinieki svešiniekiem svešinieku svešiniekus
-59	2459	tanks	tanka tankam tanki tankiem tankos tanku tankus tankā
-60	2460	pusotrs	pusotra pusotru
-61	2461	neteicu	
-62	2462	prasme	prasmju
-63	2463	rāvējslēdzējs	galda galdam galdi galdiem galdu galdus galdā
-64	2464	jautāju	
-65	2465	priesteris	priestera priesteri priesteriem priesterieni priesterim priesteru priesterus
-66	2466	konkrēti	
-67	2467	bremze	bremzes bremzi bremzē bremzēm bremzēs bremžu
-68	2468	latviski	
-69	2469	izteiksme	izteiksmes izteiksmi izteiksmju izteiksmē izteiksmēm
-70	2470	sega	segai segas segu segā segām
-71	2471	likumīgs	likumīga likumīgai likumīgais likumīgajai likumīgajam likumīgajiem likumīgajām likumīgam likumīgas likumīgie likumīgiem likumīgo likumīgos likumīgu likumīgā likumīgāks likumīgām likumīgās
-72	2472	pienākties	pienākas
-73	2473	inde	indei indes indi indē indēm indēs ini inu inžu
-74	2474	parādība	parādībai parādības parādību parādībā parādībām
-75	2475	smēķēt	smēķē smēķēja smēķējam smēķējat smēķēji smēķējiet smēķējis smēķējot smēķēju smēķējām smēķējāt smēķēšana smēķēšu
-76	2476	arābs	arābi arābiem arābu arābus
-77	2477	šovasar	
-78	2478	dalībvalsts	dalībvalstis
-79	2479	aplikācija	aplikācijai aplikācijas aplikāciju aplikācijā aplikācijām aplikācijās
-80	2480	kopa	kopai kopas kopu kopām
-81	2481	balodis	balodi balodim balodī baloža baloži baložiem baložos baložu baložus
-82	2482	vienot	nevieno nevienos vieno vienoja vienojis vienojoša vienojošas vienojošo vienojošs vienojošu vienoju vienojušās vienosim vienotu vienošanai
-83	2483	atkāpties	
-84	2484	astotais	astotajai astotajam astotajā astotie astoto astotā astotās
-85	2485	traģēdija	traģēdijai traģēdijas traģēdiju traģēdijā traģēdijām
-86	2486	karalisks	karaliskai karaliskais karaliskajai karaliskajam karaliskajos karaliskajā karaliskajām karaliskas karaliskie karalisko karalisku karaliskā karaliskās
-87	2487	pedagogs	pedagogu
-88	2488	norisināties	norisinās
-89	2489	nūja	nūjai nūjas nūju nūjām
-90	2490	dejotāja	dejotājai dejotājas dejotāji dejotājiem dejotājs dejotāju dejotājus dejotājām
-91	2491	jahta	jahtai jahtas jahtu jahtā jahtām jahtās
-92	2492	lielveikals	lielveikala lielveikalam lielveikali lielveikaliem lielveikalos lielveikalu lielveikalus lielveikalā
-93	2493	varš	varu varā
-94	2494	akcentēt	akcentē akcentēja akcentējam akcentējis akcentēju akcentējusi akcentējušas akcentējuši akcentējām akcentēs akcentēsim akcentētu akcentēšanai jāakcentē
-95	2495	tehnoloģisks	tehnoloģiskais tehnoloģiskajai tehnoloģiskajiem tehnoloģiskajā tehnoloģiskajām tehnoloģiskajās tehnoloģiskas tehnoloģiski tehnoloģiskie tehnoloģiskiem tehnoloģisko tehnoloģiskos tehnoloģisku tehnoloģiskus tehnoloģiskā tehnoloģiskām tehnoloģiskās
-96	2496	uzturēties	uzturas
-97	2497	dvīnis	dvīne dvīnes dvīnim dvīņa dvīņi dvīņiem dvīņu dvīņus
-98	2498	pūt	jāpūš nepūst puvi pūst pūsti pūsts pūstu pūta pūtīs pūtīsim pūtīšu pūš pūšana pūšanas pūšanās pūšat pūšot
-99	2499	kapsēta	kapsētai kapsētas kapsētu kapsētā kapsētām kapsētās
-100	2500	mēbele	mēbelei mēbeli mēbelēm mēbelēs mēbeļu
+1	2401	lepns	lepna lepnai lepnais lepnajai lepnajam lepnajiem lepnajā lepnajām lepnajās lepnam lepnas lepnie lepniem lepno lepnos lepnu lepnus lepnā lepnāks lepnām lepnās
+2	2402	inde	indei indes indi indē indēm indēs ini inu inžu
+3	2403	patērētājs	patērētāju
+4	2404	buss	bus busa busam busi busiem busos busu busus busā
+5	2405	strēlnieks	strēlniece strēlnieces strēlnieci strēlniek strēlnieka strēlniekam strēlnieki strēlniekiem strēlniekos strēlnieku strēlniekus strēlniekā
+6	2406	radītājs	radītāj radītāja radītājam radītāji radītājiem radītājos radītāju radītājus radītājā
+7	2407	arābs	arāba arābam arābi arābiem arābos arābu arābus
+8	2408	ligzda	ligzdai ligzdas ligzdu ligzdā ligzdām ligzdās
+9	2409	pētnieks	pētnieki
+10	2410	dzimtene	dzimtenei dzimtenes dzimteni dzimtenē dzimtenēs
+11	2411	noliegt	noliedz
+12	2412	brūce	brūcei brūces brūci brūcē brūcēm brūcēs brūču
+13	2413	tomāts	tomāt tomāta tomātam tomāti tomātiem tomātos tomātu tomātus tomātā
+14	2414	kurt	jākur kuram kuriet kurot kurs kursi kursim kurts kurtu kuršana kuršanai kuršanu kuršanā kuršu kūra kūri kūris kūru nekurt
+15	2415	sals	sal salam salos salu salus salā
+16	2416	izcili	
+17	2417	lampa	lampai lampam lampas lampu lampā lampām lampās
+18	2418	rāvējslēdzējs	galda galdam galdi galdiem galdos galdu galdus galdā
+19	2419	dibinātājs	dibinātāja dibinātājai dibinātājam dibinātājas dibinātāji dibinātājiem dibinātājos dibinātāju dibinātājus dibinātājā dibinātājām
+20	2420	augša	augšai augšas augšu augšām augšās
+21	2421	džungļi	džungļiem džungļos džungļu džungļus
+22	2422	mūžība	mūžībai mūžības mūžību mūžībā
+23	2423	sirdsapziņa	sirdsapziņai sirdsapziņas sirdsapziņu sirdsapziņā
+24	2424	neilgs	neilga neilgais neilgajai neilgajam neilgajā neilgajās neilgam neilgas neilgi neilgie neilgiem neilgo neilgu neilgā neilgām neilgās
+25	2425	nikns	nikna niknai niknais niknajam niknajiem niknajā niknajām niknam niknas nikni niknie nikniem nikno niknos niknu niknus niknā niknāks niknām niknās visniknākais
+26	2426	īrs	īr īra īram īri īriem īriete īrietes īrieti īriešu īros īru īrus
+27	2427	gailis	gaiam gaiiem gaili gailim gaiu gaiā gaiļa gaiļi gaiļiem gaiļos gaiļu gaiļus
+28	2428	skaidrojums	skaidrojuma skaidrojumam skaidrojumi skaidrojumiem skaidrojumos skaidrojumu skaidrojumus skaidrojumā
+29	2429	pusotrs	pusotra pusotru
+30	2430	milti	milta miltiem miltos milts miltu miltus
+31	2431	filozofija	filosofija filozofijai filozofijas filozofiju filozofijā
+32	2432	slapjš	slapja slapjai slapjais slapjajai slapjajam slapjajiem slapjajos slapjajā slapjajām slapjajās slapjam slapjas slapji slapjie slapjiem slapjo slapjos slapju slapjus slapjā slapjāks slapjām slapjās
+33	2433	trešdaļa	trešdaļai trešdaļas trešdaļu trešdaļā trešdaļām trešdaļās
+34	2434	augsne	augsnei augsnes augsni augsnē augsnēm augsnēs augšņu
+35	2435	osis	oi osi osim osī oša oši ošiem ošu ošus
+36	2436	talantīgs	talantīga talantīgai talantīgais talantīgajai talantīgajam talantīgajiem talantīgajā talantīgajām talantīgam talantīgas talantīgi talantīgie talantīgiem talantīgo talantīgos talantīgu talantīgus talantīgā talantīgāks talantīgām talantīgās vistalantīgākais
+37	2437	apbrīnot	apbrīno apbrīnoja apbrīnojam apbrīnojams apbrīnojat apbrīnoji apbrīnojis apbrīnojot apbrīnoju apbrīnojām apbrīnos apbrīnosi apbrīnosim apbrīnots apbrīnotu apbrīnošana jāapbrīno neapbrīnot
+38	2438	sols	sol sola solam soliem solos solu solus solā
+39	2439	karalisks	karaliska karaliskai karaliskais karaliskajai karaliskajam karaliskajiem karaliskajos karaliskajā karaliskajām karaliskas karaliskie karaliskiem karalisko karalisku karaliskā karaliskām karaliskās
+40	2440	dievkalpojums	dievkalpojuma dievkalpojumam dievkalpojumi dievkalpojumiem dievkalpojumos dievkalpojumu dievkalpojumus dievkalpojumā
+41	2441	kopīgs	kopīgo
+42	2442	popularitāte	popularitātei popularitātes popularitāti popularitātē
+43	2443	griesti	griestiem griestos griestu griestus
+44	2444	centiens	centienam centieni centieniem centienos centienu centienus
+45	2445	nodarbinātība	nodarbinātībai nodarbinātības nodarbinātību nodarbinātībā
+46	2446	debates	debai debatēm debatēs debašu
+47	2447	laipns	laipna laipnai laipnais laipnajai laipnajam laipnajiem laipnajām laipnam laipnas laipnie laipniem laipno laipnos laipnu laipnus laipnā laipnāks laipnām laipnās
+48	2448	stulbenis	stulbene stulbenes stulbeni stulbenim stulbeņa stulbeņi stulbeņiem stulbeņu stulbeņus
+49	2449	mīļākais	
+50	2450	rieksts	rieksta riekstam rieksti riekstiem riekstos riekstu riekstus riekstā
+51	2451	ieradums	ieradum ieraduma ieradumam ieradumi ieradumiem ieradumos ieradumu ieradumus ieradumā
+52	2452	mērce	mērcei mērces mērci mērcē mērcēm mērcēs mērču
+53	2453	zvērēt	jāzvēr zvēr zvēram zvērat zvēri zvēriet zvērot zvēru zvērēdams zvērēja zvērēji zvērējis zvērēju zvērējām zvērējāt zvērēs zvērēsi zvērēsim zvērēšana zvērēšu
+54	2454	baigs	baiga baigai baigais baigajam baigajiem baigajos baigajā baigam baigas baigie baigiem baigo baigos baigu baigā baigām baigās
+55	2455	nūja	nūjai nūjas nūju nūjām nūjās
+56	2456	spalva	spalvai spalvam spalvas spalvu spalvā spalvām spalvās
+57	2457	tablete	tabletei tabletes tableti tabletē tabletēm tabletēs tablešu
+58	2458	šovasar	
+59	2459	nodarbināt	jānodarbina nenodarbināt nodarbina nodarbini nodarbinot nodarbinu nodarbināja nodarbinājis nodarbināju nodarbinājām nodarbinām nodarbināms nodarbinās nodarbināsim nodarbināta nodarbinātam nodarbinātas nodarbināti nodarbinātiem nodarbinātos nodarbināts nodarbinātu nodarbinātus nodarbinātā nodarbinātām nodarbinātās nodarbināšana nodarbināšanai nodarbināšanas nodarbināšanu nodarbināšanā
+60	2460	apaļš	apaļa apaļai apaļais apaļajai apaļajam apaļajiem apaļajos apaļajā apaļajām apaļajās apaļam apaļas apaļi apaļie apaļiem apaļo apaļos apaļu apaļus apaļā apaļāks apaļām apaļās
+61	2461	daudzdzīvokļu	
+62	2462	inflācija	inflācijai inflācijas inflāciju inflācijā inflācijām
+63	2463	ledusskapis	ledusskapi ledusskapim ledusskapja ledusskapji ledusskapjiem ledusskapjos ledusskapju ledusskapjus ledusskapī
+64	2464	leja	leija lejai lejas leju lejām lejās
+65	2465	teikums	teikum teikuma teikumam teikumi teikumiem teikumos teikumu teikumus teikumā
+66	2466	atsākt	atsāc atsāciet atsācis atsāk atsāka atsākam atsākat atsākot atsāks atsāksi atsāksiet atsāksim atsākts atsāktu atsāku atsākām atsākāt atsākšana atsākšot atsākšu jāatsāk neatsākt
+67	2467	vijole	vijolei vijoles vijoli vijolē vijolēm vijolēs vijoļu
+68	2468	scenārijs	scenārija scenārijus
+69	2469	rozā	
+70	2470	kritums	
+71	2471	kaza	kazai kazam kazas kazi kazu kazām kazās
+72	2472	iepakojums	iepakojum iepakojuma iepakojumam iepakojumi iepakojumiem iepakojumos iepakojumu iepakojumus iepakojumā
+73	2473	atļaut	atļāva
+74	2474	zīmols	zīmola
+75	2475	cilts	cila cili cilti ciltij ciltis ciltī ciltīm ciltīs cilā cilšu
+76	2476	celties	ceļas cēlusies
+77	2477	tīrīt	jātīra netīrīt tīra tīriet tīrot tīru tīrām tīrāmais tīrāms tīrāt tīrīdams tīrīja tīrīji tīrījis tīrīju tīrījām tīrījāt tīrīs tīrīsim tīrīts tīrītu
+78	2478	pirts	pirti pirtij pirtis pirtu pirtī pirtīm pirtīs
+79	2479	māmiņa	māmiņas
+80	2480	stress	stresa
+81	2481	hercogs	hercog hercoga hercogam hercogi hercogiem hercogiene hercogienei hercogienes hercogieni hercogienēm hercogu hercogā
+82	2482	tapa	tapai tapam tapas tapu tapām
+83	2483	jaunākais	
+84	2484	nelietis	neliete nelieti nelietim nelietī nelieša nelieši neliešiem neliešu neliešus
+85	2485	redze	redzei redzes redzi redzē reā
+86	2486	sniedzējs	sniedzēja sniedzējam sniedzēji sniedzējiem sniedzēju sniedzējus sniedzējā
+87	2487	fāze	fāzei fāzes fāzi fāzē fāzēm fāzēs fāžu
+88	2488	zust	jāzūd zuda zudis zudu zudīs zudīsi zudīšot zudīšu zusts zustu zūd zūdam zūdiet zūdot zūdošs
+89	2489	karaspēks	karaspēka karaspēkam karaspēki karaspēkiem karaspēkos karaspēku karaspēkus karaspēkā
+90	2490	ģitāra	ģitārai ģitāras ģitāri ģitāru ģitārā ģitārām ģitārās
+91	2491	prioritāte	prioritātēm
+92	2492	ķīlnieks	ķīlniece ķīlnieka ķīlniekam ķīlnieki ķīlniekiem ķīlniekos ķīlnieku ķīlniekus
+93	2493	sveicināt	jāsveicina sveicina sveicini sveiciniet sveicinot sveicinu sveicināja sveicinājis sveicināju sveicinājām sveicinām sveicinās sveicināsiet sveicināts
+94	2494	pērkons	pērkon pērkona pērkonam pērkoni pērkoniem pērkonu pērkonā
+95	2495	stadija	stadijai stadijas stadiju stadijā stadijām stadijās
+96	2496	likumīgs	likumīga likumīgai likumīgais likumīgajai likumīgajam likumīgajiem likumīgajā likumīgajām likumīgajās likumīgam likumīgas likumīgie likumīgiem likumīgo likumīgos likumīgu likumīgus likumīgā likumīgāks likumīgām likumīgās
+97	2497	pods	pod poda podam podi podiem podos podu podus podā
+98	2498	garantija	garantiju
+99	2499	ugunskurs	ugunskura ugunskuram ugunskuri ugunskuriem ugunskuros ugunskuru ugunskurus ugunskurā
+100	2500	atkāpties	

@@ -1,100 +1,100 @@
-1	4401	negribot	
-2	4402	nereģistrēts	nereģistrēta nereģistrētam nereģistrētas nereģistrēti nereģistrētiem nereģistrētos nereģistrētu nereģistrētus nereģistrētā nereģistrētās
-3	4403	čakls	čakla čaklajiem čaklajām čaklie čaklos čaklu čaklus čaklā čaklākais čaklākie čaklāko čaklākā čaklākās čaklās
-4	4404	binoklis	binokli binoklī binokļiem binokļu binokļus
-5	4405	cilvēcīgs	cilvēcīga cilvēcīgai cilvēcīgais cilvēcīgajam cilvēcīgam cilvēcīgas cilvēcīgiem cilvēcīgo cilvēcīgu cilvēcīgā cilvēcīgāk cilvēcīgākais cilvēcīgāko cilvēcīgāks cilvēcīgākus cilvēcīgās
-6	4406	adaptācija	adaptācijai adaptācijas adaptāciju adaptācijā
-7	4407	reģistratūra	reģistratūras reģistratūru reģistratūrā
-8	4408	pornogrāfija	pornogrāfijas pornogrāfiju pornogrāfijā
-9	4409	uzvārīt	uzvāra uzvāri uzvāru uzvārīji uzvārīju uzvārījām uzvārīsim uzvārīts uzvārīšu
-10	4410	pārsiet	jāpārsien pārsien pārsieniet pārsienot pārsienu pārsiets pārsiešana pārsēja pārsēju
-11	4411	kadiķis	kadiķa kadiķi kadiķu
-12	4412	miests	miesta miestam miestā
-13	4413	kultūraugs	kultūraugiem kultūraugu kultūraugus
-14	4414	maksts	maksti makstī
-15	4415	ieelpa	ieelpai ieelpas ieelpos ieelpu
-16	4416	klēpjdators	klēpjdatora klēpjdatoram klēpjdatori klēpjdatoriem klēpjdatoru klēpjdatorus klēpjdatorā
-17	4417	blakts	blaktis blaktīm blakšu
-18	4418	līks	līka līkais līkajam līkas līki līkiem līku līkām
-19	4419	rūgts	rūgta rūgtajos rūgtajā rūgtas rūgto rūgtu rūgtā rūgtās
-20	4420	mīkstums	mīkstuma mīkstumi mīkstumiem mīkstumu
-21	4421	visātrāk	
-22	4422	dūzis	dūži dūžiem dūžos dūžu
-23	4423	hamburgers	hamburgera hamburgeri hamburgeriem hamburgeros hamburgeru hamburgerus hamburgerā
-24	4424	atveidot	atveido
-25	4425	paciņa	
-26	4426	astronomija	astronomijas astronomijā
-27	4427	gādīgs	gādīga gādīgais gādīgajā gādīgam gādīgas gādīgi gādīgiem gādīgu gādīgākā gādīgās
-28	4428	sagriezt	sagriez sagriež
-29	4429	volts	volt volta voltam volti voltiem voltu
-30	4430	nedzirdēts	nedzirdēta nedzirdētas nedzirdēti nedzirdētu nedzirdētus nedzirdētā
-31	4431	pamatot	
-32	4432	stulbība	stulbības stulbību stulbībām
-33	4433	tukls	tuklais tuklas tuklie tuklo tuklu tuklā tuklāks tuklās
-34	4434	mētāt	jāmētā mētā mētāja mētājam mētājot mētājām mētās mētāts mētāšana nemētāt
-35	4435	produktīvi	
-36	4436	e-paraksts	e-paraksta e-parakstu
-37	4437	uzgalis	uzgali uzgaļa uzgaļiem
-38	4438	nepateicīgs	nepateicīga nepateicīgais nepateicīgajā nepateicīgam nepateicīgā
-39	4439	nezaudējot	
-40	4440	skaidrāk	
-41	4441	biologs	biologa biologam biologi biologos biologu bioloģe bioloģi
-42	4442	centība	centībai centības centību
-43	4443	piektdaļa	piektdaļai piektdaļas piektdaļu piektdaļā
-44	4444	apmierinātība	apmierinātības apmierinātību apmierinātībā
-45	4445	pretgaisa	
-46	4446	kontrasts	kontrasta kontrasti kontrastiem kontrastu kontrastā
-47	4447	jē	
-48	4448	dzīvesprieks	dzīvesprieka dzīvespriekam dzīvesprieku
-49	4449	vingrojums	vingrojumi vingrojumiem vingrojumos vingrojumu vingrojumus vingrojumā
-50	4450	bits	bit biti bitu
-51	4451	atpūtnieks	atpūtnieka atpūtniekam atpūtnieki atpūtniekiem atpūtnieku atpūtniekus
-52	4452	ceptuve	ceptuves ceptuvi ceptuvē
-53	4453	sālsūdens	sālsūdeni
-54	4454	modri	
-55	4455	samts	samta samtu
-56	4456	viedtālrunis	
-57	4457	togad	
-58	4458	irānis	irāni irāņi irāņiem irāņu
-59	4459	biznesmenis	
-60	4460	embargo	
-61	4461	ašāk	
-62	4462	neviļus	
-63	4463	slaucīt	jāslauka slaucīji slaucīju slaucīsi slaucīšanas slauka slauki slauku
-64	4464	pēckarš	pēckara
-65	4465	fotoaparāts	
-66	4466	vēlējums	vēlējuma vēlējumi vēlējumiem vēlējumu vēlējumus
-67	4467	mežāzis	mežāža mežāži mežāžiem
-68	4468	gadagrāmata	gadagrāmatas gadagrāmatu gadagrāmatā
-69	4469	ražīgums	ražīguma ražīgumam ražīgumu ražīgumā
-70	4470	dzinums	dzinumi dzinumiem dzinumu dzinumus
-71	4471	krāns	
-72	4472	mošeja	mošejai mošejas mošeju mošejā mošejās
-73	4473	estētika	estētikas estētiku estētikā
-74	4474	grēksūdze	grēksūdzei grēksūdzes grēksūdzi
-75	4475	brokastot	brokasto brokastoja brokastoji brokastojis brokastoju brokastosi brokastosim
-76	4476	pātaga	pātagai pātagas pātagu pātagām
-77	4477	aizmirstība	aizmirstības aizmirstību aizmirstībā
-78	4478	atradne	atradnes atradni atradnēm atradņu
-79	4479	kore	korei kores kori koru korē korēs
-80	4480	diskriminācija	
-81	4481	klons	klona kloni kloniem klonu klonus
-82	4482	neitralitāte	neitralitātei neitralitātes neitralitāti
-83	4483	protam	
-84	4484	raudzīt	raudzīsi raudzīsim raudzīšu rauga raugi raugiet raugu raugāt
-85	4485	aizvakar	
-86	4486	purpurs	purpura purpurā
-87	4487	izlīst	izlīda
-88	4488	krams	
-89	4489	ceļinieks	ceļiniekam ceļinieki ceļiniekiem ceļinieku ceļiniekus
-90	4490	papagailis	papagaili papagailim papagaiļi papagaiļiem
-91	4491	audzinātāja	
-92	4492	alķīmiķis	alķīmiķa alķīmiķi alķīmiķim
-93	4493	ziede	ziedes ziedi ziedēs ziežu
-94	4494	producēt	producē producēja producējam producējis producēju producējusi producējuši producēs producētā producēšana producēšanai producēšanas producēšanu producēšanā
-95	4495	švaki	
-96	4496	apkakle	apkaklei apkakles apkakli
-97	4497	īriss	īrisa īrisu īrisus
-98	4498	visplašāk	
-99	4499	reaktors	
-100	4500	turpu	
+1	4401	lasītava	lasītavai lasītavas lasītavu lasītavā lasītavām lasītavās
+2	4402	kore	korei kores kori koru korā korē korēm korēs
+3	4403	sauļošanās	sauļošanos
+4	4404	aizmirstība	aizmirstībai aizmirstības aizmirstību aizmirstībā
+5	4405	krāns	
+6	4406	šoziem	
+7	4407	gājputns	gājputna gājputni gājputniem gājputnos gājputnu gājputnus
+8	4408	ziemot	ziemo ziemoja ziemojot ziemos ziemotu ziemošana ziemošanai ziemošanas ziemošanu
+9	4409	erotisks	erotiska erotiskai erotiskais erotiskajai erotiskajam erotiskajiem erotiskajā erotiskajām erotiskajās erotiskas erotiskie erotiskiem erotisko erotiskos erotisku erotiskus erotiskā erotiskām erotiskās
+10	4410	apkakle	apkaklei apkakles apkakli
+11	4411	produktīvs	produktīva produktīvai produktīvais produktīvajai produktīvajiem produktīvajā produktīvam produktīvas produktīvie produktīviem produktīvo produktīvos produktīvu produktīvus produktīvā produktīvāks produktīvām produktīvās visproduktīvākais
+12	4412	kotlete	kotletei kotletes kotleti kotletē kotletēm kotletēs kotlešu
+13	4413	milzenis	milzene milzenes milzeni milzenim milzenēm milzenī milzeņa milzeņi milzeņiem milzeņu milzeņus
+14	4414	nodomāt	nodomāja
+15	4415	pekle	peka pekles pekli peklē peku
+16	4416	krams	
+17	4417	cauna	caunas caune caunu caunām
+18	4418	polārs	polāra polārais polārajam polārajos polārajā polārajās polāras polārie polāro polāros polāru polārus polārā polārām polārās
+19	4419	rindkopa	rindkopai rindkopas rindkopu rindkopā rindkopām rindkopās
+20	4420	šķiltavas	
+21	4421	diskriminācija	
+22	4422	kļava	
+23	4423	alķīmiķis	alķīmiķa alķīmiķi alķīmiķiem alķīmiķim alķīmiķu alķīmiķus
+24	4424	etiķis	etiķa etiķi etiķī
+25	4425	rumānis	rumāni rumāniete rumānietei rumānim rumāņi rumāņiem rumāņu rumāņus
+26	4426	izraēliete	izraēlieti izraēlietim izraēlietis izraēlieši izraēliešiem izraēliešu izraēliešus
+27	4427	delna	
+28	4428	stāstnieks	stāstniece stāstnieces stāstnieci stāstniecēm stāstnieka stāstniekam stāstnieki stāstniekiem stāstnieku stāstniekus
+29	4429	budisms	budisma budismam budismu budismā
+30	4430	pudiņš	pudiņ pudiņa pudiņam pudiņi pudiņu pudiņus pudiņā
+31	4431	viņējs	viņējai viņējam viņējiem viņējos viņējā viņējām viņējās
+32	4432	ornitologs	ornitologa ornitologam ornitologi ornitologiem ornitologu ornitologus ornitoloģe
+33	4433	arheoloģisks	arheoloģiska arheoloģiskais arheoloģiskajai arheoloģiskajiem arheoloģiskajos arheoloģiskajā arheoloģiskajām arheoloģiskas arheoloģiskie arheoloģiskiem arheoloģisko arheoloģiskos arheoloģisku arheoloģiskus arheoloģiskā arheoloģiskās
+34	4434	iedarbīgs	iedarbīga iedarbīgais iedarbīgajām iedarbīgas iedarbīgi iedarbīgie iedarbīgiem iedarbīgo iedarbīgu iedarbīgus iedarbīgā iedarbīgāks iedarbīgām iedarbīgās visiedarbīgākais
+35	4435	purpurs	purpura purpuriem purpurā
+36	4436	naidnieks	naidnieka naidniekam naidnieki naidniekiem naidnieku naidniekus
+37	4437	darbaļaudis	darbaļaudīm darbaļaužu
+38	4438	reliģiozs	reliģioza reliģiozais reliģiozajiem reliģiozajā reliģiozam reliģiozas reliģiozi reliģiozie reliģioziem reliģiozo reliģiozos reliģiozu reliģiozus reliģiozā reliģiozās
+39	4439	plosīt	plosa plosi plosiet plosošs plosīja plosīs plosīts plosītu plosīšana
+40	4440	hotelis	hoteli hotelim hotelī hoteļa hoteļi hoteļiem hoteļos hoteļu hoteļus
+41	4441	klepot	jāklepo klepo klepoja klepojat klepojiet klepojot klepoju klepojām klepotu klepošana klepošanas klepošanu neklepot
+42	4442	likumība	likumībai likumības likumību likumībām
+43	4443	ieelpa	ieelpai ieelpas ieelpos ieelpu
+44	4444	strauss	strausa strausam strausi strausiem strausu strausus
+45	4445	ceriņš	ceriņa ceriņam ceriņi ceriņiem ceriņos ceriņu ceriņus
+46	4446	pē	
+47	4447	atturīgs	atturīga atturīgais atturīgajai atturīgajiem atturīgajā atturīgajās atturīgam atturīgas atturīgi atturīgie atturīgiem atturīgo atturīgos atturīgu atturīgā atturīgāks atturīgām atturīgās
+48	4448	prizma	prizmai prizmas prizmu prizmā prizmām
+49	4449	lazda	lagzda lazdam lazdas lazdu lazdām lazdās
+50	4450	optimists	optimisa optimist optimista optimistam optimiste optimisti optimistiem optimistos optimistu optimistus
+51	4451	arājs	arāja arājam arāji arājiem arājos arāju arājus
+52	4452	karuselis	karuseli karuselim karuselī karuseļa karuseļi karuseļiem karuseļos karuseļu karuseļus
+53	4453	skaļums	skaļuma skaļumam skaļumiem skaļumu skaļumā
+54	4454	vilnītis	vilnīti vilnītim vilnītī vilnīša vilnīši vilnīšiem vilnīšos vilnīšu vilnīšus
+55	4455	kanēlis	kanēli kanēlim kanēļa
+56	4456	rakstāmgalds	rakstāmgalda rakstāmgaldam rakstāmgaldi rakstāmgaldiem rakstāmgaldos rakstāmgaldu rakstāmgaldā
+57	4457	bambuss	bambusa bambusam bambusi bambusiem bambusu bambusus bambusā
+58	4458	atgriezenisks	atgriezeniska atgriezeniskai atgriezeniskais atgriezeniskajai atgriezeniskajā atgriezeniskas atgriezeniski atgriezenisko atgriezenisku atgriezeniskā atgriezeniskās
+59	4459	gadagrāmata	gadagrāmatai gadagrāmatas gadagrāmatu gadagrāmatā gadagrāmatās
+60	4460	klaviatūra	klaviatūrai klaviatūras klaviatūru klaviatūrā klaviatūrām
+61	4461	klēts	klēti klētij klētis klētī klētīm klētīs
+62	4462	bits	bit bitam biti bitu bitus
+63	4463	ekoloģiski	
+64	4464	komfortabls	komfortabla komfortablai komfortablais komfortablajiem komfortablajā komfortablajām komfortablam komfortablas komfortablie komfortabliem komfortablo komfortablos komfortablu komfortablus komfortablā komfortablāks komfortablām komfortablās viskomfortablākais
+65	4465	latīniski	
+66	4466	togad	
+67	4467	skriešus	
+68	4468	smaržīgs	smaržīga smaržīgais smaržīgajam smaržīgajiem smaržīgajos smaržīgajā smaržīgajās smaržīgas smaržīgi smaržīgie smaržīgiem smaržīgo smaržīgos smaržīgu smaržīgus smaržīgā smaržīgāks smaržīgām smaržīgās vissmaržīgākais
+69	4469	pikēt	jāpikē pikē pikējam pikējis pikējām pikēšana
+70	4470	ķelts	ķelti ķeltiem ķeltu
+71	4471	vokālists	vokālista vokālistam vokāliste vokālistei vokālistes vokālisti vokālistiem vokālistos vokālistu vokālistus vokālistēm
+72	4472	mikroskops	mikroskopa mikroskopam mikroskopi mikroskopiem mikroskopu mikroskopus mikroskopā
+73	4473	gigantisks	gigantiska gigantiskai gigantiskais gigantiskajai gigantiskajam gigantiskajiem gigantiskajās gigantiskas gigantiskie gigantiskiem gigantisko gigantiskos gigantisku gigantiskus gigantiskā gigantiskām gigantiskās
+74	4474	misiņš	misiņa misiņu
+75	4475	dzelzsbetons	dzelzsbetona dzelzsbetonam dzelzsbetonu dzelzsbetonā
+76	4476	ielasmeita	ielasmeitas ielasmeitu ielasmeitām
+77	4477	tautisks	tautiska tautiskai tautiskais tautiskajam tautiskajos tautiskajā tautiskajām tautiskajās tautiskam tautiskas tautiski tautiskie tautiskiem tautisko tautiskos tautisku tautiskus tautiskā tautiskām tautiskās
+78	4478	kraut	jākrauj krauj kraujam kraujiet kraujot krauju kraus krausi krauts krautu kraušana krāva krāvi krāvis krāvu krāvām
+79	4479	sams	sam sama samam sami samiem samos samu samus
+80	4480	stihija	stihijai stihijas stihiju stihijā stihijām stihijās
+81	4481	zvejniecība	zvejniecībai zvejniecības zvejniecību zvejniecībā
+82	4482	elektrons	elektron elektrona elektronam elektroni elektroniem elektronu elektronus elektronā
+83	4483	cilvēcīgs	cilvēcīga cilvēcīgai cilvēcīgais cilvēcīgajai cilvēcīgajam cilvēcīgajiem cilvēcīgajā cilvēcīgajām cilvēcīgam cilvēcīgas cilvēcīgiem cilvēcīgo cilvēcīgos cilvēcīgu cilvēcīgus cilvēcīgā cilvēcīgāks cilvēcīgām cilvēcīgās viscilvēcīgākais
+84	4484	žults	žulti žultij žultī
+85	4485	mice	mices mici micēs mii miu miču
+86	4486	klade	kladei klades kladi kladē kladēm kladēs klai klažu
+87	4487	sirdspuksts	sirdspuksta sirdspukstam sirdspuksti sirdspukstiem sirdspukstos sirdspukstu sirdspukstus
+88	4488	nāvēt	nāvē nāvējošais nāvējošs nāvēs
+89	4489	pī	
+90	4490	līme	
+91	4491	pali	paliem palos palu palus palā
+92	4492	šauri	
+93	4493	lāpīt	jālāpa lāpi lāpot lāpu lāpām lāpīja lāpījāt lāpīs lāpīts lāpītu lāpīšana lāpīšu
+94	4494	krāce	krāces krāci krācē krācēm krācēs krāču
+95	4495	sievišķīgs	sievišķīga sievišķīgai sievišķīgais sievišķīgajai sievišķīgajam sievišķīgajiem sievišķīgajos sievišķīgajām sievišķīgam sievišķīgas sievišķīgie sievišķīgiem sievišķīgo sievišķīgos sievišķīgu sievišķīgus sievišķīgā sievišķīgāks sievišķīgām sievišķīgās
+96	4496	hroms	hrom hroma hromi hromu
+97	4497	virzulis	virzuli virzulī virzuļa virzuļi virzuļiem virzuļos virzuļu virzuļus
+98	4498	provokācija	provokācijai provokācijas provokāciju provokācijām provokācijās
+99	4499	ceplis	cepli ceplim ceplī cepļa cepļi cepļos cepļu cepļus
+100	4500	sociālisms	sociālisma sociālismam sociālismi sociālismu sociālismā

@@ -1,100 +1,100 @@
-1	3801	akustisks	akustiska akustiskais akustiskajai akustiskajā akustiskas akustiskie akustisko akustiskos akustisku akustiskus akustiskā akustiskām akustiskās fizioloģiskās
-2	3802	nelaiķis	nelaiķa nelaiķi nelaiķiem nelaiķim nelaiķu
-3	3803	korejietis	korejiete korejietim korejieša korejieši korejiešu
-4	3804	seksuāli	
-5	3805	tēvzeme	tēvzemei tēvzemes tēvzemi tēvzemē
-6	3806	kaķēns	kaķēn kaķēna kaķēni kaķēniem kaķēnu kaķēnus
-7	3807	šoruden	
-8	3808	medīt	
-9	3809	kust	kustu kusīs kūst kūstot kūstu nekust
-10	3810	saulgrieži	saulgriežiem saulgriežos saulgriežu saulgriežus
-11	3811	adrenalīns	adrenalīna adrenalīnu
-12	3812	tirgonis	tirgoni tirgonim tirgoņa tirgoņi tirgoņiem tirgoņu tirgoņus
-13	3813	nestrādāju	
-14	3814	gludi	
-15	3815	čemodāns	čemodāna čemodāniem čemodānos čemodānu čemodānus čemodānā
-16	3816	neredzēties	neredzējušos neredzētos redzēdami redzējos redzējušies redzējušās redzējāmies redzējāties redzēsimies redzētos
-17	3817	dīvainība	dīvainības dīvainību dīvainībām dīvainībās
-18	3818	akvārijs	akvārija akvāriji akvāriju akvārijā
-19	3819	viesuļvētra	viesuļvētras viesuļvētru viesuļvētrām
-20	3820	toksīns	toksīna toksīni toksīniem toksīnu toksīnus
-21	3821	ledājs	ledāja ledāji ledājiem ledājos ledāju ledājus ledājā
-22	3822	mūzikls	mūzikl mūzikla mūzikli mūziklos mūziklu mūziklā
-23	3823	beļģis	bei beļģi beļģietei beļģieti beļģu
-24	3824	vārna	vārnai vārnas vārnu vārnām
-25	3825	arlabvakaru	
-26	3826	blondīne	blondīnes blondīni blondīns blondīņu
-27	3827	teoloģija	teoloģijai teoloģijas teoloģiju
-28	3828	sūna	sūnas sūnu sūnām
-29	3829	klasifikācija	klasifikācijai klasifikācijas klasifikāciju klasifikācijā
-30	3830	pilskalns	pilskalna pilskalni pilskalnu pilskalnus pilskalnā
-31	3831	vīnoga	vīnogas vīnogu
-32	3832	četrpadsmit	
-33	3833	eja	ejai ejas eju ejā ejām ejās
-34	3834	izpilddirektore	
-35	3835	nodevība	
-36	3836	ota	otam otas oti otu
-37	3837	pļaut	jāpļauj nepļauj nepļaušanu pļauj pļaujam pļaujama pļaujamais pļaujamā pļaujot pļauju pļausi pļauta pļauts pļautu pļautās pļaušana pļaušanai pļaušanas pļaušanu pļāvis
-38	3838	orientācija	orientācijas orientāciju orientācijā
-39	3839	valgs	valga valgai valgas valgos valgu valgā
-40	3840	nātrijs	nātrija nātriju
-41	3841	strazds	strazda strazdi strazdu
-42	3842	sintēze	sintēzei sintēzes sintēzi sintēzē
-43	3843	kastīte	kastītes
-44	3844	granāts	granāta granātu
-45	3845	kaislīgs	kaislīga kaislīgas kaislīgi kaislīgie kaislīgo kaislīgu kaislīgus kaislīgā kaislīgām
-46	3846	kabelis	
-47	3847	bēniņi	bēniņiem bēniņos bēniņu bēniņus
-48	3848	anāls	anālais anālajai anālajā anālo anālu anālā anālās
-49	3849	tonakt	
-50	3850	sacelšanās	sacelšanos
-51	3851	divritenis	divriteni divritenim divritenī divriteņa divriteņi divriteņiem divriteņu divriteņus
-52	3852	mēms	mēma mēmais mēmajā mēmam mēmi mēmo mēmu mēmā
-53	3853	turbīna	turbīnas turbīnu turbīnām
-54	3854	modernizēt	jāmodernizē modernizē modernizēja modernizējam modernizējamās modernizējis modernizējot modernizēs modernizēta modernizētas modernizēti modernizētiem modernizēts modernizētu modernizētā modernizēšana
-55	3855	piestātne	piestātnes
-56	3856	nacionālisms	nacionālisma nacionālismu nacionālismā
-57	3857	barels	bareli barelu barelā
-58	3858	franciski	
-59	3859	vilkacis	vilkace vilkaci vilkacim vilkača vilkači vilkačiem vilkaču vilkačus
-60	3860	šveicietis	šveicieti šveicietim šveicieša šveicieši šveiciešiem šveiciešu
-61	3861	dārznieks	dārzniece dārznieci dārznieka dārzniekam dārznieki dārzniekiem dārznieku dārzniekus
-62	3862	dārgāk	
-63	3863	zebra	zebrai zebras zebru
-64	3864	lielpilsēta	lielpilsētas lielpilsētu lielpilsētā lielpilsētām lielpilsētās
-65	3865	izcept	izcep izcepa izcepi izcepiet izcepot izceps izcepta izceptas izcepti izcepts izceptu izcepu izcepusi izcepām izcepšanas
-66	3866	bīstamāks	bīstamais bīstamāk bīstamāka bīstamākais bīstamākajiem bīstamākajā bīstamākajām bīstamākajās bīstamākas bīstamāki bīstamākie bīstamāko bīstamākos bīstamāku bīstamākus bīstamākā bīstamākām visbīstamākais visbīstamākajiem visbīstamākajos visbīstamākajā visbīstamākie visbīstamāko visbīstamākā visbīstamākās
-67	3867	abonents	abonenta abonentam abonenti abonentiem abonentu
-68	3868	slidens	slidena slidenas slideni slidenie slideniem slidenos slidenu
-69	3869	kvīts	kvīti
-70	3870	enerģisks	enerģiska enerģiskai enerģiskais enerģiskajai enerģiskas enerģiskie enerģisko enerģisku enerģiskus enerģiskā enerģiskāki enerģiskākie enerģiskāko enerģiskās
-71	3871	modrs	modra modram modras modrie modriem modrā modrākiem modrām modrās
-72	3872	bezbailīgs	bezbailīga bezbailīgais bezbailīgajam bezbailīgajā bezbailīgam bezbailīgas bezbailīgi bezbailīgo bezbailīgu bezbailīgā
-73	3873	diktators	diktatora diktatoram diktatori diktatoriem diktatoru diktatorus
-74	3874	portugālis	portugāli portugāļi portugāļiem portugāļu portugāļus
-75	3875	kokosrieksts	kokosrieksta kokosrieksti kokosriekstiem kokosriekstu kokosriekstus kokosriekstā
-76	3876	nerātns	nerātna nerātnais nerātnas nerātni nerātnie nerātno nerātnos nerātnā nerātnās
-77	3877	visskaistākais	skaistais skaistāk skaistāka skaistākais skaistākajiem skaistākajā skaistākajām skaistākas skaistāki skaistākie skaistāko skaistākos skaistāks skaistāku skaistākā skaistākās visskaistāk visskaistākajai visskaistākajām visskaistākajās visskaistākie visskaistāko visskaistākā visskaistākās
-78	3878	atvērties	atvērās
-79	3879	auglība	auglībai auglības auglību
-80	3880	plati	
-81	3881	orgasms	orgasma orgasmu
-82	3882	onkulis	onkuli onkulim onkuļa onkuļi onkuļiem onkuļus
-83	3883	neprātīgi	
-84	3884	rakstiski	
-85	3885	ods	od oda odam odi odiem odu odus
-86	3886	stabiņš	stabiņa stabiņi stabiņiem stabiņu stabiņus
-87	3887	adīt	ada adi adu adīja adījušas adījuši adījām adītas adītos adītu adītā adītās adīšana adīšanas adīšanu adīšanā jāada
-88	3888	kamielis	kamieli kamieļa kamieļi kamieļiem kamieļu kamieļus
-89	3889	zobārstniecība	zobārstniecības zobārstniecībā
-90	3890	džemperis	džempera džemperi džemperim džemperu džemperus
-91	3891	krāsot	jākrāso krāso krāsoja krāsojis krāsojot krāsots krāsotu krāsošana
-92	3892	riktīgi	
-93	3893	godāt	godā godāja godājam godājams godājiet godājot godāju godās godāsim godāts godātu godāšu jāgodā negodāt
-94	3894	intīms	intīma intīmais intīmajai intīmajiem intīmajā intīmas intīmiem intīmo intīmos intīmu intīmus intīmā intīmām intīmās visintīmākās
-95	3895	kaija	kaijai kaijas kaiju kaijām
-96	3896	naivi	
-97	3897	ražojums	ražojuma ražojumi ražojumiem ražojumos ražojumu ražojumus
-98	3898	tīšs	tīša tīšos tīšu tīšām
-99	3899	burka	burkas burku burkā burkām
-100	3900	lokomotīve	lokomotīvei lokomotīves lokomotīvi lokomotīvju lokomotīvē
+1	3801	alksnis	alka alki alksni alksnim alku alkšņa alkšņi alkšņiem alkšņos alkšņu alkšņus elksi elksnis
+2	3802	uzņēmējdarbība	
+3	3803	pastnieks	pastniece pastniecei pastnieces pastnieci pastniecēm pastnieka pastniekam pastnieki pastniekiem pastnieku pastniekus pastniekā pastnieču
+4	3804	inficēt	inficē inficēja inficējam inficēji inficējis inficējot inficējāt inficēs inficēts inficētu inficēšana neinficēt
+5	3805	bioloģiski	
+6	3806	simboliski	
+7	3807	tonakt	
+8	3808	dārzkopība	dārzkopībai dārzkopības dārzkopību dārzkopībā
+9	3809	cenzūra	cenzūrai cenzūras cenzūru cenzūrā
+10	3810	kapitālisms	kapitālisma kapitālismam kapitālismu kapitālismā
+11	3811	zvejot	jāzvejo zvejo zvejoja zvejojam zvejojat zvejojiet zvejojis zvejojot zvejoju zvejojām zvejos zvejots zvejotu zvejošana zvejošanai zvejošanas zvejošanu zvejošanā zvejošu
+12	3812	stiept	jāstiepj nestiept stiepa stiepdams stiepis stiepj stiepjam stiepjams stiepjat stiepjot stiepju stieps stiepsi stiepts stieptu stiepu stiepām stiepšana
+13	3813	neprātīgi	
+14	3814	trīspadsmit	
+15	3815	kaņepes	kaņepju kaņepēm kaņepēs
+16	3816	narkotisks	narkotisko
+17	3817	avs	avi avij avis avju avī avīm
+18	3818	priekšnoteikums	priekšnoteikuma priekšnoteikumam priekšnoteikumi priekšnoteikumiem priekšnoteikumu priekšnoteikumus
+19	3819	iegādāt	iegādā iegādāja iegādājam iegādājams iegādāji iegādājis iegādājot iegādāju iegādājām iegādās iegādāsim iegādāts iegādātu iegādāšana iegādāšu jāiegādā
+20	3820	putas	
+21	3821	lielpilsēta	lielpilsētai lielpilsētas lielpilsētu lielpilsētā lielpilsētām lielpilsētās
+22	3822	dzidrs	dzidra dzidrai dzidrais dzidrajiem dzidrajos dzidrajā dzidrajām dzidras dzidri dzidrie dzidriem dzidro dzidros dzidru dzidrus dzidrā dzidrāks dzidrām dzidrās
+23	3823	atvērties	atvērās
+24	3824	modrs	modra modrai modrais modrajai modrajiem modrajām modram modras modrie modriem modro modru modrus modrā modrām modrās
+25	3825	zilums	zilum ziluma zilumam zilumi zilumiem zilumos zilumu zilumus zilumā
+26	3826	kokosrieksts	kokosrieksta kokosrieksti kokosriekstiem kokosriekstu kokosriekstus kokosriekstā
+27	3827	tuberkuloze	tuberkulozes tuberkulozi
+28	3828	skandināvs	skandināvam skandināvi skandināviem skandināvu skandināvus
+29	3829	komunisms	komunisma komunismam komunismu komunismā
+30	3830	lama	lamai lamam lamas lamu lamā lamām lamās
+31	3831	sārts	sārta sārtais sārtajam sārtajiem sārtajos sārtajā sārtajās sārtas sārtie sārtiem sārto sārtos sārtu sārtus sārtā sārtāks sārtām sārtās
+32	3832	granāts	granāta granāti granātu
+33	3833	derība	derībai derību derībā derībām derībās
+34	3834	rakstiski	
+35	3835	ūdeņradis	ūdeņradi ūdeņradī ūdeņraža
+36	3836	racionāli	
+37	3837	redzēties	redzamies redzies redzieties redzējies redzējos redzējāmies redzējās redzējāties redzēsies redzēsimies redzētos
+38	3838	zobārstniecība	zobārstniecībai zobārstniecības zobārstniecību zobārstniecībā
+39	3839	alnis	alni alnim alnī aļņa aļņi aļņiem aļņu aļņus
+40	3840	birzs	bira birs birzi birzij birzis birzī birzīm birzīs biržu
+41	3841	nacionālisms	nacionālisma nacionālismam nacionālismu nacionālismā
+42	3842	etnogrāfisks	etnogrāfiska etnogrāfiskais etnogrāfiskajai etnogrāfiskajam etnogrāfiskajiem etnogrāfiskajos etnogrāfiskajā etnogrāfiskajām etnogrāfiskajās etnogrāfiskas etnogrāfiski etnogrāfiskie etnogrāfiskiem etnogrāfisko etnogrāfiskos etnogrāfisku etnogrāfiskā etnogrāfiskām etnogrāfiskās
+43	3843	sekls	sekla seklai seklais seklajai seklajiem seklajā seklajām seklajās seklam seklas seklie sekliem seklo seklos seklu seklus seklā seklāks seklām seklās visseklākais
+44	3844	paradokss	paradoks paradoksa paradoksam paradoksi paradoksiem paradoksu paradoksus
+45	3845	enciklopēdija	enciklopēdijai enciklopēdijas enciklopēdiju enciklopēdijā enciklopēdijām enciklopēdijās
+46	3846	šaujamierocis	šaujamieroci šaujamierocim šaujamieroča šaujamieroči šaujamieročiem šaujamieroču šaujamieročus
+47	3847	cements	cement cementa cementam cementu cementā
+48	3848	holesterīns	holesterīna holesterīnam holesterīnu
+49	3849	kopmītne	kopmītnei kopmītnes kopmītni kopmītnē kopmītnēm kopmītnēs kopmītņu
+50	3850	ģipsis	ģipsi ģipsim ģipsī ģipša ģipši ģipšu ģipšus
+51	3851	nenormāls	nenormāla nenormālais nenormālajai nenormālajam nenormālajiem nenormālajos nenormālajā nenormālajām nenormālam nenormālas nenormālie nenormāliem nenormālo nenormālos nenormālu nenormālus nenormālā nenormālām nenormālās visnenormālākais
+52	3852	bagātīgi	
+53	3853	tovakar	
+54	3854	tastatūra	tastatūrai tastatūras tastatūru tastatūrām
+55	3855	konteiners	konteineri
+56	3856	horizonts	horizont horizonta horizontam horizonti horizontiem horizontos horizontu horizontus horizontā
+57	3857	bezbailīgs	bezbailīga bezbailīgai bezbailīgais bezbailīgajam bezbailīgajiem bezbailīgajā bezbailīgam bezbailīgas bezbailīgi bezbailīgie bezbailīgiem bezbailīgo bezbailīgu bezbailīgus bezbailīgā bezbailīgās
+58	3858	izvēlēt	izvēlēto
+59	3859	asums	asum asuma asumam asumi asumiem asumos asumu asumus asumā
+60	3860	sētnieks	sētnieka sētniekam sētnieki sētniekiem sētniekos sētnieku sētniekus
+61	3861	sertifikācija	sertifikācijai sertifikācijas sertifikāciju sertifikācijā sertifikācijās
+62	3862	diktators	diktatora diktatoram diktatori diktatoriem diktatoru diktatorus
+63	3863	portugālis	portugāli portugāliešu portugālim portugāļa portugāļi portugāļiem portugāļu portugāļus
+64	3864	dzērve	dzēram dzērvei dzērves dzērvi dzērvju dzērvē dzērvēm
+65	3865	notīrīt	notīra
+66	3866	bīties	bijos bijāmies bijās bīdamies bīsies bīstamies bīstas bīstaties bīsties bīstos bīstoties bītos bīšanās jābīstas nebīties
+67	3867	saimniekot	saimnieko
+68	3868	savanna	savannai savannas savannu savannā
+69	3869	pretestība	
+70	3870	dzimstība	dzimstībai dzimstības dzimstību
+71	3871	āzis	āzi āzim āža āži āžiem āžu āžus
+72	3872	rūpēt	jārūpē nerūpēt rūpē rūpēja rūpējis rūpējot rūpēs rūpēts rūpētu rūpēšana
+73	3873	sērkociņš	sērkociņa sērkociņi sērkociņiem sērkociņos sērkociņu sērkociņus
+74	3874	ugunīgs	ugunīga ugunīgais ugunīgajai ugunīgajam ugunīgajiem ugunīgajā ugunīgajām ugunīgajās ugunīgas ugunīgi ugunīgie ugunīgo ugunīgos ugunīgu ugunīgus ugunīgā ugunīgām ugunīgās
+75	3875	rati	
+76	3876	laka	lakai lakam lakas lakos laku lakā lakām
+77	3877	konfigurācija	konfigurācijai konfigurācijas konfigurāciju konfigurācijā konfigurācijām konfigurācijās
+78	3878	sinepes	sinepju sinepēm
+79	3879	novietojums	novietojuma novietojumam novietojumi novietojumu novietojumā
+80	3880	toksīns	toksīna toksīni toksīniem toksīnu toksīnus
+81	3881	izbrīns	izbrīna izbrīnam izbrīnu izbrīnā
+82	3882	arbūzs	arbūza arbūzam arbūzi arbūziem arbūzu arbūzus arbūzā
+83	3883	vēlējums	vēlējuma vēlējumam vēlējumi vēlējumiem vēlējumos vēlējumu vēlējumus vēlējumā
+84	3884	ūdensvīrs	ūdensvīr ūdensvīra ūdensvīram ūdensvīri ūdensvīriem ūdensvīru ūdensvīrus ūdensvīrā
+85	3885	peldētājs	peldētāja peldētājam peldētāji peldētājiem peldētāju peldētājus
+86	3886	slīkt	jāslīkst neslīkt slīcis slīka slīksim slīkst slīkstam slīkstat slīksti slīkstot slīkstu slīkšana
+87	3887	turbīna	turbīnai turbīnas turbīnu turbīnā turbīnām
+88	3888	ēdienreize	ēdienreizei ēdienreizes ēdienreizi ēdienreizē ēdienreizēm ēdienreizēs ēdienreižu
+89	3889	drāna	drānai drānas drānu drānā drānām drānās
+90	3890	dzelži	dzelzis dzelžiem dzelžos dzelžu dzelžus
+91	3891	pūkains	pūkaina pūkainais pūkainajai pūkainajiem pūkainajā pūkainajās pūkainam pūkainas pūkaini pūkainie pūkainiem pūkaino pūkainos pūkainu pūkainus pūkainā pūkaināks pūkainām pūkainās
+92	3892	mikroviļņi	mikroviļņos mikroviļņu mikroviļņus
+93	3893	ārstniecisks	ārstnieciska ārstnieciskai ārstnieciskais ārstnieciskajai ārstnieciskajam ārstnieciskajiem ārstnieciskajā ārstnieciskajām ārstnieciskajās ārstnieciskam ārstnieciskas ārstnieciskie ārstnieciskiem ārstniecisko ārstnieciskos ārstniecisku ārstnieciskus ārstnieciskā ārstnieciskām ārstnieciskās
+94	3894	pievilcība	pievilcībai pievilcības pievilcību pievilcībā
+95	3895	valgs	valga valgai valgais valgas valgiem valgo valgos valgu valgus valgā valgāks valgās
+96	3896	aplikt	aplicis apliec aplieciet apliek apliekam apliekams apliekat apliekot aplieku aplika apliks apliksi apliksim aplikts apliktu apliku aplikāt aplikšana aplikšu jāapliek neaplikt
+97	3897	toksisks	toksiska toksiskais toksiskajiem toksiskajām toksiskajās toksiskas toksiski toksiskie toksiskiem toksisko toksiskos toksisku toksiskus toksiskā toksiskāks toksiskām toksiskās
+98	3898	lietains	lietaina lietainai lietainais lietainajai lietainajam lietainajiem lietainajos lietainajā lietainajām lietainajās lietainam lietainas lietaini lietainie lietainiem lietaino lietainos lietainu lietainus lietainā lietaināks lietainām lietainās
+99	3899	store	stora stores stori storu storā storē storēm
+100	3900	plēst	jāplēš neplēst plēs plēsa plēsiet plēsis plēsts plēstu plēsu plēsīs plēsīsim plēsīšu plēš plēšam plēšana plēšot plēšu

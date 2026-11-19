@@ -1,100 +1,100 @@
-1	5801	sargtornis	sargtorni
-2	5802	neglītums	neglītumu neglītumā
-3	5803	rudmatains	rudmataino rudmatainā
-4	5804	stomatoloģisks	stomatoloģiskā stomatoloģiskās
-5	5805	riekstrozis	riekstroži
-6	5806	kāsēt	kāsēji kāsējošs
-7	5807	parastums	parastuma
-8	5808	mataināks	matainais
-9	5809	bārdainis	bārdaini
-10	5810	tipiskāks	tipiskais tipiskākajām tipiskākās
-11	5811	latviešu valoda	latviešu valoda
-12	5812	luksofors	
-13	5813	maināmais	maināmo
-14	5814	mēļš	mēļo
-15	5815	spilgtums	spilgtumu
-16	5816	sākumlapa	sākumlapu
-17	5817	zaļāk	
-18	5818	visskaļāk	
-19	5819	apvienojamais	apvienojamajiem apvienojamo
-20	5820	kokzāģētava	kokzāģētavas kokzāģētavu
-21	5821	mutīgs	mutīgā mutīgās
-22	5822	pieturzīme	pieturzīmes pieturzīmēm
-23	5823	lāma	lāmu lāmās
-24	5824	carisks	cariskai cariskajā cariskās
-25	5825	rupjmaize	rupjmaizei rupjmaizes
-26	5826	līdzvērtība	līdzvērtības līdzvērtību
-27	5827	grūtums	grūtuma grūtumiem grūtumos
-28	5828	jāņoga	jāņogas jāņogu jāņogām jāņogās
-29	5829	lokanība	lokanībai lokanības lokanību
-30	5830	seksualizēt	seksualizētu seksualizētus seksualizētām seksualizēšanu
-31	5831	asars	asaram asari asaru asarus
-32	5832	puve	puves puvi
-33	5833	krēslot	krēslo krēslos
-34	5834	bikli	
-35	5835	circenis	circeni circenim circeņu
-36	5836	metafizisks	metafiziskiem metafiziskos metafiziskām
-37	5837	šmaukt	šmaukšanos šmaukšanu
-38	5838	iracionāls	iracionālas iracionālu
-39	5839	maurs	mauri maurus
-40	5840	sarķis	saru
-41	5841	holera	holeras
-42	5842	draiskulība	draiskulības draiskulībām
-43	5843	džihāds	džihāda džihādā
-44	5844	stomatologs	stomatologu
-45	5845	kabacis	kabačiem kabaču
-46	5846	sirdskaite	sirdskaites
-47	5847	lentenis	lenteni
-48	5848	kvalificēt	
-49	5849	neparastums	neparastumu
-50	5850	krustmeita	
-51	5851	melnis	
-52	5852	zilene	zilenēm
-53	5853	sniegbalts	sniegbalti
-54	5854	greznums	greznuma greznumā
-55	5855	saldeni	
-56	5856	termoss	termosa termosiem
-57	5857	necaurredzams	necaurredzama
-58	5858	maķedoniete	maķedoniešu
-59	5859	iecept	ieceptus
-60	5860	bikls	biklu biklā
-61	5861	reģistrētājs	reģistrētāji reģistrētājiem
-62	5862	šķīstība	šķīstības
-63	5863	viesmīlīgi	
-64	5864	dundurs	dunduru
-65	5865	ūsains	ūsainais ūsainu
-66	5866	dēmonisks	dēmoniskais dēmoniskā
-67	5867	neeksistējošais	neeksistējošās
-68	5868	viserotiskākais	erotiskākais erotiskākajā erotiskākā
-69	5869	dzeltenīgs	dzeltenīga dzeltenīgais dzeltenīgu
-70	5870	nestrādājošais	nestrādājošie nestrādājošo nestrādājošā
-71	5871	vistalantīgākais	talantīgais talantīgākais talantīgākajiem talantīgākie talantīgāko talantīgākos talantīgāks vistalantīgāko
-72	5872	neitrālāks	neitrālais neitrālākiem neitrālāku neitrālākus
-73	5873	selva	
-74	5874	vārda brīvība	brīvība vārda
-75	5875	amfiteātris	amfiteātra
-76	5876	atjaunināt	
-77	5877	atstatums	
-78	5878	cittautietis	cittautiešu
-79	5879	komfortablāk	
-80	5880	krematorija	
-81	5881	labēji	
-82	5882	mobili	
-83	5883	nedrīkstot	
-84	5884	patiesīgums	patiesīguma
-85	5885	pelmeņi	
-86	5886	pilnīgāk	
-87	5887	ultimāts	
-88	5888	īpašāk	
-89	5889	ķīsis	ķīši
-90	5890	neprasām	
-91	5891	neskaidrojot	
-92	5892	pedagoģija	
-93	5893	siļķe	
-94	5894	atvasara	atvasaras
-95	5895	demokratizācija	demokratizāciju demokratizācijā
-96	5896	harisma	harismu
-97	5897	klaviermūzika	klaviermūzikas
-98	5898	kompjūters	kompjūteriem
-99	5899	neiroze	neirozes neirozēm
-100	5900	rodijs	rodija
+1	5801	oftalmologs	oftalmologa oftalmologi oftalmologu oftalmoloģe
+2	5802	argons	argon argona argonu
+3	5803	musons	musona musonu
+4	5804	itālisks	itāliska itāliskais itālisko itālisku itāliskā visitāliskākais
+5	5805	grieķiski	
+6	5806	jaunavīgs	jaunavīgajiem jaunavīgo jaunavīgā jaunavīgās
+7	5807	skrimslis	skrimsli skrimslim skrimsļus
+8	5808	bālums	bālumu bālumā
+9	5809	elektrostacija	
+10	5810	priekšdziedzeris	priekšdziedzera priekšdziedzeri
+11	5811	šķirklis	šķirkli šķirklī šķirkļa šķirkļi šķirkļiem šķirkļos šķirkļu šķirkļus
+12	5812	sniegains	sniegaina sniegainajiem sniegainajos sniegainajā sniegainam sniegainas sniegaino sniegainos sniegainu sniegainā sniegainām sniegainās
+13	5813	vējbakas	vējbaku vējbakām
+14	5814	vēdzele	vēdzeles vēdzeli vēdzelēm vēdzeļu
+15	5815	jūrascūciņa	jūrascūciņai jūrascūciņas jūrascūciņu jūrascūciņām
+16	5816	pastāvība	pastāvības pastāvību
+17	5817	draiskulīgs	draiskulīga draiskulīgai draiskulīgi draiskulīgiem draiskulīgus
+18	5818	paukotājs	paukotāja paukotājas paukotāji paukotājiem
+19	5819	pūšļotājs	pūšļotāja pūšļotāji pūšļotājiem pūšļotāju
+20	5820	rējiens	rējiena rējieniem rējienu rējienus
+21	5821	aizparīt	
+22	5822	lielīgi	
+23	5823	holera	holeras
+24	5824	pēkšņums	pēkšņuma pēkšņumam pēkšņumu
+25	5825	šinšilla	šinšillu
+26	5826	termodinamika	termodinamikas termodinamiku
+27	5827	sālīšana	sālīšanai sālīšanas sālīšanu
+28	5828	apart	apar apara aparams apariet aparts aparāt aparšanai jāapar
+29	5829	zoologs	zoologa zoologi zoologiem zoologu zooloģe
+30	5830	spalgs	spalga spalgajā spalgam spalgas spalgo spalgu spalgā spalgās
+31	5831	tadžiks	tadžiki tadžikiem tadžiku
+32	5832	asenizācija	asenizācijas asenizāciju
+33	5833	īlens	īlenam īleni īlenu īlenus
+34	5834	zvirbulēns	zvirbulēn zvirbulēni zvirbulēnu
+35	5835	trulums	truluma trulumu trulumā
+36	5836	nākamība	nākamībai nākamības nākamību nākamībā
+37	5837	rozīgs	rozīgam rozīgas rozīgie rozīgo rozīgu rozīgus
+38	5838	gailēns	gailēni gailēnu gailēnus
+39	5839	spānisks	spāniska spāniskais spāniskajā spānisko spāniskām
+40	5840	nerātne	nerātnim nerātos nerātņi nerātņiem nerātņu
+41	5841	žurkulēns	žurkulēni žurkulēniem žurkulēnu žurkulēnus
+42	5842	astoņpadsmitais	
+43	5843	nebēdnieks	nebēdniece nebēdnieka nebēdnieki
+44	5844	aseksuāls	aseksuāla aseksuālai aseksuālie aseksuālu
+45	5845	biste	bistes bisti
+46	5846	kobalts	kobalta kobaltu
+47	5847	mēlīte	
+48	5848	saldeni	
+49	5849	sešpadsmitais	
+50	5850	sastāvēt	
+51	5851	bruģakmens	
+52	5852	lietuviski	
+53	5853	stīvums	stīvuma stīvumiem stīvumu
+54	5854	spilvendrāna	spilvendrānas spilvendrānu spilvendrānā
+55	5855	atkalt	atkala atkalu atkaļ
+56	5856	alata	alatas alati alatu alatām
+57	5857	dzirkstīt	dzirkstī dzirkstīja dzirkstīs
+58	5858	karognesējs	karognesēja karognesējam karognesēji karognesējiem karognesēju
+59	5859	ūka	ūkai ūkas ūkām
+60	5860	guza	guzos guzu guzās
+61	5861	galināt	
+62	5862	pilsētvalsts	pilsētvalsti pilsētvalstī
+63	5863	marķīzs	marķīzu
+64	5864	zē	
+65	5865	pirst	
+66	5866	spārnains	spārnainas spārnainie spārnaino spārnainu
+67	5867	akmeņkalis	akmeņkali akmeņkaļa akmeņkaļi akmeņkaļiem
+68	5868	nepateicība	nepateicības nepateicību nepateicībā
+69	5869	olvads	olvadi olvados olvadu olvadā
+70	5870	carisks	cariskai cariskajai cariskajā carisko cariskā cariskās
+71	5871	intoksikācija	intoksikācijai intoksikācijas intoksikāciju intoksikācijā
+72	5872	ateists	
+73	5873	asimetrija	asimetrijai asimetrijas asimetriju
+74	5874	kazene	kazenes kazeni kazenēm kazeņu
+75	5875	apostrofs	apostrofa apostrofiem apostrofu apostrofus
+76	5876	traheja	trahejas trahejām
+77	5877	skunkss	skunksa skunksi skunksu
+78	5878	vājprātība	vājprātības vājprātību
+79	5879	būcenis	būcenī būceņa būceņu
+80	5880	dancināšana	dancināšanu
+81	5881	smieklīgums	smieklīgumam smieklīgumu
+82	5882	stirnāzis	stirnāži stirnāžus
+83	5883	logaritmisks	logaritmiska logaritmiskais logaritmisko logaritmiskā
+84	5884	kapibara	kapibaras kapibaru
+85	5885	dobji	
+86	5886	drēbe	
+87	5887	kizils	kizila
+88	5888	lakt	
+89	5889	krauķis	krauķi krauķiem krauķu krauķus
+90	5890	igauniski	
+91	5891	osa	osas osu osā osām osās
+92	5892	garens	garena garenais garenajā garenas gareni garenie gareniem garenos garenu garenus garenās
+93	5893	atart	atara atari atars ataru
+94	5894	sportiskums	sportiskuma sportiskumam sportiskumu
+95	5895	meningīts	meningīta meningītu
+96	5896	kārte	kārtes kārti kārtē kārtēm kāršu
+97	5897	valzirgs	valzirgiem valzirgus
+98	5898	ziepjains	ziepjaino ziepjainā ziepjainām
+99	5899	jambs	jamba jambam jambu jambus
+100	5900	nominatīvs	nominatīvi nominatīvā

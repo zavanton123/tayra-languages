@@ -1,100 +1,100 @@
-1	6001	atāls	atāla atālu
-2	6002	atstāstījums	atstāstījumi atstāstījumiem atstāstījumā
-3	6003	atturība	atturībai atturības atturību
-4	6004	garens	garena garenas garenos
-5	6005	kardioloģisks	kardioloģiskais kardioloģiskiem kardioloģisko
-6	6006	pucēt	pucē pucējam
-7	6007	bārt	bar baru bāra bāri bāriem bāros bārtu bāru bārus
-8	6008	kārte	kārti kārtē kāršu
-9	6009	skanis	skais skaņu
-10	6010	liekt	liec lieciet liecis
-11	6011	visneprātīgākais	neprātīgais neprātīgāku visneprātīgākā
-12	6012	dēle	dēles dēli dēļu
-13	6013	visšausmīgākais	visšausmīgāko šausmīgākā šausmīgākās
-14	6014	ašāks	ašais ašāko
-15	6015	zinātniskāks	zinātniskais zinātniskāka
-16	6016	pļāpīgāks	pļāpīgais pļāpīgāka
-17	6017	idiotiskāks	idiotiskais idiotiskākā
-18	6018	nerātnāks	nerātnais nerātnāki
-19	6019	zilāks	zilais zilākas
-20	6020	brūnāks	brūnais brūnākai
-21	6021	sūkalas	sūkalām
-22	6022	traheja	trahejas
-23	6023	apātiski	
-24	6024	tevim	
-25	6025	ejakulēt	ejakulēti
-26	6026	ļipa	ļipu
-27	6027	lavis	lavi
-28	6028	rējiens	rējienu
-29	6029	aizmāršīgs	aizmāršīga
-30	6030	irāniete	irānieti
-31	6031	cūkkūts	
-32	6032	dievišķīgi	
-33	6033	ārstnieciski	
-34	6034	rupi	
-35	6035	saldāk	
-36	6036	bālums	bālumu
-37	6037	jaunavīgi	
-38	6038	blāvojam	
-39	6039	nepiemirstam	
-40	6040	valzirgs	valzirgiem
-41	6041	krāšņāk	
-42	6042	neskaitām	
-43	6043	nepareizums	nepareizumu
-44	6044	skunkss	skunksu
-45	6045	ūtrupe	ūtrupi
-46	6046	galināt	
-47	6047	hinduisms	
-48	6048	pilsētvalsts	pilsētvalstī
-49	6049	visklusāk	
-50	6050	šaipus	
-51	6051	mataini	
-52	6052	zvīņaini	
-53	6053	intīmi	
-54	6054	paija	paijas
-55	6055	vājprātība	vājprātības
-56	6056	lanka	lankā
-57	6057	pārcepties	pārcepusies
-58	6058	niknāk	
-59	6059	nesūcu	
-60	6060	cekuls	cekulu
-61	6061	argons	argona
-62	6062	aizparīt	
-63	6063	lielīgi	
-64	6064	cepamies	
-65	6065	rozīgs	rozīgo
-66	6066	marķīzs	marķīzu
-67	6067	gailēns	gailēnu
-68	6068	slīkšņa	slīkšņu
-69	6069	ūka	ūkai
-70	6070	hindi	
-71	6071	kapibara	
-72	6072	astoņpadsmitais	
-73	6073	spānisks	spāniska
-74	6074	pumpa	
-75	6075	lakta	
-76	6076	pēkšņums	pēkšņumam
-77	6077	nebēdnieks	
-78	6078	mikli	
-79	6079	būcenis	būcenī
-80	6080	braukšus	
-81	6081	dimēt	dim
-82	6082	nocepties	nocepušies
-83	6083	starpzvaigžņu	
-84	6084	knaši	
-85	6085	tīģerēns	
-86	6086	poliski	
-87	6087	zē	
-88	6088	antimons	antimonu
-89	6089	nerātne	nerātņu
-90	6090	vergturis	vergturi
-91	6091	salami	
-92	6092	kinoja	
-93	6093	nekožam	
-94	6094	neizteicu	
-95	6095	slepenpolicija	slepenpolicijas
-96	6096	mēlīte	
-97	6097	grūsnējs	grūsnēja
-98	6098	bakteriofāgs	bakteriofāgi
-99	6099	balsene	
-100	6100	mušmire	
+1	6001	menisks	meniska menisku meniskā
+2	6002	galerts	galerta galertam galertu
+3	6003	centrists	centristi centristiem centristu centristus
+4	6004	ļaunatūra	ļaunatūrai ļaunatūras ļaunatūru
+5	6005	akācija	akācijas akāciju akācijām akācijās
+6	6006	jēdzienisks	jēdzieniskai jēdzieniskais jēdzieniskajam jēdzieniskas jēdzieniskie jēdzienisko jēdzienisku jēdzieniskā jēdzieniskās
+7	6007	valodisks	valodiska valodiskais valodiskajās valodiskas valodiskiem valodisko valodisku valodiskā valodiskās
+8	6008	tonāls	tonālo
+9	6009	luba	lubi lubu lubā
+10	6010	reizinātājs	reizinātāja reizinātāji reizinātājiem reizinātājos reizinātāju
+11	6011	planieris	planiera planieri planieriem planierim planieru planierus planierī
+12	6012	izceļošana	
+13	6013	kodums	
+14	6014	eiropeiski	
+15	6015	mārrutki	
+16	6016	pērngad	
+17	6017	miesīgi	
+18	6018	raupjums	raupjuma raupjumam raupjumu raupjumā
+19	6019	reliģiozitāte	reliģiozitātei reliģiozitātes reliģiozitāti
+20	6020	šahāda	šahādas šahādu
+21	6021	arums	aruma arumi arumiem arumu arumus
+22	6022	lingviste	lingvisi lingvista lingvistes lingvisti lingvistiem lingvists lingvistus
+23	6023	ciprese	cipreses cipresēm ciprešu
+24	6024	mezglot	mezglo mezglojot mezgloju mezglos mezglots mezglotu mezglošanas mezglošanu
+25	6025	intonatīvs	intonatīvais intonatīvajiem intonatīvajā intonatīvi intonatīvo
+26	6026	krēslains	krēslaina krēslainajiem krēslainajā krēslainajām krēslaino krēslainā krēslainām krēslainās
+27	6027	slāvisks	slāviskai slāviskajā slāviskas slāvisko slāviskos slāviskā slāviskām
+28	6028	vārda brīvība	brīvība vārda
+29	6029	eš	
+30	6030	okupants	
+31	6031	sapņaini	
+32	6032	aristokrāts	
+33	6033	zemlikas	zemlika zemliku
+34	6034	mājasmāte	mājasmātei mājasmātes
+35	6035	oligarhija	oligarhijas
+36	6036	šņukurs	šņukur šņukura šņukuri šņukuru šņukurus
+37	6037	lielīgs	lielīga lielīgie lielīgiem lielīgā lielīgās
+38	6038	valgme	valge valgmes valgmi valgmē
+39	6039	bosnietis	bosnietes bosnieši bosniešiem bosniešu
+40	6040	papuve	papuves papuvi papuvju papuvē papuvēm papuvēs
+41	6041	cītība	cītību cītībā
+42	6042	mašīntulkošana	mašīntulkošanas mašīntulkošanu
+43	6043	baranka	barankas
+44	6044	pallādijs	pallādija pallādijam pallādiju
+45	6045	reizinājums	reizinājuma reizinājumu
+46	6046	zobakmens	zobakmeni
+47	6047	famīlija	famīlijai famīlijas famīliju famīlijā
+48	6048	sacepties	sacepies saceptos sacepās
+49	6049	grūsnība	grūsnības grūsnību
+50	6050	patiesīgs	patiesīga patiesīgais patiesīgam patiesīgi patiesīgu
+51	6051	artikuls	artikula artikuli artikuliem artikulu artikulus
+52	6052	lingvistika	lingvistikas lingvistiku lingvistikā
+53	6053	polisks	poliska poliskais poliskajiem poliskajā poliskajās poliskie polisko poliskos polisku poliskās
+54	6054	ofensīva	
+55	6055	krematorija	
+56	6056	pakot	
+57	6057	vienpadsmitais	
+58	6058	divdesmitais	
+59	6059	ziemīgi	
+60	6060	jēdzieniski	
+61	6061	izpildītājmāksla	izpildītājmākslas izpildītājmākslā
+62	6062	kirgīziete	kirgīzi kirgīzu
+63	6063	transparents	transparent transparentiem transparentos transparentu transparentus
+64	6064	nepālietis	nepālieši nepāliešiem nepāliešu nepāliešus
+65	6065	baltegle	baltegles balteglēm baltegļu
+66	6066	korinte	korintes korintēm korinu korinšu
+67	6067	obelisks	obelisk obeliska obeliskam obeliski obelisku
+68	6068	akustiski	
+69	6069	pretspars	
+70	6070	astronomiski	
+71	6071	internacionāli	
+72	6072	ķekatas	
+73	6073	gotu	
+74	6074	skandinieks	skandinieki skandinieku
+75	6075	kuģubūve	kuģubūvei kuģubūves
+76	6076	plānums	plānuma plānumam plānumu
+77	6077	toksiskums	toksiskuma toksiskumu
+78	6078	auka	aukas auku aukām
+79	6079	zivjērglis	zivjērgļa zivjērgļi zivjērgļu zivjērgļus
+80	6080	arhivārs	arhivāra arhivāre arhivāriem arhivāru
+81	6081	skandālists	skandālista skandāliste skandālisti skandālistu
+82	6082	spieģelis	spieģeli spieģelim spieģelī spieģeļa
+83	6083	vakarējs	vakarēja vakarējais vakarējie vakarējo vakarējā
+84	6084	sāļums	sāļuma sāļumu
+85	6085	vingrums	vingruma vingrumu
+86	6086	tautiskums	tautiskuma tautiskumu
+87	6087	neitralizācija	neitralizācijai neitralizācijas neitralizāciju
+88	6088	sukāt	sukā sukāja sukājat sukājot sukās sukāsiet sukāšanas sukāšanu
+89	6089	augļukoks	augļukoka augļukoki augļukokiem augļukoku augļukokus
+90	6090	kauciens	kauciena kaucienam kaucienu kaucienā
+91	6091	mērcēties	mērcējoties mērcējās mērcēšanās
+92	6092	fotosintēze	fotosintēzes fotosintēzi
+93	6093	bezjēdzīgums	bezjēdzīguma bezjēdzīgumam bezjēdzīgumu bezjēdzīgumā
+94	6094	tramplīnlēkšana	tramplīnlēkšanas tramplīnlēkšanu tramplīnlēkšanā
+95	6095	kāškrusts	kāškrusta kāškrusti kāškrustiem kāškrustu
+96	6096	pīlādžoga	pīlādžogam pīlādžogas pīlādžogu pīlādžogām
+97	6097	mutīgs	mutīga mutīgais mutīgajai mutīgas mutīgi mutīgā mutīgās
+98	6098	zemiskums	zemiskuma zemiskumam zemiskumu zemiskumā
+99	6099	kovārnis	kovārni kovārnim kovārņa kovārņi kovārņiem kovārņu kovārņus
+100	6100	divdabis	divdabi divdabja divdabji divdabjiem divdabjus

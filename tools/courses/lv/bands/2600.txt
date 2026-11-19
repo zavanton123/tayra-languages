@@ -1,100 +1,100 @@
-1	2501	mūžība	mūžībai mūžības mūžību mūžībā
-2	2502	strēlnieks	strēlniek strēlnieka strēlniekam strēlnieki strēlniekiem strēlnieku strēlniekus
-3	2503	muļķīgi	
-4	2504	radītājs	radītāj radītāja radītājam radītāji radītājiem radītāju radītājus
-5	2505	fotogrāfs	fotogrāfa fotogrāfam fotogrāfe fotogrāfei fotogrāfes fotogrāfi fotogrāfiem fotogrāfu fotogrāfus fotogrāfē fotogrāfēm
-6	2506	akadēmisks	akadēmiska akadēmiskais akadēmiskajai akadēmiskajam akadēmiskajiem akadēmiskajos akadēmiskajā akadēmiskajām akadēmiskas akadēmiskie akadēmiskiem akadēmisko akadēmiskos akadēmisku akadēmiskus akadēmiskā akadēmiskās
-7	2507	brūce	brūcei brūces brūci brūcē brūcēm brūču
-8	2508	garantija	garantiju
-9	2509	baigi	
-10	2510	ligzda	ligzdas ligzdu ligzdā ligzdām ligzdās
-11	2511	vītols	vītola vītolam vītolos vītolu vītolā
-12	2512	em	
-13	2513	kolektīvs	kolektīvu
-14	2514	japāniete	japāni japānieti japāniešu japānis japāņi japāņiem japāņu japāņus
-15	2515	talantīgs	talantīga talantīgais talantīgajai talantīgajam talantīgajiem talantīgajām talantīgas talantīgi talantīgie talantīgiem talantīgo talantīgos talantīgu talantīgus talantīgā talantīgākais talantīgākajiem talantīgākie talantīgāko talantīgākos talantīgāks talantīgās vistalantīgākais
-16	2516	deklarācija	deklarāciju
-17	2517	izpausties	izpaudās izpaužas
-18	2518	izcili	
-19	2519	liet	jālej lej lejam lejiet lejot leju lies liesi lietai lietam lieti lietos liets lietu lietā lietām lietās liešana lēja lēju lējāt
-20	2520	medus	medu medum medū
-21	2521	precēt	jāprec prec preci precu precēja precējis precēs precēsi precēts precētu precēšu
-22	2522	augsne	augsnei augsnes augsni augsnē augsnēm augsnēs augšņu
-23	2523	džungļi	džungļiem džungļos džungļu džungļus
-24	2524	aizstāvība	aizstāvībai aizstāvības aizstāvību aizstāvībā
-25	2525	dārgi	
-26	2526	riepa	riepas
-27	2527	karaspēks	karaspēka karaspēkam karaspēki karaspēkiem karaspēku karaspēkus karaspēkā
-28	2528	ķīlnieks	ķīlniece ķīlnieka ķīlniekam ķīlnieki ķīlniekiem ķīlnieku ķīlniekus
-29	2529	izsacīt	izsaka
-30	2530	stulbenis	stulbenes stulbeni stulbenim stulbeņa stulbeņi stulbeņiem stulbeņu
-31	2531	līt	jālīst lija lijas lijis liju lijā līs līstot līstu lītu līšot
-32	2532	iznākt	iznāk
-33	2533	sencis	senci sencim senči senčiem senčos senču senčus
-34	2534	lēnāk	
-35	2535	tuksnesis	tuksnesi tuksnesī tuksneša tuksnešiem tuksnešus
-36	2536	liecinieks	liecinieki
-37	2537	karaliste	karalistei karalistes karalisti karalistē karalistēm
-38	2538	aploksne	aploksnei aploksnes aploksni aploksnē aploksnēm aploksnēs aplokšņu
-39	2539	stipendija	stipendijai stipendijas stipendiju stipendijām stipendijās
-40	2540	slapjš	slapja slapjai slapjajā slapjas slapji slapjie slapjo slapju slapjā slapjāka slapjām slapjās
-41	2541	zābaks	zābakam zābaki zābakiem zābakos zābaku zābakus zābakā
-42	2542	indekss	indeksu
-43	2543	aizstāvis	aizstāve aizstāvi aizstāvim aizstāvja aizstāvji aizstāvjiem aizstāvju aizstāvjus
-44	2544	mīļākais	
-45	2545	komplekss	kompleksu
-46	2546	dzejnieks	dzejniek dzejnieka dzejniekam dzejnieki dzejniekiem dzejnieku dzejniekus
-47	2547	lidaparāts	lidaparāta lidaparātam lidaparāti lidaparātiem lidaparātu lidaparātus lidaparātā
-48	2548	vaigs	vaig vaiga vaigi vaigiem vaigos vaigu vaigus vaigā
-49	2549	saldums	saldum saldumam saldumi saldumiem saldumu saldumus
-50	2550	tramvajs	tramvaja tramvaji tramvajiem tramvajos tramvaju tramvajā
-51	2551	osis	oi osi osim oša ošu ošus
-52	2552	ķēniņš	ķēniņ ķēniņa ķēniņam ķēniņi ķēniņiene ķēniņienei ķēniņu
-53	2553	apbrīnot	apbrīno apbrīnoja apbrīnojam apbrīnojams apbrīnojat apbrīnoji apbrīnojis apbrīnojot apbrīnoju apbrīnojām apbrīnosi apbrīnosim apbrīnotu jāapbrīno
-54	2554	efektivitāte	efektivitāti
-55	2555	aita	aitai aitam aitas aitu aitām
-56	2556	aktīvists	aktīvista aktīvistam aktīviste aktīvisti aktīvistiem aktīvistu aktīvistus
-57	2557	ārs	āra āru
-58	2558	vēsturiski	
-59	2559	skaļš	skaļa skaļai skaļais skaļajiem skaļas skaļie skaļiem skaļo skaļos skaļu skaļus skaļā skaļāka skaļākais skaļākajiem skaļākajām skaļākajās skaļākas skaļāki skaļāks skaļāku skaļākus skaļākā skaļākās skaļām skaļās visskaļākās
-60	2560	priekšstats	priekšstata priekšstatam priekšstati priekšstatiem priekšstatos priekšstatu priekšstatus
-61	2561	hercogs	hercog hercoga hercogam hercogi hercogiene hercogienei hercogienes hercogieni hercogienēm hercogu hercogā
-62	2562	štats	štatā
-63	2563	benzīns	benzīna
-64	2564	svētība	svētībai svētības svētību svētībā svētībām
-65	2565	daudzdzīvokļu	
-66	2566	pastāvīgi	
-67	2567	vijole	vijolei vijoles vijoli vijolē vijolēm vijoļu
-68	2568	ledusskapis	ledusskapi ledusskapim ledusskapja ledusskapji ledusskapjiem ledusskapjos ledusskapju ledusskapjus ledusskapī
-69	2569	zvērēt	jāzvēr zvēr zvēram zvērat zvēri zvēriet zvērot zvēru zvērēja zvērēji zvērējis zvērēju zvērējām zvērēsi zvērēsim zvērēšana zvērēšu
-70	2570	paklājs	paklāj paklāja paklājam paklāji paklājiem paklājos paklāju paklājus paklājā
-71	2571	lasis	laa lasi lasī lau laus laša laši lašu lašus
-72	2572	īrs	īr īra īram īri īriem īriete īru īrus
-73	2573	salāts	salāta salāti salātiem salātos salātu salātus
-74	2574	dzimtene	dzimtenei dzimtenes dzimteni dzimtenē dzimtenēs
-75	2575	aculiecinieks	aculieciniece aculiecinieka aculieciniekam aculiecinieki aculieciniekiem aculiecinieku aculieciniekus
-76	2576	kost	jākož kod koda kodi kodiet kodis kodu kodīs kosta kostam kostas kostu košanas kož kožot kožu nekod nekodiet nekodīs nekodīsim nekodīšu nekož
-77	2577	gribējis	gribējusi gribējušas gribējuši
-78	2578	virzīties	virzās
-79	2579	apsvērt	apsver
-80	2580	sakāms	sakāma sakāmas sakāmi sakāmā
-81	2581	svece	sveces sveci svecēm sveču
-82	2582	nelietis	neliete nelieti nelietim nelieša nelieši neliešiem neliešu neliešus
-83	2583	nikns	nikna niknais niknajiem niknajām niknam niknas nikni niknie nikno niknu niknus niknām
-84	2584	rīkle	rīklei rīkles rīkli rīklē rīklēm rīklēs
-85	2585	plats	plata platai platais platajiem platajā platajām platas platiem plato platu platus platā platāk platāka platāki platāks platāku platām platās
-86	2586	nezin	
-87	2587	bēglis	bēgļu
-88	2588	rieksts	rieksta rieksti riekstiem riekstos riekstu riekstus
-89	2589	skaistule	skaistulei skaistules skaistuli skaistulim skaistulis skaistulēm skaistuļa
-90	2590	spožs	spoža spožais spožajai spožas spožie spožo spožu spožā spožāka spožākais spožākajai spožākajiem spožākajām spožākie spožāko spožāks spožāku spožākā spožām spožās visspožāko visspožākā
-91	2591	skandāls	skandāla skandālam skandāli skandāliem skandālos skandālu skandālus skandālā
-92	2592	maksātnespēja	maksātnespējas
-93	2593	mītne	mītnei mītnes mītni mītnē mītnēm mītnēs mītņu
-94	2594	negaiss	negais negaisa negaisam negaisi negaisiem negaisu negaisus
-95	2595	pilsonība	pilsonībai pilsonības pilsonību pilsonībā
-96	2596	griezties	griežas
-97	2597	sirdsapziņa	sirdsapziņai sirdsapziņas sirdsapziņu sirdsapziņā
-98	2598	spalva	spalvai spalvas spalvu spalvām spalvās
-99	2599	izplatīties	izplatās
-100	2600	cilts	cilti ciltij ciltis ciltī ciltīm cilā cilšu
+1	2501	iecere	ieceres
+2	2502	liecinieks	liecinieki
+3	2503	rags	raga ragam ragi ragiem ragos ragu ragus ragā
+4	2504	spožs	spoža spožai spožais spožajai spožajam spožajiem spožajos spožajā spožajām spožajās spožam spožas spožie spožiem spožo spožos spožu spožus spožā spožāks spožām spožās
+5	2505	basketbolists	basketbolista basketbolistam basketboliste basketbolisti basketbolistiem basketbolistos basketbolistu basketbolistus
+6	2506	vientuļš	vientuļa
+7	2507	smaržot	smaržo
+8	2508	mesties	metas metās
+9	2509	skate	skatei skates skati skatē skatēm skatēs skašu
+10	2510	vizīte	vizītes
+11	2511	dzimt	dzima dzimi dzims dzimst dzimstam dzimstot dzimstošais dzimstu dzimtai dzimtais dzimtas dzimti dzimtos dzimts dzimtu dzimtā dzimtām dzimtās dzimu dzimušais dzimām dzimšu jādzimst nedzimt
+12	2512	dubļi	dubļiem dubļos dubļu dubļus
+13	2513	fiziski	
+14	2514	kredītkarte	kredītkartei kredītkartes kredītkarti kredītkartē kredītkartēm kredītkaršu
+15	2515	rīkle	rīklei rīkles rīkli rīklē rīklēm rīklēs rīkļu
+16	2516	paslēpt	jāpaslēpj paslēp paslēpa paslēpdams paslēpi paslēpiet paslēpis paslēpj paslēpjams paslēpjot paslēpju paslēps paslēpsim paslēptais paslēpts paslēptu paslēpu paslēpām paslēpāt paslēpšana paslēpšanai paslēpšanas paslēpšanā paslēpšu
+17	2517	bārda	bārdai bārdam bārdas bārdu bārdā bārdām bārdās
+18	2518	bezdarbs	bezdarba bezdarbam bezdarbu bezdarbā
+19	2519	jods	joda jodam jodi jodu
+20	2520	nostāja	nostāju
+21	2521	pilsonība	pilsonībai pilsonības pilsonību pilsonībā
+22	2522	zvejnieks	zvejniece zvejniecei zvejnieces zvejnieci zvejnieka zvejniekam zvejnieki zvejniekiem zvejniekos zvejnieku zvejniekus zvejniekā
+23	2523	vakardiena	vakardienai vakardienas vakardienu vakardienā
+24	2524	glābējs	glābēji
+25	2525	pastāvīgi	
+26	2526	paklājs	paklāj paklāja paklājam paklāji paklājiem paklājos paklāju paklājus paklājā
+27	2527	krāsns	krās krāsni krāsnij krāsnis krāsnī krāsnīm krāsnīs krāšņu
+28	2528	pīle	pīlei pīles pīli pīlēm pīlēs pīļu
+29	2529	skaistule	skaistulei skaistules skaistuli skaistulim skaistulis skaistulē skaistulēm skaistulēs skaistulī skaistuļa skaistuļi skaistuļiem skaistuļu skaistuļus
+30	2530	jaka	jakai jakas jaku jakā jakām jakās
+31	2531	komandieris	
+32	2532	audums	auduma audumam audumi audumiem audumos audumu audumus audumā
+33	2533	veste	vestei vestes vesti vestu vestē vestēm vestēs
+34	2534	itin	
+35	2535	temats	temata tematam temati tematiem tematos tematu tematus tematā
+36	2536	plauksta	plaukstai plaukstas plaukstu plaukstā plaukstām plaukstās
+37	2537	apstrāde	apstrādes
+38	2538	maģija	maģijai maģijas maģiju maģijā
+39	2539	stabs	stab staba stabam stabi stabiem stabiņa stabiņam stabiņi stabiņiem stabiņos stabiņu stabiņus stabiņā stabiņš stabos stabu stabus stabā
+40	2540	stādīt	jāstāda nestādīt stāda stādi stādiet stādot stādu stādām stādāma stādāmais stādāmas stādāmos stādāms stādāmā stādāmās stādāt stādīja stādīji stādījis stādīju stādījām stādīs stādīsi stādīsiet stādīsim stādīsit stādītais stādīts stādītu stādīšana stādīšanai stādīšanas stādīšanu stādīšanā stādīšot stādīšu
+41	2541	jahta	jahtai jahtas jahti jahtu jahtā jahtām jahtās
+42	2542	spīdēt	jāspīd spīd spīdam spīdat spīdi spīdot spīdošs spīdu spīdēja spīdējis spīdēs spīdēsi spīdētu spīdēšana
+43	2543	iedarbība	iedarbībai iedarbības iedarbību iedarbībā
+44	2544	bagāža	bagāžai bagāžas bagāžu bagāžā bagāžām bagāžās
+45	2545	tvaiks	tvaika tvaikam tvaiki tvaikiem tvaikos tvaiku tvaikus tvaikā
+46	2546	līdzināties	līdzinās
+47	2547	civilizācija	civilizācijai civilizācijas civilizāciju civilizācijā civilizācijām civilizācijās
+48	2548	muita	muitai muitas muitu muitā muitām
+49	2549	augšup	
+50	2550	demokrātisks	demokrātiska demokrātiskai demokrātiskais demokrātiskajai demokrātiskajam demokrātiskajiem demokrātiskajos demokrātiskajā demokrātiskajām demokrātiskajās demokrātiskam demokrātiskas demokrātiskie demokrātiskiem demokrātisko demokrātiskos demokrātisku demokrātiskus demokrātiskā demokrātiskāks demokrātiskām demokrātiskās visdemokrātiskākais
+51	2551	bullis	bulli bullim buus buļļa buļļi buļļiem buļļu buļļus
+52	2552	norisināties	norisinās
+53	2553	nākamnedēļ	
+54	2554	prasme	prasmju
+55	2555	tauki	taukiem taukos tauku taukus
+56	2556	ziepes	ziepju ziepēm ziepēs
+57	2557	piecdesmit	
+58	2558	temps	temp tempa tempam tempi tempiem tempos tempu tempus tempā
+59	2559	brālība	brālībai brālības brālību brālībā brālībām brālībās
+60	2560	kalējs	kalēj kalēja kalējam kalēji kalējiem kalējos kalēju kalējus kalējā
+61	2561	gripa	gripai gripas gripu gripā gripām
+62	2562	plats	plata platai platais platajai platajam platajiem platajā platajām platajās platas platie platiem plato platu platus platā platāks platām platās
+63	2563	aknas	akna aknam akni aknu aknām aknās
+64	2564	skaļš	skaļa skaļai skaļais skaļajai skaļajam skaļajiem skaļajos skaļajā skaļajām skaļajās skaļam skaļas skaļie skaļiem skaļo skaļos skaļu skaļus skaļā skaļāks skaļām skaļās visskaļākais
+65	2565	noslēpumains	noslēpumaina noslēpumainai noslēpumainais noslēpumainajai noslēpumainajam noslēpumainajiem noslēpumainajos noslēpumainajā noslēpumainajām noslēpumainajās noslēpumainam noslēpumainas noslēpumaini noslēpumainie noslēpumainiem noslēpumaino noslēpumainos noslēpumainu noslēpumainus noslēpumainā noslēpumaināks noslēpumainām noslēpumainās visnoslēpumainākais
+66	2566	neprāts	neprāt neprāta neprātam neprātiem neprātu neprātā
+67	2567	migla	miglai miglam miglas miglu miglā miglām miglās
+68	2568	astotais	astotai astotajai astotajam astotajā astotajām astotajās astotie astoto astotā astotās
+69	2569	kokteilis	kokteili kokteilim kokteilī kokteiļa kokteiļi kokteiļiem kokteiļos kokteiļu kokteiļus
+70	2570	bāka	bākai bākas bāku bākā bākām bākās
+71	2571	glīts	glīta glītai glītais glītajai glītajam glītajiem glītajā glītajām glītajās glītam glītas glītie glītiem glīto glītos glītu glītus glītā glītāks glītām glītās
+72	2572	spilvens	spalvei spilvena spilvenam spilveni spilveniem spilvenos spilvenu spilvenus spilvenā
+73	2573	zemkopība	zemkopības
+74	2574	premjers	premjeru
+75	2575	biedēt	biedē biedēdams biedēja biedējam biedējat biedējis biedējot biedējošs biedēju biedējāt biedēs biedētu biedēšana jābiedē nebiedēt
+76	2576	cietoksnis	cietoksni cietoksnim cietoksnī cietokšņa cietokšņi cietokšņiem cietokšņos cietokšņu cietokšņus
+77	2577	galamērķis	galamērķa galamērķi galamērķiem galamērķim galamērķos galamērķu galamērķus galamērķī
+78	2578	komunists	komunist komunista komunistam komuniste komunisti komunistiem komunistos komunistu komunistus komunistā
+79	2579	saprāts	saprāta saprātam saprātiem saprātu saprātā
+80	2580	akadēmisks	akadēmiska akadēmiskai akadēmiskais akadēmiskajai akadēmiskajam akadēmiskajiem akadēmiskajos akadēmiskajā akadēmiskajām akadēmiskajās akadēmiskas akadēmiskie akadēmiskiem akadēmisko akadēmiskos akadēmisku akadēmiskus akadēmiskā akadēmiskām akadēmiskās
+81	2581	aptvert	aptver
+82	2582	nelaimīgs	nelaimīga nelaimīgai nelaimīgais nelaimīgajai nelaimīgajam nelaimīgajiem nelaimīgajā nelaimīgajām nelaimīgajās nelaimīgam nelaimīgas nelaimīgi nelaimīgie nelaimīgiem nelaimīgo nelaimīgos nelaimīgu nelaimīgus nelaimīgā nelaimīgāks nelaimīgās visnelaimīgākais
+83	2583	daile	dailei dailes daili dailē
+84	2584	skandāls	skandāla skandālam skandāli skandāliem skandālos skandālu skandālus skandālā
+85	2585	lasis	laa lasi lasim lasī lau laus laša laši lašiem lašos lašu lašus
+86	2586	derības	derību derībām derībās
+87	2587	referendums	referenduma referendumam referendumi referendumiem referendumos referendumu referendumus referendumā
+88	2588	saulains	saulaina saulainai saulainais saulainajai saulainajam saulainajiem saulainajos saulainajā saulainajām saulainajās saulainam saulainas saulaini saulainie saulainiem saulaino saulainos saulainu saulainus saulainā saulaināks saulainām saulainās
+89	2589	egle	eglei egles egli eglē eglēm eglēs egļu
+90	2590	aizstāvis	aizstāve aizstāvi aizstāvim aizstāvja aizstāvji aizstāvjiem aizstāvjos aizstāvju aizstāvjus
+91	2591	kalt	jākaļ kal kala kali kaliet kalis kals kalsim kalts kaltu kalu kalām kalāt kalšana kalšu kaļ kaļam kaļat kaļot kaļu
+92	2592	valis	vali valim vaļa vaļai vaļas vaļi vaļiem vaļu vaļus vaļām
+93	2593	grūtniecība	grūtniecībai grūtniecības grūtniecību grūtniecībā
+94	2594	grāmatvedība	grāmatvedībai grāmatvedības grāmatvedību grāmatvedībā grāmatvedībām
+95	2595	eksistence	eksistencei eksistences eksistenci eksistencē
+96	2596	pliks	plika plikai plikais plikajam plikajiem plikajām plikam plikas pliki plikie plikiem pliko plikos pliku plikus plikā plikāks plikām plikās
+97	2597	jūrnieks	jūrnieci jūrniek jūrnieka jūrniekam jūrnieki jūrniekiem jūrnieku jūrniekus
+98	2598	atoms	atom atoma atomam atomi atomiem atomos atomu atomus
+99	2599	rase	rasei rases rasi rasē rasēm rasēs rau rašu
+100	2600	šampanietis	šampanieti šampanietim šampanietī šampanieša šampanieši šampaniešu

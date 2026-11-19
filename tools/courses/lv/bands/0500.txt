@@ -1,100 +1,100 @@
-1	401	bieži	
-2	402	atbildēt	atbild atbildam atbildat atbildi atbildiet atbildot atbildu atbildēja atbildēji atbildējis atbildēju atbildējusi atbildējuši atbildējām atbildējāt atbildēs atbildēsi atbildēsiet atbildēsim atbildēti atbildēts atbildētu atbildēšu jāatbild neatbild neatbildi neatbildiet neatbildot neatbildu neatbildēja neatbildēji neatbildēju neatbildējāt neatbildēs neatbildēsi neatbildēsim neatbildēt neatbildētu neatbildēšu
-3	403	dome	domei domes domi domju domē domēm domēs
-4	404	noteikums	noteikuma noteikumam noteikumi noteikumiem noteikumos noteikumu noteikumus
-5	405	svarīgi	
-6	406	maijs	maija maijam maiji maiju maijā
-7	407	vērā	
-8	408	vasara	vasarai vasaras vasaru vasarā vasarām vasarās
-9	409	īpašs	visīpašākais visīpašākajam visīpašākā īpaša īpašai īpašais īpašajai īpašajam īpašajiem īpašajos īpašajā īpašajām īpašajās īpašam īpašas īpašie īpašiem īpašo īpašos īpašu īpašus īpašā īpašāka īpašākais īpašākas īpašāki īpašāku īpašām īpašās
-10	410	vēlāk	
-11	411	aiz	
-12	412	sasniegt	jāsasniedz nesasniegt sasniedz sasniedza sasniedzam sasniedzams sasniedzi sasniedzis sasniedzot sasniedzu sasniedzām sasniedzāt sasniegs sasniegsi sasniegsiet sasniegsim sasniegsit sasniegts sasniegtu sasnieguši sasniegšana sasniegšu
-13	413	paiet	pagāja pagājušajā pagājušo pagājušā pagājušās
-14	414	durvis	durvju durvīm durvīs
-15	415	slimnīca	slimnīcai slimnīcas slimnīcu slimnīcā slimnīcām slimnīcās
-16	416	tūkstotis	tūkstoti tūkstotim tūkstoša tūkstoši tūkstošiem tūkstošos tūkstošu tūkstošus
-17	417	kuģis	kuģa kuģi kuģiem kuģim kuģos kuģu kuģus kuģī
-18	418	dalībnieks	dalībniece dalībniecei dalībnieces dalībnieci dalībniecē dalībniecēm dalībnieka dalībniekam dalībnieki dalībniekiem dalībniekos dalībnieku dalībniekus dalībnieču
-19	419	klāt	klāj klāja klājam klāji klājiet klājot klāju klās klāsi klāts klātu
-20	420	pieejams	pieejama pieejamai pieejamais pieejamajai pieejamajam pieejamajiem pieejamajos pieejamajā pieejamajām pieejamajās pieejamam pieejamas pieejami pieejamie pieejamiem pieejamo pieejamos pieejamu pieejamus pieejamā pieejamāks pieejamām pieejamās
-21	421	uzmanība	uzmanībai uzmanības uzmanību
-22	422	slikts	slikta sliktai sliktais sliktajai sliktajam sliktajiem sliktajā sliktajām sliktajās sliktam sliktas sliktie sliktiem slikto sliktos sliktu sliktus sliktā sliktāks sliktām sliktās vissliktāk vissliktākais vissliktākajā vissliktākie vissliktāko vissliktākā
-23	423	atvainot	atvaino atvainojiet atvainosi atvainosiet atvainosit atvainotos atvainotu atvainošanos atvainošanu jāatvaino
-24	424	vadība	vadībai vadības vadību vadībā vadībām
-25	425	septembris	septembis septembra septembri septembrim septembrī
-26	426	daba	dabai dabas dabu dabus dabā
-27	427	internets	interneta internetu internetā
-28	428	prāts	prāt prāta prātam prāti prātiem prātos prātu prātus prātā
-29	429	līdzīgs	līdzīga līdzīgai līdzīgais līdzīgajiem līdzīgajā līdzīgajās līdzīgam līdzīgas līdzīgi līdzīgie līdzīgiem līdzīgo līdzīgos līdzīgu līdzīgus līdzīgā līdzīgāks līdzīgām līdzīgās vislīdzīgākais
-30	430	māksla	mākslai mākslas mākslu mākslā mākslām mākslās
-31	431	tētis	tēta tēti tētiem tētim tētu tētus
-32	432	tālāk	
-33	433	amats	amata amatam amati amatiem amatos amatu amatus amatā
-34	434	māte	māt mātei mātes māti mātē mātēm māšu
-35	435	ārsts	ārst ārsta ārstam ārste ārstei ārstes ārsti ārstiem ārstu ārstus ārstē ārstēm ārstēs
-36	436	nacionāls	nacionāla nacionālai nacionālais nacionālajai nacionālajam nacionālajiem nacionālajos nacionālajā nacionālajām nacionālajās nacionālam nacionālas nacionālie nacionāliem nacionālo nacionālos nacionālu nacionālā nacionālām nacionālās
-37	437	tikko	
-38	438	veidot	veido veidoja veidojot veidotu
-39	439	konkurss	konkurs konkursa konkursam konkursi konkursiem konkursos konkursu konkursus konkursā
-40	440	grūti	
-41	441	aprīlis	aprīli aprīlim aprīlī aprīļa aprīļos
-42	442	tādēļ	
-43	443	ātrāk	
-44	444	dažs	daža dažam dažas dažiem dažos dažu dažus dažā dažām dažās
-45	445	miers	mier miera mieram mieru mierā
-46	446	klubs	kluba klubam klubi klubiem klubos klubu klubus klubā
-47	447	mainīt	jāmaina maina maini mainiet mainot mainu mainām maināms mainīja mainīji mainījis mainīju mainījusi mainījušas mainījuši mainījušās mainījām mainīs mainīsi mainīsim mainīta mainītam mainītas mainīti mainītos mainīts mainītu mainīšana mainīšu nemaina nemaināms nemainīja nemainīs nemainīsiet nemainīsim nemainīt nemainītos nemainītu nemainīšu
-48	448	droši	
-49	449	gulēt	guli guliet guloši gulēdams gulēja gulēji gulējis gulēju gulējusi gulējuši gulējām gulējāt gulēs gulēsi gulēsiet gulēsim gulētu gulēšana gulēšanai gulēšanas gulēšanu gulēšu guļ guļam guļat guļot guļoša guļošā guļu jāguļ neguli negulēju negulēs negulēt negulētu negulēšanu negulēšu neguļ neguļu
-50	450	klausīties	jāklausās klausies klausieties klausos klausoties klausāmies klausās klausāties klausījies klausījos klausījāmies klausījās klausījāties klausīsies klausīsieties klausīsimies klausīsities klausītos klausīšanās klausīšos neklausīties
-51	451	pašvaldība	pašvaldībai pašvaldības
-52	452	kārta	kārtai kārtas kārtu kārtus kārtā kārtām kārtās
-53	453	saraksts	saraksta sarakstam saraksti sarakstiem sarakstos sarakstu sarakstus sarakstā
-54	454	mežs	mež meža mežam meži mežiem mežos mežu mežus mežā
-55	455	uzskatīt	uzskata uzskatot uzskatīja uzskatīta
-56	456	īpašums	īpašuma īpašumam īpašumi īpašumiem īpašumos īpašumu īpašumus īpašumā
-57	457	cīņa	cīņai cīņas cīņu cīņā cīņām cīņās
-58	458	birojs	biroja birojam biroji birojiem birojos biroju birojus birojā
-59	459	teritorija	teritorijai teritorijas teritoriju teritorijā teritorijām teritorijās
-60	460	vecis	vecene vecenes veceni vecenēm veceņu veci vecim vecīt vecīti vecītim vecītis vecīša vecīši vecīšiem veča večas veči večiem veču večus večām
-61	461	parasti	
-62	462	tauta	tautai tautas tautu tautā tautām tautās
-63	463	brīvs	brīva brīvai brīvais brīvajai brīvajam brīvajiem brīvajos brīvajā brīvajām brīvajās brīvam brīvas brīvie brīviem brīvo brīvos brīvu brīvus brīvā brīvāka brīvākai brīvākam brīvākas brīvāki brīvākiem brīvāks brīvāku brīvākā brīvām brīvās visbrīvāko
-64	464	maksāt	jāmaksā maksât maksā maksāja maksājam maksājat maksājiet maksājis maksājot maksāju maksājusi maksājuši maksājām maksājāt maksās maksāsi maksāsiet maksāsim maksāsit maksāta maksātas maksāti maksāts maksātu maksātā maksāšanas maksāšanu maksāšu nemaksā nemaksāja nemaksājam nemaksājat nemaksājot nemaksāju nemaksās nemaksāt nemaksātu nemaksāšanu nemaksāšu
-65	465	ēst	jāēd neēd neēdam neēdat neēdiet neēdis neēdīsi neēdīsiet neēdīšu neēst ēd ēda ēdam ēdama ēdamais ēdams ēdamu ēdamā ēdat ēdi ēdiet ēdis ēdot ēdu ēdusi ēduši ēdām ēdāt ēdīs ēdīsi ēdīsiet ēdīsim ēdīšu ēstu ēšana ēšanai ēšanas ēšanu ēšanā
-66	466	mēnesis	mēnesi mēnesim mēnesī mēneša mēneši mēnešiem mēnešos mēnešu mēnešus
-67	467	suns	suni sunim sunī suņa suņi suņiem suņu suņus
-68	468	seja	sejai sejas seju sejā sejām sejās
-69	469	žēl	
-70	470	svētki	svētkiem svētkos svētku svētkus
-71	471	parāds	parād parāda parādam parādi parādiem parādos parādu parādus parādā
-72	472	mazāk	
-73	473	stāstīt	jāstāsta nestāsta nestāsti nestāstiet nestāstu nestāstām nestāstāt nestāstīja nestāstīji nestāstīju nestāstījāt nestāstīs nestāstīsi nestāstīsim nestāstīt nestāstīšu stāsta stāsti stāstiet stāstot stāstu stāstām stāstāms stāstāt stāstīja stāstīji stāstījis stāstīju stāstījusi stāstījuši stāstījām stāstījāt stāstīs stāstīsi stāstīsim stāstīts stāstītu stāstītā stāstīšu
-74	474	pilnīgi	
-75	475	koks	koka kokam koki kokiem kokos koku kokus kokā
-76	476	diezgan	
-77	477	prast	jāprot neprast neprastu neprata neprati nepratis nepratu nepratīs nepratīsi neprot neprotat neproti neprotot neprotu prastai prastam prastas prasti prasts prastu prastām prata prati pratis pratu pratusi pratušas pratuši pratām pratīs pratīsi pratīsim pratīšu prot protat proti protot protu
-78	478	informēt	informē informēja
-79	479	prasīt	jāprasa neprasa neprasi neprasiet neprasu neprasīja neprasīji neprasīju neprasījām neprasīs neprasīsim neprasītu neprasīšu prasa prasi prasot prasu prasām prasāt prasīja prasīji prasījis prasīju prasījusi prasījušas prasījuši prasījāt prasīs prasīsi prasīsiet prasīsim prasīta prasītas prasīti prasītos prasīts prasītu prasītā prasīšu
-80	480	augt	audz audzis aug auga augam augat augi augiem augos augot augoša augošam augošas augoši augošiem augošos augošs augošu augošus augošā augošās augs augsi augtu augus augusi augušas auguši augušu augā augām augšana augšanai augšanas augšanu augšu jāaug neaug neaugi
-81	481	jebkurš	jebkura jebkurai jebkuram jebkuras jebkuri jebkuriem jebkuros jebkuru jebkurus jebkurā jebkurām jebkurās
-82	482	pietikt	nepietiek nepietikt pietiek pietika pietiks pietiktu pietiku
-83	483	darboties	darbojas darbojoties darbojās
-84	484	nemaz	
-85	485	pareizi	
-86	486	organizācija	organizācijai organizācijas organizāciju organizācijā organizācijām organizācijās
-87	487	laukums	laukuma laukumam laukumi laukumiem laukumos laukumu laukumus laukumā
-88	488	tirdzniecība	tirdzniecībai tirdzniecības tirdzniecību tirdzniecībā
-89	489	telefons	telefona telefonam telefoni telefoniem telefonos telefonu telefonus telefonā
-90	490	dzīvs	dzīva dzīvai dzīvais dzīvajai dzīvajam dzīvajiem dzīvajos dzīvajā dzīvajām dzīvam dzīvas dzīvie dzīviem dzīvo dzīvos dzīvu dzīvus dzīvā dzīvāk dzīvāka dzīvākajām dzīvāki dzīvāks dzīvāku dzīvām dzīvās visdzīvākās
-91	491	jauks	jauka jaukai jaukais jaukajai jaukajam jaukajiem jaukajos jaukajā jaukajām jaukam jaukas jaukie jaukiem jauko jaukos jauku jaukus jaukā jaukāks jaukām jaukās visjaukāk visjaukākais visjaukākie visjaukākā visjaukākās
-92	492	pacients	pacienta pacientam paciente pacienti pacientiem pacientos pacientu pacientus pacientā
-93	493	klase	klasei klases klasi klasē klasēm klasēs klašu
-94	494	jaunietis	jauniete jaunietei jaunietes jaunieti jaunietim jaunietēm jaunieša jaunieši jauniešiem jauniešos jauniešu jauniešus
-95	495	turēt	jātur netur neturi neturu neturēs neturēt turam turamais turamā turamās turat turi turiet turot turu turēja turēji turējis turēju turējusi turējuši turējāt turēs turēsi turēsim turēta turētais turētas turēti turētos turēts turētu turētā turētām turētās turēšana turēšanas turēšanu turēšu
-96	496	sēdēt	jāsēž nesēdēt sēdi sēdiet sēdošs sēdēdams sēdēja sēdēji sēdējis sēdēju sēdējām sēdējāt sēdēs sēdēsi sēdēsiet sēdēsim sēdētu sēdēšana sēdēšu sēž sēžam sēžat sēžot sēžu
-97	497	ilgs	ilga ilgai ilgais ilgajai ilgajam ilgajiem ilgajā ilgajām ilgam ilgas ilgie ilgiem ilgo ilgos ilgu ilgus ilgā ilgāka ilgākai ilgākais ilgākajā ilgākam ilgākas ilgāki ilgākiem ilgāko ilgākos ilgāks ilgāku ilgākus ilgākā ilgākām ilgākās ilgām ilgās visilgāko
-98	498	portāls	portāla portālam portālu portālā
-99	499	vērtība	vērtībai vērtības vērtību vērtībā vērtībām vērtībās
-100	500	priekšā	
+1	401	pašvaldība	pašvaldībai pašvaldības
+2	402	mīlestība	mīlestībai mīlestības mīlestību mīlestībā
+3	403	līdzīgs	līdzīga līdzīgai līdzīgais līdzīgajam līdzīgajiem līdzīgajos līdzīgajā līdzīgajām līdzīgajās līdzīgam līdzīgas līdzīgi līdzīgie līdzīgiem līdzīgo līdzīgos līdzīgu līdzīgus līdzīgā līdzīgāks līdzīgām līdzīgās vislīdzīgākais
+4	404	skolotājs	skolotāj skolotāja skolotājai skolotājam skolotājas skolotāji skolotājiem skolotājos skolotāju skolotājus skolotājā skolotājām skolotājās
+5	405	līdzeklis	līdzekli līdzeklim līdzeklī līdzekļa līdzekļi līdzekļiem līdzekļos līdzekļu līdzekļus
+6	406	klase	klasei klases klasi klasē klasēm klasēs klašu
+7	407	dati	datiem datu datus
+8	408	vecis	vecene vecenei vecenes veceni vecenē vecenēm vecenēs veceņu veci vecim vecī vecīt vecīti vecītim vecītis vecītī vecīša vecīši vecīšiem vecīšu vecīšus veča večai večas veči večiem večos veču večus večām
+9	409	uzskatīt	uzskata uzskatot uzskatīja uzskatīta
+10	410	atbildēt	atbild atbildam atbildams atbildat atbildi atbildiet atbildot atbildošais atbildošs atbildu atbildēdams atbildēja atbildēji atbildējis atbildēju atbildējām atbildējāt atbildēs atbildēsi atbildēsiet atbildēsim atbildēsit atbildētais atbildēts atbildētu atbildēšana atbildēšanai atbildēšanas atbildēšanu atbildēšot atbildēšu jāatbild neatbildēt
+11	411	uzmanība	uzmanībai uzmanības uzmanību uzmanībā
+12	412	maksāt	jāmaksā maksât maksā maksāja maksājam maksājamais maksājams maksājat maksāji maksājiet maksājis maksājot maksājošais maksājošs maksāju maksājām maksājāt maksās maksāsi maksāsiet maksāsim maksāsit maksātais maksāts maksātu maksāšana maksāšanai maksāšanas maksāšanu maksāšanā maksāšot maksāšu nemaksāt
+13	413	septembris	septembis septembra septembri septembrim septembrī
+14	414	diezgan	
+15	415	jebkurš	jebkura jebkurai jebkuram jebkuras jebkuri jebkuriem jebkuros jebkuru jebkurus jebkurā jebkurām jebkurās jebkuŗš
+16	416	saruna	sarunai sarunas sarunu sarunā sarunām sarunās
+17	417	žēl	
+18	418	iestāde	iestādei iestādes iestādi iestādē iestādēm iestādēs iestāžu
+19	419	vispār	
+20	420	sociāls	sociāla sociālai sociālais sociālajai sociālajam sociālajiem sociālajos sociālajā sociālajām sociālajās sociālam sociālas sociālie sociāliem sociālo sociālos sociālu sociālus sociālā sociālāks sociālām sociālās
+21	421	vide	videi vides vidi vidu vidē vidēm vidēs
+22	422	pietikt	nepietiek nepietikt pietiek pietika pietiks pietiktu pietiku pietikšot
+23	423	ātrāk	
+24	424	partija	partijai partijam partijas partiju partijā partijām partijās
+25	425	telefons	telefon telefona telefonam telefoni telefoniem telefonos telefonu telefonus telefonā
+26	426	koks	kok koka kokam koki kokiem kokos koku kokus kokā
+27	427	jauks	jauka jaukai jaukais jaukajai jaukajam jaukajiem jaukajos jaukajā jaukajām jaukajās jaukam jaukas jaukie jaukiem jauko jaukos jauku jaukus jaukā jaukāks jaukām jaukās visjaukākais
+28	428	krievs	kriev krieva krievam krievi krieviem krieviete krievietei krievietes krievieti krievietēm krieviešu krievos krievu krievus krievā
+29	429	likties	jāliekas licies liecies liecieties liekamies liekas liekaties liekos liekoties likies likos liksies liksieties liksimies liksities liktos likāmies likās likāties likšanās likšos nelikties
+30	430	pareizi	
+31	431	process	proces procesa procesam procesi procesiem procesos procesu procesus procesā
+32	432	veidot	veido veidoja veidojot veidotu
+33	433	gulēt	guli guliet gulošais gulošs gulēdams gulēja gulēji gulējis gulēju gulējām gulējāt gulēs gulēsi gulēsiet gulēsim gulēts gulētu gulēšana gulēšanai gulēšanas gulēšanu gulēšot gulēšu guļ guļam guļama guļamais guļami guļat guļot guļošais guļošs guļu jāguļ negulēt
+34	434	parāds	parād parāda parādam parādi parādiem parādos parādu parādus parādā
+35	435	nākotne	nākotnei nākotnes nākotni nākotnē nākotos
+36	436	dzīvs	dzīva dzīvai dzīvais dzīvajai dzīvajam dzīvajiem dzīvajos dzīvajā dzīvajām dzīvajās dzīvam dzīvas dzīvie dzīviem dzīvo dzīvos dzīvu dzīvus dzīvā dzīvāks dzīvām dzīvās visdzīvākais
+37	437	mazliet	
+38	438	ēst	jāēd neēst ēd ēda ēdam ēdama ēdamais ēdamas ēdami ēdamos ēdams ēdamu ēdamus ēdamā ēdamām ēdamās ēdat ēdi ēdiet ēdis ēdot ēdu ēdām ēdāt ēdīs ēdīsi ēdīsiet ēdīsim ēdīsit ēdīšot ēdīšu ēsts ēstu ēzdams ēšana ēšanai ēšanas ēšanu ēšanā
+39	439	piedāvāt	piedāvā piedāvāja piedāvās piedāvāta piedāvāto piedāvātā
+40	440	darboties	darbojas darbojoties darbojās
+41	441	atvērt	atver atveram atverams atverat atveriet atverot atveru atvēra atvēri atvēris atvērs atvērsi atvērsiet atvērsim atvērsit atvērtais atvērts atvērtu atvēru atvērām atvērāt atvēršana atvēršanai atvēršanas atvēršanos atvēršanu atvēršanā atvēršot atvēršu jāatver neatvērt
+42	442	mežs	mež meža mežam meži mežiem mežos mežu mežus mežā
+43	443	apmērs	apmēr apmēra apmēram apmēri apmēriem apmēros apmēru apmērus apmērā
+44	444	nams	nam nama namam nami namiem namos namu namus namā
+45	445	ārsts	ārst ārsta ārstam ārste ārstei ārstes ārsti ārstiem ārstos ārstu ārstus ārstē ārstēm ārstēs
+46	446	maijs	maija maijam maiji maijiem maiju maijus maijā
+47	447	rīts	rîts rīta rītam rīti rītiem rītos rītu rītus
+48	448	auto	
+49	449	priekšā	
+50	450	vēsture	vēsturei vēstures vēsturi vēsturē
+51	451	lapa	lapai lapas lapi lapu lapā lapām lapās
+52	452	iepriekš	
+53	453	sēdēt	jāsēž nesēdēt sēdam sēdams sēdi sēdiet sēdošs sēdēdams sēdēja sēdēji sēdējis sēdēju sēdējām sēdējāt sēdēs sēdēsi sēdēsiet sēdēsim sēdēts sēdētu sēdēšana sēdēšot sēdēšu sēž sēžam sēžat sēžot sēžu
+54	454	īpašums	īpašum īpašuma īpašumam īpašumi īpašumiem īpašumos īpašumu īpašumus īpašumā
+55	455	svarīgi	
+56	456	jūra	jūrai jūras jūri jūru jūrā jūrām jūrās
+57	457	saraksts	sarakst saraksta sarakstam saraksti sarakstiem sarakstos sarakstu sarakstus sarakstā
+58	458	rīt	jārij nerīt rij rija rijam rijas riji rijiet rijis rijot riju rijā rijām rijās rijāt rît rīs rīsi rīsiet rīšana
+59	459	birojs	biroja birojam biroji birojiem birojos biroju birojus birojā
+60	460	kārta	kārtai kārtam kārtas kārtu kārtus kārtā kārtām kārtās
+61	461	jeb	
+62	462	pagasts	pagast pagasta pagastam pagasti pagastiem pagastos pagastu pagastus pagastā
+63	463	dokuments	dokumenta dokumentam dokumenti dokumentiem dokumentos dokumentu dokumentus dokumentā
+64	464	aizmirst	aizmirsa aizmirsdams aizmirsi aizmirsis aizmirstais aizmirstam aizmirstamais aizmirstams aizmirstat aizmirsti aizmirstiet aizmirstot aizmirsts aizmirstu aizmirsu aizmirsām aizmirsāt aizmirsīs aizmirsīsi aizmirsīsiet aizmirsīsim aizmirsīšot aizmirsīšu aizmiršana aizmiršanai aizmiršanas aizmiršanos aizmiršanu aizmiršanās jāaizmirst neaizmirst
+65	465	atbilde	atbildei atbildes atbildi atbildē atbildēm atbildēs atbile atbilžu
+66	466	drīz	
+67	467	dienests	dienest dienesta dienestam dienesti dienestiem dienestos dienestu dienestus dienestā
+68	468	plānot	jāplāno neplānot plāno plānoja plānojam plānojams plānojat plānojiet plānojis plānojot plānoju plānojām plānojāt plānos plānosi plānosiet plānosim plānots plānotu plānošana plānošu
+69	469	aizsardzība	aizsardzībai aizsardzības aizsardzību aizsardzībā
+70	470	paredzēt	jāparedz neparedzēt paredz paredzam paredzams paredzat paredzi paredziet paredzot paredzu paredzēdams paredzēja paredzēji paredzējis paredzēju paredzējām paredzēs paredzēsi paredzēsiet paredzēsim paredzēts paredzētu paredzēšana
+71	471	lauks	lauk lauka laukam lauki laukiem laukos lauku laukus
+72	472	nacionāls	nacionāla nacionālai nacionālais nacionālajai nacionālajam nacionālajiem nacionālajos nacionālajā nacionālajām nacionālajās nacionālam nacionālas nacionālie nacionāliem nacionālo nacionālos nacionālu nacionālus nacionālā nacionālām nacionālās
+73	473	ierocis	ieroa ieroci ierocim ierocī ieroča ieroči ieročiem ieročos ieroču ieročus
+74	474	gaisma	gaismai gaismas gaismos gaismu gaismā gaismām gaismās
+75	475	vadība	vadībai vadības vadību vadībā vadībām vadībās
+76	476	posms	posma posmam posmi posmiem posmos posmu posmus posmā
+77	477	nodrošināt	jānodrošina nodrošina nodrošinot nodrošināta nodrošinātu nodrošinātās
+78	478	pavisam	
+79	479	tūkstotis	tūkstoti tūkstotim tūkstotī tūkstoša tūkstoši tūkstošiem tūkstošos tūkstošu tūkstošus
+80	480	pieredze	pieredzei pieredzes pieredzi pieredzē pieredzēm pieredzēs pieredžu
+81	481	seja	sejai sejam sejas seju sejus sejā sejām sejās
+82	482	lūgt	jālūdz lūdz lūdza lūdzam lūdzams lūdzat lūdzi lūdziet lūdzis lūdzot lūdzām lūdzāt lūgdams lūgs lūgsi lūgsiet lūgsim lūgsit lūgts lūgtu lūgšana lūgšot lūgšu nelūgt
+83	483	marts	mart marta martam marti martu martā
+84	484	maksa	maksai maksam maksas maksi maksu maksā maksām maksās
+85	485	beigties	beidzas beidzies beidzās beigsies
+86	486	svarīgs	svarīga svarīgai svarīgais svarīgajai svarīgajam svarīgajiem svarīgajos svarīgajā svarīgajām svarīgajās svarīgam svarīgas svarīgie svarīgiem svarīgo svarīgos svarīgu svarīgus svarīgā svarīgāks svarīgām svarīgās vissvarīgākais
+87	487	sers	ser sera seram seri seru serus serā
+88	488	teritorija	teritorijai teritorijas teritoriju teritorijā teritorijām teritorijās
+89	489	kādēļ	
+90	490	lūk	
+91	491	sasniegt	jāsasniedz nesasniegt sasniedz sasniedza sasniedzam sasniedzams sasniedzat sasniedzi sasniedziet sasniedzis sasniedzot sasniedzu sasniedzām sasniedzāt sasniegdams sasniegs sasniegsi sasniegsiet sasniegsim sasniegsit sasniegts sasniegtu sasnieguši sasniegšana sasniegšot sasniegšu
+92	492	paiet	pagāja pagājušajā pagājušo pagājušā pagājušās
+93	493	ziņa	ziņai ziņi ziņu ziņā ziņām ziņās
+94	494	zem	
+95	495	mācīties	jāmācoties jāmācās mācies mācieties mācos mācoties mācāmies mācās mācāties mācīdamies mācījies mācījos mācījāmies mācījās mācījāties mācīsies mācīsieties mācīsimies mācīsities mācītos mācīšanās mācīšos mācīšoties nemācīties
+96	496	ministrija	ministrijai ministrijas ministriju ministrijā ministrijām ministrijās
+97	497	vadīt	jāvada nevadīt vada vadi vadiet vadot vadošs vadu vadît vadām vadāms vadāt vadīdams vadīja vadīji vadījis vadīju vadījām vadījāt vadīs vadīsi vadīsiet vadīsim vadīts vadītu vadīšana vadīšot vadīšu
+98	498	laimīgs	laimīga laimīgai laimīgais laimīgajai laimīgajam laimīgajiem laimīgajos laimīgajā laimīgajām laimīgajās laimīgam laimīgas laimīgi laimīgie laimīgiem laimīgo laimīgos laimīgu laimīgus laimīgā laimīgāks laimīgām laimīgās vislaimīgākais
+99	499	balts	balt balta baltai baltais baltajai baltajam baltajiem baltajos baltajā baltajām baltajās baltam baltas balti baltie baltiem balto baltos baltu baltus baltā baltāks baltām baltās visbaltākais
+100	500	cīņa	cīņai cīņas cīņu cīņā cīņām cīņās

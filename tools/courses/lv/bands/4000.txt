@@ -1,100 +1,100 @@
-1	3901	pretestība	
-2	3902	slavenāks	slavenais slavenākais slavenākajiem slavenākajām slavenākie slavenāko slavenākos slavenākā visslavenākajiem visslavenāko
-3	3903	miets	mieta mieti mietiem mietu
-4	3904	brīvprātīgais	
-5	3905	novietojums	novietojuma novietojumam novietojumu novietojumā
-6	3906	astoņdesmit	
-7	3907	psihisks	psihiska psihiskais psihiskajai psihiskas psihiskie psihiskiem psihisko psihiskos psihisku psihiskā psihiskām psihiskās
-8	3908	kamanas	kamana kamanu kamanām kamanās
-9	3909	pīķis	pīķa pīķi pīķiem pīķim
-10	3910	rūpēt	jārūpē rūpēja rūpējis rūpēs rūpētu rūpēšana
-11	3911	faraons	faraona faraoni faraoniem faraonu faraonus
-12	3912	arodbiedrība	
-13	3913	savanna	savannai savannas savannu savannā
-14	3914	simboliski	
-15	3915	slinkums	slinkuma slinkumu
-16	3916	ēdienreize	ēdienreizei ēdienreizes ēdienreizi ēdienreizē ēdienreizēm ēdienreizēs ēdienreižu
-17	3917	stereotips	stereotipa stereotipi stereotipiem stereotipu stereotipus
-18	3918	zilums	zilumi zilumiem zilumos zilumu zilumus
-19	3919	zāģis	zāģa zāģi zāģiem zāģu
-20	3920	stumt	jāstumj nestum stum stumiet stumj stumjam stumjamos
-21	3921	burvība	burvības burvību burvībām
-22	3922	baļķis	baļķa baļķi baļķiem baļķim baļķu baļķus
-23	3923	rēķināt	rēķinot
-24	3924	apstrādāt	
-25	3925	tulkotāja	tulkotāji tulkotājs tulkotāju
-26	3926	modernāks	modernais modernāka modernākai modernākais modernākajiem modernākajām modernākajās modernākas modernāki modernākie modernākiem modernāko modernāku modernākus modernākā modernākām modernākās vismodernākais vismodernāko vismodernākā
-27	3927	uzcept	uzcep uzcepa uzcepi uzcepiet uzcepis uzcepot uzceps uzceptu uzcepu uzcepuši uzcepām uzcepšu
-28	3928	dzelme	dzelmes dzelmi dzelmju dzelmē dzelmēm dzelmēs
-29	3929	alksnis	alka alki alksnim alku alkšņa alkšņi alkšņiem alkšņos alkšņu alkšņus elksi elksnis
-30	3930	mikroviļņi	mikroviļņu mikroviļņus
-31	3931	sabiedrotais	
-32	3932	spāre	spāres spāru spārē spārēm
-33	3933	interesantāk	
-34	3934	ķirurģisks	ķirurģiska ķirurģiskajā ķirurģiskajām ķirurģiskas ķirurģiski ķirurģiskie ķirurģisko ķirurģisku ķirurģiskā ķirurģiskās
-35	3935	cements	cementa cementu cementā
-36	3936	psihe	psia psihei psihes psihi psihē
-37	3937	horizonts	horizonta horizontam horizonti horizontos horizontu horizontus
-38	3938	bebrs	bebr bebra bebri bebru bebrus
-39	3939	vabole	vaboles vaboli vabolē vabolēm vaboļu
-40	3940	postošs	postoša postošajai postošajos postošajām postošas postoši postošie postošiem postošo postošos postošu postošus postošā postošāks postošās
-41	3941	trīspadsmit	
-42	3942	pilnmēness	pilnmēnesi pilnmēnesī pilnmēnešus
-43	3943	mirdzēt	mirdz mirdzi mirdzošs mirdzu mirdzēja mirdzēs mirdzēsi mirdzēšana
-44	3944	tovakar	
-45	3945	printeris	printera printeri printeriem printeru printerus printerī
-46	3946	konteiners	konteineri
-47	3947	trakāk	
-48	3948	statuja	
-49	3949	lībietis	lībiešu
-50	3950	drošums	drošuma drošumam drošumu
-51	3951	skābs	skābais skābajam skābo skābu skābā
-52	3952	iegādāt	iegādājams iegādās iegādāts iegādātu iegādāšana
-53	3953	bibliotekārs	bibliotekāram bibliotekāre bibliotekāri bibliotekāru
-54	3954	trakāks	trakais trakāka trakākais trakākas trakāki trakākie trakāku trakākus trakākā trakākās vistrakākais vistrakāko vistrakākās
-55	3955	naivs	naiva naivais naivajā naivas naiviem naivos naivā naivāks naivām naivās
-56	3956	eksotisks	eksotiska eksotiskais eksotiskajiem eksotiskajā eksotiskajām eksotiskas eksotiski eksotiskie eksotiskiem eksotisko eksotiskos eksotisku eksotiskus eksotiskā eksotiskāks eksotiskām eksotiskās
-57	3957	mežacūka	mežacūkai mežacūkas mežacūku mežacūkām
-58	3958	labestība	labestībai labestības labestību
-59	3959	komandantstunda	komandantstundas komandantstundu
-60	3960	dzērve	dzērves dzērvi dzērvju dzērvēm
-61	3961	lama	lamas lamu lamā lamām
-62	3962	zaļums	zaļuma zaļumam zaļumi zaļumiem zaļumos zaļumu zaļumus zaļumā
-63	3963	saaukstēšanās	
-64	3964	labējs	labēja labējais labējam labējas labējie labējiem labējo labējos labēju labējā labējām labējās
-65	3965	asums	asumi asumiem asumos asumu asumus
-66	3966	sliņķis	sliņķa sliņķe sliņķes sliņķi sliņķiem sliņķim sliņķu
-67	3967	slave	slavi slavē
-68	3968	stumbrs	stumbra stumbri stumbriem stumbru stumbrus
-69	3969	ekoloģija	ekoloģijai ekoloģijas ekoloģiju ekoloģijā
-70	3970	dioksīds	dioksīda dioksīdam dioksīdu
-71	3971	dzērvene	dzērvenes dzērveni dzērvenēm dzērveņu
-72	3972	mellene	mellenes melleni mellenēm mellenēs melleņu
-73	3973	iz	
-74	3974	stabilitāte	
-75	3975	mītiņš	mītiņa mītiņam mītiņi mītiņiem mītiņos mītiņu mītiņus mītiņā
-76	3976	monarhs	monarha monarhiem monarhu monarhus monarhā
-77	3977	grēcinieks	grēciniece grēciniekam grēcinieki grēciniekiem grēcinieku
-78	3978	aisbergs	aisberga aisbergam aisbergi aisbergiem aisbergu aisbergus aisbergā
-79	3979	astoņpadsmit	
-80	3980	tīnis	tīni tīnim tīņa tīņi tīņiem tīņu
-81	3981	cenzūra	cenzūrai cenzūras cenzūru
-82	3982	starpvalstu	
-83	3983	sekls	sekla seklajā seklas sekliem seklu seklus seklā seklāka seklāks seklāku seklākās seklās
-84	3984	ripot	ripo ripoju
-85	3985	produktīvs	produktīva produktīvai produktīvajā produktīvam produktīvas produktīviem produktīvo produktīvu produktīvā produktīvāka produktīvākai produktīvākais produktīvākajās produktīvākam produktīvāki produktīvāks produktīvāku produktīvām
-86	3986	koordinēt	koordinē
-87	3987	padomdevējs	
-88	3988	dārzkopība	dārzkopībai dārzkopības dārzkopību dārzkopībā
-89	3989	šķiņķis	šķiņķa šķiņķi
-90	3990	ģipsis	ģipsi ģipsī ģipša
-91	3991	gans	gane ganes gani ganu ganus ganā
-92	3992	sārts	sārta sārtais sārtajiem sārtas sārto sārtā sārtām sārtās
-93	3993	tulpe	tulpes tulpju tulpēm
-94	3994	trupa	trupas trupu trupā
-95	3995	putas	
-96	3996	iesnas	iesnu iesnām
-97	3997	firstiene	first
-98	3998	diet	dej deji dejām dies
-99	3999	audzējs	audzēja audzējam audzēji audzējiem audzējus
-100	4000	slīkt	slīcis slīka slīkst slīkstat slīkstot slīkstu slīkšana
+1	3901	krāšņums	krāšņuma krāšņumam krāšņumi krāšņumiem krāšņumu krāšņumus krāšņumā
+2	3902	zvirbulis	zvirbuli zvirbulim zvirbuļa zvirbuļi zvirbuļiem zvirbuļos zvirbuļu zvirbuļus
+3	3903	spīdīgs	spīdīga spīdīgai spīdīgais spīdīgajiem spīdīgajos spīdīgajā spīdīgajām spīdīgas spīdīgie spīdīgiem spīdīgo spīdīgos spīdīgu spīdīgus spīdīgā spīdīgāks spīdīgām spīdīgās
+4	3904	sešpadsmit	
+5	3905	blīvs	blīva blīvais blīvajai blīvajam blīvajā blīvajās blīvam blīvas blīviem blīvo blīvos blīvu blīvus blīvā blīvāks blīvām blīvās
+6	3906	augšāmcelšanās	augšāmcelšana augšāmcelšanos augšāmcelšanu augšāmcelšanā
+7	3907	saīsināt	jāsaīsina saīsina saīsiniet saīsinot saīsinu saīsināja saīsinājis saīsināju saīsinām saīsināms saīsinās saīsināsiet saīsināts saīsinātu saīsināšana
+8	3908	cepetis	cepeti cepetim cepetī cepeša cepeši cepešiem cepešu cepešus
+9	3909	iztulkot	iztulko iztulkoja iztulkojam iztulkojams iztulkojat iztulkojiet iztulkojis iztulkojot iztulkoju iztulkojām iztulkos iztulkosi iztulkots iztulkotu iztulkošana iztulkošanas iztulkošanu iztulkošanā iztulkošu jāiztulko
+10	3910	gādība	gādībai gādības gādību gādībā
+11	3911	tāfele	tāfelei tāfeles tāfeli tāfelē tāfelēm tāfeļu tāpele
+12	3912	alkoholiķis	alkoholiķa alkoholiķe alkoholiķi alkoholiķiem alkoholiķim alkoholiķos alkoholiķu alkoholiķus
+13	3913	kristības	kristība kristību kristībā kristībām kristībās
+14	3914	mīlētājs	mīlētāj mīlētāja mīlētājam mīlētājas mīlētāji mīlētājiem mīlētāju mīlētājus mīlētājām
+15	3915	piparkūka	piparkūkai piparkūkas piparkūku piparkūkām piparkūkās
+16	3916	neredzīgs	neredzīga neredzīgai neredzīgais neredzīgajam neredzīgajiem neredzīgam neredzīgas neredzīgi neredzīgie neredzīgiem neredzīgo neredzīgos neredzīgu neredzīgus neredzīgā neredzīgām neredzīgās
+17	3917	šķiņķis	šķiņķa šķiņķi šķiņķiem šķiņķim šķiņķu šķiņķus šķiņķī šķiņķītis
+18	3918	nepieklājīgs	nepieklājīga nepieklājīgais nepieklājīgajam nepieklājīgas nepieklājīgi nepieklājīgie nepieklājīgiem nepieklājīgo nepieklājīgos nepieklājīgu nepieklājīgus nepieklājīgā nepieklājīgām
+19	3919	kaktuss	kaktus kaktusa kaktusam kaktusi kaktusiem kaktusu kaktusus
+20	3920	kanoe	
+21	3921	t-krekls	t-krekla t-kreklam t-krekli t-krekliem t-kreklos t-kreklu t-kreklus t-kreklā tkrekla tkreklu tkreklā
+22	3922	ziņkārība	ziņkārībai ziņkārības ziņkārību ziņkārībā
+23	3923	spāre	spāres spāri spāru spārē spārēm spārēs
+24	3924	piedurkne	piedurknei piedurknes piedurkni piedurknē piedurknēm piedurknēs piedurkņu
+25	3925	stabilitāte	stabilitatei stabilitates
+26	3926	rēķināt	rēķinot
+27	3927	moderni	
+28	3928	datorspēle	datorspēlei datorspēles datorspēli datorspēlē datorspēlēm datorspēlēs datorspēļu
+29	3929	kvadrāts	kvadrāt kvadrāta kvadrātam kvadrāti kvadrātiem kvadrātos kvadrātu kvadrātā
+30	3930	dzimumakts	dzimumakta dzimumaktam dzimumaktiem dzimumaktu dzimumaktā
+31	3931	polo	
+32	3932	parīt	
+33	3933	kalkulators	kalkulator kalkulatora kalkulatoram kalkulatori kalkulatoriem kalkulatoru kalkulatorus kalkulatorā
+34	3934	padomdevējs	
+35	3935	degvīns	degvīna degvīnam degvīni degvīniem degvīnu degvīnus degvīnā
+36	3936	psihiatrisks	psihiatriska psihiatriskai psihiatriskajā psihiatriskajām psihiatriskajās psihiatriskas psihiatriskie psihiatriskiem psihiatrisko psihiatrisku psihiatriskā psihiatriskām psihiatriskās
+37	3937	dzīsla	dzīslai dzīslas dzīslu dzīslām dzīslās
+38	3938	šķērss	šķērsa šķērsajam šķērsajā šķērsam šķērsi šķērso šķērsos šķērsu šķērsām
+39	3939	apbrīna	apbrīnai apbrīnas apbrīnu apbrīnā
+40	3940	atskanēt	atskan
+41	3941	pimpis	pimos pimpi pimpim pimpja pimpji pimpjiem pimpju pimu pimā
+42	3942	mirstība	mirstībai mirstības mirstību mirstībā
+43	3943	kols	kol kolam koli koliem kolos kolu kolā
+44	3944	paprika	paprikai paprikas papriku paprikā paprikās
+45	3945	peri	peros pers peru perus
+46	3946	koordinēt	koordinē
+47	3947	ogļhidrāts	ogļhidrāti ogļhidrātiem ogļhidrātu ogļhidrātus
+48	3948	dievība	dievībai dievības dievību dievībām
+49	3949	sabiedrotais	
+50	3950	firsts	first firsta firstiem firstu
+51	3951	ķengurs	ķengura ķenguram ķenguri ķenguriem ķenguru ķengurus
+52	3952	parāde	
+53	3953	pediņš	pediņ pediņam pediņi pediņiem pediņu pediņus
+54	3954	modinātājs	modinātāj modinātāja modinātājam modinātāji modinātāju modinātājus
+55	3955	stabilizēt	jāstabilizē stabilizē stabilizēja stabilizējam stabilizējiet stabilizējot stabilizējošs stabilizēs stabilizēsim stabilizēts stabilizētu stabilizēšana
+56	3956	demogrāfija	demogrāfijai demogrāfijas demogrāfiju demogrāfijā
+57	3957	anatomija	anatomijai anatomijas anatomiju anatomijā
+58	3958	aisbergs	aisberga aisbergam aisbergi aisbergiem aisbergos aisbergu aisbergus aisbergā
+59	3959	pārdabisks	pārdabiska pārdabiskai pārdabiskais pārdabiskajam pārdabiskajā pārdabiskajām pārdabiskas pārdabiski pārdabiskie pārdabiskiem pārdabisko pārdabiskos pārdabisku pārdabiskus pārdabiskā pārdabiskām pārdabiskās
+60	3960	pastmarka	pastmarkai pastmarkas pastmarku pastmarkā pastmarkām pastmarkās
+61	3961	mānīt	jāmāna māna māni mānot mānu mānām mānāt mānīja mānīju mānīts mānīšana nemānīt
+62	3962	dilles	dille dillēm dillēs diļļu
+63	3963	nāvīgs	nāvīga nāvīgais nāvīgajiem nāvīgajā nāvīgas nāvīgi nāvīgie nāvīgiem nāvīgo nāvīgos nāvīgu nāvīgā nāvīgām nāvīgās
+64	3964	barels	barela barelam bareli bareliem barelos barelu barelus barelā
+65	3965	sliņķis	sliņķa sliņķe sliņķes sliņķi sliņķiem sliņķim sliņķos sliņķu sliņķus
+66	3966	gliemezis	gliemezi gliemezim gliemeža gliemeži gliemežiem gliemežu gliemežus
+67	3967	mīļotājs	mīļotāja mīļotājam mīļotājas mīļotāji mīļotājiem mīļotāju mīļotājus mīļotājām
+68	3968	statuja	
+69	3969	duncis	dunci dunča dunči dunčiem dunču dunčus
+70	3970	saulesbrilles	saulesbrillēm saulesbrillēs saulesbriļļu
+71	3971	lībietis	lībiešu
+72	3972	aziāts	aziāta aziātam aziātei aziāti aziātiem aziātu aziātus aziātēm
+73	3973	gļēvs	gļēva gļēvai gļēvais gļēvajai gļēvajiem gļēvajā gļēvam gļēvi gļēvie gļēviem gļēvo gļēvos gļēvu gļēvus gļēvā gļēvāks gļēvās
+74	3974	aļģes	aļģa aļģi aļģu aļģēm aļģēs
+75	3975	labējs	labēja labējai labējais labējam labējas labējie labējiem labējo labējos labēju labējus labējā labējām labējās
+76	3976	ruds	rauds ruda rudais rudajai rudajam rudajiem rudajā rudajām rudas rudie rudiem rudo rudos rudu rudus rudā rudāks rudās
+77	3977	ģerbonis	ģerboni ģerbonim ģerbonī ģerboņa ģerboņi ģerboņiem ģerboņu ģerboņus
+78	3978	spožums	spožuma spožumam spožumi spožumu spožumā
+79	3979	ierast	ierasto
+80	3980	alfabēts	alfabēta alfabētam alfabētu alfabētus alfabētā
+81	3981	nacionālists	nacionālist nacionālista nacionālistam nacionālisti nacionālistiem nacionālistos nacionālistu nacionālistus
+82	3982	auglīgs	auglīga auglīgai auglīgais auglīgajai auglīgajiem auglīgajā auglīgajām auglīgajās auglīgam auglīgas auglīgi auglīgie auglīgiem auglīgo auglīgu auglīgus auglīgā auglīgāks auglīgām auglīgās visauglīgākais
+83	3983	ceptuve	ceptuvei ceptuves ceptuvi ceptuvju ceptuvē ceptuvēm ceptuvēs
+84	3984	bildēt	bild bildi bildot bildu bildē bildēja bildējam bildējat bildēji bildējiet bildējis bildējot bildēju bildējām bildēs bildēsi bildēsim bildēts bildētu bildēšana bildēšu jābildē nebildēt
+85	3985	psihisks	psihiska psihiskais psihiskajai psihiskajiem psihiskajā psihiskajām psihiskajās psihiskas psihiskie psihiskiem psihisko psihiskos psihisku psihiskus psihiskā psihiskām psihiskās
+86	3986	koferis	kofera koferi koferiem koferim koferos koferu koferus koferī
+87	3987	embargo	
+88	3988	septiņpadsmit	
+89	3989	spalvains	spalvaina spalvainai spalvainais spalvainajai spalvainajiem spalvainajā spalvainajām spalvainam spalvainas spalvaini spalvainie spalvainiem spalvaino spalvainos spalvainu spalvainā spalvaināks spalvainām spalvainās
+90	3990	paģiras	paģiru paģirām paģirās
+91	3991	monarhs	monarha monarham monarhi monarhiem monarhu monarhus monarhā
+92	3992	durt	dur duram durat durdams duriet durot durs dursim durts durtu duru duršana dūra dūri dūris dūru jādur
+93	3993	ūdenskritums	
+94	3994	dumji	
+95	3995	sagriezt	sagriez sagriež
+96	3996	karakuģis	karakuģa karakuģi karakuģiem karakuģim karakuģu karakuģus
+97	3997	nemirstība	nemirstībai nemirstības nemirstību nemirstībā
+98	3998	migrants	migrantu
+99	3999	dakša	dakšai dakšam dakšas dakšu dakšā dakšām
+100	4000	ķeizars	ķeizara ķeizaram ķeizari ķeizariem ķeizariene ķeizarienes ķeizarieni ķeizaru ķeizarus

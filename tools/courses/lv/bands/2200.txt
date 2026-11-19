@@ -1,100 +1,100 @@
-1	2101	ainava	ainavai ainavas ainavu ainavā ainavām
-2	2102	ērglis	ērgli ērglim ērgļa ērgļi ērgļiem ērgļos ērgļu ērgļus
-3	2103	klusums	klusuma klusumu klusumā
-4	2104	moments	moment momenta momenti momentiem momentos momentu momentus momentā
-5	2105	televizors	televizora televizoram televizori televizoru televizorus televizorā
-6	2106	slimnieks	slimniece slimniecei slimniek slimnieka slimniekam slimnieki slimniekiem slimnieku slimniekus
-7	2107	josla	joslai joslas joslu joslā joslām joslās
-8	2108	rota	rotai rotas rotu rotā rotām rotās
-9	2109	mezgls	mezgla mezglam mezgli mezgliem mezglos mezglu mezglus mezglā
-10	2110	mēle	mēlei mēles mēli mēlē mēlēm mēlēs
-11	2111	kapi	kapiem kapos kapu kapus
-12	2112	piemist	piemīt
-13	2113	teniss	tenis tenisa tenisam tenisu tenisā
-14	2114	ai	
-15	2115	dzelzs	dzelzi dzelzij dzelzī
-16	2116	ķīmisks	fiziskajām ķīmiska ķīmiskais ķīmiskajai ķīmiskajiem ķīmiskajā ķīmiskajām ķīmiskas ķīmiskie ķīmiskiem ķīmisko ķīmiskos ķīmisku ķīmiskā ķīmiskām ķīmiskās
-17	2117	akcīze	akcīzes
-18	2118	loģisks	loģiska loģiskai loģiskais loģiskam loģiskas loģiski loģiskiem loģisko loģisku loģiskā loģiskāks loģiskām loģiskās
-19	2119	apziņa	apziņai apziņas apziņu apziņā
-20	2120	rītdiena	rītdienai rītdienas rītdienu rītdienā
-21	2121	skaļi	
-22	2122	pašreiz	
-23	2123	iecirknis	iecirkņa
-24	2124	skaistums	skaistuma skaistumam skaistumu skaistumā
-25	2125	uzlikt	uzliek
-26	2126	purvs	purva purvam purvi purviem purvos purvu purvus purvā
-27	2127	pirkums	pirkuma pirkumam pirkumi pirkumiem pirkumos pirkumu pirkumus
-28	2128	dirst	dirs dirsa dirsu dirsām dirš diršat diršu
-29	2129	šķirne	šķirnei šķirnes šķirni šķirnē šķirnēm šķirņu
-30	2130	muita	muitai muitas muitu muitā
-31	2131	sarukt	jāsarūk sarucis saruka saruks saruktu sarukšana sarūk sarūkot
-32	2132	koncertzāle	koncertzālei koncertzāles koncertzāli koncertzālē koncertzālēm koncertzālēs koncertzāļu
-33	2133	cept	cep cepa cepam cepama cepamais cepamā cepamās cepi cepiet cepis cepot ceps cepsi cepsiet cepsim cepta ceptas cepti ceptiem cepts ceptu ceptus ceptā ceptās cepu cepuši cepšana cepšanai cepšanas cepšanu cepšu jācep
-34	2134	labvakars	labvakar labvakaru
-35	2135	atgriezt	atgriez atgrieza atgriezi atgrieziet atgriezis atgriezts atgrieztu atgriezu atgriezām atgriezīs atgriezīsi atgriezīsiet atgriezīsim atgriezīšu atgriešana atgriež atgriežam atgriežot atgriežu jāatgriež
-36	2136	bēda	bēdas bēdu bēdām bēdās
-37	2137	ikviena	ikvienai ikvienas
-38	2138	stingri	
-39	2139	pagrabs	pagraba pagrabi pagrabiem pagrabos pagrabu pagrabus pagrabā
-40	2140	nevainīgs	nevainīga nevainīgai nevainīgais nevainīgajiem nevainīgajos nevainīgajā nevainīgam nevainīgas nevainīgi nevainīgie nevainīgiem nevainīgo nevainīgos nevainīgu nevainīgus nevainīgā nevainīgās
-41	2141	kalps	kalpa kalpam kalpi kalpiem kalpone kalponei kalpones kalponi kalponēm kalpos kalpu kalpus
-42	2142	paradums	paraduma paradumam paradumi paradumiem paradumos paradumu paradumus
-43	2143	ietilpt	ietilpst
-44	2144	mēģinājums	
-45	2145	skots	skot skota skotam skoti skotiem skotieti skotu skotus
-46	2146	oga	ogai ogas ogu ogām ogās
-47	2147	segt	jāsedz nesegt sedz sedza sedzam sedziet sedzot sedzu sedzām segs segsi segsim segts segtu segšana segšu
-48	2148	skapis	skapi skapim skapja skapji skapjiem skapjos skapju skapjus skapī
-49	2149	nēsāt	jānēsā nenēsāt nēsā nēsāja nēsājam nēsājat nēsāji nēsājiet nēsājis nēsājot nēsāju nēsās nēsāsi nēsāsiet nēsāsim nēsātu nēsāšana nēsāšu
-50	2150	līcis	līci līcim līcī līča līči līčiem līčos līču
-51	2151	klusu	
-52	2152	spīts	spīti
-53	2153	reāli	
-54	2154	sniedzējs	sniedzēja sniedzējam sniedzēji sniedzējiem sniedzēju sniedzējus
-55	2155	žurka	žurkai žurkas žurks žurku žurkām
-56	2156	pāvests	pāvesta pāvestam pāvesti pāvestu pāvestus
-57	2157	lasītājs	lasītāj lasītāja lasītājam lasītāji lasītājiem lasītājos lasītāju lasītājus
-58	2158	pērle	pērlei pērles pērli pērlēm pērļu
-59	2159	reliģija	reliģijai reliģijas reliģiju reliģijā reliģijām reliģijās
-60	2160	centiens	centieni centieniem centienos centienu centienus
-61	2161	aizsargāt	aizsargājamās
-62	2162	pārvietoties	pārvietojas
-63	2163	plaukt	plauka plauks plaukst plaukstam plaukstu plaukta plauktam plaukti plauktiem plauktos plaukts plauktu plauktus plauktā plaukšana
-64	2164	īsi	
-65	2165	mīļi	
-66	2166	izveidoties	izveidojies izveidojusies izveidojās
-67	2167	jūdze	jūdzei jūdzes jūdzi jūdzē jūdzēm jūdzēs jūdžu
-68	2168	lepns	lepna lepnai lepnais lepnajām lepnajās lepnam lepnas lepni lepnie lepniem lepno lepnu lepnus lepnā lepnākajās lepnāks lepnākus lepnās vislepnāko
-69	2169	prioritāte	prioritātēm
-70	2170	barons	baron barona baronam baroni baroniem baronu baronā
-71	2171	telts	telti teltij teltis teltī teltīm teltīs telu telšu
-72	2172	ciest	cietušo
-73	2173	šķidrums	šķidruma šķidrumam šķidrumi šķidrumiem šķidrumu šķidrumus šķidrumā
-74	2174	kārtot	jākārto kārto kārtoja kārtojam kārtojams kārtoji kārtojiet kārtojis kārtojot kārtoju kārtojām kārtos kārtosi kārtosiet kārtosim kārtots kārtotu kārtošana kārtošu nekārtot
-75	2175	izsalcis	izsalkusi izsalkuša izsalkušam izsalkušas izsalkuši izsalkušiem izsalkušu izsalkušus izsalkušā
-76	2176	eļļa	eļļai eļļas eļļu eļļā eļļām
-77	2177	cēlonis	cēloni cēloņa cēloņi cēloņiem cēloņos cēloņu cēloņus
-78	2178	brīdināt	brīdina
-79	2179	iznīcināt	
-80	2180	pārdoma	pārdomas pārdomu pārdomā pārdomām pārdomās
-81	2181	briesmīgi	
-82	2182	pieprasīt	pieprasīja
-83	2183	dēvēt	dēvē
-84	2184	rituāls	rituāla rituālajā rituālajās rituālam rituāli rituālie rituāliem rituālos rituālu rituālus rituālā
-85	2185	krēsla	krēslai krēslas krēslu krēslā
-86	2186	iesaistīt	iesaistīti
-87	2187	rotaļlieta	rotaļlietas rotaļlietu rotaļlietām rotaļlietās
-88	2188	liegt	jāliedz liedz liedza liedziet liedzis liedzot liedzu liegdams liegs liegsiet liegtu liegusi liegušas lieguši liegšana liegšanai liegšanas liegšanu liegšu nelie neliedz neliedza neliedziet neliegs neliegsi neliegsim neliegtu neliegšu
-89	2189	ciešs	cieša ciešai ciešais ciešajai ciešajiem ciešajām ciešajās ciešam ciešas ciešo ciešos ciešu ciešus ciešā ciešāka ciešākai ciešākajiem ciešākam ciešākas ciešāki ciešākiem ciešāks ciešāku ciešākā ciešākās ciešām ciešās visciešākās
-90	2190	reliģisks	reliģiska reliģiskai reliģiskajai reliģiskajam reliģiskajiem reliģiskajos reliģiskajā reliģiskajām reliģiskajās reliģiskas reliģiski reliģiskie reliģiskiem reliģisko reliģiskos reliģisku reliģiskus reliģiskā reliģiskām reliģiskās
-91	2191	samērā	
-92	2192	septītais	septītajai septītajam septītajā septītajās septītie septīto septītā septītās
-93	2193	sakas	sakam saku sakā sakās
-94	2194	konsultants	konsultanta konsultantam konsultante konsultanti konsultantiem konsultantos konsultantu konsultantus konsultantēm
-95	2195	paņēmiens	paņēmiena paņēmienam paņēmieni paņēmieniem paņēmienos paņēmienu paņēmienus
-96	2196	spogulis	spoguli spogulim spogulī spoguļa spoguļi spoguļiem spoguļos spoguļu spoguļus
-97	2197	spānis	spāni spāniete spānieti spānietēm spānim spāņi spāņiem spāņu spāņus
-98	2198	pamatoties	pamatojoties
-99	2199	seksīgs	seksīga seksīgai seksīgais seksīgajai seksīgajā seksīgajām seksīgas seksīgo seksīgos seksīgu seksīgus seksīgā seksīgāks seksīgām seksīgās visseksīgākais visseksīgāko visseksīgākā
-100	2200	apkalpot	apkalpo apkalpoja apkalpojam apkalpojat apkalpojiet apkalpojis apkalpojot apkalpoju apkalpos apkalposi apkalposim apkalpots apkalpotu apkalpošana apkalpošu jāapkalpo neapkalpot
+1	2101	latviski	
+2	2102	vairogs	vairog vairoga vairogam vairogi vairogiem vairogos vairogu vairogus vairogā
+3	2103	bēglis	bēgļu
+4	2104	simts	
+5	2105	nulle	nullei nulles nulli nullē nullēm nuu
+6	2106	krēsla	krēslai krēslas krēslu krēslā krēslās
+7	2107	mediķis	mediķi mediķu
+8	2108	kilograms	kilo kilograma kilogramam kilogrami kilogramiem kilogramos kilogramu kilogramus kilogramā
+9	2109	atgriezt	atgriez atgrieza atgriezi atgrieziet atgriezis atgriezts atgrieztu atgriezu atgriezām atgriezāt atgriezīs atgriezīsi atgriezīsiet atgriezīsim atgriezīšot atgriezīšu atgriešana atgriež atgriežam atgriežams atgriežot atgriežu jāatgriež neatgriezt
+10	2110	iekļaut	iekļauta
+11	2111	skots	skot skota skotam skoti skotiem skotieti skotos skotu skotus
+12	2112	ieleja	ielejai ielejas ieleju ielejā ielejām ielejās
+13	2113	izveidoties	izveidojies izveidojusies izveidojās
+14	2114	mīkla	mīklai mīklas mīklu mīklā mīklām mīklās
+15	2115	tirgot	jātirgo netirgot tirgo tirgoja tirgojam tirgojamais tirgojams tirgojat tirgoji tirgojiet tirgojis tirgojot tirgoju tirgojām tirgojāt tirgos tirgosiet tirgosim tirgotais tirgots tirgotu tirgošana tirgošanai tirgošanas tirgošanos tirgošanu tirgošanā tirgošot tirgošu
+16	2116	helikopters	helikopter helikoptera helikopteram helikopteri helikopteriem helikopteros helikopteru helikopterus helikopterā
+17	2117	jūdze	jūdzei jūdzes jūdzi jūdzē jūdzēm jūdzēs jūdžu
+18	2118	rats	rat rata ratam ratiem ratos ratu ratus ratā
+19	2119	ciest	cietušo
+20	2120	brilles	brille brillēm brillēs briļļu
+21	2121	segt	jāsedz nesegt sedz sedza sedzam sedziet sedzis sedzot sedzu sedzām segs segsi segsim segts segtu segšana segšot segšu
+22	2122	salīdzināt	salīdzina
+23	2123	cents	cent centa centam centi centiem centos centu centus centā
+24	2124	parole	parolei paroles paroli parolē parolēm parolēs paroļu
+25	2125	pļava	pļavai pļavas pļavu pļavā pļavām pļavās
+26	2126	tabula	tabulai tabulam tabulas tabulu tabulā tabulām tabulās
+27	2127	liet	jālej lej lejam lejams lejat lejiet lejot leju liedams lies liesi liesim liets lietu liešana liešu lēja lēji lējis lēju lējām lējāt neliet
+28	2128	eksistēt	eksistē eksistēja eksistējam eksistējat eksistējis eksistējot eksistējošais eksistējošs eksistēju eksistēs eksistēsiet eksistēsim eksistētu eksistēšana eksistēšanai eksistēšanas eksistēšanu jāeksistē neeksistēt
+29	2129	slodze	slodzei slodzes slodzi slodzē slodzēm slodzēs slodžu
+30	2130	lietuvietis	lietuviete lietuvietei lietuvietes lietuvieti lietuvietim lietuvietēm lietuvieša lietuvieši lietuviešiem lietuviešu lietuviešus
+31	2131	sūtījums	sūtījuma sūtījumam sūtījumi sūtījumiem sūtījumos sūtījumu sūtījumus sūtījumā
+32	2132	lapsa	lapsai lapsam lapsas lapsi lapsu lapsā lapsām lapsās
+33	2133	ietilpt	ietilpst
+34	2134	fotogrāfs	fotogrāf fotogrāfa fotogrāfam fotogrāfe fotogrāfei fotogrāfes fotogrāfi fotogrāfiem fotogrāfos fotogrāfu fotogrāfus fotogrāfē fotogrāfēm fotogrāfēs fotogrāu
+35	2135	tante	tanos tantei tantes tanti tantē tantēm
+36	2136	ārpuse	ārpusei ārpuses ārpusi ārpusē
+37	2137	zaķis	zais zaķa zaķi zaķiem zaķim zaķu zaķus zaķī zaķītis
+38	2138	pašreiz	
+39	2139	garšīgs	garšīga garšīgai garšīgais garšīgajam garšīgajiem garšīgajām garšīgam garšīgas garšīgie garšīgiem garšīgo garšīgos garšīgu garšīgus garšīgā garšīgāks garšīgām garšīgās visgaršīgākais
+40	2140	šahs	šah šaha šaham šahiem šahu šahā
+41	2141	zeķe	zeus zeķei zeķes zeķi zeķu zeķē zeķēm zeķēs
+42	2142	ieteicams	ieteicama ieteicamais ieteicamas ieteicami ieteicamiem ieteicamos ieteicamu ieteicamā ieteicamāks ieteicamām ieteicamās visieteicamākais
+43	2143	nogādāt	nogādāts
+44	2144	dziļums	dziļuma dziļumam dziļumi dziļumiem dziļumos dziļumu dziļumus dziļumā
+45	2145	spīts	spīti
+46	2146	mes	
+47	2147	maratons	maratona maratonam maratoni maratoniem maratonos maratonu maratonus maratonā
+48	2148	pasniegt	pasniedz
+49	2149	pedagogs	pedagogu
+50	2150	zars	zara zaram zari zariem zaros zaru zarus zarā
+51	2151	vēss	vēsa vēsai vēsais vēsajai vēsajam vēsajiem vēsajos vēsajā vēsajām vēsajās vēsam vēsas vēsi vēsie vēsiem vēso vēsos vēsu vēsus vēsā vēsāks vēsām vēsās
+52	2152	šķidrums	šķidruma šķidrumam šķidrumi šķidrumiem šķidrumos šķidrumu šķidrumus šķidrumā
+53	2153	reliģisks	reliģiska reliģiskai reliģiskais reliģiskajai reliģiskajam reliģiskajiem reliģiskajos reliģiskajā reliģiskajām reliģiskajās reliģiskam reliģiskas reliģiski reliģiskie reliģiskiem reliģisko reliģiskos reliģisku reliģiskus reliģiskā reliģiskām reliģiskās
+54	2154	sankcija	sankcijai sankcijas sankciju sankcijā sankcijām sankcijās
+55	2155	skatiens	skatiena skatienam skatieni skatieniem skatienos skatienu skatienus skatienā
+56	2156	stīvs	stīv stīva stīvais stīvajai stīvajiem stīvajām stīvam stīvas stīvi stīvie stīviem stīvo stīvos stīvu stīvus stīvā stīvāks stīvām stīvās
+57	2157	klausītājs	klausītāj klausītāja klausītājai klausītājam klausītājas klausītāji klausītājiem klausītājos klausītāju klausītājus klausītājā klausītājām
+58	2158	dienasgrāmata	dienasgrāmatai dienasgrāmatas dienasgrāmatu dienasgrāmatā dienasgrāmatām dienasgrāmatās
+59	2159	nelikumīgs	nelikumīga nelikumīgai nelikumīgais nelikumīgajam nelikumīgajiem nelikumīgajos nelikumīgajām nelikumīgajās nelikumīgam nelikumīgas nelikumīgi nelikumīgie nelikumīgiem nelikumīgo nelikumīgos nelikumīgu nelikumīgus nelikumīgā nelikumīgām nelikumīgās
+60	2160	sēkla	sēklai sēklas sēklu sēklā sēklām sēklās
+61	2161	industrija	industrijai industrijas industriju industrijā industrijām industrijās
+62	2162	ikviena	ikvienai ikvienas
+63	2163	briesmonis	briesmoni briesmonim briesmonī briesmoņa briesmoņi briesmoņiem briesmoņu briesmoņus
+64	2164	pacietība	pacietībai pacietības pacietību pacietībā
+65	2165	pieprasījums	
+66	2166	pele	pei pelei peles peli pelē pelēm pelēs peļu
+67	2167	nācija	nācijai nācijas nāciju nācijā nācijām nācijās
+68	2168	zibens	zibeni zibenim zibeņi zibeņiem zibeņos zibeņu zibeņus
+69	2169	terapija	terapijai terapijas terapiju terapijā terapijām terapijās
+70	2170	baterija	baterijai baterijas bateriju baterijā baterijām baterijās
+71	2171	priecāties	priecājas
+72	2172	lēns	lēna lēnai lēnais lēnajai lēnajam lēnajiem lēnajā lēnajām lēnam lēnas lēnie lēniem lēno lēnos lēnu lēnus lēnā lēnāks lēnās vislēnākais
+73	2173	katls	katla katlam katli katliem katlos katlu katlus katlā
+74	2174	baigi	
+75	2175	skūpsts	skūpst skūpsta skūpstam skūpsti skūpstiem skūpstos skūpstu skūpstus skūpstā
+76	2176	panika	panikai panikas paniki paniku panikā
+77	2177	aizsargāt	aizsargājamās
+78	2178	bioloģisks	bioloģiska bioloģiskai bioloģiskais bioloģiskajai bioloģiskajam bioloģiskajiem bioloģiskajos bioloģiskajā bioloģiskajām bioloģiskajās bioloģiskas bioloģiskie bioloģiskiem bioloģisko bioloģiskos bioloģisku bioloģiskus bioloģiskā bioloģiskām bioloģiskās
+79	2179	mūžīgi	
+80	2180	bedre	bedrei bedres bedri bedru bedrē bedrēm bedrēs
+81	2181	sveiciens	sveiciena sveicienam sveicieni sveicieniem sveicienos sveicienu sveicienus sveicienā
+82	2182	melis	mei meis mele melei meles melim melēm meļa meļi meļiem meļu meļus
+83	2183	analizēt	analizē analizēja analizējam analizējams analizējat analizējiet analizējis analizējot analizēju analizējām analizēs analizēsi analizēsiet analizēsim analizēts analizētu analizēšana analizēšot analizēšu jāanalizē neanalizēt
+84	2184	iznākt	iznāk
+85	2185	fantastiski	
+86	2186	nots	noa noti notij notis notī notīm notīs noā nošu
+87	2187	pievilcīgs	pievilcīga pievilcīgai pievilcīgais pievilcīgajai pievilcīgajam pievilcīgajiem pievilcīgajā pievilcīgajām pievilcīgajās pievilcīgam pievilcīgas pievilcīgi pievilcīgie pievilcīgiem pievilcīgo pievilcīgos pievilcīgu pievilcīgus pievilcīgā pievilcīgāks pievilcīgām pievilcīgās vispievilcīgākais
+88	2188	humors	humor humora humoram humori humoru humorā
+89	2189	krūms	krūm krūma krūmam krūmi krūmiem krūmos krūmu krūmus krūmā
+90	2190	kucēns	kucēn kucēna kucēnam kucēni kucēniem kucēnos kucēnu kucēnus kucēnā
+91	2191	barot	baro baroja barojam barojams barojat baroji barojiet barojis barojot barojošs baroju barojām baros barosi barosiet barosim barots barotu barošana barošu jābaro nebarot
+92	2192	fantastisks	fantastiska fantastiskai fantastiskais fantastiskajai fantastiskajam fantastiskajiem fantastiskajos fantastiskajā fantastiskajām fantastiskajās fantastiskam fantastiskas fantastiskie fantastiskiem fantastisko fantastiskos fantastisku fantastiskus fantastiskā fantastiskāks fantastiskām fantastiskās
+93	2193	spānis	spāni spāniete spānietei spānietes spānieti spānietis spānietēm spāniešiem spāniešu spānim spāņa spāņi spāņiem spāņu spāņus
+94	2194	stiprināt	jāstiprina stiprina stiprini stipriniet stiprinot stiprinošs stiprinu stiprinādams stiprināja stiprinājis stiprinām stiprināms stiprinās stiprināsi stiprināsiet stiprināsim stiprināts stiprinātu stiprināšana stiprināšot stiprināšu
+95	2195	izlemt	izlēma
+96	2196	angliski	
+97	2197	pārvietoties	pārvietojas
+98	2198	pabalsts	pabalsta pabalstus
+99	2199	zemūdene	zemūdenei zemūdenes zemūdeni zemūdenē zemūdenēm zemūdenēs zemūdeņu
+100	2200	apkalpot	apkalpo apkalpoja apkalpojam apkalpojat apkalpojiet apkalpojis apkalpojot apkalpojošs apkalpoju apkalpojām apkalpojāt apkalpos apkalposi apkalposiet apkalposim apkalpots apkalpotu apkalpošana apkalpošu jāapkalpo neapkalpot

@@ -1,100 +1,100 @@
-1	4601	komats	komata komatu
-2	4602	tūkstošgade	tūkstošgades tūkstošgadi
-3	4603	estētisks	estētiska estētiskajai estētiskajiem estētiskam estētisko estētiskos estētisku estētiskā estētiskās
-4	4604	psihiatrija	psihiatrijas psihiatriju psihiatrijā
-5	4605	sams	sam sama samam sami
-6	4606	nejautāju	
-7	4607	programmētājs	
-8	4608	leitis	leiti leiši leišiem leišu
-9	4609	lustra	lustrai lustras lustru lustrām
-10	4610	nedzīvoju	
-11	4611	pavēlējis	pavēlējusi
-12	4612	krūškurvis	krūškurvi krūškurvim krūškurvja krūškurvī
-13	4613	nākošgad	
-14	4614	kokle	kokles kokļu
-15	4615	čiekurs	čiekuri čiekuriem čiekuru
-16	4616	uts	uti utis utīm
-17	4617	pors	por poru
-18	4618	psihoze	psihozes psihozi psihozēm
-19	4619	pasīvi	
-20	4620	skriešus	
-21	4621	debesskrāpis	debesskrāpi debesskrāpja debesskrāpji debesskrāpjiem debesskrāpjos debesskrāpju debesskrāpjus debesskrāpī
-22	4622	čuguns	čuguna čugunu
-23	4623	saudzēt	
-24	4624	pavēlniecība	pavēlniecībai pavēlniecības pavēlniecību
-25	4625	riktīgs	riktīgus riktīgā
-26	4626	sportiski	
-27	4627	caurspīdīgums	caurspīdīguma caurspīdīgumam caurspīdīgumu
-28	4628	komfortabls	komfortabla komfortablajā komfortablas komfortablo komfortablos komfortablu komfortablus komfortablā komfortablāka komfortablākai komfortablāki komfortablāks komfortablākus
-29	4629	vismīļākais	mīļais mīļāka mīļākajai mīļākajam mīļākajiem mīļākajā mīļākajām mīļākajās mīļāki mīļākie mīļāko mīļākos mīļāks mīļākā mīļākās vismīļākajam vismīļākie vismīļākā vismīļākās
-30	4630	kņaziene	kņazienei kņazieni
-31	4631	elkoni	
-32	4632	lācēns	lācēn lācēna lācēni lācēniem lācēnu lācēnus
-33	4633	delna	
-34	4634	aploks	aploka aploki aplokos aploku aplokā
-35	4635	rezultatīvi	
-36	4636	rakstāmgalds	rakstāmgalda rakstāmgaldiem rakstāmgaldos rakstāmgaldu
-37	4637	lopbarība	lopbarībai lopbarības lopbarību lopbarībā
-38	4638	kaļķi	kaļķiem kaļķu
-39	4639	skvērs	skvēra skvēru skvērā
-40	4640	reālistisks	reālistiska reālistiskas reālistiski reālistiskiem reālistisku reālistiskus reālistiskā reālistiskām
-41	4641	stabule	stabules stabuli
-42	4642	piparkūka	piparkūkas piparkūku piparkūkām
-43	4643	reliģiozs	reliģioza reliģiozajā reliģiozi reliģiozie reliģiozo reliģiozos reliģiozu
-44	4644	visstraujākais	straujais straujāka straujākai straujākais straujākajiem straujākam straujākas straujāki straujākiem straujāko straujāks straujāku straujākā straujākās visstraujākā
-45	4645	līme	
-46	4646	sociālistisks	sociālistiskajai sociālistisko sociālistiskā sociālistiskās
-47	4647	medicīniski	
-48	4648	bezrūpīgs	bezrūpīga bezrūpīgais bezrūpīgas bezrūpīgo bezrūpīgu bezrūpīgā bezrūpīgās
-49	4649	bambuss	bambusa bambusu
-50	4650	žirafe	
-51	4651	pedagoģisks	pedagoģisko
-52	4652	neredzīgs	neredzīga neredzīgajam neredzīgam neredzīgi neredzīgiem neredzīgo
-53	4653	dzīvsudrabs	dzīvsudraba dzīvsudrabu
-54	4654	sarma	sarmas sarmu
-55	4655	lagūna	lagūnas lagūnu lagūnā lagūnām
-56	4656	spilve	spilva spilves spilvē
-57	4657	ģeometrija	ģeometrijas ģeometriju
-58	4658	klade	klades kladi kladē kladēm kladēs klažu
-59	4659	dzeguze	dzeguzes dzegužu
-60	4660	ētiski	
-61	4661	bundzinieks	bundziniece bundzinieki
-62	4662	misiņš	misiņa
-63	4663	garāmgājējs	garāmgājējam garāmgājēji garāmgājējiem garāmgājēju garāmgājējus
-64	4664	slovēnis	slovēnim slovēņu
-65	4665	zaldāts	zaldāta zaldāti zaldātu zaldātus
-66	4666	emblēma	emblēmai emblēmas emblēmu
-67	4667	hotelis	hoteli hotelim hotelī hoteļos
-68	4668	vieninieks	vieninieka vieninieki vieniniekiem vieninieku vieniniekus
-69	4669	hlors	hlora hloru
-70	4670	restaurēt	jārestaurē restaurē restaurējam restaurējams restaurējot restaurējām restaurēts restaurētu restaurēšana
-71	4671	strauss	strausa strausu
-72	4672	seksīgāks	seksīgais seksīgāk seksīgāka seksīgākais seksīgākajiem seksīgākiem seksīgākā seksīgākās visseksīgākais visseksīgāko visseksīgākā
-73	4673	šalle	
-74	4674	līdzautors	līdzautoram līdzautore līdzautori līdzautoriem līdzautoru
-75	4675	slēpe	slēpes slēpi slēpju slēpēm
-76	4676	mazgātava	mazgātavai mazgātavas mazgātavu mazgātavās
-77	4677	izputēt	izput izputēja izputējis izputēju izputētu neizputēt
-78	4678	mocīt	
-79	4679	milzum	
-80	4680	patoloģija	patoloģijas patoloģiju patoloģijām
-81	4681	amonjaks	amonjaka amonjakā
-82	4682	krāce	krāces krāci krācēm
-83	4683	tajs	taja taju
-84	4684	menstruācija	menstruācijas menstruāciju menstruācijām
-85	4685	noslēpumainība	noslēpumainībai noslēpumainības noslēpumainību
-86	4686	dievlūdzējs	dievlūdzēj dievlūdzēja dievlūdzējiem dievlūdzēju dievlūdzējus
-87	4687	fēnikss	
-88	4688	ašs	aša ašais ašajiem ašas ašie ašo ašu ašā
-89	4689	sirdspuksts	sirdspuksti sirdspukstiem sirdspukstu sirdspukstus
-90	4690	kļava	
-91	4691	enerģiski	
-92	4692	nākošnedēļ	
-93	4693	agrums	agrumam agrumā
-94	4694	kanēlis	kanēli kanēļa
-95	4695	labvēlis	labvēli labvēlim labvēļa labvēļi labvēļiem labvēļu
-96	4696	virzulis	virzuļa virzuļi virzuļu virzuļus
-97	4697	dzimte	dzimtes dzimti dzimtē
-98	4698	birka	birkam birkas birku birkām
-99	4699	tele	teļu
-100	4700	rūgtums	rūgtuma rūgtumu rūgtumā
+1	4601	ģeogrāfiski	
+2	4602	galdnieks	galdnieci galdniek galdnieka galdniekam galdnieki galdniekiem galdniekos galdnieku galdniekus galdniekā
+3	4603	santehniķis	santehniķa santehniķi santehniķiem santehniķim santehniķu santehniķus
+4	4604	filoloģija	filoloģijai filoloģijas filoloģiju filoloģijā
+5	4605	pīlēns	pīlēna pīlēnam pīlēni pīlēniem pīlēnu pīlēnus
+6	4606	drošums	drošuma drošumam drošumu drošumā
+7	4607	kārkls	kārkl kārkla kārkli kārkliem kārklu kārklus
+8	4608	patoloģija	patoloģijas patoloģiju patoloģijām
+9	4609	stieple	stieplei stieples stiepli stieplēm stieplēs stiepļu
+10	4610	saudzēt	
+11	4611	vaisla	vaislai vaislas vaisli vaislā
+12	4612	mazgātava	mazgātavai mazgātavas mazgātavu mazgātavā mazgātavām mazgātavās
+13	4613	lepnība	lepnībai lepnības lepnību lepnībā
+14	4614	sniegputenis	sniegputeni sniegputenim sniegputenī sniegputeņa sniegputeņi sniegputeņiem sniegputeņos sniegputeņu sniegputeņus
+15	4615	nīkt	jānīkst nīcis nīka nīks nīkst nīkstam nīksti nīkstot nīkstu nīktu nīku nīkšana
+16	4616	sīknauda	sīknaudai sīknaudas sīknaudu sīknaudā
+17	4617	kadastrs	kadastra
+18	4618	cēsnieks	cēsiniece cēsinieces cēsinieci cēsiniecēm cēsinieks cēsinieču cēsniece cēsniecei cēsnieces cēsnieci cēsniecēm cēsniek cēsnieka cēsniekam cēsnieki cēsniekiem cēsnieku cēsniekus cēsnieču
+19	4619	daiļslidošana	daiļslidošanai daiļslidošanas daiļslidošanu daiļslidošanā
+20	4620	dziedājums	dziedājuma dziedājumam dziedājumi dziedājumiem dziedājumos dziedājumu dziedājumus dziedājumā
+21	4621	kardiologs	kardiologa kardiologi kardiologiem kardiologu kardiologus kardioloģe kardioloģei kardioloģes kardioloģi
+22	4622	kandža	kandžas kandžu kandžā
+23	4623	tele	telei teles teli telēm teļu
+24	4624	gļotas	gļotu gļotām gļotās
+25	4625	komisks	komiska komiskai komiskais komiskajiem komiskajā komiskas komiskie komiskiem komisko komiskos komisku komiskus komiskā komiskām komiskās viskomiskākais
+26	4626	cukurfabrika	cukurfabrikai cukurfabrikas cukurfabriku cukurfabrikā cukurfabrikām
+27	4627	sīkdatne	sīkdatnei sīkdatnes sīkdatni sīkdatnē sīkdatnēm sīkdatnēs sīkdatņu
+28	4628	lagūna	lagūnai lagūnas lagūnu lagūnā lagūnām lagūnās
+29	4629	maiznieks	maizniece maiznieka maizniekam maiznieki maizniekiem maiznieku maizniekus maizniekā
+30	4630	vīksna	vīksnai vīksnas vīksni vīksnu vīksnā vīksnām
+31	4631	cietība	cietībai cietības cietību cietībā
+32	4632	zemisks	viszemiskākais zemiska zemiskai zemiskais zemiskajam zemiskajā zemiskajām zemiskajās zemiskas zemiskiem zemisko zemiskos zemisku zemiskā zemiskāks zemiskām zemiskās
+33	4633	steidzīgs	steidzīga steidzīgai steidzīgais steidzīgajai steidzīgajam steidzīgajiem steidzīgajos steidzīgajā steidzīgam steidzīgas steidzīgie steidzīgiem steidzīgo steidzīgos steidzīgu steidzīgus steidzīgā steidzīgām steidzīgās
+34	4634	pareizrakstība	pareizrakstībai pareizrakstības pareizrakstību pareizrakstībā
+35	4635	asināt	asina asini asiniet asinot asinu asināja asinājām asinās asināts asinātu asināšana jāasina
+36	4636	emblēma	emblēmai emblēmas emblēmu emblēmā emblēmām
+37	4637	nedzirdīgs	nedzirdīga nedzirdīgajiem nedzirdīgam nedzirdīgas nedzirdīgi nedzirdīgie nedzirdīgiem nedzirdīgo nedzirdīgos nedzirdīgu nedzirdīgā nedzirdīgās
+38	4638	rudmate	rudmatei rudmates rudmati rudmatiem rudmatis rudmatēm
+39	4639	sportiski	
+40	4640	astronoms	astronoma astronomam astronomi astronomiem astronomu astronomus
+41	4641	dzelonis	dzeloni dzelonim dzeloņa dzeloņi dzeloņiem dzeloņus
+42	4642	sastingt	sastindzis
+43	4643	ciska	ciskas cisku ciskām ciskās
+44	4644	monarhija	monarhijai monarhijas monarhiju monarhijā monarhijām
+45	4645	mist	mita mitis mitu mitīs mītam mītat mītot mītu
+46	4646	taktisks	ais āks
+47	4647	vē	
+48	4648	pīlādzis	pīlādzi pīlādzim pīlādzī pīlādža pīlādži pīlādžiem pīlādžos pīlādžu pīlādžus
+49	4649	meteorīts	
+50	4650	tīrītājs	tīrītāja tīrītājai tīrītājam tīrītājas tīrītāji tīrītājiem tīrītāju tīrītājus tīrītājā
+51	4651	baltvīns	baltvīna baltvīnam baltvīni baltvīniem baltvīnos baltvīnu baltvīnus baltvīnā
+52	4652	patēvs	patēva patēvam patēvi patēvu
+53	4653	gaumīgs	gaumīga gaumīgai gaumīgais gaumīgajam gaumīgajiem gaumīgam gaumīgas gaumīgie gaumīgiem gaumīgo gaumīgu gaumīgus gaumīgā gaumīgāks gaumīgām gaumīgās
+54	4654	vairogdziedzeris	vairogdziedzera vairogdziedzeri vairogdziedzerim vairogdziedzeru vairogdziedzerī
+55	4655	kurds	kurdi kurdiem kurdu kurdus
+56	4656	dievlūdzējs	dievlūdzēj dievlūdzēja dievlūdzējam dievlūdzēji dievlūdzējiem dievlūdzēju dievlūdzējus
+57	4657	ūdrs	ūda ūdi ūdra ūdram ūdri ūdriem ūdris ūdros ūdru ūdrus ūdu
+58	4658	velsietis	velsiete velsieša velsieši velsiešiem velsiešu
+59	4659	centīgs	centīga centīgai centīgais centīgajam centīgajiem centīgam centīgas centīgie centīgiem centīgo centīgu centīgus centīgā centīgāks centīgām centīgās
+60	4660	producēt	jāproducē producē producēja producējam producējis producējot producēju producēs producētais producēts producētu producēšana producēšanai producēšanas producēšanu producēšanā
+61	4661	aromātisks	aromātiska aromātiskai aromātiskais aromātiskajiem aromātiskajā aromātiskajām aromātiskam aromātiskas aromātiski aromātiskie aromātiskiem aromātisko aromātiskos aromātisku aromātiskus aromātiskā aromātiskāks aromātiskām aromātiskās visaromātiskākais
+62	4662	kakāt	
+63	4663	veļi	vea vei velis veļiem veļos veļu veļus
+64	4664	veseris	veseis vesera veseri veseriem veseru
+65	4665	tirgotava	tirgotavai tirgotavas tirgotavu tirgotavā tirgotavām tirgotavās
+66	4666	ģermānis	ģermāņi ģermāņu ģermāņus
+67	4667	dobs	dobi dobo dobu dobās
+68	4668	aizsaule	aizsaules aizsauli aizsaulē
+69	4669	revolveris	revolvera revolveri revolveriem revolveru revolverus
+70	4670	sāļš	sāļa sāļais sāļajai sāļajam sāļajiem sāļajos sāļajā sāļajām sāļajās sāļam sāļas sāļie sāļiem sāļo sāļos sāļu sāļus sāļā sāļāks sāļām sāļās
+71	4671	monitors	
+72	4672	dvaša	dvašu
+73	4673	uguņošana	
+74	4674	taurs	taura tauri tauriem tauru taurus
+75	4675	kapitālists	kapitālista kapitāliste kapitālisti kapitālistiem kapitālistu kapitālistus
+76	4676	bors	bora boram boru borā
+77	4677	hā	
+78	4678	atvilktne	
+79	4679	nacisms	nacisma nacismam nacismu nacismā
+80	4680	spilve	spila spilva spilves spilvi spilvē
+81	4681	apcept	apcep apcepa apcepam apcepiet apcepot apcepts apceptu apcepu apcepšana apcepšanai jāapcep
+82	4682	keda	kedas kedu kedā kedām kedās
+83	4683	piecreiz	
+84	4684	polārlācis	polārlāci polārlācim polārlāča polārlāči polārlāčiem polārlāču
+85	4685	albāniski	
+86	4686	ornaments	ornamenta ornamentam ornamenti ornamentiem ornamentos ornamentu ornamentus ornamentā
+87	4687	iespēt	iespēj iespējam iespēji iespējis iespējot iespējošs iespēju iespējām iespēs iespēsi iespēsiet iespēsim iespēts iespētu jāiespēj neiespēt
+88	4688	žargons	žargona žargonam žargoni žargoniem žargonu žargonus žargonā
+89	4689	pergaments	pergamenta pergamentam pergamentiem pergamentu pergamentus pergamentā
+90	4690	darbistaba	darbistabai darbistabas darbistabu darbistabā darbistabām
+91	4691	kārdināt	kārdina kārdini kārdinot kārdinošs kārdināja kārdinās kārdināts kārdinātu kārdināšana
+92	4692	biškopis	biškope biškopes biškopi biškopim biškopja biškopji biškopjiem biškopju biškopjus
+93	4693	dzimumorgāns	dzimumorgāni dzimumorgāniem dzimumorgānos dzimumorgānu dzimumorgānus
+94	4694	teologs	teologa teologi teologiem teologos teologu teologus teoloģe teoloģes
+95	4695	mājlops	mājlopi mājlopiem mājlopu mājlopus
+96	4696	tēvija	tēvijai tēvijas tēviju tēvijā
+97	4697	vīle	vīlei vīles vīli vīlē vīlēm vīļu
+98	4698	matemātiķis	matemātiķa matemātiķe matemātiķes matemātiķi matemātiķiem matemātiķim matemātiķos matemātiķu matemātiķus
+99	4699	zīdīšana	zīdīšanai zīdīšanas zīdīšanu zīdīšanā
+100	4700	laimēties	laimējas laimējoties laimējās laimēsies

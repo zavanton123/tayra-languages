@@ -1,100 +1,100 @@
-1	1601	izvērtēt	izvērtējot
-2	1602	vēls	vēla vēlai vēlais vēlajiem vēlajā vēlajām vēlam vēli vēlie vēlo vēlā vēlākai vēlākais vēlākajos vēlākajās vēlākam vēlākas vēlākie vēlākiem vēlāko vēlākos vēlāks vēlāku vēlākā vēlākās vēlās
-3	1603	aizvērt	aizver aizveriet aizverot aizveru aizvēra aizvēri aizvēris aizvērs aizvērsi aizvērsim aizvērts aizvērtu aizvēru aizvēršana aizvēršu jāaizver
-4	1604	kreisi	
-5	1605	piegāde	piegādes
-6	1606	ebrejs	ebrej ebreja ebrejam ebreji ebrejiem ebrejiete ebreju ebrejus
-7	1607	zieds	zieda ziedi ziediem ziedos ziedu ziedus
-8	1608	faktiski	
-9	1609	zagt	jāzog nezagt nezagtu nezagu nezagām nezodz nezodziet nezog nezogu zadzis zaga zagi zags zagsi zagsiet zagta zagtais zagtas zagti zagtiem zagts zagtu zagtus zagtā zagtām zagtās zagu zagām zagšana zagšanai zagšanas zagšanu zagšu zodz zog zogam zogat zogot zogu
-10	1610	simbols	simbola simbolam simboli simboliem simbolu simbolus
-11	1611	elektrība	elektrībai elektrības elektrību elektrībā
-12	1612	kabata	kabatai kabatas kabatu kabatā kabatām kabatās
-13	1613	ķīnietis	ķīniete ķīnietei ķīnieti ķīnieša ķīnieši ķīniešiem ķīniešu ķīniešus
-14	1614	trešā	
-15	1615	laikraksts	laikraksta laikrakstam laikraksti laikrakstiem laikrakstos laikrakstu laikrakstus laikrakstā
-16	1616	vislabāk	
-17	1617	vēlētājs	vēlētāja vēlētājai vēlētājam vēlētāji vēlētājiem vēlētāju vēlētājus
-18	1618	kalendārs	kalendāra kalendāram kalendāri kalendāriem kalendāros kalendāru kalendārus kalendārā
-19	1619	ugunsdzēsējs	ugunsdzēsēja ugunsdzēsēji ugunsdzēsējiem ugunsdzēsējos ugunsdzēsēju ugunsdzēsējus
-20	1620	roze	rozei rozes rozi rozēm rožu
-21	1621	noliktava	noliktavai noliktavas noliktavu noliktavā noliktavām noliktavās
-22	1622	miegs	miega miegam miegu miegā
-23	1623	pieļaut	nepieļautu pieļauj
-24	1624	briesmas	briesmam briesmu briesmām briesmās
-25	1625	dabisks	dabiska dabiskais dabiskajai dabiskajam dabiskajiem dabiskajā dabiskajām dabiskajās dabiskas dabiski dabiskie dabiskiem dabisko dabiskos dabisku dabiskus dabiskā dabiskām dabiskās visdabiskākais
-26	1626	veselīgs	veselīga veselīgai veselīgais veselīgajā veselīgam veselīgas veselīgi veselīgie veselīgiem veselīgo veselīgos veselīgu veselīgus veselīgā veselīgāka veselīgākas veselīgāki veselīgākiem veselīgāks veselīgāku veselīgākus veselīgākā veselīgām veselīgās
-27	1627	ārstniecība	ārstniecībai ārstniecības ārstniecību ārstniecībā
-28	1628	kareivis	kareivi kareivim kareivja kareivji kareivjiem kareivju kareivjus
-29	1629	skart	neskart skar skarot skars skarts skartu skaru skāra skāris
-30	1630	secināt	jāsecina secina secināja secināts
-31	1631	moderns	moderna modernai modernais modernajai modernajam modernajiem modernajā modernajām modernajās modernam modernas modernie moderniem moderno modernos modernu modernus modernā modernāks modernām modernās vismodernākais vismodernāko vismodernākā
-32	1632	traki	
-33	1633	neatkarīgi	
-34	1634	organisms	organisma organismam organismi organismiem organismos organismu organismus organismā
-35	1635	būve	būvei būves būvi būvju būvē būvēm būvēs
-36	1636	līķis	līķa līķi līķiem līķim līķu līķus
-37	1637	režisors	režisora režisoram režisore režisori režisoriem režisoru režisorus
-38	1638	sapņot	nesapņot sapņo sapņoja sapņojam sapņojat sapņoji sapņojiet sapņojis sapņojot sapņoju sapņojām sapņojāt sapņos sapņosi sapņots sapņotu sapņošu
-39	1639	pārņemt	pārņem pārņēma
-40	1640	vidus	vidi vidu vidum
-41	1641	aizsargs	aizsardze aizsarg aizsarga aizsargam aizsargi aizsargiem aizsargu aizsargus aizsargā
-42	1642	dziļi	
-43	1643	puķe	pui puķei puķes puķi puķu puķēm puķēs
-44	1644	šaubas	šaubu šaubām šaubās
-45	1645	labklājība	labklājībai labklājības labklājību labklājībā
-46	1646	piemineklis	pieminekli piemineklim piemineklī pieminekļa pieminekļi pieminekļiem pieminekļu pieminekļus
-47	1647	rīkojums	rīkojum rīkojuma rīkojumam rīkojumi rīkojumiem rīkojumos rīkojumu rīkojumus rīkojumā
-48	1648	atjaunot	atjaunota
-49	1649	noslēgt	noslēgts
-50	1650	ķēde	ķēdei ķēdes ķēdi ķēdē ķēdēm ķēdēs ķēžu
-51	1651	raksturot	neraksturo neraksturoja raksturo raksturoja raksturojama raksturojami raksturojams raksturojamās raksturojiet raksturojis raksturojot raksturojoši raksturojošiem raksturojošs raksturojošu raksturojošus raksturojošā raksturojošām raksturojošās raksturojusi raksturojušas raksturojuši raksturos raksturota raksturotas raksturoti raksturots raksturotu
-52	1652	burvīgs	burvīga burvīgai burvīgais burvīgajai burvīgajā burvīgas burvīgi burvīgie burvīgiem burvīgo burvīgos burvīgu burvīgus burvīgā burvīgāks burvīgās
-53	1653	balstīties	balstoties balstās
-54	1654	stūris	stūra stūrī
-55	1655	matemātika	matemātikai matemātikas matemātiku matemātikā
-56	1656	foršs	forša foršai foršais foršajā foršas foršie foršiem foršo foršu foršus foršā foršāk foršāka foršākais foršākajiem foršāko foršākos foršāks foršāku foršākā foršām foršās visforšākais
-57	1657	zaglis	zagle zaglei zagles zagli zaglim zagļa zagļi zagļiem zagļu zagļus
-58	1658	augu	
-59	1659	salīdzinoši	
-60	1660	svešs	sveša svešai svešais svešajiem svešajos svešas sveši svešie svešiem svešo svešos svešu svešus svešā svešām svešās
-61	1661	nazis	nais nau nazi nazim naža naži nažiem nažu nažus
-62	1662	kurpe	kurpes kurpi kurpju kurpē kurpēm kurpēs
-63	1663	kleita	kleitai kleitas kleitu kleitā kleitām kleitās
-64	1664	okeāns	okeān okeāna okeānam okeāni okeāniem okeānos okeānu okeānus okeānā
-65	1665	brīvprātīgs	brīvprātīga brīvprātīgai brīvprātīgajai brīvprātīgajam brīvprātīgajiem brīvprātīgajos brīvprātīgajā brīvprātīgajām brīvprātīgajās brīvprātīgas brīvprātīgi brīvprātīgie brīvprātīgiem brīvprātīgo brīvprātīgos brīvprātīgu brīvprātīgus brīvprātīgā brīvprātīgām brīvprātīgās
-66	1666	iepazīt	iepazina iepazini iepazinis iepazinu iepazinām iepazīs iepazīsi iepazīsiet iepazīsim iepazīst iepazīstam iepazīstams iepazīsti iepazīstiet iepazīstot iepazīstu iepazīts iepazītu iepazīšana iepazīšu jāiepazīst
-67	1667	augstums	augstuma augstumam augstumi augstumos augstumu augstumus augstumā
-68	1668	aizliegums	aizlieguma aizliegumam aizliegumi aizliegumiem aizliegumos aizliegumu aizliegumus aizliegumā
-69	1669	krūtis	krūtīm krūtīs krūšu
-70	1670	apstākļi	
-71	1671	privāts	privāto privātā
-72	1672	tendence	tendences
-73	1673	ietekmēt	neietekmē
-74	1674	uzvārds	uzvārda uzvārdam uzvārdi uzvārdiem uzvārdu uzvārdus uzvārdā
-75	1675	pabalsts	pabalsta pabalstus
-76	1676	apkaime	apkaimei apkaimes apkaimi apkaimju apkaimē apkaimēm apkaimēs
-77	1677	bruņots	bruņota bruņotais bruņotajam bruņotajiem bruņotajos bruņotajā bruņotajām bruņotam bruņotas bruņoti bruņotie bruņotiem bruņoto bruņotos bruņotu bruņotus bruņotā bruņotām bruņotās
-78	1678	sargs	sarg sarga sargam sargi sargiem sargu sargus sargā
-79	1679	uzvedība	uzvedībai uzvedības uzvedību uzvedībā
-80	1680	elpa	elpai elpas elpu elpā
-81	1681	laikmets	laikmeta laikmetam laikmetiem laikmetu laikmetā
-82	1682	poga	pogai pogam pogas pogu pogām
-83	1683	ceturksnis	ceturksni ceturksnī
-84	1684	opozīcija	opozīcijai opozīcijas opozīciju opozīcijā
-85	1685	neatkarīgs	neatkarīga neatkarīgai neatkarīgais neatkarīgajai neatkarīgajam neatkarīgajiem neatkarīgajā neatkarīgajām neatkarīgajās neatkarīgam neatkarīgas neatkarīgie neatkarīgiem neatkarīgo neatkarīgos neatkarīgu neatkarīgus neatkarīgā neatkarīgām neatkarīgās
-86	1686	pāreja	pārejai pārejas pāreju pārejā pārejām pārejās
-87	1687	eksāmens	eksāmena eksāmenam eksāmeni eksāmeniem eksāmenos eksāmenu eksāmenus eksāmenā
-88	1688	vairākums	vairākuma vairākumam vairākumu vairākumus vairākumā
-89	1689	izaugsme	izaugsmes
-90	1690	šūna	šūnai šūnas šūnu šūnā šūnām šūnās
-91	1691	elektrisks	elektriska elektriskai elektriskais elektriskajai elektriskajam elektriskajiem elektriskajos elektriskajā elektriskajām elektriskas elektriski elektriskie elektriskiem elektrisko elektriskos elektrisku elektriskus elektriskā elektriskām elektriskās
-92	1692	rakstnieks	rakstniece rakstniecei rakstnieces rakstnieci rakstniecēm rakstnieka rakstniekam rakstnieki rakstniekiem rakstnieku rakstniekus
-93	1693	tonna	tonnas tonnu tonnā tonnām
-94	1694	sauss	sausa sausais sausajai sausajiem sausajos sausajā sausajām sausam sausas sausi sausie sausiem sauso sausos sausu sausus sausā sausāka sausākais sausākajām sausākam sausāks sausāku sausām sausās
-95	1695	iekšlietas	iekšlietu iekšlietām iekšlietās
-96	1696	art	ara ari ars arta artai artas arti arts aru arām aršana aršanas near
-97	1697	pārsteigt	pārsteidz pārsteidza pārsteigta
-98	1698	profesija	profesijai profesijas profesiju profesijā profesijām profesijās
-99	1699	padoms	padomu
-100	1700	neparasts	neparasta neparastai neparastais neparastajam neparastajiem neparastajos neparastajā neparastas neparastiem neparasto neparastos neparastu neparastus neparastā neparastākais neparastākajiem neparastākas neparastāko neparastām neparastās visneparastākais visneparastākajam
+1	1601	virsma	virsmai virsmam virsmas virsmu virsmā virsmām virsmās
+2	1602	audzināt	audzina audzini audziniet audzinot audzinošais audzinošs audzinu audzināja audzināji audzinājis audzināju audzinājām audzinājāt audzinām audzināms audzinās audzināsiet audzināsim audzināts audzinātu audzināšana audzināšanai audzināšanas audzināšanu audzināšanā audzināšu jāaudzina neaudzināt
+3	1603	lasītājs	lasītāj lasītāja lasītājam lasītāji lasītājiem lasītājos lasītāju lasītājus lasītājā
+4	1604	cukurs	cukur cukura cukuram cukuri cukuriem cukuros cukuru cukurus cukurā
+5	1605	sauss	sausa sausai sausais sausajai sausajam sausajiem sausajos sausajā sausajām sausajās sausam sausas sausi sausie sausiem sauso sausos sausu sausus sausā sausāks sausām sausās
+6	1606	velt	jāveļ vel vels velts veltu velšana velšu veļ veļam veļat veļot veļu vēla vēli vēlām
+7	1607	pozitīvs	pozitīva pozitīvu
+8	1608	mazināt	jāmazina mazina mazini maziniet mazinot mazinošs mazinu mazināja mazinājis mazinājām mazinām mazināms mazinās mazināsi mazināsiet mazināsim mazināts mazinātu mazināšana mazināšanai mazināšanas mazināšani mazināšanos mazināšanu mazināšanā mazināšu nemazināt
+9	1609	recepte	receptei receptes recepti receptē receptēm receptēs recepšu
+10	1610	pilots	pilot pilota pilotam pilote piloti pilotiem pilotu pilotus pilotā
+11	1611	izskatīt	izskata izskati izskatiet izskatot izskatu izskatām izskatāms izskatāt izskatīja izskatīji izskatījis izskatīju izskatījām izskatījāt izskatīs izskatīsi izskatīsim izskatīts izskatītu izskatīšana izskatīšot izskatīšu jāizskata neizskatīt
+12	1612	degt	dedz dedzam dedzi dedzis dedzu deg dega degam degat degot degoša degošais degošajai degošajiem degošajā degošajās degošas degoši degošie degošiem degošo degošos degošs degošu degošus degošā degošām degošās degs degsi degtu degu degām degšana degšanai degšanas degšanu jādedz jādeg
+13	1613	pūķis	pūķa pūķi pūķiem pūķim pūķu pūķus pūķī
+14	1614	monēta	monētai monētas monētu monētā monētām monētās
+15	1615	traucējums	traucējuma traucējumam traucējumi traucējumiem traucējumos traucējumu traucējumus
+16	1616	aplis	apli aplim aplī apļa apļi apļiem apļos apļu apļus
+17	1617	kauns	kaun kauna kaunam kauniem kaunos kaunu kaunā
+18	1618	iegāde	iegādei iegādes iegādi iegādē iegādēm iegāžu
+19	1619	rakt	jārok nerakt racis raka rakdams raki raks raksi raksiet raksim rakts raktu raku rakām rakāt rakšana rakšu roc rociet rok rokam rokams rokat rokot roku
+20	1620	laboratorija	laboratorijai laboratorijas laboratoriju laboratorijā laboratorijām laboratorijās
+21	1621	būvēt	būvē būvēja būvējam būvējams būvējat būvējiet būvējis būvējot būvēju būvējām būvējāt būvēs būvēsiet būvēsim būvēts būvētu būvēšana būvēšanai būvēšanas būvēšanu būvēšanā būvēšanās būvēšot būvēšu jābūvē nebūvēt
+22	1622	rets	reta retai retais retajai retajam retajiem retajos retajā retajām retajās retam retas retie retiem reto retos retu retus retā retāks retām retās
+23	1623	atšķirties	atšķiras
+24	1624	romāns	romān romāna romānam romāni romāniem romānos romānu romānus romānā
+25	1625	orķestris	orķestra orķestri orķestriem orķestrim orķestros orķestru orķestrus orķestrī
+26	1626	pārsniegt	jāpārsniedz nepārsniegt pārsniedz pārsniedza pārsniedzam pārsniedzat pārsniedzis pārsniedzot pārsniedzu pārsniedzām pārsniedzāt pārsniegdams pārsniegs pārsniegsi pārsniegsiet pārsniegsim pārsniegts pārsniegtu pārsniegšana pārsniegšot
+27	1627	starpa	starpā
+28	1628	nolūks	nolūka nolūkam nolūki nolūkiem nolūkos nolūku nolūkus nolūkā
+29	1629	šūna	šūnai šūnas šūnu šūnā šūnām šūnās
+30	1630	līst	jālien lien lienam lienat lieniet lienot lienu līda līdi līdis līdu līdām līdīs līdīsi līdīsim līdīšot līdīšu līstu līšana nelīst
+31	1631	novērst	novērstu
+32	1632	motors	motor motora motoram motori motoriem motoros motoru motorus motorā
+33	1633	vēders	vēder vēdera vēderam vēderi vēderiem vēderos vēderu vēderus vēderā
+34	1634	briesmīgs	briesmīga briesmīgai briesmīgais briesmīgajam briesmīgajiem briesmīgajos briesmīgajā briesmīgajām briesmīgam briesmīgas briesmīgie briesmīgiem briesmīgo briesmīgos briesmīgu briesmīgus briesmīgā briesmīgāks briesmīgām briesmīgās visbriesmīgākais
+35	1635	peļņa	peļņu
+36	1636	iespaidīgs	iespaidīga iespaidīgais iespaidīgajai iespaidīgajam iespaidīgajiem iespaidīgajā iespaidīgajām iespaidīgam iespaidīgas iespaidīgi iespaidīgie iespaidīgiem iespaidīgo iespaidīgos iespaidīgu iespaidīgus iespaidīgā iespaidīgāks iespaidīgām iespaidīgās visiespaidīgākais
+37	1637	smiltis	smiltīm smiltīs smilšu
+38	1638	asaris	asara asarai asaras asari asariem asarim asaros asars asaru asarus asarām asarās asarī aseris
+39	1639	vērst	jāver nevērt ver veram verams verat veriet verot veru vēra vēri vēris vēros vērs vērsi vērsiet vērsim vērsts vērt vērtu vēru vērām vēršana vēršot vēršu
+40	1640	spriedums	sprieduma spriedumam spriedumi spriedumiem spriedumos spriedumu spriedumus spriedumā
+41	1641	uzsākt	uzsāka
+42	1642	netālu	
+43	1643	glāze	glāzei glāzes glāzi glāzē glāzēm glāzēs glāžu
+44	1644	pants	pant panta pantam panti pantiem pantos pantu pantus pantā
+45	1645	šonakt	
+46	1646	smarža	smaržai smaržas smaržu smaržā smaržām smaržās
+47	1647	trešā	
+48	1648	pēcpusdiena	pēcpusdienai pēcpusdienas pēcpusdienu pēcpusdienā pēcpusdienām pēcpusdienās
+49	1649	spārns	spārna spārnam spārni spārniem spārnos spārnu spārnus spārnā
+50	1650	jebkas	jebko
+51	1651	oficiāli	
+52	1652	tūrists	tūrista tūristam tūriste tūristei tūristes tūristi tūristiem tūristos tūristu tūristus tūristā tūristēm
+53	1653	miesa	miesai miesas miesu miesā miesām miesās
+54	1654	svērt	is sver sveru svēram svērts svērtu svēru ām āt
+55	1655	allaž	
+56	1656	jausma	jausmas
+57	1657	mierīgs	mierīga mierīgai mierīgais mierīgajai mierīgajam mierīgajiem mierīgajos mierīgajā mierīgajām mierīgajās mierīgam mierīgas mierīgie mierīgiem mierīgo mierīgos mierīgu mierīgus mierīgā mierīgākais mierīgāks mierīgām mierīgās vismierīgākais
+58	1658	pazīme	pazīmei pazīmes pazīmi pazīmju pazīmē pazīmēm pazīmēs
+59	1659	unikāls	unikāla unikālai unikālais unikālajai unikālajam unikālajiem unikālajos unikālajā unikālajām unikālajās unikālam unikālas unikāli unikālie unikāliem unikālo unikālos unikālu unikālus unikālā unikālām unikālās
+60	1660	noziedznieks	noziedzniece noziedznieka noziedzniekam noziedznieki noziedzniekiem noziedzniekos noziedznieku noziedzniekus
+61	1661	mēness	mēnes
+62	1662	termiņš	termiņa
+63	1663	disks	disk diska diskam diski diskiem diskos disku diskus diskā
+64	1664	apzināt	apzina apzini apziniet apzinot apzinu apzināja apzinājis apzināju apzinājām apzinām apzināms apzinās apzināsiet apzināsim apzināta apzinātai apzinātam apzinātas apzināti apzinātiem apzinātos apzināts apzinātu apzinātus apzinātā apzinātām apzinātās apzināšana jāapzina neapzināt
+65	1665	sudrabs	sudrab sudraba sudrabam sudrabi sudrabiem sudrabos sudrabu sudrabā
+66	1666	atklāti	
+67	1667	šonedēļ	
+68	1668	peldēt	jāpeld peld peldam peldams peldat peldi peldiet peldot peldošais peldošs peldu peldēja peldējis peldēju peldējām peldēs peldēsi peldēsim peldētu peldēšana peldēšanai peldēšanas peldēšanos peldēšanu peldēšanā peldēšu
+69	1669	tase	taa taam tasei tases tasi tasē tasēm tasēs taā tašu
+70	1670	zādzība	zādzībai zādzībam zādzības zādzību zādzībā zādzībām zādzībās
+71	1671	pietrūkt	pietrūkst
+72	1672	eksāmens	eksāmena eksāmenam eksāmeni eksāmeniem eksāmenos eksāmenu eksāmenus eksāmenā
+73	1673	vidus	vidam vidi vidiem vidu vidum vidā
+74	1674	bībele	bībelei bībeles bībeli bībelē bībelēm bībelēs bībeļu
+75	1675	kalendārs	kalendār kalendāra kalendāram kalendāri kalendāriem kalendāros kalendāru kalendārus kalendārā
+76	1676	transportlīdzeklis	transportlīdzekli transportlīdzeklim transportlīdzeklī transportlīdzekļa transportlīdzekļi transportlīdzekļiem transportlīdzekļos transportlīdzekļu transportlīdzekļus
+77	1677	tēvocis	tēvoci tēvocim tēvocī tēvoča tēvoči tēvočiem tēvočus
+78	1678	duša	dušai dušam dušas dušu dušā dušām dušās
+79	1679	uzvalks	uzvalk uzvalka uzvalkam uzvalki uzvalkiem uzvalkos uzvalku uzvalkus uzvalkā
+80	1680	jautrs	jautra jautrai jautrais jautrajai jautrajam jautrajiem jautrajos jautrajā jautrajām jautrajās jautram jautras jautrie jautriem jautro jautros jautru jautrus jautrā jautrāks jautrām jautrās visjautrākais
+81	1681	pāreja	pārejai pārejas pāreju pārejā pārejām pārejās
+82	1682	caurums	cauruma caurumam caurumi caurumiem caurumos caurumu caurumus caurumā
+83	1683	jebkad	
+84	1684	reģionāls	reģionālā reģionālās
+85	1685	ķert	jāķer neķert ķer ķeram ķerams ķerat ķerdams ķeriet ķerot ķers ķersi ķersim ķerts ķertu ķeru ķeršana ķeršu ķēra ķēri ķēris ķēru ķērām ķērāt
+86	1686	robots	robo robos robot robota robotais robotam robotas roboti robotiem robotos robotu robotus robotā robotām
+87	1687	personisks	personiska personiskai personiskais personiskajai personiskajam personiskajiem personiskajos personiskajā personiskajām personiskajās personiskam personiskas personiski personiskie personiskiem personisko personiskos personisku personiskus personiskā personiskāks personiskām personiskās vispersoniskākais
+88	1688	audzēt	audzē audzēdams audzēja audzējam audzējams audzējat audzēji audzējiet audzējis audzējot audzēju audzējām audzēs audzēsi audzēsiet audzēsim audzētais audzēts audzētu audzēšana audzēšanai audzēšanas audzēšanu audzēšanā audzēšot audzēšu jāaudzē neaudzēt
+89	1689	pateicība	pateicībai pateicības pateicību pateicībā
+90	1690	smaids	smaid smaida smaidam smaidi smaidiem smaidos smaidu smaidus smaidā
+91	1691	šoferis	šofera šofere šoferi šoferiem šoferim šoferos šoferu šoferus
+92	1692	ritenis	riteni ritenim ritenī riteņa riteņi riteņiem riteņos riteņu riteņus
+93	1693	atjaunot	atjaunota
+94	1694	dziļš	dziļa dziļai dziļais dziļajai dziļajam dziļajiem dziļajos dziļajā dziļajām dziļajās dziļam dziļas dziļie dziļiem dziļo dziļos dziļu dziļus dziļā dziļāks dziļām dziļās visdziļākais
+95	1695	bērnudārzs	bērnudārza bērnudārzam bērnudārzi bērnudārziem bērnudārzos bērnudārzu bērnudārzus bērnudārzā
+96	1696	labdarība	labdarībai labdarības labdarību labdarībā
+97	1697	norise	norises norisi
+98	1698	federācija	federācijai federācijas federāciju federācijā federācijām federācijās
+99	1699	lēts	lēta lētai lētais lētajai lētajam lētajiem lētajos lētajā lētajām lētajās lētam lētas lētie lētiem lēto lētos lētu lētus lētā lētāks lētām lētās vislētākais
+100	1700	princips	principi principu

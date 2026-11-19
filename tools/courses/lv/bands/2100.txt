@@ -1,100 +1,100 @@
-1	2001	nokrist	jānokrīt nenokrist nokristu nokrita nokriti nokritis nokritu nokritām nokritīs nokritīsi nokritīsim nokrīt nokrītam nokrītat nokrītot
-2	2002	pase	pasa pasam pasei pases pasi pasu pasus pasē pasēm pasēs
-3	2003	reģistrs	reģistra reģistram reģistri reģistriem reģistros reģistru reģistrus reģistrā
-4	2004	dusmīgs	dusmīga dusmīgai dusmīgais dusmīgajām dusmīgam dusmīgas dusmīgi dusmīgie dusmīgiem dusmīgo dusmīgu dusmīgus dusmīgā
-5	2005	procedūra	procedūras procedūru
-6	2006	kafejnīca	kafejnīcai kafejnīcas kafejnīcu kafejnīcā kafejnīcām kafejnīcās
-7	2007	aptieka	aptiekai aptiekas aptieku aptiekā aptiekām aptiekās
-8	2008	cilvēktiesības	cilvēktiesību
-9	2009	padoties	padodas
-10	2010	sols	sol sola soli soliem solos solu solā
-11	2011	izpildītājs	izpildītāj izpildītāja izpildītājam izpildītāji izpildītājiem izpildītāju izpildītājus
-12	2012	izcelsme	izcelsmes
-13	2013	krēsls	krēsl krēslam krēsli krēsliem krēslos krēslu krēslus krēslā
-14	2014	konteksts	kontekstā
-15	2015	apliecība	apliecībai apliecības apliecību apliecībā apliecībām
-16	2016	lēnām	
-17	2017	trauma	traumas traumu
-18	2018	birža	biržai biržas biržu biržā biržām biržās
-19	2019	reputācija	reputācijai reputācijas reputāciju
-20	2020	ieteicams	ieteicama ieteicamais ieteicamas ieteicami ieteicamā ieteicamās
-21	2021	mode	modes
-22	2022	klimats	klimata
-23	2023	nezinām	
-24	2024	lielums	lielum lieluma lielumam lielumi lielumiem lielumu lielumus lielumā
-25	2025	dibināt	dibina dibiniet dibinot dibinu dibināja dibinājis dibināju dibinājām dibinājāt dibinām dibinās dibināts dibinātu dibināšana dibināšanai dibināšanas dibināšanu dibināšanā jādibina
-26	2026	cepums	cepuma cepumam cepumi cepumiem cepumos cepumu cepumus cepumā
-27	2027	seksuāls	seksuāla seksuālai seksuālais seksuālajā seksuālajām seksuālajās seksuālas seksuālie seksuāliem seksuālo seksuālos seksuālu seksuālus seksuālā seksuālāks seksuālām seksuālās
-28	2028	apavs	apavi apaviem apavos apavu apavus
-29	2029	tēls	tēlu
-30	2030	lelle	lellei lelles lelli lellē lellēm leļļu
-31	2031	glābējs	glābēji
-32	2032	rits	rit rita riti ritu ritā
-33	2033	troksnis	troksni troksnim troksnī trokšņa trokšņi trokšņiem trokšņos trokšņu trokšņus
-34	2034	lūpa	lūpai lūpas lūpu lūpā lūpām lūpās
-35	2035	raksturīgs	raksturīga raksturīgais raksturīgajam raksturīgajiem raksturīgajos raksturīgajā raksturīgajām raksturīgajās raksturīgam raksturīgas raksturīgie raksturīgiem raksturīgo raksturīgos raksturīgu raksturīgus raksturīgā raksturīgām raksturīgās
-36	2036	stratēģija	stratēģiju
-37	2037	industrija	industrijai industrijas industriju industrijā industrijām industrijās
-38	2038	reģistrēt	jāreģistrē nereģistrē nereģistrēja nereģistrēsiet nereģistrēt nereģistrētu nereģistrēšana nereģistrēšanai nereģistrēšanu reģistrē reģistrēja reģistrējam reģistrējami reģistrējamā reģistrējat reģistrējiet reģistrējis reģistrējot reģistrējusi reģistrējušas reģistrējuši reģistrējušās reģistrējām reģistrēs reģistrēsim reģistrētu reģistrēšana reģistrēšanai reģistrēšanas reģistrēšanos reģistrēšanu reģistrēšanā reģistrēšanās
-39	2039	ērts	visērtākais ērta ērtai ērtajā ērtam ērtas ērtiem ērto ērtos ērtu ērtus ērtā ērtāka ērtākai ērtākais ērtākajiem ērtākas ērtāki ērtākiem ērtāko ērtāks ērtāku ērtākus ērtākā ērtākām ērtākās ērtām ērtās
-40	2040	otrdiena	otrdienai otrdienas otrdienu otrdienā otrdienās
-41	2041	palielināties	palielinās
-42	2042	turpinājums	turpinājuma turpinājumam turpinājumi turpinājumu turpinājumā
-43	2043	maksimāli	
-44	2044	izveide	izveidi
-45	2045	mačs	mača
-46	2046	pelēks	pelēka pelēkai pelēkais pelēkajai pelēkajam pelēkajiem pelēkajā pelēkajām pelēkam pelēkas pelēki pelēkie pelēkiem pelēko pelēkos pelēku pelēkā pelēkās
-47	2047	sekretārs	sekretāra
-48	2048	sveikt	jāsveic sveic sveica sveicam sveiciet sveicis sveicot sveicu sveiksim sveikts sveiktu sveikšana sveikšu
-49	2049	fakultāte	fakultātei fakultātes fakultāti fakultātē fakultātēm fakultātēs fakultāšu
-50	2050	mednieks	medniece medniecei medniek mednieka medniekam mednieki medniekiem mednieku medniekus
-51	2051	demokrātisks	demokrātiska demokrātiskai demokrātiskais demokrātiskajai demokrātiskajam demokrātiskajiem demokrātiskajos demokrātiskajā demokrātiskajām demokrātiskajās demokrātiskam demokrātiskas demokrātiskie demokrātiskiem demokrātisko demokrātiskos demokrātisku demokrātiskus demokrātiskā demokrātiskāka demokrātiskākais demokrātiskākiem demokrātiskām demokrātiskās
-52	2052	skumjš	skumja skumjai skumjais skumjam skumji skumjie skumjiem skumjo skumjos skumju skumjus skumjā skumjām skumjās visskumjākais
-53	2053	slodze	slodzei slodzes slodzi slodzē slodzēm slodzēs slodžu
-54	2054	e-pasts	e-pasta e-pastam e-pasti e-pastiem e-pastos e-pastu e-pastus e-pastā
-55	2055	pārdevējs	pārdevēja pārdevējam pārdevēji pārdevējiem pārdevēju pārdevējus
-56	2056	atbildīgs	
-57	2057	īpatsvars	
-58	2058	cūka	cūkai cūku cūkām
-59	2059	grieķis	grieķa grieķi grieķiem grieķiete grieķietei grieķieti grieķietēm grieķim grieķu grieķus
-60	2060	tituls	titulu
-61	2061	virsotne	virsotnei virsotnes virsotni virsotnē virsotnēm virsotnēs virsotņu
-62	2062	zemu	
-63	2063	panika	panikai panikas paniki paniku panikā
-64	2064	ābols	ābola āboli āboliem ābolos ābolu ābolus ābolā
-65	2065	nogādāt	nogādāts
-66	2066	patērētājs	patērētāju
-67	2067	analizēt	analizē analizēja analizējam analizējams analizējiet analizējis analizējot analizēju analizējām analizēs analizēsi analizēsim analizēts analizētu analizēšana jāanalizē neanalizēt
-68	2068	ceturtdiena	ceturtdienai ceturtdienas ceturtdienu ceturtdienā ceturtdienās
-69	2069	sviests	svied svieda sviedi sviedis sviest sviesta sviestam sviestu sviestā sviež
-70	2070	indijs	indij indija indiju indijā
-71	2071	arhitekts	arhitekta arhitektam arhitekte arhitekti arhitektiem arhitektos arhitektu arhitektus
-72	2072	aste	astei astes asti astu astē astēm
-73	2073	novērot	novēroja novērots
-74	2074	eņģelis	eņģeli eņģelim eņģeļa eņģeļi eņģeļiem eņģeļu eņģeļus
-75	2075	igaunis	igauni igauniete igaunietei igaunietes igaunieti igaunietēm igauņi igauņiem igauņu igauņus
-76	2076	iekļaut	iekļauta
-77	2077	nulle	nullei nulles nulli nullēm
-78	2078	helikopters	helikopter helikoptera helikopteram helikopteri helikopteriem helikopteros helikopteru helikopterus helikopterā
-79	2079	vēsts	vēsti vēstis vēstī vēstīm vēstīs
-80	2080	pīt	jāpin pin pina pinam pinis pinot pinu pīts pītu pīšana
-81	2081	vārtsargs	vārtsarga vārtsargam vārtsargi vārtsargiem vārtsargu vārtsargus
-82	2082	piemiņa	piemiņas
-83	2083	tase	taa tasei tases tasi taā
-84	2084	sadursme	sadursmei sadursmes sadursmi sadursmju sadursmē sadursmēm sadursmēs
-85	2085	sakne	saknei saknes sakni saknē saknēm sakņu
-86	2086	lauva	lauvai lauvas lauvu lauvām
-87	2087	vairogs	vairoga vairogam vairogi vairogiem vairogu vairogus vairogā
-88	2088	prāvs	prāva prāvai prāvajām prāvas prāvi prāvo prāvu prāvā prāvāki prāvākus prāvām prāvās
-89	2089	mācēt	jāmāk mācēja mācējis mācēs mācēsi mācēsim mācētu māk mākam mākat māki mākiet māku nemācēt
-90	2090	potenciāls	potenciālu
-91	2091	nez	
-92	2092	pērtiķis	pērtiķa pērtiķi pērtiķiem pērtiķim pērtiķos pērtiķu pērtiķus pērtiķī
-93	2093	grauds	grauda graudi graudiem graudos graudu graudus
-94	2094	spoks	spok spoka spokam spoki spokiem spoku spokus
-95	2095	terorists	terorista teroristam teroriste teroristi teroristiem teroristu teroristus
-96	2096	biezs	bieza biezai biezais biezajiem biezajos biezas biezi biezie bieziem biezo biezos biezu biezus biezā biezāka biezākais biezākajās biezākas biezāks biezāku biezākām biezām biezās
-97	2097	smieklīgs	smieklīga smieklīgais smieklīgajam smieklīgajiem smieklīgas smieklīgiem smieklīgo smieklīgu smieklīgus smieklīgā smieklīgākais smieklīgākas smieklīgāks smieklīgāku vissmieklīgākais
-98	2098	plaušas	plaušu plaušām plaušās
-99	2099	fabrika	fabrikai fabrikas fabriku fabrikā fabrikām fabrikās
-100	2100	iepakojums	iepakojum iepakojuma iepakojumam iepakojumi iepakojumiem iepakojumos iepakojumu iepakojumus iepakojumā
+1	2001	medības	medību
+2	2002	vēstniecība	vēstniecībai vēstniecības vēstniecību vēstniecībā vēstniecībām vēstniecībās
+3	2003	pīt	jāpin nepīt pin pina pinam pinat pini pinis pinot pinu pinām pīs pīsim pīts pītu pīšana pīšot
+4	2004	gulbis	gula gulam gulbi gulbim gulbja gulbji gulbjiem gulbjos gulbju gulbjus gulbī gulu
+5	2005	izcīnīt	izcīnīja
+6	2006	izcelsme	izcelsmes
+7	2007	mīļi	
+8	2008	skolnieks	skolniece skolniecei skolnieces skolnieci skolniecēm skolniek skolnieka skolniekam skolnieki skolniekiem skolniekos skolnieku skolniekus skolniekā skolnieču
+9	2009	mezgls	mezgla mezglam mezgli mezgliem mezglos mezglu mezglus mezglā
+10	2010	šausmas	šausma šausmu šausmām šausmās
+11	2011	sīkums	sīkum sīkuma sīkumam sīkumi sīkumiem sīkumos sīkumu sīkumus sīkumā
+12	2012	audi	audiem audos audu audus
+13	2013	pierast	jāpierod jāpierodot pierada pieradi pieradis pieradu pieradām pieradīs pieradīsi pieradīsiet pieradīsim pieradīšot pieradīšu pierasts pierastu pierašana pierod pierodam pierodi pierodiet pierodot pierodu
+14	2014	naids	naid naida naidam naidi naidos naidu naidā
+15	2015	rīks	rīka rīkam rīki rīkiem rīkos rīku rīkus rīkā
+16	2016	šķērslis	šķēri šķērsli šķērslim šķērslī šķēršļa šķēršļi šķēršļiem šķēršļos šķēršļu šķēršļus
+17	2017	reģistrs	reģistra reģistram reģistri reģistriem reģistros reģistru reģistrus reģistrā
+18	2018	skapis	skapi skapim skapja skapji skapjiem skapjos skapju skapjus skapī
+19	2019	paņēmiens	paņēmiena paņēmienam paņēmieni paņēmieniem paņēmienos paņēmienu paņēmienus paņēmienā
+20	2020	risināt	risina risinātu
+21	2021	cept	cep cepa cepam cepamais cepat cepdams cepi cepiet cepis cepot ceps cepsi cepsiet cepsim cepsit cepts ceptu cepu cepām cepāt cepšana cepšanai cepšanas cepšanu cepšanā cepšot cepšu jācep necept
+22	2022	purvs	pors purs purva purvam purvi purviem purvos purvu purvus purvā
+23	2023	dzelzs	dzelzi dzelzij dzelzī
+24	2024	indijs	indij indija indiju indijā
+25	2025	reputācija	reputācijai reputācijas reputāciju reputācijā
+26	2026	ugunsdzēsējs	ugunsdzēsēja ugunsdzēsējam ugunsdzēsēji ugunsdzēsējiem ugunsdzēsējos ugunsdzēsēju ugunsdzēsējus
+27	2027	moments	moment momenta momentam momenti momentiem momentos momentu momentus momentā
+28	2028	pārdoma	pārdomas pārdomu pārdomā pārdomām pārdomās
+29	2029	ietvert	ietver
+30	2030	dirst	dirs dirsa dirsi dirsis dirstu dirsu dirsām dirsīsi dirsīsim dirš diršana diršat diršot diršu nedirst
+31	2031	fails	fail faila failam faili failiem failos failu failus failā
+32	2032	ierobežojums	ierobežojumiem ierobežojumus
+33	2033	sāls	sāli sālij sālim sālī sālīs sās sāļa sāļi sāļiem sāļos sāļu sāļus
+34	2034	nevainīgs	nevainīga nevainīgai nevainīgais nevainīgajiem nevainīgajos nevainīgajā nevainīgajām nevainīgam nevainīgas nevainīgi nevainīgie nevainīgiem nevainīgo nevainīgos nevainīgu nevainīgus nevainīgā nevainīgāks nevainīgām nevainīgās visnevainīgākais
+35	2035	veļa	veļai veļas veļu veļā
+36	2036	polis	poli poliete polietei polietes polieti polim poļa poļi poļiem poļos poļu poļus
+37	2037	agrs	agra agrai agrais agrajai agrajam agrajiem agrajos agrajā agrajām agrajās agram agras agrie agriem agro agros agru agrā agrāks agrām agrās
+38	2038	barons	baron barona baronam baroni baroniem baronos baronu baronus baronā
+39	2039	dzejnieks	dzejniek dzejnieka dzejniekam dzejnieki dzejniekiem dzejniekos dzejnieku dzejniekus dzejniekā
+40	2040	cipars	cipara ciparam cipari cipariem ciparos ciparu ciparus ciparā
+41	2041	smaidīt	jāsmaida nesmaidīt smaida smaidi smaidiet smaidot smaidošs smaidu smaidām smaidāt smaidīdams smaidīja smaidīji smaidījis smaidīju smaidījām smaidīs smaidīsi smaidīsiet smaidīsim smaidīts smaidītu smaidīšana smaidīšanas smaidīšanu smaidīšu
+42	2042	atbildīgs	
+43	2043	manīt	mana maniet manot manu manām manāms manāt manīdams manīja manīji manījis manīju manījām manījāt manīs manīsi manīsiet manīsim manīts manītu manīšu nemanīt
+44	2044	ciemats	ciemata ciematam ciemati ciematiem ciematos ciematu ciematus ciematā
+45	2045	otrdiena	otrdienai otrdienas otrdienu otrdienā otrdienām otrdienās
+46	2046	izvērtēt	izvērtējot
+47	2047	iekšlietas	iekšlietu iekšlietām iekšlietās
+48	2048	kārtot	jākārto kārto kārtoja kārtojam kārtojams kārtojat kārtoji kārtojiet kārtojis kārtojot kārtoju kārtojām kārtojāt kārtos kārtosi kārtosiet kārtosim kārtots kārtotu kārtošana kārtošu nekārtot
+49	2049	klusu	
+50	2050	pāvests	pāvest pāvesta pāvestam pāvesti pāvestiem pāvestu pāvestus
+51	2051	tituls	titulu
+52	2052	sestais	sesta sestai sestajai sestajam sestajiem sestajos sestajā sestajās sestie sesto sestā sestās
+53	2053	raža	ražai ražas ražu ražā ražām
+54	2054	vergs	verga vergam vergi vergiem vergos vergu vergus
+55	2055	žurka	žurkai žurkas žurks žurku žurkā žurkām žurkās
+56	2056	smaka	smakai smakas smaks smaku smakā smakām
+57	2057	šoseja	šosejas
+58	2058	aizliegums	aizlieguma aizliegumam aizliegumi aizliegumiem aizliegumos aizliegumu aizliegumus aizliegumā
+59	2059	briesmīgi	
+60	2060	zviedrs	zviedra zviedram zviedri zviedriem zviedriete zviedrietei zviedrietes zviedrieti zviedrietēm zviedros zviedru zviedrus
+61	2061	gaume	gaumei gaumes gaumi gaumju gaumē gaumēm gaumēs
+62	2062	murgi	murga murgam murgiem murgos murgs murgu murgus murgā
+63	2063	labvakars	labvakar labvakari labvakaru labvakarus
+64	2064	mēģinājums	
+65	2065	izveide	izveidi
+66	2066	stingrs	stingra stingrai stingrais stingrajai stingrajam stingrajiem stingrajos stingrajā stingrajām stingrajās stingram stingras stingrie stingriem stingro stingros stingru stingrus stingrā stingrāks stingrām stingrās visstingrākais
+67	2067	rotaļlieta	rotaļlietai rotaļlietam rotaļlietas rotaļlietu rotaļlietā rotaļlietām rotaļlietās
+68	2068	sēta	sētai sētas sēti sētos sētu sētā sētām sētās
+69	2069	iznīcināt	
+70	2070	jēdziens	jēdziena jēdzienam jēdzieni jēdzieniem jēdzienos jēdzienu jēdzienus jēdzienā
+71	2071	dēvēt	dēvē
+72	2072	atzinība	atzinībai atzinības atzinību atzinībā
+73	2073	palielināties	palielinās
+74	2074	līcis	līci līcim līcī līča līči līčiem līčos līču līčus
+75	2075	saldējums	saldējuma saldējumam saldējumi saldējumiem saldējumos saldējumu saldējumus saldējumā
+76	2076	pavēlēt	jāpavēl pavēl pavēlam pavēlat pavēli pavēliet pavēlot pavēlošais pavēlošs pavēlu pavēlēdams pavēlēja pavēlēji pavēlējis pavēlēju pavēlējām pavēlējāt pavēlēs pavēlēsi pavēlēsiet pavēlēsit pavēlētais pavēlēts pavēlētu pavēlēšana pavēlēšanu pavēlēšu
+77	2077	pirkums	pirkuma pirkumam pirkumi pirkumiem pirkumos pirkumu pirkumus pirkumā
+78	2078	dievināt	dievina dievini dievinot dievinu dievināja dievināji dievinājis dievināju dievinām dievinās dievināsi dievinātais dievināts dievinātu jādievina
+79	2079	gards	garda gardai gardais gardajai gardajam gardajiem gardajā gardajām gardam gardas gardie gardiem gardo gardos gardu gardus gardā gardāks gardām gardās visgardākais
+80	2080	josla	joslai joslas joslu joslā joslām joslās
+81	2081	šausmīgi	
+82	2082	novietot	jānovieto nenovietot novieto novietoja novietojam novietojams novietojat novietoji novietojiet novietojis novietojot novietoju novietojām novietojāt novietos novietosi novietosiet novietosim novietosit novietots novietotu novietošana novietošot novietošu
+83	2083	lops	lop lopa lopam lopi lopiem lopos lopu lopus lopā
+84	2084	nēsāt	jānēsā nenēsāt nēsā nēsāja nēsājam nēsājams nēsājat nēsāji nēsājiet nēsājis nēsājot nēsāju nēsājām nēsājāt nēsās nēsāsi nēsāsiet nēsāsim nēsāts nēsātu nēsāšana nēsāšu
+85	2085	trauma	traumas traumu
+86	2086	stulbi	
+87	2087	rītdiena	rītdienai rītdienas rītdienu rītdienā
+88	2088	josta	jostai jostas jostu jostā jostām jostās
+89	2089	īsi	
+90	2090	seksīgs	seksīga seksīgai seksīgais seksīgajai seksīgajiem seksīgajā seksīgajām seksīgas seksīgie seksīgiem seksīgo seksīgos seksīgu seksīgus seksīgā seksīgāks seksīgām seksīgās visseksīgākais
+91	2091	dibens	dibena dibenam dibeni dibeniem dibenos dibenu dibenus dibenā
+92	2092	zābaks	zābaka zābakam zābaki zābakiem zābakos zābaku zābakus zābakā
+93	2093	kārtējs	kārtējo
+94	2094	kopa	kopai kopas kopos kopu kopus kopām kopās
+95	2095	lepnums	lepnum lepnuma lepnumam lepnumi lepnumiem lepnumu lepnumus lepnumā
+96	2096	gribēties	gribējās negribas
+97	2097	izpildītājs	izpildītāj izpildītāja izpildītājam izpildītāji izpildītājiem izpildītājos izpildītāju izpildītājus izpildītājā
+98	2098	arhitektūra	arhitektūras
+99	2099	tieslietas	tieslietu
+100	2100	lauzt	jālauž lauz lauza lauzdams lauzi lauziet lauzis lauzošs lauztais lauzts lauztu lauzu lauzām lauzāt lauzīs lauzīsi lauzīsim lauzīšu laušana lauž laužam laužat laužot laužu nelauzt

@@ -1,100 +1,100 @@
-1	1701	procents	procentiem procentu
-2	1702	svērt	is sver sveru svēram svērtu svēru ām
-3	1703	toties	
-4	1704	profesionāls	profesionālu profesionālās
-5	1705	šonakt	
-6	1706	krāpšana	krāpšanai krāpšanas krāpšanu krāpšanā krāpšanām krāpšanās
-7	1707	jebkad	
-8	1708	stāvs	stāvā
-9	1709	iespaidīgs	iespaidīga iespaidīgais iespaidīgajai iespaidīgajiem iespaidīgajām iespaidīgas iespaidīgi iespaidīgiem iespaidīgo iespaidīgos iespaidīgu iespaidīgus iespaidīgā iespaidīgāks iespaidīgām iespaidīgās visiespaidīgākais
-10	1710	pūķis	pūķa pūķi pūķiem pūķim pūķu pūķus pūķī
-11	1711	mediķis	mediķi mediķu
-12	1712	jokot	joko jokoja jokojam jokojat jokoji jokojot jokojām jokojāt jokošanu jokošu nejoko nejokoja nejokojat nejokoji nejokojiet nejokojāt nejokot
-13	1713	opera	operai operas operu operā operām operās
-14	1714	atšķirties	atšķiras
-15	1715	unikāls	unikāla unikālais unikālajam unikālajiem unikālajos unikālajā unikālajām unikālajās unikālam unikālas unikāli unikālo unikālos unikālu unikālus unikālā unikālām unikālās
-16	1716	lēts	lēta lētai lētais lētajai lētajam lētajiem lētajā lētam lētas lētie lētiem lēto lētos lētu lētus lētā lētāka lētākai lētākais lētākajiem lētākajām lētākas lētāki lētākie lētākiem lētāko lētākos lētāks lētāku lētākus lētākā lētākām lētākās lētām lētās vislētāk vislētākais vislētāko vislētākās
-17	1717	kopiena	kopienai kopienas kopienu kopienā kopienām kopienās
-18	1718	brits	brita britam briti britiem britieti britu britus
-19	1719	draudēt	draud draudēja
-20	1720	veltīt	veltīta veltīts
-21	1721	piedzīvot	piedzīvo piedzīvoja
-22	1722	atnākt	atnāca
-23	1723	princips	principi principu
-24	1724	paaudze	paaudzes
-25	1725	gulbis	gula gulam gulbi gulbim gulbja gulbji gulbjiem gulbju gulbjus gulu
-26	1726	turp	
-27	1727	pēcpusdiena	pēcpusdienai pēcpusdienas pēcpusdienu pēcpusdienā pēcpusdienām pēcpusdienās
-28	1728	brīvi	
-29	1729	noziedznieks	noziedzniece noziedznieka noziedzniekam noziedznieki noziedzniekiem noziedznieku noziedzniekus
-30	1730	tūrists	tūrista tūristam tūristei tūristi tūristiem tūristu tūristus
-31	1731	peļņa	peļņu
-32	1732	nabags	nabadzi nabaga nabagajiem nabagam nabagi nabagie nabagiem nabago nabagos nabagu nabagus nabagāki nabagāks nabagākus nabagās
-33	1733	iespaids	iespaidu
-34	1734	maize	maiu maizei maizes maizi maizē maiā
-35	1735	aptauja	aptaujas
-36	1736	motors	motor motora motoram motori motoriem motoru motorus
-37	1737	jebkas	jebko
-38	1738	vanna	vannai vannas vannu vannā vannām vannās
-39	1739	aizbraukt	aizbrauca
-40	1740	pagalms	pagalma pagalmam pagalmi pagalmiem pagalmos pagalmu pagalmus pagalmā
-41	1741	cerams	
-42	1742	rets	reta retais retajai retajam retajiem retajos retajā retajām retajās retam retas retie retiem reto retos retu retus retā retāka retākais retākas retāki retāks retāku retākā retākās retām retās
-43	1743	jausma	jausmas
-44	1744	mierīgs	mierīga mierīgai mierīgais mierīgajai mierīgajiem mierīgajā mierīgam mierīgas mierīgie mierīgiem mierīgo mierīgos mierīgu mierīgus mierīgā mierīgāks mierīgām mierīgās
-45	1745	īstenībā	
-46	1746	lemt	lemts
-47	1747	produkcija	produkcijai produkcijas produkciju produkcijā
-48	1748	baža	bažas
-49	1749	gatavība	gatavībai gatavības gatavību gatavībā
-50	1750	pieejamība	pieejamībai pieejamības pieejamību pieejamībā
-51	1751	demokrātija	demokrātijai demokrātijas demokrātiju demokrātijā demokrātijām demokrātijās
-52	1752	garša	garšai garšas garšu garšā garšām garšās
-53	1753	konflikts	konflikta konflikti konfliktu konfliktus
-54	1754	aplis	apli aplim aplī apļa apļi apļiem apļos apļu apļus
-55	1755	pavēstīt	pavēstīja
-56	1756	briesmīgs	briesmīga briesmīgai briesmīgais briesmīgajam briesmīgajiem briesmīgajā briesmīgajām briesmīgas briesmīgie briesmīgo briesmīgos briesmīgu briesmīgus briesmīgā briesmīgāks briesmīgām briesmīgās visbriesmīgākais
-57	1757	izklaide	izklaides
-58	1758	futbolists	futbolista futbolistam futboliste futbolisti futbolistiem futbolistu futbolistus
-59	1759	korupcija	korupcijai korupcijas korupciju korupcijā
-60	1760	spārns	spārna spārnam spārni spārniem spārnos spārnu spārnus spārnā
-61	1761	allaž	
-62	1762	plaši	
-63	1763	audzēt	audzē audzēja audzējam audzējamas audzējat audzēji audzējis audzējot audzēju audzējusi audzējuši audzēs audzēsi audzēta audzētas audzēti audzētiem audzētos audzēts audzētu audzētus audzētā audzētām audzētās audzēšana audzēšanai audzēšanas audzēšanu audzēšanā audzēšu jāaudzē
-64	1764	peldēt	jāpeld nepeld nepeldi nepeldiet nepeldēs nepeldēšu peld peldam peldams peldi peldiet peldot peldošais peldošas peldošiem peldošu peldošā peldošām peldošās peldu peldēja peldējis peldēju peldējuši peldējām peldēs peldēsi peldētos peldētu peldēšana peldēšanai peldēšanas peldēšanu peldēšanā peldēšu
-65	1765	acīmredzot	
-66	1766	kļūdīties	jākļūdās kļūdies kļūdos kļūdoties kļūdāmies kļūdās kļūdāties kļūdījies kļūdījos kļūdījāmies kļūdījās kļūdījāties kļūdīsies kļūdīsieties kļūdīsimies kļūdītos kļūdīšanās kļūdīšos nekļūdīties
-67	1767	netālu	
-68	1768	mazgāt	jāmazgā mazgā mazgāja mazgājam mazgājama mazgājamas mazgājamiem mazgājamos mazgājamā mazgājamām mazgājamās mazgājat mazgājiet mazgājis mazgājot mazgājošu mazgāju mazgājām mazgās mazgāsim mazgāta mazgātas mazgāti mazgātos mazgāts mazgātu mazgāšana mazgāšanai mazgāšanas mazgāšanos mazgāšanu mazgāšu nemazgā nemazgāja nemazgāji nemazgātu nemazgātus nemazgātām nemazgāšu
-69	1769	vēders	vēdera vēderam vēderi vēderiem vēderu vēderā
-70	1770	ierobežot	ierobežotas
-71	1771	vainot	jāvaino nevaino nevainoja nevainoji nevainojiet nevainos nevainosi nevainosiet nevainotu nevainošu vaino vainoja vainojam vainojama vainojamas vainojami vainojams vainojat vainojiet vainojot vainoju vainojušas vainos vainosim vainota vainoti vainots vainotu vainošana vainošanas vainošu
-72	1772	kāpnes	kāpnēm kāpnēs kāpņu
-73	1773	dalīt	dala dali daliet dalot dalu dalām dalīja dalīji dalījis dalīju dalījušās dalīs dalīsiet dalīsim dalīta dalītais dalītas dalīti dalītos dalīts dalītu dalītā dalītām dalītās dalīšana dalīšanas dalīšanos dalīšanu jādala nedala nedalot nedalām nedalāma nedalāms nedalīsim nedalīt nedalīta nedalītos nedalītu
-74	1774	kosmoss	kosmos kosmosa kosmosam kosmosu kosmosā
-75	1775	federāls	federāla federālai federālais federālajai federālajam federālajiem federālajā federālajām federālajās federālie federālo federālos federālā federālām federālās
-76	1776	reģionāls	reģionālā reģionālās
-77	1777	basketbolists	basketbolista basketbolistam basketboliste basketbolisti basketbolistiem basketbolistos basketbolistu basketbolistus
-78	1778	lietotne	lietotnei lietotnes lietotni lietotnē lietotnēm lietotnēs lietotņu
-79	1779	siltums	siltuma siltumam siltumu siltumā
-80	1780	robots	robos robot robota robotam roboti robotiem robotu robotus
-81	1781	jautrs	jautra jautrai jautrais jautrajiem jautrajā jautrajām jautram jautras jautrie jautriem jautro jautru jautrus jautrā jautrāk jautrāka jautrākais jautrākajiem jautrākajos jautrākajām jautrāki jautrāks jautrāku jautrākā jautrās visjautrāko
-82	1782	ala	alai alas alu alā alām alās
-83	1783	grēks	grēka grēki grēkiem grēkos grēku grēkus grēkā
-84	1784	apmierināts	apmierināta apmierinātam apmierinātas apmierināti apmierinātiem apmierinātu
-85	1785	rītā	
-86	1786	rakt	jārok raka rakdams raki raksi raksiet raksim raktu raku rakām rakšana roc rociet rok rokam rokat rokot roku
-87	1787	sankcija	sankcijai sankcijas sankciju sankcijā sankcijām sankcijās
-88	1788	velosipēds	velosipēda velosipēdam velosipēdi velosipēdiem velosipēdu velosipēdus
-89	1789	uzvalks	uzvalk uzvalka uzvalkam uzvalki uzvalkiem uzvalkos uzvalku uzvalkus uzvalkā
-90	1790	būvēt	būvē būvēja būvējam būvējat būvējis būvējot būvēju būvējām būvējāt būvēs būvēsim būvēts būvētu būvēšana būvēšanai būvēšanas būvēšanu būvēšanā būvēšot jābūvē
-91	1791	kritērijs	kritērij kritērija kritērijam kritēriji kritērijiem kritērijos kritēriju kritērijus kritērijā
-92	1792	dzeja	dzejas dzeju dzejā
-93	1793	ieva	ievai ievas ievu ievā
-94	1794	lielākoties	
-95	1795	monēta	monētai monētas monētu monētā monētām monētās
-96	1796	rūpēties	rūpējas
-97	1797	taka	takai takam takas takos taku takā takām takās
-98	1798	duša	dušas dušu dušā dušām dušās
-99	1799	stabils	stabila stabilai stabilais stabilam stabilas stabili stabiliem stabilo stabilu stabilus stabilā stabilāks stabilām stabilās
-100	1800	glāze	glāzei glāzes glāzi glāzē glāzēm glāzēs glāžu
+1	1701	satikties	satiekas
+2	1702	dzintars	dzintar dzintara dzintaram dzintari dzintariem dzintaros dzintaru dzintarus dzintarā zītars
+3	1703	brits	brit brita britam briti britiem britieti britos britu britus
+4	1704	labklājība	labklājībai labklājības labklājību labklājībā
+5	1705	noslēgt	noslēgts
+6	1706	kartupelis	kartupeli kartupelim kartupelī kartupeļa kartupeļi kartupeļiem kartupeļos kartupeļu kartupeļus
+7	1707	apstākļi	
+8	1708	vēlēt	jāvēl jāvēlē nevēlēt vēlam vēlamo vēlams vēlat vēli vēliet vēlot vēlošs vēlē vēlēja vēlējam vēlējat vēlējis vēlēju vēlējām vēlējāt vēlēs vēlēsi vēlēsiet vēlēsim vēlēts vēlētu vēlēšana vēlēšu
+9	1709	stars	star stara staram staras stari stariem staros staru starus starā starām
+10	1710	vienoties	vienojās
+11	1711	kļūdīties	jākļūdās kļūdies kļūdos kļūdoties kļūdāmies kļūdās kļūdāties kļūdīdamies kļūdījies kļūdījos kļūdījāmies kļūdījās kļūdījāties kļūdīsies kļūdīsieties kļūdīsimies kļūdītos kļūdīšanās kļūdīšos nekļūdīties
+12	1712	pase	pasa pasam pasei pases pasi pasiem pasu pasus pasā pasē pasēm pasēs
+13	1713	cigarete	cigaretei cigaretes cigareti cigaretē cigaretēm cigaretēs cigarešu
+14	1714	rītā	rîtâ
+15	1715	ala	alai alas aliem alu alā alām alās
+16	1716	rietumi	rietuma rietumiem rietumos rietums rietumus
+17	1717	bīstami	
+18	1718	zobens	zoben zobena zobenam zobeni zobeniem zobenos zobenu zobenus zobenā
+19	1719	dusmas	dusmu dusmām dusmās
+20	1720	uzvedība	uzvedībai uzvedības uzvedību uzvedībā uzvedībām
+21	1721	medicīnisks	medicīniska medicīniskai medicīniskais medicīniskajai medicīniskajam medicīniskajiem medicīniskajos medicīniskajā medicīniskajām medicīniskajās medicīniskam medicīniskas medicīniskie medicīniskiem medicīnisko medicīniskos medicīnisku medicīniskus medicīniskā medicīniskām medicīniskās
+22	1722	distance	distancei distances distanci distancē distancēm distancēs distanču
+23	1723	dzeltens	dzeltena dzeltenai dzeltenais dzeltenajai dzeltenajam dzeltenajiem dzeltenajos dzeltenajā dzeltenajām dzeltenajās dzeltenam dzeltenas dzelteni dzeltenie dzelteniem dzelteno dzeltenos dzeltenu dzeltenus dzeltenā dzeltenāks dzeltenām dzeltenās dzeltēns
+24	1724	slava	slavai slavas slave slavu slavā
+25	1725	raksturot	jāraksturo neraksturot raksturo raksturodams raksturoja raksturojam raksturojams raksturojat raksturojiet raksturojis raksturojot raksturojošais raksturojošs raksturoju raksturojāt raksturos raksturosim raksturotais raksturots raksturotu raksturošana raksturošanai raksturošanas raksturošanā raksturošu
+26	1726	tīri	
+27	1727	visums	visum visuma visumam visumi visumiem visumu visumus visumā
+28	1728	kaps	kap kapa kapam kapiem kapos kapu kapus kapā
+29	1729	ilgtermiņš	ilgtermiņa ilgtermiņā
+30	1730	nez	
+31	1731	bruņots	bruņota bruņotais bruņotajam bruņotajiem bruņotajos bruņotajā bruņotajām bruņotam bruņotas bruņoti bruņotie bruņotiem bruņoto bruņotos bruņotu bruņotus bruņotā bruņotām bruņotās
+32	1732	fizika	fizikai fizikas fiziki fiziku fizikā
+33	1733	ķīmija	ķīmijai ķīmijas ķīmiju ķīmijā
+34	1734	divdesmit	
+35	1735	nedz	
+36	1736	piezvanīt	piezvanīja
+37	1737	investīcija	investīciju
+38	1738	mednieks	medniece medniecei mednieces mednieci medniecēm medniek mednieka medniekam mednieki medniekiem medniekos mednieku medniekus mednieču
+39	1739	balstīties	balstoties balstās
+40	1740	ērti	
+41	1741	pacelt	paceļ pacēla
+42	1742	gaišs	gaiša gaišai gaišais gaišajai gaišajam gaišajiem gaišajos gaišajā gaišajām gaišajās gaišam gaišas gaišie gaišiem gaišo gaišos gaišu gaišus gaišā gaišāks gaišām gaišās visgaišākais
+43	1743	sula	sulai sulas sulu sulus sulā sulām sulās
+44	1744	ragana	raganai raganas raganu raganā raganām
+45	1745	taka	takai takam takas takos taku takā takām takās
+46	1746	apliecība	apliecībai apliecības apliecību apliecībā apliecībām apliecībās
+47	1747	konflikts	konflikta konflikti konfliktu konfliktus
+48	1748	kosmoss	kosmos kosmosa kosmosam kosmosi kosmosu kosmosā
+49	1749	netīrs	netīra netīrai netīrais netīrajai netīrajam netīrajiem netīrajos netīrajā netīrajām netīrajās netīram netīras netīri netīrie netīriem netīro netīros netīru netīrus netīrā netīrāks netīrām netīrās visnetīrākais
+50	1750	vēlētājs	vēlētāj vēlētāja vēlētājai vēlētājam vēlētājas vēlētāji vēlētājiem vēlētājos vēlētāju vēlētājus vēlētājā
+51	1751	dārzenis	dārzeni dārzenim dārzenī dārzeņa dārzeņi dārzeņiem dārzeņos dārzeņu dārzeņus
+52	1752	savulaik	
+53	1753	vēsts	vēsti vēstij vēstis vēstu vēstī vēstīm vēstīs
+54	1754	rūpēties	rūpējas
+55	1755	resns	resna resnais resnajai resnajam resnajiem resnajos resnajā resnajām resnam resnas resni resnie resniem resno resnos resnu resnus resnā resnāks resnām resnās visresnākais
+56	1756	neatkarīgi	
+57	1757	tumsa	tumsā
+58	1758	draudzīgs	draudzīga draudzīgai draudzīgais draudzīgajai draudzīgajam draudzīgajiem draudzīgajos draudzīgajā draudzīgajām draudzīgajās draudzīgam draudzīgas draudzīgie draudzīgiem draudzīgo draudzīgos draudzīgu draudzīgus draudzīgā draudzīgāks draudzīgām draudzīgās visdraudzīgākais
+59	1759	gādāt	gādā gādādams gādāja gādājam gādājat gādāji gādājiet gādājis gādājot gādājošais gādāju gādājām gādājāt gādās gādāsi gādāsim gādātais gādāts gādātu gādāšana gādāšanai gādāšanas gādāšanu gādāšot gādāšu jāgādā jāgādājot
+60	1760	drosme	drosmei drosmes drosmi drosmē
+61	1761	tonna	tonnai tonnas tonnu tonnā tonnām tonnās
+62	1762	vācietis	vāciete vācietei vācietes vācieti vācietim vācietēm vācietī vācieša vācieši vāciešiem vāciešos vāciešu vāciešus
+63	1763	efekts	efekta efektam efekti efektiem efektos efektu efektus efektā
+64	1764	mode	modes
+65	1765	sakas	sakam saku sakā sakām sakās
+66	1766	pulks	pulk pulka pulkam pulki pulkiem pulkos pulku pulkus pulkā
+67	1767	ļaunums	ļaunuma ļaunumam ļaunumi ļaunumiem ļaunumos ļaunumu ļaunumus ļaunumā
+68	1768	krāpšana	krāpšanai krāpšanas krāpšanu krāpšanā krāpšanām krāpšanās
+69	1769	nags	naga nagam nagi nagiem nagos nagu nagus nagā
+70	1770	aptauja	aptaujas
+71	1771	agri	
+72	1772	princese	princesei princeses princesi princesē princesēm princesēs princešu
+73	1773	putekļi	putekļiem putekļos putekļu putekļus
+74	1774	pastāvīgs	pastāvīga pastāvīgai pastāvīgais pastāvīgajai pastāvīgajam pastāvīgajiem pastāvīgajos pastāvīgajā pastāvīgajām pastāvīgajās pastāvīgam pastāvīgas pastāvīgie pastāvīgiem pastāvīgo pastāvīgos pastāvīgu pastāvīgus pastāvīgā pastāvīgāks pastāvīgām pastāvīgās
+75	1775	neatkarīgs	neatkarīga neatkarīgai neatkarīgais neatkarīgajai neatkarīgajam neatkarīgajiem neatkarīgajos neatkarīgajā neatkarīgajām neatkarīgajās neatkarīgam neatkarīgas neatkarīgie neatkarīgiem neatkarīgo neatkarīgos neatkarīgu neatkarīgus neatkarīgā neatkarīgāks neatkarīgām neatkarīgās
+76	1776	paskaidrot	paskaidroja
+77	1777	aparāts	aparāt aparāta aparātam aparāti aparātiem aparātos aparātu aparātus aparātā
+78	1778	vista	vistai vistas vistu vistām vistās
+79	1779	patēriņš	patēriņa
+80	1780	kūka	kūkai kūkas kūku kūkā kūkām kūkās
+81	1781	sūdzība	sūdzībai sūdzības sūdzību sūdzībā sūdzībām sūdzībās
+82	1782	klints	klinti klintij klintis klintī klintīm klintīs klinšu
+83	1783	pieļaut	nepieļautu pieļauj
+84	1784	tendence	tendences
+85	1785	stabils	stabila stabilai stabilais stabilajai stabilajam stabilajiem stabilajā stabilajām stabilajās stabilam stabilas stabili stabilie stabiliem stabilo stabilos stabilu stabilus stabilā stabilāks stabilām stabilās visstabilākais
+86	1786	arlabunakti	
+87	1787	ķēde	ķēdei ķēdes ķēdi ķēdē ķēdēm ķēdēs ķēžu šķēde
+88	1788	dārgums	dārgum dārguma dārgumam dārgumi dārgumiem dārgumos dārgumu dārgumus
+89	1789	secināt	jāsecina secina secināja secināts
+90	1790	mūžīgs	mūžīga mūžīgai mūžīgais mūžīgajai mūžīgajam mūžīgajiem mūžīgajos mūžīgajā mūžīgajām mūžīgajās mūžīgam mūžīgas mūžīgie mūžīgiem mūžīgo mūžīgos mūžīgu mūžīgus mūžīgā mūžīgāks mūžīgām mūžīgās
+91	1791	ziedot	jāziedo neziedot ziedo ziedodams ziedoja ziedojam ziedojat ziedoji ziedojiet ziedojis ziedojot ziedoju ziedojām ziedojāt ziedos ziedosi ziedosiet ziedosim ziedots ziedotu ziedošana ziedošot ziedošu
+92	1792	būtne	būtnei būtnes būtni būtnē būtnēm būtnēs būtņu
+93	1793	dzimta	dzimtai dzimtas dzimtu dzimtā dzimtām dzimtās
+94	1794	aizsargs	aizsardze aizsardzēm aizsardzēs aizsardžu aizsarg aizsarga aizsargam aizsargi aizsargiem aizsargu aizsargus aizsargā
+95	1795	pietura	pieturai pieturam pieturas pieturi pieturos pieturu pieturā pieturām pieturās
+96	1796	lelle	lellei lelles lelli lellē lellēm lellēs leļļu
+97	1797	aizturēt	aizturēja aizturēti aizturēts
+98	1798	elektrisks	elektriska elektriskai elektriskais elektriskajai elektriskajam elektriskajiem elektriskajos elektriskajā elektriskajām elektriskajās elektriskas elektriski elektriskie elektriskiem elektrisko elektriskos elektrisku elektriskus elektriskā elektriskām elektriskās
+99	1799	vienot	jāvieno vieno vienoja vienojam vienojis vienojot vienojoša vienojošai vienojošais vienojošajai vienojošajam vienojošajiem vienojošas vienojoši vienojošie vienojošiem vienojošo vienojošos vienojošs vienojošu vienojošus vienojošā vienojošām vienojošās vienoju vienosim vienotais vienots vienotu vienotāks vienošanai vienošanas vienošanu vienošanā vienošanām
+100	1800	kopiena	kopienai kopienas kopienu kopienā kopienām kopienās

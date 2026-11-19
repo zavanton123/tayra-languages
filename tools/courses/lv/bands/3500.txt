@@ -1,100 +1,100 @@
-1	3401	turība	turības turību
-2	3402	lipīgs	lipīga lipīgais lipīgas lipīgi lipīgie lipīgiem lipīgu lipīgā lipīgāka lipīgāko lipīgāks lipīgākā lipīgām
-3	3403	vemt	vem vemj vemsi vemšana vemšu vēma vēmi vēmis vēmu
-4	3404	kliedziens	kliedzienam kliedzieni kliedzieniem kliedzienu kliedzienus
-5	3405	deserts	deserta desertam deserti desertiem desertu desertus desertā
-6	3406	tautietis	tautieti tautietim tautieša tautieši tautiešiem tautiešu tautiešus
-7	3407	simbolisks	simboliska simboliskais simboliskajam simboliskajā simboliskajām simboliskajās simboliskas simbolisko simboliskos simbolisku simboliskus simboliskā simboliskāks simboliskās
-8	3408	rubīns	rubīna rubīnam rubīni rubīniem rubīnu rubīnus
-9	3409	mirstība	mirstībai mirstības mirstību
-10	3410	filozofs	filozofa filozofe filozofi filozofiem filozofu filozofē
-11	3411	arhibīskaps	arhibīskapa arhibīskapam arhibīskapu
-12	3412	sperma	spermas spermu
-13	3413	nodevējs	
-14	3414	pareizāk	
-15	3415	piķis	piķa piķi piķim
-16	3416	sējums	sējumi sējumiem sējumos sējumu sējumus
-17	3417	ceļvedis	ceļvedi ceļvedī ceļveža ceļvežos ceļvežu
-18	3418	fenomens	fenomena fenomenam fenomeni fenomeniem fenomenu fenomenus
-19	3419	bruņurupucis	bruņurupuci bruņurupucim bruņurupuči bruņurupučiem bruņurupuču bruņurupučus
-20	3420	gleznotāja	gleznotājam gleznotājas gleznotāji gleznotājiem gleznotājos gleznotājs gleznotāju gleznotājus
-21	3421	bilst	bilda bildi bildis bildu bildīs bildīšu bilstot jābilst
-22	3422	kaklarota	kaklarotai kaklarotas kaklarotu
-23	3423	krējums	krējuma krējumam krējumu
-24	3424	vienlīdzība	vienlīdzībai vienlīdzības vienlīdzību
-25	3425	dusēt	dus dusam dusi dusiet dusoša dusošais dusošas dusošā dusu dusēja dusēs jādus nedus nedusēs
-26	3426	čakarēt	čakarē čakarējat čakarēju čakarēsim
-27	3427	sfēra	sfērā
-28	3428	strupceļš	strupceļa strupceļos strupceļu strupceļā
-29	3429	kopprodukts	kopprodukta
-30	3430	asinsspiediens	asinsspiediena asinsspiedienu
-31	3431	zemūdens	
-32	3432	bezjēdzīgs	bezjēdzīga bezjēdzīgais bezjēdzīgajiem bezjēdzīgajām bezjēdzīgas bezjēdzīgiem bezjēdzīgo bezjēdzīgu bezjēdzīgus bezjēdzīgā bezjēdzīgām visbezjēdzīgākā
-33	3433	klepus	klepi klepu klepum
-34	3434	sērs	sēra sēru
-35	3435	prombūtne	prombūtnes prombūtni prombūtnē prombūtņu
-36	3436	pēkšņs	pēkšņa pēkšņais pēkšņajām pēkšņas pēkšņie pēkšņiem pēkšņo pēkšņos pēkšņu pēkšņā pēkšņām pēkšņās
-37	3437	pēcpuse	pēcpusei pēcpuses pēcpusi pēcpusē pēcpusēm
-38	3438	svītra	svītras svītru svītrām svītrās
-39	3439	rokasgrāmata	rokasgrāmatas rokasgrāmatu rokasgrāmatā rokasgrāmatām
-40	3440	bēbis	bēbi bēbim bēbja bēbji bēbjiem bēbju bēbjus
-41	3441	mazākums	mazākuma mazākumam mazākumu mazākumā
-42	3442	algotnis	algotni algotnim algotņa algotņi algotņiem algotņu algotņus
-43	3443	rūpīgs	rūpīga rūpīgai rūpīgam rūpīgas rūpīgie rūpīgiem rūpīgo rūpīgu rūpīgus rūpīgā rūpīgāka rūpīgāku
-44	3444	līkums	līkuma līkumam līkumiem līkumos līkumu līkumus līkumā
-45	3445	latīniete	latīņu
-46	3446	paraksts	
-47	3447	žests	žestam žesti žestiem žestu žestus
-48	3448	caurspīdīgs	caurspīdīga caurspīdīgai caurspīdīgajām caurspīdīgam caurspīdīgas caurspīdīgie caurspīdīgiem caurspīdīgo caurspīdīgos caurspīdīgu caurspīdīgus caurspīdīgā caurspīdīgāka caurspīdīgākam caurspīdīgāki caurspīdīgāks caurspīdīgāku caurspīdīgākām caurspīdīgās
-49	3449	pingvīns	pingvīna pingvīnam pingvīni pingvīniem pingvīnu pingvīnus
-50	3450	estrāde	estrādē
-51	3451	nomods	nomodā
-52	3452	vārdnīca	vārdnīcas vārdnīcu vārdnīcā vārdnīcām
-53	3453	liellops	liellopa liellopam liellopi liellopiem liellopu liellopus
-54	3454	draudzīgāks	draudzīgais draudzīgāk draudzīgāka draudzīgākai draudzīgākais draudzīgākajiem draudzīgākajām draudzīgākas draudzīgāki draudzīgākie draudzīgākiem draudzīgāko draudzīgāku draudzīgākus draudzīgākā draudzīgākām draudzīgākās visdraudzīgākais
-55	3455	enkurs	enkura enkuri enkuru enkurus
-56	3456	mols	mola molam moli molu molā
-57	3457	dāsns	dāsna dāsnais dāsnajam dāsnajiem dāsnajām dāsnas dāsniem dāsno dāsnu dāsnus dāsnā dāsnāk dāsnāka dāsnākas dāsnāki dāsnākie dāsnāko dāsnāks dāsnāku dāsnām dāsnās
-58	3458	žīds	žīd žīda žīdam žīdi žīdiem žīdu žīdus
-59	3459	vienmērīgs	vienmērīga vienmērīgas vienmērīgi vienmērīgu
-60	3460	trijnieks	trijnieka trijniekam trijnieki trijniekos trijnieku trijniekā
-61	3461	draudzīgi	
-62	3462	veidojums	veidojuma veidojumam veidojumi veidojumiem veidojumu veidojumus
-63	3463	iekšēji	
-64	3464	izrunāt	
-65	3465	nedzīvs	nedzīva nedzīvas nedzīviem nedzīvo nedzīvos nedzīvā
-66	3466	neprātīgs	neprātīga neprātīgais neprātīgajiem neprātīgajā neprātīgas neprātīgiem neprātīgo neprātīgu neprātīgā neprātīgāku neprātīgām neprātīgās
-67	3467	atriebt	atrieb atriebi atriebjot atriebsi atriebsim atriebsit atriebta atriebti atriebtos atriebts atriebtu atriebšu jāatriebj
-68	3468	lesbiete	lesbietes lesbieti lesbietēm lesbiešu
-69	3469	labība	labības labību
-70	3470	alumīnijs	alumīnija alumīniju
-71	3471	rublis	rubli rubļa rubļi rubļiem rubļu rubļus
-72	3472	mīļums	mīļum mīļuma mīļumam mīļumu
-73	3473	morāle	morāles
-74	3474	sarunāt	
-75	3475	mandarīns	mandarīna mandarīnam mandarīni mandarīniem mandarīnu mandarīnus mandarīnā
-76	3476	stirna	stirnas stirnu
-77	3477	lāpsta	lāpstas lāpstiņa lāpstiņas lāpstiņu lāpstiņām lāpstu
-78	3478	apgādāt	apgādā apgādāja apgādājam apgādājot apgādāju apgādās apgādāts apgādātu apgādāšana jāapgādā
-79	3479	ērtība	ērtībai ērtības ērtību ērtībām ērtībās
-80	3480	zinība	zinības zinību zinībās
-81	3481	siltumnīca	siltumnīcai siltumnīcas siltumnīcu siltumnīcā siltumnīcām siltumnīcās
-82	3482	tirgoties	tirgojamies tirgojas tirgojaties tirgojies tirgojos tirgojās tirgosimies tirgotos tirgošanās
-83	3483	gabaliņš	gabaliņos
-84	3484	sīvs	sīva sīvais sīvajā sīvas sīvi sīvo sīvu sīvus sīvā sīvām
-85	3485	pārdzīvojums	pārdzīvojuma pārdzīvojumam pārdzīvojumi pārdzīvojumiem pārdzīvojumos pārdzīvojumu pārdzīvojumus
-86	3486	kāts	kāta kātam kāti kātiem kātos kātu kātā
-87	3487	paruna	parunas parunu parunā parunām parunās
-88	3488	pieklājīgs	ais
-89	3489	jūds	jūda jūdi jūdiem jūdu
-90	3490	dzīvesbiedre	dzīvesbiedra dzīvesbiedram dzīvesbiedrei dzīvesbiedres dzīvesbiedri dzīvesbiedriem dzīvesbiedrs dzīvesbiedru dzīvesbiedrus
-91	3491	krauklis	kraukli krauklim kraukļa kraukļi kraukļu kraukļus
-92	3492	aprēķins	aprēķinu
-93	3493	retums	retuma retumi retumu
-94	3494	palma	palmas palmu palmā palmām
-95	3495	viesmīlis	viesmīle viesmīlei viesmīles viesmīli viesmīlim viesmīlēm viesmīļa viesmīļi viesmīļiem viesmīļu viesmīļus
-96	3496	kadastrāls	kadastrālo kadastrālās
-97	3497	sāns	sāniem
-98	3498	kamīns	kamīna kamīniem kamīnu kamīnus kamīnā
-99	3499	slota	slotas slotu
-100	3500	zīds	zīda zīdu zīdā
+1	3401	kategoriski	
+2	3402	laizīt	jālaiza laiza laizi laiziet laizot laizu laizāt laizīja laizīju laizījām laizīs laizīsiet laizīts laizītu laizīšana nelaizīt
+3	3403	ķirurģija	ķirurģijai ķirurģijas ķirurģiju ķirurģijā
+4	3404	aukla	auklai auklas auklu auklā auklām
+5	3405	tievs	tieva tievais tievajai tievajam tievajiem tievajos tievajā tievajām tievajās tievam tievas tievi tievie tieviem tievo tievos tievu tievus tievā tievāks tievām tievās
+6	3406	turība	turībai turības turību turībā
+7	3407	sāns	sāniem
+8	3408	vadīties	vadoties
+9	3409	puisēns	puisēn puisēna puisēnam puisēni puisēniem puisēnu puisēnus puisēnā
+10	3410	bura	burai buras buru burā burām burās
+11	3411	metafora	metaforas metaforu metaforā metaforām metaforās
+12	3412	rubīns	rubīna rubīnam rubīni rubīniem rubīnu rubīnus
+13	3413	mazmeita	mazmeitai mazmeitas mazmeitu
+14	3414	redzamība	redzamībai redzamības redzamību redzamībā
+15	3415	elastīgs	elastīga elastīgai elastīgais elastīgajai elastīgajam elastīgajiem elastīgajām elastīgam elastīgas elastīgi elastīgie elastīgiem elastīgo elastīgos elastīgu elastīgus elastīgā elastīgāks elastīgām elastīgās viselastīgākais
+16	3416	preparāts	preparāta preparātam preparāti preparātiem preparātos preparātu preparātus preparātā
+17	3417	āre	āa ārei āres āri āru ārēm ārēs āā
+18	3418	tenisists	tenisista tenisistam tenisiste tenisisti tenisistiem tenisistu tenisistus
+19	3419	apsūdzēt	apsūdzētais
+20	3420	klēpis	klēpī
+21	3421	makaroni	makarona makaroniem makaronos makarons makaronu makaronus
+22	3422	mugursoma	mugursomai mugursomas mugursomu mugursomā mugursomām mugursomās
+23	3423	mandarīns	mandarīna mandarīnam mandarīni mandarīniem mandarīnu mandarīnus mandarīnā
+24	3424	gardi	
+25	3425	iekšēji	
+26	3426	izpausme	izpausmi
+27	3427	darbarīks	darbarīka darbarīkam darbarīki darbarīkiem darbarīkos darbarīku darbarīkus
+28	3428	medikaments	medikamenti
+29	3429	izrunāt	
+30	3430	sīvs	sīva sīvai sīvais sīvajai sīvajam sīvajā sīvajās sīvam sīvas sīvi sīvie sīviem sīvo sīvu sīvus sīvā sīvāks sīvām sīvās
+31	3431	pedālis	pedāli pedālim pedālī pedāļa pedāļi pedāļiem pedāļos pedāļu pedāļus
+32	3432	slinkums	slinkuma slinkumam slinkumu slinkumā
+33	3433	epidēmija	epidēmijai epidēmijas epidēmiju epidēmijā epidēmijām epidēmijās
+34	3434	mērķtiecīgi	
+35	3435	lesbiete	lesbietei lesbietes lesbieti lesbietēm lesbiešu
+36	3436	iespaidot	iespaido
+37	3437	spilgti	
+38	3438	imigrācija	imigrācijai imigrācijas imigrāciju imigrācijā
+39	3439	neprātīgs	neprātīga neprātīgais neprātīgajam neprātīgajiem neprātīgajā neprātīgajām neprātīgam neprātīgas neprātīgie neprātīgiem neprātīgo neprātīgos neprātīgu neprātīgus neprātīgā neprātīgām neprātīgās visneprātīgākais
+40	3440	kurināt	jākurina kurina kurini kurinot kurinošs kurinu kurināja kurinājis kurināju kurinājām kurinām kurināmais kurinās kurināsim kurināsit kurināts kurinātu kurināšana kurināšanai kurināšanas kurināšanu kurināšanā kurināšu nekurināt
+41	3441	elks	elk elka elkam elki elkiem elkos elku elkus
+42	3442	ziņkārīgs	ziņkārīga ziņkārīgai ziņkārīgais ziņkārīgajam ziņkārīgajiem ziņkārīgam ziņkārīgas ziņkārīgi ziņkārīgie ziņkārīgiem ziņkārīgo ziņkārīgos ziņkārīgu ziņkārīgus ziņkārīgā ziņkārīgām ziņkārīgās
+43	3443	biežs	bieža biežai biežais biežajai biežajiem biežajos biežajām biežam biežas biežie biežiem biežo biežos biežu biežus biežā biežāks biežām biežās visbiežākais
+44	3444	maiznīca	maiznīcai maiznīcas maiznīcu maiznīcā maiznīcām maiznīcās
+45	3445	bebrs	bebr bebra bebram bebri bebriem bebros bebru bebrus
+46	3446	žoklis	žokli žoklim žoklī žokļa žokļi žokļiem žokļos žokļu žokļus
+47	3447	raksturojums	raksturojuma raksturojumam raksturojumi raksturojumiem raksturojumos raksturojumu raksturojumus raksturojumā
+48	3448	raugs	raug rauga raugam raugi raugiem raugos raugu raugus raugā
+49	3449	krauklis	kraukli krauklim kraukļa kraukļi kraukļiem kraukļos kraukļu kraukļus
+50	3450	diet	dej dejam deji deju dejām dies diesi diets dietu
+51	3451	ģeogrāfisks	ģeogrāfiska ģeogrāfiskais ģeogrāfiskajai ģeogrāfiskajam ģeogrāfiskajiem ģeogrāfiskajos ģeogrāfiskajā ģeogrāfiskajām ģeogrāfiskajās ģeogrāfiskas ģeogrāfiskie ģeogrāfiskiem ģeogrāfisko ģeogrāfiskos ģeogrāfisku ģeogrāfiskus ģeogrāfiskā ģeogrāfiskām ģeogrāfiskās
+52	3452	raksturīgi	
+53	3453	lipīgs	lipīga lipīgai lipīgais lipīgajai lipīgajos lipīgajā lipīgajām lipīgam lipīgas lipīgi lipīgie lipīgiem lipīgo lipīgu lipīgus lipīgā lipīgāks lipīgām lipīgās
+54	3454	botānisks	botāniska botāniskais botāniskajam botāniskajos botāniskajā botāniskam botāniskie botānisko botāniskā
+55	3455	šomēnes	
+56	3456	tuvinieks	tuviniekiem
+57	3457	strops	strop stropa stropam stropi stropiem stropos stropu stropus stropā
+58	3458	skorpions	skorpion skorpiona skorpionam skorpioni skorpioniem skorpionu skorpionus skorpionā
+59	3459	frizieris	friziera friziere frizieri frizieriem frizierim frizieros frizieru frizierus
+60	3460	malt	jāmaļ mal mali maliet mals malts maltu malu malām malšana maļ maļam maļams maļat maļot maļu
+61	3461	direktīva	direktīvas direktīvu direktīvā
+62	3462	aukle	auklei aukles aukli auklē auklēm auklēs aukļu
+63	3463	itālietis	itāliete itālietei itālietes itālieti itālieša itālieši itāliešiem itāliešu itāliešus
+64	3464	nebēda	nebēdu nebēdā
+65	3465	tulks	tulk tulka tulkam tulki tulkiem tulkos tulku tulkus
+66	3466	akūts	akūta akūtai akūtais akūtajiem akūtajā akūtajām akūtam akūtas akūti akūtie akūtiem akūto akūtos akūtu akūtus akūtā akūtāks akūtām akūtās
+67	3467	kārdinājums	kārdinājum kārdinājuma kārdinājumam kārdinājumi kārdinājumiem kārdinājumos kārdinājumu kārdinājumus kārdinājumā
+68	3468	titāns	titāna titānam titāni titāniem titānu titānus
+69	3469	jērs	jēra jēram jēri jēriem jēru jērus
+70	3470	dāsni	
+71	3471	skrūve	skrūvei skrūves skrūvi skrūvju skrūvē skrūvēm skrūvēs
+72	3472	krāsot	jākrāso krāso krāsoja krāsojam krāsojams krāsojat krāsoji krāsojiet krāsojis krāsojot krāsoju krāsojām krāsos krāsosi krāsosiet krāsosim krāsots krāsotu krāsošana krāsošu nekrāsot
+73	3473	saulgrieži	saulgriežiem saulgriežos saulgriežu saulgriežus
+74	3474	slāpeklis	slāpekli slāpeklī slāpekļa
+75	3475	stirna	stirnai stirnas stirnu stirnām
+76	3476	tautasdziesma	tautasdziesmai tautasdziesmas tautasdziesmu tautasdziesmā tautasdziesmām tautasdziesmās
+77	3477	asinsspiediens	asinsspiediena asinsspiedienam asinsspiedienu asinsspiedienā
+78	3478	izruna	izrunai izrunas izrunu izrunā izrunās
+79	3479	māsīca	māsīcai māsīcas māsīcu māsīcām
+80	3480	aptuvens	aptuvena aptuvenais aptuvenajam aptuvenajiem aptuvenajām aptuvenam aptuvenas aptuvenie aptuveniem aptuveno aptuvenos aptuvenu aptuvenus aptuvenā aptuvenām aptuvenās
+81	3481	tipiski	
+82	3482	aktualizēt	aktualizē aktualizēja aktualizējam aktualizējams aktualizējat aktualizējis aktualizējot aktualizēju aktualizējām aktualizēs aktualizēsim aktualizēts aktualizētu aktualizēšana aktualizēšu jāaktualizē neaktualizēt
+83	3483	tirgonis	tirgone tirgonei tirgones tirgoni tirgonim tirgoņa tirgoņi tirgoņiem tirgoņu tirgoņus
+84	3484	viesistaba	viesistabai viesistabas viesistabu viesistabā viesistabām viesistabās
+85	3485	cilindrs	cilindra cilindram cilindri cilindriem cilindros cilindru cilindrus cilindrā
+86	3486	uzdoties	jāuzdodas uzdevies uzdevos uzdevās uzdodamies uzdodas uzdodaties uzdodies uzdodoties uzdosies uzdotos uzdošanos uzdošanās uzdošos
+87	3487	pārsla	pārslas
+88	3488	vājība	vājībai vājībam vājības vājību vājībā vājībām vājībās
+89	3489	sapulcēties	jāsapulcējas sapulcējamies sapulcējas sapulcējies sapulcējieties sapulcējoties sapulcējāmies sapulcējās sapulcēsies sapulcēsimies sapulcētos sapulcēšanās
+90	3490	greizsirdība	greizsirdībai greizsirdības greizsirdību greizsirdībā
+91	3491	ložmetējs	ložmetēja ložmetēji ložmetējiem ložmetēju ložmetējus
+92	3492	ungārs	ungāri ungāriem ungāriete ungārietes ungāru ungārus
+93	3493	izcilība	izcilībai izcilības izcilību izcilībā
+94	3494	līdzšinējs	līdzšinējā
+95	3495	celms	celm celma celmam celmi celmiem celmos celmu celmus celmā
+96	3496	eksperimentēt	eksperimentē eksperimentēja eksperimentējam eksperimentējat eksperimentējiet eksperimentējis eksperimentējot eksperimentējošs eksperimentēju eksperimentējām eksperimentēs eksperimentēsiet eksperimentēsim eksperimentēts eksperimentētu eksperimentēšana eksperimentēšu jāeksperimentē neeksperimentēt
+97	3497	cūkgaļa	cūkgaļai cūkgaļas cūkgaļu cūkgaļā
+98	3498	burka	burkai burkas burku burkā burkām burkās
+99	3499	vulkāns	vulkāna vulkānam vulkāni vulkāniem vulkānos vulkānu vulkānus vulkānā
+100	3500	slaids	slaida slaidai slaidais slaidajai slaidajam slaidajiem slaidajos slaidajām slaidam slaidas slaidi slaidie slaidiem slaido slaidos slaidu slaidus slaidā slaidāks slaidām slaidās

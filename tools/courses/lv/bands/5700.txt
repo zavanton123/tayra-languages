@@ -1,100 +1,100 @@
-1	5601	sociologs	sociologu socioloģe
-2	5602	aritmētisks	aritmētiskais aritmētiskas aritmētisko aritmētiskā
-3	5603	galvassega	galvassegas galvassegu
-4	5604	laborants	laborante laboranti laborantu
-5	5605	atkalt	atkala atkaļ
-6	5606	sešnieks	sešnieka sešniekā
-7	5607	dālija	dālijas dāliju
-8	5608	raksturojošais	raksturojošajiem raksturojošie raksturojošo raksturojošā raksturojošās
-9	5609	centrēts	centrēta centrētu
-10	5610	miesīgs	miesīgais miesīgie miesīgu
-11	5611	vienojošais	vienojošo
-12	5612	jaks	jakiem jaku jakā
-13	5613	staigs	staiga staigā staigās
-14	5614	ekonomiskāks	ekonomiskais ekonomiskāka ekonomiskākas ekonomiskāko ekonomiskākā
-15	5615	akmeņains	akmeņainas akmeņainiem akmeņainu
-16	5616	antropologs	antropologa antropologi antropologu antropoloģes
-17	5617	automaģistrāle	automaģistrāles automaģistrālēm automaģistrāļu
-18	5618	radze	radzes radzēm radžu
-19	5619	pelēcīgs	pelēcīgas
-20	5620	strēle	
-21	5621	mesa	
-22	5622	kinozvaigzne	kinozvaigznes kinozvaigznēm
-23	5623	svešums	svešumā
-24	5624	bezjēdzība	bezjēdzību bezjēdzībā
-25	5625	žagata	
-26	5626	purvains	purvaini purvainās
-27	5627	saulessargs	saulessarga saulessargu
-28	5628	tempt	temp tempa tempi tempu
-29	5629	vingrs	vingro
-30	5630	slepkavīgs	slepkavīgajam slepkavīgā slepkavīgāka
-31	5631	locīt	locīju locīts loka loku
-32	5632	burbuļot	burbuļo burbuļos jāburbuļo
-33	5633	blāvāks	blāvais blāvāka blāvākas
-34	5634	erotiski	
-35	5635	plauša	
-36	5636	parītdiena	
-37	5637	netirgojam	
-38	5638	miglaini	
-39	5639	paaris	
-40	5640	iracionāli	
-41	5641	pariet	parējām
-42	5642	blīve	blīves blīvē
-43	5643	apīnis	apīni
-44	5644	neeksistēju	
-45	5645	grieznes	grieze griezos
-46	5646	nejautājam	
-47	5647	apātija	
-48	5648	gludāk	
-49	5649	devītnieks	devītnieka
-50	5650	nedrošināt	drošina drošināja drošināšu
-51	5651	zintnieks	zintniekiem zintnieku
-52	5652	internacionāls	internacionāla internacionālā
-53	5653	freska	freskas
-54	5654	berklijs	berklija berklijā
-55	5655	rikošets	rikošeta
-56	5656	fotogrāfisks	fotogrāfiska fotogrāfiskā
-57	5657	mongolis	mongoļi mongoļiem mongoļu
-58	5658	saltums	saltumam saltumu
-59	5659	kēkss	kēksi kēksu
-60	5660	sapņains	sapņainas sapņainos sapņainā
-61	5661	dievināšana	dievināšanas
-62	5662	rieties	rejos riešanās
-63	5663	purvājs	purvāji purvājiem purvājā
-64	5664	klitors	klitora klitoru
-65	5665	neļķe	neļķes neļķēm
-66	5666	runājamais	runājamo runājamā
-67	5667	aicinātais	aicinātajiem aicinātajām aicinātie aicināto aicinātās
-68	5668	emocionālāks	emocionālais emocionālākais emocionālākajiem emocionālākajām emocionālākos emocionālāku
-69	5669	nekonstatējot	
-70	5670	ofensīva	
-71	5671	racionālāk	
-72	5672	visspilgtāk	
-73	5673	visasāk	
-74	5674	kūtsmēsli	kūtsmēslu kūtsmēslus
-75	5675	ūdenstornis	ūdenstorņa
-76	5676	rēzeknietis	rēzeknieši rēzekniešu
-77	5677	kālis	kāli kāļiem
-78	5678	ateroskleroze	aterosklerozes aterosklerozi
-79	5679	emīrs	emīra
-80	5680	irākiete	irākieši irākiešiem irākiešu
-81	5681	pastala	pastalai pastalas pastalu pastalās
-82	5682	telefonija	telefonijas telefoniju
-83	5683	telefonisks	telefoniska telefoniskas
-84	5684	ziemīgs	ziemīgie ziemīgā ziemīgās
-85	5685	anālāks	anālais
-86	5686	mobilāks	mobilais mobilāki mobilākiem
-87	5687	klaips	klaipa klaipu
-88	5688	piedēklis	piedēkli piedēkļiem
-89	5689	tējkanna	
-90	5690	arkls	arkla arkliem arklu
-91	5691	neizteikts	neizteiktā
-92	5692	drīkstot	
-93	5693	amfībija	amfībijai amfībiju amfībijām
-94	5694	spirgts	spirgtu
-95	5695	kobalts	kobalta kobaltu
-96	5696	lingvistisks	lingvistisko lingvistisku lingvistiskā lingvistiskās
-97	5697	lineāls	lineāla lineālu
-98	5698	reālāk	
-99	5699	kabatzaglis	kabatzagli kabatzagļiem kabatzagļus
-100	5700	datorvīruss	datorvīrusi datorvīrusu
+1	5601	lieliskums	lieliskuma lieliskumu
+2	5602	sargtornis	sargtorni sargtornim sargtornī sargtorņi sargtorņiem sargtorņus
+3	5603	saltums	saltumam saltumu saltumā
+4	5604	skābums	skābuma skābumam skābumu
+5	5605	trafarets	trafareta trafaretam trafareti trafaretiem trafaretu trafaretus trafaretā
+6	5606	aizmāršīgs	aizmāršīga aizmāršīgajam aizmāršīgajiem aizmāršīgi aizmāršīgie aizmāršīgo aizmāršīgos aizmāršīgus
+7	5607	šaipus	
+8	5608	puds	pudi pudos pudu pudus
+9	5609	draiski	
+10	5610	ķecerība	
+11	5611	nāvinieks	nāvinieku
+12	5612	kadmijs	kadmija kadmiju
+13	5613	neglītums	neglītuma neglītumam neglītumu neglītumā
+14	5614	zaķēns	zaķēna zaķēnam zaķēni zaķēniem zaķēnu zaķēnus
+15	5615	lētums	lētuma lētumam lētumu lētumā
+16	5616	ķērpis	ķērpi ķērpim ķērpja ķērpji ķērpjiem ķērpju ķērpjus
+17	5617	neiroze	neirozes neirozi neirozēm neirozēs neirožu
+18	5618	spals	spal spala spalam spalu spalā
+19	5619	līdzskanis	līdzskaņa līdzskaņi līdzskaņu līdzskaņus
+20	5620	lemesis	lemesi lemeša lemeši lemešiem lemešos lemešu lemešus
+21	5621	grams	
+22	5622	draiskulība	draiskulības draiskulību draiskulībām draiskulībās
+23	5623	tundra	tundras tundru tundrā tundrās
+24	5624	zobrats	
+25	5625	dzīvnieciski	
+26	5626	bengāliete	bengāliešu bengāļu
+27	5627	deviņpadsmitais	
+28	5628	berklijs	berklija berklijā
+29	5629	baļļa	baļļai baļļas baļļu baļļā baļļās
+30	5630	homoseksuāli	
+31	5631	nopūsties	
+32	5632	handbolists	handbolista handbolisti handbolistiem handbolistu handbolistus
+33	5633	žūt	žuva žūs žūst žūstot žūstu žūtu
+34	5634	ķīsis	ķīsi ķīsim ķīsī ķīša ķīši ķīšos ķīšu ķīšus
+35	5635	lielība	lielībai lielības lielību lielībā
+36	5636	imperiālistisks	imperiālistiskais imperiālistiskajiem imperiālistiskajām imperiālistiskas imperiālistiskie imperiālistisko imperiālistiskos imperiālistisku imperiālistiskā imperiālistiskām imperiālistiskās
+37	5637	paija	paijai paijas paiju paijā
+38	5638	sirpis	sirpi sirpim sirpja sirpji sirpjus
+39	5639	iecept	iecep iecepa iecepam iecepts ieceptu iecepu
+40	5640	bārdainis	bārdaiņa bārdaiņi bārdaiņiem bārdaiņu
+41	5641	cepešpanna	cepešpannas cepešpannu cepešpannā cepešpannām
+42	5642	bāba	
+43	5643	bruņucepure	bruņucepures bruņucepuri
+44	5644	datīvs	datīvi datīvā
+45	5645	zagšus	
+46	5646	slapt	slap
+47	5647	ejakulēt	ejakulē ejakulējis ejakulēju
+48	5648	trešs	
+49	5649	nuga	
+50	5650	slepkavīgs	slepkavīgajam slepkavīgā
+51	5651	rauda	raudai rauds raudu raudā raudām raudās
+52	5652	moldāviete	moldāva moldāvi moldāviem moldāvietei moldāvs moldāvu moldāvus
+53	5653	atjaunināt	
+54	5654	mildronāts	mildronāta mildronātu
+55	5655	klinšains	klinšaina klinšainai klinšainajiem klinšainajos klinšainajā klinšainam klinšainas klinšaini klinšainie klinšainiem klinšaino klinšainos klinšainu klinšainā
+56	5656	muklājs	muklāja muklājam muklāju muklājā
+57	5657	sevim	
+58	5658	pumpa	
+59	5659	atturībnieks	atturībnieka atturībnieki atturībniekiem atturībnieku atturībniekus
+60	5660	libānietis	libāniete libānietim libānieši libāniešiem libāniešu libāniešus
+61	5661	akuzatīvs	akuzatīvā
+62	5662	dzimumdziedzeris	dzimumdziedzera dzimumdziedzeru
+63	5663	serbiski	
+64	5664	kreka	
+65	5665	ķivulis	ķivuli
+66	5666	labsvakars	
+67	5667	sniegpārsla	
+68	5668	intonēt	intonē intonēšu
+69	5669	riekstrozis	riekstroži
+70	5670	parastums	parastuma
+71	5671	paliekt	jāpaliec paliec palieci palieciet paliecot paliecu palieks palieksi
+72	5672	zaļgans	zaļgana zaļganai zaļganais zaļganajai zaļganajām zaļganam zaļganas zaļgani zaļganiem zaļgano zaļganos zaļganu zaļganā zaļganām zaļganās
+73	5673	labēji	
+74	5674	vergturis	vergtura vergturi vergturiem vergturim vergturu vergturus
+75	5675	mušmire	mušmires mušmiri mušmiru mušmirēm
+76	5676	apātisks	apātiska apātiskais apātisko apātisku apātiskā apātiskām apātiskās
+77	5677	ļipa	ļipam ļipas ļipu ļipā ļipām
+78	5678	hinduisms	hinduismu
+79	5679	maurs	maur maura mauri mauriem mauros mauru maurus
+80	5680	simetrija	simetrijas simetriju
+81	5681	dancināt	dancina dancinot dancināja dancināji dancinās
+82	5682	saliniece	salinieki saliniekiem salinieku saliniekus
+83	5683	velnišķība	velnišķību
+84	5684	āmrija	
+85	5685	brazīliski	
+86	5686	starpgalaktiku	
+87	5687	pisējs	
+88	5688	labsrīts	
+89	5689	utains	utaina utainais utainajam utainajiem utainam utainas utaini utainie utaino utainos utainu utainā utainās
+90	5690	sešnieks	sešnieka sešniekam sešnieki sešnieku sešniekā
+91	5691	lāma	lāmai lāmam lāmas lāmu lāmām lāmās
+92	5692	monuments	monumenta monumentam monumenti monumentiem monumentu
+93	5693	disleksija	disleksijai disleksijas disleksiju
+94	5694	atāls	atāla atāli atālos atālu atālā
+95	5695	neparastums	neparastuma neparastumiem neparastumu neparastumā
+96	5696	salami	
+97	5697	kvalificēt	
+98	5698	fjords	fjord fjorda fjordam fjordi fjordiem fjordos fjordu
+99	5699	hurma	hurmai hurmas hurmu
+100	5700	kartogrāfs	kartogrāfa kartogrāfi kartogrāfu kartogrāfus

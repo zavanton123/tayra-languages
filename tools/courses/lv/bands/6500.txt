@@ -1,100 +1,100 @@
-1	6401	graudzāle	
-2	6402	grūsns	grūsnās
-3	6403	gārša	gāršas
-4	6404	hasīdisms	hasīdisma
-5	6405	haubice	haubices
-6	6406	homoseksuālisms	homoseksuālisma
-7	6407	humoristisks	humoristiskajā
-8	6408	humoristiski	
-9	6409	humāniste	humānistu
-10	6410	iedzeltens	
-11	6411	iesārts	iesārtas
-12	6412	neinspirēt	inspirēja
-13	6413	inspirētais	inspirētie
-14	6414	instrumentālis	instrumentāli
-15	6415	internacionālisms	internacionālismiem
-16	6416	intonatīvs	intonatīvajiem
-17	6417	izceptais	izceptie
-18	6418	izpildītājmāksla	izpildītājmākslas
-19	6419	kaligrāfija	kaligrāfiju
-20	6420	kambodžiete	kambodžiešu
-21	6421	knašs	knašo
-22	6422	kodolbumba	kodolbumbu
-23	6423	kosa	
-24	6424	kvadrātkods	kvadrātkoda
-25	6425	lapgrauzis	lapgraužiem
-26	6426	lielīgs	
-27	6427	lietvārds	lietvārdiem
-28	6428	likumīgums	likumīgumu
-29	6429	lingvistiski	
-30	6430	litera	literu
-31	6431	lēnība	lēnību
-32	6432	megavats	
-33	6433	metafiziski	
-34	6434	mildronāts	mildronāta
-35	6435	modalitāte	modalitātes
-36	6436	možāk	
-37	6437	mugurkaulnieks	mugurkaulnieku
-38	6438	multipaka	multipakām
-39	6439	mīlīgāk	
-40	6440	mīnēt	mīnēts
-41	6441	naudasmaks	naudasmaki
-42	6442	neaizliedzam	
-43	6443	neaizliedzot	
-44	6444	neaizstāvot	
-45	6445	neapspriežoties	
-46	6446	neapvienojamais	neapvienojamo
-47	6447	nearts	
-48	6448	nediskutējot	
-49	6449	nedzenot	
-50	6450	neliedzu	
-51	6451	neparastāk	
-52	6452	nepelnām	
-53	6453	nepiemirstot	
-54	6454	neradis	
-55	6455	neraksturojams	
-56	6456	neredzēšanās	
-57	6457	nerodam	
-58	6458	nesargājot	
-59	6459	netirgojot	
-60	6460	nopūsties	
-61	6461	obelisks	obeliski
-62	6462	oligarhija	
-63	6463	orangutans	orangutanam
-64	6464	oranžīgs	oranžīgas
-65	6465	pacept	
-66	6466	paleontoloģija	paleontoloģijas
-67	6467	pallādijs	pallādija
-68	6468	pamežs	
-69	6469	pasīvāk	
-70	6470	pilnīgums	pilnīgumu
-71	6471	polāri	
-72	6472	pretspars	
-73	6473	priesterība	priesterībā
-74	6474	pseidozinātne	pseidozinātnes
-75	6475	pārcept	
-76	6476	pīlādžoga	pīlādžogu
-77	6477	pļāpīgums	pļāpīgumā
-78	6478	pūpēdis	pūpēdi
-79	6479	raksturotais	
-80	6480	raksturīgāk	
-81	6481	rakstāmspalva	rakstāmspalvu
-82	6482	raudulīgums	
-83	6483	raudule	rauduļi
-84	6484	reizinājums	
-85	6485	robotprogrammatūra	
-86	6486	runājušais	runājušie
-87	6487	saceptais	sacepto
-88	6488	sacepu	
-89	6489	sarkanīgs	sarkanīgas
-90	6490	sarkanīgi	
-91	6491	sastāvēt	
-92	6492	sekssimbols	sekssimbolu
-93	6493	septiņnieks	septiņniekiem
-94	6494	septītdaļa	septītdaļas
-95	6495	fizikālāks	fizikālais
-96	6496	astronomiskāks	astronomiskais
-97	6497	izdarīgs	izdarīgais
-98	6498	caurāks	caurais
-99	6499	zeltaināks	zeltainais
-100	6500	tīrīgāks	tīrīgais
+1	6401	ģeoloģiski	
+2	6402	daoisms	
+3	6403	fonoloģisks	fonoloģisko
+4	6404	hahā	
+5	6405	tabakmaks	tabakmakiem tabakmakus
+6	6406	vēlbrokastis	vēlbrokastu
+7	6407	ambliopija	ambliopiju
+8	6408	biseksualitāte	biseksualitāti
+9	6409	likumīgums	likumīguma likumīgumu
+10	6410	mīnēt	mīnē mīnēts
+11	6411	cēlgāze	cēlgāzes cēlgāžu
+12	6412	blāvums	blāvumam blāvumu
+13	6413	jordāniete	jordānieši jordāniešu
+14	6414	trusene	trusenei trusenes
+15	6415	tēvabrālis	tēvabrāļa tēvabrāļiem
+16	6416	kodolbumba	kodolbumbas kodolbumbu
+17	6417	komika	komiku
+18	6418	normālums	normālumu
+19	6419	talantīgums	talantīguma
+20	6420	biedināt	biedina
+21	6421	garlaicīgums	garlaicīgumu
+22	6422	gubumākonis	gubumākoņi gubumākoņiem
+23	6423	holandisks	holandiski
+24	6424	iedarbe	iedarbes
+25	6425	iztulkojums	iztulkojumiem iztulkojumu
+26	6426	svabadība	svabadībai svabadību
+27	6427	topogrāfs	topogrāfu
+28	6428	varavīksnene	varavīksnenes varavīksnenēs
+29	6429	melnkalniete	melnkalnieši melnkalniešu
+30	6430	abstrahēt	abstrahē abstrahēts abstrahētu
+31	6431	marķīze	marķīzes marķīzēm
+32	6432	moskovijs	moskovija moskoviju moskovijā
+33	6433	aktinīdija	aktinīdijas aktinīdiju aktinīdijām
+34	6434	antonīms	antonīma antonīmi
+35	6435	apvidvārds	apvidvārdiem apvidvārdu apvidvārdus
+36	6436	dīvainums	dīvainumu dīvainumā
+37	6437	idiotija	idiotijas idiotiju
+38	6438	komiskums	komiskumam komiskumu
+39	6439	pasmiet	pasmiets pasmēja
+40	6440	plukšķis	pluka plukšķus
+41	6441	somisks	somiskais somisko somiskās
+42	6442	spēcīgums	spēcīguma spēcīgumam
+43	6443	tintnīca	tintnīcu tintnīcā
+44	6444	ugunīgums	ugunīgumam ugunīgumu
+45	6445	virpuļdurvis	virpuļdurvīm virpuļdurvīs
+46	6446	zviedrisks	zviedriskajām zviedrisko
+47	6447	ģermānisks	ģermāniska ģermānisko ģermāniskām
+48	6448	ķīnisks	ķīniska ķīniskajai ķīnisko
+49	6449	miegainums	miegainuma miegainumu
+50	6450	normāle	normāa normāi normāus
+51	6451	perpendikuls	perpendikula perpendikulu
+52	6452	afrikānisks	afrikāniskiem afrikānisko afrikāniskās
+53	6453	cukurtrauks	cukurtrauki cukurtrauku
+54	6454	divskanis	divskaņiem divskaņu divskaņus
+55	6455	ortogrāfisks	ortogrāfiskajām ortogrāfisko ortogrāfiskās
+56	6456	garot	garo garos
+57	6457	seglot	seglo seglos seglošanai
+58	6458	spulgs	spulgas spulgos spulgu
+59	6459	ziņote	ziņoti ziņošu
+60	6460	andoriete	andorieši
+61	6461	trīsdesmitais	
+62	6462	aļģe	
+63	6463	etimoloģe	etimologi
+64	6464	seksualizēt	seksualizētu
+65	6465	brazīlisks	brazīlisko
+66	6466	citronkoks	citronkoku
+67	6467	iesirmi	
+68	6468	separātisms	
+69	6469	slāviski	
+70	6470	četrdesmitais	
+71	6471	īriski	
+72	6472	mākons	
+73	6473	aizart	
+74	6474	akustiķis	
+75	6475	anāli	
+76	6476	armēniski	
+77	6477	daļskaitlis	daļskaitli
+78	6478	graust	
+79	6479	iedzelteni	
+80	6480	iepelēks	iepelēku
+81	6481	indīgums	indīguma
+82	6482	konkrētums	
+83	6483	luksemburgiete	luksemburgiešu
+84	6484	neonacists	
+85	6485	netīrīgi	
+86	6486	norvēģiski	
+87	6487	rombs	
+88	6488	spalgums	
+89	6489	superlielvalsts	
+90	6490	tipoloģiski	
+91	6491	valodīgi	
+92	6492	zaglīgums	zaglīgumu
+93	6493	čē	
+94	6494	ūdenspolo	
+95	6495	sekste	
+96	6496	abstrahēšana	
+97	6497	alksnene	alksnenes
+98	6498	daiļlēkšana	
+99	6499	epistemoloģija	epistemoloģijas
+100	6500	lodāmurs	

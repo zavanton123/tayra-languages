@@ -1,100 +1,100 @@
-1	6301	ārstnieciskāks	ārstnieciskais
-2	6302	mīlāks	mīlais
-3	6303	ārprātīgāks	ārprātīgais
-4	6304	visslepkavīgākais	slepkavīgāka
-5	6305	dzeltenīgāks	dzeltenīgais dzeltenīgākus
-6	6306	necentrēt	centrēja centrētu
-7	6307	rauds	raud raudu raudus raudās
-8	6308	beļģietis	beļģietei beļģieti
-9	6309	sirde	sirdes sirdi siržu
-10	6310	cilvēciskāks	cilvēciskais cilvēciskāka viscilvēciskākās
-11	6311	nemezglot	mezglos mezglošanu
-12	6312	visrupjākais	rupjākais rupjākajos rupjāko rupjākos visrupjākie
-13	6313	liegtais	liegto liegtās
-14	6314	sirmāks	sirmais sirmāka
-15	6315	labējāks	labējais labējāka
-16	6316	pavasarīgāks	pavasarīgais pavasarīgākiem
-17	6317	nepateicīgāks	nepateicīgais nepateicīgāku
-18	6318	gigantiskāks	gigantiskais gigantiskākas
-19	6319	bezrūpīgāks	bezrūpīgais bezrūpīgāka
-20	6320	morālāks	morālais morālākus
-21	6321	nepareizāks	nepareizais nepareizāki
-22	6322	apvienojošais	apvienojošās
-23	6323	aronija	aroniju
-24	6324	artais	arto
-25	6325	astere	asteru
-26	6326	ataru	
-27	6327	aukstais karš	aukstais karš
-28	6328	azaids	
-29	6329	baranka	
-30	6330	viscītīgākais	cītīgākajiem cītīgāki
-31	6331	dails	daila
-32	6332	heraldika	heraldikas
-33	6333	kalifs	kalifa
-34	6334	korinte	korina
-35	6335	kovārnis	kovārņu
-36	6336	neitralizācija	neitralizācijas
-37	6337	ornitoloģisks	ornitoloģisko
-38	6338	osa	
-39	6339	pelēkais ronis	pelēkais ronis
-40	6340	raude	raudes
-41	6341	salamandra	salamandras
-42	6342	saldais kartupelis	kartupelis saldais
-43	6343	saules vējš	saules vējš
-44	6344	tirdziniece	tirdzinieki
-45	6345	toksiskums	toksiskuma
-46	6346	trīsdesmitais	
-47	6347	tuklums	tuklumā
-48	6348	neuzart	uzar
-49	6349	vājdzirdība	
-50	6350	vārda diena	diena vārda
-51	6351	zobu suka	suka zobu
-52	6352	zooloģija	zooloģijas
-53	6353	neabstrahēt	abstrahē
-54	6354	abstraktāk	
-55	6355	aicinošais	aicinošajām
-56	6356	aizdusa	aizdusai
-57	6357	aizmāršīgi	
-58	6358	aizvakardiena	aizvakardienas
-59	6359	akcentētais	akcentēto
-60	6360	akustiski	
-61	6361	algebrisks	algebriskām
-62	6362	ambliopija	ambliopiju
-63	6363	amerikānisms	amerikānismu
-64	6364	arhivārs	arhivāru
-65	6365	aritmētiski	
-66	6366	asimetrija	asimetrijas
-67	6367	asinsgrēks	asinsgrēku
-68	6368	atgriezums	atgriezumus
-69	6369	augļkope	augļkopjus
-70	6370	aļģe	
-71	6371	baltvācietis	baltvāciešu
-72	6372	bangladešiete	bangladešieši
-73	6373	batāte	batātes
-74	6374	bezjēdzīgums	bezjēdzīgumam
-75	6375	biseksualitāte	biseksualitāti
-76	6376	caurredzami	
-77	6377	caurspīdība	caurspīdību
-78	6378	cunfte	cunftes
-79	6379	cālēns	cālēnus
-80	6380	cītība	cītību
-81	6381	darbalauks	darbalauka
-82	6382	daudzpunkte	daudzpunkti
-83	6383	decibels	decibelos
-84	6384	dialektika	
-85	6385	divdesmitais	
-86	6386	duraki	
-87	6387	dzestrums	dzestruma
-88	6388	dzirkstīt	dzirkstī
-89	6389	eiropeiski	
-90	6390	eksistenciāliste	eksistenciālista
-91	6391	emocionālāk	
-92	6392	etimoloģe	etimologi
-93	6393	famīlija	
-94	6394	filozofiskāk	
-95	6395	fizioloģe	fiziologu
-96	6396	fonētika	fonētikas
-97	6397	gaisakuģis	gaisakuģiem
-98	6398	galerts	galertu
-99	6399	garumzīme	garumzīmēm
-100	6400	visgaumīgākais	gaumīgākajiem gaumīgāku
+1	6301	glītums	glītumam glītumu glītumā
+2	6302	leduslācis	leduslācim leduslāča leduslāču leduslāčus
+3	6303	sultanāts	sultanāta sultanātu sultanātā
+4	6304	dārzājs	dārzāji dārzājos dārzāju dārzājus
+5	6305	brīvestība	brīvestības brīvestību brīvestībā
+6	6306	hlorofils	hlorofila hlorofilu
+7	6307	igaunisks	igauniskais igaunisko igauniskā
+8	6308	nazāls	nazālajā nazāli nazālie nazālā
+9	6309	priedēklis	priedēkļa priedēkļi priedēkļus
+10	6310	rakstāmpapīrs	rakstāmpapīra rakstāmpapīru
+11	6311	ķēnišķīgs	ķēnišķīgas ķēnišķīgu ķēnišķīgā
+12	6312	auglīgums	auglīguma auglīgumu auglīgumā
+13	6313	iedzeltens	iedzeltenas iedzeltenu iedzeltenās
+14	6314	japānisks	japāniska japāniskajiem japāniskiem japāniskā
+15	6315	kosmoloģisks	kosmoloģiska kosmoloģiskie kosmoloģisko kosmoloģiskā
+16	6316	pagoda	pagodas pagodu pagodām
+17	6317	ģenitīvs	ģenitīva ģenitīvi ģenitīvu ģenitīvā
+18	6318	iesirms	iesirmais iesirmajai iesirmiem iesirmo
+19	6319	revizionisms	
+20	6320	pretspēks	
+21	6321	megavats	
+22	6322	transparenti	
+23	6323	brāļu kapi	brāļu kapi
+24	6324	debilitāte	debilitāti
+25	6325	fagots	
+26	6326	dāniski	
+27	6327	mazturīgi	
+28	6328	karagūsteknis	
+29	6329	carisms	carisma
+30	6330	milimetrs	
+31	6331	paplāte	
+32	6332	korejiski	
+33	6333	nedzirdība	nedzirdības
+34	6334	tallijs	tallija
+35	6335	turkmēniete	turkmēņiem turkmēņu
+36	6336	bruņuvilciens	bruņuvilciena bruņuvilcienu
+37	6337	dziedātājstrazds	dziedātājstrazda
+38	6338	broms	broma
+39	6339	kaligrāfisks	kaligrāfiskajos kaligrāfiskā
+40	6340	rakstāmspalva	rakstāmspalvas rakstāmspalvu
+41	6341	staignājs	staignājā
+42	6342	kļūdīgs	kļūdīga kļūdīgo
+43	6343	slidenums	slidenuma slidenumu
+44	6344	alksnājs	alksnāja alksnāju alksnājā
+45	6345	aseksualitāte	aseksualitāti
+46	6346	haubice	haubices haubici haubiču
+47	6347	koloniālisms	koloniālismu
+48	6348	lietuvisks	lietuviskā
+49	6349	neparastība	neparastības neparastību
+50	6350	pelēkums	pelēkuma
+51	6351	piecept	piecepis piecepts
+52	6352	cirkonijs	cirkonija cirkoniju
+53	6353	filoloģisks	filoloģisko filoloģiskā filoloģiskās
+54	6354	internacionāliste	internacionālisti internacionālistu
+55	6355	oranžīgs	oranžīgas oranžīgo oranžīgā
+56	6356	polonijs	polonija polonijus
+57	6357	samīlēt	jāsamīlē samīlē
+58	6358	seksualizēšana	seksualizēšanas seksualizēšanu
+59	6359	troglodīts	troglodīti troglodītiem troglodītu
+60	6360	tuklums	tukluma tuklumā
+61	6361	velnišķs	velnišķa velnišķais velnišķu
+62	6362	ādminis	ādminim ādmiņa ādmiņu
+63	6363	dienvidslāviete	dienvidslāvi dienvidslāviem dienvidslāvu
+64	6364	cukurgrauds	cukurgrauda cukurgraudi cukurgraudus
+65	6365	paleontologs	paleontologi paleontologu
+66	6366	paradoksalitāte	paradoksalitāti
+67	6367	rasains	rasaina rasaino rasainu
+68	6368	asinsgrēks	asinsgrēkam asinsgrēkiem asinsgrēku
+69	6369	orangutans	orangutanam orangutanu orangutanus
+70	6370	raižpilns	raižpilnas raižpilnu raižpilnā raižpilnām
+71	6371	bārabērns	bārabērni bārabērniem bārabērnu bārabērnus
+72	6372	izart	izar izara izarot
+73	6373	mežģīt	jāmežģī mežģīju mežģītu
+74	6374	raudināt	jāraudina neraudināt raudināšanas
+75	6375	žvankstēt	žvankst žvanksti žvankstēja
+76	6376	salns	salnai salnais salnas salno salnu salnā salnām salnās
+77	6377	nevērst	
+78	6378	simtais	
+79	6379	kosmosa kuģis	kosmosa kuģis
+80	6380	raudulīgums	
+81	6381	sarkanīgi	
+82	6382	trūcīgums	trūcīguma
+83	6383	bismuts	bismuta
+84	6384	miklums	mikluma
+85	6385	mazturība	mazturības
+86	6386	militārisms	
+87	6387	toruden	
+88	6388	čehiski	
+89	6389	ģeofizika	ģeofizikas
+90	6390	fotogrāfiski	
+91	6391	imperiālistiski	
+92	6392	krākt	
+93	6393	skandināviski	
+94	6394	tirdznieciski	
+95	6395	valodnieciski	
+96	6396	alēle	alēļu
+97	6397	despotisms	
+98	6398	miglājs	
+99	6399	nespodri	
+100	6400	četrpadsmitais	

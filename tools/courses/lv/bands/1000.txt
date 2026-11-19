@@ -1,100 +1,100 @@
-1	901	noskaidrot	noskaidroja noskaidrots noskaidrotu
-2	902	vakarā	
-3	903	hei	
-4	904	turēties	jāturas neturēties turamies turas turaties turies turieties turos turoties turēdamies turējies turējos turējāmies turējās turējāties turēsies turēsieties turēsimies turēsities turētos turēšanās turēšos
-5	905	metrs	metra metram metri metriem metros metru metrus
-6	906	siena	sienai sienas sienu sienā sienām sienās
-7	907	zirgs	zirg zirga zirgam zirgi zirgiem zirgos zirgu zirgus zirgā
-8	908	tostarp	
-9	909	autobuss	autobus autobusa autobusam autobusi autobusiem autobusos autobusu autobusus autobusā
-10	910	saistīt	jāsaista nesaistīt saista saistot saistošs saistu saistām saistāms saistīja saistīji saistījis saistījām saistīs saistīsi saistīts saistītu saistīšana saistīšu
-11	911	sākotnējs	sākotnēja sākotnējai sākotnējais sākotnējajiem sākotnējam sākotnēji sākotnējie sākotnējiem sākotnējo sākotnējos sākotnēju sākotnējā sākotnējām sākotnējās
-12	912	patiess	patiesa patiesai patiesais patiesajai patiesajam patiesajiem patiesajos patiesajā patiesajām patiesam patiesas patiesie patiesiem patieso patiesos patiesu patiesus patiesā patiesāka patiesāki patiesāks patiesāku patiesākā patiesām patiesās
-13	913	aizdomas	aizdomu aizdomām aizdomās
-14	914	nespēju	
-15	915	pakalpojums	pakalpojumi pakalpojumus
-16	916	iegādāties	iegādājamies iegādājas iegādājaties iegādājies iegādājieties iegādājos iegādājoties iegādājāmies iegādājās iegādājāties iegādāsies iegādāsieties iegādāsimies iegādātos iegādāšanās iegādāšos jāiegādājas neiegādāties
-17	917	rinda	rindai rindas rindu rindā rindām rindās
-18	918	anglis	angam angli angliete anglim angu angļa angļi angļiem angļu angļus
-19	919	mīla	mīlai mīlas mīlu mīlā
-20	920	konstatēts	konstatēta konstatētas konstatēti konstatētiem konstatētos konstatētu konstatētus konstatētā konstatētām konstatētās
-21	921	dzimšana	dzimšanai dzimšanas dzimšanu
-22	922	analīze	analīzei analīzes analīzi analīzē analīzēm analīzēs analīžu
-23	923	noziegums	nozieguma noziegumam noziegumi noziegumiem noziegumos noziegumu noziegumus noziegumā
-24	924	pateikties	pateicoties
-25	925	nedomāju	
-26	926	sens	sena senai senais senajai senajam senajiem senajos senajā senajām senajās senam senas seni senie seniem seno senos senu senus senā senāks senām senās vissenāk vissenākais vissenākajām
-27	927	pienākums	pienākumiem pienākumus
-28	928	reizēm	
-29	929	šejiene	šejienei šejienes šejieni
-30	930	pirkt	dzeļ jāpērk nepirksi nepirksim nepirkt nepirktu nepirkšu nepērc nepērk nepērkat nepērku pircis pirka pirki pirks pirksi pirksiet pirksim pirktas pirkti pirkts pirktu pirktās pirku pirkuši pirkāt pirkšana pirkšanai pirkšanas pirkšanu pirkšu pērc pērciet pērk pērkam pērkams pērkat pērkot pērku
-31	931	ļaudis	ļaudīm ļaudīs ļaužu
-32	932	atslēga	atslēgai atslēgas atslēgu atslēgā atslēgām
-33	933	mute	mutei mutes muti mutē mutēm mutēs muus
-34	934	hokejs	hokeja hokejam hokeju hokejā
-35	935	nomirt	nomira
-36	936	miljards	miljarda miljardam miljardi miljardiem miljardos miljardu miljardus
-37	937	dziedāt	dzied dziedam dziedamā dziedat dziedi dziediet dziedot dziedoša dziedošs dziedošās dziedu dziedāja dziedāji dziedājis dziedāju dziedājusi dziedājušas dziedājuši dziedājām dziedās dziedāsi dziedāsim dziedātas dziedātu dziedāšana dziedāšanai dziedāšanas dziedāšanu dziedāšanā dziedāšu jādzied nedzied nedziedi nedziedu nedziedāja nedziedās nedziedāsi nedziedāsiet nedziedāšu
-38	938	televīzija	televīzijai televīzijas televīziju televīzijā televīzijām
-39	939	pierādījums	pierādījuma pierādījumam pierādījumi pierādījumiem pierādījumos pierādījumu pierādījumus
-40	940	tīrs	tīra tīrai tīrais tīrajiem tīrajos tīrajā tīrajām tīram tīras tīrie tīriem tīro tīru tīrus tīrā tīrāka tīrākai tīrākais tīrākas tīrākie tīrāko tīrāks tīrāku tīrākā tīrākās tīrām tīrās vistīrākie vistīrākā
-41	941	pilsonis	pilsone pilsonei pilsones pilsoni pilsonim pilsoņa pilsoņi pilsoņiem pilsoņos pilsoņu pilsoņus
-42	942	laime	laie laimei laimes laimi laimē
-43	943	uzmanīgs	uzmanīga uzmanīgai uzmanīgam uzmanīgas uzmanīgi uzmanīgie uzmanīgiem uzmanīgu uzmanīgā uzmanīgāks
-44	944	melot	jāmelo melo melodami meloja melojam melojat meloji melojis melojot meloju melojusi melojuši melojāt melos melosi melotu melošana melošanai melošanas melošanu melošanā melošu nemelo nemeloja nemelojam nemelojat nemeloji nemelojiet nemelojot nemelojām nemelosi nemelosim nemelot nemelotu nemelošu
-45	945	operācija	operācijai operācijas operāciju operācijā operācijām operācijās
-46	946	forši	
-47	947	patlaban	
-48	948	skats	skat skata skatam skati skatiem skatos skatu skatus skatā
-49	949	sarežģīts	sarežģīta sarežģītai sarežģītais sarežģītajai sarežģītajam sarežģītajiem sarežģītajos sarežģītajā sarežģītajām sarežģītajās sarežģītam sarežģītas sarežģīti sarežģītie sarežģītiem sarežģīto sarežģītos sarežģītu sarežģītus sarežģītā sarežģītāks sarežģītām sarežģītās vissarežģītākais
-50	950	attēls	attēla attēlam attēli attēliem attēlos attēlu attēlus attēlā
-51	951	atbildība	atbildībai atbildības atbildību atbildībā atbildībām atbildībās
-52	952	rajons	rajona rajonos rajonu rajonā
-53	953	pienākt	pienāca pienācis pienāk pienāks
-54	954	dvēsele	dvēselei dvēseles dvēseli dvēselē dvēselēm dvēselēs dvēseļu
-55	955	dzēriens	dzēriena dzērienam dzērieni dzērieniem dzērienos dzērienu dzērienus dzērienā
-56	956	prese	preses presē
-57	957	vakariņas	vakariņa vakariņos vakariņu vakariņām vakariņās
-58	958	priekšsēdētājs	priekšsēdētāju
-59	959	diskusija	diskusijai diskusijas diskusiju diskusijā diskusijām diskusijās
-60	960	tūrisms	tūrisma tūrismam tūrismu tūrismā
-61	961	ideāls	ideāla ideālai ideālais ideālajam ideālajiem ideālajā ideālajām ideālam ideālas ideāli ideāliem ideālo ideālu ideālus ideālā ideālām ideālās
-62	962	lietus	lieti lietos lietu lietum lietū
-63	963	tuvu	
-64	964	zobs	zoba zobam zobi zobiem zobos zobu zobus
-65	965	saimnieks	saimniece saimniecei saimnieces saimnieci saimniecēm saimniek saimnieka saimniekam saimnieki saimniekiem saimniekos saimnieku saimniekus saimnieču
-66	966	laist	jālaiž laid laida laidi laidiet laidis laidu laidām laidāt laidīs laidīsi laidīsiet laidīsim laidīšu laists laistu laizdams laiž laižam laižat laižot laižu nelaist
-67	967	izpildīt	izpilda izpildi izpildiet izpildot izpildu izpildām izpildāms izpildāt izpildīja izpildīji izpildījis izpildīju izpildījām izpildījāt izpildīs izpildīsi izpildīsiet izpildīsim izpildīts izpildītu izpildīšana izpildīšu jāizpilda neizpildīt
-68	968	vēlme	vēlmes vēlmi
-69	969	neesam	
-70	970	ierīce	ierīcei ierīces ierīci ierīcē ierīcēm ierīcēs ierīču
-71	971	garums	garuma garumam garumi garumiem garumu garumus garumā
-72	972	centrāls	centrāla centrālai centrālais centrālajai centrālajam centrālajiem centrālajos centrālajā centrālajām centrālajās centrālas centrālie centrālo centrālā centrālās
-73	973	politiķis	politiķa politiķe politiķei politiķes politiķi politiķiem politiķim politiķos politiķu politiķus politiķēm
-74	974	lieks	lieka liekai liekais liekajam liekajiem liekajām liekam liekas lieki liekie liekiem lieko liekos lieku liekus liekā liekāks liekām liekās
-75	975	turpmāk	
-76	976	gars	gara garam gari gariem garos garu garus garā
-77	977	jūrmala	jūrmalai jūrmalas jūrmalu jūrmalā
-78	978	medicīna	medicīnai medicīnas medicīnu medicīnā
-79	979	atkarīgs	atkarīga atkarīgais atkarīgajam atkarīgajiem atkarīgajā atkarīgam atkarīgas atkarīgi atkarīgie atkarīgiem atkarīgo atkarīgos atkarīgu atkarīgus atkarīgā atkarīgākas atkarīgāks atkarīgām atkarīgās
-80	980	norma	normai normam normas normu normā normām normās
-81	981	režīms	režīma režīmam režīmi režīmiem režīmos režīmu režīmus režīmā
-82	982	zemi	
-83	983	policists	policist policista policistam policiste policistes policisti policistiem policistos policistu policistus policistēm
-84	984	pareizs	pareiza pareizai pareizais pareizajai pareizajam pareizajiem pareizajā pareizajām pareizajās pareizam pareizas pareizie pareiziem pareizo pareizos pareizu pareizus pareizā pareizāks pareizām pareizās vispareizākais vispareizākā
-85	985	nest	jānes nenest nes nesa nesam nesat nesdams nesi nesiet nesis nesot nesošs nests nestu nesu nesām nesāt nesīs nesīsi nesīsiet nesīsim nesīšu nešana
-86	986	ražotājs	ražotāja ražotājai ražotājam ražotājas ražotāji ražotājiem ražotāju ražotājus ražotājā
-87	987	atbrīvot	atbrīvo atbrīvoja atbrīvojam atbrīvojams atbrīvoji atbrīvojiet atbrīvojis atbrīvojot atbrīvoju atbrīvojām atbrīvojāt atbrīvos atbrīvosi atbrīvosiet atbrīvosim atbrīvots atbrīvotu atbrīvošana atbrīvošot atbrīvošu jāatbrīvo neatbrīvot
-88	988	rudens	rudeni rudenim rudenī rudeņos rudeņus
-89	989	žurnālists	žurnālist žurnālista žurnālistam žurnāliste žurnālistei žurnālistes žurnālisti žurnālistiem žurnālistu žurnālistus
-90	990	kaķis	kais kaķa kaķi kaķiem kaķim kaķu kaķus kaķī
-91	991	ietvars	ietvaros
-92	992	advokāts	advokāt advokāta advokātam advokāti advokātiem advokātu advokātus advokātā
-93	993	interesants	interesanta interesantai interesantais interesantajiem interesantajos interesantajām interesantam interesantas interesantie interesantiem interesanto interesantos interesantu interesantus interesantā interesantāka interesantākais interesantākajai interesantākajiem interesantākajām interesantākas interesantāki interesantākie interesantākiem interesantāko interesantākos interesantāks interesantāku interesantākus interesantākā interesantākās interesantām interesantās visinteresantākais
-94	994	pozīcija	pozīcijai pozīcijas pozīciju pozīcijā pozīcijām pozīcijās
-95	995	fizisks	fiziska fiziskai fiziskais fiziskajai fiziskajam fiziskajiem fiziskajos fiziskajā fiziskajām fiziskajās fiziskam fiziskas fiziskie fiziskiem fizisko fiziskos fizisku fiziskus fiziskā fiziskām fiziskās
-96	996	viegls	viegla vieglais vieglajai vieglajam vieglajiem vieglajā vieglajām vieglas vieglie viegliem vieglo vieglos vieglu vieglus vieglā vieglāka vieglākai vieglākais vieglākajiem vieglākajām vieglākam vieglākas vieglāki vieglākiem vieglāko vieglākos vieglāks vieglāku vieglākus vieglākā vieglākām vieglākās vieglām vieglās visvieglākais visvieglākā
-97	997	vainīgs	vainīga vainīgai vainīgais vainīgajai vainīgajam vainīgajiem vainīgajām vainīgam vainīgas vainīgi vainīgie vainīgiem vainīgo vainīgos vainīgu vainīgā vainīgām vainīgās visvainīgākais
-98	998	āda	ādai ādam ādas ādu ādā ādām ādās
-99	999	parasts	parasta parastai parastais parastajai parastajam parastajiem parastajos parastajā parastajām parastajās parastam parastas parastie parastiem parasto parastos parastu parastus parastā parastākas parastākā parastām parastās visparastākais visparastākā
-100	1000	kāzas	kāzu kāzām kāzās
+1	901	laist	jālaiž laid laida laidi laidiet laidis laidu laidām laidāt laidīs laidīsi laidīsiet laidīsim laidīšot laidīšu laists laistu laizdams laišana laiž laižam laižams laižat laižot laižu nelaist
+2	902	forši	
+3	903	vakariņas	vakariņa vakariņam vakariņos vakariņu vakariņām vakariņās
+4	904	slēgt	jāslēdz neslēgt slēdz slēdza slēdzam slēdzams slēdzat slēdzi slēdziet slēdzis slēdzot slēdzu slēdzām slēdzāt slēgs slēgsiet slēgsim slēgta slēgts slēgtu slēgšana slēgšot slēgšu
+5	905	āda	ādai ādam ādas ādi ādu ādā ādām ādās
+6	906	aktieris	aktiera aktieri aktieriem aktierim aktieros aktieru aktierus aktierī aktrise aktrisei aktrises aktrisi aktrisē aktrisēm aktrisēs aktrišu
+7	907	krava	kravai kravas kravu kravā kravām kravās
+8	908	re	
+9	909	uguns	uguni ugunij ugunis ugunī ugunīm ugunīs uguņi uguņu
+10	910	sportists	sportist sportista sportistam sportiste sportistei sportistes sportisti sportistiem sportistos sportistu sportistus sportistā sportistēm
+11	911	vainīgs	vainīga vainīgai vainīgais vainīgajai vainīgajam vainīgajiem vainīgajām vainīgam vainīgas vainīgi vainīgie vainīgiem vainīgo vainīgos vainīgu vainīgus vainīgā vainīgāks vainīgām vainīgās visvainīgākais
+12	912	vēlme	vēlmes vēlmi
+13	913	summa	summas summu
+14	914	astoņi	astoņas astoņiem astoņos astoņu astoņus astoņām astoņās
+15	915	varonis	varone varoni varonim varonī varoņa varoņi varoņiem varoņos varoņu varoņus
+16	916	teksts	tekst teksta tekstam teksti tekstiem tekstos tekstu tekstus tekstā
+17	917	saistīt	jāsaista nesaistīt saista saisti saistiet saistot saistošs saistu saistām saistāms saistāt saistīja saistīji saistījis saistīju saistījām saistījāt saistīs saistīsi saistīsim saistīts saistītu saistīšana saistīšu
+18	918	smadzenes	smadzenēm smadzenēs smadzeņu
+19	919	pulksten	
+20	920	tuvu	
+21	921	tiesnesis	tiesnese tiesnesi tiesnesim tiesnesī tiesneša tiesneši tiesnešiem tiesnešu tiesnešus
+22	922	karsts	karsta karstai karstais karstajai karstajam karstajiem karstajos karstajā karstajām karstajās karstam karstas karsti karstie karstiem karsto karstos karstu karstus karstā karstāks karstām karstās viskarstākais
+23	923	televīzija	televīzijai televīzijas televīziju televīzijā televīzijām televīzijās
+24	924	mobils	mobila mobilai mobilais mobilajai mobilajam mobilajiem mobilajos mobilajā mobilajām mobilajās mobilam mobilas mobilie mobiliem mobilo mobilos mobilu mobilus mobilā mobilāks mobilām mobilās vismobilākais
+25	925	nometne	nometnei nometnes nometni nometnē nometnēm nometnēs nometņu
+26	926	nozagt	jānozog nenozagt nozadzis nozaga nozagi nozags nozagsi nozagsiet nozagsim nozagts nozagtu nozagu nozagām nozagāt nozagšana nozagšot nozagšu nozodziet nozog nozogam nozogat nozogot nozogu
+27	927	upe	upei upes upi upju upē upēm upēs
+28	928	operācija	operācijai operācijas operāciju operācijā operācijām operācijās
+29	929	parādīt	parādīja
+30	930	patiess	patiesa patiesai patiesais patiesajai patiesajam patiesajiem patiesajos patiesajā patiesajām patiesajās patiesam patiesas patiesie patiesiem patieso patiesos patiesu patiesus patiesā patiesāks patiesām patiesās vispatiesākais
+31	931	nopietns	nopietna nopietnai nopietnais nopietnajai nopietnajam nopietnajiem nopietnajos nopietnajā nopietnajām nopietnajās nopietnam nopietnas nopietnie nopietniem nopietno nopietnos nopietnu nopietnus nopietnā nopietnāks nopietnām nopietnās visnopietnākais
+32	932	fotogrāfija	fotogrāfijai fotogrāfijas fotogrāfiju fotogrāfijā fotogrāfijām fotogrāfijās
+33	933	atkarīgs	atkarīga atkarīgai atkarīgais atkarīgajai atkarīgajam atkarīgajiem atkarīgajos atkarīgajā atkarīgajām atkarīgam atkarīgas atkarīgi atkarīgie atkarīgiem atkarīgo atkarīgos atkarīgu atkarīgus atkarīgā atkarīgāks atkarīgām atkarīgās
+34	934	sniegs	snieg sniega sniegam sniegi sniegiem sniegos sniegu sniegus sniegā
+35	935	gadsimts	gadsimt gadsimta gadsimtam gadsimti gadsimtiem gadsimtos gadsimtu gadsimtus gadsimtā
+36	936	jūrmala	jūrmalai jūrmalas jūrmalu jūrmalā
+37	937	īss	visīsākais īsa īsai īsais īsajai īsajam īsajiem īsajos īsajā īsajām īsajās īsam īsas īsie īsiem īso īsos īsu īsus īsā īsāks īsām īsās
+38	938	garums	garum garuma garumam garumi garumiem garumos garumu garumus garumā
+39	939	gāze	gāzei gāzes gāzi gāzu gāzē gāzēm gāzēs gāžu
+40	940	ekonomisks	ekonomiska ekonomiskai ekonomiskais ekonomiskajai ekonomiskajam ekonomiskajiem ekonomiskajos ekonomiskajā ekonomiskajām ekonomiskajās ekonomiskam ekonomiskas ekonomiskie ekonomiskiem ekonomisko ekonomiskos ekonomisku ekonomiskus ekonomiskā ekonomiskāks ekonomiskām ekonomiskās visekonomiskākais
+41	941	nolikt	jānoliek nenolikt nolicis noliec nolieciet noliek noliekam noliekams noliekat noliekot nolieku nolika nolikdams noliki noliks noliksi noliksiet noliksim nolikts noliktu noliku nolikām nolikāt nolikšana nolikšot nolikšu
+42	942	lietus	lieti lietiem lietos lietu lietum lietū
+43	943	vienkāršs	vienkārša vienkāršai vienkāršais vienkāršajai vienkāršajam vienkāršajiem vienkāršajos vienkāršajā vienkāršajām vienkāršajās vienkāršam vienkāršas vienkāršie vienkāršiem vienkāršo vienkāršos vienkāršu vienkāršus vienkāršā vienkāršāks vienkāršām vienkāršās visvienkāršākais
+44	944	kredīts	kredīta kredītu
+45	945	atvainoties	atvainodamies atvainojamies atvainojas atvainojies atvainojieties atvainojos atvainojoties atvainojāmies atvainojās atvainosies atvainosieties atvainosimies atvainotos atvainošanās atvainošos jāatvainojas
+46	946	kaimiņš	kaimiņ kaimiņa kaimiņam kaimiņi kaimiņiem kaimiņiene kaimiņos kaimiņu kaimiņus kaimiņā
+47	947	tēma	tēmas tēmu
+48	948	skaisti	
+49	949	akcija	akciju akcijā
+50	950	kabinets	kabineta kabinetā
+51	951	vienīgi	
+52	952	diskusija	diskusijai diskusijam diskusijas diskusiju diskusijā diskusijām diskusijās
+53	953	apjoms	apjoma apjomi apjomu
+54	954	lejā	
+55	955	izpildīt	izpilda izpildi izpildiet izpildot izpildu izpildām izpildāms izpildāt izpildīja izpildīji izpildījis izpildīju izpildījām izpildījāt izpildīs izpildīsi izpildīsiet izpildīsim izpildīts izpildītu izpildīšana izpildīšot izpildīšu jāizpilda jāizpildot neizpildīt
+56	956	paziņot	paziņo paziņoja paziņojis paziņojusi
+57	957	jēga	jēgai jēgas jēgu jēgā
+58	958	bailes	baii baile bailēm bailēs baiļu
+59	959	ietvars	ietvaros
+60	960	joks	jok joka jokam joki jokiem jokos joku jokus jokā
+61	961	mest	jāmet mests mestu met meta metam metams metat meti metiet metis metot metu metām metīs metīsi metīsiet metīsim metīšot metīšu mezdams mešana nemest
+62	962	tuvoties	tuvojas tuvojoties
+63	963	virs	
+64	964	veiksme	veiksmei veiksmes veiksmi veiksmju veiksmē veiksmēm veiksmēs
+65	965	atlikt	atlicis atliek atlikušo
+66	966	tumšs	tumša tumšai tumšais tumšajai tumšajam tumšajiem tumšajos tumšajā tumšajām tumšajās tumšam tumšas tumši tumšie tumšiem tumšo tumšos tumšu tumšus tumšā tumšāks tumšām tumšās vistumšākais
+67	967	vilciens	vilciena vilcienam vilcieni vilcieniem vilcienos vilcienu vilcienus vilcienā
+68	968	tips	tip tipa tipam tipi tipiem tipos tipu tipus tipā
+69	969	metrs	metra metram metri metriem metros metru metrus metrā
+70	970	laipni	
+71	971	policists	policist policista policistam policiste policistei policistes policisti policistiem policistos policistu policistus policistā policistēm
+72	972	ļauns	visļaunākais ļauna ļaunais ļaunajai ļaunajam ļaunajiem ļaunajos ļaunajā ļaunajām ļaunam ļaunas ļauni ļaunie ļauniem ļauno ļaunos ļaunu ļaunus ļaunā ļaunāks ļaunām ļaunās
+73	973	sanākt	sanāca sanāk
+74	974	republika	republikai republikam republikas republiku republikā republikām republikās
+75	975	sekss	seks seksa seksam seksi seksiem seksu seksā
+76	976	pierādījums	pierādījuma pierādījumam pierādījumi pierādījumiem pierādījumos pierādījumu pierādījumus pierādījumā
+77	977	pakalpojums	pakalpojumi pakalpojumus
+78	978	parādīties	parādās parādījās
+79	979	noskaidrot	noskaidroja noskaidrots noskaidrotu
+80	980	patiesi	
+81	981	ierīce	ierīcei ierīces ierīci ierīcē ierīcēm ierīcēs ierīču
+82	982	gaļa	gaļai gaļas gaļu gaļā gaļām
+83	983	atpūta	atpūtai atpūtas atpūtu atpūtā atpūtām atpūtās
+84	984	skaņa	skaņai skaņas skaņu skaņā skaņām skaņās
+85	985	noziegums	nozieguma noziegumam noziegumi noziegumiem noziegumos noziegumu noziegumus noziegumā
+86	986	mēgt	mēdz mēdza nemēdz
+87	987	apdrošināšana	apdrošināšanai apdrošināšanas apdrošināšanos apdrošināšanu apdrošināšanā apdrošināšanām apdrošināšanās
+88	988	būvniecība	būvniecībai būvniecības būvniecību būvniecībā būvniecībās
+89	989	mirklis	mirkli mirklī
+90	990	tapt	jātop netapt tapdams tapis taps tapsi tapsiet tapsim tapsit taptu tapu tapušais tapām tapāt tapšana tapšot tapšu top topam topat topi topiet topot topošais topošs topu
+91	991	pavadīt	pavada pavadīja
+92	992	pēda	pēdai pēdam pēdas pēdi pēdu pēdus pēdā pēdām pēdās
+93	993	spēlētājs	spēlētāji spēlētājiem spēlētāju
+94	994	ezers	ezera ezeram ezeri ezeriem ezeros ezeru ezerus ezerā
+95	995	lidosta	lidostai lidostas lidostu lidostā lidostām lidostās
+96	996	parakstīt	jāparaksta neparakstīt paraksta paraksti parakstiet parakstot parakstu parakstām parakstāms parakstāt parakstīja parakstīji parakstījis parakstīju parakstījām parakstījāt parakstīs parakstīsi parakstīsiet parakstīsim parakstīts parakstītu parakstīšana parakstīšot parakstīšu
+97	997	atbrīvot	atbrīvo atbrīvoja atbrīvojam atbrīvojams atbrīvojat atbrīvoji atbrīvojiet atbrīvojis atbrīvojot atbrīvoju atbrīvojām atbrīvojāt atbrīvos atbrīvosi atbrīvosiet atbrīvosim atbrīvots atbrīvotu atbrīvošana atbrīvošot atbrīvošu jāatbrīvo neatbrīvot
+98	998	uzbrukt	jāuzbrūk neuzbrukt uzbrucis uzbruka uzbrukdams uzbruki uzbruks uzbruksi uzbruksim uzbrukts uzbruktu uzbruku uzbrukām uzbrukāt uzbrukšana uzbrukšot uzbrukšu uzbrūc uzbrūciet uzbrūk uzbrūkam uzbrūkat uzbrūkot uzbrūkošs uzbrūku
+99	999	amerikānis	amerikāni amerikāniete amerikānietei amerikānietes amerikānieti amerikānietēm amerikānim amerikāņa amerikāņi amerikāņiem amerikāņos amerikāņu amerikāņus
+100	1000	vērtēt	jāvērtē nevērtēt vērtē vērtēdams vērtēja vērtējam vērtējams vērtējat vērtējiet vērtējis vērtējot vērtējošs vērtēju vērtējām vērtējāt vērtēs vērtēsi vērtēsiet vērtēsim vērtēts vērtētu vērtēšana vērtēšot vērtēšu

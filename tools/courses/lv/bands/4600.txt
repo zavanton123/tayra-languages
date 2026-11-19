@@ -1,100 +1,100 @@
-1	4501	pekle	peka pekles pekli peklē
-2	4502	kristības	kristību kristībām
-3	4503	minerālūdens	minerālūdeni minerālūdeņus
-4	4504	socioloģija	socioloģijas socioloģiju socioloģijā
-5	4505	pikēt	pikē pikējam pikējām pikēšana
-6	4506	ornitologs	ornitologa ornitologi ornitologiem ornitologu
-7	4507	polārs	polārais polārajā polārie polāro polārā
-8	4508	provocēt	provocē provocēja provocējis provocējot provocējošs provocēts provocētu
-9	4509	visilgāk	
-10	4510	dzelzsbetons	dzelzsbetona dzelzsbetonu
-11	4511	afrikānis	afrikāni afrikāņi afrikāņiem afrikāņu
-12	4512	olīva	olīvas olīvu olīvām
-13	4513	viņējs	viņējai viņējam viņējiem viņējos viņējā viņējām viņējās
-14	4514	truls	trulais truli trulos trulu
-15	4515	cilvēcība	cilvēcībai cilvēcības cilvēcību
-16	4516	darbaļaudis	darbaļaudīm darbaļaužu
-17	4517	nelietīgs	nelietīga nelietīgais nelietīgas nelietīgi nelietīgie nelietīgo nelietīgā
-18	4518	neziemot	ziemo ziemošanas
-19	4519	plosīt	plosa plosi plosošs plosīja plosītu plosīšana
-20	4520	elektrons	elektroni elektronu elektronus elektronā
-21	4521	bize	bizes bizi bizē bizēs
-22	4522	smilts	
-23	4523	sauļošanās	
-24	4524	zāģēt	jāzāģē nezāģē zāģē zāģējam zāģējot zāģēti zāģēts zāģēšana zāģēšanas zāģēšanu
-25	4525	šopavasar	
-26	4526	latīniski	
-27	4527	zvejniecība	zvejniecības zvejniecību zvejniecībā
-28	4528	sauļoties	sauļojamies sauļojas sauļojoties sauļojās
-29	4529	veiklāk	
-30	4530	ateja	atejam atejas ateju atejā atejās
-31	4531	skaitliski	
-32	4532	palodze	palodzes palodzi palodzēm palodzēs palodžu
-33	4533	vilnītis	vilnīti vilnīša vilnīšu vilnīšus
-34	4534	jēdzīgs	jēdzīga jēdzīgas jēdzīgiem jēdzīgu jēdzīgā
-35	4535	apmierinājums	apmierinājuma apmierinājumu
-36	4536	šķiltavas	
-37	4537	lapsene	lapsenes lapsenēm lapseņu
-38	4538	pareizāks	pareizais pareizākais pareizākajai pareizāki pareizāko pareizākos pareizākus pareizākā pareizākām pareizākās vispareizākais vispareizākā
-39	4539	neatbildēts	neatbildēti neatbildētiem neatbildētos neatbildētu
-40	4540	pē	
-41	4541	skaitlisks	skaitliskais skaitliskajā skaitlisko skaitlisku skaitliskā
-42	4542	kumeļš	kumeļa kumeļam kumeļi kumeļu
-43	4543	kreilis	kreile kreili kreiļa kreiļi
-44	4544	slāviete	slāvu
-45	4545	akcentējot	
-46	4546	minerālmēsli	minerālmēsliem minerālmēslu minerālmēslus
-47	4547	ģeogrāfiski	
-48	4548	ielasmeita	ielasmeitas ielasmeitu ielasmeitām
-49	4549	pudiņš	pudiņ pudiņa pudiņu pudiņā
-50	4550	naidnieks	naidnieka naidniekam naidnieki naidniekiem naidnieku
-51	4551	caurspīdīgi	
-52	4552	gigantisks	gigantiska gigantiskais gigantiskas gigantiski gigantiskiem gigantisko gigantisku gigantiskā gigantiskās
-53	4553	mikroskops	mikroskopa mikroskopu mikroskopā
-54	4554	valodniece	valodnieki valodnieks
-55	4555	slids	slidas slido slidu slidām
-56	4556	grauzējs	grauzēji grauzējiem grauzēju grauzējus
-57	4557	šauri	
-58	4558	tūska	tūskas tūsku
-59	4559	rapsis	rapšu
-60	4560	apetīte	
-61	4561	esība	esībai esības esību esībā
-62	4562	ķeltiete	ķeltu
-63	4563	sautējums	sautējumam sautējumiem sautējumu sautējumā
-64	4564	bots	bot bota botam boti botu
-65	4565	žāvēt	žāvē žāvējot žāvēts žāvētu žāvēšana
-66	4566	meija	meijas
-67	4567	velties	velies velsies veļas vēlāmies vēlās
-68	4568	apdegums	apdegumus
-69	4569	neprotam	
-70	4570	gruzīns	gruzīnam gruzīni gruzīnu
-71	4571	šoziem	
-72	4572	ubadze	ubadzei ubaga ubagi ubagiem ubagu ubagus
-73	4573	deaktivizēt	deaktivizējot deaktivizējām deaktivizēs deaktivizēts deaktivizēšana
-74	4574	dzīvespriecīgs	dzīvespriecīga dzīvespriecīgais dzīvespriecīgajiem dzīvespriecīgas dzīvespriecīgi dzīvespriecīgie dzīvespriecīgu dzīvespriecīgā dzīvespriecīgām
-75	4575	vajagot	
-76	4576	olis	oli oļi oļiem oļu oļus
-77	4577	leopards	leopard leoparda leopardam leopardi leopardu
-78	4578	milzenis	milzene milzeni milzenī milzeņi milzeņiem milzeņus
-79	4579	baidīt	baida baidu baidīja baidījis baidījām nebaidīt
-80	4580	pī	
-81	4581	nodomāt	nodomāja
-82	4582	celtnis	celtni celtnim celtņa celtņi celtņiem celtņu celtņus
-83	4583	zīt	zina zini zinis zinu zīda zīdu zīšanas zīžu
-84	4584	gājputns	gājputni gājputniem gājputnu gājputnus
-85	4585	izbrīns	izbrīna izbrīnu izbrīnā
-86	4586	segli	seglos seglu seglus
-87	4587	lazda	lazdas lazdu lazdām
-88	4588	demokrātiski	
-89	4589	zooloģisks	zooloģiskais zooloģiskajam zooloģiskajā zooloģisko zooloģiskā
-90	4590	hroms	hroma hromu
-91	4591	psihiski	
-92	4592	datne	datnei datnes datni datnēm datņu
-93	4593	likumība	likumībai likumības likumību
-94	4594	aizkuņģa	
-95	4595	pareģis	pareģa pareģi pareģiem pareģu pareģī
-96	4596	sarežģīt	
-97	4597	rodeo	
-98	4598	centīgs	centīgajiem centīgam centīgi centīgiem centīgo centīgu centīgāk centīgākie centīgāks centīgām
-99	4599	komfortabli	
-100	4600	mutisks	mutiska mutiskai mutiskais mutiskajā mutiskas mutisko mutisku mutiskus mutiskā mutiskām
+1	4501	dancot	danco dancoja dancojam dancojis dancojot dancoju dancojām dancos dancosi dancosiet dancosim dancotu dancošana dancošanai dancošanas dancošanu dancošu jādanco nedancot
+2	4502	zaldāts	zaldāta zaldātam zaldāti zaldātiem zaldātu zaldātus
+3	4503	zeltains	zeltaina zeltainais zeltainajam zeltainajiem zeltainajā zeltainajām zeltainajās zeltainam zeltainas zeltainie zeltainiem zeltaino zeltainos zeltainu zeltainus zeltainā zeltainām zeltainās
+4	4504	labvēlis	labvēli labvēlim labvēļa labvēļi labvēļiem labvēļu labvēļus
+5	4505	izejmateriāls	izejmateriāla izejmateriālam izejmateriāli izejmateriāliem izejmateriālos izejmateriālu izejmateriālus izejmateriālā
+6	4506	dzīvsudrabs	dzīvsudraba dzīvsudrabu
+7	4507	tūska	tūskai tūskas tūsku tūskām
+8	4508	reaktors	
+9	4509	podnieks	podnieka podniekam podnieki podniekiem podniekos podnieku
+10	4510	nūjošana	nūjošanai nūjošanas nūjošanu nūjošanā
+11	4511	psihiatrija	psihiatrijai psihiatrijas psihiatriju psihiatrijā
+12	4512	deaktivizēt	deaktivizējis deaktivizējot deaktivizējām deaktivizēs deaktivizēts deaktivizēšana
+13	4513	apse	apsei apses apsi apsēm apsēs apšu
+14	4514	sarunvaloda	sarunvalodai sarunvalodas sarunvalodu sarunvalodā
+15	4515	džudo	
+16	4516	pasīvi	
+17	4517	putekšņi	putekšņiem putekšņu putekšņus
+18	4518	restaurēt	jārestaurē restaurē restaurēja restaurējam restaurējams restaurējis restaurējot restaurēju restaurējām restaurēs restaurēts restaurētu restaurēšana
+19	4519	paduse	padusei paduses padusi padusē padusēm padusēs padušu
+20	4520	biškopība	biškopībai biškopības biškopību biškopībā
+21	4521	ledains	ledaina ledainais ledainajai ledainajos ledainajā ledainajām ledainas ledaini ledainie ledainiem ledaino ledainos ledainu ledainā ledaināks ledainām ledainās
+22	4522	ķīmiķis	ķīmiķa ķīmiķe ķīmiķes ķīmiķi ķīmiķiem ķīmiķim ķīmiķos ķīmiķu ķīmiķus
+23	4523	paart	paar paara paari paariet paaris paarsi paarsit
+24	4524	irānis	irāni irānim irāņi irāņiem irāņu irāņus
+25	4525	sistemātisks	sistemātiska sistemātiskai sistemātiskais sistemātiskajiem sistemātiskam sistemātiskas sistemātiskiem sistemātisko sistemātisku sistemātiskus sistemātiskā sistemātiskām sistemātiskās
+26	4526	caurspīdīgi	
+27	4527	pakavs	pakava pakavi pakaviem pakavos pakavu pakavus pakavā
+28	4528	čūla	čūlas čūlu čūlā čūlām čūlās
+29	4529	krājaizdevu	
+30	4530	pareģis	pareģa pareģe pareģes pareģi pareģiem pareģim pareģos pareģu pareģēm pareģī
+31	4531	ģeometrija	ģeometrijai ģeometrijas ģeometriju ģeometrijā ģeometrijām
+32	4532	znots	znota znotam znoti znotiem znotu
+33	4533	mocīt	
+34	4534	garīgums	garīguma garīgumam garīgumu garīgumā
+35	4535	rokmūzika	rokmūzikai rokmūzikas rokmūziku rokmūzikā
+36	4536	kreilis	kreile kreili kreiļa kreiļi kreiļiem kreiļu
+37	4537	pārtulkot	jāpārtulko pārtulko pārtulkoja pārtulkojam pārtulkojams pārtulkojiet pārtulkojis pārtulkojot pārtulkoju pārtulkos pārtulkotais pārtulkots pārtulkotu pārtulkošana pārtulkošanai pārtulkošanas pārtulkošanu pārtulkošu
+38	4538	vējdzirnavas	vējdzirnavu vējdzirnavām vējdzirnavās
+39	4539	guļammaiss	guļammais guļammaisa guļammaisam guļammaisi guļammaisiem guļammaisos guļammaisu guļammaisus guļammaisā
+40	4540	bots	bot bota botam boti botiem botu botus
+41	4541	bize	bizei bizes bizi bizē bizēm bizēs bižu
+42	4542	mutisks	mutiska mutiskai mutiskais mutiskajai mutiskajiem mutiskajos mutiskajā mutiskam mutiskas mutiskie mutiskiem mutisko mutiskos mutisku mutiskus mutiskā mutiskām mutiskās
+43	4543	rodeo	
+44	4544	neba	
+45	4545	kustēt	jākust kustam kustams kusti kustiet kustu kustēs kustēsim kustēts kustēšu
+46	4546	lustra	lustrai lustras lustru lustrā lustrām
+47	4547	kaķene	kaķenei kaķenes kaķeni kaķenēm kaķeņu
+48	4548	afrikānis	afrikāni afrikānim afrikāņi afrikāņiem afrikāņos afrikāņu afrikāņus
+49	4549	censonis	censone censones censoni censonim censonēm censoņa censoņi censoņiem censoņu censoņus
+50	4550	hlors	hlora hloru
+51	4551	krīts	krīt krīta krītam krīti krītos krītu krītus
+52	4552	vieninieks	vieniniek vieninieka vieniniekam vieninieki vieniniekiem vieniniekos vieninieku vieniniekus vieniniekā
+53	4553	sarežģīt	
+54	4554	darva	darvas darvu darvā
+55	4555	deviņpadsmit	
+56	4556	elkoni	
+57	4557	intonācija	intonācijas intonāciju intonācijā
+58	4558	dzimumloceklis	dzimumlocekli dzimumloceklim dzimumloceklī dzimumlocekļa dzimumlocekļi
+59	4559	aizkuņģa	
+60	4560	fizkultūra	fizkultūrai fizkultūras fizkultūru fizkultūrā
+61	4561	galdauts	galdaut galdauta galdautam galdauti galdautiem galdautos galdautu galdautus galdautā
+62	4562	produktīvi	
+63	4563	rezumē	
+64	4564	debils	debila debilai debilais debilajai debilajam debilajiem debilam debilas debili debilie debiliem debilo debilos debilu debilus debilā debilās
+65	4565	noslēpumainība	noslēpumainībai noslēpumainības noslēpumainību
+66	4566	krūškurvis	krūškurvi krūškurvim krūškurvja krūškurvī
+67	4567	trompete	trompetei trompetes trompeti trompetēm trompešu
+68	4568	bezrūpīgs	bezrūpīga bezrūpīgai bezrūpīgais bezrūpīgajiem bezrūpīgajā bezrūpīgajās bezrūpīgam bezrūpīgas bezrūpīgie bezrūpīgiem bezrūpīgo bezrūpīgos bezrūpīgu bezrūpīgus bezrūpīgā bezrūpīgāks bezrūpīgās visbezrūpīgākais
+69	4569	programmētājs	
+70	4570	izputēt	izput izputot izputēja izputējis izputēju izputēs izputētu izputēšana neizputēt
+71	4571	tūkstošgade	tūkstošgadei tūkstošgades tūkstošgadi tūkstošgadē tūkstošgadēm tūkstošgadēs tūkstošgažu
+72	4572	ananass	ananasa ananasam ananasi ananasiem ananasu ananasus ananāss
+73	4573	burātājs	burātāja burātājam burātāji burātājiem burātāju burātājus
+74	4574	datne	datnei datnes datni datnē datnēm datņu
+75	4575	lācēns	lācēn lācēna lācēnam lācēni lācēniem lācēnu lācēnus
+76	4576	ventilators	ventilatora ventilatoram ventilatori ventilatoriem ventilatoru ventilatorus
+77	4577	streiks	
+78	4578	pilēt	pil pilam pili pilot pilu pilēja pilējis pilēs pilēšana
+79	4579	žirafe	
+80	4580	zilbe	zilbei zilbes zilbi zilbju zilbēm zilbēs
+81	4581	kņaziene	kņazienei kņazienes kņazieni
+82	4582	nākošnedēļ	
+83	4583	nacionāli	
+84	4584	īsteni	
+85	4585	sarkt	jāsarkst nesarkt sarka sarkdams sarkst sarkstam sarkstat sarksti sarkstu sarktu sarku sarkšana sarkšanas sarkšanu
+86	4586	blaka	blakam blakos blaku blakām
+87	4587	minerālmēsli	minerālmēsliem minerālmēslu minerālmēslus
+88	4588	observatorija	observatorijai observatorijas observatoriju observatorijā observatorijām
+89	4589	svilpt	jāsvilpj svilp svilpa svilpi svilpis svilpj svilpjot svilps svilpts svilpšana
+90	4590	mošeja	mošejai mošejas mošeju mošejā mošejām mošejās
+91	4591	idiotisks	idiotiska idiotiskais idiotiskajam idiotiskajiem idiotiskajā idiotiskam idiotiskas idiotiski idiotiskie idiotiskiem idiotisko idiotiskos idiotisku idiotiskus idiotiskā idiotiskām idiotiskās
+92	4592	agrums	agruma agrumam agrumi agrumu agrumā
+93	4593	jaukums	jaukum jaukuma jaukumam jaukumi jaukumiem jaukumos jaukumu jaukumus jaukumā
+94	4594	skaitliski	
+95	4595	pakalt	pakal pakala pakali pakalu pakaļu
+96	4596	bērnunams	bērnunama bērnunamam bērnunami bērnunamiem bērnunamos bērnunamus
+97	4597	zeltaini	
+98	4598	dzimte	dzimos dzimtei dzimtes dzimti dzimtē dzimtēs dzimšu
+99	4599	medicīniski	
+100	4600	amonjaks	amonjaka amonjaku amonjakus amonjakā
