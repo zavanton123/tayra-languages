@@ -27,6 +27,7 @@ import unicodedata
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import frequency_cornish  # noqa: E402
+import frequency_bengali  # noqa: E402
 import frequency_kannada  # noqa: E402
 import frequency_persian  # noqa: E402
 
@@ -40,6 +41,12 @@ HINDI_WORD = re.compile(r"[a-zA-Z\u0900-\u0963\u0966-\u097f\u200c\u200d]+")
 # Kannada words as the reader cuts them (its wordCharacters in AddedLanguages.kt): the Kannada block with its vowel signs,
 # virama and digits, and the joiners; Python's \w leaves out the signs and would cut every word.
 KANNADA_WORD = re.compile(r"[\u0c80-\u0cff\u200c\u200d]+")
+# Bengali words as the reader cuts them (its wordCharacters in PredefinedLanguages.kt): the Bengali block with its vowel
+# signs, virama and digits; Python's \w leaves out the signs and would cut every word. The joiners are no part of a word.
+BENGALI_WORD = re.compile(r"[\u0980-\u09ff]+")
+# The endings a Bengali name takes (রিনার, রিনাকে, ঢাকায়, রাফিদের), and the clitics -ই and -ও after them.
+BENGALI_NAME_ENDINGS = sorted({e + c for e in frequency_bengali.CONSONANT_TAILS + frequency_bengali.VOWEL_TAILS + ["য়ে"]
+                               for c in ("", "ই", "ও")} | {"ই", "ও"}, key=len, reverse=True)
 PERSIAN_WORD = re.compile(r"[^\W\d_]+(?:\u200c[^\W\d_]+)*", re.UNICODE)
 # Yiddish words as the reader cuts them (its wordCharacters in AddedLanguages.kt): Hebrew letters with their points, the
 # maqaf, the geresh and gershayim, the presentation forms, and the apostrophe, which its characterSubstitutions write for
@@ -683,6 +690,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return YIDDISH_WORD.findall(text.translate(YIDDISH_APOSTROPHES))
     if code == "kn":
         return KANNADA_WORD.findall(text)
+    if code == "bn":
+        return BENGALI_WORD.findall(text)
     # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
     if code == "fa":
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
@@ -2560,7 +2569,7 @@ QUESTION_HEADERS = {
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "សំណួរ៖", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
-        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:",
+        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
     )
 }
 
@@ -2826,6 +2835,11 @@ def check(path, brief=False):
     # Mongolian names take the case endings joined (Доржийн, Доржид, Ануг, Ховдоос).
     if code == "mn":
         names = names | mongolian_name_forms(course.get("names", []))
+    # A Bengali name takes its case endings and clitics written on (রিনার, রিনাকেও, ঢাকায়); one of several words (নিউ ইয়র্ক)
+    # counts as one known word wherever it is written whole.
+    if code == "bn":
+        names = names | {n + ending for n in names for ending in BENGALI_NAME_ENDINGS}
+        long_names = sorted((n for n in course.get("names", []) if " " in n), key=len, reverse=True)
     if code == "uk":
         names = names | ukrainian_name_forms(course.get("names", []))
     # A Yiddish name takes the possessive -ס, or -עס after a sibilant, or -'ס (חנהס, מאָריסעס, מאָשע'ס).
@@ -2953,6 +2967,11 @@ def check(path, brief=False):
                 whole_names += len(pattern.findall(text))
                 text = pattern.sub(" ", text)
                 continue
+            if code == "bn":
+                pattern = re.compile(r"(?<![\u0980-\u09ff])" + re.escape(name) + "(?:" + "|".join(BENGALI_NAME_ENDINGS) + r")?(?![\u0980-\u09ff])")
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(" ", text)
+                continue
             if code == "br":
                 pattern = breton_name_pattern(name)
                 whole_names += len(pattern.findall(text))
@@ -3056,6 +3075,10 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^सवाल:", "", text)
         if code == "kn":
             text = re.sub(r"(?m)^ಪ್ರಶ್ನೆಗಳು:", "", text)
+        if code == "bn":
+            text = re.sub(r"(?m)^প্রশ্ন:", "", text)
+            # A number in Bengali or Western digits, with the classifier or ending written on (১০টা, ৫ জন's ৫, ২০২৪-এ), is a number.
+            text = re.sub(r"[০-৯0-9]+(?:-?[\u0980-\u09ff]+)?", " ", text)
         if code == "th":
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "vi":
@@ -3141,6 +3164,11 @@ def check(path, brief=False):
         # rules the list was built with (frequency_kannada).
         if code == "kn":
             lowered = [w if w in ranks or w in names else frequency_kannada.checker_word(w, words, ranks, names) or w for w in lowered]
+        # A Bengali word with the clitic -ই "just" or -ও "also" written on (দেশেও, আমিই) that the list lacks is read as the
+        # form without it.
+        if code == "bn":
+            lowered = [w if w in ranks or w in names or len(w) < 3 or w[-1] not in "ইও" or w[:-1] not in ranks else w[:-1]
+                       for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
@@ -3182,6 +3210,9 @@ def check(path, brief=False):
             problems.append("vowel signs or tatweel in the text: write it unvowelled")
         if code == "grc":
             problems += greek_problems(lesson["text"])
+        # The list and the dictionary have Bengali in NFC (য় as য + ়): a precomposed ড় ঢ় য় is another word to them.
+        if code == "bn" and unicodedata.normalize("NFC", lesson["text"]) != lesson["text"]:
+            problems.append("ড় ঢ় or য় typed as one character: write the text in NFC (letter + nukta)")
         if coverage < need:
             problems.append(f"coverage {coverage:.1%} < {need:.0%}")
         if not shortest <= len(lowered) <= longest:
