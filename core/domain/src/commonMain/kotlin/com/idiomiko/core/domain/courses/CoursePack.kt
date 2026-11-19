@@ -419,6 +419,14 @@ object CoursePacks {
             url = "$BASE_URL/courses-he.sqlite.gzip",
             downloadSize = 1_012_899,
         ),
+        CoursePack(
+            id = "courses-tok",
+            languageCode = "tok",
+            title = "Toki Pona",
+            summary = "2 courses, 20 lessons: mini stories that teach the whole language, about 180 words.",
+            url = "$BASE_URL/courses-tok.sqlite.gzip",
+            downloadSize = 7_556,
+        ),
     )
 
     fun forLanguage(code: String): List<CoursePack> = all.filter { it.languageCode == code }
