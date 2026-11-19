@@ -2627,8 +2627,9 @@ OVERRIDES["br"].update({"wele": ["gwelet"], "zen": ["den"], "gelaouenn": ["kelao
 # Nouns of their own the pack also files as their verbs' forms (harz "border" of herzel, beaj "journey" of beajiñ), and kerent
 # "relatives", kar's plural, not gar's.
 OVERRIDES["br"].update({"harz": ["harz"], "beaj": ["beaj"], "kerent": ["kar"]})
-# ra is the pack's wishing particle (ra vezo), but texts write it as ober's present (bevañ a ra, petra a ra?).
-OVERRIDES["br"]["ra"] = ["ober"]
+# ra is the pack's wishing particle (ra vezo) and ran its "frog", but texts write them as ober's present (bevañ a ra, petra a
+# ran?).
+OVERRIDES["br"].update({"ra": ["ober"], "ran": ["ober"]})
 # Noise: fed "fact" (no word of the pack, else filed under pediñ), a number, a name, a misspelling filed under genver; and
 # words of no entry filed under look-alikes (framm "frame" under bramm, plas "place" under blaz), Paris and Mari under
 # parañ, English new under nev.

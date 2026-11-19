@@ -1,5 +1,5 @@
 # source: Leipzig Corpora Collection bre_wikipedia_2021_100K (terms at https://wortschatz.uni-leipzig.de/en/download)
-# words: 5171
+# words: 5170
 ar	ar an al
 e	e
 bezañ	oa zo voe bet vez vezañ bezañ veze emañ vefe vo oant bez vezont oc'h edo voent vezent bec'h oar emaint fent on vezo ben vezer bezioù oan vint omp boent emeur be bezen vehe emaomp out vezan vin emaon
@@ -10,7 +10,7 @@ ur	ur un unan ul
 er	en er el
 gant	gant gantañ ganto ganti gante ganeoc'h ganeomp ganin ganit ganimp kante kanto ganeor
 eus	eus anezho anezhañ anezhi anezhe ac'hanomp ac'hanon ac'hanoc'h anezhoñ ac'hanout
-ober	reas ra graet ober reer rae reont rejont raio raent rafe eure oberoù ray raed gris reomp gran raje rez rin rit c'hris raint refont gray c'hraet rafent gra graer rejod grit ris greomp kris c'hraer greer grin grisañ raen
+ober	reas ra graet ober reer rae reont rejont raio raent rafe eure oberoù ray raed gris reomp ran gran raje rez rin rit c'hris raint refont gray c'hraet rafent gra graer rejod grit ris greomp kris c'hraer greer grin grisañ
 eo	eo
 o	o
 evit	evit evitañ evito eviti evite evidomp evidoc'h evidon
@@ -1585,7 +1585,6 @@ war-c'horre	war-c'horre
 fizik	fizik
 digemm	digemm
 hollvedel	hollvedel
-ran	ran raned
 lec'hanvadurezh	lec'hanvadurezh
 douaroniezh	douaroniezh zouaroniezh
 deiz-ha-bloaz	deiz-ha-bloaz zeiz-ha-bloaz deizioù-ha-bloaz
