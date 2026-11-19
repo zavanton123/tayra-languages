@@ -75,6 +75,7 @@ SOURCES = {
     "gl": ("Galician", "galician", "dictionaries/kaikki.org-dictionary-Galician.jsonl.gz"),
     # wiktionary-to-yomitan has no Breton dictionary, so Breton is built from kaikki.org here.
     "br": ("Breton", "breton", "dictionaries/kaikki.org-dictionary-Breton.jsonl.gz"),
+    "ms": ("Malay", "malay", "dictionaries/kaikki.org-dictionary-Malay.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -105,6 +106,8 @@ SHARED_FORM_SOURCES = {"ja", "zh", "yue"}
 SKIP_FORM_TAGS_BY_SOURCE = {
     "fi": {"possessive", "singular-possessive", "plural-possessive"},
     "hu": {"possessive", "possessed-single", "possessed-many", "error-unrecognized-form"},
+    # Malay entries give each word's Jawi spelling as a form; the app reads Malay in Latin letters.
+    "ms": {"Jawi"},
 }
 # A prose "form of X" gloss: the lemma is the last word, possibly after "(to)".
 PROSE_FORM_RE = re.compile(r"\b(?:de|del|do|da|of|von|von dem)\s+(?:\(to\)\s+)?([^\s()]+?)[.。]?$")
@@ -510,7 +513,8 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
     """
     cleaner = CLEANERS.get(source, lambda word: word)
     skip_tags = SKIP_FORM_TAGS | SKIP_FORM_TAGS_BY_SOURCE.get(source, set())
-    latin_only = source == "hr"
+    # Croatian is written in Latin letters; Malay too, its Jawi spellings (forms and entries of their own) left out.
+    latin_only = source in ("hr", "ms")
     db, path = open_output(out_path)
     db.execute("CREATE UNIQUE INDEX forms_unique ON forms(form_lc, lemma)")
     entry_rows, form_rows, seen, next_id = [], [], 0, 1
@@ -528,6 +532,11 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
     def cyrillic(text):
         return any("\u0400" <= c <= "\u04ff" for c in text)
 
+    def jawi(text):
+        return any("\u0600" <= c <= "\u06ff" or "\u0750" <= c <= "\u077f" for c in text)
+
+    foreign = jawi if source == "ms" else cyrillic
+
     print(f"Reading {en_path}", file=sys.stderr)
     with open_text(en_path) as f:
         for line in f:
@@ -536,14 +545,14 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 print(f"  scanned {seen:,} entries, kept {entry_count:,} with {form_count + len(form_rows):,} forms", file=sys.stderr)
             d = json.loads(line)
             word = cleaner(d.get("word", "").strip())
-            if not word or (latin_only and cyrillic(word)):
+            if not word or (latin_only and foreign(word)):
                 continue
             senses = []
             for s in d.get("senses", []):
                 tags = s.get("tags", [])
                 targets = [cleaner(x["word"]) for x in s.get("form_of", []) + s.get("alt_of", []) if x.get("word")]
                 for lemma in targets:
-                    if is_clean_form(word, lemma) and not (latin_only and cyrillic(lemma)):
+                    if is_clean_form(word, lemma) and not (latin_only and foreign(lemma)):
                         form_rows.append((lowercase(word, source), lemma))
                         pointer_count += 1
                 if targets or "form-of" in tags or "alt-of" in tags:
@@ -573,7 +582,7 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 if skipped_form(x, skip_tags):
                     continue
                 form = cleaner(x.get("form", "").strip())
-                if not is_clean_form(form, word) or (latin_only and cyrillic(form)):
+                if not is_clean_form(form, word) or (latin_only and foreign(form)):
                     continue
                 form_rows.append((lowercase(form, source), word))
                 pos_inflected.add((pos, word))
