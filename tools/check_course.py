@@ -558,6 +558,25 @@ def georgian_name(word, names):
     return False
 
 
+# The case endings a Basque name takes, written onto it (Mikelek, Aneri, Bilbora, Gasteizetik, Donostiako, Mikelekin).
+BASQUE_NAME_ENDINGS = frozenset((
+    # After a vowel (Ane, Bilbo, Donostia).
+    "k ri ren rena rekin rentzat rengatik rengana rengandik rengan n ra tik ko koa koak raino rantz rako z gatik "
+    # After a consonant (Mikel, Gasteiz).
+    "ek i en ena ekin entzat engatik engana engandik engan era etik eko ekoa ekoak eraino erantz erako ez egatik"
+).split())
+
+
+def basque_name(word, names):
+    """Whether a word the list lacks is a name in `names` with a case ending (Mikelek, Bilbon, Gasteizera), a name in -r
+    doubling it (Oierrek, Xabierren)."""
+    for name in names:
+        rest = word[len(name):] if len(name) > 2 and word.startswith(name) else None
+        if rest is not None and (rest in BASQUE_NAME_ENDINGS or name.endswith("r") and rest[:1] == "r" and rest[1:] in BASQUE_NAME_ENDINGS):
+            return True
+    return False
+
+
 def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=None):
     if code == "ka":
         return GEORGIAN_WORD.findall(text)
@@ -2428,7 +2447,7 @@ QUESTION_HEADERS = {
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
-        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:",
+        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:",
     )
 }
 
@@ -2751,6 +2770,9 @@ def check(path, brief=False):
     if code == "hu":
         names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in n.split()}
         hu_verbs = hungarian_verbs(words)
+    # A Basque name of several words (Donibane Lohizune) counts word by word, each part with its case endings (basque_name).
+    if code == "eu":
+        names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in re.split(r"[\s-]+", n) if part}
     # A Latin word the list lacks counts as a case form of a name (Marcum, Romae) or as the word before its enclitic.
     if code == "la":
         la_names = latin_name_forms(course.get("names", []))
@@ -2924,6 +2946,10 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Асуултууд:", "", text)
         if code == "lv":
             text = re.sub(r"(?m)^Jautājumi:", "", text)
+        if code == "eu":
+            text = re.sub(r"(?m)^Galderak:", "", text)
+            # A case ending written onto digits (7etan, 2020an, 3ra) is part of the number.
+            text = re.sub(r"(?<=\d)[^\W\d_]+", "", text)
         if code == "hy":
             text = re.sub(r"(?m)^Հարցեր[:։․]", "", text)
             # A number's ending written after a hyphen (ժամը 7-ին, 5-րդ, 1990-ական) is part of the number.
@@ -2978,6 +3004,8 @@ def check(path, brief=False):
             lowered = [w if w in ranks or w in names or greek_bare(w) not in grc_names else "\u0000name" for w in lowered]
         if code == "ka":
             lowered = [w if w in ranks or w in names or not georgian_name(w, names) else "\u0000name" for w in lowered]
+        if code == "eu":
+            lowered = [w if w in ranks or w in names or not basque_name(w, names) else "\u0000name" for w in lowered]
         if code == "fa":
             dictionary = os.path.join(ROOT, "dictionaries", "fa-en.sqlite")
             lowered = [w if w in ranks or w in names else frequency_persian.checker_word(w, ranks, dictionary) or w for w in lowered]
