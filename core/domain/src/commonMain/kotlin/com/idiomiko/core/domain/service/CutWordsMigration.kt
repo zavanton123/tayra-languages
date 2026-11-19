@@ -30,7 +30,8 @@ import com.idiomiko.core.domain.term.TermTextNormalizer
  * its words are kept as Thai's are. Armenian cuts nothing, but
  * matches և written as two letters (կարեւոր) as the one (կարևոր). Ancient Greek cuts nothing either, but matches a word
  * with the accent it has standing alone (καλὸς as καλός, ἄνθρωπός as ἄνθρωπος). Maltese's came to cut a word cut short
- * before another (f'Malta is f' + Malta), so a word saved so is the word after it. Run at start: it changes nothing once the terms are as
+ * before another (f'Malta is f' + Malta), so a word saved so is the word after it. Azerbaijani cuts nothing, but lowercases
+ * the dotted and dotless i as Turkish does (İndi as indi, Işıq as ışıq). Run at start: it changes nothing once the terms are as
  * the reader reads them.
  */
 class CutWordsMigration(
@@ -117,7 +118,9 @@ class CutWordsMigration(
 
     private companion object {
         /** The parsers that cut a word written as one into words, or match a saved word otherwise than it was saved. */
-        val PARSERS = setOf("arabic", "thai", "persian", "hebrew", "armenian", "ancientgreek", "manx", "lao", "maltese", "khmer")
+        val PARSERS = setOf(
+            "arabic", "thai", "persian", "hebrew", "armenian", "ancientgreek", "manx", "lao", "maltese", "khmer", "azerbaijani",
+        )
 
         /** Those whose saved words become the words they are cut into, without the apostrophes at their edges. */
         val EDGES_APART = setOf("manx")

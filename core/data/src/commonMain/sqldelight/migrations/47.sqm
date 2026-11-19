@@ -1,0 +1,4 @@
+-- Azerbaijani is read with its own parser, which lowercases the dotted and dotless i as Turkish does (İndi is indi, Işıq is
+-- ışıq); an Azerbaijani made before it was read as space-delimited text. Its saved words are matched again at start
+-- (CutWordsMigration).
+UPDATE languages SET parser_type = 'azerbaijani' WHERE name = 'Azerbaijani' AND parser_type = 'spacedel';
