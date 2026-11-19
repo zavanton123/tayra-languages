@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Hawaiian word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its other spellings and forms). Course `haw-mini-0300`
 teaches ranks 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of
 the band's words, so the course covers the band; a learner who finishes it knows the 300 most common
-words. `themes.tsv` gives each course its theme. The list has 1,599 words, so the courses go up to
-`haw-mini-1600` (its band has 99 words).
+words. `themes.tsv` gives each course its theme. The list has 1,600 words, so the courses go up to
+`haw-mini-1600`.
 
 ## What the lessons are: mini stories
 
@@ -159,7 +159,7 @@ Things to know about the Hawaiian list and the checker:
   body of Hawaiian text, so it is an encyclopedia's list: history, government, science and media words
   (*aupuni*, *mōʻī*, *kapikala*, *pelekikena*, *ʻepekema*, *polokalamu*) rank high, and kitchen and
   family words rank later than you would think (*keiki* 112, *ʻohana* 132, *makuakāne* 189, *makuahine*
-  204, *ʻai* 228, *wai* 259, *au* 270, *ʻoe* 411, *ʻīlio* 419, *pōpoki* 668, *inu* 931). A few everyday
+  204, *ʻai* 292 (*ʻaina* "meal" is a word of its own, 470), *wai* 259, *au* 270, *ʻoe* 411, *ʻīlio* 419, *pōpoki* 668, *inu* 931). A few everyday
   words were given a rank by hand because an encyclopedia hardly has them (*wau*, *ʻolua*, *ʻehia*,
   *nehinei*, *ʻānō*, *hoaaloha*, the days and months).
 - **Little words are entries of their own**, and many are homographs: *ka* 1 holds *ke* and *nā*; *i*
@@ -173,7 +173,7 @@ Things to know about the Hawaiian list and the checker:
   *kona* 21 "his, her" (and the Kona coast); *kahi* 25 "place" and "one"; *pū* 33 "together"; *lā* 39
   "day, sun" (with *la*, the old spelling of the particle); *hiki* 46 "can" and "to arrive"; *hou* 47
   "new, again"; *wā* 53 "time"; *loko* 63 "inside" (with *iloko*, *maloko*); *luna* 68 "top, above";
-  *aʻe* 73 "up, next"; *aʻo* 77 "to learn, teach"; *aku* 82 "away"; *ʻē* 83 "different, already"; *hoʻi*
+  *aʻe* 73 "up, next"; *aʻo* 77 "to learn, teach"; *aku* 82 "away"; *ʻē* 84 "different, already"; *hoʻi*
   86 "indeed, also" and "to return"; *nei* 92 "this, here"; *na* 96 "by, for"; *wai* 259 "water" and
   "who". Use each in its own sense, and count a new word's uses in its own sense only.
 - **Words the dictionary pack lacks**: the pack (`dictionaries/haw-en.sqlite`) has 2,900 Hawaiian
@@ -185,7 +185,7 @@ Things to know about the Hawaiian list and the checker:
 - **Names** are not in the list: people, places and brands go in `names`. Keep only true names in
   `names`, never common words, and never a name that is also a list word: as characters avoid *Mele*,
   *Kai*, *Pua*, *Lani*, *Nalu*, *Mahina*, *Makana*, *Hōkū*, *Koa*, *Nani*, *Ikaika*, *Maile*, *Nohea*,
-  *Luana*, *Kaimana*; as places *Kona* (his), *Hilo* (812, "to twist") and *Hāna* (1312) are list words
+  *Luana*, *Kaimana*; as places *Kona* (his), *Hilo* (810, "to twist") and *Hāna* (1312) are list words
   too: leave them out of `names` and use another town until their rank is in range. Safe in the pilot:
   *Keola*, *Leilani*, *Kainoa*, *Noelani*, *Kekoa*, *Kaleo*, *Malia*, *Keoni*, *Kawika*, *Kapono*,
   *Haunani*, *Iolani*, *Puanani*, *Keahi*, *Kalani*, *Kanoe*, *Kealoha*, *Lokelani*, *Kahiau*,
