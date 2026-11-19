@@ -87,6 +87,7 @@ SOURCES = {
     "af": ("Afrikaans", None, "dictionaries/kaikki.org-dictionary-Afrikaans.jsonl.gz"),
     "ur": ("Urdu", "urdu", "dictionaries/kaikki.org-dictionary-Urdu.jsonl.gz"),
     "ta": ("Tamil", None, "dictionaries/kaikki.org-dictionary-Tamil.jsonl.gz"),
+    "te": ("Telugu", None, "dictionaries/kaikki.org-dictionary-Telugu.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -163,7 +164,7 @@ def is_clean_form(form, lemma, source=None):
         return False
     if " " in form and " " not in lemma:
         return False
-    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else GURMUKHI_WORD_RE if source == "pa" else WORD_RE
+    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else TELUGU_WORD_RE if source == "te" else GURMUKHI_WORD_RE if source == "pa" else WORD_RE
     return all(word_re.match(part) for part in form.split())
 
 
@@ -286,6 +287,42 @@ def clean_bengali(word):
     return word
 
 
+# Telugu words are letters and vowel signs (which \w leaves out), as the reader reads them: no digits, no hyphen.
+TELUGU_LETTERS = "\u0c00-\u0c63\u200c\u200d"
+TELUGU_WORD_RE = re.compile(f"^[{TELUGU_LETTERS}]+$")
+TELUGU_RUN = re.compile(f"[{TELUGU_LETTERS}]+")
+
+
+def clean_telugu(word):
+    """A Telugu spelling in NFC; of a table cell that carries its romanisation or a note, the word it starts with."""
+    word = unicodedata.normalize("NFC", word).strip()
+    if re.search(r"[A-Za-z(/,]", word):
+        run = TELUGU_RUN.match(word)
+        return run.group(0) if run else ""
+    return word
+
+
+def telugu_translation_entries(kept):
+    """
+    The Telugu words the English Wiktionary's translation tables give that its Telugu entries lack, by part of speech, each
+    glossed with the English words it translates: word -> pos -> glosses.
+    """
+    entries = defaultdict(lambda: defaultdict(list))
+    with open_text(SOURCES["en"][2]) as f:
+        for line in f:
+            if '"code": "te"' not in line:
+                continue
+            d = json.loads(line)
+            for t in d.get("translations", []):
+                word = clean_telugu(t.get("word", "")) if t.get("code") == "te" else ""
+                if not word or word in kept or not TELUGU_WORD_RE.match(word):
+                    continue
+                gloss = d["word"] + (f" ({t['sense']})" if t.get("sense") else "")
+                if gloss not in entries[word][d.get("pos") or "unknown"]:
+                    entries[word][d.get("pos") or "unknown"].append(gloss)
+    return entries
+
+
 def bengali_translation_entries(kept, code="bn", clean=None, word_re=None):
     """
     The Bengali words the English Wiktionary's translation tables give that its Bengali entries lack (নেতা "leader", ঘন্টা
@@ -372,7 +409,7 @@ def punjabi_extra_entries(pa_path, kept):
 
 
 # How each source's spellings are normalised before matching, when it needs it at all.
-CLEANERS = {"bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
+CLEANERS = {"te": clean_telugu, "bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
             "ur": urdu_fold}
 
 
@@ -846,10 +883,11 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 flush()
     flush()
     label = f"English Wiktionary {SOURCES[source][0]} entries via kaikki.org"
-    if source in ("bn", "ta"):
+    if source in ("bn", "ta", "te"):
         kept = {w for (w,) in db.execute("SELECT word FROM entries")}
         translated = (bengali_translation_entries(kept) if source == "bn"
-                      else bengali_translation_entries(kept, "ta", clean_tamil, TAMIL_WORD_RE))
+                      else bengali_translation_entries(kept, "ta", clean_tamil, TAMIL_WORD_RE) if source == "ta"
+                      else telugu_translation_entries(kept))
         for word, by_pos in sorted(translated.items()):
             for pos, glosses in sorted(by_pos.items()):
                 senses = [{"glosses": [g]} for g in glosses]
