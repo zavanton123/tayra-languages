@@ -2651,7 +2651,10 @@ OVERRIDES["haw"] = {
     "māhele": ["māhele"], "mahele": ["māhele"], "kēkelē": ["kēkelē"], "kekele": ["kēkelē"],
     "kaʻaahi": ["kaʻaahi"], "kāʻahi": ["kaʻaahi"], "kamāliʻi": ["kamaliʻi"],
     "paʻakīkī": ["paʻakikī"], "lāpaʻau": ["lapaʻau"], "lepela": ["lēpela"], "pahī": ["pahi"], "hōʻemi": ["hoʻēmi"],
-    "ʻaupuni": ["aupuni"],
+    "ʻaupuni": ["aupuni"], "ano": ["ʻano"], "hoaloha": ["hoaaloha"], "tumu": ["kumu"], "akaka": ["akaaka"],
+    # Words of their own the pack files as forms of another: ʻā "fire, to burn" (not ʻaʻa), pipiʻi "expensive" (not piʻi),
+    # ʻaina "meal" (not ʻai), hoʻokala "to sharpen" (not kala), lepa "flag" (not lepe).
+    "ʻā": ["ʻā"], "pipiʻi": ["pipiʻi"], "ʻaina": ["ʻaina"], "hoʻokala": ["hoʻokala"], "lepa": ["lepa"],
     # Particles run together with their word, as older text writes them.
     "mamua": ["mua"], "mahope": ["hope"], "mawaena": ["waena"], "mawaho": ["waho"], "maluna": ["luna"], "malalo": ["lalo"],
     "maloko": ["loko"], "iloko": ["loko"], "iluna": ["luna"], "ilalo": ["lalo"], "iwaho": ["waho"], "āpau": ["pau"],

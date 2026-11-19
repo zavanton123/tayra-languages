@@ -1,5 +1,5 @@
 # source: haw.wikipedia.org articles (CC BY-SA 4.0) + the rest of haw.wikipedia.org (CC BY-SA 4.0)
-# words: 1599
+# words: 1600
 ka	ka nā ke te ta
 i	i
 ʻo	ʻo
@@ -22,7 +22,7 @@ nui	nui
 mau	mau
 kona	kona
 kekahi	kekahi
-ʻano	ʻano
+ʻano	ʻano ano
 hui	hui
 kahi	kahi
 ana	ana
@@ -82,8 +82,8 @@ kula	kula
 mālama	mālama
 alakaʻi	alakaʻi
 aku	aku
+kumu	kumu tumu
 ʻē	ʻē ē
-kumu	kumu
 puke	puke
 hoʻi	hoʻi
 lāua	lāua
@@ -227,7 +227,6 @@ moku	moku
 holoʻokoʻa	holoʻokoʻa
 noʻeau	noʻeau
 makua	mākua makua matua
-ʻai	ʻai ʻaina
 nowemapa	nowemapa
 palapala	palapala
 mōʻaukala	mōʻaukala
@@ -252,6 +251,7 @@ hoʻomana	hoʻomana
 akua	akua
 iho	iho
 lāhui	lāhui
+hoaaloha	hoaaloha hoaloha
 ulu	ulu
 pepeluali	pepeluali
 hoa	hoa
@@ -276,7 +276,6 @@ koa	koa
 hanana	hanana
 wehewehe	wehewehe
 kūikawā	kūikawā
-hoaaloha	hoaaloha
 ʻānō	ʻānō
 ʻolua	ʻolua
 ʻehia	ʻehia
@@ -292,6 +291,7 @@ mahina	mahina
 mīkini	mīkini mikini
 haʻalele	haʻalele
 piha	piha
+ʻai	ʻai
 mauna	mauna
 holoholona	holoholona
 kānāwai	kānāwai
@@ -372,7 +372,6 @@ kapu	kapu
 noi	noi
 lumi	lumi
 kamaʻilio	kamaʻilio
-piʻi	piʻi pipiʻi
 lole	lole
 hoʻoulu	hoʻoulu
 wela	wela
@@ -384,6 +383,7 @@ puni	puni
 kuhikuhi	kuhikuhi
 lapaʻau	lapaʻau lāpaʻau
 nona	nona
+piʻi	piʻi
 hoʻōla	hoʻōla
 ʻōiwi	ʻōiwi
 ʻuhane	ʻuhane uhane
@@ -469,6 +469,7 @@ koi	koi
 hoʻohālike	hoʻohālike
 olakino	olakino
 hau	hau
+ʻaina	ʻaina
 makani	makani
 maiʻa	maiʻa
 ā	ā
@@ -593,7 +594,6 @@ kumukānāwai	kumukānāwai
 laikini	laikini
 heluhelu	heluhelu
 puʻuwai	puʻuwai
-kala	kala hoʻokala
 pākaukau	pākaukau
 nū	nū
 nohona	nohona
@@ -615,6 +615,7 @@ hihia	hihia
 ʻalemanaka	ʻalemanaka
 ʻeiwa	ʻeiwa
 kou	kou
+kala	kala
 huna	huna
 hoʻopunipuni	hoʻopunipuni
 kaʻawale	kaʻawale
@@ -662,7 +663,6 @@ kaulua	kaulua
 kui	kui
 ʻahaʻōlelo	ʻahaʻōlelo
 kīkā	kīkā
-hoaloha	hoaloha
 pūkaʻina	pūkaʻina
 palekana	palekana
 moe	moe
@@ -723,7 +723,6 @@ hilinaʻi	hilinaʻi
 mākaʻi	mākaʻi
 ʻoki	ʻoki oki
 kālailai	kālailai
-ʻaʻa	ʻaʻa ʻā
 pali	pali
 kāhea	kāhea
 huapalapala	huapalapala
@@ -808,7 +807,6 @@ kōnui	kōnui
 kūmole	kūmole
 kilo	kilo
 aha	aha
-ano	ano
 lula	lula
 kāpae	kāpae
 hilo	hilo
@@ -848,8 +846,10 @@ kila	kila
 pāpū	pāpū
 hoe	hoe
 hōkele	hōkele
+ʻaʻa	ʻaʻa
 hōʻaiʻē	hōʻaiʻē
 pāheona	pāheona
+akaaka	akaka akaaka akāka
 kumumanaʻo	kumumanaʻo
 ahulau	ahulau
 ʻāʻī	ʻāʻī
@@ -1018,7 +1018,6 @@ poni	poni
 leokanipū	leokanipū
 hoʻāhewa	hoʻāhewa
 hoʻohiwahiwa	hoʻohiwahiwa
-akaaka	akaaka akāka
 mākia	mākia
 pepeiao	pepeiao
 pāloka	pāloka
@@ -1086,6 +1085,7 @@ loke	loke
 nalo	nalo
 kāhuli	kāhuli
 makaʻāinana	makaʻāinana
+ʻā	ʻā
 puʻukani	puʻukani
 hoʻākāka	hoʻākāka
 lawehala	lawehala
@@ -1190,7 +1190,6 @@ lōlō	lōlō
 ʻawe	ʻawe
 hoʻomoe	hoʻomoe
 unahi	unahi
-akaka	akaka
 ʻele	ʻele
 palaki	palaki
 kumupaʻa	kumupaʻa
@@ -1246,6 +1245,7 @@ kākela	kākela
 liʻi	liʻi
 holoi	holoi
 hoʻonani	hoʻonani
+pipiʻi	pipiʻi
 honu	honu
 mōhai	mōhai
 naʻaupō	naʻaupō
@@ -1323,7 +1323,6 @@ hapahā	hapahā
 hiamoe	hiamoe
 neo	neo nea
 ahupuaʻa	ahupuaʻa
-lepe	lepe lepa
 huinahā	huinahā
 kanahiku	kanahiku
 hali	hali
@@ -1336,6 +1335,7 @@ loʻi	loʻi
 peku	peku
 ʻikena	ʻikena
 pāhoehoe	pāhoehoe
+hoʻokala	hoʻokala
 ama	ama
 ʻau	ʻau
 anamanaʻo	anamanaʻo
@@ -1361,6 +1361,7 @@ hoʻomaʻi	hoʻomaʻi
 kolepa	kolepa
 ʻinoʻino	ʻinoʻino
 ono	ono
+lepe	lepe
 ukiuki	ukiuki
 haʻihaʻi	haʻihaʻi
 leʻa	leʻa
@@ -1375,7 +1376,6 @@ kanaiwa	kanaiwa
 kāki	kāki
 welina	welina
 kulu	kulu
-tumu	tumu
 hoʻohala	hoʻohala
 ʻaiʻē	ʻaiʻē
 mauʻu	mauʻu
@@ -1559,6 +1559,7 @@ hilu	hilu
 nananana	nananana
 hame	hame
 kuka	kuka
+lepa	lepa
 oka	oka
 pano	pano
 holokū	holokū
