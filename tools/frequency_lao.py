@@ -1,5 +1,5 @@
 """
-Lao corrections for tools/build_frequency_list.py (build_lao), from reading the list's top 2,300 by hand (2026-11-19).
+Lao corrections for tools/build_frequency_list.py (build_lao), from reading the list's top 2,300 by hand (2026-11-19), and its top 1,000 again.
 
 The reader cuts Lao with ICU's word-break list (files/lexicon/lo.txt), which has the syllables of names and foreign words as
 entries of their own so that it can cut them: a name the dictionary lacks (ສີສະຫວັນ, ອິນເຕີເນຊັນແນລ) comes out as its
@@ -17,9 +17,12 @@ FRAGMENTS = set("""
 ອິນ ຊັນ ຄອນ ກຸນ ມອນ ເວດ ກຸດ ມິນ ມຸງ ລາມ ທັມ ເຊັນ ເຈນ ຮາມ ລິນ ເລນ ມັງ ຊອບ ນາດ ເກດ ເອັນ ນັນ ຊິນ ວິນ ແອນ ແມນ
 ອອນ ອັບ ນິກ ປິນ ອັງ ຕິກ ຊຶມ ຍົດ ເວນ ອານ ຂອນ ຮຽງ ເດນ ໂມນ ເຊນ ແຊນ ເບນ ຮິນ ຮັນ ເຄນ ຊອນ ລຽນ ວິດ ໂນນ ບອນ ປາງ ຕົງ
 ນົນ ທອນ ພາມ ພວນ ຊ່າ ທັດ
+ບຸລີ ທານີ ຊຽງ ໄຊ ບໍລົມ ລາຊະ ພະລາຊະ ວໍລະ ຈຸລາ ມຸກດາ ຫານ ກອນ ຊານ ລັງ ມາກ ໂອ ຂຸນ ສັກ ທັບ ຊິ
+ອາ ກາ ລາ ສາ ທາ ຕິ ກະ ປະ
 """.split())
 
 SPELLINGS = {
     "ຂື້ນ": "ຂຶ້ນ", "ເຖີງ": "ເຖິງ", "ທັ້ງ": "ທັງ", "ຫຼີ້ນ": "ຫຼິ້ນ", "ເຊີ່ງ": "ເຊິ່ງ", "ຊຶ່ງ": "ເຊິ່ງ", "ຊື່ງ": "ເຊິ່ງ",
     "ເລິ່ມ": "ເລີ່ມ", "ໜື່ງ": "ໜຶ່ງ", "ໄກ້": "ໃກ້", "ເງີນ": "ເງິນ", "ຮວມ": "ຮ່ວມ", "ຊ່ອຍ": "ຊ່ວຍ", "ຈິ່ງ": "ຈຶ່ງ",
+    "ກຳໜົດ": "ກຳນົດ", "ພຣະ": "ພະ",
 }

@@ -228,6 +228,7 @@ WORD_POS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", 
 from frequency_fixes import ARABIC_CUT, ARABIC_WHOLE, DISPLAY, EXCLUDE, KOREAN_APART, KOREAN_CUT, KOREAN_STEMS, KOREAN_WHOLE, OVERRIDES, REFILE, SLOVAK_NEGATIVE_VERBS  # noqa: E402
 import frequency_persian  # noqa: E402
 import frequency_mongolian  # noqa: E402
+import frequency_lao  # noqa: E402
 
 OVERRIDES["fa"] = frequency_persian.PERSIAN_OVERRIDES
 EXCLUDE["fa"] = frequency_persian.PERSIAN_EXCLUDE
@@ -4268,7 +4269,7 @@ def build_thai(size):
 LAO_ROUNDS = 6
 # Lao Wikipedia's own words and the pieces of its names and markup, which no learner reads in a text.
 LAO_EXCLUDE = {
-    "ວິກິພີເດຍ", "ແມ່ແບບ", "ບົດຄວາມ", "ເວັບໄຊ", "ເວັບໄຊຕ໌", "ເວັບໄຊທ໌", "ໝວດໝູ່", "ກມ",
+    "ວິກິພີເດຍ", "ແມ່ແບບ", "ບົດຄວາມ", "ເວັບໄຊ", "ເວັບໄຊຕ໌", "ເວັບໄຊທ໌", "ໝວດໝູ່", "ກມ", "ອ້າງອີງ",
 }
 # What the pack has a word as that makes it no word of a text: a name or a letter, unless it is something else too.
 LAO_NOT_WORDS = {"name", "character", "symbol", "abbrev", "abbreviation", "prefix", "suffix", "affix", "unknown", "punct"}
@@ -4304,10 +4305,10 @@ def build_lao(size):
         counts = defaultdict(int)
         for run, n in text_runs.items():
             pieces = segment(run)
-            known = [lao_word(p, lexicon) for p in pieces]
+            known = [lao_word(p, lexicon) and p not in frequency_lao.FRAGMENTS for p in pieces]
             for i, piece in enumerate(pieces):
                 # As Thai's: not a piece next to letters no word covers (a name, a foreign word), whose other pieces are
-                # words to the dictionary (ອິນ, ເຕີ of ອິນເຕີເນຊັນແນລ).
+                # words to the dictionary (ອິນ, ເຕີ of ອິນເຕີເນຊັນແນລ), nor next to a syllable of one (FRAGMENTS).
                 if known[i] and (i == 0 or known[i - 1]) and (i + 1 == len(pieces) or known[i + 1]):
                     counts[piece] += n
         built = lao_list(counts, noise, size, label)
@@ -4320,11 +4321,14 @@ def build_lao(size):
 
 
 def lao_list(counts, noise, size, label):
-    """The list from Lao counts: the commonest words, a spelling with ຣ under the commoner one with ລ."""
-    under = {}
+    """
+    The list from Lao counts: the commonest words, a spelling with ຣ under the commoner one with ລ, and a misspelling or an
+    older spelling under the word it spells (frequency_lao.SPELLINGS).
+    """
+    under = dict(frequency_lao.SPELLINGS)
     for word in counts:
         other = word.replace("ຣ", "ລ")
-        if other != word and other in counts:
+        if other != word and other in counts and word not in under:
             low, high = sorted((word, other), key=lambda w: (counts[w], w))
             under[low] = high
     scores = defaultdict(int)
