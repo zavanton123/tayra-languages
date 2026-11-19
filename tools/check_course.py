@@ -29,6 +29,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import frequency_cornish  # noqa: E402
 import frequency_bengali  # noqa: E402
 import frequency_kannada  # noqa: E402
+import frequency_swahili  # noqa: E402
 import frequency_persian  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -258,6 +259,9 @@ def fold(code, word):
     # The Maltese reader reads ’ ‘ ´ ` as the apostrophe (ta’, f’Malta).
     if code == "mt":
         return word.translate(MALTESE_APOSTROPHES)
+    # The Swahili list writes the straight apostrophe (ng'ombe); the reader reads ’ ‘ ´ ` as it.
+    if code == "sw":
+        return word.translate(frequency_swahili.APOSTROPHES)
     # Armenian և is matched as the one letter where a text writes it as two (նաեւ), as the reader matches it.
     if code == "hy":
         return word.replace("եւ", "և")
@@ -3079,6 +3083,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^প্রশ্ন:", "", text)
             # A number in Bengali or Western digits, with the classifier or ending written on (১০টা, ৫ জন's ৫, ২০২৪-এ), is a number.
             text = re.sub(r"[০-৯0-9]+(?:-?[\u0980-\u09ff]+)?", " ", text)
+        if code == "sw":
+            text = re.sub(r"(?m)^Maswali:", "", text)
         if code == "th":
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "vi":
@@ -3169,6 +3175,10 @@ def check(path, brief=False):
         if code == "bn":
             lowered = [w if w in ranks or w in names or len(w) < 3 or w[-1] not in "ইও" or w[:-1] not in ranks else w[:-1]
                        for w in lowered]
+        # Swahili writes a verb with its markers in front (tutakapokutana) and an adjective with its class prefix (vizuri): a word
+        # the list lacks is read by the rules the list was built with (frequency_swahili).
+        if code == "sw":
+            lowered = [w if w in ranks or w in names else frequency_swahili.checker_word(w, ranks) or w for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
