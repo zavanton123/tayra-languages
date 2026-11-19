@@ -2487,7 +2487,7 @@ BASQUE_FOLD = {
     "hobeak": "on", "beharko": "behar", "ezingo": "ezin", "jainkoarren": "jainko", "arraioa": "arraio", "edateko": "edan",
     "komuna": "komun", "biharko": "bihar", "hiriko": "hiri", "kanpoko": "kanpo", "aldetik": "alde", "inora": "inor",
     "nongo": "non", "aspaldiko": "aspaldi", "aspalditik": "aspaldi", "gehienak": "asko", "gehiagorik": "asko",
-    "betirako": "beti", "batzutan": "batzuk", "denoi": "dena",
+    "betirako": "beti", "batzutan": "batzuk", "denoi": "dena", "nekatuta": "nekatu",
 }
 # Common words of the subtitles no pack has (hain "so", ezta "nor", tira "come on", libre "free").
 BASQUE_WORDS = {
@@ -2502,6 +2502,7 @@ BASQUE_WORDS = {
     "moldatu": "verb", "geldiarazi": "verb", "ikaratu": "verb", "berreskuratu": "verb", "luzaroan": "adv",
     "zeharkatu": "verb", "kontxo": "intj", "inportante": "adj", "hainbat": "det", "zenbait": "det", "akats": "noun",
     "bahitu": "verb", "horrenbeste": "adv", "kito": "intj", "zehazki": "adv", "urduri": "adj", "txoko": "noun", "sumatu": "verb",
+    "ordez": "prep", "bonboi": "noun",
     "okertu": "verb", "sakatu": "verb", "aurreratu": "verb", "imajinatu": "verb", "inolaz": "adv", "nolanahi": "adv",
     "zaintza": "noun", "harago": "adv", "estimatu": "verb", "komeni": "adj", "ezkero": "conj", "sendo": "adj", "inozo": "adj",
     "babo": "adj", "epa": "intj", "apuntatu": "verb",
