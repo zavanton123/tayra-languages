@@ -190,11 +190,14 @@ Levels: up to rank 300 `A1`, up to 600 `A2`.
   *ك* + *ده* (473); *اللي عند الجامع* for "the one near the mosque"; *عمارة* 380, *شقة* 488, *أوضة* 335
   for "house, flat, room".
 - **The list's faults**: it is mostly real Egyptian, but some entries are noise and some forms are
-  filed under the wrong word. Skip these band words (say so in your report): *جون* (a name), *الله*
-  (except where a story needs "God"), *باى*, *كلة* (its forms are *كله*), *نجيب*, *باكو*, *لسا* (the same
-  word as *لسه* 95), *عاز* (the same as *عايز* 110), *لب*, *كول*, *تك*, *مت*, *يوزر*, *كش*, *لنج*, *رامي*,
-  *مطروح*, *ناو*, *وسط البلد* (two words: the checker cannot count it), *تيل*, *حنك*, *أنبا*, *أفاتار*,
-  *امبو*, *فش*, *أمتع*, *متع*, *قلش*, *حدا*, *طاش*, *نبيت*, *سكس*, *كس*, *مزة*. Forms filed under another
+  filed under the wrong word. Skip these band words (say so in your report): names and titles
+  (*جون*, *نجيب*, *باكو*, *رامي*, *مطروح*, *أنبا*), duplicates and misfiled entries (*كلة*, whose forms
+  are *كله*; *لسا*, the same word as *لسه* 95; *عاز*, the same as *عايز* 110), *وسط البلد* (two words: the
+  checker cannot count it), junk, jargon and slang (*تك*, *مت*, *يوزر*, *أفاتار*, *فش*, *أمتع*, *متع*,
+  *كول*, *قلش*) and the vulgar *سكس*, *كس*, *مزة*. Rare but real, teach them only in their dictionary
+  sense where a story wants them, or skip: *الله* "God", *دوق* "duke", *باى* "bye!", *لب* "roasted
+  seeds" (its forms are junk), *ناو* "meow", *كش* "check" (chess), *لنج* "brand-new" (*جديد لنج*),
+  *طاش* "border", *حدا* "near, at", *تيل* "fibre", *امبو* "water" (children's word), *حنك* "jaw". Forms filed under another
   word count as that word, so never teach the word through them and do not lean on them for
   coverage: *بابا* is a form of *ماما* 132, *سوق* "market" of *ساق* 173 "drive", *برد* "cold" of *رد*
   165, *اتعلم* "learn" of *علم* 68 "flag, science", *جمال* of *جمل* 139, *والد*, *ولادة* and *مولود* of
